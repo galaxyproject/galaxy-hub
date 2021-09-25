@@ -13,7 +13,7 @@ When: Wednesday, July 2, 12:15 pm (lunch)
 
 Where: East Room 304
 
-Contact: [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md) & Karen Reddy
+Contact: [Jennifer Hillman-Jackson](/people/jennifer-jackson/) & Karen Reddy
 </div>
 
 

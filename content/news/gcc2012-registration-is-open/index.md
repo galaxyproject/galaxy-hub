@@ -17,4 +17,4 @@ There are several [registration levels](/src/events/gcc2012/register/index.md), 
 
 GCC2012 is hosted by the [University of Illinois at Chicago](http://uic.edu/), the [University of Illinois at Urbana-Champaign](http://illinois.edu/), and the [Computation Institute](http://www.ci.anl.gov/).
 
-[Dave Clements](/src/people/dave-clements/index.md), on behalf of the [GCC2012 Organizing Committee](/src/events/gcc2012/Organizing Committee/index.md)
+[Dave Clements](/people/dave-clements/index.md), on behalf of the [GCC2012 Organizing Committee](/src/events/gcc2012/Organizing Committee/)

@@ -12,7 +12,7 @@ image: "/src/events/2019-asmcue/asmcue-2019.jpg"
 gtn: true
 ---
 
-[Mo Heydarian](/src/people/mo-heydarian/index.md) of the Galaxy Project will present two sessions at the [2019 ASM Conference for Undergraduate Educators (ASMCUE)](https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home)
+[Mo Heydarian](/people/mo-heydarian/) of the Galaxy Project will present two sessions at the [2019 ASM Conference for Undergraduate Educators (ASMCUE)](https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home)
 
 | Day | Time | Topic | Where |
 | ---- | ---- | ---- | ---- |

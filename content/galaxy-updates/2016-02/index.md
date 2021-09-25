@@ -109,7 +109,7 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
     Valentina Boeva, (23 Sep 2014)
 
 * [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract)
-    Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/src/people/marten/index.md), and Geir Kjetil Sandve, *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
+    Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/people/marten/), and Geir Kjetil Sandve, *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
 
 The new papers were tagged with:
 
@@ -215,13 +215,13 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> February 18 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>Online</a></em> </td>
-    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/src/people/nate/index.md'>Nate Coraor</a>,<a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/people/nate/index.md'>Nate Coraor</a>,<a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>
     <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' />  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -529,7 +529,7 @@ See [list of tools contributed in January](/src/toolshed/contributions/2016-01/i
 
 The app has been in development for over a year at the University of Oslo as part of [Claus Børnich's masters thesis](https://www.duo.uio.no/handle/10852/44701) and is described in 
 
-  Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/src/people/marten/index.md), and Geir Kjetil Sandve. [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract). *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
+  Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/people/marten/), and Geir Kjetil Sandve. [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract). *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
 
 A [user manual](https://github.com/Tarostar/QMLGalaxyPortal/raw/master/GalaxyPortalUserGuide.pdf), additional information, and the full source are [available on GitHub](https://github.com/Tarostar/QMLGalaxyPortal).
 

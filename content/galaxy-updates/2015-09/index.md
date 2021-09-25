@@ -25,7 +25,7 @@ Welcome to the September 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a
     Benjamin Schubert, Hans-Philipp Brachvogel, Christopher Jürges, Oliver Kohlbacher, *Bioinformatics*, Vol. 31, No. 13. (01 July 2015), pp. 2211-2213, doi:10.1093/bioinformatics/btv116
 
 * [Experimental validation of methods for differential gene expression analysis and sample pooling in RNA-seq](https://doi.org/10.1186/s12864-015-1767-y)
-    Anto P. Rajkumar, Per Qvist, [Ross Lazarus](/src/people/fubar/index.md), Francesco Lescai, Jia Ju, Mette Nyegaard, Ole Mors, Anders D. Børglum, Qibin Li, Jane H. Christensen, *BMC Genomics*, Vol. 16, No. 1. (25 July 2015), 548, doi:10.1186/s12864-015-1767-y
+    Anto P. Rajkumar, Per Qvist, [Ross Lazarus](/people/fubar/), Francesco Lescai, Jia Ju, Mette Nyegaard, Ole Mors, Anders D. Børglum, Qibin Li, Jane H. Christensen, *BMC Genomics*, Vol. 16, No. 1. (25 July 2015), 548, doi:10.1186/s12864-015-1767-y
 
 * [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](https://doi.org/10.1074/mcp.o115.048777)
     Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews, Conrad Bessant, *Molecular & Cellular Proteomics* (12 August 2015), mcp.O115.048777, doi:10.1074/mcp.o115.048777
@@ -149,7 +149,7 @@ This split allows us to present Galaxy events in a much sparser calendar, that i
 <a href='http://www.irida.ca/'><img src="/src/images/logos/IRIDA.png" alt="IRIDA" width="175" /></a>
 </div>
 
-The [next GalaxyAdmins meetup on August 20](/src/community/galaxy-admins/meetups/2015-08-20/index.md) was attended by 27 *GalaxyAdmins*.  [Aaron Petkau](https://github.com/apetkau) covered *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy* and [Enis Afgan](/src/people/enis-afgan/index.md) presented *Adding transparency and automation into the Galaxy tool installation process*.
+The [next GalaxyAdmins meetup on August 20](/src/community/galaxy-admins/meetups/2015-08-20/index.md) was attended by 27 *GalaxyAdmins*.  [Aaron Petkau](https://github.com/apetkau) covered *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy* and [Enis Afgan](/people/enis-afgan/) presented *Adding transparency and automation into the Galaxy tool installation process*.
 
 In case you missed it, [slides and video are now available online](/src/community/galaxy-admins/meetups/2015-08-20/index.md).
 
@@ -248,7 +248,7 @@ There are [upcoming events](/src/events/index.md) in five countries on three con
     <th> october 15 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2015-10-15/index.md'>October Galaxy Admins Meetup</a></em> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 19 </th>
@@ -266,7 +266,7 @@ There are [upcoming events](/src/events/index.md) in five countries on three con
     <th> October 28 - November 3 </th>
     <td> <em><a href='http://meetings.cshl.edu/courses.aspx?course=c-ecg&year=15'>Computational & Comparative Genomics Course</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
 </table>
 

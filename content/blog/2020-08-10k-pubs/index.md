@@ -641,7 +641,7 @@ Galaxy has had an interesting journey over the past 15 years, and the Galaxy Pub
 
 *Thanks for using Galaxy (and for saying that you are using Galaxy!),* 
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)
 
 
 ----

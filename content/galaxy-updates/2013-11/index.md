@@ -97,7 +97,7 @@ And ...
 
 ## Ten Simple Rules for Reproducible Computational Research
 
-[Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/), [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md), and [Eivind Hovig](http://www.mn.uio.no/ifi/english/people/aca/ehovig/index.html)'s paper "[Ten Simple Rules for Reproducible Computational Research](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)" was published in *[PLoS Computational Biology](http://www.ploscompbiol.org/)* in October.  
+[Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/), [Anton Nekrutenko](/people/anton/index.md), [James Taylor](/src/people/james-taylor/), and [Eivind Hovig](http://www.mn.uio.no/ifi/english/people/aca/ehovig/index.html)'s paper "[Ten Simple Rules for Reproducible Computational Research](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)" was published in *[PLoS Computational Biology](http://www.ploscompbiol.org/)* in October.  
 
 <div class='right'><a href='http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285'><img src="/src/images/logos/PlosCompBioLogo.png" alt="PLoS Computational Biology: Ten Simple Rules for Reproducible Computational Research" width="240" /></a></div>
 
@@ -263,7 +263,7 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
     <th> November 20 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2013-11-20/index.md'>November GalaxyAdmins Meetup</a></em> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2013-11-20/index.md'>Online</a> </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, Srinivas Maddhi </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a>, Srinivas Maddhi </td>
   </tr>
   <tr>
     <th> November 22 </th>
@@ -308,19 +308,19 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
     <th> January 11-15 </th>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXII (PAG 2014)</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 16-17 </th>
     <td> <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'>2014 GMOD Meeting</a> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
     <td> <a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 2 </th>

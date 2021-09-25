@@ -175,7 +175,7 @@ Presented by **Gilda Le Corguillé<sup>1</sup>**
 
 ### Galaxy: Farm to Federation
 
-**Kyle Ellrott<sup>1</sup>**, [Dannon Baker](/src/people/dannon-baker/index.md)<sup>2</sup>
+**Kyle Ellrott<sup>1</sup>**, [Dannon Baker](/people/dannon-baker/)<sup>2</sup>
 
  <sup>1</sup> UC Santa Cruz<br />
  <sup>2</sup> John Hopkins University
@@ -215,14 +215,14 @@ Lightning talks are your opportunity to give an impassioned and enthralling talk
 
 ## Slides
 
-* Your slides (as PDF or PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/src/people/dave-clements/index.md)) to minimize the risk of BYOD. 
+* Your slides (as PDF or PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/people/dave-clements/)) to minimize the risk of BYOD. 
 * You can BYOD (your own computer or whatever) but you are advised not to. 
 * **If you do BYOD, we will start swapping out your device at 2 minutes left, rather than 1.**
 * Connection and fiddling time beyond the first minute comes out of your 5 minutes and ***is painful, for everyone.***  
 
 ## Gratuitous Advice
 
-From [Ross Lazarus](/src/people/fubar/index.md), the (possibly former) *Benevolent Lightning Session Moderator for Life*
+From [Ross Lazarus](/people/fubar/), the (possibly former) *Benevolent Lightning Session Moderator for Life*
 
 * Good lightning talks are well rehearsed and very, very focussed.  
 * Plan on talking to 5 or 6 slides 

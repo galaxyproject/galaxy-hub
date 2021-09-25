@@ -16,7 +16,7 @@ Sponsorships are available at four different levels.
     <td style=" border: none;"> <a href='http://www.lifetechnologies.com/'><img src="/src/events/gcc2012/sponsorships/IonTorrentLogo340.png" alt="Ion Torrent"  /></a> </td>
     <td style=" border: none;"> </td>
     <td style=" border: none;"> </td>
-    <td style=" border: none; text-align: center;"> <strong><a href='http://www.lifetechnologies.com/'>Ion Torrent</a></strong><br /><br />GCC Representatives: <br /><a href='/src/people/mike-lelivelt/index.md'>Mike Lelivelt</a> &bull; <a href='/src/people/matt-dyer/index.md'>Matt Dyer</a><br />Mike Hunsicker &bull; Eric Hilligoss </td>
+    <td style=" border: none; text-align: center;"> <strong><a href='http://www.lifetechnologies.com/'>Ion Torrent</a></strong><br /><br />GCC Representatives: <br /><a href='/people/mike-lelivelt/index.md'>Mike Lelivelt</a> &bull; <a href='/src/people/matt-dyer/'>Matt Dyer</a><br />Mike Hunsicker &bull; Eric Hilligoss </td>
   </tr>
 </table>
 
@@ -29,7 +29,7 @@ Sponsorships are available at four different levels.
     <td style=" border: none;"> <a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCLogo260.png" alt="EMC Isilon" width="250" /></a> </td>
     <td style=" border: none;"> </td>
     <td style=" border: none;"> </td>
-    <td style=" border: none; text-align: center;"> <strong><a href='http://www.emc.com/isilon'>EMC Isilon</a></strong><br /><br />GCC Representatives: <br /><a href='/src/people/sanjay-joshi/index.md'>Sanjay Joshi</a> &bull; Alpesh Shah<br />Scott Wilson &bull; Kristine Swander </td>
+    <td style=" border: none; text-align: center;"> <strong><a href='http://www.emc.com/isilon'>EMC Isilon</a></strong><br /><br />GCC Representatives: <br /><a href='/people/sanjay-joshi/'>Sanjay Joshi</a> &bull; Alpesh Shah<br />Scott Wilson &bull; Kristine Swander </td>
   </tr>
 </table>
 
@@ -49,7 +49,7 @@ Sponsorships are available at four different levels.
   </tr>
   <tr>
     <td style=" text-align: center; border: none;"> <a href='http://www.igb.uiuc.edu/'><img src="/src/events/gcc2012/sponsorships/UIUC_IGB280.png" alt="The Institute for Genomic Biology" width=260 /></a> </td>
-    <td style=" border: none; text-align: center;"> <a href='/src/people/radhika-khetani/index.md'>Radhika Khetani</a> </td>
+    <td style=" border: none; text-align: center;"> <a href='/people/radhika-khetani/'>Radhika Khetani</a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; border: none;"> <a href='http://www.biotech.uiuc.edu/'><img src="/src/events/gcc2012/sponsorships/UIUC_RJC_Biotech_Center280.png" alt="Roy J. Carver Biotechnology Center" width=260 /></a> </td>

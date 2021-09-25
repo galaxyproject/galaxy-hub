@@ -8,7 +8,7 @@
 
 <div class='title'>Introduction to Galaxy<br />July 19, 2013</div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+**Instructor: [Dave Clements](/people/dave-clements/)
 
 9:00-4:30<br />
 Health Sciences Library Biogen-Idec Classroom (#307)<br />

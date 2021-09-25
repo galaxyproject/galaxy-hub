@@ -106,7 +106,7 @@ Ison, J., Ménager, H., Brancotte, B., Jaaniso, E., Salumets, A., Raček, T., �
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[A high resolution view of adaptive event dynamics in a plasmid](https://doi.org/10.1093/gbe/evz197)</div>
 
-Mei, H., Arbeithuber, B., Cremona, M. A., DeGiorgio, M., & [Nekrutenko, A](/src/people/anton/index.md). (2019). Genome Biology and Evolution. doi: 10.1093/gbe/evz197
+Mei, H., Arbeithuber, B., Cremona, M. A., DeGiorgio, M., & [Nekrutenko, A](/people/anton/). (2019). Genome Biology and Evolution. doi: 10.1093/gbe/evz197
 </div>
 
 <div class="card border-info" style="min-width: 14rem;">

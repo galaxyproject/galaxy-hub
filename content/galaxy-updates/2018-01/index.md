@@ -267,7 +267,7 @@ The Galaxy is expanding! Please help it grow.
 
 * [Responsable Opérationnel de la Plateforme de Bioinformatique ARTbio](https://www.sfbi.fr/content/responsable-op%C3%A9rationnel-de-la-plateforme-de-bioinformatique-artbio), ARTbio, Institut de Biologie Paris Seine, France
 * [Classification des micropolluants dans l'environnement : amélioration de l'algorithme online TyPol](https://www.sfbi.fr/content/classification-des-micropolluants-dans-lenvironnement-am%C3%A9lioration-de-lalgorithme-online-typ), INRA-LBE, Narbonne, France
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
+* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
@@ -461,10 +461,10 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 # Other News
 
 * Would you like to learn some Python or JavaScript and improve Galaxy at the same time? Check out our collection of very friendly issues tagged [help wanted](https://github.com/galaxyproject/galaxy/issues?q=label%3A%22help+wanted%22+is%3Aissue+is%3Aopen). Please feel free to ask, comment, and request guidance. 
-* From [Björn Grüning](/src/people/bjoern-gruening/index.md)
+* From [Björn Grüning](/people/bjoern-gruening/)
   *  `shed-tools update` will now update all Galaxy tools in your Galaxy instance. What a wonderful [contribution](https://github.com/galaxyproject/ephemeris/pull/64) from [Ruben Vorderman](https://github.com/rhpvorderman)!
-  * Our community maintained [CVFMS](http://cernvm.cern.ch/) based reference data storage has now a European mirror. Thanks to [JRC / EU Science Hub](https://ec.europa.eu/jrc/en), the [European Commission](http://ec.europa.eu/), [Nate Coraor](/src/people/nate/index.md) and [Guy Van den Eede](https://twitter.com/guyvandeneede). This is now also available in the [Galaxy Docker project](https://github.com/bgruening/docker-galaxy-stable)! Enjoy!
-* From [John Chilton](/src/people/john-chilton/index.md)
+  * Our community maintained [CVFMS](http://cernvm.cern.ch/) based reference data storage has now a European mirror. Thanks to [JRC / EU Science Hub](https://ec.europa.eu/jrc/en), the [European Commission](http://ec.europa.eu/), [Nate Coraor](/people/nate/) and [Guy Van den Eede](https://twitter.com/guyvandeneede). This is now also available in the [Galaxy Docker project](https://github.com/bgruening/docker-galaxy-stable)! Enjoy!
+* From [John Chilton](/people/john-chilton/)
   * WIP: [API to build hierarchical data in Galaxy](https://github.com/galaxyproject/galaxy/pull/5220) (libraries & collections) from zip files, YAML descriptions, BagIt archives, etc...   
   * [Allow Galaxy tools to detect out of memory errors and job runners to resubmit to other resources](https://github.com/galaxyproject/galaxy/pull/5196) based on this and other tool detected errors. 
   * Galaxy [no longer depends on having samtools on its PATH](https://github.com/galaxyproject/galaxy/pull/5037). Another huge deployability step forward from [Marius van den Beek](https://github.com/mvdbeek)!

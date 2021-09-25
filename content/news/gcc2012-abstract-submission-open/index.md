@@ -17,4 +17,4 @@ See the [GCC2011 program](/src/events/gcc2011/index.md) for an idea of the bread
 
 GCC2012 is hosted by the [University of Illinois at Chicago](http://uic.edu/), the [University of Illinois at Urbana-Champaign](http://illinois.edu/), and the [Computation Institute](http://www.ci.anl.gov/).
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

@@ -19,4 +19,4 @@ The **[September Galactic News](/src/galaxy-updates/2015-09/index.md)** is hot o
   * [Workflow4Metabolomics](/src/galaxy-updates/2015-09/index.md#workflow4metabolomics) and [EpiToolKit](/src/galaxy-updates/2015-09/index.md#epitoolkit)
 * [Three security advisories](/src/galaxy-updates/2015-09/index.md#security-advisories), [Recent Releases](/src/galaxy-updates/2015-09/index.md#other-releases), and [ToolShed Contributions](/src/galaxy-updates/2015-09/index.md#toolshed-contributions)
 
-[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)

@@ -19,11 +19,11 @@ Welcome to the February *[Galaxy Update](/src/galaxy-updates/index.md)*, a summa
 55 new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in January. Some highlights:
 
 * [Open pipelines for integrated tumor genome profiles reveal differences between pancreatic cancer tumors and cell lines](https://doi.org/10.1002/cam4.360)
-    [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Bassel F. El-Rayes, Shishir K. Maithel, H. Jean Khoury, [James Taylor](/src/people/james-taylor/index.md), Michael R. Rossi, *Cancer Medicine* (December 2014), doi:10.1002/cam4.360
+    [Jeremy Goecks](/people/jeremy-goecks/index.md), Bassel F. El-Rayes, Shishir K. Maithel, H. Jean Khoury, [James Taylor](/src/people/james-taylor/), Michael R. Rossi, *Cancer Medicine* (December 2014), doi:10.1002/cam4.360
 * [Merging OpenLifeData with SADI services using Galaxy and Docker](http://www.biorxiv.org/content/biorxiv/early/2015/01/10/013615)
     Mikel E. Aranguren, *bioRxiv*
 * [NCBI BLAST+ integrated into Galaxy](http://www.biorxiv.org/content/early/2015/01/21/014043)
-    Peter J. A. Cock, [John M. Chilton](/src/people/john-chilton/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), James E. Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/index.md), *bioRxiv*
+    Peter J. A. Cock, [John M. Chilton](/people/john-chilton/index.md), [Björn Grüning](/people/bjoern-gruening/), James E. Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/), *bioRxiv*
 * [SmileFinder: a resampling-based approach to evaluate signatures of selection from genome-wide sets of matching allele frequency data in two or more diploid populations](http://www.gigasciencejournal.com/content/4/1/1/abstract)
     Wilfried M Guiblet, Kai Zhao, Stephen J O'Brien, Steven E Massey, Alfred L Roca and Taras K Oleksyk, *[GigaScience](http://www.gigasciencejournal.com/)* 2015, 4:1<br />
     [Supplementary materials](http://gigagalaxy.net/u/gigascience/g/wguiblet2014) (as a Galaxy Page)
@@ -162,7 +162,7 @@ Please let the organisers know if you are interested in helping make this event 
 
 The first [GalaxyAdmins](/src/community/galaxy-admins/index.md) [meetup of 2015](/src/community/galaxy-admins/meetups/2015-02-19/index.md) will happen online on Thursday, 19 February.  [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/news/2014-questionnaire/index.md) will be presented by [Dave Clements](/src/people/dave-clements/index.md), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/src/galaxy-team/index.md), and   [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) will lead a short discussion on *[GalaxyAdmins](/src/community/galaxy-admins/index.md) direction*.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/news/2014-questionnaire/index.md) will be presented by [Dave Clements](/people/dave-clements/index.md), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/src/galaxy-team/index.md), and   [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) will lead a short discussion on *[GalaxyAdmins](/src/community/galaxy-admins/) direction*.
 
 Thanks to everyone for letting us know what dates and times worked best for you.  This time and day of the week worked for a remarkable 91% of respondents.
 
@@ -174,7 +174,7 @@ The [first Baltimore Area Galaxy meetup](/src/events/meetups/baltimore/2015-01-2
 
 The second meetup is going to be hosted in February, for which we hope to have a slightly more focussed agenda. To talk about one or a few of the topics raised during the course of the month. There is now a Baltimore newsletter if you are interested) which goes out to the members who signed up for the first meetup. We hope to have more people in the coming months, and to grow a stronger Galaxy community in Baltimore. 
 
-[Enis Afgan](/src/people/enis-afgan/index.md) & [Nitesh Turaga](/src/people/nitesh-turaga/index.md)
+[Enis Afgan](/people/enis-afgan/index.md) & [Nitesh Turaga](/src/people/nitesh-turaga/)
 
 
 ## Other Events
@@ -208,7 +208,7 @@ There are [upcoming events](/src/events/index.md) in 5 countries on 4 continents
     <th rowspan=3> February 16-18 </th>
     <td> <em>Accessible and Reproducible Large-Scale Analysis with Galaxy</em> </td>
     <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <td> <em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic</em> </td>
@@ -223,7 +223,7 @@ There are [upcoming events](/src/events/index.md) in 5 countries on 4 continents
     <th> February 19 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2015-02-19/index.md'>February 2015 GalaxyAdmins Web Meetup</a></em> </td>
     <td> <em>Online</em> </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -386,7 +386,7 @@ Several *critical* security vulnerabilities were recently discovered by Bartlomi
 
 **IPython Integration**
 
-Thanks to the awesome work of community members [Björn Grüning](/src/people/bjoern-gruening/index.md) and [Helena Rasche](/src/people/helena-rasche/index.md), [Galaxy now features integration with the popular IPython project](/src/archive/dev-news-briefs/2015-01-13/index.md#ipython-integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker. 
+Thanks to the awesome work of community members [Björn Grüning](/people/bjoern-gruening/index.md) and [Helena Rasche](/people/helena-rasche/), [Galaxy now features integration with the popular IPython project](/src/archive/dev-news-briefs/2015-01-13/#ipython-integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker. 
 
 ** Tool Form Upgrade (for Beta Testing) **
 
@@ -428,8 +428,8 @@ Version 0.2.0 of [Planemo](https://github.com/galaxyproject/planemo/blob/master/
 * Improvements to way Planemo loads its own copy of Galaxy modules to prevent various conflicts when launching Galaxy from Planemo. ([Pull Request 56](https://github.com/galaxyproject/planemo/pull/56))
 * Allow setting various test output options in ``~/.planemo.yml`` and disabling JSON output. 
 * More experimental Brew and Tool Shed options that should not be considered part of Planemo's stable API. See [this presentation](http://bit.ly/gxbrew1) for more details.
-* Fix ``project_init`` for BSD tar (thanks to [Nitesh Turaga](/src/people/nitesh-turaga/index.md) for the bug report.)
-* Documentation fixes for tool linting command (thanks to [Nicola Soranzo](/src/people/nicola-soranzo/index.md)).
+* Fix ``project_init`` for BSD tar (thanks to [Nitesh Turaga](/people/nitesh-turaga/) for the bug report.)
+* Documentation fixes for tool linting command (thanks to [Nicola Soranzo](/people/nicola-soranzo/)).
 
 ## BioBlend
 
@@ -463,20 +463,20 @@ In no particular order:
   * [snpsift_dbnsfp_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_datatypes): Galaxy applicable data formats for SnpSift. snpsift_dbnsfp tool Allows for the creation of a snpsift dbnsfp Galaxy dataset from a tabular file that can be used by SnpSift dbnsfp to annotate a vcf formatted file.
   * [snpeff_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpeff_datatypes): Galaxy applicable data formats for SnpEff tools Galaxy applicable data formats for SnpEff tools.  The snpeffdb datatype provides the means to represent a SnpEff genome database in a Galaxy dataset.
   * [snpsift_dbnsfp](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp): snpEff SnpSift dbnsfp tool from Pablo Cingolani Annotates variants on genes using the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.) http://snpeff.sourceforge.net[/SnpSift](/src/galaxy-updates/2015-02/SnpSift/index.md).html#dbNSFP SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
-      Repository-Maintainer: [Björn Grüning](/src/people/bjoern-gruening/index.md), Jim Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/index.md)<br />
+      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/index.md), Jim Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed/
   * [snpsift](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift): snpEff SnpSift tools from Pablo Cingolani Variant annotation and effect prediction tools. It annotates and predicts the effects of variants on genes. This repository should manage tool dependencies. There are data managers for the Galaxy admin to download genome databases. SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
-      Repository-Maintainer: [Björn Grüning](/src/people/bjoern-gruening/index.md), Jim Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/index.md)<br />
+      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/index.md), Jim Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed /<br />
   * [snpsift_genesets](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_genesets): snpEff SnpSift genesets tool from Pablo Cingolani Annotates variants with GeneSets, such as Gene Ontology (GO), KEGG, Reactome, etc.; 
 
      http://snpeff.sourceforge.net/SnpSift.html#geneSets !SnpEff and !SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
-     Repository-Maintainer: [Björn Grüning](/src/people/bjoern-gruening/index.md), Jim Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/index.md)<br />
+     Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/index.md), Jim Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/)<br />
      Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 * [snpsift_dbnsfp_generic](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_generic): snpEff SnpSift dbnsfp tool that can use any dbnsfp-like annotation data Annotates variants on genes using a tabular set of annotation values such as those from the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.)<br />
     This tool determines the available annotations from the input, so it can be used for other organisms other than human or other annotation values than available from dbNSFP. http://snpeff.sourceforge.net[/SnpSift](/src/galaxy-updates/2015-02/SnpSift/index.md).html#dbNSFP <br />
     SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
-    Repository-Maintainer: [Björn Grüning](/src/people/bjoern-gruening/index.md), Jim Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/index.md)<br />
+    Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/index.md), Jim Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/)<br />
     Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 
 * *From [amawla](https://toolshed.g2.bx.psu.edu/view/amawla):*
@@ -532,7 +532,7 @@ In no particular order:
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc/): *
   * [data_manager_snpeff](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_snpeff): Manage SnpEff genome reference data Data managers for the Galaxy admin to download SnpEff genome databases. 
       SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
-      Repository-Maintainer: [Björn Grüning](/src/people/bjoern-gruening/index.md), Jim Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/index.md)<br />
+      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/index.md), Jim Johnson, [Nicola Soranzo](/src/people/nicola-soranzo/)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 
 ### Packages / Tool Dependency Definitions
@@ -544,25 +544,25 @@ In no particular order:
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [package_vienna_rna_1_8](https://toolshed.g2.bx.psu.edu/view/iuc/package_vienna_rna_1_8): Imported from capsule None  Contains a tool dependency definition that downloads and compiles version 1.8 of the Vienna RNA package.  The Vienna RNA Package consists of a C code library and several stand-alone programs for the prediction and comparison of RNA secondary structures.<br />
       http://www.tbi.univie.ac.at/RNA /<br />
-      Repository-Maintainer: [Björn Grüning](/src/people/bjoern-gruening/index.md)<br />
+      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/)<br />
       Repository-Development: https://github.com/bgruening/galaxytools
   * [package_perl_pdf_api2_2_023](https://toolshed.g2.bx.psu.edu/view/iuc/package_perl_pdf_api2_2_023): Contains a tool dependency definition that downloads and compiles version 2.023 of the perl PDF API 
   * [package_randfold_2_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_randfold_2_0): Contains a tool dependency definition that downloads and compiles version 2.0 of randfold. This is RANDFOLD version 2. The software compute the probability that, for a given sequence, the Minimum Free Energy (MFE) of the secondary structure is different from MFE computed with random sequences. <br />
-      Repository-Maintainer: [Björn Grüning](/src/people/bjoern-gruening/index.md) & Cameron Smith<br />
+      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/) & Cameron Smith<br />
       Repository-Development: https://github.com/bgruening/galaxytools
   * [package_boost_1_55](https://toolshed.g2.bx.psu.edu/view/iuc/package_boost_1_55): Tool dependency definition that downloads and compiles version 1.55 of the boost C++ libraries Boost provides free peer-reviewed portable C++ source libraries.<br />
       http://www.boost.org /<br />
-      Repository-Maintainer: [Björn Grüning](/src/people/bjoern-gruening/index.md)<br />
+      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/)<br />
       Repository-Development: https://github.com/bgruening/galaxytools
   * [package_rhmm_1_5_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_rhmm_1_5_0): Installs the RHmm CRAN library. Discrete, univariate or multivariate gaussian, mixture of univariate or multivariate gaussian HMM functions for simulation and estimation. 
   * [package_snpeff_4_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_snpeff_4_0): Contains a tool dependency definition that installs version 4.0 SnpEff, a variant annotation and effect prediction tool. SnpEff is a variant annotation and effect prediction tool by Pablo Cingolani. <br />
       It annotates and predicts the effects of variants on genes (such as amino acid changes).<br /> 
       SnpEff and SnpSift ( http://snpeff.sourceforge.net/ )
   * [package_bedtools_2_22](https://toolshed.g2.bx.psu.edu/view/iuc/package_bedtools_2_22): Contains a tool dependency definition that downloads and compiles version 2.22 of bedtools. bedtools - a swiss army knife for genome arithmetic<br />
-      Repository-Maintainer: [Björn Grüning](/src/people/bjoern-gruening/index.md)<br />
+      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/)<br />
       Repository-Development: https://github.com/galaxyproject/tools-iuc/tree/master/packages/package_bedtools_2_22
   * [package_squid_1_9g](https://toolshed.g2.bx.psu.edu/view/iuc/package_squid_1_9g): Tool dependency definition that downloads and compiles version 1.9g of the squid library. SQUID is a freely redistributable library of C code functions for sequence analysis. SQUID also includes a number of small utility programs.<br />
-      Repository-Maintainer: [Björn Grüning](/src/people/bjoern-gruening/index.md) & Cameron Smith<br />
+      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/) & Cameron Smith<br />
       Repository-Development: https://github.com/bgruening/galaxytools
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
@@ -576,9 +576,9 @@ In no particular order:
 
 # Other News
 
-* An [IPython Notebook that builds Galaxy tool_dependencies.xml file for Perl packages](http://nbviewer.ipython.org/github/bgruening/notebooks/blob/master/Perl/perl_package_to_galaxy_tool_dependency.ipynb), from [Björn Grüning](/src/people/bjoern-gruening/index.md)
+* An [IPython Notebook that builds Galaxy tool_dependencies.xml file for Perl packages](http://nbviewer.ipython.org/github/bgruening/notebooks/blob/master/Perl/perl_package_to_galaxy_tool_dependency.ipynb), from [Björn Grüning](/people/bjoern-gruening/)
 * [NSF Award CIF21 DIBBS: Tripal Gateway, a Platform for Next-Generation Data Analysis and Sharing](http://nsf.gov/awardsearch/showAward?AWD_ID=1443040).  Will integrate [Tripal](http://tripal.info/) and Galaxy, and allow Tripal community databases to create and share workflows.  (See also this story in [HPCwire](http://www.hpcwire.com/2015/01/21/nsf-signs-1-4-million-check-advance-community-database/).)
-* [Dan Blankenberg](/src/people/dan/index.md) on a [useful way to handle tools with outputs tied to tool version](https://github.com/galaxyproject/tools-iuc/issues/22#issuecomment-69930103) in Galaxy
+* [Dan Blankenberg](/people/dan/) on a [useful way to handle tools with outputs tied to tool version](https://github.com/galaxyproject/tools-iuc/issues/22#issuecomment-69930103) in Galaxy
 * In [galaxy-central](https://bitbucket.org/galaxy/galaxy-central/) now: [tools can explicitly produce collections of datasets](https://bitbucket.org/galaxy/galaxy-central/pull-request/634/allow-tools-to-explicitly-produce-dataset/diff) 
 * [Getting your 23 and Me data into Galaxy](http://genomeintelligence.org/?p=745), at [Genome Intelligence](http://genomeintelligence.org/) 
 * [What are the differences](https://www.biostars.org/p/126034/) between [Biostars - bioinformatics explained](https://www.biostars.org/) and [Biostars - Galaxy explained](https://biostar.usegalaxy.org/)?

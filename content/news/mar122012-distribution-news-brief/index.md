@@ -24,6 +24,6 @@ upgrade: % hg pull -u -r 40f1816d6857
 
 **Thanks for using Galaxy!**
 
-[Jennifer Jackson](/src/people/jennifer-jackson/index.md)
+[Jennifer Jackson](/people/jennifer-jackson/)
 
 [Galaxy Team](/src/galaxy-team/index.md)

@@ -18,7 +18,7 @@
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Automating Galaxy deployment @ artbio.fr: the pros and cons of Ansible</em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201602_Admins_Ansible_vanderbeek.pdf'>Slides</a>)<div class='indent'><a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='http://www.ibps.upmc.fr/fr'>Institute de Biologie Paris</a> </div> <em>The Wheels on the Galaxy go round and round: <a href='http://pythonwheels.com/'>Python Wheels</a> in Galaxy </em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201602_Admins_Wheels_Coraor.pdf'>Slides</a>)<div class='indent'><a href='/src/people/nate/index.md'>Nate Coraor</a>, Penn State University</div> </td>
+    <td> <em>Automating Galaxy deployment @ artbio.fr: the pros and cons of Ansible</em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201602_Admins_Ansible_vanderbeek.pdf'>Slides</a>)<div class='indent'><a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='http://www.ibps.upmc.fr/fr'>Institute de Biologie Paris</a> </div> <em>The Wheels on the Galaxy go round and round: <a href='http://pythonwheels.com/'>Python Wheels</a> in Galaxy </em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201602_Admins_Wheels_Coraor.pdf'>Slides</a>)<div class='indent'><a href='/people/nate/'>Nate Coraor</a>, Penn State University</div> </td>
   </tr>
   <tr>
     <th> Links </th>

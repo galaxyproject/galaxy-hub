@@ -56,7 +56,7 @@ The GalaxyAdmins group has been hiatus for a while. Though, the discussion about
 
 ## Leadership
 
-When Srinivas took over for Ann in fall 2012, he agreed to be the *interim* leader of the group.  Beginning 2015, [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) took over the leadership.
+When Srinivas took over for Ann in fall 2012, he agreed to be the *interim* leader of the group.  Beginning 2015, [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) took over the leadership.
 
 ### Leadership Model
 

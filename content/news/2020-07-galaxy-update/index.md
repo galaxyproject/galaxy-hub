@@ -354,7 +354,7 @@ The GVL Beta 3 release features complete analysis on one platform, including tra
 
 By [Emily Lescak](https://eventfund.codeforscience.org/author/emily/) of [Code for Science & Society](https://codeforscience.org/)
 
-A conversation with [Dave Clements](/src/people/dave-clements/index.md) about moving BCC2020 from an in-person to a virtual event, and the opportunities that move enabled.
+A conversation with [Dave Clements](/people/dave-clements/) about moving BCC2020 from an in-person to a virtual event, and the opportunities that move enabled.
 
 <img class="card-img-bottom" src="/src/images/logos/c4sas.png" alt="Code for Science & Society" />
 </div>

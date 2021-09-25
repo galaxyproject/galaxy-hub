@@ -19,7 +19,7 @@ I am now keenly aware of that second fact as we have heard from many folks that 
 
 With apologies for the original date,
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)
 
 ----
 

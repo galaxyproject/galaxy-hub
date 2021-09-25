@@ -1,5 +1,5 @@
 <div class='float-right'>
-<a href='/src/people/delphine-lariviere/index.md'>
+<a href='/people/delphine-lariviere/'>
 <img src="/src/galaxy-team/DelphineLariviere.jpg" alt="Delphine Lariviere" width="200" height="150" />
 </a>
 </div>

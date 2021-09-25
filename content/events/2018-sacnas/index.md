@@ -103,7 +103,7 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 **Instructors**
 
 - [Blake Joyce](http://www.cyverse.org/blake-joyce), CyVerse and the University of Arizona
-- [Dave Clements](/src/people/dave-clements/index.md), Galaxy Project and Johns Hopkins University, clements@galaxyproject.org
+- [Dave Clements](/people/dave-clements/), Galaxy Project and Johns Hopkins University, clements@galaxyproject.org
 - [Joslynn Lee](https://www.hhmi.org/developing-scientists/meet-our-team), Howard Hughes Medical Institute and University of Maryland Baltimore County, joslynnlee@gmail.com
 
 ## Session 1 : CyVerse

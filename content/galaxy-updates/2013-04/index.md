@@ -198,7 +198,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> April 5-6 </th>
     <td> <em><a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a></em> </td>
     <td> Cambridge, United Kingdom, immediately prior to <a href='http://www.ebi.ac.uk/biocuration2013/'>Biocuration 2013</a> </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 7-8 </th>
@@ -210,7 +210,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> April 7-10 </th>
     <td> <em><a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'>GO Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.ebi.ac.uk/biocuration2013/home'>Biocuration 2013</a>, Cambridge, United Kingdom </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/suzanna-lewis'>Suzanna Lewis</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/suzanna-lewis'>Suzanna Lewis</a> </td>
   </tr>
   <tr>
     <th rowspan=2> April 9-11 </th>
@@ -237,19 +237,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> April 11 </th>
     <td> <a href='/src/events/tgac2013/index.md'>Introduction to Galaxy Workshop</a> </td>
     <td> <a href='http://www.tgac.ac.uk/galaxy-workshop/'>The Genome Analysis Centre</a>, Norwich, United Kingdom </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 14-16 </th>
     <td> Tutorial: <em>Exploring and Enabling Biomedical Data Analysis with Galaxy</em> </td>
     <td> <a href='http://www.iscb.org/glbio2013'>Great Lakes Bioinformatics Conference (GLBIO) 2013</a>, Pittsburgh, Pennsylvania, United States </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> May 16-17 </th>
     <td> <em>Galaxy Workflows for Bioinformatics Analysis,</em> and <br /><em>Workshop 1A – Galaxy Workflows for Bioinformatics Analysis</em> </td>
     <td> <a href='http://bit.ly/WiNGS2013'>Workshop in Next-Generation Sequence Analysis and Metabolomics (WiNGS)</a>, UNC-Charlotte, North Carolina, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th rowspan=3> May 28-31 </th>
@@ -275,13 +275,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> June 8-11 </th>
     <td> <em><a href='https://www.eshg.org/sunday2013.0.html#W1'>WS08: Biomedical Data Analysis with Galaxy</a></em> </td>
     <td> Workshop at <a href='https://www.eshg.org/eshg2013.0.html'>European Human Genetics Conference (ESHG2013)</a>, Paris, France </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 13-14 </th>
     <td> <a href='http://www.cdb.riken.jp/deepseq2013/index.html'>Genomics and Epigenomics with Deep Sequencing, the 24th CDB Meeting</a> </td>
     <td> RIKEN, CDB, Kobe, Japan </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
@@ -298,7 +298,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ### March 2013 Meetup
 
-Slides and the screencast from the [March GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-03-20/index.md) are [now available](/src/community/galaxy-admins/meetups/2013-03-20/index.md)  [Hailiang "Leon" Mei](mailto:hailiang DOT mei AT nbic DOT nl) spoke on *[NBIC Galaxy deployment](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).*  [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. Leon discussed the setup of this HPC cloud and the architecture of NBIC Galaxy and shared their experiences installing the NBIC Galaxy using the Cloudman scripts. The presentation finished with a list of issues and our possible future plans. [Dan Blankenberg](/src/people/dan/index.md) also discussed the new Galaxy release process, and the upcoming Data Manager enhancements.
+Slides and the screencast from the [March GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-03-20/index.md) are [now available](/src/community/galaxy-admins/meetups/2013-03-20/index.md)  [Hailiang "Leon" Mei](mailto:hailiang DOT mei AT nbic DOT nl) spoke on *[NBIC Galaxy deployment](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).*  [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. Leon discussed the setup of this HPC cloud and the architecture of NBIC Galaxy and shared their experiences installing the NBIC Galaxy using the Cloudman scripts. The presentation finished with a list of issues and our possible future plans. [Dan Blankenberg](/people/dan/) also discussed the new Galaxy release process, and the upcoming Data Manager enhancements.
 
 
 ### GalaxyAdmins Future Directions

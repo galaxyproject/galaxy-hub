@@ -11,8 +11,8 @@ More than 40 people registered for the event, signing up for one, two or all thr
 
 The [last day](/src/events/germany2014/index.md) was a very interactive day discussing the latest developments in Galaxy. Have a look at the [wiki pages](/src/events/sg2014/index.md) for copies of the presentations.
 
-We would like to thank for the financial support we got from [SystemsX.ch](http://www.systemsx.ch/) and for all the help we got from the Galaxy team, especially for sending [Dannon](/src/people/dannon-baker/index.md) over to Europe. It was great to have him, and the event profited a lot from him.
+We would like to thank for the financial support we got from [SystemsX.ch](http://www.systemsx.ch/) and for all the help we got from the Galaxy team, especially for sending [Dannon](/people/dannon-baker/) over to Europe. It was great to have him, and the event profited a lot from him.
 
 Running the event at two different places caused some logistical problems - some participants even learned about European geography. But the event was again a great success and we got a lot of great feedback. We are looking forward to the next Swiss German Galaxy Tour.
 
-[Björn](/src/people/bjoern-gruening/index.md) and [Hans-Rudolf](/src/people/hansrudolf-hotz/index.md)
+[Björn](/people/bjoern-gruening/index.md) and [Hans-Rudolf](/src/people/hansrudolf-hotz/)

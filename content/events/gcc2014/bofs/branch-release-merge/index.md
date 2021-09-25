@@ -49,7 +49,7 @@ Those managing a local Galaxy instance with code customizations.
 If you are interested, please add your name below and/or send an email to [Nikolay Aleksandrov Vazov](http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html).
 
 * [Nikolay Aleksandrov Vazov](http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html)
-* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
+* [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
 * Peter Cock
 * ...
 

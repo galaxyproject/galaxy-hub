@@ -154,13 +154,13 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> October 20 </th>
     <td> <em><a href='/src/events/switzerland2016/index.md'>(third Swiss) Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/src/events/sg2016/index.md'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <th> October 21 </th>
     <td> <em><a href='/src/events/germany2016/index.md'>(second German) Galaxy Developers Day</a></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/src/events/sg2016/index.md'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -181,7 +181,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> November 8-20 </th>
     <td> <em><a href='https://meetings.cshl.edu/courses.aspx?course=c-seqtec&year=16'>Advanced Sequencing Technologies & Applications</a></em> <div class='indent'>Application deadline is July 15</div> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='https://cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> November 9-11 </th>
@@ -266,7 +266,7 @@ Some highlights from last month:
     Matt Chambers. 
 
 * **[CloudBridge: a Simple Cross-Cloud Python Library](https://s3.amazonaws.com/cloudbridgelib/CloudBridge.pdf)**
-    Nuwan Goonasekera, Andrew Lonie, [James Taylor](/src/people/james-taylor/index.md), [Enis Afgan](/src/people/enis-afgan/index.md). XSEDE16.
+    Nuwan Goonasekera, Andrew Lonie, [James Taylor](/people/james-taylor/index.md), [Enis Afgan](/src/people/enis-afgan/). XSEDE16.
 
 * **[DISMISS: detection of stranded methylation in MeDIP-Seq data](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1158-7)**
     Umar Niazi, Kathrin K Geyer, Martin J Vickers, Karl F Hoffmann, Martin T Swain. *BMC Bioinformatics*, Vol. 17, No. 1. (2016), pp. 1-12, doi:10.1186/s12859-016-1158-7
@@ -284,7 +284,7 @@ Some highlights from last month:
     Stephen R. Piccolo, Michael B. Frampton. *GigaScience*, Vol. 5, No. 1. (11 July 2016), doi:10.1186/s13742-016-0135-4
 
 * ** [Streamlined analysis of duplex sequencing data with Du Novo](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1039-4)**
-    Nicholas Stoler, Barbara Arbeithuber, Wilfried Guiblet, Kateryna D. Makova, [Anton Nekrutenko](/src/people/anton/index.md). *Genome Biology*, 201617:180 DOI: 10.1186/s13059-016-1039-4
+    Nicholas Stoler, Barbara Arbeithuber, Wilfried Guiblet, Kateryna D. Makova, [Anton Nekrutenko](/people/anton/). *Genome Biology*, 201617:180 DOI: 10.1186/s13059-016-1039-4
 
 ## Tagged Publications
 
@@ -559,7 +559,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-* From [Greg Von Kuster](/src/people/greg_vonkuster/index.md):
+* From [Greg Von Kuster](/people/greg_vonkuster/):
     [Galaxy tools for Constructive Solid Geometry (Galaxy CSG flavor)](https://github.com/gregvonkuster/galaxy-csg/blob/master/README.md)
 
 * [How to Build Bioinformatic Pipelines Using Galaxy](http://www.the-scientist.com/?articles.view/articleNo/46670/title/How-to-Build-Bioinformatic-Pipelines-Using-Galaxy), and article by Jeffrey M. Perkel in *The Scientist*.

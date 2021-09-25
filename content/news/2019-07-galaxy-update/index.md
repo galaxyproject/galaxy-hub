@@ -233,7 +233,7 @@ Platforms that were referenced at least twice in the past month's publications:
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
 * [Bioinformaticien h/f - INNOLEA](https://www.sfbi.fr/node/11698), Mondonville, France. "Le développement d'outils pour l'analyse de données génétiques, génomiques et la mise en œuvre dans une plateforme Galaxy"
-* [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/src/people/dan/index.md), Cleveland Clinic, Cleveland, Ohio, United States.
+* [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/people/dan/), Cleveland Clinic, Cleveland, Ohio, United States.
 * ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
   * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
   * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology

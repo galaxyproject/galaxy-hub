@@ -208,7 +208,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
     <th> April 16 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'>GalaxyAdmins April 2015 Meetup</a></em> </td>
     <td> <em>Online</em> </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, Carrie Ganote </td>
+    <td> <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a>, Carrie Ganote </td>
   </tr>
   <tr>
     <th> April 20-21 </th>
@@ -271,7 +271,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
     <th> May 25-29 </th>
     <td> <a href='http://www.mipro.hr/MIPRO2015.DCVIS/ELink.aspx'>MIPRO</a> </td>
     <td> Opatija, Croatia </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> May 26-28 </th>
@@ -307,7 +307,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
     <th> June 22 </th>
     <td> <em>Introduction to variant calling for pathologists and laboratory managers</em> </td>
     <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> Part of <a href='http://www.rcpa.edu.au/Events/Event-Details/2015/June/Short-Course-in-Medical-Genetics-and-Genetic-Patho'>Short Course in Medical Genetics and Genetic Pathology 2015</a>, Sydney, Australia </td>
-    <td> <a href='/src/people/fubar/index.md'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
+    <td> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -323,7 +323,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
     <th> July 10-14 </th>
     <td> <em><a href='http://www.iscb.org/ismbeccb2015-program/ismbeccb2015-akes#akes4'>Using Biological Cyberinfrastructure to Scale Science and People – Applications in Data Storage, HPC, Cloud Analysis, and Bioinformatics Training</a></em> </td>
     <td> <a href='http://www.iscb.org/ismbeccb2015'>ISMB / ECCB 2015</a>, <a href='http://www.open-bio.org/wiki/BOSC_2015'>BOSC 2015</a>, Dublin, Ireland </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -469,12 +469,12 @@ This is mostly an incremental bug fix release with the following summary of chan
 
 * Project source moved to new URL - https://github.com/galaxyproject/bioblend 
 * Huge improvements to automated testing, tests now run against Galaxy release_14.02 and all later versions to ensure backward compatibility (see [travis.yml](https://github.com/galaxyproject/bioblend/blob/master/.travis.yml) for details).
-* Many documentation improvements (thanks to [Helena Rasche](/src/people/helena-rasche/index.md)).
+* Many documentation improvements (thanks to [Helena Rasche](/people/helena-rasche/)).
 * Add Galaxy clients for the tool data tables, the roles, and library folders (thanks to Anthony Bretaudeau).
 * Add method to get the standard error and standard output for the job corresponding to a Galaxy dataset (thanks to Anthony Bretaudeau).
 * Add `get_state()` method to `JobsClient`.
 * Add `copy_from_dataset()` method to `LibraryClient`.
-* Add `create_repository()` method to `ToolShedClient` (thanks to [Helena Rasche)](/src/people/helena-rasche/index.md).
+* Add `create_repository()` method to `ToolShedClient` (thanks to [Helena Rasche)](/people/helena-rasche/).
 * Fix `DatasetClient.download_dataset()` for certain proxied Galaxy deployments.
 * Make `LibraryClient._get_root_folder_id()` method safer and faster for Galaxy release_13.06 and later.
 * Deprecate and ignore invalid deleted parameter to `WorkflowClient.get_workflows()`.
@@ -493,7 +493,7 @@ This is mostly an incremental bug fix release with the following summary of chan
 
 Enjoy and please let us know what you think,
 
-[Enis](/src/people/enis-afgan/index.md) & [John](/src/people/john-chilton/index.md) & [Nicola Soranzo](/src/people/nicola-soranzo/index.md) & Simone Leo & [Helena Rasche](/src/people/helena-rasche/index.md)
+[Enis](/people/enis-afgan/index.md) & [John](/people/john-chilton/index.md) & [Nicola Soranzo](/src/people/nicola-soranzo/) & Simone Leo & [Helena Rasche](/src/people/helena-rasche/)
 
 ## Planemo 0.6.0
 
@@ -502,7 +502,7 @@ Enjoy and please let us know what you think,
 
 * Many enhancements to the tool building documentation - descriptions of macros, collections, simple and conditional parameters, etc…
 * Fix tool_init to quote file names (thanks to Peter Cock). [Pull Request 98](https://github.com/galaxyproject/planemo/pull/98).
-* Allow ignoring file patterns in .shed.yml (thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md)). [Pull Request 99](https://github.com/galaxyproject/planemo/pull/98)
+* Allow ignoring file patterns in .shed.yml (thanks to [Björn Grüning](/people/bjoern-gruening/)). [Pull Request 99](https://github.com/galaxyproject/planemo/pull/98)
 * Add --macros flag to tool_init command to generate a macro file as part of tool generation. [ec6e30f](https://github.com/galaxyproject/planemo/commit/ec6e30f)
 * Add linting of tag order for tool XML files. [4823c5e](https://github.com/galaxyproject/planemo/commit/4823c5e)
 * Add linting of stdio tags in tool XML files. [8207026](https://github.com/galaxyproject/planemo/commit/8207026)
@@ -518,7 +518,7 @@ New versions [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudma
 
 # Other News
 
-* From [Björn Grüning](/src/people/bjoern-gruening/index.md): 
+* From [Björn Grüning](/people/bjoern-gruening/): 
     [New release of our Galaxy Docker container](https://biostar.usegalaxy.org/p/11376/) with a lot of new features 
 * You can browse our tutorials section by visiting this [biostar.usegalaxy.org/t/Tutorial/](https://biostar.usegalaxy.org/t/Tutorial/) (*Note: Deprecated. Now see [training.galaxyproject.org](https://training.galaxyproject.org/)*)
 * [Should Galaxy use Trello or Github for issue tracking?](http://trello.com/c/iddlQT2p)
@@ -580,7 +580,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
   * [diamond](https://toolshed.g2.bx.psu.edu/view/bgruening/diamond): DIAMOND is a new high-throughput program for aligning a file of short reads against a protein reference database such as NR, at 20,000 times the speed of BLASTX, with high sensitivity
 
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
 * [text_processing](https://toolshed.g2.bx.psu.edu/view/bgruening/text_processing): High performance text processing tools using the GNU coreutils, sed, awk and friends. That repository contains all kind of different text processing tools. 
 
@@ -598,7 +598,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
   * tail - keep the last X lines in a file.
 
      Originally known as "Unix Tools" and developed from Assaf Gordon @ Greg Hannon's lab ( http://hannonlab.cshl.edu ) in Cold Spring Harbor Laboratory, it is now hosted under https://github.com/bgruening/galaxytools/tree/master/unix_tools and open for contributions. It will also replace several smaller sed, sort and uniq wrappers, developed over the time.<br />
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
 
 * [data_manager_diamond_database_builder](https://toolshed.g2.bx.psu.edu/view/bgruening/data_manager_diamond_database_builder): Diamond data manager 
@@ -607,18 +607,18 @@ Note: Starting with the May news, this list will be placed on a separate page an
 * [find_subsequences](https://toolshed.g2.bx.psu.edu/view/bgruening/find_subsequences): Searches for a subsequence in a larger sequence. For example to get all restriction enzymes for BamH1. Searches for a subsequence in a larger sequence. For example to get all restriction enzymes for BamH1.
 
      This tool is based on biopython: 10.1093/bioinformatics/btp163 <br />
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [macs2](https://toolshed.g2.bx.psu.edu/view/iuc/macs2): MACS - Model-based Analysis of ChIP-Seq.  With the improvement of sequencing techniques, chromatin immunoprecipitation followed by high throughput sequencing (ChIP-Seq) is getting popular to study genome-wide protein-DNA interactions. To address the lack of powerful ChIP-Seq analysis method, we present a novel algorithm, named Model-based Analysis of ChIP-Seq (MACS), for identifying transcript factor binding sites. MACS captures the influence of genome complexity to evaluate the significance of enriched ChIP regions, and MACS improves the spatial resolution of binding sites through combining the information of both sequencing tag position and orientation. MACS can be easily used for ChIP-Seq data alone, or with control sample with the increase of specificity.
 
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/iuc/galaxytools
 * [seqtk](https://toolshed.g2.bx.psu.edu/view/iuc/seqtk): toolkit for processing FASTA and FASTQ files. Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format. It seamlessly parses both FASTA and FASTQ files which can also be optionally compressed by gzip.<br />
 
      https://github.com/lh3/seqtk/ <br />
-     Repository-Maintainer: [Helena Rasche](/src/people/helena-rasche/index.md)<br />
+     Repository-Maintainer: [Helena Rasche](/people/helena-rasche/)<br />
      Repository-Development: https://github.com/galaxy-iuc/tool_shed
 
 * *From [hogart](https://toolshed.g2.bx.psu.edu/view/hogart):*
@@ -708,7 +708,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
   * [package_cofold_0_0_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_cofold_0_0_1): Contains a tool dependency definition that downloads and compiles CoFold. A tool for prediction of RNA secondary structure that takes co-transcriptional folding into account.
 
      http://www.e-rna.org/cofold/ <br />
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools/
 * [package_samtools_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_samtools_1_2): Contains a tool dependency definition that downloads and installs version 1.2 of the SAMTools package.  samtools \u2212 Utilities for the Sequence Alignment/Map (SAM) format
 
@@ -718,11 +718,11 @@ Note: Starting with the May news, this list will be placed on a separate page an
      
      Samtools is also able to open a BAM (not SAM) file on a remote FTP or HTTP server if the BAM file name starts with \u2018ftp://\u2019 or \u2018http://\u2019. Samtools checks the current working directory for the index file and will download the index upon absence. Samtools does not retrieve the entire alignment file unless it is asked to do so.
 
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
 * [package_gengetopt_2_22_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_gengetopt_2_22_6): Contains a tool dependency definition that downloads and compiles version 2.22.6 of GNU gengetopt Gengetopt is a tool to write command line option parsing code for C programs. 
 
      http://www.gnu.org/software/gengetopt/gengetopt.html <br />
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/galaxyproject/tools-iuc
 * [package_rnastructure_5_7](https://toolshed.g2.bx.psu.edu/view/iuc/package_rnastructure_5_7): Contains a tool dependency definition that downloads and compiles version 5.7 of RNAstructure RNAstructure is a complete package for RNA and DNA secondary structure prediction and analysis. It includes algorithms for secondary structure prediction, including facility to predict base pairing probabilities. It also can be used to predict bimolecular structures and can predict the equilibrium binding affinity of an oligonucleotide to a structured RNA target. This is useful for siRNA design. It can also predict secondary structures common to two, unaligned sequences, which is much more accurate than single sequence secondary structure prediction. Finally, RNAstructure can take a number of different types of experiment mapping data to constrain or restrain structure prediction. These include chemical mapping, enzymatic mapping, NMR, and SHAPE data.
 
@@ -733,11 +733,11 @@ Note: Starting with the May news, this list will be placed on a separate page an
 * [package_vienna_rna_2_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_vienna_rna_2_1): Contains a tool dependency definition that downloads and compiles version 2.1 of the Vienna RNA package.  The Vienna RNA Package consists of a C code library and several stand-alone programs for the prediction and comparison of RNA secondary structures.
 
      http://www.tbi.univie.ac.at/RNA/ <br />
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
 * [package_diamond_0_6_13](https://toolshed.g2.bx.psu.edu/view/iuc/package_diamond_0_6_13): Contains a tool dependency definition that downloads and compiles version 0.6.13 of DIAMOND DIAMOND is a new high-throughput program for aligning a file of short reads against a protein reference database such as NR, at 20,000 times the speed of BLASTX, with high sensitivity
 
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
 * [package_stringtie_1_0_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_stringtie_1_0_1): tool dependency definition. Contains a tool dependency definition that downloads and installs version 1.0.1 of the stringtie RNA-seq assembler. StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. It uses a novel network flow algorithm as well as an optional de novo assembly step to assemble and quantitate full-length transcripts representing multiple splice variants for each gene locus. Its input can include not only the alignments of raw reads used by other transcript assemblers, but also alignments longer sequences that have been assembled from those reads.To identify differentially expressed genes between experiments, StringTie's output can be processed either by the Cuffdiff or Ballgown programs. 
 

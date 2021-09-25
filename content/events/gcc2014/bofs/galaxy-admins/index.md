@@ -15,7 +15,7 @@ When: **Wednesday, July 2, 5:45pm**
 
 Where: **Multipurpose Room 324**
 
-Contact: [Dave Clements](/src/people/dave-clements/index.md)
+Contact: [Dave Clements](/people/dave-clements/)
 
 # Description
 
@@ -45,13 +45,13 @@ If you manage, or are about to manage, a Galaxy installation, then this is an ex
 
 # Attendees
 
-If you are interested, please add your name below and/or send an email to [Dave Clements](/src/people/dave-clements/index.md)
+If you are interested, please add your name below and/or send an email to [Dave Clements](/people/dave-clements/)
 
-* [Dave Clements](/src/people/dave-clements/index.md)
-* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
+* [Dave Clements](/people/dave-clements/)
+* [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
 * Sebastian Schaaf
-* [Helena Rasche](/src/people/helena-rasche/index.md)
-* [Dan Blankenberg](/src/people/dan/index.md)
+* [Helena Rasche](/people/helena-rasche/)
+* [Dan Blankenberg](/people/dan/)
 * Christine Walls
 * Alistair Chilcott
 * Nathan Cole
@@ -59,8 +59,8 @@ If you are interested, please add your name below and/or send an email to [Dave 
 * David van Enckevort
 * Leon Mei
 * Melissa Cline
-* [Dannon Baker](/src/people/dannon-baker/index.md)
-* [James Taylor](/src/people/james-taylor/index.md)
+* [Dannon Baker](/people/dannon-baker/)
+* [James Taylor](/people/james-taylor/)
 * Kyle Elrott
 * Nikolay Vazov
 * Derek Benson
@@ -75,7 +75,7 @@ If you are interested, please add your name below and/or send an email to [Dave 
 * Ulf Schaefer
 * JJ Johnson
 * Ira Cooke
-* [John Chilton](/src/people/john-chilton/index.md)
+* [John Chilton](/people/john-chilton/)
 * Nuria Lozano-Garcia
 * Eric Petkau
 * Carsten Rundsten

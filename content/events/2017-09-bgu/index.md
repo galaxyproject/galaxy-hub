@@ -18,7 +18,7 @@ September 7th
 
 **GALAXY – a tool for analyzing NGS data: introduction**
 
-[Anton Nekrutenko](/src/people/anton/index.md), PhD (Penn State University)
+[Anton Nekrutenko](/people/anton/), PhD (Penn State University)
 
 The workshop will take place in Building 38, computer room, ground floor (unless indicated differently)
 

@@ -37,4 +37,4 @@ Interested? [Apply now](https://support.nlm.nih.gov/Pan_Meta_Scopeathon/).
 
 <br />
 Hope to see you in San Diego,<br />
-[Dave Clements](/src/people/dave-clements/index.md) and [Mo Heydarian](/src/people/mo-heydarian)
+[Dave Clements](/people/dave-clements/) and [Mo Heydarian](/src/people/mo-heydarian)

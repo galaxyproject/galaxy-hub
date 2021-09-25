@@ -41,9 +41,9 @@ Galaxy Biostar was launched on April 23.  We hope you like the change and look f
 
 *47 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in April. Some papers that may be particularly interesting to the Galaxy community:
 
-* "[Analysis of Next-Generation Sequencing Data Using Galaxy](https://doi.org/10.1007/978-1-4939-0512-6_2)," [Daniel Blankenberg](/src/people/dan/index.md) and [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), *Stem Cell Transcriptional Networks*, Vol. 1150 (2014), pp. 21-43, doi:10.1007/978-1-4939-0512-6_2
+* "[Analysis of Next-Generation Sequencing Data Using Galaxy](https://doi.org/10.1007/978-1-4939-0512-6_2)," [Daniel Blankenberg](/people/dan/index.md) and [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/), *Stem Cell Transcriptional Networks*, Vol. 1150 (2014), pp. 21-43, doi:10.1007/978-1-4939-0512-6_2
 
-* "[Support for data-intensive computing with CloudMan](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6596260)," Yousef Kowsar and [Enis Afgan](/src/people/enis-afgan/index.md),  *[Information & Communication Technology Electronics & Microelectronics (MIPRO), 2013 36th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6588635),* (May 2013), pp. 243-248
+* "[Support for data-intensive computing with CloudMan](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6596260)," Yousef Kowsar and [Enis Afgan](/people/enis-afgan/),  *[Information & Communication Technology Electronics & Microelectronics (MIPRO), 2013 36th International Convention on](http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6588635),* (May 2013), pp. 243-248
 
 * "[Chromatin states reveal functional associations for globally defined transcription start sites in four human cell lines](http://www.biomedcentral.com/1471-2164/15/120)," Morten Rye, Geir Kjetil Sandve, Carsten O Daub, Hideya Kawaji, Piero Carninci, Alistair RR Forrest, Finn Drabløs and the FANTOM consortium, *[BMC Genomics](http://www.biomedcentral.com/bmcgenomics/)*, Vol. 15, No. 1. (26 March 2014), 120, doi:10.1186/1471-2164-15-120
 
@@ -224,7 +224,7 @@ And don't worry if you are not near Norwich or Edinburgh in May.  There are [at 
     <th> May 6-7 </th>
     <td> <em>Scaling Galaxy for Big Data</em> </td>
     <td> <a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'>NGS Data after the Gold Rush</a>, <a href='http://www.tgac.ac.uk/'>TGAC</a>, Norwich, United Kingdom </td>
-    <td rowspan=5> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td rowspan=5> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 9 </th>
@@ -267,13 +267,13 @@ And don't worry if you are not near Norwich or Edinburgh in May.  There are [at 
     <th> May 19-23 </th>
     <td> <em>Installing Galaxy Workshop</em><div class='indent red'>Application deadline: April 28</div> </td>
     <td> <a href='http://gmod.org/wiki/GMOD_Online_Training_2014'>GMOD Online Training</a> </td>
-    <td> <a href='/src/people/carl-eberhard/index.md'>Carl Eberhard</a>, <a href='http://gmod.org/wiki/User:Girlwithglasses'>Amelia Ireland</a> </td>
+    <td> <a href='/people/carl-eberhard/'>Carl Eberhard</a>, <a href='http://gmod.org/wiki/User:Girlwithglasses'>Amelia Ireland</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
     <td> <em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a></em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 2-3 </th>

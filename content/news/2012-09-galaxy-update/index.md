@@ -19,4 +19,4 @@ The [September 2012 Galaxy Update is now available](/src/galaxy-updates/2012-09/
 
 If you have anything you would like to see in the October *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

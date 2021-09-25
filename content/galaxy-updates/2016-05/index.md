@@ -262,7 +262,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
     <th> June 16 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Online</a></em> </td>
-    <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 25-29 </th>
@@ -307,7 +307,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
     <th> July 13-17 </th>
     <td> <em><a href='http://www.genetics2016.org/index.htm'>The Allied Genetics Conference 2016 (TAGC)</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Orlando, Florida, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -328,7 +328,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 <a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a> 
 </div>
 
-[Slides and video](/src/community/galaxy-admins/meetups/2016-04-21/index.md) from the [April 2016 GalaxyAdmins meetup are now available](/src/community/galaxy-admins/meetups/2016-04-21/index.md). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201604_Admins_Portal.pdf)) and [John Chilton](/src/people/john-chilton/index.md) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
+[Slides and video](/src/community/galaxy-admins/meetups/2016-04-21/index.md) from the [April 2016 GalaxyAdmins meetup are now available](/src/community/galaxy-admins/meetups/2016-04-21/index.md). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201604_Admins_Portal.pdf)) and [John Chilton](/people/john-chilton/) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
 
 ## Conda Dependency Codefest Report
 
@@ -456,7 +456,7 @@ The new papers were tagged with:
 
 <div class='left'><a href='https://github.com/nekrut/galaxy/wiki/Diploid-variant-calling'><img src="/src/images/screenshots/AntonsDiploidVariantTutorial1.png" alt="Diploid variant calling" width="190" /></a></div>
 
-There are two new comprehensive online tutorials from [Anton Nekrutenko](/src/people/anton/index.md):
+There are two new comprehensive online tutorials from [Anton Nekrutenko](/people/anton/):
 
 ## Diploid variant calling
 
@@ -464,11 +464,11 @@ Variant calling is a complex field that was significantly propelled by advances 
 
 <div class='right'><a href='https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq'><img src="/src/images/screenshots/AntonsRnaSeqTutorial1.png" alt="Reference based RNA seq" width="190" /></a></div>
 
-Much of Galaxy-related features described in this tutorial have been developed by [Björn Grüning](/src/people/bjoern-gruening/index.md) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/src/people/dave-bouvier/index.md) ([@davebx](https://github.com/davebx)).
+Much of Galaxy-related features described in this tutorial have been developed by [Björn Grüning](/people/bjoern-gruening/index.md) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/src/people/dave-bouvier/) ([@davebx](https://github.com/davebx)).
 
 ## Reference based RNA seq
 
-**[This tutorial](https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq)** is inspired by an [exceptional RNAseq course](http://chagall.med.cornell.edu/RNASEQcourse/) at the Weill Cornell Medical College compiled by Friederike Dündar, Luce Skrabanek, and Paul Zumbo and by tutorials produced by Björn Grüning (@bgruening) for Freiburg Galaxy instance. Much of Galaxy-related features described in this section have been developed by [Björn Grüning](/src/people/bjoern-gruening/index.md) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/src/people/dave-bouvier/index.md) ([@davebx](https://github.com/davebx)).
+**[This tutorial](https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq)** is inspired by an [exceptional RNAseq course](http://chagall.med.cornell.edu/RNASEQcourse/) at the Weill Cornell Medical College compiled by Friederike Dündar, Luce Skrabanek, and Paul Zumbo and by tutorials produced by Björn Grüning (@bgruening) for Freiburg Galaxy instance. Much of Galaxy-related features described in this section have been developed by [Björn Grüning](/people/bjoern-gruening/index.md) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/src/people/dave-bouvier/) ([@davebx](https://github.com/davebx)).
 
 ## Dataset Collections
 

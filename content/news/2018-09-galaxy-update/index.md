@@ -202,7 +202,7 @@ Four *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)*
 * [次世代シーケンサーデータの解析手法 第 11 回 統合データ解析環境 Galaxy](http://www.iu.a.u-tokyo.ac.jp/~kadota/JSLAB_11_kadota.pdf), by , 大田 達郎, 寺田 朋子, 清水 謙多郎
 , 門田 幸二, *Japanese Journal of Lactic Acid Bacteria*
 * [The epiGenomic Efficient Correlator (epiGeEC) tool allows fast comparison of user datasets with thousands of public epigenomic datasets](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty655/5058096), by Jonathan Laperle, Simon Hébert-Deschamps, Joanny Raby, David Anderson de Lima Morais, Michel Barrette, David Bujold, Charlotte Bastin, Marc-Antoine Robert, Jean-François Nadeau, Marie Harel, Alexei Nordell-Markovits, Alain Veilleux, Guillaume Bourque, Pierre-Étienne Jacques, *Bioinformatics*, bty655, doi:10.1093/bioinformatics/bty655
-* [Bioconda: sustainable and comprehensive software distribution for the life sciences](https://www.nature.com/articles/s41592-018-0046-7), by [Björn Grüning](/src/people/bjoern-gruening/index.md), Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, Johannes Köster & The Bioconda Team
+* [Bioconda: sustainable and comprehensive software distribution for the life sciences](https://www.nature.com/articles/s41592-018-0046-7), by [Björn Grüning](/people/bjoern-gruening/), Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, Johannes Köster & The Bioconda Team
 
 ## Publication Topics
 
@@ -224,7 +224,7 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformaticien/biostatisticien biologiste](http://www.sfbi.fr/content/offre-de-poste-de-bioinformaticienbiostatisticien-biologiste-soci%C3%A9t%C3%A9-phylogene),  Phylogene S.A, Bernis, France
 * [M2 : Diversité bactérienne associée aux microalgues toxiques (metabarcoding)](http://www.sfbi.fr/content/m2-diversit%C3%A9-bact%C3%A9rienne-associ%C3%A9e-aux-microalgues-toxiques-metabarcoding), IFREMER Centre Bretagne, Plouzané, France
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
+* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
@@ -277,10 +277,10 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 # Hub and Doc Updates
 
-* The [Galaxy publication library](/src/publication-library/index.md) is now integrated into the [Pan-Galactic search page](/src/search/index.md), thanks to [Dannon Baker](/src/people/dannon-baker/index.md). Search for something and click on the pub library tab.
+* The [Galaxy publication library](/src/publication-library/index.md) is now integrated into the [Pan-Galactic search page](/src/search/index.md), thanks to [Dannon Baker](/people/dannon-baker/). Search for something and click on the pub library tab.
 * [Data Manager XML syntax description](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md) updated by [Peter van Heusden](https://github.com/pvanheus)
-* [Hub Editing Guidelines](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) updated by [Mo Heydarian](/src/people/mo-heydarian/index.md)
-* There was a massive Hub infrastructure update by [Dannon Baker](/src/people/dannon-baker/index.md), but it's one of those you won't even notice.
+* [Hub Editing Guidelines](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) updated by [Mo Heydarian](/people/mo-heydarian/)
+* There was a massive Hub infrastructure update by [Dannon Baker](/people/dannon-baker/), but it's one of those you won't even notice.
 
 ----
 

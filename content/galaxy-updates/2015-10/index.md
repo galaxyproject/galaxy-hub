@@ -158,7 +158,7 @@ See the **[full call for host proposals](https://depot.galaxyproject.org/hub/att
 
 Hoping to work with you in 2017!
 
-[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)
 
 ----
 
@@ -223,7 +223,7 @@ There are [upcoming events](/src/events/index.md) in 4 countries on 4 continents
     <th> October 15 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2015-10-15/index.md'>October Galaxy Admins Meetup</a></em> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='https://www.linkedin.com/in/davidkovalic'>David Kovalic</a>, <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='https://www.linkedin.com/in/davidkovalic'>David Kovalic</a>, <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 28-29 </th>
@@ -235,7 +235,7 @@ There are [upcoming events](/src/events/index.md) in 4 countries on 4 continents
     <th> October 28 - November 3 </th>
     <td> <em><a href='http://meetings.cshl.edu/courses.aspx?course=c-ecg&year=15'>Computational & Comparative Genomics Course</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -245,7 +245,7 @@ There are [upcoming events](/src/events/index.md) in 4 countries on 4 continents
     <th rowspan=2> November 3 </th>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/galaxy-for-the-analysis-of-very-large-biomedical-data/'>Galaxy for the Analysis of Very Large Biomedical Data Workshop</a></em> </td>
     <td rowspan=2> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/single-cell-sequencing-analysis-visualisation-of-copy-number-variations/'>Single-Cell Sequencing: Analysis & Visualization of Copy Number Variations Workshop</a></em> </td>
@@ -393,9 +393,9 @@ Thanks to everyone who helped put these together.
 **[Release Notes v 15.07](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)**
 
 **Release Highlights **
-* **Interactive Environments** - The interactive environments (IE) framework features several updates this release and Galaxy is now distributed with a new IE for RStudio implemented by [Helena Rasche](/src/people/helena-rasche/index.md).
+* **Interactive Environments** - The interactive environments (IE) framework features several updates this release and Galaxy is now distributed with a new IE for RStudio implemented by [Helena Rasche](/people/helena-rasche/).
 * **Workflow Editor Enhancements** - The workflow editor has been significantly revamped - it now uses newer tool form components and allow construction of workflows with tools explicitly producing output collections.
-* **Policies for Committers and Pull Requests** - The process for adding committers to the project and fielding pull requests has been formalized and documented in the source code. Three new committers have been added to the project - [Björn Grüning](/src/people/bjoern-gruening/index.md), [Nicola Soranzo](/src/people/nicola-soranzo/index.md), and [Helena Rasche](/src/people/helena-rasche/index.md).
+* **Policies for Committers and Pull Requests** - The process for adding committers to the project and fielding pull requests has been formalized and documented in the source code. Three new committers have been added to the project - [Björn Grüning](/people/bjoern-gruening/index.md), [Nicola Soranzo](/people/nicola-soranzo/), and [Helena Rasche](/src/people/helena-rasche/).
 * And *[much more](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)*
 
 ## Mid 2015 Galaxy CloudMan Release
@@ -486,7 +486,7 @@ See [list of tools contributed in September](/src/toolshed/contributions/2015-09
     Center for Open Science gives grant to [Titus Brown](https://twitter.com/ctitusbrown) and team to connect Galaxy Project and the [Open Science Framework](https://osf.io/). See the [full announcement](http://cos.io/pr/2015-09-24/).
 * From [Globus](https://www.globus.org/genomics):
     Love (or like!) Globus? Vote for us in the [HPCWire Readers' Choice Awards](http://www.hpcwire.com/2015-hpcwire-readers-choice-awards/) (#16 - Best Data-Intensive System) 
-* From [Björn Grüning](/src/people/bjoern-gruening/index.md):
+* From [Björn Grüning](/people/bjoern-gruening/):
     Brand new [Galaxy Interactive Environment documentation](/src/admin/gies/index.md): Enterprise Deployments, Docker on a different host...
 * From [Keywan Hassani-Pak](https://twitter.com/KeywanHP):
     We encountered [a big problem using bwa-eXpress in Galaxy](https://github.com/Rothamsted/AppliedBioinformatics/wiki/Transcript-abundance-estimation-in-Galaxy) for transcript abundance estimation! 
@@ -499,7 +499,7 @@ See [list of tools contributed in September](/src/toolshed/contributions/2015-09
     [TRAPLINE: A standardized and automated pipeline for RNA sequencing data analysis and evaluation](https://usegalaxy.org/u/mwolfien/p/trapline---manual) 
 * From [GigaScience](https://twitter.com/GigaScience)
     Supporting Galaxy BLAST+ wrappers, archived at the point of publication hosted in GigaDB [dx.doi.org/10.5524/100149](http://gigadb.org/dataset/100149)
-* From [Björn Grüning](/src/people/bjoern-gruening/index.md):
+* From [Björn Grüning](/people/bjoern-gruening/):
     [New Galaxy Docker images](https://github.com/bgruening/docker-galaxy-stable)! Enjoy all the new goodies!
 
 <div class='left'>

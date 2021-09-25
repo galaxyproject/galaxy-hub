@@ -295,7 +295,7 @@ By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Help for Differential Expression Analysis](/src/support/diff-expression/index.md)</div>
 <p class="card-text">
-By [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)</p>
+By [Jennifer Hillman-Jackson](/people/jennifer-jackson/)</p>
 
 <p class="card-text">
 A new support page for one of Galaxy's most popular applications: differential gene expression analysis.</p>
@@ -306,7 +306,7 @@ A new support page for one of Galaxy's most popular applications: differential g
 <div class="card-header">[Displaying Datasets at External Display Applications / Websites using GEDAs](/src/admin/tools/external-display-applications-tutorial/index.md)</div>
 <img class="card-img-top" src="/src/news/2019-09-galaxy-update/2019-09-geda.png" alt="GEDA example config" />
 <p class="card-text">
-By [Dan Blankenberg](/src/people/dan/index.md)</p>
+By [Dan Blankenberg](/people/dan/)</p>
 
 <p class="card-text">How to add a new external display application (UCSC genome browser, GeneTrack, JBrowse, etc. to Galaxy.</p>
 <br />

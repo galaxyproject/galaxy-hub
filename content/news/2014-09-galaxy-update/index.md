@@ -24,4 +24,4 @@ And, as always, there are [new papers](/src/galaxy-updates/2014-09/index.md#new-
 
 Happy September,
 
-[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)

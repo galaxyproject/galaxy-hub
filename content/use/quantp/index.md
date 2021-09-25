@@ -17,7 +17,7 @@ user_support:
 quotas:
   - "None"
 citations:
-  - "[QuanTP: A software resource for quantitative proteo-transcriptomic comparative data analysis and informatics](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00727), Kumar P, Panigrahi P, Johnson J, Weber WJ, Mehta S, Sajulga R, Easterly C, Crooker BA, [Heydarian M](/src/people/mo-heydarian/index.md), Anamika K, Griffin TJ, Jagtap P., *Journal of  Proteome Research*, 2018 Dec 24. doi: 10.1021/acs.jproteome.8b00727"
+  - "[QuanTP: A software resource for quantitative proteo-transcriptomic comparative data analysis and informatics](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00727), Kumar P, Panigrahi P, Johnson J, Weber WJ, Mehta S, Sajulga R, Easterly C, Crooker BA, [Heydarian M](/people/mo-heydarian/), Anamika K, Griffin TJ, Jagtap P., *Journal of  Proteome Research*, 2018 Dec 24. doi: 10.1021/acs.jproteome.8b00727"
 pub_libraries:
   - "QuanTP"
 sponsors:

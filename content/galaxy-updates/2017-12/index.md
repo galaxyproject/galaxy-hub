@@ -174,7 +174,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 We've got two new *[Galactic Blog](/src/blog/index.md)* entries:
 
 * [Setup your own instance of the Galaxy Bioinformatics platform on DigitalOcean](https://vimal.io/setup-your-own-galaxy-bioinformatics-instance-on-digitalocean/), by [Vimalkumar Velayudhan](https://vimal.io/)
-* [Galaxy Docker 17.09](/src/blog/2017-11-galaxy-docker-17.09/index.md), by [Björn Grüning](/src/people/bjoern-gruening/index.md)
+* [Galaxy Docker 17.09](/src/blog/2017-11-galaxy-docker-17.09/index.md), by [Björn Grüning](/people/bjoern-gruening/)
 
 The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/src/news/index.md) for shorter-form items.) 
 
@@ -194,11 +194,11 @@ Questions? [Ask us](mailto:outreach@galaxyproject.org).
 
 The *Galactic* and *Stellar* publications added in October were:
 
-* [Using bio.tools to generate and annotate workbench tool descriptions](https://f1000research.com/articles/6-2074/v1), Kenzo-Hugo Hillion, Ivan Kuzmin, Anton Khodak, [Helena Rasche](/src/people/helena-rasche/index.md), Michael Crusoe, Hedi Peterson, Jon Ison, Hervé Ménager. *F1000Research* 2017, 6(ELIXIR):2074 (doi: 10.12688/f1000research.12974.1)
+* [Using bio.tools to generate and annotate workbench tool descriptions](https://f1000research.com/articles/6-2074/v1), Kenzo-Hugo Hillion, Ivan Kuzmin, Anton Khodak, [Helena Rasche](/people/helena-rasche/), Michael Crusoe, Hedi Peterson, Jon Ison, Hervé Ménager. *F1000Research* 2017, 6(ELIXIR):2074 (doi: 10.12688/f1000research.12974.1)
 * [Galaksio, a user friendly workflow-centric front end for Galaxy](http://journal.embnet.org/index.php/embnetjournal/article/view/897), Tomas Klingström, Rafael Hernández-de-Diego, Théo Collard, Erik Bongcam-Rudloff. *EMBnet.journal*, [S.l.], v. 23, p. e897, nov. 2017. ISSN 2226-6089.
   * [Data integration and handling](https://pub.epsilon.slu.se/14669/), Klingström, Tomas.  Doctoral thesis, Uppsala : Sveriges lantbruksuniv., Acta Universitatis agriculturae Sueciae, 1652-6880 ; 2017:99, ISBN 978-91-7760-088-6, eISBN 978-91-7760-089-3
 * [TED toolkit: a comprehensive approach for convenient transcriptomic profiling as a clinically-oriented application](https://peerj.com/preprints/3385/), Ali T, Kim B, Lijeron C, Ogunwobi OO, Mazumder R, Krampis K. (2017). *PeerJ Preprints* 5:e3385v1 https://doi.org/10.7287/peerj.preprints.3385v1
-* [An Accessible Proteogenomics Informatics Resource for Cancer Researchers](http://cancerres.aacrjournals.org/content/77/21/e43), Matthew C. Chambers, Pratik D. Jagtap, James E. Johnson, Thomas McGowan, Praveen Kumar, Getiria Onsongo, Candace R. Guerrero, Harald Barsnes, Marc Vaudel, Lennart Martens, [Björn Grüning](/src/people/bjoern-gruening/index.md), Ira R. Cooke, Mohammad Heydarian, Karen L. Reddy and Timothy J. Griffin.
+* [An Accessible Proteogenomics Informatics Resource for Cancer Researchers](http://cancerres.aacrjournals.org/content/77/21/e43), Matthew C. Chambers, Pratik D. Jagtap, James E. Johnson, Thomas McGowan, Praveen Kumar, Getiria Onsongo, Candace R. Guerrero, Harald Barsnes, Marc Vaudel, Lennart Martens, [Björn Grüning](/people/bjoern-gruening/), Ira R. Cooke, Mohammad Heydarian, Karen L. Reddy and Timothy J. Griffin.
 *Cancer Research,* DOI: 10.1158/0008-5472.CAN-17-0331 Published November 2017
 * [A Galaxy Implementation of Next-Generation Clustered Heatmaps for Interactive Exploration of Molecular Profiling Data](http://cancerres.aacrjournals.org/content/77/21/e23.article-info), Bradley M. Broom, Michael C. Ryan, Robert E. Brown, Futa Ikeda, Mark Stucky, David W. Kane, James Melott, Chris Wakefield, Tod D. Casasent, Rehan Akbani and John N. Weinstein. *Cancer Research,* DOI: 10.1158/0008-5472.CAN-17-0318 Published November 2017
 
@@ -222,7 +222,7 @@ The Galaxy is expanding! Please help it grow.
 * [Classification des micropolluants dans l'environnement : amélioration de l'algorithme online TyPol](https://www.sfbi.fr/content/classification-des-micropolluants-dans-lenvironnement-am%C3%A9lioration-de-lalgorithme-online-typ), INRA-LBE, Narbonne, France
 * [Bioinformaticien immunologie](https://www.sfbi.fr/content/bioinformaticien-immunologie), Gustave Roussy Institute, Villejuif, France
 * [Bioinformaticien Gustave Roussy](https://www.sfbi.fr/content/bioinformaticien-gustave-roussy), Villejuif, France
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
+* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).

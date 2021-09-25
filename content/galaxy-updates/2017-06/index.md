@@ -31,7 +31,7 @@ If you missed the May 31 regular registration deadline then don't worry because 
 
 **The Galaxy Project: from the Planck epoch to Montpellier**
 
-[Dr. Anton Nekrutenko](/src/people/anton/index.md) and [Dr. James Taylor](/src/people/james-taylor/index.md) will present a keynote reviewing the history of the Galaxy project, and how it went from a humble Perl script to having its own international meeting in the South of France in the summer of 2017.
+[Dr. Anton Nekrutenko](/people/anton/index.md) and [Dr. James Taylor](/src/people/james-taylor/) will present a keynote reviewing the history of the Galaxy project, and how it went from a humble Perl script to having its own international meeting in the South of France in the summer of 2017.
 
 If you are reading this, you probably already know who they are.  If not, see their [bios here](https://gcc2017.sciencesconf.org/).
 
@@ -211,7 +211,7 @@ Some highlights from the papers added last month:
 *Nucleic Acids Research* (02 May 2017), doi:10.1093/nar/gkx315
 
 * [Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](https://doi.org/10.1371/journal.pcbi.1005425)
-   [Björn A. Grüning](/src/people/bjoern-gruening/index.md), [Helena Rasche](/src/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coraor](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). *PLOS Computational Biology*, Vol. 13, No. 5. (25 May 2017), e1005425, doi:10.1371/journal.pcbi.1005425
+   [Björn A. Grüning](/people/bjoern-gruening/index.md), [Helena Rasche](/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/people/john-chilton/), [Nate Coraor](/src/people/nate/), Rolf Backofen, [James Taylor](/src/people/james-taylor/), [Anton Nekrutenko](/src/people/anton/). *PLOS Computational Biology*, Vol. 13, No. 5. (25 May 2017), e1005425, doi:10.1371/journal.pcbi.1005425
 
 * [MAGenTA: a Galaxy implemented tool for complete Tn-Seq analysis and data visualization](https://doi.org/10.1093/bioinformatics/btx320)
    Katherine M. McCoy, Margaret L. Antonio, Tim van Opijnen. *Bioinformatics* (11 May 2017), doi:10.1093/bioinformatics/btx320 
@@ -382,8 +382,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/src/people/john-chilton/index.md): 
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+* From [John Chilton](/people/john-chilton/): 
+  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 
 ## Parsec 1.0.0 - 1.0.2
@@ -439,12 +439,12 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * From  [Paul Gordon](https://www.blogger.com/profile/02637194860456629067)
   * [The ungoogleable: Authenticating a Galaxy Portal with Active Directory ](http://achri.blogspot.ca/2017/05/the-final-frontier-authenticating.html)
-* From  [Björn Grüning](/src/people/bjoern-gruening/index.md)
+* From  [Björn Grüning](/people/bjoern-gruening/)
   * There is a new [HiCExplorer Galaxy Docker version](https://github.com/maxplanck-ie/docker-galaxy-hicexplorer), based on Galaxy 17.05, made possible by [Fidel Ramírez](https://twitter.com/fidel_ramirez) and friends.
-* From [Mo Heydarian](/src/people/mo-heydarian/index.md)
+* From [Mo Heydarian](/people/mo-heydarian/)
  * Creating Galaxy workflows [is easier than you think](https://depot.galaxyproject.org/hub/attachments/documents/videos/2017-05-workflow-example.gif). If you like reproducibility, you'll like workflows!
 * New video on [Creating collections by uploading from SRA](https://vimeo.com/217216264).
-* From [Nate Coraor](/src/people/nate/index.md)
+* From [Nate Coraor](/people/nate/)
   * Heads up: Galaxy roles published on galaxy.ansible.com have changed namespaces from `galaxyprojectdotorg` to just `galaxyproject`
 
 

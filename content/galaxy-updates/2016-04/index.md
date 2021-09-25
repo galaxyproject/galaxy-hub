@@ -114,7 +114,7 @@ The workshop is intended for Bioinformaticians who want to
 
 The workshop will be held at [Heidelberg Center for Human Bioinformatics (HD-HuB)](https://www.denbi.de/index.php/hd-hub-services/15-hd-hub). Location and Accommodation options can be found [here](https://drive.google.com/file/d/0B2xSE9muunQPQ1E1Q3UwMVBTR1k/edit).
 
-Registration is open and their is still space - just send [Björn Grüning](/src/people/bjoern-gruening/index.md) an email. For more information please see the [workshop page](https://goo.gl/8dNSdy).
+Registration is open and their is still space - just send [Björn Grüning](/people/bjoern-gruening/) an email. For more information please see the [workshop page](https://goo.gl/8dNSdy).
 
 <div class='left'><br />
 <a href='http://www.france-bioinformatique.fr/'><img src="/src/images/logos/IFBSmallTransLogo.png" alt="IFB" height="60" /></a> <br />
@@ -169,13 +169,13 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> April 6-7 </th>
     <td> <strong><em><a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies</a></strong></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop 2016</a>, <a href='https://drive.google.com/file/d/0B2xSE9muunQPQ1E1Q3UwMVBTR1k'>Heidelberg</a>, Germany </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/bjoern-gruening/index.md'>Björn Grüning</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
   </tr>
   <tr>
     <th> April 21 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>Online</a></em> </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 22-26 </th>
@@ -193,7 +193,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> April 28 </th>
     <td> <em><a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016'>Galaxy Workshop Tokyo 2016</a></em> </td>
     <td> <img src='/src/images/icons/AS.png' alt='Asia' align='right' /> <a href='http://www.rcast.u-tokyo.ac.jp/index_ja.html'>RCAST, The University of Tokyo</a>, Japan </td>
-    <td> <a href="mailto:t DOT ohta AT dbcls.rois.ac.jp">Tazro Ohta</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href="mailto:t DOT ohta AT dbcls.rois.ac.jp">Tazro Ohta</a>, <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -577,7 +577,7 @@ The [IUC](/src/iuc/index.md) is [seeking comments and contributions to this effo
 
 * New and recently updated tools are now highlighted on usegalaxy.org.
 
-* From [Bjöern Grüening](/src/people/bjoern-gruening/index.md): 
+* From [Bjöern Grüening](/people/bjoern-gruening/): 
   * Cheminformatics datatypes were added to Galaxy with [this pull request](https://github.com/galaxyproject/galaxy/pull/1941). Expect new ChemicalToolBox development soon!
   * [deepTools](https://deeptools.github.io/) visualization, QC, and data normalization tools are now available on [usegalaxy.org](https://usegalaxy.org). Thanks to [Devon Ryan](https://twitter.com/dpryan79) and https://twitter.com/fidel_ramirez|Fidel Ramirez]]
   * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/src/galaxy-updates/2016-02/index.md#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).

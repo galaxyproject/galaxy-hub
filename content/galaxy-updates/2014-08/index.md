@@ -189,7 +189,7 @@ Over the rest of the few months there are many [Galaxy related events](/src/even
     <th> September 19 </th>
     <td> <em><a href='http://australianbioinformatics.net/great-gigascience-galaxy-wkshp'>The Great GigaScience and Galaxy (G3) Workshop</a></em> </td>
     <td> The University of Melbourne, Melbourne, Australia </td>
-    <td> <a href="mailto:nwon AT unimelb DOT edu.au">Nick Wong</a>, <a href='/src/people/fubar/index.md'>Ross Lazarus</a> </td>
+    <td> <a href="mailto:nwon AT unimelb DOT edu.au">Nick Wong</a>, <a href='/people/fubar/'>Ross Lazarus</a> </td>
   </tr>
   <tr>
     <th> September&nbsp;30 - October 2 </th>
@@ -201,7 +201,7 @@ Over the rest of the few months there are many [Galaxy related events](/src/even
     <th rowspan=3> September 30 - October 2 </th>
     <td> <a href='/src/events/switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
     <td> Bern (Switzerland) </td>
-    <td rowspan=3> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
+    <td rowspan=3> <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/src/events/switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>

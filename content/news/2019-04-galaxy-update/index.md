@@ -164,7 +164,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
 
 Recently added *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications:
 
-* **[GraphClust2: annotation and discovery of structured RNAs with scalable and accessible integrative clustering](https://doi.org/10.1101/550335)**, Milad Miladi, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, [Björn Grüning](/src/people/bjoern-gruening/index.md), Rolf Backofen. *bioRxiv* 550335; doi: 10.1101/550335 
+* **[GraphClust2: annotation and discovery of structured RNAs with scalable and accessible integrative clustering](https://doi.org/10.1101/550335)**, Milad Miladi, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, [Björn Grüning](/people/bjoern-gruening/), Rolf Backofen. *bioRxiv* 550335; doi: 10.1101/550335 
 * **[CAFU: a Galaxy framework for exploring unmapped RNA-Seq data](https://doi.org/10.1093/bib/bbz018)**, Siyuan Chen, Chengzhi Ren, Jingjing Zhai, Jiantao Yu, Xuyang Zhao, Zelong Li, Ting Zhang, Wenlong Ma, Zhaoxue Han, Chuang Ma. *Briefings in Bioinformatics*, bbz018,doi:10.1093/bib/bbz018. 28 February 2019
 * **[Visualization to Support Advanced Analysis of Genomic Data](http://urn.nb.no/URN:NBN:no-69721)**, Kumar Aman. Master Thesis, University of Oslo
 * **[Designing an In Silico Strategy to Select Tissue-Leakage Biomarkers Using the Galaxy Framework](https://doi.org/10.1007/978-1-4939-9164-8_18)**, Nguyen L., Brun V., Combes F., Loux V., Vandenbrouck Y. (2019)

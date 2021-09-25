@@ -42,4 +42,4 @@ And some [other news](/src/galaxy-updates/2016-04/index.md#other-news) too.
 
 Happy April,
 
-[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)

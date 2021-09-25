@@ -13,7 +13,7 @@ When: Tuesday, July 1, 5:45pm
 
 Where: Salon A
 
-Contact: [Philip Blood](mailto:blood AT psc DOT edu), [John Chilton](/src/people/john-chilton/index.md), [Nate Coraor](/src/people/nate/index.md), Carrie Ganote
+Contact: [Philip Blood](mailto:blood AT psc DOT edu), [John Chilton](/people/john-chilton/index.md), [Nate Coraor](/src/people/nate/), Carrie Ganote
 
 ## Description
 
@@ -42,12 +42,12 @@ Anyone (users or admins) interested in leveraging remote or heterogeneous hardwa
 If you are interested, please add your name below and/or send an email to [Your Name](mailto:your AT email DOT address).
 
 * [Philip Blood](mailto:blood AT psc DOT edu)
-* [John Chilton](/src/people/john-chilton/index.md)
-* [nate Coraor](/src/people/nate/index.md)
-* [Helena Rasche](/src/people/helena-rasche/index.md)
+* [John Chilton](/people/john-chilton/)
+* [nate Coraor](/people/nate/)
+* [Helena Rasche](/people/helena-rasche/)
 * Ben Busby
 * Aaron Gardner
-* [Dan Blankenberg](/src/people/dan/index.md)
+* [Dan Blankenberg](/people/dan/)
 * [Michael R. Crusoe](mailto:mcrusoe AT msu DOT edu)
 * Cameron Smith
 * Carrie Ganote

@@ -14,4 +14,4 @@ The group decided to have calls every other month, with the next on in September
 
 Many, many thanks to Ann Black-Ziegelbein for getting the group off to a great start.
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

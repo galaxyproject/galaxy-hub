@@ -126,7 +126,7 @@ This installation of Galaxy has been configured such that anonymous users can op
 
 A record 53 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in June. These papers may be particularly interesting to the Galaxy community
 
-* "[Web-based visual analysis for high-throughput genomics](https://doi.org/10.1186/1471-2164-14-397)" by [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [Carl Eberhard](/src/people/carl-eberhard/index.md), Tomithy Too, [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md), *BMC Genomics*, Vol. 14, No. 1. (2013), 397
+* "[Web-based visual analysis for high-throughput genomics](https://doi.org/10.1186/1471-2164-14-397)" by [Jeremy Goecks](/people/jeremy-goecks/index.md), [Carl Eberhard](/people/carl-eberhard/index.md), Tomithy Too, [Anton Nekrutenko](/src/people/anton/), [James Taylor](/src/people/james-taylor/), *BMC Genomics*, Vol. 14, No. 1. (2013), 397
 * "[Detection of non-coding RNA in Bacteria and Archaea using the DETR’PROK Galaxy pipeline](https://doi.org/10.1016/j.ymeth.2013.06.003)" by Claire Toffano-Nioche, Yufei Luo, Claire Kuchly, Claire Wallon, Delphine Steinbach, Matthias Zytnicki, Annick Jacq, Daniel Gautheret, *[Methods](http://www.sciencedirect.com/science/journal/10462023)* (June 2013)
 * "[Encore: Genetic Association Interaction Network Centrality Pipeline and Application to SLE Exome Data](https://doi.org/10.1002/gepi.21739)" by Nicholas A. Davis, Caleb A. Lareau, Bill C. White, *et al.* *Genetic Epidemiology* (June 2013)
 * "[A review of Bioinformatics training applied to research in Molecular Medicine, Agriculture and Biodiversity in Costa Rica and Central America](https://doi.org/10.1093/bib/bbt033)" by Allan Orozco, Jessica Morera, Sergio Jiménez, Ricardo Boza, *Briefings in Bioinformatics* (30 May 2013)
@@ -321,7 +321,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th rowspan=4> July 18-23 </th>
     <td> <em><a href='/src/events/niehs2013/index.md'>Introduction to Galaxy Workshop</a></em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
     <td rowspan=4> <a href='/src/events/rt-workshop-tour2013/index.md'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
-    <td rowspan=4> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td rowspan=4> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/src/events/unc2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
@@ -356,19 +356,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> September 28 - October&nbsp;1 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/people/fubar/index.md'>Ross Lazarus</a> </td>
+    <td> <a href='/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/people/fubar/'>Ross Lazarus</a> </td>
   </tr>
   <tr>
     <th> October 1-3 </th>
     <td> <a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a> </td>
     <td> San Francisco, California, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 22-26 </th>
     <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a></em> </td>
     <td> <a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a>, Boston, Massachusetts, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a>, <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/people/james-taylor/index.md'>James Taylor</a>, <a href='/src/people/jennifer-jackson/'>Jennifer Jackson</a> </td>
   </tr>
 </table>
 

@@ -379,4 +379,4 @@ We will continue to report new papers in the [monthly Galaxy newsletters](/src/g
 
 In the meantime, I expect the next 2500 papers will be published in considerably less than time than the first 2500.  I'm looking forward to all that research
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

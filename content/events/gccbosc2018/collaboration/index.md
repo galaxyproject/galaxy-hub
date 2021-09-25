@@ -98,8 +98,8 @@ CollaborationFest will be at Reed College, the same location as other GCCBOSC 20
 # CollaborationFest Organizers
 
 * *[Brad Chapman](http://bcb.io/)*, [Harvard T.H. Chan School of Public Health](https://www.hsph.harvard.edu/)
-* *[Dannon Baker](/src/people/dannon-baker/index.md)*,  [Johns Hopkins University](https://jhu.edu/)
-* *[Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)*, [Penn State University](http://www.bx.psu.edu)
+* *[Dannon Baker](/people/dannon-baker/)*,  [Johns Hopkins University](https://jhu.edu/)
+* *[Jennifer Hillman-Jackson](/people/jennifer-jackson/)*, [Penn State University](http://www.bx.psu.edu)
 * *[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)*, [VIB](http://www.vib.be/) and [ELIXIR Belgium](https://www.elixir-belgium.org/)
 * *[Björn Grüning](https://github.com/bgruening)*, [University of Freiburg](http://www.uni-freiburg.de/)
 * *[Christian Schudoma](http://www.earlham.ac.uk/christian-schudoma)*, [Earlham Institute](http://www.earlham.ac.uk/)

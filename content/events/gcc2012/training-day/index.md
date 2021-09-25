@@ -29,9 +29,9 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/index.md'>Ross Lazarus</a></em></div></td>
-    <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> & <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> & <a href='/src/people/dannon-baker/index.md'>Dannon Baker</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, <a href='/people/james-taylor/'>James Taylor</a> & <a href='/src/people/jennifer-jackson/'>Jennifer Jackson</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/people/enis-afgan/index.md'>Enis Afgan</a> & <a href='/src/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30 </th>
@@ -39,9 +39,9 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td style=" vertical-align: top; background-color: #FFDB97;"> <strong><a href='#ws4'>WS4: Galaxy Code Architecture</a></strong><div class='indent'><em><a href='/src/people/james-taylor/index.md'>James Taylor</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFD8FF;"> <strong><a href='#ws5'>WS5: Installing Your Own Galaxy</a></strong><div class='indent'><em><a href='/src/people/nate/index.md'>Nate Coraor</a> & <a href='/src/people/dave-bouvier/index.md'>Dave Bouvier</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/src/people/dannon-baker/index.md'>Dannon Baker</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFDB97;"> <strong><a href='#ws4'>WS4: Galaxy Code Architecture</a></strong><div class='indent'><em><a href='/people/james-taylor/'>James Taylor</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFD8FF;"> <strong><a href='#ws5'>WS5: Installing Your Own Galaxy</a></strong><div class='indent'><em><a href='/people/nate/index.md'>Nate Coraor</a> & <a href='/src/people/dave-bouvier/'>Dave Bouvier</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
@@ -49,9 +49,9 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
-    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/src/people/greg_vonkuster/index.md'>Greg von Kuster</a> & <a href='/src/people/nate/index.md'>Nate Coraor</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/people/greg_vonkuster/index.md'>Greg von Kuster</a> & <a href='/src/people/nate/'>Nate Coraor</a></em></div></td>
     <td style=" vertical-align: top; background-color: #E1CC9B;"> <strong><a href='#ws8'>WS8: Variant and SNP Analysis with Galaxy</a></strong><div class='indent'><em><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/index.md'>Ross Lazarus</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
@@ -59,9 +59,9 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 4:00 </th>
-    <td style=" vertical-align: top; background-color: #CCFF66;"> <strong><a href='#ws9'>WS9: RNA-Seq Analysis with Galaxy</a></strong><div class='indent'><em>Curtis Hendrickson, David Crossman & <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #88EDED;"> <strong><a href='#ws10'>WS10: Ion Torrent – Open Source Sequencing</a></strong><div class='indent'><em><a href='/src/people/matt-dyer/index.md'>Matt Dyer</a>, Associate Director, <a href='http://lifetech.com/'>Ion Torrent</a>, Bioinformatics & <a href='http://ioncommunity.iontorrent.com/'>Community</a></em></div>  </td>
-    <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/src/people/dannon-baker/index.md'>Dannon Baker</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #CCFF66;"> <strong><a href='#ws9'>WS9: RNA-Seq Analysis with Galaxy</a></strong><div class='indent'><em>Curtis Hendrickson, David Crossman & <a href='/people/jeremy-goecks/'>Jeremy Goecks</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #88EDED;"> <strong><a href='#ws10'>WS10: Ion Torrent – Open Source Sequencing</a></strong><div class='indent'><em><a href='/people/matt-dyer/'>Matt Dyer</a>, Associate Director, <a href='http://lifetech.com/'>Ion Torrent</a>, Bioinformatics & <a href='http://ioncommunity.iontorrent.com/'>Community</a></em></div>  </td>
+    <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:30 </th>

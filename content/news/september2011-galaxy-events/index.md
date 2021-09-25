@@ -19,13 +19,13 @@ There are (at least) three [Galaxy related events](/src/events/index.md) going o
     <th> September 15-16 </th>
     <td> <em><a href='http://docs.uabgrid.uab.edu/wiki/2011'>Galaxy: A Web-based Platform for Accessible, Reproducible, and Transparent High-throughput Biology</a></em> and <em><a href='http://docs.uabgrid.uab.edu/wiki/2011_Galaxy_Workshop'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://docs.uabgrid.uab.edu/wiki/2011'>UAB Research Computing Day</a>, Birmingham, Alabama, United States </td>
-    <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> September 19-22 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/program.html'>Transparent, accessible, reproducible analysis with Galaxy</a></em> </td>
     <td> <a href='http://www.beyond-the-genome.com/program.html'>Genome Informatics Workshop @ Beyond the Genome 2011</a>, Washington DC, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> September 22 </th>
@@ -39,4 +39,4 @@ There are (at least) three [Galaxy related events](/src/events/index.md) going o
 See the [Events](/src/events/index.md) page for a full listing of upcoming events.  If you have a Galaxy related event please send it to outreach@galaxyproject.org and we will help you get the word out.
 
 Thanks,<br />
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

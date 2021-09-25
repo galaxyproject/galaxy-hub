@@ -47,7 +47,7 @@ GAW 2014 also included poster session and keynote speakers.
   </tr>
   <tr>
     <th> 10:10-10:35 </th>
-    <td style=" text-align: center;"> <strong>Keynote: Reproducible complex analyses as a scientific commodity: Why Galaxy matters</strong><br /><a href='/src/people/fubar/index.md'>Ross Lazarus</a>  <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/ross_repro_research.pdf'>(download pdf slides)</a> </td>
+    <td style=" text-align: center;"> <strong>Keynote: Reproducible complex analyses as a scientific commodity: Why Galaxy matters</strong><br /><a href='/people/fubar/'>Ross Lazarus</a>  <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/ross_repro_research.pdf'>(download pdf slides)</a> </td>
   </tr>
   <tr>
     <th> 10:35-11:00 </th>
@@ -71,11 +71,11 @@ GAW 2014 also included poster session and keynote speakers.
   </tr>
   <tr>
     <th> 14:05-14:40 </th>
-    <td style=" text-align: center;"> <strong>Galaxy in the wild: Galaxy Architecture and Supporting Production Level Genomics</strong><br /><a href='/src/people/nate/index.md'>Nate Coraor</a> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/coraor_architecture_production.pdf'>download PDF slides</a>) </td>
+    <td style=" text-align: center;"> <strong>Galaxy in the wild: Galaxy Architecture and Supporting Production Level Genomics</strong><br /><a href='/people/nate/'>Nate Coraor</a> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/coraor_architecture_production.pdf'>download PDF slides</a>) </td>
   </tr>
   <tr>
     <th> 14:40-15:20 </th>
-    <td style=" text-align: center;"> <strong>Introduction to the Tool Shed: Tight dependency control for reproducible analysis</strong> <br /><a href='/src/people/fubar/index.md'>Ross Lazarus</a>  <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/ross_tool_shed_intro.pdf'>(download pdf slides)</a> </td>
+    <td style=" text-align: center;"> <strong>Introduction to the Tool Shed: Tight dependency control for reproducible analysis</strong> <br /><a href='/people/fubar/'>Ross Lazarus</a>  <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/ross_tool_shed_intro.pdf'>(download pdf slides)</a> </td>
   </tr>
   <tr>
     <th> 15:20-15:50 </th>
@@ -83,11 +83,11 @@ GAW 2014 also included poster session and keynote speakers.
   </tr>
   <tr>
     <th> 15:50-16:20 </th>
-    <td style=" text-align: center;"> <strong><a href="/src/cloudman/index.md">CloudMan</a> Project</strong><br /> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/AfganCloudMan.pdf'>(download pdf slides)</a> </td>
+    <td style=" text-align: center;"> <strong><a href="/src/cloudman/index.md">CloudMan</a> Project</strong><br /> <a href='/people/enis-afgan/'>Enis Afgan</a> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/AfganCloudMan.pdf'>(download pdf slides)</a> </td>
   </tr>
   <tr>
     <th> 16:20-17:00 </th>
-    <td style=" text-align: center;"> <strong>Setting up and administering Galaxy - panel discussion</strong> <br /><a href='http://www.hpsc.csiro.au/contact/steve_mcmahon.shtml'>Stephen McMahon</a>, <a href='/src/people/nate/index.md'>Nate Coraor</a>, <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td style=" text-align: center;"> <strong>Setting up and administering Galaxy - panel discussion</strong> <br /><a href='http://www.hpsc.csiro.au/contact/steve_mcmahon.shtml'>Stephen McMahon</a>, <a href='/people/nate/index.md'>Nate Coraor</a>, <a href='/src/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
 </table>
 
@@ -126,7 +126,7 @@ Posters to be displayed throughout the day:
   </tr>
   <tr>
     <th> 09:10-09:50 </th>
-    <td style=" text-align: center;"> <strong>Keynote: Galaxy - past, present and future</strong><br /><a href='/src/people/nate/index.md'>Nate Coraor</a>  (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/coraor_past_present_future.pdf'>download PDF slides</a>) </td>
+    <td style=" text-align: center;"> <strong>Keynote: Galaxy - past, present and future</strong><br /><a href='/people/nate/'>Nate Coraor</a>  (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/coraor_past_present_future.pdf'>download PDF slides</a>) </td>
   </tr>
   <tr>
     <th> 9:50-10:30 </th>
@@ -272,7 +272,7 @@ The first Galaxy Australasia Workshop was held on Monday 24th and Tuesday 25th M
 
 **Day 1** was held at the [Monash Biomedical Imaging](http://www.mbi.monash.edu.au/) Auditorium at [Monash University](http://www.monash.edu.au/).  The large auditorium did make the audience seem small, and perhaps the distance of the venue from the Melbourne CBD discouraged those few who had registered but did not attend.
 
-*[Ross Lazarus](/src/people/fubar/index.md)* ([Baker IDI/Galaxy](https://www.bakeridi.edu.au/)) opened in his usual entertaining manner and told us [Why Galaxy matters: Reproducible complex analyses as a scientific commodity](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/ross_repro_research.pdf).
+*[Ross Lazarus](/people/fubar/)* ([Baker IDI/Galaxy](https://www.bakeridi.edu.au/)) opened in his usual entertaining manner and told us [Why Galaxy matters: Reproducible complex analyses as a scientific commodity](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/ross_repro_research.pdf).
 
 <div class='float-right'><a href='https://genome.edu.au/wiki/GVL'><img src="/src/images/logos/gvl-300.png" alt="GVL" width="75" /></a></div>
 
@@ -294,7 +294,7 @@ The day closed amidst  the usual scrum of organising taxis and public transport 
 
 **Day 2** was held in the [Melbourne Convention Centre](http://mcec.com.au/), alongside CSIRO’s [Computational and Simulation Sciences and eResearch conference.](http://wp.csiro.au/css/ )  
 
-*[Nate Coraor](/src/people/nate/index.md)*, our special guest from the Galaxy Project, entertained us with a look at [working versions of Galaxy from the past, and updated us on Galaxy in the present and coming in the future](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/coraor_past_present_future.pdf).
+*[Nate Coraor](/people/nate/)*, our special guest from the Galaxy Project, entertained us with a look at [working versions of Galaxy from the past, and updated us on Galaxy in the present and coming in the future](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/coraor_past_present_future.pdf).
 
 <div class='float-left'><a href='http://www.latrobe.edu.au/'><img src="/src/images/logos/LatrobeUSquare.jpg" alt="Latrobe University" height="75" /></a>
 <a href='http://wehi.edu.au/'><img src="/src/images/logos/WEHILogoSquare.jpg" alt="WEHI" height="75" /></a></div>

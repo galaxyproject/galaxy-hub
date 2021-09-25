@@ -49,7 +49,7 @@ Welcome to the May 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a month
 
 39 new papers were added to the Galaxy CiteULike Group in April, including:
 
-* [BioBlend: automating pipeline analyses within Galaxy and CloudMan](https://doi.org/10.1093/bioinformatics/btt199), by Clare Sloggett, Nuwan Goonasekera, [Enis Afgan](/src/people/enis-afgan/index.md), Bioinformatics (28 April 2013)
+* [BioBlend: automating pipeline analyses within Galaxy and CloudMan](https://doi.org/10.1093/bioinformatics/btt199), by Clare Sloggett, Nuwan Goonasekera, [Enis Afgan](/people/enis-afgan/), Bioinformatics (28 April 2013)
 
 There are now over [950 papers in the Galaxy CiteULike Group](http://www.citeulike.org/group/16008/).
 
@@ -131,19 +131,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> May 14-16 </th>
     <td> Tutorial: <em>Exploring and Enabling Biomedical Data Analysis with Galaxy</em> </td>
     <td> <a href='http://www.iscb.org/glbio2013'>Great Lakes Bioinformatics Conference (GLBIO) 2013</a>, Pittsburgh, Pennsylvania, United States </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> May 15 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2013-05-15/index.md'>GalaxyAdmins May 2013 Meetup</a></em> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2013-05-15/index.md'>GalaxyAdmins web meetup</a> </td>
-    <td> Srinivas Maddhi, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> Srinivas Maddhi, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 16-17 </th>
     <td> <em>Galaxy Workflows for Bioinformatics Analysis,</em> and <br /><em>Workshop 1A – Galaxy Workflows for Bioinformatics Analysis</em> </td>
     <td> <a href='http://bit.ly/WiNGS2013'>Workshop in Next-Generation Sequence Analysis and Metabolomics (WiNGS)</a>, UNC-Charlotte, North Carolina, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> May 24<br />June 19 </th>
@@ -181,25 +181,25 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> June 8-11 </th>
     <td> <em><a href='https://www.eshg.org/sunday2013.0.html#W1'>WS08: Biomedical Data Analysis with Galaxy</a></em> </td>
     <td> Workshop at <a href='https://www.eshg.org/eshg2013.0.html'>European Human Genetics Conference (ESHG2013)</a>, Paris, France </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-13 </th>
     <td> <strong><a href='/src/events/asms2013/index.md'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
     <td> Minneapolis, Minnesota, United States </td>
-    <td> <a href='/src/people/john-chilton/index.md'>John Chilton</a> </td>
+    <td> <a href='/people/john-chilton/'>John Chilton</a> </td>
   </tr>
   <tr>
     <th> June 13-14 </th>
     <td> <a href='http://www.cdb.riken.jp/deepseq2013/index.html'>Genomics and Epigenomics with Deep Sequencing, the 24th CDB Meeting</a> </td>
     <td> RIKEN, CDB, Kobe, Japan </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> June 20-22 </th>
     <td> <em><a href='http://www.fged.org/conferences/upcoming-conference/workshops-and-tutorials-1/'>W1: Next-generation sequencing data analysis with GenomeSpace and Galaxy</a></em> </td>
     <td> <a href='http://www.fged.org/conferences/upcoming-conference2/'>FGED Conference</a>, Seattle, Washington </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>

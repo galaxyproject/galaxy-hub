@@ -81,7 +81,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. [Mercurial](http://mercurial.selenic.com) egg updated to version (3.2.4). [9A9uIav0](https://trello.com/c/9A9uIav0) [NUqyskst](https://trello.com/c/NUqyskst)
 1. [SQLAlchemy](http://www.sqlalchemy.org) upgrade to version 0.9.8. [zGLtSgPW](https://trello.com/c/zGLtSgPW)
 1. An invalid API key will now always return a »403« error. Triggers: API key is not found, is expired, or is not associated with an active account. [n59kZhXk](https://trello.com/c/n59kZhXk)
-1. Python PEP-8 fixes and API documentation enhancements for Libraries API. Thanks to [Nicola Soranzo](/src/people/nicola-soranzo/index.md). [MD4iUtzk](https://trello.com/c/MD4iUtzk)
+1. Python PEP-8 fixes and API documentation enhancements for Libraries API. Thanks to [Nicola Soranzo](/people/nicola-soranzo/). [MD4iUtzk](https://trello.com/c/MD4iUtzk)
 1. Moved the vast majority of the test-data out of `GALAXY_ROOT` (remaining tools excluded). [kcYI9DnK](https://trello.com/c/kcYI9DnK) [xd7Uri9l](https://trello.com/c/xd7Uri9l)
 1. New options that permits tools to access their `$REPOSITORY_INSTALL_DIR` location via `PATH`. [0pgF5PBQ](https://trello.com/c/0pgF5PBQ)
 1. To preserve the original deployment state, a new option to disable runtime egg fetching was created (a configurable environment variable - see ticket for details). [lthRjVZq](https://trello.com/c/lthRjVZq)
@@ -92,9 +92,9 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Expanded on Base, History, and HDA managers to provide a consistent facade for common model operations. [3A8nocpN](https://trello.com/c/3A8nocpN)
 1. Upgraded [SQLAlchemy](http://www.sqlalchemy.org) to incorporate two major revisions in this release. [XbZwEuxx](https://trello.com/c/XbZwEuxx)
 1. Removed use of the elementtree package and move to lxml.etree. [JJDxFdzK](https://trello.com/c/JJDxFdzK)
-1. Stopped aborted restart when `stop_daemon()` fails. Thank you [Nicola Soranzo](/src/people/nicola-soranzo/index.md). [1nlG2OmX](https://trello.com/c/1nlG2OmX)
-1. Merged `rolling_restart.sh` in `run.sh` by adding a new `—wait` parameter and other enhancements. Thank you [Nicola Soranzo](/src/people/nicola-soranzo/index.md). [QNKSMf2B](https://trello.com/c/QNKSMf2B) [S3WLFpGL](https://trello.com/c/S3WLFpGL) [jx0F2RKy](https://trello.com/c/jx0F2RKy)
-1. Enhancements to `galaxy.ini` and `integrated_tool_panel.xml` documentation. Contributed by [Nicola Soranzo](/src/people/nicola-soranzo/index.md). [4idoVDY8](https://trello.com/c/4idoVDY8)
+1. Stopped aborted restart when `stop_daemon()` fails. Thank you [Nicola Soranzo](/people/nicola-soranzo/). [1nlG2OmX](https://trello.com/c/1nlG2OmX)
+1. Merged `rolling_restart.sh` in `run.sh` by adding a new `—wait` parameter and other enhancements. Thank you [Nicola Soranzo](/people/nicola-soranzo/). [QNKSMf2B](https://trello.com/c/QNKSMf2B) [S3WLFpGL](https://trello.com/c/S3WLFpGL) [jx0F2RKy](https://trello.com/c/jx0F2RKy)
+1. Enhancements to `galaxy.ini` and `integrated_tool_panel.xml` documentation. Contributed by [Nicola Soranzo](/people/nicola-soranzo/). [4idoVDY8](https://trello.com/c/4idoVDY8)
 1. New configuration option to isolate tool commands in their own shell. [kyS9dF0s](https://trello.com/c/kyS9dF0s)
 1. Added a new configuration, `template_cache_path`, to reports_wsgi.ini.sample. Thank you Trevor Wennblom. [5vJ4EsDI](https://trello.com/c/5vJ4EsDI)
 1. Provide [NGINX](http://nginx.org/en) packages with the upload module. [C3g6Ko8K](https://trello.com/c/C3g6Ko8K)
@@ -103,7 +103,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Restructured `mvc/ui.js`. [HnnBFJy0](https://trello.com/c/HnnBFJy0)
 1. Improved use of a SELECT statement to reliably retrieve table column names. Thank you James Johnson. [oYkjj4T3](https://trello.com/c/oYkjj4T3)
 1. Enhanced a method to use first component of X-Forwarded-{For,Host,Scheme} when redirecting to the Galaxy browser. [BmbtnSon](https://trello.com/c/BmbtnSon) [BmbtnSon](https://trello.com/c/BmbtnSon)
-1. Migrated `shed_tool_conf.xml` into /config. Contributed by [Nitesh Turaga](/src/people/nitesh-turaga/index.md). [6olcQrhR](https://trello.com/c/6olcQrhR)
+1. Migrated `shed_tool_conf.xml` into /config. Contributed by [Nitesh Turaga](/people/nitesh-turaga/). [6olcQrhR](https://trello.com/c/6olcQrhR)
 1. Made installation of tool repositories more robust by setting time to "Epoch" instead of throwing server error when `repository_metadata.time_last_tested` is unset. [o09VBhr1](https://trello.com/c/o09VBhr1)
 1. Change to allow anonymous users (those not logged into a Galaxy account) to view Pages with embedded Histories. [9Om6Odj2](https://trello.com/c/9Om6Odj2)
 1. The GET /api/jobs request/response functionality has been expanded. Details in ticket. Thank you Thomas McGowan. [H0Bvd737](https://trello.com/c/H0Bvd737)
@@ -111,7 +111,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Moved `blastdb_p.loc.sample` to the NCBI BLAST Tool Shed repository. Thanks to Lance Parsons. [lpZNmEzj](https://trello.com/c/lpZNmEzj)
 1. Clearer error messages where parameter validation fails. Thanks to Peter Cock. [dRaX5reV](https://trello.com/c/dRaX5reV)
 1. Added `pkg_resources` to load required Mako packages. Thanks to Lance Parsons. [JdxJ11U0](https://trello.com/c/JdxJ11U0)
-1. Updated the Dockerfile template to the latest version our Galaxy Docker Container (updated at Galaxy release). Thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md). [Z45ZZ9C2](https://trello.com/c/Z45ZZ9C2)
+1. Updated the Dockerfile template to the latest version our Galaxy Docker Container (updated at Galaxy release). Thanks to [Björn Grüning](/people/bjoern-gruening/). [Z45ZZ9C2](https://trello.com/c/Z45ZZ9C2)
 1. Added a new API method to remove items from tool data tables. Thanks to Anthony Bretaud. [51JsMj0b](https://trello.com/c/51JsMj0b)
 1. Create attribute »optional« for data column parameters. A compliment to »force_select«. [G5YtpQZK](https://trello.com/c/G5YtpQZK)
 1. Enhanced the `collect_primary_datasets()` method to allow assignment of the defined output parameter for 3rd-party tools that manage tool outputs internally. [pncHLXdw](https://trello.com/c/pncHLXdw)
@@ -133,7 +133,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
   * Implementation of Dataset Collections »list of pairs«. Additional work is in-progress (see ticket). [8hEO00xj](https://trello.com/c/8hEO00xj)
   * Dataset Collections updated to permit »Drag & Drop« functionality (»copy datasets« is still an option). [Zmy8aiFP](https://trello.com/c/Zmy8aiFP)
 1. New [ZebrafishMine](http://www.zebrafishmine.org) Data Source tool. [u5OlE4kZ](https://trello.com/c/u5OlE4kZ)
-1. New datatypes. Thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md).
+1. New datatypes. Thanks to [Björn Grüning](/people/bjoern-gruening/).
   * Added [SnpEff](http://snpeff.sourceforge.net) datatypes. [accZ8KdI](https://trello.com/c/accZ8KdI)
   * Added `CompressedArchive` as a new datatype that does not uncompress during data upload. [1xtvpWil](https://trello.com/c/1xtvpWil)
   * Added Arff datatype. [fdVfagbS](https://trello.com/c/fdVfagbS)
@@ -151,13 +151,13 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Workflow steps are now assigned UUIDs. [4U9e1och](https://trello.com/c/4U9e1och)
 1. Updated the Workflow API by replacing preferred usage terminology (s/usage/invocation). [XNInq5KH](https://trello.com/c/XNInq5KH)
 1. Tuning for History panel functions: Dataset search, multi-select Datasets to perform batch operations, related database modifications. [D4nLl5Ky](https://trello.com/c/D4nLl5Ky)
-1. To enhance sharing of a History or Page, the forms now accept user IDs. Contributed by [Helena Rasche](/src/people/helena-rasche/index.md). [qzYtnG4T](https://trello.com/c/qzYtnG4T) [DCjT4KdQ](https://trello.com/c/DCjT4KdQ)
+1. To enhance sharing of a History or Page, the forms now accept user IDs. Contributed by [Helena Rasche](/people/helena-rasche/). [qzYtnG4T](https://trello.com/c/qzYtnG4T) [DCjT4KdQ](https://trello.com/c/DCjT4KdQ)
 1. Load the »Available Genomes« list from data tables for visualizations (Trackster). Thanks to Anthony Bretaudeau. [x8LMSD7Z](https://trello.com/c/x8LMSD7Z)
 1. The History »Options« menu has been updated to better compliment other recent UI changes. [EEsM0abM](https://trello.com/c/EEsM0abM)
 1. Several improvements to the History list view. [ltNMDNbZ](https://trello.com/c/ltNMDNbZ)
 1. New [Fetch Genome](http://toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta) Data Manager updated to create the metadata needed by Trackster. [IKdX0vX5](https://trello.com/c/IKdX0vX5)
 1. Addressed »multipart-upload« by using [Swift](https://swiftstack.com/openstack-swift) as an object storage backend. Thank you Charles Hsu. [U4kJBMk9](https://trello.com/c/U4kJBMk9)
-1. Added [Planemo](http://https://github.com/galaxyproject/planemo) test file to Tool Shed upload »blacklist«. Thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md). [0Z1tfTVU](https://trello.com/c/0Z1tfTVU)
+1. Added [Planemo](http://https://github.com/galaxyproject/planemo) test file to Tool Shed upload »blacklist«. Thanks to [Björn Grüning](/people/bjoern-gruening/). [0Z1tfTVU](https://trello.com/c/0Z1tfTVU)
 1. Added tool tests functions to assert properties about command, standard output, and standard error. [kNgOADAF](https://trello.com/c/kNgOADAF)
 
 # Fixed
@@ -215,7 +215,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Various low-vulnerability-level security fixes. [U6yj2pPr](https://trello.com/c/U6yj2pPr)
 1. Galaxy logs no longer leak database connection information. [VjEqTxlT](https://trello.com/c/VjEqTxlT)
 1. The email for resetting an account password is now a link. [SKjU40t6](https://trello.com/c/SKjU40t6)
-1. New »shared secret« between Galaxy and upstream proxies, thereby preventing a specific potential impersonation attack. Thank you [Helena Rasche](/src/people/helena-rasche/index.md). [jTHrXHol](https://trello.com/c/jTHrXHol)
+1. New »shared secret« between Galaxy and upstream proxies, thereby preventing a specific potential impersonation attack. Thank you [Helena Rasche](/people/helena-rasche/). [jTHrXHol](https://trello.com/c/jTHrXHol)
 
 # Upgrades
 

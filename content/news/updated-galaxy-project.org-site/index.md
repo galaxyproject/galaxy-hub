@@ -16,4 +16,4 @@ Please continue to use these wherever appropriate.
 
 Thanks,
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

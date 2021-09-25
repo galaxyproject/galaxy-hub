@@ -33,9 +33,9 @@ If you are interested, please add your name below and/or send an email to the [I
 * [Björn Grüning](mailto:bjoern.gruening AT pharmazie DOT uni-freiburg DOT de)
 * [JJ Johnson](mailto:jj AT umn DOT edu)
 * Peter Cock
-* [Greg Von Kuster](/src/people/greg_vonkuster/index.md)
-* [Dave Bouvier](/src/people/dave-bouvier/index.md)
-* [Dan Blankenberg](/src/people/dan/index.md)
+* [Greg Von Kuster](/people/greg_vonkuster/)
+* [Dave Bouvier](/people/dave-bouvier/)
+* [Dan Blankenberg](/people/dan/)
 * [Christian Andreetta](http://www.computing.uni.no/staff?nickname=christiana)
 * Lionel Guy, Uppsala University
 * Christos Kannas, University of Cyprus

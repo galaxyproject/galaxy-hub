@@ -26,7 +26,7 @@ There will be two Galaxy-related events on the Caltech Campus on March 5, 2013: 
 <div class='indent'>
 **11am-2pm, March 5, 2013, 151 Braun** (lunch provided for participants)<br />
 **[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013CaltechGalaxyForBiologists.pdf)**<br />
-**[Dave Clements](/src/people/dave-clements/index.md)**<br />
+**[Dave Clements](/people/dave-clements/)**<br />
 **Emory University**<br /><br />
 
 
@@ -86,10 +86,10 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 <div class='indent'>
 **2:30-4:30pm, March 5, BBB 024** (note revised time, new location) <br />
-**[Dave Clements](/src/people/dave-clements/index.md)**<br />
+**[Dave Clements](/people/dave-clements/)**<br />
 **Emory University**<br /><br />
 
-This informal discussion will introduce Galaxy for developers.  We will discuss any items of interest to attendees and answer questions relating to, for example, the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment, and anything else about Galaxy. This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees. [Dave Clements](/src/people/dave-clements/index.md) of the Galaxy Project will lead the workshop and we will be joined remotely by [Dannon Baker](/src/people/dannon-baker/index.md) and [Nate Coraor](/src/people/nate/index.md), two members of the [core Galaxy development team](/src/galaxy-team/index.md).
+This informal discussion will introduce Galaxy for developers.  We will discuss any items of interest to attendees and answer questions relating to, for example, the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment, and anything else about Galaxy. This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees. [Dave Clements](/people/dave-clements/index.md) of the Galaxy Project will lead the workshop and we will be joined remotely by [Dannon Baker](/people/dannon-baker/index.md) and [Nate Coraor](/src/people/nate/), two members of the [core Galaxy development team](/src/galaxy-team/).
 
 *This discussion is open to any member of the Caltech community. It is free, but space is limited and advanced registration is strongly encouraged.*
 </div>

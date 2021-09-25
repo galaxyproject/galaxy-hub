@@ -22,7 +22,7 @@ user_support:
 quotas: 
   - "None"
 citations:
-  - "[G-OnRamp: A Galaxy-based platform for creating genome browsers for collaborative genome annotation](https://doi.org/10.1101/499558), Yating Liu, Luke Sargent, Wilson Leung,	Sarah C.R. Elgin, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), *bioRxiv* 499558; doi: 10.1101/499558"
+  - "[G-OnRamp: A Galaxy-based platform for creating genome browsers for collaborative genome annotation](https://doi.org/10.1101/499558), Yating Liu, Luke Sargent, Wilson Leung,	Sarah C.R. Elgin, [Jeremy Goecks](/people/jeremy-goecks/), *bioRxiv* 499558; doi: 10.1101/499558"
 pub_libraries:
   - "G-OnRamp"
 sponsors: 

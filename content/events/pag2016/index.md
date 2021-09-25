@@ -64,7 +64,7 @@ Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.o
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3098'>Galaxy for SNP and Variant Data Analysis</a> </td>
     <td> Workshop, California Room </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_PAG_VariantAnalysis.pdf'>Slides</a> </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th rowspan=2> Wednesday<br />January 13 </th>
@@ -72,6 +72,6 @@ Galaxy will be at [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.o
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Paper/21816'>Galaxy Community Update</a> </td>
     <td> <a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3109'>GMOD</a>, Golden West </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_PAG_GalaxyUpdate.pdf'>Slides</a> </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
 </table>

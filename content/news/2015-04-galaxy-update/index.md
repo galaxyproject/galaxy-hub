@@ -31,4 +31,4 @@ In addition, there is news on:
 * [One new Community Log Board entry](/src/galaxy-updates/2015-04/index.md#galaxy-community-hubs)
 * And, [other news](/src/galaxy-updates/2015-04/index.md#other-news) as well.
 
-[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)

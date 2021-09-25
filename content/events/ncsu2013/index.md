@@ -8,7 +8,7 @@
 
 <div class='title'>Introduction to Galaxy<br />July 22, 2013</div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+**Instructor: [Dave Clements](/people/dave-clements/)
 
 9:00-4:45<br />
 [3503 Thomas Hall (The Stephens Room)](http://harvest.cals.ncsu.edu/caat/index.cfm?pageID=1331)<br />

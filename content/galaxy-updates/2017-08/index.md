@@ -380,8 +380,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/src/people/john-chilton/index.md): 
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+* From [John Chilton](/people/john-chilton/): 
+  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 
 ### Parsec 1.0.0 - 1.0.2
@@ -425,7 +425,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 * [Five years of Galaxy-P!](https://twitter.com/usegalaxyp/status/888157211612110849)
 * A [plugin framework for Galaxy tool error handling](https://github.com/galaxyproject/galaxy/pull/4305) (work-in-progress) by [Helena Rasche](https://github.com/hexylena). 
 * [A Galaxy docker container with R markdown based Galaxy tools installed](https://github.com/statonlab/docker-GRReport).  This Docker image is used as a demonstration to show how to use R markdown as a unified framework for Galaxy tool development.
-* From [John Chilton](/src/people/john-chilton/index.md): A cool outcome from our GCC hackathon - [support for Galaxy tool localization](https://github.com/galaxyproject/galaxy/pull/4251) (work in progress). 
+* From [John Chilton](/people/john-chilton/): A cool outcome from our GCC hackathon - [support for Galaxy tool localization](https://github.com/galaxyproject/galaxy/pull/4251) (work in progress). 
 * From Mallory Freeberg: [Differential abundance testing of small RNAs](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html) tutorial
-* From [Enis Afgan](/src/people/enis-afgan/index.md): [First launch of #usegalaxy on Microsoft #Azure!](https://twitter.com/enisafgan/status/880796649160880128) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.
+* From [Enis Afgan](/people/enis-afgan/): [First launch of #usegalaxy on Microsoft #Azure!](https://twitter.com/enisafgan/status/880796649160880128) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.
 

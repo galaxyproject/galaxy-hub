@@ -404,7 +404,7 @@ For full details on all of the enhancements and fixes in this release, please se
 
 #### Galaxy Docker Image 17.01
 
-And, thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md), there is also now [a Docker image for Galaxy 17.01](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.01) as well.
+And, thanks to [Björn Grüning](/people/bjoern-gruening/), there is also now [a Docker image for Galaxy 17.01](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.01) as well.
 
 ### Starforge 0.3
 

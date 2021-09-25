@@ -8,7 +8,7 @@
 
 <div class='title'>Introduction to Galaxy<br />9 May 2014</div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+**Instructor: [Dave Clements](/people/dave-clements/)
 
 9:00-16:00<br />
 Genome Seminar Room<br />

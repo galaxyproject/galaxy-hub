@@ -212,11 +212,11 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications from December:
 
-* **[Galaxy-Kubernetes integration: scaling bioinformatics workflows in the cloud](https://doi.org/10.1101/488643)**, [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), Luca Pireddu, Pierrick Roger, Nuwan Goonasekera, [Enis Afgan](/src/people/enis-afgan/index.md), Marius van den Beek, Sijin He, Anders Larsson, Christoph Ruttkies, Daniel Schober, David Johnson, Philippe Rocca-Serra, Ralf J.M. Weber, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), Reza Salek, Namrata Kale, Yasset Perez-Riverol, Irene Papatheodorou, Ola Spjuth, Steffen Neumann, *bioRxiv* 488643; 
+* **[Galaxy-Kubernetes integration: scaling bioinformatics workflows in the cloud](https://doi.org/10.1101/488643)**, [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), Luca Pireddu, Pierrick Roger, Nuwan Goonasekera, [Enis Afgan](/people/enis-afgan/index.md), Marius van den Beek, Sijin He, Anders Larsson, Christoph Ruttkies, Daniel Schober, David Johnson, Philippe Rocca-Serra, Ralf J.M. Weber, [Bjoern Gruening](/src/people/bjoern-gruening/), Reza Salek, Namrata Kale, Yasset Perez-Riverol, Irene Papatheodorou, Ola Spjuth, Steffen Neumann, *bioRxiv* 488643; 
 doi: 10.1101/488643 
 * **[PhenoMeNal: Processing and analysis of Metabolomics data in the Cloud](https://doi.org/10.1093/gigascience/giy149)**,
 Kristian Peters, James Bradbury, Sven Bergmann, Marco Capuccini, Marta Cascante, Pedro de Atauri, Timothy M D Ebbels, Carles Foguet, Robert Glen, Alejandra Gonzalez-Beltran, Ulrich L Günther, Evangelos Handakas, Thomas Hankemeier, Kenneth Haug, Stephanie Herman, Petr Holub, Massimiliano Izzo, Daniel Jacob, David Johnson, Fabien Jourdan, Namrata Kale, Ibrahim Karaman, Bita Khalili, Payam Emami Khonsari, Kim Kultima, Samuel Lampa, Anders Larsson, Christian Ludwig, [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), Steffen Neumann, Jon Ander Novella, Claire O'Donovan, Jake T M Pearce, Alina Peluso, Marco Enrico Piras, Luca Pireddu, Michelle A C Reed, Philippe Rocca-Serra, Pierrick Roger, Antonio Rosato, Rico Rueedi, Christoph Ruttkies, Noureddin Sadawi, Reza M Salek, Susanna-Assunta Sansone, Vitaly Selivanov, Ola Spjuth, Daniel Schober, Etienne A Thévenot, Mattia Tomasoni, Merlijn van Rijswijk, Michael van Vliet, Mark R Viant, Ralf J M Weber, Gianluigi Zanetti, Christoph Steinbeck, *GigaScience*, giy149, doi: 10.1093/gigascience/giy149
-* **[Cloud Bursting Galaxy: Federated Identity and Access Management](https://doi.org/10.1101/506238)**, [Vahid Jalili](/src/people/vahid-jalili/index.md), [Enis Afgan](/src/people/enis-afgan/index.md), [James Taylor](/src/people/james-taylor/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), *bioRxiv* 506238, doi: 10.1101/506238 
+* **[Cloud Bursting Galaxy: Federated Identity and Access Management](https://doi.org/10.1101/506238)**, [Vahid Jalili](/people/vahid-jalili/index.md), [Enis Afgan](/people/enis-afgan/index.md), [James Taylor](/src/people/james-taylor/), [Jeremy Goecks](/src/people/jeremy-goecks/), *bioRxiv* 506238, doi: 10.1101/506238 
 * **[SkeletalVis: an exploration and meta-analysis data portal of cross-species skeletal transcriptomics data](https://doi.org/10.1093/bioinformatics/bty947
 )**, Jamie Soul, Tim E Hardingham, Ray P Boot-Handford, Jean-Marc Schwartz, *Bioinformatics*, bty947, doi: 10.1093/bioinformatics/bty947
 
@@ -292,7 +292,7 @@ There is one new *[Galactic Blog](/src/blog/index.md)* entry:
 
 * **[Contributor of the Month: Simon Gladman](/src/blog/2018-12-cotm-simon-gladman/index.md):**
   * 'firefighter, cheesemaker, pillar of the [Galaxy Australia](https://usegalaxy.org.au/), and an overall jolly good fellow'
-  * by [Martin Čech](/src/people/marten/index.md)
+  * by [Martin Čech](/people/marten/)
 
 ----
 
@@ -316,7 +316,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
 * [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
+* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States).
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
@@ -339,8 +339,8 @@ Here some significant activity from the [Galaxy Training Materials](https://gala
 
 ## Hub
 
-* [Cloud Storage API](https://galaxyproject.org/cloud/storage/), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
-* [Securely Authorize Galaxy to Access Protected Data on Cloud](/src/authnz/cloud/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
+* [Cloud Storage API](https://galaxyproject.org/cloud/storage/), by [Vahid Jalili](/people/vahid-jalili/)
+* [Securely Authorize Galaxy to Access Protected Data on Cloud](/src/authnz/cloud/index.md), by [Vahid Jalili](/people/vahid-jalili/)
 
 ## Other Training Materials and Doc
 

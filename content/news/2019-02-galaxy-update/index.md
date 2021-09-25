@@ -150,7 +150,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications from January:
 
-* **[G-OnRamp: A Galaxy-based platform for creating genome browsers for collaborative genome annotation](https://doi.org/10.1101/499558)**, Yating Liu, Luke Sargent, Wilson Leung, Sarah C.R. Elgin, [Jeremy Goecks](/src/people/jeremy-goecks/index.md). *bioRxiv* 499558; doi: https://doi.org/10.1101/499558
+* **[G-OnRamp: A Galaxy-based platform for creating genome browsers for collaborative genome annotation](https://doi.org/10.1101/499558)**, Yating Liu, Luke Sargent, Wilson Leung, Sarah C.R. Elgin, [Jeremy Goecks](/people/jeremy-goecks/). *bioRxiv* 499558; doi: https://doi.org/10.1101/499558
 * **[Galaxy mothur Toolset (GmT): a user-friendly application for 16S rRNA gene sequencing analysis using mothur](https://doi.org/10.1093/gigascience/giy166)**, Saskia D Hiltemann, Stefan A Boers, Peter J van der Spek, Ruud Jansen, John P Hays, Andrew P Stubbs. *GigaScience*, giy166, doi:10.1093/gigascience/giy166
 * **[MEGARes: an antimicrobial resistance database for high throughput sequencing](https://doi.org/10.1093/nar/gkw1009)**, Steven M. Lakin, Chris Dean, Noelle R. Noyes, Adam Dettenwanger, Anne Spencer Ross, Enrique Doster, Pablo Rovira, Zaid Abdo, Kenneth L. Jones, Jaime Ruiz, Keith E. Belk, Paul S. Morley, Christina Boucher. *Nucleic Acids Research*, Volume 45, Issue D1, 4 January 2017, Pages D574–D580, doi: 10.1093/nar/gkw1009
 * **[Peptimapper: proteogenomics workflow for the expert annotation of eukaryotic genomes](https://doi.org/10.1186/s12864-019-5431-9)**, Laetitia Guillot, Ludovic Delage, Alain Viari, Yves Vandenbrouck, Emmanuelle Com, Andrés Ritter, Régis Lavigne, Dominique Marie, Pierre Peterlongo, Philippe Potin and Charles Pineau. *BMC Genomics* 201920:56 doi:10.1186/s12864-019-5431-9
@@ -160,7 +160,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 * **[VAPPER: High-throughput Variant Antigen Profiling in African trypanosomes](https://doi.org/10.1101/492074)**, Sara Silva Pereira, John Heap, Andrew R Jones, Andrew P. Jackson. *bioRxiv* 492074; doi: 10.1101/492074
 * **[PrediTALE: A novel model learned from quantitative data allows for new perspectives on TALE targeting](https://doi.org/10.1101/522458)**, Annett Erkes, Stefanie Mücke, Maik Reschke, Jens Boch, Jan Grau. *bioRxiv* 522458; doi: 10.1101/522458 
 * **[Enhancing Access to Digital Media: The Language Application Grid in the HTRC Data Capsule](https://doi.org/10.1145/3093338.3104171)**, James Pustejovsky, Marc Verhagen, Keongmin Rim, Yu Ma, Liang Ran, Samitha Liyanage,  Jaimie Murdock, Robert H. McDonald, Beth Plale. In PEARC17 Proceedings of the Practice and Experience in Advanced Research Computing 2017 on Sustainability, Success and Impact, Article No. 60. doi: 10.1145/3093338.3104171
-* **[Predicting runtimes of bioinformatics tools based on historical data: Five years of Galaxy usage](https://doi.org/10.1093/bioinformatics/btz054)**, Anastasia Tyryshkina, [Nate Coraor](/src/people/nate/index.md), [Anton Nekrutenko](/src/people/anton/index.md). *Bioinformatics*, btz054, doi: 10.1093/bioinformatics/btz054
+* **[Predicting runtimes of bioinformatics tools based on historical data: Five years of Galaxy usage](https://doi.org/10.1093/bioinformatics/btz054)**, Anastasia Tyryshkina, [Nate Coraor](/people/nate/index.md), [Anton Nekrutenko](/src/people/anton/). *Bioinformatics*, btz054, doi: 10.1093/bioinformatics/btz054
 * **[Tools for Understanding miRNA–mRNA Interactions for Reproducible RNA Analysis](https://link.springer.com/protocol/10.1007%2F978-1-4939-8982-9_8)**, Andrea Bagnacani, Markus Wolfien, Olaf Wolkenhauer. In: Lai X., Gupta S., Vera J. (eds) Computational Biology of Non-Coding RNA. Methods in Molecular Biology, vol 1912. Humana Press, New York, NY
 * **[QuanTP: A Software Resource for Quantitative Proteo-Transcriptomic Comparative Data Analysis and Informatics](https://pubs.acs.org/doi/10.1021/acs.jproteome.8b00727)**, Praveen Kumar, Priyabrata Panigrahi, James Johnson, Wanda J. Weber, Subina Mehta, Ray Sajulga, Caleb  Easterly, Brian A. Crooker, Mohammad Heydarian, Krishanpal Anamika, Timothy J. Griffin , and Pratik D. Jagtap. *Journal of Proteome Research*, Article ASAP
 DOI: 10.1021/acs.jproteome.8b00727
@@ -230,7 +230,7 @@ G-OnRamp is supported by [Washington University in St. Louis](https://wustl.edu/
 
 ## AmrPlusPlus
 
-[AmrPlusPlus](http://megares.meglab.org/amrplusplus/latest/html/) is a Docker container with a Galaxy-based metagenomics pipeline that is intuitive and easy to use.  AmrPlusPlus takes advantage of current and new tools to help identify and characterize resistance genes within metagenomic sequence data. The pipeline can be used under a local instance of Galaxy and installed via Galaxy's Main Tool Shed. It is also available as a Galaxy-based Docker Image, using base images developed by [Björn Grüning](/src/people/bjoern-gruening/index.md) at the University of Freiburg. It has [Documentation](http://megares.meglab.org/amrplusplus/latest/html/) and [Email support](http://megares.meglab.org/amrplusplus/latest/html/contact.html).  AmrPlusPlus is supported by [Colorado State University](https://www.colostate.edu/).
+[AmrPlusPlus](http://megares.meglab.org/amrplusplus/latest/html/) is a Docker container with a Galaxy-based metagenomics pipeline that is intuitive and easy to use.  AmrPlusPlus takes advantage of current and new tools to help identify and characterize resistance genes within metagenomic sequence data. The pipeline can be used under a local instance of Galaxy and installed via Galaxy's Main Tool Shed. It is also available as a Galaxy-based Docker Image, using base images developed by [Björn Grüning](/people/bjoern-gruening/) at the University of Freiburg. It has [Documentation](http://megares.meglab.org/amrplusplus/latest/html/) and [Email support](http://megares.meglab.org/amrplusplus/latest/html/contact.html).  AmrPlusPlus is supported by [Colorado State University](https://www.colostate.edu/).
 
 ## Lifeportal
 
@@ -309,7 +309,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
   * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
+* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States.
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
@@ -331,7 +331,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 ## Hub
 
-* [Configure Cloud Authorizatoin for Azure](/src/authnz/cloud/azure/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
+* [Configure Cloud Authorizatoin for Azure](/src/authnz/cloud/azure/index.md), by [Vahid Jalili](/people/vahid-jalili/)
 
 
 ---
@@ -364,7 +364,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 # Other News
 
 * The [Galaxy statistics page](/src/galaxy-project/statistics/index.md) has received it's semi-annual update.
-* From [James Taylor](/src/people/james-taylor/index.md):
+* From [James Taylor](/people/james-taylor/):
   * [Visualizing scRNA-Seq data](https://twitter.com/jxtx/status/1088580033512390657/video/1) using [cellxgene](https://github.com/chanzuckerberg/cellxgene/blob/master/README.md) inside Galaxy.
 
 ## PAG 2019 Presentations and Posters are Available

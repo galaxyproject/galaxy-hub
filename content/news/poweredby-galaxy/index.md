@@ -13,4 +13,4 @@ This, along with [Citing Galaxy](/src/Citing Galaxy/index.md), are two easy thin
 
 Thanks,
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

@@ -23,4 +23,4 @@ The **[September Galaxy News](/src/galaxy-updates/2016-09/index.md) is out:**
 * [TooShed Contributions](/src/galaxy-updates/2016-09/index.md#toolshed-contributions)
 * And [other news](/src/galaxy-updates/2016-09/index.md#other-news) too.
 
-[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)

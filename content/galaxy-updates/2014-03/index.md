@@ -9,7 +9,7 @@ Welcome to the March 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mon
 
 *54 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in Febrary. Some papers that may be particularly interesting to the Galaxy community:
 
-* [Dissemination of scientific software with Galaxy ToolShed](https://doi.org/10.1186/gb4161), by [Blankenberg](/src/people/dan/index.md), [Von Kuster](/src/people/greg_vonkuster/index.md), [Bouvier](/src/people/dave-bouvier/index.md), [Baker](/src/people/dannon-baker/index.md), [Afgan](/src/people/enis-afgan/index.md), Stoler, the [Galaxy Team](/src/galaxy-team/index.md), [Taylor](/src/people/james-taylor/index.md) and [Nekrutenko](/src/people/anton/index.md), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
+* [Dissemination of scientific software with Galaxy ToolShed](https://doi.org/10.1186/gb4161), by [Blankenberg](/people/dan/index.md), [Von Kuster](/people/greg_vonkuster/index.md), [Bouvier](/people/dave-bouvier/index.md), [Baker](/people/dannon-baker/index.md), [Afgan](/src/people/enis-afgan/), Stoler, the [Galaxy Team](/src/galaxy-team/), [Taylor](/src/people/james-taylor/) and [Nekrutenko](/src/people/anton/), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
 
 * [Binding Sites Analyser (BiSA): Software for Genomic Binding Sites Archiving and Overlap Analysis](https://doi.org/10.1371/journal.pone.0087301), by Khushi, *et al.,* *PLoS ONE*, Vol. 9, No. 2. (12 February 2014), e87301, doi:10.1371/journal.pone.0087301
 
@@ -188,7 +188,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
     <th> March 26-30 </th>
     <td> <em>Galaxy toolset for Drosophila genomics</em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
     <td> <a href='http://www.genetics-gsa.org/drosophila/2014/'>Drosophila Research Conference</a>, San Diego, California, United States </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/index.md'>Jen Jackson</a> </td>
+    <td> <a href='/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/'>Jen Jackson</a> </td>
   </tr>
   <tr>
     <th> April 15-17 </th>
@@ -204,11 +204,11 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
   </tr>
   <tr>
     <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135146'>W4: Analyzing NGS Data in Galaxy</a></em> </td>
-    <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, <a href='/src/people/nate/index.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, Tristan Lubinski </td>
+    <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, <a href='/people/nate/'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, Tristan Lubinski </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152'>W14: Running a Local Galaxy Instance</a></em> </td>
-    <td> <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, <a href='/src/people/nate/index.md'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Tristan Lubinski, James Reaney </td>
+    <td> <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, <a href='/people/nate/'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Tristan Lubinski, James Reaney </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.bio-itworldexpo.com/Next-Gen-Sequencing-Informatics/'>Globus Genomics: An End-to-End NGS Analysis Service on the Cloud for Researchers and Core Labs</a></em> </td>
@@ -220,25 +220,25 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
   </tr>
   <tr>
     <td> <em><a href='http://www.bio-itworldexpo.com/Data-Visualization/'>Web-Based Visualization and Visual Analysis for High-Throughput Genomics with Galaxy</a></em> </td>
-    <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> May 6-7 </th>
     <td> <em>Scaling Galaxy for Big Data</em> </td>
     <td> <a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'>NGS Data after the Gold Rush</a>, <a href='http://www.tgac.ac.uk/'>TGAC</a>, Norwich, United Kingdom </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 9 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.tgac.ac.uk/'>The Genome Analysis Centre (TGAC)</a>, Norwich, United Kingdom </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
     <td> <em><a href='http://www.mipro.hr/LinkClick.aspx?fileticket=y1%2bUY%2b54jB4%3d&tabid=110&mid=461&language=en-US&forcedownload=true'>Enabling Data Analysis with Galaxy CloudMan workshop</a></em> </td>
     <td> <a href='http://www.mipro.hr/CallForPapers/tabid/176/language/en-US/Default.aspx'>MIPRO 2014</a>, Opatija, Croatia </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
@@ -287,7 +287,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
     <th rowspan=3> September 30 - October 2 </th>
     <td> Galaxy Training and Demo Day </td>
     <td> Bern (Switzerland) </td>
-    <td rowspan=3> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
+    <td rowspan=3> <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/src/events/switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>

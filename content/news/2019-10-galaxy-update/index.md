@@ -132,7 +132,7 @@ Ellrott, Kyle, Alex Buchanan, et al. *Genome Biology* 20 (1): 195. doi: 10.1186/
 <div class="card border-info" style="min-width: 14rem;">
 <div class="card-header">[You Wrote It, Now Get It Used: Publishing Your Software with Galaxy and Bioconda](http://doi.acm.org/10.1145/3307339.3343178)</div>
 
-[Daniel Blankenberg](/src/people/dan/index.md), [Martin Cech](/src/people/marten/index.md). 2019. In Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (BCB '19). ACM, New York, NY, USA, 559-559. DOI: 10.1145/3307339.3343178 
+[Daniel Blankenberg](/people/dan/index.md), [Martin Cech](/src/people/marten/). 2019. In Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (BCB '19). ACM, New York, NY, USA, 559-559. DOI: 10.1145/3307339.3343178 
 </div>
 
 <div class="card border-info" style="min-width: 18rem;">

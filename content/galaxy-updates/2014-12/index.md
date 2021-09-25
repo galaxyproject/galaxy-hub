@@ -101,7 +101,7 @@ There are [upcoming events](/src/events/index.md) on two continents.  See the [G
     <th> December 12 </th>
     <td> <em><a href='/src/events/vsu2014/index.md'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='http://vsu.edu/'>Virginia State University</a>, Petersburg, Virginia, United States </td>
-    <td> <a href='http://sest.vsu.edu/biology/Faculty/harris.html'>Glenn Harris</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='http://sest.vsu.edu/biology/Faculty/harris.html'>Glenn Harris</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> December 16-19 </th>
@@ -116,7 +116,7 @@ There are [upcoming events](/src/events/index.md) on two continents.  See the [G
     <th> January 10-14 </th>
     <td> <em>Galaxy for SNP and Variant Data Analysis</em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2014)</a>, San Diego, California, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 9-13 </th>
@@ -128,7 +128,7 @@ There are [upcoming events](/src/events/index.md) on two continents.  See the [G
     <th rowspan=3> February 16-18 </th>
     <td> <em>Accessible and Reproducible Large-Scale Analysis with Galaxy</em> </td>
     <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <td> <em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic</em> </td>
@@ -153,7 +153,7 @@ There are [upcoming events](/src/events/index.md) on two continents.  See the [G
 
 **96 papers** (a new record) referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in November.  That's a new record.  Some of those papers are:
 
-* "[Galaxy Cluster to Cloud - Genomics at Scale](https://doi.org/10.1109/GCE.2014.13)" by [Enis Afgan](/src/people/enis-afgan/index.md), *et al.* in [Proceedings of the 9th Gateway Computing Environments Workshop (2014)](http://dl.acm.org/citation.cfm?id=2690887&picked=prox&cfid=603148869&cftoken=86409151), pp. 47-50, doi:10.1109/gce.2014.13
+* "[Galaxy Cluster to Cloud - Genomics at Scale](https://doi.org/10.1109/GCE.2014.13)" by [Enis Afgan](/people/enis-afgan/), *et al.* in [Proceedings of the 9th Gateway Computing Environments Workshop (2014)](http://dl.acm.org/citation.cfm?id=2690887&picked=prox&cfid=603148869&cftoken=86409151), pp. 47-50, doi:10.1109/gce.2014.13
 
 * "[Automatically exposing OpenLifeData via SADI semantic Web Services](https://doi.org/10.1186/2041-1480-5-46)" by Alejandro Gonzalez, *et al.* *Journal of Biomedical Semantics*, Vol. 5, No. 1. (2014), 46, doi:10.1186/2041-1480-5-46
 

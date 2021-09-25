@@ -23,4 +23,4 @@ The [Association of Biomolecular Resource Facilities 2020 Conference (ABRF 2020)
 
 We hope to see you Palm Springs,
 
-[Pratik](https://www.researchgate.net/profile/Pratik_Jagtap2), [Saskia](https://www.researchgate.net/profile/Saskia_Hiltemann), [Subina](https://www.researchgate.net/profile/Subina_Mehta), [Mehmet](https://www.researchgate.net/profile/Mehmet_Tekman), and [Dave C](/src/people/dave-clements/index.md)
+[Pratik](https://www.researchgate.net/profile/Pratik_Jagtap2), [Saskia](https://www.researchgate.net/profile/Saskia_Hiltemann), [Subina](https://www.researchgate.net/profile/Subina_Mehta), [Mehmet](https://www.researchgate.net/profile/Mehmet_Tekman), and [Dave C](/people/dave-clements/)

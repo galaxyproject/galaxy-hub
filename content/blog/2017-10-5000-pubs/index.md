@@ -441,7 +441,7 @@ If [current trends continue](#publications-per-year) we'll hit 10,000 publicatio
 
 *Thanks for using Galaxy,*
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)
 
 ----
 

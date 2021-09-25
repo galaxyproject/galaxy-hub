@@ -98,7 +98,7 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 * Anushka Brownley
 * Ben Busby
 * Brian Whalen
-* [Carl Eberhard](/src/people/carl-eberhard/index.md)
+* [Carl Eberhard](/people/carl-eberhard/)
 * David Hoover
 * Dawei Lin
 * Edwin Smith
@@ -114,7 +114,7 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 * Maria Doyle
 * Marie Jacques Seignon
 * Mark Rose 
-* [Martin Cech](/src/people/marten/index.md)
+* [Martin Cech](/people/marten/)
 * Michael R. Crusoe
 * Mo Heydarian
 * Morten Johansen

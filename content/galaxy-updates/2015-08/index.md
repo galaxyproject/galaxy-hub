@@ -212,9 +212,9 @@ There are [upcoming events](/src/events/index.md) in four countries on three con
 
 * [Enabling Data-Intensive Biomedical Studies](http://bit.ly/leophd), Simone Leo
 
-* [Enabling cloud bursting for life sciences within Galaxy](http://bit.ly/1TRbuRl), [Afgan](/src/people/enis-afgan/index.md) *et al.*
+* [Enabling cloud bursting for life sciences within Galaxy](http://bit.ly/1TRbuRl), [Afgan](/people/enis-afgan/) *et al.*
 
-* [Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://bit.ly/1gOtVYQ), [Afgan](/src/people/enis-afgan/index.md) *et al.*
+* [Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://bit.ly/1gOtVYQ), [Afgan](/people/enis-afgan/) *et al.*
 
 * [LiSIs: An Online Scientific Workflow System for Virtual Screening](https://doi.org/10.2174/1386207318666150305123341), Kannas, *et al.*
 
@@ -407,7 +407,7 @@ Galaxy now has a formal and open policy for managing the project source code - i
 Three new **[Community Log Board](/src/blog/index.md)** entries were added in July:
 
 * **[Moving from MySQL to PostgreSQL](/src/blog/2015-07-mysql-2-postgresql/index.md)**
-    by [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
+    by [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
 
 * **[BioJS2Galaxy – A step by step guide](http://www.benjamenwhite.com/2015/07/biojs2galaxy-a-step-by-step-guide/)**
     by [Benedikt Rauscher](https://twitter.com/bengrauscher) and [Benjamen White](http://www.benjamenwhite.com/2015)
@@ -418,10 +418,10 @@ Three new **[Community Log Board](/src/blog/index.md)** entries were added in Ju
 And the new Galaxy NGS 101 set of exercises, and the [Galaxy Coursera material](https://www.coursera.org/course/gengalaxy) were added to the **Teaching Resources Directory**:
 
 * **Galaxy NGS 101**
-    by [Anton Nekrutenko](/src/people/anton/index.md)
+    by [Anton Nekrutenko](/people/anton/)
 
 * **Genomic Data Science with Galaxy on Coursera**
-    by [James Taylor](/src/people/james-taylor/index.md)
+    by [James Taylor](/people/james-taylor/)
 
 ----
 

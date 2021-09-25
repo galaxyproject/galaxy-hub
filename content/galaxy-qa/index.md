@@ -18,7 +18,7 @@ The Galaxy Q&A and [BioStar](http://www.biostars.org/) source code is open-sourc
 * [Galaxy Q&A source code](https://github.com/galaxyQandA)
 * [BioStar source code](https://github.com/ialbert/biostar-central)
 
-**For Galaxy team:** A mail has been sent for the meeting the *08/29/2012* with all the credentials to access to Galaxy Q&A, the object of the mail is ***"[galaxy-lab] Tasks"*** from [Anton Nekrutenko](/src/people/anton/index.md)
+**For Galaxy team:** A mail has been sent for the meeting the *08/29/2012* with all the credentials to access to Galaxy Q&A, the object of the mail is ***"[galaxy-lab] Tasks"*** from [Anton Nekrutenko](/people/anton/)
 
 ## Set up Galaxy Q&A
 

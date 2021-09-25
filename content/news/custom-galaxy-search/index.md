@@ -21,4 +21,4 @@ We strongly encourage you to give these try.  Please send feedback and suggestio
 
 Thanks,
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

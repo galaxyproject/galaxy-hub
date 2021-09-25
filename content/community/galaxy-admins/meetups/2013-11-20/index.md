@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href="/src/community/galaxy-admins/index.md">GalaxyAdmins</a>: <a href='/src/events/gcc2013/bof/galaxy-admins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/src/people/dave-clements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/people/nate/index.md'>Nate Coraor</a></div> </td>
+    <td> <em><a href="/src/community/galaxy-admins/index.md">GalaxyAdmins</a>: <a href='/src/events/gcc2013/bof/galaxy-admins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/people/dave-clements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/people/nate/'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -31,7 +31,7 @@
 <br />
 Dave and Srinivas will lead a discussion following up on the issues that were raised at the [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/events/gcc2013/bof/galaxy-admins/index.md).
 
-[Nate Coraor](/src/people/nate/index.md) will also discuss the recent move of [usegalaxy.org](http://usegalaxy.org) from Penn State to TACC.
+[Nate Coraor](/people/nate/) will also discuss the recent move of [usegalaxy.org](http://usegalaxy.org) from Penn State to TACC.
 
 ## GCC2013 Followup
 

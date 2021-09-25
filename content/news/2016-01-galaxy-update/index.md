@@ -23,4 +23,4 @@ The **[January 2016 Galactic News](/src/galaxy-updates/2016-01/index.md)** is ho
 * [ToolShed Contributions](/src/galaxy-updates/2016-01/index.md#toolshed-contributions) from December
 * and [some other news too](/src/galaxy-updates/2016-01/index.md#other-news).
 
-[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)

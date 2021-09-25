@@ -12,6 +12,6 @@ You can also sign up for [conference housing](http://gcc2015.tsl.ac.uk/logistics
 
 We apologize profusely for the delay in opening registration, and we thank you for your patience and faith.  We promise the conference will again [be spectacular](/src/galaxy-project/statistics/index.md#events).
 
-[Dave Clements](/src/people/dave-clements/index.md) and [Martin Page](http://www.tsl.ac.uk/staff/martin-page/), on behalf of the [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/).
+[Dave Clements](/people/dave-clements/) and [Martin Page](http://www.tsl.ac.uk/staff/martin-page/), on behalf of the [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/).
 
 PS: *And don't forget the [poster abstract](http://gcc2015.tsl.ac.uk/Abstracts) submission deadline is 1 May.*

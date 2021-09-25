@@ -52,4 +52,4 @@ In addition to these events, there are many others offered this year, and around
 
 We hope to see you somewhere!
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

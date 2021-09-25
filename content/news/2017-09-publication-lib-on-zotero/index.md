@@ -34,4 +34,4 @@ Finally, Zotero is a community platform.  If you are interested in helping to ca
 
 Thanks for using (and [mentioning and referencing](/src/citing-galaxy/index.md) :-) Galaxy,
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

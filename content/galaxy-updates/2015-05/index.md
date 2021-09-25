@@ -28,7 +28,7 @@ Welcome to the May 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summa
     Halfdan Rydbeck, Geir Kjetil K. Sandve, Egil Ferkingstad, Boris Simovski, Morten Rye, Eivind Hovig, *PloS one*, Vol. 10, No. 4. (2015)
 
 * [StructureFold: Genome-wide RNA secondary structure mapping and reconstruction in vivo](https://doi.org/10.1093/bioinformatics/btv213)
-    Yin Tang, [Emil Bouvier](/src/people/dave-bouvier/index.md), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/src/people/anton/index.md), Philip C. Bevilacqua, and Sarah M. Assmann, *Bioinformatics* (16 April 2015), btv213, doi:10.1093/bioinformatics/btv213
+    Yin Tang, [Emil Bouvier](/people/dave-bouvier/index.md), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/src/people/anton/), Philip C. Bevilacqua, and Sarah M. Assmann, *Bioinformatics* (16 April 2015), btv213, doi:10.1093/bioinformatics/btv213
 
 The new papers were tagged with:
 
@@ -192,7 +192,7 @@ Please let the [organisers](http://gcc2015.tsl.ac.uk/) know if you are intereste
 
 <div class='right'><a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup April 16" width="150" /></a></div>
 
-[Slides and video](/src/community/galaxy-admins/meetups/2015-04-16/index.md) from the [April GalaxyAdmins online meetup](/src/community/galaxy-admins/meetups/2015-04-16/index.md) are now available. [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) presented her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).  [Sam Guerler](/src/people/guerler/index.md) of the Galaxy Project talked about Galaxy'a new tool form support. 
+[Slides and video](/src/community/galaxy-admins/meetups/2015-04-16/index.md) from the [April GalaxyAdmins online meetup](/src/community/galaxy-admins/meetups/2015-04-16/index.md) are now available. [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) presented her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).  [Sam Guerler](/people/guerler/) of the Galaxy Project talked about Galaxy'a new tool form support. 
 
 *Please join us for the [next GalaxyAdmins meetup on June 18](/src/community/galaxy-admins/meetups/2015-06-18/index.md)* when [Peter Briggs](http://galacticengineer.blogspot.co.uk/) of the [University of Manchester](http://www.manchester.ac.uk/) will speak on *Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester*.  GalaxyAdmins will also have an in-person meetup at GCC2015.
 
@@ -244,7 +244,7 @@ There are [upcoming events](/src/events/index.md) in 7 countries on 3 continents
     <th> May 15 </th>
     <td> <em><a href='/src/events/meetups/psu/2015-05/index.md'>RNA-Seq Galaxy Workshop</a></em> </td>
     <td> <a href='/src/events/meetups/psu/2015-05/index.md#where'>Penn State University</a>, State College, Pennsylvania, United States </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/src/people/marten/index.md'>Martin Cech</a>, <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/people/marten/index.md'>Martin Cech</a>, <a href='/src/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> May 22, 29 </th>
@@ -256,7 +256,7 @@ There are [upcoming events](/src/events/index.md) in 7 countries on 3 continents
     <th> May 25-29 </th>
     <td> <a href='http://www.mipro.hr/MIPRO2015.DCVIS/ELink.aspx'>MIPRO</a> </td>
     <td> Opatija, Croatia </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> May&nbsp;26-28 </th>
@@ -292,25 +292,25 @@ There are [upcoming events](/src/events/index.md) in 7 countries on 3 continents
     <th> June 6-9 </th>
     <td> <em><a href='https://www.eshg.org/684.0.html'>WS02: NGS Variant Analysis with Galaxy</a></em> </td>
     <td> <a href='https://www.eshg.org/eshg2015.0.html'>ESHG 2015</a>, Glasgow, United Kingdom </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 18 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2015-06-18/index.md'>Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</a></em> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2015-06-18/index.md'>June 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
-    <td> <a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> June 22 </th>
     <td> <em>Introduction to variant calling for pathologists and laboratory managers</em> </td>
     <td> Part of <a href='http://www.rcpa.edu.au/Events/Event-Details/2015/June/Short-Course-in-Medical-Genetics-and-Genetic-Patho'>Short Course in Medical Genetics and Genetic Pathology 2015</a>, Sydney, Australia </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/src/people/fubar/index.md'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
   </tr>
   <tr>
     <th> June 29-30 </th>
     <td> <em><a href='https://genomics.ed.ac.uk/introduction-ngs-data-analysis-galaxy'>Introduction to NGS Data Analysis with Galaxy</a></em> </td>
     <td> <a href='http://www.ed.ac.uk/home'>University of Edinburgh</a>, Edinburgh, United Kingdom </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:bert.overduin@ed.ac.uk">Bert Overduin</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href="mailto:bert.overduin@ed.ac.uk">Bert Overduin</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -356,7 +356,7 @@ There are [upcoming events](/src/events/index.md) in 7 countries on 3 continents
     <th> July 10-14 </th>
     <td> <em><a href='http://www.iscb.org/ismbeccb2015-program/ismbeccb2015-akes#akes4'>Using Biological Cyberinfrastructure to Scale Science and People – Applications in Data Storage, HPC, Cloud Analysis, and Bioinformatics Training</a></em> </td>
     <td> <a href='http://www.iscb.org/ismbeccb2015'>ISMB / ECCB 2015</a>, <a href='http://www.open-bio.org/wiki/BOSC_2015'>BOSC 2015</a>, Dublin, Ireland </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -447,7 +447,7 @@ And one new Training Resource:
 * Add pulsar-run script for issues commands against a Pulsar server (experimental). [3cc7f74](https://github.com/galaxyproject/pulsar/commit/3cc7f74)
 * Changed the name of project to Pulsar, moved to [Github](https://github.com/galaxyproject/pulsar/).
 * New RESTful web services interface.
-* SCP and Rsync file staging options added by [Helena Rasche](/src/people/helena-rasche/index.md). [Pull Request](https://github.com/galaxyproject/pulsar/pull/34)
+* SCP and Rsync file staging options added by [Helena Rasche](/people/helena-rasche/). [Pull Request](https://github.com/galaxyproject/pulsar/pull/34)
 * Allow YAML based configuration.
 * Support for more traditional pip/setup.py-style installs.
 

@@ -45,7 +45,7 @@ Links:
 
 ### P3: BioBlend - automating bioinformatics with Galaxy and CloudMan
 
-**Clare Sloggett**<sup>1</sup>, [Nuwan Goonasekera](http://versi.edu.au/about-us/versi-team#Nuwan)<sup>1,2,4</sup>, [Enis Afgan](/src/people/enis-afgan/index.md)<sup>1,3,4</sup>
+**Clare Sloggett**<sup>1</sup>, [Nuwan Goonasekera](http://versi.edu.au/about-us/versi-team#Nuwan)<sup>1,2,4</sup>, [Enis Afgan](/people/enis-afgan/)<sup>1,3,4</sup>
 
  <sup>1</sup> Victorian Life Sciences Computation Initiative (VLSCI), University of Melbourne<br />
  <sup>2</sup> Victorian eResearch Strategic Initiative (VeRSI), University of Melbourne, Melbourne, Australia<br />

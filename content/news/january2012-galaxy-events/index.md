@@ -21,13 +21,13 @@ There are Galaxy-related events on (at least) 3 continents next month:
     <th> January 8-21 </th>
     <td> <strong><a href='http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/'>2012 Workshop on Genomics</a></strong><br />Features Galaxy and much more.<br /> </td>
     <td> Český Krumlov, Czech Republic </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> January 14-18 </th>
     <td> <strong><a href='http://pag.confex.com/pag/xx/webprogrampreliminary/Paper2350.html'>Galaxy Session</a> @ <a href='http://pag.confex.com/pag/xx/webprogrampreliminary/Session1123.html'>GMOD Workshop</a></strong>, and<br /><strong><a href='http://pag.confex.com/pag/xx/webprogrampreliminary/Paper4623.html'>The Galaxy Platform: Running Analyses in the Cloud</a> @ <a href='http://pag.confex.com/pag/xx/webprogrampreliminary/Session1139.html'>Cloud Computing Session</a></strong> </td>
     <td> <a href='/src/events/pag2012/index.md'>PAG 2012</a>, San Diego, California, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a><br />Dannon Baker </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a><br />Dannon Baker </td>
   </tr>
   <tr>
     <th> January 17 </th>
@@ -39,7 +39,7 @@ There are Galaxy-related events on (at least) 3 continents next month:
     <th> January 23  </th>
     <td> <strong><a href='http://evomics.org/workshops/galaxy-developer-workshop/'>Galaxy Developer Workshop</a><br /><div class='red'>Application deadline is December 15.</span></strong> </td>
     <td> <a href='http://www.ckrumlov.info/php/'>Český Krumlov, Czech Republic</a>, immediately following the <a href='http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/2012'>Workshop on Genomics</a>, (which also features Galaxy content) </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> January 26 </th>
@@ -54,4 +54,4 @@ There are Galaxy-related events on (at least) 3 continents next month:
 
 And I apologize in advance if I messed up the translation of the [event at DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ)!
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

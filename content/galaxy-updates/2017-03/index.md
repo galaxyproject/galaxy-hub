@@ -95,7 +95,7 @@ See the [full report](https://www.embl-abr.org.au/game2017report/) for more.
 
 <div class='left'><a href='/src/community/galaxy-admins/meetups/2017-02-16/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
 
-A video of the [February 16 GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2017-02-16/index.md) is now available.  Nuwan Goonesekera and [Enis Afgan](/src/people/enis-afgan/index.md) presented an all-new version of CloudLaunch, an application for launching Galaxy on the Cloud instances. The [new CloudLaunch](https://beta.launch.usegalaxy.org) allows multiple flavors of Galaxy to be deployed, Docker images or applications other than Galaxy. Each application can have its own custom user interface developed to accommodate the specific application needs.
+A video of the [February 16 GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2017-02-16/index.md) is now available.  Nuwan Goonesekera and [Enis Afgan](/people/enis-afgan/) presented an all-new version of CloudLaunch, an application for launching Galaxy on the Cloud instances. The [new CloudLaunch](https://beta.launch.usegalaxy.org) allows multiple flavors of Galaxy to be deployed, Docker images or applications other than Galaxy. Each application can have its own custom user interface developed to accommodate the specific application needs.
 
 ## All upcoming events
 
@@ -260,7 +260,7 @@ Some highlights from the past two months:
    Connor Wytko, Brian Soto, Stephen P. Ficklin. *Database*, Vol. 2017 (10 January 2017), baw154, doi:10.1093/database/baw154
 
 * [A guide and best practices for R/Bioconductor tool integration in Galaxy](https://doi.org/10.12688/f1000research.9821.1)
-   [Nitesh Turaga](/src/people/nitesh-turaga/index.md), Mallory A. Freeberg, [Dannon Baker](/src/people/dannon-baker/index.md), [John Chilton](/src/people/john-chilton/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/james=taylor/index.md). *F1000Research*, Vol. 5 (24 November 2016), 2757, doi:10.12688/f1000research.9821.1
+   [Nitesh Turaga](/people/nitesh-turaga/index.md), Mallory A. Freeberg, [Dannon Baker](/people/dannon-baker/index.md), [John Chilton](/people/john-chilton/), [Anton Nekrutenko](/src/people/anton/), [James Taylor](/src/james=taylor/). *F1000Research*, Vol. 5 (24 November 2016), 2757, doi:10.12688/f1000research.9821.1
 
 * [MetaDP: a comprehensive web server for disease prediction of 16S rRNA metagenomic datasets](https://doi.org/10.1007/s41048-016-0033-4)
    Xilin Xu, Aiping Wu, Xinlei Zhang, Mingming Su, Taijiao Jiang, Zhe-Ming Yuan. *Biophysics Reports* (2017), pp. 1-10, doi:10.1007/s41048-016-0033-4
@@ -452,7 +452,7 @@ For full details on all of the enhancements and fixes in this release, please se
 
 ### Galaxy Docker Image 17.01
 
-And, thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md), there is also now [a Docker image for Galaxy 17.01](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.01) as well.
+And, thanks to [Björn Grüning](/people/bjoern-gruening/), there is also now [a Docker image for Galaxy 17.01](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.01) as well.
 
 
 

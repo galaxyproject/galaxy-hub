@@ -52,9 +52,9 @@ Welcome to the July 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.m
 
 These papers may be of interest to the Galaxy community:
 
-* ["Using Cloud Computing Infrastructure with CloudBioLinux, CloudMan, and Galaxy"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1109.html), by [Enis Afgan](/src/people/enis-afgan/index.md), Brad Chapman, Margita Jadan, Vedran Franke, [James Taylor](/src/people/james-taylor/index.md), *Current Protocols in Bioinformatics*. 2012 June: Unit 11.9.
+* ["Using Cloud Computing Infrastructure with CloudBioLinux, CloudMan, and Galaxy"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1109.html), by [Enis Afgan](/people/enis-afgan/index.md), Brad Chapman, Margita Jadan, Vedran Franke, [James Taylor](/src/people/james-taylor/), *Current Protocols in Bioinformatics*. 2012 June: Unit 11.9.
 
-* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Daniel Blankenberg](/src/people/dan/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [Galaxy Team](/src/galaxy-team/index.md), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
+* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/people/jennifer-jackson/index.md), [Dave Clements](/people/dave-clements/index.md), [Daniel Blankenberg](/people/dan/index.md), [James Taylor](/src/people/james-taylor/), [Anton Nekrutenko](/src/people/anton/), [Galaxy Team](/src/galaxy-team/), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
 
 These papers were among [31 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md) (for a total of 348 papers in the last ~16 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
 
@@ -126,7 +126,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <th> July 5-6 </th>
     <td> <em><a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'>Atelier Galaxy</a> </td>
     <td> <a href='http://www.cgfb.u-bordeaux2.fr/fr/contact-plan-d-acces'>Le Centre de Génomique Fonctionnelle Bordeaux</a></em> </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> July 11 </th>
@@ -144,19 +144,19 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <th> July 25-27 </th>
     <td> <strong><em><a href='/src/events/gcc2012/index.md'>2012 Galaxy Community Conference</a></strong></em><div class='indent red'><a href='/src/events/gcc2012/register/index.md'>Registration deadline</a> is July 18</div> </td>
     <td> <a href='http://uic.edu'>University of Illinois Chicago</a>, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 25-29 </th>
     <td> <em><a href='http://gmod.org/wiki/2012 GMOD Summer School'>2012 GMOD Summer School</a></em><div class='indent red'>Application deadline is July 9 </td>
     <td> <a href='http://nescent.org'>US National Evolutionary Synthesis Center (NESCent)</a>, Durham, North Carolina, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 3-4 </th>
     <td rowspan=2 style=" text-align: left;"> <em><a href='http://genetics.cmc-uct.co.za/?page_id=79'>Galaxy Workshop</a></em><div class='indent red'>Application deadline is June 30</div> </td>
     <td> <a href='http://web.up.ac.za/default.asp?ipkCategoryID=17741'>University of Pretoria</a>, Pretoria, South Africa </td>
-    <td rowspan=2> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td rowspan=2> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 6-7 </th>
@@ -166,19 +166,19 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <th> September 10-11 </th>
     <td> <em><a href='http://gaggle.systemsbiology.net/workshop2012/'>Systems Bioinformatics Workshop</a></em><div class='indent red'>Early registration deadline is June 30</div> </td>
     <td> <a href='https://www.systemsbiology.org/'>Institute for Systems Biology</a><br /> Seattle, Washington, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> September 10-12 </th>
     <td> <em><a href='http://genetics.cmc-uct.co.za/'>Transparent, accessible, reproducible analysis with Galaxy</a></em><div class='indent red'>Early registration deadline is July 1</div> </td>
     <td> <strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a></strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 27-29 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2012</a></em> </td>
     <td> <a href='http://www.amiando.com/2012-beyond-the-genome.html?page=661875'>Harvard Medical School</a>, Boston, Massachusetts </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
 </table>
 
@@ -212,7 +212,7 @@ A new version of CloudMan was [Released in June](/src/news/new-cloudman-release/
 1. Several new videos, screencasts, and tutorials were posted:
   * [OpenHelix Video Tip of the Week: Visualizing the Galaxy](http://blog.openhelix.eu/?p=12439)
   * [Using PhyloTastic Tools inside Galaxy](http://www.youtube.com/watch?v=kMME658xOu4&feature=youtu.be), by Rutger Vos
-  * [Getting Started with the CloudMan Platform Using BioCloudCentral](http://www.youtube.com/watch?v=AKu_CbbgEj0), by [Enis Afgan](/src/people/enis-afgan/index.md)
+  * [Getting Started with the CloudMan Platform Using BioCloudCentral](http://www.youtube.com/watch?v=AKu_CbbgEj0), by [Enis Afgan](/people/enis-afgan/)
   * [Using Galaxy for NGS Analysis](http://chagall.med.cornell.edu/galaxy/), by [Luce Skrabanek](mailto:las2017 AT med DOT cornell DOT edu)
   * [RNA-Seq Course v1.0 documentation](http://training.bioinformatics.ucdavis.edu/docs/2012/05/RNA/index.html), by [UC Davis Bioinformatics Professional Training Program](http://training.bioinformatics.ucdavis.edu/) 
   * [Cloud Computing for Bioinformatics](http://training.bioinformatics.ucdavis.edu/docs/2012/05/AWS/index.html) (using AWS and Galaxy, but not using CloudMan), by [UC Davis Bioinformatics Professional Training Program](http://training.bioinformatics.ucdavis.edu/) 

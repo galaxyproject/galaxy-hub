@@ -121,7 +121,7 @@ The target folders select list is filtered to include only valid folders to whic
 ### Community Tools (Tool Shed)
 
 * Tuning: Clarified what is being searched in the **Tool Shed**.
-* New ***ClustalW*** wrapper (see http://www.clustal.org) for protein/dna multiple alignments based on the Galaxy *ClustalW* wrapper posted by [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) [in an email on the developer list](http://lists.bx.psu.edu/pipermail/galaxy-dev/2010-November/003732.html)
+* New ***ClustalW*** wrapper (see http://www.clustal.org) for protein/dna multiple alignments based on the Galaxy *ClustalW* wrapper posted by [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) [in an email on the developer list](http://lists.bx.psu.edu/pipermail/galaxy-dev/2010-November/003732.html)
 * New *Weblogo3* wrapper ([http://weblogo.berkeley.edu](http://weblogo.berkeley.edu)) that creates sequence logos from *FASTA* data such as the output from a *ClustalW* alignment.
 
 ### Data Libraries

@@ -183,7 +183,7 @@ There are [at least 13 other Galaxy related events](/src/events/index.md) in the
     <th> July 28 - August 1 </th>
     <td> <em><a href='/src/events/sao-paulo2014/index.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
     <td> <a href='http://usp.br/'>University of São Paulo (USP)</a>, São Paulo, Brazil </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -192,7 +192,7 @@ There are [at least 13 other Galaxy related events](/src/events/index.md) in the
 
 *49 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in May. Some papers that may be particularly interesting to the Galaxy community:
 
-* [Implementation of Cloud based Next Generation Sequencing data analysis in a clinical laboratory](https://doi.org/10.1186/1756-0500-7-314), by Getiria Onsongo, Jesse Erdmann, Michael D Spears, [John Chilton](/src/people/john-chilton/index.md), Kenneth B Beckman, Adam Hauge, Sophia Yohe, Matthew Schomaker, Matthew Bower, Kevin A T Silverstein and Bharat Thyagarajan, *BMC Research Notes*, Vol. 7, No. 1. (2014), 314, doi:10.1186/1756-0500-7-314
+* [Implementation of Cloud based Next Generation Sequencing data analysis in a clinical laboratory](https://doi.org/10.1186/1756-0500-7-314), by Getiria Onsongo, Jesse Erdmann, Michael D Spears, [John Chilton](/people/john-chilton/), Kenneth B Beckman, Adam Hauge, Sophia Yohe, Matthew Schomaker, Matthew Bower, Kevin A T Silverstein and Bharat Thyagarajan, *BMC Research Notes*, Vol. 7, No. 1. (2014), 314, doi:10.1186/1756-0500-7-314
 
 * [deepTools: a flexible platform for exploring deep-sequencing data](https://doi.org/10.1093/nar/gku365), by Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, Thomas Manke, *Nucleic Acids Research* (05 May 2014), gku365, doi:10.1093/nar/gku365
 

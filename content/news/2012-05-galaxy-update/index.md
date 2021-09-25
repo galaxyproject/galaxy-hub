@@ -19,4 +19,4 @@ The [May 2012 Galaxy Update](/src/galaxy-updates/2012-05/index.md) is now availa
 
 If you have anything you would like to see in the June *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

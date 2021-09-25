@@ -60,11 +60,11 @@ These papers may be of interest to the Galaxy community:
 * "[Rapid positional cloning of zebrafish mutations by linkage and homozygosity mapping using whole-genome sequencing](https://doi.org/10.1242/dev.083931)," Nikolaus Obholzer, Ian A. Swinburne, Evan Schwab, Alex V. Nechiporuk, Teresa Nicolson, Sean G. Megason; *[Development](http://dev.biologists.org/)* (10 October 2012) <br />
   &rarr; *The [MegaMapper](http://bit.ly/QupZs1) package is implemented in Galaxy and [is available as a VirtualBox VM and an Amazon AMI](http://bit.ly/QupZs1).*<br /><br />
 
-* "[CloudMap: A Cloud-based Pipeline for Analysis of Mutant Genome Sequences](https://doi.org/10.1534/genetics.112.144204)," Gregory Minevich, Danny S. Park, [Daniel Blankenberg](/src/people/dan/index.md), Richard J. Poole, Oliver Hobert, *[Genetics](http://www.genetics.org/)* (10 October 2012)<br /><br />
+* "[CloudMap: A Cloud-based Pipeline for Analysis of Mutant Genome Sequences](https://doi.org/10.1534/genetics.112.144204)," Gregory Minevich, Danny S. Park, [Daniel Blankenberg](/people/dan/), Richard J. Poole, Oliver Hobert, *[Genetics](http://www.genetics.org/)* (10 October 2012)<br /><br />
 
 * "[G-NEST: a gene neighborhood scoring tool to identify co-conserved, co-expressed genes](https://doi.org/10.1186/1471-2105-13-253)," Danielle Lemay, William Martin, Angie Hinrichs, Monique Rijnkels, J. German, Ian Korf, Katherine Pollard, *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)*, Vol. 13, No. 1. (28 September 2012), 253<br /><br />
 
-* "[Creating re-usable tools from scripts: The Galaxy Tool Factory](https://doi.org/10.1093/bioinformatics/bts573)," [Ross Lazarus](/src/people/fubar/index.md), Antony Kaspi, Mark Ziemann, [The Galaxy Team](/src/galaxy-team/index.md), *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (28 September 2012)
+* "[Creating re-usable tools from scripts: The Galaxy Tool Factory](https://doi.org/10.1093/bioinformatics/bts573)," [Ross Lazarus](/people/fubar/index.md), Antony Kaspi, Mark Ziemann, [The Galaxy Team](/src/galaxy-team/), *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (28 September 2012)
 
 These papers were among [44 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md).  
 
@@ -131,13 +131,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> October 28 - November 2 </th>
     <td> <em><a href='http://conference.eresearch.edu.au/eres2012/workshops/'>Genomic Virtual Laboratory Workshop</a></em> </td>
     <td> <a href='http://conference.eresearch.edu.au/'>eResearch Australasia</a>, Sydney, Australia </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th rowspan=2 style=" text-align:center;"> November 6-10 </th>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a></em><div class='indent red'>Sold out</div> </td>
     <td rowspan=2 style=" text-align:center;"> <strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a></strong>, San Francisco, California, United States </td>
-    <td rowspan=2 style=" text-align:center;"> <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td rowspan=2 style=" text-align:center;"> <a href='/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#12'>Working with High-Throughput Data and Data Visualization</a></em><div class='indent red'>Sold out</div> </td>
@@ -158,7 +158,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> November 28 - December 4  </th>
     <td> <em><a href='http://fasta.bioch.virginia.edu/cshl/'>Computaional & Comparative Genomics Course</a></em><div class='indent'>This was rescheduled due to hurricane Sandy</div> </td>
     <td> <a href='http://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr class="th" >
     <th colspan=4> </th>
@@ -167,7 +167,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> January 12-16 </th>
     <td> <strong><a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG 2013)</a></strong> </td>
     <td> San Diego, California, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 28 - February 1 </th>

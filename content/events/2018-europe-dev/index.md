@@ -39,8 +39,8 @@ We will meet at 19 in Bertholdsbrunnen
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
 | 9:45 - 10:00 |  ARRIVAL  |   |   |
-| 10:00 - 10:20 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) |  Welcome and short introduction into the Galaxy Project  |  [slides](https://depot.galaxyproject.org/hub/attachments/events/2018-europe-dev/EGD_SG2018T_intro_Monday.pdf)  |
-| 10:20 - 10:50 |  [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/)) |  [State of the Galaxy Project - priorities, plans, and community (from a European perspective)](https://docs.google.com/presentation/d/1cqFtHus4TIFsD56tBSGvgdICx56AVnzwTWuJI1z4rE4/edit?usp=sharing)  | [slides](https://docs.google.com/presentation/d/1cqFtHus4TIFsD56tBSGvgdICx56AVnzwTWuJI1z4rE4/edit?usp=sharing)  | 
+| 10:00 - 10:20 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) ([FMI](http://www.fmi.ch/)) |  Welcome and short introduction into the Galaxy Project  |  [slides](https://depot.galaxyproject.org/hub/attachments/events/2018-europe-dev/EGD_SG2018T_intro_Monday.pdf)  |
+| 10:20 - 10:50 |  [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/)) |  [State of the Galaxy Project - priorities, plans, and community (from a European perspective)](https://docs.google.com/presentation/d/1cqFtHus4TIFsD56tBSGvgdICx56AVnzwTWuJI1z4rE4/edit?usp=sharing)  | [slides](https://docs.google.com/presentation/d/1cqFtHus4TIFsD56tBSGvgdICx56AVnzwTWuJI1z4rE4/edit?usp=sharing)  | 
 | 10:50 - 11:20 |  Coffee Break  |   |   |
 | 11:20 - 11:45 |  Matthias Bernt ([UFZ](http://www.ufz.de/)) |  *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*  | [slides](https://depot.galaxyproject.org/hub/attachments/events/2018-europe-dev/egd-bernt.pdf)  |
 | 11:45 - 12:20 |  Geoffrey Nelson ([Harvard Medical School](https://hms.harvard.edu/)) |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench* (plus Demo) | [slides](https://github.com/refinery-platform/refinery-platform/blob/gh-pages/presentations/EGD18.pdf)  |
@@ -52,7 +52,7 @@ We will meet at 19 in Bertholdsbrunnen
 | 15:40 - 16:05 |  Krzysztof Poterlowicz ([University of Bradford](https://bradford.ac.uk/external/)) |  [*EWAS tool development / Training / Elixir-CNV community*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#krzysztof-poterlowicz) | [slides](https://github.com/kpoterlowicz/presentations/blob/master/EuropeanGalaxyDays18_Poterlowicz.pdf) |
 | 16:05 - 16:30 |  Bérénice Batut ([University of Freiburg](http://www.uni-freiburg.de/)) |  *RNA-Seq data analysis in Galaxy: lessons learned and what next?*  | [slides](http://bebatut.fr/talks/18/11_19_egd/#/1) |
 | 16:30 - 16:55 |  Mehmet Tekman ([University of Freiburg](http://www.uni-freiburg.de/)) |  *Single Cell in Galaxy, from pre-processing to analysis* | [slides](https://docs.google.com/presentation/d/1uLub5IfCjhMr52R8spCRdkk4yAvKyx2M7z9JmLrqVwM/edit?usp=sharing)  | 
-| 16:55 - 17:00 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  concluding remarks  |   | 
+| 16:55 - 17:00 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)|  concluding remarks  |   | 
 | 17:00 |  ...going to the pub  |   |   |
 
 
@@ -62,7 +62,7 @@ We will meet at 19 in Bertholdsbrunnen
 
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
-| 9:30 |   [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)) | Welcome and organization for the day  |   |
+| 9:30 |   [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) ([FMI](http://www.fmi.ch/)) | Welcome and organization for the day  |   |
 | 9:30 - 09:55 |  Marius van den Beek ([Institut Curie](https://institut-curie.org/)), John Chilton ([Penn State](http://www.bx.psu.edu/)) |  [*Travelling with warp-speed, an update on Galaxy workflows*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#marius-van-den-beek-john-chilton) | [slides](https://docs.google.com/presentation/d/1iGCKLNI9gwfpNL__yADhK97ucLtZ1Cy62_EJGNPlKPI/edit#slide=id.p)  |
 | 09:55 - 10:20 |  Nicola Soranzo ([Earlham Institute](http://www.earlham.ac.uk/)) | *Beta Python 3 support for Galaxy in release 18.09, at last!*  | [slides](https://docs.google.com/presentation/d/1txmwpDK3CG7eCsJXPOpHaNuGEzJ6-hBX6Iq-HJZb0pY/edit?usp=sharing) | 
 | 10:20 - 10:45 |  Musumba Awori ([Goethe University of Frankfurt](http://www.goethe-university-frankfurt.de))  |  *Draft genome of a bacterium (Xenorhabdus griffiniae XN45) isolated from Kenyan Steinernema nematodes reveals its potential synthesis  of a  spectrum  of specialised metabolites*  |  [slides](https://prezi.com/view/VrIGwwQPPEd6VtnN2qf4/)  |
@@ -75,7 +75,7 @@ We will meet at 19 in Bertholdsbrunnen
 | 13:45 - 14:10 |  Nikolay Vazov ([UiO](https://www.usit.uio.no/))  | [*Two customizations in Galaxy*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#nikolay-vazov) | [slides](https://drive.google.com/open?id=1Hdi9cV49FJ7eL4XrnJXs5kNIs68y4HJ3) |
 | 14:10 - 14:35 |  Yvan Le Bras ([Muséum national d’histoire naturelle](https://www.mnhn.fr/)) | [*GalaxyE, a new vision of workflow oriented Biodiversity research?*](https://galaxyproject.org/events/2018-europe-dev/abstracts/#yvan-le-bras) |    | 
 | 14:35 - 15:00 |  Anup Kumar ([University of Freiburg](http://www.uni-freiburg.de/))  | *Machine learning with Galaxy* | [slides](https://github.com/anuprulez/issues/raw/master/EuropeanGalaxyDays18_AnupKumar.pdf) |
-| 15:00 - 15:10 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)|  end of official part  |   | 
+| 15:00 - 15:10 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)|  end of official part  |   | 
 | 15:10 - 15:40 |  Coffee Break  |   |   |
 | 15:40 - ....  |  informal gathering for hacking, discussions, etc...and finally going to the pub again  |   |   |  |
 
@@ -132,5 +132,5 @@ http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) (hrh@fmi.ch) or [Björn Grüning](/src/people/bjoern-gruening/index.md) (gruening@informatik.uni-freiburg.de) or [Jean-François Dufayard](/src/people/jeanfrancois-dufayard/index.md) (jean-francois.dufayard@cirad.fr)
+Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md) (hrh@fmi.ch) or [Björn Grüning](/people/bjoern-gruening/) (gruening@informatik.uni-freiburg.de) or [Jean-François Dufayard](/src/people/jeanfrancois-dufayard/) (jean-francois.dufayard@cirad.fr)
 

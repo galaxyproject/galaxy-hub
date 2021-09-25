@@ -119,7 +119,7 @@ There are [upcoming events](/src/events/index.md) in France, Germany, Australia,
     <th rowspan=2> November 5-8 </th>
     <td> <em>Rapidly bringing software to biologists with Galaxy and Docker</em> </td>
     <td rowspan=2> <a href='http://meetings.cshl.edu/meetings/2014/data14.shtml'>Biological Data Science</a>, Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> <a href='/src/people/john-chilton/index.md'>John Chilton</a> </td>
+    <td> <a href='/people/john-chilton/'>John Chilton</a> </td>
   </tr>
   <tr>
     <td> <em>Building Galaxy Japan community</em> <div class='indent'> (See <a href='http://www.pitagora-galaxy.org/'>Pitagora Galaxy</a>)</td>
@@ -129,7 +129,7 @@ There are [upcoming events](/src/events/index.md) in France, Germany, Australia,
     <th> November 16 </th>
     <td> <em>Deciphering Big Data Stacks: An Overview of Big Data Tools</em> </td>
     <td> <a href='http://web.ornl.gov/sci/knowledgediscovery/CloudComputing/PDAC-SC14/'>Workshop on Big Data Analytics: Challenges, and Opportunities (BDAC-14)</a>, <a href='http://sc14.supercomputing.org/'>Supercomputing 2014 (SC14)</a>, New Orleans, Louisiana, United States </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> November 18-20 </th>
@@ -147,7 +147,7 @@ There are [upcoming events](/src/events/index.md) in France, Germany, Australia,
     <th> November 21 </th>
     <td> <em>Galaxy Cluster to Cloud - Genomics at Scale</em> </td>
     <td> <a href='http://sciencegateways.org/upcoming-events/gce14/'>GCE: The 9th Gateway Computing Environments Workshop</a>, <a href='http://sc14.supercomputing.org/'>Supercomputing 2014 (SC14)</a>, New Orleans, Louisiana, United States </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> November 26-28 </th>
@@ -186,7 +186,7 @@ There are [upcoming events](/src/events/index.md) in France, Germany, Australia,
     <th> January 10-14 </th>
     <td> <em>Galaxy for SNP and Variant Data Analysis</em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2014)</a>, San Diego, California, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 9-13 </th>
@@ -198,7 +198,7 @@ There are [upcoming events](/src/events/index.md) in France, Germany, Australia,
     <th> February 16-18 </th>
     <td> <em>Managing and Disseminating Tools and Data in Galaxy</em> </td>
     <td> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> July 6-8 </th>
@@ -448,6 +448,6 @@ In no particular order:
 
 * Have you ever wanted to improve a Galaxy tool? Large number of tools are [now awaiting your pull requests at GitHub](https://github.com/galaxyproject/tools-devteam). 
 * [On the awesomeness of the BOSC/OpenBio Codefest 2014](http://etalog.blogspot.com/2014/10/on-awesomeness-of-boscopenbio-codefest.html)
-* [Björn Grüning's](/src/people/bjoern-gruening/index.md) [Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable/commits/master) now bundles FTP & SLURM and allows targeting external Galaxy directories. 
+* [Björn Grüning's](/people/bjoern-gruening/) [Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable/commits/master) now bundles FTP & SLURM and allows targeting external Galaxy directories. 
 * An IPython notebook demonstrating an [interactive cummeRbund analysis embedded in Galaxy](http://nbviewer.ipython.org/github/jmchilton/ipython_notebooks/blob/master/cummerbund_galaxy_1.ipynb). 
 * [GUGGO tutorial](http://bit.ly/ZQ7mdu): how to activate Docker functionality in Galaxy; create a Docker image and install Stacks on that image; and integrate a Stacks Galaxy tool using that image.

@@ -33,7 +33,7 @@ We are pleased to announce that the keynote speakers for GAMe 2017 will be James
 
 **[Dr James Taylor](http://taylorlab.org/)** is the Ralph S. O’Connor Associate Professor of Biology and associate professor of computer science at [Johns Hopkins University](http://jhu.edu/). He is a Galaxy Project PI, and one of the original developers of the Galaxy platform for data analysis. His group works on extending the Galaxy platform, and understanding genomic and epigenomic regulation of gene transcription through integrated analysis of functional genomic data.
 
-**[Dr Björn Grüning](/src/people/bjoern-gruening/index.md)** is with the [Bioinformatics Group](http://www.bioinf.uni-freiburg.de/team.html) at [Albert-Ludwigs-Universität Freiburg](http://www.uni-freiburg.de/), in Freiburg Germany, where he heads the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/index.html). His [publication list](http://orcid.org/0000-0002-3079-6586) includes several papers that feature Galaxy prominently,  including the recent “Enhancing pre-defined workflows with *ad hoc* analytics using Galaxy, Docker and Jupyter” ([Grüning, et al, 2016](http://biorxiv.org/content/early/2016/09/22/075457). He is a prominent contributor to, and is a driving force in, the Galaxy community. In the past year alone, he helped organize the Bioconda Contribution Fest, Swiss-German Galaxy Days, the Galaxy Training Materials Contribution Fest, the Galaxy DevOps Workshop, and the Conda Dependencies Codefest, and presented and taught at [GCC2016](https://gcc16.sched.org/?s=bj%C3%B6rn).  His research interests include data visualisation, computational chemistry, and drug discovery.
+**[Dr Björn Grüning](/people/bjoern-gruening/)** is with the [Bioinformatics Group](http://www.bioinf.uni-freiburg.de/team.html) at [Albert-Ludwigs-Universität Freiburg](http://www.uni-freiburg.de/), in Freiburg Germany, where he heads the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/index.html). His [publication list](http://orcid.org/0000-0002-3079-6586) includes several papers that feature Galaxy prominently,  including the recent “Enhancing pre-defined workflows with *ad hoc* analytics using Galaxy, Docker and Jupyter” ([Grüning, et al, 2016](http://biorxiv.org/content/early/2016/09/22/075457). He is a prominent contributor to, and is a driving force in, the Galaxy community. In the past year alone, he helped organize the Bioconda Contribution Fest, Swiss-German Galaxy Days, the Galaxy Training Materials Contribution Fest, the Galaxy DevOps Workshop, and the Conda Dependencies Codefest, and presented and taught at [GCC2016](https://gcc16.sched.org/?s=bj%C3%B6rn).  His research interests include data visualisation, computational chemistry, and drug discovery.
 
 ### Poster abstracts and late oral presentation Abstracts
 
@@ -58,8 +58,8 @@ Screencasts for the [August](/src/community/galaxy-admins/meetups/2016-08-18/ind
 * *Dynamic Job Expansion: Experiences using [Makeflow](http://ccl.cse.nd.edu/software/makeflow/) in Galaxy*, [Nick Hazekamp](https://engineering.nd.edu/profiles/nhazekamp), [University of Notre Dame](http://www.nd.edu/)
   * [Video](https://connect.johnshopkins.edu/p9nqie63c7a/)
 * [December](/src/community/galaxy-admins/meetups/2016-12-15/index.md)
-  * *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/src/people/bjoern-gruening/index.md) and  Bérénice Batut, University of Freiburg 
-  * *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/src/people/dannon-baker/index.md), Johns Hopkins University 
+  * *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/people/bjoern-gruening/) and  Bérénice Batut, University of Freiburg 
+  * *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/people/dannon-baker/), Johns Hopkins University 
   * [Video](https://connect.johnshopkins.edu/p7ek9bf4ez0/) 
 
 
@@ -426,7 +426,7 @@ For full details on all of the enhancements and fixes in this release, please se
 
 ### Galaxy Docker Image 16.10
 
-And, thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md), there is also now [a Docker image for Galaxy 16.10](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.10) as well.
+And, thanks to [Björn Grüning](/people/bjoern-gruening/), there is also now [a Docker image for Galaxy 16.10](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.10) as well.
 
 
 

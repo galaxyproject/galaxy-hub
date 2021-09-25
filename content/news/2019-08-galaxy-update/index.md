@@ -349,7 +349,7 @@ Wageningen University & Research is hiring.
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197)</div>
 
-In the [Blankenberg Lab](/src/people/dan/index.md) at the Cleveland Clinic, Cleveland, Ohio, United States.
+In the [Blankenberg Lab](/people/dan/) at the Cleveland Clinic, Cleveland, Ohio, United States.
 
 <img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
 </div>

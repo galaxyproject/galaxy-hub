@@ -36,9 +36,9 @@ The [tentative time and location](/src/events/gcc2013/bof/index.md#bof-schedule)
 
 If you are interested, please add your name below and/or send an email to [Dave Clements](mailto:clements AT galaxyproject DOT org).  There were about 21 people present, including:
 
-* [Dave Clements](/src/people/dave-clements/index.md)
+* [Dave Clements](/people/dave-clements/)
 * Shaun Webb
-* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
+* [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
 * Peter Li
 * [Christian Andreetta](http://www.computing.uni.no/staff?nickname=christiana)
 * Srinivas Maddhi

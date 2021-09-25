@@ -8,7 +8,7 @@ title: March 2015 Penn State Using Galaxy Workshop
 Hey Everyone,
 
 This will be an informal meeting open to anyone interested in data analysis, genomic tools and biology workflows.
-[Anton Nekrutenko](/src/people/anton/index.md) of the [Galaxy team](/src/galaxy-team/index.md) will be delivering an introduction to the resources available to start using the Galaxy application from a practitioner's viewpoint. Multiple Galaxy Team members will be available for any additional questions.
+[Anton Nekrutenko](/people/anton/index.md) of the [Galaxy team](/src/galaxy-team/) will be delivering an introduction to the resources available to start using the Galaxy application from a practitioner's viewpoint. Multiple Galaxy Team members will be available for any additional questions.
 
 Thanks and hope to see you there!
 

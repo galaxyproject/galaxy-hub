@@ -11,8 +11,8 @@ tease: 'GalaxyAdmins December 2016 Meetup'
 | ---- | ---- |
 | **Date** | 15 December 2016 |
 | **Time** | [5 pm Central European Time](http://bit.ly/2h2QOsT). See [your local time](http://bit.ly/2h2QOsT) |
-| **Topic 1** | *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/src/people/bjoern-gruening/index.md) and  Bérénice Batut, University of Freiburg |
-| **Topic&nbsp;2** | *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/src/people/dannon-baker/index.md), Johns Hopkins University |
+| **Topic 1** | *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/people/bjoern-gruening/) and  Bérénice Batut, University of Freiburg |
+| **Topic&nbsp;2** | *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/people/dannon-baker/), Johns Hopkins University |
 | **Links** | [Video](https://connect.johnshopkins.edu/p7ek9bf4ez0/) |
 
 *[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 

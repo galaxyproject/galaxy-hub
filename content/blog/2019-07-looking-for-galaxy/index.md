@@ -36,7 +36,7 @@ The search further classifies results by where they are found and what they are 
 The **Galaxy Publication Search** tab searches the [Galaxy Publication Library](https://www.zotero.org/groups/1732893/galaxy) using Zotero's built in search.  It will show you publications relevant to your search.  (It's not integrated into the Google search because Google doesn't want to search collections of material available elsewhere on the web.)
 
 Happy searching,<br />
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)
 
 <sup>&#42;</sup> Or the *infinitely* more interesting [*Galaxie 500*](https://en.wikipedia.org/wiki/Ford_Galaxie) (which was also my very first car).
 

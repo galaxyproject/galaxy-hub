@@ -8,7 +8,7 @@
 
 <div class='title'>Galaxy<br />July 18, 2013</div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+**Instructor: [Dave Clements](/people/dave-clements/)
 
 9:00-5:00<br />
 NIEHS Rall Room 101/A262<br />

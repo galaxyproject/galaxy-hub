@@ -12,4 +12,4 @@ If you want to help other Galaxy users and sites find papers that are relevant t
 
 *Update: Thanks to the efforts of [Stephen Turner at the University of Virginia](http://twitter.com/genetics_blog), the Galaxy CiteULike group is now mirrored on Mendeley.*
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

@@ -15,11 +15,11 @@ The new *[Galactic Blog](/src/blog/index.md)* was launched in October.  The *Gal
 
 The blog is off to a running start with these posts in October:
 
-* [ELIXIR Galaxy Community](/src/blog/2017-10-05-elixir-galaxy-community/index.md), by Frederik Coppens, Gildas Le Corguillé, and [Björn Grüning](/src/people/bjoern-gruening/index.md)
-* [Public Galaxy Server Dashboard](/src/blog/2017-10-public-galaxy-dashboard/index.md), by [Helena Rasche](/src/people/helena-rasche/index.md)
-* [SciPy and scikit-learn integration into Galaxy](/src/blog/2017-10-10-scipy-galaxy/index.md), by [Björn Grüning](/src/people/bjoern-gruening/index.md)
-* [Small genome assembly in Galaxy](/src/blog/2017-10-16-UnicyclerTutorial/index.md), by [Anton Nekrutenko](/src/people/anton/index.md)
-* [Galaxy: the first 5,000 pubs](/src/blog/2017-10-5000-pubs/index.md), by [Dave Clements](/src/people/dave-clements/index.md)
+* [ELIXIR Galaxy Community](/src/blog/2017-10-05-elixir-galaxy-community/index.md), by Frederik Coppens, Gildas Le Corguillé, and [Björn Grüning](/people/bjoern-gruening/)
+* [Public Galaxy Server Dashboard](/src/blog/2017-10-public-galaxy-dashboard/index.md), by [Helena Rasche](/people/helena-rasche/)
+* [SciPy and scikit-learn integration into Galaxy](/src/blog/2017-10-10-scipy-galaxy/index.md), by [Björn Grüning](/people/bjoern-gruening/)
+* [Small genome assembly in Galaxy](/src/blog/2017-10-16-UnicyclerTutorial/index.md), by [Anton Nekrutenko](/people/anton/)
+* [Galaxy: the first 5,000 pubs](/src/blog/2017-10-5000-pubs/index.md), by [Dave Clements](/people/dave-clements/)
 
 ## The Galactic Blog needs you!
 
@@ -43,7 +43,7 @@ microbial genomic epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC562
 * [An Arranged Marriage: Integrating DKPro Core in the Language Analysis Portal](https://www.clarin.eu/sites/default/files/Kouylekov-CLARIN2017_paper_37.pdf), Milen Kouylekov, Emanuele Lapponi, Stephan Oepen, and Richard Eckart de Castilho. [CLARIN2017 Book of Abstracts](https://www.clarin.eu/content/abstracts-overview-clarin-annual-conference-2017)
 * [An Architecture for Genomics Analysis in a Clinical Setting Using Galaxy and Docker](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/gix099/4557139), W. Digan, H. Countouris, M. Barritault, D. Baudoin, P. Laurent-Puig, H. Blons, A. Burgun, B. Rance. *GigaScience*, gix099, doi: 10.1093/gigascience/gix099
 Published: 18 October 2017
-* [Bioconda: A sustainable and comprehensive software distribution for the life sciences](https://doi.org/10.1101/207092), [Björn Grüning](/src/people/bjoern-gruening/index.md), Ryan Dale, Andreas Sjödin, Jillian Rowe, Brad A. Chapman, Christopher H. Tomkins-Tinch, Renan Valieris, The Bioconda Team, Johannes Köster, *bioRxiv* 207092, doi: https://doi.org/10.1101/207092
+* [Bioconda: A sustainable and comprehensive software distribution for the life sciences](https://doi.org/10.1101/207092), [Björn Grüning](/people/bjoern-gruening/), Ryan Dale, Andreas Sjödin, Jillian Rowe, Brad A. Chapman, Christopher H. Tomkins-Tinch, Renan Valieris, The Bioconda Team, Johannes Köster, *bioRxiv* 207092, doi: https://doi.org/10.1101/207092
 * [Cloud Computing for Science and Engineering](https://mitpress.mit.edu/books/cloud-computing-science-and-engineering), Ian Foster and Dennis B. Gannon. . MIT Press; 2017 Sep 22
 
 ## Publication Topics
@@ -203,7 +203,7 @@ The Galaxy is expanding! Please help it grow.
 
 * [Développeur d’outils MS/MS pour le projet Workflow4Metabolomics sous Galaxy](https://www.sfbi.fr/content/d%C3%A9veloppeur-d%E2%80%99outils-msms-pour-le-projet-workflow4metabolomics-sous-galaxy-0), Station Biologique de Roscoff, France
 * [Bioinformaticien Gustave Roussy](https://www.sfbi.fr/content/bioinformaticien-gustave-roussy), Villejuif, France
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
+* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 * [Implémentation d’outils d’analyse et de visualisation de variations structurales et génomes mosaïques](https://www.sfbi.fr/content/impl%C3%A9mentation-d%E2%80%99outils-d%E2%80%99analyse-et-de-visualisation-de-variations-structurales-et-g%C3%A9nomes-), IRD (Institut de Recherche pour le Développement), Montpellier, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
@@ -357,8 +357,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/src/people/john-chilton/index.md): 
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+* From [John Chilton](/people/john-chilton/): 
+  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 ## And the rest ...
 

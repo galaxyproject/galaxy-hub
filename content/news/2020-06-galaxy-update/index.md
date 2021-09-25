@@ -174,7 +174,7 @@ June is an active month for the Scientific Gateways Community Institute:
 
 [This workshop](https://galaxyproject.eu/event/2020-05-27-Machine-Learning-Elixir/) will be held online 22-26 June.  **Registration deadline is 16 June!**
 
-*The organizers are seeking French-speaking Teaching Assistants for this workshop. If you can help (Tues + Thurs only) please contact [Björn Grüning](/src/people/bjoern-gruening/index.md).*
+*The organizers are seeking French-speaking Teaching Assistants for this workshop. If you can help (Tues + Thurs only) please contact [Björn Grüning](/people/bjoern-gruening/).*
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">

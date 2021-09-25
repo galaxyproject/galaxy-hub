@@ -11,7 +11,7 @@ When:: Monday, 6 July, 18:50
 
 Where:: Franklin Room, JICCC
 
-Contact:: [Dave Clements](/src/people/dave-clements/index.md), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
+Contact:: [Dave Clements](/people/dave-clements/), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
 
 
 The **[Galaxy Training Network (GTN)](https://training.galaxyproject.org/)** will have an in-person [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.
@@ -40,10 +40,10 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 
 ## Participants
 
-* [Dave Clements](/src/people/dave-clements/index.md), organiser
+* [Dave Clements](/people/dave-clements/), organiser
 * [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie), organiser
-* [Helena Rasche](/src/people/helena-rasche/index.md)
-* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
+* [Helena Rasche](/people/helena-rasche/)
+* [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
 * Mark Fernandes
 * Catriona McInerney
 * Annette McGrath
@@ -56,7 +56,7 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 * Agata Smialowska
 * Jochen Bick
 * Brad Langhorst
-* [Björn Grüning](/src/people/bjoern-gruening/index.md)
+* [Björn Grüning](/people/bjoern-gruening/)
 * Daniel Sobral
 * Simon Gladman
 * Clare Sloggett
@@ -147,4 +147,4 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 
 ## Questions?
 
-Send them to [Dave Clements](/src/people/dave-clements/index.md) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).
+Send them to [Dave Clements](/people/dave-clements/) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).

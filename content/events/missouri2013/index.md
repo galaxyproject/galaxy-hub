@@ -3,7 +3,7 @@
 
 <div class='title'>Introduction to Galaxy<br /> Thursday May 2, 2013</div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu) 
+**Instructor: [Dave Clements](/people/dave-clements/), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu) 
 
 9:00am-5:00pm<br />
 [Bond Life Sciences Center](http://map.missouri.edu/?bldg=37156), <div class='red'> Room 572</span> ** (note room change) <br />

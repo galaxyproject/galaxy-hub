@@ -19,10 +19,10 @@ Welcome to the March 2015 *[Galaxy Update](/src/galaxy-updates/index.md)*, a sum
 82 new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in February. Some highlights:
 
 * [Multi-omic data analysis using Galaxy](https://doi.org/10.1038/nbt.3134)
-    Jorrit Boeke, [John M Chilton](/src/people/john-chilton/index.md), Ira R Cooke, Peter L Horvatovich, Pratik D Jagtap, Lukas Käll, Janne Lehtiö, Pieter Lukasse, Perry D Moerland & Timothy J Griffin, *Nature Biotechnology*, Vol. 33, No. 2. (6 February 2015)
+    Jorrit Boeke, [John M Chilton](/people/john-chilton/), Ira R Cooke, Peter L Horvatovich, Pratik D Jagtap, Lukas Käll, Janne Lehtiö, Pieter Lukasse, Perry D Moerland & Timothy J Griffin, *Nature Biotechnology*, Vol. 33, No. 2. (6 February 2015)
 
 * [Online Resources for Genomic Analysis Using High-Throughput Sequencing](https://doi.org/10.1101/pdb.top083667)
-    [Daniel Blankenberg](/src/people/dan/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md),  *Cold Spring Harbor Protocols* (05 February 2015), doi:10.1101/pdb.top083667
+    [Daniel Blankenberg](/people/dan/index.md), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/src/people/anton/),  *Cold Spring Harbor Protocols* (05 February 2015), doi:10.1101/pdb.top083667
 
 * [Selected Approaches and Frameworks to Carry out Genomic Data Analysis on the Cloud](https://doi.org/10.12694/scpe.v16i1.1058)
     Philip Church, Andrzej Goscinski, *Scalable Computing: Practice and Experience*, Vol. 16, No. 1. (07 February 2015), doi:10.12694/scpe.v16i1.1058
@@ -31,7 +31,7 @@ Welcome to the March 2015 *[Galaxy Update](/src/galaxy-updates/index.md)*, a sum
     Yousef Kowsar, Harriet Dashnow, Andrew Lonie, in Utility and Cloud Computing (UCC), 2014 IEEE/ACM 7th International Conference on (December 2014), pp. 696-701, doi:10.1109/ucc.2014.113
 
 * [A Quick Guide for Building a Successful Bioinformatics Community](https://doi.org/10.1371/journal.pcbi.1003972)
-    Aidan Budd, Manuel Corpas, Michelle D. Brazas, Jonathan C. Fuller, [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Nicola J. Mulder, Magali Michaut, B. F. Francis Ouellette, Aleksandra Pawlik, Niklas Blomberg, *PLoS Computational Biology*, Vol. 11, No. 2. (5 February 2015), e1003972, doi:10.1371/journal.pcbi.1003972
+    Aidan Budd, Manuel Corpas, Michelle D. Brazas, Jonathan C. Fuller, [Jeremy Goecks](/people/jeremy-goecks/), Nicola J. Mulder, Magali Michaut, B. F. Francis Ouellette, Aleksandra Pawlik, Niklas Blomberg, *PLoS Computational Biology*, Vol. 11, No. 2. (5 February 2015), e1003972, doi:10.1371/journal.pcbi.1003972
 
 * [Draft sequencing and assembly of the genome of the world’s largest fish, the whale shark: Rhincodon typus Smith 1828](https://peerj.com/preprints/837/)
     Timothy D Read​, Robert A Petit III, Sandeep J Joseph, Md T Alam, Ryan Weil, Maida Ahmad, Ravila Bhimani, Jocelyn S Vuong, Chad P Haase, Harry Webb, Alistair D. M. Dove, *PeerJ PrePrints* 3:e1036 doi:10.7287/peerj.preprints.837v1
@@ -197,17 +197,17 @@ A hands-on, 4 day workshop on *[RNA-Seq and ChIP-Seq Analysis with Galaxy](http:
 
 [Video and slides](/src/community/galaxy-admins/meetups/2015-02-19/index.md) from the first [GalaxyAdmins](/src/community/galaxy-admins/index.md) [meetup of 2015](/src/community/galaxy-admins/meetups/2015-02-19/index.md) are now available online. 
 
-[Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) also lead a short discussion on *[GalaxyAdmins](/src/community/galaxy-admins/index.md) direction*.
+[Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md) also lead a short discussion on *[GalaxyAdmins](/src/community/galaxy-admins/) direction*.
 
 [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meetup will be in April.
 
 ### Fall 2014 Questionnaire Summaries
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/news/2014-questionnaire/index.md) was presented by [Dave Clements](/src/people/dave-clements/index.md).  A [summary of the admin/devel questionnaire](/src/community/galaxy-admins/surveys/2014/index.md) is now available online.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/news/2014-questionnaire/index.md) was presented by [Dave Clements](/people/dave-clements/index.md).  A [summary of the admin/devel questionnaire](/src/community/galaxy-admins/surveys/2014/) is now available online.
 
 ### Gravity
 
-[Nate Coraor](/src/people/nate/index.md) introduced [Gravity](/src/community/galaxy-admins/meetups/2015-02-19/index.md#galaxy-project-update-gravity), a process manager (supervisor) for Galaxy servers.  
+[Nate Coraor](/people/nate/index.md) introduced [Gravity](/src/community/galaxy-admins/meetups/2015-02-19/#galaxy-project-update-gravity), a process manager (supervisor) for Galaxy servers.  
 
 ## Other Events
 
@@ -239,7 +239,7 @@ There are [upcoming events](/src/events/index.md) in 7 countries on 4 continents
     <th> March 2-3 </th>
     <td> <em><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'>Workshop on Bioinformatics Methods in Genomics</a></em> </td>
     <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='http://www.irb.hr/eng'>RBI</a>, Zagreb, Croatia </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> March 3-5 </th>

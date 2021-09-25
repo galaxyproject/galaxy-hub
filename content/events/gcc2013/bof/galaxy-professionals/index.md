@@ -49,10 +49,10 @@ The [time and location](/src/events/gcc2013/bof/index.md#bof-schedule) for this 
 
 If you are interested, please add your name below and/or send an email to [Ross Lazarus](mailto:ross DOT lazarus AT gmail DOT com).
 
-* [Ross Lazarus](/src/people/fubar/index.md)
+* [Ross Lazarus](/people/fubar/)
 * Mo Heydarian
 * Srinivas Maddhi
-* [Daniel Blankenberg](/src/people/dan/index.md)
+* [Daniel Blankenberg](/people/dan/)
 * Your name here..
 
 ## Questions?

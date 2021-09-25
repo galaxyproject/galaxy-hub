@@ -172,12 +172,12 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
 There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and 9 of those are open access:
 
 * **[Accessible and reproducible mass spectrometry imaging data analysis in Galaxy]( https://doi.org/10.1101/628719)**, Melanie Christine Föll, Lennart Moritz, Thomas Wollmann, Maren Nicole Stillger, Niklas Vockert, Martin Werner, Peter Bronsert, Karl Rohr, Björn Andreas Grüning, Oliver Schilling. *bioRxiv* 628719; doi: 10.1101/628719
-* **[G-OnRamp: a Galaxy-based platform for collaborative annotation of eukaryotic genomes](https://doi.org/10.1093/bioinformatics/btz309)**, Yating Liu, Luke Sargent, Wilson Leung, Sarah C. R. Elgin and [Jeremy Goecks](/src/people/jeremy-goecks/index.md). *Bioinformatics*, btz309, doi: 10.1093/bioinformatics/btz309 
+* **[G-OnRamp: a Galaxy-based platform for collaborative annotation of eukaryotic genomes](https://doi.org/10.1093/bioinformatics/btz309)**, Yating Liu, Luke Sargent, Wilson Leung, Sarah C. R. Elgin and [Jeremy Goecks](/people/jeremy-goecks/). *Bioinformatics*, btz309, doi: 10.1093/bioinformatics/btz309 
 * **[MetaDEGalaxy: Galaxy workflow for differential abundance analysis of 16s metagenomic data](https://f1000research.com/articles/8-726)**, Mike W.C. Thang, Xin-Yi Chua, Gareth Price, Dominique Gorse, Matt A. Field. *F1000Research* 2019, 8:726, doi: 10.12688/f1000research.18866.1)
 * **[NGPhylogeny.fr: new generation phylogenetic services for non-specialists](https://doi.org/10.1093/nar/gkz303)**, Frédéric Lemoine, Damien Correia, Vincent Lefort, Olivia Doppelt-Azeroual, Fabien Mareuil, Sarah Cohen-Boulakia, Olivier Gascuel. *Nucleic Acids Research*, gkz303, doi: 10.1093/nar/gkz303
 * **[Rice Galaxy: an open resource for plant science](https://academic.oup.com/gigascience/article/8/5/giz028/5492234)**, Venice Juanillas, Alexis Dereeper, Nicolas Beaume, Gaetan Droc, Joshua Dizon, John Robert Mendoza, Jon Peter Perdon, Locedie Mansueto, Lindsay Triplett, Jillian Lang, Gabriel Zhou, Kunalan Ratharanjan, Beth Plale, Jason Haga, Jan E. Leach, Manuel Ruiz, Michael Thomson, Nickolai Alexandrov, Pierre Larmande, Tobias Kretzschmar and Ramil P. Mauleon. *GigaScience*, 8, 2019, 1–14, doi: 10.1093/gigascience/giz028
 * **[The RNA workbench 2.0: next generation RNA data analysis](https://doi.org/10.1093/nar/gkz353)**, Jorg Fallmann, Pavankumar Videm, Andrea Bagnacani, Bérénice Batut, Maria A. Doyle, Tomas Klingstrom, Florian Eggenhofer, Peter F. Stadler, Rolf Backofen and [Björn Grüning](https://github.com/bgruening). *Nucleic Acids Research*, gkz353, doi: 10.1093/nar/gkz353
-* **[Galaxy External Display Applications: Closing a dataflow interoperability loop](http://dx.doi.org/10.1101/642280)**, [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md). *bioRxiv* 642280; doi: 10.1101/642280
+* **[Galaxy External Display Applications: Closing a dataflow interoperability loop](http://dx.doi.org/10.1101/642280)**, [Daniel Blankenberg](/people/dan/index.md), [John Chilton](/people/john-chilton/), and [Nate Coraor](/src/people/nate/). *bioRxiv* 642280; doi: 10.1101/642280
 * **[Prediction and Characterization of miRNA/Target Pairs in Non‐Model Plants Using RNA‐seq](https://currentprotocols.onlinelibrary.wiley.com/doi/10.1002/cppb.20090)**, Kira C. M. Neller, Alexander Klenov, Katalin A. Hudak. *Current Protocols in Plant Biology*, e20090. doi: 10.1002/cppb.20090
 * **[The Repetitive DNA Composition in the Natural Pesticide Producer *Tanacetum cinerariifolium:* Interindividual Variation of Subtelomeric Tandem Repeats](https://doi.org/10.3389/fpls.2019.00613)**, Jelena Mlinarec, Ana Skuhala, Adela Jurković, Nenad Malenica, Jamie McCann, Hanna Weiss-Schneeweiss, Borut Bohanec and Višnja Besendorfer. *Frontiers in Plant Science*, 16 May 2019, doi: 10.3389/fpls.2019.00613
 
@@ -263,7 +263,7 @@ For the second month in a row we have a new *[Galactic Blog](/src/blog/index.md)
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
 * [Bioinformaticien h/f - INNOLEA](https://www.sfbi.fr/node/11698), Mondonville, France. "Le développement d'outils pour l'analyse de données génétiques, génomiques et la mise en œuvre dans une plateforme Galaxy"
-* [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/src/people/dan/index.md), Cleveland Clinic, Cleveland, Ohio, United States.
+* [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/people/dan/), Cleveland Clinic, Cleveland, Ohio, United States.
 * [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
 * ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
   * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
@@ -289,7 +289,7 @@ Updates from the [Galaxy Training Materials](https://training.galaxyproject.org/
 
 Hub updates:
 
-* [Data Privacy in Galaxy](/src/learn/privacy-features/index.md): A new page describing how to use Galaxy's data privacy features; from [Martin Cech](/src/people/marten/index.md)
+* [Data Privacy in Galaxy](/src/learn/privacy-features/index.md): A new page describing how to use Galaxy's data privacy features; from [Martin Cech](/people/marten/)
 
 
 ---
@@ -344,7 +344,7 @@ Automated status tracking of our most important services is available at  [statu
 
 ## data.galaxyproject.org directory view.
 
-From [Enis Afgan](/src/people/enis-afgan/index.md):
+From [Enis Afgan](/people/enis-afgan/):
 
 * If you ever wondered what reference data is available on the Galaxy Project CVMFS at data.galaxyproject.org, here's a snapshot [file system directory view](https://gist.github.com/afgane/b527eb857244f43a680c9654b30deb1f), and here's the [equivalent navigable view](http://datacache.galaxyproject.org/).
 

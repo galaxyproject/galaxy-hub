@@ -12,7 +12,7 @@ When:: Tuesday, 7 July, 12:30 (Lunch)
 
 Where:: Franklin Room, JICCC
 
-Contact:: [JenniferJackson](/src/people/jennifer-jackson/index.md) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
+Contact:: [JenniferJackson](/people/jennifer-jackson/) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
 
 <br />
 ## Description
@@ -38,7 +38,7 @@ If you are interested, please add your name below.
 * [jen@galaxyproject.org](mailto:jen@galaxyproject.org), Jennifer Hillman-Jackson
 * [kreddy4@jhmi.edu](mailto:kreddy4@jhmi.edu), Karen Reddy
 * Mo Heydarian
-* [Dan Blankenberg](/src/people/dan/index.md)
+* [Dan Blankenberg](/people/dan/)
 * Michael Sauria
 * Gergely Izrael (izi)
 * Christian Rausch

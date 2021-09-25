@@ -17,7 +17,7 @@
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a></em><div class='indent'><a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang Leon Mei</a><br /><a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2013-03-20/20130320Andromeda.pdf'>Slides</a></div><em>Galaxy Project Update</em><div class='indent'><a href='/src/people/dan/index.md'>Dan Blankenberg</a><br /><a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2013-03-20/20130320GalaxyUpdate.pdf'>Slides</a></div> </td>
+    <td> <em><a href='http://galaxy.nbic.nl/'>NBIC Galaxy</a> at <a href='https://www.surfsara.nl/'>SURFsara's HPC cloud</a></em><div class='indent'><a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang Leon Mei</a><br /><a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2013-03-20/20130320Andromeda.pdf'>Slides</a></div><em>Galaxy Project Update</em><div class='indent'><a href='/people/dan/'>Dan Blankenberg</a><br /><a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2013-03-20/20130320GalaxyUpdate.pdf'>Slides</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>

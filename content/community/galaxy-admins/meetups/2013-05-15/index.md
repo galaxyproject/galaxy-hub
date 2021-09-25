@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/src/people/dannon-baker/index.md'>Dannon Baker</a></div> </td>
+    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/people/dannon-baker/'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -34,7 +34,7 @@
 
 Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/faculty/group_overview/Cyberinfrastructure_Division) of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech talked about their experience deploying Galaxy for [Pathogen Portal](http://pathogenportal.org), a highly customized Galaxy installation, and also about the group's objectives and future plans.
 
-[Dannon Baker](/src/people/dannon-baker/index.md) brought the group up to speed on what's happening in the Galaxy project.
+[Dannon Baker](/people/dannon-baker/) brought the group up to speed on what's happening in the Galaxy project.
 
 <br /><br />
 

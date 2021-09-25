@@ -12,7 +12,7 @@ tease: 'GalaxyAdmins February 2017 Meetup'
 | **Date** | 16 February 2017 |
 | **Time** | [9:30 pm India Standard Time](http://bit.ly/2kPgfSF). See [your local time](http://bit.ly/2kPgfSF) |
 | **Topic** | *CloudLaunch*  |
-| **Presenters** | Nuwan Goonesekera and [Enis Afgan](/src/people/enis-afgan/index.md) |
+| **Presenters** | Nuwan Goonesekera and [Enis Afgan](/people/enis-afgan/) |
 | **Links** | **[Video](https://connect.johnshopkins.edu/p8t92n1zw9q)** |
 
 *[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 

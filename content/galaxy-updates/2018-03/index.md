@@ -261,7 +261,7 @@ February had one new *[Galactic Blog](/src/blog/index.md)* entry:
 The *Galactic* and *Stellar* publications added in February were:
 
 * [GeneSeqToFamily: a Galaxy workflow to find gene families based on the Ensembl Compara GeneTrees](https://doi.org/10.1093/gigascience/giy005), Anil S Thanki, Nicola Soranzo, Wilfried Haerty, Robert P Davey. *GigaScience*, giy005, doi: 10.1093/gigascience/giy005
-* [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](https://doi.org/10.3390/proteomes6010007), Clemens Blank, Caleb Easterly, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), James Johnson, Carolin A. Kolmeder, Praveen Kumar, Damon May, Subina Mehta, Bart Mesuere, Zachary Brown, Joshua E. Elias, W. Judson Hervey, Thomas McGowan, Thilo Muth, Brook L. Nunn, Joel Rudney, Alessandro Tanca, Timothy J. Griffin and Pratik D. Jagtap. *Proteomes* 2018, 6(1), 7; doi:10.3390/proteomes6010007
+* [Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](https://doi.org/10.3390/proteomes6010007), Clemens Blank, Caleb Easterly, [Bjoern Gruening](/people/bjoern-gruening/), James Johnson, Carolin A. Kolmeder, Praveen Kumar, Damon May, Subina Mehta, Bart Mesuere, Zachary Brown, Joshua E. Elias, W. Judson Hervey, Thomas McGowan, Thilo Muth, Brook L. Nunn, Joel Rudney, Alessandro Tanca, Timothy J. Griffin and Pratik D. Jagtap. *Proteomes* 2018, 6(1), 7; doi:10.3390/proteomes6010007
 * [Mind your gaps: Overlooking assembly gaps confounds statistical testing in genome analysis](https://doi.org/10.1101/252973), Diana Domanska, Chakravarthi Kanduri, Boris Simovski, Geir Kjetil Sandve. *bioRxiv* 252973; doi: 10.1101/252973
 * [MAJIQ-SPEL: web-tool to interrogate classical and complex splicing variations from RNA-Seq data](https://doi.org/10.1093/bioinformatics/btx565), Christopher J Green, Matthew R Gazzara, Yoseph Barash. *Bioinformatics*, Volume 34, Issue 2, 15 January 2018, Pages 300–302, doi: 10.1093/bioinformatics/btx565
 * [Low-pass single-chromosome sequencing of human small supernumerary marker chromosomes (sSMCs) and *Apodemus* B chromosomes](https://link.springer.com/article/10.1007/s00412-018-0662-0), Makunin, A.I., Rajičić, M., Karamysheva, T.V. et al. *Chromosoma* (2018). doi: 10.1007/s00412-018-0662-0
@@ -286,7 +286,7 @@ The Galaxy is expanding! Please help it grow.
 * [Développement d'outils bioinformatiques et statistiques pour l'analyse de l'air expiré en médecine par spectrométrie de masse en temps-réel](https://www.sfbi.fr/content/d%C3%A9veloppement-doutils-bioinformatiques-et-statistiques-pour-lanalyse-de-lair-expir%C3%A9-en-m%C3%A9dec), CEA Saclay, France
 * [Ingénieur en développement de composants Galaxy pour la protéomique](https://www.sfbi.fr/content/ing%C3%A9nieur-en-d%C3%A9veloppement-de-composants-galaxy-pour-la-prot%C3%A9omique-0), MaIAGE , INRA, Jouy-en-Josas, France
 * The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/) is [looking for 2 Postdoctoral researchers](https://usegalaxy-eu.github.io/galaxy-freiburg/2018/01/18/openpositions.html)
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
+* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
@@ -423,4 +423,4 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * From Björn Grüning 
   * New Galaxy tutorial by Simon Gladman and Torsten Seeman about [Microbial Variant Calling using snippy](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/microbial-variants/tutorial.html). 
-  * This is big: [Aysam Guerler](/src/people/guerler/index.md) has reworked the Galaxy visualization plugin architecture.
+  * This is big: [Aysam Guerler](/people/guerler/) has reworked the Galaxy visualization plugin architecture.

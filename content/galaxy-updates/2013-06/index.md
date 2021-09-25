@@ -193,25 +193,25 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> June 8-11 </th>
     <td> <em><a href='https://www.eshg.org/sunday2013.0.html#W1'>WS08: Biomedical Data Analysis with Galaxy Workshop</a></em> </td>
     <td> <strong><a href='https://www.eshg.org/eshg2013.0.html'>European Human Genetics Conference (ESHG2013)</a></strong>, Paris, France </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 9-13 </th>
     <td> <strong><a href='/src/events/asms2013/index.md'>61st ASMS Conference on Mass Spectrometry and Allied Topics</a></strong><div class='indent'>Includes at least 1 workshop and 9 posters either about or utilizing Galaxy</div> </td>
     <td> Minneapolis, Minnesota, United States </td>
-    <td> <a href='/src/people/john-chilton/index.md'>John Chilton</a> </td>
+    <td> <a href='/people/john-chilton/'>John Chilton</a> </td>
   </tr>
   <tr>
     <th> June 13-14 </th>
     <td> <a href='http://www.cdb.riken.jp/deepseq2013/index.html'>Genomics and Epigenomics with Deep Sequencing, the 24th CDB Meeting</a> </td>
     <td> RIKEN, CDB, Kobe, Japan </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> June 20-22 </th>
     <td> <em><a href='http://www.fged.org/conferences/upcoming-conference/workshops-and-tutorials-1/'>W1: Next-generation sequencing data analysis with GenomeSpace and Galaxy</a></em> </td>
     <td> <a href='http://www.fged.org/conferences/upcoming-conference2/'>FGED Conference</a>, Seattle, Washington </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 21 </th>
@@ -235,7 +235,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th rowspan=2> July 19-23 </th>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#W05'>The “How To Guide” for Establishing a Successful Bioinformatics Network</a></em> </td>
     <td rowspan=2> <strong><a href='http://www.iscb.org/ismbeccb2013'>ISMB/ECCB 2013</a></strong> & <strong><a href='http://www.open-bio.org/wiki/BOSC_2013'>BOSC 2013</a></strong>, Berlin, Germany </td>
-    <td rowspan=2> <a href='/src/people/jeremy-goecks/index.md'>JeremyGoecks</a> </td>
+    <td rowspan=2> <a href='/people/jeremy-goecks/'>JeremyGoecks</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/workshops.php#W06'>Integrated Visualization and Computing for Biomedical Research</a></em> </td>
@@ -244,7 +244,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th rowspan=4> July 18-23 </th>
     <td> <em><a href='/src/events/niehs2013/index.md'>Introduction to Galaxy Workshop</a></em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
     <td rowspan=4> <a href='/src/events/rt-workshop-tour2013/index.md'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
-    <td rowspan=4> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td rowspan=4> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/src/events/unc2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
@@ -278,7 +278,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 <div class='right'><a href='/src/community/galaxy-admins/meetups/2013-05-15/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="50" /></a></div>
 
-The [May GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-05-15/index.md) featured Andrew Warren of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech speaking on their Galaxy deployment *[RNA Rocket](http://rnaseq.pathogenportal.org/)* for [Pathogen Portal](http://pathogenportal.org). [Dannon Baker](/src/people/dannon-baker/index.md)also gave a Galaxy Project update.  Slides and a screencast are now available.
+The [May GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-05-15/index.md) featured Andrew Warren of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech speaking on their Galaxy deployment *[RNA Rocket](http://rnaseq.pathogenportal.org/)* for [Pathogen Portal](http://pathogenportal.org). [Dannon Baker](/people/dannon-baker/)also gave a Galaxy Project update.  Slides and a screencast are now available.
 
 <br />
 

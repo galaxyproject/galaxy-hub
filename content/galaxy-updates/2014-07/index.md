@@ -28,12 +28,12 @@ Fifteen [Training sessions on 12 topics](/src/events/gcc2014/training-day/index.
 
 There will be at least six talks and five posters related to Galaxy at [ISMB and BOSC 2014](/src/events/ismb2014/index.md) this year.  Talks include
 
-* *Galaxy as an Extensible Job Execution Platform*, [John Chilton](/src/people/john-chilton/index.md)
-* *Enhancing the Galaxy Experience through Community Involvement*, [Daniel Blankenberg](/src/people/dan/index.md)
-* *[TT03: Interactive Visual Analysis with Galaxy Charts](http://www.iscb.org/uploaded/css/166/29988.pdf)*, [Sam Guerler](/src/people/guerler/index.md)
-* *[TT24: From the Ground to the Cloud in 25 minutes: Building a Customized Galaxy Analysis Server Using Only a Web Browser](http://www.iscb.org/uploaded/css/166/30137.pdf)*, [Daniel Blankenberg](/src/people/dan/index.md)
+* *Galaxy as an Extensible Job Execution Platform*, [John Chilton](/people/john-chilton/)
+* *Enhancing the Galaxy Experience through Community Involvement*, [Daniel Blankenberg](/people/dan/)
+* *[TT03: Interactive Visual Analysis with Galaxy Charts](http://www.iscb.org/uploaded/css/166/29988.pdf)*, [Sam Guerler](/people/guerler/)
+* *[TT24: From the Ground to the Cloud in 25 minutes: Building a Customized Galaxy Analysis Server Using Only a Web Browser](http://www.iscb.org/uploaded/css/166/30137.pdf)*, [Daniel Blankenberg](/people/dan/)
 * *[TT27: Bioinformatics and Computer Biology Systems design applied to Medical Molecular Nanobiotechnology](http://www.iscb.org/uploaded/css/166/30125.pdf)*, Allan Orozco
-* *[TT29: Scaling Galaxy: Preparing for Those Next Few Orders of Magnitude](http://www.iscb.org/uploaded/css/166/30134.pdf)*, [John Chilton](/src/people/john-chilton/index.md)
+* *[TT29: Scaling Galaxy: Preparing for Those Next Few Orders of Magnitude](http://www.iscb.org/uploaded/css/166/30134.pdf)*, [John Chilton](/people/john-chilton/)
 
 ## Other Events
 
@@ -92,7 +92,7 @@ Over the rest of the summer there are other [Galaxy related events](/src/events/
     <th> July 28 - August 1 </th>
     <td> <em><a href='/src/events/sao-paulo2014/index.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
     <td> <a href='http://usp.br/'>University of São Paulo (USP)</a>, São Paulo, Brazil </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 25-27 </th>
@@ -116,7 +116,7 @@ Over the rest of the summer there are other [Galaxy related events](/src/events/
     <th rowspan=3> September 30 - October 2 </th>
     <td> <a href='/src/events/switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
     <td> Bern (Switzerland) </td>
-    <td rowspan=3> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
+    <td rowspan=3> <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/src/events/switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>

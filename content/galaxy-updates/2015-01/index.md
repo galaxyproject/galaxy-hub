@@ -138,19 +138,19 @@ There are [upcoming events](/src/events/index.md) on two continents.  See the [G
     <th> January 10-14 </th>
     <td> <em>Galaxy for SNP and Variant Data Analysis</em> </td>
     <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIII (PAG2014)</a>, San Diego, California, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 15 </th>
     <td> <em><a href='/src/events/sdsu2014/index.md'>Galaxy Workshops</a></em> </td>
     <td> <a href='http://sdsu.edu/'>San Diego State University</a>, San Diego, California, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 15-16 </th>
     <td> <em>Accessible and Reproducible Genomics at Scale with Galaxy</em> </td>
     <td> <a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'>Revolutionizing Next-Generation Sequencing: Tools and Technologies</a>, Leuven, Belgium </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> January 19-20 </th>
@@ -168,7 +168,7 @@ There are [upcoming events](/src/events/index.md) on two continents.  See the [G
     <th rowspan=3> February 16-18 </th>
     <td> <em>Accessible and Reproducible Large-Scale Analysis with Galaxy</em> </td>
     <td rowspan=1> <a href='http://www.triconference.com/Sequencing-Analysis/'>Genome and Transcriptome Analysis</a>, part of Molecular Medicine Tri-Conference, San Francisco, California, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <td> <em>Large-Scale NGS data Analysis on Amazon Web Services Using Globus Genomic</em> </td>
@@ -183,7 +183,7 @@ There are [upcoming events](/src/events/index.md) on two continents.  See the [G
     <th> May 25-29 </th>
     <td> <a href='http://www.mipro.hr/MIPRO2015.DCVIS/ELink.aspx'>MIPRO</a> </td>
     <td> Opatija, Croatia </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> July 6-8 </th>
@@ -200,13 +200,13 @@ There are [upcoming events](/src/events/index.md) on two continents.  See the [G
 
 *We just don't know exactly when, yet ...*
 
-Except for a [meetup at GCC2014](/src/events/gcc2014/bofs/galaxy-admins/index.md), the [GalaxyAdmins group](/src/community/galaxy-admins/index.md) has been hiatus for a while.  Well, thanks to the efforts of [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) the GalaxyAdmins group *is back.*   Starting this month, we will resume our bi-monthly conference calls.  
+Except for a [meetup at GCC2014](/src/events/gcc2014/bofs/galaxy-admins/index.md), the [GalaxyAdmins group](/src/community/galaxy-admins/index.md) has been hiatus for a while.  Well, thanks to the efforts of [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) the GalaxyAdmins group *is back.*   Starting this month, we will resume our bi-monthly conference calls.  
 
 *Galaxy-Admins* is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
 In an effort to better serve the global community we will rotate the time of the call in different months to be convenient for different parts of the world.  To help us pick the best set of times for the calls, **please take a few minutes and fill out this [Doodle poll](http://doodle.com/dq3bexyuihs59h3c).**  It covers every hour in a 72 hour period.  *Please don't forget to select the timezone before you start filling it out.*
 
-The likely presentation for the January meetup will be a summary of the Galaxy Community Survey last fall, presented by [Dave Clements](/src/people/dave-clements/index.md).  The survey covered both Galaxy usage and deployment.  The survey results will be published online before the call.
+The likely presentation for the January meetup will be a summary of the Galaxy Community Survey last fall, presented by [Dave Clements](/people/dave-clements/).  The survey covered both Galaxy usage and deployment.  The survey results will be published online before the call.
 
 <table>
   <tr>
@@ -404,5 +404,5 @@ In no particular order:
 
 * [Bioinformatics WikiBook Collaborative Workshop](http://bit.ly/15PpUxA) 24-26 February at TGAC.  And we encourage contributions [about Galaxy](http://bit.ly/1zS0PuW) to the [NGS WikiBook](http://bit.ly/NGSWikiBook).
 * [PDACS: a portal for data analysis services for cosmological simulations](http://bit.ly/1s0gMLe), Chard *et al.*  *PDACS is a Galaxy implementation for cosmology.* And PDACS slides are [here](http://bit.ly/1pYSlSN).  
-* Just scheduled: Intro to variant calling for pathologists and laboratory managers, Sydney, 22 June. [Ross Lazarus](/src/people/fubar/index.md) & Andrew Lonie
+* Just scheduled: Intro to variant calling for pathologists and laboratory managers, Sydney, 22 June. [Ross Lazarus](/people/fubar/) & Andrew Lonie
 * [ASH: A Galaxy VM](http://bit.ly/ASH_VM) from Erasmus Medical Centre for Automated Selection of Hotspots in cancer.

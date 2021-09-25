@@ -38,7 +38,7 @@ Also, if you are interested in presenting a topic, especially a "how to use Gala
 
 <div class='left'><a href='/src/events/galaxy-tour-de-france2012/index.md'><img src="/src/images/logos/GalaxyTourDeFranceLogo400.png" alt="Galaxy Tour de France 2012" height="100" /></a></div>
 
-We are pleased to announce the **[Galaxy Tour de France 2012](/src/events/galaxy-tour-de-france2012/index.md)**, a series of workshops being held across France the week of 28 May through June 1.  The Tour will make stops in [Perpignan, Lyon and Paris](/src/events/galaxy-tour-de-france2012/index.md#itinerary).  Each day will feature a *[Galaxy for Biologists](/src/events/galaxy-tour-de-france2012/index.md)* workshop in the morning, and a *[Galaxy for Developers](/src/events/galaxy-tour-de-france2012/index.md)* workshop in the afternoon.  All workshops will be taught by [Galaxy Team](/src/galaxy-team/index.md) members [Nate Coroar](/src/people/nate/index.md), [Anton Nekrutenko](/src/people/anton/index.md) and [James Taylor](/src/people/james-taylor/index.md).
+We are pleased to announce the **[Galaxy Tour de France 2012](/src/events/galaxy-tour-de-france2012/index.md)**, a series of workshops being held across France the week of 28 May through June 1.  The Tour will make stops in [Perpignan, Lyon and Paris](/src/events/galaxy-tour-de-france2012/index.md#itinerary).  Each day will feature a *[Galaxy for Biologists](/src/events/galaxy-tour-de-france2012/index.md)* workshop in the morning, and a *[Galaxy for Developers](/src/events/galaxy-tour-de-france2012/index.md)* workshop in the afternoon.  All workshops will be taught by [Galaxy Team](/src/galaxy-team/index.md) members [Nate Coroar](/people/nate/index.md), [Anton Nekrutenko](/people/anton/) and [James Taylor](/src/people/james-taylor/).
 
 Workshop registration is free, but space at each venue is limited.  You are encouraged to reserve your spot as soon as possible.  See [Galaxy Tour de France 2012](/src/events/galaxy-tour-de-france2012/index.md) for details and links.
 
@@ -122,7 +122,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <th rowspan=3> May 8-12 </th>
     <td> <strong>Staying on top of evolving best practices with Galaxy</strong>, Poster </td>
     <td rowspan=3> <strong><a href='http://meetings.cshl.edu/meetings/genome12.shtml'>The Biology of Genomes</a></strong>, Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> <a href='/src/people/dan/index.md'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <td> <strong><a href='http://gmod.org/wiki/|GMOD'>http://gmod.org/wiki/|GMOD</a> in the Cloud</strong>, Poster </td>
@@ -130,7 +130,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <td> <strong>Integrative venomics reveals different infection strategies for parasitic wasps</strong>, poster </td>
-    <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th> May 28 - June 1 </th>
@@ -142,7 +142,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <th> June 6-8 </th>
     <td> <strong><a href='http://www.bio-itworldasia.com/cla'>Dynamically Scalable, Accessible Analysis with Galaxy Cloud</a></strong> </td>
     <td> <strong><a href='http://www.bio-itworldasia.com/'>Bio-IT World Asia</a></strong>, Singapore </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> June 11-12 </th>
@@ -166,13 +166,13 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
     <th> July 13-17 </th>
     <td> <strong><a href='http://www.iscb.org/ismb2012-program/ismb2012-satellitemeetings#BSI'>Bioinformatics Software Interoperability SIG (BSI-SIG)</a></strong> </td>
     <td> <strong><a href='http://www.iscb.org/ismb2012'>ISMB 2012</a></strong>, Long Beach, California, United States </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> July 25-27 </th>
     <td> <strong><a href='/src/events/gcc2012/index.md'>2012 Galaxy Community Conference</a></strong><br /><a href='/src/events/gcc2012/register/index.md'>Early registration</a> is now open. </td>
     <td> Chicago, Illinois, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
 </table>
 

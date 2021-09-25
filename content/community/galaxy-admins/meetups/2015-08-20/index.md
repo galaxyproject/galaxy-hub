@@ -20,7 +20,7 @@
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Genomic data management at <a href='https://www.nml-lnm.gc.ca/index-eng.htm'>Canada's National Microbiology Laboratory</a> with <a href='http://www.irida.ca/'>IRIDA</a> and Galaxy</em><div class='indent'><a href='https://github.com/apetkau'>Aaron Petkau</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015_DataMgmtWihtIRIDA_Petkau.pdf'>Slides</a> </div> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015_ToolInstall_Afgan.pdf'>Adding transparency and automation into the Galaxy tool installation process</a></em> <div class='indent'><a href='/src/people/enis-afgan/index.md'>Enis Afgan</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015_ToolInstall_Afgan.pdf'>Slides</a>, <a href='https://github.com/afgane/ansible-tools'>GitHub Repo</a> </div>  </td>
+    <td> <em>Genomic data management at <a href='https://www.nml-lnm.gc.ca/index-eng.htm'>Canada's National Microbiology Laboratory</a> with <a href='http://www.irida.ca/'>IRIDA</a> and Galaxy</em><div class='indent'><a href='https://github.com/apetkau'>Aaron Petkau</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015_DataMgmtWihtIRIDA_Petkau.pdf'>Slides</a> </div> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015_ToolInstall_Afgan.pdf'>Adding transparency and automation into the Galaxy tool installation process</a></em> <div class='indent'><a href='/people/enis-afgan/'>Enis Afgan</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015_ToolInstall_Afgan.pdf'>Slides</a>, <a href='https://github.com/afgane/ansible-tools'>GitHub Repo</a> </div>  </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -45,7 +45,7 @@
 
 ## Adding transparency and automation into the Galaxy tool installation process
 
-[Enis Afgan](/src/people/enis-afgan/index.md) of the [Galaxy Team](/src/galaxy-team/index.md) will discuss recent work on *[Adding transparency and automation into the Galaxy tool installation process](https://github.com/afgane/ansible-tools)* via Ansible. The talk will discuss process of unifying the tool installation approach within the Galaxy project and how it can be used by anyone to to install potentially hundreds of tools in an automated fashion.
+[Enis Afgan](/people/enis-afgan/index.md) of the [Galaxy Team](/src/galaxy-team/) will discuss recent work on *[Adding transparency and automation into the Galaxy tool installation process](https://github.com/afgane/ansible-tools)* via Ansible. The talk will discuss process of unifying the tool installation approach within the Galaxy project and how it can be used by anyone to to install potentially hundreds of tools in an automated fashion.
 
 ## Call Technology
 

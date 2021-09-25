@@ -97,13 +97,13 @@ There are
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Tool recommender system in Galaxy using deep learning](https://doi.org/10.1101/838599)</div>
 
-Kumar, A., [Grüning, B.](/src/people/bjoern-gruening/index.md), & Backofen, R. (2019). *BioRxiv*, 838599. doi: 10.1101/838599
+Kumar, A., [Grüning, B.](/people/bjoern-gruening/), & Backofen, R. (2019). *BioRxiv*, 838599. doi: 10.1101/838599
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[The de.NBI / ELIXIR-DE training platform - Bioinformatics training in Germany and across Europe within ELIXIR](https://doi.org/10.12688/f1000research.20244.1)</div>
 
-Wibberg, D., Batut, B., Belmann, P., Blom, J., Glöckner, F. O., [Grüning, B.](/src/people/bjoern-gruening/index.md), … Kohlbacher, O. (2019).  *F1000Research*, 8, 1877. doi: 10.12688/f1000research.20244.1
+Wibberg, D., Batut, B., Belmann, P., Blom, J., Glöckner, F. O., [Grüning, B.](/people/bjoern-gruening/), … Kohlbacher, O. (2019).  *F1000Research*, 8, 1877. doi: 10.12688/f1000research.20244.1
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
@@ -260,7 +260,7 @@ New comprehensive documentation by [@selten](https://github.com/selten) on [how 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">Cite GTN Tutorials</div>
 
-Thanks to [Helena Rasche](/src/people/helena-rasche/index.md), every [GTN Tutorial](https://training.galaxyproject.org/) now includes a *Citing this Tutorial* section, including a BibTex citation for the tutorial.
+Thanks to [Helena Rasche](/people/helena-rasche/), every [GTN Tutorial](https://training.galaxyproject.org/) now includes a *Citing this Tutorial* section, including a BibTex citation for the tutorial.
 
 <img class="card-img-bottom" src="gtn-citing.png" alt="Cite tutorials" />
 </div>
@@ -276,7 +276,7 @@ The documentation on [how to run Galaxy on Windows](/src/admin/config/windows/in
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">Account Creation Help</div>
 
-The account creation documentation was expanded by [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md) to cover additional situations and help resources.
+The account creation documentation was expanded by [Jennifer Hillman-Jackson](/people/jennifer-jackson/) to cover additional situations and help resources.
 
 <img class="card-img-bottom" src="accounts-help.png" alt="Accounts help" />
 </div>

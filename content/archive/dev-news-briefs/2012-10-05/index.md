@@ -109,7 +109,7 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 
 2. Apply styles when displaying the long description when viewing a tool shed repository.
 
-3. Merged in jmchilton/galaxy-central-toolshed-hg-urls, see *[pull request 69](http://bitbucket.org/galaxy/galaxy-central/pull-request/69)* contributed by [John Chilton](/src/people/john-chilton/index.md).
+3. Merged in jmchilton/galaxy-central-toolshed-hg-urls, see *[pull request 69](http://bitbucket.org/galaxy/galaxy-central/pull-request/69)* contributed by [John Chilton](/people/john-chilton/).
 
 ### New Galaxy fixes and features included in this Galaxy release
 

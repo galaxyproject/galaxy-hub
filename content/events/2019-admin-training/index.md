@@ -74,8 +74,8 @@ All participants should bring a wifi-enabled laptop with
 
 We currently have five confirmed (and highly experienced!) instructors:
 
-* [Martin Čech](/src/people/marten/index.md), software engineer for the Galaxy Project and frequent sys admin for usegalaxy.org.
-* [Nate Coraor](/src/people/nate/index.md), lead sysadmin of Galaxy Main (https://usegalaxy.org) and a software engineer for the Galaxy Project
+* [Martin Čech](/people/marten/), software engineer for the Galaxy Project and frequent sys admin for usegalaxy.org.
+* [Nate Coraor](/people/nate/), lead sysadmin of Galaxy Main (https://usegalaxy.org) and a software engineer for the Galaxy Project
 * [John Chilton](/src/people/john-chilton/), software engineer for the Galaxy Project working on both the front and back ends, with an emphasis on scalability.
 * [Simon Gladman](https://github.com/Slugger70), administrator of Galaxy Australia (https://usegalaxy.org.au), University of Melbourne
 * [Helena Rasche](https://github.com/hexylena), lead sysadmin of Galaxy Europe (https://usegalaxy.eu), software engineer and cloud administrator for University of Freiburg/de.NBI Project Freiburg branch

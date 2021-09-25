@@ -70,8 +70,8 @@ See the [Advanced Session](/src/events/admin-training2016/advanced-session/index
 # Instructors
 
 Instructors are from the [Galaxy Project Team](/src/galaxy-team/index.md) and the Galaxy Community:
-* [Nate Coraor](/src/people/nate/index.md), lead sys admin and a software engineer for the Galaxy Project
-* [Martin Čech](/src/people/marten/index.md), software engineer and frequent sys admin for the Galaxy Project.
+* [Nate Coraor](/people/nate/), lead sys admin and a software engineer for the Galaxy Project
+* [Martin Čech](/people/marten/), software engineer and frequent sys admin for the Galaxy Project.
 * [Simon Gladman](https://www.vlsci.org.au/researcher/sgladman), software engineer and bioinformatician with [VLSCI](https://www.vlsci.org.au/) and has done extensive work with the [Genomics Virtual Lab](https://www.genome.edu.au/).
 
 # Registration

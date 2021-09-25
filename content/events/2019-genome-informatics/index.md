@@ -16,6 +16,6 @@ Galaxy will be featured at the [2019 Genome Informatics](https://meetings.cshl.e
 
 | Day | Time | Topic | Presenter |
 | ---- | :----: | ---- | ---- |
-| Thursday, November 7 | 2-3:30pm | P24: An integrative environment for microbiome analysis and visualization | [Dan Blankenberg](/src/people/dan/index.md) |
-| | 2-3:30pm | P88: Devising best practices for the analysis of transposon insertion sequencing data | [Delphine Larivière](/src/people/delphine-lariviere/index.md) |
-| | 4-5:30pm | P178: Inverting the model of genomic data sharing and analysis with the NHGRI Analysis, Visualization, and Informatics Lab-Space (AnVIL) | [James Taylor](/src/people/james-taylor/index.md) |
+| Thursday, November 7 | 2-3:30pm | P24: An integrative environment for microbiome analysis and visualization | [Dan Blankenberg](/people/dan/) |
+| | 2-3:30pm | P88: Devising best practices for the analysis of transposon insertion sequencing data | [Delphine Larivière](/people/delphine-lariviere/) |
+| | 4-5:30pm | P178: Inverting the model of genomic data sharing and analysis with the NHGRI Analysis, Visualization, and Informatics Lab-Space (AnVIL) | [James Taylor](/people/james-taylor/) |

@@ -50,7 +50,7 @@ Welcome to the September 2012 edition of *[Galaxy Update](/src/galaxy-updates/in
 
 These papers may be of interest to the Galaxy community:
 
-* "[Next-generation sequencing data interpretation: enhancing reproducibility and accessibility](http://www.nature.com/nrg/journal/v13/n9/abs/nrg3305.html)", by [Nekrutenko](/src/people/anton/index.md) & [Taylor](/src/people/james-taylor/index.md), *[Nature Reviews Genetics](http://www.nature.com/nrg/index.html)*, 13, 667-672 (September 2012)
+* "[Next-generation sequencing data interpretation: enhancing reproducibility and accessibility](http://www.nature.com/nrg/journal/v13/n9/abs/nrg3305.html)", by [Nekrutenko](/people/anton/index.md) & [Taylor](/src/people/james-taylor/), *[Nature Reviews Genetics](http://www.nature.com/nrg/index.html)*, 13, 667-672 (September 2012)
 
 * "[IBDsite: a Galaxy-interacting, integrative database for supporting Inflammatory Bowel Disease high throughput data analysis](https://doi.org/10.1186/1471-2105-13-S14-S5)", by Merelli, Viti, Milanesi, *BMC Bioinformatics*, Vol. 13, No. Suppl 14. (2011), S5
 
@@ -116,7 +116,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> September 3-4 </th>
     <td rowspan=2 style=" text-align:left;"> <em><a href='http://genetics.cmc-uct.co.za/?page_id=79'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://web.up.ac.za/default.asp?ipkCategoryID=17741'>University of Pretoria</a>, Pretoria, South Africa </td>
-    <td rowspan=2 style=" text-align:center;"> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td rowspan=2 style=" text-align:center;"> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 6-7 </th>
@@ -126,13 +126,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> September 10-11 </th>
     <td> <em><a href='http://gaggle.systemsbiology.net/workshop2012/'>Systems Bioinformatics Workshop</a></em> </td>
     <td> <a href='https://www.systemsbiology.org/'>Institute for Systems Biology</a><br /> Seattle, Washington, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th rowspan=2> September 10-12 </th>
     <td> <em><a href='http://genetics.cmc-uct.co.za/'>Transparent, accessible, reproducible analysis with Galaxy</a></em> </td>
     <td rowspan=2> <strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a></strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://genetics.cmc-uct.co.za/'>Assembling a cassava transcriptome using Galaxy on a high performance computing cluster</a></em> </td>
@@ -154,19 +154,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> September 27-29 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/'>Informatics Workshop</a></em> </td>
     <td> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2012</a></strong>, <a href='http://www.amiando.com/2012-beyond-the-genome.html?page=661875'>Harvard Medical School</a>, Boston, Massachusetts </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 3 </th>
     <td> <em><a href='/src/events/switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
     <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-12 </th>
     <td> <em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a></em> </td>
     <td> <strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a></strong>, Chicago Illinois, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 9-11 </th>
@@ -178,19 +178,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> October 31 - November 6  </th>
     <td> <em><a href='http://meetings.cshl.edu/courses/c-ecg12.shtml'>Computaional & Comparative Genomics Course</a></em> </td>
     <td> <a href='http://www.cshl.edu/'>Cold Spring Harbor Laboratory</a>, New York, United States </td>
-    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='http://www.cs.virginia.edu/brochure/profs/pearson.html'>William Pearson</a>, <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 28 - November 2 </th>
     <td> <em><a href='http://conference.eresearch.edu.au/eres2012/workshops/'>Genomic Virtual Laboratory Workshop</a></em> </td>
     <td> <a href='http://conference.eresearch.edu.au/'>eResearch Australasia</a>, Sydney, Australia </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th rowspan=2 style=" text-align:center;"> November 6-10 </th>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#9'>Galaxy 101: Data Integration, Analysis and Sharing</a></em> </td>
     <td rowspan=2 style=" text-align:center;"> <strong><a href='http://www.ashg.org/2012meeting/'>American Society of Human Genetics (ASHG)</a></strong>, San Francisco, California, United States </td>
-    <td rowspan=2 style=" text-align:center;"> <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td rowspan=2 style=" text-align:center;"> <a href='/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.ashg.org/2012meeting/pages/workshops.shtml#12'>Working with High-Throughput Data and Data Visualization</a></em> </td>
@@ -258,7 +258,7 @@ The most recent Galaxy distribution was [released on July 20, 2012](/src/archive
   * [Upgrading Galaxy](http://www.agapow.net/science/bioinformatics/galaxy/upgrading-galaxy)
   * [Setting up a Galaxy toolshed](http://www.agapow.net/science/bioinformatics/galaxy/setting-up-a-galaxy-toolshed)
 * [Ntino Krampis BioTechniques interview](http://www.biotechniques.com/multimedia/podcasts/#.UD6V2VTYNUO) on doing bioinformatics on the cloud, including CloudMan.
-* [Jeremy Goecks](/src/people/jeremy-goecks/index.md) updated his [RNA-seq Analysis Exercise Galaxy Page](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise) to cover quality control through CuffDiff: paired-end data, iGenomes gtf, answer key, and bonus resources
+* [Jeremy Goecks](/people/jeremy-goecks/) updated his [RNA-seq Analysis Exercise Galaxy Page](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise) to cover quality control through CuffDiff: paired-end data, iGenomes gtf, answer key, and bonus resources
 * [Slides and videos](http://bit.ly/QGxVJU) for the Iowa Initiative in Human Genetics [Bioinformatics Course](http://bit.ly/QGxVJU)
 * A few summaries of the recent [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) have been posted online:
   * Peter Li's [GigaBlog post](http://blogs.biomedcentral.com/gigablog/2012/08/06/enabling-bioinformatics-tools-to-smoke-the-peace-pipe-together/)

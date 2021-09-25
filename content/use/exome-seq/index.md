@@ -17,5 +17,5 @@ quotas:
 citations:
 pub_libraries:
 sponsors:
-  - "[Björn Grüning](/src/people/bjoern-gruening/index.md) and Bérénice Batut"
+  - "[Björn Grüning](/people/bjoern-gruening/) and Bérénice Batut"
 ---

@@ -16,7 +16,7 @@ image:
 <img src="/src/images/logos/CornellLogoSmall.gif" alt="Cornell University" width="263" /></a>
 </div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)**
+**Instructor: [Dave Clements](/people/dave-clements/)**
 
 **9:00-5:00<br />
 Location: [Room B30A](https://mannlib.cornell.edu/rooms-labs/classrooms-labs/b30a-computer-lab), Mann library<br />

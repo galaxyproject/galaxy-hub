@@ -10,7 +10,7 @@ The [next meeting](/src/community/galaxy-admins/meetups/2013-05-15/index.md) of 
 
 Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/faculty/group_overview/Cyberinfrastructure_Division) of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech will talk about their [Galaxy deployment](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org), a highly customized Galaxy installation, and also about the group's objectives and future plans.
 
-[Dannon Baker](/src/people/dannon-baker/index.md) will bring the group up to speed on what's happening in the Galaxy project.
+[Dannon Baker](/people/dannon-baker/) will bring the group up to speed on what's happening in the Galaxy project.
 
 <table>
   <tr>
@@ -23,7 +23,7 @@ Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/facult
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/src/people/dannon-baker/index.md'>Dannon Baker</a></div> </td>
+    <td> <em><a href='http://rnaseq.pathogenportal.org/'>Galaxy</a> at <a href='http://pathogenportal.org'>Pathogen Portal</a></em><div class='indent'>Andrew Warren, <a href='https://www.vbi.vt.edu/'>Virginia Bioinformatics Institute</a>, Virginia Tech </div><em>Galaxy Project Update</em><div class='indent'><a href='/people/dannon-baker/'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -38,4 +38,4 @@ We use the [Blackboard Collaborate Web Conferencing system](/src/community/galax
 
 [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

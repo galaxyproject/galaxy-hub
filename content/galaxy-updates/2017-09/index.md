@@ -17,16 +17,16 @@ Welcome to the September 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a
 Some highlights from the recently added pubs:
 
 * [2017 Galaxy community update](https://doi.org/10.7490/f1000research.1114388.1)
-  [Dan Blankenberg](/src/people/dan/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114388.1
+  [Dan Blankenberg](/people/dan/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114388.1
 
 * [Approaches for small RNA-seq in Galaxy](https://doi.org/10.7490/f1000research.1114423.1)
-  Mallory Freeberg, [James Taylor](/src/people/james-taylor/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114423.1
+  Mallory Freeberg, [James Taylor](/people/james-taylor/). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114423.1
 
 * [Bio-Docklets: virtualization containers for single-step execution of NGS pipelines](https://doi.org/10.1093/gigascience/gix048)
   Baekdoo Kim, Thahmina Ali, Carlos Lijeron, Enis Afgan, Konstantinos Krampis. *GigaScience*, Vol. 6, No. 8. (August 2017), pp. 1-7, doi:10.1093/gigascience/gix048
 
 * [Building an open, collaborative, online infrastructure for bioinformatics training](https://doi.org/10.7490/f1000research.1114447.1)
-  Bérénice Batut, [Galaxy Training Network](https://training.galaxyproject.org/), [Dave Clements](/src/people/dave-clements/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114447.1
+  Bérénice Batut, [Galaxy Training Network](https://training.galaxyproject.org/), [Dave Clements](/people/dave-clements/index.md), [Björn Grüning](/src/people/bjoern-gruening/). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114447.1
 
 * [Galaxy-compatible Tool for Rapid Aptamer Clustering and HT-SELEX Data Analysis](https://doi.org/10.22377/ajp.v11i02.1265)
   Nikita A. Skrylnik, *Asian Journal of Pharmaceutics (AJP)*, Vol. 11, No. 02. (2017), doi:10.22377/ajp.v11i02.1265
@@ -50,13 +50,13 @@ Some highlights from the recently added pubs:
   Jeffrey Miller, Brenna Miller. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114436.1
 
 * [Recent object formation in the core of Galaxy](https://doi.org/10.7490/f1000research.1114483.1)
-  [Martin Čech](/src/people/marten/index.md), et. al. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114483.1
+  [Martin Čech](/people/marten/), et. al. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114483.1
 
 * [Systematically linking tranSMART, Galaxy and EGA for reusing human translational research data](https://doi.org/10.12688/f1000research.12168.1)
   Chao Zhang, Jochem Bijlard, Christine Staiger, et al. *F1000Research*, Vol. 6 (16 August 2017), 1488, doi:10.12688/f1000research.12168.1
 
 * [The backbone of research reproducibility-sustainable and flexible tool deployment](https://doi.org/10.7490/f1000research.1114482.1)
-  [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Dale Ryan, Yasset Perez-Riverol. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114482.1
+  [Björn Grüning](/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/), Johannes Köster, Dale Ryan, Yasset Perez-Riverol. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114482.1
 
 * [ToolDog-generating tool descriptors from the ELIXIR tool registry](https://doi.org/10.7490/f1000research.1114473.1)
   Kenzo-Hugo Hillion, Ivan Kuzmin, Hedi Peterson, Jon Ison, Hervé Ménager. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114473.1
@@ -290,8 +290,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
-* From [John Chilton](/src/people/john-chilton/index.md):
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+* From [John Chilton](/people/john-chilton/):
+  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 
 ### Parsec 1.0.0

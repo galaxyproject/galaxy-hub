@@ -13,7 +13,7 @@ The *March  2019 Galactic News* is here! This is a summary of what is going on i
     * **[The GalaxyAdmins](/src/news/2019-03-galaxy-update/index.md#galaxyadmins)** meetup is back March 21!
 * [184 new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
 * Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!
-* An interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with [Nate Coraor](/src/people/nate/index.md) about CVMFS & Galaxy. 
+* An interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with [Nate Coraor](/people/nate/) about CVMFS & Galaxy. 
 * At least [15 Open positions](/src/news/2019-03-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
 * [A burst of Training Updates](/src/news/2019-03-galaxy-update/index.md#doc-hub-and-training-updates).
 * [ToolShed contributions](/src/news/2019-03-galaxy-update/index.md#toolshed-contributions).
@@ -184,12 +184,12 @@ These and [other Galaxy related events](/src/events/index.md) are coming up:
 
 * **[Développement d’outils et de méthodes pour l’analyse de données épigénomiques](https://savoirs.usherbrooke.ca/handle/11143/14918?show=full)**, Jonathan Laperle, M. Sc thesis, Université de Sherbrooke, 2019
 * **[GCAC: galaxy workflow system for predictive model building for virtual screening](https://doi.org/10.1186/s12859-018-2492-8)**, Deepak R. Bharti, Anmol J. Hemrom and Andrew M. Lynn. *BMC Bioinformatics* 2019 19 (Suppl 13) :550 doi:10.1186/s12859-018-2492-8
-* **[EWAS-Galaxy: a tools suite for population epigeneticsintegrated into Galaxy](https://doi.org/10.1101/553784 )**, Katarzyna Murat, [Björn Grüning](/src/people/bjoern-gruening/index.md), Paulina Wiktoria Poterlowicz, Gillian Westgate, Desmond J Tobin, *Krzysztof Poterlowicz. *bioRxiv* 553784; doi:doi.org/10.1101/553784 "
+* **[EWAS-Galaxy: a tools suite for population epigeneticsintegrated into Galaxy](https://doi.org/10.1101/553784 )**, Katarzyna Murat, [Björn Grüning](/people/bjoern-gruening/), Paulina Wiktoria Poterlowicz, Gillian Westgate, Desmond J Tobin, *Krzysztof Poterlowicz. *bioRxiv* 553784; doi:doi.org/10.1101/553784 "
 * **[Statistical Mitogenome Assembly with Repeats](https://dna.engr.uconn.edu/bibtexmngr/upload/AM18.pdf)**, Fahad Alqahtani and Ion I. Mandoiu. 2018 IEEE 8th International Conference on Computational Advances in Bio and Medical Sciences (ICCABS)
 * **[SMAGEXP: a galaxy tool suite for transcriptomics data meta-analysis](https://academic.oup.com/gigascience/article/8/2/giy167/5304063)**, Samuel Blanck and Guillemette Marot. *GigaScience*, Volume 8, Issue 2, 1 February 2019, giy167, doi:10.1093/gigascience/giy167
 * **[Enrichment of phosphate solubilizing bacteria during late developmental stages of eggplant (*Solanum melongena* L.)](https://academic.oup.com/femsec/advance-article/doi/10.1093/femsec/fiz023/5319216)**, Huixiu Li, Xiaoyan Ding, Chen Chen, Xiangnan Zheng, Hui Han, Chennan Li, Jingyang Gong, Ting Xu, Qing X Li, Guo-chun Ding, Ji Li. *FEMS Microbiology Ecology*, fiz023, doi:10.1093/femsec/fiz023
 * **[Optimized Storing of Workflow Outputs through Mining Association Rules](https://doi.org/10.1109/BigData.2018.8622351)**,  Debasish Chakroborti, Manishankar Mondal, Banani Roy, Chanchal K. Roy, Kevin A. Schneider.  2018 IEEE International Conference on Big Data (Big Data), doi:10.1109/BigData.2018.8622351
-* **[Biomolecular Reaction & Interaction Dynamics Global Environment (BRIDGE)](https://doi.org/10.1093/bioinformatics/btz107)**, Tharindu Senapathi, Simon Bray, Christopher B. Barnett, [Björn Grüning](/src/people/bjoern-gruening/index.md), Kevin J Naidoo. *Bioinformatics*, btz107, doi:10.1093/bioinformatics/btz107
+* **[Biomolecular Reaction & Interaction Dynamics Global Environment (BRIDGE)](https://doi.org/10.1093/bioinformatics/btz107)**, Tharindu Senapathi, Simon Bray, Christopher B. Barnett, [Björn Grüning](/people/bjoern-gruening/), Kevin J Naidoo. *Bioinformatics*, btz107, doi:10.1093/bioinformatics/btz107
 
 Five of the eight highlighted publications are open access.
 
@@ -291,7 +291,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
   * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
+* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States.
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
