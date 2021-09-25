@@ -53,7 +53,7 @@ The [Global Alliance for Genomics Health](http://genomicsandhealth.org/) (GA4GH)
 
 **Potentially Helpful Skills** Familiarity with Galaxy and/or other Workflow Management Systems
 
-**Possible Mentors** [John Chilton](/people/john-chilton/), [Daniel Blankenberg](/src/people/dan/)
+**Possible Mentors** [John Chilton](/people/john-chilton/), [Daniel Blankenberg](/people/dan/)
 
 ## Docker Swarm and Compose
 
@@ -244,7 +244,7 @@ Once familiar with pages - there are at least two paths this project could diver
 
 **Potentially Helpful Skills** Familiarity with Galaxy and IPython
 
-**Possible Mentors** [Carl Eberhard](/people/carl-eberhard/), [Martin Cech](/src/people/marten/)
+**Possible Mentors** [Carl Eberhard](/people/carl-eberhard/), [Martin Cech](/people/marten/)
 
 ## Easier or More Robust History Imports and Exports
 
@@ -266,7 +266,7 @@ that can be pasted into an import the history from another Galaxy instance.
 * Split this process in pieces to allow tracking/resuming the transfers.
 * Rework the API and UI to provide pleasant progress bar tracking progress and estimating time remaining.
 
-**Possible Mentors** [Martin Cech](/people/marten/), [Jim Johnson](https://github.com/jj-umn), [Daniel Blankenberg](/src/people/dan/)
+**Possible Mentors** [Martin Cech](/people/marten/), [Jim Johnson](https://github.com/jj-umn), [Daniel Blankenberg](/people/dan/)
 
 **Required Skills** Python programming
 

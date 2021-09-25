@@ -1680,7 +1680,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <th> May 15 </th>
     <td> <em><a href='/src/events/meetups/psu/2015-05/index.md'>RNA-Seq Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='/src/events/meetups/psu/2015-05/index.md#where'>Penn State University</a>, State College, Pennsylvania, United States </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/marten/'>Martin Cech</a>, <a href='/src/people/anton/'>Anton Nekrutenko</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/marten/'>Martin Cech</a>, <a href='/people/anton/'>Anton Nekrutenko</a> </td>
     <td> <a href='https://speakerdeck.com/nekrut/structure-workshop'>Slides</a> </td>
   </tr>
   <tr>
@@ -1790,7 +1790,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <th> April 16 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'>GalaxyAdmins April 2015 Meetup</a></em> </td>
     <td> <em>Online</em> </td>
-    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a>, Carrie Ganote, <a href='/src/people/guerler/'>Aysam Guerler</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a>, Carrie Ganote, <a href='/people/guerler/'>Aysam Guerler</a> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'>Slides, video</a> </td>
   </tr>
   <tr>
@@ -1893,7 +1893,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <th> March 17 </th>
     <td> <em><a href='/src/events/meetups/psu/2015-03/index.md'>Using Galaxy Workshop</a></em> </td>
     <td> Penn State University, State College, Pennsylvania, United States </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/marten/'>Martin Cech</a>, <a href='/src/people/anton/'>Anton Nekrutenko</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='/people/marten/'>Martin Cech</a>, <a href='/people/anton/'>Anton Nekrutenko</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -3165,7 +3165,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <td> <em><a href='/src/community/galaxy-admins/meetups/2013-11-20/index.md'>November GalaxyAdmins Meetup</a></em> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2013-11-20/index.md'>Online</a> </td>
     <td> <a href='/src/community/galaxy-admins/meetups/2013-11-20/index.md'>Slides, Screencast</a> </td>
-    <td> <a href='/people/dave-clements/'>Dave Clements</a>, Srinivas Maddhi, <a href='/src/people/nate/'>Nate Coraor</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a>, Srinivas Maddhi, <a href='/people/nate/'>Nate Coraor</a> </td>
   </tr>
   <tr>
     <th> November 19 </th>
@@ -3458,7 +3458,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
     <td> </td>
-    <td> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='/src/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 27 </th>
@@ -4259,7 +4259,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <td> <strong><em><a href='/src/events/galaxy-tour-de-france2012/index.md'>Galaxy Tour de France 2012</a></em></strong> </td>
     <td> <a href='/src/events/archive/index.md#itinerary'>Perpignan</a>, <a href='/src/events/archive/index.md#itinerary'>Montpellier</a>, <a href='/src/events/archive/index.md#itinerary'>Lyon</a>, <a href='/src/events/archive/index.md#itinerary'>Paris</a> </td>
     <td> </td>
-    <td> <a href='/people/nate/'>Nate Coraor</a>, <a href='/src/people/anton/'>Anton Nekrutenko</a>, JamesTaylor </td>
+    <td> <a href='/people/nate/'>Nate Coraor</a>, <a href='/people/anton/'>Anton Nekrutenko</a>, JamesTaylor </td>
   </tr>
   <tr>
     <th> May 23-25 </th>

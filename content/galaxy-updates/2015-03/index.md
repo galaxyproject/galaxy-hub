@@ -22,7 +22,7 @@ Welcome to the March 2015 *[Galaxy Update](/src/galaxy-updates/index.md)*, a sum
     Jorrit Boeke, [John M Chilton](/people/john-chilton/), Ira R Cooke, Peter L Horvatovich, Pratik D Jagtap, Lukas Käll, Janne Lehtiö, Pieter Lukasse, Perry D Moerland & Timothy J Griffin, *Nature Biotechnology*, Vol. 33, No. 2. (6 February 2015)
 
 * [Online Resources for Genomic Analysis Using High-Throughput Sequencing](https://doi.org/10.1101/pdb.top083667)
-    [Daniel Blankenberg](/people/dan/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/src/people/anton/),  *Cold Spring Harbor Protocols* (05 February 2015), doi:10.1101/pdb.top083667
+    [Daniel Blankenberg](/people/dan/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/),  *Cold Spring Harbor Protocols* (05 February 2015), doi:10.1101/pdb.top083667
 
 * [Selected Approaches and Frameworks to Carry out Genomic Data Analysis on the Cloud](https://doi.org/10.12694/scpe.v16i1.1058)
     Philip Church, Andrzej Goscinski, *Scalable Computing: Practice and Experience*, Vol. 16, No. 1. (07 February 2015), doi:10.12694/scpe.v16i1.1058

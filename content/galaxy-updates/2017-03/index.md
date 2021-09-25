@@ -260,7 +260,7 @@ Some highlights from the past two months:
    Connor Wytko, Brian Soto, Stephen P. Ficklin. *Database*, Vol. 2017 (10 January 2017), baw154, doi:10.1093/database/baw154
 
 * [A guide and best practices for R/Bioconductor tool integration in Galaxy](https://doi.org/10.12688/f1000research.9821.1)
-   [Nitesh Turaga](/people/nitesh-turaga/), Mallory A. Freeberg, [Dannon Baker](/people/dannon-baker/), [John Chilton](/people/john-chilton/), [Anton Nekrutenko](/src/people/anton/), [James Taylor](/src/james=taylor/). *F1000Research*, Vol. 5 (24 November 2016), 2757, doi:10.12688/f1000research.9821.1
+   [Nitesh Turaga](/people/nitesh-turaga/), Mallory A. Freeberg, [Dannon Baker](/people/dannon-baker/), [John Chilton](/people/john-chilton/), [Anton Nekrutenko](/people/anton/), [James Taylor](/src/james=taylor/). *F1000Research*, Vol. 5 (24 November 2016), 2757, doi:10.12688/f1000research.9821.1
 
 * [MetaDP: a comprehensive web server for disease prediction of 16S rRNA metagenomic datasets](https://doi.org/10.1007/s41048-016-0033-4)
    Xilin Xu, Aiping Wu, Xinlei Zhang, Mingming Su, Taijiao Jiang, Zhe-Ming Yuan. *Biophysics Reports* (2017), pp. 1-10, doi:10.1007/s41048-016-0033-4

@@ -186,7 +186,7 @@ In the next 3 months there are no less than 13 talks and workshops at at least 5
     <th> September&nbsp;28 - October&nbsp;1 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='/src/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> October 13-16 </th>

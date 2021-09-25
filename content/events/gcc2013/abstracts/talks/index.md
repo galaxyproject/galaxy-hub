@@ -430,7 +430,7 @@ We will present an overview of the requirements to move Galaxy into the Clinical
 
 <div class='right'><a href='/people/dan/'><img src="/src/images/people/greg.png" alt="Greg Von Kuster" width="120" /></a></div>
 
-**[Greg von Kuster](/people/greg_vonkuster/)**, [Daniel Blankenberg](/src/people/dan/)
+**[Greg von Kuster](/people/greg_vonkuster/)**, [Daniel Blankenberg](/people/dan/)
  Penn State / Galaxy Team
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/VonKusterToolShed.pdf), [Vimeo](https://vimeo.com/74347850)*
@@ -451,7 +451,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 <div class='right'><a href='/people/carl-eberhard/'><img src="/src/images/people/carl.jpg" alt="" width="120" /></a></div>
 
-**[Carl Eberhard](/people/carl-eberhard/)**<sup>1</sup>, [Jeremy Goecks](/people/jeremy-goecks/)<sup>1</sup>, [The Galaxy Team](/src/galaxy-team/)<sup>1,2</sup>, [Anton Nekrutenko](/src/people/anton/)<sup>2</sup>, and [James Taylor](/src/people/james-taylor/)<sup>1</sup>
+**[Carl Eberhard](/people/carl-eberhard/)**<sup>1</sup>, [Jeremy Goecks](/people/jeremy-goecks/)<sup>1</sup>, [The Galaxy Team](/src/galaxy-team/)<sup>1,2</sup>, [Anton Nekrutenko](/people/anton/)<sup>2</sup>, and [James Taylor](/src/people/james-taylor/)<sup>1</sup>
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State University

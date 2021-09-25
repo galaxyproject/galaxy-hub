@@ -110,7 +110,7 @@ If you attend both workshops and plan to eat in the area, there are many choices
 
 ## Meet the Team!
 
-<div class='right'><a href='/people/nate/'><img src="/src/galaxy-team/nate.jpg" alt="Nate Coraor!" height="75" /></a> &nbsp; <a href='/people/nate/'><img src="/src/images/people/anton.jpg" alt="Anton Nekrutenko!" height="75" /></a> &nbsp; <a href='/src/people/nate/'><img src="/src/images/people/james.jpg" alt="James Taylor!" height="75" /></a></div>
+<div class='right'><a href='/people/nate/'><img src="/src/galaxy-team/nate.jpg" alt="Nate Coraor!" height="75" /></a> &nbsp; <a href='/people/nate/'><img src="/src/images/people/anton.jpg" alt="Anton Nekrutenko!" height="75" /></a> &nbsp; <a href='/people/nate/'><img src="/src/images/people/james.jpg" alt="James Taylor!" height="75" /></a></div>
 
 * [Nate Coraor](/people/nate/)
 * [Anton Nekrutenko](/people/anton/)

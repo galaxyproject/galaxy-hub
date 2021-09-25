@@ -211,7 +211,7 @@ Some highlights from the papers added last month:
 *Nucleic Acids Research* (02 May 2017), doi:10.1093/nar/gkx315
 
 * [Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](https://doi.org/10.1371/journal.pcbi.1005425)
-   [Björn A. Grüning](/people/bjoern-gruening/), [Helena Rasche](/people/helena-rasche/), Boris Rebolledo-Jaramillo, [Carl Eberhard](/people/carl-eberhard/), Torsten Houwaart, [John Chilton](/people/john-chilton/), [Nate Coraor](/src/people/nate/), Rolf Backofen, [James Taylor](/src/people/james-taylor/), [Anton Nekrutenko](/src/people/anton/). *PLOS Computational Biology*, Vol. 13, No. 5. (25 May 2017), e1005425, doi:10.1371/journal.pcbi.1005425
+   [Björn A. Grüning](/people/bjoern-gruening/), [Helena Rasche](/people/helena-rasche/), Boris Rebolledo-Jaramillo, [Carl Eberhard](/people/carl-eberhard/), Torsten Houwaart, [John Chilton](/people/john-chilton/), [Nate Coraor](/people/nate/), Rolf Backofen, [James Taylor](/src/people/james-taylor/), [Anton Nekrutenko](/people/anton/). *PLOS Computational Biology*, Vol. 13, No. 5. (25 May 2017), e1005425, doi:10.1371/journal.pcbi.1005425
 
 * [MAGenTA: a Galaxy implemented tool for complete Tn-Seq analysis and data visualization](https://doi.org/10.1093/bioinformatics/btx320)
    Katherine M. McCoy, Margaret L. Antonio, Tim van Opijnen. *Bioinformatics* (11 May 2017), doi:10.1093/bioinformatics/btx320 

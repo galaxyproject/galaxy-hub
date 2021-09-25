@@ -521,6 +521,6 @@ Ran out of time to compile these.  Look for a double batch in December.
 
 <a href='https://github.com/galaxyproject/galaxy'><img src="/src/images/20000Commits.png" alt="Galaxy codebase" width="100%" /></a>
 
-In September [Galaxy turned 10 years old](/src/galaxy-updates/2015-10/index.md#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Helena Rasche](/people/helena-rasche/) originally submitted by team member [Nate Coraor](/src/people/nate/).
+In September [Galaxy turned 10 years old](/src/galaxy-updates/2015-10/index.md#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Helena Rasche](/people/helena-rasche/) originally submitted by team member [Nate Coraor](/people/nate/).
 
 Our thanks go to the community and the team alike.

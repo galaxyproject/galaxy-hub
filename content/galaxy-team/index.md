@@ -36,7 +36,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 </div>
 <div class='col-md-3'>
 
-[![Marten Cech](/people/marten/marten.jpg)](/src/people/marten/)
+[![Marten Cech](/people/marten/marten.jpg)](/people/marten/)
 [Martin Cech](/people/marten/) 
 [Penn State](http://www.bx.psu.edu)  
 

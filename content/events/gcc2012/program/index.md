@@ -35,7 +35,7 @@ See the [Training Day page](/src/events/gcc2012/training-day/index.md) for compl
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/people/fubar/'>Ross Lazarus</a></em></div></td>
     <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/people/jeremy-goecks/'>Jeremy Goecks</a>, <a href='/people/james-taylor/'>James Taylor</a> & <a href='/src/people/jennifer-jackson/'>Jennifer Jackson</a></em></div> </td>
     <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/people/enis-afgan/'>Enis Afgan</a> & <a href='/src/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
@@ -55,9 +55,9 @@ See the [Training Day page](/src/events/gcc2012/training-day/index.md) for compl
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
-    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/people/greg_vonkuster/'>Greg von Kuster</a> & <a href='/src/people/nate/'>Nate Coraor</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/people/greg_vonkuster/'>Greg von Kuster</a> & <a href='/people/nate/'>Nate Coraor</a></em></div></td>
     <td style=" vertical-align: top; background-color: #E1CC9B;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws8'>WS8: Variant and SNP Analysis with Galaxy</a></strong><div class='indent'><em><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/people/fubar/'>Ross Lazarus</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
