@@ -9,10 +9,21 @@ import * as fs from "fs";
 
 // TODO: Make this configurable, or yagni?
 const siteURL = "http://localhost:8080";
-const outputFile = "./broken-links.md"
+const outputFile = "./broken-links.md";
 const options = {
     excludeExternalLinks: true,
 };
+
+const outTemplate = (total, broken) => `
+## Broken Links
+
+📝 Summary
+---------------------
+🔍 Total..........${total}
+✅ Successful.....${total - broken}
+🚫 Errors.........${broken}
+
+`;
 
 // Our results blob
 const customData = {
@@ -22,10 +33,6 @@ const customData = {
         total: 0,
     },
     markdownReport: ``,
-    outTemplate: `
-## Broken Links
-
-`,
 };
 
 const siteChecker = new blc.SiteChecker(options, {
@@ -107,7 +114,10 @@ const siteChecker = new blc.SiteChecker(options, {
             Fires at the very end of site procsesing.  All there is to do now is
             close out the markdown report and write it out.
         */
-        fs.writeFileSync(outputFile, customData.outTemplate);
+        fs.writeFileSync(
+            outputFile,
+            outTemplate(customData.summary.total, customData.summary.broken) + customData.markdownReport
+        );
     },
     // Unused hooks
     /* eslint-disable no-unused-vars */
