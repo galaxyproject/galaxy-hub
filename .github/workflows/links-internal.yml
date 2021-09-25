@@ -11,7 +11,7 @@ jobs:
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
       - uses: actions/cache@v1
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
@@ -28,7 +28,7 @@ jobs:
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v3
         with:
-          #issue-number: 851
+          issue-number: 2
           title: Internal Link Checker Report (updated daily)
           content-filepath: ./broken-links.md
           labels: report, automated issue
