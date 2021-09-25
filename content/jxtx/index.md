@@ -23,7 +23,11 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 <br />
 
-[<img class="float-right" src="james.jpg" alt="James Taylor" style="max-width: 15rem" />](/src/jxtx/james.jpg)
+<div class="float-right" style="max-width: 15rem;">
+
+![James Taylor](./james.jpg)
+
+</div> 
 
 *A note to James, a year after his passing.*
 
