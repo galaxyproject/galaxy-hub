@@ -13,7 +13,7 @@ The first Galaxy meetup or social gathering held in Baltimore was sold out. It w
 
 The second meetup is going to be hosted in February, for which we hope to have a slightly more focussed agenda. To talk about one or a few of the topics raised during the course of the month. There is now a Baltimore newsletter if you are interested) which goes out to the members who signed up for the first meetup. We hope to have more people in the coming months, and to grow a stronger Galaxy community in Baltimore. 
 
-[Enis](/people/enis-afgan/) & [Nitesh](/src/people/nitesh-turaga/)
+[Enis](/people/enis-afgan/) & [Nitesh](/people/nitesh-turaga/)
 
 ## There's a meetup!
 

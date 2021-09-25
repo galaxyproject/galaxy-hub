@@ -19,7 +19,7 @@ Galaxy had a significant presence at [ISMB](http://www.iscb.org/ismb2012) and [B
     <th> Wednesday July&nbsp;11 </th>
     <td rowspan=2> <strong><a href='http://www.open-bio.org/wiki/Codefest_2012'>OpenBio Codefest 2012</a></strong> </td>
     <td rowspan=2> All Day </td>
-    <td rowspan=2> <a href='/people/enis-afgan/'>Enis Afgan</a> and <a href='/src/people/dannon-baker/'>Dannon Baker</a> of the the Galaxy Team will participate. </td>
+    <td rowspan=2> <a href='/people/enis-afgan/'>Enis Afgan</a> and <a href='/people/dannon-baker/'>Dannon Baker</a> of the the Galaxy Team will participate. </td>
     <td rowspan=2> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_Codefest_Report.pdf'>Report</a> </td>
   </tr>
   <tr>

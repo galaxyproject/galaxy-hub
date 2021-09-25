@@ -27,7 +27,7 @@ The day focuses on two topics:
 # SW4a: Single Cell RNA-Seq and Visualization Using the Galaxy Workbench (AM)
 
 <div class="float-right">
-[<img src="mehmet-tekman.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Mehmet_Tekman) &nbsp; [<img src="/people/dave-clements/dave-clements-150.jpg" style="max-width:120px" />](/src/people/dave-clements/)
+[<img src="mehmet-tekman.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Mehmet_Tekman) &nbsp; [<img src="/people/dave-clements/dave-clements-150.jpg" style="max-width:120px" />](/people/dave-clements/)
 </div>
 
 **Instructors:**

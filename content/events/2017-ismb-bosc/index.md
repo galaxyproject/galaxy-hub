@@ -19,7 +19,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2017](https://www.iscb.org/ismbe
 
 | Time | Topic | Presenter(s) | Where | Links |
 | ---- | ---- | ---- | ---- |
-| 14:30 | [Tutorial PM6: Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) (You can still register) | [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Bjorn Gruning](/src/people/bjoern-gruening/) | North Hall, ISMB/ECCB | [Tutorial](https://github.com/galaxyproject/galaxytutorial-ismb17) |
+| 14:30 | [Tutorial PM6: Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) (You can still register) | [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Bjorn Gruning](/people/bjoern-gruening/) | North Hall, ISMB/ECCB | [Tutorial](https://github.com/galaxyproject/galaxytutorial-ismb17) |
 
 
 ## 22 July, Saturday
@@ -51,7 +51,7 @@ Galaxy has a significant presence at [ISMB/ECCB 2017](https://www.iscb.org/ismbe
 
 | Time | Topic | Presenter(s) | Where | Links |
 | ---- | ---- | ---- | ---- | ---- |
-| 12:45 | [BoF B4: What can the Galaxy Project do for you?](https://www.iscb.org/ismbeccb2017-program/ismbeccb2017-bof) | [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Bjorn Gruning](/src/people/bjoern-gruening/), [James Taylor](/src/people/james-taylor/) | Meeting Hall V | |
+| 12:45 | [BoF B4: What can the Galaxy Project do for you?](https://www.iscb.org/ismbeccb2017-program/ismbeccb2017-bof) | [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Bjorn Gruning](/people/bjoern-gruening/), [James Taylor](/people/james-taylor/) | Meeting Hall V | |
 | 18:00 | [B-079: Development of a bioinformatics pipeline for the routine analysis of viral whole genome sequencing data](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=H#B-079) | Qiang Fu | Congress Foyer, Level 2 | [Poster](  https://depot.galaxyproject.org/hub/attachments/documents/posters/2017_ismb_viral_wgs_fu.pdf) |
 | 18:00 | [B-365: Comparison of open source (galaxy based) and commercial pipelines for RNA-Seq data analysis](https://www.iscb.org/cms_addon/conferences/ismbeccb2017/posterlist.php?cat=P#B-365) | Slave Trajanoski | Congress Foyer, Level 2 | [Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/ismb2017-trajanoski.pdf) |
 | 20:00 | [Galaxy Community Dinner](http://bit.ly/gxyismb2017bdinner) | [Martin Čech](/people/marten/) | [VYŠEHRADSKÝ RESTAURANT KANDELÁBR](http://bit.ly/gxyismb2017bdinner) | |

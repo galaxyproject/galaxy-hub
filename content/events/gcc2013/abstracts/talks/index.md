@@ -271,7 +271,7 @@ Ion Torrent has invented the first device—a new semiconductor chip—capable o
 
 <div class='right'><img src="/src/images/people/anton.jpg" alt="" width="120" />&nbsp;<img src="/src/images/people/james.jpg" alt="" width="120" /></div>
 
-**[Anton Nekrutenko](/people/anton/)<sup>1</sup> and [James Taylor](/src/people/james-taylor/)<sup>2</sup>**
+**[Anton Nekrutenko](/people/anton/)<sup>1</sup> and [James Taylor](/people/james-taylor/)<sup>2</sup>**
 
  <sup>1</sup> [Penn State University](http://psu.edu/)<br />
  <sup>2</sup> [Emory University](http://emory.edu/)
@@ -451,7 +451,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 <div class='right'><a href='/people/carl-eberhard/'><img src="/src/images/people/carl.jpg" alt="" width="120" /></a></div>
 
-**[Carl Eberhard](/people/carl-eberhard/)**<sup>1</sup>, [Jeremy Goecks](/people/jeremy-goecks/)<sup>1</sup>, [The Galaxy Team](/src/galaxy-team/)<sup>1,2</sup>, [Anton Nekrutenko](/people/anton/)<sup>2</sup>, and [James Taylor](/src/people/james-taylor/)<sup>1</sup>
+**[Carl Eberhard](/people/carl-eberhard/)**<sup>1</sup>, [Jeremy Goecks](/people/jeremy-goecks/)<sup>1</sup>, [The Galaxy Team](/src/galaxy-team/)<sup>1,2</sup>, [Anton Nekrutenko](/people/anton/)<sup>2</sup>, and [James Taylor](/people/james-taylor/)<sup>1</sup>
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State University
@@ -486,7 +486,7 @@ Data Managers can be defined locally or installed automatically from a Tool Shed
 
 <div class='right'><a href='/people/dannon-baker/'><img src="/src/images/people/dannon.jpg" alt="" width="120" /></a></div>
 
-**[Dannon Baker](/people/dannon-baker/)**<sup>1</sup>, [Nate Coraor](/people/nate/)<sup>2</sup>, [John Chilton](/src/people/john-chilton/)<sup>3</sup> 
+**[Dannon Baker](/people/dannon-baker/)**<sup>1</sup>, [Nate Coraor](/people/nate/)<sup>2</sup>, [John Chilton](/people/john-chilton/)<sup>3</sup> 
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State<br />

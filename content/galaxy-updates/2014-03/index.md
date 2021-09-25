@@ -9,7 +9,7 @@ Welcome to the March 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mon
 
 *54 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in Febrary. Some papers that may be particularly interesting to the Galaxy community:
 
-* [Dissemination of scientific software with Galaxy ToolShed](https://doi.org/10.1186/gb4161), by [Blankenberg](/people/dan/), [Von Kuster](/people/greg_vonkuster/), [Bouvier](/people/dave-bouvier/), [Baker](/people/dannon-baker/), [Afgan](/src/people/enis-afgan/), Stoler, the [Galaxy Team](/src/galaxy-team/), [Taylor](/src/people/james-taylor/) and [Nekrutenko](/people/anton/), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
+* [Dissemination of scientific software with Galaxy ToolShed](https://doi.org/10.1186/gb4161), by [Blankenberg](/people/dan/), [Von Kuster](/people/greg_vonkuster/), [Bouvier](/people/dave-bouvier/), [Baker](/people/dannon-baker/), [Afgan](/people/enis-afgan/), Stoler, the [Galaxy Team](/src/galaxy-team/), [Taylor](/people/james-taylor/) and [Nekrutenko](/people/anton/), *Genome Biology,* Vol. 15, No. 2. (20 February 2014), 403, doi:10.1186/gb4161
 
 * [Binding Sites Analyser (BiSA): Software for Genomic Binding Sites Archiving and Overlap Analysis](https://doi.org/10.1371/journal.pone.0087301), by Khushi, *et al.,* *PLoS ONE*, Vol. 9, No. 2. (12 February 2014), e87301, doi:10.1371/journal.pone.0087301
 
@@ -188,7 +188,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
     <th> March 26-30 </th>
     <td> <em>Galaxy toolset for Drosophila genomics</em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
     <td> <a href='http://www.genetics-gsa.org/drosophila/2014/'>Drosophila Research Conference</a>, San Diego, California, United States </td>
-    <td> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/'>Jen Jackson</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='/people/jennifer-jackson/'>Jen Jackson</a> </td>
   </tr>
   <tr>
     <th> April 15-17 </th>
@@ -287,7 +287,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
     <th rowspan=3> September 30 - October 2 </th>
     <td> Galaxy Training and Demo Day </td>
     <td> Bern (Switzerland) </td>
-    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
+    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <td> <em><a href='/src/events/switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>

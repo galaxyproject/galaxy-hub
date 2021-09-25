@@ -20,7 +20,7 @@
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em><strong>Galactic Engineering:</strong> Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</em> <div class='indent'><a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='http://www.manchester.ac.uk/'>University of Manchester</a> </div> <em>Galaxy Project Update: Planemo</em> <div class='indent'> <a href='/people/john-chilton/'>John Chilton</a></div> <em><a href='http://gcc2015.tsl.ac.uk/'>GCC2015</a> GalaxyAdmins Meetup</em> <div class='indent'><a href='/src/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a></div>  </td>
+    <td> <em><strong>Galactic Engineering:</strong> Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</em> <div class='indent'><a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='http://www.manchester.ac.uk/'>University of Manchester</a> </div> <em>Galaxy Project Update: Planemo</em> <div class='indent'> <a href='/people/john-chilton/'>John Chilton</a></div> <em><a href='http://gcc2015.tsl.ac.uk/'>GCC2015</a> GalaxyAdmins Meetup</em> <div class='indent'><a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a></div>  </td>
   </tr>
   <tr>
     <th> Links </th>

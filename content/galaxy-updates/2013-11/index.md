@@ -97,7 +97,7 @@ And ...
 
 ## Ten Simple Rules for Reproducible Computational Research
 
-[Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/), [Anton Nekrutenko](/people/anton/), [James Taylor](/src/people/james-taylor/), and [Eivind Hovig](http://www.mn.uio.no/ifi/english/people/aca/ehovig/index.html)'s paper "[Ten Simple Rules for Reproducible Computational Research](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)" was published in *[PLoS Computational Biology](http://www.ploscompbiol.org/)* in October.  
+[Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/), [Anton Nekrutenko](/people/anton/), [James Taylor](/people/james-taylor/), and [Eivind Hovig](http://www.mn.uio.no/ifi/english/people/aca/ehovig/index.html)'s paper "[Ten Simple Rules for Reproducible Computational Research](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285)" was published in *[PLoS Computational Biology](http://www.ploscompbiol.org/)* in October.  
 
 <div class='right'><a href='http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285'><img src="/src/images/logos/PlosCompBioLogo.png" alt="PLoS Computational Biology: Ten Simple Rules for Reproducible Computational Research" width="240" /></a></div>
 

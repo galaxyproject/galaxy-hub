@@ -32,4 +32,4 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 
 Enjoy and please let us know what you think,
 
-[Enis Afgan](/people/enis-afgan/) and [Dannon Baker](/src/people/dannon-baker/)
+[Enis Afgan](/people/enis-afgan/) and [Dannon Baker](/people/dannon-baker/)

@@ -262,7 +262,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
     <th> June 16 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Online</a></em> </td>
-    <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a> </td>
+    <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 25-29 </th>
@@ -464,11 +464,11 @@ Variant calling is a complex field that was significantly propelled by advances 
 
 <div class='right'><a href='https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq'><img src="/src/images/screenshots/AntonsRnaSeqTutorial1.png" alt="Reference based RNA seq" width="190" /></a></div>
 
-Much of Galaxy-related features described in this tutorial have been developed by [Björn Grüning](/people/bjoern-gruening/) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/src/people/dave-bouvier/) ([@davebx](https://github.com/davebx)).
+Much of Galaxy-related features described in this tutorial have been developed by [Björn Grüning](/people/bjoern-gruening/) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/people/dave-bouvier/) ([@davebx](https://github.com/davebx)).
 
 ## Reference based RNA seq
 
-**[This tutorial](https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq)** is inspired by an [exceptional RNAseq course](http://chagall.med.cornell.edu/RNASEQcourse/) at the Weill Cornell Medical College compiled by Friederike Dündar, Luce Skrabanek, and Paul Zumbo and by tutorials produced by Björn Grüning (@bgruening) for Freiburg Galaxy instance. Much of Galaxy-related features described in this section have been developed by [Björn Grüning](/people/bjoern-gruening/) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/src/people/dave-bouvier/) ([@davebx](https://github.com/davebx)).
+**[This tutorial](https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq)** is inspired by an [exceptional RNAseq course](http://chagall.med.cornell.edu/RNASEQcourse/) at the Weill Cornell Medical College compiled by Friederike Dündar, Luce Skrabanek, and Paul Zumbo and by tutorials produced by Björn Grüning (@bgruening) for Freiburg Galaxy instance. Much of Galaxy-related features described in this section have been developed by [Björn Grüning](/people/bjoern-gruening/) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/people/dave-bouvier/) ([@davebx](https://github.com/davebx)).
 
 ## Dataset Collections
 

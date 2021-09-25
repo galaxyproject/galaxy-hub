@@ -15,4 +15,4 @@ We would like to thank for the financial support we got from [SystemsX.ch](http:
 
 Running the event at two different places caused some logistical problems - some participants even learned about European geography. But the event was again a great success and we got a lot of great feedback. We are looking forward to the next Swiss German Galaxy Tour.
 
-[Björn](/people/bjoern-gruening/) and [Hans-Rudolf](/src/people/hansrudolf-hotz/)
+[Björn](/people/bjoern-gruening/) and [Hans-Rudolf](/people/hansrudolf-hotz/)

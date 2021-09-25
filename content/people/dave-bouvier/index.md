@@ -1,4 +1,4 @@
-<div class='right'>![](/src/people/dave-bouvier/davebouvierflag200.jpeg)</div>
+<div class='right'>![](/people/dave-bouvier/davebouvierflag200.jpeg)</div>
 
 # Dave Bouvier
 

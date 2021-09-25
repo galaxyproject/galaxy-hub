@@ -9,7 +9,7 @@ less boring and not take so long.
 
 <table>
   <tr>
-    <td> <img src="/src/people/tori-r/ToriR.png" /> </td>
+    <td> <img src="/people/tori-r/ToriR.png" /> </td>
   </tr>
   <tr>
     <td> Me presenting my mentorship </td>
@@ -19,7 +19,7 @@ less boring and not take so long.
 
 <table>
   <tr>
-    <td> <a href='/src/people/tori-r/ToriPoster.png'><img src="/src/people/tori-r/ToriPoster.png" alt="" width="700" /></a> </td>
+    <td> <a href='/people/tori-r/ToriPoster.png'><img src="/people/tori-r/ToriPoster.png" alt="" width="700" /></a> </td>
   </tr>
   <tr>
     <td> My poster (click to enlarge) </td>

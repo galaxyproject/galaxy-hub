@@ -217,7 +217,7 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
     <th> March 26-30 </th>
     <td> <em>Galaxy toolset for Drosophila genomics</em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
     <td> <a href='http://www.genetics-gsa.org/drosophila/2014/'>Drosophila Research Conference</a>, San Diego, California, United States </td>
-    <td> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/'>Jen Jackson</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='/people/jennifer-jackson/'>Jen Jackson</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>
@@ -381,7 +381,7 @@ bringing the number of log entries to 12.
 
 # Galaxy is now at Johns Hopkins and GWU (and Penn State!)
 
-In case you haven't heard, the former [Emory University](http://emory.edu) contingent of the [Galaxy Team](/galaxy-team/) went north this month to Baltimore - it's warmer there (at least this week), where [James Taylor](/people/james-taylor/) is now an Associate Professor in the [Johns Hopkins](http://www.johnshopkins.edu/) [Biology](http://www.bio.jhu.edu/) and [Computer Science](http://www.cs.jhu.edu/) Departments.  [Jeremy Goecks](/src/people/jeremy-goecks/), also formerly of the Emory University contingent is now an Assistant Professor of [Computational Biology](http://cbi.gwu.edu/) at [George Washington University](http://www.gwu.edu/) in the Washington DC area.
+In case you haven't heard, the former [Emory University](http://emory.edu) contingent of the [Galaxy Team](/galaxy-team/) went north this month to Baltimore - it's warmer there (at least this week), where [James Taylor](/people/james-taylor/) is now an Associate Professor in the [Johns Hopkins](http://www.johnshopkins.edu/) [Biology](http://www.bio.jhu.edu/) and [Computer Science](http://www.cs.jhu.edu/) Departments.  [Jeremy Goecks](/people/jeremy-goecks/), also formerly of the Emory University contingent is now an Assistant Professor of [Computational Biology](http://cbi.gwu.edu/) at [George Washington University](http://www.gwu.edu/) in the Washington DC area.
 
 None of these moves should be particularly noticeable to the Galaxy community.  We didn't lose anyone in these transitions, and in fact we are [still hiring](/src/galaxy-is-hiring/index.md), but now at three universities instead of two.
 

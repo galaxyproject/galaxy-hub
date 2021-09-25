@@ -15,11 +15,11 @@ title: Galaxy End Users
 * Karen Reddy
 
  * 
-* [Anton](/people/anton/), [Dan](/people/dan/), Rémi, and [Jen](/src/people/jennifer-jackson/) from [Galaxy Team](/src/galaxy-team/)
+* [Anton](/people/anton/), [Dan](/people/dan/), Rémi, and [Jen](/people/jennifer-jackson/) from [Galaxy Team](/src/galaxy-team/)
 
 # Notes
 
-These are a merged grouping of [Anton's](/people/anton/), [Dan's](/people/dan/), and [Jen's](/src/people/jennifer-jackson/) notes from the breakout.  Please feel free to update, comment, correct or add in anything we didn't have a chance to address during our session.
+These are a merged grouping of [Anton's](/people/anton/), [Dan's](/people/dan/), and [Jen's](/people/jennifer-jackson/) notes from the breakout.  Please feel free to update, comment, correct or add in anything we didn't have a chance to address during our session.
 
 
 ## Platforms

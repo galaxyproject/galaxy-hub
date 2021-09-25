@@ -22,6 +22,6 @@ There are several Galaxy related presentations at [Gateways 2019](https://scienc
 
 ## Find out more
 
-Galaxy is also a Gateways 2019 Bronze Sponsor. Please drop by the Galaxy table during [any break](https://gateways2019.sched.com/overview/type/Break) on Tuesday and Wednesday, and during the [Reception and Poster Session](https://sched.co/RaIz) on Tuesday evening.  We are also available at other times too.  Just ask [Mo Heydarian](/people/mo-heydarian/) or [Dave Clements](/src/people/dave-clements/).
+Galaxy is also a Gateways 2019 Bronze Sponsor. Please drop by the Galaxy table during [any break](https://gateways2019.sched.com/overview/type/Break) on Tuesday and Wednesday, and during the [Reception and Poster Session](https://sched.co/RaIz) on Tuesday evening.  We are also available at other times too.  Just ask [Mo Heydarian](/people/mo-heydarian/) or [Dave Clements](/people/dave-clements/).
 
 

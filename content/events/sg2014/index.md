@@ -10,7 +10,7 @@ title: Swiss German Galaxy Tour 2014
 There will be a *Swiss-German Galaxy Tour* this fall featuring a range of events over 3 days in two locations.
 ## Registration
 
-Registration is now closed. Please contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/src/people/bjoern-gruening/) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
+Registration is now closed. Please contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/people/bjoern-gruening/) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
 
 ## Events
 
@@ -39,4 +39,4 @@ Registration is now closed. Please contact [Hans-Rudolf Hotz](/people/hansrudolf
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/src/people/bjoern-gruening/)
+Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/people/bjoern-gruening/)

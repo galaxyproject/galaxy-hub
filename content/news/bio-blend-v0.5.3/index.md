@@ -34,4 +34,4 @@ This is mostly an incremental bug fix release with the following summary of chan
 
 Enjoy and please let us know what you think,
 
-[Enis](/people/enis-afgan/) & [John](/people/john-chilton/) & [Nicola Soranzo](/src/people/nicola-soranzo/) & Simone Leo & [Helena Rasche](/src/people/helena-rasche/)
+[Enis](/people/enis-afgan/) & [John](/people/john-chilton/) & [Nicola Soranzo](/people/nicola-soranzo/) & Simone Leo & [Helena Rasche](/people/helena-rasche/)

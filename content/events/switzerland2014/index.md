@@ -27,7 +27,7 @@ Following the workshop, we organise a [Developers Day](/src/events/germany2014/i
 
 ## Registration
 
-Registration is now closed. Please contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/src/people/bjoern-gruening/) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
+Registration is now closed. Please contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/people/bjoern-gruening/) if you want your name to be put on the waiting list. There is a good chance, we can still accommodate you. 
 
 ## Preliminary Schedule
 
@@ -35,7 +35,7 @@ Registration is now closed. Please contact [Hans-Rudolf Hotz](/people/hansrudolf
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
 | 9:15 - 9:30 |  ARRIVAL  | 
-| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/welcome_20141001.pdf)   | 
+| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/welcome_20141001.pdf)   | 
 | 9:45 - 10:30 |  [Dannon Baker](/people/dannon-baker/) ([Galaxy Project](http://galaxyproject.org))  |  Status of the Galaxy Project  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/SG2014T__State_of_the_Galaxy.pdf)   | 
 | 10:30 - 10:50 |  coffee Break  | 
 | 10:50 - 11:40 |  [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Galaxy: putting pieces together  |  [whiteboard](/src/events/switzerland2014/Bjoern_whiteboard.jpg) | 
@@ -48,7 +48,7 @@ Registration is now closed. Please contact [Hans-Rudolf Hotz](/people/hansrudolf
 | 15:00 - 15:30 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) ([FMI](http://www.fmi.ch/))  |  Using Galaxy for NGS analysis in a collaborative environment  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/hrh_20141001.pdf)   | 
 | 15:30 - 15:45 |  Tim-Christoph Roloff ([FMI](http://www.fmi.ch/))  |  Genomics analysis at FMI  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/Galaxy_Workshop_Bern_2014_Tim_Roloff.pdf)  | 
 | 15:45 - 16:00 |  Torsten Houwaart ([University of Freiburg](http://www.uni-freiburg.de/))  |  RNA structure visualized in Galaxy  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/Torsten_Bern01.10.2014.pdf)  | 
-| 16:00 - 16:01 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/people/bjoern-gruening/)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   | 
+| 16:00 - 16:01 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/people/bjoern-gruening/)  ([University of Freiburg](http://www.uni-freiburg.de/))  |  concluding remarks  |   | 
 | 16:01 - 16:15 |  DEPARTURE (....and going to the pub)  | 
 
 
@@ -69,4 +69,4 @@ This workshop is generously supported by [SyBIT](https://wiki.systemsx.ch/displa
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/src/people/bjoern-gruening/)
+Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/people/bjoern-gruening/)
