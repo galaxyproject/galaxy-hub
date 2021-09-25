@@ -1,8 +1,13 @@
-name: Internal Links
+name: Check Internal Links
+
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '30 23 * * *'
+
 jobs:
-  lint:
+  check_links_internal:
+    name: Check Internal Links
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,7 +24,7 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install project dependencies
         run: yarn --prefer-offline
-      - name: Lint
+      - name: Build static site
         run: yarn build
       - name: Serve and Check Links
         # Looks weird, but this works significantly better than running it

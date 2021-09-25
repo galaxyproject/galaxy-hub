@@ -14,14 +14,15 @@ const options = {
     excludeExternalLinks: true,
 };
 
-const outTemplate = (total, broken) => `
-## Broken Links
+const outTemplate = (pages, total, broken) => `
 
-📝 Summary
----------------------
-🔍 Total..........${total}
-✅ Successful.....${total - broken}
-🚫 Errors.........${broken}
+### 📝Link summary of ${pages} pages checked
+
+| 🔍 Checked   | ✅ Successful | 🚫 Errors   |
+| --- | --- | --- |
+| ${total} | ${total - broken} | ${broken}|
+
+### Individual Details
 
 `;
 
@@ -31,6 +32,7 @@ const customData = {
     summary: {
         broken: 0,
         total: 0,
+        pages: 0,
     },
     markdownReport: ``,
 };
@@ -101,6 +103,7 @@ const siteChecker = new blc.SiteChecker(options, {
             This fires when a page is fully processed and links are checked.
             Page is done, go ahead and render out the page's report.
         */
+        customData.summary.pages++;
         if (customData.pagesWithBrokenLinks[pageUrl]) {
             customData.markdownReport += `#### ${pageUrl}\n`;
             for (const busted in customData.pagesWithBrokenLinks[pageUrl]) {
@@ -116,7 +119,8 @@ const siteChecker = new blc.SiteChecker(options, {
         */
         fs.writeFileSync(
             outputFile,
-            outTemplate(customData.summary.total, customData.summary.broken) + customData.markdownReport
+            outTemplate(customData.summary.pages, customData.summary.total, customData.summary.broken) +
+                customData.markdownReport
         );
     },
     // Unused hooks
