@@ -33,7 +33,7 @@ jobs:
       - name: Create Issue From File
         uses: peter-evans/create-issue-from-file@v3
         with:
-          issue-number: 2
+          issue-number: 860
           title: Internal Link Checker Report (updated daily)
           content-filepath: ./broken-links.md
           labels: report, automated issue
