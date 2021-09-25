@@ -32,6 +32,8 @@ Note that this list will get regenerated nightly, and any fixed links will get r
 
 ### Individual Details
 
+The following pages have broken links, which should be listed in the order they appear in the page source.
+
 `;
 
 // Our results blob
