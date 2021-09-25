@@ -19,7 +19,7 @@ const outTemplate = (pages, total, broken) => `
 ### 📝Link summary of ${pages} pages checked
 
 | 🔍 Checked   | ✅ Successful | 🚫 Errors   |
-| --- | --- | --- |
+| ---: | ---: | ---: |
 | ${total} | ${total - broken} | ${broken}|
 
 ### Individual Details
