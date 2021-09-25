@@ -20,7 +20,7 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
 | 9:15 - 9:30 |  ARRIVAL  | 
-| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   | 
+| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   | 
 | 9:45 - 10:30 |  [Dannon Baker](/people/dannon-baker/)  |  State of the Galaxy Project - priorities, plans, and community  |   | 
 | 10:30 - 11:00 |  Coffee Break  | 
 | 11:00 - 11:20 |  Nicola Soranzo  |  News from the [IUC](/src/iuc/index.md) and the Galaxy tool ecosystem  |   | 
@@ -35,7 +35,7 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 | 15:20 - 15:40 |  Nikolay Vazov  |  Customizing Galaxy for Large Institutions  |   | 
 | 15:40 - 16:00 |  TBA  |   |   | 
 | 16:00 - 17:00 |  lightening talks  |   |   | 
-| 17:00 - 17:01 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md), [Björn Grüning](/src/people/bjoern-gruening/)  |  concluding remarks  |   | 
+| 17:00 - 17:01 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/), [Björn Grüning](/src/people/bjoern-gruening/)  |  concluding remarks  |   | 
 | 17:01 - 17:15 |  ...going to the pub  | 
 
 
@@ -45,4 +45,4 @@ The workshop will be held at the Universität of Freiburg in Germany (see the [m
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md) or [Björn Grüning](/src/people/bjoern-gruening/)
+Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/src/people/bjoern-gruening/)

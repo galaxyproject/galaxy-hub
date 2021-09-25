@@ -31,7 +31,7 @@ If you missed the May 31 regular registration deadline then don't worry because 
 
 **The Galaxy Project: from the Planck epoch to Montpellier**
 
-[Dr. Anton Nekrutenko](/people/anton/index.md) and [Dr. James Taylor](/src/people/james-taylor/) will present a keynote reviewing the history of the Galaxy project, and how it went from a humble Perl script to having its own international meeting in the South of France in the summer of 2017.
+[Dr. Anton Nekrutenko](/people/anton/) and [Dr. James Taylor](/src/people/james-taylor/) will present a keynote reviewing the history of the Galaxy project, and how it went from a humble Perl script to having its own international meeting in the South of France in the summer of 2017.
 
 If you are reading this, you probably already know who they are.  If not, see their [bios here](https://gcc2017.sciencesconf.org/).
 
@@ -211,7 +211,7 @@ Some highlights from the papers added last month:
 *Nucleic Acids Research* (02 May 2017), doi:10.1093/nar/gkx315
 
 * [Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](https://doi.org/10.1371/journal.pcbi.1005425)
-   [Björn A. Grüning](/people/bjoern-gruening/index.md), [Helena Rasche](/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/people/john-chilton/), [Nate Coraor](/src/people/nate/), Rolf Backofen, [James Taylor](/src/people/james-taylor/), [Anton Nekrutenko](/src/people/anton/). *PLOS Computational Biology*, Vol. 13, No. 5. (25 May 2017), e1005425, doi:10.1371/journal.pcbi.1005425
+   [Björn A. Grüning](/people/bjoern-gruening/), [Helena Rasche](/people/helena-rasche/), Boris Rebolledo-Jaramillo, [Carl Eberhard](/people/carl-eberhard/), Torsten Houwaart, [John Chilton](/people/john-chilton/), [Nate Coraor](/src/people/nate/), Rolf Backofen, [James Taylor](/src/people/james-taylor/), [Anton Nekrutenko](/src/people/anton/). *PLOS Computational Biology*, Vol. 13, No. 5. (25 May 2017), e1005425, doi:10.1371/journal.pcbi.1005425
 
 * [MAGenTA: a Galaxy implemented tool for complete Tn-Seq analysis and data visualization](https://doi.org/10.1093/bioinformatics/btx320)
    Katherine M. McCoy, Margaret L. Antonio, Tim van Opijnen. *Bioinformatics* (11 May 2017), doi:10.1093/bioinformatics/btx320 

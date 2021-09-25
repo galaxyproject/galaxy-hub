@@ -29,9 +29,9 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div></td>
-    <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, <a href='/people/james-taylor/'>James Taylor</a> & <a href='/src/people/jennifer-jackson/'>Jennifer Jackson</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/people/enis-afgan/index.md'>Enis Afgan</a> & <a href='/src/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/people/jeremy-goecks/'>Jeremy Goecks</a>, <a href='/people/james-taylor/'>James Taylor</a> & <a href='/src/people/jennifer-jackson/'>Jennifer Jackson</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/people/enis-afgan/'>Enis Afgan</a> & <a href='/src/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30 </th>
@@ -40,7 +40,7 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
     <td style=" vertical-align: top; background-color: #FFDB97;"> <strong><a href='#ws4'>WS4: Galaxy Code Architecture</a></strong><div class='indent'><em><a href='/people/james-taylor/'>James Taylor</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFD8FF;"> <strong><a href='#ws5'>WS5: Installing Your Own Galaxy</a></strong><div class='indent'><em><a href='/people/nate/index.md'>Nate Coraor</a> & <a href='/src/people/dave-bouvier/'>Dave Bouvier</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFD8FF;"> <strong><a href='#ws5'>WS5: Installing Your Own Galaxy</a></strong><div class='indent'><em><a href='/people/nate/'>Nate Coraor</a> & <a href='/src/people/dave-bouvier/'>Dave Bouvier</a></em></div> </td>
     <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
@@ -49,9 +49,9 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
-    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/people/greg_vonkuster/index.md'>Greg von Kuster</a> & <a href='/src/people/nate/'>Nate Coraor</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/people/greg_vonkuster/'>Greg von Kuster</a> & <a href='/src/people/nate/'>Nate Coraor</a></em></div></td>
     <td style=" vertical-align: top; background-color: #E1CC9B;"> <strong><a href='#ws8'>WS8: Variant and SNP Analysis with Galaxy</a></strong><div class='indent'><em><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:30 </th>

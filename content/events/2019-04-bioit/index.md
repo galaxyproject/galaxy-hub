@@ -21,5 +21,5 @@ Going to [BioIT World 2019](https://www.bio-itworldexpo.com/)?  Galaxy is there 
 | Mon 4/15 | 9:00 | [FAIR Data Hackathon](https://www.bio-itworldexpo.com/fair-data-hackathon): Integrating Globus into Galaxy to Enable FAIRifying Data | Cityview 1 | Ben Busby | 
 | Tue 4/16 | 9:00 | [FAIR Data Hackathon](https://www.bio-itworldexpo.com/fair-data-hackathon): Integrating Globus into Galaxy to Enable FAIRifying Data | Cityview 1 | Ben Busby | 
 | Tue 4/16 | 4:15 | Hackathon Report Outs: Integrating Globus into Galaxy to Enable FAIRifying Data | Track 6: FAIR Data | Globus Genomics |
-| Wed 4/17 | 12:00 | [Integrating Google Cloud Platform into the Galaxy data analysis ecosystem](/src/events/2019-04-bioit/bioit-google-galaxy.png) | Google Cloud Booth #400 | [Enis Afgan](/people/enis-afgan/index.md) & [Vahid Jalili](/src/people/vahid-jalili/) |
+| Wed 4/17 | 12:00 | [Integrating Google Cloud Platform into the Galaxy data analysis ecosystem](/src/events/2019-04-bioit/bioit-google-galaxy.png) | Google Cloud Booth #400 | [Enis Afgan](/people/enis-afgan/) & [Vahid Jalili](/src/people/vahid-jalili/) |
 | Thu 4/18 | 10:40 | [Longitudinal and Context Visualization for Precision Oncology](http://www.giiconference.com/chi653337/data-visualization.shtml) | Track 8: Data Visualization & Exploration Tools | [Jeremy Goecks](/people/jeremy-goecks/) | 

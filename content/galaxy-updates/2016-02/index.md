@@ -215,7 +215,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> February 18 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>Online</a></em> </td>
-    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/people/nate/index.md'>Nate Coraor</a>,<a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a> </td>
+    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/people/nate/'>Nate Coraor</a>,<a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>

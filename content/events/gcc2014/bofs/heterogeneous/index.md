@@ -13,7 +13,7 @@ When: Tuesday, July 1, 5:45pm
 
 Where: Salon A
 
-Contact: [Philip Blood](mailto:blood AT psc DOT edu), [John Chilton](/people/john-chilton/index.md), [Nate Coraor](/src/people/nate/), Carrie Ganote
+Contact: [Philip Blood](mailto:blood AT psc DOT edu), [John Chilton](/people/john-chilton/), [Nate Coraor](/src/people/nate/), Carrie Ganote
 
 ## Description
 

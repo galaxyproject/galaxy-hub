@@ -180,7 +180,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
     <th> September&nbsp;28 - October&nbsp;1 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/people/fubar/index.md'>Ross Lazarus</a>, <a href='/src/people/dan/'>Dan Blankenberg</a> </td>
+    <td> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='/src/people/dan/'>Dan Blankenberg</a> </td>
   </tr>
   <tr>
     <th> September 30 - October 2 </th>
@@ -224,7 +224,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
   </tr>
   <tr>
     <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a>' </td>
-    <td> <a href='/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/'>Jennifer Jackson</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <th> January 11-15 </th>

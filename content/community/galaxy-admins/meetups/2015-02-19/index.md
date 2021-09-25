@@ -20,7 +20,7 @@
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em><a href='/src/community/galaxy-admins/index.md'>GalaxyAdmins</a> direction</em>  (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/Galaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </div><em><a href='/src/news/2014-questionnaire/index.md'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/people/dave-clements/'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/src/people/nate/'>Nate Coraor</a></div> </td>
+    <td> <em><a href='/src/community/galaxy-admins/index.md'>GalaxyAdmins</a> direction</em>  (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/Galaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </div><em><a href='/src/news/2014-questionnaire/'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/people/dave-clements/'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/src/people/nate/'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -33,7 +33,7 @@
 
 # GalaxyAdmins is Back!
 
-Except for a [meetup at GCC2014](/src/events/gcc2014/bofs/galaxy-admins/index.md), the [GalaxyAdmins group](/src/community/galaxy-admins/index.md) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md), the [GalaxyAdmins group](/src/community/galaxy-admins/) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
+Except for a [meetup at GCC2014](/src/events/gcc2014/bofs/galaxy-admins/index.md), the [GalaxyAdmins group](/src/community/galaxy-admins/index.md) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/people/hansrudolf-hotz/), the [GalaxyAdmins group](/src/community/galaxy-admins/) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
 
 *[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 

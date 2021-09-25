@@ -205,7 +205,7 @@ There are [upcoming events](/src/events/index.md) on 3 continents in 4 countries
     <th rowspan=3> November 3 </th>
     <td> <em><a href='http://www.festivalofgenomicscalifornia.com/workshops/galaxy-for-the-analysis-of-very-large-biomedical-data/'>Galaxy for the Analysis of Very Large Biomedical Data Workshop</a></em> </td>
     <td rowspan=3> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.festivalofgenomicscalifornia.com/'>Festival of Genomics California</a>, San Mateo, California, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/dan/index.md'>Dan Blankenberg</a>, <a href='/src/people/john-chilton/'>John Chilton</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/dan/'>Dan Blankenberg</a>, <a href='/src/people/john-chilton/'>John Chilton</a> </td>
   </tr>
   <tr>
     <td> <em>Common Workflow Language on Galaxy</em><div class='indent'>Part of <em><a href='http://bit.ly/1POcrKL'>Portable Bioinformatics Workshop</a></em> </td>
@@ -521,6 +521,6 @@ Ran out of time to compile these.  Look for a double batch in December.
 
 <a href='https://github.com/galaxyproject/galaxy'><img src="/src/images/20000Commits.png" alt="Galaxy codebase" width="100%" /></a>
 
-In September [Galaxy turned 10 years old](/src/galaxy-updates/2015-10/index.md#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Helena Rasche](/people/helena-rasche/index.md) originally submitted by team member [Nate Coraor](/src/people/nate/).
+In September [Galaxy turned 10 years old](/src/galaxy-updates/2015-10/index.md#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Helena Rasche](/people/helena-rasche/) originally submitted by team member [Nate Coraor](/src/people/nate/).
 
 Our thanks go to the community and the team alike.

@@ -20,4 +20,4 @@ The [April 2013 Galaxy Update is now available](/src/galaxy-updates/2013-04/inde
 
 If you have anything you would like to see in the May *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
 
-[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

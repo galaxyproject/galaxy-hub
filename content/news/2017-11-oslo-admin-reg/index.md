@@ -24,5 +24,5 @@ Instructors
 * [Björn Grüning](https://github.com/bgruening) ([Elixir Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg), [Elixir Germany](https://www.elixir-europe.org/about-us/who-we-are/nodes/germany), [University of Freiburg](https://www.uni-freiburg.de/?set_language=en))
 * [Marius van den Beek](https://github.com/mvdbeek) ([Elixir Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg), [Institute Curie](https://science.institut-curie.org/), France)
 * [Nicola Soranzo](http://www.earlham.ac.uk/nicola-soranzo) ([Elixir Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg), [Earlham Institute](http://www.earlham.ac.uk/), UK)
-* [Enis Afgan](/people/enis-afgan/index.md) ([Galaxy Project](/src/), [Johns Hopkins University](https://jhu.edu/), USA)
+* [Enis Afgan](/people/enis-afgan/) ([Galaxy Project](/src/), [Johns Hopkins University](https://jhu.edu/), USA)
 * [Abdulrahman Azab](http://www.usit.uio.no/om/organisasjon/itf/ft/ansatte/azab/index.html) ([Elixir Norway](https://www.elixir-europe.org/about-us/who-we-are/nodes/norway), [USIT](http://www.usit.uio.no/), [University of Oslo](http://www.uio.no/), Norway)

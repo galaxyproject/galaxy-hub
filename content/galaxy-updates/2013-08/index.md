@@ -103,7 +103,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 
 47 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in July. These papers may be particularly interesting to the Galaxy community
-* "[A sustainable national gateway for biological computation](https://doi.org/10.1145/2484762.2484817)" by [James Taylor](/people/james-taylor/index.md), [Anton Nekrutenko](/people/anton/), [Nate Coraor](/src/people/nate/), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
+* "[A sustainable national gateway for biological computation](https://doi.org/10.1145/2484762.2484817)" by [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), [Nate Coraor](/src/people/nate/), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
 * "[Cloud-based uniform ChIP-Seq processing tools for modENCODE and ENCODE](https://doi.org/10.1186/1471-2164-14-494)" by Quang Trinh, Fei Y. Jen, Ziru Zhou, *et al.*, *BMC Genomics,* Vol. 14, No. 1. (2013), 494
 * "[The Banana Genome Hub](https://doi.org/10.1093/database/bat035)" by Droc, *et al.*, *Database*, Vol. 2013 (01 January 2013), 
 
@@ -193,7 +193,7 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
     <th> September&nbsp;28 - October&nbsp;1 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/people/fubar/'>Ross Lazarus</a> </td>
+    <td> <a href='/people/jennifer-jackson/'>Jennifer Jackson</a>, <a href='/src/people/fubar/'>Ross Lazarus</a> </td>
   </tr>
   <tr>
     <th> September 30 - October 2 </th>
@@ -233,7 +233,7 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
     <th> October 22-26 </th>
     <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a></em> </td>
     <td> <a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a>, Boston, Massachusetts, United States </td>
-    <td> <a href='/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/'>Jennifer Jackson</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/'>Jennifer Jackson</a> </td>
   </tr>
 </table>
 

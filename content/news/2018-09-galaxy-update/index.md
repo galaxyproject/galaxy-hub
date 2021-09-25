@@ -224,7 +224,7 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformaticien/biostatisticien biologiste](http://www.sfbi.fr/content/offre-de-poste-de-bioinformaticienbiostatisticien-biologiste-soci%C3%A9t%C3%A9-phylogene),  Phylogene S.A, Bernis, France
 * [M2 : Diversité bactérienne associée aux microalgues toxiques (metabarcoding)](http://www.sfbi.fr/content/m2-diversit%C3%A9-bact%C3%A9rienne-associ%C3%A9e-aux-microalgues-toxiques-metabarcoding), IFREMER Centre Bretagne, Plouzané, France
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
-* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).

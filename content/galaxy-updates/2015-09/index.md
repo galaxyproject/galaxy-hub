@@ -248,7 +248,7 @@ There are [upcoming events](/src/events/index.md) in five countries on three con
     <th> october 15 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2015-10-15/index.md'>October Galaxy Admins Meetup</a></em> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 19 </th>

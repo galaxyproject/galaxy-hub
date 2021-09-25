@@ -35,9 +35,9 @@ See the [Training Day page](/src/events/gcc2012/training-day/index.md) for compl
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div></td>
-    <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, <a href='/people/james-taylor/'>James Taylor</a> & <a href='/src/people/jennifer-jackson/'>Jennifer Jackson</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/people/enis-afgan/index.md'>Enis Afgan</a> & <a href='/src/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/people/jeremy-goecks/'>Jeremy Goecks</a>, <a href='/people/james-taylor/'>James Taylor</a> & <a href='/src/people/jennifer-jackson/'>Jennifer Jackson</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/people/enis-afgan/'>Enis Afgan</a> & <a href='/src/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30 </th>
@@ -46,7 +46,7 @@ See the [Training Day page](/src/events/gcc2012/training-day/index.md) for compl
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
     <td style=" vertical-align: top; background-color: #FFDB97;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws4'>WS4: Galaxy Code Architecture</a></strong><div class='indent'><em><a href='/people/james-taylor/'>James Taylor</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFD8FF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws5'>WS5: Installing Your Own Galaxy</a></strong><div class='indent'><em><a href='/people/nate/index.md'>Nate Coraor</a> & <a href='/src/people/dave-bouvier/'>Dave Bouvier</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFD8FF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws5'>WS5: Installing Your Own Galaxy</a></strong><div class='indent'><em><a href='/people/nate/'>Nate Coraor</a> & <a href='/src/people/dave-bouvier/'>Dave Bouvier</a></em></div> </td>
     <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
@@ -55,9 +55,9 @@ See the [Training Day page](/src/events/gcc2012/training-day/index.md) for compl
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
-    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/people/greg_vonkuster/index.md'>Greg von Kuster</a> & <a href='/src/people/nate/'>Nate Coraor</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/people/greg_vonkuster/'>Greg von Kuster</a> & <a href='/src/people/nate/'>Nate Coraor</a></em></div></td>
     <td style=" vertical-align: top; background-color: #E1CC9B;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws8'>WS8: Variant and SNP Analysis with Galaxy</a></strong><div class='indent'><em><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='/src/events/gcc2012/training-day/index.md#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/src/people/fubar/'>Ross Lazarus</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
@@ -84,7 +84,7 @@ The main meeting started on Thursday, July 26, and featured submitted talks from
 | **8:00-9:00** | Continental Breakfast, Registration Open |
 | **9:00-9:10** |  **Welcome:**  [William Hendrickson](http://www.uic.edu/depts/mcmi/faculty/hendrickson/), [University of Illinois at Chicago (UIC)](http://www/uic.edu/) |
 | **9:10-10:40** | **Session 1:** Moderator: [Tin Lap Lee](http://www.sbs.cuhk.edu.hk/TeachingStaffDetails.asp?TE_NAME=LEE%20Tin%20Lap), [Chinese University of Hong Kong](http://www.cuhk.edu.hk/) |
-| 9:10  | <div class="float-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/State.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=abfc6489eb764d4) (start @ 7:10)* </div> *[State of the Galaxy](/src/events/gcc2012/abstracts/index.md#state-of-the-galaxy)*<div class='indent'> [Anton Nekrutenko](/people/anton/index.md) and [James Taylor](/src/people/james-taylor/), Galaxy Project </div> | 
+| 9:10  | <div class="float-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/State.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=abfc6489eb764d4) (start @ 7:10)* </div> *[State of the Galaxy](/src/events/gcc2012/abstracts/index.md#state-of-the-galaxy)*<div class='indent'> [Anton Nekrutenko](/people/anton/) and [James Taylor](/src/people/james-taylor/), Galaxy Project </div> | 
 | 9:40  | <div class="float-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Luo.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=abfc6489eb764d4) (start @ 31:55)* </div> *[Integration of S-MART, a toolbox to aid RNA-seq data analysis in Galaxy](/src/events/gcc2012/abstracts/index.md#integration-of-s-mart-a-toolbox-to-aid-rna-seq-data-analysis-in-galaxy)* <div class='indent'> Yufei Luo, Unité de recherche en Génomique-Info, INRA </div> |
 | 10:00  | <div class="float-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Park.pdf), [Video part 1](https://uic.sharestream.net/ssdcms/i.do?u=abfc6489eb764d4) (start @ xx:yy), [part 2](https://uic.sharestream.net/ssdcms/i.do?u=52bb95ced46c4b5)* </div> *[Connecting Galaxy to a Data Repository](/src/events/gcc2012/abstracts/index.md#connecting-galaxy-to-a-data-repository)* <div class='indent'>Richard Park, Boston University & Center for Biomedical Informatics at Harvard Medical School</div> |
 | 10:20  | <div class="float-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/MaillolDufayard.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=52bb95ced46c4b5) (starts @ 11:45)* </div> *[Role of Galaxy in a bioinformatic plant breeding platform](/src/events/gcc2012/abstracts/index.md#role-of-galaxy-in-a-bioinformatic-plant-breeding-platform)* <div class='indent'>Vincent Maillol and Jean-Francois Dufayard, INRA and CIRAD</div> |
@@ -142,7 +142,7 @@ The main meeting started on Thursday, July 26, and featured submitted talks from
 |  |<div class='float-right'> *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.pdf), [PPT](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.ppt), Video*</div> *Galaxy-P* <div class='indent'> Pratik Jagtap, University of Minnesota  </div> |
 |  |<div class='float-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Sandve.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421)*</div> *The Genomic Hyperbrowser: Prove Your Point* <div class='indent'> Geir Kjetil Sandve, University of Oslo </div> |
 |  |<div class='float-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Gruning.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421) (starts @ 6:10)*</div> *[ChemicalToolBox](/src/chemical-tool-box/index.md)* <div class='indent'> Björn Grüning, Albert-Ludwigs-University Freiburg </div> |
-| **2:45**| <div class="float-right"> *[Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421) (starts @ 12:35)* </div>  **Closing Remarks**<div class="indent"> [Anton Nekrutenko](/people/anton/index.md), Penn State University, [James Taylor](/src/people/james-taylor/), Emory University</div> |
+| **2:45**| <div class="float-right"> *[Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421) (starts @ 12:35)* </div>  **Closing Remarks**<div class="indent"> [Anton Nekrutenko](/people/anton/), Penn State University, [James Taylor](/src/people/james-taylor/), Emory University</div> |
 | **2:55-3:15** | **Break** |
 | **3:15-5:00** | **Session 8: Breakouts**<br />Moderator: Dave Clements, [Emory University](http://www.emory.edu/) <br /> [Breakouts](/src/eents/gcc2012/program/breakouts/index.md) |
 | **5:00** | **[2012 Galaxy Community Conference](/src/events/gcc2012/index.md) ends** |

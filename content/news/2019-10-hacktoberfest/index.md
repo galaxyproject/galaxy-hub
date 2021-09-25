@@ -15,4 +15,4 @@ Not sure what to contribute? Here are a few suggestions to get you started:
 * Get your hands dirty with some DevOps topics, check out Galaxy’s incubator project: [CloudVE](https://github.com//cloudve)
 
 See you online,<br />
-[Alex Ostrovsky](/people/alex-ostrovsky/index.md) and [Enis Afgan](/src/people/enis-afgan/)
+[Alex Ostrovsky](/people/alex-ostrovsky/) and [Enis Afgan](/src/people/enis-afgan/)

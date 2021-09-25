@@ -32,7 +32,7 @@ Galaxy supports running jobs in Docker containers for running jobs on a single n
 
 **Potentially Helpful Skills** Familiarity with cloud and/or cluster computing, familiarity with Galaxy and/or Kubernetes, bioinformatics knowledge
 
-**Possible Mentors** Kyle Ellrott, [John Chilton](/people/john-chilton/index.md), [Dannon Baker](/src/people/dannon-baker/)
+**Possible Mentors** Kyle Ellrott, [John Chilton](/people/john-chilton/), [Dannon Baker](/src/people/dannon-baker/)
 
 ## GA4GH Container and Workflows Integration
 
@@ -53,7 +53,7 @@ The [Global Alliance for Genomics Health](http://genomicsandhealth.org/) (GA4GH)
 
 **Potentially Helpful Skills** Familiarity with Galaxy and/or other Workflow Management Systems
 
-**Possible Mentors** [John Chilton](/people/john-chilton/index.md), [Daniel Blankenberg](/src/people/dan/)
+**Possible Mentors** [John Chilton](/people/john-chilton/), [Daniel Blankenberg](/src/people/dan/)
 
 ## Docker Swarm and Compose
 
@@ -75,7 +75,7 @@ By making complex applications easier to deploy and doing so reproducibly, the o
 
 **Potentially Helpful Skills** Familiarity with cloud and/or cluster computing, familiarity with Galaxy, Docker, and/or Fig, bioinformatics knowledge
 
-**Possible Mentors** [John Chilton](/people/john-chilton/index.md), [Björn Grüning](/people/bjoern-gruening/), [Dannon Baker](/src/people/dannon-baker/)
+**Possible Mentors** [John Chilton](/people/john-chilton/), [Björn Grüning](/people/bjoern-gruening/), [Dannon Baker](/src/people/dannon-baker/)
 
 ## Fostering Bioconductor Collaborations
 
@@ -92,7 +92,7 @@ The [RGalaxy](http://www.bioconductor.org/packages/release/bioc/html/RGalaxy.htm
 * Implement automated scripts (for use with cron jobs or CI tools such as Jenkins or Buildbot) to automate the release and publication of such artifacts.
 * Build and publish workflows demonstrating these tools with actual data.
 
-**Possible Mentors** [Nitesh Turaga](/people/nitesh-turaga/index.md), [Björn Grüning](/src/people/bjoern-gruening/), Daniel Blankenberg
+**Possible Mentors** [Nitesh Turaga](/people/nitesh-turaga/), [Björn Grüning](/src/people/bjoern-gruening/), Daniel Blankenberg
 
 **Required Skills** Python programming
 
@@ -244,7 +244,7 @@ Once familiar with pages - there are at least two paths this project could diver
 
 **Potentially Helpful Skills** Familiarity with Galaxy and IPython
 
-**Possible Mentors** [Carl Eberhard](/people/carl-eberhard/index.md), [Martin Cech](/src/people/marten/)
+**Possible Mentors** [Carl Eberhard](/people/carl-eberhard/), [Martin Cech](/src/people/marten/)
 
 ## Easier or More Robust History Imports and Exports
 
@@ -266,7 +266,7 @@ that can be pasted into an import the history from another Galaxy instance.
 * Split this process in pieces to allow tracking/resuming the transfers.
 * Rework the API and UI to provide pleasant progress bar tracking progress and estimating time remaining.
 
-**Possible Mentors** [Martin Cech](/people/marten/index.md), [Jim Johnson](https://github.com/jj-umn), [Daniel Blankenberg](/src/people/dan/)
+**Possible Mentors** [Martin Cech](/people/marten/), [Jim Johnson](https://github.com/jj-umn), [Daniel Blankenberg](/src/people/dan/)
 
 **Required Skills** Python programming
 
@@ -303,7 +303,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 * Convert Galaxy to run on Python 3.
 * Once all dependencies are upgraded, package Galaxy for [Debian Med](https://www.debian.org/devel/debian-med/).
 
-**Possible Mentors** [Nate Coraor](/people/nate/index.md), [Tim Booth](https://github.com/tbooth), [John Chilton](/src/people/john-chilton/)
+**Possible Mentors** [Nate Coraor](/people/nate/), [Tim Booth](https://github.com/tbooth), [John Chilton](/src/people/john-chilton/)
 
 **Required Skills:**
 * Knowledge of DPKG, BASH scripting, Makefiles, and the layout of files on a standard Linux filesystem (/etc, /var, /usr, ...)
@@ -326,7 +326,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 
 * Integrate the authentication mechanism with [Globus Nexus](https://www.globus.org/platform/services).
 
-**Possible Mentors** [Martin Cech](/people/marten/index.md), [Enis Afgan](/people/enis-afgan/), [Nitesh Turaga](/src/people/nitesh-turaga/)
+**Possible Mentors** [Martin Cech](/people/marten/), [Enis Afgan](/people/enis-afgan/), [Nitesh Turaga](/src/people/nitesh-turaga/)
 
 **Required Skills** Python Programming
 
@@ -371,7 +371,7 @@ Recently Interactive Environments (IEs) were developed for Galaxy. These consist
 
 * Unit test framework for IEs to ensure the proxy works ([some progress](https://github.com/hexylena/vagrant-galaxy-casperjs) exists but it's not very generic).
 
-**Possible Mentors** [Helena Rasche](/people/helena-rasche/index.md), [John Chilton](/src/people/john-chilton/)
+**Possible Mentors** [Helena Rasche](/people/helena-rasche/), [John Chilton](/src/people/john-chilton/)
 
 **Required Skills** Docker, NodeJS
 

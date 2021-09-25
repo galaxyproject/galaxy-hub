@@ -26,4 +26,4 @@ For complete details on implemented changes, please see the [source code commits
 
 Enjoy and please let us know what you think,
 
-[Enis](/people/enis-afgan/index.md) & [Dannon](/people/dannon-baker/) & [The Galaxy Team](/src/galaxy-team/)
+[Enis](/people/enis-afgan/) & [Dannon](/people/dannon-baker/) & [The Galaxy Team](/src/galaxy-team/)

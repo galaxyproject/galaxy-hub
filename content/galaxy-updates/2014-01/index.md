@@ -306,7 +306,7 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
     <th> March 26-30 </th>
     <td> <em>Galaxy toolset for Drosophila genomics</em><div class='indent'>and one-on-one help in the Flybase Demonstrations Room</div> </td>
     <td> <a href='http://www.genetics-gsa.org/drosophila/2014/'>Drosophila Research Conference</a>, San Diego, California, United States </td>
-    <td> <a href='/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/'>Jen Jackson</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/'>Jen Jackson</a> </td>
   </tr>
   <tr>
     <th> May 27 </th>

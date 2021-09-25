@@ -16,7 +16,7 @@ Sponsorships are available at four different levels.
     <td style=" border: none;"> <a href='http://www.lifetechnologies.com/'><img src="/src/events/gcc2012/sponsorships/IonTorrentLogo340.png" alt="Ion Torrent"  /></a> </td>
     <td style=" border: none;"> </td>
     <td style=" border: none;"> </td>
-    <td style=" border: none; text-align: center;"> <strong><a href='http://www.lifetechnologies.com/'>Ion Torrent</a></strong><br /><br />GCC Representatives: <br /><a href='/people/mike-lelivelt/index.md'>Mike Lelivelt</a> &bull; <a href='/src/people/matt-dyer/'>Matt Dyer</a><br />Mike Hunsicker &bull; Eric Hilligoss </td>
+    <td style=" border: none; text-align: center;"> <strong><a href='http://www.lifetechnologies.com/'>Ion Torrent</a></strong><br /><br />GCC Representatives: <br /><a href='/people/mike-lelivelt/'>Mike Lelivelt</a> &bull; <a href='/src/people/matt-dyer/'>Matt Dyer</a><br />Mike Hunsicker &bull; Eric Hilligoss </td>
   </tr>
 </table>
 

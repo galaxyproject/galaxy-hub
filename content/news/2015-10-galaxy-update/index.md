@@ -28,4 +28,4 @@ The **[October Galactic News](/src/galaxy-updates/2015-10/index.md)** is hot off
   * [Lots of Tool Shed contributions](/src/toolshed/contributions/2015-09/index.md).
 * and [lots of other news too](/src/galaxy-updates/2015-10/index.md#other-news), [including a birthday](/src/galaxy-updates/2015-10/index.md#galaxy-turns-10) (OK, maybe we are chronologically challenged, but we're young!)
 
-[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

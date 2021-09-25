@@ -267,7 +267,7 @@ The Galaxy is expanding! Please help it grow.
 
 * [Responsable Opérationnel de la Plateforme de Bioinformatique ARTbio](https://www.sfbi.fr/content/responsable-op%C3%A9rationnel-de-la-plateforme-de-bioinformatique-artbio), ARTbio, Institut de Biologie Paris Seine, France
 * [Classification des micropolluants dans l'environnement : amélioration de l'algorithme online TyPol](https://www.sfbi.fr/content/classification-des-micropolluants-dans-lenvironnement-am%C3%A9lioration-de-lalgorithme-online-typ), INRA-LBE, Narbonne, France
-* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).

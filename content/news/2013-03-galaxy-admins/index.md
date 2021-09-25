@@ -23,7 +23,7 @@ The [next meeting](/src/community/galaxy-admins/meetups/2013-03-20/index.md) of 
   </tr>
   <tr>
     <th> Presenters </th>
-    <td> <a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang "Leon" Mei</a><br />There will also be a <em>Galaxy Project Update</em> from <a href='/people/dan/index.md'>Dan Blankenberg</a> of the <a href='/src/galaxy-team/'>Galaxy Team</a> </td>
+    <td> <a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang "Leon" Mei</a><br />There will also be a <em>Galaxy Project Update</em> from <a href='/people/dan/'>Dan Blankenberg</a> of the <a href='/src/galaxy-team/'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> Links </th>

@@ -39,4 +39,4 @@ We have created a [small map of places to find food and drinks](https://mapsengi
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md) or [Björn Grüning](/src/people/bjoern-gruening/)
+Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/src/people/bjoern-gruening/)

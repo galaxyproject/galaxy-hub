@@ -88,7 +88,7 @@ morning session will include presentations on genomic and metagenomic data analy
 [<img  src="/src/events/2018-01-admin-oslo/admins-oslo-2018-logo.png" alt="Galaxy Administrators Course" height="120" />](https://github.com/galaxyproject/dagobah-training)
 </div>
 
-A very successful and inspiring Galaxy admin workshop was held in Oslo in January, Thanks to 33 highly motivated participants and Nicola Soranzo, Marius Van Den Beek, Abdulrahman Azab, [Björn Grüning](/people/bjoern-gruening/index.md) and [Enis Afgan](/src/people/enis-afgan/) as instructors!  Thanks also to [ELIXIR](https://www.elixir-europe.org/), [de.NBI](https://www.denbi.de/), and [ELIXIR Norway](https://www.elixir-europe.org/about-us/who-we-are/nodes/norway) for sponsoring this event.
+A very successful and inspiring Galaxy admin workshop was held in Oslo in January, Thanks to 33 highly motivated participants and Nicola Soranzo, Marius Van Den Beek, Abdulrahman Azab, [Björn Grüning](/people/bjoern-gruening/) and [Enis Afgan](/src/people/enis-afgan/) as instructors!  Thanks also to [ELIXIR](https://www.elixir-europe.org/), [de.NBI](https://www.denbi.de/), and [ELIXIR Norway](https://www.elixir-europe.org/about-us/who-we-are/nodes/norway) for sponsoring this event.
 
 Plenty of materials for Galaxy administration are now [up to date and available online](https://github.com/galaxyproject/dagobah-training).  The workshop included a sneak [preview of what's coming in the 18.01 release](https://galaxyproject.github.io/dagobah-training/2018-oslo/whatsnew/18.01.html#1) from [Nate Coraor](/people/nate/).
 
@@ -272,7 +272,7 @@ The *Galactic* and *Stellar* publications added in January were:
 The Galaxy is expanding! Please help it grow.
 
 * The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/) is [looking for 2 Postdoctoral researchers](https://usegalaxy-eu.github.io/galaxy-freiburg/2018/01/18/openpositions.html)
-* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).

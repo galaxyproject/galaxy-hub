@@ -17,7 +17,7 @@ When:: Tuesday, 7 July, 18:20
 
 Where:: Franklin Room, JICCC
 
-Contact:: [Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md), [Dave Clements](/src/people/dave-clements/)
+Contact:: [Hans-Rudolf Hotz](/people/hansrudolf-hotz/), [Dave Clements](/src/people/dave-clements/)
 
 
 # Audience
@@ -102,4 +102,4 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 
 # Questions?
 
-Send them to [Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md) and [Dave Clements](/src/people/dave-clements/)
+Send them to [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) and [Dave Clements](/src/people/dave-clements/)

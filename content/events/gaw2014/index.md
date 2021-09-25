@@ -87,7 +87,7 @@ GAW 2014 also included poster session and keynote speakers.
   </tr>
   <tr>
     <th> 16:20-17:00 </th>
-    <td style=" text-align: center;"> <strong>Setting up and administering Galaxy - panel discussion</strong> <br /><a href='http://www.hpsc.csiro.au/contact/steve_mcmahon.shtml'>Stephen McMahon</a>, <a href='/people/nate/index.md'>Nate Coraor</a>, <a href='/src/people/enis-afgan/'>Enis Afgan</a> </td>
+    <td style=" text-align: center;"> <strong>Setting up and administering Galaxy - panel discussion</strong> <br /><a href='http://www.hpsc.csiro.au/contact/steve_mcmahon.shtml'>Stephen McMahon</a>, <a href='/people/nate/'>Nate Coraor</a>, <a href='/src/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
 </table>
 

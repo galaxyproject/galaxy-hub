@@ -315,7 +315,7 @@ The Galaxy is expanding! Please help it grow.
 * [Post-Doc / IR analyse de données miRNA](https://www.sfbi.fr/content/post-doc-ir-analyse-de-donn%C3%A9es-mirna), Unité de Nutrition Humaine, Clermont-Fd, France
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * [Development of innovative algorithms to process real-time mass spectrometry data for the clinical analysis of exhaled breath](https://www.sfbi.fr/content/d%C3%A9veloppement-doutils-bioinformatiques-et-statistiques-pour-lanalyse-de-lair-expir%C3%A9-en-m%C3%A9dec), CEA, Saclay, France
-* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).

@@ -25,4 +25,4 @@ There are also [117 new publications](/src/galaxy-updates/2016-10/index.md#new-p
 
 We hope to see you in Freiburg, Salt Lake, Melbourne, online, and around the world,
 
-[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

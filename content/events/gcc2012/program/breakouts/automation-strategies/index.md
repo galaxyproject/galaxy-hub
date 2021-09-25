@@ -7,7 +7,7 @@ title: Automation strategies for Data, Tools, & Config
 
 
 
-A proposed [Breakout Session](/src/events/gcc2012/program/breakouts/automation-strategies//index.md) for [GCC2012](/src/events/gcc2012/index.md), organized by Brad Chapman, [John Chilton](/people/john-chilton/index.md), [Enis Afgan](/people/enis-afgan/index.md), [Dave Bouvier](/src/people/dave-bouvier/) and [Jen Jackson](/src/people/jennifer-jackson/)
+A proposed [Breakout Session](/src/events/gcc2012/program/breakouts/automation-strategies//index.md) for [GCC2012](/src/events/gcc2012/index.md), organized by Brad Chapman, [John Chilton](/people/john-chilton/), [Enis Afgan](/people/enis-afgan/), [Dave Bouvier](/src/people/dave-bouvier/) and [Jen Jackson](/src/people/jennifer-jackson/)
 
 This involves turning the base Galaxy into a production machine: 
 * download of associated genomes and data files, 

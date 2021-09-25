@@ -132,5 +132,5 @@ http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md) (hrh@fmi.ch) or [Björn Grüning](/people/bjoern-gruening/) (gruening@informatik.uni-freiburg.de) or [Jean-François Dufayard](/src/people/jeanfrancois-dufayard/) (jean-francois.dufayard@cirad.fr)
+Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) (hrh@fmi.ch) or [Björn Grüning](/people/bjoern-gruening/) (gruening@informatik.uni-freiburg.de) or [Jean-François Dufayard](/src/people/jeanfrancois-dufayard/) (jean-francois.dufayard@cirad.fr)
 

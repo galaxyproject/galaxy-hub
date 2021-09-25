@@ -13,14 +13,14 @@ Got some ideas? **[Nominate them](https://docs.google.com/forms/d/e/1FAIpQLSfv25
 
 We hope to see you in February,
 
-[Helena Rasche](/people/helena-rasche/index.md) and [Dave Clements](/src/people/dave-clements/)
+[Helena Rasche](/people/helena-rasche/) and [Dave Clements](/src/people/dave-clements/)
 
 <div style="font-size: smaller;">
 
 Q: Why did the bimonthly meetups go away for *two years?* 
 <br /><br />
 
-A: In early 2017, [Hans-Rudolf](/people/hansrudolf-hotz/index.md) stepped down after several years of leading the group.  [Dave C](/people/dave-clements/) *promised* Hans-Rudolf that he would keep these going.  But then, Dave saw something shiny, and then, a while later, he heard [Helena](/src/people/helena-rasche/) calling, as if from a great distance, saying "I want those GalaxyAdmins meetups again."  And so *they are back*, with Helena leading us fearlessly into the future.<sup>&#42;</sup>
+A: In early 2017, [Hans-Rudolf](/people/hansrudolf-hotz/) stepped down after several years of leading the group.  [Dave C](/people/dave-clements/) *promised* Hans-Rudolf that he would keep these going.  But then, Dave saw something shiny, and then, a while later, he heard [Helena](/src/people/helena-rasche/) calling, as if from a great distance, saying "I want those GalaxyAdmins meetups again."  And so *they are back*, with Helena leading us fearlessly into the future.<sup>&#42;</sup>
 
 <br /><br />
 

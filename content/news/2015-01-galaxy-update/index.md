@@ -21,4 +21,4 @@ Happy New Year from the Galaxy Project!
 * [Over 30 new and updated ToolShed repositories from 12 contributors](/src/galaxy-updates/2014-12/index.md#toolshed-contributions)
 * And, [other news](/src/galaxy-updates/2014-12/index.md#other-news) too.
 
-[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

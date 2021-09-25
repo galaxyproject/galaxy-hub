@@ -25,4 +25,4 @@ The **[May Galactic News](/src/galaxy-updates/2015-05/index.md)** brings lots of
 
 And, [other news](/src/galaxy-updates/2015-05/index.md#other-news) as well.
 
-[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

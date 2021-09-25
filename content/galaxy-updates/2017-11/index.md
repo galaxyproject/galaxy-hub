@@ -203,7 +203,7 @@ The Galaxy is expanding! Please help it grow.
 
 * [Développeur d’outils MS/MS pour le projet Workflow4Metabolomics sous Galaxy](https://www.sfbi.fr/content/d%C3%A9veloppeur-d%E2%80%99outils-msms-pour-le-projet-workflow4metabolomics-sous-galaxy-0), Station Biologique de Roscoff, France
 * [Bioinformaticien Gustave Roussy](https://www.sfbi.fr/content/bioinformaticien-gustave-roussy), Villejuif, France
-* The [Blankenberg](/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 * [Implémentation d’outils d’analyse et de visualisation de variations structurales et génomes mosaïques](https://www.sfbi.fr/content/impl%C3%A9mentation-d%E2%80%99outils-d%E2%80%99analyse-et-de-visualisation-de-variations-structurales-et-g%C3%A9nomes-), IRD (Institut de Recherche pour le Développement), Montpellier, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States

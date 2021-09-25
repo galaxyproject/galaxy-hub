@@ -17,7 +17,7 @@ Welcome to the September 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a
 Some highlights from the recently added pubs:
 
 * [2017 Galaxy community update](https://doi.org/10.7490/f1000research.1114388.1)
-  [Dan Blankenberg](/people/dan/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114388.1
+  [Dan Blankenberg](/people/dan/), [Jeremy Goecks](/src/people/jeremy-goecks/). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114388.1
 
 * [Approaches for small RNA-seq in Galaxy](https://doi.org/10.7490/f1000research.1114423.1)
   Mallory Freeberg, [James Taylor](/people/james-taylor/). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114423.1
@@ -26,7 +26,7 @@ Some highlights from the recently added pubs:
   Baekdoo Kim, Thahmina Ali, Carlos Lijeron, Enis Afgan, Konstantinos Krampis. *GigaScience*, Vol. 6, No. 8. (August 2017), pp. 1-7, doi:10.1093/gigascience/gix048
 
 * [Building an open, collaborative, online infrastructure for bioinformatics training](https://doi.org/10.7490/f1000research.1114447.1)
-  Bérénice Batut, [Galaxy Training Network](https://training.galaxyproject.org/), [Dave Clements](/people/dave-clements/index.md), [Björn Grüning](/src/people/bjoern-gruening/). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114447.1
+  Bérénice Batut, [Galaxy Training Network](https://training.galaxyproject.org/), [Dave Clements](/people/dave-clements/), [Björn Grüning](/src/people/bjoern-gruening/). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114447.1
 
 * [Galaxy-compatible Tool for Rapid Aptamer Clustering and HT-SELEX Data Analysis](https://doi.org/10.22377/ajp.v11i02.1265)
   Nikita A. Skrylnik, *Asian Journal of Pharmaceutics (AJP)*, Vol. 11, No. 02. (2017), doi:10.22377/ajp.v11i02.1265
@@ -56,7 +56,7 @@ Some highlights from the recently added pubs:
   Chao Zhang, Jochem Bijlard, Christine Staiger, et al. *F1000Research*, Vol. 6 (16 August 2017), 1488, doi:10.12688/f1000research.12168.1
 
 * [The backbone of research reproducibility-sustainable and flexible tool deployment](https://doi.org/10.7490/f1000research.1114482.1)
-  [Björn Grüning](/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/), Johannes Köster, Dale Ryan, Yasset Perez-Riverol. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114482.1
+  [Björn Grüning](/people/bjoern-gruening/), [John Chilton](/src/people/john-chilton/), Johannes Köster, Dale Ryan, Yasset Perez-Riverol. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114482.1
 
 * [ToolDog-generating tool descriptors from the ELIXIR tool registry](https://doi.org/10.7490/f1000research.1114473.1)
   Kenzo-Hugo Hillion, Ivan Kuzmin, Hedi Peterson, Jon Ison, Hervé Ménager. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114473.1

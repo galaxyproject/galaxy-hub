@@ -9,7 +9,7 @@ title: "Tutorial: Galaxy Installation and Administration"
 
 <div class='right'> <a href='/src/events/gcc2014/training-day/index.md'><img src="/src/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
-[Nate Coraor](/people/nate/index.md) and [John Chilton](/src/people/john-chilton/)
+[Nate Coraor](/people/nate/) and [John Chilton](/src/people/john-chilton/)
 
 <br />
 

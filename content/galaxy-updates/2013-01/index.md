@@ -188,7 +188,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> June 8-11 </th>
     <td> <em><a href='https://www.eshg.org/sunday2013.0.html#W1'>WS08: Biomedical Data Analysis with Galaxy</a></em> </td>
     <td> Workshop at <a href='https://www.eshg.org/eshg2013.0.html'>European Human Genetics Conference (ESHG2013)</a>, Paris, France </td>
-    <td> <a href='/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/enis-afgan/'>Enis Afgan</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='/src/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>

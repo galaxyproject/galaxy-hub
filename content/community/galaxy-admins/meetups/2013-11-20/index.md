@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href="/src/community/galaxy-admins/index.md">GalaxyAdmins</a>: <a href='/src/events/gcc2013/bof/galaxy-admins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/people/dave-clements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/people/nate/'>Nate Coraor</a></div> </td>
+    <td> <em><a href="/src/community/galaxy-admins/index.md">GalaxyAdmins</a>: <a href='/src/events/gcc2013/bof/galaxy-admins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/people/dave-clements/'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/people/nate/'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>

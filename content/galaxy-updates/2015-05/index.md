@@ -28,7 +28,7 @@ Welcome to the May 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summa
     Halfdan Rydbeck, Geir Kjetil K. Sandve, Egil Ferkingstad, Boris Simovski, Morten Rye, Eivind Hovig, *PloS one*, Vol. 10, No. 4. (2015)
 
 * [StructureFold: Genome-wide RNA secondary structure mapping and reconstruction in vivo](https://doi.org/10.1093/bioinformatics/btv213)
-    Yin Tang, [Emil Bouvier](/people/dave-bouvier/index.md), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/src/people/anton/), Philip C. Bevilacqua, and Sarah M. Assmann, *Bioinformatics* (16 April 2015), btv213, doi:10.1093/bioinformatics/btv213
+    Yin Tang, [Emil Bouvier](/people/dave-bouvier/), Chun Kit Kwok, Yiliang Ding, [Anton Nekrutenko](/src/people/anton/), Philip C. Bevilacqua, and Sarah M. Assmann, *Bioinformatics* (16 April 2015), btv213, doi:10.1093/bioinformatics/btv213
 
 The new papers were tagged with:
 
@@ -244,7 +244,7 @@ There are [upcoming events](/src/events/index.md) in 7 countries on 3 continents
     <th> May 15 </th>
     <td> <em><a href='/src/events/meetups/psu/2015-05/index.md'>RNA-Seq Galaxy Workshop</a></em> </td>
     <td> <a href='/src/events/meetups/psu/2015-05/index.md#where'>Penn State University</a>, State College, Pennsylvania, United States </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/people/marten/index.md'>Martin Cech</a>, <a href='/src/people/anton/'>Anton Nekrutenko</a> </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> <a href='/people/marten/'>Martin Cech</a>, <a href='/src/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> May 22, 29 </th>

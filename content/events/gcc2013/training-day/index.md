@@ -39,11 +39,11 @@ You [register](/src/events/gcc2013/register/index.md) for the Training Day (and 
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#galaxy-code-and-storage-architecture'>Galaxy Code and Storage Architecture</a></strong> <div class='indent'><a href='/people/james-taylor/index.md'>James Taylor</a>, <a href='/src/people/nate/'>Nate Coraor</a></div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#galaxy-code-and-storage-architecture'>Galaxy Code and Storage Architecture</a></strong> <div class='indent'><a href='/people/james-taylor/'>James Taylor</a>, <a href='/src/people/nate/'>Nate Coraor</a></div> </td>
     <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div></td>
     <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#installing-and-maintaining-a-local-galaxy-server'>Installing and Maintaining a Local Galaxy Server</a></strong> <div class='indent'><a href='http://folk.uio.no/georgios'>George Magklaras</a>, <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/katerim/index.html'>Katerina Michalickova</a>, <a href='http://www.usit.uio.no/om/organisasjon/uav/itf/ft/ansatte/nikolaiv/index.html'>Nikolay Vazov</a></div></td>
-    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/events/gcc2013/training-day/index.md#introduction-to-galaxy-and-the-galaxy-ecosystem'>Introduction to Galaxy and the Galaxy Ecosystem</a></strong> <div class='indent'><a href='/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/'>Jennifer Hillman-Jackson</a></div></td>
-    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/events/gcc2013/training-day/index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a></strong> <div class='indent'><a href='/people/enis-afgan/index.md'>Enis Afgan</a>, <a href='/src/people/dannon-baker/'>Dannon Baker</a> </div></td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/events/gcc2013/training-day/index.md#introduction-to-galaxy-and-the-galaxy-ecosystem'>Introduction to Galaxy and the Galaxy Ecosystem</a></strong> <div class='indent'><a href='/people/anton/'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/'>Jennifer Hillman-Jackson</a></div></td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/events/gcc2013/training-day/index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a></strong> <div class='indent'><a href='/people/enis-afgan/'>Enis Afgan</a>, <a href='/src/people/dannon-baker/'>Dannon Baker</a> </div></td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
@@ -51,11 +51,11 @@ You [register](/src/events/gcc2013/register/index.md) for the Training Day (and 
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#the-galaxy-api'>The Galaxy API</a></strong> <div class='indent'><a href='/people/nate/index.md'>Nate Coraor</a>, <a href='/src/people/carl-eberhard/'>Carl Eberhard</a></div> </td>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#introduction-to-tool-and-data-source-configuration'>Introduction to Tool and Data Source Configuration</a></strong> <div class='indent'><a href='/people/dan/index.md'>Dan Blankenberg</a>, <a href='/src/people/fubar/'>Ross Lazarus</a></div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#the-galaxy-api'>The Galaxy API</a></strong> <div class='indent'><a href='/people/nate/'>Nate Coraor</a>, <a href='/src/people/carl-eberhard/'>Carl Eberhard</a></div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#introduction-to-tool-and-data-source-configuration'>Introduction to Tool and Data Source Configuration</a></strong> <div class='indent'><a href='/people/dan/'>Dan Blankenberg</a>, <a href='/src/people/fubar/'>Ross Lazarus</a></div> </td>
     <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div> </td>
     <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#statistical-genome-analysis-with-galaxy'>Statistical Genome Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/index.html'>Geir Kjetil Sandve</a>, <a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'>Sveinung Gundersen</a></div> </td>
-    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/events/gcc2013/training-day/index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a></strong> <div class='indent'><a href='/people/enis-afgan/index.md'>Enis Afgan</a>, <a href='/src/people/dannon-baker/'>Dannon Baker</a></div> </td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <strong><a href='/src/events/gcc2013/training-day/index.md#running-galaxy-on-the-cloud'>Running Galaxy on the Cloud</a></strong> <div class='indent'><a href='/people/enis-afgan/'>Enis Afgan</a>, <a href='/src/people/dannon-baker/'>Dannon Baker</a></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 14:30 </th>
@@ -63,8 +63,8 @@ You [register](/src/events/gcc2013/register/index.md) for the Training Day (and 
   </tr>
   <tr>
     <th style=" text-align: right;"> 15:00 </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#advanced-tool-and-data-source-configuration'>Advanced Tool and Data Source Configuration</a></strong> <div class='indent'><a href='/people/fubar/index.md'>Ross Lazarus</a>, <a href='/src/people/dan/'>Dan Blankenberg</a> </div> </td>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#galaxy-toolshed'>Galaxy Tool Shed</a></strong> <div class='indent'><a href='/people/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='/src/people/dave-bouvier/'>Dave Bouvier</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#advanced-tool-and-data-source-configuration'>Advanced Tool and Data Source Configuration</a></strong> <div class='indent'><a href='/people/fubar/'>Ross Lazarus</a>, <a href='/src/people/dan/'>Dan Blankenberg</a> </div> </td>
+    <td style=" vertical-align: top; background-color: #ffffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#galaxy-toolshed'>Galaxy Tool Shed</a></strong> <div class='indent'><a href='/people/greg_vonkuster/'>Greg Von Kuster</a>, <a href='/src/people/dave-bouvier/'>Dave Bouvier</a> </div> </td>
     <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#variant-and-snp-analysis-with-galaxy'>Variant and SNP Analysis with Galaxy</a></strong> <div class='indent'><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a>, <a href='/people/anton/'>Anton Nekrutenko</a> </div> </td>
     <td style=" vertical-align: top; background-color: #ddffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#rna-seq-analysis-with-galaxy'>RNA-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://www.lgtc.nl/about_us/lgtc_team.php'>Jeroen F.J. Laros</a>, <a href='http://bow.web.id/'>Wibowo Arindrarto</a>, <a href='http://ngs.nbic.nl/'>Leon Mei</a> </div></td>
     <td style=" vertical-align: top; background-color: #DDffcc;"> <strong><a href='/src/events/gcc2013/training-day/index.md#chip-seq-analysis-with-galaxy'>ChIP-Seq Analysis with Galaxy</a></strong> <div class='indent'><a href='http://u900.curie.fr/en/profile/alban-lermine-00587'>Alban Lermine</a>, <a href='https://sites.google.com/site/valentinaboeva/'>Valentina Boeva</a> </div> </td>
@@ -114,7 +114,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #cceeff;"> <a href='/people/anton/index.md'>Anton Nekrutenko</a>, <a href='http://psu.edu/'>Penn State University</a><br /> <a href='/src/people/jennifer-jackson/'>Jennifer Hillman-Jackson</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" background-color: #cceeff;"> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='http://psu.edu/'>Penn State University</a><br /> <a href='/src/people/jennifer-jackson/'>Jennifer Hillman-Jackson</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -144,7 +144,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #cceeff;"> <a href='/people/enis-afgan/index.md'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a> <br /> <a href='/src/people/dannon-baker/'>Dannon Baker</a>, <a href='http://emory.edu/'>Emory University</a> </td>
+    <td colspan=2 style=" background-color: #cceeff;"> <a href='/people/enis-afgan/'>Enis Afgan</a>, <a href='http://www.irb.hr/eng/'>Ruđer Bošković Institute (RBI)</a> <br /> <a href='/src/people/dannon-baker/'>Dannon Baker</a>, <a href='http://emory.edu/'>Emory University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -336,7 +336,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/dan/index.md'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/src/people/fubar/'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a> </td>
+    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/dan/'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/src/people/fubar/'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -371,7 +371,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/fubar/index.md'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a><br /> <a href='/src/people/dan/'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='http://www.bakeridi.edu.au/'>BakerIDI</a><br /> <a href='/src/people/dan/'>Dan Blankenberg</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -405,7 +405,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/greg_vonkuster/index.md'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/src/people/dave-bouvier/'>Dave Bouvier</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/greg_vonkuster/'>Greg Von Kuster</a>, <a href='http://psu.edu/'>Penn State University</a> <br /> <a href='/src/people/dave-bouvier/'>Dave Bouvier</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -446,7 +446,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/nate/index.md'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a> <br /><a href='/src/people/carl-eberhard/'>Carl Eberhard</a>, <a href='http://emory.edu/'>Emory University</a> </td>
+    <td colspan=2 style=" background-color: #ffffcc;"> <a href='/people/nate/'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a> <br /><a href='/src/people/carl-eberhard/'>Carl Eberhard</a>, <a href='http://emory.edu/'>Emory University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
@@ -480,7 +480,7 @@ See each individual workshop's list of prerequisite for specifics.
 <table class="table">
   <tr>
     <th style=" vertical-align: top;"> Instructors </th>
-    <td style=" background-color: #ffffcc;"> <a href='/people/james-taylor/index.md'>James Taylor</a>, <a href='http://emory.edu/'>Emory University</a> <br /> <a href='/src/people/nate/'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
+    <td style=" background-color: #ffffcc;"> <a href='/people/james-taylor/'>James Taylor</a>, <a href='http://emory.edu/'>Emory University</a> <br /> <a href='/src/people/nate/'>Nate Coraor</a>, <a href='http://psu.edu/'>Penn State University</a> </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>

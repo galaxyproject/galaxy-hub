@@ -52,4 +52,4 @@ The session will conclude with a commitment to grow a community of interested pa
 Galaxy is a widely used and deployed open-source platform that integrates thousands of analysis tools, and supports data integration and analysis, workflow creation, data visualization, and sharing and publishing your analyses and pipelines. Galaxy is also *a global community* of researchers, programmers, trainers, and users all doing and supporting data intensive research.
 
 Interested? Then we hope to see you at INCOB.<br />
-[Dave Clements](/people/dave-clements/index.md), [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), and [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/)
+[Dave Clements](/people/dave-clements/), [Gareth Price](https://qfab.org/team-member/dr-gareth-price), [Nuwan Goonesekera](https://www.melbournebioinformatics.org.au/people/nuwan-goonasekera/), and [Simon Gladman](https://galaxyproject.org/blog/2018-12-cotm-simon-gladman/)

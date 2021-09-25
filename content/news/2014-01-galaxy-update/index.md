@@ -32,4 +32,4 @@ If you have anything you would like to see in the next *[Galaxy Update](/src/gal
 
 Best wishes to you and yours for a happy and spectacular 2014,
 
-[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

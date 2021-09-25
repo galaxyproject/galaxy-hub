@@ -25,4 +25,4 @@ The [25th Edition of Galaxy Update is out](/src/galaxy-updates/2014-02/index.md)
 
 If you have anything you would like to see in the next *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
 
-[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

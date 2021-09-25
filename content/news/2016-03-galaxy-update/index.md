@@ -23,4 +23,4 @@ The **[March 2016 Galactic News](/src/galaxy-updates/2016-03/index.md)** is hot 
 * [Three new Galaxy servers](/src/galaxy-updates/2016-03/index.md#new-public-galaxy-servers)
 * [New ToolShed Contributions](/src/galaxy-updates/2016-03/index.md#toolshed-contributions)
 
-[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

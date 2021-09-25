@@ -19,4 +19,4 @@ There's also a [Galaxy UK Tour](/src/galaxy-updates/2014-05/index.md#uk-may-2014
 
 As always, there are [new papers](/src/galaxy-updates/2014-05/index.md#new-papers) (47 of them, including four we highlighted), [new public Galaxy Servers](/src/galaxy-updates/2014-05/index.md#new-public-servers) ([Globus Genomics Proteomics](/src/galaxy-updates/2014-05/index.md#globus-genomics-proteomics) and [SunLab Galaxy](/src/galaxy-updates/2014-05/index.md#sunlab)), [new jobs](/src/galaxy-updates/2014-05/index.md#whos-hiring) (7 postings in 6 countries), [new tools in the project ToolShed](/src/galaxy-updates/2014-05/index.md#galaxy-project-toolshed-new-repositories) (um, *lots*), and a [new public ToolShed](/src/galaxy-updates/2014-05/index.md#new-public-toolsheds) (at the [Dutch Techcentre for Life Sciences (DTL)](http://www.dtls.nl/dtl/).
 
-[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

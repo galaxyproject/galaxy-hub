@@ -30,4 +30,4 @@ Some highlights from the **[May Galaxy News](/src/galaxy-updates/2016-05/index.m
 
 Don't miss those deadlines, and [see you in June](https://web.archive.org/web/http://gcc2016.iu.edu/),
 
-[Dave Clements](/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

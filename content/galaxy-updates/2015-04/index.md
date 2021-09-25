@@ -208,7 +208,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
     <th> April 16 </th>
     <td> <em><a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'>GalaxyAdmins April 2015 Meetup</a></em> </td>
     <td> <em>Online</em> </td>
-    <td> <a href='/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a>, Carrie Ganote </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/'>Dave Clements</a>, Carrie Ganote </td>
   </tr>
   <tr>
     <th> April 20-21 </th>
@@ -493,7 +493,7 @@ This is mostly an incremental bug fix release with the following summary of chan
 
 Enjoy and please let us know what you think,
 
-[Enis](/people/enis-afgan/index.md) & [John](/people/john-chilton/index.md) & [Nicola Soranzo](/src/people/nicola-soranzo/) & Simone Leo & [Helena Rasche](/src/people/helena-rasche/)
+[Enis](/people/enis-afgan/) & [John](/people/john-chilton/) & [Nicola Soranzo](/src/people/nicola-soranzo/) & Simone Leo & [Helena Rasche](/src/people/helena-rasche/)
 
 ## Planemo 0.6.0
 

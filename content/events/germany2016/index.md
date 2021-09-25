@@ -39,4 +39,4 @@ Please let us know what you are interesting in.
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md) or [Björn Grüning](/src/people/bjoern-gruening/)
+Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/src/people/bjoern-gruening/)

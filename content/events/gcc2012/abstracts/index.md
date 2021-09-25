@@ -18,7 +18,7 @@ Abstracts for talks that were presented at the [GCC2012 main sessions](/src/even
 
 <div class='right'><img src="/src/images/people/anton.jpg" alt="" width="120" />&nbsp;<img src="/src/images/people/james.jpg" alt="" width="120" /></div>
 
-**[Anton Nekrutenko](/people/anton/index.md)<sup>1</sup> and [James Taylor](/src/people/james-taylor/)<sup>2</sup>**
+**[Anton Nekrutenko](/people/anton/)<sup>1</sup> and [James Taylor](/src/people/james-taylor/)<sup>2</sup>**
 
  <sup>1</sup> [Penn State University](http://psu.edu/)<br />
  <sup>2</sup> [Emory University](http://emory.edu/)
@@ -229,7 +229,7 @@ Contact: support@oqtans.org; ratschg@mskcc.org
 
 <div class='right'><img src="/src/events/gcc2012/abstracts/Minevich.jpg" alt="" width="100" /></div>
 
-**Gregory Minevich<sup>1</sup>**, Danny Park<sup>1</sup>, Richard J. Poole<sup>1</sup>, [Daniel Blankenberg](/people/dan/index.md)<sup>2</sup>, [Anton Nekrutenko](/src/people/anton/)<sup>2</sup> and Oliver Hobert<sup>1</sup><br />
+**Gregory Minevich<sup>1</sup>**, Danny Park<sup>1</sup>, Richard J. Poole<sup>1</sup>, [Daniel Blankenberg](/people/dan/)<sup>2</sup>, [Anton Nekrutenko](/src/people/anton/)<sup>2</sup> and Oliver Hobert<sup>1</sup><br />
 
  <sup>1</sup> Department of Biochemistry and Molecular Biophysics, Howard Hughes Medical Institute, Columbia University Medical Center, New York, NY, USA<br />
  <sup>2</sup> Center for Comparative Genomics and Bioinformatics, Penn State University, University Park, PA, USA<br />

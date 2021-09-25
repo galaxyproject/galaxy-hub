@@ -106,4 +106,4 @@ We recommend [TweetDeck](https://tweetdeck.twitter.com/) for using Twitter.  Twe
 
 See you on Twitter,
 
-[Dave Clements](/people/dave-clements/index.md), [Martin Cech](/people/marten/index.md), [Mo Heydarian](/src/people/mo-heydarian/), [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/) and Nicola Soranzo
+[Dave Clements](/people/dave-clements/), [Martin Cech](/people/marten/), [Mo Heydarian](/src/people/mo-heydarian/), [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/) and Nicola Soranzo

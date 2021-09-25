@@ -6,10 +6,10 @@ date: "2015-01-28"
 
 The first [GalaxyAdmins](/src/community/galaxy-admins/index.md) [meetup of 2015](/src/community/galaxy-admins/meetups/2015-02-19/index.md) will happen online [on Thursday, 19 February](http://bit.ly/1yZJSkN).  [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/news/2014-questionnaire/index.md) will be presented by [Dave Clements](/people/dave-clements/index.md), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/src/galaxy-team/index.md), and   [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/) will lead a short discussion on *GalaxyAdmins direction*.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/news/2014-questionnaire/index.md) will be presented by [Dave Clements](/people/dave-clements/), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/src/galaxy-team/), and   [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/) will lead a short discussion on *GalaxyAdmins direction*.
 
 Thanks to everyone for letting us know what dates and times worked best for you.  This time and day of the week worked for a remarkable 91% of respondents.
 
 We are looking forward to starting this group again,
 
-[Hans-Rudolf Hotz](/people/hansrudolf-hotz/index.md) and [Dave Clements](/src/people/dave-clements/)
+[Hans-Rudolf Hotz](/people/hansrudolf-hotz/) and [Dave Clements](/src/people/dave-clements/)
