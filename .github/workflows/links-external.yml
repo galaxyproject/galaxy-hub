@@ -1,4 +1,4 @@
-name: Check Links
+name: Check External Links
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   check_links:
-    name: Check Links
+    name: Check External Links
     runs-on: ubuntu-latest
     steps:
       - name: Link Checker
@@ -39,6 +39,6 @@ jobs:
         uses: peter-evans/create-issue-from-file@v3
         with:
           issue-number: 851
-          title: Link Checker Report (updated daily)
+          title: External Link Checker Report (updated daily)
           content-filepath: ./lychee/out.md
           labels: report, automated issue
