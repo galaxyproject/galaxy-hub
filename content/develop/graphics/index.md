@@ -2,7 +2,7 @@
 
 ## Images
 
-For logos and other (mostly wiki-related) images please see [Images](/images/) page. 
+For logos and other (mostly wiki-related) images please see [Images](/src/images/index.md) page. 
 
 ## Icons
 
@@ -40,151 +40,251 @@ We use Font Awesome (FA) icons and they should carry the same or very similar me
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/file-o/'>file-folder-o</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/search.png" /> </td>
+    <td>
+
+![](./search.png)
+
+</td>
     <td> fa-search </td>
     <td> Search within the domain </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/search/'>search</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/pencil.png" /> </td>
+    <td>
+
+![](./pencil.png)
+
+</td>
     <td> fa-pencil </td>
     <td> Edit the corresponding item </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/pencil/'>pencil</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/times.png" /> </td>
+    <td>
+
+![](./times.png)
+
+</td>
     <td> fa-times </td>
     <td> Delete the corresponding item </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/times/'>times</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/eye.png" /> </td>
+    <td>
+
+![](./eye.png)
+
+</td>
     <td> fa-eye </td>
     <td> View the connected data </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/eye/'>eye</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/tags.png" /> </td>
+    <td>
+
+![](./tags.png)
+
+</td>
     <td> fa-tags </td>
     <td> Edit tags for datasets, histories... </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/tags/'>tags</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/check-square-o.png" /> </td>
+    <td>
+
+![](./check-square-o.png)
+
+</td>
     <td> fa-check-square-o </td>
     <td> Switch to batch mode processing </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/check-square-o/'>check-square-o</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/comment.png" /> </td>
+    <td>
+
+![](./comment.png)
+
+</td>
     <td> fa-comment </td>
     <td> Edit annotations </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/comment/'>comment</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/refresh.png" /> </td>
+    <td>
+
+![](./refresh.png)
+
+</td>
     <td> fa-refresh </td>
     <td> Refresh / reload / run again (job) </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/refresh/'>refresh</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/th.png" /> </td>
+    <td>
+
+![](./th.png)
+
+</td>
     <td> fa-th </td>
     <td> Scratchbook </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/th/'>th</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/cog.png" /> </td>
+    <td>
+
+![](./cog.png)
+
+</td>
     <td> fa-cog </td>
     <td> History menu / Configuration / Settings </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/cog/'>cog</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/upload.png" /> </td>
+    <td>
+
+![](./upload.png)
+
+</td>
     <td> fa-upload </td>
     <td> Upload data to Galaxy </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/upload/'>upload</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/trash-o.png" /> </td>
+    <td>
+
+![](./trash-o.png)
+
+</td>
     <td> fa-trash-o </td>
     <td> Delete </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/trash-o/'>trash-o</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/exclamation-triangle.png" /> </td>
+    <td>
+
+![](./exclamation-triangle.png)
+
+</td>
     <td> fa-exclamation-triangle </td>
     <td> Warning </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/exclamation-triangle/'>exclamation-triangle</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/times-circle.png" /> </td>
+    <td>
+
+![](./times-circle.png)
+
+</td>
     <td> fa-times-circle </td>
     <td> Close the popup / clear search </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/times-circle/'>times-circle</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/plus.png" /> </td>
+    <td>
+
+![](./plus.png)
+
+</td>
     <td> fa-plus </td>
     <td> Add element/item </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/plus/'>plus</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/download.png" /> </td>
+    <td>
+
+![](./download.png)
+
+</td>
     <td> fa-download </td>
     <td> Download (library item) </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/download/'>download</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/book.png" /> </td>
+    <td>
+
+![](./book.png)
+
+</td>
     <td> fa-book </td>
     <td> Galaxy History </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/book/'>book</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/question-circle.png" /> </td>
+    <td>
+
+![](./question-circle.png)
+
+</td>
     <td> fa-question-circle </td>
     <td> Help </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/question-circle/'>question-circle</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/info-circle.png" /> </td>
+    <td>
+
+![](./info-circle.png)
+
+</td>
     <td> fa-info-circle </td>
     <td> View details </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/info-circle/'>info-circle</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/floppy-o.png" /> </td>
+    <td>
+
+![](./floppy-o.png)
+
+</td>
     <td> fa-floppy-o </td>
     <td> Download (history item) </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/floppy-o/'>floppy-o</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/bar-chart-o.png" /> </td>
+    <td>
+
+![](./bar-chart-o.png)
+
+</td>
     <td> fa-bar-chart-o </td>
     <td> Visualize data </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/bar-chart-o/'>bar-chart-o</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/plus-circle.png" /> </td>
+    <td>
+
+![](./plus-circle.png)
+
+</td>
     <td> fa-plus-circle </td>
     <td> Create a new tab </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/plus-circle/'>plus-circle</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/minus-circle.png" /> </td>
+    <td>
+
+![](./minus-circle.png)
+
+</td>
     <td> fa-minus-circle </td>
     <td> Remove a tab </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/minus-circle/'>minus-circle</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/magic.png" /> </td>
+    <td>
+
+![](./magic.png)
+
+</td>
     <td> fa-magic </td>
     <td> Open wizard to create something new </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/magic/'>magic</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/develop/graphics/caret-left.png" /> </td>
+    <td>
+
+![](./caret-left.png)
+
+</td>
     <td> fa-caret-left </td>
     <td> Return to previous page/element </td>
     <td> <a href='http://fortawesome.github.io/Font-Awesome/icon/caret-left/'>caret-left</a> </td>
