@@ -130,7 +130,7 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 ## IUC Contribution Fest - Metagenomics Tools and Workflows
 
-[We](/src/iuc/index.md) are planning a [remote hackathon on 30th of November and 1st of December for developers to work mainly on Galaxy metagenomic tools](https://github.com/galaxyproject/tools-iuc/issues/299).
+[We](/iuc/) are planning a [remote hackathon on 30th of November and 1st of December for developers to work mainly on Galaxy metagenomic tools](https://github.com/galaxyproject/tools-iuc/issues/299).
 
 The remote nature of this gives people who don't have the opportunity to come to GCC hackathons (which have always been productive and a lot of fun) a chance to participate in a Galaxy hackathon. Having a well defined topic will allow us to accomplish a lot and let people who don't have particular tasks in mind find something to work on very quickly.
 
@@ -185,7 +185,7 @@ Video and slides for the [GalaxyAdmins meetup on October 15 are now available](/
 
 ## Upcoming Events
 
-There are [upcoming events](/src/events/index.md) on 3 continents in 4 countries, *and a veritable globular cluster of events in France this month*.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/events/) on 3 continents in 4 countries, *and a veritable globular cluster of events in France this month*.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
 <a href='http://www.festivalofgenomicscalifornia.com/'><img src="/src/images/logos/FestivalOfGenomicsCaliforniaLogo.png" alt="3 Workshop: Galaxy for the Analysis of Very Large Biomedical Data; Common Workflow Language on Galaxy, Part of Portable Bioinformatics; Single-Cell Sequencing: Analysis & Visualization of Copy Number Variations" height="60" /></a>
@@ -247,7 +247,7 @@ There are [upcoming events](/src/events/index.md) on 3 continents in 4 countries
     <th> November 30 - December 1 </th>
     <td> <a href='https://github.com/galaxyproject/tools-iuc/issues/299'>IUC Contribution Fest - Metagenomics Tools and Workflows</a> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='IUC'>/src/iuc/index.md</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
+    <td> <a href='IUC'>/iuc/</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -338,7 +338,7 @@ The Galaxy is expanding! Please help it grow.
 * [Software Developer / Bioinformatician](https://ig14.i-grasp.com/fe/tpl_embl01.asp?s=4A515F4E5A565B1A&jobid=54309,8734341283&key=64564906&c=342372129814&pagestamp=seqbdpnrnmbvdpxtgb), European Molecular Biology Laboratory (EMBL), Heidelberg, Germany
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -346,7 +346,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[1 new publicly accessible Galaxy servers](/src/use/index.md) was added in October, bringing the total dangerously close to 80.
+[1 new publicly accessible Galaxy servers](/use/) was added in October, bringing the total dangerously close to 80.
 
 ## Galaxy@PRABI
 
@@ -420,7 +420,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
  **Mid 2015 Galaxy CloudMan Release**
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
 <div class='indent'>
    This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/src/cloudman/getting-started/index.md) documentation. 
@@ -441,7 +441,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
  **Pulsar**
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
- **[CloudMan](/src/cloudman/index.md) **
+ **[CloudMan](/cloudman/) **
    The [most recent edition of CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
@@ -456,12 +456,12 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -476,7 +476,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 * **University of Minnesota Minnesota Supercomputing Institute Research Informatics Solutions**
     [RIS](https://www.msi.umn.edu/about/staff/riss) is a group of experienced bioinformatics experts within the Supercomputing Institute at the University of Minnesota.
 
-And 2 new **[Community Log Board](/src/blog/index.md)** entries were added as well.  Both are about wrapping Tools for Galaxy:
+And 2 new **[Community Log Board](/blog/)** entries were added as well.  Both are about wrapping Tools for Galaxy:
 
 * **[Galaxy Tool Generating Dataset Collections](http://web.science.mq.edu.au/~cassidy/2015/10/21/galaxy-tool-generating-datasets/)**
     [Steve Cassidy](http://web.science.mq.edu.au/~cassidy/wordpress/about-steve-cassidy/) documented how create dataset collections in Galaxy tool definitions. (And [Alveo](http://alveo.edu.au/) is also a cool, non-life science application of Galaxy.)

@@ -13,7 +13,7 @@ title: Basic Workflow Editing
 
 In many cases, a workflow can be directly [extracted from a history](/src/learn/advanced-workflow/extract/index.md) and run without any changes. 
 
-However, in certain cases, tools require that small changes are edited in to ensure proper output &rarr; input connections. Plus creating a new workflow from an existing workflow is a quick way to develop a new, but similar, process. Knowing how to perform *basic workflow editing* is a valuable skill for all [Galaxy](/src/use/index.md) users.
+However, in certain cases, tools require that small changes are edited in to ensure proper output &rarr; input connections. Plus creating a new workflow from an existing workflow is a quick way to develop a new, but similar, process. Knowing how to perform *basic workflow editing* is a valuable skill for all [Galaxy](/use/) users.
 
 **In short**: even just learning how to make small changes makes workflows accessible to everyone
 
@@ -21,7 +21,7 @@ However, in certain cases, tools require that small changes are edited in to ens
 
 <div class='left'><img src="/src/images/learn/workflow_menu_edit_nav.png" alt="workflow menu edit" width="500" /></div>
 
-Open **[usegalaxy.org](http://usegalaxy.org)** (or any [Galaxy](/src/use/index.md)) from any view. 
+Open **[usegalaxy.org](http://usegalaxy.org)** (or any [Galaxy](/use/)) from any view. 
 <br />
 <br />
 <br />

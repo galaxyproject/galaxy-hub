@@ -166,7 +166,7 @@ An abstracted interface has been created for the data manager to download, gener
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ### New Tool Shed Features
 
@@ -295,7 +295,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[News](/src/news/index.md), ***[April 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-04)***
+[News](/news/), ***[April 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-04)***
 
 ## GCC2013
 

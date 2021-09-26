@@ -146,7 +146,7 @@ For package\_r\_3\_1\_2 you can install the tool I generated using the code show
           print("No arguments supplied.")
        }else{
        for(i in 1:length(ourargs)){
-            eval(parse(text=ourargs[i](/src/i/index.md)))
+            eval(parse(text=ourargs[i](/i/)))
        }
     }
 
@@ -173,7 +173,7 @@ For package\_r\_3\_1\_2 you can install the tool I generated using the code show
       }
     }
 
-    our_packages = strsplit(ourpackages," ")[1](/src/1/index.md)
+    our_packages = strsplit(ourpackages," ")[1](/1/)
     ps=unesc(xmlprefix)
     pe="?raw=true</package>"
     print(paste('tardir=',tardir,'xmlprefix=',xmlprefix,'ourpackages=',ourpackages,'OUTPATH=',OUTPATH))

@@ -116,7 +116,7 @@ There will be two [GalaxyAdmins](/src/community/galaxy-admins/index.md) [meetups
 
 ## June, July, and August Events
 
-There are [a plentitude of Galaxy related events coming up](/src/events/index.md). Here's what's coming up over the summer:
+There are [a plentitude of Galaxy related events coming up](/events/). Here's what's coming up over the summer:
 
 <div class='center'> 
 <a href='/src/events/asms2016/index.md'><img src="/src/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
@@ -299,7 +299,7 @@ The [project and the developer community](/galaxy-team/) has published a new pap
 
   [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](https://doi.org/10.1093/nar/gkw343), *Nucleic Acids Research* (2 May 2016), doi:10.1093/nar/gkw343
 
-that describes recent updates to the Galaxy platform in general and to the project's [usegalaxy.org Galaxy server](/src/main/index.md) in particular.  Check it out.
+that describes recent updates to the Galaxy platform in general and to the project's [usegalaxy.org Galaxy server](/main/) in particular.  Check it out.
 
 ## Tagged Publications
 
@@ -375,7 +375,7 @@ The Galaxy is expanding! Please help it grow.
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 * [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -384,7 +384,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-No [new publicly accessible Galaxy servers](/src/use/index.md) were added to [the list](/src/use/index.md) in May.  To make up for this sad state of affairs, we created the ...
+No [new publicly accessible Galaxy servers](/use/) were added to [the list](/use/) in May.  To make up for this sad state of affairs, we created the ...
 
 <div class='right'><br />
 <div class='center'>
@@ -395,7 +395,7 @@ No [new publicly accessible Galaxy servers](/src/use/index.md) were added to [th
 
 ## New Semi-Public Galaxy Servers Directory
 
-The [Semi-Public Galaxy Servers Directory](/src/use/index.md) lists Galaxy servers that aren't fully publicly accessible, but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
+The [Semi-Public Galaxy Servers Directory](/use/) lists Galaxy servers that aren't fully publicly accessible, but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
 Servers are classified by whom they are accessible to.  This can be based on research domain, geography based, or by membership in a multi-organization association that provides Galaxy Servers. 
 
@@ -406,12 +406,12 @@ Servers are classified by whom they are accessible to.  This can be based on res
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -474,7 +474,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 ## CloudMan 16.04
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
 
 **We just released an update to Galaxy CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
@@ -563,7 +563,7 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 # ToolShed Contributions
 
-Please welcome [Anthony Brétaudeau](https://www6.rennes.inra.fr/igepp/Listes-des-personnes/B/Bretaudeau-Anthony) from [BIPAA](https://www6.rennes.inra.fr/igepp/L-IGEPP/Plateformes/Plateforme-bioinformatique-pour-les-arthropodes-des-agroecosystemes) at [INRA](https://www6.rennes.inra.fr/igepp/) to the [IUC](/src/iuc/index.md).
+Please welcome [Anthony Brétaudeau](https://www6.rennes.inra.fr/igepp/Listes-des-personnes/B/Bretaudeau-Anthony) from [BIPAA](https://www6.rennes.inra.fr/igepp/L-IGEPP/Plateformes/Plateforme-bioinformatique-pour-les-arthropodes-des-agroecosystemes) at [INRA](https://www6.rennes.inra.fr/igepp/) to the [IUC](/iuc/).
 
 [ToolShed contributions for April and May](/src/toolshed/contributions/2016-05/index.md).
 

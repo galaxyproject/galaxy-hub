@@ -69,7 +69,7 @@ If called with the `--help` option, it will output usage information.  The datas
 <br />
 # Tool Shed
 
-The **[Tool Shed](/src/toolshed/index.md)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/src/toolshed/index.md)*
+The **[Tool Shed](/toolshed/)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/toolshed/)*
 
 ### New tool shed features
 
@@ -203,7 +203,7 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 <br />
 # Announcements
 
-[News](/src/news/index.md), *[October 2012 Galaxy Update](/src/galaxy-updates/2012-10/index.md)*
+[News](/news/), *[October 2012 Galaxy Update](/src/galaxy-updates/2012-10/index.md)*
 
 **[Highlights](/src/news/2012-10-galaxy-update/index.md):**
 

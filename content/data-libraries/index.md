@@ -45,13 +45,13 @@ Select folders to be imported. You can choose whether to `preserve directory str
 
 <div class="alert alert-warning trim-p" role="alert">
 
-For Galaxy [Main](/src/main/index.md) linking is discouraged since FTP folders are periodically cleaned up.
+For Galaxy [Main](/main/) linking is discouraged since FTP folders are periodically cleaned up.
 
 </div>
 
 # Administration
 
-Every library has to be created (and deleted) by an [admin](/src/admin/index.md) user but subsequently can be filled with datasets and folders by anyone with permissions. It has multiple levels of access control for the data inside ranqing from 'public' to 'one person only'.
+Every library has to be created (and deleted) by an [admin](/admin/) user but subsequently can be filled with datasets and folders by anyone with permissions. It has multiple levels of access control for the data inside ranqing from 'public' to 'one person only'.
 
 <div class="alert alert-info" role="alert">
 You save space on the Galaxy instance as every dataset in the library is stored only once no matter how many users are using it in their histories.

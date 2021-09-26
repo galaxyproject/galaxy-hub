@@ -30,9 +30,9 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 [<img class="float-right" src="/src/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." style="max-width: 200px" />](https://help.galaxyproject.org/)
 
-**We are pleased to announce *[Galaxy Help](https://help.galaxyproject.org/)*, the new Galaxy Community Q&A web site.**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/src/support/index.md).
+**We are pleased to announce *[Galaxy Help](https://help.galaxyproject.org/)*, the new Galaxy Community Q&A web site.**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/support/).
 
-Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which is being retired after almost 5 years of service.  (Galaxy BioStars was itself a replacement for the earlier *galaxy-user* mailing list.)  The Galaxy BioStars site will remain up as a read-only archive (and will still be searched by the [Galaxy Hub search](/src/search/index.md)).
+Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which is being retired after almost 5 years of service.  (Galaxy BioStars was itself a replacement for the earlier *galaxy-user* mailing list.)  The Galaxy BioStars site will remain up as a read-only archive (and will still be searched by the [Galaxy Hub search](/search/)).
 
 *[Join the discussion](https://help.galaxyproject.org/).*
 
@@ -54,7 +54,7 @@ Tired of sitting in the same old office/lab/cafe?  Here are some upcoming events
 
 [<img class="float-left" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
-The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
+The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
 **The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
 
@@ -68,7 +68,7 @@ Nominated topics can cover a wide range. For example:
 - Development and administration around Galaxy
 - Train the trainers
 
-This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](https://bit.ly/gcc2016noms), [2015](https://bit.ly/gcc2015vote), [2014](https://bit.ly/1s6NtMN), [2013](https://bit.ly/1i2j1gN) and the [Galaxy Events page](/src/events/index.md).
+This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](https://bit.ly/gcc2016noms), [2015](https://bit.ly/gcc2015vote), [2014](https://bit.ly/1s6NtMN), [2013](https://bit.ly/1i2j1gN) and the [Galaxy Events page](/events/).
 
 Training nomination is open from **December, 1st** to **December, 31**. Topics will be compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
 
@@ -99,7 +99,7 @@ Slides for presentations at [European Galaxy Days](/src/events/2018-europe-dev/i
 
 ## Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+These and [other Galaxy related events](/events/) are coming up in the next few months:
 
 <table class="table table-striped">
 <thead>
@@ -203,7 +203,7 @@ Seven out of eight of these papers are open access.
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) was launched lat month.  It lists every resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.
+The [Galaxy Platform Directory](/use/) was launched lat month.  It lists every resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.
 
 ## BioBix
 
@@ -260,9 +260,9 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
 
-There are two new *[Galactic Blog](/src/blog/index.md)* entries:
+There are two new *[Galactic Blog](/blog/)* entries:
 * **[Galaxy Tool Generator (GTG)](https://galaxy-tool-generator.readthedocs.io/en/latest/)**, by Ming Chen
 * **[Tutorial of the Month: "Reference-based RNA-Seq data analysis", selected by Saskia Hiltemann](/src/blog/2018-11-totm/index.md)**, by Bérénice Batut
 
@@ -290,7 +290,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md): distributed computing engineer and a full stack developer; see [this for more details on the positions](https://jobs.jhu.edu/job/Baltimore-Software-Engineer-MD-21218/442289500/, Baltimore, Maryland, United States).
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
 
@@ -330,7 +330,7 @@ And we would especially like to welcome new contributors [Anup Kumar](https://gi
 
 ## Hub
 
-* [Galaxy Federation](/src/federation/index.md), by [Enis Afgan](/people/enis-afgan/)
+* [Galaxy Federation](/federation/), by [Enis Afgan](/people/enis-afgan/)
 
 
 ---

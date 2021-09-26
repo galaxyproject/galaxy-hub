@@ -3,7 +3,7 @@ title: March 2012 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the March 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the March 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
@@ -44,7 +44,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatics Analyst @ U Virgina Bioinformatics Core](/src/news/bioinformatics-analyst-at-u-va/index.md)
 * [Bioinformatician / Sr. Database Developer @ GigaScience / BGI Hong Kong](/src/news/opening-at-giga-science-bgi/index.md)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -135,7 +135,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in February, including 
 * CREST (Clipping REveals STructure): maps somatic structural variation in cancer genomes
-* MACS 1.4 ChIP-Seq peak calling ([Main](/src/main/index.md) has 1.3)
+* MACS 1.4 ChIP-Seq peak calling ([Main](/main/) has 1.3)
 * java_genomics_toolkit: NGS, especially WIG transformations (add/log/Z-score/etc) and visualization (KMeans/heatmaps)
 * mrFAST and mrsFAST: map Illumina short reads to reference assemblies; fast and memory-efficient 
 * mrCaNaVaR: Read depth analysis method to characterize segmental duplications & predict absolute copy numbers
@@ -147,6 +147,6 @@ At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed
 * [Tutorial: Using the UCSC Genome Browser and Galaxy to study regulatory sequence evolution in Drosophila](http://bergmanlab.smith.man.ac.uk/?p=1248), by [Casey Berman](http://www.ls.manchester.ac.uk/people/profile/?personid=235)
 * [Notes on installing Galaxy](http://biocoders.net/2012/02/20/guest-post-notes-on-installing-galaxy/) by [Paul-Michael Agapow](http://biocoders.net/members/agapow/)
 
-**Galaxy-Announce now the default for new users on [Main](/src/main/index.md)**
+**Galaxy-Announce now the default for new users on [Main](/main/)**
 
-Newly registered users on [Main](/src/main/index.md), the Galaxy project's public server, who check "Subscribe to a mailing list" at registration time, are now subscribed to the moderated and low-volume [Galaxy-Announce mailing list](/src/mailing-lists/index.md), instead of the high-volume, and sometimes overwhelming [Galaxy-User](/src/mailing-lists/index.md) list.  This change was also made in the Galaxy source.
+Newly registered users on [Main](/main/), the Galaxy project's public server, who check "Subscribe to a mailing list" at registration time, are now subscribed to the moderated and low-volume [Galaxy-Announce mailing list](/src/mailing-lists/index.md), instead of the high-volume, and sometimes overwhelming [Galaxy-User](/src/mailing-lists/index.md) list.  This change was also made in the Galaxy source.

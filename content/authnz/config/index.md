@@ -8,7 +8,7 @@ for user-specific docs, please refer to the [Use page](/src/authnz/use/index.md)
 
 # Galaxy Authentication Configuration Options
 
-Galaxy offers [various methods for user authentication](/src/authnz/index.md#user-authentication-and-authorization)
+Galaxy offers [various methods for user authentication](/authnz/#user-authentication-and-authorization)
 (aka login). All the methods share some common concepts, which are explained on
 this page. The method-specific configurations are explained at the following
 pages:

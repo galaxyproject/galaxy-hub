@@ -93,7 +93,7 @@ Even though the event ended, it planted a seed for a new Galaxy community that s
 
 # Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md)  coming up in the next few months:
+These and [other Galaxy related events](/events/)  coming up in the next few months:
 
 <table class="table table-striped">
 <thead>
@@ -281,13 +281,13 @@ The Galaxy is expanding! Please help it grow.
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Another public server was added to the directory in April:
+There are [over 100 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Another public server was added to the directory in April:
 
 ## IRProfiler
 

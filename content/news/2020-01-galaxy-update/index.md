@@ -24,7 +24,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # Events
 
-There is an unusually rich (and aromatic!) mix of [upcoming Galaxy related events](/src/events/index.md):
+There is an unusually rich (and aromatic!) mix of [upcoming Galaxy related events](/events/):
 
 <div class="card-deck">
 
@@ -39,7 +39,7 @@ There is an unusually rich (and aromatic!) mix of [upcoming Galaxy related event
 The **[Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/)** needs
 * **[Nominate Training Topics](https://bcc2020.github.io/blog/training-nom) by January 17**
 
-BCC is [GCC](/src/gcc/index.md) + [BOSC](https://www.open-bio.org/events/bosc/about/#Past_BOSCs), and will be held in July in Toronto, right after [ISMB 2020](https://www.iscb.org/ismb2020) in Montréal. 
+BCC is [GCC](/gcc/) + [BOSC](https://www.open-bio.org/events/bosc/about/#Past_BOSCs), and will be held in July in Toronto, right after [ISMB 2020](https://www.iscb.org/ismb2020) in Montréal. 
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
@@ -109,7 +109,7 @@ An [introduction to Single-Cell Genomics](https://www.earlham.ac.uk/single-cell-
 
 There are
 
-* [13 upcoming events](/src/events/index.md)
+* [13 upcoming events](/events/)
 * on 3 continents, plus online
 * in US, Japan, Belgium, Germany, Spain, France, UK, and Canada.
 
@@ -251,7 +251,7 @@ Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
 
 <div class="card-deck">
 
@@ -294,7 +294,7 @@ This [Galaxy docker instance](https://hub.docker.com/r/mpaya/epigenomics_galaxy)
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 

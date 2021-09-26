@@ -1,21 +1,21 @@
 ---
  title: Registering Accounts
 ---
-[Back to Support Hub](/src/support/index.md)
+[Back to Support Hub](/support/)
 
 # Registering for a Galaxy account
 
-Having your own account on the public **[Test](/src/test/index.md)** and/or **[Main](/src/main/index.md)** server means that you can save histories, work with more data, and get the most out of Galaxy's functionality. 
+Having your own account on the public **[Test](/test/)** and/or **[Main](/main/)** server means that you can save histories, work with more data, and get the most out of Galaxy's functionality. 
 
 Accounts are created under the **User** masthead menu. This same menu is also where you will log in and out of Galaxy.
 
-Be sure to note that the public [Test](/src/test/index.md) and [Main](/src/main/index.md) instance **usage policies are <span class="red">one account per user<span class="grey"></span></span>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'll want the email!). 
+Be sure to note that the public [Test](/test/) and [Main](/main/) instance **usage policies are <span class="red">one account per user<span class="grey"></span></span>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'll want the email!). 
 
 The activation email will include a link and an abbreviated terms of usage explaination:
 
 > _By clicking on the above link and opening a Galaxy account, you are also confirming that you have read and agreed to Galaxy's Terms and Conditions for the use of this service (https://usegalaxy.org/static/terms.html). Terms include a quota limit of one account per user. Attempts to subvert this limit by creating multiple accounts or through any other method may result in termination of all associated accounts and data._
 
-Most **[other public Galaxy servers](/src/use/index.md)** have similar usage terms. Ask them if this is not clear, before multiple accounts are problems. Contact information for Galaxy servers is usually on the home page of the server and/or on that server's directory page.
+Most **[other public Galaxy servers](/use/)** have similar usage terms. Ask them if this is not clear, before multiple accounts are problems. Contact information for Galaxy servers is usually on the home page of the server and/or on that server's directory page.
 
 # Updating account preferences
 

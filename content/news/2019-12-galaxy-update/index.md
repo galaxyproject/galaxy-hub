@@ -79,7 +79,7 @@ This week-long hands-on training will feature what you need to know to set up yo
 
 There are
 
-* [12 upcoming events](/src/events/index.md)
+* [12 upcoming events](/events/)
 * on 3 continents, plus online
 * in India, US, Belgium, Germany, France, Spain, and the UK.
 
@@ -160,7 +160,7 @@ Publications are tagged with how they use, extend or reference Galaxy.  The past
 
 # Galactic Blog Activity
 
-[Two new entries](/src/blog/index.md) in the past month, both related to UseGalaxy.eu..
+[Two new entries](/blog/) in the past month, both related to UseGalaxy.eu..
 
 <div class="card-deck">
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
@@ -183,7 +183,7 @@ By Ben Orsburn.  The arguments are building up for why you need this.
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
 
 <div class="card-deck">
 
@@ -215,7 +215,7 @@ Version 2 of [Laniakea](/src/use/laniakea/index.md) announced at the November [E
 
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -305,7 +305,7 @@ By [Anne Fouilloux](https://training.galaxyproject.org/training-material/hall-of
 
 # Who's Hiring
 
-Hey Good People!  It's hard to find good people, such as yourself, but surely you know good people who could help the good people below fill their open positions.  (And if you have a Galaxy-related opening then please send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).)
+Hey Good People!  It's hard to find good people, such as yourself, but surely you know good people who could help the good people below fill their open positions.  (And if you have a Galaxy-related opening then please send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).)
 
 <div class="card-deck">
 

@@ -5,7 +5,7 @@ title: Missouri Workshop Tour 2013
 
 
 
-In St. Louis or Columbia?  A [Galaxy Workshop Tour](/src/events/index.md) is happening in Missouri the week of April 29.  See below for participating institutions.
+In St. Louis or Columbia?  A [Galaxy Workshop Tour](/events/) is happening in Missouri the week of April 29.  See below for participating institutions.
 
 <table>
   <tr>
@@ -22,4 +22,4 @@ In St. Louis or Columbia?  A [Galaxy Workshop Tour](/src/events/index.md) is hap
 
 
 <br /><br />
-See the [Galaxy Events page](/src/events/index.md) for other upcoming training events.
+See the [Galaxy Events page](/events/) for other upcoming training events.

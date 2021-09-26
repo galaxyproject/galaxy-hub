@@ -9,7 +9,7 @@ So, how can you do that?  It depends on your research:
 | If you are | then please |
 | ---- | ---- |
 | **Referring to the Galaxy Project in general** | Cite the [primary publication](#primary-publication). |
-| **Referring to specific [public Galaxy platforms](/src/use/index.md) or using them in your methods** | Cite [that platform's primary publication](#which-galaxy). |
+| **Referring to specific [public Galaxy platforms](/use/) or using them in your methods** | Cite [that platform's primary publication](#which-galaxy). |
 | **Using a local or temporary cloud instance** | Cite the [primary publication](#primary-publication) and mention that a local or cloud based Galaxy was used.  (Note: We suspect that this is the most under-reported use of Galaxy.) |
 | **Referencing a specific aspect of Galaxy** | Cite a [publication about that specific topic](#citing-specific-galaxy-components-features), if one is available. Topics with pubs include: <br />&bull; [Galaxy Application Programming Interface (API)](#application-programming-interface-api) <br />&bull; [Cloud](#cloud) <br />&bull; [Data Managers](#data-managers) <br />&bull; [DataSource Tools](#datasource-tools) <br />&bull; [External Display Applications](#external-display-applications) <br />&bull; [Interactive Environments](#interactive-environments) <br />&bull; [Reproducibility](#reproducibility) <br />&bull; [ToolShed](#toolshed) <br />&bull; [Training & Education](#training-education) |
 | **Referencing a Galaxy web resource other than those above** | See [Citing Medicine: NLM Style Guide for Authors, Editors, and Publishers](http://www.ncbi.nlm.nih.gov/books/NBK7256/) for how to cite [web pages](http://www.ncbi.nlm.nih.gov/books/NBK7274/), [wikis](http://www.ncbi.nlm.nih.gov/books/NBK7266/#A61262), and just about everything else. |
@@ -18,7 +18,7 @@ So, how can you do that?  It depends on your research:
 
 # Which Galaxy?
 
-If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of the [other public Galaxy servers, cloud sevices, VMs or containers](/src/use/index.md) (and see each resource's page for citation info), or a local install?
+If you *used* Galaxy in your methods, please specify which instances of Galaxy were used: Was it [usegalaxy.org](https://usegalaxy.org/), one of the [other public Galaxy servers, cloud sevices, VMs or containers](/use/) (and see each resource's page for citation info), or a local install?
 
 Some excellent examples (*emphasis added*):
 
@@ -26,7 +26,7 @@ Some excellent examples (*emphasis added*):
 
      "The sequencing data were uploaded to the Galaxy web platform, and *we used the public server at usegalaxy.org to analyze the data ([Afgan et al. 2016](http://www.g3journal.org/content/7/9/2979#ref-1))*."
 
-* Used a [public server](/src/use/index.md): from [Bhargava, *et al.*](https://www.nature.com/articles/s41598-017-07791-8):
+* Used a [public server](/use/): from [Bhargava, *et al.*](https://www.nature.com/articles/s41598-017-07791-8):
 
      "RAW files generated directly from the mass spectrometer *were imported into Galaxy-P platform<sup>[53](https://www.nature.com/articles/s41598-017-07791-8#ref-CR53)</sup> for protein identification and quantification<sup>[25](https://www.nature.com/articles/s41598-017-07791-8#ref-CR25), [51](https://www.nature.com/articles/s41598-017-07791-8#ref-CR51)</sup>.*"
 

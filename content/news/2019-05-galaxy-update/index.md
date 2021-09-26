@@ -84,7 +84,7 @@ During the day, we plan to have **GTN community calls** to discuss the recent ch
 
 # Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up:
+These and [other Galaxy related events](/events/) are coming up:
 
 <table class="table table-striped">
 <thead>
@@ -247,7 +247,7 @@ Dalel Ahmed, Aurore Comte, Franck Curk, Gilles Costantino, François Luro, Alexi
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in March:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in March:
 
 
 ## Single Cell Omics Galaxy workbench 
@@ -299,11 +299,11 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools) | | 2 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 2 | [>SymD](https://www.zotero.org/groups/1732893/galaxy/tags/>SymD) | | | | | 
 ----
 
-[<img class="float-right" src="/src/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/src/blog/index.md)
+[<img class="float-right" src="/src/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/blog/)
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili) describe recent efforts to [Build up support for the Google Cloud Platform in Galaxy](/src/blog/2019-04-gcp/index.md).
+This month we have a *[Galactic Blog](/blog/)* post where [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili) describe recent efforts to [Build up support for the Google Cloud Platform in Galaxy](/src/blog/2019-04-gcp/index.md).
 
 ----
 
@@ -327,7 +327,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
   * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ---
 
@@ -337,7 +337,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 ## Hub 
 
-The [User Authentication and Authorization](/src/authnz/index.md) docs explain all of Galaxy's features that (a) enable users to login to Galaxy using their social and institutional identities (e.g., using their Google account), and (b) allows them to securely authorize Galaxy to access their private cloud-based resources. Both (a) and (b) are described for [admins (how to configure Galaxy for that feature)](/src/authnz/config/index.md) and [users (how to use that feature)](/src/authnz/use/index.md) separately. Many thanks to [Vahid Jalili](https://github.com/VJalili), [Kjell Petersen](https://github.com/kjellp), and [Enis Afgan](https://github.com/afgane) for their contributions. 
+The [User Authentication and Authorization](/authnz/) docs explain all of Galaxy's features that (a) enable users to login to Galaxy using their social and institutional identities (e.g., using their Google account), and (b) allows them to securely authorize Galaxy to access their private cloud-based resources. Both (a) and (b) are described for [admins (how to configure Galaxy for that feature)](/src/authnz/config/index.md) and [users (how to use that feature)](/src/authnz/use/index.md) separately. Many thanks to [Vahid Jalili](https://github.com/VJalili), [Kjell Petersen](https://github.com/kjellp), and [Enis Afgan](https://github.com/afgane) for their contributions. 
 
 Also see [Vahid Jalili](https://github.com/VJalili)'s slides on [User Authentication and Cloud Authorization in the Galaxy project](https://www.slideshare.net/jalilivahid/user-authentication-and-cloud-authorization-in-the-galaxy-project)
 

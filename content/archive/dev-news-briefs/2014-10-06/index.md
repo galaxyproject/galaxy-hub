@@ -3,7 +3,7 @@ title: Development News Brief
 date: 2014-10-06
 ---
 
-[All News Briefs](/src/docs/index.md)
+[All News Briefs](/docs/)
 <br />
 [Distribution Summary 2014_10_06](/src/news/2014-10-06-galaxy-distribution/index.md)
 
@@ -142,4 +142,4 @@ Several enhancements and improvements have been made to facilitate easier viewin
 # About Galaxy
 
 <div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/galaxy-project/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/docs/index.md) • [Servers](/src/use/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Issues](/src/issues/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/galaxy-team/)
+**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/admin/) • [Issues](/issues/) • [Big Picture](/src/galaxy-project/index.md) • [Community](/community/) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/cloudman/) • [Tool Shed](/toolshed/) • [Develop](/develop/) • [News Briefs](/docs/) • [Servers](/use/) • [Learn](/learn/) • [Support](/support/) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/news/) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/events/) • [Teach](/teach/) • [Issues](/issues/) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/galaxy-team/)

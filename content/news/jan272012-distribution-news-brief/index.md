@@ -10,7 +10,7 @@ date: "2012-01-28"
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.
 * Dynamic filtering, easy color options, and quicker indexing enhance [Trackster](/src/learn/visualization/index.md)
 * Set up your Galaxy instance to [run cluster jobs as the real user](/src/admin/config/performance/cluster/index.md), not the Galaxy owner
-* Improvements to metadata handling and searching in the [Tool Shed](/src/toolshed/index.md)
+* Improvements to metadata handling and searching in the [Tool Shed](/toolshed/)
 * Improved solutions for schema access, jobs management, & workflow imports and inputs.
 * New datatypes (Eland, XML), multiple tool enhancements, and bug fixes.
 

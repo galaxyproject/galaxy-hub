@@ -3,7 +3,7 @@ title: April 2012 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the April 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the April 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
@@ -51,7 +51,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatician @ U Edinburgh](http://www.jobs.ed.ac.uk/vacancies/index.cfm?fuseaction=vacancies.detail&vacancy_ref=3015457)
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -164,14 +164,14 @@ At least *15* new repositories were added to the [Galaxy Tool Shed](http://tools
 
 ## New Distribution
 
-There has been one [Galaxy distribution](/src/docs/index.md) in the past month.  The [most recent release (March 12)](/src/archive/dev-news-briefs/2012-03-12/index.md), includes these highlights:
+There has been one [Galaxy distribution](/docs/) in the past month.  The [most recent release (March 12)](/src/archive/dev-news-briefs/2012-03-12/index.md), includes these highlights:
 * **Emboss tools and datatypes** moving from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* in the **NEXT release**. Read more about the upcoming **[tool migrations...](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md)**
 * Galaxy tool [XML configuration](/src/galaxy-tool-panel/index.md#xml-configuration-files-used-to-populate-your-galaxy-tool-panel), managing [tool panel layout](/src/galaxy-tool-panel/index.md#managing-the-layout-of-your-galaxy-tool-panel), and Galaxy [tool versions](/src/galaxy-tool-version-lineage/index.md).
 * **RNA-Seq Tools:** Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0, Updated **[TopHat](http://tophat.cbcb.umd.edu/)** default parameters
 * **External Display Apps:** Added **[RViewer](http://rviewer.lbl.gov/rviewer/)**, Updated **[IGV](http://www.broadinstitute.org/igv/)**
 * Now visualize **[ENCODE](http://genome.ucsc.edu/ENCODE/) "peak" datatype tracks** in the Galaxy Track Browser (aka Trackster)
 * Multiple **Workflow** updates including enhancements to input dataset options, display modes, and sharing.
-* **[CloudMan](/src/cloudman/index.md)** now offers **[preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py)** and a **larger default tools volume** (10GB vs old 2GB).
+* **[CloudMan](/cloudman/)** now offers **[preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py)** and a **larger default tools volume** (10GB vs old 2GB).
 
 ## Other News
 
@@ -179,11 +179,11 @@ There has been one [Galaxy distribution](/src/docs/index.md) in the past month. 
 * [Analyzing epigenome data in context of genome evolution and human diseases](http://www.springerlink.com/content/l2184206p7583v75/), by  Feuerbach, *et al.*
 * [Analyzing Complete Genomics masterVar File through Galaxy](http://media.completegenomics.com/documents/Galaxy_demo_PDF.pdf), by [Complete Genomics](http://www.completegenomics.com/recordings/) (only viewable in Adobe Reader)
 
-**HTTPS is now the default for [Main](/src/main/index.md)**
+**HTTPS is now the default for [Main](/main/)**
 
-The Galaxy Project's public server ([usegalaxy.org](http://usegalaxy.org), "[Main](/src/main/index.md)") now uses HTTPS, the encrypted version of HTTP for all communication.
+The Galaxy Project's public server ([usegalaxy.org](http://usegalaxy.org), "[Main](/main/)") now uses HTTPS, the encrypted version of HTTP for all communication.
 
-**New Style for [Main](/src/main/index.md)**
+**New Style for [Main](/main/)**
 
 Have you noticed?  [usegalaxy.org](http://usegalaxy.org/) has a new style.
 

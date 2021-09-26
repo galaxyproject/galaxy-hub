@@ -45,7 +45,7 @@ Harris, R.S. (2007) *[Improved pairwise alignment of genomic DNA](http://www.bx.
 
 **[CloudMan](http://usegalaxy.org/cloud)**
 
-[CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
+[CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 This update brings a large number of updates and new features, the most prominent ones being:
 * Support for Eucalyptus cloud middleware; thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).
@@ -65,7 +65,7 @@ This update comes as a result of 175 code changesets; for a complete list of cha
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ### Improvements in the display of repository dependencies and contents in the tool shed
 
@@ -177,7 +177,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 <br />
 # Announcements
 
-[News](/src/news/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-12)***
+[News](/news/), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-12)***
 
 <div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 

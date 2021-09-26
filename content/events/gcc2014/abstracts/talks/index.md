@@ -173,7 +173,7 @@ An overview of where the Galaxy Project is and where it is going.
  
 **[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2014/VonKuster.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=555f1477-4676-425f-9701-ed70cee6d1ca)**
 
-The [Tool Shed](/src/toolshed/index.md) has become an integral part of the process for building and deploying Galaxy tools and other utilities.  In addition to tools, the Tool Shed supports Galaxy Data Managers, custom data types and exported Galaxy workflows.  This list will be extended to support additional utilities when appropriate.  The Tool Shed provides the ability to define relationships between repositories, enabling complementary utilities to be installed together.
+The [Tool Shed](/toolshed/) has become an integral part of the process for building and deploying Galaxy tools and other utilities.  In addition to tools, the Tool Shed supports Galaxy Data Managers, custom data types and exported Galaxy workflows.  This list will be extended to support additional utilities when appropriate.  The Tool Shed provides the ability to define relationships between repositories, enabling complementary utilities to be installed together.
 
 The Tool Shed assures reproducibility within Galaxy when utilities are installed from the Tool Shed using the streamlined installation process between the two applications.  An underlying principle of this assurance is that all versions of utilities available in the Tool Shed will always be accessible to any Galaxy instance.  This principle implies that a select development path should be followed to produce repositories that are optimal for sharing.
 

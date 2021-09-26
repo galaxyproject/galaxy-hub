@@ -11,7 +11,7 @@ If you have some you would like to have posted here, please send them to outreac
 
 <div class='center'>
 <div class='left'><img src="/src/events/gcc2012/photos/IntroWorkshop.jpg" alt="" width="300" /><br />Introduction to Galaxy Workshop</div>
-<div class='left'><img src="/src/events/gcc2012/photos/CloudManWorkshop.jpg" alt="" width="300" /><br />[CloudMan](/src/cloudman/index.md) Workshop</div>
+<div class='left'><img src="/src/events/gcc2012/photos/CloudManWorkshop.jpg" alt="" width="300" /><br />[CloudMan](/cloudman/) Workshop</div>
 <div class='left'><img src="/src/events/gcc2012/photos/UICForumHall.jpg" alt="" width="300" /><br />UIC Forum </div>
 <div class='left'><img src="/src/events/gcc2012/photos/ArchitectureWorkshop.jpg" alt="" width="300" /><br /> Galaxy Code Architecture Workshop</div>
 <div class='left'><img src="/src/events/gcc2012/photos/ToolShedWorkshop.jpg" alt="" width="300" /><br /> Tool Shed Workshop </div>

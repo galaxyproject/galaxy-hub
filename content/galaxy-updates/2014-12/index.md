@@ -3,7 +3,7 @@ title: December 2014 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the December 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the December 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Events
 
@@ -70,7 +70,7 @@ Please start giving some thought to what topics you would like to see covered at
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div>
 
-There are [upcoming events](/src/events/index.md) on two continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/events/) on two continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table>
   <tr class="th" >
@@ -235,7 +235,7 @@ The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -252,7 +252,7 @@ The prior bx.psu.edu list posting email addresses will continue to accept email,
 
 The [Galaxy-Training mailing list](https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/) is for anything related to training with Galaxy and training about Galaxy.  Galaxy-Training is also the official mailing of the [Galaxy Training Network](https://training.galaxyproject.org/), a world-wide group of training organizations that give Galaxy-based training.
 
-If you are at all interested in Galaxy Training then you are encouraged to [join the list](https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/). Messages to this list are publicly archived and will be included in the [Galaxy search engine](/src/search/index.md) as well.
+If you are at all interested in Galaxy Training then you are encouraged to [join the list](https://lists.galaxyproject.org/archives/list/galaxy-training@lists.galaxyproject.org/). Messages to this list are publicly archived and will be included in the [Galaxy search engine](/search/) as well.
 
 <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="200" /></a></div>
 
@@ -264,7 +264,7 @@ This brings total membership to [22 training organizations on 5 continents](http
 
 # New Public Servers
 
-Two new [public Galaxy servers](/src/use/index.md) were announced in November:
+Two new [public Galaxy servers](/use/) were announced in November:
 
 ## Pitagora-Galaxy
 
@@ -314,21 +314,21 @@ Two new [public Galaxy servers](/src/use/index.md) were announced in November:
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
 <div class='right'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a> </em> &nbsp;&nbsp;<br /> </td>
+    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a> </em> &nbsp;&nbsp;<br /> </td>
   </tr>
 </table>
 
 <br /><br />
 
-**There were no new [Log Board](/src/blog/index.md) or Deployment Catalog entries in November!**  Eek!  Please don't let this happen again!  
+**There were no new [Log Board](/blog/) or Deployment Catalog entries in November!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/src/blog/index.md)* and  *Deployment Catalog* *[Galaxy community hubs](/src/community/index.md)* were launched last your.  If you have a Galaxy deployment, or [experience](/src/blog/index.md) you want to share then please publish them **this month.**
+The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them **this month.**
 
 
 # New Releases

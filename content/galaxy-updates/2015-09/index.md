@@ -129,19 +129,19 @@ Galaxy IUC
 
 # Galaxy Project Google Calendars
 
-If you want to know what events are happening in the Galaxy Community, the goto place has always been the [Galaxy Events page](/src/events/index.md).  This lists any upcoming events we know about that feature Galaxy content.  This events list provides dates, locations, and contact information for each event.
+If you want to know what events are happening in the Galaxy Community, the goto place has always been the [Galaxy Events page](/events/).  This lists any upcoming events we know about that feature Galaxy content.  This events list provides dates, locations, and contact information for each event.
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" alt="Galaxy Calendar" /></a></div>
 
 There has also been the complementary *[Galaxy Events Google Calendar](http://bit.ly/gxycal)* which listed events of interest to the community, whether or not they featured significant Galaxy content.  **To make this calendar more useful, we have split it in to two:**
 
  **[Galaxy Events Google Calendar](http://bit.ly/gxycal)** <a href='http://bit.ly/gxycalrss'><img src="/src/images/icons/RSSIcon16x16.gif" alt="Galaxy Calendar RSS Feed" /></a>
-   This calendar now lists *only* events that feature Galaxy content.  Pretty much, if it's on the [Events page](/src/events/index.md), it's also in this calendar.<br />
+   This calendar now lists *only* events that feature Galaxy content.  Pretty much, if it's on the [Events page](/events/), it's also in this calendar.<br />
 
  **[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)**  <a href='http://bit.ly/gxyothercalrss'><img src="/src/images/icons/RSSIcon16x16.gif" alt="Galaxy Calendar RSS Feed" /></a> 
    This lists additional events and deadlines that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content. 
 
-This split allows us to present Galaxy events in a much sparser calendar, that is more useful for setting reminders and publishing Galaxy events. And we will continue to link to past Galaxy events (and presentations, videos, examples, ...) from the  *[Events Archive](/src/events/index.md#past-events)*.
+This split allows us to present Galaxy events in a much sparser calendar, that is more useful for setting reminders and publishing Galaxy events. And we will continue to link to past Galaxy events (and presentations, videos, examples, ...) from the  *[Events Archive](/events/#past-events)*.
 
 # August GalaxyAdmins Slides and Video
 
@@ -163,7 +163,7 @@ In case you missed it, [slides and video are now available online](/src/communit
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div>
 
-There are [upcoming events](/src/events/index.md) in five countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/events/) in five countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 
 <div class='center'> 
@@ -291,7 +291,7 @@ The Galaxy is expanding! Please help it grow.
 * [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -299,7 +299,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[2 new publicly accessible Galaxy servers](/src/use/index.md) were added in August.
+[2 new publicly accessible Galaxy servers](/use/) were added in August.
 
 ## Workflow4Metabolomics
 
@@ -369,7 +369,7 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
     [Release Notes v 15.05](http://galaxy.readthedocs.org/en/master/releases/15.05_announce.html)
 
  **BioBlend 0.6.0 and 0.6.1**
-    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md)([CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
+    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md)([CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
 
 <div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/logos/PlanemoLogo.png" alt="" width="150" /></a></div>
 
@@ -379,7 +379,7 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
  **Pulsar**
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
- **[CloudMan](/src/cloudman/index.md) **
+ **[CloudMan](/cloudman/) **
    The [most recent edition of CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
@@ -394,12 +394,12 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>

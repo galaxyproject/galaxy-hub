@@ -93,9 +93,9 @@ We strongly encourage you to read the full [event report](https://gallantries.gi
 <!-- Galaxy Career Center -->
 <div class="card border-info" style="min-width: 20%; max-width: 100%">
 <img class="card-img-top" src="open-positions.png" alt="Open positions screenshot" />
-<div class="card-header">[Galaxy Career Center Opens](/src/careers/index.md)</div>
+<div class="card-header">[Galaxy Career Center Opens](/careers/)</div>
 
-The recently opened **[Galaxy Career Center](/src/careers/index.md)** lists every Galaxy Related opening we know about.  Each posting (and there are 10 that are currently open) includes a short description, a link to the full posting, and deadlines, when known. There are openings at
+The recently opened **[Galaxy Career Center](/careers/)** lists every Galaxy Related opening we know about.  Each posting (and there are 10 that are currently open) includes a short description, a link to the full posting, and deadlines, when known. There are openings at
 
 * **North America**
   * **GalaxyWorks, University of Minnesota, Cleveland Clinic, and Johns Hopkins University (3 positions)** 
@@ -140,7 +140,7 @@ Has [launched](https://www.elixir-czech.cz/news/czech-galaxy-community-questionn
 <img class="card-img-top" src="/src/images/logos/f1000research-logo-wide.png" alt="F1000 Research" />
 <div class="card-header">[F1000 Research Galaxy Gateway](https://f1000research.com/gateways/galaxy)</div>
 
-We would like to reintroduce the newly updated [Galaxy Gateway](https://f1000research.com/gateways/galaxy) powered by [F1000Research](https://f1000research.com/). This Gateway offers an accessible home for all research outputs. You can [rapidly publish your Galaxy-related presentations for free](https://f1000research.com/gateways/galaxy/for-authors/publish-your-research). The Gateway has been the recommended venue for publishing [GCC](/src/gcc/index.md) slides and posters since GCC2016. It's a great way to improve the visibility and accessibility of your research, and you will receive a DOI too.
+We would like to reintroduce the newly updated [Galaxy Gateway](https://f1000research.com/gateways/galaxy) powered by [F1000Research](https://f1000research.com/). This Gateway offers an accessible home for all research outputs. You can [rapidly publish your Galaxy-related presentations for free](https://f1000research.com/gateways/galaxy/for-authors/publish-your-research). The Gateway has been the recommended venue for publishing [GCC](/gcc/) slides and posters since GCC2016. It's a great way to improve the visibility and accessibility of your research, and you will receive a DOI too.
 
 [F1000Research](https://f1000research.com/) is an open access publishing platform supporting data deposition and sharing. The [Galaxy Gateway](https://f1000research.com/gateways/galaxy/about-this-gateway) enables you to accelerate the impact of your work. Discover this month's [highlighted paper](https://doi.org/10.12688/f1000research.28608.1) (and see [Platforms](#galaxy-platforms-news) and [Publications](#publications) below too).
 </div>
@@ -195,7 +195,7 @@ The Galaxy community has recorded different ways of joining us, with suggestions
 
 # Event News
 
-Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/src/events/index.md). Some highlights:
+Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/events/). Some highlights:
 
 <div class="card-deck">
 
@@ -308,7 +308,7 @@ Feel charged up while discussing mass spec and proteomics? Please join us on thi
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 <div class="card-deck">
 
@@ -364,7 +364,7 @@ Interested in being an early adopter? See the [full announcement](https://galaxy
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 

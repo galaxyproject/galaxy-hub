@@ -3,11 +3,11 @@ title: December 2013 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the December 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the December 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # 50+ Public Servers
 
-Three new servers were added to [the list of publicly accessible Galaxy servers](/src/use/index.md) last month.  The number of servers has more than *doubled* in the past 12 months, with the new additions bringing the total to 51. 
+Three new servers were added to [the list of publicly accessible Galaxy servers](/use/) last month.  The number of servers has more than *doubled* in the past 12 months, with the new additions bringing the total to 51. 
 
 The server list has also been reorganized from a single alphabetical list into three distinct depending on server breadth of coverage. From generality to specificity the 3 lists are:
 
@@ -152,7 +152,7 @@ The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**, *including positions at George Washington University*.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -349,7 +349,7 @@ upgrade:   $ hg pull
 
 **[CloudMan](/src/news/cloudman-release/index.md)**
 
-A new version of [CloudMan](/src/cloudman/index.md) was [released in July](/src/news/cloudman-release/index.md).
+A new version of [CloudMan](/cloudman/) was [released in July](/src/news/cloudman-release/index.md).
 
 <br />
 
@@ -388,4 +388,4 @@ There were many...
 # Other News
 
 * [bioblend 0.4.1](http://bit.ly/IhF6s2) CloudMan and Galaxy API library released 
-* New accounts on [Main](/src/main/index.md) now have to activate using the link sent to email address or they can't run jobs (includes upload).  Want to enable this on your own Galaxy instance?  See the [User Accounts Administration](/src/authnz/config/gxy/index.md) page.
+* New accounts on [Main](/main/) now have to activate using the link sent to email address or they can't run jobs (includes upload).  Want to enable this on your own Galaxy instance?  See the [User Accounts Administration](/src/authnz/config/gxy/index.md) page.

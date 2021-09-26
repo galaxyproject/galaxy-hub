@@ -2,9 +2,9 @@
 title: Custom Genomes
 ---
 
-[Support Hub](/src/support/index.md)
+[Support Hub](/support/)
 
-[Learning Hub](/src/learn/index.md)
+[Learning Hub](/learn/)
 
 ---
 
@@ -12,7 +12,7 @@ title: Custom Genomes
 
 A reference genome contains the nucleotide sequence of the chromosomes, scaffolds, transcripts, or contigs for a single species. It is representative of a specific genome build or release. 
 
-In [Galaxy](http://usegalaxy.org), a **custom reference genome** is a [FASTA](/src/learn/datatypes/index.md#fasta) formatted [dataset](/src/learn/index.md#datasets) that can be used in place of a **native reference genome** with most tools. 
+In [Galaxy](http://usegalaxy.org), a **custom reference genome** is a [FASTA](/src/learn/datatypes/index.md#fasta) formatted [dataset](/learn/#datasets) that can be used in place of a **native reference genome** with most tools. 
 * **custom**: a dataset *from the history* loaded by users
 * **native**: *local* or *cached* by administrators (see [Admin/DataPreparation](/src/admin/data-preparation/index.md))
 
@@ -20,7 +20,7 @@ In [Galaxy](http://usegalaxy.org), a **custom reference genome** is a [FASTA](/s
 
 There are **five basic steps** to using a *Custom Reference Genome*:
 * Obtain a **[FASTA](/src/learn/datatypes/index.md#fasta) copy of the target genome**
-* **[FTP](/src/ftp-upload/index.md) the genome to Galaxy** and load into a history as a [dataset](/src/learn/index.md#datasets)
+* **[FTP](/src/ftp-upload/index.md) the genome to Galaxy** and load into a history as a [dataset](/learn/#datasets)
 * **Clean up the format** with the tool **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. 
 * Make sure the [chromosome identifiers](https://galaxyproject.org/support/chrom-identifiers) are a match for other inputs
 * **Set a tool form's options to use a custom reference genome from the history** and select the loaded genome
@@ -37,7 +37,7 @@ There are **five basic steps** to using a *Custom Reference Genome*:
 * UCSC, Ensembl, NCBI/GenBank
 * Other Research project associated with specific genome projects
 * Internal research projects
-* Selected genomes can be found in "Data Libraries" on [Main](/src/main/index.md) for use at [http://usegalaxy.org](http://usegalaxy.org). Example: **hg19** is available for GATK under that sub-directory.
+* Selected genomes can be found in "Data Libraries" on [Main](/main/) for use at [http://usegalaxy.org](http://usegalaxy.org). Example: **hg19** is available for GATK under that sub-directory.
 
 # Format
 

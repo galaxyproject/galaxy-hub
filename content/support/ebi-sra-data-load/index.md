@@ -1,6 +1,6 @@
 # Which data to load when using the tool "Get Data: EBI-SRA"?
 
-[back to Support](/src/support/index.md#loading-data)
+[back to Support](/support/#loading-data)
 
 <br />
 

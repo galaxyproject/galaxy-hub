@@ -1,6 +1,6 @@
 <slot name="/documents/linkbox" />
 
-Common place to attach papers in the [Documents](/src/documents/index.md) hierarchy.
+Common place to attach papers in the [Documents](/documents/) hierarchy.
 
 ## Papers
 

@@ -458,11 +458,11 @@ GenomeSpace is a software environment that provides a connection layer between b
 
 *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/vonKuster.pdf), [PPT](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/vonKuster.ppt), Video*
 
-Galaxy’s ease of use and rich feature set have made it a powerful enabler of biological research, and the recent introduction of the Galaxy tool shed has significantly enhanced this process. The Galaxy [Tool Shed](/src/toolshed/index.md) enables sharing of Galaxy tools, proprietary datatypes, exported Galaxy workflows, and data across the research community with ease. Tools can be automatically discovered and installed into a local Galaxy environment in real time, and they can easily be deactivated or uninstalled when they are no longer needed. The tool shed also provides the ability to simultaneously install different versions of the same tool into a Galaxy environment, enabling reproducibility and more complex analyses.
+Galaxy’s ease of use and rich feature set have made it a powerful enabler of biological research, and the recent introduction of the Galaxy tool shed has significantly enhanced this process. The Galaxy [Tool Shed](/toolshed/) enables sharing of Galaxy tools, proprietary datatypes, exported Galaxy workflows, and data across the research community with ease. Tools can be automatically discovered and installed into a local Galaxy environment in real time, and they can easily be deactivated or uninstalled when they are no longer needed. The tool shed also provides the ability to simultaneously install different versions of the same tool into a Galaxy environment, enabling reproducibility and more complex analyses.
 
-Big changes have been going on in how tools are packaged with the distribution.  This talk will focus on what's changed, and what you need to know about the Galaxy [Tool Shed](/src/toolshed/index.md) to deploy your own Galaxy instance.
+Big changes have been going on in how tools are packaged with the distribution.  This talk will focus on what's changed, and what you need to know about the Galaxy [Tool Shed](/toolshed/) to deploy your own Galaxy instance.
 
-*Note: If you want hands-on experience with the Galaxy [Tool Shed](/src/toolshed/index.md), you are encouraged to attend the [Tool Shed Training Day session](/src/events/gcc2012/training-day/index.md).*
+*Note: If you want hands-on experience with the Galaxy [Tool Shed](/toolshed/), you are encouraged to attend the [Tool Shed Training Day session](/src/events/gcc2012/training-day/index.md).*
 
 <br />
 

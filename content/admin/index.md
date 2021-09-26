@@ -18,12 +18,12 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 ## Deploying
 
 * [Install own Galaxy](/src/admin/get-galaxy/index.md)
-* [Run on the Cloud Infrastructure](/src/cloudman/index.md)
+* [Run on the Cloud Infrastructure](/cloudman/)
 * [Maintaining an Instance](/src/admin/maintenance/index.md)
 
 ## Configuration
 
-* [Authentication and Authorization](/src/authnz/index.md)
+* [Authentication and Authorization](/authnz/)
 * [Production Configuration](/src/admin/config/index.md)
 * [Installing Tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Tool Panel](/src/admin/tool-panel/index.md)
@@ -50,7 +50,7 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 
 ## Development Resources
 
-* [Developer's hub](/src/develop/index.md)
+* [Developer's hub](/develop/)
 
 
 ## Data Resources
@@ -69,4 +69,4 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 * [Galaxy-Admins discussion group](/src/community/galaxy-admins/index.md)
 * [Switching to Github from Bitbucket](/src/admin/switching-to-github-from-bitbucket/index.md)
 
-[Search all Galaxy resources](/src/search/index.md)
+[Search all Galaxy resources](/search/)

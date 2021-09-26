@@ -3,7 +3,7 @@ title: January 2013 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the January 2013 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the January 2013 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -73,7 +73,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Engineer position in bioinformatics: structural polymorphism analysis from NGS data](http://bit.ly/TEQvzd) @ [UMR de Génétique Végétale, INRA-Université Paris Sud-CNRS](http://moulon.inra.fr/index.php/fr/equipestransversales/atelier-de-bioinformatique)
 * [Offre de stage M2 PRO](http://bit.ly/114Xd9p), [Mathématique, Informatique et Génome (MIG)](http://mig.jouy.inra.fr/) est une unité de l'INRA de Jouy-en-Josas
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 
 ## GCC2013
@@ -299,7 +299,7 @@ It was a banner month for [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) con
 
 ## Other News
 
-* Slides from 4 Galaxy Related Talks at the [Workflows and the Cloud for Reproducible Bioinformatics workshop](http://blogs.biomedcentral.com/gigablog/2012/12/16/gigascience-special-session-at-iscb-asia-on-workflows-cloud-for-reproducible-bioinformatics/) at [ISCB-Asia](http://www.iscb.org/iscb-asia2012) are [available on the wiki](/src/events/index.md#past-events).  Slides for all talks are at [GigaScience's](http://www.gigasciencejournal.com/) [SlideShare account](http://www.slideshare.net/GigaScience).
+* Slides from 4 Galaxy Related Talks at the [Workflows and the Cloud for Reproducible Bioinformatics workshop](http://blogs.biomedcentral.com/gigablog/2012/12/16/gigascience-special-session-at-iscb-asia-on-workflows-cloud-for-reproducible-bioinformatics/) at [ISCB-Asia](http://www.iscb.org/iscb-asia2012) are [available on the wiki](/events/#past-events).  Slides for all talks are at [GigaScience's](http://www.gigasciencejournal.com/) [SlideShare account](http://www.slideshare.net/GigaScience).
 * [Bio-Linux 7](http://nebc.nerc.ac.uk/tools/bio-linux/other-bl-docs/new-in-bl7) "includes the popular Galaxy bioinformatics environment pre-configured and running on the desktop, with the most common tools ready to use out-of-the box."
 * [workflow-to-galaxy (0.3.5)](http://rubygems.org/gems/workflow-to-galaxy): This Ruby Gem acquires information for a taverna 2 workflow from myExperiment (or from a file) and generates a Galaxy tool (.xml and .rb files).
 * Milos Pjanic blog: [How to change file attributes in workflows in Galaxy](http://bit.ly/11rAdQU)

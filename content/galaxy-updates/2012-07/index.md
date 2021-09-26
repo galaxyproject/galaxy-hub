@@ -3,7 +3,7 @@ title: July 2012 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the July 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the July 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -90,7 +90,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -218,5 +218,5 @@ A new version of CloudMan was [Released in June](/src/news/new-cloudman-release/
   * [Cloud Computing for Bioinformatics](http://training.bioinformatics.ucdavis.edu/docs/2012/05/AWS/index.html) (using AWS and Galaxy, but not using CloudMan), by [UC Davis Bioinformatics Professional Training Program](http://training.bioinformatics.ucdavis.edu/) 
   * [Genomic Resequencing Variant Detection and Interpretation in a Diagnostic Context Hands on workshop: Next generation sequence data analysis](https://humgenprojects.lumc.nl/trac/GAPSS3/wiki/resequencing), by [Hailiang (Leon) Mei](http://www.nbic.nl/about-nbic/nbic-faculty/details/hailiang-leon-mei/), [Jeroen Laros](http://www.liacs.nl/~jlaros/)
 
-1. Several new and updated genomes were added to [Galaxy Main](/src/main/index.md) in June:
+1. Several new and updated genomes were added to [Galaxy Main](/main/) in June:
   * bosTau4, bosTau6, bosTauMd3, canFam2, ce10, gorGor3, mm9, mm10, panTro3, rn4,

@@ -105,7 +105,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # Event News
 
-Despite COVID-19, there is still a lot going on, although online. We have updated our [list of events](/src/events/index.md) to reflect what we know. Some highlights:
+Despite COVID-19, there is still a lot going on, although online. We have updated our [list of events](/events/) to reflect what we know. Some highlights:
 
 <div class="card-deck">
 
@@ -233,7 +233,7 @@ There next roundtable meetup will be:
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 <div class="card-deck">
 
@@ -279,7 +279,7 @@ These are just a few of the [large number of specialty subdomains hosted by UseG
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 

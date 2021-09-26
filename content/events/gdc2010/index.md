@@ -11,7 +11,7 @@ contact: Organizers
 
 ## Galaxy Developer Conference 2010
 
-[GDC2010](https://galaxyproject.org/dev2010/) was the first gathering of the Galaxy Community and started the [Galaxy Community Conferences](/src/gcc/index.md).
+[GDC2010](https://galaxyproject.org/dev2010/) was the first gathering of the Galaxy Community and started the [Galaxy Community Conferences](/gcc/).
 
 ## Slides
 

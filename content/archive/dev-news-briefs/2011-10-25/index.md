@@ -15,7 +15,7 @@ date: 2011-10-25
 ## News
 
 <div class='left'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
-* Keep current on all things Galaxy at our [News](/src/news/index.md) and [Events](/src/events/index.md) wikis.
+* Keep current on all things Galaxy at our [News](/news/) and [Events](/events/) wikis.
 * Galaxy is still [hiring](/src/galaxy-is-hiring/index.md)!
 
 ## What's New
@@ -24,11 +24,11 @@ date: 2011-10-25
 
 * Data and Job Quotas announced earlier today by email, Galaxy wiki, Twitter, and News Items/RSS feed.
   * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/src/mailing-lists/index.md).
-  * [Main](/src/main/index.md) wiki with limits, FAQ, and related links.
+  * [Main](/main/) wiki with limits, FAQ, and related links.
   * [Managing Datasets](/src/learn/managing-datasets/index.md) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
   * [Disk Quotas](/src/admin/disk-quotas/index.md) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
   * Twitter [#galaxyproject](http://twitter.com/#galaxyproject).
-  * [Galaxy News](/src/news/index.md) Items and RSS feed.
+  * [Galaxy News](/news/) Items and RSS feed.
 
 ----
 <a href='http://galaxyproject.org/wiki/News'><img src="/src/images/news-graphics/2011_10_25_newsitem-quotas.png" alt="" width="600px" /></a>
@@ -128,7 +128,7 @@ date: 2011-10-25
 
 ### Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 
 * Tasked jobs will now inherit the parent job's user information correctly.
 * Remove unspecified build validators from Cuffdiff wrapperfixes [https://bitbucket.org/galaxy/galaxy-central/issue/631](https://bitbucket.org/galaxy/galaxy-central/issue/631).

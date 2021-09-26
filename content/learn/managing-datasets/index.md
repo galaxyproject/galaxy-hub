@@ -14,7 +14,7 @@ Please review for the most current information about **how to find and manage al
 
 Effectively managing datasets is important for general organization, collaboration, publishing, and for staying within the quotas set by the [UseGalaxy.org](https://usegalaxy.org) public Galaxy server. 
 
-Account features, quota sizes, and terms of service are set by the administrators of each distinct public Galaxy server. Review the server's homepage and [Galaxy Directly listing](/src/use/index.md) where you are working for server-specific details, including contact information and supplimental resources.
+Account features, quota sizes, and terms of service are set by the administrators of each distinct public Galaxy server. Review the server's homepage and [Galaxy Directly listing](/use/) where you are working for server-specific details, including contact information and supplimental resources.
 
 The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into Workflows, making an analysis pathway transparent, reproducible, and reusable.
 
@@ -29,11 +29,11 @@ You have multiple options how to get your files into Galaxy thus making them dat
 </div>
 
 * **Upload modal** - Interface within Galaxy that suits the best for uploading small files from disk or fetching data from other servers. You can reach it by clicking on its icon (right picture) in the tool panel. 
-* **FTP upload** - In case of large files (the upload modal ~~has ~2GB browser limit~~ can now handle data over 2 GB in most cases) or unpredictable connection (support for pausing and resuming) you might want to use FTP instead. The Galaxy server you want to upload data to has to have an FTP service configured (both [Main](/src/main/index.md) and [Test](/src/test/index.md) instances do). See more details at [FTPUpload](/src/ftp-upload/index.md).
+* **FTP upload** - In case of large files (the upload modal ~~has ~2GB browser limit~~ can now handle data over 2 GB in most cases) or unpredictable connection (support for pausing and resuming) you might want to use FTP instead. The Galaxy server you want to upload data to has to have an FTP service configured (both [Main](/main/) and [Test](/test/) instances do). See more details at [FTPUpload](/src/ftp-upload/index.md).
 
 # Dataset Icons & Text
 
-Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to get oriented with these functions using a variety of real datasets on **Galaxy's** public **[Main](/src/main/index.md)** server **[usegalaxy.org](https://usegalaxy.org)**.
+Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to get oriented with these functions using a variety of real datasets on **Galaxy's** public **[Main](/main/)** server **[usegalaxy.org](https://usegalaxy.org)**.
 * Upper right corner
   * ![](/src/images/icons/eye.png) Display data in browser "eye icon"
   * ![](/src/images/icons/pencil.png) Edit attributes "pencil icon"
@@ -59,11 +59,11 @@ Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to g
 
 * The size limit for a file loaded using [FTP](/src/ftp-upload/index.md) is 50G.
 * The size limit for a job's output is (unrelated to quotas):
-  * 50G on the [Test](/src/test/index.md) server
-  * 200G on the [Main](/src/main/index.md) server
+  * 50G on the [Test](/test/) server
+  * 200G on the [Main](/main/) server
 * The size limit for all data (quotas) on the Galaxy public servers is explained at:
-  * [Test](/src/test/index.md) server
-  * [Main](/src/main/index.md) server
+  * [Test](/test/) server
+  * [Main](/main/) server
 * Administrative instructions for [ disk quotas](/src/admin/disk-quotas/index.md)
 
 # Format
@@ -96,7 +96,7 @@ Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to g
   * Options are:
   * *Clone all history items, including deleted items*
   * *Clone only items that are not deleted*
-* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/src/admin/disk-quotas/index.md) on [Main](/src/main/index.md) or [Test](/src/test/index.md)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/src/images/icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
+* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/src/admin/disk-quotas/index.md) on [Main](/main/) or [Test](/test/)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/src/images/icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
 
 # Hidden
 
@@ -114,7 +114,7 @@ Methods
 
 * Deleting Datasets and Histories
   * **Watch how it works in the [Managing Histories](https://vimeo.com/galaxyproject/managehistories) video.**
-  * **Deleted** datasets and histories **can be recovered** by users as they are retained in Galaxy for a time period set by the instance administrator. For the Galaxy public instances [Main](/src/main/index.md) and [Test](/src/test/index.md), this is currently several months.
+  * **Deleted** datasets and histories **can be recovered** by users as they are retained in Galaxy for a time period set by the instance administrator. For the Galaxy public instances [Main](/main/) and [Test](/test/), this is currently several months.
   * **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator.
   * Deleted datsets can be undeleted or permanently deleted within a History. 
   * Links to show/hide deleted (and hidden) datasets are at the top of the History panel. Only active datasets are shown by default.
@@ -123,7 +123,7 @@ Methods
   
   
 * [Quotas](/src/admin/disk-quotas/index.md) for Datasets and Histories
-  * **Deleted** datasets and **deleted** histories containing datasets **are considered when calculating [quotas](/src/admin/disk-quotas/index.md)** on [Main](/src/main/index.md) or [Test](/src/test/index.md).
+  * **Deleted** datasets and **deleted** histories containing datasets **are considered when calculating [quotas](/src/admin/disk-quotas/index.md)** on [Main](/main/) or [Test](/test/).
   * **Permanently deleted** datasets and **permanently deleted** histories containing datasets **are not considered**.
   * Imported native **Data Library** datasets **are not considered**.
   * Datasets can be associated with one or more History, but are only considered once.

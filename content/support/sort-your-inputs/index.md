@@ -1,7 +1,7 @@
 ---
 title: Sorting your inputs
 ---
-[Back to Support Hub](/src/support/index.md)
+[Back to Support Hub](/support/)
 
 ~~Many tools require inputs to be sorted in a specific way prior to use.~~
 

@@ -73,7 +73,7 @@ See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.
 
 ## Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+These and [other Galaxy related events](/events/) are coming up in the next few months:
 
 <table class="table table-responsive table-striped"><thead><tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th></tr></thead><tbody>
 <tr>
@@ -260,10 +260,10 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 # New Galactic Blog Posts
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
+[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/blog/)
 </div>
 
-There are three new *[Galactic Blog](/src/blog/index.md)* entries:
+There are three new *[Galactic Blog](/blog/)* entries:
 
 * [Hybrid training delivers online participatory training to far-reaching venues](https://www.embl-abr.org.au/hybrid-training-delivers-online-participatory-training-to-far-reaching-venues/), by Christina Hall
 * [Tutorial of the Month: Maria Doyle selected "From peaks to genes"](/src/blog/2018-09-totm/index.md), by Bérénice Batut
@@ -284,7 +284,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
 
@@ -294,7 +294,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 ## Public Galaxy Servers is becoming something ... more
 
-In October the venerable [Public Galaxy Server list](/src/use/index.md) and the relative upstart [Galaxy Services list](/src/use/index.md) will be replaced with a unified directory that includes public servers, cloud services, and VMs and containers that support Galaxy.
+In October the venerable [Public Galaxy Server list](/use/) and the relative upstart [Galaxy Services list](/use/) will be replaced with a unified directory that includes public servers, cloud services, and VMs and containers that support Galaxy.
 
 Here's what's new:
 <div class="twocol">

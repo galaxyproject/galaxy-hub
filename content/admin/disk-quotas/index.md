@@ -46,7 +46,7 @@ galaxy:
 
 `allow_user_dataset_purge` is not explicitly required for quotas but strongly encouraged, since without it users will have to wait for cleanup scripts to expire and purge their data to lower their disk usage.
 
-Once enabled, you can create quotas in the [administration interface](/src/admin/index.md) by clicking the link for "Manage quotas" in the left panel.  Quotas can have one of three "operations":
+Once enabled, you can create quotas in the [administration interface](/admin/) by clicking the link for "Manage quotas" in the left panel.  Quotas can have one of three "operations":
 
 * `=` : The quota is exactly the amount specified
 * `+` : The amount specified will be added to the amounts of the user's other associated quota definitions

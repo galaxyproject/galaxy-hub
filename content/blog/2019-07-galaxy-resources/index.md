@@ -68,11 +68,11 @@ The Galaxy community uses Gitter for online chat.  [Galaxy's Gitter channel](htt
 
 ## Galaxy Events
 
-Looking for workshops, presentations, training, and meetings about Galaxy?  The [Galaxy Event Horizon](/src/events/index.md) lists every upcoming Galaxy-related event that the the community is aware of.  Events happen around the world, in person and on-line, and almost every week of the year.  Take a look.
+Looking for workshops, presentations, training, and meetings about Galaxy?  The [Galaxy Event Horizon](/events/) lists every upcoming Galaxy-related event that the the community is aware of.  Events happen around the world, in person and on-line, and almost every week of the year.  Take a look.
 
 ## Galaxy Community Conference (GCC)
 
-The largest event in the Galactic Year is the [Galaxy Community Conference, or GCC](/src/gcc/index.md).   GCCs include training, talks, posters, birds-of-a-feather gatherings, and a CollaborationFest.  GCCs are a week-long event bringing together the full breadth and depth of the Galaxy community to share best practices and challenges, experiences and outlooks.  GCCs alternate between North America in even years, and *not North America* in odd years.
+The largest event in the Galactic Year is the [Galaxy Community Conference, or GCC](/gcc/).   GCCs include training, talks, posters, birds-of-a-feather gatherings, and a CollaborationFest.  GCCs are a week-long event bringing together the full breadth and depth of the Galaxy community to share best practices and challenges, experiences and outlooks.  GCCs alternate between North America in even years, and *not North America* in odd years.
 
 ## Regional & Domain Communities
 
@@ -125,25 +125,25 @@ Really.  If you are deploying your own Galaxy service then take a good look at u
 
 ## A Galaxy platform to use, *right now*
 
-The [Galaxy Platform Directory](/src/use/index.md) lists over 150 platforms where you can use Galaxy, most of them *right now*, and most of them for *free*.  This includes public servers, available on the web, right now; academic cloud services; commercial cloud services; and containers and virtual machines you can use right now.
+The [Galaxy Platform Directory](/use/) lists over 150 platforms where you can use Galaxy, most of them *right now*, and most of them for *free*.  This includes public servers, available on the web, right now; academic cloud services; commercial cloud services; and containers and virtual machines you can use right now.
 
 A couple of platform types are worth special mention:
 
 ### UseGalaxy.*
 
-[UseGalaxy servers](/src/usegalaxy/index.md) implement a common core set of tools and reference genomes, and are open to anyone to use. They also contain tools and genomes that are local to each server. Each is backed by significant computational resources and they are excellent places to get started with Galaxy, and to share and publish your results. *And they are free to use, by anyone.*
+[UseGalaxy servers](/usegalaxy/) implement a common core set of tools and reference genomes, and are open to anyone to use. They also contain tools and genomes that are local to each server. Each is backed by significant computational resources and they are excellent places to get started with Galaxy, and to share and publish your results. *And they are free to use, by anyone.*
 
 ### Academic Cloud Services
 
-[Several academic cloud services](/src/use/index.md) have ready to run Galaxy instances. Many of these are restricted to users within a particular geographic domain, for example, a country, province, or consortium of countries. These are often free to eligible researchers.
+[Several academic cloud services](/use/) have ready to run Galaxy instances. Many of these are restricted to users within a particular geographic domain, for example, a country, province, or consortium of countries. These are often free to eligible researchers.
 
 Also see [CloudLaunch](#cloudlaunch)
 
 ## PanGalactic search
 
-[<img class="float-left" style="max-width: 200px" src="pangalactic-search-box.png" alt="PanGalactic Search Box" />](/src/search/index.md)
+[<img class="float-left" style="max-width: 200px" src="pangalactic-search-box.png" alt="PanGalactic Search Box" />](/search/)
 
-Searching for anything Galaxy related using web search engines is a frustrating process.  You are likely to end up with results about football, cars, chocolate, phones, or, the nemesis of all Galaxy web searches: *astronomy.*  Don't give up!  Use the *[PanGalactic Search](/src/search/index.md)* box at the top of this and every Galaxy Community Hub page.  PGS uses Google Custom search to search only the ~40 or so (yes 40) web sites that are relevant to the *one true Galaxy.*
+Searching for anything Galaxy related using web search engines is a frustrating process.  You are likely to end up with results about football, cars, chocolate, phones, or, the nemesis of all Galaxy web searches: *astronomy.*  Don't give up!  Use the *[PanGalactic Search](/search/)* box at the top of this and every Galaxy Community Hub page.  PGS uses Google Custom search to search only the ~40 or so (yes 40) web sites that are relevant to the *one true Galaxy.*
 
 ## Publications
 
@@ -175,7 +175,7 @@ The Galaxy Community is [active on Twitter](/src/galaxy-on-twitter/index.md), an
 
 ## What's Going on - In depth: Galactic Blog
 
-[<img class="float-left" style="max-width: 160px" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" />](/src/blog/index.md)
+[<img class="float-left" style="max-width: 160px" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" />](/blog/)
 
-The *[Galactic Blog](/src/blog/index.md)* brings together longer form posts about Galaxy, from all over the web. Want to know more about [cloud bursting](/src/blog/2019-05-gcr/index.md), [CVMFS](/src/blog/2019-02-cvmfs/index.md), or [Galaxy R Markdown Tools](https://github.com/statonlab/galaxy-r-markdown-tools)?  You can find posts on these and many other topics in the [Galactic Blog](/src/blog/index.md)
+The *[Galactic Blog](/blog/)* brings together longer form posts about Galaxy, from all over the web. Want to know more about [cloud bursting](/src/blog/2019-05-gcr/index.md), [CVMFS](/src/blog/2019-02-cvmfs/index.md), or [Galaxy R Markdown Tools](https://github.com/statonlab/galaxy-r-markdown-tools)?  You can find posts on these and many other topics in the [Galactic Blog](/blog/)
 

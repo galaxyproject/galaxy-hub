@@ -17,8 +17,8 @@ Please report usage problems with tools and functions to the **[Galaxy Help](htt
 
 A summary of common troubleshooting solutions can also be found in this **Troubleshooting FAQ**: [My job ended with an error. What can I do?](/src/support/tool-error/index.md). 
 
- * [Support FAQs](/src/support/index.md)
- * [Galaxy Tutorials](/src/learn/index.md)
+ * [Support FAQs](/support/)
+ * [Galaxy Tutorials](/learn/)
  * [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
  * [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
  * [Known Issues - Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
@@ -26,11 +26,11 @@ A summary of common troubleshooting solutions can also be found in this **Troubl
 
 ### Red error datasets
 
-If you can reproduce on [Galaxy Main https://usegalaxy.org](/src/main/index.md), and the problem has a **red error dataset**, you might be asked to send in a bug report. Click on the green bug icon within one of the red error datasets to start the submission process: ![](/src/images/icons/bug.png)
+If you can reproduce on [Galaxy Main https://usegalaxy.org](/main/), and the problem has a **red error dataset**, you might be asked to send in a bug report. Click on the green bug icon within one of the red error datasets to start the submission process: ![](/src/images/icons/bug.png)
 
 ### Green unexpected-result datasets
 
-If you can reproduce on [Main](/src/main/index.md), and the problem presents in a **green success dataset (but the result is unexpected)**, you may be asked to send in a shared history link and possibly a shared workflow link. Email our team directly on the private mailing list galaxy-bugs@lists.galaxyproject.org. Include the share link(s) and note the problem dataset numbers involved.
+If you can reproduce on [Main](/main/), and the problem presents in a **green success dataset (but the result is unexpected)**, you may be asked to send in a shared history link and possibly a shared workflow link. Email our team directly on the private mailing list galaxy-bugs@lists.galaxyproject.org. Include the share link(s) and note the problem dataset numbers involved.
 
 ### Functionality problems
 
@@ -67,8 +67,8 @@ If you are cetain that a problem is a software bug, please create a GitHub [issu
 
 When creating an issue or sharing details about an error that does not include a shared history (through a link or bug report), be sure to include:
 
-1. Where you are using Galaxy ([Main](/src/main/index.md), local, docker, or cloud instance). 
-1. Bug reports from [Test](/src/test/index.md) are generally not sent in. We really do test here and the configuration changes frequently.
+1. Where you are using Galaxy ([Main](/main/), local, docker, or cloud instance). 
+1. Bug reports from [Test](/test/) are generally not sent in. We really do test here and the configuration changes frequently.
 1. Galaxy version (usually can be obtained at https://galaxy.example/api/version)
 1. The date/time the bug was detected
 1. Exact steps to reproduce the issue

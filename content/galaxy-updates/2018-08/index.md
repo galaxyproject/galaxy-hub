@@ -31,7 +31,7 @@ Most posters and slides are now linked to from the [conference web site](https:/
 
 [<img  class="img-fluid float-right" style="max-width: 250px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 
-**[GCC2019](/src/events/gcc2019/index.md) will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
+**[GCC2019](/src/events/gcc2019/index.md) will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
 
 <div class="float-left">
 [<img src="/src/images/photos/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="180" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
@@ -118,7 +118,7 @@ Gateways are user-friendly interfaces (including Galaxy) to scientific computing
 
 # Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+These and [other Galaxy related events](/events/) are coming up in the next few months:
 
 <table class="table table-striped"><thead><tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th></tr></thead><tbody><script type="application/ld+json">{  "@context": "http://schema.org/",
    "@type": "Event",
@@ -354,15 +354,15 @@ The Galaxy is expanding! Please help it grow.
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 # New Galactic Blog Entries
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/src/blog/index.md)
+[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
 </div>
 
-There are two new *[Galactic Blog](/src/blog/index.md)* entry:
+There are two new *[Galactic Blog](/blog/)* entry:
 
 * [A fruitful year for the Galaxy Training material](/src/blog/2018-06-training-material/index.md), by Bérénice Batut
   * A summary of recent developments in Galaxy Training materials and the Galaxy Training Network
@@ -371,7 +371,7 @@ There are two new *[Galactic Blog](/src/blog/index.md)* entry:
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Another public server was added in the past quarter:
+There are [over 100 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Another public server was added in the past quarter:
 
 ## ProteoRE
 
@@ -388,7 +388,7 @@ ProteoRE currently comprises tools (including graphical display) for:
 
 This version also includes Galaxy generic tools and some tools from the [GalaxyP project](https://usegalaxyp.org/) that should be of great help for people who want to (re)process their MS-based proteomics data (e.g. peptide/protein identification). [ProteoRE tools are in the Galaxy Toolshed](https://toolshed.g2.bx.psu.edu/view/proteore).
 
-See the [ProteoRE pubic server directory page](/src/use/index.md) for more.
+See the [ProteoRE pubic server directory page](/use/) for more.
 
 ## Public Servers in Publications
 
@@ -424,8 +424,8 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 * Semi-annual [project statistics update](/src/galaxy-project/statistics/index.md) is *mostly* done.
 * New [Cloud Storage API page](/src/cloud/storage/index.md) from [Vahid Jalili](/people/vahid-jalili/).
 * A general update by [Jennifer Hillman-Jackson](/people/jennifer-jackson/) to several support pages:
-  * [Issues](/src/issues/index.md)
-  * [Support](/src/support/index.md)
+  * [Issues](/issues/)
+  * [Support](/support/)
   * [Tool Errors](/src/support/tool-error/index.md)
   * [Missing History](/src/support/missing-history/index.md)
   

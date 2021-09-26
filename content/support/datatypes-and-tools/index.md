@@ -1,7 +1,7 @@
 ---
 title: Datatypes and Tools
 ---
-[Back to Support Hub](/src/support/index.md)
+[Back to Support Hub](/support/)
 
 ## Datatypes and Tools
 

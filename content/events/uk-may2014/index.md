@@ -5,7 +5,7 @@ title: United Kingdom May 2014 Galaxy Tour
 
 
 
-Around Norwich or Edinburgh?  A [Galaxy Tour](/src/events/index.md) is happening in the United Kingdom in early May 2014.  See below for participating institutions and events.
+Around Norwich or Edinburgh?  A [Galaxy Tour](/events/) is happening in the United Kingdom in early May 2014.  See below for participating institutions and events.
 
 <div class='center'>
 
@@ -45,4 +45,4 @@ Around Norwich or Edinburgh?  A [Galaxy Tour](/src/events/index.md) is happening
 </div>
 </div>
 <br /><br />
-See the [Galaxy Events page](/src/events/index.md) for other upcoming training events.
+See the [Galaxy Events page](/events/) for other upcoming training events.

@@ -24,7 +24,7 @@ sh run.sh --pid-file=main.pid --log-file=main.log --daemon
 ```
 
 
-Additional Galaxy configuration options can be found on the [Galaxy Admin page](/src/admin/index.md).
+Additional Galaxy configuration options can be found on the [Galaxy Admin page](/admin/).
 
 #### Adding a custom Tool Shed
 

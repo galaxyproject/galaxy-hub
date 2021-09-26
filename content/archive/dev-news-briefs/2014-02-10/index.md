@@ -3,7 +3,7 @@ title: Development News Brief
 date: 2014-02-10
 ---
 
-[All News Briefs](/src/docs/index.md)
+[All News Briefs](/docs/)
 <br />
 [Distribution Summary 2014_02_10](/src/news/2014-02-10-galaxy-distribution/index.md)
 
@@ -201,7 +201,7 @@ Thanks to our Galaxy community contributors!
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 ## Tool Migration Framework
 
 Also see above: [New Tool Migrations](/src/archive/dev-news-briefs/2014-02-10/index.md#new-tool-migrations)
@@ -261,8 +261,8 @@ Also see above: [New Tool Migrations](/src/archive/dev-news-briefs/2014-02-10/in
 
 # Project Updates
 
-1. [News](/src/news/index.md)
-1. [Events](/src/events/index.md)
+1. [News](/news/)
+1. [Events](/events/)
 1. [Videos on Vimeo](https://vimeo.com/galaxyproject)
 1. *[February 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014-02)*
 1. *[January 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014-01)*
@@ -278,7 +278,7 @@ The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by **[NSF](http://www.nsf.gov/)**, **[NHGRI](http://www.genome.gov/)**, the **[Huck Institutes of the Life Sciences](http://www.huck.psu.edu/)**, and **[The Institute for CyberScience at Penn State](http://www.ics.psu.edu/)**, and **[Johns Hopkins University](http://www.jhu.edu/)**.
 
-The *[public Main instance](/src/main/index.md)* of **Galaxy** at **[http://usegalaxy.org](http://usegalaxy.org)** utilizes infrastructure generously provided by the **[iPlant Collaborative](http://www.iplantcollaborative.org/)** at the **[Texas Advanced Computing Center](https://www.tacc.utexas.edu/)**, with support from the **[National Science Foundation](http://www.nsf.gov/)**.
+The *[public Main instance](/main/)* of **Galaxy** at **[http://usegalaxy.org](http://usegalaxy.org)** utilizes infrastructure generously provided by the **[iPlant Collaborative](http://www.iplantcollaborative.org/)** at the **[Texas Advanced Computing Center](https://www.tacc.utexas.edu/)**, with support from the **[National Science Foundation](http://www.nsf.gov/)**.
 
 Follow us on **Twitter [@galaxyproject](http://twitter.com/galaxyproject)** or read our tweets at **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
 

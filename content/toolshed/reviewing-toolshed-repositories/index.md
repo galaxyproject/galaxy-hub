@@ -7,7 +7,7 @@ title: Reviewing ToolShed Repositories
 
 # The Intergalactic Utilities Commission
 
-The Galaxy community formed a commission to help improve the quality of published Galaxy utilities. More about the [IUC](/src/iuc/index.md).
+The Galaxy community formed a commission to help improve the quality of published Galaxy utilities. More about the [IUC](/iuc/).
 
 # Granting authority to review a repository
 

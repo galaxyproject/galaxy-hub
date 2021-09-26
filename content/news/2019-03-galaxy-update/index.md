@@ -67,7 +67,7 @@ After a two year hiatus, the [online GalaxyAdmins meetups](/src/community/galaxy
 
 # Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up:
+These and [other Galaxy related events](/events/) are coming up:
 
 <table class="table table-striped">
 <thead>
@@ -210,7 +210,7 @@ We added a new tag to the [Galaxy Publication Library](/src/publication-library/
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in February:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in February:
 
 ## FreeBioInfo
 
@@ -262,11 +262,11 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 ----
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/src/blog/index.md)* post where [Nate Coraor was interviewed](https://galaxyproject.org/blog/2019-02-cvmfs/) about what CVMFS actually is and what it does for Galaxy. 
+This month we have a *[Galactic Blog](/blog/)* post where [Nate Coraor was interviewed](https://galaxyproject.org/blog/2019-02-cvmfs/) about what CVMFS actually is and what it does for Galaxy. 
 
 ----
 
@@ -294,7 +294,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States.
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ---
 

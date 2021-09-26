@@ -9,7 +9,7 @@ This tutorial provides information about using Galaxy's [Data libraries](/src/ad
 
 ## Data Libraries
 
-An "Admin" link will appear in the Galaxy top menu bar when you login to Galaxy as an [admin user](/src/admin/index.md), and clicking the link will display the Admin perspective which includes a menu of features in the left panel.
+An "Admin" link will appear in the Galaxy top menu bar when you login to Galaxy as an [admin user](/admin/), and clicking the link will display the Admin perspective which includes a menu of features in the left panel.
 
 ![](/src/archive/library-sample-tracking/admin.png)
 
@@ -157,4 +157,4 @@ We've only scratched the surface of what can be done with Galaxy. Here are some 
 * [You can make local genomes, alignments, and other data available to Galaxy](/src/admin/data-integration/index.md)
 * [You can customize what external applications are available for displaying datasets](/src/admin/tools/External Display Applications Tutorial/index.md)
 * [You can customize the datatypes for a Galaxy instance](/src/admin/datatypes/Adding Datatypes/index.md)
-* [You can instantiate Galaxy on the Amazon cloud](/src/cloudman/index.md)
+* [You can instantiate Galaxy on the Amazon cloud](/cloudman/)

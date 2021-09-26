@@ -8,7 +8,7 @@ date: "2019-03-19"
 
 **We are pleased to announce that [registration](/src/events/gcc2019/registration/index.md) and [abstract submission](/src/events/gcc2019/abstracts/index.md) for the [2019 Galaxy Community Conference (GCC2019)](/src/events/gcc2019/index.md) are now open.**
 
-GCC2019 will be held 1-8 July in Freiburg, Germany.  The *tenth* [GCC](/src/gcc/index.md) will have many familiar features from earlier years, including accepted and lightning talks, posters and demos, birds-of-a-feather gatherings (BoFs), training, and a CollaborationFest.  2019 also brings the [most significant conference program update](https://gcc2019.sched.com/) in several years:
+GCC2019 will be held 1-8 July in Freiburg, Germany.  The *tenth* [GCC](/gcc/) will have many familiar features from earlier years, including accepted and lightning talks, posters and demos, birds-of-a-feather gatherings (BoFs), training, and a CollaborationFest.  2019 also brings the [most significant conference program update](https://gcc2019.sched.com/) in several years:
 
 * some training will be integrated with the main conference,
 * three days of conference instead of two,

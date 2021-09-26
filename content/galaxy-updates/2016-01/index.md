@@ -131,7 +131,7 @@ Anyway, watch Galaxy channels for registration opening *this month*, really.
 
 ## Metagenomics Tools and Workflows Codefest Reports
 
-The [Intergalactic Utilities Commission](/src/iuc/index.md) held it's [second codefest](https://github.com/galaxyproject/tools-iuc/issues/299) with the aim to improve metagenomic research in Galaxy.
+The [Intergalactic Utilities Commission](/iuc/) held it's [second codefest](https://github.com/galaxyproject/tools-iuc/issues/299) with the aim to improve metagenomic research in Galaxy.
 
 The IUC was available for two days in a Hangout to answers questions and to work together with the Galaxy community to enhance our tools and the overall Galaxy ecosystem. 22 scientists from all over the world participated in this and made it a fantastic experience and a success story, which the IUC would like to repeat more often.  
 
@@ -139,7 +139,7 @@ There are two event reports, See the [one by Björn Grüning](https://gist.githu
 
 ## Upcoming Events
 
-There are [many upcoming events](/src/events/index.md) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
 <a href='/src/events/asu2016/index.md'><img src="/src/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" height="60" /></a>&nbsp;
@@ -215,7 +215,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> March 7-8 </th>
     <td> <strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a></strong> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/src/iuc/index.md'> IUC </a></td>
+    <td> <a href='/iuc/'> IUC </a></td>
   </tr>
   <tr>
     <th> </th>
@@ -254,7 +254,7 @@ The Galaxy is expanding! Please help it grow.
     *Extended until 10 January 2016.*
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -262,7 +262,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Two new publicly accessible Galaxy servers](/src/use/index.md) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded MPI-HLR Bioinformatics Server.
+[Two new publicly accessible Galaxy servers](/use/) were added in December.  And, while not a new server, the *server formerly known as MIRPIPE* is now the greatly expanded MPI-HLR Bioinformatics Server.
 
 ## Dintor
 
@@ -349,11 +349,11 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 It is also quite popular and has been downloaded from PyPi almost 4000 times since it was created on December 20.
 
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
 ## CloudMan 15.12
 
-[CloudMan](/src/cloudman/index.md) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
+[CloudMan](/cloudman/) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
 
 This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/releases) includes:
 
@@ -410,12 +410,12 @@ The 0.6.x release includes these changes:
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>

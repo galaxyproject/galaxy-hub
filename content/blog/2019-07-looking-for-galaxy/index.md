@@ -15,7 +15,7 @@ There are *many* lessons here:
 1. Don't name your project with a widely used word.
 1. Don't use a general search tool when searching for information about a so named project.
 
-Fortunately there is a solution to lesson #5: The **[Pan-Galactic Search](/src/search/index.md)** is a custom Google search engine that searches only websites related to *our* Galaxy.  It is available at the top of every page on the Galaxy Community Hub.
+Fortunately there is a solution to lesson #5: The **[Pan-Galactic Search](/search/)** is a custom Google search engine that searches only websites related to *our* Galaxy.  It is available at the top of every page on the Galaxy Community Hub.
 
 Here, as an example, are the top hits when you search for "Galaxy search":
 

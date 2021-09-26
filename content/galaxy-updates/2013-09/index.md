@@ -3,14 +3,14 @@ title: September 2013 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the September 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the September 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
 
 # New Public Servers
 
-A record *five new servers* joined [the list of over 40 publicly accessible Galaxy servers](/src/use/index.md) in August.
+A record *five new servers* joined [the list of over 40 publicly accessible Galaxy servers](/use/) in August.
 
 ## Galaxy-P
 
@@ -144,7 +144,7 @@ The Galaxy is expanding! Please help it grow.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/334107-senior-developer-stem-cell-bioinformatics-core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -268,11 +268,11 @@ upgrade: $ hg pull
 ```
 
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
 ## CloudMan Release
 
-A new version of [CloudMan](/src/cloudman/index.md) was [released in July](/src/news/cloudman-release/index.md).
+A new version of [CloudMan](/cloudman/) was [released in July](/src/news/cloudman-release/index.md).
 
 <br />
 
@@ -300,5 +300,5 @@ A new version of [CloudMan](/src/cloudman/index.md) was [released in July](/src/
 * TRON technologists have developed a [laboratory information management system (LIMS)](http://bit.ly/1d0XMqL) for a next-generation sequencing (NGS) laboratory within the existing Galaxy platform.  [Code and documentation are available for download](http://tron-mainz.de/tron-facilities/computational-medicine/galaxy-lims/).
 * [Saket Choudhary's Week 7+8 GSOC update](http://bit.ly/1bsoiaM): making Workflow's run page editable; enable user to change params at runtime
 * [galaxy-bootstrap](http://bit.ly/15u71MT) - a simple Java library and download, configure, and seed a Galaxy instance
-* New [Cloud](/src/cloud/index.md) hub page on wiki giving a high-level overview of the several Galaxy cloud-deployment options.
+* New [Cloud](/cloud/) hub page on wiki giving a high-level overview of the several Galaxy cloud-deployment options.
 * A new Teaching with Galaxy hub page on the Galaxy wiki.  This is very much in a draft state but includes a fairly complete Computing Platforms for Teaching page.

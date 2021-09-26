@@ -18,7 +18,7 @@ day will have multiple tracks, with each track featuring several sessions throug
 * [Topics nominated for GCC2015](http://bit.ly/gcc2015vote)
 * [Topics nominated for GCC2014](http://bit.ly/1s6NtMN)
 * [Topics nominated for GCC2013](http://bit.ly/1i2j1gN)
-* The [Galaxy Events page](/src/events/index.md), which lists what training the community is offering outside of GCCs.
+* The [Galaxy Events page](/events/), which lists what training the community is offering outside of GCCs.
 * Topics that have already been nominated for GCC2016
 
 Nominated topics will be published as they come in.  **Topic nomination closes Friday, October, 16.**.  Topics will be compiled into a uniform list by the GCC2016 Organizing Committee, and topics will be voted on by the Galaxy Community from October 26 through November 6.

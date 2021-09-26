@@ -23,10 +23,10 @@ The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) i
 <br />
 # FreeBayes Migration
 
-The tool **Human Genome Variation -> [Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the Galaxy distribution to the Galaxy Main **[Tool Shed](/src/toolshed/index.md)**.
+The tool **Human Genome Variation -> [Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the Galaxy distribution to the Galaxy Main **[Tool Shed](/toolshed/)**.
 
 ```FreeBayes```
- is a high-performance, flexible, and open-source Bayesian genetic variant detector. It operates on [BAM](/src/datatypes/index.md#bam) alignment files, which are produced by most contemporary short-read aligners.
+ is a high-performance, flexible, and open-source Bayesian genetic variant detector. It operates on [BAM](/datatypes/#bam) alignment files, which are produced by most contemporary short-read aligners.
 
 <br />
 # EMBOSS Update
@@ -88,7 +88,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 <br />
 # Tool Shed
 
-[Tool Shed](/src/toolshed/index.md)
+[Tool Shed](/toolshed/)
 * *Enhancements*
   * The tool shed's category grid is now displayed when searching and browsing tool sheds from a local Galaxy instance. 
   * This category grid's search feature searches valid repository names and descriptions when browsing a tool shed from Galaxy.
@@ -97,13 +97,13 @@ Several changes made in in determining errors from tool exit codes and output.  
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Support Unvalidated values when exporting histories
 
 <br />
 # Announcements
 
-[News](/src/news/index.md), *[July 2012 Galaxy Update](/src/galaxy-updates/2012-07/index.md)*
+[News](/news/), *[July 2012 Galaxy Update](/src/galaxy-updates/2012-07/index.md)*
 ## Collaboration
 
 The new RGalaxy package in Bioconductor. [Read more …](/src/news/r-galaxy-wrap-r-functions-as-tools/index.md)

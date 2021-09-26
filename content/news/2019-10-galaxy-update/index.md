@@ -59,7 +59,7 @@ This [one-week course](https://workflow4metabolomics.org/w4e2020) (entirely in E
 
 There are
 
-* [20 upcoming events](/src/events/index.md)
+* [20 upcoming events](/events/)
 * on 5 continents
 * in Italy, Germany, the Netherlands, Greece, Estonia, Belgium, US, France, Taiwan, Ghana, Australia, and UK.
 * on RNA-Seq, bisulfite sequencing, reproducibility, CWL, cancer, single cell, metabarcoding, and metabolomics!
@@ -158,7 +158,7 @@ Publications are tagged with how they use, extend or reference Galaxy.  The past
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There were are many new platforms this month:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There were are many new platforms this month:
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
@@ -202,7 +202,7 @@ The **[NG-Tax server](https://ngtax.systemsbiology.nl/)** provides a semantic fr
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -229,7 +229,7 @@ Platforms that were referenced at least twice in the past month's publications:
 
 # Who's Hiring
 
-The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">

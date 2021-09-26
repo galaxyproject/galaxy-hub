@@ -27,9 +27,9 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 # The Galaxy Platforms Directory
 
-[<img src="/src/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="400" />](/src/use/index.md>)
+[<img src="/src/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="400" />](/use/>)
 
-We are pleased to announce the new [Galaxy Platform Directory](/src/use/index.md).  This directory lists 125 platforms where you can use or deploy your own Galaxy Server with minimal effort, including
+We are pleased to announce the new [Galaxy Platform Directory](/use/).  This directory lists 125 platforms where you can use or deploy your own Galaxy Server with minimal effort, including
 
 - Public Galaxy servers
 - Academic and commercial cloud services that support Galaxy
@@ -43,7 +43,7 @@ And
 
 These resources cover a wide spectrum of domains all across life sciences. There are resources for genomics (lots of them), metagenomics, transcriptomics, proteomics, drug discovery and even some outside biology like natural language processing (a couple of them), and social science.
 
-This directory replaces the previously separate public server, cloud service, and virtual appliance directories. [Everything is now in one spot](/src/use/index.md).
+This directory replaces the previously separate public server, cloud service, and virtual appliance directories. [Everything is now in one spot](/use/).
 
 ## New Galaxy Platforms
 
@@ -91,7 +91,7 @@ See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.
 
 ## Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+These and [other Galaxy related events](/events/) are coming up in the next few months:
 
 <table class="table table-striped">
 <thead>
@@ -244,9 +244,9 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 ----
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="220" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="220" />](/blog/)
 
-There are two new *[Galactic Blog](/src/blog/index.md)* entries:
+There are two new *[Galactic Blog](/blog/)* entries:
 * **[Contributor of the month: Saskia Hiltemann](https://galaxyproject.org/blog/2018-11-cotm-saskia-hiltemann/)**, by Marten Čech
 * **[Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras](https://galaxyproject.org/blog/2018-10-totm)**, by Bérénice Batut
 
@@ -270,7 +270,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
 

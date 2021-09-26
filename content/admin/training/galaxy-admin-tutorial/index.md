@@ -10,5 +10,5 @@ See the [Galaxy Tutorial page](http://gmod.org/wiki/Galaxy%20Tutorial) at the [G
 * [You can make local genomes, alignments, and other data available to Galaxy](/src/admin/data-integration/index.md)
 * [You can customize what external applications are available for displaying datasets](/src/admin/tools/external-display-applications-tutorial/index.md)
 * [You can customize the datatypes for a Galaxy instance](/src/admin/datatypes/adding-datatypes/index.md)
-* [You can instantiate Galaxy on the cloud using CloudMan](/src/cloudman/index.md)
+* [You can instantiate Galaxy on the cloud using CloudMan](/cloudman/)
 * [You can find even more at the Galaxy Hub](/src/index.md)

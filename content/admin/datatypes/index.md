@@ -1,6 +1,6 @@
 <slot name="/admin/linkbox" />
 
-Hub page for [administering](/src/admin/index.md) Galaxy data types.
+Hub page for [administering](/admin/) Galaxy data types.
 
 * [Admin/ReferenceMAFs](/src/admin/reference-mafs/index.md)
 * [Adding Completely new Datatypes](/src/admin/datatypes/adding-complete-datatypes/index.md)

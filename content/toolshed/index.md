@@ -22,7 +22,7 @@ The main goal of the ToolShed is to allow populating any Galaxy with utilities s
 
 # Publishing to the ToolShed
 
-There are over 80 [public Galaxy servers](/src/use/index.md) and hundreds of private ones. If you would like to share a Galaxy utility that you've developed with the Galaxy community, we encourage you to publish it in the ToolShed.
+There are over 80 [public Galaxy servers](/use/) and hundreds of private ones. If you would like to share a Galaxy utility that you've developed with the Galaxy community, we encourage you to publish it in the ToolShed.
 
 We assume you have your tool developed, tested, and already working in your local Galaxy instance. If you don't, please see the following resources:
 

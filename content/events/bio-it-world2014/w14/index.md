@@ -259,11 +259,11 @@ Reload the Galaxy interface if your 3rd party cookies were not previously enable
 
 ### References
 
-* [Tools hub page](/src/tools/index.md)
+* [Tools hub page](/tools/)
 * [Tutorial on adding custom tools](/src/admin/tools/add-tool-tutorial/index.md)
 * [Tutorial on installing tools from the Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Current tools/ directory](https://bitbucket.org/galaxy/galaxy-central/src/3b42725359224832317a066d95dff596f93ab33f/tools?at=stable)
-* [Tool Shed hub page](/src/toolshed/index.md)
+* [Tool Shed hub page](/toolshed/)
 * [Tool Shed tour](/src/toolshed/tour/index.md)
 * [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)
 

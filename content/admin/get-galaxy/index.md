@@ -68,7 +68,7 @@ http: 0.0.0.0
 
 ## Become an Admin
 
-To control Galaxy through the UI (installing tools, managing users, creating groups, etc.), user must become an [administrator](/src/admin/index.md). Only registered users can become admins. To give a user admin privileges add the user's Galaxy login email to the configuration file `config/galaxy.yml`. If you don't have the file set it up using the instructions [above](#configure). The entry looks like this:
+To control Galaxy through the UI (installing tools, managing users, creating groups, etc.), user must become an [administrator](/admin/). Only registered users can become admins. To give a user admin privileges add the user's Galaxy login email to the configuration file `config/galaxy.yml`. If you don't have the file set it up using the instructions [above](#configure). The entry looks like this:
 
 ```
 # this should be a comma-separated list of valid Galaxy users

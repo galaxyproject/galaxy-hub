@@ -15,7 +15,7 @@ Small example of both communication protocols:
 
 ## Adding a new DataSource
 
-DataSources are configured as a special type of [tool](/src/tools/index.md).
+DataSources are configured as a special type of [tool](/tools/).
 
 Checklist for DataSource tools:
 

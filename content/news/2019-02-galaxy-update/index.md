@@ -31,7 +31,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 [<img class="float-right" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
-The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
+The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
 The GCC2019 Organizing Committee compiled [training topics nominated by the community](https://galaxyproject.org/events/gcc2019/training/#training-topic-votes) and expanded this list with community requests and topics from the previous GCC to offer a broad range of training sessions to be voted on by the community for GCC2019. Voting closes February 4th. 
 
@@ -64,7 +64,7 @@ Got some ideas? **[Nominate them](https://docs.google.com/forms/d/e/1FAIpQLSfv25
 
 ## Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+These and [other Galaxy related events](/events/) are coming up in the next few months:
 
 <table class="table table-striped">
 <thead>
@@ -181,7 +181,7 @@ Ten of the fourteen highlighted publications are open access.
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's what's been added since last month:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's what's been added since last month:
 
 [<img class="float-right" style="max-width: 300px" src="/src/use/quantp/quantp-fig3-400.jpg" alt="QuanTP" />](/src/use/quantp/index.md)
 
@@ -207,7 +207,7 @@ The workbench is developed by the RNA Bioinformatics Center (RBC). This center i
 
 ## Hi-C Explorer
 
-[Hi-C Explorer](https://hicexplorer.usegalaxy.eu) is another server that has been up for a while, but is also new to the [Galaxy Platform Directory](/src/use/index.md).   It facilitates the study of the 3D conformation of chromatin by allowing Hi-C data processing, analysis and visualization.  See the "[Hi-C analysis of Drosophila melanogaster cells using HiCExplorer](https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html) tutorial and [example history](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/drosophila-melanogaster-hi-c-training).
+[Hi-C Explorer](https://hicexplorer.usegalaxy.eu) is another server that has been up for a while, but is also new to the [Galaxy Platform Directory](/use/).   It facilitates the study of the 3D conformation of chromatin by allowing Hi-C data processing, analysis and visualization.  See the "[Hi-C analysis of Drosophila melanogaster cells using HiCExplorer](https://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html) tutorial and [example history](https://hicexplorer.usegalaxy.eu/u/joachim-wolff/h/drosophila-melanogaster-hi-c-training).
 
 Hi-C Explorer is also hosted at UseGalaxy.eu.
 
@@ -274,7 +274,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 [<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/src/blog/2019-01-totm/index.md)
 </div>
 
-There are two new *[Galactic Blog](/src/blog/index.md)* entries:
+There are two new *[Galactic Blog](/blog/)* entries:
 
 * **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/src/blog/2019-01-totm/index.md):**
   * read about using Prokka for annotation of draft genome sequences
@@ -312,7 +312,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States.
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ---
 

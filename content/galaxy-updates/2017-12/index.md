@@ -9,7 +9,7 @@ Welcome to the December 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a 
 
 # Events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 ## European Galaxy Administrator Workshop
 
@@ -169,20 +169,20 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 # New Galactic Blog Entries
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/blog/)
 
-We've got two new *[Galactic Blog](/src/blog/index.md)* entries:
+We've got two new *[Galactic Blog](/blog/)* entries:
 
 * [Setup your own instance of the Galaxy Bioinformatics platform on DigitalOcean](https://vimal.io/setup-your-own-galaxy-bioinformatics-instance-on-digitalocean/), by [Vimalkumar Velayudhan](https://vimal.io/)
 * [Galaxy Docker 17.09](/src/blog/2017-11-galaxy-docker-17.09/index.md), by [Björn Grüning](/people/bjoern-gruening/)
 
-The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/src/news/index.md) for shorter-form items.) 
+The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.) 
 
 ## The Galactic Blog needs you!
 
 The Galaxy community needs to know what you are doing.  If you have done something that others would benefit from knowing then please create a *Galactic Blog* post describing your experiences.
 
-Blog posts can either be directly created on the Hub, or can be posted on your favorite blogging platform and linked to from the [Blog home page](/src/blog/index.md).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
+Blog posts can either be directly created on the Hub, or can be posted on your favorite blogging platform and linked to from the [Blog home page](/blog/).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
 
 Questions? [Ask us](mailto:outreach@galaxyproject.org).
 
@@ -225,13 +225,13 @@ The Galaxy is expanding! Please help it grow.
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in November.
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in November.
 
 ## MiModD 0.1.8 Released
 

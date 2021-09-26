@@ -2,7 +2,7 @@
 title: "Main & Test ServerDowntime: 3/14"
 date: "2013-03-07"
 ---
-The **Galaxy Public [Main Galaxy Server](/src/main/index.md)** at **http://main.g2.bx.psu.edu''' (''[usegalaxy.org](http://usegalaxy.org)*) and **[Test Galaxy Server](/src/test/index.md)** at **http://test.g2.bx.psu.edu''' will be '''down on Thursday, March 14, while the team ''relocates core hardware to a new server room.'''''
+The **Galaxy Public [Main Galaxy Server](/main/)** at **http://main.g2.bx.psu.edu''' (''[usegalaxy.org](http://usegalaxy.org)*) and **[Test Galaxy Server](/test/)** at **http://test.g2.bx.psu.edu''' will be '''down on Thursday, March 14, while the team ''relocates core hardware to a new server room.'''''
 
 <div class='right'>![Rerun a job](/src/images/screenshots/re-run-sm.png)</div>
 

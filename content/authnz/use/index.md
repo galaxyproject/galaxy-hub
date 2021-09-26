@@ -13,7 +13,7 @@ or persist their histories on their own cloud-based storage---a feature that is 
 available to anonymous users. 
 
 
-For users convenience, Galaxy offers [various methods](/src/authnz/index.md#user-authentication-and-authorization) 
+For users convenience, Galaxy offers [various methods](/authnz/#user-authentication-and-authorization) 
 to create a Galaxy user account. (Note that some of these methods can be disabled
 on the Galaxy instance you're using as per that instance's configuration.) Depending
 on the method you choose, you may be creating a Galaxy user account explicitly 

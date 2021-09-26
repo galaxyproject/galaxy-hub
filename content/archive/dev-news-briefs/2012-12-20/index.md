@@ -42,7 +42,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ### Galaxy Enhancement related to installed tool shed repositories
 
@@ -159,7 +159,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[News](/src/news/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-12)***
+[News](/news/), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-12)***
 
 <div class='left'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 <br />

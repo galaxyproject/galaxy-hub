@@ -10,7 +10,7 @@ The address of FTP server for Main Galaxy is `usegalaxy.org`. Use the same email
 </div>
 
 Uploading data directly from the browser can be unreliable and cumbersome.
-Because of this some Galaxies including the [Main](/src/main/index.md) allow you to upload data via FTP.
+Because of this some Galaxies including the [Main](/main/) allow you to upload data via FTP.
 FTP will allow you to monitor the upload status as well as resume interrupted transfers.
 Compression types .gz/.gzip, .bz/.bzip, .bz2/.bzip2, and single-file .zip are also supported.
 
@@ -28,7 +28,7 @@ In this example, FileZilla for MacOS is used. Point your client to the FTP serve
 
 <div class="alert alert-warning trim-p" role="alert">
 
-If you are having trouble connecting to the [Main](/src/main/index.md) server try enabling FTP with `passive` mode in your client. Please connect using `FTP`, `FTPS`, or `FTP-TLS` type of connections. All `SFTP` connections will be rejected.
+If you are having trouble connecting to the [Main](/main/) server try enabling FTP with `passive` mode in your client. Please connect using `FTP`, `FTPS`, or `FTP-TLS` type of connections. All `SFTP` connections will be rejected.
 
 </div>
 

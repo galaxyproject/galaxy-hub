@@ -5,7 +5,7 @@ title: Frequently Asked Questions for Galaxy Administration
 <slot name="/faqs/linkbox" />
 
 
-See [Learn/FAQ](/src/learn/faq/index.md) for questions about using any Galaxy instance, and [Main/FAQ](/src/main/faq/index.md) for questions specifically about using Galaxy's free public server [Main](/src/main/index.md).
+See [Learn/FAQ](/src/learn/faq/index.md) for questions about using any Galaxy instance, and [Main/FAQ](/src/main/faq/index.md) for questions specifically about using Galaxy's free public server [Main](/main/).
 
 
 
@@ -21,15 +21,15 @@ See [Copyrights and Licenses](/src/admin/license/index.md).
 
 ## Using Galaxy
 
-The Galaxy Community has created Galaxy instances in many different forms and for many different applications. The [Galaxy Platform Directory](/src/use/index.md) lists the options we know about, including:
+The Galaxy Community has created Galaxy instances in many different forms and for many different applications. The [Galaxy Platform Directory](/use/) lists the options we know about, including:
 
 * Free public Galaxy servers,
 * cloud services that support Galaxy instances, and
 * virtual machines and containers that can be easily deployed for your own server.
 
-Which is **right** for you?  Explore the directory, especially the section on [Which Platform / Platform type to use](/src/use/index.md#which-platform-platform-type-to-choose/).
+Which is **right** for you?  Explore the directory, especially the section on [Which Platform / Platform type to use](/use/#which-platform-platform-type-to-choose/).
 
-Tools and workflows contributed by [community members](/src/community/index.md) worldwide) are served through the **[Main ToolShed](/src/toolshed/index.md)** and genome data/indexes through an **[rsync service](/src/admin/data-integration/index.md)**.  
+Tools and workflows contributed by [community members](/community/) worldwide) are served through the **[Main ToolShed](/toolshed/)** and genome data/indexes through an **[rsync service](/src/admin/data-integration/index.md)**.  
 
 ----
 
@@ -127,5 +127,5 @@ The following alignment tools available in Galaxy enable this:
 
 ## Any other question
 
-<div class='left'><a href='/src/search/index.md'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Search" width="150" /></a></div>
-[Galaxy Search](/src/search/index.md) searches all online Galaxy resources.  This includes this hub, the [Mailing Lists](/src/mailing-lists/index.md), [Main](/src/main/index.md), the [Tool Shed](/src/toolshed/index.md), and the [Galaxy source code](https://github.com/galaxyproject/galaxy).
+<div class='left'><a href='/search/'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Search" width="150" /></a></div>
+[Galaxy Search](/search/) searches all online Galaxy resources.  This includes this hub, the [Mailing Lists](/src/mailing-lists/index.md), [Main](/main/), the [Tool Shed](/toolshed/), and the [Galaxy source code](https://github.com/galaxyproject/galaxy).

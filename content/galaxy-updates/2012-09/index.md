@@ -3,7 +3,7 @@ title: September 2012 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the September 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the September 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -62,7 +62,7 @@ These papers were among [46 papers added to the Galaxy CiteULike group](http://w
 
 ## New Public Servers
 
-*Three* new publicly accessible Galaxy servers were added to the [Public Galaxy Servers](/src/use/index.md) page in August:
+*Three* new publicly accessible Galaxy servers were added to the [Public Galaxy Servers](/use/) page in August:
 
 
 | Server |  Purpose / Community  |  Other Comments  |  Restrictions  |  Sponsor  | 
@@ -80,7 +80,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -237,7 +237,7 @@ The workshop is part of the SyBIT Tech Day series.
 A new mailing list has been launched, specifically for the French Galaxy Community:
 * [Liste de diffusion Galaxy France](https://lists.galaxyproject.org/lists/galaxy-france.lists.galaxyproject.org/)
 
-This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/src/news/liste-de-diffusion-galaxy-france/index.md), [list archive](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/lists/galaxy-france.lists.galaxyproject.org/) for more.  Postings to the list will be integrated into [Galaxy search](/src/search/index.md).
+This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/src/news/liste-de-diffusion-galaxy-france/index.md), [list archive](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/lists/galaxy-france.lists.galaxyproject.org/) for more.  Postings to the list will be integrated into [Galaxy search](/search/).
 
 ## Tool Shed Contributions
 

@@ -6,7 +6,7 @@ title: Galaxy Utilities
 
 ## Tools
 
-A [Galaxy tool](/src/toolshed/tool-features/index.md) is any software package that takes any number of inputs and produces one or more outputs, e.g. BWA. Galaxy tools are versioned, and it should not be expected that different versions should produce the same output given the same input(s) and parameter(s). It should however be expected that a Galaxy tool always produce the same output every time it is run with the same input data and parameters. In the [main Galaxy ToolShed](https://toolshed.g2.bx.psu.edu), tools are reviewed by the [Intergalactic Utilities Commission](/src/iuc/index.md).
+A [Galaxy tool](/src/toolshed/tool-features/index.md) is any software package that takes any number of inputs and produces one or more outputs, e.g. BWA. Galaxy tools are versioned, and it should not be expected that different versions should produce the same output given the same input(s) and parameter(s). It should however be expected that a Galaxy tool always produce the same output every time it is run with the same input data and parameters. In the [main Galaxy ToolShed](https://toolshed.g2.bx.psu.edu), tools are reviewed by the [Intergalactic Utilities Commission](/iuc/).
 
 ## Tool Development
 

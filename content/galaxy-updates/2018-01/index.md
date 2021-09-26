@@ -9,7 +9,7 @@ Welcome to the January 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a s
 
 # Events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 ## GCCBOSC 2018 Training Nominations Extended to January 12
 
@@ -29,7 +29,7 @@ Nominated topics can cover a wide range. For example:
 - Software installation and configuration (Tool Wrapping for Galaxy, or Using CloudLaunch)
 - Open source community (Building a Curation Community using Apollo, or Training using the Galaxy Training Network)
 
-*These are only examples.* If you are looking for ideas, see topics nominated for [GCC2017](https://docs.google.com/document/d/1jyCndVqfXx-HsyFJ4hjaK075vDbPM1kE58qO2lJTOG8/edit?usp=sharing), [GCC2016](http://bit.ly/gcc2016noms), [GCC2015](http://bit.ly/gcc2015vote), and the [Galaxy Events page](/src/events/index.md), which lists what training the community is offering outside of GCCs.  Training is not limited to Galaxy-related topics.  *Don't be afraid to think inside the BOSC!*
+*These are only examples.* If you are looking for ideas, see topics nominated for [GCC2017](https://docs.google.com/document/d/1jyCndVqfXx-HsyFJ4hjaK075vDbPM1kE58qO2lJTOG8/edit?usp=sharing), [GCC2016](http://bit.ly/gcc2016noms), [GCC2015](http://bit.ly/gcc2015vote), and the [Galaxy Events page](/events/), which lists what training the community is offering outside of GCCs.  Training is not limited to Galaxy-related topics.  *Don't be afraid to think inside the BOSC!*
 
 Nominated topics have been, and will continue to be [published](/src/events/gccbosc2018/training/index.md) as they come in. Topics will be compiled into a uniform list by the GCCBOSC2018 organizers, and then voted on by the community later this month.
 
@@ -216,16 +216,16 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 # New Galactic Blog Entries: Galaksio
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/src/blog/index.md) <br /><br />
-[<img src="/src/images/logos/galaksio_logo.png" alt="Galaksio in the Galactic Blog" width="200" />](/src/blog/index.md)
+[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/) <br /><br />
+[<img src="/src/images/logos/galaksio_logo.png" alt="Galaksio in the Galactic Blog" width="200" />](/blog/)
 </div>
 
-We've got two new *[Galactic Blog](/src/blog/index.md)* entries, both related to [Galaksio](https://galaksio.readthedocs.io/en/latest/):
+We've got two new *[Galactic Blog](/blog/)* entries, both related to [Galaksio](https://galaksio.readthedocs.io/en/latest/):
 
 * [Galaksio: a Galaxy user interface focused on running prepared workflows](/src/blog/2017-12-galaksio/index.md), by Tomas Klingström
 * [Bioinformatic training with the B3Africa project](https://usegalaxy-eu.github.io/galaxy-freiburg/2017/12/10/b3africa.html), by Tomas Klingström
 
-The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/src/news/index.md) for shorter-form items.) 
+The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.) 
 
 # Publications
 
@@ -270,13 +270,13 @@ The Galaxy is expanding! Please help it grow.
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them last month.
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them last month.
 
 ## EuPathDB Galaxy Data Analysis Service
 

@@ -2,7 +2,7 @@
 title: Chromosome Identifiers in Reference Genomes (and other -omes)
 ---
 
-**[Back to Support Hub](/src/support/index.md)**
+**[Back to Support Hub](/support/)**
 **[Troubleshooting Help](/src/support/#troubleshooting)**
 
 Methods described help to identify and correct errors or unexpected results linked to inputs having non-identical chromosome identifiers and/or different chromosome sequence content. 

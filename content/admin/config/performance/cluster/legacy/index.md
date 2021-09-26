@@ -445,4 +445,4 @@ If your sudo config contains `Defaults    requiretty`, this option must be disab
 
 
 
-Some maintenance and support of this code will be provided via the usual [Support](/src/support/index.md) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.
+Some maintenance and support of this code will be provided via the usual [Support](/support/) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.

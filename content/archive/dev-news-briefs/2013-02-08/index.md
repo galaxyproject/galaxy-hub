@@ -69,7 +69,7 @@ This process will not only allow us to deploy important bug fixes on to the `sta
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ### New Tool Shed Features
 
@@ -140,7 +140,7 @@ All repositories dependencies and tool dependencies that are defined for each re
 <br />
 # Data
 
-1. **Megablast** indexes for the divisions `nt`, `htgs`, and `wgs` have been updated on the public [Main](/src/main/index.md) Galaxy server dated `28jan2013`.
+1. **Megablast** indexes for the divisions `nt`, `htgs`, and `wgs` have been updated on the public [Main](/main/) Galaxy server dated `28jan2013`.
 2. **NGS Data Set-up** wiki updated and simplified. [View here...](http://wiki.galaxyproject.org/Admin/NGS Local Setup)
 3. **Rsync** server hosts download of the same `.loc` files used by the Galaxy team (to be used as additional examples, or starter files if you use our rsync reference genome data. [Read more...](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)
 
@@ -230,7 +230,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[News](/src/news/index.md), ***[February 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-02)***
+[News](/news/), ***[February 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-02)***
 
 ## GCC2013
 

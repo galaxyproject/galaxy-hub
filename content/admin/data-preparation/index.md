@@ -2,7 +2,7 @@
 
 **Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see [Data Managers Overview](/src/admin/tools/data-managers/index.md)** and our **[Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)**.
 
-**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](/src/admin/tools/data-managers/index.md) are recommended to index new genomes (these are found in the [ToolShed](/src/toolshed/index.md). *This wiki is considered legacy and provided as a reference.***
+**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](/src/admin/tools/data-managers/index.md) are recommended to index new genomes (these are found in the [ToolShed](/toolshed/). *This wiki is considered legacy and provided as a reference.***
 
 # Builds list changes
 
@@ -10,7 +10,7 @@ If you still choose to do this manually, follow the instructions at [Data Integr
 
 # Data and indexes hosted at http://usegalaxy.org
 
-Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](/src/main/index.md)** instance. All options are described here http://datacache.galaxyproject.org/. More details about the rsync server and the contents is at **[Usegalaxy.org Rsync](/src/admin/use-galaxy-rsync/index.md)**.
+Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](/main/)** instance. All options are described here http://datacache.galaxyproject.org/. More details about the rsync server and the contents is at **[Usegalaxy.org Rsync](/src/admin/use-galaxy-rsync/index.md)**.
 
 ## What's in this wiki ?
 
@@ -380,7 +380,7 @@ Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.g
 Get the indexes: download directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/).
 Create your own, Usage: `formatdb -i <database>.fa -p F -n "<database>" -v 2000`
 
-The Galaxy [Main](/src/main/index.md) public instance uses htgs, wgs, and nt from NCBI.
+The Galaxy [Main](/main/) public instance uses htgs, wgs, and nt from NCBI.
 
 Put the data files in an organized hierarchy such as: 
  ` /galaxy-dist/tool-data/blast/<div>/<date>/<date_div>.* `

@@ -29,7 +29,7 @@ date: 2012-10-23
 
 Administrators are always encouraged to install the latest release not only to incorporate new features, but to take advantage of the current set of security and bug fixes inherent in any project with a fast paced development cycle. This is even more strongly advised for those running public instances. The Galaxy team takes security very seriously and strives to quickly and clearly communicate when a security issue is identified. We have an amazing community that is instrumental in the discovery and resolution of problems when they are uncovered - and we want to thank them for their contributions and support. Galaxy is truly a team effort and transparency and information flow is our priority. 
 
-We also intend to learn from recent actions in these areas that fell short of a best effort. The security corrections and priority of the changes to the `Compute` tool in the prior distribution lacked the details and urgency notice it deserved. The move from *Bitbucket* to *[Trello](/src/issues/index.md)* for community collaboration in issue reporting also lacked the information and timely documentation that would have made the transition processes smoother. Both are covered in more detail in this News Brief. Our goals are to provide a remedy for the immediate issues and to create a successful communications and collaborations model for the future. We value your feedback - please let us know how we are doing as the new tools are put into practice.  
+We also intend to learn from recent actions in these areas that fell short of a best effort. The security corrections and priority of the changes to the `Compute` tool in the prior distribution lacked the details and urgency notice it deserved. The move from *Bitbucket* to *[Trello](/issues/)* for community collaboration in issue reporting also lacked the information and timely documentation that would have made the transition processes smoother. Both are covered in more detail in this News Brief. Our goals are to provide a remedy for the immediate issues and to create a successful communications and collaborations model for the future. We value your feedback - please let us know how we are doing as the new tools are put into practice.  
 
 1. **[Compute Tool Security Fix](/src/archive/dev-news-briefs/2012-10-23/index.md#compute-tool-security-fix)**
 2. **[New Trello Issue Board](/src/archive/dev-news-briefs/2012-10-23/index.md#new-trello-issue-board)**
@@ -49,7 +49,7 @@ https://bitbucket.org/galaxy/galaxy-dist/changeset/685a17af92dfd6a2e3d7e3c9a3a4b
 <br />
 # New Trello Issue Board
 
-The Galaxy project now has a [new issue tracking system](/src/issues/index.md). The public facing ***[Trello](http://trello.com)*** board is accessible from **http://galaxyproject.org/trello''' to perform simple web issue reporting. The direct link into the ''Trello'' board is '''https://trello.com/board/galaxy-development-inbox/50686d0302dfa79d13d90c45'''. Please note that the same guidelines about creating issues used previously at ''Bitbucket'' apply here as well - report software issues and change requests, but get support and ask questions on the mailing list: galaxy-dev@bx.psu.edu.  
+The Galaxy project now has a [new issue tracking system](/issues/). The public facing ***[Trello](http://trello.com)*** board is accessible from **http://galaxyproject.org/trello''' to perform simple web issue reporting. The direct link into the ''Trello'' board is '''https://trello.com/board/galaxy-development-inbox/50686d0302dfa79d13d90c45'''. Please note that the same guidelines about creating issues used previously at ''Bitbucket'' apply here as well - report software issues and change requests, but get support and ask questions on the mailing list: galaxy-dev@bx.psu.edu.  
 
 To add new cards, the community can quickly fill out the form at http://galaxyproject.org/trello and submit (use markdown for formatting, if desired), but comment on and vote for issues directly on the *[Trello](https://trello.com/board/galaxy-development-inbox/50686d0302dfa79d13d90c45)* issue board itself.
 
@@ -62,7 +62,7 @@ The Galaxy wiki and other related resources have now been updated to point to th
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ### Tool Shed Enhancements inside of Galaxy
 
@@ -123,7 +123,7 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 4. Add **genomespace** tools to `tool_conf.xml.main`. 
   * Get Data -> [GenomeSpace](http://www.genomespace.org) import
   * Send Data -> [GenomeSpace](http://www.genomespace.org) export
-  * **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [Main](/src/main/index.md).
+  * **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [Main](/main/).
 
 <br />
 # Visualization framework
@@ -213,7 +213,7 @@ Detail view of center panel:
 <br />
 # Announcements
 
-[News](/src/news/index.md), *[October 2012 Galaxy Update](/src/galaxy-updates/2012-10/index.md)*
+[News](/news/), *[October 2012 Galaxy Update](/src/galaxy-updates/2012-10/index.md)*
 
 <br />
 ----

@@ -42,7 +42,7 @@ See you in Freiburg!
 * [Gateway Focus Week (formerly Science Gateways Bootcamp)](https://mailchi.mp/8607266eb461/apply-now-for-september-2019-focus-week), applications due July 19.
 * [Single cell RNA-seq analysis: From questions to clusters](https://www.ebi.ac.uk/training/events/2019/single-cell-rna-seq-analysis-questions-clusters), applications due 29 July.
 
-**[Upcoming events](/src/events/index.md):**
+**[Upcoming events](/events/):**
 
 <table class="table table-striped">
 <thead>
@@ -192,7 +192,7 @@ There were 7 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGa
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
 
 ## UseGalaxy.eu News
 
@@ -241,7 +241,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
   * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ---
 

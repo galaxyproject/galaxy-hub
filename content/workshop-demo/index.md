@@ -1,6 +1,6 @@
 # Cloud Computing for the Microbiome Workshop Notes
 
-Comprehensive documentation can be found at [CloudMan](/src/cloudman/index.md).
+Comprehensive documentation can be found at [CloudMan](/cloudman/).
 
 #### Quick start
 

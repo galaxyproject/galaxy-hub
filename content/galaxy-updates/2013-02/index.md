@@ -3,7 +3,7 @@ title: February 2013 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the February 2013 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the February 2013 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -33,7 +33,7 @@ Brett further explained that this was partly because the lab's skill set made se
 
 <br />
 
-These servers join the [growing list of public Galaxy servers](/src/use/index.md).
+These servers join the [growing list of public Galaxy servers](/use/).
 
 
 ## New Papers
@@ -72,7 +72,7 @@ These servers join the [growing list of public Galaxy servers](/src/use/index.md
 
 </div>
 
-These papers may be of interest to the Galaxy community.  The first three describe the [Public Galaxy servers](/src/use/index.md) listed above.
+These papers may be of interest to the Galaxy community.  The first three describe the [Public Galaxy servers](/use/) listed above.
 
 * "[Computational phosphorylation site prediction in plants using random forests and organism-specific instance weights](https://doi.org/10.1093/bioinformatics/btt031)," by Brett Trost, Anthony Kusalik, *Bioinformatics* (22 January 2013)
 * "[Database resources for the tuberculosis community](https://doi.org/10.1016/j.tube.2012.11.003)," by Lew, *et al.*, *Tuberculosis* (January 2013)
@@ -94,7 +94,7 @@ The Galaxy is expanding! Please help it grow.
 * [Offre de stage M2 PRO](http://bit.ly/114Xd9p), [Mathématique, Informatique et Génome (MIG)](http://mig.jouy.inra.fr/) est une unité de l'INRA de Jouy-en-Josas
 * [Engineer position in bioinformatics: structural polymorphism analysis from NGS data](http://bit.ly/TEQvzd) @ [UMR de Génétique Végétale, INRA-Université Paris Sud-CNRS](http://moulon.inra.fr/index.php/fr/equipestransversales/atelier-de-bioinformatique)
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 
 ## GCC2013
@@ -238,8 +238,8 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 <br />
 <br />
 * XML defined [Tool shed repository dependencies](/src/defining-repository-dependencies/index.md) introduced
-* [Various enhancements](/src/archive/dev-news-briefs/2013-01-11/index.md#other-tool-shed) to [Tool shed](/src/toolshed/index.md) containers, display of README files and SVG images, and the tool shed's [functional test framework](/src/toolshed/hosting-a-local-toolshed/index.md#functional-test-framework-for-the-tool-shed).
-* [New genomes](/src/archive/dev-news-briefs/2013-01-11/index.md#data) added to **[Main](/src/main/index.md)** Galaxy instance and rsync download.
+* [Various enhancements](/src/archive/dev-news-briefs/2013-01-11/index.md#other-tool-shed) to [Tool shed](/toolshed/) containers, display of README files and SVG images, and the tool shed's [functional test framework](/src/toolshed/hosting-a-local-toolshed/index.md#functional-test-framework-for-the-tool-shed).
+* [New genomes](/src/archive/dev-news-briefs/2013-01-11/index.md#data) added to **[Main](/main/)** Galaxy instance and rsync download.
 * Plus bug fixes and related enhancements for visualizations, histories, workflows, and tools.
 
 **[http://getgalaxy.org](http://getgalaxy.org)**

@@ -1,7 +1,7 @@
 ---
 title: Help for Differential Expression Analysis
 ---
-[Back to Support Hub](/src/support/index.md)
+[Back to Support Hub](/support/)
 
 FAQs and Galaxy Help Q`&`A. Most tool errors have been discussed or have existing help:
 
@@ -11,7 +11,7 @@ FAQs and Galaxy Help Q`&`A. Most tool errors have been discussed or have existin
 
 Related topics
 
-* [Tutorials](/src/learn/index.md)
+* [Tutorials](/learn/)
 * [Getting Inputs Right](/src/support/#getting-inputs-right)
 * [Format help for Tabular/BED/Interval Datasets](/src/support/tabular/index.md)
 * [Common datatypes explained](/src/learn/datatypes/index.md)

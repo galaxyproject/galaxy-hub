@@ -168,11 +168,11 @@ If you are working in data intensive science in India then please consider getti
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
-[Galaxy Career Center](/src/careers/index.md)
+[Galaxy Career Center](/careers/)
 
 </div>
 
-**Ten new positions were added to the [Galaxy Career Center](/src/careers/index.md) in the last month.**  Many of them close soon:
+**Ten new positions were added to the [Galaxy Career Center](/careers/) in the last month.**  Many of them close soon:
 
 * Australia, closes 11 August
 * Norway, closes 15 August
@@ -211,7 +211,7 @@ In addition to the GCC2021 talks (54 of them, see above) and the GCC2021 Trainin
 
 # Event News
 
-There is not a lot going on in August, but what is happening is compelling.  See all [upcoming events here](/src/events/index.md):
+There is not a lot going on in August, but what is happening is compelling.  See all [upcoming events here](/events/):
 
 <div class="card-deck">
 
@@ -273,7 +273,7 @@ As you can see, we still [need volunteers (like you!) to lead the discussion on 
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -313,7 +313,7 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 

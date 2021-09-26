@@ -23,7 +23,7 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 | 9:30 - 9:45 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   | 
 | 9:45 - 10:30 |  [Dannon Baker](/people/dannon-baker/)  |  State of the Galaxy Project - priorities, plans, and community  |   | 
 | 10:30 - 11:00 |  Coffee Break  | 
-| 11:00 - 11:20 |  Nicola Soranzo  |  News from the [IUC](/src/iuc/index.md) and the Galaxy tool ecosystem  |   | 
+| 11:00 - 11:20 |  Nicola Soranzo  |  News from the [IUC](/iuc/) and the Galaxy tool ecosystem  |   | 
 | 11:20 - 11:40 |  [Björn Grüning](/people/bjoern-gruening/)  |  Fixing Bioinformatic Infrastructure  |   | 
 | 11:40 - 12:00 |  Bérénice Batut  |  [Galaxy Training Network](https://training.galaxyproject.org/) - rebooted  |   | 
 | 12:00 - 13:30 |  Lunch Break in nearby restaurants  | 

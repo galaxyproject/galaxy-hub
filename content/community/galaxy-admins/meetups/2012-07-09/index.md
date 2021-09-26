@@ -30,7 +30,7 @@ Ann proposed this generic agenda for future calls
 * 20 min: Galaxy in Our Town. 
     Presentation from a local galaxy institution on what they are doing or a problem they are troubleshooting - or have someone walk through their use cases and pain points.
 * 20 min: Galaxy Today/Tomorrow. 
-    Presentation on a galaxy coding item. Either from [Galaxy Team](/galaxy-team/), or from [someone](/src/community/index.md) working on a new feature or customization.
+    Presentation on a galaxy coding item. Either from [Galaxy Team](/galaxy-team/), or from [someone](/community/) working on a new feature or customization.
 * 20 mins: Open Mic Discussion & make point to point connections. 
     Organize smaller breakouts if someone wants to host a call specific to an issue, ...
 

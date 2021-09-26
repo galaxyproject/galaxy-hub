@@ -9,7 +9,7 @@ Welcome to the April 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 
 # UseGalaxy.eu and UseGalaxy.org.au Launched
 
-[UseGalaxy.org](https://usegalaxy.org/) is absolutely delighted to announce the birth of two sibling servers - **[UseGalaxy.eu](https://usegalaxy.eu/)** and **[UseGalaxy.org.au](https://usegalaxy.org.au/)**.  The three [UseGalaxy servers](/src/usegalaxy/index.md) will mirror a set of core tools and reference genomes and are aimed at better distributing access to Galaxy around the world.
+[UseGalaxy.org](https://usegalaxy.org/) is absolutely delighted to announce the birth of two sibling servers - **[UseGalaxy.eu](https://usegalaxy.eu/)** and **[UseGalaxy.org.au](https://usegalaxy.org.au/)**.  The three [UseGalaxy servers](/usegalaxy/) will mirror a set of core tools and reference genomes and are aimed at better distributing access to Galaxy around the world.
 
 [<img class="float-right" src="/src/images/galaxy-logos/usegalaxy.eu.256.png" alt="useGalaxy.eu" width="160" />](https://usegalaxy.eu/)
 
@@ -25,7 +25,7 @@ Welcome to the April 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 * [Announcing an Australia-wide Galaxy service](https://www.embl-abr.org.au/galaxyaustralia/)
 * [UseGalaxy.org.au public server directory entry](/src/use/usegalaxy-au/index.md)
 
-And see the new [UseGalaxy page](/src/usegalaxy/index.md) for future plans.
+And see the new [UseGalaxy page](/usegalaxy/) for future plans.
 
 ----
 
@@ -114,7 +114,7 @@ The primary submission deadline is May 7, 2018, and a poster session deadline (o
 
 # Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md)  coming up in the next few months:
+These and [other Galaxy related events](/events/)  coming up in the next few months:
 
 <table class="table table-striped"><thead>
 <tr>
@@ -318,13 +318,13 @@ The Galaxy is expanding! Please help it grow.
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  In addition to the [UseGalaxy launches](/src/galaxy-updates/2018-04/index.md#usegalaxyeu-and-usegalaxyorgau-launched), another public server was added to the directory, and one was updated:
+There are [over 100 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  In addition to the [UseGalaxy launches](/src/galaxy-updates/2018-04/index.md#usegalaxyeu-and-usegalaxyorgau-launched), another public server was added to the directory, and one was updated:
 
 ## Proteogenomics Gateway
 

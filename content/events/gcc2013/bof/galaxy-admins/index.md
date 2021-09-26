@@ -60,7 +60,7 @@ If you are interested, please add your name below and/or send an email to [Dave 
 **Reference / Wiki**
 * Want a knowledge base with different descriptions of Galaxy Deployments
 * Possibly have an Admin/Logs section where people can describe what they did
-* Add a list of Admin Tutorials to [Admin](/src/admin/index.md) and [Cloud](/src/cloudman/index.md) Hub pages, similar to what is on the [Learn](/src/learn/index.md) hub page.
+* Add a list of Admin Tutorials to [Admin](/admin/) and [Cloud](/cloudman/) Hub pages, similar to what is on the [Learn](/learn/) hub page.
 
 **Mailing Lists / Forums**
 
@@ -101,7 +101,7 @@ If you still want this functionality, you are encouraged to configure your email
 Reference / Wiki
 * Dave C will set up an "installation description" template that enables people to provide a basic description of their installation.  This is not a database, but it would build a searchable list of deployments
 * Dave C will create a section of the wiki for admins to log what they did during installs.
-* Dave C will add a list of Admin Tutorials to [Admin](/src/admin/index.md) and [Cloud](/src/cloudman/index.md) Hub pages, similar to what is on the [Learn](/src/learn/index.md) hub page.
+* Dave C will add a list of Admin Tutorials to [Admin](/admin/) and [Cloud](/cloudman/) Hub pages, similar to what is on the [Learn](/learn/) hub page.
 
 Mailing Lists / Forums
 

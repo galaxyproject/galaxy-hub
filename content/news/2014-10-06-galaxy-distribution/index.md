@@ -8,7 +8,7 @@ date: "2014-10-06"
 *Highlights:* <br />
 <br />  • New! [UseGalaxy.org](http://usegalaxy.org) Admin Reorganized
 <br />  • New! History and Dataset Functions
-<br />  • Learn about [TACC's](https://www.tacc.utexas.edu/) Stampede supercomputer, a compute powerhouse behind [Main](/src/main/index.md)
+<br />  • Learn about [TACC's](https://www.tacc.utexas.edu/) Stampede supercomputer, a compute powerhouse behind [Main](/main/)
 <br />  • Join our [GitHub](https://github.com/galaxyproject/tools-devteam) community 
 <br />  • Server Status a click away [http://status.galaxyproject.org](http://status.galaxyproject.org)
 <br />  • Many other Admin, Workflow, Tool Development, Visualization, API, and Job upgrades

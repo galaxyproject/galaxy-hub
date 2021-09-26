@@ -3,11 +3,11 @@ title: September 2014 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the September 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the September 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Galaxy-UK Community Launched
 
-Galaxy-UK, a new [Galaxy Community](/src/community/index.md) was launched in August.  The Galaxy-UK Community aims to:  
+Galaxy-UK, a new [Galaxy Community](/community/) was launched in August.  The Galaxy-UK Community aims to:  
 
 * Bring the Galaxy community in the United Kingdom closer together
 * Identify and address the needs of the community
@@ -24,7 +24,7 @@ The community will also have both online meetings and physical meetings, so keep
 
 ## Other Galaxy Communities
 
-Don't fret if you want to join a community but you are not in the UK.  Galaxy-UK is just one of several [Galaxy communities](/src/community/index.md) you can join.  (And there are rumors of a German language community in the works.)
+Don't fret if you want to join a community but you are not in the UK.  Galaxy-UK is just one of several [Galaxy communities](/community/) you can join.  (And there are rumors of a German language community in the works.)
 
 # Events
 
@@ -270,7 +270,7 @@ The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -321,7 +321,7 @@ August was an eventful month for releases.  New versions of [Galaxy](/src/galaxy
 
 ## August 2014 CloudMan Release
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
@@ -341,7 +341,7 @@ This is mostly an incremental bug fix release with the following summary of chan
 
 For complete details on implemented changes, please see the [source code commits](https://bitbucket.org/galaxy/cloudman/commits/all?search=835%3A903).
 
-[CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
+[CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 ## BioBlend 0.5.1 Release
 
@@ -418,21 +418,21 @@ Eric & Björn
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
 <div class='right'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a> </em> &nbsp;&nbsp;<br /> </td>
+    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a> </em> &nbsp;&nbsp;<br /> </td>
   </tr>
 </table>
 
 <br /><br />
 
-**There were no new [Log Board](/src/blog/index.md) or Deployment Catalog entries in August!**  Eek!  Please don't let this happen again!  
+**There were no new [Log Board](/blog/) or Deployment Catalog entries in August!**  Eek!  Please don't let this happen again!  
 
-The *[Community Log Board](/src/blog/index.md)* and  *Deployment Catalog* *[Galaxy community hubs](/src/community/index.md)* were launched last your.  If you have a Galaxy deployment, or [experience](/src/blog/index.md) you want to share then please publish them **this month.**
+The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them **this month.**
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 

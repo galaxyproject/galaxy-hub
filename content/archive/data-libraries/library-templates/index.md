@@ -6,7 +6,7 @@ Data library templates provide a way to associate information (metadata) with th
 is based on a Galaxy form, which must be defined before the template can be associated with a data library or any of it's contents.  There
 are several types of Galaxy forms, and forms on which data library templates are based must be of type "Library information template".
 
-This document assumes that you are in the Admin perspective which is available only to [admin users](/src/admin/index.md) 
+This document assumes that you are in the Admin perspective which is available only to [admin users](/admin/) 
 and is accessed by clicking on the "Admin" link in the top Galaxy menu bar.  However, users that are not admin users can also be granted 
 permission to add and edit data library templates, although they will be doing so from the Data Libraries perspective which is accessible
 by clicking on the "Data Libraries" option in the "Shared Data" pop-up menu in the top Galaxy menu bar.  For information about setting data 

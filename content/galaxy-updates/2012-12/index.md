@@ -3,7 +3,7 @@ title: December 2012 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the December 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the December 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -66,7 +66,7 @@ These papers were among [37 papers added to the Galaxy CiteULike group](http://w
 
 * **[RepeatExplorer](http://repeatexplorer.umbr.cas.cz/):** Features utilities for [Graph-based clustering and characterization of repetitive sequences in next-generation sequencing data](http://www.biomedcentral.com/1471-2105/11/378) and tools for the detection of transposable element protein coding domains.  [RepeatExplorer](http://repeatexplorer.umbr.cas.cz/) is hosted by the [Laboratory of Molecular Cytogenetics](http://w3lamc.umbr.cas.cz/lamc/), [Institute of Plant Molecular Biology](http://www.umbr.cas.cz/), [Biology Centre ASCR](http://www.bc.cas.cz/en/)
 
-See [the list of public Galaxy servers](/src/use/index.md) for more open and accessible Galaxy instances.
+See [the list of public Galaxy servers](/use/) for more open and accessible Galaxy instances.
 
 ## Who's Hiring
 
@@ -80,7 +80,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
 * The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Penn State and Emory
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -198,7 +198,7 @@ upgrade: $ hg pull -u -r 5dcbbdfe1087
 
 ## New Galaxy CloudMan Release
 
-[CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
+[CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 This update brings a large number of updates and new features, the most prominent ones being:
 * Support for Eucalyptus cloud middleware. Thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).

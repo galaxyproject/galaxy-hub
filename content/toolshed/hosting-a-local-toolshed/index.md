@@ -3,7 +3,7 @@ It is not recommended to run your own ToolShed. This documentation is additional
 </div>
 
 
-<div class='right'> <a href='/src/toolshed/index.md'>![Tool Shed logo](/src/images/logos/ToolShed.jpg)</a></div>
+<div class='right'> <a href='/toolshed/'>![Tool Shed logo](/src/images/logos/ToolShed.jpg)</a></div>
 
 # Hosting a Public Tool Shed for sharing Galaxy Utilities
 

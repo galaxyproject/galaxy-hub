@@ -1,7 +1,7 @@
 ---
  title: Metadata
 ---
-[Back to Support Hub](/src/support/index.md)
+[Back to Support Hub](/support/)
 
 # When and how are metadata assigned?
 

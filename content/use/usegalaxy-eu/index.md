@@ -14,7 +14,7 @@ comments:
 user_support:
   - "[UseGalaxy.eu Gitter Support Channel](https://gitter.im/usegalaxy-eu/Lobby)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
-  - "[Support](/src/support/index.md)"
+  - "[Support](/support/)"
 quotas:
   - "Storage and computational quotas."
 citations:

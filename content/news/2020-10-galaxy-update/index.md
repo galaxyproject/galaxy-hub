@@ -23,7 +23,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # Event News
 
-Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/events/) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
@@ -115,7 +115,7 @@ Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/src/eve
 <img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
-There are [15 events](/src/events/index.md) in the next 3 months:
+There are [15 events](/events/) in the next 3 months:
 
 * 9 are online.
 * The remaining 6 are in France (4) and the United States (2).
@@ -125,7 +125,7 @@ There are [15 events](/src/events/index.md) in the next 3 months:
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
 
 <div class="card-deck">
 
@@ -171,7 +171,7 @@ PhagePromoter predicts promoter sequences in phage genomes, using machine learni
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -414,7 +414,7 @@ We are building on the internationally used platform [FAIRDOMhub](https://fairdo
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[CINECA Project Profiles Saskia Hiltemann](https://www.cineca-project.eu/blog-all/connect-with-cineca-saskia-hiltemann)</div>
 
-Saskia is a core member of the [Intergalactic Utilities Commission](/src/iuc/index.md), and one of the creators of the [Galaxy Training Network](https://training.galaxyproject.org/).  Within the [CINECA project](https://www.cineca-project.eu/) Saskia is co-Lead on Work Package 6, dissemination and outreach work, and a major contributor to Work Package 5 - Healthcare Interoperability and Clinical Applications.
+Saskia is a core member of the [Intergalactic Utilities Commission](/iuc/), and one of the creators of the [Galaxy Training Network](https://training.galaxyproject.org/).  Within the [CINECA project](https://www.cineca-project.eu/) Saskia is co-Lead on Work Package 6, dissemination and outreach work, and a major contributor to Work Package 5 - Healthcare Interoperability and Clinical Applications.
 
 <img class="card-img-bottom" src="/src/images/logos/cineca-logo-text.png" alt="CINECA" />
 </div>

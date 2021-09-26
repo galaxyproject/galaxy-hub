@@ -15,7 +15,7 @@ date: 2011-11-18
 ## News & Events
 
 <div class='left'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
-* Keep current on all things Galaxy at our [News](/src/news/index.md) and [Events](/src/events/index.md) wikis.
+* Keep current on all things Galaxy at our [News](/news/) and [Events](/events/) wikis.
 * Galaxy is still [hiring](/src/galaxy-is-hiring/index.md)!
 
 ### GCC 2012 is Scheduled!
@@ -37,8 +37,8 @@ Please reserve July 25-27 on your calendars!
 * A one day [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) is being held in [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) in [Český Krumlov, Czech Republic](http://www.ckrumlov.info/php/)
   * Registration deadline is December 15, but you are encouraged to register early, so we can gauge demand.
   * This workshop is immediately following the [Workshop on Genomics](http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/2012), which also features Galaxy content, and is still accepting applications.
-* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/src/events/pag2012/index.md) on using Galaxy, both on [Main](/src/main/index.md) and in the [Cloud](/src/cloudman/index.md)
-* There are also [events](/src/events/index.md) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ) in January.
+* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/src/events/pag2012/index.md) on using Galaxy, both on [Main](/main/) and in the [Cloud](/cloudman/)
+* There are also [events](/events/) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ) in January.
 
 ----
 ## What's New
@@ -81,19 +81,19 @@ There are two Tool Sheds supported by the core Galaxy team:
 * **[FastQC:](http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/)**
   * Wrapper updated to handle changes in HTML output from the most recent FastQC release 0.10.0 from [Babraham Bioinformatics](http://www.bioinformatics.bbsrc.ac.uk/)
   * If you see a broken FastQC html report in the UI, then an older version is being used. **[Upgrading FastQC to version 0.10.0](http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/) is required**
-  * Galaxy [Main](/src/main/index.md) is running version 0.10.0
+  * Galaxy [Main](/main/) is running version 0.10.0
 * **[Picard:](http://picard.sourceforge.net/)**
   * Wrapper updated to handle changes to command line parameters for `CollectInsertSizeMetrics.jar` in version 1.56
     * If you see an error message about an unrecognized parameter `"DEVIATIONS"` (related to Insertion size metrics), then an older version is being used. **[Upgrading Picard to version 1.56](http://sourceforge.net/projects/picard/files/) is required**
   * Update Picard tools to use `tool-data/shared/jars/picard/*` instead of `tool-data/shared/jars/*`
-  * Galaxy [Main](/src/main/index.md) is running version 1.56
+  * Galaxy [Main](/main/) is running version 1.56
 * **[TopHat:](http://tophat.cbcb.umd.edu/)** 
   * Wrapper updated to support versions 1.3.*
   * If you see an error message about "tophat: option --max-insertion-length not recognized", then an older version is being used. **[Upgrading TopHat to at least version 1.3.1 (with 1.3.3 preferred)](http://tophat.cbcb.umd.edu/) is required** 
-  * Galaxy [Main](/src/main/index.md) is running version 1.3.3
+  * Galaxy [Main](/main/) is running version 1.3.3
 * **[Cufflinks:](http://cufflinks.cbcb.umd.edu/)** 
   * Improved documentation for gene annotation dataset parameters
-  * Galaxy [Main](/src/main/index.md) is running version 1.0.3
+  * Galaxy [Main](/main/) is running version 1.0.3
 * Upgraded tool **Convert Formats -> SFF converter** to use *[sff_extract](http://bioinf.comav.upv.es/sff_extract/download.html)* version 0.2.10
 * **[SAMTools:](http://samtools.sourceforge.net/)**
   * Handle SAMTools stderr messages causing an error state when using [FreeBayes](http://github.com/ekg/freebayes)
@@ -149,7 +149,7 @@ There are two Tool Sheds supported by the core Galaxy team:
 
 ### Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 
 * Grid fixes: (a) make operation buttons work after refresh and (b) show message each time
 * Force absolute path when creating temporary directory used when importing histories. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/667](https://bitbucket.org/galaxy/galaxy-central/issue/667)

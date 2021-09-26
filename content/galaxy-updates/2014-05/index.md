@@ -3,7 +3,7 @@ title: May 2014 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the May 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the May 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Galaxy Biostar
 
@@ -13,7 +13,7 @@ Welcome to the May 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a month
 
 **Galaxy has teamed up with [Biostar](http://biostars.org) to create [Galaxy Biostar](https://biostar.usegalaxy.org), a Galaxy User support forum.**
 
-Galaxy Biostar is a space where researchers using Galaxy come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/src/use/index.md) or local), if you have something to say about *Using Galaxy*, this is the place to do it.
+Galaxy Biostar is a space where researchers using Galaxy come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/use/) or local), if you have something to say about *Using Galaxy*, this is the place to do it.
 
 **Current integration with usegalaxy.org**
 
@@ -196,7 +196,7 @@ You must be affiliated with the University of Edinburgh or the IGMM to register 
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
 
-And don't worry if you are not near Norwich or Edinburgh in May.  There are [at least 17 other Galaxy related events](/src/events/index.md) in the next 70 days in Norway, France, *online*, Croatia, Thailand, Canada, the US, the Netherlands, and Australia. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+And don't worry if you are not near Norwich or Edinburgh in May.  There are [at least 17 other Galaxy related events](/events/) in the next 70 days in Norway, France, *online*, Croatia, Thailand, Canada, the US, the Netherlands, and Australia. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
@@ -359,13 +359,13 @@ The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
 # New Public Servers
 
-Two [public Galaxy servers](/src/use/index.md) were added to the published list in April:
+Two [public Galaxy servers](/use/) were added to the published list in April:
 
 ## Globus Genomics Proteomics
 
@@ -462,19 +462,19 @@ The most recent version of CloudMan was [released in January 2014](/src/news/clo
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
 <div class='right'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a> </em> &nbsp;&nbsp;<br /> </td>
+    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a> </em> &nbsp;&nbsp;<br /> </td>
   </tr>
 </table>
 
 <br /><br />
 
-The *[Community Log Board](/src/blog/index.md)* and  *Deployment Catalog* *[Galaxy community hubs](/src/community/index.md)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
+The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched in December.  If you have a deployment, or experience you want to share then please publish them.
 
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>

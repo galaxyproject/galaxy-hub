@@ -8,7 +8,7 @@ date: "2014-04-23"
 
 **Galaxy has teamed up with [Biostar](http://biostars.org) to create a [Galaxy User support forum](https://biostar.usegalaxy.org) at https://biostar.usegalaxy.org!**
 
-We want to create a space where researchers using Galaxy can come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/src/use/index.md) or local), if you have something to say about *Using Galaxy*, this is the place to do it!
+We want to create a space where researchers using Galaxy can come together and share both scientific advice and practical tool help.  Whether on [usegalaxy.org](https://usegalaxy.org), a CloudMan instance, or any other Galaxy ([public](/use/) or local), if you have something to say about *Using Galaxy*, this is the place to do it!
 
 **Current integration with usegalaxy.org**
 

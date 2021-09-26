@@ -84,7 +84,7 @@ The deadline for submitting your project proposals is February 1.
 
 [<img class="float-right" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
-The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
+The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
 **The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
 
@@ -96,7 +96,7 @@ Nominated topics can cover a wide range. For example:
 - Development and administration around Galaxy
 - Train the trainers
 
-This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](https://bit.ly/gcc2016noms), [2015](https://bit.ly/gcc2015vote), [2014](https://bit.ly/1s6NtMN), [2013](https://bit.ly/1i2j1gN) and the [Galaxy Events page](/src/events/index.md).
+This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](https://bit.ly/gcc2016noms), [2015](https://bit.ly/gcc2015vote), [2014](https://bit.ly/1s6NtMN), [2013](https://bit.ly/1i2j1gN) and the [Galaxy Events page](/events/).
 
 Training nomination has been extended to **15th January**. Topics are being compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community.
 
@@ -114,7 +114,7 @@ Got some ideas? **[Nominate them](https://docs.google.com/forms/d/e/1FAIpQLSfv25
 
 ## Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+These and [other Galaxy related events](/events/) are coming up in the next few months:
 
 <table class="table table-striped">
 <thead>
@@ -236,7 +236,7 @@ All of the highlighted papers are open access.
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.  Here's what's new.
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.  Here's what's new.
 
 ## EGI Marketplace
 
@@ -244,7 +244,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 [EGI](https://www.egi.eu/) is a [federation of hundreds of data and compute centres worldwide and tens of cloud providers](https://marketplace.egi.eu/content/4-about-us) united by a mission to support research activities.  Galaxy instances are available to users worldwide under the EGI Marketplace's [Applications on Demand BETA](https://marketplace.egi.eu/42-applications-on-demand-beta) program. You need to create an account and then apply for an allocation.
 
-**If you are an academic researcher, want a Galaxy instance running on a research cloud, and you don't live in a country where you already have ready access to Galaxy on a cloud (see the *Academic Cloud* tab in the [Platforms Directory](/src/use/index.md)), then take a look at the EGI Marketplace.**
+**If you are an academic researcher, want a Galaxy instance running on a research cloud, and you don't live in a country where you already have ready access to Galaxy on a cloud (see the *Academic Cloud* tab in the [Platforms Directory](/use/)), then take a look at the EGI Marketplace.**
 
 
 ## ChemFlow
@@ -288,7 +288,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 [<img class="float-right" src="/src/images/people/SimonGladman.jpg" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/)
 
-There is one new *[Galactic Blog](/src/blog/index.md)* entry:
+There is one new *[Galactic Blog](/blog/)* entry:
 
 * **[Contributor of the Month: Simon Gladman](/src/blog/2018-12-cotm-simon-gladman/index.md):**
   * 'firefighter, cheesemaker, pillar of the [Galaxy Australia](https://usegalaxy.org.au/), and an overall jolly good fellow'
@@ -319,7 +319,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States).
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
 
@@ -398,9 +398,9 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 [<img class="float-right" src="/src/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." style="max-width: 200px" />](https://help.galaxyproject.org/)
 
-**Visit the new [Galaxy Community Q&A web site](https://help.galaxyproject.org/).**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/src/support/index.md).
+**Visit the new [Galaxy Community Q&A web site](https://help.galaxyproject.org/).**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/support/).
 
-Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which is being retired after almost 5 years of service.  (Galaxy BioStars was itself a replacement for the earlier *galaxy-user* mailing list.)  The Galaxy BioStars site will remain up as a read-only archive (and will still be searched by the [Galaxy Hub search](/src/search/index.md)).
+Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which is being retired after almost 5 years of service.  (Galaxy BioStars was itself a replacement for the earlier *galaxy-user* mailing list.)  The Galaxy BioStars site will remain up as a read-only archive (and will still be searched by the [Galaxy Hub search](/search/)).
 
 Here are some exemplary recent threads in Galaxy Help
 

@@ -43,7 +43,7 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 </div>
 <div class="card-header">Share your favorite James Taylor story: Deadline extended to May 7</div>
 
-It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we are creating a community video, *and we have extended the deadline for contributions to this Friday, May 7*.  We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a video that will be prominently featured on all Galaxy-related sites.
+It's been a year since [James Taylor](/jxtx/) passed away.  To remember him, and mark his upcoming birthday (May 18) we are creating a community video, *and we have extended the deadline for contributions to this Friday, May 7*.  We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a video that will be prominently featured on all Galaxy-related sites.
 
 Here is what we will need you to do by the end of Friday, May 7:
 
@@ -137,11 +137,11 @@ Early conference registration [is open until 1 June](/src/news/2021-04-gcc-reg/i
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
-[Open Galaxy Positions](/src/careers/index.md)
+[Open Galaxy Positions](/careers/)
 
 </div>
 
-There are two new positions in the [Galaxy Career Center](/src/careers/index.md), both in Rennes, France (and is due **1 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There are two new positions in the [Galaxy Career Center](/careers/), both in Rennes, France (and is due **1 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
 
@@ -151,7 +151,7 @@ There are two new positions in the [Galaxy Career Center](/src/careers/index.md)
 
 # Event News
 
-Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/src/events/index.md). Some highlights:
+Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/events/). Some highlights:
 
 <div class="card-deck">
 
@@ -362,7 +362,7 @@ This year's [Galaxy Netherlands meeting](https://docs.google.com/document/d/1irL
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -468,7 +468,7 @@ The European Galaxy Server has surpassed the 30,000 registered users, has around
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 

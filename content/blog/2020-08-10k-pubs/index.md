@@ -489,7 +489,7 @@ Not all *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)
 * in 2016-2017, there were nearly twice as many *UsePublic* pubs,
 * and in 2019-2020 there are nearly 3 times as many *UsePublic* as there are *UseMain* pubs.
 
-This rise reflects the increase in available [public platforms](/src/use/index.md) from 21 servers at the start of 2012 to over 150 platforms today.
+This rise reflects the increase in available [public platforms](/use/) from 21 servers at the start of 2012 to over 150 platforms today.
 
 
 ## UseLocal ... dropping?
@@ -666,12 +666,12 @@ Topic tags indicate how the publication relates to Galaxy.  Here's the current s
 | [+Workbench](https://www.zotero.org/groups/galaxy/items/tag/+Workbench/) | Publication mentions Galaxy as a platform. | 2011 |
 | [+Tools](https://www.zotero.org/groups/galaxy/items/tag/+Tools/) | Tools that run in, have been ported to, or interact with Galaxy | 2012 |
 | [+Cloud](https://www.zotero.org/groups/galaxy/items/tag/+Cloud/) | Publications referencing / extending / discussing Galaxy in a cloud context. | 2013 |
-| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/src/use/index.md) or a [Galaxy service](/src/use/index.md).  This is distinct from the *+UsePublic* tag. | 2013 |
+| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/).  This is distinct from the *+UsePublic* tag. | 2013 |
 | [+Unknown](https://www.zotero.org/groups/galaxy/items/tag/+Unknown/) | Publications that we know refer to Galaxy, but we aren't sure how because they are behind a paywall we don't have access to.  These are revisited periodically. | 2013 |
 | [+UseCloud](https://www.zotero.org/groups/galaxy/items/tag/+UseCloud/) | Uses a custom built cloud based instance of Galaxy in its methods. | 2013 |
 | [+UseLocal](https://www.zotero.org/groups/galaxy/items/tag/+UseLocal/) | Uses a local installation of Galaxy in its methods. | 2013 |
-| [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md), in its methods. | 2013 |
-| [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | Uses a [publicly accessible Galaxy instance](/src/use/index.md) or a [Galaxy service](/src/use/index.md) in its methods. | 2013 |
+| [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/main/), in its methods. | 2013 |
+| [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | Uses a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/) in its methods. | 2013 |
 | [+Visualization](https://www.zotero.org/groups/galaxy/items/tag/+Visualization/) | Publications referencing Galaxy in a visualization and/or visual analytics context. | 2013 |
 | [+Education]() | Papers referencing Galaxy in a training or education context. | 2019 | 
 
@@ -686,7 +686,7 @@ With the move to Zotero we added two new sets of tags. The first set is used to 
 
 ## Platform tags
 
-The second set of new tags show which [public Galaxy platform](/src/use/index.md) is used or discussed in publications. These are  tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/src/use/repeatexplorer/index.md) public server.
+The second set of new tags show which [public Galaxy platform](/use/) is used or discussed in publications. These are  tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/src/use/repeatexplorer/index.md) public server.
 
 ## Publisher Tags
 

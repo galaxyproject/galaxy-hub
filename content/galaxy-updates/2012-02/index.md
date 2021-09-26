@@ -8,7 +8,7 @@ title: February 2012 Galaxy Update
 
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the inaugural edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the inaugural edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
@@ -24,7 +24,7 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 
 ## New Public Server: MGTAXA
 
-[MGTAXA, a free Galaxy server at JCVI for metagenomic taxonomy prediction](http://mgtaxa.jcvi.org/) was added to the list of [Public Galaxy Servers](/src/use/index.md) in January.  Many thanks to JCVI and the MGTAXA team for making this publicly available.
+[MGTAXA, a free Galaxy server at JCVI for metagenomic taxonomy prediction](http://mgtaxa.jcvi.org/) was added to the list of [Public Galaxy Servers](/use/) in January.  Many thanks to JCVI and the MGTAXA team for making this publicly available.
 
 ## Who's Hiring
 
@@ -100,13 +100,13 @@ There are still [Gold, Silver and Bronze level sponsorships](/src/events/gcc2012
 
 ## New Distributions
 
-There were [two Galaxy distributions](/src/docs/index.md) in January, The latest on [January 27](/src/news/Jan272012 Distribution News Brief/index.md).  Some highlights from the releases:
+There were [two Galaxy distributions](/docs/) in January, The latest on [January 27](/src/news/Jan272012 Distribution News Brief/index.md).  Some highlights from the releases:
 
 * Important metadata and Python 2.5 support corrections
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.
 * Dynamic filtering, easy color options, and quicker indexing enhance [Trackster](/src/learn/visualization/index.md)
 * Set up your Galaxy instance to [run cluster jobs as the real user](/src/admin/config/performance/cluster/index.md), not the Galaxy owner
-* Improvements to metadata handling and searching in the [Tool Shed](/src/toolshed/index.md)
+* Improvements to metadata handling and searching in the [Tool Shed](/toolshed/)
 * Improved solutions for schema access, jobs management, & workflow imports and inputs.
 * New datatypes (Eland, XML), multiple tool enhancements, and bug fixes.
 * New Object Store data integration layer introduced

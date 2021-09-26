@@ -3,7 +3,7 @@ title: June 2012 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the June 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the June 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Public Server: GWIPS-Viz
 
@@ -99,7 +99,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -196,4 +196,4 @@ A new Galaxy distribution was [released on May 11, 2012](/src/archive/dev-news-b
 
 * [GalaxyCzars](/src/community/galaxy-admins/index.md) a discussion group for Galaxy community members who are responsible for large Galaxy installations has been started.  Their first conference call will be this month.  
   * Want to know how other sites are implementing their Galaxy installations?  See the [GalaxyCzars survey results](/src/community/galaxy-admins/surveys/2012/index.md).
-* *Galaxy [Main](/src/main/index.md) was down for a little over a day.* Watch the Galaxy [News](/src/news/index.md) for an explanation.
+* *Galaxy [Main](/main/) was down for a little over a day.* Watch the Galaxy [News](/news/) for an explanation.

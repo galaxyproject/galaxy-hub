@@ -131,7 +131,7 @@ If you would like to attend, but need financial assistance to get there, then yo
 
 # Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md)  coming up in the next few months:
+These and [other Galaxy related events](/events/)  coming up in the next few months:
 
 <table class="table table-striped"><thead>
 <tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th></tr></thead><tbody>
@@ -245,10 +245,10 @@ These and [other Galaxy related events](/src/events/index.md)  coming up in the 
 # New Galactic Blog Entry: Coding in the Winter Wonderland: Galaxy Admin Training
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/src/blog/index.md)
+[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
 </div>
 
-February had one new *[Galactic Blog](/src/blog/index.md)* entry:
+February had one new *[Galactic Blog](/blog/)* entry:
 
 * [Coding in the Winter Wonderland: Galaxy Admin Training in Oslo, 2018](https://arundecano.wordpress.com/2018/02/01/coding-in-the-winter-wonderland-galaxy-admin-training-in-oslo-2018/), by Arun Decano
 
@@ -289,13 +289,13 @@ The Galaxy is expanding! Please help it grow.
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them last month, including a new public server:
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them last month, including a new public server:
 
 ## Metaproteomics Gateway Server
 

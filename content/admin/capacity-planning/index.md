@@ -15,11 +15,11 @@ Note that Galaxy itself, and many of the basic tools, can run on an average or e
 
 ## Can we use the Cloud?
 
-Absolutely.  In fact, if your needs tend to be characterized by long periods of no use (days / weeks / months) interspersed by short periods of intense use, then you should consider the [Cloud](/src/cloud/index.md).  Setting up a compute cluster / server farm (if you need something that big) can take months, as you may be delayed repeatedly by details like air conditioning upgrades, electrical capacity, and finding a sys admin.
+Absolutely.  In fact, if your needs tend to be characterized by long periods of no use (days / weeks / months) interspersed by short periods of intense use, then you should consider the [Cloud](/cloud/).  Setting up a compute cluster / server farm (if you need something that big) can take months, as you may be delayed repeatedly by details like air conditioning upgrades, electrical capacity, and finding a sys admin.
 
-See the [Cloud page](/src/cloud/index.md) for information on getting started with the cloud.
+See the [Cloud page](/cloud/) for information on getting started with the cloud.
 
 ## See Also
 
-* [Cloud](/src/cloud/index.md) - Galaxy on the cloud options
-* [Public Galaxy Servers](/src/use/index.md) - a list of known, publicly accessible, Galaxy servers.
+* [Cloud](/cloud/) - Galaxy on the cloud options
+* [Public Galaxy Servers](/use/) - a list of known, publicly accessible, Galaxy servers.

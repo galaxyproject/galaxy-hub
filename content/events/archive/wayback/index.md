@@ -1,7 +1,7 @@
 ---
 title: Way Beyond the Galaxy Event Horizon
 ---
-Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/src/events/index.md) page for current and recent events.
+Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/events/) page for current and recent events.
 
 ## 2016
 
@@ -833,7 +833,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <th> March 7-8 </th>
     <td> <strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a></strong> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/src/iuc/index.md'>IUC</a> </td>
+    <td> <a href='/iuc/'>IUC</a> </td>
     <td> <a href='https://cesgo.genouest.org/groups/guggo/wiki/RADseqHackathon'>Writeup, Slides</a> </td>
   </tr>
   <tr>
@@ -1049,7 +1049,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <th> November 30 - December 1 </th>
     <td> <a href='https://github.com/galaxyproject/tools-iuc/issues/299'>IUC Contribution Fest - Metagenomics Tools and Workflows</a> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/src/iuc/index.md'>IUC</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
+    <td> <a href='/iuc/'>IUC</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
     <td> </td>
   </tr>
   <tr>
@@ -3267,7 +3267,7 @@ Listing of Galaxy events from 2016 and before. See the main [Galactic Events](/s
     <td> <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
-    <td> <em>Finding missing analysis tools with Galaxy <a href='/src/toolshed/index.md'>ToolShed</a>—A case of mitochondrial RNA modification</em> </td>
+    <td> <em>Finding missing analysis tools with Galaxy <a href='/toolshed/'>ToolShed</a>—A case of mitochondrial RNA modification</em> </td>
     <td> </td>
     <td> <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>

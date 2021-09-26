@@ -1,6 +1,6 @@
 ---
 ---
-* [Wiki Root](/src/toolshed/index.md)
+* [Wiki Root](/toolshed/)
 * [All monthly summaries](/src/toolshed/contributions/index.md)
 
 # Tools

@@ -9,9 +9,9 @@ Welcome to the November 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a 
 
 # The Galactic Blog
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/blog/)
 
-The new *[Galactic Blog](/src/blog/index.md)* was launched in October.  The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/src/news/index.md) for shorter-form items.) The *Galactic Blog* replaces the former *Community Log* and includes all content from it, which is why, even though the blog is new, it includes entries back to 2013.
+The new *[Galactic Blog](/blog/)* was launched in October.  The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.) The *Galactic Blog* replaces the former *Community Log* and includes all content from it, which is why, even though the blog is new, it includes entries back to 2013.
 
 The blog is off to a running start with these posts in October:
 
@@ -25,7 +25,7 @@ The blog is off to a running start with these posts in October:
 
 The Galaxy community needs to know what you are doing.  If you have done something that others would benefit from knowing then please create a *Galactic Blog* post describing your experiences.
 
-Blog posts can either be directly created on the Hub, or can be posted on your favorite blogging platform and linked to from the [Blog home page](/src/blog/index.md).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
+Blog posts can either be directly created on the Hub, or can be posted on your favorite blogging platform and linked to from the [Blog home page](/blog/).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
 
 Questions? [Ask us](mailto:outreach@galaxyproject.org).
 
@@ -89,7 +89,7 @@ If you are interested in supporting better integration of Galaxy with other GMOD
 
 # Upcoming events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <table class="table table-striped"><thead>
   <tr>
@@ -208,13 +208,13 @@ The Galaxy is expanding! Please help it grow.
 * [Implémentation d’outils d’analyse et de visualisation de variations structurales et génomes mosaïques](https://www.sfbi.fr/content/impl%C3%A9mentation-d%E2%80%99outils-d%E2%80%99analyse-et-de-visualisation-de-variations-structurales-et-g%C3%A9nomes-), IRD (Institut de Recherche pour le Développement), Montpellier, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in October.
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in October.
 
 ## Public Servers in October's Publications
 
@@ -230,7 +230,7 @@ As part of the move to Zotero, we have started tagging papers that use, mention,
 
 ## Citation sections added to Public servers directory
 
-The [public Galaxy server directory](/src/use/index.md) was updated in October to include a *Citation(s)* section for each server.  If you use a server in your research, then please cite it.
+The [public Galaxy server directory](/use/) was updated in October to include a *Citation(s)* section for each server.  If you use a server in your research, then please cite it.
 
 ## BF2I-MAP
 
@@ -255,7 +255,7 @@ One of this month's highlighted papers ([Kouylekov et al](https://www.clarin.eu/
 
 LAP is part of the national implementation in Norway of the [European Common Language and Technology Infrastructure (CLARIN)](http://clarin.eu).
 
-It's always great to see Galaxy applied in non-genomic domains, and LAP is a great example of how this can be done.  Unfortunately, it falls just short of the definition of a [public Galaxy server](/src/use/index.md). Alas, it is accessible to many, but not all academic users.  So we recommend taking a look at it, but we can't list it in the directory.
+It's always great to see Galaxy applied in non-genomic domains, and LAP is a great example of how this can be done.  Unfortunately, it falls just short of the definition of a [public Galaxy server](/use/). Alas, it is accessible to many, but not all academic users.  So we recommend taking a look at it, but we can't list it in the directory.
 
 ----
 

@@ -7,7 +7,7 @@ date: "2012-10-06"
 **Highlights:**
 * **[BWA](http://bio-bwa.sourceforge.net/)** tool wrappers *[migrated](/src/archive/dev-news-briefs/2012-10-05/index.md#bwa-migration-to-tool-shed)* to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**. 
 * **Tool Factory** paper has been [E Published](/src/archive/dev-news-briefs/2012-10-05/index.md#galaxy-tool-factory-paper-e-published) in [PubMed](http://www.ncbi.nlm.nih.gov/pubmed) at **[PMID: 23024011](http://www.ncbi.nlm.nih.gov/pubmed/23024011)**.
-* The **[Tool Shed Wiki](/src/toolshed/index.md)** wiki has been re-written with a new, cleaner presentation. And check out all the [new features](/src/archive/dev-news-briefs/2012-10-05/index.md#tool-shed)!
+* The **[Tool Shed Wiki](/toolshed/)** wiki has been re-written with a new, cleaner presentation. And check out all the [new features](/src/archive/dev-news-briefs/2012-10-05/index.md#tool-shed)!
 * Accessible **tool versions** in the UI and **new exit code features** enable *[clearer experimental tracking and ease reproducibility](/src/archive/dev-news-briefs/2012-10-05/index.md#tools)*.
 * Release also includes **[Visualization](/src/archive/dev-news-briefs/2012-10-05/index.md#visualization-framework)** updates, a new admin tool for *[PostgreSQL](http://www.postgresql.org)* **[Dataset cleanup](/src/archive/dev-news-briefs/2012-10-05/index.md#dataset-cleanup)**, and improvements in **[API](/src/archive/dev-news-briefs/2012-10-05/index.md#ap)** , **[Workflow](/src/archive/dev-news-briefs/2012-10-05/index.md#workflows)**,  and **[Security](/src/archive/dev-news-briefs/2012-10-05/index.md#security-fixes)** components.
 

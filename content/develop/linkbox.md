@@ -1,5 +1,5 @@
 <div class='linkbox'>
-**[Develop](/src/develop/index.md)**
+**[Develop](/develop/)**
 <hr />
 [Getting Started](/src/develop/getting-started/index.md)<br />
 [Galaxy API](/src/develop/api/index.md)<br />

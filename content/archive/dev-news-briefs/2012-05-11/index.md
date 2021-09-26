@@ -88,7 +88,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/src/adm
     * *Genome Analysis Toolkit (beta) tool group includes*: Depth of Coverage on BAM files; Print Reads from BAM files; Realigner Target; Creator for use in local realignment; Indel Realigner - perform local realignment; Count Covariates on BAM files; Table Recalibration on BAM files; Analyze Covariates - draw plots; Unified Genotyper SNP and indel caller; Variant Annotator; Variant Filtration on VCF files; Select Variants from VCF files; Variant Recalibrator; Apply Variant Recalibration; Validate Variants; Eval Variants; Combine Variants.
   * Additional tool documentation developing over next few months. For now, refer to [GATK tool author help](http://www.broadinstitute.org/gsa/wiki).
 
-</div><a href='/src/learn/index.md'><img src="/src/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="800px" /></a></div>
+</div><a href='/learn/'><img src="/src/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="800px" /></a></div>
 * **NGS: Variant Detection**
   * Added **[FreeBayes](http://github.com/ekg/freebayes)** latest version (a46483351fd0196637614121868fb5c386612b55)
     * Requires **[SAM Tools](http://samtools.sourceforge.net/), version 0.1.16-0.1.18** *strongly recommended*
@@ -117,7 +117,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/src/adm
 <br />
 # Tool Shed
 
-[Tool Shed](/src/toolshed/index.md)
+[Tool Shed](/toolshed/)
 * **Features**
   * The tool shed's upload process will automatically eliminate undesired directories (.svn, .git, .hg, .cvs) and file (hgrc, .jhg_archival.txt, .DS_Store) from the archive before committing the contents to the repository.  This provides for a more pristine environment for those that install the repository locally.
   * You can now browse your invalid tools in the tool shed, and clicking on an invalid tools will display information about why it is invalid.  The definition of a valid tool in the tool shed has always been restricted to the tool properly loading in a Galaxy instance and that no required dependent files are missing.  If a tool is not valid, it will not be returned in a search and it cannot be automatically installed (unless it belongs to a repository containing other valid tools).  Only valid tools should be shared in the tool shed or its value will diminish over time.   Tool developers should browse their invalid tools and make corrections to them if necessary.
@@ -180,7 +180,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/src/adm
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * `fasta_to_len` conversion now uses only the first word in the description line from input [FASTA](/src/learn/datatypes/index.md#fasta) datasets to create the *identifier name* for sequences. This is standards compliant and used by default for automatic conversion.
 * Add necessary space after threads option in [Cuffmerge](http://cufflinks.cbcb.umd.edu/).
 * The dataset cleanup scripts will no longer error out if database_connection is not explicitly set in the Galaxy config file. Addresses mailing list questions:
@@ -204,7 +204,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/src/adm
 <br />
 # Announcements
 
-[News](/src/news/index.md), *[May 2012 Galaxy Update](/src/galaxy-updates/2012-05/index.md)*
+[News](/news/), *[May 2012 Galaxy Update](/src/galaxy-updates/2012-05/index.md)*
 
 ## GCC2012 Update
 

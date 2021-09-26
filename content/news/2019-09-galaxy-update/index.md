@@ -37,7 +37,7 @@ In addition, **[we will also be taking first steps towards a regional Galaxy com
 
 Learn how to increase the ease with which others can install and use your bioinformatics software.
 
-[This workshop at ACM BCB](/src/events/2019-09-acm-bcb/index.md), on September 7, in Niagara Falls, New York will show participants how to use two technologies that make it easy for researchers to deploy and use your software: The [Galaxy ToolShed](/src/toolshed/index.md), and [Bioconda](https://bioconda.github.io/). *Space is limited and [registration](https://acm-bcb.org/2019/index.php?page=attending#top) is required.*
+[This workshop at ACM BCB](/src/events/2019-09-acm-bcb/index.md), on September 7, in Niagara Falls, New York will show participants how to use two technologies that make it easy for researchers to deploy and use your software: The [Galaxy ToolShed](/toolshed/), and [Bioconda](https://bioconda.github.io/). *Space is limited and [registration](https://acm-bcb.org/2019/index.php?page=attending#top) is required.*
 
 </div>
 
@@ -56,7 +56,7 @@ Learn how to increase the ease with which others can install and use your bioinf
 
 There are
 
-* [30 upcoming events](/src/events/index.md)
+* [30 upcoming events](/events/)
 * on 4 continents (plus online)
 * in Sri Lanka, Ireland, US, Germany, Indonesia, Japan, UK, Belgium, Australia, the Netherlands, and France
 * on installing Galaxy, getting your tools used, clinical applications, expanding the Galaxy and Bioconda ecosystems, microscopy image analysis, QC, assembly, RNA-Seq, variant detection, metagenomics, ...
@@ -175,7 +175,7 @@ This post by Tobias Neumann describes SlamDunk, a novel and fully automated soft
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
@@ -187,7 +187,7 @@ Features a comprehensive set of analysis tools and consolidated workflows for cl
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -207,7 +207,7 @@ Platforms that were referenced at least twice in the past month's publications:
 
 # Who's Hiring
 
-The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">

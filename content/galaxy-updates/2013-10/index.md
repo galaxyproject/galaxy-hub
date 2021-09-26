@@ -3,14 +3,14 @@ title: October 2013 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the October 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the October 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
 
 # New Public Servers
 
-*A record six new servers* joined [the list of over 40 publicly accessible Galaxy servers](/src/use/index.md) in September.
+*A record six new servers* joined [the list of over 40 publicly accessible Galaxy servers](/use/) in September.
 
 <div class='left'><br /><div class='solid'><a href='http://galaxy.csdb.cn:8000/'><img src="/src/public-galaxy-servers/archive/cnic-darwin-tree-home.png" alt="CNIC.DarwinTree" width="200" /></a></div></div>
 
@@ -152,7 +152,7 @@ The Galaxy is expanding! Please help it grow.
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -397,14 +397,14 @@ Two other resources (at least) became available in September:
 
 * Course Materials for the [2013 UC Davis Bioinformatics Short Course](http://bit.ly/16rAUkf): This course featured 5 great days of lecture and hands-on exercises.  *And,* an Amazon Web Services AMI that includes all tools and data used in the course, is also available. 
 
-See the [list of other tutorials](/src/learn/index.md#other-tutorials) on the [Learn hub page](/src/learn/index.md) for more.
+See the [list of other tutorials](/learn/#other-tutorials) on the [Learn hub page](/learn/) for more.
 <br />
 
 # Galaxy Distributions
 
 The most recent [Galaxy distribution was August 12](/src/archive/dev-news-briefs/2013-08-12/index.md).
 
-A new version of [CloudMan](/src/cloudman/index.md) was [released in July](/src/news/cloudman-release/index.md).
+A new version of [CloudMan](/cloudman/) was [released in July](/src/news/cloudman-release/index.md).
 
 <br />
 

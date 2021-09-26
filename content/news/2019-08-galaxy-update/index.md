@@ -51,7 +51,7 @@ The slides for most talks and posters are [online](https://gcc2019.sched.com/). 
 <img class="card-img-top" src="/src/images/logos/bcc2020-wide-1000.png" alt="BCC2020" />
 <div class="card-header">BCC2020: July 18-25, 2020, Toronto</div>
 
-We are pleased to announce that the 2020 **[Galaxy Community Conference](/src/gcc/index.md)** will be held jointly with the 2020 **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/)**, at the  **Bioinformatics Community Conference (BCC2020).**
+We are pleased to announce that the 2020 **[Galaxy Community Conference](/gcc/)** will be held jointly with the 2020 **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/)**, at the  **Bioinformatics Community Conference (BCC2020).**
 
 The new name, *BCC2020*, reflects the increased blending of these two communities that is happening at next year's event.  BCC2020 will feature more theme/domain driven presentation, poster and demo sessions, featuring content from *both* communities.
 
@@ -89,7 +89,7 @@ Interested? Registration is available on a first come, first serve basis. Regist
 https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/), [GMDS-Jahrestagung](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/), Dortmund, Germany. Advance registration: August 30.
 
 
-## All [Upcoming events](/src/events/index.md)
+## All [Upcoming events](/events/)
 
 There is a lot going on in the next 3 months.
 
@@ -290,11 +290,11 @@ Also answers the question of "Where do cars go after they die?"
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -326,7 +326,7 @@ Platforms that were referenced at least twice in the past month's publications:
 
 # Who's Hiring
 
-The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">

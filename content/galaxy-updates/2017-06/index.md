@@ -96,7 +96,7 @@ See you in Prague!
 
 # All events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <table class="table table-striped">
 <thead>
@@ -238,7 +238,7 @@ The Galaxy is expanding! Please help it grow.
 * [Automated deployment of Galaxy environments using Ansible](http://artbio.fr/?page_id=78), Institut de Biologie Paris Seine, France
 * [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -247,7 +247,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in May
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in May
 
 ## ImmPort Galaxy Update
 
@@ -321,7 +321,7 @@ No new resources were added to community directories in January or February.
 <a href="https://www.mothur.org/"><img src="/src/images/logos/mothur_300.png" alt="mothur" height="100" /></a><br />
 </div>
 
-Galaxy has reached many different communities far beyond classical NGS. To support this the [IUC](/src/iuc/index.md) is organising regularly contribution fests dedicated to special topics, with the aim to increase tool coverage and develop re-usable workflows. One of the first contribution fests focused on metagenomics, a field that is gaining more traction in the Galaxy community. Here we highlight two pull requests that were recently merged and added [Qiime (Quantitative Insights Into Microbial Ecology)](https://github.com/galaxyproject/tools-iuc/pull/431) and [mothur](https://github.com/galaxyproject/tools-iuc/pull/1287) to Galaxy. These tools are the most popular pipelines used by the microbial ecology community to perform microbiome analyses from raw DNA sequencing data.
+Galaxy has reached many different communities far beyond classical NGS. To support this the [IUC](/iuc/) is organising regularly contribution fests dedicated to special topics, with the aim to increase tool coverage and develop re-usable workflows. One of the first contribution fests focused on metagenomics, a field that is gaining more traction in the Galaxy community. Here we highlight two pull requests that were recently merged and added [Qiime (Quantitative Insights Into Microbial Ecology)](https://github.com/galaxyproject/tools-iuc/pull/431) and [mothur](https://github.com/galaxyproject/tools-iuc/pull/1287) to Galaxy. These tools are the most popular pipelines used by the microbial ecology community to perform microbiome analyses from raw DNA sequencing data.
 
 Based on previous work by James Johnson, ~150 tools were developed and adapted to the most recent IUC standards for Galaxy tools, including integration with [BioConda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/). This effort was led by [Saskia Hiltemann](https://github.com/shiltemann) and [Bérénice Batut](http://bebatut.fr/) and several reviewers and contributors, who created more than 300 commits and touched more than 600 files (including test-data). Thanks Saskia and Bérénice for this effort!
 
@@ -413,7 +413,7 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 ## Galaxy CloudMan 17.05 on AWS
 
-A new release of [Galaxy CloudMan](/src/cloudman/index.md) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/src/cloudman/index.md#getting-started) guide.
+A new release of [Galaxy CloudMan](/cloudman/) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/cloudman/#getting-started) guide.
 
 
 ## Earlier Releases

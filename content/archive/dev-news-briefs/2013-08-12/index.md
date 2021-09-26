@@ -3,7 +3,7 @@ title: Development News Brief
 date: 2013-08-12
 ---
 
-[All News Briefs](/src/docs/index.md)
+[All News Briefs](/docs/)
 <br />
 [Distribution Summary 2013_08_12](/src/news/2013-08-12-galaxy-distribution/index.md)
 
@@ -131,7 +131,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ## New Tool Shed Features
 
@@ -266,7 +266,7 @@ Details: Only Galaxy instances with `allow_user_impersonation = True` set in the
 
 # Project Updates
 
-**[News](/src/news/index.md)**, ***[August 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-08)***
+**[News](/news/)**, ***[August 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-08)***
 
 ## GCC 2013 Wrap-up
 

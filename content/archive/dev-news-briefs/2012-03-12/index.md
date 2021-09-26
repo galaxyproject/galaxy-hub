@@ -128,10 +128,10 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 
 # CloudMan
 
-**[CloudMan](/src/cloudman/index.md)**
-* A larger tools volume (10GB vs old 2GB) is now the default for any new [CloudMan](/src/cloudman/index.md) cluster making it easier to customize your Galaxy Cloud instances
-* A [preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py) exists within [CloudMan](/src/cloudman/index.md) (thanks to Mattias de Hollander)
-* Please continue to use AMI **ami-da58aab3** for Galaxy Cloud clusters, as listed on [usegalaxy.org/cloud](/src/cloudman/index.md). There is another AMI dated from Feb 26, 2012 that was not created by the Galaxy Team and is not supported by us. 
+**[CloudMan](/cloudman/)**
+* A larger tools volume (10GB vs old 2GB) is now the default for any new [CloudMan](/cloudman/) cluster making it easier to customize your Galaxy Cloud instances
+* A [preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py) exists within [CloudMan](/cloudman/) (thanks to Mattias de Hollander)
+* Please continue to use AMI **ami-da58aab3** for Galaxy Cloud clusters, as listed on [usegalaxy.org/cloud](/cloudman/). There is another AMI dated from Feb 26, 2012 that was not created by the Galaxy Team and is not supported by us. 
 
 # Source
 
@@ -156,14 +156,14 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 
 # Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Fix for 'Error 349 (net::ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION): Multiple Content-Disposition headers received.' error occuring when downloading certain datasets using Chrome browser
 * Correction to *History Size* calculation to accurately filter out 'purged' datasets in the summary size
 * Various bug fixes for Object Store, with a particular focus on the Distributed Object Store
 
 # Announcements
 
-**[News](/src/news/index.md)**
+**[News](/news/)**
 
 **March 2012** ***[Galaxy Update](/src/galaxy-updates/2012-03/index.md)***
 
@@ -202,4 +202,4 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 
 Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
 ----
-</div> Jennifer Jackson, [Galaxy Team](/galaxy-team/). Posted to [DevNewsBriefs](/src/docs/index.md) on 2012-03-12</div>
+</div> Jennifer Jackson, [Galaxy Team](/galaxy-team/). Posted to [DevNewsBriefs](/docs/) on 2012-03-12</div>

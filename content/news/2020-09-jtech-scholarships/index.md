@@ -35,6 +35,6 @@ In addition to covering conference registration, awardees will also be paired wi
 
 ## About JTech
 
-“The most important job of senior faculty is to mentor junior faculty and students.” These are the words that Professor [James P. Taylor](/src/jxtx/index.md), the Ralph S. O’Connor Professor at the Departments of Biology and Computer Science at Johns Hopkins University said and lived by. This, he believed, was imperative to advance science, and in a way that facilitated diversity and inclusion. The mission of this foundation is to continue his legacy, through a multifaceted approach which will be unrolled across several stages.
+“The most important job of senior faculty is to mentor junior faculty and students.” These are the words that Professor [James P. Taylor](/jxtx/), the Ralph S. O’Connor Professor at the Departments of Biology and Computer Science at Johns Hopkins University said and lived by. This, he believed, was imperative to advance science, and in a way that facilitated diversity and inclusion. The mission of this foundation is to continue his legacy, through a multifaceted approach which will be unrolled across several stages.
 
 **Please consider [making a donation](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to support James Taylor’s legacy.**

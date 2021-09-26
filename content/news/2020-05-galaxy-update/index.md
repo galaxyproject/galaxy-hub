@@ -44,13 +44,13 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # James Peter Taylor, 1979-2020
 
-[<img class="float-right" src="/src/jxtx/james-and-alvey.png" alt="James and Alvey"  style="max-width: 15rem;" />](/src/jxtx/index.md)
+[<img class="float-right" src="/src/jxtx/james-and-alvey.png" alt="James and Alvey"  style="max-width: 15rem;" />](/jxtx/)
 
 James Taylor, one of the founders and leaders of the Galaxy Project died of natural causes on April 2.  One day he was online tweeting about open access to data, and the next day he was not.  News of his passing spread around the world, and the response has been overwhelming.
 
-These responses, plus a summary of his academic life, and extended remembrances from several colleagues have been compiled on the [@jxtx page](/src/jxtx/index.md).  If you want to add your thoughts, please [submit them here](https://docs.google.com/forms/d/e/1FAIpQLSd4iKUV7r91OxRFq6DbkVpSb4ftTP4eQqhvcSl-TD-PUdvFPw/viewform) and we will post them.
+These responses, plus a summary of his academic life, and extended remembrances from several colleagues have been compiled on the [@jxtx page](/jxtx/).  If you want to add your thoughts, please [submit them here](https://docs.google.com/forms/d/e/1FAIpQLSd4iKUV7r91OxRFq6DbkVpSb4ftTP4eQqhvcSl-TD-PUdvFPw/viewform) and we will post them.
 
-We are also [starting a foundation to continue and commemorate James' work](/src/jxtx/index.md#JTech-Junior-Training-and-Educational-Connections-Hotspot) by supporting grad students, junior faculty, and underrepresented groups.  Please consider contributing.
+We are also [starting a foundation to continue and commemorate James' work](/jxtx/#JTech-Junior-Training-and-Educational-Connections-Hotspot) by supporting grad students, junior faculty, and underrepresented groups.  Please consider contributing.
 
 Galaxy will go on and we will continue to support his legacy of open reproducible science.
 
@@ -66,7 +66,7 @@ We miss you James.
 <img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
 <div class="card-header">[BOSC + GCC = BCC2020](https://bcc2020.github.io/)</div>
 
-The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/src/gcc/index.md).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
+The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/gcc/).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
@@ -215,7 +215,7 @@ Galaxy Australia relies on distributed deployments using Pulsar to increase the 
 
 # Upcoming Events
 
-The coronavirus outbreak has impacted BCC2020, and just about every other event for the rest of the year too.  Most events through the end of August have been postponed or moved online.  We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+The coronavirus outbreak has impacted BCC2020, and just about every other event for the rest of the year too.  Most events through the end of August have been postponed or moved online.  We have updated our [list of events](/events/) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
@@ -254,7 +254,7 @@ Want to learn the Galaxy community and platform big picture?  Attend the next tw
 
 There are
 
-* [25 upcoming events](/src/events/index.md) (most of them virtual)
+* [25 upcoming events](/events/) (most of them virtual)
 * covering COVID-19 (5 events), single-cell, variant detection, assembly, RNA-Seq and more.
 
 And material from some recent past events is now available:
@@ -312,7 +312,7 @@ Adaption of a repertoire of commonly used omics tools spanning metagenomics, -tr
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
 
 <div class="card-deck">
 
@@ -360,7 +360,7 @@ The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyus
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -475,7 +475,7 @@ By Jennifer Hillman-Jackson.
 
 By Nate Coraor.
 
-Find out the latest about how the [UseGalaxy.org server is set up](/src/main/index.md).
+Find out the latest about how the [UseGalaxy.org server is set up](/main/).
 
 <img class="card-img-bottom" src="/src/main/gxy_map.png" alt="Main" />
 </div>

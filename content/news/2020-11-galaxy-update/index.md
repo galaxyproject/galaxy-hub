@@ -82,7 +82,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 
 # Event News
 
-Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/events/) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
@@ -220,7 +220,7 @@ Galaxy Admin Training is coming in January.  It will be online and global, and r
 </div>
 <div class="card-header">Upcoming Events</div>
 
-There are more than [16 events](/src/events/index.md) before the end of the year:
+There are more than [16 events](/events/) before the end of the year:
 
 * workshops, CoFests, talks, ...
 * all of them are online.
@@ -230,7 +230,7 @@ There are more than [16 events](/src/events/index.md) before the end of the year
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
 
 <div class="card-deck">
 
@@ -298,7 +298,7 @@ Galaxy EU has surpassed 20,000 users!
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 

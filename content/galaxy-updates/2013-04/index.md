@@ -3,7 +3,7 @@ title: April 2013 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the April 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the April 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -20,7 +20,7 @@ A login is required and everybody can create a login, *but there is no guarantee
 
 [South Green Galaxy](http://gohelle.cirad.fr/galaxy/) is a part of the [South Green Bioinformatics Platform (SGBP)](http://southgreen.cirad.fr/), "a bioinformatics platform applied to the genomic resource analysis of southern and Mediterranean plants."  It supports many custom tools and data sources relevant to plants.  It also has a *10 MB storage quota for anonymous users.*  Account creation is restricted to those with an [active collaboration](http://umr-agap.cirad.fr/en) and that work on southern and Mediterranean plants.  South Green Galaxy is sponsored by [CIRAD](http://www.cirad.fr/en/), [IRD (Institut de recherche pour le développement)](http://en.ird.fr/), [Bioversity International](http://www.bioversityinternational.org/), [INRA](http://www.international.inra.fr/), [Montpellier SupAgro](http://www.supagro.fr/web/?idl=20)
 
-These servers join the [growing list of public Galaxy servers](/src/use/index.md).
+These servers join the [growing list of public Galaxy servers](/use/).
 
 ## New Papers
 
@@ -85,11 +85,11 @@ Second several new tags were added, most of them attached to papers with the `me
 <table>
   <tr>
     <td style=" text-align: right; border: none;"> <code>usemain</code>: </td>
-    <td style=" text-align: left; border: none;"> Analysis run on <a href='/src/main/index.md'> Main </a> </td>
+    <td style=" text-align: left; border: none;"> Analysis run on <a href='/main/'> Main </a> </td>
   </tr>
   <tr>
     <td style=" text-align: right; border: none;"> <code>usepublic</code>: </td>
-    <td style=" text-align: left; border: none;"> Analysis run on <a href='/src/use/index.md'>other public Galaxy servers</a> </td>
+    <td style=" text-align: left; border: none;"> Analysis run on <a href='/use/'>other public Galaxy servers</a> </td>
   </tr>
   <tr>
     <td style=" text-align: right; border: none;"> <code>useprivate</code>: </td>
@@ -132,7 +132,7 @@ The Galaxy is expanding! Please help it grow.
 * Two openings @ LSU: [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) and [Post-doc/Res Assoc](http://bit.ly/12ipJHZ)
 * **[Bioinformatics Trainter/Analyst](http://bit.ly/14xgrVK)**, [Morgridge Institute for Research](http://discovery.wisc.edu/morgridge/), Madison, Wisconsin, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 
 ## GCC2013
@@ -338,7 +338,7 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 ## Other News
 
 * ["Galaxy for Core Facilities" ABRF talk slides now available](http://bit.ly/XNoVp1) 
-* The servers that power [Main](/src/main/index.md) were [relocated to their new room and building on March 14](/src/news/galaxy-proect-servers-down20130314/index.md).
+* The servers that power [Main](/main/) were [relocated to their new room and building on March 14](/src/news/galaxy-proect-servers-down20130314/index.md).
 * The Galaxy Project now [has a LinkedIn group](http://bit.ly/gxyLinkedIn).  Please consider joining. 
 * Several items relating to Galaxy have been approved for ISMB / ECCB 2013.  Will post as soon as there is a schedule.
 * [Documentation for dynamic job destinations](http://wiki.galaxyproject.org/Admin/Config/Jobs)

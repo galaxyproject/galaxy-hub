@@ -3,13 +3,13 @@ title: June 2013 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the June 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the June 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
 ## New Public Servers
 
-[ODoSE](http://www.odose.nl/) and [CBiB Galaxy](http://services.cbib.u-bordeaux2.fr/galaxy/) joined [the list of over 30 publicly accessible Galaxy servers](/src/use/index.md) in May.
+[ODoSE](http://www.odose.nl/) and [CBiB Galaxy](http://services.cbib.u-bordeaux2.fr/galaxy/) joined [the list of over 30 publicly accessible Galaxy servers](/use/) in May.
 
 ### ODoSE
 
@@ -93,7 +93,7 @@ The Galaxy is expanding! Please help it grow.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/321283-Senior-Developer-Stem-Cell-Bioinformatics-Core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 * [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) @ LSU
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 
 ## GCC2013
@@ -286,7 +286,7 @@ The [May GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-05-15/in
 
 <div class='right'><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/src/images/logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a><br /><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/src/images/logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a></div>
 
-The [terms of use](https://main.g2.bx.psu.edu/static/terms.html) for the Galaxy Project's free Galaxy server, [http://usegalaxy.org](http://usegalaxy.org) (a.k.a. [Main](/src/main/index.md)) specify 
+The [terms of use](https://main.g2.bx.psu.edu/static/terms.html) for the Galaxy Project's free Galaxy server, [http://usegalaxy.org](http://usegalaxy.org) (a.k.a. [Main](/main/)) specify 
 
 <div class='indent'>
 Your access to the Service is provided under the condition that you abide by any published quotas on data storage, job submissions, or any other limitations placed on the public Service. *Attempts to subvert these limits by creating multiple accounts or through any other method may result in termination of all associated accounts.*

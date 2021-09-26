@@ -3,7 +3,7 @@ title: Development News Brief
 date: 2013-06-03
 ---
 
-[All News Briefs](/src/docs/index.md)
+[All News Briefs](/docs/)
 
 <br />
 
@@ -62,7 +62,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ### New Tool Shed Features
 
@@ -288,7 +288,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Project Updates
 
-**[News](/src/news/index.md)**, ***[June 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-06)***
+**[News](/news/)**, ***[June 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-06)***
 
 <br />
 <br />

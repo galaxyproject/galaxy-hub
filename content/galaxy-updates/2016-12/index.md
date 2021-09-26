@@ -13,7 +13,7 @@ You may have noticed that **the Galaxy community site / wiki is moving.**  We ar
 
 **And we need your help to finish the move.**
 
-The *Hub* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://metalsmith.io) for web site rendering and for semi-structured content (such as the [Events](/src/events/index.md) page). The new platform offers the strength of our old wiki (easy contribution) with a markup language many more people know, easy programmatic access, and all the strengths of GitHub.
+The *Hub* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://metalsmith.io) for web site rendering and for semi-structured content (such as the [Events](/events/) page). The new platform offers the strength of our old wiki (easy contribution) with a markup language many more people know, easy programmatic access, and all the strengths of GitHub.
 
 Once the Hub is in better shape it will become the [galaxyproject.org](https://galaxyproject.org) site.  Until then you can find it at [new.galaxyproject.org](https://new.galaxyproject.org).  Once the move is complete and the [old wiki](https://wiki.galaxyproject.org) will be shut down.
 
@@ -77,7 +77,7 @@ Accepted talks will be presented during the 2-day conference, 4-5 February. Talk
 
 ## All upcoming events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <div class='center'>
 <a href='https://www.embl-abr.org.au/game2017/'><img src="/src/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a>
@@ -264,7 +264,7 @@ The Galaxy is expanding! Please help it grow.
 * [6 month position](https://twitter.com/bioinformAnt/status/773465361127710720) at [Public Health England](https://www.gov.uk/government/organisations/public-health-england) working [National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) in Canada to compare antimicrobial resistance isolates and software using [IRIDA](http://www.irida.ca/)/Galaxy
 * [Post­doctoral Research Position](https://drive.google.com/file/d/0B5_H88SQ1C_7Z3dJY3FzU0hQMUU/view?pref=2&pli=1), Multi­omic Bioinformatics, University of Minnesota
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -273,7 +273,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [five semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in November.
+There are [over 80 publicly accessible Galaxy servers](/use/) and [five semi-public Galaxy services](/use/).  Here's what happened with them in November.
 
 ## New Public Galaxy Servers
 
@@ -321,12 +321,12 @@ There are [over 80 publicly accessible Galaxy servers](/src/use/index.md) and [f
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>

@@ -10,7 +10,7 @@ date: "2012-07-21"
 * **Tool Shed** now also supports specifying the third party tool dependencies to be automatically installed in new repositories
 * **Admin Genome Indexing** is now in *BETA*. Download, index, and track progress right from the admin UI! That's a screen shot on the right ->
 * **Improved Error Handling** that captures `EXIT` codes, `STDOUT`, and `STDERR` from tools in XML. Be sure to read full details.
-* **[TopHat2](/src/TopHat2/index.md)/Bowtie2** latest support includes option to 'report discordant pairs', updated tests, and more preset options.
+* **[TopHat2](/TopHat2/)/Bowtie2** latest support includes option to 'report discordant pairs', updated tests, and more preset options.
 * **Trackster** new parameter space visualization. *BRAND NEW!!* More details coming soon, but give a test drive now. 
 
 **[http://getgalaxy.org](http://getgalaxy.org)**

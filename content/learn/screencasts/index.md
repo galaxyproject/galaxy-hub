@@ -1,7 +1,7 @@
 ---
 title: Galaxy Screencasts and Demos
 ---
-Screencasts are one of several ways to [learn](/src/learn/index.md) how to use Galaxy. These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
+Screencasts are one of several ways to [learn](/learn/) how to use Galaxy. These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
 
 Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/galaxyproject).
 
@@ -21,7 +21,7 @@ Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/gala
   <tr>
     <td> <strong><a href='http://vimeo.com/galaxyproject/upload'>Get Data: Upload File</a></strong> <br /> browse, url, paste, <a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>ftp</a> </td>
     <td> <strong><a href='http://vimeo.com/galaxyproject/learning'>Learning Resources</a></strong> <br /> self-serve help </td>
-    <td> <strong><a href='http://vimeo.com/galaxyproject/managehistories'>Managing Histories</a></strong> <br /> saved histories, <a href='/src/main/index.md'>disk quotas</a> </td>
+    <td> <strong><a href='http://vimeo.com/galaxyproject/managehistories'>Managing Histories</a></strong> <br /> saved histories, <a href='/main/'>disk quotas</a> </td>
   </tr>
   <tr>
     <td> <strong><a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>Using FTP</a></strong> <br /> step-by-step, <a href='/src/ftp-upload/index.md'> wiki</a> </td>

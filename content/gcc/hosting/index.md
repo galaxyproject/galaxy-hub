@@ -4,7 +4,7 @@ title: Hosting a Galaxy Community Conference (GCC)
 
 <div class="alert alert-info trim-p">
 
-[Galaxy Community Conferences](/src/gcc/index.md) are the flagship event of the Galaxy community.  GCCs gather together researchers, bioinformaticians, service and infrastructure providers, and research data publishers for a week-long event all about data-intensive biology.
+[Galaxy Community Conferences](/gcc/) are the flagship event of the Galaxy community.  GCCs gather together researchers, bioinformaticians, service and infrastructure providers, and research data publishers for a week-long event all about data-intensive biology.
 
 </div>
 
@@ -16,7 +16,7 @@ title: Hosting a Galaxy Community Conference (GCC)
 
 </div>
 
-Thanks for considering hosting a [GCC](/src/gcc/index.md).  These events are vital to the success of the community, and the success of these events is driven by GCC hosts.
+Thanks for considering hosting a [GCC](/gcc/).  These events are vital to the success of the community, and the success of these events is driven by GCC hosts.
 
 In the past it's been entirely *ad hoc* (2010-2015), or rigorous, with a call for proposals and formal evaluation of proposals (2016-2018).  Starting with GCC2019, we moved to something in between.  If you are interested, then please [contact the project](#lets-talk) and we will get back to you (immediately!).
 

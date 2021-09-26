@@ -23,13 +23,13 @@ A number of resources are available to help connect researchers and developers w
 
 ![GalaxyLogo](/src/images/galaxy-logos/galaxy_logo_25percent.png)
 
-The [Galaxy logos page](/src/images/galaxy-logos/index.md) contains currently available Galaxy Project logos. The [Galaxy images page](/src/images/index.md) lists sources for [logos](/src/images/logos/index.md), [icons](/src/images/icons/index.md), and [screenshots](/src/images/screenshots/index.md) that can be included in Galaxy-related presentations and posters.
+The [Galaxy logos page](/src/images/galaxy-logos/index.md) contains currently available Galaxy Project logos. The [Galaxy images page](/images/) lists sources for [logos](/src/images/logos/index.md), [icons](/src/images/icons/index.md), and [screenshots](/src/images/screenshots/index.md) that can be included in Galaxy-related presentations and posters.
 
 ## Speakers and Workshops
 
 ![GalaxySpeaker](/src/outreach/GalaxySpeaker.jpg)
 
-Experienced Galaxy speakers are available to give presentations and workshops at your institution or event. These sessions can range from introductory or overview talks to workshops covering specific analyses or research topics. In terms of style, presentations can take the form of short talks, workshops with multiple speakers, or even highly interactive and hands-on tutorials. Check out the [Galactic Events](/src/events/index.md) page for a list of recent and upcoming events.
+Experienced Galaxy speakers are available to give presentations and workshops at your institution or event. These sessions can range from introductory or overview talks to workshops covering specific analyses or research topics. In terms of style, presentations can take the form of short talks, workshops with multiple speakers, or even highly interactive and hands-on tutorials. Check out the [Galactic Events](/events/) page for a list of recent and upcoming events.
 
 Please contact outreach@galaxyproject.org if you are interested in arranging a presentation or workshop at your institution or event. 
 
@@ -42,8 +42,8 @@ Hands-on workshops are generously supported by an [AWS in Education](http://aws.
 If you are organizing or presenting at an event with significant Galaxy-related content, we can help you spread the word in a number of ways:
 
 * Announce it to the appropriate [Mailing Lists](/src/mailing-lists/index.md).
-* Post it the [Galactic News page and RSS feed](/src/news/index.md).
-* Add it to the [Galactic Events](/src/events/index.md) page and Galaxy Calendar.
+* Post it the [Galactic News page and RSS feed](/news/).
+* Add it to the [Galactic Events](/events/) page and Galaxy Calendar.
 
 We are also happy to create a wiki page and a flier for the event to highlight the Galaxy content.
 

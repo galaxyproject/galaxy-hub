@@ -10,13 +10,13 @@ platforms:
 summary: "The Australian UseGalaxy server."
 image: "/src/use/usegalaxy-au/usegalaxy-au-landing-page-500.png"
 comments:
-  - "Strong on genomics; good central repository for shared Galaxy objects.  See [Main](/src/main/index.md) for more."
+  - "Strong on genomics; good central repository for shared Galaxy objects.  See [Main](/main/) for more."
 user_support:
   - "[Help desk for **usegalaxy.org.au**](mailto:help@genome.edu.au)"
   - "[Training Materials](https://galaxy-au-training.github.io/tutorials/)"
   - "[Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"
-  - "[Support](/src/support/index.md)"
+  - "[Support](/support/)"
 quotas:
   - "Disk Quotas"
   - "Registered users get 100GB"

@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot an Error
 ---
-[Back to Support Hub](/src/support/index.md)
+[Back to Support Hub](/support/)
 
 ## Troubleshoot an Error
 

@@ -3,7 +3,7 @@ title: March 2013 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the March 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the March 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -13,7 +13,7 @@ Welcome to the March 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mon
 
 The [University of Costa Rica](http://www.ucr.ac.cr/) School of Medicine, [Master in Bioinformatics and System Biology](http://www2.sep.ucr.ac.cr/MaestriasAcademicas/CBIOMEDICAS/Infodescrip.html) and [BREL (Bioinformatics Research Laboratory)](http://www.ucrbrel.com/) have made the [Galaxy NELLY](http://www.bioinformatica.ucr.ac.cr:8080/) server publicly accessible.  NELLY features the standard Galaxy tool set.  It requires a login, but anyone can create a login.
 
-This server joins the [growing list of public Galaxy servers](/src/use/index.md).
+This server joins the [growing list of public Galaxy servers](/use/).
 
 ## New Papers
 
@@ -70,7 +70,7 @@ The Galaxy is expanding! Please help it grow.
 * **[Bioinformatics Trainter/Analyst](http://bit.ly/14xgrVK)**, [Morgridge Institute for Research](http://discovery.wisc.edu/morgridge/), Madison, Wisconsin, United States
 * Poste [d’ingénieur bio-informaticien en métagénomique](http://bit.ly/VyQvUL) au Laboratoire d’Analyses Bioinformatiques en Génomique et Métabolisme (LABGeM)
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 
 ## GCC2013
@@ -217,7 +217,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 **[February 8, 2013 Galaxy Distribution](/src/archive/dev-news-briefs/2013-02-08/index.md)**
 
 <div class='indent'>
-<div class='right'><a href='/src/toolshed/index.md'><img src="/src/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="" width="220px" /></a></div>
+<div class='right'><a href='/toolshed/'><img src="/src/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="" width="220px" /></a></div>
 **Highlights:**
 * *Improvements* to our [release process](/src/archive/dev-news-briefs/2013-02-08/index.md#-to-release_process). **Release tag must be used in the hg update command to upgrade**. More at **[getgalaxy.org](/src/admin/get-galaxy/index.md)**.
 * Tool Shed *[Complex repository dependencies](/src/toolshed/complex-repository-dependencies/index.md)* are introduced, streamlining core dependency use across individual tools. 

@@ -5,7 +5,7 @@ title: 2013 Research Triangle Workshop Tour
 
 
 
-Doing research in the Research Triangle?  A [Galaxy Workshop Tour](/src/events/index.md) is happening in North Carolina the week of July 18 through 22.  See below for participating institutions.
+Doing research in the Research Triangle?  A [Galaxy Workshop Tour](/events/) is happening in North Carolina the week of July 18 through 22.  See below for participating institutions.
 
 
 <table>
@@ -32,4 +32,4 @@ Doing research in the Research Triangle?  A [Galaxy Workshop Tour](/src/events/i
 
 
 <br /><br />
-See the [Galaxy Events page](/src/events/index.md) for other upcoming training events.
+See the [Galaxy Events page](/events/) for other upcoming training events.

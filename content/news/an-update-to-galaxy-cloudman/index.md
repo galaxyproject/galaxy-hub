@@ -2,7 +2,7 @@
 title: "An Update to Galaxy Cloudman"
 date: "2011-11-29"
 ---
-A new version of [CloudMan](/src/cloudman/index.md) for running Galaxy on Amazon cloud has been released yesterday. Any new cluster will automatically use this version. Existing clusters will have a link displayed at the top of the CloudMan console offering to perform an automated update. 
+A new version of [CloudMan](/cloudman/) for running Galaxy on Amazon cloud has been released yesterday. Any new cluster will automatically use this version. Existing clusters will have a link displayed at the top of the CloudMan console offering to perform an automated update. 
 
 The new version brings the following updates/features:
 * Added ability to specify a path where Galaxy is installed as part of user data (using `galaxy_home` key). This allows custom Galaxy application to be installed and picked up by CloudMan instead of the default one. This works across cluster invocations as well as for shared clusters. For a complete list of user data options see [Admin/Cloud/UserData](/src/admin/Cloud/UserData/index.md)

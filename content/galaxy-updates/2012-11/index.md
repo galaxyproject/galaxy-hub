@@ -3,7 +3,7 @@ title: November 2012 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the November 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the November 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -75,7 +75,7 @@ These papers were among [44 papers added to the Galaxy CiteULike group](http://w
 
 ## New Trello Issue Board
 
-The Galaxy project has a [new issue tracking system](http://bit.ly/gxytrello), implemented with [Trello](http://trello.com).  *To [report an issue](/src/issues/index.md#create-an-issue)*, fill out the form at **http://galaxyproject.org/trello''' and submit (use markdown for formatting, if desired).  You can also ''[comment on](/src/issues/index.md#add-a-comment) and [vote for issues](/src/issues/index.md#vote) directly* on the [Trello issue board](http://bit.ly/gxytrello) itself.
+The Galaxy project has a [new issue tracking system](http://bit.ly/gxytrello), implemented with [Trello](http://trello.com).  *To [report an issue](/issues/#create-an-issue)*, fill out the form at **http://galaxyproject.org/trello''' and submit (use markdown for formatting, if desired).  You can also ''[comment on](/issues/#add-a-comment) and [vote for issues](/issues/#vote) directly* on the [Trello issue board](http://bit.ly/gxytrello) itself.
 
 The same guidelines for creating issues used previously apply here as well - report software issues and change requests, but get support and ask questions on the [mailing list](https://lists.galaxyproject.org/lists/galaxy-dev.lists.galaxyproject.org/).
 
@@ -94,7 +94,7 @@ The Galaxy is expanding!  Please help it grow.
 * [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements RnaSeq sous Galaxy - France Genomique
 * The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Penn State and Emory
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ## Upcoming Events and Deadlines
 
@@ -197,7 +197,7 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-The **[October 23, 2012 distribution](/src/archive/dev-news-briefs/2012-10-23/index.md)** includes an **[important security fix](/src/archive/dev-news-briefs/2012-10-23/index.md#compute-tool-security-fix)**; integration with a [new Trello Issue Board](/src/archive/dev-news-briefs/2012-10-23/index.md#new-trello-issue-board); [Tool Shed](/src/toolshed/index.md) direct updates; [API](/src/archive/dev-news-briefs/2012-10-23/index.md#api) fixes, tuneups, and brand-new methods to control libraries; multiple [Admin](/src/archive/dev-news-briefs/2012-10-23/index.md#source) changes enable better access to user data to solve problems; and updates to the [Visualization](/src/archive/dev-news-briefs/2012-10-23/index.md#visualization-framework) tool set cover Trackster, Circster, and the new Scatter Plot tool.  
+The **[October 23, 2012 distribution](/src/archive/dev-news-briefs/2012-10-23/index.md)** includes an **[important security fix](/src/archive/dev-news-briefs/2012-10-23/index.md#compute-tool-security-fix)**; integration with a [new Trello Issue Board](/src/archive/dev-news-briefs/2012-10-23/index.md#new-trello-issue-board); [Tool Shed](/toolshed/) direct updates; [API](/src/archive/dev-news-briefs/2012-10-23/index.md#api) fixes, tuneups, and brand-new methods to control libraries; multiple [Admin](/src/archive/dev-news-briefs/2012-10-23/index.md#source) changes enable better access to user data to solve problems; and updates to the [Visualization](/src/archive/dev-news-briefs/2012-10-23/index.md#visualization-framework) tool set cover Trackster, Circster, and the new Scatter Plot tool.  
 
 The **[October 5, 2012 distribution](/src/archive/dev-news-briefs/2012-10-05/index.md)** included [migrating BWA](/src/archive/dev-news-briefs/2012-10-05/index.md#bwa-migration-to-tool-shed) to the [Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/), accessible tool versions in the UI, and new exit code features enable [clearer experimental tracking and ease reproducibility](/src/archive/dev-news-briefs/2012-10-05/index.md#tools).  This release also includes [Visualization](/src/archive/dev-news-briefs/2012-10-05/index.md#visualization-framework) updates, a new admin tool for [PostgreSQL dataset cleanup](/src/archive/dev-news-briefs/2012-10-05/index.md#dataset-cleanup), and improvements in [API](/src/archive/dev-news-briefs/2012-10-05/index.md#ap), [Workflow](/src/archive/dev-news-briefs/2012-10-05/index.md#workflows),  and [Security](/src/archive/dev-news-briefs/2012-10-05/index.md#security-fixes) components.
 
@@ -206,7 +206,7 @@ The **[October 5, 2012 distribution](/src/archive/dev-news-briefs/2012-10-05/ind
 
 * Phylogenies! Hacking! Tucson in January!  And, hopefully Galaxy too.  If you are interested in coding, phylogenies, and tool integration please take a look at the [Phylotastic Hackathon Announcement](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/PS4SY66TLUILQM6CZC7DXT52RPESVHYJ/#SEPCOC7HDXEYD552RUKHSUCWGJIRU422).  Apply by November 16.
 * Slides for all [11 talks at 1st Swiss Galaxy Day](http://bit.ly/gxyswiss) are now available online.
-* Slides for [5 other Galaxy related events](/src/events/index.md#a2012) in October are also now available.
+* Slides for [5 other Galaxy related events](/events/#a2012) in October are also now available.
 * [workflow-to-galaxy (0.3.4) @ RubyGems.org](http://rubygems.org/gems/workflow-to-galaxy): Acquires information for a taverna 2 workflow from myExperiment (or from a file) and generates a Galaxy tool (`.xml` and `.rb` files).
 * American Internet Services (AIS) unveils [Life Sciences SaaS](http://bloom.bg/TQEcGz), featuring Galaxy 
-* The **[Tool Shed Wiki](/src/toolshed/index.md)** wiki has been re-written with a new, cleaner presentation. And check out all the [new features](/src/archive/dev-news-briefs/2012-10-05/index.md#tool-shed)!
+* The **[Tool Shed Wiki](/toolshed/)** wiki has been re-written with a new, cleaner presentation. And check out all the [new features](/src/archive/dev-news-briefs/2012-10-05/index.md#tool-shed)!

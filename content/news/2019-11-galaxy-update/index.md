@@ -70,7 +70,7 @@ This week-long hands-on training will feature what you need to know to set up yo
 
 There are
 
-* [16 upcoming events](/src/events/index.md)
+* [16 upcoming events](/events/)
 * on 4 continents, plus online
 * in US, Ghana, France, Australia, UK, Belgium, and Spain.
 
@@ -164,7 +164,7 @@ Agricultural Sciences collaboration between Swedish University of Agricultural s
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
@@ -215,7 +215,7 @@ A Galaxy Docker image for RNA analysis and modification calling, from the [Helm 
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -279,7 +279,7 @@ By [Simon Gladman](https://training.galaxyproject.org/training-material/hall-of-
 
 # Who's Hiring
 
-The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">

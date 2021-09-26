@@ -3,7 +3,7 @@ title: Development News Brief
 date: 2014-11-04
 ---
 
-[All News Briefs](/src/docs/index.md)
+[All News Briefs](/docs/)
 <br />
 [Distribution Summary 2013_11_04](/src/news/2013-11-04-galaxy-distribution/index.md)
 
@@ -194,7 +194,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 ## Galaxy Tool Migration Framework Enhancements
 
 See above: [New Tool Migrations](/src/archive/dev-news-briefs/2013-11-04/index.md#new-tool-migrations)
@@ -345,8 +345,8 @@ Several beneficial enhancements have bee added to the support for [defining tool
 
 # Project Updates
 
-1. [News](/src/news/index.md)
-1. [Events](/src/events/index.md)
+1. [News](/news/)
+1. [Events](/events/)
 1. [Videos on Vimeo](https://vimeo.com/galaxyproject)
 1. *[November 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-11)*
 1. *[October 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-10)*

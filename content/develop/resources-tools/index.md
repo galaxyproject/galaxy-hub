@@ -1,7 +1,7 @@
 ### Tool Development Resources
 
 * [A somewhat complete description](/src/admin/tools/tool-config-syntax/index.md) of tags used for in tool XML files.
-* A place to share your tools with the community: the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) - more information on [publishing tools to the ToolShed](/src/toolshed/index.md).
+* A place to share your tools with the community: the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) - more information on [publishing tools to the ToolShed](/toolshed/).
 * [Planemo](https://planemo.readthedocs.org/en/latest/) a CLI tool to assist tool developer - easily lint, test, and preview your tools. ([Quick Start](https://planemo.readthedocs.org/en/latest/readme.html#quick-start), [Planemo on Github](https://github.com/galaxyproject/planemo))
 * [Tool Development Training Materials](https://github.com/Public-Health-Bioinformatics/galaxy-tool-tutorials) - from Hsiao lab, BC Public Health Microbiology & Reference Laboratory, BC Centre for Disease Control.
   * [Tool Development Slides (PDF)](https://github.com/Public-Health-Bioinformatics/galaxy-tool-tutorials/blob/master/Galaxy%20Tool%20Development.pdf?raw=true)

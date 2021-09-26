@@ -31,7 +31,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 [<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
 
-GCC2019 will be held the first week of  July in Freiburg, Germany.  The *tenth* [GCC](/src/events/gcc2019/index.md) features [more presentations](https://gcc2019.sched.com/#2019-07-02) and [more training](https://gcc2019.sched.com/overview/type/A.+Training) than any [GCC](/src/gcc/index.md) before it. If you are working in data intensive life science research then there will not be a better place to share your work, learn from others, and find new collaborators.
+GCC2019 will be held the first week of  July in Freiburg, Germany.  The *tenth* [GCC](/src/events/gcc2019/index.md) features [more presentations](https://gcc2019.sched.com/#2019-07-02) and [more training](https://gcc2019.sched.com/overview/type/A.+Training) than any [GCC](/gcc/) before it. If you are working in data intensive life science research then there will not be a better place to share your work, learn from others, and find new collaborators.
 
 ## Advance Registration ends 7 June - this Friday
 
@@ -63,7 +63,7 @@ The [full conference schedule is now online](https://gcc2019.sched.com/).  There
 
 # Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up:
+These and [other Galaxy related events](/events/) are coming up:
 
 <table class="table table-striped">
 <thead>
@@ -194,7 +194,7 @@ There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BG
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in March:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in March:
 
 ## The TGM pipeline
 
@@ -246,11 +246,11 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 ----
 
-[<img class="float-right" src="/src/blog/2019-05-gcr/gcr.png" alt="Galaxy Cloud Bursting" style="max-width: 120px" />](/src/blog/index.md)
+[<img class="float-right" src="/src/blog/2019-05-gcr/gcr.png" alt="Galaxy Cloud Bursting" style="max-width: 120px" />](/blog/)
 
 # New Galactic Blog Post: Enabling Cloud Bursting for Galaxy
 
-For the second month in a row we have a new *[Galactic Blog](/src/blog/index.md)* post from [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili):
+For the second month in a row we have a new *[Galactic Blog](/blog/)* post from [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili):
 
 * [Enabling cloud bursting for Galaxy: Expand your compute horizons](/src/blog/2019-05-gcr/index.md)
 
@@ -273,7 +273,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
   * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 ---
 

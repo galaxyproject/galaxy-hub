@@ -11,8 +11,8 @@ title: Creating Workflows and Advanced Workflow Options
 * Workflow can be reused over and over, not only reducing tedious work, but enhancing reproducibility by applying the same exact methods to all of your data.
 * Workflows can be executed on multiple streams of input data in a single pass with the output results sent to new, distinct, result histories. 
 * Workflow intermediate and final output datasets can be custom labeled, hidden or shown in default view, have post-job actions applied, and other advanced options executed.
-* Workflows can be executed using the API (including workflows that exist on the public [Main](/src/main/index.md) server). Your account's API Key is generated/stored under *User -> API Keys*. Learn more about the **[API...](/src/learn/api/index.md)**
-* Check the usage information on other [public Galaxy servers](/src/use/index.md) to see if they support API access.
+* Workflows can be executed using the API (including workflows that exist on the public [Main](/main/) server). Your account's API Key is generated/stored under *User -> API Keys*. Learn more about the **[API...](/src/learn/api/index.md)**
+* Check the usage information on other [public Galaxy servers](/use/) to see if they support API access.
 
 ## Learn from an example
 
@@ -23,7 +23,7 @@ title: Creating Workflows and Advanced Workflow Options
 
 </div>
 
-* Choose a workflow from **[Main's](/src/main/index.md) Published Workflows: [https://usegalaxy.org/workflow/list_published](https://usegalaxy.org/workflow/list_published)**
+* Choose a workflow from **[Main's](/main/) Published Workflows: [https://usegalaxy.org/workflow/list_published](https://usegalaxy.org/workflow/list_published)**
 * Click on the workflow name to access the pull-down menu of options and explore.
 * Import a workflow after viewing it. This will place it in your "Saved Workflows" list. 
 * Lost your place? Go to the very top menu and click on "Workflow". 

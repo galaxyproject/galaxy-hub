@@ -8,7 +8,7 @@ title: "Galaxy Publication Library"
 
 </div>
 
-The Galaxy Project uses the [Zotero](https://zotero.org/) social bookmarking service to organize publications that reference Galaxy. The [Galaxy Group](https://www.zotero.org/groups/galaxy) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy.  You can [search the library at Zotero](https://www.zotero.org/groups/1732893/galaxy/items), or through the [unified Galaxy search](/src/search/index.md).
+The Galaxy Project uses the [Zotero](https://zotero.org/) social bookmarking service to organize publications that reference Galaxy. The [Galaxy Group](https://www.zotero.org/groups/galaxy) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy.  You can [search the library at Zotero](https://www.zotero.org/groups/1732893/galaxy/items), or through the [unified Galaxy search](/search/).
 
 *(Need to cite Galaxy in a publication? See [Citing Galaxy](/src/citing-galaxy/index.md).)*
 
@@ -33,11 +33,11 @@ Galaxy specific tags all start with "+":
 | [+Methods](https://www.zotero.org/groups/galaxy/items/tag/+Methods/) | Uses Galaxy in their methods. If it's clear from the paper, which instance was used, then methods papers will also include one or more of these tags: |
 | &nbsp; [+UseCloud](https://www.zotero.org/groups/galaxy/items/tag/+UseCloud/) | &nbsp; Uses a custom built cloud based instance of Galaxy in its methods. |
 | &nbsp; [+UseLocal](https://www.zotero.org/groups/galaxy/items/tag/+UseLocal/) | &nbsp; Uses a local installation of Galaxy in its methods. | 
-| &nbsp; [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | &nbsp; Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md), in its methods. |
-| &nbsp; [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | &nbsp; Uses a [publicly accessible Galaxy platform](/src/use/index.md) in its methods. |
+| &nbsp; [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | &nbsp; Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/main/), in its methods. |
+| &nbsp; [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | &nbsp; Uses a [publicly accessible Galaxy platform](/use/) in its methods. |
 | [+Other](https://www.zotero.org/groups/galaxy/items/tag/+Other/) | Publications that don't fit well under any other tag. |
 | [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/galaxy-team/) member as an author. |
-| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/src/use/index.md) or a [Galaxy service](/src/use/index.md).  This is distinct from the *+UsePublic* tag. |
+| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/).  This is distinct from the *+UsePublic* tag. |
 | [+Reproducibility](https://www.zotero.org/groups/galaxy/items/tag/+Reproducibility/) | Reproducibility and persistence in science. |
 | [+Shared](https://www.zotero.org/groups/galaxy/items/tag/+Shared/) |  Publications that have published workflows, histories, datasets, pages, or visualizations in a Galaxy instance. |
 | [+Tools](https://www.zotero.org/groups/galaxy/items/tag/+Tools/) | Tools that run in, have been ported to, or interact with Galaxy |
@@ -47,7 +47,7 @@ Galaxy specific tags all start with "+":
 
 ### Public Platform tags (">")
 
-Publications that mention or use a [public Galaxy platform](/src/use/index.md) are tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
+Publications that mention or use a [public Galaxy platform](/use/) are tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
 
 *Note: We only started using ">" tags after the move to Zotero in September 2017.  Publications before that might have these tags, but most won't.*
 

@@ -4,9 +4,9 @@ title: Galaxy Support
 ## Quick Start
 
 * [NGS 101](/src/tutorials/g101/index.md)
-* [Tutorials](/src/learn/index.md)
+* [Tutorials](/learn/)
 * [Teaching with Galaxy](https://training.galaxyproject.org/)
-* [Using Galaxy Choices](/src/use/index.md#which-platform--platform-type-to-choose)
+* [Using Galaxy Choices](/use/#which-platform--platform-type-to-choose)
 * [Galaxy Project Highlights](https://galaxyproject.github.io/)
 
 ## Help Resources
@@ -61,7 +61,7 @@ title: Galaxy Support
 ### Unexpected results
 
 * [My job ended with an error. What can I do?](/src/support/tool-error/index.md)
-* [Reporting Usage Issues or Software bugs](/src/issues/index.md)
+* [Reporting Usage Issues or Software bugs](/issues/)
 * [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
 * [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
 * [Known Issues - Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)

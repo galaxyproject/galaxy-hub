@@ -3,10 +3,10 @@ title: "September 2011 Galaxy Events"
 date: "2011-08-24"
 ---
 <div class='right'>
-<a href='/src/events/index.md'><img src="/src/images/logos/galaxyLogoTrimmed.png" alt="Galaxy Events in September 2011" width="120" /></a> <a href='http://docs.uabgrid.uab.edu/wiki/2011'><img src="/src/images/logos/UABLogo.png" alt="UAB Research Computing Day" width="80" /></a> <a href='http://aws.amazon.com/genomicsevent/'><img src="/src/images/logos/AWSLogo.png" alt="AWS Genomics Event" width="100" /></a>
+<a href='/events/'><img src="/src/images/logos/galaxyLogoTrimmed.png" alt="Galaxy Events in September 2011" width="120" /></a> <a href='http://docs.uabgrid.uab.edu/wiki/2011'><img src="/src/images/logos/UABLogo.png" alt="UAB Research Computing Day" width="80" /></a> <a href='http://aws.amazon.com/genomicsevent/'><img src="/src/images/logos/AWSLogo.png" alt="AWS Genomics Event" width="100" /></a>
 </div>
 
-There are (at least) three [Galaxy related events](/src/events/index.md) going on in September 2011 that you may want to consider attending.  They are happening from one coast of the United States to the other:
+There are (at least) three [Galaxy related events](/events/) going on in September 2011 that you may want to consider attending.  They are happening from one coast of the United States to the other:
 
 <table>
   <tr class="th" >
@@ -36,7 +36,7 @@ There are (at least) three [Galaxy related events](/src/events/index.md) going o
 </table>
 
 <br />
-See the [Events](/src/events/index.md) page for a full listing of upcoming events.  If you have a Galaxy related event please send it to outreach@galaxyproject.org and we will help you get the word out.
+See the [Events](/events/) page for a full listing of upcoming events.  If you have a Galaxy related event please send it to outreach@galaxyproject.org and we will help you get the word out.
 
 Thanks,<br />
 [Dave Clements](/people/dave-clements/)

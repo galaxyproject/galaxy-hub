@@ -1,6 +1,6 @@
 <slot name="/documents/linkbox" />
 
-Common place to attach presentations in the [Documents](/src/documents/index.md) hierarchy.
+Common place to attach presentations in the [Documents](/documents/) hierarchy.
 
 Also see these subdirectories for specific events:
 

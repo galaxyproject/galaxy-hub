@@ -34,7 +34,7 @@ Papercut events are CoFests that address annoying, but easy to fix bugs ("paper 
 
 ## Stay Informed
 
-Want to know when CoFests are coming?  Follow [@GalaxyProject on  Twitter](https://twitter.com/galaxyproject) or subscribe to the [Galaxy-Announce mailing list](/src/mailing-lists/index.md). See the [Galaxy Event Horizon](/src/events/index.md) for a complete list of upcoming events.
+Want to know when CoFests are coming?  Follow [@GalaxyProject on  Twitter](https://twitter.com/galaxyproject) or subscribe to the [Galaxy-Announce mailing list](/src/mailing-lists/index.md). See the [Galaxy Event Horizon](/events/) for a complete list of upcoming events.
 
 If you know of a CoFest that should be added to this page then please send it to outreach@galaxyproject.org.
 

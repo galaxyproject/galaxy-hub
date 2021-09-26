@@ -1,6 +1,6 @@
 <div class="linkbox trim-p">
 
-**[FAQs](/src/faqs/index.md)**
+**[FAQs](/faqs/)**
 
 ---
 

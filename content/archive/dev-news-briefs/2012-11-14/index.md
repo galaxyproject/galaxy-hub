@@ -44,7 +44,7 @@ The **Galaxy Project** is now using the *[Sphinx](http://sphinx-doc.org/) Python
 Two versions of the documentation are available:
 
 * **[galaxy-dist.readthedocs.org](http://galaxy-dist.readthedocs.org)**
-    This documentation describes the code in the [most recent stable release](/src/docs/index.md) of Galaxy ("galaxy-dist").
+    This documentation describes the code in the [most recent stable release](/docs/) of Galaxy ("galaxy-dist").
 
 * **[galaxy-central.readthedocs.org](http://galaxy-central.readthedocs.org)**
     This documentation describes what is currently in the main development branch ("galaxy-central") of Galaxy.  Code updates are automatically propagated from Galaxy's BitBucket.org repository.  This should never be more than 15 minutes out of date.
@@ -63,7 +63,7 @@ Please note that this is the first release of this documentation and it is far f
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ### Tool Shed Enhancements inside of Galaxy
 
@@ -162,7 +162,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 <br />
 # Announcements
 
-[News](/src/news/index.md), ***[November 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-11)***
+[News](/news/), ***[November 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-11)***
 
 ### Highlights
 

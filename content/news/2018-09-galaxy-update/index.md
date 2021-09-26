@@ -63,7 +63,7 @@ If you will be anywhere near San Antonio, Texas on October 10 then please consid
 
 ## Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+These and [other Galaxy related events](/events/) are coming up in the next few months:
 
 <table class="table table-striped"><thead><tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th></tr></thead><tbody>
 <tr>
@@ -227,15 +227,15 @@ The Galaxy is expanding! Please help it grow.
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 # Contributor of the Month: Carrie Ganote
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
+[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/blog/)
 </div>
 
-There is one new *[Galactic Blog](/src/blog/index.md)* entry:
+There is one new *[Galactic Blog](/blog/)* entry:
 
 * [Contributor of the Month: Carrie Ganote](/src/blog/2018-09-cotm-carrie-ganote/index.md), By Björn Grüning
 
@@ -243,7 +243,7 @@ There is one new *[Galactic Blog](/src/blog/index.md)* entry:
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [several Galaxy services](/src/use/index.md).  One of each were added in the past month.
+There are [over 100 publicly accessible Galaxy servers](/use/) and [several Galaxy services](/use/).  One of each were added in the past month.
 
 ## epiGeEC
 
@@ -277,7 +277,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 # Hub and Doc Updates
 
-* The [Galaxy publication library](/src/publication-library/index.md) is now integrated into the [Pan-Galactic search page](/src/search/index.md), thanks to [Dannon Baker](/people/dannon-baker/). Search for something and click on the pub library tab.
+* The [Galaxy publication library](/src/publication-library/index.md) is now integrated into the [Pan-Galactic search page](/search/), thanks to [Dannon Baker](/people/dannon-baker/). Search for something and click on the pub library tab.
 * [Data Manager XML syntax description](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md) updated by [Peter van Heusden](https://github.com/pvanheus)
 * [Hub Editing Guidelines](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) updated by [Mo Heydarian](/people/mo-heydarian/)
 * There was a massive Hub infrastructure update by [Dannon Baker](/people/dannon-baker/), but it's one of those you won't even notice.

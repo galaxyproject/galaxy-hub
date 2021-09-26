@@ -18,7 +18,7 @@ date: "2015-03-16"
 
  **[Tool Redesign](/src/archive/dev-news-briefs/2015-03/index.md#tool-redesign)**
 
-  Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [Main](/src/main/index.md).
+  Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [Main](/main/).
 
 <span style="font-size: larger;"> Get the Galaxy Release </span>
 <br />

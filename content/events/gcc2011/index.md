@@ -15,7 +15,7 @@ The 2011 Galaxy Community Conference was held 25-26 May, at the [Conference Cent
 
 See the [conference page](https://galaxyproject.org/gcc2011/Home.html) for more details.
 
-**See [all Galaxy Community Conferences](/src/gcc/index.md).**
+**See [all Galaxy Community Conferences](/gcc/).**
 
 ## Presentations
 

@@ -142,7 +142,7 @@ See the [GCC2021 schedule](https://gcc2021.sched.com/) for the most current list
 </div>
 <div class="card-header trim-p">James Taylor's Birthday Video</div>
 
-To help commemorate [James Taylor's](/src/jxtx/index.md) birthday (he would have turned 42 on May 18), the community contributed short video remembrances, which have been linked together in one video.
+To help commemorate [James Taylor's](/jxtx/) birthday (he would have turned 42 on May 18), the community contributed short video remembrances, which have been linked together in one video.
 
 Happy birthday James. We miss you.
 
@@ -155,11 +155,11 @@ Happy birthday James. We miss you.
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
-[Open Galaxy Positions](/src/careers/index.md)
+[Open Galaxy Positions](/careers/)
 
 </div>
 
-There are three new positions in the [Galaxy Career Center](/src/careers/index.md), two in Rennes, France (one is due **1 June**), and one in Genoa, Italy (due **13 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There are three new positions in the [Galaxy Career Center](/careers/), two in Rennes, France (one is due **1 June**), and one in Genoa, Italy (due **13 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
 
@@ -229,7 +229,7 @@ We also publish data, software, and other research objects via our database, [Gi
 
 # Event News
 
-There is a lot going on in the Galaxy, with [10 events this week alone](/src/events/index.md). Some upcoming highlights:
+There is a lot going on in the Galaxy, with [10 events this week alone](/events/). Some upcoming highlights:
 
 <div class="card-deck">
 
@@ -367,7 +367,7 @@ If you are participating in the GCC2021 CoFest<sup>*</sup> then please join us J
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -432,7 +432,7 @@ The [imaging flavor of Galaxy](https://imaging.usegalaxy.eu/) offers a set of tr
 <div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 

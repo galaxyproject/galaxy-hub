@@ -293,7 +293,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
 A couple of trends stand out in the tag data:
 
 * *methods* and *workbench* have always been the most popular.  *methods* papers use Galaxy in their analysis.  *workbench* either just mention Galaxy or discuss the platform itself.
-* The numbers of *usepublic* and *refpublic* publications are climbing rapidly.  Respectively, these are *methods* studies that did their analyses on a [public Galaxy server](/src/use/index.md) other than [usegalaxy.org](http://usegalaxy.org), and papers that reference those servers in some way (besides their methodology).  Part of this increase reflects better tracking of these papers, but (I believe) most of the increase reflects both the increased number of public servers (as reflected by the *isgalaxy* numbers), and their increased visibility.
+* The numbers of *usepublic* and *refpublic* publications are climbing rapidly.  Respectively, these are *methods* studies that did their analyses on a [public Galaxy server](/use/) other than [usegalaxy.org](http://usegalaxy.org), and papers that reference those servers in some way (besides their methodology).  Part of this increase reflects better tracking of these papers, but (I believe) most of the increase reflects both the increased number of public servers (as reflected by the *isgalaxy* numbers), and their increased visibility.
 * *reproducibility* became a hot topic (finally) in 2014.
 
 <br />

@@ -3,22 +3,22 @@ title: January 2014 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the January 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the January 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Galaxy Community Hubs
 
-December saw the launch of two *[Galaxy community hubs](/src/community/index.md)* - one to describe Galaxy deployments, and one to document admin and deployment experiences with Galaxy.  Thanks to everyone who has described their experiences in the first month.
+December saw the launch of two *[Galaxy community hubs](/community/)* - one to describe Galaxy deployments, and one to document admin and deployment experiences with Galaxy.  Thanks to everyone who has described their experiences in the first month.
 
 ## Galaxy Community Log Board
 
-<div class='left'><a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
+<div class='left'><a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
 
-The *[Galaxy Community Log Board](/src/blog/index.md)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/src/blog/2013-04-urgi-virtualisation/index.md), or specific stumbling blocks when configuring Galaxy.  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
+The *[Galaxy Community Log Board](/blog/)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/src/blog/2013-04-urgi-virtualisation/index.md), or specific stumbling blocks when configuring Galaxy.  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
 
 <div class='left'>
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> &nbsp;&nbsp; </th>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;"> <span style="font-size: smaller;"> C'mon, it will make you feel good! </span> </td>
@@ -27,7 +27,7 @@ The *[Galaxy Community Log Board](/src/blog/index.md)* is a place to share how y
 
 </div>
 
-The [Galaxy Community Log Board](/src/blog/index.md) describes how things can be done, and it complements the (also [recently announced](/src/news/galaxy-deployment-catalog/index.md)) *Galaxy Deployments Catalog*, which describes different Galaxy installations.  Both the [Log Board](/src/blog/index.md) and the Deployments Catalog came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/src/events/gcc2013/bof/galaxy-admins/index.md).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/src/blog/index.md).
+The [Galaxy Community Log Board](/blog/) describes how things can be done, and it complements the (also [recently announced](/src/news/galaxy-deployment-catalog/index.md)) *Galaxy Deployments Catalog*, which describes different Galaxy installations.  Both the [Log Board](/blog/) and the Deployments Catalog came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/src/events/gcc2013/bof/galaxy-admins/index.md).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/blog/).
 
 ## Galaxy Deployment Catalog
 
@@ -78,7 +78,7 @@ If you have a Galaxy deployment then please take a few minutes to describe your 
 
 </div>
 
-The [Galaxy Events](/src/events/index.md) for 2013 have been moved to the [Events Archive](/src/events/archive/index.md), where they can still be accessed.  There are 160 items in the 2013 Events list.  That count *goes well over 200 items* if you follow some links and include the 13 talks at [Galaxy Day](/src/news/galaxy-day2013-report/index.md); and all the talks (25), posters (26), lightning talks (19) and Training Day Sessions (15) at [GCC2013](/src/events/gcc2013/index.md); and the 20+ items [at ISMB 2013](/src/events/ismb2013/index.md); and ...  Furthermore, *at least 3/4 of those items were presented by people outside the core Galaxy Team.*  
+The [Galaxy Events](/events/) for 2013 have been moved to the [Events Archive](/src/events/archive/index.md), where they can still be accessed.  There are 160 items in the 2013 Events list.  That count *goes well over 200 items* if you follow some links and include the 13 talks at [Galaxy Day](/src/news/galaxy-day2013-report/index.md); and all the talks (25), posters (26), lightning talks (19) and Training Day Sessions (15) at [GCC2013](/src/events/gcc2013/index.md); and the 20+ items [at ISMB 2013](/src/events/ismb2013/index.md); and ...  Furthermore, *at least 3/4 of those items were presented by people outside the core Galaxy Team.*  
 
 While those numbers are just plain cool, the really useful bit is that there are slides, exercises, and videos for over 4/5 of those presentation.  If you have a question about Galaxy, chances are someone talked about it in 2013, *and that you can find their slides in the [Events Archive](/src/events/archive/index.md).*
 
@@ -164,7 +164,7 @@ The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**, *including positions at George Washington University*.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -332,7 +332,7 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
 
 # New Public Servers
 
-One new server was added to [the list of publicly accessible Galaxy servers](/src/use/index.md) last month.
+One new server was added to [the list of publicly accessible Galaxy servers](/use/) last month.
 
 ## CAPER
 
@@ -352,7 +352,7 @@ See "[CAPER 2.0: An Interactive, Configurable, and Extensible Workflow-Based Pla
 
 The [most recent Galaxy Distribution was November 04, 2013](/src/archive/dev-news-briefs/2013-11-04/index.md).
 
-The latest version of [CloudMan](/src/cloudman/index.md) was [released in July](/src/news/cloudman-release/index.md).
+The latest version of [CloudMan](/cloudman/) was [released in July](/src/news/cloudman-release/index.md).
 
 <br />
 

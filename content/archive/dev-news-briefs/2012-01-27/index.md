@@ -42,7 +42,7 @@ date: 2012-01-27
     * **flagstat** (existing) requires versions 0.1.16-0.1.18.
     * **[Mpileup](http://samtools.sourceforge.net/mpileup.shtml)** (new) requires versions 0.1.16-0.1.18.
     * **[Pileup](http://samtools.sourceforge.net/pileup.shtml)** (existing) requires versions 0.1.12-0.1.16, with 0.1.16 *strongly* preferred and tool dependency directory configuration (if upgrading other SAMtools to 0.1.18).
-  * Galaxy **[Main](/src/main/index.md)** is running SAMtools version 0.1.18 for all with the exception of Pileup version 0.1.16.
+  * Galaxy **[Main](/main/)** is running SAMtools version 0.1.18 for all with the exception of Pileup version 0.1.16.
 * Updated **[TopHat](http://tophat.cbcb.umd.edu/)** tests for version 1.4.0.
 * Updated **[Cufflinks, CuffCompare, CuffDiff](http://cufflinks.cbcb.umd.edu/)** tests for version 1.3.0.
 * Better error reporting in **[Cufflinks](http://cufflinks.cbcb.umd.edu/)**.
@@ -73,7 +73,7 @@ date: 2012-01-27
 
 ## Tool Shed
 
-* **[Tool Shed](/src/toolshed/index.md)** fixes:
+* **[Tool Shed](/toolshed/)** fixes:
   * Fix for handling a tool data table entry when uploading to a tool shed repository.
   * Reset all metadata on all changeset revisions of a tool shed repsoitory whenever a new change set is introduced. This will result in a more standardized set of valid changeset revisions that can be installed.
   * Fix for generating workflow metadata and viewing workflows in tool shed repositories.
@@ -82,7 +82,7 @@ date: 2012-01-27
 
 ## Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Python 2.5 support was broken in the last stable release, this has been fixed 
 * A broken unit test under 2.5 will not be fixed until the next release, however - this can safely be ignored.
 * A fix to not use math.isnan because it is not compatible with python 2.5 has been made.
@@ -103,4 +103,4 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 
 Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)**
 ----
-Jennifer Jackson, [Galaxy Team](/galaxy-team/). Posted to [DevNewsBriefs](/src/docs/index.md) on 2012-01-27
+Jennifer Jackson, [Galaxy Team](/galaxy-team/). Posted to [DevNewsBriefs](/docs/) on 2012-01-27

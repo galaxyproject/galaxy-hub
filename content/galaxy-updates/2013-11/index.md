@@ -3,13 +3,13 @@ title: November 2013 Galaxy Update
 ---
 <div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the November 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the November 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 <br /><br />
 
 # New Public Servers
 
-Two new servers were added to [the list of publicly accessible Galaxy servers](/src/use/index.md) in October, include one that covers some radically new territory for Galaxy:
+Two new servers were added to [the list of publicly accessible Galaxy servers](/use/) in October, include one that covers some radically new territory for Galaxy:
 
 ## CoSSci: Complex Social Science Gateway
 
@@ -139,7 +139,7 @@ The Galaxy is expanding! Please help it grow.
 * [Computational biology opening](/src/news/computational-biology-paris/index.md) at University Pierre-et-Marie-Curie, Paris
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -336,7 +336,7 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
 
 <div class='right'><a href='https://lifeportal.uio.no/'><img src="/src/images/logos/LifeportalLeaf.jpg" alt="Lifeportal" /></a></div>
 
-The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/src/events/gcc2013/index.md), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/src/use/index.md), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
+The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/src/events/gcc2013/index.md), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/use/), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
 
 From the [Lifeportal website](https://lifeportal.uio.no/):
  Lifeportal gives you easy access to the High Performance Computing cluster Abel at the University of Oslo. The Galaxy based Lifeportal has a continuously growing list of services, and among them the most widely used tools from the former Bioportal.
@@ -349,7 +349,7 @@ See [this article](http://bit.ly/GDSjK4) for more on Lifeportal and why UIO chos
 
 The most recent [Galaxy distribution was August 12](/src/archive/dev-news-briefs/2013-08-12/index.md).
 
-A new version of [CloudMan](/src/cloudman/index.md) was [released in July](/src/news/cloudman-release/index.md).
+A new version of [CloudMan](/cloudman/) was [released in July](/src/news/cloudman-release/index.md).
 
 <br />
 

@@ -99,7 +99,7 @@ The [Pitagora-Galaxy](http://www.pitagora-galaxy.org/) community in Japan had a 
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div>
 
-There are [upcoming events](/src/events/index.md) in four countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/events/) in four countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 
 <div class='center'>
@@ -343,7 +343,7 @@ The Galaxy is expanding! Please help it grow.
  *
 * **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
@@ -355,12 +355,12 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <a href='http://galaxy.cloud.ba.infn.it:8080/'><img src="/src/use/biomas/biomas-logo.jpg" alt="BioMaS Galaxy" width="160" /></a><br />
 <a href='http://thebrain.bwh.harvard.edu/sifted.html'><img src="/src/use/archive/sifted/sifted-landing-page.png" alt="SIFTED" width="160" /></a><br />
 <a href='http://mississippi.fr/'><img src="/src/use/mississippi/mississippi-logo.png" alt="MISSIPPI" width="160" /></a><br />
-<a href='/src/use/index.md'><img src="/src/public-galaxy-servers/70PlusSlide.png" alt="70+ Public Galaxy Servers" width="160" /></a>
+<a href='/use/'><img src="/src/public-galaxy-servers/70PlusSlide.png" alt="70+ Public Galaxy Servers" width="160" /></a>
 </div>
 
 # New Public Galaxy Servers
 
-July was a banner month, with the addition of [5 new publicly accessible Galaxy servers](/src/use/index.md), bringing the list of public servers to *over 70*.
+July was a banner month, with the addition of [5 new publicly accessible Galaxy servers](/use/), bringing the list of public servers to *over 70*.
 
 1. **[AB-OpenLab FROG](http://ab-openlab.csir.res.in/frog/)**, from  [CSIR- GENESIS: Genomics and Informatics Solutions for Integrating Biology](http://crdd.osdd.net/genesis/genome.html)
   * **F**inge**R**printing **O**ntology of **G**enomic variations: *FROG* fingerprints capture genomic variations at different levels.  See [the FROG server description](/src/use/ab-openlab/index.md) for more.
@@ -392,19 +392,19 @@ Galaxy now has a formal and open policy for managing the project source code - i
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
 
 <br />
 
-Three new **[Community Log Board](/src/blog/index.md)** entries were added in July:
+Three new **[Community Log Board](/blog/)** entries were added in July:
 
 * **[Moving from MySQL to PostgreSQL](/src/blog/2015-07-mysql-2-postgresql/index.md)**
     by [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
@@ -439,7 +439,7 @@ You may have noticed in the past two months that an [updated Galaxy logo](/src/i
 
 ## BioBlend 0.6.0 and 0.6.1
 
-[BioBlend versions 0.6.0 and 0.6.1](https://github.com/galaxyproject/bioblend/blob) were released in June and July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md)([CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
+[BioBlend versions 0.6.0 and 0.6.1](https://github.com/galaxyproject/bioblend/blob) were released in June and July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md)([CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
 
 * BioBlend.objects: Rename `ObjDatasetClient` abstract class to `ObjDatasetContainerClient`.
 * BioBlend.objects: Add `ABCMeta` metaclass and `list()` method to `ObjClient`.
@@ -488,7 +488,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
  **Pulsar**
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
- **[CloudMan](/src/cloudman/index.md) **
+ **[CloudMan](/cloudman/) **
    The [most recent edition of CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**

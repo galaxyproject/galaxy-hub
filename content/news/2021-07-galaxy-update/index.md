@@ -104,11 +104,11 @@ An agricultural cooperative held by French farmers, and an international seed gr
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
-[Galaxy Career Center](/src/careers/index.md)
+[Galaxy Career Center](/careers/)
 
 </div>
 
-There are new positions in the [Galaxy Career Center](/src/careers/index.md), in the Netherlands, the United Kingdom, and in the United States.  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There are new positions in the [Galaxy Career Center](/careers/), in the Netherlands, the United Kingdom, and in the United States.  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
 
@@ -134,7 +134,7 @@ Open Life Science (OLS) is an online mentoring & training program to help indivi
 
 Did we mention that the [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) is under way?  Just checking...
 
-But even something as universe-spanning as GCC doesn't suck up all the oxygen in the Galaxy Community. Here are some other [upcoming events highlights](/src/events/index.md):
+But even something as universe-spanning as GCC doesn't suck up all the oxygen in the Galaxy Community. Here are some other [upcoming events highlights](/events/):
 
 <div class="card-deck">
 
@@ -219,7 +219,7 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -228,7 +228,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />

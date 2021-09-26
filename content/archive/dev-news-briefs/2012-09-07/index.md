@@ -19,14 +19,14 @@ date: 2012-09-07
 <br />
 # BLAST+ Migration
 
-The tool set **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the Galaxy distribution to the Galaxy Main **[Tool Shed](/src/toolshed/index.md)**.
+The tool set **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the Galaxy distribution to the Galaxy Main **[Tool Shed](/toolshed/)**.
 
-Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing **BLAST** (and **blastxml**) from the **[Tool Shed](/src/toolshed/index.md)**.
+Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing **BLAST** (and **blastxml**) from the **[Tool Shed](/toolshed/)**.
 
 <br />
 # Reference Genome rsync Server
 
-If you would like to obtain the same *reference genome builds and indexes* as available on the public **Galaxy [Main](/src/main/index.md)** instance, these can retrieved from the rsync server at:
+If you would like to obtain the same *reference genome builds and indexes* as available on the public **Galaxy [Main](/main/)** instance, these can retrieved from the rsync server at:
 ```
 datacache.g2.bx.psu.edu
 ```
@@ -57,7 +57,7 @@ As reported in the *[July 20th, 2012 News Brief](/src/archive/dev-news-briefs/20
     * One benefit is that **BAM** results can be used as input to **[Cufflinks](http://cufflinks.cbcb.umd.edu/)** without an [intermediate sorting step](http://main.g2.bx.psu.edu/u/jeremy/p/transcriptome-analysis-faq#faq2).
     * *NOTE:* If you are using an older version of *Bowtie* or uploading your own results, sorting is still required before running *Cufflinks*, whether in [SAM](/src/learn/datatypes/index.md#sam) or [BAM](/src/learn/datatypes/index.md#bam) format.
 * *New*
-  * **[Galaxy RNA-seq Analysis Exercise](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise)** on [Main](/src/main/index.md)
+  * **[Galaxy RNA-seq Analysis Exercise](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise)** on [Main](/main/)
     * Walks through sample protocol step-by-step using paired-end data, initial read QC through **[CuffDiff](http://cufflinks.cbcb.umd.edu/)** analysis
     * Includes **[iGenomes](http://tophat.cbcb.umd.edu/igenomes.html)** sourced **[reference annotation GTF](http://tophat.cbcb.umd.edu/igenomes.html)**, an answer key, and bonus resources 
 
@@ -69,7 +69,7 @@ As reported in the *[July 20th, 2012 News Brief](/src/archive/dev-news-briefs/20
 * *New*
   * Addition of **interactive phylogenetic tree visualization**.
 
-</div><a href='/src/learn/index.md'><img src="/src/images/news-graphics/2012_09_07_interactive-phylo-tree.png" alt="interactive-phylo-tree" width=800 /></a></div>
+</div><a href='/learn/'><img src="/src/images/news-graphics/2012_09_07_interactive-phylo-tree.png" alt="interactive-phylo-tree" width=800 /></a></div>
 
 <br />
 # Galaxy Track Browser (GTB)
@@ -114,7 +114,7 @@ $ sh run.sh --daemon/sh run.sh --stop-daemon
 <br />
 # Tool Shed
 
-[Tool Shed](/src/toolshed/index.md)
+[Tool Shed](/toolshed/)
 * *Fixes*
   * Several miscellaneous fixes for using a **[SQLite](http://www.sqlite.org/)** database with a local tool shed.
   * It is no longer possible to change the name of a repository in the tool shed at during the time when the repository is first being cloned.
@@ -143,23 +143,23 @@ Now the above entry still works, but the following entry is also ok (notice the 
   * The implementation for importing proprietary datatype class modules included in a tool shed repository now supports class module files whose name conflicts with a **[Python](http://www.python.org/)** standard library module name.  For example, if a proprietary datatype class module is named `xml.py`, it will now be correctly imported even though the name conflicts with the Python standard library's xml module.
   * The repository tip is now displayed in a column that is separate from the repository's installable changeset revisions in the tool shed.
 
-<a href='/src/toolshed/index.md'><img src="/src/images/news-graphics/2012_09_07_repository-grid.png" alt="repository-grid.png" /></a>
+<a href='/toolshed/'><img src="/src/images/news-graphics/2012_09_07_repository-grid.png" alt="repository-grid.png" /></a>
 
 * Additional information has been added to the "Tool metadata" page, which is displayed when you choose the "View tool metadata" option from a tool's pop-up menu.  This menu is available in 2 locations: when viewing the repository in a tool shed, and when viewing a repository (which includes tools) that has been installed into a local Galaxy instance.  The additional information added to the Tool metadata page includes:
   * information about tool dependencies if they have been defined in the repository
   * requirements defined in the tool config `<requirements>` tag set
   * The tool's version lineage information, an example of which is shown here for a sample tool named **Filter**
 
-<a href='/src/toolshed/index.md'><img src="/src/images/news-graphics/2012_09_07_view-tool-metadata-page.png" alt="view-tool-metadata-page.png" /></a>
+<a href='/toolshed/'><img src="/src/images/news-graphics/2012_09_07_view-tool-metadata-page.png" alt="view-tool-metadata-page.png" /></a>
 
 * In addition to browsing repositories that you own, you can now also browse repositories for which you have been granted "write" permission.  Here is a snapshot of the new Galaxy tool shed menu.
 
-<a href='/src/toolshed/index.md'><img src="/src/images/news-graphics/2012_09_07_toolshed-menu.png" alt="toolshed-menu.png" /></a>
+<a href='/toolshed/'><img src="/src/images/news-graphics/2012_09_07_toolshed-menu.png" alt="toolshed-menu.png" /></a>
 
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div> 
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div> 
 * *General*
   * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/src/archive/dev-news-briefs/2012-01-27/index.md#run-cluster-jobs-as-the-real-user).
   * Galaxy will no longer try to modify permissions of [linked library uploads](/src/admin/Data Libraries/Uploading Library Files/index.md).
@@ -187,7 +187,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 <br />
 # Announcements
 
-[News](/src/news/index.md), *[August](/src/galaxy-updates/2012-09/index.md)* and *[September](/src/galaxy-updates/2012-09/index.md)* *2012 Galaxy Updates*
+[News](/news/), *[August](/src/galaxy-updates/2012-09/index.md)* and *[September](/src/galaxy-updates/2012-09/index.md)* *2012 Galaxy Updates*
 
 <div class='right'><a href='/src/galaxy-updates/2012-09/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width=150 /></a></div>
 
@@ -223,7 +223,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it the next [Galaxy Update](/src/galaxy-updates/index.md) and [News Brief](/src/docs/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it the next [Galaxy Update](/src/galaxy-updates/index.md) and [News Brief](/docs/).
 <br />
 <br />
 ----

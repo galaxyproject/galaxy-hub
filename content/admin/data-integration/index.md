@@ -4,7 +4,7 @@
 
 Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see: **[Data Managers Overview](/src/admin/tools/data-managers/index.md)** and our **[Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)**.
 
-Built-in data files are critical for many Galaxy tools. This page will describe how to get data into your local instance of Galaxy in a general way. For instructions specific for organizing and indexing data for use with tools, see **[Data Preparation](/src/admin/data-preparation/index.md)**. Additional instructions are available for reviewing or retrieving the exact data hosted on the public [Main](/src/main/index.md) instance or for performing more complex data prep used by specific tool groups.
+Built-in data files are critical for many Galaxy tools. This page will describe how to get data into your local instance of Galaxy in a general way. For instructions specific for organizing and indexing data for use with tools, see **[Data Preparation](/src/admin/data-preparation/index.md)**. Additional instructions are available for reviewing or retrieving the exact data hosted on the public [Main](/main/) instance or for performing more complex data prep used by specific tool groups.
 
 - Review or retrieve [https://usegalaxy.org](https://usegalaxy.org) reference genomes, indexes, and loc files. All methods are described at http://datacache.galaxyproject.org/, with more rsync server help at **[Usegalaxy.org Rsync](/src/admin/use-galaxy-rsync/index.md)** 
 - "Fetch Alignment" tools data prep: **[Reference MAFs](/src/admin/reference-mafs/index.md)** 
@@ -21,7 +21,7 @@ First you need to determine what type of data you need. Usually these are `.fast
 
 There are several ways to get the data. If you don't already have the right file on your system, you will need to get it from a site such as [UCSC](http://hgdownload.soe.ucsc.edu/downloads.html).
 
-Or, if you would like to obtain the data as available on the public Galaxy [Main](/src/main/index.md) instance, these can retrieved from the rsync server. Read more here: **[Rsync](/src/admin/use-galaxy-rsync/index.md)**
+Or, if you would like to obtain the data as available on the public Galaxy [Main](/main/) instance, these can retrieved from the rsync server. Read more here: **[Rsync](/src/admin/use-galaxy-rsync/index.md)**
 
 ### Set up the loc file
 
@@ -79,7 +79,7 @@ Also see the **[Rsync](/src/admin/use-galaxy-rsync/index.md)** wiki if you want 
 
 Final and most important item needed is to include any new reference genomes in the builds.txt file. This is the list of reference genomes appear in the Genome or Database/Build search box when you upload a file or change a file's metadata (Where to find these? See the Rsync link directly above for screenshots).
 
-To modify the builds.txt file, add a line to `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` for your genome. The format of this line can vary, but should contain enough information to uniquely identify the genome, the source, any external build nomenclature, and the **dbkey** selected for use within your [Galaxy](/src/admin/get-galaxy/index.md) instance. See the public [Main](/src/main/index.md) server for examples: [https://usegalaxy.org](https://usegalaxy.org)
+To modify the builds.txt file, add a line to `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` for your genome. The format of this line can vary, but should contain enough information to uniquely identify the genome, the source, any external build nomenclature, and the **dbkey** selected for use within your [Galaxy](/src/admin/get-galaxy/index.md) instance. See the public [Main](/main/) server for examples: [https://usegalaxy.org](https://usegalaxy.org)
 
 ### Restart the server
 

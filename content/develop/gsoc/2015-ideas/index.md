@@ -149,7 +149,7 @@ The Galaxy proteomics community maintains Galaxy tools for [building PeptideShak
 **Expected Outcomes**
 
 * Modify PeptideShaker to allow it to listen on a port for a URL to a file to open (like IGV)
-* Create a [Interactive Environments](https://wiki.galaxyproject.org/Admin/IEs) plugin for PeptideShaker. Existing IE plugins have targeted web applications like IPython - but more traditional desktop applications should be exportable via [https://kanaka.github.io/noVNC/](/src/noVNC/index.md).
+* Create a [Interactive Environments](https://wiki.galaxyproject.org/Admin/IEs) plugin for PeptideShaker. Existing IE plugins have targeted web applications like IPython - but more traditional desktop applications should be exportable via [https://kanaka.github.io/noVNC/](/noVNC/).
 
 **Stretch Goals**
 
@@ -335,7 +335,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 
 ## Public Galaxy Server Tools Registry and Search
 
-There are [over 60 publicly accessible Galaxy servers](/src/use/index.md), each with their own set of tools.  This project would implement a registry/search interface for tools on all publicly accessible servers that could be used to locate a tool on any of those servers.  This could be done in any number of ways, including push and pull methods.
+There are [over 60 publicly accessible Galaxy servers](/use/), each with their own set of tools.  This project would implement a registry/search interface for tools on all publicly accessible servers that could be used to locate a tool on any of those servers.  This could be done in any number of ways, including push and pull methods.
 
 The Galaxy Tool bar search could additionally be modified to to show an item at the bottom of the matching tools to say something like
 

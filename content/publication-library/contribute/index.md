@@ -102,7 +102,7 @@ discuss your ideas.
 
 ## Add Platform Resource tags (">") if relevant
 
-If the publication is about, uses, or references a [public Galaxy platform](/src/use/index.md), then please add a tag for that.  Note that since there are over 100
+If the publication is about, uses, or references a [public Galaxy platform](/use/), then please add a tag for that.  Note that since there are over 100
 public platforms, you might also be creating the tag when add it.
 
 ## Watch for duplicates

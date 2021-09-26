@@ -55,7 +55,7 @@ The [GalaxyAdmins](/src/community/galaxy-admins/meetups/index.md) group has bi-m
 * 2014/06/30-2014/07/02: [GalaxyAdmins BoF](/src/events/gcc2014/bofs/galaxy-admins/index.md) at [GCC2014](/src/events/gcc2014/index.md)
   *  Meet in person at [GCC2014](/src/events/gcc2014/index.md) to discuss [the future of GalaxyAdmins](/src/community/galaxy-admins/future/index.md).
 * [2013-11-20 Web Meetup](/src/community/galaxy-admins/meetups/2013-11-20/index.md)
-  *  GCC2013 discussion followup, and [Main](/src/main/index.md) moves to TACC.
+  *  GCC2013 discussion followup, and [Main](/main/) moves to TACC.
 
 **2013**
 

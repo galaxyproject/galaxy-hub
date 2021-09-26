@@ -6,7 +6,7 @@ date: "2011-12-08"
 <a href='http://evomics.org/workshops/galaxy-developer-workshop/'><img src="/src/images/photos/CeskyKrumlov.jpg" alt="Galaxy Developer Workshop" height="70" /></a>&nbsp;&nbsp;<a href='/src/events/pag2012/index.md'><img src="/src/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2012)" height="75" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.nowgen.org.uk/facilities/events/event.php?id=30'><img src="/src/images/logos/nowgenLogo180.png" alt="Reproducible workflows for next generation sequencing analysis" /></a>&nbsp;&nbsp;&nbsp;<a href='http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html'><img src="/src/images/logos/DDBJLogo.png" alt="DDBJ" /></a>
 </div>
 
-The January [Events](/src/events/index.md) list is going out a little early this month, mainly because of a *December 15 application deadline for the [Galaxy Developer Workshop in the Czech Republic](http://evomics.org/workshops/galaxy-developer-workshop/)*.  If you have a Galaxy related event please send it to [outreach AT  galaxyproject DOT org](mailto:outreach AT  galaxyproject DOT org) and we will help you get the word out. 
+The January [Events](/events/) list is going out a little early this month, mainly because of a *December 15 application deadline for the [Galaxy Developer Workshop in the Czech Republic](http://evomics.org/workshops/galaxy-developer-workshop/)*.  If you have a Galaxy related event please send it to [outreach AT  galaxyproject DOT org](mailto:outreach AT  galaxyproject DOT org) and we will help you get the word out. 
 
 There are Galaxy-related events on (at least) 3 continents next month:
 

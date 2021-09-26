@@ -9,7 +9,7 @@ Welcome to the February 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a 
 
 # Events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months, including *large regional meetings in Europe and Africa.*
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months, including *large regional meetings in Europe and Africa.*
 
 ## GCCBOSC 2018 Training Topic Voting Closes Jan 31
 
@@ -227,10 +227,10 @@ Plenty of materials for Galaxy administration are now [up to date and available 
 # New Galactic Blog Entry: Galaxy R Markdown Tools
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/src/blog/index.md)
+[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
 </div>
 
-January saw one new *[Galactic Blog](/src/blog/index.md)* entry:
+January saw one new *[Galactic Blog](/blog/)* entry:
 
 * [Galaxy R Markdown Tools](https://github.com/statonlab/galaxy-r-markdown-tools), by Ming Chen
 
@@ -275,13 +275,13 @@ The Galaxy is expanding! Please help it grow.
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them last month, including two new public servers:
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them last month, including two new public servers:
 
 [<img class="float-right" src="/src/use/archive/a-game/agame-logo.png" alt="A-Game" width="150" />](http://beaconlab.it/agame)
 

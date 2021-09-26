@@ -40,7 +40,7 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 </div>
 <div class="card-header">Share your favorite James Taylor story</div>
 
-It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a video that will be prominently featured on all Galaxy-related sites.
+It's been a year since [James Taylor](/jxtx/) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a video that will be prominently featured on all Galaxy-related sites.
 
 Here is what we will need you to do before April 30:
 
@@ -62,11 +62,11 @@ Thank you all in advance and please feel free to invite other friends of James t
 <img class="card-img-top" src="/src/jxtx/james-at-gcc2019-stripe.jpg" alt="James Taylor" />
 <div class="card-header">
 
-[A note to James, one year after his passing](/src/jxtx/index.md)
+[A note to James, one year after his passing](/jxtx/)
 
 </div>
 
-The project leadership marked the one year anniversary of James's passing with [a letter to him](/src/jxtx/index.md) summarizing the year he missed.  It starts with
+The project leadership marked the one year anniversary of James's passing with [a letter to him](/jxtx/) summarizing the year he missed.  It starts with
 
   "What a year. It was difficult."
 
@@ -174,7 +174,7 @@ Interested?  Please review the [Galaxy project proposals](http://gmod.org/wiki/G
 
 # Event News
 
-Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/src/events/index.md). Some highlights:
+Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/events/). Some highlights:
 
 <div class="card-deck">
 
@@ -332,7 +332,7 @@ Savoir rechercher des informations dans les banques de données. Maîtriser les 
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -381,7 +381,7 @@ We asked the submitter for some background on what research they were doing. We 
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 

@@ -175,7 +175,7 @@ Next, let's add ourselves (NOTE: not the galaxy user) as administrator to what w
 Most of the changes to `universe_wsgi.ini` can be done using the above steps: search for a line, change or un/comment
 it out, and save (optionally restarting the server afterwards - shown later).
 
-(for more information and another example see: [Admin/Interface](/src/admin/index.md))
+(for more information and another example see: [Admin/Interface](/admin/))
 
 
 <br />
@@ -341,7 +341,7 @@ Of course, you can change this later to suit your lab or your needs.
 
 The final change we'll make before we log in is to uncomment and add a tool dependency directory in the
 `universe_wsgi.ini` file. This is a directory that will store the programs that Galaxy tools rely on to function as
-we'll see later in [Tools](/src/tools/index.md):
+we'll see later in [Tools](/tools/):
 ```ini
 tool_dependency_dir = ../tool_dependencies
 ```
@@ -488,7 +488,7 @@ Here you'll see a page where you can:
 * Manage data libraries: commonly used datasets that can be copied quickly by users
 * Create, delete, and manage users as well as: separate them into groups, give them roles, and set data limit quotas
 
-(for more information on other admin options, see: [Admin/Interface](/src/admin/index.md))
+(for more information on other admin options, see: [Admin/Interface](/admin/))
 
 
 <br />
@@ -615,7 +615,7 @@ created from there.
 [Galaxy main tool shed](http://toolshed.g2.bx.psu.edu/)
 [Galaxy test tool shed](http://testtoolshed.g2.bx.psu.edu/)
 [Public tool sheds](/src/toolshed/public-toolsheds/index.md)
-See also the comprehensive documentation on Tool Sheds here: [ToolShed](/src/toolshed/index.md);
+See also the comprehensive documentation on Tool Sheds here: [ToolShed](/toolshed/);
 
 
 #### Installing a tool from a Tool Shed
@@ -917,13 +917,13 @@ The following are great places to start when trouble shooting or planning an exp
 
 ### Galaxy
 
-1. A [custom Google search](/src/search/index.md) is available to search all things Galaxy
+1. A [custom Google search](/search/) is available to search all things Galaxy
   including: this hub, mailing lists, our biostar site, Galaxy's code documentation, and even the data on our Main
   public server.
 2. [The Galaxy Biostar](https://biostar.galaxyproject.org/) (now [help.galaxyproject.org](https://help.galaxyproject.org/)) site is a Q&A site designed on Istvan Albert's original
   [Biostars](http://www.biostars.org) site.
 3. Our Trello board (now replaced by [GitHub issues](https://github.com/galaxyproject/galaxy/issues)), which can be used to track our development and allows you to vote on our priorities.
-4. A Wiki page for all support resources is here: [Support](/src/support/index.md).
+4. A Wiki page for all support resources is here: [Support](/support/).
 
 ### Unix System Administration
 

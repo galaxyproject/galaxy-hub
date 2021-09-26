@@ -409,7 +409,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> The <a href='/src/toolshed/index.md'>Galaxy Tool Shed</a> is a place for the Galaxy community to share useful Galaxy utilities.  Galaxy utilities are functionally correct Galaxy tools (including the new specialized Data Manager tools), custom Galaxy datatypes, 3rd-party tool dependency definitions, simple and complex repository dependency definitions and exported Galaxy workflows.  All of these Galaxy utilities will be discussed in detail in this workshop.  This workshop includes discussions about tool dependency and repository dependency definitions, but excludes discussions about developing new tools, custom datatypes or Galaxy workflows. </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> The <a href='/toolshed/'>Galaxy Tool Shed</a> is a place for the Galaxy community to share useful Galaxy utilities.  Galaxy utilities are functionally correct Galaxy tools (including the new specialized Data Manager tools), custom Galaxy datatypes, 3rd-party tool dependency definitions, simple and complex repository dependency definitions and exported Galaxy workflows.  All of these Galaxy utilities will be discussed in detail in this workshop.  This workshop includes discussions about tool dependency and repository dependency definitions, but excludes discussions about developing new tools, custom datatypes or Galaxy workflows. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
