@@ -27,7 +27,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 # The Galaxy Platforms Directory
 
-[<img src="/src/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="400" />](/use/>)
+[<img src="/src/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="400" />](/use/)
 
 We are pleased to announce the new [Galaxy Platform Directory](/use/).  This directory lists 125 platforms where you can use or deploy your own Galaxy Server with minimal effort, including
 

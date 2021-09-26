@@ -4,7 +4,7 @@ tease: "Use/launch a Galaxy server, right now"
 date: "2018-10-22"
 ---
 
-[<img src="/src/use/use-resource-banner.png" class="img-fluid" alt="125+ platforms to use Galaxy on">](/use/>)
+[<img src="/src/use/use-resource-banner.png" class="img-fluid" alt="125+ platforms to use Galaxy on">](/use/)
 
 We are pleased to announce the **[new Galaxy Platform Directory](/use/)** for
 
