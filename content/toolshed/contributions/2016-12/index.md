@@ -1,7 +1,7 @@
 ---
 ---
 * [Wiki Root](/toolshed/)
-* [All monthly summaries](/src/toolshed/contributions/index.md)
+* [All monthly summaries](/toolshed/contributions/)
 
 # Tools
 * *From [davidvanzessen](https://toolshed.g2.bx.psu.edu/view/davidvanzessen):*

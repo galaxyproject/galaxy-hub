@@ -52,7 +52,7 @@ A number of notable videos and video collections have recently been published:
 * **[Galactic Introductions](https://youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)**
   * Covers a wide range of galaxy features.  Videos range from 24 seconds (History: Sharing via link) to 12 and half minutes (Galaxy and NGS)
 * **[Developer resources](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=7)**
-  * Includes [Developer Quick Dives](https://youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n), short videos introducing common tasks in Galaxy development; and [Galaxy Developer Roundtables](https://youtube.com/playlist?list=PLNFLKDpdM3B-j7cdWzG3Qh5609fZK4fvO), recordings of the bi-weekly [Galaxy Developer Roundtable](/src/community/devroundtable/index.md) calls.
+  * Includes [Developer Quick Dives](https://youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n), short videos introducing common tasks in Galaxy development; and [Galaxy Developer Roundtables](https://youtube.com/playlist?list=PLNFLKDpdM3B-j7cdWzG3Qh5609fZK4fvO), recordings of the bi-weekly [Galaxy Developer Roundtable](/community/devroundtable/) calls.
 * **[Webinars & Workshops](https://youtube.com/playlist?list=PLNFLKDpdM3B8beIdQKVP8zES47v5rooQm)**
   * Recordings of Galaxy Webinars and Workshops are spread across the web.  This playlist attempts to list recent webinars that we know about that are on YouTube.  This list is brand new and is rapidly expanding.
 * **[Community](https://youtube.com/playlist?list=PLNFLKDpdM3B-IT4cyNMHcQFLmxdDS8YKm)**
@@ -63,11 +63,11 @@ A number of notable videos and video collections have recently been published:
 <!-- Governance  -->
 <div class="card border-info" style="min-width: 40%; max-width: 100%">
 <img class="card-img-top" src="/src/community/governance/governance-slice.png" alt="Galaxy Governance" />
-<div class="card-header">[Working Groups](/src/community/wg/index.md) and the [draft Galaxy Governance Model](/src/community/governance/index.md)</div>
+<div class="card-header">[Working Groups](/community/wg/) and the [draft Galaxy Governance Model](/community/governance/)</div>
 
-In December, Galaxy introduced [Working Groups](/src/community/wg/index.md), community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks. Working Groups were launched in late 2020.  *If you want to contribute to Galaxy in a big way, please join one or more Working Groups.* 
+In December, Galaxy introduced [Working Groups](/community/wg/), community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks. Working Groups were launched in late 2020.  *If you want to contribute to Galaxy in a big way, please join one or more Working Groups.* 
 
-This month we are introducing the first draft of a [Galaxy Governance Model](/src/community/governance/index.md) that includes Working Groups as a key component.  The model also includes the new [Galaxy Exec](/src/community/exec/index.md), the [Global Galaxy Steering Committee](/src/community/steering/index.md), and incorporates the longstanding [Committers Groups](/src/community/committers/index.md).
+This month we are introducing the first draft of a [Galaxy Governance Model](/community/governance/) that includes Working Groups as a key component.  The model also includes the new [Galaxy Exec](/community/exec/), the [Global Galaxy Steering Committee](/community/steering/), and incorporates the longstanding [Committers Groups](/community/committers/).
 
 Our hope is that this framework will enable us to become a truly global community.
 </div>
@@ -163,9 +163,9 @@ The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Gal
 
 <!-- Papercuts awards -->
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[January Papercuts Award Winners](/src/news/2021-02-papercuts-awards/index.md)</div>
+<div class="card-header">[January Papercuts Award Winners](/news/2021-02-papercuts-awards/)</div>
 
-The [January Papercuts CoFest](/src/events/2021-01-papercuts/index.md) offered prizes for 10 randomly selected contributors. The winners are:
+The [January Papercuts CoFest](/events/2021-01-papercuts/) offered prizes for 10 randomly selected contributors. The winners are:
 
 * Catherine Bromhead, University of Melbourne
 * Helena Rasche, ErasmusMC
@@ -225,7 +225,7 @@ With this series of four [webinars](https://elixir-europe.org/events/galaxy-elix
 <img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 <div class="card-header">[GCC2021 Update](https://www.vibconferences.be/events/gcc2021)</div>
 
-**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
+**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/news/2021-02-gcc-virtual/).**
 
 *GCC2021 will start on 28 June with a [week of online training](https://galaxyproject.org/events/gcc2021/training/).* Training will largely use the GTN Smörgåsbord model: Lectures will be prerecorded, with live help available on chat for the duration of the week.  This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
 
@@ -263,22 +263,22 @@ This workshop is open to everybody interested in Galaxy and has two independent 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
-<div class="card-header">[March Papercuts CoFest](/src/events/2021-03-papercuts/index.md)</div>
+<div class="card-header">[March Papercuts CoFest](/events/2021-03-papercuts/)</div>
 
 **18 March, Online, Global**
 
-Please join us for the [6th Papercuts CoFest day on March 18](/src/events/2021-03-papercuts/index.md) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+Please join us for the [6th Papercuts CoFest day on March 18](/events/2021-03-papercuts/) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 </div>
 
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
+<div class="card-header">[Galaxy Developer Roundtable](/community/devroundtable/)</div>
 
 There next roundtable meetup will be:
 
-**[March 18: Bringing GPU support to Galaxy](/src/events/2021-03-18-dev-roundtable/index.md)**, Jashwant Raj and Gulsum Gudukbay will discuss the integration of GPU Resources in Galaxy for accelerating tool executions.
+**[March 18: Bringing GPU support to Galaxy](/events/2021-03-18-dev-roundtable/)**, Jashwant Raj and Gulsum Gudukbay will discuss the integration of GPU Resources in Galaxy for accelerating tool executions.
 
 </div>
 
@@ -314,7 +314,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <!-- ASaiM -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[ASaiM](/src/use/asaim/index.md)</div>
+<div class="card-header">[ASaiM](/use/asaim/)</div>
 
 ASaiM integrates and hierarchically organizes metagenomic and metatranscriptomic tools to orient user choice toward the best tool for a given task. It now has a [new publication and new functionality](https://doi.org/10.12688/f1000research.28608.1) and the update is now available as [its own Docker image](https://quay.io/repository/bebatut/asaim-framework?tag=latest&tab=tags), and on [UseGalaxy.eu](https://usegalaxy.eu/) too.
 
@@ -324,7 +324,7 @@ ASaiM integrates and hierarchically organizes metagenomic and metatranscriptomic
 
 <!-- immuneML -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[immuneML](/src/use/immuneml/index.md)</div>
+<div class="card-header">[immuneML](/use/immuneml/)</div>
 
 immuneML is an open-source collaborative ecosystem for machine learning-based (ML) analyses of adaptive immune [receptors](https://docs.immuneml.uio.no/galaxy/galaxy_simple_receptors.html) and [repertoires](https://docs.immuneml.uio.no/galaxy/galaxy_simple_repertoires.html) (AIRR).  It comes with extensive help, and is supported by the University of Oslo.
 
@@ -335,7 +335,7 @@ immuneML is an open-source collaborative ecosystem for machine learning-based (M
 
 <!-- InteractoMIX -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[InteractoMIX](/src/use/interactomix/index.md)</div>
+<div class="card-header">[InteractoMIX](/use/interactomix/)</div>
 
 A [one-stop resource](http://galaxy.interactomix.com/) offering a wide range of computational analyses from proteome-wide interactomes to structure of protein complexes.  Includes [shared workflows](http://galaxy.interactomix.com/workflows/list_published) and supports anonymous use.
 
@@ -513,7 +513,7 @@ In this second edition, and for six consecutive weeks, speakers from all around 
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -589,7 +589,7 @@ Rajczewski, A. T., Mehta, S., Nguyen, D. D. A., Grüning, B. A., Johnson, J. E.,
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
 <div class="card-header">Galaxy 21.01</div>
 
-We are pleased to [announce the 21.01 Galaxy release](/src/news/2021-03-galaxy-release-21-01/index.md).  As the announcement says:
+We are pleased to [announce the 21.01 Galaxy release](/news/2021-03-galaxy-release-21-01/).  As the announcement says:
 
 <blockquote class="blockquote">
 **Workflows are the absolute ✨star✨ of Galaxy v21.01**

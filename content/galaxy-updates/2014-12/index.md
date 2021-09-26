@@ -33,11 +33,11 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 
 ## Intro to Galaxy Workshop, Dec 12, Virginia State U
 
-<div class='left'><a href='/src/events/vsu2014/index.md'><img src="/src/images/logos/VSULogo.jpg" alt="Virginia State University" width="125" /></a></div>
+<div class='left'><a href='/events/vsu2014/'><img src="/src/images/logos/VSULogo.jpg" alt="Virginia State University" width="125" /></a></div>
 
-If you are anywhere close to Richmond, Virginia and you want to attend an [Introduction to Galaxy Workshop](/src/events/vsu2014/index.md), then you are in luck. Thanks to sponsorship from the [College of Natural and Health Sciences](http://www.cnhs.vsu.edu/index.php) at [Virginia State University](http://vsu.edu/), the workshop is free and open to all researchers and students.  The [workshop](/src/events/vsu2014/index.md) is split into morning and afternoon sessions.  No knowledge of programming or command line interfaces is required.
+If you are anywhere close to Richmond, Virginia and you want to attend an [Introduction to Galaxy Workshop](/events/vsu2014/), then you are in luck. Thanks to sponsorship from the [College of Natural and Health Sciences](http://www.cnhs.vsu.edu/index.php) at [Virginia State University](http://vsu.edu/), the workshop is free and open to all researchers and students.  The [workshop](/events/vsu2014/) is split into morning and afternoon sessions.  No knowledge of programming or command line interfaces is required.
 
-However, space is limited, so you are encouraged to register ***[right now](/src/events/vsu2014/index.md)***.
+However, space is limited, so you are encouraged to register ***[right now](/events/vsu2014/)***.
 
 ## GCC2015: 6-8 July, Norwich UK
 
@@ -63,7 +63,7 @@ Please start giving some thought to what topics you would like to see covered at
 
 <div class='center'> 
 <a href='http://www.ifb-galaxy.org/GALAXYDAYS2014.html'><img src="/src/images/logos/GalaxyIFB.png" alt="Galaxy Day" width="140" /></a>&nbsp;
-<a href='/src/events/vsu2014/index.md'><img src="/src/images/logos/VSULogo.jpg" alt="Intro to Galaxy Workshop at Virginia State University" height="70" /></a>
+<a href='/events/vsu2014/'><img src="/src/images/logos/VSULogo.jpg" alt="Intro to Galaxy Workshop at Virginia State University" height="70" /></a>
 <a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src="/src/images/logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2015)" height="80" /></a>
 <a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src="/src/images/logos/SupAgroMontpelierLogo.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" height="60" /></a>
 </div>
@@ -99,7 +99,7 @@ There are [upcoming events](/events/) on two continents.  See the [Galaxy Events
   </tr>
   <tr>
     <th> December 12 </th>
-    <td> <em><a href='/src/events/vsu2014/index.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/vsu2014/'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <a href='http://vsu.edu/'>Virginia State University</a>, Petersburg, Virginia, United States </td>
     <td> <a href='http://sest.vsu.edu/biology/Faculty/harris.html'>Glenn Harris</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
@@ -229,10 +229,10 @@ The new papers covered these topics:
 The Galaxy is expanding! Please help it grow.
 
 * [Senior Development Engineer - Bioinformatics](http://it.ly/1yGvefn), and [Bioinformatician II](http://bit.ly/1vBhgxB), University of Massachusetts Medical School
-* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/src/news/bioinformatician-freiburg2014/index.md) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
+* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/news/bioinformatician-freiburg2014/) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
 * [Research Specialist](http://bit.ly/13pqd0T), Michigan State University, United States
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -333,9 +333,9 @@ The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community
 
 # New Releases
 
-[BioBlend v0.5.2 was released in October](/src/news/bio-blend-v0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  
+[BioBlend v0.5.2 was released in October](/src/news/bio-blend-v0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  
 
-New versions of [Galaxy](/src/galaxy-updates/2014-09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release), and [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/galaxy-updates/2014-09/#august-11-2014-galaxy-distribution), [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), and [blend4j](/galaxy-updates/2014-09/#blend4j-011-release) were all released in August.
 
 Look for a new Galaxy distribution soon.
 

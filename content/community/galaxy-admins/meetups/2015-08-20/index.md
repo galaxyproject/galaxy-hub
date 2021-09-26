@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 <div class='title'>2015-08-20 Web Meetup<br /><br />
 
 </div></div>
@@ -31,7 +31,7 @@
 
 <br />
 
-*[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 
 ## Genomic data management at Canada's National Microbiology Laboratory with IRIDA and Galaxy

@@ -5,9 +5,9 @@ external_url: ""
 date: "2021-02-24"
 ---
 
-[<img src="/src/events/2021-01-papercuts/papercuts-2021-01.png" class="float-left" style="max-width: 12rem;" alt="Papercuts" />](/src/events/papercuts/index.md)
+[<img src="/src/events/2021-01-papercuts/papercuts-2021-01.png" class="float-left" style="max-width: 12rem;" alt="Papercuts" />](/events/papercuts/)
 
-The [January Papercuts CoFest](/src/events/2021-01-papercuts/index.md) offered prizes for 10 randomly selected contributors from the event.
+The [January Papercuts CoFest](/events/2021-01-papercuts/) offered prizes for 10 randomly selected contributors from the event.
 
 We are pleased to announce that these contributors will receive a free calendar featuring 14 stunning and high-resolution pictures of living things from across the tree of life. The calendars also list several Galaxy events throughout the year.
 

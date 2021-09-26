@@ -30,7 +30,7 @@ Also starting with papers added this month, we are including tags provided by pu
 
 **Want to help?**
 
-Finally, Zotero is a community platform.  If you are interested in helping to catalog papers then please see the [contributing page](/src/publication-library/contribute/index.md).
+Finally, Zotero is a community platform.  If you are interested in helping to catalog papers then please see the [contributing page](/publication-library/contribute/).
 
 Thanks for using (and [mentioning and referencing](/citing-galaxy/) :-) Galaxy,
 

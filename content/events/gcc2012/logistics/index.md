@@ -7,11 +7,11 @@ title: Logistics
 
 <slot name="/events/gcc2012/linkbox" />
 
-Details on conference [location](/src/events/gcc2012/logistics/index.md#venue), [lodging](/src/events/gcc2012/logistics/index.md#lodging), and [transportation](/src/events/gcc2012/logistics/index.md#getting-there) are listed here.
+Details on conference [location](/events/gcc2012/logistics/#venue), [lodging](/events/gcc2012/logistics/#lodging), and [transportation](/events/gcc2012/logistics/#getting-there) are listed here.
 
 ## Venue
 
-The [2012 Galaxy Community Conference](/src/events/gcc2012/index.md) was held at the [UIC Forum](http://www.uicforum.uic.edu/) conference facility on the [University of Illinois Chicago campus](http://uic.edu/), located minutes from downtown Chicago.  The UIC Forum is at
+The [2012 Galaxy Community Conference](/events/gcc2012/) was held at the [UIC Forum](http://www.uicforum.uic.edu/) conference facility on the [University of Illinois Chicago campus](http://uic.edu/), located minutes from downtown Chicago.  The UIC Forum is at
 
 <table>
   <tr>
@@ -92,7 +92,7 @@ If you are driving to the meeting, see the [UIC Forum Parking and Directions](ht
 
 ## Meals
 
-A continental breakfast and lunch were provided on the [Training Day](/src/events/gcc2012/training-day/index.md), and [both days](/src/events/gcc2012/program/index.md) of the conference.
+A continental breakfast and lunch were provided on the [Training Day](/events/gcc2012/training-day/), and [both days](/events/gcc2012/program/) of the conference.
 
 The conference dinner was on July 25. The cost is included in registration. Guest dinner tickets may also be purchased when registering.
 

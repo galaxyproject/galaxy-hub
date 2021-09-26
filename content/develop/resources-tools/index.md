@@ -1,6 +1,6 @@
 ### Tool Development Resources
 
-* [A somewhat complete description](/src/admin/tools/tool-config-syntax/index.md) of tags used for in tool XML files.
+* [A somewhat complete description](/admin/tools/tool-config-syntax/) of tags used for in tool XML files.
 * A place to share your tools with the community: the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) - more information on [publishing tools to the ToolShed](/toolshed/).
 * [Planemo](https://planemo.readthedocs.org/en/latest/) a CLI tool to assist tool developer - easily lint, test, and preview your tools. ([Quick Start](https://planemo.readthedocs.org/en/latest/readme.html#quick-start), [Planemo on Github](https://github.com/galaxyproject/planemo))
 * [Tool Development Training Materials](https://github.com/Public-Health-Bioinformatics/galaxy-tool-tutorials) - from Hsiao lab, BC Public Health Microbiology & Reference Laboratory, BC Centre for Disease Control.
@@ -10,8 +10,8 @@
 * [What to do](/src/future/Job Failure When stderr/index.md) if Galaxy incorrectly reports that your tool failed to execute
 * [Best Practices](https://galaxy-iuc-standards.readthedocs.org/) for Tool Development
 * Discussions on [consuming](http://bit.ly/gcc2014workflows) and [producing](https://bitbucket.org/galaxy/galaxy-central/pull-request/634/allow-tools-to-explicitly-produce-dataset) collections of datasets in tools.
-* [A discussion](/src/admin/tools/multiple-output-files/index.md) on outputing multiple individual datasets
-* [Tips on writing secure tools](/src/develop/security-tool-tips/index.md).
+* [A discussion](/admin/tools/multiple-output-files/) on outputing multiple individual datasets
+* [Tips on writing secure tools](/develop/security-tool-tips/).
 * Tool conversion and generation efforts:
   * [argparse2tool](https://github.com/hexylena/argparse2tool) - a drop in replacement of Python's argparse to generate Galaxy tools by Helena Rasche.
   * A [discussion](https://groups.google.com/forum/#!searchin/common-workflow-language/galaxy/common-workflow-language/xa7HeDfIhw4/oAfg2Dk7ZHMJ) on converting common workflow language tool descriptions into Galaxy tools - with prototype by Peter Amstutz.

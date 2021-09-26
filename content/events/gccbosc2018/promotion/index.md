@@ -25,7 +25,7 @@ In one size fits all size:
 ## Project Logos
 
 * BOSC: [Github](https://github.com/OBF/bosc_materials/tree/master/logos), [Wiki](https://www.open-bio.org/wiki/Category:OBF_Logos)
-* [Galaxy](/src/images/galaxy-logos/index.md)
+* [Galaxy](/images/galaxy-logos/)
 
 # Slides
 

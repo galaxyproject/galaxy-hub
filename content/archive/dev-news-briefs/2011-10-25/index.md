@@ -25,8 +25,8 @@ date: 2011-10-25
 * Data and Job Quotas announced earlier today by email, Galaxy wiki, Twitter, and News Items/RSS feed.
   * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/mailing-lists/).
   * [Main](/main/) wiki with limits, FAQ, and related links.
-  * [Managing Datasets](/src/learn/managing-datasets/index.md) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
-  * [Disk Quotas](/src/admin/disk-quotas/index.md) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
+  * [Managing Datasets](/learn/managing-datasets/) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
+  * [Disk Quotas](/admin/disk-quotas/) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
   * Twitter [#galaxyproject](http://twitter.com/#galaxyproject).
   * [Galaxy News](/news/) Items and RSS feed.
 
@@ -68,8 +68,8 @@ date: 2011-10-25
 ### Galaxy Tool Shed
 
 <div class='left'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="toolshed" width="100px" /></a></div>
-* [Search repositories for valid tools by any combination of id, name or version](/src/toolshed/searching-the-toolshed/index.md#search-repositories-for-valid-tools-by-any-combination-of-id-name-or-version).
-* [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
+* [Search repositories for valid tools by any combination of id, name or version](/toolshed/searching-the-toolshed/#search-repositories-for-valid-tools-by-any-combination-of-id-name-or-version).
+* [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/admin/tools/add-tool-from-toolshed-tutorial/).
 * [Getting updates for tool shed repositories installed in a local Galaxy instance](/updating-installed-repositories/#getting-updates-for-tool-shed-repositories-installed-in-a-local-galaxy-instance).
 * Fixes for displaying file names that include spaces when browsing repository contents.
 
@@ -88,12 +88,12 @@ date: 2011-10-25
 * Update the *Text Manipulation -> Select random lines from a file* tool:
   * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets. 
   * the random seed can now be optionally specified. 
-* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/src/admin/tools/tool-config-syntax/index.md#a3ctest3e_tag_set) documentation.
+* New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/admin/tools/tool-config-syntax/#a3ctest3e_tag_set) documentation.
 
 ### Quotas and Data Management
 
 * Various performance and usability enhancements, as well as a fully implemented API for the quota system.
-* Documentation at [Disk Quotas](/src/admin/disk-quotas/index.md) and [Managing Datasets](/src/learn/managing-datasets/index.md).
+* Documentation at [Disk Quotas](/admin/disk-quotas/) and [Managing Datasets](/learn/managing-datasets/).
 * Purged histories were counting in users' disk usage calculations, this has been fixed, so you should rerun `galaxy-dist/scripts/set_user_disk_usage.py` to recalculate usages.
 * The time to load the list of saved histories should be greatly improved due to a more efficient query to calculate the sizes of histories in the list
 * It's now possible to purge all datasets in a history which are already deleted, as well as purge entire histories that are already deleted.

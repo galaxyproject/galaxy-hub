@@ -45,7 +45,7 @@ We will meet at 19 in Bertholdsbrunnen
 | 11:20 - 11:45 |  Matthias Bernt ([UFZ](http://www.ufz.de/)) |  *Establishing a Galaxy Server and building a Galaxy User Community from scratch. A field report from the UFZ Leipzig*  | [slides](https://depot.galaxyproject.org/hub/attachments/events/2018-europe-dev/egd-bernt.pdf)  |
 | 11:45 - 12:20 |  Geoffrey Nelson ([Harvard Medical School](https://hms.harvard.edu/)) |  *Refinery: a data management, analysis, and visualization platform using the Galaxy workbench* (plus Demo) | [slides](https://github.com/refinery-platform/refinery-platform/blob/gh-pages/presentations/EGD18.pdf)  |
 | 12:20 - 13:30 |  Lunch Break  |   |  |
-| 13:30 - 13:55 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  [Galaxy Community Conference 2019](/src/events/gcc2019/index.md) in Freiburg  | [slides](https://drive.google.com/file/d/1QCZlHf6JStExKnuqR0AY7PuS_400MhIT/view?usp=sharing)| 
+| 13:30 - 13:55 |  Anika Erxleben ([University of Freiburg](http://www.uni-freiburg.de/)) |  [Galaxy Community Conference 2019](/events/gcc2019/) in Freiburg  | [slides](https://drive.google.com/file/d/1QCZlHf6JStExKnuqR0AY7PuS_400MhIT/view?usp=sharing)| 
 | 13:55 - 14:20 |  Thomas Wollman ([BioQuant](https://www.bioquant.uni-heidelberg.de/)) |  *Galaxy Image Analysis: Web-based systematic phenotyping*  |    |
 | 14:20 - 14:45 |  Jochen Bick ([ETH Zurich](https://www.usys.ethz.ch/)) |  *Interactive plotting with ggplot and shiny in Galaxy*  |  [slides](https://depot.galaxyproject.org/hub/attachments/events/2018-europe-dev/interactive_plotting_with_ggplot_and_shiny_in_galaxy.pptx) |
 | 14:45 - 15:40 |   Coffee Break  |   |   |

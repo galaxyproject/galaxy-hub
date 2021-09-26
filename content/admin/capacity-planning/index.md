@@ -7,9 +7,9 @@ title: Galaxy Capacity Planning
 
 One of the recurring questions on the [Mailing Lists](/mailing-lists/) is
 
- . *How much computing power / disk space / network bandwidth / ... do I need to [set up my own Galaxy server](/src/admin/get-galaxy/index.md)?*
+ . *How much computing power / disk space / network bandwidth / ... do I need to [set up my own Galaxy server](/admin/get-galaxy/)?*
 
-There is no one set answer to this question.  It depends upon how many users you have, what your dataset sizes are, and what type of analyses your users will be doing.  The [GalaxyAdmins survey results](/src/community/galaxy-admins/surveys/index.md) are the best source of information.
+There is no one set answer to this question.  It depends upon how many users you have, what your dataset sizes are, and what type of analyses your users will be doing.  The [GalaxyAdmins survey results](/community/galaxy-admins/surveys/) are the best source of information.
 
 Note that Galaxy itself, and many of the basic tools, can run on an average or even older laptop.  However, to run computationally intensive tools such as mappers and assemblers, you will need some computational power behind it.
 

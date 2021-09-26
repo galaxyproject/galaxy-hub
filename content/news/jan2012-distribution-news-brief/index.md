@@ -2,7 +2,7 @@
 title: "January 20, 2012 Distribution & News Brief"
 date: "2012-01-20"
 ---
-**Complete [News Brief](/src/archive/dev-news-briefs/2012-01-20/index.md)**
+**Complete [News Brief](/archive/dev-news-briefs/2012-01-20/)**
 
 **Highlights:**
 

@@ -5,21 +5,21 @@
 <slot name="/events/gcc2013/bof/linkbox" />
 <slot name="/community/galaxy-admins/linkbox" />
 
-# [GalaxyAdmins](/src/community/galaxy-admins/index.md) BoF
+# [GalaxyAdmins](/community/galaxy-admins/) BoF
 
-<div class='left'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
-<a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
+<div class='left'><a href='/events/gcc2013/bof/'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
+<a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
 
-This page describes the **[GalaxyAdmins](/src/community/galaxy-admins/index.md)** [Birds of a Feather](/src/events/gcc2013/bof/index.md) meetup being held at [GCC2013](/src/events/gcc2013/index.md).
+This page describes the **[GalaxyAdmins](/community/galaxy-admins/)** [Birds of a Feather](/events/gcc2013/bof/) meetup being held at [GCC2013](/events/gcc2013/).
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/community/galaxy-admins/meetups/index.md) and at events like GCC2013, where a lot of us happen to be.
+[GalaxyAdmins](/community/galaxy-admins/) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/community/galaxy-admins/meetups/) and at events like GCC2013, where a lot of us happen to be.
 
-GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/src/community/galaxy-admins/future/index.md).  *This discussion has started in advance of GCC2013 as [this email thread](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/OYSHZXMDA72UD6LKDOCF636BKKGYEPIV/#MJNIDOKMJNQLAEES23UI5X6PIYPEHAWI).* 
+GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/community/galaxy-admins/future/).  *This discussion has started in advance of GCC2013 as [this email thread](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/OYSHZXMDA72UD6LKDOCF636BKKGYEPIV/#MJNIDOKMJNQLAEES23UI5X6PIYPEHAWI).* 
 
-We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF session.  That discussion and what we decide will be posted on the [GalaxyAdmins Future page](/src/community/galaxy-admins/future/index.md).  However, the current talking points are:
+We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF session.  That discussion and what we decide will be posted on the [GalaxyAdmins Future page](/community/galaxy-admins/future/).  However, the current talking points are:
 
-* [Goal and Activities](/src/community/galaxy-admins/future/index.md#galaxyadmins-goals-and-activities)
-* [Leadership](/src/community/galaxy-admins/future/index.md#leadership) 
+* [Goal and Activities](/community/galaxy-admins/future/#galaxyadmins-goals-and-activities)
+* [Leadership](/community/galaxy-admins/future/#leadership) 
 
 ## When and Where
 
@@ -30,7 +30,7 @@ We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF
 </table>
 
 
-The [tentative time and location](/src/events/gcc2013/bof/index.md#bof-schedule) is Tuesday lunchtime in the cantina. Collect your lunch and then carry it up to the Cantina's balcony/mezzanine room reached from the staircase inside the cantina near the entrance.
+The [tentative time and location](/events/gcc2013/bof/#bof-schedule) is Tuesday lunchtime in the cantina. Collect your lunch and then carry it up to the Cantina's balcony/mezzanine room reached from the staircase inside the cantina near the entrance.
 
 ## Who is Participating
 
@@ -75,7 +75,7 @@ If you are interested, please add your name below and/or send an email to [Dave 
 1. We can be sure that some relevant postings would not have the tag
 2. Therefore people would have to subscribe to the full list anyway.
 
-If you still want this functionality, you are encouraged to configure your email software to tag anything with "[GalaxyAdmins](/src/community/galaxy-admins/index.md)" in it. 
+If you still want this functionality, you are encouraged to configure your email software to tag anything with "[GalaxyAdmins](/community/galaxy-admins/)" in it. 
 </div>
 
 **Meetups:**
@@ -95,7 +95,7 @@ If you still want this functionality, you are encouraged to configure your email
 
 ### Action Items
 
-**The first [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-11-20/index.md) after the GCC was about followup to this discussion.**
+**The first [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-11-20/) after the GCC was about followup to this discussion.**
 
 
 Reference / Wiki

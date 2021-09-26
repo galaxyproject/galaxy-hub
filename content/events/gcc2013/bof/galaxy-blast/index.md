@@ -8,15 +8,15 @@ title: Galaxy wrappers for NCBI BLAST+ BoF
 <slot name="/events/gcc2013/linkbox" />
 <slot name="/events/gcc2013/bof/linkbox" />
 
-<div class='left'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
+<div class='left'><a href='/events/gcc2013/bof/'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
-This **BoF** [Birds of a Feather](/src/events/gcc2013/bof/index.md) meetup is being held at [GCC2013](/src/events/gcc2013/index.md).
+This **BoF** [Birds of a Feather](/events/gcc2013/bof/) meetup is being held at [GCC2013](/events/gcc2013/).
 
 Peter Cock wrote the original NCBI BLAST+ wrappers which are now in the Galaxy Tool Shed at http://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus and http://toolshed.g2.bx.psu.edu/view/devteam/blast_datatypes but several additional people have already been contributing further additions. This purpose of this meeting is for this group to meet up in person to talk about planning, future development (should we use a dedicated repository on http://www.[GitHub](/GitHub/).com or http://www.[BitBucket](/BitBucket/).org for example?), and so on.
 
 ## When and Where
 
-The [time and location](/src/events/gcc2013/bof/index.md#bof-schedule) for this BoF will be lunch time on "Day 1" (Monday 1 July) in the Cantina.
+The [time and location](/events/gcc2013/bof/#bof-schedule) for this BoF will be lunch time on "Day 1" (Monday 1 July) in the Cantina.
 
 ## Who is Participating
 

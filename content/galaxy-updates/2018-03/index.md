@@ -20,7 +20,7 @@ We are pleased to announce that abstract submission and early registration for [
 
 [GCCBOSC 2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. This brings the 2018 Galaxy Community Conference and the Bioinformatics Open Source Conference together into a unified week-long event. If you work in open source life science or data-intensive biomedical research, then there is no better place than GCCBOSC 2018 to present your work and to learn from others.
 
-[GCCBOSC](https://gccbosc2018.sched.com/) starts with [two days of training](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All) with a wide range of topics nominated and selected by our communities.  Training is followed by a two day meeting, with joint and parallel tracks, featuring oral presentations, posters, demos, lightning talks, birds-of-a-feather and [invited keynotes](/src/events/gccbosc2018/keynotes/index.md).  The week finishes with *[CollaborationFest](/src/events/gccbosc2018/collaboration/index.md) Core* and *Encore*, two or four days of collaborative work on code, documentation, training and challenging data analysis problems.
+[GCCBOSC](https://gccbosc2018.sched.com/) starts with [two days of training](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All) with a wide range of topics nominated and selected by our communities.  Training is followed by a two day meeting, with joint and parallel tracks, featuring oral presentations, posters, demos, lightning talks, birds-of-a-feather and [invited keynotes](/events/gccbosc2018/keynotes/).  The week finishes with *[CollaborationFest](/events/gccbosc2018/collaboration/) Core* and *Encore*, two or four days of collaborative work on code, documentation, training and challenging data analysis problems.
 
 ## Training schedule set
 
@@ -53,7 +53,7 @@ We are pleased to announce two of our keynote speakers:
 
 [<img class="float-right" src="/src/images/people/perez.png" alt="Fernando Pérez"  width="110"  />](https://bids.berkeley.edu/people/fernando-perez)
 
-**BOSC / GCC Joint Keynote: [Fernando Pérez](/src/events/gccbosc2018/keynotes/index.md#bosc-gcc-joint-keynote-fernando-perez)**
+**BOSC / GCC Joint Keynote: [Fernando Pérez](/events/gccbosc2018/keynotes/#bosc-gcc-joint-keynote-fernando-perez)**
 
 * *[Berkeley Institute for Data Science](https://bids.berkeley.edu/), [University of California Berkeley](https://berkeley.edu/)*
 * *[Project Jupyter](http://jupyter.org/)*
@@ -97,7 +97,7 @@ For the first time, the *Galaxy Community Conference* and *Bioinformatics Open S
 
 ### Call for sponsors!
 
-[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/src/events/gccbosc2018/sponsors/index.md#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 
 # ELIXIR Galaxy Community Kickoff and Meeting, March, Freiburg
@@ -287,7 +287,7 @@ The Galaxy is expanding! Please help it grow.
 * [Ingénieur en développement de composants Galaxy pour la protéomique](https://www.sfbi.fr/content/ing%C3%A9nieur-en-d%C3%A9veloppement-de-composants-galaxy-pour-la-prot%C3%A9omique-0), MaIAGE , INRA, Jouy-en-Josas, France
 * The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/) is [looking for 2 Postdoctoral researchers](https://usegalaxy-eu.github.io/galaxy-freiburg/2018/01/18/openpositions.html)
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -313,7 +313,7 @@ deepTools 3.0 is now available on the [deepTools Galaxy Server](https://deeptool
 
 ## ARGs-OAP v2.0 published
 
-In addition to being referenced in several papers last month (see below), the [ARGs-OAP server](/src/use/args-oap/index.md) was upgraded as well:
+In addition to being referenced in several papers last month (see below), the [ARGs-OAP server](/use/args-oap/) was upgraded as well:
 
 * [ARGs-OAP v2.0 with an expanded SARG database and Hidden Markov Models for enhancement characterization and quantification of antibiotic resistance genes in environmental metagenomes](https://doi.org/10.1093/bioinformatics/bty053), Xiaole Yin, Xiao-Tao Jiang, Benli Chai, Liguan Li, Ying Yang, James R Cole, James M Tiedje, Tong Zhang. *Bioinformatics*, bty053, doi: 10.1093/bioinformatics/bty053
 
@@ -339,7 +339,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in February](/src/toolshed/contributions/2018-02/index.md).
+[Tool Shed contributions in February](/toolshed/contributions/2018-02/).
 
 # Releases
 

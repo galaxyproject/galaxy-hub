@@ -5,9 +5,9 @@ external_url: ""
 date: "2021-03-15"
 ---
 
-[<img src="/src/events/cofests/papercuts/papercuts.png" class="float-left" style="max-width: 12rem;" alt="Papercuts" />](/src/events/2021-03-papercuts/index.md)
+[<img src="/src/events/cofests/papercuts/papercuts.png" class="float-left" style="max-width: 12rem;" alt="Papercuts" />](/events/2021-03-papercuts/)
 
-**The [March Papercuts CoFest](/src/events/2021-03-papercuts/index.md) is this Thursday.**  Like previous Papercuts events, it will start in Melbourne, Australia and then follow the sun for the next 24 hours before ending in Portland, Oregon, United States.
+**The [March Papercuts CoFest](/events/2021-03-papercuts/) is this Thursday.**  Like previous Papercuts events, it will start in Melbourne, Australia and then follow the sun for the next 24 hours before ending in Portland, Oregon, United States.
 
 Communication will happen on the main [Galaxy Gitter Channel](https://gitter.im/galaxyproject/Lobby) and GitHub all day.  We are dropping the regularly scheduled calls this month, but people can still setup calls as needed during the day.
 

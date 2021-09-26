@@ -6,8 +6,8 @@ Come meet at one of the Galaxy project hubs - the Department of Biology of Johns
 
 ### List of meetup dates
 
-* **[Jan 22, 2015](/src/events/meetups/baltimore/2015-01-22/index.md)**
-* **[Feb 18, 2015](/src/events/meetups/baltimore/2015-02-18/index.md)**
+* **[Jan 22, 2015](/events/meetups/baltimore/2015-01-22/)**
+* **[Feb 18, 2015](/events/meetups/baltimore/2015-02-18/)**
 
 <div class='right'><a href='http://bit.ly/1xSyrt7'><img src="/src/events/meetups/baltimore/BaltimoreAreaMeetupMapThumb.png" alt="Baltimore Area Galaxy Meetups Map" width="120" /></a></div>
 

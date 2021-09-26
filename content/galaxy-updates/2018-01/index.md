@@ -31,13 +31,13 @@ Nominated topics can cover a wide range. For example:
 
 *These are only examples.* If you are looking for ideas, see topics nominated for [GCC2017](https://docs.google.com/document/d/1jyCndVqfXx-HsyFJ4hjaK075vDbPM1kE58qO2lJTOG8/edit?usp=sharing), [GCC2016](http://bit.ly/gcc2016noms), [GCC2015](http://bit.ly/gcc2015vote), and the [Galaxy Events page](/events/), which lists what training the community is offering outside of GCCs.  Training is not limited to Galaxy-related topics.  *Don't be afraid to think inside the BOSC!*
 
-Nominated topics have been, and will continue to be [published](/src/events/gccbosc2018/training/index.md) as they come in. Topics will be compiled into a uniform list by the GCCBOSC2018 organizers, and then voted on by the community later this month.
+Nominated topics have been, and will continue to be [published](/events/gccbosc2018/training/) as they come in. Topics will be compiled into a uniform list by the GCCBOSC2018 organizers, and then voted on by the community later this month.
 
 ## Galaxy (and GMOD) at Plant and Animal Genome XXVI
 
-[<img class="float-right" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/src/events/2018-pag/index.md)
+[<img class="float-right" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/events/2018-pag/)
 
-The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/src/events/2018-pag/index.md) to help researchers get the most from their data.  There will be (at least):
+The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/events/2018-pag/) to help researchers get the most from their data.  There will be (at least):
 
 * a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796),
 * a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806)
@@ -45,7 +45,7 @@ The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held 
 * 12 Galaxy-related posters.
 * 4 pre-conference [GMOD](#gmod-pag) and [Galaxy](#intro-to-galaxy-workshop-at-csusm) events
 
-See the [Galaxy @ PAG page](/src/events/2018-pag/index.md) for details.
+See the [Galaxy @ PAG page](/events/2018-pag/) for details.
 
 ### GMOD @ PAG
 
@@ -62,9 +62,9 @@ If you are interested in supporting better integration of Galaxy with other GMOD
 
 ### Intro to Galaxy Workshop at CSUSM
 
-[<img class="float-right" src="/src/images/logos/csusm-logo.gif" alt="Introduction to Galaxy Workshop, CSU San Marcos, January 12" width="160" />](/src/events/2018-01-csusm-workshop/index.md)
+[<img class="float-right" src="/src/images/logos/csusm-logo.gif" alt="Introduction to Galaxy Workshop, CSU San Marcos, January 12" width="160" />](/events/2018-01-csusm-workshop/)
 
-If you are at [Cal State San Marcos](https://csusm.edu/), or anywhere nearby, there will be an [Introduction to Galaxy Workshop](/src/events/2018-01-csusm-workshop/index.md) in San Marcos, California on Friday January 12.  The workshop is free, but space is limited, so you are encouraged to [register now](http://bit.ly/gxy-csusm-2018-reg).
+If you are at [Cal State San Marcos](https://csusm.edu/), or anywhere nearby, there will be an [Introduction to Galaxy Workshop](/events/2018-01-csusm-workshop/) in San Marcos, California on Friday January 12.  The workshop is free, but space is limited, so you are encouraged to [register now](http://bit.ly/gxy-csusm-2018-reg).
 
 ## ELIXIR Galaxy Community Kickoff and Meeting
 
@@ -222,7 +222,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 We've got two new *[Galactic Blog](/blog/)* entries, both related to [Galaksio](https://galaksio.readthedocs.io/en/latest/):
 
-* [Galaksio: a Galaxy user interface focused on running prepared workflows](/src/blog/2017-12-galaksio/index.md), by Tomas Klingström
+* [Galaksio: a Galaxy user interface focused on running prepared workflows](/blog/2017-12-galaksio/), by Tomas Klingström
 * [Bioinformatic training with the B3Africa project](https://usegalaxy-eu.github.io/galaxy-freiburg/2017/12/10/b3africa.html), by Tomas Klingström
 
 The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.) 
@@ -268,7 +268,7 @@ The Galaxy is expanding! Please help it grow.
 * [Responsable Opérationnel de la Plateforme de Bioinformatique ARTbio](https://www.sfbi.fr/content/responsable-op%C3%A9rationnel-de-la-plateforme-de-bioinformatique-artbio), ARTbio, Institut de Biologie Paris Seine, France
 * [Classification des micropolluants dans l'environnement : amélioration de l'algorithme online TyPol](https://www.sfbi.fr/content/classification-des-micropolluants-dans-lenvironnement-am%C3%A9lioration-de-lalgorithme-online-typ), INRA-LBE, Narbonne, France
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -321,7 +321,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 [<img class="float-right" src="/images/logos/galaxy-enterprise-logo-200.png" alt="Galaxy Enterprise from Intero Life Sciences" />](https://www.galaxyinformatics.com/)
 
-We are pleased to announce a new option for [commercial Galaxy support](/src/support/commercial/index.md). [Intero Life Sciences](https://www.interolifesciences.com/) offers *[Galaxy Enterprise](https://www.galaxyinformatics.com/)*,  a set of support services for Galaxy, including:
+We are pleased to announce a new option for [commercial Galaxy support](/support/commercial/). [Intero Life Sciences](https://www.interolifesciences.com/) offers *[Galaxy Enterprise](https://www.galaxyinformatics.com/)*,  a set of support services for Galaxy, including:
 
 * Subscription/Contract Based Enterprise-Level Support
 * Turn-key Customized Workflows
@@ -341,7 +341,7 @@ We are pleased to announce a new option for [commercial Galaxy support](/src/sup
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in December](/src/toolshed/contributions/2017-12/index.md).
+[Tool Shed contributions in December](/toolshed/contributions/2017-12/).
 
 # Releases
 

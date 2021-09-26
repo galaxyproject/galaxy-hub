@@ -3,23 +3,23 @@ title: "Galaxy Admin Training, Nov 7-11"
 date: "2016-08-23"
 ---
 <div class='right solid center'>
-<a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />
-November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Registration is open](/src/events/admin-training2016/registration/index.md) 
+<a href='/events/admin-training2016/'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />
+November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Registration is open](/events/admin-training2016/registration/) 
 </div>
 
-**We are pleased to announce that registration for [Galaxy Admin Training 2016](/src/events/admin-training2016/index.md) is now open.**
+**We are pleased to announce that registration for [Galaxy Admin Training 2016](/events/admin-training2016/) is now open.**
 
-[Galaxy Admin Training 2016](/src/events/admin-training2016/index.md) is a weeklong event offering basic and advanced sessions.  It is being held in Salt Lake City, Utah, November 7-11, 2016, the week before [Supercomputing 16 (SC16)](http://sc16.supercomputing.org/) meets in Salt Lake.  
+[Galaxy Admin Training 2016](/events/admin-training2016/) is a weeklong event offering basic and advanced sessions.  It is being held in Salt Lake City, Utah, November 7-11, 2016, the week before [Supercomputing 16 (SC16)](http://sc16.supercomputing.org/) meets in Salt Lake.  
 
-**[Basics Session: November 7-8](/src/events/admin-training2016/basics-session/index.md)**
+**[Basics Session: November 7-8](/events/admin-training2016/basics-session/)**
 
-This two day [basics session](/src/events/admin-training2016/basics-session/index.md) will introduce participants to what you need to know to get a Galaxy server up and running on a standalone server. You'll also learn how to extend your Galaxy with your own tools and tools from the community, and how to define reference data in your server as well.
+This two day [basics session](/events/admin-training2016/basics-session/) will introduce participants to what you need to know to get a Galaxy server up and running on a standalone server. You'll also learn how to extend your Galaxy with your own tools and tools from the community, and how to define reference data in your server as well.
 
-**[Advanced Session: November 9-11](/src/events/admin-training2016/advanced-session/index.md)**
+**[Advanced Session: November 9-11](/events/admin-training2016/advanced-session/)**
 
-The three day [advanced session](/src/events/admin-training2016/advanced-session/index.md) will build on topics covered in the [basics section](/src/events/admin-training2016/basics-session/index.md).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. The goal of the advanced workshop is to enable Galaxy administrators to create robust, high-performance Galaxy instances that take full advantage of available tools and compute and storage resources.
+The three day [advanced session](/events/admin-training2016/advanced-session/) will build on topics covered in the [basics section](/events/admin-training2016/basics-session/).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. The goal of the advanced workshop is to enable Galaxy administrators to create robust, high-performance Galaxy instances that take full advantage of available tools and compute and storage resources.
 
-[Register by September 19](/src/events/admin-training2016/registration/index.md) and save up to $130 off standard registration rates (and up to $250 if you work in industry).
+[Register by September 19](/events/admin-training2016/registration/) and save up to $130 off standard registration rates (and up to $250 if you work in industry).
 
 <br />
 

@@ -7,9 +7,9 @@ title: Galaxy Professionals
 <slot name="/events/gcc2013/linkbox" />
 <slot name="/events/gcc2013/bof/linkbox" />
 
-<div class='left'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
+<div class='left'><a href='/events/gcc2013/bof/'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
-This page describes the **Galaxy Professionals** [Birds of a Feather](/src/events/gcc2013/bof/index.md) meetup proposed for [GCC2013](/src/events/gcc2013/index.md). 
+This page describes the **Galaxy Professionals** [Birds of a Feather](/events/gcc2013/bof/) meetup proposed for [GCC2013](/events/gcc2013/). 
 
 ## Outcomes
 
@@ -43,7 +43,7 @@ The goal of this BoF is deliberately vague, since it's not clear whether there w
 
 ## When and Where
 
-The [time and location](/src/events/gcc2013/bof/index.md#bof-schedule) for this BoF has not been set yet.  Watch this space. If there is little enthusiasm, this BoF will quietly fade away.
+The [time and location](/events/gcc2013/bof/#bof-schedule) for this BoF has not been set yet.  Watch this space. If there is little enthusiasm, this BoF will quietly fade away.
 
 ## Who is Participating
 

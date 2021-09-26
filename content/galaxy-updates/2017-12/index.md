@@ -31,9 +31,9 @@ See the [full event description](https://www.elixir-europe.org/events/european-g
 
 ## Galaxy (and GMOD) at Plant and Animal Genome XXVI
 
-[<img class="float-left" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/src/events/2018-pag/index.md)
+[<img class="float-left" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/events/2018-pag/)
 
-The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/src/events/2018-pag/index.md) to help researchers get the most from their data.  There will be a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), and a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806).  See the [Galaxy @ PAG page](/src/events/2018-pag/index.md) for details.
+The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/events/2018-pag/) to help researchers get the most from their data.  There will be a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), and a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806).  See the [Galaxy @ PAG page](/events/2018-pag/) for details.
 
 ### GMOD @ PAG
 
@@ -50,9 +50,9 @@ If you are interested in supporting better integration of Galaxy with other GMOD
 
 ### Pre-PAG Intro to Galaxy Workshop at CSUSM
 
-[<img class="float-right" src="/src/images/logos/csusm-logo.gif" alt="Introduction to Galaxy Workshop, CSU San Marcos, January 12" width="160" />](/src/events/2018-01-csusm-workshop/index.md)
+[<img class="float-right" src="/src/images/logos/csusm-logo.gif" alt="Introduction to Galaxy Workshop, CSU San Marcos, January 12" width="160" />](/events/2018-01-csusm-workshop/)
 
-If you are at [Cal State San Marcos](https://csusm.edu/), or anywhere nearby, there will be an [Introduction to Galaxy Workshop](/src/events/2018-01-csusm-workshop/index.md) in San Marcos, California on Friday January 12.  The workshop is free, but space is limited, so you are encouraged to [register now](http://bit.ly/gxy-csusm-2018-reg).
+If you are at [Cal State San Marcos](https://csusm.edu/), or anywhere nearby, there will be an [Introduction to Galaxy Workshop](/events/2018-01-csusm-workshop/) in San Marcos, California on Friday January 12.  The workshop is free, but space is limited, so you are encouraged to [register now](http://bit.ly/gxy-csusm-2018-reg).
 
 ## 2018 Big Genomics Data Skills Training course
 
@@ -223,7 +223,7 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformaticien immunologie](https://www.sfbi.fr/content/bioinformaticien-immunologie), Gustave Roussy Institute, Villejuif, France
 * [Bioinformaticien Gustave Roussy](https://www.sfbi.fr/content/bioinformaticien-gustave-roussy), Villejuif, France
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -256,7 +256,7 @@ As part of the move to Zotero, we have started tagging papers that use, mention,
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in November](/src/toolshed/contributions/2017-11/index.md).
+[Tool Shed contributions in November](/toolshed/contributions/2017-11/).
 
 # Releases
 

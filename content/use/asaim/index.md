@@ -10,7 +10,7 @@ summary: "Integrates tools specifically chosen for metagenomic and metatranscrip
 image: "asaim-figure1.png"
 comments:
   - "An open-source and opinionated Galaxy-based framework."
-  - "**ASaiM is also available on the [EU Metagenomics server](/src/use/metagenomics/index.md).**"
+  - "**ASaiM is also available on the [EU Metagenomics server](/use/metagenomics/).**"
 user_support:
   - "[Documentation](https://asaim.readthedocs.io/en/latest/)"
   - "[Tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html)"

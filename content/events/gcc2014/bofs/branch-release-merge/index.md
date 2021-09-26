@@ -5,9 +5,9 @@ title: Doing the Branch, Release, and Merge Waltz
 
 <slot name="/events/gcc2014/linkbox" />
 
-<div class='left'><a href='/src/events/gcc2014/bofs/index.md'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
+<div class='left'><a href='/events/gcc2014/bofs/'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 
-This page describes the **Doing the Branch, Release, and Merge Waltz** [Birds of a Feather](/src/events/gcc2014/bofs/index.md) meetup being held at [GCC2014](/src/events/gcc2014/index.md).
+This page describes the **Doing the Branch, Release, and Merge Waltz** [Birds of a Feather](/events/gcc2014/bofs/) meetup being held at [GCC2014](/events/gcc2014/).
 
 When: Monday, June 30, 6:15pm
 

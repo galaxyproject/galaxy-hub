@@ -1,7 +1,7 @@
 ---
 title: February 2012 Galaxy Update
 ---
-<div class='center'>**Looking for the [March 2012 Galaxy Update](/src/galaxy-updates/2012-03/index.md)?  Click [here](/src/galaxy-updates/2012-03/index.md).**<br />Sorry about the bad link in the email announcement!  [Dave C](/people/dave-clements/)</div>
+<div class='center'>**Looking for the [March 2012 Galaxy Update](/galaxy-updates/2012-03/)?  Click [here](/galaxy-updates/2012-03/).**<br />Sorry about the bad link in the email announcement!  [Dave C](/people/dave-clements/)</div>
 
 
 
@@ -36,7 +36,7 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll include it in next month's update.
 
 <div class='right'>
-<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=105 /></a>&nbsp;&nbsp; <a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
+<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=105 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
 </div>
 
 ## Upcoming Events and Deadlines
@@ -47,7 +47,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll i
 
 There are upcoming deadlines for ISMB 2012 (workshops), DILS (abstracts), PSB (sessions), VizBI (posters), and a Bio-Linux Course (application).  See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
-Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) will open February 13.
+Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will open February 13.
 
 ### Events
 
@@ -72,7 +72,7 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/ev
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> <strong><a href='/src/events/gcc2012/index.md'>2012 Galaxy Community Conference</a></strong> </td>
+    <td> <strong><a href='/events/gcc2012/'>2012 Galaxy Community Conference</a></strong> </td>
     <td> Chicago, Illinois, United States </td>
     <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
@@ -81,7 +81,7 @@ Abstract submission for the [2012 Galaxy Community Conference (GCC2012)](/src/ev
 
 ### GCC2012 Sponsors
 
-Plans for the [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) are coming along nicely.  It will be held July 25-27, in Chicago.  As in the past, the conference will feature two full days of presentations and discussions.  A whole day of training sessions has also been added this year.  
+Plans for the [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) are coming along nicely.  It will be held July 25-27, in Chicago.  As in the past, the conference will feature two full days of presentations and discussions.  A whole day of training sessions has also been added this year.  
 
 Also new in 2012 are conference sponsors.  We are very pleased to have welcomed these GCC2012 sponsors in the past month:
 
@@ -96,7 +96,7 @@ Also new in 2012 are conference sponsors.  We are very pleased to have welcomed 
   [The Institute for Genomic Biology at University of Illinois Urbana-Champaign](http://www.igb.uiuc.edu/)<br />
   [National Center for Supercomputing Applications (NCSA)](http://www.ncsa.illinois.edu/)
 
-There are still [Gold, Silver and Bronze level sponsorships](/src/events/gcc2012/sponsorships/index.md) available.  Look for more announcements in the coming months.
+There are still [Gold, Silver and Bronze level sponsorships](/events/gcc2012/sponsorships/) available.  Look for more announcements in the coming months.
 
 ## New Distributions
 
@@ -104,8 +104,8 @@ There were [two Galaxy distributions](/docs/) in January, The latest on [January
 
 * Important metadata and Python 2.5 support corrections
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.
-* Dynamic filtering, easy color options, and quicker indexing enhance [Trackster](/src/learn/visualization/index.md)
-* Set up your Galaxy instance to [run cluster jobs as the real user](/src/admin/config/performance/cluster/index.md), not the Galaxy owner
+* Dynamic filtering, easy color options, and quicker indexing enhance [Trackster](/learn/visualization/)
+* Set up your Galaxy instance to [run cluster jobs as the real user](/admin/config/performance/cluster/), not the Galaxy owner
 * Improvements to metadata handling and searching in the [Tool Shed](/toolshed/)
 * Improved solutions for schema access, jobs management, & workflow imports and inputs.
 * New datatypes (Eland, XML), multiple tool enhancements, and bug fixes.

@@ -20,7 +20,7 @@ This workshop will cover introductory and advanced topics you need to know to se
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Apply now](/src/events/2021-01-admin-training/index.md)</button>
+[Apply now](/events/2021-01-admin-training/)</button>
 </div>
 
 ## February 15-19, 2021: GTN Smörgåsbord: A Global Galaxy Course
@@ -32,5 +32,5 @@ The program covers a general **introduction to the Galaxy platform**, **NGS Anal
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Apply now](/src/events/2021-02-smorgasbord/index.md)</button>
+[Apply now](/events/2021-02-smorgasbord/)</button>
 </div>

@@ -22,23 +22,23 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 ## Galaxy Admin Training, November 7-11, Salt Lake City, Utah
 
 <div class='left solid center'>
-<a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />
-November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Early registration ends Sept 19](/src/events/admin-training2016/registration/index.md) 
+<a href='/events/admin-training2016/'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />
+November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Early registration ends Sept 19](/events/admin-training2016/registration/) 
 </div>
 
-**Early registration for [Galaxy Admin Training 2016](/src/events/admin-training2016/index.md) ends September 19.**
+**Early registration for [Galaxy Admin Training 2016](/events/admin-training2016/) ends September 19.**
 
-[Galaxy Admin Training 2016](/src/events/admin-training2016/index.md) is a weeklong event offering basic and advanced sessions.  It is being held in Salt Lake City, Utah, November 7-11, 2016, the week before [Supercomputing 16 (SC16)](http://sc16.supercomputing.org/) meets in Salt Lake.  
+[Galaxy Admin Training 2016](/events/admin-training2016/) is a weeklong event offering basic and advanced sessions.  It is being held in Salt Lake City, Utah, November 7-11, 2016, the week before [Supercomputing 16 (SC16)](http://sc16.supercomputing.org/) meets in Salt Lake.  
 
-**[Basics Session: November 7-8](/src/events/admin-training2016/basics-session/index.md)**
+**[Basics Session: November 7-8](/events/admin-training2016/basics-session/)**
 
-This two day [basics session](/src/events/admin-training2016/basics-session/index.md) will introduce participants to what you need to know to get a Galaxy server up and running on a standalone server. You'll also learn how to extend your Galaxy with your own tools and tools from the community, and how to define reference data in your server as well.
+This two day [basics session](/events/admin-training2016/basics-session/) will introduce participants to what you need to know to get a Galaxy server up and running on a standalone server. You'll also learn how to extend your Galaxy with your own tools and tools from the community, and how to define reference data in your server as well.
 
-**[Advanced Session: November 9-11](/src/events/admin-training2016/advanced-session/index.md)**
+**[Advanced Session: November 9-11](/events/admin-training2016/advanced-session/)**
 
-The three day [advanced session](/src/events/admin-training2016/advanced-session/index.md) will build on topics covered in the [basics section](/src/events/admin-training2016/basics-session/index.md).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. The goal of the advanced workshop is to enable Galaxy administrators to create robust, high-performance Galaxy instances that take full advantage of available tools and compute and storage resources.
+The three day [advanced session](/events/admin-training2016/advanced-session/) will build on topics covered in the [basics section](/events/admin-training2016/basics-session/).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. The goal of the advanced workshop is to enable Galaxy administrators to create robust, high-performance Galaxy instances that take full advantage of available tools and compute and storage resources.
 
-[Register by September 19](/src/events/admin-training2016/registration/index.md) and save up to $130 off standard registration rates (and up to $250 if you work in industry).
+[Register by September 19](/events/admin-training2016/registration/) and save up to $130 off standard registration rates (and up to $250 if you work in industry).
 
 <br />
 
@@ -56,11 +56,11 @@ We hope to see you in Salt Lake!
 
 
 <div class='right'>
-<a href='/src/events/sg2016/index.md'><img src="/src/images/logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" height="120" /></a></div>
+<a href='/events/sg2016/'><img src="/src/images/logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" height="120" /></a></div>
 
 ## Swiss-German Galaxy Days
 
-The 2016 editions of [Swiss-German Galaxy Days](/src/events/sg2016/index.md) will be held 20-21 October in Freiburg (Germany).
+The 2016 editions of [Swiss-German Galaxy Days](/events/sg2016/) will be held 20-21 October in Freiburg (Germany).
 
 Registration is free, but space is limited on both days. We recommend you register soon to secure your spot for one or both days of the SG2016Tour: **[Register Now](https://docs.google.com/forms/d/1mRO4uNXQd8jL1I9JNiQ4xd0fnrZKlQPQSORgJCpDeqg)**
 
@@ -73,7 +73,7 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
 <a href='http://sites.unica.it/metabolomicaclinica/events/scientific-school-2016/'><img src="/src/images/logos/UCagliariLogoTrans.png" alt="Metabolomics Sardinian Scientific School: How to bridge metabolomics and genomics" height="80" /></a>
 <a href='http://biosb.nl/education/course-portfolio/rna-seq/'><img src="/src/images/logos/BioSBResearchSchool.png" alt="NGS Course: RNA-seq data analysis" height="80" /></a>
 <a href='http://www.jsbi.org/iibmp2016/program_bof/#B10'><img src="/src/images/logos/IIBMP2016Logo.png" alt="GalaxyによるNGSデータ解析 (Galaxy NGS Data Analysis BoF)" height="80" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="120" /></a>
+<a href='/events/admin-training2016/'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="120" /></a>
 </div>
 
 <table>
@@ -152,14 +152,14 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   </tr>
   <tr>
     <th> October 20 </th>
-    <td> <em><a href='/src/events/switzerland2016/index.md'>(third Swiss) Galaxy Workshop</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/src/events/sg2016/index.md'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
+    <td> <em><a href='/events/switzerland2016/'>(third Swiss) Galaxy Workshop</a></em> </td>
+    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/events/sg2016/'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <th> October 21 </th>
-    <td> <em><a href='/src/events/germany2016/index.md'>(second German) Galaxy Developers Day</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/src/events/sg2016/index.md'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
+    <td> <em><a href='/events/germany2016/'>(second German) Galaxy Developers Day</a></em> </td>
+    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/events/sg2016/'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
@@ -167,7 +167,7 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   </tr>
   <tr>
     <th> November 7-8 </th>
-    <td> <strong><a href='/src/events/admin-training2016/basics-session/index.md'>Galaxy Admin Training: Introduction</a></strong> </td>
+    <td> <strong><a href='/events/admin-training2016/basics-session/'>Galaxy Admin Training: Introduction</a></strong> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/galaxy-team/'>Galaxy Team</a> </td>
   </tr>
@@ -185,7 +185,7 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   </tr>
   <tr>
     <th> November 9-11 </th>
-    <td> <strong><a href='/src/events/admin-training2016/advanced-session/index.md'>Galaxy Admin Training: Advanced</a></strong> </td>
+    <td> <strong><a href='/events/admin-training2016/advanced-session/'>Galaxy Admin Training: Advanced</a></strong> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/galaxy-team/'>Galaxy Team</a> </td>
   </tr>
@@ -458,7 +458,7 @@ Galaxy admins obtained the ability to install Galaxy tool’s dependencies using
 
 **Dynamic tool destinations**
 
-Our friends from Canada National Microbiology Laboratory enhanced Galaxy with feature that allows dynamic mapping of tools to destinations based on finer grained admin-specified rules. Please see the [wiki](/src/admin/config/jobs/index.md#dynamic-destination-mapping). Implemented in [PR #2579](https://github.com/galaxyproject/galaxy/pull/2579).
+Our friends from Canada National Microbiology Laboratory enhanced Galaxy with feature that allows dynamic mapping of tools to destinations based on finer grained admin-specified rules. Please see the [wiki](/admin/config/jobs/#dynamic-destination-mapping). Implemented in [PR #2579](https://github.com/galaxyproject/galaxy/pull/2579).
 
 **Galaxy chat**
 
@@ -478,7 +478,7 @@ $ git checkout release_16.07 && git pull --ff-only origin release_16.07
 ```
 
 
-See [our wiki](/src/develop/source-code/index.md) for additional details regarding the source code locations.
+See [our wiki](/develop/source-code/) for additional details regarding the source code locations.
 
 <br />
 
@@ -555,7 +555,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # ToolShed Contributions
 
-[Tool Shed contributions for August](/src/toolshed/contributions/2016-08/index.md).
+[Tool Shed contributions for August](/toolshed/contributions/2016-08/).
 
 # Other News
 

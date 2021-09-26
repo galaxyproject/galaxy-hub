@@ -11,7 +11,7 @@ The *October  2018 Galactic News* is here!  This is a summary of what is going o
 * Events
   * [2018 SACNAS Workshops](#2018-sacnas-pre-conference-workshops) *Still space, still free!*
   * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
-  * [2019 Galaxy Admin Training](/src/news/2018-10-galaxy-update/index.md#2019-galaxy-admin-training)
+  * [2019 Galaxy Admin Training](/news/2018-10-galaxy-update/#2019-galaxy-admin-training)
   * [All upcoming events](#upcoming-events)
 * New:
   * [200 publications](#publications), including 10 highlighted ones
@@ -33,18 +33,18 @@ Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming 
 ## 2018 SACNAS Pre-conference Workshops
 
 <div class="float-left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/src/events/2017-sacnas/index.md) <br /><br />
+[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/events/2017-sacnas/) <br /><br />
 [<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
 [<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/src/index.md)
 </div>
 
-If you will be anywhere near San Antonio, Texas on October 10 then please consider participating in one of [these SACNAS preconference workshops](/src/events/2018-sacnas/index.md).  You don't need to be registered for the [2018 SACNAS meeting](http://www.2018sacnas.org/) to attend.  **Everyone is eligible and the workshops are free.**
+If you will be anywhere near San Antonio, Texas on October 10 then please consider participating in one of [these SACNAS preconference workshops](/events/2018-sacnas/).  You don't need to be registered for the [2018 SACNAS meeting](http://www.2018sacnas.org/) to attend.  **Everyone is eligible and the workshops are free.**
 
-**[Software and Data Carpentry](/src/events/2018-sacnas/index.md#workshop-1-software-and-data-carpentry)**
+**[Software and Data Carpentry](/events/2018-sacnas/#workshop-1-software-and-data-carpentry)**
 
-**[Data Platforms for Life Science Researchers](/src/events/2018-sacnas/index.md#workshop-2-data-platforms-for-life-science-researchers)**
+**[Data Platforms for Life Science Researchers](/events/2018-sacnas/#workshop-2-data-platforms-for-life-science-researchers)**
 
 [Registration](https://sacnas-data.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.  Both workshops are held October 10, the day before SACNAS starts.
 
@@ -52,24 +52,24 @@ If you will be anywhere near San Antonio, Texas on October 10 then please consid
 
 *Plese note:* The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http://www.2018sacnas.org/events/2018-sacnas-the-national-diversity-in-stem-conference/custom-167-56b6a0f11ab04eec9c1b886e6cd0c33d.aspx) for the first ~ 28 scholarship recipients that register for these workshops. The additional funds will cover an extra night's lodging for scholarship recipients, enabling you to arrive the day before the workshops. Funds are limited, and once the funds are allocated, they are gone. (You must have received a SACNAS Travel Scholarship to be eligible.)
 
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/src/events/2018-europe-dev/index.md)
+[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
 
 ## European Galaxy Days, 19-20 November, Freiburg, Germany
 
-**[European Galaxy Days](/src/events/2018-europe-dev/index.md)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
+**[European Galaxy Days](/events/2018-europe-dev/)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
 
-**The event is free and [registration is open](https://tinyurl.com/EGD2018).**  See the [event home page](/src/events/2018-europe-dev/index.md) for more.
+**The event is free and [registration is open](https://tinyurl.com/EGD2018).**  See the [event home page](/events/2018-europe-dev/) for more.
 
 
 ## 2019 Galaxy Admin Training
 
-[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/src/events/2019-admin-training/index.md)
+[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/events/2019-admin-training/)
 
-**[Galaxy Admin Training](/src/events/2018-europe-dev/index.md)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
+**[Galaxy Admin Training](/events/2018-europe-dev/)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
 
-[Registration](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2019-admin-training/index.md#registration) is open. Early registration rates end October 31st. 
+[Registration](https://github.com/galaxyproject/galaxy-hub/blob/master/events/2019-admin-training/#registration) is open. Early registration rates end October 31st. 
 
-See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
+See the [Galaxy 2019 Admin Training page](/events/2019-admin-training/) for more details.
 
 ## Upcoming events
 
@@ -266,9 +266,9 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 There are three new *[Galactic Blog](/blog/)* entries:
 
 * [Hybrid training delivers online participatory training to far-reaching venues](https://www.embl-abr.org.au/hybrid-training-delivers-online-participatory-training-to-far-reaching-venues/), by Christina Hall
-* [Tutorial of the Month: Maria Doyle selected "From peaks to genes"](/src/blog/2018-09-totm/index.md), by Bérénice Batut
+* [Tutorial of the Month: Maria Doyle selected "From peaks to genes"](/blog/2018-09-totm/), by Bérénice Batut
   * *This is the first of a new monthly series about [GTN Tutorials](https://training.galaxyproject.org/).*
-* [Contributor of the Month: Yvan Le Bras](/src/blog/2018-10-cotm-yvan-le-bras/index.md), By Björn Grüning
+* [Contributor of the Month: Yvan Le Bras](/blog/2018-10-cotm-yvan-le-bras/), By Björn Grüning
 
 ---- 
 # Who's Hiring
@@ -282,7 +282,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -337,7 +337,7 @@ We tag papers that use, mention, implement or extend public Galaxy servers, serv
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in September 2018](/src/toolshed/contributions/2018-09/index.md).
+[Tool Shed contributions in September 2018](/toolshed/contributions/2018-09/).
 
 
 # Releases

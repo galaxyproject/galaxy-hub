@@ -94,4 +94,4 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 This page highlights only a few Galaxy related publications.  However, *the set of relevant publications is orders of magnitude larger.*  The [Galaxy Group](https://www.zotero.org/groups/galaxy) on [Zotero](https://zotero.org/) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy in any way.  The library contains thousands of publications all classified with ~19 Galaxy specific tags.  See the [Galaxy Publication Library page](/publication-library/) for more.
 
-See the [Citations section](/src/galaxy-project/statistics/index.md#publications--citations) of the [project statistics page](/src/galaxy-project/statistics/index.md) for a summary of citations of project papers.
+See the [Citations section](/galaxy-project/statistics/#publications--citations) of the [project statistics page](/galaxy-project/statistics/) for a summary of citations of project papers.

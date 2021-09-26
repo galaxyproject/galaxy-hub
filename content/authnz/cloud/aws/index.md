@@ -19,7 +19,7 @@ option (see the following figure).
 
 4. Then click on the `Web identity` button, and then choose `Google` from the dropdown of the 
 `Identity provider`, then enter `Audience` (the `client id` as issued by Google when registering 
-the Galaxy instance; see [this page](/src/authnz/config/oidc/idps/google/index.md)), and then click on 
+the Galaxy instance; see [this page](/authnz/config/oidc/idps/google/)), and then click on 
 the `Next: Permissions` button (see the following figure).
 
   ![image](/src/authnz/cloud/aws/aws_03.png)

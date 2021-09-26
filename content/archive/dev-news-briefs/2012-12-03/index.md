@@ -30,7 +30,7 @@ The alignment tools **'Bowtie**' and **'Lastz**' from the tool group **NGS: Mapp
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
-Migration scripts for both **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing replacement tool wrappers from the Tool Shed. Primary executables for **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz)** plus target reference genomes should still be installed as described in the Galaxy wiki - start in the **[Tool Dependencies](/src/admin/tools/ToolDependencies/index.md)** section.
+Migration scripts for both **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing replacement tool wrappers from the Tool Shed. Primary executables for **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz)** plus target reference genomes should still be installed as described in the Galaxy wiki - start in the **[Tool Dependencies](/admin/tools/ToolDependencies/)** section.
 
 **Bowtie** is an ultrafast, memory-efficient short read aligner. It aligns short DNA sequences (reads) to the human genome at a rate of over 25 million 35-bp reads per hour. Bowtie indexes the genome with a Burrows-Wheeler index to keep its memory footprint small: typically about 2.2 GB for the human genome (2.9 GB for paired-end).
 
@@ -50,7 +50,7 @@ Harris, R.S. (2007) *[Improved pairwise alignment of genomic DNA](http://www.bx.
 This update brings a large number of updates and new features, the most prominent ones being:
 * Support for Eucalyptus cloud middleware; thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).
 * Added a new file system management interface on the CloudMan Admin page, allowing control and providing insight into each available file system
-* Added quite a few new user data options. See the [UserData page](/src/cloudman/userdata/index.md) for details; thanks to [John Chilton](http://bitbucket.org/jmchilton).
+* Added quite a few new user data options. See the [UserData page](/cloudman/userdata/) for details; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Galaxy can now be run in multi-process mode; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Added Galaxy Reports app as a CloudMan service; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Introduced a new format for cluster configuration persistence, allowing more flexibility in how services are maintained
@@ -179,10 +179,10 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 
 [News](/news/), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-12)***
 
-<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 
-* [Training Day Topic Nominations](/src/events/gcc2013/training-day/index.md) for [GCC2013](/src/events/gcc2013/index.md) will open in December.  Start thinking of ideas now!
-* Slides and Screencast from [November GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2012-11-14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/index.md) will be on [January 16](/src/community/galaxy-admins/meetups/2013-01-16/index.md) and feature [John Chilton](/people/john-chilton/) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
+* [Training Day Topic Nominations](/events/gcc2013/training-day/) for [GCC2013](/events/gcc2013/) will open in December.  Start thinking of ideas now!
+* Slides and Screencast from [November GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2012-11-14/) are online.  The next [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/) will be on [January 16](/community/galaxy-admins/meetups/2013-01-16/) and feature [John Chilton](/people/john-chilton/) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
 * [A short "Getting started with JGalaxy" document (with screenshots)](http://bit.ly/SkW2yU), by [John Chilton](/people/john-chilton/)
 * [Batch Workflow starting using the Galaxy API : Practical Example by Geert Vandeweyer](http://bit.ly/TjTj6X)
 

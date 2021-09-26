@@ -13,7 +13,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 
 ## GCCBOSC 2018 Training Topic Voting Closes Jan 31
 
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Vote for the Training Topics you want" />](/src/events/gccbosc2018/training/index.md)
+[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Vote for the Training Topics you want" />](/events/gccbosc2018/training/)
 
 **Which is tomorrow.  [Vote now](http://bit.ly/gccbosc2018-vote)**
 
@@ -46,7 +46,7 @@ GCCBOSC attendees may be interested to hear that, in addition to research articl
 
 ### Call for sponsors!
 
-[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/src/events/gccbosc2018/sponsors/index.md#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 
 ## ELIXIR Galaxy Community Kickoff and Meeting, March, Freiburg
@@ -239,8 +239,8 @@ January saw one new *[Galactic Blog](/blog/)* entry:
 
 January was a big month for Galaxy in the cloud:
 
-* [Galaxy Cloud embraces the GVL](/src/news/2018-01-22-gvl430/index.md)
-* [All-new CloudLaunch release](/src/news/2018-01-05-cloudlaunch/index.md)
+* [Galaxy Cloud embraces the GVL](/news/2018-01-22-gvl430/)
+* [All-new CloudLaunch release](/news/2018-01-05-cloudlaunch/)
 
 # Publications
 
@@ -273,7 +273,7 @@ The Galaxy is expanding! Please help it grow.
 
 * The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/) is [looking for 2 Postdoctoral researchers](https://usegalaxy-eu.github.io/galaxy-freiburg/2018/01/18/openpositions.html)
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -324,7 +324,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in January](/src/toolshed/contributions/2018-01/index.md).
+[Tool Shed contributions in January](/toolshed/contributions/2018-01/).
 
 # Releases
 
@@ -427,6 +427,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-* The semi-annual update of the project statistics page is done.  [See what's new](/src/galaxy-project/statistics/index.md).
+* The semi-annual update of the project statistics page is done.  [See what's new](/galaxy-project/statistics/).
 * From [John Chilton](/people/john-chilton/):
   * Galaxy can now [by-pass re-running jobs with duplicate parameters/inputs](https://github.com/galaxyproject/galaxy/pull/4690) thanks to the brilliant [Marius Van Den Beek](https://twitter.com/mariusvdbeek/) 

@@ -8,20 +8,20 @@ date: "2019-06-03"
 
 The *June 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
-* **[GCC2019](/src/news/2019-06-galaxy-update/index.md#gcc2019-1-8-july-freiburg-germany):**
-  * **[Advance registration ends 7 June](/src/news/2019-06-galaxy-update/index.md#advance-registration-ends-7-june-this-friday)**
-  * **[Poster and Demo Abstract Submission deadline: 10 June](/src/news/2019-06-galaxy-update/index.md#poster-demo-abstract-submission-deadline-10-june)**
-  * [Conference schedule is online](/src/news/2019-06-galaxy-update/index.md#conference-schedule-is-online)
-* Plus [13 other upcoming events](/src/news/2019-06-galaxy-update/index.md#upcoming-events) in the next 90 days
-* [150 new publications](/src/news/2019-06-galaxy-update/index.md#publications), great resources lead to great insight. 
-* [Galaxy Platform News](/src/news/2019-06-galaxy-update/index.md#galaxy-platforms-news): New platforms for tranSMART, antibiotic resistance, phylogeny, long-read data, mass spectrometry Imaging, and Rice!
-* A new entry to [The Galactic Blog](/src/news/2019-06-galaxy-update/index.md#new-galactic-blog-post-enabling-cloud-bursting-for-galaxy) on Galaxy cloud bursting
-* At least [8 Open positions](/src/news/2019-06-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
-* [Updates to training materials and documentation](/src/news/2019-06-galaxy-update/index.md#doc-hub-and-training-updates).
-* [New tools](/src/news/2019-06-galaxy-update/index.md#toolshed-contributions) and [new releases](/src/news/2019-06-galaxy-update/index.md#releases).
-* And [some cool other news](/src/news/2019-06-galaxy-update/index.md#other-news) too:
-  * The new [Galaxy Services Status Web Site](/src/news/2019-06-galaxy-update/index.md#galaxy-services-status-web-site)
-  * [Black Duck Open Hub updates it's Galaxy project stats](/src/news/2019-06-galaxy-update/index.md#black-duck-open-hub-updates-its-galaxy-project-stats) *and we are doing great.*
+* **[GCC2019](/news/2019-06-galaxy-update/#gcc2019-1-8-july-freiburg-germany):**
+  * **[Advance registration ends 7 June](/news/2019-06-galaxy-update/#advance-registration-ends-7-june-this-friday)**
+  * **[Poster and Demo Abstract Submission deadline: 10 June](/news/2019-06-galaxy-update/#poster-demo-abstract-submission-deadline-10-june)**
+  * [Conference schedule is online](/news/2019-06-galaxy-update/#conference-schedule-is-online)
+* Plus [13 other upcoming events](/news/2019-06-galaxy-update/#upcoming-events) in the next 90 days
+* [150 new publications](/news/2019-06-galaxy-update/#publications), great resources lead to great insight. 
+* [Galaxy Platform News](/news/2019-06-galaxy-update/#galaxy-platforms-news): New platforms for tranSMART, antibiotic resistance, phylogeny, long-read data, mass spectrometry Imaging, and Rice!
+* A new entry to [The Galactic Blog](/news/2019-06-galaxy-update/#new-galactic-blog-post-enabling-cloud-bursting-for-galaxy) on Galaxy cloud bursting
+* At least [8 Open positions](/news/2019-06-galaxy-update/#whos-hiring) in five countries on two continents. 
+* [Updates to training materials and documentation](/news/2019-06-galaxy-update/#doc-hub-and-training-updates).
+* [New tools](/news/2019-06-galaxy-update/#toolshed-contributions) and [new releases](/news/2019-06-galaxy-update/#releases).
+* And [some cool other news](/news/2019-06-galaxy-update/#other-news) too:
+  * The new [Galaxy Services Status Web Site](/news/2019-06-galaxy-update/#galaxy-services-status-web-site)
+  * [Black Duck Open Hub updates it's Galaxy project stats](/news/2019-06-galaxy-update/#black-duck-open-hub-updates-its-galaxy-project-stats) *and we are doing great.*
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -29,17 +29,17 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 # GCC2019, 1-8 July, Freiburg, Germany
 
-[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
+[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
 
-GCC2019 will be held the first week of  July in Freiburg, Germany.  The *tenth* [GCC](/src/events/gcc2019/index.md) features [more presentations](https://gcc2019.sched.com/#2019-07-02) and [more training](https://gcc2019.sched.com/overview/type/A.+Training) than any [GCC](/gcc/) before it. If you are working in data intensive life science research then there will not be a better place to share your work, learn from others, and find new collaborators.
+GCC2019 will be held the first week of  July in Freiburg, Germany.  The *tenth* [GCC](/events/gcc2019/) features [more presentations](https://gcc2019.sched.com/#2019-07-02) and [more training](https://gcc2019.sched.com/overview/type/A.+Training) than any [GCC](/gcc/) before it. If you are working in data intensive life science research then there will not be a better place to share your work, learn from others, and find new collaborators.
 
 ## Advance Registration ends 7 June - this Friday
 
-**[Advance registration](/src/events/gcc2019/registration/index.md) for the [2019 Galaxy Community Conference (GCC2019)](/src/events/gcc2019/index.md) is ends this *this Friday*, 7 June.**  Register this week and avoid late registration fee hikes that start on Saturday morning. *(Insert your favorite Saturday morning hangover joke here.)*
+**[Advance registration](/events/gcc2019/registration/) for the [2019 Galaxy Community Conference (GCC2019)](/events/gcc2019/) is ends this *this Friday*, 7 June.**  Register this week and avoid late registration fee hikes that start on Saturday morning. *(Insert your favorite Saturday morning hangover joke here.)*
 
 ## Poster & Demo Abstract Submission Deadline: 10 June
 
-Abstracts for [poster presentations and software demonstrations](/src/events/gcc2019/abstracts/index.md) are still being accepted for consideration.  Got something to show? [Submit your abstract before the 10 June deadline!](/src/events/gcc2019/abstracts).
+Abstracts for [poster presentations and software demonstrations](/events/gcc2019/abstracts/) are still being accepted for consideration.  Got something to show? [Submit your abstract before the 10 June deadline!](/src/events/gcc2019/abstracts).
 
 ## Conference Schedule is Online
 
@@ -198,28 +198,28 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 ## The TGM pipeline
 
-[<img class="float-right" style="max-width: 110px" src="/src/use/tgm/tgm-fig1.png" alt="tgmpipeline" />](/src/use/tgm/index.md)
+[<img class="float-right" style="max-width: 110px" src="/src/use/tgm/tgm-fig1.png" alt="tgmpipeline" />](/use/tgm/)
 
 The *[TGM pipeline](http://r3lab.uni.lu/web/tgm-pipeline/)* is a platform combining [tranSMART server](http://r3lab.uni.lu/web/tgm-pipeline/#transmart-setup), [Galaxy Server](http://tgm-pipeline.uni.lu/galaxy/), and [MINERVA platform](http://r3lab.uni.lu/web/tgm-pipeline/#minerva-setup) to enable visually-aided exploration, analysis, and interpretation of high-throughput translational medicine data. The TGM pipeline enables establishing workflows with Galaxy for data processing using tools and resources of the tranSMART server. 
 
 
 ## ARGA
 
-[<img class="float-right" style="max-width: 110px" src="/src/use/arga/arga-pipeline.png" alt="arga" />](/src/use/arga/index.md)
+[<img class="float-right" style="max-width: 110px" src="/src/use/arga/arga-pipeline.png" alt="arga" />](/use/arga/)
 
 The [Antibiotic Resistance Gene Analyzer (ARGA)](http://mem.rcees.ac.cn:8083/) is a pipeline used for identification of antibiotic resistance genes using the Sequence Database for ARGS (SDARGS). The ARGA Galaxy instance provides all of the nucleotide and protein sequences in SDARG and ARGs primer databases in the Shared Data and Data Libraries sections for users. A guide for recommended usage of ARGA can be found [here](http://mem.rcees.ac.cn:8083/static/SDARG_Galaxy_pipeline_user_guide.pdf).  
 
 
 ## NGPhylogeny.fr
 
-[<img class="float-right" style="max-width: 110px" src="/src/use/ngphylogeny/ngphylogeny-steps.png" alt="ngphylogeny" />](/src/use/ngphylogeny/index.md)
+[<img class="float-right" style="max-width: 110px" src="/src/use/ngphylogeny/ngphylogeny-steps.png" alt="ngphylogeny" />](/use/ngphylogeny/)
 
 [NGPhylogeny.fr](https://ngphylogeny.fr/) is a free and simple to use web service dedicated to reconstructing and analysing phylogenetic relationships between molecular sequences. The NGPhylogeny service allows users to execute and customize Galaxy workflows while employing a novel interface to Galaxy. Additional documentation can be found [here](https://ngphylogeny.fr/documentation).
 
 
 ## NanoGalaxy
 
-[<img class="float-right" style="max-width: 110px" src="/src/use/nanogalaxy/nanogalaxy-toolkit.png" alt="nanogalaxy" />](/src/use/nanogalaxy/index.md)
+[<img class="float-right" style="max-width: 110px" src="/src/use/nanogalaxy/nanogalaxy-toolkit.png" alt="nanogalaxy" />](/use/nanogalaxy/)
 
 [NanoGalaxy](https://nanopore.usegalaxy.eu/) is a webserver for processing, analysis, and visualization of long-read nucleic acid sequencing data from Oxford Nanopore Technologies (ONT) and Pacific Biosystems (PacBio) with Galaxy. This specialized Galaxy instance provides access to a collection of best practice workflows and commonly used tools for analysis of long-read sequence data.
 
@@ -229,7 +229,7 @@ This is a [custom docker image](https://hub.docker.com/r/mcfoell/galaxy-msi) for
 
 ## Rice Galaxy
 
-[<img class="float-right" style="max-width: 110px" src="/src/use/rice-galaxy/rice-galaxy-3k.jpg" alt="Rice Galaxy" />](/src/use/rice-galaxy/index.md)
+[<img class="float-right" style="max-width: 110px" src="/src/use/rice-galaxy/rice-galaxy-3k.jpg" alt="Rice Galaxy" />](/use/rice-galaxy/)
 
 The [Rice Galaxy server](http://galaxy.irri.org/) is a revamped version of IRRI's previously existing Galaxy server.  It features tools for designing single-nucleotide polymorphism assays, analyzing genome-wide association studies, population diversity, rice−bacterial pathogen diagnostics, and a suite of published genomic prediction methods and has shared datasets that include high-density genotypes from the 3,000 Rice Genomes project and sequences with corresponding annotations from 9 published rice genomes.
 
@@ -252,7 +252,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 For the second month in a row we have a new *[Galactic Blog](/blog/)* post from [Enis Afgan](https://github.com/afgane) and [Vahid Jalili](https://github.com/VJalili):
 
-* [Enabling cloud bursting for Galaxy: Expand your compute horizons](/src/blog/2019-05-gcr/index.md)
+* [Enabling cloud bursting for Galaxy: Expand your compute horizons](/blog/2019-05-gcr/)
 
 ----
 
@@ -289,7 +289,7 @@ Updates from the [Galaxy Training Materials](https://training.galaxyproject.org/
 
 Hub updates:
 
-* [Data Privacy in Galaxy](/src/learn/privacy-features/index.md): A new page describing how to use Galaxy's data privacy features; from [Martin Cech](/people/marten/)
+* [Data Privacy in Galaxy](/learn/privacy-features/): A new page describing how to use Galaxy's data privacy features; from [Martin Cech](/people/marten/)
 
 
 ---
@@ -298,7 +298,7 @@ Hub updates:
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in April and May 2019](/src/toolshed/contributions/2019-05/index.md).
+[Tool Shed contributions in April and May 2019](/toolshed/contributions/2019-05/).
 
 # Releases
 

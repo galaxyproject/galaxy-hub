@@ -161,7 +161,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 [News](/news/), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-12)***
 
-<div class='left'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
+<div class='left'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 <br />
 **[GCC2013 Training Day Topic Nominations](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay) are now open** through ***[January 11th](http://wiki.galaxyproject.org/Events/GCC2013/KeyDates)***.  
 <br />

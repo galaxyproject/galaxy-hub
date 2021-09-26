@@ -3,7 +3,7 @@
 [usegalaxy.org](http://usegalaxy.org) ([Main](/main/) is home to over 4 TB of reference data. This is
 comprised mainly of genome sequence builds and associated prebuilt indexes for the tools installed on usegalaxy.org, as
 well as the Galaxy-specific configuration files that make the data known to those tools. Because preparing this data for
-your own **[local](/src/admin/get-galaxy/index.md)** Galaxy server or an external application can be a laborious
+your own **[local](/admin/get-galaxy/)** Galaxy server or an external application can be a laborious
 process, we have made this reference available from a variety of schemes.
 
 ## Data Structure
@@ -59,8 +59,8 @@ other related tools are in the [UCSC Genome Browser][ucsc] source code [download
 
 ## Related topics
 
-* [Data Integration](/src/admin/data-integration/index.md)
-* [Data Preparation](/src/admin/data-preparation/index.md)
+* [Data Integration](/admin/data-integration/)
+* [Data Preparation](/admin/data-preparation/)
 
 ## Mounting Reference Data with CernVM-FS (CVMFS)
 

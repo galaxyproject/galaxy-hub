@@ -149,7 +149,7 @@ The Galaxy is expanding! Please help it grow.
 * [Informatics Software Support Specialist](http://bit.ly/1cdfOpr) at the University of Minnesota, United States 
 * [CDD Gif-sur-Yvette NGS et Variation Structurales UMR de Génétique Végétale](http://bit.ly/1exDipD), INRA-Université Paris Sud-CNRS 
 * [CDD en bioinformatique : recherche de variants structuraux par reséquençage (NGS)](http:////bit.ly/1h1yQnf)
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**, *including positions at George Washington University*.
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -160,35 +160,35 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2014/'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
 
-The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
+The [2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
 ### Training Day Nominations, December 2-20
 
-GCC2014 will start with a [Training Day](/src/events/gcc2014/training-day/index.md) on June 30.  As for [GCC2013](/src/news/gcc2013-training-day-nominations/index.md), the specific topics offered will be determined by you, the Galaxy Community.  Topic nomination will open December 2 and remain open through December 20.  Nominated topics will be posted to the [Training Day page](/src/events/gcc2014/training-day/index.md) as they come in.  The organizers will then collate the nominations into a single list that the community (yes, that means you) will vote on the nominations in January.  The final schedule of topics and instructors will be published no later than February 10, when registration opens.
+GCC2014 will start with a [Training Day](/events/gcc2014/training-day/) on June 30.  As for [GCC2013](/news/gcc2013-training-day-nominations/), the specific topics offered will be determined by you, the Galaxy Community.  Topic nomination will open December 2 and remain open through December 20.  Nominated topics will be posted to the [Training Day page](/events/gcc2014/training-day/) as they come in.  The organizers will then collate the nominations into a single list that the community (yes, that means you) will vote on the nominations in January.  The final schedule of topics and instructors will be published no later than February 10, when registration opens.
 
 Watch the [Galaxy Mailing Lists](/mailing-lists/) for announcements and links to the nomination form.
 
-*[Training Day](/src/events/gcc2014/training-day/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
+*[Training Day](/events/gcc2014/training-day/)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
 
 ### Sponsorships
 
 <div class='left'><a href='http://lifetech.com/'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="170" /></a><br />
 </div>
 
-We are pleased to announce several [sponsorships](/src/events/gcc2014/sponsor-exhibit/index.md) for GCC2014.  First, [Ion Torrent](http://lifetech.com/) will again be the exclusive Platinum Sponsor for the annual Galaxy meeting.  This is the third year in a row that Ion Torrent has been the Platinum Sponsor of this event. 
+We are pleased to announce several [sponsorships](/events/gcc2014/sponsor-exhibit/) for GCC2014.  First, [Ion Torrent](http://lifetech.com/) will again be the exclusive Platinum Sponsor for the annual Galaxy meeting.  This is the third year in a row that Ion Torrent has been the Platinum Sponsor of this event. 
 
 <br />
 <div class='right'><a href='http://bioteam.net/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="120" /></a></div>
 
-We are also pleased to announce that [BioTeam](http://bioteam.net) will again be a [Gold Sponsor](/src/events/gcc2014/sponsor-exhibit/index.md) for this annual event.  This is the second year in a row that BioTeam has been a GCC Gold Sponsor.
+We are also pleased to announce that [BioTeam](http://bioteam.net) will again be a [Gold Sponsor](/events/gcc2014/sponsor-exhibit/) for this annual event.  This is the second year in a row that BioTeam has been a GCC Gold Sponsor.
 
-There are still [Gold, Silver and Bronze sponsorships](/src/events/gcc2014/sponsor-exhibit/index.md) still available. Please contact the [Organizers](/src/events/gcc2014/organizers/index.md) if your organization would like to help sponsor this event. 
+There are still [Gold, Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) still available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event. 
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/sponsor-exhibit/index.md#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/events/gcc2014/organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014. 
 
 ## UC Davis Bioinformatics Boot Camps
 
@@ -308,9 +308,9 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> <strong><a href='/src/events/gcc2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
+    <td> <strong><a href='/events/gcc2014/'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/src/events/gcc2014/organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/events/gcc2014/organizers/'>Organizers</a> </td>
   </tr>
 </table>
 
@@ -318,20 +318,20 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
 
 # Galaxy Distributions
 
-**[Nov 04, 2013 Galaxy Distribution](/src/archive/dev-news-briefs/2013-11-04/index.md)**
+**[Nov 04, 2013 Galaxy Distribution](/archive/dev-news-briefs/2013-11-04/)**
 
 <div class='right'>
 <a href='https://usegalaxy.org/'><img src="/src/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
 
 **Highlights:**
 
-* A ***security vulnerability*** with filter tools trapped and fixed: **[Upgrade or Patch NOW](/src/archive/dev-news-briefs/2013-11-04/index.md#security-fix-now)**
+* A ***security vulnerability*** with filter tools trapped and fixed: **[Upgrade or Patch NOW](/archive/dev-news-briefs/2013-11-04/#security-fix-now)**
 * Galaxy Tool Migration: [48 tools migrated to Tool Shed](http://wiki.galaxyproject.org/DevNewsBriefs/2013-11-04#New_Tool_Migrations) for a leaner distribution.
-* Improved [tools for administrators](/src/archive/dev-news-briefs/2013-11-04/index.md#admin) (email verification, reports).
-* The framework for [Tools](/src/archive/dev-news-briefs/2013-11-04/index.md#tools), [Visualizations](/src/archive/dev-news-briefs/2013-11-04/index.md#visualizations), and the [Core](/src/archive/dev-news-briefs/2013-11-04/index.md#core) have been upgraded for performance and scalability. 
-* Come see! A whopping [26 pull requests incorporated](/src/archive/dev-news-briefs/2013-11-04/index.md#pull-requests-merged)!. Many thanks to our open source community!
-* Numerous [Tool Shed enhancements and upgrades](/src/archive/dev-news-briefs/2013-11-04/index.md#tool-shed): API, `READMEs`, Functional Tests, easier installs, and much much more.
-* Plus enhancements to [Workflows](/src/archive/dev-news-briefs/2013-11-04/index.md#workflows), [API](/src/archive/dev-news-briefs/2013-11-04/index.md#api), [CloudLaunch](/src/archive/dev-news-briefs/2013-11-04/index.md#cloudlaunch), [UI](/src/archive/dev-news-briefs/2013-11-04/index.md#ui), and [Bug Fixes](/src/archive/dev-news-briefs/2013-11-04/index.md#bug-fixes).
+* Improved [tools for administrators](/archive/dev-news-briefs/2013-11-04/#admin) (email verification, reports).
+* The framework for [Tools](/archive/dev-news-briefs/2013-11-04/#tools), [Visualizations](/archive/dev-news-briefs/2013-11-04/#visualizations), and the [Core](/archive/dev-news-briefs/2013-11-04/#core) have been upgraded for performance and scalability. 
+* Come see! A whopping [26 pull requests incorporated](/archive/dev-news-briefs/2013-11-04/#pull-requests-merged)!. Many thanks to our open source community!
+* Numerous [Tool Shed enhancements and upgrades](/archive/dev-news-briefs/2013-11-04/#tool-shed): API, `READMEs`, Functional Tests, easier installs, and much much more.
+* Plus enhancements to [Workflows](/archive/dev-news-briefs/2013-11-04/#workflows), [API](/archive/dev-news-briefs/2013-11-04/#api), [CloudLaunch](/archive/dev-news-briefs/2013-11-04/#cloudlaunch), [UI](/archive/dev-news-briefs/2013-11-04/#ui), and [Bug Fixes](/archive/dev-news-briefs/2013-11-04/#bug-fixes).
 
 [http://getgalaxy.org](http://getgalaxy.org)
 
@@ -347,9 +347,9 @@ upgrade:   $ hg pull
 ```
 
 
-**[CloudMan](/src/news/cloudman-release/index.md)**
+**[CloudMan](/news/cloudman-release/)**
 
-A new version of [CloudMan](/cloudman/) was [released in July](/src/news/cloudman-release/index.md).
+A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-release/).
 
 <br />
 
@@ -388,4 +388,4 @@ There were many...
 # Other News
 
 * [bioblend 0.4.1](http://bit.ly/IhF6s2) CloudMan and Galaxy API library released 
-* New accounts on [Main](/main/) now have to activate using the link sent to email address or they can't run jobs (includes upload).  Want to enable this on your own Galaxy instance?  See the [User Accounts Administration](/src/authnz/config/gxy/index.md) page.
+* New accounts on [Main](/main/) now have to activate using the link sent to email address or they can't run jobs (includes upload).  Want to enable this on your own Galaxy instance?  See the [User Accounts Administration](/authnz/config/gxy/) page.

@@ -5,7 +5,7 @@ title: Frequently Asked Questions for Using Galaxy
 <slot name="/faqs/linkbox" />
 
 
-Questions that apply to using most Galaxy instances.  See [Main/FAQ](/src/main/faq/index.md) for questions that are specifically about using [Main](/main/), Galaxy's free public server.  See [Admin/FAQ](/src/admin/faq/index.md) for questions about [administering](/admin/) Galaxy.
+Questions that apply to using most Galaxy instances.  See [Main/FAQ](/main/faq/) for questions that are specifically about using [Main](/main/), Galaxy's free public server.  See [Admin/FAQ](/admin/faq/) for questions about [administering](/admin/) Galaxy.
 
 
 
@@ -17,7 +17,7 @@ Total disk space reserved per user is noted on the [Main](/main/) and [Test](/te
 
 When using a local, cloud, or public Galaxy servers hosted by other teams, quotas may or may not be set and are configured by that instance's administrator. 
 
-For help understanding and organizing datasets and histories, please see: [Managing Datasets](/src/learn/managing-datasets/index.md).
+For help understanding and organizing datasets and histories, please see: [Managing Datasets](/learn/managing-datasets/).
 
 ## Storage on Galaxy servers
 

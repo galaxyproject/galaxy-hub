@@ -28,7 +28,7 @@ You can also [install your own copy of Galaxy-P](http://getgalaxyp.org/), either
 
 See 
 * Benjamin Goudey, David Rawlinson, Qiao Wang, Fan Shi, Herman Ferra, Richard M Campbell, Linda Stern, Michael T Inouye, Cheng Soon Ong, Adam Kowalczyk (2013), "[GWIS – model-free, fast and exhaustive search for epistatic interactions in case-control GWAS](http://www.biomedcentral.com/1471-2164/14/S3/S10)", *BMC Genomics*, 14(Suppl 3):S10 
-* *[H37: GWIS: Online exhaustive bivariate GWAS in minutes](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013ISMBRawlinsonGWIS.pdf)*, poster presented by David Rawlinson, *et al.* at [ISMB 2013](/src/events/ismb2013/index.md).
+* *[H37: GWIS: Online exhaustive bivariate GWAS in minutes](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013ISMBRawlinsonGWIS.pdf)*, poster presented by David Rawlinson, *et al.* at [ISMB 2013](/events/ismb2013/).
 
 ## Martin Luther University Halle-Wittenberg
 
@@ -246,7 +246,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Aug 12, 2013 Galaxy Distribution
 
-**[Highlights](/src/archive/dev-news-briefs/2013-08-12/index.md):**
+**[Highlights](/archive/dev-news-briefs/2013-08-12/):**
 
 * Upgrades to **Data Manager** including improved installation actions
 * **Visualization** Framework tunings, plus updates to **Phyloviz**, **Scatterplot**, and **Trackster**
@@ -272,7 +272,7 @@ upgrade: $ hg pull
 
 ## CloudMan Release
 
-A new version of [CloudMan](/cloudman/) was [released in July](/src/news/cloudman-release/index.md).
+A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-release/).
 
 <br />
 

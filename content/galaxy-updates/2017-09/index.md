@@ -174,7 +174,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 The Galaxy is expanding! Please help it grow.
 
 * [Ingénieur en développement de composants Galaxy pour l’Ecologie](https://www.sfbi.fr/content/d%C3%A9veloppement-de-composants-galaxy-pour-l%E2%80%99ecologie), [Station de Biologie marine](http://www.mnhn.fr/fr/recherche-expertise/stations-marines/station-biologie-marine-concarneau), Concarneau, France
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 * [Ingénieur spécialisé en NGS](https://www.sfbi.fr/content/ing%C3%A9nieur-sp%C3%A9cialis%C3%A9-en-ngs), [BIOGECO](http://www6.bordeaux-aquitaine.inra.fr/biogeco), Bordeaux, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 
@@ -190,7 +190,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 The [Takeru Galaxy](http://www.nabe-intl.co.jp/seq/takerugalaxy.html) server is offered by [NABE<sup>3</sup> International](http://www.nabe-intl.co.jp), a manufacturer specializing in Linux-based clusters based in Tsukuba, Japan. Takeru Galaxy servers come as a fully configured (hardware and software) system featuring numerous standard biomedical analysis tools and reference genomes, all available in a Galaxy server.  Customization and multiple support options are available.
 
-Takeru Galaxy is the newest of [many commercial support options](/src/support/commercial/index.md) for Galaxy.
+Takeru Galaxy is the newest of [many commercial support options](/support/commercial/) for Galaxy.
 
 
 <!--
@@ -206,12 +206,12 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 <table class="table">
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> </td>
   </tr>
 </table>
@@ -229,7 +229,7 @@ No new resources were added to community directories in January or February.
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in August](/src/toolshed/contributions/2017-08/index.md).
+[Tool Shed contributions in August](/toolshed/contributions/2017-08/).
 
 # Releases
 

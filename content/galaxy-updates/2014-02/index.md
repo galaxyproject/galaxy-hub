@@ -80,7 +80,7 @@ The Galaxy is expanding! Please help it grow.
 
 * [Postdoctoral position in genomics/bio-informatics (NGS)](http://bit.ly/1eq5TvM) at University of Rennes 1 (France)  
 * [Post-doctoral Data analyst / Bioinformatician](http://bit.ly/1g6FxAp) position for high-throughput data analysis : Paris, France 
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**, *including positions at George Washington University*.
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -91,27 +91,27 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2014/'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
 
-The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
+The [2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
 ### Registration opens February 10
 
-Early registration will open February 10.  The [Training Day](/src/events/gcc2014/training-day/index.md) schedule will also be posted at that time.  The organizers are currently contacting potential instructors and building the schedule.  Thanks to everyone who took the time to nominate and vote on Training Day topics.
+Early registration will open February 10.  The [Training Day](/events/gcc2014/training-day/) schedule will also be posted at that time.  The organizers are currently contacting potential instructors and building the schedule.  Thanks to everyone who took the time to nominate and vote on Training Day topics.
 
-*[Training Day](/src/events/gcc2014/training-day/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
+*[Training Day](/events/gcc2014/training-day/)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
 
 ### Sponsorships
 
 <div class='left'><a href='http://genomeweb.com'><img src="/src/images/logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" /></a></div>
 
-We are pleased to have [GenomeWeb](http://genomeweb.com) as a [Silver Sponsor](/src/events/gcc2014/sponsor-exhibit/index.md) for [GCC2014](/src/events/gcc2014/index.md).  This is the first GCC that GenomeWeb has sponsored.  Please welcome them.
+We are pleased to have [GenomeWeb](http://genomeweb.com) as a [Silver Sponsor](/events/gcc2014/sponsor-exhibit/) for [GCC2014](/events/gcc2014/).  This is the first GCC that GenomeWeb has sponsored.  Please welcome them.
 
-There are still [Silver and Bronze sponsorships](/src/events/gcc2014/sponsor-exhibit/index.md) available. Please contact the [Organizers](/src/events/gcc2014/organizers/index.md) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event. 
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/sponsor-exhibit/index.md#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/events/gcc2014/organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014. 
 
 ## Galaxy Australasia Workshop 2014 (GAW 2014)
 
@@ -209,9 +209,9 @@ GMOD Malaysia 2014 is made possible by the generous support of the [National Evo
   </tr>
   <tr>
     <th> March 24-25 </th>
-    <td> <strong><a href='/src/events/gaw2014/index.md'>Galaxy Australasia Workshop 2014 (GAW2014)</a></strong> </td>
+    <td> <strong><a href='/events/gaw2014/'>Galaxy Australasia Workshop 2014 (GAW2014)</a></strong> </td>
     <td> Melbourne, Australia </td>
-    <td> <a href='/src/events/gaw2014/index.md#organisers'>Organisers</a> </td>
+    <td> <a href='/events/gaw2014/#organisers'>Organisers</a> </td>
   </tr>
   <tr>
     <th> March 26-30 </th>
@@ -315,7 +315,7 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 
 # Galaxy Distributions
 
-The [most recent Galaxy Distribution was November 04, 2013](/src/archive/dev-news-briefs/2013-11-04/index.md).
+The [most recent Galaxy Distribution was November 04, 2013](/archive/dev-news-briefs/2013-11-04/).
 
 <div class='right'><br /><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
@@ -323,7 +323,7 @@ The [most recent Galaxy Distribution was November 04, 2013](/src/archive/dev-new
 
 An update to Galaxy CloudMan was released in January. CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
-**This update brings a large number of updates and new features.**  See the [release announcement](/src/news/cloudman-release201401/index.md) for the list.  For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG.md?at=default) and for even more details see, *all [103 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=a6bf542%3Acc55ca9) from 4 contributors*.
+**This update brings a large number of updates and new features.**  See the [release announcement](/news/cloudman-release201401/) for the list.  For more details on the new features, see the the [CHANGELOG](https://bitbucket.org/galaxy/cloudman/src/tip/CHANGELOG.md?at=default) and for even more details see, *all [103 commit messages](https://bitbucket.org/galaxy/cloudman/commits/all?search=a6bf542%3Acc55ca9) from 4 contributors*.
 
 <div class='right'><br /><div class='right'><a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="180" /></a><br />
 <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="180" /><br /><br /></div>
@@ -353,7 +353,7 @@ bringing the number of deployment descriptions to 10.
 
 
 **New [Community Log Board](/blog/) entries** 
-* [LDAP remoteUser Logout](/src/blog/2014-01-ldap-remote-user-logout/index.md)
+* [LDAP remoteUser Logout](/blog/2014-01-ldap-remote-user-logout/)
 
 bringing the number of log entries to 12.
 

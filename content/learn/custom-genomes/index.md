@@ -12,14 +12,14 @@ title: Custom Genomes
 
 A reference genome contains the nucleotide sequence of the chromosomes, scaffolds, transcripts, or contigs for a single species. It is representative of a specific genome build or release. 
 
-In [Galaxy](http://usegalaxy.org), a **custom reference genome** is a [FASTA](/src/learn/datatypes/index.md#fasta) formatted [dataset](/learn/#datasets) that can be used in place of a **native reference genome** with most tools. 
+In [Galaxy](http://usegalaxy.org), a **custom reference genome** is a [FASTA](/learn/datatypes/#fasta) formatted [dataset](/learn/#datasets) that can be used in place of a **native reference genome** with most tools. 
 * **custom**: a dataset *from the history* loaded by users
-* **native**: *local* or *cached* by administrators (see [Admin/DataPreparation](/src/admin/data-preparation/index.md))
+* **native**: *local* or *cached* by administrators (see [Admin/DataPreparation](/admin/data-preparation/))
 
 # Overview
 
 There are **five basic steps** to using a *Custom Reference Genome*:
-* Obtain a **[FASTA](/src/learn/datatypes/index.md#fasta) copy of the target genome**
+* Obtain a **[FASTA](/learn/datatypes/#fasta) copy of the target genome**
 * **[FTP](/ftp-upload/) the genome to Galaxy** and load into a history as a [dataset](/learn/#datasets)
 * **Clean up the format** with the tool **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. 
 * Make sure the [chromosome identifiers](https://galaxyproject.org/support/chrom-identifiers) are a match for other inputs
@@ -41,14 +41,14 @@ There are **five basic steps** to using a *Custom Reference Genome*:
 
 # Format
 
-* Custom Genomes are required to be in [FASTA](/src/learn/datatypes/index.md#fasta) format
-* The data should be formatted as [FASTA](/src/learn/datatypes/index.md#fasta) prior to upload into Galaxy
-* The dataset will need to be labeled as [FASTA](/src/learn/datatypes/index.md#fasta) after loaded (if not automatically assigned)
+* Custom Genomes are required to be in [FASTA](/learn/datatypes/#fasta) format
+* The data should be formatted as [FASTA](/learn/datatypes/#fasta) prior to upload into Galaxy
+* The dataset will need to be labeled as [FASTA](/learn/datatypes/#fasta) after loaded (if not automatically assigned)
 * Did you use **NormalizeFasta** with the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace?
 
 # Custom Builds
 
-Some tools and functions require that the ['database' attribute is assigned](/src/support/datatypes-and-tools/index.md) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tools **Featurecounts**, **Extract Genomic DNA**, certain **Picard** tools, and the functions under  **Visualization**. 
+Some tools and functions require that the ['database' attribute is assigned](/support/datatypes-and-tools/) or that a Custom Reference Genome is set up as a *Custom Build* prior to use. Examples are the tools **Featurecounts**, **Extract Genomic DNA**, certain **Picard** tools, and the functions under  **Visualization**. 
 
 Once created, a *Custom Build* is added to the list **Database/Build:** on the dataset 'Edit Attributes' and 'Upload File' tool forms and is available for 'Visualizations'. These can be assigned or used just like any other reference genome. 
 
@@ -63,7 +63,7 @@ Once created, a *Custom Build* is added to the list **Database/Build:** on the d
 
 Certain tools expect that reference genomes are sorted in [lexicographical order](http://en.wikipedia.org/wiki/Lexicographical_order). These tools are often downstream of the initial mapping tools, which means that a large investment in a project has already been made (i.e. a long mapping process), before a problem with sorting pops up in conclusion layer tools. No one likes to start over!
 
-How to avoid? Always sort your [FASTA](/src/learn/datatypes/index.md#fasta) reference genome dataset at the beginning of a project. Many sources only provide sorted genomes, but double checking is your own responsibility, and super easy in Galaxy. So easy that there isn't even a shared workflow, just a recipe (but feel free to make your own):
+How to avoid? Always sort your [FASTA](/learn/datatypes/#fasta) reference genome dataset at the beginning of a project. Many sources only provide sorted genomes, but double checking is your own responsibility, and super easy in Galaxy. So easy that there isn't even a shared workflow, just a recipe (but feel free to make your own):
 
 Quick lexicographical sort recipe:
 
@@ -83,17 +83,17 @@ The above sorting method is for most tools, but not all. In particular, GATK too
 
 If a custom genome dataset is producing errors, double check the format and that the chromosome identifiers between **ALL** inputs. Clicking on the green bug icon ![](/src/images/icons/bug.png) will often provide a description of the problem. This does not automatically submit a bug report, and it is not always necessary to do so, but it is a good way to get more information about why a job is failing.
 
-### 1. Custom genome not assigned as <a href='/src/learn/datatypes/index.md#fasta'>FASTA</a> format
+### 1. Custom genome not assigned as <a href='/learn/datatypes/#fasta'>FASTA</a> format
   * **Symptoms include**: Dataset not included in custom genome pull down menu on tool forms.
   * **Solution**: Check datatype assigned to dataset and assign **fasta** format.
-  * **How**: Click on the dataset's pencil icon <img src="/src/images/icons/pencil.png" /> to reach the "Edit Attributes" page, and in the <a href='/src/learn/datatypes/index.md'>datatypes</a> section, type in "fasta", and save.
+  * **How**: Click on the dataset's pencil icon <img src="/src/images/icons/pencil.png" /> to reach the "Edit Attributes" page, and in the <a href='/learn/datatypes/'>datatypes</a> section, type in "fasta", and save.
 
 ### 2. Incomplete Custom genome file load
   * **Symptoms include**: Tool errors result the first time you use the Custom genome.
   * **Solution**: Use <strong>Text Manipulation &rarr; Select last lines from a dataset</strong> to check last 10 lines to see if file is truncated.
   * **How**: Reload the dataset (switch to <strong><a href='/ftp-upload/'>FTP</a></strong> if not using already). Check your FTP client logs to make sure the load is complete.
 
-### 3. Extra spaces, extra lines, inconsistent line wrapping, or any deviation from strict <a href='/src/learn/datatypes/index.md#fasta'>FASTA</a> format
+### 3. Extra spaces, extra lines, inconsistent line wrapping, or any deviation from strict <a href='/learn/datatypes/#fasta'>FASTA</a> format
   * **Symptoms include**: RNA-seq tools (<strong>Cufflinks, Cuffcompare, Cuffmerge, Cuffdiff</strong>) fails with error <code>Error: sequence lines in a FASTA record must have the same length!</code>.
   * **Solution**: File tested and corrected locally then re-upload or test/fix within Galaxy, then re-run.
   * **How**: 
@@ -109,7 +109,7 @@ If a custom genome dataset is producing errors, double check the format and that
 ### 5. Unsorted fasta genome file
   * **Symptoms include**: Tools such as <strong>Extract Genomic DNA</strong> report problems with sequence lengths.
   * **Solution**: First try sorting and re-formatting in Galaxy then re-run.
-  * **How**: To sort, follow instructions for <a href='/src/learn/custom-genomes/index.md#sorting'>Sorting</a> a Custom Genome.
+  * **How**: To sort, follow instructions for <a href='/learn/custom-genomes/#sorting'>Sorting</a> a Custom Genome.
  
 ### 6. Identifier and Description in ">" title lines used inconsistently by tools in the same analysis
   * **Symptoms include**: Will generally manifest as a false genome-mismatch problem. 
@@ -119,7 +119,7 @@ If a custom genome dataset is producing errors, double check the format and that
 ### 7. Unassigned database
   * **Symptoms include**: Tools report that no build is available for the assigned reference genome.
   * **Solution** This occurs with tools that require an assigned <em>database</em> metadata attribute. **SAMTools** and **Picard** often require this assignment.
-  * **How**: Create a <a href='/src/learn/custom-genomes/index.md#custom-builds'>Custom Build</a> and assign it to the dataset 
+  * **How**: Create a <a href='/learn/custom-genomes/#custom-builds'>Custom Build</a> and assign it to the dataset 
 
 # A problem or not a problem?
 Certain job errors with RNA-seq tools can at first appear to look like a format problem with a custom reference genome, but are actually a bit more complicated...

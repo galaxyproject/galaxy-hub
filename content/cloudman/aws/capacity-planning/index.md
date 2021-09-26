@@ -11,7 +11,7 @@ title: Capacity Planning
 </table>
 
 
-This page offers advice on how much cloud infrastructure you will need to [run your Galaxy instance on Amazon Web Services (AWS)](/src/cloudman/aws/index.md).  See the [general capacity planning page](/src/cloudman/capacity-planning/index.md) for advice that applies across different cloud infrastructures.
+This page offers advice on how much cloud infrastructure you will need to [run your Galaxy instance on Amazon Web Services (AWS)](/cloudman/aws/).  See the [general capacity planning page](/cloudman/capacity-planning/) for advice that applies across different cloud infrastructures.
 
 <slot name="/cloudman/aws/linkbox" />
 
@@ -75,7 +75,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
     <th> </th>
     <th> </th>
     <th> </th>
-    <th style=" text-align:center;"> Recommended for <a href='/src/cloudman/capacity-planning/index.md#usage-scenarios'>Usage Scenarios</a> </th>
+    <th style=" text-align:center;"> Recommended for <a href='/cloudman/capacity-planning/#usage-scenarios'>Usage Scenarios</a> </th>
     <th rowspan=3 style=" text-align:center;"> Comments </th>
   </tr>
   <tr>

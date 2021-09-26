@@ -148,7 +148,7 @@ But even something as universe-spanning as GCC doesn't suck up all the oxygen in
 </div>
 <div class="card-header trim-p">
 
-[Galaxy-E @ SORTEE 2021](/src/events/2021-07-sortee/index.md)
+[Galaxy-E @ SORTEE 2021](/events/2021-07-sortee/)
 
 </div>
 
@@ -168,13 +168,13 @@ SORTEE 2021 brings together researchers working to improve reliability and trans
 </div>
 <div class="card-header trim-p">
 
-[Galaxy @ ISMB/ECCB/BOSC 2021](/src/events/2021-ismb-eccb-bosc/index.md)
+[Galaxy @ ISMB/ECCB/BOSC 2021](/events/2021-ismb-eccb-bosc/)
 
 </div>
 
 **25-31 July, Online, Global**
 
-Galaxy has always had a presence at ISMB/ECCB and BOSC, and we will [be there again in 2021](/src/events/2021-ismb-eccb-bosc/index.md).
+Galaxy has always had a presence at ISMB/ECCB and BOSC, and we will [be there again in 2021](/events/2021-ismb-eccb-bosc/).
 </div>
 
 
@@ -183,7 +183,7 @@ Galaxy has always had a presence at ISMB/ECCB and BOSC, and we will [be there ag
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
@@ -349,7 +349,7 @@ How to obtain, run and combine these workflows appropriately for different types
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -377,11 +377,11 @@ Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
 <div class="card-header trim-p">
 
-[Galaxy 21.05](/src/news/2021-06-galaxy-release-21-05/index.md)
+[Galaxy 21.05](/news/2021-06-galaxy-release-21-05/)
 
 </div>
 
-We are pleased to [announce the 21.05 Galaxy release](/src/news/2021-06-galaxy-release-21-05/index.md).
+We are pleased to [announce the 21.05 Galaxy release](/news/2021-06-galaxy-release-21-05/).
 
 A new development stack (featuring FastAPI, Celery and Circus) is coming, a job handler update is here, ¡Galaxy, ahora en español!,  Remote Files gets FTP Support, and SimText visualization is added.
 

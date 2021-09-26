@@ -27,7 +27,7 @@ A [Visual Manual](http://intersci.ss.uci.edu/wiki/index.php/Visual_Manual) is av
 
 ## BioCiphers Lab Galaxy
 
-The [BioCiphers Lab Galaxy](http://avispa.biociphers.org/) provides a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania.  This includes the AVISPA alternative splicing prediction and analysis tool.  See Barash, *et al.,* "[AVISPA: a web tool for the prediction and analysis of alternative splicing](http://genomebiology.com/2013/14/10/R114)" *[Genome Biology](http://genomebiology.com/)* 2013, 14:R114.  BCL Galaxy offers [email support](/src/use/biociphers-lab-galaxy/index.md).  It is open to anyone from an educational organization.
+The [BioCiphers Lab Galaxy](http://avispa.biociphers.org/) provides a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania.  This includes the AVISPA alternative splicing prediction and analysis tool.  See Barash, *et al.,* "[AVISPA: a web tool for the prediction and analysis of alternative splicing](http://genomebiology.com/2013/14/10/R114)" *[Genome Biology](http://genomebiology.com/)* 2013, 14:R114.  BCL Galaxy offers [email support](/use/biociphers-lab-galaxy/).  It is open to anyone from an educational organization.
 
 <br />
 # New Papers
@@ -135,8 +135,8 @@ The Galaxy is expanding! Please help it grow.
 
 * [CDD en bioinformatique : recherche de variants structuraux par reséquençage (NGS)](http:////bit.ly/1h1yQnf)
 * [Stage Master 2](http://bit.ly/18Qd2Eg) : Développement et intégrationd’outils pour la bioanalyse dans l’environnement Galaxy 
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
-* [Computational biology opening](/src/news/computational-biology-paris/index.md) at University Pierre-et-Marie-Curie, Paris
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
+* [Computational biology opening](/news/computational-biology-paris/) at University Pierre-et-Marie-Curie, Paris
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**.
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -147,11 +147,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="130" /></a></div>
+<div class='right'><a href='/events/gcc2014/'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="130" /></a></div>
 
-The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
+The [2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
-Galaxy Community Conferences are an opportunity to participate in presentations, discussions, poster sessions, lightning talks and breakouts, all about high-throughput biology and the tools that support it.  The conference will also includes a *Training Day* offering in-depth topic coverage, across several concurrent sessions.  See [the GCC2013 web site](/src/events/gcc2013/index.md) for an idea of what happens at a Galaxy Community Conference.
+Galaxy Community Conferences are an opportunity to participate in presentations, discussions, poster sessions, lightning talks and breakouts, all about high-throughput biology and the tools that support it.  The conference will also includes a *Training Day* offering in-depth topic coverage, across several concurrent sessions.  See [the GCC2013 web site](/events/gcc2013/) for an idea of what happens at a Galaxy Community Conference.
 
 ## Galaxy Day, December 4, Paris
 
@@ -212,7 +212,7 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
 <a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='http://bit.ly/16tBdIZ'><img src="/src/images/logos/DDBJLogoSmall.png" alt="NGS解析Galaxy特集とDDBJ" height="60" /></a>
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/images/logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2013-11-20/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins Meetups" height="55" /></a>
+<a href='/community/galaxy-admins/meetups/2013-11-20/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins Meetups" height="55" /></a>
 <a href='http://www.ifb-galaxy.org/4dec2013.html'><img src="/src/images/logos/GalaxyIFB.png" alt="Galaxy Day" height="55" /></a>
 </div>
 
@@ -261,8 +261,8 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
   </tr>
   <tr>
     <th> November 20 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2013-11-20/index.md'>November GalaxyAdmins Meetup</a></em> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2013-11-20/index.md'>Online</a> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2013-11-20/'>November GalaxyAdmins Meetup</a></em> </td>
+    <td> <a href='/community/galaxy-admins/meetups/2013-11-20/'>Online</a> </td>
     <td> <a href='/people/dave-clements/'>Dave Clements</a>, Srinivas Maddhi </td>
   </tr>
   <tr>
@@ -324,9 +324,9 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> <strong><a href='/src/events/gcc2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
+    <td> <strong><a href='/events/gcc2014/'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/src/events/gcc2014/organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/events/gcc2014/organizers/'>Organizers</a> </td>
   </tr>
 </table>
 
@@ -336,20 +336,20 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
 
 <div class='right'><a href='https://lifeportal.uio.no/'><img src="/src/images/logos/LifeportalLeaf.jpg" alt="Lifeportal" /></a></div>
 
-The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/src/events/gcc2013/index.md), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/use/), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
+The University of Oslo (UiO), the hosts of this year's [Galaxy Community Conference](/events/gcc2013/), launched [Lifeportal](https://lifeportal.uio.no/) in October.  While Lifeportal is *not* a [public Galaxy server](/use/), it is [available to all research institutions in Norway and their collaborators abroad](http://www.uio.no/english/services/it/research/hpc/lifeportal/start-using/).
 
 From the [Lifeportal website](https://lifeportal.uio.no/):
  Lifeportal gives you easy access to the High Performance Computing cluster Abel at the University of Oslo. The Galaxy based Lifeportal has a continuously growing list of services, and among them the most widely used tools from the former Bioportal.
 
-The [official opening event](http://www.uio.no/english/services/it/research/hpc/lifeportal/news/opening-of-the-lifeportal.html) was on October 9 and included talks and demonstrations by Nils Christophersen, Rector Ole Petter Ottersen, Nikolay Vazov, Katerina Michalickova, Sveinung Gundersen, and Geir Kjetil Sandve, all of whom spoke and/or presented their work at [GCC2013](/src/events/gcc2013/program/index.md). Rector Ole Petter Ottersen commented that "The slogan of the university is 'reaching for the stars.' Great to open an entire galaxy today."
+The [official opening event](http://www.uio.no/english/services/it/research/hpc/lifeportal/news/opening-of-the-lifeportal.html) was on October 9 and included talks and demonstrations by Nils Christophersen, Rector Ole Petter Ottersen, Nikolay Vazov, Katerina Michalickova, Sveinung Gundersen, and Geir Kjetil Sandve, all of whom spoke and/or presented their work at [GCC2013](/events/gcc2013/program/). Rector Ole Petter Ottersen commented that "The slogan of the university is 'reaching for the stars.' Great to open an entire galaxy today."
 
 See [this article](http://bit.ly/GDSjK4) for more on Lifeportal and why UIO chose Galaxy.
 
 # Galaxy Distributions
 
-The most recent [Galaxy distribution was August 12](/src/archive/dev-news-briefs/2013-08-12/index.md).
+The most recent [Galaxy distribution was August 12](/archive/dev-news-briefs/2013-08-12/).
 
-A new version of [CloudMan](/cloudman/) was [released in July](/src/news/cloudman-release/index.md).
+A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-release/).
 
 <br />
 

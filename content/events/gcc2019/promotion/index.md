@@ -17,7 +17,7 @@
 ## Logos
 
 * [Conference logos](https://github.com/usegalaxy-eu/gcc2019/tree/master/branding) are available in slate blue, gray, and transparent backgrounds, in both PNG and SVG format.
-* [Galaxy Project Logos](/src/images/galaxy-logos/index.md)
+* [Galaxy Project Logos](/images/galaxy-logos/)
 
 ## Banner
 

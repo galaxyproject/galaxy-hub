@@ -4,8 +4,8 @@ Common place to attach presentations in the [Documents](/documents/) hierarchy.
 
 Also see these subdirectories for specific events:
 
-* [GCC2013](/src/documents/presentations/gcc2013/index.md)
-* [GCC2012](/src/documents/presentations/gcc2012/index.md)
+* [GCC2013](/documents/presentations/gcc2013/)
+* [GCC2012](/documents/presentations/gcc2012/)
 
 ## Presentations
 

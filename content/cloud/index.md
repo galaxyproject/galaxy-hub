@@ -18,7 +18,7 @@ See the CloudMan page for more.
 
 # Cloud Storage
 
-Galaxy can store user data on a cloud-based storage, and can also download data from a cloud-based storage to a user history; providing users with _theoretically_ unlimited storage and facilitate joint data analysis. For details see [the documentaiton page](/src/cloud/storage/index.md).
+Galaxy can store user data on a cloud-based storage, and can also download data from a cloud-based storage to a user history; providing users with _theoretically_ unlimited storage and facilitate joint data analysis. For details see [the documentaiton page](/cloud/storage/).
 
 
 # Globus Genomics

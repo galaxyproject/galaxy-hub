@@ -7,7 +7,7 @@ title:  2nd German Galaxy Developer workshop, Friday, October 21st, Freiburg
 
 
 
-On the second day of the [Swiss German Galaxy Days 2016](/src/events/sg2016/index.md), we will organize a Galaxy Developer Day in Freiburg.
+On the second day of the [Swiss German Galaxy Days 2016](/events/sg2016/), we will organize a Galaxy Developer Day in Freiburg.
 
 
 ## Location

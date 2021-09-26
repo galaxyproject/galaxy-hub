@@ -1,7 +1,7 @@
 <slot name="/learn/linkbox" />
 # Workflow Variables
 
-[Back to Advanced Workflow](/src/learn/advanced-workflow/index.md)
+[Back to Advanced Workflow](/learn/advanced-workflow/)
 
 ## Where are variables used?
 

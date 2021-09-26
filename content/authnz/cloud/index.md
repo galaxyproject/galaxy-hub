@@ -16,16 +16,16 @@ independent privileges;
 independent from any other service and the user themself.
 
 To provide readers with a gist of this method, we have prepared a demo with all the 
-pre-bake settings and configurations, which is discussed on [this page](/src/authnz/cloud/demo/index.md).
+pre-bake settings and configurations, which is discussed on [this page](/authnz/cloud/demo/).
 
 
 To use this method a user needs to take the following steps: 
 
-1. Login to Galaxy using Google account (or any other supported OIDC-based identity provider). [Read this page](/src/authnz/config/oidc/index.md) for details;
+1. Login to Galaxy using Google account (or any other supported OIDC-based identity provider). [Read this page](/authnz/config/oidc/) for details;
 2. Setup a provider-specific _cloud authorization_ in Galaxy:
-	1. read [how to setup cloud authorization for AWS](/src/authnz/cloud/aws/index.md);
-	2. read [how to setup cloud authorization for Azure](/src/authnz/cloud/azure/index.md);
-	3. read [how to setup cloud authorization for GCP](/src/authnz/cloud/gcp/index.md). 
+	1. read [how to setup cloud authorization for AWS](/authnz/cloud/aws/);
+	2. read [how to setup cloud authorization for Azure](/authnz/cloud/azure/);
+	3. read [how to setup cloud authorization for GCP](/authnz/cloud/gcp/). 
 	
 **Related publications:**
 - Jalili, Vahid, et al. ["Cloud bursting galaxy: federated identity and access management."](https://doi.org/10.1093/bioinformatics/btz472) Bioinformatics 36.1 (2020): 1-9.

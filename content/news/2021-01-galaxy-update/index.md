@@ -103,19 +103,19 @@ This series of [six webinar sessions](https://elixir-europe.org/events/2nd-galax
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtables](/src/community/devroundtable/index.md)</div>
+<div class="card-header">[Galaxy Developer Roundtables](/community/devroundtable/)</div>
 
 There are two roundtable meetups this month:
 
-* **[Galaxy Working Groups Follow Up and Discussion](/src/events/2021-01-07-dev-roundtable/index.md), January 7**, Björn Grüning, Anton Nekrutenko
-* **[FastAPI](/src/events/2021-01-21-dev-roundtable/index.md), January 21**, Marius van den Beek
+* **[Galaxy Working Groups Follow Up and Discussion](/events/2021-01-07-dev-roundtable/), January 7**, Björn Grüning, Anton Nekrutenko
+* **[FastAPI](/events/2021-01-21-dev-roundtable/), January 21**, Marius van den Beek
 </div>
 
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2021-01-papercuts/papercuts-2021-01.png" alt="Paper Cuts January" />
-<div class="card-header">[January Papercuts CollaborationFest](/src/events/2021-01-papercuts/index.md)</div>
+<div class="card-header">[January Papercuts CollaborationFest](/events/2021-01-papercuts/)</div>
 
 **21 January, Online**
 
@@ -127,9 +127,9 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 <!--Galaxy Admin Training -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
-<div class="card-header">[Future Galaxy Admin Trainings](/src/events/2021-01-admin-training/index.md)</div>
+<div class="card-header">[Future Galaxy Admin Trainings](/events/2021-01-admin-training/)</div>
 
-The application deadline for the [January 2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) has passed, and (as expected) we received more applications than we have slots.  If you missed the deadline or weren't accepted, then all is not lost because:
+The application deadline for the [January 2021 Galaxy Admin Training](/events/2021-01-admin-training/) has passed, and (as expected) we received more applications than we have slots.  If you missed the deadline or weren't accepted, then all is not lost because:
 
 1. More than a day of Admin Training will be offered as [part of GCC2021](https://www.vibconferences.be/events/gcc2021) in July.
 1. You can [register your interest in future Galaxy Admin Trainings here](https://docs.google.com/forms/d/e/1FAIpQLSfKAcHcZGt7H9LyXbfKJNCrDkh1dwPproyirxSmasD9Aqt2JQ/viewform).  *If we get enough interest, we will try to hold another online training sometime this year.*
@@ -194,7 +194,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <!-- UseGalaxy.No -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[UseGalaxy.no](/src/use/usegalaxy-no/index.md)</div>
+<div class="card-header">[UseGalaxy.no](/use/usegalaxy-no/)</div>
 
 <img class="card-img-top" src="/src/use/usegalaxy-no/usegalaxy-no-logo.jpg" alt="UseGalaxy.NO" />
 
@@ -204,11 +204,11 @@ A central, joint & free [Galaxy instance for Norway-based researchers and their 
 
 <!-- VINYL -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[VINYL on Laniakea](/src/use/vinyl/index.md)</div>
+<div class="card-header">[VINYL on Laniakea](/use/vinyl/)</div>
 
 <img class="card-img-top" src="/src/use/vinyl/vinyl-logo-slice.png" alt="VINYL: Variant prIoritizatioN bY survivaL analysis" />
 
-A flexible and fully automated system for the functional annotation and prioritization of genetic variants. The [VINYL server](http://www.beaconlab.it/VINYL) runs on the [Laniakea research cloud](/src/use/laniakea/index.md). A [VINYL manual](http://90.147.75.93/galaxy/static/manual/), including a tutorial is provided.
+A flexible and fully automated system for the functional annotation and prioritization of genetic variants. The [VINYL server](http://www.beaconlab.it/VINYL) runs on the [Laniakea research cloud](/use/laniakea/). A [VINYL manual](http://90.147.75.93/galaxy/static/manual/), including a tutorial is provided.
 </div>
 
 
@@ -224,7 +224,7 @@ The [Workflow4Metabolomics (W4M) server](https://workflow4metabolomics.usegalaxy
 
 <!-- Center for Phage Technology (CPT) -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[Center for Phage Technology (CPT)](/src/use/center-for-phage-technology-cpt/index.md)</div>
+<div class="card-header">[Center for Phage Technology (CPT)](/use/center-for-phage-technology-cpt/)</div>
 
 <img class="card-img-top" src="/src/use/center-for-phage-technology-cpt/cpt-logo.png" alt="Center for Phage Technology (CPT)" />
 
@@ -318,7 +318,7 @@ Learn your way through Galaxy interface and functionalities with automatically g
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header"> [Metaproteomics Analysis of SARS-CoV-2-Infected Patient Samples Reveals Presence of Potential Coinfecting Microorganisms](https://doi.org/10.1021/acs.jproteome.0c00822)</div>

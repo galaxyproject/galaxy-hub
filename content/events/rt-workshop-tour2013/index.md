@@ -10,12 +10,12 @@ Doing research in the Research Triangle?  A [Galaxy Workshop Tour](/events/) is 
 
 <table>
   <tr>
-    <td colspan=4 style=" text-align: center; border: none;"> <a href='/src/events/niehs2013/index.md'><img src="/src/images/logos/NIEHSLogoWideTrans.png" alt="National Institute of Environmental Health Sciences (NIEHS)" width="400" /></a> <br /> <strong><a href='/src/events/niehs2013/index.md'>Thursday, July 18</a></strong><br /><br /><br /></td>
+    <td colspan=4 style=" text-align: center; border: none;"> <a href='/events/niehs2013/'><img src="/src/images/logos/NIEHSLogoWideTrans.png" alt="National Institute of Environmental Health Sciences (NIEHS)" width="400" /></a> <br /> <strong><a href='/events/niehs2013/'>Thursday, July 18</a></strong><br /><br /><br /></td>
     <td colspan=3 style=" text-align: center; border: none;"> &nbsp; </td>
   </tr>
   <tr>
     <td colspan=1 style=" text-align: center; border: none;"> </td>
-    <td colspan=4 style=" text-align: center; border: none;"> <a href='/src/events/unc2013/index.md'><img src="/src/images/logos/UNCLogo.png" alt="University of North Carolina Chapel Hill" width="400" /></a> <br /> <strong><a href='/src/events/unc2013/index.md'>Friday, July 19</a></strong><br /><br /><br /></td>
+    <td colspan=4 style=" text-align: center; border: none;"> <a href='/events/unc2013/'><img src="/src/images/logos/UNCLogo.png" alt="University of North Carolina Chapel Hill" width="400" /></a> <br /> <strong><a href='/events/unc2013/'>Friday, July 19</a></strong><br /><br /><br /></td>
     <td colspan=2 style=" text-align: center; border: none;"> </td>
   </tr>
   <tr>
@@ -25,7 +25,7 @@ Doing research in the Research Triangle?  A [Galaxy Workshop Tour](/events/) is 
   </tr>
   <tr>
     <td colspan=3 style=" text-align: center; border: none;"> </td>
-    <td colspan=4 style=" text-align: center; border: none;"> <a href='/src/events/ncsu2013/index.md'><img src="/src/images/logos/NCSULogoWideRed.png" alt="North Carolina State University" width="400" /></a><br /><strong><a href='/src/events/ncsu2013/index.md'>Monday, July 22</a></strong><br />Workshop is full, but there is a waiting list </td>
+    <td colspan=4 style=" text-align: center; border: none;"> <a href='/events/ncsu2013/'><img src="/src/images/logos/NCSULogoWideRed.png" alt="North Carolina State University" width="400" /></a><br /><strong><a href='/events/ncsu2013/'>Monday, July 22</a></strong><br />Workshop is full, but there is a waiting list </td>
   </tr>
 </table>
 

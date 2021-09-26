@@ -5,7 +5,7 @@ date: 2014-08-11
 
 [All News Briefs](/docs/)
 <br />
-[Distribution Summary 2014_08_11](/src/news/2014-08-11-galaxy-distribution/index.md)
+[Distribution Summary 2014_08_11](/news/2014-08-11-galaxy-distribution/)
 
 <div class='left'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
 
@@ -142,7 +142,7 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 1. Galaxy CHARTS were a big wow! on [Twitter](https://twitter.com/galaxyproject), and we thank you for that, but they didn’t make the last News Brief. Get caught up and make sure you don’t miss the full color **[Charts Wiki](https://wiki.galaxyproject.org/Learn/Visualization/Charts)** <div class='red'>this</span> <div class='blue'>time</span> <div class='green'>around</span> !
 1. Docker, Docker, [DOCKER](https://www.docker.com) .. chant (er, VOTE) in [Trello](https://wiki.galaxyproject.org/Issues) and you shall likely receive.
 1. Psss… we migrated a few tools off Main, but they’re enjoying good company in the Toolshed until you need them. Find your favorite `SOLiD` mapping tools there: [BWA](https://toolshed.g2.bx.psu.edu/view/devteam/bwa_wrappers) & [Bowtie](https://toolshed.g2.bx.psu.edu/view/devteam/bowtie_color_wrappers)
-1. And we heard that there is quite a bit of deploy and config going on over at the [Galaxy Biostars](http://biostar.usegalaxy.org) forum. From where oh where will the advice come from next? Claiming one’s account is tricky - first you need to log into your [Main](http://usegalaxy.org) account, next find a tool form, and then finally click a button in the upper right corner. [Jump in…](/src/support/biostar/index.md)
+1. And we heard that there is quite a bit of deploy and config going on over at the [Galaxy Biostars](http://biostar.usegalaxy.org) forum. From where oh where will the advice come from next? Claiming one’s account is tricky - first you need to log into your [Main](http://usegalaxy.org) account, next find a tool form, and then finally click a button in the upper right corner. [Jump in…](/support/biostar/)
 1. For more news, we'd like to share the prior two *Updates*:<br />
   • [July 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014-07)<br />
   • [August 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014-08)
@@ -159,4 +159,4 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 # About Galaxy
 
 <div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/galaxy-project/) • [Admin](/admin/) • [Issues](/issues/) • [Big Picture](/galaxy-project/) • [Community](/community/) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/cloudman/) • [Tool Shed](/toolshed/) • [Develop](/develop/) • [News Briefs](/docs/) • [Servers](/use/) • [Learn](/learn/) • [Support](/support/) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/news/) • [Twitter](/galaxy-on-twitter/) • [Events](/events/) • [Teach](/teach/) • [Issues](/issues/) • [Cite](/citing-galaxy/) • [Galaxy Team](/galaxy-team/)
+**[About Galaxy](/support/about-galaxy/)** • [Galaxy Project](/galaxy-project/) • [Admin](/admin/) • [Issues](/issues/) • [Big Picture](/galaxy-project/) • [Community](/community/) • [Get Galaxy](/admin/get-galaxy/) • [CloudMan](/cloudman/) • [Tool Shed](/toolshed/) • [Develop](/develop/) • [News Briefs](/docs/) • [Servers](/use/) • [Learn](/learn/) • [Support](/support/) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/news/) • [Twitter](/galaxy-on-twitter/) • [Events](/events/) • [Teach](/teach/) • [Issues](/issues/) • [Cite](/citing-galaxy/) • [Galaxy Team](/galaxy-team/)

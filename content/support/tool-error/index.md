@@ -7,7 +7,7 @@ Related topics
 
 * [Tutorials](/learn/)
 * [Getting Inputs Right](/src/support/#getting-inputs-right)
-* [Extended Help for Differential Expression Analysis Tools](/src/support/diff-expression/index.md)
+* [Extended Help for Differential Expression Analysis Tools](/support/diff-expression/)
 * [Reporting Usage Issues or Software bugs](/issues/)
 * [Choices](/use/#which-platform-platform-type-to-choose)
 * [Ecosystem](https://galaxyproject.github.io/)
@@ -53,7 +53,7 @@ If you are still stuck after reviewing, please do send in the bug report and we 
 * Do not delete the history immediately after submitting a bug report. Otherwise, there is a good chance we won't be able to help you.
 * Should you solve the problem before we reply, a follow-up email to let us know is appreciated.
 * The majority of submitted reports are not true software bugs. **Usage problems involving incorrect input format or content cause most errors**. 
-* Confirming correct tool usage is where we start when diagnosing a problem, [**and is where you should start, too.**](/src/support/troubleshoot-an-error/index.md). Sharing details about what you checked is always helpful.
+* Confirming correct tool usage is where we start when diagnosing a problem, [**and is where you should start, too.**](/support/troubleshoot-an-error/). Sharing details about what you checked is always helpful.
 
 ### Type: input problems
 
@@ -254,7 +254,7 @@ Usage error:
 
 Software or Tool Bug:
 
-* A tool fails and produces an error message stating that a dependency was not found. The tool is not on the list of [Known tool issues](/src/support/tool-issues/index.md) and a search against [all issues](/issues/) does not locate a prior reported problem. You report the issue through a bug report, it is clarified and confirmed, the developers make a fix, and the updated tool is installed on the server. Future jobs are now successful.
+* A tool fails and produces an error message stating that a dependency was not found. The tool is not on the list of [Known tool issues](/support/tool-issues/) and a search against [all issues](/issues/) does not locate a prior reported problem. You report the issue through a bug report, it is clarified and confirmed, the developers make a fix, and the updated tool is installed on the server. Future jobs are now successful.
 * When importing an older workflow, a pop-up notice informs that an upgraded tool is available. This tool is editted into the workflow. However, now the workflow fails - at that same tool that was updated. The issue is reported and fixed. Now your workflow runs without problems.
 
 #### How to detect - bugs

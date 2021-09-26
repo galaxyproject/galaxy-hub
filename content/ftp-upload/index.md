@@ -98,4 +98,4 @@ Files not imported within 3 days will be cleaned up from the FTP site.
 ## Configure for your Galaxy
 
 FTP upload can be configured in local installations of Galaxy, instructions to do
-so can be found at [admin/config/upload-via-ftp](/src/admin/config/upload-via-ftp/index.md).
+so can be found at [admin/config/upload-via-ftp](/admin/config/upload-via-ftp/).

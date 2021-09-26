@@ -1,8 +1,8 @@
 ---
-title: Tools contributed to the Galaxy Project Tool Shed in [January and February 2017](/src/galaxy-updates/2017-03/index.md).
+title: Tools contributed to the Galaxy Project Tool Shed in [January and February 2017](/galaxy-updates/2017-03/).
 ---
 * [Wiki Root](/toolshed/)
-* [All monthly summaries](/src/toolshed/contributions/index.md)
+* [All monthly summaries](/toolshed/contributions/)
 
 
 # Featured Updates

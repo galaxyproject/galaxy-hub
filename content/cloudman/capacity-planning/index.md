@@ -7,7 +7,7 @@ title: Capacity Planning
 
 This page offers advice on how much cloud infrastructure you will need to run your Galaxy instance.  This of course depends on the magnitude of your data, what type of analysis you are doing, and how consistent you expect your load to be.  Since these will be different for everyone, this page does not offer hard and fast rules, but rather guidelines to help you along.  Fortunately, due to the *elastic* nature of CloudMan, configuration can be fairly forgiving.
 
-**Be Aware:** The specific configuration details will depend on the cloud [infrastructure vendor and platform](/src/cloudman/capacity-planning/index.md#platforms).
+**Be Aware:** The specific configuration details will depend on the cloud [infrastructure vendor and platform](/cloudman/capacity-planning/#platforms).
 
 # Usage Scenarios
 
@@ -15,7 +15,7 @@ There are many reasons why you may want to run Galaxy on the cloud.  This page a
 
 ## Scenario 1: Light usage
 
-Scenario 1 is characterized by **light usage paired with the desire to avoid system administration.**  In this case you want to use Galaxy for relatively lightweight processing tasks, but you don't want to use a [shared Galaxy server](/use/), or install your own copy.  Galaxy's cloud images come with more tools and datasets preinstalled than does [Main](/main/), and far more than a [locally installed Galaxy](/src/admin/get-galaxy/index.md).  You may also not want to put your data on a public server.
+Scenario 1 is characterized by **light usage paired with the desire to avoid system administration.**  In this case you want to use Galaxy for relatively lightweight processing tasks, but you don't want to use a [shared Galaxy server](/use/), or install your own copy.  Galaxy's cloud images come with more tools and datasets preinstalled than does [Main](/main/), and far more than a [locally installed Galaxy](/admin/get-galaxy/).  You may also not want to put your data on a public server.
 
 ## Scenario 2: Occasional but heavy usage
 
@@ -36,5 +36,5 @@ In a CloudMan based Galaxy cloud configuration you will need to determine two ma
 # Platforms
 
 Each different cloud infrastructures has it's own capacity planning information:
-* [Amazon Web Services (AWS) Capacity Planning](/src/cloudman/aws/capacity-planning/index.md)
+* [Amazon Web Services (AWS) Capacity Planning](/cloudman/aws/capacity-planning/)
 * *... (others to be added)*

@@ -95,7 +95,7 @@ The new papers covered these topics:
 
 
 <br />
-[GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) topics are [nominated by you](http://bit.ly/gcc2015tdnom), the Galaxy Community.  Please take a few minutes to nominate a topic.  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see what topics were nominated in [2013](http://bit.ly/1i2j1gN) and [2014](http://bit.ly/1s6NtMN), and the [Events](/events/) and the [Events Archives](/src/events/archive/index.md).
+[GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) topics are [nominated by you](http://bit.ly/gcc2015tdnom), the Galaxy Community.  Please take a few minutes to nominate a topic.  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see what topics were nominated in [2013](http://bit.ly/1i2j1gN) and [2014](http://bit.ly/1s6NtMN), and the [Events](/events/) and the [Events Archives](/events/archive/).
 
 Nominated topics will be published on the [Training Day](http://gcc2015.tsl.ac.uk/training-day/) page as they come in.  **Nominations close 6 January**.  Topics will be compiled into a uniform list by the [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers), and topics will be voted on by the Galaxy Community 12-23 January.
 
@@ -118,7 +118,7 @@ Please let the GCC2015 Organising Committee ([gcc2015-org AT lists DOT galaxypro
 
 <div class='center'> 
 <a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src="/src/images/logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2015)" height="80" /></a>
-<a href='/src/events/sdsu2014/index.md'><img src="/src/images/logos/SDSULogo.jpg" alt="Galaxy Workshops @ San Diego State University" height="80" /></a> &nbsp;
+<a href='/events/sdsu2014/'><img src="/src/images/logos/SDSULogo.jpg" alt="Galaxy Workshops @ San Diego State University" height="80" /></a> &nbsp;
 <a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'><img src="/src/images/logos/VIBLogoBig.jpg" alt="Revolutionizing Next-Generation Sequencing: Tools and Technologies" height="75" /></a> &nbsp;
 <a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src="/src/images/logos/SupAgroMontpelierLogo.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" height="60" /></a>
 </div>
@@ -142,7 +142,7 @@ There are [upcoming events](/events/) on two continents.  See the [Galaxy Events
   </tr>
   <tr>
     <th> January 15 </th>
-    <td> <em><a href='/src/events/sdsu2014/index.md'>Galaxy Workshops</a></em> </td>
+    <td> <em><a href='/events/sdsu2014/'>Galaxy Workshops</a></em> </td>
     <td> <a href='http://sdsu.edu/'>San Diego State University</a>, San Diego, California, United States </td>
     <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
@@ -196,11 +196,11 @@ There are [upcoming events](/events/) on two continents.  See the [Galaxy Events
 
 # GalaxyAdmins is back!
 
-<div class='right'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins is back!" width="150" /></a></div>
+<div class='right'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins is back!" width="150" /></a></div>
 
 *We just don't know exactly when, yet ...*
 
-Except for a [meetup at GCC2014](/src/events/gcc2014/bofs/galaxy-admins/index.md), the [GalaxyAdmins group](/src/community/galaxy-admins/index.md) has been hiatus for a while.  Well, thanks to the efforts of [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) the GalaxyAdmins group *is back.*   Starting this month, we will resume our bi-monthly conference calls.  
+Except for a [meetup at GCC2014](/events/gcc2014/bofs/galaxy-admins/), the [GalaxyAdmins group](/community/galaxy-admins/) has been hiatus for a while.  Well, thanks to the efforts of [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) the GalaxyAdmins group *is back.*   Starting this month, we will resume our bi-monthly conference calls.  
 
 *Galaxy-Admins* is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
@@ -222,10 +222,10 @@ The likely presentation for the January meetup will be a summary of the Galaxy C
 
 The Galaxy is expanding! Please help it grow.
 
-* [Systems Administrator / Information Technologist](/src/news/mc-master-opening/index.md), [McArthur Lab](http://mcarthurbioinformatics.ca/) in the [McMaster University Department of Biochemistry & Biomedical Sciences](http://fhs.mcmaster.ca/biochem/)
+* [Systems Administrator / Information Technologist](/news/mc-master-opening/), [McArthur Lab](http://mcarthurbioinformatics.ca/) in the [McMaster University Department of Biochemistry & Biomedical Sciences](http://fhs.mcmaster.ca/biochem/)
 * [Senior Development Engineer - Bioinformatics](http://bit.ly/1yGvefn), and [Bioinformatician II](http://bit.ly/1vBhgxB), University of Massachusetts Medical School
-* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/src/news/bioinformatician-freiburg2014/index.md) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
+* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/news/bioinformatician-freiburg2014/) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -299,9 +299,9 @@ Several new Training Resources were added in December:
 
 # New Releases
 
-[BioBlend v0.5.2 was released in October](/src/news/bio-blend-v0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  
+[BioBlend v0.5.2 was released in October](/src/news/bio-blend-v0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  
 
-New versions of [Galaxy](/src/galaxy-updates/2014-09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release), and [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release) were all released in August.
+New versions of [Galaxy](/galaxy-updates/2014-09/#august-11-2014-galaxy-distribution), [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), and [blend4j](/galaxy-updates/2014-09/#blend4j-011-release) were all released in August.
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
@@ -388,8 +388,8 @@ In no particular order:
   * [package_r_3_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_r_3_1_2):  Contains a tool dependency definition that downloads and compiles version 3.0.3 of the the R package.
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [package_bowtie_2_2_4](https://toolshed.g2.bx.psu.edu/view/devteam/package_bowtie_2_2_4): tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package Contains a tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package
-  * [package_cufflinks_2_2_1](https://toolshed.g2.bx.psu.edu/view/devteam/package_cufflinks_2_2_1): tool dependency definition that downloads and compiles version 2.2.1 of the cufflinks RNA-Seq suite. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/src/toolshed/defining-repository-dependencies/index.md#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
-  * [package_picard_1_126_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_picard_1_126_0): tool dependency definition that downloads and compiles version 1.126.0 of the Picard package. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/src/toolshed/defining-repository-dependencies/index.md#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
+  * [package_cufflinks_2_2_1](https://toolshed.g2.bx.psu.edu/view/devteam/package_cufflinks_2_2_1): tool dependency definition that downloads and compiles version 2.2.1 of the cufflinks RNA-Seq suite. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/toolshed/defining-repository-dependencies/#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
+  * [package_picard_1_126_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_picard_1_126_0): tool dependency definition that downloads and compiles version 1.126.0 of the Picard package. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/toolshed/defining-repository-dependencies/#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
   * [package_freebayes_0_9_18_0059bdf](https://toolshed.g2.bx.psu.edu/view/devteam/package_freebayes_0_9_18_0059bdf): tool dependency definition that downloads and compiles version 0.9.18 of FreeBayes. Program: freebayes (Bayesian haplotype-based polymorphism discovery and genotyping.)  Version: 0.9.18 (0059bdf)
 
 * *From [mrvollger](https://toolshed.g2.bx.psu.edu/view/mrvollger):*

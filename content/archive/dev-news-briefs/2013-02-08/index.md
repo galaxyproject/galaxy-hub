@@ -234,16 +234,16 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 ## GCC2013
 
-<div class='right'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a> <br />
-<a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a> <br />
+<a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
 ### Training Day Topic Voting Closes 11 February
 
-If you might attend the [GCC2013 Training Day](/src/events/gcc2013/training-day/index.md) then please [review the possible topics](/src/events/gcc2013/training-day/index.md#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
+If you might attend the [GCC2013 Training Day](/events/gcc2013/training-day/) then please [review the possible topics](/events/gcc2013/training-day/#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
 
 ### Registration, Talk & Poster Submission Opens 22 February
 
-[Early Registration](/src/events/gcc2013/register/index.md), and [talk and poster abstract submission](/src/events/gcc2013/abstracts/index.md) all [open 22 February](/src/events/gcc2013/key-dates/index.md).  Watch the mailing lists and this wiki for details.
+[Early Registration](/events/gcc2013/register/), and [talk and poster abstract submission](/events/gcc2013/abstracts/) all [open 22 February](/events/gcc2013/key-dates/).  Watch the mailing lists and this wiki for details.
 
 ----
 <br />

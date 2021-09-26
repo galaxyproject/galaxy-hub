@@ -7,7 +7,7 @@ date: "2020-12-03"
 
 <img class="float-right" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Project" />
 
-This [Galaxy webinar](/src/events/2020-12-webinar-where/index.md) will introduce the many options for using Galaxy right now and anywhere in the world. We'll cover 
+This [Galaxy webinar](/events/2020-12-webinar-where/) will introduce the many options for using Galaxy right now and anywhere in the world. We'll cover 
 
 * Publicly accessible Galaxy servers on the web (there are over 100 of them)
 * Research and commercial cloud platforms, from Australia (Nectar) to the US (Jetstream, AnVIL), and everywhere in between (CloudLaunch)

@@ -84,7 +84,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='/src/events/switzerland2012/index.md'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
+<a href='/events/switzerland2012/'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
 <a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src="/src/images/logos/EScience2012Logo.png" alt="Extending High-Performance Computing Beyond its Traditional User Communities Workshop" height="100" /></a>&nbsp;
 <a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/src/images/logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>
 </div>
@@ -97,7 +97,7 @@ There are October application, poster, and paper deadlines for
 * [Rocky 2012](http://www.iscb.org/rocky2012) (deadline October 4)
 * [BeNeLux Bioinformatics Conference 2012 ](http://www.nbic.nl/bbc2012) (deadline October 22)
 
-October events include the [(first Swiss) Galaxy Workshop](/src/events/switzerland2012/index.md); [InCoB 2012](http://incob2012.org); [IEEE Conference on eScience](http://www.ci.uchicago.edu/escience2012/) (eScience 2012, which includes the [Extending High-Performance Computing Beyond its Traditional User Communities workshop](http://www.psc.edu/events/escience-2012-workshop/)); [Bio-IT World Europe](http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=116078&libID=116026); [BioVis: IEEE Symposium on Biological Data Visualization](http://www.biovis.net); [Advanced NGS Course: RNA-seq data analysis (NBIC)](http://www.nbic.nl/education/course-overview/coursedetails/advanced-ngs-course-rna-seq-data-analysis/); [Advanced Sequencing Technologies & Applications Course (CSHL)](http://meetings.cshl.edu/courses/c-seqtech12.shtml); the [Northeast](http://www.nerlscd.org) and [Midwest](http://www.mwacd.org) Core directors meetings; and [eResearch Australasia 2012](http://conference.eresearch.edu.au/), the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
+October events include the [(first Swiss) Galaxy Workshop](/events/switzerland2012/); [InCoB 2012](http://incob2012.org); [IEEE Conference on eScience](http://www.ci.uchicago.edu/escience2012/) (eScience 2012, which includes the [Extending High-Performance Computing Beyond its Traditional User Communities workshop](http://www.psc.edu/events/escience-2012-workshop/)); [Bio-IT World Europe](http://www.bio-itworldexpoeurope.com/Bio-It_Europe_Content.aspx?id=116078&libID=116026); [BioVis: IEEE Symposium on Biological Data Visualization](http://www.biovis.net); [Advanced NGS Course: RNA-seq data analysis (NBIC)](http://www.nbic.nl/education/course-overview/coursedetails/advanced-ngs-course-rna-seq-data-analysis/); [Advanced Sequencing Technologies & Applications Course (CSHL)](http://meetings.cshl.edu/courses/c-seqtech12.shtml); the [Northeast](http://www.nerlscd.org) and [Midwest](http://www.mwacd.org) Core directors meetings; and [eResearch Australasia 2012](http://conference.eresearch.edu.au/), the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -112,7 +112,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> October 3 </th>
-    <td> <em><a href='/src/events/switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/switzerland2012/'>(first Swiss) Galaxy Workshop</a></em> </td>
     <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
@@ -178,7 +178,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/events/gcc2013/'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -199,21 +199,21 @@ There were [two new Galaxy distributions](/docs/) in September:
 
 ### September 20, 2012
 
-[Highlights](/src/archive/dev-news-briefs/2012-09-20/index.md)
-* A new **[Galaxy tool](/src/archive/dev-news-briefs/2012-09-20/index.md#galaxy-tool-factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
-* **[Learn](/src/archive/dev-news-briefs/2012-09-20/index.md#multiple-tool-versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
-* **[CloudLaunch Overhaul](/src/archive/dev-news-briefs/2012-09-20/index.md#cloudlaunch-overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
-* Release also includes more **[Tool Shed](/src/archive/dev-news-briefs/2012-09-20/index.md#toolshed)** updates, **[Framework](/src/archive/dev-news-briefs/2012-09-20/index.md#framework)** and **[API](/src/archive/dev-news-briefs/2012-09-20/index.md#api)** updates, plus **[Security](/src/archive/dev-news-briefs/2012-09-20/index.md#security-fixes)** and **[Bug](/src/archive/dev-news-briefs/2012-09-20/index.md#bug-fixes)** fixes.
+[Highlights](/archive/dev-news-briefs/2012-09-20/)
+* A new **[Galaxy tool](/archive/dev-news-briefs/2012-09-20/#galaxy-tool-factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
+* **[Learn](/archive/dev-news-briefs/2012-09-20/#multiple-tool-versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
+* **[CloudLaunch Overhaul](/archive/dev-news-briefs/2012-09-20/#cloudlaunch-overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
+* Release also includes more **[Tool Shed](/archive/dev-news-briefs/2012-09-20/#toolshed)** updates, **[Framework](/archive/dev-news-briefs/2012-09-20/#framework)** and **[API](/archive/dev-news-briefs/2012-09-20/#api)** updates, plus **[Security](/archive/dev-news-briefs/2012-09-20/#security-fixes)** and **[Bug](/archive/dev-news-briefs/2012-09-20/#bug-fixes)** fixes.
 
 ### September 7, 2012
 
-[Highlights](/src/archive/dev-news-briefs/2012-09-07/index.md):
+[Highlights](/archive/dev-news-briefs/2012-09-07/):
 * **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/).*
 * **Tool Shed** is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**. Many updates and refinements including UI/metadata changes - read the full report!
-* Streamline local setup with the **[Reference Genome rsync Server](/src/admin/data-integration/index.md)**: same builds and indexes as on the public **Galaxy [Main](/main/)** instance.
-* More updates to **[Output and Error Handling](/src/admin/tools/tool-config-syntax/index.md#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)** including updated documentation and enhancements to exit code checks.
-* **[TopHat2](http://tophat.cbcb.umd.edu/manual.html) / [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)** latest support includes *Tophat2* fusions output, *Bowtie2* sorted [BAMs](/src/learn/datatypes/index.md#bam), and a new [RNA-seq Tutorial](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise).
-* **Trackster** updates include improved support for **[bigWig](http://genome.ucsc.edu/goldenPath/help/bigWig.html)** / **[bigBed](http://genome.ucsc.edu/goldenPath/help/bigBed.html)**, new support for **[bedGraph](http://genome.ucsc.edu/goldenPath/help/bedgraph.html)**, and a new search feature for **[GFF](/src/learn/datatypes/index.md#gff)** / **[GTF](/src/learn/datatypes/index.md#gtf)** / **[BED](/src/learn/datatypes/index.md#bed)** datasets.
+* Streamline local setup with the **[Reference Genome rsync Server](/admin/data-integration/)**: same builds and indexes as on the public **Galaxy [Main](/main/)** instance.
+* More updates to **[Output and Error Handling](/admin/tools/tool-config-syntax/#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)** including updated documentation and enhancements to exit code checks.
+* **[TopHat2](http://tophat.cbcb.umd.edu/manual.html) / [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)** latest support includes *Tophat2* fusions output, *Bowtie2* sorted [BAMs](/learn/datatypes/#bam), and a new [RNA-seq Tutorial](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise).
+* **Trackster** updates include improved support for **[bigWig](http://genome.ucsc.edu/goldenPath/help/bigWig.html)** / **[bigBed](http://genome.ucsc.edu/goldenPath/help/bigBed.html)**, new support for **[bedGraph](http://genome.ucsc.edu/goldenPath/help/bedgraph.html)**, and a new search feature for **[GFF](/learn/datatypes/#gff)** / **[GTF](/learn/datatypes/#gtf)** / **[BED](/learn/datatypes/#bed)** datasets.
 * Plus many other **Workflow**, **API**, **Source**, **UI** features and a summary of recent ***[Galaxy Update](/galaxy-updates/)*** highlights.
 
 ## Other News

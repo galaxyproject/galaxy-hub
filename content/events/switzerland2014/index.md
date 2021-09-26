@@ -7,7 +7,7 @@ title:  2nd Swiss Galaxy Workshop, Wednesday, October 1st, Bern
 
 <slot name="/events/sg2014/linkbox" />
 
-After the big success of the [first Swiss Galaxy Workshop two years ago](/src/events/switzerland2012/index.md), we are going to organize a similar event again in fall 2014.
+After the big success of the [first Swiss Galaxy Workshop two years ago](/events/switzerland2012/), we are going to organize a similar event again in fall 2014.
 
 
 ## Audience
@@ -21,9 +21,9 @@ The workshop is part of the [SyBIT Tech Day series](https://wiki.systemsx.ch/dis
 
 ## Extra Training Day and Developers Day
 
-Prior to the workshop, we run a [Galaxy training/demo Day](/src/events/switzerland2014/trainingday/index.md) on Tuesday September, 30th in Bern
+Prior to the workshop, we run a [Galaxy training/demo Day](/events/switzerland2014/trainingday/) on Tuesday September, 30th in Bern
 
-Following the workshop, we organise a [Developers Day](/src/events/germany2014/index.md) on Thursday, October 2nd in Freiburg (Germany).
+Following the workshop, we organise a [Developers Day](/events/germany2014/) on Thursday, October 2nd in Freiburg (Germany).
 
 ## Registration
 

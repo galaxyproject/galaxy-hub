@@ -6,7 +6,7 @@ Here you will find information on obtaining and setting up a Galaxy instance wit
 # Requirements
 
 * UNIX/Linux or Mac OSX
-* [Python 3.6 or newer](/src/admin/python/index.md)
+* [Python 3.6 or newer](/admin/python/)
 
 # Get Started
 
@@ -81,7 +81,7 @@ You need to restart Galaxy after configuration file changes.
 
 ## Install Tools
 
-Galaxy comes with a small set of basic tools pre-installed. To install additional tools, follow the instructions on [Installing tools into Galaxy from the Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
+Galaxy comes with a small set of basic tools pre-installed. To install additional tools, follow the instructions on [Installing tools into Galaxy from the Tool Shed](/admin/tools/add-tool-from-toolshed-tutorial/).
 
 ## Join the Discussion
 
@@ -98,7 +98,7 @@ Like any other application, Galaxy directories and Galaxy database tables should
 
 The above instructions are intended for users wishing to develop Galaxy tools and Galaxy itself. To deploy a production-ready installation of Galaxy, some changes from the default configuration are highly recommended. If nothing else, switching to PostgreSQL database (from the default SQLite) is heavily endorsed to prevent database locking issues that can arise with multiple users.
 
-Please see the [Running Galaxy in a production environment](/src/admin/config/performance/production-server/index.md) page for more details.
+Please see the [Running Galaxy in a production environment](/admin/config/performance/production-server/) page for more details.
 
 ## Keep your code up to date
 
@@ -126,7 +126,7 @@ $ git pull
 ```
 <div class="alert alert-info trim-p" role="alert">
 
-**Note**: After pulling changes, the Galaxy server needs to be stopped and restarted with the updated code. Restarting will interrupt any running jobs unless you are using a cluster configuration. For more information on how to make Galaxy restartable without interrupting users, see the [production server documentation](/src/admin/config/performance/production-server/index.md).
+**Note**: After pulling changes, the Galaxy server needs to be stopped and restarted with the updated code. Restarting will interrupt any running jobs unless you are using a cluster configuration. For more information on how to make Galaxy restartable without interrupting users, see the [production server documentation](/admin/config/performance/production-server/).
 
 </div>
 
@@ -165,9 +165,9 @@ Restore the fresh backup if a database update was required, and then restart Gal
 
 * The basic Galaxy install is a single-user instance and is only accessible by the local user. As with many web-based applications, enable cookies in the web-browser for full functionality.
 
-* A common practice when using any web browser is to stay current with software updates to maximize performance and security. If moving forward to [production server](/src/admin/config/performance/production-server/index.md) with login enabled, please make sure you and your end-users are current.
+* A common practice when using any web browser is to stay current with software updates to maximize performance and security. If moving forward to [production server](/admin/config/performance/production-server/) with login enabled, please make sure you and your end-users are current.
 
-* Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](/src/admin/config/tool-dependencies/index.md).
+* Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](/admin/config/tool-dependencies/).
 
 # Additional Info
 

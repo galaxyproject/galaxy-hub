@@ -42,7 +42,7 @@ Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/
 **[Ross Lazarus](/people/fubar/)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/src/galaxy-team/) <sup>2</sup>.
 
  <sup>1</sup> BakerIDI Heart and Diabetes Research Institute, 75 Commercial Rd, Melbourne, VIC 3004, Australia<br />
- <sup>2</sup> http://wiki.galaxyproject.org[/GalaxyTeam](/src/events/gcc2013/abstracts/talks/GalaxyTeam/index.md)
+ <sup>2</sup> http://wiki.galaxyproject.org[/GalaxyTeam](/events/gcc2013/abstracts/talks/GalaxyTeam/)
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/LazarusReproducibleResearch.pdf), [Vimeo](https://vimeo.com/74885862)*
 
@@ -458,7 +458,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/EberhardCreateViz.pdf), [Vimeo](https://vimeo.com/74330774)*
 
-Visualization plays an integral role in scientific investigation. Visualization is useful for viewing large amounts of data simultaneously, observing patterns and outliers amongst data, and communicating findings to others. To make visualization easier and more powerful in Galaxy, we have create a framework for integrating Web-based visualizations into Galaxy. Just as tools can be easily added to Galaxy, visualizations can now be added as well. Visualizations can be easily accessed via an icon in the history panel’s stored datasets. Galaxy visualizations have many advantages: (i) they can be made highly interactive and customizable; (ii) they require no software or data downloads, and (iii) they can be saved, shared via URL, and included in [Galaxy Pages](/src/learn/galaxy-pages/index.md) — and shared/included visualization are fully interactive.
+Visualization plays an integral role in scientific investigation. Visualization is useful for viewing large amounts of data simultaneously, observing patterns and outliers amongst data, and communicating findings to others. To make visualization easier and more powerful in Galaxy, we have create a framework for integrating Web-based visualizations into Galaxy. Just as tools can be easily added to Galaxy, visualizations can now be added as well. Visualizations can be easily accessed via an icon in the history panel’s stored datasets. Galaxy visualizations have many advantages: (i) they can be made highly interactive and customizable; (ii) they require no software or data downloads, and (iii) they can be saved, shared via URL, and included in [Galaxy Pages](/learn/galaxy-pages/) — and shared/included visualization are fully interactive.
 
 In this talk, we describe how to create your own visualization for Galaxy. We provide an overview of how to query datasets in Galaxy for both aggregate data as well as individual data points and how to add a data provider for your own data type. Galaxy includes data providers for SAM/BAM, BED, Interval, GFF/GTF, VCF, BedGraph, Wiggle, and BigWig/BigBed. We also discuss Galaxy JavaScript libraries that can be used to create Web-based visualizations. These libraries include support for creating and saving visualizations, for  querying and caching data from Galaxy datasets, and for working with Galaxy tools and genome data. Finally, we introduce an XML data format for configuring a visualization to work with Galaxy.
 

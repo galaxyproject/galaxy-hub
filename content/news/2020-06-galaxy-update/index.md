@@ -134,7 +134,7 @@ Galaxy and the NIH Sequence Read Archive are now directly connected, enabling re
 
 [NIH's Sequence Read Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra) will become an integrated data source on [UseGalaxy.org](https://usegalaxy.org) this month. This functionality is also built in to the upcoming 20.05 release of Galaxy. With this connection, you will be able to work with SRA data available from NCBI more easily within the Galaxy framework.
 
-A [webinar on June 24](/src/events/2020-06-sra/index.md) will demonstrate this integration and how to use SRA data in the Galaxy platform.  The webinar will be held on June 24, at Noon, Eastern US time (GMT -4).  Interested?  **[Register now](https://docs.google.com/forms/d/e/1FAIpQLSfeAjnJSEfG11ngNn_sS3imPiXuHhdUcDSaBO6u__88xRnMbA/viewform).**
+A [webinar on June 24](/events/2020-06-sra/) will demonstrate this integration and how to use SRA data in the Galaxy platform.  The webinar will be held on June 24, at Noon, Eastern US time (GMT -4).  Interested?  **[Register now](https://docs.google.com/forms/d/e/1FAIpQLSfeAjnJSEfG11ngNn_sS3imPiXuHhdUcDSaBO6u__88xRnMbA/viewform).**
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
@@ -181,7 +181,7 @@ June is an active month for the Scientific Gateways Community Institute:
 <img class="card-img-top" src="/src/events/2020-ismb/ismb-2020-logo-wide.jpg" alt="Galaxy @ ISMB 2020" />
 <div class="card-header"></div>
 
-[ISMB 2020](https://www.iscb.org/ismb2020) has gone virtual and [Galaxy is going with it](/src/events/2020-ismb/index.md): Check out
+[ISMB 2020](https://www.iscb.org/ismb2020) has gone virtual and [Galaxy is going with it](/events/2020-ismb/): Check out
 
 * a tutorial,
 * a COSI keynote, and
@@ -214,7 +214,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem;">
-<div class="card-header">[MaREA4Galaxy](/src/use/marea4galaxy/index.md)</div>
+<div class="card-header">[MaREA4Galaxy](/use/marea4galaxy/)</div>
 
 <img class="card-img-top" src="/src/use/marea4galaxy/marea4galaxy-logo.png" alt="MaREA4Galaxy" />
 
@@ -226,7 +226,7 @@ The **[MaREA4Galaxy server](http://bimib.disco.unimib.it:5555/)** supports the *
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[wQAP](/src/use/wqap/index.md)</div>
+<div class="card-header">[wQAP](/use/wqap/)</div>
 
 <img class="card-img-top" src="/src/use/wqap/wqap-logo.png" alt="wQAP" />
 
@@ -278,9 +278,9 @@ Platforms that were referenced/used *at least twice* in recent publications:
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[Galaxy Machine Learning Community Hub Page](/src/community/machine-learning/index.md)</div>
+<div class="card-header">[Galaxy Machine Learning Community Hub Page](/community/machine-learning/)</div>
 
-Machine Learning has had an active Galaxy community for a while now, and now that community has it's [own web page on the Galaxy Hub](/src/community/machine-learning/index.md) describing the [Machine learning Workbench](https://ml.usegalaxy.eu/), relevant training, and supported tools.  Coming soon: community communication channels. 
+Machine Learning has had an active Galaxy community for a while now, and now that community has it's [own web page on the Galaxy Hub](/community/machine-learning/) describing the [Machine learning Workbench](https://ml.usegalaxy.eu/), relevant training, and supported tools.  Coming soon: community communication channels. 
 
 <img class="card-img-bottom" src="/images/communities/machine_learning_logo.png" alt="Galaxy Machine Learning Community Hub" />
 </div>

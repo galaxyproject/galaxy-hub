@@ -148,4 +148,4 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 **Room 250 F**
 
-Want to learn more about how to train students in computational methods?  The four instructors are also presenting a *[Resources and Techniques for Training Students in Computational Skills](/src/events/2017-sacnas-session/index.md)* session during the 2017 SACNAS Conference.
+Want to learn more about how to train students in computational methods?  The four instructors are also presenting a *[Resources and Techniques for Training Students in Computational Skills](/events/2017-sacnas-session/)* session during the 2017 SACNAS Conference.

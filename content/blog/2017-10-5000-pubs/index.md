@@ -393,7 +393,7 @@ The last trend I want to highlight is about *Reproducibility*. Reproducibility h
 
 [<img class="float-right" src="/src/blog/2017-10-5000-pubs/pubs-per-year.png" alt="Publications published in each year, as of 2017/10" width="200" />](/src/blog/2017-10-5000-pubs/pubs-per-year.png)
 
-**The number of publications that reference Galaxy each year has increased every year since the project started.**  It took [over three and a half years to reach 2,500 publications](/src/news/first2500-papers/index.md) but only a little over two more years to add the next 2,500 publications.
+**The number of publications that reference Galaxy each year has increased every year since the project started.**  It took [over three and a half years to reach 2,500 publications](/news/first2500-papers/) but only a little over two more years to add the next 2,500 publications.
 
 
 
@@ -486,7 +486,7 @@ With the move to Zotero we added two new sets of tags. The first set is used to 
 
 ## Public server and services tags
 
-The second set of new tags show which  [public Galaxy server](/use/) or [service](/use/) is used or discussed in publications. These are  tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/src/use/repeatexplorer/index.md) public server.
+The second set of new tags show which  [public Galaxy server](/use/) or [service](/use/) is used or discussed in publications. These are  tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/use/repeatexplorer/) public server.
 
 ## Publisher Tags
 

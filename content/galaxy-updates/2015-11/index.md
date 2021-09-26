@@ -120,7 +120,7 @@ The new papers were tagged with:
 
 Thanks to everyone who nominated topics for GCC2016 Training.  Please take a few minutes to [vote on the topics](http://bit.ly/gcc2016trnvote) you want to see offered at GCC2016 Training.
 
-The [2016 Galaxy Community Conference (GCC2016)](/src/events/gcc2016/index.md) features two full days of training on June 26-27.  Each 
+The [2016 Galaxy Community Conference (GCC2016)](/events/gcc2016/) features two full days of training on June 26-27.  Each 
 day will have multiple tracks, with each track featuring several sessions throughout the day.  GCC2016 will be held at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States.
 
 **[Topic voting](http://bit.ly/gcc2016trnvote) closes November 6.**
@@ -158,7 +158,7 @@ See [the event home page for more](https://github.com/galaxyproject/tools-iuc/is
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='https://galaxyproject.org/gcc2011/'><img src="/src/events/GCC2011Logo400.png" alt="" width="120" /></a>&nbsp;&nbsp; <a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="85" /></a>&nbsp;&nbsp;&nbsp; <a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="100px" /></a>&nbsp;&nbsp;&nbsp; <a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="130" /></a>&nbsp;&nbsp;&nbsp; <a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="100" /></a> &nbsp;&nbsp; <a href='http://galaxyproject.org/GCC2016'><img src="/src/events/gcc2016/GCC2016LogoFull_big.png" alt="2016 Galaxy Community Conference (GCC2016)" width="110px" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='https://galaxyproject.org/gcc2011/'><img src="/src/events/GCC2011Logo400.png" alt="" width="120" /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="85" /></a>&nbsp;&nbsp;&nbsp; <a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="100px" /></a>&nbsp;&nbsp;&nbsp; <a href='/events/gcc2014/'><img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="130" /></a>&nbsp;&nbsp;&nbsp; <a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="100" /></a> &nbsp;&nbsp; <a href='http://galaxyproject.org/GCC2016'><img src="/src/events/gcc2016/GCC2016LogoFull_big.png" alt="2016 Galaxy Community Conference (GCC2016)" width="110px" /></a> </td>
   </tr>
   <tr>
     <td colspan=6 style=" text-align: center; border: none;"> <div class='solid red'> <span style="font-size: larger;"> <strong>GCC2017 needs a host!</strong><br /></span> <span style="font-size: smaller;">(and a logo)</span> </td>
@@ -168,17 +168,17 @@ See [the event home page for more](https://github.com/galaxyproject/tools-iuc/is
 
 <br />
 
-**The [call for hosts for GCC2017](https://depot.galaxyproject.org/hub/attachments/documents/GCC2016CallForHosts.pdf) closes 30 November.**  If you are interested, please see [this announcement](/src/news/gcc2017-call-for-host/index.md). 
+**The [call for hosts for GCC2017](https://depot.galaxyproject.org/hub/attachments/documents/GCC2016CallForHosts.pdf) closes 30 November.**  If you are interested, please see [this announcement](/news/gcc2017-call-for-host/). 
 
 ## October GalaxyAdmins Meetup Video and Slides
 
-<div class='right'><a href='/src/community/galaxy-admins/meetups/2015-10-15/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup October 15" width="175" /></a><br /><br />
+<div class='right'><a href='/community/galaxy-admins/meetups/2015-10-15/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup October 15" width="175" /></a><br /><br />
 <a href='http://www.analome.com/'><img src="/src/images/logos/Analome.png" alt="Analome" width="175" /></a>
 </div>
 
-Video and slides for the [GalaxyAdmins meetup on October 15 are now available](/src/community/galaxy-admins/meetups/2015-10-15/index.md). [David Kovalic](https://www.linkedin.com/in/davidkovalic) presented on *Galaxy at [Analome](http://analome.com/) – Outreach, Opportunity and Challenges*.  This was followed by an active discussion about plans to migrate this wiki to another platform.
+Video and slides for the [GalaxyAdmins meetup on October 15 are now available](/community/galaxy-admins/meetups/2015-10-15/). [David Kovalic](https://www.linkedin.com/in/davidkovalic) presented on *Galaxy at [Analome](http://analome.com/) – Outreach, Opportunity and Challenges*.  This was followed by an active discussion about plans to migrate this wiki to another platform.
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  We're skipping the December meetup (wouldn't you rather be on holiday?) so the next meetup will be in February.  Hope to see you there.
+[GalaxyAdmins](/community/galaxy-admins/) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  We're skipping the December meetup (wouldn't you rather be on holiday?) so the next meetup will be in February.  Hope to see you there.
 
 ----
 
@@ -275,7 +275,7 @@ There are [upcoming events](/events/) on 3 continents in 4 countries, *and a ver
   </tr>
   <tr>
     <th> January 8 </th>
-    <td> <em><a href='/src/events/asu2016/index.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/asu2016/'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
@@ -311,7 +311,7 @@ There are [upcoming events](/events/) on 3 continents in 4 countries, *and a ver
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> <strong><em><a href='/src/events/gcc2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
+    <td> <strong><em><a href='/events/gcc2016/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://web.archive.org/web/http://gcc2016.iu.edu/organizers/'>Organizers</a> </td>
   </tr>
@@ -407,7 +407,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 ## BioBlend 0.7.0
 
-[BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released few days ago. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+[BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released few days ago. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 ## Other Releases
@@ -423,7 +423,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 <div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
 <div class='indent'>
-   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/src/cloudman/getting-started/index.md) documentation. 
+   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/cloudman/getting-started/) documentation. 
 </div>
 
  **Security Advisories**
@@ -442,7 +442,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
  **[CloudMan](/cloudman/) **
-   The [most recent edition of CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release) was released in August.
+   The [most recent edition of CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and BioCloudCentral.
@@ -515,12 +515,12 @@ Ran out of time to compile these.  Look for a double batch in December.
 
 * [Det'Rprok workflow](http://bit.ly/1aWNeVE) from [this paper](http://www.sciencedirect.com/science/article/pii/S1046202313002041) updated at MyExperiment.
 
-* We decided not to have a [Data Carpentry](http://www.datacarpentry.org/) / [Software Carpentry](http://software-carpentry.org/) *Train the Trainer* event before [GCC2016](/src/events/gcc2016/index.md).  However, we have nominated a topic on Best Practices and Resources for Galaxy Training.  If that interests you then *[please vote](http://bit.ly/gcc2016vote) for it*.
+* We decided not to have a [Data Carpentry](http://www.datacarpentry.org/) / [Software Carpentry](http://software-carpentry.org/) *Train the Trainer* event before [GCC2016](/events/gcc2016/).  However, we have nominated a topic on Best Practices and Resources for Galaxy Training.  If that interests you then *[please vote](http://bit.ly/gcc2016vote) for it*.
 
 ## Galaxy Codebase Reaches 20 000 Commits
 
 <a href='https://github.com/galaxyproject/galaxy'><img src="/src/images/20000Commits.png" alt="Galaxy codebase" width="100%" /></a>
 
-In September [Galaxy turned 10 years old](/src/galaxy-updates/2015-10/index.md#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Helena Rasche](/people/helena-rasche/) originally submitted by team member [Nate Coraor](/people/nate/).
+In September [Galaxy turned 10 years old](/galaxy-updates/2015-10/#galaxy-turns-10) by one important measure.  Another milestone was reached in October when the [Galaxy codebase](https://github.com/galaxyproject/galaxy) surpassed of 20000 commits. And appropriately (and if I can count), the 20,000th was a pull request commit from community member [Helena Rasche](/people/helena-rasche/) originally submitted by team member [Nate Coraor](/people/nate/).
 
 Our thanks go to the community and the team alike.

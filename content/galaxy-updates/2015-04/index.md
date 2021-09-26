@@ -85,35 +85,35 @@ The new papers were tagged with:
 
 ## April GalaxyAdmins Meetup
 
-<div class='right'><a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup April 16" width="150" /></a></div>
+<div class='right'><a href='/community/galaxy-admins/meetups/2015-04-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup April 16" width="150" /></a></div>
 
-The next [GalaxyAdmins online meetup](/src/community/galaxy-admins/meetups/2015-04-16/index.md) will be [16 April](/src/community/galaxy-admins/meetups/2015-04-16/index.md). [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) will talk about her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).
+The next [GalaxyAdmins online meetup](/community/galaxy-admins/meetups/2015-04-16/) will be [16 April](/community/galaxy-admins/meetups/2015-04-16/). [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) will talk about her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).
 
-See the [meetup page](/src/community/galaxy-admins/meetups/2015-04-16/index.md) for more.
+See the [meetup page](/community/galaxy-admins/meetups/2015-04-16/) for more.
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
+[GalaxyAdmins](/community/galaxy-admins/) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
 
 ## Galaxy Workshop Tokyo, April 28
 
 <div class='left'>
-<a href='/src/events/tokyo2015/index.md'><img src="/src/events/tokyo2015/WST2015.png" alt="" width="170" /></a>
+<a href='/events/tokyo2015/'><img src="/src/events/tokyo2015/WST2015.png" alt="" width="170" /></a>
 </div>
 
-The [Galaxy Workshop Tokyo 2015](/src/events/tokyo2015/index.md) is a full day of hands-on training, keynotes, lightning talks and discussions all about ways of using Galaxy for high-throughput biology, specially for human genome sequencing. This workshop will consist of two parts: The morning session is a hands-on training to learn how to run [Pitagora-Galaxy](http://www.pitagora-galaxy.org/about_en), our *Galaxy preconfigured virtual machine*, on your laptop or on AWS cloud. The afternoon session includes keynotes and lightning sessions to explain actual workflows, which *you can try immediately* on Pitagora-Galaxy.<br /><br />
+The [Galaxy Workshop Tokyo 2015](/events/tokyo2015/) is a full day of hands-on training, keynotes, lightning talks and discussions all about ways of using Galaxy for high-throughput biology, specially for human genome sequencing. This workshop will consist of two parts: The morning session is a hands-on training to learn how to run [Pitagora-Galaxy](http://www.pitagora-galaxy.org/about_en), our *Galaxy preconfigured virtual machine*, on your laptop or on AWS cloud. The afternoon session includes keynotes and lightning sessions to explain actual workflows, which *you can try immediately* on Pitagora-Galaxy.<br /><br />
 
 ## GCC2015: 6-8 July, Norwich UK
 
 <div class='right'><a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="170" /></a></div>
 
-The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/src/events/gcc2014/index.md) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
+The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/events/gcc2014/) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
 
 There are a lot of events going on at GCC2015, including:
 
-* [Code Hackathon](/src/galaxy-updates/2015-04/index.md#code-hackathon), 4-5 July
-* [Data Wrangling Hackathon](/src/galaxy-updates/2015-04/index.md#data-wrangling-hackathon), 4-5 July (*new*)
-* [Training SunDay](/src/galaxy-updates/2015-04/index.md#training-sunday), 5 July (*new*)
-* [Training Day](/src/galaxy-updates/2015-04/index.md#training-monday), 6 July
-* [GCC Meeting](/src/galaxy-updates/2015-04/index.md#abstract-submission-is-now-open), 7-8 July
+* [Code Hackathon](/galaxy-updates/2015-04/#code-hackathon), 4-5 July
+* [Data Wrangling Hackathon](/galaxy-updates/2015-04/#data-wrangling-hackathon), 4-5 July (*new*)
+* [Training SunDay](/galaxy-updates/2015-04/#training-sunday), 5 July (*new*)
+* [Training Day](/galaxy-updates/2015-04/#training-monday), 6 July
+* [GCC Meeting](/galaxy-updates/2015-04/#abstract-submission-is-now-open), 7-8 July
 
 ### Code Hackathon
 
@@ -175,7 +175,7 @@ Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([gcc2015-org AT lists DO
 
 <div class='center'> 
 <a href='https://www.e-biogenouest.org/events/details/45/'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Fourth GUGGO meeting" height="80" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 April GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='/community/galaxy-admins/meetups/2015-04-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 April GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='http://www.bio-itworldexpo.com/'><img src="/src/images/logos/Bio-ITWorld2015.jpg" alt="Bio-IT World 2015" height="60" /></a>
 <a href='http://bioinformatics.ca/workshops/2015/high-throughput-biology-sequence-networks-2015'><img src="/src/images/logos/BioinformaticsCA_NYC.jpg" alt="High-throughput Biology: From Sequence to Networks 2015" height="70" /></a>
@@ -206,7 +206,7 @@ There are [upcoming events](/events/) in 8 countries on 4 continents.  See the [
   </tr>
   <tr>
     <th> April 16 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'>GalaxyAdmins April 2015 Meetup</a></em> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2015-04-16/'>GalaxyAdmins April 2015 Meetup</a></em> </td>
     <td> <em>Online</em> </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a>, Carrie Ganote </td>
   </tr>
@@ -243,7 +243,7 @@ There are [upcoming events](/events/) in 8 countries on 4 continents.  See the [
   </tr>
   <tr>
     <th> April 28 </th>
-    <td> <em><a href='/src/events/tokyo2015/index.md'>Galaxy Workshop Tokyo 2015</a></em> </td>
+    <td> <em><a href='/events/tokyo2015/'>Galaxy Workshop Tokyo 2015</a></em> </td>
     <td> <a href='http://www.rcast.u-tokyo.ac.jp/index_en.html'>RCAST, The University of Tokyo</a>, Japan </td>
     <td> <a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2015#Contact'>Ryota Yamanaka</a> </td>
   </tr>
@@ -344,7 +344,7 @@ There are [upcoming events](/events/) in 8 countries on 4 continents.  See the [
 
 The Galaxy is expanding! Please help it grow.
 
-* [Graph-based Genomes: PhDs in Oslo](/src/news/graph-based-genome-openings-oslo/index.md)
+* [Graph-based Genomes: PhDs in Oslo](/news/graph-based-genome-openings-oslo/)
 * [Computational Metabolomics Professor](https://psu.jobs/job/55363), Penn State University, Pennsylvania, United States
 * [Software Developer for the Refinery Team](https://jobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1118216&PartnerId=25240&SiteId=5341&type=mail&JobReqLang=1&recordstart=1&JobSiteId=5341&JobSiteInfo=1118216_5341&gqid=0), Boston, Massachusetts, United States
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
@@ -414,15 +414,15 @@ One new [Community Log Board](/blog/) entry was added in March:
 <br /><br />
 <span style="font-size: larger;"> Highlights </span>
 
- **[Release Versioning](/src/archive/dev-news-briefs/2015-03/index.md#-versioning)**
+ **[Release Versioning](/archive/dev-news-briefs/2015-03/#-versioning)**
 
   Starting with this distribution, an updated Galaxy release versioning system has been implemented. The versioning scheme is [Ubuntu-style](https://wiki.ubuntu.com/Releases).
 
- **[Github](/src/archive/dev-news-briefs/2015-03/index.md#github)**
+ **[Github](/archive/dev-news-briefs/2015-03/#github)**
 
   Galaxy development has moved to Github, but stable/release changes are mirrored to Bitbucket. Deployers can continue to use Bitbucket as they have done in the past. Release branches discussed in the full release notes.
 
- **[Tool Redesign](/src/archive/dev-news-briefs/2015-03/index.md#tool-redesign)**
+ **[Tool Redesign](/archive/dev-news-briefs/2015-03/#tool-redesign)**
 
   Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [Main](/main/).
 
@@ -463,7 +463,7 @@ One new [Community Log Board](/blog/) entry was added in March:
 
 <div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
 
-[BioBlend](https://github.com/afgane/bioblend) [v0.5.3](https://github.com/galaxyproject/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  ([CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
+[BioBlend](https://github.com/afgane/bioblend) [v0.5.3](https://github.com/galaxyproject/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  ([CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
@@ -512,7 +512,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 ## CloudMan and blend4j
 
-New versions [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release), and [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release) were released in August.
+New versions [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), and [blend4j](/galaxy-updates/2014-09/#blend4j-011-release) were released in August.
 
 ----
 
@@ -523,7 +523,7 @@ New versions [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudma
 * You can browse our tutorials section by visiting this [biostar.usegalaxy.org/t/Tutorial/](https://biostar.usegalaxy.org/t/Tutorial/) (*Note: Deprecated. Now see [training.galaxyproject.org](https://training.galaxyproject.org/)*)
 * [Should Galaxy use Trello or Github for issue tracking?](http://trello.com/c/iddlQT2p)
 * Every contribution and every pull request to the Galaxy repo is now [being publicly built on Travis-CI](https://travis-ci.org/galaxyproject/galaxy/builds).
-* [Galaxy Training Network (GTN) Joins GOBLET](/src/news/gtn-joins-goblet/index.md)
+* [Galaxy Training Network (GTN) Joins GOBLET](/news/gtn-joins-goblet/)
 
 ----
 
@@ -531,7 +531,7 @@ New versions [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudma
 
 # ToolShed Contributions
 
-A [best practices for creating Galaxy Tools](/src/tools/best-practices/index.md) is now available on this wiki.  Thanks to the many contributors who created it.
+A [best practices for creating Galaxy Tools](/tools/best-practices/) is now available on this wiki.  Thanks to the many contributors who created it.
 
 ## Galaxy Project ToolShed Repos
 

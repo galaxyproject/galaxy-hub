@@ -2,21 +2,21 @@
 title: "February 2013 Galaxy Update"
 date: "2013-02-01"
 ---
-<div class='right'><a href='/src/galaxy-updates/2013-02/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="February 2013 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/2013-02/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="February 2013 Galaxy Update" width=150 /></a></div>
 
-The [February 2013 Galaxy Update is now available](/src/galaxy-updates/2013-02/index.md). 
+The [February 2013 Galaxy Update is now available](/galaxy-updates/2013-02/). 
 
 **Highlights:**
 
-* [Three new public Galaxy servers](/src/galaxy-updates/2013-02/index.md#new-papers)
-* [New papers](/src/galaxy-updates/2013-02/index.md#new-papers)
-* [Open Positions](/src/galaxy-updates/2013-02/index.md#whos-hiring) at five different institutions
-* [GCC2013](/src/galaxy-updates/2013-02/index.md#gcc2013) Training Day Topic voting, Registration, and Sponsorships
-* [January GalaxyAdmins Web Meetup](/src/galaxy-updates/2013-02/index.md#january-galaxyadmins-web-meetup) slides and screencast
-* [Other Upcoming Events and Deadlines](/src/galaxy-updates/2013-02/index.md#other-upcoming-events-and-deadlines)
-* [Galaxy Distributions](/src/galaxy-updates/2013-02/index.md#galaxy-distributions)
-* [Tool Shed Contributions](/src/galaxy-updates/2013-02/index.md#toolshed-contributions)
-* [Other News](/src/galaxy-updates/2013-02/index.md#other-news)
+* [Three new public Galaxy servers](/galaxy-updates/2013-02/#new-papers)
+* [New papers](/galaxy-updates/2013-02/#new-papers)
+* [Open Positions](/galaxy-updates/2013-02/#whos-hiring) at five different institutions
+* [GCC2013](/galaxy-updates/2013-02/#gcc2013) Training Day Topic voting, Registration, and Sponsorships
+* [January GalaxyAdmins Web Meetup](/galaxy-updates/2013-02/#january-galaxyadmins-web-meetup) slides and screencast
+* [Other Upcoming Events and Deadlines](/galaxy-updates/2013-02/#other-upcoming-events-and-deadlines)
+* [Galaxy Distributions](/galaxy-updates/2013-02/#galaxy-distributions)
+* [Tool Shed Contributions](/galaxy-updates/2013-02/#toolshed-contributions)
+* [Other News](/galaxy-updates/2013-02/#other-news)
 
 If you have anything you would like to see in the March *[Galaxy Update](/galaxy-updates/)*, please let us know.
 

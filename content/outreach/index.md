@@ -17,13 +17,13 @@ A number of resources are available to help connect researchers and developers w
 
 ![PoweredByGalaxy](/src/outreach/powered-by-galaxy/PoweredByGalaxy120.png)
 
-*Powered by Galaxy* icons are available in a [number of different resolutions](/src/outreach/powered-by-galaxy/index.md) for inclusion on web sites, talks, posters, and other printed material. Including icons is an easy way to let people know how widely used and useful Galaxy is.
+*Powered by Galaxy* icons are available in a [number of different resolutions](/outreach/powered-by-galaxy/) for inclusion on web sites, talks, posters, and other printed material. Including icons is an easy way to let people know how widely used and useful Galaxy is.
 
 ### Logos and Images
 
 ![GalaxyLogo](/src/images/galaxy-logos/galaxy_logo_25percent.png)
 
-The [Galaxy logos page](/src/images/galaxy-logos/index.md) contains currently available Galaxy Project logos. The [Galaxy images page](/images/) lists sources for [logos](/src/images/logos/index.md), [icons](/src/images/icons/index.md), and [screenshots](/src/images/screenshots/index.md) that can be included in Galaxy-related presentations and posters.
+The [Galaxy logos page](/images/galaxy-logos/) contains currently available Galaxy Project logos. The [Galaxy images page](/images/) lists sources for [logos](/images/logos/), [icons](/images/icons/), and [screenshots](/images/screenshots/) that can be included in Galaxy-related presentations and posters.
 
 ## Speakers and Workshops
 

@@ -8,20 +8,20 @@ date: "2019-12-09"
 
 The *December 2019 Galactic News* is out:
 
-* **[12 Upcoming Events](/src/news/2019-12-galaxy-update/index.md#events)**
+* **[12 Upcoming Events](/news/2019-12-galaxy-update/#events)**
   * India, PAG, HTS, single cell/microbiome, Barcelona, and more
-* **[191 new publications](/src/news/2019-12-galaxy-update/index.md#publications)**
+* **[191 new publications](/news/2019-12-galaxy-update/#publications)**
 * **[Two new blog posts](#galactic-blog-activity)**
   * g:Profiler, GalaxyP
-* **[Galaxy Platform News](/src/news/2019-12-galaxy-update/index.md#galaxy-platforms-news)**
+* **[Galaxy Platform News](/news/2019-12-galaxy-update/#galaxy-platforms-news)**
   * Systems biology, Laniakea, OpenRefine, ...
-* **[Training material and doc updates](/src/news/2019-12-galaxy-update/index.md#doc-hub-and-training-updates)**
+* **[Training material and doc updates](/news/2019-12-galaxy-update/#doc-hub-and-training-updates)**
   * defining data types, citing GTN, Windows, account help, metatranscriptomics, Galaxy for everyone
-* **[Openings](/src/news/2019-12-galaxy-update/index.md#whos-hiring)**
+* **[Openings](/news/2019-12-galaxy-update/#whos-hiring)**
   *  with 5 organizations in Denmark, France, US, US, Germany
 * **[Releases](#releases)**
   * Galaxy 19.09 is out
-* And **[other news too](/src/news/2019-12-galaxy-update/index.md#other-news)**
+* And **[other news too](/news/2019-12-galaxy-update/#other-news)**
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -33,7 +33,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <img class="card-img-top" src="/src/events/2019-12-insyb/insyb-2019.png" alt="Galaxy @ InSyB 2019" />
 <div class="card-header">Galaxy @ InSyB 2019</div>
 
-Galaxy (especially [Galaxy Australia](https://usegalaxy.org.au/) will be [featured in a workshop and a plenary talk](/src/events/2019-12-insyb/index.md) at the [International Symposium on Bioinformatics 2019 (InSyB2019)](https://www.hrmmv.org/INSYB2019) being held December 21-22, 2019 at [Hans Raj Mahila Maha Vidyalaya](https://www.hrmmv.org/), Jalandhar, Punjab, India.  *Registration and abstract submission are still open.*
+Galaxy (especially [Galaxy Australia](https://usegalaxy.org.au/) will be [featured in a workshop and a plenary talk](/events/2019-12-insyb/) at the [International Symposium on Bioinformatics 2019 (InSyB2019)](https://www.hrmmv.org/INSYB2019) being held December 21-22, 2019 at [Hans Raj Mahila Maha Vidyalaya](https://www.hrmmv.org/), Jalandhar, Punjab, India.  *Registration and abstract submission are still open.*
 </div>
 
 
@@ -41,7 +41,7 @@ Galaxy (especially [Galaxy Australia](https://usegalaxy.org.au/) will be [featur
 <img class="card-img-top" src="/src/events/2020-pag/pag-2020-splash.png" alt="Galaxy @ PAG 2020" />
 <div class="card-header">Galaxy @ PAG 2020</div>
 
-[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/src/events/2020-pag/index.md), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new [Excellence in Breeding platform](/src/use/cropgalaxy/index.md)) and many talks and posters featuring Galaxy.
+[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/events/2020-pag/), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new [Excellence in Breeding platform](/use/cropgalaxy/)) and many talks and posters featuring Galaxy.
 
 And there will be a [GMOD Codefest](http://gmod.org/wiki/Codefest_2020) *before* PAG and an [NCBI Codeathon](https://ncbi-codeathons.github.io/) *after* PAG.
 </div>
@@ -59,7 +59,7 @@ This [week-long Galaxy workshop in Freiburg](https://galaxyproject.eu/event/2019
 <img class="card-img-top" src="/src/images/logos/abrf-logo-color-text.png" alt="Galaxy @ ABRF 2020" />
 <div class="card-header">Galaxy @ ABRF 2020</div>
 
-[Galaxy will be at 2020 ABRF meeting](/src/events/2020-abrf/index.md), in Palm Springs, California, United States, February 29 through March 3. This includes a full day *hands-on Galaxy Workshop* about **using Galaxy with your single cell and microbiome** data.  ABRF is *the annual conference for technology-enabled multidisciplinary research.*
+[Galaxy will be at 2020 ABRF meeting](/events/2020-abrf/), in Palm Springs, California, United States, February 29 through March 3. This includes a full day *hands-on Galaxy Workshop* about **using Galaxy with your single cell and microbiome** data.  ABRF is *the annual conference for technology-enabled multidisciplinary research.*
 
 [Registration is now open](https://conf.abrf.org/program/registration-schedule/), **but space is limited**.
 </div>
@@ -68,7 +68,7 @@ This [week-long Galaxy workshop in Freiburg](https://galaxyproject.eu/event/2019
 <img class="card-img-top" src="/src/events/2020-03-admin/2020-admin-banner.png" alt="Galaxy Admin Training 2020" />
 <div class="card-header">2-6 March: Galaxy Admin Training 2020</div>
 
-Save these dates!  The next **[Galaxy Admin Training](/src/events/2020-03-admin/index.md) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
+Save these dates!  The next **[Galaxy Admin Training](/events/2020-03-admin/) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
 
 This week-long hands-on training will feature what you need to know to set up your own production quality Galaxy server.  Registration will open later this month.
 </div>
@@ -188,7 +188,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[BioDivine Toolset Server](/src/use/biodivine/index.md)</div>
+<div class="card-header">[BioDivine Toolset Server](/use/biodivine/)</div>
 
 <img class="card-img-top" src="/src/use/biodivine/sybila.png" alt="Sybila" />
 
@@ -201,7 +201,7 @@ The BioDivine server hosts tools for systems biology, developed by the [Systems 
 
 <img class="card-img-top" src="/src/use/laniakea/laniakea.png" alt="Laniakea" />
 
-Version 2 of [Laniakea](/src/use/laniakea/index.md) announced at the November [ELIXIR Innovation and SME Forum](https://elixir-europe.org/events/sme-2019-milan).  Laniakea provides automatic deployment of virtual Galaxy environments. See the [video for details](https://laniakea-elixir-it.github.io/). 
+Version 2 of [Laniakea](/use/laniakea/) announced at the November [ELIXIR Innovation and SME Forum](https://elixir-europe.org/events/sme-2019-milan).  Laniakea provides automatic deployment of virtual Galaxy environments. See the [video for details](https://laniakea-elixir-it.github.io/). 
 </div>
 
 
@@ -268,7 +268,7 @@ Thanks to [Helena Rasche](/people/helena-rasche/), every [GTN Tutorial](https://
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">Galaxy on Windows</div>
 
-The documentation on [how to run Galaxy on Windows](/src/admin/config/windows/index.md) has been completely revamped by [Tomas Klingström](https://www.slu.se/cv/tomas-klingstrom/) to use the Windows Subsystem for Linux.
+The documentation on [how to run Galaxy on Windows](/admin/config/windows/) has been completely revamped by [Tomas Klingström](https://www.slu.se/cv/tomas-klingstrom/) to use the Windows Subsystem for Linux.
 
 <img class="card-img-bottom" src="windows.png" alt="Galaxy on Windows" />
 </div>

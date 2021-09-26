@@ -2,11 +2,11 @@
 title: "May 2013 GalaxyAdmins Meetup"
 date: "2013-05-08"
 ---
-<div class='right'><a href='/src/community/galaxy-admins/meetups/2013-05-15/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="May 2013 GalaxyAdmins Meetup" width="160" /></a><br />
+<div class='right'><a href='/community/galaxy-admins/meetups/2013-05-15/'><img src="/src/images/logos/GalaxyAdmins.png" alt="May 2013 GalaxyAdmins Meetup" width="160" /></a><br />
 <a href='http://rnaseq.pathogenportal.org/'><img src="/src/images/screenshots/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy" width="160" /></a></div>
 
 
-The [next meeting](/src/community/galaxy-admins/meetups/2013-05-15/index.md) of the [GalaxyAdmins Group](/src/community/galaxy-admins/index.md) will be held on [May 15, 2013, at 10 AM Central US time](/src/community/galaxy-admins/meetups/2013-05-15/index.md). 
+The [next meeting](/community/galaxy-admins/meetups/2013-05-15/) of the [GalaxyAdmins Group](/community/galaxy-admins/) will be held on [May 15, 2013, at 10 AM Central US time](/community/galaxy-admins/meetups/2013-05-15/). 
 
 Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/faculty/group_overview/Cyberinfrastructure_Division) of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech will talk about their [Galaxy deployment](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org), a highly customized Galaxy installation, and also about the group's objectives and future plans.
 
@@ -34,8 +34,8 @@ Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/facult
 
 <br />
 
-We use the [Blackboard Collaborate Web Conferencing system](/src/community/galaxy-admins/meetups/webinar-tech/index.md) for the meetup. Downloading the required applets in advance and using a headphone with microphone to prevent audio feedback during the call is recommended.
+We use the [Blackboard Collaborate Web Conferencing system](/community/galaxy-admins/meetups/webinar-tech/) for the meetup. Downloading the required applets in advance and using a headphone with microphone to prevent audio feedback during the call is recommended.
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
+[GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
 
 [Dave Clements](/people/dave-clements/)

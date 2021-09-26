@@ -38,24 +38,24 @@ $ rsync -avzP rsync://datacache.g2.bx.psu.edu/indexes/phiX .
 ```
 
 
-Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/src/admin/data-integration/index.md) or [setting up native genome indexes](/src/admin/NGS Local Setup/index.md).
+Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/admin/data-integration/) or [setting up native genome indexes](/src/admin/NGS Local Setup/index.md).
 
 <br />
 # More Updates to Output and Error Handling
 
-As reported in the *[July 20th, 2012 News Brief](/src/archive/dev-news-briefs/2012-07-20/index.md)*, several changes have been made to the underlying code that determines run result state from tool exit codes and output. There are now additional enhancements to applying regular expressions and exit code checks. [Read more...](/src/admin/tools/tool-config-syntax/index.md#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)
+As reported in the *[July 20th, 2012 News Brief](/archive/dev-news-briefs/2012-07-20/)*, several changes have been made to the underlying code that determines run result state from tool exit codes and output. There are now additional enhancements to applying regular expressions and exit code checks. [Read more...](/admin/tools/tool-config-syntax/#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)
 
 <br />
 # Tools
 
-[Admin/Config/Tool Dependencies](/src/admin/config/tool-dependencies/index.md)
+[Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/)
 * *Enhancements*
   * **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements: 
     * Include fusions output. Read more about what this is in the [Tophat2 Manual's](http://tophat.cbcb.umd.edu/manual.html) section *Fusion mapping options:*
   * **[Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)** wrapper enhancements: 
-    * Output sorted **[BAM](/src/learn/datatypes/index.md#bam)** from **Bowtie2** by default
+    * Output sorted **[BAM](/learn/datatypes/#bam)** from **Bowtie2** by default
     * One benefit is that **BAM** results can be used as input to **[Cufflinks](http://cufflinks.cbcb.umd.edu/)** without an [intermediate sorting step](http://main.g2.bx.psu.edu/u/jeremy/p/transcriptome-analysis-faq#faq2).
-    * *NOTE:* If you are using an older version of *Bowtie* or uploading your own results, sorting is still required before running *Cufflinks*, whether in [SAM](/src/learn/datatypes/index.md#sam) or [BAM](/src/learn/datatypes/index.md#bam) format.
+    * *NOTE:* If you are using an older version of *Bowtie* or uploading your own results, sorting is still required before running *Cufflinks*, whether in [SAM](/learn/datatypes/#sam) or [BAM](/learn/datatypes/#bam) format.
 * *New*
   * **[Galaxy RNA-seq Analysis Exercise](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise)** on [Main](/main/)
     * Walks through sample protocol step-by-step using paired-end data, initial read QC through **[CuffDiff](http://cufflinks.cbcb.umd.edu/)** analysis
@@ -74,15 +74,15 @@ As reported in the *[July 20th, 2012 News Brief](/src/archive/dev-news-briefs/20
 <br />
 # Galaxy Track Browser (GTB)
 
-[Trackster](/src/learn/visualization/index.md)
+[Trackster](/learn/visualization/)
 * *New*
   * Rewrite sampling code for **[bigWig](http://genome.ucsc.edu/goldenPath/help/bigWig.html)** / **[bigBed](http://genome.ucsc.edu/goldenPath/help/bigBed.html)**
 * *Enhancements*
   * Enable visualization of **[bedGraph](http://genome.ucsc.edu/goldenPath/help/bedgraph.html)** datasets
   * Server-side code for coverage histograms
-  * Add feature search to **[Trackster](/src/learn/visualization/index.md)** ; typing in location box will search tracks in visualization for features that start with entered text. Works with **[GFF](/src/learn/datatypes/index.md#gff)**, **[GTF](/src/learn/datatypes/index.md#gtf)**, and **[BED](/src/learn/datatypes/index.md#bed)** datasets. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/611](https://bitbucket.org/galaxy/galaxy-central/issue/611)
+  * Add feature search to **[Trackster](/learn/visualization/)** ; typing in location box will search tracks in visualization for features that start with entered text. Works with **[GFF](/learn/datatypes/#gff)**, **[GTF](/learn/datatypes/#gtf)**, and **[BED](/learn/datatypes/#bed)** datasets. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/611](https://bitbucket.org/galaxy/galaxy-central/issue/611)
 
-<a href='/src/learn/visualization/index.md'><img src="/src/images/news-graphics/2012_09_07_trackster-feature-search.png" alt="trackster-feature-search.png" width=800 /></a>
+<a href='/learn/visualization/'><img src="/src/images/news-graphics/2012_09_07_trackster-feature-search.png" alt="trackster-feature-search.png" width=800 /></a>
 
 <br />
 # Source
@@ -161,7 +161,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 <div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div> 
 * *General*
-  * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/src/archive/dev-news-briefs/2012-01-27/index.md#run-cluster-jobs-as-the-real-user).
+  * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/archive/dev-news-briefs/2012-01-27/#run-cluster-jobs-as-the-real-user).
   * Galaxy will no longer try to modify permissions of [linked library uploads](/src/admin/Data Libraries/Uploading Library Files/index.md).
   * Galaxy will honor `umask` when creating temporary library archives for download (solves permissions problems when sending via a proxy server).
   * Fix tabular display to serve raw when `preview == False`, which should resolve external display issues.
@@ -182,33 +182,33 @@ Now the above entry still works, but the following entry is also ok (notice the 
 * *Tools*
   * Move implementation of `from_work_dir` attribute from job finish to job command line to make compatible when setting metadata externally.
   * Require **[pileup](http://samtools.sourceforge.net/pileup.shtml)** format as input to `/tools/samtools/pileup_parser.*` tool.
-  * Set attribute metadata for **[GFF](/src/learn/datatypes/index.md#gff)** and **[GFF3](/src/learn/datatypes/index.md#gff3)** in addition to **[GTF](/src/learn/datatypes/index.md#gtf)**.
+  * Set attribute metadata for **[GFF](/learn/datatypes/#gff)** and **[GFF3](/learn/datatypes/#gff3)** in addition to **[GTF](/learn/datatypes/#gtf)**.
 
 <br />
 # Announcements
 
-[News](/news/), *[August](/src/galaxy-updates/2012-09/index.md)* and *[September](/src/galaxy-updates/2012-09/index.md)* *2012 Galaxy Updates*
+[News](/news/), *[August](/galaxy-updates/2012-09/)* and *[September](/galaxy-updates/2012-09/)* *2012 Galaxy Updates*
 
-<div class='right'><a href='/src/galaxy-updates/2012-09/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/2012-09/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width=150 /></a></div>
 
 ## Highlights
 
 * ***Aug***
-  * [GCC2012 & GCC2013](/src/galaxy-updates/2012-08/index.md#gcc2012--gcc2013): slides and video
-  * [29 new papers](/src/galaxy-updates/2012-08/index.md#new-papers)
-  * [Tool Shed Contributions](/src/galaxy-updates/2012-08/index.md#toolshed-contributions)
+  * [GCC2012 & GCC2013](/galaxy-updates/2012-08/#gcc2012--gcc2013): slides and video
+  * [29 new papers](/galaxy-updates/2012-08/#new-papers)
+  * [Tool Shed Contributions](/galaxy-updates/2012-08/#toolshed-contributions)
 * ***Sept***
-  * [41 new papers](/src/galaxy-updates/2012-09/index.md#new-papers)
-  * [3 new public Galaxy Servers](/src/galaxy-updates/2012-09/index.md#new-public-servers) 
-  * [Upcoming Events and Deadlines](/src/galaxy-updates/2012-09/index.md#upcoming-events-and-deadlines)
-  * [New Galaxy-France mailing list](/src/galaxy-updates/2012-09/index.md#new-galaxy-france-mailing-list)
-  * [Tool Shed Contributions](/src/galaxy-updates/2012-09/index.md#toolshed-contributions)
+  * [41 new papers](/galaxy-updates/2012-09/#new-papers)
+  * [3 new public Galaxy Servers](/galaxy-updates/2012-09/#new-public-servers) 
+  * [Upcoming Events and Deadlines](/galaxy-updates/2012-09/#upcoming-events-and-deadlines)
+  * [New Galaxy-France mailing list](/galaxy-updates/2012-09/#new-galaxy-france-mailing-list)
+  * [Tool Shed Contributions](/galaxy-updates/2012-09/#toolshed-contributions)
 
 ## Swiss Galaxy Day
 
-<div class='right'><a href='/src/events/switzerland2012/index.md'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
+<div class='right'><a href='/events/switzerland2012/'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
 
-The 1<sup>st</sup> [Swiss Galaxy Workshop](/src/events/switzerland2012/index.md) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
+The 1<sup>st</sup> [Swiss Galaxy Workshop](/events/switzerland2012/) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
  
 We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research. 
  

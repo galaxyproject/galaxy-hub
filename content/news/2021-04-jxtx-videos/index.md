@@ -9,7 +9,7 @@ date: "2021-04-02"
 
 <p class="lead">
 
-**Note: The deadline for submitted vides has been extended to May 7.  See [the announcement](/src/news/2021-05-galaxy-update/index.md#featured-news) for more.**
+**Note: The deadline for submitted vides has been extended to May 7.  See [the announcement](/news/2021-05-galaxy-update/#featured-news) for more.**
 
 </p>
 

@@ -22,24 +22,24 @@ Let your voice be heard!
 
 <div class='left'><img src="/src/images/icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
 
-A proposed change for the #galaxyproject IRC channel was [proposed](/src/news/irc-public-log-proposal/index.md), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
+A proposed change for the #galaxyproject IRC channel was [proposed](/news/irc-public-log-proposal/), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
 
-Thanks to everyone who participated in the decision, and [those at GCC2014 who suggested this](/src/events/gcc2014/bofs/galaxy-admins/index.md).
+Thanks to everyone who participated in the decision, and [those at GCC2014 who suggested this](/events/gcc2014/bofs/galaxy-admins/).
 
 
 # Events
 
-<div class='left'><br /><a href='/src/events/eccb2014/index.md'><img src="/src/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB'14 / JOBIM" height="75" /></a></div>
+<div class='left'><br /><a href='/events/eccb2014/'><img src="/src/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB'14 / JOBIM" height="75" /></a></div>
 
 ## Galaxy at ECCB'14
 
-Galaxy had a strong presence at [ECCB'14](/src/events/eccb2014/index.md).  Galaxy was featured in workshops, demos and posters.  Couldn't make it?  No worries, as [most slides and posters are now available online](/src/events/eccb2014/index.md).
+Galaxy had a strong presence at [ECCB'14](/events/eccb2014/).  Galaxy was featured in workshops, demos and posters.  Couldn't make it?  No worries, as [most slides and posters are now available online](/events/eccb2014/).
 
 
 ## Other Events
 
 <div class='center'> 
-<a href='/src/events/sg2014/index.md'><img src="/src/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
+<a href='/events/sg2014/'><img src="/src/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
 <a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'><img src="/src/images/logos/DTLLogo150.png" alt="iReport - A tool to create flexible, scalable Galaxy tool interface, presented at the DTL Programmers Meeting" height="90" /></a>
 <a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src="/src/images/logos/SB-RoscoffBig.JPG" alt="Des bonnes pratiques d'intégration d'outils sous Galaxy" height="60" /></a> &nbsp;
@@ -59,15 +59,15 @@ There are [upcoming events](/events/) in Switzerland, Germany, Australia, Norway
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/src/events/switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> <strong><a href='/src/events/sg2014/index.md'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
+    <td> <a href='/events/switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
+    <td rowspan=3> <strong><a href='/events/sg2014/'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
     <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
+    <td> <em><a href='/events/germany2014/'>German Galaxy Developers Day</a></em> </td>
   </tr>
   <tr>
     <th> October 1 </th>
@@ -219,7 +219,7 @@ The Galaxy is expanding! Please help it grow.
 * [Research Specialist](http://bit.ly/1vbagWb), Michigan State University, United States 
 * [Bioinformatics and Computational Biology](http://bit.ly/1uysJJH), [US Army Engineer Research and Development Center’s Environmental Laboratory](http://el.erdc.usace.army.mil/index.cfm), Vicksburg, MS, United States
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -243,7 +243,7 @@ The [GalaxEast](http://www.galaxeast.fr) project has the following main objectiv
 
 [GalaxEast](http://www.galaxeast.fr) is supported by [IGBMC](http://www.igbmc.fr/), [CNRS](http://www.cnrs.fr/), [Inserm](http://www.inserm.fr/), and [Université Strasbourg](http://www.unistra.fr/).
 
-See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/eccb2014/index.md) by Stephanie Le Gras, *et al.* for more.
+See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/events/eccb2014/) by Stephanie Le Gras, *et al.* for more.
 
 ## MIRPIPE
 
@@ -272,7 +272,7 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 <a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/src/images/logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
 </div>
 
-The deployment details for the [GalaxEast public server](/src/use/galaxeast/index.md) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/blog/).
+The deployment details for the [GalaxEast public server](/use/galaxeast/) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/blog/).
 
 The *Deployment Catalog* and *[Community Log Board](/blog/)* *[Galaxy community hubs](/community/)* were launched in 2013.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them **this month.**
 
@@ -280,7 +280,7 @@ The *Deployment Catalog* and *[Community Log Board](/blog/)* *[Galaxy community 
 
 # New Releases
 
-New versions of [Galaxy](/src/galaxy-updates/2014-09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release), [BioBlend](/src/galaxy-updates/2014-09/index.md#bioblend-051-release), and [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/src/galaxy-updates/2014-09/index.md#galaxy-ipython) too.
+New versions of [Galaxy](/galaxy-updates/2014-09/#august-11-2014-galaxy-distribution), [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), [BioBlend](/galaxy-updates/2014-09/#bioblend-051-release), and [blend4j](/galaxy-updates/2014-09/#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/galaxy-updates/2014-09/#galaxy-ipython) too.
 
 Look for a new Galaxy distribution in October.
 
@@ -385,7 +385,7 @@ In no particular order:
 # Other News
 
 * [Why the three biggest positive contributions to reproducible research are the iPython Notebook, knitr, and Galaxy](http://bit.ly/1rqHVJW) on the [Simply Statistics blog](http://simplystatistics.org/)
-* Updated [wiki page about dynamically discovering output datasets at runtime](/src/admin/tools/multiple-output-files/index.md#number-of-output-datasets-cannot-be-determined-until-tool-run). 
+* Updated [wiki page about dynamically discovering output datasets at runtime](/admin/tools/multiple-output-files/#number-of-output-datasets-cannot-be-determined-until-tool-run). 
 * The [Ansible playbook used to update usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook) is available in GitHub.
 * New [GVL Galaxy Release](https://genome.edu.au/wiki/GVL): Metagenomics Tutorial tools, MACS2, BLAST, MEME, hg38, rn6, and Trinity.
 * Galaxy Community UK launches a Twitter channel: [@GalaxyUKFriends](https://twitter.com/GalaxyUKFriends)

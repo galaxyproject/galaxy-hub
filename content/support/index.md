@@ -3,7 +3,7 @@ title: Galaxy Support
 ---
 ## Quick Start
 
-* [NGS 101](/src/tutorials/g101/index.md)
+* [NGS 101](/tutorials/g101/)
 * [Tutorials](/learn/)
 * [Teaching with Galaxy](https://training.galaxyproject.org/)
 * [Using Galaxy Choices](/use/#which-platform--platform-type-to-choose)
@@ -22,45 +22,45 @@ title: Galaxy Support
 
 ### Basics
 
-* [Getting an account at Galaxy Main (https://usegalaxy.org)](/src/support/account/index.md)
-* [Loading Data](/src/support/loading-data/index.md)
-* [Downloading Data](/src/support/download-data/index.md)
-* [Finding tools](/src/support/finding-tools/index.md)
-* [Where is the tool help?](/src/support/tool-help/index.md)
-* [Job details: bug, info, and other useful dataset icons](/src/support/dataset-icons/index.md)
+* [Getting an account at Galaxy Main (https://usegalaxy.org)](/support/account/)
+* [Loading Data](/support/loading-data/)
+* [Downloading Data](/support/download-data/)
+* [Finding tools](/support/finding-tools/)
+* [Where is the tool help?](/support/tool-help/)
+* [Job details: bug, info, and other useful dataset icons](/support/dataset-icons/)
 
 ### Datasets and Histories
 
-* [Understanding the Analysis History](/src/tutorials/histories/index.md)
-* [Managing Datasets](/src/learn/managing-datasets/index.md)
-* [Datasets and how jobs execute](/src/support/how-jobs-execute/index.md)
+* [Understanding the Analysis History](/tutorials/histories/)
+* [Managing Datasets](/learn/managing-datasets/)
+* [Datasets and how jobs execute](/support/how-jobs-execute/)
 * [More about moving Datasets and Histories](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/) (external GVL blog)
 
 ### Data Options
 
-* [Sharing and Publishing your work](/src/learn/share/index.md)
-* [Data Privacy Features](/src/learn/privacy-features/index.md)
+* [Sharing and Publishing your work](/learn/share/)
+* [Data Privacy Features](/learn/privacy-features/)
 * [Moving data between Galaxy servers (any!)](https://genomicsvirtuallab.wordpress.com/2016/07/13/moving-data-between-galaxy-instances/)
 
 ### Help Guides
 
 * [Why develop tools for Galaxy?](https://galaxyproject.github.io/why-galaxy)
 * [Galaxy Tricks](https://github.com/bgruening/galaxy-tricks/blob/master/README.md)
-* [Commercial Galaxy Support](/src/support/commercial/index.md)
+* [Commercial Galaxy Support](/support/commercial/)
 
 ## Troubleshooting
 
 ### Account 
 
 * [My history is missing! Good news, it probably isn't.](/src/support/missing-history/#my-history-is-missing-)
-* [A history was shared with me, where can I find it?](/src/support/missing-history/index.md)
-* [The account usage quota seems incorrect](/src/support/account-quotas/index.md)
+* [A history was shared with me, where can I find it?](/support/missing-history/)
+* [The account usage quota seems incorrect](/support/account-quotas/)
 * [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](/src/learn/managing-datasets/#delete-vs-delete-permanently)
-* [Reset password or Change email, username, password](/src/support/account-updates/index.md)
+* [Reset password or Change email, username, password](/support/account-updates/)
 
 ### Unexpected results
 
-* [My job ended with an error. What can I do?](/src/support/tool-error/index.md)
+* [My job ended with an error. What can I do?](/support/tool-error/)
 * [Reporting Usage Issues or Software bugs](/issues/)
 * [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
 * [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
@@ -70,15 +70,15 @@ title: Galaxy Support
 
 ### Getting inputs *right*
 
-* [How to format fastq data for tools that require .fastqsanger format?](/src/support/fastqsanger/index.md)
-* [Understanding compressed fastq data (fastq.gz)](/src/support/compressed-fastq/index.md)
-* [Reformatting fastq data loaded with NCBI SRA](/src/support/ncbi-sra-fastq/index.md)
-* [Format help for Tabular/BED/Interval Datasets](/src/support/tabular/index.md)
-* [Common datatypes explained](/src/learn/datatypes/index.md)
-* [The tool I'm using does not recognize any input datasets. Why?](/src/support/datatypes-and-tools/index.md)
-* [How do I find, adjust, and/or correct metadata?](/src/support/metadata/index.md)
-* [Tool error? Try Sorting Your Inputs](/src/support/sort-your-inputs/index.md)
-* [Preparing and using a Custom Reference Genome or Build](/src/learn/custom-genomes/index.md)
-* [Mismatched Chromosome identifiers (and how to avoid them)](/src/support/chrom-identifiers/index.md)
-* [Extended Help for Differential Expression Analysis Tools](/src/support/diff-expression/index.md)
+* [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
+* [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)
+* [Reformatting fastq data loaded with NCBI SRA](/support/ncbi-sra-fastq/)
+* [Format help for Tabular/BED/Interval Datasets](/support/tabular/)
+* [Common datatypes explained](/learn/datatypes/)
+* [The tool I'm using does not recognize any input datasets. Why?](/support/datatypes-and-tools/)
+* [How do I find, adjust, and/or correct metadata?](/support/metadata/)
+* [Tool error? Try Sorting Your Inputs](/support/sort-your-inputs/)
+* [Preparing and using a Custom Reference Genome or Build](/learn/custom-genomes/)
+* [Mismatched Chromosome identifiers (and how to avoid them)](/support/chrom-identifiers/)
+* [Extended Help for Differential Expression Analysis Tools](/support/diff-expression/)
 

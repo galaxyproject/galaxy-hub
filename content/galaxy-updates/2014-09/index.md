@@ -30,15 +30,15 @@ Don't fret if you want to join a community but you are not in the UK.  Galaxy-UK
 
 ## Galaxy Events in Europe, Fall 2014
 
-There are a wealth of Galaxy related events in Europe this fall. Events include a [large Galaxy presence at ECCB'14](/src/events/eccb2014/index.md), the [Fourth Galaxy User Group Grand Ouest (GUGGO) meeting](http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo), the [2014 Swiss-German Galaxy Tour](/src/events/sg2014/index.md), and several training events in Italy, the United Kingdom, Croatia, Norway, and France.
+There are a wealth of Galaxy related events in Europe this fall. Events include a [large Galaxy presence at ECCB'14](/events/eccb2014/), the [Fourth Galaxy User Group Grand Ouest (GUGGO) meeting](http://www.biogenouest.org/agenda/evenement/groupe-de-travail-des-utilisateurs-galaxy-du-grand-ouest-guggo), the [2014 Swiss-German Galaxy Tour](/events/sg2014/), and several training events in Italy, the United Kingdom, Croatia, Norway, and France.
 
 These events are a great way to meet other Galaxy users and developers and learn and share best practices. If you're in Europe and are interested in learning more about Galaxy and/or the community, then please give these a look.
 
 <div class='center'> 
-<a href='/src/events/eccb2014/index.md'><img src="/src/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB" height="80" /></a>
+<a href='/events/eccb2014/'><img src="/src/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB" height="80" /></a>
 <a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Tools integration on Galaxy" height="80" /></a> &nbsp;
 <a href='http://www.bioinformatica.crs4.it/training'><img src="/src/images/logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing con Galaxy" width="130" /></a> &nbsp;
-<a href='/src/events/sg2014/index.md'><img src="/src/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
+<a href='/events/sg2014/'><img src="/src/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
 </div>
 
 <table>
@@ -50,9 +50,9 @@ These events are a great way to meet other Galaxy users and developers and learn
   </tr>
   <tr>
     <th> September 6-10 </th>
-    <td> <a href='/src/events/eccb2014/index.md'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
-    <td> <strong><a href='/src/events/eccb2014/index.md'>European Conference on Computational Biology (ECCB'14)</a></strong>, Strasbourg, France </td>
-    <td> <a href='/src/events/eccb2014/index.md'>Presenters</a> </td>
+    <td> <a href='/events/eccb2014/'>At least one tutorial, a panel of European Public Galaxy Instances, and 5 posters</a> </td>
+    <td> <strong><a href='/events/eccb2014/'>European Conference on Computational Biology (ECCB'14)</a></strong>, Strasbourg, France </td>
+    <td> <a href='/events/eccb2014/'>Presenters</a> </td>
   </tr>
   <tr>
     <th> September 11 </th>
@@ -92,15 +92,15 @@ These events are a great way to meet other Galaxy users and developers and learn
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/src/events/switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> <strong><a href='/src/events/sg2014/index.md'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
+    <td> <a href='/events/switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
+    <td rowspan=3> <strong><a href='/events/sg2014/'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
     <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
+    <td> <em><a href='/events/germany2014/'>German Galaxy Developers Day</a></em> </td>
   </tr>
   <tr>
     <th> October 6 - 24 </th>
@@ -267,7 +267,7 @@ The Galaxy is expanding! Please help it grow.
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
 * [Galaxy Platform Development Officer](http://bit.ly/1q5iXPL), The Genome Analysis Centre (TGAC), Norwich, United Kingdom.  **Closes 18 September.**
 * [Bioinformatician position](http://www.xenbase.org/community/job.do?id=633&method=View+Job) at [Xenbase](http://xenbase.org), University of Calgary.
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -276,7 +276,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Releases
 
-August was an eventful month for releases.  New versions of [Galaxy](/src/galaxy-updates/2014-09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release), [BioBlend](/src/galaxy-updates/2014-09/index.md#bioblend-051-release), and [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release) were all released.
+August was an eventful month for releases.  New versions of [Galaxy](/galaxy-updates/2014-09/#august-11-2014-galaxy-distribution), [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), [BioBlend](/galaxy-updates/2014-09/#bioblend-051-release), and [blend4j](/galaxy-updates/2014-09/#blend4j-011-release) were all released.
 
 ## August 11, 2014 Galaxy Distribution
 

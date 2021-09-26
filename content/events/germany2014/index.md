@@ -7,7 +7,7 @@ title:  1st German Galaxy Developer workshop, Thursday, October 2nd, Freiburg
 
 
 
-In addition to the [2nd Swiss Galaxy Workshop](/src/events/switzerland2014/index.md), we will organize a Galaxy Developer Workshop in Freiburg.
+In addition to the [2nd Swiss Galaxy Workshop](/events/switzerland2014/), we will organize a Galaxy Developer Workshop in Freiburg.
 
 ## Preliminary Schedule
 

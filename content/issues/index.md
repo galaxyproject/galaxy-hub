@@ -15,7 +15,7 @@ Please report usage problems with tools and functions to the **[Galaxy Help](htt
 
 **It is good practise to first perform a [Galaxy Search](https://galaxyproject.org/search/)** to find prior Q and A, FAQs, Tutorials, and other documentation across all Galaxy resources. **Your problem may have an existing solution already posted**. 
 
-A summary of common troubleshooting solutions can also be found in this **Troubleshooting FAQ**: [My job ended with an error. What can I do?](/src/support/tool-error/index.md). 
+A summary of common troubleshooting solutions can also be found in this **Troubleshooting FAQ**: [My job ended with an error. What can I do?](/support/tool-error/). 
 
  * [Support FAQs](/support/)
  * [Galaxy Tutorials](/learn/)
@@ -34,7 +34,7 @@ If you can reproduce on [Main](/main/), and the problem presents in a **green su
 
 ### Functionality problems
 
-Any problem can be reported whether it involves a job or not (example: Unexpected or odd functionality in the user interface). Using [Galaxy Biostars](/src/support/biostar/index.md) is the best way to get help in most cases. If the problem is more complex, we may ask you to email us a description of the problem and how to reproduce it. To help clarify and aid with troubleshooting: the description may include share links (History, Workflow, Visualization), screenshots, tools involved (name, version), other input data locations/names (example: Data Library contents), and the URL of the public server you are working at. 
+Any problem can be reported whether it involves a job or not (example: Unexpected or odd functionality in the user interface). Using [Galaxy Biostars](/support/biostar/) is the best way to get help in most cases. If the problem is more complex, we may ask you to email us a description of the problem and how to reproduce it. To help clarify and aid with troubleshooting: the description may include share links (History, Workflow, Visualization), screenshots, tools involved (name, version), other input data locations/names (example: Data Library contents), and the URL of the public server you are working at. 
 
 If using your own [local/docker/cloud Galaxy server](https://galaxyproject.github.io/), details about the Galaxy Version, server OS/version, advanced configurations applied, whether the server is new or not, and if the behavior changed after making admin changes (tool installs, upgrading). See **Administrative problems** below.
 
@@ -50,7 +50,7 @@ Reviewing the problematic output content, the original tool form as submitted, t
  * ![](/src/images/icons/arrow-circle.png) Run this job again or examine original submitted form (filled in)
  * ![](/src/images/icons/bug.png) Review and optionally submit a bug report
  
-1. How to share a History or Workflow: [Options/Share or Publish](/src/learn/share/index.md) 
+1. How to share a History or Workflow: [Options/Share or Publish](/learn/share/) 
 1. If a Workflow was used, please include a share link to the workflow in the bug report's form comments or the direct email.
 1. If still not enough information, the problem can be posted to the [Galaxy Help](https://help.galaxyproject.org/) site (public) or the bug report can be sent in (private). 
 1. When submitting a bug report, you'll get cc'd copy of the full report with more details that may help, plus we will review unless you state in the comments that the intention is to see the full report (you can always reply later and request a review). 

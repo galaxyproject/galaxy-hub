@@ -76,7 +76,7 @@ How those papers were tagged:
 
 <div class='left'><br /><a href='http://www.gigasciencejournal.com/'><img src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="160" /></a></div>
 
-The *[GigaScience](http://www.gigasciencejournal.com/)* "Galaxy: Data Intensive and Reproducible Research" series [announced](http://blogs.biomedcentral.com/gigablog/2013/04/05/call-for-papers-for-a-special-gcc2013-galaxy-series/) for the [2013 Galaxy Community Conference](/src/events/gcc2013/index.md) has just published its [first papers](http://www.gigasciencejournal.com/series/Galaxy), and is continuing to take submissions. Whilst the series considers best practice papers, discussion, as well as novel uses of Galaxy, these first papers are examples of Galaxy toolkits, with a [genome diversity tool collection](https://doi.org/10.1186/2047-217X-2-17) presented from the Miller lab at Pennsylvania State, and a [set of analytical and visualisation tools for Complete Genomics sequencing data](https://doi.org/10.1186/2047-217X-3-1) from the Stubbs lab at Erasmus Medical College. The genome diversity toolkit is their first example that integrates with their [GigaGalaxy server](http://gigagalaxy.net/), with SVG graphs to help visualize how input datasets, workflows and histories are related to each example analysis in the paper. BGI is continuing to cover the article processing charges until the end of this year, so for more information see their [blog posting](http://blogs.biomedcentral.com/gigablog/2014/02/06/rewarding-reproducibility-first-papers-in-our-galaxy-series-utilizing-our-gigagalaxy-platform/).
+The *[GigaScience](http://www.gigasciencejournal.com/)* "Galaxy: Data Intensive and Reproducible Research" series [announced](http://blogs.biomedcentral.com/gigablog/2013/04/05/call-for-papers-for-a-special-gcc2013-galaxy-series/) for the [2013 Galaxy Community Conference](/events/gcc2013/) has just published its [first papers](http://www.gigasciencejournal.com/series/Galaxy), and is continuing to take submissions. Whilst the series considers best practice papers, discussion, as well as novel uses of Galaxy, these first papers are examples of Galaxy toolkits, with a [genome diversity tool collection](https://doi.org/10.1186/2047-217X-2-17) presented from the Miller lab at Pennsylvania State, and a [set of analytical and visualisation tools for Complete Genomics sequencing data](https://doi.org/10.1186/2047-217X-3-1) from the Stubbs lab at Erasmus Medical College. The genome diversity toolkit is their first example that integrates with their [GigaGalaxy server](http://gigagalaxy.net/), with SVG graphs to help visualize how input datasets, workflows and histories are related to each example analysis in the paper. BGI is continuing to cover the article processing charges until the end of this year, so for more information see their [blog posting](http://blogs.biomedcentral.com/gigablog/2014/02/06/rewarding-reproducibility-first-papers-in-our-galaxy-series-utilizing-our-gigagalaxy-platform/).
 
 # Who's Hiring
 
@@ -86,7 +86,7 @@ The Galaxy is expanding! Please help it grow.
 
 * [Stage M2 Recherche : Provenance dans un système de workflows pour la bioinformatique](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/thread/3PXIAVFR2YHMZAZXCDHDXNMGBSZJVFGR/#3PXIAVFR2YHMZAZXCDHDXNMGBSZJVFGR)
 * [Stage M1/M2, Development and integration of computational methods into the Galaxy analysis framework](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/thread/BUHZTVWUF4P7X3WXMR4BVZTK45QVCNPD/#BUHZTVWUF4P7X3WXMR4BVZTK45QVCNPD), Institut Curie, Paris
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**, *including positions at George Washington University*.
 
 * [Postdoctoral position in genomics/bio-informatics (NGS)](http://bit.ly/1eq5TvM) at University of Rennes 1 (France)  
@@ -120,25 +120,25 @@ The first day (Monday) will be in Clayton, next to [the Australian Synchrotron](
 
 Learn how to get more out of your data, and connect with other HPC administrators, research scientists, and developers who are building and using cutting-edge solutions to wrangle data.
 
-Galaxy will have a presence at this meeting, and [GCC2014](/src/events/gcc2014/index.md) is a Silver Sponsor of [GlobusWorld](http://www.globusworld.org/).
+Galaxy will have a presence at this meeting, and [GCC2014](/events/gcc2014/) is a Silver Sponsor of [GlobusWorld](http://www.globusworld.org/).
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2014/'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
 
-The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
+The [2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
 ### Registration is Open
 
-[Early registration is now open](/src/events/gcc2014/register/index.md). *Early registration saves more than 70% on registration costs, and [Training Day](/src/events/gcc2014/training-day/index.md) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/src/events/gcc2014/logistics/index.md#lodging), a very affordable housing option in the same building as the conference.
+[Early registration is now open](/events/gcc2014/register/). *Early registration saves more than 70% on registration costs, and [Training Day](/events/gcc2014/training-day/) registration is an additional 55% off if you register for both at the same time.*  This is by far the most affordable option, with early registration fees starting at less than $50 per day.  When you register you can also reserve [lodging at Charles Commons](/events/gcc2014/logistics/#lodging), a very affordable housing option in the same building as the conference.
 
-*[Training Day](/src/events/gcc2014/training-day/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
+*[Training Day](/events/gcc2014/training-day/)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There are 5 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 15 sessions and over 37 hours of workshop material.*
 
 ### Abstract Submission is Open
 
-[Abstract submission for both oral presentations and posters](/src/events/gcc2014/abstracts/index.md) is also open.  Abstract submission for oral presentations closes April 4, while poster submission closes April 25. Poster authors will be notified of acceptance status within two weeks of submission, while presentation authors will be notified no later than May 2.  Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about it.
+[Abstract submission for both oral presentations and posters](/events/gcc2014/abstracts/) is also open.  Abstract submission for oral presentations closes April 4, while poster submission closes April 25. Poster authors will be notified of acceptance status within two weeks of submission, while presentation authors will be notified no later than May 2.  Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about it.
 
-Accepted talks and selected posters from GCC2014 are also eligible for consideration to appear in the *[GigaScience](http://www.gigasciencejournal.com/)* ["Galaxy: Data Intensive and Reproducible Research"](/src/galaxy-updates/2014-03/index.md#gigascience-galaxy-series) series described above.
+Accepted talks and selected posters from GCC2014 are also eligible for consideration to appear in the *[GigaScience](http://www.gigasciencejournal.com/)* ["Galaxy: Data Intensive and Reproducible Research"](/galaxy-updates/2014-03/#gigascience-galaxy-series) series described above.
 
 
 ### Sponsorships
@@ -150,13 +150,13 @@ Accepted talks and selected posters from GCC2014 are also eligible for considera
 <a href='http://bio.maryland.gov/'><img src="/src/images/logos/BioMaryland400.png" alt="BioMaryland" width="200" /></a>
 </div>
 
-We are pleased to have [Amazon Web Services (AWS)](http://aws.amazon.com/) as the sponsor for the GCC [Training Day](/src/events/gcc2014/training-day/index.md) for the third year in a row.  Also please welcome [BioMaryland](http://bio.maryland.gov/) as a [Bronze Sponsor](/src/events/gcc2014/sponsor-exhibit/index.md) for [GCC2014](/src/events/gcc2014/index.md).  BioMaryland is new to the GCC.
+We are pleased to have [Amazon Web Services (AWS)](http://aws.amazon.com/) as the sponsor for the GCC [Training Day](/events/gcc2014/training-day/) for the third year in a row.  Also please welcome [BioMaryland](http://bio.maryland.gov/) as a [Bronze Sponsor](/events/gcc2014/sponsor-exhibit/) for [GCC2014](/events/gcc2014/).  BioMaryland is new to the GCC.
 
-There are still [Silver and Bronze sponsorships](/src/events/gcc2014/sponsor-exhibit/index.md) available. Please contact the [Organizers](/src/events/gcc2014/organizers/index.md) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event. 
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/sponsor-exhibit/index.md#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/events/gcc2014/organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014. 
 
 ## Other Events
 
@@ -165,10 +165,10 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
 <br />
 
 <div class='center'> 
-<a href='/src/events/gaw2014/index.md'><img src="/src/images/logos/GAW2014-200.png" alt="Register now for Galaxy Australasia Workshop (GAW 2014)" height="60" /></a> &nbsp;
+<a href='/events/gaw2014/'><img src="/src/images/logos/GAW2014-200.png" alt="Register now for Galaxy Australasia Workshop (GAW 2014)" height="60" /></a> &nbsp;
 <a href='http://globusworld.org/'><img src="/src/images/logos/GlobusWorld2014Logo.png" alt="GlobusWorld 2014" height="60" /></a> &nbsp;
 <a href='http://www.bio-itworldexpo.com/'><img src="/src/images/logos/BioITWorld2014Logo.png" alt="Bio-IT World 2014" /></a> &nbsp;
-<a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014 early registration and abstract submission are now open" width="150" /></a>
+<a href='/events/gcc2014/'><img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014 early registration and abstract submission are now open" width="150" /></a>
 </div>
 
 <table>
@@ -180,9 +180,9 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
   </tr>
   <tr>
     <th> March 24-25 </th>
-    <td> <strong><a href='/src/events/gaw2014/index.md'>Galaxy Australasia Workshop 2014 (GAW2014)</a></strong> </td>
+    <td> <strong><a href='/events/gaw2014/'>Galaxy Australasia Workshop 2014 (GAW2014)</a></strong> </td>
     <td> Melbourne, Australia </td>
-    <td> <a href='/src/events/gaw2014/index.md#organisers'>Organisers</a> </td>
+    <td> <a href='/events/gaw2014/#organisers'>Organisers</a> </td>
   </tr>
   <tr>
     <th> March 26-30 </th>
@@ -274,14 +274,14 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
   </tr>
   <tr>
     <th> June 28-30 </th>
-    <td> <a href='/src/events/gcc2014/hackathon/index.md'>Galaxy Hackathon</a> </td>
+    <td> <a href='/events/gcc2014/hackathon/'>Galaxy Hackathon</a> </td>
     <td rowspan=2> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/src/events/gcc2014/organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/events/gcc2014/organizers/'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> <strong><a href='/src/events/gcc2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
-    <td> <a href='/src/events/gcc2014/organizers/index.md'>Organizers</a> </td>
+    <td> <strong><a href='/events/gcc2014/'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
+    <td> <a href='/events/gcc2014/organizers/'>Organizers</a> </td>
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
@@ -290,11 +290,11 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/spon
     <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
     <td> SyBIT Tech Day, Bern (Switzerland) </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
+    <td> <em><a href='/events/germany2014/'>German Galaxy Developers Day</a></em> </td>
     <td> Freiburg (Germany) </td>
   </tr>
 </table>
@@ -325,7 +325,7 @@ One new [public Galaxy server](/use/), PGTB was added, and the NELLY server is b
 
 # Galaxy Distributions
 
-The most recent version of CloudMan was [released in January 2014](/src/news/cloudman-release201401/index.md).
+The most recent version of CloudMan was [released in January 2014](/news/cloudman-release201401/).
 
 ## Feb 10, 2014 Galaxy Distribution
 

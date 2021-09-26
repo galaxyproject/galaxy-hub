@@ -5,7 +5,7 @@ title: Frequently Asked Questions about Main
 
 
  
-Questions specifically about Galaxy's [free public server](/main/).  See [Learn/FAQ](/src/learn/faq/index.md) for questions that apply to any Galaxy instance.
+Questions specifically about Galaxy's [free public server](/main/).  See [Learn/FAQ](/learn/faq/) for questions that apply to any Galaxy instance.
 
 
  

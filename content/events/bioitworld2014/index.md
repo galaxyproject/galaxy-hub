@@ -31,7 +31,7 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
   <tr>
     <td> <em><a href='http://www.bio-itworldexpo.com/Bio-It_Expo_Content.aspx?id=135152'>W14: Running a Local Galaxy Instance</a></em> </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Adam Kraut</a>, <a href='/people/nate/'>Nate Coraor</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a>, Tristan Lubinski, <a href='http://www.sgi.com/solutions/genomics'>James Reaney</a> </td>
-    <td> <a href='/src/events/bio-it-world2014/w14/index.md'>Tutorial script</a> </td>
+    <td> <a href='/events/bio-it-world2014/w14/'>Tutorial script</a> </td>
   </tr>
   <tr>
     <th rowspan=2> Wednesday<br />April 30 </th>
@@ -74,4 +74,4 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
 
 ## Flier
 
-Going to Bio-IT World?  Print out a copy of the [Galaxy @ BioIT World 2014 flier](https://depot.galaxyproject.org/hub/attachments/events/bioitworld2014/GalaxyAtBioITWorld2014Flier.pdf).  Want to help get the word out about Galaxy?  The [flier's](https://depot.galaxyproject.org/hub/attachments/events/bioitworld2014/GalaxyAtBioITWorld2014Flier.pdf) back page has information on [GCC2014](/src/events/gcc2014/index.md).  Print out a few copies and take them with you.
+Going to Bio-IT World?  Print out a copy of the [Galaxy @ BioIT World 2014 flier](https://depot.galaxyproject.org/hub/attachments/events/bioitworld2014/GalaxyAtBioITWorld2014Flier.pdf).  Want to help get the word out about Galaxy?  The [flier's](https://depot.galaxyproject.org/hub/attachments/events/bioitworld2014/GalaxyAtBioITWorld2014Flier.pdf) back page has information on [GCC2014](/events/gcc2014/).  Print out a few copies and take them with you.

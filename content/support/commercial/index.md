@@ -45,7 +45,7 @@ At [Noor Biotechnologies](http://noorbiotech.com/) we support your genomics rese
 
 1. Helping you identifying the correct genomics applications that answer your research questions.
 2. Providing support in the design of your sequencing experiment.
-3. [Training](/src/support/commercial/index.md#training) you in using Galaxy for high throughput data analysis.
+3. [Training](/support/commercial/#training) you in using Galaxy for high throughput data analysis.
 4. Providing help in selecting the correct bioinformatics tools and work workflows on either public Galaxy servers or to customize your own local Galaxy server.
 5. Offering a deep understanding of microbial genomics. 
 

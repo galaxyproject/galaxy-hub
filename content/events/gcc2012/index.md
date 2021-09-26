@@ -14,7 +14,7 @@ image: /src/images/galaxy-logos/GCC2012LogoWide400.png
 
 **The 2012 Galaxy Community Conference (GCC2012) was held July 25-27 at the [UIC Forum](http://www.uicforum.uic.edu/) at [University of Illinois Chicago](http://uic.edu/).**
 <br /><br />
-GCC2012 ran for [two full days](/src/events/gcc2012/program/index.md), and was preceded by a [full day of training workshops](/src/events/gcc2012/program/index.md).  GCC2012 had things in common [with previous meetings](/gcc/), and also incorporated new features, such as the training day, based on feedback we received after the [2011 conference](https://galaxyproject.org/gcc2011/).
+GCC2012 ran for [two full days](/events/gcc2012/program/), and was preceded by a [full day of training workshops](/events/gcc2012/program/).  GCC2012 had things in common [with previous meetings](/gcc/), and also incorporated new features, such as the training day, based on feedback we received after the [2011 conference](https://galaxyproject.org/gcc2011/).
 
 GCC2012 was hosted by the [University of Illinois at Chicago](http://uic.edu/), the [University of Illinois at Urbana-Champaign](http://illinois.edu/), and the [Computation Institute](http://www.ci.anl.gov/).
 
@@ -32,8 +32,8 @@ GCC2012 was hosted by the [University of Illinois at Chicago](http://uic.edu/), 
   * Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets *and* the computational analyses that produced them.
 
 GCC 2012 is also an opportunity to:
-* **[Present your work!](/src/events/gcc2012/abstracts/index.md)**
-* **[Learn best practices](/src/events/gcc2012/program/index.md)** for deploying Galaxy, defining and installing resources, and managing and moving large datasets.
+* **[Present your work!](/events/gcc2012/abstracts/)**
+* **[Learn best practices](/events/gcc2012/program/)** for deploying Galaxy, defining and installing resources, and managing and moving large datasets.
 * **Network with others** in the Galaxy community who are facing similar challenges and using Galaxy (and other tools) to address them.
 * Learn what the Galaxy Team's plans are, and **contribute to Galaxy's future direction**.
 * Learn how to **visualize your data in Galaxy and use visualization to guide your analysis** (*visual analytics*)
@@ -41,7 +41,7 @@ GCC 2012 is also an opportunity to:
 
 ## About Galaxy
 
-[Galaxy](http://galaxyproject.org) makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis (including numerous Illumina-, SOLiD-, and 454-specific tools), trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/src/admin/license/index.md). 
+[Galaxy](http://galaxyproject.org) makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis (including numerous Illumina-, SOLiD-, and 454-specific tools), trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/admin/license/). 
 
 
 ## Sponsors

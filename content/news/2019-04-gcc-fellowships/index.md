@@ -3,9 +3,9 @@ title: 'Apply for a GCC2019 Fellowship'
 tease: 'Apply soon...'
 date: '2019-04-11'
 ---
-[<img class="float-right" src="/src/events/gcc2019/gcc2019-logo-213.png" alt='Apply for a GCC2019 travel fellowship' />](/src/events/gcc2019/index.md)
+[<img class="float-right" src="/src/events/gcc2019/gcc2019-logo-213.png" alt='Apply for a GCC2019 travel fellowship' />](/events/gcc2019/)
 
-[GCC2019](/src/events/gcc2019/index.md) will be held 1-8 July in Freiburg, Germany.  GCC is a great opportunity to discuss your research with others that are working in and facing similar challenges in data-intenisve life science research.  *But only if you can get there.*
+[GCC2019](/events/gcc2019/) will be held 1-8 July in Freiburg, Germany.  GCC is a great opportunity to discuss your research with others that are working in and facing similar challenges in data-intenisve life science research.  *But only if you can get there.*
 
 The Galaxy Community Fund is offering [fellowships](http://bit.ly/gcc2019fellowships) to students, post-docs, and other early career researchers who would benefit from attending GCC2019.
 
@@ -31,6 +31,6 @@ See the [application](http://bit.ly/gcc2019fellowships) for full details on what
 
 **We'll review applications in two rounds, one starting on 23 April, and the other on 10 May. Interested?  [Submit an abstract](https://easychair.org/conferences/?conf=gcc2019) and [apply for a fellowship](http://bit.ly/gcc2019fellowships).  If you have visa concerns, you are encouraged to submit and apply by 22 April.**
 
-We hope to see you at [GCC2019](/src/events/gcc2019/index.md)!
+We hope to see you at [GCC2019](/events/gcc2019/)!
 
 Galaxy Community Fund Board

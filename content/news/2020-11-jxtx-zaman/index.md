@@ -5,7 +5,7 @@ external_url: ""
 date: "2020-11-25"
 ---
 
-The [JXTX Foundation's](/src/jxtx/foundation/index.md) first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference](/src/news/2020-10-jxtx-awardees/index.md) at Cold Spring Harbor Laboratory.  Awards were competitive and we were delighted with our first round of participants.
+The [JXTX Foundation's](/jxtx/foundation/) first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference](/news/2020-10-jxtx-awardees/) at Cold Spring Harbor Laboratory.  Awards were competitive and we were delighted with our first round of participants.
 
 **[Sumaira Zaman](https://sumairazaman.weebly.com/)**, a scholarship awardee and graduate student at the [University of Connecticut](https://uconn.edu/) summarized her experience:
 
@@ -20,7 +20,7 @@ From a pool of extraordinary applicants, I am honored that the organizers chose 
 
 <br />
 
-Please help further the careers of junior researchers by making a contribution to [JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md).
+Please help further the careers of junior researchers by making a contribution to [JXTX: The James P. Taylor Foundation for Open Science](/jxtx/foundation/).
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
@@ -29,7 +29,7 @@ Please help further the careers of junior researchers by making a contribution t
 
 </button> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
 
-[Learn more](/src/jxtx/foundation/index.md)
+[Learn more](/jxtx/foundation/)
 
 </button>
 </div>

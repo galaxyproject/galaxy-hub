@@ -11,8 +11,8 @@ If you get an error on Test, there are many possible reasons for it. You might t
 
 The [Learn](/learn/) pages include information on how to use Test, Main, and most other Galaxy instances. Also see:
 
-* [Datasets](/src/learn/managing-datasets/index.md)
-* [Disk Quotas](/src/admin/disk-quotas/index.md)
+* [Datasets](/learn/managing-datasets/)
+* [Disk Quotas](/admin/disk-quotas/)
 
 See [Choices](/use/#which-platform-platform-type-to-choose) for more on other choices for using and running Galaxy.
 
@@ -201,7 +201,7 @@ Some tools or job destinations have stricter job concurrency limits than the ove
 
 ### Monitoring data use
 
-Exceeding quotas will prevent new jobs from running, but Galaxy users can monitor and [manage datasets](/src/learn/managing-datasets/index.md) in several ways:
+Exceeding quotas will prevent new jobs from running, but Galaxy users can monitor and [manage datasets](/learn/managing-datasets/) in several ways:
 
 1. Percent of quota limit used by a user account is noted in the top right corner of the Galaxy interface within a bar icon.
 2. Exact total user data size and quota limit is noted on the page: **User &rarr; Preferences** (top menu bar).
@@ -228,7 +228,7 @@ Any jobs queued after the limit of 4 has been met will remain in the status "wai
 
 #### Data
 
-Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options &rarr; Saved Histories** form and the option **Delete Permanently**. More information about data is covered on the [Managing Datasets](/src/learn/managing-datasets/index.md#actions) wiki.
+Reduce the amount of data in your account. Start with removing any Histories that are no longer needed on the **Options &rarr; Saved Histories** form and the option **Delete Permanently**. More information about data is covered on the [Managing Datasets](/learn/managing-datasets/#actions) wiki.
 
 #### Jobs
 
@@ -242,7 +242,7 @@ If you are involved with scientific or functional testing of a new Galaxy tool, 
 
 ## Developers and Administrators
 
-New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/src/admin/disk-quotas/index.md). Feedback about the implementation of quota management is welcomed at the [Galaxy-Dev mailing list](/mailing-lists/).
+New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/admin/disk-quotas/). Feedback about the implementation of quota management is welcomed at the [Galaxy-Dev mailing list](/mailing-lists/).
 
 ## Quotas at the Galaxy Main public instance
 

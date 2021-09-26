@@ -1,9 +1,9 @@
 ---
 title: Adding custom tools to Galaxy
 ---
-A vast number of well-implemented tools are available for Galaxy through the [Galaxy Tool Shed](/toolshed/). Users with admin privileges can freely install any tools from the Tool Shed to their Galaxy instance via the [admin interface](/admin/). A short tutorial describing how to install tools from the Tool Shed is available [here](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
+A vast number of well-implemented tools are available for Galaxy through the [Galaxy Tool Shed](/toolshed/). Users with admin privileges can freely install any tools from the Tool Shed to their Galaxy instance via the [admin interface](/admin/). A short tutorial describing how to install tools from the Tool Shed is available [here](/admin/tools/add-tool-from-toolshed-tutorial/).
 
-The list of available tools in the Tool Shed can be found [here](http://toolshed.g2.bx.psu.edu). If a tool is not currently in the Tool Shed, it can be wrapped and added to Galaxy and later shared in the Tool Shed with the rest of the world. The steps outlined below will guide users through the creation of a custom tool in Galaxy. There are also helpful instructions in this [tutorial for Creating a Histogram Tool](/src/admin/tools/adding-tools/index.md).
+The list of available tools in the Tool Shed can be found [here](http://toolshed.g2.bx.psu.edu). If a tool is not currently in the Tool Shed, it can be wrapped and added to Galaxy and later shared in the Tool Shed with the rest of the world. The steps outlined below will guide users through the creation of a custom tool in Galaxy. There are also helpful instructions in this [tutorial for Creating a Histogram Tool](/admin/tools/adding-tools/).
 
 ### 1. Write and test the tool outside Galaxy.
 
@@ -102,4 +102,4 @@ Note the correspondence between elements of the tool definition file (Step 3) an
 
 To share the tool with the Galaxy community, upload it to the [Galaxy Tool Shed](/toolshed/). Users can now install the tool into their Galaxies seamlessly via the [Admin interface](/admin/). If the tool is well-written and tested it can even make it to the [Main Galaxy instance](/main/) or other [Public Galaxy Servers](/use/)!
 
-To get started sharing and publishing your tool, check out the [How to publish a tool in the Tool Shed](/src/toolshed/publish-tool/index.md) tutorial.
+To get started sharing and publishing your tool, check out the [How to publish a tool in the Tool Shed](/toolshed/publish-tool/) tutorial.

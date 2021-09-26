@@ -8,18 +8,18 @@ date: "2018-11-01"
 
 The *November  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
-* The [Galaxy Platforms Directory](/src/news/2018-11-galaxy-update/index.md#the-galaxy-platforms-directory): 125 ways to use Galaxy
-  * [New Galaxy Platforms](/src/news/2018-11-galaxy-update/index.md#new-galaxy-platforms): SMAGEXP and the SNIC Science Cloud
+* The [Galaxy Platforms Directory](/news/2018-11-galaxy-update/#the-galaxy-platforms-directory): 125 ways to use Galaxy
+  * [New Galaxy Platforms](/news/2018-11-galaxy-update/#new-galaxy-platforms): SMAGEXP and the SNIC Science Cloud
 * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), **19-20 November**, Freiburg, Germany
-* [2019 Galaxy Admin Training](/src/news/2018-11-galaxy-update/index.md#2019-galaxy-admin-training), January at Penn State
+* [2019 Galaxy Admin Training](/news/2018-11-galaxy-update/#2019-galaxy-admin-training), January at Penn State
 * [All upcoming events](#upcoming-events)
 * [104 publications](#publications), including three highlighted ones
-* Two new [Galactic Blog entries](/src/news/2018-11-galaxy-update/index.md#new-galactic-blog-posts)
+* Two new [Galactic Blog entries](/news/2018-11-galaxy-update/#new-galactic-blog-posts)
 * [Open positions](/src/news/2018-11-galaxy-update/#whos-hiring) (at least 12 of them)
-*  [Doc, Hub, and Training Updates](/src/news/2018-11-galaxy-update/index.md#doc-hub-and-training-updates)
-* [ToolShed contributions](/src/news/2018-11-galaxy-update/index.md#toolshed-contributions)
-* [Releases](/src/news/2018-11-galaxy-update/index.md#releases) Galaxy 18.09 is released!
-* And [other news](/src/news/2018-11-galaxy-update/index.md#other-news) too
+*  [Doc, Hub, and Training Updates](/news/2018-11-galaxy-update/#doc-hub-and-training-updates)
+* [ToolShed contributions](/news/2018-11-galaxy-update/#toolshed-contributions)
+* [Releases](/news/2018-11-galaxy-update/#releases) Galaxy 18.09 is released!
+* And [other news](/news/2018-11-galaxy-update/#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -57,7 +57,7 @@ SMAGEXP (Statistical Meta-Analysis for Gene EXPression) provides a unified way t
 
 ### SNIC Science Cloud (SSC)
 
-[<img src="/src/use/snic-science-cloud/snic-science-cloud.png" class="float-left" alt="SNIC Science Cloud (SSC)" width="200" />](/src/use/snic-science-cloud/index.md)
+[<img src="/src/use/snic-science-cloud/snic-science-cloud.png" class="float-left" alt="SNIC Science Cloud (SSC)" width="200" />](/use/snic-science-cloud/)
 
 [Swedish National Infrastructure for Computing (SNIC)](http://snic.se/) [Science Cloud (SSC)](https://cloud.snic.se/) is a community cloud and use of the resources is free of charge to Swedish PIs and their collaborators. As for other SNIC allocations you need an affiliation with a Swedish higher education institution to be eligible to apply for a project.  It's a national-scale cloud infrastructure for Swedish Academia.
 
@@ -70,24 +70,24 @@ quotas:
 
 Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming events to help get you out and about.
 
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/src/events/2018-europe-dev/index.md)
+[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
 
 ## European Galaxy Days, 19-20 November, Freiburg, Germany
 
-**[European Galaxy Days](/src/events/2018-europe-dev/index.md)** will be held  19 and 20 November 2018 in Freiburg, Germany. The [first day](/src/events/2018-europe-dev/index.md#monday-november-19th) will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The [second day](/src/events/2018-europe-dev/index.md#tuesday-november-20th) will focus on developing and extending the Galaxy ecosystem.
+**[European Galaxy Days](/events/2018-europe-dev/)** will be held  19 and 20 November 2018 in Freiburg, Germany. The [first day](/events/2018-europe-dev/#monday-november-19th) will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The [second day](/events/2018-europe-dev/#tuesday-november-20th) will focus on developing and extending the Galaxy ecosystem.
 
-**The event is free and [registration is open](https://tinyurl.com/EGD2018).**  See the [event home page](/src/events/2018-europe-dev/index.md) for more.
+**The event is free and [registration is open](https://tinyurl.com/EGD2018).**  See the [event home page](/events/2018-europe-dev/) for more.
 
 
 ## 2019 Galaxy Admin Training
 
-[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/src/events/2019-admin-training/index.md)
+[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/events/2019-admin-training/)
 
-**[Galaxy Admin Training](/src/events/2018-europe-dev/index.md)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
+**[Galaxy Admin Training](/events/2018-europe-dev/)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
 
-**[Registration](/src/events/2019-admin-training/index.md#registration) is open, but space is limited!**
+**[Registration](/events/2019-admin-training/#registration) is open, but space is limited!**
 
-See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
+See the [Galaxy 2019 Admin Training page](/events/2019-admin-training/) for more details.
 
 ## Upcoming events
 
@@ -268,7 +268,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -303,7 +303,7 @@ And we would especially like to welcome new contributors [Matthias313](https://g
 
 ## Hub
 
-* [Sorting Your Inputs](/src/support/sort-your-inputs/index.md), a how-to page by [Jennifer Hillman-Jackson](/people/jennifer-jackson/)
+* [Sorting Your Inputs](/support/sort-your-inputs/), a how-to page by [Jennifer Hillman-Jackson](/people/jennifer-jackson/)
 * And the Hub now supports [DataTables](https://datatables.net/) (in a limited fashion, look for more in the future) and [Font Awesome 5](https://fontawesome.com/) (look for more spiffy icons).
 
 ---
@@ -312,7 +312,7 @@ And we would especially like to welcome new contributors [Matthias313](https://g
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in October 2018](/src/toolshed/contributions/2018-10/index.md).
+[Tool Shed contributions in October 2018](/toolshed/contributions/2018-10/).
 
 
 # Releases

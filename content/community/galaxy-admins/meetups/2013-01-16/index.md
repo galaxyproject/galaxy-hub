@@ -1,10 +1,10 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> <div class='title'>2013-01-16 Web Meetup<br /><br />Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan</div></div>
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> <div class='title'>2013-01-16 Web Meetup<br /><br />Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan</div></div>
 
 <br />
 
 <slot name="/community/galaxy-admins/linkbox" />
 
-The January 2013 [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-01-16/index.md) was held Wednesday, January 16, 2013 at 10am US central time.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) covered "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."   
+The January 2013 [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-01-16/) was held Wednesday, January 16, 2013 at 10am US central time.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) covered "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."   
 
 [Greg Von Kuster](/people/greg-vonkuster/) also gave a Galaxy Project update.
 

@@ -39,4 +39,4 @@ While [no quotas](/main/#quotas) are currently implemented at the public Galaxy 
 
 <br />
 
-If you find that you require additional resources, please consider alternative Galaxy options explained at [Big Picture/Choices](/src/big-picture/choices/index.md).
+If you find that you require additional resources, please consider alternative Galaxy options explained at [Big Picture/Choices](/big-picture/choices/).

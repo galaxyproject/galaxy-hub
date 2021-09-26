@@ -23,4 +23,4 @@ Fellowship applications are open until May 17.  If you are a student or post-doc
 <br /><br />
 </div>
 
-*Note: These fellowships are in addition to the [conference fellowships offered by the Galaxy Community Fund Board](/src/news/2021-04-gcc-fellowships/index.md).  Those fellowships are limited to researchers in developing economies.*
+*Note: These fellowships are in addition to the [conference fellowships offered by the Galaxy Community Fund Board](/news/2021-04-gcc-fellowships/).  Those fellowships are limited to researchers in developing economies.*

@@ -23,7 +23,7 @@ date: 2012-03-12
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 ## Migrating tools from the Galaxy distribution to the Galaxy Main tool shed
 
-In 2012, the Galaxy development team will begin the process of **migrating the tools that are currently available in the Galaxy distribution to the [Galaxy Main tool shed](http://toolshed.g2.bx.psu.edu/)**.  This will enable those that host local Galaxy instances much more flexibility in choosing to provide only those specific tools in which their users are interested. [Read more...](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md)
+In 2012, the Galaxy development team will begin the process of **migrating the tools that are currently available in the Galaxy distribution to the [Galaxy Main tool shed](http://toolshed.g2.bx.psu.edu/)**.  This will enable those that host local Galaxy instances much more flexibility in choosing to provide only those specific tools in which their users are interested. [Read more...](/toolshed/migrating-tools-from-galaxy-distribution/)
 
 ## XML configuration files used to populate your Galaxy tool panel
 
@@ -52,7 +52,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
 <br />
 # New & Updated Tools
 
-*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/src/admin/config/tool-dependencies/index.md) *for these and other recently updated Tool Dependencies. Please see * [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) * for additional new tools.*
+*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/) *for these and other recently updated Tool Dependencies. Please see * [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) * for additional new tools.*
 * **RNA-Seq Tools**
   * Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0
     * Requires helper script: **gtf_to_sam** version 1.3.0
@@ -66,7 +66,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
 
 # Galaxy Track Browser (GTB)
 
-**[Trackster](/src/learn/visualization/index.md)**
+**[Trackster](/learn/visualization/)**
 * *New:*
   * Enable visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) peak tracks (see graphic below)
   * Dynamic filtering of read tracks using quality scores
@@ -82,7 +82,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
   * Move 'more rows' icon from tile level to track level 
 
 Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composite Track data using dynamic filters
-</div><a href='/src/learn/visualization/index.md'><img src="/src/images/news-graphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="800px" /></a></div>
+</div><a href='/learn/visualization/'><img src="/src/images/news-graphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="800px" /></a></div>
 
 <br />
 # Workflows
@@ -165,23 +165,23 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 
 **[News](/news/)**
 
-**March 2012** ***[Galaxy Update](/src/galaxy-updates/2012-03/index.md)***
+**March 2012** ***[Galaxy Update](/galaxy-updates/2012-03/)***
 
 ## GCC2012 Update
 
-<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
-* The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) will be held July 25-27, in Chicago. 
+<div class='right'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/events/gcc2012/training-day/'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
+* The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held July 25-27, in Chicago. 
 * The conference will feature two full days of presentations and discussions. 
-* [Abstract submission](/src/events/gcc2012/abstracts/index.md) will [close April 16](/src/events/gcc2012/Key Dates/index.md). 
-* A [whole day of training](/src/events/gcc2012/training-day/index.md) has been added, and topics set:
-  * [Introduction to Galaxy](/src/events/gcc2012/training-day/index.md#ws2)
-  * [Installing Your Own Galaxy](/src/events/gcc2012/training-day/index.md#ws5)
-  * [Galaxy CloudMan](/src/events/gcc2012/training-day/index.md#ws3)
-  * [Integrating Tools & Data Sources](/src/events/gcc2012/training-day/index.md#ws1)
-  * [Galaxy API](/src/events/gcc2012/training-day/index.md#ws6)
-  * [Galaxy Tool Shed](/src/events/gcc2012/training-day/index.md#ws7)
-  * [Ion Torrent - Open Source Sequencing](/src/events/gcc2012/training-day/index.md#ws10)
-* Early [registration](/src/events/gcc2012/register/index.md) will open **any day now** and close June 11. 
+* [Abstract submission](/events/gcc2012/abstracts/) will [close April 16](/src/events/gcc2012/Key Dates/index.md). 
+* A [whole day of training](/events/gcc2012/training-day/) has been added, and topics set:
+  * [Introduction to Galaxy](/events/gcc2012/training-day/#ws2)
+  * [Installing Your Own Galaxy](/events/gcc2012/training-day/#ws5)
+  * [Galaxy CloudMan](/events/gcc2012/training-day/#ws3)
+  * [Integrating Tools & Data Sources](/events/gcc2012/training-day/#ws1)
+  * [Galaxy API](/events/gcc2012/training-day/#ws6)
+  * [Galaxy Tool Shed](/events/gcc2012/training-day/#ws7)
+  * [Ion Torrent - Open Source Sequencing](/events/gcc2012/training-day/#ws10)
+* Early [registration](/events/gcc2012/register/) will open **any day now** and close June 11. 
 
 ## Galaxy is Hiring!
 

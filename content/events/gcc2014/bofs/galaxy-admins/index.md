@@ -5,10 +5,10 @@ title: GalaxyAdmins BoF
 
 <slot name="/events/gcc2014/linkbox" />
 
-<div class='left'><a href='/src/events/gcc2014/bofs/index.md'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a><br /><br />
-<a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="100" /></a></div></div>
+<div class='left'><a href='/events/gcc2014/bofs/'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a><br /><br />
+<a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="100" /></a></div></div>
 
-This page describes the **[GalaxyAdmins](/src/community/galaxy-admins/index.md)** [Birds of a Feather](/src/events/gcc2014/bofs/index.md) meetup being held at [GCC2014](/src/events/gcc2014/index.md).
+This page describes the **[GalaxyAdmins](/community/galaxy-admins/)** [Birds of a Feather](/events/gcc2014/bofs/) meetup being held at [GCC2014](/events/gcc2014/).
 
 
 When: **Wednesday, July 2, 5:45pm**
@@ -19,9 +19,9 @@ Contact: [Dave Clements](/people/dave-clements/)
 
 # Description
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/community/galaxy-admins/meetups/index.md) and at events like GCC2014, where a lot of us happen to be.
+[GalaxyAdmins](/community/galaxy-admins/) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/community/galaxy-admins/meetups/) and at events like GCC2014, where a lot of us happen to be.
 
-GCC2014 coincides with the two year anniversary of GalaxyAdmins starting up.  The [GalaxyAdmins BoF at GCC2013](/src/events/gcc2013/bof/galaxy-admins/index.md) was very well attended and resulted in several actions items, many of which have now been implemented.  However, the past 12 months have been less successful at having this group meet online every other month.
+GCC2014 coincides with the two year anniversary of GalaxyAdmins starting up.  The [GalaxyAdmins BoF at GCC2013](/events/gcc2013/bof/galaxy-admins/) was very well attended and resulted in several actions items, many of which have now been implemented.  However, the past 12 months have been less successful at having this group meet online every other month.
 
 This meetup will discuss last year's action items, what we can about meetups in the coming year, GalaxyAdmins leadership, and whatever else participants want to talk about.
 
@@ -96,7 +96,7 @@ Discussion focused on a few different areas:
 
 # Action Items from GCC2013 Meetup
 
-[Last year's meetup](/src/events/gcc2013/bof/galaxy-admins/index.md) provided a number of actions.  Most of them were acted upon.
+[Last year's meetup](/events/gcc2013/bof/galaxy-admins/) provided a number of actions.  Most of them were acted upon.
 
 ## Separate Mailing List for GalaxyAdmins
 

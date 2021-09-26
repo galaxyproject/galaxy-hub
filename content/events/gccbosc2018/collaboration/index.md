@@ -55,7 +55,7 @@ CollaborationFest's goals are much wider:
 
 *Clusters* are groups of CollaborationFest participants that coalesce around shared interests and they address common challenges related to those interests.  Clusters form before, at the beginning of, and throughout CollaborationFest.  In fact, CollaborationFest can be thought of as a two (or four) day jam of Brownian motion where clusters form, interact, and exchange ideas and members with each other.
 
-If you have an idea for a Cluster at ContributionFest then please send it to the [CollaborationFest organizers](/src/events/gccbosc2018/collaboration/index.md#collaborationfest-organizers).  We'll post it here where CoFest participants can see it and then contact you.  We recommend that clusters have a an online communications channel (like Gitter), and that you meet online at least once during the week or two before GCCBOSC starts.
+If you have an idea for a Cluster at ContributionFest then please send it to the [CollaborationFest organizers](/events/gccbosc2018/collaboration/#collaborationfest-organizers).  We'll post it here where CoFest participants can see it and then contact you.  We recommend that clusters have a an online communications channel (like Gitter), and that you meet online at least once during the week or two before GCCBOSC starts.
 
 Please note that many clusters will form *during* CollaborationFest.  We encourage that.  The clusters listed here will just have a head start.
 
@@ -83,11 +83,11 @@ You register for CollaborationFest at the same time you [register](/src/events/g
 
 ## Lodging
 
-[Lodging](/src/events/gccbosc2018/venue/index.md#housing) is available on the Reed campus, and throughout CollaborationFest, in the centrally located **Old Dorm Block**.  If you are attending *only* CollaborationFest:Core then you can opt to stay in the Sitka Block instead.  (Or, if you like moving, you can spend the first 2 nights in the Sitka Block, and then move to the Old Dorm Block for the last two nights, but that will cost you extra.)
+[Lodging](/events/gccbosc2018/venue/#housing) is available on the Reed campus, and throughout CollaborationFest, in the centrally located **Old Dorm Block**.  If you are attending *only* CollaborationFest:Core then you can opt to stay in the Sitka Block instead.  (Or, if you like moving, you can spend the first 2 nights in the Sitka Block, and then move to the Old Dorm Block for the last two nights, but that will cost you extra.)
 
 ## Childcare
 
-**[Childcare](/src/events/gccbosc2018/childcare/index.md) will be available during CollaborationFest:Core, *but not during CollaborationFest:Encore.***  Space is very limited and you are encouraged to book childcare *right now.*
+**[Childcare](/events/gccbosc2018/childcare/) will be available during CollaborationFest:Core, *but not during CollaborationFest:Encore.***  Space is very limited and you are encouraged to book childcare *right now.*
 
 # Venue
 

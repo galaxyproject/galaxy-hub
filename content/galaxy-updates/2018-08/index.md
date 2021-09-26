@@ -29,9 +29,9 @@ Most posters and slides are now linked to from the [conference web site](https:/
 
 ## 2019 Galaxy Community Conference: 1-6 July, Freiburg, Germany
 
-[<img  class="img-fluid float-right" style="max-width: 250px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
+[<img  class="img-fluid float-right" style="max-width: 250px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
 
-**[GCC2019](/src/events/gcc2019/index.md) will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
+**[GCC2019](/events/gcc2019/) will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
 
 <div class="float-left">
 [<img src="/src/images/photos/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="180" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
@@ -74,23 +74,23 @@ A joint meeting in 2020 or 2021 depends on finding a suitable venue (300+ attend
 
 The Galaxy Training Network is organizing regular online CoFests (Collaboration/Contribution Fests) every 3 months on the 3rd Friday for a day of the collaborative work on the training content.
 
-**[The first one will be on the 17th of August](/src/events/2018-08-gtn/index.md).** We plan to focus on metagenomics training; but anyone who would like to contribute on any other topics is very welcome to join. We will coordinate via [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby) and [GitHub issues](https://github.com/galaxyproject/training-material/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Contribution+fest%22).
+**[The first one will be on the 17th of August](/events/2018-08-gtn/).** We plan to focus on metagenomics training; but anyone who would like to contribute on any other topics is very welcome to join. We will coordinate via [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby) and [GitHub issues](https://github.com/galaxyproject/training-material/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Contribution+fest%22).
 
 ## 2018 SACNAS Workshops
 
 <div class="float-left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/src/events/2017-sacnas/index.md) <br /><br />
+[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/events/2017-sacnas/) <br /><br />
 [<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
 [<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/src/index.md)
 </div>
 
-If you are attending the [2018 SACNAS meeting](http://www.2018sacnas.org/) in San Antonio in October, then please consider signing up for one of [these preconference workshops](/src/events/2018-sacnas/index.md):
+If you are attending the [2018 SACNAS meeting](http://www.2018sacnas.org/) in San Antonio in October, then please consider signing up for one of [these preconference workshops](/events/2018-sacnas/):
 
-**[Software and Data Carpentry](/src/events/2018-sacnas/index.md#workshop-1-software-and-data-carpentry)**
+**[Software and Data Carpentry](/events/2018-sacnas/#workshop-1-software-and-data-carpentry)**
 
-**[Data Platforms for Life Science Researchers](/src/events/2018-sacnas/index.md#workshop-2-data-platforms-for-life-science-researchers)**
+**[Data Platforms for Life Science Researchers](/events/2018-sacnas/#workshop-2-data-platforms-for-life-science-researchers)**
 
 [Registration](https://sacnas-data.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.
 Both workshops are held October 10, the day before SACNAS starts.
@@ -102,11 +102,11 @@ Both workshops are held October 10, the day before SACNAS starts.
 
 ## European Galaxy Days, 19-20 November, Freiburg, Germany
 
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days" />](/src/events/2018-europe-dev/index.md)
+[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
 
-**[European Galaxy Days](/src/events/2018-europe-dev/index.md)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
+**[European Galaxy Days](/events/2018-europe-dev/)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
 
-The event is free. Registration will open soon.  See the [event home page](/src/events/2018-europe-dev/index.md) for more.
+The event is free. Registration will open soon.  See the [event home page](/events/2018-europe-dev/) for more.
 
 ## Gateways 2018
 
@@ -288,7 +288,7 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 
 [<img class="float-right" src="/src/news/2018-05-caron/christophe-caron.jpg" alt="Christophe Caron" width="170" />](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron)
 
-[Christophe Caron](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) passed away in May at the age of 50. Christophe was an extraordinary Galaxy community organizer and he is dearly missed.  See the [SFBI tribute page to Christophe](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) and this [Galaxy News item](/src/news/2018-05-caron/index.md) for more about Christophe, his passing, and his many contributions over the years.
+[Christophe Caron](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) passed away in May at the age of 50. Christophe was an extraordinary Galaxy community organizer and he is dearly missed.  See the [SFBI tribute page to Christophe](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) and this [Galaxy News item](/news/2018-05-caron/) for more about Christophe, his passing, and his many contributions over the years.
 
 # Publications
 
@@ -352,7 +352,7 @@ The Galaxy is expanding! Please help it grow.
 
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -364,9 +364,9 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 There are two new *[Galactic Blog](/blog/)* entry:
 
-* [A fruitful year for the Galaxy Training material](/src/blog/2018-06-training-material/index.md), by Bérénice Batut
+* [A fruitful year for the Galaxy Training material](/blog/2018-06-training-material/), by Bérénice Batut
   * A summary of recent developments in Galaxy Training materials and the Galaxy Training Network
-* [Contributor of the Month: Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), By Björn Grüning
+* [Contributor of the Month: Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/), By Björn Grüning
   * The first of a monthly series highlighting Galaxy contributors.
 
 # Public Galaxy Server News
@@ -417,17 +417,17 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in May, June, and July 2018](/src/toolshed/contributions/2018-07/index.md).
+[Tool Shed contributions in May, June, and July 2018](/toolshed/contributions/2018-07/).
 
 # Hub and Doc Updates
 
-* Semi-annual [project statistics update](/src/galaxy-project/statistics/index.md) is *mostly* done.
-* New [Cloud Storage API page](/src/cloud/storage/index.md) from [Vahid Jalili](/people/vahid-jalili/).
+* Semi-annual [project statistics update](/galaxy-project/statistics/) is *mostly* done.
+* New [Cloud Storage API page](/cloud/storage/) from [Vahid Jalili](/people/vahid-jalili/).
 * A general update by [Jennifer Hillman-Jackson](/people/jennifer-jackson/) to several support pages:
   * [Issues](/issues/)
   * [Support](/support/)
-  * [Tool Errors](/src/support/tool-error/index.md)
-  * [Missing History](/src/support/missing-history/index.md)
+  * [Tool Errors](/support/tool-error/)
+  * [Missing History](/support/missing-history/)
   
 
 # Releases

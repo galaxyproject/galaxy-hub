@@ -2,7 +2,7 @@
 
 <slot name="/events/gcc2012/linkbox" />
 
-Please help get the word out about the [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/promotion//index.md).  A [flier](/src/events/gcc2012/promotion/index.md#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
+Please help get the word out about the [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/promotion//).  A [flier](/events/gcc2012/promotion/#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
 
 # Flier
 
@@ -51,4 +51,4 @@ The conference logo is available in 2 formats in several widths.
 
 # Sponsorships
 
-Interested in sponsoring the meeting?  See [Sponsorships](/src/events/gcc2012/promotion/Sponsorships/index.md).
+Interested in sponsoring the meeting?  See [Sponsorships](/events/gcc2012/promotion/Sponsorships/).

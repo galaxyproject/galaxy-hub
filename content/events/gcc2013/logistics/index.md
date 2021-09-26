@@ -13,7 +13,7 @@ Details on conference location, lodging options, and transportation.
 
 # Venue
 
-The [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/logistics/index.md) was held at the [University of Oslo (UiO)](http://uio.no/) in Oslo, Norway, from 30 June through 2 July.  The meeting will be held in the [Department of Informatics](http://www.mn.uio.no/ifi/english/) new home, the [Ole-Johan Dahls House](http://www.mn.uio.no/ifi/english/research/news-and-events/news/newbuilding.html).
+The [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/logistics/) was held at the [University of Oslo (UiO)](http://uio.no/) in Oslo, Norway, from 30 June through 2 July.  The meeting will be held in the [Department of Informatics](http://www.mn.uio.no/ifi/english/) new home, the [Ole-Johan Dahls House](http://www.mn.uio.no/ifi/english/research/news-and-events/news/newbuilding.html).
 
 <table>
   <tr>

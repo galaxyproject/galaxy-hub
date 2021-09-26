@@ -4,8 +4,8 @@
 
 ---
 
-[Main](/src/main/faq/index.md)  
-[Learn](/src/learn/faq/index.md)  
+[Main](/main/faq/)  
+[Learn](/learn/faq/)  
 [Admin](/admin/faq/index.md)  
 
 </div>

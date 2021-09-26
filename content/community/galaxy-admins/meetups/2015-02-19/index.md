@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2015-02-19 Web Meetup<br /><br />
 
 </div></div>
@@ -20,11 +20,11 @@
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em><a href='/src/community/galaxy-admins/index.md'>GalaxyAdmins</a> direction</em>  (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/Galaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </div><em><a href='/src/news/2014-questionnaire/'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/people/dave-clements/'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/people/nate/'>Nate Coraor</a></div> </td>
+    <td> <em><a href='/community/galaxy-admins/'>GalaxyAdmins</a> direction</em>  (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/Galaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </div><em><a href='/src/news/2014-questionnaire/'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/people/dave-clements/'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/people/nate/'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
-    <td> <a href='https://connect.johnshopkins.edu/p9oss8nhzqe/'>Screencast</a> <div class='indent'>Room will open 15 minutes before meetup</div> <a href='/src/community/galaxy-admins/surveys/2014/index.md'>Admin Questionnaire Results</a><div class='indent'>Summarizes responses about deployment</div></td>
+    <td> <a href='https://connect.johnshopkins.edu/p9oss8nhzqe/'>Screencast</a> <div class='indent'>Room will open 15 minutes before meetup</div> <a href='/community/galaxy-admins/surveys/2014/'>Admin Questionnaire Results</a><div class='indent'>Summarizes responses about deployment</div></td>
   </tr>
 </table>
 
@@ -33,13 +33,13 @@
 
 # GalaxyAdmins is Back!
 
-Except for a [meetup at GCC2014](/src/events/gcc2014/bofs/galaxy-admins/index.md), the [GalaxyAdmins group](/src/community/galaxy-admins/index.md) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/people/hansrudolf-hotz/), the [GalaxyAdmins group](/src/community/galaxy-admins/) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
+Except for a [meetup at GCC2014](/events/gcc2014/bofs/galaxy-admins/), the [GalaxyAdmins group](/community/galaxy-admins/) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/people/hansrudolf-hotz/), the [GalaxyAdmins group](/src/community/galaxy-admins/) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
 
-*[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 ## Fall 2014 Galaxy Community Questionnaires Summary
 
-The lead presentation will summarize the [Galaxy Community Questionnaires](/src/news/2014-questionnaire/index.md) that were run last fall.  The questionnaires covered both Galaxy usage and deployment.
+The lead presentation will summarize the [Galaxy Community Questionnaires](/news/2014-questionnaire/) that were run last fall.  The questionnaires covered both Galaxy usage and deployment.
 
 ## Galaxy Project Update: Gravity
 

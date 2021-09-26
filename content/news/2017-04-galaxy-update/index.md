@@ -3,11 +3,11 @@ title: 'April 2017 Galaxy News'
 tease: 'GCC2017 + new events, papers, jobs, servers, releases, and a milestone'
 date: '2017-04-04'
 ---
-<div class='right'><a href='/src/galaxy-updates/2017-04/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" /></a><br />
+<div class='right'><a href='/galaxy-updates/2017-04/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" /></a><br />
 <a href="https://gcc2017.sciencesconf.org/"><img src='/src/images/logos/gcc2017-logo-300.png' alt='2017 Galaxy Community Conference (GCC2017)' width="170" /></a>
 </div>
 
-The [April 2017 Galaxy News](/src/galaxy-updates/2017-04/index.md) is out!  
+The [April 2017 Galaxy News](/galaxy-updates/2017-04/) is out!  
 
 * Usegalaxy.org [passes a milestone](/src/galaxy-updates/2017-04/#usegalaxy-org-passes-100-000-registered-users)
 * [2017 Galaxy Community Conference](/src/galaxy-updates/2017-04/#2017-galaxy-community-conference) early registration and abstract submission are open.

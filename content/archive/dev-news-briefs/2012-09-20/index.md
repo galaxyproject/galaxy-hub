@@ -139,7 +139,7 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 
 [Tool Shed](/toolshed/)
 * *Tool shed features for Galaxy tools*
-  * The primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed. [Read more…](/src/toolshed/tool-features/index.md)
+  * The primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed. [Read more…](/toolshed/tool-features/)
 * *Pushing changes to a tool shed repository using hg from the command line*
   * When pushing changes to a repository in the tool shed using hg from the command line (e.g., **hg commit**, **hg push**), make sure your shell's version of ***Mercurial is at least version 2.2.3***.  **[Mercurial version 2.2.3](http://mercurial.selenic.com/)** includes features that enable the tool shed to *automatically generate the new repository metadata* when the changes have been pushed from the command line.
 * *Enhancements* & *Fixes*
@@ -179,7 +179,7 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 <br />
 # Announcements
 
-[News](/news/), *[September 2012 Galaxy Update](/src/galaxy-updates/2012-09/index.md)*
+[News](/news/), *[September 2012 Galaxy Update](/galaxy-updates/2012-09/)*
 
 <br />
 ----

@@ -50,14 +50,14 @@ We are pleased to announce that the keynote speakers for GAMe 2017 will be James
 
 ## GalaxyAdmins Screencasts
 
-<div class='right'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
+<div class='right'><a href='/community/galaxy-admins/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
 
-Screencasts for the [August](/src/community/galaxy-admins/meetups/2016-08-18/index.md) and [December](/src/community/galaxy-admins/meetups/2016-12-15/index.md) [GalaxyAdmins](/src/community/galaxy-admins/index.md) meetups have been published:
+Screencasts for the [August](/community/galaxy-admins/meetups/2016-08-18/) and [December](/community/galaxy-admins/meetups/2016-12-15/) [GalaxyAdmins](/community/galaxy-admins/) meetups have been published:
 
-* [August](/src/community/galaxy-admins/meetups/2016-08-18/index.md)
+* [August](/community/galaxy-admins/meetups/2016-08-18/)
 * *Dynamic Job Expansion: Experiences using [Makeflow](http://ccl.cse.nd.edu/software/makeflow/) in Galaxy*, [Nick Hazekamp](https://engineering.nd.edu/profiles/nhazekamp), [University of Notre Dame](http://www.nd.edu/)
   * [Video](https://connect.johnshopkins.edu/p9nqie63c7a/)
-* [December](/src/community/galaxy-admins/meetups/2016-12-15/index.md)
+* [December](/community/galaxy-admins/meetups/2016-12-15/)
   * *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/people/bjoern-gruening/) and  Bérénice Batut, University of Freiburg 
   * *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/people/dannon-baker/), Johns Hopkins University 
   * [Video](https://connect.johnshopkins.edu/p7ek9bf4ez0/) 
@@ -69,7 +69,7 @@ Screencasts for the [August](/src/community/galaxy-admins/meetups/2016-08-18/ind
 There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <div class='center'> 
-<a href='/src/events/pag2017/index.md'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
+<a href='/events/pag2017/'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
 <a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'><img src="/src/images/logos/edgw_2017_300.jpg" alt="European Galaxy Developer Workshop" height="100"/></a> &nbsp;
 <a href='http://www.abdn.ac.uk/genomics/bioinformatics/training/'><img src="/src/images/logos/AberdeenLogoTrans.png" alt="Galaxy Training at University of Aberdeen" width="120" /></a>
 <a href='https://www.embl-abr.org.au/game2017/'><img src='/src/images/logos/GAMeLogo200.png' alt="Galaxy Australasia Meeting 2017" width="120" /></a>
@@ -91,9 +91,9 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
   </tr>
   <tr>
     <th> January 14-18 </th>
-    <td> <strong><a href="/src/events/pag2017/index.md">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></strong> </td>
+    <td> <strong><a href="/events/pag2017/">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></strong> </td>
     <td> <img src="/src/images/icons/NA.png" alt="North America" align="right" /> San Diego, California, United States </td>
-    <td> <a href="/src/events/pag2017/index.md">Presenters</a> </td>
+    <td> <a href="/events/pag2017/">Presenters</a> </td>
   </tr>
   <tr>
     <th> January 16-19 </th>
@@ -466,4 +466,4 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # ToolShed Contributions
 
-[Tool Shed contributions froim November and December](/src/toolshed/contributions/2016-12/index.md).
+[Tool Shed contributions froim November and December](/toolshed/contributions/2016-12/).

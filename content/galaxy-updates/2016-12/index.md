@@ -119,13 +119,13 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
   </tr>
   <tr>
     <th> January 14-18 </th>
-    <td> <em><a href="/src/events/pag2017/index.md">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></em> </td>
+    <td> <em><a href="/events/pag2017/">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></em> </td>
     <td> <div class='right'><img src="/src/images/icons/NA.png" alt="NorthAmerica" /></div> San Diego, California, United States </td>
-    <td> <a href="/src/events/pag2017/index.md">Presenters</a> </td>
+    <td> <a href="/events/pag2017/">Presenters</a> </td>
   </tr>
   <tr>
     <th> January 16-19 </th>
-    <td> <strong><a href='/src/events/2017-egdw/index.md'>European Galaxy Developer Workshop</a></strong> </td>
+    <td> <strong><a href='/events/2017-egdw/'>European Galaxy Developer Workshop</a></strong> </td>
     <td> <div class='right'><img src="/src/images/icons/EU.png" alt="Europe" /></div> Strasbourg, France </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
@@ -372,7 +372,7 @@ Galaxy admins obtained the ability to install Galaxy tool’s dependencies using
 
 **Dynamic tool destinations**
 
-Our friends from Canada National Microbiology Laboratory enhanced Galaxy with feature that allows dynamic mapping of tools to destinations based on finer grained admin-specified rules. Please see the [wiki](/src/admin/config/jobs/index.md#dynamic-destination-mapping). Implemented in [PR #2579](https://github.com/galaxyproject/galaxy/pull/2579).
+Our friends from Canada National Microbiology Laboratory enhanced Galaxy with feature that allows dynamic mapping of tools to destinations based on finer grained admin-specified rules. Please see the [wiki](/admin/config/jobs/#dynamic-destination-mapping). Implemented in [PR #2579](https://github.com/galaxyproject/galaxy/pull/2579).
 
 **Galaxy chat**
 
@@ -392,7 +392,7 @@ $ git checkout release_16.07 && git pull --ff-only origin release_16.07
 ```
 
 
-See [our wiki](/src/develop/source-code/index.md) for additional details regarding the source code locations.
+See [our wiki](/develop/source-code/) for additional details regarding the source code locations.
 
 <br />
 

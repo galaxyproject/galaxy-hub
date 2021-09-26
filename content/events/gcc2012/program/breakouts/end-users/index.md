@@ -5,7 +5,7 @@ title: Galaxy End Users
 
 
 
-**A [GCC22012](/src/events/gcc2012/index.md) [Breakout Session](/src/events/gcc2012/program/breakouts/index.md)**
+**A [GCC22012](/events/gcc2012/) [Breakout Session](/events/gcc2012/program/breakouts/)**
 
 <slot name="/events/gcc2012/linkbox" />
 # Participants

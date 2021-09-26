@@ -7,7 +7,7 @@ title: Support Tool Help
 
 
 * Parameters
-* Expected format for input [dataset(s)](/src/learn/managing-datasets/index.md)
+* Expected format for input [dataset(s)](/learn/managing-datasets/)
 * Links to publications and [Tool Shed](/toolshed/) source repositories
 * Tool and wrapper version(s)
 * 3rd party author web sites and documentation

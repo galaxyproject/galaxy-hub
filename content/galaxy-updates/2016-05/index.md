@@ -79,7 +79,7 @@ We are pleased to offer [scholarships](https://docs.google.com/forms/d/1IbMoNcA6
 
 Scholarships cover [registration](http://gcc2016.iu.edu/registration) and [lodging](http://gcc2016.iu.edu/location) during the GCC Meeting, and for any Training or Hackathon events the applicant chooses to attend.  Scholarships do not cover travel or other expenses. **The application deadline is May 1 for members of historically underrepresented groups.**
 
-See the [full announcement](/src/news/gcc2016-scholarships/index.md) for details.
+See the [full announcement](/news/gcc2016-scholarships/) for details.
 
 ## Sponsors
 
@@ -114,11 +114,11 @@ Finally, we are delighted to have **[EMC](http://www.emergingtechsolutions.com/l
 
 # Upcoming Events
 
-<div class='right'><br /><a href='/src/events/asms2016/index.md'><img src="/src/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" width="120" /></a></div>
+<div class='right'><br /><a href='/events/asms2016/'><img src="/src/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" width="120" /></a></div>
 
 ## Galaxy at ASMS 2016
 
-Galaxy will have a [strong presence](/src/events/asms2016/index.md) at the [64th ASMS Conference on Mass Spectrometry and Allied Topics](http://www.asms.org/conferences/annual-conference/annual-conference-homepage), being held June 5-9 in San Antonio, Texas, United States. There will be [one workshop and one talk](/src/events/asms2016/index.md) (both from the [GalaxyP Project](https://usegalaxyp.org/)), and [at least 7 posters](/src/events/asms2016/index.md) on using Galaxy for proteomics.
+Galaxy will have a [strong presence](/events/asms2016/) at the [64th ASMS Conference on Mass Spectrometry and Allied Topics](http://www.asms.org/conferences/annual-conference/annual-conference-homepage), being held June 5-9 in San Antonio, Texas, United States. There will be [one workshop and one talk](/events/asms2016/) (both from the [GalaxyP Project](https://usegalaxyp.org/)), and [at least 7 posters](/events/asms2016/) on using Galaxy for proteomics.
 
 *If you are interested, **[register now](http://www.asms.org/conferences/annual-conference/registration) as early registration closes April 30.***
 
@@ -242,9 +242,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
   </tr>
   <tr>
     <th> June 5-9 </th>
-    <td> <em><a href='/src/events/asms2016/index.md'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a></em> </td>
+    <td> <em><a href='/events/asms2016/'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> San Antonio, Texas, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/events/asms2016/index.md'>Presenters</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/events/asms2016/'>Presenters</a> </td>
   </tr>
   <tr>
     <th> June 9-10 </th>
@@ -260,8 +260,8 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
   </tr>
   <tr>
     <th> June 16 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
-    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Online</a></em> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2016-06-16/'>GalaxyAdmins Web Meetup</a></em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/community/galaxy-admins/meetups/2016-06-16/'>Online</a></em> </td>
     <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -325,17 +325,17 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 ## April GalaxyAdmins Slides & Video
 
 <div class='right'>
-<a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a> 
+<a href='/community/galaxy-admins/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a> 
 </div>
 
-[Slides and video](/src/community/galaxy-admins/meetups/2016-04-21/index.md) from the [April 2016 GalaxyAdmins meetup are now available](/src/community/galaxy-admins/meetups/2016-04-21/index.md). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201604_Admins_Portal.pdf)) and [John Chilton](/people/john-chilton/) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
+[Slides and video](/community/galaxy-admins/meetups/2016-04-21/) from the [April 2016 GalaxyAdmins meetup are now available](/community/galaxy-admins/meetups/2016-04-21/). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201604_Admins_Portal.pdf)) and [John Chilton](/people/john-chilton/) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
 
 ## Conda Dependency Codefest Report
 
 <div class='left'><a href='https://github.com/galaxyproject/tools-iuc/issues/700'><img src="/src/images/logos/Conda_480.png" alt="Conda Dependencies Codefest" width="160" /></a>
 </div>
 
-A [Conda Dependencies Dodefest](https://github.com/galaxyproject/tools-iuc/issues/700) was held on Monday April 4, and involved 8 participants.  It was designed to be beginner friendly, which increased contribution from the community. 4 members of the galaxy community were [added as contributors](https://github.com/bioconda/bioconda-recipes/issues/1#issuecomment-205241333) to the [bioconda-recipe repository](https://github.com/bioconda/bioconda-recipes) as a result of this hackathon.  The main aim of the codefest was to get community members familiar with the Conda-Galaxy integration, and to remove tools from testing blacklist. See the [full codefest report](/src/news/conda-dependency-codefest-report/index.md) for details.
+A [Conda Dependencies Dodefest](https://github.com/galaxyproject/tools-iuc/issues/700) was held on Monday April 4, and involved 8 participants.  It was designed to be beginner friendly, which increased contribution from the community. 4 members of the galaxy community were [added as contributors](https://github.com/bioconda/bioconda-recipes/issues/1#issuecomment-205241333) to the [bioconda-recipe repository](https://github.com/bioconda/bioconda-recipes) as a result of this hackathon.  The main aim of the codefest was to get community members familiar with the Conda-Galaxy integration, and to remove tools from testing blacklist. See the [full codefest report](/news/conda-dependency-codefest-report/) for details.
 
 
 
@@ -359,7 +359,7 @@ After you have your XSEDE account and an active allocation:
 3. Follow the prompts on the screen to launch an instance
 4. In less than 5 minutes, you should have your own, fully configured Galaxy server
 
-More documentation about the process can be found [here](/src/cloud/jetstream/index.md).
+More documentation about the process can be found [here](/cloud/jetstream/).
 
 # New Papers
 
@@ -488,7 +488,7 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformatics Web Application Developer-Biology](https://jobs.wustl.edu/) (Job ID 32899), Washington University in St. Louis, Missouri, United States
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 * [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
-* [Software Engineer](/src/news/software-engineer-ohsu/index.md), Oregon Health Sciences University, Portland, Oregon, United States
+* [Software Engineer](/news/software-engineer-ohsu/), Oregon Health Sciences University, Portland, Oregon, United States
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -601,7 +601,7 @@ The [January 2016 (v16.01) release of Galaxy](https://docs.galaxyproject.org/en/
 See the [announcement](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html) for full details.
 
 <div class='red'>
-Galaxy administrators should also be aware of [these security announcements](/src/galaxy-updates/2016-05/index.md#security-announcements) below.
+Galaxy administrators should also be aware of [these security announcements](/galaxy-updates/2016-05/#security-announcements) below.
 * [Read/write arbitrary filesystem paths, arbitrary code execution](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/message/TXP6BGNZG5Y75ASM5HPQALI2UOPKXXTH/)
 * [Tool Shed Security Vulnerability - Read/write arbitrary filesystem paths](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/message/TQG5K6DHSJX6HDFMV6MJ43SRNEO3X3JZ/)
 
@@ -653,7 +653,7 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 **BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 **blend4j v0.1.2**

@@ -93,7 +93,7 @@ Running your own single-user Galaxy instance on your laptop is easy to do.  Admi
 * [Go at your own pace admin training](https://training.galaxyproject.org/training-material/topics/admin/) is available from the [Galaxy Training Network](index,md#galaxy-training-network)
 * In person multi-day admin training is also available, at least twice a year.
   * The annual [Galaxy Community Conferences](#galaxy-community-conferences-gcc) offer a dedicated admin training day, followed by a selection of other admin training topics on a second training day.
-  * Week-long Galaxy Admin training workshops have been offered every year since 2016. The most recent one was in [January 2019](/src/events/2019-admin-training/index.md).  The next one will likely be between October 2019 and March 2020 - probably in Europe.
+  * Week-long Galaxy Admin training workshops have been offered every year since 2016. The most recent one was in [January 2019](/events/2019-admin-training/).  The next one will likely be between October 2019 and March 2020 - probably in Europe.
 
 ## Ansible
 
@@ -177,5 +177,5 @@ The Galaxy Community is [active on Twitter](/galaxy-on-twitter/), and Twitter is
 
 [<img class="float-left" style="max-width: 160px" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" />](/blog/)
 
-The *[Galactic Blog](/blog/)* brings together longer form posts about Galaxy, from all over the web. Want to know more about [cloud bursting](/src/blog/2019-05-gcr/index.md), [CVMFS](/src/blog/2019-02-cvmfs/index.md), or [Galaxy R Markdown Tools](https://github.com/statonlab/galaxy-r-markdown-tools)?  You can find posts on these and many other topics in the [Galactic Blog](/blog/)
+The *[Galactic Blog](/blog/)* brings together longer form posts about Galaxy, from all over the web. Want to know more about [cloud bursting](/blog/2019-05-gcr/), [CVMFS](/blog/2019-02-cvmfs/), or [Galaxy R Markdown Tools](https://github.com/statonlab/galaxy-r-markdown-tools)?  You can find posts on these and many other topics in the [Galactic Blog](/blog/)
 

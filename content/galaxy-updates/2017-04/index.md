@@ -8,9 +8,9 @@ Welcome to the April 2017 *[Galactic News](/galaxy-updates/)*, a summary of what
 
 # Usegalaxy.org Passes 100,000 Registered Users
 
-<div class='right'><a href='/src/galaxy-project/statistics/index.md#galaxy-servers'><img src="/src/galaxy-updates/2017-04/100-k-users.jpg" alt="Usegalaxy.org hits 100,000 users" height="60" /></a></div>
+<div class='right'><a href='/galaxy-project/statistics/#galaxy-servers'><img src="/src/galaxy-updates/2017-04/100-k-users.jpg" alt="Usegalaxy.org hits 100,000 users" height="60" /></a></div>
 
-[Usegalaxy.org](https://usegalaxy.org), the Galaxy Project's free public server, has surpassed 100,000 registered users. We started with 7 registered users in June 2006, and [have been climbing ever since](/src/galaxy-project/statistics/index.md#galaxy-servers).
+[Usegalaxy.org](https://usegalaxy.org), the Galaxy Project's free public server, has surpassed 100,000 registered users. We started with 7 registered users in June 2006, and [have been climbing ever since](/galaxy-project/statistics/#galaxy-servers).
 
 Thanks for using Galaxy, all 100,000 of you.
 
@@ -142,7 +142,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 </tr>
 <tr>
   <td><span class="text-nowrap">June 20th 2017</span></td>
-  <td><a href="/src/news/2017-03-g-on-ramp/index.md">G-OnRamp Beta Testers Workshop</a></td>
+  <td><a href="/news/2017-03-g-on-ramp/">G-OnRamp Beta Testers Workshop</a></td>
   <td><img style="float:right;" src="/src/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
   <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
 </tr>
@@ -160,7 +160,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 </tr>
 <tr>
   <td><span class="text-nowrap">July 25th 2017</span></td>
-  <td><a href="/src/news/2017-03-g-on-ramp/index.md">G-OnRamp Beta Testers Workshop</a></td>
+  <td><a href="/news/2017-03-g-on-ramp/">G-OnRamp Beta Testers Workshop</a></td>
   <td><img style="float:right;" src="/src/images/icons/NA.png"/><a href="https://wustl.edu/">Washington University in St. Louis, Missouri, United States</a></td>
   <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/src/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Jeremy Goecks, Sarah Elgin</td>
 </tr>
@@ -255,12 +255,12 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 ## Want to Mine Scientific Literature? LAPPS Grid Needs You
 
-<div class='right'><a href='/src/news/2017-03-lapps-grid/index.md'><img src="/src/use/lapps-grid/lapps-grid-logo.png" alt="LAPPS Grid" width="120" /></a>
+<div class='right'><a href='/news/2017-03-lapps-grid/'><img src="/src/use/lapps-grid/lapps-grid-logo.png" alt="LAPPS Grid" width="120" /></a>
 </div>
 
 *The [The Language Applications (LAPPS) Grid](http://www.lappsgrid.org) team intends to seek funding for a project that would create customizable NLP applications that can be used to mine scientific literature,* in response to requests from scientists in several disciplines who want to extract entities, relations, networks, and ontologies from scientific publications and identify articles in the scientific literature that have treated particular topics or entities.
 
-Interested in participating? See the [full call for details](/src/news/2017-03-lapps-grid/index.md).
+Interested in participating? See the [full call for details](/news/2017-03-lapps-grid/).
 
 [LAPPS Grid](http://www.lappsgrid.org) provides an infrastructure for rapid development of natural language processing applications (NLP) that uses the Galaxy platform as its workflow engine. The LAPPS Grid has integrated a wide range of NLP tools and resources into Galaxy and provided for using them interoperably in a “plug-and-play” environment. 
 
@@ -329,12 +329,12 @@ New [online training](http://www.ebi.ac.uk/training/online/course/phenomenal-acc
 <table class="table table-striped">
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> </td>
   </tr>
 </table>
@@ -447,7 +447,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # ToolShed Contributions
 
-[Tool Shed contributions from March](/src/toolshed/contributions/2017-03/index.md).
+[Tool Shed contributions from March](/toolshed/contributions/2017-03/).
 
 
 # Other News
@@ -457,5 +457,5 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 * [EtherCalc integrated into Galaxy](https://github.com/galaxyproject/galaxy/pull/3699) as an interactive environment thanks to [Saskia Hiltemann](https://github.com/shiltemann).
 * From [Rob Davey](https://twitter.com/froggleston)
   * Over 400000 jobs have been run on our Galaxy server at [Earlaham Iinstitute](http://www.earlham.ac.uk/) since 2015. Infrastructure win.
-* [Getting started with Galaxy on the cloud](/src/cloudman/getting-started/index.md)
+* [Getting started with Galaxy on the cloud](/cloudman/getting-started/)
 * New [step by step guide on howto upgrade a Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable#Upgrading-images) from [Rafa Hernández](https://github.com/fikipollo).

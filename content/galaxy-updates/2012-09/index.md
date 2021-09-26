@@ -86,7 +86,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='center'>
 <a href='http://genetics.cmc-uct.co.za/'><img src="/src/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
-<a href='/src/events/switzerland2012/index.md'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
+<a href='/events/switzerland2012/'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
 <a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src="/src/images/logos/EScience2012Logo.png" alt="Extending High-Performance Computing Beyond its Traditional User Communities Workshop" height="100" /></a>
 <a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/src/images/logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>
 </div>
@@ -99,7 +99,7 @@ There are September application, poster, and paper deadlines for
 * [Personal Genomes and Medical Genomics](http://meetings.cshl.edu/meetings/pgmg12.shtml), CSHL (deadline August 31)
 * [ISCB-Asia/SCCG 2012](http://www.iscb.org/iscb-asia2012) posters
 
-September events include [Galaxy workshops and talks in South Africa](/src/news/galaxy-workshops-in-south-africa/index.md), the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
+September events include [Galaxy workshops and talks in South Africa](/news/galaxy-workshops-in-south-africa/), the [Automated and reproducible analysis of NGS data (ARANGS12)](http://gtpb.igc.gulbenkian.pt/bicourses/ARANGS12), [Beyond the Genome 2012](http://www.beyond-the-genome.com/2012_event.html), and [ICG Americas 2012](http://www.icgamericas.org/).
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -158,7 +158,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> October 3 </th>
-    <td> <em><a href='/src/events/switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/switzerland2012/'>(first Swiss) Galaxy Workshop</a></em> </td>
     <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
@@ -212,7 +212,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/events/gcc2013/'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -221,9 +221,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ### Swiss Galaxy Day
 
-<div class='right'><a href='/src/events/switzerland2012/index.md'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
+<div class='right'><a href='/events/switzerland2012/'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
 
-The 1<sup>st</sup> [Swiss Galaxy Workshop](/src/events/switzerland2012/index.md) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
+The 1<sup>st</sup> [Swiss Galaxy Workshop](/events/switzerland2012/) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
  
 We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research. 
  
@@ -237,7 +237,7 @@ The workshop is part of the SyBIT Tech Day series.
 A new mailing list has been launched, specifically for the French Galaxy Community:
 * [Liste de diffusion Galaxy France](https://lists.galaxyproject.org/lists/galaxy-france.lists.galaxyproject.org/)
 
-This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/src/news/liste-de-diffusion-galaxy-france/index.md), [list archive](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/lists/galaxy-france.lists.galaxyproject.org/) for more.  Postings to the list will be integrated into [Galaxy search](/search/).
+This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/news/liste-de-diffusion-galaxy-france/), [list archive](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/lists/galaxy-france.lists.galaxyproject.org/) for more.  Postings to the list will be integrated into [Galaxy search](/search/).
 
 ## Tool Shed Contributions
 
@@ -249,7 +249,7 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-The most recent Galaxy distribution was [released on July 20, 2012](/src/archive/dev-news-briefs/2012-07-20/index.md).
+The most recent Galaxy distribution was [released on July 20, 2012](/archive/dev-news-briefs/2012-07-20/).
 
 ## Other News
 
@@ -260,7 +260,7 @@ The most recent Galaxy distribution was [released on July 20, 2012](/src/archive
 * [Ntino Krampis BioTechniques interview](http://www.biotechniques.com/multimedia/podcasts/#.UD6V2VTYNUO) on doing bioinformatics on the cloud, including CloudMan.
 * [Jeremy Goecks](/people/jeremy-goecks/) updated his [RNA-seq Analysis Exercise Galaxy Page](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise) to cover quality control through CuffDiff: paired-end data, iGenomes gtf, answer key, and bonus resources
 * [Slides and videos](http://bit.ly/QGxVJU) for the Iowa Initiative in Human Genetics [Bioinformatics Course](http://bit.ly/QGxVJU)
-* A few summaries of the recent [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) have been posted online:
+* A few summaries of the recent [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) have been posted online:
   * Peter Li's [GigaBlog post](http://blogs.biomedcentral.com/gigablog/2012/08/06/enabling-bioinformatics-tools-to-smoke-the-peace-pipe-together/)
   * Brad Chapman's [day 1](http://chapmanb.posterous.com/galaxy-developer-conference-day-1) and [day 2](http://chapmanb.posterous.com/galaxy-community-conference-2012-notes-from-d-90717) summaries.
-  * Slides for [all workshops and talks](/src/events/gcc2012/program/index.md) are now available.
+  * Slides for [all workshops and talks](/events/gcc2012/program/) are now available.

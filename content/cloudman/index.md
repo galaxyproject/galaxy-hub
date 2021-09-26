@@ -38,15 +38,15 @@ The following is a non-exhaustive list of scenarios when it is beneficial to use
 
 ## Getting started
 
-To start your own *Galaxy CloudMan*, see the [Getting Started](/src/cloudman/getting-started/index.md) page.
+To start your own *Galaxy CloudMan*, see the [Getting Started](/cloudman/getting-started/) page.
 
 ## Determining the size of your cloud cluster
 
-Cloud computing allows your cloud cluster to be variable in size and capacity. See [this page](/src/cloudman/capacity-planning/index.md) for some guidelines on how to decide what is right for you.
+Cloud computing allows your cloud cluster to be variable in size and capacity. See [this page](/cloudman/capacity-planning/) for some guidelines on how to decide what is right for you.
 
 ## Customizing your cloud cluster
 
-If you are interested in running your own version of Galaxy and/or tools on the cloud while utilizing all the automation and functionality provided by CloudMan, [this page](/src/cloudman/customizing/index.md) explains how to do it.
+If you are interested in running your own version of Galaxy and/or tools on the cloud while utilizing all the automation and functionality provided by CloudMan, [this page](/cloudman/customizing/) explains how to do it.
 
 ## A note about costs
 

@@ -10,7 +10,7 @@ Today we launch the new *[Galactic Blog](/blog/)*.
 
 The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.)
 
-**Our very first post is about the [ELIXIR Galaxy Community](/src/blog/2017-10-05-elixir-galaxy-community/index.md) and was written by Frederik Coppens, Gildas Le Corguillé, and [Björn Grüning](/people/bjoern-gruening/).**
+**Our very first post is about the [ELIXIR Galaxy Community](/blog/2017-10-05-elixir-galaxy-community/) and was written by Frederik Coppens, Gildas Le Corguillé, and [Björn Grüning](/people/bjoern-gruening/).**
 
 The *Galactic Blog* replaces the former *Community Log* and includes all content from it, which is why, even though the blog is new, it includes entries back to 2013.
 

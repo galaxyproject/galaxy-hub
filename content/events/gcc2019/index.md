@@ -27,7 +27,7 @@ GCC2019 spans more than a week of activity:
 
 <div style="text-align: center">
 
-|  | [Training Day](https://gcc2019.sched.com/#2019-07-01)<br />Mon 1 Jul | [Conference](https://gcc2019.sched.com/#2019-07-02)<br />Tue-Thu 2-4 Jul | [CoFest: Core](/src/events/gcc2019/cofest/index.md)<br />Fri-Sat 5-6 Jul | [CoFest: Encore](/src/events/gcc2019/cofest/index.md)<br />Sun-Mon 7-8 Jul |
+|  | [Training Day](https://gcc2019.sched.com/#2019-07-01)<br />Mon 1 Jul | [Conference](https://gcc2019.sched.com/#2019-07-02)<br />Tue-Thu 2-4 Jul | [CoFest: Core](/events/gcc2019/cofest/)<br />Fri-Sat 5-6 Jul | [CoFest: Encore](/events/gcc2019/cofest/)<br />Sun-Mon 7-8 Jul |
 |-------------|--------------------|--------------------|--------------------|--------------------|
 | **Morning** | [Parallel introductory training tracks](https://gcc2019.sched.com/#2019-07-01) | Talks: Invited, accepted, and lightning | Collaboration! | More collaboration! |
 | **Early Afternoon** | [Parallel introductory training tracks](https://gcc2019.sched.com/#2019-07-01) | Training sessions: 6 tracks <br /> [Poster, Demo and Sponsor Session](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors) | Collaboration! | More collaboration! |
@@ -63,4 +63,4 @@ GCC2019 is hosted by the [Freiburg Galaxy Project](https://galaxyproject.eu/frei
 
 </div>
 
-Please thank [our sponsors](/src/events/gcc2019/sponsors/index.md) for helping make GCC2019 a success:
+Please thank [our sponsors](/events/gcc2019/sponsors/) for helping make GCC2019 a success:

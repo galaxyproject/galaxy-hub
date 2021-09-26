@@ -88,9 +88,9 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
+<div class="card-header">[Galaxy Developer Roundtable](/community/devroundtable/)</div>
 
-The next two [roundtables](/src/community/devroundtable/index.md) are [September 3 (this Thursday)](/src/events/2020-09-03-dev-roundtable/index.md) and September 17. This week's topics are [interactive PR commands](https://github.com/almahmoud/galaxy/pull/9) by Alex Mahmood, and workflow updates - format, tooling, and GUI by John Chilton.
+The next two [roundtables](/community/devroundtable/) are [September 3 (this Thursday)](/events/2020-09-03-dev-roundtable/) and September 17. This week's topics are [interactive PR commands](https://github.com/almahmoud/galaxy/pull/9) by Alex Mahmood, and workflow updates - format, tooling, and GUI by John Chilton.
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
@@ -134,7 +134,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem;">
-<div class="card-header">[PiRATE](/src/use/pirate/index.md)</div>
+<div class="card-header">[PiRATE](/use/pirate/)</div>
 
 <img class="card-img-top" src="/src/use/pirate/pirate-brand-line.png" alt="PiRATE" />
 
@@ -143,18 +143,18 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[UseGalaxy.fr](/src/use/usegalaxy-fr/index.md)</div>
+<div class="card-header">[UseGalaxy.fr](/use/usegalaxy-fr/)</div>
 
 <img class="card-img-top" src="/src/use/usegalaxy-fr/usegalaxy-fr-logo-slice.png" alt="UseGalaxy.fr" />
 
-The [UseGalaxy.fr server](https://usegalaxy.fr/) is a general purpose omics analysis server hosted by the [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/en/).  In addition, this server also hosts the specialized [Workflow4Metabolomics](/src/use/workflow4metabolomics/index.md) and [ProteoRE](/src/use/proteore/index.md) servers.
+The [UseGalaxy.fr server](https://usegalaxy.fr/) is a general purpose omics analysis server hosted by the [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/en/).  In addition, this server also hosts the specialized [Workflow4Metabolomics](/use/workflow4metabolomics/) and [ProteoRE](/use/proteore/) servers.
 
 User support is provided through [a discourse-based forum](https://community.france-bioinformatique.fr/c/galaxy).
 </div>
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[Machine Learning Workbench](/src/use/ml-workbench/index.md)</div>
+<div class="card-header">[Machine Learning Workbench](/use/ml-workbench/)</div>
 
 <img class="card-img-top" src="/src/use/ml-workbench/ml-workbench-logo.png" alt="ML Workbench" />
 
@@ -163,7 +163,7 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[deepTS](/src/use/deepts/index.md)</div>
+<div class="card-header">[deepTS](/use/deepts/)</div>
 
 <img class="card-img-top" src="/src/use/deepts/deepts-overview-slice.png" alt="deepTS" />
 
@@ -172,7 +172,7 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[BioCompute Object Galaxy](/src/use/biocompute-object/index.md)</div>
+<div class="card-header">[BioCompute Object Galaxy](/use/biocompute-object/)</div>
 
 <img class="card-img-top" src="/src/use/biocompute-object/biocompute-objects-logo-wide.png" alt="BioCompute Object Galaxy" />
 
@@ -239,7 +239,7 @@ Here's what people are saying right now:
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 16rem; max-width: 28rem;">
-<div class="card-header">[GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05](/src/blog/2020-07-gvl5-beta4/index.md)</div>
+<div class="card-header">[GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05](/blog/2020-07-gvl5-beta4/)</div>
 
 By Nuwan Goonasekera, Alexandru Mahmoud, Mohamad Safadieh, Enis Afgan
 
@@ -292,7 +292,7 @@ The COVID-19 pandemic has forced a rapid - and unplanned - shift towards online 
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
-<div class="card-header">[Galaxy: the first 10,000 pubs](/src/blog/2020-08-10k-pubs/index.md)</div>
+<div class="card-header">[Galaxy: the first 10,000 pubs](/blog/2020-08-10k-pubs/)</div>
 
 By Dave Clements
 
@@ -688,7 +688,7 @@ The [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Nebulizer 0.6.0](/src/news/2020-06-galaxy-release-20-05/index.md)</div>
+<div class="card-header">[Nebulizer 0.6.0](/news/2020-06-galaxy-release-20-05/)</div>
 
 Command-line utilities to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the [Bioblend](http://bioblend.readthedocs.org/en/latest/) library.  This release features new commands (search toolsheds, delete users, uninstall tools), fixes & updates, and newly extended documentation.
 

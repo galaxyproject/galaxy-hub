@@ -85,7 +85,7 @@ Participants will learn to
 
 Interested? Sign up when you [register](https://www.iscb.org/ismbeccb2017-registration#tutorials) for ISMB/ECCB (and register before the tutorial fills up).
 
-We also expect a lot of other Galaxy-related content at ISMB/ECCB 2017 and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017). We'll add the presentations to the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/src/events/2017-ismb-bosc/index.md) event page as the schedules are posted.  (And, [please let us know](mailto:outreach@galaxyproject.org) if you have anything on the program.)
+We also expect a lot of other Galaxy-related content at ISMB/ECCB 2017 and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017). We'll add the presentations to the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/events/2017-ismb-bosc/) event page as the schedules are posted.  (And, [please let us know](mailto:outreach@galaxyproject.org) if you have anything on the program.)
 
 See you in Prague!
 
@@ -333,12 +333,12 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 <table class="table">
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;">  </td>
   </tr>
 </table>
@@ -443,7 +443,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # ToolShed Contributions
 
-[Tool Shed contributions from April](/src/toolshed/contributions/2017-04/index.md).
+[Tool Shed contributions from April](/toolshed/contributions/2017-04/).
 
 
 # Other News
@@ -457,6 +457,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 * From [Peter Briggs](https://twitter.com/ironic_cog):
   * [Galactic Engineer: Securing Galaxy with HTTPS running with Nginx using Let’s Encrypt](http://galacticengineer.blogspot.co.uk/2017/04/securing-galaxy-with-https-running-with.html)
 * The [Galaxy-P Project has a brand new website](http://galaxyp.org/).
-* A new [comprehensive ChIP-seq tutorial is available](/src/tutorials/chip/index.md) using DeepTools, MACS2, and MEME.
+* A new [comprehensive ChIP-seq tutorial is available](/tutorials/chip/) using DeepTools, MACS2, and MEME.
 * From Nathan Bott
   * [Galaxy: A Workflow Management System for Modern Life Sciences Research](http://emergingtechblog.emc.com/galaxy-workflow-management-system-modern-life-sciences-research/) - [EMC Emerging Tech Blog](http://emergingtechblog.emc.com/) 

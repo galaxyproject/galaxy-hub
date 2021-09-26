@@ -22,7 +22,7 @@ I started using Galaxy in 2012, at first quite simply because the project I was 
 
 *How did you get into the Galaxy community? What (and when) was your first contribution?*
 
-My first contributions were back in 2012, when I made a tool called [iReport](/src/events/gcc2014/abstracts/talks/index.md#ireport-html-reporting-in-galaxy) to create custom web pages for results reporting in Galaxy. Looking back, Galaxy has come a long way since then (and so have I), and I realize that I would do things very differently if I were to create that tool today, and I hope to be able to make a version 2.0 of this tool some time soon, because I still think that what it does is great, but the way it does it can be much improved.
+My first contributions were back in 2012, when I made a tool called [iReport](/events/gcc2014/abstracts/talks/#ireport-html-reporting-in-galaxy) to create custom web pages for results reporting in Galaxy. Looking back, Galaxy has come a long way since then (and so have I), and I realize that I would do things very differently if I were to create that tool today, and I hope to be able to make a version 2.0 of this tool some time soon, because I still think that what it does is great, but the way it does it can be much improved.
 
 *Which are your favorite Galaxy tools?*
 

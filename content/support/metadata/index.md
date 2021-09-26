@@ -41,4 +41,4 @@ The dataset will turn yellow in the history while the job is processing. Once co
 
 ### **If problems persist**
 
-Your error may not really be related to metadata, or changing metadat may not be enough to resolve the input/tool usage problems. Review the other **[FAQ solutions](/src/support/#troubleshooting)** for more data input help. Review the **[Galaxy Tutorials](/src/support/learn/index.md)** for tool usage help.
+Your error may not really be related to metadata, or changing metadat may not be enough to resolve the input/tool usage problems. Review the other **[FAQ solutions](/src/support/#troubleshooting)** for more data input help. Review the **[Galaxy Tutorials](/support/learn/)** for tool usage help.

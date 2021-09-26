@@ -1,7 +1,7 @@
 ---
 title: 2012-07-09 Conference Call
 ---
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
 <slot name="/community/galaxy-admins/linkbox" />
 
@@ -14,15 +14,15 @@ The group's first conference call was held on Monday July 9, at 9am Central US t
 
 # Agenda
 
-* [Logistics](/src/community/galaxy-admins/meetups/2012-07-09/index.md#logistics): Address how we want to tackle these calls. Go over generic agenda. Frequency of calls
-* [Group Goals](/src/community/galaxy-admins/meetups/2012-07-09/index.md#goals): what do we want to accomplish with this group beyond discussions/sharing?
-* [Presentation](/src/community/galaxy-admins/meetups/2012-07-09/index.md#galaxy-at-iowa): Galaxy at Iowa: Discuss our issues with big data, how NGS tools take in/output data and finding the right storage server solution.
-* [Open Mic](/src/community/galaxy-admins/meetups/2012-07-09/index.md#open-mic) & recruit new volunteers for the next call.
-* [Break out at Galaxy Community Conference](/src/community/galaxy-admins/meetups/2012-07-09/index.md#gcc2012-breakout)
+* [Logistics](/community/galaxy-admins/meetups/2012-07-09/#logistics): Address how we want to tackle these calls. Go over generic agenda. Frequency of calls
+* [Group Goals](/community/galaxy-admins/meetups/2012-07-09/#goals): what do we want to accomplish with this group beyond discussions/sharing?
+* [Presentation](/community/galaxy-admins/meetups/2012-07-09/#galaxy-at-iowa): Galaxy at Iowa: Discuss our issues with big data, how NGS tools take in/output data and finding the right storage server solution.
+* [Open Mic](/community/galaxy-admins/meetups/2012-07-09/#open-mic) & recruit new volunteers for the next call.
+* [Break out at Galaxy Community Conference](/community/galaxy-admins/meetups/2012-07-09/#gcc2012-breakout)
 
 ## Logistics
 
-<div class='right'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
+<div class='right'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
 
 ### Generic Call Agenda
 
@@ -92,8 +92,8 @@ Iowa addresses the "give them enough rope" conundrum* by providing well tested a
 
 ## GCC2012 Breakout
 
-There will be a [GalaxyCzars](/src/community/galaxy-admins/index.md) breakout session at [GCC2012](/src/events/gcc2012/index.md) at the end of this month.  It will be a chance to refine the groups goals, logistics, and schedule and a great to chance to meet in person.
+There will be a [GalaxyCzars](/community/galaxy-admins/) breakout session at [GCC2012](/events/gcc2012/) at the end of this month.  It will be a chance to refine the groups goals, logistics, and schedule and a great to chance to meet in person.
 
 ## Next Meeting
 
-The next [conference call](/src/community/galaxy-admins/meetups/2012-07-09/index.md) will happen in September.  If you have a large Galaxy installation, please consider telling the group about it.
+The next [conference call](/community/galaxy-admins/meetups/2012-07-09/) will happen in September.  If you have a large Galaxy installation, please consider telling the group about it.

@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2015-04-16 Web Meetup<br /><br />
 
 </div></div>
@@ -31,7 +31,7 @@
 
 <br />
 
-*[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 <div class='right'><br /><a href='http://ncgas.org/'><img src="/src/images/logos/NCGASLogoWide.jpg" alt="National Center for Genome Analysis Support (NCGAS)" width="250" /></a></div>
 

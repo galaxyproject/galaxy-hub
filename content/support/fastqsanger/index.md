@@ -5,10 +5,10 @@
 
 Related Topics
  * [Fastq Manipulation and Quality Control](/src/tutorials/ngs/#fastq-manipulation-and-quality-control/index.md)
- * [Format help for Tabular/BED/Interval Datasets](/src/support/tabular/index.md)
- * [Understanding compressed fastq data (fastq.gz)](/src/support/compressed-fastq/index.md)
- * [Common datatypes explained](/src/learn/datatypes/index.md)
- * [Input datatype misassignment and errors](/src/support/tool-error/index.md)
+ * [Format help for Tabular/BED/Interval Datasets](/support/tabular/)
+ * [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)
+ * [Common datatypes explained](/learn/datatypes/)
+ * [Input datatype misassignment and errors](/support/tool-error/)
  
 ## Help for Fastq Datasets
  

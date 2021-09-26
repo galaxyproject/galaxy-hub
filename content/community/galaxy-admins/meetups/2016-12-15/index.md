@@ -3,7 +3,7 @@ title: 'GalaxyAdmins December 2016 Meetup'
 date: '2016-12-15'
 tease: 'GalaxyAdmins December 2016 Meetup'
 ---
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 </div>
 
 
@@ -15,7 +15,7 @@ tease: 'GalaxyAdmins December 2016 Meetup'
 | **Topic&nbsp;2** | *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/people/dannon-baker/), Johns Hopkins University |
 | **Links** | [Video](https://connect.johnshopkins.edu/p7ek9bf4ez0/) |
 
-*[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 Both talks this month are about efforts that have embraced community driven content creation, updating, and sharing.  One of them is using GitHub and presentation technologies to make Galaxy training material available online in such a way that anyone can contribute to it.  The second talk is about the move of Galaxy's wiki to GitHub and the use of Metalsmith to generate the web site and take advantage of metadata.
 

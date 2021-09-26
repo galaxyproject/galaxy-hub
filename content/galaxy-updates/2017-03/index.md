@@ -93,9 +93,9 @@ See the [full report](https://www.embl-abr.org.au/game2017report/) for more.
 
 ## GalaxyAdmins February Meetup Screencast
 
-<div class='left'><a href='/src/community/galaxy-admins/meetups/2017-02-16/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
+<div class='left'><a href='/community/galaxy-admins/meetups/2017-02-16/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
 
-A video of the [February 16 GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2017-02-16/index.md) is now available.  Nuwan Goonesekera and [Enis Afgan](/people/enis-afgan/) presented an all-new version of CloudLaunch, an application for launching Galaxy on the Cloud instances. The [new CloudLaunch](https://beta.launch.usegalaxy.org) allows multiple flavors of Galaxy to be deployed, Docker images or applications other than Galaxy. Each application can have its own custom user interface developed to accommodate the specific application needs.
+A video of the [February 16 GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2017-02-16/) is now available.  Nuwan Goonesekera and [Enis Afgan](/people/enis-afgan/) presented an all-new version of CloudLaunch, an application for launching Galaxy on the Cloud instances. The [new CloudLaunch](https://beta.launch.usegalaxy.org) allows multiple flavors of Galaxy to be deployed, Docker images or applications other than Galaxy. Each application can have its own custom user interface developed to accommodate the specific application needs.
 
 ## All upcoming events
 
@@ -410,12 +410,12 @@ The [Cancer Computer](http://www.cancercomputer.com/) [Galaxy service](/src/gala
 <table class="table table-striped">
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> </td>
   </tr>
 </table>
@@ -520,7 +520,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # ToolShed Contributions
 
-[Tool Shed contributions from January and February](/src/toolshed/contributions/2017-02/index.md).
+[Tool Shed contributions from January and February](/toolshed/contributions/2017-02/).
 
 And please welcome [Bérénice Batut](https://github.com/bebatut) of the University of Freiburg as the newest member of the [IUC](/iuc/).
 
@@ -533,5 +533,5 @@ And please welcome [Bérénice Batut](https://github.com/bebatut) of the Univers
 * [When life sciences become data sciences](http://www.pr.uni-freiburg.de/pm/2017/pm.2017-01-27.11-en): The University of Freiburg offers Europe-wide infrastructure and service in Bioinformatics
 
 <!--
-* [Getting started with Galaxy on the cloud](/src/cloudman/getting-started/index.md)
+* [Getting started with Galaxy on the cloud](/cloudman/getting-started/)
 -->

@@ -8,11 +8,11 @@ title: GCC2012 Training Day
 
 <img class="float-left" src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="GCC2012 Training Day" width="140" />
 
-The [2012 Galaxy Community Conference](/src/events/gcc2012/training-day//index.md) was preceded by a *Training Day*, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.
+The [2012 Galaxy Community Conference](/events/gcc2012/training-day//) was preceded by a *Training Day*, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.
 
 # Registration
 
-Register for the Training Day at the same time you [Register](/src/events/gcc2012/register/index.md) for the meeting.  
+Register for the Training Day at the same time you [Register](/events/gcc2012/register/) for the meeting.  
 
 # Schedule
 
@@ -87,9 +87,9 @@ These workshops require a running Galaxy instance that you have root/admin acces
 * [WS6: Galaxy API](#ws6)
 * [WS7: Galaxy Tool Shed](#ws7)
 
-While you can use any running Galaxy instance, **we strongly recommend that you use the [conference provided virtual machine image](/src/events/gcc2012/training-day/vms/index.md), and that you have it installed and running before arriving at the conference.**
+While you can use any running Galaxy instance, **we strongly recommend that you use the [conference provided virtual machine image](/events/gcc2012/training-day/vms/), and that you have it installed and running before arriving at the conference.**
 
-See the [Virtual Machine page](/src/events/gcc2012/training-day/vms/index.md) for instructions on how to do this.
+See the [Virtual Machine page](/events/gcc2012/training-day/vms/) for instructions on how to do this.
 
 
 ## WS1
@@ -145,7 +145,7 @@ This workshop is supported by an AWS in Education teaching grant award.
 | **Content** | Learn how to install your own local version of Galaxy, and get it set up, populated, and production ready. |
 | **Prerequisites** | Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.<br />You have the conference provided virtual machine image for Workshop 5 installed and running on your laptop, before arriving at the conference. |
 | **Results** | You will have access to personal Galaxy server that you can use in subsequent workshops during the day. This may be Galaxy installed directly on your Linux laptop, Galaxy installed on a virtual machine on your PC or Mac, or access to an Amazon Web Services EC2 instance with Galaxy installed on it.
-| **Links** | • Virtual Machine Image <br /> • [Full script of workshop steps](/src/events/gcc2012/training-day/ws5/index.md) <br /> • [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/WS5_InstallingYourOwn.pdf) <br /> • [Video part 1](https://uic.sharestream.net/ssdcms/i.do?u=baa964873e294a4), [part 2](https://uic.sharestream.net/ssdcms/i.do?u=005f1dddb176458) |
+| **Links** | • Virtual Machine Image <br /> • [Full script of workshop steps](/events/gcc2012/training-day/ws5/) <br /> • [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/WS5_InstallingYourOwn.pdf) <br /> • [Video part 1](https://uic.sharestream.net/ssdcms/i.do?u=baa964873e294a4), [part 2](https://uic.sharestream.net/ssdcms/i.do?u=005f1dddb176458) |
 
 ## WS6
 

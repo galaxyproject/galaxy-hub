@@ -49,7 +49,7 @@ Wait until "First Run" is finished and press "Continue":
 <img src="http://i.imgur.com/ikOX0ah.png" alt="" width=700 />
 <img src="http://i.imgur.com/QsEiUs1.png" alt="" width=700 />
 
-System is now ready and  [Cloudgene](/src/cloudman/services/cloudgene/index.md) can be started (from the CloudMan Admin page):
+System is now ready and  [Cloudgene](/cloudman/services/cloudgene/) can be started (from the CloudMan Admin page):
 <img src="http://i.imgur.com/SirnrWl.png" alt="" width=700 />
 
 This is a default dashboard view for the Cloudera Manager. 

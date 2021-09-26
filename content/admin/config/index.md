@@ -9,15 +9,15 @@ title: Galaxy Configuration for Admins
 * [Running Galaxy in a production environment](https://docs.galaxyproject.org/en/latest/admin/production.html)
 * [Running Galaxy Tools on a Cluster](https://docs.galaxyproject.org/en/latest/admin/cluster.html)
 * [Galaxy Job Configuration](https://docs.galaxyproject.org/en/latest/admin/jobs.html)
-* [Authentication with LDAP/AD](/src/admin/config/external-user-auth/index.md)
+* [Authentication with LDAP/AD](/admin/config/external-user-auth/)
 * [Apache Proxy](https://docs.galaxyproject.org/en/latest/admin/special_topics/apache.html)
-  * [Apache External User Auth](/src/admin/config/apache-external-user-auth/index.md)
+  * [Apache External User Auth](/admin/config/apache-external-user-auth/)
 * [Nginx Proxy](https://docs.galaxyproject.org/en/latest/admin/special_topics/nginx.html)
-  * [Nginx External User Auth](/src/admin/config/nginx-external-user-auth/index.md)
+  * [Nginx External User Auth](/admin/config/nginx-external-user-auth/)
 
 ## Tools
 
-* [Tool Dependencies](/src/admin/config/tool-dependencies/index.md)
+* [Tool Dependencies](/admin/config/tool-dependencies/)
 * [Set up Visualizations](/visualization-setup/)
 * [Collecting Job Metrics](https://docs.galaxyproject.org/en/latest/admin/special_topics/job_metrics.html)
 
@@ -25,10 +25,10 @@ title: Galaxy Configuration for Admins
 ## FTP
 
 * [Upload via FTP](https://docs.galaxyproject.org/en/latest/admin/special_topics/ftp.html)
-* [Setup ProFTPd with AD/LDAP auth](/src/admin/config/proftpd-with-ad/index.md)
+* [Setup ProFTPd with AD/LDAP auth](/admin/config/proftpd-with-ad/)
 
 ## Other
 
-* [User Information (Collecting information during registration)](/src/admin/config/user-information/index.md)
-* [Running on Windows](/src/admin/config/windows/index.md)
-* [Access Control (ACLs)](/src/admin/config/access-control/index.md)
+* [User Information (Collecting information during registration)](/admin/config/user-information/)
+* [Running on Windows](/admin/config/windows/)
+* [Access Control (ACLs)](/admin/config/access-control/)

@@ -1,16 +1,16 @@
 ---
 ---
-<div class='right'><a href='/src/events/gcc2012/training-day/vms/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
+<div class='right'><a href='/events/gcc2012/training-day/vms/'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
 
-If you are planning on attending any of these [GCC2012](/src/events/gcc2012/index.md) [Training Day](/src/events/gcc2012/training-day/index.md) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
+If you are planning on attending any of these [GCC2012](/events/gcc2012/) [Training Day](/events/gcc2012/training-day/) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
 
-* [WS1: Integrating Tools & Data Sources](/src/events/gcc2012/training-day/vms/index.md#ws1)
-* [WS6: Galaxy API](/src/events/gcc2012/training-day/vms/index.md#ws6)
-* [WS7: Galaxy Tool Shed](/src/events/gcc2012/training-day/vms/index.md#ws7)
+* [WS1: Integrating Tools & Data Sources](/events/gcc2012/training-day/vms/#ws1)
+* [WS6: Galaxy API](/events/gcc2012/training-day/vms/#ws6)
+* [WS7: Galaxy Tool Shed](/events/gcc2012/training-day/vms/#ws7)
 
 If you are attending this workshop
 
-* [WS5: Installing Your Own Galaxy](/src/events/gcc2012/training-day/vms/index.md#ws5)
+* [WS5: Installing Your Own Galaxy](/events/gcc2012/training-day/vms/#ws5)
 
 you will need shell admin access to a system that has Galaxy's prerequisites installed, but not Galaxy itself.
 
@@ -25,7 +25,7 @@ Using a virtual machine ensures that you will be running with the same configura
 
 # What Do I Need to Do?
 
-You will need to do two things before [Training Day](/src/events/gcc2012/training-day/vms/index.md) starts.  These steps take some time, and require downloading large files, so please do not postpone this until you arrive.  Downloading files of this size at the [UIC Forum](/src/events/gcc2012/logistics/index.md) would be painfully slow, and would adversely affect your fellow students.
+You will need to do two things before [Training Day](/events/gcc2012/training-day/vms/) starts.  These steps take some time, and require downloading large files, so please do not postpone this until you arrive.  Downloading files of this size at the [UIC Forum](/events/gcc2012/logistics/) would be painfully slow, and would adversely affect your fellow students.
 
 So, **please do these steps before you arrive**.
 
@@ -46,7 +46,7 @@ These VMs will be available for download in the days just before the conference.
 
 This VM is for:
 
-* [WS5: Installing Your Own Galaxy](/src/events/gcc2012/training-day/vms/index.md#ws5)
+* [WS5: Installing Your Own Galaxy](/events/gcc2012/training-day/vms/#ws5)
 
 This image will have all prerequisites for Galaxy, but not a running Galaxy instance.
 
@@ -56,9 +56,9 @@ This image will have all prerequisites for Galaxy, but not a running Galaxy inst
 
 This VM image is for these workshops
 
-* [WS1: Integrating Tools & Data Sources](/src/events/gcc2012/training-day/vms/index.md#ws1)
-* [WS6: Galaxy API](/src/events/gcc2012/training-day/vms/index.md#ws6)
-* [WS7: Galaxy Tool Shed](/src/events/gcc2012/training-day/vms/index.md#ws7)
+* [WS1: Integrating Tools & Data Sources](/events/gcc2012/training-day/vms/#ws1)
+* [WS6: Galaxy API](/events/gcc2012/training-day/vms/#ws6)
+* [WS7: Galaxy Tool Shed](/events/gcc2012/training-day/vms/#ws7)
 
 This image will have a configured and running Galaxy instance.
 
@@ -239,7 +239,7 @@ Which distribution was used; how much virtual disk and memory does it have; what
 
 ### Both VMs
 
-Any custom configuration is [described below](/src/events/gcc2012/training-day/vms/index.md#additional-configuration-details).
+Any custom configuration is [described below](/events/gcc2012/training-day/vms/#additional-configuration-details).
 
 
 | Tool/Package |  Comments  | 

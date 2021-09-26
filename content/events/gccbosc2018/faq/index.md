@@ -24,11 +24,11 @@ Poster and demo listing available on https://gccbosc2018.sched.com. Note - odd n
 
 ## Who can stay in conference housing in Reed College residence halls?
 
-Conference attendees 18 years or older, and their guests.  See [requirements for guests](/src/events/gccbosc2018/venue/index.md#guests). 
+Conference attendees 18 years or older, and their guests.  See [requirements for guests](/events/gccbosc2018/venue/#guests). 
 
 ## Can I stay in the Reed College residence halls (dorms) on Saturday night, June 23rd?
 
-No, unfortunately the dorms are only available starting Sunday, June 24th. Please click [here](/src/events/gccbosc2018/venue/index.md#other-options) for other options off campus. 
+No, unfortunately the dorms are only available starting Sunday, June 24th. Please click [here](/events/gccbosc2018/venue/#other-options) for other options off campus. 
 
 ## Checking in after hours?
 If you are you picking up your key packet outside of the registration desk hours, your key packet will be available at Reed's Community Safety Office. It is open 24 hours a day, 7 days a week: 5436 SE 28th Ave, Portland, OR 97202. 503/517-5355
@@ -49,7 +49,7 @@ Portland OR 97202-8199
 
 ## Are there off-campus housing options?
 
-[Yes](/src/events/gccbosc2018/venue/index.md#other-options). 
+[Yes](/events/gccbosc2018/venue/#other-options). 
 
 
 # Visas
@@ -91,7 +91,7 @@ Full refunds are available up to 30 days before the conference starts on June 25
 
 **A:** *Absolutely.*
 
-See the [childcare page](/src/events/gccbosc2018/childcare/index.md) for details.
+See the [childcare page](/events/gccbosc2018/childcare/) for details.
 
 # Sales Tax?
 
@@ -101,4 +101,4 @@ There is no sales tax in Oregon. There is no tax on the registration fee.
 
 The [Reed Summer Conference Handbook](https://www.reed.edu/cep/assets/pdfs/reed-summer-conference-handbook.pdf) answers many questions about the venue.
 
-If you still have questions, please [contact the organizers](/src/events/gccbosc2018/organizers/index.md).
+If you still have questions, please [contact the organizers](/events/gccbosc2018/organizers/).

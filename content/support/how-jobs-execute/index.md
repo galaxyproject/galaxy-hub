@@ -12,7 +12,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
 
 ## How Jobs Run
 
-  * When a tool is executed, one or more new **[datasets](/src/learn/managing-datasets/index.md)** are added to a history. 
+  * When a tool is executed, one or more new **[datasets](/learn/managing-datasets/)** are added to a history. 
   * The same is true when a **workflow** is executed.
   * The **color** of a dataset designates the current status of the underlying job. See below.
   * _If using the public [Main](/main/) Galaxy instance, the most effective strategy when running jobs on the shared resource is to start jobs (or workflows), and then leave them alone to execute until completion._
@@ -21,7 +21,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
 
   * [Processing rules for jobs on Galaxy Main (http://usegalaxy.org)](/main/)
   * When work is urgent during peak-usage times on the public **[Main](/main/)** Galaxy instance, a **[CloudMan](/cloudman/)** instance is a quick-to-implement alternative. 
-  * For large scale and/or urgent ongoing work, a **[CloudMan](/cloudman/)**, **[Local](/src/admin/get-galaxy/index.md)** each have advantages as a longer-term solution. 
+  * For large scale and/or urgent ongoing work, a **[CloudMan](/cloudman/)**, **[Local](/admin/get-galaxy/)** each have advantages as a longer-term solution. 
   * [Read more about Using Galaxy Choices...](/use/#which-platform-platform-type-to-choose) in the [Galaxy Platforms Directory](/use/).
 
 ## Dataset States
@@ -30,7 +30,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
 
   * The job completed successfully.
   * The resulting data is ready to be used in visualizations, available as input to tools, can be downloaded, or utilized for any other downstream purpose.
-  * Sometimes a job will be green but still need some adjustments to the associated metadata. [How do I find, adjust, and/or correct metadata?](/src/support/metadata/index.md).
+  * Sometimes a job will be green but still need some adjustments to the associated metadata. [How do I find, adjust, and/or correct metadata?](/support/metadata/).
 
 ### Yellow
 
@@ -53,7 +53,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
 ### Red
 
   * The job has failed.
-  * There can be many reasons for this, see: [My job ended with an error. What can I do?](/src/support/tool-error/index.md)
+  * There can be many reasons for this, see: [My job ended with an error. What can I do?](/support/tool-error/)
   
 ### Light blue
 
@@ -61,7 +61,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
   * This indicates either an input has a problem or that you have [exceeded disk quota](/src/main/#user-data-and-job-quotas) set by the administrator of the Galaxy instance you are working on.
   * If there is an input problem, correct the problem (often by re-run an upstream job) and click on the tool form option to "resume dependencies". 
   * You will not need to stop or restart downstream jobs in most cases (permit paused jobs to start, as inputs datasets become available, through this method).
-  * Running out of disk space? [Permanently delete unneeded data](/src/support/account-quotas/index.md).
+  * Running out of disk space? [Permanently delete unneeded data](/support/account-quotas/).
   
 ### Grey, Yellow, Grey again ???
 

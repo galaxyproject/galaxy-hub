@@ -3,7 +3,7 @@ title: Configure Your Galaxy Instance as an OIDC Client of ELIXIR Authentication
 highlight: true
 ---
 
-_This page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/oidc/idps/elixir-aai/index.md) page._
+_This page explains how to configure this feature, for user-specific docs, please refer to [this](/authnz/use/oidc/idps/elixir-aai/) page._
 
 
 Leveraging OpenID Connect (OIDC) protocol, users can login to Galaxy using their
@@ -83,7 +83,7 @@ procedures in Step 3 of the
 
 You would need to setup your Galaxy instance to leverage OIDC protocol.
 This setup is common for all OIDC IdPs, and is
-[documented at this page](/src/authnz/config/oidc/index.md#configure-oidc-backends).
+[documented at this page](/authnz/config/oidc/#configure-oidc-backends).
 Then you would need to add ELIXIR AAI-specific setters to the `config/oidc_backends_config.xml` 
 matching the values you got from the client registration process, as well as the exact same 
 `redirect_uri` you specified (depending on your setup):

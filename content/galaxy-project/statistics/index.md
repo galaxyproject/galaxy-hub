@@ -554,7 +554,7 @@ The **Tags** graph highlights several trends.
 
 # Galaxy Platforms
 
-Galaxy is available in a number of ways.  While most [installations of Galaxy](/src/admin/get-galaxy/index.md) are private, many groups support [Galaxy instances in many different forms](/use/), including publicly accessible servers, Galaxy instance that can be easily launched on research and commercial clouds, containers, and virtual machines.  Prior to 2019 we counted only publicly accessible servers.  Moving forward we are tracking many ways to use galaxy.
+Galaxy is available in a number of ways.  While most [installations of Galaxy](/admin/get-galaxy/) are private, many groups support [Galaxy instances in many different forms](/use/), including publicly accessible servers, Galaxy instance that can be easily launched on research and commercial clouds, containers, and virtual machines.  Prior to 2019 we counted only publicly accessible servers.  Moving forward we are tracking many ways to use galaxy.
 
 [![](/src/galaxy-project/statistics/galaxy-platforms.svg)](https://docs.google.com/spreadsheets/d/1czXV7tWPPjQQiB-uk0NYsqmC967deQ9OLue0ByXntbs/pubchart?oid=289204282&format=interactive)
 

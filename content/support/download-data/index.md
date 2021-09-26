@@ -5,7 +5,7 @@
 
 Related topics
 
- * [Loading Data](/src/support/loading-data/index.md)
+ * [Loading Data](/support/loading-data/)
  * [Moving data between Galaxy servers](/src/blog/2016-07-moving-data-between-galaxy-instances/)
  
 Tutorials
@@ -14,7 +14,7 @@ Tutorials
 
 # Overview
 
-**Download datasets** by clicking on the disk icon inside the [dataset](/src/learn/managing-datasets/index.md). Good for smaller sizes in all browsers.
+**Download datasets** by clicking on the disk icon inside the [dataset](/learn/managing-datasets/). Good for smaller sizes in all browsers.
 
 **Download entire histories** by selecting _"Export to File"_ from the History menu, and clicking on the link generated.
 
@@ -82,7 +82,7 @@ $ curl -o myfile.txt https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd45
 1. Double check your API key, if used. _User > Preferences > Manage API key_
 1. Check the sharing/permission status of the Datasets.
 * Review a dataset's permission status under _Dataset > pencil icon > Edit attributes > Permissions_. If you do not see a "Permissions" tab, then you are not the owner of the data.
-* If the data was [shared with you by someone else](/src/support/account-quotas/index.md#find-histories-that-have-been-shared-with-you-and-unshare-those-not-needed) from a Shared History, or was copied from a Published History, or you are Sharing or Publishing data, be aware that there are multiple levels of data sharing permissions.
+* If the data was [shared with you by someone else](/support/account-quotas/#find-histories-that-have-been-shared-with-you-and-unshare-those-not-needed) from a Shared History, or was copied from a Published History, or you are Sharing or Publishing data, be aware that there are multiple levels of data sharing permissions.
 * **All data are set to "not shared" by default**. 
 * **Global sharing, new/existing history, and new/existing data sharing preferences or status can be modified by you at any time under _User > Preferences_ for data that you own.**. 
 * **_User > Preferences > Make all data private_ is a "one click" option to unshare ALL data (Datasets, Histories).** Review the pop-up details and confirm or deny the action. Note that once confirmed and all data is unshared, the action cannot be "undone" in batch, even by an administer. You will need to re-share data again and/or reset your global sharing preferences as wanted.

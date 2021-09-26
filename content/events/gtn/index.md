@@ -1,7 +1,7 @@
 ---
 title: Galaxy GTN Event Horizon
 ---
-Upcoming (and past) offered by [GTN Members](/src/teach/gtn/index.md)
+Upcoming (and past) offered by [GTN Members](/teach/gtn/)
 
 See the [full event list here](/events/)
 

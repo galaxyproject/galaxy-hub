@@ -465,8 +465,8 @@ From 2013 through 2019 the number of pubs per year increased by an average of 25
 
 Note that it took
 
-* [44 months to reach 2,500 publications](/src/news/first2500-papers/index.md),
-* [26 months to add the next 2,500 publications](/src/blog/2017-10-5000-pubs/index.md),
+* [44 months to reach 2,500 publications](/news/first2500-papers/),
+* [26 months to add the next 2,500 publications](/blog/2017-10-5000-pubs/),
 * 18 months to add the next 2,500 (data not shown), and
 * 16 months to add the most recent 2,500 pubs.
 
@@ -474,7 +474,7 @@ If trends continue, we will hit 20,000 pubs by 2024.
 
 ## Methods
 
-The most obvious trend is that **there are a lot of pubs using Galaxy in their methods**.  59% of all publications mention Galaxy in their methods section, up from 51% of [the first 5000 pubs](/src/blog/2017-10-5000-pubs/index.md).  So far in 2020, 72% of all pubs are tagged *Methods*.
+The most obvious trend is that **there are a lot of pubs using Galaxy in their methods**.  59% of all publications mention Galaxy in their methods section, up from 51% of [the first 5000 pubs](/blog/2017-10-5000-pubs/).  So far in 2020, 72% of all pubs are tagged *Methods*.
 
 This trend doesn't show any sign of slowing down.
 
@@ -539,7 +539,7 @@ Galaxy has appeared in over 1800 journals.  The 20 most popular journals in the 
 
 <sup>* </sup> *Genome Announcements* was re-titled *Microbiology Resource Announcements* in July 2018.
 
-There are 6 journals in the top 20 that weren't there [when we hit 5000 pubs](/src/blog/2017-10-5000-pubs/index.md#journals).  All 6 newcomers are open access.
+There are 6 journals in the top 20 that weren't there [when we hit 5000 pubs](/blog/2017-10-5000-pubs/#journals).  All 6 newcomers are open access.
 
 ## Open Access is Rising
 
@@ -686,7 +686,7 @@ With the move to Zotero we added two new sets of tags. The first set is used to 
 
 ## Platform tags
 
-The second set of new tags show which [public Galaxy platform](/use/) is used or discussed in publications. These are  tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/src/use/repeatexplorer/index.md) public server.
+The second set of new tags show which [public Galaxy platform](/use/) is used or discussed in publications. These are  tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/use/repeatexplorer/) public server.
 
 ## Publisher Tags
 

@@ -97,11 +97,11 @@ The new papers were tagged with:
 
 
 
-<div class='right'><a href='/src/news/first2500-papers/index.md'><img src="/src/galaxy-updates/2015-09/First2500Grid.png" alt="First 2500 papers by tag and year" width="150" /></a></div>
+<div class='right'><a href='/news/first2500-papers/'><img src="/src/galaxy-updates/2015-09/First2500Grid.png" alt="First 2500 papers by tag and year" width="150" /></a></div>
  
 # Galaxy's First 2500 Publications
 
-And in case you missed it, we [reached 2500 publications](/src/news/first2500-papers/index.md) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/src/news/first2500-papers/index.md) analyzes the papers by [CiteULike tag](/publication-library/#tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/galaxy-team/) as a coauthor.  
+And in case you missed it, we [reached 2500 publications](/news/first2500-papers/) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/news/first2500-papers/) analyzes the papers by [CiteULike tag](/publication-library/#tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/galaxy-team/) as a coauthor.  
 
 ----
 
@@ -145,15 +145,15 @@ This split allows us to present Galaxy events in a much sparser calendar, that i
 
 # August GalaxyAdmins Slides and Video
 
-<div class='right'><a href='/src/community/galaxy-admins/meetups/2015-08-20/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup August 20" width="175" /></a><br /><br />
+<div class='right'><a href='/community/galaxy-admins/meetups/2015-08-20/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup August 20" width="175" /></a><br /><br />
 <a href='http://www.irida.ca/'><img src="/src/images/logos/IRIDA.png" alt="IRIDA" width="175" /></a>
 </div>
 
-The [next GalaxyAdmins meetup on August 20](/src/community/galaxy-admins/meetups/2015-08-20/index.md) was attended by 27 *GalaxyAdmins*.  [Aaron Petkau](https://github.com/apetkau) covered *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy* and [Enis Afgan](/people/enis-afgan/) presented *Adding transparency and automation into the Galaxy tool installation process*.
+The [next GalaxyAdmins meetup on August 20](/community/galaxy-admins/meetups/2015-08-20/) was attended by 27 *GalaxyAdmins*.  [Aaron Petkau](https://github.com/apetkau) covered *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy* and [Enis Afgan](/people/enis-afgan/) presented *Adding transparency and automation into the Galaxy tool installation process*.
 
-In case you missed it, [slides and video are now available online](/src/community/galaxy-admins/meetups/2015-08-20/index.md).
+In case you missed it, [slides and video are now available online](/community/galaxy-admins/meetups/2015-08-20/).
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meeting will be on [October 15](/src/community/galaxy-admins/meetups/2015-10-15/index.md) where [David Kovalic](https://www.linkedin.com/in/davidkovalic) of [Analome](http://analome.com) will present.  Hope to see you there.
+[GalaxyAdmins](/community/galaxy-admins/) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meeting will be on [October 15](/community/galaxy-admins/meetups/2015-10-15/) where [David Kovalic](https://www.linkedin.com/in/davidkovalic) of [Analome](http://analome.com) will present.  Hope to see you there.
 
 
 # Upcoming Events
@@ -212,7 +212,7 @@ There are [upcoming events](/events/) in five countries on three continents.  Se
   </tr>
   <tr>
     <th> September 17-18 </th>
-    <td> <a href='/src/news/tools-collections-hack/index.md'>Remote Hackathon for Tools and Dataset Collections</a> </td>
+    <td> <a href='/news/tools-collections-hack/'>Remote Hackathon for Tools and Dataset Collections</a> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href="mailto:galaxy-iuc@lists.galaxyproject.org">IUC</a> </td>
   </tr>
@@ -246,7 +246,7 @@ There are [upcoming events](/events/) in five countries on three continents.  Se
   </tr>
   <tr>
     <th> october 15 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2015-10-15/index.md'>October Galaxy Admins Meetup</a></em> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2015-10-15/'>October Galaxy Admins Meetup</a></em> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
@@ -369,7 +369,7 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
     [Release Notes v 15.05](http://galaxy.readthedocs.org/en/master/releases/15.05_announce.html)
 
  **BioBlend 0.6.0 and 0.6.1**
-    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md)([CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
+    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/)([CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
 
 <div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/logos/PlanemoLogo.png" alt="" width="150" /></a></div>
 
@@ -380,7 +380,7 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
  **[CloudMan](/cloudman/) **
-   The [most recent edition of CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release) was released in August.
+   The [most recent edition of CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and BioCloudCentral.
@@ -416,7 +416,7 @@ One new new **[Galaxy Training Network member](https://training.galaxyproject.or
 
 # ToolShed Contributions
 
-See [list of tools contributed in August](/src/toolshed/contributions/2015-08/index.md).
+See [list of tools contributed in August](/toolshed/contributions/2015-08/).
 
 
 # Other News

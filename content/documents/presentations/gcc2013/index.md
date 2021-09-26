@@ -1,3 +1,3 @@
-Presentations given at [GCC2013](/src/events/gcc2013/index.md).  See also [the Training Day page](/src/events/gcc2013/training-day/index.md).
+Presentations given at [GCC2013](/events/gcc2013/).  See also [the Training Day page](/events/gcc2013/training-day/).
 
 PLACEHOLDER_ATTACH_LIST

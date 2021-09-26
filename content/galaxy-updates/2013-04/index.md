@@ -137,45 +137,45 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2013
 
-<div class='center'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
+<div class='center'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 <table>
   <tr>
-    <th> &nbsp;&nbsp; <strong>The deadline for <a href='/src/events/gcc2013/abstracts/index.md'>submitting oral presentation abstracts</a> is 12 April.</strong> &nbsp;&nbsp; </th>
+    <th> &nbsp;&nbsp; <strong>The deadline for <a href='/events/gcc2013/abstracts/'>submitting oral presentation abstracts</a> is 12 April.</strong> &nbsp;&nbsp; </th>
   </tr>
 </table>
 
 
 <br />
 
-The [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/index.md) will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
+The [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/) will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
 
-[GCC2013](/src/events/gcc2013/index.md) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/events/gcc2013/training-day/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
+[GCC2013](/events/gcc2013/) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/events/gcc2013/training-day/) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
 
 ### Registration, Talk/Poster Submission Open
 
-**[Early registration](/src/events/gcc2013/register/index.md) and [paper and poster abstract submission](/src/events/gcc2013/abstracts/index.md) are open.** 
+**[Early registration](/events/gcc2013/register/) and [paper and poster abstract submission](/events/gcc2013/abstracts/) are open.** 
 
-<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
-**[Register early](/src/events/gcc2013/register/index.md)** and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/src/events/gcc2013/training-day/index.md) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May.
+**[Register early](/events/gcc2013/register/)** and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/events/gcc2013/training-day/) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May.
 
-**[Abstract submission](/src/events/gcc2013/abstracts/index.md)** for both oral presentations and posters is also open.  **Abstract submission for oral presentations closes 12 April**, and poster abstract submission closes 3 May.  Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about your work.
+**[Abstract submission](/events/gcc2013/abstracts/)** for both oral presentations and posters is also open.  **Abstract submission for oral presentations closes 12 April**, and poster abstract submission closes 3 May.  Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about your work.
 
 ### Sponsorships
 
-There are still several [sponsorships](/src/events/gcc2013/sponsorships/index.md) still available. Please contact the [Organizers](/src/events/gcc2013/organizers/index.md) if your organization would like to help sponsor this event. 
+There are still several [sponsorships](/events/gcc2013/sponsorships/) still available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event. 
 
 
 ## Galaxy at GMOD 2013, Biocuration 2013 and TGAC
 
 <div class='right'><a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'><img src="/src/images/logos/ISBLogoWAcronym223.png" alt="Biocuration 2013" height="60" /></a><br />
-<a href='/src/events/tgac2013/index.md'><img src="/src/images/logos/TGACLogo.png" alt="Introduction to Galaxy Workshop @ TGAC" height="40" /></a></div>
+<a href='/events/tgac2013/'><img src="/src/images/logos/TGACLogo.png" alt="Introduction to Galaxy Workshop @ TGAC" height="40" /></a></div>
 <div class='right'> <a href='http://gmod.org/wiki/April_2013_GMOD_Meeting'><img src="/src/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a></div>
 
-Galaxy will [have a presence](/src/news/galaxy-gmod-biocuration2013/index.md) at both the [GMOD 2013](http://gmod.org/wiki/April 2013 GMOD Meeting) and [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home).  Both are being held in Cambridge, UK in early April.  If you are interested in either community, then it would be great to see you there.
+Galaxy will [have a presence](/news/galaxy-gmod-biocuration2013/) at both the [GMOD 2013](http://gmod.org/wiki/April 2013 GMOD Meeting) and [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home).  Both are being held in Cambridge, UK in early April.  If you are interested in either community, then it would be great to see you there.
 
-There is also a [Galaxy Workshop](/src/events/tgac2013/index.md) at [The Genome Analysis Centre](http://www.tgac.ac.uk/) in nearby Norwich, UK on 11 April, the day after Biocuration ends.
+There is also a [Galaxy Workshop](/events/tgac2013/) at [The Genome Analysis Centre](http://www.tgac.ac.uk/) in nearby Norwich, UK on 11 April, the day after Biocuration ends.
 
 ## Other Upcoming Events
 
@@ -235,7 +235,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> April 11 </th>
-    <td> <a href='/src/events/tgac2013/index.md'>Introduction to Galaxy Workshop</a> </td>
+    <td> <a href='/events/tgac2013/'>Introduction to Galaxy Workshop</a> </td>
     <td> <a href='http://www.tgac.ac.uk/galaxy-workshop/'>The Genome Analysis Centre</a>, Norwich, United Kingdom </td>
     <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
@@ -285,46 +285,46 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/events/gcc2013/'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
-    <td> <a href='/src/events/gcc2013/organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/events/gcc2013/organizers/'>Organizers</a> </td>
   </tr>
 </table>
 
 
 ## GalaxyAdmins
 
-<div class='right'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="50" /></a></div>
+<div class='right'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="50" /></a></div>
 
 ### March 2013 Meetup
 
-Slides and the screencast from the [March GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-03-20/index.md) are [now available](/src/community/galaxy-admins/meetups/2013-03-20/index.md)  [Hailiang "Leon" Mei](mailto:hailiang DOT mei AT nbic DOT nl) spoke on *[NBIC Galaxy deployment](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).*  [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. Leon discussed the setup of this HPC cloud and the architecture of NBIC Galaxy and shared their experiences installing the NBIC Galaxy using the Cloudman scripts. The presentation finished with a list of issues and our possible future plans. [Dan Blankenberg](/people/dan/) also discussed the new Galaxy release process, and the upcoming Data Manager enhancements.
+Slides and the screencast from the [March GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-03-20/) are [now available](/community/galaxy-admins/meetups/2013-03-20/)  [Hailiang "Leon" Mei](mailto:hailiang DOT mei AT nbic DOT nl) spoke on *[NBIC Galaxy deployment](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).*  [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. Leon discussed the setup of this HPC cloud and the architecture of NBIC Galaxy and shared their experiences installing the NBIC Galaxy using the Cloudman scripts. The presentation finished with a list of issues and our possible future plans. [Dan Blankenberg](/people/dan/) also discussed the new Galaxy release process, and the upcoming Data Manager enhancements.
 
 
 ### GalaxyAdmins Future Directions
 
-The [GalaxyAdmins group](/src/community/galaxy-admins/index.md) is coming up on it's one year anniversary (coinciding with [GCC2013](/src/events/gcc2013/index.md)) and this is a good opportunity to discuss what the future of the group should be.  If you are interested, please [join the discussion on this email thread](http://bit.ly/11cECs9).
+The [GalaxyAdmins group](/community/galaxy-admins/) is coming up on it's one year anniversary (coinciding with [GCC2013](/events/gcc2013/)) and this is a good opportunity to discuss what the future of the group should be.  If you are interested, please [join the discussion on this email thread](http://bit.ly/11cECs9).
 
-Some starting topics for discussion are on the [GalaxyAdmins Future Directions page](/src/community/galaxy-admins/future/index.md).  These include
+Some starting topics for discussion are on the [GalaxyAdmins Future Directions page](/community/galaxy-admins/future/).  These include
 
 * What should the group's goals and activities be?
 * What type of leadership structure should the group have, and how should it be selected?
 
 The discussion, however, is wide open to any topic relevant to the group.  If you have any opinions or suggestions please reply to the group.  Anyone with an interest in the group is encouraged to post.
 
-Once the discussion settles, we will [summarize the discussion](http://bit.ly/11cECs9) on [the wiki page](/src/community/galaxy-admins/future/index.md) and suggest an action plan for making those things happen.
+Once the discussion settles, we will [summarize the discussion](http://bit.ly/11cECs9) on [the wiki page](/community/galaxy-admins/future/) and suggest an action plan for making those things happen.
 
 ## Galaxy Distributions
 
 <div class='right'><a href='http://galaxyproject.org'><img src="/src/images/news-graphics/2013_04_01_granular-galaxy-utilities.png" alt="tool shed" width=350 /></a></div>
 
-**[April 1, 2013 Distribution](/src/archive/dev-news-briefs/2013-04-01/index.md)**
+**[April 1, 2013 Distribution](/archive/dev-news-briefs/2013-04-01/)**
 
-* [Job running configuration changes and refactoring of job runner plugins](/src/archive/dev-news-briefs/2013-04-01/index.md#job-running-configuration-changes)
-* [Required reset of the metadata on your installed tool shed repositories](/src/archive/dev-news-briefs/2013-04-01/index.md#required-metadata-reset) plus [Changes required to your environment if you are hosting a local Tool Shed](/src/archive/dev-news-briefs/2013-04-01/index.md#local-tool-shed-file-changes)
-* [Basic Data Manager Functionality now present](/src/archive/dev-news-briefs/2013-04-01/index.md#data)
-* [Tool Shed](/src/archive/dev-news-briefs/2013-04-01/index.md#tool-shed), [Trackster](/src/archive/dev-news-briefs/2013-04-01/index.md#trackster), [Cloudman](/src/archive/dev-news-briefs/2013-04-01/index.md#cloudman), [Workflows](/src/archive/dev-news-briefs/2013-04-01/index.md#workflows), [UI](/src/archive/dev-news-briefs/2013-04-01/index.md#ui), [Admin](/src/archive/dev-news-briefs/2013-04-01/index.md#admin), and [ new Pull Request](/src/archive/dev-news-briefs/2013-04-01/index.md#source) updates.
-* New [bug fixes and improvements](/src/archive/dev-news-briefs/2013-04-01/index.md#bug-fixes-and-related-enhancements).
+* [Job running configuration changes and refactoring of job runner plugins](/archive/dev-news-briefs/2013-04-01/#job-running-configuration-changes)
+* [Required reset of the metadata on your installed tool shed repositories](/archive/dev-news-briefs/2013-04-01/#required-metadata-reset) plus [Changes required to your environment if you are hosting a local Tool Shed](/archive/dev-news-briefs/2013-04-01/#local-tool-shed-file-changes)
+* [Basic Data Manager Functionality now present](/archive/dev-news-briefs/2013-04-01/#data)
+* [Tool Shed](/archive/dev-news-briefs/2013-04-01/#tool-shed), [Trackster](/archive/dev-news-briefs/2013-04-01/#trackster), [Cloudman](/archive/dev-news-briefs/2013-04-01/#cloudman), [Workflows](/archive/dev-news-briefs/2013-04-01/#workflows), [UI](/archive/dev-news-briefs/2013-04-01/#ui), [Admin](/archive/dev-news-briefs/2013-04-01/#admin), and [ new Pull Request](/archive/dev-news-briefs/2013-04-01/#source) updates.
+* New [bug fixes and improvements](/archive/dev-news-briefs/2013-04-01/#bug-fixes-and-related-enhancements).
 
 ## Tool Shed Contributions
 
@@ -338,7 +338,7 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 ## Other News
 
 * ["Galaxy for Core Facilities" ABRF talk slides now available](http://bit.ly/XNoVp1) 
-* The servers that power [Main](/main/) were [relocated to their new room and building on March 14](/src/news/galaxy-proect-servers-down20130314/index.md).
+* The servers that power [Main](/main/) were [relocated to their new room and building on March 14](/news/galaxy-proect-servers-down20130314/).
 * The Galaxy Project now [has a LinkedIn group](http://bit.ly/gxyLinkedIn).  Please consider joining. 
 * Several items relating to Galaxy have been approved for ISMB / ECCB 2013.  Will post as soon as there is a schedule.
 * [Documentation for dynamic job destinations](http://wiki.galaxyproject.org/Admin/Config/Jobs)

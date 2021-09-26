@@ -15,11 +15,11 @@ The new *[Galactic Blog](/blog/)* was launched in October.  The *Galactic Blog* 
 
 The blog is off to a running start with these posts in October:
 
-* [ELIXIR Galaxy Community](/src/blog/2017-10-05-elixir-galaxy-community/index.md), by Frederik Coppens, Gildas Le Corguillé, and [Björn Grüning](/people/bjoern-gruening/)
-* [Public Galaxy Server Dashboard](/src/blog/2017-10-public-galaxy-dashboard/index.md), by [Helena Rasche](/people/helena-rasche/)
-* [SciPy and scikit-learn integration into Galaxy](/src/blog/2017-10-10-scipy-galaxy/index.md), by [Björn Grüning](/people/bjoern-gruening/)
-* [Small genome assembly in Galaxy](/src/blog/2017-10-16-UnicyclerTutorial/index.md), by [Anton Nekrutenko](/people/anton/)
-* [Galaxy: the first 5,000 pubs](/src/blog/2017-10-5000-pubs/index.md), by [Dave Clements](/people/dave-clements/)
+* [ELIXIR Galaxy Community](/blog/2017-10-05-elixir-galaxy-community/), by Frederik Coppens, Gildas Le Corguillé, and [Björn Grüning](/people/bjoern-gruening/)
+* [Public Galaxy Server Dashboard](/blog/2017-10-public-galaxy-dashboard/), by [Helena Rasche](/people/helena-rasche/)
+* [SciPy and scikit-learn integration into Galaxy](/blog/2017-10-10-scipy-galaxy/), by [Björn Grüning](/people/bjoern-gruening/)
+* [Small genome assembly in Galaxy](/blog/2017-10-16-UnicyclerTutorial/), by [Anton Nekrutenko](/people/anton/)
+* [Galaxy: the first 5,000 pubs](/blog/2017-10-5000-pubs/), by [Dave Clements](/people/dave-clements/)
 
 ## The Galactic Blog needs you!
 
@@ -31,7 +31,7 @@ Questions? [Ask us](mailto:outreach@galaxyproject.org).
 
 # Publications
 
-The Galaxy Publication Library [surpassed 5,000 publications](/src/blog/2017-10-5000-pubs/index.md), in October.  It was a good month for publications in other ways too:
+The Galaxy Publication Library [surpassed 5,000 publications](/blog/2017-10-5000-pubs/), in October.  It was a good month for publications in other ways too:
 
 ## Highlighted Publications
 
@@ -65,9 +65,9 @@ We also added tags to papers that reference, use, or implement a Galaxy Public S
 
 ## Galaxy (and GMOD) at Plant and Animal Genome XXVI
 
-[<img class="float-right" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="200" />](/src/events/2018-pag/index.md)
+[<img class="float-right" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="200" />](/events/2018-pag/)
 
-The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/src/events/2018-pag/index.md) to help researchers get the most from their data.  There will be a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), and a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806).  See the [Galaxy @ PAG page](/src/events/2018-pag/index.md) for details.  (We'll also list Galaxy related posters and Digital Tools and Resources talks once they are scheduled.)
+The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/events/2018-pag/) to help researchers get the most from their data.  There will be a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), and a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806).  See the [Galaxy @ PAG page](/events/2018-pag/) for details.  (We'll also list Galaxy related posters and Digital Tools and Resources talks once they are scheduled.)
 
 ### GMOD @ PAG
 
@@ -204,7 +204,7 @@ The Galaxy is expanding! Please help it grow.
 * [Développeur d’outils MS/MS pour le projet Workflow4Metabolomics sous Galaxy](https://www.sfbi.fr/content/d%C3%A9veloppeur-d%E2%80%99outils-msms-pour-le-projet-workflow4metabolomics-sous-galaxy-0), Station Biologique de Roscoff, France
 * [Bioinformaticien Gustave Roussy](https://www.sfbi.fr/content/bioinformaticien-gustave-roussy), Villejuif, France
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 * [Implémentation d’outils d’analyse et de visualisation de variations structurales et génomes mosaïques](https://www.sfbi.fr/content/impl%C3%A9mentation-d%E2%80%99outils-d%E2%80%99analyse-et-de-visualisation-de-variations-structurales-et-g%C3%A9nomes-), IRD (Institut de Recherche pour le Développement), Montpellier, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 
@@ -265,7 +265,7 @@ It's always great to see Galaxy applied in non-genomic domains, and LAP is a gre
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in October](/src/toolshed/contributions/2017-10/index.md).
+[Tool Shed contributions in October](/toolshed/contributions/2017-10/).
 
 # Releases
 

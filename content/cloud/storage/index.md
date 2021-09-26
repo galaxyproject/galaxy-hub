@@ -12,7 +12,7 @@ two APIs:
 
 
 Note that for (data and credentials) security reasons, the `get` and `send` APIs do **NOT** ask for user credentials;
-instead, they use auto-generated/refreshed credentials ([read details](/src/authnz/cloud/index.md)).
+instead, they use auto-generated/refreshed credentials ([read details](/authnz/cloud/)).
 
 
 Generally, to use the `get` and `send` APIs one should take the following steps:
@@ -20,9 +20,9 @@ Generally, to use the `get` and `send` APIs one should take the following steps:
 * **Initialization**
 
     1. Login to Galaxy using your Google account (read 
-    [how to login to Galaxy using social identities](/src/authnz/config/oidc/index.md));
+    [how to login to Galaxy using social identities](/authnz/config/oidc/));
 
-    2. Securely authorize Galaxy to read/write to your cloud-based storage ([read how](/src/authnz/cloud/index.md)).
+    2. Securely authorize Galaxy to read/write to your cloud-based storage ([read how](/authnz/cloud/)).
     
 * **Securely access cloud-based storage**
 
@@ -47,7 +47,7 @@ In general, to use this API, `POST` a payload with following fields to `/api/clo
 | key          | required | description |
 |--------------|----------|-------------|
 | `history_id` | ✔        | The ID of a `history` to which data should be copied from cloud. |
-| `authz_id`   | ✔        | The ID of a cloud authorization record to be used to _read_ data from cloud. (see [this page](/src/authnz/cloud/index.md))|
+| `authz_id`   | ✔        | The ID of a cloud authorization record to be used to _read_ data from cloud. (see [this page](/authnz/cloud/))|
 | `bucket`     | ✔        | The name of a bucket from which data should be read. |
 | `objects`    | ✔        | A list of objects from the `bucket` that should be copied to Galaxy. |
 
@@ -67,7 +67,7 @@ A sample payload:
 }
 ```
 
-[Read this page](/src/cloud/storage/get_step_by_step/index.md) for step-by-step description on how to use this API.
+[Read this page](/cloud/storage/get_step_by_step/) for step-by-step description on how to use this API.
     
 
 ## `Send` Data to Cloud
@@ -81,7 +81,7 @@ In general, to use this API, `POST` a payload with the following fields `/api/cl
 | key                  | required | description |
 |----------------------|----------|-------------|
 | `history_id`         | ✔        | The ID of a `history` from which data should be copied to cloud.|
-| `authz_id`           | ✔        | The ID of a cloud authorization record to be used to _write_ data to cloud. (see [this page](/src/authnz/cloud/index.md))            |
+| `authz_id`           | ✔        | The ID of a cloud authorization record to be used to _write_ data to cloud. (see [this page](/authnz/cloud/))            |
 | `bucket`             | ✔        | The name of a bucket to which data should be written.|
 | `dataset_ids`        |          | A list of encoded dataset IDs belonging to the specified history that should be sent to the given bucket. If not provided, Galaxy sends all the datasets belonging the specified history.|
 | `overwrite_existing` |          | A boolean value. If set to "True", and an object with same name of the dataset to be sent already exist in the bucket, Galaxy replaces the existing object with the dataset to be sent. If set to "False", Galaxy appends datetime to the dataset name to prevent overwriting an existing object.            |
@@ -110,5 +110,5 @@ Or:
 }
 ```
 
-[Read this page](/src/cloud/storage/send_step_by_step/index.md) for step-by-step description on how to use this API.
+[Read this page](/cloud/storage/send_step_by_step/) for step-by-step description on how to use this API.
 

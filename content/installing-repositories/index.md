@@ -5,13 +5,13 @@ title: Installing Repositories
 
 
 
-[Installing repositories into Galaxy](/src/toolshed/installing-repositories-to-galaxy/index.md)
+[Installing repositories into Galaxy](/toolshed/installing-repositories-to-galaxy/)
 
 [Installing repositories that define simple repository dependency relationships](/installing-simple-repository-dependencies/)
 
 [Installing repositories that define complex repository dependency relationships](/installing-complex-repository-dependencies/)
 
-[Installing repositories that contain tools migrated from the Galaxy code distribution to the main Galaxy Tool Shed](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md)
+[Installing repositories that contain tools migrated from the Galaxy code distribution to the main Galaxy Tool Shed](/toolshed/migrating-tools-from-galaxy-distribution/)
 
 [Installing tool dependency packages along with Galaxy tools](/installing-tool-dependency-packages/)
 

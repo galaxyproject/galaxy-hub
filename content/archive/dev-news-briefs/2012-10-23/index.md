@@ -5,7 +5,7 @@ date: 2012-10-23
 
 # Get Galaxy
 
-*** Upgrade NOW for an Important [Security Fix](/src/archive/dev-news-briefs/2012-10-23/index.md#compute-tool-security-fix) ***
+*** Upgrade NOW for an Important [Security Fix](/archive/dev-news-briefs/2012-10-23/#compute-tool-security-fix) ***
 
 <table>
   <tr>
@@ -31,13 +31,13 @@ Administrators are always encouraged to install the latest release not only to i
 
 We also intend to learn from recent actions in these areas that fell short of a best effort. The security corrections and priority of the changes to the `Compute` tool in the prior distribution lacked the details and urgency notice it deserved. The move from *Bitbucket* to *[Trello](/issues/)* for community collaboration in issue reporting also lacked the information and timely documentation that would have made the transition processes smoother. Both are covered in more detail in this News Brief. Our goals are to provide a remedy for the immediate issues and to create a successful communications and collaborations model for the future. We value your feedback - please let us know how we are doing as the new tools are put into practice.  
 
-1. **[Compute Tool Security Fix](/src/archive/dev-news-briefs/2012-10-23/index.md#compute-tool-security-fix)**
-2. **[New Trello Issue Board](/src/archive/dev-news-briefs/2012-10-23/index.md#new-trello-issue-board)**
+1. **[Compute Tool Security Fix](/archive/dev-news-briefs/2012-10-23/#compute-tool-security-fix)**
+2. **[New Trello Issue Board](/archive/dev-news-briefs/2012-10-23/#new-trello-issue-board)**
 
 <br />
 # Compute Tool Security Fix
 
-***This distribution and the previous distribution, [October 5, 2012](/src/archive/dev-news-briefs/2012-10-05/index.md#security-fixes), fix a significant security hole in Galaxy's "Compute" tool. Upgrade or patch NOW. ***
+***This distribution and the previous distribution, [October 5, 2012](/archive/dev-news-briefs/2012-10-05/#security-fixes), fix a significant security hole in Galaxy's "Compute" tool. Upgrade or patch NOW. ***
 
 The **Compute** columns tool allowed arbitrary execution of python code entered into the input text field by a user.  It has been modified to only allow safe operators and functions.  Administrators are strongly urged to apply this update for security purposes, or to manually apply/patch these changesets:
 ```
@@ -115,7 +115,7 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 <br />
 # Tools
 
-[Tool Dependencies](/src/admin/tools/ToolDependencies/index.md)
+[Tool Dependencies](/admin/tools/ToolDependencies/)
 
 1. Add *interpreter* and *absolute path logic* to **version tag**; thanks to [Björn Grüning](http://bitbucket.org/BjoernGruening).
 2. **Tool search**: remove **[Whoosh](http://packages.python.org/Whoosh/)** handling for **[Python version 2.4](http://www.python.org/)** and remove *minscore*.
@@ -213,7 +213,7 @@ Detail view of center panel:
 <br />
 # Announcements
 
-[News](/news/), *[October 2012 Galaxy Update](/src/galaxy-updates/2012-10/index.md)*
+[News](/news/), *[October 2012 Galaxy Update](/galaxy-updates/2012-10/)*
 
 <br />
 ----

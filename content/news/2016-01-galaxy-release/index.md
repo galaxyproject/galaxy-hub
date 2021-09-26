@@ -34,7 +34,7 @@ Workflows may now run other workflows as a single abstract step in the parent wo
     <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.01</code> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none;"> See the <a href='/src/admin/get-galaxy/index.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
+    <td colspan=3 style=" border: none;"> See the <a href='/admin/get-galaxy/'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
   </tr>
 </table>
 

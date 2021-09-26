@@ -18,7 +18,7 @@ title: Galaxy @ Caltech March 5, 2013
 * **Reproducible:** Galaxy captures information so that any user can repeat and understand a complete computational analysis.
 * **Transparent:** Users share and publish analyses via the web and create Pages, interactive, web-based documents that describe a complete analysis.
 
-There will be two Galaxy-related events on the Caltech Campus on March 5, 2013: a [Galaxy for Biologists Workshop](/src/events/caltech2013/index.md#workshop-galaxy-for-biologists) in the morning, and a [discussion on Galaxy Development](/src/events/caltech2013/index.md#discussion-galaxy-for-developers) in the afternoon.
+There will be two Galaxy-related events on the Caltech Campus on March 5, 2013: a [Galaxy for Biologists Workshop](/events/caltech2013/#workshop-galaxy-for-biologists) in the morning, and a [discussion on Galaxy Development](/events/caltech2013/#discussion-galaxy-for-developers) in the afternoon.
 <br />
 
 ## Workshop: Galaxy for Biologists

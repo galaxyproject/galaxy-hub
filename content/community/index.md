@@ -19,9 +19,9 @@ In 2010 the National Science Foundation initiated a yearly gathering of Galaxy u
 
 # Working Groups and Project Governance
 
-[Galaxy Working Groups](/src/community/wg/index.md) are how the community manages and contributes to key parts of the Galaxy ecosystem.  Working Groups were introduced in December 2020.  If you want to get involved with Galaxy in a significant way then we recommend joining a working group.
+[Galaxy Working Groups](/community/wg/) are how the community manages and contributes to key parts of the Galaxy ecosystem.  Working Groups were introduced in December 2020.  If you want to get involved with Galaxy in a significant way then we recommend joining a working group.
 
-*Working Groups are a key component of the [Galaxy Governance Model](/src/community/governance/index.md), which also includes the [Galaxy Steering Committee](/src/community/steering/index.md) and the [Galaxy Exec](/src/community/exec/index.md).*
+*Working Groups are a key component of the [Galaxy Governance Model](/community/governance/), which also includes the [Galaxy Steering Committee](/community/steering/) and the [Galaxy Exec](/community/exec/).*
 
 # IUC: Keepers of Galaxy Tools
 
@@ -65,7 +65,7 @@ The [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) is a [n
 
 <img class="float-right" style="max-width: 8rem;" src="/src/images/galaxy-logos/galaxy-developer-roundtable-300.png" alt="Galaxy Developer Round Table" />
 
-[This group](/src/community/devroundtable/index.md) meets every other Thursday.  It's an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively.  These are lightweight and informal gatherings, and are cancelled if no one volunteers to present.
+[This group](/community/devroundtable/) meets every other Thursday.  It's an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively.  These are lightweight and informal gatherings, and are cancelled if no one volunteers to present.
 
 Anyone is welcome to attend. If you would like to present, please [fill out this form](https://bit.ly/gxdevroundtablepresent) by midday Wednesday of that week.
 
@@ -74,9 +74,9 @@ Anyone is welcome to attend. If you would like to present, please [fill out this
 
 | Region | Info | Links |
 |--------|------|-------|
-| [Arabic Community](/src/community/arabic/index.md) | The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world. | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxy_arabic) [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-arabic.lists.galaxyproject.org/) [<i class="fab fa-facebook-square" aria-hidden="true"></i>](http://bit.ly/2ek7fTh) |
+| [Arabic Community](/community/arabic/) | The Galaxy Arabic speaking community supports Galaxy activity for the Arabic speaking community and Arabic speaking regions of the world. | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxy_arabic) [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-arabic.lists.galaxyproject.org/) [<i class="fab fa-facebook-square" aria-hidden="true"></i>](http://bit.ly/2ek7fTh) |
 | Australia | Australian Galaxy community | [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/galaxyaustralia) [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://usegalaxy.org.au/) |
-| [Czech](/src/community/czech/index.md) | Česká komunita Galaxy / Czech Galaxy Community | [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-czech.lists.galaxyproject.org/) |
+| [Czech](/community/czech/) | Česká komunita Galaxy / Czech Galaxy Community | [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/galaxy-czech.lists.galaxyproject.org/) |
 | Europe | [ELIXIR Galaxy Community](https://elixir-europe.org/communities/galaxy) <br /> [Galaxy Europe](https://galaxyproject.eu/) | [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://elixir-europe.org/communities/galaxy) <br /> [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://galaxyproject.eu/) [<i class="fab fa-gitter" aria-hidden="true"></i>](https://gitter.im/usegalaxy-eu) |
 | France | Galaxy in the French Speaking World | [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://community.france-bioinformatique.fr/c/galaxy/8) |
 | India | [Indian Galaxy Community](https://www.galaxyproject.in/) | [<i class="fa fa-external-link-alt" aria-hidden="true"></i>](https://www.galaxyproject.in/) [<i class="fab fa-whatsapp" aria-hidden="true"></i>](https://chat.whatsapp.com/CCXT7t97ZX5D3MiD7MVmun) [<i class="fab fa-whatsapp" aria-hidden="true"></i>](https://chat.whatsapp.com/LYAWg6Yah1i4QbMU0sktqB) [<i class="fab fa-gitter" aria-hidden="true"></i>](https://gitter.im/usegalaxy-in/adda) [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/GxyIndia) [<i class="fab fa-twitter" aria-hidden="true"></i>](http://twitter.com/useGalaxyIndia) [<i class="fab fa-github" aria-hidden="true"></i>](https://github.com/usegalaxy-in/) [<i class="fa fa-envelope" aria-hidden="true"></i>](https://lists.galaxyproject.org/lists/india.lists.galaxyproject.org/) |

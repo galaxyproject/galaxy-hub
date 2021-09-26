@@ -4,7 +4,7 @@ date: 2015-03-01
 ---
 [All News Briefs](/docs/)
 <br />
-[Galaxy March Release Summary](/src/news/2015-03-galaxy-release/index.md)
+[Galaxy March Release Summary](/news/2015-03-galaxy-release/)
 <br />
 
 <div class='left'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
@@ -68,7 +68,7 @@ Thus, if you would like to upgrade to the 15.03 release and ensure you do not su
 
 Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolsehd) and many are ready for use on Galaxy [Main](/main/). Older Workflows may contain tools that automatically map to the new tools or Workflows may need minor adjustments. [c6Lkejro](https://trello.com/c/c6Lkejro) 
 
-Be sure to check out the new [Galaxy NGS 101](/src/learn/galaxy-ngs101/index.md) wiki (in progress). 
+Be sure to check out the new [Galaxy NGS 101](/learn/galaxy-ngs101/) wiki (in progress). 
 
 # Github
 
@@ -195,7 +195,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 
 # News and Community
 
-* **[GCC 2015](http://gcc2015.tsl.ac.uk/)** has opened [Abstract Submissions](/src/news/gcc2015-abstract-submission-open/index.md). 
+* **[GCC 2015](http://gcc2015.tsl.ac.uk/)** has opened [Abstract Submissions](/news/gcc2015-abstract-submission-open/). 
 * Two Hackathons are now scheduled to occur *before* and *during* GCC 2015. 
   * [GCC2015 Coding Hackathon](http://gcc2015.tsl.ac.uk/organisers/hackathon)
   * New! [GCC2015 Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/organisers/data-hackathon)
@@ -225,4 +225,4 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 # About Galaxy
 
 <div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/galaxy-project/) • [Admin](/admin/) • [Issues](/issues/) • [Big Picture](/galaxy-project/) • [Community](/community/) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/cloudman/) • [Tool Shed](/toolshed/) • [Develop](/develop/) • [News Briefs](/docs/) • [Servers](/use/) • [Learn](/learn/) • [Support](/support/) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/news/) • [Twitter](/galaxy-on-twitter/) • [Events](/events/) • [Teach](/teach/) • [Cite](/citing-galaxy/) • [Galaxy Team](/galaxy-team/)
+**[About Galaxy](/support/about-galaxy/)** • [Galaxy Project](/galaxy-project/) • [Admin](/admin/) • [Issues](/issues/) • [Big Picture](/galaxy-project/) • [Community](/community/) • [Get Galaxy](/admin/get-galaxy/) • [CloudMan](/cloudman/) • [Tool Shed](/toolshed/) • [Develop](/develop/) • [News Briefs](/docs/) • [Servers](/use/) • [Learn](/learn/) • [Support](/support/) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/news/) • [Twitter](/galaxy-on-twitter/) • [Events](/events/) • [Teach](/teach/) • [Cite](/citing-galaxy/) • [Galaxy Team](/galaxy-team/)

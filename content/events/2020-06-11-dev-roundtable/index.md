@@ -16,4 +16,4 @@ contact: "Mason Houtz"
 
 ---
 
-The [Galaxy Developer Roundatble](/src/community/devroundtable/index.md) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively. 
+The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively. 

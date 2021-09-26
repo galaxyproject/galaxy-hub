@@ -14,6 +14,6 @@ You can take a look at the current members of the core project [team](/galaxy-te
 * [Citing Galaxy](/citing-galaxy/)
 * [News](/news/)
 * [Events](/events/)
-* [Project Statistics](/src/galaxy-project/statistics/index.md)
+* [Project Statistics](/galaxy-project/statistics/)
 
 Major funding for the Galaxy Project is provided by [NIH Grant 2U41HG006620](https://projectreporter.nih.gov/project_info_description.cfm?aid=8998830&icde=0).

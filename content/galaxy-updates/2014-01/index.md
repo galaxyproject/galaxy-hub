@@ -13,7 +13,7 @@ December saw the launch of two *[Galaxy community hubs](/community/)* - one to d
 
 <div class='left'><a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
 
-The *[Galaxy Community Log Board](/blog/)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/src/blog/2013-04-urgi-virtualisation/index.md), or specific stumbling blocks when configuring Galaxy.  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
+The *[Galaxy Community Log Board](/blog/)* is a place to share how you addressed a particular task in your Galaxy deployment.  Log entries describe specific solutions to particular tasks, such as the [details of what steps were taken to deploy Galaxy on particular platforms](/blog/2013-04-urgi-virtualisation/), or specific stumbling blocks when configuring Galaxy.  Log entries are an easy way to help others (and learn from others) by sharing what you've already done.  If you have figured out or documented how to do something, then this is the ideal forum for sharing that information with the community.
 
 <div class='left'>
 <table>
@@ -27,7 +27,7 @@ The *[Galaxy Community Log Board](/blog/)* is a place to share how you addressed
 
 </div>
 
-The [Galaxy Community Log Board](/blog/) describes how things can be done, and it complements the (also [recently announced](/src/news/galaxy-deployment-catalog/index.md)) *Galaxy Deployments Catalog*, which describes different Galaxy installations.  Both the [Log Board](/blog/) and the Deployments Catalog came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/src/events/gcc2013/bof/galaxy-admins/index.md).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/blog/).
+The [Galaxy Community Log Board](/blog/) describes how things can be done, and it complements the (also [recently announced](/news/galaxy-deployment-catalog/)) *Galaxy Deployments Catalog*, which describes different Galaxy installations.  Both the [Log Board](/blog/) and the Deployments Catalog came out of discussions at the [GCC2013 GalaxyAdmins Birds-of-a-Feather gathering](/events/gcc2013/bof/galaxy-admins/).  Thanks to everyone who attended that BoF and to everyone who taken the time to [log their experiences so far](/blog/).
 
 ## Galaxy Deployment Catalog
 
@@ -56,7 +56,7 @@ If you have a Galaxy deployment then please take a few minutes to describe your 
 <div class='right'>
 <table>
   <tr>
-    <td colspan=2 style=" text-align: center; border: none;"> <span style="font-size: larger;"> <strong><a href='/src/events/archive/index.md'>2013 Events</a></strong> </span> </td>
+    <td colspan=2 style=" text-align: center; border: none;"> <span style="font-size: larger;"> <strong><a href='/events/archive/'>2013 Events</a></strong> </span> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 200+ </th>
@@ -78,9 +78,9 @@ If you have a Galaxy deployment then please take a few minutes to describe your 
 
 </div>
 
-The [Galaxy Events](/events/) for 2013 have been moved to the [Events Archive](/src/events/archive/index.md), where they can still be accessed.  There are 160 items in the 2013 Events list.  That count *goes well over 200 items* if you follow some links and include the 13 talks at [Galaxy Day](/src/news/galaxy-day2013-report/index.md); and all the talks (25), posters (26), lightning talks (19) and Training Day Sessions (15) at [GCC2013](/src/events/gcc2013/index.md); and the 20+ items [at ISMB 2013](/src/events/ismb2013/index.md); and ...  Furthermore, *at least 3/4 of those items were presented by people outside the core Galaxy Team.*  
+The [Galaxy Events](/events/) for 2013 have been moved to the [Events Archive](/events/archive/), where they can still be accessed.  There are 160 items in the 2013 Events list.  That count *goes well over 200 items* if you follow some links and include the 13 talks at [Galaxy Day](/news/galaxy-day2013-report/); and all the talks (25), posters (26), lightning talks (19) and Training Day Sessions (15) at [GCC2013](/events/gcc2013/); and the 20+ items [at ISMB 2013](/events/ismb2013/); and ...  Furthermore, *at least 3/4 of those items were presented by people outside the core Galaxy Team.*  
 
-While those numbers are just plain cool, the really useful bit is that there are slides, exercises, and videos for over 4/5 of those presentation.  If you have a question about Galaxy, chances are someone talked about it in 2013, *and that you can find their slides in the [Events Archive](/src/events/archive/index.md).*
+While those numbers are just plain cool, the really useful bit is that there are slides, exercises, and videos for over 4/5 of those presentation.  If you have a question about Galaxy, chances are someone talked about it in 2013, *and that you can find their slides in the [Events Archive](/events/archive/).*
 
 Many, many thanks to everyone who talked about Galaxy last year and for making their material available online.
 
@@ -161,7 +161,7 @@ The Galaxy is expanding! Please help it grow.
 * [Stage Master2](http://bit.ly/1hQIpTZ) "Annotation du transcriptome de l’esturgeon" Bordeaux, France 
 * [Informatics Software Support Specialist](http://bit.ly/1cdfOpr) at the University of Minnesota, United States 
 * [CDD Gif-sur-Yvette NGS et Variation Structurales UMR de Génétique Végétale](http://bit.ly/1exDipD), INRA-Université Paris Sud-CNRS 
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**, *including positions at George Washington University*.
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -172,17 +172,17 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-<div class='right'><a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2014/'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="150" /></a></div>
 
-The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
+The [2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/) will be held June 30 through July 2, at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.
 
 ### Training Day Topic Voting, January 6-17
 
-GCC2014 will start with a [Training Day](/src/events/gcc2014/training-day/index.md) on June 30.  As for [GCC2013](/src/news/gcc2013-training-day-nominations/index.md), the specific topics offered will be determined by you, the Galaxy Community.  Topic nomination was open December 2 through December 20.  The organizers are now collating the nominations into a single list that the community (yes, that means you) will vote on these topics January 6-17.  The final schedule of topics and instructors will be published no later than February 10, when registration opens.
+GCC2014 will start with a [Training Day](/events/gcc2014/training-day/) on June 30.  As for [GCC2013](/news/gcc2013-training-day-nominations/), the specific topics offered will be determined by you, the Galaxy Community.  Topic nomination was open December 2 through December 20.  The organizers are now collating the nominations into a single list that the community (yes, that means you) will vote on these topics January 6-17.  The final schedule of topics and instructors will be published no later than February 10, when registration opens.
 
 Watch the [Galaxy Mailing Lists](/mailing-lists/) for announcements and links to the voting form.
 
-*[Training Day](/src/events/gcc2014/training-day/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
+*[Training Day](/events/gcc2014/training-day/)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
 
 <div class='right'><br /><br /><a href='http://www.sgi.com/solutions/genomics/'><img src="/src/images/logos/SGILogo400.jpg" alt="SGI" width="120" /></a></div>
 
@@ -191,11 +191,11 @@ Watch the [Galaxy Mailing Lists](/mailing-lists/) for announcements and links to
 <div class='left'><a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="200" /></a><br />
 </div>
  
-We are pleased to announce several new [sponsorships](/src/events/gcc2014/sponsor-exhibit/index.md) for GCC2014.  First, [EMC Isilon](http://www.emc.com/isilon) will be a Gold Sponsor for the third year in a row, and  [SGI](http://www.sgi.com/) will a [Gold Sponsor](/src/events/gcc2014/sponsor-exhibit/index.md) for the first time.
+We are pleased to announce several new [sponsorships](/events/gcc2014/sponsor-exhibit/) for GCC2014.  First, [EMC Isilon](http://www.emc.com/isilon) will be a Gold Sponsor for the third year in a row, and  [SGI](http://www.sgi.com/) will a [Gold Sponsor](/events/gcc2014/sponsor-exhibit/) for the first time.
 
 <br />
 
-Also please welcome three new [Silver Sponsors](/src/events/gcc2014/sponsor-exhibit/index.md):
+Also please welcome three new [Silver Sponsors](/events/gcc2014/sponsor-exhibit/):
 * [Globus Genomics](http://globus.org/genomics), for the 3rd year
 * [GigaScience Journal](http://www.gigasciencejournal.com/) and [BioMed Central](http://www.biomedcentral.com/), for the 2nd year
 * [ABgenomica](http://www.abgenomica.com/), for the first time.
@@ -211,18 +211,18 @@ Also please welcome three new [Silver Sponsors](/src/events/gcc2014/sponsor-exhi
 </table>
 
 
-The Platinum, Gold and Silver sponsors will have exhibit booths at the event.  There are still [Silver and Bronze sponsorships](/src/events/gcc2014/sponsor-exhibit/index.md) still available. Please contact the [Organizers](/src/events/gcc2014/organizers/index.md) if your organization would like to help sponsor this event. 
+The Platinum, Gold and Silver sponsors will have exhibit booths at the event.  There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) still available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event. 
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/src/events/gcc2014/sponsor-exhibit/index.md#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/src/events/gcc2014/organizers/index.md) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014. 
 
 
 ## 2013 Galaxy Day Report
 
 <div class='right'><a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'><img src="/src/images/logos/GalaxyIFB.png" alt="Galaxy Day" width="150" /></a></div>
 
-The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) took place at Institut Curie in Paris, 4 December.  Program and slides for all presentations are [available online](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil).  A [meeting summary is also available](/src/news/galaxy-day2013-report/index.md).
+The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) took place at Institut Curie in Paris, 4 December.  Program and slides for all presentations are [available online](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil).  A [meeting summary is also available](/news/galaxy-day2013-report/).
 
 
 ## Other Events
@@ -232,7 +232,7 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
 <br />
 
 <div class='center'> 
-<a href='/src/events/pag-gmod-2014/index.md'><img src="/src/images/logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2014)" height="80" /></a>
+<a href='/events/pag-gmod-2014/'><img src="/src/images/logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2014)" height="80" /></a>
 <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src="/src/images/logos/GMOD2014.png" alt="2014 GMOD Meeting" height="70" /></a> &nbsp;
 <a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'><img src="/src/images/logos/SupAgroMontpelierLogo.jpg" alt="Analyse Bioinformatique de séquences pour l'amélioration des plantes" height="60" /></a>
 <a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-et-ChIP-seq-sequencage-haut-debit--a-l-aide-d-outils-orientes-vers-un-public-de-biologistes_a39.html'><img src="/src/images/logos/PRABILogo.png" alt="RNA-Seq & ChIP-Seq analysis course using Galaxy" height="60" /></a>
@@ -249,7 +249,7 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
   <tr>
     <th rowspan=3> January 11-15 </th>
     <td> <em><a href='https://pag.confex.com/pag/xxii/webprogram/Session2298.html'>Galaxy for NGS Data Analysis: A Hands-on Computer Demo</a></em> </td>
-    <td rowspan=3> <strong><a href='/src/events/pag-gmod-2014/index.md'>Plant and Animal Genome XXII (PAG 2014)</a></strong>, San Diego, California, United States </td>
+    <td rowspan=3> <strong><a href='/events/pag-gmod-2014/'>Plant and Animal Genome XXII (PAG 2014)</a></strong>, San Diego, California, United States </td>
     <td rowspan=1> <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a> </td>
   </tr>
   <tr>
@@ -257,8 +257,8 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
     <td rowspan=1> <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://gmod.org/wiki/User:Scott'>Scott Cain</a> </td>
   </tr>
   <tr>
-    <td> Plus <a href='/src/events/pag-gmod-2014/index.md'>2 more talks and 4 posters</a> </td>
-    <td> See <a href='/src/events/pag-gmod-2014/index.md'>list</a> </td>
+    <td> Plus <a href='/events/pag-gmod-2014/'>2 more talks and 4 posters</a> </td>
+    <td> See <a href='/events/pag-gmod-2014/'>list</a> </td>
   </tr>
   <tr>
     <th> January 16-17 </th>
@@ -322,9 +322,9 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
   </tr>
   <tr>
     <th> June 30 - July 2 </th>
-    <td> <strong><a href='/src/events/gcc2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
+    <td> <strong><a href='/events/gcc2014/'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
     <td> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/src/events/gcc2014/organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/events/gcc2014/organizers/'>Organizers</a> </td>
   </tr>
 </table>
 
@@ -350,9 +350,9 @@ See "[CAPER 2.0: An Interactive, Configurable, and Extensible Workflow-Based Pla
 
 # Galaxy Distributions
 
-The [most recent Galaxy Distribution was November 04, 2013](/src/archive/dev-news-briefs/2013-11-04/index.md).
+The [most recent Galaxy Distribution was November 04, 2013](/archive/dev-news-briefs/2013-11-04/).
 
-The latest version of [CloudMan](/cloudman/) was [released in July](/src/news/cloudman-release/index.md).
+The latest version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-release/).
 
 <br />
 
@@ -374,6 +374,6 @@ The latest version of [CloudMan](/cloudman/) was [released in July](/src/news/cl
 # Other News
 
 * Take the [ABRF DNA Sequencing Research Group survey](http://svy.mk/1cclCfs) on nucleic acid quantification methods & best practices 
-* The first 30 minutes of the "[Galaxy Code and Storage Architecture](/src/events/gcc2013/training-day/index.md#galaxy-code-and-storage-architecture)" [GCC2013 Training Day](/src/events/gcc2013/training-day/index.md) session is now on  [Vimeo](https://vimeo.com/82179199) and [YouTube](http://youtu.be/kphYnONMOP8).  Thanks to [Samuel Lampa](http://saml.rilspace.org/blogs/samuel-lampa) for recording and making this available.
+* The first 30 minutes of the "[Galaxy Code and Storage Architecture](/events/gcc2013/training-day/#galaxy-code-and-storage-architecture)" [GCC2013 Training Day](/events/gcc2013/training-day/) session is now on  [Vimeo](https://vimeo.com/82179199) and [YouTube](http://youtu.be/kphYnONMOP8).  Thanks to [Samuel Lampa](http://saml.rilspace.org/blogs/samuel-lampa) for recording and making this available.
 * [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) is looking into running a GMOD workshop in Malaysia, February 26-28 -- please email help@gmod.org if you're interested in attending.
 * Aussie researchers can now launch their own Galaxy instance on Nectar. See the guide at the [Genome Virtual Lab](http://genome.edu.au/wiki/Get)

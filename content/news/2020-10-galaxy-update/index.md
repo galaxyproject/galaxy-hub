@@ -31,9 +31,9 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <!-- JTech -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/jxtx/cshl_jtech.png" alt="JTech Scholarships" />
-<div class="card-header">[First JTech Scholarships Awarded](/src/news/2020-09-jtech-scholarships/index.md)</div>
+<div class="card-header">[First JTech Scholarships Awarded](/news/2020-09-jtech-scholarships/)</div>
 
-The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scholarships/index.md) by the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to attend [Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20).
+The [first group of scholarships have been awarded](/news/2020-09-jtech-scholarships/) by the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to attend [Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20).
 
 **Please consider [making a donation to JTech](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to support James Taylor’s legacy.**
 </div>
@@ -64,19 +64,19 @@ Two more workshops in October in Jouy-en-Josas and in French.
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md
+<div class="card-header">[Galaxy Developer Roundtable](/community/devroundtable/
 )</div>
 
-The next two [roundtables](/src/community/devroundtable/index.md) are [October 15](/src/events/2020-10-15-dev-roundtable/index.md) and [October 29](/src/events/2020-10-29-dev-roundtable/index.md).  Both events need speakers ([that means you](https://bit.ly/gxdevroundtablepresent)!).
+The next two [roundtables](/community/devroundtable/) are [October 15](/events/2020-10-15-dev-roundtable/) and [October 29](/events/2020-10-29-dev-roundtable/).  Both events need speakers ([that means you](https://bit.ly/gxdevroundtablepresent)!).
 </div>
 
 
 <!-- eResearch Down Under -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2020-10-eresearch-australasia/eresearch-australasia-logo.png" alt="eResearch Australasia" />
-<div class="card-header">[eResearch Australasia](/src/events/2020-10-eresearch-australasia/index.md)</div>
+<div class="card-header">[eResearch Australasia](/events/2020-10-eresearch-australasia/)</div>
 
-Galaxy [is featured in talks, a BoF, and a poster](/src/events/2020-10-eresearch-australasia/index.md) at the virtual [eResearch Australasia](https://conference.eresearch.edu.au/) this month.  Learn more about [Galaxy Australia](https://usegalaxy.org.au/) and how Galaxy support research at CSIRO.
+Galaxy [is featured in talks, a BoF, and a poster](/events/2020-10-eresearch-australasia/) at the virtual [eResearch Australasia](https://conference.eresearch.edu.au/) this month.  Learn more about [Galaxy Australia](https://usegalaxy.org.au/) and how Galaxy support research at CSIRO.
 </div>
 
 
@@ -104,9 +104,9 @@ There will be a session on [GWAS Analysis with Galaxy on the Analysis Visualizat
 <!-- BioHackathon-Europe -->
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/bhlogo.png" alt="BioHackathon Europe" />
-<div class="card-header">[Galaxy @ BioHackathon Europe 2020](/src/events/2020-11-biohackathon-europe/index.md)</div>
+<div class="card-header">[Galaxy @ BioHackathon Europe 2020](/events/2020-11-biohackathon-europe/)</div>
 
-Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/src/events/2020-11-biohackathon-europe/index.md), being held online, 9-13 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
+Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/events/2020-11-biohackathon-europe/), being held online, 9-13 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
 </div>
 
 
@@ -131,7 +131,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <!-- BRIDGE -->
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[BRIDGE](/src/use/bridge/index.md)</div>
+<div class="card-header">[BRIDGE](/use/bridge/)</div>
 
 <img class="card-img-top" src="/src/use/bridge/bridge-slice-500.png" alt="BRIDGE" />
 
@@ -141,7 +141,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <!-- BioCompute Object -->
 <div class="card border-info"  style="min-width: 11em;">
-<div class="card-header">[BioCompute Object](/src/use/biocompute-object/index.md)</div>
+<div class="card-header">[BioCompute Object](/use/biocompute-object/)</div>
 
 <img class="card-img-top" src="/src/use/biocompute-object/biocompute-objects-logo-wide.png" alt="BioCompute Objects" />
 
@@ -161,7 +161,7 @@ The [24 September IFB newsletter highlights 10 Galaxy resources](http://eepurl.c
 
 <!-- PhagePromoter -->
 <div class="card border-info"  style="min-width: 11rem;">
-<div class="card-header">[PhagePromoter](/src/use/phagepromoter/index.md)</div>
+<div class="card-header">[PhagePromoter](/use/phagepromoter/)</div>
 
 <img class="card-img-top" src="/src/use/phagepromoter/cbe-logo.png" alt="Centre of Biological Engineering" />
 
@@ -224,7 +224,7 @@ Two funding opportunities are now open within the EU project [EOSC-Life](https:/
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[refgenie for Local Instances](/src/admin/refgenie/index.md)</div>
+<div class="card-header">[refgenie for Local Instances](/admin/refgenie/)</div>
 
 By [Dan Blankenberg](/people/dan/).
 
@@ -237,7 +237,7 @@ How to use **[refgenie](http://refgenie.databio.org/)** with your local instance
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway. 
+Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway. 
 
 <div class="card-deck">
 

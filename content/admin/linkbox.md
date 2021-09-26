@@ -4,15 +4,15 @@
 
 ---
 
-[Get Galaxy](/src/admin/get-galaxy/index.md)  
-[Config](/src/admin/config/index.md)  
+[Get Galaxy](/admin/get-galaxy/)  
+[Config](/admin/config/)  
 [Tool Shed](/toolshed/)  
-[Data Libs](/src/admin/data-libraries/index.md)  
-[Datatypes](/src/admin/datatypes/index.md)  
+[Data Libs](/admin/data-libraries/)  
+[Datatypes](/admin/datatypes/)  
 [Develop](/develop/)  
-[Quotas](/src/admin/disk-quotas/index.md)  
-[FAQ](/src/admin/faq/index.md)  
-[Tutorials](/src/admin/training/index.md)  
+[Quotas](/admin/disk-quotas/)  
+[FAQ](/admin/faq/)  
+[Tutorials](/admin/training/)  
 [CloudMan](/cloudman/)  
 
 </div>

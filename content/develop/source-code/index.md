@@ -2,7 +2,7 @@
 title: Source code of Galaxy
 ---
 
-Galaxy is an open source software under [AFL 3.0](/src/admin/license/index.md) license.
+Galaxy is an open source software under [AFL 3.0](/admin/license/) license.
 
 The source code is publicly available and [hosted at GitHub](https://github.com/galaxyproject/galaxy). If you need help getting started, the [GitHub Git tutorial](https://try.github.io/) is a good place.
 

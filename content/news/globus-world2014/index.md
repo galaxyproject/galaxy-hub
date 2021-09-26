@@ -11,6 +11,6 @@ date: "2014-03-28"
 * *Globus Genomics: A Medical Center's Bioinformatics Core Perspective*, by Anoop Mayampurath
 * *Building a Low-budget Public Resource for Large-scale Proteomic Analyses*, by Rama Raghavan
 
-[Globus Genomics](/cloud/#globus-genomics) is a Globus and Galaxy based platform for genomic analysis.  [GlobusWorld](http://www.globusworld.org/) is being held April 15-17, in Chicago.    And, [GCC2014](/src/events/gcc2014/index.md) is a Silver Sponsor of [GlobusWorld](http://www.globusworld.org/).
+[Globus Genomics](/cloud/#globus-genomics) is a Globus and Galaxy based platform for genomic analysis.  [GlobusWorld](http://www.globusworld.org/) is being held April 15-17, in Chicago.    And, [GCC2014](/events/gcc2014/) is a Silver Sponsor of [GlobusWorld](http://www.globusworld.org/).
 
 [Ravi Madduri](http://www.mcs.anl.gov/person/ravi-madduri)

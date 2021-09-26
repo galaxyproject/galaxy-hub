@@ -16,9 +16,9 @@ date: 2012-07-20
 <br />
 # GCC2012
 
-<div class='center'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" height="100" /></a></div>
+<div class='center'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='/events/gcc2012/training-day/'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" height="100" /></a></div>
 
-The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) is a few short days away. Late registration is still open.
+The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) is a few short days away. Late registration is still open.
 
 <br />
 # FreeBayes Migration
@@ -36,7 +36,7 @@ The `emboss_5` repository in the Galaxy Main Tool Shed has been updated to inclu
 <br />
 # Admin Genome Indexing
 
-If `enable_beta_job_managers = True`, Galaxy will now show a *new option* in the admin interface, titled **Manage Local Data**. With this tool, a Galaxy admin will be able to select and download any genome already contained with the local `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file sourced from UCSC, NCBI, or Ensembl, optionally indexing the FASTA data with one or more of BWA, Bowtie, Bowtie 2, PerM, Picard, and SAM. After these processes finish, the indexed build will then be available for other tools in the analysis section. This does not replace setting up a build.txt file ([read more ...](/src/admin/data-integration/index.md)). This would replace many of the manual indexing processes for commonly used tools ([read more...](/src/admin/NGS Local Setup/index.md)). Please this tool is still **beta**, feedback and bug reports welcome at galaxy-dev@bx.psu.edu for discussion. We will also touch on it during a breakout session at GCC (Day 2, Section 8, [Automation Strategies](/src/events/gcc2012/program/breakouts/automation-strategies/index.md)).
+If `enable_beta_job_managers = True`, Galaxy will now show a *new option* in the admin interface, titled **Manage Local Data**. With this tool, a Galaxy admin will be able to select and download any genome already contained with the local `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file sourced from UCSC, NCBI, or Ensembl, optionally indexing the FASTA data with one or more of BWA, Bowtie, Bowtie 2, PerM, Picard, and SAM. After these processes finish, the indexed build will then be available for other tools in the analysis section. This does not replace setting up a build.txt file ([read more ...](/admin/data-integration/)). This would replace many of the manual indexing processes for commonly used tools ([read more...](/src/admin/NGS Local Setup/index.md)). Please this tool is still **beta**, feedback and bug reports welcome at galaxy-dev@bx.psu.edu for discussion. We will also touch on it during a breakout session at GCC (Day 2, Section 8, [Automation Strategies](/events/gcc2012/program/breakouts/automation-strategies/)).
 
 Example of selecting a source, the indexes to create, and the target genome:
 ![](/src/images/news-graphics/2012_07_20_select.png)
@@ -52,7 +52,7 @@ And a global status of all indexes for all genomes in progress:
 
 Automatic third-party tool dependency installation and compilation with installed repositories
 
-Tool shed repository owners can define information in their repositories that enable third party tool dependencies to be automatically installed along with the repository for those repositories that contain tools that require the dependencies.  The process for enabling this is the inclusion of a simple xml file named tool_dependencies.xml in the repository. [Read more…](/src/toolshed/installing-and-compiling-packages/index.md)
+Tool shed repository owners can define information in their repositories that enable third party tool dependencies to be automatically installed along with the repository for those repositories that contain tools that require the dependencies.  The process for enabling this is the inclusion of a simple xml file named tool_dependencies.xml in the repository. [Read more…](/toolshed/installing-and-compiling-packages/)
 
 <br />
 # Improved Error Handling
@@ -62,7 +62,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 <br />
 # Tools
 
-[Admin/Config/Tool Dependencies](/src/admin/config/tool-dependencies/index.md)
+[Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/)
 * **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements: 
   * use **Bowtie2** build
   * add option to report discordant pairs
@@ -81,7 +81,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 <br />
 # Galaxy Track Browser (GTB)
 
-[Trackster](/src/learn/visualization/index.md)
+[Trackster](/learn/visualization/)
 * New parameter space visualization for Trackster
 * Make bookmarks available in shared Trackster visualizations
 
@@ -103,15 +103,15 @@ Several changes made in in determining errors from tool exit codes and output.  
 <br />
 # Announcements
 
-[News](/news/), *[July 2012 Galaxy Update](/src/galaxy-updates/2012-07/index.md)*
+[News](/news/), *[July 2012 Galaxy Update](/galaxy-updates/2012-07/)*
 ## Collaboration
 
-The new RGalaxy package in Bioconductor. [Read more …](/src/news/r-galaxy-wrap-r-functions-as-tools/index.md)
+The new RGalaxy package in Bioconductor. [Read more …](/news/r-galaxy-wrap-r-functions-as-tools/)
 <br />
 ## GalaxyCzars
 
-<div class='right'><a href='/src/community/GalaxyCzars/index.md'><img src="/src/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
-The [GalaxyCzars group](/src/community/GalaxyCzars/index.md) was launched and had its [first meetup on July 9](/src/community/GalaxyCzars/Meetups/2012-07-09/index.md).  GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/src/community/GalaxyCzars/Meetups/2012-07-09/index.md) for links to slides and a screencast. The GalaxyCzars will have a breakout at [GCC2012](/src/events/gcc2012/index.md), and the next conference call will follow in September.
+<div class='right'><a href='/community/GalaxyCzars/'><img src="/src/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
+The [GalaxyCzars group](/community/GalaxyCzars/) was launched and had its [first meetup on July 9](/community/GalaxyCzars/Meetups/2012-07-09/).  GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/community/GalaxyCzars/Meetups/2012-07-09/) for links to slides and a screencast. The GalaxyCzars will have a breakout at [GCC2012](/events/gcc2012/), and the next conference call will follow in September.
 <br />
 ## Galaxy is Hiring!
 

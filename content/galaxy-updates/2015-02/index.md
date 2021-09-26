@@ -92,7 +92,7 @@ The new papers were related to:
 
 <div class='left'><a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="170" /></a></div>
 
-The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/src/events/gcc2014/index.md) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
+The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/events/gcc2014/) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
 
 ### Early Registration opens in February
 
@@ -158,19 +158,19 @@ Please let the organisers know if you are interested in helping make this event 
 
 ## 19 February GalaxyAdmins Meetup
 
-<div class='left'><a href='/src/community/galaxy-admins/meetups/2015-02-19/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup February 19" width="150" /></a></div>
+<div class='left'><a href='/community/galaxy-admins/meetups/2015-02-19/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup February 19" width="150" /></a></div>
 
-The first [GalaxyAdmins](/src/community/galaxy-admins/index.md) [meetup of 2015](/src/community/galaxy-admins/meetups/2015-02-19/index.md) will happen online on Thursday, 19 February.  [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.
+The first [GalaxyAdmins](/community/galaxy-admins/) [meetup of 2015](/community/galaxy-admins/meetups/2015-02-19/) will happen online on Thursday, 19 February.  [GalaxyAdmins](/community/galaxy-admins/) is a special interest group for Galaxy community members who are responsible for Galaxy installations.
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/src/news/2014-questionnaire/index.md) will be presented by [Dave Clements](/people/dave-clements/), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/src/galaxy-team/), and   [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) will lead a short discussion on *[GalaxyAdmins](/src/community/galaxy-admins/) direction*.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/news/2014-questionnaire/) will be presented by [Dave Clements](/people/dave-clements/), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/src/galaxy-team/), and   [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) will lead a short discussion on *[GalaxyAdmins](/src/community/galaxy-admins/) direction*.
 
 Thanks to everyone for letting us know what dates and times worked best for you.  This time and day of the week worked for a remarkable 91% of respondents.
 
 ## January Baltimore Area Galaxy Meetup Report
 
-<div class='right'><a href='/src/events/meetups/baltimore/2015-01-22/index.md'><img src="/src/events/meetups/baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="January 2015 Galaxy Baltimore Meetup" width="150" /></a></div>
+<div class='right'><a href='/events/meetups/baltimore/2015-01-22/'><img src="/src/events/meetups/baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="January 2015 Galaxy Baltimore Meetup" width="150" /></a></div>
 
-The [first Baltimore Area Galaxy meetup](/src/events/meetups/baltimore/2015-01-22/index.md) *was sold out.* It was the right mix of current Galaxy users, people who want to learn how to use Galaxy, and students in Biology/Computer science programs. It was good to see academics unwind with a few beers and talk about their ideas to use Galaxy. The idea behind the meetup was to build a local community of Galaxy users, and to get to know one another personally. This would in turn foster collaborations and also bring forward better feedback to the [Galaxy Team](/galaxy-team/) as well. 
+The [first Baltimore Area Galaxy meetup](/events/meetups/baltimore/2015-01-22/) *was sold out.* It was the right mix of current Galaxy users, people who want to learn how to use Galaxy, and students in Biology/Computer science programs. It was good to see academics unwind with a few beers and talk about their ideas to use Galaxy. The idea behind the meetup was to build a local community of Galaxy users, and to get to know one another personally. This would in turn foster collaborations and also bring forward better feedback to the [Galaxy Team](/galaxy-team/) as well. 
 
 The second meetup is going to be hosted in February, for which we hope to have a slightly more focussed agenda. To talk about one or a few of the topics raised during the course of the month. There is now a Baltimore newsletter if you are interested) which goes out to the members who signed up for the first meetup. We hope to have more people in the coming months, and to grow a stronger Galaxy community in Baltimore. 
 
@@ -181,7 +181,7 @@ The second meetup is going to be hosted in February, for which we hope to have a
 
 <div class='center'> 
 <a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src="/src/images/logos/SupAgroMontpelierLogo.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" height="60" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2015-02-19/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="19 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='/community/galaxy-admins/meetups/2015-02-19/'><img src="/src/images/logos/GalaxyAdmins.png" alt="19 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='http://training.bioinformatics.ucdavis.edu/2015/01/12/rna-seq-and-chip-seq-analysis-with-galaxy/'><img src="/src/images/logos/UCDavisGenomeCenter.png" alt="RNA-Seq and ChIP-Seq Analysis with Galaxy" height="50" /></a> &nbsp;
 </div>
@@ -221,7 +221,7 @@ There are [upcoming events](/events/) in 5 countries on 4 continents.  See the [
   </tr>
   <tr>
     <th> February 19 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2015-02-19/index.md'>February 2015 GalaxyAdmins Web Meetup</a></em> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2015-02-19/'>February 2015 GalaxyAdmins Web Meetup</a></em> </td>
     <td> <em>Online</em> </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
@@ -297,13 +297,13 @@ There are [upcoming events](/events/) in 5 countries on 4 continents.  See the [
 The Galaxy is expanding! Please help it grow.
 
 * [Software Developer for the Refinery Team](https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1118216), Boston, Massachusetts, United States
-* [Genome analysis PostDoc](/src/news/genome-analysis-post-doc-oslo/index.md) in Oslo
-* [Bioinformatics scientist/engineer](/src/news/mdc-berlin-buch-opening/index.md) for RNA bioinformatics and next-generation sequencing, [MDC Berlin-Buch](https://www.mdc-berlin.de/)  
+* [Genome analysis PostDoc](/news/genome-analysis-post-doc-oslo/) in Oslo
+* [Bioinformatics scientist/engineer](/news/mdc-berlin-buch-opening/) for RNA bioinformatics and next-generation sequencing, [MDC Berlin-Buch](https://www.mdc-berlin.de/)  
 * [Bioinformatics Research Officer / Postdoc](http://bit.ly/1uUGUyh), Gene and Stem Cell Therapy, [The Centenary Institute](http://www.centenary.org.au/), Sydney, Australia  
 * [Postdoc Position](http://bit.ly/1JSbytl), Cancer Bioinformatics, [VIB](http://www.vib.be/), Leuven, Belgium 
 
 * [Senior Development Engineer - Bioinformatics](http://bit.ly/1yGvefn), and [Bioinformatician II](http://bit.ly/1vBhgxB), University of Massachusetts Medical School
-* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/src/news/bioinformatician-freiburg2014/index.md) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
+* Searching for [bioinformaticians, post-docs, PhD students and software engineers](/news/bioinformatician-freiburg2014/) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -382,7 +382,7 @@ We are pleased to welcome the [Ruđer Bošković Institute](http://www.irb.hr/) 
 
 **Security**
 
-Several *critical* security vulnerabilities were recently discovered by Bartlomiej Balcerek and Mateusz Stahl at the [Wroclaw Centre for Networking and Supercomputing](http://www.wcss.pl/en/). This [stable Galaxy release contains fixes for those vulnerabilities](/src/archive/dev-news-briefs/2015-01-13/index.md#security). **The Galaxy Team strongly encourages Galaxy server administrators to update their Galaxy servers immediately.**
+Several *critical* security vulnerabilities were recently discovered by Bartlomiej Balcerek and Mateusz Stahl at the [Wroclaw Centre for Networking and Supercomputing](http://www.wcss.pl/en/). This [stable Galaxy release contains fixes for those vulnerabilities](/archive/dev-news-briefs/2015-01-13/#security). **The Galaxy Team strongly encourages Galaxy server administrators to update their Galaxy servers immediately.**
 
 **IPython Integration**
 
@@ -390,7 +390,7 @@ Thanks to the awesome work of community members [Björn Grüning](/people/bjoern
 
 ** Tool Form Upgrade (for Beta Testing) **
 
-In Galaxy's development branch, the basic tool from has been [redesigned and modernized to address certain limitations in Galaxy's responsiveness when working with longer forms containing multiple parameter choices](/src/archive/dev-news-briefs/2015-01-13/index.md#tool-form-upgrade-for-beta-testing). This new tool form will become the default with the next release - but we are hoping tool author's and power users enable it and provide feedback during this release cycle in order to ensure it is working ideally when it becomes the default.
+In Galaxy's development branch, the basic tool from has been [redesigned and modernized to address certain limitations in Galaxy's responsiveness when working with longer forms containing multiple parameter choices](/archive/dev-news-briefs/2015-01-13/#tool-form-upgrade-for-beta-testing). This new tool form will become the default with the next release - but we are hoping tool author's and power users enable it and provide feedback during this release cycle in order to ensure it is working ideally when it becomes the default.
 
 ** Get The Distribution **
 
@@ -433,11 +433,11 @@ Version 0.2.0 of [Planemo](https://github.com/galaxyproject/planemo/blob/master/
 
 ## BioBlend
 
-[BioBlend v0.5.2 was released in October](/src/news/bio-blend-v0.5.2/index.md).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
+[BioBlend v0.5.2 was released in October](/src/news/bio-blend-v0.5.2/index.md).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
 
 ## CloudMan and blend4j
 
-New versions [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release), and [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release) were released in August.
+New versions [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), and [blend4j](/galaxy-updates/2014-09/#blend4j-011-release) were released in August.
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
@@ -462,7 +462,7 @@ In no particular order:
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [snpsift_dbnsfp_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_datatypes): Galaxy applicable data formats for SnpSift. snpsift_dbnsfp tool Allows for the creation of a snpsift dbnsfp Galaxy dataset from a tabular file that can be used by SnpSift dbnsfp to annotate a vcf formatted file.
   * [snpeff_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpeff_datatypes): Galaxy applicable data formats for SnpEff tools Galaxy applicable data formats for SnpEff tools.  The snpeffdb datatype provides the means to represent a SnpEff genome database in a Galaxy dataset.
-  * [snpsift_dbnsfp](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp): snpEff SnpSift dbnsfp tool from Pablo Cingolani Annotates variants on genes using the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.) http://snpeff.sourceforge.net[/SnpSift](/src/galaxy-updates/2015-02/SnpSift/index.md).html#dbNSFP SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
+  * [snpsift_dbnsfp](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp): snpEff SnpSift dbnsfp tool from Pablo Cingolani Annotates variants on genes using the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.) http://snpeff.sourceforge.net[/SnpSift](/galaxy-updates/2015-02/SnpSift/).html#dbNSFP SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed/
   * [snpsift](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift): snpEff SnpSift tools from Pablo Cingolani Variant annotation and effect prediction tools. It annotates and predicts the effects of variants on genes. This repository should manage tool dependencies. There are data managers for the Galaxy admin to download genome databases. SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
@@ -474,7 +474,7 @@ In no particular order:
      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
      Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 * [snpsift_dbnsfp_generic](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_generic): snpEff SnpSift dbnsfp tool that can use any dbnsfp-like annotation data Annotates variants on genes using a tabular set of annotation values such as those from the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.)<br />
-    This tool determines the available annotations from the input, so it can be used for other organisms other than human or other annotation values than available from dbNSFP. http://snpeff.sourceforge.net[/SnpSift](/src/galaxy-updates/2015-02/SnpSift/index.md).html#dbNSFP <br />
+    This tool determines the available annotations from the input, so it can be used for other organisms other than human or other annotation values than available from dbNSFP. http://snpeff.sourceforge.net[/SnpSift](/galaxy-updates/2015-02/SnpSift/).html#dbNSFP <br />
     SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
     Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
     Repository-Development: https://github.com/galaxy-iuc/tool_shed/
@@ -585,4 +585,4 @@ In no particular order:
 
 ## And a Huge Thank You!
 
-The [Galaxy Team](/galaxy-team/) would like to thank everyone who took the time to respond to the project's [call for support](/src/news/galaxy-project-grant-support/index.md).  These will be extremely helpful with our renewal.
+The [Galaxy Team](/galaxy-team/) would like to thank everyone who took the time to respond to the project's [call for support](/news/galaxy-project-grant-support/).  These will be extremely helpful with our renewal.

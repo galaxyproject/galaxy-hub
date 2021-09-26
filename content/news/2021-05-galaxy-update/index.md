@@ -79,7 +79,7 @@ Thank you all in advance and please feel free to invite other friends of James t
 
 </div>
 
-**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
+**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/news/2021-02-gcc-virtual/).**
 
 GCC2021 will start with a [__week of online training__](https://galaxyproject.org/events/gcc2021/training/). Training will largely use the GTN Smörgåsbord model: lectures will be prerecorded, with live help available on chat for the duration of the week. This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
 
@@ -102,7 +102,7 @@ Registering before __June 1__ saves 50% off of the full rates. Registration disc
 </div>
 <div class="card-header trim-p">
 
-[GCC2021 Fellowships & Abstract Submission Deadlines Extended](/src/news/2021-05-gcc-extended/index.md)
+[GCC2021 Fellowships & Abstract Submission Deadlines Extended](/news/2021-05-gcc-extended/)
 
 </div>
 
@@ -120,13 +120,13 @@ Talks can be either long (15-20 minutes) or lightning (5-7 minutes). **Talks** w
 
 **GCC2021 Community Fellowships: 17 May**
 
-The Galaxy Community Fund is offering fellowships to students, post-docs, and other non-profit / academic / government researchers based in [lower, lower-middle and upper-middle income countries](https://docs.google.com/document/d/1aFR1b8Al0DE0Ovn1pFJYlLchVUl2At82Dt4MRudvtRY/edit?usp=sharing) who will benefit from attending GCC2021, and for whom the [cost of registration](/src/news/2021-04-gcc-reg/index.md) is a barrier.
+The Galaxy Community Fund is offering fellowships to students, post-docs, and other non-profit / academic / government researchers based in [lower, lower-middle and upper-middle income countries](https://docs.google.com/document/d/1aFR1b8Al0DE0Ovn1pFJYlLchVUl2At82Dt4MRudvtRY/edit?usp=sharing) who will benefit from attending GCC2021, and for whom the [cost of registration](/news/2021-04-gcc-reg/) is a barrier.
 
 Fellowships will cover the full registration for any GCC2021 events awardees want to attend. Interested?  [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfyqKg87x8wL1EhOfrGR0SlQui8wEkQgg3qVFi6txO6GmHgKg/viewform) by May 17.
 
 **Early Registration: 1 June**
 
-Early conference registration [is open until 1 June](/src/news/2021-04-gcc-reg/index.md).
+Early conference registration [is open until 1 June](/news/2021-04-gcc-reg/).
 
 </div>
 
@@ -190,15 +190,15 @@ Most of these are accepting talk and poster submissions through the [ISMB/ECCB w
 
 <div class="card-header trim-p">
 
-[Webinars](/src/events/webinars/index.md)
+[Webinars](/events/webinars/)
 
 </div>
 
 Our current webinar series focuses on Galaxy resources for several different communities.  Webinars are held every other Wednesday at 10:00 Eastern US / 16:00 Central European time.  The last two webinars are this month
 
-**[Galaxy Resources for Tool Developers](/src/events/2021-05-gr4-tool-devs/index.md), May 12**
+**[Galaxy Resources for Tool Developers](/events/2021-05-gr4-tool-devs/), May 12**
 
-**[Galaxy Resources for Sys Admins and Infrastructure Providers](/src/events/2021-05-gr4-admins/index.md), May 26**
+**[Galaxy Resources for Sys Admins and Infrastructure Providers](/events/2021-05-gr4-admins/), May 26**
 
 Space is, um, unlimited!  But sign up today anyway and we will send you a reminder.
 
@@ -219,14 +219,14 @@ Recordings of the two earlier webinars in the series are now available:
 </div>
 <div class="card-header trim-p">
 
-[May Papercuts](/src/events/2021-05-papercuts/index.md) and
-[GTN CoFest Day](/src/events/2021-02-gtn/index.md)
+[May Papercuts](/events/2021-05-papercuts/) and
+[GTN CoFest Day](/events/2021-02-gtn/)
 
 </div>
 
 **20 May, Online, Global**
 
-Please join us for the [8th Papercuts CoFest day](/src/events/2021-05-papercuts/index.md) and the [Galaxy Training Network CoFest day](/src/events/2021-05-gtn/index.md) on May 20 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+Please join us for the [8th Papercuts CoFest day](/events/2021-05-papercuts/) and the [Galaxy Training Network CoFest day](/events/2021-05-gtn/) on May 20 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
 We will be on Gitter for chat all day long, and each event will have 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
@@ -279,13 +279,13 @@ The workshop will focus on theoretical and practical aspects of using next gener
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
 The next roundtable meetups will be:
 
-**[May 13: Customizeable welcome and introduction page for new Galaxy users](/src/events/2021-05-13-dev-roundtable/index.md), Alex Ostrovsky**
+**[May 13: Customizeable welcome and introduction page for new Galaxy users](/events/2021-05-13-dev-roundtable/), Alex Ostrovsky**
 
 **May 27: TBD**
 
@@ -299,7 +299,7 @@ We still [need a volunteer to lead a discussions on a topic of interest on May 2
 <img class="card-img-top" src="/src/images/communities/metabolomics.png" alt="metabolomics" />
 <div class="card-header trim-p">
 
-[Galaxy Metabolomics Community Call](/src/events/2021-05-metabolomics/index.md)
+[Galaxy Metabolomics Community Call](/events/2021-05-metabolomics/)
 
 </div>
 
@@ -374,7 +374,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <div class="card-header trim-p">
 
-[Protologger](/src/use/protologger/index.md)
+[Protologger](/use/protologger/)
 
 </div>
 
@@ -389,7 +389,7 @@ Protologger is an all-in-one genome description tool, aimed at simplifying gathe
 
 <div class="card-header trim-p">
 
-[q2Galaxy](/src/use/qiime2/index.md) (Alpha)
+[q2Galaxy](/use/qiime2/) (Alpha)
 
 </div>
 
@@ -405,11 +405,11 @@ Starting with the [2021.4 release](https://forum.qiime2.org/t/qiime-2-2021-4-is-
 
 <div class="card-header trim-p">
 
-[Center for Phage Technology (CPT)](/src/use/center-for-phage-technology-cpt/index.md)
+[Center for Phage Technology (CPT)](/use/center-for-phage-technology-cpt/)
 
 </div>
 
-[Four videos about](https://youtube.com/playlist?list=PLNFLKDpdM3B-wbkkZJHqS4aMkg_9UhOsF) the Texas A&M [Center for Phage Technology](https://cpt.tamu.edu/)'s [Galaxy server](/src/use/center-for-phage-technology-cpt/index.md) came out recently.  They include three how-to videos, and a webinar by Jason Gill. The Videos highlight doing annotation with Galaxy and Apollo.
+[Four videos about](https://youtube.com/playlist?list=PLNFLKDpdM3B-wbkkZJHqS4aMkg_9UhOsF) the Texas A&M [Center for Phage Technology](https://cpt.tamu.edu/)'s [Galaxy server](/use/center-for-phage-technology-cpt/) came out recently.  They include three how-to videos, and a webinar by Jason Gill. The Videos highlight doing annotation with Galaxy and Apollo.
 
 </div>
 
@@ -566,7 +566,7 @@ This [slide deck](https://training.galaxyproject.org/training-material/topics/tr
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

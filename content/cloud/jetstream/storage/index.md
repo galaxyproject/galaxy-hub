@@ -33,7 +33,7 @@ use it:
       <a href='volume-attached.png'><img src="volume-attached.png" alt="" width=200 /></a>
     </div>
 
-* [Access your instance via ssh](/src/cloud/jetstream/ssh/index.md) and create
+* [Access your instance via ssh](/cloud/jetstream/ssh/) and create
   a directory for the Galaxy files. The volume you attached to your instance
   will be most likely be available under `/vol_c` so create a directory under 
   that one. Change the ownership of the directory to the `galaxy` system user.

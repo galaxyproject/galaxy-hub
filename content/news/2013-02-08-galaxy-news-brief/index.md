@@ -2,7 +2,7 @@
 title: "Feb 8, 2013 Galaxy Distribution & News Brief"
 date: "2013-02-09"
 ---
-**Complete [News Brief](/src/archive/dev-news-briefs/2013-02-08/index.md)**
+**Complete [News Brief](/archive/dev-news-briefs/2013-02-08/)**
 <div class='right'><a href='http://wiki.galaxyproject.org/Tool%20Shed'><img src="/src/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="" width="200px" /></a></div>
 **Highlights:**
 
@@ -12,7 +12,7 @@ date: "2013-02-09"
 * New *[Bedgraph-to-bigwig](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph)* tool plus *Filter* tool updated.
 * *Workflows* now include option to export an image and the core *Framework* now allows more unified reference genome usage and access.
 * *Ten Community Pull-Requests* incorporated, plus another contribution to the tool Shed, addressing general usability, API, tools, error handling, workflows, and more. Thanks!!
-* Review highlights from the latest monthly *[Galaxy Update](/galaxy-updates/)* newsletter and [Galaxy Project Stats!](/src/galaxy-project/statistics/index.md)
+* Review highlights from the latest monthly *[Galaxy Update](/galaxy-updates/)* newsletter and [Galaxy Project Stats!](/galaxy-project/statistics/)
 * Plus bug fixes and related enhancements for visualizations, histories, workflows, and tools.
 
 **[http://getgalaxy.org](http://getgalaxy.org)**

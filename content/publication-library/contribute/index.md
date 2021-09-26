@@ -23,7 +23,7 @@ high-throughput supernova of a curator.*)
 We use the [Zotero](https://zotero.org/) social bookmarking service to organize
 publications that are about, use, or reference Galaxy.  The [Galaxy Group on
 Zotero](https://www.zotero.org/groups/galaxy) is open to any community member
-who [would like to contribute](/src/publication-library/contribute/index.md).
+who [would like to contribute](/publication-library/contribute/).
 
 # Set Up
 

@@ -75,49 +75,49 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2013
 
-<div class='center'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
+<div class='center'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 ### Registration, Talk/Poster Submission Open
 
-**[Early registration](/src/events/gcc2013/register/index.md) and [paper and poster abstract submission](/src/events/gcc2013/abstracts/index.md) are now open for the [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/index.md).**  GCC2013 will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
+**[Early registration](/events/gcc2013/register/) and [paper and poster abstract submission](/events/gcc2013/abstracts/) are now open for the [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/).**  GCC2013 will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
 
-<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
-[GCC2013](/src/events/gcc2013/index.md) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/events/gcc2013/training-day/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
+[GCC2013](/events/gcc2013/) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/events/gcc2013/training-day/) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
 
-**[|Register early](/src/events/gcc2013/register/index.md)** and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/src/events/gcc2013/training-day/index.md) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May.
+**[|Register early](/events/gcc2013/register/)** and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/events/gcc2013/training-day/) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May.
 
-**[Abstract submission](/src/events/gcc2013/abstracts/index.md)** for both oral presentations and posters is also open.  Abstract submission for oral presentations closes 12 April, and poster abstract submission closes 3 May.  Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about your work.
+**[Abstract submission](/events/gcc2013/abstracts/)** for both oral presentations and posters is also open.  Abstract submission for oral presentations closes 12 April, and poster abstract submission closes 3 May.  Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about your work.
 
 ### Sponsorships
 
 <div class='right'><a href='http://lifetech.com/'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="140" /></a><br /> 
 <div class='right'><a href='http://emc.com/'><img src="/src/images/logos/EMCLogo.png" alt="EMC Isilon" width="120" /></a><br /><div class='right'><a href='http://illumina.com/'><img src="/src/images/logos/IlluminaLogo250.png" alt="Illumina" width="100" /></a></div></div></div>
 
-We are pleased to announce several new [sponsorships](/src/events/gcc2013/sponsorships/index.md) for GCC2013:
+We are pleased to announce several new [sponsorships](/events/gcc2013/sponsorships/) for GCC2013:
 
 * [Ion Torrent](http://lifetech.com/) will be the exclusive Platinum Sponsor for the event. 
-* [EMC Isilon](http://emc.com/) will be a Gold Sponsor for [GCC2013](/src/events/gcc2013/index.md). 
-* [Illumina](http://illumina.com/) will be a Bronze Sponsor for [GCC2013](/src/events/gcc2013/index.md).
+* [EMC Isilon](http://emc.com/) will be a Gold Sponsor for [GCC2013](/events/gcc2013/). 
+* [Illumina](http://illumina.com/) will be a Bronze Sponsor for [GCC2013](/events/gcc2013/).
 
-There are still several [sponsorships](/src/events/gcc2013/sponsorships/index.md) still available. Please contact the [Organizers](/src/events/gcc2013/organizers/index.md) if your organization would like to help sponsor this event. 
+There are still several [sponsorships](/events/gcc2013/sponsorships/) still available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event. 
 
 ## March GalaxyAdmins Web Meetup
 
-<div class='left'><a href='/src/community/galaxy-admins/meetups/2013-03-20/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="March Galaxy Admins Web Meetup" height="50" /></a></div>
+<div class='left'><a href='/community/galaxy-admins/meetups/2013-03-20/'><img src="/src/images/logos/GalaxyAdmins.png" alt="March Galaxy Admins Web Meetup" height="50" /></a></div>
 
-The next [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-03-20/index.md) will be held [March 20, 2013](/src/community/galaxy-admins/meetups/2013-03-20/index.md) and feature [Hailiang "Leon" Mei](mailto:hailiang DOT mei AT nbic DOT nl), and [David van Enckevort](mailto:david.van.enckevort@nbic.nl) speaking on *[NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).* 
+The next [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-03-20/) will be held [March 20, 2013](/community/galaxy-admins/meetups/2013-03-20/) and feature [Hailiang "Leon" Mei](mailto:hailiang DOT mei AT nbic DOT nl), and [David van Enckevort](mailto:david.van.enckevort@nbic.nl) speaking on *[NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).* 
 
 [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. In this presentation, we will present the setup of this HPC cloud and the architecture of our NBIC Galaxy. We will also share our experience on the installation of the NBIC Galaxy using the Cloudman scripts. The presentation will finish with a list of issues and our possible future plans.
 
-See the [meetup page](/src/community/galaxy-admins/meetups/2013-03-20/index.md) for details.
+See the [meetup page](/community/galaxy-admins/meetups/2013-03-20/) for details.
 
 ## Galaxy at GMOD 2013 and Biocuration 2013
 
 <div class='right'> <a href='/src/gmod:April_2013_GMOD_Meeting/index.md'><img src="/src/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
 <a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'><img src="/src/images/logos/ISBLogoWAcronym223.png" alt="Biocuration 2013" height="70" /></a></div>
 
-Galaxy will [have a presence](/src/news/galaxy-gmod-biocuration2013/index.md) at both the [GMOD 2013](http://gmod.org/wiki/April 2013 GMOD Meeting) and [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home).  Both are being held in Cambridge, UK in early April.  If you are interested in either community, then it would be great to see you there.
+Galaxy will [have a presence](/news/galaxy-gmod-biocuration2013/) at both the [GMOD 2013](http://gmod.org/wiki/April 2013 GMOD Meeting) and [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home).  Both are being held in Cambridge, UK in early April.  If you are interested in either community, then it would be great to see you there.
 
 GMOD is also running a [community-wide survey](http://gmod.org/survey.html) through March 1. The survey "aims to find out how you are using GMOD, what you find useful (or otherwise), what support you need, and some information on the GMOD components you use." The survey results will be published and past surveys have been extremely useful to the project.  If that's not enough motivation, you can enter to win a free genome profile from 23andMe.
 
@@ -156,8 +156,8 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> March 20 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2013-03-20/index.md'>NBIC Galaxy at SURFsara's HPC cloud</a></em> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2013-03-20/index.md'>GalaxyAdmins web meetup</a> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2013-03-20/'>NBIC Galaxy at SURFsara's HPC cloud</a></em> </td>
+    <td> <a href='/community/galaxy-admins/meetups/2013-03-20/'>GalaxyAdmins web meetup</a> </td>
     <td> <a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang "Leon" Mei</a>,<a href="mailto:david.van.enckevort@nbic.nl">David van Enckevort</a> </td>
   </tr>
   <tr>
@@ -204,9 +204,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/events/gcc2013/'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
-    <td> <a href='/src/events/gcc2013/organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/events/gcc2013/organizers/'>Organizers</a> </td>
   </tr>
 </table>
 
@@ -214,15 +214,15 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ## Galaxy Distributions
 
-**[February 8, 2013 Galaxy Distribution](/src/archive/dev-news-briefs/2013-02-08/index.md)**
+**[February 8, 2013 Galaxy Distribution](/archive/dev-news-briefs/2013-02-08/)**
 
 <div class='indent'>
 <div class='right'><a href='/toolshed/'><img src="/src/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="" width="220px" /></a></div>
 **Highlights:**
-* *Improvements* to our [release process](/src/archive/dev-news-briefs/2013-02-08/index.md#-to-release_process). **Release tag must be used in the hg update command to upgrade**. More at **[getgalaxy.org](/src/admin/get-galaxy/index.md)**.
-* Tool Shed *[Complex repository dependencies](/src/toolshed/complex-repository-dependencies/index.md)* are introduced, streamlining core dependency use across individual tools. 
+* *Improvements* to our [release process](/archive/dev-news-briefs/2013-02-08/#-to-release_process). **Release tag must be used in the hg update command to upgrade**. More at **[getgalaxy.org](/admin/get-galaxy/)**.
+* Tool Shed *[Complex repository dependencies](/toolshed/complex-repository-dependencies/)* are introduced, streamlining core dependency use across individual tools. 
 * Also updated in the Tool Shed: multiple repository installation, dependency installation (when defined - see graphic on right for an example), and many usability enhancements and fixes.
-* New *[Bedgraph-to-bigwig](/src/learn/datatypes/index.md#bedgraph)* tool plus *Filter* tool updated.
+* New *[Bedgraph-to-bigwig](/learn/datatypes/#bedgraph)* tool plus *Filter* tool updated.
 * *Workflows* now include option to export an image and the core *Framework* now allows more unified reference genome usage and access.
 * *Ten Community Pull-Requests* incorporated, plus another contribution to the tool Shed, addressing general usability, API, tools, error handling, workflows, and more. Thanks!!
 * Plus bug fixes and related enhancements for visualizations, histories, workflows, and tools.
@@ -260,9 +260,9 @@ $ hg update release_2013.02.08
 
 ## Other News
 
-* A [Software Carpentry bootcamp](http://bit.ly/14EmcSA) has been scheduled in Oslo immediately after [GCC2013](/src/events/gcc2013/index.md).
+* A [Software Carpentry bootcamp](http://bit.ly/14EmcSA) has been scheduled in Oslo immediately after [GCC2013](/events/gcc2013/).
 * An improved [Galaxy Project issues board](http://bit.ly/gxytrello) is out
-* Going to [GCC2013](/src/events/gcc2013/index.md)?  [SocBiN / PTBI](http://bit.ly/SocBiN2013) is right before; Paper and early registration deadline is 15 March 
+* Going to [GCC2013](/events/gcc2013/)?  [SocBiN / PTBI](http://bit.ly/SocBiN2013) is right before; Paper and early registration deadline is 15 March 
 * **[Introduction to Galaxy 2013 Bootcamp](http://training.bioinformatics.ucdavis.edu/docs/2013/02/bootcamp/galaxy/index.html)** by Nikhil Joshi, Bioinformatics Core, UC Davis Genome Center
 * **[Galaxy Tutorials](https://genome.edu.au/wiki/Galaxy_Tutorials)** Including *RNA-Seq, Variant Detection,* and *Genome Assembly* from The [Genomics Virtual Lab](https://genome.edu.au/)
 * [CloudBioLinux can now install genome indices from the Galaxy rsync server](https://github.com/chapmanb/cloudbiolinux/commit/208a59bb9ec19b1b633b0319259e313d4fae7952). 

@@ -4,9 +4,9 @@ title: January 2018 Tool Shed contributions
 
 [<img class="float-right" src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="180">](http://toolshed.g2.bx.psu.edu/)
 
-Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu/) in [January 2018](/src/galaxy-updates/2018-02/index.md).
+Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu/) in [January 2018](/galaxy-updates/2018-02/).
 
-* [All monthly summaries](/src/toolshed/contributions/index.md)
+* [All monthly summaries](/toolshed/contributions/)
 
 ## New Tools
 

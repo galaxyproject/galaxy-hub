@@ -4,7 +4,7 @@ highlight: true
 ---
 
 _This page explains how to configure this feature as an administrator,
-for user-specific docs, please refer to the [Use page](/src/authnz/use/oidc/index.md)._
+for user-specific docs, please refer to the [Use page](/authnz/use/oidc/)._
 
 Leveraging the [OpenID Connect (OIDC)
 protocol](https://developer.okta.com/blog/2019/10/21/illustrated-guide-to-oauth-and-oidc)
@@ -26,12 +26,12 @@ the necessary registrations from the Identity Providers (IdP).The IdP needs to
 support the OIDC protocol and Galaxy currently supports the following OIDC
 IdPs:
 
-- [CILogon](/src/authnz/config/oidc/idps/cilogon/index.md)
-- [Custos](/src/authnz/config/oidc/idps/custos/index.md)
-- [Elixir AAI](/src/authnz/config/oidc/idps/elixir-aai/index.md)
-- [Globus](/src/authnz/config/oidc/idps/globus/index.md)
-- [Google](/src/authnz/config/oidc/idps/google/index.md)
-- [Okta](/src/authnz/config/oidc/idps/okta/index.md)
+- [CILogon](/authnz/config/oidc/idps/cilogon/)
+- [Custos](/authnz/config/oidc/idps/custos/)
+- [Elixir AAI](/authnz/config/oidc/idps/elixir-aai/)
+- [Globus](/authnz/config/oidc/idps/globus/)
+- [Google](/authnz/config/oidc/idps/google/)
+- [Okta](/authnz/config/oidc/idps/okta/)
 
 
 # Enable OIDC-based Login

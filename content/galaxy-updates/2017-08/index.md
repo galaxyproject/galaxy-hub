@@ -35,7 +35,7 @@ Two summaries of GCC2017 are available online:
 * [Trip Blog](https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/), by [Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/), Research Scientist specialising in microbial genomics, [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/).
 
 <div class="left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/src/events/2017-sacnas/index.md) <br /><br />
+[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/events/2017-sacnas/) <br /><br />
 [<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="150" />](https://software-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="150" />](https://data-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="150" />](https://www.cyverse.org/)<br /><br />
@@ -44,11 +44,11 @@ Two summaries of GCC2017 are available online:
 
 # Galaxy (and CyVerse and the Carpentries) at 2017 SACNAS Meeting
 
-If you are attending the [2017 SACNAS meeting](http://www.2017sacnas.org/) in Salt Lake City in October, then please consider signing up for one of [these preconference workshops](/src/events/2017-sacnas/index.md):
+If you are attending the [2017 SACNAS meeting](http://www.2017sacnas.org/) in Salt Lake City in October, then please consider signing up for one of [these preconference workshops](/events/2017-sacnas/):
 
-**[Software and Data Carpentry](/src/events/2017-sacnas/index.md#workshop-1-software-and-data-carpentry)**
+**[Software and Data Carpentry](/events/2017-sacnas/#workshop-1-software-and-data-carpentry)**
 
-**[Data Platforms for Life Science Researchers](/src/events/2017-sacnas/index.md#workshop-2-data-platforms-for-life-science-researchers)**
+**[Data Platforms for Life Science Researchers](/events/2017-sacnas/#workshop-2-data-platforms-for-life-science-researchers)**
 
 [Registration](http://bit.ly/sacnas-data-reg-2017) is *free* but space is limited.  You are strongly encouraged to register soon.
 Both workshops are held October 18, the day before SACNAS starts.
@@ -61,10 +61,10 @@ Both workshops are held October 18, the day before SACNAS starts.
 # Galaxy @ ISMB/ECCB/BOSC 2017: Slides and posters are available
 
 <div class="right">
-[<img src="/src/images/logos/ismb-2017.png" alt="Galaxy at ISMB/ECCB/BOSC 2017Slides and posters" width="120" />](/src/events/2017-ismb-bosc/index.md))
+[<img src="/src/images/logos/ismb-2017.png" alt="Galaxy at ISMB/ECCB/BOSC 2017Slides and posters" width="120" />](/events/2017-ismb-bosc/))
 </div>
 
-If you missed all the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/src/events/2017-ismb-bosc/index.md) then don't, um, fret!  Most slides and posters are [available online](/src/events/2017-ismb-bosc/index.md))
+If you missed all the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/events/2017-ismb-bosc/) then don't, um, fret!  Most slides and posters are [available online](/events/2017-ismb-bosc/))
 
 See you next year in Chicago!
 
@@ -273,12 +273,12 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 <table class="table">
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> </td>
   </tr>
 </table>
@@ -296,7 +296,7 @@ No new resources were added to community directories in January or February.
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions from June and July](/src/toolshed/contributions/2017-07/index.md).
+[Tool Shed contributions from June and July](/toolshed/contributions/2017-07/).
 
 # Releases
 

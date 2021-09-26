@@ -9,16 +9,16 @@ date: "2019-03-04"
 The *March  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * Event News
-    * **[eLife and F1000Research sponsor childcare at GCC2019](/src/news/2019-03-galaxy-update/index.md#gcc2019-sponsors)**
-    * **[The GalaxyAdmins](/src/news/2019-03-galaxy-update/index.md#galaxyadmins)** meetup is back March 21!
-* [184 new publications](/src/news/2019-03-galaxy-update/index.md#publications), great resources lead to great insight. 
-* Some most excellent [Galaxy Platform News](/src/news/2019-03-galaxy-update/index.md#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!
-* An interview on [The Galactic Blog](/src/news/2019-03-galaxy-update/index.md#new-galactic-blog-post) with [Nate Coraor](/people/nate/) about CVMFS & Galaxy. 
-* At least [15 Open positions](/src/news/2019-03-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
-* [A burst of Training Updates](/src/news/2019-03-galaxy-update/index.md#doc-hub-and-training-updates).
-* [ToolShed contributions](/src/news/2019-03-galaxy-update/index.md#toolshed-contributions).
-* [Galaxy 19.01 released](/src/news/2019-03-galaxy-update/index.md#releases)!
-* And [a bunch of other news](/src/news/2019-03-galaxy-update/index.md#other-news) too.
+    * **[eLife and F1000Research sponsor childcare at GCC2019](/news/2019-03-galaxy-update/#gcc2019-sponsors)**
+    * **[The GalaxyAdmins](/news/2019-03-galaxy-update/#galaxyadmins)** meetup is back March 21!
+* [184 new publications](/news/2019-03-galaxy-update/#publications), great resources lead to great insight. 
+* Some most excellent [Galaxy Platform News](/news/2019-03-galaxy-update/#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!
+* An interview on [The Galactic Blog](/news/2019-03-galaxy-update/#new-galactic-blog-post) with [Nate Coraor](/people/nate/) about CVMFS & Galaxy. 
+* At least [15 Open positions](/news/2019-03-galaxy-update/#whos-hiring) in five countries on two continents. 
+* [A burst of Training Updates](/news/2019-03-galaxy-update/#doc-hub-and-training-updates).
+* [ToolShed contributions](/news/2019-03-galaxy-update/#toolshed-contributions).
+* [Galaxy 19.01 released](/news/2019-03-galaxy-update/#releases)!
+* And [a bunch of other news](/news/2019-03-galaxy-update/#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -26,7 +26,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 # GCC2019 Sponsors
 
-We are very pleased to announce that **[eLife](https://elifesciences.org/)** and **[F1000Research](https://f1000research.com/)** are first two [sponsors for GCC2019](/src/events/gcc2019/sponsors/index.md). *And they are both sponsoring childcare.*  **Yes, there will be childcare at GCC2019!**
+We are very pleased to announce that **[eLife](https://elifesciences.org/)** and **[F1000Research](https://f1000research.com/)** are first two [sponsors for GCC2019](/events/gcc2019/sponsors/). *And they are both sponsoring childcare.*  **Yes, there will be childcare at GCC2019!**
 
 ## eLife
 
@@ -52,18 +52,18 @@ We’re pleased to be running a call for papers for GCC2019 and **would like to 
 
 ## Your Organization/Vendor Here!
 
-[GCC2019](/src/events/gcc2019/index.md) is looking for [sponsors](/src/events/gcc2019/sponsors/index.md)!  If your organization wants to help put on the premier Galaxy event of the year, then please contact the [organizers](/src/events/gcc2019/sponsors/index.md)). And please encourage your vendors to consider sponsoring as well.  Sponsors are potential partners for participants and their contributions make GCC affordable (and maybe even possible).
+[GCC2019](/events/gcc2019/) is looking for [sponsors](/events/gcc2019/sponsors/)!  If your organization wants to help put on the premier Galaxy event of the year, then please contact the [organizers](/events/gcc2019/sponsors/)). And please encourage your vendors to consider sponsoring as well.  Sponsors are potential partners for participants and their contributions make GCC affordable (and maybe even possible).
 
 # GalaxyAdmins 
 
 <div class="float-right">
-[<img class="img-fluid mx-auto" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md) <br /><br />
+[<img class="img-fluid mx-auto" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/) <br /><br />
 <img class="img-fluid mx-auto" src="/src/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" style="max-width: 160px" />
 </div>
 
-After a two year hiatus, the [online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [March 21](/src/community/galaxy-admins/meetups/2019-03-21/index.md), with a community discussion, and a presentation from [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md) on *Running Galaxy on Kubernetes*, online at 15:00 GMT (see [your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+2019+GalaxyAdmins+Meetup&iso=20190321T15&p1=1234&ah=1)).  See the [meetup page for links](/src/community/galaxy-admins/meetups/index.md)).
+After a two year hiatus, the [online GalaxyAdmins meetups](/community/galaxy-admins/meetups/) will return on [March 21](/community/galaxy-admins/meetups/2019-03-21/), with a community discussion, and a presentation from [Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/) on *Running Galaxy on Kubernetes*, online at 15:00 GMT (see [your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+2019+GalaxyAdmins+Meetup&iso=20190321T15&p1=1234&ah=1)).  See the [meetup page for links](/community/galaxy-admins/meetups/)).
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
+[GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
 # Upcoming events
 
@@ -214,11 +214,11 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 ## FreeBioInfo
 
-[<img class="float-left" style="max-width: 400px" src="/src/use/freebioinfo/freebioinfologo.jpg" alt="FreeBioInfo" />](/src/use/freebioinfo/index.md)
+[<img class="float-left" style="max-width: 400px" src="/src/use/freebioinfo/freebioinfologo.jpg" alt="FreeBioInfo" />](/use/freebioinfo/)
 
 [FreeBioinfo](http://www.freebioinfo.org/) is a public server for metagenomic analysis.  The server supports a wide range of metagenomics and other tools. Ther is a [Cookbook](http://www.freebioinfo.org/galaxy/static/protocol/galaxyhelphuixiuli20170425.pdf) for the site (although it is in Chinese). FreeBioInfo is hosted at the [China Agricultural University](https://cau.edu.cn/), in Beijing, China.
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/gcac/gcac-landing.png" alt="GCAC" />](/src/use/gcac/index.md)
+[<img class="float-right" style="max-width: 300px" src="/src/use/gcac/gcac-landing.png" alt="GCAC" />](/use/gcac/)
 
 ## GCAC
 
@@ -228,7 +228,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 [EWAS-Galaxy](https://github.com/kpbioteam/docker_ewas) is a Docker image for population epigenetics data analysis. Epigenome-wide association studies (EWAS) analyse genome-wide activity of epigenetic marks in cohorts of different individuals to find associations between epigenetic variation and phenotype. EWAS-Galaxy is supported by the [University of Bradford](https://bradford.ac.uk/external/).
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/mandoiu/mandoiu-landing-500.png" alt="Mandoiu Lab" />](/src/use/mandoiu/index.md)
+[<img class="float-right" style="max-width: 300px" src="/src/use/mandoiu/mandoiu-landing-500.png" alt="Mandoiu Lab" />](/use/mandoiu/)
 
 ## Mandoiu Lab
 
@@ -292,7 +292,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
   * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States.
+* [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States.
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -319,7 +319,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 * Update to [GO Enrichment Analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html) by [Daniel Sobral](https://github.com/dsobral).
 * Updates to [Mapping and molecular identification of phenotype-causing mutations](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/mapping-by-sequencing/tutorial.html) and [Analysis of metagenomics data - The global picture](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/general-tutorial/tutorial.html) by [Anna Syme](https://github.com/AnnaSyme).
 
-There was a tremendous amount of content added to the GTN while our fearless instructors of the [2019 Galaxy Admin Training](/src/events/2019-admin-training/index.md) faced below freezing temperatures in the unforgiving mountains of Pennsylvania. A _warm_ thanks to [Helena Rasche](https://github.com/hexylena), [John Chilton](https://github.com/jmchilton), [Marten Cech](https://github.com/martenson), [Nate Coraor](https://github.com/natefoo), and [Simon Gladman](https://github.com/Slugger70) for adding to the growing Galaxy Server Administration section of the GTN. See these training materials below:
+There was a tremendous amount of content added to the GTN while our fearless instructors of the [2019 Galaxy Admin Training](/events/2019-admin-training/) faced below freezing temperatures in the unforgiving mountains of Pennsylvania. A _warm_ thanks to [Helena Rasche](https://github.com/hexylena), [John Chilton](https://github.com/jmchilton), [Marten Cech](https://github.com/martenson), [Nate Coraor](https://github.com/natefoo), and [Simon Gladman](https://github.com/Slugger70) for adding to the growing Galaxy Server Administration section of the GTN. See these training materials below:
 * New [Ansible for installing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html) tutorial.
 * New [Galaxy Tool Management](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tool-management/tutorial.html) tutorial and slides.
 * New [Reference Data with CVMFS](https://training.galaxyproject.org/training-material/topics/admin/tutorials/cvmfs/tutorial.html) tutorial.
@@ -338,7 +338,7 @@ There was a tremendous amount of content added to the GTN while our fearless ins
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in February  2019](/src/toolshed/contributions/2019-02/index.md) (there were a lot).
+[Tool Shed contributions in February  2019](/toolshed/contributions/2019-02/) (there were a lot).
 
 
 # Releases

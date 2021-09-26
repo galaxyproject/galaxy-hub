@@ -20,11 +20,11 @@ What do fall foliage, pumpkin beer, and Halloween have in common? October! Or, w
 
 [<img class="float-right" src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" width="200" />](https://www.zotero.org/groups/galaxy)
 
-After residing on CiteULike since 2011, the Galaxy Publication Library has moved to [Zotero](https://www.zotero.org/groups/galaxy). See [the announcement](/src/news/2017-09-publication-lib-on-zotero/index.md) for full details. 
+After residing on CiteULike since 2011, the Galaxy Publication Library has moved to [Zotero](https://www.zotero.org/groups/galaxy). See [the announcement](/news/2017-09-publication-lib-on-zotero/) for full details. 
 
 ## Highlighted Publications
 
-With the [move to Zotero](/src/news/2017-09-publication-lib-on-zotero/index.md), we added two tags to highlight papers that either emphasize Galaxy ("[+Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/+Stellar)"), or are about Galaxy ("[+Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/+Galactic)"):
+With the [move to Zotero](/news/2017-09-publication-lib-on-zotero/), we added two tags to highlight papers that either emphasize Galaxy ("[+Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/+Stellar)"), or are about Galaxy ("[+Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/+Galactic)"):
 
 The *Galactic* and *Stellar* publications added in September were:
 
@@ -191,7 +191,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 The Galaxy is expanding! Please help it grow.
 
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 * [Implémentation d’outils d’analyse et de visualisation de variations structurales et génomes mosaïques](https://www.sfbi.fr/content/impl%C3%A9mentation-d%E2%80%99outils-d%E2%80%99analyse-et-de-visualisation-de-variations-structurales-et-g%C3%A9nomes-), IRD (Institut de Recherche pour le Développement), Montpellier, France
 * [Metabarcoding, analyses écologiques et statistiques de paleocommunautés de protistes de l’écosystème côtier](https://www.sfbi.fr/content/metabarcoding-analyses-%C3%A9cologiques-et-statistiques-de-paleocommunaut%C3%A9s-de-protistes-de-l%E2%80%99%C3%A9co), IFREMER DYNECO/Pelagos, Brest, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
@@ -247,7 +247,7 @@ From [Claassens et al.](https://doi.org/10.1371/journal.pone.0184355):
 A [manual](http://codonharmonizer.systemsbiology.nl/static/CodonHarmonization_Manual.pdf) and email support ([Bart Nijsse](mailto:bart.nijsse AT wur.nl), [Nico
 Claassens](mailto:nicoclaassens AT gmail.com)) are available.
 
-See the [Codon Harmonizer page](/src/use/codon-harmonizer/index.md) for more.
+See the [Codon Harmonizer page](/use/codon-harmonizer/) for more.
 
 ----
 
@@ -257,7 +257,7 @@ See the [Codon Harmonizer page](/src/use/codon-harmonizer/index.md) for more.
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in September](/src/toolshed/contributions/2017-09/index.md).
+[Tool Shed contributions in September](/toolshed/contributions/2017-09/).
 
 # Releases
 

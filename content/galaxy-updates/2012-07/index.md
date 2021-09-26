@@ -64,17 +64,17 @@ These papers were among [31 papers added to the Galaxy CiteULike group](http://w
 
 ## GCC2012 is July 25-27!
 
-<a href='/src/events/gcc2012/index.md'><img src="/src/events/gcc2012/GCC2012LogoWide600.png" alt="2012 Galaxy Community Conference"  /></a>
+<a href='/events/gcc2012/'><img src="/src/events/gcc2012/GCC2012LogoWide600.png" alt="2012 Galaxy Community Conference"  /></a>
 
 <div class='blue'>
-**[Register by July 18!](/src/events/gcc2012/register/index.md)**
+**[Register by July 18!](/events/gcc2012/register/)**
 </div>
 </div>
 
 <br />
-The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) will be held July 25-27, in Chicago.  [Register by July 18](/src/events/gcc2012/register/index.md) to avoid paying late registration rates.  [Register well before July 18](/src/events/gcc2012/register/index.md), if you are planning on attending the [GCC2012 Training Day](/src/events/gcc2012/training-day/index.md).  Training Day has limited space and will likely sell out before the entire conference does.
+The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held July 25-27, in Chicago.  [Register by July 18](/events/gcc2012/register/) to avoid paying late registration rates.  [Register well before July 18](/events/gcc2012/register/), if you are planning on attending the [GCC2012 Training Day](/events/gcc2012/training-day/).  Training Day has limited space and will likely sell out before the entire conference does.
 
-The [program for all 3 days is now available](/src/events/gcc2012/program/index.md). This includes [12 Training Day sessions](/src/events/gcc2012/training-day/index.md) on [10 different topics](/src/events/gcc2012/training-day/index.md#workshops), and over [25 presentations](/src/events/gcc2012/program/index.md#day-1-july-26-thursday) by Galaxy Community and Galaxy Team members.
+The [program for all 3 days is now available](/events/gcc2012/program/). This includes [12 Training Day sessions](/events/gcc2012/training-day/) on [10 different topics](/events/gcc2012/training-day/#workshops), and over [25 presentations](/events/gcc2012/program/#day-1-july-26-thursday) by Galaxy Community and Galaxy Team members.
 
 
 
@@ -95,7 +95,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src="/src/images/logos/CGFB_LOGO.png" alt="Atelier Galaxy" height=60 /></a> &nbsp; <a href='/src/events/ismb2012/index.md'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>&nbsp;&nbsp; <a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a> &nbsp; <a href='/src/news/galaxy-workshops-in-south-africa/index.md'><img src="/src/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
+<a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src="/src/images/logos/CGFB_LOGO.png" alt="Atelier Galaxy" height=60 /></a> &nbsp; <a href='/events/ismb2012/'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a> &nbsp; <a href='/news/galaxy-workshops-in-south-africa/'><img src="/src/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
 </div>
 
 ### Deadlines
@@ -103,13 +103,13 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 <div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
 
 There are July (*and June 30!*) application and registration deadlines for 
-* the [Galaxy Workshops in South Africa](/src/news/galaxy-workshops-in-south-africa/index.md) (deadline: **June 30**) and the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/) (deadline **July 1**)
+* the [Galaxy Workshops in South Africa](/news/galaxy-workshops-in-south-africa/) (deadline: **June 30**) and the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/) (deadline **July 1**)
 * [Systems Bioinformatics Workshop](http://gaggle.systemsbiology.net/workshop2012/) (deadline: **June 30**)
 * [GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School) (deadline: **July 9**)
-* [GCC2012](/src/events/gcc2012/register/index.md) (deadline: **July 18**) 
+* [GCC2012](/events/gcc2012/register/) (deadline: **July 18**) 
 * and eScience 2012, Beyond the Genome, BioVis, ISCB-Asia, and the CSHL Advanced Sequencing Technologies and Applications, and Computational and Comparative Genomics courses.  
 
-It's also a big month for conferences including Evolution, [ISMB and BOSC 2012](/src/events/ismb2012/index.md), and of course [GCC2012](/src/events/gcc2012/index.md).
+It's also a big month for conferences including Evolution, [ISMB and BOSC 2012](/events/ismb2012/), and of course [GCC2012](/events/gcc2012/).
 
 See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -136,13 +136,13 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <th rowspan=1> July 13-17 </th>
-    <td> <strong><em><a href='/src/events/ismb2012/index.md'>ISMB 2012 and BOSC 2012</a></strong></em><div class='indent'><a href='/src/events/ismb2012/index.md'>Eight presentations, one Codefest, seven posters, and counting</a></td>
+    <td> <strong><em><a href='/events/ismb2012/'>ISMB 2012 and BOSC 2012</a></strong></em><div class='indent'><a href='/events/ismb2012/'>Eight presentations, one Codefest, seven posters, and counting</a></td>
     <td> Long Beach, California, United States </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> <strong><em><a href='/src/events/gcc2012/index.md'>2012 Galaxy Community Conference</a></strong></em><div class='indent red'><a href='/src/events/gcc2012/register/index.md'>Registration deadline</a> is July 18</div> </td>
+    <td> <strong><em><a href='/events/gcc2012/'>2012 Galaxy Community Conference</a></strong></em><div class='indent red'><a href='/events/gcc2012/register/'>Registration deadline</a> is July 18</div> </td>
     <td> <a href='http://uic.edu'>University of Illinois Chicago</a>, United States </td>
     <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
@@ -198,16 +198,16 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 ## New Distributions
 
-The most recent Galaxy distribution was [released on May 11, 2012](/src/archive/dev-news-briefs/2012-05-11/index.md).  
+The most recent Galaxy distribution was [released on May 11, 2012](/archive/dev-news-briefs/2012-05-11/).  
 
-A new version of CloudMan was [Released in June](/src/news/new-cloudman-release/index.md).
+A new version of CloudMan was [Released in June](/news/new-cloudman-release/).
 
 ## Other News
 
-<div class='right'><a href='/src/news/r-galaxy-wrap-r-functions-as-tools/index.md'><img src="/src/images/logos/BioconductorLogo.gif" alt="RGalaxy: Wrap R functions as Galaxy Tools" width="200" /></a></div>
-1. [RGalaxy](/src/news/r-galaxy-wrap-r-functions-as-tools/index.md), a new [Bioconductor](http://bioconductor.org/) package, automatically generates XML definitions needed to wrap *any* R function as a Galaxy tool.
+<div class='right'><a href='/news/r-galaxy-wrap-r-functions-as-tools/'><img src="/src/images/logos/BioconductorLogo.gif" alt="RGalaxy: Wrap R functions as Galaxy Tools" width="200" /></a></div>
+1. [RGalaxy](/news/r-galaxy-wrap-r-functions-as-tools/), a new [Bioconductor](http://bioconductor.org/) package, automatically generates XML definitions needed to wrap *any* R function as a Galaxy tool.
 
-1. The first [GalaxyCzars](/src/community/galaxy-admins/index.md) conference call will happen July 9 or 10.  If you are interested, *please [help pick a time](http://doodle.com/f4f2f37smgcv3z6n) for the call.*
+1. The first [GalaxyCzars](/community/galaxy-admins/) conference call will happen July 9 or 10.  If you are interested, *please [help pick a time](http://doodle.com/f4f2f37smgcv3z6n) for the call.*
 
 1. Several new videos, screencasts, and tutorials were posted:
   * [OpenHelix Video Tip of the Week: Visualizing the Galaxy](http://blog.openhelix.eu/?p=12439)

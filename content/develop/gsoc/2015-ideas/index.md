@@ -5,7 +5,7 @@ The Galaxy Project was notified its application to be a Google Summer of Code me
 
 Data intensive biology for everyone! Galaxy is an open source, web-based platform allowing biologists to easily leverage advanced computational resources to build reproducible analyses.
 
-The page contains project ideas for potential [Google Summer of Code 2015](https://developers.google.com/open-source/soc) interns - more information on Galaxy and the GSOC 2015 can be found [here](/src/develop/gsoc/2015/index.md).
+The page contains project ideas for potential [Google Summer of Code 2015](https://developers.google.com/open-source/soc) interns - more information on Galaxy and the GSOC 2015 can be found [here](/develop/gsoc/2015/).
 
 
 

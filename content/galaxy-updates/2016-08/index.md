@@ -37,9 +37,9 @@ Registration is free, but space is limited on both days. We recommend you regist
 
 ## Galaxy Admin Training, November 7-11, Salt Lake City, Utah
 
-<div class='left'><a href='/src/events/admin-training2016/index.md'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="140" /></a></div>
+<div class='left'><a href='/events/admin-training2016/'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="140" /></a></div>
 
-The first ever [Galaxy Project Admin Training workshop](/src/events/admin-training2016/index.md) will be held November 7-11 in Salt Lake City Utah.  The workshop features a 2 day basics session followed by a 3 day advanced session. There is a separate registration for each session, and participants may sign up for one or both.  We are working with the Utah High Performance Computing Center at the University of Utah for cluster access during the advanced session.
+The first ever [Galaxy Project Admin Training workshop](/events/admin-training2016/) will be held November 7-11 in Salt Lake City Utah.  The workshop features a 2 day basics session followed by a 3 day advanced session. There is a separate registration for each session, and participants may sign up for one or both.  We are working with the Utah High Performance Computing Center at the University of Utah for cluster access during the advanced session.
 
 The introductory session will be at the Salt Lake City Library, and the advanced session will be on the University of Utah (the "U") campus.  Workshop housing is on the U as well.
 
@@ -53,7 +53,7 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
 <a href='http://icbo.cgrb.oregonstate.edu/node/41'><img src="/src/images/logos/ICBO_joint.png" alt="Integrating Ontological and Genomic Analysis with Galaxy Workshop @ ICBO" height="70" /></a> &nbsp;&nbsp;
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug16.html'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
 &nbsp;&nbsp;&nbsp; 
-<a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="60" /></a>
+<a href='/community/galaxy-admins/meetups/2016-08-18/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="60" /></a>
 <a href='https://registration.genomecenter.ucdavis.edu/events/Aug_2016_Bioinformatics_Galaxy_Workshop/'><img src="/src/images/logos/UCDavisGenomeCenter_Bioinf.png" alt="Using Galaxy for Analysis of RNA-Seq, Exome-Seq, and Variants" height="75" /></a>
 </div>
 
@@ -90,8 +90,8 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   </tr>
   <tr>
     <th> August 18 </th>
-    <td> <a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'>GalaxyAdmins Web Meetup</a> </td>
-    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' />  <em><a href='/src/community/galaxy-admins/meetups/2016-08-18/index.md'>Online</a></em> </td>
+    <td> <a href='/community/galaxy-admins/meetups/2016-08-18/'>GalaxyAdmins Web Meetup</a> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' />  <em><a href='/community/galaxy-admins/meetups/2016-08-18/'>Online</a></em> </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -150,14 +150,14 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   </tr>
   <tr>
     <th> October 20 </th>
-    <td> <em><a href='/src/events/switzerland2016/index.md'>(third Swiss) Galaxy Workshop</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/src/events/sg2016/index.md'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
+    <td> <em><a href='/events/switzerland2016/'>(third Swiss) Galaxy Workshop</a></em> </td>
+    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/events/sg2016/'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <th> October 21 </th>
-    <td> <em><a href='/src/events/germany2016/index.md'>(second German) Galaxy Developers Day</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/src/events/sg2016/index.md'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
+    <td> <em><a href='/events/germany2016/'>(second German) Galaxy Developers Day</a></em> </td>
+    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/events/sg2016/'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
@@ -165,13 +165,13 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   </tr>
   <tr>
     <th> November 7-8 </th>
-    <td> <strong><a href='/src/events/admin-training2016/index.md'>Galaxy Admin Training: Introduction</a></strong> </td>
+    <td> <strong><a href='/events/admin-training2016/'>Galaxy Admin Training: Introduction</a></strong> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/galaxy-team/'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> November 9-11 </th>
-    <td> <strong><a href='/src/events/admin-training2016/index.md'>Galaxy Admin Training: Advanced</a></strong> </td>
+    <td> <strong><a href='/events/admin-training2016/'>Galaxy Admin Training: Advanced</a></strong> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/galaxy-team/'>Galaxy Team</a> </td>
   </tr>
@@ -390,7 +390,7 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
     <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.04</code> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none;"> See the <a href='/src/admin/get-galaxy/index.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
+    <td colspan=3 style=" border: none;"> See the <a href='/admin/get-galaxy/'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
   </tr>
 </table>
 
@@ -465,7 +465,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # ToolShed Contributions
 
-[Tool Shed contributions for June and July](/src/toolshed/contributions/2016-07/index.md).
+[Tool Shed contributions for June and July](/toolshed/contributions/2016-07/).
 
 # Other News
 

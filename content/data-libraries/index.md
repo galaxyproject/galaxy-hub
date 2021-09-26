@@ -5,14 +5,14 @@ Galaxy data libraries provide a way to conveniently share Galaxy datasets within
 
 * You can import data from filesystem into the library without copying it.
 * You can import whole directories preserving the folder structure within.
-* The dataset's size does not count towards your usage [quota](/src/admin/disk-quotas/index.md).
+* The dataset's size does not count towards your usage [quota](/admin/disk-quotas/).
 
 # Interface
 
 You can explore the annotated interface:
 
-* [list of libraries](/src/data-libraries/screen/list-of-libraries/index.md)
-* [folder contents](/src/data-libraries/screen/folder-contents/index.md)
+* [list of libraries](/data-libraries/screen/list-of-libraries/)
+* [folder contents](/data-libraries/screen/folder-contents/)
 
 # Importing datasets
 
@@ -63,7 +63,7 @@ You save space on the Galaxy instance as every dataset in the library is stored 
 
 As an admin you can allow users to import datasets to libraries from a configured folder. This is enabled by setting
 `user_library_import_dir` in the `config/galaxy.yml` to a path accessible by the user that runs the Galaxy process.
-Galaxy expects the folder to contain subfolders named after email addresses of your instance's users. Each user will only see the contents of their folder. A common setup is that the value for `user_library_import_dir` is the same as for `ftp_upload_dir` allowing users to [upload files via FTP](/ftp-upload/) and then import them either in history or data library. This assumes you have an FTP server [running and configured](/src/admin/config/upload-via-ftp/index.md) to work with Galaxy.
+Galaxy expects the folder to contain subfolders named after email addresses of your instance's users. Each user will only see the contents of their folder. A common setup is that the value for `user_library_import_dir` is the same as for `ftp_upload_dir` allowing users to [upload files via FTP](/ftp-upload/) and then import them either in history or data library. This assumes you have an FTP server [running and configured](/admin/config/upload-via-ftp/) to work with Galaxy.
 
 Example structure with `user_library_import_dir = ftp_upload`.
 

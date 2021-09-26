@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2013-05-15 Web Meetup<br /><br />[Galaxy](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org)
 </div></div>
 

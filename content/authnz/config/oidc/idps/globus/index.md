@@ -3,7 +3,7 @@ title: Configure Your Galaxy Instance as a Globus OIDC Client
 highlight: true
 ---
 
-_This page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/oidc/idps/globus/index.md) page._
+_This page explains how to configure this feature, for user-specific docs, please refer to [this](/authnz/use/oidc/idps/globus/) page._
 
 
 Leveraging OpenID Connect (OIDC) protocol, users can login to Galaxy with their
@@ -67,7 +67,7 @@ related setters as explained in the following section.
 
 You would need to setup you Galaxy instance to leverage OIDC protocol. 
 This setup is common for all OIDC IdPs, and is 
-[documented at this page](/src/authnz/config/oidc/index.md#configure-oidc-backends).
+[documented at this page](/authnz/config/oidc/#configure-oidc-backends).
 Then you would need to add Globus-specific setters to the `config/oidc_backends_config.xml` file as the 
 the following: 
 
@@ -85,10 +85,10 @@ the following:
 
 Set `client_id` and `client_secret` setters with the values you 
 obtained when registering your Galaxy instance on Globus (see previous
-section). See [this section](/src/authnz/config/oidc/index.md#redirect-uri)
+section). See [this section](/authnz/config/oidc/#redirect-uri)
 about the redirect URI.
 
-See [this section](/src/authnz/config/oidc/index.md#supported-oidc-idps)
+See [this section](/authnz/config/oidc/#supported-oidc-idps)
 for more details.
 
 

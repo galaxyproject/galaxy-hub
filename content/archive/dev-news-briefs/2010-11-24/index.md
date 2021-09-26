@@ -14,7 +14,7 @@ Here are the highlights of the following upgrade:
 
 ### Galaxy's FTP Server New Data Upload Option 
 
-* User how-to: [UploadViaFTP](/src/admin/config/upload-via-ftp/index.md)
+* User how-to: [UploadViaFTP](/admin/config/upload-via-ftp/)
 * Configuration instructions for local installs: [wiki/Config/UploadViaFTP](http://bitbucket.org/galaxy/galaxy-central/wiki/Config/UploadViaFTP)
 
 ### OpenID Login 
@@ -185,7 +185,7 @@ time, especially for data libraries having potentially large menu.
 ### Bug Fixes! 
 
 * Fix for TextToolParameter.get_html_field when provided value is an empty string but default value specified in tool is non-empty string. Fixes issue with rerun button where if a user had input an empty string, the form displayed when rerun would have the default value from the tool and not the actual previously specified value.
-* Fix for Integer[/FloatToolParameter](/src/archive/dev-news-briefs/2010-11-24/FloatToolParameter/index.md).get_html_field() when 'value' is provided as an integer/float. Fixes an issue seen when saving workflows: If an integer or float tool parameter is changed to a value of 0 or 0.0 and saved, the form field would be redisplayed using the default tool value; and not the value that is now saved in the database.
+* Fix for Integer[/FloatToolParameter](/archive/dev-news-briefs/2010-11-24/FloatToolParameter/).get_html_field() when 'value' is provided as an integer/float. Fixes an issue seen when saving workflows: If an integer or float tool parameter is changed to a value of 0 or 0.0 and saved, the form field would be redisplayed using the default tool value; and not the value that is now saved in the database.
 * Fix for setting columns in workflow builder for ColumnListParameter. e.g. allows splitting lists of columns by newlines and commas and strips leading 'c's.
 * Fixes for rerun action to recurse grouping options when checking unvalidated values and cloned HDAs. Better selection of corresponding HDAs from cloned histories, when multiple copies exist.
 * Have rerun action make use of tool.check_and_update_param_values(). Fixes Server Error issue when trying to rerun updated tools.

@@ -20,11 +20,11 @@ date: 2011-11-18
 
 ### GCC 2012 is Scheduled!
 
-<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
+<div class='right'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
 
-**We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
+**We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
 
-GCC2012 will be held at the [University of Illinois Chicago (UIC)](http://uic.edu/) campus in downtown Chicago.  See the [GCC2012 conference web page](/src/events/gcc2012/index.md) for more, including [opportunities to sponsor](/src/events/gcc2012/sponsorships/index.md) this year's conference.
+GCC2012 will be held at the [University of Illinois Chicago (UIC)](http://uic.edu/) campus in downtown Chicago.  See the [GCC2012 conference web page](/events/gcc2012/) for more, including [opportunities to sponsor](/events/gcc2012/sponsorships/) this year's conference.
 
 Some things will be the same as in previous years, but we are also using feedback from last year to guide the 2012 meeting.  We will again be seeking talks (full and lightning) from the community.  More information will be posted as it becomes available.
 
@@ -37,7 +37,7 @@ Please reserve July 25-27 on your calendars!
 * A one day [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) is being held in [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) in [Český Krumlov, Czech Republic](http://www.ckrumlov.info/php/)
   * Registration deadline is December 15, but you are encouraged to register early, so we can gauge demand.
   * This workshop is immediately following the [Workshop on Genomics](http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/2012), which also features Galaxy content, and is still accepting applications.
-* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/src/events/pag2012/index.md) on using Galaxy, both on [Main](/main/) and in the [Cloud](/cloudman/)
+* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/events/pag2012/) on using Galaxy, both on [Main](/main/) and in the [Cloud](/cloudman/)
 * There are also [events](/events/) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ) in January.
 
 ----
@@ -47,11 +47,11 @@ Please reserve July 25-27 on your calendars!
 
 Galaxy tool sheds play a beneficial role in enabling sharing of exported Galaxy workflows between different Galaxy instances. 
 
-* **[Finding workflows in tool shed repositories](/src/toolshed/searching-the-toolshed/index.md)**
+* **[Finding workflows in tool shed repositories](/toolshed/searching-the-toolshed/)**
     The Search section of the left tool shed menu panel now includes an option labeled "Search for workflows"
-* **[Importing a workflow from an installed tool shed repository](/src/toolshed/workflow-sharing/index.md#importing-a-workflow-from-an-installed-toolshed-repository)** 
+* **[Importing a workflow from an installed tool shed repository](/toolshed/workflow-sharing/#importing-a-workflow-from-an-installed-toolshed-repository)** 
     A pop-up menu associated with a browsed Tool Shed workflow name will now provide the ability to import the workflow into your local Galaxy instance
-* **[Importing a workflow via a URL](/src/toolshed/workflow-sharing/index.md#importing-a-workflow-via-a-url)** 
+* **[Importing a workflow via a URL](/toolshed/workflow-sharing/#importing-a-workflow-via-a-url)** 
     If your Galaxy instance is missing any of the tools an imported workflow requires, a message is now displayed that includes links to all accessible tool sheds enabling you to search the tool sheds for the missing tools
 
 ### Using Tool Sheds

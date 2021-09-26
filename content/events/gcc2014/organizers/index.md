@@ -41,7 +41,7 @@ The Scientific Program Committee can [be reached via email](mailto:gcc2014 DASH 
 
 ## Hackathon Committee
 
-The GCC2014 Hackathon Organizing Committee is responsible for making the [accompanying hackathon](/src/events/gcc2014/hackathon/index.md) happen.
+The GCC2014 Hackathon Organizing Committee is responsible for making the [accompanying hackathon](/events/gcc2014/hackathon/) happen.
 
  **[Dannon Baker](/people/dannon-baker/)**
   [Johns Hopkins University](http://jhu.edu/)<br /><br />

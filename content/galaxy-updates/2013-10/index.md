@@ -46,7 +46,7 @@ A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a
 
 See *[A quality control system for profiles obtained by ChIP sequencing](http://nar.oxfordjournals.org/content/early/2013/09/14/nar.gkt829)* by Mendoza-Parra, *et al.*, in *Nucl. Acids Res.* (2013)
 
-The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/src/use/archive/ngs-qc/index.md) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
+The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department/2/team/21/) and [email support](/use/archive/ngs-qc/) is available.  You must have an account to use the server; anyone can create an account. "Due to storage space constraints, uploaded datasets into the Galaxy instance may not be available for more than 24hours, thus we strongly suggest users to download their processed files as early as possible."
 
 ## USP-FCFRP
 
@@ -126,7 +126,7 @@ The [Laboratory of Biological Physics](http://fisbio.fcfrp.usp.br/), part of the
 </table>
 
 
-44 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in September. In addition to papers featuring the [kmer-SVM](/src/galaxy-updates/2013-10/index.md#kmer-svm) and [NGS-QC Generator](/src/galaxy-updates/2013-10/index.md#ngs-qc-generator) (see [above](/src/galaxy-updates/2013-10/index.md#new-public-servers)) these papers may be particularly interesting to the Galaxy community:
+44 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in September. In addition to papers featuring the [kmer-SVM](/galaxy-updates/2013-10/#kmer-svm) and [NGS-QC Generator](/galaxy-updates/2013-10/#ngs-qc-generator) (see [above](/galaxy-updates/2013-10/#new-public-servers)) these papers may be particularly interesting to the Galaxy community:
 
 * "[Genomics in the clouds](https://doi.org/10.1038/nmeth.2654)" by Vivien Marx, *[Nature Methods](http://www.nature.com/nmeth/index.html)* 10, 941–945 (2013)
 
@@ -143,8 +143,8 @@ And the Galaxy Project now has it's own [CITATION file](https://bitbucket.org/ga
 <div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
-* [Computational biology opening](/src/news/computational-biology-paris/index.md) at University Pierre-et-Marie-Curie, Paris
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
+* [Computational biology opening](/news/computational-biology-paris/) at University Pierre-et-Marie-Curie, Paris
 * [M2 Développement et intégration d'outils pour la bioanalyse dans Galaxy](http://www.sfbi.fr/content/m2-d%C3%A9veloppement-et-int%C3%A9gration-doutils-pour-la-bioanalyse-dans-galaxy), Limagrain à Chappes (Puy-de-Dôme, Auvergne)
 * [Part time position at GenePeeks](http://bit.ly/18ExEfk) 
 * [Stage M2 Développement et intégration d'outils pour la bioanalyse dans Galaxy chez Vilmorin & Cie.](http://bit.ly/19AYF4e)
@@ -265,7 +265,7 @@ And don't worry, you won't have to travel to Australia during its spring just to
 <a href='http://www.beyond-the-genome.com/program/'><img src="/src/images/logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
 <a href='http://bit.ly/153avr8'><img src="/src/images/logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/images/logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
-<a href='/src/events/sa-workshop-tour2013/index.md'><img src="/src/images/logos/SAGalaxyWorkshopTour2013Wide.png" alt="2013 South Africa Galaxy Workshop Tour" height="65" /></a>
+<a href='/events/sa-workshop-tour2013/'><img src="/src/images/logos/SAGalaxyWorkshopTour2013Wide.png" alt="2013 South Africa Galaxy Workshop Tour" height="65" /></a>
 </div>
 
 <table>
@@ -315,13 +315,13 @@ And don't worry, you won't have to travel to Australia during its spring just to
   </tr>
   <tr>
     <th> October 14-18 </th>
-    <td> <em><a href='/src/events/u-pretoria2013/index.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Pretoria</div> </td>
-    <td rowspan=2> <a href='/src/events/sa-workshop-tour2013/index.md'>2013 South Africa Galaxy Workshop Tour</a><div class='indent red'>Application deadline is 17 September</div> </td>
+    <td> <em><a href='/events/u-pretoria2013/'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Pretoria</div> </td>
+    <td rowspan=2> <a href='/events/sa-workshop-tour2013/'>2013 South Africa Galaxy Workshop Tour</a><div class='indent red'>Application deadline is 17 September</div> </td>
     <td rowspan=2> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 21-25 </th>
-    <td> <em><a href='/src/events/u-cape-town2013/index.md'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Cape Town</div> </td>
+    <td> <em><a href='/events/u-cape-town2013/'>NGS Data Analysis and Galaxy Workshop</a></em> <div class='indent'>University of Cape Town</div> </td>
   </tr>
   <tr>
     <th> October 22 </th>
@@ -402,9 +402,9 @@ See the [list of other tutorials](/learn/#other-tutorials) on the [Learn hub pag
 
 # Galaxy Distributions
 
-The most recent [Galaxy distribution was August 12](/src/archive/dev-news-briefs/2013-08-12/index.md).
+The most recent [Galaxy distribution was August 12](/archive/dev-news-briefs/2013-08-12/).
 
-A new version of [CloudMan](/cloudman/) was [released in July](/src/news/cloudman-release/index.md).
+A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-release/).
 
 <br />
 

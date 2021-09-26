@@ -18,15 +18,15 @@ Galaxy went on tour in France during the last week of May.  Workshops were help 
     <td style=" text-align: center;"> <a href='http://u900.curie.fr/'><img src="/src/images/logos/CurieLogo.gif" alt="Inserm, Mines ParisTech, Institut Curie, Bioinformatics and Computational Systems Biology of Cancer" height="100" /></a><br /><a href='http://u900.curie.fr/'>1 June, Paris</a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center;"> <strong><a href='/src/events/galaxy-tour-de-france2012/index.md#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br /> 9:00 - 12:00<br />This session is now full </td>
+    <td style=" text-align: center;"> <strong><a href='/events/galaxy-tour-de-france2012/#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br /> 9:00 - 12:00<br />This session is now full </td>
     <td rowspan=2 style=" text-align: center;"> <strong>Galaxy for Biologists<br />and Developers</strong><br />12:00 - 15:30<br /> Space available </td>
-    <td style=" text-align: center;"> <strong><a href='/src/events/galaxy-tour-de-france2012/index.md#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br />9:00 - 12:00<br />Space available </td>
-    <td style=" text-align: center;"> <strong><a href='/src/events/galaxy-tour-de-france2012/index.md#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br />9:00 - 12:00<br />Space available </td>
+    <td style=" text-align: center;"> <strong><a href='/events/galaxy-tour-de-france2012/#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br />9:00 - 12:00<br />Space available </td>
+    <td style=" text-align: center;"> <strong><a href='/events/galaxy-tour-de-france2012/#galaxy-for-biologists'>Galaxy for Biologists</a></strong><br />9:00 - 12:00<br />Space available </td>
   </tr>
   <tr>
-    <td style=" text-align: center;"> <strong><a href='/src/events/galaxy-tour-de-france2012/index.md#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />This session is now full </td>
-    <td style=" text-align: center;"> <strong><a href='/src/events/galaxy-tour-de-france2012/index.md#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />Space available </td>
-    <td style=" text-align: center;"> <strong><a href='/src/events/galaxy-tour-de-france2012/index.md#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />Space available </td>
+    <td style=" text-align: center;"> <strong><a href='/events/galaxy-tour-de-france2012/#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />This session is now full </td>
+    <td style=" text-align: center;"> <strong><a href='/events/galaxy-tour-de-france2012/#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />Space available </td>
+    <td style=" text-align: center;"> <strong><a href='/events/galaxy-tour-de-france2012/#galaxy-for-developers'>Galaxy for Developers</a></strong><br />14:00 - 17:00<br />Space available </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> <a href='http://lgdp.univ-perp.fr/index.php?page=laboratoire_2'>Laboratoire Génome et </a><br /><a href='http://lgdp.univ-perp.fr/index.php?page=laboratoire_2'>Développement des Plantes</a><br /> Bâtiment T<br />58, Avenue Paul Alduy<br />66860 Perpignan </td>
@@ -96,7 +96,7 @@ If you attend both workshops and plan to eat in the area, there are many choices
 * Basic concepts: interface, histories, workflows
 * Analysis of NGS data: polymorphism discovery, ChIP-seq. RNA-seq
 * Using your own instance on the Cloud
-* Publishing supplemental results with [Galaxy Pages](/src/learn/galaxy-pages/index.md)
+* Publishing supplemental results with [Galaxy Pages](/learn/galaxy-pages/)
 
 ## Galaxy for Developers
 

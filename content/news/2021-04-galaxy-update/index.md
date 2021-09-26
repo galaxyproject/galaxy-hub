@@ -90,7 +90,7 @@ and then goes on to describe the community's progress and perseverance over the 
 
 </div>
 
-**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
+**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/news/2021-02-gcc-virtual/).**
 
 GCC2021 will start on 28 June with a [__week of online training__](https://galaxyproject.org/events/gcc2021/training/). Training will largely use the GTN Smörgåsbord model: lectures will be prerecorded, with live help available on chat for the duration of the week.  This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
 
@@ -204,15 +204,15 @@ Most of these are accepting talk and poster submissions through the [ISMB/ECCB w
 <img class="card-img-top" src="/src/events/webinars/gr4-webinars-400.png" alt="Galaxy Resources for You Webinars" />
 <div class="card-header">
 
-[Webinars](/src/events/webinars/index.md)
+[Webinars](/events/webinars/)
 
 </div>
 
 Our next webinar series will focus on Galaxy resources for several different communities.  Webinars are held every other Wednesday at 10:00 Eastern US / 16:00 Central European time.  The first two webinars are:
 
-**[Galaxy Resources for Researchers](/src/events/2021-04-gr4-researchers/index.md), April ~~14~~ 21** (postponed one week)
+**[Galaxy Resources for Researchers](/events/2021-04-gr4-researchers/), April ~~14~~ 21** (postponed one week)
 
-**[Galaxy Resources for Educators and Trainers](/src/events/2021-04-gr4-education/index.md), April 28**
+**[Galaxy Resources for Educators and Trainers](/events/2021-04-gr4-education/), April 28**
 
 Space is, um, unlimited!  But sign up today anyway and we will send you a reminder.
 
@@ -228,11 +228,11 @@ In addition, there are two more webinars this month:
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 10rem; max-width:  100%;">
 <img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
-<div class="card-header">[April Papercuts CoFest](/src/events/2021-04-papercuts/index.md)</div>
+<div class="card-header">[April Papercuts CoFest](/events/2021-04-papercuts/)</div>
 
 **15 April, Online, Global**
 
-Please join us for the [7th Papercuts CoFest day on April 15](/src/events/2021-04-papercuts/index.md) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+Please join us for the [7th Papercuts CoFest day on April 15](/events/2021-04-papercuts/) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
 We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
@@ -259,7 +259,7 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">
 
-[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
@@ -267,7 +267,7 @@ The next roundtable meetups will be:
 
 ~~April 15: TBD~~
 
-**[April 29: Scalability and Challenges](/src/events/2021-04-29-dev-roundtable/index.md)**, led by Aysam Guerler
+**[April 29: Scalability and Challenges](/events/2021-04-29-dev-roundtable/)**, led by Aysam Guerler
 
 That is, *they will be [if anyone volunteers to lead discussions on topics of interest](https://bit.ly/gxdevroundtablepresent).* (Kudos to Sam!)
 
@@ -342,7 +342,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <img class="card-img-top" src="/src/use/ipk-blast/consortia.png" alt="IPK Blast Consortia" />
 <div class="card-header">
 
-[IPK Blast](/src/use/ipk-blast/index.md)
+[IPK Blast](/use/ipk-blast/)
 
 </div>
 
@@ -560,7 +560,7 @@ The Galaxy Training Network now has a [Frequently Asked Questions (FAQ) page](ht
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> <br /><br />
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> <br /><br />
 <a href='http://www.nd.edu/'><img src="/src/images/logos/NotreDame.png" alt="University of Notre Dame"  /></a>
 <br />
 <div class='title'>2016-08-18 Web Meetup<br /><br />
@@ -29,7 +29,7 @@
 
 <br />
 
-*[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 <div class='right'><br />
 <a href='http://ccl.cse.nd.edu/software/makeflow/'><img src="/src/images/logos/Makeflow.png" alt="Makeflow" height="110" /></a>

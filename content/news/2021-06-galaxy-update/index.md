@@ -40,18 +40,18 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 **June ~~1~~ 8: Early registration closes**
 
-[Register by __June 8__ and save 50% off of the full rates](/src/news/2021-05-gcc-reg/index.md). Registration [discounts are available to researchers from low and lower-middle income countries](/src/news/2021-05-gcc-reg/index.md#participants-based-in-low-lower-middle-and-upper-middle-income-countries). For everyone else, registration is downright cheap too, starting at €15.00 for the training week and in €25.00 for the 3-day conference (plus VAT). *The [CoFest](https://sched.co/iLKn) is free.*
+[Register by __June 8__ and save 50% off of the full rates](/news/2021-05-gcc-reg/). Registration [discounts are available to researchers from low and lower-middle income countries](/news/2021-05-gcc-reg/#participants-based-in-low-lower-middle-and-upper-middle-income-countries). For everyone else, registration is downright cheap too, starting at €15.00 for the training week and in €25.00 for the 3-day conference (plus VAT). *The [CoFest](https://sched.co/iLKn) is free.*
 
 **June 14: Poster/Demo Abstracts Due**
 
-We welcome [poster/demo submissions](/src/news/2021-05-gcc-posterdemo/index.md) that use, implement or extend the Galaxy platform and ecosystem, including integrating and analyzing datasets in any research area, enhancing reproducibility in computational analyses, and fostering collaboration in scientific workflow development
+We welcome [poster/demo submissions](/news/2021-05-gcc-posterdemo/) that use, implement or extend the Galaxy platform and ecosystem, including integrating and analyzing datasets in any research area, enhancing reproducibility in computational analyses, and fostering collaboration in scientific workflow development
 
 Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts). 
 
 
 **June 17: CoFest Prep Day**
 
-The *June Paper Cuts Day* is now  the [GCC2021 CoFest Prep Day](/src/events/2021-06-papercuts/index.md) for CoFest participants to create plans for the [GCC2021 CoFest](https://sched.co/iLKn). The CoFest will loosely organized around *clusters* -- shared areas of interest. [Find, propose, or guide your cluster ahead of time](/src/news/2021-05-gcc-cofest-call/index.md), and at prep day.
+The *June Paper Cuts Day* is now  the [GCC2021 CoFest Prep Day](/events/2021-06-papercuts/) for CoFest participants to create plans for the [GCC2021 CoFest](https://sched.co/iLKn). The CoFest will loosely organized around *clusters* -- shared areas of interest. [Find, propose, or guide your cluster ahead of time](/news/2021-05-gcc-cofest-call/), and at prep day.
 
 
 **June 25: All Registration Closes**
@@ -67,7 +67,7 @@ GCC2021 [Training Week](https://galaxyproject.org/events/gcc2021/training) runs 
 
 Featuring accepted full and lightning talks, poster/demo presentations, sponsors, birds-of-a-feather gatherings, and plenty of time for networking, the GCC2021 meeting is a three day event that brings the Galaxy Community together to share our work and address common challenges in data intensive science.   I
 
-The meeting is [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md) no matter what time zone or country you live in.
+The meeting is [virtual, affordable, and globally accessible](/news/2021-02-gcc-virtual/) no matter what time zone or country you live in.
 
 **July 9: Two Day CollaborationFest Starts**
 
@@ -238,11 +238,11 @@ There is a lot going on in the Galaxy, with [10 events this week alone](/events/
 <div class="card border-info" style="min-width: 12rem; max-width:  100%;">
 <div class="card-header trim-p">
 
-[Webinars](/src/events/webinars/index.md)
+[Webinars](/events/webinars/)
 
 </div>
 
-The [*Galaxy Resources* webinar series](/src/events/webinars/index.md) wrapped up in May (see the [blog post below](#galactic-blog-activity).  All webinars are available as videos.  As of press time, there is only one webinar scheduled for June:
+The [*Galaxy Resources* webinar series](/events/webinars/) wrapped up in May (see the [blog post below](#galactic-blog-activity).  All webinars are available as videos.  As of press time, there is only one webinar scheduled for June:
 
 **[Analyzing your own data in VectorBase](https://vectorbase.org/vectorbase/app/static-content/webinars.html#vect4), June 10**
 
@@ -273,7 +273,7 @@ As part of the [2021 OME Community Meeting](https://www.openmicroscopy.org/event
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
@@ -327,13 +327,13 @@ Ce module comprendra un exposé théorique avec des démonstrations pratiques co
 <img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training CoFest" />
 <div class="card-header trim-p">
 
-[Pre-GCC2021 GAT CoFest](/src/events/2021-06-gat-cofest/index.md)
+[Pre-GCC2021 GAT CoFest](/events/2021-06-gat-cofest/)
 
 </div>
 
 **1-4 June, Online**
 
-As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) draws near ([training](https://galaxyproject.org/events/gcc2021/training/) starts June 28) the instructors behind the [Galaxy Admin Track](https://galaxyproject.org/events/gcc2021/training/admin-track) (and [Galaxy Admin Training events](/src/events/2021-01-admin-training/index.md))  would like to gather to address [some lingering issues](https://github.com/galaxyproject/training-material/issues/2274) before GCC.
+As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) draws near ([training](https://galaxyproject.org/events/gcc2021/training/) starts June 28) the instructors behind the [Galaxy Admin Track](https://galaxyproject.org/events/gcc2021/training/admin-track) (and [Galaxy Admin Training events](/events/2021-01-admin-training/))  would like to gather to address [some lingering issues](https://github.com/galaxyproject/training-material/issues/2274) before GCC.
 
 </div>
 
@@ -347,13 +347,13 @@ As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.b
 </div>
 <div class="card-header trim-p">
 
-[Pre-GCC CoFest Prep Day](/src/events/2021-06-papercuts/index.md)
+[Pre-GCC CoFest Prep Day](/events/2021-06-papercuts/)
 
 </div>
 
 **17 June, Online, Global**
 
-The June Papercuts CoFest Day is now the **[GCC2021 CoFest Prep Day](/src/events/2021-06-papercuts/index.md)** for participants to plan work *(collaborative work, dang it)* for the **[GCC2021 CoFest](https://sched.co/iLKn)** being held July 9-10, right after the 3-day GCC2021 meeting.  We will have 3 calls, spread throughout the global day, and communicate via Gitter and (video as needed) between calls.
+The June Papercuts CoFest Day is now the **[GCC2021 CoFest Prep Day](/events/2021-06-papercuts/)** for participants to plan work *(collaborative work, dang it)* for the **[GCC2021 CoFest](https://sched.co/iLKn)** being held July 9-10, right after the 3-day GCC2021 meeting.  We will have 3 calls, spread throughout the global day, and communicate via Gitter and (video as needed) between calls.
 
 If you are participating in the GCC2021 CoFest<sup>*</sup> then please join us June 17.
 
@@ -381,7 +381,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 </div>
 <div class="card-header trim-p">
 
-[Viral Variant Visualizer (VVV)](/src/use/vvv/index.md)
+[Viral Variant Visualizer (VVV)](/use/vvv/)
 
 </div>
 
@@ -401,11 +401,11 @@ VVV is supported by Agence National de Sécurité Sanitaire, de l’environnemen
 </div>
 <div class="card-header trim-p">
 
-[SHAMAN](/src/use/shaman/index.md)
+[SHAMAN](/use/shaman/)
 
 </div>
 
-[SHAMAN](https://shaman.pasteur.fr/) is a user-friendly website for metataxonomic analysis from raw reads to statistical analysis. SHAMAN does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/src/use/galaxy-pasteur/index.md) for data analysis and workflow execution.
+[SHAMAN](https://shaman.pasteur.fr/) is a user-friendly website for metataxonomic analysis from raw reads to statistical analysis. SHAMAN does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/use/galaxy-pasteur/) for data analysis and workflow execution.
 
 SHAMAN is a shiny application for differential analysis of metagenomic data (16S, 18S, 23S, 28S, ITS and WGS) including bioinformatics treatment of raw reads for targeted metagenomics, statistical analysis and results visualization with a large variety of plots (barplot, boxplot, heatmap, …).
 
@@ -419,7 +419,7 @@ SHAMAN is a shiny application for differential analysis of metagenomic data (16S
 </div>
 <div class="card-header trim-p">
 
-[Imaging EU Server](/src/use/imaging/index.md)
+[Imaging EU Server](/use/imaging/)
 
 </div>
 
@@ -550,7 +550,7 @@ Have you noticed a new emphasis on Galaxy Developer training?  The new BioBlend 
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -649,13 +649,13 @@ Fahrner, M., Kook, L., Fröhlich, K., Biniossek, M. L., & Schilling, O. (2021). 
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
 <div class="card-header trim-p">
 
-[Galaxy Helm Chart v4.0](/src/blog/2021-05-galaxy-helm-chart-v4/index.md)
+[Galaxy Helm Chart v4.0](/blog/2021-05-galaxy-helm-chart-v4/)
 
 </div>
 
 The Galaxy Helm chart automates the mechanics of deploying Galaxy into a single package. The same package can be used to deploy Galaxy for development, testing, or production. With v4, the chart also introduces improvements for managing Galaxy over time.
 
-See this [blog post](/src/blog/2021-05-galaxy-helm-chart-v4/index.md) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
+See this [blog post](/blog/2021-05-galaxy-helm-chart-v4/) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
 
 ![Galaxy Helm](/src/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
 

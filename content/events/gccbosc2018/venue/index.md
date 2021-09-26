@@ -37,7 +37,7 @@ Conference housing is on campus in two Reed College dorm complexes.
 * Air conditioned
 * ADA compliant
 * Really nice common spaces
-* Not open during [CollaborationFest: Encore](/src/events/gccbosc2018/collaboration/index.md#whats-new-core-and-encore)
+* Not open during [CollaborationFest: Encore](/events/gccbosc2018/collaboration/#whats-new-core-and-encore)
 * Around $10 / night more costly than ODB
 
 ## Both blocks
@@ -105,7 +105,7 @@ You don't have to be attending GCCBOSC 2018 events to book GCCBOSC 2018 lodging 
 
 If you prefer to stay elsewhere, Reed College has a [list of recommended hotels](https://www.reed.edu/accommodations.html), many offering a discount for those attending events at Reed. The Reed Campus can be reached via [public transit](#public-transportation), and there is free parking on campus if you wish to drive.
 
-The conference is [offering subsidized childcare](/src/events/gccbosc2018/childcare/index.md) in downtown Portland on the Portland State University campus.  If you are using childcare it may be most convenient to [stay close to the PSU campus](/src/events/gccbosc2018/faq/index.md#location-and-lodging).
+The conference is [offering subsidized childcare](/events/gccbosc2018/childcare/) in downtown Portland on the Portland State University campus.  If you are using childcare it may be most convenient to [stay close to the PSU campus](/events/gccbosc2018/faq/#location-and-lodging).
 
 # Getting to GCCBOSC 2018
 
@@ -145,7 +145,7 @@ Sun, June 24 - [Singin’ in the Square](https://www.facebook.com/events/1881864
 
 ## Dining
 
-Some [meals are included with registration and/or conference lodging](/src/events/gccbosc2018/register/index.md#meals), but for the rest we encourage you to explore the [nearby Woodstock](https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064) and [Sellwood](https://www.yelp.com/search?find_loc=Sellwood,+Portland,+OR) neighborhoods, and the rest of Portland.
+Some [meals are included with registration and/or conference lodging](/events/gccbosc2018/register/#meals), but for the rest we encourage you to explore the [nearby Woodstock](https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064) and [Sellwood](https://www.yelp.com/search?find_loc=Sellwood,+Portland,+OR) neighborhoods, and the rest of Portland.
 
 ### Recommended pubs and restaurants near Reed
 

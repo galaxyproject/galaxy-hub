@@ -10,7 +10,7 @@ Target improvements for 2016 (in part lesson learned from apply and great feedba
 
 **Other idea pages (for reference)**
 
-* [Develop/GSOC/2015Ideas](/src/develop/gsoc/2015-ideas/index.md)
+* [Develop/GSOC/2015Ideas](/develop/gsoc/2015-ideas/)
 * [BioJS 2015](http://biojs.net/gsoc/2015/#project-ideas)
 * [Cytoscape (NRNB) 2014](http://nrnb.org/gsoc.html#ideas-tab)
 * [BioJS 2014](https://rostlab.org/services/biojs/gsoc.html)
@@ -20,7 +20,7 @@ Target improvements for 2016 (in part lesson learned from apply and great feedba
 
 # Ideas for Galaxy Project in GSoC 2016
 
-The page contains project ideas for potential [Google Summer of Code 2016](https://developers.google.com/open-source/soc) interns - more information on Galaxy and the GSOC 2016 can be found [here](/src/develop/gsoc/2016/index.md).
+The page contains project ideas for potential [Google Summer of Code 2016](https://developers.google.com/open-source/soc) interns - more information on Galaxy and the GSOC 2016 can be found [here](/develop/gsoc/2016/).
 
 
 

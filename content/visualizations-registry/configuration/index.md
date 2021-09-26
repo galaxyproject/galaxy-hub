@@ -176,7 +176,7 @@ Besides the `param` attributes above, the following are also available:
   be parsed using `type` and sent to the template
 
 Any parameters defined in the `params` section of your config file are available here. In addition, other variables
-are available (see [VisualizationsRegistry/Code](/src/visualizations-registry/code/index.md) for more info).
+are available (see [VisualizationsRegistry/Code](/visualizations-registry/code/) for more info).
 
 
 ## Other configuration options

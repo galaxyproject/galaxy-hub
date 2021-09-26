@@ -8,18 +8,18 @@ date: "2019-02-01"
 
 The *February  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.
 
-* [Event News](/src/news/2019-02-galaxy-update/index.md#event-news)
-  * **[Voting on GCC2019 training topics open through February 4th!](/src/news/2019-02-galaxy-update/index.md#gcc2019-training-topic-voting-is-open)**.
-  * **[ELIXIR Galaxy Community Workshop](/src/news/2019-02-galaxy-update/index.md#elixir-galaxy-community-workshop)** pre-registration is open! 
-* [GalaxyAdmins needs your topic suggestions](/src/news/2019-02-galaxy-update/index.md#galaxyadmins-needs-your-topic-suggestions).
-* [160 new publications](/src/news/2019-02-galaxy-update/index.md#publications), great resources lead to great insight. 
-* Some most excellent [Galaxy Platform News](/src/news/2019-02-galaxy-update/index.md#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
-* The Tutorial of the Month is ... [Genome annotation with Prokka](/src/news/2019-02-galaxy-update/index.md#new-galactic-blog-posts)!
-* At least [23 Open positions](/src/news/2019-02-galaxy-update/index.md#whos-hiring) in 6 countries on 2 continents. 
-* [Doc, Hub, and Training Updates](/src/news/2019-02-galaxy-update/index.md#doc-hub-and-training-updates), including *GO enrichment analysis*  and *Age prediction using machine learning*.
-* [ToolShed contributions](/src/news/2019-02-galaxy-update/index.md#toolshed-contributions).
-* [New releases](/src/news/2019-02-galaxy-update/index.md#releases) of galaxy-lib and Planemo.
-* And [a bunch of other news](/src/news/2019-02-galaxy-update/index.md#other-news) too.
+* [Event News](/news/2019-02-galaxy-update/#event-news)
+  * **[Voting on GCC2019 training topics open through February 4th!](/news/2019-02-galaxy-update/#gcc2019-training-topic-voting-is-open)**.
+  * **[ELIXIR Galaxy Community Workshop](/news/2019-02-galaxy-update/#elixir-galaxy-community-workshop)** pre-registration is open! 
+* [GalaxyAdmins needs your topic suggestions](/news/2019-02-galaxy-update/#galaxyadmins-needs-your-topic-suggestions).
+* [160 new publications](/news/2019-02-galaxy-update/#publications), great resources lead to great insight. 
+* Some most excellent [Galaxy Platform News](/news/2019-02-galaxy-update/#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
+* The Tutorial of the Month is ... [Genome annotation with Prokka](/news/2019-02-galaxy-update/#new-galactic-blog-posts)!
+* At least [23 Open positions](/news/2019-02-galaxy-update/#whos-hiring) in 6 countries on 2 continents. 
+* [Doc, Hub, and Training Updates](/news/2019-02-galaxy-update/#doc-hub-and-training-updates), including *GO enrichment analysis*  and *Age prediction using machine learning*.
+* [ToolShed contributions](/news/2019-02-galaxy-update/#toolshed-contributions).
+* [New releases](/news/2019-02-galaxy-update/#releases) of galaxy-lib and Planemo.
+* And [a bunch of other news](/news/2019-02-galaxy-update/#other-news) too.
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -31,7 +31,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 [<img class="float-right" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
-The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
+The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
 The GCC2019 Organizing Committee compiled [training topics nominated by the community](https://galaxyproject.org/events/gcc2019/training/#training-topic-votes) and expanded this list with community requests and topics from the previous GCC to offer a broad range of training sessions to be voted on by the community for GCC2019. Voting closes February 4th. 
 
@@ -43,7 +43,7 @@ Please take a moment and [**vote**](https://docs.google.com/forms/d/e/1FAIpQLSd7
 
 ## ELIXIR Galaxy Community Workshop
 
-[<img class="img-fluid mx-auto float-right" style="max-width: 160px" src="/src/images/logos/ElixirNoTextLogo.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
+[<img class="img-fluid mx-auto float-right" style="max-width: 160px" src="/src/images/logos/ElixirNoTextLogo.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
 
 Join the Galaxy Community of Elixir for a [three day workshop](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTM materials. 
 
@@ -54,9 +54,9 @@ Find pre-registration **[here](https://www.france-bioinformatique.fr/fr/evenemen
 
 ## GalaxyAdmins needs your topic suggestions
 
-[<img class="img-fluid mx-auto float-right" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
+[<img class="img-fluid mx-auto float-right" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
 
-After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [February 28](/src/community/galaxy-admins/meetups/2019-03-21/index.md). [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
+After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/community/galaxy-admins/meetups/) will return on [February 28](/community/galaxy-admins/meetups/2019-03-21/). [GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
 **But, before we start meeting this month, [we need to know what you care about](https://docs.google.com/forms/d/e/1FAIpQLSfv257YcdQQO7gp3K4USoBzqkd-UDEblsto5UhU34gFlXTiPQ/viewform).**  What do you want to learn?  Who do you want to hear from?  What's causing you trouble?  Or, what have you worked that your fellow GalaxyAdmins would benefit from knowing?
 
@@ -183,13 +183,13 @@ Ten of the fourteen highlighted publications are open access.
 
 The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's what's been added since last month:
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/quantp/quantp-fig3-400.jpg" alt="QuanTP" />](/src/use/quantp/index.md)
+[<img class="float-right" style="max-width: 300px" src="/src/use/quantp/quantp-fig3-400.jpg" alt="QuanTP" />](/use/quantp/)
 
 ## QuanTP
 
 [QuanTP](https://z.umn.edu/quantpdocker) is a Docker image containing a fully-operational Galaxy instance with pre-installed QuanTP, a suite of tools and functionalities critical for proteo-transcriptomics, including statistical algorithms for assessing the correlation between single transcript–protein pairs as well as across two cohorts, outlier identification and clustering, along with a diverse set of results visualizations.
 
-QuanTP is available in this Docker image, and on the [Proteogenomics Gateway](/src/use/proteogenomics-gateway/index.md) and [UseGalaxy.eu](https://usegalaxy.eu/).  It has an [Installation guide](https://jraysajulga.github.io/quanTP-docker/), and [Supporting information](http://z.umn.edu/quantpsi), including *Instructions for accessing the QuanTP tool on Jetstream*, *Instructions for accessing and running the Mouse data*, and *Accessing the QuanTP on the usegalaxy.eu.* QuanTP is supported by the University of Minnesota, Minneapolis.
+QuanTP is available in this Docker image, and on the [Proteogenomics Gateway](/use/proteogenomics-gateway/) and [UseGalaxy.eu](https://usegalaxy.eu/).  It has an [Installation guide](https://jraysajulga.github.io/quanTP-docker/), and [Supporting information](http://z.umn.edu/quantpsi), including *Instructions for accessing the QuanTP tool on Jetstream*, *Instructions for accessing and running the Mouse data*, and *Accessing the QuanTP on the usegalaxy.eu.* QuanTP is supported by the University of Minnesota, Minneapolis.
 
 ## miCloud
 
@@ -199,9 +199,9 @@ miCloud is supported  by Weill Cornell Medicine and Department of Biological Sci
 
 ## RNA Workbench
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/rna-workbench/rna-workbench-logo.png" alt="RNA Workbench" />](/src/use/rna-workbench/index.md)
+[<img class="float-right" style="max-width: 300px" src="/src/use/rna-workbench/rna-workbench-logo.png" alt="RNA Workbench" />](/use/rna-workbench/)
 
-[RNA Workbench](/src/use/rna-workbench/index.md), in addition to being available as a [Docker container](https://github.com/bgruening/galaxy-rna-workbench), is also available as [public server](https://rna.usegalaxy.eu/) hosted at UseGalaxy.eu.  RNA Workbench has a collection of over 50 tools dedicated to different research areas of RNA biology, including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein interaction, ribosome profiling, RNA-Seq analysis, and RNA target prediction.  This server has been up for a while, but we are just adding it to the platforms directory.
+[RNA Workbench](/use/rna-workbench/), in addition to being available as a [Docker container](https://github.com/bgruening/galaxy-rna-workbench), is also available as [public server](https://rna.usegalaxy.eu/) hosted at UseGalaxy.eu.  RNA Workbench has a collection of over 50 tools dedicated to different research areas of RNA biology, including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein interaction, ribosome profiling, RNA-Seq analysis, and RNA target prediction.  This server has been up for a while, but we are just adding it to the platforms directory.
 
 The workbench is developed by the RNA Bioinformatics Center (RBC). This center is one of the eight service units of the [German Network for Bioinformatics Infrastructure](http://www.denbi.de), running the German [ELIXIR Node](https://www.elixir-europe.org/).
 
@@ -213,7 +213,7 @@ Hi-C Explorer is also hosted at UseGalaxy.eu.
 
 ## G-OnRamp
 
-[<img class="float-right" style="max-width: 300px" src="/src/images/logos/g-onramp-logo-trans.png" alt="G-OnRamp" />](/src/use/g-onramp/index.md)
+[<img class="float-right" style="max-width: 300px" src="/src/images/logos/g-onramp-logo-trans.png" alt="G-OnRamp" />](/use/g-onramp/)
 
 [G-OnRamp](http://gonramp.wustl.edu/?page_id=1031) provides a user-friendly, web-based platform for collaborative, end-to-end annotation of eukaryotic genomes using UCSC Assembly Hubs and JBrowse/Apollo genome browsers with evidence tracks derived from sequence alignments, ab initio gene predictors, RNA-Seq data, and repeat finders. It is available as a [virtual machine](https://wustl.app.box.com/v/g-onramp-vm-v1) that can be deployed locally, and as an Amazon Machine Image that can be run on AWS and launched with [CloudLaunch](https://launch.usegalaxy.org/catalog).
 
@@ -234,7 +234,7 @@ G-OnRamp is supported by [Washington University in St. Louis](https://wustl.edu/
 
 ## Lifeportal
 
-[<img class="float-left" style="max-width: 200px" src="/src/use/lifeportal-oslo/lifeportal-logo.png" alt="LifePortal" />](/src/use/lifeportal-oslo/index.md)
+[<img class="float-left" style="max-width: 200px" src="/src/use/lifeportal-oslo/lifeportal-logo.png" alt="LifePortal" />](/use/lifeportal-oslo/)
 
 [Lifeportal](https://lifeportal.uio.no) is a Galaxy server available to any researcher in Norway (and possibly any other user willing to use the service). LifePortal implements about 400 applications. It runs Galaxy version 18.09 and jobs are executed on the [Abel cluster](https://www.uio.no/english/services/it/research/hpc/abel/more/) (~650 nodes) using the slurm-drmaa library.  User support is available [via email](mailto:lifeportal-help@usit.uio.no).
 
@@ -246,10 +246,10 @@ Every user with their own project in Lifeportal can manage it through the menus 
 And from this cool writeup (that has nothing to do with life science): [Learning from data: Using technology to gain deeper meaning from archives](https://works.bepress.com/emily-mercer/1/), by Emily Mercer of San Jose State University, describing work by [James Pustejovsky](http://www.pusto.com/) of Brandeis University:
 
 <blockquote class="blockquote">
-One example is the collaboration between the American Archive of Public Broadcasting and James Pustejovsky, professor at Brandeis University. In this collaboration James and his research team have created a software package using the Galaxy Workflow Engine and Language Application Grid ([LAPPS Grid](/src/use/lapps-grid/index.md)) for automatic extraction of metadata from video assets using machine learning methodologies (Oomen et al., 2018; [Pustejovsky et al., 2017](https://doi.org/10.1145/3093338.3104171)). What was once a time exhaustive process of real-time viewing and transcribing of film and video is now as simple as uploading a video file and applying a workflow. Processing takes seconds and afterwards the user has access to the metadata, for example, the text captions on the screen. This metadata can be exported as PBCore, a metadata standard specific to public broadcasting (Oomen et al., 2018; Pustejovsky et al., 2017).
+One example is the collaboration between the American Archive of Public Broadcasting and James Pustejovsky, professor at Brandeis University. In this collaboration James and his research team have created a software package using the Galaxy Workflow Engine and Language Application Grid ([LAPPS Grid](/use/lapps-grid/)) for automatic extraction of metadata from video assets using machine learning methodologies (Oomen et al., 2018; [Pustejovsky et al., 2017](https://doi.org/10.1145/3093338.3104171)). What was once a time exhaustive process of real-time viewing and transcribing of film and video is now as simple as uploading a video file and applying a workflow. Processing takes seconds and afterwards the user has access to the metadata, for example, the text captions on the screen. This metadata can be exported as PBCore, a metadata standard specific to public broadcasting (Oomen et al., 2018; Pustejovsky et al., 2017).
 </blockquote>
 
-There's also some [Jetstream](/src/use/jetstream/index.md) in the mix too.
+There's also some [Jetstream](/use/jetstream/) in the mix too.
 
 ## Galaxy Platforms in Publications
 
@@ -271,16 +271,16 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 # New Galactic Blog Posts
 
 <div class="float-right">
-[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/src/blog/2019-01-totm/index.md)
+[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/blog/2019-01-totm/)
 </div>
 
 There are two new *[Galactic Blog](/blog/)* entries:
 
-* **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/src/blog/2019-01-totm/index.md):**
+* **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/blog/2019-01-totm/):**
   * read about using Prokka for annotation of draft genome sequences
   * by Bérénice Batut
 * **[Hey Galaxy People! Want easy proteo-transcriptomics!??!](https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)**
-  * an enthusiastic post by [Ben Orsburn](https://proteomicsnews.blogspot.com/p/contact.html) about [QuanTP](/src/news/2019-02-galaxy-update/index.md#quantp)
+  * an enthusiastic post by [Ben Orsburn](https://proteomicsnews.blogspot.com/p/contact.html) about [QuanTP](/news/2019-02-galaxy-update/#quantp)
 
 ----
 
@@ -290,7 +290,7 @@ There are two new *[Galactic Blog](/blog/)* entries:
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
-* [Genomic data analyst](/src/news/2019-01-artbio-postdoc/index.md), [ARTbio](http://artbio.fr/), Institut de Biology Paris Seine, campus Jussieu of the Sorbonne-Université, Paris, France
+* [Genomic data analyst](/news/2019-01-artbio-postdoc/), [ARTbio](http://artbio.fr/), Institut de Biology Paris Seine, campus Jussieu of the Sorbonne-Université, Paris, France
 * [Cloud Engineer V](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
 * ELIXIR Belgium has **four Galaxy-related openings** in Ghent:
   * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
@@ -310,7 +310,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
   * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States.
+* [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States.
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -331,7 +331,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 ## Hub
 
-* [Configure Cloud Authorizatoin for Azure](/src/authnz/cloud/azure/index.md), by [Vahid Jalili](/people/vahid-jalili/)
+* [Configure Cloud Authorizatoin for Azure](/authnz/cloud/azure/), by [Vahid Jalili](/people/vahid-jalili/)
 
 
 ---
@@ -340,7 +340,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in January  2019](/src/toolshed/contributions/2019-01/index.md).
+[Tool Shed contributions in January  2019](/toolshed/contributions/2019-01/).
 
 
 # Releases
@@ -363,10 +363,10 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 # Other News
 
-* The [Galaxy statistics page](/src/galaxy-project/statistics/index.md) has received it's semi-annual update.
+* The [Galaxy statistics page](/galaxy-project/statistics/) has received it's semi-annual update.
 * From [James Taylor](/people/james-taylor/):
   * [Visualizing scRNA-Seq data](https://twitter.com/jxtx/status/1088580033512390657/video/1) using [cellxgene](https://github.com/chanzuckerberg/cellxgene/blob/master/README.md) inside Galaxy.
 
 ## PAG 2019 Presentations and Posters are Available
 
-Copies of most of the Galaxy related presentations and posters form the Plant and Animal Genome Conference [are now online](/src/events/2019-pag/index.md).  Many thanks to the all the presenters for sharing their during and after the conference.
+Copies of most of the Galaxy related presentations and posters form the Plant and Animal Genome Conference [are now online](/events/2019-pag/).  Many thanks to the all the presenters for sharing their during and after the conference.

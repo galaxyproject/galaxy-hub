@@ -78,15 +78,15 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 ## GCC2013
 
-<div class='center'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
+<div class='center'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 ### Training Day Topic Nominations
 
-<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
-[Nominations are now open](http://bit.ly/gcc2013nom) for [Training Day topics](/src/events/gcc2013/training-day/index.md) for the [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/index.md).  [GCC2013](/src/events/gcc2013/index.md) will start on 30 June with a Training Day featuring 4 parallel tracks, each with three, two hour workshops, for a total of twelve sessions.
+[Nominations are now open](http://bit.ly/gcc2013nom) for [Training Day topics](/events/gcc2013/training-day/) for the [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/).  [GCC2013](/events/gcc2013/) will start on 30 June with a Training Day featuring 4 parallel tracks, each with three, two hour workshops, for a total of twelve sessions.
 
-Any topic of interest to the Galaxy Community can be [nominated](http://bit.ly/gcc2013nom).  See [what's been nominated so far](/src/events/gcc2013/training-day/index.md#nominated-topics) (and [what was offered at GCC2012](/src/events/gcc2012/training-day/index.md)).  Topics can be repeats from last year or brand new, and you are encouraged to nominate as many topics as you like. 
+Any topic of interest to the Galaxy Community can be [nominated](http://bit.ly/gcc2013nom).  See [what's been nominated so far](/events/gcc2013/training-day/#nominated-topics) (and [what was offered at GCC2012](/events/gcc2012/training-day/)).  Topics can be repeats from last year or brand new, and you are encouraged to nominate as many topics as you like. 
 
 **Topic nomination closes 11 January.**
 
@@ -104,18 +104,18 @@ Any topic of interest to the Galaxy Community can be [nominated](http://bit.ly/g
 
 </div>
 
-Please join us in thanking [Molecular Life Science at the University of Oslo](http://www.uio.no/english/research/interfaculty-research-areas/mls/), [The Research Council of Norway](http://www.forskningsradet.no/english/), [Functional Genomics](http://www.bioinfo.no/about/) and [Elixer](http://www.elixir-europe.org/) for hosting and funding the [2013 Galaxy Community Conference](/src/events/gcc2013/index.md).
+Please join us in thanking [Molecular Life Science at the University of Oslo](http://www.uio.no/english/research/interfaculty-research-areas/mls/), [The Research Council of Norway](http://www.forskningsradet.no/english/), [Functional Genomics](http://www.bioinfo.no/about/) and [Elixer](http://www.elixir-europe.org/) for hosting and funding the [2013 Galaxy Community Conference](/events/gcc2013/).
 
 <div class='left'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="150" /></a></div>
 
-We are also pleased to announce '[Amazon Web Services](http://aws.amazon.com/) as the [GCC2013 Training Day Sponsor](/src/events/gcc2013/training-day/index.md).
-There are still several [sponsorships](/src/events/gcc2013/sponsorships/index.md) still available.  Please contact the [Organizers](/src/events/gcc2013/organizers/index.md) if your organization would like to help sponsor this event. 
+We are also pleased to announce '[Amazon Web Services](http://aws.amazon.com/) as the [GCC2013 Training Day Sponsor](/events/gcc2013/training-day/).
+There are still several [sponsorships](/events/gcc2013/sponsorships/) still available.  Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event. 
 
 ## January GalaxyAdmins Web Meetup
 
-<div class='right'><a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a></div>
+<div class='right'><a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a></div>
 
-The next [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2013-01-16/index.md) will be Wednesday, January 16, 2013 at 10am US central time.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will cover "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."
+The next [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-01-16/) will be Wednesday, January 16, 2013 at 10am US central time.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will cover "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."
 
 Please join us.
 
@@ -123,9 +123,9 @@ Please join us.
 
 <div class='center'>
 <a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'><img src="/src/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" height="80" /></a>
-<a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a>
+<a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a>
 <a href='http://conf.abrf.org/'><img src="/src/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
-<a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
+<a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 </div>
 
 <br />
@@ -150,8 +150,8 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> January 16 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'>Deploying Production Galaxy Environments on OpenStack with CloudBioLinux and CloudMan</a></em> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'>January GalaxyAdmins Web Meetup</a> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2013-01-16/'>Deploying Production Galaxy Environments on OpenStack with CloudBioLinux and CloudMan</a></em> </td>
+    <td> <a href='/community/galaxy-admins/meetups/2013-01-16/'>January GalaxyAdmins Web Meetup</a> </td>
     <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, Srinivas Maddhi, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
@@ -192,7 +192,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/events/gcc2013/'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -204,7 +204,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 * January 7: [ISMB/ECCB 2013](http://www.iscb.org/ismbeccb2013) Proceedings Deadline
 * January 10: [Genomic Standards Council Meeting (GSC 15)](http://gensc.org/gc_wiki/index.php/GSC_15) Early Registration Deadline
-* January 11: [GCC2013 Training Day](/src/events/gcc2013/training-day/index.md) Topic Nominations close
+* January 11: [GCC2013 Training Day](/events/gcc2013/training-day/) Topic Nominations close
 * January 14: [Great Lakes Bioinformatics Conference 2013 (GLBIO)](http://www.iscb.org/glbio2013/) Paper/Presentation deadline
 * January 15: [PAG Asia 2013](http://intlpagasia.org/2013) Early Registration deadline
 * January 30: [Genomic Standards Council Meeting (GSC 15)](http://gensc.org/gc_wiki/index.php/GSC_15) Registration Deadline
@@ -216,7 +216,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 <div class='right'><a href='http://galaxyproject.org'><img src="/src/images/news-graphics/2012_12_20_ngs-rna-analysis-toolsuite.png" alt="" width="140" /></a></div>
 
-**[Dec 20, 2012 Distribution](/src/news/2012-12-20-distribution-news-brief/index.md)**
+**[Dec 20, 2012 Distribution](/news/2012-12-20-distribution-news-brief/)**
 
 <div class='indent'>
 **Highlights:**
@@ -236,7 +236,7 @@ upgrade: $ hg pull -u -r 36ad8aa7b922
 
 </div>
 
-**[Dec 3, 2012 Distribution](/src/news/2012-12-03-distribution-news-brief/index.md)**
+**[Dec 3, 2012 Distribution](/news/2012-12-03-distribution-news-brief/)**
 
 <div class='right'><a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2012_12_03_new-history-menu.png" alt="" width="120" /></a></div>
 

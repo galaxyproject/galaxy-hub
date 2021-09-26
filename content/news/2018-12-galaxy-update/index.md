@@ -8,19 +8,19 @@ date: "2018-12-02"
 
 The *December  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
-* [Galaxy Help: A new Q&A site for Galaxy](/src/news/2018-12-galaxy-update/index.md#galaxy-help-a-new-qa-site-for-galaxy)
-* [Event News](/src/news/2018-12-galaxy-update/index.md#event-news)
-  * [ 2019 Galaxy Admin Training: Advance Registration Closes Dec 31 ](/src/news/2018-12-galaxy-update/index.md#2019-galaxy-admin-training-advance-registration-closes-dec-31)
-  * [Nominate Topics for GCC2019 Training!](/src/news/2018-12-galaxy-update/index.md#nominate-topics-for-gcc2019-training)
-  * [GCCBOSC 2018 videos](/src/news/2018-12-galaxy-update/index.md#gccbosc-2018-videos-are-now-available) and [European Galaxy Days slides](/src/news/2018-12-galaxy-update/index.md#european-galaxy-days-slides-are-online) are now online
-* [170 new publications](/src/news/2018-12-galaxy-update/index.md#publications), including eight highlighted ones
-* [Galaxy Platform News](/src/news/2018-12-galaxy-update/index.md#galaxy-platforms-news): Three new public servers/services, and eight containers added to the platform directory.
-* Two new [Galactic Blog entries](/src/news/2018-12-galaxy-update/index.md#new-galactic-blog-posts)
-* [16 Open positions](/src/news/2018-12-galaxy-update/index.md#whos-hiring) in 7 countries on 3 continents. 
-* [Doc, Hub, and Training Updates](/src/news/2018-12-galaxy-update/index.md#doc-hub-and-training-updates)
-* [ToolShed contributions](/src/news/2018-12-galaxy-update/index.md#toolshed-contributions)
-* [Planemo 0.57.1](/src/news/2018-12-galaxy-update/index.md#releases) 
-* And [other news](/src/news/2018-12-galaxy-update/index.md#other-news) too
+* [Galaxy Help: A new Q&A site for Galaxy](/news/2018-12-galaxy-update/#galaxy-help-a-new-qa-site-for-galaxy)
+* [Event News](/news/2018-12-galaxy-update/#event-news)
+  * [ 2019 Galaxy Admin Training: Advance Registration Closes Dec 31 ](/news/2018-12-galaxy-update/#2019-galaxy-admin-training-advance-registration-closes-dec-31)
+  * [Nominate Topics for GCC2019 Training!](/news/2018-12-galaxy-update/#nominate-topics-for-gcc2019-training)
+  * [GCCBOSC 2018 videos](/news/2018-12-galaxy-update/#gccbosc-2018-videos-are-now-available) and [European Galaxy Days slides](/news/2018-12-galaxy-update/#european-galaxy-days-slides-are-online) are now online
+* [170 new publications](/news/2018-12-galaxy-update/#publications), including eight highlighted ones
+* [Galaxy Platform News](/news/2018-12-galaxy-update/#galaxy-platforms-news): Three new public servers/services, and eight containers added to the platform directory.
+* Two new [Galactic Blog entries](/news/2018-12-galaxy-update/#new-galactic-blog-posts)
+* [16 Open positions](/news/2018-12-galaxy-update/#whos-hiring) in 7 countries on 3 continents. 
+* [Doc, Hub, and Training Updates](/news/2018-12-galaxy-update/#doc-hub-and-training-updates)
+* [ToolShed contributions](/news/2018-12-galaxy-update/#toolshed-contributions)
+* [Planemo 0.57.1](/news/2018-12-galaxy-update/#releases) 
+* And [other news](/news/2018-12-galaxy-update/#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -44,17 +44,17 @@ Tired of sitting in the same old office/lab/cafe?  Here are some upcoming events
 
 ## 2019 Galaxy Admin Training: Advance Registration Closes Dec 31
 
-[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" style="max-width: 150px" />](/src/events/2019-admin-training/index.md)
+[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" style="max-width: 150px" />](/events/2019-admin-training/)
 
-**[Advanced registration](/src/events/2019-admin-training/index.md#registration) ends December 31. Register now and avoid the 45 to 60% price increase in the new year.**
+**[Advanced registration](/events/2019-admin-training/#registration) ends December 31. Register now and avoid the 45 to 60% price increase in the new year.**
 
-[Galaxy Admin Training](/src/events/2018-europe-dev/index.md) will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions. See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
+[Galaxy Admin Training](/events/2018-europe-dev/) will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions. See the [Galaxy 2019 Admin Training page](/events/2019-admin-training/) for more details.
 
 ## Nominate Topics for GCC2019 Training!
 
 [<img class="float-left" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
-The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
+The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
 **The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
 
@@ -87,15 +87,15 @@ If you want to know more about what happened at GCCBOSC 2018, take a look at the
 * [Event photo album](https://www.flickr.com/photos/134305289@N03/sets/72157695693844792/), by Bérénice Batut
 * [Final Conference Program (PDF)](https://depot.galaxyproject.org/hub/attachments/events/gccbosc2018/gccbosc2018-printed-program.pdf)
 
-**See you next year in [Freiburg (Galaxy)](/src/events/gcc2019/index.md) and [Basel (BOSC)](https://www.iscb.org/ismbeccb2019)!**
+**See you next year in [Freiburg (Galaxy)](/events/gcc2019/) and [Basel (BOSC)](https://www.iscb.org/ismbeccb2019)!**
 
 *And, taking considerably less time than the GCCBOSC 2018 videos...*
 
 ## European Galaxy Days: Slides are online
 
-<div class="float-right">[<i class="fas fa-chalkboard-teacher" style="font-size:48px; color: SteelBlue;"></i>](/src/events/2018-europe-dev/index.md)</div>
+<div class="float-right">[<i class="fas fa-chalkboard-teacher" style="font-size:48px; color: SteelBlue;"></i>](/events/2018-europe-dev/)</div>
 
-Slides for presentations at [European Galaxy Days](/src/events/2018-europe-dev/index.md) are now online.  EGD2018 featured almost 20 talks spanning the Galactic specturm, from implementation to application.  [Take a look](/src/events/2018-europe-dev/index.md).
+Slides for presentations at [European Galaxy Days](/events/2018-europe-dev/) are now online.  EGD2018 featured almost 20 talks spanning the Galactic specturm, from implementation to application.  [Take a look](/events/2018-europe-dev/).
 
 ## Upcoming events
 
@@ -209,13 +209,13 @@ The [Galaxy Platform Directory](/use/) was launched lat month.  It lists every r
 
 [<img class="float-left" src="/src/use/biobix/biobix_logo.png" alt="BioBix" />](http://galaxy.ugent.be/)
 
-The [BioBix server](http://galaxy.ugent.be/) is a Galaxy genomics server with many of the  "standard" Galaxy tools for genomics. It also includes *PROTEOFORMER* tools. PROTEOFORMER is a proteogenomic pipeline that delineates true in vivo proteoforms and generates a protein sequence search space for peptide to MS/MS matching.  BioBix is hosted by the [Lab of Computational Genomics & Bioinformatics](http://www.biobix.be/) at  Ghent University, Belgium. See the [server description](/src/use/biobix/index.md) for more details.
+The [BioBix server](http://galaxy.ugent.be/) is a Galaxy genomics server with many of the  "standard" Galaxy tools for genomics. It also includes *PROTEOFORMER* tools. PROTEOFORMER is a proteogenomic pipeline that delineates true in vivo proteoforms and generates a protein sequence search space for peptide to MS/MS matching.  BioBix is hosted by the [Lab of Computational Genomics & Bioinformatics](http://www.biobix.be/) at  Ghent University, Belgium. See the [server description](/use/biobix/) for more details.
 
-[<img class="float-right" src="/src/use/laniakea/laniakea-indigo-datacloud.png" alt="Laniakea / INDIGO-DataCloud" width="250px" />](/src/use/laniakea/index.md)
+[<img class="float-right" src="/src/use/laniakea/laniakea-indigo-datacloud.png" alt="Laniakea / INDIGO-DataCloud" width="250px" />](/use/laniakea/)
 
 ## Laniakea / INDIGO-DataCloud
 
-[Laniakea](https://laniakea-elixir-it.github.io/) provides Italy-based researchers the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.  See the [service description](/src/use/laniakea/index.md) for full details.
+[Laniakea](https://laniakea-elixir-it.github.io/) provides Italy-based researchers the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.  See the [service description](/use/laniakea/) for full details.
 
 [<img class="float-left" src="/src/images/logos/hardwood-geonomics-logo.jpg" alt="Hardwood Genomics Galaxy Workflows" style="max-width: 80px" />](https://www.hardwoodgenomics.org/content/tripal-galaxy-workflows)
 
@@ -233,12 +233,12 @@ This month several containers were added to the directory.  These aren't actuall
 
 * [Constructive Solid Geometry](https://github.com/gregvonkuster/galaxy-csg)
 * deepTools
-* [Exome-Seq](/src/use/exome-seq/index.md)
-* [Galaxy BLAST+](/src/use/blast/index.md)
-* [Galaxy for basic sequence manipulation](/src/use/basic-sequence/index.md)
-* [Galaxy for Imaging](/src/use/imaging/index.md)
-* [Galaxy Genome Annotation](/src/use/gga/index.md)
-* [Workflow4Metabolomics](/src/use/workflow4metabolomics/index.md)
+* [Exome-Seq](/use/exome-seq/)
+* [Galaxy BLAST+](/use/blast/)
+* [Galaxy for basic sequence manipulation](/use/basic-sequence/)
+* [Galaxy for Imaging](/use/imaging/)
+* [Galaxy Genome Annotation](/use/gga/)
+* [Workflow4Metabolomics](/use/workflow4metabolomics/)
 
 All of these are Docker containers.
 
@@ -264,7 +264,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 There are two new *[Galactic Blog](/blog/)* entries:
 * **[Galaxy Tool Generator (GTG)](https://galaxy-tool-generator.readthedocs.io/en/latest/)**, by Ming Chen
-* **[Tutorial of the Month: "Reference-based RNA-Seq data analysis", selected by Saskia Hiltemann](/src/blog/2018-11-totm/index.md)**, by Bérénice Batut
+* **[Tutorial of the Month: "Reference-based RNA-Seq data analysis", selected by Saskia Hiltemann](/blog/2018-11-totm/)**, by Bérénice Batut
 
 ----
 # Who's Hiring
@@ -288,7 +288,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md): distributed computing engineer and a full stack developer; see [this for more details on the positions](https://jobs.jhu.edu/job/Baltimore-Software-Engineer-MD-21218/442289500/, Baltimore, Maryland, United States).
+* [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/): distributed computing engineer and a full stack developer; see [this for more details on the positions](https://jobs.jhu.edu/job/Baltimore-Software-Engineer-MD-21218/442289500/, Baltimore, Maryland, United States).
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -339,7 +339,7 @@ And we would especially like to welcome new contributors [Anup Kumar](https://gi
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in November 2018](/src/toolshed/contributions/2018-11/index.md).
+[Tool Shed contributions in November 2018](/toolshed/contributions/2018-11/).
 
 
 # Releases

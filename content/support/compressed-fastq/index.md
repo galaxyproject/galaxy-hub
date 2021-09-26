@@ -5,10 +5,10 @@
 
 Related Topics
  * [Fastq Manipulation and Quality Control](/src/tutorials/ngs/#fastq-manipulation-and-quality-control)
- * [How to format fastq data for tools that require .fastqsanger format?](/src/support/fastqsanger/index.md)
- * [Format help for Tabular/BED/Interval Datasets](/src/support/tabular/index.md)
- * [Common datatypes explained](/src/learn/datatypes/index.md)
- * [Input datatype misassignment and errors](/src/support/tool-error/index.md)
+ * [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
+ * [Format help for Tabular/BED/Interval Datasets](/support/tabular/)
+ * [Common datatypes explained](/learn/datatypes/)
+ * [Input datatype misassignment and errors](/support/tool-error/)
  
 ### What is `fastq.gz` data?
 
@@ -37,13 +37,13 @@ Before assigning `fastqsanger` or `fastqsanger.gz`, be sure to confirm the forma
 
 **TIP** Using *non-fastqsanger* scaled quality values will cause scientific problems with tools that expected fastqsanger formatted input. *Even if the tool does not fail*. Get the format right from the start to avoid problems. Incorrect format is still one of the most common reasons for tool errors or unexpected results (within Galaxy or not).
 
-* [How to format fastq data for tools that require .fastqsanger format?](/src/support/fastqsanger/index.md)
+* [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
 
 ### Best practises for loading fastq data into Galaxy
 
  * As of release `17.09`, fastq data will have the datatype `fastqsanger` auto-detected when that qualtity score scaling is detected and "autodetect" is used within the Upload tool. Compressed fastq data will be converted to uncompressed in the history.
  * To preserve fastq compression, directly assign the approrpriate datatype (eg: `fastqsanger.gz`).
- * If the data is close to or over 2 GB in size, be sure to use [FTP](/src/support/loading-data/index.md)
+ * If the data is close to or over 2 GB in size, be sure to use [FTP](/support/loading-data/)
  * If the data was already loaded as `fastq.gz`, don't worry! Just test the data for correct format (as needed) and assign the metadata type as explained above. This is currently a one-dataset-at-a-time edit post-Upload, but future plans include making these assignments a batch operation.
  
 

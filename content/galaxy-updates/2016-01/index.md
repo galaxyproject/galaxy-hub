@@ -142,8 +142,8 @@ There are two event reports, See the [one by Björn Grüning](https://gist.githu
 There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
-<a href='/src/events/asu2016/index.md'><img src="/src/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" height="60" /></a>&nbsp;
-<a href='/src/events/pag2016/index.md'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="90" /></a> &nbsp;
+<a href='/events/asu2016/'><img src="/src/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" height="60" /></a>&nbsp;
+<a href='/events/pag2016/'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="90" /></a> &nbsp;
 <a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'><img src="/src/images/logos/FoG_London.jpg" alt="An introduction to clinical bioinformatics" height="70" /></a>
 <a href='http://www.drylab.nl/teaching-and-trainings/trait-vumc-course-on-galaxy/'><img src="/src/images/logos/CTMM-TraITLogoSmall.png" alt="NGS Data Analysis in Galaxy (CTMM-TraIT course)" height="90" /></a>
 </div>
@@ -157,7 +157,7 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
   </tr>
   <tr>
     <th> January 8 </th>
-    <td> <em><a href='/src/events/asu2016/index.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/asu2016/'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
@@ -169,9 +169,9 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
   </tr>
   <tr>
     <th> January 9-13 </th>
-    <td> <strong><a href='/src/events/pag2016/index.md'>Plant and Animal Genome (PAG XXIV)</a></strong> </td>
+    <td> <strong><a href='/events/pag2016/'>Plant and Animal Genome (PAG XXIV)</a></strong> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> San Diego, California, United States </td>
-    <td> See <a href='/src/events/pag2016/index.md'>presenters</a> </td>
+    <td> See <a href='/events/pag2016/'>presenters</a> </td>
   </tr>
   <tr>
     <th> January 19 </th>
@@ -223,7 +223,7 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> <strong><em><a href='/src/events/gcc2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
+    <td> <strong><em><a href='/events/gcc2016/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://web.archive.org/web/http://gcc2016.iu.edu/organizers/index.php'>Organizers</a> </td>
   </tr>
@@ -249,7 +249,7 @@ The Galaxy is expanding! Please help it grow.
 * [Computational Biology post-doc](http://bit.ly/1J1WLla), IMI-eTRIKS consortium, CNRS-EISBM, Lyon France. Contribute "to the development of eTRIKS Galaxy tools and workflows for disease stratification and biomarker discovery from single and multiple omics datasets."
 * [Post-doc in Functional Genomics Of Obesity-Related Diseases](http://bit.ly/1QFyDHK), Inserm, Lille, France 
 * [Bioinformatician Post-doc at SB Roscoff](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/message/IC6W3TYHDUB2BSI2SCJQPU2KK3MA7NQM/) working on parasitic dinoflagellate genomics
-* [Software Engineer](/src/news/software-engineer-ohsu/index.md), Oregon Health Sciences University, Portland, Oregon, United States
+* [Software Engineer](/news/software-engineer-ohsu/), Oregon Health Sciences University, Portland, Oregon, United States
 * [Software Developer / Bioinformatician](https://ig14.i-grasp.com/fe/tpl_embl01.asp?s=4A515F4E5A565B1A&jobid=54309,8734341283&key=64564906&c=342372129814&pagestamp=seqbdpnrnmbvdpxtgb), European Molecular Biology Laboratory (EMBL), Heidelberg, Germany
     *Extended until 10 January 2016.*
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
@@ -395,7 +395,7 @@ The 0.6.x release includes these changes:
 
  **BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
  **blend4j v0.1.2**
@@ -427,7 +427,7 @@ The 0.6.x release includes these changes:
 
 # ToolShed Contributions
 
-See [list of tools contributed in December](/src/toolshed/contributions/2015-12/index.md).
+See [list of tools contributed in December](/toolshed/contributions/2015-12/).
 
 
 ----

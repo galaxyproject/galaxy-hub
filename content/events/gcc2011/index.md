@@ -79,12 +79,12 @@ Relocate the links from the current pages in Bitbucket to here.
 
 Each breakout has its own wiki page for notes. Someone in each group was selected to take notes, either directly on the wiki page, or just in a text editor (in which case, they will show up in June).
 
-* [Visualization and Visual Analytics](/src/events/gcc2011/visualization-and-visual-analytics/index.md) ([Jeremy Goecks](/people/jeremy-goecks/))
-* [Sample Tracking and Instrument Integration](/src/events/gcc2011/sample-tracking-and-instrument-integration/index.md) (Greg Von Kuster)
-* [Thinking Big: CloudMan, Grid, and Scalability](/src/events/gcc2011/thinking-big-cloudman-grid-and-scalability/index.md) (Enis Afgan)
-* [Workflows and API](/src/events/gcc2011/workflows-and-api/index.md) (Kanwei Li)
-* [Complex Tools and Datasources: Parameters, Datatypes and Metadata](/src/events/gcc2011/complex-tools-and-datasources-parameters-datatypes-and-metadata/index.md) (Dan Blankenberg)
-* [Building a Data Infrastructure: Genomic Data Management](/src/events/gcc2011/building-a-data-infrastructure/index.md) (Kelly Vincent)
+* [Visualization and Visual Analytics](/events/gcc2011/visualization-and-visual-analytics/) ([Jeremy Goecks](/people/jeremy-goecks/))
+* [Sample Tracking and Instrument Integration](/events/gcc2011/sample-tracking-and-instrument-integration/) (Greg Von Kuster)
+* [Thinking Big: CloudMan, Grid, and Scalability](/events/gcc2011/thinking-big-cloudman-grid-and-scalability/) (Enis Afgan)
+* [Workflows and API](/events/gcc2011/workflows-and-api/) (Kanwei Li)
+* [Complex Tools and Datasources: Parameters, Datatypes and Metadata](/events/gcc2011/complex-tools-and-datasources-parameters-datatypes-and-metadata/) (Dan Blankenberg)
+* [Building a Data Infrastructure: Genomic Data Management](/events/gcc2011/building-a-data-infrastructure/) (Kelly Vincent)
 
 ## Pictures
 
@@ -92,5 +92,5 @@ Many thanks to Rob Hooft for taking [these pictures](http://bit.ly/gcc-d1) on th
 
 ## Feedback
 
-We received [feedback](/src/events/gcc2011/feedback/index.md) from 73 participants.
+We received [feedback](/events/gcc2011/feedback/) from 73 participants.
 

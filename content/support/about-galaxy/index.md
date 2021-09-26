@@ -18,7 +18,7 @@ Galaxy is an open, web-based platform for data intensive biomedical research. Ga
 * **Reproducible:** Galaxy captures information so that any user can repeat and understand a complete computational analysis.
 * **Transparent:** Users share and publish analyses via the web and create Pages, interactive, web-based documents that describe a complete analysis.
 
-In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/src/admin/get-galaxy/index.md), or create an [instance of Galaxy on the cloud using CloudMan](/cloudman/) and explore all [Cloud](/cloud/) resources.  Another option is to use one of the ever-increasing number of [Public Galaxy Servers](/use/) hosted by other organizations.
+In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/admin/get-galaxy/), or create an [instance of Galaxy on the cloud using CloudMan](/cloudman/) and explore all [Cloud](/cloud/) resources.  Another option is to use one of the ever-increasing number of [Public Galaxy Servers](/use/) hosted by other organizations.
 
 
 The [Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam) is a part of the [Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Department of Biology](http://www.bio.jhu.edu/) at [Johns Hopkinis University](http://www.jhu.edu/). 

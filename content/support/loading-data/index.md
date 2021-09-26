@@ -5,7 +5,7 @@
 
 Related topics
   
-  *  [Downloading Data](/src/support/download-data/index.md)
+  *  [Downloading Data](/support/download-data/)
   *  [Load into a Data Library (Admin)](/data-libraries/)
   *  [Local Galaxy? Configure FTP Upload (Admin)](/src/admin/config/#ftp)
 
@@ -18,7 +18,7 @@ Tutorials
 ## Video Tutorials
 
  * Quick help: [**Manupulating NGS data with Galaxy: Getting Data In**](/src/tutorials/ngs/#getting-ngs-data-in)
- * Full tutorial: [**Uploading data into Galaxy**](/src/tutorials/upload/index.md)
+ * Full tutorial: [**Uploading data into Galaxy**](/tutorials/upload/)
  * Dataset Collections, including creation during Upload: [**Processing many samples at once with collections**](https://galaxyproject.org/tutorials/collections/)
  * FTP/FTPS tutorial: [**FTP Upload**](/ftp-upload/)
 
@@ -50,10 +50,10 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 ### Get Data: EBI-SRA
 
 *   Search for your data directly in the tool and use the Galaxy links
-*   There are a few links, so [which data do I load?](/src/support/ebi-sra-data-load/index.md)
+*   There are a few links, so [which data do I load?](/support/ebi-sra-data-load/)
 *   Be sure to check your sequence data for correct quality score formats and the metadata "datatype" assignment. 
-  * [How to format fastq data for tools that require .fastqsanger format?](/src/learn/fastqsanger/index.md)
-  * [Understanding compressed fastq data (fastq.gz)](/src/learn/compressed-fastq/index.md)
+  * [How to format fastq data for tools that require .fastqsanger format?](/learn/fastqsanger/)
+  * [Understanding compressed fastq data (fastq.gz)](/learn/compressed-fastq/)
 
 ### Get Data: Upload tool used with FTP
 
@@ -61,7 +61,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   Note that the FTP server name is specific to the Galaxy you are working on. This is by default the URL of the server.
     *   For the public Galaxy Main instance at [http://usegalaxy.org](http://usegalaxy.org) the FTP server name to use is **usegalaxy.org**.
     *   For a default local (with FTP enabled, see next) the FTP server name to use is **localhost:8080**. If the server URL was modified, use that custom URL.
-*   If on another server, the FTP server name will appear in the **Upload** tool pop-up window (see graphics below). When using a local Galaxy server, be certain to [configure your instance for FTP](/src/admin/config/upload-via-ftp/index.md) first.
+*   If on another server, the FTP server name will appear in the **Upload** tool pop-up window (see graphics below). When using a local Galaxy server, be certain to [configure your instance for FTP](/admin/config/upload-via-ftp/) first.
 *   Use your email and password for the same instance as your credentials to log in and save the data to your account.
 *   Once the data is loaded (confirm through FTP client), use the **Upload** tool to load the data into a History.
 *   **`FTPS` was enabled for all transfers to [http://usegalaxy.org](http://usegalaxy.org) on July 19, 2017**. If you are having trouble connecting the first time after this date, verifying the server certificate is required when using an [FTP client](/src/ftp-upload/#upload-from-client).
@@ -91,6 +91,6 @@ If you already moved a partial or truncated dataset into a History, you will nee
 *   Compression types **.gz/.gzip, .bz/.bzip, .bz2/.bzip2, and _single-file_ .tar and .zip are (usually) supported -- but if your tar/zip data does not load -- download the data locally, unpack the archive, and upload the data directly.**
 *   Only the **first file in any compressed archive** will load as a **[dataset](/src/learn/managing-datasets)**.
 *   Data must be **< 50G** (uncompressed) to be successfully uploaded and added as a dataset to a history, from any source.
-*   **Is the problem the dataset format or the assigned datatype?** Can this be corrected by editing the datatype or converting formats? See [Learn/Managing Datasets](/src/learn/managing-datasets/index.md) for help or watch the screencast above for a how-to example.
+*   **Is the problem the dataset format or the assigned datatype?** Can this be corrected by editing the datatype or converting formats? See [Learn/Managing Datasets](/learn/managing-datasets/) for help or watch the screencast above for a how-to example.
 *   **Problems in the first step working with your loaded data?** It may not have _uploaded_ completely. If you used an FTP client, the transfer message will indicate if a load was successful or not and can often restart interrupted loads. This makes FTP a great choice for slower connections, even when loading small files.
 

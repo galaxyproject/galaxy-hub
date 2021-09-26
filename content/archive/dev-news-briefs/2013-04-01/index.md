@@ -4,7 +4,7 @@ date: 2013-04-01
 ---
 
 ```wiki red/solid/light
-Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/src/news/2013-04-08-galaxy-security-release/index.md), which is was not included in the original April 1, 2013 distribution.```
+Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/news/2013-04-08-galaxy-security-release/), which is was not included in the original April 1, 2013 distribution.```
 
 <br />
 
@@ -150,7 +150,7 @@ This is last Galaxy distribution that will support Python 2.5. Follow the ticket
 
 1. The Galaxy Main **Rsync** server hosts download of the same `.loc` files and genome data used by the Galaxy team. This service now also hosts all pre-cashed datasets, such as MAF, blastdb, etc. Our updated wiki lists the available directories: [Get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)
 
-1. **Basic Data Manager Functionality** is now present for locally defined and Tool Shed installed data managers ([Admin/Tools/DataManagers](/src/admin/tools/data-managers/index.md)).
+1. **Basic Data Manager Functionality** is now present for locally defined and Tool Shed installed data managers ([Admin/Tools/DataManagers](/admin/tools/data-managers/)).
 
 An abstracted interface has been created for the data manager to download, generate, or otherwise procure locally cached data for use in analyses. For details about implementation, please see the following Trello tickets.
 * In Galaxy:
@@ -269,7 +269,7 @@ http://usegalaxy.org/cloud
 ### Pull Requests Merged
 
 1. Refactoring Task Splitting Toward Per-Job Definitions, pull request **[#87](https://bitbucket.org/galaxy/galaxy-central/pull-request/87)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/04FGD1Fv
-2. Adding variable 'host_url' to provide qualified URL of host to tool help section, pull request **[#119](https://bitbucket.org/galaxy/galaxy-central/pull-request/119)**. Thanks to [Kyle Ellrott](https://bitbucket.org/kellrott). https://trello.com/c[/RuO0tJ7r](/src/archive/dev-news-briefs/2013-04-01/RuO0tJ7r/index.md)
+2. Adding variable 'host_url' to provide qualified URL of host to tool help section, pull request **[#119](https://bitbucket.org/galaxy/galaxy-central/pull-request/119)**. Thanks to [Kyle Ellrott](https://bitbucket.org/kellrott). https://trello.com/c[/RuO0tJ7r](/archive/dev-news-briefs/2013-04-01/RuO0tJ7r/)
 3. Display the toolshed tools in the workflow search, pull request **[#120](https://bitbucket.org/galaxy/galaxy-central/pull-request/120)**. Thanks to [Björn Grüning](https://bitbucket.org/BjoernGruening). https://trello.com/c/ebePONBa
 
 <br />
@@ -280,7 +280,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Bug Fixes and related Enhancements
 
-1. Assign proper job state to uploaded, deleted, files https://trello.com/c[/IdS6](/src/archive/dev-news-briefs/2013-04-01/IdS6/index.md)EYwE
+1. Assign proper job state to uploaded, deleted, files https://trello.com/c[/IdS6](/archive/dev-news-briefs/2013-04-01/IdS6/)EYwE
 1. UI Refactoring: more graceful handling of individual hda errors https://trello.com/c/qIPH1bJP
 1. Screencast display window size corrected (was too small) https://trello.com/c/QTZLmi70
 1. Restored header/"no peek" window content for datasets without UI display https://trello.com/c/zlEnYNjY
@@ -290,7 +290,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 1. Bowtie2 wrapper usage with samtools fixed https://trello.com/c/v9G7v5DV
 1. Fix "File Upload -> File Format" list to reflect settings in datatypes_conf.xml https://trello.com/c/5ageaGBd
 1. Fix drillDown fields and parameters display https://trello.com/c/JN8495Up
-1. Scatter plot tool treats empty/absent values as NULL values instead of errors https://trello.com/c[/BmoMa](/src/archive/dev-news-briefs/2013-04-01/BmoMa/index.md)PXc
+1. Scatter plot tool treats empty/absent values as NULL values instead of errors https://trello.com/c[/BmoMa](/archive/dev-news-briefs/2013-04-01/BmoMa/)PXc
 
 <br />
 # Announcements
@@ -299,9 +299,9 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 ## GCC2013
 
-<div class='left'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
+<div class='left'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
 
-<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div> 
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div> 
 <br />
 <br />
 <br />

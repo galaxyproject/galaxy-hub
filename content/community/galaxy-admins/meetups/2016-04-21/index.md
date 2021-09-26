@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.uio.no/'><img src="/src/images/logos/UiOLogo.png" alt="University of Oslo" /></a><br /><br /> <a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
+<a href='http://www.uio.no/'><img src="/src/images/logos/UiOLogo.png" alt="University of Oslo" /></a><br /><br /> <a href='/community/galaxy-admins/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 <div class='title'>2016-04-21 [Web Meetup](https://connect.johnshopkins.edu/gxyadmins201604/)<br /><br />
 
 </div></div>
@@ -30,7 +30,7 @@
 
 <br />
 
-*[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations.  The April 2016 meetup will feature two topics:
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations.  The April 2016 meetup will feature two topics:
 
 ## Galaxy Portal
 

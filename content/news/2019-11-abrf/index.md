@@ -4,12 +4,12 @@ tease: "Registration is open, but space is limited"
 date: "2019-11-21"
 ---
 
-[<img class="float-right" style="max-width: 16rem" src="/src/images/logos/abrf-logo-color-text.png" alt="Galaxy Workshop at ABRF 2020" />](/src/events/2020-abrf/index.md)
+[<img class="float-right" style="max-width: 16rem" src="/src/images/logos/abrf-logo-color-text.png" alt="Galaxy Workshop at ABRF 2020" />](/events/2020-abrf/)
 
-Two up and coming topics in the life sciences will be featured in a day long [pre-conference workshop](/src/events/2020-abrf/index.md) at the [Association of Biomolecular Resource Facilities (ABRF) 2020 conference](http://conf.abrf.org/) in Palm Springs, California:
+Two up and coming topics in the life sciences will be featured in a day long [pre-conference workshop](/events/2020-abrf/) at the [Association of Biomolecular Resource Facilities (ABRF) 2020 conference](http://conf.abrf.org/) in Palm Springs, California:
 
-* [Single Cell RNA-Seq and Visualization Using the Galaxy Workbench](/src/events/2020-abrf/index.md#sw5a-single-cell-rna-seq-and-visualization-using-the-galaxy-workbench-am)
-* [Galaxy Platform for Functional Characteristics of Microbiomes](/src/events/2020-abrf/index.md#sw5b-galaxy-platform-for-functional-characteristics-of-microbiomes-pm)
+* [Single Cell RNA-Seq and Visualization Using the Galaxy Workbench](/events/2020-abrf/#sw5a-single-cell-rna-seq-and-visualization-using-the-galaxy-workbench-am)
+* [Galaxy Platform for Functional Characteristics of Microbiomes](/events/2020-abrf/#sw5b-galaxy-platform-for-functional-characteristics-of-microbiomes-pm)
 
 Learn about the Galaxy platform and how to use it for data integration and analyses in these and other domains.  [Early registration is now open](https://conf.abrf.org/program/registration-schedule/), but *space is limited, and registration is on a first-come, first-served basis.*  (And you don't need to attend the full ABRF conference to attend this workshop.)
 

@@ -11,7 +11,7 @@ For general help on using Galaxy, see [Learn](/learn/).
 
 ## Installing tools
 
-Please see [installing tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md) to learn how to add tools to your Galaxy.
+Please see [installing tools](/admin/tools/add-tool-from-toolshed-tutorial/) to learn how to add tools to your Galaxy.
 
 ## Writing tools
 

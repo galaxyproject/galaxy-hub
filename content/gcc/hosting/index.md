@@ -36,7 +36,7 @@ Having local people who are committed to the success of the event is absolutely 
 
 ## Affordable
 
-[<img class="float-right" src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" style="max-width: 175px" />](/src/events/gcc2014/index.md)
+[<img class="float-right" src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" style="max-width: 175px" />](/events/gcc2014/)
 
 Affordable registration is very high priority.  One way to achieve that is with low expenses.  Another is by getting lots of sponsorships.
 
@@ -46,7 +46,7 @@ The ability to host Training, Conference, and Collaborative (hackathon) events i
 
 Needed facilities
 
-[<img class="float-right" src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" style="max-width: 180px" />](/src/events/gcc2013/index.md)
+[<img class="float-right" src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" style="max-width: 180px" />](/events/gcc2013/)
 
   - A large meeting space for all attendees
   - Smaller spaces for training, parallel tracks, birds-of-a-feather, CoFests, and informal gatherings
@@ -57,7 +57,7 @@ Needed facilities
 
 ## Lodging
 
-[<img class="float-right" src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" style="max-width: 150px" />](/src/events/gcc2012/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" style="max-width: 150px" />](/events/gcc2012/)
 
 Affordable (think dorm) housing is a big plus and goes a long way towards lowering attendees costs.  The conference can also have official hotels, or just list ones that the organizers recommend.
 
@@ -67,7 +67,7 @@ Ideally, the event will be within 2 hours of a major airport, and lodging and ev
 
 We meet in North America in even years, and *not-in-North-America* in odd years.  (So far *not-in-North-America* has always meant Europe, but we are open to other continents.)  We'd like to keep that pattern going.
 
-[<img class="float-right" src="/src/events/GCC2011Logo400.png" alt="GCC2011" style="max-width: 200px" />](/src/events/gcc2011/index.md) 
+[<img class="float-right" src="/src/events/GCC2011Logo400.png" alt="GCC2011" style="max-width: 200px" />](/events/gcc2011/) 
 
 ## Ideas for improvement
 

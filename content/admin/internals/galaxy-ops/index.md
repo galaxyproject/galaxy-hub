@@ -2,6 +2,6 @@
 
 Hub page for *GalaxyOps*
 
-* [C](/src/admin/internals/galaxy-ops/c/index.md)
-* [Help Info](/src/admin/internals/galaxy-ops/help-info/index.md)
-* [Python](/src/admin/internals/galaxy-ops/python/index.md)
+* [C](/admin/internals/galaxy-ops/c/)
+* [Help Info](/admin/internals/galaxy-ops/help-info/)
+* [Python](/admin/internals/galaxy-ops/python/)

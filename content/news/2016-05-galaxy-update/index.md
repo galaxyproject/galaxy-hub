@@ -3,30 +3,30 @@ title: "May 2016 Galactic News"
 date: "2016-04-29"
 ---
 <div class='right'>
-<a href='/src/galaxy-updates/2016-05/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />
+<a href='/galaxy-updates/2016-05/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />
 <br />
-<a href='/src/galaxy-updates/2016-05/index.md#gcc2016'><img src="/src/images/logos/GCC2016LogoTallBig.png" alt="GCC2016 News" width="150" /></a></div>
+<a href='/galaxy-updates/2016-05/#gcc2016'><img src="/src/images/logos/GCC2016LogoTallBig.png" alt="GCC2016 News" width="150" /></a></div>
 
 
-Some highlights from the **[May Galaxy News](/src/galaxy-updates/2016-05/index.md)**
+Some highlights from the **[May Galaxy News](/galaxy-updates/2016-05/)**
 
-* **[GCC2016](/src/galaxy-updates/2016-05/index.md#gcc2016) Deadlines!** and **[Sponsors](/src/galaxy-updates/2016-05/index.md#sponsors)**
-  * **[Poster & Demo Abstracts: May 20](/src/galaxy-updates/2016-05/index.md#poster--demo-abstracts-may-20)**
-  * **[Early Registration: May 20](/src/galaxy-updates/2016-05/index.md#early-registration-may-20)**
-  * **[Scholarships: May 1](/src/galaxy-updates/2016-05/index.md#scholarships-may-1)**
-  * Please welcome returning GCC sponsors: **[GigaScience](/src/galaxy-updates/2016-05/index.md#gigascience)**, **[GenomeWeb](/src/galaxy-updates/2016-05/index.md#genomeweb)**, and **[EMC](/src/galaxy-updates/2016-05/index.md#emc)**.
-* [Other Upcoming Events](/src/galaxy-updates/2016-05/index.md#upcoming-events):
-  * [Galaxy @ ASMS 2016](/src/galaxy-updates/2016-05/index.md#galaxy-at-asms-2016)
-  * [Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data Workshop @ UC Davis](/src/galaxy-updates/2016-05/index.md#using-galaxy-for-analysis-of-rna-seq-and-chip-seq-data)
-  * [All May, June and July Events](/src/galaxy-updates/2016-05/index.md#may-june-and-july-events)
-* **[Galaxy on Jetstream Cloud](/src/galaxy-updates/2016-05/index.md#galaxy-on-jetstream-cloud)**
-* [New tutorials and video](/src/galaxy-updates/2016-05/index.md#new-tutorials-and-video) on Diploid Variant Calling, Reference Based RNA-Seq, and Dataset Collections. 
-* [Slides and video from the April GalaxyAdmins meetup](/src/galaxy-updates/2016-05/index.md#april-galaxyadmins-slides--video) and a [report from the Conda Dependency Codefest](/src/galaxy-updates/2016-05/index.md#conda-dependency-codefest-report) 
-* [Papers](/src/galaxy-updates/2016-05/index.md#new-papers) (72 of them, 8 highlighted)
-* [Open positions](/src/galaxy-updates/2016-05/index.md#whos-hiring) (6 of them)
-* New [MGEScan](/src/galaxy-updates/2016-05/index.md#mgescan) and [Koslicki Lab](/src/galaxy-updates/2016-05/index.md#koslicki-lab) public Galaxy servers
-* A new [Galaxy Community Hub](/src/galaxy-updates/2016-05/index.md#galaxy-community-hubs) training resource
-* New [Releases](/src/galaxy-updates/2016-05/index.md#releases): [Planemo](/src/galaxy-updates/2016-05/index.md#planemo-0242), and [galaxy-lib](/src/galaxy-updates/2016-05/index.md#galaxy-lib-1670) and [Pulsar](/src/galaxy-updates/2016-05/index.md#pulsar)
+* **[GCC2016](/galaxy-updates/2016-05/#gcc2016) Deadlines!** and **[Sponsors](/galaxy-updates/2016-05/#sponsors)**
+  * **[Poster & Demo Abstracts: May 20](/galaxy-updates/2016-05/#poster--demo-abstracts-may-20)**
+  * **[Early Registration: May 20](/galaxy-updates/2016-05/#early-registration-may-20)**
+  * **[Scholarships: May 1](/galaxy-updates/2016-05/#scholarships-may-1)**
+  * Please welcome returning GCC sponsors: **[GigaScience](/galaxy-updates/2016-05/#gigascience)**, **[GenomeWeb](/galaxy-updates/2016-05/#genomeweb)**, and **[EMC](/galaxy-updates/2016-05/#emc)**.
+* [Other Upcoming Events](/galaxy-updates/2016-05/#upcoming-events):
+  * [Galaxy @ ASMS 2016](/galaxy-updates/2016-05/#galaxy-at-asms-2016)
+  * [Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data Workshop @ UC Davis](/galaxy-updates/2016-05/#using-galaxy-for-analysis-of-rna-seq-and-chip-seq-data)
+  * [All May, June and July Events](/galaxy-updates/2016-05/#may-june-and-july-events)
+* **[Galaxy on Jetstream Cloud](/galaxy-updates/2016-05/#galaxy-on-jetstream-cloud)**
+* [New tutorials and video](/galaxy-updates/2016-05/#new-tutorials-and-video) on Diploid Variant Calling, Reference Based RNA-Seq, and Dataset Collections. 
+* [Slides and video from the April GalaxyAdmins meetup](/galaxy-updates/2016-05/#april-galaxyadmins-slides--video) and a [report from the Conda Dependency Codefest](/galaxy-updates/2016-05/#conda-dependency-codefest-report) 
+* [Papers](/galaxy-updates/2016-05/#new-papers) (72 of them, 8 highlighted)
+* [Open positions](/galaxy-updates/2016-05/#whos-hiring) (6 of them)
+* New [MGEScan](/galaxy-updates/2016-05/#mgescan) and [Koslicki Lab](/galaxy-updates/2016-05/#koslicki-lab) public Galaxy servers
+* A new [Galaxy Community Hub](/galaxy-updates/2016-05/#galaxy-community-hubs) training resource
+* New [Releases](/galaxy-updates/2016-05/#releases): [Planemo](/galaxy-updates/2016-05/#planemo-0242), and [galaxy-lib](/galaxy-updates/2016-05/#galaxy-lib-1670) and [Pulsar](/galaxy-updates/2016-05/#pulsar)
 
 Don't miss those deadlines, and [see you in June](https://web.archive.org/web/http://gcc2016.iu.edu/),
 

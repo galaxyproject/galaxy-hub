@@ -7,7 +7,7 @@ title: Abstract submission is now closed
 
 
 
-Abstracts for talks that were presented at the [GCC2012 main sessions](/src/events/gcc2012/abstracts/Program/index.md).  See [Training Day](/src/events/gcc2012/training-day/index.md) for training abstracts.
+Abstracts for talks that were presented at the [GCC2012 main sessions](/events/gcc2012/abstracts/Program/).  See [Training Day](/events/gcc2012/training-day/) for training abstracts.
 
 
 
@@ -181,7 +181,7 @@ An increasing number of small groups do not have simple access to needed bioinfo
 
 Through the context of CloudMan, this talk will focus on the components required to establish a national collaborative initiative that aims at connecting genome researchers with massive datasets, sophisticated analysis and visualization tools, and large-scale computational and storage infrastructure. The initiative is known as the Genomics Virtual Laboratory; it is designed to scale to multiple locations and arbitrary cluster sizes as well as be supported by comprehensive training courses, outreach programs, and end-user support.
 
-*Note: If you want hands-on experience with CloudMan, you are encouraged to attend the [Training Day session on CloudMan](/src/events/gcc2012/training-day/index.md).*
+*Note: If you want hands-on experience with CloudMan, you are encouraged to attend the [Training Day session on CloudMan](/events/gcc2012/training-day/).*
 
 
 ## Keeping Track of Life Science Data
@@ -462,7 +462,7 @@ Galaxy’s ease of use and rich feature set have made it a powerful enabler of b
 
 Big changes have been going on in how tools are packaged with the distribution.  This talk will focus on what's changed, and what you need to know about the Galaxy [Tool Shed](/toolshed/) to deploy your own Galaxy instance.
 
-*Note: If you want hands-on experience with the Galaxy [Tool Shed](/toolshed/), you are encouraged to attend the [Tool Shed Training Day session](/src/events/gcc2012/training-day/index.md).*
+*Note: If you want hands-on experience with the Galaxy [Tool Shed](/toolshed/), you are encouraged to attend the [Tool Shed Training Day session](/events/gcc2012/training-day/).*
 
 <br />
 

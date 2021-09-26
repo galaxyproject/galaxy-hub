@@ -33,18 +33,18 @@ As always, there is a lot going on in the Galaxy:
 ## 2018 SACNAS Pre-conference Workshops
 
 <div class="float-left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/src/events/2017-sacnas/index.md) <br /><br />
+[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/events/2017-sacnas/) <br /><br />
 [<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
 [<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/src/index.md)
 </div>
 
-If you will be anywhere near San Antonio, Texas on October 10 then please consider participating in one of [these SACNAS preconference workshops](/src/events/2018-sacnas/index.md).  You don't need to be registered for the [2018 SACNAS meeting](http://www.2018sacnas.org/) to attend.  Everyone is eligible and the workshops are free.
+If you will be anywhere near San Antonio, Texas on October 10 then please consider participating in one of [these SACNAS preconference workshops](/events/2018-sacnas/).  You don't need to be registered for the [2018 SACNAS meeting](http://www.2018sacnas.org/) to attend.  Everyone is eligible and the workshops are free.
 
-**[Software and Data Carpentry](/src/events/2018-sacnas/index.md#workshop-1-software-and-data-carpentry)**
+**[Software and Data Carpentry](/events/2018-sacnas/#workshop-1-software-and-data-carpentry)**
 
-**[Data Platforms for Life Science Researchers](/src/events/2018-sacnas/index.md#workshop-2-data-platforms-for-life-science-researchers)**
+**[Data Platforms for Life Science Researchers](/events/2018-sacnas/#workshop-2-data-platforms-for-life-science-researchers)**
 
 [Registration](https://sacnas-data.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.  Both workshops are held October 10, the day before SACNAS starts.
 
@@ -55,11 +55,11 @@ If you will be anywhere near San Antonio, Texas on October 10 then please consid
 
 ## European Galaxy Days, 19-20 November, Freiburg, Germany
 
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days" />](/src/events/2018-europe-dev/index.md)
+[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
 
-**[European Galaxy Days](/src/events/2018-europe-dev/index.md)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
+**[European Galaxy Days](/events/2018-europe-dev/)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
 
-**The event is free and [registration is open](https://tinyurl.com/EGD2018).**  See the [event home page](/src/events/2018-europe-dev/index.md) for more.
+**The event is free and [registration is open](https://tinyurl.com/EGD2018).**  See the [event home page](/events/2018-europe-dev/) for more.
 
 ## Upcoming events
 
@@ -225,7 +225,7 @@ The Galaxy is expanding! Please help it grow.
 * [M2 : Diversité bactérienne associée aux microalgues toxiques (metabarcoding)](http://www.sfbi.fr/content/m2-diversit%C3%A9-bact%C3%A9rienne-associ%C3%A9e-aux-microalgues-toxiques-metabarcoding), IFREMER Centre Bretagne, Plouzané, France
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -237,7 +237,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 There is one new *[Galactic Blog](/blog/)* entry:
 
-* [Contributor of the Month: Carrie Ganote](/src/blog/2018-09-cotm-carrie-ganote/index.md), By Björn Grüning
+* [Contributor of the Month: Carrie Ganote](/blog/2018-09-cotm-carrie-ganote/), By Björn Grüning
 
 ----
 
@@ -251,15 +251,15 @@ There are [over 100 publicly accessible Galaxy servers](/use/) and [several Gala
 
 [epiGeEC](https://epigeec.genap.ca/galaxy/) compares user-provided epigenomic datasets with thousands of public datasets in a few minutes. It can also directly compare user’s datasets. This server is provided by the Genetics and genomics Analysis Platform (GenAP) project, thereby leveraging Compute Canada's advanced research computing infrastructure.  A [tutorial](https://epigeec.genap.ca/galaxy/) is available and anonymous access and account creation are both supported."
 
-See the [epiGeEC directory entry](/src/use/epigeec/index.md) for more.
+See the [epiGeEC directory entry](/use/epigeec/) for more.
 
 ## MetaCentrum - Czechia
 
-[<img class="float-left" src="/src/use/metacentrum/metacentrum-logo.png" alt="MetaCentrum" width="200px" />](/src/use/metacentrum/index.md)
+[<img class="float-left" src="/src/use/metacentrum/metacentrum-logo.png" alt="MetaCentrum" width="200px" />](/use/metacentrum/)
 
 [MetaCentrum](https://galaxy.metacentrum.cz/) supports Galaxy instances on the Czech National Grid Infrastructure (NGI), that are available to employees and students of research and academic organizations of Czechia and for scientific purposes only. Use requires [registering for an account](https://metavo.metacentrum.cz/en/application/index.html).
 
-See the [Metacentrum directory entry](/src/use/metacentrum/index.md) for more.
+See the [Metacentrum directory entry](/use/metacentrum/) for more.
 
 ## Public Servers in Publications
 
@@ -278,7 +278,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 # Hub and Doc Updates
 
 * The [Galaxy publication library](/publication-library/) is now integrated into the [Pan-Galactic search page](/search/), thanks to [Dannon Baker](/people/dannon-baker/). Search for something and click on the pub library tab.
-* [Data Manager XML syntax description](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md) updated by [Peter van Heusden](https://github.com/pvanheus)
+* [Data Manager XML syntax description](/admin/tools/data-managers/data-manager-xml-syntax/) updated by [Peter van Heusden](https://github.com/pvanheus)
 * [Hub Editing Guidelines](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) updated by [Mo Heydarian](/people/mo-heydarian/)
 * There was a massive Hub infrastructure update by [Dannon Baker](/people/dannon-baker/), but it's one of those you won't even notice.
 
@@ -290,7 +290,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in August 2018](/src/toolshed/contributions/2018-08/index.md).
+[Tool Shed contributions in August 2018](/toolshed/contributions/2018-08/).
 
 
 # Releases

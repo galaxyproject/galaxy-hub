@@ -16,7 +16,7 @@ We want to create a space where researchers using Galaxy can come together and s
 * If you access [Galaxy Biostar](https://biostar.usegalaxy.org) from http://usegalaxy.org (Menu: **Help &rarr; Galaxy Biostar**) you will be automatically logged in. A Galaxy Biostar account will be created for you if it did not previously exist. To obtain this account’s password please use the [password reset feature](https://biostar.usegalaxy.org/accounts/password/reset/) of Galaxy Biostar.
 * When you have a question, search Galaxy Biostar directly from any Galaxy tool page.
 
-Read more about how to get started on the [Biostar wiki page](/src/support/biostar/index.md).
+Read more about how to get started on the [Biostar wiki page](/support/biostar/).
 
 **Roll-out phase**
 

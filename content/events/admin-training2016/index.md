@@ -4,7 +4,7 @@ title: Galaxy Admin Training
 
 The first ever **Galaxy Project Admin Training workshop** will be held November 7-11 in [Salt Lake City](http://www.visitsaltlake.com/), Utah.  
 
-Basic and Advanced Topics sessions will be offered and participants can [register](/src/events/admin-training2016/registration/index.md) for one or both.  Sessions will be intensive and hands-on, and taught by experienced instructors from the Galaxy Project Team.  Participants will learn how to install, configure, customize, and extend their own Galaxy servers.  Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
+Basic and Advanced Topics sessions will be offered and participants can [register](/events/admin-training2016/registration/) for one or both.  Sessions will be intensive and hands-on, and taught by experienced instructors from the Galaxy Project Team.  Participants will learn how to install, configure, customize, and extend their own Galaxy servers.  Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
 
 Galaxy is an open web based platform for biomedical data integration and analysis.  It is deployed at large and small organizations around the world and used in a broad range of biomedical research domains, and across the tree of life.
 
@@ -20,9 +20,9 @@ Training will take place the week before [Supercomputing'16 (SC16)](http://sc16.
 <a href='http://www.universityguesthouse.com/Commanders-House'><img src="/src/events/admin-training2016/CommandersHouse.jpg" alt="Commanders House on University of Utah Campus, venue for Advanced session" width="200" /></a>
 </div>
 
-**[November 7-8, Salt Lake City Library](/src/events/admin-training2016/basics-session/index.md)**
+**[November 7-8, Salt Lake City Library](/events/admin-training2016/basics-session/)**
 
-This [two day introductory session](/src/events/admin-training2016/basics-session/index.md) will cover how to:
+This [two day introductory session](/events/admin-training2016/basics-session/) will cover how to:
 
 * Deployment platform options
 * Installing a basic Galaxy server 
@@ -35,14 +35,14 @@ This [two day introductory session](/src/events/admin-training2016/basics-sessio
 * Enabling extensions: FTP & SMTP
 * Introduction to Galaxy Architecture
 
-See the [Basics Session](/src/events/admin-training2016/basics-session/index.md) page for details and prerequisites.
+See the [Basics Session](/events/admin-training2016/basics-session/) page for details and prerequisites.
 
 
 # Advanced Topics
 
-**[November 9-11, University of Utah](/src/events/admin-training2016/advanced-session/index.md)**
+**[November 9-11, University of Utah](/events/admin-training2016/advanced-session/)**
 
-The [three day advanced session](/src/events/admin-training2016/advanced-session/index.md) will build on topics covered in the [basics section](/src/events/admin-training2016/basics-session/index.md).  Topics covered include
+The [three day advanced session](/events/admin-training2016/advanced-session/) will build on topics covered in the [basics section](/events/admin-training2016/basics-session/).  Topics covered include
 
 * Advanced tool definition: 
   * collections 
@@ -64,7 +64,7 @@ The [three day advanced session](/src/events/admin-training2016/advanced-session
 
 We are working with the [Utah High Performance Computing Center](https://www.chpc.utah.edu/) at the [University of Utah](https://www.utah.edu/) for cluster access during the advanced session.
 
-See the [Advanced Session](/src/events/admin-training2016/advanced-session/index.md) page for details and prerequisites.
+See the [Advanced Session](/events/admin-training2016/advanced-session/) page for details and prerequisites.
 
 
 # Instructors
@@ -78,21 +78,21 @@ Instructors are from the [Galaxy Project Team](/galaxy-team/) and the Galaxy Com
 
 Participants can register for one or both workshops. Registration is available on first come, first served basis. Rates depend on your organization's non-profit status and when you register.
 
-See the [Registration](/src/events/admin-training2016/registration/index.md) page for dates, rates, and other details.
+See the [Registration](/events/admin-training2016/registration/) page for dates, rates, and other details.
 
 # Logistics
 
-For information on event lodging, arriving in Salt Lake, and getting around, see the [Event Logistics](/src/events/admin-training2016/logistics/index.md) page.  Lodging, the airport, and all training events are on the University of Utah campus or in downtown Salt Lake City, and all are easily accessible using [TRAX](http://www.rideuta.com/), Salt Lake's light rail network
+For information on event lodging, arriving in Salt Lake, and getting around, see the [Event Logistics](/events/admin-training2016/logistics/) page.  Lodging, the airport, and all training events are on the University of Utah campus or in downtown Salt Lake City, and all are easily accessible using [TRAX](http://www.rideuta.com/), Salt Lake's light rail network
 
 # Can't make it to Salt Lake or on another continent?
 
 <div class='right'><div class='right'><a href='https://www.embl-abr.org.au/game2017/training-for-admin-workshop/'><img src="/src/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="80" /></a> </div><br />
-<a href='/src/events/egdw2017/index.md'><img src="/src/images/logos/IFBGalaxyWG.png" alt="European Galaxy Developer workshop 2017" width="100" /></a></div>
+<a href='/events/egdw2017/'><img src="/src/images/logos/IFBGalaxyWG.png" alt="European Galaxy Developer workshop 2017" width="100" /></a></div>
 
 This is one of three comprehensive Galaxy admin and developer training events between November and February.  They are:
 
 * **Galaxy Admin Training 2016**, Nov 7-11, Salt Lake City, Utah, United States
-* **[European Galaxy Developer workshop 2017](/src/events/egdw2017/index.md)**, Jan 16-20, Strasbourg, France
+* **[European Galaxy Developer workshop 2017](/events/egdw2017/)**, Jan 16-20, Strasbourg, France
 * **[Galaxy Administrator Training](https://www.embl-abr.org.au/game2017/training-for-admin-workshop/)**, Feb 6-9, Melbourne, Australia
 
 # Hosts

@@ -20,7 +20,7 @@ The recent passing of [Dr. James Taylor](/jxtx/), the Ralph S. O’Connor Profes
 
 James believed that scientific progress can best be sustained through mentoring of students and junior faculty. The Junior Training and Educational Connections Hotspot (JTech) foundation will ensure implementation of this vision. To begin, JTech will  (1) support  graduate students to participate in computational biology and data science conferences, and (2) organize and host mentoring sessions between senior and junior faculty members at high-profile meetings. JTech will later expand its reach as a platform for academic mentorship including high school through college age students.
 
-To make this happen we are [accepting contributions here](/src/jxtx/foundation/index.md). Please, help us continue what James has started.
+To make this happen we are [accepting contributions here](/jxtx/foundation/). Please, help us continue what James has started.
 
 
-*October 23, 2020 Update: JTech has been renamed "[JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md)"*
+*October 23, 2020 Update: JTech has been renamed "[JXTX: The James P. Taylor Foundation for Open Science](/jxtx/foundation/)"*

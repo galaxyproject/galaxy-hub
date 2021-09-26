@@ -8,14 +8,14 @@ date: "2019-08-30"
 
 The *September 2019 Galactic News* continues 1) the reformatting that started last month, and 2) the fine tradition of including all Galactic news under this or any other sun:
 
-* [30 Upcoming Events](/src/news/2019-09-galaxy-update/index.md#events)
-* [150 new publications](/src/news/2019-09-galaxy-update/index.md#publications)
-* [Three new Galactic Blog posts](/src/news/2019-09-galaxy-update/index.md#galactic-blog-activity)
-* [Galaxy Platform News](/src/news/2019-09-galaxy-update/index.md#galaxy-platforms-news)
-* [6 Openings](/src/news/2019-09-galaxy-update/index.md#whos-hiring) 
-* [Training material and doc updates](/src/news/2019-09-galaxy-update/index.md#doc-hub-and-training-updates)
-* [New release](/src/news/2019-09-galaxy-update/index.md#releases)
-* [Other news](/src/news/2019-09-galaxy-update/index.md#other-news)
+* [30 Upcoming Events](/news/2019-09-galaxy-update/#events)
+* [150 new publications](/news/2019-09-galaxy-update/#publications)
+* [Three new Galactic Blog posts](/news/2019-09-galaxy-update/#galactic-blog-activity)
+* [Galaxy Platform News](/news/2019-09-galaxy-update/#galaxy-platforms-news)
+* [6 Openings](/news/2019-09-galaxy-update/#whos-hiring) 
+* [Training material and doc updates](/news/2019-09-galaxy-update/#doc-hub-and-training-updates)
+* [New release](/news/2019-09-galaxy-update/#releases)
+* [Other news](/news/2019-09-galaxy-update/#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -26,9 +26,9 @@ If you have anything to include to next month's newsletter, then please send it 
 <img class="card-img-top" src="/src/news/2019-09-galaxy-update/galaxy-australia-incob.png" alt="Galaxy @ INCOB" />
 <div class="card-header">Galaxy @ INCOB</div>
 
-Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org.au/galaxyaustralia/) will [have a strong presence at INCOB 2019](/src/src/events/2019-09-incob/index.md) in Jakarta.  There will be an [Introduction to Galaxy workshop](http://incob2019.org/workshop2/) and a conference talk about the Galaxy Australia platform.
+Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org.au/galaxyaustralia/) will [have a strong presence at INCOB 2019](/src/events/2019-09-incob/) in Jakarta.  There will be an [Introduction to Galaxy workshop](http://incob2019.org/workshop2/) and a conference talk about the Galaxy Australia platform.
 
-In addition, **[we will also be taking first steps towards a regional Galaxy community and platform](/src/news/2019-08-incob-building/index.md) for the INCOB community**. Interested? We hope to see you in Jakarta.
+In addition, **[we will also be taking first steps towards a regional Galaxy community and platform](/news/2019-08-incob-building/) for the INCOB community**. Interested? We hope to see you in Jakarta.
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
@@ -37,7 +37,7 @@ In addition, **[we will also be taking first steps towards a regional Galaxy com
 
 Learn how to increase the ease with which others can install and use your bioinformatics software.
 
-[This workshop at ACM BCB](/src/events/2019-09-acm-bcb/index.md), on September 7, in Niagara Falls, New York will show participants how to use two technologies that make it easy for researchers to deploy and use your software: The [Galaxy ToolShed](/toolshed/), and [Bioconda](https://bioconda.github.io/). *Space is limited and [registration](https://acm-bcb.org/2019/index.php?page=attending#top) is required.*
+[This workshop at ACM BCB](/events/2019-09-acm-bcb/), on September 7, in Niagara Falls, New York will show participants how to use two technologies that make it easy for researchers to deploy and use your software: The [Galaxy ToolShed](/toolshed/), and [Bioconda](https://bioconda.github.io/). *Space is limited and [registration](https://acm-bcb.org/2019/index.php?page=attending#top) is required.*
 
 </div>
 
@@ -69,7 +69,7 @@ There are
 
 The Galaxy Training Network organizes one day, every three months, for collaborative work on the training materials and calls with the community.
 
-The next day will be on the 12th of September. Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.  See the [event page](/src/events/2019-09-gtn/index.md) for details.
+The next day will be on the 12th of September. Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.  See the [event page](/events/2019-09-gtn/) for details.
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
@@ -179,7 +179,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Climate Science Workbench](/src/use/climate-science-workbench/index.md)</div>
+<div class="card-header">[Climate Science Workbench](/use/climate-science-workbench/)</div>
 
 <img class="card-img-top" src="/src/use/climate-science-workbench/galaxy-climate-logo-with-text-920.png" alt="Climate Science Workbench" />
 
@@ -293,7 +293,7 @@ By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-
 
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Help for Differential Expression Analysis](/src/support/diff-expression/index.md)</div>
+<div class="card-header">[Help for Differential Expression Analysis](/support/diff-expression/)</div>
 <p class="card-text">
 By [Jennifer Hillman-Jackson](/people/jennifer-jackson/)</p>
 
@@ -303,7 +303,7 @@ A new support page for one of Galaxy's most popular applications: differential g
 
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Displaying Datasets at External Display Applications / Websites using GEDAs](/src/admin/tools/external-display-applications-tutorial/index.md)</div>
+<div class="card-header">[Displaying Datasets at External Display Applications / Websites using GEDAs](/admin/tools/external-display-applications-tutorial/)</div>
 <img class="card-img-top" src="/src/news/2019-09-galaxy-update/2019-09-geda.png" alt="GEDA example config" />
 <p class="card-text">
 By [Dan Blankenberg](/people/dan/)</p>

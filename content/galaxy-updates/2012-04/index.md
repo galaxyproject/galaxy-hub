@@ -63,7 +63,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
 
-There are April application deadlines for EMBL-EBI Summer Bioinformatics School and Plant Bioinformatics Course; abstract deadlines for InCoB, DILS, BOSC, ISMB Tech Track, and [GCC2012](/src/events/gcc2012/abstracts/index.md); and an early registration deadline for BITS.
+There are April application deadlines for EMBL-EBI Summer Bioinformatics School and Plant Bioinformatics Course; abstract deadlines for InCoB, DILS, BOSC, ISMB Tech Track, and [GCC2012](/events/gcc2012/abstracts/); and an early registration deadline for BITS.
 
 See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -126,7 +126,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> <strong><a href='/src/events/gcc2012/index.md'>2012 Galaxy Community Conference</a></strong><br /><a href='/src/events/gcc2012/register/index.md'>Early registration</a> and <a href='/src/events/gcc2012/abstracts/index.md'>abstract submission</a> are now open. </td>
+    <td> <strong><a href='/events/gcc2012/'>2012 Galaxy Community Conference</a></strong><br /><a href='/events/gcc2012/register/'>Early registration</a> and <a href='/events/gcc2012/abstracts/'>abstract submission</a> are now open. </td>
     <td> Chicago, Illinois, United States </td>
     <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
@@ -135,13 +135,13 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 ### GCC2012 Update
 
-<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
+<div class='right'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/events/gcc2012/training-day/'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
 
-* The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) will be held July 25-27, in Chicago.  
-* **The [abstract submission deadline is April 16](/src/events/gcc2012/abstracts/index.md).**
-* **[Early registration](/src/events/gcc2012/register/index.md) is now open.**
+* The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held July 25-27, in Chicago.  
+* **The [abstract submission deadline is April 16](/events/gcc2012/abstracts/).**
+* **[Early registration](/events/gcc2012/register/) is now open.**
 * The conference will feature two full days of presentations and discussions.  
-* A [whole day of training](/src/events/gcc2012/training-day/index.md) is also scheduled
+* A [whole day of training](/events/gcc2012/training-day/) is also scheduled
 
 ## Tool Shed Contributions
 
@@ -164,8 +164,8 @@ At least *15* new repositories were added to the [Galaxy Tool Shed](http://tools
 
 ## New Distribution
 
-There has been one [Galaxy distribution](/docs/) in the past month.  The [most recent release (March 12)](/src/archive/dev-news-briefs/2012-03-12/index.md), includes these highlights:
-* **Emboss tools and datatypes** moving from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* in the **NEXT release**. Read more about the upcoming **[tool migrations...](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md)**
+There has been one [Galaxy distribution](/docs/) in the past month.  The [most recent release (March 12)](/archive/dev-news-briefs/2012-03-12/), includes these highlights:
+* **Emboss tools and datatypes** moving from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* in the **NEXT release**. Read more about the upcoming **[tool migrations...](/toolshed/migrating-tools-from-galaxy-distribution/)**
 * Galaxy tool [XML configuration](/galaxy-tool-panel/#xml-configuration-files-used-to-populate-your-galaxy-tool-panel), managing [tool panel layout](/galaxy-tool-panel/#managing-the-layout-of-your-galaxy-tool-panel), and Galaxy [tool versions](/galaxy-tool-version-lineage/).
 * **RNA-Seq Tools:** Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0, Updated **[TopHat](http://tophat.cbcb.umd.edu/)** default parameters
 * **External Display Apps:** Added **[RViewer](http://rviewer.lbl.gov/rviewer/)**, Updated **[IGV](http://www.broadinstitute.org/igv/)**

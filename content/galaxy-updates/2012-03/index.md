@@ -41,8 +41,8 @@ There were [28 papers added to the Galaxy CiteULike group](http://www.citeulike.
 The Galaxy is expanding!  Please help it grow.
 
 * The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs and software engineers at Emory and Penn State.
-* [Bioinformatics Analyst @ U Virgina Bioinformatics Core](/src/news/bioinformatics-analyst-at-u-va/index.md)
-* [Bioinformatician / Sr. Database Developer @ GigaScience / BGI Hong Kong](/src/news/opening-at-giga-science-bgi/index.md)
+* [Bioinformatics Analyst @ U Virgina Bioinformatics Core](/news/bioinformatics-analyst-at-u-va/)
+* [Bioinformatician / Sr. Database Developer @ GigaScience / BGI Hong Kong](/news/opening-at-giga-science-bgi/)
 
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -107,7 +107,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   </tr>
   <tr>
     <th> July 25-27 </th>
-    <td> <strong><a href='/src/events/gcc2012/index.md'>2012 Galaxy Community Conference</a></strong><br /><a href='/src/events/gcc2012/abstracts/index.md'>Abstract submission</a> is now open, and <a href='/src/events/gcc2012/training-day/index.md'>Training Day</a> topics are set. </td>
+    <td> <strong><a href='/events/gcc2012/'>2012 Galaxy Community Conference</a></strong><br /><a href='/events/gcc2012/abstracts/'>Abstract submission</a> is now open, and <a href='/events/gcc2012/training-day/'>Training Day</a> topics are set. </td>
     <td> Chicago, Illinois, United States </td>
     <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
@@ -116,20 +116,20 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 ### GCC2012 Update
 
-<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
+<div class='right'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/events/gcc2012/training-day/'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
 
-* The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) will be held July 25-27, in Chicago.  
+* The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held July 25-27, in Chicago.  
 * The conference will feature two full days of presentations and discussions.  
-* [Abstract submission](/src/events/gcc2012/abstracts/index.md) opened February 13, and will [close April 16](/src/events/gcc2012/Key Dates/index.md).  
-* A [whole day of training](/src/events/gcc2012/training-day/index.md) has been added, and topics set:
-  * [Introduction to Galaxy](/src/events/gcc2012/training-day/index.md#ws2)
-  * [Installing Your Own Galaxy](/src/events/gcc2012/training-day/index.md#ws5)
-  * [Galaxy CloudMan](/src/events/gcc2012/training-day/index.md#ws3)
-  * [Integrating Tools & Data Sources](/src/events/gcc2012/training-day/index.md#ws1)
-  * [Galaxy API](/src/events/gcc2012/training-day/index.md#ws6)
-  * [Galaxy Tool Shed](/src/events/gcc2012/training-day/index.md#ws7)
-  * [Ion Torrent - Open Source Sequencing](/src/events/gcc2012/training-day/index.md#ws10)
-* Early [registration](/src/events/gcc2012/register/index.md) will open **any day now** and close June 11. 
+* [Abstract submission](/events/gcc2012/abstracts/) opened February 13, and will [close April 16](/src/events/gcc2012/Key Dates/index.md).  
+* A [whole day of training](/events/gcc2012/training-day/) has been added, and topics set:
+  * [Introduction to Galaxy](/events/gcc2012/training-day/#ws2)
+  * [Installing Your Own Galaxy](/events/gcc2012/training-day/#ws5)
+  * [Galaxy CloudMan](/events/gcc2012/training-day/#ws3)
+  * [Integrating Tools & Data Sources](/events/gcc2012/training-day/#ws1)
+  * [Galaxy API](/events/gcc2012/training-day/#ws6)
+  * [Galaxy Tool Shed](/events/gcc2012/training-day/#ws7)
+  * [Ion Torrent - Open Source Sequencing](/events/gcc2012/training-day/#ws10)
+* Early [registration](/events/gcc2012/register/) will open **any day now** and close June 11. 
 
 ## Tool Shed Contributions
 

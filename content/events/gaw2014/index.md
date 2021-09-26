@@ -290,7 +290,7 @@ The day closed amidst  the usual scrum of organising taxis and public transport 
 
 <div class='right'><a href='http://www.atmajaya.ac.id/'><img src="/src/images/logos/AtmaJayaSmall.gif" alt="Atma Jaya Catholic University of Indonesia" width="150" /></a></div>
 
-**[ Three posters](/src/events/gaw2014/index.md#posters-)** were displayed, including "[Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy](https://f1000research.com/posters/7-1411)"  which was brought to us by some enthusiasts all the way from Indonesia.
+**[ Three posters](/events/gaw2014/#posters-)** were displayed, including "[Microbial Community Analysis of Indonesia Tempeh Employing Metagenome Galaxy](https://f1000research.com/posters/7-1411)"  which was brought to us by some enthusiasts all the way from Indonesia.
 
 **Day 2** was held in the [Melbourne Convention Centre](http://mcec.com.au/), alongside CSIRO’s [Computational and Simulation Sciences and eResearch conference.](http://wp.csiro.au/css/ )  
 
@@ -312,4 +312,4 @@ Further interesting talks included *[Yousef Kowsar](http://www.vlsci.org.au/rese
 *[David Lovell](http://www.csiro.au/Organisation-Structure/Divisions/Computational-Informatics/CCI-People/DavidLovell.aspx)* ([CSIRO](http://csiro.au/)), as representative of the [Australian Bioinformatics Network](http://australianbioinformatics.net/), closed the conference by working with us to develop a worthwhile [mind map (pdf)](https://depot.galaxyproject.org/hub/attachments/events/gaw2014/GAW2014_Wrapup.pdf) of actions we would take as a result of attending the Conference.
 
 
-Slide presentations appear on the [GAW2014 conference programme.](/src/events/gaw2014/index.md#program)
+Slide presentations appear on the [GAW2014 conference programme.](/events/gaw2014/#program)

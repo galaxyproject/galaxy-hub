@@ -72,7 +72,7 @@ GCC2017 has [11 sponsors](https://gcc2017.sciencesconf.org/page/sponsors)!  Spon
 There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2017](https://gcc2017.sciencesconf.org/) continues this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_%28computing%29)* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
 Interested?
-* [Start a BoF](/src/news/2017-05-call-for-bofs/index.md)
+* [Start a BoF](/news/2017-05-call-for-bofs/)
 * [See already proposed BoFs](https://gcc2017.sched.com/overview/type/Conference/BoF)
 
 # Galaxy Tutorial @ ISMB/ECCB 2017
@@ -88,7 +88,7 @@ Participants will learn to
 
 Interested? Sign up when you [register](https://www.iscb.org/ismbeccb2017-registration#tutorials) for ISMB/ECCB (and register before the tutorial fills up).
 
-We also expect a lot of other Galaxy-related content at ISMB/ECCB 2017 and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017). We'll add the presentations to the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/src/events/2017-ismb-bosc/index.md) event page as the schedules are posted.  (And, [please let us know](mailto:outreach@galaxyproject.org) if you have anything on the program.)
+We also expect a lot of other Galaxy-related content at ISMB/ECCB 2017 and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017). We'll add the presentations to the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/events/2017-ismb-bosc/) event page as the schedules are posted.  (And, [please let us know](mailto:outreach@galaxyproject.org) if you have anything on the program.)
 
 See you in Prague!
 
@@ -295,12 +295,12 @@ There is a [ChimeRScope Manual](https://github.com/ChimeRScope/ChimeRScope/wiki)
 <table class="table">
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> </td>
   </tr>
 </table>
@@ -339,7 +339,7 @@ Both tool suites and many more metagenomics tools are integrated into the [metag
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
-[Tool Shed contributions from May](/src/toolshed/contributions/2017-05/index.md).
+[Tool Shed contributions from May](/toolshed/contributions/2017-05/).
 
 
 # Releases

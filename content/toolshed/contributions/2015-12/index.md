@@ -2,7 +2,7 @@
 title: December 2015 Toolshed Contributions
 ---
 * [Wiki Root](/toolshed/)
-* [All monthly summaries](/src/toolshed/contributions/index.md)
+* [All monthly summaries](/toolshed/contributions/)
 
 # Tools
 

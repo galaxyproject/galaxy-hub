@@ -1,4 +1,4 @@
-[Demo / Training Day](/src/events/switzerland2014/trainingday/index.md)<br />
-[2nd Swiss Workshop](/src/events/switzerland2014/index.md)<br />
-[German Developer Day](/src/events/germany2014/index.md)<br />
+[Demo / Training Day](/events/switzerland2014/trainingday/)<br />
+[2nd Swiss Workshop](/events/switzerland2014/)<br />
+[German Developer Day](/events/germany2014/)<br />
 </div>

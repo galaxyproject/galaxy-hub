@@ -8,12 +8,12 @@ The primary intent of the Tool Shed is for sharing functionally correct Galaxy t
 
 With a couple of exceptions, support for tool features are restricted to the Galaxy framework. The following links refer to pages that describe those exceptions.
 
-[Building Tools with Dependencies in the Same Repository](/src/toolshed/tools-with-dependencies-in-same-repository/index.md)
+[Building Tools with Dependencies in the Same Repository](/toolshed/tools-with-dependencies-in-same-repository/)
 
-[Building Tools with Dependencies in Separate Repositories](/src/toolshed/tools-with-dependencies-in-separate-repositories/index.md)
+[Building Tools with Dependencies in Separate Repositories](/toolshed/tools-with-dependencies-in-separate-repositories/)
 
-[Structuring Tools in Your Repository](/src/toolshed/a-tool-or-a-suite-per-repository/index.md)
+[Structuring Tools in Your Repository](/toolshed/a-tool-or-a-suite-per-repository/)
 
 [Galaxy Tool Configuration File Help Settings that will Display an Image File Contained in the Repository](/defining-images-in-tool-configs/)
 
-[Recipes for Installing and Compiling Packages Required by Galaxy Tools](/src/toolshed/tool-dependency-recipes/index.md)
+[Recipes for Installing and Compiling Packages Required by Galaxy Tools](/toolshed/tool-dependency-recipes/)
