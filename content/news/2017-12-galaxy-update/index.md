@@ -3,7 +3,7 @@ title: 'December 2017 Galaxy News'
 tease: 'New events, blog posts, publications, jobs, ...'
 date: '2017-12-07'
 ---
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2017-12/>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2017-12/)
 
 The [December 2017 Galaxy News](/galaxy-updates/2017-12/) is out!
 
