@@ -4,7 +4,7 @@ tease: 'New events, pubs, blog post, jobs, ...'
 date: "2018-09-13"
 ---
 
-[<img class="float-right" src="/src/news/2018-09-galaxy-update/2018-09-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/>)
+[<img class="float-right" src="/src/news/2018-09-galaxy-update/2018-09-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/)
 
 The *September  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 

@@ -4,7 +4,7 @@ tease: 'GCC2019 registration / Poster/Demo abstracts / sponsors, GTN CoFest, Pla
 date: "2019-06-03"
 ---
 
-[<img class="float-right" src="/src/news/2019-06-galaxy-update/2019-06-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/>)
+[<img class="float-right" src="/src/news/2019-06-galaxy-update/2019-06-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *June 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 

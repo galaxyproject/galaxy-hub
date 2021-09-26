@@ -4,7 +4,7 @@ tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, Jobs, Releases, and Plat
 date: "2019-12-09"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 The *December 2019 Galactic News* is out:
 

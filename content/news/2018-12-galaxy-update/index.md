@@ -4,7 +4,7 @@ tease: 'Platforms Directory; new events, pubs, blog posts, servers, tools and re
 date: "2018-12-02"
 ---
 
-[<img class="float-right" src="/src/news/2018-12-galaxy-update/2018-12-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/>)
+[<img class="float-right" src="/src/news/2018-12-galaxy-update/2018-12-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *December  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 

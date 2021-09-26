@@ -4,7 +4,7 @@ tease: 'Events (GCC Training, GalaxyAdmins), Platforms, Pubs, Jobs, COTM!, Doc, 
 date: "2019-02-01"
 ---
 
-[<img class="float-right" src="/src/news/2019-02-galaxy-update/2019-02-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/>)
+[<img class="float-right" src="/src/news/2019-02-galaxy-update/2019-02-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *February  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.
 

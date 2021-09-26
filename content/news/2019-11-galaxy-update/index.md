@@ -4,7 +4,7 @@ tease: "Events! Pubs! Platforms! Jobs! Releases!"
 date: "2019-11-12"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 The *November 2019 Galactic News*  includes Galactic news under this or any other sun:
 

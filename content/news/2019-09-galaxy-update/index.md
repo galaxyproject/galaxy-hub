@@ -4,7 +4,7 @@ tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! Releases! And some other 
 date: "2019-08-30"
 ---
 
-[<img class="float-right" src="/src/news/2019-09-galaxy-update/2019-09-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/>)
+[<img class="float-right" src="/src/news/2019-09-galaxy-update/2019-09-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *September 2019 Galactic News* continues 1) the reformatting that started last month, and 2) the fine tradition of including all Galactic news under this or any other sun:
 

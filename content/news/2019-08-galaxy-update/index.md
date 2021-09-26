@@ -6,7 +6,7 @@ date: "2019-08-01"
 
 The *August 2019 Galactic News* is here!
 
-[<img class="float-right" src="/src/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/>)
+[<img class="float-right" src="/src/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 * [Events: GCC2019 is done; BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/news/2019-08-galaxy-update/#events)
   * Plus deadlines this month and 19 other events in the next 90 days.
