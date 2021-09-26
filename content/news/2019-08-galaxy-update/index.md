@@ -6,7 +6,7 @@ date: "2019-08-01"
 
 The *August 2019 Galactic News* is here!
 
-[<img class="float-right" src="/src/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/>)
 
 * [Events: GCC2019 is done; BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/src/news/2019-08-galaxy-update/index.md#events)
   * Plus deadlines this month and 19 other events in the next 90 days.
@@ -326,7 +326,7 @@ Platforms that were referenced at least twice in the past month's publications:
 
 # Who's Hiring
 
-The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">

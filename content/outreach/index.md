@@ -6,12 +6,12 @@ title: Galaxy Outreach
 A number of resources are available to help connect researchers and developers with Galaxy. Broadening Galaxy's reach serves several interrelated purposes:
 
 1. **More users.** The first step to using Galaxy is knowing about it! By spreading the word, we can ensure that researchers know about Galaxy and how it can benefit their data analyses.
-2. **More developers.** Increased visibility leads to increased adoption of Galaxy, and that in turn leads to more people [contributing back to Galaxy](/src/get-involved/index.md).
+2. **More developers.** Increased visibility leads to increased adoption of Galaxy, and that in turn leads to more people [contributing back to Galaxy](/get-involved/).
 3. **More funding.** Increased utilization and development of Galaxy helps keep it funded.
 
 ## Citing Galaxy
 
-[Citing Galaxy](/src/citing-galaxy/index.md) in publications and presentations is an easy way to increase Galaxy's visibility and helps enormously with grants. The Galaxy Project and Galaxy users have published numerous papers on Galaxy and analyses that use Galaxy. Check out this list of [Galaxy-related publications](/src/citing-galaxy/#galaxy-project-publications-by-year) and [guidelines for citing Galaxy](/src/citing-galaxy/#citing-specific-galaxy-components-features) in your own work.
+[Citing Galaxy](/citing-galaxy/) in publications and presentations is an easy way to increase Galaxy's visibility and helps enormously with grants. The Galaxy Project and Galaxy users have published numerous papers on Galaxy and analyses that use Galaxy. Check out this list of [Galaxy-related publications](/src/citing-galaxy/#galaxy-project-publications-by-year) and [guidelines for citing Galaxy](/src/citing-galaxy/#citing-specific-galaxy-components-features) in your own work.
 
 ### Powered by Galaxy
 
@@ -41,7 +41,7 @@ Hands-on workshops are generously supported by an [AWS in Education](http://aws.
 
 If you are organizing or presenting at an event with significant Galaxy-related content, we can help you spread the word in a number of ways:
 
-* Announce it to the appropriate [Mailing Lists](/src/mailing-lists/index.md).
+* Announce it to the appropriate [Mailing Lists](/mailing-lists/).
 * Post it the [Galactic News page and RSS feed](/news/).
 * Add it to the [Galactic Events](/events/) page and Galaxy Calendar.
 

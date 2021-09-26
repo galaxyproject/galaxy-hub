@@ -8,7 +8,7 @@ date: "2021-02-08"
 <div class="card-header">In this issue:</div>
 <div class="card-body">
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 <ul style="font-size: 1.1rem;">
   <li>**[Event news](#event-news)**:

@@ -4,7 +4,7 @@ tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, Jobs, Releases, and Plat
 date: "2019-12-09"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/>)
 
 The *December 2019 Galactic News* is out:
 
@@ -305,7 +305,7 @@ By [Anne Fouilloux](https://training.galaxyproject.org/training-material/hall-of
 
 # Who's Hiring
 
-Hey Good People!  It's hard to find good people, such as yourself, but surely you know good people who could help the good people below fill their open positions.  (And if you have a Galaxy-related opening then please send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).)
+Hey Good People!  It's hard to find good people, such as yourself, but surely you know good people who could help the good people below fill their open positions.  (And if you have a Galaxy-related opening then please send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).)
 
 <div class="card-deck">
 

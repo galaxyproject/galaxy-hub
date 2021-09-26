@@ -10,9 +10,9 @@ title: October 2016 Galaxy News
 
 </div>
 
-<div class='right'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the October 2016 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. 
+Welcome to the October 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
 
 The big news this month is a series of upcoming events:
 
@@ -449,7 +449,7 @@ The Galaxy is expanding! Please help it grow.
 * [Post­doctoral Research Position](https://drive.google.com/file/d/0B5_H88SQ1C_7Z3dJY3FzU0hQMUU/view?pref=2&pli=1), Multi­omic Bioinformatics, University of Minnesota
 * [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules." <div class='red'>Act fast.</span>  
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 

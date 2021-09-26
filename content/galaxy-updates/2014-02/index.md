@@ -1,9 +1,9 @@
 ---
 title: February 2014 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the February 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the February 2014 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
@@ -74,16 +74,16 @@ How those papers were tagged:
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [Postdoctoral position in genomics/bio-informatics (NGS)](http://bit.ly/1eq5TvM) at University of Rennes 1 (France)  
 * [Post-doctoral Data analyst / Bioinformatician](http://bit.ly/1g6FxAp) position for high-throughput data analysis : Paris, France 
 * [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**, *including positions at George Washington University*.
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**, *including positions at George Washington University*.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -383,7 +383,7 @@ bringing the number of log entries to 12.
 
 In case you haven't heard, the former [Emory University](http://emory.edu) contingent of the [Galaxy Team](/galaxy-team/) went north this month to Baltimore - it's warmer there (at least this week), where [James Taylor](/people/james-taylor/) is now an Associate Professor in the [Johns Hopkins](http://www.johnshopkins.edu/) [Biology](http://www.bio.jhu.edu/) and [Computer Science](http://www.cs.jhu.edu/) Departments.  [Jeremy Goecks](/people/jeremy-goecks/), also formerly of the Emory University contingent is now an Assistant Professor of [Computational Biology](http://cbi.gwu.edu/) at [George Washington University](http://www.gwu.edu/) in the Washington DC area.
 
-None of these moves should be particularly noticeable to the Galaxy community.  We didn't lose anyone in these transitions, and in fact we are [still hiring](/src/galaxy-is-hiring/index.md), but now at three universities instead of two.
+None of these moves should be particularly noticeable to the Galaxy community.  We didn't lose anyone in these transitions, and in fact we are [still hiring](/galaxy-is-hiring/), but now at three universities instead of two.
 
 # Other News
 

@@ -9,7 +9,7 @@ The Galaxy community now has a [mailing list dedicated to proteomics](https://li
 To subscribe to the galaxy-proteomics list please add your email address to the list here:
  https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/
 
-See [the complete list of mailing lists](/src/mailing-lists/index.md) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
+See [the complete list of mailing lists](/mailing-lists/) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
 
 Many thanks to Dave C. and the [Galaxy team](/galaxy-team/) for setting this up.
 

@@ -5,7 +5,7 @@ The visualizations registry and plugin framework provides an easy way to create 
 any data.
 
 (For information on existing and built-in visualizations such as Trackster, please see:
-[Learn/Visualization](/src/learn/visualization/index.md) and [Visualization Setup](/src/visualization-setup/index.md))
+[Learn/Visualization](/src/learn/visualization/index.md) and [Visualization Setup](/visualization-setup/))
 
 There are three main steps to creating a visualization:
 
@@ -293,7 +293,7 @@ For our example, let's say we want to just print the mapping quality for each re
     </ul>
 ```
 
-These are explained more fully at [Data Providers](/src/data-providers/index.md).
+These are explained more fully at [Data Providers](/data-providers/).
 
 
 #### Static files for your visualization

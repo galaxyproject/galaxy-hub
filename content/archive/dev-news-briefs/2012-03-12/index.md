@@ -27,15 +27,15 @@ In 2012, the Galaxy development team will begin the process of **migrating the t
 
 ## XML configuration files used to populate your Galaxy tool panel
 
-In the past, the file named by your "tool_config_file" configuration setting in your "universe_wsgi.ini" file was the only file used to populate your Galaxy tool panel.  The default name for this file is **tool_conf.xml**.  Since this was the only file involved in populating your Galaxy tool panel, it defined the items (tools, workflows, sections and labels) that would be displayed and the way in which they would be arranged. [Read more...](/src/galaxy-tool-panel/index.md#xml-configuration-files-used-to-populate-your-galaxy-tool-panel)
+In the past, the file named by your "tool_config_file" configuration setting in your "universe_wsgi.ini" file was the only file used to populate your Galaxy tool panel.  The default name for this file is **tool_conf.xml**.  Since this was the only file involved in populating your Galaxy tool panel, it defined the items (tools, workflows, sections and labels) that would be displayed and the way in which they would be arranged. [Read more...](/galaxy-tool-panel/#xml-configuration-files-used-to-populate-your-galaxy-tool-panel)
 
 ## Managing the layout of your Galaxy tool panel
 
-The 3 or more files described in the previous section ("tool_conf.xml", one or more "shed_tool_conf.xml files", and "migrated_tools_conf.xml") are all used to load tool panel items (tools, sections, labels and workflows).  A new file named **integrated_tool_panel.xml** has been introduced to define the arrangement for displaying these loaded items in your Galaxy tool panel. [Read more...](/src/galaxy-tool-panel/index.md#managing-the-layout-of-your-galaxy-tool-panel)
+The 3 or more files described in the previous section ("tool_conf.xml", one or more "shed_tool_conf.xml files", and "migrated_tools_conf.xml") are all used to load tool panel items (tools, sections, labels and workflows).  A new file named **integrated_tool_panel.xml** has been introduced to define the arrangement for displaying these loaded items in your Galaxy tool panel. [Read more...](/galaxy-tool-panel/#managing-the-layout-of-your-galaxy-tool-panel)
 
 ## Galaxy Tool Versions
 
-When included in the Galaxy distribution, tools are defined by "id" and "version", among other attributes.  For example, the filter tool has id="Filter1" and version="1.1.0".  When installed from a tool shed, the tool's id becomes its "guid" attribute from the tool shed.  If it is migrated from the Galaxy distribution to the tool shed, the filter tool will have the guid: "toolshed.g2.bx.psu.edu/repos/devteam/filter/Filter1/1.1.0".  To provide backward compatibility for Galaxy workflows and the rerun button in a Galaxy history item, a mapping between the tool's old id and version and its new id (guid) is provided by building a chain of relationships between tool versions.  This happens automatically for every tool that is loaded into your Galaxy instance. [Read more...](/src/galaxy-tool-version-lineage/index.md)
+When included in the Galaxy distribution, tools are defined by "id" and "version", among other attributes.  For example, the filter tool has id="Filter1" and version="1.1.0".  When installed from a tool shed, the tool's id becomes its "guid" attribute from the tool shed.  If it is migrated from the Galaxy distribution to the tool shed, the filter tool will have the guid: "toolshed.g2.bx.psu.edu/repos/devteam/filter/Filter1/1.1.0".  To provide backward compatibility for Galaxy workflows and the rerun button in a Galaxy history item, a mapping between the tool's old id and version and its new id (guid) is provided by building a chain of relationships between tool versions.  This happens automatically for every tool that is loaded into your Galaxy instance. [Read more...](/galaxy-tool-version-lineage/)
 
 ## New tool shed related features in Galaxy
 
@@ -188,7 +188,7 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 <div class='left'><img src="/src/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
 **The [Galaxy Team](/galaxy-team/) Wants You!**
 <br />
-Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/src/galaxy-is-hiring/index.md)
+Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/galaxy-is-hiring/)
 
 ----
 
@@ -200,6 +200,6 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/galaxy-on-twitter/)**
 ----
 </div> Jennifer Jackson, [Galaxy Team](/galaxy-team/). Posted to [DevNewsBriefs](/docs/) on 2012-03-12</div>

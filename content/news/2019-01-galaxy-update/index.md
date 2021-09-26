@@ -4,7 +4,7 @@ tease: 'Events (Admin Training, PAG, GSOC, GCC, GalaxyAdmins), Platforms, Pubs, 
 date: "2019-01-04"
 ---
 
-[<img class="float-right" src="/src/news/2019-01-galaxy-update/2019-01-news-summary.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-01-galaxy-update/2019-01-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/>)
 
 The *January  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
@@ -319,7 +319,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States).
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
 

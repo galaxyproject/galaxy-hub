@@ -200,13 +200,13 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
   * [GCC2015 Coding Hackathon](http://gcc2015.tsl.ac.uk/organisers/hackathon)
   * New! [GCC2015 Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/organisers/data-hackathon)
 * [All Galaxy News](/news/) and the [Hub for Release News](/docs/)
-* [Twitter](/src/galaxy-on-twitter/index.md) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
-* [Events](/events/), [Learn](/learn/), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/support/) with FAQ help, [Mailing list](/src/mailing-lists/index.md) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
+* [Twitter](/galaxy-on-twitter/) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
+* [Events](/events/), [Learn](/learn/), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/support/) with FAQ help, [Mailing list](/mailing-lists/) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
 * All know of [Public Galaxy Main](/main/), but have you reviewed the [Other Galaxy Public-hosted Servers](/use/) lately?
 * [Teach](/teach/) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
 * Follow current development real-time and create, comment, and vote on active [Trello](https://trello.com/galaxyproject) tickets. As an open source project, we very much welcome community involvement. Not sure how to get involved or how to [create an account](https://trello.com/b/ijIE4lMx/welcome-board)? We have guidance available **[here...](https://wiki.galaxyproject.org/Issues)**, that includes a form to aid with quick ticket submission.
 * [Community](/community/) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
-* [Galaxy Project](/src/galaxy-project/index.md) home page (hub for all resources, those listed above and more!)
+* [Galaxy Project](/galaxy-project/) home page (hub for all resources, those listed above and more!)
 * See our wiki's right side bar menu &rarr; for more links to areas of interest to you
 * Our wiki is absolutely open for community contributions and improvements.
 
@@ -225,4 +225,4 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 # About Galaxy
 
 <div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/admin/) • [Issues](/issues/) • [Big Picture](/src/galaxy-project/index.md) • [Community](/community/) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/cloudman/) • [Tool Shed](/toolshed/) • [Develop](/develop/) • [News Briefs](/docs/) • [Servers](/use/) • [Learn](/learn/) • [Support](/support/) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/news/) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/events/) • [Teach](/teach/) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/galaxy-team/)
+**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/galaxy-project/) • [Admin](/admin/) • [Issues](/issues/) • [Big Picture](/galaxy-project/) • [Community](/community/) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/cloudman/) • [Tool Shed](/toolshed/) • [Develop](/develop/) • [News Briefs](/docs/) • [Servers](/use/) • [Learn](/learn/) • [Support](/support/) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/news/) • [Twitter](/galaxy-on-twitter/) • [Events](/events/) • [Teach](/teach/) • [Cite](/citing-galaxy/) • [Galaxy Team](/galaxy-team/)

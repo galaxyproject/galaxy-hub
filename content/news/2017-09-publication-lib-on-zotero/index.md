@@ -7,9 +7,9 @@ date: "2017-09-28"
 [<img src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication library is now on Zotero" />](https://www.zotero.org/groups/1732893/galaxy)
 </div>
 
-After residing on CiteULike since 2011, the [Galaxy Publication Library](/src/publication-library/index.md) has moved to [Zotero](https://www.zotero.org/). The [library](https://www.zotero.org/groups/galaxy) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy. You can [search the library at Zotero](https://www.zotero.org/groups/1732893/galaxy/items), or through the [unified Galaxy search](/search/) (results are in the *Corpus* tab - *but not yet* - give Google a few days to catch up).
+After residing on CiteULike since 2011, the [Galaxy Publication Library](/publication-library/) has moved to [Zotero](https://www.zotero.org/). The [library](https://www.zotero.org/groups/galaxy) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy. You can [search the library at Zotero](https://www.zotero.org/groups/1732893/galaxy/items), or through the [unified Galaxy search](/search/) (results are in the *Corpus* tab - *but not yet* - give Google a few days to catch up).
 
-Publications are tagged with the same [set of 17 tags](/src/publication-library/index.md#tags) we've been using for years.  However, there are lots of other changes in tagging.  First, those 17 tags now all start with "+" to distinguish them from the new server and content tags.
+Publications are tagged with the same [set of 17 tags](/publication-library/#tags) we've been using for years.  However, there are lots of other changes in tagging.  First, those 17 tags now all start with "+" to distinguish them from the new server and content tags.
 
 **Highlighted Pubs**
 
@@ -32,6 +32,6 @@ Also starting with papers added this month, we are including tags provided by pu
 
 Finally, Zotero is a community platform.  If you are interested in helping to catalog papers then please see the [contributing page](/src/publication-library/contribute/index.md).
 
-Thanks for using (and [mentioning and referencing](/src/citing-galaxy/index.md) :-) Galaxy,
+Thanks for using (and [mentioning and referencing](/citing-galaxy/) :-) Galaxy,
 
 [Dave Clements](/people/dave-clements/)

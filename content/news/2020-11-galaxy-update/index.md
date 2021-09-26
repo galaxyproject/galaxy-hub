@@ -6,7 +6,7 @@ date: "2020-11-03"
 
 # In the November 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * **[JXTX: The James P. Taylor Foundation for Open Science](#jxtx-the-james-p.-taylor-foundation-for-open-science)**
 * **[Event news](#event-news)**

@@ -1,9 +1,9 @@
 ---
 title: March 2017 Galaxy News
 ---
-<div class='right'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the March 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  After *5 years* [of monthly newsletters](/src/galaxy-updates/index.md), we took a newsletter hiatus last month, but now we are back, and ready to report on our *continuing mission* to explore the Galaxy.
+Welcome to the March 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  After *5 years* [of monthly newsletters](/galaxy-updates/), we took a newsletter hiatus last month, but now we are back, and ready to report on our *continuing mission* to explore the Galaxy.
 
 Thanks for sticking with us. 
 
@@ -357,7 +357,7 @@ The Galaxy is expanding! Please help it grow.
 * [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
 * [Development Scientist (Bioinformatics)](http://chk.tbe.taleo.net/chk05/ats/careers/requisition.jsp?org=NEB&cws=1&rid=272), New England Biolabs, Ipswich, Massachusetts, United States.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 

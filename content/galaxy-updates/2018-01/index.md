@@ -1,9 +1,9 @@
 ---
 title: January 2018 Galaxy News
 ---
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
-Welcome to the January 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the January 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
@@ -270,7 +270,7 @@ The Galaxy is expanding! Please help it grow.
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -287,7 +287,7 @@ The [EuPathDB Galaxy Data Analysis Service](http://eupathdb.org/eupathdb/app/gal
 * All [EuPathDB](http://eupathdb.org/) genomes are pre-loaded.
 * [Pre-configured workflows](https://eupathdb.globusgenomics.org/workflow/list_published) are available.
 * Powered by [Globus Genomics](https://www.globus.org/genomics)
-* [EuPathDB tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EEuPathDB) in [Galaxy Publication library](/src/publication-library/index.md).
+* [EuPathDB tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EEuPathDB) in [Galaxy Publication library](/publication-library/).
 
 User support is available via a [web form](http://eupathdb.org/eupathdb/contact.do). The service is supported by [EuPathDB](http://eupathdb.org/), University of Georgia, University of Pennsylvania, and University of Liverpool.
 
@@ -303,7 +303,7 @@ See:
 
 * [Predictive functional profiling of microbial communities using 16S rRNA marker gene sequences](https://www.nature.com/articles/nbt.2676), Morgan G I Langille et al. *Nature Biotechnology* 31, 814–821 (2013)
 doi:10.1038/nbt.2676
-* [Langille tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3ELangille) in [Galaxy Publication library](/src/publication-library/index.md).
+* [Langille tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3ELangille) in [Galaxy Publication library](/publication-library/).
 
 
 ## Public Servers in Publications

@@ -14,6 +14,6 @@ The [October 2013 Galaxy Update is out](/src/galaxy-updates/2013-10/index.md):
 * [Online materials from past events](/src/galaxy-updates/2013-10/index.md#online-materials-from-past-events), including [all GCC2013 videos on Vimeo](http://bit.ly/gcc2013vimeo) and [course materials for the 2013 UC Davis Bioinformatics Short Course](http://bit.ly/16rAUkf). The UC Davis course featured 5 great days of lecture and hands-on exercises.
 * More [Tool Shed contributions](/src/galaxy-updates/2013-10/index.md#toolshed-contributions) than you can shake a stick at.
 
-If you have anything you would like to see in the next *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
+If you have anything you would like to see in the next *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
 [Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

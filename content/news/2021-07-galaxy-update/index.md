@@ -4,7 +4,7 @@ tease: "GCC2021 is under way."
 date: "2021-07-02"
 ---
 
-<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 

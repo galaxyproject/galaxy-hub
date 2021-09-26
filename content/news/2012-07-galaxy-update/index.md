@@ -23,6 +23,6 @@ The [July 2012 Galaxy Update is now available](/src/galaxy-updates/2012-07/index
   * help schedule the first [GalaxyCzars](/src/community/galaxy-admins/index.md) conference call on July 9 or 10
   * and lots of new screencasts, tutorials, and new genomes on main 
 
-If you have anything you would like to see in the August *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.
+If you have anything you would like to see in the August *[Galaxy Update](/galaxy-updates/)*, please let me know.
 
 [Dave Clements](/people/dave-clements/)

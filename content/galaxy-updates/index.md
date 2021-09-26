@@ -8,8 +8,8 @@ title: Galaxy Updates
 * The [News](/news/)
 * [Galaxy Development News Briefs](/docs/)
 * [Galactic Blog](/blog/)
-* [Galaxy on Twitter](/src/galaxy-on-twitter/index.md)
-* [Mailing Lists](/src/mailing-lists/index.md)
+* [Galaxy on Twitter](/galaxy-on-twitter/)
+* [Mailing Lists](/mailing-lists/)
 
 ## 2020 Updates
 

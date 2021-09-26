@@ -18,7 +18,7 @@ title: Galaxy Configuration for Admins
 ## Tools
 
 * [Tool Dependencies](/src/admin/config/tool-dependencies/index.md)
-* [Set up Visualizations](/src/visualization-setup/index.md)
+* [Set up Visualizations](/visualization-setup/)
 * [Collecting Job Metrics](https://docs.galaxyproject.org/en/latest/admin/special_topics/job_metrics.html)
 
 

@@ -1,9 +1,9 @@
 ---
 title: November 2017 Galaxy News
 ---
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
-Welcome to the November 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the November 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ---
 
@@ -208,7 +208,7 @@ The Galaxy is expanding! Please help it grow.
 * [Implémentation d’outils d’analyse et de visualisation de variations structurales et génomes mosaïques](https://www.sfbi.fr/content/impl%C3%A9mentation-d%E2%80%99outils-d%E2%80%99analyse-et-de-visualisation-de-variations-structurales-et-g%C3%A9nomes-), IRD (Institut de Recherche pour le Développement), Montpellier, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -241,7 +241,7 @@ The [BF2I-MAP](http://bf2i-galaxy.insa-lyon.fr:8080/) server features locally de
 **Citations**
 
 * [ThreaDNA: predicting DNA mechanics’ contribution to sequence selectivity of proteins along whole genomes](https://doi.org/10.1093/bioinformatics/btx634) by Jasmin Cevost, Cédric Vaillant and Sam Meyer, *Bioinformatics*, btx634, doi: 10.1093/bioinformatics/btx634, Published: 09 October 2017
-* [BF2I-MAP tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EBF2I-MAP) in [Galaxy Publication library](/src/publication-library/index.md).
+* [BF2I-MAP tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EBF2I-MAP) in [Galaxy Publication library](/publication-library/).
 
 
 

@@ -4,7 +4,7 @@ date: "2012-02-29"
 ---
 <div class='right'><a href='/src/galaxy-updates/2012-03/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="March 2012 Galaxy Update" width=150 /></a></div>
 
-The [March 2012 Galaxy Update](/src/galaxy-updates/2012-03/index.md) is now available.  *[Galaxy Update](/src/galaxy-updates/index.md)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* complements the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
+The [March 2012 Galaxy Update](/src/galaxy-updates/2012-03/index.md) is now available.  *[Galaxy Update](/galaxy-updates/)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* complements the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 **Highlights:**
 
@@ -16,6 +16,6 @@ The [March 2012 Galaxy Update](/src/galaxy-updates/2012-03/index.md) is now avai
   * Training Day topics are set.
 * [Tool Shed Contributions](/src/galaxy-updates/2012-03/index.md#toolshed-contributions)
 
-If you have anything you would like to see in the April *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.
+If you have anything you would like to see in the April *[Galaxy Update](/galaxy-updates/)*, please let me know.
 
 [Dave Clements](/people/dave-clements/)

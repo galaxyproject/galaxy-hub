@@ -4,7 +4,7 @@ tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! And some other news too."
 date: "2019-10-02"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/>)
 
 The *October 2019 Galactic News*  includes Galactic news under this or any other sun:
 
@@ -229,7 +229,7 @@ Platforms that were referenced at least twice in the past month's publications:
 
 # Who's Hiring
 
-The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">

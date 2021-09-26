@@ -1,9 +1,9 @@
 ---
 title: January 2017 Galaxy News
 ---
-<div class='right'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the January 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.
+Welcome to the January 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
 If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
@@ -290,7 +290,7 @@ The Galaxy is expanding! Please help it grow.
 * [Réalisation de modules d'interoperabilité entre la base de données OMICmDB et l'instance Galaxy de la Plateforme d’Exploration du Métabolisme de l’INRA de Clermont Ferrand-Theix](https://www.sfbi.fr/content/r%C3%A9alisation-de-modules-dinteroperabilit%C3%A9-entre-la-base-de-donn%C3%A9es-omicmdb-et-linstance-galax).  Date de validité:  06/01/2017
 * [Development Scientist (Bioinformatics)](http://chk.tbe.taleo.net/chk05/ats/careers/requisition.jsp?org=NEB&cws=1&rid=272), New England Biolabs, Ipswich, Massachusetts, United States.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 

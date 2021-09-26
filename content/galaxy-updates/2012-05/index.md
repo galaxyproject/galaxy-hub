@@ -1,9 +1,9 @@
 ---
 title: May 2012 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the May 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the May 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## GCC2012: Just 3 Months Away!
 
@@ -56,7 +56,7 @@ This paper may be of interest to the Galaxy community:
 
 <table>
   <tr>
-    <td rowspan=4 style=" text-align: left; vertical-align: top; border:none;"> This open access article includes a detailed recipe describing how Galaxy was used in their analysis.<br /><br /> This paper was among <a href='http://www.citeulike.org/group/16008/library'>31 papers added to the Galaxy CiteULike group</a> since the last <a href='/src/galaxy-updates/index.md'>Galaxy Update</a>.  The new papers were spread <a href='http://www.citeulike.org/group/16008/tags'>across 5 categories</a>. </td>
+    <td rowspan=4 style=" text-align: left; vertical-align: top; border:none;"> This open access article includes a detailed recipe describing how Galaxy was used in their analysis.<br /><br /> This paper was among <a href='http://www.citeulike.org/group/16008/library'>31 papers added to the Galaxy CiteULike group</a> since the last <a href='/galaxy-updates/'>Galaxy Update</a>.  The new papers were spread <a href='http://www.citeulike.org/group/16008/tags'>across 5 categories</a>. </td>
     <th> # </th>
     <th> Tag </th>
     <td rowspan=4 style=" border:none;"> &nbsp;&nbsp;&nbsp; </td>
@@ -87,13 +87,13 @@ This paper may be of interest to the Galaxy community:
 <div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs and software engineers @ Emory and Penn State.
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs and software engineers @ Emory and Penn State.
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://ig14.i-grasp.com/fe/tpl_embl01.asp?s=CenPmSXuHfWInKkWfc&jobid=48600,4861587159&key=47280152&c=872525621521&pagestamp=semwkerpsgqmdbmjjc)
 * [Computational Biologist, Harvard School of Public Health](http://www.iscb.org/index.php?option=com_content&view=article&id=380&Itemid=162&lqm_job_id=2910)
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ## Upcoming Events and Deadlines
 

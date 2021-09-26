@@ -14,9 +14,9 @@ date: 2011-11-18
 
 ## News & Events
 
-<div class='left'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
+<div class='left'><a href='/galaxy-is-hiring/'><img src="/src/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
 * Keep current on all things Galaxy at our [News](/news/) and [Events](/events/) wikis.
-* Galaxy is still [hiring](/src/galaxy-is-hiring/index.md)!
+* Galaxy is still [hiring](/galaxy-is-hiring/)!
 
 ### GCC 2012 is Scheduled!
 

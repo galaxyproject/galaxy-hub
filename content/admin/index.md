@@ -28,7 +28,7 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 * [Installing Tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
 * [Tool Panel](/src/admin/tool-panel/index.md)
 * [Local Reference Data](/src/admin/data-integration/index.md)
-* [Data Libraries](/src/data-libraries/index.md)
+* [Data Libraries](/data-libraries/)
 * [Datatypes](/src/admin/datatypes/index.md)
 * [Configuring Galaxy Home/Welcome Page](/src/admin/galaxy-welcome-page/index.md)
 * [Interactive Environments (IE)](/src/admin/gies/index.md)
@@ -44,7 +44,7 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 ## Learning Resources
 
 * [FAQ](/src/admin/faq/index.md)
-* [Mailing Lists (galaxy-dev)](/src/mailing-lists/index.md)
+* [Mailing Lists (galaxy-dev)](/mailing-lists/)
 * [Tutorials](/src/admin/training/index.md)
 
 

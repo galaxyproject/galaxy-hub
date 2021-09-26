@@ -1,9 +1,9 @@
 ---
 title: December 2012 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the December 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the December 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -51,7 +51,7 @@ These papers may be of interest to the Galaxy community:
 * Jeremy C. Morgan, Robert W. Chapman, Paul E. Anderson, "[A next generation sequence processing and analysis platform with integrated cloud-storage and high performance computing resources](https://doi.org/10.1145/2382936.2383033).  Proceedings of the ACM Conference on Bioinformatics, Computational Biology and Biomedicine <br /><br /> 
 * Bo Liu, Borja Sotomayor, Ravi Madduri, Kyle Chard, "[Deploying Bioinformatics Workflows on Clouds with Galaxy and Globus Provision](http:// bit.ly/UPBbRI)."  [Third International Workshop on Data Intensive Computing in the Clouds (DataCloud 2012)](http://www.cse.buffalo.edu/faculty/tkosar/DataCloud2012/)
 
-These papers were among [37 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md).  
+These papers were among [37 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/).  
 
 
 <br />
@@ -78,9 +78,9 @@ The Galaxy is expanding!  Please help it grow.
 * [Engineer position in bioinformatics: structural polymorphism analysis from NGS data](http://bit.ly/TEQvzd) @ [UMR de Génétique Végétale, INRA-Université Paris Sud-CNRS](http://moulon.inra.fr/index.php/fr/equipestransversales/atelier-de-bioinformatique)
 * [R/Bioconductor and Genomics Expert](http://bit.ly/T1QOZP) @ the [Friedrich Miescher Institute](http://www.fmi.ch/), affiliated with the University of Basel.
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Penn State and Emory
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs @ Penn State and Emory
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ## Upcoming Events and Deadlines
 

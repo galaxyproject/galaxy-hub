@@ -16,7 +16,7 @@
 |  | <div class="float-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Joshi.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad) (starts @ xx:yy)*</div> *Differential Expression with Diagnostic Plots using sam2counts and DESeq* <div class='indent'> Nikhil Joshi, UC Davis </div> |
 |  |<div class='float-right'> *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.pdf), [PPT](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.ppt), Video*</div> *Galaxy-P* <div class='indent'> Pratik Jagtap, University of Minnesota  </div> |
 |  |<div class='float-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Sandve.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421)*</div> *The Genomic Hyperbrowser: Prove Your Point* <div class='indent'> Geir Kjetil Sandve, University of Oslo </div> |
-|  |<div class='float-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Gruning.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421) (starts @ 6:10)*</div> *[ChemicalToolBox](/src/chemical-tool-box/index.md)* <div class='indent'> Björn Grüning, Albert-Ludwigs-University Freiburg </div> |
+|  |<div class='float-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Gruning.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421) (starts @ 6:10)*</div> *[ChemicalToolBox](/chemical-tool-box/)* <div class='indent'> Björn Grüning, Albert-Ludwigs-University Freiburg </div> |
 
 
 ## Goals

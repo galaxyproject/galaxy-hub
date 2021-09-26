@@ -10,9 +10,9 @@ title: The October 2015 Galactic News!
 
 </div>
 
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the October 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the October News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+Welcome to the October 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the October News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
 # New Papers
 
@@ -294,16 +294,16 @@ There are [upcoming events](/events/) in 4 countries on 4 continents.  See the [
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [Support engineer for Galaxy at the CIB in the Institut Pasteur](https://c3bi.pasteur.fr/cib-team-cdd-job-application/), Paris, France 
 
 * [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 

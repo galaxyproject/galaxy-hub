@@ -1,9 +1,9 @@
 ---
 title: January 2013 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the January 2013 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the January 2013 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -64,8 +64,8 @@ There are now [599 papers in the Galaxy CiteULike Group](http://www.citeulike.or
 <div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
-* **The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md)!**
-  * **[Post-docs](/src/galaxy-is-hiring/index.md)** at Penn State University (Nekrutenko Lab)
+* **The [Galaxy Project is hiring](/galaxy-is-hiring/)!**
+  * **[Post-docs](/galaxy-is-hiring/)** at Penn State University (Nekrutenko Lab)
   * **[Post-docs](http://bx.mathcs.emory.edu/joining/postdocs/)** and **[Software Engineers](http://bx.mathcs.emory.edu/joining/sw/)** at Emory University ([Taylor Lab](http://bx.mathcs.emory.edu/))
 * [GenePeeks](http://genepeeks.com/) is hiring a [Computational Geneticist](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/WMJG7V2PFU4GKPCLK6PD4VTM6Q2T2T5X/#WMJG7V2PFU4GKPCLK6PD4VTM6Q2T2T5X) and a [Tools Programmer](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/PH2LBAMW4Q7C3VBBXVVNGHBH5T3Y2AKO/#PH2LBAMW4Q7C3VBBXVVNGHBH5T3Y2AKO).
 * [offre de stage pour un stage de 6 mois (Master2) dans l'équipe Bioinformatique de Syngenta Seeds à Toulouse](http://bit.ly/TvCBCx)
@@ -73,7 +73,7 @@ The Galaxy is expanding!  Please help it grow.
 * [Engineer position in bioinformatics: structural polymorphism analysis from NGS data](http://bit.ly/TEQvzd) @ [UMR de Génétique Végétale, INRA-Université Paris Sud-CNRS](http://moulon.inra.fr/index.php/fr/equipestransversales/atelier-de-bioinformatique)
 * [Offre de stage M2 PRO](http://bit.ly/114Xd9p), [Mathématique, Informatique et Génome (MIG)](http://mig.jouy.inra.fr/) est une unité de l'INRA de Jouy-en-Josas
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 
 ## GCC2013

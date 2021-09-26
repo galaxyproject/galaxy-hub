@@ -193,7 +193,7 @@ Which [EC2 instance type(s)](http://aws.amazon.com/ec2/#instance) should you use
 
 See also
 
-* [Reducing costs in Cloud Galaxy](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/AZMI4JD7T2V6L6CCYVSSJN32QJCHY64Z/#AZMI4JD7T2V6L6CCYVSSJN32QJCHY64Z) thread, Galaxy-Dev [mailing list](/src/mailing-lists/index.md), started 2012/03/18.
+* [Reducing costs in Cloud Galaxy](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/AZMI4JD7T2V6L6CCYVSSJN32QJCHY64Z/#AZMI4JD7T2V6L6CCYVSSJN32QJCHY64Z) thread, Galaxy-Dev [mailing list](/mailing-lists/), started 2012/03/18.
 * The [CloudHarmony Benchmarks](http://cloudharmony.com/benchmarks) page
 
 ## How Much EBS?

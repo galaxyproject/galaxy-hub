@@ -4,7 +4,7 @@ tease: "GCC2019 is here! (And other new stuff too)"
 date: "2019-06-28"
 ---
 
-[<img class="float-right" src="/src/news/2019-07-galaxy-update/2019-07-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/news/2019-07-galaxy-update/2019-07-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *July 2019 Galactic News* is here!
 
@@ -241,7 +241,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
   * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ---
 

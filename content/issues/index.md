@@ -40,7 +40,7 @@ If using your own [local/docker/cloud Galaxy server](https://galaxyproject.githu
 
 ### Administrative problems
 
-If the problem is presenting in your own Galaxy, administrative configuration may be a factor. **For the fastest help directly from the development community**, admin issues can be alternatively reported to the galaxy-dev@lists.galaxyproject.org mailing list or the GalaxyProject Gitter channel https://gitter.im/galaxyproject/Lobby. Contact [details](/src/get-involved/index.md). Please include the same information about your own Galaxy server as described in **Functionality problems** above.
+If the problem is presenting in your own Galaxy, administrative configuration may be a factor. **For the fastest help directly from the development community**, admin issues can be alternatively reported to the galaxy-dev@lists.galaxyproject.org mailing list or the GalaxyProject Gitter channel https://gitter.im/galaxyproject/Lobby. Contact [details](/get-involved/). Please include the same information about your own Galaxy server as described in **Functionality problems** above.
 
  ### TIPS
  

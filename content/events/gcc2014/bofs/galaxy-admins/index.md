@@ -100,7 +100,7 @@ Discussion focused on a few different areas:
 
 ## Separate Mailing List for GalaxyAdmins
 
-We investigated splitting the Galaxy-Dev [Mailing List](/src/mailing-lists/index.md) into two: one for development and one for administration.  We also investigated using Mailman tagging to flag GalaxyAdmins threads.  Both were rejected as ineffective.  People were already frequently posting to the wrong list.  Adding a third list to the mix would make that problem worse and anyone subscribing to -dev or -admin would still have to subscribe to both.  
+We investigated splitting the Galaxy-Dev [Mailing List](/mailing-lists/) into two: one for development and one for administration.  We also investigated using Mailman tagging to flag GalaxyAdmins threads.  Both were rejected as ineffective.  People were already frequently posting to the wrong list.  Adding a third list to the mix would make that problem worse and anyone subscribing to -dev or -admin would still have to subscribe to both.  
 
 ## Better Enable Sharing of Information
 

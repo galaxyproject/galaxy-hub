@@ -1,16 +1,16 @@
 ---
 title: April 2012 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the April 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the April 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
 This paper may be of interest to the Galaxy community:
 * Konstantinos Krampis, Tim Booth, Brad Chapman, Bela Tiwari, Mesude Bicak, Dawn Field and Karen Nelson , "[Cloud BioLinux: pre-configured and on-demand bioinformatics computing for the genomics community](http://www.biomedcentral.com/1471-2105/13/42/abstract)." *BMC Bioinformatics* 2012, 13:42
 
-These were among [28 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md).  The new papers were spread [across 6 categories](http://www.citeulike.org/group/16008/tags).
+These were among [28 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/).  The new papers were spread [across 6 categories](http://www.citeulike.org/group/16008/tags).
 <table>
   <tr>
     <th> # </th>
@@ -45,13 +45,13 @@ These were among [28 papers added to the Galaxy CiteULike group](http://www.cite
 <div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs and software engineers at Emory and Penn State.
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs and software engineers at Emory and Penn State.
 * [Computational Biologist, Harvard School of Public Health](http://www.iscb.org/index.php?option=com_content&view=article&id=380&Itemid=162&lqm_job_id=2910)
 * [Computational Genomics Specialists, Smithsonian Institution, Washington, DC](http://www.nature.com/naturejobs/science/jobs/249645-Computational-Genomics-Specialists)
 * [Bioinformatician @ U Edinburgh](http://www.jobs.ed.ac.uk/vacancies/index.cfm?fuseaction=vacancies.detail&vacancy_ref=3015457)
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ## Upcoming Events and Deadlines
 
@@ -145,7 +145,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 ## Tool Shed Contributions
 
-At least *15* new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) since the last [Galaxy Update](/src/galaxy-updates/index.md), including 
+At least *15* new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) since the last [Galaxy Update](/galaxy-updates/), including 
 * EMBER: analysis technique for inferring the genes regulated by transcription factor. 
 * hmmer: hmmscan/hmmsearch as one tool, plus hmmpress
 * RNA SEQ by Expectation Maximization (RSEM).
@@ -166,7 +166,7 @@ At least *15* new repositories were added to the [Galaxy Tool Shed](http://tools
 
 There has been one [Galaxy distribution](/docs/) in the past month.  The [most recent release (March 12)](/src/archive/dev-news-briefs/2012-03-12/index.md), includes these highlights:
 * **Emboss tools and datatypes** moving from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* in the **NEXT release**. Read more about the upcoming **[tool migrations...](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md)**
-* Galaxy tool [XML configuration](/src/galaxy-tool-panel/index.md#xml-configuration-files-used-to-populate-your-galaxy-tool-panel), managing [tool panel layout](/src/galaxy-tool-panel/index.md#managing-the-layout-of-your-galaxy-tool-panel), and Galaxy [tool versions](/src/galaxy-tool-version-lineage/index.md).
+* Galaxy tool [XML configuration](/galaxy-tool-panel/#xml-configuration-files-used-to-populate-your-galaxy-tool-panel), managing [tool panel layout](/galaxy-tool-panel/#managing-the-layout-of-your-galaxy-tool-panel), and Galaxy [tool versions](/galaxy-tool-version-lineage/).
 * **RNA-Seq Tools:** Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0, Updated **[TopHat](http://tophat.cbcb.umd.edu/)** default parameters
 * **External Display Apps:** Added **[RViewer](http://rviewer.lbl.gov/rviewer/)**, Updated **[IGV](http://www.broadinstitute.org/igv/)**
 * Now visualize **[ENCODE](http://genome.ucsc.edu/ENCODE/) "peak" datatype tracks** in the Galaxy Track Browser (aka Trackster)

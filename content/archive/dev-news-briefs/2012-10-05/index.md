@@ -83,9 +83,9 @@ The following sections of the tool shed wiki provide information about features 
 
   This document provides the details for a simple feature of the tool shed that enables displaying the license information (or possibly other kinds of information) for tools included in a repository.  [Read more…](/src/toolshed/readme-files/index.md)
 
-3. **[Updating a previously installed repository to a revision that includes changes to installed tool dependencies](/src/updating-to-revision-with-tool-dependencies/index.md)**
+3. **[Updating a previously installed repository to a revision that includes changes to installed tool dependencies](/updating-to-revision-with-tool-dependencies/)**
 
-  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/src/pdating-to-revision-with-tool-dependencies/index.md)
+  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/pdating-to-revision-with-tool-dependencies/)
 
 ### Improved tool shed feature documentation
 
@@ -99,9 +99,9 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 
   If you want to push a changeset to a repository in the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed/advanced-repository-features/index.md#cloning-a-repository-using-hg-from-the-command-line)
 
-3. **[Adding additional change sets to the initial change set in a repository](/src/repository-revisions/index.md)**
+3. **[Adding additional change sets to the initial change set in a repository](/repository-revisions/)**
 
-  With each change set committed and pushed to a repository, whether using hg from the command line or by uploading or deleting files using the tool shed UI features, metadata about the contents of the change set is generated.  This document provides the details about this process. [Read more…](/src/repository-revisions/index.md)
+  With each change set committed and pushed to a repository, whether using hg from the command line or by uploading or deleting files using the tool shed UI features, metadata about the contents of the change set is generated.  This document provides the details about this process. [Read more…](/repository-revisions/)
 
 ### Other tool shed fixes and features included in this Galaxy release
 
@@ -225,4 +225,4 @@ The **[Galaxy Team](/galaxy-team/)** is a part of **[BX](http://www.bx.psu.edu/)
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/galaxy-on-twitter/)**

@@ -6,7 +6,7 @@
 Related topics
   
   *  [Downloading Data](/src/support/download-data/index.md)
-  *  [Load into a Data Library (Admin)](/src/data-libraries/index.md)
+  *  [Load into a Data Library (Admin)](/data-libraries/)
   *  [Local Galaxy? Configure FTP Upload (Admin)](/src/admin/config/#ftp)
 
 Tutorials
@@ -20,7 +20,7 @@ Tutorials
  * Quick help: [**Manupulating NGS data with Galaxy: Getting Data In**](/src/tutorials/ngs/#getting-ngs-data-in)
  * Full tutorial: [**Uploading data into Galaxy**](/src/tutorials/upload/index.md)
  * Dataset Collections, including creation during Upload: [**Processing many samples at once with collections**](https://galaxyproject.org/tutorials/collections/)
- * FTP/FTPS tutorial: [**FTP Upload**](/src/ftp-upload/index.md)
+ * FTP/FTPS tutorial: [**FTP Upload**](/ftp-upload/)
 
 ## GTN Tutorials
 
@@ -57,7 +57,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 ### Get Data: Upload tool used with FTP
 
-*   Load the data using line command FTP or a client. [More help...](/src/ftp-upload/index.md)
+*   Load the data using line command FTP or a client. [More help...](/ftp-upload/)
 *   Note that the FTP server name is specific to the Galaxy you are working on. This is by default the URL of the server.
     *   For the public Galaxy Main instance at [http://usegalaxy.org](http://usegalaxy.org) the FTP server name to use is **usegalaxy.org**.
     *   For a default local (with FTP enabled, see next) the FTP server name to use is **localhost:8080**. If the server URL was modified, use that custom URL.
@@ -86,7 +86,7 @@ If you already moved a partial or truncated dataset into a History, you will nee
 
 *   **Data [quota](/src/main/#user-data-and-job-quotas) is at limit**, so _no new data can be loaded_. Disk usage and quotas are reported at _**User → Preferences**_ when logged in.
 *   **Password protected data** will require a special URL format. Ask the data source. Double check that it is _publicly accessible_.
-*   Use _**[FTP or FTPS](/src/ftp-upload/index.md)**_, not _**SFTP**_. Check with local admin if not sure.
+*   Use _**[FTP or FTPS](/ftp-upload/)**_, not _**SFTP**_. Check with local admin if not sure.
 *   **No HTML content.** The loading error generated may state this. Remove HTML fields from your dataset before loading into Galaxy or omit HTML fields from the query if importing from a data source (such as Biomart).
 *   Compression types **.gz/.gzip, .bz/.bzip, .bz2/.bzip2, and _single-file_ .tar and .zip are (usually) supported -- but if your tar/zip data does not load -- download the data locally, unpack the archive, and upload the data directly.**
 *   Only the **first file in any compressed archive** will load as a **[dataset](/src/learn/managing-datasets)**.

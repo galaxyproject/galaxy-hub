@@ -17,6 +17,6 @@ The [November 2013 Galaxy Update is out](/src/galaxy-updates/2013-11/index.md):
 * [Lifeportal launched at the University of Oslo](/src/galaxy-updates/2013-11/index.md#lifeportal-at-the-university-of-oslo)
 * [Tool Shed contributions](/src/galaxy-updates/2013-11/index.md#toolshed-contributions)
 
-If you have anything you would like to see in the next *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
+If you have anything you would like to see in the next *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
 [Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

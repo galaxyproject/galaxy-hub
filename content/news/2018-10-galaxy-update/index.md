@@ -4,7 +4,7 @@ tease: 'New events, pubs, blog posts, servers, tools and releases (and a Galaxy 
 date: "2018-10-01"
 ---
 
-[<img class="float-right" src="/src/news/2018-10-galaxy-update/2018-10-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2018-10-galaxy-update/2018-10-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/>)
 
 The *October  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
@@ -284,7 +284,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
 

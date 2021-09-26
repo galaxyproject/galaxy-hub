@@ -17,6 +17,6 @@ The [March 2013 Galaxy Update is now available](/src/galaxy-updates/2013-03/inde
 * [Tool Shed Contributions](/src/galaxy-updates/2013-03/index.md#toolshed-contributions)
 * [Other News](/src/galaxy-updates/2013-03/index.md#other-news)
 
-If you have anything you would like to see in the April *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
+If you have anything you would like to see in the April *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
 [Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

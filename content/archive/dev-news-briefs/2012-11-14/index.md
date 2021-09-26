@@ -180,7 +180,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
 * [Bioinformatician/Statistician opening](http://bit.ly/X7Hl30) at EMBL Heidelberg, Germany  
 * [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements RnaSeq sous Galaxy - France Genomique
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Penn State and Emory
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs @ Penn State and Emory
 
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org.
 

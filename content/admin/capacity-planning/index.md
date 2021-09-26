@@ -5,7 +5,7 @@ title: Galaxy Capacity Planning
 
 
 
-One of the recurring questions on the [Mailing Lists](/src/mailing-lists/index.md) is
+One of the recurring questions on the [Mailing Lists](/mailing-lists/) is
 
  . *How much computing power / disk space / network bandwidth / ... do I need to [set up my own Galaxy server](/src/admin/get-galaxy/index.md)?*
 

@@ -63,4 +63,4 @@ The GCC2014 Logo was designed by Mayela Lopez of [Mayela Lopez Designs](http://w
 
 # Twitter Hashtag
 
-Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/src/galaxy-on-twitter/index.md) for the meeting. The obvious choice of #gcc2014 is already well used by several other events.
+Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/galaxy-on-twitter/) for the meeting. The obvious choice of #gcc2014 is already well used by several other events.

@@ -3,7 +3,7 @@ title: Galaxy Webinar Series
 layout: events_index_webinars.pug
 ---
 
-The Galaxy Webinar Series features short online talks that have Galaxy as a focus.  Anyone can attend these.  Videos of most webinars are available. Webinars are hosted all over the world, and happen at least once a month. Want to know when webinars are coming?  Follow [@GalaxyProject on  Twitter](https://twitter.com/galaxyproject) or subscribe to the [Galaxy-Announce mailing list](/src/mailing-lists/index.md).
+The Galaxy Webinar Series features short online talks that have Galaxy as a focus.  Anyone can attend these.  Videos of most webinars are available. Webinars are hosted all over the world, and happen at least once a month. Want to know when webinars are coming?  Follow [@GalaxyProject on  Twitter](https://twitter.com/galaxyproject) or subscribe to the [Galaxy-Announce mailing list](/mailing-lists/).
 
 See the [Galaxy Event Horizon](/events/) for a complete list of upcoming events.
 

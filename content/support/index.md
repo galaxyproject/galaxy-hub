@@ -14,7 +14,7 @@ title: Galaxy Support
 * Query all Galaxy resources with the search function in the top masthead
 * [Galaxy Help](https://help.galaxyproject.org/) 
 * [Chat](https://gitter.im/galaxyproject/Lobby/)
-* [Mailing Lists](/src/mailing-lists/index.md)
+* [Mailing Lists](/mailing-lists/)
 * [Video Help](https://vimeo.com/galaxyproject/)
 * [Galaxy Biostars: retired `Q&A` archive](https://biostar.usegalaxy.org/)
 

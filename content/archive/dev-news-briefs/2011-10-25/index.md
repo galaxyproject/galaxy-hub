@@ -14,16 +14,16 @@ date: 2011-10-25
 
 ## News
 
-<div class='left'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
+<div class='left'><a href='/galaxy-is-hiring/'><img src="/src/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
 * Keep current on all things Galaxy at our [News](/news/) and [Events](/events/) wikis.
-* Galaxy is still [hiring](/src/galaxy-is-hiring/index.md)!
+* Galaxy is still [hiring](/galaxy-is-hiring/)!
 
 ## What's New
 
 ### Galaxy Main
 
 * Data and Job Quotas announced earlier today by email, Galaxy wiki, Twitter, and News Items/RSS feed.
-  * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/src/mailing-lists/index.md).
+  * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/mailing-lists/).
   * [Main](/main/) wiki with limits, FAQ, and related links.
   * [Managing Datasets](/src/learn/managing-datasets/index.md) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
   * [Disk Quotas](/src/admin/disk-quotas/index.md) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
@@ -70,7 +70,7 @@ date: 2011-10-25
 <div class='left'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="toolshed" width="100px" /></a></div>
 * [Search repositories for valid tools by any combination of id, name or version](/src/toolshed/searching-the-toolshed/index.md#search-repositories-for-valid-tools-by-any-combination-of-id-name-or-version).
 * [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
-* [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/updating-installed-repositories/index.md#getting-updates-for-tool-shed-repositories-installed-in-a-local-galaxy-instance).
+* [Getting updates for tool shed repositories installed in a local Galaxy instance](/updating-installed-repositories/#getting-updates-for-tool-shed-repositories-installed-in-a-local-galaxy-instance).
 * Fixes for displaying file names that include spaces when browsing repository contents.
 
 ## Updated & Improved

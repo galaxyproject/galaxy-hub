@@ -1,9 +1,9 @@
 ---
 title: July 2012 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the July 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the July 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -56,7 +56,7 @@ These papers may be of interest to the Galaxy community:
 
 * ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/people/jennifer-jackson/), [Dave Clements](/people/dave-clements/), [Daniel Blankenberg](/people/dan/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), [Galaxy Team](/src/galaxy-team/), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
 
-These papers were among [31 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md) (for a total of 348 papers in the last ~16 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
+These papers were among [31 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/) (for a total of 348 papers in the last ~16 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
 
 
 <br /><br /><br />
@@ -84,13 +84,13 @@ The [program for all 3 days is now available](/src/events/gcc2012/program/index.
 <div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs and software engineers @ Emory and Penn State.
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs and software engineers @ Emory and Penn State.
 * [Bioinformatics Specialist opening in St. Paul, Minnesota](http://www.nature.com/naturejobs/science/jobs/268562-Bioinformatics-Specialist); Galaxy experience required. 
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ## Upcoming Events and Deadlines
 

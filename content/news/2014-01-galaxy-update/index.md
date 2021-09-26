@@ -28,7 +28,7 @@ The [January 2014 Galaxy Update is out](/src/galaxy-updates/2014-01/index.md)!
 * [Tool Shed Contributions](/src/galaxy-updates/2014-01/index.md#toolshed-contributions) 
 * [Other News](/src/galaxy-updates/2014-01/index.md#other-news)
 
-If you have anything you would like to see in the next *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
+If you have anything you would like to see in the next *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
 Best wishes to you and yours for a happy and spectacular 2014,
 

@@ -1,9 +1,9 @@
 ---
 title: October 2012 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the October 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the October 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -59,7 +59,7 @@ These papers may be of interest to the Galaxy community:
 
 * [Galaxy Workflow Integration on Garuda Grid](https://doi.org/10.1109/WETICE.2012.51), by  K. Karuna, N. Mangala, C. Janaki, S. Shashi, and C. Subrata; in Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE), 2012 IEEE 21st International Workshop on (June 2012), pp. 194-196
 
-These papers were among [35 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md) (for a total of 456 papers in the last ~20 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
+These papers were among [35 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/) (for a total of 456 papers in the last ~20 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
 
 <br />
 
@@ -76,10 +76,10 @@ The [CBIIT Galaxy Server](http://galaxy.cbiit.cuhk.edu.hk/) joins the 20+ other 
 <div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Penn State and Emory
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs @ Penn State and Emory
 * [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements RnaSeq sous Galaxy - France Genomique
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ## Upcoming Events and Deadlines
 
@@ -214,7 +214,7 @@ There were [two new Galaxy distributions](/docs/) in September:
 * More updates to **[Output and Error Handling](/src/admin/tools/tool-config-syntax/index.md#a3cstdio3e2c_3cregex3e2c_and_3cexit_code3e_tag_sets)** including updated documentation and enhancements to exit code checks.
 * **[TopHat2](http://tophat.cbcb.umd.edu/manual.html) / [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)** latest support includes *Tophat2* fusions output, *Bowtie2* sorted [BAMs](/src/learn/datatypes/index.md#bam), and a new [RNA-seq Tutorial](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise).
 * **Trackster** updates include improved support for **[bigWig](http://genome.ucsc.edu/goldenPath/help/bigWig.html)** / **[bigBed](http://genome.ucsc.edu/goldenPath/help/bigBed.html)**, new support for **[bedGraph](http://genome.ucsc.edu/goldenPath/help/bedgraph.html)**, and a new search feature for **[GFF](/src/learn/datatypes/index.md#gff)** / **[GTF](/src/learn/datatypes/index.md#gtf)** / **[BED](/src/learn/datatypes/index.md#bed)** datasets.
-* Plus many other **Workflow**, **API**, **Source**, **UI** features and a summary of recent ***[Galaxy Update](/src/galaxy-updates/index.md)*** highlights.
+* Plus many other **Workflow**, **API**, **Source**, **UI** features and a summary of recent ***[Galaxy Update](/galaxy-updates/)*** highlights.
 
 ## Other News
 

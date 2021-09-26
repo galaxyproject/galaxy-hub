@@ -6,7 +6,7 @@ date: "2020-09-01"
 
 # In the  September 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * [BCC2020 Wrap up and GCC2021 is on the way](#bcc2020-is-done-gcc2021-is-coming)
 * [More event news](#more-event-news)

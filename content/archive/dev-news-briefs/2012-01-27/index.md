@@ -78,7 +78,7 @@ date: 2012-01-27
   * Reset all metadata on all changeset revisions of a tool shed repsoitory whenever a new change set is introduced. This will result in a more standardized set of valid changeset revisions that can be installed.
   * Fix for generating workflow metadata and viewing workflows in tool shed repositories.
   * Fix for searching for workflows in the tool shed.
-* [Deactivating and uninstalling tool shed repositories installed into a local Galaxy instance](/src/uninstalling-repositories-from-galaxy/index.md)
+* [Deactivating and uninstalling tool shed repositories installed into a local Galaxy instance](/uninstalling-repositories-from-galaxy/)
 
 ## Bug Fixes
 

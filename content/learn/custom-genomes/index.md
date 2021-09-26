@@ -20,7 +20,7 @@ In [Galaxy](http://usegalaxy.org), a **custom reference genome** is a [FASTA](/s
 
 There are **five basic steps** to using a *Custom Reference Genome*:
 * Obtain a **[FASTA](/src/learn/datatypes/index.md#fasta) copy of the target genome**
-* **[FTP](/src/ftp-upload/index.md) the genome to Galaxy** and load into a history as a [dataset](/learn/#datasets)
+* **[FTP](/ftp-upload/) the genome to Galaxy** and load into a history as a [dataset](/learn/#datasets)
 * **Clean up the format** with the tool **NormalizeFasta** using the options to wrap sequence lines at 80 bases and to trim the title line at the first whitespace. 
 * Make sure the [chromosome identifiers](https://galaxyproject.org/support/chrom-identifiers) are a match for other inputs
 * **Set a tool form's options to use a custom reference genome from the history** and select the loaded genome
@@ -91,7 +91,7 @@ If a custom genome dataset is producing errors, double check the format and that
 ### 2. Incomplete Custom genome file load
   * **Symptoms include**: Tool errors result the first time you use the Custom genome.
   * **Solution**: Use <strong>Text Manipulation &rarr; Select last lines from a dataset</strong> to check last 10 lines to see if file is truncated.
-  * **How**: Reload the dataset (switch to <strong><a href='/src/ftp-upload/index.md'>FTP</a></strong> if not using already). Check your FTP client logs to make sure the load is complete.
+  * **How**: Reload the dataset (switch to <strong><a href='/ftp-upload/'>FTP</a></strong> if not using already). Check your FTP client logs to make sure the load is complete.
 
 ### 3. Extra spaces, extra lines, inconsistent line wrapping, or any deviation from strict <a href='/src/learn/datatypes/index.md#fasta'>FASTA</a> format
   * **Symptoms include**: RNA-seq tools (<strong>Cufflinks, Cuffcompare, Cuffmerge, Cuffdiff</strong>) fails with error <code>Error: sequence lines in a FASTA record must have the same length!</code>.

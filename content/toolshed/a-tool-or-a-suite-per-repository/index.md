@@ -27,6 +27,6 @@ The recommended practice has undergone several iterations over the years. Initia
 
 * [Defining repository dependencies](/src/toolshed/defining-repository-dependencies/index.md) - this document provides information about how to define dependencies [for a repository] on any number of additional, separate repositories.
 
-* [Including functional test for your tools](/src/testing-installed-tools/index.md) - this document provides details for including input and output datasets in your repository for functional tests defined in tool config files included in the repository.
+* [Including functional test for your tools](/testing-installed-tools/) - this document provides details for including input and output datasets in your repository for functional tests defined in tool config files included in the repository.
 
-* [Enabling workflow sharing](/src/toolshed-workflow-sharing/index.md) - this document describes how the tool shed enables sharing Galaxy workflows.
+* [Enabling workflow sharing](/toolshed-workflow-sharing/) - this document describes how the tool shed enables sharing Galaxy workflows.

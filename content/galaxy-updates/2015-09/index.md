@@ -10,9 +10,9 @@ title: The September 2015 Galactic News!
 
 </div>
 
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the September 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+Welcome to the September 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
 # New Papers
 
@@ -101,7 +101,7 @@ The new papers were tagged with:
  
 # Galaxy's First 2500 Publications
 
-And in case you missed it, we [reached 2500 publications](/src/news/first2500-papers/index.md) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/src/news/first2500-papers/index.md) analyzes the papers by [CiteULike tag](/src/publication-library/index.md#tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/galaxy-team/) as a coauthor.  
+And in case you missed it, we [reached 2500 publications](/src/news/first2500-papers/index.md) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/src/news/first2500-papers/index.md) analyzes the papers by [CiteULike tag](/publication-library/#tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/galaxy-team/) as a coauthor.  
 
 ----
 
@@ -283,15 +283,15 @@ There are [upcoming events](/events/) in five countries on three continents.  Se
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [Systems Administrator IV](http://bit.ly/1NTuOfw), [Fred Hutchinson Cancer Institute](http://fredhutch.org), Seattle, Washington, United States 
 * [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 

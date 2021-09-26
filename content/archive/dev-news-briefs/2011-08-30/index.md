@@ -42,7 +42,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * *Events*: Comprehensive listing of upcoming (and past) Galaxy Events
   * [Events](/events/)
 * *Get Involved and Outreach*: How to get involved with Galaxy and how to spread the word.
-  * [GetInvolved](/src/get-involved/index.md)
+  * [GetInvolved](/get-involved/)
   * [Outreach](/outreach/)
 * *Public Galaxy Servers*: A list of publicly available Galaxy servers.
     If you have one, please add it to the list.

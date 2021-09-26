@@ -48,7 +48,7 @@ The group decided to continue with Blackboard.
 
 ### Non-Meeting Communication
 
-Communication outside of meetings will continue to happen on the [Galaxy-Dev mailing list](/src/mailing-lists/index.md).  We will consider other options if that becomes unworkable.
+Communication outside of meetings will continue to happen on the [Galaxy-Dev mailing list](/mailing-lists/).  We will consider other options if that becomes unworkable.
 
 ## Goals
 

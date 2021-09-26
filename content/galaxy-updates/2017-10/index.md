@@ -2,10 +2,10 @@
 title: October 2017 Galaxy News
 ---
 <div class='right'>
-[<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 </div>
 
-Welcome to the October 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the October 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ---
 
@@ -196,7 +196,7 @@ The Galaxy is expanding! Please help it grow.
 * [Metabarcoding, analyses écologiques et statistiques de paleocommunautés de protistes de l’écosystème côtier](https://www.sfbi.fr/content/metabarcoding-analyses-%C3%A9cologiques-et-statistiques-de-paleocommunaut%C3%A9s-de-protistes-de-l%E2%80%99%C3%A9co), IFREMER DYNECO/Pelagos, Brest, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 

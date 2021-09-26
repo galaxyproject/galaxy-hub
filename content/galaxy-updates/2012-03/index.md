@@ -1,13 +1,13 @@
 ---
 title: March 2012 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the March 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the March 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Papers
 
-There were [28 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md).  The new papers were spread [across 5 categories](http://www.citeulike.org/group/16008/tags).
+There were [28 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/).  The new papers were spread [across 5 categories](http://www.citeulike.org/group/16008/tags).
 <table>
   <tr>
     <th> # </th>
@@ -40,11 +40,11 @@ There were [28 papers added to the Galaxy CiteULike group](http://www.citeulike.
 <div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs and software engineers at Emory and Penn State.
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs and software engineers at Emory and Penn State.
 * [Bioinformatics Analyst @ U Virgina Bioinformatics Core](/src/news/bioinformatics-analyst-at-u-va/index.md)
 * [Bioinformatician / Sr. Database Developer @ GigaScience / BGI Hong Kong](/src/news/opening-at-giga-science-bgi/index.md)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ## Upcoming Events and Deadlines
 
@@ -149,4 +149,4 @@ At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed
 
 **Galaxy-Announce now the default for new users on [Main](/main/)**
 
-Newly registered users on [Main](/main/), the Galaxy project's public server, who check "Subscribe to a mailing list" at registration time, are now subscribed to the moderated and low-volume [Galaxy-Announce mailing list](/src/mailing-lists/index.md), instead of the high-volume, and sometimes overwhelming [Galaxy-User](/src/mailing-lists/index.md) list.  This change was also made in the Galaxy source.
+Newly registered users on [Main](/main/), the Galaxy project's public server, who check "Subscribe to a mailing list" at registration time, are now subscribed to the moderated and low-volume [Galaxy-Announce mailing list](/mailing-lists/), instead of the high-volume, and sometimes overwhelming [Galaxy-User](/mailing-lists/) list.  This change was also made in the Galaxy source.

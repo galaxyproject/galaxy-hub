@@ -61,7 +61,7 @@ The conference logos are available in several sizes.
 
 # Twitter Hashtag
 
-Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/src/galaxy-on-twitter/index.md) for the meeting.  The obvious choice of #gcc2013 is already well used by several other events.
+Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/galaxy-on-twitter/) for the meeting.  The obvious choice of #gcc2013 is already well used by several other events.
 
 
 # Sponsorships

@@ -18,7 +18,7 @@ The main Galaxy ToolShed also contains tools that were previously packaged with 
 
 # Installing Tools into Galaxy
 
-The main goal of the ToolShed is to allow populating any Galaxy with utilities such as tools, datatypes, workflows, and more. For this you don't even need to know much about the ToolShed. A basic installation of a tool into Galaxy is described in the [Add Tool Tutorial](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md). For more in-depth explanation of how to install and manage tools please see the [ToolShed Repositories in a Galaxy Environment](/src/installing-repositories/index.md) article.
+The main goal of the ToolShed is to allow populating any Galaxy with utilities such as tools, datatypes, workflows, and more. For this you don't even need to know much about the ToolShed. A basic installation of a tool into Galaxy is described in the [Add Tool Tutorial](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md). For more in-depth explanation of how to install and manage tools please see the [ToolShed Repositories in a Galaxy Environment](/installing-repositories/) article.
 
 # Publishing to the ToolShed
 

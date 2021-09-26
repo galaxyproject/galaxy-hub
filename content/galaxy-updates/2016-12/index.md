@@ -1,9 +1,9 @@
 ---
 title: December 2016 Galaxy News
 ---
-<div class='right'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the December 2016 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.
+Welcome to the December 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
 If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
@@ -264,7 +264,7 @@ The Galaxy is expanding! Please help it grow.
 * [6 month position](https://twitter.com/bioinformAnt/status/773465361127710720) at [Public Health England](https://www.gov.uk/government/organisations/public-health-england) working [National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) in Canada to compare antimicrobial resistance isolates and software using [IRIDA](http://www.irida.ca/)/Galaxy
 * [Post­doctoral Research Position](https://drive.google.com/file/d/0B5_H88SQ1C_7Z3dJY3FzU0hQMUU/view?pref=2&pli=1), Multi­omic Bioinformatics, University of Minnesota
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 

@@ -9,4 +9,4 @@ date: "2017-09-13"
 
 The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) has several [Postdoctoral Fellowships](http://www.lerner.ccf.org/jobs/postdoctoral/#760) available. We utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions. 
 
-Interested?  See the [Galaxy is Hiring](/src/galaxy-is-hiring/index.md) page for the full posting (and for other openings too).
+Interested?  See the [Galaxy is Hiring](/galaxy-is-hiring/) page for the full posting (and for other openings too).

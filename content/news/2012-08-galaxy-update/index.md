@@ -17,6 +17,6 @@ The [August 2012 Galaxy Update is now available](/src/galaxy-updates/2012-08/ind
 * [New Distribution](/src/galaxy-updates/2012-08/index.md#new-distributions)
 * [Other News](/src/galaxy-updates/2012-08/index.md#other-news)
 
-If you have anything you would like to see in the September *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.
+If you have anything you would like to see in the September *[Galaxy Update](/galaxy-updates/)*, please let me know.
 
 [Dave Clements](/people/dave-clements/)

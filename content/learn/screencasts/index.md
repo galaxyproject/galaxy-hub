@@ -24,7 +24,7 @@ Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/gala
     <td> <strong><a href='http://vimeo.com/galaxyproject/managehistories'>Managing Histories</a></strong> <br /> saved histories, <a href='/main/'>disk quotas</a> </td>
   </tr>
   <tr>
-    <td> <strong><a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>Using FTP</a></strong> <br /> step-by-step, <a href='/src/ftp-upload/index.md'> wiki</a> </td>
+    <td> <strong><a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>Using FTP</a></strong> <br /> step-by-step, <a href='/ftp-upload/'> wiki</a> </td>
     <td> <strong><a href='http://vimeo.com/galaxyproject/fastqprep'>FASTQ Prep Illumina</a></strong> <br /> jobs, FASTQ Groomer, <br /> edit attributes, FastQC </td>
     <td> <strong><a href='http://vimeo.com/galaxyproject/customgenome'>Custom Genomes</a></strong> <br /> format, how to load, <br /> <a href='/src/learn/custom-genomes/index.md'>read more on wiki...</a></td>
   </tr>

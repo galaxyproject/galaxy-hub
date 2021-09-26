@@ -22,6 +22,6 @@ However, the big news this month is [Upcoming Events](/src/galaxy-updates/2014-0
 
 And as always, there are [new ToolShed contributions](/src/galaxy-updates/2014-04/index.md#toolshed-contributions) and [other news](/src/galaxy-updates/2014-04/index.md#other-news) as well.
 
-If you have anything you would like to see in the next *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
+If you have anything you would like to see in the next *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
 [Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

@@ -65,7 +65,7 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 # Tools & Data
 
 1. *GenomeSpace*: Improved import when initiated from within Galaxy. https://trello.com/c/maFhnXpN
-1. *[DataProviders](/src/data-providers/index.md)*: See http://wiki.galaxyproject.org[/DataProviders](/src/archive/dev-news-briefs/2014-02-10/DataProviders/index.md) https://trello.com/c/Qic2fVPE
+1. *[DataProviders](/data-providers/)*: See http://wiki.galaxyproject.org[/DataProviders](/src/archive/dev-news-briefs/2014-02-10/DataProviders/index.md) https://trello.com/c/Qic2fVPE
 1. *Cuffdiff*: A read_group.info dataset is now included in the output. https://trello.com/c/FdUYdbIn
 
 <br />
@@ -280,6 +280,6 @@ The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the
 
 The *[public Main instance](/main/)* of **Galaxy** at **[http://usegalaxy.org](http://usegalaxy.org)** utilizes infrastructure generously provided by the **[iPlant Collaborative](http://www.iplantcollaborative.org/)** at the **[Texas Advanced Computing Center](https://www.tacc.utexas.edu/)**, with support from the **[National Science Foundation](http://www.nsf.gov/)**.
 
-Follow us on **Twitter [@galaxyproject](http://twitter.com/galaxyproject)** or read our tweets at **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Follow us on **Twitter [@galaxyproject](http://twitter.com/galaxyproject)** or read our tweets at **[Galaxy on Twitter](/galaxy-on-twitter/)**
 
 Have a suggestion? Please see **[Using the Galaxy Issue Board](http://wiki.galaxyproject.org/Issues)**, and be sure to up vote the issues important to YOU.

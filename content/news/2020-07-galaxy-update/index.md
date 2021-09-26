@@ -6,7 +6,7 @@ date: "2020-07-01"
 
 # In the July 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * **[BCC2020](#bcc2020-starts-july-17) starts July 17**
   * **Early registration ends July 10**

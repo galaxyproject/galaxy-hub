@@ -12,7 +12,7 @@ date: "2013-02-09"
 * New *[Bedgraph-to-bigwig](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph)* tool plus *Filter* tool updated.
 * *Workflows* now include option to export an image and the core *Framework* now allows more unified reference genome usage and access.
 * *Ten Community Pull-Requests* incorporated, plus another contribution to the tool Shed, addressing general usability, API, tools, error handling, workflows, and more. Thanks!!
-* Review highlights from the latest monthly *[Galaxy Update](/src/galaxy-updates/index.md)* newsletter and [Galaxy Project Stats!](/src/galaxy-project/statistics/index.md)
+* Review highlights from the latest monthly *[Galaxy Update](/galaxy-updates/)* newsletter and [Galaxy Project Stats!](/src/galaxy-project/statistics/index.md)
 * Plus bug fixes and related enhancements for visualizations, histories, workflows, and tools.
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
@@ -29,7 +29,7 @@ upgrade: $ hg pull
 ```
 
 
-*To receive email updates about [Galaxy Distributions and News Briefs](/docs/), be sure to subscribe to the [Galaxy-Announce mailing list](/src/mailing-lists/index.md#the-lists), a low-volume list dedicated to [News Items](/news/) and priority messages from the Galaxy [community](/community/) and [project core team](/src/galaxy-project/index.md).* 
+*To receive email updates about [Galaxy Distributions and News Briefs](/docs/), be sure to subscribe to the [Galaxy-Announce mailing list](/mailing-lists/#the-lists), a low-volume list dedicated to [News Items](/news/) and priority messages from the Galaxy [community](/community/) and [project core team](/galaxy-project/).* 
 
 Thanks for using Galaxy,
 

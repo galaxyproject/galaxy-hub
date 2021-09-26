@@ -139,7 +139,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 * *Enhancements*
   * The Tool Shed is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**.
-  * The **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** repository was updated in the **[Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** to *Revision: 7:d3bf1e86b243*, so make sure to get the updates if you have installed it into your **[local Galaxy instance](http://getgalaxy.org)**. For details about getting updates to your installed repositories, see this section of the Galaxy tool shed wiki [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/updating-installed-repositories/index.md#)
+  * The **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** repository was updated in the **[Main Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/)** to *Revision: 7:d3bf1e86b243*, so make sure to get the updates if you have installed it into your **[local Galaxy instance](http://getgalaxy.org)**. For details about getting updates to your installed repositories, see this section of the Galaxy tool shed wiki [Getting updates for tool shed repositories installed in a local Galaxy instance](/updating-installed-repositories/#)
   * The implementation for importing proprietary datatype class modules included in a tool shed repository now supports class module files whose name conflicts with a **[Python](http://www.python.org/)** standard library module name.  For example, if a proprietary datatype class module is named `xml.py`, it will now be correctly imported even though the name conflicts with the Python standard library's xml module.
   * The repository tip is now displayed in a column that is separate from the repository's installable changeset revisions in the tool shed.
 
@@ -219,11 +219,11 @@ The workshop is part of the SyBIT Tech Day series.
 
 <div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width=100 /></div>
 The Galaxy is expanding!  Please help it grow.
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Penn State and Emory
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs @ Penn State and Emory
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it the next [Galaxy Update](/src/galaxy-updates/index.md) and [News Brief](/docs/).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it the next [Galaxy Update](/galaxy-updates/) and [News Brief](/docs/).
 <br />
 <br />
 ----
@@ -237,4 +237,4 @@ The **[Galaxy Team](/galaxy-team/)** is a part of **[BX](http://www.bx.psu.edu/)
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/galaxy-on-twitter/)**

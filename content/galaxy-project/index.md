@@ -11,7 +11,7 @@ See the [Learn](/learn/) page for help on using Galaxy, and the [Admin](/admin/)
 You can take a look at the current members of the core project [team](/galaxy-team/). We are funded by NIH, NSF, Penn State, Johns Hopkins, and the Pennsylvania Department of Public Health.
 
 * [Galaxy Platform Directory](/use/)
-* [Citing Galaxy](/src/citing-galaxy/index.md)
+* [Citing Galaxy](/citing-galaxy/)
 * [News](/news/)
 * [Events](/events/)
 * [Project Statistics](/src/galaxy-project/statistics/index.md)

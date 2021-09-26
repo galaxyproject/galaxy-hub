@@ -69,7 +69,7 @@ for class inheritance:
 
 
 2) **has_dataprovider**: testing if the attribute of a data_source/model has a specific
-[DataProvider](/src/data-providers/index.md):
+[DataProvider](/data-providers/):
 ```xml
 <test type="has_dataprovider" test_attr="datatype">node-edge</test>
 ```

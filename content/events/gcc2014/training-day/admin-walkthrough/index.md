@@ -362,7 +362,7 @@ Honorable mentions for features we won't use today but that are common in big se
 * `ftp_upload_dir` and `ftp_upload_site` - Allow users to upload data to the server using FTP
 * `use_remote_user` and `remote_user_maildomain` - Use your institution's existing authentication system to log in to Galaxy. [Apache documentation](/src/admin/config/external-user-databases/index.md) or [nginx documentation](https://galaxyproject.org/admin/config/nginx-external-user-auth/)
 * `allow_user_impersonation` - Users configured as administrators (with `admin_users`) can "become" other users to view Galaxy exactly as the impersonated user does. Useful for providing support.
-* `user_library_import_dir` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission. [documentation](/src/data-libraries/index.md#user-folder)
+* `user_library_import_dir` - Non-administrators can directly import datasets from this directory on this server to Data Libraries from which they have been given write permission. [documentation](/data-libraries/#user-folder)
 * `object_store_config_file` - Configure Galaxy's "object storage" layer to store data in multiple filesystems, Amazon S3, iRODS, etc.
 * `error_email_to` (with `smtp_server`) - Allow users to send bug reports directly to you
 * `user_activation_on` and related options - Require new users to verify their email address

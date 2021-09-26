@@ -147,15 +147,15 @@ Searching for anything Galaxy related using web search engines is a frustrating 
 
 ## Publications
 
-[<img class="float-right" style="max-width: 120px" src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library" />](/src/publication-library/index.md)
+[<img class="float-right" style="max-width: 120px" src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library" />](/publication-library/)
 
-Want to know how Galaxy is being used, extended and deployed?  The *[Galaxy Publication library](https://www.zotero.org/groups/galaxy)* lists over 8000 publications that do just that.  Publications [are tagged](/src/publication-library/index.md) to indicate how each pub relates to Galaxy. If you want to focus in on pubs that focus on or use Galaxy extensively, then take a look at the [Galactic](https://www.zotero.org/groups/galaxy/items/tag/+Galactic/) and [Stellar](https://www.zotero.org/groups/galaxy/items/tag/+Stellar/) pubs.
+Want to know how Galaxy is being used, extended and deployed?  The *[Galaxy Publication library](https://www.zotero.org/groups/galaxy)* lists over 8000 publications that do just that.  Publications [are tagged](/publication-library/) to indicate how each pub relates to Galaxy. If you want to focus in on pubs that focus on or use Galaxy extensively, then take a look at the [Galactic](https://www.zotero.org/groups/galaxy/items/tag/+Galactic/) and [Stellar](https://www.zotero.org/groups/galaxy/items/tag/+Stellar/) pubs.
 
-Want to know how to cite Galaxy?  See the [Citing Galaxy](/src/citing-galaxy/index.md) page.
+Want to know how to cite Galaxy?  See the [Citing Galaxy](/citing-galaxy/) page.
 
 ## What's going on - Distilled
 
-[<img class="float-left" style="max-width: 120px" src="/src/images/logos/MailmanLogoSmall.png" alt="Galactic Blog" />](/src/mailing-lists/index.md)
+[<img class="float-left" style="max-width: 120px" src="/src/images/logos/MailmanLogoSmall.png" alt="Galactic Blog" />](/mailing-lists/)
 
 The [Galaxy-Announce mailing list](https://lists.galaxyproject.org/lists/galaxy-announce.lists.galaxyproject.org/) is a low-volume, moderated mailing list that recieves monthly emails, highlighting what's happing in the Galaxy Community, and the occassional event-related email.  Subscribve to Galaxy-Announce if you want Galactic news delivered to your inbox once a month.
 
@@ -164,10 +164,10 @@ The Galaxy News page is another source of Galactic news.  News items get posted 
 
 ## What's Going on - Right Now
 
-[<img class="float-right" style="max-width: 100px" src="/src/images/logos/TwitterBird300.png" alt="Galaxy on Twitter" />](/src/galaxy-on-twitter/index.md)
+[<img class="float-right" style="max-width: 100px" src="/src/images/logos/TwitterBird300.png" alt="Galaxy on Twitter" />](/galaxy-on-twitter/)
 
 
-The Galaxy Community is [active on Twitter](/src/galaxy-on-twitter/index.md), and Twitter is an excellent way to keep your finger on the pulse of what's going on right now.  Here's what to look for:
+The Galaxy Community is [active on Twitter](/galaxy-on-twitter/), and Twitter is an excellent way to keep your finger on the pulse of what's going on right now.  Here's what to look for:
 
 * **[#UseGalaxy](https://twitter.com/hashtag/usegalaxy)**: The preferred hashtag of the Galaxy community. If you want to find stuff, search for this.  (In Japan? Look for [#UseGalaxyJP](https://twitter.com/hashtag/usegalaxyjp))
 * **[@GalaxyProject](https://twitter.com/galaxyproject), [@GalaxyAustralia](https://twitter.com/GalaxyAustralia), [@GalaxyUKFriends](https://twitter.com/GalaxyUKFriends)** and **[@Galaxy_Arabic](https://twitter.com/Galaxy_Arabic)**: These twitter accounts servethe global, Australia, UK and, Arabic speaking Galaxy communities.

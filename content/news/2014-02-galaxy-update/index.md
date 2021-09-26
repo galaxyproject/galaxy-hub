@@ -23,6 +23,6 @@ The [25th Edition of Galaxy Update is out](/src/galaxy-updates/2014-02/index.md)
 * [Johns Hopkins and George Washington walk into a bar ...](/src/galaxy-updates/2014-02/index.md#galaxy-is-now-at-johns-hopkins-and-gwu-and-penn-state)
 * [Other News](/src/galaxy-updates/2014-02/index.md#other-news)
 
-If you have anything you would like to see in the next *[Galaxy Update](/src/galaxy-updates/index.md)*, please let us know.
+If you have anything you would like to see in the next *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
 [Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

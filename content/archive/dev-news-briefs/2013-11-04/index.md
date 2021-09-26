@@ -169,7 +169,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 <br />
 # Pull Requests Merged
 
-1. Björn Grüning contributed a method to implement the ability to change the tool-panel as user preference ( `Dynamic Toolbox Filtering` ). [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool/diff). This was a frequently requested feature by the community and full documentation on this can be found here [UserDefinedToolboxFilters](/src/user-defined-toolbox-filters/index.md). https://trello.com/c/Xl7CZFMd
+1. Björn Grüning contributed a method to implement the ability to change the tool-panel as user preference ( `Dynamic Toolbox Filtering` ). [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool/diff). This was a frequently requested feature by the community and full documentation on this can be found here [UserDefinedToolboxFilters](/user-defined-toolbox-filters/). https://trello.com/c/Xl7CZFMd
 1. Björn Grüning also contributed several extensions allowing developers to utilize new actions simplifying various tool shed dependency definition idioms:
   * `make_install` action.  [#217](https://bitbucket.org/galaxy/galaxy-central/pull-request/217/implementation-of-the-make_install-action)
   * `autoconf` action. [#218](https://bitbucket.org/galaxy/galaxy-central/pull-request/218/implementation-of-the-configure-make-make)
@@ -362,6 +362,6 @@ The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/galaxy-on-twitter/)**
 
 Have a suggestion? Please see **[Using the Galaxy Issue Board](http://wiki.galaxyproject.org/Issues)**.

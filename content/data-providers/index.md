@@ -1,6 +1,6 @@
 ## Data Providers
 
-[DataProviders](/src/data-providers/index.md) are a framework for easily controlling how data can be provided from a source
+[DataProviders](/data-providers/) are a framework for easily controlling how data can be provided from a source
 (generally, a dataset's file contents). They are meant to be:
 
 1. Simple to declare, configure, and associate with some source of data.

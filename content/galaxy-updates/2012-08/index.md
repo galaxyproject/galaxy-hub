@@ -1,9 +1,9 @@
 ---
 title: August 2012 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the August 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the August 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -51,7 +51,7 @@ These papers may be of interest to the Galaxy community:
 
 * "[Nebula - a web-server for advanced ChIP-seq data analysis", by Boeva](http://bioinformatics.oxfordjournals.org/content/early/2012/07/24/bioinformatics.bts463), *et al.*, *Bioinformatics*
 
-These papers were among [29 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md) (for a total of 375 papers in the last ~18 months).  The new papers are spread [across 6 categories](http://www.citeulike.org/group/16008/tags).
+These papers were among [29 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/) (for a total of 375 papers in the last ~18 months).  The new papers are spread [across 6 categories](http://www.citeulike.org/group/16008/tags).
 
 <br />
 <div class='center'>
@@ -82,13 +82,13 @@ Slides for most talks are [already on the wiki](/src/events/gcc2012/program/inde
 <div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Emory and Penn State.
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs @ Emory and Penn State.
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ## Upcoming Events and Deadlines
 

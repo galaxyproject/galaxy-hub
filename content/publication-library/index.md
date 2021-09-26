@@ -10,7 +10,7 @@ title: "Galaxy Publication Library"
 
 The Galaxy Project uses the [Zotero](https://zotero.org/) social bookmarking service to organize publications that reference Galaxy. The [Galaxy Group](https://www.zotero.org/groups/galaxy) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy.  You can [search the library at Zotero](https://www.zotero.org/groups/1732893/galaxy/items), or through the [unified Galaxy search](/search/).
 
-*(Need to cite Galaxy in a publication? See [Citing Galaxy](/src/citing-galaxy/index.md).)*
+*(Need to cite Galaxy in a publication? See [Citing Galaxy](/citing-galaxy/).)*
 
 # Tags
 

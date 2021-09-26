@@ -154,7 +154,7 @@ There are still several *Giga-level* sponsorships available.  If you are interes
 
 # Twitter Hashtag
 
-Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/src/galaxy-on-twitter/index.md) for the Hackathon, and anything else related to GCC2014.
+Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/galaxy-on-twitter/) for the Hackathon, and anything else related to GCC2014.
 
 # Is this part of GCC2014?
 

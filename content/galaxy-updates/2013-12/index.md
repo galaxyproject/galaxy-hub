@@ -1,9 +1,9 @@
 ---
 title: December 2013 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the December 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the December 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # 50+ Public Servers
 
@@ -140,7 +140,7 @@ The newly added servers are:
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -150,9 +150,9 @@ The Galaxy is expanding! Please help it grow.
 * [CDD Gif-sur-Yvette NGS et Variation Structurales UMR de Génétique Végétale](http://bit.ly/1exDipD), INRA-Université Paris Sud-CNRS 
 * [CDD en bioinformatique : recherche de variants structuraux par reséquençage (NGS)](http:////bit.ly/1h1yQnf)
 * [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**, *including positions at George Washington University*.
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**, *including positions at George Washington University*.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -168,7 +168,7 @@ The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) w
 
 GCC2014 will start with a [Training Day](/src/events/gcc2014/training-day/index.md) on June 30.  As for [GCC2013](/src/news/gcc2013-training-day-nominations/index.md), the specific topics offered will be determined by you, the Galaxy Community.  Topic nomination will open December 2 and remain open through December 20.  Nominated topics will be posted to the [Training Day page](/src/events/gcc2014/training-day/index.md) as they come in.  The organizers will then collate the nominations into a single list that the community (yes, that means you) will vote on the nominations in January.  The final schedule of topics and instructors will be published no later than February 10, when registration opens.
 
-Watch the [Galaxy Mailing Lists](/src/mailing-lists/index.md) for announcements and links to the nomination form.
+Watch the [Galaxy Mailing Lists](/mailing-lists/) for announcements and links to the nomination form.
 
 *[Training Day](/src/events/gcc2014/training-day/index.md)* is an opportunity to learn about all things Galaxy including using Galaxy, deploying and managing Galaxy, extending Galaxy, and Galaxy internals.  There will be 4 parallel tracks, each with 3 sessions, with each of those sessions two and half hours long.  *That's 12 sessions and 30 hours of workshop material.*
 

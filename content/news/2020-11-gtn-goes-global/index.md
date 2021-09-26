@@ -4,7 +4,7 @@ tease: two events from GTN target global audience.
 date: "2020-11-30"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 Galactic Training is going Global in 2021! After the success of the ELIXIR-Europe series of Machine Learning webinars, the [Galaxy Training Network](https://training.galaxyproject.org) is scaling up and hosting two events with global reach in January and February
 

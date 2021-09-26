@@ -43,7 +43,7 @@ We *highly recommend* that you read the following sections of the Galaxy tool sh
 <br />
 # New Tool Integration Testing
 
-Use Galaxy's functional test framework to test tools installed into your local Galaxy instance from Tool Shed repositories that contain tools with defined functional tests.  For tests to work, the repository must include a directory named test-data somewhere in its file system hierarchy, and all functional test input and output datasets must be included in this directory. [Read more...](/src/testing-installed-tools/index.md)
+Use Galaxy's functional test framework to test tools installed into your local Galaxy instance from Tool Shed repositories that contain tools with defined functional tests.  For tests to work, the repository must include a directory named test-data somewhere in its file system hierarchy, and all functional test input and output datasets must be included in this directory. [Read more...](/testing-installed-tools/)
 
 <br />
 # Updates to Tool Panel Configuration
@@ -56,7 +56,7 @@ For example:
 
 
 Managing the layout of your Galaxy tool panel is easier!
-New tool panel items manually added to a tool panel configuration file will now be inserted into an existing integrated_tool_panel.xml file in the proper location. [Read more...](/src/galaxy-tool-panel/index.md#managing-the-layout-of-your-galaxy-tool-panel)
+New tool panel items manually added to a tool panel configuration file will now be inserted into an existing integrated_tool_panel.xml file in the proper location. [Read more...](/galaxy-tool-panel/#managing-the-layout-of-your-galaxy-tool-panel)
 
 <br />
 # Multiprocess Job Handling
@@ -234,4 +234,4 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/galaxy-on-twitter/)**

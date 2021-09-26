@@ -14,6 +14,6 @@ With a couple of exceptions, support for tool features are restricted to the Gal
 
 [Structuring Tools in Your Repository](/src/toolshed/a-tool-or-a-suite-per-repository/index.md)
 
-[Galaxy Tool Configuration File Help Settings that will Display an Image File Contained in the Repository](/src/defining-images-in-tool-configs/index.md)
+[Galaxy Tool Configuration File Help Settings that will Display an Image File Contained in the Repository](/defining-images-in-tool-configs/)
 
 [Recipes for Installing and Compiling Packages Required by Galaxy Tools](/src/toolshed/tool-dependency-recipes/index.md)

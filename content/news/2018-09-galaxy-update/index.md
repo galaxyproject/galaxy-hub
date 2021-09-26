@@ -4,7 +4,7 @@ tease: 'New events, pubs, blog post, jobs, ...'
 date: "2018-09-13"
 ---
 
-[<img class="float-right" src="/src/news/2018-09-galaxy-update/2018-09-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2018-09-galaxy-update/2018-09-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/>)
 
 The *September  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
@@ -227,7 +227,7 @@ The Galaxy is expanding! Please help it grow.
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 # Contributor of the Month: Carrie Ganote
 
@@ -277,7 +277,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 # Hub and Doc Updates
 
-* The [Galaxy publication library](/src/publication-library/index.md) is now integrated into the [Pan-Galactic search page](/search/), thanks to [Dannon Baker](/people/dannon-baker/). Search for something and click on the pub library tab.
+* The [Galaxy publication library](/publication-library/) is now integrated into the [Pan-Galactic search page](/search/), thanks to [Dannon Baker](/people/dannon-baker/). Search for something and click on the pub library tab.
 * [Data Manager XML syntax description](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md) updated by [Peter van Heusden](https://github.com/pvanheus)
 * [Hub Editing Guidelines](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md) updated by [Mo Heydarian](/people/mo-heydarian/)
 * There was a massive Hub infrastructure update by [Dannon Baker](/people/dannon-baker/), but it's one of those you won't even notice.

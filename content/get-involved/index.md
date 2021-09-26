@@ -5,11 +5,11 @@ title: Get Involved!
 
 # Mailing Lists
 
-<div class='left'><a href='/src/mailing-lists/index.md'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Mailing Lists" width="64" /></a></div>
+<div class='left'><a href='/mailing-lists/'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Mailing Lists" width="64" /></a></div>
 
 Galaxy has *thousands* of users around the world, all using Galaxy in different
 and often novel ways.  When these users have a question or a topic to discuss,
-they post it to a [Galaxy Mailing List](/src/mailing-lists/index.md) (following
+they post it to a [Galaxy Mailing List](/mailing-lists/) (following
 [Support](/support/) guidelines), where the whole community can
 respond.  You can contribute by posting your own questions, solutions, and
 experience.

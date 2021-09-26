@@ -1,9 +1,9 @@
 ---
 title: June 2014 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the June 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the June 2014 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Galaxy-User Being Retired June 6
 
@@ -13,7 +13,7 @@ Welcome to the June 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a mont
 ***Note: Galaxy's support forum has moved to [help.galaxyproject.org](https://help.galaxyproject.org/).***
 <br />
 
-The *[Galaxy Biostar](https://biostar.usegalaxy.org)* online forum was launched April 23 as a replacement for the Galaxy-User [mailing list](/src/mailing-lists/index.md).  
+The *[Galaxy Biostar](https://biostar.usegalaxy.org)* online forum was launched April 23 as a replacement for the Galaxy-User [mailing list](/mailing-lists/).  
 
 During the past 5 weeks, Galaxy Biostar has been wildly successful with over 125 active threads, *more than 5 times the number of active threads on Galaxy-user in the 5 weeks before the switch.*
 
@@ -257,15 +257,15 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [Two postdoc positions in integrative genomics](/src/news/post-docs-in-oslo/index.md) available in Oslo, Norway
 * [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 

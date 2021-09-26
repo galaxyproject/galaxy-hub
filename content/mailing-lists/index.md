@@ -5,9 +5,9 @@ Mailing lists play a vital role in the Galaxy community:
 
 1. **They complement the [Galaxy Help Forum](https://help.galaxyproject.org/) and Galaxy Chat channels.** If you prefer a forum or chat interface, then use those instead.
 1. They are a key part of [Galaxy's overall support efforts](/support/).
-1. They are a place where the community *[can ask and answer](/src/mailing-lists/index.md#posting-a-question)* questions.
+1. They are a place where the community *[can ask and answer](/mailing-lists/#posting-a-question)* questions.
 1. They are a place for the discussion of open issues and best practices.
-1. They are also a *[searchable treasure trove of knowledge about Galaxy](/src/mailing-lists/index.md#searching)*.  
+1. They are also a *[searchable treasure trove of knowledge about Galaxy](/mailing-lists/#searching)*.  
 1. Finally, they are a great way to learn what is going on in the Galaxy Community.  
 
 # The lists
@@ -37,7 +37,7 @@ You can search all lists at any of the archives above.  We recommend using [Gala
 
 If you have a question, first check [Galaxy Search](/search/) to see if your question is already answered somewhere.  If it has not, then:
 
-1. [Subscribe](/src/mailing-lists/index.md#subscribing-and-unsubscribing) to the appropriate list.  Postings from email addresses that are not on the list are held for moderation.  We try to check for moderated emails at least once a day.
+1. [Subscribe](/mailing-lists/#subscribing-and-unsubscribing) to the appropriate list.  Postings from email addresses that are not on the list are held for moderation.  We try to check for moderated emails at least once a day.
 1. Send your question to the list's email address.
 
 ## New to Mailing Lists?
@@ -50,13 +50,13 @@ Once you have mastered Rule 1, you can refine your mailing list chops by applyin
 
 * **[Rule 2. State the question clearly](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s3)**
 * **[Rule 3. Learn the established customs of the list](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s4)**
-* **[Rule 4. Do not ask what has already been answered](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s5)** - Take advantage of the [mailing list search engines](/src/mailing-lists/index.md#searching).<br />
+* **[Rule 4. Do not ask what has already been answered](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s5)** - Take advantage of the [mailing list search engines](/mailing-lists/#searching).<br />
 * **[Rule 5. Always use a good title](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s6)**
 * **[Rule 6. Do your homework before posting](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s7)**
 * **[Rule 7. Proofread your post](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s8)**
 * **[Rule 8. Be courteous to other forum members](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s9)**
 * **[Rule 9. The archive of your discussion will be useful to others](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s10)**
-* **[Rule 10. Give back to the community](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s11)** - Help answer others' questions and [Get Involved](/src/get-involved/index.md)!
+* **[Rule 10. Give back to the community](http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1002202#s11)** - Help answer others' questions and [Get Involved](/get-involved/)!
 
 ## New to Open Source Software Support Mailing Lists?
 
@@ -72,4 +72,4 @@ If you are brand new to programming mailing lists please read
 * [Galaxy Issue Board](/issues/)
 * [Galaxy Development News Briefs](/docs/)
 * [News](/news/)
-* [Galaxy on Twitter](/src/galaxy-on-twitter/index.md)
+* [Galaxy on Twitter](/galaxy-on-twitter/)

@@ -4,7 +4,7 @@ tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, and Happy New Year too"
 date: "2020-01-08"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/>)
 
 The *January 2020 Galactic News* is out:
 

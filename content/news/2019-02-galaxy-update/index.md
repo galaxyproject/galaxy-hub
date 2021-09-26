@@ -4,7 +4,7 @@ tease: 'Events (GCC Training, GalaxyAdmins), Platforms, Pubs, Jobs, COTM!, Doc, 
 date: "2019-02-01"
 ---
 
-[<img class="float-right" src="/src/news/2019-02-galaxy-update/2019-02-news-summary.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-02-galaxy-update/2019-02-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/>)
 
 The *February  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.
 
@@ -312,7 +312,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States.
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ---
 

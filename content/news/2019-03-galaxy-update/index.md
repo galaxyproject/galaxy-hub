@@ -4,7 +4,7 @@ tease: 'GalaxyAdmins, GCC2019 Childcare sponsors, Platforms, Pubs, Jobs, Blog!, 
 date: "2019-03-04"
 ---
 
-[<img class="float-right" src="/src/news/2019-03-galaxy-update/2019-03-01-galaxy-news-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-03-galaxy-update/2019-03-01-galaxy-news-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/>)
 
 The *March  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
@@ -197,7 +197,7 @@ Five of the eight highlighted publications are open access.
 
 ### New Tag: Education
 
-We added a new tag to the [Galaxy Publication Library](/src/publication-library/index.md) this month: *[Education](https://www.zotero.org/groups/1732893/galaxy/tags/%2BEducation)*.  This tag highlights papers that focus on training, teaching, and/or education in general.  Galaxy is well suited for teaching bioinformatics and this has been reflected in publications for several years.  There are three new pubs this month about education. We also selectively back-curated several papers.  *Education* is the first new tag added to the library in six years.
+We added a new tag to the [Galaxy Publication Library](/publication-library/) this month: *[Education](https://www.zotero.org/groups/1732893/galaxy/tags/%2BEducation)*.  This tag highlights papers that focus on training, teaching, and/or education in general.  Galaxy is well suited for teaching bioinformatics and this has been reflected in publications for several years.  There are three new pubs this month about education. We also selectively back-curated several papers.  *Education* is the first new tag added to the library in six years.
 
 | # | Tag | | # | Tag | | # | Tag | | # | Tag | 
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
@@ -294,7 +294,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States.
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ---
 

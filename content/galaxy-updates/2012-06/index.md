@@ -1,9 +1,9 @@
 ---
 title: June 2012 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the June 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the June 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Public Server: GWIPS-Viz
 
@@ -86,20 +86,20 @@ These papers may be of interest to the Galaxy community:
 * [Tavaxy: Integrating Taverna and Galaxy workflows with cloud computing support](https://doi.org/10.1186/1471-2105-13-77), Mohamed Abouelhoda, Shadi Issa, Moustafa Ghanem, BMC Bioinformatics, Vol. 13, No. 1. (2012), 77
 * [CADDSuite - a workflow-enabled suite of open-source tools for drug discovery](https://doi.org/10.1186/1758-2946-4-S1-O2), Oliver Kohlbacher, Journal of Cheminformatics, Vol. 4, No. Suppl 1. (2012), O2
 
-These papers were among [32 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md) (for a total of 317 papers in the last ~15 months).  The new papers were spread [across 7 categories](http://www.citeulike.org/group/16008/tags), including the new [tools category](http://www.citeulike.org/group/16008/tag/tools). 
+These papers were among [32 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/) (for a total of 317 papers in the last ~15 months).  The new papers were spread [across 7 categories](http://www.citeulike.org/group/16008/tags), including the new [tools category](http://www.citeulike.org/group/16008/tag/tools). 
 
 ## Who's Hiring
 
 <div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs and software engineers @ Emory and Penn State.
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs and software engineers @ Emory and Penn State.
 * [Post-Doctoral Fellowship in Computer Scienc in Oslo, Norway](http://www.nature.com/naturejobs/science/jobs/263749-Post-Doctoral-Fellowship-in-Computer-Science)
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ## Upcoming Events and Deadlines
 
@@ -186,7 +186,7 @@ A new Galaxy distribution was [released on May 11, 2012](/src/archive/dev-news-b
 **Some Highlights:**
 <div class='right'><a href='/src/learn/visualization/index.md'><img src="/src/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="180px" /></a></div>
 * **Emboss** tools and datatypes __have now moved from the ***Galaxy distribution** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)__**.
-* [Tool Integration Tests](/src/testing-installed-tools/index.md), [Custom Tool Panel Configuration](/src/galaxy-tool-panel/index.md#managing-the-layout-of-your-galaxy-tool-panel), and [Configurable Tool Output Locations](/src/admin/tools/multiple-output-files/index.md).
+* [Tool Integration Tests](/testing-installed-tools/), [Custom Tool Panel Configuration](/galaxy-tool-panel/#managing-the-layout-of-your-galaxy-tool-panel), and [Configurable Tool Output Locations](/src/admin/tools/multiple-output-files/index.md).
 * Improved [Multiprocess Job Handling](/src/admin/config/performance/scaling/index.md) and [Enhanced OpenID Support](http://openid.net/).
 * **[GATK](http://www.broadinstitute.org/gsa/wiki) version 1.4**, **[FreeBayes](http://github.com/ekg/freebayes)**, Updated **Megablast** using **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/Blast.cgi)**, **[Trinity](http://trinityrnaseq.sourceforge.net)**, **[WormBase 2](http://www.wormbase.org)**, and **[IGB](http://bioviz.org/igb/index.html)** external display.
 * **[Trackster](/src/learn/visualization/index.md)** upgrades include strand coloring, interval datatype support, and tabix indexing (fast!!).

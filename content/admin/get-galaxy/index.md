@@ -87,7 +87,7 @@ Galaxy comes with a small set of basic tools pre-installed. To install additiona
 
 To stay up-to-date on new Galaxy features and bug fixes, as well as to discuss future features, consider joining
 
-* the [Galaxy Developers mailing list](https://lists.galaxyproject.org/lists/galaxy-dev.lists.galaxyproject.org/). (See [Mailing Lists](/src/mailing-lists/index.md) for other options.)
+* the [Galaxy Developers mailing list](https://lists.galaxyproject.org/lists/galaxy-dev.lists.galaxyproject.org/). (See [Mailing Lists](/mailing-lists/) for other options.)
 * the [Galaxy Gitter Channel](https://gitter.im/galaxyproject/Lobby) for a chat-based interface.
 
 ## Keep your instance backed up

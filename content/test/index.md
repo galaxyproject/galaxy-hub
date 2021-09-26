@@ -242,7 +242,7 @@ If you are involved with scientific or functional testing of a new Galaxy tool, 
 
 ## Developers and Administrators
 
-New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/src/admin/disk-quotas/index.md). Feedback about the implementation of quota management is welcomed at the [Galaxy-Dev mailing list](/src/mailing-lists/index.md).
+New Admin features have been added and more are planned for in the near term. Details explained in: [Disk Quotas](/src/admin/disk-quotas/index.md). Feedback about the implementation of quota management is welcomed at the [Galaxy-Dev mailing list](/mailing-lists/).
 
 ## Quotas at the Galaxy Main public instance
 

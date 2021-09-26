@@ -78,7 +78,7 @@ The Galaxy wiki and other related resources have now been updated to point to th
 
 **We recommend that you reset the metadata on your installed tool shed repositories when you upgrade your Galaxy instance to this revision!**
 
-When a tool shed repository is installed into your local Galaxy instance, metadata is generated for the repository as a part of the installation process and stored in the tool_shed_repository.metadatatable column in the Galaxy database.  This automatic process inspects the contents of the specific revision of the installed repository and generates and stores important information about it.  This metadata information is used by certain Galaxy features.  As new features are added to Galaxy or the tool shed, the process that generates this installed tool shed repository metadata within the Galaxy  instance may be enhanced to accommodate information about the new features. [Read more…](/src/resetting-metadata-for-installed-repositories/index.md)
+When a tool shed repository is installed into your local Galaxy instance, metadata is generated for the repository as a part of the installation process and stored in the tool_shed_repository.metadatatable column in the Galaxy database.  This automatic process inspects the contents of the specific revision of the installed repository and generates and stores important information about it.  This metadata information is used by certain Galaxy features.  As new features are added to Galaxy or the tool shed, the process that generates this installed tool shed repository metadata within the Galaxy  instance may be enhanced to accommodate information about the new features. [Read more…](/resetting-metadata-for-installed-repositories/)
 
 1. #2 The Galaxy tool shed repository installation process has been enhanced to enable installation of repositories into a hierarchy of directories instead of a single level of directories.
 
@@ -226,4 +226,4 @@ The **[Galaxy Team](/galaxy-team/)** is a part of **[BX](http://www.bx.psu.edu/)
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/galaxy-on-twitter/)**

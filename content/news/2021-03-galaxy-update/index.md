@@ -4,7 +4,7 @@ tease: "New Featured and Community News sections; new events, releases, training
 date: "2021-03-17"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 It is a very busy time in the Galaxy. 2021 is young, but we have already had two large training events, including the largest Galaxy event ever - the GTN Smörgåsbord (with an amazing 1100+ people registered). We are ramping up for GCC2021, which will be online, global, and affordable, and will be more accessible (and likely much larger) than an in-person Galaxy Community Conference.
 

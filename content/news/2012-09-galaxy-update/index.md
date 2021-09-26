@@ -17,6 +17,6 @@ The [September 2012 Galaxy Update is now available](/src/galaxy-updates/2012-09/
 * [Tool Shed Contributions](/src/galaxy-updates/2012-09/index.md#toolshed-contributions)
 * [Other News](/src/galaxy-updates/2012-09/index.md#other-news)
 
-If you have anything you would like to see in the October *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.
+If you have anything you would like to see in the October *[Galaxy Update](/galaxy-updates/)*, please let me know.
 
 [Dave Clements](/people/dave-clements/)

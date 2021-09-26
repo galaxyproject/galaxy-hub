@@ -16,6 +16,6 @@ The [October 2012 Galaxy Update is now available](/src/galaxy-updates/2012-10/in
 * [New Distributions](/src/galaxy-updates/2012-10/index.md#new-distributionss)
 * [Other News](/src/galaxy-updates/2012-10/index.md#other-news)
 
-If you have anything you would like to see in the November *[Galaxy Update](/src/galaxy-updates/index.md)*, please let me know.
+If you have anything you would like to see in the November *[Galaxy Update](/galaxy-updates/)*, please let me know.
 
 [Dave Clements](/people/dave-clements/)

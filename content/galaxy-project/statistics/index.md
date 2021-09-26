@@ -1,7 +1,7 @@
 ---
 title: Galaxy Project Stats
 ---
-This page contains statistics about the [Galaxy Project](/src/galaxy-project/index.md).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
+This page contains statistics about the [Galaxy Project](/galaxy-project/).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
 
 
 
@@ -33,7 +33,7 @@ The Galaxy community uses Gitter.im / Matrix for chat, and there are many differ
 
 ## Mailing Lists
 
-Most of Galaxy's mailing list traffic has migrated to the help forum and to Gitter.  The Galaxy-Announce (see below) and Galaxy-Dev [mailing lists](/src/mailing-lists/index.md) remain the only frequently active mailing lists. Here's the history:
+Most of Galaxy's mailing list traffic has migrated to the help forum and to Gitter.  The Galaxy-Announce (see below) and Galaxy-Dev [mailing lists](/mailing-lists/) remain the only frequently active mailing lists. Here's the history:
 
 * 2011/12: Galaxy-Announce list launched.
 * 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/main/) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
@@ -43,7 +43,7 @@ Most of Galaxy's mailing list traffic has migrated to the help forum and to Gitt
 
 # Communication Channels
 
-The project uses the Galaxy-Announce mailing list and Twitter to keep the community up to date on what's happening in the larger Galaxy community. Galaxy-Announce was launched in December 2011 and became the default mailing list for newly registered users on [usegalaxy.org](/main/) in February 2012.  The Galaxy project started [using Twitter](/src/galaxy-on-twitter/index.md) on a regular basis in February 2011.
+The project uses the Galaxy-Announce mailing list and Twitter to keep the community up to date on what's happening in the larger Galaxy community. Galaxy-Announce was launched in December 2011 and became the default mailing list for newly registered users on [usegalaxy.org](/main/) in February 2012.  The Galaxy project started [using Twitter](/galaxy-on-twitter/) on a regular basis in February 2011.
 
 Here's membership in both channels since they were launched.
 
@@ -72,7 +72,7 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 
 # Publications / Citations
 
-The [Galaxy Publications Library](/src/publication-library/index.md) lists every publication we know of that is about, references, or mentions Galaxy.  We started tracking publications partway through 2011, so this may be an undercount for that year and previous years.  
+The [Galaxy Publications Library](/publication-library/) lists every publication we know of that is about, references, or mentions Galaxy.  We started tracking publications partway through 2011, so this may be an undercount for that year and previous years.  
 
 Here are the tags on papers in the Galaxy Publications Library as of August 2021:
 

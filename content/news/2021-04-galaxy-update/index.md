@@ -4,7 +4,7 @@ tease: "GCC2021 Abstracts and Registration are open, plus lots more."
 date: "2021-04-12"
 ---
 
-<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 This newsletter coincides with the [anniversary of James Taylor's death](#featured-news) on April 2, 2020.  James was a Galaxy Project founder and PI, and losing him at the same time as the global COVID-19 shutdown made for a tough month, and then a tough year for the Galaxy Community.  To mark this, there are two items about James below.  First, *a call to share your favorite story about James* via a 30 second video (by April 30).  Second, there is a link to *a note to James* written by project leadership (mainly Anton).
 

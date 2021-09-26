@@ -1,9 +1,9 @@
 ---
 title: Summer (August) 2018 Galaxy News
 ---
-[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
-Welcome to the Summer 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the Summer 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
@@ -298,19 +298,19 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 
 20 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications.
 
-This included a new paper to reference [whenever using, extending, or referencing Galaxy](/src/citing-galaxy/index.md#primary-publication):
+This included a new paper to reference [whenever using, extending, or referencing Galaxy](/citing-galaxy/#primary-publication):
 
 * [**The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update**](https://doi.org/10.1093/nar/gky379), [Enis Afgan](/people/enis-afgan/), [Dannon Baker](/people/dannon-baker/), [Bérénice Batut](http://bebatut.fr/), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek),  [Dave Bouvier](/people/dave-bouvier/), [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Dave Clements](/people/dave-clements/), [Nate Coraor](/people/nate/), [Björn Grüning](/people/bjoern-gruening/), [Aysam Guerler](/people/guerler/), [Jennifer Hillman-Jackson](/people/jennifer-jackson/), [Vahid Jalili](/people/vahid-jalili/), [Helena Rasche](https://github.com/hexylena), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Jeremy Goecks](/people/jeremy-goecks/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), and [Daniel Blankenberg](/people/dan/). *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W537–W544, doi:10.1093/nar/gky379
 
-A new paper to reference [when discussing Galaxy in the context of reproducibility](/src/citing-galaxy/index.md#reproducibility):
+A new paper to reference [when discussing Galaxy in the context of reproducibility](/citing-galaxy/#reproducibility):
 
 * [**Practical Computational Reproducibility in the Life Sciences**](https://doi.org/10.1016/j.cels.2018.03.014), [Björn Grüning](/people/bjoern-gruening/), [John Chilton](/people/john-chilton/), Johannes Köster, Ryan Dale, Nicola Soranzo, [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Jeremy Goecks](/people/jeremy-goecks/), Rolf Backofen, [Anton Nekrutenko](/people/anton/), [James Taylor](/people/james-taylor/). *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 631-635, doi:10.1016/j.cels.2018.03.014
 
-And a new paper to reference [when discussing Galaxy training](/src/citing-galaxy/index.md#training):
+And a new paper to reference [when discussing Galaxy training](/citing-galaxy/#training):
 
 * [**Community-Driven Data Analysis Training for Biology**](https://doi.org/10.1016/j.cels.2018.05.012), [Bérénice Batut](http://bebatut.fr/), Saskia Hiltemann, Andrea Bagnacani, [Dannon Baker](/people/dannon-baker/), Vivek Bhardwaj, Clemens Blank, Anthony Bretaudeau, Loraine Brillet-Guéguen, [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Dave Clements](/people/dave-clements/), Olivia Doppelt-Azeroual, Anika Erxleben, Mallory Ann Freeberg, Simon Gladman, Youri Hoogstrate, Hans-Rudolf Hotz, Torsten Houwaart, Pratik Jagtap, Delphine Larivière, Gildas Le Corguillé, Thomas Manke, Fabien Mareuil, Fidel Ramírez, Devon, Ryan, Florian Christoph Sigloch, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), Joachim Wolff, Pavankumar Videm, Markus Wolfien, Aisanjiang Wubuli, Dilmurat Yusuf, Galaxy Training Network, [James Taylor](/people/james-taylor/), Rolf Backofen, [Anton Nekrutenko](/people/anton/), [Björn Grüning](/people/bjoern-gruening/). *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 752-758.e1
 
-And a new paper to cite [when discussing Galaxy in a cloud context](/src/citing-galaxy/index.md#cloud):
+And a new paper to cite [when discussing Galaxy in a cloud context](/citing-galaxy/#cloud):
 
 * [**CloudLaunch: Discover and deploy cloud applications**](https://doi.org/10.1016/j.future.2018.04.037), [Enis Afgan](/people/enis-afgan/), Andrew Lonie, [James Taylor](/people/james-taylor/), Nuwan Goonasekera. *Future Generation Computer Systems*, 2018, doi:10.1016/j.future.2018.04.037
 
@@ -354,7 +354,7 @@ The Galaxy is expanding! Please help it grow.
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 # New Galactic Blog Entries
 
