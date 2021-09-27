@@ -199,8 +199,8 @@ Luke Sargent
 </div>
 <div class='col-md-3'>
 
-[![Marius van den Beek](/src/galaxy-team/marius.jpeg)](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek)
-[Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek)
+[![Marius van den Beek](/src/galaxy-team/marius.jpeg)](https://github.com/mvdbeek)
+[Marius van den Beek](https://github.com/mvdbeek)
 [IBPS UPMC](http://www.ibps.upmc.fr/)  
 
 </div>

@@ -40,7 +40,7 @@ Some excellent examples (*emphasis added*):
 
 If you use, extend or reference Galaxy in your published work, please cite this publication:
 
-* [Enis Afgan](/people/enis-afgan/), [Dannon Baker](/people/dannon-baker/), [Bérénice Batut](http://bebatut.fr/), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek),  [Dave Bouvier](/people/dave-bouvier/), [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Dave Clements](/people/dave-clements/), [Nate Coraor](/people/nate/), [Björn Grüning](/people/bjoern-gruening/), [Aysam Guerler](/people/guerler/), [Jennifer Hillman-Jackson](/people/jennifer-jackson/), [Vahid Jalili](/people/vahid-jalili/), [Helena Rasche](https://github.com/hexylena), [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), [Jeremy Goecks](/people/jeremy-goecks/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), and [Daniel Blankenberg](/people/dan/). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update](https://doi.org/10.1093/nar/gky379)**, *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W537–W544, doi:10.1093/nar/gky379
+* [Enis Afgan](/people/enis-afgan/), [Dannon Baker](/people/dannon-baker/), [Bérénice Batut](http://bebatut.fr/), [Marius van den Beek](https://github.com/mvdbeek),  [Dave Bouvier](/people/dave-bouvier/), [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Dave Clements](/people/dave-clements/), [Nate Coraor](/people/nate/), [Björn Grüning](/people/bjoern-gruening/), [Aysam Guerler](/people/guerler/), [Jennifer Hillman-Jackson](/people/jennifer-jackson/), [Vahid Jalili](/people/vahid-jalili/), [Helena Rasche](https://github.com/hexylena), [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), [Jeremy Goecks](/people/jeremy-goecks/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), and [Daniel Blankenberg](/people/dan/). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update](https://doi.org/10.1093/nar/gky379)**, *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W537–W544, doi:10.1093/nar/gky379
 
 This and other references are also [available in GitHub](https://github.com/galaxyproject/galaxy/blob/dev/CITATION) as a [CITATION file](http://software-carpentry.org/blog/2013/09/introducing-citation-files.html). 
 
@@ -75,7 +75,7 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 ## Reproducibility
 
-* [Björn Grüning](/people/bjoern-gruening/), [John Chilton](/people/john-chilton/), Johannes Köster, Ryan Dale, [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Jeremy Goecks](/people/jeremy-goecks/), Rolf Backofen, [Anton Nekrutenko](/people/anton/), [James Taylor](/people/james-taylor/).
+* [Björn Grüning](/people/bjoern-gruening/), [John Chilton](/people/john-chilton/), Johannes Köster, Ryan Dale, [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), [Marius van den Beek](https://github.com/mvdbeek), [Jeremy Goecks](/people/jeremy-goecks/), Rolf Backofen, [Anton Nekrutenko](/people/anton/), [James Taylor](/people/james-taylor/).
 **[Practical Computational Reproducibility in the Life Sciences](https://doi.org/10.1016/j.cels.2018.03.014)**, *Cell Systems*, Volume 6, Issue 6, 2018, Pages 631-635, ISSN 2405-4712, doi:10.1016/j.cels.2018.03.014.
 
 ## ToolShed
