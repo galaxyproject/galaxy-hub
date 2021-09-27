@@ -185,7 +185,7 @@ Here we'll examine the various components and steps that comprise this process. 
 
 <div class='right'><a href='http://www.hutton.ac.uk/staff/peter-cock'><img src="/src/images/people/PeterCock.jpg" alt="Peter Cock" width="100" /></a></div>
 
-**[Peter Cock](http://www.hutton.ac.uk/staff/peter-cock)<sup>1</sup>,** [John Chilton](/people/john-chilton/)<sup>2</sup>, [Björn Grüning](https://github.com/bgruening)<sup>3</sup>, [Jim Johnson](https://github.com/jj-umn)<sup>4</sup>, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo)<sup>5</sup>
+**[Peter Cock](http://www.hutton.ac.uk/staff/peter-cock)<sup>1</sup>,** [John Chilton](/people/john-chilton/)<sup>2</sup>, [Björn Grüning](https://github.com/bgruening)<sup>3</sup>, [Jim Johnson](https://github.com/jj-umn)<sup>4</sup>, [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo)<sup>5</sup>
 
  <sup>1</sup> [The James Hutton Institute](http://www.hutton.ac.uk/), Scotland, United Kingdom<br />
  <sup>2</sup> Department of Biochemistry and Molecular Biology, Penn State University, United States<br />
