@@ -103,7 +103,7 @@ The [Association of Biomolecular Resource Facilities 2020 Conference (ABRF 2020)
 
 ## About Galaxy
 
-[Galaxy](/src/index.md) is an open source platform for data integration and analysis in the life sciences. It is deployed in hundreds of organizations around the world and is supported by a global community of researchers, trainers, software engineers, and tool developers. Galaxy makes sophisticated bioinformatic analysis accessible and reproducible to researchers without requiring them to learn command line interfaces or computer systems administration. Thousands of tools and data sources are available in the Galaxy ecosystem.
+[Galaxy](/) is an open source platform for data integration and analysis in the life sciences. It is deployed in hundreds of organizations around the world and is supported by a global community of researchers, trainers, software engineers, and tool developers. Galaxy makes sophisticated bioinformatic analysis accessible and reproducible to researchers without requiring them to learn command line interfaces or computer systems administration. Thousands of tools and data sources are available in the Galaxy ecosystem.
 
 We hope to see you Palm Springs,
 

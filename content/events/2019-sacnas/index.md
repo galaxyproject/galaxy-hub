@@ -24,7 +24,7 @@ There will be a full day pre-conference workshop at [2019 SACNAS](http://www.201
 **Wednesday, October 30, 9am- 6pm**<br />
 **Room 318AB**
 
-[<img class="float-left" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/src/index.md)
+[<img class="float-left" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/)
 
 Workshop attendees will be introduced to practical examples of how genomic data is used in research and clinical applications, highlighting techniques, technologies, and platforms used in genomic analysis. The current state of genomic science will be discussed, with emphasis on large scale sequencing projects of [NHGRI](https://www.genome.gov/) involving hundreds of thousands of individuals ([CCDG](https://www.genome.gov/Funded-Programs-Projects/NHGRI-Genome-Sequencing-Program/Centers-for-Common-Disease-Genomics), [CMG](https://www.genome.gov/Funded-Programs-Projects/NHGRI-Genome-Sequencing-Program/Centers-for-Mendelian-Genomics-CMG), [AnVIL](https://www.genome.gov/Funded-Programs-Projects/Computational-Genomics-and-Data-Science-Program/Genomic-Analysis-Visualization-Informatics-Lab-space-AnVIL)). 
 

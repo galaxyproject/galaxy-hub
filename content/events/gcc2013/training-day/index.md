@@ -100,7 +100,7 @@ In general:
  **All Workshops:**
    Require a web browser such as Chrome, Firefox, or Safari.  The latest version of Internet Explorer should also work.
 
- **[Galaxy Deployment and Development Workshops](/src/index.md#galaxy-deployment-and-development-workshops):**
+ **[Galaxy Deployment and Development Workshops](/#galaxy-deployment-and-development-workshops):**
    Require [virtual machine (VM) player software](/events/gcc2013/training-day/vms/) on your laptop, either *VirtualBox*, or *VMware player*.  See the [Training Day VMs](/events/gcc2013/training-day/vms/) page for more. This should be installed before you arrive at the conference.
 
 See each individual workshop's list of prerequisite for specifics.

@@ -39,7 +39,7 @@ Two summaries of GCC2017 are available online:
 [<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="150" />](https://software-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="150" />](https://data-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="150" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="150" />](/src/index.md)
+[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="150" />](/)
 </div>
 
 # Galaxy (and CyVerse and the Carpentries) at 2017 SACNAS Meeting

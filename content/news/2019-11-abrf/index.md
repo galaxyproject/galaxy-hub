@@ -19,7 +19,7 @@ This workshop will be held on February 29, and *will be hands-on. So bring your 
 The [Association of Biomolecular Resource Facilities 2020 Conference (ABRF 2020)](http://conf.abrf.org/) will bring together 500 decision makers (and over 250 exhibitors) from core life science research facilities from around the world.  ABRF is the largest international organization in this field, and this meeting is an ideal opportunity to reach this worldwide community. *(Note: Most workshop instructors are also attending the rest of the conference, providing an ideal opportunity to find out how Galaxy can be used in your core facility.)*
 
 **About Galaxy**<br />
-[Galaxy](/src/index.md) is an open source platform for data integration and analysis in the life sciences. It is deployed in hundreds of organizations around the world and is supported by a global community of researchers, trainers, software engineers, and tool developers. Galaxy makes sophisticated bioinformatic analysis accessible and reproducible to researchers without requiring them to learn command line interfaces or computer systems administration. Thousands of tools and data sources are available in the Galaxy ecosystem.
+[Galaxy](/) is an open source platform for data integration and analysis in the life sciences. It is deployed in hundreds of organizations around the world and is supported by a global community of researchers, trainers, software engineers, and tool developers. Galaxy makes sophisticated bioinformatic analysis accessible and reproducible to researchers without requiring them to learn command line interfaces or computer systems administration. Thousands of tools and data sources are available in the Galaxy ecosystem.
 
 We hope to see you Palm Springs,
 

@@ -107,7 +107,7 @@ In general:
  **All Workshops:**
    Require a web browser such as Chrome, Firefox, or Safari.  The latest version of Internet Explorer should also work.
 
- **[Deployment and Development Workshops](/src/index.md#deployment-and-development-workshops):**
+ **[Deployment and Development Workshops](/#deployment-and-development-workshops):**
    Require the [VirtualBox virtual machine (VM) software](/events/gcc2014/training-day/vms/) on your laptop.  See the [Training Day VMs](/events/gcc2014/training-day/vms/) page for more. This should be installed before you arrive at the conference.
 
 See each individual workshop's list of prerequisite for specifics.

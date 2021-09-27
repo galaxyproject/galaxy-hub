@@ -2,7 +2,7 @@
 
 **Keywords:** Strategic emphasis, medium and long term planning, international opportunities
 
-[Galaxy](/src/index.md) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in [project governance structures](/community/governance/) are needed to help adapt to increasing complexity.
+[Galaxy](/) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in [project governance structures](/community/governance/) are needed to help adapt to increasing complexity.
 
 <div class="lead">
 

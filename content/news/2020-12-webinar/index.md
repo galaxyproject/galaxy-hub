@@ -19,4 +19,4 @@ Interested?  [Please sign up now](https://docs.google.com/forms/d/e/1FAIpQLSckxs
 
 ## About Galaxy
 
-[Galaxy](/src/index.md) is a web-based data integration and analysis platform for the life sciences (and more).  It is open source and freely available and installed at organizations around the world.
+[Galaxy](/) is a web-based data integration and analysis platform for the life sciences (and more).  It is open source and freely available and installed at organizations around the world.

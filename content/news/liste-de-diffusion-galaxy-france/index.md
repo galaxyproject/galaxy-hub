@@ -20,7 +20,7 @@ Pour toutes les questions techniques (installation, développement d'outil) nous
 
 Pour vous aider dans votre utilisation de Galaxy, voici une liste de liens utiles (en plus de la présente liste):
 
-* [Wiki Galaxy officiel](/src/index.md)
+* [Wiki Galaxy officiel](/)
 * [Serveur public principal](https://usegalaxy.org/)
 * [Liste d'annonce](https://lists.galaxyproject.org/lists/galaxy-announce.lists.galaxyproject.org/)
 * [Liste utilisateurs "simples" Galaxy](https://lists.galaxyproject.org/archives/list/galaxy-user@lists.galaxyproject.org/)

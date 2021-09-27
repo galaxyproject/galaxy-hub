@@ -37,7 +37,7 @@ Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming 
 [<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/src/index.md)
+[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/)
 </div>
 
 If you will be anywhere near San Antonio, Texas on October 10 then please consider participating in one of [these SACNAS preconference workshops](/events/2018-sacnas/).  You don't need to be registered for the [2018 SACNAS meeting](http://www.2018sacnas.org/) to attend.  **Everyone is eligible and the workshops are free.**

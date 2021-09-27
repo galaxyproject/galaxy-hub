@@ -10,7 +10,7 @@ Please note that *ALL jobs running at the time of the shutdown will be terminate
 
 The *yellow banner on **Main** and **Test** will provide updates* (when the servers are up) as well our **galaxyproject Twitter posts**.
 
-**Galaxy's [Tool Shed](http://toolshed.g2.bx.psu.edu/), [Galaxy Hub](/src/index.md), and [Mailing list](/mailing-lists/) services** will be ***unaffected*** during this time. 
+**Galaxy's [Tool Shed](http://toolshed.g2.bx.psu.edu/), [Galaxy Hub](/), and [Mailing list](/mailing-lists/) services** will be ***unaffected*** during this time. 
 
 *Thanks for using Galaxy!!*
 

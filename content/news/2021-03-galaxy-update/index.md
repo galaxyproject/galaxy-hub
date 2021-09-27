@@ -469,9 +469,9 @@ In this tutorial, we discuss recurrent neural networks, which model sequential d
 <!-- Updated Hub landing page -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="hub-landing.png" alt="New Hub landing" />
-<div class="card-header">[Hub Landing Page Update](/src/index.md)</div>
+<div class="card-header">[Hub Landing Page Update](/)</div>
 
-We updated the bottom part of the [hub landing page](/src/index.md).  In addition to highlighting *News, Blog posts, Events,* and *Twitter,* we added summary sections for *Recent Videos, Careers, New Platforms,* and *Recent Pubs.* We also expanded the News and Blog sections.
+We updated the bottom part of the [hub landing page](/).  In addition to highlighting *News, Blog posts, Events,* and *Twitter,* we added summary sections for *Recent Videos, Careers, New Platforms,* and *Recent Pubs.* We also expanded the News and Blog sections.
 </div>
 
 

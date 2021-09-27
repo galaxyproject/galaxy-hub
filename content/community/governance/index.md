@@ -1,6 +1,6 @@
 # The Galaxy Governance Model _(draft)_
 
-[Galaxy](/src/index.md) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in project governance structures are needed to help adapt to increasing complexity and to more fully engage the Galaxy Community. This is our first attempt.
+[Galaxy](/) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in project governance structures are needed to help adapt to increasing complexity and to more fully engage the Galaxy Community. This is our first attempt.
 
 Several community groups have been formed so that project governance truly reflects the global community that Galaxy has become:
 

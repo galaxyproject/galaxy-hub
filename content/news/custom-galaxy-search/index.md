@@ -12,7 +12,7 @@ Galaxy now has several Google Custom Search engines that make it much easier to 
 
 | Name & URL |  Description  |
 | ---------- | ------------ |
-| **[Galaxy Web Search](/search/)** |  Searches Galaxy [Main](/main/), the [mailing list archives](/mailing-lists/), the [Galaxy Hub](/src/index.md), Galaxy's source code, and the [/ToolShed](/toolshed/).  The results are returned in a unified list, and are also grouped into several categories.  |
+| **[Galaxy Web Search](/search/)** |  Searches Galaxy [Main](/main/), the [mailing list archives](/mailing-lists/), the [Galaxy Hub](/), Galaxy's source code, and the [/ToolShed](/toolshed/).  The results are returned in a unified list, and are also grouped into several categories.  |
 | **Galaxy Mailing List Search** |  Searches all the Galaxy [mailing list archives](/mailing-lists/).   |
 | **UseGalaxy Search** |  Search for information about *using* Galaxy.  Searches Galaxy [Main](/main/) ([UseGalaxy.org](http://usegalaxy.org)), [this wiki](/learn/) (excluding the [Admin](/admin/) pages), and the [Galaxy-User and Galaxy-Announce mailing list archives](/mailing-lists/).  |
 | **GetGalaxy Search** |  Search for information about installing, customizing, and developing Galaxy.  Searches the Galaxy source code, the [Tool Shed](http://toolshed.g2.bx.psu.edu), [this wiki](/admin/) (excluding the [/Learn](/learn/) pages), and the [Galaxy-Dev and Galaxy-Announce mailing list archives](/mailing-lists/).  |

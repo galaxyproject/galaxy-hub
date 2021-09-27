@@ -91,7 +91,7 @@ You will need bash and anaconda set up.  Please follow the installation instruct
 
 <div class="right">
 [<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="170" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/src/index.md)<br />
+[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/)<br />
 </div>
 
 **Wednesday, October 10, 9am- 6pm**

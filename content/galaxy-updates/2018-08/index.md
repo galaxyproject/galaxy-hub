@@ -83,7 +83,7 @@ The Galaxy Training Network is organizing regular online CoFests (Collaboration/
 [<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/src/index.md)
+[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/)
 </div>
 
 If you are attending the [2018 SACNAS meeting](http://www.2018sacnas.org/) in San Antonio in October, then please consider signing up for one of [these preconference workshops](/events/2018-sacnas/):
