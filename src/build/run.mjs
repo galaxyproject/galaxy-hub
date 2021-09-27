@@ -56,12 +56,17 @@ function main(rawArgv) {
     console.log(`$ ${cmd3}`);
     let gridsome = childProcess.spawn(gridsomeExe, [command], { stdio: "inherit" });
     gridsome.on("exit", (code, signal) => {
-        // Copy static images for direct reference to dist.
-        cpy(["**/*.png", "**/*.jpg", "**/*.pdf", "**/*.gif"], "../dist", {
-            cwd: "./content",
-            overwrite: false,
-            parents: true,
-        });
+        // Copy static images for direct reference to dist -- only when doing a
+        // full build.  We hook into the exit this way to let Gridsome do its
+        // thing first.
+        if (command === "build") {
+            console.log("Coping integrated static content (png, jpg, pdf, gif) to dist.");
+            cpy(["**/*.png", "**/*.jpg", "**/*.pdf", "**/*.gif"], "../dist", {
+                cwd: "./content",
+                overwrite: false,
+                parents: true,
+            });
+        }
 
         if (signal) {
             console.error(`${cmd3} exited due to signal ${signal}`);
