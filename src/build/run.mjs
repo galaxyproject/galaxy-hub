@@ -56,14 +56,12 @@ function main(rawArgv) {
     console.log(`$ ${cmd3}`);
     let gridsome = childProcess.spawn(gridsomeExe, [command], { stdio: "inherit" });
     gridsome.on("exit", (code, signal) => {
-
         // Copy static images for direct reference to dist.
-        cpy([
-            '**/*.png',
-            '**/*.jpg',
-            '**/*.pdf',
-            '**/*.gif',
-            ], '../dist', {cwd: './content', overwrite: false, parents: true});
+        cpy(["**/*.png", "**/*.jpg", "**/*.pdf", "**/*.gif"], "../dist", {
+            cwd: "./content",
+            overwrite: false,
+            parents: true,
+        });
 
         if (signal) {
             console.error(`${cmd3} exited due to signal ${signal}`);
