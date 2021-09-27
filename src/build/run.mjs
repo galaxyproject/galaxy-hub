@@ -4,6 +4,7 @@ import process from "process";
 import childProcess from "child_process";
 import { fileURLToPath } from "url";
 import which from "which";
+import cpy from "cpy";
 import { repr } from "../utils.js";
 import { PathInfo } from "../paths.js";
 
@@ -55,6 +56,15 @@ function main(rawArgv) {
     console.log(`$ ${cmd3}`);
     let gridsome = childProcess.spawn(gridsomeExe, [command], { stdio: "inherit" });
     gridsome.on("exit", (code, signal) => {
+
+        // Copy static images for direct reference to dist.
+        cpy([
+            '**/*.png',
+            '**/*.jpg',
+            '**/*.pdf',
+            '**/*.gif',
+            ], '../dist', {cwd: './content', overwrite: false, parents: true});
+
         if (signal) {
             console.error(`${cmd3} exited due to signal ${signal}`);
         }
