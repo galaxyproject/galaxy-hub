@@ -18,7 +18,7 @@
                 Apply by: {{ article.closes }}
             </span>
         </p>
-        <p class="markdown" v-html="mdToHtml(article.summary)" />
+        <p class="markdown" v-html="summary" />
         <p v-if="article.contact" class="contact">Contact: {{ article.contact }}</p>
         <p v-if="article.image" class="logo">
             <a :href="article.external_url">
@@ -38,12 +38,19 @@ export default {
     props: {
         article: { type: Object, required: true },
     },
+    data() {
+        return {
+            summary: "",
+        }
+    },
     methods: {
-        mdToHtml,
         getImage(imagePath) {
             return getImage(imagePath, this.article.images);
         },
     },
+    async created() {
+        this.summary = await mdToHtml(this.article.summary);
+    }
 };
 </script>
 

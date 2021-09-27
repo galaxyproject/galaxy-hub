@@ -26,7 +26,7 @@
                 </tr>
                 <tr>
                     <th>Summary:</th>
-                    <td class="markdown" v-html="mdToHtml($page.platform.summary)" />
+                    <td class="markdown" v-html="summary" />
                 </tr>
             </tbody>
         </table>
@@ -85,7 +85,6 @@ export default {
         };
     },
     methods: {
-        mdToHtml,
         getImage(imagePath) {
             return getImage(imagePath, this.$page.platform.images);
         },
@@ -105,21 +104,23 @@ export default {
                 ["domain", "Domain specific"],
                 ["tool-publishing", "Tool Publishing"],
             ]),
+            serieses: [],
+            summary: '',
         };
     },
-    computed: {
-        serieses() {
-            let serieses = [];
-            for (let key of ["comments", "user_support", "quotas", "citations", "sponsors"]) {
-                let series = {
-                    key: key,
-                    values: this.$page.platform[key].map(mdToHtml),
-                    name: key.replace(/_/g, " "),
-                };
-                serieses.push(series);
-            }
-            return serieses;
-        },
+    async created() {
+        for (let key of ["comments", "user_support", "quotas", "citations", "sponsors"]) {
+            let series = {
+                key: key,
+                values: [],
+                name: key.replace(/_/g, " "),
+            };
+            this.$page.platform[key].forEach(async (md) => {
+                series.values.push(await mdToHtml(md));
+            });
+            this.serieses.push(series);
+        }
+        this.summary = await mdToHtml(this.$page.platform.summary);
     },
 };
 </script>

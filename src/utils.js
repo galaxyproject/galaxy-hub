@@ -1,11 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 const util = require("util");
-const jiti = require('jiti')(__filename);
-const { unified } = jiti('unified');
+const remarkRehype = require('remark-rehype');
 const remarkParse = require('remark-parse');
-const remarkRehype = jiti('remark-rehype').default;
-const rehypeStringify = jiti('rehype-stringify').default;
 const slugify = require("@sindresorhus/slugify");
 const CONFIG = require("../config.json");
 
@@ -119,20 +116,16 @@ function getImage(imagePath, images) {
 }
 module.exports.getImage = getImage;
 
-function mdToHtml(md) {
+async function mdToHtml(md) {
     //TODO: Fix links (E.g. `/src/main/index.md` -> `/main/`)
-    let rawHtml;
-    unified()
+    const { unified } = await import('unified');
+    const { default:rehypeStringify } = await import('rehype-stringify');
+    let vfile = await unified()
         .use(remarkParse)
         .use(remarkRehype)
         .use(rehypeStringify)
-        .process(md, (err, file) => {
-            if (err) {
-                console.error(err);
-            } else {
-                rawHtml = String(file);
-            }
-        });
+        .process(md);
+    let rawHtml = String(vfile);
     return rmPrefix(rmSuffix(rawHtml.trim(), "</p>"), "<p>");
 }
 module.exports.mdToHtml = mdToHtml;

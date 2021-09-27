@@ -124,7 +124,7 @@
                         </a>
                     </template>
                     <template #cell(summary)="data">
-                        <span class="markdown" v-html="mdToHtml(data.item.summary)"></span>
+                        <span class="markdown" v-html="data.item.summary"></span>
                     </template>
                     <template #cell(purview)="data">
                         {{ getPlatformValueByGroup(data.item, tab.id, "platform_purview") }}
@@ -264,7 +264,6 @@ export default {
         };
     },
     methods: {
-        mdToHtml,
         platformsByGroup(group) {
             return this.platforms.filter((platform) => platformContainsGroup(platform, group));
         },
@@ -315,7 +314,12 @@ export default {
         },
         platforms() {
             let platforms = this.$page.platforms.edges.map((edge) => edge.node);
-            platforms.forEach((platform) => (platform.filterKey = makeFilterKey(platform)));
+            platforms.forEach(platform => {
+                platform.filterKey = makeFilterKey(platform);
+                mdToHtml(platform.summary).then(html => {
+                    platform.summary = html;
+                });
+            });
             return platforms;
         },
     },
@@ -325,7 +329,7 @@ export default {
         // But we need to declare the `tabs` in `data()` in order for the page to be responsive to updates.
         for (let tab of this.tabs) {
             if (tab.id === "usegalaxy") {
-                tab.platforms = this.platforms.filter((platform) => platform.scope === "usegalaxy");
+                tab.platforms = this.platforms.filter(platform => platform.scope === "usegalaxy");
             } else if (tab.id === "all-resources") {
                 tab.platforms = this.platforms;
             } else {
