@@ -1,8 +1,8 @@
 ---
 title: April 2015 Tool Shed Contributions
 ---
-* [Wiki Root](/src/toolshed/index.md)
-* [All monthly summaries](/src/toolshed/contributions/index.md)
+* [Wiki Root](/toolshed/)
+* [All monthly summaries](/toolshed/contributions/)
 
 ### Featured Updates
 
@@ -29,7 +29,7 @@ title: April 2015 Tool Shed Contributions
   * [samtools_calmd](https://toolshed.g2.bx.psu.edu/view/devteam/samtools_calmd): recalculate MD/NM tags Generates the MD tag using ``samtools calmd`` command.
   * [data_manager_bowtie2_index_builder](https://toolshed.g2.bx.psu.edu/view/devteam/data_manager_bowtie2_index_builder): Data Manager for building bowtie2 indexes Data Manager for building bowtie2 indexes
   * [samtools_sort](https://toolshed.g2.bx.psu.edu/view/devteam/samtools_sort): Sort alignments by leftmost coordinates or read name. This tool uses the SAMtools toolkit to sort alignments by leftmost coordinates or read names.
-    * Repository-Maintainer: [Bj&ouml;rn Gr&uuml;ning](/src/people/bjoern-gruening/index.md)
+    * Repository-Maintainer: [Bj&ouml;rn Gr&uuml;ning](/people/bjoern-gruening/)
     * Repository-Development: https://github.com/bgruening/galaxytools
   * [samtools_idxstats](https://toolshed.g2.bx.psu.edu/view/devteam/samtools_idxstats): BAM mapping statistics (using samtools idxstats) Runs "samtools idxstats" to get mapping statistics from a sorted index BAM file as a tabular output file.
   * [samtools_split](https://toolshed.g2.bx.psu.edu/view/devteam/samtools_split):  Split a BAM file by read group This tool runs the samtools split command in the SAMtools toolkit to split BAM files by read group.

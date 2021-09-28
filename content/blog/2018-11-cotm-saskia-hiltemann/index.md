@@ -22,7 +22,7 @@ I started using Galaxy in 2012, at first quite simply because the project I was 
 
 *How did you get into the Galaxy community? What (and when) was your first contribution?*
 
-My first contributions were back in 2012, when I made a tool called [iReport](/src/events/gcc2014/abstracts/talks/index.md#ireport-html-reporting-in-galaxy) to create custom web pages for results reporting in Galaxy. Looking back, Galaxy has come a long way since then (and so have I), and I realize that I would do things very differently if I were to create that tool today, and I hope to be able to make a version 2.0 of this tool some time soon, because I still think that what it does is great, but the way it does it can be much improved.
+My first contributions were back in 2012, when I made a tool called [iReport](/events/gcc2014/abstracts/talks/#ireport-html-reporting-in-galaxy) to create custom web pages for results reporting in Galaxy. Looking back, Galaxy has come a long way since then (and so have I), and I realize that I would do things very differently if I were to create that tool today, and I hope to be able to make a version 2.0 of this tool some time soon, because I still think that what it does is great, but the way it does it can be much improved.
 
 *Which are your favorite Galaxy tools?*
 
@@ -48,7 +48,7 @@ My (biologist) supervisor always likes to describe his ideal view of bioinformat
 
 Thanks for the fun question :) CTF stands for "Capture The Flag" and these are online hacking events that usually last anywhere from a day to a couple of weeks, and basically consist of a series of computer security challenges or puzzles in which your goal is to obtain a specific hidden string of text. This could be a web service that has been intentionally left vulnerable to SQL injections, or an executable that can be manipulated into unintended behaviour, or it might involve the breaking of insecure encryption schemes. Very often they will include real-world scenarios based on recently discovered vulnerabilities. It is a great way to learn about a broad set of computer science and security topics, but also to learn about the potential vulnerabilities in any tools and program you will write in your professional life. I usually participate in these events together with Helena Rasche, but anybody is welcome to join our team! (no experience needed, there are always challenges of varying difficulty levels) :) 
 	
-Inspired by these CTF competitions, [Helena](/src/people/helena-rasche) and I also created a [Galaxy CTF event at GCC2017](https://sched.co/BCVY), which was great fun to create and hopefully also a fun way to learn more about Galaxy features and internals for the people who participated, and we hope to organize another Galaxy CTF at [GCC2019](/src/events/gcc2019/index.md), so come check it out!
+Inspired by these CTF competitions, [Helena](/people/helena-rasche) and I also created a [Galaxy CTF event at GCC2017](https://sched.co/BCVY), which was great fun to create and hopefully also a fun way to learn more about Galaxy features and internals for the people who participated, and we hope to organize another Galaxy CTF at [GCC2019](/src/events/gcc2019/), so come check it out!
 
 
 Thanks for the interview!

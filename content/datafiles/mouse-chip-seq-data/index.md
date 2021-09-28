@@ -3,7 +3,7 @@ INCLUDE(/UnderConstruction)
 
 * Used in ***Using Galaxy to Perform Large-Scale Interactive Data Analysis: A live supplement*** June 2012 Update published in *Current Protocols in Bioinformatics* (pending release)
   * *Using Galaxy to Perform Large-Scale Interactive Data Analysis* - Publication, June 2012 *CPB*
-  * Complete Live Supplemental - Page, Galaxy [/Main](/src/main/index.md)
+  * Complete Live Supplemental - Page, Galaxy [/Main](/main/)
   * Loading Data and Understanding Datatypes - Screencast, Protocol 2
   * Calling Peaks for ChIP-seq Data - Screencast, Protocol 3
 * Other
@@ -19,7 +19,7 @@ These data come from the [Mammalian Promoter Database (MPromDB)](http://mpromdb.
 1. You must be a registered user to download data files.
 1. Downloaded data files may be used only for non-commercial purposes.
 
-The files here are a small subset of the files available for download from MPromDB.  We ask you to honor MPromDB's use restrictions.  The [Galaxy Team](/src/galaxy-team/index.md) also wishes to thank the [Davuluri Lab](http://bioinformatics.wistar.upenn.edu/davuluri) for allowing us to use this data in the Galaxy project.
+The files here are a small subset of the files available for download from MPromDB.  We ask you to honor MPromDB's use restrictions.  The [Galaxy Team](/galaxy-team/) also wishes to thank the [Davuluri Lab](http://bioinformatics.wistar.upenn.edu/davuluri) for allowing us to use this data in the Galaxy project.
 
 ## Data
 

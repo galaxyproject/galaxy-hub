@@ -17,5 +17,5 @@ quotas:
 citations:
 pub_libraries:
 sponsors:
-  - "[Björn Grüning](/src/people/bjoern-gruening/index.md)"
+  - "[Björn Grüning](/people/bjoern-gruening/)"
 ---

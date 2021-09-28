@@ -19,7 +19,7 @@ date: 2012-01-27
 ## Run Cluster Jobs as the Real User
 
 * On systems where Galaxy users are guaranteed to match users on the system, it may be preferable to run jobs on the cluster as the system user matching the Galaxy user, rather than the system user under which Galaxy started.  
-* This method of job ownership is now possible.  To learn how to set it up and use it, please see the documentation at: [Admin/Config/Performance/Cluster](/src/admin/config/performance/cluster/index.md)
+* This method of job ownership is now possible.  To learn how to set it up and use it, please see the documentation at: [Admin/Config/Performance/Cluster](/admin/config/performance/cluster/)
 * Thank-you Ilya Chorny for contributing the code for this very popular enhancement request!
 
 ## New "Create Schema" Function
@@ -35,14 +35,14 @@ date: 2012-01-27
 
 ## Tools
 
-*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/src/admin/config/tool-dependencies/index.md) *and* [Admin/Config/Tool Dependencies](/src/admin/config/tool-dependencies/index.md) *for these and other recently updated Tool Dependencies.*
+*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/) *and* [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/) *for these and other recently updated Tool Dependencies.*
 * **[SAMtools:](http://samtools.sourceforge.net/)**
   * All wrappers in group accept versions 0.1.12-0.1.18 with 0.1.16-0.1.18 *strongly* preferred.
   * Exceptions:
     * **flagstat** (existing) requires versions 0.1.16-0.1.18.
     * **[Mpileup](http://samtools.sourceforge.net/mpileup.shtml)** (new) requires versions 0.1.16-0.1.18.
     * **[Pileup](http://samtools.sourceforge.net/pileup.shtml)** (existing) requires versions 0.1.12-0.1.16, with 0.1.16 *strongly* preferred and tool dependency directory configuration (if upgrading other SAMtools to 0.1.18).
-  * Galaxy **[Main](/src/main/index.md)** is running SAMtools version 0.1.18 for all with the exception of Pileup version 0.1.16.
+  * Galaxy **[Main](/main/)** is running SAMtools version 0.1.18 for all with the exception of Pileup version 0.1.16.
 * Updated **[TopHat](http://tophat.cbcb.umd.edu/)** tests for version 1.4.0.
 * Updated **[Cufflinks, CuffCompare, CuffDiff](http://cufflinks.cbcb.umd.edu/)** tests for version 1.3.0.
 * Better error reporting in **[Cufflinks](http://cufflinks.cbcb.umd.edu/)**.
@@ -52,7 +52,7 @@ date: 2012-01-27
 
 ## Galaxy Track Browser (GTB)
 
-* **[Trackster](/src/learn/visualization/index.md)** Bug fixes: filter drawing bug, summary tree display, embedded visualizations.
+* **[Trackster](/learn/visualization/)** Bug fixes: filter drawing bug, summary tree display, embedded visualizations.
 * Do not find valid chroms because this is computationally expensive and not currently used.
 * Provide icon to randomly set color in drawable configuration.
 
@@ -73,21 +73,21 @@ date: 2012-01-27
 
 ## Tool Shed
 
-* **[Tool Shed](/src/toolshed/index.md)** fixes:
+* **[Tool Shed](/toolshed/)** fixes:
   * Fix for handling a tool data table entry when uploading to a tool shed repository.
   * Reset all metadata on all changeset revisions of a tool shed repsoitory whenever a new change set is introduced. This will result in a more standardized set of valid changeset revisions that can be installed.
   * Fix for generating workflow metadata and viewing workflows in tool shed repositories.
   * Fix for searching for workflows in the tool shed.
-* [Deactivating and uninstalling tool shed repositories installed into a local Galaxy instance](/src/uninstalling-repositories-from-galaxy/index.md)
+* [Deactivating and uninstalling tool shed repositories installed into a local Galaxy instance](/uninstalling-repositories-from-galaxy/)
 
 ## Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Python 2.5 support was broken in the last stable release, this has been fixed 
 * A broken unit test under 2.5 will not be fixed until the next release, however - this can safely be ignored.
 * A fix to not use math.isnan because it is not compatible with python 2.5 has been made.
 * Fix for setting up column assignments for dynamic options with respect to tool data tables when the index file is missing causing tools to fail to load.
-* Have **[GOPs Concatenate](/src/learn/interval-operations/index.md)** tool always respect the provided strand column. Fixes issue seen when providing intervals with a chrom/start/stop in column 5 and strand was not set.
+* Have **[GOPs Concatenate](/learn/interval-operations/)** tool always respect the provided strand column. Fixes issue seen when providing intervals with a chrom/start/stop in column 5 and strand was not set.
 * On edit attributes page, make the info field a text area. Fixes lost new line characters in field when changing name.
 * The Object Store unit test that was failing in the last stable release has been fixed.
 
@@ -103,4 +103,4 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 
 Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)**
 ----
-Jennifer Jackson, [Galaxy Team](/src/galaxy-team/index.md). Posted to [DevNewsBriefs](/src/docs/index.md) on 2012-01-27
+Jennifer Jackson, [Galaxy Team](/galaxy-team/). Posted to [DevNewsBriefs](/docs/) on 2012-01-27

@@ -2,7 +2,7 @@
 title: "October 25, 2011 Distribution & News Brief"
 date: "2011-10-26"
 ---
-**Complete [News Brief](/src/archive/dev-news-briefs/2011-10-25/index.md)**
+**Complete [News Brief](/archive/dev-news-briefs/2011-10-25/)**
 
 **Highlights:**
 
@@ -22,6 +22,6 @@ upgrade: % hg pull -u -r 338ead4737ba
 
 **Thanks for using Galaxy!**
 
-[Jennifer Jackson](/src/people/jennifer-jackson/index.md)
+[Jennifer Jackson](/people/jennifer-jackson/)
 
-[Galaxy Team](/src/galaxy-team/index.md)
+[Galaxy Team](/galaxy-team/)

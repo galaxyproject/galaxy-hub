@@ -4,7 +4,7 @@ highlight: true
 ---
 
 _This page explains how to use this feature, for admin-specific docs, please
-refer to the [configuration page](/src/authnz/config/oidc/idps/custos/index.md)._
+refer to the [configuration page](/authnz/config/oidc/idps/custos/)._
 
 
 ## What is Custos and when should I use it?

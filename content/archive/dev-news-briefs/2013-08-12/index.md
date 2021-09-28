@@ -3,9 +3,9 @@ title: Development News Brief
 date: 2013-08-12
 ---
 
-[All News Briefs](/src/docs/index.md)
+[All News Briefs](/docs/)
 <br />
-[Distribution Summary 2013_08_12](/src/news/2013-08-12-galaxy-distribution/index.md)
+[Distribution Summary 2013_08_12](/news/2013-08-12-galaxy-distribution/)
 
 <br />
 
@@ -79,7 +79,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 ## Fixes
 
 1. **Phyloviz**: Correct d3 translate and node error, and…
-1. **Scatterplot**: Correct failure for data provider to get column data from certain datatypes (BED). https://trello.com/c[/ClfwTdwp](/src/archive/dev-news-briefs/2013-08-12/ClfwTdwp/index.md)
+1. **Scatterplot**: Correct failure for data provider to get column data from certain datatypes (BED). https://trello.com/c[/ClfwTdwp](/archive/dev-news-briefs/2013-08-12/ClfwTdwp/)
 1. **Trackster**: Correct bug where emptying 'Histogram maximum' field causes track to disappear. https://trello.com/c/tnpkT47t
 
 <br />
@@ -94,9 +94,9 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 # UI
 
 1. Upgrade [jQuery to v1.9.1](http://jquery.com/upgrade-guide/1.9/#overview). https://trello.com/c/hIYOsx8T
-1. Include ` #<hda_id> ` scroll to usage behavior in history panel. https://trello.com/c[/OcCloWa](/src/archive/dev-news-briefs/2013-08-12/OcCloWa/index.md)H
+1. Include ` #<hda_id> ` scroll to usage behavior in history panel. https://trello.com/c[/OcCloWa](/archive/dev-news-briefs/2013-08-12/OcCloWa/)H
 1. Tools no longer pop up in the Workflow editor. https://trello.com/c/D7wbwdfc
-1. Resume/restart a failed workflow from the point of failure by pausing (not failing) downstream jobs, permitting modifications, then continuing.  https://trello.com/c[/GuDsm5](/src/archive/dev-news-briefs/2013-08-12/GuDsm5/index.md)MD, https://trello.com/c/kpARiWl5
+1. Resume/restart a failed workflow from the point of failure by pausing (not failing) downstream jobs, permitting modifications, then continuing.  https://trello.com/c[/GuDsm5](/archive/dev-news-briefs/2013-08-12/GuDsm5/)MD, https://trello.com/c/kpARiWl5
 1. Remove unnecessary display button from uploading hdas (no usable action). https://trello.com/c/DWYuTxtA
 
 ## API
@@ -114,7 +114,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 <br />
 # Core
 
-1. In the client, handle all errors more gracefully and in the worst case, use modal in place of alert. https://trello.com/c[/F535Sdb7](/src/archive/dev-news-briefs/2013-08-12/F535Sdb7/index.md)
+1. In the client, handle all errors more gracefully and in the worst case, use modal in place of alert. https://trello.com/c[/F535Sdb7](/archive/dev-news-briefs/2013-08-12/F535Sdb7/)
 1. Improvements to 'bad gateway' handling by history updater. https://trello.com/c/mIgcF4xQ
 1. Move rendering of user quota from the history panel to the masthead template to improve timing of update. https://trello.com/c/eh3yo22z
 1. Update pbs_python to 4.3.5. https://trello.com/c/S9l5RRml/967-update-pbs-python
@@ -122,7 +122,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 <br />
 # Pull Requests Merged
 
-1. Fix problems with set_user_disk_usage.py with Postgres 8.x. **[#97](https://bitbucket.org/galaxy/galaxy-central/pull-request/97)**. Thanks to [Lance Parsons](http://lanceparsons.net/). https://trello.com/c[/Z0Eyn](/src/archive/dev-news-briefs/2013-08-12/Z0Eyn/index.md)AV2
+1. Fix problems with set_user_disk_usage.py with Postgres 8.x. **[#97](https://bitbucket.org/galaxy/galaxy-central/pull-request/97)**. Thanks to [Lance Parsons](http://lanceparsons.net/). https://trello.com/c[/Z0Eyn](/archive/dev-news-briefs/2013-08-12/Z0Eyn/)AV2
 1. Dynamic Toolbox Filtering. **[#160](https://bitbucket.org/galaxy/galaxy-central/pull-request/160)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/k50h7lFt
 1. Datatype Tracking Refactoring. **[#86](https://bitbucket.org/galaxy/galaxy-central/pull-request/86)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/GH0Bc5ow
 1. Fix detection of 2bit files when uploading. **[#170](https://bitbucket.org/galaxy/galaxy-central/pull-request/170)**. Thanks to [Gert Hulselmans](https://bitbucket.org/ghuls). https://trello.com/c/JNpeJgPV (also includes patch)
@@ -131,7 +131,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ## New Tool Shed Features
 
@@ -257,7 +257,7 @@ Details: Only Galaxy instances with `allow_user_impersonation = True` set in the
 1. Fix bug where Workflow and tool annotations are lost when importing workflows from tool shed repositories. https://trello.com/c/IDxa8RwC
 1. Fix bug where setting dataset security was interfering with the the Galaxy UI. https://trello.com/c/URZGsljz
 1. Fix bug in proper display of a permanently deleted history. https://trello.com/c/zhj4dbUl
-1. Fix bugs with default genome and selection display when adding library data files. https://trello.com/c[/Hr1JdeGq](/src/archive/dev-news-briefs/2013-08-12/Hr1JdeGq/index.md)
+1. Fix bugs with default genome and selection display when adding library data files. https://trello.com/c[/Hr1JdeGq](/archive/dev-news-briefs/2013-08-12/Hr1JdeGq/)
 
 <br />
 
@@ -266,15 +266,15 @@ Details: Only Galaxy instances with `allow_user_impersonation = True` set in the
 
 # Project Updates
 
-**[News](/src/news/index.md)**, ***[August 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-08)***
+**[News](/news/)**, ***[August 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-08)***
 
 ## GCC 2013 Wrap-up
 
-**[GCC2013 Report](/src/galaxy-updates/2013-08/index.md#gcc2013-report):** Meeting summaries, and links to videos, talks, posters, and Training Day materials.
+**[GCC2013 Report](/galaxy-updates/2013-08/#gcc2013-report):** Meeting summaries, and links to videos, talks, posters, and Training Day materials.
 <br />
 ## New Way to "Use Galaxy"
 
-**[Galaxy Edition of SlipStream:](/src/galaxy-updates/2013-08/index.md#slipstream-appliance-galaxy-edition-announced) ***Galaxy*** is now available as an appliance.
+**[Galaxy Edition of SlipStream:](/galaxy-updates/2013-08/#slipstream-appliance-galaxy-edition-announced) ***Galaxy*** is now available as an appliance.
 <br />
 <br />
 ----

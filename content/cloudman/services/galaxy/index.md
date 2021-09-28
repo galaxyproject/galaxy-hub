@@ -13,7 +13,7 @@ In order to become an Admin user on the CloudMan instance, head to the CloudMan 
 
 ### Changing Galaxy configuration files
 
-To ensure proper operation of the Galaxy application, CloudMan manages many of the Galaxy configuration options (e.g., file paths). In the future, we plan on providing a method for a user to update some of those settings in a more interactive fashion but for the time being, those settings are coded within CloudMan. If you need to permanently change those settings, it will be necessary to change *populate_galaxy_paths* method in [this file](https://github.com/galaxyproject/cloudman/blob/master/cm/util/galaxy_conf.py) and use your custom version of CloudMan when starting your cluster. See [this page](/src/cloudman/customizing/index.md#customizing-your-galaxy-cloudman-cluster) for more details on how to do this.
+To ensure proper operation of the Galaxy application, CloudMan manages many of the Galaxy configuration options (e.g., file paths). In the future, we plan on providing a method for a user to update some of those settings in a more interactive fashion but for the time being, those settings are coded within CloudMan. If you need to permanently change those settings, it will be necessary to change *populate_galaxy_paths* method in [this file](https://github.com/galaxyproject/cloudman/blob/master/cm/util/galaxy_conf.py) and use your custom version of CloudMan when starting your cluster. See [this page](/cloudman/customizing/#customizing-your-galaxy-cloudman-cluster) for more details on how to do this.
 
 If you need to change the configuration values on a running cluster, you can do so manually as well. Galaxy configuration files are stored in */mnt/galaxy/galaxy-app/config* and can be updated as desired. If you do this, you need to restart Galaxy by hand vs. using CloudMan Admin panel (because CloudMan will overwrite the config file). The following is a set of commands to use for restarting Galaxy manually:
 ```sh
@@ -24,7 +24,7 @@ sh run.sh --pid-file=main.pid --log-file=main.log --daemon
 ```
 
 
-Additional Galaxy configuration options can be found on the [Galaxy Admin page](/src/admin/index.md).
+Additional Galaxy configuration options can be found on the [Galaxy Admin page](/admin/).
 
 #### Adding a custom Tool Shed
 

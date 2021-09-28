@@ -4,7 +4,7 @@
 
 Sponsors are a key part of GCC2019.  They are potential partners in your success, and sponsors make this conference affordable and accessible. 
 
-Is your organization interested in playing a prominent role in the 2019 gathering of the Galaxy community? Becoming a GCC2019 sponsor is an excellent way to raise your organization's visibility in this active and engaged community.  Please see below for sponsorship packages and then contact the [organizers](/src/events/gcc2019/organizers/index.md).
+Is your organization interested in playing a prominent role in the 2019 gathering of the Galaxy community? Becoming a GCC2019 sponsor is an excellent way to raise your organization's visibility in this active and engaged community.  Please see below for sponsorship packages and then contact the [organizers](/events/gcc2019/organizers/).
 
 # Interested?
 
@@ -13,7 +13,7 @@ Is your organization interested in playing a prominent role in the 2019 gatherin
 [<img src="/src/events/gcc2019/sponsors/prospectus-thumb.png" alt="Download the full prospectus." width="125" />](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_prospectus.pdf)
 </div>
 
-Please see the information below and contact the [conference organizers](/src/events/gcc2019/organizers/index.md) with any questions.
+Please see the information below and contact the [conference organizers](/events/gcc2019/organizers/) with any questions.
 
 - [One page summary](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_summary.pdf)
 - [Sponsorship prospectus](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_prospectus.pdf)
@@ -104,9 +104,9 @@ Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</span>
     <td style="width: 8%"> </td>
   </tr>
   <tr>
-    <td>**[Childcare](/src/events/gcc2019/childcare/index.md)** Sponsor</td>
+    <td>**[Childcare](/events/gcc2019/childcare/)** Sponsor</td>
     <td></td>
-    <td>**[Childcare](/src/events/gcc2019/childcare/index.md)** Sponsor</td>
+    <td>**[Childcare](/events/gcc2019/childcare/)** Sponsor</td>
   </tr>
 </table>
 
@@ -117,7 +117,7 @@ Other *a la carte* sponsorship opportunities are also available. Many additional
 
 # CollaborationFest Sponsorships
 
-[CollaborationFest](/src/events/gcc2019/cofest/index.md) will follow the conference. Community members collaborate to extend the Galaxy platform and ecosystem. We are also seeking sponsorships for this event. Please contact the [GCC organizers](/src/events/gcc2019/organizers/index.md) if you are interested in sponsoring CollarorationFest. Participation in these events is free.  Sponsorships are much welcomed as they provide sustenance for the participants.
+[CollaborationFest](/events/gcc2019/cofest/) will follow the conference. Community members collaborate to extend the Galaxy platform and ecosystem. We are also seeking sponsorships for this event. Please contact the [GCC organizers](/events/gcc2019/organizers/) if you are interested in sponsoring CollarorationFest. Participation in these events is free.  Sponsorships are much welcomed as they provide sustenance for the participants.
 
 | | Peta | Tera | Giga |
 | ----: | :----: | :----: | :----: |

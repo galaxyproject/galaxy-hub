@@ -6,11 +6,11 @@ Data library templates provide a way to associate information (metadata) with th
 is based on a Galaxy form, which must be defined before the template can be associated with a data library or any of it's contents.  There
 are several types of Galaxy forms, and forms on which data library templates are based must be of type "Library information template".
 
-This document assumes that you are in the Admin perspective which is available only to [admin users](/src/admin/index.md) 
+This document assumes that you are in the Admin perspective which is available only to [admin users](/admin/) 
 and is accessed by clicking on the "Admin" link in the top Galaxy menu bar.  However, users that are not admin users can also be granted 
 permission to add and edit data library templates, although they will be doing so from the Data Libraries perspective which is accessible
 by clicking on the "Data Libraries" option in the "Shared Data" pop-up menu in the top Galaxy menu bar.  For information about setting data 
-library permissions for non-admin users, see our [Data Libraries Security page](/src/admin/data-libraries/LibrarySecurity/index.md).
+library permissions for non-admin users, see our [Data Libraries Security page](/admin/data-libraries/LibrarySecurity/).
 
 ### Adding a template to a data library
 
@@ -64,7 +64,7 @@ inherited for now to demonstrate how inheritance works.
 Let's add a new dataset to our data library.  From the data library information page displayed above, click the "Browse this data library"
 button in the upper right corner of the page and then click the "Add datasets" button in the upper right corner of the resulting page.  
 This will display the "Create new library datasets" page, which includes the inherited template fields.  Notice that the contents of the
-template fields are also inherited (these can be over-written).  See our [uploading files to a data library page](/src/admin/data-libraries/uploading-library-files/index.md) 
+template fields are also inherited (these can be over-written).  See our [uploading files to a data library page](/admin/data-libraries/uploading-library-files/) 
 for more details about uploading files to a data library.
 
 `![](/src/data-libraries/upload_dataset.png)`

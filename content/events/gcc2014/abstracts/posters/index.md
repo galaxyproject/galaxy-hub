@@ -246,7 +246,7 @@ Using this approach, research group members are fully responsible for deploying 
 
 ## P13: Argument Parsing Libraries for Automatic Galaxy XML Generation
 
-**[Helena Rasche](/src/people/helena-rasche/index.md)<sup>1</sup>** and Dr. Ryland F. Young<sup>1</sup>
+**[Helena Rasche](/people/helena-rasche/)<sup>1</sup>** and Dr. Ryland F. Young<sup>1</sup>
 
  <sup>1</sup> [Center for Phage Technology](https://cpt.tamu.edu), Texas A&M University, College Station, TX
 
@@ -461,7 +461,7 @@ On March 5th, 2014 a team of system administrators and bioinformaticians conduct
 
 ## P26: Galaxy Training Network
 
-**[Dave Clements](/src/people/dave-clements/index.md)<sup>1,2</sup>**, [Vicky Schneider](http://www.tgac.ac.uk/training-outreach/vicky-schneider/)<sup>3</sup>, [Nikhil Joshi](http://bioinformatics.ucdavis.edu/contact-us/)<sup>4</sup>, [Joseph Fass](http://bioinformatics.ucdavis.edu/contact-us/)<sup>4</sup>, [Monica Britton](http://bioinformatics.ucdavis.edu/contact-us/)<sup>4</sup>, [Andrew Lonie](http://www.msi.unimelb.edu.au/people/andrew-lonie/)<sup>5,6</sup>, [Simon Gladman](http://www.vlsci.org.au/researcher/sgladman)<sup>5,7</sup>, [Mark Crowe](http://www.qfab.org/mark-crowe/)<sup>8</sup>
+**[Dave Clements](/people/dave-clements/)<sup>1,2</sup>**, [Vicky Schneider](http://www.tgac.ac.uk/training-outreach/vicky-schneider/)<sup>3</sup>, [Nikhil Joshi](http://bioinformatics.ucdavis.edu/contact-us/)<sup>4</sup>, [Joseph Fass](http://bioinformatics.ucdavis.edu/contact-us/)<sup>4</sup>, [Monica Britton](http://bioinformatics.ucdavis.edu/contact-us/)<sup>4</sup>, [Andrew Lonie](http://www.msi.unimelb.edu.au/people/andrew-lonie/)<sup>5,6</sup>, [Simon Gladman](http://www.vlsci.org.au/researcher/sgladman)<sup>5,7</sup>, [Mark Crowe](http://www.qfab.org/mark-crowe/)<sup>8</sup>
 
  <sup>1</sup> [Galaxy Project](http://galaxyproject.org)<br />
  <sup>2</sup> [Johns Hopkins University](http://www.jhu.edu), Baltimore, Maryland, United States<br />

@@ -11,7 +11,7 @@ title: Introduction to Galaxy Workshop
 **January 8, 2016**
 
 **Instructor** <br /> 
-[Anton Nekrutenko](/src/people/anton/index.md), Galaxy Project, [Penn State University](http://www.psu.edu)<br />
+[Anton Nekrutenko](/people/anton/), Galaxy Project, [Penn State University](http://www.psu.edu)<br />
 
 **Location: [Life Sciences E (LSE)](https://maps.asu.edu/?id=120&mrkIid=62941) 244, Tempe Main Campus** <br />
 
@@ -108,4 +108,4 @@ This workshop is supported by [Biodiversity Knowledge Integration Center (BioKIC
 
 ## Questions?
 
-Contact [Nico Franz](https://sols.asu.edu/people/nico-franz) or [Melissa A. Wilson Sayres](https://sols.asu.edu/people/melissa-wilson-sayres) at ASU, or [Anton Nekrutenko](/src/people/anton/index.md) of the Galaxy Project.
+Contact [Nico Franz](https://sols.asu.edu/people/nico-franz) or [Melissa A. Wilson Sayres](https://sols.asu.edu/people/melissa-wilson-sayres) at ASU, or [Anton Nekrutenko](/people/anton/) of the Galaxy Project.

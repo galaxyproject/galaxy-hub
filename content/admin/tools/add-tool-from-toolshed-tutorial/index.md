@@ -3,8 +3,8 @@ title: Installing Tools into Galaxy
 ---
 ## Ways to get tools into Galaxy
 
-* Install a tool from the [Tool Shed](/src/toolshed/index.md). The process has to be completed by an administrator and can be done through the [Admin Interface](/src/admin/index.md).
-* If the tool you need does not exist in the Tool Shed you can add it to your Galaxy instance manually. Please see the [Add Tool Tutorial](/src/admin/tools/add-tool-tutorial/index.md).
+* Install a tool from the [Tool Shed](/toolshed/). The process has to be completed by an administrator and can be done through the [Admin Interface](/admin/).
+* If the tool you need does not exist in the Tool Shed you can add it to your Galaxy instance manually. Please see the [Add Tool Tutorial](/admin/tools/add-tool-tutorial/).
 * Automated installation - The process of installing tools from Tool Shed can be performed in an automated way using a set of scripts. This is particularly useful if you are trying to install a large number of tools. The required scripts are available as an [Ansible](https://www.ansible.com/home) playbook from [here](https://github.com/afgane/galaxy-tools-playbook). Please see that page for complete instructions.
 
 ## Vocabulary
@@ -39,7 +39,7 @@ To install tools from a Tool Shed you need to have [Mercurial](https://www.mercu
 
 ## Open the Tool Shed
 
-Go to Galaxy [Admin Interface](/src/admin/index.md) and click `Install new tools`.
+Go to Galaxy [Admin Interface](/admin/) and click `Install new tools`.
 
 You will see the following in the middle panel:
 
@@ -83,8 +83,8 @@ The tool will show up in the tool panel of the section you selected, and the use
 
 ![Tool Installation](/src/admin/tools/add-tool-from-toolshed-tutorial/tool_installation.png)
 
-You can monitor the installation progress of the tool if you click on `Monitor installing tool shed repositories` in the [Admin Interface](/src/admin/index.md).
+You can monitor the installation progress of the tool if you click on `Monitor installing tool shed repositories` in the [Admin Interface](/admin/).
 
-You can also check the states of all installed tools if you click `Manage installed tool shed repositories` in the [Admin Interface](/src/admin/index.md).
+You can also check the states of all installed tools if you click `Manage installed tool shed repositories` in the [Admin Interface](/admin/).
 
 ![Repository Status](/src/admin/tools/add-tool-from-toolshed-tutorial/repo_status.png)

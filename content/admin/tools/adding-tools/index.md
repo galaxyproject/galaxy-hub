@@ -1,6 +1,6 @@
 # Creating a histogram tool tutorial.
 
-See also the general [ tutorial for adding custom tools](/src/admin/tools/add-tool-tutorial/index.md).
+See also the general [ tutorial for adding custom tools](/admin/tools/add-tool-tutorial/).
 
 ## Introduction
 

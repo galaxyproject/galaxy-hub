@@ -122,8 +122,8 @@ will lead you to Galaxy.
 ----
 
 Depending on your interest, the documentation contains a wealth of information. Here are some places that might interest you:
-* [Capacity planning](/src/cloudman/capacity-planning/index.md)
-* [Cluster applications and services](/src/cloudman/services/index.md)
-* [Sharing and publishing a cluster](/src/cloudman/sharing/index.md)
-* [Customizing your cluster](/src/cloudman/customizing/index.md)
-* [Troubleshooting](/src/cloudman/troubleshooting/index.md)
+* [Capacity planning](/cloudman/capacity-planning/)
+* [Cluster applications and services](/cloudman/services/)
+* [Sharing and publishing a cluster](/cloudman/sharing/)
+* [Customizing your cluster](/cloudman/customizing/)
+* [Troubleshooting](/cloudman/troubleshooting/)

@@ -1,15 +1,15 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
 <slot name="/community/galaxy-admins/linkbox" />
 
-The [GalaxyAdmins](/src/community/galaxy-admins/meetups/index.md) group uses the University of Iowa's Blackboard Collaborate (Ellumiate Live!) web conference system for it's [conference call meetups](/src/community/galaxy-admins/meetups/webinar-tech/index.md).  
+The [GalaxyAdmins](/community/galaxy-admins/meetups/) group uses the University of Iowa's Blackboard Collaborate (Ellumiate Live!) web conference system for it's [conference call meetups](/community/galaxy-admins/meetups/webinar-tech/).  
 
 
 ## Blackboard Collaborate (Ellumiate Live!) Tips
 
 You do not need any special client, just a web browser and Java installed (the client will run as a Java web start app). 
 
-**If you are using a recently updated version of Mac OS X, you will need to take [some extra steps](/src/community/galaxy-admins/meetups/webinar-tech/index.md#java-web-start-on-mac-os-x) to get Java Web Start to work.**
+**If you are using a recently updated version of Mac OS X, you will need to take [some extra steps](/community/galaxy-admins/meetups/webinar-tech/#java-web-start-on-mac-os-x) to get Java Web Start to work.**
 
 If you have headphones they greatly improve your audio and *a headset really helps when you are speaking.*
 

@@ -4,15 +4,15 @@ title: GalaxyScientists
 <slot name="/events/gcc2015/header" />
 
 
-<div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/events/gcc2015/bofs/'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **GalaxyScientists** [Birds of a Feather](/src/events/gcc2015/bofs/index.md) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
+This page describes the **GalaxyScientists** [Birds of a Feather](/events/gcc2015/bofs/) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
 
 When:: Tuesday, 7 July, 12:30 (Lunch)
 
 Where:: Franklin Room, JICCC
 
-Contact:: [JenniferJackson](/src/people/jennifer-jackson/index.md) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
+Contact:: [JenniferJackson](/people/jennifer-jackson/) & see [BoF](https://wiki.galaxyproject.org/Events/GCC2015/BoFs/GalaxyScientists) wiki
 
 <br />
 ## Description
@@ -28,7 +28,7 @@ In addition, if you joined in on this year's [Data Wrangling Hackathon](http://g
 
 ## When and Where
 
-The [time and location](/src/events/gcc2015/bofs/index.md#bof-schedule) for this BoF is Tuesday, July 7th, over lunch at 12:30pm in the Franklin Room, JICCC
+The [time and location](/events/gcc2015/bofs/#bof-schedule) for this BoF is Tuesday, July 7th, over lunch at 12:30pm in the Franklin Room, JICCC
 
 
 ## Who is Participating
@@ -38,7 +38,7 @@ If you are interested, please add your name below.
 * [jen@galaxyproject.org](mailto:jen@galaxyproject.org), Jennifer Hillman-Jackson
 * [kreddy4@jhmi.edu](mailto:kreddy4@jhmi.edu), Karen Reddy
 * Mo Heydarian
-* [Dan Blankenberg](/src/people/dan/index.md)
+* [Dan Blankenberg](/people/dan/)
 * Michael Sauria
 * Gergely Izrael (izi)
 * Christian Rausch
@@ -68,7 +68,7 @@ Send them to Jennifer Hillman-Jackson, Karen Ready or Mo Heydarian.
 
 Form the group! Please reserve discussion topics to those that directly concern the core targets. 
 
-Heads up [GalaxyAdmins](/src/community/galaxy-admins/index.md), please join us! A primary target goal is to complement the input your community group provides to Galaxy. We'd love your help in determining optimal organizational strategies.
+Heads up [GalaxyAdmins](/community/galaxy-admins/), please join us! A primary target goal is to complement the input your community group provides to Galaxy. We'd love your help in determining optimal organizational strategies.
 
 ## Ideas
 

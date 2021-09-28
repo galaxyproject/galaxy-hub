@@ -14,14 +14,14 @@ These are the words that James Taylor (JT) said and lived by. This, he believed,
 
 ## Recent Foundation Activity and News
 
-[<img class="float-right" src="/src/news/2020-10-jxtx-awardees/awardees-thumb.png" alt="JXTX Foundation Awards 10 Scholarships" style="max-width: 12rem" />](/src/news/2020-10-jxtx-awardees/index.md)
+[<img class="float-right" src="/src/news/2020-10-jxtx-awardees/awardees-thumb.png" alt="JXTX Foundation Awards 10 Scholarships" style="max-width: 12rem" />](/news/2020-10-jxtx-awardees/)
 
 The JXTX Foundation's first activity is to sponsor 10 graduate students to attend the 2020 Biological Data Science Conference at Cold Spring Harbor Laboratory.  Awards were competitive and we are delighted with our first round of scholarships:
 
-* **[Sumaira Zaman: JXTX Foundation and Unique Opportunities](/src/news/2020-11-jxtx-zaman/index.md)**, November 25, 2020
-* **[Anoushka Joglekar: Making Connections via the JXTX Foundation](/src/news/2020-11-jxtx-joglekar/index.md)**, November 24, 2020
-* **[David Twesigomwe on the impact of the JXTX Foundation](/src/news/2020-11-jxtx-twesigomwe/index.md)**, November 20, 2020
-* **[JXTX Foundation Awards First Ten Scholarships](/src/news/2020-10-jxtx-awardees/index.md)**, October 23, 2020
+* **[Sumaira Zaman: JXTX Foundation and Unique Opportunities](/news/2020-11-jxtx-zaman/)**, November 25, 2020
+* **[Anoushka Joglekar: Making Connections via the JXTX Foundation](/news/2020-11-jxtx-joglekar/)**, November 24, 2020
+* **[David Twesigomwe on the impact of the JXTX Foundation](/news/2020-11-jxtx-twesigomwe/)**, November 20, 2020
+* **[JXTX Foundation Awards First Ten Scholarships](/news/2020-10-jxtx-awardees/)**, October 23, 2020
 * **[Call for Scholarship Applications for Biological Data Science 2020](/news/2020-07-bds-scholarships/index.md)**, July 8, 2020
 * **[The James Taylor Foundation](/news/2020-05-jtech/index.md)**, May 7, 2020
 

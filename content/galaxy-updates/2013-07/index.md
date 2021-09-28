@@ -1,15 +1,15 @@
 ---
 title: July 2013 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the July 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the July 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
 # New Public Servers
 
-Four new servers joined [the list of over 30 publicly accessible Galaxy servers](/src/use/index.md) in June.
+Four new servers joined [the list of over 30 publicly accessible Galaxy servers](/use/) in June.
 
 <div class='left'><br /><div class='solid'><a href='http://p-galaxy.ddbj.nig.ac.jp/'><img src="/src/images/logos/ddbj-gil.jpg" alt="P-Galaxy" width="150" /></a></div></div>
 
@@ -37,8 +37,8 @@ an open source network analysis pipeline for genome-wide association studies and
 
 <div class='right solid'><a href='http://orione.crs4.it/'><img src="/src/images/logos/orione-home-page-300.png" alt="Orione"  /></a></div>
 
-[Orione](http://orione.crs4.it/) is a Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines.  From the [GCC2013](/src/events/gcc2013/index.md) poster abstract "[Engaging Galaxy in Microbiology](/src/events/gcc2013/abstracts/posters/index.md#p7-engaging-galaxy-in-microbiology)"
- We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as Nebula, [Cistrome](/src/use/cistrome-analysis-pipeline/index.md) and several others.  
+[Orione](http://orione.crs4.it/) is a Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines.  From the [GCC2013](/events/gcc2013/) poster abstract "[Engaging Galaxy in Microbiology](/events/gcc2013/abstracts/posters/#p7-engaging-galaxy-in-microbiology)"
+ We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative, reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as Nebula, [Cistrome](/use/cistrome-analysis-pipeline/) and several others.  
 
 This installation of Galaxy has been configured such that anonymous users can operate in a limited way. If you need to store data on this website and/or use advanced Galaxy features such as sharing and workflows, please send us an [email](mailto:galaxyadmin AT crs4 DOT it) with a short request.
 
@@ -126,7 +126,7 @@ This installation of Galaxy has been configured such that anonymous users can op
 
 A record 53 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in June. These papers may be particularly interesting to the Galaxy community
 
-* "[Web-based visual analysis for high-throughput genomics](https://doi.org/10.1186/1471-2164-14-397)" by [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [Carl Eberhard](/src/people/carl-eberhard/index.md), Tomithy Too, [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md), *BMC Genomics*, Vol. 14, No. 1. (2013), 397
+* "[Web-based visual analysis for high-throughput genomics](https://doi.org/10.1186/1471-2164-14-397)" by [Jeremy Goecks](/people/jeremy-goecks/), [Carl Eberhard](/people/carl-eberhard/), Tomithy Too, [Anton Nekrutenko](/people/anton/), [James Taylor](/people/james-taylor/), *BMC Genomics*, Vol. 14, No. 1. (2013), 397
 * "[Detection of non-coding RNA in Bacteria and Archaea using the DETR’PROK Galaxy pipeline](https://doi.org/10.1016/j.ymeth.2013.06.003)" by Claire Toffano-Nioche, Yufei Luo, Claire Kuchly, Claire Wallon, Delphine Steinbach, Matthias Zytnicki, Annick Jacq, Daniel Gautheret, *[Methods](http://www.sciencedirect.com/science/journal/10462023)* (June 2013)
 * "[Encore: Genetic Association Interaction Network Centrality Pipeline and Application to SLE Exome Data](https://doi.org/10.1002/gepi.21739)" by Nicholas A. Davis, Caleb A. Lareau, Bill C. White, *et al.* *Genetic Epidemiology* (June 2013)
 * "[A review of Bioinformatics training applied to research in Molecular Medicine, Agriculture and Biodiversity in Costa Rica and Central America](https://doi.org/10.1093/bib/bbt033)" by Allan Orozco, Jessica Morera, Sergio Jiménez, Ricardo Boza, *Briefings in Bioinformatics* (30 May 2013)
@@ -135,7 +135,7 @@ A record 53 new papers were added to the [Galaxy CiteULike Group](http://www.cit
 * "[Biology: The big challenges of big data](https://doi.org/10.1038/498255a)" by Vivien Marx, *Nature*, Vol. 498, No. 7453. (12 June 2013), pp. 255-260
 * "[Software and supporting material for “SOAPdenovo2: An empirically improved memory-efficient short read de novo assembly](https://doi.org/10.5524/100044)" by Luo, *et al.* in [GigaDB](http://gigadb.org/dataset/100044)
 
-The [1,000th Galaxy related paper](/src/news/galaxy-cite-u-like-paper1000/index.md) was added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in June.  Those first thousand papers are tagged as
+The [1,000th Galaxy related paper](/news/galaxy-cite-u-like-paper1000/) was added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in June.  Those first thousand papers are tagged as
 
 <table>
   <tr>
@@ -202,7 +202,7 @@ The [1,000th Galaxy related paper](/src/news/galaxy-cite-u-like-paper1000/index.
     <td colspan=8 style=" text-align: center; border: none;"> </td>
   </tr>
   <tr>
-    <td colspan=8 style=" text-align: center; border: none;"> <span style="font-size: smaller;"> * These tags were added in 2013 and very few papers before 2013 have been back-curated with them.  All the tags are explained on the <a href='/src/publication-library/index.md'>CiteULike</a> page. </span> </td>
+    <td colspan=8 style=" text-align: center; border: none;"> <span style="font-size: smaller;"> * These tags were added in 2013 and very few papers before 2013 have been back-curated with them.  All the tags are explained on the <a href='/publication-library/'>CiteULike</a> page. </span> </td>
   </tr>
 </table>
 
@@ -210,16 +210,16 @@ The [1,000th Galaxy related paper](/src/news/galaxy-cite-u-like-paper1000/index.
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)** at both Emory and Penn State.
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)** at both Emory and Penn State.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/321283-Senior-Developer-Stem-Cell-Bioinformatics-Core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 * [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) @ LSU
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -234,19 +234,19 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## ISMB / ECCB / BOSC / MS SIG 2013
 
-[ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2013) (along with http://www.open-bio.org/wiki/BOSC_2013|BOSC]], [MS SIG](http://igenomed2.stanford.edu/Proteomics2013_mssig/) and many other events) will be held in Berlin July 19-23.  As of this writing there are [10 talks, 9 posters, and 2 workshops](/src/events/ismb2013/index.md) related to Galaxy at the events.
+[ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2013) (along with http://www.open-bio.org/wiki/BOSC_2013|BOSC]], [MS SIG](http://igenomed2.stanford.edu/Proteomics2013_mssig/) and many other events) will be held in Berlin July 19-23.  As of this writing there are [10 talks, 9 posters, and 2 workshops](/events/ismb2013/) related to Galaxy at the events.
 
 ## GCC2013
 
-<div class='center'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
+<div class='center'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 <br />
 
-The [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/index.md) starts *today* in Oslo Norway, at the [University of Oslo](http://uio.no).
+The [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/) starts *today* in Oslo Norway, at the [University of Oslo](http://uio.no).
 
-<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
-[GCC2013](/src/events/gcc2013/index.md) is an opportunity to participate in [two full days](/src/events/gcc2013/program/index.md) of presentations, discussions, [poster sessions](/src/events/gcc2013/abstracts/posters/index.md), [lightning talks](/src/events/gcc2013/lightning/index.md) and [Birds of a Feather sessions](/src/events/gcc2013/bof/index.md), all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/src/events/gcc2013/training-day/index.md) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.  The conference ends with a closing dinner (sponsored by Ion Torrent) at the historic venue *Sporten* high above Oslo.  (And for the two evenings before that, we have reserved a pub...)
+[GCC2013](/events/gcc2013/) is an opportunity to participate in [two full days](/events/gcc2013/program/) of presentations, discussions, [poster sessions](/events/gcc2013/abstracts/posters/), [lightning talks](/events/gcc2013/lightning/) and [Birds of a Feather sessions](/events/gcc2013/bof/), all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/events/gcc2013/training-day/) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.  The conference ends with a closing dinner (sponsored by Ion Torrent) at the historic venue *Sporten* high above Oslo.  (And for the two evenings before that, we have reserved a pub...)
 
 <br />
 
@@ -258,9 +258,9 @@ The [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/index.md) s
 
 ### Birds of a Feather Sessions
 
-<div class='left'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="180" /></a></div>
+<div class='left'><a href='/events/gcc2013/bof/'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="180" /></a></div>
 
-Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 extends this tradition by including *[Birds of a Feather (BoF)](/src/events/gcc2013/bof/index.md)* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  If you have something in the list at right you want to meet about, or you have a whole new topic, then please join or start a [GCC2013 BoF](/src/events/gcc2013/bof/index.md).
+Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 extends this tradition by including *[Birds of a Feather (BoF)](/events/gcc2013/bof/)* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  If you have something in the list at right you want to meet about, or you have a whole new topic, then please join or start a [GCC2013 BoF](/events/gcc2013/bof/).
 
 <br />
 
@@ -286,11 +286,11 @@ Visit the [Boot Camp Page](http://software-carpentry.org/bootcamps/2013-07-oslo.
 ## Other Upcoming Events
 
 <div class='center'>
-<a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
+<a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 <a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
-<a href='/src/events/rt-workshop-tour2013/index.md'><img src="/src/images/logos/RTGalaxyWorkshopTour2013-300.png" alt="" width="140px" /></a>
-<a href='/src/events/ismb2013/index.md'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2013" width="100" /></a> &nbsp;
-<a href='/src/events/ismb2013/index.md'><img src="/src/images/logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="60" /></a> 
+<a href='/events/rt-workshop-tour2013/'><img src="/src/images/logos/RTGalaxyWorkshopTour2013-300.png" alt="" width="140px" /></a>
+<a href='/events/ismb2013/'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2013" width="100" /></a> &nbsp;
+<a href='/events/ismb2013/'><img src="/src/images/logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="60" /></a> 
 </div>
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
@@ -307,9 +307,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></em></strong> </td>
+    <td> <strong><em><a href='/events/gcc2013/'>2013 Galaxy Community Conference (GCC2013)</a></em></strong> </td>
     <td> University of Oslo, Oslo, Norway </td>
-    <td> <a href='/src/events/gcc2013/organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/events/gcc2013/organizers/'>Organizers</a> </td>
   </tr>
   <tr>
     <th> July 4 </th>
@@ -319,22 +319,22 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th rowspan=4> July 18-23 </th>
-    <td> <em><a href='/src/events/niehs2013/index.md'>Introduction to Galaxy Workshop</a></em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
-    <td rowspan=4> <a href='/src/events/rt-workshop-tour2013/index.md'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
-    <td rowspan=4> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <em><a href='/events/niehs2013/'>Introduction to Galaxy Workshop</a></em><div class='indent'>National Institute of Environmental Health Sciences (NIEHS)</div> </td>
+    <td rowspan=4> <a href='/events/rt-workshop-tour2013/'>2013 Research Triangle Workshop Tour</a>, North Carolina, United States </td>
+    <td rowspan=4> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/unc2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
+    <td> <em><a href='/events/unc2013/'>Introduction to Galaxy Workshop</a></em> <div class='indent'>University of North Carolina, Chapel Hill</div> </td>
   </tr>
   <tr>
     <td> <em><a href='http://bit.ly/ZFVLG1'>Galaxy Installation Tutorial</a></em> <div class='indent'><strong><a href='http://bit.ly/ZFVLG1'>2013 GMOD Summer School</a></strong></div> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/ncsu2013/index.md'>Introduction to Galaxy Workshop</a></em> <div class='indent'> North Carolina State University</div> </td>
+    <td> <em><a href='/events/ncsu2013/'>Introduction to Galaxy Workshop</a></em> <div class='indent'> North Carolina State University</div> </td>
   </tr>
   <tr>
     <th> July 19-23 </th>
-    <td> <strong><a href='/src/events/ismb2013/index.md'>ISMB/ECCB, BOSC and MS SIG 2013</a></strong><div class='indent'>Talks, posters and workshops.  Lots of them.</div> </td>
+    <td> <strong><a href='/events/ismb2013/'>ISMB/ECCB, BOSC and MS SIG 2013</a></strong><div class='indent'>Talks, posters and workshops.  Lots of them.</div> </td>
     <td> Berlin, Germany </td>
     <td> <a href="mailto:outreach AT galaxyproject DOT org">Galaxy Outreach</a> </td>
   </tr>
@@ -356,19 +356,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> September 28 - October&nbsp;1 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/people/fubar/index.md'>Ross Lazarus</a> </td>
+    <td> <a href='/people/jennifer-jackson/'>Jennifer Jackson</a>, <a href='/people/fubar/'>Ross Lazarus</a> </td>
   </tr>
   <tr>
     <th> October 1-3 </th>
     <td> <a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a> </td>
     <td> San Francisco, California, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 22-26 </th>
     <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a></em> </td>
     <td> <a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a>, Boston, Massachusetts, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a>, <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a>, <a href='/people/jennifer-jackson/'>Jennifer Jackson</a> </td>
   </tr>
 </table>
 
@@ -378,21 +378,21 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 # Galaxy Distributions
 
 <div class='right'>
-<a href='/src/archive/dev-news-briefs/2013-06-03/index.md'><img src="/src/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=400 /></a></div>
+<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/src/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=400 /></a></div>
 
-The most recent official distribution was on [June 3, 2013](/src/archive/dev-news-briefs/2013-06-03/index.md).  There was minor  [security patch released on June 12](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/thread/MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS/#MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS).
+The most recent official distribution was on [June 3, 2013](/archive/dev-news-briefs/2013-06-03/).  There was minor  [security patch released on June 12](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/thread/MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS/#MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS).
 
 ## June 3, 2013 Distribution
 
 **Highlights:**
 
-* Visualization tool updates to [Scatterplot](/src/archive/dev-news-briefs/2013-06-03/index.md#scatterplot) and [Trackster](/src/archive/dev-news-briefs/2013-06-03/index.md#trackster).
-* Job distribution, error tracking/management, and reporting function improvements to [Admin](/src/archive/dev-news-briefs/2013-06-03/index.md#admin) & [Core](/src/archive/dev-news-briefs/2013-06-03/index.md#core). 
+* Visualization tool updates to [Scatterplot](/archive/dev-news-briefs/2013-06-03/#scatterplot) and [Trackster](/archive/dev-news-briefs/2013-06-03/#trackster).
+* Job distribution, error tracking/management, and reporting function improvements to [Admin](/archive/dev-news-briefs/2013-06-03/#admin) & [Core](/archive/dev-news-briefs/2013-06-03/#core). 
 
-* Multiple [Tool](/src/archive/dev-news-briefs/2013-06-03/index.md#tools) updates, [History and Dataset](/src/archive/dev-news-briefs/2013-06-03/index.md#histories) upgrades, and other related [UI](/src/archive/dev-news-briefs/2013-06-03/index.md#ui) enhancements.
-* New features and fixes added to the [Tool Shed](/src/archive/dev-news-briefs/2013-06-03/index.md#tool-shed) and related components. 
-* [Python 2.5 Support officially ended](/src/archive/dev-news-briefs/2013-06-03/index.md#python_25_support_has_ended).
-* Plus newly [merged Pull Requests](/src/archive/dev-news-briefs/2013-06-03/index.md#pull-requests-merged) and links to tickets covering key [Bug Fixes](/src/archive/dev-news-briefs/2013-06-03/index.md#bug-fixes).
+* Multiple [Tool](/archive/dev-news-briefs/2013-06-03/#tools) updates, [History and Dataset](/archive/dev-news-briefs/2013-06-03/#histories) upgrades, and other related [UI](/archive/dev-news-briefs/2013-06-03/#ui) enhancements.
+* New features and fixes added to the [Tool Shed](/archive/dev-news-briefs/2013-06-03/#tool-shed) and related components. 
+* [Python 2.5 Support officially ended](/archive/dev-news-briefs/2013-06-03/#python_25_support_has_ended).
+* Plus newly [merged Pull Requests](/archive/dev-news-briefs/2013-06-03/#pull-requests-merged) and links to tickets covering key [Bug Fixes](/archive/dev-news-briefs/2013-06-03/#bug-fixes).
 
 *[http://getgalaxy.org](http://getgalaxy.org)*
 

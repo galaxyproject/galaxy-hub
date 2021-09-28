@@ -21,10 +21,10 @@ perspective, you may want to view [The Galaxy 101 Tutorial](https://usegalaxy.or
 ## Introduction
 
 There are two sections to this workshop page:
-1. [command-line installation and configuration](/src/events/gmod-summer-school2014/index.md#command-line-set-up-and-operation): primarily geared to users who
+1. [command-line installation and configuration](/events/gmod-summer-school2014/#command-line-set-up-and-operation): primarily geared to users who
   want a basic installation of Galaxy with an eye towards setting things up flexibly should they decide to scale up at a
   later date.
-2. [administration from the web](/src/events/gmod-summer-school2014/index.md#the-admin-web-interface): introduces new admin users to the management of some of
+2. [administration from the web](/events/gmod-summer-school2014/#the-admin-web-interface): introduces new admin users to the management of some of
   Galaxy's most useful features including tool installation, library management, and workflow creation.
 
 Advanced installation will be covered lightly but will provide good resources for those that already know they need a
@@ -94,7 +94,7 @@ This is free software; see the source for copying conditions. There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE
 ```
 
-See also [Using APT to get Mercurial](/src/events/bio-it-world2014/w14/index.md#clone_28download29_galaxy) for an example of
+See also [Using APT to get Mercurial](/events/bio-it-world2014/w14/#clone_28download29_galaxy) for an example of
 installing mercurial via APT (a unix package manager).
 
 1. **As the galaxy user**, create the directory where you'd want to install Galaxy on your server (in this example, a
@@ -146,7 +146,7 @@ More advanced users may also consider installing Galaxy in a virtual environment
 clean slate for your python dependencies and paths (including `$PYTHONPATH`). For more information see:
 [Use a clean environment](https://docs.galaxyproject.org/en/latest/admin/production.html#use-a-clean-environment)
 and:
-[Create a Python virtual environment](/src/events/bio-it-world2014/w14/index.md#create-a-python-virtual-environment)
+[Create a Python virtual environment](/events/bio-it-world2014/w14/#create-a-python-virtual-environment)
 
 
 
@@ -175,7 +175,7 @@ Next, let's add ourselves (NOTE: not the galaxy user) as administrator to what w
 Most of the changes to `universe_wsgi.ini` can be done using the above steps: search for a line, change or un/comment
 it out, and save (optionally restarting the server afterwards - shown later).
 
-(for more information and another example see: [Admin/Interface](/src/admin/index.md))
+(for more information and another example see: [Admin/Interface](/admin/))
 
 
 <br />
@@ -205,7 +205,7 @@ PostgreSQL can be installed with a package manager. Installing, starting, and co
 of this tutorial but more information can be found at:
 [their admin documentation page](http://www.postgresql.org/docs/9.3/static/admin.html)
 and a quick command line example here:
-[Install and configure PostgreSQL](/src/events/bio-it-world2014/w14/index.md#install-and-configure-postgresql)
+[Install and configure PostgreSQL](/events/bio-it-world2014/w14/#install-and-configure-postgresql)
 
 Let's create a postgres user named galaxy for our system galaxy user:
 1. Log out of the galaxy user and back into your sudo/admin user role by pressing `Ctrl-d`.
@@ -341,7 +341,7 @@ Of course, you can change this later to suit your lab or your needs.
 
 The final change we'll make before we log in is to uncomment and add a tool dependency directory in the
 `universe_wsgi.ini` file. This is a directory that will store the programs that Galaxy tools rely on to function as
-we'll see later in [Tools](/src/tools/index.md):
+we'll see later in [Tools](/tools/):
 ```ini
 tool_dependency_dir = ../tool_dependencies
 ```
@@ -488,7 +488,7 @@ Here you'll see a page where you can:
 * Manage data libraries: commonly used datasets that can be copied quickly by users
 * Create, delete, and manage users as well as: separate them into groups, give them roles, and set data limit quotas
 
-(for more information on other admin options, see: [Admin/Interface](/src/admin/index.md))
+(for more information on other admin options, see: [Admin/Interface](/admin/))
 
 
 <br />
@@ -548,7 +548,7 @@ files can be downloaded here:
 To import this directory directly, Galaxy needs to know where to look. To do that, we:
 1. Open `universe_wsgi.ini` in an editor.
 2. Search for, uncomment, and change `#library_import_dir = None` to `library_import_dir = /data/galaxy`
-3. [Restart the server](/src/events/gmod-summer-school2014/index.md#restarting-the-server)
+3. [Restart the server](/events/gmod-summer-school2014/#restarting-the-server)
 
 Now Galaxy can import whole subdirectories of `/data` and their files easily.
 
@@ -594,10 +594,10 @@ Galaxy tools are not (generally) bioinformatics programs themselves but XML file
 command-line-only program. Among other things, the tool wrapper file defines a form interface for the tools possible
 parameters with help and explanation.
 
-See also: [Adding Tools from a Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
+See also: [Adding Tools from a Tool Shed](/admin/tools/add-tool-from-toolshed-tutorial/)
 
 Programs and their dependencies will be installed to the directory setting `tool_dependency_dir` in your
-`universe_wsgi.ini` file (which we set [here](/src/events/gmod-summer-school2014/index.md#the-tool_dependency_dir)). They can also be invoked on the command line
+`universe_wsgi.ini` file (which we set [here](/events/gmod-summer-school2014/#the-tool_dependency_dir)). They can also be invoked on the command line
 from there (or added to your PATH). For example, if we have installed bwa, we could use that Galaxy tool installation
 from the command-line to index a yeast fasta:
 ```hightlight bash
@@ -614,8 +614,8 @@ created from there.
 
 [Galaxy main tool shed](http://toolshed.g2.bx.psu.edu/)
 [Galaxy test tool shed](http://testtoolshed.g2.bx.psu.edu/)
-[Public tool sheds](/src/toolshed/public-toolsheds/index.md)
-See also the comprehensive documentation on Tool Sheds here: [ToolShed](/src/toolshed/index.md);
+[Public tool sheds](/toolshed/public-toolsheds/)
+See also the comprehensive documentation on Tool Sheds here: [ToolShed](/toolshed/);
 
 
 #### Installing a tool from a Tool Shed
@@ -661,7 +661,7 @@ None. You may need to enable third-party cookies in your browser.', you'll need 
 duration of this workshop).
 
 To enable 3rd-party cookies in Firefox or Chrome, see:
-[enabling 3rd-party cookies](/src/events/bio-it-world2014/w14/index.md#install-a-tool-from-the-tool-shed)
+[enabling 3rd-party cookies](/events/bio-it-world2014/w14/#install-a-tool-from-the-tool-shed)
 
 
 Let's check that it was installed and is now available:
@@ -670,7 +670,7 @@ Let's check that it was installed and is now available:
 3. You should see a link with the text: 'FastQC:Read QC reports using FastQC' - that indicates the tools is installed
   and ready to try.
 
-Again, see also: [Adding Tools from a Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
+Again, see also: [Adding Tools from a Tool Shed](/admin/tools/add-tool-from-toolshed-tutorial/)
 
 
 <br />
@@ -683,7 +683,7 @@ do that and try them out on some isolate data from a library. Also, it's best to
 much as possible so we'll convert this trial run (if it worked) into a workflow (AKA pipeline) that will reduce this
 process to a two click operation.
 
-Using the procedure in [Installing a tool from a Tool Shed](/src/events/gmod-summer-school2014/index.md#installing-a-tool-from-a-toolshed), search for and install the following tools:
+Using the procedure in [Installing a tool from a Tool Shed](/events/gmod-summer-school2014/#installing-a-tool-from-a-toolshed), search for and install the following tools:
 1. `fastq_paired_end_joiner`:
   * search with the tool name 'fastq joiner'
   * The owner is 'devteam' and
@@ -730,7 +730,7 @@ running, finished, errored) is shown as the 'state' of a dataset in the current 
 * error: red
 
 For more information on histories see:
-[Managing Datasets](/src/learn/managing-datasets/index.md)
+[Managing Datasets](/learn/managing-datasets/)
 and:
 [Managing Histories Screencast Video](http://vimeo.com/76020876)
 
@@ -806,7 +806,7 @@ repeat over many subjects.
 
 One way to create a workflow manually using the Workflow editor. See the following wiki pages for more information on
 that:
-* [Creating Workflows and Advanced Workflow Options](/src/learn/advanced-workflow/index.md)
+* [Creating Workflows and Advanced Workflow Options](/learn/advanced-workflow/)
 * [Create a Workflow from Scratch Screencast](http://screencast.g2.bx.psu.edu/flash/WorkflowFromScratch.html)
 
 #### Extracting a workflow from a history
@@ -879,7 +879,7 @@ pages created and edited from within Galaxy). See how in the
 * Almost every tool available from the Galaxy Tool Sheds or already installed on your server can be used in a workflow.
 * It's possible to run and automate workflows via the command line or scripts using Galaxy's API.
 
-Again, see [Creating Workflows and Advanced Workflow Options](/src/learn/advanced-workflow/index.md) for more information.
+Again, see [Creating Workflows and Advanced Workflow Options](/learn/advanced-workflow/) for more information.
 
 
 #### Testing our QC workflow
@@ -917,13 +917,13 @@ The following are great places to start when trouble shooting or planning an exp
 
 ### Galaxy
 
-1. A [custom Google search](/src/search/index.md) is available to search all things Galaxy
+1. A [custom Google search](/search/) is available to search all things Galaxy
   including: this hub, mailing lists, our biostar site, Galaxy's code documentation, and even the data on our Main
   public server.
 2. [The Galaxy Biostar](https://biostar.galaxyproject.org/) (now [help.galaxyproject.org](https://help.galaxyproject.org/)) site is a Q&A site designed on Istvan Albert's original
   [Biostars](http://www.biostars.org) site.
 3. Our Trello board (now replaced by [GitHub issues](https://github.com/galaxyproject/galaxy/issues)), which can be used to track our development and allows you to vote on our priorities.
-4. A Wiki page for all support resources is here: [Support](/src/support/index.md).
+4. A Wiki page for all support resources is here: [Support](/support/).
 
 ### Unix System Administration
 
@@ -933,5 +933,5 @@ The following are great places to start when trouble shooting or planning an exp
 
 ### Advanced Configuration for Production Scale Galaxy Servers
 
-1. [Running Galaxy in a production environment](/src/admin/config/performance/production-server/index.md)
-2. Nate Coraor's excellent page for the BioIT workshop on [Running a Local Galaxy Instance](/src/events/bio-it-world2014/w14/index.md)
+1. [Running Galaxy in a production environment](/admin/config/performance/production-server/)
+2. Nate Coraor's excellent page for the BioIT workshop on [Running a Local Galaxy Instance](/events/bio-it-world2014/w14/)

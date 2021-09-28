@@ -37,7 +37,7 @@ pub_libraries:
 
 ## Citation(s)
 
-* [BF2I-MAP tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EBF2I-MAP) in [Galaxy Publication library](/src/publication-library/index.md).
+* [BF2I-MAP tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EBF2I-MAP) in [Galaxy Publication library](/publication-library/).
 
 
 ## Sponsor(s)

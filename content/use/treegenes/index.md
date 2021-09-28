@@ -19,7 +19,7 @@ quotas:
   - "Anonymous access and account creation are goth supported."
 citations:
   - "[Growing and cultivating the forest genomics database, TreeGenes](https://doi.org/10.1093/database/bay084), Taylor Falk, Nic Herndon, Emily Grau, Sean Buehler, Peter Richter, Sumaira Zaman, Eliza M Baker, Risharde Ramnath, Stephen Ficklin, Margaret Staton, Frank A Feltus, Sook Jung, Doreen Main, Jill L Wegrzyn. *Database*, Volume 2018, 1 January 2018, bay084, doi: 10.1093/database/bay084"
-  - "[Beyond Search and Display – Analyze Tripal Data with CartograTree](https://depot.galaxyproject.org/hub/attachments/events/2019-pag/Buehler_PAG_2019_CartograTree.pdf), by Sean Buehler, presented at [Plant and Animal Genome XXVII (PAG 2019)](/src/events/2019-pag/index.md)"
+  - "[Beyond Search and Display – Analyze Tripal Data with CartograTree](https://depot.galaxyproject.org/hub/attachments/events/2019-pag/Buehler_PAG_2019_CartograTree.pdf), by Sean Buehler, presented at [Plant and Animal Genome XXVII (PAG 2019)](/events/2019-pag/)"
 pub_libraries:
   - "TreeGenes"
 sponsors:

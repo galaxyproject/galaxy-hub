@@ -1,4 +1,4 @@
-<div class='right'> <a href='/src/toolshed/index.md'>![Galaxy Main Tool Shed](/src/images/logos/ToolShed.jpg)</a></div>
+<div class='right'> <a href='/toolshed/'>![Galaxy Main Tool Shed](/src/images/logos/ToolShed.jpg)</a></div>
 
 # Hosting a Local Galaxy Tool Shed for Developing Galaxy Tools
 

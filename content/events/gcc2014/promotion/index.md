@@ -7,7 +7,7 @@ title: Promotion and Outreach
 
 
 
-Please help get the word out about the [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md). 
+Please help get the word out about the [2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/). 
 
 # Graphics
 
@@ -24,23 +24,23 @@ The conference logos are available in several sizes.
     <th> Download Links </th>
   </tr>
   <tr>
-    <th> <a href='/src/events/gcc2014/program/index.md'>Conference, Wide</a> </th>
+    <th> <a href='/events/gcc2014/program/'>Conference, Wide</a> </th>
     <td style=" text-align: center;"> <a href='/src/images/logos/GCC2014LogoWide200.png'>200px</a>, <a href='/src/images/logos/GCC2014LogoWide400.png'>400px</a>, <a href='/src/images/logos/GCC2014LogoWide600.png'>600px</a>, <a href='/src/images/logos/GCC2014LogoWideBig.png'>Full</a> </td>
   </tr>
   <tr>
-    <th> <a href='/src/events/gcc2014/program/index.md'>Conference, Tall</a> </th>
+    <th> <a href='/events/gcc2014/program/'>Conference, Tall</a> </th>
     <td style=" text-align: center;"> <a href='/src/images/logos/GCC2014LogoTall200.png'>200px</a>, <a href='/src/images/logos/GCC2014LogoTall400.png'>400px</a>, <a href='/src/images/logos/GCC2014LogoWideBig.png'>Full</a> </td>
   </tr>
   <tr>
-    <th> <a href='/src/events/gcc2014/training-day/index.md'>Training Day</a> </th>
+    <th> <a href='/events/gcc2014/training-day/'>Training Day</a> </th>
     <td style=" text-align: center;"> <a href='/src/images/logos/GCC2014TDLogo150.png'>150px</a>, <a href='/src/images/logos/GCC2014TDLogo300.png'>300px</a>, <a href='/src/images/logos/GCC2014TDLogoBig.png'>Full</a> </td>
   </tr>
   <tr>
-    <th> <a href='/src/events/gcc2014/bofs/index.md'>BoFs</a> </th>
+    <th> <a href='/events/gcc2014/bofs/'>BoFs</a> </th>
     <td style=" text-align: center;"> <a href='/src/images/logos/GCC2014BoFLogo200.png'>200px</a>, <a href='/src/images/logos/GCC2014BoFLogo300.png'>300px</a>, <a href='/src/images/logos/GCC2014BoFLogoBig.png'>Full</a> </td>
   </tr>
   <tr>
-    <th> <a href='/src/events/gcc2014/hackathon/index.md'>Hackathon</a> </th>
+    <th> <a href='/events/gcc2014/hackathon/'>Hackathon</a> </th>
     <td style=" text-align: center;"> <a href='/src/images/logos/GCC2014HackLogo200.png'>200px</a>, <a href='/src/images/logos/GCC2014HackLogo300.png'>300px</a>, <a href='/src/images/logos/GCC2014HackLogoBig.png'>Full</a> </td>
   </tr>
 </table>
@@ -63,4 +63,4 @@ The GCC2014 Logo was designed by Mayela Lopez of [Mayela Lopez Designs](http://w
 
 # Twitter Hashtag
 
-Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/src/galaxy-on-twitter/index.md) for the meeting. The obvious choice of #gcc2014 is already well used by several other events.
+Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/galaxy-on-twitter/) for the meeting. The obvious choice of #gcc2014 is already well used by several other events.

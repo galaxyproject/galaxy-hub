@@ -10,9 +10,9 @@ title: The September 2015 Galactic News!
 
 </div>
 
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the September 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+Welcome to the September 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
 # New Papers
 
@@ -25,7 +25,7 @@ Welcome to the September 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a
     Benjamin Schubert, Hans-Philipp Brachvogel, Christopher Jürges, Oliver Kohlbacher, *Bioinformatics*, Vol. 31, No. 13. (01 July 2015), pp. 2211-2213, doi:10.1093/bioinformatics/btv116
 
 * [Experimental validation of methods for differential gene expression analysis and sample pooling in RNA-seq](https://doi.org/10.1186/s12864-015-1767-y)
-    Anto P. Rajkumar, Per Qvist, [Ross Lazarus](/src/people/fubar/index.md), Francesco Lescai, Jia Ju, Mette Nyegaard, Ole Mors, Anders D. Børglum, Qibin Li, Jane H. Christensen, *BMC Genomics*, Vol. 16, No. 1. (25 July 2015), 548, doi:10.1186/s12864-015-1767-y
+    Anto P. Rajkumar, Per Qvist, [Ross Lazarus](/people/fubar/), Francesco Lescai, Jia Ju, Mette Nyegaard, Ole Mors, Anders D. Børglum, Qibin Li, Jane H. Christensen, *BMC Genomics*, Vol. 16, No. 1. (25 July 2015), 548, doi:10.1186/s12864-015-1767-y
 
 * [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](https://doi.org/10.1074/mcp.o115.048777)
     Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews, Conrad Bessant, *Molecular & Cellular Proteomics* (12 August 2015), mcp.O115.048777, doi:10.1074/mcp.o115.048777
@@ -97,11 +97,11 @@ The new papers were tagged with:
 
 
 
-<div class='right'><a href='/src/news/first2500-papers/index.md'><img src="/src/galaxy-updates/2015-09/First2500Grid.png" alt="First 2500 papers by tag and year" width="150" /></a></div>
+<div class='right'><a href='/news/first2500-papers/'><img src="/src/galaxy-updates/2015-09/First2500Grid.png" alt="First 2500 papers by tag and year" width="150" /></a></div>
  
 # Galaxy's First 2500 Publications
 
-And in case you missed it, we [reached 2500 publications](/src/news/first2500-papers/index.md) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/src/news/first2500-papers/index.md) analyzes the papers by [CiteULike tag](/src/publication-library/index.md#tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/src/galaxy-team/index.md) as a coauthor.  
+And in case you missed it, we [reached 2500 publications](/news/first2500-papers/) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/news/first2500-papers/) analyzes the papers by [CiteULike tag](/publication-library/#tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/galaxy-team/) as a coauthor.  
 
 ----
 
@@ -129,31 +129,31 @@ Galaxy IUC
 
 # Galaxy Project Google Calendars
 
-If you want to know what events are happening in the Galaxy Community, the goto place has always been the [Galaxy Events page](/src/events/index.md).  This lists any upcoming events we know about that feature Galaxy content.  This events list provides dates, locations, and contact information for each event.
+If you want to know what events are happening in the Galaxy Community, the goto place has always been the [Galaxy Events page](/events/).  This lists any upcoming events we know about that feature Galaxy content.  This events list provides dates, locations, and contact information for each event.
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" alt="Galaxy Calendar" /></a></div>
 
 There has also been the complementary *[Galaxy Events Google Calendar](http://bit.ly/gxycal)* which listed events of interest to the community, whether or not they featured significant Galaxy content.  **To make this calendar more useful, we have split it in to two:**
 
  **[Galaxy Events Google Calendar](http://bit.ly/gxycal)** <a href='http://bit.ly/gxycalrss'><img src="/src/images/icons/RSSIcon16x16.gif" alt="Galaxy Calendar RSS Feed" /></a>
-   This calendar now lists *only* events that feature Galaxy content.  Pretty much, if it's on the [Events page](/src/events/index.md), it's also in this calendar.<br />
+   This calendar now lists *only* events that feature Galaxy content.  Pretty much, if it's on the [Events page](/events/), it's also in this calendar.<br />
 
  **[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)**  <a href='http://bit.ly/gxyothercalrss'><img src="/src/images/icons/RSSIcon16x16.gif" alt="Galaxy Calendar RSS Feed" /></a> 
    This lists additional events and deadlines that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content. 
 
-This split allows us to present Galaxy events in a much sparser calendar, that is more useful for setting reminders and publishing Galaxy events. And we will continue to link to past Galaxy events (and presentations, videos, examples, ...) from the  *[Events Archive](/src/events/index.md#past-events)*.
+This split allows us to present Galaxy events in a much sparser calendar, that is more useful for setting reminders and publishing Galaxy events. And we will continue to link to past Galaxy events (and presentations, videos, examples, ...) from the  *[Events Archive](/events/#past-events)*.
 
 # August GalaxyAdmins Slides and Video
 
-<div class='right'><a href='/src/community/galaxy-admins/meetups/2015-08-20/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup August 20" width="175" /></a><br /><br />
+<div class='right'><a href='/community/galaxy-admins/meetups/2015-08-20/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup August 20" width="175" /></a><br /><br />
 <a href='http://www.irida.ca/'><img src="/src/images/logos/IRIDA.png" alt="IRIDA" width="175" /></a>
 </div>
 
-The [next GalaxyAdmins meetup on August 20](/src/community/galaxy-admins/meetups/2015-08-20/index.md) was attended by 27 *GalaxyAdmins*.  [Aaron Petkau](https://github.com/apetkau) covered *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy* and [Enis Afgan](/src/people/enis-afgan/index.md) presented *Adding transparency and automation into the Galaxy tool installation process*.
+The [next GalaxyAdmins meetup on August 20](/community/galaxy-admins/meetups/2015-08-20/) was attended by 27 *GalaxyAdmins*.  [Aaron Petkau](https://github.com/apetkau) covered *Genomic data management at [Canada's National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) with [IRIDA](http://www.irida.ca/) and Galaxy* and [Enis Afgan](/people/enis-afgan/) presented *Adding transparency and automation into the Galaxy tool installation process*.
 
-In case you missed it, [slides and video are now available online](/src/community/galaxy-admins/meetups/2015-08-20/index.md).
+In case you missed it, [slides and video are now available online](/community/galaxy-admins/meetups/2015-08-20/).
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meeting will be on [October 15](/src/community/galaxy-admins/meetups/2015-10-15/index.md) where [David Kovalic](https://www.linkedin.com/in/davidkovalic) of [Analome](http://analome.com) will present.  Hope to see you there.
+[GalaxyAdmins](/community/galaxy-admins/) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meeting will be on [October 15](/community/galaxy-admins/meetups/2015-10-15/) where [David Kovalic](https://www.linkedin.com/in/davidkovalic) of [Analome](http://analome.com) will present.  Hope to see you there.
 
 
 # Upcoming Events
@@ -163,7 +163,7 @@ In case you missed it, [slides and video are now available online](/src/communit
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div>
 
-There are [upcoming events](/src/events/index.md) in five countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/events/) in five countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 
 <div class='center'> 
@@ -212,7 +212,7 @@ There are [upcoming events](/src/events/index.md) in five countries on three con
   </tr>
   <tr>
     <th> September 17-18 </th>
-    <td> <a href='/src/news/tools-collections-hack/index.md'>Remote Hackathon for Tools and Dataset Collections</a> </td>
+    <td> <a href='/news/tools-collections-hack/'>Remote Hackathon for Tools and Dataset Collections</a> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
     <td> <a href="mailto:galaxy-iuc@lists.galaxyproject.org">IUC</a> </td>
   </tr>
@@ -246,9 +246,9 @@ There are [upcoming events](/src/events/index.md) in five countries on three con
   </tr>
   <tr>
     <th> october 15 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2015-10-15/index.md'>October Galaxy Admins Meetup</a></em> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2015-10-15/'>October Galaxy Admins Meetup</a></em> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> October 19 </th>
@@ -266,7 +266,7 @@ There are [upcoming events](/src/events/index.md) in five countries on three con
     <th> October 28 - November 3 </th>
     <td> <em><a href='http://meetings.cshl.edu/courses.aspx?course=c-ecg&year=15'>Computational & Comparative Genomics Course</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Cold Spring Harbor Laboratory, New York, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
 </table>
 
@@ -283,15 +283,15 @@ There are [upcoming events](/src/events/index.md) in five countries on three con
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [Systems Administrator IV](http://bit.ly/1NTuOfw), [Fred Hutchinson Cancer Institute](http://fredhutch.org), Seattle, Washington, United States 
 * [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -299,7 +299,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[2 new publicly accessible Galaxy servers](/src/use/index.md) were added in August.
+[2 new publicly accessible Galaxy servers](/use/) were added in August.
 
 ## Workflow4Metabolomics
 
@@ -369,7 +369,7 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
     [Release Notes v 15.05](http://galaxy.readthedocs.org/en/master/releases/15.05_announce.html)
 
  **BioBlend 0.6.0 and 0.6.1**
-    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md)([CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
+    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/)([CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
 
 <div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/logos/PlanemoLogo.png" alt="" width="150" /></a></div>
 
@@ -379,8 +379,8 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
  **Pulsar**
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
  
- **[CloudMan](/src/cloudman/index.md) **
-   The [most recent edition of CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release) was released in August.
+ **[CloudMan](/cloudman/) **
+   The [most recent edition of CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release) was released in August.
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and BioCloudCentral.
@@ -394,12 +394,12 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -416,7 +416,7 @@ One new new **[Galaxy Training Network member](https://training.galaxyproject.or
 
 # ToolShed Contributions
 
-See [list of tools contributed in August](/src/toolshed/contributions/2015-08/index.md).
+See [list of tools contributed in August](/toolshed/contributions/2015-08/).
 
 
 # Other News

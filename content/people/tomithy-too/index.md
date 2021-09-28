@@ -34,7 +34,7 @@ Galaxy uses the Model-View-Controller software architecture.
 ### 2.1 Design Notes
 
 * Galaxy tries not to replicate data.
-* All data are marshelled through the python object called "[HistoryDatasetAssociation](/src/HistoryDatasetAssociation/index.md)" found @Dir: lib/galaxy/model/__init__.py (unexpected name, yes) and you can basically think of it as a dataset object.
+* All data are marshelled through the python object called "[HistoryDatasetAssociation](/HistoryDatasetAssociation/)" found @Dir: lib/galaxy/model/__init__.py (unexpected name, yes) and you can basically think of it as a dataset object.
 * Dataset ID can be found by right clicking the save icon on the history panel and copying the url or 2) by observing the http calls made to galaxy via terminal.
 * The data is stored in the database/job_working_directory/{user_id}/file_index and is mapped to its respective dataset_id by a sql hashtable ?somewhere. So each data stored in galaxy correspond to an indexed row somewhere.
 * Users usually interact with their list of data via the history panel (right of main page)

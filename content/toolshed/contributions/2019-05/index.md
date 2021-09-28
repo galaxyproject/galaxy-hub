@@ -4,9 +4,9 @@ title: "April & May 2019 Tool Shed contributions"
 
 [<img class="float-right" src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="180">](http://toolshed.g2.bx.psu.edu/)
 
-Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu/) in [April and May 2019](/src/news/2019-06-galaxy-update/index.md).
+Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu/) in [April and May 2019](/news/2019-06-galaxy-update/).
 
-* [All monthly summaries](/src/toolshed/contributions/index.md)
+* [All monthly summaries](/toolshed/contributions/)
 
 ## New Tools
 

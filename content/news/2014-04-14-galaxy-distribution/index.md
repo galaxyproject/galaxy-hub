@@ -50,4 +50,4 @@ date: "2014-04-14"
 <br />
 ***Thanks for using Galaxy!***
 
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

@@ -5,7 +5,7 @@ title: Frequently Asked Questions for Galaxy Administration
 <slot name="/faqs/linkbox" />
 
 
-See [Learn/FAQ](/src/learn/faq/index.md) for questions about using any Galaxy instance, and [Main/FAQ](/src/main/faq/index.md) for questions specifically about using Galaxy's free public server [Main](/src/main/index.md).
+See [Learn/FAQ](/learn/faq/) for questions about using any Galaxy instance, and [Main/FAQ](/main/faq/) for questions specifically about using Galaxy's free public server [Main](/main/).
 
 
 
@@ -15,21 +15,21 @@ See [Learn/FAQ](/src/learn/faq/index.md) for questions about using any Galaxy in
 
 **What are the licensing terms for Galaxy?**
 
-See [Copyrights and Licenses](/src/admin/license/index.md).
+See [Copyrights and Licenses](/admin/license/).
 
 ----
 
 ## Using Galaxy
 
-The Galaxy Community has created Galaxy instances in many different forms and for many different applications. The [Galaxy Platform Directory](/src/use/index.md) lists the options we know about, including:
+The Galaxy Community has created Galaxy instances in many different forms and for many different applications. The [Galaxy Platform Directory](/use/) lists the options we know about, including:
 
 * Free public Galaxy servers,
 * cloud services that support Galaxy instances, and
 * virtual machines and containers that can be easily deployed for your own server.
 
-Which is **right** for you?  Explore the directory, especially the section on [Which Platform / Platform type to use](/src/use/index.md#which-platform-platform-type-to-choose/).
+Which is **right** for you?  Explore the directory, especially the section on [Which Platform / Platform type to use](/use/#which-platform-platform-type-to-choose/).
 
-Tools and workflows contributed by [community members](/src/community/index.md) worldwide) are served through the **[Main ToolShed](/src/toolshed/index.md)** and genome data/indexes through an **[rsync service](/src/admin/data-integration/index.md)**.  
+Tools and workflows contributed by [community members](/community/) worldwide) are served through the **[Main ToolShed](/toolshed/)** and genome data/indexes through an **[rsync service](/admin/data-integration/)**.  
 
 ----
 
@@ -37,7 +37,7 @@ Tools and workflows contributed by [community members](/src/community/index.md) 
 
 **I have downloaded and installed a local instance of Galaxy.  How can I get rid of unwanted histories and their associated datasets?**
 
-There are scripts available in the Galaxy distribution that make this process very simple.  See our [Purge Histories and Datasets page](/src/admin/config/performance/purge-histories-and-datasets/index.md) for details.
+There are scripts available in the Galaxy distribution that make this process very simple.  See our [Purge Histories and Datasets page](/admin/config/performance/purge-histories-and-datasets/) for details.
 
 ----
 
@@ -45,7 +45,7 @@ There are scripts available in the Galaxy distribution that make this process ve
 
 **What versions of the Python language do you support with your downloadable Galaxy source distribution?**
 
-We currently support Python 2.6 and 2.7.  When you start up your Galaxy instance, the Python eggs for your platform will be automatically downloaded for you.  See our [Eggs page](/src/admin/config/eggs/index.md) for more information.
+We currently support Python 2.6 and 2.7.  When you start up your Galaxy instance, the Python eggs for your platform will be automatically downloaded for you.  See our [Eggs page](/admin/config/eggs/) for more information.
 
 ----
 
@@ -53,7 +53,7 @@ We currently support Python 2.6 and 2.7.  When you start up your Galaxy instance
 
 **How do I connect an external datasource to Galaxy?**
 
-Adding an external datasource is quite easy, and only requires minimal work on the datasource side.  For complete details on how to do this, see our [DataSources page](/src/admin/internals/data-sources/index.md).
+Adding an external datasource is quite easy, and only requires minimal work on the datasource side.  For complete details on how to do this, see our [DataSources page](/admin/internals/data-sources/).
 
 ----
 
@@ -61,7 +61,7 @@ Adding an external datasource is quite easy, and only requires minimal work on t
 
 **How do I implement support for a new data type in Galaxy?**
 
-For complete details on how to support a new data type, see our [Adding Datatypes page](/src/admin/datatypes/adding-datatypes/index.md).
+For complete details on how to support a new data type, see our [Adding Datatypes page](/admin/datatypes/adding-datatypes/).
 
 ----
 
@@ -81,7 +81,7 @@ xls = galaxy.datatypes.data:Data,application/vnd.ms-excel
 
 **How can I run a Galaxy mirror alongside my regular web server (i.e. on port 80)?**
 
-Via a proxy connection in Apache.  Instructions can be found on the [Admin/Config/Apache Proxy](/src/admin/config/apache-proxy/index.md) page.
+Via a proxy connection in Apache.  Instructions can be found on the [Admin/Config/Apache Proxy](/admin/config/apache-proxy/) page.
 
 ----
 
@@ -121,11 +121,11 @@ The following alignment tools available in Galaxy enable this:
 
 **I've read about GALAXY_SLOTS but I don't understand what it is and how it works?**
 
-[Follow this link for a detailed description](/src/admin/config/galaxy_slots/index.md)
+[Follow this link for a detailed description](/admin/config/galaxy_slots/)
 
 ----
 
 ## Any other question
 
-<div class='left'><a href='/src/search/index.md'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Search" width="150" /></a></div>
-[Galaxy Search](/src/search/index.md) searches all online Galaxy resources.  This includes this hub, the [Mailing Lists](/src/mailing-lists/index.md), [Main](/src/main/index.md), the [Tool Shed](/src/toolshed/index.md), and the [Galaxy source code](https://github.com/galaxyproject/galaxy).
+<div class='left'><a href='/search/'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Search" width="150" /></a></div>
+[Galaxy Search](/search/) searches all online Galaxy resources.  This includes this hub, the [Mailing Lists](/mailing-lists/), [Main](/main/), the [Tool Shed](/toolshed/), and the [Galaxy source code](https://github.com/galaxyproject/galaxy).

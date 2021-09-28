@@ -14,31 +14,31 @@ date: 2011-11-18
 
 ## News & Events
 
-<div class='left'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
-* Keep current on all things Galaxy at our [News](/src/news/index.md) and [Events](/src/events/index.md) wikis.
-* Galaxy is still [hiring](/src/galaxy-is-hiring/index.md)!
+<div class='left'><a href='/galaxy-is-hiring/'><img src="/src/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
+* Keep current on all things Galaxy at our [News](/news/) and [Events](/events/) wikis.
+* Galaxy is still [hiring](/galaxy-is-hiring/)!
 
 ### GCC 2012 is Scheduled!
 
-<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
+<div class='right'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
 
-**We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
+**We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
 
-GCC2012 will be held at the [University of Illinois Chicago (UIC)](http://uic.edu/) campus in downtown Chicago.  See the [GCC2012 conference web page](/src/events/gcc2012/index.md) for more, including [opportunities to sponsor](/src/events/gcc2012/sponsorships/index.md) this year's conference.
+GCC2012 will be held at the [University of Illinois Chicago (UIC)](http://uic.edu/) campus in downtown Chicago.  See the [GCC2012 conference web page](/events/gcc2012/) for more, including [opportunities to sponsor](/events/gcc2012/sponsorships/) this year's conference.
 
 Some things will be the same as in previous years, but we are also using feedback from last year to guide the 2012 meeting.  We will again be seeking talks (full and lightning) from the community.  More information will be posted as it becomes available.
 
 Please reserve July 25-27 on your calendars!
 
-[Dave Clements](/src/people/dave-clements/index.md) and Neil Bahroos
+[Dave Clements](/people/dave-clements/) and Neil Bahroos
 
 ### Upcoming Workshops and Presentations
 
 * A one day [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) is being held in [Galaxy Developer Workshop](http://evomics.org/workshops/galaxy-developer-workshop/) in [Český Krumlov, Czech Republic](http://www.ckrumlov.info/php/)
   * Registration deadline is December 15, but you are encouraged to register early, so we can gauge demand.
   * This workshop is immediately following the [Workshop on Genomics](http://evomics.org/workshops/workshop-on-genomics/2012-genomics-cesky-krumlov/2012), which also features Galaxy content, and is still accepting applications.
-* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/src/events/pag2012/index.md) on using Galaxy, both on [Main](/src/main/index.md) and in the [Cloud](/src/cloudman/index.md)
-* There are also [events](/src/events/index.md) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ) in January.
+* Galaxy will have presentations at [PAG 2012 (January, San Diego)](/events/pag2012/) on using Galaxy, both on [Main](/main/) and in the [Cloud](/cloudman/)
+* There are also [events](/events/) at the [University of Manchester](http://www.nowgen.org.uk/facilities/events/event.php?id=30) and [DDBJ](http://www.ddbj.nig.ac.jp/ddbjing/ddbjing.html#DDBJ) in January.
 
 ----
 ## What's New
@@ -47,11 +47,11 @@ Please reserve July 25-27 on your calendars!
 
 Galaxy tool sheds play a beneficial role in enabling sharing of exported Galaxy workflows between different Galaxy instances. 
 
-* **[Finding workflows in tool shed repositories](/src/toolshed/searching-the-toolshed/index.md)**
+* **[Finding workflows in tool shed repositories](/toolshed/searching-the-toolshed/)**
     The Search section of the left tool shed menu panel now includes an option labeled "Search for workflows"
-* **[Importing a workflow from an installed tool shed repository](/src/toolshed/workflow-sharing/index.md#importing-a-workflow-from-an-installed-toolshed-repository)** 
+* **[Importing a workflow from an installed tool shed repository](/toolshed/workflow-sharing/#importing-a-workflow-from-an-installed-toolshed-repository)** 
     A pop-up menu associated with a browsed Tool Shed workflow name will now provide the ability to import the workflow into your local Galaxy instance
-* **[Importing a workflow via a URL](/src/toolshed/workflow-sharing/index.md#importing-a-workflow-via-a-url)** 
+* **[Importing a workflow via a URL](/toolshed/workflow-sharing/#importing-a-workflow-via-a-url)** 
     If your Galaxy instance is missing any of the tools an imported workflow requires, a message is now displayed that includes links to all accessible tool sheds enabling you to search the tool sheds for the missing tools
 
 ### Using Tool Sheds
@@ -81,19 +81,19 @@ There are two Tool Sheds supported by the core Galaxy team:
 * **[FastQC:](http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/)**
   * Wrapper updated to handle changes in HTML output from the most recent FastQC release 0.10.0 from [Babraham Bioinformatics](http://www.bioinformatics.bbsrc.ac.uk/)
   * If you see a broken FastQC html report in the UI, then an older version is being used. **[Upgrading FastQC to version 0.10.0](http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/) is required**
-  * Galaxy [Main](/src/main/index.md) is running version 0.10.0
+  * Galaxy [Main](/main/) is running version 0.10.0
 * **[Picard:](http://picard.sourceforge.net/)**
   * Wrapper updated to handle changes to command line parameters for `CollectInsertSizeMetrics.jar` in version 1.56
     * If you see an error message about an unrecognized parameter `"DEVIATIONS"` (related to Insertion size metrics), then an older version is being used. **[Upgrading Picard to version 1.56](http://sourceforge.net/projects/picard/files/) is required**
   * Update Picard tools to use `tool-data/shared/jars/picard/*` instead of `tool-data/shared/jars/*`
-  * Galaxy [Main](/src/main/index.md) is running version 1.56
+  * Galaxy [Main](/main/) is running version 1.56
 * **[TopHat:](http://tophat.cbcb.umd.edu/)** 
   * Wrapper updated to support versions 1.3.*
   * If you see an error message about "tophat: option --max-insertion-length not recognized", then an older version is being used. **[Upgrading TopHat to at least version 1.3.1 (with 1.3.3 preferred)](http://tophat.cbcb.umd.edu/) is required** 
-  * Galaxy [Main](/src/main/index.md) is running version 1.3.3
+  * Galaxy [Main](/main/) is running version 1.3.3
 * **[Cufflinks:](http://cufflinks.cbcb.umd.edu/)** 
   * Improved documentation for gene annotation dataset parameters
-  * Galaxy [Main](/src/main/index.md) is running version 1.0.3
+  * Galaxy [Main](/main/) is running version 1.0.3
 * Upgraded tool **Convert Formats -> SFF converter** to use *[sff_extract](http://bioinf.comav.upv.es/sff_extract/download.html)* version 0.2.10
 * **[SAMTools:](http://samtools.sourceforge.net/)**
   * Handle SAMTools stderr messages causing an error state when using [FreeBayes](http://github.com/ekg/freebayes)
@@ -149,7 +149,7 @@ There are two Tool Sheds supported by the core Galaxy team:
 
 ### Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 
 * Grid fixes: (a) make operation buttons work after refresh and (b) show message each time
 * Force absolute path when creating temporary directory used when importing histories. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/667](https://bitbucket.org/galaxy/galaxy-central/issue/667)

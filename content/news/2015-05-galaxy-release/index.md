@@ -18,4 +18,4 @@ The release notes have a new home at **[Read the Docs](http://galaxy.readthedocs
 
 
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

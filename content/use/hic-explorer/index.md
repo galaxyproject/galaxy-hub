@@ -21,7 +21,7 @@ quotas:
   - "Storage and computational quotas."
 citations:
   - "[Galaxy HiCExplorer: a web server for reproducible
-Hi-C data analysis, quality control and visualization](https://academic.oup.com/nar/article/46/W1/W11/5036837), Joachim Wolff, Vivek Bhardwaj, Stephan Nothjunge, Gautier Richard, Gina Renschler, Ralf Gilsbach, Thomas Manke, Rolf Backofen,  Fidel Ramírez, and [Björn A Grüning](/src/people/bjoern-gruening/index.md), *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W11–W16, doi:10.1093/nar/gky504"
+Hi-C data analysis, quality control and visualization](https://academic.oup.com/nar/article/46/W1/W11/5036837), Joachim Wolff, Vivek Bhardwaj, Stephan Nothjunge, Gautier Richard, Gina Renschler, Ralf Gilsbach, Thomas Manke, Rolf Backofen,  Fidel Ramírez, and [Björn A Grüning](/people/bjoern-gruening/), *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W11–W16, doi:10.1093/nar/gky504"
 pub_libraries:
   - "HiCExplorer"
 sponsors:

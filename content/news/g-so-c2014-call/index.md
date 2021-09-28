@@ -13,4 +13,4 @@ The Genome Informatics Group is organizing the joint efforts of Galaxy, [http://
 
 If your interests lean more towards toolkits, I would like to point out that the [Open Bioinformatics Foundation (OBF)](http://open-bio.org), the group behind the *Bio** toolkits (including [BioPython](http://biopython.org/)) and the [BOSC](http://www.open-bio.org/wiki/BOSC_2014) conferences, is also [looking for people to coordinate their proposal](http://lists.open-bio.org/pipermail/open-bio-l/2014-January/000922.html).
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

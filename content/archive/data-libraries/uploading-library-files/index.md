@@ -4,7 +4,7 @@
 
 ### Options for Uploading Files from the Admin Perspective
 
-There are currently four options available to a Galaxy [admin](/src/admin/index.md) user for uploading files to a data library.
+There are currently four options available to a Galaxy [admin](/admin/) user for uploading files to a data library.
 Some of these same options are available to all regular users that have been granted permission to add items to a Data Library or folder,
 but this section describes the features from the Galaxy admin perspective which is accessed by clicking on the "Admin" link in the top
 Galaxy menu bar.

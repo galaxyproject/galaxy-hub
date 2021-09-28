@@ -14,7 +14,7 @@ image: sortee-logo.png
 
 [SORTEE 2021](https://www.sortee.org/events/) brings together researchers working to improve reliability and transparency through cultural and institutional changes in ecology, evolutionary biology, and related fields. The conference will feature social events, 'unconference' discussions, hackathons, workshops, short presentations, and six plenary presentations.
 
-[Galaxy-E](/src/use/ecology/index.md) is a web platform to get, process, analyze and visualize ecological data, and it will have 3 events at SORTEE 2021:
+[Galaxy-E](/use/ecology/) is a web platform to get, process, analyze and visualize ecological data, and it will have 3 events at SORTEE 2021:
 
 | Date | EU Central | US Eastern | Topic | Contact | Links |
 | --- | --- | --- | --- | --- | --- |

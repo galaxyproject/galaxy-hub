@@ -2,7 +2,7 @@
 
 Built-in data files are critical for many Galaxy tools. This page will describe how to use **[refgenie](http://refgenie.databio.org/)** with your local instance of Galaxy. 
 
-Please note that "built-in" or "cached" data can also be managed natively from within the Galaxy admin interface. For details, see: **[Data Managers Overview](/src/admin/tools/data-managers/index.md)** and our **[Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)**.
+Please note that "built-in" or "cached" data can also be managed natively from within the Galaxy admin interface. For details, see: **[Data Managers Overview](/admin/tools/data-managers/)** and our **[Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)**.
 
 ## How it works
 
@@ -49,9 +49,9 @@ and then restart the Galaxy server.
 
 ### Install a Data Manager tool for refgenie (optional)
 
-For information on installing tools from the ToolShed, follow these [directions](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md). Search for "refgenie", to find the relevant tool.
+For information on installing tools from the ToolShed, follow these [directions](/admin/tools/add-tool-from-toolshed-tutorial/). Search for "refgenie", to find the relevant tool.
 
-To access and run Data Manager tools, follow these [directions](/src/admin/tools/data-managers/index.md).
+To access and run Data Manager tools, follow these [directions](/admin/tools/data-managers/).
 
 ## Figure 1. Extending Galaxy’s reference data with refgenie.
 

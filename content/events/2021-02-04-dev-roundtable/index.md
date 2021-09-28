@@ -21,7 +21,7 @@ links:
 
 **Topic: How to grow the Galaxy Developer community**: a discussion of a new Galaxy Developer Training Course, and other ways we can make it easier for new developers.
 
-**Topic: Training Updates**: Experiences from [Galaxy Admin training](/src/events/2021-01-admin-training/index.md), Training at GCC2021, and maybe offering a developer training track at GCC2021 too.
+**Topic: Training Updates**: Experiences from [Galaxy Admin training](/events/2021-01-admin-training/), Training at GCC2021, and maybe offering a developer training track at GCC2021 too.
 
 **Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20210204T12&p1=179&ah=1))** for an open discussion.
 
@@ -36,4 +36,4 @@ Have something you want to talk about at a future round table? [Submit your topi
 
 ---
 
-The [Galaxy Developer Roundatble](/src/community/devroundtable/index.md) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 
+The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 

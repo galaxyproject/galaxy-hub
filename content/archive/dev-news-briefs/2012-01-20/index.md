@@ -15,9 +15,9 @@ date: 2012-01-20
 
 ## News & Events
 
-* Make your plans!! **[GCC2012](/src/events/gcc2012/index.md)**
-* New [Galaxy Group @ CiteULike](/src/news/new-galaxy-group-cite-u-like/index.md)
-* Find it *now* with [Custom Galaxy Web Searches](/src/news/custom-galaxy-search/index.md)
+* Make your plans!! **[GCC2012](/events/gcc2012/)**
+* New [Galaxy Group @ CiteULike](/news/new-galaxy-group-cite-u-like/)
+* Find it *now* with [Custom Galaxy Web Searches](/news/custom-galaxy-search/)
 * New low-volume mailing list: [Galaxy-Announce](/src/news/New Galaxy-Announce Mailing List/index.md)
 
 ## Object Store
@@ -28,13 +28,13 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 
 * **[TopHat:](http://tophat.cbcb.umd.edu/)**
   * Wrapper accepts versions 1.3.1-1.4.0, with at least 1.3.3 recommended. 1.4.0 is preferred.
-  * Galaxy [Main](/src/main/index.md) is now running version 1.4.0.
+  * Galaxy [Main](/main/) is now running version 1.4.0.
 * **[Cufflinks, CuffCompare, CuffDiff:](http://cufflinks.cbcb.umd.edu/)** 
   * Wrapper accepts versions 1.1.0-1.3.0. 1.3.0 is preferred.
-  * Galaxy [Main](/src/main/index.md) is now running version 1.3.0 for all Cuff* tools.
+  * Galaxy [Main](/main/) is now running version 1.3.0 for all Cuff* tools.
 * **[SAMTools mpileup:](http://samtools.sourceforge.net/mpileup.shtml)**
   * Wrapper for use in local instances.
-  * Not available on Galaxy [Main](/src/main/index.md) at this time.
+  * Not available on Galaxy [Main](/main/) at this time.
 * **[GenomeSpace](http://www.genomespace.org/)** import from file browser tool updated to use their newer API.
 * **[EBI ENA SRA](http://www.ebi.ac.uk/ena/)** tool contributed by Iain Cleland.
 * **[Picard](http://sourceforge.net/projects/picard/) Interval List to [BED6](http://genome.ucsc.edu/FAQ/FAQformat.html#format1)** converter added.
@@ -88,14 +88,14 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
   * Do not allow public user names to be changed within the tool shed if the user has created a tool shed repository.
   * Don't allow repository names to be changed if the repository has been cloned at least 1 time.
 * More new tool shed features documented in the following new Galaxy wiki sections:
-  * [Including proprietary data types that subclass from Galaxy data types in the distribution](/src/toolshed/index.md#including-proprietary-data-types-that-subclass-from-galaxy-data-types-in-the-distribution)
-  * [Including proprietary data types that use class modules contained in your repository](/src/toolshed/index.md#including-proprietary-data-types-that-use-class-modules-contained-in-your-repository)
-  * [Including datatype converters and display applications](/src/toolshed/index.md#including-datatype-converters-and-display-applications)
-  * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/src/toolshed/index.md#automatic-installation-of-galaxy-tool-shed-repository-data-types-into-a-local-galaxy-instance)
-  * [Getting updates for tool shed repositories installed in a local Galaxy instance](/src/toolshed/index.md#getting-updates-for-tool-shed-repositories-installed-in-a-local_galaxy_instance)
-  * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/src/toolshed/index.md#migrating-tools-from-the-galaxy-distribution-to-the-galaxy-main-tool-shed)
-  * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/src/toolshed/index.md#configuring-your-galaxy-server-to-automatically-install-tools-eliminated-from-the-galaxy-distribution)
-  * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/src/toolshed/index.md#use-case-automatically-install-the-emboss-tools-and-datatypes-into-a-local-galaxy-instance)
+  * [Including proprietary data types that subclass from Galaxy data types in the distribution](/toolshed/#including-proprietary-data-types-that-subclass-from-galaxy-data-types-in-the-distribution)
+  * [Including proprietary data types that use class modules contained in your repository](/toolshed/#including-proprietary-data-types-that-use-class-modules-contained-in-your-repository)
+  * [Including datatype converters and display applications](/toolshed/#including-datatype-converters-and-display-applications)
+  * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/toolshed/#automatic-installation-of-galaxy-tool-shed-repository-data-types-into-a-local-galaxy-instance)
+  * [Getting updates for tool shed repositories installed in a local Galaxy instance](/toolshed/#getting-updates-for-tool-shed-repositories-installed-in-a-local_galaxy_instance)
+  * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/toolshed/#migrating-tools-from-the-galaxy-distribution-to-the-galaxy-main-tool-shed)
+  * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/toolshed/#configuring-your-galaxy-server-to-automatically-install-tools-eliminated-from-the-galaxy-distribution)
+  * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/toolshed/#use-case-automatically-install-the-emboss-tools-and-datatypes-into-a-local-galaxy-instance)
 
 ## Tool Shed Contributions
 
@@ -112,7 +112,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 
 ## Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Support display of extra files/composite types in published items. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/628](https://bitbucket.org/galaxy/galaxy-central/issue/628)
 * Standardize code and error messages on 'public name' rather than 'username'
 * When exporting a history archive, use user dataset names rather than Galaxy dataset names. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/680](https://bitbucket.org/galaxy/galaxy-central/issue/680)

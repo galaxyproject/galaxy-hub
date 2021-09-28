@@ -4,7 +4,7 @@
 
 Before tackling quotas or disk accounting, it's important to understand that when data is copied in Galaxy it is never duplicated.  This means that importing a dataset from a Data Library, sharing datasets with another user, or making copies of your datasets within your own histories only creates new references to the original file.
 
-It's now possible for users to force datasets to be removed from disk, which was previously only done by cleanup scripts.  This is explained in detail at [Managing Datasets](/src/learn/managing-datasets/index.md#actions).
+It's now possible for users to force datasets to be removed from disk, which was previously only done by cleanup scripts.  This is explained in detail at [Managing Datasets](/learn/managing-datasets/#actions).
 
 ## Disk Accounting
 
@@ -46,7 +46,7 @@ galaxy:
 
 `allow_user_dataset_purge` is not explicitly required for quotas but strongly encouraged, since without it users will have to wait for cleanup scripts to expire and purge their data to lower their disk usage.
 
-Once enabled, you can create quotas in the [administration interface](/src/admin/index.md) by clicking the link for "Manage quotas" in the left panel.  Quotas can have one of three "operations":
+Once enabled, you can create quotas in the [administration interface](/admin/) by clicking the link for "Manage quotas" in the left panel.  Quotas can have one of three "operations":
 
 * `=` : The quota is exactly the amount specified
 * `+` : The amount specified will be added to the amounts of the user's other associated quota definitions

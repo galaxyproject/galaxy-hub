@@ -23,19 +23,19 @@ date: 2012-03-12
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 ## Migrating tools from the Galaxy distribution to the Galaxy Main tool shed
 
-In 2012, the Galaxy development team will begin the process of **migrating the tools that are currently available in the Galaxy distribution to the [Galaxy Main tool shed](http://toolshed.g2.bx.psu.edu/)**.  This will enable those that host local Galaxy instances much more flexibility in choosing to provide only those specific tools in which their users are interested. [Read more...](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md)
+In 2012, the Galaxy development team will begin the process of **migrating the tools that are currently available in the Galaxy distribution to the [Galaxy Main tool shed](http://toolshed.g2.bx.psu.edu/)**.  This will enable those that host local Galaxy instances much more flexibility in choosing to provide only those specific tools in which their users are interested. [Read more...](/toolshed/migrating-tools-from-galaxy-distribution/)
 
 ## XML configuration files used to populate your Galaxy tool panel
 
-In the past, the file named by your "tool_config_file" configuration setting in your "universe_wsgi.ini" file was the only file used to populate your Galaxy tool panel.  The default name for this file is **tool_conf.xml**.  Since this was the only file involved in populating your Galaxy tool panel, it defined the items (tools, workflows, sections and labels) that would be displayed and the way in which they would be arranged. [Read more...](/src/galaxy-tool-panel/index.md#xml-configuration-files-used-to-populate-your-galaxy-tool-panel)
+In the past, the file named by your "tool_config_file" configuration setting in your "universe_wsgi.ini" file was the only file used to populate your Galaxy tool panel.  The default name for this file is **tool_conf.xml**.  Since this was the only file involved in populating your Galaxy tool panel, it defined the items (tools, workflows, sections and labels) that would be displayed and the way in which they would be arranged. [Read more...](/galaxy-tool-panel/#xml-configuration-files-used-to-populate-your-galaxy-tool-panel)
 
 ## Managing the layout of your Galaxy tool panel
 
-The 3 or more files described in the previous section ("tool_conf.xml", one or more "shed_tool_conf.xml files", and "migrated_tools_conf.xml") are all used to load tool panel items (tools, sections, labels and workflows).  A new file named **integrated_tool_panel.xml** has been introduced to define the arrangement for displaying these loaded items in your Galaxy tool panel. [Read more...](/src/galaxy-tool-panel/index.md#managing-the-layout-of-your-galaxy-tool-panel)
+The 3 or more files described in the previous section ("tool_conf.xml", one or more "shed_tool_conf.xml files", and "migrated_tools_conf.xml") are all used to load tool panel items (tools, sections, labels and workflows).  A new file named **integrated_tool_panel.xml** has been introduced to define the arrangement for displaying these loaded items in your Galaxy tool panel. [Read more...](/galaxy-tool-panel/#managing-the-layout-of-your-galaxy-tool-panel)
 
 ## Galaxy Tool Versions
 
-When included in the Galaxy distribution, tools are defined by "id" and "version", among other attributes.  For example, the filter tool has id="Filter1" and version="1.1.0".  When installed from a tool shed, the tool's id becomes its "guid" attribute from the tool shed.  If it is migrated from the Galaxy distribution to the tool shed, the filter tool will have the guid: "toolshed.g2.bx.psu.edu/repos/devteam/filter/Filter1/1.1.0".  To provide backward compatibility for Galaxy workflows and the rerun button in a Galaxy history item, a mapping between the tool's old id and version and its new id (guid) is provided by building a chain of relationships between tool versions.  This happens automatically for every tool that is loaded into your Galaxy instance. [Read more...](/src/galaxy-tool-version-lineage/index.md)
+When included in the Galaxy distribution, tools are defined by "id" and "version", among other attributes.  For example, the filter tool has id="Filter1" and version="1.1.0".  When installed from a tool shed, the tool's id becomes its "guid" attribute from the tool shed.  If it is migrated from the Galaxy distribution to the tool shed, the filter tool will have the guid: "toolshed.g2.bx.psu.edu/repos/devteam/filter/Filter1/1.1.0".  To provide backward compatibility for Galaxy workflows and the rerun button in a Galaxy history item, a mapping between the tool's old id and version and its new id (guid) is provided by building a chain of relationships between tool versions.  This happens automatically for every tool that is loaded into your Galaxy instance. [Read more...](/galaxy-tool-version-lineage/)
 
 ## New tool shed related features in Galaxy
 
@@ -52,7 +52,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
 <br />
 # New & Updated Tools
 
-*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/src/admin/config/tool-dependencies/index.md) *for these and other recently updated Tool Dependencies. Please see * [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) * for additional new tools.*
+*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/) *for these and other recently updated Tool Dependencies. Please see * [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) * for additional new tools.*
 * **RNA-Seq Tools**
   * Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0
     * Requires helper script: **gtf_to_sam** version 1.3.0
@@ -66,7 +66,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
 
 # Galaxy Track Browser (GTB)
 
-**[Trackster](/src/learn/visualization/index.md)**
+**[Trackster](/learn/visualization/)**
 * *New:*
   * Enable visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) peak tracks (see graphic below)
   * Dynamic filtering of read tracks using quality scores
@@ -82,7 +82,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
   * Move 'more rows' icon from tile level to track level 
 
 Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composite Track data using dynamic filters
-</div><a href='/src/learn/visualization/index.md'><img src="/src/images/news-graphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="800px" /></a></div>
+</div><a href='/learn/visualization/'><img src="/src/images/news-graphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="800px" /></a></div>
 
 <br />
 # Workflows
@@ -128,10 +128,10 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 
 # CloudMan
 
-**[CloudMan](/src/cloudman/index.md)**
-* A larger tools volume (10GB vs old 2GB) is now the default for any new [CloudMan](/src/cloudman/index.md) cluster making it easier to customize your Galaxy Cloud instances
-* A [preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py) exists within [CloudMan](/src/cloudman/index.md) (thanks to Mattias de Hollander)
-* Please continue to use AMI **ami-da58aab3** for Galaxy Cloud clusters, as listed on [usegalaxy.org/cloud](/src/cloudman/index.md). There is another AMI dated from Feb 26, 2012 that was not created by the Galaxy Team and is not supported by us. 
+**[CloudMan](/cloudman/)**
+* A larger tools volume (10GB vs old 2GB) is now the default for any new [CloudMan](/cloudman/) cluster making it easier to customize your Galaxy Cloud instances
+* A [preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py) exists within [CloudMan](/cloudman/) (thanks to Mattias de Hollander)
+* Please continue to use AMI **ami-da58aab3** for Galaxy Cloud clusters, as listed on [usegalaxy.org/cloud](/cloudman/). There is another AMI dated from Feb 26, 2012 that was not created by the Galaxy Team and is not supported by us. 
 
 # Source
 
@@ -156,39 +156,39 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 
 # Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Fix for 'Error 349 (net::ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION): Multiple Content-Disposition headers received.' error occuring when downloading certain datasets using Chrome browser
 * Correction to *History Size* calculation to accurately filter out 'purged' datasets in the summary size
 * Various bug fixes for Object Store, with a particular focus on the Distributed Object Store
 
 # Announcements
 
-**[News](/src/news/index.md)**
+**[News](/news/)**
 
-**March 2012** ***[Galaxy Update](/src/galaxy-updates/2012-03/index.md)***
+**March 2012** ***[Galaxy Update](/galaxy-updates/2012-03/)***
 
 ## GCC2012 Update
 
-<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
-* The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) will be held July 25-27, in Chicago. 
+<div class='right'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/events/gcc2012/training-day/'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
+* The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held July 25-27, in Chicago. 
 * The conference will feature two full days of presentations and discussions. 
-* [Abstract submission](/src/events/gcc2012/abstracts/index.md) will [close April 16](/src/events/gcc2012/Key Dates/index.md). 
-* A [whole day of training](/src/events/gcc2012/training-day/index.md) has been added, and topics set:
-  * [Introduction to Galaxy](/src/events/gcc2012/training-day/index.md#ws2)
-  * [Installing Your Own Galaxy](/src/events/gcc2012/training-day/index.md#ws5)
-  * [Galaxy CloudMan](/src/events/gcc2012/training-day/index.md#ws3)
-  * [Integrating Tools & Data Sources](/src/events/gcc2012/training-day/index.md#ws1)
-  * [Galaxy API](/src/events/gcc2012/training-day/index.md#ws6)
-  * [Galaxy Tool Shed](/src/events/gcc2012/training-day/index.md#ws7)
-  * [Ion Torrent - Open Source Sequencing](/src/events/gcc2012/training-day/index.md#ws10)
-* Early [registration](/src/events/gcc2012/register/index.md) will open **any day now** and close June 11. 
+* [Abstract submission](/events/gcc2012/abstracts/) will [close April 16](/src/events/gcc2012/Key Dates/index.md). 
+* A [whole day of training](/events/gcc2012/training-day/) has been added, and topics set:
+  * [Introduction to Galaxy](/events/gcc2012/training-day/#ws2)
+  * [Installing Your Own Galaxy](/events/gcc2012/training-day/#ws5)
+  * [Galaxy CloudMan](/events/gcc2012/training-day/#ws3)
+  * [Integrating Tools & Data Sources](/events/gcc2012/training-day/#ws1)
+  * [Galaxy API](/events/gcc2012/training-day/#ws6)
+  * [Galaxy Tool Shed](/events/gcc2012/training-day/#ws7)
+  * [Ion Torrent - Open Source Sequencing](/events/gcc2012/training-day/#ws10)
+* Early [registration](/events/gcc2012/register/) will open **any day now** and close June 11. 
 
 ## Galaxy is Hiring!
 
 <div class='left'><img src="/src/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
-**The [Galaxy Team](/src/galaxy-team/index.md) Wants You!**
+**The [Galaxy Team](/galaxy-team/) Wants You!**
 <br />
-Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/src/galaxy-is-hiring/index.md)
+Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/galaxy-is-hiring/)
 
 ----
 
@@ -200,6 +200,6 @@ The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)*
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/galaxy-on-twitter/)**
 ----
-</div> Jennifer Jackson, [Galaxy Team](/src/galaxy-team/index.md). Posted to [DevNewsBriefs](/src/docs/index.md) on 2012-03-12</div>
+</div> Jennifer Jackson, [Galaxy Team](/galaxy-team/). Posted to [DevNewsBriefs](/docs/) on 2012-03-12</div>

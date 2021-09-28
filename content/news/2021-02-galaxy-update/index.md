@@ -8,7 +8,7 @@ date: "2021-02-08"
 <div class="card-header">In this issue:</div>
 <div class="card-body">
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 <ul style="font-size: 1.1rem;">
   <li>**[Event news](#event-news)**:
@@ -105,14 +105,14 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # Event News
 
-Despite COVID-19, there is still a lot going on, although online. We have updated our [list of events](/src/events/index.md) to reflect what we know. Some highlights:
+Despite COVID-19, there is still a lot going on, although online. We have updated our [list of events](/events/) to reflect what we know. Some highlights:
 
 <div class="card-deck">
 
 <!-- GCC2021 Goes Virtual -->
 <div class="card border-info" style="min-width: 20rem; max-width: 24rem">
 <img class="card-img-top" src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021 goes virtual" />
-<div class="card-header">[GCC2021 Goes Virtual](/src/news/2021-02-gcc-virtual/index.md)</div>
+<div class="card-header">[GCC2021 Goes Virtual](/news/2021-02-gcc-virtual/)</div>
 
 **The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be virtual, affordable, and globally accessible.**
 
@@ -121,7 +121,7 @@ Things are just too uncertain to continue to plan an in person event for early J
 * **GCC2021 events will be held twice each day**, once in their original Ghent time zone (GCC EMEA/APO), and again 8 hours later in the Americas (GCC Americas).
 * **Registration rates will be a fraction of the cost of an in person event**, and will include a significant discount for students and researchers based in low and lower-middle income countries.
 
-Other things are changing too. See [the announcement](/src/news/2021-02-gcc-virtual/index.md) for details.
+Other things are changing too. See [the announcement](/news/2021-02-gcc-virtual/) for details.
 </div>
 
 
@@ -165,7 +165,7 @@ This series of [webinars](https://elixir-europe.org/events/2nd-galaxy-elixir-web
 <!-- Paper Cuts & GTN Cofest -->
 <div class="card border-info" style="min-width: 18rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN Cofest and Community Call + Paper Cuts February" />
-<div class="card-header">[February Papercuts + GTN: CoFests & Community Calls](/src/events/2021-02-gtn/index.md)</div>
+<div class="card-header">[February Papercuts + GTN: CoFests & Community Calls](/events/2021-02-gtn/)</div>
 
 **25 February, Online, Global**
 
@@ -173,8 +173,8 @@ The February GTN CoFest & Community calls are joining forces with the February P
 
 Both events will feature community calls throughout the day with community engagement on chat throughout the day.  This is an excellent opportunity to become a contributor to the global open science, open source, and open access Galaxy community.
 
-* [Galaxy Training Network day -  CoFest and community call](/src/events/2021-02-gtn/index.md)
-* [Galaxy February Papercuts CoFest day](/src/events/2021-02-papercuts/index.md)
+* [Galaxy Training Network day -  CoFest and community call](/events/2021-02-gtn/)
+* [Galaxy February Papercuts CoFest day](/events/2021-02-papercuts/)
 
 Please join us online on 25 February, wherever you are in the world.
 </div>
@@ -210,11 +210,11 @@ Working in mass spec?  The Galaxy mass spec community gathers every 6 weeks and 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
+<div class="card-header">[Galaxy Developer Roundtable](/community/devroundtable/)</div>
 
 There next roundtable meetup will be:
 
-**[February 18: Featuring You!](/src/events/2021-02-18-dev-roundtable/index.md)**, We don't yet have topics for this round table. *If you have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
+**[February 18: Featuring You!](/events/2021-02-18-dev-roundtable/)**, We don't yet have topics for this round table. *If you have topics you want to discuss, [please submit them by February 15](https://bit.ly/gxdevroundtablepresent)*.
 </div>
 
 
@@ -233,13 +233,13 @@ There next roundtable meetup will be:
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 <div class="card-deck">
 
 <!-- ATACgraph -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[ATACgraph](/src/use/atacgraph/index.md)</div>
+<div class="card-header">[ATACgraph](/use/atacgraph/)</div>
 
 <img class="card-img-top" src="/src/use/atacgraph/atacgraph-flow-slice.png" alt="ATACgraph" />
 
@@ -249,11 +249,11 @@ The [ATACgraph Galaxy container](https://hub.docker.com/r/lsbnb/galaxy_atacgraph
 
 <!-- CorGAT -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[CorGAT](/src/use/corgat/index.md)</div>
+<div class="card-header">[CorGAT](/use/corgat/)</div>
 
 <img class="card-img-top" src="/src/use/laniakea/laniakea_logo_def_white_background.png" alt="CorGAT on Laniakea" />
 
-[CorGAT](http://corgat.cloud.ba.infn.it/galaxy) aligns complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to annotate genetic variants.  See the [CorGAT Manual](https://corgat.readthedocs.io/en/latest/) for more.  CorGAT is one of several servers that runs on [Laniakea](/src/use/laniakea/index.md).
+[CorGAT](http://corgat.cloud.ba.infn.it/galaxy) aligns complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to annotate genetic variants.  See the [CorGAT Manual](https://corgat.readthedocs.io/en/latest/) for more.  CorGAT is one of several servers that runs on [Laniakea](/use/laniakea/).
 </div>
 
 
@@ -279,7 +279,7 @@ These are just a few of the [large number of specialty subdomains hosted by UseG
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -535,7 +535,7 @@ This genome assembly tutorial got an update from Anna Syme.
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

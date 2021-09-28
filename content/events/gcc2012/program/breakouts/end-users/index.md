@@ -5,7 +5,7 @@ title: Galaxy End Users
 
 
 
-**A [GCC22012](/src/events/gcc2012/index.md) [Breakout Session](/src/events/gcc2012/program/breakouts/index.md)**
+**A [GCC22012](/events/gcc2012/) [Breakout Session](/events/gcc2012/program/breakouts/)**
 
 <slot name="/events/gcc2012/linkbox" />
 # Participants
@@ -15,29 +15,29 @@ title: Galaxy End Users
 * Karen Reddy
 
  * 
-* [Anton](/src/people/anton/index.md), [Dan](/src/people/dan/index.md), Rémi, and [Jen](/src/people/jennifer-jackson/index.md) from [Galaxy Team](/src/galaxy-team/index.md)
+* [Anton](/people/anton/), [Dan](/people/dan/), Rémi, and [Jen](/people/jennifer-jackson/) from [Galaxy Team](/src/galaxy-team/)
 
 # Notes
 
-These are a merged grouping of [Anton's](/src/people/anton/index.md), [Dan's](/src/people/dan/index.md), and [Jen's](/src/people/jennifer-jackson/index.md) notes from the breakout.  Please feel free to update, comment, correct or add in anything we didn't have a chance to address during our session.
+These are a merged grouping of [Anton's](/people/anton/), [Dan's](/people/dan/), and [Jen's](/people/jennifer-jackson/) notes from the breakout.  Please feel free to update, comment, correct or add in anything we didn't have a chance to address during our session.
 
 
 ## Platforms
 
-* Galaxy [Main](/src/main/index.md) and [CloudMan](/src/cloudman/index.md)
+* Galaxy [Main](/main/) and [CloudMan](/cloudman/)
 * This group tends to not use Local instances
 
 ## How Galaxy currently facilitates research
 
-* Galaxy [Main](/src/main/index.md)
+* Galaxy [Main](/main/)
   * to identify 'vetted' tools
   * to experiment with workflows before committing resources to Cloud instances
-* [CloudMan](/src/cloudman/index.md)
+* [CloudMan](/cloudman/)
   * to quickly access an instance with tools/reference data set-up and ready to go
   * for storage (S3)
 * General Comments
   * The 'Big Plus' for end users: Amazon allows Galaxy to be used in highly controlled IT environments. 
-  * "Galaxy better than commercial software" (the [Galaxy Team](/src/galaxy-team/index.md) says "thank-you"!!)
+  * "Galaxy better than commercial software" (the [Galaxy Team](/galaxy-team/) says "thank-you"!!)
   * Trackster/Sweepster amazed everyone (shout-out to Jeremy!)
   * New end user community to be aware of: Mass spec
 
@@ -45,22 +45,22 @@ These are a merged grouping of [Anton's](/src/people/anton/index.md), [Dan's](/s
 
 ### Better methods to identify 'Vetted' and 'Best Practice' tools
 
-* Applies to tools on [Main](/src/main/index.md), but in particular tools from [Tool Shed](/src/toolshed/index.md)
-* Community currently relies on [Main](/src/main/index.md) for this type of information
+* Applies to tools on [Main](/main/), but in particular tools from [Tool Shed](/toolshed/)
+* Community currently relies on [Main](/main/) for this type of information
 * Extends to Libraries & other source Data, Workflows, Visualizations
 * Ideas (some overlap):
   * Best practices as a way to adopt to correct tools
   * A need to explain what is needed for particular analysis goals
   * Tag tools/workflows based on publications, citations, peer-reviewed status
   * **DOI** would be the *ideal* tag
-  * Methods to evaluate tools in the [Tool Shed](/src/toolshed/index.md)
-  * [Tool Shed](/src/toolshed/index.md): Download counts/trends e.g. downloads this week week
-  * [Tool Shed](/src/toolshed/index.md): Flag bad objects, like craigslist, to alert admin moderator
+  * Methods to evaluate tools in the [Tool Shed](/toolshed/)
+  * [Tool Shed](/toolshed/): Download counts/trends e.g. downloads this week week
+  * [Tool Shed](/toolshed/): Flag bad objects, like craigslist, to alert admin moderator
 
 ### Data integration between Main and CloudMan
 
 * S3 bucket attachment
-* Ease transfer of libraries/datasets/histories/workflows/pages/etc (primary objects) between [Main](/src/main/index.md) &harr; [CloudMan](/src/cloudman/index.md)
+* Ease transfer of libraries/datasets/histories/workflows/pages/etc (primary objects) between [Main](/main/) &harr; [CloudMan](/cloudman/)
 
 ### Tool integration between Tool Shed and CloudMan
 
@@ -76,7 +76,7 @@ These are a merged grouping of [Anton's](/src/people/anton/index.md), [Dan's](/s
 ## Issues
 
 * Genome access was hurdle to Local install - Dan mentioned rsync server & auto genome tool. **ACTION:** Communicate/wiki (Jen/Dan)
-* [CloudMan](/src/cloudman/index.md) auto-scaling is not working well for long running jobs - e.g. Tophat. **ACTION:** Team discuss then bitbucket. (Jen)
+* [CloudMan](/cloudman/) auto-scaling is not working well for long running jobs - e.g. Tophat. **ACTION:** Team discuss then bitbucket. (Jen)
 
 ## Support
 

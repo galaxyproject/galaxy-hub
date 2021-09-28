@@ -4,18 +4,18 @@ tease: "Events! Pubs! Platforms! Jobs! Releases!"
 date: "2019-11-12"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 The *November 2019 Galactic News*  includes Galactic news under this or any other sun:
 
-* [19 Upcoming Events](/src/news/2019-11-galaxy-update/index.md#events)
-* [208 new publications](/src/news/2019-11-galaxy-update/index.md#publications)
+* [19 Upcoming Events](/news/2019-11-galaxy-update/#events)
+* [208 new publications](/news/2019-11-galaxy-update/#publications)
 * [2 new blog posts](#galactic-blog-activity)
-* [Galaxy Platform News](/src/news/2019-11-galaxy-update/index.md#galaxy-platforms-news)
-* [Training material and doc updates](/src/news/2019-11-galaxy-update/index.md#doc-hub-and-training-updates)
-* [Openings](/src/news/2019-11-galaxy-update/index.md#whos-hiring) with 5 organizations 
+* [Galaxy Platform News](/news/2019-11-galaxy-update/#galaxy-platforms-news)
+* [Training material and doc updates](/news/2019-11-galaxy-update/#doc-hub-and-training-updates)
+* [Openings](/news/2019-11-galaxy-update/#whos-hiring) with 5 organizations 
 * [Releases](#releases)
-* [Other news](/src/news/2019-11-galaxy-update/index.md#other-news)
+* [Other news](/news/2019-11-galaxy-update/#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -35,14 +35,14 @@ If you have anything to include to next month's newsletter, then please send it 
 
 **21st of November, Online**
 
-A [dedicated day of collaborative work](/src/events/2019-11-gtn/index.md) on the training content and calls with the Galaxy training community. Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.
+A [dedicated day of collaborative work](/events/2019-11-gtn/) on the training content and calls with the Galaxy training community. Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/events/2020-pag/pag2020.png" alt="Galaxy @ PAG 2020" />
 <div class="card-header">Galaxy @ PAG 2020</div>
 
-[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/src/events/2020-pag/index.md), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new [Excellence in Breeding platform](/src/use/eib/index.md)) and many talks and posters featuring Galaxy.
+[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/events/2020-pag/), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new [Excellence in Breeding platform](/use/eib/)) and many talks and posters featuring Galaxy.
 
 And there will be a [GMOD Codefest](http://gmod.org/wiki/Codefest_2020) *before* PAG and an [NCBI Codeathon](https://ncbi-codeathons.github.io/) *after* PAG.
 </div>
@@ -52,14 +52,14 @@ And there will be a [GMOD Codefest](http://gmod.org/wiki/Codefest_2020) *before*
 <img class="card-img-top" src="/src/images/logos/abrf-logo-color-text.png" alt="Galaxy @ ABRF 2020" />
 <div class="card-header">Galaxy @ ABRF 2020</div>
 
-[Galaxy will be at 2020 ABRF meeting](/src/events/2020-abrf/index.md), in Palm Springs, California, United States, February 29 through March 3. This includes a full day *hands-on Galaxy Workshop* about using Galaxy with your *single cell and microbiome* data.  ABRF bills itself as "**the** annual conference for technology-enabled multidisciplinary research."
+[Galaxy will be at 2020 ABRF meeting](/events/2020-abrf/), in Palm Springs, California, United States, February 29 through March 3. This includes a full day *hands-on Galaxy Workshop* about using Galaxy with your *single cell and microbiome* data.  ABRF bills itself as "**the** annual conference for technology-enabled multidisciplinary research."
 </div>
 
 <div class="card border-info" style="min-width: 15rem; max-width: 18rem;">
 <img class="card-img-top" src="/src/events/2020-03-admin/2020-admin-banner.png" alt="Galaxy Admin Training 2020" />
 <div class="card-header">2-6 March: Galaxy Admin Training 2020</div>
 
-Save these dates!  The next **[Galaxy Admin Training](/src/events/2020-03-admin/index.md) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
+Save these dates!  The next **[Galaxy Admin Training](/events/2020-03-admin/) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
 
 This week-long hands-on training will feature what you need to know to set up your own production quality Galaxy server.  Registration will open later this month.
 </div>
@@ -70,7 +70,7 @@ This week-long hands-on training will feature what you need to know to set up yo
 
 There are
 
-* [16 upcoming events](/src/events/index.md)
+* [16 upcoming events](/events/)
 * on 4 continents, plus online
 * in US, Ghana, France, Australia, UK, Belgium, and Spain.
 
@@ -106,7 +106,7 @@ Ison, J., Ménager, H., Brancotte, B., Jaaniso, E., Salumets, A., Raček, T., �
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[A high resolution view of adaptive event dynamics in a plasmid](https://doi.org/10.1093/gbe/evz197)</div>
 
-Mei, H., Arbeithuber, B., Cremona, M. A., DeGiorgio, M., & [Nekrutenko, A](/src/people/anton/index.md). (2019). Genome Biology and Evolution. doi: 10.1093/gbe/evz197
+Mei, H., Arbeithuber, B., Cremona, M. A., DeGiorgio, M., & [Nekrutenko, A](/people/anton/). (2019). Genome Biology and Evolution. doi: 10.1093/gbe/evz197
 </div>
 
 <div class="card border-info" style="min-width: 14rem;">
@@ -164,13 +164,13 @@ Agricultural Sciences collaboration between Swedish University of Agricultural s
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">
 
-[Sciensano](/src/use/sciensano/index.md)
+[Sciensano](/use/sciensano/)
 
 </div>
 
@@ -182,7 +182,7 @@ A general purpose Galaxy server optimized for microbiological genomics applicati
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">
 
-[Excellence in Breeding](/src/use/cropgalaxy/index.md)
+[Excellence in Breeding](/use/cropgalaxy/)
 
 </div>
 
@@ -191,7 +191,7 @@ A general purpose Galaxy server optimized for microbiological genomics applicati
 Hosts tools for the [GOBii project](http://gobiiproject.org/), [HTPG project](http://cegsb.icrisat.org/high-throughput-genotyping-project-htpg/) and [EiB platform](http://excellenceinbreeding.org/), including genomic selection, marker selection, GWAS, imputation, file conversion, and cluster analysis. [CGIAR](https://cgiar.org/) supports EiB to help modernize breeding programs targeting the developing world for greater impact on food and nutrition security, climate change adaptation and development.</div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Migale](/src/use/migale/index.md)</div>
+<div class="card-header">[Migale](/use/migale/)</div>
 
 <img class="card-img-top" src="/src/use/migale/migale-orange.png" alt="Migale Galaxy" />
 
@@ -199,7 +199,7 @@ A general purpose genomics server with an emphasis on metagenomics, including FR
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[PepSimili](/src/use/pepsimili/index.md)</div>
+<div class="card-header">[PepSimili](/use/pepsimili/)</div>
 
 <img class="card-img-top" src="/src/use/pepsimili/pepsimili-workflow.png" alt="PepSimili workflow" />
 
@@ -207,7 +207,7 @@ Mapping of massive peptide repertoires on whole proteomes and delivering streaml
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[RNA Modification Calling](/src/use/rna-modification-calling/index.md)</div>
+<div class="card-header">[RNA Modification Calling](/use/rna-modification-calling/)</div>
 
 <img class="card-img-top" src="/src/use/rna-modification-calling/figure3.jpg" alt="RNA Modification Calling" />
 
@@ -215,7 +215,7 @@ A Galaxy Docker image for RNA analysis and modification calling, from the [Helm 
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -279,7 +279,7 @@ By [Simon Gladman](https://training.galaxyproject.org/training-material/hall-of-
 
 # Who's Hiring
 
-The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">

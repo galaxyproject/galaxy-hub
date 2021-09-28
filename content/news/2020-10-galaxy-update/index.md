@@ -6,7 +6,7 @@ date: "2020-10-07"
 
 # In the  October 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * **[Event news & JTech Scholarships](#event-news)**
 * **[Galaxy platform news](#galaxy-platforms-news):** BRIDGE, BioCompute Object, French Galaxies, PhagePromoter, and UseGalaxy.*
@@ -23,7 +23,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # Event News
 
-Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/events/) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
@@ -31,9 +31,9 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <!-- JTech -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/jxtx/cshl_jtech.png" alt="JTech Scholarships" />
-<div class="card-header">[First JTech Scholarships Awarded](/src/news/2020-09-jtech-scholarships/index.md)</div>
+<div class="card-header">[First JTech Scholarships Awarded](/news/2020-09-jtech-scholarships/)</div>
 
-The [first group of scholarships have been awarded](/src/news/2020-09-jtech-scholarships/index.md) by the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to attend [Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20).
+The [first group of scholarships have been awarded](/news/2020-09-jtech-scholarships/) by the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to attend [Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20).
 
 **Please consider [making a donation to JTech](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to support James Taylor’s legacy.**
 </div>
@@ -64,19 +64,19 @@ Two more workshops in October in Jouy-en-Josas and in French.
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md
+<div class="card-header">[Galaxy Developer Roundtable](/community/devroundtable/
 )</div>
 
-The next two [roundtables](/src/community/devroundtable/index.md) are [October 15](/src/events/2020-10-15-dev-roundtable/index.md) and [October 29](/src/events/2020-10-29-dev-roundtable/index.md).  Both events need speakers ([that means you](https://bit.ly/gxdevroundtablepresent)!).
+The next two [roundtables](/community/devroundtable/) are [October 15](/events/2020-10-15-dev-roundtable/) and [October 29](/events/2020-10-29-dev-roundtable/).  Both events need speakers ([that means you](https://bit.ly/gxdevroundtablepresent)!).
 </div>
 
 
 <!-- eResearch Down Under -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2020-10-eresearch-australasia/eresearch-australasia-logo.png" alt="eResearch Australasia" />
-<div class="card-header">[eResearch Australasia](/src/events/2020-10-eresearch-australasia/index.md)</div>
+<div class="card-header">[eResearch Australasia](/events/2020-10-eresearch-australasia/)</div>
 
-Galaxy [is featured in talks, a BoF, and a poster](/src/events/2020-10-eresearch-australasia/index.md) at the virtual [eResearch Australasia](https://conference.eresearch.edu.au/) this month.  Learn more about [Galaxy Australia](https://usegalaxy.org.au/) and how Galaxy support research at CSIRO.
+Galaxy [is featured in talks, a BoF, and a poster](/events/2020-10-eresearch-australasia/) at the virtual [eResearch Australasia](https://conference.eresearch.edu.au/) this month.  Learn more about [Galaxy Australia](https://usegalaxy.org.au/) and how Galaxy support research at CSIRO.
 </div>
 
 
@@ -104,9 +104,9 @@ There will be a session on [GWAS Analysis with Galaxy on the Analysis Visualizat
 <!-- BioHackathon-Europe -->
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/logos/bhlogo.png" alt="BioHackathon Europe" />
-<div class="card-header">[Galaxy @ BioHackathon Europe 2020](/src/events/2020-11-biohackathon-europe/index.md)</div>
+<div class="card-header">[Galaxy @ BioHackathon Europe 2020](/events/2020-11-biohackathon-europe/)</div>
 
-Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/src/events/2020-11-biohackathon-europe/index.md), being held online, 9-13 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
+Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/events/2020-11-biohackathon-europe/), being held online, 9-13 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
 </div>
 
 
@@ -115,7 +115,7 @@ Galaxy [is featured in at least 6 projects at BioHackathon Europe 2020](/src/eve
 <img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
-There are [15 events](/src/events/index.md) in the next 3 months:
+There are [15 events](/events/) in the next 3 months:
 
 * 9 are online.
 * The remaining 6 are in France (4) and the United States (2).
@@ -125,13 +125,13 @@ There are [15 events](/src/events/index.md) in the next 3 months:
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
 
 <div class="card-deck">
 
 <!-- BRIDGE -->
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[BRIDGE](/src/use/bridge/index.md)</div>
+<div class="card-header">[BRIDGE](/use/bridge/)</div>
 
 <img class="card-img-top" src="/src/use/bridge/bridge-slice-500.png" alt="BRIDGE" />
 
@@ -141,7 +141,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 <!-- BioCompute Object -->
 <div class="card border-info"  style="min-width: 11em;">
-<div class="card-header">[BioCompute Object](/src/use/biocompute-object/index.md)</div>
+<div class="card-header">[BioCompute Object](/use/biocompute-object/)</div>
 
 <img class="card-img-top" src="/src/use/biocompute-object/biocompute-objects-logo-wide.png" alt="BioCompute Objects" />
 
@@ -161,7 +161,7 @@ The [24 September IFB newsletter highlights 10 Galaxy resources](http://eepurl.c
 
 <!-- PhagePromoter -->
 <div class="card border-info"  style="min-width: 11rem;">
-<div class="card-header">[PhagePromoter](/src/use/phagepromoter/index.md)</div>
+<div class="card-header">[PhagePromoter](/use/phagepromoter/)</div>
 
 <img class="card-img-top" src="/src/use/phagepromoter/cbe-logo.png" alt="Centre of Biological Engineering" />
 
@@ -171,7 +171,7 @@ PhagePromoter predicts promoter sequences in phage genomes, using machine learni
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -224,9 +224,9 @@ Two funding opportunities are now open within the EU project [EOSC-Life](https:/
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[refgenie for Local Instances](/src/admin/refgenie/index.md)</div>
+<div class="card-header">[refgenie for Local Instances](/admin/refgenie/)</div>
 
-By [Dan Blankenberg](/src/people/dan/index.md).
+By [Dan Blankenberg](/people/dan/).
 
 How to use **[refgenie](http://refgenie.databio.org/)** with your local instance of Galaxy. 
 <img class="card-img-bottom" src="/src/images/logos/refgenie_logo.svg" alt="refgenie" />
@@ -237,7 +237,7 @@ How to use **[refgenie](http://refgenie.databio.org/)** with your local instance
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway. 
+Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway. 
 
 <div class="card-deck">
 
@@ -414,7 +414,7 @@ We are building on the internationally used platform [FAIRDOMhub](https://fairdo
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[CINECA Project Profiles Saskia Hiltemann](https://www.cineca-project.eu/blog-all/connect-with-cineca-saskia-hiltemann)</div>
 
-Saskia is a core member of the [Intergalactic Utilities Commission](/src/iuc/index.md), and one of the creators of the [Galaxy Training Network](https://training.galaxyproject.org/).  Within the [CINECA project](https://www.cineca-project.eu/) Saskia is co-Lead on Work Package 6, dissemination and outreach work, and a major contributor to Work Package 5 - Healthcare Interoperability and Clinical Applications.
+Saskia is a core member of the [Intergalactic Utilities Commission](/iuc/), and one of the creators of the [Galaxy Training Network](https://training.galaxyproject.org/).  Within the [CINECA project](https://www.cineca-project.eu/) Saskia is co-Lead on Work Package 6, dissemination and outreach work, and a major contributor to Work Package 5 - Healthcare Interoperability and Clinical Applications.
 
 <img class="card-img-bottom" src="/src/images/logos/cineca-logo-text.png" alt="CINECA" />
 </div>

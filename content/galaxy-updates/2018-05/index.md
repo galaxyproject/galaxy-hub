@@ -1,9 +1,9 @@
 ---
 title: May 2018 Galaxy News
 ---
-[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
-Welcome to the May 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the May 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
@@ -13,7 +13,7 @@ Welcome to the May 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a summa
 
 [GCCBOSC 2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. This brings the 2018 Galaxy Community Conference and the Bioinformatics Open Source Conference together into a unified week-long event. If you work in open source life science or data-intensive biomedical research, then there is no better place than GCCBOSC 2018 to present your work and to learn from others.
 
-[GCCBOSC](https://gccbosc2018.sched.com/) starts with [two days of training](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All) with a wide range of topics nominated and selected by our communities.  Training is followed by a two day meeting, with joint and parallel tracks, featuring oral presentations, posters, demos, lightning talks, birds-of-a-feather and [invited keynotes](/src/events/gccbosc2018/keynotes/index.md).  The week finishes with *[CollaborationFest](/src/events/gccbosc2018/collaboration/index.md) Core* and *Encore*, two or four days of collaborative work on code, documentation, training and challenging data analysis problems.
+[GCCBOSC](https://gccbosc2018.sched.com/) starts with [two days of training](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All) with a wide range of topics nominated and selected by our communities.  Training is followed by a two day meeting, with joint and parallel tracks, featuring oral presentations, posters, demos, lightning talks, birds-of-a-feather and [invited keynotes](/events/gccbosc2018/keynotes/).  The week finishes with *[CollaborationFest](/events/gccbosc2018/collaboration/) Core* and *Encore*, two or four days of collaborative work on code, documentation, training and challenging data analysis problems.
 
 ## GCC2018 schedule posted
 
@@ -27,9 +27,9 @@ Did you catch that?  **Early registration ends May 11!**  *So c'mon, register al
 
 * [Register](https://gccbosc2018.eventbrite.com)
 * [Book conference housing](https://gccbosc2018housing.eventbrite.com)
-* [Childcare](/src/events/gccbosc2018/childcare/index.md).  **Space in childcare is very limited.**
+* [Childcare](/events/gccbosc2018/childcare/).  **Space in childcare is very limited.**
 
-If you register after May 11, you will have less money to fund reagents, storage, compute timepost-docs, field work, 3D printers, [VR systems](/src/events/gccbosc2018/icebreaker/index.md)...
+If you register after May 11, you will have less money to fund reagents, storage, compute timepost-docs, field work, 3D printers, [VR systems](/events/gccbosc2018/icebreaker/)...
 
 ## BOSC deadline for late-breaking lightning talks, demos and posters is May 17
 
@@ -54,7 +54,7 @@ Life sciences is an ideal domain to take full advantage of all the things that H
 
 **[Advanced HPC's](https://www.advancedhpc.com/industries/life-sciences/)** experts offer many advantages, including extensive consultation and support. As HPC software specialists, our engineers can customize complex solutions for you more quickly and efficiently than our competitors.
 
-Advanced HPC is pleased to be the first ever **[GCCBOSC Icebreaker](/src/events/gccbosc2018/icebreaker/index.md) Sponsor**.
+Advanced HPC is pleased to be the first ever **[GCCBOSC Icebreaker](/events/gccbosc2018/icebreaker/) Sponsor**.
 
 
 <div class="float-right">
@@ -63,7 +63,7 @@ Advanced HPC is pleased to be the first ever **[GCCBOSC Icebreaker](/src/events/
 
 ### Call for sponsors!
 
-[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/src/events/gccbosc2018/sponsors/index.md#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 <br />
 
@@ -93,7 +93,7 @@ Even though the event ended, it planted a seed for a new Galaxy community that s
 
 # Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md)  coming up in the next few months:
+These and [other Galaxy related events](/events/)  coming up in the next few months:
 
 <table class="table table-striped">
 <thead>
@@ -278,16 +278,16 @@ The Galaxy is expanding! Please help it grow.
 * [Post-Doc / IR analyse de données miRNA](https://www.sfbi.fr/content/post-doc-ir-analyse-de-donn%C3%A9es-mirna), Unité de Nutrition Humaine, Clermont-Fd, France
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * [Development of innovative algorithms to process real-time mass spectrometry data for the clinical analysis of exhaled breath](https://www.sfbi.fr/content/d%C3%A9veloppement-doutils-bioinformatiques-et-statistiques-pour-lanalyse-de-lair-expir%C3%A9-en-m%C3%A9dec), CEA, Saclay, France
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Another public server was added to the directory in April:
+There are [over 100 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Another public server was added to the directory in April:
 
 ## IRProfiler
 
@@ -319,7 +319,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in April](/src/toolshed/contributions/2018-04/index.md).
+[Tool Shed contributions in April](/toolshed/contributions/2018-04/).
 
 # Releases
 

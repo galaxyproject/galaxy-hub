@@ -1,15 +1,15 @@
 ---
 title: Job and Tool Error Help
 ---
-[Back to Support Hub](/src/support/index.md)
+[Back to Support Hub](/support/)
 
 Related topics
 
-* [Tutorials](/src/learn/index.md)
+* [Tutorials](/learn/)
 * [Getting Inputs Right](/src/support/#getting-inputs-right)
-* [Extended Help for Differential Expression Analysis Tools](/src/support/diff-expression/index.md)
-* [Reporting Usage Issues or Software bugs](/src/issues/index.md)
-* [Choices](/src/use/index.md#which-platform-platform-type-to-choose)
+* [Extended Help for Differential Expression Analysis Tools](/support/diff-expression/)
+* [Reporting Usage Issues or Software bugs](/issues/)
+* [Choices](/use/#which-platform-platform-type-to-choose)
 * [Ecosystem](https://galaxyproject.github.io/)
 * [Galaxy Help](https://help.galaxyproject.org/)
 * [Search all Prior `Q&A` and Galaxy Resources](https://galaxyproject.org/search/)
@@ -34,17 +34,17 @@ What to do? It depends on the **failure type** and where you are using Galaxy.
 ### TIPS
 
 1. The general troubleshooting help applies to most Galaxy servers/tools/functions.
-1. The cluster error help is server specific for [Galaxy Main](/src/main/index.md) at http://usegalaxy.org. 
-1. If working at a different public Galaxy server, [contacting the admins directly](/src/use/index.md) to address server-related problems is often necessary. Each Galaxy is independently administered.
+1. The cluster error help is server specific for [Galaxy Main](/main/) at http://usegalaxy.org. 
+1. If working at a different public Galaxy server, [contacting the admins directly](/use/) to address server-related problems is often necessary. Each Galaxy is independently administered.
 
 
 ## Determining the job failure type
 
 Did the job fail with some comments that are not descriptive of the problem? Are you sure? 
 
-Click on the bug icon ![](/src/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll able to link your issue to existing troubleshooting help, either here in the [Galaxy hub](/src/support/index.md) or at [Galaxy Help](https://help.galaxyproject.org/). Archived Q&A may still be helpful, find it here: [Galaxy Biostars](https://biostar.usegalaxy.org).
+Click on the bug icon ![](/src/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll able to link your issue to existing troubleshooting help, either here in the [Galaxy hub](/support/) or at [Galaxy Help](https://help.galaxyproject.org/). Archived Q&A may still be helpful, find it here: [Galaxy Biostars](https://biostar.usegalaxy.org).
 
-Advanced troubleshooting help is covered at: [Reporting Usage Issues or Software bugs](/src/issues/index.md)
+Advanced troubleshooting help is covered at: [Reporting Usage Issues or Software bugs](/issues/)
 
 If you are still stuck after reviewing, please do send in the bug report and we can help.
 
@@ -53,7 +53,7 @@ If you are still stuck after reviewing, please do send in the bug report and we 
 * Do not delete the history immediately after submitting a bug report. Otherwise, there is a good chance we won't be able to help you.
 * Should you solve the problem before we reply, a follow-up email to let us know is appreciated.
 * The majority of submitted reports are not true software bugs. **Usage problems involving incorrect input format or content cause most errors**. 
-* Confirming correct tool usage is where we start when diagnosing a problem, [**and is where you should start, too.**](/src/support/troubleshoot-an-error/index.md). Sharing details about what you checked is always helpful.
+* Confirming correct tool usage is where we start when diagnosing a problem, [**and is where you should start, too.**](/support/troubleshoot-an-error/). Sharing details about what you checked is always helpful.
 
 ### Type: input problems
 
@@ -80,8 +80,8 @@ These are the top reasons for tool failures.
 
 * Fix the inputs. 
 * Read the tool form help.
-* **Follow the guidelines and troubleshooting help at the [Support Hub](/src/support/index.md).**
-* **Review a [Galaxy Tutorial](/src/learn/index.md) that covers your analysis and/or tool.**
+* **Follow the guidelines and troubleshooting help at the [Support Hub](/support/).**
+* **Review a [Galaxy Tutorial](/learn/) that covers your analysis and/or tool.**
 
 #### Special cases - input
 
@@ -114,7 +114,7 @@ If after reviewing inputs (see section for that job falure reason below) and re-
 
 *   Search prior questions/answers at [Galaxy Help](https://help.galaxyproject.org/) (current Q&A) or at [Galaxy Biostar](https://biostar.usegalaxy.org) (archived Q&A)
 *   Submit a novel question at [Galaxy Help](https://help.galaxyproject.org/)
-*   Report the novel issue in a bug report if working at [Galaxy Main](/src/main/index.md) (http://usegalaxy.org) or you can reproduce the error there.
+*   Report the novel issue in a bug report if working at [Galaxy Main](/main/) (http://usegalaxy.org) or you can reproduce the error there.
 
 ### Type: exceeds memory allocation
 
@@ -182,9 +182,9 @@ job info:
 Remote job server indicated a problem running or monitoring this job.
 ```
 
-The error indicates that the job execution time exceeded the "wall-time" on the cluster node that ran the job. "Wall-time" is the maximum amount of time any job has to complete before it is terminated. When using the public [Main](/src/main/index.md) Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org), see the walltime available on the different clusters [here](/src/main/index.md).
+The error indicates that the job execution time exceeded the "wall-time" on the cluster node that ran the job. "Wall-time" is the maximum amount of time any job has to complete before it is terminated. When using the public [Main](/main/) Galaxy instance at [http://usegalaxy.org](http://usegalaxy.org), see the walltime available on the different clusters [here](/main/).
 
-Sometimes the execution time of a job can be decreased by adjusting the inputs, parameters used, or the cluster used (try **[Stampede or Jetstream](/src/main/index.md)**, if available for the tool form under the section **Job Resource Parameters**). This solution is similar to jobs that error for exceeding memory allocation.
+Sometimes the execution time of a job can be decreased by adjusting the inputs, parameters used, or the cluster used (try **[Stampede or Jetstream](/main/)**, if available for the tool form under the section **Job Resource Parameters**). This solution is similar to jobs that error for exceeding memory allocation.
 
 If you are excuting a tool that runs on certain remote clusters (example tools: Trinity, Unicycler), the problem could be input problems, exceeding memory, or actually exceeding the "wall-time". These clusters have fixed resources.
 
@@ -202,7 +202,7 @@ If you are excuting a tool that runs on certain remote clusters (example tools: 
 * Give a longer-running cluster a try.
 * If the re-run fails again, and there are no known server issues, the issue is probably not cluster/server related but an input problem that needs to be corrected. 
 * In some cases, reporting the memory or wall-time issue to our team as a bug report is a good way to let us know about tools that run out of resource. Please have the expectation that we probably can not solve your specific issue immediately, but cumulative feedback helps us to learn which tools would benefit from additional resource allocation.
-* If the job remains too large to run at [Galaxy Main](/src/main/index.md)(http://usegalaxy.org)(http://usegalaxy.org), then moving to an instance where more memory can be allocated to jobs is the solution. A good choice is [CloudMan](http://usegalaxy.org/cloud) as processing memory is easily scaled up. [AWS in Education](http://aws.amazon.com/grants/) grants can help with costs. Another option is setting up a [local Galaxy](http://getgalaxy.org), if you have a computer/server with enough processing memory (16 GB minimum, but more is likely needed if the jobs are large, possibly up to 64 GB).
+* If the job remains too large to run at [Galaxy Main](/main/)(http://usegalaxy.org)(http://usegalaxy.org), then moving to an instance where more memory can be allocated to jobs is the solution. A good choice is [CloudMan](http://usegalaxy.org/cloud) as processing memory is easily scaled up. [AWS in Education](http://aws.amazon.com/grants/) grants can help with costs. Another option is setting up a [local Galaxy](http://getgalaxy.org), if you have a computer/server with enough processing memory (16 GB minimum, but more is likely needed if the jobs are large, possibly up to 64 GB).
 
 #### Special cases - memory or walltime
 
@@ -254,7 +254,7 @@ Usage error:
 
 Software or Tool Bug:
 
-* A tool fails and produces an error message stating that a dependency was not found. The tool is not on the list of [Known tool issues](/src/support/tool-issues/index.md) and a search against [all issues](/src/issues/index.md) does not locate a prior reported problem. You report the issue through a bug report, it is clarified and confirmed, the developers make a fix, and the updated tool is installed on the server. Future jobs are now successful.
+* A tool fails and produces an error message stating that a dependency was not found. The tool is not on the list of [Known tool issues](/support/tool-issues/) and a search against [all issues](/issues/) does not locate a prior reported problem. You report the issue through a bug report, it is clarified and confirmed, the developers make a fix, and the updated tool is installed on the server. Future jobs are now successful.
 * When importing an older workflow, a pop-up notice informs that an upgraded tool is available. This tool is editted into the workflow. However, now the workflow fails - at that same tool that was updated. The issue is reported and fixed. Now your workflow runs without problems.
 
 #### How to detect - bugs
@@ -265,7 +265,7 @@ Software or Tool Bug:
 
 #### How to resolve - bugs
 
-* If you are on the public [Galaxy Main](/src/main/index.md) (http://usegalaxy.org) server, and ran a tool that produced a red error dataset, then you will probably want to start by reviewing the error reasons here first. 
+* If you are on the public [Galaxy Main](/main/) (http://usegalaxy.org) server, and ran a tool that produced a red error dataset, then you will probably want to start by reviewing the error reasons here first. 
 * Fixing inputs first, as needed, and rerunning is recommended.
 * If you cannot determine the problem, report the error in a bug report. Add in comments about your reasons why this seems like a tool bug and not a usage/input problem if you can.
 
@@ -273,4 +273,4 @@ Software or Tool Bug:
 
 * Software can fail for many reasons. If you think there is a problem, please report it.
 * Send in a bug report or ask a question at Galaxy Biostars if you want the issue vetted first.
-* If you are reasonably certain the problem is with software or tools, and not usage, please report it directly to the [Galaxy Issue Board](/src/issues/index.md).
+* If you are reasonably certain the problem is with software or tools, and not usage, please report it directly to the [Galaxy Issue Board](/issues/).

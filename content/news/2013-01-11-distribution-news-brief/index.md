@@ -2,7 +2,7 @@
 title: "Jan 11, 2013 Distribution & News Brief"
 date: "2013-01-11"
 ---
-**Complete [News Brief](/src/archive/dev-news-briefs/2013-01-11/index.md)**
+**Complete [News Brief](/archive/dev-news-briefs/2013-01-11/)**
 <div class='right'><a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="width=200" /></a></div>
 **Highlights:**
 <br />
@@ -28,4 +28,4 @@ upgrade: $ hg pull -u -r a4113cc1cb5e
 
 *Thanks for using Galaxy,*
 
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

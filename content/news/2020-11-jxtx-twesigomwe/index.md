@@ -5,7 +5,7 @@ external_url: ""
 date: "2020-11-20"
 ---
 
-The [JXTX Foundation](/src/jxtx/foundation/index.md)'s first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference](/src/news/2020-10-jxtx-awardees/index.md) at Cold Spring Harbor Laboratory.  Awards were competitive and we were delighted with our first round of participants.
+The [JXTX Foundation](/jxtx/foundation/)'s first activity was to [sponsor 10 graduate students to attend the 2020 Biological Data Science Conference](/news/2020-10-jxtx-awardees/) at Cold Spring Harbor Laboratory.  Awards were competitive and we were delighted with our first round of participants.
 
 **[David Twesigomwe](https://about.me/twesidave)**, a scholarship awardee and a PhD candidate in Human Genetics at the [Sydney Brenner Institute for Molecular Bioscience](https://www.wits.ac.za/research/sbimb/) at the [University of the Witwatersrand, Johannesburg](https://www.wits.ac.za/) benefited greatly from his participation:
 
@@ -18,7 +18,7 @@ The JXTX Foundation Scholarship gave me the opportunity to attend the 2020 CSHL 
 
 <br />
 
-Please help further the careers of junior researchers by considering make a contribution to [JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md).
+Please help further the careers of junior researchers by considering make a contribution to [JXTX: The James P. Taylor Foundation for Open Science](/jxtx/foundation/).
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">

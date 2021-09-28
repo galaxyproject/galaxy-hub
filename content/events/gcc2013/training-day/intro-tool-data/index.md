@@ -6,7 +6,7 @@ title: GCC2013 Training Day
 
 
 <slot name="/events/gcc2013/linkbox" />
-<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 # Introduction to tools and data sources
 
@@ -174,7 +174,7 @@ Why is this a good thing?
 
 ## 1:10 – 1:20pm Hello_sanitizer
 
-Sometimes you will need to control the characters allowed in a text parameter - for example to prevent the user from supplying a space or other potentially annoying character. The [sanitizer tag set](/src/admin/tools/tool-config-syntax/index.md#sanitizer-tag-set) allows excluding specific characters. The format requires an initial definition of acceptable characters and individual ones can be added with the add tag.
+Sometimes you will need to control the characters allowed in a text parameter - for example to prevent the user from supplying a space or other potentially annoying character. The [sanitizer tag set](/admin/tools/tool-config-syntax/#sanitizer-tag-set) allows excluding specific characters. The format requires an initial definition of acceptable characters and individual ones can be added with the add tag.
 
 ```xml
 <tool id="hello" name="hello" version="0.03">
@@ -207,7 +207,7 @@ Reload, test etc.
 
 ## 1:20 – 1:30pm Hello_file
 
-So far, the tool does not accept any input files from the user's history. These require a **[data](/src/admin/tools/tool-config-syntax/index.md#typedata)** parameter specifying the template name for the input file and a data type (optionally a comma delimited list for multiple acceptable datatypes) which will be used to filter the user's current history so you can restrict the drop down choice list to the datatypes your tool needs - excluding other potentially unacceptable data formats to make it harder for the user to choose an incompatible datatype. 
+So far, the tool does not accept any input files from the user's history. These require a **[data](/admin/tools/tool-config-syntax/#typedata)** parameter specifying the template name for the input file and a data type (optionally a comma delimited list for multiple acceptable datatypes) which will be used to filter the user's current history so you can restrict the drop down choice list to the datatypes your tool needs - excluding other potentially unacceptable data formats to make it harder for the user to choose an incompatible datatype. 
 
 Before we can implement that, we need to first make a suitable input file in the current history. A plain text file containing a few words of text is all you need. There are lots of ways of doing this, but the simplest way is to simply paste or write some text into the URL box of the **Get data &rarr; Upload File** tool, then set the file format to **txt** and press execute. A new text file containing whatever you typed will appear in your history after a few moments.
 
@@ -245,7 +245,7 @@ Reload, test etc.
 
 ## 1:30 – 1:45pm hello_datasource
 
-Here is a simple datasource example. It is a a simple html page that uses JavaScript to parse incoming parameters and change the form action attribute to the provided GALAXY_URL value. The user can click the submit button to post the URL value (a prefilled text box) back to the originating Galaxy server. For more information on data source tools, see [here](/src/admin/internals/data-sources/index.md).
+Here is a simple datasource example. It is a a simple html page that uses JavaScript to parse incoming parameters and change the form action attribute to the provided GALAXY_URL value. The user can click the submit button to post the URL value (a prefilled text box) back to the originating Galaxy server. For more information on data source tools, see [here](/admin/internals/data-sources/).
 
 We'll use Python's built-in simple HTTP server to make the html page into a web-loadable link:
 ```

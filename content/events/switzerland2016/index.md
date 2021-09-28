@@ -7,12 +7,12 @@ title:  3rd Swiss Galaxy Workshop, Thursday, October 20th, Freiburg (Germany)
 
 <slot name="/events/sg2016/linkbox" />
 
-After the big success of the [first Swiss Galaxy Workshop](/src/events/switzerland2012/index.md) and the [second Swiss Galaxy Workshop](/src/events/switzerland2014/index.md), we are going to organize a similar event again in fall 2016.
+After the big success of the [first Swiss Galaxy Workshop](/events/switzerland2012/) and the [second Swiss Galaxy Workshop](/events/switzerland2014/), we are going to organize a similar event again in fall 2016.
 
 
 ## Topic of the Workshop
 
-This year, the workshop is aimed at Galaxy administrators and will collocate with the Oktober meetup of the  [Galaxy-Admins discussion group](/src/community/galaxy-admins/index.md). Similar to the regular Galaxy-Admins web-meetups, we intend to have a mixture of presentations about the use of the Galaxy framework and informations about the latest developments. We encourage presentations about your success stories using Galaxy as well as the problems you have encountered. Please indicate a preliminary title on the [registration page](https://docs.google.com/forms/d/1mRO4uNXQd8jL1I9JNiQ4xd0fnrZKlQPQSORgJCpDeqg).
+This year, the workshop is aimed at Galaxy administrators and will collocate with the Oktober meetup of the  [Galaxy-Admins discussion group](/community/galaxy-admins/). Similar to the regular Galaxy-Admins web-meetups, we intend to have a mixture of presentations about the use of the Galaxy framework and informations about the latest developments. We encourage presentations about your success stories using Galaxy as well as the problems you have encountered. Please indicate a preliminary title on the [registration page](https://docs.google.com/forms/d/1mRO4uNXQd8jL1I9JNiQ4xd0fnrZKlQPQSORgJCpDeqg).
 
 ## Preliminary Schedule
 
@@ -20,11 +20,11 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 | Time |  Speaker  |  Title  |  Slides  | 
 | ---- | -------- | ------ | ------- | 
 | 9:15 - 9:30 |  ARRIVAL  | 
-| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/src/people/bjoern-gruening/index.md) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   | 
-| 9:45 - 10:30 |  [Dannon Baker](/src/people/dannon-baker/index.md)  |  State of the Galaxy Project - priorities, plans, and community  |   | 
+| 9:30 - 9:45 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |   | 
+| 9:45 - 10:30 |  [Dannon Baker](/people/dannon-baker/)  |  State of the Galaxy Project - priorities, plans, and community  |   | 
 | 10:30 - 11:00 |  Coffee Break  | 
-| 11:00 - 11:20 |  Nicola Soranzo  |  News from the [IUC](/src/iuc/index.md) and the Galaxy tool ecosystem  |   | 
-| 11:20 - 11:40 |  [Björn Grüning](/src/people/bjoern-gruening/index.md)  |  Fixing Bioinformatic Infrastructure  |   | 
+| 11:00 - 11:20 |  Nicola Soranzo  |  News from the [IUC](/iuc/) and the Galaxy tool ecosystem  |   | 
+| 11:20 - 11:40 |  [Björn Grüning](/people/bjoern-gruening/)  |  Fixing Bioinformatic Infrastructure  |   | 
 | 11:40 - 12:00 |  Bérénice Batut  |  [Galaxy Training Network](https://training.galaxyproject.org/) - rebooted  |   | 
 | 12:00 - 13:30 |  Lunch Break in nearby restaurants  | 
 | 13:30 - 13:50 |  TBA  |  Debian Med - Debian for medicine and life sciences  |   | 
@@ -35,14 +35,14 @@ This year, the workshop is aimed at Galaxy administrators and will collocate wit
 | 15:20 - 15:40 |  Nikolay Vazov  |  Customizing Galaxy for Large Institutions  |   | 
 | 15:40 - 16:00 |  TBA  |   |   | 
 | 16:00 - 17:00 |  lightening talks  |   |   | 
-| 17:00 - 17:01 |  [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md)  |  concluding remarks  |   | 
+| 17:00 - 17:01 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/), [Björn Grüning](/people/bjoern-gruening/)  |  concluding remarks  |   | 
 | 17:01 - 17:15 |  ...going to the pub  | 
 
 
 ## Location / Registration
 
-The workshop will be held at the Universität of Freiburg in Germany (see the [main page](/src/events/sg2016/index.md) for details). Registration is free, and you can sign-up [here](https://docs.google.com/forms/d/1mRO4uNXQd8jL1I9JNiQ4xd0fnrZKlQPQSORgJCpDeqg).
+The workshop will be held at the Universität of Freiburg in Germany (see the [main page](/events/sg2016/) for details). Registration is free, and you can sign-up [here](https://docs.google.com/forms/d/1mRO4uNXQd8jL1I9JNiQ4xd0fnrZKlQPQSORgJCpDeqg).
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) or [Björn Grüning](/src/people/bjoern-gruening/index.md)
+Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/people/bjoern-gruening/)

@@ -24,7 +24,7 @@ Galaxy will again have a strong presence at the 2015 ASMS meeting.
     <td> 5:45 </td>
     <td> Room 123/124 </td>
     <td> Workshop: The Galaxy Framework for MS-based Informatics </td>
-    <td colspan=2 style=" text-align: center;"> See <a href='/src/events/asms2015/index.md#workshop-4-the-galaxy-framework-for-ms-based-informatics'>below</a> </td>
+    <td colspan=2 style=" text-align: center;"> See <a href='/events/asms2015/#workshop-4-the-galaxy-framework-for-ms-based-informatics'>below</a> </td>
   </tr>
   <tr class="th" >
     <th colspan=6> </th>

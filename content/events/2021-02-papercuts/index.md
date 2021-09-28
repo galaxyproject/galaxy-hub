@@ -13,9 +13,9 @@ contact: Community
 tags: [ cofest, papercuts ]
 ---
 
-*Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/src/events/cofests/papercuts/index.md) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
+*Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/events/cofests/papercuts/) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
 
-**The February 2021 Papercuts CoFest will be held concurrently with the [Galaxy Training Network day](/src/events/2021-02-gtn/index.md)**, which like Papercuts is a CoFest featuring community calls throughout participating time zones.  You are encouraged to participate in both.
+**The February 2021 Papercuts CoFest will be held concurrently with the [Galaxy Training Network day](/events/2021-02-gtn/)**, which like Papercuts is a CoFest featuring community calls throughout participating time zones.  You are encouraged to participate in both.
 
 Want to improve Galaxy, and get involved with Galaxy? Please join us on February 25.
 
@@ -64,7 +64,7 @@ We have calls spread throughout the day.  Calls last for 30 minutes.  The rest o
 </div>
 <br />
 
-The February Papercuts has a new emphasis on [helping students get involved with Galaxy](/src/events/cofests/papercuts/index.md#papercuts-for-students), a global open source / open science project. This month we are particularly reaching out to people at these universities:
+The February Papercuts has a new emphasis on [helping students get involved with Galaxy](/events/cofests/papercuts/#papercuts-for-students), a global open source / open science project. This month we are particularly reaching out to people at these universities:
 
 * [James Cooke University](https://www.jcu.edu.au/), Townsville, Cairns & Brisbane, Australia
 * [Heriot-Watt University](https://www.hw.ac.uk/), Edinburgh, United Kingdom

@@ -8,7 +8,7 @@ date: '2017-06-25'
 <div class="center">[Coincidence?](http://bit.ly/ismbdinnerpoll)</div>
 </div>
 
-We are [organizing an informal dinner/social gathering for the Galaxy Community](http://bit.ly/ismbdinnerpoll) at [ISMB/ECCB/BOSC 2017](/src/events/2017-ismb-bosc/index.md), and we want to know which night we should have it.
+We are [organizing an informal dinner/social gathering for the Galaxy Community](http://bit.ly/ismbdinnerpoll) at [ISMB/ECCB/BOSC 2017](/events/2017-ismb-bosc/), and we want to know which night we should have it.
 
 *Dinner will be pay-your-own-way* and will be at a restaurant within walking or easy public transportation distance from the conference.
 

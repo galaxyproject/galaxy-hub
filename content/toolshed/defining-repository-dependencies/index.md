@@ -2,8 +2,8 @@
 
 Repositories in the Tool Shed can contain a file named **repository_dependencies.xml** that creates dependency relationships between repositories when installed into Galaxy.  Repository dependency definitions are currently supported only within the same Tool Shed.  In other words, a repository in a local Tool Shed cannot require a repository in the main Galaxy Tool Shed.
 
-[Simple Repository Dependency Definitions](/src/toolshed/simple-repository-dependencies/index.md)
+[Simple Repository Dependency Definitions](/toolshed/simple-repository-dependencies/)
 
-[Complex Repository Dependency Definitions](/src/toolshed/complex-repository-dependencies/index.md)
+[Complex Repository Dependency Definitions](/toolshed/complex-repository-dependencies/)
 
-[Supported repository_dependencies.xml Tag Sets](/src/toolshed/repository-dependencies-tag-sets/index.md)
+[Supported repository_dependencies.xml Tag Sets](/toolshed/repository-dependencies-tag-sets/)

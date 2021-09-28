@@ -10,6 +10,6 @@ If you have a Galaxy deployment then please take a few minutes to describe your 
 
 Thanks a bunch, and please let us know if you have any questions.
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)
 
 *2020-12-04 Update: The Deployment catalog is no longer available.*

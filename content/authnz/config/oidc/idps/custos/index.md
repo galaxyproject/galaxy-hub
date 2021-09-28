@@ -4,7 +4,7 @@ highlight: true
 ---
 
 _This page explains how to configure this feature as an administrator,
-for user-specific docs, please refer to the [Use page](/src/authnz/use/oidc/idps/custos/index.md)._
+for user-specific docs, please refer to the [Use page](/authnz/use/oidc/idps/custos/)._
 
 
 # About Custos
@@ -24,7 +24,7 @@ allowing users to link their institutional identities with a Galaxy account.
 
 To set up a Galaxy instance to work with Custos, it is necessary to enable
 OIDC-based login for Galaxy. To do this, follow the instructions for enabling
-[OIDC-based login](/src/authnz/config/oidc/index.md#enable-oidc-based-login).
+[OIDC-based login](/authnz/config/oidc/#enable-oidc-based-login).
 Next, it is necessary to register your Galaxy instance as a client of Custos.
 The following section demonstrates how to do that. Finally, you need to
 configure Custos as an IdP provider in Galaxy by editing
@@ -79,7 +79,7 @@ For example:
    https://university.edu/galaxy/authnz/custos/callback
    ```
 
-   See [this section](/src/authnz/config/oidc/index.md#redirect-uri) for details.
+   See [this section](/authnz/config/oidc/#redirect-uri) for details.
 
 3. After making the POST request, you should get a response containing your
    `Client ID` and `Client Secret`; note this info! You will need it for the
@@ -161,4 +161,4 @@ feature will become available. The login page should look as follows:
 
 For the end-user documentation of how to use the Custos login now that it has
 been configured, take a look at the
-[end-user](/src/authnz/use/oidc/idps/custos/index.md) page.
+[end-user](/authnz/use/oidc/idps/custos/) page.

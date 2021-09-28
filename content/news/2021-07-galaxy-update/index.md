@@ -4,7 +4,7 @@ tease: "GCC2021 is under way."
 date: "2021-07-02"
 ---
 
-<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -104,11 +104,11 @@ An agricultural cooperative held by French farmers, and an international seed gr
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
-[Galaxy Career Center](/src/careers/index.md)
+[Galaxy Career Center](/careers/)
 
 </div>
 
-There are new positions in the [Galaxy Career Center](/src/careers/index.md), in the Netherlands, the United Kingdom, and in the United States.  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There are new positions in the [Galaxy Career Center](/careers/), in the Netherlands, the United Kingdom, and in the United States.  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
 
@@ -134,7 +134,7 @@ Open Life Science (OLS) is an online mentoring & training program to help indivi
 
 Did we mention that the [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) is under way?  Just checking...
 
-But even something as universe-spanning as GCC doesn't suck up all the oxygen in the Galaxy Community. Here are some other [upcoming events highlights](/src/events/index.md):
+But even something as universe-spanning as GCC doesn't suck up all the oxygen in the Galaxy Community. Here are some other [upcoming events highlights](/events/):
 
 <div class="card-deck">
 
@@ -148,7 +148,7 @@ But even something as universe-spanning as GCC doesn't suck up all the oxygen in
 </div>
 <div class="card-header trim-p">
 
-[Galaxy-E @ SORTEE 2021](/src/events/2021-07-sortee/index.md)
+[Galaxy-E @ SORTEE 2021](/events/2021-07-sortee/)
 
 </div>
 
@@ -168,13 +168,13 @@ SORTEE 2021 brings together researchers working to improve reliability and trans
 </div>
 <div class="card-header trim-p">
 
-[Galaxy @ ISMB/ECCB/BOSC 2021](/src/events/2021-ismb-eccb-bosc/index.md)
+[Galaxy @ ISMB/ECCB/BOSC 2021](/events/2021-ismb-eccb-bosc/)
 
 </div>
 
 **25-31 July, Online, Global**
 
-Galaxy has always had a presence at ISMB/ECCB and BOSC, and we will [be there again in 2021](/src/events/2021-ismb-eccb-bosc/index.md).
+Galaxy has always had a presence at ISMB/ECCB and BOSC, and we will [be there again in 2021](/events/2021-ismb-eccb-bosc/).
 </div>
 
 
@@ -183,7 +183,7 @@ Galaxy has always had a presence at ISMB/ECCB and BOSC, and we will [be there ag
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
@@ -219,7 +219,7 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -228,7 +228,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
@@ -349,7 +349,7 @@ How to obtain, run and combine these workflows appropriately for different types
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -377,11 +377,11 @@ Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
 <div class="card-header trim-p">
 
-[Galaxy 21.05](/src/news/2021-06-galaxy-release-21-05/index.md)
+[Galaxy 21.05](/news/2021-06-galaxy-release-21-05/)
 
 </div>
 
-We are pleased to [announce the 21.05 Galaxy release](/src/news/2021-06-galaxy-release-21-05/index.md).
+We are pleased to [announce the 21.05 Galaxy release](/news/2021-06-galaxy-release-21-05/).
 
 A new development stack (featuring FastAPI, Celery and Circus) is coming, a job handler update is here, ¡Galaxy, ahora en español!,  Remote Files gets FTP Support, and SimText visualization is added.
 

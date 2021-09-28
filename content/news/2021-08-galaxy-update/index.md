@@ -4,7 +4,7 @@ tease: "GCC2021 is over and we're heading to GCC2022 in Minneapolis!"
 date: "2021-08-06"
 ---
 
-<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -145,7 +145,7 @@ The Galaxy India community is about enabling data intensive research and instruc
 * Webinars and community calls
 * In person gatherings, once these become prudent
 * [Communications channels](/src/community/#regional-communities), including chat and a mailing list
-* An [India-focused server](/src/use/galaxy-india/index.md) hosted by the European Galaxy Team
+* An [India-focused server](/use/galaxy-india/) hosted by the European Galaxy Team
 
 If you are working in data intensive science in India then please consider getting involved with Galaxy India:
 
@@ -168,11 +168,11 @@ If you are working in data intensive science in India then please consider getti
 <img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
-[Galaxy Career Center](/src/careers/index.md)
+[Galaxy Career Center](/careers/)
 
 </div>
 
-**Ten new positions were added to the [Galaxy Career Center](/src/careers/index.md) in the last month.**  Many of them close soon:
+**Ten new positions were added to the [Galaxy Career Center](/careers/) in the last month.**  Many of them close soon:
 
 * Australia, closes 11 August
 * Norway, closes 15 August
@@ -211,7 +211,7 @@ In addition to the GCC2021 talks (54 of them, see above) and the GCC2021 Trainin
 
 # Event News
 
-There is not a lot going on in August, but what is happening is compelling.  See all [upcoming events here](/src/events/index.md):
+There is not a lot going on in August, but what is happening is compelling.  See all [upcoming events here](/events/):
 
 <div class="card-deck">
 
@@ -242,11 +242,11 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 </div>
 <div class="card-header trim-p">
 
-[Galaxy @ BioHackathon 2021](/src/events/2021-11-biohackathon-europe/index.md)
+[Galaxy @ BioHackathon 2021](/events/2021-11-biohackathon-europe/)
 
 </div>
 
-Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/src/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
+Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
 
 </div>
 
@@ -256,7 +256,7 @@ Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/src/eve
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
@@ -273,7 +273,7 @@ As you can see, we still [need volunteers (like you!) to lead the discussion on 
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -283,7 +283,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India*" />
 <div class="card-header trim-p">
 
-[Galaxy India](/src/use/galaxy-india/index.md)
+[Galaxy India](/use/galaxy-india/)
 
 </div>
 
@@ -301,7 +301,7 @@ Welcome to the India Galaxy workbench; a comprehensive set of tools and workflow
 </div>
 <div class="card-header trim-p">
 
-[CropGalaxy](/src/use/cropgalaxy/index.md)
+[CropGalaxy](/use/cropgalaxy/)
 
 </div>
 
@@ -313,7 +313,7 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 
@@ -444,7 +444,7 @@ We have [created a page](https://training.galaxyproject.org/training-material/ne
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 

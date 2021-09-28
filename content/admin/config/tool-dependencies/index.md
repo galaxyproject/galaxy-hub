@@ -1,10 +1,10 @@
 ## Tool Dependencies
 
-Galaxy provides a method for managing the dependencies of Galaxy tools installed from the [Tool Shed](/src/toolshed/index.md).  In this case, it is simply necessary to set the `tool_dependency_dir` option of `config/galaxy.ini` to a path writable by the Galaxy server.
+Galaxy provides a method for managing the dependencies of Galaxy tools installed from the [Tool Shed](/toolshed/).  In this case, it is simply necessary to set the `tool_dependency_dir` option of `config/galaxy.ini` to a path writable by the Galaxy server.
 
 However, some tools which have not been migrated to the Tool Shed still require manual installation of dependent binaries. In addition, administrators may choose to utilize existing versions of dependencies already installed on the system, rather than rely on versions installed from the Tool Shed. The documentation below covers these cases.
 
-A list of dependencies for unmigrated tools can be found on the [Admin/Tools/Tool-Dependencies-List](/src/admin/config/tool-dependencies-list/index.md) page.
+A list of dependencies for unmigrated tools can be found on the [Admin/Tools/Tool-Dependencies-List](/admin/config/tool-dependencies-list/) page.
 
 ### $PATH
 
@@ -33,7 +33,7 @@ Changes to `$PATH` can be persisted by setting them in your shell's startup file
 
 ### Cluster Jobs
 
-Setting `$PATH` in your shell startup files may work depending on your DRM - this is how we set up the environment for the [Public Galaxy Site](http://usegalaxy.org/) which runs TORQUE PBS.  However, this may not work for other DRMs such as Sun Grid Engine (SGE).  For SGE, please see the `-v` and `-V` options to [qsub](http://gridscheduler.sourceforge.net/htmlman/htmlman1/qsub.html) and how to set these in [sge_request](http://gridscheduler.sourceforge.net/htmlman/htmlman5/sge_request.html) or [the job runner URL](/src/admin/config/performance/cluster/index.md).
+Setting `$PATH` in your shell startup files may work depending on your DRM - this is how we set up the environment for the [Public Galaxy Site](http://usegalaxy.org/) which runs TORQUE PBS.  However, this may not work for other DRMs such as Sun Grid Engine (SGE).  For SGE, please see the `-v` and `-V` options to [qsub](http://gridscheduler.sourceforge.net/htmlman/htmlman1/qsub.html) and how to set these in [sge_request](http://gridscheduler.sourceforge.net/htmlman/htmlman5/sge_request.html) or [the job runner URL](/admin/config/performance/cluster/).
 
 ### Managed Tool Dependencies
 

@@ -16,79 +16,79 @@ title: Key Dates
   </tr>
   <tr style="background-color: #ffd" >
     <td> December 2 </td>
-    <td> <a href='/src/events/gcc2014/training-day/index.md'>Training Day Topic Nomination</a> opens</td>
+    <td> <a href='/events/gcc2014/training-day/'>Training Day Topic Nomination</a> opens</td>
   </tr>
   <tr style="background-color: #ffd" >
     <td> December 20 </td>
-    <td> <a href='/src/events/gcc2014/training-day/index.md'>Training Day Topic Nomination</a> <strong>closed</strong> </td>
+    <td> <a href='/events/gcc2014/training-day/'>Training Day Topic Nomination</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #ffd" >
     <td> January 6 </td>
-    <td> <a href='/src/events/gcc2014/training-day/index.md'>Training Day Topic Voting</a> opens </td>
+    <td> <a href='/events/gcc2014/training-day/'>Training Day Topic Voting</a> opens </td>
   </tr>
   <tr style="background-color: #ffd" >
     <td> January 17 </td>
-    <td> <a href='/src/events/gcc2014/training-day/index.md'>Training Day Topic Voting</a> <strong>closed</strong> </td>
+    <td> <a href='/events/gcc2014/training-day/'>Training Day Topic Voting</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> February 14 </td>
-    <td> <a href='/src/events/gcc2014/register/index.md'>Early registration</a> opens </td>
+    <td> <a href='/events/gcc2014/register/'>Early registration</a> opens </td>
   </tr>
   <tr style="background-color: #dfd" >
     <td> February 14 </td>
-    <td> <a href='/src/events/gcc2014/abstracts/index.md'>Talk and Poster Abstract submission</a> opens; rolling poster evaluation begins </td>
+    <td> <a href='/events/gcc2014/abstracts/'>Talk and Poster Abstract submission</a> opens; rolling poster evaluation begins </td>
   </tr>
   <tr style="background-color: #dfd" >
     <td> April 4 </td>
-    <td> <a href='/src/events/gcc2014/abstracts/index.md'>Talk Abstract submission</a> <strong>closed</strong> </td>
+    <td> <a href='/events/gcc2014/abstracts/'>Talk Abstract submission</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #dfd" >
     <td> April 18 </td>
-    <td> Authors notified of <a href='/src/events/gcc2014/abstracts/index.md'>Talk abstract</a> acceptance status </td>
+    <td> Authors notified of <a href='/events/gcc2014/abstracts/'>Talk abstract</a> acceptance status </td>
   </tr>
   <tr style="background-color: #dfd" >
     <td> April <s>25</s> 26</td>
-    <td> <a href='/src/events/gcc2014/abstracts/index.md'>Poster Abstract submission</a> <strong>closed</strong> </td>
+    <td> <a href='/events/gcc2014/abstracts/'>Poster Abstract submission</a> <strong>closed</strong> </td>
   </tr>
   <tr style="background-color: #dfd" >
     <td> May 2 </td>
-    <td> All authors notified of <a href='/src/events/gcc2014/abstracts/index.md'>Poster abstract</a> acceptance status </td>
+    <td> All authors notified of <a href='/events/gcc2014/abstracts/'>Poster abstract</a> acceptance status </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> May 23</td>
-    <td> <a href='/src/events/gcc2014/register/index.md'>Early registration</a> <strong>closed</strong> <sup>*</sup> </td>
+    <td> <a href='/events/gcc2014/register/'>Early registration</a> <strong>closed</strong> <sup>*</sup> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> May 23 </td>
-    <td> <a href='/src/events/gcc2014/register/index.md'>First cancellation</a> deadline, 100% refund minus processing fees </td>
+    <td> <a href='/events/gcc2014/register/'>First cancellation</a> deadline, 100% refund minus processing fees </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> June 6 </td>
-    <td> <a href='/src/events/gcc2014/register/index.md'>Regular Registration</a> <strong>closed</strong> <sup>*</sup> </td>
+    <td> <a href='/events/gcc2014/register/'>Regular Registration</a> <strong>closed</strong> <sup>*</sup> </td>
   </tr>
   <tr style="background-color: #ddf" >
     <td> June 6 </td>
-    <td> <a href='/src/events/gcc2014/register/index.md'>Final cancellation</a> deadline, 50% refund minus processing fees </td>
+    <td> <a href='/events/gcc2014/register/'>Final cancellation</a> deadline, 50% refund minus processing fees </td>
   </tr>
   <tr style="background-color: #dff" >
     <td> June 28-30 </td>
-    <td> <a href='/src/events/gcc2014/hackathon/index.md'>Hackathon</a> </td>
+    <td> <a href='/events/gcc2014/hackathon/'>Hackathon</a> </td>
   </tr>
   <tr style="background-color: #dff" >
     <td> June 30 </td>
-    <td> <a href='/src/events/gcc2014/training-day/index.md'>Day 0: Training Day</a> </td>
+    <td> <a href='/events/gcc2014/training-day/'>Day 0: Training Day</a> </td>
   </tr>
   <tr style="background-color: #dff" >
     <td> July 1 </td>
-    <td> <a href='/src/events/gcc2014/program/index.md'>Day 1: Galaxy Community Conference</a> </td>
+    <td> <a href='/events/gcc2014/program/'>Day 1: Galaxy Community Conference</a> </td>
   </tr>
   <tr style="background-color: #dff" >
     <td> July 2 </td>
-    <td> <a href='/src/events/gcc2014/program/index.md'>Day 2: Galaxy Community Conference</a> </td>
+    <td> <a href='/events/gcc2014/program/'>Day 2: Galaxy Community Conference</a> </td>
   </tr>
   <tr style="background-color: #dfd" >
     <td> August 1 </td>
-    <td> All conference material made available on the <a href='/src/events/gcc2014/index.md'>conference web pages</a>. </td>
+    <td> All conference material made available on the <a href='/events/gcc2014/'>conference web pages</a>. </td>
   </tr>
 </table>
 
