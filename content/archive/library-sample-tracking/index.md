@@ -5,7 +5,7 @@
 [Galaxy](http://galaxyproject.org) is a framework for integrating computational tools. It allows nearly any tool that can be run from the command line to be wrapped in a structured, well defined interface.
 
 On top of these tools, Galaxy provides an accessible environment for interactive analysis that transparently tracks the details of analyses, a workflow system for convenient reuse, data management, sharing, publishing, and more.
-This tutorial provides information about using Galaxy's [Data libraries](/admin/data-libraries/Libraries/) and [Sample Tracking system](http://main.g2.bx.psu.edu/u/rkchak/p/sts).  The tutorial assumes you have a functional Galaxy instance running.
+This tutorial provides information about using Galaxy's [Data libraries](/data-libraries/Libraries/) and [Sample Tracking system](http://main.g2.bx.psu.edu/u/rkchak/p/sts).  The tutorial assumes you have a functional Galaxy instance running.
 
 ## Data Libraries
 
@@ -150,7 +150,7 @@ And if Jill views her current history, she'll see that the analysis that resulte
 
 We've only scratched the surface of what can be done with Galaxy. Here are some pointers for learning more:
 
-* [More information about Galaxy data libraries](/admin/data-libraries/Libraries/)
+* [More information about Galaxy data libraries](/data-libraries/Libraries/)
 * [You can build complicated tool configurations](/admin/tools/tool-config-syntax/)
 * [Your Galaxy instance can run jobs on a cluster](/admin/config/performance/cluster/)
 * [Your Galaxy can be more robust and scalable](/admin/config/performance/production-server/)

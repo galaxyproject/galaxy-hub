@@ -29,9 +29,9 @@ At this point, just wait a few seconds and you're ready to go when the "Access G
 
 #### For Advanced Users - Getting the workshop data (Titus' snapshot) in to Galaxy
 
-Documentation covering Galaxy Data Libraries can be found at [Admin/DataLibraries/Libraries](/admin/data-libraries/Libraries/)
+Documentation covering Galaxy Data Libraries can be found at [Admin/DataLibraries/Libraries](/data-libraries/Libraries/)
 
-Specific documentation covering options for uploading to be libraries can be found at [Admin/DataLibraries/UploadingLibraryFiles](/admin/data-libraries/uploading-library-files/)
+Specific documentation covering options for uploading to be libraries can be found at [Admin/DataLibraries/UploadingLibraryFiles](/data-libraries/uploading-library-files/)
 
 This currently requires creating a volume from the AWS Console and mounting via the instance's shell (via ssh).
 
