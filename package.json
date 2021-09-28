@@ -35,6 +35,7 @@
     "remark-frontmatter": "^3.0.0",
     "remark-html": "^13.0.2",
     "remark-parse": "^9.0.0",
+    "remark-stringify": "^9.0.0",
     "remark-toc": "^8.0.0",
     "sass": "^1.39.2",
     "sharp": "^0.29.1",
