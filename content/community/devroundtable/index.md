@@ -38,8 +38,7 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
   * Leaders: 
 * **[2021-10-14: TBD ](/events/2021-10-14-dev-roundtable/)**
   * Leaders: 
-* **[2021-09-30: TBD ](/events/2021-09-30-dev-roundtable/)**
-  * Leaders: 
+* 2021-09-30: No meeting
 * 2021-09-16: No meeting
 * 2021-09-02: No meeting
 * **[2021-08-19: Galaxy for AnVIL Cloud Cost Analysis](/events/2021-08-19-dev-roundtable/)**

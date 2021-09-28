@@ -14,7 +14,8 @@ Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD 
 | --- | --- |
 | E-mail |  clements AT galaxyproject DOT org |
 | [ORCID ID](http://orcid.org/) | [orcid.org/0000-0002-9970-6657](http://orcid.org/0000-0002-9970-6657) |
-
+| GitHub | [@tnabtaf](https://github.com/tnabtaf) |
+| Twitter | [@tnabtaf](https://twitter.com/tnabtaf) |
 
 ## Background
 
