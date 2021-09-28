@@ -117,11 +117,12 @@ function getImage(imagePath, images) {
 module.exports.getImage = getImage;
 
 async function mdToHtml(md) {
-    //TODO: Fix links (E.g. `/src/main/index.md` -> `/main/`)
     const { unified } = await import('unified');
     const { default:rehypeStringify } = await import('rehype-stringify');
+    const { default:fixLinks} = await import("./build/fix-links.mjs");
     let vfile = await unified()
         .use(remarkParse)
+        .use(fixLinks, { bases:[Object.values(CONFIG.build.dirs)], quiet:true })
         .use(remarkRehype)
         .use(rehypeStringify)
         .process(md);

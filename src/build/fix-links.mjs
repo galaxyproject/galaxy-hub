@@ -8,7 +8,9 @@ import nodePath from "path";
 import { unified } from "unified";
 import rehypeParse from "rehype-parse";
 import { visit } from "unist-util-visit";
-import { rmPrefix, rmSuffix, matchesPrefixes } from "../utils.js";
+import utils from "../utils.js";
+// Can't destructure these directly from the import sometimes, apparently because utils isn't an ES Module.
+const { rmPrefix, rmSuffix, matchesPrefixes } = utils;
 
 // `verbose: true` makes the parser include position information for each property of each element.
 // This is required for `editProperty()` to work.
@@ -27,13 +29,14 @@ export default function attacher(options) {
         options = {};
     }
     globals.debug = options.debug;
+    globals.quiet = options.quiet;
     // Implement the Transformer interface:
     // https://github.com/unifiedjs/unified#function-transformernode-file-next
     function transformer(tree, file) {
         globals.filePathRaw = file.path;
-        if (options.bases && options.bases.reduce((a, b) => a || b)) {
+        if (globals.filePathRaw && file.cwd && options.bases && options.bases.reduce((a, b) => a || b)) {
             globals.dirPath = getDirPath(options.bases, file.cwd, globals.filePathRaw);
-        } else {
+        } else if (! globals.quiet) {
             console.error("No `bases` option received. Will not be able to convert image src paths to relative paths.");
         }
         visit(tree, "link", (node) => {
