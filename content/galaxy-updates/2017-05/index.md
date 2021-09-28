@@ -1,9 +1,9 @@
 ---
 title: May 2017 Galaxy News
 ---
-<div class='right'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the May 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the May 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 
 # 2017 Galaxy Community Conference
@@ -85,7 +85,7 @@ Participants will learn to
 
 Interested? Sign up when you [register](https://www.iscb.org/ismbeccb2017-registration#tutorials) for ISMB/ECCB (and register before the tutorial fills up).
 
-We also expect a lot of other Galaxy-related content at ISMB/ECCB 2017 and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017). We'll add the presentations to the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/src/events/2017-ismb-bosc/index.md) event page as the schedules are posted.  (And, [please let us know](mailto:outreach@galaxyproject.org) if you have anything on the program.)
+We also expect a lot of other Galaxy-related content at ISMB/ECCB 2017 and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017). We'll add the presentations to the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/events/2017-ismb-bosc/) event page as the schedules are posted.  (And, [please let us know](mailto:outreach@galaxyproject.org) if you have anything on the program.)
 
 See you in Prague!
 
@@ -106,7 +106,7 @@ The primary submission DEADLINE IS JUNE 5, 2017, and a poster session deadline (
 
 # All upcoming events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <table class="table table-striped"><thead>
 <tr>
@@ -263,7 +263,7 @@ The Galaxy is expanding! Please help it grow.
 * [BioInformaticien](https://talent.limagrain.com/Pages/Offre/detailoffre.aspx?idOffre=1407&idOrigine=2673&LCID=1036), HM.Clause, Business Unit du Groupe Limagrain,  Maine et Loire, La Bohalle, France
 * [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -272,7 +272,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in April
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in April
 
 ## New Galaxy Services
 
@@ -333,12 +333,12 @@ There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [s
 <table class="table">
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;">  </td>
   </tr>
 </table>
@@ -385,7 +385,7 @@ For full details on all of the enhancements and fixes in this release, please se
 
 #### Galaxy Docker Image 17.01
 
-And, thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md), there is also now [a Docker image for Galaxy 17.01](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.01) as well.
+And, thanks to [Björn Grüning](/people/bjoern-gruening/), there is also now [a Docker image for Galaxy 17.01](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.01) as well.
 
 ### CloudLaunch ##
 
@@ -443,7 +443,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # ToolShed Contributions
 
-[Tool Shed contributions from April](/src/toolshed/contributions/2017-04/index.md).
+[Tool Shed contributions from April](/toolshed/contributions/2017-04/).
 
 
 # Other News
@@ -452,11 +452,11 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * [Guardians of the Galaxy Workflow](http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow/)
 * A nice writeup from [Scott Edmunds](http://gigasciencejournal.com/blog/author/scottedmunds/) about the [*GigaScience* Galaxy Series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research) (now on it's 12th paper) and GCC2017.  *[GigaScience](https://academic.oup.com/gigascience)* is a returning GCC sponsor this year and submissions relating to talks and posters at GCC2017 will be eligible for a continuing 15% discount. 
-* From [Björn Grüning](/src/people/bjoern-gruening/index.md)
+* From [Björn Grüning](/people/bjoern-gruening/)
   * Are you interested in #RNA #Bioinformatics? Try our new community maintained [RNA Workbench](http://bgruening.github.io/galaxy-rna-workbench/)
 * From [Peter Briggs](https://twitter.com/ironic_cog):
   * [Galactic Engineer: Securing Galaxy with HTTPS running with Nginx using Let’s Encrypt](http://galacticengineer.blogspot.co.uk/2017/04/securing-galaxy-with-https-running-with.html)
 * The [Galaxy-P Project has a brand new website](http://galaxyp.org/).
-* A new [comprehensive ChIP-seq tutorial is available](/src/tutorials/chip/index.md) using DeepTools, MACS2, and MEME.
+* A new [comprehensive ChIP-seq tutorial is available](/tutorials/chip/) using DeepTools, MACS2, and MEME.
 * From Nathan Bott
   * [Galaxy: A Workflow Management System for Modern Life Sciences Research](http://emergingtechblog.emc.com/galaxy-workflow-management-system-modern-life-sciences-research/) - [EMC Emerging Tech Blog](http://emergingtechblog.emc.com/) 

@@ -8,7 +8,7 @@ date: '2020-12-02'
 
 **We are pleased to announce that you can now learn about [new features the 20.09 Galaxy release in a short video](https://youtu.be/dIeXVW_eoJk) by Gareth Price of Galaxy Australia.**
 
-The 20.09 release of the Galaxy platform [was announced on November 17th](/src/news/2020-11-galaxy-release-20-09/index.md), including [developer and admin](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html) and [user](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html) release notes..
+The 20.09 release of the Galaxy platform [was announced on November 17th](/news/2020-11-galaxy-release-20-09/), including [developer and admin](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html) and [user](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html) release notes..
 
 A few release highlights are:
 

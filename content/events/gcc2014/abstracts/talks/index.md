@@ -136,7 +136,7 @@ As a trusted industry leader in designing and implementing effective scientific 
 
 <div class='right'><img src="/src/images/people/anton.jpg" alt="" width="120" />&nbsp;<img src="/src/images/people/james.jpg" alt="" width="120" /></div>
 
-**[Anton Nekrutenko](/src/people/anton/index.md)<sup>1</sup> and [James Taylor](/src/people/james-taylor/index.md)<sup>2</sup>**
+**[Anton Nekrutenko](/people/anton/)<sup>1</sup> and [James Taylor](/people/james-taylor/)<sup>2</sup>**
 
  <sup>1</sup> [Penn State University](http://psu.edu/)<br />
  <sup>2</sup> [Emory University](http://emory.edu/)
@@ -151,7 +151,7 @@ An overview of where the Galaxy Project is and where it is going.
 
 <div class='right'><img src="/src/images/people/mike-lelivelt.png" alt="" width="90" /></div>
 
-**[Mike Lelivelt](/src/people/mike-lelivelt/index.md)**<sup>1</sup>
+**[Mike Lelivelt](/people/mike-lelivelt/)**<sup>1</sup>
 
  <sup>1</sup> Director of Bioinformatics and Software Products, [Ion Torrent, part of Life Technologies](http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html)
 
@@ -167,13 +167,13 @@ An overview of where the Galaxy Project is and where it is going.
 
 <div class='right'><img src="/src/images/people/greg.png" alt="Greg Von Kuster" width="120" /></div>
 
-**[Greg von Kuster](/src/people/greg_vonkuster/index.md)<sup>1</sup>** and the [Galaxy Team](/src/galaxy-team/index.md)
+**[Greg von Kuster](/people/greg-vonkuster/)<sup>1</sup>** and the [Galaxy Team](/src/galaxy-team/)
 
  <sup>1</sup> [Penn State University](http://psu.edu/), State College, Pennsylvania, United States<br />
  
 **[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2014/VonKuster.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=555f1477-4676-425f-9701-ed70cee6d1ca)**
 
-The [Tool Shed](/src/toolshed/index.md) has become an integral part of the process for building and deploying Galaxy tools and other utilities.  In addition to tools, the Tool Shed supports Galaxy Data Managers, custom data types and exported Galaxy workflows.  This list will be extended to support additional utilities when appropriate.  The Tool Shed provides the ability to define relationships between repositories, enabling complementary utilities to be installed together.
+The [Tool Shed](/toolshed/) has become an integral part of the process for building and deploying Galaxy tools and other utilities.  In addition to tools, the Tool Shed supports Galaxy Data Managers, custom data types and exported Galaxy workflows.  This list will be extended to support additional utilities when appropriate.  The Tool Shed provides the ability to define relationships between repositories, enabling complementary utilities to be installed together.
 
 The Tool Shed assures reproducibility within Galaxy when utilities are installed from the Tool Shed using the streamlined installation process between the two applications.  An underlying principle of this assurance is that all versions of utilities available in the Tool Shed will always be accessible to any Galaxy instance.  This principle implies that a select development path should be followed to produce repositories that are optimal for sharing.
 
@@ -185,7 +185,7 @@ Here we'll examine the various components and steps that comprise this process. 
 
 <div class='right'><a href='http://www.hutton.ac.uk/staff/peter-cock'><img src="/src/images/people/PeterCock.jpg" alt="Peter Cock" width="100" /></a></div>
 
-**[Peter Cock](http://www.hutton.ac.uk/staff/peter-cock)<sup>1</sup>,** [John Chilton](/src/people/john-chilton/index.md)<sup>2</sup>, [Björn Grüning](https://github.com/bgruening)<sup>3</sup>, [Jim Johnson](https://github.com/jj-umn)<sup>4</sup>, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo)<sup>5</sup>
+**[Peter Cock](http://www.hutton.ac.uk/staff/peter-cock)<sup>1</sup>,** [John Chilton](/people/john-chilton/)<sup>2</sup>, [Björn Grüning](https://github.com/bgruening)<sup>3</sup>, [Jim Johnson](https://github.com/jj-umn)<sup>4</sup>, [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo)<sup>5</sup>
 
  <sup>1</sup> [The James Hutton Institute](http://www.hutton.ac.uk/), Scotland, United Kingdom<br />
  <sup>2</sup> Department of Biochemistry and Molecular Biology, Penn State University, United States<br />
@@ -230,7 +230,7 @@ We present a Galaxy based web server for processing and visualizing deeply seque
 
 <div class='right'><img src="/src/images/logos/GCC2014HackLogoSquare200.png" alt="GCC2014 Hackathon Participants" width="120" /></div>
 
-**[Dannon Baker](/src/people/dannon-baker/index.md)<sup>1</sup>, [Brad Chapman](http://bcbio.wordpress.com/)<sup>2</sup>, [John Chilton](/src/people/john-chilton/index.md)<sup>3</sup>, [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)<sup>4</sup>, and [GCC2014 Hackathon Participants](/src/events/gcc2014/hackathon/index.md)**
+**[Dannon Baker](/people/dannon-baker/)<sup>1</sup>, [Brad Chapman](http://bcbio.wordpress.com/)<sup>2</sup>, [John Chilton](/people/john-chilton/)<sup>3</sup>, [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)<sup>4</sup>, and [GCC2014 Hackathon Participants](/src/events/gcc2014/hackathon/)**
 
  <sup>1</sup> [Johns Hopkins University](http://jhu.edu/), Baltimore Maryland, United States<br />
  <sup>2</sup> [Harvard University](http://harvard.edu), Cambridge, Massachusetts, United States<br />
@@ -239,7 +239,7 @@ We present a Galaxy based web server for processing and visualizing deeply seque
 
 **[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2014/Hackathon.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1ed15c02-fc5e-4fd0-86e3-c15af143d34f)**
 
-This year for the three days before GCC we are hosting a [Galaxy Hackathon](/src/events/gcc2014/hackathon/index.md).  Hackathons are events at which a group of developers with different backgrounds and skills collaborate hands-on and face-to-face to try to solve problems affecting a particular community, and in this case the Galaxy community. Gathering a diverse set of people in a single room where they can focus on code free of all the distractions that are inevitable back at the office has proven to be a great mechanism for not only getting interesting things done in a short amount of time, but also for community building.  The hackathon goals include growing the Galaxy developer community and connecting existing developers who are interested in similar problems, giving them an in-person opportunity to code together and plan for future post-hackathon collaborations.
+This year for the three days before GCC we are hosting a [Galaxy Hackathon](/events/gcc2014/hackathon/).  Hackathons are events at which a group of developers with different backgrounds and skills collaborate hands-on and face-to-face to try to solve problems affecting a particular community, and in this case the Galaxy community. Gathering a diverse set of people in a single room where they can focus on code free of all the distractions that are inevitable back at the office has proven to be a great mechanism for not only getting interesting things done in a short amount of time, but also for community building.  The hackathon goals include growing the Galaxy developer community and connecting existing developers who are interested in similar problems, giving them an in-person opportunity to code together and plan for future post-hackathon collaborations.
 
 In this talk, we’ll very briefly describe our Galaxy Hackathon goals and provide a general overview of progress made at the event.  Since hackathons are by definition community driven, most of the talk will showcase the efforts of and be presented by the self-organizing groups that form during the event.
 
@@ -247,9 +247,9 @@ In this talk, we’ll very briefly describe our Galaxy Hackathon goals and provi
 
 ## More Options, Less Time: Streamlining Access to Reference Datasets
 
-<div class='right'><a href='/src/people/dan/index.md'><img src="/src/images/people/dan.jpg" alt="Dan Blenkenberg" width="120" /></a></div>
+<div class='right'><a href='/people/dan/'><img src="/src/images/people/dan.jpg" alt="Dan Blenkenberg" width="120" /></a></div>
 
-**[Daniel Blankenberg](/src/people/dan/index.md)<sup>1</sup>** and the [Galaxy Team](/src/galaxy-team/index.md)<sup>2</sup>
+**[Daniel Blankenberg](/people/dan/)<sup>1</sup>** and the [Galaxy Team](/src/galaxy-team/)<sup>2</sup>
 
  <sup>1</sup> [Penn State University](http://psu.edu), State College, Pennsylvania, United States<br />
  <sup>2</sup> [http://galaxyproject.org/](http://galaxyproject.org/)
@@ -266,9 +266,9 @@ Here, we describe a new set of resources that aim to rectify this situation. The
 
 ## Building More Powerful Galaxy Workflows with Dataset Collections
 
-<div class='right'><a href='/src/people/john-chilton/index.md'><img src="/src/images/people/JohnChiltonSmaller.jpg" alt="John Chilton" width="120" /></a></div>
+<div class='right'><a href='/people/john-chilton/'><img src="/src/images/people/JohnChiltonSmaller.jpg" alt="John Chilton" width="120" /></a></div>
 
-**[John Chilton](/src/people/john-chilton/index.md)<sup>1</sup>** and the [Galaxy Team](/src/galaxy-team/index.md)
+**[John Chilton](/people/john-chilton/)<sup>1</sup>** and the [Galaxy Team](/src/galaxy-team/)
 
  <sup>1</sup> [Penn State University](http://psu.edu), State College, Pennsylvania, United States
 
@@ -301,9 +301,9 @@ Dataset collections are a powerful new feature that greatly enhance the expressi
 
 ## Lab Specimen Tracking with Galaxy
 
-<div class='right'><a href='/src/people/marten/index.md'><img src="/src/images/people/marten.png" alt="Martin Čech" width="120" /></a></div>
+<div class='right'><a href='/people/marten/'><img src="/src/images/people/marten.png" alt="Martin Čech" width="120" /></a></div>
 
-**[Martin Čech](/src/people/marten/index.md)<sup>1</sup>**, [Pavel Švéda](http://www.linkedin.com/in/pavelsveda)<sup>1</sup>, [Ondřej Fabián](https://www.linkedin.com/pub/ondrej-fabian/33/6a5/1b8)<sup>1</sup> and the [Galaxy Team](/src/galaxy-team/index.md)
+**[Martin Čech](/people/marten/)<sup>1</sup>**, [Pavel Švéda](http://www.linkedin.com/in/pavelsveda)<sup>1</sup>, [Ondřej Fabián](https://www.linkedin.com/pub/ondrej-fabian/33/6a5/1b8)<sup>1</sup> and the [Galaxy Team](/src/galaxy-team/)
 
  <sup>1</sup> [Penn State University](http://psu.edu), State College, Pennsylvania, United States
 
@@ -329,7 +329,7 @@ In 2010, the Munich regional area successfully applied for a grant ('Leading-Edg
 
 Aiming for a structured, biomedical metadata-driven organization of clinical NGS data, an interconnected, user-friendly, modular, broad-ranged and self-hosted open source analysis platform turned out to be crucial. Or in a nutshell: a Galaxy instance. 
 
-This talk is about the experiences of nearly three years of getting from blank to a conceptual Galaxy-driven NGS infrastructure, dedicated to scientist or clinicians from basic research up to experimental molecular diagnostics within a university medical center’s environment. Topics will include experiences with core IT, faculty politics, project cooperations, software establishment etc. as well as derived Dos and Don’ts. Furthermore, some small software improvements will be presented, hopefully contributing back to the community. On top, we would like to draw connections to contents presented, discussed, improved since the last two GCC’s in [Chicago](/src/events/gcc2012/index.md) and [Oslo](/src/events/gcc2013/index.md) - and also may have been forgotten. Over time, we had the impression to face several of them, pretty glad not to be in a minority of one.
+This talk is about the experiences of nearly three years of getting from blank to a conceptual Galaxy-driven NGS infrastructure, dedicated to scientist or clinicians from basic research up to experimental molecular diagnostics within a university medical center’s environment. Topics will include experiences with core IT, faculty politics, project cooperations, software establishment etc. as well as derived Dos and Don’ts. Furthermore, some small software improvements will be presented, hopefully contributing back to the community. On top, we would like to draw connections to contents presented, discussed, improved since the last two GCC’s in [Chicago](/events/gcc2012/) and [Oslo](/events/gcc2013/) - and also may have been forgotten. Over time, we had the impression to face several of them, pretty glad not to be in a minority of one.
 
 <br />
 
@@ -398,7 +398,7 @@ GI UV scales to truly extraordinary levels – today up to 2,560 physical cores 
 
 <div class='right'><a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan'><img src="/src/images/people/OlivierInizan.png" alt="Olivier Inizan" width="100" /></a> <a href='https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Mikael-Loaec'><img src="/src/images/people/MikaelLoaec.png" alt="Mikael Loaec" width="100" /></a></div>
 
-**[Olivier Inizan](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan)<sup>1</sup>, [Mikael Loaec](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Mikael-Loaec)<sup>1</sup>**, [Helena Rasche](/src/people/helena-rasche/index.md)<sup>2</sup>, [Hadi Quesneville](https://urgi.versailles.inra.fr/About-us/Team/Management-staff/Hadi-Quesneville)<sup>1</sup>
+**[Olivier Inizan](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan)<sup>1</sup>, [Mikael Loaec](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Mikael-Loaec)<sup>1</sup>**, [Helena Rasche](/people/helena-rasche/)<sup>2</sup>, [Hadi Quesneville](https://urgi.versailles.inra.fr/About-us/Team/Management-staff/Hadi-Quesneville)<sup>1</sup>
 
  <sup>1</sup> [URGI-INRA](https://urgi.versailles.inra.fr/), Versailles, France
  <sup>2</sup> [Center for Phage Technology](https://cpt.tamu.edu/), [Texas A&M University](http://tamu.edu), College Station, Texas, United States 
@@ -419,7 +419,7 @@ Here we describe our progress towards an automation process for the deployment o
 
 <div class='right'><a href='http://www.msi.unimelb.edu.au/people/andrew-lonie/'><img src="/src/images/people/AndrewLonie.jpg" alt="Andrew Lonie" width="110" /></a></div>
 
-**[Andrew Lonie](http://www.msi.unimelb.edu.au/people/andrew-lonie/)<sup>1</sup>**, [Enis Afgan](/src/people/enis-afgan/index.md)<sup>2,3</sup>, [Ron Horst](http://au.linkedin.com/pub/ron-horst/0/9a2/550)<sup>4</sup>, [Simon Gladman](http://www.vlsci.org.au/researcher/sgladman)<sup>5</sup>, [Clare Sloggett](http://www.vlsci.org.au/researcher/csloggett)<sup>1</sup>, [Nuwan Goonasekera](http://www.vlsci.org.au/researcher/ngoonasekera)<sup>1</sup>, Igor Manukin<sup>4</sup>, [Yousef Kowsar](http://www.vlsci.org.au/researcher/ykowsar)<sup>4</sup>
+**[Andrew Lonie](http://www.msi.unimelb.edu.au/people/andrew-lonie/)<sup>1</sup>**, [Enis Afgan](/people/enis-afgan/)<sup>2,3</sup>, [Ron Horst](http://au.linkedin.com/pub/ron-horst/0/9a2/550)<sup>4</sup>, [Simon Gladman](http://www.vlsci.org.au/researcher/sgladman)<sup>5</sup>, [Clare Sloggett](http://www.vlsci.org.au/researcher/csloggett)<sup>1</sup>, [Nuwan Goonasekera](http://www.vlsci.org.au/researcher/ngoonasekera)<sup>1</sup>, Igor Manukin<sup>4</sup>, [Yousef Kowsar](http://www.vlsci.org.au/researcher/ykowsar)<sup>4</sup>
 
  <sup>1</sup> [Life Sciences Computation Centre](http://www.vlsci.org.au/), [University of Melbourne](http://www.unimelb.edu.au/), Australia<br />
  <sup>2</sup> [University of Melbourne](http://www.unimelb.edu.au/), Australia <br />
@@ -462,7 +462,7 @@ This talk will be about our experiences while integrating Galaxy with GenomeClou
 
 <div class='right'><a href='http://www.vlsci.org.au/researcher/ngoonasekera'><img src="/src/images/people/nuwan.jpg" alt="Nuwan Goonasekera" width="120" /></a></div>
 
-[Enis Afgan](/src/people/enis-afgan/index.md)<sup>1,2</sup>, Derek Benson<sup>3</sup>, and **[Nuwan Goonasekera](http://www.vlsci.org.au/researcher/ngoonasekera)<sup>1</sup>** 
+[Enis Afgan](/people/enis-afgan/)<sup>1,2</sup>, Derek Benson<sup>3</sup>, and **[Nuwan Goonasekera](http://www.vlsci.org.au/researcher/ngoonasekera)<sup>1</sup>** 
 
  <sup>1</sup> [VLSCI](http://www.vlsci.org.au/), University of Melbourne, Melbourne, Australia<br />
  <sup>2</sup> CIR, RBI, Zagreb, Croatia<br />

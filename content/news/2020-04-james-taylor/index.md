@@ -5,7 +5,7 @@ external_url: ""
 date: "2020-04-03"
 ---
 
-[<img class="float-right" src="/src/jxtx/james.jpg" alt="James Taylor" style="max-width: 20rem" />](/src/jxtx/index.md)
+[<img class="float-right" src="/src/jxtx/james.jpg" alt="James Taylor" style="max-width: 20rem" />](/jxtx/)
 
 <p class="lead">
 We just lost James Taylor (1979-2020). His legacy — open, reproducible science — will continue.
@@ -24,4 +24,4 @@ The Galaxy Project
 
 *2020-10-21 Update*
 
-See the [*jxtx* page](/src/jxtx/index.md) on this web site for more about James, and continuing his legacy of open and reproducible science.
+See the [*jxtx* page](/jxtx/) on this web site for more about James, and continuing his legacy of open and reproducible science.

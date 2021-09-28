@@ -15,7 +15,7 @@ image: "deeptools.png"
 comments:
   - "[deepTools home page at GitHub](https://github.com/deeptools/deepTools)"
   - "deepTools offers multiple methods for highly-customizable data visualization that immensely aid hypothesis generation and data interpretation. It also offers all the tools needed to create coverage files in standard bedGraph and bigWig file formats allowing various normalization procedures and comparisons between two files (for example, treatment and control)."
-  - "[deepTools: a flexible platform for exploring deep-sequencing data](/src/events/gcc2014/abstracts/talks/index.md#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/src/events/gcc2014/index.md)"
+  - "[deepTools: a flexible platform for exploring deep-sequencing data](/events/gcc2014/abstracts/talks/#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/events/gcc2014/)"
 user_support:
   - "[Documentation](https://deeptools.readthedocs.io/)"
   - "[Email](mailto:deeptools@googlegroups.com)"

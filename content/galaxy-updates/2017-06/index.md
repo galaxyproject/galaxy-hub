@@ -1,9 +1,9 @@
 ---
 title: June 2017 Galaxy News
 ---
-<div class='right'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the June 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the June 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 
 # GCC2017 is almost here!
@@ -31,7 +31,7 @@ If you missed the May 31 regular registration deadline then don't worry because 
 
 **The Galaxy Project: from the Planck epoch to Montpellier**
 
-[Dr. Anton Nekrutenko](/src/people/anton/index.md) and [Dr. James Taylor](/src/people/james-taylor/index.md) will present a keynote reviewing the history of the Galaxy project, and how it went from a humble Perl script to having its own international meeting in the South of France in the summer of 2017.
+[Dr. Anton Nekrutenko](/people/anton/) and [Dr. James Taylor](/people/james-taylor/) will present a keynote reviewing the history of the Galaxy project, and how it went from a humble Perl script to having its own international meeting in the South of France in the summer of 2017.
 
 If you are reading this, you probably already know who they are.  If not, see their [bios here](https://gcc2017.sciencesconf.org/).
 
@@ -72,7 +72,7 @@ GCC2017 has [11 sponsors](https://gcc2017.sciencesconf.org/page/sponsors)!  Spon
 There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2017](https://gcc2017.sciencesconf.org/) continues this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_%28computing%29)* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
 Interested?
-* [Start a BoF](/src/news/2017-05-call-for-bofs/index.md)
+* [Start a BoF](/news/2017-05-call-for-bofs/)
 * [See already proposed BoFs](https://gcc2017.sched.com/overview/type/Conference/BoF)
 
 # Galaxy Tutorial @ ISMB/ECCB 2017
@@ -88,7 +88,7 @@ Participants will learn to
 
 Interested? Sign up when you [register](https://www.iscb.org/ismbeccb2017-registration#tutorials) for ISMB/ECCB (and register before the tutorial fills up).
 
-We also expect a lot of other Galaxy-related content at ISMB/ECCB 2017 and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017). We'll add the presentations to the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/src/events/2017-ismb-bosc/index.md) event page as the schedules are posted.  (And, [please let us know](mailto:outreach@galaxyproject.org) if you have anything on the program.)
+We also expect a lot of other Galaxy-related content at ISMB/ECCB 2017 and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017). We'll add the presentations to the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/events/2017-ismb-bosc/) event page as the schedules are posted.  (And, [please let us know](mailto:outreach@galaxyproject.org) if you have anything on the program.)
 
 See you in Prague!
 
@@ -96,7 +96,7 @@ See you in Prague!
 
 # All events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <table class="table table-striped">
 <thead>
@@ -211,7 +211,7 @@ Some highlights from the papers added last month:
 *Nucleic Acids Research* (02 May 2017), doi:10.1093/nar/gkx315
 
 * [Jupyter and Galaxy: Easing entry barriers into complex data analyses for biomedical researchers](https://doi.org/10.1371/journal.pcbi.1005425)
-   [Björn A. Grüning](/src/people/bjoern-gruening/index.md), [Helena Rasche](/src/people/helena-rasche/index.md), Boris Rebolledo-Jaramillo, [Carl Eberhard](/src/people/carl-eberhard/index.md), Torsten Houwaart, [John Chilton](/src/people/john-chilton/index.md), [Nate Coraor](/src/people/nate/index.md), Rolf Backofen, [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md). *PLOS Computational Biology*, Vol. 13, No. 5. (25 May 2017), e1005425, doi:10.1371/journal.pcbi.1005425
+   [Björn A. Grüning](/people/bjoern-gruening/), [Helena Rasche](/people/helena-rasche/), Boris Rebolledo-Jaramillo, [Carl Eberhard](/people/carl-eberhard/), Torsten Houwaart, [John Chilton](/people/john-chilton/), [Nate Coraor](/people/nate/), Rolf Backofen, [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/). *PLOS Computational Biology*, Vol. 13, No. 5. (25 May 2017), e1005425, doi:10.1371/journal.pcbi.1005425
 
 * [MAGenTA: a Galaxy implemented tool for complete Tn-Seq analysis and data visualization](https://doi.org/10.1093/bioinformatics/btx320)
    Katherine M. McCoy, Margaret L. Antonio, Tim van Opijnen. *Bioinformatics* (11 May 2017), doi:10.1093/bioinformatics/btx320 
@@ -238,7 +238,7 @@ The Galaxy is expanding! Please help it grow.
 * [Automated deployment of Galaxy environments using Ansible](http://artbio.fr/?page_id=78), Institut de Biologie Paris Seine, France
 * [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -247,7 +247,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in May
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in May
 
 ## ImmPort Galaxy Update
 
@@ -295,12 +295,12 @@ There is a [ChimeRScope Manual](https://github.com/ChimeRScope/ChimeRScope/wiki)
 <table class="table">
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> </td>
   </tr>
 </table>
@@ -321,7 +321,7 @@ No new resources were added to community directories in January or February.
 <a href="https://www.mothur.org/"><img src="/src/images/logos/mothur_300.png" alt="mothur" height="100" /></a><br />
 </div>
 
-Galaxy has reached many different communities far beyond classical NGS. To support this the [IUC](/src/iuc/index.md) is organising regularly contribution fests dedicated to special topics, with the aim to increase tool coverage and develop re-usable workflows. One of the first contribution fests focused on metagenomics, a field that is gaining more traction in the Galaxy community. Here we highlight two pull requests that were recently merged and added [Qiime (Quantitative Insights Into Microbial Ecology)](https://github.com/galaxyproject/tools-iuc/pull/431) and [mothur](https://github.com/galaxyproject/tools-iuc/pull/1287) to Galaxy. These tools are the most popular pipelines used by the microbial ecology community to perform microbiome analyses from raw DNA sequencing data.
+Galaxy has reached many different communities far beyond classical NGS. To support this the [IUC](/iuc/) is organising regularly contribution fests dedicated to special topics, with the aim to increase tool coverage and develop re-usable workflows. One of the first contribution fests focused on metagenomics, a field that is gaining more traction in the Galaxy community. Here we highlight two pull requests that were recently merged and added [Qiime (Quantitative Insights Into Microbial Ecology)](https://github.com/galaxyproject/tools-iuc/pull/431) and [mothur](https://github.com/galaxyproject/tools-iuc/pull/1287) to Galaxy. These tools are the most popular pipelines used by the microbial ecology community to perform microbiome analyses from raw DNA sequencing data.
 
 Based on previous work by James Johnson, ~150 tools were developed and adapted to the most recent IUC standards for Galaxy tools, including integration with [BioConda](https://bioconda.github.io/) and [BioContainers](https://biocontainers.pro/). This effort was led by [Saskia Hiltemann](https://github.com/shiltemann) and [Bérénice Batut](http://bebatut.fr/) and several reviewers and contributors, who created more than 300 commits and touched more than 600 files (including test-data). Thanks Saskia and Bérénice for this effort!
 
@@ -339,7 +339,7 @@ Both tool suites and many more metagenomics tools are integrated into the [metag
 
 <div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
-[Tool Shed contributions from May](/src/toolshed/contributions/2017-05/index.md).
+[Tool Shed contributions from May](/toolshed/contributions/2017-05/).
 
 
 # Releases
@@ -382,8 +382,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/src/people/john-chilton/index.md): 
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+* From [John Chilton](/people/john-chilton/): 
+  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 
 ## Parsec 1.0.0 - 1.0.2
@@ -413,7 +413,7 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 ## Galaxy CloudMan 17.05 on AWS
 
-A new release of [Galaxy CloudMan](/src/cloudman/index.md) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/src/cloudman/index.md#getting-started) guide.
+A new release of [Galaxy CloudMan](/cloudman/) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/cloudman/#getting-started) guide.
 
 
 ## Earlier Releases
@@ -439,12 +439,12 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * From  [Paul Gordon](https://www.blogger.com/profile/02637194860456629067)
   * [The ungoogleable: Authenticating a Galaxy Portal with Active Directory ](http://achri.blogspot.ca/2017/05/the-final-frontier-authenticating.html)
-* From  [Björn Grüning](/src/people/bjoern-gruening/index.md)
+* From  [Björn Grüning](/people/bjoern-gruening/)
   * There is a new [HiCExplorer Galaxy Docker version](https://github.com/maxplanck-ie/docker-galaxy-hicexplorer), based on Galaxy 17.05, made possible by [Fidel Ramírez](https://twitter.com/fidel_ramirez) and friends.
-* From [Mo Heydarian](/src/people/mo-heydarian/index.md)
+* From [Mo Heydarian](/people/mo-heydarian/)
  * Creating Galaxy workflows [is easier than you think](https://depot.galaxyproject.org/hub/attachments/documents/videos/2017-05-workflow-example.gif). If you like reproducibility, you'll like workflows!
 * New video on [Creating collections by uploading from SRA](https://vimeo.com/217216264).
-* From [Nate Coraor](/src/people/nate/index.md)
+* From [Nate Coraor](/people/nate/)
   * Heads up: Galaxy roles published on galaxy.ansible.com have changed namespaces from `galaxyprojectdotorg` to just `galaxyproject`
 
 

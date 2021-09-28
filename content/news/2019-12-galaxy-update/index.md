@@ -4,24 +4,24 @@ tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, Jobs, Releases, and Plat
 date: "2019-12-09"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 The *December 2019 Galactic News* is out:
 
-* **[12 Upcoming Events](/src/news/2019-12-galaxy-update/index.md#events)**
+* **[12 Upcoming Events](/news/2019-12-galaxy-update/#events)**
   * India, PAG, HTS, single cell/microbiome, Barcelona, and more
-* **[191 new publications](/src/news/2019-12-galaxy-update/index.md#publications)**
+* **[191 new publications](/news/2019-12-galaxy-update/#publications)**
 * **[Two new blog posts](#galactic-blog-activity)**
   * g:Profiler, GalaxyP
-* **[Galaxy Platform News](/src/news/2019-12-galaxy-update/index.md#galaxy-platforms-news)**
+* **[Galaxy Platform News](/news/2019-12-galaxy-update/#galaxy-platforms-news)**
   * Systems biology, Laniakea, OpenRefine, ...
-* **[Training material and doc updates](/src/news/2019-12-galaxy-update/index.md#doc-hub-and-training-updates)**
+* **[Training material and doc updates](/news/2019-12-galaxy-update/#doc-hub-and-training-updates)**
   * defining data types, citing GTN, Windows, account help, metatranscriptomics, Galaxy for everyone
-* **[Openings](/src/news/2019-12-galaxy-update/index.md#whos-hiring)**
+* **[Openings](/news/2019-12-galaxy-update/#whos-hiring)**
   *  with 5 organizations in Denmark, France, US, US, Germany
 * **[Releases](#releases)**
   * Galaxy 19.09 is out
-* And **[other news too](/src/news/2019-12-galaxy-update/index.md#other-news)**
+* And **[other news too](/news/2019-12-galaxy-update/#other-news)**
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -33,7 +33,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <img class="card-img-top" src="/src/events/2019-12-insyb/insyb-2019.png" alt="Galaxy @ InSyB 2019" />
 <div class="card-header">Galaxy @ InSyB 2019</div>
 
-Galaxy (especially [Galaxy Australia](https://usegalaxy.org.au/) will be [featured in a workshop and a plenary talk](/src/events/2019-12-insyb/index.md) at the [International Symposium on Bioinformatics 2019 (InSyB2019)](https://www.hrmmv.org/INSYB2019) being held December 21-22, 2019 at [Hans Raj Mahila Maha Vidyalaya](https://www.hrmmv.org/), Jalandhar, Punjab, India.  *Registration and abstract submission are still open.*
+Galaxy (especially [Galaxy Australia](https://usegalaxy.org.au/) will be [featured in a workshop and a plenary talk](/events/2019-12-insyb/) at the [International Symposium on Bioinformatics 2019 (InSyB2019)](https://www.hrmmv.org/INSYB2019) being held December 21-22, 2019 at [Hans Raj Mahila Maha Vidyalaya](https://www.hrmmv.org/), Jalandhar, Punjab, India.  *Registration and abstract submission are still open.*
 </div>
 
 
@@ -41,7 +41,7 @@ Galaxy (especially [Galaxy Australia](https://usegalaxy.org.au/) will be [featur
 <img class="card-img-top" src="/src/events/2020-pag/pag-2020-splash.png" alt="Galaxy @ PAG 2020" />
 <div class="card-header">Galaxy @ PAG 2020</div>
 
-[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/src/events/2020-pag/index.md), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new [Excellence in Breeding platform](/src/use/cropgalaxy/index.md)) and many talks and posters featuring Galaxy.
+[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/events/2020-pag/), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new [Excellence in Breeding platform](/use/cropgalaxy/)) and many talks and posters featuring Galaxy.
 
 And there will be a [GMOD Codefest](http://gmod.org/wiki/Codefest_2020) *before* PAG and an [NCBI Codeathon](https://ncbi-codeathons.github.io/) *after* PAG.
 </div>
@@ -59,7 +59,7 @@ This [week-long Galaxy workshop in Freiburg](https://galaxyproject.eu/event/2019
 <img class="card-img-top" src="/src/images/logos/abrf-logo-color-text.png" alt="Galaxy @ ABRF 2020" />
 <div class="card-header">Galaxy @ ABRF 2020</div>
 
-[Galaxy will be at 2020 ABRF meeting](/src/events/2020-abrf/index.md), in Palm Springs, California, United States, February 29 through March 3. This includes a full day *hands-on Galaxy Workshop* about **using Galaxy with your single cell and microbiome** data.  ABRF is *the annual conference for technology-enabled multidisciplinary research.*
+[Galaxy will be at 2020 ABRF meeting](/events/2020-abrf/), in Palm Springs, California, United States, February 29 through March 3. This includes a full day *hands-on Galaxy Workshop* about **using Galaxy with your single cell and microbiome** data.  ABRF is *the annual conference for technology-enabled multidisciplinary research.*
 
 [Registration is now open](https://conf.abrf.org/program/registration-schedule/), **but space is limited**.
 </div>
@@ -68,7 +68,7 @@ This [week-long Galaxy workshop in Freiburg](https://galaxyproject.eu/event/2019
 <img class="card-img-top" src="/src/events/2020-03-admin/2020-admin-banner.png" alt="Galaxy Admin Training 2020" />
 <div class="card-header">2-6 March: Galaxy Admin Training 2020</div>
 
-Save these dates!  The next **[Galaxy Admin Training](/src/events/2020-03-admin/index.md) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
+Save these dates!  The next **[Galaxy Admin Training](/events/2020-03-admin/) will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
 
 This week-long hands-on training will feature what you need to know to set up your own production quality Galaxy server.  Registration will open later this month.
 </div>
@@ -79,7 +79,7 @@ This week-long hands-on training will feature what you need to know to set up yo
 
 There are
 
-* [12 upcoming events](/src/events/index.md)
+* [12 upcoming events](/events/)
 * on 3 continents, plus online
 * in India, US, Belgium, Germany, France, Spain, and the UK.
 
@@ -97,13 +97,13 @@ There are
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Tool recommender system in Galaxy using deep learning](https://doi.org/10.1101/838599)</div>
 
-Kumar, A., [Grüning, B.](/src/people/bjoern-gruening/index.md), & Backofen, R. (2019). *BioRxiv*, 838599. doi: 10.1101/838599
+Kumar, A., [Grüning, B.](/people/bjoern-gruening/), & Backofen, R. (2019). *BioRxiv*, 838599. doi: 10.1101/838599
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[The de.NBI / ELIXIR-DE training platform - Bioinformatics training in Germany and across Europe within ELIXIR](https://doi.org/10.12688/f1000research.20244.1)</div>
 
-Wibberg, D., Batut, B., Belmann, P., Blom, J., Glöckner, F. O., [Grüning, B.](/src/people/bjoern-gruening/index.md), … Kohlbacher, O. (2019).  *F1000Research*, 8, 1877. doi: 10.12688/f1000research.20244.1
+Wibberg, D., Batut, B., Belmann, P., Blom, J., Glöckner, F. O., [Grüning, B.](/people/bjoern-gruening/), … Kohlbacher, O. (2019).  *F1000Research*, 8, 1877. doi: 10.12688/f1000research.20244.1
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
@@ -160,7 +160,7 @@ Publications are tagged with how they use, extend or reference Galaxy.  The past
 
 # Galactic Blog Activity
 
-[Two new entries](/src/blog/index.md) in the past month, both related to UseGalaxy.eu..
+[Two new entries](/blog/) in the past month, both related to UseGalaxy.eu..
 
 <div class="card-deck">
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
@@ -183,12 +183,12 @@ By Ben Orsburn.  The arguments are building up for why you need this.
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
 
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[BioDivine Toolset Server](/src/use/biodivine/index.md)</div>
+<div class="card-header">[BioDivine Toolset Server](/use/biodivine/)</div>
 
 <img class="card-img-top" src="/src/use/biodivine/sybila.png" alt="Sybila" />
 
@@ -201,7 +201,7 @@ The BioDivine server hosts tools for systems biology, developed by the [Systems 
 
 <img class="card-img-top" src="/src/use/laniakea/laniakea.png" alt="Laniakea" />
 
-Version 2 of [Laniakea](/src/use/laniakea/index.md) announced at the November [ELIXIR Innovation and SME Forum](https://elixir-europe.org/events/sme-2019-milan).  Laniakea provides automatic deployment of virtual Galaxy environments. See the [video for details](https://laniakea-elixir-it.github.io/). 
+Version 2 of [Laniakea](/use/laniakea/) announced at the November [ELIXIR Innovation and SME Forum](https://elixir-europe.org/events/sme-2019-milan).  Laniakea provides automatic deployment of virtual Galaxy environments. See the [video for details](https://laniakea-elixir-it.github.io/). 
 </div>
 
 
@@ -215,7 +215,7 @@ Version 2 of [Laniakea](/src/use/laniakea/index.md) announced at the November [E
 
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -260,7 +260,7 @@ New comprehensive documentation by [@selten](https://github.com/selten) on [how 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">Cite GTN Tutorials</div>
 
-Thanks to [Helena Rasche](/src/people/helena-rasche/index.md), every [GTN Tutorial](https://training.galaxyproject.org/) now includes a *Citing this Tutorial* section, including a BibTex citation for the tutorial.
+Thanks to [Helena Rasche](/people/helena-rasche/), every [GTN Tutorial](https://training.galaxyproject.org/) now includes a *Citing this Tutorial* section, including a BibTex citation for the tutorial.
 
 <img class="card-img-bottom" src="gtn-citing.png" alt="Cite tutorials" />
 </div>
@@ -268,7 +268,7 @@ Thanks to [Helena Rasche](/src/people/helena-rasche/index.md), every [GTN Tutori
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">Galaxy on Windows</div>
 
-The documentation on [how to run Galaxy on Windows](/src/admin/config/windows/index.md) has been completely revamped by [Tomas Klingström](https://www.slu.se/cv/tomas-klingstrom/) to use the Windows Subsystem for Linux.
+The documentation on [how to run Galaxy on Windows](/admin/config/windows/) has been completely revamped by [Tomas Klingström](https://www.slu.se/cv/tomas-klingstrom/) to use the Windows Subsystem for Linux.
 
 <img class="card-img-bottom" src="windows.png" alt="Galaxy on Windows" />
 </div>
@@ -276,7 +276,7 @@ The documentation on [how to run Galaxy on Windows](/src/admin/config/windows/in
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">Account Creation Help</div>
 
-The account creation documentation was expanded by [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md) to cover additional situations and help resources.
+The account creation documentation was expanded by [Jennifer Hillman-Jackson](/people/jennifer-jackson/) to cover additional situations and help resources.
 
 <img class="card-img-bottom" src="accounts-help.png" alt="Accounts help" />
 </div>
@@ -305,7 +305,7 @@ By [Anne Fouilloux](https://training.galaxyproject.org/training-material/hall-of
 
 # Who's Hiring
 
-Hey Good People!  It's hard to find good people, such as yourself, but surely you know good people who could help the good people below fill their open positions.  (And if you have a Galaxy-related opening then please send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).)
+Hey Good People!  It's hard to find good people, such as yourself, but surely you know good people who could help the good people below fill their open positions.  (And if you have a Galaxy-related opening then please send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).)
 
 <div class="card-deck">
 

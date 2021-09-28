@@ -16,9 +16,9 @@ Galaxy will be featured in talks and posters at the [2017 Genome Informatics](ht
 
 | Day | Time | Topic | Presenter |
 | ---- | :----: | ---- | ---- |
-| Thursday Nov 2 | 1:30pm | P29: Choosing the best of all worlds—à la carte access to extant and emergent best-practice metagenomic pipelines | [Dan Blankenberg](/src/people/dan/index.md) |
+| Thursday Nov 2 | 1:30pm | P29: Choosing the best of all worlds—à la carte access to extant and emergent best-practice metagenomic pipelines | [Dan Blankenberg](/people/dan/) |
 | | 1:30pm | P46: GDCWebApp—Filtering, extracting, and converting genomic and clinical data from the Genomic Data Commons Portal | Fabio Cumbo |
 | | 1:30pm | P48: Streamlining the installation of thousands of bioinformatics software packages with Bioconda | Ryan Dale |
-| | 1:30pm | P90: Hybrid assembly of small genomes in Galaxy | [Dephine Laviviere](/src/people/delphine-lariviere/index.md) |
-| | 9:00pm | Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter | [Anton Nekrutenko](/src/people/anton/index.md) |
-| Friday Nov 3 | 5:30pm | P192: Quality assessment and large-scale integration of chromosome conformation capture datasets | [James Taylor](/src/people/james-taylor/index.md) |
+| | 1:30pm | P90: Hybrid assembly of small genomes in Galaxy | [Dephine Laviviere](/people/delphine-lariviere/) |
+| | 9:00pm | Enhancing pre-defined workflows with ad hoc analytics using Galaxy, Docker and Jupyter | [Anton Nekrutenko](/people/anton/) |
+| Friday Nov 3 | 5:30pm | P192: Quality assessment and large-scale integration of chromosome conformation capture datasets | [James Taylor](/people/james-taylor/) |

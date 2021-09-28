@@ -17,7 +17,7 @@ links:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OuxyMWuUBpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This is a followup to discussion to the [December 2020 roundtable](/src/events/2020-12-10-dev-roundtable/index.md), where [Galaxy Working Groups](/src/community/wg/index.md) were launched.  Galaxy Working Groups are a major shift in how Galaxy Project work and direction are managed.
+This is a followup to discussion to the [December 2020 roundtable](/events/2020-12-10-dev-roundtable/), where [Galaxy Working Groups](/community/wg/) were launched.  Galaxy Working Groups are a major shift in how Galaxy Project work and direction are managed.
 
 This call will be a followup to see how our first month has gone, and how goal setting and tracking fro 2021Q1 is going.
 
@@ -29,4 +29,4 @@ Please **[join us](https://psu.zoom.us/j/92752763386)** at Noon, US Eastern time
 
 Have something you want to talk about at a future round table? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).
 
-The [Galaxy Developer Roundatble](/src/community/devroundtable/index.md) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 
+The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 

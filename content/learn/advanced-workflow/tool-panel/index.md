@@ -4,7 +4,7 @@ title: Workflows as Custom Tools
 <slot name="/learn/linkbox" />
 
 <br />
-[Back to Advanced Workflow](/src/learn/advanced-workflow/index.md)
+[Back to Advanced Workflow](/learn/advanced-workflow/)
 
 ## Promote a Workflow in the Tool Panel
 
@@ -94,10 +94,10 @@ Then launch the workflow by clicking on the name.
 
 Too many steps displayed by default in the history after running a workflow "tool"? Consider hiding the intermediate steps. How many to display/hide depends on what is important to access or visualize in the history as an active dataset. Often just the last step is wanted as a result. 
 
-Start by entering the **Workflow Editor** for the target workflow, then follow these instructions:  **[Basic Editing, Hidden Datasets](/src/learn/advanced-workflow/basic-editing/index.md#hidden-datasets)**
+Start by entering the **Workflow Editor** for the target workflow, then follow these instructions:  **[Basic Editing, Hidden Datasets](/learn/advanced-workflow/basic-editing/#hidden-datasets)**
 
 Not sure how to access or use the editor? That same wiki has all the help you need to get started.
 
 ### Reminder About Sharing Workflows
 
-Workflows can be shared just like other Galaxy objects. Read more about **[Sharing](/src/learn/share/index.md)**
+Workflows can be shared just like other Galaxy objects. Read more about **[Sharing](/learn/share/)**

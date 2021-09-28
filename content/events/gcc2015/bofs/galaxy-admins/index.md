@@ -3,13 +3,13 @@ title: GalaxyAdmins GCC2015 Meetup
 ---
 <slot name="/events/gcc2015/header" />
 
-<div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a>
+<div class='left'><a href='/events/gcc2015/bofs/'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a>
 <br />
-<a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
+<a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/community/galaxy-admins/meetups/index.md) and at events like [GCC2015](http://gcc2015.tsl.ac.uk/), where a lot of us happen to be.
+[GalaxyAdmins](/community/galaxy-admins/) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/community/galaxy-admins/meetups/) and at events like [GCC2015](http://gcc2015.tsl.ac.uk/), where a lot of us happen to be.
 
-GCC2015 will be the third in=person GalaxyAdmins meetup.  The GalaxyAdmins BoFs at [GCC2013](/src/events/gcc2013/bof/galaxy-admins/index.md) and [GCC2014](/src/events/gcc2014/bofs/galaxy-admins/index.md) were very well attended and resulted in several actions items, many of which have now been implemented.
+GCC2015 will be the third in=person GalaxyAdmins meetup.  The GalaxyAdmins BoFs at [GCC2013](/events/gcc2013/bof/galaxy-admins/) and [GCC2014](/events/gcc2014/bofs/galaxy-admins/) were very well attended and resulted in several actions items, many of which have now been implemented.
 
 This meetup will discuss last year's action items, plans for the coming year, GalaxyAdmins leadership, and whatever else participants want to talk about.
 
@@ -17,7 +17,7 @@ When:: Tuesday, 7 July, 18:20
 
 Where:: Franklin Room, JICCC
 
-Contact:: [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md), [Dave Clements](/src/people/dave-clements/index.md)
+Contact:: [Hans-Rudolf Hotz](/people/hansrudolf-hotz/), [Dave Clements](/people/dave-clements/)
 
 
 # Audience
@@ -30,12 +30,12 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 
 # Participants
 
-* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
-* [Dave Clements](/src/people/dave-clements/index.md)
-* [Helena Rasche](/src/people/helena-rasche/index.md)
+* [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
+* [Dave Clements](/people/dave-clements/)
+* [Helena Rasche](/people/helena-rasche/)
 * Peter Briggs
 * Peter Cock
-* [Nate Coraor](/src/people/nate/index.md)
+* [Nate Coraor](/people/nate/)
 * Oleksandr Moskalenko
 * Simon Gladman
 * Aaron Petkau
@@ -102,4 +102,4 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 
 # Questions?
 
-Send them to [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) and [Dave Clements](/src/people/dave-clements/index.md)
+Send them to [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) and [Dave Clements](/people/dave-clements/)

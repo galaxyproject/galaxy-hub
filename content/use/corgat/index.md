@@ -10,7 +10,7 @@ platforms:
 summary: "Align complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to annotate genetic variants." 
 image: "/src/use/laniakea/laniakea_logo_def_white_background.png"
 comments:
-  - "CorGAT runs on the [Laniakea](/src/use/laniakea/index.md) research cloud."
+  - "CorGAT runs on the [Laniakea](/use/laniakea/) research cloud."
 quotas:
   - "Supports anonymous logins and user account creation."
 user_support:

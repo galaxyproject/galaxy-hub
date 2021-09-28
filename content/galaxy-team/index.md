@@ -7,72 +7,72 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 <div class="row row-fluid text-center">
 <div class='col-md-3'>
 
-[![Enis Afgan](/src/images/people/EnisAfgan.jpg)](/src/people/enis-afgan/index.md)
+[![Enis Afgan](/src/images/people/EnisAfgan.jpg)](/people/enis-afgan/)
 
-[Enis Afgan](/src/people/enis-afgan/index.md) 
+[Enis Afgan](/people/enis-afgan/) 
 [Johns Hopkins](http://www.jhu.edu) 
 
 </div>
 <div class='col-md-3'>
 
-[![Dannon Baker](/src/images/people/dannon.jpg)](/src/people/dannon-baker/index.md)
-[Dannon Baker](/src/people/dannon-baker/index.md) 
+[![Dannon Baker](/src/images/people/dannon.jpg)](/people/dannon-baker/)
+[Dannon Baker](/people/dannon-baker/) 
 [Johns Hopkins](http://www.jhu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Dan Blankenberg](/src/images/people/dan.jpg)](/src/people/dan/index.md)
-[Dan Blankenberg](/src/people/dan/index.md) 
+[![Dan Blankenberg](/src/images/people/dan.jpg)](/people/dan/)
+[Dan Blankenberg](/people/dan/) 
 [The Cleveland Clinic](https://www.lerner.ccf.org/)  
 
 </div>
 <div class='col-md-3'>
 
-[![Dave Bouvier](/src/galaxy-team/davebouvierflag.jpg)](/src/people/dave-bouvier/index.md)
-[Dave Bouvier](/src/people/dave-bouvier/index.md) 
+[![Dave Bouvier](/src/galaxy-team/davebouvierflag.jpg)](/people/dave-bouvier/)
+[Dave Bouvier](/people/dave-bouvier/) 
 [Penn State](http://www.bx.psu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Marten Cech](/src/people/marten/marten.jpg)](/src/people/marten/index.md)
-[Martin Cech](/src/people/marten/index.md) 
+[![Marten Cech](/people/marten/marten.jpg)](/people/marten/)
+[Martin Cech](/people/marten/) 
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![John Chilton](/src/images/people/JohnChiltonSmaller.jpg)](/src/people/john-chilton/index.md)
-[John Chilton](/src/people/john-chilton/index.md)
+[![John Chilton](/src/images/people/JohnChiltonSmaller.jpg)](/people/john-chilton/)
+[John Chilton](/people/john-chilton/)
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Dave Clements](/src/galaxy-team/Clements.jpg)](/src/people/dave-clements/index.md)
-[Dave Clements](/src/people/dave-clements/index.md)
+[![Dave Clements](/src/galaxy-team/Clements.jpg)](/people/dave-clements/)
+[Dave Clements](/people/dave-clements/)
 [Johns Hopkins](http://www.jhu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Nate Coraor](/src/galaxy-team/nate.jpg)](/src/people/nate/index.md)
-[Nate Coraor](/src/people/nate/index.md)
+[![Nate Coraor](/src/galaxy-team/nate.jpg)](/people/nate/)
+[Nate Coraor](/people/nate/)
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Jeremy Goecks](/src/images/people/jgoecks-banff-small.png)](/src/people/jeremy-goecks/index.md)
-[Jeremy Goecks](/src/people/jeremy-goecks/index.md)
+[![Jeremy Goecks](/src/images/people/jgoecks-banff-small.png)](/people/jeremy-goecks/)
+[Jeremy Goecks](/people/jeremy-goecks/)
 [OHSU](http://www.ohsu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Sergey Golitsynskiy](/src/galaxy-team/sergey.jpg)](/src/people/sergey/index.md)
-[Sergey Golitsynskiy](/src/people/sergey/index.md)
+[![Sergey Golitsynskiy](/src/galaxy-team/sergey.jpg)](/people/sergey/)
+[Sergey Golitsynskiy](/people/sergey/)
 [Johns Hopkins](http://www.jhu.edu)   
 
 </div>
@@ -87,57 +87,57 @@ Qiang Gu<br />
 </div>
 <div class='col-md-3'>
 
-[![Aysam Guerler](/src/galaxy-team/guerler.jpg)](/src/people/guerler/index.md)
-[Aysam Guerler](/src/people/guerler/index.md)
+[![Aysam Guerler](/src/galaxy-team/guerler.jpg)](/people/guerler/)
+[Aysam Guerler](/people/guerler/)
 [Johns Hopkins](http://www.jhu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Mo Heydarian](/src/galaxy-team/mheydarian.jpg)](/src/people/mo-heydarian/index.md)
-[Mo Heydarian](/src/people/mo-heydarian/index.md)
+[![Mo Heydarian](/src/galaxy-team/mheydarian.jpg)](/people/mo-heydarian/)
+[Mo Heydarian](/people/mo-heydarian/)
 [Johns Hopkins](http://www.jhu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Jen Jackson](/src/galaxy-team/jenhjackson.png)](/src/people/jennifer-jackson/index.md)
-[Jennifer Hillman Jackson](/src/people/jennifer-jackson/index.md)
+[![Jen Jackson](/src/galaxy-team/jenhjackson.png)](/people/jennifer-jackson/)
+[Jennifer Hillman Jackson](/people/jennifer-jackson/)
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Vahid Jalili](/src/galaxy-team/Vahid.jpg)](/src/people/vahid-jalili/index.md)
-[Vahid Jalili](/src/people/vahid-jalili/index.md)
+[![Vahid Jalili](/src/galaxy-team/Vahid.jpg)](/people/vahid-jalili/)
+[Vahid Jalili](/people/vahid-jalili/)
 [OHSU](http://www.ohsu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![DelphineLariviere](/src/galaxy-team/DelphineLariviere.jpg)](/src/people/delphine-lariviere/index.md)
-[Delphine Lariviere](/src/people/delphine-lariviere/index.md)
+[![DelphineLariviere](/src/galaxy-team/DelphineLariviere.jpg)](/people/delphine-lariviere/)
+[Delphine Lariviere](/people/delphine-lariviere/)
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Alexandru Mahmoud](/src/galaxy-team/almahmoud.jpg)](/src/people/almahmoud/index.md)
-[Alexandru Mahmoud](/src/people/almahmoud/index.md)
+[![Alexandru Mahmoud](/src/galaxy-team/almahmoud.jpg)](/people/almahmoud/)
+[Alexandru Mahmoud](/people/almahmoud/)
 [Johns Hopkins](http://www.jhu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Anton Nekrutenko](/src/images/people/anton.jpg)](/src/people/anton/index.md)
-[Anton Nekrutenko](/src/people/anton/index.md)
+[![Anton Nekrutenko](/src/images/people/anton.jpg)](/people/anton/)
+[Anton Nekrutenko](/people/anton/)
 [Penn State](http://www.bx.psu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Alex Ostrovsky](/src/galaxy-team/ostrovsky.jpg)](/src/people/alex-ostrovsky/index.md)
-[Alex Ostrovsky](/src/people/alex-ostrovsky/index.md)
+[![Alex Ostrovsky](/src/galaxy-team/ostrovsky.jpg)](/people/alex-ostrovsky/)
+[Alex Ostrovsky](/people/alex-ostrovsky/)
 [Johns Hopkins](http://www.jhu.edu)  
 
 </div>
@@ -157,8 +157,8 @@ Luke Sargent
 </div>
 <div class='col-md-3'>
 
-[![James Taylor](/src/images/people/james.jpg)](/src/people/james-taylor/index.md)
-[James Taylor](/src/people/james-taylor/index.md)
+[![James Taylor](/src/images/people/james.jpg)](/people/james-taylor/)
+[James Taylor](/people/james-taylor/)
 [Johns Hopkins](http://www.jhu.edu)   
 
 </div>
@@ -171,8 +171,8 @@ Luke Sargent
 <div class="row row-fluid text-center">
 <div class='col-md-3'>
 
-[![Matthias Bernt](/src/galaxy-team/matthias.jpg)](/src/people/matthias/index.md)
-[Matthias Bernt](/src/people/matthias/index.md) 
+[![Matthias Bernt](/src/galaxy-team/matthias.jpg)](/people/matthias/)
+[Matthias Bernt](/people/matthias/) 
 [UFZ Leipzig](https://www.ufz.de/)  
 
 </div>
@@ -199,8 +199,8 @@ Luke Sargent
 </div>
 <div class='col-md-3'>
 
-[![Marius van den Beek](/src/galaxy-team/marius.jpeg)](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek)
-[Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek)
+[![Marius van den Beek](/src/galaxy-team/marius.jpeg)](https://github.com/mvdbeek)
+[Marius van den Beek](https://github.com/mvdbeek)
 [IBPS UPMC](http://www.ibps.upmc.fr/)  
 
 </div>
@@ -242,7 +242,7 @@ Luke Sargent
 <div class='col-md-3'>
 
 ![Greg von Kuster](/src/images/people/greg.png)
-[Greg von Kuster](/src/people/greg_vonkuster/index.md) 
+[Greg von Kuster](/people/greg-vonkuster/) 
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
@@ -270,23 +270,23 @@ Luke Sargent
 * Ramkrishna Chakrabarty
 * Wen-Yu Chung
 * Fabio Cumbo
-* [Carl Eberhard](/src/people/carl-eberhard/index.md)
+* [Carl Eberhard](/people/carl-eberhard/)
 * Dorine Francheteau
 * Mallory Freeberg
 * Belinda Giardine
 * Jianbin He
-* [Mo Heydarian](/src/people/mo-heydarian/index.md)
+* [Mo Heydarian](/people/mo-heydarian/)
 * Radesh Kamath
 * Ross Lazarus
 * Kanwei Li
-* [Rémi Marenco](/src/people/remi-marenco/index.md)
+* [Rémi Marenco](/people/remi-marenco/)
 * Scott McManus
 * Arjun Nath
 * Chinmay Rao
 * Prachi Shah
 * Ian Schenck
 * Kelly Vincent
-* [Nitesh Turaga](/src/people/nitesh-turaga/index.md)
+* [Nitesh Turaga](/people/nitesh-turaga/)
 * Yi Zhang
 
 ## Past Contributors

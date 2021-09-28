@@ -4,17 +4,17 @@ highlight: true
 ---
 
 _This page explains how to configure this feature as an administrator,
-for user-specific docs, please refer to the [Use page](/src/authnz/use/index.md)._
+for user-specific docs, please refer to the [Use page](/authnz/use/)._
 
 # Galaxy Authentication Configuration Options
 
-Galaxy offers [various methods for user authentication](/src/authnz/index.md#user-authentication-and-authorization)
+Galaxy offers [various methods for user authentication](/authnz/#user-authentication-and-authorization)
 (aka login). All the methods share some common concepts, which are explained on
 this page. The method-specific configurations are explained at the following
 pages:
 
-- [Galaxy Username and Password](/src/authnz/config/gxy/index.md)
-- [Using 3rd party identity](/src/authnz/config/oidc/index.md) (i.e., social login)
+- [Galaxy Username and Password](/authnz/config/gxy/)
+- [Using 3rd party identity](/authnz/config/oidc/) (i.e., social login)
 
 
 # The Internal Process for Authenticating a User

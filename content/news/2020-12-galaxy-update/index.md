@@ -8,7 +8,7 @@ date: "2020-12-08"
 <div class="card-header">In this issue:</div>
 <div class="card-body">
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 <ul style="font-size: 1.1rem;">
   <li>**[Event news](#event-news)**:
@@ -89,21 +89,21 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # Event News
 
-Despite COVID-19, there is still a lot going on. Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+Despite COVID-19, there is still a lot going on. Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/events/) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
 <!-- Galaxy Webinars -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
 <img class="card-img-top" src="galaxy-in-monitor-x3.png" alt="Galaxy Webinar" />
-<div class="card-header">[Galaxy Webinars](/src/events/webinars/index.md)</div>
+<div class="card-header">[Galaxy Webinars](/events/webinars/)</div>
 
 **9 & 10 December, Online**
 
-Interested in learning more about Galaxy [in a webinar](/src/events/webinars/index.md)?  Here's two offered this month:
+Interested in learning more about Galaxy [in a webinar](/events/webinars/)?  Here's two offered this month:
 
-**[Use Galaxy on the web, the cloud, and your laptop too](/src/events/2020-12-webinar-where/index.md)** <br />
-There are *many* ways that researchers can access Galaxy. [This webinar](/src/events/2020-12-webinar-where/index.md) on **Wednesday, December 9**, will introduce participants to a range of options for using Galaxy instances around the world, and on your own laptop too.
+**[Use Galaxy on the web, the cloud, and your laptop too](/events/2020-12-webinar-where/)** <br />
+There are *many* ways that researchers can access Galaxy. [This webinar](/events/2020-12-webinar-where/) on **Wednesday, December 9**, will introduce participants to a range of options for using Galaxy instances around the world, and on your own laptop too.
 
 **[Plant genomics: chloroplast genome assembly using Galaxy Australia](https://www.biocommons.org.au/events/chloroplastgenomeassembly)** <br />
 You can also see Galaxy, in action, in **another webinar 12 hours later**: Anna Syme of Australian BioCommons will present a [webinar on plant genomics and genome assembly](https://www.biocommons.org.au/events/chloroplastgenomeassembly).
@@ -123,11 +123,11 @@ The first call of the Galaxy Metabolomics Community will be held on the 10th of 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable: Working Groups](/src/community/devroundtable/index.md)</div>
+<div class="card-header">[Galaxy Developer Roundtable: Working Groups](/community/devroundtable/)</div>
 
 **10 December, Online**
 
-There will be [one roundtable meetup this month](/src/events/2020-12-10-dev-roundtable/index.md). Discussion will focus on restructuring how development and other Galaxy components are gathered and coordinated.
+There will be [one roundtable meetup this month](/events/2020-12-10-dev-roundtable/). Discussion will focus on restructuring how development and other Galaxy components are gathered and coordinated.
 
 *A gentle shout form the editors:* **Wake up!** If you want to get involved in guiding and contributing to Galaxy in a significant way, then please join this call. 
 </div>
@@ -136,11 +136,11 @@ There will be [one roundtable meetup this month](/src/events/2020-12-10-dev-roun
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2020-12-papercuts/papercuts-2020-12-slice.png" alt="Paper Cuts December" />
-<div class="card-header">[December Papercuts CollaborationFest](/src/events/2020-12-papercuts/index.md)</div>
+<div class="card-header">[December Papercuts CollaborationFest](/events/2020-12-papercuts/)</div>
 
 **17 December, Online**
 
-Paper Cuts are annoying but easy to fix bugs. October and November were a success, so we are going to [do it again on December 17](/src/events/2020-12-papercuts/index.md). Our third one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
+Paper Cuts are annoying but easy to fix bugs. October and November were a success, so we are going to [do it again on December 17](/events/2020-12-papercuts/). Our third one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
 
 Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
 </div>
@@ -148,11 +148,11 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 <!--Galaxy Admin Training -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
-<div class="card-header">[Galaxy Admin Training: January 2021](/src/events/2021-01-admin-training/index.md)</div>
+<div class="card-header">[Galaxy Admin Training: January 2021](/events/2021-01-admin-training/)</div>
 
 **Application Deadline: 18 December**
 
-Applications to attend the [2021 Galaxy Admin Training](/src/events/2021-01-admin-training/index.md) in January are now open and being accepted through 18 December.  This week-long workshop will be online, global, and free.  Apply now.  (Applications are competitive).
+Applications to attend the [2021 Galaxy Admin Training](/events/2021-01-admin-training/) in January are now open and being accepted through 18 December.  This week-long workshop will be online, global, and free.  Apply now.  (Applications are competitive).
 
 </div>
 
@@ -187,13 +187,13 @@ This week-long workshop on how to use Galaxy will be online, global, and free.  
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 <div class="card-deck">
 
 <!-- CLIP Seq -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
-<div class="card-header">[CLIP-Explorer](/src/use/clip-explorer/index.md)</div>
+<div class="card-header">[CLIP-Explorer](/use/clip-explorer/)</div>
 
 <img class="card-img-top" src="/src/use/clip-explorer/logo_clipseq.png" alt="CLIP-Explorer" />
 
@@ -205,7 +205,7 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">CANARIE funds GenAP expansion</div>
 
-[GenAP](/src/use/genap/index.md), a Galaxy provider for Canadian researchers has been awarded additional funds by [CANARIE](https://www.canarie.ca/l) to expand it's service. [Read more here](https://www.canarie.ca/to-spur-software-re-use-in-research-canarie-awards-up-to-3-4m-to-research-teams-to-evolve-their-platforms-for-use-by-other-researchers/).
+[GenAP](/use/genap/), a Galaxy provider for Canadian researchers has been awarded additional funds by [CANARIE](https://www.canarie.ca/l) to expand it's service. [Read more here](https://www.canarie.ca/to-spur-software-re-use-in-research-canarie-awards-up-to-3-4m-to-research-teams-to-evolve-their-platforms-for-use-by-other-researchers/).
 
 <img class="card-img-bottom" src="/src/use/genap/genap-logo-trans-250.png" alt="GenAP" />
 
@@ -228,7 +228,7 @@ If you have some special needs that we should consider in our next purchase, [le
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -239,7 +239,7 @@ If you have some special needs that we should consider in our next purchase, [le
 
 </div>
 
-*Note: these platforms will feature prominently in the [December 9 webinar](/src/events/2020-12-webinar-where/index.md).*
+*Note: these platforms will feature prominently in the [December 9 webinar](/events/2020-12-webinar-where/).*
 
 
 
@@ -357,7 +357,7 @@ This tutorial uses sequencing data obtained through the MinION sequencer (Oxford
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -545,7 +545,7 @@ The Schatz Lab at Johns Hopkins University is looking for:
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Galaxy 20.09](/src/news/2020-11-galaxy-release-20-09/index.md)</div>
+<div class="card-header">[Galaxy 20.09](/news/2020-11-galaxy-release-20-09/)</div>
 
 See
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)**
@@ -608,11 +608,11 @@ This is an important step towards the accessibility of bioimage data. Now, image
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Extending Galaxy for Large-scale and Integrative Biomedical Analyses](/src/news/2020-11-czi/index.md)</div>
+<div class="card-header">[Extending Galaxy for Large-scale and Integrative Biomedical Analyses](/news/2020-11-czi/)</div>
 
 The Chan Zuckerberg Initiative's (CZI)  [Essential Open
 Source Software for
-Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/) (EOSS) program is [funding work to extend Galaxy](https://chanzuckerberg.com/eoss/proposals/extending-galaxy-for-large-scale-and-integrative-biomedical-analyses/).  See [the announcement for details](/src/news/2020-11-czi/index.md).
+Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/) (EOSS) program is [funding work to extend Galaxy](https://chanzuckerberg.com/eoss/proposals/extending-galaxy-for-large-scale-and-integrative-biomedical-analyses/).  See [the announcement for details](/news/2020-11-czi/).
 
 <img class="card-img-bottom" src="/src/images/logos/czi-320.png" alt="Chan Zuckerberg Initiative" />
 </div>
@@ -621,12 +621,12 @@ Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-scien
 <img class="card-img-top" src="/src/news/2020-10-jxtx-awardees/first-4.jpg" alt="David, Anoushka, Sumaira, and Georgia" />
 <div class="card-header">JXTX Foundation Impact</div>
 
-The [JXTX Foundation](/srcjxtx/foundation/index.md) sponsored [10 graduate students](/src/news/2020-10-jxtx-awardees/index.md) to attend the [2020 Biological Data Science Conference at Cold Spring Harbor Laboratory](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20).  The scholarships included connecting the recipients with prominent mentors in the field.  Here what the awardees have to say about this experience:
+The [JXTX Foundation](/srcjxtx/foundation/index.md) sponsored [10 graduate students](/news/2020-10-jxtx-awardees/) to attend the [2020 Biological Data Science Conference at Cold Spring Harbor Laboratory](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20).  The scholarships included connecting the recipients with prominent mentors in the field.  Here what the awardees have to say about this experience:
 
-* [David Twesigomwe on the impact of the JXTX Foundation](/src/news/2020-11-jxtx-twesigomwe/index.md)
-* [Anoushka Joglekar: Making Connections via the JXTX Foundation](/src/news/2020-11-jxtx-joglekar/index.md)
-* [Sumaira Zaman: JXTX Foundation and Unique Opportunities](/src/news/2020-11-jxtx-zaman/index.md)
-* [Georgia Doing on the JXTX Foundation: Funding + Community](/src/news/2020-11-jxtx-doing/index.md)
+* [David Twesigomwe on the impact of the JXTX Foundation](/news/2020-11-jxtx-twesigomwe/)
+* [Anoushka Joglekar: Making Connections via the JXTX Foundation](/news/2020-11-jxtx-joglekar/)
+* [Sumaira Zaman: JXTX Foundation and Unique Opportunities](/news/2020-11-jxtx-zaman/)
+* [Georgia Doing on the JXTX Foundation: Funding + Community](/news/2020-11-jxtx-doing/)
 
 </div>
 </div>

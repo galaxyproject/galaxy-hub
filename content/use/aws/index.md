@@ -13,7 +13,7 @@ comments:
   - "You need to have an account on AWS and have a credit card associated with that account."
   - "This is based on GVL, CloudBridge, and CloudMan infrastructure."
 user_support:
-  - "[Cloud documentation](/src/cloud/index.md)"
+  - "[Cloud documentation](/cloud/)"
 quotas:
   - "None"
 citations:

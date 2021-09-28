@@ -3,25 +3,25 @@ title: "September 2014 Galaxy News"
 date: "2014-08-29"
 ---
 <div class='right'>
-<a href='/src/galaxy-updates/2014-09/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
+<a href='/galaxy-updates/2014-09/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>
 
 Hello all,
 
-A lot of cool stuff happened in the Galaxy in August, and even more cool stuff is coming: The [September Galaxy Newsletter](/src/galaxy-updates/2014-09/index.md) is out and here are some highlights:
+A lot of cool stuff happened in the Galaxy in August, and even more cool stuff is coming: The [September Galaxy Newsletter](/galaxy-updates/2014-09/) is out and here are some highlights:
  
-* [Galaxy Events in Europe this Fall](/src/galaxy-updates/2014-09/index.md#galaxy-events-in-europe-fall-2014), *lots of 'em.*
-* [G3: The Great GigaScience and Galaxy Workshop](/src/galaxy-updates/2014-09/index.md#the-great-gigascience-and-galaxy-workshop) is happening Friday 19 September 2014 at The University of Melbourne.
-* [New releases](/src/galaxy-updates/2014-09/index.md#new-releases) and [communities](/src/galaxy-updates/2014-09/index.md#galaxy-uk-community-launched) - *lots of 'em: *
-  * [Galaxy](/src/galaxy-updates/2014-09/index.md#august-11-2014-galaxy-distribution)
-  * [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release)
-  * [BioBlend](/src/galaxy-updates/2014-09/index.md#bioblend-051-release)
-  * [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release)
-  * *The brand new* [Galaxy IPython](/src/galaxy-updates/2014-09/index.md#galaxy-ipython)
-  * *And,* the [Galaxy-UK Community](/src/galaxy-updates/2014-09/index.md#galaxy-uk-community-launched) was launched too.
+* [Galaxy Events in Europe this Fall](/galaxy-updates/2014-09/#galaxy-events-in-europe-fall-2014), *lots of 'em.*
+* [G3: The Great GigaScience and Galaxy Workshop](/galaxy-updates/2014-09/#the-great-gigascience-and-galaxy-workshop) is happening Friday 19 September 2014 at The University of Melbourne.
+* [New releases](/galaxy-updates/2014-09/#new-releases) and [communities](/galaxy-updates/2014-09/#galaxy-uk-community-launched) - *lots of 'em: *
+  * [Galaxy](/galaxy-updates/2014-09/#august-11-2014-galaxy-distribution)
+  * [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release)
+  * [BioBlend](/galaxy-updates/2014-09/#bioblend-051-release)
+  * [blend4j](/galaxy-updates/2014-09/#blend4j-011-release)
+  * *The brand new* [Galaxy IPython](/galaxy-updates/2014-09/#galaxy-ipython)
+  * *And,* the [Galaxy-UK Community](/galaxy-updates/2014-09/#galaxy-uk-community-launched) was launched too.
 
-And, as always, there are [new papers](/src/galaxy-updates/2014-09/index.md#new-papers), [new jobs](/src/galaxy-updates/2014-09/index.md#whos-hiring), and a double dose of [new ToolShed contributions](/src/galaxy-updates/2014-09/index.md#toolshed-contributions).
+And, as always, there are [new papers](/galaxy-updates/2014-09/#new-papers), [new jobs](/galaxy-updates/2014-09/#whos-hiring), and a double dose of [new ToolShed contributions](/galaxy-updates/2014-09/#toolshed-contributions).
 
 Happy September,
 
-[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)

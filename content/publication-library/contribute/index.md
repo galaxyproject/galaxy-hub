@@ -9,7 +9,7 @@ title: "Contribute to the Galaxy Publication Library"
 It takes a fair amount of work to keep track of publications that reference
 Galaxy in some way: There are now over 1000 papers per year that do so.  The
 bulk of this curation is currently done by [Galaxy
-Team](/src/galaxy-team/index.md) members using (quite possibly hundreds) of
+Team](/galaxy-team/) members using (quite possibly hundreds) of
 email alerts and custom software.
 
 If you want to help curate papers then here's how you can help.
@@ -23,7 +23,7 @@ high-throughput supernova of a curator.*)
 We use the [Zotero](https://zotero.org/) social bookmarking service to organize
 publications that are about, use, or reference Galaxy.  The [Galaxy Group on
 Zotero](https://www.zotero.org/groups/galaxy) is open to any community member
-who [would like to contribute](/src/publication-library/contribute/index.md).
+who [would like to contribute](/publication-library/contribute/).
 
 # Set Up
 
@@ -102,7 +102,7 @@ discuss your ideas.
 
 ## Add Platform Resource tags (">") if relevant
 
-If the publication is about, uses, or references a [public Galaxy platform](/src/use/index.md), then please add a tag for that.  Note that since there are over 100
+If the publication is about, uses, or references a [public Galaxy platform](/use/), then please add a tag for that.  Note that since there are over 100
 public platforms, you might also be creating the tag when add it.
 
 ## Watch for duplicates

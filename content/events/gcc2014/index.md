@@ -14,14 +14,14 @@ tags: [ cofest ]
 ---
 
 <div class="text-center">
-**[Slides, posters, and videos are now available](/src/events/gcc2014/abstracts/index.md); *and [GCC2018](https://gccboscs.sched.com/) is coming!* **
+**[Slides, posters, and videos are now available](/events/gcc2014/abstracts/); *and [GCC2018](https://gccboscs.sched.com/) is coming!* **
 </div> 
 
 The 2014 Galaxy Community Conference (GCC2014) was held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014
 
-[Galaxy Community Conferences](/src/gcc/index.md) are an opportunity to participate in [presentations](/src/events/gcc2014/abstracts/index.md#talk-abstracts), discussions, [poster sessions](/src/events/gcc2014/abstracts/index.md#poster-abstracts), [lightning talks](/src/events/gcc2014/lightning/index.md) and [birds-of-a-feather gatherings](/src/events/gcc2014/bofs/index.md), all about high-throughput biology and the tools that support it.  
+[Galaxy Community Conferences](/gcc/) are an opportunity to participate in [presentations](/events/gcc2014/abstracts/#talk-abstracts), discussions, [poster sessions](/events/gcc2014/abstracts/#poster-abstracts), [lightning talks](/events/gcc2014/lightning/) and [birds-of-a-feather gatherings](/events/gcc2014/bofs/), all about high-throughput biology and the tools that support it.  
 
-The conference also included a [Training Day](/src/events/gcc2014/training-day/index.md) offering in-depth topic coverage, across several concurrent sessions.  
+The conference also included a [Training Day](/events/gcc2014/training-day/) offering in-depth topic coverage, across several concurrent sessions.  
 
 <slot name="/events/gcc2014/linkbox" />
 
@@ -56,8 +56,8 @@ Several meeting reports have been created online:
 
 ## You should attend to ...
 
-* **[Present your work!](/src/events/gcc2014/abstracts/index.md)**
-* **[Learn best practices](/src/events/gcc2014/program/index.md)** for deploying Galaxy, defining and installing resources, and managing and moving large datasets.
+* **[Present your work!](/events/gcc2014/abstracts/)**
+* **[Learn best practices](/events/gcc2014/program/)** for deploying Galaxy, defining and installing resources, and managing and moving large datasets.
 * **Network with others** in the Galaxy community who are facing similar challenges and using Galaxy and other tools to address them.
 * Learn what the Galaxy Project's plans are, and **contribute to Galaxy's future direction.**
 * **Learn** 
@@ -76,15 +76,15 @@ Steve's GCC2014 talk will be on "Transcriptomes and Exomes: Computational Challe
 
 ## About Galaxy
 
-Galaxy makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis, trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/src/admin/license/index.md). 
+Galaxy makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis, trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/admin/license/). 
 
 ## GCC2014 Sponsors
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/PlatinumBanner.png" alt="Platinum Sponsor" />](/src/events/gcc2014/sponsor-exhibit/index.md)
+[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/PlatinumBanner.png" alt="Platinum Sponsor" />](/events/gcc2014/sponsor-exhibit/)
 
 [<img class="mx-auto" src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="320" />](http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html)
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/GoldBanner.png" alt="Gold Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
+[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/GoldBanner.png" alt="Gold Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
 [<img class="mx-auto" src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" />](http://bioteam.net/slipstream/galaxy-edition/)
 
@@ -96,7 +96,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 <br /><br />
 
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/SilverBanner.png" alt="Silver Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
+[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/SilverBanner.png" alt="Silver Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
 <br />
 
@@ -114,7 +114,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <br /><br />
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
+[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
 <br />
 
@@ -122,12 +122,12 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <br /><br />
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/OtherBanner.png" alt="Other Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
+[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/OtherBanner.png" alt="Other Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
 [<img class="mx-auto" src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" />](http://aws.amazon.com/)
 
 <div class="text-center">
-**[Training Day](/src/events/gcc2014/training-day/index.md) Sponsor**
+**[Training Day](/events/gcc2014/training-day/) Sponsor**
 </div>
 
 <br />
@@ -142,7 +142,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <br />
 
-*Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/src/events/gcc2014/sponsor-exhibit/index.md) or [exhibitor](/src/events/gcc2014/sponsor-exhibit/index.md#exhibitor).*
+*Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/events/gcc2014/sponsor-exhibit/) or [exhibitor](/events/gcc2014/sponsor-exhibit/#exhibitor).*
 
 <br />
 

@@ -1,9 +1,9 @@
 ---
 title: December 2012 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the December 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the December 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -45,13 +45,13 @@ These papers may be of interest to the Galaxy community:
 
 </div>
 
-* [Enis Afgan](/src/people/enis-afgan/index.md), Brad Chapman and [James Taylor](/src/people/james-taylor/index.md), "[CloudMan as a platform for tool, data, and analysis distribution](http://www.biomedcentral.com/1471-2105/13/315/abstract)." *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2012, 13:315 <br /><br />
-* [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [Nate Coraor](/src/people/nate/index.md), [The Galaxy Team](/src/galaxy-team/index.md), [Anton Nekrutenko](/src/people/anton/index.md) & [James Taylor](/src/people/james-taylor/index.md), "[NGS analyses by visualization with Trackster](http://bit.ly/VMUz7p)."  *[Nature Biotechnology](http://www.nature.com/nbt/index.html)* 30, 1036–1039 (2012) <br /><br />
+* [Enis Afgan](/people/enis-afgan/), Brad Chapman and [James Taylor](/people/james-taylor/), "[CloudMan as a platform for tool, data, and analysis distribution](http://www.biomedcentral.com/1471-2105/13/315/abstract)." *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2012, 13:315 <br /><br />
+* [Jeremy Goecks](/people/jeremy-goecks/), [Nate Coraor](/people/nate/), [The Galaxy Team](/src/galaxy-team/), [Anton Nekrutenko](/people/anton/) & [James Taylor](/people/james-taylor/), "[NGS analyses by visualization with Trackster](http://bit.ly/VMUz7p)."  *[Nature Biotechnology](http://www.nature.com/nbt/index.html)* 30, 1036–1039 (2012) <br /><br />
 * Samantha Baldwin, Roopashree Revanna, Susan Thomson, *et al.*, "[A Toolkit for bulk PCR-based marker design from next-generation sequence data: application for development of a framework linkage map in bulb onion (Allium cepa L.)](https://doi.org/10.1186/1471-2164-13-637)," *BMC Genomics*, Vol. 13, No. 1. (2012), 637 <br /><br />
 * Jeremy C. Morgan, Robert W. Chapman, Paul E. Anderson, "[A next generation sequence processing and analysis platform with integrated cloud-storage and high performance computing resources](https://doi.org/10.1145/2382936.2383033).  Proceedings of the ACM Conference on Bioinformatics, Computational Biology and Biomedicine <br /><br /> 
 * Bo Liu, Borja Sotomayor, Ravi Madduri, Kyle Chard, "[Deploying Bioinformatics Workflows on Clouds with Galaxy and Globus Provision](http:// bit.ly/UPBbRI)."  [Third International Workshop on Data Intensive Computing in the Clouds (DataCloud 2012)](http://www.cse.buffalo.edu/faculty/tkosar/DataCloud2012/)
 
-These papers were among [37 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md).  
+These papers were among [37 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/).  
 
 
 <br />
@@ -66,7 +66,7 @@ These papers were among [37 papers added to the Galaxy CiteULike group](http://w
 
 * **[RepeatExplorer](http://repeatexplorer.umbr.cas.cz/):** Features utilities for [Graph-based clustering and characterization of repetitive sequences in next-generation sequencing data](http://www.biomedcentral.com/1471-2105/11/378) and tools for the detection of transposable element protein coding domains.  [RepeatExplorer](http://repeatexplorer.umbr.cas.cz/) is hosted by the [Laboratory of Molecular Cytogenetics](http://w3lamc.umbr.cas.cz/lamc/), [Institute of Plant Molecular Biology](http://www.umbr.cas.cz/), [Biology Centre ASCR](http://www.bc.cas.cz/en/)
 
-See [the list of public Galaxy servers](/src/use/index.md) for more open and accessible Galaxy instances.
+See [the list of public Galaxy servers](/use/) for more open and accessible Galaxy instances.
 
 ## Who's Hiring
 
@@ -78,17 +78,17 @@ The Galaxy is expanding!  Please help it grow.
 * [Engineer position in bioinformatics: structural polymorphism analysis from NGS data](http://bit.ly/TEQvzd) @ [UMR de Génétique Végétale, INRA-Université Paris Sud-CNRS](http://moulon.inra.fr/index.php/fr/equipestransversales/atelier-de-bioinformatique)
 * [R/Bioconductor and Genomics Expert](http://bit.ly/T1QOZP) @ the [Friedrich Miescher Institute](http://www.fmi.ch/), affiliated with the University of Basel.
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Penn State and Emory
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs @ Penn State and Emory
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ## Upcoming Events and Deadlines
 
 <div class='center'>
 <a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'><img src="/src/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" height="80" /></a>
-<a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a>
+<a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a>
 <a href='http://conf.abrf.org/'><img src="/src/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
-<a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
+<a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 </div>
 
 <br />
@@ -109,13 +109,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> January 12-16 </th>
     <td> <em><a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'>Galaxy</a></em> </td>
     <td> Part of the <a href='https://pag.confex.com/pag/xxi/webprogram/Session1537.html'>GMOD Workshop</a> at <strong><a href='http://www.intlpag.org/'>Plant and Animal Genome (PAG 2013)</a></strong>, San Diego, California, United States </td>
-    <td> <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/people/jennifer-jackson/'>Jennifer Jackson</a> </td>
   </tr>
   <tr>
     <th> January 16 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'>Deploying Production Galaxy Environments on OpenStack with CloudBioLinux and CloudMan</a></em> </td>
-    <td> <a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'>January GalaxyAdmins Web Meetup</a> </td>
-    <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, Srinivas Maddhi, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2013-01-16/'>Deploying Production Galaxy Environments on OpenStack with CloudBioLinux and CloudMan</a></em> </td>
+    <td> <a href='/community/galaxy-admins/meetups/2013-01-16/'>January GalaxyAdmins Web Meetup</a> </td>
+    <td> <a href='https://www.msi.umn.edu/users/chilton'>John Chilton</a>, Srinivas Maddhi, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> January 14-18 </th>
@@ -133,23 +133,23 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> March 2-5 </th>
     <td> <em><a href='http://conf.abrf.org/index.cfm/page/satellite_workshops.htm'>SW1: Application of NGS Platforms for Whole Transcriptome and Genome Analysis</a></em> and <br /><em><a href='http://conf.abrf.org/index.cfm/page/index/2013ConfProg.htm'>W6: Community Resource Solutions to Analyzing Large Genomic Data Sets</a></em> </td>
     <td> <strong><a href='http://conf.abrf.org/'>ABRF 2013</a></strong><br />Palm Springs, California, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 5-6 </th>
     <td> <em><a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a></em> </td>
     <td> Cambridge, United Kingdom, immediately prior to <a href='http://www.ebi.ac.uk/biocuration2013/'>Biocuration 2013</a> </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 7-10 </th>
     <td> <em><a href='http://wiki.geneontology.org/index.php/GO_Galaxy_Workshop_at_Biocuration_2013'>GO Galaxy Workshop</a></em> </td>
     <td> <a href='http://www.ebi.ac.uk/biocuration2013/home'>Biocuration 2013</a>,  Cambridge, United Kingdom </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/suzanna-lewis'>Suzanna Lewis</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://www.berkeleybop.org/person/suzanna-lewis'>Suzanna Lewis</a> </td>
   </tr>
   <tr>
     <th> June 30 - July&nbsp;2 </th>
-    <td> <strong><em><a href='/src/events/gcc2013/index.md'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
+    <td> <strong><em><a href='/events/gcc2013/'>2013 Galaxy Community Conference (GCC2013)</a></strong></em> </td>
     <td> University of Oslo, Oslo, Norway </td>
     <td> <a href="mailto:outreach@galaxyproject.org">Galaxy Outreach</a> </td>
   </tr>
@@ -178,7 +178,7 @@ This documentation is a work in program and should make incremental improvements
 
 ## New Galaxy Distributions
 
-**[November 11, 2012](/src/archive/dev-news-briefs/2012-11-14/index.md)**
+**[November 11, 2012](/archive/dev-news-briefs/2012-11-14/)**
 
 <div class='indent'>
 **Highlights:**
@@ -186,8 +186,8 @@ This documentation is a work in program and should make incremental improvements
 * The **[Intergalactic Utilities Commission](http://wiki.g2.bx.psu.edu/ReviewingToolShedRepositories)** will soon begin reviewing repositories in the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)** (better repos, better tools)
 * **[Tool Shed](http://toolshed.g2.bx.psu.edu/)** **"best practice"** advice: [a single tool or a suite of tools per repository?](http://wiki.galaxyproject.org/AToolOrASuitePerRepository)
 * **[Tophat](http://tophat.cbcb.umd.edu/)**, **[Tophat2](http://tophat.cbcb.umd.edu/manual.html)**, and **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** **updated** to accept gene annotations in **[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3)** format.
-* Multiple **enhancements** to the **[API](/src/archive/dev-news-briefs/2012-11-14/index.md#api)** targeting user and history actions.
-* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/src/archive/dev-news-briefs/2012-11-14/index.md#security-fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
+* Multiple **enhancements** to the **[API](/archive/dev-news-briefs/2012-11-14/#api)** targeting user and history actions.
+* Plus **updates to** **[CloudLaunch](http://usegalaxy.org/cloud)**, new **[Security Fixes](/archive/dev-news-briefs/2012-11-14/#security-fixes)**, and several usability enhancements for **Datasets**, **Datatypes**, **Tools**, and **Tool Shed** functions.
 
 ```
 new:     $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
@@ -198,12 +198,12 @@ upgrade: $ hg pull -u -r 5dcbbdfe1087
 
 ## New Galaxy CloudMan Release
 
-[CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
+[CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 This update brings a large number of updates and new features, the most prominent ones being:
 * Support for Eucalyptus cloud middleware. Thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).
 * Added a new file system management interface on the CloudMan Admin page, allowing control and providing insight into each available file system
-* Added quite a few new user data options. See the [UserData page](/src/cloudman/userdata/index.md) for details. Thanks to John Chilton.
+* Added quite a few new user data options. See the [UserData page](/cloudman/userdata/) for details. Thanks to John Chilton.
 * Galaxy can now be run in multi-process mode. Thanks to John Chilton.
 * Added Galaxy Reports app as a CloudMan service. Thanks to John Chilton.
 * Introduced a new format for cluster configuration persistence, allowing more flexibility in how services are maintained
@@ -220,7 +220,7 @@ This update comes as a result of 175 code changesets; for a complete list of cha
 Several new repositories were added to, and existing repositories updated in the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in the past month.
 
 * `bsmap`: A short read mapping tool for bisulfite sequencing reads
-* `bowtie_wrappers, bowtie_color_wrappers, lastz, lastz_paired_ends`: Wrappers all created by the [Galaxy Team](/src/galaxy-team/index.md)
+* `bowtie_wrappers, bowtie_color_wrappers, lastz, lastz_paired_ends`: Wrappers all created by the [Galaxy Team](/galaxy-team/)
 * `semweb_tools`: A collection of Semantic Web tools, including a (pure python) SPARQL-to-tabular format tool
 * `ea_utils`: FASTQ processing utilities; sam-stats added
 * `regex_replace`: Regular expression replacement using the Python 
@@ -235,14 +235,14 @@ Several new repositories were added to, and existing repositories updated in the
 
 ## Other News
 
-<div class='right'><a href='/src/events/gcc2013/promotion/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a><br />
-<a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="175px" /></a>
+<div class='right'><a href='/events/gcc2013/promotion/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a><br />
+<a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="175px" /></a>
 </div>
 
-* [GCC2013](/src/events/gcc2013/index.md) is coming.  Help [get the word out](/src/events/gcc2013/promotion/index.md)!
-* [Training Day Topic Nominations](/src/events/gcc2013/training-day/index.md) for [GCC2013](/src/events/gcc2013/index.md) will open in December.  Please start thinking of ideas now.
-* Slides and Screencast from [November GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2012-11-14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/index.md) will be on [January 16](/src/community/galaxy-admins/meetups/2013-01-16/index.md) and feature [John Chilton](/src/people/john-chilton/index.md) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
+* [GCC2013](/events/gcc2013/) is coming.  Help [get the word out](/events/gcc2013/promotion/)!
+* [Training Day Topic Nominations](/events/gcc2013/training-day/) for [GCC2013](/events/gcc2013/) will open in December.  Please start thinking of ideas now.
+* Slides and Screencast from [November GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2012-11-14/) are online.  The next [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/) will be on [January 16](/community/galaxy-admins/meetups/2013-01-16/) and feature [John Chilton](/people/john-chilton/) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
 * New Tutorial: *[Analysis of ChIP-seq data in Galaxy](http://jura.wi.mit.edu/bio/education/hot_topics/galaxy/GalaxyNov2012_ChIP-seq_toPost.pdf)* from the [BaRC, Whitehead Institute](http://jura.wi.mit.edu/bio/education/hot_topics/)
-* [A short "Getting started with JGalaxy"](http://bit.ly/SkW2yU) document (with screenshots), by [John Chilton](/src/people/john-chilton/index.md)
+* [A short "Getting started with JGalaxy"](http://bit.ly/SkW2yU) document (with screenshots), by [John Chilton](/people/john-chilton/)
 * [生物人的電腦教室：高通量定序分析一次搞定](http://bit.ly/Sc4LDN) including Galaxy, by Eric Lee 
 * [Batch Workflow starting using the Galaxy API : Practical Example](http://bit.ly/TjTj6X) by Geert Vandeweyer

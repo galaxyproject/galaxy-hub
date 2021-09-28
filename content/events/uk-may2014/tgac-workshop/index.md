@@ -8,7 +8,7 @@
 
 <div class='title'>Introduction to Galaxy<br />9 May 2014</div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+**Instructor: [Dave Clements](/people/dave-clements/)
 
 9:00-16:00<br />
 Genome Seminar Room<br />
@@ -98,7 +98,7 @@ No programming or Linux command line experience is required.
 
 <div class='right'>
 <br /><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
-<a href='/src/events/uk-may2014/index.md'><img src="/src/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
+<a href='/events/uk-may2014/'><img src="/src/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
 </div>
 
 ## Support
@@ -107,7 +107,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ### Galaxy May 2014 UK Tour
 
-This workshop is part of the [May 2014 Galaxy UK Tour](/src/events/uk-may2014/index.md), which features events in Norwich and Edinburgh.
+This workshop is part of the [May 2014 Galaxy UK Tour](/events/uk-may2014/), which features events in Norwich and Edinburgh.
 
 ## Slides
 

@@ -2,10 +2,10 @@
 title: October 2017 Galaxy News
 ---
 <div class='right'>
-[<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 </div>
 
-Welcome to the October 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the October 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ---
 
@@ -20,11 +20,11 @@ What do fall foliage, pumpkin beer, and Halloween have in common? October! Or, w
 
 [<img class="float-right" src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" width="200" />](https://www.zotero.org/groups/galaxy)
 
-After residing on CiteULike since 2011, the Galaxy Publication Library has moved to [Zotero](https://www.zotero.org/groups/galaxy). See [the announcement](/src/news/2017-09-publication-lib-on-zotero/index.md) for full details. 
+After residing on CiteULike since 2011, the Galaxy Publication Library has moved to [Zotero](https://www.zotero.org/groups/galaxy). See [the announcement](/news/2017-09-publication-lib-on-zotero/) for full details. 
 
 ## Highlighted Publications
 
-With the [move to Zotero](/src/news/2017-09-publication-lib-on-zotero/index.md), we added two tags to highlight papers that either emphasize Galaxy ("[+Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/+Stellar)"), or are about Galaxy ("[+Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/+Galactic)"):
+With the [move to Zotero](/news/2017-09-publication-lib-on-zotero/), we added two tags to highlight papers that either emphasize Galaxy ("[+Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/+Stellar)"), or are about Galaxy ("[+Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/+Galactic)"):
 
 The *Galactic* and *Stellar* publications added in September were:
 
@@ -63,7 +63,7 @@ We also added tags to papers that reference, use, or implement a Galaxy Public S
 
 # Upcoming events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <table class="table table-striped">
 <thead>
@@ -190,19 +190,19 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 The Galaxy is expanding! Please help it grow.
 
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 * [Implémentation d’outils d’analyse et de visualisation de variations structurales et génomes mosaïques](https://www.sfbi.fr/content/impl%C3%A9mentation-d%E2%80%99outils-d%E2%80%99analyse-et-de-visualisation-de-variations-structurales-et-g%C3%A9nomes-), IRD (Institut de Recherche pour le Développement), Montpellier, France
 * [Metabarcoding, analyses écologiques et statistiques de paleocommunautés de protistes de l’écosystème côtier](https://www.sfbi.fr/content/metabarcoding-analyses-%C3%A9cologiques-et-statistiques-de-paleocommunaut%C3%A9s-de-protistes-de-l%E2%80%99%C3%A9co), IFREMER DYNECO/Pelagos, Brest, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in September.
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in September.
 
 ## Public Servers in September's Publications
 
@@ -216,7 +216,7 @@ As mentioned above, as part of the move to Zotero, we have started tagging paper
 
 ## Public Server Directory Rebuilt
 
-The [public Galaxy server directory](/src/use/index.md) was rebuilt in September to take advantage of Hub support for such directories. [Take a look](/src/use/index.md).
+The [public Galaxy server directory](/use/) was rebuilt in September to take advantage of Hub support for such directories. [Take a look](/use/).
 
 ## ImmPort Galaxy: New Release and Feedback Needed
 
@@ -247,7 +247,7 @@ From [Claassens et al.](https://doi.org/10.1371/journal.pone.0184355):
 A [manual](http://codonharmonizer.systemsbiology.nl/static/CodonHarmonization_Manual.pdf) and email support ([Bart Nijsse](mailto:bart.nijsse AT wur.nl), [Nico
 Claassens](mailto:nicoclaassens AT gmail.com)) are available.
 
-See the [Codon Harmonizer page](/src/use/codon-harmonizer/index.md) for more.
+See the [Codon Harmonizer page](/use/codon-harmonizer/) for more.
 
 ----
 
@@ -257,7 +257,7 @@ See the [Codon Harmonizer page](/src/use/codon-harmonizer/index.md) for more.
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in September](/src/toolshed/contributions/2017-09/index.md).
+[Tool Shed contributions in September](/toolshed/contributions/2017-09/).
 
 # Releases
 
@@ -337,12 +337,12 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/src/people/john-chilton/index.md): 
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+* From [John Chilton](/people/john-chilton/): 
+  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 ### Galaxy CloudMan 17.05 on AWS
 
-A new release of [Galaxy CloudMan](/src/cloudman/index.md) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, visit https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/src/cloudman/index.md#getting-started) guide.
+A new release of [Galaxy CloudMan](/cloudman/) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, visit https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/cloudman/#getting-started) guide.
 
 
 ### CloudLaunch

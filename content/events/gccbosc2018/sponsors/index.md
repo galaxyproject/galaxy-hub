@@ -5,7 +5,7 @@
 
 Sponsors are a key part of GCCBOSC2018.  They are potential partners in your success, and they make this conference affordable and accessible. 
 
-Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Becoming a GCCBOSC 2018 sponsor is an excellent way to raise your organization's visibility in these active and engaged communities.  Please see below for sponsorship packages and then contact the [organizers](/src/events/gccbosc2018/organizers/index.md).
+Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Becoming a GCCBOSC 2018 sponsor is an excellent way to raise your organization's visibility in these active and engaged communities.  Please see below for sponsorship packages and then contact the [organizers](/events/gccbosc2018/organizers/).
 
 ## Platinum Sponsors
 
@@ -52,15 +52,15 @@ Is your organization interested in playing a prominent role in the first joint g
   </tr>
   <tr style="text-align: center">
     <td>
-      **[Icebreaker](/src/events/gccbosc2018/icebreaker/index.md) Sponsor**
+      **[Icebreaker](/events/gccbosc2018/icebreaker/) Sponsor**
     </td>
     <td style="width: 5%"> </td>
     <td>
-      **[Childcare](/src/events/gccbosc2018/childcare/index.md) Sponsor**
+      **[Childcare](/events/gccbosc2018/childcare/) Sponsor**
     </td>
     <td style="width: 8%"> </td>
     <td>
-      **[Childcare](/src/events/gccbosc2018/childcare/index.md) Sponsor**
+      **[Childcare](/events/gccbosc2018/childcare/) Sponsor**
     </td>
   </tr>
   <tr style="text-align: center">
@@ -98,7 +98,7 @@ Is your organization interested in playing a prominent role in the first joint g
 <br />
 [<img src="/src/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
-Please see the information below and contact the [conference organizers](/src/events/gccbosc2018/organizers/index.md) with any questions.
+Please see the information below and contact the [conference organizers](/events/gccbosc2018/organizers/) with any questions.
 
 - [One page summary](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf)
 - [Sponsorship prospectus](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)
@@ -166,7 +166,7 @@ Other a la carte sponsorship opportunities are also available. Many additional o
 
 # CollaborationFest Sponsorships
 
-[CollaborationFest](/src/events/gccbosc2018/collaboration/index.md) will follow the conference. Community members collaborate to extend the platform and ecosystem of Galaxy and any projects of interest to the BOSC community. We are also seeking sponsorships for this event. Please contact the [GCC & BOSC organizers](/src/events/gccbosc2018/organizers/index.md) if you are interested in sponsoring CollarorationFest. Participation in these events is free.  Sponsorships are much welcomed as they provide sustenance for the participants.
+[CollaborationFest](/events/gccbosc2018/collaboration/) will follow the conference. Community members collaborate to extend the platform and ecosystem of Galaxy and any projects of interest to the BOSC community. We are also seeking sponsorships for this event. Please contact the [GCC & BOSC organizers](/events/gccbosc2018/organizers/) if you are interested in sponsoring CollarorationFest. Participation in these events is free.  Sponsorships are much welcomed as they provide sustenance for the participants.
 
 | | Peta | Tera | Giga |
 | ----: | :----: | :----: | :----: |

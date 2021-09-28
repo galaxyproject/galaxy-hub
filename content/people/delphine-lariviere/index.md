@@ -1,12 +1,12 @@
 <div class='float-right'>
-<a href='/src/people/delphine-lariviere/index.md'>
+<a href='/people/delphine-lariviere/'>
 <img src="/src/galaxy-team/DelphineLariviere.jpg" alt="Delphine Lariviere" width="200" height="150" />
 </a>
 </div>
 
 # Delphine Lariviere
 
-[Galaxy Team](/src/galaxy-team/index.md)<br />
+[Galaxy Team](/galaxy-team/)<br />
 [Nekrutenko Lab](http://nekrut.bx.psu.edu/), Penn State University, PA, US
 <br />
 

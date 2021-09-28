@@ -1,10 +1,10 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> <div class='title'>2012-11-14 Conference Call</div></div>
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> <div class='title'>2012-11-14 Conference Call</div></div>
 
 <br />
 
 <slot name="/community/galaxy-admins/linkbox" />
 
-<div class='center'>**Note:** Next [GalaxyAdmins](/src/community/galaxy-admins/meetups/index.md) Meetup: [January 16](/src/community/galaxy-admins/meetups/2013-01-16/index.md) <br /> John Chilton on Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan</div>
+<div class='center'>**Note:** Next [GalaxyAdmins](/community/galaxy-admins/meetups/) Meetup: [January 16](/community/galaxy-admins/meetups/2013-01-16/) <br /> John Chilton on Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan</div>
 
 <br />
 
@@ -36,7 +36,7 @@ Curtis Hendrickson of the [University of Alabama Birmingham's Center for Clinica
 
 <br /><br />
 
-*We also bid farewell to [Ann Black-Ziegelbein of the University of Iowa](https://www.linkedin.com/pub/ann-blackziegelbein/a/166/117).*  Ann has been the driving force behind launching the [GalaxyAdmins](/src/community/index.md) group and has guided it through its first (wildly successful!) 6 months of existence.  Ann is handing over the reigns to her fellow U Iowa colleague Srinivas Maddhi, whose day job is getting Iowa's Galaxy server into production.  
+*We also bid farewell to [Ann Black-Ziegelbein of the University of Iowa](https://www.linkedin.com/pub/ann-blackziegelbein/a/166/117).*  Ann has been the driving force behind launching the [GalaxyAdmins](/community/) group and has guided it through its first (wildly successful!) 6 months of existence.  Ann is handing over the reigns to her fellow U Iowa colleague Srinivas Maddhi, whose day job is getting Iowa's Galaxy server into production.  
 
 We thank Ann profusely for her contributions, and Srinivas for taking this on.
 

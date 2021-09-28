@@ -4,7 +4,7 @@ title: Introduction to Galaxy
 <div class='center'>
 <a href='http://utah.edu/'><img src="/src/images/logos/UUtah.png" alt="University of Utah" width="150" /></a><br /><br />
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+**Instructor: [Dave Clements](/people/dave-clements/)
 
 November 16, 2016<br />
 9:00-5:00<br /><br />

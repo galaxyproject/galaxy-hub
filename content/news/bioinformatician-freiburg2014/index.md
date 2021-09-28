@@ -46,4 +46,4 @@ Our lab is located in Freiburg, a beautiful university city in the south
 west of Germany with the Black Forest, France and Switzerland just
 around the corner and excellent research facilities all over the city.
 
-Please contact [Bjoern Gruening](/src/people/bjoern-gruening/index.md) for further details.
+Please contact [Bjoern Gruening](/people/bjoern-gruening/) for further details.

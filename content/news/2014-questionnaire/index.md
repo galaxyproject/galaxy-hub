@@ -15,4 +15,4 @@ Please take a few minutes and fill out whichever surveys apply to you.  The ques
 
 Let your voice be heard!
 
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

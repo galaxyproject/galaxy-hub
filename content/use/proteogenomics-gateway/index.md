@@ -17,7 +17,7 @@ quotas:
   - "Can be accessed anonymously."
   - "Supports account creation."
 citations:
-  - "[An Accessible Proteogenomics Informatics Resource for Cancer Researchers](http://cancerres.aacrjournals.org/content/77/21/e43.long), Matthew C. Chambers, Pratik D. Jagtap, James E. Johnson, Thomas McGowan, Praveen Kumar, Getiria Onsongo, Candace R. Guerrero, Harald Barsnes, Marc Vaudel, Lennart Martens, [Björn Grüning](/src/people/bjoern-gruening/index.md), Ira R. Cooke, Mohammad Heydarian, Karen L. Reddy and Timothy J. Griffin. *Cancer Research*, DOI: 10.1158/0008-5472.CAN-17-0331"
+  - "[An Accessible Proteogenomics Informatics Resource for Cancer Researchers](http://cancerres.aacrjournals.org/content/77/21/e43.long), Matthew C. Chambers, Pratik D. Jagtap, James E. Johnson, Thomas McGowan, Praveen Kumar, Getiria Onsongo, Candace R. Guerrero, Harald Barsnes, Marc Vaudel, Lennart Martens, [Björn Grüning](/people/bjoern-gruening/), Ira R. Cooke, Mohammad Heydarian, Karen L. Reddy and Timothy J. Griffin. *Cancer Research*, DOI: 10.1158/0008-5472.CAN-17-0331"
 pub_libraries:
   - "Proteogenomics Gateway"
 sponsors:

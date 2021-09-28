@@ -133,7 +133,7 @@ def admin( context, section ):
 ```
 
 
-To rewrite the important points from [UserDefinedToolboxFilters](/src/user-defined-toolbox-filters/index.md) page, 
+To rewrite the important points from [UserDefinedToolboxFilters](/user-defined-toolbox-filters/) page, 
 
 * Every filter is a small python function under lib/galaxy/tools/toolbox/filters/. 
 

@@ -13,7 +13,7 @@ Room 4325D, [James Clerk Maxwell Building (JCMB)](http://www.ph.ed.ac.uk/about/l
 [University of Edinburgh](http://www.ed.ac.uk/), Edinburgh, United Kingdom
 
 <br />
-Instructors<br />[Dave Clements](/src/people/dave-clements/index.md), [Johns Hopkins University](http://www.jhu.edu/)<br /> [Shaun Webb](http://www.research.ed.ac.uk/portal/en/persons/shaun-webb(f89f2a63-6811-473c-aa8a-5e9df97bea3a)/publications.html), [University of Edinburgh](http://www.ed.ac.uk/)<br />
+Instructors<br />[Dave Clements](/people/dave-clements/), [Johns Hopkins University](http://www.jhu.edu/)<br /> [Shaun Webb](http://www.research.ed.ac.uk/portal/en/persons/shaun-webb(f89f2a63-6811-473c-aa8a-5e9df97bea3a)/publications.html), [University of Edinburgh](http://www.ed.ac.uk/)<br />
 [Bert Overduin](https://www.linkedin.com/pub/bert-overduin/21/233/129), [University of Edinburgh](http://www.ed.ac.uk/)
 **
 </div>
@@ -71,7 +71,7 @@ Anyone affiliated with the University of Edinburgh can participate in this works
 
 <div class='right'>
 <br /><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
-<a href='/src/events/uk-may2014/index.md'><img src="/src/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
+<a href='/events/uk-may2014/'><img src="/src/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
 </div>
 
 ## Support
@@ -80,7 +80,7 @@ This workshop is generously supported by the [Welcome Trust Centre for Cell Biol
 
 ### Galaxy May 2014 UK Tour
 
-This workshop is part of the [May 2014 Galaxy UK Tour](/src/events/uk-may2014/index.md), which features events in Norwich, as well as other events in Edinburgh.
+This workshop is part of the [May 2014 Galaxy UK Tour](/events/uk-may2014/), which features events in Norwich, as well as other events in Edinburgh.
 
 ## Slides
 

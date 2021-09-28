@@ -23,7 +23,7 @@ Dave Clements, on behalf of the Galaxy Community
 
 # In the May 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * **[James Peter Taylor](#james-peter-taylor-1979-2020)**, 1979-2020
 * **[BCC2020](#bcc2020-will-be-online-global-affordable-and-accessible) will be online, global, affordable, and accessible**
@@ -32,10 +32,10 @@ Dave Clements, on behalf of the Galaxy Community
 * [Upcoming events](#upcoming-events)
 * [Blog posts](#galactic-blog-activity)
 * [Galaxy Platform News](#galaxy-platforms-news)
-* [Training material and doc updates](/src/news/2020-05-galaxy-update/index.md#doc-hub-and-training-updates)
+* [Training material and doc updates](/news/2020-05-galaxy-update/#doc-hub-and-training-updates)
 * [Who's Hiring](#whos-hiring)
 * [New Releases](#releases)
-* [New publications](/src/news/2020-05-galaxy-update/index.md#publications) (671 of them)
+* [New publications](/news/2020-05-galaxy-update/#publications) (671 of them)
 * And [other cool news too](#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -44,13 +44,13 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # James Peter Taylor, 1979-2020
 
-[<img class="float-right" src="/src/jxtx/james-and-alvey.png" alt="James and Alvey"  style="max-width: 15rem;" />](/src/jxtx/index.md)
+[<img class="float-right" src="/src/jxtx/james-and-alvey.png" alt="James and Alvey"  style="max-width: 15rem;" />](/jxtx/)
 
 James Taylor, one of the founders and leaders of the Galaxy Project died of natural causes on April 2.  One day he was online tweeting about open access to data, and the next day he was not.  News of his passing spread around the world, and the response has been overwhelming.
 
-These responses, plus a summary of his academic life, and extended remembrances from several colleagues have been compiled on the [@jxtx page](/src/jxtx/index.md).  If you want to add your thoughts, please [submit them here](https://docs.google.com/forms/d/e/1FAIpQLSd4iKUV7r91OxRFq6DbkVpSb4ftTP4eQqhvcSl-TD-PUdvFPw/viewform) and we will post them.
+These responses, plus a summary of his academic life, and extended remembrances from several colleagues have been compiled on the [@jxtx page](/jxtx/).  If you want to add your thoughts, please [submit them here](https://docs.google.com/forms/d/e/1FAIpQLSd4iKUV7r91OxRFq6DbkVpSb4ftTP4eQqhvcSl-TD-PUdvFPw/viewform) and we will post them.
 
-We are also [starting a foundation to continue and commemorate James' work](/src/jxtx/index.md#JTech-Junior-Training-and-Educational-Connections-Hotspot) by supporting grad students, junior faculty, and underrepresented groups.  Please consider contributing.
+We are also [starting a foundation to continue and commemorate James' work](/jxtx/#JTech-Junior-Training-and-Educational-Connections-Hotspot) by supporting grad students, junior faculty, and underrepresented groups.  Please consider contributing.
 
 Galaxy will go on and we will continue to support his legacy of open reproducible science.
 
@@ -66,7 +66,7 @@ We miss you James.
 <img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
 <div class="card-header">[BOSC + GCC = BCC2020](https://bcc2020.github.io/)</div>
 
-The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/src/gcc/index.md).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
+The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/gcc/).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
@@ -215,7 +215,7 @@ Galaxy Australia relies on distributed deployments using Pulsar to increase the 
 
 # Upcoming Events
 
-The coronavirus outbreak has impacted BCC2020, and just about every other event for the rest of the year too.  Most events through the end of August have been postponed or moved online.  We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+The coronavirus outbreak has impacted BCC2020, and just about every other event for the rest of the year too.  Most events through the end of August have been postponed or moved online.  We have updated our [list of events](/events/) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
@@ -254,13 +254,13 @@ Want to learn the Galaxy community and platform big picture?  Attend the next tw
 
 There are
 
-* [25 upcoming events](/src/events/index.md) (most of them virtual)
+* [25 upcoming events](/events/) (most of them virtual)
 * covering COVID-19 (5 events), single-cell, variant detection, assembly, RNA-Seq and more.
 
 And material from some recent past events is now available:
 
 * [Galaxy: much more than a workflow management system](https://drive.google.com/file/d/1j_AYy7Jn0WXL5BZxtVGVU1qMGVHxf954/preview): Video
-* [Galaxy @ PAG 2020](/src/events/2020-pag/index.md): Slides and posters
+* [Galaxy @ PAG 2020](/events/2020-pag/): Slides and posters
 * [Development of BioCompute Objects for Integration into Galaxy in a Cloud Computing Environment](https://youtu.be/8pwss1SY8Tg): on video
 * [Intro to Circos, its applications & use within Galaxy Australia](https://www.youtube.com/watch?v=j2R10doH5_4): on video
 * [Galaxy-based Multi-omic Informatics Hub for Cancer Researchers](https://datascience.cancer.gov/news-events/events/galaxy-based-multi-omic-informatics-hub-cancer-researchers): on video
@@ -312,7 +312,7 @@ Adaption of a repertoire of commonly used omics tools spanning metagenomics, -tr
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
 
 <div class="card-deck">
 
@@ -338,7 +338,7 @@ The [CoralSNP server](https://coralsnp.science.psu.edu/galaxy/) implements *Stan
 
 <img class="card-img-top" src="/src/use/mississippi/mississippi-logo.png" alt="Mississippi" />
 
-The [Mississippi server was upgraded](/src/news/2020-03-mississippi/index.md), and [has a new URL](https://mississippi.sorbonne-universite.fr/).  Every tool installed on the previous server should be already installed on the new server.  The old server will be put into a read only state on June 1st, and then taken down on September 1st.
+The [Mississippi server was upgraded](/news/2020-03-mississippi/), and [has a new URL](https://mississippi.sorbonne-universite.fr/).  Every tool installed on the previous server should be already installed on the new server.  The old server will be put into a read only state on June 1st, and then taken down on September 1st.
 </div>
 
 
@@ -351,7 +351,7 @@ The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyus
 </div>
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[ProteoRE 2.1 Launched](/src/news/2020-02-proteore/index.md)</div>
+<div class="card-header">[ProteoRE 2.1 Launched](/news/2020-02-proteore/)</div>
 
 <img class="card-img-top" src="/src/use/proteore/proteore.png" alt="ProteoRE" />
 
@@ -360,7 +360,7 @@ The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyus
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -462,9 +462,9 @@ How to set up your own *[Training Infrastructure as a Service (TIaaS)](https://g
 
 By Jennifer Hillman-Jackson.
 
-* [How to find hard-to-locate histories and datasets](/src/support/missing-history/index.md)
-* [New guidelines for downloading large datasets and troubleshooting downloads](/src/support/download-data/index.md)
-* [Account quotas](/src/support/account-quotas/index.md)
+* [How to find hard-to-locate histories and datasets](/support/missing-history/)
+* [New guidelines for downloading large datasets and troubleshooting downloads](/support/download-data/)
+* [Account quotas](/support/account-quotas/)
 
 <img class="card-img-bottom" src="hub-download.png" alt="Hub Downloading datasets updated " />
 </div>
@@ -475,7 +475,7 @@ By Jennifer Hillman-Jackson.
 
 By Nate Coraor.
 
-Find out the latest about how the [UseGalaxy.org server is set up](/src/main/index.md).
+Find out the latest about how the [UseGalaxy.org server is set up](/main/).
 
 <img class="card-img-bottom" src="/src/main/gxy_map.png" alt="Main" />
 </div>
@@ -486,9 +486,9 @@ Find out the latest about how the [UseGalaxy.org server is set up](/src/main/ind
 
 OIDC is [OpenID Connect](https://openid.net/connect/), a simple identity layer on top of the [OAuth 2.0 authorization protocol](https://oauth.net/).  Galaxy supports it.
 
-* [Configure Your Galaxy Instance as a CILogon OIDC Client](/src/authnz/config/oidc/idps/cilogon/index.md), by Juleen Graham.
-* [Login to Galaxy Using Your Organization's Okta identity](/src/authnz/use/oidc/idps/okta/index.md), by Peter Selten
-* [Configure Your Galaxy Instance as an OIDC Client for your organization's Okta Infrastructure](/src/authnz/config/oidc/idps/okta/index.md), by Peter Selten
+* [Configure Your Galaxy Instance as a CILogon OIDC Client](/authnz/config/oidc/idps/cilogon/), by Juleen Graham.
+* [Login to Galaxy Using Your Organization's Okta identity](/authnz/use/oidc/idps/okta/), by Peter Selten
+* [Configure Your Galaxy Instance as an OIDC Client for your organization's Okta Infrastructure](/authnz/config/oidc/idps/okta/), by Peter Selten
 
 <img class="card-img-bottom" src="hub-cilogin-doc.png" alt="CILogin" />
 </div>
@@ -551,7 +551,7 @@ This is a shortened version of an [existing tutorial](https://training.galaxypro
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Galaxy 20.01](/src/news/2020-02-galaxy-release-20-01/index.md)</div>
+<div class="card-header">[Galaxy 20.01](/news/2020-02-galaxy-release-20-01/)</div>
 
 See 
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce.html)**
@@ -570,14 +570,14 @@ Extended job metadata collection
 </div>
 
 <div class="card border-info" style="min-width: 24rem; max-width: 50%;">
-<div class="card-header">[GVL 5.0 Beta Releases](/src/blog/2020-04-gvl5-beta2/index.md)</div>
+<div class="card-header">[GVL 5.0 Beta Releases](/blog/2020-04-gvl5-beta2/)</div>
 
 By Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan, Alex Ostrovsky, and the GVL and Galaxy teams.
 
 GVL, the Genomics Virtual laboratory, had two beta releases in the first 4 months of 2020:
 
-* [With Love: The All-new GVL 5.0 (beta)](/src/blog/2020-02-gvl5-beta/index.md): Now more reliable, with better security, and with new features.
-* [GVL 5.0-beta2 release](/src/blog/2020-04-gvl5-beta2/index.md): 30% faster and single sign-on, ohh my
+* [With Love: The All-new GVL 5.0 (beta)](/blog/2020-02-gvl5-beta/): Now more reliable, with better security, and with new features.
+* [GVL 5.0-beta2 release](/blog/2020-04-gvl5-beta2/): 30% faster and single sign-on, ohh my
 
 The GVL makes dedicated, production-grade installations of Galaxy available on cloud providers, all via a web browser. The GVL has been used extensively whenever public and shared servers were not suitable. The GVL 5.0 is a ground-up rewrite of the GVL based on Kubernetes and containerization technologies.
 
@@ -805,9 +805,9 @@ And so has the Galaxy ToolShed.  And we are darn happy about it.  Many thanks to
 
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[Galaxy Community Statistics Update](/src/galaxy-project/statistics/index.md)</div>
+<div class="card-header">[Galaxy Community Statistics Update](/galaxy-project/statistics/)</div>
 
-The semi-annual update of the [Galaxy Statistics Page](/src/galaxy-project/statistics/index.md) happened.  Stuff is up...
+The semi-annual update of the [Galaxy Statistics Page](/galaxy-project/statistics/) happened.  Stuff is up...
 
 <img class="card-img-bottom" src="stats-slice.png" alt="Stats" />
 </div>

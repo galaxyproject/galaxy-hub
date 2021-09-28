@@ -112,7 +112,7 @@ All tools that are installed from a Galaxy tool shed in the way just presented i
 
 # Automatic third-party tool dependency installation and compilation with installed repositories
 
-See this [related page](/src/updating-installed-repositories/index.md).
+See this [related page](/updating-installed-repositories/).
 
 # Installing Galaxy tool shed repository data types into a local Galaxy instance
 

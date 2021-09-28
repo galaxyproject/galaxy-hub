@@ -1,9 +1,9 @@
 <div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main Tool Shed](/src/images/logos/ToolShed.jpg)</a> </div>
 
-[Recipes for Installing Packages Required by Galaxy Tools](/src/toolshed/package-recipes/index.md)
+[Recipes for Installing Packages Required by Galaxy Tools](/toolshed/package-recipes/)
 
-[More About Recipes that Download Package Binaries](/src/toolshed/downloading-binaries/index.md)
+[More About Recipes that Download Package Binaries](/toolshed/downloading-binaries/)
 
-[Packages that Require Other Packages at Compile Time](/src/toolshed/bells-and-whistles/index.md)
+[Packages that Require Other Packages at Compile Time](/toolshed/bells-and-whistles/)
 
-[Supported tool_dependencies.xml Tag Sets](/src/toolshed/tool-dependencies-tag-sets/index.md)
+[Supported tool_dependencies.xml Tag Sets](/toolshed/tool-dependencies-tag-sets/)

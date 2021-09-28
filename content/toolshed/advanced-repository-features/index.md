@@ -1,4 +1,4 @@
-<div class='right'> <a href='/src/toolshed/index.md'>![Tool Shed logo](/src/images/logos/ToolShed.jpg)</a></div>
+<div class='right'> <a href='/toolshed/'>![Tool Shed logo](/src/images/logos/ToolShed.jpg)</a></div>
 
 # Cloning a repository using hg from the command line
 
@@ -84,4 +84,4 @@ Let's push the changeset to the Tool Shed master repository.
     remote: adding file changes
     remote: added 1 changesets with 1 changes to 1 files
 
-As described above, metadata was automatically generated for the changeset when the push was received at the Tool Shed, and when we view the repository changelog, we see the additional change set. The reason that the metadata is associated with the new tip is because there was nothing in the contents of the changeset that warranted a new installable changeset revision. Installable changeset revisions are necessary only if a version of a tool included in the changeset was altered or a tool was deleted in the change set. The [Installable repository changeset revisions](/src/toolshed/repository-revisions/index.md#more-examples-of-installable-repository-changeset-revisions) section of the Tool Shed wiki provides more information about this process.
+As described above, metadata was automatically generated for the changeset when the push was received at the Tool Shed, and when we view the repository changelog, we see the additional change set. The reason that the metadata is associated with the new tip is because there was nothing in the contents of the changeset that warranted a new installable changeset revision. Installable changeset revisions are necessary only if a version of a tool included in the changeset was altered or a tool was deleted in the change set. The [Installable repository changeset revisions](/toolshed/repository-revisions/#more-examples-of-installable-repository-changeset-revisions) section of the Tool Shed wiki provides more information about this process.

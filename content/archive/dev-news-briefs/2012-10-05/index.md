@@ -31,7 +31,7 @@ SOLiD* have moved from the Galaxy distribution to the Galaxy Main Tool Shed.
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
-Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing these BWA tool wrappers from the Tool Shed. **[BWA](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/admin/tools/ToolDependencies/index.md) section.
+Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing these BWA tool wrappers from the Tool Shed. **[BWA](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/admin/tools/ToolDependencies/) section.
 
 **[BWA](http://bio-bwa.sourceforge.net/)** is a fast light-weighted tool that aligns relatively short sequences (queries) to a sequence database (large), such as the human reference genome. It is developed by Heng Li at the Sanger Insitute. Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics, 25, 1754-60.
 
@@ -39,14 +39,14 @@ Migration scripts will run upon Galaxy's first launch (after updating to this re
 <br />
 # Galaxy Tool Factory Paper E Published
 
-As reported in the [September 20th News Brief](/src/archive/dev-news-briefs/2012-09-20/index.md#galaxy-tool-factory), the **Tool Factory** is already available in the tool shed. At that time, the manuscript was accepted, but pending publication. The E publication is now available.
+As reported in the [September 20th News Brief](/archive/dev-news-briefs/2012-09-20/#galaxy-tool-factory), the **Tool Factory** is already available in the tool shed. At that time, the manuscript was accepted, but pending publication. The E publication is now available.
 
 [Creating re-usable tools from scripts: The Galaxy Tool Factory.](http://www.ncbi.nlm.nih.gov/pubmed/23024011)
 Lazarus R, Kaspi A, Ziemann M; The Galaxy Team.
 Bioinformatics. 2012 Sep 28. (Epub ahead of print)
 PMID: 23024011 ([PubMed](http://www.ncbi.nlm.nih.gov/pubmed) - as supplied by publisher)
 
-**Short re-cap &rarr; [Read more…](/src/archive/dev-news-briefs/2012-09-20/index.md#galaxy-tool-factory)**
+**Short re-cap &rarr; [Read more…](/archive/dev-news-briefs/2012-09-20/#galaxy-tool-factory)**
 
 1. The **Tool Factory** is a pure Galaxy scripting environment that makes running simple quick and dirty tasks really easy, and can also generate new Galaxy tools with functional tests!
 
@@ -69,39 +69,39 @@ If called with the `--help` option, it will output usage information.  The datas
 <br />
 # Tool Shed
 
-The **[Tool Shed](/src/toolshed/index.md)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/src/toolshed/index.md)*
+The **[Tool Shed](/toolshed/)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/toolshed/)*
 
 ### New tool shed features
 
 The following sections of the tool shed wiki provide information about features introduced in this Galaxy release.
 
-1. **[Handling repository installation errors](/src/toolshed/installing-repositories-to-galaxy/index.md#handling-repository-installation-errors)**
+1. **[Handling repository installation errors](/toolshed/installing-repositories-to-galaxy/#handling-repository-installation-errors)**
 
-  In some cases installing a repository into a Galaxy instance may result in errors.  When this happens the repository's status attribute will be set to an error state, and the repository will be displayed similar to the example shown in the following page. [Read more…](/src/toolshed/installing-repositories-to-galaxy/index.md#handling-repository-installation-errors)
+  In some cases installing a repository into a Galaxy instance may result in errors.  When this happens the repository's status attribute will be set to an error state, and the repository will be displayed similar to the example shown in the following page. [Read more…](/toolshed/installing-repositories-to-galaxy/#handling-repository-installation-errors)
 
-2. **[Including installation information or 3rd-party tool dependency licensing information in your repository](/src/toolshed/readme-files/index.md)**
+2. **[Including installation information or 3rd-party tool dependency licensing information in your repository](/toolshed/readme-files/)**
 
-  This document provides the details for a simple feature of the tool shed that enables displaying the license information (or possibly other kinds of information) for tools included in a repository.  [Read more…](/src/toolshed/readme-files/index.md)
+  This document provides the details for a simple feature of the tool shed that enables displaying the license information (or possibly other kinds of information) for tools included in a repository.  [Read more…](/toolshed/readme-files/)
 
-3. **[Updating a previously installed repository to a revision that includes changes to installed tool dependencies](/src/updating-to-revision-with-tool-dependencies/index.md)**
+3. **[Updating a previously installed repository to a revision that includes changes to installed tool dependencies](/updating-to-revision-with-tool-dependencies/)**
 
-  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/src/pdating-to-revision-with-tool-dependencies/index.md)
+  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/pdating-to-revision-with-tool-dependencies/)
 
 ### Improved tool shed feature documentation
 
 The following sections of the tool shed wiki have been updated to more thoroughly describe features.
 
-1. **[Cloning a repository using hg from the command line](/src/toolshed/advanced-repository-features/index.md#cloning-a-repository-using-hg-from-the-command-line)**
+1. **[Cloning a repository using hg from the command line](/toolshed/advanced-repository-features/#cloning-a-repository-using-hg-from-the-command-line)**
 
-  If you want to clone a repository from the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed/advanced-repository-features/index.md#cloning-a-repository-using-hg-from-the-command-line)
+  If you want to clone a repository from the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/toolshed/advanced-repository-features/#cloning-a-repository-using-hg-from-the-command-line)
 
-2. **[Pushing changes to a repository using hg from the command line](/src/toolshed/advanced-repository-features/index.md#cloning-a-repository-using-hg-from-the-command-line)**
+2. **[Pushing changes to a repository using hg from the command line](/toolshed/advanced-repository-features/#cloning-a-repository-using-hg-from-the-command-line)**
 
-  If you want to push a changeset to a repository in the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/src/toolshed/advanced-repository-features/index.md#cloning-a-repository-using-hg-from-the-command-line)
+  If you want to push a changeset to a repository in the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/toolshed/advanced-repository-features/#cloning-a-repository-using-hg-from-the-command-line)
 
-3. **[Adding additional change sets to the initial change set in a repository](/src/repository-revisions/index.md)**
+3. **[Adding additional change sets to the initial change set in a repository](/repository-revisions/)**
 
-  With each change set committed and pushed to a repository, whether using hg from the command line or by uploading or deleting files using the tool shed UI features, metadata about the contents of the change set is generated.  This document provides the details about this process. [Read more…](/src/repository-revisions/index.md)
+  With each change set committed and pushed to a repository, whether using hg from the command line or by uploading or deleting files using the tool shed UI features, metadata about the contents of the change set is generated.  This document provides the details about this process. [Read more…](/repository-revisions/)
 
 ### Other tool shed fixes and features included in this Galaxy release
 
@@ -109,7 +109,7 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 
 2. Apply styles when displaying the long description when viewing a tool shed repository.
 
-3. Merged in jmchilton/galaxy-central-toolshed-hg-urls, see *[pull request 69](http://bitbucket.org/galaxy/galaxy-central/pull-request/69)* contributed by [John Chilton](/src/people/john-chilton/index.md).
+3. Merged in jmchilton/galaxy-central-toolshed-hg-urls, see *[pull request 69](http://bitbucket.org/galaxy/galaxy-central/pull-request/69)* contributed by [John Chilton](/people/john-chilton/).
 
 ### New Galaxy fixes and features included in this Galaxy release
 
@@ -119,12 +119,12 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 
 3. A Galaxy tool migration stage is defined as the stage level (e.g., 0002, 0003, 0004, etc.) at which a specific set of tools was migrated out of the Galaxy code distribution and added to the main Galaxy tool shed.
 
- Executing the process for a specific tool migration stage can be done at any time, not just at the time you are starting your Galaxy server as discussed in the previous sections of this document. [Read more…](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md#delaying-execution-of-a-tool-migration-stage)
+ Executing the process for a specific tool migration stage can be done at any time, not just at the time you are starting your Galaxy server as discussed in the previous sections of this document. [Read more…](/toolshed/migrating-tools-from-galaxy-distribution/#delaying-execution-of-a-tool-migration-stage)
 
 <br />
 # Tools
 
-[Tool Dependencies](/src/admin/tools/ToolDependencies/index.md)
+[Tool Dependencies](/admin/tools/ToolDependencies/)
 
 ### Enhancements
 
@@ -203,16 +203,16 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 <br />
 # Announcements
 
-[News](/src/news/index.md), *[October 2012 Galaxy Update](/src/galaxy-updates/2012-10/index.md)*
+[News](/news/), *[October 2012 Galaxy Update](/galaxy-updates/2012-10/)*
 
-**[Highlights](/src/news/2012-10-galaxy-update/index.md):**
+**[Highlights](/news/2012-10-galaxy-update/):**
 
-* [Upcoming Events and Deadlines](/src/galaxy-updates/2012-10/index.md#upcoming-events-and-deadlines)
-* [35 new papers](/src/galaxy-updates/2012-10/index.md#new-papers)
-* [CBIIT's new public Galaxy Server](/src/galaxy-updates/2012-10/index.md#new-public-server-cbiit)
-* [Open Positions](/src/galaxy-updates/2012-10/index.md#whos-hiring) at three different institutions
-* [Tool Shed Contributions](/src/galaxy-updates/2012-10/index.md#toolshed-contributions)
-* [Other News](/src/galaxy-updates/2012-10/index.md#other-news)
+* [Upcoming Events and Deadlines](/galaxy-updates/2012-10/#upcoming-events-and-deadlines)
+* [35 new papers](/galaxy-updates/2012-10/#new-papers)
+* [CBIIT's new public Galaxy Server](/galaxy-updates/2012-10/#new-public-server-cbiit)
+* [Open Positions](/galaxy-updates/2012-10/#whos-hiring) at three different institutions
+* [Tool Shed Contributions](/galaxy-updates/2012-10/#toolshed-contributions)
+* [Other News](/galaxy-updates/2012-10/#other-news)
 
 <br />
 ----
@@ -221,8 +221,8 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](/src/galaxy-team/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
+The **[Galaxy Team](/galaxy-team/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/galaxy-on-twitter/)**

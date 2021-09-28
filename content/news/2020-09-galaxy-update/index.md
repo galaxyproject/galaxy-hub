@@ -6,7 +6,7 @@ date: "2020-09-01"
 
 # In the  September 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * [BCC2020 Wrap up and GCC2021 is on the way](#bcc2020-is-done-gcc2021-is-coming)
 * [More event news](#more-event-news)
@@ -30,7 +30,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
 <div class="card-header">[BCC2020](https://bcc2020.github.io/)</div>
 
-The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brought together over 800 people for the second joint [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference (GCC)](/src/gcc/index.md). There are several write ups of the event:
+The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brought together over 800 people for the second joint [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference (GCC)](/gcc/). There are several write ups of the event:
 
   * [Birthdays and Online Conferences go Viral. ISMB2020 & BCC2020 in the time of COVID-19](http://gigasciencejournal.com/blog/conferences-go-viral/), a [GIGABlog](http://gigasciencejournal.com/blog) post by Chris Armit.
   * [Getting introduced to Bioinformatics and Open Science through BCC 2020](https://www.open-bio.org/2020/08/19/bcc-2020-gigi-kenneth/), by Gigi Kenneth
@@ -82,15 +82,15 @@ Watch this space for details, and we hope to see you there.
 
 # More Event News
 
-Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/events/) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
+<div class="card-header">[Galaxy Developer Roundtable](/community/devroundtable/)</div>
 
-The next two [roundtables](/src/community/devroundtable/index.md) are [September 3 (this Thursday)](/src/events/2020-09-03-dev-roundtable/index.md) and September 17. This week's topics are [interactive PR commands](https://github.com/almahmoud/galaxy/pull/9) by Alex Mahmood, and workflow updates - format, tooling, and GUI by John Chilton.
+The next two [roundtables](/community/devroundtable/) are [September 3 (this Thursday)](/events/2020-09-03-dev-roundtable/) and September 17. This week's topics are [interactive PR commands](https://github.com/almahmoud/galaxy/pull/9) by Alex Mahmood, and workflow updates - format, tooling, and GUI by John Chilton.
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
@@ -114,7 +114,7 @@ There are [two upcoming Galaxy Australia workshops offered by QCIF](https://www.
 <img class="card-img-top" src="events-slice.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
-There are [15 events](/src/events/index.md) in the next 4 months
+There are [15 events](/events/) in the next 4 months
 
 * 5 are online
 * The remaining 10 are in France (6), Australia (2), and the United States (2)
@@ -129,12 +129,12 @@ And material from some recent events is now available:
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
 
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem;">
-<div class="card-header">[PiRATE](/src/use/pirate/index.md)</div>
+<div class="card-header">[PiRATE](/use/pirate/)</div>
 
 <img class="card-img-top" src="/src/use/pirate/pirate-brand-line.png" alt="PiRATE" />
 
@@ -143,18 +143,18 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[UseGalaxy.fr](/src/use/usegalaxy-fr/index.md)</div>
+<div class="card-header">[UseGalaxy.fr](/use/usegalaxy-fr/)</div>
 
 <img class="card-img-top" src="/src/use/usegalaxy-fr/usegalaxy-fr-logo-slice.png" alt="UseGalaxy.fr" />
 
-The [UseGalaxy.fr server](https://usegalaxy.fr/) is a general purpose omics analysis server hosted by the [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/en/).  In addition, this server also hosts the specialized [Workflow4Metabolomics](/src/use/workflow4metabolomics/index.md) and [ProteoRE](/src/use/proteore/index.md) servers.
+The [UseGalaxy.fr server](https://usegalaxy.fr/) is a general purpose omics analysis server hosted by the [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/en/).  In addition, this server also hosts the specialized [Workflow4Metabolomics](/use/workflow4metabolomics/) and [ProteoRE](/use/proteore/) servers.
 
 User support is provided through [a discourse-based forum](https://community.france-bioinformatique.fr/c/galaxy).
 </div>
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[Machine Learning Workbench](/src/use/ml-workbench/index.md)</div>
+<div class="card-header">[Machine Learning Workbench](/use/ml-workbench/)</div>
 
 <img class="card-img-top" src="/src/use/ml-workbench/ml-workbench-logo.png" alt="ML Workbench" />
 
@@ -163,7 +163,7 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[deepTS](/src/use/deepts/index.md)</div>
+<div class="card-header">[deepTS](/use/deepts/)</div>
 
 <img class="card-img-top" src="/src/use/deepts/deepts-overview-slice.png" alt="deepTS" />
 
@@ -172,7 +172,7 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[BioCompute Object Galaxy](/src/use/biocompute-object/index.md)</div>
+<div class="card-header">[BioCompute Object Galaxy](/use/biocompute-object/)</div>
 
 <img class="card-img-top" src="/src/use/biocompute-object/biocompute-objects-logo-wide.png" alt="BioCompute Object Galaxy" />
 
@@ -181,7 +181,7 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -239,7 +239,7 @@ Here's what people are saying right now:
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 16rem; max-width: 28rem;">
-<div class="card-header">[GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05](/src/blog/2020-07-gvl5-beta4/index.md)</div>
+<div class="card-header">[GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05](/blog/2020-07-gvl5-beta4/)</div>
 
 By Nuwan Goonasekera, Alexandru Mahmoud, Mohamad Safadieh, Enis Afgan
 
@@ -292,7 +292,7 @@ The COVID-19 pandemic has forced a rapid - and unplanned - shift towards online 
 
 
 <div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
-<div class="card-header">[Galaxy: the first 10,000 pubs](/src/blog/2020-08-10k-pubs/index.md)</div>
+<div class="card-header">[Galaxy: the first 10,000 pubs](/blog/2020-08-10k-pubs/)</div>
 
 By Dave Clements
 
@@ -688,7 +688,7 @@ The [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Nebulizer 0.6.0](/src/news/2020-06-galaxy-release-20-05/index.md)</div>
+<div class="card-header">[Nebulizer 0.6.0](/news/2020-06-galaxy-release-20-05/)</div>
 
 Command-line utilities to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the [Bioblend](http://bioblend.readthedocs.org/en/latest/) library.  This release features new commands (search toolsheds, delete users, uninstall tools), fixes & updates, and newly extended documentation.
 

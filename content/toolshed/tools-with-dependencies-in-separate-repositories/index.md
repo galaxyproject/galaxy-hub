@@ -2,7 +2,7 @@
 
 # Enhanced features for linking installed tools and dependencies at execution time
 
-This discussion assumes a level of familiarity with wrapping tools for Galaxy. For basic details, see the [How to add a tool into Galaxy](/src/admin/tools/adding-tools/index.md) page. This commentary is restricted to enhanced Galaxy tool features introduced to enable automatic installation of these types of tools into Galaxy.
+This discussion assumes a level of familiarity with wrapping tools for Galaxy. For basic details, see the [How to add a tool into Galaxy](/admin/tools/adding-tools/) page. This commentary is restricted to enhanced Galaxy tool features introduced to enable automatic installation of these types of tools into Galaxy.
 
 ## Complex Repository Dependency Definitions
 

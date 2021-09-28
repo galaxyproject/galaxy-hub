@@ -8,8 +8,8 @@ Microsoft Azure BLOB).
 
 You may use the following steps to use this API:
 
-1. Login to Galaxy using your Google account ([read how](/src/authnz/config/oidc/index.md));
-2. Define a _cloud authzorization_ configuration ([read how](/src/authnz/cloud/index.md));
+1. Login to Galaxy using your Google account ([read how](/authnz/config/oidc/));
+2. Define a _cloud authzorization_ configuration ([read how](/authnz/cloud/));
 3. Get a Galaxy API key by going to `User -> Manage API key` On Galaxy's webpage and clicking on the 
 `Create a new key` button;
 4. Make the API call as it follows:

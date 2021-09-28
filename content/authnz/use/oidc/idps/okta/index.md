@@ -3,7 +3,7 @@ title: Login to Galaxy Using Your Organization's Okta identity
 highlight: true
 ---
 
-_This page explains how to use this feature, for admin-specific docs, please refer to [this](/src/authnz/config/oidc/idps/okta/index.md) page._
+_This page explains how to use this feature, for admin-specific docs, please refer to [this](/authnz/config/oidc/idps/okta/) page._
 
 You can login to a Galaxy instance (if this feature is enabled on that instance) using your organization's Okta identity. 
 You may use this feature if: 

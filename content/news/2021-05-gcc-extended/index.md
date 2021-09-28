@@ -21,18 +21,18 @@ Poster/Demo abstracts are now due by the end of 14 June.  (However, you are enco
 
 **GCC2021 Community Fellowships: 17 May**
 
-The Galaxy Community Fund is offering fellowships to students, post-docs, and other non-profit / academic / government researchers based in [lower, lower-middle and upper-middle income countries](https://docs.google.com/document/d/1aFR1b8Al0DE0Ovn1pFJYlLchVUl2At82Dt4MRudvtRY/edit?usp=sharing) who will benefit from attending GCC2021, and for whom the [cost of registration](/src/news/2021-04-gcc-reg/index.md) is a barrier.
+The Galaxy Community Fund is offering fellowships to students, post-docs, and other non-profit / academic / government researchers based in [lower, lower-middle and upper-middle income countries](https://docs.google.com/document/d/1aFR1b8Al0DE0Ovn1pFJYlLchVUl2At82Dt4MRudvtRY/edit?usp=sharing) who will benefit from attending GCC2021, and for whom the [cost of registration](/news/2021-04-gcc-reg/) is a barrier.
 
 Fellowships will cover the full registration for any GCC2021 events awardees want to attend. Interested?  [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfyqKg87x8wL1EhOfrGR0SlQui8wEkQgg3qVFi6txO6GmHgKg/viewform) by May 17.
 
 **Early Registration: 1 June**
 
-Early conference registration [is open until 1 June](/src/news/2021-04-gcc-reg/index.md).
+Early conference registration [is open until 1 June](/news/2021-04-gcc-reg/).
 
 
 **About GCC2021**
 
-GCC2021 events will be held 28 June through July 10, and **will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).** GCC2021 features a 3 day conference, 6-8 July, with talks, Q`&`A, posters, demos, bird-of-a-feather, and plenty of networking.  All meeting events will be repeated twice daily, 9 hours apart, making this event accessible to the world.  All events, except for talks will be live in both time slots.
+GCC2021 events will be held 28 June through July 10, and **will be [virtual, affordable, and globally accessible](/news/2021-02-gcc-virtual/).** GCC2021 features a 3 day conference, 6-8 July, with talks, Q`&`A, posters, demos, bird-of-a-feather, and plenty of networking.  All meeting events will be repeated twice daily, 9 hours apart, making this event accessible to the world.  All events, except for talks will be live in both time slots.
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">

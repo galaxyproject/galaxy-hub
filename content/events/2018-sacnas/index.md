@@ -91,7 +91,7 @@ You will need bash and anaconda set up.  Please follow the installation instruct
 
 <div class="right">
 [<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="170" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/src/index.md)<br />
+[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/)<br />
 </div>
 
 **Wednesday, October 10, 9am- 6pm**
@@ -103,7 +103,7 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 **Instructors**
 
 - [Blake Joyce](http://www.cyverse.org/blake-joyce), CyVerse and the University of Arizona
-- [Dave Clements](/src/people/dave-clements/index.md), Galaxy Project and Johns Hopkins University, clements@galaxyproject.org
+- [Dave Clements](/people/dave-clements/), Galaxy Project and Johns Hopkins University, clements@galaxyproject.org
 - [Joslynn Lee](https://www.hhmi.org/developing-scientists/meet-our-team), Howard Hughes Medical Institute and University of Maryland Baltimore County, joslynnlee@gmail.com
 
 ## Session 1 : CyVerse

@@ -32,17 +32,17 @@ Galaxy has a significant presence at [ISMB 2016](http://www.iscb.org/ismb2016) a
   </tr>
   <tr>
     <th> 11:57 </th>
-    <td> <em>Planemo – A Scientific Workflow SDK </em> <div class='indent'><a href='/src/people/john-chilton/index.md'>John Chilton</a></div> </td>
+    <td> <em>Planemo – A Scientific Workflow SDK </em> <div class='indent'><a href='/people/john-chilton/'>John Chilton</a></div> </td>
     <td> <a href='http://f1000research.com/slides/5-1742'>Slides</a>, <a href='https://youtu.be/kVa-oWxWDww'>Video</a> </td>
   </tr>
   <tr>
     <th> 12:03 </th>
-    <td> <em>Sample Size Does Matter: Scaling Up Analysis in Galaxy with Metagenomics</em> <div class='indent'><a href='/src/people/dan/index.md'>Daniel Blankenberg</a></div> </td>
+    <td> <em>Sample Size Does Matter: Scaling Up Analysis in Galaxy with Metagenomics</em> <div class='indent'><a href='/people/dan/'>Daniel Blankenberg</a></div> </td>
     <td> <a href='https://www.bx.psu.edu/~dan/presentations/2016/bosc/blankenberg_bosc_2016_scaling_up_with_metagenomics.pdf'>Slides</a>, <a href='https://youtu.be/VtGyidSuMd8'>Video</a> </td>
   </tr>
   <tr>
     <th> 16:00 </th>
-    <td> <em><a href='https://www.open-bio.org/wiki/BOSC_2016_Panel'>Panel: Growing and sustaining open source communities</a></em> <div class='indent'><a href='/src/people/john-chilton/index.md'>John Chilton</a></div> </td>
+    <td> <em><a href='https://www.open-bio.org/wiki/BOSC_2016_Panel'>Panel: Growing and sustaining open source communities</a></em> <div class='indent'><a href='/people/john-chilton/'>John Chilton</a></div> </td>
     <td> </td>
   </tr>
   <tr>
@@ -107,7 +107,7 @@ Galaxy has a significant presence at [ISMB 2016](http://www.iscb.org/ismb2016) a
   <tr>
     <th> July 12 </th>
     <th> 2:40 </th>
-    <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismb2016/technologytrack.php#TT23'>TT23: Large Scale Analysis with Galaxy</a></em> <div class='indent'> <a href='/src/people/john-chilton/index.md'>John Chilton</a> </td>
+    <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismb2016/technologytrack.php#TT23'>TT23: Large Scale Analysis with Galaxy</a></em> <div class='indent'> <a href='/people/john-chilton/'>John Chilton</a> </td>
     <td> <a href='http://bit.ly/ismb2016'>Slides</a> </td>
   </tr>
 </table>

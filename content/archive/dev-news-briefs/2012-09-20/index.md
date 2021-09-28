@@ -63,13 +63,13 @@ Full instructions for getting started with a **Galaxy CloudMan Instance**, inclu
 <br />
 ***Access here***
 
-<a href='/src/toolshed/index.md'><img src="/src/images/news-graphics/2012_09_20_cloudlaunch-main.png" alt="cloudlaunch-main" /></a>
+<a href='/toolshed/'><img src="/src/images/news-graphics/2012_09_20_cloudlaunch-main.png" alt="cloudlaunch-main" /></a>
 
 <br />
 
 **Then, *login with your credentials* and go!**
 
-<a href='/src/toolshed/index.md'><img src="/src/images/news-graphics/2012_09_20_cloudlaunch-home.png" alt="cloudlaunch-home" /></a>
+<a href='/toolshed/'><img src="/src/images/news-graphics/2012_09_20_cloudlaunch-home.png" alt="cloudlaunch-home" /></a>
 
 <br />
 # Galaxy Tool Factory
@@ -84,7 +84,7 @@ Imagine you have a simple sh or R script you need to run quickly in Galaxy - wit
 
 * Select the **Tool Factory** tool. Cut and paste the R (or perl/python/sh) script into the typical Galaxy **Tool Factory** form, select the small sample input file and click execute to run it! The help text on the form includes working examples showing how to pass input/output file paths in each available scripting language.
 
-<a href='/src/toolshed/index.md'><img src="/src/images/news-graphics/2012_09_20_toolfactory-big.png" alt="toolfactory" /></a>
+<a href='/toolshed/'><img src="/src/images/news-graphics/2012_09_20_toolfactory-big.png" alt="toolfactory" /></a>
 
 * Check the output. If the script didn't work right, use the redo button on the output to recreate the form and edit the script.
 
@@ -128,18 +128,18 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 
 **Here is our Galaxy tool panel** - notice the single link to the installed *Filter* tool.
 
-<a href='/src/toolshed/index.md'><img src="/src/images/news-graphics/2012_09_20_tool-panel.png" alt="tool-panel" /></a>
+<a href='/toolshed/'><img src="/src/images/news-graphics/2012_09_20_tool-panel.png" alt="tool-panel" /></a>
 
 **Clicking the *Filter* link in the tool panel displays the Filter tool's page**, where you can select the version you want.
 
-<a href='/src/toolshed/index.md'><img src="/src/images/news-graphics/2012_09_20_filter-tool-page.png" alt="filter-tool-page" /></a>
+<a href='/toolshed/'><img src="/src/images/news-graphics/2012_09_20_filter-tool-page.png" alt="filter-tool-page" /></a>
 
 <br />
 # Tool Shed
 
-[Tool Shed](/src/toolshed/index.md)
+[Tool Shed](/toolshed/)
 * *Tool shed features for Galaxy tools*
-  * The primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed. [Read more…](/src/toolshed/tool-features/index.md)
+  * The primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed. [Read more…](/toolshed/tool-features/)
 * *Pushing changes to a tool shed repository using hg from the command line*
   * When pushing changes to a repository in the tool shed using hg from the command line (e.g., **hg commit**, **hg push**), make sure your shell's version of ***Mercurial is at least version 2.2.3***.  **[Mercurial version 2.2.3](http://mercurial.selenic.com/)** includes features that enable the tool shed to *automatically generate the new repository metadata* when the changes have been pushed from the command line.
 * *Enhancements* & *Fixes*
@@ -167,7 +167,7 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div>
+<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div>
 * *General*
   * Fix bug in [__init__.py](http://bitbucket.org/galaxy/galaxy-central/changeset/3f12146d6d81e08f662ada2011a6973e4230512d) with respect to stdout, stderr, and exit code handling.
   * Fix [create_all_fasta_loc.py](https://bitbucket.org/galaxy/galaxy-central/changeset/8153e8d25009d71a523e0f2df24ed12922825d8f#chg-scripts/loc_files/create_all_fasta_loc.py) to work when `inspect_dir` is not set.
@@ -179,7 +179,7 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 <br />
 # Announcements
 
-[News](/src/news/index.md), *[September 2012 Galaxy Update](/src/galaxy-updates/2012-09/index.md)*
+[News](/news/), *[September 2012 Galaxy Update](/galaxy-updates/2012-09/)*
 
 <br />
 ----
@@ -188,8 +188,8 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](/src/galaxy-team/index.md)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
+The **[Galaxy Team](/galaxy-team/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/galaxy-on-twitter/)**

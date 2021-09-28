@@ -8,7 +8,7 @@ This page is a combination walk through guide and list of links meant to help ne
 
 Once familiar with Galaxy, every developer should write at least one Galaxy tool - it is the most common way to extend Galaxy with new functionality. A "tool" wraps an external application, script, or shell command - describing both the user interface and how to translate it into a command-line via a simple XML file.
 
-* [Tutorial: Developing a Tool](/src/admin/tools/add-tool-tutorial/index.md)
+* [Tutorial: Developing a Tool](/admin/tools/add-tool-tutorial/)
 
 ## Contributing to the Extended Galaxy Ecosystem
 

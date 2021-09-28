@@ -2,10 +2,10 @@
 title: August 2017 Galaxy News
 ---
 <div class='right'>
-[<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 </div>
 
-Welcome to the August 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the August 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 
 # GCC2018: Portland, Oregon, United States, June 25-30
@@ -35,20 +35,20 @@ Two summaries of GCC2017 are available online:
 * [Trip Blog](https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/), by [Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/), Research Scientist specialising in microbial genomics, [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/).
 
 <div class="left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/src/events/2017-sacnas/index.md) <br /><br />
+[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/events/2017-sacnas/) <br /><br />
 [<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="150" />](https://software-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="150" />](https://data-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="150" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="150" />](/src/index.md)
+[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="150" />](/)
 </div>
 
 # Galaxy (and CyVerse and the Carpentries) at 2017 SACNAS Meeting
 
-If you are attending the [2017 SACNAS meeting](http://www.2017sacnas.org/) in Salt Lake City in October, then please consider signing up for one of [these preconference workshops](/src/events/2017-sacnas/index.md):
+If you are attending the [2017 SACNAS meeting](http://www.2017sacnas.org/) in Salt Lake City in October, then please consider signing up for one of [these preconference workshops](/events/2017-sacnas/):
 
-**[Software and Data Carpentry](/src/events/2017-sacnas/index.md#workshop-1-software-and-data-carpentry)**
+**[Software and Data Carpentry](/events/2017-sacnas/#workshop-1-software-and-data-carpentry)**
 
-**[Data Platforms for Life Science Researchers](/src/events/2017-sacnas/index.md#workshop-2-data-platforms-for-life-science-researchers)**
+**[Data Platforms for Life Science Researchers](/events/2017-sacnas/#workshop-2-data-platforms-for-life-science-researchers)**
 
 [Registration](http://bit.ly/sacnas-data-reg-2017) is *free* but space is limited.  You are strongly encouraged to register soon.
 Both workshops are held October 18, the day before SACNAS starts.
@@ -61,16 +61,16 @@ Both workshops are held October 18, the day before SACNAS starts.
 # Galaxy @ ISMB/ECCB/BOSC 2017: Slides and posters are available
 
 <div class="right">
-[<img src="/src/images/logos/ismb-2017.png" alt="Galaxy at ISMB/ECCB/BOSC 2017Slides and posters" width="120" />](/src/events/2017-ismb-bosc/index.md))
+[<img src="/src/images/logos/ismb-2017.png" alt="Galaxy at ISMB/ECCB/BOSC 2017Slides and posters" width="120" />](/events/2017-ismb-bosc/))
 </div>
 
-If you missed all the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/src/events/2017-ismb-bosc/index.md) then don't, um, fret!  Most slides and posters are [available online](/src/events/2017-ismb-bosc/index.md))
+If you missed all the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/events/2017-ismb-bosc/) then don't, um, fret!  Most slides and posters are [available online](/events/2017-ismb-bosc/))
 
 See you next year in Chicago!
 
 # All events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <table class="table table-striped">
   <thead>
@@ -236,7 +236,7 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 * [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -245,7 +245,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in May
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in May
 
 ## Galaxy Integrated Omics (GIO)
 
@@ -273,12 +273,12 @@ There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [s
 <table class="table">
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> </td>
   </tr>
 </table>
@@ -296,7 +296,7 @@ No new resources were added to community directories in January or February.
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions from June and July](/src/toolshed/contributions/2017-07/index.md).
+[Tool Shed contributions from June and July](/toolshed/contributions/2017-07/).
 
 # Releases
 
@@ -380,8 +380,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/src/people/john-chilton/index.md): 
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+* From [John Chilton](/people/john-chilton/): 
+  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 
 ### Parsec 1.0.0 - 1.0.2
@@ -399,7 +399,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 ### Galaxy CloudMan 17.05 on AWS
 
-A new release of [Galaxy CloudMan](/src/cloudman/index.md) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/src/cloudman/index.md#getting-started) guide.
+A new release of [Galaxy CloudMan](/cloudman/) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/cloudman/#getting-started) guide.
 
 
 ### CloudLaunch ##
@@ -425,7 +425,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 * [Five years of Galaxy-P!](https://twitter.com/usegalaxyp/status/888157211612110849)
 * A [plugin framework for Galaxy tool error handling](https://github.com/galaxyproject/galaxy/pull/4305) (work-in-progress) by [Helena Rasche](https://github.com/hexylena). 
 * [A Galaxy docker container with R markdown based Galaxy tools installed](https://github.com/statonlab/docker-GRReport).  This Docker image is used as a demonstration to show how to use R markdown as a unified framework for Galaxy tool development.
-* From [John Chilton](/src/people/john-chilton/index.md): A cool outcome from our GCC hackathon - [support for Galaxy tool localization](https://github.com/galaxyproject/galaxy/pull/4251) (work in progress). 
+* From [John Chilton](/people/john-chilton/): A cool outcome from our GCC hackathon - [support for Galaxy tool localization](https://github.com/galaxyproject/galaxy/pull/4251) (work in progress). 
 * From Mallory Freeberg: [Differential abundance testing of small RNAs](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html) tutorial
-* From [Enis Afgan](/src/people/enis-afgan/index.md): [First launch of #usegalaxy on Microsoft #Azure!](https://twitter.com/enisafgan/status/880796649160880128) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.
+* From [Enis Afgan](/people/enis-afgan/): [First launch of #usegalaxy on Microsoft #Azure!](https://twitter.com/enisafgan/status/880796649160880128) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.
 

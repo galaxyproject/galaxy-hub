@@ -1,3 +1,3 @@
-Presentations given at [GAW2014](/src/events/gaw2014/index.md).
+Presentations given at [GAW2014](/events/gaw2014/).
 
 PLACEHOLDER_ATTACH_LIST

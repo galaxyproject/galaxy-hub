@@ -5,13 +5,13 @@ title: Frequently Asked Questions about Main
 
 
  
-Questions specifically about Galaxy's [free public server](/src/main/index.md).  See [Learn/FAQ](/src/learn/faq/index.md) for questions that apply to any Galaxy instance.
+Questions specifically about Galaxy's [free public server](/main/).  See [Learn/FAQ](/learn/faq/) for questions that apply to any Galaxy instance.
 
 
  
 ## How do I get support?
 
-All sorts of ways.  See [Support](/src/support/index.md).
+All sorts of ways.  See [Support](/support/).
 
 ## How do tools get on to Main?
 
@@ -20,7 +20,7 @@ See this email thread:
 
 ## Are there quotas on Main?
 
-Yes.  See [Quotas](/src/main/index.md#quotas).
+Yes.  See [Quotas](/main/#quotas).
 
 ## Using Galaxy for Transcriptome Analysis
 

@@ -4,27 +4,27 @@ tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, and Happy New Year too"
 date: "2020-01-08"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 The *January 2020 Galactic News* is out:
 
-* **[13 Upcoming Events](/src/news/2020-01-galaxy-update/index.md#events)**
+* **[13 Upcoming Events](/news/2020-01-galaxy-update/#events)**
   * BCC2020 training topic nominations, Register for Galaxy Admin Training, Galaxy @ PAG & ABRF, and training @ Earlham and Rennes. 
-* **[172 new publications](/src/news/2020-01-galaxy-update/index.md#publications)**
+* **[172 new publications](/news/2020-01-galaxy-update/#publications)**
   * Six highlighted pubs from RT-qPCR to functional genomics
 * **[Two new blog posts](#galactic-blog-activity)**
   * PGP-UK and Crowdsourcing Science
-* **[Galaxy Platform News](/src/news/2020-01-galaxy-update/index.md#galaxy-platforms-news)**
+* **[Galaxy Platform News](/news/2020-01-galaxy-update/#galaxy-platforms-news)**
   * Three new platforms, UseGalaxy.* news, and platforms in pubs
-* **[Training material and doc updates](/src/news/2020-01-galaxy-update/index.md#doc-hub-and-training-updates)**
+* **[Training material and doc updates](/news/2020-01-galaxy-update/#doc-hub-and-training-updates)**
   * R, RStudio, ATAC-Seq, Scanpy, and Single Cell RNA-Seq
-* And **[other news too](/src/news/2020-01-galaxy-update/index.md#other-news)**
+* And **[other news too](/news/2020-01-galaxy-update/#other-news)**
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 # Events
 
-There is an unusually rich (and aromatic!) mix of [upcoming Galaxy related events](/src/events/index.md):
+There is an unusually rich (and aromatic!) mix of [upcoming Galaxy related events](/events/):
 
 <div class="card-deck">
 
@@ -39,7 +39,7 @@ There is an unusually rich (and aromatic!) mix of [upcoming Galaxy related event
 The **[Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/)** needs
 * **[Nominate Training Topics](https://bcc2020.github.io/blog/training-nom) by January 17**
 
-BCC is [GCC](/src/gcc/index.md) + [BOSC](https://www.open-bio.org/events/bosc/about/#Past_BOSCs), and will be held in July in Toronto, right after [ISMB 2020](https://www.iscb.org/ismb2020) in Montréal. 
+BCC is [GCC](/gcc/) + [BOSC](https://www.open-bio.org/events/bosc/about/#Past_BOSCs), and will be held in July in Toronto, right after [ISMB 2020](https://www.iscb.org/ismb2020) in Montréal. 
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
@@ -50,7 +50,7 @@ BCC is [GCC](/src/gcc/index.md) + [BOSC](https://www.open-bio.org/events/bosc/ab
 </div>
 <div class="card-header">Register Now: Galaxy Admin Training 2020</div>
 
-Registration is now open for the **[2020 Galaxy Admin Training](/src/events/2020-03-admin/index.md) being offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**  This week-long hands-on training will feature what you need to know to set up your own production quality Galaxy server. **Space is limited.**
+Registration is now open for the **[2020 Galaxy Admin Training](/events/2020-03-admin/) being offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**  This week-long hands-on training will feature what you need to know to set up your own production quality Galaxy server. **Space is limited.**
 </div>
 
 
@@ -62,7 +62,7 @@ Registration is now open for the **[2020 Galaxy Admin Training](/src/events/2020
 </div>
 <div class="card-header">Galaxy @ PAG 2020</div>
 
-[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/src/events/2020-pag/index.md), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new [Excellence in Breeding platform](/src/use/cropgalaxy/index.md)) and many talks and posters featuring Galaxy.
+[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/events/2020-pag/), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new [Excellence in Breeding platform](/use/cropgalaxy/)) and many talks and posters featuring Galaxy.
 
 And there will be a [GMOD Codefest](http://gmod.org/wiki/Codefest_2020) *before* PAG and an [NCBI Codeathon](https://ncbi-codeathons.github.io/) *after* PAG.
 </div>
@@ -72,7 +72,7 @@ And there will be a [GMOD Codefest](http://gmod.org/wiki/Codefest_2020) *before*
 <img class="card-img-top" src="/src/images/logos/abrf-logo-color-text.png" alt="Galaxy @ ABRF 2020" />
 <div class="card-header">Galaxy @ ABRF 2020</div>
 
-[Galaxy will be at 2020 ABRF meeting](/src/events/2020-abrf/index.md), in Palm Springs, California, United States, February 29 through March 3. This includes a full day *hands-on Galaxy Workshop* about **using Galaxy with your single cell and microbiome** data.  ABRF is *the annual conference for technology-enabled multidisciplinary research.*
+[Galaxy will be at 2020 ABRF meeting](/events/2020-abrf/), in Palm Springs, California, United States, February 29 through March 3. This includes a full day *hands-on Galaxy Workshop* about **using Galaxy with your single cell and microbiome** data.  ABRF is *the annual conference for technology-enabled multidisciplinary research.*
 
 [Early registration ends January 15](https://conf.abrf.org/program/registration-schedule/). **Space is limited**.
 </div>
@@ -109,7 +109,7 @@ An [introduction to Single-Cell Genomics](https://www.earlham.ac.uk/single-cell-
 
 There are
 
-* [13 upcoming events](/src/events/index.md)
+* [13 upcoming events](/events/)
 * on 3 continents, plus online
 * in US, Japan, Belgium, Germany, Spain, France, UK, and Canada.
 
@@ -234,7 +234,7 @@ Includes [genetic, methylome, and transcriptome data](https://usegalaxy.eu/libra
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
 <div class="card-header trim-p">
 
-[Crowdsourcing citizen science data on usegalaxy.eu](/src/blog/2020-01-galaxy-ecology-citizen-science/index.md)
+[Crowdsourcing citizen science data on usegalaxy.eu](/blog/2020-01-galaxy-ecology-citizen-science/)
 
 </div>
 
@@ -251,14 +251,14 @@ Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There are many new platforms this month:
 
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem;">
 <div class="card-header trim-p">
 
-[GASLINI Server](/src/use/gaslini/index.md)
+[GASLINI Server](/use/gaslini/)
 
 </div>
 
@@ -271,7 +271,7 @@ The [GASLINI server](http://igg.cloud.ba.infn.it/galaxy) supports PIPE-T, a tool
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header trim-p">
 
-[Shapiro Lab VM](/src/use/shapiro-lab/index.md)
+[Shapiro Lab VM](/use/shapiro-lab/)
 
 </div>
 
@@ -282,7 +282,7 @@ The [Shapiro Lab at NCI](https://binkley2.ncifcrf.gov/users/bshapiro/) provides 
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header trim-p">
 
-[Epigenomics Docker](/src/use/epigenomics/index.md)
+[Epigenomics Docker](/use/epigenomics/)
 
 </div>
 
@@ -294,7 +294,7 @@ This [Galaxy docker instance](https://hub.docker.com/r/mpaya/epigenomics_galaxy)
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 

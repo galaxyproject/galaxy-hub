@@ -18,7 +18,7 @@ quotas:
   - "Can be accessed anonymously."
   - "Supports account creation."
 citations:
-  - "[Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](https://doi.org/10.3390/proteomes6010007), Clemens Blank, Caleb Easterly, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), James Johnson, Carolin A. Kolmeder, Praveen Kumar, Damon May, Subina Mehta, Bart Mesuere, Zachary Brown, Joshua E. Elias, W. Judson Hervey, Thomas McGowan, Thilo Muth, Brook L. Nunn, Joel Rudney, Alessandro Tanca, Timothy J. Griffin and Pratik D. Jagtap. *Proteomes* 2018, 6(1), 7; doi:10.3390/proteomes6010007"
+  - "[Disseminating Metaproteomic Informatics Capabilities and Knowledge Using the Galaxy-P Framework](https://doi.org/10.3390/proteomes6010007), Clemens Blank, Caleb Easterly, [Bjoern Gruening](/people/bjoern-gruening/), James Johnson, Carolin A. Kolmeder, Praveen Kumar, Damon May, Subina Mehta, Bart Mesuere, Zachary Brown, Joshua E. Elias, W. Judson Hervey, Thomas McGowan, Thilo Muth, Brook L. Nunn, Joel Rudney, Alessandro Tanca, Timothy J. Griffin and Pratik D. Jagtap. *Proteomes* 2018, 6(1), 7; doi:10.3390/proteomes6010007"
 pub_libraries:
   - "Metaproteomics Gateway"
 sponsors:

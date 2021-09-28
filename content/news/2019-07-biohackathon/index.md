@@ -22,13 +22,13 @@ date: "2019-07-16"
 Galaxy will be featured at [BioHackathon-Europe 2019](https://www.biohackathon-europe.org/index.html) as a prominent part of many of [this year's selected projects](https://www.biohackathon-europe.org/projects):
 
 * **[Interoperable Workflows for Communities](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/1)**
-  * Organizers: Frederik Coppens, [Björn Grüning](/src/people/bjoern-gruening/index.md), Marek Suchánek, Rob Hooft
+  * Organizers: Frederik Coppens, [Björn Grüning](/people/bjoern-gruening/), Marek Suchánek, Rob Hooft
 * **[Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/3)**
-  * Organizers: Hervé Ménager, [John Chilton](/src/people/john-chilton/index.md), Michael Crusoe
+  * Organizers: Hervé Ménager, [John Chilton](/people/john-chilton/), Michael Crusoe
 * **[Towards seamless Galaxy and InterMine integration: Enhanced region analysis](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/7)**
   * Organizers: Yo Yehudi
 * **[Scalable delivery of FAIR training in Life Sciences using Galaxy and the Carpentries training material](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/8)**
-  * Organizers: [Helena Rasche](/src/people/helena-rasche/index.md), Saskia Hiltemann, Bérénice Batut
+  * Organizers: [Helena Rasche](/people/helena-rasche/), Saskia Hiltemann, Bérénice Batut
 * **Gallantries Project: Galaxy + Carpentries for Scalable Training**
   * Organizers: Helena Rasche, Saskia Hiltemann, Bérénice Batut
 * **[Development of a Pulsar toolkit](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/17)**
@@ -38,7 +38,7 @@ Galaxy will be featured at [BioHackathon-Europe 2019](https://www.biohackathon-e
 * **[A graph database of Galaxy tool interoperability](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/30)**
   * Organizers: Wolfgang Maier, Jon Ison
 * **[Bioconda and Biocontainers helpdesk](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/31)**
-  * Organizers: [Björn Grüning](/src/people/bjoern-gruening/index.md), Devon Ryan
+  * Organizers: [Björn Grüning](/people/bjoern-gruening/), Devon Ryan
 
 Join us to learn from and work with experts of the Open Source Life Science community, and discuss the future of the [ELIXIR Galaxy community](https://elixir-europe.org/communities/galaxy) and enjoy the great food and venue.
 

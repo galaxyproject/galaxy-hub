@@ -5,11 +5,11 @@
 [Galaxy](http://galaxyproject.org) is a framework for integrating computational tools. It allows nearly any tool that can be run from the command line to be wrapped in a structured, well defined interface.
 
 On top of these tools, Galaxy provides an accessible environment for interactive analysis that transparently tracks the details of analyses, a workflow system for convenient reuse, data management, sharing, publishing, and more.
-This tutorial provides information about using Galaxy's [Data libraries](/src/admin/data-libraries/Libraries/index.md) and [Sample Tracking system](http://main.g2.bx.psu.edu/u/rkchak/p/sts).  The tutorial assumes you have a functional Galaxy instance running.
+This tutorial provides information about using Galaxy's [Data libraries](/admin/data-libraries/Libraries/) and [Sample Tracking system](http://main.g2.bx.psu.edu/u/rkchak/p/sts).  The tutorial assumes you have a functional Galaxy instance running.
 
 ## Data Libraries
 
-An "Admin" link will appear in the Galaxy top menu bar when you login to Galaxy as an [admin user](/src/admin/index.md), and clicking the link will display the Admin perspective which includes a menu of features in the left panel.
+An "Admin" link will appear in the Galaxy top menu bar when you login to Galaxy as an [admin user](/admin/), and clicking the link will display the Admin perspective which includes a menu of features in the left panel.
 
 ![](/src/archive/library-sample-tracking/admin.png)
 
@@ -150,11 +150,11 @@ And if Jill views her current history, she'll see that the analysis that resulte
 
 We've only scratched the surface of what can be done with Galaxy. Here are some pointers for learning more:
 
-* [More information about Galaxy data libraries](/src/admin/data-libraries/Libraries/index.md)
-* [You can build complicated tool configurations](/src/admin/tools/tool-config-syntax/index.md)
-* [Your Galaxy instance can run jobs on a cluster](/src/admin/config/performance/cluster/index.md)
-* [Your Galaxy can be more robust and scalable](/src/admin/config/performance/production-server/index.md)
-* [You can make local genomes, alignments, and other data available to Galaxy](/src/admin/data-integration/index.md)
+* [More information about Galaxy data libraries](/admin/data-libraries/Libraries/)
+* [You can build complicated tool configurations](/admin/tools/tool-config-syntax/)
+* [Your Galaxy instance can run jobs on a cluster](/admin/config/performance/cluster/)
+* [Your Galaxy can be more robust and scalable](/admin/config/performance/production-server/)
+* [You can make local genomes, alignments, and other data available to Galaxy](/admin/data-integration/)
 * [You can customize what external applications are available for displaying datasets](/src/admin/tools/External Display Applications Tutorial/index.md)
 * [You can customize the datatypes for a Galaxy instance](/src/admin/datatypes/Adding Datatypes/index.md)
-* [You can instantiate Galaxy on the Amazon cloud](/src/cloudman/index.md)
+* [You can instantiate Galaxy on the Amazon cloud](/cloudman/)

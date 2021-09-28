@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2015-04-16 Web Meetup<br /><br />
 
 </div></div>
@@ -20,7 +20,7 @@
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>IU Galaxies - tips and tricks</em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015_04_GalaxyAdmins_IUGalaxy_Ganote.pdf'>Slides</a>) <div class='indent'><a href='http://www.researchgate.net/profile/Carrie_Ganote'>Carrie Ganote</a>, <a href='http://ncgas.org/'>National Center for Genome Analysis Support (NCGAS)</a>, <a href='http://pti.iu.edu/'>Pervasive Technology Institute</a>, <a href='http://iu.edu/'>Indiana University</a> </div> <em>Galaxy Project Update: Galaxy's new tool form support</em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015_04_GalaxyAdmins_ToolForms_Guerler.pdf'>Slides</a>)<div class='indent'> <a href='/src/people/guerler/index.md'>Aysam Guerler</a>, <a href='/src/galaxy-team/index.md'>Galaxy</a>, <a href='http://jhu.edu/'>Johns Hopkins University</a></div></td>
+    <td> <em>IU Galaxies - tips and tricks</em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015_04_GalaxyAdmins_IUGalaxy_Ganote.pdf'>Slides</a>) <div class='indent'><a href='http://www.researchgate.net/profile/Carrie_Ganote'>Carrie Ganote</a>, <a href='http://ncgas.org/'>National Center for Genome Analysis Support (NCGAS)</a>, <a href='http://pti.iu.edu/'>Pervasive Technology Institute</a>, <a href='http://iu.edu/'>Indiana University</a> </div> <em>Galaxy Project Update: Galaxy's new tool form support</em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015_04_GalaxyAdmins_ToolForms_Guerler.pdf'>Slides</a>)<div class='indent'> <a href='/people/guerler/'>Aysam Guerler</a>, <a href='/src/galaxy-team/'>Galaxy</a>, <a href='http://jhu.edu/'>Johns Hopkins University</a></div></td>
   </tr>
   <tr>
     <th> Links </th>
@@ -31,7 +31,7 @@
 
 <br />
 
-*[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 <div class='right'><br /><a href='http://ncgas.org/'><img src="/src/images/logos/NCGASLogoWide.jpg" alt="National Center for Genome Analysis Support (NCGAS)" width="250" /></a></div>
 
@@ -41,7 +41,7 @@
 
 ## Galaxy Project Update: Galaxy's new tool form support
 
-[Sam Guerler](/src/people/guerler/index.md) of the [Galaxy Team](/src/galaxy-team/index.md) will discuss recent work to update Galaxy's tool forms.
+[Sam Guerler](/people/guerler/) of the [Galaxy Team](/src/galaxy-team/) will discuss recent work to update Galaxy's tool forms.
 
 ## Call Technology
 

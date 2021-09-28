@@ -17,6 +17,6 @@ Galaxy will be featured at the [2018 Genome Informatics](https://coursesandconfe
 | Topic | Presenter |
 | ---- | ---- |
 |  [P46: JBrowse Connect: Launch Analysis Tasks from the Browser](https://coursesandconferences.wellcomegenomecampus.org/wp-content/uploads/2018/08/Genome-Informatics-Aug-18-V4.pdf#page=162) | Ian Holmes |
-| [P60: Transposon Insertion Sequencing (TnSeq) in Galaxy](https://coursesandconferences.wellcomegenomecampus.org/wp-content/uploads/2018/08/Genome-Informatics-Aug-18-V4.pdf#page=176) | [Delphine Larivière](/src/people/delphine-lariviere/index.md) |
+| [P60: Transposon Insertion Sequencing (TnSeq) in Galaxy](https://coursesandconferences.wellcomegenomecampus.org/wp-content/uploads/2018/08/Genome-Informatics-Aug-18-V4.pdf#page=176) | [Delphine Larivière](/people/delphine-lariviere/) |
 | [P93: Genome analysis of Pantoea ananatis strain MHSD5 on web-based platform](https://coursesandconferences.wellcomegenomecampus.org/wp-content/uploads/2018/08/Genome-Informatics-Aug-18-V4.pdf#page=209) | Mahloro Hope Serepa-Dlamini |
 | [P100: Characterising and visualising gene families with GeneSeqToFamily and Aequatus](https://coursesandconferences.wellcomegenomecampus.org/wp-content/uploads/2018/08/Genome-Informatics-Aug-18-V4.pdf#page=216) | Anil S. Thanki |

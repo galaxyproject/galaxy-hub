@@ -154,7 +154,7 @@ Additionally, the trust relation of this role is defined as the following:
 Accordingly, only the Galaxy instance with the OpenID Connect Audience ID 
 `893677542423-4t761afe33k3o9mu56u6p6p1ctk8o88f.apps.googleusercontent.com`
 that is registered with Google (`"Federated": "accounts.google.com"`) can 
-assume this role. See [this page](/src/authnz/config/oidc/idps/google/index.md)
+assume this role. See [this page](/authnz/config/oidc/idps/google/)
 on how to register your Galaxy; however, for the purpose of this demo, 
 the pre-baked Galaxy that you cloned is already registered with Google.
 

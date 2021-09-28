@@ -6,7 +6,7 @@
 
 # Data retrieval with “NCBI SRA Tools” (fastq-dump)
 
-This section will guide you through downloading experimental metadata, organizing the metadata to short lists corresponding to conditions and replicates, and finally importing the data from NCBI SRA in [**collections**](/src/tutorials/collections/index.md) reflecting the experimental design. 
+This section will guide you through downloading experimental metadata, organizing the metadata to short lists corresponding to conditions and replicates, and finally importing the data from NCBI SRA in [**collections**](/tutorials/collections/) reflecting the experimental design. 
 
 ### Downloading metadata
 

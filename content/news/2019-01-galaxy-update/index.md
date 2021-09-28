@@ -4,27 +4,27 @@ tease: 'Events (Admin Training, PAG, GSOC, GCC, GalaxyAdmins), Platforms, Pubs, 
 date: "2019-01-04"
 ---
 
-[<img class="float-right" src="/src/news/2019-01-galaxy-update/2019-01-news-summary.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-01-galaxy-update/2019-01-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *January  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
-* [Event News](/src/news/2019-01-galaxy-update/index.md#event-news)
-  * **[2019 Galaxy Admin Training: Registration is still open!](/src/news/2019-01-galaxy-update/index.md#2019-galaxy-admin-training)**
-  * **[Training topic nomination for GCC2019 Training extended through 15 January!](/src/news/2019-01-galaxy-update/index.md#gcc2019-training-topic-nomination-extended-to-15-january)**
-  * [Galaxy will be at the 2019 Plant and Animal Genome (PAG) conference](/src/news/2019-01-galaxy-update/index.md#galaxy-pag-2019)
-  * [Galaxy needs your Google Summer of Code Project suggestions](/src/news/2019-01-galaxy-update/index.md#galaxy-needs-your-google-summer-of-code-project-suggestions)
-  * And [GalaxyAdmins needs your topic suggestions](/src/news/2019-01-galaxy-update/index.md#galaxyadmins-needs-your-topic-suggestions)
-* [80 new publications](/src/news/2019-01-galaxy-update/index.md#publications), including several spectacular ones
-* Some most excellent [Galaxy Platform News](/src/news/2019-01-galaxy-update/index.md#galaxy-platforms-news), including the *EGI Marketplace*.
-* The Contributor of the Month is ... [Simon Gladman](/src/news/2019-01-galaxy-update/index.md#new-galactic-blog-posts)!
-* [17 Open positions](/src/news/2019-01-galaxy-update/index.md#whos-hiring) in 6 countries on 3 continents. 
-* [Doc, Hub, and Training Updates](/src/news/2019-01-galaxy-update/index.md#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductory videos
-* [ToolShed contributions](/src/news/2019-01-galaxy-update/index.md#toolshed-contributions)
-* [New releases](/src/news/2019-01-galaxy-update/index.md#releases):
+* [Event News](/news/2019-01-galaxy-update/#event-news)
+  * **[2019 Galaxy Admin Training: Registration is still open!](/news/2019-01-galaxy-update/#2019-galaxy-admin-training)**
+  * **[Training topic nomination for GCC2019 Training extended through 15 January!](/news/2019-01-galaxy-update/#gcc2019-training-topic-nomination-extended-to-15-january)**
+  * [Galaxy will be at the 2019 Plant and Animal Genome (PAG) conference](/news/2019-01-galaxy-update/#galaxy-pag-2019)
+  * [Galaxy needs your Google Summer of Code Project suggestions](/news/2019-01-galaxy-update/#galaxy-needs-your-google-summer-of-code-project-suggestions)
+  * And [GalaxyAdmins needs your topic suggestions](/news/2019-01-galaxy-update/#galaxyadmins-needs-your-topic-suggestions)
+* [80 new publications](/news/2019-01-galaxy-update/#publications), including several spectacular ones
+* Some most excellent [Galaxy Platform News](/news/2019-01-galaxy-update/#galaxy-platforms-news), including the *EGI Marketplace*.
+* The Contributor of the Month is ... [Simon Gladman](/news/2019-01-galaxy-update/#new-galactic-blog-posts)!
+* [17 Open positions](/news/2019-01-galaxy-update/#whos-hiring) in 6 countries on 3 continents. 
+* [Doc, Hub, and Training Updates](/news/2019-01-galaxy-update/#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductory videos
+* [ToolShed contributions](/news/2019-01-galaxy-update/#toolshed-contributions)
+* [New releases](/news/2019-01-galaxy-update/#releases):
   * Tripal Galaxy - connect Galaxy to your online database
   * BioBlend - a Python API for Galaxy and CloudMan
   * Planemo - utilities for building tools for Galaxy
-* And [a bunch of other news](/src/news/2019-01-galaxy-update/index.md#other-news) too
+* And [a bunch of other news](/news/2019-01-galaxy-update/#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -41,11 +41,11 @@ Tired of sitting in the same old *time zone* ?  Here are some upcoming events to
 
 ## 2019 Galaxy Admin Training
 
-[<img class="float-left" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" style="max-width: 150px" />](/src/events/2019-admin-training/index.md)
+[<img class="float-left" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" style="max-width: 150px" />](/events/2019-admin-training/)
 
-**There is still space, but [register today](/src/events/2019-admin-training/index.md#registration) as that space is limited and the workshop will likely sell out.**
+**There is still space, but [register today](/events/2019-admin-training/#registration) as that space is limited and the workshop will likely sell out.**
 
-[Galaxy Admin Training](/src/events/2018-europe-dev/index.md) will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions. See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
+[Galaxy Admin Training](/events/2018-europe-dev/) will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions. See the [Galaxy 2019 Admin Training page](/events/2019-admin-training/) for more details.
 
 Still wondering if you should go? Here's some feedback from the last time this group taught this workshop.
 
@@ -53,9 +53,9 @@ Still wondering if you should go? Here's some feedback from the last time this g
 
 Going to **[Plant and Animal Genome](http://www.intlpag.org/)** in San Diego this month?  Do you have a colleague who will be there? PAG is an ideal venue for learning about Galaxy and how to apply it to complex research analysis problems.
 
-There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40d5302) featuring 6 talks from the community**, plus a **[page full of other talks and posters](/src/events/2019-pag/index.md)** during the rest of the conference.  Some Galaxy highlights from PAG 2019:
+There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40d5302) featuring 6 talks from the community**, plus a **[page full of other talks and posters](/events/2019-pag/)** during the rest of the conference.  Some Galaxy highlights from PAG 2019:
 
-[<img class="float-right" src="/src/events/2019-pag/pag2019.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/src/events/2019-pag/index.md)
+[<img class="float-right" src="/src/events/2019-pag/pag2019.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/events/2019-pag/)
 
 * **[ELIXIR Resources for Interoperability](https://plan.core-apps.com/pag_2019/abstract/8d1a2a44-8bdc-42f3-90ab-90637edc71cf)**, [Frederik Coppens](https://www.psb.ugent.be/lab-members-and-alumni-frcop)
 * **[Execution of Scientific Workflows for Tripal-Based Community Databases](https://plan.core-apps.com/pag_2019/abstract/d86d6711-9cff-438c-8e1f-af12a4b993e5)**, Shawna Spoor
@@ -68,11 +68,11 @@ There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/94
   * **[Multi-Omics with Galaxy for Diverse Biological Applications](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34ac93b)**, [Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin), [Pratik Jagtap](https://www.researchgate.net/profile/Pratik_Jagtap2) 
   * **[Eukaryotic Genome Annotation with G-OnRamp](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281aa9)**, Luke Sargent 
 
-See the **[Galaxy @ PAG 2019](/src/events/2019-pag/index.md)** page for a complete list.
+See the **[Galaxy @ PAG 2019](/events/2019-pag/)** page for a complete list.
 
 ## Galaxy needs your Google Summer of Code Project suggestions
 
-[<img class="float-left" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/src/news/2018-12-gsoc/index.md)
+[<img class="float-left" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/news/2018-12-gsoc/)
 
 Galaxy will be applying to participate in the [2019 Google Summer of Code](https://summerofcode.withgoogle.com/).  We will again be participating as part of the **[Open Genome Informatics Group](http://gmod.org/wiki/GSoC)** that also includes [Bioconda](https://bioconda.github.io/), [GMOD](http://gmod.org/), [Reactome](https://reactome.org), [MGI](http://www.informatics.jax.org/), [OICR](https://oicr.on.ca/research-portfolio/), and [WormBase](http://www.wormbase.org/).
 
@@ -84,7 +84,7 @@ The deadline for submitting your project proposals is February 1.
 
 [<img class="float-right" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
-The [**2019 Galaxy Community Conference (GCC2019)**](/src/events/gcc2019/index.md) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
+The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
 **The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
 
@@ -96,7 +96,7 @@ Nominated topics can cover a wide range. For example:
 - Development and administration around Galaxy
 - Train the trainers
 
-This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](https://bit.ly/gcc2016noms), [2015](https://bit.ly/gcc2015vote), [2014](https://bit.ly/1s6NtMN), [2013](https://bit.ly/1i2j1gN) and the [Galaxy Events page](/src/events/index.md).
+This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](https://bit.ly/gcc2016noms), [2015](https://bit.ly/gcc2015vote), [2014](https://bit.ly/1s6NtMN), [2013](https://bit.ly/1i2j1gN) and the [Galaxy Events page](/events/).
 
 Training nomination has been extended to **15th January**. Topics are being compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community.
 
@@ -104,9 +104,9 @@ Please give some thought to what topics you would like to see offered, or that y
 
 ## GalaxyAdmins needs your topic suggestions
 
-[<img class="img-fluid mx-auto float-right" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/src/community/galaxy-admins/index.md)
+[<img class="img-fluid mx-auto float-right" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
 
-After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/src/community/galaxy-admins/meetups/index.md) will return on [February 28](/src/community/galaxy-admins/meetups/2019-03-21/index.md). [GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
+After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/community/galaxy-admins/meetups/) will return on [February 28](/community/galaxy-admins/meetups/2019-03-21/). [GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
 **But, before we start meeting next year, [we need to know what you care about](https://docs.google.com/forms/d/e/1FAIpQLSfv257YcdQQO7gp3K4USoBzqkd-UDEblsto5UhU34gFlXTiPQ/viewform).**  What do you want to learn?  Who do you want to hear from?  What's causing you trouble?  Or, what have you worked that your fellow GalaxyAdmins would benefit from knowing?
 
@@ -114,7 +114,7 @@ Got some ideas? **[Nominate them](https://docs.google.com/forms/d/e/1FAIpQLSfv25
 
 ## Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+These and [other Galaxy related events](/events/) are coming up in the next few months:
 
 <table class="table table-striped">
 <thead>
@@ -212,11 +212,11 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications from December:
 
-* **[Galaxy-Kubernetes integration: scaling bioinformatics workflows in the cloud](https://doi.org/10.1101/488643)**, [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), Luca Pireddu, Pierrick Roger, Nuwan Goonasekera, [Enis Afgan](/src/people/enis-afgan/index.md), Marius van den Beek, Sijin He, Anders Larsson, Christoph Ruttkies, Daniel Schober, David Johnson, Philippe Rocca-Serra, Ralf J.M. Weber, [Bjoern Gruening](/src/people/bjoern-gruening/index.md), Reza Salek, Namrata Kale, Yasset Perez-Riverol, Irene Papatheodorou, Ola Spjuth, Steffen Neumann, *bioRxiv* 488643; 
+* **[Galaxy-Kubernetes integration: scaling bioinformatics workflows in the cloud](https://doi.org/10.1101/488643)**, [Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/), Luca Pireddu, Pierrick Roger, Nuwan Goonasekera, [Enis Afgan](/people/enis-afgan/), Marius van den Beek, Sijin He, Anders Larsson, Christoph Ruttkies, Daniel Schober, David Johnson, Philippe Rocca-Serra, Ralf J.M. Weber, [Bjoern Gruening](/people/bjoern-gruening/), Reza Salek, Namrata Kale, Yasset Perez-Riverol, Irene Papatheodorou, Ola Spjuth, Steffen Neumann, *bioRxiv* 488643; 
 doi: 10.1101/488643 
 * **[PhenoMeNal: Processing and analysis of Metabolomics data in the Cloud](https://doi.org/10.1093/gigascience/giy149)**,
-Kristian Peters, James Bradbury, Sven Bergmann, Marco Capuccini, Marta Cascante, Pedro de Atauri, Timothy M D Ebbels, Carles Foguet, Robert Glen, Alejandra Gonzalez-Beltran, Ulrich L Günther, Evangelos Handakas, Thomas Hankemeier, Kenneth Haug, Stephanie Herman, Petr Holub, Massimiliano Izzo, Daniel Jacob, David Johnson, Fabien Jourdan, Namrata Kale, Ibrahim Karaman, Bita Khalili, Payam Emami Khonsari, Kim Kultima, Samuel Lampa, Anders Larsson, Christian Ludwig, [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), Steffen Neumann, Jon Ander Novella, Claire O'Donovan, Jake T M Pearce, Alina Peluso, Marco Enrico Piras, Luca Pireddu, Michelle A C Reed, Philippe Rocca-Serra, Pierrick Roger, Antonio Rosato, Rico Rueedi, Christoph Ruttkies, Noureddin Sadawi, Reza M Salek, Susanna-Assunta Sansone, Vitaly Selivanov, Ola Spjuth, Daniel Schober, Etienne A Thévenot, Mattia Tomasoni, Merlijn van Rijswijk, Michael van Vliet, Mark R Viant, Ralf J M Weber, Gianluigi Zanetti, Christoph Steinbeck, *GigaScience*, giy149, doi: 10.1093/gigascience/giy149
-* **[Cloud Bursting Galaxy: Federated Identity and Access Management](https://doi.org/10.1101/506238)**, [Vahid Jalili](/src/people/vahid-jalili/index.md), [Enis Afgan](/src/people/enis-afgan/index.md), [James Taylor](/src/people/james-taylor/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), *bioRxiv* 506238, doi: 10.1101/506238 
+Kristian Peters, James Bradbury, Sven Bergmann, Marco Capuccini, Marta Cascante, Pedro de Atauri, Timothy M D Ebbels, Carles Foguet, Robert Glen, Alejandra Gonzalez-Beltran, Ulrich L Günther, Evangelos Handakas, Thomas Hankemeier, Kenneth Haug, Stephanie Herman, Petr Holub, Massimiliano Izzo, Daniel Jacob, David Johnson, Fabien Jourdan, Namrata Kale, Ibrahim Karaman, Bita Khalili, Payam Emami Khonsari, Kim Kultima, Samuel Lampa, Anders Larsson, Christian Ludwig, [Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/), Steffen Neumann, Jon Ander Novella, Claire O'Donovan, Jake T M Pearce, Alina Peluso, Marco Enrico Piras, Luca Pireddu, Michelle A C Reed, Philippe Rocca-Serra, Pierrick Roger, Antonio Rosato, Rico Rueedi, Christoph Ruttkies, Noureddin Sadawi, Reza M Salek, Susanna-Assunta Sansone, Vitaly Selivanov, Ola Spjuth, Daniel Schober, Etienne A Thévenot, Mattia Tomasoni, Merlijn van Rijswijk, Michael van Vliet, Mark R Viant, Ralf J M Weber, Gianluigi Zanetti, Christoph Steinbeck, *GigaScience*, giy149, doi: 10.1093/gigascience/giy149
+* **[Cloud Bursting Galaxy: Federated Identity and Access Management](https://doi.org/10.1101/506238)**, [Vahid Jalili](/people/vahid-jalili/), [Enis Afgan](/people/enis-afgan/), [James Taylor](/people/james-taylor/), [Jeremy Goecks](/people/jeremy-goecks/), *bioRxiv* 506238, doi: 10.1101/506238 
 * **[SkeletalVis: an exploration and meta-analysis data portal of cross-species skeletal transcriptomics data](https://doi.org/10.1093/bioinformatics/bty947
 )**, Jamie Soul, Tim E Hardingham, Ray P Boot-Handford, Jean-Marc Schwartz, *Bioinformatics*, bty947, doi: 10.1093/bioinformatics/bty947
 
@@ -236,7 +236,7 @@ All of the highlighted papers are open access.
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.  Here's what's new.
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VM that run Galaxy.  Here's what's new.
 
 ## EGI Marketplace
 
@@ -244,12 +244,12 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 
 [EGI](https://www.egi.eu/) is a [federation of hundreds of data and compute centres worldwide and tens of cloud providers](https://marketplace.egi.eu/content/4-about-us) united by a mission to support research activities.  Galaxy instances are available to users worldwide under the EGI Marketplace's [Applications on Demand BETA](https://marketplace.egi.eu/42-applications-on-demand-beta) program. You need to create an account and then apply for an allocation.
 
-**If you are an academic researcher, want a Galaxy instance running on a research cloud, and you don't live in a country where you already have ready access to Galaxy on a cloud (see the *Academic Cloud* tab in the [Platforms Directory](/src/use/index.md)), then take a look at the EGI Marketplace.**
+**If you are an academic researcher, want a Galaxy instance running on a research cloud, and you don't live in a country where you already have ready access to Galaxy on a cloud (see the *Academic Cloud* tab in the [Platforms Directory](/use/)), then take a look at the EGI Marketplace.**
 
 
 ## ChemFlow
 
-[<img class="float-right" src="/src/use/chemflow/chemflow-logo.png" alt="ChemFlow Logo" />](/src/use/chemflow/index.md)
+[<img class="float-right" src="/src/use/chemflow/chemflow-logo.png" alt="ChemFlow Logo" />](/use/chemflow/)
 
 The [ChemFlow public Galaxy server](https://vm-chemflow-francegrille.eu/) supports *Chemometrics* and infrared spectrometry data analysis.  ChemFlow has a [detailed tutorial](https://chemproject.org/wakka.php?wiki=AideChemflow) (although it's in French), and an [onlinie support form](https://chemproject.org/wakka.php?wiki=NousContacter).  ChemFlow is supported by the [ChemProject](https://chemproject.org/wakka.php?wiki=PagePrincipale), a consortium of French research organizations.
 
@@ -263,7 +263,7 @@ This isn't new in the world, but it is new in the Galaxy Platform Directory: A [
 
 **Galaxy-P**
 
-The [Galaxy-P](/src/use/galaxy-p/index.md) team has compiled all their talks, workshops, and posters from 2018 (and there were a lot of them) in this [handy list](http://galaxyp.org/conference-presentations/).  Tim Griffin and Pratik Jagtap will also be [presenting at PAG this month](/src/events/2019-pag/index.md).
+The [Galaxy-P](/use/galaxy-p/) team has compiled all their talks, workshops, and posters from 2018 (and there were a lot of them) in this [handy list](http://galaxyp.org/conference-presentations/).  Tim Griffin and Pratik Jagtap will also be [presenting at PAG this month](/events/2019-pag/).
 
 **usegalaxy.org.au**
 
@@ -286,13 +286,13 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/src/images/people/SimonGladman.jpg" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/people/SimonGladman.jpg" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/)
 
-There is one new *[Galactic Blog](/src/blog/index.md)* entry:
+There is one new *[Galactic Blog](/blog/)* entry:
 
-* **[Contributor of the Month: Simon Gladman](/src/blog/2018-12-cotm-simon-gladman/index.md):**
+* **[Contributor of the Month: Simon Gladman](/blog/2018-12-cotm-simon-gladman/):**
   * 'firefighter, cheesemaker, pillar of the [Galaxy Australia](https://usegalaxy.org.au/), and an overall jolly good fellow'
-  * by [Martin Čech](/src/people/marten/index.md)
+  * by [Martin Čech](/people/marten/)
 
 ----
 
@@ -316,10 +316,10 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
 * [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
-* [Galaxy Project is hiring two software engineers at Johns Hopkins University](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States).
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
 
@@ -339,8 +339,8 @@ Here some significant activity from the [Galaxy Training Materials](https://gala
 
 ## Hub
 
-* [Cloud Storage API](https://galaxyproject.org/cloud/storage/), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
-* [Securely Authorize Galaxy to Access Protected Data on Cloud](/src/authnz/cloud/index.md), by [Vahid Jalili](/src/people/vahid-jalili/index.md)
+* [Cloud Storage API](https://galaxyproject.org/cloud/storage/), by [Vahid Jalili](/people/vahid-jalili/)
+* [Securely Authorize Galaxy to Access Protected Data on Cloud](/authnz/cloud/), by [Vahid Jalili](/people/vahid-jalili/)
 
 ## Other Training Materials and Doc
 
@@ -353,7 +353,7 @@ Here some significant activity from the [Galaxy Training Materials](https://gala
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in December 2018](/src/toolshed/contributions/2018-12/index.md).
+[Tool Shed contributions in December 2018](/toolshed/contributions/2018-12/).
 
 
 # Releases
@@ -398,9 +398,9 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 [<img class="float-right" src="/src/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." style="max-width: 200px" />](https://help.galaxyproject.org/)
 
-**Visit the new [Galaxy Community Q&A web site](https://help.galaxyproject.org/).**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/src/support/index.md).
+**Visit the new [Galaxy Community Q&A web site](https://help.galaxyproject.org/).**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/support/).
 
-Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which is being retired after almost 5 years of service.  (Galaxy BioStars was itself a replacement for the earlier *galaxy-user* mailing list.)  The Galaxy BioStars site will remain up as a read-only archive (and will still be searched by the [Galaxy Hub search](/src/search/index.md)).
+Galaxy Help replaces *[Galaxy BioStars](https://biostar.usegalaxy.org/)*, which is being retired after almost 5 years of service.  (Galaxy BioStars was itself a replacement for the earlier *galaxy-user* mailing list.)  The Galaxy BioStars site will remain up as a read-only archive (and will still be searched by the [Galaxy Hub search](/search/)).
 
 Here are some exemplary recent threads in Galaxy Help
 
@@ -419,4 +419,4 @@ Here are some exemplary recent threads in Galaxy Help
 
 ## European Galaxy Days: Slides are online
 
-Slides for presentations at [European Galaxy Days](/src/events/2018-europe-dev/index.md) are now online.  EGD2018 featured almost 20 talks spanning the Galactic specturm, from implementation to application.  [Take a look](/src/events/2018-europe-dev/index.md).
+Slides for presentations at [European Galaxy Days](/events/2018-europe-dev/) are now online.  EGD2018 featured almost 20 talks spanning the Galactic specturm, from implementation to application.  [Take a look](/events/2018-europe-dev/).

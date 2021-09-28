@@ -10,9 +10,9 @@ title: The April 2015 Galactic News!
 
 </div>
 
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the April 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[These newsletters](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the April 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. *[These newsletters](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # New Papers
 
@@ -85,35 +85,35 @@ The new papers were tagged with:
 
 ## April GalaxyAdmins Meetup
 
-<div class='right'><a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup April 16" width="150" /></a></div>
+<div class='right'><a href='/community/galaxy-admins/meetups/2015-04-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup April 16" width="150" /></a></div>
 
-The next [GalaxyAdmins online meetup](/src/community/galaxy-admins/meetups/2015-04-16/index.md) will be [16 April](/src/community/galaxy-admins/meetups/2015-04-16/index.md). [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) will talk about her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).
+The next [GalaxyAdmins online meetup](/community/galaxy-admins/meetups/2015-04-16/) will be [16 April](/community/galaxy-admins/meetups/2015-04-16/). [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) will talk about her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).
 
-See the [meetup page](/src/community/galaxy-admins/meetups/2015-04-16/index.md) for more.
+See the [meetup page](/community/galaxy-admins/meetups/2015-04-16/) for more.
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
+[GalaxyAdmins](/community/galaxy-admins/) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
 
 ## Galaxy Workshop Tokyo, April 28
 
 <div class='left'>
-<a href='/src/events/tokyo2015/index.md'><img src="/src/events/tokyo2015/WST2015.png" alt="" width="170" /></a>
+<a href='/events/tokyo2015/'><img src="/src/events/tokyo2015/WST2015.png" alt="" width="170" /></a>
 </div>
 
-The [Galaxy Workshop Tokyo 2015](/src/events/tokyo2015/index.md) is a full day of hands-on training, keynotes, lightning talks and discussions all about ways of using Galaxy for high-throughput biology, specially for human genome sequencing. This workshop will consist of two parts: The morning session is a hands-on training to learn how to run [Pitagora-Galaxy](http://www.pitagora-galaxy.org/about_en), our *Galaxy preconfigured virtual machine*, on your laptop or on AWS cloud. The afternoon session includes keynotes and lightning sessions to explain actual workflows, which *you can try immediately* on Pitagora-Galaxy.<br /><br />
+The [Galaxy Workshop Tokyo 2015](/events/tokyo2015/) is a full day of hands-on training, keynotes, lightning talks and discussions all about ways of using Galaxy for high-throughput biology, specially for human genome sequencing. This workshop will consist of two parts: The morning session is a hands-on training to learn how to run [Pitagora-Galaxy](http://www.pitagora-galaxy.org/about_en), our *Galaxy preconfigured virtual machine*, on your laptop or on AWS cloud. The afternoon session includes keynotes and lightning sessions to explain actual workflows, which *you can try immediately* on Pitagora-Galaxy.<br /><br />
 
 ## GCC2015: 6-8 July, Norwich UK
 
 <div class='right'><a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="170" /></a></div>
 
-The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/src/events/gcc2014/index.md) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
+The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is the Galaxy community's annual gathering of users, developers, and administrators.  [Previous GCC's](/events/gcc2014/) have drawn over 200 participants, and we expect that to happen again in 2015.  GCC2015 is being hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK, immediately before [BOSC](http://www.open-bio.org/wiki/BOSC_2015) and [ISMB/ECCB](http://www.iscb.org/ismbeccb2015) in Dublin.
 
 There are a lot of events going on at GCC2015, including:
 
-* [Code Hackathon](/src/galaxy-updates/2015-04/index.md#code-hackathon), 4-5 July
-* [Data Wrangling Hackathon](/src/galaxy-updates/2015-04/index.md#data-wrangling-hackathon), 4-5 July (*new*)
-* [Training SunDay](/src/galaxy-updates/2015-04/index.md#training-sunday), 5 July (*new*)
-* [Training Day](/src/galaxy-updates/2015-04/index.md#training-monday), 6 July
-* [GCC Meeting](/src/galaxy-updates/2015-04/index.md#abstract-submission-is-now-open), 7-8 July
+* [Code Hackathon](/galaxy-updates/2015-04/#code-hackathon), 4-5 July
+* [Data Wrangling Hackathon](/galaxy-updates/2015-04/#data-wrangling-hackathon), 4-5 July (*new*)
+* [Training SunDay](/galaxy-updates/2015-04/#training-sunday), 5 July (*new*)
+* [Training Day](/galaxy-updates/2015-04/#training-monday), 6 July
+* [GCC Meeting](/galaxy-updates/2015-04/#abstract-submission-is-now-open), 7-8 July
 
 ### Code Hackathon
 
@@ -175,7 +175,7 @@ Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([gcc2015-org AT lists DO
 
 <div class='center'> 
 <a href='https://www.e-biogenouest.org/events/details/45/'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Fourth GUGGO meeting" height="80" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 April GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='/community/galaxy-admins/meetups/2015-04-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="16 April GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='http://www.bio-itworldexpo.com/'><img src="/src/images/logos/Bio-ITWorld2015.jpg" alt="Bio-IT World 2015" height="60" /></a>
 <a href='http://bioinformatics.ca/workshops/2015/high-throughput-biology-sequence-networks-2015'><img src="/src/images/logos/BioinformaticsCA_NYC.jpg" alt="High-throughput Biology: From Sequence to Networks 2015" height="70" /></a>
@@ -183,7 +183,7 @@ Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([gcc2015-org AT lists DO
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div>
 
-There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/events/) in 8 countries on 4 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table>
   <tr class="th" >
@@ -206,9 +206,9 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
   </tr>
   <tr>
     <th> April 16 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2015-04-16/index.md'>GalaxyAdmins April 2015 Meetup</a></em> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2015-04-16/'>GalaxyAdmins April 2015 Meetup</a></em> </td>
     <td> <em>Online</em> </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, Carrie Ganote </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a>, Carrie Ganote </td>
   </tr>
   <tr>
     <th> April 20-21 </th>
@@ -243,7 +243,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
   </tr>
   <tr>
     <th> April 28 </th>
-    <td> <em><a href='/src/events/tokyo2015/index.md'>Galaxy Workshop Tokyo 2015</a></em> </td>
+    <td> <em><a href='/events/tokyo2015/'>Galaxy Workshop Tokyo 2015</a></em> </td>
     <td> <a href='http://www.rcast.u-tokyo.ac.jp/index_en.html'>RCAST, The University of Tokyo</a>, Japan </td>
     <td> <a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2015#Contact'>Ryota Yamanaka</a> </td>
   </tr>
@@ -271,7 +271,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
     <th> May 25-29 </th>
     <td> <a href='http://www.mipro.hr/MIPRO2015.DCVIS/ELink.aspx'>MIPRO</a> </td>
     <td> Opatija, Croatia </td>
-    <td> <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> </td>
+    <td> <a href='/people/enis-afgan/'>Enis Afgan</a> </td>
   </tr>
   <tr>
     <th> May 26-28 </th>
@@ -307,7 +307,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
     <th> June 22 </th>
     <td> <em>Introduction to variant calling for pathologists and laboratory managers</em> </td>
     <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Training offered by GTN Member" width="16" /></a></div> Part of <a href='http://www.rcpa.edu.au/Events/Event-Details/2015/June/Short-Course-in-Medical-Genetics-and-Genetic-Patho'>Short Course in Medical Genetics and Genetic Pathology 2015</a>, Sydney, Australia </td>
-    <td> <a href='/src/people/fubar/index.md'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
+    <td> <a href='/people/fubar/'>Ross Lazarus</a>, <a href='https://www.vlsci.org.au/researcher/alonie'>Andrew Lonie</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -323,7 +323,7 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
     <th> July 10-14 </th>
     <td> <em><a href='http://www.iscb.org/ismbeccb2015-program/ismbeccb2015-akes#akes4'>Using Biological Cyberinfrastructure to Scale Science and People – Applications in Data Storage, HPC, Cloud Analysis, and Bioinformatics Training</a></em> </td>
     <td> <a href='http://www.iscb.org/ismbeccb2015'>ISMB / ECCB 2015</a>, <a href='http://www.open-bio.org/wiki/BOSC_2015'>BOSC 2015</a>, Dublin, Ireland </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -340,16 +340,16 @@ There are [upcoming events](/src/events/index.md) in 8 countries on 4 continents
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
-* [Graph-based Genomes: PhDs in Oslo](/src/news/graph-based-genome-openings-oslo/index.md)
+* [Graph-based Genomes: PhDs in Oslo](/news/graph-based-genome-openings-oslo/)
 * [Computational Metabolomics Professor](https://psu.jobs/job/55363), Penn State University, Pennsylvania, United States
 * [Software Developer for the Refinery Team](https://jobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1118216&PartnerId=25240&SiteId=5341&type=mail&JobReqLang=1&recordstart=1&JobSiteId=5341&JobSiteInfo=1118216_5341&gqid=0), Boston, Massachusetts, United States
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -357,7 +357,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Servers
 
-One new [public Galaxy server](/src/use/index.md) was added in March:
+One new [public Galaxy server](/use/) was added in March:
 
 ## Vinther Lab
 
@@ -385,19 +385,19 @@ One new [public Galaxy server](/src/use/index.md) was added in March:
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
 
 <br />
 
-One new [Community Log Board](/src/blog/index.md) entry was added in March:
+One new [Community Log Board](/blog/) entry was added in March:
 
 * [Installing ANNOVAR in Galaxy](http://galacticengineer.blogspot.co.uk/2015/03/installing-annovar-in-galaxy.html)
     by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
@@ -414,17 +414,17 @@ One new [Community Log Board](/src/blog/index.md) entry was added in March:
 <br /><br />
 <span style="font-size: larger;"> Highlights </span>
 
- **[Release Versioning](/src/archive/dev-news-briefs/2015-03/index.md#-versioning)**
+ **[Release Versioning](/archive/dev-news-briefs/2015-03/#-versioning)**
 
   Starting with this distribution, an updated Galaxy release versioning system has been implemented. The versioning scheme is [Ubuntu-style](https://wiki.ubuntu.com/Releases).
 
- **[Github](/src/archive/dev-news-briefs/2015-03/index.md#github)**
+ **[Github](/archive/dev-news-briefs/2015-03/#github)**
 
   Galaxy development has moved to Github, but stable/release changes are mirrored to Bitbucket. Deployers can continue to use Bitbucket as they have done in the past. Release branches discussed in the full release notes.
 
- **[Tool Redesign](/src/archive/dev-news-briefs/2015-03/index.md#tool-redesign)**
+ **[Tool Redesign](/archive/dev-news-briefs/2015-03/#tool-redesign)**
 
-  Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [Main](/src/main/index.md).
+  Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolshed) and many are ready for use on Galaxy [Main](/main/).
 
 <span style="font-size: larger;"> Get the Galaxy Release </span>
 <br />
@@ -457,29 +457,29 @@ One new [Community Log Board](/src/blog/index.md) entry was added in March:
 
 <br /><br />
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)
 
 ## BioBlend v0.5.3 Released
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
 
-[BioBlend](https://github.com/afgane/bioblend) [v0.5.3](https://github.com/galaxyproject/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  ([CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
+[BioBlend](https://github.com/afgane/bioblend) [v0.5.3](https://github.com/galaxyproject/bioblend/blob/master/CHANGELOG.md) has been released.  [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  ([CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
 * Project source moved to new URL - https://github.com/galaxyproject/bioblend 
 * Huge improvements to automated testing, tests now run against Galaxy release_14.02 and all later versions to ensure backward compatibility (see [travis.yml](https://github.com/galaxyproject/bioblend/blob/master/.travis.yml) for details).
-* Many documentation improvements (thanks to [Helena Rasche](/src/people/helena-rasche/index.md)).
+* Many documentation improvements (thanks to [Helena Rasche](/people/helena-rasche/)).
 * Add Galaxy clients for the tool data tables, the roles, and library folders (thanks to Anthony Bretaudeau).
 * Add method to get the standard error and standard output for the job corresponding to a Galaxy dataset (thanks to Anthony Bretaudeau).
 * Add `get_state()` method to `JobsClient`.
 * Add `copy_from_dataset()` method to `LibraryClient`.
-* Add `create_repository()` method to `ToolShedClient` (thanks to [Helena Rasche)](/src/people/helena-rasche/index.md).
+* Add `create_repository()` method to `ToolShedClient` (thanks to [Helena Rasche)](/people/helena-rasche/).
 * Fix `DatasetClient.download_dataset()` for certain proxied Galaxy deployments.
 * Make `LibraryClient._get_root_folder_id()` method safer and faster for Galaxy release_13.06 and later.
 * Deprecate and ignore invalid deleted parameter to `WorkflowClient.get_workflows()`.
-* [CloudMan](/src/cloudman/index.md): Add method to fetch instance types.
-* [CloudMan](/src/cloudman/index.md): Update cluster options to reflect change to SLURM.
+* [CloudMan](/cloudman/): Add method to fetch instance types.
+* [CloudMan](/cloudman/): Update cluster options to reflect change to SLURM.
 * [BioBlend.objects](http://bioinformatics.oxfordjournals.org/content/30/19/2816.abstract): Deprecate and ignore invalid deleted parameter to `ObjWorkflowClient.list()`.
 * BioBlend.objects: Add `paste_content()` method to `History` objects.
 * BioBlend.objects: Add `copy_from_dataset()` method and `root_folder` property to `Library` objects.
@@ -493,7 +493,7 @@ This is mostly an incremental bug fix release with the following summary of chan
 
 Enjoy and please let us know what you think,
 
-[Enis](/src/people/enis-afgan/index.md) & [John](/src/people/john-chilton/index.md) & [Nicola Soranzo](/src/people/nicola-soranzo/index.md) & Simone Leo & [Helena Rasche](/src/people/helena-rasche/index.md)
+[Enis](/people/enis-afgan/) & [John](/people/john-chilton/) & [Nicola Soranzo](/people/nicola-soranzo/) & Simone Leo & [Helena Rasche](/people/helena-rasche/)
 
 ## Planemo 0.6.0
 
@@ -502,7 +502,7 @@ Enjoy and please let us know what you think,
 
 * Many enhancements to the tool building documentation - descriptions of macros, collections, simple and conditional parameters, etc…
 * Fix tool_init to quote file names (thanks to Peter Cock). [Pull Request 98](https://github.com/galaxyproject/planemo/pull/98).
-* Allow ignoring file patterns in .shed.yml (thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md)). [Pull Request 99](https://github.com/galaxyproject/planemo/pull/98)
+* Allow ignoring file patterns in .shed.yml (thanks to [Björn Grüning](/people/bjoern-gruening/)). [Pull Request 99](https://github.com/galaxyproject/planemo/pull/98)
 * Add --macros flag to tool_init command to generate a macro file as part of tool generation. [ec6e30f](https://github.com/galaxyproject/planemo/commit/ec6e30f)
 * Add linting of tag order for tool XML files. [4823c5e](https://github.com/galaxyproject/planemo/commit/4823c5e)
 * Add linting of stdio tags in tool XML files. [8207026](https://github.com/galaxyproject/planemo/commit/8207026)
@@ -512,18 +512,18 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 ## CloudMan and blend4j
 
-New versions [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release), and [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release) were released in August.
+New versions [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), and [blend4j](/galaxy-updates/2014-09/#blend4j-011-release) were released in August.
 
 ----
 
 # Other News
 
-* From [Björn Grüning](/src/people/bjoern-gruening/index.md): 
+* From [Björn Grüning](/people/bjoern-gruening/): 
     [New release of our Galaxy Docker container](https://biostar.usegalaxy.org/p/11376/) with a lot of new features 
 * You can browse our tutorials section by visiting this [biostar.usegalaxy.org/t/Tutorial/](https://biostar.usegalaxy.org/t/Tutorial/) (*Note: Deprecated. Now see [training.galaxyproject.org](https://training.galaxyproject.org/)*)
 * [Should Galaxy use Trello or Github for issue tracking?](http://trello.com/c/iddlQT2p)
 * Every contribution and every pull request to the Galaxy repo is now [being publicly built on Travis-CI](https://travis-ci.org/galaxyproject/galaxy/builds).
-* [Galaxy Training Network (GTN) Joins GOBLET](/src/news/gtn-joins-goblet/index.md)
+* [Galaxy Training Network (GTN) Joins GOBLET](/news/gtn-joins-goblet/)
 
 ----
 
@@ -531,7 +531,7 @@ New versions [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudma
 
 # ToolShed Contributions
 
-A [best practices for creating Galaxy Tools](/src/tools/best-practices/index.md) is now available on this wiki.  Thanks to the many contributors who created it.
+A [best practices for creating Galaxy Tools](/tools/best-practices/) is now available on this wiki.  Thanks to the many contributors who created it.
 
 ## Galaxy Project ToolShed Repos
 
@@ -580,7 +580,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
   * [diamond](https://toolshed.g2.bx.psu.edu/view/bgruening/diamond): DIAMOND is a new high-throughput program for aligning a file of short reads against a protein reference database such as NR, at 20,000 times the speed of BLASTX, with high sensitivity
 
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
 * [text_processing](https://toolshed.g2.bx.psu.edu/view/bgruening/text_processing): High performance text processing tools using the GNU coreutils, sed, awk and friends. That repository contains all kind of different text processing tools. 
 
@@ -598,7 +598,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
   * tail - keep the last X lines in a file.
 
      Originally known as "Unix Tools" and developed from Assaf Gordon @ Greg Hannon's lab ( http://hannonlab.cshl.edu ) in Cold Spring Harbor Laboratory, it is now hosted under https://github.com/bgruening/galaxytools/tree/master/unix_tools and open for contributions. It will also replace several smaller sed, sort and uniq wrappers, developed over the time.<br />
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
 
 * [data_manager_diamond_database_builder](https://toolshed.g2.bx.psu.edu/view/bgruening/data_manager_diamond_database_builder): Diamond data manager 
@@ -607,18 +607,18 @@ Note: Starting with the May news, this list will be placed on a separate page an
 * [find_subsequences](https://toolshed.g2.bx.psu.edu/view/bgruening/find_subsequences): Searches for a subsequence in a larger sequence. For example to get all restriction enzymes for BamH1. Searches for a subsequence in a larger sequence. For example to get all restriction enzymes for BamH1.
 
      This tool is based on biopython: 10.1093/bioinformatics/btp163 <br />
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [macs2](https://toolshed.g2.bx.psu.edu/view/iuc/macs2): MACS - Model-based Analysis of ChIP-Seq.  With the improvement of sequencing techniques, chromatin immunoprecipitation followed by high throughput sequencing (ChIP-Seq) is getting popular to study genome-wide protein-DNA interactions. To address the lack of powerful ChIP-Seq analysis method, we present a novel algorithm, named Model-based Analysis of ChIP-Seq (MACS), for identifying transcript factor binding sites. MACS captures the influence of genome complexity to evaluate the significance of enriched ChIP regions, and MACS improves the spatial resolution of binding sites through combining the information of both sequencing tag position and orientation. MACS can be easily used for ChIP-Seq data alone, or with control sample with the increase of specificity.
 
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/iuc/galaxytools
 * [seqtk](https://toolshed.g2.bx.psu.edu/view/iuc/seqtk): toolkit for processing FASTA and FASTQ files. Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format. It seamlessly parses both FASTA and FASTQ files which can also be optionally compressed by gzip.<br />
 
      https://github.com/lh3/seqtk/ <br />
-     Repository-Maintainer: [Helena Rasche](/src/people/helena-rasche/index.md)<br />
+     Repository-Maintainer: [Helena Rasche](/people/helena-rasche/)<br />
      Repository-Development: https://github.com/galaxy-iuc/tool_shed
 
 * *From [hogart](https://toolshed.g2.bx.psu.edu/view/hogart):*
@@ -708,7 +708,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
   * [package_cofold_0_0_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_cofold_0_0_1): Contains a tool dependency definition that downloads and compiles CoFold. A tool for prediction of RNA secondary structure that takes co-transcriptional folding into account.
 
      http://www.e-rna.org/cofold/ <br />
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools/
 * [package_samtools_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_samtools_1_2): Contains a tool dependency definition that downloads and installs version 1.2 of the SAMTools package.  samtools \u2212 Utilities for the Sequence Alignment/Map (SAM) format
 
@@ -718,11 +718,11 @@ Note: Starting with the May news, this list will be placed on a separate page an
      
      Samtools is also able to open a BAM (not SAM) file on a remote FTP or HTTP server if the BAM file name starts with \u2018ftp://\u2019 or \u2018http://\u2019. Samtools checks the current working directory for the index file and will download the index upon absence. Samtools does not retrieve the entire alignment file unless it is asked to do so.
 
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
 * [package_gengetopt_2_22_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_gengetopt_2_22_6): Contains a tool dependency definition that downloads and compiles version 2.22.6 of GNU gengetopt Gengetopt is a tool to write command line option parsing code for C programs. 
 
      http://www.gnu.org/software/gengetopt/gengetopt.html <br />
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/galaxyproject/tools-iuc
 * [package_rnastructure_5_7](https://toolshed.g2.bx.psu.edu/view/iuc/package_rnastructure_5_7): Contains a tool dependency definition that downloads and compiles version 5.7 of RNAstructure RNAstructure is a complete package for RNA and DNA secondary structure prediction and analysis. It includes algorithms for secondary structure prediction, including facility to predict base pairing probabilities. It also can be used to predict bimolecular structures and can predict the equilibrium binding affinity of an oligonucleotide to a structured RNA target. This is useful for siRNA design. It can also predict secondary structures common to two, unaligned sequences, which is much more accurate than single sequence secondary structure prediction. Finally, RNAstructure can take a number of different types of experiment mapping data to constrain or restrain structure prediction. These include chemical mapping, enzymatic mapping, NMR, and SHAPE data.
 
@@ -733,11 +733,11 @@ Note: Starting with the May news, this list will be placed on a separate page an
 * [package_vienna_rna_2_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_vienna_rna_2_1): Contains a tool dependency definition that downloads and compiles version 2.1 of the Vienna RNA package.  The Vienna RNA Package consists of a C code library and several stand-alone programs for the prediction and comparison of RNA secondary structures.
 
      http://www.tbi.univie.ac.at/RNA/ <br />
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
 * [package_diamond_0_6_13](https://toolshed.g2.bx.psu.edu/view/iuc/package_diamond_0_6_13): Contains a tool dependency definition that downloads and compiles version 0.6.13 of DIAMOND DIAMOND is a new high-throughput program for aligning a file of short reads against a protein reference database such as NR, at 20,000 times the speed of BLASTX, with high sensitivity
 
-     Repository-Maintainer: [Bjoern Gruening](/src/people/bjoern-gruening/index.md)<br />
+     Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
 * [package_stringtie_1_0_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_stringtie_1_0_1): tool dependency definition. Contains a tool dependency definition that downloads and installs version 1.0.1 of the stringtie RNA-seq assembler. StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. It uses a novel network flow algorithm as well as an optional de novo assembly step to assemble and quantitate full-length transcripts representing multiple splice variants for each gene locus. Its input can include not only the alignments of raw reads used by other transcript assemblers, but also alignments longer sequences that have been assembled from those reads.To identify differentially expressed genes between experiments, StringTie's output can be processed either by the Cuffdiff or Ballgown programs. 
 

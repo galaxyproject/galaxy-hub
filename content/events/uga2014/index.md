@@ -8,7 +8,7 @@
 
 <div class='title'>Introduction to Galaxy<br />March 7, 2014</div>
 
-**Instructors<br />[Carl Eberhard](/src/people/carl-eberhard/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), and [Raj Ayyampalayam](http://plantbio.uga.edu/directory/raj-ayyampalayam)<br />[Johns Hopkins University](http://www.jhu.edu/) & [University of Georgia](http://www.uga.edu/)
+**Instructors<br />[Carl Eberhard](/people/carl-eberhard/), [Dave Clements](/people/dave-clements/), [Dannon Baker](/people/dannon-baker/), and [Raj Ayyampalayam](http://plantbio.uga.edu/directory/raj-ayyampalayam)<br />[Johns Hopkins University](http://www.jhu.edu/) & [University of Georgia](http://www.uga.edu/)
 
 8:30-17:00<br />
 [University of Georgia](http://www.uga.edu/), Athens, GA**

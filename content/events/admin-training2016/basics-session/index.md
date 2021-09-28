@@ -16,7 +16,7 @@ This two day introductory session will introduce participants to what you need t
 
 ## Prerequisites
 
-**Please review the prerequisites carefully before [registering](/src/events/admin-training2016/registration/index.md).**  If you arrive without meeting the prerequisites then the workshop will be a frustrating experience.
+**Please review the prerequisites carefully before [registering](/events/admin-training2016/registration/).**  If you arrive without meeting the prerequisites then the workshop will be a frustrating experience.
 
 ### Comfortable with the Unix/Linux command line
 
@@ -192,7 +192,7 @@ This two day workshop will cover the big picture, and installation, configuratio
   </tr>
   <tr>
     <th style=" text-align: right;"> 7:00pm </th>
-    <td> Introduction to Galaxy Architecture <span style="font-size: smaller;"> (Joint session with the <a href='/src/events/admin-training2016/advanced-session/index.md'>Advanced Topics session</a>) </span> </td>
+    <td> Introduction to Galaxy Architecture <span style="font-size: smaller;"> (Joint session with the <a href='/events/admin-training2016/advanced-session/'>Advanced Topics session</a>) </span> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 8:20pm </th>

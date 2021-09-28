@@ -1,9 +1,9 @@
 
-[Back to Support](/src/support/index.md)
+[Back to Support](/support/)
 
 # Warning: This page has been deprecated. 
 
-* Please review these [Galaxy Support](/src/support/index.md) FAQs instead: [Unexpected Results](/src/support/#unexpected-results)
+* Please review these [Galaxy Support](/support/) FAQs instead: [Unexpected Results](/src/support/#unexpected-results)
 
 ----
 

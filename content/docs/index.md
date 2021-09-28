@@ -9,7 +9,7 @@ Each new Galaxy is released with extensive [notes](https://docs.galaxyproject.or
 
 ## Administration
 
-Documentation for administering Galaxy can be found [here](/src/admin/index.md).
+Documentation for administering Galaxy can be found [here](/admin/).
 
 ## Docs with code
 
@@ -19,7 +19,7 @@ The following resources provide documentation for using Galaxy through the API.
 
 ## Developer
 
-The Galaxy Project is an open source platform that utilzes the many contributions from the Galaxy community. If you are interested in contributing code to Galaxy, have a look at the [development resources](/src/develop/index.md). 
+The Galaxy Project is an open source platform that utilzes the many contributions from the Galaxy community. If you are interested in contributing code to Galaxy, have a look at the [development resources](/develop/). 
 
 ## Tool development
 

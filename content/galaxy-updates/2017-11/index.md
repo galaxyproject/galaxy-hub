@@ -1,37 +1,37 @@
 ---
 title: November 2017 Galaxy News
 ---
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
-Welcome to the November 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the November 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ---
 
 # The Galactic Blog
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/src/blog/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/blog/)
 
-The new *[Galactic Blog](/src/blog/index.md)* was launched in October.  The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/src/news/index.md) for shorter-form items.) The *Galactic Blog* replaces the former *Community Log* and includes all content from it, which is why, even though the blog is new, it includes entries back to 2013.
+The new *[Galactic Blog](/blog/)* was launched in October.  The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.) The *Galactic Blog* replaces the former *Community Log* and includes all content from it, which is why, even though the blog is new, it includes entries back to 2013.
 
 The blog is off to a running start with these posts in October:
 
-* [ELIXIR Galaxy Community](/src/blog/2017-10-05-elixir-galaxy-community/index.md), by Frederik Coppens, Gildas Le Corguillé, and [Björn Grüning](/src/people/bjoern-gruening/index.md)
-* [Public Galaxy Server Dashboard](/src/blog/2017-10-public-galaxy-dashboard/index.md), by [Helena Rasche](/src/people/helena-rasche/index.md)
-* [SciPy and scikit-learn integration into Galaxy](/src/blog/2017-10-10-scipy-galaxy/index.md), by [Björn Grüning](/src/people/bjoern-gruening/index.md)
-* [Small genome assembly in Galaxy](/src/blog/2017-10-16-UnicyclerTutorial/index.md), by [Anton Nekrutenko](/src/people/anton/index.md)
-* [Galaxy: the first 5,000 pubs](/src/blog/2017-10-5000-pubs/index.md), by [Dave Clements](/src/people/dave-clements/index.md)
+* [ELIXIR Galaxy Community](/blog/2017-10-05-elixir-galaxy-community/), by Frederik Coppens, Gildas Le Corguillé, and [Björn Grüning](/people/bjoern-gruening/)
+* [Public Galaxy Server Dashboard](/blog/2017-10-public-galaxy-dashboard/), by [Helena Rasche](/people/helena-rasche/)
+* [SciPy and scikit-learn integration into Galaxy](/blog/2017-10-10-scipy-galaxy/), by [Björn Grüning](/people/bjoern-gruening/)
+* [Small genome assembly in Galaxy](/blog/2017-10-16-UnicyclerTutorial/), by [Anton Nekrutenko](/people/anton/)
+* [Galaxy: the first 5,000 pubs](/blog/2017-10-5000-pubs/), by [Dave Clements](/people/dave-clements/)
 
 ## The Galactic Blog needs you!
 
 The Galaxy community needs to know what you are doing.  If you have done something that others would benefit from knowing then please create a *Galactic Blog* post describing your experiences.
 
-Blog posts can either be directly created on the Hub, or can be posted on your favorite blogging platform and linked to from the [Blog home page](/src/blog/index.md).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
+Blog posts can either be directly created on the Hub, or can be posted on your favorite blogging platform and linked to from the [Blog home page](/blog/).  See [the CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) for how.
 
 Questions? [Ask us](mailto:outreach@galaxyproject.org).
 
 # Publications
 
-The Galaxy Publication Library [surpassed 5,000 publications](/src/blog/2017-10-5000-pubs/index.md), in October.  It was a good month for publications in other ways too:
+The Galaxy Publication Library [surpassed 5,000 publications](/blog/2017-10-5000-pubs/), in October.  It was a good month for publications in other ways too:
 
 ## Highlighted Publications
 
@@ -43,7 +43,7 @@ microbial genomic epidemiology](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC562
 * [An Arranged Marriage: Integrating DKPro Core in the Language Analysis Portal](https://www.clarin.eu/sites/default/files/Kouylekov-CLARIN2017_paper_37.pdf), Milen Kouylekov, Emanuele Lapponi, Stephan Oepen, and Richard Eckart de Castilho. [CLARIN2017 Book of Abstracts](https://www.clarin.eu/content/abstracts-overview-clarin-annual-conference-2017)
 * [An Architecture for Genomics Analysis in a Clinical Setting Using Galaxy and Docker](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/gix099/4557139), W. Digan, H. Countouris, M. Barritault, D. Baudoin, P. Laurent-Puig, H. Blons, A. Burgun, B. Rance. *GigaScience*, gix099, doi: 10.1093/gigascience/gix099
 Published: 18 October 2017
-* [Bioconda: A sustainable and comprehensive software distribution for the life sciences](https://doi.org/10.1101/207092), [Björn Grüning](/src/people/bjoern-gruening/index.md), Ryan Dale, Andreas Sjödin, Jillian Rowe, Brad A. Chapman, Christopher H. Tomkins-Tinch, Renan Valieris, The Bioconda Team, Johannes Köster, *bioRxiv* 207092, doi: https://doi.org/10.1101/207092
+* [Bioconda: A sustainable and comprehensive software distribution for the life sciences](https://doi.org/10.1101/207092), [Björn Grüning](/people/bjoern-gruening/), Ryan Dale, Andreas Sjödin, Jillian Rowe, Brad A. Chapman, Christopher H. Tomkins-Tinch, Renan Valieris, The Bioconda Team, Johannes Köster, *bioRxiv* 207092, doi: https://doi.org/10.1101/207092
 * [Cloud Computing for Science and Engineering](https://mitpress.mit.edu/books/cloud-computing-science-and-engineering), Ian Foster and Dennis B. Gannon. . MIT Press; 2017 Sep 22
 
 ## Publication Topics
@@ -65,9 +65,9 @@ We also added tags to papers that reference, use, or implement a Galaxy Public S
 
 ## Galaxy (and GMOD) at Plant and Animal Genome XXVI
 
-[<img class="float-right" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="200" />](/src/events/2018-pag/index.md)
+[<img class="float-right" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="200" />](/events/2018-pag/)
 
-The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/src/events/2018-pag/index.md) to help researchers get the most from their data.  There will be a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), and a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806).  See the [Galaxy @ PAG page](/src/events/2018-pag/index.md) for details.  (We'll also list Galaxy related posters and Digital Tools and Resources talks once they are scheduled.)
+The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/events/2018-pag/) to help researchers get the most from their data.  There will be a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), and a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806).  See the [Galaxy @ PAG page](/events/2018-pag/) for details.  (We'll also list Galaxy related posters and Digital Tools and Resources talks once they are scheduled.)
 
 ### GMOD @ PAG
 
@@ -89,7 +89,7 @@ If you are interested in supporting better integration of Galaxy with other GMOD
 
 # Upcoming events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <table class="table table-striped"><thead>
   <tr>
@@ -203,18 +203,18 @@ The Galaxy is expanding! Please help it grow.
 
 * [Développeur d’outils MS/MS pour le projet Workflow4Metabolomics sous Galaxy](https://www.sfbi.fr/content/d%C3%A9veloppeur-d%E2%80%99outils-msms-pour-le-projet-workflow4metabolomics-sous-galaxy-0), Station Biologique de Roscoff, France
 * [Bioinformaticien Gustave Roussy](https://www.sfbi.fr/content/bioinformaticien-gustave-roussy), Villejuif, France
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 * [Implémentation d’outils d’analyse et de visualisation de variations structurales et génomes mosaïques](https://www.sfbi.fr/content/impl%C3%A9mentation-d%E2%80%99outils-d%E2%80%99analyse-et-de-visualisation-de-variations-structurales-et-g%C3%A9nomes-), IRD (Institut de Recherche pour le Développement), Montpellier, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in October.
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in October.
 
 ## Public Servers in October's Publications
 
@@ -230,7 +230,7 @@ As part of the move to Zotero, we have started tagging papers that use, mention,
 
 ## Citation sections added to Public servers directory
 
-The [public Galaxy server directory](/src/use/index.md) was updated in October to include a *Citation(s)* section for each server.  If you use a server in your research, then please cite it.
+The [public Galaxy server directory](/use/) was updated in October to include a *Citation(s)* section for each server.  If you use a server in your research, then please cite it.
 
 ## BF2I-MAP
 
@@ -241,7 +241,7 @@ The [BF2I-MAP](http://bf2i-galaxy.insa-lyon.fr:8080/) server features locally de
 **Citations**
 
 * [ThreaDNA: predicting DNA mechanics’ contribution to sequence selectivity of proteins along whole genomes](https://doi.org/10.1093/bioinformatics/btx634) by Jasmin Cevost, Cédric Vaillant and Sam Meyer, *Bioinformatics*, btx634, doi: 10.1093/bioinformatics/btx634, Published: 09 October 2017
-* [BF2I-MAP tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EBF2I-MAP) in [Galaxy Publication library](/src/publication-library/index.md).
+* [BF2I-MAP tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EBF2I-MAP) in [Galaxy Publication library](/publication-library/).
 
 
 
@@ -255,7 +255,7 @@ One of this month's highlighted papers ([Kouylekov et al](https://www.clarin.eu/
 
 LAP is part of the national implementation in Norway of the [European Common Language and Technology Infrastructure (CLARIN)](http://clarin.eu).
 
-It's always great to see Galaxy applied in non-genomic domains, and LAP is a great example of how this can be done.  Unfortunately, it falls just short of the definition of a [public Galaxy server](/src/use/index.md). Alas, it is accessible to many, but not all academic users.  So we recommend taking a look at it, but we can't list it in the directory.
+It's always great to see Galaxy applied in non-genomic domains, and LAP is a great example of how this can be done.  Unfortunately, it falls just short of the definition of a [public Galaxy server](/use/). Alas, it is accessible to many, but not all academic users.  So we recommend taking a look at it, but we can't list it in the directory.
 
 ----
 
@@ -265,7 +265,7 @@ It's always great to see Galaxy applied in non-genomic domains, and LAP is a gre
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in October](/src/toolshed/contributions/2017-10/index.md).
+[Tool Shed contributions in October](/toolshed/contributions/2017-10/).
 
 # Releases
 
@@ -357,8 +357,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/src/people/john-chilton/index.md): 
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+* From [John Chilton](/people/john-chilton/): 
+  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 ## And the rest ...
 

@@ -13,7 +13,7 @@ contact: Community
 tags: [ cofest, papercuts ]
 ---
 
-*Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/src/events/cofests/papercuts/index.md) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
+*Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/events/cofests/papercuts/) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
 
 Want to improve Galaxy, and get involved with Galaxy? Please join us on March 18
 

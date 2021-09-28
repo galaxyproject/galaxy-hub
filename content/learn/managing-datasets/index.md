@@ -6,7 +6,7 @@ title: Managing Datasets in Galaxy
 
 Please review for the most current information about **how to find and manage all of your data** in Galaxy.
 
-* **[Account Quotas](/src/support/account-quotas/index.md)**
+* **[Account Quotas](/support/account-quotas/)**
 
 # Datasets
 
@@ -14,7 +14,7 @@ Please review for the most current information about **how to find and manage al
 
 Effectively managing datasets is important for general organization, collaboration, publishing, and for staying within the quotas set by the [UseGalaxy.org](https://usegalaxy.org) public Galaxy server. 
 
-Account features, quota sizes, and terms of service are set by the administrators of each distinct public Galaxy server. Review the server's homepage and [Galaxy Directly listing](/src/use/index.md) where you are working for server-specific details, including contact information and supplimental resources.
+Account features, quota sizes, and terms of service are set by the administrators of each distinct public Galaxy server. Review the server's homepage and [Galaxy Directly listing](/use/) where you are working for server-specific details, including contact information and supplimental resources.
 
 The tracking information associated with Datasets in a History represent an experimental record of the methods, parameters, and other inputs. These methods are easily extracted into Workflows, making an analysis pathway transparent, reproducible, and reusable.
 
@@ -29,11 +29,11 @@ You have multiple options how to get your files into Galaxy thus making them dat
 </div>
 
 * **Upload modal** - Interface within Galaxy that suits the best for uploading small files from disk or fetching data from other servers. You can reach it by clicking on its icon (right picture) in the tool panel. 
-* **FTP upload** - In case of large files (the upload modal ~~has ~2GB browser limit~~ can now handle data over 2 GB in most cases) or unpredictable connection (support for pausing and resuming) you might want to use FTP instead. The Galaxy server you want to upload data to has to have an FTP service configured (both [Main](/src/main/index.md) and [Test](/src/test/index.md) instances do). See more details at [FTPUpload](/src/ftp-upload/index.md).
+* **FTP upload** - In case of large files (the upload modal ~~has ~2GB browser limit~~ can now handle data over 2 GB in most cases) or unpredictable connection (support for pausing and resuming) you might want to use FTP instead. The Galaxy server you want to upload data to has to have an FTP service configured (both [Main](/main/) and [Test](/test/) instances do). See more details at [FTPUpload](/ftp-upload/).
 
 # Dataset Icons & Text
 
-Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to get oriented with these functions using a variety of real datasets on **Galaxy's** public **[Main](/src/main/index.md)** server **[usegalaxy.org](https://usegalaxy.org)**.
+Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to get oriented with these functions using a variety of real datasets on **Galaxy's** public **[Main](/main/)** server **[usegalaxy.org](https://usegalaxy.org)**.
 * Upper right corner
   * ![](/src/images/icons/eye.png) Display data in browser "eye icon"
   * ![](/src/images/icons/pencil.png) Edit attributes "pencil icon"
@@ -44,40 +44,40 @@ Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to g
 * Upper left corner
   * Dataset name
   * Dataset size/number of lines (actual or estimated)
-  * format [datatypes](/src/learn/datatypes/index.md)
+  * format [datatypes](/learn/datatypes/)
   * database
   * ![](/src/images/icons/HistoryInfo.png) Info (optional)
 * Lower left corner
   * Download
   * View Details
   * Run this job again ![](/src/images/icons/arrow-circle.png)
-  * Display in [trackster](/src/learn/visualization/index.md) (optional)
+  * Display in [trackster](/learn/visualization/) (optional)
   * display at [UCSC](http://genome.ucsc.edu) main  (optional)
   * display at [Ensembl](http://www.ensembl.org) Current (optional)
 
 # Data size and disk Quotas
 
-* The size limit for a file loaded using [FTP](/src/ftp-upload/index.md) is 50G.
+* The size limit for a file loaded using [FTP](/ftp-upload/) is 50G.
 * The size limit for a job's output is (unrelated to quotas):
-  * 50G on the [Test](/src/test/index.md) server
-  * 200G on the [Main](/src/main/index.md) server
+  * 50G on the [Test](/test/) server
+  * 200G on the [Main](/main/) server
 * The size limit for all data (quotas) on the Galaxy public servers is explained at:
-  * [Test](/src/test/index.md) server
-  * [Main](/src/main/index.md) server
-* Administrative instructions for [ disk quotas](/src/admin/disk-quotas/index.md)
+  * [Test](/test/) server
+  * [Main](/main/) server
+* Administrative instructions for [ disk quotas](/admin/disk-quotas/)
 
 # Format
 
-* The format of a dataset is ideally defined by the assigned **[datatype](/src/learn/datatypes/index.md)** attribute. Deviations in input dataset format are the first variable to examine when a tool (job) fails. Many of the tools in the "Text Manipulation" tool group can be used to both examine and correct a dataset's format to bring it into alignment with the assigned [datatype](/src/learn/datatypes/index.md) attribute specification.
-* To initially **assign** a dataset's [datatype](/src/learn/datatypes/index.md) attribute, the uploaded/imported file can be specified with some import tools or be named with the appropriate file extension. To specify, modify or correct a dataset's [datatype](/src/learn/datatypes/index.md) attribute after upload, click on the "pencil" icon ![](/src/images/icons/pencil.png) in the right corner of the dataset's box to reach the "Edit Attributes" form. Use the "Change data type" section of the form to make changes and click on *Save*. Galaxy will modify the [datatype](/src/learn/datatypes/index.md) and metadata.
-* To **transform** a dataset format (original &rarr; new [datatype](/src/learn/datatypes/index.md) attribute), use one of the many tools in the *Convert Formats* group.
-* ***TIP*** The quickest way to locate tools that manipulate specific formats is to use the Tool Search (top of left Galaxy Tool panel, *gear icon* menu). For example, type in  *[M-A-F](/src/learn/datatypes/index.md#maf)* to locate tools in the tool group *Convert Formats* that transform to/from Multiple Alignment Format.
+* The format of a dataset is ideally defined by the assigned **[datatype](/learn/datatypes/)** attribute. Deviations in input dataset format are the first variable to examine when a tool (job) fails. Many of the tools in the "Text Manipulation" tool group can be used to both examine and correct a dataset's format to bring it into alignment with the assigned [datatype](/learn/datatypes/) attribute specification.
+* To initially **assign** a dataset's [datatype](/learn/datatypes/) attribute, the uploaded/imported file can be specified with some import tools or be named with the appropriate file extension. To specify, modify or correct a dataset's [datatype](/learn/datatypes/) attribute after upload, click on the "pencil" icon ![](/src/images/icons/pencil.png) in the right corner of the dataset's box to reach the "Edit Attributes" form. Use the "Change data type" section of the form to make changes and click on *Save*. Galaxy will modify the [datatype](/learn/datatypes/) and metadata.
+* To **transform** a dataset format (original &rarr; new [datatype](/learn/datatypes/) attribute), use one of the many tools in the *Convert Formats* group.
+* ***TIP*** The quickest way to locate tools that manipulate specific formats is to use the Tool Search (top of left Galaxy Tool panel, *gear icon* menu). For example, type in  *[M-A-F](/learn/datatypes/#maf)* to locate tools in the tool group *Convert Formats* that transform to/from Multiple Alignment Format.
 
 # Visualize
 
-* For many [datatypes](/src/learn/datatypes/index.md), clicking on the **eye icon** ![](/src/images/icons/eye.png) for "Display data in browser" will display the contents or a preview of the contents in as unformatted text in the center pane (exceptions include compressed [datatypes](/src/learn/datatypes/index.md) such as BAM).
+* For many [datatypes](/learn/datatypes/), clicking on the **eye icon** ![](/src/images/icons/eye.png) for "Display data in browser" will display the contents or a preview of the contents in as unformatted text in the center pane (exceptions include compressed [datatypes](/learn/datatypes/) such as BAM).
 * Direct links to view a dataset within a browser may include:
-  * [Trackster "Galaxy Track Browser (GTB)"](/src/learn/visualization/index.md)
+  * [Trackster "Galaxy Track Browser (GTB)"](/learn/visualization/)
   * [GeneTrack](http://atlas.bx.psu.edu/software/genetrack.html)
   * [UCSC](http://genome.ucsc.edu)
   * [Ensembl](http://www.ensembl.org)
@@ -96,13 +96,13 @@ Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to g
   * Options are:
   * *Clone all history items, including deleted items*
   * *Clone only items that are not deleted*
-* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/src/admin/disk-quotas/index.md) on [Main](/src/main/index.md) or [Test](/src/test/index.md)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/src/images/icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
+* ***TIP*** One use of this option is to **quickly retain some datasets and permanently delete others** (to reduce disk use counted in user [quota](/admin/disk-quotas/) on [Main](/main/) or [Test](/test/)). First, in the History pane, in the original history, delete individual datasets by clicking on the *X* delete icon ![](/src/images/icons/deleteX.png) if not to be **Cloned**, remember to delete **Hidden** datasets, (see below). Next, *Clone* the original History. Once complete, the cloned History will contain the datasets to be retained and the original History can be deleted permanently with *gear icon &rarr; Saved Histories*, select original History from the list, and clicking the button *Delete Permanently*.
 
 # Hidden
 
 * Datasets may be hidden in the default History view as a Workflow option. If you have run a workflow with hidden datasets, choose "gear icon &rarr; Include Hidden Datasets or Unhide Hidden Datasets" or use the toogle at the top of the history panel (directly below the history name) to view them.
-  * When using **Clone** (see above) to manage datasets to reduce disk usage for [quotas](/src/admin/disk-quotas/index.md), viewing and deleting hidden datasets can be a very important step. Unless deleted, hidden datasets are moved to the new cloned history.
-  * When using **Copy** (see above) to manage datasets to reduce disk usage for [quotas](/src/admin/disk-quotas/index.md), hidden datsets will not be in the "From" list of datasets available to transfer unless they are unhidden using *gear icon &rarr; Unhide Hidden Datasets*, then *This dataset has been hidden. Click__here_ to unhide.*
+  * When using **Clone** (see above) to manage datasets to reduce disk usage for [quotas](/admin/disk-quotas/), viewing and deleting hidden datasets can be a very important step. Unless deleted, hidden datasets are moved to the new cloned history.
+  * When using **Copy** (see above) to manage datasets to reduce disk usage for [quotas](/admin/disk-quotas/), hidden datsets will not be in the "From" list of datasets available to transfer unless they are unhidden using *gear icon &rarr; Unhide Hidden Datasets*, then *This dataset has been hidden. Click__here_ to unhide.*
 
 # Delete vs Delete Permanently
 
@@ -114,7 +114,7 @@ Methods
 
 * Deleting Datasets and Histories
   * **Watch how it works in the [Managing Histories](https://vimeo.com/galaxyproject/managehistories) video.**
-  * **Deleted** datasets and histories **can be recovered** by users as they are retained in Galaxy for a time period set by the instance administrator. For the Galaxy public instances [Main](/src/main/index.md) and [Test](/src/test/index.md), this is currently several months.
+  * **Deleted** datasets and histories **can be recovered** by users as they are retained in Galaxy for a time period set by the instance administrator. For the Galaxy public instances [Main](/main/) and [Test](/test/), this is currently several months.
   * **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator.
   * Deleted datsets can be undeleted or permanently deleted within a History. 
   * Links to show/hide deleted (and hidden) datasets are at the top of the History panel. Only active datasets are shown by default.
@@ -122,8 +122,8 @@ Methods
   * To review or adjust multiple datasets in batch, click on the "checked box" icon near the top right of the history panel to switch into "Operations on Mulitple Datasets" mode. Several options to show, hide, delete, undelete, purge, and group datasets are available. A selection box will be available for each individual dataset. Check the datasets you want to modify and chose your option. 
   
   
-* [Quotas](/src/admin/disk-quotas/index.md) for Datasets and Histories
-  * **Deleted** datasets and **deleted** histories containing datasets **are considered when calculating [quotas](/src/admin/disk-quotas/index.md)** on [Main](/src/main/index.md) or [Test](/src/test/index.md).
+* [Quotas](/admin/disk-quotas/) for Datasets and Histories
+  * **Deleted** datasets and **deleted** histories containing datasets **are considered when calculating [quotas](/admin/disk-quotas/)** on [Main](/main/) or [Test](/test/).
   * **Permanently deleted** datasets and **permanently deleted** histories containing datasets **are not considered**.
   * Imported native **Data Library** datasets **are not considered**.
   * Datasets can be associated with one or more History, but are only considered once.

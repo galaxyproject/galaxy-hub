@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 <div class='title'>2016-06-16 Web Meetup<br /><br />
 
 </div></div>
@@ -18,7 +18,7 @@
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/hexylena/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/src/people/helena-rasche/index.md'>Helena Rasche</a></div> </td>
+    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/hexylena/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/people/helena-rasche/'>Helena Rasche</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -29,7 +29,7 @@
 
 <br />
 
-*[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
 ## Galaxy in Production at the University of Minnesota
 

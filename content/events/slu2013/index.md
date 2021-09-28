@@ -3,7 +3,7 @@
 
 <div class='title'>Introduction to Galaxy<br /> Tuesday April 30, 2013</div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu) 
+**Instructor: [Dave Clements](/people/dave-clements/), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu) 
 
 9:00am-5:00pm<br />
 [Caroline Building](http://www.slu.edu/campusmap/pdf_maps/section_3_of_3.pdf), Room 204**
@@ -84,11 +84,11 @@ No programming or Linux command line experience is required.
 ## Support
 
 <div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
-<div class='left'><a href='/src/events/missouri-workshop-tour2013/index.md'><img src="/src/images/logos/MissouriGalaxyWorkshopTour2013.png" alt="2013 Missouri Galaxy Workshop Tour" height="75" /></a></div>
+<div class='left'><a href='/events/missouri-workshop-tour2013/'><img src="/src/images/logos/MissouriGalaxyWorkshopTour2013.png" alt="2013 Missouri Galaxy Workshop Tour" height="75" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and [Saint Louis University Department of Biochemistry and Molecular Biology](http://biochemweb.slu.edu/).  
 
-This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/src/events/missouri-workshop-tour2013/index.md).
+This workshop is part of the [2013 Missouri Galaxy Workshop Tour](/events/missouri-workshop-tour2013/).
 
 ## Links
 

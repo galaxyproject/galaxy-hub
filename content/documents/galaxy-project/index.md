@@ -1,6 +1,6 @@
 <slot name="/documents/linkbox" />
 
-Documents about the [Galaxy Project](/src/galaxy-project/index.md).
+Documents about the [Galaxy Project](/galaxy-project/).
 
 PLACEHOLDER_ACTION(AttachFile, Attach a file to this page.)
 

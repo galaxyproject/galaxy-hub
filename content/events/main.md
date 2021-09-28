@@ -12,14 +12,14 @@ content.
 
 Some events are part of a series:
 
-* [Galaxy Webinar Series](/src/events/webinars/index.md)
-* [Galaxy Developer Round Table meetups](/src/community/devroundtable/index.md)
-* [CollaborationFests](/src/events/cofests/index.md) and [Papercuts CoFests](/src/events/cofests/papercuts/index.md)
+* [Galaxy Webinar Series](/events/webinars/)
+* [Galaxy Developer Round Table meetups](/community/devroundtable/)
+* [CollaborationFests](/events/cofests/) and [Papercuts CoFests](/events/cofests/papercuts/)
 
 If you know of any event that should be added to this page and/or to the Galaxy
 Event Calendar, please add it here or send it to outreach@galaxyproject.org.
 For events prior to this year, see the [Events
-Archive](/src/events/archive/index.md).
+Archive](/events/archive/).
 
 <div class='center'>
 </div>

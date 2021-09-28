@@ -24,7 +24,7 @@ quotas:
   - "Docker Container: None"
   - "Public Server: Storage and computational quotas."
 citations:
-  - "[GraphClust2: annotation and discovery of structured RNAs with scalable and accessible integrative clustering](https://doi.org/10.1101/550335), Milad Miladi, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, [Björn Grüning](/src/people/bjoern-gruening/index.md), Rolf Backofen
+  - "[GraphClust2: annotation and discovery of structured RNAs with scalable and accessible integrative clustering](https://doi.org/10.1101/550335), Milad Miladi, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, [Björn Grüning](/people/bjoern-gruening/), Rolf Backofen
 *bioRxiv* 550335; doi: 10.1101/550335"
 pub_libraries:
   - "GraphClust"

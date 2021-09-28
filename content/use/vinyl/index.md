@@ -10,7 +10,7 @@ platforms:
 summary: "A flexible and fully automated system for the functional annotation and prioritization of genetic variants."
 image: "vinyl-logo.png"
 comments:
-  - "VINYL runs on the [Laniakea](/src/use/laniakea/index.md) research cloud."
+  - "VINYL runs on the [Laniakea](/use/laniakea/) research cloud."
 user_support:
   - "[VINYL Manual](http://90.147.75.93/galaxy/static/manual/), including a [tutorial](http://90.147.75.93/galaxy/static/manual/#tut)."
 quotas:

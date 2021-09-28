@@ -11,11 +11,11 @@ date: "2021-04-14"
 
 <p class="lead">
 
-**Note: The GCC2021 abstract submission deadlines have been extended.  See [the announcement](/src/news/2021-05-gcc-extended/index.md).**
+**Note: The GCC2021 abstract submission deadlines have been extended.  See [the announcement](/news/2021-05-gcc-extended/).**
 
 </p>
 
-**Abstract submission is now open for the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition).  GCC2021 events will be held 28 June through July 10, and will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
+**Abstract submission is now open for the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition).  GCC2021 events will be held 28 June through July 10, and will be [virtual, affordable, and globally accessible](/news/2021-02-gcc-virtual/).**
 
 GCC2021 features a 3 day conference, 6-8 July, with talks, Q`&`A, posters, demos, bird-of-a-feather, and plenty of networking networking.  All meeting events will be repeated twice daily, 9 hours apart, making this event accessible to the world.  All events, except for talks will be live in both time slots.
 
@@ -36,4 +36,4 @@ CC2021 is seeking oral presentations, lightning talks, posters, and demos, from 
 
 # Early Registration Ends 1 June
 
-Conference registration [is also now open](/src/news/2021-04-gcc-reg/index.md).
+Conference registration [is also now open](/news/2021-04-gcc-reg/).

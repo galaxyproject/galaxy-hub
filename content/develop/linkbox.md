@@ -1,9 +1,9 @@
 <div class='linkbox'>
-**[Develop](/src/develop/index.md)**
+**[Develop](/develop/)**
 <hr />
-[Getting Started](/src/develop/getting-started/index.md)<br />
-[Galaxy API](/src/develop/api/index.md)<br />
-[Source Code](/src/develop/source-code/index.md)<br />
-[Architecture](/src/develop/architecture/index.md)<br />
-[Best Practices](/src/develop/best-practices/index.md)<br />
+[Getting Started](/develop/getting-started/)<br />
+[Galaxy API](/develop/api/)<br />
+[Source Code](/develop/source-code/)<br />
+[Architecture](/develop/architecture/)<br />
+[Best Practices](/develop/best-practices/)<br />
 </div>

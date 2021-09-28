@@ -25,11 +25,11 @@ Details on conference location, lodging options and transportation.
 
 # Location
 
-The [2014 Galaxy Community Conference](/src/events/gcc2014/index.md) will be held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014.
+The [2014 Galaxy Community Conference](/events/gcc2014/) will be held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014.
 
 Events will be split between [Charles Commons](https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk) and the [Mattin Center](http://web.jhu.edu/studentlife/homewood_arts/mattin.html).  Charles Commons and Mattin Center are  [directly across Charles Street from each other](https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk).
 
-Charles Commons is also the [official lodging location for the conference](/src/events/gcc2014/logistics/index.md#lodging).
+Charles Commons is also the [official lodging location for the conference](/events/gcc2014/logistics/#lodging).
 
 Note that there is a [JHU Mobile app](http://jhu.edu/mobile/) that includes maps to the Homewood Campus.
 
@@ -80,12 +80,12 @@ There is no rail or free bus service to the Homewood Campus, but several bus rou
 <table>
   <tr>
     <td> <img src="/src/events/gcc2014/logistics/CharlesCommonsBuilding.jpg" alt="Charles Commons" /> </td>
-    <td> <strong>Charles Commons</strong><br /><a href='https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk'>3301 N. Charles St., Baltimore, MD 21218</a><br />Two and four person suites, all single rooms<br /><a href='/src/events/gcc2014/logistics/index.md#rates'>Rates</a> </td>
+    <td> <strong>Charles Commons</strong><br /><a href='https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk'>3301 N. Charles St., Baltimore, MD 21218</a><br />Two and four person suites, all single rooms<br /><a href='/events/gcc2014/logistics/#rates'>Rates</a> </td>
   </tr>
 </table>
 
 
-Rooms for GCC2014 participants are available in *Charles Commons*, one of the [residence halls on the Homewood Campus](http://www.jhu.edu/hds/oncampus/buildings.html).  These rooms can be booked only at [registration time](/src/events/gcc2014/register/index.md). 
+Rooms for GCC2014 participants are available in *Charles Commons*, one of the [residence halls on the Homewood Campus](http://www.jhu.edu/hds/oncampus/buildings.html).  These rooms can be booked only at [registration time](/events/gcc2014/register/). 
 
 Some key points:
 

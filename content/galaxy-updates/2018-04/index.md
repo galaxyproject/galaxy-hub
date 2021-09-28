@@ -1,15 +1,15 @@
 ---
 title: April 2018 Galaxy News
 ---
-[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
-Welcome to the April 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the April 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
 # UseGalaxy.eu and UseGalaxy.org.au Launched
 
-[UseGalaxy.org](https://usegalaxy.org/) is absolutely delighted to announce the birth of two sibling servers - **[UseGalaxy.eu](https://usegalaxy.eu/)** and **[UseGalaxy.org.au](https://usegalaxy.org.au/)**.  The three [UseGalaxy servers](/src/usegalaxy/index.md) will mirror a set of core tools and reference genomes and are aimed at better distributing access to Galaxy around the world.
+[UseGalaxy.org](https://usegalaxy.org/) is absolutely delighted to announce the birth of two sibling servers - **[UseGalaxy.eu](https://usegalaxy.eu/)** and **[UseGalaxy.org.au](https://usegalaxy.org.au/)**.  The three [UseGalaxy servers](/usegalaxy/) will mirror a set of core tools and reference genomes and are aimed at better distributing access to Galaxy around the world.
 
 [<img class="float-right" src="/src/images/galaxy-logos/usegalaxy.eu.256.png" alt="useGalaxy.eu" width="160" />](https://usegalaxy.eu/)
 
@@ -17,15 +17,15 @@ Welcome to the April 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a sum
 
 * [Green Light for Galaxy Europe](http://www.pr.uni-freiburg.de/pm-en/press-releases-2018/green-light-for-galaxy-europe)
 * [Flyer with more information](https://github.com/usegalaxy-eu/branding/raw/master/freiburg-flyer/flyer.pdf)
-* [UseGalaxy.eu public server directory entry](/src/use/usegalaxy-eu/index.md)
+* [UseGalaxy.eu public server directory entry](/use/usegalaxy-eu/)
 
 **[UseGalaxy.org.au](https://usegalaxy.org.au/)** aims to support the Australian research community. It is built on the Genomics Virtual Laboratory infrastructure, and was also launched in March 2018. This server was formerly the University of Queensland Galaxy Server. See:
 
 * [Synergising Australian bioinformatics resources through the launch of Galaxy Australia](https://www.qcif.edu.au/index.php/news/412-synergising-australian-bioinformatics-resources-through-the-launch-of-galaxy-australia)
 * [Announcing an Australia-wide Galaxy service](https://www.embl-abr.org.au/galaxyaustralia/)
-* [UseGalaxy.org.au public server directory entry](/src/use/usegalaxy-au/index.md)
+* [UseGalaxy.org.au public server directory entry](/use/usegalaxy-au/)
 
-And see the new [UseGalaxy page](/src/usegalaxy/index.md) for future plans.
+And see the new [UseGalaxy page](/usegalaxy/) for future plans.
 
 ----
 
@@ -35,15 +35,15 @@ And see the new [UseGalaxy page](/src/usegalaxy/index.md) for future plans.
 [GCCBOSC 2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. This brings the 2018 Galaxy Community Conference and the Bioinformatics Open Source Conference together into a unified week-long event. If you work in open source life science or data-intensive biomedical research, then there is no better place than GCCBOSC 2018 to present your work and to learn from others.
 
 
-[GCCBOSC](https://gccbosc2018.sched.com/) starts with [two days of training](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All) with a wide range of topics nominated and selected by our communities.  Training is followed by a two day meeting, with joint and parallel tracks, featuring oral presentations, posters, demos, lightning talks, birds-of-a-feather and [invited keynotes](/src/events/gccbosc2018/keynotes/index.md).  The week finishes with *[CollaborationFest](/src/events/gccbosc2018/collaboration/index.md) Core* and *Encore*, two or four days of collaborative work on code, documentation, training and challenging data analysis problems.
+[GCCBOSC](https://gccbosc2018.sched.com/) starts with [two days of training](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All) with a wide range of topics nominated and selected by our communities.  Training is followed by a two day meeting, with joint and parallel tracks, featuring oral presentations, posters, demos, lightning talks, birds-of-a-feather and [invited keynotes](/events/gccbosc2018/keynotes/).  The week finishes with *[CollaborationFest](/events/gccbosc2018/collaboration/) Core* and *Encore*, two or four days of collaborative work on code, documentation, training and challenging data analysis problems.
 
 ## Keynote speakers
 
-We are pleased to announce our third [keynote speaker](/src/events/gccbosc2018/keynotes/index.md):
+We are pleased to announce our third [keynote speaker](/events/gccbosc2018/keynotes/):
 
 [<img class="float-right" src="/src/images/people/peixoto.jpg" alt="Lucia Peixoto"  width="110"  />](https://medicine.wsu.edu/directory-faculty/lucia-peixoto/)
 
-**GCC2018 Keynote: [Lucia Peixoto](/src/events/gccbosc2018/keynotes/index.md#galaxy-community-conference-2018-keynote-lucia-peixoto)**
+**GCC2018 Keynote: [Lucia Peixoto](/events/gccbosc2018/keynotes/#galaxy-community-conference-2018-keynote-lucia-peixoto)**
 
 * **[Elson S. Floyd College of Medicine](https://medicine.wsu.edu/), [Washington State University](https://wsu.edu/)**
 * Keynote title: *Confound it! Reproducible biology from "omics" data analysis*
@@ -67,11 +67,11 @@ So c'mon, register already:
 
 ## Childcare at GCCBOSC
 
-[<img class="float-left" src="/src/images/galaxy-logos/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />](/src/events/gccbosc2018/childcare/index.md)
+[<img class="float-left" src="/src/images/galaxy-logos/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />](/events/gccbosc2018/childcare/)
 
 Subsidized childcare for children 6 weeks to 12 years old is available at Portland State University for $7-10 / hour. If you want, you can also bring your infant with you to the conference.  A nursing room will be available on any day it is requested.
 
-Interested?  Please [register your interest in a nursing room, and/or sign up for childcare now](/src/events/gccbosc2018/childcare/index.md).  **Space in childcare is very limited.**
+Interested?  Please [register your interest in a nursing room, and/or sign up for childcare now](/events/gccbosc2018/childcare/).  **Space in childcare is very limited.**
 
 
 ## GCCBOSC 2018 Sponsors
@@ -90,7 +90,7 @@ We are happy to have several confirmed [GCCBOSC 2018 sponsors](/src/events/gccbo
 
 ### Call for sponsors!
 
-[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/src/events/gccbosc2018/sponsors/index.md#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 # 2018 Big Genomics Data Skills Training course
 
@@ -114,7 +114,7 @@ The primary submission deadline is May 7, 2018, and a poster session deadline (o
 
 # Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md)  coming up in the next few months:
+These and [other Galaxy related events](/events/)  coming up in the next few months:
 
 <table class="table table-striped"><thead>
 <tr>
@@ -315,16 +315,16 @@ The Galaxy is expanding! Please help it grow.
 * [Post-Doc / IR analyse de données miRNA](https://www.sfbi.fr/content/post-doc-ir-analyse-de-donn%C3%A9es-mirna), Unité de Nutrition Humaine, Clermont-Fd, France
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * [Development of innovative algorithms to process real-time mass spectrometry data for the clinical analysis of exhaled breath](https://www.sfbi.fr/content/d%C3%A9veloppement-doutils-bioinformatiques-et-statistiques-pour-lanalyse-de-lair-expir%C3%A9-en-m%C3%A9dec), CEA, Saclay, France
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  In addition to the [UseGalaxy launches](/src/galaxy-updates/2018-04/index.md#usegalaxyeu-and-usegalaxyorgau-launched), another public server was added to the directory, and one was updated:
+There are [over 100 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  In addition to the [UseGalaxy launches](/galaxy-updates/2018-04/#usegalaxyeu-and-usegalaxyorgau-launched), another public server was added to the directory, and one was updated:
 
 ## Proteogenomics Gateway
 
@@ -371,7 +371,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in March](/src/toolshed/contributions/2018-03/index.md).
+[Tool Shed contributions in March](/toolshed/contributions/2018-03/).
 
 # Releases
 

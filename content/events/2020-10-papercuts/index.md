@@ -89,5 +89,5 @@ We will have video calls throughout the day and be on Gitter for chat all day lo
 
 ### Communication
 
-Communication will happen through GitHub, [Gitter channels](https://gitter.im/galaxyproject/Lobby) and [Zoom](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2020-10-papercuts/index.md#join-us-in-our-regular-video-calls).  Links will be posted here before the event.  If you register your interest (see above), we'll send you email too.
+Communication will happen through GitHub, [Gitter channels](https://gitter.im/galaxyproject/Lobby) and [Zoom](https://github.com/galaxyproject/galaxy-hub/blob/master/events/2020-10-papercuts/#join-us-in-our-regular-video-calls).  Links will be posted here before the event.  If you register your interest (see above), we'll send you email too.
 

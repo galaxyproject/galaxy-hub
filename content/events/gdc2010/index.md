@@ -11,7 +11,7 @@ contact: Organizers
 
 ## Galaxy Developer Conference 2010
 
-[GDC2010](https://galaxyproject.org/dev2010/) was the first gathering of the Galaxy Community and started the [Galaxy Community Conferences](/src/gcc/index.md).
+[GDC2010](https://galaxyproject.org/dev2010/) was the first gathering of the Galaxy Community and started the [Galaxy Community Conferences](/gcc/).
 
 ## Slides
 
@@ -33,7 +33,7 @@ contact: Organizers
 #### Afternoon
 
 * [ZFS for NGS data analysis](https://depot.galaxyproject.org/hub/attachments/events/gdc2010/GDC2010_ZFS-for_NGS_Analysis.pdf) - Davide Cittaro
-* [Do-It-Yourself Bioinformatics with the FMI Galaxy Server](https://depot.galaxyproject.org/hub/attachments/events/gdc2010/GDC2010DIY_Bioinf_FMI.pdf) - [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
+* [Do-It-Yourself Bioinformatics with the FMI Galaxy Server](https://depot.galaxyproject.org/hub/attachments/events/gdc2010/GDC2010DIY_Bioinf_FMI.pdf) - [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
 * [Cistrome Project: An Integrative Platform to Analyze ChIP-chip/seq Data](https://depot.galaxyproject.org/hub/attachments/events/gdc2010/GDC2010_Cistrome.pdf) - Tao Liu
 * [Transcriptome Analysis with Galaxy](https://depot.galaxyproject.org/hub/attachments/events/gdc2010/Transcriptome_Analysis_with_Galaxy.pdf) - Gunnar Rätsch
 

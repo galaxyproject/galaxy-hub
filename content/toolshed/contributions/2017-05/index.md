@@ -1,9 +1,9 @@
 ---
 title: May 2017 Tool Shed contributions
 ---
-Tools contributed to the Galaxy Project Tool Shed in [May 2017](/src/galaxy-updates/2017-06/index.md).
+Tools contributed to the Galaxy Project Tool Shed in [May 2017](/galaxy-updates/2017-06/).
 
-* [All monthly summaries](/src/toolshed/contributions/index.md)
+* [All monthly summaries](/toolshed/contributions/)
 
 ## New Tools
 
