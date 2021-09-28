@@ -427,7 +427,7 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
 <div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
  **BioBlend 0.6.0 and 0.6.1**
-    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/learn/api/)([CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
+    [BioBlend version 0.6.1](https://github.com/galaxyproject/bioblend/) was released in July. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/)([CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG):
 
 <div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/logos/PlanemoLogo.png" alt="" width="150" /></a></div>
 
