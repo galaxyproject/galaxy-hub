@@ -61,7 +61,7 @@ function main(rawArgv) {
         // thing first.
         if (command === "build") {
             console.log("Coping integrated static content (png, jpg, pdf, gif) to dist.");
-            cpy(["**/*.png", "**/*.jpg", "**/*.pdf", "**/*.gif"], "../dist", {
+            cpy(["**/*.png", "**/*.jpg", "**/*.pdf", "**/*.gif", "**/*.svg"], "../dist", {
                 cwd: "./content",
                 overwrite: false,
                 parents: true,
