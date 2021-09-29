@@ -354,7 +354,7 @@ Explanations of these options:
 * `use_interactive = False` - Disables live client browser debugging (insecure).
 * `id_secret = <random text>` - Ensures that the encoded IDs used by Galaxy (especially session IDs) are unique.  One simple way to generate a value for this is with a shell command like `$ date | md5sum`
 * `admin_users = nate@bx.psu.edu` - Make nate@example.org an administrator. Galaxy's Admin UI is only accessible if you define administrators here!
-* `library_import_dir = /home/gxprod/library` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory. [documentation](/admin/data-libraries/#user-folder)
+* `library_import_dir = /home/gxprod/library` - Administrators can directly import datasets from this directory on the server to Data Libraries.  This includes an option that allows an effective "symlink" to the data, rather than copying it in to Galaxy's `file_path` directory. [documentation](/data-libraries/#user-folder)
 * `allow_library_path_paste = True` - Administrators can import datasets from anywhere on the server's filesystem(s) by entering their paths in to a text box
 
 Honorable mentions for features we won't use today but that are common in big setups:

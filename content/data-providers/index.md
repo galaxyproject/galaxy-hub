@@ -80,7 +80,7 @@ for array in dataset1.datatype.dataprovider( dataset1, 'column', column_types=ty
 #### The datasets API
 
 You can access data providers for a dataset via the datasets API by passing the provider name as an argument (for more
-information on how to use the API see [Learn/API](/learn/api/)).
+information on how to use the API see [Learn/API](/develop/api/)).
 
 ```bash
 curl 'http://localhost:8080/api/datasets/86cf1d3beeec9f1c?data_type=raw_data&provider=column&limit=2&offset=1&api_key=cf8245802b54146014108216e815d6e4'

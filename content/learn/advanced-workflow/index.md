@@ -11,7 +11,7 @@ title: Creating Workflows and Advanced Workflow Options
 * Workflow can be reused over and over, not only reducing tedious work, but enhancing reproducibility by applying the same exact methods to all of your data.
 * Workflows can be executed on multiple streams of input data in a single pass with the output results sent to new, distinct, result histories. 
 * Workflow intermediate and final output datasets can be custom labeled, hidden or shown in default view, have post-job actions applied, and other advanced options executed.
-* Workflows can be executed using the API (including workflows that exist on the public [Main](/main/) server). Your account's API Key is generated/stored under *User -> API Keys*. Learn more about the **[API...](/learn/api/)**
+* Workflows can be executed using the API (including workflows that exist on the public [Main](/main/) server). Your account's API Key is generated/stored under *User -> API Keys*. Learn more about the **[API...](/develop/api/)**
 * Check the usage information on other [public Galaxy servers](/use/) to see if they support API access.
 
 ## Learn from an example

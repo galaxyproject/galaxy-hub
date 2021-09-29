@@ -36,7 +36,6 @@ Contribution of documentation is very welcome. To generate the documentation sim
 * [Architecture](/develop/architecture/) - How is the app built.
 * [JavaScript Architecture](/develop/jsa/) - What we use and how we implement client-side code.
 * [Data Model](/admin/internals/data-model/) - Underlying data model.
-* [Application Logging](/admin/internals/application-logging/) - What and where does Galaxy log.
 
 ### Other resources
 

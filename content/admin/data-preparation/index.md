@@ -67,7 +67,7 @@ The Extract tool is downloaded from [http://genome.ucsc.edu](http://genome.ucsc.
 
 #### Megablast installation
 
-Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml)). See [dependencies wiki](/admin/tools/ToolDependencies/) for current version then [download blast+](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download). Many data indexes are available directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/)
+Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml)). See [dependencies wiki](admin/config/tool-dependencies/) for current version then [download blast+](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download). Many data indexes are available directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/)
 
 #### Picard/SRMA installation
 

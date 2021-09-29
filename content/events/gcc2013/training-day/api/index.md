@@ -10,7 +10,7 @@
 
 The Galaxy API is a way of interacting with Galaxy data without using the web-based, user interface.
 
-A more thorough explanation can be found at [Learn/API](/learn/api/) along with some general steps on
+A more thorough explanation can be found at [Learn/API](/develop/api/) along with some general steps on
 how to begin using the API. This page may duplicate some of that data in order to keep information relevant to the
 workshop in one place.
 

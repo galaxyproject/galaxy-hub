@@ -7,7 +7,7 @@
 [Get Galaxy](/admin/get-galaxy/)  
 [Config](/admin/config/)  
 [Tool Shed](/toolshed/)  
-[Data Libs](/admin/data-libraries/)  
+[Data Libs](/data-libraries/)
 [Datatypes](/admin/datatypes/)  
 [Develop](/develop/)  
 [Quotas](/admin/disk-quotas/)  
