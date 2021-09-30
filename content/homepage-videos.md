@@ -3,6 +3,10 @@
         <i class="fas fa-play-circle"></i> &nbsp; Recent Videos
     </a>
 </h2>
+
+**[Fast, scalable, free, & user-friendly Galaxy workflows for reference genome assembly](https://youtu.be/oGPaYTOOHug)**
+<span class="small">- The latest version of VGP's pipeline has been ported to Galaxy.</span>
+
 <p>
     <strong><a href="https://youtu.be/DkGrrbaTPN8">
         Galaxy for AnVIL Cloud Cost Analysis
@@ -26,16 +30,4 @@
         Collections 101
     </a></strong>
     <span class="small">- Got complex experiments? Use Collections.</span>
-</p>
-<p>
-    <strong><a href="https://youtu.be/D5HgJWdfOWw">
-        Galaxy 101 (updated)
-    </a></strong>
-    <span class="small">- An introduction to basic Galaxy functionality</span>
-</p>
-<p>
-    <strong><a href="https://youtu.be/n2uwDaU-L8s">
-        Restricting the Galaxy Tool Panel
-    </a></strong>
-    <span class="small">- July 22 Galaxy Developer Round Table call</span>
 </p>
