@@ -7,6 +7,6 @@ continent: EU
 location: "Plateformes Lilloises en Biologie et Santé, Lille, France"
 image: "/images/logos/bilille.png"
 location_url: "https://ums-plbs.univ-lille.fr/"
-external_url: "hhttps://www.sfbi.fr/emplois/offre/202108310315-cdd-ingenieur-e-detude-en-bioinformatique-et-bioanalyse"
+external_url: "https://www.sfbi.fr/emplois/offre/202108310315-cdd-ingenieur-e-detude-en-bioinformatique-et-bioanalyse"
 contact: "Guillemette Marot, Pierre Pericard, Jimmy Vandel"
 ---
