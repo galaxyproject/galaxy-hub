@@ -1,6 +1,6 @@
 <template>
     <p>
-        <a class="title" :href="item.link">{{ item.title }}</a>
+        <g-link class="title" :to="item.link">{{ item.title }}</g-link>
         <span class="tease" v-if="item.tease">
             –
             <span class="markdown" v-html="mdToHtml(item.tease)"></span>

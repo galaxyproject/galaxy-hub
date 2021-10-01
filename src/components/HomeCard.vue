@@ -1,7 +1,7 @@
 <template>
     <div :class="['pseudo-card', `col-sm-${attrs.width}`]">
         <h2>
-            <a :href="attrs.link"> <span :class="`icon ${attrs.icon}`"></span>{{ attrs.title }} </a>
+            <g-link :to="attrs.link"><span :class="`icon ${attrs.icon}`"></span>{{ attrs.title }}</g-link>
         </h2>
         <ItemListBrief v-for="(item, i) in attrs.items" :key="item.id || i" :item="item" />
         <div class="markdown content" v-if="attrs.content" v-html="attrs.content" />
