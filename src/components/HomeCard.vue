@@ -1,9 +1,7 @@
 <template>
     <div :class="['pseudo-card', `col-sm-${attrs.width}`]">
         <h2>
-            <a :href="attrs.link">
-                <span :class="`icon ${attrs.icon}`"></span>{{ attrs.title }}
-            </a>
+            <a :href="attrs.link"> <span :class="`icon ${attrs.icon}`"></span>{{ attrs.title }} </a>
         </h2>
         <ItemListBrief v-for="(item, i) in attrs.items" :key="item.id || i" :item="item" />
         <div class="markdown content" v-if="attrs.content" v-html="attrs.content" />
@@ -23,8 +21,9 @@ const PROPS = {
 };
 // Can't store these in PROPS, or they will always override any value in the insert.
 const DEFAULTS = {
-    width: 4, items: [],
-}
+    width: 4,
+    items: [],
+};
 export default {
     props: PROPS,
     components: {
@@ -46,8 +45,8 @@ export default {
                 attrs[name] = value;
             }
             return attrs;
-        }
-    }
+        },
+    },
 };
 </script>
 

@@ -57,11 +57,11 @@ export default {
         latest() {
             let latest = {};
             for (let category of ["blog", "news", "events", "careers"]) {
-                latest[category] = this.$page[category].edges.map(edge => articleToItem(edge.node));
+                latest[category] = this.$page[category].edges.map((edge) => articleToItem(edge.node));
             }
             latest.careers.reverse();
             return latest;
-        }
+        },
     },
     mounted() {
         // Insert Twitter feed.
@@ -84,7 +84,7 @@ function articleToItem(article) {
         id: article.id,
         title: article.title,
         link: article.external_url || article.path,
-        tease: article.tease || ""
+        tease: article.tease || "",
     };
     if (article.date) {
         item.tease = `*${article.date}.* ${item.tease}`;
