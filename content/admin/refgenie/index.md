@@ -59,10 +59,11 @@ To access and run Data Manager tools, follow these [directions](/admin/tools/dat
 **Figure 1. Extending Galaxy’s reference data with refgenie.** (A) Setting the value of ‘refgenie_config_file’ to the previously chosen genome configuration file path within the primary Galaxy configuration file (e.g. ‘galaxy.yml’). (B) Example data table mapping between refgenie assets and Galaxy data tables for the BWA tool. Cheetah templating language is used to specify mappings between values, with several pre-populated refgenie variables available as shown. (C) refgenie assets are available for users to select and use in the Galaxy BWA tool. In this example, the user is mapping a set of paired-end sequencing reads against the hg38 genome. (D) A dynamically generated list of available remote refgenie assets are listed for an administrator to select in the ‘refgenie pull’ Galaxy Data Manager tool.
 
 
-## Table S1. Comparison of Galaxy, refgenie, and refgenie+Galaxy features
+## Table S1. Comparison of Galaxy, refgenie, and refgenie+Galaxy features  
 
-  |refgenie | Galaxy | refgenie+Galaxy
-- |-------- | ------ | ---------------
-features that refgenie has, but Galaxy does not have | X |   | X
-features that Galaxy has, but refgenie does not have |   | X | X
+|   |refgenie|Galaxy|refgenie+Galaxy|
+|---|--------|------|---------------|
+|features that refgenie has, but Galaxy does not have | X |   | X|
+|features that Galaxy has, but refgenie does not have |   | X | X|
+
 **Table S1. Comparison of Galaxy, refgenie, and refgenie+Galaxy features.** As indicated, refgenie+Galaxy contains the union of features of Galaxy and refgenie.
