@@ -45,7 +45,14 @@
             </div>
 
             <div class="row">
-                <div class="pseudo-card col-sm-4 markdown" v-if="$page.videos" v-html="$page.videos.content" />
+                <div class="pseudo-card col-sm-4" v-if="$page.videos">
+                    <h2>
+                        <a href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA">
+                            <span class="fas fa-play-circle"></span>{{ $page.videos.title }}
+                        </a>
+                    </h2>
+                    <div class="markdown" v-html="$page.videos.content" />
+                </div>
                 <div class="pseudo-card col-sm-4">
                     <h2>
                         <g-link to="/blog/"><span class="fas fa-pencil-alt"></span>Blog</g-link>
