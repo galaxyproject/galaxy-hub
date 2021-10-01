@@ -30,7 +30,7 @@ The tools in the group **NGS: Picard (beta)** have moved from the **[Galaxy dist
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
-Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing the Picard tool wrappers from the Tool Shed. **[Picard](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](/src/admin/tools/ToolDependencies/index.md) section.
+Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing the Picard tool wrappers from the Tool Shed. **[Picard](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](admin/config/tool-dependencies/) section.
 
 **[Picard](http://picard.sourceforge.net/)** comprises Java-based command-line utilities that manipulate SAM files, and a Java API (SAM-JDK) for creating new programs that read and write SAM files. Both SAM text format and SAM binary (BAM) format are supported. More about **[SAM](http://wiki.galaxyproject.org/Learn/Datatypes#SAM)** and **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM)** format.
 
@@ -44,7 +44,7 @@ The **Galaxy Project** is now using the *[Sphinx](http://sphinx-doc.org/) Python
 Two versions of the documentation are available:
 
 * **[galaxy-dist.readthedocs.org](http://galaxy-dist.readthedocs.org)**
-    This documentation describes the code in the [most recent stable release](/src/docs/index.md) of Galaxy ("galaxy-dist").
+    This documentation describes the code in the [most recent stable release](/docs/) of Galaxy ("galaxy-dist").
 
 * **[galaxy-central.readthedocs.org](http://galaxy-central.readthedocs.org)**
     This documentation describes what is currently in the main development branch ("galaxy-central") of Galaxy.  Code updates are automatically propagated from Galaxy's BitBucket.org repository.  This should never be more than 15 minutes out of date.
@@ -63,7 +63,7 @@ Please note that this is the first release of this documentation and it is far f
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ### Tool Shed Enhancements inside of Galaxy
 
@@ -114,7 +114,7 @@ Certain repository contents may occasionally become outdated, perhaps due to oth
 <br />
 # Tools
 
-[Tool Dependencies](/src/admin/tools/ToolDependencies/index.md)
+[Tool Dependencies](admin/config/tool-dependencies/)
 
 1. Enable **[Tophat](http://tophat.cbcb.umd.edu/)**, **[Tophat2](http://tophat.cbcb.umd.edu/manual.html)**, and **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** to accept gene annotations in **[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3)** format; thanks to [Jim Johnson](http://bitbucket.org/jjohnson).
 2. Make unordered **[GTF](http://wiki.galaxyproject.org/Learn/Datatypes#GTF)** parsing more lenient by default, allowing for parsing of 'imperfect' GTF datasets not in strict specification format.
@@ -162,7 +162,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 <br />
 # Announcements
 
-[News](/src/news/index.md), ***[November 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-11)***
+[News](/news/), ***[November 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-11)***
 
 ### Highlights
 
@@ -180,7 +180,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
 * [Bioinformatician/Statistician opening](http://bit.ly/X7Hl30) at EMBL Heidelberg, Germany  
 * [offre CDD INRA Versailles](http://bit.ly/TKoV9h) - developpement chaine de traitements RnaSeq sous Galaxy - France Genomique
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Penn State and Emory
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs @ Penn State and Emory
 
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org.
 

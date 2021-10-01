@@ -27,13 +27,13 @@ The day focuses on two topics:
 # SW4a: Single Cell RNA-Seq and Visualization Using the Galaxy Workbench (AM)
 
 <div class="float-right">
-[<img src="mehmet-tekman.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Mehmet_Tekman) &nbsp; [<img src="/src/people/dave-clements/dave-clements-150.jpg" style="max-width:120px" />](/src/people/dave-clements/index.md)
+[<img src="mehmet-tekman.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Mehmet_Tekman) &nbsp; [<img src="/people/dave-clements/dave-clements-150.jpg" style="max-width:120px" />](/people/dave-clements/)
 </div>
 
 **Instructors:**
 
 * [Mehmet Tekman](https://www.researchgate.net/profile/Mehmet_Tekman), [University of Freiburg](https://www.uni-freiburg.de/?set_language=en)
-* [Dave Clements](/src/people/dave-clements/index.md), [Johns Hopkins University](https://www.jhu.edu/)
+* [Dave Clements](/people/dave-clements/), [Johns Hopkins University](https://www.jhu.edu/)
 
 Due to technological advances, single cell RNA-seq (scRNA-seq) analysis has emerged as the new frontier of biomedical research. As scRNA-seq technology evolves and generates increasingly complex data, the need for scalable, flexible, and accessible analysis options remains critical to researchers. The Galaxy workbench (galaxyproject.org) offers a solution. Galaxy has been used for genomic data analysis for over a decade and includes many tools required for scRNA-seq analysis – offering a multitude of analysis options. 
 
@@ -103,8 +103,8 @@ The [Association of Biomolecular Resource Facilities 2020 Conference (ABRF 2020)
 
 ## About Galaxy
 
-[Galaxy](/src/index.md) is an open source platform for data integration and analysis in the life sciences. It is deployed in hundreds of organizations around the world and is supported by a global community of researchers, trainers, software engineers, and tool developers. Galaxy makes sophisticated bioinformatic analysis accessible and reproducible to researchers without requiring them to learn command line interfaces or computer systems administration. Thousands of tools and data sources are available in the Galaxy ecosystem.
+[Galaxy](/) is an open source platform for data integration and analysis in the life sciences. It is deployed in hundreds of organizations around the world and is supported by a global community of researchers, trainers, software engineers, and tool developers. Galaxy makes sophisticated bioinformatic analysis accessible and reproducible to researchers without requiring them to learn command line interfaces or computer systems administration. Thousands of tools and data sources are available in the Galaxy ecosystem.
 
 We hope to see you Palm Springs,
 
-[Pratik](https://www.researchgate.net/profile/Pratik_Jagtap2), [Tim](https://cbs.umn.edu/contacts/timothy-j-griffin),  [Saskia](https://www.researchgate.net/profile/Saskia_Hiltemann), [Subina](https://www.researchgate.net/profile/Subina_Mehta), [Mehmet](https://www.researchgate.net/profile/Mehmet_Tekman), and [Dave C](/src/people/dave-clements/index.md)
+[Pratik](https://www.researchgate.net/profile/Pratik_Jagtap2), [Tim](https://cbs.umn.edu/contacts/timothy-j-griffin),  [Saskia](https://www.researchgate.net/profile/Saskia_Hiltemann), [Subina](https://www.researchgate.net/profile/Subina_Mehta), [Mehmet](https://www.researchgate.net/profile/Mehmet_Tekman), and [Dave C](/people/dave-clements/)

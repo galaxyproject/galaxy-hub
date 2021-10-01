@@ -1,6 +1,6 @@
 # Cloud Computing for the Microbiome Workshop Notes
 
-Comprehensive documentation can be found at [CloudMan](/src/cloudman/index.md).
+Comprehensive documentation can be found at [CloudMan](/cloudman/).
 
 #### Quick start
 
@@ -29,9 +29,9 @@ At this point, just wait a few seconds and you're ready to go when the "Access G
 
 #### For Advanced Users - Getting the workshop data (Titus' snapshot) in to Galaxy
 
-Documentation covering Galaxy Data Libraries can be found at [Admin/DataLibraries/Libraries](/src/admin/data-libraries/Libraries/index.md)
+Documentation covering Galaxy Data Libraries can be found at [Admin/DataLibraries/Libraries](/data-libraries/Libraries/)
 
-Specific documentation covering options for uploading to be libraries can be found at [Admin/DataLibraries/UploadingLibraryFiles](/src/admin/data-libraries/uploading-library-files/index.md)
+Specific documentation covering options for uploading to be libraries can be found at [Admin/DataLibraries/UploadingLibraryFiles](/data-libraries/uploading-library-files/)
 
 This currently requires creating a volume from the AWS Console and mounting via the instance's shell (via ssh).
 

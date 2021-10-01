@@ -1,5 +1,5 @@
 <div class="center">
-  <a href='/src/events/gcc2019/index.md'>
+  <a href='/events/gcc2019/'>
     <div class="img-sizer trim-p">
 
 ![GCC2019](./gcc2019-logo-big-wide.png)
@@ -9,17 +9,17 @@
   <div class="linkbox-horizontal trim-p">
 
 [Program](https://gcc2019.sched.com/) |
-[Training](/src/events/gcc2019/training/index.md) |
-[CoFest](/src/events/gcc2019/cofest/index.md) |
-[Abstracts](/src/events/gcc2019/abstracts/index.md) |
-[Register](/src/events/gcc2019/registration/index.md) |
-[Venue](/src/events/gcc2019/venue/index.md) |
-[FAQ](/src/events/gcc2019/faq/index.md) |
-[Childcare](/src/events/gcc2019/childcare/index.md) |
-[Sponsors](/src/events/gcc2019/sponsors/index.md) |
-[Conduct](/src/events/gcc2019/conduct/index.md) |
-[Promotion](/src/events/gcc2019/promotion/index.md) |
-[Org](/src/events/gcc2019/organizers/index.md)
+[Training](/events/gcc2019/training/) |
+[CoFest](/events/gcc2019/cofest/) |
+[Abstracts](/events/gcc2019/abstracts/) |
+[Register](/events/gcc2019/registration/) |
+[Venue](/events/gcc2019/venue/) |
+[FAQ](/events/gcc2019/faq/) |
+[Childcare](/events/gcc2019/childcare/) |
+[Sponsors](/events/gcc2019/sponsors/) |
+[Conduct](/events/gcc2019/conduct/) |
+[Promotion](/events/gcc2019/promotion/) |
+[Org](/events/gcc2019/organizers/)
 
   </div>
   <div class="trim-p" style="font-size: x-large;">

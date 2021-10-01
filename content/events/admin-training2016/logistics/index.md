@@ -16,7 +16,7 @@ title: Galaxy Admin Training Logistics
 </div></div>
 <br />
 
-[Lodging](/src/events/admin-training2016/logistics/index.md#lodging), [Salt Lake City International Airport](/src/events/admin-training2016/logistics/index.md#salt-lake-city-international-airport), and all [training events](/src/events/admin-training2016/logistics/index.md#training-venues) are on the University of Utah campus or in downtown Salt Lake City, and all are easily accessible using [TRAX](/src/events/admin-training2016/logistics/index.md#trax), Salt Lake's light rail network.
+[Lodging](/events/admin-training2016/logistics/#lodging), [Salt Lake City International Airport](/events/admin-training2016/logistics/#salt-lake-city-international-airport), and all [training events](/events/admin-training2016/logistics/#training-venues) are on the University of Utah campus or in downtown Salt Lake City, and all are easily accessible using [TRAX](/events/admin-training2016/logistics/#trax), Salt Lake's light rail network.
 
 <br />
 
@@ -105,9 +105,9 @@ See the [event map for details](https://drive.google.com/open?id=1vC6J8BdrMDQo_c
 
 # Training Venues
 
-The **[Basics Session](/src/events/admin-training2016/logistics/BasicsSession/index.md)** will be held at the **[Salt Lake City Main Public Library](http://www.slcpl.lib.ut.us/branches/view/Main+Library).**  This [stunning venue](https://www.google.com/search?tbm=isch&q=salt+lake+city+library) is located in downtown Salt Lake City at [210 East 400 South](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing), and is a stop on the [UTA TRAX Red Line](https://www.rideuta.com/Rider-Tools/Schedules-and-Maps/703-Red-Line) and just [5 stops from conference housing](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing).  We'll be meeting in [Conference Room 4](http://www.slcpl.lib.ut.us/rooms/) 
+The **[Basics Session](/events/admin-training2016/logistics/BasicsSession/)** will be held at the **[Salt Lake City Main Public Library](http://www.slcpl.lib.ut.us/branches/view/Main+Library).**  This [stunning venue](https://www.google.com/search?tbm=isch&q=salt+lake+city+library) is located in downtown Salt Lake City at [210 East 400 South](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing), and is a stop on the [UTA TRAX Red Line](https://www.rideuta.com/Rider-Tools/Schedules-and-Maps/703-Red-Line) and just [5 stops from conference housing](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing).  We'll be meeting in [Conference Room 4](http://www.slcpl.lib.ut.us/rooms/) 
 
-The **[Advanced Session](/src/events/admin-training2016/logistics/AdvancedSession/index.md)** will be held at the **[Commanders House](http://www.universityguesthouse.com/Commanders-House) on the [University of Utah](http://utah.edu/) campus**.  This is a short walk from the [University Guest House](/src/events/admin-training2016/logistics/index.md#lodging), where participants are staying.
+The **[Advanced Session](/events/admin-training2016/logistics/AdvancedSession/)** will be held at the **[Commanders House](http://www.universityguesthouse.com/Commanders-House) on the [University of Utah](http://utah.edu/) campus**.  This is a short walk from the [University Guest House](/events/admin-training2016/logistics/#lodging), where participants are staying.
 
 <div class='left'>
 <a href='http://ucgd.genetics.utah.edu/'><img src="/src/images/logos/USTAR-UCGD-Logo.jpg" alt="USTAR Center for Genetic Discovery (UCGD)" width="280" /></a></div>

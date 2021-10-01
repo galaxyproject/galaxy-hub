@@ -31,7 +31,7 @@ To accommodate different time zones and schedules, there will be 3 calls (with s
 
 # Papercuts CoFest
 
-**The February 2021 GTN Day will be held concurrently with the [February Papercuts CoFest day](/src/events/2021-02-papercuts/index.md)**, which like GTN day is a CoFest featuring community calls throughout participating time zones.  You are encouraged to participate in both.
+**The February 2021 GTN Day will be held concurrently with the [February Papercuts CoFest day](/events/2021-02-papercuts/)**, which like GTN day is a CoFest featuring community calls throughout participating time zones.  You are encouraged to participate in both.
 
 ## Links
 

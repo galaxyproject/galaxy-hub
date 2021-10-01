@@ -1,7 +1,7 @@
 ---
 title: Galaxy Project Stats
 ---
-This page contains statistics about the [Galaxy Project](/src/galaxy-project/index.md).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
+This page contains statistics about the [Galaxy Project](/galaxy-project/).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
 
 
 
@@ -33,17 +33,17 @@ The Galaxy community uses Gitter.im / Matrix for chat, and there are many differ
 
 ## Mailing Lists
 
-Most of Galaxy's mailing list traffic has migrated to the help forum and to Gitter.  The Galaxy-Announce (see below) and Galaxy-Dev [mailing lists](/src/mailing-lists/index.md) remain the only frequently active mailing lists. Here's the history:
+Most of Galaxy's mailing list traffic has migrated to the help forum and to Gitter.  The Galaxy-Announce (see below) and Galaxy-Dev [mailing lists](/mailing-lists/) remain the only frequently active mailing lists. Here's the history:
 
 * 2011/12: Galaxy-Announce list launched.
-* 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/src/main/index.md) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
+* 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/main/) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
 * 2014/04: Most of Galaxy-User traffic moved to the [Galaxy BioStar online forum](https://biostar.usegalaxy.org).
 * 2014/06: Galaxy-User mailing list disabled.  All new user support traffic now goes to Galaxy BioStar
 * 2018/11: [Galaxy Help Forum launched](https://help.galaxyproject.org/), superseding Galaxy BioStar site
 
 # Communication Channels
 
-The project uses the Galaxy-Announce mailing list and Twitter to keep the community up to date on what's happening in the larger Galaxy community. Galaxy-Announce was launched in December 2011 and became the default mailing list for newly registered users on [usegalaxy.org](/src/main/index.md) in February 2012.  The Galaxy project started [using Twitter](/src/galaxy-on-twitter/index.md) on a regular basis in February 2011.
+The project uses the Galaxy-Announce mailing list and Twitter to keep the community up to date on what's happening in the larger Galaxy community. Galaxy-Announce was launched in December 2011 and became the default mailing list for newly registered users on [usegalaxy.org](/main/) in February 2012.  The Galaxy project started [using Twitter](/galaxy-on-twitter/) on a regular basis in February 2011.
 
 Here's membership in both channels since they were launched.
 
@@ -72,7 +72,7 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 
 # Publications / Citations
 
-The [Galaxy Publications Library](/src/publication-library/index.md) lists every publication we know of that is about, references, or mentions Galaxy.  We started tracking publications partway through 2011, so this may be an undercount for that year and previous years.  
+The [Galaxy Publications Library](/publication-library/) lists every publication we know of that is about, references, or mentions Galaxy.  We started tracking publications partway through 2011, so this may be an undercount for that year and previous years.  
 
 Here are the tags on papers in the Galaxy Publications Library as of August 2021:
 
@@ -554,14 +554,14 @@ The **Tags** graph highlights several trends.
 
 # Galaxy Platforms
 
-Galaxy is available in a number of ways.  While most [installations of Galaxy](/src/admin/get-galaxy/index.md) are private, many groups support [Galaxy instances in many different forms](/src/use/index.md), including publicly accessible servers, Galaxy instance that can be easily launched on research and commercial clouds, containers, and virtual machines.  Prior to 2019 we counted only publicly accessible servers.  Moving forward we are tracking many ways to use galaxy.
+Galaxy is available in a number of ways.  While most [installations of Galaxy](/admin/get-galaxy/) are private, many groups support [Galaxy instances in many different forms](/use/), including publicly accessible servers, Galaxy instance that can be easily launched on research and commercial clouds, containers, and virtual machines.  Prior to 2019 we counted only publicly accessible servers.  Moving forward we are tracking many ways to use galaxy.
 
 [![](/src/galaxy-project/statistics/galaxy-platforms.svg)](https://docs.google.com/spreadsheets/d/1czXV7tWPPjQQiB-uk0NYsqmC967deQ9OLue0ByXntbs/pubchart?oid=289204282&format=interactive)
 
 
 ## Platforms in Publications
 
-In late 2017 the project started tracking which specific [platforms](/src/use/index.md) (besides usegalaxy.org) that were used or referenced in publications.  Here are the platforms that have been mentioned in more than 30 publications since we started tracking this, as of August 2020.
+In late 2017 the project started tracking which specific [platforms](/use/) (besides usegalaxy.org) that were used or referenced in publications.  Here are the platforms that have been mentioned in more than 30 publications since we started tracking this, as of August 2020.
 
 
 <table class="table">
@@ -726,13 +726,13 @@ This is one of the largest open-source teams in the world, and is in the top 2% 
 
 ## Galaxy Project Tool Shed
 
-The Galaxy Project [Tool Shed](/src/toolshed/index.md) contains contributed software and workflows that can be installed at any Galaxy site.
+The Galaxy Project [Tool Shed](/toolshed/) contains contributed software and workflows that can be installed at any Galaxy site.
 
 [![](/src/galaxy-project/statistics/toolshed.svg)](https://docs.google.com/spreadsheets/d/1mS2jw3SbOYYf4ENZbXheKJkoZhaF3EawCZRQ2LmRX70/pubchart?oid=1627508974&format=interactive)
 
 # Events
 
-As the [Galaxy events calendar and archive](/src/events/index.md) show, the Galaxy community is globally active, with around 100 events per year for the past several years.  [Galaxy Community Conferences](/src/gcc/index.md) are the flagship event of the Galaxy community. GCC has met annually since 2010 and has had [over 200 participants](/src/gcc/index.md#conferences) every year since 2012.
+As the [Galaxy events calendar and archive](/events/) show, the Galaxy community is globally active, with around 100 events per year for the past several years.  [Galaxy Community Conferences](/gcc/) are the flagship event of the Galaxy community. GCC has met annually since 2010 and has had [over 200 participants](/gcc/#conferences) every year since 2012.
 
 
 ## Want the underlying numbers?

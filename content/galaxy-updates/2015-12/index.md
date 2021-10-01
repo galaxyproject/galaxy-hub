@@ -10,9 +10,9 @@ title: Galactic December News!
 
 </div>
 
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the December 2015 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. 
+Welcome to the December 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
@@ -21,7 +21,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 **81** new papers referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in November. Highlights include:
 
 * [Genomics Virtual Laboratory: A Practical Bioinformatics Workbench for the Cloud](https://doi.org/10.1371/journal.pone.0140829)
-    by [Enis Afgan](/src/people/enis-afgan/index.md), Clare Sloggett, Nuwan Goonasekera *et al.*, *PloS One*, Vol. 10, No. 10. (2015)
+    by [Enis Afgan](/people/enis-afgan/), Clare Sloggett, Nuwan Goonasekera *et al.*, *PloS One*, Vol. 10, No. 10. (2015)
 
 * [Cost-Aware Cloud Provisioning](https://doi.org/10.1109/escience.2015.67)
     by Ryan Chard, Kyle Chard, Kris Bubendorfer, Lukasz Lacinski, Ravi Madduri, Ian Foster, In e-Science (e-Science), 2015 IEEE 11th International Conference on (August 2015), pp. 136-144, doi:10.1109/escience.2015.67
@@ -119,13 +119,13 @@ GCC2016 registration will open this month. The full training schedule will also 
 
 ## Upcoming Events
 
-There are [many upcoming events](/src/events/index.md) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
 <a href='http://www.bioplatforms.com/current-training-courses/'><img src="/src/images/logos/BioplatformsAustralia.png" alt="Galaxy Training from Bioplatforms Australia and Intersect" height="40" /></a>
 <a href='http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf'><img src="/src/images/logos/BioinformaticsBarcelona.jpg" alt="Galaxy Session at III Bioinformatics and Computational Biology Symposium" height="80" /></a>&nbsp;
-<a href='/src/events/asu2016/index.md'><img src="/src/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" height="60" /></a>&nbsp;
-<a href='/src/events/pag2016/index.md'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="90" /></a>
+<a href='/events/asu2016/'><img src="/src/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" height="60" /></a>&nbsp;
+<a href='/events/pag2016/'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="90" /></a>
 </div>
 
 <table>
@@ -139,7 +139,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> November 30 - December 1 </th>
     <td> <a href='https://github.com/galaxyproject/tools-iuc/issues/299'>IUC Contribution Fest - Metagenomics Tools and Workflows</a> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='IUC'>/src/iuc/index.md</a>, <a href='/src/people/john-chilton/index.md'>John Chilton</a> </td>
+    <td> <a href='IUC'>/iuc/</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -167,15 +167,15 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> January 8 </th>
-    <td> <em><a href='/src/events/asu2016/index.md'>Introduction to Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/asu2016/'>Introduction to Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://asu.edu/'>Arizona State University</a>, Tempe, Arizona, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/src/people/anton/index.md'>Anton Nekrutenko</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://sols.asu.edu/people/nico-franz'>Nico Franz</a>, <a href='https://sols.asu.edu/people/melissa-wilson-sayres'>Melissa A. Wilson Sayres</a>, <a href='/people/anton/'>Anton Nekrutenko</a> </td>
   </tr>
   <tr>
     <th> January 9-13 </th>
-    <td> <strong><a href='/src/events/pag2016/index.md'>Plant and Animal Genome (PAG XXIV)</a></strong> </td>
+    <td> <strong><a href='/events/pag2016/'>Plant and Animal Genome (PAG XXIV)</a></strong> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> San Diego, California, United States </td>
-    <td> See <a href='/src/events/pag2016/index.md'>presenters</a> </td>
+    <td> See <a href='/events/pag2016/'>presenters</a> </td>
   </tr>
   <tr>
     <th> January 19 </th>
@@ -203,7 +203,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> February 20-23 </th>
     <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' />  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -211,7 +211,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> June 25-29 </th>
-    <td> <strong><em><a href='/src/events/gcc2016/index.md'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
+    <td> <strong><em><a href='/events/gcc2016/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://web.archive.org/web/http://gcc2016.iu.edu/organizers/'>Organizers</a> </td>
   </tr>
@@ -230,18 +230,18 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [intégration d'outils phylogénétiques dans Galaxy](http://bit.ly/1NYrSdI), [ANSES Ploufragan](https://www.anses.fr/en/node/50284), Unité de Génétique Virale et Biosécurité, France
 * [Computational Biologist / Bioinformatician](http://www.jobs.ac.uk/job/AMJ391/computational-biologist-bioinformatician/), [The Sainsbury Laboratory](http://www.tsl.ac.uk/), Norwich, UK.
-* [Software Engineer](/src/news/software-engineer-ohsu/index.md), Oregon Health Sciences University, Portland, Oregon, United States
+* [Software Engineer](/news/software-engineer-ohsu/), Oregon Health Sciences University, Portland, Oregon, United States
 * [Software Developer / Bioinformatician](https://ig14.i-grasp.com/fe/tpl_embl01.asp?s=4A515F4E5A565B1A&jobid=54309,8734341283&key=64564906&c=342372129814&pagestamp=seqbdpnrnmbvdpxtgb), European Molecular Biology Laboratory (EMBL), Heidelberg, Germany
     Closes 13 December 2015.
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -249,7 +249,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Two new publicly accessible Galaxy servers](/src/use/index.md) were added in November, bringing the total precipitously close to 80.
+[Two new publicly accessible Galaxy servers](/use/) were added in November, bringing the total precipitously close to 80.
 
 ## Galaxy Integrated Omics (GIO)
 
@@ -318,15 +318,15 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
  **BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
  **Mid 2015 Galaxy CloudMan Release**
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
 <div class='indent'>
-   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/src/cloudman/getting-started/index.md) documentation. 
+   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/cloudman/getting-started/) documentation. 
 </div>
 
  **Security Advisories**
@@ -357,12 +357,12 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -374,7 +374,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 # ToolShed Contributions
 
-See [list of tools contributed in October and November](/src/toolshed/contributions/2015-11/index.md).
+See [list of tools contributed in October and November](/toolshed/contributions/2015-11/).
 
 
 ----
@@ -392,6 +392,6 @@ See [list of tools contributed in October and November](/src/toolshed/contributi
 * From [Björn Grüning](https://twitter.com/bjoerngruening):
     The [Galaxy Docker Image](https://github.com/bgruening/docker-galaxy-stable/tree/dev) has gained TravisCI testing. BioBlend will test all functionality and tool installation. 
 * Updated documentation:
-  * [The source code of Galaxy](/src/develop/source-code/index.md)
-  * [Galaxy Job Configuration](/src/admin/config/jobs/index.md)
-  * [Datatypes](/src/learn/datatypes/index.md)
+  * [The source code of Galaxy](/develop/source-code/)
+  * [Galaxy Job Configuration](/admin/config/jobs/)
+  * [Datatypes](/learn/datatypes/)

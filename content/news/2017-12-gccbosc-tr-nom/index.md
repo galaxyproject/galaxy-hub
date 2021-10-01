@@ -20,11 +20,11 @@ Nominated topics can cover a wide range. For example:
 - Software installation and configuration (Tool Wrapping for Galaxy, or Using CloudLaunch)
 - Open source community (Building a Curation Community using Apollo, or Training using the Galaxy Training Network)
 
-These are only examples!  If you are looking for ideas, see topics nominated for [GCC2017](https://docs.google.com/document/d/1jyCndVqfXx-HsyFJ4hjaK075vDbPM1kE58qO2lJTOG8/edit?usp=sharing), [GCC2016](http://bit.ly/gcc2016noms), [GCC2015](http://bit.ly/gcc2015vote), and the [Galaxy Events page](/src/events/index.md), which lists what training the community is offering outside of GCCs.  *Training is not limited to Galaxy-related topics.  Don't be afraid to think inside the BOSC!*
+These are only examples!  If you are looking for ideas, see topics nominated for [GCC2017](https://docs.google.com/document/d/1jyCndVqfXx-HsyFJ4hjaK075vDbPM1kE58qO2lJTOG8/edit?usp=sharing), [GCC2016](http://bit.ly/gcc2016noms), [GCC2015](http://bit.ly/gcc2015vote), and the [Galaxy Events page](/events/), which lists what training the community is offering outside of GCCs.  *Training is not limited to Galaxy-related topics.  Don't be afraid to think inside the BOSC!*
 
 Basically, if you think the communities would be interested in a topic, then please [nominate it](http://bit.ly/gccbosc2018-tr-nom)!
 
-Nominated topics will be [published](/src/events/gccbosc2018/training/index.md) as they come in.
+Nominated topics will be [published](/events/gccbosc2018/training/) as they come in.
 
 **Topic Nominations close January 7**. Topics will be compiled into a uniform list by the GCCBOSC2018 organizers, and then voted on by the community starting one week later.
 

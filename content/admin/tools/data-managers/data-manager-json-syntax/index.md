@@ -10,7 +10,7 @@ A Data Manager Tool must provide the new values for the Tool Data Table Entries 
 1. A single dictionary, with the key *data_tables* is required to be present within the root JSON dictionary. 
 1. The *data_tables* dictionary is keyed by the **name** of the Tool Data Table receiving new entries. Any number of named tables can be specified.
 1. The value for the named Tool Data Table is a list of dictionaries.
-1. Each of these dictionaries contains the values that will be provided to the Data Manager and modified as per the configuration defined within the [Data Manager XML Syntax](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md)
+1. Each of these dictionaries contains the values that will be provided to the Data Manager and modified as per the configuration defined within the [Data Manager XML Syntax](/admin/tools/data-managers/data-manager-xml-syntax/)
 
 ## Example JSON Output from Data Manager Tool to Galaxy
 

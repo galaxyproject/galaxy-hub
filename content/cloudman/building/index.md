@@ -4,7 +4,7 @@ title: Building Galaxy CloudMan components
 
 <slot name="/cloudman/linkbox-horizontal" />
 
-Launching a default version of [CloudMan](http://usecloudman.org/) and [Galaxy on the Cloud](/src/cloudman/index.md) is a pretty straightforward process. [The underlying system](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/full), however, is more complex and consists of a number of components. This page describes the steps required to build your own version of the components and deploy the system. You may want to do this if you are deploying the system on your own Cloud. If you would just like to have a custom version of the existing system on AWS, perhaps [cluster sharing & cloning](/src/cloudman/sharing/index.md) can help?
+Launching a default version of [CloudMan](http://usecloudman.org/) and [Galaxy on the Cloud](/cloudman/) is a pretty straightforward process. [The underlying system](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/full), however, is more complex and consists of a number of components. This page describes the steps required to build your own version of the components and deploy the system. You may want to do this if you are deploying the system on your own Cloud. If you would just like to have a custom version of the existing system on AWS, perhaps [cluster sharing & cloning](/cloudman/sharing/) can help?
 
 ## Overview
 
@@ -50,7 +50,7 @@ When building the *galaxyFS*, there are a few things to keep in mind. The techni
 
 ## Build the galaxyIndicesFS
 
-The *galaxyIndicesFS* contains reference data used by various tools. This step of the build process has not been automated and it needs to be done by hand. Take a look at the [Galaxy Data Managers](/src/admin/tools/data-managers/index.md) and the [Data Integration](/src/admin/data-integration/index.md) instructions on how to proceed with this step.
+The *galaxyIndicesFS* contains reference data used by various tools. This step of the build process has not been automated and it needs to be done by hand. Take a look at the [Galaxy Data Managers](/admin/tools/data-managers/) and the [Data Integration](/admin/data-integration/) instructions on how to proceed with this step.
 
 After the desired data has been loaded on the *galaxyIndicesFS*, it is likely that changes were made to the *galaxyFS* as well (e.g., Galaxy's **.loc* files, files edited by the Data Managers, etc.). If that's the case, it is necessary to update the galaxyFS archive. To do this, stop all services on the cluster (i.e., Galaxy, NodeJS, ProFTPd, Postgres) and run the *galaxyFS* build playbook as above with only the *cm.filesystem* role enabled. This will create a new archive of the galaxyFS and upload it to the object store with the up-to-date settings.
 

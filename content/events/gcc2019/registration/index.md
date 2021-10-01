@@ -45,7 +45,7 @@ Freiburg has many options for lodging, from four-star hotels to hostels. Freibur
 
 # Got kids?
 
-GCC2019 enthusiastically welcomes your kids **and will offer subsidized [childcare](/src/events/gcc2019/childcare/index.md) to meeting participant families.**  Registration for childcare will be separate from registration for events.  See the [childcare](/src/events/gcc2019/childcare/index.md) page for more.
+GCC2019 enthusiastically welcomes your kids **and will offer subsidized [childcare](/events/gcc2019/childcare/) to meeting participant families.**  Registration for childcare will be separate from registration for events.  See the [childcare](/events/gcc2019/childcare/) page for more.
 
 # GCC2019 Fellowships
 

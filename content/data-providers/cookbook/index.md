@@ -3,7 +3,7 @@ title: DataProviders Cookbook
 ---
 <div class='left'></div>
 
-This is a collection of examples outlining both using and creating [DataProviders](/src/data-providers/index.md).
+This is a collection of examples outlining both using and creating [DataProviders](/data-providers/).
 
 ## Using existing providers
 
@@ -174,7 +174,7 @@ Many of the default behaviors of (text-based) DataProviders are configurable:
 ----
 #### I want to use some data in a visualization template using python
 
-Most of the examples that use python both here and in [DataProviders](/src/data-providers/index.md) should be good starting points for
+Most of the examples that use python both here and in [DataProviders](/data-providers/) should be good starting points for
 visualizations in python.
 
 
@@ -228,7 +228,7 @@ jQuery's ajax framework - you can use whatever your comfortable with):
 ## Defining new providers
 
 If you have a new datatype to add to Galaxy or you need functionality that none of the existing providers can give,
-you may want to define a new [DataProvider](/src/data-providers/index.md).
+you may want to define a new [DataProvider](/data-providers/).
 
 There are several ways to define new providers:
 * Create a method that uses existing provider classes, modifying their options or output in the method.
@@ -327,7 +327,7 @@ for datum in dataset.datatype.dataprovider( dataset, 'my-provider' ):
 ```
 
 
-The `data_source` for data providers can be any python iterator, including any other [DataProvider](/src/data-providers/index.md):
+The `data_source` for data providers can be any python iterator, including any other [DataProvider](/data-providers/):
 ```python
 dataprovider1 = MyFirstDataProvider( dataset, setting1=... )
 dataprovider2 = MySecondDataProvider( dataprovider1, setting2=... )
@@ -344,7 +344,7 @@ When a fully formatted, filtered, and parsed datum is yielded from `dataprovider
 
 This is the most powerful but complex ways to create a new data provider.
 
-All [DataProvider](/src/data-providers/index.md) classes should inherit at least from `datatypes.dataproviders.base.DataProvider`. If
+All [DataProvider](/data-providers/) classes should inherit at least from `datatypes.dataproviders.base.DataProvider`. If
 you'll be working with a data format where each datum is contained on a line, you may want to start with either the
 FilteredLineDataProvider or the RegexLineDataProvider. If it takes more than one line to create a single datum (e.g.
 MAF format), you may want to start with the BlockDataProvider.

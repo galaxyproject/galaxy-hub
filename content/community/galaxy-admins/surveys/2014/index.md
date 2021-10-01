@@ -1,6 +1,6 @@
 ---
 ---
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
+<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
 <slot name="/community/galaxy-admins/linkbox" />
 
@@ -112,7 +112,7 @@ Two community-wide questionnaires were run in the fall of 2014.  One asked *Gala
 * 80 cpu cores (can't recall the speed, I remember 2.4 GHz).<br />
     1 TB of RAM.<br />
     Runs Ubuntu 12.04
-* see: https://wiki.galaxyproject.org/Community/Deployment[/GalaxyAt](/src/community/galaxy-admins/surveys/2014/GalaxyAt/index.md)FMI
+* see: https://wiki.galaxyproject.org/Community/Deployment[/GalaxyAt](/community/galaxy-admins/surveys/2014/GalaxyAt/)FMI
 * Three year old server with 16 cores and 64GB memory.
 * 24 cores
 

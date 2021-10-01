@@ -5,20 +5,20 @@ Researchers' compute requirements vary widely over time and formerly required ei
 
 The *cloud* provides another option for this situation that can be cost-effective and efficient.  Cloud infrastructures are elastic and dynamic.  You only allocate resource when you need them, and you are able to dynamically scale up and down your allocated resources as your needs change over time.  Furthermore, compute clouds are maintained by outside providers - you don't need to install your own hardware, or need to have access to a research compute cluster at your institution.
 
-Cloud infrastructures are just [one of the many ways that Galaxy is available](/src/use/index.md).
+Cloud infrastructures are just [one of the many ways that Galaxy is available](/use/).
 
 # CloudMan
 
-<div class='left'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="250" /></a></div>
+<div class='left'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="250" /></a></div>
 
-[CloudMan](/src/cloudman/index.md) is a software package that abstracts the interface to cloud infrastructure, allowing users to take advantage of the power of cloud infrastructure without having to learn much of the underlying details of any particular infrastructure.  CloudMan supports elastic, dynamic resource scaling and works with Galaxy out of the box. Cloudman can launch a customized Galaxy instance using the simple [launch page](https://launch.usegalaxy.org/launch). It is also integrated with [CloudBioLinux](http://cloudbiolinux.org/).  CloudMan works with multiple cloud infrastructures including [Amazon Web Services](http://aws.amazon.com), [OpenStack](http://www.openstack.org/), and [OpenNebula](http://opennebula.org).
+[CloudMan](/cloudman/) is a software package that abstracts the interface to cloud infrastructure, allowing users to take advantage of the power of cloud infrastructure without having to learn much of the underlying details of any particular infrastructure.  CloudMan supports elastic, dynamic resource scaling and works with Galaxy out of the box. Cloudman can launch a customized Galaxy instance using the simple [launch page](https://launch.usegalaxy.org/launch). It is also integrated with [CloudBioLinux](http://cloudbiolinux.org/).  CloudMan works with multiple cloud infrastructures including [Amazon Web Services](http://aws.amazon.com), [OpenStack](http://www.openstack.org/), and [OpenNebula](http://opennebula.org).
 
 See the CloudMan page for more.
 
 
 # Cloud Storage
 
-Galaxy can store user data on a cloud-based storage, and can also download data from a cloud-based storage to a user history; providing users with _theoretically_ unlimited storage and facilitate joint data analysis. For details see [the documentaiton page](/src/cloud/storage/index.md).
+Galaxy can store user data on a cloud-based storage, and can also download data from a cloud-based storage to a user history; providing users with _theoretically_ unlimited storage and facilitate joint data analysis. For details see [the documentaiton page](/cloud/storage/).
 
 
 # Globus Genomics
@@ -33,7 +33,7 @@ Galaxy can store user data on a cloud-based storage, and can also download data 
 
 [<img class="float-left" src="/src/images/logos/OpenStackLogo.png" alt="OpenStack" width="130" />](http://openstack.org)
 
-Both CloudMan and [Globus Genomics](/src/cloud/index.md#globus-genomics) use [Amazon Web Services](http://aws.amazon.com).  CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
+Both CloudMan and [Globus Genomics](/cloud/#globus-genomics) use [Amazon Web Services](http://aws.amazon.com).  CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
 
 You can also set up your own Galaxy server using any cloud provider, but not CloudMan.  In this situation you handle the Galaxy installation and the cloud aspects of the install.
 

@@ -16,6 +16,6 @@ We made the steps above easier to go through by implementing [Planemo](http://pl
 
 ### Follow IUC guidance
 
-The [Intergalactic Utilities Commission](/src/iuc/index.md) maintains a set of [best practices](http://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices/integration_checklist.html) regarding publishing to the Tool Shed.
+The [Intergalactic Utilities Commission](/iuc/) maintains a set of [best practices](http://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices/integration_checklist.html) regarding publishing to the Tool Shed.
 
 Last but not least we recommend having only tool per repository.

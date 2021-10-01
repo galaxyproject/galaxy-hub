@@ -10,9 +10,9 @@ title: February 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the February 2016 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. 
+Welcome to the February 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
@@ -109,7 +109,7 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
     Valentina Boeva, (23 Sep 2014)
 
 * [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract)
-    Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/src/people/marten/index.md), and Geir Kjetil Sandve, *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
+    Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/people/marten/), and Geir Kjetil Sandve, *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
 
 The new papers were tagged with:
 
@@ -176,13 +176,13 @@ The new papers were tagged with:
 
 ## Upcoming Events
 
-There are [many upcoming events](/src/events/index.md) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
 <a href='https://mod2016.com/'><img src="/src/images/logos/MontpellierOmicsDays.png" alt="Initiation à l’environnement UNIX et à la plateforme GALAXY" height="70" /></a> &nbsp;
 <a href='http://www.agbt.org/meetings/agbt-general-meeting/'><img src="/src/images/logos/AGBTLogo.jpg" alt="BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)" height="65" /></a> &nbsp;
 <a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'><img src="/src/images/logos/SupAgroMontpelierLogoGreen.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="18 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='/community/galaxy-admins/meetups/2016-02-18/'><img src="/src/images/logos/GalaxyAdmins.png" alt="18 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='https://conf.abrf.org/the-galaxy-platform'><img src="/src/images/logos/ABRFLogoSquareSmall.png" alt="(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics" height="70" /></a>
 </div>
 
@@ -213,15 +213,15 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
   </tr>
   <tr>
     <th> February 18 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
-    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>Online</a></em> </td>
-    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/src/people/nate/index.md'>Nate Coraor</a>,<a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2016-02-18/'>GalaxyAdmins Web Meetup</a></em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/community/galaxy-admins/meetups/2016-02-18/'>Online</a></em> </td>
+    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/people/nate/'>Nate Coraor</a>,<a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>
     <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' />  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -231,7 +231,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> March 7-8 </th>
     <td> <strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a></strong> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/src/iuc/index.md'>IUC</a> </td>
+    <td> <a href='/iuc/'>IUC</a> </td>
   </tr>
   <tr>
     <th> March 15 </th>
@@ -286,17 +286,17 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
 ----
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [Postdoc position on methods for transcriptome analysis of disease-specific cells](http://bit.ly/1PrQfVQ), University of Oslo
 * [Computational Biology post-doc](http://bit.ly/1J1WLla), IMI-eTRIKS consortium, CNRS-EISBM, Lyon France. Contribute "to the development of eTRIKS Galaxy tools and workflows for disease stratification and biomarker discovery from single and multiple omics datasets."
 * [Post-doc in Functional Genomics Of Obesity-Related Diseases](http://bit.ly/1QFyDHK), Inserm, Lille, France 
-* [Software Engineer](/src/news/software-engineer-ohsu/index.md), Oregon Health Sciences University, Portland, Oregon, United States
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
+* [Software Engineer](/news/software-engineer-ohsu/), Oregon Health Sciences University, Portland, Oregon, United States
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -366,7 +366,7 @@ Want to try a pre-configured Galaxy instance on your Mac OS X or Windows machine
 
 # New Public Galaxy Servers
 
-[One new publicly accessible Galaxy servers](/src/use/index.md) was added in January: LAPPS Grid, a Galaxy server for *natural language processing*.
+[One new publicly accessible Galaxy servers](/use/) was added in January: LAPPS Grid, a Galaxy server for *natural language processing*.
 
 ## LAPPS Grid
 
@@ -433,11 +433,11 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
-**[CloudMan](/src/cloudman/index.md) 15.12**
+**[CloudMan](/cloudman/) 15.12**
 
-[CloudMan](/src/cloudman/index.md) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
+[CloudMan](/cloudman/) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
 
 This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/releases) includes:
 
@@ -477,7 +477,7 @@ The 0.6.x release includes these changes:
 
 **BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 **blend4j v0.1.2**
@@ -492,12 +492,12 @@ The 0.6.x release includes these changes:
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -509,7 +509,7 @@ The 0.6.x release includes these changes:
 
 # ToolShed Contributions
 
-See [list of tools contributed in January](/src/toolshed/contributions/2016-01/index.md).
+See [list of tools contributed in January](/toolshed/contributions/2016-01/).
 
 
 ----
@@ -517,7 +517,7 @@ See [list of tools contributed in January](/src/toolshed/contributions/2016-01/i
 # Other News
 
  
-* The [Project Statistics page](/src/galaxy-project/statistics/index.md) has had its semi-annual update.
+* The [Project Statistics page](/galaxy-project/statistics/) has had its semi-annual update.
 
 ## Galaxy Goes Mobile!
 
@@ -529,7 +529,7 @@ See [list of tools contributed in January](/src/toolshed/contributions/2016-01/i
 
 The app has been in development for over a year at the University of Oslo as part of [Claus Børnich's masters thesis](https://www.duo.uio.no/handle/10852/44701) and is described in 
 
-  Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/src/people/marten/index.md), and Geir Kjetil Sandve. [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract). *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
+  Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/people/marten/), and Geir Kjetil Sandve. [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract). *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
 
 A [user manual](https://github.com/Tarostar/QMLGalaxyPortal/raw/master/GalaxyPortalUserGuide.pdf), additional information, and the full source are [available on GitHub](https://github.com/Tarostar/QMLGalaxyPortal).
 

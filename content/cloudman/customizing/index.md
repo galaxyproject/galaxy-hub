@@ -83,7 +83,7 @@ use your own set of tools, and reference genomes.
 
 Keep in mind that this page deals with the CloudMan-side of customizations and
 how to ensure those changes get persisted across cluster invocations. See
-[this page](/src/cloudman/services/index.md) and then individual
+[this page](/cloudman/services/) and then individual
 services about additional information on how to customize the applications
 themselves (you will probably want to do that before you do the actions
 described on this page).
@@ -91,7 +91,7 @@ described on this page).
 Note that the process of customizing an instance may require use of the command line tools. In order to modify your cloud deployment, follow these steps:
 
 1. **Start a CloudMan cluster instance** by following instructions on the
-[getting started](/src/cloudman/getting-started/index.md) page
+[getting started](/cloudman/getting-started/) page
 
 1. **ssh to the EC2 instance and perform desired customizations.**<br />
 From the command prompt, connect to the newly created cluster using the

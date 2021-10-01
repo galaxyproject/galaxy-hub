@@ -2,7 +2,7 @@
   <tr>
     <td style=" border: none; text-align: center; vertical-align: middle;"> <br /><a href='http://northwestern.edu/'><img src="/src/images/logos/NorthwesternULogo.jpg" alt="Northwestern University" width="230" /></a> </td>
     <td style=" border: none; width: 5%;"> </td>
-    <td style=" border: none;"> <div class='title'>Introduction to Galaxy</div><strong>February 27, 2015, 9:00-4:00</strong><br /><br />Instructors: <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, <a href='https://www.facilities.research.northwestern.edu/directory/matt-schipma'>Matt Schipma</a><br /><br /><a href='http://bit.ly/1tGFxlR'>Galter Health Sciences Library</a>, Learning Resources Center<br /><a href='http://maps.northwestern.edu/chicago'>Northwestern University Feinberg School of Medicine campus</a><br />Chicago, Illinois, United States </td>
+    <td style=" border: none;"> <div class='title'>Introduction to Galaxy</div><strong>February 27, 2015, 9:00-4:00</strong><br /><br />Instructors: <a href='/people/dave-clements/'>Dave Clements</a>, <a href='https://www.facilities.research.northwestern.edu/directory/matt-schipma'>Matt Schipma</a><br /><br /><a href='http://bit.ly/1tGFxlR'>Galter Health Sciences Library</a>, Learning Resources Center<br /><a href='http://maps.northwestern.edu/chicago'>Northwestern University Feinberg School of Medicine campus</a><br />Chicago, Illinois, United States </td>
   </tr>
 </table>
 

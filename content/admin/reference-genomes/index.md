@@ -1,3 +1,3 @@
-Describe Admin[/ReferenceGenomes](/src/admin/reference-genomes/ReferenceGenomes/index.md) here.
+Describe Admin[/ReferenceGenomes](/admin/reference-genomes/ReferenceGenomes/) here.
 
 IN PROGRESS ... Come back soon!

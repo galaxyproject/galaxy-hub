@@ -10,7 +10,7 @@ To help highlight our tutorials and the training effort of the community, a memb
 
 ## Galaxy 101
 
-This month, the [*Galaxy contributor of the Month!*](/src/blog/2018-10-cotm-yvan-le-bras/index.md), Yvan Le Bras, selects and presents a tutorial: ["Galaxy 101"](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html), from the topic ["Introduction to Galaxy Analyses"](http://galaxyproject.github.io/training-material/topics/introduction/s):
+This month, the [*Galaxy contributor of the Month!*](/blog/2018-10-cotm-yvan-le-bras/), Yvan Le Bras, selects and presents a tutorial: ["Galaxy 101"](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html), from the topic ["Introduction to Galaxy Analyses"](http://galaxyproject.github.io/training-material/topics/introduction/s):
 
 <img class="img-fluid mx-auto" src="/src/blog/2018-10-totm/galaxy101.png" alt="galaxy101 screenshot"/>
 
@@ -20,7 +20,7 @@ This month, the [*Galaxy contributor of the Month!*](/src/blog/2018-10-cotm-yvan
 
 Yvan, we are looking forward to learn more about your choice!
 
-### We learn about you and Galaxy in the [*Galaxy contributor of the Month!* post](/src/blog/2018-10-cotm-yvan-le-bras/index.md). Can you do a small recap here?
+### We learn about you and Galaxy in the [*Galaxy contributor of the Month!* post](/blog/2018-10-cotm-yvan-le-bras/). Can you do a small recap here?
 
 Since 2010, the year I discovered Galaxy, I obtained my PhD, begun to focus on Bioinformatics/Biostatistics through NGS and proteomics approaches, animated a western France Galaxy group of users, given dozens of hours of Galaxy training, created the French CeSGO e-Science Center, co-founded the Enancio start-up and finally returned to my first love, Ecology and biodiversity conservation through the birth of Galaxy-E initiative thanks to the national "65 Millions d'observateurs" project dedicated to facilitate and extend participation into citizen science projects and now coordinating the national "Pôle national de données de biodiversité" French Research Infrastructure. A big sentence isn't it ;) And... this is the view from my office:
 

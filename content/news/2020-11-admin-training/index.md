@@ -4,10 +4,10 @@ tease: "Online, global and free. Apply by December 18."
 date: '2020-11-18'
 ---
 
-<a href="/src/events/2021-01-admin-training/index.md">
+<a href="/events/2021-01-admin-training/">
 <img class="img-fluid float-right" style="max-width: 20rem;" src="/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training" /></a>
 
-**The [next Galaxy Admin Training will be offered online and asynchronously January 25-29](/src/events/2021-01-admin-training/index.md).**
+**The [next Galaxy Admin Training will be offered online and asynchronously January 25-29](/events/2021-01-admin-training/).**
 
 This workshop will cover introductory and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance. Sessions will be intensive and hands-on, and taught by experienced instructors from the Galaxy Community. Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
 

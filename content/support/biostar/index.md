@@ -14,7 +14,7 @@ Galaxy Biostars has been retired and is available as an archived resource at the
 
 
 
-As a result of joint efforts of the [Galaxy Team](/src/galaxy-team/index.md) and the [Biostars Team](https://github.com/ialbert/biostar-central/graphs/contributors) a new support platform emerged for the Galaxy community to use: 
+As a result of joint efforts of the [Galaxy Team](/galaxy-team/) and the [Biostars Team](https://github.com/ialbert/biostar-central/graphs/contributors) a new support platform emerged for the Galaxy community to use: 
 
 Galaxy Biostars is at **[https://biostar.usegalaxy.org/](https://biostar.usegalaxy.org/)**
 
@@ -34,7 +34,7 @@ Galaxy Biostars is directly integrated into the [Galaxy](http://usegalaxy.org) u
 
 <div class='left'><img src="/src/images/screenshots/BiostarUserMenu.png" alt="Go to Galaxy Biostars" width="110" /></div>
 
-Every user on the public [Main Galaxy](/src/main/index.md) server can access Galaxy Biostar directly through the menu **Help &rarr; Galaxy Biostar**. 
+Every user on the public [Main Galaxy](/main/) server can access Galaxy Biostar directly through the menu **Help &rarr; Galaxy Biostar**. 
 <br />
 
 A Galaxy Biostars account will be created automatically on the first access and the user will be automatically logged in to it transparently while accessing it through [http://usegalaxy.org](http://usegalaxy.org) when also logged in.
@@ -58,4 +58,4 @@ Every tool page has two options to reach Galaxy Biostars in the top right corner
 
 <br /><br /><br />
 
-The [Galaxy Biostars](https://biostar.usegalaxy.org/) forum's focus is to *help people use Galaxy.* It is one of many options available for [Galaxy Support](/src/support/index.md).
+The [Galaxy Biostars](https://biostar.usegalaxy.org/) forum's focus is to *help people use Galaxy.* It is one of many options available for [Galaxy Support](/support/).

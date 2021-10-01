@@ -23,7 +23,11 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 <br />
 
-[<img class="float-right" src="james.jpg" alt="James Taylor" style="max-width: 15rem" />](/src/jxtx/james.jpg)
+<div class="float-right" style="max-width: 15rem;">
+
+![James Taylor](./james.jpg)
+
+</div> 
 
 *A note to James, a year after his passing.*
 
@@ -37,7 +41,7 @@ Then, there is of course Galaxy. Despite all the pandemic ‘fun’, the GCC had
 
 There is also [AnVIL](https://anvilproject.org/). Shaped by your vision from the start, it continued along the right trajectory thanks to [Mike](https://schatz-lab.org/)'s energy and technical excellence of your good old crew. It will work as you intended.
 
-[We used your sudden absence as an excuse to raise money](/src/jxtx/foundation/index.md). Our goal was to fund a program that would make it possible for graduate students to attend key genomics meetings. The response was amazing! We tested this approach at CSHL Biological Data Science past year and funded [10 graduate students](https://galaxyproject.org/news/2020-10-jxtx-awardees/). We will be doing this regularly once life returns to post-COVID normal and meetings are again of the "in-person" kind.
+[We used your sudden absence as an excuse to raise money](/jxtx/foundation/). Our goal was to fund a program that would make it possible for graduate students to attend key genomics meetings. The response was amazing! We tested this approach at CSHL Biological Data Science past year and funded [10 graduate students](https://galaxyproject.org/news/2020-10-jxtx-awardees/). We will be doing this regularly once life returns to post-COVID normal and meetings are again of the "in-person" kind.
 
 One last thing. Some of us know your birthday date despite your best effort to hide it. So from now on, we will be celebrating each May 18 as the JXTX/Galaxy day. This year the Galaxy community members will come together to produce short videos in which they describe their interactions with you or the impact you’ve had on them - we’ll then assemble the videos into a modern poster. I just wanted to warn you ahead of time as you may find videos about yourself a bit weird. 
 
@@ -68,16 +72,16 @@ Thank you all in advance and please feel free to send this email to other friend
 
 **James Taylor, a leader of the Galaxy Project, and one of its original members, passed away on April 2, 2020.**  The community response has been tremendous, reflecting the breadth and depth of his impact.  Learn more about James and his impact:
 
-* [Biography](/src/jxtx/bio/index.md)
+* [Biography](/jxtx/bio/)
 * [In memory of James Taylor: the birth of Galaxy](https://doi.org/10.1186/s13059-020-02016-0). Anton Nekrutenko & Michael C. Schatz. *Genome Biology* 21, 105 (2020)
-* [Stories](/src/jxtx/stories/index.md)
-* [Memorials](/src/jxtx/memorials/index.md)
-* [Community response](/src/jxtx/we-miss-you/index.md)
+* [Stories](/jxtx/stories/)
+* [Memorials](/jxtx/memorials/)
+* [Community response](/jxtx/we-miss-you/)
 
 
 ## JXTX: The James P. Taylor Foundation for Open Science
 
-**You can help continue James's legacy of open and reproducible science by contributing to [JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md).**
+**You can help continue James's legacy of open and reproducible science by contributing to [JXTX: The James P. Taylor Foundation for Open Science](/jxtx/foundation/).**
 
 
 <br />
@@ -86,7 +90,7 @@ Thank you all in advance and please feel free to send this email to other friend
 <button type="button" class="btn btn-secondary trim-p" style="font-size: x-large; font-weight: 600;">
 
 [Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Learn more](/src/jxtx/foundation/index.md)</button>
+[Learn more](/jxtx/foundation/)</button>
 
 </div>
 

@@ -17,10 +17,10 @@ There are several options for presentations at GCC2019:
   * Reviewed on a rolling basis.  Authors notified within 2 weeks of submission.
 * <del>Oral presentations</del>
   * 15 to 20 minutes long.
-  * Deadline [extended to 26 April](/src/news/2019-04-gcc-extension/index.md). Authors notified by 9 May
+  * Deadline [extended to 26 April](/news/2019-04-gcc-extension/). Authors notified by 9 May
 * <del>Lightning talks</del>
   * 5 to 7 minutes long 
-  * Deadline [extended to 26 April](/src/news/2019-04-gcc-extension/index.md). Authors notified by 9 May
+  * Deadline [extended to 26 April](/news/2019-04-gcc-extension/). Authors notified by 9 May
 
 You can submit the same abstract as a long talk, a lightning talk, a poster and a demo.  (You can also submit separate abstracts if you want the wording to be different.) If you check both "Oral Presentation" and "Lightning Talk" then your abstract will first be considered for a long talk, and then for a lightning talk only if it is not selected as a long talk. If you submit both "Poster Presentation" and "Software Demo" and both are accepted, then your poster and demo will be presented concurrently and adjacent to each other.
 

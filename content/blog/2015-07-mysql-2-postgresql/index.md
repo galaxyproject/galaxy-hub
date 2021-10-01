@@ -203,4 +203,4 @@ I first tested the transition process with our development server. Although, we 
 
 As the final step, I had to change the database setting in the "galaxy.ini" (well, "universe_wsgi.ini" for our old instance) and "reports_wsgi.ini" files, and restart the server.
 
-I am sure there are better and easier ways to do this, but the process worked for me. Feel free to contact [me](/src/people/hansrudolf-hotz/index.md), if you have any questions or want to do such a migration for your Galaxy server as well.
+I am sure there are better and easier ways to do this, but the process worked for me. Feel free to contact [me](/people/hansrudolf-hotz/), if you have any questions or want to do such a migration for your Galaxy server as well.

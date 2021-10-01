@@ -49,4 +49,4 @@ This workshop is generously supported by the [College of Science & Mathematics (
 
 ## Questions
 
-Contact [Arun Sethuraman](http://www.csusm.edu/biology/directory.html#asethuraman) or [Dave Clements](/src/people/dave-clements/index.md).
+Contact [Arun Sethuraman](http://www.csusm.edu/biology/directory.html#asethuraman) or [Dave Clements](/people/dave-clements/).

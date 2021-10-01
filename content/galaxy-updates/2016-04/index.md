@@ -10,9 +10,9 @@ title: April 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the April 2016 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. 
+Welcome to the April 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
@@ -77,7 +77,7 @@ We are pleased to offer [scholarships](https://docs.google.com/forms/d/1IbMoNcA6
 
 Scholarships cover [registration](http://gcc2016.iu.edu/registration) and [lodging](http://gcc2016.iu.edu/location) during the GCC Meeting, and for any Training or Hackathon events the applicant chooses to attend.  Scholarships do not cover travel or other expenses. **The application deadline is May 1 for members of historically underrepresented groups.**
 
-See the [full announcement](/src/news/gcc2016-scholarships/index.md) for details.
+See the [full announcement](/news/gcc2016-scholarships/) for details.
 
 
 ## Sponsors
@@ -114,7 +114,7 @@ The workshop is intended for Bioinformaticians who want to
 
 The workshop will be held at [Heidelberg Center for Human Bioinformatics (HD-HuB)](https://www.denbi.de/index.php/hd-hub-services/15-hd-hub). Location and Accommodation options can be found [here](https://drive.google.com/file/d/0B2xSE9muunQPQ1E1Q3UwMVBTR1k/edit).
 
-Registration is open and their is still space - just send [Björn Grüning](/src/people/bjoern-gruening/index.md) an email. For more information please see the [workshop page](https://goo.gl/8dNSdy).
+Registration is open and their is still space - just send [Björn Grüning](/people/bjoern-gruening/) an email. For more information please see the [workshop page](https://goo.gl/8dNSdy).
 
 <div class='left'><br />
 <a href='http://www.france-bioinformatique.fr/'><img src="/src/images/logos/IFBSmallTransLogo.png" alt="IFB" height="60" /></a> <br />
@@ -142,11 +142,11 @@ A [hackathon report page is available](https://cesgo.genouest.org/groups/guggo/w
 
 ## Upcoming Events
 
-There are [many upcoming events](/src/events/index.md) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
 <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/src/images/logos/deNBILogo.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="50" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="21 April GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='/community/galaxy-admins/meetups/2016-04-21/'><img src="/src/images/logos/GalaxyAdmins.png" alt="21 April GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='http://icmexico2016.soibio.org/product/icwmexico2016-galaxy-workshop/'><img src="/src/images/logos/SolBio2016.png" alt="Workshop on Galaxy: Practical Course" height="60" /></a> &nbsp;
 <a href='https://biotexcel.com/event/ngs-2016-glasgow/#tab3'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="NGS Bioinformatics Data Analysis Workshop" height="90" /></a>
 <a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016'><img src="/src/images/logos/GalaxyWorkshopTokyo2016.png" alt="Galaxy Workshop Tokyo 2016" height="80" /></a>
@@ -169,13 +169,13 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> April 6-7 </th>
     <td> <strong><em><a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies</a></strong></em> </td>
     <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'>Galaxy DevOps Workshop 2016</a>, <a href='https://drive.google.com/file/d/0B2xSE9muunQPQ1E1Q3UwMVBTR1k'>Heidelberg</a>, Germany </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/bjoern-gruening/index.md'>Björn Grüning</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/bjoern-gruening/'>Björn Grüning</a> </td>
   </tr>
   <tr>
     <th> April 21 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
-    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-04-21/index.md'>Online</a></em> </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2016-04-21/'>GalaxyAdmins Web Meetup</a></em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/community/galaxy-admins/meetups/2016-04-21/'>Online</a></em> </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> April 22-26 </th>
@@ -193,7 +193,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> April 28 </th>
     <td> <em><a href='http://wiki.pitagora-galaxy.org/wiki/index.php/Galaxy_Workshop_Tokyo_2016'>Galaxy Workshop Tokyo 2016</a></em> </td>
     <td> <img src='/src/images/icons/AS.png' alt='Asia' align='right' /> <a href='http://www.rcast.u-tokyo.ac.jp/index_ja.html'>RCAST, The University of Tokyo</a>, Japan </td>
-    <td> <a href="mailto:t DOT ohta AT dbcls.rois.ac.jp">Tazro Ohta</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href="mailto:t DOT ohta AT dbcls.rois.ac.jp">Tazro Ohta</a>, <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -369,10 +369,10 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformatics Web Application Developer-Biology](https://jobs.wustl.edu/) (Job ID 32899), Washington University in St. Louis, Missouri, United States
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 * [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
-* [Bioinformaticist](/src/news/jhu-apl-bioinformaticist/index.md), Johns Hopkins University Applied Physics Laboratory (APL)
-* [Software Engineer](/src/news/software-engineer-ohsu/index.md), Oregon Health Sciences University, Portland, Oregon, United States
+* [Bioinformaticist](/news/jhu-apl-bioinformaticist/), Johns Hopkins University Applied Physics Laboratory (APL)
+* [Software Engineer](/news/software-engineer-ohsu/), Oregon Health Sciences University, Portland, Oregon, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -382,7 +382,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[1 new publicly accessible Galaxy server](/src/use/index.md) was listed in March:
+[1 new publicly accessible Galaxy server](/use/) was listed in March:
 
 ## Halogen Bonding
 
@@ -415,19 +415,19 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
 
 <br />
 
-Two new [Community Log entries](/src/blog/index.md) were added in March
+Two new [Community Log entries](/blog/) were added in March
 * **[Testing connexion between Galaxy and iRODS](https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf)** by Mikael Loaec and Olivier Inizan
 * **[Setting up Galaxy with TORQUE on AWS](https://gist.github.com/kantale/b7fecd62da22a1523aa2)** by [Alex Kanterakis](https://gist.github.com/kantale)
 
@@ -456,7 +456,7 @@ See the [release history](http://planemo.readthedocs.org/en/latest/history.html#
 
 ## CloudMan 16.03
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="180" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="180" /></a></div>
 
 **We just released an update to Galaxy CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
@@ -482,7 +482,7 @@ The [January 2016 (v16.01) release of Galaxy](https://docs.galaxyproject.org/en/
 See the [announcement](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html) for full details.
 
 <div class='red'>
-Galaxy administrators should also be aware of [these security announcements](/src/galaxy-updates/2016-04/index.md#security-announcements) below.
+Galaxy administrators should also be aware of [these security announcements](/galaxy-updates/2016-04/#security-announcements) below.
 * [Read/write arbitrary filesystem paths, arbitrary code execution](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/message/TXP6BGNZG5Y75ASM5HPQALI2UOPKXXTH/)
 * [Tool Shed Security Vulnerability - Read/write arbitrary filesystem paths](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/message/TQG5K6DHSJX6HDFMV6MJ43SRNEO3X3JZ/)
 
@@ -546,7 +546,7 @@ The 0.6.x release includes these changes:
 
 **BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 **blend4j v0.1.2**
@@ -559,7 +559,7 @@ The 0.6.x release includes these changes:
 
 # ToolShed Contributions
 
-See [list of tools contributed in March](/src/toolshed/contributions/2016-03/index.md).
+See [list of tools contributed in March](/toolshed/contributions/2016-03/).
 
 ## Automatic Testing of IUC Tools with Conda
 
@@ -567,7 +567,7 @@ See [list of tools contributed in March](/src/toolshed/contributions/2016-03/ind
 
 An [effort is underway](https://github.com/galaxyproject/tools-iuc/pull/574) to test more and more IUC tools automatically using [Conda](http://conda.pydata.org/docs/) dependencies.  The final aim of getting all tools under test by simply installing the dependencies via conda before running `planemo test`.  Getting packages in Conda also means we can automatically build Docker containers and offer Docker and Conda dependency resolutions for everyone **today** and for testing.
 
-The [IUC](/src/iuc/index.md) is [seeking comments and contributions to this effort](https://github.com/galaxyproject/tools-iuc/pull/574).
+The [IUC](/iuc/) is [seeking comments and contributions to this effort](https://github.com/galaxyproject/tools-iuc/pull/574).
 
 ----
 
@@ -577,9 +577,9 @@ The [IUC](/src/iuc/index.md) is [seeking comments and contributions to this effo
 
 * New and recently updated tools are now highlighted on usegalaxy.org.
 
-* From [Bjöern Grüening](/src/people/bjoern-gruening/index.md): 
+* From [Bjöern Grüening](/people/bjoern-gruening/): 
   * Cheminformatics datatypes were added to Galaxy with [this pull request](https://github.com/galaxyproject/galaxy/pull/1941). Expect new ChemicalToolBox development soon!
   * [deepTools](https://deeptools.github.io/) visualization, QC, and data normalization tools are now available on [usegalaxy.org](https://usegalaxy.org). Thanks to [Devon Ryan](https://twitter.com/dpryan79) and https://twitter.com/fidel_ramirez|Fidel Ramirez]]
-  * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/src/galaxy-updates/2016-02/index.md#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).
+  * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/galaxy-updates/2016-02/#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).
 * From Yvan Le Bras:
   * My [first Galaxy Interactive Tour attempt](https://www.youtube.com/watch?v=msm-EDZcB5A&feature=youtu.be) for RADseq data analysis based on a RNAseq, using Björn Grüning's template.

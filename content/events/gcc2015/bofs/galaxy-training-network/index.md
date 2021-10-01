@@ -3,7 +3,7 @@ title: Galaxy Training Network Meetup
 ---
 <slot name="/events/gcc2015/header" />
 
-<div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a><br /><br />
+<div class='left'><a href='/events/gcc2015/bofs/'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a><br /><br />
 <a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="160" /></a>
 </div>
 
@@ -11,12 +11,12 @@ When:: Monday, 6 July, 18:50
 
 Where:: Franklin Room, JICCC
 
-Contact:: [Dave Clements](/src/people/dave-clements/index.md), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
+Contact:: [Dave Clements](/people/dave-clements/), [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie)
 
 
-The **[Galaxy Training Network (GTN)](https://training.galaxyproject.org/)** will have an in-person [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.
+The **[Galaxy Training Network (GTN)](https://training.galaxyproject.org/)** will have an in-person [Birds of a Feather](/events/gcc2015/bofs/) meetup at the [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), held in Norwich, UK, 4-8 July, 2015.
 
-GTN was unofficially launched at a [GCC2014 BoF meetup](/src/events/gcc2014/bofs/galaxy-training-network/index.md) (and [officially launched in October](/src/news/galaxy-training-network/index.md)).  GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  GTN makes it easy to find Galaxy trainers, and to share and discover the wealth of training resources available for Galaxy.  This includes training materials, a trainer directory, best practices, and guidance on computing platforms for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
+GTN was unofficially launched at a [GCC2014 BoF meetup](/events/gcc2014/bofs/galaxy-training-network/) (and [officially launched in October](/news/galaxy-training-network/)).  GTN is a network of trainers who teach bioinformatics using Galaxy, or teach about Galaxy itself.  GTN makes it easy to find Galaxy trainers, and to share and discover the wealth of training resources available for Galaxy.  This includes training materials, a trainer directory, best practices, and guidance on computing platforms for teaching with Galaxy.  The Galaxy Training Network is accessible to the entire community.  
 
 If you teach with Galaxy, then please consider joining us at this BoF.
 
@@ -24,7 +24,7 @@ If you teach with Galaxy, then please consider joining us at this BoF.
 
 We'll talk about 
 
-* Progress since [GCC2014](/src/events/gcc2014/bofs/galaxy-training-network/index.md)
+* Progress since [GCC2014](/events/gcc2014/bofs/galaxy-training-network/)
 * What should GTN emphasise moving forward?
 * What ever issues participants want to cover.
 
@@ -40,10 +40,10 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 
 ## Participants
 
-* [Dave Clements](/src/people/dave-clements/index.md), organiser
+* [Dave Clements](/people/dave-clements/), organiser
 * [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie), organiser
-* [Helena Rasche](/src/people/helena-rasche/index.md)
-* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
+* [Helena Rasche](/people/helena-rasche/)
+* [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
 * Mark Fernandes
 * Catriona McInerney
 * Annette McGrath
@@ -56,7 +56,7 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 * Agata Smialowska
 * Jochen Bick
 * Brad Langhorst
-* [Björn Grüning](/src/people/bjoern-gruening/index.md)
+* [Björn Grüning](/people/bjoern-gruening/)
 * Daniel Sobral
 * Simon Gladman
 * Clare Sloggett
@@ -147,4 +147,4 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 
 ## Questions?
 
-Send them to [Dave Clements](/src/people/dave-clements/index.md) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).
+Send them to [Dave Clements](/people/dave-clements/) and [Andrew Lonie](https://www.vlsci.org.au/researcher/alonie).

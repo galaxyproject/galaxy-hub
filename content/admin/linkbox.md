@@ -1,18 +1,18 @@
 <div class="linkbox trim-p">
 
-**[Admin](/src/admin/index.md)**
+**[Admin](/admin/)**
 
 ---
 
-[Get Galaxy](/src/admin/get-galaxy/index.md)  
-[Config](/src/admin/config/index.md)  
-[Tool Shed](/src/toolshed/index.md)  
-[Data Libs](/src/admin/data-libraries/index.md)  
-[Datatypes](/src/admin/datatypes/index.md)  
-[Develop](/src/develop/index.md)  
-[Quotas](/src/admin/disk-quotas/index.md)  
-[FAQ](/src/admin/faq/index.md)  
-[Tutorials](/src/admin/training/index.md)  
-[CloudMan](/src/cloudman/index.md)  
+[Get Galaxy](/admin/get-galaxy/)  
+[Config](/admin/config/)  
+[Tool Shed](/toolshed/)  
+[Data Libs](/data-libraries/)
+[Datatypes](/admin/datatypes/)  
+[Develop](/develop/)  
+[Quotas](/admin/disk-quotas/)  
+[FAQ](/admin/faq/)  
+[Tutorials](/admin/training/)  
+[CloudMan](/cloudman/)  
 
 </div>

@@ -6,7 +6,7 @@ date: "2020-07-01"
 
 # In the July 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * **[BCC2020](#bcc2020-starts-july-17) starts July 17**
   * **Early registration ends July 10**
@@ -34,7 +34,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
 <div class="card-header">[BOSC + GCC = BCC2020](https://bcc2020.github.io/)</div>
 
-The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/src/gcc/index.md).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
+The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/gcc/).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
 </div>
 
 <div class="card border-info" style="min-width: 9rem; max-width: 20rem;">
@@ -129,7 +129,7 @@ The full BCC2020 talk schedule is now online
 <img class="card-img-top" src="/src/events/2020-06-sra/galaxy-sra-slice.png" alt="Galaxy ⇄ SRA" />
 <div class="card-header">The new Galaxy-SRA Connector</div>
 
-UseGalaxy.org and the NIH Sequence Read Archive are now directly connected, enabling researchers to work with SRA data available from NCBI (https://www.ncbi.nlm.nih.gov/sra/) more easily within the Galaxy framework. This connection was presented in a webinar on June 24.  [Slides and video](/src/events/2020-06-sra/index.md) from the webinar and a GTN tutorial (see below) are now available.  This functionality will be included in the 2020.05 release.
+UseGalaxy.org and the NIH Sequence Read Archive are now directly connected, enabling researchers to work with SRA data available from NCBI (https://www.ncbi.nlm.nih.gov/sra/) more easily within the Galaxy framework. This connection was presented in a webinar on June 24.  [Slides and video](/events/2020-06-sra/) from the webinar and a GTN tutorial (see below) are now available.  This functionality will be included in the 2020.05 release.
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 24rem">
@@ -146,22 +146,22 @@ NIH has released a request for information (RFI) to solicit community feedback o
 
 # More Upcoming Events
 
-The coronavirus outbreak has impacted BCC2020, and just about every other event for the rest of the year too.  Most events through the end of August have been postponed or moved online.  We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+The coronavirus outbreak has impacted BCC2020, and just about every other event for the rest of the year too.  Most events through the end of August have been postponed or moved online.  We have updated our [list of events](/events/) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)</div>
+<div class="card-header">[Galaxy Developer Roundtable](/community/devroundtable/)</div>
 
-This [new bi-weekly forum](/src/community/devroundtable/index.md) is an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively. If you have something you want to present then please submit your idea at least a day in advance.  See you (every other) Thursday.
+This [new bi-weekly forum](/community/devroundtable/) is an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively. If you have something you want to present then please submit your idea at least a day in advance.  See you (every other) Thursday.
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2020-ismb/ismb-2020-logo-wide.jpg" alt="Galaxy @ ISMB 2020" />
-<div class="card-header">[Galaxy @ ISMB 2020](/src/events/2020-ismb/index.md))</div>
+<div class="card-header">[Galaxy @ ISMB 2020](/events/2020-ismb/))</div>
 
-[ISMB 2020](https://www.iscb.org/ismb2020) has gone virtual and **[Galaxy is going with it](/src/events/2020-ismb/index.md): Check out**
+[ISMB 2020](https://www.iscb.org/ismb2020) has gone virtual and **[Galaxy is going with it](/events/2020-ismb/): Check out**
 
 * a tutorial,
 * a COSI keynote,
@@ -184,7 +184,7 @@ There are [four upcoming Galaxy Australia workshops offered by QCIF](https://www
 
 There are
 
-* [17 upcoming events](/src/events/index.md) (most of them virtual)
+* [17 upcoming events](/events/) (most of them virtual)
 * covering, well, everything
 
 And material from some recent past events is now available:
@@ -197,12 +197,12 @@ And material from some recent past events is now available:
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
 
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem;">
-<div class="card-header">[Galaxy-SynBioCAD](/src/use/synbiocad/index.md)</div>
+<div class="card-header">[Galaxy-SynBioCAD](/use/synbiocad/)</div>
 
 <img class="card-img-top" src="/src/use/synbiocad/synbiocad-fig3-slice.png" alt="Galaxy-SynBioCAD" />
 
@@ -211,15 +211,15 @@ The **[Galaxy-SynBioCAD server](https://galaxy-synbiocad.org/)** provides a suit
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[ARIAWeb](/src/use/ariaweb/index.md)</div>
+<div class="card-header">[ARIAWeb](/use/ariaweb/)</div>
 
 <img class="card-img-top" src="/src/use/ariaweb/ariaweb-mol-viewer-slice.png" alt="ARIAWeb" />
 
-**[ARIAWeb](https://ariaweb.pasteur.fr/)** supports automated NOE assignment and NMR structure calculation using ARIA (Ambiguous Restraints for Iterative Assignment).  ARIAweb does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/src/use/galaxy-pasteur/index.md) for data analysis and workflow execution. ARIAWeb has email support and a mailing list.
+**[ARIAWeb](https://ariaweb.pasteur.fr/)** supports automated NOE assignment and NMR structure calculation using ARIA (Ambiguous Restraints for Iterative Assignment).  ARIAweb does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/use/galaxy-pasteur/) for data analysis and workflow execution. ARIAWeb has email support and a mailing list.
 </div>
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -234,9 +234,9 @@ The **[Galaxy-SynBioCAD server](https://galaxy-synbiocad.org/)** provides a suit
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[Custos doc update](/src/authnz/config/oidc/idps/custos/index.md)</div>
+<div class="card-header">[Custos doc update](/authnz/config/oidc/idps/custos/)</div>
 
-The [documentation for using Custos in Galaxy](/src/authnz/config/oidc/idps/custos/index.md) got a major update from Juleen Graham and Enis Afgan.
+The [documentation for using Custos in Galaxy](/authnz/config/oidc/idps/custos/) got a major update from Juleen Graham and Enis Afgan.
 
 [Custos](https://airavata.apache.org/custos/) is an [NSF-funded
 project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003&HistoricalAwards=false) that provides science gateways such as Galaxy with single sign-on, group management, and secret management. Custos authentication for Galaxy is now live on [test.galaxyproject.org](https://test.galaxyproject.org/).
@@ -341,7 +341,7 @@ The [US Food and Drug Administration](https://www.fda.gov/home) has an opening f
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 8rem; max-width: 28rem;">
-<div class="card-header">[Multi-tenant, multi-project GVL with Galaxy, Jupyter, Terminal, and RStudio](/src/blog/2020-06-gvl5-beta3/index.md)</div>
+<div class="card-header">[Multi-tenant, multi-project GVL with Galaxy, Jupyter, Terminal, and RStudio](/blog/2020-06-gvl5-beta3/)</div>
 
 By Alexandru Mahmoud, Nuwan Goonasekera, Enis Afgan.
 
@@ -354,7 +354,7 @@ The GVL Beta 3 release features complete analysis on one platform, including tra
 
 By [Emily Lescak](https://eventfund.codeforscience.org/author/emily/) of [Code for Science & Society](https://codeforscience.org/)
 
-A conversation with [Dave Clements](/src/people/dave-clements/index.md) about moving BCC2020 from an in-person to a virtual event, and the opportunities that move enabled.
+A conversation with [Dave Clements](/people/dave-clements/) about moving BCC2020 from an in-person to a virtual event, and the opportunities that move enabled.
 
 <img class="card-img-bottom" src="/src/images/logos/c4sas.png" alt="Code for Science & Society" />
 </div>
@@ -363,12 +363,12 @@ A conversation with [Dave Clements](/src/people/dave-clements/index.md) about mo
 
 # Releases
 
-See the GVL Beta 3 release [described in the blog](/src/blog/2020-06-gvl5-beta3/index.md) (and above).
+See the GVL Beta 3 release [described in the blog](/blog/2020-06-gvl5-beta3/) (and above).
 
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<div class="card-header">[Galaxy 20.05](/src/news/2020-06-galaxy-release-20-05/index.md)</div>
+<div class="card-header">[Galaxy 20.05](/news/2020-06-galaxy-release-20-05/)</div>
 
 See
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce.html)**

@@ -1,9 +1,9 @@
 ---
 title: Summer (August) 2018 Galaxy News
 ---
-[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
-Welcome to the Summer 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the Summer 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
@@ -29,9 +29,9 @@ Most posters and slides are now linked to from the [conference web site](https:/
 
 ## 2019 Galaxy Community Conference: 1-6 July, Freiburg, Germany
 
-[<img  class="img-fluid float-right" style="max-width: 250px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
+[<img  class="img-fluid float-right" style="max-width: 250px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
 
-**[GCC2019](/src/events/gcc2019/index.md) will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/src/gcc/index.md), GCC2019 will feature invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
+**[GCC2019](/events/gcc2019/) will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
 
 <div class="float-left">
 [<img src="/src/images/photos/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="180" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
@@ -74,23 +74,23 @@ A joint meeting in 2020 or 2021 depends on finding a suitable venue (300+ attend
 
 The Galaxy Training Network is organizing regular online CoFests (Collaboration/Contribution Fests) every 3 months on the 3rd Friday for a day of the collaborative work on the training content.
 
-**[The first one will be on the 17th of August](/src/events/2018-08-gtn/index.md).** We plan to focus on metagenomics training; but anyone who would like to contribute on any other topics is very welcome to join. We will coordinate via [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby) and [GitHub issues](https://github.com/galaxyproject/training-material/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Contribution+fest%22).
+**[The first one will be on the 17th of August](/events/2018-08-gtn/).** We plan to focus on metagenomics training; but anyone who would like to contribute on any other topics is very welcome to join. We will coordinate via [the GTN Gitter channel](https://gitter.im/Galaxy-Training-Network/Lobby) and [GitHub issues](https://github.com/galaxyproject/training-material/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Contribution+fest%22).
 
 ## 2018 SACNAS Workshops
 
 <div class="float-left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/src/events/2017-sacnas/index.md) <br /><br />
+[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/events/2017-sacnas/) <br /><br />
 [<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
 [<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/src/index.md)
+[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/)
 </div>
 
-If you are attending the [2018 SACNAS meeting](http://www.2018sacnas.org/) in San Antonio in October, then please consider signing up for one of [these preconference workshops](/src/events/2018-sacnas/index.md):
+If you are attending the [2018 SACNAS meeting](http://www.2018sacnas.org/) in San Antonio in October, then please consider signing up for one of [these preconference workshops](/events/2018-sacnas/):
 
-**[Software and Data Carpentry](/src/events/2018-sacnas/index.md#workshop-1-software-and-data-carpentry)**
+**[Software and Data Carpentry](/events/2018-sacnas/#workshop-1-software-and-data-carpentry)**
 
-**[Data Platforms for Life Science Researchers](/src/events/2018-sacnas/index.md#workshop-2-data-platforms-for-life-science-researchers)**
+**[Data Platforms for Life Science Researchers](/events/2018-sacnas/#workshop-2-data-platforms-for-life-science-researchers)**
 
 [Registration](https://sacnas-data.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.
 Both workshops are held October 10, the day before SACNAS starts.
@@ -102,11 +102,11 @@ Both workshops are held October 10, the day before SACNAS starts.
 
 ## European Galaxy Days, 19-20 November, Freiburg, Germany
 
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days" />](/src/events/2018-europe-dev/index.md)
+[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
 
-**[European Galaxy Days](/src/events/2018-europe-dev/index.md)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
+**[European Galaxy Days](/events/2018-europe-dev/)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
 
-The event is free. Registration will open soon.  See the [event home page](/src/events/2018-europe-dev/index.md) for more.
+The event is free. Registration will open soon.  See the [event home page](/events/2018-europe-dev/) for more.
 
 ## Gateways 2018
 
@@ -118,7 +118,7 @@ Gateways are user-friendly interfaces (including Galaxy) to scientific computing
 
 # Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+These and [other Galaxy related events](/events/) are coming up in the next few months:
 
 <table class="table table-striped"><thead><tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th></tr></thead><tbody><script type="application/ld+json">{  "@context": "http://schema.org/",
    "@type": "Event",
@@ -288,7 +288,7 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 [<img class="float-right" src="/src/news/2018-05-caron/christophe-caron.jpg" alt="Christophe Caron" width="170" />](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron)
 
-[Christophe Caron](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) passed away in May at the age of 50. Christophe was an extraordinary Galaxy community organizer and he is dearly missed.  See the [SFBI tribute page to Christophe](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) and this [Galaxy News item](/src/news/2018-05-caron/index.md) for more about Christophe, his passing, and his many contributions over the years.
+[Christophe Caron](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) passed away in May at the age of 50. Christophe was an extraordinary Galaxy community organizer and he is dearly missed.  See the [SFBI tribute page to Christophe](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) and this [Galaxy News item](/news/2018-05-caron/) for more about Christophe, his passing, and his many contributions over the years.
 
 # Publications
 
@@ -298,25 +298,25 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 20 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications.
 
-This included a new paper to reference [whenever using, extending, or referencing Galaxy](/src/citing-galaxy/index.md#primary-publication):
+This included a new paper to reference [whenever using, extending, or referencing Galaxy](/citing-galaxy/#primary-publication):
 
-* [**The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update**](https://doi.org/10.1093/nar/gky379), [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Bérénice Batut](http://bebatut.fr/), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek),  [Dave Bouvier](/src/people/dave-bouvier/index.md), [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Nate Coraor](/src/people/nate/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), [Aysam Guerler](/src/people/guerler/index.md), [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Vahid Jalili](/src/people/vahid-jalili/index.md), [Helena Rasche](https://github.com/hexylena), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and [Daniel Blankenberg](/src/people/dan/index.md). *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W537–W544, doi:10.1093/nar/gky379
+* [**The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update**](https://doi.org/10.1093/nar/gky379), [Enis Afgan](/people/enis-afgan/), [Dannon Baker](/people/dannon-baker/), [Bérénice Batut](http://bebatut.fr/), [Marius van den Beek](https://github.com/mvdbeek),  [Dave Bouvier](/people/dave-bouvier/), [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Dave Clements](/people/dave-clements/), [Nate Coraor](/people/nate/), [Björn Grüning](/people/bjoern-gruening/), [Aysam Guerler](/people/guerler/), [Jennifer Hillman-Jackson](/people/jennifer-jackson/), [Vahid Jalili](/people/vahid-jalili/), [Helena Rasche](https://github.com/hexylena), [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), [Jeremy Goecks](/people/jeremy-goecks/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), and [Daniel Blankenberg](/people/dan/). *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W537–W544, doi:10.1093/nar/gky379
 
-A new paper to reference [when discussing Galaxy in the context of reproducibility](/src/citing-galaxy/index.md#reproducibility):
+A new paper to reference [when discussing Galaxy in the context of reproducibility](/citing-galaxy/#reproducibility):
 
-* [**Practical Computational Reproducibility in the Life Sciences**](https://doi.org/10.1016/j.cels.2018.03.014), [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Ryan Dale, Nicola Soranzo, [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Jeremy Goecks](/src/people/jeremy-goecks/index.md), Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/people/james-taylor/index.md). *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 631-635, doi:10.1016/j.cels.2018.03.014
+* [**Practical Computational Reproducibility in the Life Sciences**](https://doi.org/10.1016/j.cels.2018.03.014), [Björn Grüning](/people/bjoern-gruening/), [John Chilton](/people/john-chilton/), Johannes Köster, Ryan Dale, Nicola Soranzo, [Marius van den Beek](https://github.com/mvdbeek), [Jeremy Goecks](/people/jeremy-goecks/), Rolf Backofen, [Anton Nekrutenko](/people/anton/), [James Taylor](/people/james-taylor/). *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 631-635, doi:10.1016/j.cels.2018.03.014
 
-And a new paper to reference [when discussing Galaxy training](/src/citing-galaxy/index.md#training):
+And a new paper to reference [when discussing Galaxy training](/citing-galaxy/#training):
 
-* [**Community-Driven Data Analysis Training for Biology**](https://doi.org/10.1016/j.cels.2018.05.012), [Bérénice Batut](http://bebatut.fr/), Saskia Hiltemann, Andrea Bagnacani, [Dannon Baker](/src/people/dannon-baker/index.md), Vivek Bhardwaj, Clemens Blank, Anthony Bretaudeau, Loraine Brillet-Guéguen, [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), Olivia Doppelt-Azeroual, Anika Erxleben, Mallory Ann Freeberg, Simon Gladman, Youri Hoogstrate, Hans-Rudolf Hotz, Torsten Houwaart, Pratik Jagtap, Delphine Larivière, Gildas Le Corguillé, Thomas Manke, Fabien Mareuil, Fidel Ramírez, Devon, Ryan, Florian Christoph Sigloch, [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), Joachim Wolff, Pavankumar Videm, Markus Wolfien, Aisanjiang Wubuli, Dilmurat Yusuf, Galaxy Training Network, [James Taylor](/src/people/james-taylor/index.md), Rolf Backofen, [Anton Nekrutenko](/src/people/anton/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md). *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 752-758.e1
+* [**Community-Driven Data Analysis Training for Biology**](https://doi.org/10.1016/j.cels.2018.05.012), [Bérénice Batut](http://bebatut.fr/), Saskia Hiltemann, Andrea Bagnacani, [Dannon Baker](/people/dannon-baker/), Vivek Bhardwaj, Clemens Blank, Anthony Bretaudeau, Loraine Brillet-Guéguen, [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Dave Clements](/people/dave-clements/), Olivia Doppelt-Azeroual, Anika Erxleben, Mallory Ann Freeberg, Simon Gladman, Youri Hoogstrate, Hans-Rudolf Hotz, Torsten Houwaart, Pratik Jagtap, Delphine Larivière, Gildas Le Corguillé, Thomas Manke, Fabien Mareuil, Fidel Ramírez, Devon, Ryan, Florian Christoph Sigloch, [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), Joachim Wolff, Pavankumar Videm, Markus Wolfien, Aisanjiang Wubuli, Dilmurat Yusuf, Galaxy Training Network, [James Taylor](/people/james-taylor/), Rolf Backofen, [Anton Nekrutenko](/people/anton/), [Björn Grüning](/people/bjoern-gruening/). *Cell Systems*, Volume 6, Issue 6, 27 June 2018, Pages 752-758.e1
 
-And a new paper to cite [when discussing Galaxy in a cloud context](/src/citing-galaxy/index.md#cloud):
+And a new paper to cite [when discussing Galaxy in a cloud context](/citing-galaxy/#cloud):
 
-* [**CloudLaunch: Discover and deploy cloud applications**](https://doi.org/10.1016/j.future.2018.04.037), [Enis Afgan](/src/people/enis-afgan/index.md), Andrew Lonie, [James Taylor](/src/people/james-taylor/index.md), Nuwan Goonasekera. *Future Generation Computer Systems*, 2018, doi:10.1016/j.future.2018.04.037
+* [**CloudLaunch: Discover and deploy cloud applications**](https://doi.org/10.1016/j.future.2018.04.037), [Enis Afgan](/people/enis-afgan/), Andrew Lonie, [James Taylor](/people/james-taylor/), Nuwan Goonasekera. *Future Generation Computer Systems*, 2018, doi:10.1016/j.future.2018.04.037
 
 Other highlighted papers include:
 
-* [**Galaxy HiCExplorer: a web server for reproducible Hi-C data analysis, quality control and visualization**](https://academic.oup.com/nar/article/46/W1/W11/5036837), Joachim Wolff, Vivek Bhardwaj, Stephan Nothjunge, Gautier Richard, Gina Renschler, Ralf Gilsbach, Thomas Manke, Rolf Backofen, Fidel Ramírez, [Björn Grüning](/src/people/bjoern-gruening/index.md). *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W11–W16, doi:10.1093/nar/gky504
+* [**Galaxy HiCExplorer: a web server for reproducible Hi-C data analysis, quality control and visualization**](https://academic.oup.com/nar/article/46/W1/W11/5036837), Joachim Wolff, Vivek Bhardwaj, Stephan Nothjunge, Gautier Richard, Gina Renschler, Ralf Gilsbach, Thomas Manke, Rolf Backofen, Fidel Ramírez, [Björn Grüning](/people/bjoern-gruening/). *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W11–W16, doi:10.1093/nar/gky504
 * [**ASaiM: a Galaxy-based framework to analyze microbiota data**](https://doi.org/10.1093/gigascience/giy057), [Bérénice Batut](http://bebatut.fr/), Kévin Gravouil, Clémence Defois, Saskia Hiltemann, Jean-François Brugère, Eric Peyretaillade, Pierre Peyret. *GigaScience*, Volume 7, Issue 6, 1 June 2018, giy057, doi:10.1093/gigascience/giy057
 * [**Selection of computational environments for PSP processing on scientific gateways**](https://doi.org//10.1016/j.heliyon.2018.e00690)
 Edvard Martins de Oliveira, Júlio Cézar Estrella, Alexandre Cláudio Botazzo Delbem, Luiz Henrique Nunes, Henrique Yoshikazu Shishido, Stephan Reiff-Marganiec. *Heliyon* 4 (2018) e00690
@@ -351,27 +351,27 @@ Edvard Martins de Oliveira, Júlio Cézar Estrella, Alexandre Cláudio Botazzo D
 The Galaxy is expanding! Please help it grow.
 
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 # New Galactic Blog Entries
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/src/blog/index.md)
+[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
 </div>
 
-There are two new *[Galactic Blog](/src/blog/index.md)* entry:
+There are two new *[Galactic Blog](/blog/)* entry:
 
-* [A fruitful year for the Galaxy Training material](/src/blog/2018-06-training-material/index.md), by Bérénice Batut
+* [A fruitful year for the Galaxy Training material](/blog/2018-06-training-material/), by Bérénice Batut
   * A summary of recent developments in Galaxy Training materials and the Galaxy Training Network
-* [Contributor of the Month: Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md), By Björn Grüning
+* [Contributor of the Month: Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/), By Björn Grüning
   * The first of a monthly series highlighting Galaxy contributors.
 
 # Public Galaxy Server News
 
-There are [over 100 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Another public server was added in the past quarter:
+There are [over 100 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Another public server was added in the past quarter:
 
 ## ProteoRE
 
@@ -388,7 +388,7 @@ ProteoRE currently comprises tools (including graphical display) for:
 
 This version also includes Galaxy generic tools and some tools from the [GalaxyP project](https://usegalaxyp.org/) that should be of great help for people who want to (re)process their MS-based proteomics data (e.g. peptide/protein identification). [ProteoRE tools are in the Galaxy Toolshed](https://toolshed.g2.bx.psu.edu/view/proteore).
 
-See the [ProteoRE pubic server directory page](/src/use/index.md) for more.
+See the [ProteoRE pubic server directory page](/use/) for more.
 
 ## Public Servers in Publications
 
@@ -417,17 +417,17 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in May, June, and July 2018](/src/toolshed/contributions/2018-07/index.md).
+[Tool Shed contributions in May, June, and July 2018](/toolshed/contributions/2018-07/).
 
 # Hub and Doc Updates
 
-* Semi-annual [project statistics update](/src/galaxy-project/statistics/index.md) is *mostly* done.
-* New [Cloud Storage API page](/src/cloud/storage/index.md) from [Vahid Jalili](/src/people/vahid-jalili/index.md).
-* A general update by [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md) to several support pages:
-  * [Issues](/src/issues/index.md)
-  * [Support](/src/support/index.md)
-  * [Tool Errors](/src/support/tool-error/index.md)
-  * [Missing History](/src/support/missing-history/index.md)
+* Semi-annual [project statistics update](/galaxy-project/statistics/) is *mostly* done.
+* New [Cloud Storage API page](/cloud/storage/) from [Vahid Jalili](/people/vahid-jalili/).
+* A general update by [Jennifer Hillman-Jackson](/people/jennifer-jackson/) to several support pages:
+  * [Issues](/issues/)
+  * [Support](/support/)
+  * [Tool Errors](/support/tool-error/)
+  * [Missing History](/support/missing-history/)
   
 
 # Releases

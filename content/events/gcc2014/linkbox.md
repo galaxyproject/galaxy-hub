@@ -1,6 +1,6 @@
 <div class="alert alert-info float-right text-center">
 
-[**GCC2014**](/src/events/gcc2014/index.md)  
+[**GCC2014**](/events/gcc2014/)  
 [Training](/src/events/gcc2014/training-day)  
 [Program](/src/events/gcc2014/program)  
 [Abstracts](/src/events/gcc2014/abstracts)  

@@ -8,7 +8,7 @@ title: "Galaxy Automation: Using the API"
 
 <slot name="/events/gcc2014/linkbox" />
 
-<div class='right'> <a href='/src/events/gcc2014/training-day/index.md'><img src="/src/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
+<div class='right'> <a href='/events/gcc2014/training-day/'><img src="/src/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
 
 [https://depot.galaxyproject.org/hub/attachments/The Galaxy API ](https://depot.galaxyproject.org/hub/attachments/The Galaxy API )(GCC2014 TD API).pdf|Slides]]

@@ -3,7 +3,7 @@ title: Galaxy Username and Password
 highlight: true
 ---
 
-_This page explains how to configure this feature, for user-specific docs, please refer to [this](/src/authnz/use/gxy/index.md) page._
+_This page explains how to configure this feature, for user-specific docs, please refer to [this](/authnz/use/gxy/) page._
 
 Without any additional configuration Galaxy will simply use its database to maintain 
 usernames and passwords. The Galaxy user interface and API provide functions allowing 

@@ -10,7 +10,7 @@ That code of conduct has served us reasonably well over the years, but it is tim
 
 **As a result it is past time to update both our code of conduct and our process for maintaining it.**  The first step in that has been to move the Code of Conduct to the Galaxy Community Hub, to make it more visible and to reflect that it is a document for the whole community.
 
-The Galaxy Outreach and Training [Working Group](/src/community/wg/index.md) is has started working on a first draft of a new code and new processes.  The final code and processes we adopt will be implemented only after it has been discussed, revised, and approved by the community.
+The Galaxy Outreach and Training [Working Group](/community/wg/) is has started working on a first draft of a new code and new processes.  The final code and processes we adopt will be implemented only after it has been discussed, revised, and approved by the community.
 
 Watch this space (and Galaxy channels of course).
 

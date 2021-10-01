@@ -1,9 +1,9 @@
 # usegalaxy.org Reference Data
 
-[usegalaxy.org](http://usegalaxy.org) ([Main](/src/main/index.md) is home to over 4 TB of reference data. This is
+[usegalaxy.org](http://usegalaxy.org) ([Main](/main/) is home to over 4 TB of reference data. This is
 comprised mainly of genome sequence builds and associated prebuilt indexes for the tools installed on usegalaxy.org, as
 well as the Galaxy-specific configuration files that make the data known to those tools. Because preparing this data for
-your own **[local](/src/admin/get-galaxy/index.md)** Galaxy server or an external application can be a laborious
+your own **[local](/admin/get-galaxy/)** Galaxy server or an external application can be a laborious
 process, we have made this reference available from a variety of schemes.
 
 ## Data Structure
@@ -59,8 +59,8 @@ other related tools are in the [UCSC Genome Browser][ucsc] source code [download
 
 ## Related topics
 
-* [Data Integration](/src/admin/data-integration/index.md)
-* [Data Preparation](/src/admin/data-preparation/index.md)
+* [Data Integration](/admin/data-integration/)
+* [Data Preparation](/admin/data-preparation/)
 
 ## Mounting Reference Data with CernVM-FS (CVMFS)
 
@@ -300,7 +300,7 @@ $ rsync -avzP rsync://datacache.galaxyproject.org/indexes/microbes/63 .
 ### Organization and DBKEY
 
 Genomes are organized in directories by reference genome **dbkey**. If you are not sure of the **dbkey**, it can be
-found in the [Main](/src/main/index.md) user interface. This value is what is populated into the *"database"* attribute
+found in the [Main](/main/) user interface. This value is what is populated into the *"database"* attribute
 for a dataset. Or, it is the last value in parenthesis *(dbkey)* at the end of the full reference genome build name in
 two specific places in the [usegalaxy.org](https://usegalaxy.org/) interface:
 

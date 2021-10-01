@@ -14,13 +14,13 @@ title: "Galaxy Admin Training: Help spread the word"
 
 # Flier
 
-Please share this [one page flier](https://depot.galaxyproject.org/hub/attachments/events/admin-training2016/publicity/GAT2016Flier.pdf) with any groups, departments, and individuals who might benefit from attending [Galaxy Admin Training 2016](/src/events/admin-training2016/index.md).
+Please share this [one page flier](https://depot.galaxyproject.org/hub/attachments/events/admin-training2016/publicity/GAT2016Flier.pdf) with any groups, departments, and individuals who might benefit from attending [Galaxy Admin Training 2016](/events/admin-training2016/).
 
 <br /><br /><br />
 
 # Slides
 
-Giving a talk to a group that might benefit from attending [Galaxy Admin Training 2016](/src/events/admin-training2016/index.md)?  Please include a slide about the event in your presentation.
+Giving a talk to a group that might benefit from attending [Galaxy Admin Training 2016](/events/admin-training2016/)?  Please include a slide about the event in your presentation.
 
 <table>
   <tr>

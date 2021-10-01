@@ -4,16 +4,16 @@ tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! And some other news too."
 date: "2019-10-02"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 The *October 2019 Galactic News*  includes Galactic news under this or any other sun:
 
-* [20 Upcoming Events](/src/news/2019-10-galaxy-update/index.md#events)
-* [143 new publications](/src/news/2019-10-galaxy-update/index.md#publications)
-* [Galaxy Platform News](/src/news/2019-10-galaxy-update/index.md#galaxy-platforms-news)
-* [6 Openings](/src/news/2019-10-galaxy-update/index.md#whos-hiring) 
-* [Training material and doc updates](/src/news/2019-10-galaxy-update/index.md#doc-hub-and-training-updates)
-* [Other news](/src/news/2019-10-galaxy-update/index.md#other-news)
+* [20 Upcoming Events](/news/2019-10-galaxy-update/#events)
+* [143 new publications](/news/2019-10-galaxy-update/#publications)
+* [Galaxy Platform News](/news/2019-10-galaxy-update/#galaxy-platforms-news)
+* [6 Openings](/news/2019-10-galaxy-update/#whos-hiring) 
+* [Training material and doc updates](/news/2019-10-galaxy-update/#doc-hub-and-training-updates)
+* [Other news](/news/2019-10-galaxy-update/#other-news)
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -32,9 +32,9 @@ If you have anything to include to next month's newsletter, then please send it 
 
 <div class="card border-info" style="min-width: 15rem;">
 <img class="card-img-top" src="/src/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
-<div class="card-header">[GalaxyNL Face2Face Meeting](/src/events/2019-10-galaxynl/index.md)</div>
+<div class="card-header">[GalaxyNL Face2Face Meeting](/events/2019-10-galaxynl/)</div>
 
-This year's [Galaxy Netherlands Face2Face meeting](/src/events/2019-10-galaxynl/index.md) will take place at:
+This year's [Galaxy Netherlands Face2Face meeting](/events/2019-10-galaxynl/) will take place at:
 
 * Time: October 3, 13:30-16:00, with drinks afterwards
 * Location: GROW room, DTL offices, JIM 6th floor, Jaarbeursplein 6, 3521 AL Utrecht
@@ -59,7 +59,7 @@ This [one-week course](https://workflow4metabolomics.org/w4e2020) (entirely in E
 
 There are
 
-* [20 upcoming events](/src/events/index.md)
+* [20 upcoming events](/events/)
 * on 5 continents
 * in Italy, Germany, the Netherlands, Greece, Estonia, Belgium, US, France, Taiwan, Ghana, Australia, and UK.
 * on RNA-Seq, bisulfite sequencing, reproducibility, CWL, cancer, single cell, metabarcoding, and metabolomics!
@@ -75,7 +75,7 @@ Galaxy, differential gene expression analysis, bisulfite sequencing analysis, an
 
 <div class="card border-info" style="min-width: 15rem; max-width: 28rem;">
 <img class="card-img-top" src="/src/events/2019-10-aises/aises-2019-banner.png" alt="Galaxy @ AISES" />
-<div class="card-header">[Galaxy @ AISES 2019](/src/events/2019-10-aises/index.md)</div>
+<div class="card-header">[Galaxy @ AISES 2019](/events/2019-10-aises/)</div>
 
 **[Reproducible Genomic Data Analysis with the Galaxy Workbench](https://conference.aises.org/agenda)**, 9:30 - 11:20,  Friday, October 11. 
 </div>
@@ -132,7 +132,7 @@ Ellrott, Kyle, Alex Buchanan, et al. *Genome Biology* 20 (1): 195. doi: 10.1186/
 <div class="card border-info" style="min-width: 14rem;">
 <div class="card-header">[You Wrote It, Now Get It Used: Publishing Your Software with Galaxy and Bioconda](http://doi.acm.org/10.1145/3307339.3343178)</div>
 
-[Daniel Blankenberg](/src/people/dan/index.md), [Martin Cech](/src/people/marten/index.md). 2019. In Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (BCB '19). ACM, New York, NY, USA, 559-559. DOI: 10.1145/3307339.3343178 
+[Daniel Blankenberg](/people/dan/), [Martin Cech](/people/marten/). 2019. In Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (BCB '19). ACM, New York, NY, USA, 559-559. DOI: 10.1145/3307339.3343178 
 </div>
 
 <div class="card border-info" style="min-width: 18rem;">
@@ -158,11 +158,11 @@ Publications are tagged with how they use, extend or reference Galaxy.  The past
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There were are many new platforms this month:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. There were are many new platforms this month:
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[IDENAP](/src/use/idenap/index.md)</div>
+<div class="card-header">[IDENAP](/use/idenap/)</div>
 
 <img class="card-img-top" src="/src/use/idenap/idenap-slice.png" alt="IDENAP" />
 
@@ -170,7 +170,7 @@ The **[Inter-Domain Ecological Network Analysis Pipeline (IDENAP) server](http:/
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[ELIXIR Belgium Galaxy](/src/use/usegalaxy-be/index.md)</div>
+<div class="card-header">[ELIXIR Belgium Galaxy](/use/usegalaxy-be/)</div>
 
 <img class="card-img-top" src="/src/use/usegalaxy-be/usegalaxy-be-logo.png" alt="UseGalaxy.be" />
 
@@ -178,7 +178,7 @@ The **[ELIXIR Belgium Galaxy server](https://usegalaxy.be/)** has been launched.
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Lebanese University Galaxy](/src/use/lebanese-university/index.md)</div>
+<div class="card-header">[Lebanese University Galaxy](/use/lebanese-university/)</div>
 
 <img class="card-img-top" src="/src/use/lebanese-university/lebanese-university-logo-trimmed.jpg" alt="Lebanese University Galaxy" />
 
@@ -186,7 +186,7 @@ The **[ELIXIR Belgium Galaxy server](https://usegalaxy.be/)** has been launched.
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[NG-Tax](/src/use/ng-tax/index.md)</div>
+<div class="card-header">[NG-Tax](/use/ng-tax/)</div>
 
 <img class="card-img-top" src="/src/use/ng-tax/ngtax-workflow.png" alt="NG-Tax workflow" />
 
@@ -194,7 +194,7 @@ The **[NG-Tax server](https://ngtax.systemsbiology.nl/)** provides a semantic fr
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[Galaxy for Ecology](/src/use/ecology/index.md)</div>
+<div class="card-header">[Galaxy for Ecology](/use/ecology/)</div>
 
 <img class="card-img-top" src="/src/use/ecology/map-prediction-slice.png" alt="Galaxy for Ecology: Mapped prediction" />
 
@@ -202,7 +202,7 @@ The **[NG-Tax server](https://ngtax.systemsbiology.nl/)** provides a semantic fr
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -229,7 +229,7 @@ Platforms that were referenced at least twice in the past month's publications:
 
 # Who's Hiring
 
-The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
@@ -365,7 +365,7 @@ Learn ATAC-Seq analysis with data from the study of [Buenrostro et al. 2013](htt
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">HacktoberFest 2019</div>
 
-Galaxy is [participating in HacktoberFest](/src/news/2019-10-hacktoberfest/index.md), the annual drive for global contribution in the growth of open source software has begun. Sign up and make a pull request for documentation, new tools, or contribute to any of the [Galaxy GitHub repositories](https://github.com/galaxyproject/) to earn free GitHub and digitalocean swag.
+Galaxy is [participating in HacktoberFest](/news/2019-10-hacktoberfest/), the annual drive for global contribution in the growth of open source software has begun. Sign up and make a pull request for documentation, new tools, or contribute to any of the [Galaxy GitHub repositories](https://github.com/galaxyproject/) to earn free GitHub and digitalocean swag.
 
 <img class="card-img-bottom" src="/src/news/2019-10-hacktoberfest/hacktoberfest-2019-logo.png" alt="HacktoberFest Logo" />
 </div>

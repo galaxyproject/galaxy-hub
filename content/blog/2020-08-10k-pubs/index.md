@@ -465,8 +465,8 @@ From 2013 through 2019 the number of pubs per year increased by an average of 25
 
 Note that it took
 
-* [44 months to reach 2,500 publications](/src/news/first2500-papers/index.md),
-* [26 months to add the next 2,500 publications](/src/blog/2017-10-5000-pubs/index.md),
+* [44 months to reach 2,500 publications](/news/first2500-papers/),
+* [26 months to add the next 2,500 publications](/blog/2017-10-5000-pubs/),
 * 18 months to add the next 2,500 (data not shown), and
 * 16 months to add the most recent 2,500 pubs.
 
@@ -474,7 +474,7 @@ If trends continue, we will hit 20,000 pubs by 2024.
 
 ## Methods
 
-The most obvious trend is that **there are a lot of pubs using Galaxy in their methods**.  59% of all publications mention Galaxy in their methods section, up from 51% of [the first 5000 pubs](/src/blog/2017-10-5000-pubs/index.md).  So far in 2020, 72% of all pubs are tagged *Methods*.
+The most obvious trend is that **there are a lot of pubs using Galaxy in their methods**.  59% of all publications mention Galaxy in their methods section, up from 51% of [the first 5000 pubs](/blog/2017-10-5000-pubs/).  So far in 2020, 72% of all pubs are tagged *Methods*.
 
 This trend doesn't show any sign of slowing down.
 
@@ -489,7 +489,7 @@ Not all *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)
 * in 2016-2017, there were nearly twice as many *UsePublic* pubs,
 * and in 2019-2020 there are nearly 3 times as many *UsePublic* as there are *UseMain* pubs.
 
-This rise reflects the increase in available [public platforms](/src/use/index.md) from 21 servers at the start of 2012 to over 150 platforms today.
+This rise reflects the increase in available [public platforms](/use/) from 21 servers at the start of 2012 to over 150 platforms today.
 
 
 ## UseLocal ... dropping?
@@ -539,7 +539,7 @@ Galaxy has appeared in over 1800 journals.  The 20 most popular journals in the 
 
 <sup>* </sup> *Genome Announcements* was re-titled *Microbiology Resource Announcements* in July 2018.
 
-There are 6 journals in the top 20 that weren't there [when we hit 5000 pubs](/src/blog/2017-10-5000-pubs/index.md#journals).  All 6 newcomers are open access.
+There are 6 journals in the top 20 that weren't there [when we hit 5000 pubs](/blog/2017-10-5000-pubs/#journals).  All 6 newcomers are open access.
 
 ## Open Access is Rising
 
@@ -641,7 +641,7 @@ Galaxy has had an interesting journey over the past 15 years, and the Galaxy Pub
 
 *Thanks for using Galaxy (and for saying that you are using Galaxy!),* 
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)
 
 
 ----
@@ -660,18 +660,18 @@ Topic tags indicate how the publication relates to Galaxy.  Here's the current s
 | [+IsGalaxy](https://www.zotero.org/groups/galaxy/items/tag/+IsGalaxy/) | Publications about Galaxy itself or installations of Galaxy. | 2011 |
 | [+Methods](https://www.zotero.org/groups/galaxy/items/tag/+Methods/) | Uses Galaxy in their methods. | 2011 |
 | [+Other](https://www.zotero.org/groups/galaxy/items/tag/+Other/) | Publications that don't fit well under any other tag. | 2011 |
-| [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/src/galaxy-team/index.md) member as an author. | 2011 |
+| [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/galaxy-team/) member as an author. | 2011 |
 | [+Reproducibility](https://www.zotero.org/groups/galaxy/items/tag/+Reproducibility/) | Reproducibility and persistence in science. | 2011 |
 | [+Shared](https://www.zotero.org/groups/galaxy/items/tag/+Shared/) |  Publications that have published workflows, histories, datasets, pages, or visualizations in a Galaxy instance. | 2011 |
 | [+Workbench](https://www.zotero.org/groups/galaxy/items/tag/+Workbench/) | Publication mentions Galaxy as a platform. | 2011 |
 | [+Tools](https://www.zotero.org/groups/galaxy/items/tag/+Tools/) | Tools that run in, have been ported to, or interact with Galaxy | 2012 |
 | [+Cloud](https://www.zotero.org/groups/galaxy/items/tag/+Cloud/) | Publications referencing / extending / discussing Galaxy in a cloud context. | 2013 |
-| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/src/use/index.md) or a [Galaxy service](/src/use/index.md).  This is distinct from the *+UsePublic* tag. | 2013 |
+| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/).  This is distinct from the *+UsePublic* tag. | 2013 |
 | [+Unknown](https://www.zotero.org/groups/galaxy/items/tag/+Unknown/) | Publications that we know refer to Galaxy, but we aren't sure how because they are behind a paywall we don't have access to.  These are revisited periodically. | 2013 |
 | [+UseCloud](https://www.zotero.org/groups/galaxy/items/tag/+UseCloud/) | Uses a custom built cloud based instance of Galaxy in its methods. | 2013 |
 | [+UseLocal](https://www.zotero.org/groups/galaxy/items/tag/+UseLocal/) | Uses a local installation of Galaxy in its methods. | 2013 |
-| [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md), in its methods. | 2013 |
-| [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | Uses a [publicly accessible Galaxy instance](/src/use/index.md) or a [Galaxy service](/src/use/index.md) in its methods. | 2013 |
+| [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/main/), in its methods. | 2013 |
+| [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | Uses a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/) in its methods. | 2013 |
 | [+Visualization](https://www.zotero.org/groups/galaxy/items/tag/+Visualization/) | Publications referencing Galaxy in a visualization and/or visual analytics context. | 2013 |
 | [+Education]() | Papers referencing Galaxy in a training or education context. | 2019 | 
 
@@ -686,7 +686,7 @@ With the move to Zotero we added two new sets of tags. The first set is used to 
 
 ## Platform tags
 
-The second set of new tags show which [public Galaxy platform](/src/use/index.md) is used or discussed in publications. These are  tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/src/use/repeatexplorer/index.md) public server.
+The second set of new tags show which [public Galaxy platform](/use/) is used or discussed in publications. These are  tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/use/repeatexplorer/) public server.
 
 ## Publisher Tags
 

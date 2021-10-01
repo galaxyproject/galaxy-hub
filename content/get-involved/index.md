@@ -5,12 +5,12 @@ title: Get Involved!
 
 # Mailing Lists
 
-<div class='left'><a href='/src/mailing-lists/index.md'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Mailing Lists" width="64" /></a></div>
+<div class='left'><a href='/mailing-lists/'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Mailing Lists" width="64" /></a></div>
 
 Galaxy has *thousands* of users around the world, all using Galaxy in different
 and often novel ways.  When these users have a question or a topic to discuss,
-they post it to a [Galaxy Mailing List](/src/mailing-lists/index.md) (following
-[Support](/src/support/index.md) guidelines), where the whole community can
+they post it to a [Galaxy Mailing List](/mailing-lists/) (following
+[Support](/support/) guidelines), where the whole community can
 respond.  You can contribute by posting your own questions, solutions, and
 experience.
 
@@ -42,18 +42,18 @@ engines](https://galaxyproject.org/search/).
 
 # Develop Tools and Tool Definitions
 
-<div class='right'><a href='/src/toolshed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="170" /></a></div>
-There are thousands of useful bioinformatics tools in existence and the Galaxy [Main](/src/main/index.md) server (and the [Galaxy Team](/src/galaxy-team/index.md)) cannot possibly support all of them.  Only tools that are widely useful in many areas of biomedical research (and meet several other criteria) are available on Main.
+<div class='right'><a href='/toolshed/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="170" /></a></div>
+There are thousands of useful bioinformatics tools in existence and the Galaxy [Main](/main/) server (and the [Galaxy Team](/galaxy-team/)) cannot possibly support all of them.  Only tools that are widely useful in many areas of biomedical research (and meet several other criteria) are available on Main.
 
-The Galaxy [Tool Shed](/src/toolshed/index.md) is a means to make other tools available for use within local and cloud-based Galaxy instances.  You can create tool wrappers (usually a simple file encapsulating how Galaxy should treat the underlying software tool) in order to define tools within Galaxy.  In order to share your tool with everyone, you can upload any given wrapper to the [Tool Shed](/src/toolshed/index.md) where it can be downloaded and installed into any Galaxy instance worldwide. To get you started we prepared this [Adding tool tutorial](/src/admin/tools/add-tool-tutorial/index.md) for you.
+The Galaxy [Tool Shed](/toolshed/) is a means to make other tools available for use within local and cloud-based Galaxy instances.  You can create tool wrappers (usually a simple file encapsulating how Galaxy should treat the underlying software tool) in order to define tools within Galaxy.  In order to share your tool with everyone, you can upload any given wrapper to the [Tool Shed](/toolshed/) where it can be downloaded and installed into any Galaxy instance worldwide. To get you started we prepared this [Adding tool tutorial](/admin/tools/add-tool-tutorial/) for you.
 
-If you want to make your tool available to the entire Galaxy ecosystem, please contribute a tool wrapper to the [Tool Shed](/src/toolshed/index.md).
+If you want to make your tool available to the entire Galaxy ecosystem, please contribute a tool wrapper to the [Tool Shed](/toolshed/).
 
 # Sharing Galaxy Objects
 
-You can help other users by [sharing or publishing your Galaxy histories, workflows, and datasets](/src/learn/share/index.md) with other Galaxy users.  This allows others to examine your analysis in detail (histories), to reuse your analysis with their own input data (workflows), and to use your results in their own analysis (datasets).
+You can help other users by [sharing or publishing your Galaxy histories, workflows, and datasets](/learn/share/) with other Galaxy users.  This allows others to examine your analysis in detail (histories), to reuse your analysis with their own input data (workflows), and to use your results in their own analysis (datasets).
 
-You can also go a step further and document your analysis using [Galaxy Pages](/src/learn/galaxy-pages/index.md).  These are online documents which are tightly integrated with your Galaxy objects - they provide a written explanation of your analysis.
+You can also go a step further and document your analysis using [Galaxy Pages](/learn/galaxy-pages/).  These are online documents which are tightly integrated with your Galaxy objects - they provide a written explanation of your analysis.
 
 # Report, Comment on and Vote on Issues and Features Requests
 
@@ -61,13 +61,13 @@ Have an idea for a feature?  Found a bug?  You can submit reports on issues and 
 
 # Setup a Public Server
 
-If and when you [setup your own Galaxy instance](/src/admin/get-galaxy/index.md), you can make it available to researchers outside your organization.  A number of groups [have done this](/src/use/index.md), often making a different tool set from Main available.  See [Public Galaxy Servers](/src/use/index.md).
+If and when you [setup your own Galaxy instance](/admin/get-galaxy/), you can make it available to researchers outside your organization.  A number of groups [have done this](/use/), often making a different tool set from Main available.  See [Public Galaxy Servers](/use/).
 
 # Share Your Experience
 
 <img class="img-fluid float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />
 
-The [Galactic Blog](/src/blog/index.md) features Galaxy related blog posts from community members.  The blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
+The [Galactic Blog](/blog/) features Galaxy related blog posts from community members.  The blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
 
 # Documentation
 
@@ -77,17 +77,17 @@ This site contains a large amount of documentation about using and administering
 
 <div class='right'><img src="/src/images/logos/GitHubLogoText.png" alt="GitHub" width="100" /></div>
 
-Galaxy is an open source project.  Anyone can [contribute to the code](/src/develop/index.md).
+Galaxy is an open source project.  Anyone can [contribute to the code](/develop/).
 
-You can also update the [documentation](/src/docs/index.md).
+You can also update the [documentation](/docs/).
 
 # Events
 
-Galaxy has a presence at many [Events](/src/events/index.md) throughout the year.  This includes annual Galaxy meetings ([2014](/src/events/gcc2014/index.md), [2013](/src/events/gcc2013/index.md), [2012](/src/events/gcc2012/index.md), [2011](/src/events/gcc2011/index.md), [2010](/src/events/gdc2010/index.md)); workshops, tutorials, and talks at [meetings, conferences, and courses](/src/events/index.md); and special events like the [NBIC Galaxy Hackathon](https://wiki.nbic.nl/index.php/NBIC_Galaxy_Hackathon_project).  See [Events](/src/events/index.md) for a complete list and a link to Google Calendar.
+Galaxy has a presence at many [Events](/events/) throughout the year.  This includes annual Galaxy meetings ([2014](/events/gcc2014/), [2013](/events/gcc2013/), [2012](/events/gcc2012/), [2011](/events/gcc2011/), [2010](/events/gdc2010/)); workshops, tutorials, and talks at [meetings, conferences, and courses](/events/); and special events like the [NBIC Galaxy Hackathon](https://wiki.nbic.nl/index.php/NBIC_Galaxy_Hackathon_project).  See [Events](/events/) for a complete list and a link to Google Calendar.
 
 # Outreach
 
 <div class='left'>
-<a href='/src/outreach/index.md'><img src="/images/powered-by-galaxy.png" alt="Powered by Galaxy" /></a>
+<a href='/outreach/'><img src="/images/powered-by-galaxy.png" alt="Powered by Galaxy" /></a>
 </div>
-You can also help by spreading the word about Galaxy.  There are [numerous ways to do this](/src/outreach/index.md).
+You can also help by spreading the word about Galaxy.  There are [numerous ways to do this](/outreach/).

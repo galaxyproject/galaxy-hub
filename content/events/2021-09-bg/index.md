@@ -11,4 +11,6 @@ gtn: false
 contact: "Brandon Pickett"
 image: 
 links:
+- text: "Video"
+  url: "https://youtu.be/oGPaYTOOHug"
 ---

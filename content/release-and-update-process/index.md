@@ -69,6 +69,6 @@ The config files that typically should be checked and merged from the upstream s
 
 # Additional Information
 
-* [/Admin/GetGalaxy](/src/admin/get-galaxy/index.md) - Basic instructions for getting and running the Galaxy code
-* [/Admin/Config/Performance/ProductionServer](/src/admin/config/performance/production-server/index.md) - Details for running a "production" Galaxy server
+* [/Admin/GetGalaxy](/admin/get-galaxy/) - Basic instructions for getting and running the Galaxy code
+* [/Admin/Config/Performance/ProductionServer](/admin/config/performance/production-server/) - Details for running a "production" Galaxy server
 * [usegalaxy-playbook](https://github.com/galaxyproject/usegalaxy-playbook) - The [Ansible](http://www.ansible.com) playbook used by the Galaxy Team to update [usegalaxy.org](https://usegalaxy.org/)

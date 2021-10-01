@@ -6,7 +6,7 @@ date: "2020-11-03"
 
 # In the November 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * **[JXTX: The James P. Taylor Foundation for Open Science](#jxtx-the-james-p.-taylor-foundation-for-open-science)**
 * **[Event news](#event-news)**
@@ -35,7 +35,7 @@ If you have anything to include to next month's newsletter, then please send it 
 </div>
 <div class="card-header">Same mission, new name</div>
 
-The foundation continuing James's legacy of supporting Open Science has been renamed from *JTech* to *[JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md)*. The JXTX Foundation will continue to focus on mentoring and enabling junior researchers to participate in the Open Science James was dedicated to.
+The foundation continuing James's legacy of supporting Open Science has been renamed from *JTech* to *[JXTX: The James P. Taylor Foundation for Open Science](/jxtx/foundation/)*. The JXTX Foundation will continue to focus on mentoring and enabling junior researchers to participate in the Open Science James was dedicated to.
 </div>
 
 <!-- First 10 -->
@@ -47,7 +47,7 @@ The foundation continuing James's legacy of supporting Open Science has been ren
 </div>
 <div class="card-header trim-p">
 
-[Meet the first recipients](/src/news/2020-10-jxtx-awardees/index.md)
+[Meet the first recipients](/news/2020-10-jxtx-awardees/)
 
 </div>
 
@@ -63,7 +63,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 </div>
 <div class="card-header">Help move Open Science forward</div>
 
-**You can help continue James's legacy of open and reproducible science by contributing to [JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation/index.md).**
+**You can help continue James's legacy of open and reproducible science by contributing to [JXTX: The James P. Taylor Foundation for Open Science](/jxtx/foundation/).**
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
@@ -82,7 +82,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 
 # Event News
 
-Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+Despite COVID-19, there is still a lot going on.  Some of it is virtual, but live events are starting to happen again, especially in Europe. We have updated our [list of events](/events/) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
@@ -91,11 +91,11 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable: 12 November](/src/community/devroundtable/index.md)
+[Galaxy Developer Roundtable: 12 November](/community/devroundtable/)
 
 </div>
 
-There will be one roundtable meetup this month, on **[November 12](/src/events/2020-11-12-dev-roundtable/index.md)**. Discussion will focus on working with the [Galaxy Training Network](https://training.galaxyproject.org/).
+There will be one roundtable meetup this month, on **[November 12](/events/2020-11-12-dev-roundtable/)**. Discussion will focus on working with the [Galaxy Training Network](https://training.galaxyproject.org/).
 </div>
 
 
@@ -108,11 +108,11 @@ There will be one roundtable meetup this month, on **[November 12](/src/events/2
 </div>
 <div class="card-header trim-p">
 
-[Paper Cuts: 18 November](/src/events/2020-11-papercuts/index.md)
+[Paper Cuts: 18 November](/events/2020-11-papercuts/)
 
 </div>
 
-Paper Cuts are annoying but easy to fix bugs. The [first Paper Cuts event](/src/events/2020-10-papercuts/index.md) in October was a [smashing success](https://galaxyproject.eu/posts/2020/10/29/first-papercuts/), so we are going to [do it again on November 18](/src/events/2020-11-papercuts/index.md). Our second one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
+Paper Cuts are annoying but easy to fix bugs. The [first Paper Cuts event](/events/2020-10-papercuts/) in October was a [smashing success](https://galaxyproject.eu/posts/2020/10/29/first-papercuts/), so we are going to [do it again on November 18](/events/2020-11-papercuts/). Our second one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
 
 Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
 </div>
@@ -154,13 +154,13 @@ Three Galaxy Australia events are being offered by in November:
 <img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="Galaxy Training Network day - (online) CoFest and community call" />
 <div class="card-header trim-p">
 
-[Galaxy Training Network Day: CoFest and community call](/src/events/2020-11-gtn/index.md)
+[Galaxy Training Network Day: CoFest and community call](/events/2020-11-gtn/)
 
 </div>
 
 **19th of November, Online**
 
-A [dedicated day of collaborative work](/src/events/2020-11-gtn/index.md) on the training content and calls with the Galaxy training community. Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.
+A [dedicated day of collaborative work](/events/2020-11-gtn/) on the training content and calls with the Galaxy training community. Anyone who would like to contribute, learn how to contribute to the Galaxy Training Material or just catch up with the community is very welcome to join.
 </div>
 
 
@@ -203,7 +203,7 @@ Un Hackathon pour partager des compétences en terme du développement logiciel 
 <img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
 <div class="card-header trim-p">
 
-[Galaxy Admin Training: January 2021](/src/events/2021-01-admin-training/index.md)
+[Galaxy Admin Training: January 2021](/events/2021-01-admin-training/)
 
 </div>
 
@@ -220,7 +220,7 @@ Galaxy Admin Training is coming in January.  It will be online and global, and r
 </div>
 <div class="card-header">Upcoming Events</div>
 
-There are more than [16 events](/src/events/index.md) before the end of the year:
+There are more than [16 events](/events/) before the end of the year:
 
 * workshops, CoFests, talks, ...
 * all of them are online.
@@ -230,7 +230,7 @@ There are more than [16 events](/src/events/index.md) before the end of the year
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
 
 <div class="card-deck">
 
@@ -239,7 +239,7 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header trim-p">
 
-[GalaxyTrakr](/src/use/galaxytrakr/index.md)
+[GalaxyTrakr](/use/galaxytrakr/)
 
 </div>
 
@@ -253,7 +253,7 @@ The [GalaxyTrakr server](https://galaxytrakr.org/) is provided by the [US Food a
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header trim-p">
 
-[Galaxy Africa](/src/use/galaxy-africa/index.md)
+[Galaxy Africa](/use/galaxy-africa/)
 
 </div>
 
@@ -298,7 +298,7 @@ Galaxy EU has surpassed 20,000 users!
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 
@@ -409,7 +409,7 @@ This tutorial got a thorough update from [Mallory Freeberg](https://training.gal
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -532,7 +532,7 @@ Roche, Bay Area, California, United States.
 
 ELIXIR Norway Team, University of Oslo, Norway.
 
-Join the ELIXIR development / operations team at the University of Oslo (UiO), participating in the development, implementation and operation of functionality for various national and international solutions provided by ELIXIR Norway, including [UseGalaxy.no](/src/use/usegalaxy-no/index.md) and NeLS.
+Join the ELIXIR development / operations team at the University of Oslo (UiO), participating in the development, implementation and operation of functionality for various national and international solutions provided by ELIXIR Norway, including [UseGalaxy.no](/use/usegalaxy-no/) and NeLS.
 
 <img class="card-img-bottom" src="/src/images/logos/UiOLogo.png" alt="University of Oslo" />
 </div>

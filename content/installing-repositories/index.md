@@ -1,30 +1,30 @@
 ---
 title: Installing Repositories
 ---
-<div class='right'> <a href='/src/toolshed/index.md'><img src="/src/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a></div>
+<div class='right'> <a href='/toolshed/'><img src="/src/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a></div>
 
 
 
-[Installing repositories into Galaxy](/src/toolshed/installing-repositories-to-galaxy/index.md)
+[Installing repositories into Galaxy](/toolshed/installing-repositories-to-galaxy/)
 
-[Installing repositories that define simple repository dependency relationships](/src/installing-simple-repository-dependencies/index.md)
+[Installing repositories that define simple repository dependency relationships](/installing-simple-repository-dependencies/)
 
-[Installing repositories that define complex repository dependency relationships](/src/installing-complex-repository-dependencies/index.md)
+[Installing repositories that define complex repository dependency relationships](/installing-complex-repository-dependencies/)
 
-[Installing repositories that contain tools migrated from the Galaxy code distribution to the main Galaxy Tool Shed](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md)
+[Installing repositories that contain tools migrated from the Galaxy code distribution to the main Galaxy Tool Shed](/toolshed/migrating-tools-from-galaxy-distribution/)
 
-[Installing tool dependency packages along with Galaxy tools](/src/installing-tool-dependency-packages/index.md)
+[Installing tool dependency packages along with Galaxy tools](/installing-tool-dependency-packages/)
 
-[The Tool Shed provides tool version lineage information to Galaxy](/src/galaxy-tool-version-lineage/index.md)
+[The Tool Shed provides tool version lineage information to Galaxy](/galaxy-tool-version-lineage/)
 
-[Managing your Galaxy tool panel](/src/galaxy-tool-panel/index.md)
+[Managing your Galaxy tool panel](/galaxy-tool-panel/)
 
-[Getting updates for repositories installed into Galaxy](/src/updating-installed-repositories/index.md)
+[Getting updates for repositories installed into Galaxy](/updating-installed-repositories/)
 
-[Resetting metadata on repositories installed into Galaxy](/src/resetting-metadata-for-installed-repositories/index.md)
+[Resetting metadata on repositories installed into Galaxy](/resetting-metadata-for-installed-repositories/)
 
-[Executing Galaxy functional tests on tools contained in installed repositories](/src/testing-installed-tools/index.md)
+[Executing Galaxy functional tests on tools contained in installed repositories](/testing-installed-tools/)
 
-[Deactivating or uninstalling installed repositories](/src/uninstalling-repositories-from-galaxy/index.md)
+[Deactivating or uninstalling installed repositories](/uninstalling-repositories-from-galaxy/)
 
-[Repairing installed repositories](/src/repairing-installed-repositories/index.md)
+[Repairing installed repositories](/repairing-installed-repositories/)

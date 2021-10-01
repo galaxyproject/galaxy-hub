@@ -1,8 +1,8 @@
-<div class='right'>![](/src/people/dave-bouvier/davebouvierflag200.jpeg)</div>
+<div class='right'>![](/people/dave-bouvier/davebouvierflag200.jpeg)</div>
 
 # Dave Bouvier
 
-I am a system administrator, programmer, and a part of the [Galaxy Team](/src/galaxy-team/index.md) at [Penn State University](http://www.psu.edu/).  I started on the Galaxy Project in March 2012.
+I am a system administrator, programmer, and a part of the [Galaxy Team](/galaxy-team/) at [Penn State University](http://www.psu.edu/).  I started on the Galaxy Project in March 2012.
 
 ## Contact
 

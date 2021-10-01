@@ -366,7 +366,7 @@ datasets are available from many sources and can sometimes be created from
 other datatypes.
 
 *   How to source Human, Mouse, and other common genome `GTF` reference annnotation data. [See Method 6 here.](/support/chrom-identifiers/#any-mixed-sourced-data) 
-*   The public [Main](/src/main/index.md) Galaxy instance contains tools to examine and
+*   The public [Main](/main/) Galaxy instance contains tools to examine and
     manipulate [GFF](#gff)/[GTF](#gtf) files
     under the tool group **Filter and Sort**.
 *   The public Galaxy instance at:

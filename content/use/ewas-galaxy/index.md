@@ -15,7 +15,7 @@ user_support:
 quotas:
   - "None."
 citations:
-  - "[EWAS-Galaxy: a tools suite for population epigenetics integrated into Galaxy](https://doi.org/10.1101/553784 ), Katarzyna Murat, [Björn Grüning](/src/people/bjoern-gruening/index.md), Paulina Wiktoria Poterlowicz, Gillian Westgate, Desmond J Tobin, Krzysztof Poterlowicz. *bioRxiv* 553784; doi:doi.org/10.1101/553784 "
+  - "[EWAS-Galaxy: a tools suite for population epigenetics integrated into Galaxy](https://doi.org/10.1101/553784 ), Katarzyna Murat, [Björn Grüning](/people/bjoern-gruening/), Paulina Wiktoria Poterlowicz, Gillian Westgate, Desmond J Tobin, Krzysztof Poterlowicz. *bioRxiv* 553784; doi:doi.org/10.1101/553784 "
 pub_libraries:
   - "EWAS-Galaxy"  
 sponsors:

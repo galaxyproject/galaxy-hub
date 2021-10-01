@@ -135,7 +135,7 @@ The new browser will use the chrom/contig information we specified for it.
 
 ### Setup for Local Instances
 
-See [Visualization Setup](/src/visualization-setup/index.md) for instructions about how to set up your local instance for visualization.
+See [Visualization Setup](/visualization-setup/) for instructions about how to set up your local instance for visualization.
 
 ### Implementation Details
 

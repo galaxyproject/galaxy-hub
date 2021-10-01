@@ -6,7 +6,7 @@ date: "2021-05-29"
 ---
 <a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 16rem" /></a>
 
-Poster/demo presentations have been a key component of GCCs since [GCC2013 in Oslo](/src/events/gcc2013/index.md).  They are an excellent way to more fully present, discuss, and demonstrate your work.  The **[Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition)** is using Remo as our conference platform and this has many advantages for presenting your work:
+Poster/demo presentations have been a key component of GCCs since [GCC2013 in Oslo](/events/gcc2013/).  They are an excellent way to more fully present, discuss, and demonstrate your work.  The **[Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition)** is using Remo as our conference platform and this has many advantages for presenting your work:
 
 * Each poster/demo will be assigned its own named table in the Poster/Demo building,
 * Up to 8 people can interact at each poster/demo table simultaneously.

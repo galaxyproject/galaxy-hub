@@ -1,7 +1,7 @@
 ---
 ---
-* [Wiki Root](/src/toolshed/index.md)
-* [All monthly summaries](/src/toolshed/contributions/index.md)
+* [Wiki Root](/toolshed/)
+* [All monthly summaries](/toolshed/contributions/)
 
 # Tools
 
@@ -32,7 +32,7 @@
   * [icqsol_translate_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_translate_shape): Translates a shape to a new position Contains a tool that applies translation operations to a shape by adding a displacement to each coordinate.
   * [icqsol_compose_shapes](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_compose_shapes): Creates a shape composed of any number of selected shapes Creates a shape composed of any number of selected shapes where the composition is based on a mathematical expression consisting of +, - and * operations. The + operator results in a union of shapes, the - operator removes a shape and the * operator results in an intersection of shapes.
   * [ucsc_twobittofa](https://toolshed.g2.bx.psu.edu/view/iuc/ucsc_twobittofa): twoBitToFa is a tool to convert all or part of .2bit file to fasta
-  * [progressivemauve](https://toolshed.g2.bx.psu.edu/view/iuc/progressivemauve):  Mauve[/ProgressiveMauve](/src/toolshed/contributions/2016-08/ProgressiveMauve/index.md) Multiple Sequence Aligner Mauve is a system for constructing multiple genome alignments in the presence of large-scale evolutionary events such as rearrangement and inversion. Multiple genome alignments provide a basis for research into comparative genomics and the study of genome-wide evolutionary dynamics. http://darlinglab.org/mauve/
+  * [progressivemauve](https://toolshed.g2.bx.psu.edu/view/iuc/progressivemauve):  Mauve[/ProgressiveMauve](/toolshed/contributions/2016-08/ProgressiveMauve/) Multiple Sequence Aligner Mauve is a system for constructing multiple genome alignments in the presence of large-scale evolutionary events such as rearrangement and inversion. Multiple genome alignments provide a basis for research into comparative genomics and the study of genome-wide evolutionary dynamics. http://darlinglab.org/mauve/
   * [icqsol_add_surface_field_from_expression](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_add_surface_field_from_expression): Adds a surface field to a selected shape based on a given mathematical expression Contains a tool that adds a surface field to a selected shape based on a given mathematical expression consisting of variables x, y, z (shape point coordinates) and t (time). This tool will generate VTK POLYDATA files, so input PLY files or VTK files with a different dataset type will automatically be converted to VTK POLYDATA during tool execution.
   * [icqsol_refine_shape](https://toolshed.g2.bx.psu.edu/view/iuc/icqsol_refine_shape): Refines a shape to a specified level resulting in a more detailed shape Contains a tool that refines a shape to a specified level resulting in a more detailed shape. A middle point is added to each edge and to the center of each of the shape's polygons for each level of refinement.
   * [trinity_filter_low_expr_transcripts](https://toolshed.g2.bx.psu.edu/view/iuc/trinity_filter_low_expr_transcripts): Filter low expression transcripts (from the Trinity tool suite) Trinity represents a method for the efficient and robust de novo reconstruction of transcriptomes from RNA-seq data. https://github.com/trinityrnaseq/trinityrnaseq

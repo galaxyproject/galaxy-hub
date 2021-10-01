@@ -10,9 +10,9 @@ title: March 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the March 2016 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. 
+Welcome to the March 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
@@ -75,7 +75,7 @@ We are pleased to offer [scholarships](https://docs.google.com/forms/d/1IbMoNcA6
 
 Scholarships cover [registration](http://gcc2016.iu.edu/registration) and [lodging](http://gcc2016.iu.edu/location) during the GCC Meeting, and for any Training or Hackathon events the applicant chooses to attend.  Scholarships do not cover travel or other expenses. **The application deadline is May 1 for members of historically underrepresented groups and March 20 for those from Low and Lower-Middle Income Economies.**
 
-See the [full announcement](/src/news/gcc2016-scholarships/index.md) for details.
+See the [full announcement](/news/gcc2016-scholarships/) for details.
 
 
 ## Sponsors
@@ -220,18 +220,18 @@ Between now and 13 March, would-be student participants will start to discuss ap
 Please let Robin know if you have any questions about GSoC.
 
 <div class='right'><br />
-<a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'><img src="/src/images/news-graphics/AnsibleWheels.png" alt="February 2016 GalaxyAdmins meetup are now available" width="150" /></a>
+<a href='/community/galaxy-admins/meetups/2016-02-18/'><img src="/src/images/news-graphics/AnsibleWheels.png" alt="February 2016 GalaxyAdmins meetup are now available" width="150" /></a>
 </div>
 
 ## February GalaxyAdmins Slides & Video
 
-Slides and video from the [February 2016 GalaxyAdmins meetup are now available](/src/community/galaxy-admins/meetups/2016-02-18/index.md).
+Slides and video from the [February 2016 GalaxyAdmins meetup are now available](/community/galaxy-admins/meetups/2016-02-18/).
 
 
 
 ## Upcoming Events
 
-There are [many upcoming events](/src/events/index.md) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
 <a href='https://github.com/galaxyproject/tools-iuc/issues/422'><img src="/src/images/logos/IUC_RADSeq_Hack.png" alt="IUC Contribution Fest - RADSeq Tools and Workflows" height="80" /></a>
@@ -251,7 +251,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
     <th> March 7-8 </th>
     <td> <strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a></strong> </td>
     <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/src/iuc/index.md'> IUC </a> </td>
+    <td> <a href='/iuc/'> IUC </a> </td>
   </tr>
   <tr>
     <th> March 15 </th>
@@ -370,10 +370,10 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformatics Web Application Developer-Biology](http://bit.ly/1LQQ2qz), Washington University in St. Louis, Missouri, United States
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 * [Postdoctoral Research Positions](http://bit.ly/1KYf1rg), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
-* [Bioinformaticist](/src/news/jhu-apl-bioinformaticist/index.md), Johns Hopkins University Applied Physics Laboratory (APL)
-* [Software Engineer](/src/news/software-engineer-ohsu/index.md), Oregon Health Sciences University, Portland, Oregon, United States
+* [Bioinformaticist](/news/jhu-apl-bioinformaticist/), Johns Hopkins University Applied Physics Laboratory (APL)
+* [Software Engineer](/news/software-engineer-ohsu/), Oregon Health Sciences University, Portland, Oregon, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -383,7 +383,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-[Three new publicly accessible Galaxy servers](/src/use/index.md) were listed in February:
+[Three new publicly accessible Galaxy servers](/use/) were listed in February:
 
 ## BISTRO
 
@@ -447,7 +447,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the [January 2016 (v16.01) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html). 
 
-**Galaxy administrators should also be aware of the<div class='red'> [security announcements](/src/galaxy-updates/2016-03/index.md#security-announcements) </span> below.**
+**Galaxy administrators should also be aware of the<div class='red'> [security announcements](/galaxy-updates/2016-03/#security-announcements) </span> below.**
 
 <span style="font-size: larger;"> **Highlights** </span>
 
@@ -473,7 +473,7 @@ Workflows may now run other workflows as a single abstract step in the parent wo
     <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.01</code> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none;"> See the <a href='/src/admin/get-galaxy/index.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
+    <td colspan=3 style=" border: none;"> See the <a href='/admin/get-galaxy/'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
   </tr>
 </table>
 
@@ -520,11 +520,11 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
-**[CloudMan](/src/cloudman/index.md) 15.12**
+**[CloudMan](/cloudman/) 15.12**
 
-[CloudMan](/src/cloudman/index.md) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
+[CloudMan](/cloudman/) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
 
 This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/releases) includes:
 
@@ -581,7 +581,7 @@ The 0.6.x release includes these changes:
 
 **BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 **blend4j v0.1.2**
@@ -596,12 +596,12 @@ The 0.6.x release includes these changes:
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -613,7 +613,7 @@ The 0.6.x release includes these changes:
 
 # ToolShed Contributions
 
-See [list of tools contributed in February](/src/toolshed/contributions/2016-02/index.md).
+See [list of tools contributed in February](/toolshed/contributions/2016-02/).
 
 
 ----

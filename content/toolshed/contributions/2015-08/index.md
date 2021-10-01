@@ -1,8 +1,8 @@
 ---
 title: August 2015 Tool Shed Contributions
 ---
-* [Wiki Root](/src/toolshed/index.md)
-* [All monthly summaries](/src/toolshed/contributions/index.md)
+* [Wiki Root](/toolshed/)
+* [All monthly summaries](/toolshed/contributions/)
 
 ### Featured Updates
 

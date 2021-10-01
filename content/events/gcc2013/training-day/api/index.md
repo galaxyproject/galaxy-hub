@@ -4,13 +4,13 @@
 
 <slot name="/events/gcc2013/linkbox" />
 
-<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 # The Galaxy API
 
 The Galaxy API is a way of interacting with Galaxy data without using the web-based, user interface.
 
-A more thorough explanation can be found at [Learn/API](/src/learn/api/index.md) along with some general steps on
+A more thorough explanation can be found at [Learn/API](/develop/api/) along with some general steps on
 how to begin using the API. This page may duplicate some of that data in order to keep information relevant to the
 workshop in one place.
 
@@ -844,7 +844,7 @@ And ... we're done!
 
 We are always adding new functionality to the API and progressively ensuring that everything that can be done in the
 UI can be done in the API - because of that, please, consider the API a 'work in progress' and check the
-[Galaxy Development Briefs](/src/docs/index.md) for new features or fixes.
+[Galaxy Development Briefs](/docs/) for new features or fixes.
 
 <br />
 ### Versioning of the API

@@ -42,7 +42,7 @@ ObjectStore currently supports:
 - Network attached storage (NAS);
 - Cloud
     - Amazon Simple Storage Service (S3);
-    - Google Cloud Storage ([config](/src/admin/objectstore/gce/index.md));
+    - Google Cloud Storage ([config](/admin/objectstore/gce/));
     - Microsoft Azure BLOB Storage;
     - OpenStack Object Storage (Swift)
 - integrated Rule-Oriented Data Store (iRODS)

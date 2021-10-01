@@ -1,7 +1,7 @@
 ---
 title: Commercial Galaxy Support
 ---
-Galaxy [servers](/src/use/index.md) and [support](/src/support/index.md) are available in a wide variety of different ways, including commercial solutions. This lists the commercial providers that we are aware of
+Galaxy [servers](/use/) and [support](/support/) are available in a wide variety of different ways, including commercial solutions. This lists the commercial providers that we are aware of
 
 # Hosted Galaxy solutions
 
@@ -45,7 +45,7 @@ At [Noor Biotechnologies](http://noorbiotech.com/) we support your genomics rese
 
 1. Helping you identifying the correct genomics applications that answer your research questions.
 2. Providing support in the design of your sequencing experiment.
-3. [Training](/src/support/commercial/index.md#training) you in using Galaxy for high throughput data analysis.
+3. [Training](/support/commercial/#training) you in using Galaxy for high throughput data analysis.
 4. Providing help in selecting the correct bioinformatics tools and work workflows on either public Galaxy servers or to customize your own local Galaxy server.
 5. Offering a deep understanding of microbial genomics. 
 
@@ -66,6 +66,6 @@ The [Takeru Galaxy](http://www.nabe-intl.co.jp/seq/takerugalaxy.html) server is 
 <div class='right'><a href='http://openstack.org'><img src="/src/images/logos/OpenStackLogo.png" alt="OpenStack" width="130" /></a>
 </div>
 
-[CloudMan](/src/cloudman/index.md) and [Globus Genomics](/src/cloud/index.md#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
+[CloudMan](/cloudman/) and [Globus Genomics](/cloud/#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.
 
-See the Galaxy [Cloud](/src/cloud/index.md) page for more and specific offerings..
+See the Galaxy [Cloud](/cloud/) page for more and specific offerings..

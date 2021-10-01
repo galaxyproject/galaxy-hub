@@ -7,7 +7,7 @@ title: Promotion and Outreach
 
 
 
-Please help get the word out about the 2013 Galaxy Community Conference (GCC2013).  A [flier](/src/events/gcc2013/promotion/index.md#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
+Please help get the word out about the 2013 Galaxy Community Conference (GCC2013).  A [flier](/events/gcc2013/promotion/#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
 
 # Flier
 
@@ -61,9 +61,9 @@ The conference logos are available in several sizes.
 
 # Twitter Hashtag
 
-Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/src/galaxy-on-twitter/index.md) for the meeting.  The obvious choice of #gcc2013 is already well used by several other events.
+Please use [#usegalaxy](http://twitter.com/#!/search/%23usegalaxy) as the [Twitter hashtag](/galaxy-on-twitter/) for the meeting.  The obvious choice of #gcc2013 is already well used by several other events.
 
 
 # Sponsorships
 
-Interested in sponsoring the meeting?  See [Sponsorships](/src/events/gcc2013/sponsorships/index.md).
+Interested in sponsoring the meeting?  See [Sponsorships](/events/gcc2013/sponsorships/).

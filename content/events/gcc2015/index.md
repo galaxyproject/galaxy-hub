@@ -15,7 +15,7 @@ tags: [ cofest ]
 
  <span style="font-size: larger;">[GCC2015 is done](http://gcc2015.tsl.ac.uk/). *[GCC2018 is coming](https://gccbosc2018.sched.com/)*</span>
 
-The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) will be hosted by [The Sainsbury Laboratory](http://tsl.ac.uk/) in historic [Norwich, United Kingdom](http://www.visitnorwich.co.uk/).  Norwich is a center of biological research and is home to [The Sainsbury Laboratory](http://www.tsl.ac.uk/), [The John Innes Centre](https://www.jic.ac.uk/), [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk/), and [The University of East Anglia](http://www.uea.ac.uk/).  [Galaxy Community Conferences](/src/gcc/index.md) are held yearly and gather together the Galaxy community.
+The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) will be hosted by [The Sainsbury Laboratory](http://tsl.ac.uk/) in historic [Norwich, United Kingdom](http://www.visitnorwich.co.uk/).  Norwich is a center of biological research and is home to [The Sainsbury Laboratory](http://www.tsl.ac.uk/), [The John Innes Centre](https://www.jic.ac.uk/), [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk/), and [The University of East Anglia](http://www.uea.ac.uk/).  [Galaxy Community Conferences](/gcc/) are held yearly and gather together the Galaxy community.
 
 <slot name="/events/gcc2015/linkbox" />
 
@@ -44,6 +44,6 @@ GCC2015 will be held 4-8<sup>th</sup> July, 2015, in Norwich, UK.  There are als
 * [OpenBio Codefest 2015](http://www.open-bio.org/wiki/Codefest_2015)
 * [ISMB / EECB 2015](http://www.iscb.org/ismbeccb2015) including [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015) and [BioVis 2015](http://www.biovis.net/)
 
-See the [Events Aplenty Near GCC2015](/src/news/near-gcc2015/index.md) news item for dates and deadlines.
+See the [Events Aplenty Near GCC2015](/news/near-gcc2015/) news item for dates and deadlines.
 
 *See you in Norwich!*

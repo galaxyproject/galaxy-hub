@@ -7,7 +7,7 @@
 
 <div class='title'>Introduction to Galaxy<br />October 16-17, 2012</div>
 
-**Instructors: [Dave Clements](/src/people/dave-clements/index.md)** with **Christopher Fields**
+**Instructors: [Dave Clements](/people/dave-clements/)** with **Christopher Fields**
 
 **1pm - 5pm<br /> Location - 1040 NCSA**
 
@@ -108,7 +108,7 @@ One week before this workshop there will be an Institute for Genomic Biology Sem
 
 **[Addressing Irreproducibility of Biomedical Research](http://www.igb.illinois.edu/sites/default/files/upload/Nekrutenko-1.pdf)**
 
-[Anton Nekrutenko](/src/people/anton/index.md), Ph.D.<br />
+[Anton Nekrutenko](/people/anton/), Ph.D.<br />
 
 Associate Professor of Biochemistry and Molecular Biology<br />
 Penn State University

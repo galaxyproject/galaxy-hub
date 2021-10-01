@@ -3,7 +3,7 @@ It is not recommended to run your own ToolShed. This documentation is additional
 </div>
 
 
-<div class='right'> <a href='/src/toolshed/index.md'>![Tool Shed logo](/src/images/logos/ToolShed.jpg)</a></div>
+<div class='right'> <a href='/toolshed/'>![Tool Shed logo](/src/images/logos/ToolShed.jpg)</a></div>
 
 # Hosting a Public Tool Shed for sharing Galaxy Utilities
 
@@ -29,7 +29,7 @@ After you have the configuration settings as you want them, start up your Tool S
 
 Then connect to http://localhost:9009.
 
-If you use an apache proxy to your Tool Shed, you can use the same approach detailed in our [Apache proxy to Galaxy wiki](/src/admin/config/apache-proxy/index.md). For example, the following rules can be used to enable your apache server to serve static content (located in the directory /home/galaxy/static in this example) for your Tool Shed running on port 9009:
+If you use an apache proxy to your Tool Shed, you can use the same approach detailed in our [Apache proxy to Galaxy wiki](/admin/config/apache-proxy/). For example, the following rules can be used to enable your apache server to serve static content (located in the directory /home/galaxy/static in this example) for your Tool Shed running on port 9009:
 
     RewriteEngine on
     RewriteRule ^/toolshed$ /toolshed/ [R]

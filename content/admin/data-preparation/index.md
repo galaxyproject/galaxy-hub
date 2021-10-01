@@ -1,23 +1,23 @@
 # Data Preparation
 
-**Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see [Data Managers Overview](/src/admin/tools/data-managers/index.md)** and our **[Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)**.
+**Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see [Data Managers Overview](/admin/tools/data-managers/)** and our **[Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)**.
 
-**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](/src/admin/tools/data-managers/index.md) are recommended to index new genomes (these are found in the [ToolShed](/src/toolshed/index.md). *This wiki is considered legacy and provided as a reference.***
+**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](/admin/tools/data-managers/) are recommended to index new genomes (these are found in the [ToolShed](/toolshed/). *This wiki is considered legacy and provided as a reference.***
 
 # Builds list changes
 
-If you still choose to do this manually, follow the instructions at [Data Integration](/src/admin/data-integration/index.md) to start, (**impact**: more than just a builds.txt file is needed to establish a new reference genome), making certain that your server has the necessary changes/additions to the [Data Tables](/src/admin/tools/Data%20Tables.md) model or use the alternate configuration file, then follow the guide here for the organization and execution of **data preparation** tasks in a local or cloud instance. 
+If you still choose to do this manually, follow the instructions at [Data Integration](/admin/data-integration/) to start, (**impact**: more than just a builds.txt file is needed to establish a new reference genome), making certain that your server has the necessary changes/additions to the [Data Tables](/src/admin/tools/Data%20Tables.md) model or use the alternate configuration file, then follow the guide here for the organization and execution of **data preparation** tasks in a local or cloud instance. 
 
 # Data and indexes hosted at http://usegalaxy.org
 
-Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](/src/main/index.md)** instance. All options are described here http://datacache.galaxyproject.org/. More details about the rsync server and the contents is at **[Usegalaxy.org Rsync](/src/admin/use-galaxy-rsync/index.md)**.
+Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](/main/)** instance. All options are described here http://datacache.galaxyproject.org/. More details about the rsync server and the contents is at **[Usegalaxy.org Rsync](/admin/use-galaxy-rsync/)**.
 
 ## What's in this wiki ?
 
 **This wiki shows you how to organize, index, and link in your local built-in data for the most commonly used tools.**
 Galaxy's web tool forms are each a web-accessible input wrapper that interacts with one or more underlying tools. Many require that reference data be indexed in a specific way as an one of the inputs, whether specifically selected on the form by the user or interpreted from the other input's metadata (specifically, the "database" attribute, or **dbkey**).
 
-Although a reference genome can be used from the history with most tools (see [Custom Genomes](/src/learn/custom-genomes/index.md)), this is a resource intensive process, and local built-in indexes mean quicker job execution and reduced server load. 
+Although a reference genome can be used from the history with most tools (see [Custom Genomes](/learn/custom-genomes/)), this is a resource intensive process, and local built-in indexes mean quicker job execution and reduced server load. 
 
 The link between a tool and built-in data is a configurable `".loc"` file. 
 
@@ -67,7 +67,7 @@ The Extract tool is downloaded from [http://genome.ucsc.edu](http://genome.ucsc.
 
 #### Megablast installation
 
-Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml)). See [dependencies wiki](/src/admin/tools/ToolDependencies/index.md) for current version then [download blast+](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download). Many data indexes are available directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/)
+Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml)). See [dependencies wiki](admin/config/tool-dependencies/) for current version then [download blast+](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download). Many data indexes are available directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/)
 
 #### Picard/SRMA installation
 
@@ -337,7 +337,7 @@ Place a relative symbolic link to the original FASTA file in the same location a
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
 * You can make sure the file was created correctly by restarting the server and a tool from the **SAM Tools** tool set. Input datasets should have a database assigned that corresponds to a database having a sam index.
-* Test the new database(s) by running a few datasets through tools. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset-icons-text)). 
+* Test the new database(s) by running a few datasets through tools. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/learn/managing-datasets/#dataset-icons-text)). 
 
 ### LASTZ and EXTRACT Genomic DNA
 
@@ -371,7 +371,7 @@ The Galaxy team places the .2bit file in the same location as the original fasta
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
 * Restarting the server 
 * You can make sure the `lastz_seqs.loc` is correct by opening up the LASTZ tool, and checking the dropdown menu of genomes. Test the new database(s) by running a few sequences that you expect to have hits with default parameters.
-* You can make sure the `alignseq.loc` is correct by loading a simple [BED](/src/learn/datatypes/index.md#bed) file of coordinates that you know will pull regions from the target genome as a dataset, assigning the database as the reference genome that you are testing, and running the tool. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset-icons-text)). 
+* You can make sure the `alignseq.loc` is correct by loading a simple [BED](/learn/datatypes/#bed) file of coordinates that you know will pull regions from the target genome as a dataset, assigning the database as the reference genome that you are testing, and running the tool. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/learn/managing-datasets/#dataset-icons-text)). 
 
 ### Megablast
 
@@ -380,7 +380,7 @@ Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.g
 Get the indexes: download directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/).
 Create your own, Usage: `formatdb -i <database>.fa -p F -n "<database>" -v 2000`
 
-The Galaxy [Main](/src/main/index.md) public instance uses htgs, wgs, and nt from NCBI.
+The Galaxy [Main](/main/) public instance uses htgs, wgs, and nt from NCBI.
 
 Put the data files in an organized hierarchy such as: 
  ` /galaxy-dist/tool-data/blast/<div>/<date>/<date_div>.* `

@@ -1,9 +1,9 @@
 ---
 title: March 2017 Galaxy News
 ---
-<div class='right'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the March 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  After *5 years* [of monthly newsletters](/src/galaxy-updates/index.md), we took a newsletter hiatus last month, but now we are back, and ready to report on our *continuing mission* to explore the Galaxy.
+Welcome to the March 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  After *5 years* [of monthly newsletters](/galaxy-updates/), we took a newsletter hiatus last month, but now we are back, and ready to report on our *continuing mission* to explore the Galaxy.
 
 Thanks for sticking with us. 
 
@@ -93,13 +93,13 @@ See the [full report](https://www.embl-abr.org.au/game2017report/) for more.
 
 ## GalaxyAdmins February Meetup Screencast
 
-<div class='left'><a href='/src/community/galaxy-admins/meetups/2017-02-16/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
+<div class='left'><a href='/community/galaxy-admins/meetups/2017-02-16/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
 
-A video of the [February 16 GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2017-02-16/index.md) is now available.  Nuwan Goonesekera and [Enis Afgan](/src/people/enis-afgan/index.md) presented an all-new version of CloudLaunch, an application for launching Galaxy on the Cloud instances. The [new CloudLaunch](https://beta.launch.usegalaxy.org) allows multiple flavors of Galaxy to be deployed, Docker images or applications other than Galaxy. Each application can have its own custom user interface developed to accommodate the specific application needs.
+A video of the [February 16 GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2017-02-16/) is now available.  Nuwan Goonesekera and [Enis Afgan](/people/enis-afgan/) presented an all-new version of CloudLaunch, an application for launching Galaxy on the Cloud instances. The [new CloudLaunch](https://beta.launch.usegalaxy.org) allows multiple flavors of Galaxy to be deployed, Docker images or applications other than Galaxy. Each application can have its own custom user interface developed to accommodate the specific application needs.
 
 ## All upcoming events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <div class='center'> 
 <a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a>
@@ -239,7 +239,7 @@ The transformation from our old MoinMoin based wiki to a GitHub based site refer
 
 **We still need your help to finish the move.**
 
-The *Hub* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://metalsmith.io) for web site rendering and for semi-structured content (such as the [Events](/src/events/index.md) page). The new platform offers the strength of our old wiki (easy contribution) with a markup language many more people know, easy programmatic access, and all the strengths of GitHub.
+The *Hub* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://metalsmith.io) for web site rendering and for semi-structured content (such as the [Events](/events/) page). The new platform offers the strength of our old wiki (easy contribution) with a markup language many more people know, easy programmatic access, and all the strengths of GitHub.
 
 Content was automatically converted from MoinMoin and Creole markup to Markdown, and many other things were also cleaned up in the process. However, the automatic translation stumbled in some places and the cleanup and general restructuring are far from done.  We also aren't yet taking advantage of Metalsmith to render semi-structured content and page metadata.
 
@@ -260,7 +260,7 @@ Some highlights from the past two months:
    Connor Wytko, Brian Soto, Stephen P. Ficklin. *Database*, Vol. 2017 (10 January 2017), baw154, doi:10.1093/database/baw154
 
 * [A guide and best practices for R/Bioconductor tool integration in Galaxy](https://doi.org/10.12688/f1000research.9821.1)
-   [Nitesh Turaga](/src/people/nitesh-turaga/index.md), Mallory A. Freeberg, [Dannon Baker](/src/people/dannon-baker/index.md), [John Chilton](/src/people/john-chilton/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [James Taylor](/src/james=taylor/index.md). *F1000Research*, Vol. 5 (24 November 2016), 2757, doi:10.12688/f1000research.9821.1
+   [Nitesh Turaga](/people/nitesh-turaga/), Mallory A. Freeberg, [Dannon Baker](/people/dannon-baker/), [John Chilton](/people/john-chilton/), [Anton Nekrutenko](/people/anton/), [James Taylor](/src/james=taylor/). *F1000Research*, Vol. 5 (24 November 2016), 2757, doi:10.12688/f1000research.9821.1
 
 * [MetaDP: a comprehensive web server for disease prediction of 16S rRNA metagenomic datasets](https://doi.org/10.1007/s41048-016-0033-4)
    Xilin Xu, Aiping Wu, Xinlei Zhang, Mingming Su, Taijiao Jiang, Zhe-Ming Yuan. *Biophysics Reports* (2017), pp. 1-10, doi:10.1007/s41048-016-0033-4
@@ -357,7 +357,7 @@ The Galaxy is expanding! Please help it grow.
 * [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
 * [Development Scientist (Bioinformatics)](http://chk.tbe.taleo.net/chk05/ats/careers/requisition.jsp?org=NEB&cws=1&rid=272), New England Biolabs, Ipswich, Massachusetts, United States.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -366,7 +366,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in January.
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in January.
 
 ## Pathogen Portal RNA-Rocket seeking funding
 
@@ -410,12 +410,12 @@ The [Cancer Computer](http://www.cancercomputer.com/) [Galaxy service](/src/gala
 <table class="table table-striped">
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> </td>
   </tr>
 </table>
@@ -452,7 +452,7 @@ For full details on all of the enhancements and fixes in this release, please se
 
 ### Galaxy Docker Image 17.01
 
-And, thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md), there is also now [a Docker image for Galaxy 17.01](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.01) as well.
+And, thanks to [Björn Grüning](/people/bjoern-gruening/), there is also now [a Docker image for Galaxy 17.01](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.01) as well.
 
 
 
@@ -520,9 +520,9 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # ToolShed Contributions
 
-[Tool Shed contributions from January and February](/src/toolshed/contributions/2017-02/index.md).
+[Tool Shed contributions from January and February](/toolshed/contributions/2017-02/).
 
-And please welcome [Bérénice Batut](https://github.com/bebatut) of the University of Freiburg as the newest member of the [IUC](/src/iuc/index.md).
+And please welcome [Bérénice Batut](https://github.com/bebatut) of the University of Freiburg as the newest member of the [IUC](/iuc/).
 
 # Other News
 
@@ -533,5 +533,5 @@ And please welcome [Bérénice Batut](https://github.com/bebatut) of the Univers
 * [When life sciences become data sciences](http://www.pr.uni-freiburg.de/pm/2017/pm.2017-01-27.11-en): The University of Freiburg offers Europe-wide infrastructure and service in Bioinformatics
 
 <!--
-* [Getting started with Galaxy on the cloud](/src/cloudman/getting-started/index.md)
+* [Getting started with Galaxy on the cloud](/cloudman/getting-started/)
 -->

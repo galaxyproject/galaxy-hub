@@ -31,7 +31,7 @@ export default function attacher(options) {
     // https://github.com/unifiedjs/unified#function-transformernode-file-next
     function transformer(tree, file) {
         globals.filePathRaw = file.path;
-        if (options.bases && options.bases.reduce((a, b) => a || b)) {
+        if (globals.filePathRaw && file.cwd && options.bases && options.bases.reduce((a, b) => a || b)) {
             globals.dirPath = getDirPath(options.bases, file.cwd, globals.filePathRaw);
         } else {
             console.error("No `bases` option received. Will not be able to convert image src paths to relative paths.");

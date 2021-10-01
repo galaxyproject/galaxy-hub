@@ -24,7 +24,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   </tr>
   <tr>
     <td> 14:50-:15:10 </td>
-    <td> <em>Applying Visual Analytics to Extend the Genome Browser from Visualization Tool to Analysis Tool</em>, <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, Emory University </td>
+    <td> <em>Applying Visual Analytics to Extend the Genome Browser from Visualization Tool to Analysis Tool</em>, <a href='/people/jeremy-goecks/'>Jeremy Goecks</a>, Emory University </td>
     <td> </td>
   </tr>
   <tr>
@@ -37,7 +37,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <th rowspan=2> Saturday July 16 </th>
     <td> <a href='http://www.open-bio.org/wiki/BOSC_2011'>BOSC</a> </td>
     <td> 12:05-12:15 </td>
-    <td> <em>Enabling NGS Analysis with(out) the Infrastructure</em>, <a href='/src/people/enis-afgan/index.md'>Enis Afgan</a>, Emory University </td>
+    <td> <em>Enabling NGS Analysis with(out) the Infrastructure</em>, <a href='/people/enis-afgan/'>Enis Afgan</a>, Emory University </td>
     <td> <a href='http://userwww.service.emory.edu/~eafgan/content/CloudMan_EnisAfgan_BOSC2011abstract.pdf'>Abstract</a> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/BOSC2011_Cloud.pdf'>PDF</a></td>
   </tr>
   <tr>
@@ -91,7 +91,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   <tr>
     <td rowspan=5> <a href='http://www.iscb.org/ismbeccb2011-program/workshops'>ISMB/ECCB Workshops</a> </td>
     <td rowspan=5> 14:30-16:25 </td>
-    <td> W6: <em><a href='http://www.iscb.org/archive/conferences/iscb/ismbeccb2011-program/workshops.html#w6'>Genomics for Non-Model Organisms</a></em>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, Emory University. This Galaxy organized workshop features these talks: </td>
+    <td> W6: <em><a href='http://www.iscb.org/archive/conferences/iscb/ismbeccb2011-program/workshops.html#w6'>Genomics for Non-Model Organisms</a></em>, <a href='/people/dave-clements/'>Dave Clements</a>, Emory University. This Galaxy organized workshop features these talks: </td>
     <td> <a href='http://www.iscb.org/archive/conferences/iscb/ismbeccb2011-program/workshops.html#w6'>Abstracts</a> </td>
   </tr>
   <tr>
@@ -99,7 +99,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011_RAD-seq.pdf'>PDF</a> </td>
   </tr>
   <tr>
-    <td> <em>Using RNA-seq for gene annotation, quantitation, and function in non-model organisms</em>, <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, Emory University </td>
+    <td> <em>Using RNA-seq for gene annotation, quantitation, and function in non-model organisms</em>, <a href='/people/jeremy-goecks/'>Jeremy Goecks</a>, Emory University </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2011_RNA-seq.pdf'>PDF</a> </td>
   </tr>
   <tr>
@@ -119,7 +119,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   <tr>
     <td> <a href='https://www.iscb.org/cms_addon/conferences/ismbeccb2011/technologytrack.php'>ISMB/ECCB Tech Track</a> </td>
     <td> 16:00-16:25 </td>
-    <td> TT59: </em>The Galaxy Track Browser: Transforming the Genome Browser from Visualization Tool to Analysis Tool<em>, <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, Emory University </td>
+    <td> TT59: </em>The Galaxy Track Browser: Transforming the Genome Browser from Visualization Tool to Analysis Tool<em>, <a href='/people/jeremy-goecks/'>Jeremy Goecks</a>, Emory University </td>
     <td> <a href='http://www.iscb.org/uploaded/css/82/22435.pdf'>Abstract</a> </td>
   </tr>
 </table>

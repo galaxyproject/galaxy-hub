@@ -21,7 +21,7 @@ quotas:
   - "You must be part of an academic research lab and provide a valid academic email address to get a personal GalaxEast account.  Write to galaxy@igbmc.fr to request an account."
   - "Academic users are allocated 50GB."
 citations:
-  - "[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf), poster presented at [ECCB'14](/src/events/eccb2014/index.md) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:"
+  - "[J24: GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf), poster presented at [ECCB'14](/events/eccb2014/) by Stephanie Le Gras, Serge Uge, Matthieu Jung, Ludovic Roy, Valerie Cognat, Frederic Plewniak, Irwin Davidson and Julien Seiler:"
 pub_libraries:
   - "GalaxEast"
 sponsors:

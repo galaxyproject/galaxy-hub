@@ -30,7 +30,7 @@ Nominated topics can cover a wide range. For example:
 - Development and administration around Galaxy
 - Train the trainers
 
-This list only shows some examples. If you think the communities would be interested in a topic, then please nominate it!  And if you are looking for ideas, see the topic nominated in: [2016](http://bit.ly/gcc2016noms), [2015](http://bit.ly/gcc2015vote), [2014](http://bit.ly/1s6NtMN), [2013](http://bit.ly/1i2j1gN) and the [Galaxy Events page](/src/events/index.md).
+This list only shows some examples. If you think the communities would be interested in a topic, then please nominate it!  And if you are looking for ideas, see the topic nominated in: [2016](http://bit.ly/gcc2016noms), [2015](http://bit.ly/gcc2015vote), [2014](http://bit.ly/1s6NtMN), [2013](http://bit.ly/1i2j1gN) and the [Galaxy Events page](/events/).
 
 The training nomination is open from **December, 1st** to **December, 31**. Topics will be compiled by the GCC2017 Organizing Committee, and voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
 

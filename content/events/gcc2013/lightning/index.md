@@ -7,11 +7,11 @@ title: Lightning Talks
 
 <slot name="/events/gcc2013/linkbox" />
 
-Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/src/events/gcc2013/program/index.md#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/src/people/fubar/index.md)) and [Session 8 on Tuesday](/src/events/gcc2013/program/index.md#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)).  **No more than half the lightning talk slots will be allocated before the meeting.**
+Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/events/gcc2013/program/#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/people/fubar/)) and [Session 8 on Tuesday](/src/events/gcc2013/program/#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)).  **No more than half the lightning talk slots will be allocated before the meeting.**
 
 If you wish to give a lightning talk, please send an abstract to [GCC2013 Scientific Committee](mailto:gcc2013-sci AT galaxyproject DOT org), either 
-* any time before the start of [Session 2](/src/events/gcc2013/program/index.md#day-1-main-meeting-1-july) (to be considered for Monday or Tuesday slots), or 
-* before [Session 6](/src/events/gcc2013/program/index.md#day-2-main-meeting-2-july) (to be considered for Tuesday only).  
+* any time before the start of [Session 2](/events/gcc2013/program/#day-1-main-meeting-1-july) (to be considered for Monday or Tuesday slots), or 
+* before [Session 6](/events/gcc2013/program/#day-2-main-meeting-2-july) (to be considered for Tuesday only).  
 
 The slides for all lightning talks will be made available on the this page, and the talks may be videotaped and posted here as well.
 
@@ -19,11 +19,11 @@ The slides for all lightning talks will be made available on the this page, and 
 
 ## Lightning Talks
 
-There are two lightning talk sessions, one on each day of the [main meeting](/src/events/gcc2013/program/index.md). 
+There are two lightning talk sessions, one on each day of the [main meeting](/events/gcc2013/program/). 
 
 ### Day 1: Monday 1 July
 
-During [Session 4](/src/events/gcc2013/program/index.md#day-1-main-meeting-1-july), moderated by [Ross Lazarus](/src/people/fubar/index.md).
+During [Session 4](/events/gcc2013/program/#day-1-main-meeting-1-july), moderated by [Ross Lazarus](/people/fubar/).
 
 #### Medilaxy: A Galaxy Platform For Medical Image Analysis
 
@@ -164,7 +164,7 @@ A quick overview of the Galaxy source code organization. This can be useful for 
 
 ### Day 2: Tuesday 2 July
 
-During [Session 8](/src/events/gcc2013/program/index.md#day-2-main-meeting-2-july), moderated by [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md).
+During [Session 8](/events/gcc2013/program/#day-2-main-meeting-2-july), moderated by [Hans-Rudolf Hotz](/people/hansrudolf-hotz/).
 
 #### How to set up a Galaxy service you can count upon
 
@@ -248,7 +248,7 @@ Our team, in collaboration with spectrometry plateforms, implements several tool
 
 <div class='right'>[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/GLM_GSEALightning.pdf)</div>
 
-**[Ross Lazarus](/src/people/fubar/index.md)**, Mark Ziemann and Antony Kaspi.  
+**[Ross Lazarus](/people/fubar/)**, Mark Ziemann and Antony Kaspi.  
 
  Baker IDI Heart and Diabetes Institute
 
@@ -361,14 +361,14 @@ This is your opportunity to give an impassioned and enthralling talk about somet
 
 ## Slides
 
-* Your slides (as PDF or PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/src/people/dave-clements/index.md)) to minimize the risk of BYOD. 
+* Your slides (as PDF or PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/people/dave-clements/)) to minimize the risk of BYOD. 
 * You can BYOD (your own computer or whatever) but you are advised not to. 
 * **If you do BYOD, we will start swapping out your device at 2 minutes left, rather than 1.**
 * Connection and fiddling time beyond the first minute comes out of your 5 minutes and ***is painful, for everyone.***  
 
 ## Gratuitous Advice
 
-From [Ross Lazarus](/src/people/fubar/index.md), *Benevolent Lightning Session Moderator for Life*
+From [Ross Lazarus](/people/fubar/), *Benevolent Lightning Session Moderator for Life*
 
 * Good lightning talks are well rehearsed and very, very focussed.  
 * Plan on talking to 5 or 6 slides 

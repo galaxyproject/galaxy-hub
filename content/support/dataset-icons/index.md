@@ -1,7 +1,7 @@
 ---
 title: Dataset Icons
 ---
-[Back to Support Hub](/src/support/index.md)
+[Back to Support Hub](/support/)
 
 ## Selected Dataset Icons
 

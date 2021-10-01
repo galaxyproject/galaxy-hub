@@ -6,17 +6,17 @@ date: "2019-08-01"
 
 The *August 2019 Galactic News* is here!
 
-[<img class="float-right" src="/src/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/src/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
-* [Events: GCC2019 is done; BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/src/news/2019-08-galaxy-update/index.md#events)
+* [Events: GCC2019 is done; BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/news/2019-08-galaxy-update/#events)
   * Plus deadlines this month and 19 other events in the next 90 days.
-* [178 new publications](/src/news/2019-08-galaxy-update/index.md#publications), including 5 highlighted ones.
-* [Two new Galactic Blog posts](/src/news/2019-08-galaxy-update/index.md#galactic-blog-activity):
+* [178 new publications](/news/2019-08-galaxy-update/#publications), including 5 highlighted ones.
+* [Two new Galactic Blog posts](/news/2019-08-galaxy-update/#galactic-blog-activity):
   * Getting the most out of 1) Galaxy on Twitter, and 2) Pan-Galactic Search
-* [Galaxy Platform News](/src/news/2019-08-galaxy-update/index.md#galaxy-platforms-news) from UseGalaxy.* and the Human Cell Atlas.
-* [Seven Open positions](/src/news/2019-08-galaxy-update/index.md#whos-hiring) in four countries on two continents.
-* [Updates to training materials and documentation](/src/news/2019-08-galaxy-update/index.md#doc-hub-and-training-updates).
-* [New releases](/src/news/2019-08-galaxy-update/index.md#releases).
+* [Galaxy Platform News](/news/2019-08-galaxy-update/#galaxy-platforms-news) from UseGalaxy.* and the Human Cell Atlas.
+* [Seven Open positions](/news/2019-08-galaxy-update/#whos-hiring) in four countries on two continents.
+* [Updates to training materials and documentation](/news/2019-08-galaxy-update/#doc-hub-and-training-updates).
+* [New releases](/news/2019-08-galaxy-update/#releases).
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -24,10 +24,10 @@ If you have anything to include to next month's newsletter, then please send it 
 
 <div class="card-deck">
 <div class="card border-info" style="min-width: 15rem;">
-[<img class="card-img-top" src="/src/events/gcc2019/gcc2019-logo-big-wide.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
+[<img class="card-img-top" src="/src/events/gcc2019/gcc2019-logo-big-wide.png" alt="GCC2019" />](/events/gcc2019/)
 <div class="card-header">GCC2019: Biggest GCC Yet</div>
 
-**The [2019 Galaxy Community Conference](/src/events/gcc2019/index.md)** is done!  GCC2019 was held 1-8 July, in Freiburg, Germany, the home of [Galaxy Europe](https://galaxyproject.eu/).  It was a smashing success by any measure:
+**The [2019 Galaxy Community Conference](/events/gcc2019/)** is done!  GCC2019 was held 1-8 July, in Freiburg, Germany, the home of [Galaxy Europe](https://galaxyproject.eu/).  It was a smashing success by any measure:
 
 * 231 total participants
 * 65 Talks
@@ -51,7 +51,7 @@ The slides for most talks and posters are [online](https://gcc2019.sched.com/). 
 <img class="card-img-top" src="/src/images/logos/bcc2020-wide-1000.png" alt="BCC2020" />
 <div class="card-header">BCC2020: July 18-25, 2020, Toronto</div>
 
-We are pleased to announce that the 2020 **[Galaxy Community Conference](/src/gcc/index.md)** will be held jointly with the 2020 **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/)**, at the  **Bioinformatics Community Conference (BCC2020).**
+We are pleased to announce that the 2020 **[Galaxy Community Conference](/gcc/)** will be held jointly with the 2020 **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/)**, at the  **Bioinformatics Community Conference (BCC2020).**
 
 The new name, *BCC2020*, reflects the increased blending of these two communities that is happening at next year's event.  BCC2020 will feature more theme/domain driven presentation, poster and demo sessions, featuring content from *both* communities.
 
@@ -89,7 +89,7 @@ Interested? Registration is available on a first come, first serve basis. Regist
 https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/), [GMDS-Jahrestagung](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/), Dortmund, Germany. Advance registration: August 30.
 
 
-## All [Upcoming events](/src/events/index.md)
+## All [Upcoming events](/events/)
 
 There is a lot going on in the next 3 months.
 
@@ -270,7 +270,7 @@ Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, Shan
 <div class="card-deck">
 <div class="card border-info" style="min-width: 8rem;">
 <img class="card-img-top" src="/src/blog/2019-07-galaxy-twitter/galaxy-on-twitter.png" alt="Galaxy on Twitter" />
-<div class="card-header">[Galaxy on Twitter: An Update](/src/blog/2019-07-galaxy-twitter/index.md)</div>
+<div class="card-header">[Galaxy on Twitter: An Update](/blog/2019-07-galaxy-twitter/)</div>
 
 An update from the team behind [@galaxyproject](https://twitter.com/galaxyproject) tweets, motivated by the new [@gxytraining](https://twitter.com/gxytraining) account.
 
@@ -279,7 +279,7 @@ There a lot more going on than @galaxyproject and [#UseGalaxy](https://twitter.c
 
 <div class="card border-info" style="min-width: 8rem;">
 <img class="card-img-top" src="/src/blog/2019-07-looking-for-galaxy/19-feet-of-family-sedan.jpg" alt="Where do cars go after they die?" />
-<div class="card-header">[Looking for Galaxy (info), in all the right places](/src/blog/2019-07-looking-for-galaxy/index.md)</div>
+<div class="card-header">[Looking for Galaxy (info), in all the right places](/blog/2019-07-looking-for-galaxy/)</div>
 
 How to find Galaxy info on the web, and find *only* Galaxy info on the web.  No more phones, astronomy, soccer, cars, chocolate, or Ansible (OK, maybe Ansible).
 
@@ -290,11 +290,11 @@ Also answers the question of "Where do cars go after they die?"
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -326,7 +326,7 @@ Platforms that were referenced at least twice in the past month's publications:
 
 # Who's Hiring
 
-The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
@@ -349,7 +349,7 @@ Wageningen University & Research is hiring.
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197)</div>
 
-In the [Blankenberg Lab](/src/people/dan/index.md) at the Cleveland Clinic, Cleveland, Ohio, United States.
+In the [Blankenberg Lab](/people/dan/) at the Cleveland Clinic, Cleveland, Ohio, United States.
 
 <img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
 </div>
@@ -423,7 +423,7 @@ Updated by [Nate Coraor](https://training.galaxyproject.org/training-material/ha
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">New doc: [Configure Cloud Authorization for GCP](/src/authnz/cloud/gcp/index.md)</div>
+<div class="card-header">New doc: [Configure Cloud Authorization for GCP](/authnz/cloud/gcp/)</div>
 <img class="card-img-top" src="/src/images/logos/google-cloud-platform-wide.png" alt="Google Cloud Platform" />
 <div class="card-body">
 <p class="card-text">

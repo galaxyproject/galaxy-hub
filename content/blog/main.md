@@ -7,7 +7,7 @@ layout: blog_index.pug
 
 Welcome to the *Galactic Blog*, a list of Galaxy related blog posts from community members.  This blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
 
-The Galactic Blog complements the [Galaxy News feed](/src/news/index.md).
+The Galactic Blog complements the [Galaxy News feed](/news/).
 
  **Add your voice!**
 

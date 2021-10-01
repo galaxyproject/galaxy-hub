@@ -36,17 +36,17 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 #### Revised and New Content
 
 * *Learn*: A hub page for resources on learning how to use Galaxy.
-  * [Learn](/src/learn/index.md)
+  * [Learn](/learn/)
 * *News Page and RSS Feed*: News items of interest to the Galaxy community
-  * [News](/src/news/index.md)
+  * [News](/news/)
 * *Events*: Comprehensive listing of upcoming (and past) Galaxy Events
-  * [Events](/src/events/index.md)
+  * [Events](/events/)
 * *Get Involved and Outreach*: How to get involved with Galaxy and how to spread the word.
-  * [GetInvolved](/src/get-involved/index.md)
-  * [Outreach](/src/outreach/index.md)
+  * [GetInvolved](/get-involved/)
+  * [Outreach](/outreach/)
 * *Public Galaxy Servers*: A list of publicly available Galaxy servers.
     If you have one, please add it to the list.
-      [PublicGalaxyServers](/src/use/index.md)
+      [PublicGalaxyServers](/use/)
 
 ### Tool Shed
 
@@ -77,7 +77,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * *AWS Genomics Event*
   * [http://aws.amazon.com/genomicsevent](http://aws.amazon.com/genomicsevent)
   * September 22, Seattle, Washington, United States
-  * *Developing distributed analysis pipelines with shared community resources using [CloudBioLinux](http://www.cloudbiolinux.org) and [CloudMan](/src/cloudman/index.md),* Brad Chapman 
+  * *Developing distributed analysis pipelines with shared community resources using [CloudBioLinux](http://www.cloudbiolinux.org) and [CloudMan](/cloudman/),* Brad Chapman 
 
 ## Updated & Improved
 
@@ -165,7 +165,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * While no *hard* quotas are currently implemented at the public Galaxy [Main](http://usegalaxy.org) instance, we do ask that users stay within certain usage limits:
     [Main Quotas](http://galaxyproject.org/wiki/Main#Quotas)
 * If you find that you require additional resources, please consider the alternative Galaxy options explained at:
-    [BigPicture/Choices](/src/use/index.md)
+    [BigPicture/Choices](/use/)
 
 ### Bug Fixes
 

@@ -3,7 +3,7 @@ title: "Papercuts CoFests!"
 layout: events_index_papercuts.pug
 ---
 
-Papercuts events are [Galaxy CoFests](/src/events/cofests/index.md) that address annoying, but easy to fix bugs ("paper cuts").  *Papercut CoFests* run for 24 hours (following the sun) and are collaborative events, dedicated to
+Papercuts events are [Galaxy CoFests](/events/cofests/) that address annoying, but easy to fix bugs ("paper cuts").  *Papercut CoFests* run for 24 hours (following the sun) and are collaborative events, dedicated to
 
 * **Making the Galaxy experience be a pleasure and be productive by removing and reducing irritants.**
 * **Growing the Galaxy *contributor* community by holding regular events.**

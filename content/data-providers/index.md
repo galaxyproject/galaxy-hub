@@ -1,6 +1,6 @@
 ## Data Providers
 
-[DataProviders](/src/data-providers/index.md) are a framework for easily controlling how data can be provided from a source
+[DataProviders](/data-providers/) are a framework for easily controlling how data can be provided from a source
 (generally, a dataset's file contents). They are meant to be:
 
 1. Simple to declare, configure, and associate with some source of data.
@@ -16,7 +16,7 @@ Essentially, they are meant to be a 'view' of your data and not the data themsel
 
 Currently, data providers are only available for the file contents of a dataset.
 
-For more examples than are on this page, see [DataProviders/Cookbook](/src/data-providers/cookbook/index.md).
+For more examples than are on this page, see [DataProviders/Cookbook](/data-providers/cookbook/).
 
 
 ----
@@ -80,7 +80,7 @@ for array in dataset1.datatype.dataprovider( dataset1, 'column', column_types=ty
 #### The datasets API
 
 You can access data providers for a dataset via the datasets API by passing the provider name as an argument (for more
-information on how to use the API see [Learn/API](/src/learn/api/index.md)).
+information on how to use the API see [Learn/API](/develop/api/)).
 
 ```bash
 curl 'http://localhost:8080/api/datasets/86cf1d3beeec9f1c?data_type=raw_data&provider=column&limit=2&offset=1&api_key=cf8245802b54146014108216e815d6e4'
@@ -205,7 +205,7 @@ xhr.done( function( response ){
 (Note: the double slash escaping of '\\b' which allows us to send the regex with a proper, final '\b' and not the
 ascii bell character)
 
-For more filters, see: [Filtering using calculations](/src/data-providers/cookbook/index.md#no2c_i_want_to_filter_my_data_using_a_calculation_-_not_regex)
+For more filters, see: [Filtering using calculations](/data-providers/cookbook/#no2c_i_want_to_filter_my_data_using_a_calculation_-_not_regex)
 in the cookbook.
 
 ----
@@ -287,7 +287,7 @@ It's generally enough to use the settings of an existing provider, but you may w
 in addition to existing settings.
 
 
-For more examples than are on this page, see [DataProviders/Cookbook](/src/data-providers/cookbook/index.md).
+For more examples than are on this page, see [DataProviders/Cookbook](/data-providers/cookbook/).
 
 ```wiki comment
 ----

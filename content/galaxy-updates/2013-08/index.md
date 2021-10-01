@@ -1,19 +1,19 @@
 ---
 title: August 2013 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the August 2013 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the August 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
-<div class='center'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
+<div class='center'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 # GCC2013 Report
 
-The [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/index.md) was held a month ago in Oslo Norway, at the [University of Oslo](http://uio.no).  [Video of all accepted talks](/src/events/gcc2013/program/index.md#day-1-main-meeting-1-july), the [slides for most accepted](/src/events/gcc2013/program/index.md#day-1-main-meeting-1-july) and [lightning talks](/src/events/gcc2013/lightning/index.md), [handouts and slides for all Training Day sessions](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay), and [most posters](/src/events/gcc2013/abstracts/index.md#poster-abstracts) are now available online.
+The [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/) was held a month ago in Oslo Norway, at the [University of Oslo](http://uio.no).  [Video of all accepted talks](/events/gcc2013/program/#day-1-main-meeting-1-july), the [slides for most accepted](/events/gcc2013/program/#day-1-main-meeting-1-july) and [lightning talks](/events/gcc2013/lightning/), [handouts and slides for all Training Day sessions](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay), and [most posters](/events/gcc2013/abstracts/#poster-abstracts) are now available online.
 
-GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ever held, and featured [poster sessions](/src/events/gcc2013/abstracts/index.md#poster-abstracts) and [Birds of a Feather gatherings](/src/events/gcc2013/bof/index.md) for the first time.  The evening [gatherings at the pub](/src/events/gcc2013/program/index.md#escape-to-the-pub) and the conference dinner at the historic Sporten venue, high above Oslo, also proved quite popular.
+GCC2013 was, by all accounts, a tremendous success.  This was the largest GCC ever held, and featured [poster sessions](/events/gcc2013/abstracts/#poster-abstracts) and [Birds of a Feather gatherings](/events/gcc2013/bof/) for the first time.  The evening [gatherings at the pub](/events/gcc2013/program/#escape-to-the-pub) and the conference dinner at the historic Sporten venue, high above Oslo, also proved quite popular.
 
 In addition to the videos and presentation materials, there are also several meeting reports in a wide variety of presentation styles:
 
@@ -22,13 +22,13 @@ In addition to the videos and presentation materials, there are also several mee
 * UiO Rector's Blog: [Reproduserbarhet i livsvitenskapene](http://bit.ly/12GQpvC) 
 * [Conference Tweets at ChirpStory](http://chirpstory.com/li/93570)
 * [Storify of conference Tweets](http://storify.com/search?q=GCC2013)
-* [Photos](/src/events/gcc2013/photos/index.md) from the meeting (please add your own)
+* [Photos](/events/gcc2013/photos/) from the meeting (please add your own)
 
 <br />
 
 # New Public Servers
 
-Two new servers joined [the list of over 30 publicly accessible Galaxy servers](/src/use/index.md) in July.
+Two new servers joined [the list of over 30 publicly accessible Galaxy servers](/use/) in July.
 
 ## PredPharmTox
 
@@ -103,7 +103,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 
 47 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in July. These papers may be particularly interesting to the Galaxy community
-* "[A sustainable national gateway for biological computation](https://doi.org/10.1145/2484762.2484817)" by [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), [Nate Coraor](/src/people/nate/index.md), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
+* "[A sustainable national gateway for biological computation](https://doi.org/10.1145/2484762.2484817)" by [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), [Nate Coraor](/people/nate/), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
 * "[Cloud-based uniform ChIP-Seq processing tools for modENCODE and ENCODE](https://doi.org/10.1186/1471-2164-14-494)" by Quang Trinh, Fei Y. Jen, Ziru Zhou, *et al.*, *BMC Genomics,* Vol. 14, No. 1. (2013), 494
 * "[The Banana Genome Hub](https://doi.org/10.1093/database/bat035)" by Droc, *et al.*, *Database*, Vol. 2013 (01 January 2013), 
 
@@ -113,7 +113,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 <div class='left'><a href='http://www.bioteam.net/slipstream/galaxy-edition'><img src="/src/images/logos/SlipStreamApplianceLogo.png" alt="SlipStream Appliance - Galaxy Edition" width="200" /></a></div>
 
-[BioTeam](http://bioteam.net) has [announced](/src/news/slip-stream-appliance/index.md) the [SlipStream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition) – "a high-performance, server class device pre-loaded with a fully operational Galaxy analysis platform." It is a plug-and-play solution, "intended to make Galaxy more accessible by relieving some of the burdens users may experience with other methods of accessing the platform." See the [product page](http://www.bioteam.net/slipstream/galaxy-edition) for more details.
+[BioTeam](http://bioteam.net) has [announced](/news/slip-stream-appliance/) the [SlipStream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition) – "a high-performance, server class device pre-loaded with a fully operational Galaxy analysis platform." It is a plug-and-play solution, "intended to make Galaxy more accessible by relieving some of the burdens users may experience with other methods of accessing the platform." See the [product page](http://www.bioteam.net/slipstream/galaxy-edition) for more details.
 
 <br />
 
@@ -123,26 +123,26 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 The Galaxy community now has a [mailing list dedicated to proteomics](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/).  In case you missed it, there is also a proteomics wiki page. 
 
-See [the complete list of mailing lists](/src/mailing-lists/index.md) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
+See [the complete list of mailing lists](/mailing-lists/) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
 
-Many thanks to Ira Cooke and [John Chilton](/src/people/john-chilton/index.md) for suggesting this and taking the lead in gathering the Galaxy Proteomics community.
+Many thanks to Ira Cooke and [John Chilton](/people/john-chilton/) for suggesting this and taking the lead in gathering the Galaxy Proteomics community.
 
 <br />
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 * The Netherlands Institute of Ecology (NIOO-KNAW) [Bioinformatician opening](http://bit.ly/15nT1nB) 
 * [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven 
 * [Bioinformatics job vacancy at Rothamsted Research](http://www.rothamsted.ac.uk/Content-Section=Careers&Page=Vacancies.html#1272), UK.  Use Galaxy for delivery of data analysis resources; new tool integration, ... **Closing date 4th August.**
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**.
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/334107-senior-developer-stem-cell-bioinformatics-core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
 * [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) @ LSU
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -157,7 +157,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## ISMB / ECCB / BOSC / MS SIG 2013
 
-Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2013), [BOSC](http://www.open-bio.org/wiki/BOSC_2013), and [MS SIG](http://igenomed2.stanford.edu/Proteomics2013_mssig/) in Berlin this year.  [Slides for 15 talks, posters, workshops](/src/events/ismb2013/index.md) related to Galaxy are [now available online](/src/events/ismb2013/index.md).  Also see the [summary from Bioinformatics Open Science Codefest 2013: Tools, infrastructure, standards and visualization](http://j.mp/13nJZ9m).  
+Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2013), [BOSC](http://www.open-bio.org/wiki/BOSC_2013), and [MS SIG](http://igenomed2.stanford.edu/Proteomics2013_mssig/) in Berlin this year.  [Slides for 15 talks, posters, workshops](/events/ismb2013/) related to Galaxy are [now available online](/events/ismb2013/).  Also see the [summary from Bioinformatics Open Science Codefest 2013: Tools, infrastructure, standards and visualization](http://j.mp/13nJZ9m).  
 
 <br />
 
@@ -193,29 +193,29 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
     <th> September&nbsp;28 - October&nbsp;1 </th>
     <td> <em>Galaxy Workshop</em> </td>
     <td> <a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'>The Genomic Bioinformatics Workshop</a>, Sydney, Australia </td>
-    <td> <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a>, <a href='/src/people/fubar/index.md'>Ross Lazarus</a> </td>
+    <td> <a href='/people/jennifer-jackson/'>Jennifer Jackson</a>, <a href='/people/fubar/'>Ross Lazarus</a> </td>
   </tr>
   <tr>
     <th> September 30 - October 2 </th>
     <td> <em>TBA</em>, part of the <em><a href='http://individualizingmedicineconference.mayo.edu/schedule/'>Cancer Care</a></em> session </td>
     <td> <a href='http://individualizingmedicineconference.mayo.edu/'>Individualizing Medicine Conference</a>, <a href='http://mayo.eduy/'>Mayo Clinic</a>, Rochester, Minnesota, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 1-3 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/program/'>Galaxy</a></em> </td>
     <td> <strong><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2013</a></strong>,San Francisco, California, United States </td>
-    <td> <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a> </td>
+    <td> <a href='/people/jeremy-goecks/'>Jeremy Goecks</a> </td>
   </tr>
   <tr>
     <th rowspan=2> October 7-8 </th>
     <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>TBD</a></em></td>
     <td rowspan=2> <a href='http://www.gtcbio.com/conference/ngseurope-overview'>NGS & Bioinformatics Summit Europe</a> </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nektutenko</a> </td>
+    <td> <a href='/people/anton/'>Anton Nektutenko</a> </td>
   </tr>
   <tr>
     <td> <em><a href='https://www.gtcbio.com/conference/ngseurope-agenda#Day 1 -BIO'>Using Galaxy to Provide a NGS Analysis Platform</a> </em> </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-11 </th>
@@ -233,7 +233,7 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
     <th> October 22-26 </th>
     <td> <em><a href='http://www.ashg.org/2013meeting/pages/workshops.shtml#high'>High Throughput Data Analysis and Visualization with Galaxy</a></em> </td>
     <td> <a href='http://www.ashg.org/2013meeting/'>ASHG 2013</a>, Boston, Massachusetts, United States </td>
-    <td> <a href='/src/people/anton/index.md'>Anton Nekrutenko</a>, <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a> </td>
+    <td> <a href='/people/anton/'>Anton Nekrutenko</a>, <a href='/people/jennifer-jackson/'>Jennifer Jackson</a> </td>
   </tr>
 </table>
 
@@ -241,22 +241,22 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
 
 # Galaxy Distributions
 
-The most recent official distribution was on [June 3, 2013](/src/archive/dev-news-briefs/2013-06-03/index.md).  There was a minor [security patch released on June 12](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS/).
+The most recent official distribution was on [June 3, 2013](/archive/dev-news-briefs/2013-06-03/).  There was a minor [security patch released on June 12](https://lists.galaxyproject.org/archives/list/galaxy-announce@lists.galaxyproject.org/message/MELA4C4YJ32QUVFXLMTH3RXY4X2QLGOS/).
 
 ## CloudMan Release
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
-A new version of [CloudMan](/src/cloudman/index.md) was [released in July](/src/news/cloudman-release/index.md).
+A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-release/).
 
-[CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
+[CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 **IMPORTANT - please read**
 
 Any new cluster will automatically start using this version of CloudMan. Existing clusters will be given an option to do an automatic update once the main interface page is refreshed. Note that this upgrade is a major version upgrade and thus the migration is rather complicated. The migration process has been automated but will take a little while to complete. If you have made customizations to your cluster in terms of adding file systems, upgrading the database, or similar, we do not recommend you perform the upgrade. Note that this upgrade comes with (and requires) a new AMI (ami-118bfc78), which will automatically be used when starting an instance via [CloudLaunch](http://usegalaxy.org/cloudlaunch).
 
 **This update brings a large number of updates and new features, the most prominent ones being:**
-* Unification of `galaxyTools` and `galaxyData` file systems into a single `galaxy` filesystem. This change makes it possible to utilize the [Galaxy Tool Shed](/src/toolshed/index.md) when installing tools into Galaxy.
+* Unification of `galaxyTools` and `galaxyData` file systems into a single `galaxy` filesystem. This change makes it possible to utilize the [Galaxy Tool Shed](/toolshed/) when installing tools into Galaxy.
 * Added initial support for Hadoop-type workloads
 * Added initial support for cluster federation via HTCondor
 * Added a new file system service for an instance's transient storage, allowing it to be used across the cluster over NFS

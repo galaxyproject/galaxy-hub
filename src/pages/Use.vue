@@ -105,6 +105,7 @@
                             v-for="link of getLinks(data.item, [tab.linkGroup || tab.id])"
                             :key="link.text"
                             :href="link.url"
+                            target="_blank"
                         >
                             {{ link.text }}
                         </a>
@@ -114,12 +115,18 @@
                             v-for="link of getLinks(data.item, ['academic-cloud', 'commercial-cloud'])"
                             :key="link.text"
                             :href="link.url"
+                            target="_blank"
                         >
                             {{ link.text }}
                         </a>
                     </template>
                     <template #cell(deployable)="data">
-                        <a v-for="link of getLinks(data.item, ['container', 'vm'])" :key="link.text" :href="link.url">
+                        <a
+                            v-for="link of getLinks(data.item, ['container', 'vm'])"
+                            :key="link.text"
+                            :href="link.url"
+                            target="_blank"
+                        >
                             {{ link.text }}
                         </a>
                     </template>

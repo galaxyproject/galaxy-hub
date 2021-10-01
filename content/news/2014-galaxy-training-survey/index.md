@@ -8,5 +8,5 @@ Help guide Galaxy's 2014 training efforts by taking the [Galaxy Training Survey]
 
 Thanks,
 
-[Dave Clements](/src/people/dave-clements/index.md)<br />
+[Dave Clements](/people/dave-clements/)<br />
 Galaxy Training and Outreach

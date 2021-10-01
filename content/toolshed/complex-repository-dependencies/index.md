@@ -52,4 +52,4 @@ Visiting the repository's main page displays various containers. There are two d
 
 ![](/src/toolshed/complex-repository-dependencies/manage_complex_repository_dependency_on_bwa_059.png)
 
-For more technical details on this XML file, see the [supported tool_dependencies.xml tag sets](/src/toolshed/tool-dependencies-tag-sets/index.md).
+For more technical details on this XML file, see the [supported tool_dependencies.xml tag sets](/toolshed/tool-dependencies-tag-sets/).

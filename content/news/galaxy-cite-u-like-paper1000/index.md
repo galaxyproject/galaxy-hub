@@ -2,9 +2,9 @@
 title: "1000th Galaxy CiteULike Paper"
 date: "2013-06-06"
 ---
-<div class='right'><a href='/src/publication-library/index.md'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy CiteULike Group" width="200" /></a></div>
+<div class='right'><a href='/publication-library/'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy CiteULike Group" width="200" /></a></div>
 
-The 1000<sup>th</sup> Galaxy-related paper was added to the [Galaxy CiteULike group](/src/publication-library/index.md) today. That paper was:
+The 1000<sup>th</sup> Galaxy-related paper was added to the [Galaxy CiteULike group](/publication-library/) today. That paper was:
 
  "[HvLUX1 is a candidate gene underlying the early maturity 10 locus in barley: phylogeny, diversity, and interactions with the circadian clock and photoperiodic pathways](https://doi.org/10.1111/nph.12346)" by Chiara Campoli, Artem Pankin, Benedikt Drosse, Cristina M. Casao, Seth J. Davis, Maria von Korff; *New Phytologist* (1 June 2013)
 
@@ -80,6 +80,6 @@ Each paper in the group is tagged to indicate how it is related to Galaxy.  The 
 
 The Galaxy CiteULike group was launched 18 months ago.  It continues to grow *rapidly.*
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)
 
-<span style="font-size: smaller;"> * These tags were added in 2013 and very few papers before 2013 have been back-curated with them.  All the tags are explained on the [CiteULike](/src/publication-library/index.md) page. </span>
+<span style="font-size: smaller;"> * These tags were added in 2013 and very few papers before 2013 have been back-curated with them.  All the tags are explained on the [CiteULike](/publication-library/) page. </span>

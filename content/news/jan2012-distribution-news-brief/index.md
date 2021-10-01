@@ -2,7 +2,7 @@
 title: "January 20, 2012 Distribution & News Brief"
 date: "2012-01-20"
 ---
-**Complete [News Brief](/src/archive/dev-news-briefs/2012-01-20/index.md)**
+**Complete [News Brief](/archive/dev-news-briefs/2012-01-20/)**
 
 **Highlights:**
 
@@ -21,6 +21,6 @@ upgrade: % hg pull -u -r 63bc46cc73b7
 
 **Thanks for using Galaxy!**
 
-[Jennifer Jackson](/src/people/jennifer-jackson/index.md)
+[Jennifer Jackson](/people/jennifer-jackson/)
 
-[Galaxy Team](/src/galaxy-team/index.md)
+[Galaxy Team](/galaxy-team/)

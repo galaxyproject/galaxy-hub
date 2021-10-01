@@ -9,8 +9,8 @@ Come meet at one of the Galaxy Project hubs - Penn State University - for genera
 
 # Meetups
 
-* **[May 1, 2015: RNA-Seq Workshop](/src/events/meetups/psu/2015-05/index.md)**
-* [March 17, 2015: Initial Meetup](/src/events/meetups/psu/2015-03/index.md)
+* **[May 1, 2015: RNA-Seq Workshop](/events/meetups/psu/2015-05/)**
+* [March 17, 2015: Initial Meetup](/events/meetups/psu/2015-03/)
 
 #### What is Galaxy and why could it be interesting to me?
 

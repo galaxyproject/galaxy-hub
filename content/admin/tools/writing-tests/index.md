@@ -5,7 +5,7 @@ Preparing test for your Galaxy tool is easy. In short you include a sample input
 
 Everybody benefits from a good testing - the tool author ensures quality of tool, admins can easily separate good tools from bad tools and users use tools that are reliable. An examples below explains how to write a test. 
 
-Tests can be specified in the tool config file using `<tests>` and `test` tags (for more information see [ description of test configuration tags](/src/admin/tools/tool-config-syntax/index.md).  For example, the [cluster tool](https://github.com/galaxyproject/tools-devteam/blob/master/tool_collections/gops/cluster/cluster.xml) specifies the following tests:
+Tests can be specified in the tool config file using `<tests>` and `test` tags (for more information see [ description of test configuration tags](/admin/tools/tool-config-syntax/).  For example, the [cluster tool](https://github.com/galaxyproject/tools-devteam/blob/master/tool_collections/gops/cluster/cluster.xml) specifies the following tests:
 
 ```xml
   <tests>
@@ -83,7 +83,7 @@ Now let's take a look at the first test:
 
 All this does is specify parameters that will be used by test framework to run this test. For most input types, the value should be what would be entered by the user when running the tool through the web, with the exception of input and output. The input (`5.bed`) and output (`gops-cluster-1.bed`) files reside within the `~/test-data` directory. Once the test is executed the framework simply compares generated output with an example file (`gops-cluster-1.bed` in this case). If there are no differences - test is declared success. 
 
-To run the Galaxy functional tests see [Running Tests](/src/admin/running-tests/index.md).
+To run the Galaxy functional tests see [Running Tests](/admin/running-tests/).
 
 ----
 

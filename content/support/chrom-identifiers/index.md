@@ -2,12 +2,12 @@
 title: Chromosome Identifiers in Reference Genomes (and other -omes)
 ---
 
-**[Back to Support Hub](/src/support/index.md)**
+**[Back to Support Hub](/support/)**
 **[Troubleshooting Help](/src/support/#troubleshooting)**
 
 Methods described help to identify and correct errors or unexpected results linked to inputs having non-identical chromosome identifiers and/or different chromosome sequence content. 
 
-**If using a Custom Reference genome**, the methods below also apply, but the first step is to make certain that the [Custom Genome is formatted correctly](/src/learn/custom-genomes/index.md). Improper formating is the most common root cause of CG related errors.
+**If using a Custom Reference genome**, the methods below also apply, but the first step is to make certain that the [Custom Genome is formatted correctly](/learn/custom-genomes/). Improper formating is the most common root cause of CG related errors.
 
 ## Find BAM dataset identifiers
 
@@ -117,7 +117,7 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 1. In most cases, the source will be the same for both
 1. If loading your own genome, make sure it is formatted correctly as a Custom Genome
 1. Promote the Custom Genome to a Custom Build and assign the genome/build metadata attribute to datasets
-1. [Custom Reference Genome help](/src/learn/custom-genomes/index.md)
+1. [Custom Reference Genome help](/learn/custom-genomes/)
 1. Be aware that if the genome is large, this option may result in a memory failure. Try *Method 2* or consider moving to a local or cloud Galaxy where you can control the resources
 
 ## A Note on Built-in Reference Genomes

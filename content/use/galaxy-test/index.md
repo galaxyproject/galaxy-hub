@@ -10,16 +10,16 @@ platforms:
 summary: "Beta version of Galaxy Main "
 image: "/src/use/galaxy-test/galaxy-test-300.png"
 comments:
-  - "[Beta version](/src/test/index.md) of Galaxy [Main](/src/main/index.md)"
-  - "Not stable or persistent.  See [Test](/src/test/index.md) for more."
+  - "[Beta version](/test/) of Galaxy [Main](/main/)"
+  - "Not stable or persistent.  See [Test](/test/) for more."
 user_support:
 quotas:
-  - "Storage and computational quotas.  See [Test](/src/test/index.md) for details"
+  - "Storage and computational quotas.  See [Test](/test/) for details"
 citations:
-  - "[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/44/W1/W3.full),  [Enis Afgan](/src/people/enis-afgan/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), [Marius van den Beek](http://www.ibps.upmc.fr/en/ibps/directory/1921-Marius-Van+Den+Beek), [Daniel Blankenberg](/src/people/dan/index.md), [Dave Bouvier](/src/people/dave-bouvier/index.md), [Martin Čech](/src/people/marten/index.md), [John Chilton](/src/people/john-chilton/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Nate Coraor](/src/people/nate/index.md), [Carl Eberhard](/src/people/carl-eberhard/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md), [Aysam Guerler](/src/people/guerler/index.md), [Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md), [Greg Von Kuster](/src/people/greg_vonkuster/index.md), [Helena Rasche](https://github.com/hexylena), [Nicola Soranzo](http://biowiki.crs4.it/biowiki/NicolaSoranzo), [Nitesh Turaga](/src/people/nitesh-turaga/index.md), [James Taylor](/src/people/james-taylor/index.md), [Anton Nekrutenko](/src/people/anton/index.md), and [Jeremy Goecks](/src/people/jeremy-goecks/index.md). *Nucleic Acids Research* (2016) 44(W1): W3-W10 doi:10.1093/nar/gkw343"
-  - "[Project tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%2BProject) in [Galaxy Publication library](/src/publication-library/index.md)."
-  - "See [Citing Galaxy](/src/citing-galaxy/index.md)"
+  - "[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](http://nar.oxfordjournals.org/content/44/W1/W3.full),  [Enis Afgan](/people/enis-afgan/), [Dannon Baker](/people/dannon-baker/), [Marius van den Beek](https://github.com/mvdbeek), [Daniel Blankenberg](/people/dan/), [Dave Bouvier](/people/dave-bouvier/), [Martin Čech](/people/marten/), [John Chilton](/people/john-chilton/), [Dave Clements](/people/dave-clements/), [Nate Coraor](/people/nate/), [Carl Eberhard](/people/carl-eberhard/), [Björn Grüning](/people/bjoern-gruening/), [Aysam Guerler](/people/guerler/), [Jennifer Hillman-Jackson](/people/jennifer-jackson/), [Greg Von Kuster](/people/greg-vonkuster/), [Helena Rasche](https://github.com/hexylena), [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), [Nitesh Turaga](/people/nitesh-turaga/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), and [Jeremy Goecks](/people/jeremy-goecks/). *Nucleic Acids Research* (2016) 44(W1): W3-W10 doi:10.1093/nar/gkw343"
+  - "[Project tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%2BProject) in [Galaxy Publication library](/publication-library/)."
+  - "See [Citing Galaxy](/citing-galaxy/)"
 pub_libraries:
 sponsors:
-  - "[Galaxy Project](/src/galaxy-project/index.md)"
+  - "[Galaxy Project](/galaxy-project/)"
 ---

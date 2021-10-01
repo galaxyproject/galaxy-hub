@@ -6,7 +6,7 @@ date: "2020-06-11"
 
 # In the June 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * **[James Taylor Foundation](#jtech-the-james-taylor-foundation)**
 * **[BCC2020](#bcc2020-will-be-online-global-affordable-and-accessible) will be online, global, affordable, and accessible**
@@ -30,7 +30,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <div class="small float-right">Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)</div>
 </div>
 
-The recent passing of [Dr. James Taylor](/src/jxtx/index.md), the Ralph S. O’Connor Professor of Biology and Professor of Computer Science at Johns Hopkins University, has left an enormous void in the field of computational biology. To help fill this void and continue James’ efforts, the Galaxy community has established a memorial foundation in James’ name.
+The recent passing of [Dr. James Taylor](/jxtx/), the Ralph S. O’Connor Professor of Biology and Professor of Computer Science at Johns Hopkins University, has left an enormous void in the field of computational biology. To help fill this void and continue James’ efforts, the Galaxy community has established a memorial foundation in James’ name.
 
 James believed that scientific progress can best be sustained through mentoring of students and junior faculty. The Junior Training and Educational Connections Hotspot (JTech) foundation will ensure implementation of this vision. To begin, JTech will  (1) support  graduate students to participate in computational biology and data science conferences, and (2) organize and host mentoring sessions between senior and junior faculty members at high-profile meetings. JTech will later expand its reach as a platform for academic mentorship including high school through college age students.
 
@@ -46,7 +46,7 @@ To make this happen we are [accepting contributions here](https://galaxyproject.
 <img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
 <div class="card-header">[BOSC + GCC = BCC2020](https://bcc2020.github.io/)</div>
 
-The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/src/gcc/index.md).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
+The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/gcc/).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
@@ -134,7 +134,7 @@ Galaxy and the NIH Sequence Read Archive are now directly connected, enabling re
 
 [NIH's Sequence Read Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra) will become an integrated data source on [UseGalaxy.org](https://usegalaxy.org) this month. This functionality is also built in to the upcoming 20.05 release of Galaxy. With this connection, you will be able to work with SRA data available from NCBI more easily within the Galaxy framework.
 
-A [webinar on June 24](/src/events/2020-06-sra/index.md) will demonstrate this integration and how to use SRA data in the Galaxy platform.  The webinar will be held on June 24, at Noon, Eastern US time (GMT -4).  Interested?  **[Register now](https://docs.google.com/forms/d/e/1FAIpQLSfeAjnJSEfG11ngNn_sS3imPiXuHhdUcDSaBO6u__88xRnMbA/viewform).**
+A [webinar on June 24](/events/2020-06-sra/) will demonstrate this integration and how to use SRA data in the Galaxy platform.  The webinar will be held on June 24, at Noon, Eastern US time (GMT -4).  Interested?  **[Register now](https://docs.google.com/forms/d/e/1FAIpQLSfeAjnJSEfG11ngNn_sS3imPiXuHhdUcDSaBO6u__88xRnMbA/viewform).**
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
@@ -151,7 +151,7 @@ NIH has released a request for information (RFI) to solicit community feedback o
 
 # More Upcoming Events
 
-The coronavirus outbreak has impacted BCC2020, and just about every other event for the rest of the year too.  Most events through the end of August have been postponed or moved online.  We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+The coronavirus outbreak has impacted BCC2020, and just about every other event for the rest of the year too.  Most events through the end of August have been postponed or moved online.  We have updated our [list of events](/events/) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
@@ -174,14 +174,14 @@ June is an active month for the Scientific Gateways Community Institute:
 
 [This workshop](https://galaxyproject.eu/event/2020-05-27-Machine-Learning-Elixir/) will be held online 22-26 June.  **Registration deadline is 16 June!**
 
-*The organizers are seeking French-speaking Teaching Assistants for this workshop. If you can help (Tues + Thurs only) please contact [Björn Grüning](/src/people/bjoern-gruening/index.md).*
+*The organizers are seeking French-speaking Teaching Assistants for this workshop. If you can help (Tues + Thurs only) please contact [Björn Grüning](/people/bjoern-gruening/).*
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
 <img class="card-img-top" src="/src/events/2020-ismb/ismb-2020-logo-wide.jpg" alt="Galaxy @ ISMB 2020" />
 <div class="card-header"></div>
 
-[ISMB 2020](https://www.iscb.org/ismb2020) has gone virtual and [Galaxy is going with it](/src/events/2020-ismb/index.md): Check out
+[ISMB 2020](https://www.iscb.org/ismb2020) has gone virtual and [Galaxy is going with it](/events/2020-ismb/): Check out
 
 * a tutorial,
 * a COSI keynote, and
@@ -197,7 +197,7 @@ so far.  Look for more as the schedule comes online.
 
 There are
 
-* [20 upcoming events](/src/events/index.md) (most of them virtual)
+* [20 upcoming events](/events/) (most of them virtual)
 * covering COVID-19, variant detection, assembly, machine learning, accessing SRA, metabarcoding, bioinformatics education, RNA-Seq and more.
 
 And material from some recent past events is now available:
@@ -209,12 +209,12 @@ And material from some recent past events is now available:
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
 
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem;">
-<div class="card-header">[MaREA4Galaxy](/src/use/marea4galaxy/index.md)</div>
+<div class="card-header">[MaREA4Galaxy](/use/marea4galaxy/)</div>
 
 <img class="card-img-top" src="/src/use/marea4galaxy/marea4galaxy-logo.png" alt="MaREA4Galaxy" />
 
@@ -226,7 +226,7 @@ The **[MaREA4Galaxy server](http://bimib.disco.unimib.it:5555/)** supports the *
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[wQAP](/src/use/wqap/index.md)</div>
+<div class="card-header">[wQAP](/use/wqap/)</div>
 
 <img class="card-img-top" src="/src/use/wqap/wqap-logo.png" alt="wQAP" />
 
@@ -243,7 +243,7 @@ The **[wQAP Galaxy server](http://life2cloud.com:6005/qap)** is an online versio
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -278,9 +278,9 @@ Platforms that were referenced/used *at least twice* in recent publications:
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[Galaxy Machine Learning Community Hub Page](/src/community/machine-learning/index.md)</div>
+<div class="card-header">[Galaxy Machine Learning Community Hub Page](/community/machine-learning/)</div>
 
-Machine Learning has had an active Galaxy community for a while now, and now that community has it's [own web page on the Galaxy Hub](/src/community/machine-learning/index.md) describing the [Machine learning Workbench](https://ml.usegalaxy.eu/), relevant training, and supported tools.  Coming soon: community communication channels. 
+Machine Learning has had an active Galaxy community for a while now, and now that community has it's [own web page on the Galaxy Hub](/community/machine-learning/) describing the [Machine learning Workbench](https://ml.usegalaxy.eu/), relevant training, and supported tools.  Coming soon: community communication channels. 
 
 <img class="card-img-bottom" src="/images/communities/machine_learning_logo.png" alt="Galaxy Machine Learning Community Hub" />
 </div>

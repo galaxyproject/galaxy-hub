@@ -10,7 +10,7 @@ authors: "Helena Rasche"
 ## History
 
 For the past month a few Galaxy Developers have been working on monitoring the
-[public Galaxy instances](/src/use/index.md) across the universe. We have been making hourly
+[public Galaxy instances](/use/) across the universe. We have been making hourly
 requests to instances which have listed themselves in one of the public Galaxy
 server lists to request non-sensitive information about their configuration.
 

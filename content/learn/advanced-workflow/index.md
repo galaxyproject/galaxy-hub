@@ -11,8 +11,8 @@ title: Creating Workflows and Advanced Workflow Options
 * Workflow can be reused over and over, not only reducing tedious work, but enhancing reproducibility by applying the same exact methods to all of your data.
 * Workflows can be executed on multiple streams of input data in a single pass with the output results sent to new, distinct, result histories. 
 * Workflow intermediate and final output datasets can be custom labeled, hidden or shown in default view, have post-job actions applied, and other advanced options executed.
-* Workflows can be executed using the API (including workflows that exist on the public [Main](/src/main/index.md) server). Your account's API Key is generated/stored under *User -> API Keys*. Learn more about the **[API...](/src/learn/api/index.md)**
-* Check the usage information on other [public Galaxy servers](/src/use/index.md) to see if they support API access.
+* Workflows can be executed using the API (including workflows that exist on the public [Main](/main/) server). Your account's API Key is generated/stored under *User -> API Keys*. Learn more about the **[API...](/develop/api/)**
+* Check the usage information on other [public Galaxy servers](/use/) to see if they support API access.
 
 ## Learn from an example
 
@@ -23,7 +23,7 @@ title: Creating Workflows and Advanced Workflow Options
 
 </div>
 
-* Choose a workflow from **[Main's](/src/main/index.md) Published Workflows: [https://usegalaxy.org/workflow/list_published](https://usegalaxy.org/workflow/list_published)**
+* Choose a workflow from **[Main's](/main/) Published Workflows: [https://usegalaxy.org/workflow/list_published](https://usegalaxy.org/workflow/list_published)**
 * Click on the workflow name to access the pull-down menu of options and explore.
 * Import a workflow after viewing it. This will place it in your "Saved Workflows" list. 
 * Lost your place? Go to the very top menu and click on "Workflow". 
@@ -35,22 +35,22 @@ title: Creating Workflows and Advanced Workflow Options
 
 Do you already have an analysis path created in a history? Then your new workflow is just a few clicks away. 
 
-**[Learn how...](/src/learn/advanced-workflow/extract/index.md)**
+**[Learn how...](/learn/advanced-workflow/extract/)**
 
 ## Basic editing
 
 Understanding the layout and basic usage options of the workflow editor are powerful yet simple concepts to master. If you are just getting started with workflows, this is worth a review. 
 
-**[Read more...](/src/learn/advanced-workflow/basic-editing/index.md)**
+**[Read more...](/learn/advanced-workflow/basic-editing/)**
 
 ## Using variables
 
 A special option of advanced editing, making use of variables to control dataset names can be used to improve clarity in output results. **Note that this functionality is undergoing active changes and may not work exactly as in the example at this time**
 
-**[Details here...](/src/learn/advanced-workflow/variables/index.md)**
+**[Details here...](/learn/advanced-workflow/variables/)**
 
 ## Turn your workflow into a tool?
 
 Well, not exactly, but it can *look* just like a tool in the tool menu pane and *function* very much like a tool in the history pane. Does the rest matter? Likely not, since full detail/reproducibility is still preserved (is just hidden from default view that can be unhidden for review, permanently or temporarily). Interested? 
 
-**[Here's how...](/src/learn/advanced-workflow/tool-panel/index.md)**
+**[Here's how...](/learn/advanced-workflow/tool-panel/)**

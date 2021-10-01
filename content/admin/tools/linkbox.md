@@ -1,15 +1,15 @@
 <div class='linkbox'>
 
-# [Galaxy Tools](/src/tools/index.md)
+# [Galaxy Tools](/tools/)
 
 ----
-[Install from ToolShed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)  
-[Create Custom Tool](/src/admin/tools/add-tool-tutorial/index.md)  
-[Complete Tool Syntax](/src/admin/tools/tool-config-syntax/index.md)  
+[Install from ToolShed](/admin/tools/add-tool-from-toolshed-tutorial/)  
+[Create Custom Tool](/admin/tools/add-tool-tutorial/)  
+[Complete Tool Syntax](/admin/tools/tool-config-syntax/)  
 ----
-**[Galaxy ToolShed](/src/toolshed/index.md)**  
-[Publishing Tools](/src/toolshed/publish-tool/index.md)  
-[Utilities Commission](/src/iuc/index.md)  
-[Hosting Tool Shed](/src/toolshed/hosting-a-local-toolshed/index.md)  
+**[Galaxy ToolShed](/toolshed/)**  
+[Publishing Tools](/toolshed/publish-tool/)  
+[Utilities Commission](/iuc/)  
+[Hosting Tool Shed](/toolshed/hosting-a-local-toolshed/)  
 
 </div>

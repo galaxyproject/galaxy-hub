@@ -4,9 +4,9 @@ title: June & July 2017 Tool Shed contributions
 
 <div class="right">[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="180">](http://toolshed.g2.bx.psu.edu/)</div>
 
-Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu/) in [June and July 2017](/src/galaxy-updates/2017-08/index.md).
+Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu/) in [June and July 2017](/galaxy-updates/2017-08/).
 
-* [All monthly summaries](/src/toolshed/contributions/index.md)
+* [All monthly summaries](/toolshed/contributions/)
 
 ## New Tools
 

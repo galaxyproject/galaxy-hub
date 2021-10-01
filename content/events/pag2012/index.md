@@ -50,7 +50,7 @@ Galaxy had a strong presence at [Plant and Animal Genome XX (PAG 2012)](http://w
     <td style=" text-align: center;"> 10:30-11:30 </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2350.html'>Galaxy</a> (slides: <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012PAGGalaxy.pdf'>PDF</a>) </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Session1123.html'>GMOD Workshop</a> </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> 11:35-11:50 </td>

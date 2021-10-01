@@ -37,7 +37,7 @@ Galaxy gives you large space on the web, however you can download it locally on 
 
 ## WHY SHOULD I ATTEND ? 
 
-You will join our [Arabic Galaxy Community](/src/community/arabic/index.md) which is the first one in the middle East and Africa.
+You will join our [Arabic Galaxy Community](/community/arabic/) which is the first one in the middle East and Africa.
 
 * As a medical student it is important to have an introducation about the future of medicine, Genomics is entering all fields of medicine both Basic and clinical medicine involving all specialities not only clinical Genetics.
 * As a physician you will need to deal with genomic testing in the coming years as the technology becomes cheaper and more widely available.

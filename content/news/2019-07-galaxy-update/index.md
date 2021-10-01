@@ -4,18 +4,18 @@ tease: "GCC2019 is here! (And other new stuff too)"
 date: "2019-06-28"
 ---
 
-[<img class="float-right" src="/src/news/2019-07-galaxy-update/2019-07-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/src/news/2019-07-galaxy-update/2019-07-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *July 2019 Galactic News* is here!
 
-* **[GCC2019 is here!](/src/news/2019-07-galaxy-update/index.md#gcc2019-is-here)**
-* Plus [17 other upcoming events](/src/news/2019-07-galaxy-update/index.md#upcoming-events) in the next 90 days
-* [153 new publications](/src/news/2019-07-galaxy-update/index.md#publications), great resources lead to great insight. 
-* [Galaxy Platform News](/src/news/2019-07-galaxy-update/index.md#galaxy-platforms-news) for Galaxy Europe and Galaxy Australia
-* At least [6 Open positions](/src/news/2019-07-galaxy-update/index.md#whos-hiring) in five countries on two continents. 
-* [Updates to training materials and documentation](/src/news/2019-07-galaxy-update/index.md#doc-hub-and-training-updates).
-* [New tools](/src/news/2019-07-galaxy-update/index.md#toolshed-contributions) and [new releases](/src/news/2019-07-galaxy-update/index.md#releases).
-* And [some other news](/src/news/2019-07-galaxy-update/index.md#other-news) too.
+* **[GCC2019 is here!](/news/2019-07-galaxy-update/#gcc2019-is-here)**
+* Plus [17 other upcoming events](/news/2019-07-galaxy-update/#upcoming-events) in the next 90 days
+* [153 new publications](/news/2019-07-galaxy-update/#publications), great resources lead to great insight. 
+* [Galaxy Platform News](/news/2019-07-galaxy-update/#galaxy-platforms-news) for Galaxy Europe and Galaxy Australia
+* At least [6 Open positions](/news/2019-07-galaxy-update/#whos-hiring) in five countries on two continents. 
+* [Updates to training materials and documentation](/news/2019-07-galaxy-update/#doc-hub-and-training-updates).
+* [New tools](/news/2019-07-galaxy-update/#toolshed-contributions) and [new releases](/news/2019-07-galaxy-update/#releases).
+* And [some other news](/news/2019-07-galaxy-update/#other-news) too.
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -23,12 +23,12 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # GCC2019 is here!
 
-[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
+[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
 
-**The [2019 Galaxy Community Conference](/src/events/gcc2019/index.md) starts on Monday, 1 July.**  *And we are all very excited, dang it!*
+**The [2019 Galaxy Community Conference](/events/gcc2019/) starts on Monday, 1 July.**  *And we are all very excited, dang it!*
 
-* If you haven't registered yet, then [you still can](/src/events/gcc2019/registration/index.md).  We still have space in the training sessions on Monday, as well as in the conference itself on Tuesday through Thursday.
-* We still have poster and demo space (although not much).  [Submit an abstract right now](/src/events/gcc2019/abstracts/index.md).
+* If you haven't registered yet, then [you still can](/events/gcc2019/registration/).  We still have space in the training sessions on Monday, as well as in the conference itself on Tuesday through Thursday.
+* We still have poster and demo space (although not much).  [Submit an abstract right now](/events/gcc2019/abstracts/).
 * There are more [talks, posters, demos, BoFs and training at GCC2019](https://gcc2019.sched.com/) then at any GCC before it.
 
 See you in Freiburg!
@@ -42,7 +42,7 @@ See you in Freiburg!
 * [Gateway Focus Week (formerly Science Gateways Bootcamp)](https://mailchi.mp/8607266eb461/apply-now-for-september-2019-focus-week), applications due July 19.
 * [Single cell RNA-seq analysis: From questions to clusters](https://www.ebi.ac.uk/training/events/2019/single-cell-rna-seq-analysis-questions-clusters), applications due 29 July.
 
-**[Upcoming events](/src/events/index.md):**
+**[Upcoming events](/events/):**
 
 <table class="table table-striped">
 <thead>
@@ -192,7 +192,7 @@ There were 7 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGa
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
 
 ## UseGalaxy.eu News
 
@@ -233,7 +233,7 @@ Platforms that were referenced at least twice in the past month's publications:
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
 * [Bioinformaticien h/f - INNOLEA](https://www.sfbi.fr/node/11698), Mondonville, France. "Le développement d'outils pour l'analyse de données génétiques, génomiques et la mise en œuvre dans une plateforme Galaxy"
-* [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/src/people/dan/index.md), Cleveland Clinic, Cleveland, Ohio, United States.
+* [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/people/dan/), Cleveland Clinic, Cleveland, Ohio, United States.
 * ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
   * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
   * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
@@ -241,7 +241,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
   * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ---
 
@@ -263,7 +263,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 <div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in June 2019](/src/toolshed/contributions/2019-06/index.md).
+[Tool Shed contributions in June 2019](/toolshed/contributions/2019-06/).
 
 # Releases
 
@@ -284,6 +284,6 @@ The May 2019 Galaxy release comes with [additional user-facing release notes](ht
 
 # Other News
 
-* [Praveen Kumar](https://www.researchgate.net/profile/Praveen_Kumar328), who presented [A “Divide and conquer” approach to address peptide-spectrum matching challenges of large sequence databases in next-generation proteomic applications](https://eventpilotadmin.com/web/page.php?page=IntHtml&project=ASMS19&id=296222) at [ASMS 2019](/src/events/2019-asms/index.md), was awarded an [ASMS student travel award](https://www.asms.org/docs/default-source/conference/67th_asms_program2019_4-19web.pdf?sfvrsn=2#page=11) to attend.
+* [Praveen Kumar](https://www.researchgate.net/profile/Praveen_Kumar328), who presented [A “Divide and conquer” approach to address peptide-spectrum matching challenges of large sequence databases in next-generation proteomic applications](https://eventpilotadmin.com/web/page.php?page=IntHtml&project=ASMS19&id=296222) at [ASMS 2019](/events/2019-asms/), was awarded an [ASMS student travel award](https://www.asms.org/docs/default-source/conference/67th_asms_program2019_4-19web.pdf?sfvrsn=2#page=11) to attend.
 * [Supporting Open Science for Climate Researchers in Nordic Countries](https://medium.com/read-write-participate/supporting-open-science-for-climate-researchers-in-nordic-countries-e95d115a5bb9), Bérénice Batut interviews Anne Fouilloux. This work will be [presented at GCC2019](https://sched.co/PSGY)
 * [CellOrganizer for Galaxy v2.8 released](http://www.cellorganizer.org/docs/2.8.1/chapters/cellorganizer_for_galaxy.html)

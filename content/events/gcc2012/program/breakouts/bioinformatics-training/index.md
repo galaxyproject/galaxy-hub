@@ -5,7 +5,7 @@ title: Bioinformatics Training and Teaching with Galaxy
 
 
 
-**A [GCC22012](/src/events/gcc2012/index.md) [Breakout Session](/src/events/gcc2012/program/breakouts/index.md)**
+**A [GCC22012](/events/gcc2012/) [Breakout Session](/events/gcc2012/program/breakouts/)**
 
 <slot name="/events/gcc2012/linkbox" />
 # Participants
@@ -29,7 +29,7 @@ title: Bioinformatics Training and Teaching with Galaxy
 
 # Notes
 
-These notes are a rough first grouping of [Dave Clements'](/src/people/dave-clements/index.md) notes from the breakout.  Please feel free to update them.
+These notes are a rough first grouping of [Dave Clements'](/people/dave-clements/) notes from the breakout.  Please feel free to update them.
 
 
 ## Platforms

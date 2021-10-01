@@ -7,13 +7,13 @@ title: Sponsorships and Exhibitors
 
 <slot name="/events/gcc2014/linkbox" />
 
-Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics? Becoming a [2014 Galaxy Community Conference](/src/events/gcc2014/index.md) Sponsor or Exhibitor is an excellent way to raise your organization's visibility in this active and engaged community.
+Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics? Becoming a [2014 Galaxy Community Conference](/events/gcc2014/) Sponsor or Exhibitor is an excellent way to raise your organization's visibility in this active and engaged community.
 
-If your organization is interested in participating in [GCC2014](/src/events/gcc2014/index.md) as a sponsor or exhibitor then please contact [the conference organizers](/src/events/gcc2014/organizers/index.md).
+If your organization is interested in participating in [GCC2014](/events/gcc2014/) as a sponsor or exhibitor then please contact [the conference organizers](/events/gcc2014/organizers/).
 
 ## About GCC2014
 
-The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering. GCC2014 will be the fifth annual meeting. Attendance has increased every year, and [GCC2012](/src/events/gcc2012/index.md) and [GCC2013](/src/events/gcc2013/index.md) both had over 200 registration each.  Participants are mainly:
+The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering. GCC2014 will be the fifth annual meeting. Attendance has increased every year, and [GCC2012](/events/gcc2012/) and [GCC2013](/events/gcc2013/) both had over 200 registration each.  Participants are mainly:
 * Sequencing core facility staff
 * Bioinformatics core staff
 * Bioinformatics tool and workflow developers
@@ -124,12 +124,12 @@ Sponsorships are available at four different levels.
 
 <div class='center'>
 <a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br />
-**[Training Day](/src/events/gcc2014/training-day/index.md) Sponsor**
+**[Training Day](/events/gcc2014/training-day/) Sponsor**
 </div>
 <br />
 
 <div class='indent'>
-Please [contact the organizers](/src/events/gcc2014/organizers/index.md) to make inquiries about sponsoring other parts of this events.  Many additional opportunities exist, including 
+Please [contact the organizers](/events/gcc2014/organizers/) to make inquiries about sponsoring other parts of this events.  Many additional opportunities exist, including 
 * Breaks
 * Notepads, pens
 * Wifi
@@ -149,7 +149,7 @@ Please [contact the organizers](/src/events/gcc2014/organizers/index.md) to make
 
 ## Exhibitors
 
-Your organization can also be an exhibitor at [GCC2014](/src/events/gcc2014/index.md).  Exhibitor booths will be co-located with sponsor booths.  Exhibitor spaces are limited and you are encouraged to reserve your space early.
+Your organization can also be an exhibitor at [GCC2014](/events/gcc2014/).  Exhibitor booths will be co-located with sponsor booths.  Exhibitor spaces are limited and you are encouraged to reserve your space early.
 
 <div class='indent'>
 **Cost: $750 per exhibit space**

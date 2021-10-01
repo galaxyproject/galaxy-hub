@@ -10,9 +10,9 @@ title: June 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the June 2016 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. 
+Welcome to the June 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
 
 If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
 
@@ -29,7 +29,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 <a href='https://gcc2016.iu.edu'><img src="/src/images/screenshots/GCC2016SchedHomeThumb.png" alt="2016 Galaxy Community Conference complete schedule" width="170" /></a>
 </div>
 
-[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes [2 days of hackathons](https://web.archive.org/web/http://gcc2016.iu.edu/hacks/index.php), [2 days of training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [a two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featuring [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), **[poster sessions](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos)**, [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), [birds-of-a-feather meetups](/src/events/gcc2016/bofs/index.md), and [plenty of networking](http://gcc16.sched.org/overview/type/B.+Networking+%26+Sustenance). 
+[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes [2 days of hackathons](https://web.archive.org/web/http://gcc2016.iu.edu/hacks/index.php), [2 days of training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [a two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featuring [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), **[poster sessions](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos)**, [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), [birds-of-a-feather meetups](/events/gcc2016/bofs/), and [plenty of networking](http://gcc16.sched.org/overview/type/B.+Networking+%26+Sustenance). 
 
 ## Registration: June 4
 
@@ -105,24 +105,24 @@ This workshop will include a rich collection of lectures and hands-on sessions, 
 ## GalaxyAdmins June Meetups
 
 <div class='right'>
-<a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
+<a href='/community/galaxy-admins/meetups/2016-06-16/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
 </div>
 
-There will be two [GalaxyAdmins](/src/community/galaxy-admins/index.md) [meetups](/src/community/galaxy-admins/meetups/index.md) in June:
+There will be two [GalaxyAdmins](/community/galaxy-admins/) [meetups](/community/galaxy-admins/meetups/) in June:
 
-1. **An [online meetup on June 16](/src/community/galaxy-admins/meetups/2016-06-16/index.md)** featuring   [Evan Bollig](https://www.msi.umn.edu/staff/evan) and [JJ Johnson](https://www.msi.umn.edu/staff/jj) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) speaking on *Galaxy in Production at the University of Minnesota*.  
+1. **An [online meetup on June 16](/community/galaxy-admins/meetups/2016-06-16/)** featuring   [Evan Bollig](https://www.msi.umn.edu/staff/evan) and [JJ Johnson](https://www.msi.umn.edu/staff/jj) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) speaking on *Galaxy in Production at the University of Minnesota*.  
 
 1. **[An in person birds-of-a-feather meetup](http://sched.co/7KLn)** at [GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/) in Bloomington, Indiana.
 
 ## June, July, and August Events
 
-There are [a plentitude of Galaxy related events coming up](/src/events/index.md). Here's what's coming up over the summer:
+There are [a plentitude of Galaxy related events coming up](/events/). Here's what's coming up over the summer:
 
 <div class='center'> 
-<a href='/src/events/asms2016/index.md'><img src="/src/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
+<a href='/events/asms2016/'><img src="/src/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
 <a href='https://www.vlsci.org.au/events/new-round-workshops-announced'><img src="/src/images/logos/VLSCILogo.png" alt="GVL and Galaxy Workshops" height="80" /></a>
 <a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'><img src="/src/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High-throughput Sequencing Data Workshop" height=80 /></a>
-<a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
+<a href='/community/galaxy-admins/meetups/2016-06-16/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jun16.html'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
 &nbsp;&nbsp;&nbsp; 
 <a href='https://web.archive.org/web/http://gcc2016.iu.edu/index.php'><img src="/src/images/logos/GCC2016LogoSquareBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="120" /></a>
@@ -137,9 +137,9 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
   </tr>
   <tr>
     <th> June 5-9 </th>
-    <td> <em><a href='/src/events/asms2016/index.md'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a></em> </td>
+    <td> <em><a href='/events/asms2016/'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> San Antonio, Texas, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/events/asms2016/index.md'>Presenters</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/events/asms2016/'>Presenters</a> </td>
   </tr>
   <tr>
     <th> June 7 </th>
@@ -173,9 +173,9 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
   </tr>
   <tr>
     <th> June 16 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Galaxy in Production at the University of Minnesota</a></em> </td>
-    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>GalaxyAdmins Web Meetup</a>, <em><a href='/src/community/galaxy-admins/meetups/2016-06-16/index.md'>Online</a></em> </td>
-    <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2016-06-16/'>Galaxy in Production at the University of Minnesota</a></em> </td>
+    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <a href='/community/galaxy-admins/meetups/2016-06-16/'>GalaxyAdmins Web Meetup</a>, <em><a href='/community/galaxy-admins/meetups/2016-06-16/'>Online</a></em> </td>
+    <td> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a>, <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a>, <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> June 20 </th>
@@ -212,21 +212,21 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
   </tr>
   <tr>
     <th> July 8-9 </th>
-    <td> <em><a href='/src/events/ismb2016/index.md'>BOSC 2016</a></em> </td>
+    <td> <em><a href='/events/ismb2016/'>BOSC 2016</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' />  <a href='http://www.iscb.org/ismb2016'>ISMB 2016</a>, Orlando, Florida, United States </td>
-    <td> See <a href='/src/events/ismb2016/index.md'>presenters</a> </td>
+    <td> See <a href='/events/ismb2016/'>presenters</a> </td>
   </tr>
   <tr>
     <th> July 8-12 </th>
-    <td> <em><a href='/src/events/ismb2016/index.md'>ISMB 2016</a></em> </td>
+    <td> <em><a href='/events/ismb2016/'>ISMB 2016</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' />  Orlando, Florida, United States </td>
-    <td> See <a href='/src/events/ismb2016/index.md'>presenters</a> </td>
+    <td> See <a href='/events/ismb2016/'>presenters</a> </td>
   </tr>
   <tr>
     <th> July 13-17 </th>
     <td> <em><a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'>An Introduction to Using Galaxy for Genetic Data Analysis</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.genetics2016.org/index.htm'>The Allied Genetics Conference 2016 (TAGC)</a>, Orlando, Florida, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> July 15 </th>
@@ -236,9 +236,9 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
   </tr>
   <tr>
     <th> July 21 </th>
-    <td> <em><a href='/src/events/cornell2016/index.md'>Introduction to Galaxy</a></em> </td>
+    <td> <em><a href='/events/cornell2016/'>Introduction to Galaxy</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Cornell University, Ithaca, New York, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -247,7 +247,7 @@ There are [a plentitude of Galaxy related events coming up](/src/events/index.md
     <th> August 1-4 </th>
     <td> <em><a href='http://icbo.cgrb.oregonstate.edu/node/41'>Integrating Ontological and Genomic Analysis with Galaxy Workshop</a></em> </td>
     <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://icbo.cgrb.oregonstate.edu/'>ICBO 2016</a>, Corvallis, Oregon, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 12 </th>
@@ -295,11 +295,11 @@ and ...
 
 ## The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update
 
-The [project and the developer community](/src/galaxy-team/index.md) has published a new paper, 
+The [project and the developer community](/galaxy-team/) has published a new paper, 
 
   [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](https://doi.org/10.1093/nar/gkw343), *Nucleic Acids Research* (2 May 2016), doi:10.1093/nar/gkw343
 
-that describes recent updates to the Galaxy platform in general and to the project's [usegalaxy.org Galaxy server](/src/main/index.md) in particular.  Check it out.
+that describes recent updates to the Galaxy platform in general and to the project's [usegalaxy.org Galaxy server](/main/) in particular.  Check it out.
 
 ## Tagged Publications
 
@@ -375,7 +375,7 @@ The Galaxy is expanding! Please help it grow.
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 * [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -384,7 +384,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # New Public Galaxy Servers
 
-No [new publicly accessible Galaxy servers](/src/use/index.md) were added to [the list](/src/use/index.md) in May.  To make up for this sad state of affairs, we created the ...
+No [new publicly accessible Galaxy servers](/use/) were added to [the list](/use/) in May.  To make up for this sad state of affairs, we created the ...
 
 <div class='right'><br />
 <div class='center'>
@@ -395,7 +395,7 @@ No [new publicly accessible Galaxy servers](/src/use/index.md) were added to [th
 
 ## New Semi-Public Galaxy Servers Directory
 
-The [Semi-Public Galaxy Servers Directory](/src/use/index.md) lists Galaxy servers that aren't fully publicly accessible, but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
+The [Semi-Public Galaxy Servers Directory](/use/) lists Galaxy servers that aren't fully publicly accessible, but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
 Servers are classified by whom they are accessible to.  This can be based on research domain, geography based, or by membership in a multi-organization association that provides Galaxy Servers. 
 
@@ -406,12 +406,12 @@ Servers are classified by whom they are accessible to.  This can be based on res
 <table>
   <tr>
     <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -424,7 +424,7 @@ One new training organization joined the [Galaxy Training Network](https://train
 
 ## New Commercial Support Directory
 
-Ever wanted commercial support for your Galaxy needs?  There is now a [Commercial Galaxy Support directory](/src/support/commercial/index.md) you can consult if you are looking to find service providers and consultants.  The initial list includes consultants, server providers, cloud providers, and commercial trainers.
+Ever wanted commercial support for your Galaxy needs?  There is now a [Commercial Galaxy Support directory](/support/commercial/) you can consult if you are looking to find service providers and consultants.  The initial list includes consultants, server providers, cloud providers, and commercial trainers.
 
 Want to add your company to that list?  Send an email to [outreach AT galaxyproject.org](mailto:outreach AT galaxyproject.org).
 
@@ -462,7 +462,7 @@ Galaxy now detects and supports many molecular datatypes. See [PR 1941](https://
     <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.04</code> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none;"> See the <a href='/src/admin/get-galaxy/index.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
+    <td colspan=3 style=" border: none;"> See the <a href='/admin/get-galaxy/'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
   </tr>
 </table>
 
@@ -474,7 +474,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 ## CloudMan 16.04
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
 
 **We just released an update to Galaxy CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
@@ -550,7 +550,7 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 **BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 **blend4j v0.1.2**
@@ -563,9 +563,9 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 # ToolShed Contributions
 
-Please welcome [Anthony Brétaudeau](https://www6.rennes.inra.fr/igepp/Listes-des-personnes/B/Bretaudeau-Anthony) from [BIPAA](https://www6.rennes.inra.fr/igepp/L-IGEPP/Plateformes/Plateforme-bioinformatique-pour-les-arthropodes-des-agroecosystemes) at [INRA](https://www6.rennes.inra.fr/igepp/) to the [IUC](/src/iuc/index.md).
+Please welcome [Anthony Brétaudeau](https://www6.rennes.inra.fr/igepp/Listes-des-personnes/B/Bretaudeau-Anthony) from [BIPAA](https://www6.rennes.inra.fr/igepp/L-IGEPP/Plateformes/Plateforme-bioinformatique-pour-les-arthropodes-des-agroecosystemes) at [INRA](https://www6.rennes.inra.fr/igepp/) to the [IUC](/iuc/).
 
-[ToolShed contributions for April and May](/src/toolshed/contributions/2016-05/index.md).
+[ToolShed contributions for April and May](/toolshed/contributions/2016-05/).
 
 # Other News
 
