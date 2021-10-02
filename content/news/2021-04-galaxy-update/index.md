@@ -227,7 +227,7 @@ In addition, there are two more webinars this month:
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 10rem; max-width:  100%;">
-<img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
+<img class="card-img-top" src="/images/galaxy-logos/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">[April Papercuts CoFest](/events/2021-04-papercuts/)</div>
 
 **15 April, Online, Global**

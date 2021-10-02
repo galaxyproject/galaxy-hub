@@ -262,7 +262,7 @@ This workshop is open to everybody interested in Galaxy and has two independent 
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
-<img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
+<img class="card-img-top" src="/images/galaxy-logos/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">[March Papercuts CoFest](/events/2021-03-papercuts/)</div>
 
 **18 March, Online, Global**

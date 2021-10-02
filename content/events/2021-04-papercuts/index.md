@@ -5,7 +5,7 @@ days: 1
 tease: 'A community contribution day'
 continent: GL
 location: 'Online, Global'
-image: "/events/cofests/papercuts/papercuts.png"
+image: "/images/galaxy-logos/papercuts.png"
 location_url: "/events/cofests/papercuts/"
 external_url:
 gtn: false

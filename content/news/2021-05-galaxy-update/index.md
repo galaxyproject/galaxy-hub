@@ -214,7 +214,7 @@ Recordings of the two earlier webinars in the series are now available:
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <div class="trim-p">
 
-![Papercuts CoFest](/src/events/cofests/papercuts/papercuts.png)
+![Papercuts CoFest](/images/galaxy-logos/papercuts.png)
 
 </div>
 <div class="card-header trim-p">

@@ -353,7 +353,7 @@ We are now supporting alternative formats for accessing our JavaScript based sli
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
 <div class="trim-p">
 
-![COVID](./gtn-covid-stripe.jpeg)
+![COVID](/images/news-images/gtn-covid-stripe.jpeg)
 
 </div>
 <div class="card-header trim-p">

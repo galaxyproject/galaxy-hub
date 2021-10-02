@@ -37,19 +37,40 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <div class="card-deck">
 
-<!-- Use cases -->
-<div class="card lead border-info" style="min-width: 40%; max-width: 65%;">
+<!-- Inbix 2021 & Galaxy India Launch -->
+<div class="card lead border-info" style="min-width: 50%; max-width: 24rem;">
 <div class="trim-p">
 
+![Galaxy India](/images/galaxy-logos/galaxy-india-logo.png)
 
 </div>
 <div class="card-header trim-p">
 
-[Galaxy Use Cases](https://galaxyproject.eu/news?tag=UseCase)
+[Galaxy India Launch & Inbix2021 Pre-Conference Galaxy Workshop](https://neist.res.in/inbix2021/workshop.html)
 
 </div>
 
+**9-10 November**
 
+This 2 day pre-[Inbix2021](https://neist.res.in/inbix2021/) workshop will feature talks and hands-on exercises, **and the formal launch of the [Galaxy India Community](https://galaxyproject.in/).**  
+
+Presenters include include 
+[Christopher B Barnett](http://www.chemistry.uct.ac.za/cem/staff/academic/barnett), 
+[Anshu Bhardwaj](https://www.imtech.res.in/contact/staff/dr-anshu-bhardwaj/107), 
+[Simon Bray](https://www.researchgate.net/profile/Simon-Bray-2), 
+[Sona Charles](http://www.spices.res.in/ms-sona-charles), 
+[Dave Clements](/people/dave-clements/), 
+[Stephan Flemming](https://github.com/stephanflemming),
+[Selvaraman Nagamani](https://scholar.google.com/citations?user=aIQz3DkAAAAJ&hl=en), 
+and [Gareth Price](https://qfab.org/team-member/dr-gareth-price). 
+
+Registration will open this month.
+
+<div class="trim-p">
+
+![](/images/events/2021-11-inbix/inbix-2021-logo.png)
+
+</div>
 </div>
 
 
@@ -140,6 +161,7 @@ See all [upcoming events here](/events/index.md):
 <div class="card border-info" style="min-width: 20%; max-width: 18rem;">
 <div class="trim-p">
 
+![SARS-CoV-2 Data Analysis and Monitoring with Galaxy](/images/news-graphics/gtn-covid-stripe.jpeg)
 
 </div>
 <div class="card-header trim-p">
@@ -150,32 +172,31 @@ See all [upcoming events here](/events/index.md):
 
 **20 October, Online**
 
-Yet another workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions. 
- Registration will open soon, stay tuned!
+A workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions. 
+
+Registration will open soon, stay tuned!
 
 </div>
 
 
-<!-- Paper Cuts -->
+<!-- Analyse avancée de séquences -->
 <div class="card border-info" style="min-width: 30%; max-width: 18rem;">
 <div class="trim-p">
 
-![October Papercuts](/events/cofests/papercuts/papercuts.png)
+![Analyse avancée de séquences](/images/logos/igbc-cgfb.png)
 
 </div>
 <div class="card-header trim-p">
 
-[October Papercuts](/events/2021-10-papercuts/index.md)
+[Analyse avancée de séquences](https://cnrsformation.cnrs.fr/analyse-avancee-sequences)
 
 </div>
 
-**21 October, Online, Global**
+**19-21 October, Bordeaux, France**
 
-Please join us for the [CoFest day](/events/2021-10-papercuts/index.md) on October 21 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
-
-This month the [Spanish GTN community](https://training.galaxyproject.org/archive/2021-06-01/news/2021/05/20/spanish_project_begins.html) will meet to work on the curated tutorials, at 6 pm CEST. Get in touch with [Wendi Bacon](https://training.galaxyproject.org/archive/2021-06-01/hall-of-fame/nomadscientist/) to participate.
-
-We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
+* Maîtriser les outils d'analyse de séquences tels que les alignements et savoir interpréter les résultats
+* Maîtriser les formats et les analyses des nouvelles données issues du séquençage (NGS)
+* Savoir utiliser l'environnement Galaxy
 
 </div>
 
@@ -201,6 +222,28 @@ Galaxy Developer Round Table meetups in September are:
 As you can see, we still [need volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
 </div>
 
+<!-- Paper Cuts -->
+<div class="card border-info" style="min-width: 30%; max-width: 24rem;">
+<div class="trim-p">
+
+![October Papercuts](/images/galaxy-logos/papercuts.png)
+
+</div>
+<div class="card-header trim-p">
+
+[October Papercuts](/events/2021-10-papercuts/index.md)
+
+</div>
+
+**21 October, Online, Global**
+
+Please join us for the [CoFest day](/events/2021-10-papercuts/index.md) on October 21 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+
+This month the [Spanish GTN community](https://training.galaxyproject.org/archive/2021-06-01/news/2021/05/20/spanish_project_begins.html) will meet to work on the curated tutorials, at 6 pm CEST. Get in touch with [Wendi Bacon](https://training.galaxyproject.org/archive/2021-06-01/hall-of-fame/nomadscientist/) to participate.
+
+We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
+
+</div>
 </div>
 
 
