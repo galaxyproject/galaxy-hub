@@ -60,8 +60,8 @@ function main(rawArgv) {
         // full build.  We hook into the exit this way to let Gridsome do its
         // thing first.
         if (command === "build") {
-            console.log("Coping integrated static content (png, jpg, pdf, gif) to dist.");
-            cpy(["**/*.png", "**/*.jpg", "**/*.pdf", "**/*.gif", "**/*.svg"], "../dist", {
+            console.log("Coping integrated static content (png, jp(e)g, pdf, gif, and svg) to dist.");
+            cpy(["**/*.png", "**/*.jpg", "**/*.pdf", "**/*.gif", "**/*.svg", "**/*.jpeg"], "../dist", {
                 cwd: "./content",
                 overwrite: false,
                 parents: true,
