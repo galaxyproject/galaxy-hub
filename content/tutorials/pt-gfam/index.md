@@ -13,7 +13,7 @@ Here we show the basic steps of performing comparative and evolutionary analyses
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/plant_tribes.png)|
+|![](./plant_tribes.png)|
 |<small>Figure 1. The `PlantTribes` analysis workflow</small>
 
 <div class="alert alert-info" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Note: we assume that the person reading this tutorial
@@ -63,14 +63,14 @@ Upload into Galaxy the test datasets that you downloaded from the [PlantTribes G
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/upload_settings.png)|
+|![](./upload_settings.png)|
 |<small>Figure 2. Uploading the test datasets from the PlantTribes GitHub repository into Galaxy</small>
 
 Uploading the datasets into Galaxy creates a new history.  You can rename the history to be `PlantTribes test data` by clicking on `Unnamed history`.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/after_upload.png)|
+|![](./after_upload.png)|
 |<small>Figure 3. A new history named `PlantTribes test data`</small>
 
 ## **Post-process transcripts derived from a de novo transcriptome assembly (basic run)**
@@ -79,14 +79,14 @@ Open the `PlantTribes` section in your tool panel and select the `AssemblyPostpr
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/app_settings.png)|
+|![](./app_settings.png)|
 |<small>Figure 4. `AssemblyPostProcessor` options (basic run)</small>
 
 Executing the `AssemblyPostProcessor` tool with the settings shown in `Figure 4` will produce the following items in your history.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/app_outputs.png)|
+|![](./app_outputs.png)|
 |<small>Figure 5. `AssemblyPostProcessor` outputs (basic run)</small>
 
 ### Description of the outputs (basic run)
@@ -108,14 +108,14 @@ Using the `AssemblyPostProcessor` tool again, enter the following settings to:
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/app_tgf_settings.png)|
+|![](./app_tgf_settings.png)|
 |<small>Figure 6. `AssemblyPostProcessor` options (advanced run)</small>
 
 Executing the `AssemblyPostProcessor` tool with the settings shown in `Figure 6` will produce the following items in your history.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/app_tgf_outputs.png)|
+|![](./app_tgf_outputs.png)|
 |<small>Figure 7. `AssemblyPostProcessor` outputs (advanced run)</small>
 
 ### Description of the outputs (advanced run)
@@ -140,14 +140,14 @@ Select the `GeneFamilyClassifier` tool from the `PlantTribes` section in your to
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/gfc_settings.png)|
+|![](./gfc_settings.png)|
 |<small>Figure 8. `GeneFamilyClassifier` settings</small>
 
 Executing the `GeneFamilyClassifier` tool with the settings shown in `Figure 8` will produce the following items in your history.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/gfc_outputs.png)|
+|![](./gfc_outputs.png)|
 |<small>Figure 9. `GeneFamilyClassifier` outputs which include a dataset collection (history item 20)</small>
 
 ### Description of the outputs
@@ -172,14 +172,14 @@ Select the `GeneFamilyIntegrator` tool from the `PlantTribes` section in your to
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/gfi_settings.png)|
+|![](./gfi_settings.png)|
 |<small>Figure 10. `GeneFamilyIntegrator` settings</small>
 
 Executing the `GeneFamilyIntegrator` tool with the settings shown in `Figure 10` will produce the following item in your history.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/gfi_outputs.png)|
+|![](./gfi_outputs.png)|
 |<small>Figure 11. `GeneFamilyIntegrator` output</small>
 
 ### Description of the outputs
@@ -194,14 +194,14 @@ Select the `GeneFamilyAligner` tool from the `PlantTribes` section in your tool 
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/gfa_settings.png)|
+|![](./gfa_settings.png)|
 |<small>Figure 12. `GeneFamilyAligner` settings</small>
 
 Executing the `GeneFamilyAligner` tool with the `Output additional dataset collection of files` option set to "Yes" (in addition to the settings shown in Figure 12) will produce an additional dataset collection item in your history. The elements of this dataset collection are orthogroup multiple sequence alignment files in fasta format. You can render graphic visualizations of these files by clicking on the visualization icon in the history item. You can render the visualization using the `MSA viewer` to visualize large MSAs interactively or you can launch Jalview (a JNLP based multiple sequence alignment editing, visualization, and analysis workbench) to perform additional tasks on the multiple sequence alignment.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/gfa_outputs.png)|
+|![](./gfa_outputs.png)|
 |<small>Figure 13. `GeneFamilyAligner` output</small>
 
 ### Description of the outputs
@@ -217,14 +217,14 @@ Select the `GeneFamilyPhylogenyBuilder` tool from the `PlantTribes` section in y
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/gfpb_settings.png)|
+|![](./gfpb_settings.png)|
 |<small>Figure 14. `GeneFamilyPhylogenyBuilder` settings</small>
 
 Executing the `GeneFamilyPhylogenyBuilder` tool with the settings shown in `Figure 14` will produce multiple items in your history, including the following dataset collection.  The elements of this dataset collection are orthogroup newick phylogenetic tree files, all having the `nhx` Galaxy datatype.  You can render graphic visualizations of these files by clicking on the `Visualize` icon for the history item which will allow you to choose to render the visualization using either the `Charts` plugin or the `Phyloviz` plugin.  The graphic to the left of the bottom arrow in `Figure 15` is produced when choosing the `Phyloviz` plugin.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/gfpb_outputs.png)|
+|![](./gfpb_outputs.png)|
 |<small>Figure 15. `GeneFamilyPhylogenyBuilder` dataset collection output</small>
 
 ### Description of the outputs
@@ -239,21 +239,21 @@ Select the `GeneFamilyPhylogenyBuilder` tool from the `PlantTribes` section in y
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/gfpb_settings.png)|
+|![](./gfpb_settings.png)|
 |<small>Figure 14. `GeneFamilyPhylogenyBuilder` settings</small>
 
 Executing the `GeneFamilyPhylogenyBuilder` tool with the settings shown in `Figure 14` will produce multiple items in your history, including the following dataset collection.  The elements of this dataset collection are orthogroup newick phylogenetic tree files, all having the `nhx` Galaxy datatype.  You can render graphic visualizations of these files by clicking on the `Visualize` icon for the history item which will allow you to choose to render the visualization using either the `Charts` plugin or the `Phyloviz` plugin.  The graphic to the left of the bottom arrow in `Figure 15` is produced when choosing the `Phyloviz` plugin.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/gfpb_outputs.png)|
+|![](./gfpb_outputs.png)|
 |<small>Figure 15. `GeneFamilyPhylogenyBuilder` dataset collection output</small>
 
 The `Charts` plugin provides several options for rendering the visualization.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/charts.png)|
+|![](./charts.png)|
 |<small>Figure 16. Charts visualization of one of the dataset collection elements produced by the `GeneFamilyPhylogenyBuilder` tool</small>
 
 ## **Estimate paralogous and orthologous pairwise non-synonymous (Ka) and synonymous (Ks) substitution rates and visualize the distribution with fitted significant components**
@@ -262,14 +262,14 @@ Select the `KaKsAnalysis` tool from the `PlantTribes` section in your tool panel
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/kaks_settings.png)|
+|![](./kaks_settings.png)|
 |<small>Figure 17. `KaKsAnalysis` settings</small>
 
 Executing the `KaKsAnalysis` tool with the settings shown in `Figure 17` will produce the items shown on the left side of `Figure 18` in your history.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/kaks_outputs.png)|
+|![](./kaks_outputs.png)|
 |<small>Figure 18. `KaKsAnalysis` outputs and process flow to visualize the distribution with fitted significant components</small>
 
 ### Description of the outputs (left side of `Figure 18`)
@@ -294,7 +294,7 @@ The `Charts` plugin provides several options for rendering the visualization.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/charts.png)|
+|![](./charts.png)|
 |<small>Figure 16. Charts visualization of one of the dataset collection elements produced by the `GeneFamilyPhylogenyBuilder` tool</small>
 
 ## **Estimate paralogous and orthologous pairwise non-synonymous (Ka) and synonymous (Ks) substitution rates and visualize the distribution with fitted significant components**
@@ -303,14 +303,14 @@ Select the `KaKsAnalysis` tool from the `PlantTribes` section in your tool panel
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/kaks_settings.png)|
+|![](./kaks_settings.png)|
 |<small>Figure 17. `KaKsAnalysis` settings</small>
 
 Executing the `KaKsAnalysis` tool with the settings shown in `Figure 17` will produce the items shown on the left side of `Figure 18` in your history.
 
 |      |
 |------|
-|![](/src/tutorials/pt_gfam/kaks_outputs.png)|
+|![](./kaks_outputs.png)|
 |<small>Figure 18. `KaKsAnalysis` outputs and process flow to visualize the distribution with fitted significant components</small>
 
 ### Description of the outputs (left side of `Figure 18`)
