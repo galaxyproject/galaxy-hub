@@ -163,7 +163,7 @@ My pre-bioinformatics career included
 | October 30 | [Genomic data science with the Galaxy workbench](/events/2019-sacnas/) | [2019 SACNAS](http://www.2019sacnas.org/), Honolulu, Hawai'i, United States | |
 | October 11 | [Reproducible Genomic Data Analysis with the Galaxy Workbench](/events/2019-10-aises/) | [AISES 2019, Milwaukee, Wisconsin, United States](https://conference.aises.org/agenda) | |
 | September 24 | [Plenary Panel: Effective Checklists for Developers and Researchers to Gather Requirements for Science Gateways](https://sched.co/RaIM) | [Gateways 2019]( Gateways 2019, San Diego, California, United States) | |
-| September 12 | [Building a regional Galaxy Community and Platform](/src/events/2019-09-incob/#building-a-regional-galaxy-community-and-platform/index.md) | [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia | |
+| September 12 | [Building a regional Galaxy Community and Platform](/events/2019-09-incob/#building-a-regional-galaxy-community-and-platform) | [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia | |
 | September 11 | [Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://bit.ly/galaxyincob19) |  [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia | |
 | July 4 | [Use Galaxy, Right Now!](https://sched.co/PSOt) | [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany | [Slides](https://static.sched.com/hosted_files/gcc2019/05/S13OTG-7__Use%20Galaxy%2C%20Right%20Now%21.pdf) |
 | July 4 | [Galaxy Publication Library](https://sched.co/QMv4) | [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany | [Slides](https://static.sched.com/hosted_files/gcc2019/72/S13OTG-8__Galaxy%20Publication%20Library.pdf) |
