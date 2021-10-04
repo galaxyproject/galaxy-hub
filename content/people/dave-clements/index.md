@@ -2,11 +2,11 @@
 title: Dave Clements
 ---
 
-<img class="float-right" src="/src/galaxy-team/Clements.jpg" />
+<img class="float-right" src="/images/people/dave-clements/dave-clements-150.jpg" />
 
-I am a Community Manager for the [Galaxy Project](/) at [Johns Hopkins University](http://www.jhu.edu) (and formerly at [Emory University](http://emory.edu)). I organize meetings and courses, prepare training materials, and improve Galaxy's documentation, community website, and web presence.
+I am a Community Manager for the [Galaxy Project](/) at [Johns Hopkins University](http://www.jhu.edu) (and formerly at [Emory University](http://emory.edu)). I organize meetings and courses, prepare training materials, and improve Galaxy's documentation, community website, and web presence.  As a community manager I am part of a team that makes sure that the Galaxy Project and the Galaxy Community are the same thing.  *Galaxy is its community.*
 
-Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD Help Desk) from 2007-2010, where I did similar work.  I am still involved in the GMOD community as a representative of Galaxy. I have a guest faculty appointment at the [University of Oregon](http://uoregon.edu/), and over the years I have telecommuted from the [Phillips](http://www.uoregon.edu/~pphil/index.html) and [Cresko](http://creskolab.uoregon.edu/) Labs in the [Institute of Ecology and Evolution](http://ie2.uoregon.edu/) (IE<sup>2</sup>) and the [Toomey Lab](http://pages.uoregon.edu/drt/) in the [Department of Earth Sciences](https://earthsciences.uoregon.edu/). 
+Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD_Help_Desk) from 2007-2010, where I did similar work.  I am still involved in the GMOD community as a representative of Galaxy. I have a guest faculty appointment at the [University of Oregon](http://uoregon.edu/), and over the years I have telecommuted from the [Phillips](http://www.uoregon.edu/~pphil/index.html) and [Cresko](http://creskolab.uoregon.edu/) Labs in the [Institute of Ecology and Evolution](http://ie2.uoregon.edu/) (IE<sup>2</sup>) and the [Toomey Lab](http://pages.uoregon.edu/drt/) in the [Department of Earth Sciences](https://earthsciences.uoregon.edu/). 
 
 ## Details
 
@@ -21,7 +21,7 @@ Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD 
 
 My background is in computer science.  I have been working in bioinformatics since 2000.
 
-Prior to working on Galaxy (and for [NESCent](http://nescent.org/) and [GMOD](http://gmod.org/wiki/|GMOD) before that) I worked as the database manager at the [European Renal Genome project (EuReGene)](http://www.euregene.org/), as a member of the [Edinburgh Mouse Atlas Project (EMAP)](http://genex.hgu.mrc.ac.uk/).  This project studied kidney development and disease.  My work focused on gene expression patterns, and anatomy ontologies.
+Prior to working on Galaxy (and for [NESCent](http://nescent.org/) and [GMOD](http://gmod.org/wiki/) before that) I worked as the database manager at the [European Renal Genome project (EuReGene)](http://www.euregene.org/), as a member of the [Edinburgh Mouse Atlas Project (EMAP)](http://genex.hgu.mrc.ac.uk/).  This project studied kidney development and disease.  My work focused on gene expression patterns, and anatomy ontologies.
 
 Prior to EuReGene I worked for [ZFIN, the zebrafish model organism database](http://zfin.org) at the [University of Oregon](http://uoregon.edu) for 5 years as a database administrator and software engineer.
 
@@ -39,12 +39,17 @@ My pre-bioinformatics career included
 
 ## Publications
 
+### 2020s
+
 * Serrano-Solano, B., Föll, M. C., Gallardo-Alba, C., Erxleben, A., Rasche, H., Hiltemann, S., Fahrner, M., Dunning, M. J., Schulz, M. H., Scholtz, B., Clements, D., Nekrutenko, A., Batut, B., & Grüning, B. A. (2021). **[Fostering accessible online education using Galaxy as an e-learning platform](https://doi.org/10.1371/journal.pcbi.1008923)**. *PLOS Computational Biology*, 17(5), e1008923. DOI: 10.1371/journal.pcbi.1008923
 * Ostrovsky, A., Hillman‐Jackson, J., Bouvier, D., Clements, D., Afgan, E., Blankenberg, D., Schatz, M. C., Nekrutenko, A., Taylor, J., Team, the G., & Lariviere, D. (2021). **[Using Galaxy to Perform Large-Scale Interactive Data Analyses—An Update](https://doi.org/10.1002/cpz1.31)**. *Current Protocols*, 1(2), e31. DOI:10.1002/cpz1.31
 * Ramsey, J., McIntosh, B., Renfro, D., Aleksander, S. A., LaBonte, S., Ross, C., Zweifel, A. E., Liles, N., Farrar, S., Gill, J. J., Erill, I., Ades, S., Berardini, T. Z., Bennett, J. A., Brady, S., Britton, R., Carbon, S., Caruso, S. M., Clements, D., … Hu, J. C. (2021). **[Crowdsourcing biocuration: The Community Assessment of Community Annotation with Ontologies (CACAO)](https://doi.org/10.1101/2021.04.30.440339)**. *BioRxiv*, 2021.04.30.440339. DOI: 10.1101/2021.04.30.440339
 * Jalili, V., Afgan, E., Gu, Q., Clements, D., Blankenberg, D., Goecks, J., Taylor, J., & Nekrutenko, A. (2020). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2020 update](https://doi.org/10.1093/nar/gkaa434)**. *Nucleic Acids Research*, 48(W1), W395–W402. DOI: 10.1093/nar/gkaa434
 * Tekman, M., Batut, B., Ostrovsky, A., Antoniewski, C., Clements, D., Ramirez, F., Etherington, G. J., Hotz, H.-R., Scholtalbers, J., Manning, J. R., Bellenger, L., Doyle, M. A., Heydarian, M., Huang, N., Soranzo, N., Moreno, P., Mautner, S., Papatheodorou, I., Nekrutenko, A., … Grüning, B. (2020). **[A single-cell RNA-sequencing training and analysis suite using the Galaxy framework](https://doi.org/10.1093/gigascience/giaa102)**. *GigaScience*, 9(10). DOI: 10.1093/gigascience/giaa102
 * Jalili, V., Clements, D., Gruning, B., Blankenberg, D., & Goecks, J. (2020). **[Adding software to package management systems can increase their citation by 280%](https://doi.org/10.1101/2020.11.16.385211)**. *BioRxiv*, 2020.11.16.385211. DOI: 10.1101/2020.11.16.385211
+
+### 2010s
+
 * Afgan, E., Baker, D., Batut, B., van den Beek, M., Bouvier, D., Čech, M., Chilton, J., Clements, D., Coraor, N., Grüning, B. A., Guerler, A., Hillman-Jackson, J., Hiltemann, S., Jalili, V., Rasche, H., Soranzo, N., Goecks, J., Taylor, J., Nekrutenko, A., & Blankenberg, D. (2018). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update](https://doi.org/10.1093/nar/gky379)**. *Nucleic Acids Research*, 46(W1), W537–W544. DOI: 10.1093/nar/gky379
 * Batut, B., Hiltemann, S., Bagnacani, A., Baker, D., Bhardwaj, V., Blank, C., Bretaudeau, A., Brillet-Guéguen, L., Čech, M., Chilton, J., Clements, D., Doppelt-Azeroual, O., Erxleben, A., Freeberg, M. A., Gladman, S., Hoogstrate, Y., Hotz, H.-R., Houwaart, T., Jagtap, P., … Grüning, B. (2018). **[Community-Driven Data Analysis Training for Biology](https://doi.org/10.1016/j.cels.2018.05.012)**. *Cell Systems*, 6(6), 752-758.e1. DOI: 10.1016/j.cels.2018.05.012
 * Afgan, E., Baker, D., van den Beek, M., Blankenberg, D., Bouvier, D., Čech, M., Chilton, J., Clements, D., Coraor, N., Eberhard, C., Grüning, B., Guerler, A., Hillman-Jackson, J., Von Kuster, G., Rasche, E., Soranzo, N., Turaga, N., Taylor, J., Nekrutenko, A., & Goecks, J. (2016). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](https://doi.org/10.1093/nar/gkw343)**. *Nucleic Acids Research*. DOI: 10.1093/nar/gkw343
@@ -52,11 +57,17 @@ My pre-bioinformatics career included
 * Goecks, J., Li, K., Clements, D., & Taylor, J. (2011). **[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](https://doi.org/10.1109/biovis.2011.6094046)**. *Biological Data Visualization (BioVis), 2011 IEEE Symposium On*, 39–46. DOI: 10.1109/biovis.2011.6094046
 * Bolser, D. M., Chibon, P. Y., Palopoli, N., Gong, S., Jacob, D., Del Angel, V. D., Swan, D., Bassi, S., González, V., Suravajhala, P., Hwang, S., Romano, P., Edwards, R., Bishop, B., Eargle, J., Shtatland, T., Provart, N. J., Clements, D., Renfro, D. P., Bhak, D., … Bhak, J. (2012). **[MetaBase--the wiki-database of biological databases](https://doi.org/10.1093/nar/gkr1099)**. *Nucleic Acids Research*, 40(Database issue), D1250–D1254. DOI: 10.1093/nar/gkr1099 
 * Jung, S., Menda, N., Redmond, S., Buels, R. M., Friesen, M., Bendana, Y., Sanderson, L. A., Lapp, H., Lee, T., MacCallum, B., Bett, K. E., Cain, S., Clements, D., Mueller, L. A., & Main, D. (2011). **[The Chado Natural Diversity module: a new generic database schema for large-scale phenotyping and genotyping data](https://doi.org/10.1093/database/bar051)**. *Database : the Journal of Biological Databases and Curation*, 2011, bar051. DOI: 10.1093/database/bar051 
+
+### 2000s
+
 * Raciti, D., Reggiani, L., Geffers, L., Jiang, Q., Bacchion, F., Subrizi, A. E., Clements, D., Tindal, C., Davidson, D. R., Kaissling, B., & Brändli, A. W. (2008). **[Organization of the pronephric kidney revealed by large-scale gene expression mapping](https://doi.org/10.1186/gb-2008-9-5-r84)**. *Genome Biology*, 9(5), R84. DOI: 10.1186/gb-2008-9-5-r84
 * Little, M. H., Brennan, J., Georgas, K., Davies, J. A., Davidson, D. R., Baldock, R. A., Beverdam, A., Bertram, J. F., Capel, B., Chiu, H. S., Clements, D., Cullen-McEwen, L., Fleming, J., Gilbert, T., Herzlinger, D., Houghton, D., Kaufman, M. H., Kleymenova, E., Koopman, P. A., Lewis, A. G., … Yu, J. (2007). **[A high-resolution anatomical ontology of the developing murine genitourinary tract](https://doi.org/10.1016/j.modgep.2007.03.002)**. *Gene Expression Patterns* : GEP, 7(6), 680–699. DOI: 10.1016/j.modgep.2007.03.002 
 * Sprague, J., Bayraktaroglu, L., Clements, D., Conlin, T., Fashena, D., Frazer, K., Haendel, M., Howe, D. G., Mani, P., Ramachandran, S., Schaper, K., Segerdell, E., Song, P., Sprunger, B., Taylor, S., Van Slyke, C. E., & Westerfield, M. (2006). **[The Zebrafish Information Network: the zebrafish model organism database](https://doi.org/10.1093/nar/gkj086)**. *Nucleic Acids Research*, 34(Database issue), D581–D585. DOI: 10.1093/nar/gkj086 
 * Sprague, J., Clements, D., Conlin, T., Edwards, P., Frazer, K., Schaper, K., Segerdell, E., Song, P., Sprunger, B., & Westerfield, M. (2003). **[The Zebrafish Information Network (ZFIN): the zebrafish model organism database](https://doi.org/10.1093/nar/gkg027)**. *Nucleic Acids Research*, 31(1), 241–243. DOI: 10.1093/nar/gkg027 
 * Sprague, J., Doerry, E., Douglas, S., & Westerfield, M. (2001). **[The Zebrafish Information Network (ZFIN): a resource for genetic, genomic and developmental research](https://doi.org/10.1093/nar/29.1.87)**. *Nucleic Acids Research*, 29(1), 87–90. DOI: 10.1093/nar/29.1.87 
+
+### 1990s
+
 * McVey, C. B., Clements, D. P., Massey, B. C., & Parkes, A. J. (1999). **[Worldwide Aeronautical Route Planner](https://www.aaai.org/Papers/AAAI/1999/AAAI99-136.pdf)**. *AAAI-99 Proceedings*, 3.
 * Draper, D. L., Jonsson, A. K., Clements, D. P., & Joslin, D. E. (1999). **[Cyclic scheduling](https://dl.acm.org/doi/10.5555/1624312.1624364)**. *Proceedings of the 16th International Joint Conference on Artificial Intelligence* - Volume 2, 1016–1021.
 * Joslin, D. E., & Clements, D. P. (1999). **[Squeaky Wheel Optimization](https://doi.org/10.1613/jair.561)**. *Journal of Artificial Intelligence Research*, 10, 353–373. DOI: 10.1613/jair.561
@@ -66,7 +77,7 @@ My pre-bioinformatics career included
 
 ## Organizer
 
-### 2020's
+### 2020s
 
 * [2022 Galaxy Community Conference](/events/gcc2022/), July 16-23, 2022, Minneapolis, Minnesota, United States
 * [Informatics Technology for Cancer Research (ITCR) Training & Outreach Working Group](https://ncihub.org/groups/itcr/training_and_outreach_working_group_teleconference), Chair, September 2021-present, Monthly, Online, United States
@@ -75,7 +86,7 @@ My pre-bioinformatics career included
 * [Galaxy Papercuts CoFest Days](/events/cofests/papercuts), October 2020-present, Monthly, Online, Global
 * [2020 Bioinformatics Community Conference](https://bcc2020.github.io/), July 18-25, 2020, Online, Global
 
-### 2010's
+### 2010s
 
 * [2019 Galaxy Community Conference](/events/gcc2019/), July 1-8, 2020, Freiburg, Germany.
 * [GCCBOSC 2018](/src/events/gccbosc2018), , Portland, Oregon, United States
@@ -108,7 +119,7 @@ My pre-bioinformatics career included
     * [Community Annotation Satellite](http://gmod.org/wiki/Community_Annotation_-_September_2010_Satellite)
 * [GMOD Tools for Evolutionary Biology Hackathon](http://gmod.org/wiki/GMOD_Evo_Hackathon), November 8-12, 2010, Durham, North Carolina, United States
 
-### 2000's
+### 2000s
 
 * [GMOD Europe 2009](http://gmod.org/wiki/GMOD_Europe_2009), August 3-7, Oxford, United Kingdom 
   * [2009 GMOD Summer School - Europe](http://gmod.org/wiki/2009_GMOD_Summer_School_-_Europe), August 3-6
@@ -134,7 +145,9 @@ My pre-bioinformatics career included
 | --- | --- | --- | --- |
 | October 27 | [GWAS Analysis with Galaxy on the Analysis Visualization Integrated Lab-space (AnVIL)](https://www.abstractsonline.com/pp8/#!/9070/session/146) | [ASHG 2020](https://www.ashg.org/meetings/2020meeting/), Online, United States | [Tutorial](https://www.pathlms.com/ashg/courses/25102) (only open to ASHG members) |
 | September 4 | Galaxy for Immunological and Infectious Disease Research] | NIAID Webinar, Online, United States] | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-09-niaid/galaxy-intro-niaid.pdf)
-| March 2 | Using the Galaxy Training Network tutorial library for bioinformatics training programs | [ABRF 2020 pre-conference workshop](https://conf.abrf.org/program/satellite-workshops/), Palm Springs, California, United States | [Poster]() |
+| June 24 | [Webinar: Using the new Galaxy-SRA Connection](/events/2020-06-sra/) | Online, United States | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-06-sra/sra-galaxy-slides.pdf), [Video](https://youtu.be/DIhgjTOdfqE) |
+| May 13 | [Galaxy Project: Enabling an active global research community](https://sciencegateways.org/-/galaxy-project-enabling-an-active-global-research-community) | [SGCI Webinar Series](https://sciencegateways.org/engage/webinars), Online, North America | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-05-sgci/2020-05-sgci-community.pdf), [Video](https://youtu.be/fxF4iljMB0E) |
+| March 2 | Using the Galaxy Training Network tutorial library for bioinformatics training programs | [ABRF 2020 pre-conference workshop](https://conf.abrf.org/program/satellite-workshops/), Palm Springs, California, United States | [Poster](https://depot.galaxyproject.org/hub/attachments/events/2020-abrf/2020-abrf-gtn-poster.pdf) |
 | February 29 | [Single Cell RNA-Seq and Visualization Using the Galaxy Workbench](/events/2020-abrf/) | [ABRF 2020 pre-conference workshop](https://conf.abrf.org/program/satellite-workshops/), Palm Springs, California, United States | |
 | February 13 | The Path from Galaxy Team to Galaxy Community | [NCI ITCR Training and Outreach Working Group](https://ncihub.org/groups/itcr/training_and_outreach_working_group_teleconference), online | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-02-itcr-tow/itcr-tow-2020-02-galaxy-community-efforts.pdf) |
 | January 14 | [Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2020/event/a8f1e9dbae7dc0d6d1e5f05d4657f89d) | [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-pag/pag2020-intro-slides.pdf) |
@@ -493,9 +506,9 @@ Are coming, the next time I need to do a biosketch.
 * *[Introduction to Galaxy Workshop](/events/uiuc2012/)* at [University of Illinois at Urbana-Champaign](http://illinois.edu), October 2012
 * *[Transparent, accessible, reproducible analysis with Galaxy](http://genetics.cmc-uct.co.za/)* at the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/), Stellenbosch University, South Africa, September 2012
 * *[Galaxy Workshop](http://genetics.cmc-uct.co.za/?page_id=79)* at the [University of Pretoria](http://web.up.ac.za/default.asp?ipkCategoryID=17741) and [Stellenbosch University](http://www.sun.ac.za/), South Africa, September 2012
-* *Galaxy Installation Workshop* at the [http://gmod.org/wiki/2012 GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School),[US National Evolutionary Synthesis Center (NESCent)](http://nescent.org), Durham, North Carolina, United States  
+* *Galaxy Installation Workshop* at the [2012 GMOD Summer School](http://gmod.org/wiki/2012_GMOD_Summer_School), [US National Evolutionary Synthesis Center (NESCent)](http://nescent.org), Durham, North Carolina, United States  
 * *Introduction to Galaxy Workshops* at [University of Maryland College Park](/events/u-maryland2012/), [Johns Hopkins University](/events/johns-hopkins2012/), [Univeristy of Iowa](/events/uiowa2012/), and [Iowa State University](/events/iowa-state2012/), April 2012
-* *[CloudMan Workshop](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012GMODGalaxyCloudmanWorkshop.pdf)*,  *[Galaxy Project Update](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012GMODGalaxyUpdate.pdf)*, and  *[Community Building lightning talk](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012GMODCommunityLightning.pdf)* at [April 2012 GMOD Meeting](http://gmod.org/wiki/April 2012 GMOD Meeting), Washington DC, United States, April 2012
+* *[CloudMan Workshop](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012GMODGalaxyCloudmanWorkshop.pdf)*,  *[Galaxy Project Update](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012GMODGalaxyUpdate.pdf)*, and  *[Community Building lightning talk](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012GMODCommunityLightning.pdf)* at [April 2012 GMOD Meeting](http://gmod.org/wiki/April_2012_GMOD_Meeting), Washington DC, United States, April 2012
 * *[Galaxy](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012PAGGalaxy.pdf)* at [PAG 2012](/events/pag2012/), San Diego, California, United States, January 2012<br />Intro to Galaxy; most of this talk was a live demo.
 
 ### 2011
@@ -508,12 +521,12 @@ Are coming, the next time I need to do a biosketch.
 
 ### 2010
 
-* *[GMOD Sustainability and Organization](http://gmod.org/wiki/September 2010 GMOD Meeting#GMOD Sustainability and Organization)* at [http://gmod.org/wiki/September 2010 GMOD Meeting](http://gmod.org/wiki/September 2010 GMOD Meeting), Cambridge, United Kingdom, September 2010.
-* *[Help Desk Update](http://gmod.org/wiki/September 2010 GMOD Meeting#Help Desk Update)* at [http://gmod.org/wiki/September 2010 GMOD Meeting](http://gmod.org/wiki/September 2010 GMOD Meeting), Cambridge, United Kingdom, September 2010.
+* *[GMOD Sustainability and Organization](http://gmod.org/wiki/September_2010_GMOD_Meeting#GMOD_Sustainability_and_Organization)* at [September 2010 GMOD Meeting](http://gmod.org/wiki/September_2010_GMOD_Meeting), Cambridge, United Kingdom, September 2010.
+* *[Help Desk Update](http://gmod.org/wiki/September_2010_GMOD_Meeting#Help_Desk_Update)* at [September 2010 GMOD Meeting](http://gmod.org/wiki/September_2010_GMOD_Meeting), Cambridge, United Kingdom, September 2010.
 * *[GMOD for Evolutionary Biology](http://gmod.org/wiki/Image:GMODForIEvoBio2010.pdf)*, presentation with [Rob Buels](http://gmod.org/wiki/User:RobertBuels) at [iEvoBio 2010](http://ievobio.org), Portland, Oregon, June 2010.
-* *[Help Desk Report](http://gmod.org/wiki/:Image:Jan2010HelpDesk.pdf)*, presentation at [http://gmod.org/wiki/January 2010 GMOD Meeting](http://gmod.org/wiki/January 2010 GMOD Meeting), San Diego, January 2010.
-* *[GMOD Project Update](http://gmod.org/wiki/Image:PAG2010GMODProjectUpdate.pdf)*, presentation with [Scott Cain](http://gmod.org/wiki/User:Scott) at [http://gmod.org/wiki/PAG 2010](http://gmod.org/wiki/PAG 2010), San Diego, January 2010.
-* *[Comparative Genomics Tools in GMOD](http://gmod.org/wiki/Image:PAG2010ComparativeGenomicsToolsInGMOD.pdf)*, poster with [Sheldon McKay](http://gmod.org/wiki/User:Mckays), Ken Youens-Clark, [Ben Faga](http://gmod.org/wiki/User:Faga), [Scott Cain](http://gmod.org/wiki/User:Scott), at [http://gmod.org/wiki/PAG 2010](http://gmod.org/wiki/PAG 2010), San Diego, January 2010.
+* *[Help Desk Report](http://gmod.org/wiki/:Image:Jan2010HelpDesk.pdf)*, presentation at [January 2010 GMOD Meeting](http://gmod.org/wiki/January_2010_GMOD_Meeting), San Diego, January 2010.
+* *[GMOD Project Update](http://gmod.org/wiki/Image:PAG2010GMODProjectUpdate.pdf)*, presentation with [Scott Cain](http://gmod.org/wiki/User:Scott) at [PAG 2010](http://gmod.org/wiki/PAG_2010), San Diego, January 2010.
+* *[Comparative Genomics Tools in GMOD](http://gmod.org/wiki/Image:PAG2010ComparativeGenomicsToolsInGMOD.pdf)*, poster with [Sheldon McKay](http://gmod.org/wiki/User:Mckays), Ken Youens-Clark, [Ben Faga](http://gmod.org/wiki/User:Faga), [Scott Cain](http://gmod.org/wiki/User:Scott), at [PAG 2010](http://gmod.org/wiki/PAG 2010), San Diego, January 2010.
 
 ### 2009
 
@@ -521,12 +534,12 @@ Are coming, the next time I need to do a biosketch.
 * *[GMOD for Comparative Genomics](http://gmod.org/wiki/Image:ISyIPGMODforComparativeGenomics.pdf)*, presentation at [Information Systems for Insect Pests (ISyIP)](http://colloque.inra.fr/isyip), Rennes, France, November 2009
 * *[Database Tools for Biologists: A Half-Day GMOD Workshop](http://gmod.org/wiki/BA2009)*, at [Bioinformatics Australia 2009 (BA2009)](http://www.ausbiotech2009.com.au/bia/bia-home), Melbourne, Australia, October 2009
 * *Visualizing Next Generation Sequence Data with GBrowse and SAMtools*, poster at [Bioinformatics Australia 2009 (BA2009)](http://www.ausbiotech2009.com.au/bia/bia-home), Melbourne, Australia, October 2009
-* *[Visualising NGS Data in GBrowse 2](ftp://ftp.gmod.org/pub/gmod/Meetings/2009/August/Aug2009NGSinGBrowse.pdf)*, presentation at [http://gmod.org/wiki/August 2009 GMOD Meeting](http://gmod.org/wiki/August 2009 GMOD Meeting), Oxford, UK, August 2009.
-* [''Seeing the forest ''and'' the trees: visualizing next generation sequence data''](http://gmod.org/wiki/Image:AGA NGS 2009.pdf), presentation at [Next Generation Genome Analysis in Non-Model Organisms](http://www.regonline.com/Nextgeneration), University of Connecticut, June 2009
+* *[Visualising NGS Data in GBrowse 2](ftp://ftp.gmod.org/pub/gmod/Meetings/2009/August/Aug2009NGSinGBrowse.pdf)*, presentation at [August 2009 GMOD Meeting](http://gmod.org/wiki/August_2009_GMOD_Meeting), Oxford, UK, August 2009.
+* [Seeing the forest *and* the trees: visualizing next generation sequence data](http://gmod.org/wiki/Image:AGA_NGS_2009.pdf), presentation at [Next Generation Genome Analysis in Non-Model Organisms](http://www.regonline.com/Nextgeneration), University of Connecticut, June 2009
 * *[Using GMOD for evolutionary genomics and next generation sequence data](http://gmod.org/wiki/Image:GMODGBrowseSMBE2009.pdf)*, presentation as a part of *[Database Tools for Evolutionary Genomics: An introduction to GMOD software for managing, annotating and visualizing genomic data](http://ccg.biology.uiowa.edu/smbe/symposia.php?action=view&sym_ID=27)* workshop at [SMBE 2009](http://ccg.biology.uiowa.edu/smbe/), Iowa City, IA.
 * *[Visualizing and Integrating Next Generation Sequence Data using GMOD](http://gmod.org/wiki/Image:NGSWithGMODWorkshop.pdf),* workshop at *Evolutionary Genetics - the impact of next generation sequencing technologies*, Lutherstadt-Wittenberg, Germany, April 2009.
-* *[Comparative Genomics with GBrowse_syn: A hands on workshop for visualizing your syntenic data with GBrowse_syn](http://gmod.org/wiki/GBrowse syn PAG 2009 Workshop)*, workshop with [Sheldon McKay](http://gmod.org/wiki/User:Mckays) and [Scott Cain](http://gmod.org/wiki/User:Scott) at [http://gmod.org/wiki/PAG 2009](http://gmod.org/wiki/PAG 2009), January 2009.
-* *[Managing Next Generation Sequence Data with GMOD](http://gmod.org/wiki/Image:PAG2009NextGenSeqPoster.pdf‎)*, poster with [Scott Cain](http://gmod.org/wiki/User:Scott), Paul Hohenlohe, Nicholas Stiffler, Eric Johnson, and William Cresko, at [http://gmod.org/wiki/PAG 2009](http://gmod.org/wiki/PAG 2009), January 2009.
+* *[Comparative Genomics with GBrowse_syn: A hands on workshop for visualizing your syntenic data with GBrowse_syn](http://gmod.org/wiki/GBrowse_syn_PAG_2009_Workshop)*, workshop with [Sheldon McKay](http://gmod.org/wiki/User:Mckays) and [Scott Cain](http://gmod.org/wiki/User:Scott) at [PAG 2009](http://gmod.org/wiki/PAG_2009), January 2009.
+* *[Managing Next Generation Sequence Data with GMOD](http://gmod.org/wiki/Image:PAG2009NextGenSeqPoster.pdf‎)*, poster with [Scott Cain](http://gmod.org/wiki/User:Scott), Paul Hohenlohe, Nicholas Stiffler, Eric Johnson, and William Cresko, at [PAG 2009](http://gmod.org/wiki/PAG_2009), January 2009.
 
 ### 2008
 
@@ -534,8 +547,8 @@ Are coming, the next time I need to do a biosketch.
 * *[GMOD: Genomics Resources for Emerging Model Organisms](http://gmod.org/wiki/Image:GenomicsResourcesForEmergingModelOrganismsPoster.pdf)*, poster with Hilmar Lapp and Todd Vision at [American Genetic Association Annual Symposium](http://www.agasymposium2008.org/), upcoming, June 2008.
 * *[Chado - A Database Schema for Integrating Biological Data](http://gmod.org/wiki/Image:ChadoWorkshopArthopod2008.pdf)*, workshop with [Scott Cain](http://gmod.org/wiki/User:Scott) at the [2nd Annual Arthropod Genomics Symposium](http://www.k-state.edu/agc/symposium.shtml), April 2008.
 * *[GMOD: Database Resources for Emerging Model Organisms](http://gmod.org/wiki/Image:DatabaseResourcesForEmergingModelOrganismsPoster.pdf)*, poster with Hilmar Lapp and Todd Vision at the [2nd Annual Arthropod Genomics Symposium](http://www.k-state.edu/agc/symposium.shtml), April 2008.
-* *[GMOD Tools for Comparative Genomics](http://gmod.org/wiki/Image:GMODToolsForComparativeGenomicsIGERTPoster.pdf)*, poster with, David Riley, [Ben Faga](http://gmod.org/wiki/User:Faga), Hervé Tettelin, Sam Angiuoli, and Jonathan Crabtree. Presented at the [IGERT Symposium on Evolution, Development, and Genomics](http://evodevo.uoregon.edu/symposium.html), April 2008, Eugene, OR.  Highlights GMOD components particularly useful for [comparative genomics](http://gmod.org/wiki/Category:Comparative Genomics): [http://gmod.org/wiki/CMap](http://gmod.org/wiki/CMap), [http://gmod.org/wiki/Sybil](http://gmod.org/wiki/Sybil), [http://gmod.org/wiki/SynView](http://gmod.org/wiki/SynView), [http://gmod.org/wiki/SynBrowse](http://gmod.org/wiki/SynBrowse) and [http://gmod.org/wiki/GBrowse_syn](http://gmod.org/wiki/GBrowse_syn).
-* *[GMOD: Informatics Resources for Evolutionary Research](http://gmod.org/wiki/Image:InformaticsResourcesForEvolutionaryResearchIGERTPoster.pdf)*, poster with Hilmar Lapp and Todd Vision. Presented at the [IGERT Symposium on Evolution, Development, and Genomics](http://evodevo.uoregon.edu/symposium.html), April 2008, in Eugene OR.  Highlights GMOD tools particularly useful for [evolutionary](http://gmod.org/wiki/Category:Evolution) research: [http://gmod.org/wiki/GBrowse](http://gmod.org/wiki/GBrowse), [http://gmod.org/wiki/Apollo](http://gmod.org/wiki/Apollo), [http://gmod.org/wiki/Pathway Tools](http://gmod.org/wiki/Pathway Tools), and [http://gmod.org/wiki/Chado](http://gmod.org/wiki/Chado).
+* *[GMOD Tools for Comparative Genomics](http://gmod.org/wiki/Image:GMODToolsForComparativeGenomicsIGERTPoster.pdf)*, poster with, David Riley, [Ben Faga](http://gmod.org/wiki/User:Faga), Hervé Tettelin, Sam Angiuoli, and Jonathan Crabtree. Presented at the [IGERT Symposium on Evolution, Development, and Genomics](http://evodevo.uoregon.edu/symposium.html), April 2008, Eugene, OR.  Highlights GMOD components particularly useful for [comparative genomics](http://gmod.org/wiki/Category:Comparative_Genomics): [CMap](http://gmod.org/wiki/CMap), [Sybil](http://gmod.org/wiki/Sybil), [SynView](http://gmod.org/wiki/SynView), [SynBrowse](http://gmod.org/wiki/SynBrowse) and [GBrowse_syn](http://gmod.org/wiki/GBrowse_syn).
+* *[GMOD: Informatics Resources for Evolutionary Research](http://gmod.org/wiki/Image:InformaticsResourcesForEvolutionaryResearchIGERTPoster.pdf)*, poster with Hilmar Lapp and Todd Vision. Presented at the [IGERT Symposium on Evolution, Development, and Genomics](http://evodevo.uoregon.edu/symposium.html), April 2008, in Eugene OR.  Highlights GMOD tools particularly useful for [evolutionary](http://gmod.org/wiki/Category:Evolution) research: [GBrowse](http://gmod.org/wiki/GBrowse), [Apollo](http://gmod.org/wiki/Apollo), [Pathway Tools](http://gmod.org/wiki/Pathway_Tools), and [Chado](http://gmod.org/wiki/Chado).
 
 ### 2007 and Before
 
