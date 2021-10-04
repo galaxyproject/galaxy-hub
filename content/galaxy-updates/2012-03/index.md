@@ -120,7 +120,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 * The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held July 25-27, in Chicago.  
 * The conference will feature two full days of presentations and discussions.  
-* [Abstract submission](/events/gcc2012/abstracts/) opened February 13, and will [close April 16](/src/events/gcc2012/Key Dates/index.md).  
+* [Abstract submission](/events/gcc2012/abstracts/) opened February 13, and will [close April 16](/events/gcc2012/Key Dates/).  
 * A [whole day of training](/events/gcc2012/training-day/) has been added, and topics set:
   * [Introduction to Galaxy](/events/gcc2012/training-day/#ws2)
   * [Installing Your Own Galaxy](/events/gcc2012/training-day/#ws5)

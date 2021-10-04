@@ -155,6 +155,6 @@ We've only scratched the surface of what can be done with Galaxy. Here are some 
 * [Your Galaxy instance can run jobs on a cluster](/admin/config/performance/cluster/)
 * [Your Galaxy can be more robust and scalable](/admin/config/performance/production-server/)
 * [You can make local genomes, alignments, and other data available to Galaxy](/admin/data-integration/)
-* [You can customize what external applications are available for displaying datasets](/src/admin/tools/External Display Applications Tutorial/index.md)
-* [You can customize the datatypes for a Galaxy instance](/src/admin/datatypes/Adding Datatypes/index.md)
+* [You can customize what external applications are available for displaying datasets](/admin/tools/External Display Applications Tutorial/)
+* [You can customize the datatypes for a Galaxy instance](/admin/datatypes/Adding Datatypes/)
 * [You can instantiate Galaxy on the Amazon cloud](/cloudman/)

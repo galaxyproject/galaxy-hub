@@ -28,7 +28,7 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 
 ## Who's Hiring
 
-* [Galaxy is Hiring](/src/news/Galaxy is Hiring/index.md) 
+* [Galaxy is Hiring](/news/Galaxy is Hiring/) 
   * system administrators at Penn State
   * software engineers and post-docs at Emory
 * [Bioinformatics Support Provider](http://bit.ly/w6OIM0) with Galaxy experience @ [Wellcome Trust Centre for Cell Biology, University of Edinburgh](http://www.wcb.ed.ac.uk/) 
@@ -100,7 +100,7 @@ There are still [Gold, Silver and Bronze level sponsorships](/events/gcc2012/spo
 
 ## New Distributions
 
-There were [two Galaxy distributions](/docs/) in January, The latest on [January 27](/src/news/Jan272012 Distribution News Brief/index.md).  Some highlights from the releases:
+There were [two Galaxy distributions](/docs/) in January, The latest on [January 27](/news/Jan272012 Distribution News Brief/).  Some highlights from the releases:
 
 * Important metadata and Python 2.5 support corrections
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.
@@ -114,4 +114,4 @@ There were [two Galaxy distributions](/docs/) in January, The latest on [January
 * Tool Shed installation features and many new community tool additions
 * Trackster performance upgrades and new drag & drop composite track creation 
 
-See the [January 27, 2012 release](/src/news/Jan272012 Distribution News Brief/index.md) for details on how to get the latest version of Galaxy.
+See the [January 27, 2012 release](/news/Jan272012 Distribution News Brief/) for details on how to get the latest version of Galaxy.

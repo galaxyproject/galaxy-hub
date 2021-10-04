@@ -38,7 +38,7 @@ $ rsync -avzP rsync://datacache.g2.bx.psu.edu/indexes/phiX .
 ```
 
 
-Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/admin/data-integration/) or [setting up native genome indexes](/src/admin/NGS Local Setup/index.md).
+Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/admin/data-integration/) or [setting up native genome indexes](/admin/NGS Local Setup/).
 
 <br />
 # More Updates to Output and Error Handling
@@ -162,7 +162,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 <div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div> 
 * *General*
   * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/archive/dev-news-briefs/2012-01-27/#run-cluster-jobs-as-the-real-user).
-  * Galaxy will no longer try to modify permissions of [linked library uploads](/src/admin/Data Libraries/Uploading Library Files/index.md).
+  * Galaxy will no longer try to modify permissions of [linked library uploads](/admin/Data Libraries/Uploading Library Files/).
   * Galaxy will honor `umask` when creating temporary library archives for download (solves permissions problems when sending via a proxy server).
   * Fix tabular display to serve raw when `preview == False`, which should resolve external display issues.
   * Fix `convert_newlines` and `sep2tabs` to return '0' lines in the event of an empty file, instead of throwing an exception.

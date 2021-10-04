@@ -11,15 +11,15 @@ Whole genome alignments, even those produced by "*quasi-global*" algorithms, are
 ----
 ## Tools and Categories
 
-[Format Converters](/src/main/MAF Analysis/index.md#format-converters)
+[Format Converters](/main/MAF Analysis/#format-converters)
 
-[Alignment Extractors](/src/main/MAF Analysis/index.md#alignment-extractors)
+[Alignment Extractors](/main/MAF Analysis/#alignment-extractors)
 
-[Alignment Stitchers](/src/main/MAF Analysis/index.md#alignment-stitchers)
+[Alignment Stitchers](/main/MAF Analysis/#alignment-stitchers)
 
-[Filters and Utilities](/src/main/MAF Analysis/index.md#filters-and-utilities)
+[Filters and Utilities](/main/MAF Analysis/#filters-and-utilities)
 ----
-For a list of data available through Galaxy, see [Available Data](/src/main/data-libraries/Available Data/index.md).
+For a list of data available through Galaxy, see [Available Data](/main/data-libraries/Available Data/).
 ----
 ## Format Converters
 
@@ -33,7 +33,7 @@ Available Output Types:
 ----
 ## Alignment Extractors
 
-Extractors take genomic intervals as the input and return pairwise or multiple alignments corresponding to these intervals as illustrated below. Users can use locally stored ([cached](/src/main/data-libraries/Available Data/index.md)) alignments, or alignments from their history as the MAF source.  Here, three MAF blocks overlapping a single interval are extracted.  MAF blocks are output relative to the strand of the provided interval, where the default is '+'.  Blocks 1 and 3 are trimmed because they extend beyond the boundaries of the interval:
+Extractors take genomic intervals as the input and return pairwise or multiple alignments corresponding to these intervals as illustrated below. Users can use locally stored ([cached](/main/data-libraries/Available Data/)) alignments, or alignments from their history as the MAF source.  Here, three MAF blocks overlapping a single interval are extracted.  MAF blocks are output relative to the strand of the provided interval, where the default is '+'.  Blocks 1 and 3 are trimmed because they extend beyond the boundaries of the interval:
 
 ![](/src/main/maf-analysis/interval2maf.png)
 

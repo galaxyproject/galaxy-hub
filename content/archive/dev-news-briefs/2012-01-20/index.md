@@ -18,7 +18,7 @@ date: 2012-01-20
 * Make your plans!! **[GCC2012](/events/gcc2012/)**
 * New [Galaxy Group @ CiteULike](/news/new-galaxy-group-cite-u-like/)
 * Find it *now* with [Custom Galaxy Web Searches](/news/custom-galaxy-search/)
-* New low-volume mailing list: [Galaxy-Announce](/src/news/New Galaxy-Announce Mailing List/index.md)
+* New low-volume mailing list: [Galaxy-Announce](/news/New Galaxy-Announce Mailing List/)
 
 ## Object Store
 

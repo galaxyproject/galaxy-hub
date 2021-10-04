@@ -9,7 +9,7 @@ Do you use Galaxy in your research?  If so, please consider putting a *[Powered 
 2. Increased visibility leads to increased adoption of Galaxy and that leads to more people contributing back to the project.
 3. Increased adoption and development of Galaxy helps the project with funding. 
 
-This, along with [Citing Galaxy](/src/Citing Galaxy/index.md), are two easy things that can be done to increase the visibility of Galaxy.
+This, along with [Citing Galaxy](/Citing Galaxy/), are two easy things that can be done to increase the visibility of Galaxy.
 
 Thanks,
 

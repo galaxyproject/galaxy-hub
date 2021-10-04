@@ -96,7 +96,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
   * Correction made for **[BWA](http://bio-bwa.sourceforge.net/) -R** option.
   * Updated **Megablast** now uses NCBI BLAST+ (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml))
     * **[BLASTN](http://blast.ncbi.nlm.nih.gov/Blast.cgi) version 2.2.25**
-    * Simplified indexing. Obtain from [NCBI](ftp://ftp.ncbi.nlm.nih.gov/blast/db/) or use [formatdb](ftp://ftp.ncbi.nih.gov/blast/documents/formatdb.html) to create your own. [Read more...](/src/admin/NGS Local Setup/index.md)
+    * Simplified indexing. Obtain from [NCBI](ftp://ftp.ncbi.nlm.nih.gov/blast/db/) or use [formatdb](ftp://ftp.ncbi.nih.gov/blast/documents/formatdb.html) to create your own. [Read more...](/admin/NGS Local Setup/)
   * Updated **Parse blast XML output**
     * Improvements to merging blast xml - `peterjc/galaxy-central/split_blast2` (pull request #41)
 * **NGS: [SAM Tools](http://samtools.sourceforge.net/)**

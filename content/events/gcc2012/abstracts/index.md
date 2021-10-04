@@ -472,7 +472,7 @@ Big changes have been going on in how tools are packaged with the distribution. 
 
 </div>
 
-The [deadline for abstracts was April 16](/src/events/gcc2012/Key Dates/index.md).
+The [deadline for abstracts was April 16](/events/gcc2012/Key Dates/).
 
 Oral presentations will be approximately 15-20 minutes long, including time for question and answer.  There will also be an opportunity for lightning talks, which will be solicited at the meeting.  
 

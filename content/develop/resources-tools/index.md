@@ -6,8 +6,8 @@
 * [Tool Development Training Materials](https://github.com/Public-Health-Bioinformatics/galaxy-tool-tutorials) - from Hsiao lab, BC Public Health Microbiology & Reference Laboratory, BC Centre for Disease Control.
   * [Tool Development Slides (PDF)](https://github.com/Public-Health-Bioinformatics/galaxy-tool-tutorials/blob/master/Galaxy%20Tool%20Development.pdf?raw=true)
   * [Tool Versioning Slides (PDF)](https://github.com/Public-Health-Bioinformatics/galaxy-tool-tutorials/raw/76e1511413202122fbb3a758510744442b2726b7/Galaxy%20Tool%20Versioning.pdf)
-* [A tutorial](/src/admin/tools/Writing Tests/index.md) on writing of functional tests
-* [What to do](/src/future/Job Failure When stderr/index.md) if Galaxy incorrectly reports that your tool failed to execute
+* [A tutorial](/admin/tools/Writing Tests/) on writing of functional tests
+* [What to do](/future/Job Failure When stderr/) if Galaxy incorrectly reports that your tool failed to execute
 * [Best Practices](https://galaxy-iuc-standards.readthedocs.org/) for Tool Development
 * Discussions on [consuming](http://bit.ly/gcc2014workflows) and [producing](https://bitbucket.org/galaxy/galaxy-central/pull-request/634/allow-tools-to-explicitly-produce-dataset) collections of datasets in tools.
 * [A discussion](/admin/tools/multiple-output-files/) on outputing multiple individual datasets
