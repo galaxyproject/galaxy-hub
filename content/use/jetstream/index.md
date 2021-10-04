@@ -8,7 +8,7 @@ platforms:
     platform_url: "http://jetstream-cloud.org/"
     platform_text: "Jetstream"
 summary: '[Jetstream](http://jetstream-cloud.org/) is part of [XSEDE](https://www.xsede.org/), a "collection of integrated advanced digital resources and services" and is funded by NSF.'
-image: "/src/images/logos/JetstreamRectClipped.jpg"
+image: "/images/logos/JetstreamRectClipped.jpg"
 comments:
   - 'You need to be eligible for an [XSEDE allocation](https://portal.xsede.org/allocation-policies) to use Jetstream, which means must be based at a U.S. institution. And although XSEDE is NSF-funded, "projects need not be supported by NSF grants" to receive an allocation.'
   - "Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can [become an administrator](/cloud/jetstream/ssh/#adding-galaxy-admin-user) and even [access the server from the shell](/cloud/jetstream/ssh/)."

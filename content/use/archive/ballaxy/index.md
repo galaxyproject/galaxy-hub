@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/anhi/ballaxy/"
     platform_text: "ballaxy using Docker"
 summary: "Hosts the [BALL (Biochemical Algorithms Library) Project tools](http://www.ball-project.org/), i.e. computer aided drug design and molecular modelling based on protein and ligand structure data. "
-image: "/src/use/archive/ballaxy/ballaxy-slide.png"
+image: "/use/archive/ballaxy/ballaxy-slide.png"
 comments: 
   - "ballaxy is a workflow framework for structure based computational biology based on the Galaxy workflow engine and the [BALL (Biochemical Algorithms Library) application framework](http://www.ball-project.org/). It is tailored to handle structural molecular data (pdb, mol, mol2, hin, xyz, smiles) and to offer tools for modelling tasks like chemical shift prediction"
 user_support:

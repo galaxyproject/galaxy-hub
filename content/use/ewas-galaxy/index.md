@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://github.com/kpbioteam/docker_ewas"
     platform_text: "EWAS-Galaxy Docker Image"
 summary: "Galaxy Docker image for population epigenetics data analysis"
-image: "/src/images/logos/DockerInGalaxy.png"
+image: "/images/logos/DockerInGalaxy.png"
 comments:
   - "Epigenome-wide association studies (EWAS) analyse genome-wide activity of epigenetic marks in cohorts of different individuals to find associations between epigenetic variation and phenotype."
 user_support:

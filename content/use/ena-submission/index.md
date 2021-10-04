@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://quay.io/repository/galaxy/ena-upload?tag=latest&tab=tags"
     platform_text: "Epigenomics Galaxy Docker Image"
 summary: "Galaxy Docker image for submitting SARS-CoV-2 data to ENA"
-image: "/src/images/logos/ena-logo-horiz-small.png"
+image: "/images/logos/ena-logo-horiz-small.png"
 comments:
   - "ELIXIR Belgium has developed a Galaxy tool for submission of SARS-Cov-2 genetic sequences and associated metadata to the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home)"
 user_support:

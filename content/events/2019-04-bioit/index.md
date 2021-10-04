@@ -7,7 +7,7 @@ continent: NA
 location: "BioIT World, Boston, Massachusetts, United States"
 location_url: "http://www.giiconference.com/chi653337/" 
 external_url:
-image: /src/events/2019-04-bioit/bioitworld19.png
+image: /events/2019-04-bioit/bioitworld19.png
 gtn: false
 contact: "Presenters"
 contact_url: "/people/jeremy-goecks/"

@@ -20,7 +20,7 @@
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em><a href='/community/galaxy-admins/'>GalaxyAdmins</a> direction</em>  (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/Galaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </div><em><a href='/src/news/2014-questionnaire/'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/people/dave-clements/'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/people/nate/'>Nate Coraor</a></div> </td>
+    <td> <em><a href='/community/galaxy-admins/'>GalaxyAdmins</a> direction</em>  (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/Galaxy_admins_20150219.hrh.pdf'>slides</a>)<div class='indent'><a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </div><em><a href='/news/2014-questionnaire/'>Results from the 2014 Galaxy Community Questionnaires</a></em> (<a href='https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2015-02-19/2014QuestionnaireSlides.pdf'>Slides</a>)<div class='indent'><a href='/people/dave-clements/'>Dave Clements</a> </div><em>Galaxy Project Update: Gravity</em> <div class='indent'><a href='/people/nate/'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>

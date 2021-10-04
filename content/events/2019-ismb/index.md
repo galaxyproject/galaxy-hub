@@ -5,7 +5,7 @@ days: 5
 tease: ""
 continent: EU
 location: "ISMB/ECCB 2019, Basel, Switzerland"
-image: "/src/events/2019-ismb/ismbeccb2019.jpeg"
+image: "/events/2019-ismb/ismbeccb2019.jpeg"
 location_url: "https://www.iscb.org/ismbeccb2019-program/"
 external_url:
 contact: 'Presenters'

@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/lsbnb/docmethyl"
     platform_text: "DocMethyl EpiMOLAS Docker"
 summary: "Galaxy Docker for DNA methylation analysis in WGBS"
-image: "/src/images/logos/DockerInGalaxy.png"
+image: "/images/logos/DockerInGalaxy.png"
 comments:
   - "This Galaxy docker container have tested with demo dataset under the Ubuntu 16.04 64 bit system equipped with four-core CPU, 32GB RAM, 400GB storage."
 user_support:

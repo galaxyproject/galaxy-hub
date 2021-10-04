@@ -8,7 +8,7 @@ platforms:
     platform_text: "BioCiphers Galaxy"
     platform_location: US
 summary: "BCL Galaxy gives a user friendly interface for analysis tools developed by the [BioCiphers Lab](http://biociphers.org/) at the University of Pennsylvania. "
-image: "/src/use/biociphers-lab-galaxy/biociphers-landing-page-300.png"
+image: "/use/biociphers-lab-galaxy/biociphers-landing-page-300.png"
 comments:
   - "Includes the AVISPA alternative splicing prediction and analysis tool."
 user_support:

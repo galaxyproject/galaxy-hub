@@ -124,7 +124,7 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
    "@type": "Event",
    "name": "RNA-Seq analysis using Galaxy","url": "https://qfab.org/workshops/rna-seq-analysis-using-galaxy-7-8-august-2018", "duration": "P2D", "location": {
    "@type": "Place",
-   "address": "QFAB, St Lucia, Queensland, Australia", "url": "https://qfab.org/" }, "image": "/src/images/logos/QFABLogo.png","eventType": "workshops and courses","contact": {
+   "address": "QFAB, St Lucia, Queensland, Australia", "url": "https://qfab.org/" }, "image": "/images/logos/QFABLogo.png","eventType": "workshops and courses","contact": {
  "@type": "person",
  "name": "training@qfab.org"
 },"startDate": "2018-08-07"
@@ -172,7 +172,7 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
    "@type": "Event",
    "name": "6th Galaxy high-throughput sequencing (HTS) data analysis workshop","url": "/events/2018-09-denbi-hts", "duration": "P5D", "location": {
    "@type": "Place",
-   "address": "University of Freiburg, Freiburg Germany" }, "image": "/src/images/logos/deNBILogo.png","eventType": "workshops and courses","contact": {
+   "address": "University of Freiburg, Freiburg Germany" }, "image": "/images/logos/deNBILogo.png","eventType": "workshops and courses","contact": {
  "@type": "person",
  "name": "Freiburg Galaxy Team"
 },"startDate": "2018-09-17"
@@ -180,7 +180,7 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
    "@type": "Event",
    "name": "RNA-Seq analysis using Galaxy","url": "https://qfab.org/workshops/rna-seq-analysis-using-galaxy-18-19-september-2018", "duration": "P2D", "location": {
    "@type": "Place",
-   "address": "QFAB, St Lucia, Queensland, Australia", "url": "https://qfab.org/" }, "image": "/src/images/logos/QFABLogo.png","eventType": "workshops and courses","contact": {
+   "address": "QFAB, St Lucia, Queensland, Australia", "url": "https://qfab.org/" }, "image": "/images/logos/QFABLogo.png","eventType": "workshops and courses","contact": {
  "@type": "person",
  "name": "training@qfab.org"
 },"startDate": "2018-09-18"
@@ -252,7 +252,7 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
    "@type": "Event",
    "name": "BioHackathon 2018 Paris","url": "/events/2018-11-biohackathon", "duration": "P5D", "location": {
    "@type": "Place",
-   "address": "Campus des Berges de Seine, Paris, France", "url": "https://www.chateauform.com/fr/maison/les-berges-de-seine/" }, "image": "/src/events/2018-11-biohackathon/biohack2018.png","contact": {
+   "address": "Campus des Berges de Seine, Paris, France", "url": "https://www.chateauform.com/fr/maison/les-berges-de-seine/" }, "image": "/events/2018-11-biohackathon/biohack2018.png","contact": {
  "@type": "person",
  "name": "Bérénice Batut, Hervé Ménager"
 },"startDate": "2018-11-12"
@@ -260,7 +260,7 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
    "@type": "Event",
    "name": "Analyse des données RNA-Seq sous l'environnement Galaxy","url": "https://www.biosciencesco.fr/formations/bio-informatique/analyse-des-donnees-rna-seq-sous-lenvironnement-galaxy/", "duration": "P3D", "location": {
    "@type": "Place",
-   "address": "Lyon, France" }, "image": "/src/images/logos/biosciences-and-co.png","eventType": "workshops and courses","contact": {
+   "address": "Lyon, France" }, "image": "/images/logos/biosciences-and-co.png","eventType": "workshops and courses","contact": {
  "@type": "person",
  "name": "contact@biosciencesco.fr"
 },"startDate": "2018-11-14"
@@ -268,7 +268,7 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
    "@type": "Event",
    "name": "European Galaxy Days","url": "/events/2018-europe-dev", "duration": "P2D", "location": {
    "@type": "Place",
-   "address": "Freiburg, Germany" }, "image": "/src/events/2018-europe-dev/2018-europe-logo.small.png","contact": {
+   "address": "Freiburg, Germany" }, "image": "/events/2018-europe-dev/2018-europe-logo.small.png","contact": {
  "@type": "person",
  "name": "Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard"
 },"startDate": "2018-11-19"

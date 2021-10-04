@@ -8,7 +8,7 @@ platforms:
     platform_text: "LiSIs"
     platform_location: CY
 summary: "A platform for Virtual Screening. "
-image: "/src/images/logos/LiSisLogo.png"
+image: "/images/logos/LiSisLogo.png"
 comments:
   - "The LiSIs platform has been developed in the context of the cross-disciplinary [GRANATUM project](http://www.granatum.org) aiming to bridge the gap between biomedical researchers by ensuring their seamless access to the globally available information needed to perform complex experiments and to conduct studies on large-scale datasets."
 user_support:

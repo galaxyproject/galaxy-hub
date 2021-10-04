@@ -8,7 +8,7 @@ platforms:
     platform_text: "Oqtans Galaxy Server"
     platform_location: CH
 summary: "Customized Galaxy, extended with machine learning based tools for sequence and tiling array data analysis. "
-image: "/src/use/oqtans/oqtans.png"
+image: "/use/oqtans/oqtans.png"
 comments:
   - "The Oqtans tool suite is available as:"
   - "as a [public Galaxy instance](http://galaxy.inf.ethz.ch)"

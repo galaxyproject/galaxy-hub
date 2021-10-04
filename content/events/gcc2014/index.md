@@ -9,7 +9,7 @@ location_url: https://jhu.edu
 external_url:
 gtn: false
 contact: Organizers
-image: /src/images/logos/GCC2014LogoWide400.png
+image: /images/logos/GCC2014LogoWide400.png
 tags: [ cofest ]
 ---
 

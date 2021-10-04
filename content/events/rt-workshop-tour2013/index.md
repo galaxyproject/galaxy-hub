@@ -20,7 +20,7 @@ Doing research in the Research Triangle?  A [Galaxy Workshop Tour](/events/) is 
   </tr>
   <tr>
     <td colspan=2 style=" text-align: center; border: none;"> </td>
-    <td colspan=4 style=" text-align: center; border: none;"> <a href='http://gmod.org/wiki/2013_GMOD_Summer_School/index.md'><img src="/images/logos/GMODSummerSchool2013.png" alt="2013 GMOD Summer School" width="300" /></a><br /><strong><a href='http://gmod.org/wiki/2013_GMOD_Summer_School'>Friday July 19 through Tuesday July 23</a></strong><br />Application deadline is June 10 <br /><br /><br /></td>
+    <td colspan=4 style=" text-align: center; border: none;"> <a href='http://gmod.org/wiki/2013_GMOD_Summer_School/'><img src="/images/logos/GMODSummerSchool2013.png" alt="2013 GMOD Summer School" width="300" /></a><br /><strong><a href='http://gmod.org/wiki/2013_GMOD_Summer_School'>Friday July 19 through Tuesday July 23</a></strong><br />Application deadline is June 10 <br /><br /><br /></td>
     <td colspan=1 style=" text-align: center; border: none;"> </td>
   </tr>
   <tr>

@@ -634,7 +634,7 @@ It provides realtime XML validation, code completion, help/documentation and oth
 
 The Galaxy Tools Visual Studio Code extension that uses the Galaxy Language Server can be downloaded from the [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
 
-<a href="/src/images/screencast-frame/galaxy_language_server.gif"><img class="card-img-bottom" src="/images/screencast-frame/galaxy_language_server.gif" alt="Galaxy Language Server " /></a>
+<a href="/images/screencast-frame/galaxy_language_server.gif"><img class="card-img-bottom" src="/images/screencast-frame/galaxy_language_server.gif" alt="Galaxy Language Server " /></a>
 </div>
 
 </div>

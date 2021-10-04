@@ -6,7 +6,7 @@
 
 [Main](/main/faq/)  
 [Learn](/learn/faq/)  
-[Admin](/admin/faq/index.md)  
+[Admin](/admin/faq/)  
 
 </div>
 

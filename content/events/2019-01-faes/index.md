@@ -7,7 +7,7 @@ continent: NA
 location: "National Institutes of Health, Bethesda, Maryland, United States"
 location_url:
 external_url: "https://faes.org/biotech82"
-image: "/src/images/logos/faes.png"
+image: "/images/logos/faes.png"
 gtn: false
 contact: "registration @ faes . org"
 ---

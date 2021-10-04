@@ -5,7 +5,7 @@ days: 3
 tease: "4 talks using Galaxy for Metaproteomics" 
 continent: EU
 location: "Helmholtz-UFZ, Leipzig Germany"
-image: "/src/events/2018-12-metaproteome/2018-metaproteomics-symposium.png"
+image: "/events/2018-12-metaproteome/2018-metaproteomics-symposium.png"
 location_url: "https://fems-microbiology.org/opportunities/3rd-international-metaproteome-symposium-2018-3-5-december-2018-germany/"
 external_url: 
 contact: "Pratik Jagtap, Tim Griffin, Magnus Arntzen, Praveen Kumar"

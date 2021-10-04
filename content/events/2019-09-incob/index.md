@@ -8,7 +8,7 @@ location: "InCoB 2019, Jakarta, Indonesia"
 location_url: "http://incob2019.org/"
 external_url: ""
 contact: "Simon Gladman, Gareth Price, Nuwan Goonesekera, Dave Clements"
-image: "/src/events/2019-09-incob/incob-logo-square.jpeg"
+image: "/events/2019-09-incob/incob-logo-square.jpeg"
 gtn: true
 ---
 

@@ -9,7 +9,7 @@ platforms:
     platform_text: "CLIMB"
     platform_location: UK
 summary: "The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) develops and deploys a world leading cyber-infrastructure for microbial bioinformatics; providing free cloud-based compute, storage, and analysis tools for academic microbiologists in the UK."
-image: "/src/images/logos/mrc-climb-logo.png"
+image: "/images/logos/mrc-climb-logo.png"
 comments:
   - "To register for a CLIMB group account, you must:"
   - "1. Be a UK academic or public sector worker working on microbial genomics"

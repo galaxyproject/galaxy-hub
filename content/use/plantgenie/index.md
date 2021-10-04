@@ -8,7 +8,7 @@ platforms:
     platform_text: "PlantGenIE"
     platform_location: SE
 summary: "Plant Genome Integrative Explorer Galaxy instance"
-image: "/src/use/plantgenie/plantgenie-logo.png"
+image: "/use/plantgenie/plantgenie-logo.png"
 comments:
   - "The [Plant Genome Integrative Explorer](http://plantgenie.org/) is a collection of interoperable web resources for searching, visualizing and analyzing genomics and transcriptomics data for different plant species."
 user_support:

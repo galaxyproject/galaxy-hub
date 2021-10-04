@@ -571,7 +571,7 @@ Features:
 
 [ELIXIR Belgium](https://www.elixir-belgium.org/), in collaboration with the European Galaxy project (de.NBI) and the [European COVID-19 Data Platform](https://www.covid19dataportal.org/), have developed a tool to simplify the submission of viral sequencing data to the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home), an ELIXIR Core Data Resource providing open access to nucleotide sequences. The new submission tool offers an easy-to-use interface, guides researchers through the submission process and verifies the data format and description. Read more in the [official ELIXIR press release](https://elixir-europe.org/news/ENA-new-tool-COVID-19-data).
 
-<a href="/src/images/news-graphics/ENA.jpeg"><img class="card-img-bottom" src="/images/news-graphics/ENA.jpeg" alt="ENA submission tool" /></a>
+<a href="/images/news-graphics/ENA.jpeg"><img class="card-img-bottom" src="/images/news-graphics/ENA.jpeg" alt="ENA submission tool" /></a>
 </div>
 
 
@@ -584,7 +584,7 @@ Good news for the imaging community! The [IDR Download tool](https://usegalaxy.e
 
 This is an important step towards the accessibility of bioimage data. Now, images stored in local OMERO databases that are not publicly available are accessible from either public or private Galaxy instances. Imaging facilities that are running their local instance and want to perform image analysis in Galaxy can directly benefit from this new feature.
 
-<a href="/src/images/screenshots/omero.png"><img class="card-img-bottom" src="/images/screenshots/omero.png" alt="OMERO upload tool" /></a>
+<a href="/images/screenshots/omero.png"><img class="card-img-bottom" src="/images/screenshots/omero.png" alt="OMERO upload tool" /></a>
 </div>
 
 
@@ -621,7 +621,7 @@ Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-scien
 <img class="card-img-top" src="/news/2020-10-jxtx-awardees/first-4.jpg" alt="David, Anoushka, Sumaira, and Georgia" />
 <div class="card-header">JXTX Foundation Impact</div>
 
-The [JXTX Foundation](/srcjxtx/foundation/index.md) sponsored [10 graduate students](/news/2020-10-jxtx-awardees/) to attend the [2020 Biological Data Science Conference at Cold Spring Harbor Laboratory](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20).  The scholarships included connecting the recipients with prominent mentors in the field.  Here what the awardees have to say about this experience:
+The [JXTX Foundation](/srcjxtx/foundation/) sponsored [10 graduate students](/news/2020-10-jxtx-awardees/) to attend the [2020 Biological Data Science Conference at Cold Spring Harbor Laboratory](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20).  The scholarships included connecting the recipients with prominent mentors in the field.  Here what the awardees have to say about this experience:
 
 * [David Twesigomwe on the impact of the JXTX Foundation](/news/2020-11-jxtx-twesigomwe/)
 * [Anoushka Joglekar: Making Connections via the JXTX Foundation](/news/2020-11-jxtx-joglekar/)

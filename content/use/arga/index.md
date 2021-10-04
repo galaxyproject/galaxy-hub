@@ -8,7 +8,7 @@ platforms:
     platform_text: "ARGA"
     platform_location: CN
 summary: "Antibiotic Resistance Gene Analyzer"
-image: "/src/use/arga/arga-pipeline.png"
+image: "/use/arga/arga-pipeline.png"
 comments:
   - "This pipeline is used for antibiotic resistance genes (ARGs) analysis based on the Sequence Database for ARGs (SDARG). All the nucleotide and protein sequences in SDARG and ARGs primer databases could be downloaded in the Shared Data, Data Libraries panel at the top of this page."
 user_support:

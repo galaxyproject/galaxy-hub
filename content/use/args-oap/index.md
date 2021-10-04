@@ -8,7 +8,7 @@ platforms:
     platform_text: "ARGs-OAP Galaxy Server"
     platform_location: HK
 summary: "Fast annotation and classification of antibiotic resistance gene-like sequences from metagenomic data. "
-image: "/src/use/args-oap/args-oap.png"
+image: "/use/args-oap/args-oap.png"
 comments:
   - 'Integrated "ARDB and CARD, the two most commonly used databases. SARG was curated to remove redundant sequences and optimized to facilitate query sequence identification by similarity. A database with a hierarchical structure (type-subtype-reference sequence) was then constructed to facilitate classification (assigning ARG-like sequence to type, subtype and reference sequence) of sequences identified through similarity search." The server utilizes the SARG DB and a hybrid functional gene annotation pipeline to do fast annotation and classification of ARG-like sequences from metagenomic data.'
   - "Source code is available on [GitHub](https://github.com/biofuture/Ublastx_stageone)."

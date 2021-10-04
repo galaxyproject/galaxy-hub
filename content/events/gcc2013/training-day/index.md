@@ -450,7 +450,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> Learn the ins and outs of the Galaxy Applications Programming Interface (API). Examples of how to interact with multiple Galaxy resources and how to build a complex script from API building blocks. <a href='/src/events/gcc2013/training-day/api'>Details</a>. </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> Learn the ins and outs of the Galaxy Applications Programming Interface (API). Examples of how to interact with multiple Galaxy resources and how to build a complex script from API building blocks. <a href='/events/gcc2013/training-day/api'>Details</a>. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>

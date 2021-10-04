@@ -8,7 +8,7 @@ platforms:
     platform_text: "GeneLab"
     platform_location: US
 summary: "NASA GeneLab is a comprehensive space-related omics database in which users can upload, download, share, store, and analyze spaceflight and corresponding model organism data."
-image: "/src/use/genelab/genelab-patch.png"
+image: "/use/genelab/genelab-patch.png"
 comments:
   - "Bioinformatics software platform (powered by Galaxy), including tools for performing sequence data processing, and differential gene expression and epigenetic analyses."
 user_support:

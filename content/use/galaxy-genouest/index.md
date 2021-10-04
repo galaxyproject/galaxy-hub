@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy@GenOuest"
     platform_location: FR
 summary: "A general purpose Galaxy server Includes tools developped by [Dyliss](http://www.irisa.fr/dyliss/) and [GenScale](https://team.inria.fr/genscale/) bioinformatics research teams in Rennes, France. "
-image: "/src/use/galaxy-genouest/galaxy-genouest.png"
+image: "/use/galaxy-genouest/galaxy-genouest.png"
 comments:
   - "[Request a GenOuest account](https://my.genouest.org)"
 user_support:

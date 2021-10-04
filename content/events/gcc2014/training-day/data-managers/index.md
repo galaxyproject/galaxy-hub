@@ -46,7 +46,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 ## 15:40-16:00 Using Reference Data in Galaxy Tools
 
 * Graphical Overview of Interplay between Built-in Data and Galaxy Tools
-    <a href='/src/images/learn/data_managers_figure_S1_schematic_overview.png'><img src="/images/learn/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a> 
+    <a href='/images/learn/data_managers_figure_S1_schematic_overview.png'><img src="/images/learn/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a> 
 
 * Discussion of *.loc files
   * Used as a way to provide additional configuration details to a tool, without having to manually edit the actual tool XML file.

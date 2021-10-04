@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://z.umn.edu/quantpdocker"
     platform_text: "QuanTP Galaxy Docker"
 summary: "A Docker image containing a fully-operational Galaxy instance with pre-installed QuanTP tools."
-image: "/src/use/quantp/quantp-fig3-400.jpg"
+image: "/use/quantp/quantp-fig3-400.jpg"
 comments:
   - "A suite of tools and functionalities critical for proteo-transcriptomics, including statistical algorithms for assessing the correlation between single transcript–protein pairs as well as across two cohorts, outlier identification and clustering, along with a diverse set of results visualizations."
   - "QuanTP is available in this Docker image, and on the [Proteogenomics Gateway](/use/proteogenomics-gateway/) and [UseGalaxy.eu](https://usegalaxy.eu/)."

@@ -8,7 +8,7 @@ platforms:
     platform_text: "NELLY"
     platform_location: CR
 summary: "Plataforma de servicios para análisis de datos biomédicos en bioinformática featuring standard Galaxy Tools "
-image: "/src/use/archive/nelly/u-costa-rica-logo.png"
+image: "/use/archive/nelly/u-costa-rica-logo.png"
 comments:
   - "A public Central American Galaxy instance."
 user_support:

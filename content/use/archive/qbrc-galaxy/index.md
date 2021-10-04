@@ -8,7 +8,7 @@ platforms:
     platform_text: "QBRC Galaxy"
     platform_location: US
 summary: "Hosts custom tools developed by members of the Quantitative Biomedical Research Center @ University of Texas Southwestern for statistical analysis of various High Throughput Sequencing experiments. "
-image: "/src/use/archive/qbrc-galaxy/qbrc-logo.jpg"
+image: "/use/archive/qbrc-galaxy/qbrc-logo.jpg"
 comments:
   - "Hosts custom tools developed by members of the [Quantitative Biomedical Research Center @ University of Texas Southwestern](http://qbrc.swmed.edu/) for statistical analysis of various High Throughput Sequencing experiments."
   - "Features:"

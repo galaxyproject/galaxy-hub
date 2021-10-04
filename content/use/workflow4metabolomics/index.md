@@ -11,7 +11,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/workflow4metabolomics/galaxy-workflow4metabolomics/"
     platform_text: "Workflow4Metabolomics in Docker"
 summary: "A collaborative portal dedicated to metabolomics data processing, analysis and annotation. "
-image: "/src/use/workflow4metabolomics/workflow4metabolomics.png"
+image: "/use/workflow4metabolomics/workflow4metabolomics.png"
 comments:
   - "[Workflow4metabolomics.org](http://workflow4metabolomics.org/)"
   - "[LC-MS](http://workflow4metabolomics.org/the-lc-ms-workflow), [GC-MS](http://workflow4metabolomics.org/the-gc-ms-workflow) and [NMR](http://workflow4metabolomics.org/the-nmr-workflow) workflows are provided."

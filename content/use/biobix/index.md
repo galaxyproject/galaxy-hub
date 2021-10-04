@@ -8,7 +8,7 @@ platforms:
     platform_text: "BioBix Galaxy"
     platform_location: BE
 summary: "A general genomics server. Includes the PROTEOFORMER pipeline tools."
-image: "/src/use/biobix/biobix_logo.png"
+image: "/use/biobix/biobix_logo.png"
 comments:
   - "Standard Galaxy genomics tools, plus PROTEOFORMER tools.  PROTEOFORMER is a proteogenomic pipeline that delineates true *in vivo* proteoforms and generates a protein sequence search space for peptide to MS/MS matching."
 user_support:

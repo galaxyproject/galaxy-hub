@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy Palfinder Service"
     platform_location: UK
 summary: "Microsatellite development."
-image: "/src/use/palfinder/palfinder.png"
+image: "/use/palfinder/palfinder.png"
 comments:
   - "A bioinformatics  pipeline  for microsatellite  development  from  Illumina  paired-end sequences"
 user_support:

@@ -57,8 +57,8 @@ Galaxy Admins can sign in to the GRT, register their Galaxy servers, and get bac
 And there was a question about MSI login screens during the presentation by Evan and JJ.  Here are two screenshots:
 
 <div class='center'>
-<a href='/src/community/galaxy-admins/meetups/2016-06-16/MSILogin1.png'><img src="/community/galaxy-admins/meetups/2016-06-16/MSILogin1.png" alt="Login Screen 1; click to expand" width="500" /></a>
-<a href='/src/community/galaxy-admins/meetups/2016-06-16/MSILogin2.png'><img src="/community/galaxy-admins/meetups/2016-06-16/MSILogin2.png" alt="Login Screen 1; click to expand" width="500" /></a>
+<a href='/community/galaxy-admins/meetups/2016-06-16/MSILogin1.png'><img src="/community/galaxy-admins/meetups/2016-06-16/MSILogin1.png" alt="Login Screen 1; click to expand" width="500" /></a>
+<a href='/community/galaxy-admins/meetups/2016-06-16/MSILogin2.png'><img src="/community/galaxy-admins/meetups/2016-06-16/MSILogin2.png" alt="Login Screen 1; click to expand" width="500" /></a>
 </div>
 
 ## Call Technology

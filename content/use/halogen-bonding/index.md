@@ -8,7 +8,7 @@ platforms:
     platform_text: "Halogen Bonding Galaxy Server"
     platform_location: DE
 summary: "Visualize halogen bond contacts in the protein binding site. Analyze a protein binding site for halogen bonding hotspots. Evaluate halogen contacts with the protein backbone using the scoring function XBScore."
-image: "/src/use/halogen-bonding/halogen-bonding.png"
+image: "/use/halogen-bonding/halogen-bonding.png"
 comments:
   - "[Halogen Bonding project home](http://halogenbonding.com/) Supports visualizations (halogen bond spheres) for: the protein backbone (spherical scans and planar scans), methionine, and histidine."
 user_support:

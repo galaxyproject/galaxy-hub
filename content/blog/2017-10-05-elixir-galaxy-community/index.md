@@ -2,7 +2,7 @@
 date: '2017-10-05'
 title: "ELIXIR establishes a new official Community for Galaxy"
 tease: ""
-image: /src/images/logos/ElixirNoTextLogo.png
+image: /images/logos/ElixirNoTextLogo.png
 authors: "Frederik Coppens, Gildas Le Corguillé, Björn Grüning"
 ---
 

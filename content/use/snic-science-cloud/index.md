@@ -8,7 +8,7 @@ platforms:
     platform_url: "https://cloud.snic.se/"
     platform_text: "SNIC Science Cloud"
 summary: "A national-scale cloud infrastructure for Swedish Academia"
-image: "/src/use/snic-science-cloud/snic-science-cloud.png"
+image: "/use/snic-science-cloud/snic-science-cloud.png"
 comments:
   - 'The SNIC Science Cloud (SSC) is a community cloud and use of the resources is free of charge to Swedish PIs and their collaborators. As for other SNIC allocations you need an affiliation with a Swedish higher education institution to be eligible to apply for a project.'
 user_support:

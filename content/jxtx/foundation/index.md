@@ -22,8 +22,8 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 * **[Anoushka Joglekar: Making Connections via the JXTX Foundation](/news/2020-11-jxtx-joglekar/)**, November 24, 2020
 * **[David Twesigomwe on the impact of the JXTX Foundation](/news/2020-11-jxtx-twesigomwe/)**, November 20, 2020
 * **[JXTX Foundation Awards First Ten Scholarships](/news/2020-10-jxtx-awardees/)**, October 23, 2020
-* **[Call for Scholarship Applications for Biological Data Science 2020](/news/2020-07-bds-scholarships/index.md)**, July 8, 2020
-* **[The James Taylor Foundation](/news/2020-05-jtech/index.md)**, May 7, 2020
+* **[Call for Scholarship Applications for Biological Data Science 2020](/news/2020-07-bds-scholarships/)**, July 8, 2020
+* **[The James Taylor Foundation](/news/2020-05-jtech/)**, May 7, 2020
 
 <br />
 

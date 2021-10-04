@@ -8,7 +8,7 @@ platforms:
     platform_text: "MiModD NacreousMap"
     platform_location: DE
 summary: "NacreousMap mapping/plotting tool of MiModD for users of MiModD who do not want to install the required dependencies (R and rpy2) for graphical output from this tool on their local system. "
-image: "/src/use/mimodd-nacreousmap/baumeister.png"
+image: "/use/mimodd-nacreousmap/baumeister.png"
 comments:
   - "[MiModD](http://www.celegans.de/en/mimodd) is a comprehensive software package for the identification and annotation of mutations in the genomes of model organisms from whole-genome sequencing (WGS) data."
   - "[CloudMap](https://usegalaxy.org/cloudmap) users can replot data produced with the Hawaiian Variant Mapping tool using the NacreousMap engine to obtain optimized (much smaller files that display faster) plots."
