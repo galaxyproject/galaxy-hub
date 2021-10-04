@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy@Pasteur"
     platform_location: FR
 summary: "General purpose genomics analysis server. "
-image: "/src/use/galaxy-pasteur/pasteur-300.png"
+image: "/use/galaxy-pasteur/pasteur-300.png"
 comments:
   - "Provides a wide range of tools to the scientific community, including tools that have been created at the Institut Pasteur i.e. [TXSScan](https://doi.org/10.1038/srep23080), [alienTrimmer](https://doi.org/10.1016/j.ygeno.2013.07.011), [PhageTerm](https://doi.org/10.1101/108100), [SARTools Deseq2](https://doi.org/10.1371/journal.pone.0157022) ..."
   - "This server is also the workflow execution and analysis engine for the [NGPhylogeny.fr](/use/ngphylogeny/), [ARIAweb](/use/ariaweb/), and [SHAMAN](/use/shaman/) servers.  None of them looks like Galaxy, but they use the Galaxy@Pasteur server for data analysis and workflow execution. "

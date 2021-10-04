@@ -9,7 +9,7 @@ platforms:
     platform_text: "PL-Grid Galaxy Server"
     platform_location: PL
 summary: "*The PL-Grid project is [free of charge](https://docs.plgrid.pl/pages/viewpage.action?pageId=11306686#Diagnostykamolekularna(GalaxyServer)-platformaanalizydanychzNGS-becoming_userBecomingauser(Aktywowanieusługi)) for any Polish scientist. It is also free for any foreign collaborator of Polish scientists.*"
-image: "/src/use/archive/pl-grid/pl-grid-logo.png"
+image: "/use/archive/pl-grid/pl-grid-logo.png"
 comments:
   - "This deployment is focused on NGS analyses."
 user_support:

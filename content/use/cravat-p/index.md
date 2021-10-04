@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/jraysajulga/galaxy-cravatp-docker/"
     platform_text: "CRAVAT-P Galaxy Docker"
 summary: "A Docker image containing a fully-operational Galaxy instance with pre-installed demonstration material for CRAVAT-P."
-image: "/src/use/cravat-p/cravat-p-landing-500.png"
+image: "/use/cravat-p/cravat-p-landing-500.png"
 comments:
   - "The [CRAVAT-P Galaxy Docker instance](https://jraysajulga.github.io/cravatp-galaxy-docker/) includes a Galaxy Instance (version 17.09); CRAVAT-P submit, intersect, annotate, and retrieve Galaxy tool; CRAVAT-P visualization plugin; input files (i.e., VCF and proBED files); and a basic CRAVAT-P workflow."
 user_support:

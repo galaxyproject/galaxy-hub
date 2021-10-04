@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy-P Metaproteomics Gateway"
     platform_location: US
 summary: "Metaproteomics gateway providing access to documentation and other instructional materials, and an opportunity for hands-on training using example datasets and optimized metaproteomics workflows"
-image: "/src/use/metaproteomics-gateway/metaproteomics-gateway-landing-400.png"
+image: "/use/metaproteomics-gateway/metaproteomics-gateway-landing-400.png"
 comments:
   - "The main goal of this server is to provide documentation to facilitate training and mastery of these software and workflows."
 user_support:

@@ -56,8 +56,8 @@ The goals of this workshop are to
 
 ## Instructors
 
-- [Dave Clements](/people/dave-clements/), [Galaxy Project](/src/) and [Johns Hopkins University](http://jhu.edu)
-- [Mo Heydarian](/people/mo-heydarian/), [Galaxy Project](/src/) and [Johns Hopkins University](http://jhu.edu)
+- [Dave Clements](/people/dave-clements/), [Galaxy Project](/) and [Johns Hopkins University](http://jhu.edu)
+- [Mo Heydarian](/people/mo-heydarian/), [Galaxy Project](/) and [Johns Hopkins University](http://jhu.edu)
 
 ## Registration
 

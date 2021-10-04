@@ -8,7 +8,7 @@ platforms:
     platform_text: "Genomic Hyperbrowser"
     platform_location: NO
 summary: "Statistical methodology and computing power to handle a variety of biological inquires on genomic datasets "
-image: "/src/use/genomic-hyperbrowser/genomic-hyperbrowser.png"
+image: "/use/genomic-hyperbrowser/genomic-hyperbrowser.png"
 comments:
   - "The GSuite HyperBrowser system includes a range of tools to handle acquisition, processing and analysis of collections of genomic tracks, represented in a simple tabular format, GSuite. Please proceed in either basic or advanced mode."
   - "The Genomic HyperBrowser (which includes the GSuite HyperBrowser) is a service from ELIXIR - provided by [ELIXIR Norway](https://www.elixir-norway.org/)."

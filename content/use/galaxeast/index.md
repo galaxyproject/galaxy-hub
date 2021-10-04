@@ -8,7 +8,7 @@ platforms:
     platform_text: "GalaxEast"
     platform_location: FR
 summary: "Integrative 'omics data analysis "
-image: "/src/use/galaxeast/galaxeast.png"
+image: "/use/galaxeast/galaxeast.png"
 comments:
   - "[Request an account](http://wiki.galaxeast.fr/doku.php?id=request:account)"
   - "Provides access to up-to-date tools and algorithms such as those devoted to Next Generation Sequencing (NGS) data analysis of: 1) Epigenome: MACS, Homer; 2) Genomic sequence: GATK, Samtools, BEDtools, Picard; 3) Transcriptome: Cufflinks, HTSeq, TopHat; 4) Statistical analyses: DeepTools, S-mart, DESeq"

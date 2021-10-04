@@ -8,7 +8,7 @@ location: "Translational Research Institute, Woolloongabba, Queensland, Australi
 location_url: 
 external_url: "https://www.eventbrite.com.au/e/rna-seq-analysis-with-galaxy-and-r-tickets-73768869675"
 contact: 'training@qfab.org'
-image: "/src/images/logos/QFABLogo.png"
+image: "/images/logos/QFABLogo.png"
 gtn: true
 ---
 

@@ -85,43 +85,43 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 
 * White background, 500x102 pixels
 
-    <a href='/src/images/galaxy-logos/blend4phpLogo.png'><img src="/images/galaxy-logos/blend4phpLogo.png" alt=""  /></a>
+    <a href='/images/galaxy-logos/blend4phpLogo.png'><img src="/images/galaxy-logos/blend4phpLogo.png" alt=""  /></a>
 
 ## CloudMan
 
 * White background, 842x231 pixels
 
-    <a href='/src/images/galaxy-logos/cloudman-logo.jpg'><img src="/images/galaxy-logos/cloudman-logo.jpg" alt="" width="800" /></a>
+    <a href='/images/galaxy-logos/cloudman-logo.jpg'><img src="/images/galaxy-logos/cloudman-logo.jpg" alt="" width="800" /></a>
 
 ## Planemo
 
 * Transparent background
 
-    <a href='/src/images/galaxy-logos/planemo-logo.png'><img src="/images/galaxy-logos/planemo-logo.png" alt="" width=800 /></a>
+    <a href='/images/galaxy-logos/planemo-logo.png'><img src="/images/galaxy-logos/planemo-logo.png" alt="" width=800 /></a>
 
 ## Pulsar
 
 * Transparent background
 
-    <a href='/src/images/galaxy-logos/pulsar_transparent.png'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="" width=800 /></a>
+    <a href='/images/galaxy-logos/pulsar_transparent.png'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="" width=800 /></a>
 
 ## Starforge
 
 * Transparent background
 
-    <a href='/src/images/galaxy-logos/starforge_logo_big.png'><img src="/images/galaxy-logos/starforge_logo_big.png" alt="" width="800" /></a>
+    <a href='/images/galaxy-logos/starforge_logo_big.png'><img src="/images/galaxy-logos/starforge_logo_big.png" alt="" width="800" /></a>
 
 ## GalaxyAdmins
 
 * 1781x742 pixels
 
-    <a href='/src/images/galaxy-logos/GalaxyAdmins.png'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="" width="800" /></a>
+    <a href='/images/galaxy-logos/GalaxyAdmins.png'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="" width="800" /></a>
 
 ## Galaxy News
 
 * Rectangular, 1600x682 pixels
 
-    <a href='/src/images/galaxy-logos/GalaxyNews.png'><img src="/images/galaxy-logos/GalaxyNews.png" alt="" width="800" /></a>
+    <a href='/images/galaxy-logos/GalaxyNews.png'><img src="/images/galaxy-logos/GalaxyNews.png" alt="" width="800" /></a>
 
 ## Galactic Blog
 
@@ -197,15 +197,15 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 
 * Logo, full text, 1600x670 pixels
 
-    <a href='/src/images/galaxy-logos/GalaxyScholarshipsBig.png'><img src="/images/galaxy-logos/GalaxyScholarshipsBig.png" alt="" width="800" /></a>
+    <a href='/images/galaxy-logos/GalaxyScholarshipsBig.png'><img src="/images/galaxy-logos/GalaxyScholarshipsBig.png" alt="" width="800" /></a>
 
 * Logo, just G, 679x429 pixels
 
-    <a href='/src/images/galaxy-logos/GalaxyScholarshipsGBig.png'><img src="/images/galaxy-logos/GalaxyScholarshipsGBig.png" alt=""  /></a>
+    <a href='/images/galaxy-logos/GalaxyScholarshipsGBig.png'><img src="/images/galaxy-logos/GalaxyScholarshipsGBig.png" alt=""  /></a>
 
 ## Help.GalaxyProject.org
 
 * Logo, full text, transparent background, 5081x701 pixels
 
-    <a href='/src/images/galaxy-logos/help-galaxyproject-org-big.png'><img src="/images/galaxy-logos/help-galaxyproject-org-big.png" alt="" width="800" /></a>
+    <a href='/images/galaxy-logos/help-galaxyproject-org-big.png'><img src="/images/galaxy-logos/help-galaxyproject-org-big.png" alt="" width="800" /></a>
 

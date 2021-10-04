@@ -8,7 +8,7 @@ platforms:
     platform_text: "Lebanese University Galaxy"
     platform_location: LB
 summary: "Includes the SpCLUST tool set for fast and reliable clustering of potentially divergent biological sequences"
-image: "/src/use/lebanese-university/lebanese-university-logo.jpg"
+image: "/use/lebanese-university/lebanese-university-logo.jpg"
 comments:
   - "Also supports the CD-Hit and DNAClust tool sets."
 user_support:

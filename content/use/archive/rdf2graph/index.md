@@ -8,7 +8,7 @@ platforms:
     platform_text: "RDF2Graph Server"
     platform_location: NL
 summary: "RDF2Graph recovers the structure of an RDF resource. "
-image: "/src/use/archive/rdf2graph/rdf2graph_reactome.png"
+image: "/use/archive/rdf2graph/rdf2graph_reactome.png"
 comments:
   - "Graphs can be exported to [Cytoscape](http://www.cytoscape.org/), OWL, and [ShEx](http://www.w3.org/2001/sw/wiki/ShEx)."
 user_support:

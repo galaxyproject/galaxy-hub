@@ -2,7 +2,7 @@
 date: '2017-10-04'
 title: "Welcome to the Galactic Blog"
 tease: "It needs you"
-image: /src/images/galaxy-logos/galactic-blog-400.png
+image: /images/galaxy-logos/galactic-blog-400.png
 authors: "Dave Clements"
 ---
 

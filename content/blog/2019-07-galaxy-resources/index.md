@@ -3,7 +3,7 @@ date: ''
 title: "nn Galaxy Resources You Should Know About - 2019 Edition"
 tease: "Resources that will help you use Galaxy in your research"
 authors: "Dave Clements, ..."
-image: "/src/images/galaxy-logos/galactic-blog-400.png"
+image: "/images/galaxy-logos/galactic-blog-400.png"
 ---
 
 Galaxy is a platform, and a community, and a sprawling ecosystem of related projects, efforts, and resources.  And, it's hard to keep track of all of it.

@@ -41,7 +41,7 @@ Galaxy went on tour in France during the last week of May.  Workshops were help 
 
 **Location:**
 
-<div class='right'><a href='/src/events/galaxy-tour-de-france2012/PerpignanWorkshopMap.png'><img src="/events/galaxy-tour-de-france2012/PerpignanWorkshopMap.png" alt="Perpignan Workshop location. Click to enlarge." width="200" /></a><div class='center'>Perpignan workshop location</div></div>
+<div class='right'><a href='/events/galaxy-tour-de-france2012/PerpignanWorkshopMap.png'><img src="/events/galaxy-tour-de-france2012/PerpignanWorkshopMap.png" alt="Perpignan Workshop location. Click to enlarge." width="200" /></a><div class='center'>Perpignan workshop location</div></div>
 
 The workshops will be held in the seminar room of the [Laboratoire Génome et Développement des Plantes (LGDP)](http://lgdp.univ-perp.fr/index.php?page=laboratoire_2) of the [University of Perpignan](http://univ-perp.fr), the address details are:
 
@@ -68,7 +68,7 @@ The workshops will be held in the seminar room of the [Laboratoire Génome et D�
 
 ## Paris: 1 June
 
-<div class='right'><a href='/src/events/galaxy-tour-de-france2012/ParisWorkshopMetroStations.png'><img src="/events/galaxy-tour-de-france2012/ParisWorkshopMetroStations.png" alt="Paris Workshop location and nearby Metro and RER stations. Click to enlarge." width="200" /></a><div class='center'>Paris workshop location<br /> nearby Metro & RER stations.</div></div>
+<div class='right'><a href='/events/galaxy-tour-de-france2012/ParisWorkshopMetroStations.png'><img src="/events/galaxy-tour-de-france2012/ParisWorkshopMetroStations.png" alt="Paris Workshop location and nearby Metro and RER stations. Click to enlarge." width="200" /></a><div class='center'>Paris workshop location<br /> nearby Metro & RER stations.</div></div>
 
 **Location:**
 

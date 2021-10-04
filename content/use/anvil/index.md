@@ -11,7 +11,7 @@ platforms:
   platform_url: "https://anvilproject.org/"
   platform_text: "Galaxy on AnVIL"
 summary: "Run Galaxy inside the secure AnVIL environment on Google Cloud Platform."
-image: "/src/images/logos/anvil-logo-text.png"
+image: "/images/logos/anvil-logo-text.png"
 comments:
 - "AnVIL moves Galaxy analysis to the cloud and provides integrated access to the large biological data sets there."
 - "AnVIL is a FISMA-Moderate environment where researchers can perform analysis on personally identifiable data."

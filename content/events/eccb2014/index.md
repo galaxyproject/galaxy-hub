@@ -49,7 +49,7 @@ There were several sessions and posters featuring Galaxy at the [13th European C
   <tr>
     <td rowspan=2> 19:30-20:30 </td>
     <td> <em><a href='http://www.eccb14.org/18-poster/103-poster-abstracts-a-9'>J04: SMITH: managing NGS data and workflows in a sequencing facility</a></em> </td>
-    <td> <a href='/src/documents/posters/ECCB2014_SMITH.png'>Poster</a> </td>
+    <td> <a href='/documents/posters/ECCB2014_SMITH.png'>Poster</a> </td>
     <td> Yuriy Vaskin, Francesco Venco and Heiko Muller </td>
   </tr>
   <tr>

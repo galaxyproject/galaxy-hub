@@ -32,19 +32,19 @@ The conference logo is available in 2 formats in several widths.
   </tr>
   <tr>
     <td> <img src="/events/gcc2012/promotion/GCC2012Logo200.png" alt="Logo only" /> </td>
-    <td> <a href='/src/events/gcc2012/promotion/GCC2012Logo200.png'>Download</a> </td>
-    <td> <a href='/src/events/gcc2012/promotion/GCC2012Logo400.png'>Download</a> </td>
-    <td> <a href='/src/events/gcc2012/promotion/GCC2012Logo600.png'>Download</a> </td>
-    <td> <a href='/src/events/gcc2012/promotion/GCC2012Logo800.png'>Download</a> </td>
-    <td> <a href='/src/events/gcc2012/promotion/GCC2012Logo.png'>Download</a> </td>
+    <td> <a href='/events/gcc2012/promotion/GCC2012Logo200.png'>Download</a> </td>
+    <td> <a href='/events/gcc2012/promotion/GCC2012Logo400.png'>Download</a> </td>
+    <td> <a href='/events/gcc2012/promotion/GCC2012Logo600.png'>Download</a> </td>
+    <td> <a href='/events/gcc2012/promotion/GCC2012Logo800.png'>Download</a> </td>
+    <td> <a href='/events/gcc2012/promotion/GCC2012Logo.png'>Download</a> </td>
   </tr>
   <tr>
     <td> <img src="/events/gcc2012/promotion/GCC2012LogoWide400.png" alt="Logo plus text" /> </td>
-    <td> <a href='/src/events/gcc2012/promotion/GCC2012LogoWide200.png'>Download</a> </td>
-    <td> <a href='/src/events/gcc2012/promotion/GCC2012LogoWide400.png'>Download</a> </td>
-    <td> <a href='/src/events/gcc2012/promotion/GCC2012LogoWide600.png'>Download</a> </td>
-    <td> <a href='/src/events/gcc2012/promotion/GCC2012LogoWide800.png'>Download</a> </td>
-    <td> <a href='/src/events/gcc2012/promotion/GCC2012LogoWide.png'>Download</a> </td>
+    <td> <a href='/events/gcc2012/promotion/GCC2012LogoWide200.png'>Download</a> </td>
+    <td> <a href='/events/gcc2012/promotion/GCC2012LogoWide400.png'>Download</a> </td>
+    <td> <a href='/events/gcc2012/promotion/GCC2012LogoWide600.png'>Download</a> </td>
+    <td> <a href='/events/gcc2012/promotion/GCC2012LogoWide800.png'>Download</a> </td>
+    <td> <a href='/events/gcc2012/promotion/GCC2012LogoWide.png'>Download</a> </td>
   </tr>
 </table>
 

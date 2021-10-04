@@ -8,7 +8,7 @@ platforms:
     platform_text: "Hardwood Genomics"
     platform_location: US
 summary: "A simplified, workflow-centic interface to Galaxy, focused on genomics data from hardwood trees."
-image: "/src/use/hardwood-genomics/hardwood-geonomics-logo.jpg"
+image: "/use/hardwood-genomics/hardwood-geonomics-logo.jpg"
 comments:
   - "[Register for an account](https://www.hardwoodgenomics.org/user/register)"
   - "Workflows for quality control, short read mapping, functional gene annotation, RNA-Seq differential gene expression and variant analysis."

@@ -9,7 +9,7 @@ location_url: http://www.tsl.ac.uk/
 external_url: http://gcc2015.tsl.ac.uk/
 gtn: true
 contact: Organisers
-image: /src/images/logos/GCC2015LogoSimple300.png
+image: /images/logos/GCC2015LogoSimple300.png
 tags: [ cofest ]
 ---
 

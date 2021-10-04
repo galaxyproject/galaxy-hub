@@ -11,7 +11,7 @@ gtn: false
 contact: "Nate Coraor, Helena Rasche"
 tags: [ "cofest" ]
 links:
-image: "/src/images/galaxy-logos/admin-training-logo.jpg"
+image: "/images/galaxy-logos/admin-training-logo.jpg"
 ---
 
 As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) draws near ([training](https://galaxyproject.org/events/gcc2021/training/) starts June 28) the instructors behind the [Galaxy Admin Track](https://galaxyproject.org/events/gcc2021/training/admin-track) (and [Galaxy Admin Training events](/events/2021-01-admin-training/))  would like to gather to address [some lingering issues](https://github.com/galaxyproject/training-material/issues/2274) before GCC.  

@@ -8,7 +8,7 @@ platforms:
     platform_text: "BitLAB Galaxy"
     platform_location: ES
 summary: "Detailed analysis of metagenomes. "
-image: "/src/use/bitlab/bitlab.png"
+image: "/use/bitlab/bitlab.png"
 comments:
   - " ... provides new tools and datafile specifications that facilitate the identification of differences in abundance of reads assigned to taxa (mapping), enables the detection of reads of low-abundance bacteria (producing evidence of their presence), provides new concepts for filtering spurious matches, etc. Innovative visualization ideas for improved display of metagenomic diversity are also proposed to better understand how reads are mapped to taxa."
 user_support:

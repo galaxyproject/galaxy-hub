@@ -8,7 +8,7 @@ platforms:
     platform_text: "Server"
     platform_location: DE
 summary: "Retrieves annotations on biological effects of chemicals and determines which ones are enriched. "
-image: "/src/use/cart/cart.png"
+image: "/use/cart/cart.png"
 comments:
   - "it matches an input list of chemical names into a comprehensive reference space to assign unambiguous chemical identifiers. In this unified space, bioactivity annotations can be easily retrieved from databases covering a wide variety of chemical effects on biological systems. Subsequently, CART can determine annotations enriched in the input set of chemicals and display these in tabular format and interactive network visualizations, thereby facilitating integrative analysis of chemical bioactivity data."
   - "Source code and an easy-to-install command line tool are also available."

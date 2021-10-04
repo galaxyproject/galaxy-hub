@@ -27,16 +27,16 @@ This page provides a step-by-step instructions on how to start your own instance
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/AWSSetRegion.png'><img src="/cloudman/aws/getting-started/AWSSetRegion.png" alt="Set region; click to enlarge" width="200" /></a><br />1.2. Set region </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/AWSSetRegion.png'><img src="/cloudman/aws/getting-started/AWSSetRegion.png" alt="Set region; click to enlarge" width="200" /></a><br />1.2. Set region </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/AWSConsoleKeyPairs.png'><img src="/cloudman/aws/getting-started/AWSConsoleKeyPairs.png" alt="Click on key pairs; click to enlarge" width="200" /></a><br />1.3. Click on key pairs </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/AWSConsoleKeyPairs.png'><img src="/cloudman/aws/getting-started/AWSConsoleKeyPairs.png" alt="Click on key pairs; click to enlarge" width="200" /></a><br />1.3. Click on key pairs </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/AWSDefaultSecurityGroups.png'><img src="/cloudman/aws/getting-started/AWSDefaultSecurityGroups.png" alt="Create security group; click to enlarge" width="200" /></a><br />1.5. Create security group </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/AWSDefaultSecurityGroups.png'><img src="/cloudman/aws/getting-started/AWSDefaultSecurityGroups.png" alt="Create security group; click to enlarge" width="200" /></a><br />1.5. Create security group </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/AWSApplyRuleChanges.png'><img src="/cloudman/aws/getting-started/AWSApplyRuleChanges.png" alt="Create security group; click to enlarge" width="200" /></a><br />1.7. Add inbound rules </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/AWSApplyRuleChanges.png'><img src="/cloudman/aws/getting-started/AWSApplyRuleChanges.png" alt="Create security group; click to enlarge" width="200" /></a><br />1.7. Add inbound rules </td>
   </tr>
 </table>
 
@@ -75,28 +75,28 @@ All of these inbound rules are necessary for proper functioning of CloudMan and 
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/AWSAMISearch.png'><img src="/cloudman/aws/getting-started/AWSAMISearch.png" alt="Find & Select AMI; click to enlarge" width="200" /></a><br />2.3. Find & Select AMI </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/AWSAMISearch.png'><img src="/cloudman/aws/getting-started/AWSAMISearch.png" alt="Find & Select AMI; click to enlarge" width="200" /></a><br />2.3. Find & Select AMI </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/AWSRequestInstanceDetails.png'><img src="/cloudman/aws/getting-started/AWSRequestInstanceDetails.png" alt="Set instance details; click to enlarge" width="200" /></a><br />2.4. Instance details </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/AWSRequestInstanceDetails.png'><img src="/cloudman/aws/getting-started/AWSRequestInstanceDetails.png" alt="Set instance details; click to enlarge" width="200" /></a><br />2.4. Instance details </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/AWSUserData.png'><img src="/cloudman/aws/getting-started/AWSUserData.png" alt="set user data; click to enlarge" width="200" /></a><br />2.5. Set User Data. </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/AWSUserData.png'><img src="/cloudman/aws/getting-started/AWSUserData.png" alt="set user data; click to enlarge" width="200" /></a><br />2.5. Set User Data. </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/AWSCredentialsLink.png'><img src="/cloudman/aws/getting-started/AWSCredentialsLink.png" alt="Get to credentials; click to enlarge" width="200" /></a><br />2.5.3. Get to credentials. </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/AWSCredentialsLink.png'><img src="/cloudman/aws/getting-started/AWSCredentialsLink.png" alt="Get to credentials; click to enlarge" width="200" /></a><br />2.5.3. Get to credentials. </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/AWSCredentials.png'><img src="/cloudman/aws/getting-started/AWSCredentials.png" alt="Credentials; click to enlarge" width="200" /></a><br />2.5.4. Credentials. </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/AWSCredentials.png'><img src="/cloudman/aws/getting-started/AWSCredentials.png" alt="Credentials; click to enlarge" width="200" /></a><br />2.5.4. Credentials. </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/AWSPreLaunchReview.png'><img src="/cloudman/aws/getting-started/AWSPreLaunchReview.png" alt="Review & launch; click to enlarge" width="200" /></a><br />2.9. Review & Launch! </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/AWSPreLaunchReview.png'><img src="/cloudman/aws/getting-started/AWSPreLaunchReview.png" alt="Review & launch; click to enlarge" width="200" /></a><br />2.9. Review & Launch! </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/AWSInstanceList.png'><img src="/cloudman/aws/getting-started/AWSInstanceList.png" alt="AWS EC2 instances list; click to enlarge" width="200" /></a><br />2.10. AWS instance is up </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/AWSInstanceList.png'><img src="/cloudman/aws/getting-started/AWSInstanceList.png" alt="AWS EC2 instances list; click to enlarge" width="200" /></a><br />2.10. AWS instance is up </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/cloudman/aws/getting-started/GalaxyNotRunning.png'><img src="/cloudman/aws/getting-started/GalaxyNotRunning.png" alt="Galaxy not running yet; click to enlarge" width="200" /></a><br />2.11. Galaxy CloudMan is<br />ready to configure </td>
+    <td style=" text-align: center; border: none;"> <a href='/cloudman/aws/getting-started/GalaxyNotRunning.png'><img src="/cloudman/aws/getting-started/GalaxyNotRunning.png" alt="Galaxy not running yet; click to enlarge" width="200" /></a><br />2.11. Galaxy CloudMan is<br />ready to configure </td>
   </tr>
 </table>
 

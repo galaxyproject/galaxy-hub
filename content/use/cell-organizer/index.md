@@ -8,7 +8,7 @@ platforms:
     platform_text: "CellOrganizer for Galaxy"
     platform_location: US
 summary: "Create generative models of the spatial organization of cells from microscope images and automatically provide geometries for spatial simulations of cell processes and behaviors"
-image: "/src/use/cell-organizer/cell-organizer-logo2-250.jpg"
+image: "/use/cell-organizer/cell-organizer-logo2-250.jpg"
 comments:
   - "This webserver is provided to provide access to CellOrganizer tools for users who do not have the resources to run the Matlab or Docker versions."
 user_support:

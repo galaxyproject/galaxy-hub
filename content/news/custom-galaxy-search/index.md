@@ -5,7 +5,7 @@ date: "2011-12-20"
 **Note: All of these searches were consolidated [into a single search](/search/) in March 2017.**
 
 <div class='center'>
-<a href='/search/'><img src='/src/images/galaxy-logos/galaxy-web-search.png' alt='Galaxy Web Search' width="170" /></a> <img src='/images/logos/GalaxyMailingListSearch.png' alt='Galaxy Mailing List Search' width="170" /> <img src='/images/logos/UseGalaxySearch.png' alt='Using Galaxy Web Search' width="170" /><img src='/images/logos/GetGalaxySearch.png' alt='Galaxy administration, tool, and deployment search' width="170" />
+<a href='/search/'><img src='/images/galaxy-logos/galaxy-web-search.png' alt='Galaxy Web Search' width="170" /></a> <img src='/images/logos/GalaxyMailingListSearch.png' alt='Galaxy Mailing List Search' width="170" /> <img src='/images/logos/UseGalaxySearch.png' alt='Using Galaxy Web Search' width="170" /><img src='/images/logos/GetGalaxySearch.png' alt='Galaxy administration, tool, and deployment search' width="170" />
 </div>
 <br />
 Galaxy now has several Google Custom Search engines that make it much easier to find answers to your questions about Galaxy.  They are:

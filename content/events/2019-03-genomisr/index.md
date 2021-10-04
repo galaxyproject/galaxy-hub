@@ -9,7 +9,7 @@ location_url: ""
 external_url: "https://www.facebook.com/events/392829814603666/"
 gtn: false
 contact: "Abdelazeem Abdelhameed Elhabyan"
-image: "/src/events/2019-03-genomisr/genomisr-workshop.jpg"
+image: "/events/2019-03-genomisr/genomisr-workshop.jpg"
 ---
 
 **Program**

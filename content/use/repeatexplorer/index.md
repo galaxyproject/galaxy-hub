@@ -8,7 +8,7 @@ platforms:
     platform_text: "RepeatExplorer"
     platform_location: CZ
 summary: "Graph-based clustering and characterization of repetitive sequences, and detection of transposable element protein coding domains."
-image: "/src/use/repeatexplorer/repeatexplorer-home-page-300.png"
+image: "/use/repeatexplorer/repeatexplorer-home-page-300.png"
 comments:
   - "Utilities for [Graph-based clustering and characterization of repetitive sequences in next-generation sequencing data](http://www.biomedcentral.com/1471-2105/11/378) and tools for the detection of transposable element protein coding domains"
   - "There is an [annual RepeatExplorer workshop](http://repeatexplorer.org/?page_id=14)."

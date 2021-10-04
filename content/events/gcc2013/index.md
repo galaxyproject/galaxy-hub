@@ -9,7 +9,7 @@ location_url: http://www.uio.no/
 external_url:
 gtn: false
 contact: Organisers
-image: /src/images/logos/GCC2013Logo400.png
+image: /images/logos/GCC2013Logo400.png
 ---
 
 <br /><br />

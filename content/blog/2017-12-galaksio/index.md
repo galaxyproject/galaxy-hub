@@ -4,7 +4,7 @@ title: "Galaksio: a Galaxy user interface focused on running prepared workflows"
 tease: "Make your workflows more accessible to non-bioinformaticians"
 authors: "Tomas Klingström"
 external_url: ""
-image: "/src/images/logos/galaksio_logo.png"
+image: "/images/logos/galaksio_logo.png"
 source_blog_url: ""
 source_blog: 
 ---

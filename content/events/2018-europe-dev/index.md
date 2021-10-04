@@ -7,7 +7,7 @@ continent: EU
 location: Freiburg, Germany
 location_url:
 external_url:
-image: /src/events/2018-europe-dev/2018-europe-logo.small.png
+image: /events/2018-europe-dev/2018-europe-logo.small.png
 gtn: false
 contact: Hans-Rudolf Hotz, Björn Grüning, Jean-François Dufayard
 ---

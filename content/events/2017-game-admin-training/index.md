@@ -7,7 +7,7 @@ tease: at Galaxy Australasia Meeting Meeting
 continent: AU
 location: GAMe 2017, University of Melbourne, Melbourne, Victoria, Australia
 location_url:  https://www.emblaustralia.org/events-speakers/public-events/game-2017-galaxy-australasia-meeting
-image: /src/images/logos/game2017-admin-training-logo.png
+image: /images/logos/game2017-admin-training-logo.png
 gtn: true
 contact: Enis Afgan, Nate Coraor, Bjoern Gruening, Simon Gladman, Ross Lazarus, 
 ---

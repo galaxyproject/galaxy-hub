@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy@PRABI"
     platform_location: FR
 summary: "Includes bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SEX-DETector,* and *priam*."
-image: "/src/images/logos/PRABILogo.png"
+image: "/images/logos/PRABILogo.png"
 comments:
   - '"A general purpose Galaxy instance that includes bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SEX-DETector,* and *priam* available [through our local toolshed instance](http://toolshed.prabi.fr)."'
   - "Dedicated server:  PowerEdge R920 Rack Server - 64 CPU, 512 GB RAM, 15To GB of disk space."

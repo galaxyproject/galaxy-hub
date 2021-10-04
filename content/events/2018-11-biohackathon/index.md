@@ -7,7 +7,7 @@ continent: EU
 location: "Campus des Berges de Seine, Paris, France"
 location_url: "https://www.chateauform.com/fr/maison/les-berges-de-seine/"
 external_url: ""
-image: "/src/events/2018-11-biohackathon/biohack2018.png"
+image: "/events/2018-11-biohackathon/biohack2018.png"
 gtn: False
 contact: "Bérénice Batut, Hervé Ménager"
 tags: [ cofest ]

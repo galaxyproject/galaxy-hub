@@ -8,7 +8,7 @@ platforms:
     platform_text: "TGM Galaxy Server"
     platform_location: LU
 summary: "The *TGM pipeline* is a workflow combining tranSMART server, Galaxy Server and MINERVA platform to enable visually-aided exploration, analysis and interpretation of high-throughput translational medicine data."
-image: "/src/use/tgm/tgm-fig1.png"
+image: "/use/tgm/tgm-fig1.png"
 comments:
   - "The Galaxy part of the pipeline allows for establishing analytical workflows for data from the [tranSMART server](http://r3lab.uni.lu/web/tgm-pipeline/#transmart-setup). Analytical results (list of molecules) are sent to the associated [MINERVA instance](http://r3lab.uni.lu/web/tgm-pipeline/#minerva-setup), hosting the PD map."
 user_support:

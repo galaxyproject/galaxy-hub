@@ -8,7 +8,7 @@ location: 'Genome Informatics, CSHL, New York, United States'
 location_url: https://meetings.cshl.edu/meetings.aspx?meet=INFO&year=17
 external_url: 
 gtn: false
-image: /src/images/logos/CSHLLogo.jpg
+image: /images/logos/CSHLLogo.jpg
 contact: "Presenters"
 ---
 

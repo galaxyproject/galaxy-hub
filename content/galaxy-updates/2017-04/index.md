@@ -94,13 +94,13 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 </tr>
 <tr>
   <td><span class="text-nowrap">April 19th 2017</span></td>
-  <td><a href="http://www.canceropole-idf.fr/formation-ngs-dnaseq/">NGS &amp; Cancer : Analyses DNA-Seq</a> [<a href="/src/events/2017-04-cancerpole">hub page</a>]</td>
+  <td><a href="http://www.canceropole-idf.fr/formation-ngs-dnaseq/">NGS &amp; Cancer : Analyses DNA-Seq</a> [<a href="/events/2017-04-cancerpole">hub page</a>]</td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.canceropole-idf.fr/">Cancerpole, Paris, Fance</a></td>
   <td>formateurs</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 15th 2017</span></td>
-  <td><a href="https://biotexcel.com/event/ngs-2017-glasgow/#workshop">Data Analysis Workshop</a> [<a href="/src/events/2017-05-glasgow-ngs">hub page</a>]</td>
+  <td><a href="https://biotexcel.com/event/ngs-2017-glasgow/#workshop">Data Analysis Workshop</a> [<a href="/events/2017-05-glasgow-ngs">hub page</a>]</td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="https://biotexcel.com/event/ngs-2017-glasgow/">NGS 2017 Glasgow, Glasgow, United Kingdom</a></td>
   <td>Julian Augley, Graham Hamilton, David Meltzer and Mani Mudaliar</td>
 </tr>
@@ -118,13 +118,13 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 </tr>
 <tr>
   <td><span class="text-nowrap">May 29th 2017</span></td>
-  <td><a href="http://www.france-bioinformatique.fr/fr/evenements/W4E2017">Workflow4Experimenters International Course</a> [<a href="/src/events/2017-05-w4e">hub page</a>]</td>
+  <td><a href="http://www.france-bioinformatique.fr/fr/evenements/W4E2017">Workflow4Experimenters International Course</a> [<a href="/events/2017-05-w4e">hub page</a>]</td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.france-bioinformatique.fr/fr">Pasteur Institute, Paris, France</a></td>
   <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Christophe Caron</td>
 </tr>
 <tr>
   <td><span class="text-nowrap">May 29th 2017</span></td>
-  <td><a href="https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017">Bioinformatics for Cancer Genomics</a> [<a href="/src/events/2017-05-cancer-genomics">hub page</a>]</td>
+  <td><a href="https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017">Bioinformatics for Cancer Genomics</a> [<a href="/events/2017-05-cancer-genomics">hub page</a>]</td>
   <td><img style="float:right;" src="/images/icons/NA.png"/>Toronto, Ontario, Canada</td>
   <td>organizers</td>
 </tr>
@@ -148,7 +148,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 </tr>
 <tr>
   <td><span class="text-nowrap">June 26th 2017</span></td>
-  <td><a href="https://gcc2017.sciencesconf.org/">2017 Galaxy Community Conference (GCC2017)</a> [<a href="/src/events/2017-gcc">hub page</a>]</td>
+  <td><a href="https://gcc2017.sciencesconf.org/">2017 Galaxy Community Conference (GCC2017)</a> [<a href="/events/2017-gcc">hub page</a>]</td>
   <td><img style="float:right;" src="/images/icons/EU.png"/>Montpellier, Fance</td>
   <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Galaxy community</td>
 </tr>
@@ -166,7 +166,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 </tr>
 <tr>
   <td><span class="text-nowrap">September 1st 2017</span></td>
-  <td><a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">The Galaxy Bioinformatics Platform: learning to use Galaxy for RNA-seq analysis</a> [<a href="/src/events/2017-genome-10k">hub page</a>]</td>
+  <td><a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">The Galaxy Bioinformatics Platform: learning to use Galaxy for RNA-seq analysis</a> [<a href="/events/2017-genome-10k">hub page</a>]</td>
   <td><img style="float:right;" src="/images/icons/EU.png"/><a href="http://www.earlham.ac.uk/genome-10k-and-genome-science">Genome 10K and Genome Science, Earlham Institute, Norwich, United Kingdom</a></td>
   <td><a href="https://training.galaxyproject.org/"><img style="float:right;" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a></td>
 </tr></tbody></table>

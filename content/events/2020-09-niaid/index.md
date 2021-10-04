@@ -5,7 +5,7 @@ days: 1
 tease: ''
 continent: NA
 location: 'NIAID, Online, United States'
-image: /src/images/logos/niaid-logo.png
+image: /images/logos/niaid-logo.png
 location_url: ""
 external_url: ""
 gtn: false

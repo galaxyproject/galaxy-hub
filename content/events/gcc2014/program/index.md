@@ -315,7 +315,7 @@ Moderator: [Mohammad Heydarian](http://epigenetics.jhu.edu/?section=personnelPag
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:10 </td>
-    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/events/gcc2014/abstracts/talks/#the-gcc2014-hackathon'>The GCC2014 Hackathon</a></em> <div class='indent'> <a href='/people/dannon-baker/'>Dannon Baker</a>, <a href='http://bcbio.wordpress.com/'>Brad Chapman</a>, <a href='/people/john-chilton/'>John Chilton</a>, <a href='http://www.soe.ucsc.edu/people/kellrott'>Kyle Ellrott</a>, and <a href='/src/events/gcc2014/hackathon/'>GCC2014 Hackathon Participants</a> </div> </td>
+    <td style=" vertical-align: top; border: none; width: 100%;"> <em><a href='/events/gcc2014/abstracts/talks/#the-gcc2014-hackathon'>The GCC2014 Hackathon</a></em> <div class='indent'> <a href='/people/dannon-baker/'>Dannon Baker</a>, <a href='http://bcbio.wordpress.com/'>Brad Chapman</a>, <a href='/people/john-chilton/'>John Chilton</a>, <a href='http://www.soe.ucsc.edu/people/kellrott'>Kyle Ellrott</a>, and <a href='/events/gcc2014/hackathon/'>GCC2014 Hackathon Participants</a> </div> </td>
   </tr>
   <tr>
     <td style=" vertical-align: top; text-align: right; border: none;"> 9:30 </td>

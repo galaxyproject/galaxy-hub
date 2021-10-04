@@ -2,7 +2,7 @@
 date: '2017-10-16'
 title: "Galaxy: the first 5,000 pubs "
 tease: "The Galaxy Publication Library hits a milestone"
-image: /src/images/logos/zotero-logo-small-trans.png
+image: /images/logos/zotero-logo-small-trans.png
 authors: "Dave Clements"
 ---
 

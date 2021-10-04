@@ -8,7 +8,7 @@ platforms:
     platform_text: "Climate Science Workbench"
     platform_location: DE
 summary: "A comprehensive set of analysis tools and consolidated workflows for climate analysis and visualisation"
-image: "/src/use/climate-science-workbench/galaxy-climate-200.png"
+image: "/use/climate-science-workbench/galaxy-climate-200.png"
 comments:
   - "Supports general GIS data handling tools and climate analysis-specific tools"
   - "The public server is hosted by the UesGalaxy.eu team."

@@ -8,7 +8,7 @@ platforms:
     platform_text: "DBCLS Galaxy"
     platform_location: JP
 summary: "Adds text mining tools, DBCLS DBSearch Tools, semantic web tools "
-image: "/src/use/archive/dbcls-galaxy/dbcls.png"
+image: "/use/archive/dbcls-galaxy/dbcls.png"
 comments:
   - "Can be used without understanding Japanese."
   - "See also [Galaxy入門とワークフロー構築](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013DDBJWorkflow.pdf) by [山口 敦子](mailto:atsuko AT dbcls DOT jp)"

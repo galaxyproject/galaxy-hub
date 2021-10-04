@@ -17,7 +17,7 @@ pub_libraries:
   - "UseGalaxy.org"
   - "UseMain"
   - "Project"
-image: "/src/images/logos/UseGalaxy.orgLogo600.png"
+image: "/images/logos/UseGalaxy.orgLogo600.png"
 user_support:
   - "[Galaxy Project Gitter Support Channel](https://gitter.im/galaxyproject/Lobby)"
   - "[Galaxy Help Forum](https://help.galaxyproject.org/)"

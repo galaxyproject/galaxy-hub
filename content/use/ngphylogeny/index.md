@@ -11,7 +11,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/evolbioinfo/ngphylogeny/"
     platform_text: "NGPhylogeny.fr Docker image"
 summary: "Robust phylogenetic analysis for everyone."
-image: "/src/use/ngphylogeny/ngphylogeny-steps.png"
+image: "/use/ngphylogeny/ngphylogeny-steps.png"
 comments:
   - "Free, simple to use web service dedicated to reconstructing and analysing phylogenetic relationships between molecular sequences."
   - "Site is built on top of Galaxy, but uses an entirely novel interface to Galaxy."

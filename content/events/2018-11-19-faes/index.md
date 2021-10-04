@@ -6,7 +6,7 @@ tease: "Hands-on analysis of de novo transcriptome reconstruction"
 continent: NA
 location: "National Institutes of Health (NIH), Bethesda, Maryland, United States"
 external_url: https://faes.org/content/advanced-studies-bioinformatics-and-data-science
-image: /src/images/logos/faes.png
+image: /images/logos/faes.png
 gtn: false
 contact: Mo Heydarian
 ---

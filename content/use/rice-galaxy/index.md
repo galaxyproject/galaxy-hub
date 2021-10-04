@@ -8,7 +8,7 @@ platforms:
     platform_text: "Rice Galaxy"
     platform_location: PH
 summary: "Tools for designing single-nucleotide polymorphism assays, analyzing genome-wide association studies, population diversity, rice−bacterial pathogen diagnostics, and a suite of published genomic prediction methods."
-image: "/src/use/rice-galaxy/rice-galaxy-3k.jpg"
+image: "/use/rice-galaxy/rice-galaxy-3k.jpg"
 comments:
   - "Has shared datasets that include high-density genotypes from the 3,000 Rice Genomes project and sequences with corresponding annotations from 9 published rice genomes."
   - "Rice Galaxy is a freely available resource that empowers the plant research community to perform state-of-the-art analyses and utilize publicly available big datasets for both fundamental and applied science."

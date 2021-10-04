@@ -8,7 +8,7 @@ platforms:
     platform_text: "ARIES"
     platform_location: IT
 summary: "Analysis of genomic data in the field of public health and food safety, with the aim of deploying a comprehensive bioinformatics approach to the study of food-borne zoonoses and infectious diseases at the human and animal interface."
-image: "/src/use/aries/aries-drawing-200.jpg"
+image: "/use/aries/aries-drawing-200.jpg"
 comments:
   - "The web portal is termed ARIES (Advanced Research Infrastructure for Experimentation in genomicS). Aims:"
   - "Development of an Information System for the collection of genomic and epidemiological data to enable the Next Generation Sequencing (NGS)-based surveillance of infectious epidemics, foodborne outbreaks and diseases at the animal-human interface."

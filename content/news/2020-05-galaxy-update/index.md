@@ -326,7 +326,7 @@ The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) has been [
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[CoralSNP](/use/coral-snp/index.md)</div>
+<div class="card-header">[CoralSNP](/use/coral-snp/)</div>
 
 <img class="card-img-top" src="/use/coral-snp/coral.jpg" alt="Coral!" />
 

@@ -6,7 +6,7 @@ tease: "1-week full-day hands-on workshop on analysis of RNA-seq, ChIP-seq, Exom
 continent: EU
 location: "University of Freiburg, Freiburg, Germany"
 location_url:
-image: /src/images/logos/deNBILogo.png
+image: /images/logos/deNBILogo.png
 external_url: "https://galaxyproject.eu/event/2019-11-07-GalaxyWS_FR/"
 contact: "Freiburg Galaxy Team"
 gtn: true

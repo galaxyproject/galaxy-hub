@@ -9,5 +9,5 @@ location_url: https://www.k-state.edu/
 external_url:
 gtn: false
 contact: Sherry Miller
-image: /src/images/logos/k-inbre.jpg
+image: /images/logos/k-inbre.jpg
 ---

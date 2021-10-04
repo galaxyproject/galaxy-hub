@@ -8,7 +8,7 @@ platforms:
     platform_text: "UseGalaxy Australia"
     platform_location: AU
 summary: "The Australian UseGalaxy server."
-image: "/src/use/usegalaxy-au/usegalaxy-au-landing-page-500.png"
+image: "/use/usegalaxy-au/usegalaxy-au-landing-page-500.png"
 comments:
   - "Strong on genomics; good central repository for shared Galaxy objects.  See [Main](/main/) for more."
 user_support:

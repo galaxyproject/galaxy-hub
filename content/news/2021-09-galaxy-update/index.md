@@ -101,7 +101,7 @@ of Galaxy have made their rounds in the scientific communities. The
 New Galaxy Community Hub Implementation
 </div>
 
-You may not have noticed, but things have changed a lot in the Galaxy Community Hub. We are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the back-end for the site you're reading right now, with Gridsome replacing Metalsmith.  A complete site restructure, and federation of Galaxy community sites is coming. [Read more](/blog/2021-09-hub2/index.md).
+You may not have noticed, but things have changed a lot in the Galaxy Community Hub. We are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the back-end for the site you're reading right now, with Gridsome replacing Metalsmith.  A complete site restructure, and federation of Galaxy community sites is coming. [Read more](/blog/2021-09-hub2/).
 
 </div>
 
@@ -151,11 +151,11 @@ The ELIXIR Galaxy Community has updated the ELIXIR website including the goals w
 </div>
 <div class="card-header trim-p">
 
-[Galaxy Career Center](/careers/index.md)
+[Galaxy Career Center](/careers/)
 
 </div>
 
-The [Galaxy Career Center](/careers/index.md) lists any open Galaxy related positions that we know about.  Currently there are openings at
+The [Galaxy Career Center](/careers/) lists any open Galaxy related positions that we know about.  Currently there are openings at
 
 * Sciensano in Belgium
 * GSK in Italy
@@ -203,7 +203,7 @@ The Youtube channel of the Galaxy project has reached 500 subscribers, thank you
 
 # Event News
 
-There is not a lot going on in August, but what is happening is compelling.  See all [upcoming events here](/events/index.md):
+There is not a lot going on in August, but what is happening is compelling.  See all [upcoming events here](/events/):
 
 <div class="card-deck">
 
@@ -217,13 +217,13 @@ There is not a lot going on in August, but what is happening is compelling.  See
 </div>
 <div class="card-header trim-p">
 
-[September Papercuts](/events/2021-09-papercuts/index.md)
+[September Papercuts](/events/2021-09-papercuts/)
 
 </div>
 
 **16 September, Online, Global**
 
-Please join us for the [CoFest day](/events/2021-09-papercuts/index.md) on September 16 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+Please join us for the [CoFest day](/events/2021-09-papercuts/) on September 16 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
 This month the [Spanish GTN community](https://training.galaxyproject.org/archive/2021-06-01/news/2021/05/20/spanish_project_begins.html) will meet to work on the curated tutorials, at 6 pm CEST. Get in touch with [Wendi Bacon](https://training.galaxyproject.org/archive/2021-06-01/hall-of-fame/nomadscientist/) to participate.
 
@@ -241,13 +241,13 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 </div>
 <div class="card-header trim-p">
 
-[Galaxy @ BioHackathon 2021](/events/2021-11-biohackathon-europe/index.md)
+[Galaxy @ BioHackathon 2021](/events/2021-11-biohackathon-europe/)
 
 </div>
 
 **Registration closes 17 September**
 
-Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register by September 17](https://www.biohackathon-europe.org/registration.html).
+Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register by September 17](https://www.biohackathon-europe.org/registration.html).
 
 </div>
 
@@ -304,7 +304,7 @@ microGalaxy is a [new community focusing on microbial analysis with Galaxy](http
 </div>
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
@@ -342,7 +342,7 @@ Yet another workshop to build capacity in SARS-CoV-2 data analysis! It will be a
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -354,7 +354,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <div class="card-header trim-p">
 
-[Galaxy@SLU](/use/galaxy-slu/index.md)
+[Galaxy@SLU](/use/galaxy-slu/)
 
 </div>
 
@@ -372,7 +372,7 @@ The [Galaxy@SLU server](http://pharmacology.slu.edu/) aims to provide standard a
 </div>
 <div class="card-header trim-p">
 
-[COVID19.UseGalaxy.fr](/use/covid-19-fr/index.md)
+[COVID19.UseGalaxy.fr](/use/covid-19-fr/)
 
 </div>
 
@@ -386,7 +386,7 @@ A COVID-19 focused version of the UseGalaxy.fr server.  This server provides num
 <div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 

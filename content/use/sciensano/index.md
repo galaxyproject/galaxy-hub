@@ -8,7 +8,7 @@ platforms:
     platform_text: "Sciensano Galaxy"
     platform_location: BE
 summary: "General purpose Galaxy server optimized for microbiological genomics applications of interest for public health."
-image: "/src/images/logos/sciensano-logo.jpg"
+image: "/images/logos/sciensano-logo.jpg"
 comments:
   - "Galaxy server is optimized for analysis of Illumina data, but also supports IonTorrent data. Pacific Biosciences and Oxford Nanopore Technologies data are not (yet) supported."
 user_support:
