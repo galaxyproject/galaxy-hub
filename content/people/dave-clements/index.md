@@ -150,17 +150,16 @@ My pre-bioinformatics career included
 
 ### 2019
 
-| Date | Topic / Event | Venue / Location | Links |
-| --- | --- | --- | --- |
-| December 16 | Galaxy for Genomics-enabled Breeding | GOBii Project, Monthly meeting, Online | [Slides](https://bit.ly/gxy-eib-2019), [Video](https://youtu.be/dwN8qLAZ4f0) |
-| October 30 | [Genomic data science with the Galaxy workbench](/events/2019-sacnas/) | [2019 SACNAS](http://www.2019sacnas.org/), Honolulu, Hawai'i, United States | |
-| October 11 | [Reproducible Genomic Data Analysis with the Galaxy Workbench](/events/2019-10-aises/) | [AISES 2019, Milwaukee, Wisconsin, United States](https://conference.aises.org/agenda) | |
-| September 24 | [Plenary Panel: Effective Checklists for Developers and Researchers to Gather Requirements for Science Gateways](https://sched.co/RaIM) | [Gateways 2019]( Gateways 2019, San Diego, California, United States) | |
-| September 12 | [Building a regional Galaxy Community and Platform](/src/events/2019-09-incob/#building-a-regional-galaxy-community-and-platform/index.md) | [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia | |
-| September 11 | [Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://bit.ly/galaxyincob19) |  [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia | |
-| July 4 | [Use Galaxy, Right Now!](https://sched.co/PSOt) | [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany | [Slides](https://static.sched.com/hosted_files/gcc2019/05/S13OTG-7__Use%20Galaxy%2C%20Right%20Now%21.pdf) |
-| July 4 | [Galaxy Publication Library](https://sched.co/QMv4) | [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany | [Slides](https://static.sched.com/hosted_files/gcc2019/72/S13OTG-8__Galaxy%20Publication%20Library.pdf) |
-| April 19 | Recent Developments in Galaxy | [CGRB Spring Conference 2019](https://cgrb.oregonstate.edu/spring-conference), Oregon State University, Corvallis, Oregon, United States | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2019-04-osu/2019-04-cgrb-lightning.pdf) |
+* **Galaxy for Genomics-enabled Breeding**, GOBii Project, Monthly meeting, Online, Global. [Slides](https://bit.ly/gxy-eib-2019), [Video](https://youtu.be/dwN8qLAZ4f0). December 16, 2019 
+* **[Genomic data science with the Galaxy workbench](/events/2019-sacnas/)**, [2019 SACNAS](http://www.2019sacnas.org/), Honolulu, Hawai'i, United States. October 30, 2019.
+* **[Reproducible Genomic Data Analysis with the Galaxy Workbench](/events/2019-10-aises/)**, [AISES 2019, Milwaukee, Wisconsin, United States](https://conference.aises.org/agenda). October 11, 2019.
+* **[Plenary Panel: Effective Checklists for Developers and Researchers to Gather Requirements for Science Gateways](https://sched.co/RaIM)**, [Gateways 2019]( Gateways 2019, San Diego, California, United States)September 24, 2019 
+* **[Building a regional Galaxy Community and Platform](/src/events/2019-09-incob/#building-a-regional-galaxy-community-and-platform/index.md)**, [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia. September 12, 2019
+* **[Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://bit.ly/galaxyincob19)**, [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia. September 11, 2019.
+* **[Use Galaxy, Right Now!](https://sched.co/PSOt)**, [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany. [Slides](https://static.sched.com/hosted_files/gcc2019/05/S13OTG-7__Use%20Galaxy%2C%20Right%20Now%21.pdf). July 4, 2021. 
+* **[Galaxy Publication Library](https://sched.co/QMv4)**, [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany. [Slides](https://static.sched.com/hosted_files/gcc2019/72/S13OTG-8__Galaxy%20Publication%20Library.pdf). July 4, 2019.
+* **Recent Developments in Galaxy**, [CGRB Spring Conference 2019](https://cgrb.oregonstate.edu/spring-conference), Oregon State University, Corvallis, Oregon, United States. [Slides](https://depot.galaxyproject.org/hub/attachments/events/2019-04-osu/2019-04-cgrb-lightning.pdf). April 19, 2019.
+
 
 ### 2018 & 2017
 
@@ -168,75 +167,16 @@ Are coming, the next time I need to do a biosketch.
 
 ### 2016
 
-<table class="table">
-  <tr class="th" >
-    <th> Date </th>
-    <th> Topic/Event </th>
-    <th> Venue/Location </th>
-    <th> Links </th>
-  </tr>
-  <tr>
-    <th> August 9-10 </th>
-    <td> <em>Introduction to Galaxy Workflows</em> </td>
-    <td> <a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home'>Workflows Workshop</a>, <em><a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home/call-for-host-sites'>Distributed</a></em> </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_WorkflowWorkshop.pdf'>Slides</a>  </td>
-  </tr>
-  <tr>
-    <th> August 1-4 </th>
-    <td> <em><a href='http://icbo.cgrb.oregonstate.edu/node/41'>Integrating Ontological and Genomic Analysis with Galaxy Workshop</a></em> </td>
-    <td> <a href='http://icbo.cgrb.oregonstate.edu/'>ICBO 2016</a>, Corvallis, Oregon, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_ICBO_Tutorial.pdf'>Tutorial</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_ICBO_Slides.pdf'>Slides</a> </td>
-  </tr>
-  <tr>
-    <th> July 21 </th>
-    <td> <em><a href='/events/cornell2016/'>Introduction to Galaxy</a></em> </td>
-    <td> Cornell University, Ithaca, New York, United States </td>
-    <td> <a href='/events/cornell2016/#slides'>Slides</a> </td>
-  </tr>
-  <tr>
-    <th> July 19-20 </th>
-    <td> <em><a href='/events/rochester2016/'>Introduction to Galaxy</a></em> </td>
-    <td> University of Rochester, Rochester, New York, United States </td>
-    <td> <a href='/events/rochester2016/#slides'>Slides</a> </td>
-  </tr>
-  <tr>
-    <th> July 13-17 </th>
-    <td> <em><a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'>An Introduction to Using Galaxy for Genetic Data Analysis</a></em> </td>
-    <td> <a href='http://www.genetics2016.org/index.htm'>The Allied Genetics Conference 2016 (TAGC)</a>, Orlando, Florida, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_TAGC_Phenotype_Workshop.pdf'>Slides</a>, <a href='http://bit.ly/TGAC_GXY_PDF'>Tutorial</a> </td>
-  </tr>
-  <tr>
-    <th> April 20 </th>
-    <td> <em><a href='http://calendar.oregonstate.edu/201604201200/event/97053/'>Galaxy Update</a></em> </td>
-    <td> <a href='http://cgrb.oregonstate.edu/training/bioinformatics-users-group-bug'>BUG</a>, <a href='http://oregonstate.edu/'>Oregon State University</a>, Corvallis, Oregon, United States </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <th> February 20-23 </th>
-    <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
-    <td> <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
-    <td> </td>
-  </tr>
-  <tr>
-    <th> January 21, 22 </th>
-    <td> <em><a href='/events/ismms2016/'>Introduction to Galaxy Workshop</a></em> </td>
-    <td> <a href='http://icahn.mssm.edu/'>Icahn School of Medicine at Mt. Sinai</a>, New York, New York, United States </td>
-    <td> <a href='/events/ismms2016/#slides'>Slides</a> </td>
-  </tr>
-  <tr>
-    <th> January 13 </th>
-    <td> <em><a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Paper/21816'>Galaxy Community Update</a></em> </td>
-    <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIV (PAG 2016)</a>, San Diego, California, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_PAG_GalaxyUpdate.pdf'>Slides</a> </td>
-  </tr>
-  <tr>
-    <th> January 12 </th>
-    <td> <em><a href='https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3098'>Galaxy for SNP and Variant Data Analysis</a></em> </td>
-    <td> <a href='http://www.intlpag.org/'>Plant and Animal Genome XXIV (PAG 2016)</a>, San Diego, California, United States </td>
-    <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_PAG_VariantAnalysis.pdf'>Slides</a> </td>
-  </tr>
-</table>
-
+* **Introduction to Galaxy Workflows**, [Workflows Workshop](https://sites.google.com/a/illinois.edu/workflows-workshop/home), [Distributed](https://sites.google.com/a/illinois.edu/workflows-workshop/home/call-for-host-sites). [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_WorkflowWorkshop.pdf). August 9-10, 2016.
+* **[Integrating Ontological and Genomic Analysis with Galaxy Workshop](http://icbo.cgrb.oregonstate.edu/node/41)**, [ICBO 2016](http://icbo.cgrb.oregonstate.edu/), Corvallis, Oregon, United States. [Tutorial](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_ICBO_Tutorial.pdf), [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_ICBO_Slides.pdf). August 1-4, 2016.
+* **[Introduction to Galaxy](/events/cornell2016/)**, Cornell University, Ithaca, New York, United States. [Slides](/events/cornell2016/#slides). July 21, 2016.
+* **[Introduction to Galaxy](/events/rochester2016/)**, University of Rochester, Rochester, New York, United States. [Slides](/events/rochester2016/#slides). July 19-20, 2016
+* **[An Introduction to Using Galaxy for Genetic Data Analysis](http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat)**, [The Allied Genetics Conference 2016 (TAGC)](http://www.genetics2016.org/index.htm), Orlando, Florida, United States. [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_TAGC_Phenotype_Workshop.pdf), [Tutorial](http://bit.ly/TGAC_GXY_PDF). July 13-17, 2016.
+* **[Galaxy Update](http://calendar.oregonstate.edu/201604201200/event/97053/)**, [BUG](http://cgrb.oregonstate.edu/training/bioinformatics-users-group-bug), [Oregon State University](http://oregonstate.edu/), Corvallis, Oregon, United States. April 20 , 2016.
+* **[(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics](https://conf.abrf.org/the-galaxy-platform)**, [ABRF 2016](https://conf.abrf.org/abrf-2016), Fort Lauderdale, Florida, United States. February 20-23, 2016.
+* **[Introduction to Galaxy Workshop](/events/ismms2016/)**, [Icahn School of Medicine at Mt. Sinai](http://icahn.mssm.edu/), New York, New York, United States. [Slides](/events/ismms2016/#slides). January 21, 22, 2016.
+* **[Galaxy Community Update](https://pag.confex.com/pag/xxiv/meetingapp.cgi/Paper/21816)**, [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.org/), San Diego, California, United States. [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_PAG_GalaxyUpdate.pdf). January 13, 2016.
+* **[Galaxy for SNP and Variant Data Analysis](https://pag.confex.com/pag/xxiv/meetingapp.cgi/Session/3098)**, [Plant and Animal Genome XXIV (PAG 2016)](http://www.intlpag.org/), San Diego, California, United States. [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2016_PAG_VariantAnalysis.pdf). January 12, 2016.
 
 
 ### 2015
