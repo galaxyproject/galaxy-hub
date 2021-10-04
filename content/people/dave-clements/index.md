@@ -79,81 +79,74 @@ My pre-bioinformatics career included
 
 ### 2020s
 
-* [2022 Galaxy Community Conference](/events/gcc2022/), July 16-23, 2022, Minneapolis, Minnesota, United States
-* [Informatics Technology for Cancer Research (ITCR) Training & Outreach Working Group](https://ncihub.org/groups/itcr/training_and_outreach_working_group_teleconference), Chair, September 2021-present, Monthly, Online, United States
-* [Galaxy Resources Webinar Series](/events/webinars/)], Spring 2021, Online, Global
-* [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021-virtual-edition),  June 28-July 10, 2021, Online, Global
-* [Galaxy Papercuts CoFest Days](/events/cofests/papercuts), October 2020-present, Monthly, Online, Global
-* [2020 Bioinformatics Community Conference](https://bcc2020.github.io/), July 18-25, 2020, Online, Global
+* **[2022 Galaxy Community Conference](/events/gcc2022/)**, July 16-23, 2022, Minneapolis, Minnesota, United States
+* **[Informatics Technology for Cancer Research (ITCR) Training & Outreach Working Group](https://ncihub.org/groups/itcr/training_and_outreach_working_group_teleconference)**, Chair, September 2021-present, Monthly, Online, United States
+* **[Galaxy Resources Webinar Series](/events/webinars/)]**, Spring 2021, Online, Global
+* **[2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021-virtual-edition)**,  June 28-July 10, 2021, Online, Global
+* **[Galaxy Papercuts CoFest Days](/events/cofests/papercuts)**, October 2020-present, Monthly, Online, Global
+* **[2020 Bioinformatics Community Conference](https://bcc2020.github.io/)**, July 18-25, 2020, Online, Global
 
 ### 2010s
 
-* [2019 Galaxy Community Conference](/events/gcc2019/), July 1-8, 2020, Freiburg, Germany.
-* [GCCBOSC 2018](/src/events/gccbosc2018), , Portland, Oregon, United States
-* [2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/), June 26-30, 2017, Montpellier, France
-* [Galaxy AustralAsia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe2017), February 3-9, 2017, Melbourne, Australia
-* [Galaxy Admin Training 2016](/events/admin-training2016/), November 7-11, 2016, Salt Lake City, Utah, United States
-* [2016 Galaxy Community Conference (GCC2016)](https://web.archive.org/web/http://gcc2016.iu.edu/index.php), June 25-29, 2016, Bloomington, Indiana, United States
-* [International Plant and Animal Genome XIV (PAGXIV)](http://www.intlpag.org/2016/), Computer Demonstration Track, January 9-13, 2016, San Diego, California, United States
-* [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), Norwich, United Kingdom
-* [International Plant and Animal Genome XIII (PAGXIII)](http://www.intlpag.org/2015/), Computer Demonstration Track, January 10-14, 2015, San Diego, California, United States
-* [2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/), June 30 - July 2, 2014, Baltimore, Maryland, United States
+* **[2019 Galaxy Community Conference](/events/gcc2019/)**, July 1-8, 2020, Freiburg, Germany.
+* **[GCCBOSC 2018](/src/events/gccbosc2018)**, Portland, Oregon, United States
+* **[2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/)**, June 26-30, 2017, Montpellier, France
+* **[Galaxy AustralAsia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe2017)**, February 3-9, 2017, Melbourne, Australia
+* **[Galaxy Admin Training 2016](/events/admin-training2016/)**, November 7-11, 2016, Salt Lake City, Utah, United States
+* **[2016 Galaxy Community Conference (GCC2016)](https://web.archive.org/web/http://gcc2016.iu.edu/index.php)**, June 25-29, 2016, Bloomington, Indiana, United States
+* **[International Plant and Animal Genome XIV (PAGXIV)](http://www.intlpag.org/2016/), Computer Demonstration Track**, January 9-13, 2016, San Diego, California, United States
+* **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), Norwich, United Kingdom**
+* **[International Plant and Animal Genome XIII (PAGXIII)](http://www.intlpag.org/2015/), Computer Demonstration Track**, January 10-14, 2015, San Diego, California, United States
+* **[2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/)**, June 30 - July 2, 2014, Baltimore, Maryland, United States
   * [GalaxyAdmins Birds of a Feather Meetup](/events/gcc2014/bofs/galaxy-admins/)
-* [May 2014 UK Galaxy Workshop Tour](/events/uk-may2014/), May 6-12, 2014, Norwich and Edinburgh, United Kingdom
-* [2013 Research Triangle Workshop Tour](/events/rt-workshop-tour2013/), May 18-22, 2013, Research Triangle Area, North Carolina, United States
-* [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/), June 30 - July 2, 2013, Oslo, Norway
+* **[May 2014 UK Galaxy Workshop Tour](/events/uk-may2014/)**, May 6-12, 2014, Norwich and Edinburgh, United Kingdom
+* **[2013 Research Triangle Workshop Tour](/events/rt-workshop-tour2013/)**, May 18-22, 2013, Research Triangle Area, North Carolina, United States
+* **[2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/)**, June 30 - July 2, 2013, Oslo, Norway
   * [GalaxyAdmins Birds of a Feather Meetup](/events/gcc2013/bof/galaxy-admins/)
   * [Public Galaxy Server Birds of a Feather Meetup](/events/gcc2013/bof/galaxy-admins/)
-* [Missouri Workshop Tour 2013](/events/missouri-workshop-tour2013/), April 29 - May 2, 2013, St. Louis and Columbia, Missouri, United States
-
-* [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/), July 25-27, Chicago, Illinois, United States
+* **[Missouri Workshop Tour 2013](/events/missouri-workshop-tour2013/)**, April 29 - May 2, 2013, St. Louis and Columbia, Missouri, United States
+* **[2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/)**, July 25-27, Chicago, Illinois, United States
   * [Bioinformatics Training and Teaching with Galaxy Breakout Session](/events/gcc2012/program/breakouts/bioinformatics-training/)
-* [2011 Galaxy Community Conference (GCC2011)](http://galaxyproject.org/gcc2011/Home.html), May 25-26, 2011, Lunteren, The Netherlands
-* [GMOD Americas 2011](http://gmod.org/wiki/GMOD_Americas_2011), March 5-12, 2011, Durham, North Carolina, United States 
+* **[2011 Galaxy Community Conference (GCC2011)](http://galaxyproject.org/gcc2011/Home.html)**, May 25-26, 2011, Lunteren, The Netherlands
+* **[GMOD Americas 2011](http://gmod.org/wiki/GMOD_Americas_2011)**, March 5-12, 2011, Durham, North Carolina, United States 
   * [GMOD Satellite Meetings](http://gmod.org/wiki/Satellite_Meetings_-_GMOD_Americas_2011), March 7
     * [GMOD in the Sequencing Center Satellite](http://gmod.org/wiki/GMOD_in_the_Sequencing_Center) 
   * [2011 GMOD Spring Training](http://gmod.org/wiki/2011_GMOD_Spring_Training), March 8-12
-* [GMOD Europe 2010](http://gmod.org/wiki/GMOD_Europe_2010), September 13-16, 2010, Cambridge, United Kingdom
+* **[GMOD Europe 2010](http://gmod.org/wiki/GMOD_Europe_2010)**, September 13-16, 2010, Cambridge, United Kingdom
   * [GMOD Satellite Meetings](http://gmod.org/wiki/Satellite_Meetings_-_GMOD_Europe_2010), September 15
     * [Post Reference Genome Tools Satellite](http://gmod.org/wiki/Post_Reference_Genome_Tools)
     * [Community Annotation Satellite](http://gmod.org/wiki/Community_Annotation_-_September_2010_Satellite)
-* [GMOD Tools for Evolutionary Biology Hackathon](http://gmod.org/wiki/GMOD_Evo_Hackathon), November 8-12, 2010, Durham, North Carolina, United States
+* **[GMOD Tools for Evolutionary Biology Hackathon](http://gmod.org/wiki/GMOD_Evo_Hackathon)**, November 8-12, 2010, Durham, North Carolina, United States
 
 ### 2000s
 
-* [GMOD Europe 2009](http://gmod.org/wiki/GMOD_Europe_2009), August 3-7, Oxford, United Kingdom 
+* **[GMOD Europe 2009](http://gmod.org/wiki/GMOD_Europe_2009)**, August 3-7, Oxford, United Kingdom 
   * [2009 GMOD Summer School - Europe](http://gmod.org/wiki/2009_GMOD_Summer_School_-_Europe), August 3-6
-* [2009 GMOD Summer School - Americas](http://gmod.org/wiki/2009_GMOD_Summer_School_-_Americas), July 16-19, 2009, Durham, North Carolina, United States
-* Database tools for evolutionary genomics workshop, SMBE 2009, June 6, 2009, Iowa City, Iowa, United States
-* [2008 GMOD Summer School](http://gmod.org/wiki/2008_GMOD_Summer_School), July 11-13, 2008, Durham, North Carolina, United States
+* **[2009 GMOD Summer School - Americas](http://gmod.org/wiki/2009_GMOD_Summer_School_-_Americas)**, July 16-19, 2009, Durham, North Carolina, United States
+* **Database tools for evolutionary genomics workshop**, SMBE 2009, June 6, 2009, Iowa City, Iowa, United States
+* **[2008 GMOD Summer School](http://gmod.org/wiki/2008_GMOD_Summer_School)**, July 11-13, 2008, Durham, North Carolina, United States
 
 ## Presentations, Tutorials, Workshops, Demos and Posters
 
-### 2021
+### 2020s
 
-| Date | Topic / Event | Venue / Location | Links |
-| --- | --- | --- | --- |
-| November 9 | Galaxy: A global ecosystem for data intensive science | [Pre-Conference Workshop on Galaxy Community, Tools and Workflows for Cheminformatics and NGS Data](https://neist.res.in/inbix2021/workshop.html); [Inbix2021 : Indian Conference on Bioinformatics 2021](https://neist.res.in/inbix2021/index.html), Online, India | |
-| September 9 | Resources and Communities for Outreach and Training | [ITCR Training and Outreach Working Group](), Online, United States | [Video](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/3c4fc8e2f3d71039be4f005056810afe/playback), [Slides](https://docs.google.com/presentation/d/1ONMarXzX9r8z8wRh-ZpD4lALmiq5Daec7aq8wuMregs/edit#) |
-| April 23 | Introduction to Sequencing, Assembly, and Galaxy on AnVIL | [Virtual Applied Data Science Training Institute (VADSTI)](https://the1joshuagroup.com/VADSTI/), Online, Howard University, Washington DC, United States | [Video](https://youtu.be/6S0yOvgISVI) |
-| April 21 | [Galaxy Resources for Researchers](/events/2021-04-gr4-researchers/) | [Galaxy Resources Webinar Series](/events/webinars/), Online, Global | [Video](https://youtu.be/cFN_WPGz9qk), [Slides](https://docs.google.com/presentation/d/1dgKt1KJEazVPLmUXoXDUKgQl4hu1-Mute_AhSt183lQ/edit?usp=sharing)
-| February 15 | Your First Galaxy Analysis | [GTN Smörgåsbord: A Global Galaxy Course](https://shiltemann.github.io/global-galaxy-course/), Online, Global | [Video](https://youtu.be/1UPCrQxGwcU), [Slides](https://bit.ly/smorg-2021-intro), [Tutiorial](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html) | 
+* **Galaxy: A global ecosystem for data intensive science**, [Pre-Conference Workshop on Galaxy Community, Tools and Workflows for Cheminformatics and NGS Data](https://neist.res.in/inbix2021/workshop.html); [Inbix2021 : Indian Conference on Bioinformatics 2021](https://neist.res.in/inbix2021/index.html), Online, India. November 9, 2021.
+* **Resources and Communities for Outreach and Training**, [ITCR Training and Outreach Working Group](https://ncihub.org/groups/itcr/training_and_outreach_working_group_teleconference), Online, United States. [Video](https://cbiit.webex.com/recordingservice/sites/cbiit/recording/3c4fc8e2f3d71039be4f005056810afe/playback), [Slides](https://docs.google.com/presentation/d/1ONMarXzX9r8z8wRh-ZpD4lALmiq5Daec7aq8wuMregs/edit#). September 9, 2021.
+* **Introduction to Sequencing, Assembly, and Galaxy on AnVIL**, [Virtual Applied Data Science Training Institute (VADSTI)](https://the1joshuagroup.com/VADSTI/), Online, Howard University, Washington DC, United States. [Video](https://youtu.be/6S0yOvgISVI). April 23 2021. 
+* **[Galaxy Resources for Researchers](/events/2021-04-gr4-researchers/)**, [Galaxy Resources Webinar Series](/events/webinars/), Online, Global. [Video](https://youtu.be/cFN_WPGz9qk), [Slides](https://docs.google.com/presentation/d/1dgKt1KJEazVPLmUXoXDUKgQl4hu1-Mute_AhSt183lQ/edit?usp=sharing). April 21, 2021. 
+* **Your First Galaxy Analysis**, [GTN Smörgåsbord: A Global Galaxy Course](https://shiltemann.github.io/global-galaxy-course/), Online, Global. [Video](https://youtu.be/1UPCrQxGwcU), [Slides](https://bit.ly/smorg-2021-intro), [Tutiorial](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html). February 15, 2021. 
+* **[GWAS Analysis with Galaxy on the Analysis Visualization Integrated Lab-space (AnVIL)](https://www.abstractsonline.com/pp8/#!/9070/session/146)**, [ASHG 2020](https://www.ashg.org/meetings/2020meeting/), Online, United States. [Tutorial](https://www.pathlms.com/ashg/courses/25102) (only open to ASHG members).October 27, 2020. 
+* **Galaxy for Immunological and Infectious Disease Research**, NIAID Webinar, Online, United States. [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-09-niaid/galaxy-intro-niaid.pdf). September 4, 2029. 
+* **[Webinar: Using the new Galaxy-SRA Connection](/events/2020-06-sra/)**, Online, United States. [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-06-sra/sra-galaxy-slides.pdf), [Video](https://youtu.be/DIhgjTOdfqE). June 24. 
+* **[Galaxy Project: Enabling an active global research community](https://sciencegateways.org/-/galaxy-project-enabling-an-active-global-research-community)**, [SGCI Webinar Series](https://sciencegateways.org/engage/webinars), Online, North America. [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-05-sgci/2020-05-sgci-community.pdf), [Video](https://youtu.be/fxF4iljMB0E). May 13 2020.
+* **Using the Galaxy Training Network tutorial library for bioinformatics training programs**, [ABRF 2020 pre-conference workshop](https://conf.abrf.org/program/satellite-workshops/), Palm Springs, California, United States. [Poster](https://depot.galaxyproject.org/hub/attachments/events/2020-abrf/2020-abrf-gtn-poster.pdf). March 2, 2020. 
+* **[Single Cell RNA-Seq and Visualization Using the Galaxy Workbench](/events/2020-abrf/)**, [ABRF 2020 pre-conference workshop](https://conf.abrf.org/program/satellite-workshops/), Palm Springs, California, United States. February 29, 2021. 
+* **The Path from Galaxy Team to Galaxy Community**, [NCI ITCR Training and Outreach Working Group](https://ncihub.org/groups/itcr/training_and_outreach_working_group_teleconference), Online, United States. [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-02-itcr-tow/itcr-tow-2020-02-galaxy-community-efforts.pdf), February 13, 2020.
+* **[Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2020/event/a8f1e9dbae7dc0d6d1e5f05d4657f89d)**, [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States. [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-pag/pag2020-intro-slides.pdf). January 14, 2020.
+* **[Galaxy Demo: Genomic Selection and Genome Wide Association Study (GWAS) Analysis with Excellence in Breeding Tools](https://plan.core-apps.com/pag_2020/event/959619631bade74d533994f26e218d04)**, [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States. [History](http://galaxy-demo.excellenceinbreeding.org/u/clements/h/pag-2020-3k-rgp). January 14, 2020. 
+* **[Galaxy: A Global Platform & Community for Life Science Data Integration & Analysis](https://plan.core-apps.com/pag_2020/abstract/d58894cb3c5f7a1019a50c969c59cd70)**, [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States. [Poster](https://depot.galaxyproject.org/hub/attachments/events/2020-pag/pag2020-galaxy-poster.pdf). January 13, 2020 
 
-### 2020
-
-| Date | Topic / Event | Venue / Location | Links |
-| --- | --- | --- | --- |
-| October 27 | [GWAS Analysis with Galaxy on the Analysis Visualization Integrated Lab-space (AnVIL)](https://www.abstractsonline.com/pp8/#!/9070/session/146) | [ASHG 2020](https://www.ashg.org/meetings/2020meeting/), Online, United States | [Tutorial](https://www.pathlms.com/ashg/courses/25102) (only open to ASHG members) |
-| September 4 | Galaxy for Immunological and Infectious Disease Research] | NIAID Webinar, Online, United States] | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-09-niaid/galaxy-intro-niaid.pdf)
-| June 24 | [Webinar: Using the new Galaxy-SRA Connection](/events/2020-06-sra/) | Online, United States | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-06-sra/sra-galaxy-slides.pdf), [Video](https://youtu.be/DIhgjTOdfqE) |
-| May 13 | [Galaxy Project: Enabling an active global research community](https://sciencegateways.org/-/galaxy-project-enabling-an-active-global-research-community) | [SGCI Webinar Series](https://sciencegateways.org/engage/webinars), Online, North America | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-05-sgci/2020-05-sgci-community.pdf), [Video](https://youtu.be/fxF4iljMB0E) |
-| March 2 | Using the Galaxy Training Network tutorial library for bioinformatics training programs | [ABRF 2020 pre-conference workshop](https://conf.abrf.org/program/satellite-workshops/), Palm Springs, California, United States | [Poster](https://depot.galaxyproject.org/hub/attachments/events/2020-abrf/2020-abrf-gtn-poster.pdf) |
-| February 29 | [Single Cell RNA-Seq and Visualization Using the Galaxy Workbench](/events/2020-abrf/) | [ABRF 2020 pre-conference workshop](https://conf.abrf.org/program/satellite-workshops/), Palm Springs, California, United States | |
-| February 13 | The Path from Galaxy Team to Galaxy Community | [NCI ITCR Training and Outreach Working Group](https://ncihub.org/groups/itcr/training_and_outreach_working_group_teleconference), online | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-02-itcr-tow/itcr-tow-2020-02-galaxy-community-efforts.pdf) |
-| January 14 | [Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2020/event/a8f1e9dbae7dc0d6d1e5f05d4657f89d) | [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States | [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-pag/pag2020-intro-slides.pdf) |
-| January 14 | [Galaxy Demo: Genomic Selection and Genome Wide Association Study (GWAS) Analysis with Excellence in Breeding Tools](https://plan.core-apps.com/pag_2020/event/959619631bade74d533994f26e218d04) | [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States | [History](http://galaxy-demo.excellenceinbreeding.org/u/clements/h/pag-2020-3k-rgp) |
-| January 13 | [Galaxy: A Global Platform & Community for Life Science Data Integration & Analysis](https://plan.core-apps.com/pag_2020/abstract/d58894cb3c5f7a1019a50c969c59cd70) | [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States | [Poster](https://depot.galaxyproject.org/hub/attachments/events/2020-pag/pag2020-galaxy-poster.pdf) |
-
+(Before 2020, my formatting here is a bit chaotic.)
 
 ### 2019
 
@@ -528,7 +521,7 @@ Are coming, the next time I need to do a biosketch.
 * *[GMOD Project Update](http://gmod.org/wiki/Image:PAG2010GMODProjectUpdate.pdf)*, presentation with [Scott Cain](http://gmod.org/wiki/User:Scott) at [PAG 2010](http://gmod.org/wiki/PAG_2010), San Diego, January 2010.
 * *[Comparative Genomics Tools in GMOD](http://gmod.org/wiki/Image:PAG2010ComparativeGenomicsToolsInGMOD.pdf)*, poster with [Sheldon McKay](http://gmod.org/wiki/User:Mckays), Ken Youens-Clark, [Ben Faga](http://gmod.org/wiki/User:Faga), [Scott Cain](http://gmod.org/wiki/User:Scott), at [PAG 2010](http://gmod.org/wiki/PAG 2010), San Diego, January 2010.
 
-### 2009
+### 2000s and Before
 
 * *[Database Tools for Biologists](http://gmod.org/wiki/Image:GMODTAMUWorkshop.pdf)*, workshop at Department of Biochemistry and Biophysics, Texas A&M University, December 2009
 * *[GMOD for Comparative Genomics](http://gmod.org/wiki/Image:ISyIPGMODforComparativeGenomics.pdf)*, presentation at [Information Systems for Insect Pests (ISyIP)](http://colloque.inra.fr/isyip), Rennes, France, November 2009
@@ -540,18 +533,12 @@ Are coming, the next time I need to do a biosketch.
 * *[Visualizing and Integrating Next Generation Sequence Data using GMOD](http://gmod.org/wiki/Image:NGSWithGMODWorkshop.pdf),* workshop at *Evolutionary Genetics - the impact of next generation sequencing technologies*, Lutherstadt-Wittenberg, Germany, April 2009.
 * *[Comparative Genomics with GBrowse_syn: A hands on workshop for visualizing your syntenic data with GBrowse_syn](http://gmod.org/wiki/GBrowse_syn_PAG_2009_Workshop)*, workshop with [Sheldon McKay](http://gmod.org/wiki/User:Mckays) and [Scott Cain](http://gmod.org/wiki/User:Scott) at [PAG 2009](http://gmod.org/wiki/PAG_2009), January 2009.
 * *[Managing Next Generation Sequence Data with GMOD](http://gmod.org/wiki/Image:PAG2009NextGenSeqPoster.pdf‎)*, poster with [Scott Cain](http://gmod.org/wiki/User:Scott), Paul Hohenlohe, Nicholas Stiffler, Eric Johnson, and William Cresko, at [PAG 2009](http://gmod.org/wiki/PAG_2009), January 2009.
-
-### 2008
-
 * *[GMOD: Managing genomic data from emerging model organisms](http://gmod.org/wiki/Image:ISMB2008PosterManagingGenomicData.pdf)*, poster with Hilmar Lapp and Todd Vision at [ISMB 2008](http://www.iscb.org/ismb2008/), July 2008.
 * *[GMOD: Genomics Resources for Emerging Model Organisms](http://gmod.org/wiki/Image:GenomicsResourcesForEmergingModelOrganismsPoster.pdf)*, poster with Hilmar Lapp and Todd Vision at [American Genetic Association Annual Symposium](http://www.agasymposium2008.org/), upcoming, June 2008.
 * *[Chado - A Database Schema for Integrating Biological Data](http://gmod.org/wiki/Image:ChadoWorkshopArthopod2008.pdf)*, workshop with [Scott Cain](http://gmod.org/wiki/User:Scott) at the [2nd Annual Arthropod Genomics Symposium](http://www.k-state.edu/agc/symposium.shtml), April 2008.
 * *[GMOD: Database Resources for Emerging Model Organisms](http://gmod.org/wiki/Image:DatabaseResourcesForEmergingModelOrganismsPoster.pdf)*, poster with Hilmar Lapp and Todd Vision at the [2nd Annual Arthropod Genomics Symposium](http://www.k-state.edu/agc/symposium.shtml), April 2008.
 * *[GMOD Tools for Comparative Genomics](http://gmod.org/wiki/Image:GMODToolsForComparativeGenomicsIGERTPoster.pdf)*, poster with, David Riley, [Ben Faga](http://gmod.org/wiki/User:Faga), Hervé Tettelin, Sam Angiuoli, and Jonathan Crabtree. Presented at the [IGERT Symposium on Evolution, Development, and Genomics](http://evodevo.uoregon.edu/symposium.html), April 2008, Eugene, OR.  Highlights GMOD components particularly useful for [comparative genomics](http://gmod.org/wiki/Category:Comparative_Genomics): [CMap](http://gmod.org/wiki/CMap), [Sybil](http://gmod.org/wiki/Sybil), [SynView](http://gmod.org/wiki/SynView), [SynBrowse](http://gmod.org/wiki/SynBrowse) and [GBrowse_syn](http://gmod.org/wiki/GBrowse_syn).
 * *[GMOD: Informatics Resources for Evolutionary Research](http://gmod.org/wiki/Image:InformaticsResourcesForEvolutionaryResearchIGERTPoster.pdf)*, poster with Hilmar Lapp and Todd Vision. Presented at the [IGERT Symposium on Evolution, Development, and Genomics](http://evodevo.uoregon.edu/symposium.html), April 2008, in Eugene OR.  Highlights GMOD tools particularly useful for [evolutionary](http://gmod.org/wiki/Category:Evolution) research: [GBrowse](http://gmod.org/wiki/GBrowse), [Apollo](http://gmod.org/wiki/Apollo), [Pathway Tools](http://gmod.org/wiki/Pathway_Tools), and [Chado](http://gmod.org/wiki/Chado).
-
-### 2007 and Before
-
 * *[Digesting the Genome Glut: Promoting the Use and Extension of GMOD To Emerging Model Organisms](http://gmod.org/wiki/Image:2007GenomeInformaticsGMODPoster.pdf)*, poster with [Brian Osborne](http://gmod.org/wiki/User:bosborne), Hilmar Lapp, Xianhua Liu, W. Owen McMillan, Nassib Nassar, and Todd J. Vision, at the [2007 Genome Informatics conference](http://meetings.cshl.edu/meetings/info07.shtml).  An overview of GMOD highlighting components, the new web site, and using GMOD for evolution research.
 * *[Gene Expression Databases: Where and When](http://gmod.org/wiki/Image:GeneExpressionIWhenWhere.ppt)*, presentation given at [NESCent](http://nescent.org) in April 2007.  Describes common issues with gene expression databases focusing on anatomy ontology issues.  Uses 4 websites to demonstrate different ways to deal with these issues.
 * *[Worldwide Aeronautical Route Planner](http://www.cirl.uoregon.edu/research/warp.html)*, demonstration with Charles B. McVey, and [Andrew J. Parkes](http://www.cs.nott.ac.uk/~ajp/) at the [16th National Conference on Artificial Intelligence (AAAI-99)](http://www.aaai.org/Conferences/AAAI/aaai99.php).
