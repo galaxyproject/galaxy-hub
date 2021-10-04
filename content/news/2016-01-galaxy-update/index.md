@@ -23,4 +23,4 @@ The **[January 2016 Galactic News](/galaxy-updates/2016-01/)** is hot off the pr
 * [ToolShed Contributions](/galaxy-updates/2016-01/#toolshed-contributions) from December
 * and [some other news too](/galaxy-updates/2016-01/#other-news).
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

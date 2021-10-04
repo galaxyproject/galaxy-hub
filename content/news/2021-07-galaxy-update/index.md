@@ -143,7 +143,7 @@ But even something as universe-spanning as GCC doesn't suck up all the oxygen in
 <div class="card border-info" style="min-width: 32%; max-width:  18rem;">
 <div class="trim-p">
 
-![Galaxy-E at SORTEE](/src/events/2021-07-sortee/sortee-logo.png)
+![Galaxy-E at SORTEE](/events/2021-07-sortee/sortee-logo.png)
 
 </div>
 <div class="card-header trim-p">
@@ -163,7 +163,7 @@ SORTEE 2021 brings together researchers working to improve reliability and trans
 <div class="card border-info" style="min-width: 32%; max-width:  18rem;">
 <div class="trim-p">
 
-![Galaxy at ISMB](/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png)
+![Galaxy at ISMB](/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png)
 
 </div>
 <div class="card-header trim-p">

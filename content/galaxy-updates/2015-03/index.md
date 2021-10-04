@@ -197,17 +197,17 @@ A hands-on, 4 day workshop on *[RNA-Seq and ChIP-Seq Analysis with Galaxy](http:
 
 [Video and slides](/community/galaxy-admins/meetups/2015-02-19/) from the first [GalaxyAdmins](/community/galaxy-admins/) [meetup of 2015](/community/galaxy-admins/meetups/2015-02-19/) are now available online. 
 
-[Hans-Rudolf Hotz](/people/hansrudolf-hotz/) also lead a short discussion on *[GalaxyAdmins](/src/community/galaxy-admins/) direction*.
+[Hans-Rudolf Hotz](/people/hansrudolf-hotz/) also lead a short discussion on *[GalaxyAdmins](/community/galaxy-admins/) direction*.
 
 [GalaxyAdmins](/community/galaxy-admins/) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  Our next meetup will be in April.
 
 ### Fall 2014 Questionnaire Summaries
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/news/2014-questionnaire/) was presented by [Dave Clements](/people/dave-clements/).  A [summary of the admin/devel questionnaire](/src/community/galaxy-admins/surveys/2014/) is now available online.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/news/2014-questionnaire/) was presented by [Dave Clements](/people/dave-clements/).  A [summary of the admin/devel questionnaire](/community/galaxy-admins/surveys/2014/) is now available online.
 
 ### Gravity
 
-[Nate Coraor](/people/nate/) introduced [Gravity](/src/community/galaxy-admins/meetups/2015-02-19/#galaxy-project-update-gravity), a process manager (supervisor) for Galaxy servers.  
+[Nate Coraor](/people/nate/) introduced [Gravity](/community/galaxy-admins/meetups/2015-02-19/#galaxy-project-update-gravity), a process manager (supervisor) for Galaxy servers.  
 
 ## Other Events
 

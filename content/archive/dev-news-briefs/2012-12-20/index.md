@@ -146,7 +146,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 1. Fix for text area tool parameters (form builder) when a size isn't provided.
 2. Fix for error reporting link throwing server errors.
-3. Fix for `SelectToolParameter` in rerun ![](/src/images/icons/arrow-circle.png) and workflows when multiple="true"
+3. Fix for `SelectToolParameter` in rerun ![](/images/icons/arrow-circle.png) and workflows when multiple="true"
 4. Fix IE console errors.
 5. Fix unhandled 'new' state for datasets in the history panel.
 6. Handle adding datasets to history panel without refresh.

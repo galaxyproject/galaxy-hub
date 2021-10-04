@@ -50,4 +50,4 @@ In addition, there is news on:
 * **[Galaxy on GitHub!](/galaxy-updates/2015-03/#galaxy-github)** Come and join us in developing Galaxy!
 * And, [other news](/galaxy-updates/2015-03/#other-news) as well.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

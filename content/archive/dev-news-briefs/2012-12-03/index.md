@@ -75,11 +75,11 @@ The various types of contents of a tool shed repository ( valid tools, invalid t
 
 Notice the "Repository dependencies" container?  This is currently in development, and will be available in the tool shed shortly.  This container displays the list of all repositories int he tool shed upon which this repository depends.
 
-![](/src/images/news-graphics/2012_12_03_emboss-sample.png)
+![](/images/news-graphics/2012_12_03_emboss-sample.png)
 
 Opening each of the above containers (by clicking on the links) displays the contents of each.
 
-![](/src/images/news-graphics/2012_12_03_emboss-sample-open.png)
+![](/images/news-graphics/2012_12_03_emboss-sample-open.png)
 
 </div>
 
@@ -135,7 +135,7 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
   * Show/Hide Hidden Datasets - a single-click toggle to show or hide all hidden datasets
   * Unhide Hidden Datasets - a single-click to change state of hidden datasets to that of regular datasets
 
-![](/src/images/news-graphics/2012_12_03_new-history-menu.png)
+![](/images/news-graphics/2012_12_03_new-history-menu.png)
 
 <br />
 # Job Runner
@@ -156,7 +156,7 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
 4. Fix for `ToolDataTable` new entries that should have been persisted to the `shed_tool_data_table_conf.xml` file were not being handled correctly.
 5. Attempt to make sure `.sample` files included in an installed tool shed repository are copied to the `~/tool-data` directory only if they are sample data index files.
 6. Add error messages for a `DataToolParameter` when the provided value is no longer valid due to be deleted or being in an error state.
-7. Rework "Re-run" ![](/src/images/icons/arrow-circle.png) functionality to validate and display errors between the original job and currently set states (e.g. the previously used dataset has been deleted).
+7. Rework "Re-run" ![](/images/icons/arrow-circle.png) functionality to validate and display errors between the original job and currently set states (e.g. the previously used dataset has been deleted).
 8. To help with reproducibility, when extracting a workflow from a history, provide a warning message if the tool version for a job does not match the tool version of the currently loaded tool.
 
 <br />

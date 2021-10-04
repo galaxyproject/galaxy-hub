@@ -31,7 +31,7 @@ There is an unusually rich (and aromatic!) mix of [upcoming Galaxy related event
 <div class="card border-info" style="min-width: 15rem;">
 <div class="trim-p">
 
-![Call for Tutorials](/src/events/bcc2020/victoria-college-banner-1000.jpg)
+![Call for Tutorials](/events/bcc2020/victoria-college-banner-1000.jpg)
 
 </div>
 <div class="card-header">BCC2020: Call for Tutorial Nominations</div>
@@ -45,7 +45,7 @@ BCC is [GCC](/gcc/) + [BOSC](https://www.open-bio.org/events/bosc/about/#Past_BO
 <div class="card border-info" style="min-width: 15rem;">
 <div class="trim-p">
 
-![Galaxy Admin Training 2020](/src/events/2020-03-admin/2020-admin-banner.png)
+![Galaxy Admin Training 2020](/events/2020-03-admin/2020-admin-banner.png)
 
 </div>
 <div class="card-header">Register Now: Galaxy Admin Training 2020</div>
@@ -57,7 +57,7 @@ Registration is now open for the **[2020 Galaxy Admin Training](/events/2020-03-
 <div class="card border-info" style="min-width: 15rem;">
 <div class="trim-p">
 
-![Galaxy @ PAG 2020](/src/events/2020-pag/pag-2020-splash.png)
+![Galaxy @ PAG 2020](/events/2020-pag/pag-2020-splash.png)
 
 </div>
 <div class="card-header">Galaxy @ PAG 2020</div>
@@ -102,7 +102,7 @@ An [introduction to Single-Cell Genomics](https://www.earlham.ac.uk/single-cell-
 <div class="card border-info" style="min-width: 15rem; max-width: 18rem">
 <div class="trim-p">
 
-![Upcoming Events](/src/news/2020-01-galaxy-update/upcoming-events.png)
+![Upcoming Events](/news/2020-01-galaxy-update/upcoming-events.png)
 
 </div>
 <div class="card-header">Upcoming Events</div>
@@ -242,7 +242,7 @@ By Yvan Le Bras, Simon Bénateau.
 
 Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science.
 
-![Crowdsourcing citizen science data on usegalaxy.eu](/src/blog/2020-01-galaxy-ecology-citizen-science/sexing-marmalade-slice.png)
+![Crowdsourcing citizen science data on usegalaxy.eu](/blog/2020-01-galaxy-ecology-citizen-science/sexing-marmalade-slice.png)
 
 </div>
 

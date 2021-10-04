@@ -24,4 +24,4 @@ Find out [what's happening in the Galaxy](/galaxy-updates/2014-03/).  Highlights
 
 If you have anything you would like to see in the next *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

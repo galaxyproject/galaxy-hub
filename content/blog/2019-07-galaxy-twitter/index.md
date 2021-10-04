@@ -80,7 +80,7 @@ The Galaxy Training Network is a large, community-based project to create, maint
 
 ### Galaxy Platform Accounts
 
-Several [Galaxy Platforms](/src/use) have Twitter accounts for news about those platforms.  If you use a particular platform then follow it's Twitter account.
+Several [Galaxy Platforms](/use) have Twitter accounts for news about those platforms.  If you use a particular platform then follow it's Twitter account.
 
 Here's a sample:
 

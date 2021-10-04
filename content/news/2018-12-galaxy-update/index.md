@@ -54,7 +54,7 @@ Tired of sitting in the same old office/lab/cafe?  Here are some upcoming events
 
 [<img class="float-left" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
-The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
+The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
 **The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
 
@@ -287,7 +287,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Scientist (f/m), NGS bioinformatics core facility](https://bms.candibase.de/atool/helmholtz/frontend.php?view=a32a9d6396d8ca063e28db02ea15e3e3&lang=en), Helmholtz Zentrum München, Germany
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
-* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/): distributed computing engineer and a full stack developer; see [this for more details on the positions](https://jobs.jhu.edu/job/Baltimore-Software-Engineer-MD-21218/442289500/, Baltimore, Maryland, United States).
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).

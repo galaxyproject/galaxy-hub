@@ -24,4 +24,4 @@ And as always, there are [new ToolShed contributions](/galaxy-updates/2014-04/#t
 
 If you have anything you would like to see in the next *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

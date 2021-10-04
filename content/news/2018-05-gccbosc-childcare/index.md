@@ -21,4 +21,4 @@ Childcare can be booked in half-day increments and **rates work out to $5.50/hou
 
 We hope to see you, and your kids, in Portland,
 
-[Dave Clements](/people/dave-clements/) on behalf of the [GCCBOSC 2018 Organizers](/src/events/gccbosc2018/organizers/)
+[Dave Clements](/people/dave-clements/) on behalf of the [GCCBOSC 2018 Organizers](/events/gccbosc2018/organizers/)

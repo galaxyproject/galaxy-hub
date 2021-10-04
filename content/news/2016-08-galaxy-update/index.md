@@ -19,4 +19,4 @@ The **[August Galaxy News](/galaxy-updates/2016-08/) is out:**
 * [TooShed Contributions](/galaxy-updates/2016-08/#toolshed-contributions)
 * And [other news](/galaxy-updates/2016-08/#other-news) too.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

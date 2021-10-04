@@ -44,13 +44,13 @@ This page provides a step-by-step instructions on how to start your own instance
 
 1. Because AWS services implement pay-as-you-go access model for compute resources, it is necessary for every user of the service to *[register with Amazon](http://aws.amazon.com/)*. <span class='red'>You will need a credit card to register.</span>  (You can apply for a [AWS Education Grant](http://aws.amazon.com/education) after you register). 
 
-2. Once your account has been approved by Amazon (note that this may take up to one business day), *log into the [EC2 AWS Management Console](http://console.aws.amazon.com/ec2)* and set your AWS Region to *US East (Virginia)*. This is the only region Galaxy CloudMan is fully supported in at this time (see [screenshot 1.2](/src/cloudman/aws/getting-started/AWSSetRegion.png)).
+2. Once your account has been approved by Amazon (note that this may take up to one business day), *log into the [EC2 AWS Management Console](http://console.aws.amazon.com/ec2)* and set your AWS Region to *US East (Virginia)*. This is the only region Galaxy CloudMan is fully supported in at this time (see [screenshot 1.2](/cloudman/aws/getting-started/AWSSetRegion.png)).
 
-3. Click **Network & Security &rarr; Key Pairs** or **My Resources &rarr; *n* Key Pairs** (see [screenshot 1.3](/src/cloudman/aws/getting-started/AWSConsoleKeyPairs.png) - if it does not look like this, then try using the Chrome browser) and then click **Create Key Pair**.  Enter a memorable name for the key pair, e.g., `GalaxyCloud` and click **Create**.
+3. Click **Network & Security &rarr; Key Pairs** or **My Resources &rarr; *n* Key Pairs** (see [screenshot 1.3](/cloudman/aws/getting-started/AWSConsoleKeyPairs.png) - if it does not look like this, then try using the Chrome browser) and then click **Create Key Pair**.  Enter a memorable name for the key pair, e.g., `GalaxyCloud` and click **Create**.
 
 4. *Save your private key!* The previous step creates the key pair and downloads a copy to your machine with the name *`MemorableName`*`.pem`.  Save this file and protect it like you would your password. The key pair can be used to access started instances from the command line.
 
-5. *Create a Security Group* by clicking **Network & Security &rarr; Security Groups &rarr; Create Security Group** (see [screenshot 1.5](/src/cloudman/aws/getting-started/AWSDefaultSecurityGroups.png)). Specify a name (e.g., `GalaxyGroup`) and provide a brief description.  **VPC** should be **No VPC**.  Click the **Yes, Create** button.  The new group now appears in the list and details about the group are listed at the bottom of the page.
+5. *Create a Security Group* by clicking **Network & Security &rarr; Security Groups &rarr; Create Security Group** (see [screenshot 1.5](/cloudman/aws/getting-started/AWSDefaultSecurityGroups.png)). Specify a name (e.g., `GalaxyGroup`) and provide a brief description.  **VPC** should be **No VPC**.  Click the **Yes, Create** button.  The new group now appears in the list and details about the group are listed at the bottom of the page.
 
 6. *Add Inbound Rules* to the new group by clicking the **Inbound** tab.  For each new rule you will need to select the protocol (the rule type) from the **Create a new rule:** pulldown, fill in the fields for that rule, and then click **Add Rule**. Define these rules:
   1. Protocol: HTTP<br />Source: `0.0.0.0/0` <div class='indent'>Unless you want to restrict access based on [the source IP](http://en.wikipedia.org/wiki/CIDR_notation)</div>
@@ -59,7 +59,7 @@ This page provides a step-by-step instructions on how to start your own instance
   4. Protocol: Custom TCP rule<br />Port range: `20-21`<br />Source: `0.0.0.0/0`<div class='indent'>This rule opens ports required for FTP file transfer.</div>
   5. Protocol: Custom TCP rule<br />Port range: `30000-30100`<br />Source: `0.0.0.0/0`<div class='indent'>This rule opens ports required for passive FTP file transfer.</div>
   6. Protocol: All TCP<br />Source: *name of group, e.g. `GalaxyGroup`*<div class='indent'>The Source will automatically change to the security group ID. This action will enable multiple instances in the same security group to communicate with each other on Amazon EC2's internal network.</div>
-  7. Click **Apply Rule Changes**.  The window should look like the [screenshot 1.7](/src/cloudman/aws/getting-started/AWSApplyRuleChanges.png).
+  7. Click **Apply Rule Changes**.  The window should look like the [screenshot 1.7](/cloudman/aws/getting-started/AWSApplyRuleChanges.png).
 
 All of these inbound rules are necessary for proper functioning of CloudMan and Galaxy.
 

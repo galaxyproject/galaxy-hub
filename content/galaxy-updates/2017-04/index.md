@@ -35,7 +35,7 @@ GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-even
 
 ## GCC2017 Travel Fellowships
 
-[GCC2017](https://gcc2017.sciencesconf.org/) is a great opportunity to discuss your research with others that are working in and facing similar challenges in data-intenisve life science research.  *But only if you can get there.*  The Galaxy Community Fund is offering [fellowships](/src/news/2017-03-gcc2017-fellowships/) to early career researchers that would be coming from afar to attend GCC2017. 
+[GCC2017](https://gcc2017.sciencesconf.org/) is a great opportunity to discuss your research with others that are working in and facing similar challenges in data-intenisve life science research.  *But only if you can get there.*  The Galaxy Community Fund is offering [fellowships](/news/2017-03-gcc2017-fellowships/) to early career researchers that would be coming from afar to attend GCC2017. 
 
 See the [application](http://bit.ly/gcc2017apply) for full details on what's covered and what we ask you to provide.
 

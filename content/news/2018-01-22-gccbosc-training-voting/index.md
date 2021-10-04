@@ -18,4 +18,4 @@ date: "2018-01-22"
 
 Thanks, and see you in Portland!
 
-The [GCCBOSC 2018 Organizers](/src/events/gccbosc2018/organizers)
+The [GCCBOSC 2018 Organizers](/events/gccbosc2018/organizers)

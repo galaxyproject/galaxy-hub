@@ -3,7 +3,7 @@ title: "Czech Galaxy Community"
 autotoc: false
 ---
 
-![ELIXIR Czech Republic](/src/images/logos/elixir-cz-banner.png)
+![ELIXIR Czech Republic](/images/logos/elixir-cz-banner.png)
 
 <br />
 

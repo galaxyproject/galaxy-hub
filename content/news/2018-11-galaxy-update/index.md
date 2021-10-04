@@ -15,7 +15,7 @@ The *November  2018 Galactic News* is here!  This is a summary of what is going 
 * [All upcoming events](#upcoming-events)
 * [104 publications](#publications), including three highlighted ones
 * Two new [Galactic Blog entries](/news/2018-11-galaxy-update/#new-galactic-blog-posts)
-* [Open positions](/src/news/2018-11-galaxy-update/#whos-hiring) (at least 12 of them)
+* [Open positions](/news/2018-11-galaxy-update/#whos-hiring) (at least 12 of them)
 *  [Doc, Hub, and Training Updates](/news/2018-11-galaxy-update/#doc-hub-and-training-updates)
 * [ToolShed contributions](/news/2018-11-galaxy-update/#toolshed-contributions)
 * [Releases](/news/2018-11-galaxy-update/#releases) Galaxy 18.09 is released!
@@ -267,7 +267,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Scientist (f/m), NGS bioinformatics core facility](https://bms.candibase.de/atool/helmholtz/frontend.php?view=a32a9d6396d8ca063e28db02ea15e3e3&lang=en), Helmholtz Zentrum München, Germany
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
-* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).

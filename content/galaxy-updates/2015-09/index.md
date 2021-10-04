@@ -325,7 +325,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 * *Quotas:* 
   * Account required. Anyone can [request an account](http://abims.sb-roscoff.fr/account).
 * *Sponsor(s):*
-  * See [sponsor graph](/src/use/workflow4metabolomics/workflow4metabolomics-sponsors.png)
+  * See [sponsor graph](/use/workflow4metabolomics/workflow4metabolomics-sponsors.png)
 
 ## EpiToolKit
 

@@ -30,7 +30,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <div class="card border-info" style="min-width: 13rem; max-width: 15rem">
 <div class="trim-p">
 
-![James Taylor](/src/jxtx/james.jpg)
+![James Taylor](/jxtx/james.jpg)
 
 </div>
 <div class="card-header">Same mission, new name</div>
@@ -42,7 +42,7 @@ The foundation continuing James's legacy of supporting Open Science has been ren
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="trim-p">
 
-![Meet the first class](/src/news/2020-10-jxtx-awardees/awardees-thumb.png)
+![Meet the first class](/news/2020-10-jxtx-awardees/awardees-thumb.png)
 
 </div>
 <div class="card-header trim-p">
@@ -58,7 +58,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 <div class="card border-info" style="min-width: 15rem; max-width: 17rem">
 <div class="trim-p">
 
-![Big shoes to fill](/src/jxtx/jtech-shoes-400.png)
+![Big shoes to fill](/jxtx/jtech-shoes-400.png)
 
 </div>
 <div class="card-header">Help move Open Science forward</div>
@@ -103,7 +103,7 @@ There will be one roundtable meetup this month, on **[November 12](/events/2020-
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="trim-p">
 
-![Paper Cuts November](/src/news/2020-10-galaxy-update/irritating.png)
+![Paper Cuts November](/news/2020-10-galaxy-update/irritating.png)
 
 </div>
 <div class="card-header trim-p">
@@ -122,7 +122,7 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="trim-p">
 
-![Du Novo Webinar](/src/events/2020-11-du-novo/du-novo-workshop.png)
+![Du Novo Webinar](/events/2020-11-du-novo/du-novo-workshop.png)
 
 </div>
 <div class="card-header trim-p">
@@ -182,7 +182,7 @@ This hands-on workshop will familiarize you with the Galaxy user interface & exe
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="trim-p">
 
-![Sponsors](/src/events/2020-12-tools-hack/event-sponsors.png)
+![Sponsors](/events/2020-12-tools-hack/event-sponsors.png)
 
 </div>
 <div class="card-header trim-p">
@@ -329,7 +329,7 @@ Leighton reports on the University of Strathclyde's experience teach Advanced Mi
 
 *Spoiler: It went well.*
 
-![SARS in JBrowse](/src/blog/2020-10-teaching-strathclyde/sars-in-jbrowse.jpg)
+![SARS in JBrowse](/blog/2020-10-teaching-strathclyde/sars-in-jbrowse.jpg)
 
 </div>
 

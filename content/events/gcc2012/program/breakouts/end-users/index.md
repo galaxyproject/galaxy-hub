@@ -15,7 +15,7 @@ title: Galaxy End Users
 * Karen Reddy
 
  * 
-* [Anton](/people/anton/), [Dan](/people/dan/), Rémi, and [Jen](/people/jennifer-jackson/) from [Galaxy Team](/src/galaxy-team/)
+* [Anton](/people/anton/), [Dan](/people/dan/), Rémi, and [Jen](/people/jennifer-jackson/) from [Galaxy Team](/galaxy-team/)
 
 # Notes
 

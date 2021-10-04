@@ -39,7 +39,7 @@ Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/
 
 <div class='right'><a href='/people/fubar/'><img src="/src/images/people/team/ross.jpg" alt="" width="120" /></a></div>
 
-**[Ross Lazarus](/people/fubar/)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/src/galaxy-team/) <sup>2</sup>.
+**[Ross Lazarus](/people/fubar/)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/galaxy-team/) <sup>2</sup>.
 
  <sup>1</sup> BakerIDI Heart and Diabetes Research Institute, 75 Commercial Rd, Melbourne, VIC 3004, Australia<br />
  <sup>2</sup> http://wiki.galaxyproject.org[/GalaxyTeam](/events/gcc2013/abstracts/talks/GalaxyTeam/)
@@ -451,7 +451,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 <div class='right'><a href='/people/carl-eberhard/'><img src="/src/images/people/carl.jpg" alt="" width="120" /></a></div>
 
-**[Carl Eberhard](/people/carl-eberhard/)**<sup>1</sup>, [Jeremy Goecks](/people/jeremy-goecks/)<sup>1</sup>, [The Galaxy Team](/src/galaxy-team/)<sup>1,2</sup>, [Anton Nekrutenko](/people/anton/)<sup>2</sup>, and [James Taylor](/people/james-taylor/)<sup>1</sup>
+**[Carl Eberhard](/people/carl-eberhard/)**<sup>1</sup>, [Jeremy Goecks](/people/jeremy-goecks/)<sup>1</sup>, [The Galaxy Team](/galaxy-team/)<sup>1,2</sup>, [Anton Nekrutenko](/people/anton/)<sup>2</sup>, and [James Taylor](/people/james-taylor/)<sup>1</sup>
 
  <sup>1</sup> Emory University<br />
  <sup>2</sup> Penn State University

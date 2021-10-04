@@ -50,7 +50,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 * All rows for feature tracks--BED, GTF, SAM, BAM--can now be displayed.
 * Custom composite tracks now available: any amount of wiggle data can be combined into a single track. See Fig.1.
 
-![](/src/images/news-graphics/2012_01_20_composite-tracks.png)<br />
+![](/images/news-graphics/2012_01_20_composite-tracks.png)<br />
 **Fig. 1** shows a Visualization of a "rainbow" composite track generated via a "drag-and-drop" method within the Trackster UI itself. The top three individual conservation tracks are combined into a fourth single composite track underneath.
 
 ## Workflows
@@ -62,7 +62,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 
 ## Source
 
-* User interface (UI): A history item's details page (linked from the "View Details" ![](/src/images/icons/HistoryInfo.png) icon) now contains links to the `STDOUT` and `STDERR` captured when running a tool's job command line.
+* User interface (UI): A history item's details page (linked from the "View Details" ![](/images/icons/HistoryInfo.png) icon) now contains links to the `STDOUT` and `STDERR` captured when running a tool's job command line.
 * Job Management: A new setting in the Galaxy config file, `cleanup_job` can take one of three values, `always` (the default), `never`, or `onsuccess`. This controls when temporary data, such as a job's working directory, external metadata files, and DRM output/error files are cleaned up.
 * **[JQuery](http://jquery.com/)** updated to 1.7.1
 * Updated all tools which were manually filtering on tool_data_tables to determine paths to use built-in param.fields.path.

@@ -64,7 +64,7 @@ These papers may be of interest to the Galaxy community:
 
 * "[G-NEST: a gene neighborhood scoring tool to identify co-conserved, co-expressed genes](https://doi.org/10.1186/1471-2105-13-253)," Danielle Lemay, William Martin, Angie Hinrichs, Monique Rijnkels, J. German, Ian Korf, Katherine Pollard, *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)*, Vol. 13, No. 1. (28 September 2012), 253<br /><br />
 
-* "[Creating re-usable tools from scripts: The Galaxy Tool Factory](https://doi.org/10.1093/bioinformatics/bts573)," [Ross Lazarus](/people/fubar/), Antony Kaspi, Mark Ziemann, [The Galaxy Team](/src/galaxy-team/), *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (28 September 2012)
+* "[Creating re-usable tools from scripts: The Galaxy Tool Factory](https://doi.org/10.1093/bioinformatics/bts573)," [Ross Lazarus](/people/fubar/), Antony Kaspi, Mark Ziemann, [The Galaxy Team](/galaxy-team/), *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (28 September 2012)
 
 These papers were among [44 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/).  
 

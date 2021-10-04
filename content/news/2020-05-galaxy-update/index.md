@@ -8,7 +8,7 @@ date: "2020-05-04"
 
 # From the editor
 
-[<img class="float-right" src="/src/jxtx/i-love-you-so-much.jpg" alt="I love you so much"  style="max-width: 30rem;" />](/src/jxtx/i-love-you-so-much.jpg)
+[<img class="float-right" src="/src/jxtx/i-love-you-so-much.jpg" alt="I love you so much"  style="max-width: 30rem;" />](/jxtx/i-love-you-so-much.jpg)
 
 This is our first newsletter since January. It has been an eventful and sorrowful four months for the world, and for the Galaxy Community too: *This newsletter starts with the [tragic loss of James Taylor](#james-peter-taylor-1979-2020), one of Galaxy's founders and leaders.*  We lost James at the beginning of April. This community, I suspect, will always feel that loss.
 

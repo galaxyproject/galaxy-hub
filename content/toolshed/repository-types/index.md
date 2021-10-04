@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main ToolShed](/src/images/logos/ToolShed.jpg)</a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main ToolShed](/images/logos/ToolShed.jpg)</a> </div>
 
 # Repository Types
 

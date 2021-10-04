@@ -1,4 +1,4 @@
-<div class='right'>![](/src/galaxy-team/BjoernGruening.jpg)</div>
+<div class='right'>![](/galaxy-team/BjoernGruening.jpg)</div>
 
 
 # Björn Grüning

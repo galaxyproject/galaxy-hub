@@ -3,7 +3,7 @@ title:  Swiss Galaxy Workshop, Wednesday, October 3rd, Bern
 ---
 <div class='center'>
 
-![Swiss Galaxy Workshop, Wednesday, October 3rd, Bern](/src/images/logos/2012SwissGalaxyWorkshop-400.png) <br /><br /> </div>
+![Swiss Galaxy Workshop, Wednesday, October 3rd, Bern](/images/logos/2012SwissGalaxyWorkshop-400.png) <br /><br /> </div>
 
 
 

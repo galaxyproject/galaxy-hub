@@ -49,7 +49,7 @@ Here are the highlights of the following upgrade:
 * **Trackster** now supports interactive filtering for **VCF** quality values and BED score values. 
 * For example, a user can drag a slider to filter a file of splice junctions to view junctions supported by different numbers of reads.
 
-![trackster splice example](/src/archive/dev-news-briefs/2010-11-24/2010_11_24_trackster_splice_b.png)
+![trackster splice example](/archive/dev-news-briefs/2010-11-24/2010_11_24_trackster_splice_b.png)
 * Improved CIGAR support to BAM display. Properly displays matches,
 
 deletions, skipped bases, and clipping. Padding for insertions are

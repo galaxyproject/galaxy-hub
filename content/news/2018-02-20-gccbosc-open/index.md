@@ -42,5 +42,5 @@ Both OBF and the Galaxy Community Fund Board are offering fellowships to attend 
 
 See you in Portland!
 
-The [GCCBOSC 2018 Organizers](/src/events/gccbosc2018/organizers)
+The [GCCBOSC 2018 Organizers](/events/gccbosc2018/organizers)
 

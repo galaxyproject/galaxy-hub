@@ -19,7 +19,7 @@ James Taylor started his professional path at the University of Vermont, where h
 
 <figure class="figure figure-img img-fluid rounded">
 
-[![James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut](/src/jxtx/james-at-gcc2019.jpg)](/src/jxtx/james-at-gcc2019.jpg)
+[![James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut](/jxtx/james-at-gcc2019.jpg)](/jxtx/james-at-gcc2019.jpg)
 
 <figcaption class="figure-caption">James Taylor at the Galaxy Community Conference. July 8, 2019. Freiburg, Germany. Photo by Bérénice Batut.</figcaption>
 </figure>

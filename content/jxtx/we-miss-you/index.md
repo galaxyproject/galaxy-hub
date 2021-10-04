@@ -87,7 +87,7 @@ I am utterly shocked and terribly saddened to hear this. James has been a wonder
 <footer class="blockquote-footer">Steven Salzberg, Johns Hopkins</footer>
 </blockquote>
 
-[<img src="/src/jxtx/james-and-alvey.png" alt="James and Alvey" class="float-right" style="max-width: 10rem;" />](/src/jxtx/james-and-alvey.png)
+[<img src="/src/jxtx/james-and-alvey.png" alt="James and Alvey" class="float-right" style="max-width: 10rem;" />](/jxtx/james-and-alvey.png)
 
 <blockquote class="blockquote">
 Our hearts are heavy.  James Taylor has passed away.
@@ -340,9 +340,9 @@ This makes no sense. So incredibly sad to hear this. My heart goes out to all wh
 
 <div class="float-right img-sizer" style="max-width: 10rem;">
 
-[![Sarah's James-inspired shoes](/src/jxtx/cool-shoes-1.jpg)](/src/jxtx/cool-shoes-1.jpg)
+[![Sarah's James-inspired shoes](/jxtx/cool-shoes-1.jpg)](/jxtx/cool-shoes-1.jpg)
 
-[![James' shoes, an example](/src/jxtx/cool-shoes-2.png)](/src/jxtx/cool-shoes-2.png)
+[![James' shoes, an example](/jxtx/cool-shoes-2.png)](/jxtx/cool-shoes-2.png)
 
 </div>
 
@@ -581,7 +581,7 @@ James Taylor was an NHGRI-funded investigator who made significant contributions
 <footer class="blockquote-footer">National Human Genome Research Institute</footer>
 </blockquote>
 
-[<img src="/src/jxtx/james-okinawa.jpg" alt="James and Greg at Biohackathon 2009" class="float-right" style="max-width: 10rem;" />](/src/jxtx/james-okinawa.jpg)
+[<img src="/src/jxtx/james-okinawa.jpg" alt="James and Greg at Biohackathon 2009" class="float-right" style="max-width: 10rem;" />](/jxtx/james-okinawa.jpg)
 
 <blockquote class="blockquote">
 So sad to learn of the passing of James Taylor. Met James long ago via the OBF/Galaxy/WormBase. A truly  positive an inspiring force. Quick snap of James (with Greg von Kuster) at the 2009 Biohackathon on Okinawa.
@@ -620,7 +620,7 @@ When I think of James I remember him relaxing in the sun during one of the GCC h
 <footer class="blockquote-footer">Peter van Heusden, SANBI</footer>
 </blockquote>
 
-[<img src="/src/jxtx/leek-laptop-stickers.jpg" alt="Jeff Leek's laptop stickers: 60% James and Company" class="float-right" style="max-width: 10rem;" />](/src/jxtx/leek-laptop-stickers.jpg)
+[<img src="/src/jxtx/leek-laptop-stickers.jpg" alt="Jeff Leek's laptop stickers: 60% James and Company" class="float-right" style="max-width: 10rem;" />](/jxtx/leek-laptop-stickers.jpg)
 
 <blockquote class="blockquote">
 60 percent of my laptop stickers are due to @jxtx and team. Glad to be with them during this.
@@ -661,7 +661,7 @@ I am so saddened to hear this.  I felt a bond with James over his commitment to 
 <footer class="blockquote-footer">Cricket Sloan, UCSC</footer>
 </blockquote>
 
-[<img src="/src/jxtx/james-at-apachecon.jpg" alt="James at ApacheCon, with Kurt Schrader" class="float-right" style="max-width: 10rem;" />](/src/jxtx/james-at-apachecon.jpg)
+[<img src="/src/jxtx/james-at-apachecon.jpg" alt="James at ApacheCon, with Kurt Schrader" class="float-right" style="max-width: 10rem;" />](/jxtx/james-at-apachecon.jpg)
 
 <blockquote class="blockquote">
 I met James in November 2002 at an open-source software conference. He was working professionally as a software developer and was speaking of his desire to go back to school to study bioinformatics. I’ve watched his career from afar as he’s done amazing work. I know he will be missed. 
@@ -690,7 +690,7 @@ People who interacted with James in any capacity thought the world of him.
 
 <div class="float-right img-sizer" style="width: 5.53rem">
 
-[![From Björn Grüning](/src/jxtx/growing.jpg)](/src/jxtx/growing.jpg)
+[![From Björn Grüning](/jxtx/growing.jpg)](/jxtx/growing.jpg)
 
 </div>
 
@@ -709,7 +709,7 @@ This is truly very sad, my deepest condolences to his family, friends and to the
 <footer class="blockquote-footer">Pablo Moreno, EMBL-EBI</footer>
 </blockquote>
 
-[<img src="/src/jxtx/office.jpg" alt="At Hopkins" class="float-right" style="max-width: 10rem;" />](/src/jxtx/office.jpg)
+[<img src="/src/jxtx/office.jpg" alt="At Hopkins" class="float-right" style="max-width: 10rem;" />](/jxtx/office.jpg)
 
 <blockquote class="blockquote">
 I came in today and found this in front of James’ office.

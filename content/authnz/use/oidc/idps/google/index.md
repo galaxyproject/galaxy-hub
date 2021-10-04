@@ -24,11 +24,11 @@ In order to login to Galaxy using your Google account, take the following steps:
 
 1. Click on the **Login or Register** button:
 
-![image](/src/authnz/use/oidc/idps/google/01.png)
+![image](/authnz/use/oidc/idps/google/01.png)
 
 2. Click on the **Sign in with Google** button:
 
-![image](/src/authnz/use/oidc/idps/google/02.png)
+![image](/authnz/use/oidc/idps/google/02.png)
 
 <div class="alert alert-info trim-p" role="alert">
 
@@ -40,7 +40,7 @@ If this button is not displayed, then either OIDC is not enabled on the instance
 3. Clicking on the **Sign in with Google** button will take you to Google's login page, 
 where you would need to login with your Google account:
 
-![image](/src/authnz/use/oidc/idps/google/03.png)
+![image](/authnz/use/oidc/idps/google/03.png)
     
 <div class="alert alert-info trim-p" role="alert">
 

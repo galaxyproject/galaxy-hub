@@ -39,7 +39,7 @@ GCC2019 will be held the first week of  July in Freiburg, Germany.  The *tenth* 
 
 ## Poster & Demo Abstract Submission Deadline: 10 June
 
-Abstracts for [poster presentations and software demonstrations](/events/gcc2019/abstracts/) are still being accepted for consideration.  Got something to show? [Submit your abstract before the 10 June deadline!](/src/events/gcc2019/abstracts).
+Abstracts for [poster presentations and software demonstrations](/events/gcc2019/abstracts/) are still being accepted for consideration.  Got something to show? [Submit your abstract before the 10 June deadline!](/events/gcc2019/abstracts).
 
 ## Conference Schedule is Online
 

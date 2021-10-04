@@ -22,7 +22,7 @@ Blankenberg D, Taylor J, Nekrutenko A, The Galaxy Team. "[Making whole genome mu
 
 Afgan, E., Baker, D., Team, t. G., Nekrutenko, A. and Taylor, J. (2011). "[A reference model for deploying applications in virtualized environments](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/abstract)." *Concurrency and Computation: Practice and Experience*. doi: 10.1002/cpe.1836
 
-<div class='right'>![](/src/images/screenshots/GalaxyProjectOrg.png)</div>
+<div class='right'>![](/images/screenshots/GalaxyProjectOrg.png)</div>
 ### GalaxyProject.org
 
 After a period of quiescence, the [GalaxyProject.org](http://galaxyproject.org) web site has been updated to more accurately reflect what is going on in Galaxy.  This is a great starting point for information about [Galaxy](http://galaxyproject.org).
@@ -106,13 +106,13 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * New features
 
 *Bookmarking*: image shows a bookmark being set for a genomic region.
-  ![](/src/archive/dev-news-briefs/2011-08-30/2011_08_30_bookmarking.png)
+  ![](/archive/dev-news-briefs/2011-08-30/2011_08_30_bookmarking.png)
 
 *Overview tracks*: image shows, at the bottom: (a) an overview for the EST track and (b) the region currently being viewed. 
-  ![](/src/archive/dev-news-briefs/2011-08-30/2011_08_30_overview.png)
+  ![](/archive/dev-news-briefs/2011-08-30/2011_08_30_overview.png)
 
 *Features' transparency based on attribute values*: image shows transparency based on score, making it easy to identify a gene's dominant isoform.
-  ![](/src/archive/dev-news-briefs/2011-08-30/2011_08_30_transparency-based-on-attributes.png)
+  ![](/archive/dev-news-briefs/2011-08-30/2011_08_30_transparency-based-on-attributes.png)
 
 * Enhancements
   * Enable filter chaining when running on complete dataset

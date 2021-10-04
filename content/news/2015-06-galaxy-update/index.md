@@ -23,4 +23,4 @@ The **[June Galactic News](/galaxy-updates/2015-06/)** brings this *news of the 
 
 And, [other news](/galaxy-updates/2015-06/#other-news) as well.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

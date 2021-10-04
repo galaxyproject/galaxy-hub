@@ -167,7 +167,7 @@ An overview of where the Galaxy Project is and where it is going.
 
 <div class='right'><img src="/src/images/people/greg.png" alt="Greg Von Kuster" width="120" /></div>
 
-**[Greg von Kuster](/people/greg-vonkuster/)<sup>1</sup>** and the [Galaxy Team](/src/galaxy-team/)
+**[Greg von Kuster](/people/greg-vonkuster/)<sup>1</sup>** and the [Galaxy Team](/galaxy-team/)
 
  <sup>1</sup> [Penn State University](http://psu.edu/), State College, Pennsylvania, United States<br />
  
@@ -230,7 +230,7 @@ We present a Galaxy based web server for processing and visualizing deeply seque
 
 <div class='right'><img src="/src/images/logos/GCC2014HackLogoSquare200.png" alt="GCC2014 Hackathon Participants" width="120" /></div>
 
-**[Dannon Baker](/people/dannon-baker/)<sup>1</sup>, [Brad Chapman](http://bcbio.wordpress.com/)<sup>2</sup>, [John Chilton](/people/john-chilton/)<sup>3</sup>, [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)<sup>4</sup>, and [GCC2014 Hackathon Participants](/src/events/gcc2014/hackathon/)**
+**[Dannon Baker](/people/dannon-baker/)<sup>1</sup>, [Brad Chapman](http://bcbio.wordpress.com/)<sup>2</sup>, [John Chilton](/people/john-chilton/)<sup>3</sup>, [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)<sup>4</sup>, and [GCC2014 Hackathon Participants](/events/gcc2014/hackathon/)**
 
  <sup>1</sup> [Johns Hopkins University](http://jhu.edu/), Baltimore Maryland, United States<br />
  <sup>2</sup> [Harvard University](http://harvard.edu), Cambridge, Massachusetts, United States<br />
@@ -249,7 +249,7 @@ In this talk, we’ll very briefly describe our Galaxy Hackathon goals and provi
 
 <div class='right'><a href='/people/dan/'><img src="/src/images/people/dan.jpg" alt="Dan Blenkenberg" width="120" /></a></div>
 
-**[Daniel Blankenberg](/people/dan/)<sup>1</sup>** and the [Galaxy Team](/src/galaxy-team/)<sup>2</sup>
+**[Daniel Blankenberg](/people/dan/)<sup>1</sup>** and the [Galaxy Team](/galaxy-team/)<sup>2</sup>
 
  <sup>1</sup> [Penn State University](http://psu.edu), State College, Pennsylvania, United States<br />
  <sup>2</sup> [http://galaxyproject.org/](http://galaxyproject.org/)
@@ -268,7 +268,7 @@ Here, we describe a new set of resources that aim to rectify this situation. The
 
 <div class='right'><a href='/people/john-chilton/'><img src="/src/images/people/JohnChiltonSmaller.jpg" alt="John Chilton" width="120" /></a></div>
 
-**[John Chilton](/people/john-chilton/)<sup>1</sup>** and the [Galaxy Team](/src/galaxy-team/)
+**[John Chilton](/people/john-chilton/)<sup>1</sup>** and the [Galaxy Team](/galaxy-team/)
 
  <sup>1</sup> [Penn State University](http://psu.edu), State College, Pennsylvania, United States
 
@@ -303,7 +303,7 @@ Dataset collections are a powerful new feature that greatly enhance the expressi
 
 <div class='right'><a href='/people/marten/'><img src="/src/images/people/marten.png" alt="Martin Čech" width="120" /></a></div>
 
-**[Martin Čech](/people/marten/)<sup>1</sup>**, [Pavel Švéda](http://www.linkedin.com/in/pavelsveda)<sup>1</sup>, [Ondřej Fabián](https://www.linkedin.com/pub/ondrej-fabian/33/6a5/1b8)<sup>1</sup> and the [Galaxy Team](/src/galaxy-team/)
+**[Martin Čech](/people/marten/)<sup>1</sup>**, [Pavel Švéda](http://www.linkedin.com/in/pavelsveda)<sup>1</sup>, [Ondřej Fabián](https://www.linkedin.com/pub/ondrej-fabian/33/6a5/1b8)<sup>1</sup> and the [Galaxy Team](/galaxy-team/)
 
  <sup>1</sup> [Penn State University](http://psu.edu), State College, Pennsylvania, United States
 

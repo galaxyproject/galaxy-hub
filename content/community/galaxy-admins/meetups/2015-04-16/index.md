@@ -41,7 +41,7 @@
 
 ## Galaxy Project Update: Galaxy's new tool form support
 
-[Sam Guerler](/people/guerler/) of the [Galaxy Team](/src/galaxy-team/) will discuss recent work to update Galaxy's tool forms.
+[Sam Guerler](/people/guerler/) of the [Galaxy Team](/galaxy-team/) will discuss recent work to update Galaxy's tool forms.
 
 ## Call Technology
 

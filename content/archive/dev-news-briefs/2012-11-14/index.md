@@ -119,7 +119,7 @@ Certain repository contents may occasionally become outdated, perhaps due to oth
 1. Enable **[Tophat](http://tophat.cbcb.umd.edu/)**, **[Tophat2](http://tophat.cbcb.umd.edu/manual.html)**, and **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** to accept gene annotations in **[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3)** format; thanks to [Jim Johnson](http://bitbucket.org/jjohnson).
 2. Make unordered **[GTF](http://wiki.galaxyproject.org/Learn/Datatypes#GTF)** parsing more lenient by default, allowing for parsing of 'imperfect' GTF datasets not in strict specification format.
 3. New warning given when loading a ` .. / tool-data / *.loc ` file with an inconsistent numbers of tabs; contributed by [Peter Cock](http://bitbucket.org/peterjc).
-4. Allow **Rerun** ![](/src/images/icons/arrow-circle.png) to access hidden datasets.
+4. Allow **Rerun** ![](/images/icons/arrow-circle.png) to access hidden datasets.
 5. Enhance **[GenomeSpace](http://www.genomespace.org)** import tools to display a better history item name.
 
 <br />

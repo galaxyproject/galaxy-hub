@@ -15,11 +15,11 @@ If you have headphones they greatly improve your audio and *a headset really hel
 
 A couple of things to mention, when you launch your session - you can tune your connection speed:
 
-![](/src/community/galaxy-admins/meetups/webinar-tech/BlackboardConnectionSpeed.png)
+![](/community/galaxy-admins/meetups/webinar-tech/BlackboardConnectionSpeed.png)
 
 Talking works like a walkie-talkie ... you have to select "Talk" (see capture below) to open up your audio line. There can only be 6 simultaneous talkers.  Please only select the talk button when you need to actually talk to reduce background noise and to free up lines for others to participate.
 
-![](/src/community/galaxy-admins/meetups/webinar-tech/BlackboardTalk.png)
+![](/community/galaxy-admins/meetups/webinar-tech/BlackboardTalk.png)
 
 ## Java Web Start on Mac OS X
 

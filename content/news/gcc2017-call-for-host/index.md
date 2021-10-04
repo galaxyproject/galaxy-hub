@@ -45,4 +45,4 @@ See the **[full call for host proposals](https://depot.galaxyproject.org/hub/att
 
 Hoping to work with you in 2017!
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

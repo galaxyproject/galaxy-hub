@@ -29,7 +29,7 @@ The [Intergalactic Utilities Commission](/iuc/) (IUC) was established in 2012 to
 
 <div class="img-fluid mx-auto trim-p">
 
-![Responsive image](/src/iuc/iuc-commits.png)
+![Responsive image](/iuc/iuc-commits.png)
 
 <small class="trim-p">
 

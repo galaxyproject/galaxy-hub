@@ -54,12 +54,12 @@ GCC2019 is hosted by the [Freiburg Galaxy Project](https://galaxyproject.eu/frei
 
 <div class="center img-sizer" style="height: 100px">
 
-[![ELIXIR: uniting Europe’s leading life science organisations](/src/images/logos/elixir-logo-big.png)](https://elixir-europe.org/)
-[![Limagrain: From earth to life](/src/images/logos/limagrain-logo-text.png)](https://www.limagrain.com/en/)
-[![KWS: Seeding the future – since 1856](/src/images/logos/kws-logo-slogan.png)](https://www.kws.com/)
-[![an open-access journal for promising research in the life and biomedical sciences](/src/images/logos/elife-logo-squarish.png)](https://elifesciences.org/labs)
-[![F1000Research: Open for Science](/src/images/logos/f1000research-squarish.png)](https://f1000research.com/)
-[![GigaScience, an open access, open data, open peer-review journal focusing on ‘big data’ research from the life and biomedical sciences](/src/images/logos/GigaScienceLogo250.png)](https://academic.oup.com/gigascience)
+[![ELIXIR: uniting Europe’s leading life science organisations](/images/logos/elixir-logo-big.png)](https://elixir-europe.org/)
+[![Limagrain: From earth to life](/images/logos/limagrain-logo-text.png)](https://www.limagrain.com/en/)
+[![KWS: Seeding the future – since 1856](/images/logos/kws-logo-slogan.png)](https://www.kws.com/)
+[![an open-access journal for promising research in the life and biomedical sciences](/images/logos/elife-logo-squarish.png)](https://elifesciences.org/labs)
+[![F1000Research: Open for Science](/images/logos/f1000research-squarish.png)](https://f1000research.com/)
+[![GigaScience, an open access, open data, open peer-review journal focusing on ‘big data’ research from the life and biomedical sciences](/images/logos/GigaScienceLogo250.png)](https://academic.oup.com/gigascience)
 
 </div>
 

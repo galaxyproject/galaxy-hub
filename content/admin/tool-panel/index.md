@@ -1,4 +1,4 @@
-<div class='right'>![Tool labels](/src/admin/tool-panel/tool_labels.png)</div>
+<div class='right'>![Tool labels](/admin/tool-panel/tool_labels.png)</div>
 # Tool Panel Administration
 
 Galaxy tool panel is located in the left of the 'Analysis page' and offers the following ways of modification.

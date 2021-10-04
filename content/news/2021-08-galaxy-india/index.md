@@ -14,7 +14,7 @@ The Galaxy India community is about enabling data intensive research and instruc
 * Training and workshops, both standalone and at larger meetings
 * Webinars and community calls
 * In person gatherings, once these become prudent
-* [Communications channels](/src/community/#regional-communities), including chat and a mailing list
+* [Communications channels](/community/#regional-communities), including chat and a mailing list
 * An India-focused server hosted by the European Galaxy Team
 
 If you are working in data intensive science in India then please consider getting involved with Galaxy India:

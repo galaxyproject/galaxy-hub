@@ -39,13 +39,13 @@ The `emboss_5` repository in the Galaxy Main Tool Shed has been updated to inclu
 If `enable_beta_job_managers = True`, Galaxy will now show a *new option* in the admin interface, titled **Manage Local Data**. With this tool, a Galaxy admin will be able to select and download any genome already contained with the local `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file sourced from UCSC, NCBI, or Ensembl, optionally indexing the FASTA data with one or more of BWA, Bowtie, Bowtie 2, PerM, Picard, and SAM. After these processes finish, the indexed build will then be available for other tools in the analysis section. This does not replace setting up a build.txt file ([read more ...](/admin/data-integration/)). This would replace many of the manual indexing processes for commonly used tools ([read more...](/admin/NGS Local Setup/)). Please this tool is still **beta**, feedback and bug reports welcome at galaxy-dev@bx.psu.edu for discussion. We will also touch on it during a breakout session at GCC (Day 2, Section 8, [Automation Strategies](/events/gcc2012/program/breakouts/automation-strategies/)).
 
 Example of selecting a source, the indexes to create, and the target genome:
-![](/src/images/news-graphics/2012_07_20_select.png)
+![](/images/news-graphics/2012_07_20_select.png)
 
 The status of the indexing for a single genome:
-![](/src/images/news-graphics/2012_07_20_status.png)
+![](/images/news-graphics/2012_07_20_status.png)
 
 And a global status of all indexes for all genomes in progress:
-![](/src/images/news-graphics/2012_07_20_main-page.png)
+![](/images/news-graphics/2012_07_20_main-page.png)
 
 <br />
 # Simplified install of 3rd-party Dependencies

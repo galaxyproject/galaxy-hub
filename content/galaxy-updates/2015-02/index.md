@@ -162,7 +162,7 @@ Please let the organisers know if you are interested in helping make this event 
 
 The first [GalaxyAdmins](/community/galaxy-admins/) [meetup of 2015](/community/galaxy-admins/meetups/2015-02-19/) will happen online on Thursday, 19 February.  [GalaxyAdmins](/community/galaxy-admins/) is a special interest group for Galaxy community members who are responsible for Galaxy installations.
 
-A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/news/2014-questionnaire/) will be presented by [Dave Clements](/people/dave-clements/), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/src/galaxy-team/), and   [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) will lead a short discussion on *[GalaxyAdmins](/src/community/galaxy-admins/) direction*.
+A summary of both the user and admin/developer [2014 Galaxy Community Questionnaires](/news/2014-questionnaire/) will be presented by [Dave Clements](/people/dave-clements/), a *Galaxy Project Update* will be offered by a [Galaxy Team member](/galaxy-team/), and   [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) will lead a short discussion on *[GalaxyAdmins](/community/galaxy-admins/) direction*.
 
 Thanks to everyone for letting us know what dates and times worked best for you.  This time and day of the week worked for a remarkable 91% of respondents.
 
@@ -386,7 +386,7 @@ Several *critical* security vulnerabilities were recently discovered by Bartlomi
 
 **IPython Integration**
 
-Thanks to the awesome work of community members [Björn Grüning](/people/bjoern-gruening/) and [Helena Rasche](/people/helena-rasche/), [Galaxy now features integration with the popular IPython project](/src/archive/dev-news-briefs/2015-01-13/#ipython-integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker. 
+Thanks to the awesome work of community members [Björn Grüning](/people/bjoern-gruening/) and [Helena Rasche](/people/helena-rasche/), [Galaxy now features integration with the popular IPython project](/archive/dev-news-briefs/2015-01-13/#ipython-integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker. 
 
 ** Tool Form Upgrade (for Beta Testing) **
 

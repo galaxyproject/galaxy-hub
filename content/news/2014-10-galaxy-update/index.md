@@ -20,4 +20,4 @@ A lot is happening in in the Galaxy in October, and a lot of good stuff happened
 
 Happy October!
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

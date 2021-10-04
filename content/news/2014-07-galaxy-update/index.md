@@ -18,4 +18,4 @@ The [July 2014 Galaxy Update Newsletter](/galaxy-updates/2014-07/) is out, and a
 * [One new Galaxy Log Board entry](/galaxy-updates/2014-07/#galaxy-community-hubs)
 * and [a stunning number of ToolShed contributions](/galaxy-updates/2014-07/#toolshed-contributions) once again.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

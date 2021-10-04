@@ -1,4 +1,4 @@
-<div class='right'>![](/src/galaxy-team/guru.jpg)</div>
+<div class='right'>![](/galaxy-team/guru.jpg)</div>
 # Guru Ananda
 
 Guru is a graduate student in Bioinformatics and Genomics at [Penn State University](http://psu.edu/). Guru is core member of the [Galaxy Team](/galaxy-team/).

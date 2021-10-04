@@ -18,7 +18,7 @@ title: Creating Workflows and Advanced Workflow Options
 
 <div class="img-sizer" style="width: 600">
 
-![workflow editor](/src/images/learn/workflow_edit_peek.png)  
+![workflow editor](/images/learn/workflow_edit_peek.png)  
 *workflow editor with expanded* ***edit menu***
 
 </div>

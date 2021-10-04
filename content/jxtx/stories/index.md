@@ -12,7 +12,7 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 ---
 
-[<img class="float-right" src="/src/jxtx/james.jpg" alt="James Taylor" style="max-width: 15rem" />](/src/jxtx/james.jpg)
+[<img class="float-right" src="/src/jxtx/james.jpg" alt="James Taylor" style="max-width: 15rem" />](/jxtx/james.jpg)
 
 
 Stories about James from people who know him well.

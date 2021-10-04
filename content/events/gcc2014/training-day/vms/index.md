@@ -47,7 +47,7 @@ The VM(s) to download depend on the workshops you are attending:
 | [Galaxy Installation and Administration](/events/gcc2014/training-day/#galaxy-installation-and-administration) |  [Download VM (from PA)](http://depot.galaxyproject.org/GCC2014.ova)  |  Has Galaxy source code distribution and Galaxy prerequisites, and running Galaxy and Galaxy Tool Shed instances.<div class='indent'>User: galaxy<br />Password: galaxy</div>  |
 | [Galaxy Automation: Using the API](/events/gcc2014/training-day/#galaxy-automation-using-the-api) |
 | [Tool Development from bright idea to ToolShed - designing a Galaxy Tool](/events/gcc2014/training-day/#tool-development-from-bright-idea-to-toolshed-designing-a-galaxy-tool) |
-| [Tool Development from bright idea to ToolShed - Data Managers](/src/events/gcc2014/training-day/data-managers/) |
+| [Tool Development from bright idea to ToolShed - Data Managers](/events/gcc2014/training-day/data-managers/) |
 
 ## 3. Import the VM into VirtualBox
 

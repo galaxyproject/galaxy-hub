@@ -180,7 +180,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 Some highlights from last month:
 
-* [A guide and best practices for R/Bioconductor tool integration in Galaxy](https://f1000research.com/articles/5-2757/v1), [Nitesh Turaga](/people/nitesh-turaga/), Mallory A. Freeberg, [Dannon Baker](/people/dannon-baker/), [John Chilton](/people/john-chilton/), [Galaxy Team](/src/galaxy-team), [Anton Nekrutenko](/people/anton/), [James Taylor](/people/james-taylor/), *F1000Research* 2016, 5:2757 (doi: 10.12688/f1000research.9821.1)
+* [A guide and best practices for R/Bioconductor tool integration in Galaxy](https://f1000research.com/articles/5-2757/v1), [Nitesh Turaga](/people/nitesh-turaga/), Mallory A. Freeberg, [Dannon Baker](/people/dannon-baker/), [John Chilton](/people/john-chilton/), [Galaxy Team](/galaxy-team), [Anton Nekrutenko](/people/anton/), [James Taylor](/people/james-taylor/), *F1000Research* 2016, 5:2757 (doi: 10.12688/f1000research.9821.1)
 * [How Are You – and How’s Your Microbiome?](https://theanalyticalscientist.com/issues/1116/how-are-you-and-hows-your-microbiome/), Pratik Jagtap, *The Analytical Scientist*, November 2016
 * [Computational workflow for the fine-grained analysis of metagenomic samples](https://doi.org/10.1186/s12864-016-3063-x), Esteban Pérez-Wohlfeil, Jose A. Arjona-Medina, Oscar Torreno, Eugenia Ulzurrun, Oswaldo Trelles, *BMC Genomics*, Vol. 17, No. S8. (25 October 2016), doi:10.1186/s12864-016-3063-x
 * [Big Data Smart Socket (BDSS): A System that Abstracts Data Transfer Habits from End Users](https://doi.org/10.1093/bioinformatics/btw679), Nick A. Watts, Frank A. Feltus, *Bioinformatics* (26 October 2016), btw679, doi:10.1093/bioinformatics/btw679

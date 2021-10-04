@@ -12,4 +12,4 @@ Some things will be the same as in previous years, but we are also using feedbac
 
 Please reserve July 25-27 on your calendars!
 
-[Dave Clements](/people/dave-clements/) and [Neil Bahroos](/src/NeilBahroos/)
+[Dave Clements](/people/dave-clements/) and [Neil Bahroos](/NeilBahroos/)

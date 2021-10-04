@@ -37,7 +37,7 @@ local folder. Think of the GVL as your data repository in the cloud.
 <div class="center">
 <div style="width: 60%; display: inline-block">
 
-[![](./gvl-data-browser.png)](/src/blog/2020-07-gvl5-beta4/gvl-data-browser.png)
+[![](./gvl-data-browser.png)](/blog/2020-07-gvl5-beta4/gvl-data-browser.png)
 
 </div>
 </div>
@@ -53,7 +53,7 @@ web console and the content of that same bucket linked to a GVL instance.
 <div class="center">
 <div style="display: inline-block; padding-bottom: 2em">
 
-[![](./gvl-s3-mount.png)](/src/blog/2020-07-gvl5-beta4/gvl-s3-mount.png)
+[![](./gvl-s3-mount.png)](/blog/2020-07-gvl5-beta4/gvl-s3-mount.png)
 
 </div>
 </div>

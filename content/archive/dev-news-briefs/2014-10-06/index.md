@@ -103,7 +103,7 @@ Several enhancements and improvements have been made to facilitate easier viewin
 
 # Fixed
 
-<div class='right'> ![](/src/images/news-graphics/2014_10_06_trello-5A2czklq.png) </div>
+<div class='right'> ![](/images/news-graphics/2014_10_06_trello-5A2czklq.png) </div>
 1. Fastq groomer had a one-off difference with sequence count. [d1IIKmGK](https://trello.com/c/d1IIKmGK)
 1. Now job_files.py allows writing the VERSION_STRING back for a job. [lWAPW3hd](https://trello.com/c/lWAPW3hd)
 1. Corrected issue where the loading label in a history would duplicate if clicked multiple times (see pic). [5A2czklq](https://trello.com/c/5A2czklq) 

@@ -72,7 +72,7 @@ We are pleased to announce two of our keynote speakers:
 
 ## GCCBOSC 2018 Sponsors
 
-We are happy to have several confirmed [GCCBOSC 2018 sponsors](/src/events/gccbosc2018/sponsors/index.html). This month we are highlighting *F1000Research* and the *Technology Association of Oregon*:
+We are happy to have several confirmed [GCCBOSC 2018 sponsors](/events/gccbosc2018/sponsors/index.html). This month we are highlighting *F1000Research* and the *Technology Association of Oregon*:
 
 ### F1000Research
 
@@ -97,7 +97,7 @@ For the first time, the *Galaxy Community Conference* and *Bioinformatics Open S
 
 ### Call for sponsors!
 
-[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 
 # ELIXIR Galaxy Community Kickoff and Meeting, March, Freiburg
@@ -286,7 +286,7 @@ The Galaxy is expanding! Please help it grow.
 * [Développement d'outils bioinformatiques et statistiques pour l'analyse de l'air expiré en médecine par spectrométrie de masse en temps-réel](https://www.sfbi.fr/content/d%C3%A9veloppement-doutils-bioinformatiques-et-statistiques-pour-lanalyse-de-lair-expir%C3%A9-en-m%C3%A9dec), CEA Saclay, France
 * [Ingénieur en développement de composants Galaxy pour la protéomique](https://www.sfbi.fr/content/ing%C3%A9nieur-en-d%C3%A9veloppement-de-composants-galaxy-pour-la-prot%C3%A9omique-0), MaIAGE , INRA, Jouy-en-Josas, France
 * The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/) is [looking for 2 Postdoctoral researchers](https://usegalaxy-eu.github.io/galaxy-freiburg/2018/01/18/openpositions.html)
-* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).

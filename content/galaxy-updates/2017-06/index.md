@@ -332,7 +332,7 @@ The tools can be installed via the Galaxy Tool Shed:
 
 Both tool suites and many more metagenomics tools are integrated into the [metagenomic Galaxy flavor](https://github.com/shiltemann/galaxy-metagenomics).
 
-[Björn Grüning](/src/people/bjoern-gruening)
+[Björn Grüning](/people/bjoern-gruening)
 
 
 ## ToolShed Contributions

@@ -30,4 +30,4 @@ Some highlights from the **[July Galaxy News](/galaxy-updates/2016-07/):**
 
 Hope to [see you in Montpellier](/galaxy-updates/2016-07/#gcc2017-26-30-june-2017-montpellier-france)!
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

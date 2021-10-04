@@ -206,7 +206,7 @@ Exceeding quotas will prevent new jobs from running, but Galaxy users can monito
 1. Percent of quota limit used by a user account is noted in the top right corner of the Galaxy interface within a bar icon.
 2. Exact total user data size and quota limit is noted on the page: **User &rarr; Preferences** (top menu bar).
 3. Size of individual histories is listed on the page: **Options &rarr; Saved Histories** (left history pane's menu).
-4. Size of individual datasets can be found within a dataset's expanded box either written directly under the dataset's name and/or by viewing the dataset's **Details** (*click* on View Details icon ![History Info Icon](/src/images/icons/HistoryInfo.png)).
+4. Size of individual datasets can be found within a dataset's expanded box either written directly under the dataset's name and/or by viewing the dataset's **Details** (*click* on View Details icon ![History Info Icon](/images/icons/HistoryInfo.png)).
 
 Test server user interface:
 

@@ -81,7 +81,7 @@ Contact us at
 
 <div class="center img-sizer" style="height: 9.5em">
 
-[![ELIXIR: uniting Europe’s leading life science organisations](/src/images/logos/elixir-logo-big.png)](https://elixir-europe.org/)
+[![ELIXIR: uniting Europe’s leading life science organisations](/images/logos/elixir-logo-big.png)](https://elixir-europe.org/)
 
 </div>
 

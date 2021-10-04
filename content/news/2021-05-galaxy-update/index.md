@@ -38,7 +38,7 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 <div class="card border-info" style="min-width: 70%; max-width: 100%">
 <div class="card-img-top trim-p">
 
-![James Taylor](/src/images/jxtx/jxtx-stripe.jpg)
+![James Taylor](/images/jxtx/jxtx-stripe.jpg)
 
 </div>
 <div class="card-header">Share your favorite James Taylor story: Deadline extended to May 7</div>
@@ -159,7 +159,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <div class="card border-info" style="min-width: 22rem; max-width: 100%">
 <div class="trim-p">
 
-![Galaxy @ ISMB/ECCB & BOSC ?](/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png)
+![Galaxy @ ISMB/ECCB & BOSC ?](/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png)
 
 </div>
 <div class="card-header trim-p">
@@ -184,7 +184,7 @@ Most of these are accepting talk and poster submissions through the [ISMB/ECCB w
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <div class="trim-p">
 
-![Galaxy Resources for Your Webinars](/src/events/webinars/gr4-webinars-400.png)
+![Galaxy Resources for Your Webinars](/events/webinars/gr4-webinars-400.png)
 
 </div>
 
@@ -214,7 +214,7 @@ Recordings of the two earlier webinars in the series are now available:
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <div class="trim-p">
 
-![Papercuts CoFest](/src/events/cofests/papercuts/papercuts.png)
+![Papercuts CoFest](/events/cofests/papercuts/papercuts.png)
 
 </div>
 <div class="card-header trim-p">
@@ -257,7 +257,7 @@ All 3 workshops will be run by Gareth Price and Igor Makunin.
 <div class="card border-info" style="min-width: 14rem; max-width:  50%;">
 <div class="trim-p">
 
-![](/src/use/repeatexplorer/repeatexplorer-wide.png)
+![](/use/repeatexplorer/repeatexplorer-wide.png)
 
 </div>
 <div class="card-header trim-p">
@@ -370,7 +370,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <!-- Protologger -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
 
-![Protologger](/src/use/protologger/protologger-logo.png)
+![Protologger](/use/protologger/protologger-logo.png)
 
 <div class="card-header trim-p">
 
@@ -385,7 +385,7 @@ Protologger is an all-in-one genome description tool, aimed at simplifying gathe
 <!-- QIIME 2 -->
 <div class="card border-info"  style="min-width: 30%; max-width: 100%;">
 
-![QIIME 2](/src/images/logos/qiime2.svg)
+![QIIME 2](/images/logos/qiime2.svg)
 
 <div class="card-header trim-p">
 
@@ -401,7 +401,7 @@ Starting with the [2021.4 release](https://forum.qiime2.org/t/qiime-2-2021-4-is-
 <!-- CPT -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
 
-![CPT Galaxy](/src/use/center-for-phage-technology-cpt/cpt-logo.png)
+![CPT Galaxy](/use/center-for-phage-technology-cpt/cpt-logo.png)
 
 <div class="card-header trim-p">
 
@@ -610,7 +610,7 @@ Schatz, M. C., Philippakis, A. A., Afgan, E., Banks, E., Carey, V. J., Carroll, 
 
 The 2021.4 release of QIIME2 includes a new interface, [q2galaxy](https://github.com/qiime2/q2galaxy) (see Platform News above), for generating Galaxy tool descriptions automatically from QIIME 2 actions. This means that as plugins are created and evolve, the QIIME 2 team can automatically generate complete Galaxy tools in a few seconds, rather than developing them by hand as is typically done.
 
-![QIIME2](/src/images/logos/qiime2.svg)
+![QIIME2](/images/logos/qiime2.svg)
 
 </div>
 
@@ -624,7 +624,7 @@ The 2021.4 release of QIIME2 includes a new interface, [q2galaxy](https://github
 
 [Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
-![Pulsar](/src/images/galaxy-logos/pulsar_transparent.png)
+![Pulsar](/images/galaxy-logos/pulsar_transparent.png)
 
 </div>
 

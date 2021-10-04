@@ -21,4 +21,4 @@ The [August 2013 Galaxy Update is now available](/galaxy-updates/2013-08/).
 
 If you have anything you would like to see in the next *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

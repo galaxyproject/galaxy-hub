@@ -21,7 +21,7 @@ Please help get the word out about the 2013 Galaxy Community Conference (GCC2013
 
 # Graphics
 
-<div class='right'>![](/src/images/logos/GCC2013Logo200.png)<br />![](/src/images/logos/GCC2013TrainingDayLogo200.png)</div>
+<div class='right'>![](/images/logos/GCC2013Logo200.png)<br />![](/images/logos/GCC2013TrainingDayLogo200.png)</div>
 
 The conference logos are available in several sizes.
 

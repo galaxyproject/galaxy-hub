@@ -19,4 +19,4 @@ The **[November Galactic News](/galaxy-updates/2015-11/)** is hot off the presse
   * [Planemo 0.15.0 - 0.18.1](/galaxy-updates/2015-11/#planemo-0150---0181)
 * and [lots of other news too](/galaxy-updates/2015-11/#other-news).
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

@@ -15,4 +15,4 @@ The [August 2014 Galaxy Update Newsletter](/galaxy-updates/2014-08/) is out.  He
 * [One new public server (IM-PET)](/galaxy-updates/2014-08/#new-public-servers)
 * [Who's hiring?](/galaxy-updates/2014-08/#whos-hiring)  It turns out that lots of places are.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

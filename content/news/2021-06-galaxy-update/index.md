@@ -300,7 +300,7 @@ We still [need volunteers to lead discussions on a topic of interest on June 10 
 
 Gallantries is hosting a [Galaxy training workshop](https://gallantries.github.io/galaxy-workshop/events/belbi-2021.html) at [Belgrade Bioinformatics Conference 2021](https://belbi.bg.ac.rs/).  This course will familiarise participants with the Galaxy Platform.  [Register now](https://belbi.bg.ac.rs/?page_id=43).
 
-![BelBi 2021](/src/events/2021-06-belbi/belbi-2021-logo.png)
+![BelBi 2021](/events/2021-06-belbi/belbi-2021-logo.png)
 
 </div>
 
@@ -342,7 +342,7 @@ As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.b
 <div class="card border-info" style="min-width: 25%; max-width: 24rem;">
 <div class="card-img-top trim-p">
 
-![Papercuts CoFest seized by GCC2021 CoFest](/src/events/2021-06-papercuts/papercuts-cofest-prep.png)
+![Papercuts CoFest seized by GCC2021 CoFest](/events/2021-06-papercuts/papercuts-cofest-prep.png)
 
 </div>
 <div class="card-header trim-p">
@@ -376,7 +376,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <div class="card-img-top trim-p">
 
-![Viral Variant Visualizer (VVV)](/src/use/vvv/vvv.png)
+![Viral Variant Visualizer (VVV)](/use/vvv/vvv.png)
 
 </div>
 <div class="card-header trim-p">
@@ -396,7 +396,7 @@ VVV is supported by Agence National de Sécurité Sanitaire, de l’environnemen
 <div class="card border-info" style="min-width: 16rem; max-width: 100%;">
 <div class="card-img-top trim-p">
 
-![SHAMAN](/src/use/shaman/shaman-logo.png)
+![SHAMAN](/use/shaman/shaman-logo.png)
 
 </div>
 <div class="card-header trim-p">
@@ -454,7 +454,7 @@ The [imaging flavor of Galaxy](https://imaging.usegalaxy.eu/) offers a set of tr
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="card-img-top trim-p">
 
-![Galaxy Resources Webinars](/src/events/webinars/gr4-webinars.png)
+![Galaxy Resources Webinars](/events/webinars/gr4-webinars.png)
 
 </div>
 <div class="card-header trim-p">
@@ -657,7 +657,7 @@ The Galaxy Helm chart automates the mechanics of deploying Galaxy into a single 
 
 See this [blog post](/blog/2021-05-galaxy-helm-chart-v4/) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
 
-![Galaxy Helm](/src/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
+![Galaxy Helm](/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
 
 </div>
 

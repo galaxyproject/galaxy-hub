@@ -12,4 +12,4 @@ This workshop will cover what you need to know to set up your own production, hi
 
 [Registration](/events/2019-admin-training/#registration) is now open and starts at $40 / day for participants from non-profits and academia.  Early registration ends October 31.  However, the 2016 and 2018 admin training were both full, so you are strongly encouraged to *register now*.
 
-*The workshop does have [prerequisites](/src/events/2019-admin-training/#prerequisites). Please read them before you register.*
+*The workshop does have [prerequisites](/events/2019-admin-training/#prerequisites). Please read them before you register.*

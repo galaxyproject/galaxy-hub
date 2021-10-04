@@ -28,4 +28,4 @@ Some highlights from the **[June Galaxy News](/galaxy-updates/2016-06/)**
 
 Hope to [see you in Bloomington](https://web.archive.org/web/http://gcc2016.iu.edu/),
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

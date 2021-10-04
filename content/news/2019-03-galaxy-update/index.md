@@ -291,7 +291,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
   * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
-* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States.
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).

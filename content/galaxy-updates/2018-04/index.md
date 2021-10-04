@@ -76,7 +76,7 @@ Interested?  Please [register your interest in a nursing room, and/or sign up fo
 
 ## GCCBOSC 2018 Sponsors
 
-We are happy to have several confirmed [GCCBOSC 2018 sponsors](/src/events/gccbosc2018/sponsors/index.html). This month we are highlighting **[Google Cloud](https://cloud.google.com/solutions/healthcare-life-sciences/)**, a GCCBOSC 2018 Platinum Sponsor:
+We are happy to have several confirmed [GCCBOSC 2018 sponsors](/events/gccbosc2018/sponsors/index.html). This month we are highlighting **[Google Cloud](https://cloud.google.com/solutions/healthcare-life-sciences/)**, a GCCBOSC 2018 Platinum Sponsor:
 
 ### Google Cloud
 
@@ -90,7 +90,7 @@ We are happy to have several confirmed [GCCBOSC 2018 sponsors](/src/events/gccbo
 
 ### Call for sponsors!
 
-[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 # 2018 Big Genomics Data Skills Training course
 
@@ -315,7 +315,7 @@ The Galaxy is expanding! Please help it grow.
 * [Post-Doc / IR analyse de données miRNA](https://www.sfbi.fr/content/post-doc-ir-analyse-de-donn%C3%A9es-mirna), Unité de Nutrition Humaine, Clermont-Fd, France
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * [Development of innovative algorithms to process real-time mass spectrometry data for the clinical analysis of exhaled breath](https://www.sfbi.fr/content/d%C3%A9veloppement-doutils-bioinformatiques-et-statistiques-pour-lanalyse-de-lair-expir%C3%A9-en-m%C3%A9dec), CEA, Saclay, France
-* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).

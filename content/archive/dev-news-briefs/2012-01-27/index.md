@@ -56,10 +56,10 @@ date: 2012-01-27
 * Do not find valid chroms because this is computationally expensive and not currently used.
 * Provide icon to randomly set color in drawable configuration.
 
-![](/src/images/news-graphics/2012_01_27_random-color-chooser.png)
+![](/images/news-graphics/2012_01_27_random-color-chooser.png)
 * Multi-track dynamic filtering.
 
-![](/src/images/news-graphics/2012_01_27_multi-track-filtering.png)
+![](/images/news-graphics/2012_01_27_multi-track-filtering.png)
 
 ## Workflows
 

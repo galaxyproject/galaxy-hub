@@ -16,4 +16,4 @@ Finally, we are very happy to have **[Curoverse](https://curoverse.com/) on boar
 
 We hope to see you in June, and can't wait to see what we can accomplish!
 
--[Dannon Baker](/people/dannon-baker/) on behalf of the [GCC2014 Hackathon Organizing Committee](/src/events/gcc2014/organizers/#hackathon-committee)
+-[Dannon Baker](/people/dannon-baker/) on behalf of the [GCC2014 Hackathon Organizing Committee](/events/gcc2014/organizers/#hackathon-committee)

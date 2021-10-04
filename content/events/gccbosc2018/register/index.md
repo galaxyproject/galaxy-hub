@@ -52,7 +52,7 @@ Conference housing is on campus in Reed College Dorms.  See the [venue informati
 
 GCCBOSC 2018 enthusiastically welcomes your kids (and offers childcare), *but the Reed College dorms do not.*  The dorms have a strict no minors policy, so if you are bringing your kids you'll need to stay off campus.
 
-See [Children at GCCBOSC 2018](/src/events/gccbosc2018/faq/#children-at-gccbosc2018) for lodging options, childcare and more.
+See [Children at GCCBOSC 2018](/events/gccbosc2018/faq/#children-at-gccbosc2018) for lodging options, childcare and more.
 
 # Meals
 
@@ -68,7 +68,7 @@ We don't yet know if lunch will be provided during [CollaborationFest](/events/g
 
 ## Dinner
 
-Except for the conference dinner on Thursday (included with meeting registration), dinner is not included in your event registrations.  There are a number of restaurants and pubs in the [nearby Woodstock neighborhood](https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064), including [these recommendations](/src/events/gccbosc2018/venue/#recommended-pubs-and-restaurants-near-reed).  The [Reed College Commons Cafe](http://reed.cafebonappetit.com/cafe/commons-cafe/) will also be open on select nights for dinner.
+Except for the conference dinner on Thursday (included with meeting registration), dinner is not included in your event registrations.  There are a number of restaurants and pubs in the [nearby Woodstock neighborhood](https://www.yelp.com/search?find_loc=Woodstock,+Portland,+OR&start=0&l=g:-122.61042594909668,45.48405300583157,-122.62330055236816,45.47502579850064), including [these recommendations](/events/gccbosc2018/venue/#recommended-pubs-and-restaurants-near-reed).  The [Reed College Commons Cafe](http://reed.cafebonappetit.com/cafe/commons-cafe/) will also be open on select nights for dinner.
 
 # Travel Fellowships
 

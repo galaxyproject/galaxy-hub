@@ -25,7 +25,7 @@ The **[August Galactic News](/galaxy-updates/2015-08/)** is out.  It's been a bu
   * [76 Tool Shed updates and additions from 20+ contributors](/toolshed/contributions/2015-07/)
   * And, of course [other news](/galaxy-updates/2015-08/#other-news) as well.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)
 
 <br />
 <div class='center'>

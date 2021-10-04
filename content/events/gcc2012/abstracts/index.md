@@ -29,7 +29,7 @@ An overview of where the Galaxy Project is and where it is going.
 
 ## Integration of S-MART, a toolbox to aid RNA-seq data analysis in Galaxy
 
-<div class='right'>![](/src/events/gcc2012/abstracts/Luo.jpg)</div>
+<div class='right'>![](/events/gcc2012/abstracts/Luo.jpg)</div>
 
 **Yufei Luo<sup>1</sup>**, Matthias Zytnicki<sup>1</sup>, Olivier Inizan<sup>1</sup>, Delphine Steinbach<sup>1</sup>, Hadi Quesneville<sup>1</sup>
 
@@ -186,7 +186,7 @@ Through the context of CloudMan, this talk will focus on the components required
 
 ## Keeping Track of Life Science Data
 
-<div class='right'>![](/src/events/gcc2012/abstracts/Gruening.png)</div>
+<div class='right'>![](/events/gcc2012/abstracts/Gruening.png)</div>
 
 **Björn Grüning<sup>1</sup>**
 
@@ -342,7 +342,7 @@ This work highlights the value of working within the Galaxy environment and the 
 
 ## Proteomics tools for Galaxy
 
-<div class='right'>![](/src/events/gcc2012/abstracts/Cooke.jpg)</div>
+<div class='right'>![](/events/gcc2012/abstracts/Cooke.jpg)</div>
 
 **Ira Cooke<sup>1</sup>**
 
@@ -383,7 +383,7 @@ The National Center for Genome Analysis Support is an NSF funded resource design
 
 ## Integration of SeqWare within Galaxy
 
-<div class='right'>![](/src/events/gcc2012/abstracts/Lu.jpg)</div>
+<div class='right'>![](/events/gcc2012/abstracts/Lu.jpg)</div>
 
 **Zhibin Lu<sup>1</sup>**, Morgan Taschuk<sup>1</sup>, Brian O’Connor<sup>1</sup> and B.F. Francis Ouellette<sup>1,2</sup>
 

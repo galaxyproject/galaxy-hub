@@ -89,7 +89,7 @@ My pre-bioinformatics career included
 ### 2010s
 
 * **[2019 Galaxy Community Conference](/events/gcc2019/)**, July 1-8, 2020, Freiburg, Germany.
-* **[GCCBOSC 2018](/src/events/gccbosc2018)**, Portland, Oregon, United States
+* **[GCCBOSC 2018](/events/gccbosc2018)**, Portland, Oregon, United States
 * **[2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/)**, June 26-30, 2017, Montpellier, France
 * **[Galaxy AustralAsia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe2017)**, February 3-9, 2017, Melbourne, Australia
 * **[Galaxy Admin Training 2016](/events/admin-training2016/)**, November 7-11, 2016, Salt Lake City, Utah, United States

@@ -253,9 +253,9 @@ Help get the word out about GAW 2014.
 </table>
 
 
-<div class='right'>![](/src/images/logos/GAW2014-200.png)</div>
+<div class='right'>![](/images/logos/GAW2014-200.png)</div>
 
-The conference logo is available in [200 pixel](/src/images/logos/GAW2014-200.png), [400 pixel](/src/images/logos/GAW2014-400.png), and [600 pixel](/src/images/logos/GAW2014-600.png) resolutions for inclusion on web sites, presentations, and posters.
+The conference logo is available in [200 pixel](/images/logos/GAW2014-200.png), [400 pixel](/images/logos/GAW2014-400.png), and [600 pixel](/images/logos/GAW2014-600.png) resolutions for inclusion on web sites, presentations, and posters.
 
 
 ## Twitter Hashtag

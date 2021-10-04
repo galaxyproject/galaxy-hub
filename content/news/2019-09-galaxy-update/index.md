@@ -26,7 +26,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <img class="card-img-top" src="/src/news/2019-09-galaxy-update/galaxy-australia-incob.png" alt="Galaxy @ INCOB" />
 <div class="card-header">Galaxy @ INCOB</div>
 
-Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org.au/galaxyaustralia/) will [have a strong presence at INCOB 2019](/src/events/2019-09-incob/) in Jakarta.  There will be an [Introduction to Galaxy workshop](http://incob2019.org/workshop2/) and a conference talk about the Galaxy Australia platform.
+Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org.au/galaxyaustralia/) will [have a strong presence at INCOB 2019](/events/2019-09-incob/) in Jakarta.  There will be an [Introduction to Galaxy workshop](http://incob2019.org/workshop2/) and a conference talk about the Galaxy Australia platform.
 
 In addition, **[we will also be taking first steps towards a regional Galaxy community and platform](/news/2019-08-incob-building/) for the INCOB community**. Interested? We hope to see you in Jakarta.
 </div>

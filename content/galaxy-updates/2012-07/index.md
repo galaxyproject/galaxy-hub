@@ -54,7 +54,7 @@ These papers may be of interest to the Galaxy community:
 
 * ["Using Cloud Computing Infrastructure with CloudBioLinux, CloudMan, and Galaxy"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1109.html), by [Enis Afgan](/people/enis-afgan/), Brad Chapman, Margita Jadan, Vedran Franke, [James Taylor](/people/james-taylor/), *Current Protocols in Bioinformatics*. 2012 June: Unit 11.9.
 
-* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/people/jennifer-jackson/), [Dave Clements](/people/dave-clements/), [Daniel Blankenberg](/people/dan/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), [Galaxy Team](/src/galaxy-team/), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
+* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/people/jennifer-jackson/), [Dave Clements](/people/dave-clements/), [Daniel Blankenberg](/people/dan/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), [Galaxy Team](/galaxy-team/), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
 
 These papers were among [31 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/) (for a total of 348 papers in the last ~16 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
 

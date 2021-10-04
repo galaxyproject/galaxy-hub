@@ -30,4 +30,4 @@ The **[February 2016 Galactic News](/galaxy-updates/2016-02/)** is hot off the p
 
 Happy February!
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

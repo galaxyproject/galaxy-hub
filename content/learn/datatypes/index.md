@@ -223,7 +223,7 @@ tggcgcggt</pre>
 #### Best practices:
 
 *   confirm the format of a `FASTA` dataset at the start of an analysis project
-*   if a `FASTA` dataset is used as a **Custom Reference Genome**, double check the formatting and fix it as needed. The tool **NormalizeFasta** can be used in most cases -- see the [Custom Reference Genome](/src/learn/custom-genomes/) FAQ for the how-to
+*   if a `FASTA` dataset is used as a **Custom Reference Genome**, double check the formatting and fix it as needed. The tool **NormalizeFasta** can be used in most cases -- see the [Custom Reference Genome](/learn/custom-genomes/) FAQ for the how-to
 *   use the same *Target Fasta/Custom Genome* dataset for all steps to avoid technical processing errors
 
 #### Troubleshooting:

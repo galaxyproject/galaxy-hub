@@ -25,7 +25,7 @@ The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject
 
 Sponsorships are available at four different levels.
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/PlatinumBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/PlatinumBanner.png)</div>
 
 <div class='center'><a href='http://www.lifetechnologies.com/'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="340" /></a></div>
 
@@ -45,7 +45,7 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/GoldBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/GoldBanner.png)</div>
 
 <table>
   <tr>
@@ -71,7 +71,7 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/SilverBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/SilverBanner.png)</div>
 
 <div class='center'><a href='http://www.gigasciencejournal.com/'><img src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="200" /></a></div>
 
@@ -89,7 +89,7 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/BronzeBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/BronzeBanner.png)</div>
 
 <table>
   <tr>
@@ -110,7 +110,7 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/OtherBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/OtherBanner.png)</div>
 
 <div class='center'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="300" /></a><br />
 [Training Day Sponsor](/events/gcc2013/training-day/)
@@ -118,7 +118,7 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/HostsBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/HostsBanner.png)</div>
 
 <table>
   <tr>

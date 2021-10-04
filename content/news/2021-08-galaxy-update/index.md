@@ -144,7 +144,7 @@ The Galaxy India community is about enabling data intensive research and instruc
 * Training and workshops, both standalone and at larger meetings
 * Webinars and community calls
 * In person gatherings, once these become prudent
-* [Communications channels](/src/community/#regional-communities), including chat and a mailing list
+* [Communications channels](/community/#regional-communities), including chat and a mailing list
 * An [India-focused server](/use/galaxy-india/) hosted by the European Galaxy Team
 
 If you are working in data intensive science in India then please consider getting involved with Galaxy India:
@@ -296,7 +296,7 @@ Welcome to the India Galaxy workbench; a comprehensive set of tools and workflow
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="trim-p">
 
-![CropGalaxy.*](/src/use/cropgalaxy/eib-logo.png)
+![CropGalaxy.*](/use/cropgalaxy/eib-logo.png)
 
 </div>
 <div class="card-header trim-p">

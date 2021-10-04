@@ -70,7 +70,7 @@ Birds of a Feather (BoFs) are informal, self-organized meetups focused on specif
 <img class="card-img-top" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" />
 <div class="card-header">[Silver Sponsor: GalaxyWorks](https://galaxyworks.io/)</div>
 
-[GalaxyWorks](https://galaxyworks.io/) is a new company providing commercial support, hosting and management, and tool wrapping and custom development for Galaxy. See their [announcement to the Galaxy Community](/src/news/2020-06-galaxyworks-announcement/) for more. If you are in the business of life science, GalaxyWorks is here to help.
+[GalaxyWorks](https://galaxyworks.io/) is a new company providing commercial support, hosting and management, and tool wrapping and custom development for Galaxy. See their [announcement to the Galaxy Community](/news/2020-06-galaxyworks-announcement/) for more. If you are in the business of life science, GalaxyWorks is here to help.
 
 Please welcome GalaxyWorks as a new Silver Sponsor of BCC2020.
 </div>

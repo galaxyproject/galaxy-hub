@@ -49,7 +49,7 @@ Please find additional information on GCC2019 [here](/events/gcc2019/).
 
 ## Poster & Demo Abstract Submission is Still Open
 
-The talk submission abstract deadline was last week, but poster and demo submissions remain open!  Got something to show? [Submit an abstract](/src/events/gcc2019/abstracts).
+The talk submission abstract deadline was last week, but poster and demo submissions remain open!  Got something to show? [Submit an abstract](/events/gcc2019/abstracts).
 
 ## Fellowships: 2nd Round Due this Friday
 

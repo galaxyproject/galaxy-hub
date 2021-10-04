@@ -17,7 +17,7 @@ experience.
 
 # Community Chatroom
 
-<div class='right'>![Galaxy Chat](/src/images/icons/ChatBalloons.png)</div>
+<div class='right'>![Galaxy Chat](/images/icons/ChatBalloons.png)</div>
 
 Galaxy also has an open community chatroom.  The channel exists on both IRC and
 Gitter, and the rooms are bridged together, so feel free to use whichever

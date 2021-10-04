@@ -52,10 +52,10 @@ title: Galaxy Support
 
 ### Account 
 
-* [My history is missing! Good news, it probably isn't.](/src/support/missing-history/#my-history-is-missing-)
+* [My history is missing! Good news, it probably isn't.](/support/missing-history/#my-history-is-missing-)
 * [A history was shared with me, where can I find it?](/support/missing-history/)
 * [The account usage quota seems incorrect](/support/account-quotas/)
-* [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](/src/learn/managing-datasets/#delete-vs-delete-permanently)
+* [Checking for active vs deleted vs permanently deleted (purged) datasets and histories](/learn/managing-datasets/#delete-vs-delete-permanently)
 * [Reset password or Change email, username, password](/support/account-updates/)
 
 ### Unexpected results

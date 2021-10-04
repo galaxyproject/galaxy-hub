@@ -19,4 +19,4 @@ The **[September Galactic News](/galaxy-updates/2015-09/)** is hot off the press
   * [Workflow4Metabolomics](/galaxy-updates/2015-09/#workflow4metabolomics) and [EpiToolKit](/galaxy-updates/2015-09/#epitoolkit)
 * [Three security advisories](/galaxy-updates/2015-09/#security-advisories), [Recent Releases](/galaxy-updates/2015-09/#other-releases), and [ToolShed Contributions](/galaxy-updates/2015-09/#toolshed-contributions)
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

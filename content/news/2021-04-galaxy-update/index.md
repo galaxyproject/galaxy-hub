@@ -35,7 +35,7 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 <div class="card border-info" style="min-width: 70%; max-width: 100%">
 <div class="card-img-top trim-p">
 
-![James Taylor](/src/images/jxtx/jxtx-stripe.jpg)
+![James Taylor](/images/jxtx/jxtx-stripe.jpg)
 
 </div>
 <div class="card-header">Share your favorite James Taylor story</div>
@@ -297,7 +297,7 @@ Step through genome assembly using chloroplast sequencing data and the Galaxy Au
 <img class="card-img-top" src="plant_transcriptomics_workshop.png" />
 <div class="card-header">
 
-[Plant Transcriptome Analysis using Galaxy](/src/events/2021-04-plant-transcriptome)
+[Plant Transcriptome Analysis using Galaxy](/events/2021-04-plant-transcriptome)
 
 </div>
 

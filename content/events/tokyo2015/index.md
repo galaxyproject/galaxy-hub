@@ -3,7 +3,7 @@
 </div>
 <br /><br />
 <div class='center'>
-![](/src/events/tokyo2015/WST2015.png)
+![](/events/tokyo2015/WST2015.png)
 <br /><br />
 <span style="font-size: larger;"> April 28, 2015 @ [RCAST, The University of Tokyo](http://www.rcast.u-tokyo.ac.jp/index_en.html) </span>
 </div>

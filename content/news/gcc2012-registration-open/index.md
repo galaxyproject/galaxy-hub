@@ -24,4 +24,4 @@ Finally, [abstract submission](/events/gcc2012/abstracts/) is also open, from no
 
 Looking forward to seeing you in Chicago!
 
-[Dave Clements](/people/dave-clements/) on behalf of the [GCC2012 Organizing Committee](/src/events/gcc2012/Organizing Committee/)
+[Dave Clements](/people/dave-clements/) on behalf of the [GCC2012 Organizing Committee](/events/gcc2012/Organizing Committee/)

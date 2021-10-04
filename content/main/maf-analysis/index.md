@@ -29,13 +29,13 @@ Available Output Types:
 * **Multiple Blocks** - create one FASTA alignment block per provided MAF Block; blocks missing a desired species can be kept or discarded
 * **One Sequence per Species** - create one sequence per species, where all MAF blocks are concatenated in the order and strand in which they appear in the selected source MAF; desired species missing from a particular block will have their sequence padded with gaps
 
-![](/src/main/maf-analysis/maf_to_fasta.png)
+![](/main/maf-analysis/maf_to_fasta.png)
 ----
 ## Alignment Extractors
 
 Extractors take genomic intervals as the input and return pairwise or multiple alignments corresponding to these intervals as illustrated below. Users can use locally stored ([cached](/main/data-libraries/Available Data/)) alignments, or alignments from their history as the MAF source.  Here, three MAF blocks overlapping a single interval are extracted.  MAF blocks are output relative to the strand of the provided interval, where the default is '+'.  Blocks 1 and 3 are trimmed because they extend beyond the boundaries of the interval:
 
-![](/src/main/maf-analysis/interval2maf.png)
+![](/main/maf-analysis/interval2maf.png)
 
 *Currently there are two types of extractors that may be merged into a single tool in the future:*
 * **Extract Pairwise MAF blocks given a set of genomic intervals** - takes a series of genomic intervals and extracts __pairwise__ alignments from a large selection of locally cached MAF files.
@@ -46,7 +46,7 @@ Extractors take genomic intervals as the input and return pairwise or multiple a
 
 Multiple genome alignments consist of a very large number of relatively short blocks. This is why extractors (described in the previous category) typically return multiple MAF blocks per interval. In many cases, however, it is desirable to join (stitch) these multiple alignments together into a single continuous one.  This is the purpose of this category of tools. The figure below shows a genomic interval overlapping four blocks.  Stitching these together returns a single alignment (in FASTA format) where the void between blocks (2,3) and blocks (3,4) is filled with gaps:
 
-![](/src/main/maf-analysis/maf_stitch.png)
+![](/main/maf-analysis/maf_stitch.png)
 
 *Currently there are two tools that perform this operation each able to use cached or user-supplied alignments:*
 
@@ -106,21 +106,21 @@ The FASTA output is relative to the genome of the input interval; positions that
 
 * **Filter MAF blocks by Species** - restricts alignments to a subset of species
 
-![](/src/main/maf-analysis/filter_by_species.png)
+![](/main/maf-analysis/filter_by_species.png)
 
   Users can choose to keep or discard (1) blocks which are missing a desired species and (2) blocks which contain only one species.
 
 * **Filter MAF blocks by Size** - restricts alignments to a specified size range
 
-![](/src/main/maf-analysis/maf_filter_by_size.png)
+![](/main/maf-analysis/maf_filter_by_size.png)
 
 * **Join MAF blocks by Species** - Merges MAF blocks which are adjoining in each specified species from a MAF file. Columns which contain only gaps are removed. Species which are not desired are removed from the output.
 
-![](/src/main/maf-analysis/join_by_species.png)
+![](/main/maf-analysis/join_by_species.png)
 
 * **Extract MAF by block number** - extracts specific MAF blocks by their number in the dataset; block indexes start at 0
 
-![](/src/main/maf-analysis/maf_by_block_number.png)
+![](/main/maf-analysis/maf_by_block_number.png)
 
 * **Reverse complement a MAF file** - computes the reverse complement for all blocks in an alignment
 

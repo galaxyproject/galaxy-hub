@@ -215,7 +215,7 @@ Our integrated_tool_panel.xml file has been automatically altered to look like t
 
 And starting our Galaxy server produces the same arrangement in our tool panel that we had before our defined Emboss tools were eliminated from the distribution and installed from the Tool Shed.
 
-![](/src/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_installed_emboss.png)
+![](/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_installed_emboss.png)
 
 # Delaying execution of a tool migration stage
 
@@ -223,4 +223,4 @@ A Galaxy tool migration stage is defined as the stage level (e.g., 0002, 0003, 0
 
 Executing the process for a specific tool migration stage can be done at any time, not just at the time you are starting your Galaxy server as discussed in the previous sections of this document.  The Galaxy Admin menu includes a link labeled **Review tool migration stages**, which, when clicked, displays a page like the following.  The list of tool migrations consists of those that are currently available for the Galaxy instance, any of which can be run at any time (or multiple times if desired).
 
-![](/src/toolshed/migrating-tools-from-galaxy-distribution/tool_migration_stages.png)
+![](/toolshed/migrating-tools-from-galaxy-distribution/tool_migration_stages.png)

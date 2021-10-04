@@ -77,9 +77,9 @@ The [NIH Data Commons](https://commonfund.nih.gov/bd2k/commons) will be at Colla
 
 # Registration
 
-CollaborationFest is free, for all 4 days.  You still need to [register](/src/events/gccbosc2018/register) (and select either 2, 3, or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
+CollaborationFest is free, for all 4 days.  You still need to [register](/events/gccbosc2018/register) (and select either 2, 3, or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
 
-You register for CollaborationFest at the same time you [register](/src/events/gccbosc2018/register) for other GCCBOSC events.
+You register for CollaborationFest at the same time you [register](/events/gccbosc2018/register) for other GCCBOSC events.
 
 ## Lodging
 
@@ -119,4 +119,4 @@ Contact us at
 
 ## CollaborationFest Sponsorship Opportunities
 
-Interested in helping make this event happen?  See the [sponsorship page](/src/events/gccbosc2018/sponsors#collaborationfest-sponsorships) for options.
+Interested in helping make this event happen?  See the [sponsorship page](/events/gccbosc2018/sponsors#collaborationfest-sponsorships) for options.

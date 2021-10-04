@@ -41,7 +41,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 
 <div class="float-left img-sizer" style="max-width: 10rem">
 
-![James Taylor Foundation: Big Shoes to Fill](/src/jxtx/jtech-shoes-400.png)
+![James Taylor Foundation: Big Shoes to Fill](/jxtx/jtech-shoes-400.png)
 
 <div class="small text-left">Big shoes to fill.
 

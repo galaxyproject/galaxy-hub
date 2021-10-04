@@ -9,12 +9,12 @@ This page contains statistics about the [Galaxy Project](/galaxy-project/).  Thi
 
 The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/), replaced the Galaxy BioStar site on November 29, 2018.  It's a brand new site.  None of the posts or user data from our old BioStar site were copied over.
 
-[![](/src/galaxy-project/statistics/discourse-page-views.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=2126198183&format=interactive)
+[![](/galaxy-project/statistics/discourse-page-views.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=2126198183&format=interactive)
 
 **Average monthly page views** has doubled in the most recent 12 months. During this same time period, the number of new questions and new answers averaged about 75 and 150, respectively, throughout the year.  The fact that page views doubled, but questions and answers held steady over 2020 may indicate that the site hit a critical mass of responses: When people visit, they are now much more likely to find that someone has already asked and answered their question.
 
 
-[![](/src/galaxy-project/statistics/discourse-accounts-total.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=623403796&format=interactive)
+[![](/galaxy-project/statistics/discourse-accounts-total.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=623403796&format=interactive)
 
 <br />
 
@@ -22,11 +22,11 @@ The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/)
 
 <br />
 
-[![](/src/galaxy-project/statistics/support-channel-members.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=310048651&format=interactive)
+[![](/galaxy-project/statistics/support-channel-members.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=310048651&format=interactive)
 
 **Membership** in the two main support channels over time: [help.galaxyproject.org](https://help.galaxyproject.org/) and the [project's main Gitter/Matrix room](https://gitter.im/galaxyproject/Lobby).
 
-[![](/src/galaxy-project/statistics/other-chat-channels.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=953953023&format=interactive)
+[![](/galaxy-project/statistics/other-chat-channels.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=953953023&format=interactive)
 
 The Galaxy community uses Gitter.im / Matrix for chat, and there are many different channels, depending upon topic.  Here are the channels with 35 or more members.
 
@@ -47,7 +47,7 @@ The project uses the Galaxy-Announce mailing list and Twitter to keep the commun
 
 Here's membership in both channels since they were launched.
 
-[![](/src/galaxy-project/statistics/communication-channels-membership.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRpKZ9GPUuC06iQxr7aQ5luFseKWomr5OGnfVzOI3WUrBoZXmpQm7UXwIhK9kzZSi0RO0dMgv3M8zc4/pubchart?oid=942191217&format=interactive)
+[![](/galaxy-project/statistics/communication-channels-membership.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRpKZ9GPUuC06iQxr7aQ5luFseKWomr5OGnfVzOI3WUrBoZXmpQm7UXwIhK9kzZSi0RO0dMgv3M8zc4/pubchart?oid=942191217&format=interactive)
 
 # Communities
 
@@ -541,11 +541,11 @@ Here are the tags on papers in the Galaxy Publications Library as of August 2021
 
 <br />
 
-[![](/src/galaxy-project/statistics/PublicationPerYearGraphCumulative.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=2103350890&format=interactive)
+[![](/galaxy-project/statistics/PublicationPerYearGraphCumulative.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=2103350890&format=interactive)
 
-[![](/src/galaxy-project/statistics/PublicationPerYearGraph.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=1984173771&format=interactive)
+[![](/galaxy-project/statistics/PublicationPerYearGraph.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=1984173771&format=interactive)
 
-[![](/src/galaxy-project/statistics/PublicationTagsPerYearGraph.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=1403468135&format=interactive)
+[![](/galaxy-project/statistics/PublicationTagsPerYearGraph.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=1403468135&format=interactive)
 
 The **Tags** graph highlights several trends.
 
@@ -556,7 +556,7 @@ The **Tags** graph highlights several trends.
 
 Galaxy is available in a number of ways.  While most [installations of Galaxy](/admin/get-galaxy/) are private, many groups support [Galaxy instances in many different forms](/use/), including publicly accessible servers, Galaxy instance that can be easily launched on research and commercial clouds, containers, and virtual machines.  Prior to 2019 we counted only publicly accessible servers.  Moving forward we are tracking many ways to use galaxy.
 
-[![](/src/galaxy-project/statistics/galaxy-platforms.svg)](https://docs.google.com/spreadsheets/d/1czXV7tWPPjQQiB-uk0NYsqmC967deQ9OLue0ByXntbs/pubchart?oid=289204282&format=interactive)
+[![](/galaxy-project/statistics/galaxy-platforms.svg)](https://docs.google.com/spreadsheets/d/1czXV7tWPPjQQiB-uk0NYsqmC967deQ9OLue0ByXntbs/pubchart?oid=289204282&format=interactive)
 
 
 ## Platforms in Publications
@@ -728,7 +728,7 @@ This is one of the largest open-source teams in the world, and is in the top 2% 
 
 The Galaxy Project [Tool Shed](/toolshed/) contains contributed software and workflows that can be installed at any Galaxy site.
 
-[![](/src/galaxy-project/statistics/toolshed.svg)](https://docs.google.com/spreadsheets/d/1mS2jw3SbOYYf4ENZbXheKJkoZhaF3EawCZRQ2LmRX70/pubchart?oid=1627508974&format=interactive)
+[![](/galaxy-project/statistics/toolshed.svg)](https://docs.google.com/spreadsheets/d/1mS2jw3SbOYYf4ENZbXheKJkoZhaF3EawCZRQ2LmRX70/pubchart?oid=1627508974&format=interactive)
 
 # Events
 

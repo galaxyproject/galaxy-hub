@@ -9,7 +9,7 @@ The [February 2018 Galaxy News](/galaxy-updates/2018-02/) is out!
 
 * [Events](/galaxy-updates/2018-02/#events)
   * [**GCCBOSC 2018 training topic voting ends tomorrow**](/galaxy-updates/2018-02/#gccbosc-2018-training-topic-voting-closes-jan-31)
-    * [GCCBOSC Sponsorships](/src/galaxy-updates/2018-02/#index.mdgccbosc-2018-sponsors): highlighting *[PeerJ](/galaxy-updates/2018-02/#peerj)* and [call for sponsors](/galaxy-updates/2018-02/#call-for-sponsors)
+    * [GCCBOSC Sponsorships](/galaxy-updates/2018-02/#index.mdgccbosc-2018-sponsors): highlighting *[PeerJ](/galaxy-updates/2018-02/#peerj)* and [call for sponsors](/galaxy-updates/2018-02/#call-for-sponsors)
   * *Continental* community meetings in  [**Europe** (March, Freiburg)](/galaxy-updates/2018-02/#elixir-galaxy-community-kickoff-and-meeting-march-freiburg) and [**Africa** (April, Cape Town)](/galaxy-updates/2018-02/#galaxy-africa-april-cape-town)
   * The [Galaxy Administrators Course](/galaxy-updates/2018-02/#galaxy-administrators-course-report) in Oslo is done, and training material and a preview of 18.01 release from the course are now online. 
 * [Blog post: Galaxy R Markdown Tools](/galaxy-updates/2018-02/#new-galactic-blog-entry-galaxy-r-markdown-tools)
