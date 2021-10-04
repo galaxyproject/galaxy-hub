@@ -2,7 +2,7 @@
 title: "January 2013 Galaxy Update"
 date: "2013-01-02"
 ---
-<div class='right'><a href='/galaxy-updates/2013-01/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="January 2013 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/2013-01/'><img src="/images/logos/GalaxyUpdate200.png" alt="January 2013 Galaxy Update" width=150 /></a></div>
 
 The [January 2013 Galaxy Update is now available](/galaxy-updates/2013-01/). 
 
@@ -19,4 +19,4 @@ The [January 2013 Galaxy Update is now available](/galaxy-updates/2013-01/).
 
 If you have anything you would like to see in the Febrarury *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

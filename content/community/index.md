@@ -29,7 +29,7 @@ The [Intergalactic Utilities Commission](/iuc/) (IUC) was established in 2012 to
 
 <div class="img-fluid mx-auto trim-p">
 
-![Responsive image](/src/iuc/iuc-commits.png)
+![Responsive image](/iuc/iuc-commits.png)
 
 <small class="trim-p">
 
@@ -49,21 +49,21 @@ The [Intergalactic Utilities Commission](/iuc/) (IUC) was established in 2012 to
 
 # Galaxy Training Network
 
-<img class="float-right" style="max-width: 15rem;" src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" />
+<img class="float-right" style="max-width: 15rem;" src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" />
 
 The [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) is a [network of people](https://training.galaxyproject.org/training-material/hall-of-fame) that create and maintain a [large library of Galaxy and Galaxy-based training materials](https://training.galaxyproject.org/). This material can be used in training and education settings, or used in stand-alone, self-paced training.  It's a good way to learn bioinformatics and Galaxy.
 
 
 # Conda and Bioconda
 
-<img class="float-right" style="max-width: 15rem;" src="/src/images/logos/bioconda_64.png" alt="Bioconda" />
+<img class="float-right" style="max-width: 15rem;" src="/images/logos/bioconda_64.png" alt="Bioconda" />
 
 [Conda](https://conda.io/docs/index.html) is an open source package management system that is heavily used by Galaxy to manage tool dependencies and installations. [Bioconda](https://bioconda.github.io/) is a specific channel for Conda that distributes popular bioinformatics software, many of which have been wrapped by the Galaxy community.
 
 
 # Galaxy Developer Roundtable
 
-<img class="float-right" style="max-width: 8rem;" src="/src/images/galaxy-logos/galaxy-developer-roundtable-300.png" alt="Galaxy Developer Round Table" />
+<img class="float-right" style="max-width: 8rem;" src="/images/galaxy-logos/galaxy-developer-roundtable-300.png" alt="Galaxy Developer Round Table" />
 
 [This group](/community/devroundtable/) meets every other Thursday.  It's an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively.  These are lightweight and informal gatherings, and are cancelled if no one volunteers to present.
 

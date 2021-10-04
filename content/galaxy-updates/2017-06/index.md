@@ -1,14 +1,14 @@
 ---
 title: June 2017 Galaxy News
 ---
-<div class='right'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
 Welcome to the June 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 
 # GCC2017 is almost here!
 
-<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/src/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></a></div>
+<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></a></div>
 
 GCC2017 will be in Montpellier, France, 26-30 June and will feature two days of presentations, discussions, poster sessions, lightning talks, computer demos, keynotes, and birds-of-a-feather meetups, **all about data-intensive biology and the tools and infrastructure that support it.** GCC2017 also includes data and coding hacks, and **[two days of training](https://gcc2017.sched.com/overview/type/Training)** covering 16 different topics.
  
@@ -41,7 +41,7 @@ If you are reading this, you probably already know who they are.  If not, see th
 
 ## Submit a Lightning Talk!
 
-<div class="left"><a href="https://gcc2017.sciencesconf.org/page/submit"><img src="/src/galaxy-updates/2017-06/lightning.png" alt='Stike out and strut your work with a GCC2017 lightning talk!' width="60" /></a></div>
+<div class="left"><a href="https://gcc2017.sciencesconf.org/page/submit"><img src="/galaxy-updates/2017-06/lightning.png" alt='Stike out and strut your work with a GCC2017 lightning talk!' width="60" /></a></div>
 
 Lightning talks are an excellent chance to share your work, preliminary or otherwise, with the community.  Lightning talks are 7 minutes long and are the quickest way to make a lasting impression on, and get feedback from all participants.  Submit your lightning talk proposal [by June 23](https://gcc2017.sciencesconf.org/page/submit). 
 
@@ -50,7 +50,7 @@ Lightning talks are an excellent chance to share your work, preliminary or other
 
 [Abstract submission](https://gcc2017.sciencesconf.org/page/submit) for regualr talks, posters and demos closed in May.  However you can still submit late oral prentations abstracts, posters and demos.  Late oral presentation abstracts are considered as cancellations occur, and posters and demos will be reviewed until the space is full.
 
-<div class="right"><a href="https://gcc2017.sciencesconf.org/page/sponsors"><img src="/src/events/2017-gcc/sponsor-cloud.png" alt='2017 Galaxy Community Conference Sponsors' width="180" /></a></div>
+<div class="right"><a href="https://gcc2017.sciencesconf.org/page/sponsors"><img src="/events/2017-gcc/sponsor-cloud.png" alt='2017 Galaxy Community Conference Sponsors' width="180" /></a></div>
 
 ## GCC2017 Sponsors
 
@@ -67,7 +67,7 @@ GCC2017 has [11 sponsors](https://gcc2017.sciencesconf.org/page/sponsors)!  Spon
 
 ## GCC2017 Call for BoFs!
 
-<div class="left"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdRCs97OWt47qmMxWZAtSV3TTLJ24IhW0m2lHGPLiqJU0Xkzw/viewform"><img src="/src/events/2017-gcc/gcc2017-bofs.png" alt='2017 Galaxy Community Conference BoFs' width="170" /></a></div>
+<div class="left"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdRCs97OWt47qmMxWZAtSV3TTLJ24IhW0m2lHGPLiqJU0Xkzw/viewform"><img src="/events/2017-gcc/gcc2017-bofs.png" alt='2017 Galaxy Community Conference BoFs' width="170" /></a></div>
 
 There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2017](https://gcc2017.sciencesconf.org/) continues this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_%28computing%29)* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
@@ -77,7 +77,7 @@ Interested?
 
 # Galaxy Tutorial @ ISMB/ECCB 2017
 
-<div class="right"><a href="https://www.iscb.org/ismbeccb2017-program/tutorials#p6"><img src="/src/images/logos/ismb-2017.png" alt="Galaxy Tutorial at ISMB/ECCB 2017: Making Galaxy Work for You" width="170" /></div>
+<div class="right"><a href="https://www.iscb.org/ismbeccb2017-program/tutorials#p6"><img src="/images/logos/ismb-2017.png" alt="Galaxy Tutorial at ISMB/ECCB 2017: Making Galaxy Work for You" width="170" /></div>
 
 Know someone who needs to learn more about deploying Galaxy in their organization? There will be a half day [Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) tutorial at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) in Prague, Czechia. The tutorial will provide a practical, hands-on guide to adapting the Galaxy platform to the specific needs of individuals attending the ISMB.
 
@@ -184,7 +184,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 ## Training Material Re-use Hackathon Reports
 
-<div class="right"><a href="https://github.com/galaxyproject/training-material"><img src="/src/images/news-graphics/gtn-materials-overview-2017-05.png" alt="GTN materials overview" width="220" /></div>
+<div class="right"><a href="https://github.com/galaxyproject/training-material"><img src="/images/news-graphics/gtn-materials-overview-2017-05.png" alt="GTN materials overview" width="220" /></div>
 
 The ELIXIR/GOBLET/GTN hackathon for Galaxy training material re-use was held last month in Cambridge, UK.  A lot was accomplished:
 
@@ -229,7 +229,7 @@ Some highlights from the papers added last month:
 
 # Who's Hiring
 
-<div class='right'><br /><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><br /><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -251,7 +251,7 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 ## ImmPort Galaxy Update
 
-<div class='right solid'><a href='https://www.immportgalaxy.org/'><img src="/src/use/immport-galaxy/immport-graphs.jpg" alt="ImmPort Galaxy new visualizations" width="200" /></a></div>
+<div class='right solid'><a href='https://www.immportgalaxy.org/'><img src="/use/immport-galaxy/immport-graphs.jpg" alt="ImmPort Galaxy new visualizations" width="200" /></a></div>
 
 A new release of [ImmPort Galaxy](https://www.immportgalaxy.org/) is out:
 
@@ -273,13 +273,13 @@ More cool visualizations to look at your flow cytometry data!
 
 ### GVL MEL
 
-<div class='right solid'><a href='http://galaxy-mel.genome.edu.au/'><img src="/src/images/logos/gvl-300.png" alt="Genomics Virtual Lab Melbourne" height="100" /></a></div>
+<div class='right solid'><a href='http://galaxy-mel.genome.edu.au/'><img src="/images/logos/gvl-300.png" alt="Genomics Virtual Lab Melbourne" height="100" /></a></div>
 
 [Galaxy Melbourne](http://galaxy-mel.genome.edu.au/) is a general purpose Galaxy based on the [Genomics Virtual Lab platform](https://genome.edu.au/).  Support options include [GVL Help](https://www.gvl.org.au/), tutorials at [GVL Learn](https://www.gvl.org.au/learn) and [Galaxy Tut](http://galaxy-tut.genome.edu.au/).  Registration is required but anyone can register. The default quota of 100GB which can be increased on request.  GVL MEL is supported by the [Genomics Virtual Lab](https://www.gvl.org.au/about), [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au), and [Nectar](https://www.nectar.org.au).
 
 ### ChimeRScope
 
-<div class='right solid'><a href='https://galaxy.unmc.edu/'><img src="/src/use/archive/chimerscope/chimerscope.png" alt="ChimeRScope Galaxy" width="200" /></a></div>
+<div class='right solid'><a href='https://galaxy.unmc.edu/'><img src="/use/archive/chimerscope/chimerscope.png" alt="ChimeRScope Galaxy" width="200" /></a></div>
 
 [ChimeRScope Galaxy](https://galaxy.unmc.edu/) is a tool publishing server for fusion gene discovery from transcriptome-sequencing (RNA-seq) datasets. ChimeRScope is a java application  that uses a novel alignment-free approach for discovering fusion genes from transcriptome-sequencing (RNA-seq) datasets. Prediction results from simulated datasets and real datasets show that our method achieves the best prediction accuracy, comparing to all other popular methods.
 
@@ -294,9 +294,9 @@ There is a [ChimeRScope Manual](https://github.com/ChimeRScope/ChimeRScope/wiki)
 
 <table class="table">
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
@@ -317,8 +317,8 @@ No new resources were added to community directories in January or February.
 ## Qiime and mothur
 
 <div class='center'>
-<a href='http://qiime.org/'><img src="/src/images/logos/qiime.png" alt="Qiime: Quantitative Insights Into Microbial Ecology" height="100" /></a> &nbsp;&nbsp;&nbsp;
-<a href="https://www.mothur.org/"><img src="/src/images/logos/mothur_300.png" alt="mothur" height="100" /></a><br />
+<a href='http://qiime.org/'><img src="/images/logos/qiime.png" alt="Qiime: Quantitative Insights Into Microbial Ecology" height="100" /></a> &nbsp;&nbsp;&nbsp;
+<a href="https://www.mothur.org/"><img src="/images/logos/mothur_300.png" alt="mothur" height="100" /></a><br />
 </div>
 
 Galaxy has reached many different communities far beyond classical NGS. To support this the [IUC](/iuc/) is organising regularly contribution fests dedicated to special topics, with the aim to increase tool coverage and develop re-usable workflows. One of the first contribution fests focused on metagenomics, a field that is gaining more traction in the Galaxy community. Here we highlight two pull requests that were recently merged and added [Qiime (Quantitative Insights Into Microbial Ecology)](https://github.com/galaxyproject/tools-iuc/pull/431) and [mothur](https://github.com/galaxyproject/tools-iuc/pull/1287) to Galaxy. These tools are the most popular pipelines used by the microbial ecology community to perform microbiome analyses from raw DNA sequencing data.
@@ -332,12 +332,12 @@ The tools can be installed via the Galaxy Tool Shed:
 
 Both tool suites and many more metagenomics tools are integrated into the [metagenomic Galaxy flavor](https://github.com/shiltemann/galaxy-metagenomics).
 
-[Björn Grüning](/src/people/bjoern-gruening)
+[Björn Grüning](/people/bjoern-gruening)
 
 
 ## ToolShed Contributions
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 [Tool Shed contributions from May](/toolshed/contributions/2017-05/).
 
@@ -347,9 +347,9 @@ Both tool suites and many more metagenomics tools are integrated into the [metag
 ## May 2017 Galaxy Release (v 17.05)
 
 <div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
-<a href="https://vimeo.com/216884518"><img src="/src/images/news-graphics/dataset-tagging-17-05.png" alt="Tag your datasets to keep track of where computed datasets came from" width="200" /></a><br /># Tags are propogated<br />in histories<br /><br />
-<a href="https://depot.galaxyproject.org/hub/attachments/documents/videos/dataset-drag-17-05.gif"><img src="/src/images/news-graphics/dataset-drag-17-05.png" alt='Drag and drop with Galaxy Histories and Tools' width="200" /></a><br />Drag and drop in Galaxy 17.05
+<a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href="https://vimeo.com/216884518"><img src="/images/news-graphics/dataset-tagging-17-05.png" alt="Tag your datasets to keep track of where computed datasets came from" width="200" /></a><br /># Tags are propogated<br />in histories<br /><br />
+<a href="https://depot.galaxyproject.org/hub/attachments/documents/videos/dataset-drag-17-05.gif"><img src="/images/news-graphics/dataset-drag-17-05.png" alt='Drag and drop with Galaxy Histories and Tools' width="200" /></a><br />Drag and drop in Galaxy 17.05
 </div>
 
 The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) published the **[17.05 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.05_announce.html)** in May.
@@ -393,7 +393,7 @@ And
 
 ## Planemo 0.41.0
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 

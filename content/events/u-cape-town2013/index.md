@@ -2,7 +2,7 @@
 title: NGS Data Analysis and Galaxy Workshop
 ---
 <div class='center'>
-<a href='http://www.cbio.uct.ac.za/'><img src="/src/images/logos/CBioUCapeTownLogo.png" alt="University of Cape Town’s Computational Biology Group" width="400" /></a>
+<a href='http://www.cbio.uct.ac.za/'><img src="/images/logos/CBioUCapeTownLogo.png" alt="University of Cape Town’s Computational Biology Group" width="400" /></a>
 
 
 

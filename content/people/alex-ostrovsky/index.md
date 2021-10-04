@@ -1,4 +1,4 @@
-<div class='right'>![](/src/galaxy-team/ostrovsky.jpg)</div>
+<div class='right'>![](/galaxy-team/ostrovsky.jpg)</div>
 
 # Alex Ostrovsky
 

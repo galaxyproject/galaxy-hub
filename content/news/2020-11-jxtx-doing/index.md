@@ -11,7 +11,7 @@ The [JXTX Foundation's](/jxtx/foundation/) first activity was to [sponsor 10 gra
 
 <blockquote class="blockquote">
 
-<img src="/src/news/2020-10-jxtx-awardees/georgia.jpg" alt="Georgia Doing" class="float-right" style="max-width: 10rem;" />
+<img src="/news/2020-10-jxtx-awardees/georgia.jpg" alt="Georgia Doing" class="float-right" style="max-width: 10rem;" />
 
 Attending the [CSHL Biological Data Science meeting](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20) as a [JXTX](/jxtx/foundation/) awardee was more intellectually edifying than even my high expectations. Meeting with field-leaders as mentors was such a valuable experience that provided me with a diversity of guidance and perspectives that is profoundly influencing my research and professional development as I finish up my PhD work in microbiology and plan my transition into postdoctoral research in computational biology. Mentors, presenters and fellow poster-presenters and attendees were all so welcoming and engaging that conversations are continuing weeks after the meeting itself and giving rise to interactions that I suspect will last years and even careers. The critical support and preparation I received from the JXTX committee fostered these lasting relationships. I am so thankful to have received this award that came with not only financial support, but an entire community.
 </blockquote>

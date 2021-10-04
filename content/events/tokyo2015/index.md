@@ -3,7 +3,7 @@
 </div>
 <br /><br />
 <div class='center'>
-![](/src/events/tokyo2015/WST2015.png)
+![](/events/tokyo2015/WST2015.png)
 <br /><br />
 <span style="font-size: larger;"> April 28, 2015 @ [RCAST, The University of Tokyo](http://www.rcast.u-tokyo.ac.jp/index_en.html) </span>
 </div>
@@ -272,6 +272,6 @@ Also, supported by AWS in Education Research Grant award
     <td style=" text-align: center; width: 20%; border: none;"> <a href='http://www.rcast.u-tokyo.ac.jp/index_en.html'><img src="http://wiki.pitagora-galaxy.org/wiki/images/thumb/6/62/Logo_RCAST_trans.png/300px-Logo_RCAST_trans.png" alt="" width="150" /></a> </td>
     <td style=" text-align: center; width: 20%; border: none;"> <a href='http://www.ims.riken.jp/english/'><img src="http://wiki.pitagora-galaxy.org/wiki/images/thumb/3/34/Logo_IMS_trans.png/300px-Logo_IMS_trans.png" alt="" width="150" /></a> </td>
     <td style=" text-align: center; width: 20%; border: none;"> <a href='http://dbcls.rois.ac.jp/en/'><img src="http://wiki.pitagora-galaxy.org/wiki/images/thumb/6/61/Logo_DBCLS_trans.png/300px-Logo_DBCLS_trans.png" alt="" width="150" /></a> </td>
-    <td style=" text-align: center; width: 20%; border: none;"> <a href='https://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="" width="150" /></a> </td>
+    <td style=" text-align: center; width: 20%; border: none;"> <a href='https://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="" width="150" /></a> </td>
   </tr>
 </table>

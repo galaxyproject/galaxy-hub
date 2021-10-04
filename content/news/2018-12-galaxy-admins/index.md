@@ -3,7 +3,7 @@ title: "GalaxyAdmins is returning to a device near you"
 tease: "And we want your ideas"
 date: '2018-12-10'
 ---
-[<img class="img-fluid mx-auto float-right" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
+[<img class="img-fluid mx-auto float-right" src="/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
 
 After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/community/galaxy-admins/meetups/) will return on [February 28](/community/galaxy-admins/meetups/2019-03-21/). [GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 

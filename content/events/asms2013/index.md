@@ -4,7 +4,7 @@ external_url: http://www.asms.org/conferences/annual-conference
 ---
 <div class='center'>
 
-<a href='http://www.asms.org/conferences/annual-conference'><img src="/src/images/logos/ASMS2013.jpg" alt="61st ASMS Conference on Mass Spectrometry and Allied Topics" /></a>
+<a href='http://www.asms.org/conferences/annual-conference'><img src="/images/logos/ASMS2013.jpg" alt="61st ASMS Conference on Mass Spectrometry and Allied Topics" /></a>
 
 
 </div>

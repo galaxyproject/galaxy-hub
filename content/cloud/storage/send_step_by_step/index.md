@@ -25,7 +25,7 @@ You may use the following steps to use this API:
     Replace `http://localhost:8080` with the IP address of the Galaxy instance you're using, and
     replace `1234567890` with the your API key.
         
-    ![image](/src/cloud/storage/send_01.png)
+    ![image](/cloud/storage/send_01.png)
     
     4.3. Get the ID of Galaxy `history` from which you want to copy data, by going to the following
     address on your browser:
@@ -80,7 +80,7 @@ You may use the following steps to use this API:
     4.5. On Postman, goto `Body` tab as shown in the following figure and enter the 
     following API payload:
     
-    ![image](/src/cloud/storage/send_02.png)
+    ![image](/cloud/storage/send_02.png)
     
     ```json
     {

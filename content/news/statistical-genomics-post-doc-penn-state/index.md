@@ -2,7 +2,7 @@
 title: "Statistical Genomics Post-Doc"
 date: "2013-09-09"
 ---
-<div class='right'><a href='http://www.huck.psu.edu/center/medical-genomics/'><img src="/src/images/logos/HuckLogo.png" alt="Center for Medical Genomics" width="250" /></a></div>
+<div class='right'><a href='http://www.huck.psu.edu/center/medical-genomics/'><img src="/images/logos/HuckLogo.png" alt="Center for Medical Genomics" width="250" /></a></div>
 
 Are you interested in genomics and do you have skills in Bioinformatics, Computational Biology and Statistics? The Makova lab in the Department of Biology at The Pennsylvania State University is looking to hire a postdoctoral researcher for an NSF-funded project examining regional variation in mutation rates (see our [recent publication in PNAS: Kuruppumullage Don, Ananda, Chiaromonte, Makova 2013)](http://www.pnas.org//content/early/2013/08/16/1221792110.abstract). With new sequencing technologies, multiple human genomes and their detailed annotations (e.g., ENCODE) are suddenly accessible to us. This gives us a terrific opportunity to explore previously inaccessible evolutionary processes (e.g., mutation) and other biological associations (location of genes in certain mutation states, as identified by HMMs). Such knowledge is vital in a clinical setting where disease mutations need to be evaluated. Our resources and links with medical researchers at Hershey Medical School and computational biologists from the [Galaxy team](http://galaxyproject.org/) put us in a great position to address these questions. 
 

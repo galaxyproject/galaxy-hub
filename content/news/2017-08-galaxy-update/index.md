@@ -4,8 +4,8 @@ tease: 'Mark your calendars: GCC2018; GCC2017 slides & posters; new events, pubs
 date: '2017-08-01'
 ---
 <div class='right'>
-[<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2017-08/)<br /><br />
-[<img src="/src/images/logos/gcc-bosc-2018-logo-300.png" alt="GCC2018: Save these dates" width="170" />](/galaxy-updates/2017-08/#gcc2018-portland-oregon-united-states-june-25-30)<br />
+[<img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2017-08/)<br /><br />
+[<img src="/images/logos/gcc-bosc-2018-logo-300.png" alt="GCC2018: Save these dates" width="170" />](/galaxy-updates/2017-08/#gcc2018-portland-oregon-united-states-june-25-30)<br />
 [<img src='/src/images/logos/gcc2017-logo-300.png' alt='2017 Galaxy Community Conference (GCC2017)' width="170" />](/galaxy-updates/2017-08/#gcc2017-is-done-)
 </div>
 

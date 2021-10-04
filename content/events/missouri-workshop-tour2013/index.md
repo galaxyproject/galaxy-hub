@@ -1,7 +1,7 @@
 ---
 title: Missouri Workshop Tour 2013
 ---
-<div class='center'><img src="/src/images/logos/MissouriGalaxyWorkshopTour2013.png" alt="" width="400px" /></div>
+<div class='center'><img src="/images/logos/MissouriGalaxyWorkshopTour2013.png" alt="" width="400px" /></div>
 
 
 
@@ -9,9 +9,9 @@ In St. Louis or Columbia?  A [Galaxy Workshop Tour](/events/) is happening in Mi
 
 <table>
   <tr>
-    <td style=" text-align: center; width: 250px; border: none;"> <a href='/events/wash-u2013/'><img src="/src/images/logos/WashULogoWide.jpg" alt="Washington University in St Louis" width="180" /></a> </td>
-    <td style=" text-align: center; width: 250px; border: none;"> <a href='/events/slu2013/'><img src="/src/images/logos/SLULogoWide.png" alt="Saint Louis University" width="230" /></a> </td>
-    <td style=" text-align: center; width: 270px; border: none;"> <a href='/events/missouri2013/'><img src="/src/images/logos/UMissouriLogoWide.png" alt="University of Missouri Columbia" width="260" /></a> </td>
+    <td style=" text-align: center; width: 250px; border: none;"> <a href='/events/wash-u2013/'><img src="/images/logos/WashULogoWide.jpg" alt="Washington University in St Louis" width="180" /></a> </td>
+    <td style=" text-align: center; width: 250px; border: none;"> <a href='/events/slu2013/'><img src="/images/logos/SLULogoWide.png" alt="Saint Louis University" width="230" /></a> </td>
+    <td style=" text-align: center; width: 270px; border: none;"> <a href='/events/missouri2013/'><img src="/images/logos/UMissouriLogoWide.png" alt="University of Missouri Columbia" width="260" /></a> </td>
   </tr>
   <tr>
     <td style=" text-align: center; border: none;"> <strong><a href='/events/wash-u2013/'>Monday, April 29</a> and <a href='/events/wash-u2013/'>Wednesday, May 1</a></strong><br />9:00am-5:00pm </td>

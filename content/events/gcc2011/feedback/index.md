@@ -2,7 +2,7 @@
 title: 'Feedback on GCC2011'
 ---
 
-[<img class='mx-auto' src="/src/events/GCC2011Logo400.png" alt="GCC2011" />](http://galaxy.psu.edu/gcc2011/)
+[<img class='mx-auto' src="/events/GCC2011Logo400.png" alt="GCC2011" />](http://galaxy.psu.edu/gcc2011/)
 
 The [2011 Galaxy Community Conference](/events/gcc2011/) was held 25-26 May, at the [Conference Centre De Werelt](http://www.congrescentrum.com/accommodations/de_werelt) in Lunteren, The Netherlands. 
 

@@ -4,7 +4,7 @@ tease: "Events, Pubs, Blogs, Platforms, Tutorials, Doc, and Happy New Year too"
 date: "2020-01-08"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 The *January 2020 Galactic News* is out:
 
@@ -31,7 +31,7 @@ There is an unusually rich (and aromatic!) mix of [upcoming Galaxy related event
 <div class="card border-info" style="min-width: 15rem;">
 <div class="trim-p">
 
-![Call for Tutorials](/src/events/bcc2020/victoria-college-banner-1000.jpg)
+![Call for Tutorials](/events/bcc2020/victoria-college-banner-1000.jpg)
 
 </div>
 <div class="card-header">BCC2020: Call for Tutorial Nominations</div>
@@ -45,7 +45,7 @@ BCC is [GCC](/gcc/) + [BOSC](https://www.open-bio.org/events/bosc/about/#Past_BO
 <div class="card border-info" style="min-width: 15rem;">
 <div class="trim-p">
 
-![Galaxy Admin Training 2020](/src/events/2020-03-admin/2020-admin-banner.png)
+![Galaxy Admin Training 2020](/events/2020-03-admin/2020-admin-banner.png)
 
 </div>
 <div class="card-header">Register Now: Galaxy Admin Training 2020</div>
@@ -57,7 +57,7 @@ Registration is now open for the **[2020 Galaxy Admin Training](/events/2020-03-
 <div class="card border-info" style="min-width: 15rem;">
 <div class="trim-p">
 
-![Galaxy @ PAG 2020](/src/events/2020-pag/pag-2020-splash.png)
+![Galaxy @ PAG 2020](/events/2020-pag/pag-2020-splash.png)
 
 </div>
 <div class="card-header">Galaxy @ PAG 2020</div>
@@ -69,7 +69,7 @@ And there will be a [GMOD Codefest](http://gmod.org/wiki/Codefest_2020) *before*
 
 
 <div class="card border-info" style="min-width: 15rem; max-width: 22rem">
-<img class="card-img-top" src="/src/images/logos/abrf-logo-color-text.png" alt="Galaxy @ ABRF 2020" />
+<img class="card-img-top" src="/images/logos/abrf-logo-color-text.png" alt="Galaxy @ ABRF 2020" />
 <div class="card-header">Galaxy @ ABRF 2020</div>
 
 [Galaxy will be at 2020 ABRF meeting](/events/2020-abrf/), in Palm Springs, California, United States, February 29 through March 3. This includes a full day *hands-on Galaxy Workshop* about **using Galaxy with your single cell and microbiome** data.  ABRF is *the annual conference for technology-enabled multidisciplinary research.*
@@ -79,7 +79,7 @@ And there will be a [GMOD Codefest](http://gmod.org/wiki/Codefest_2020) *before*
 
 
 <div class="card border-info" style="min-width: 15rem; max-width: 22rem">
-<img class="card-img-top" src="/src/images/logos/earlham-institute-logo-trans.png" alt="Single-Cell RNAseq training at Earlham Institute" />
+<img class="card-img-top" src="/images/logos/earlham-institute-logo-trans.png" alt="Single-Cell RNAseq training at Earlham Institute" />
 <div class="card-header">Single-Cell RNAseq training at Earlham Institute</div>
 
 An [introduction to Single-Cell Genomics](https://www.earlham.ac.uk/single-cell-rnaseq-2020) featuring Galaxy. This course is for bench-based researchers planning a single-cell project.  **Registration deadline is 2 March.**
@@ -102,7 +102,7 @@ An [introduction to Single-Cell Genomics](https://www.earlham.ac.uk/single-cell-
 <div class="card border-info" style="min-width: 15rem; max-width: 18rem">
 <div class="trim-p">
 
-![Upcoming Events](/src/news/2020-01-galaxy-update/upcoming-events.png)
+![Upcoming Events](/news/2020-01-galaxy-update/upcoming-events.png)
 
 </div>
 <div class="card-header">Upcoming Events</div>
@@ -227,7 +227,7 @@ By Stephan Beck.
 
 Includes [genetic, methylome, and transcriptome data](https://usegalaxy.eu/library/list#/folders/F43c642051145b1b6).
 
-<img class="card-img-bottom" src="/src/images/logos/pgp-uk-logo.svg" alt="Personal Genome Project UK Logo" />
+<img class="card-img-bottom" src="/images/logos/pgp-uk-logo.svg" alt="Personal Genome Project UK Logo" />
 
 </div>
 
@@ -242,7 +242,7 @@ By Yvan Le Bras, Simon Bénateau.
 
 Galaxy for Ecology, mixing Ecology research, Citizen Science and Massively Multi Online Science.
 
-![Crowdsourcing citizen science data on usegalaxy.eu](/src/blog/2020-01-galaxy-ecology-citizen-science/sexing-marmalade-slice.png)
+![Crowdsourcing citizen science data on usegalaxy.eu](/blog/2020-01-galaxy-ecology-citizen-science/sexing-marmalade-slice.png)
 
 </div>
 
@@ -262,7 +262,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 </div>
 
-<img class="card-img-top" src="/src/use/gaslini/fig-1-slice.png" alt="Figure 1: PIPE-T Process" />
+<img class="card-img-top" src="/use/gaslini/fig-1-slice.png" alt="Figure 1: PIPE-T Process" />
 
 The [GASLINI server](http://igg.cloud.ba.infn.it/galaxy) supports PIPE-T, a tool for reverse transcription quantitative real-time polymerase chain reaction (RT-qPCR) analysis. Requires an account, but anyone can create an account.
 </div>
@@ -275,7 +275,7 @@ The [GASLINI server](http://igg.cloud.ba.infn.it/galaxy) supports PIPE-T, a tool
 
 </div>
 
-<img class="card-img-top" src="/src/use/shapiro-lab/shapiro-lab.gif" alt="Shapiro Lab" />
+<img class="card-img-top" src="/use/shapiro-lab/shapiro-lab.gif" alt="Shapiro Lab" />
 
 The [Shapiro Lab at NCI](https://binkley2.ncifcrf.gov/users/bshapiro/) provides RNA structure and design tools, including RNA2D3D and StructureLab, on a [Galaxy virtual machine image](https://binkley2.ncifcrf.gov/users/bshapiro/software.html).</div>
 
@@ -286,7 +286,7 @@ The [Shapiro Lab at NCI](https://binkley2.ncifcrf.gov/users/bshapiro/) provides 
 
 </div>
 
-<img class="card-img-top" src="/src/use/epigenomics/epigenomics-galaxy-fig1-slice.png" alt="Epigenomics with Galaxy and Jupyter" />
+<img class="card-img-top" src="/use/epigenomics/epigenomics-galaxy-fig1-slice.png" alt="Epigenomics with Galaxy and Jupyter" />
 
 This [Galaxy docker instance](https://hub.docker.com/r/mpaya/epigenomics_galaxy) contains tools and workflows aimed at the analysis of epigenomics data, both ChIP-Seq and RNA-Seq.</div>
 
@@ -296,7 +296,7 @@ This [Galaxy docker instance](https://hub.docker.com/r/mpaya/epigenomics_galaxy)
 
 [UseGalaxy.*](/usegalaxy/) News</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * UseGalaxy.org.Au is expanding its range of tools to better support different communities [including 19 metabolomics analysis tools & 2 workflows](https://twitter.com/GalaxyAustralia/status/1207453015814238208/photo/1) and 20 new tools for trimming, analysing, QC and assembling Oxford Nanopore data 
 * [Galaxy Australia upgraded to Galaxy version 19.09](https://usegalaxy-au.github.io/posts/2019/12/11/galaxy-australia-to-galaxy-version-19-09/plain.html)
@@ -340,7 +340,7 @@ Platforms that were referenced *at least twice* in the past month's publications
 
 **Then the Galaxy Training Network [wants your feedback](https://forms.gle/Uc8Qs23TsVcAYfCD8).**  Please take a few minutes to let us know about your training experiences.
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/GTNLogo1000.png" alt="Help! We need it!" />
+<img class="card-img-bottom" src="/images/galaxy-logos/GTNLogo1000.png" alt="Help! We need it!" />
 </div>
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
@@ -463,7 +463,7 @@ Galaxy is a prominent part of the NCI ITCR Program that funds tools that support
 
 Dr Chris Barnett has invested in the research cloud-computing platform ilifu to create a central resource where a like-minded research community can come together and share these tools and expertise, using the opensource platform Galaxy.
 
-<img class="card-img-bottom" src="/src/images/logos/uct-eresearch-logo.jpg" alt="UCT eResearch" />
+<img class="card-img-bottom" src="/images/logos/uct-eresearch-logo.jpg" alt="UCT eResearch" />
 </div>
 
 

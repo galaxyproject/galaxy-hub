@@ -3,8 +3,8 @@ title: 'January 2017 Galactic News'
 date: '2017-01-04'
 ---
 <div class='right'>
-<div class='right'><a href='/galaxy-updates/2017-01/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />
-<a href='/galaxy-updates/2017-01/##galaxy-australasia-meeting-game-2017-'><img src="/src/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="105" /></a><br />
+<div class='right'><a href='/galaxy-updates/2017-01/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />
+<a href='/galaxy-updates/2017-01/##galaxy-australasia-meeting-game-2017-'><img src="/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="105" /></a><br />
 </div>
 
 The **[January Galaxy News](/galaxy-updates/2017-01/)** is hot off the press:

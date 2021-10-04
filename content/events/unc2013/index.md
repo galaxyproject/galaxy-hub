@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.unc.edu/'><img src="/src/images/logos/UNCLogo.png" alt="University or North Carolina Chapel Hill" width="400px" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.unc.edu/'><img src="/images/logos/UNCLogo.png" alt="University or North Carolina Chapel Hill" width="400px" /></a> </td>
   </tr>
 </table>
 
@@ -93,9 +93,9 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='left'><a href='/events/rt-workshop-tour2013/'><img src="/src/images/logos/RTGalaxyWorkshopTour2013-300.png" alt="2013 Research Triangle Galaxy Workshop Tour" width="170px" /></a></div>
+<div class='left'><a href='/events/rt-workshop-tour2013/'><img src="/images/logos/RTGalaxyWorkshopTour2013-300.png" alt="2013 Research Triangle Galaxy Workshop Tour" width="170px" /></a></div>
  
-<div class='right'><a href='http://hsl.lib.unc.edu'><img src="/src/images/logos/UNCHSLLogo.png" alt="UNC Health Sciences Library" height="50" /></a> <a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="130px" /></a></div>
+<div class='right'><a href='http://hsl.lib.unc.edu'><img src="/images/logos/UNCHSLLogo.png" alt="UNC Health Sciences Library" height="50" /></a> <a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="130px" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [UNC Health Sciences Library](http://hsl.lib.unc.edu).
 

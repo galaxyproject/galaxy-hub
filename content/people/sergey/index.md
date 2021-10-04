@@ -1,4 +1,4 @@
-<div class='right'>![](/src/galaxy-team/sergey.jpg)</div>
+<div class='right'>![](/galaxy-team/sergey.jpg)</div>
 
 # Sergey Golitsynskiy
 

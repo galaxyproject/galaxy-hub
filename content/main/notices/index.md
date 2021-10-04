@@ -35,7 +35,7 @@ All sorts of ways.  See **[Support](/support/)** wiki and watch **[Learning Reso
 ----
 
 <div class='center'>
-<a href='/search/'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Search all Galaxy resources" width="120" /></a>
+<a href='/search/'><img src="/images/galaxy-logos/galaxy-web-search.png" alt="Search all Galaxy resources" width="120" /></a>
 
 [Search all Galaxy resources](/search/)
 </div>

@@ -1,7 +1,7 @@
 ---
 title: Home of Penn State Community Galaxy Project Meetups!
 ---
-<div class='center'><img src="/src/events/meetups/p-s-u/PSUMeetupLogo600.png" alt="Galaxy Meetup @ Penn State" width="400" /></div>
+<div class='center'><img src="/events/meetups/p-s-u/PSUMeetupLogo600.png" alt="Galaxy Meetup @ Penn State" width="400" /></div>
 
 
 

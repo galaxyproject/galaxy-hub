@@ -107,17 +107,17 @@ New tool wrapper generates a comprehensive and useful QC report.
   * Sequence Duplication Levels
   * Overrepresented sequences
 
-![](/src/archive/dev-news-briefs/2011-05-20/2011_05_20_fastqc.png)
+![](/archive/dev-news-briefs/2011-05-20/2011_05_20_fastqc.png)
 
 ### Workflows & Multiple datasets
 
 Workflows can now be run on multiple datasets at the same time.  The run workflow page will now show a new stacked dataset icon.  
 
-![](/src/archive/dev-news-briefs/2011-05-20/2011_05_20_workflow1.png)
+![](/archive/dev-news-briefs/2011-05-20/2011_05_20_workflow1.png)
 
 Upon clicking that, the selection box changes to a multi-select, and an independent workflow execution will occur for each of these input dataset steps.  The rest of the parameters of the workflow will be identical.  Combining this functionality with the existing "Send results to a new history" option will send the results of *each* workflow execution to a separate history, numbered sequentially "<name> 1", "<name> 2", etc., where <name> is whatever text you put in the new history name box.
 
-![](/src/archive/dev-news-briefs/2011-05-20/2011_05_20_workflow2.png)
+![](/archive/dev-news-briefs/2011-05-20/2011_05_20_workflow2.png)
 
 Please note that this new type of "multiple-input dataset" step can currently be used only once in any individual workflow.
 
@@ -191,7 +191,7 @@ Please note that this new type of "multiple-input dataset" step can currently be
 
 * Cloud instance sharing: now share your entire cloud instance deployment (including data, analyses, and/or customizations) with the world or specific users with a click of a button.
 
-![](/src/archive/dev-news-briefs/2011-05-20/2011_05_20_cloudman1.png)
+![](/archive/dev-news-briefs/2011-05-20/2011_05_20_cloudman1.png)
 
 ### Source
 

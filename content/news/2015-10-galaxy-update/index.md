@@ -3,11 +3,11 @@ title: "October 2015 Galactic News"
 date: "2015-10-01"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-10/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width=170 /></a><br /><br />
-<a href='/galaxy-updates/2015-10/#october-galaxyadmins-meetup'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup October 15" width="170" /></a><br />
-<a href='/galaxy-updates/2015-10/#gcc2016-call-for-training-topic-nominations'><img src="/src/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="80" /></a>
-<a href='/galaxy-updates/2015-10/#upcoming-events'><img src="/src/images/logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="90" /></a><br />
-<a href='/galaxy-updates/2015-10/#new-public-galaxy-servers'><img src="/src/images/logos/ABiMSLogo.png" alt="ABiMS Tools Galaxy Server" width="170" /></a>
+<a href='/galaxy-updates/2015-10/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width=170 /></a><br /><br />
+<a href='/galaxy-updates/2015-10/#october-galaxyadmins-meetup'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup October 15" width="170" /></a><br />
+<a href='/galaxy-updates/2015-10/#gcc2016-call-for-training-topic-nominations'><img src="/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="80" /></a>
+<a href='/galaxy-updates/2015-10/#upcoming-events'><img src="/images/logos/GalxyEventsCalThumb.png" alt="Galaxy Events Calendar" width="90" /></a><br />
+<a href='/galaxy-updates/2015-10/#new-public-galaxy-servers'><img src="/images/logos/ABiMSLogo.png" alt="ABiMS Tools Galaxy Server" width="170" /></a>
 </div>
 
 The **[October Galactic News](/galaxy-updates/2015-10/)** is hot off the presses.
@@ -28,4 +28,4 @@ The **[October Galactic News](/galaxy-updates/2015-10/)** is hot off the presses
   * [Lots of Tool Shed contributions](/toolshed/contributions/2015-09/).
 * and [lots of other news too](/galaxy-updates/2015-10/#other-news), [including a birthday](/galaxy-updates/2015-10/#galaxy-turns-10) (OK, maybe we are chronologically challenged, but we're young!)
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

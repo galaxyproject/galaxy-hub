@@ -10,7 +10,7 @@ The main aim of the codefest was to get community members familiar with the Cond
 
 More details are [here](https://github.com/galaxyproject/tools-iuc/issues/700).
 
-<div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/700'><img src="/src/images/logos/Conda_480.png" alt="Conda Dependencies Codefest" width="180" /></a>
+<div class='right'><a href='https://github.com/galaxyproject/tools-iuc/issues/700'><img src="/images/logos/Conda_480.png" alt="Conda Dependencies Codefest" width="180" /></a>
 </div>
 
 List of tools (versions) added to Bioconda:

@@ -58,7 +58,7 @@ This is what we do. Supporting each other is the very heart of the Galaxy commun
 
 ## help.galaxyproject.org
 
-[<img class="float-right" style="max-width: 160px" src="/src/images/galaxy-logos/help-galaxyproject-org-big.png" alt="Galaxy Help" />](https://help.galaxyproject.org/)
+[<img class="float-right" style="max-width: 160px" src="/images/galaxy-logos/help-galaxyproject-org-big.png" alt="Galaxy Help" />](https://help.galaxyproject.org/)
 
 Have a question or an answer to a question?  [help.galaxyproject.org](https://help.galaxyproeject.org/) is an online support forum for the Galaxy Community.  You can ask questions, answer questions, upvote posts, and otherwise tap and expand the knowledge of the community.
 
@@ -97,7 +97,7 @@ Running your own single-user Galaxy instance on your laptop is easy to do.  Admi
 
 ## Ansible
 
-[<img class="float-right" style="max-width: 60px" src="/src/images/logos/ansible-logo.svg" alt="Ansible" />](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html)
+[<img class="float-right" style="max-width: 60px" src="/images/logos/ansible-logo.svg" alt="Ansible" />](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html)
 
 *Put your infrastructure under version control.*
 
@@ -147,7 +147,7 @@ Searching for anything Galaxy related using web search engines is a frustrating 
 
 ## Publications
 
-[<img class="float-right" style="max-width: 120px" src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library" />](/publication-library/)
+[<img class="float-right" style="max-width: 120px" src="/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library" />](/publication-library/)
 
 Want to know how Galaxy is being used, extended and deployed?  The *[Galaxy Publication library](https://www.zotero.org/groups/galaxy)* lists over 8000 publications that do just that.  Publications [are tagged](/publication-library/) to indicate how each pub relates to Galaxy. If you want to focus in on pubs that focus on or use Galaxy extensively, then take a look at the [Galactic](https://www.zotero.org/groups/galaxy/items/tag/+Galactic/) and [Stellar](https://www.zotero.org/groups/galaxy/items/tag/+Stellar/) pubs.
 
@@ -155,7 +155,7 @@ Want to know how to cite Galaxy?  See the [Citing Galaxy](/citing-galaxy/) page.
 
 ## What's going on - Distilled
 
-[<img class="float-left" style="max-width: 120px" src="/src/images/logos/MailmanLogoSmall.png" alt="Galactic Blog" />](/mailing-lists/)
+[<img class="float-left" style="max-width: 120px" src="/images/logos/MailmanLogoSmall.png" alt="Galactic Blog" />](/mailing-lists/)
 
 The [Galaxy-Announce mailing list](https://lists.galaxyproject.org/lists/galaxy-announce.lists.galaxyproject.org/) is a low-volume, moderated mailing list that recieves monthly emails, highlighting what's happing in the Galaxy Community, and the occassional event-related email.  Subscribve to Galaxy-Announce if you want Galactic news delivered to your inbox once a month.
 
@@ -164,7 +164,7 @@ The Galaxy News page is another source of Galactic news.  News items get posted 
 
 ## What's Going on - Right Now
 
-[<img class="float-right" style="max-width: 100px" src="/src/images/logos/TwitterBird300.png" alt="Galaxy on Twitter" />](/galaxy-on-twitter/)
+[<img class="float-right" style="max-width: 100px" src="/images/logos/TwitterBird300.png" alt="Galaxy on Twitter" />](/galaxy-on-twitter/)
 
 
 The Galaxy Community is [active on Twitter](/galaxy-on-twitter/), and Twitter is an excellent way to keep your finger on the pulse of what's going on right now.  Here's what to look for:
@@ -175,7 +175,7 @@ The Galaxy Community is [active on Twitter](/galaxy-on-twitter/), and Twitter is
 
 ## What's Going on - In depth: Galactic Blog
 
-[<img class="float-left" style="max-width: 160px" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" />](/blog/)
+[<img class="float-left" style="max-width: 160px" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" />](/blog/)
 
 The *[Galactic Blog](/blog/)* brings together longer form posts about Galaxy, from all over the web. Want to know more about [cloud bursting](/blog/2019-05-gcr/), [CVMFS](/blog/2019-02-cvmfs/), or [Galaxy R Markdown Tools](https://github.com/statonlab/galaxy-r-markdown-tools)?  You can find posts on these and many other topics in the [Galactic Blog](/blog/)
 

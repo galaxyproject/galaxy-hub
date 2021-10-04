@@ -28,11 +28,11 @@ title: Visualization in Galaxy
 
 * Click the text showing the current region. A select box will show up in place.
 
-![Specific region](/src/learn/visualization/trackster/keyboard1.png)
+![Specific region](/learn/visualization/trackster/keyboard1.png)
 
 * Enter the desired region with the format: *chrom: start-end*. The first part (chrom/contig) is **required**, but the start/end is optional, so you could enter *chr1: 1-20000*, or simply *chr1*. Then press Enter.
 
-![Specific region](/src/learn/visualization/trackster/keyboard2.png)
+![Specific region](/learn/visualization/trackster/keyboard2.png)
 
 
 #### Mouse Navigation
@@ -43,7 +43,7 @@ title: Visualization in Galaxy
 * There are zoom-in and zoom-out icons on the toolbar.
 * You can drag a region within the location track to view that region, as shown in the following image:
 
-![Dragging a region](/src/learn/visualization/trackster/drag.png)
+![Dragging a region](/learn/visualization/trackster/drag.png)
 
 #### Keyboard Navigation
 
@@ -61,23 +61,23 @@ LineTracks are used to display quantitative data along a y-axis. There is a thin
 
 **Histogram**: fill region between x-axis and the data point. Red region indicates overflow beyond the listed maximum/minimum value.
 
-![Histogram](/src/learn/visualization/trackster/histogram.png)
+![Histogram](/learn/visualization/trackster/histogram.png)
 
 **Line**: connect the data points with a line. Red dot indicates overflow beyond the listed maximum/minimum value.
 
-![Line](/src/learn/visualization/trackster/line.png)
+![Line](/learn/visualization/trackster/line.png)
 
 **Filled**: fill region from the bottom of the track to the data point.
 
-![Filled](/src/learn/visualization/trackster/filled.png)
+![Filled](/learn/visualization/trackster/filled.png)
 
 **Intensity**: show the data point as a gradient of the current y-axis range (darker is more).
 
-![Intensity](/src/learn/visualization/trackster/intensity.png)
+![Intensity](/learn/visualization/trackster/intensity.png)
 
 To change between these display modes, click the dropdown at the top-right of the track.
 
-![](/src/learn/visualization/trackster/modedrag.png)
+![](/learn/visualization/trackster/modedrag.png)
 
 ### FeatureTrack
 
@@ -87,23 +87,23 @@ via the selection box on the top-right corner of the track. **The following diag
 
 **Automatic**: Trackster chooses the level of detail based on how much data is on the screen. Currently shows feature spans without any exon detail or labels because there is a lot of data in this region.
 
-![Auto](/src/learn/visualization/trackster/featauto.png)
+![Auto](/learn/visualization/trackster/featauto.png)
 
 **Histogram**: Show the number of features in binned regions.
 
-![Histogram](/src/learn/visualization/trackster/feathist.png)
+![Histogram](/learn/visualization/trackster/feathist.png)
 
 **Dense**: draw everything stacked on top each other, in one slot. Useful to see coverage while minimizing screen real estate.
 
-![Dense](/src/learn/visualization/trackster/featdense.png)
+![Dense](/learn/visualization/trackster/featdense.png)
 
 **Squish**: draw exons but not strand/labels
 
-![Intensity](/src/learn/visualization/trackster/featsquish.png)
+![Intensity](/learn/visualization/trackster/featsquish.png)
 
 **Pack**: draw exons, strand, and labels
 
-![](/src/learn/visualization/trackster/featpack.png)
+![](/learn/visualization/trackster/featpack.png)
 
 To change between these display modes, click the dropdown at the top-right of the track.
 
@@ -113,23 +113,23 @@ To change between these display modes, click the dropdown at the top-right of th
 
 GTB lets you build track browsers for builds that aren't already installed for all users (see the next section on how to do this). You can specify custom builds on a **user-by-user** basis by navigating to User --> Custom Builds. There you can manage your custom builds or add new ones. For example, let's say you want to add a custom bear genome:
 
-![](/src/learn/visualization/trackster/custom1.png)
+![](/learn/visualization/trackster/custom1.png)
 
 The chrom/contig length information can either be typed in or pasted directly into the box as shown, or submitted by selecting a file containing the information. Successful submission will result in the build being listed:
 
-![](/src/learn/visualization/trackster/custom2.png)
+![](/learn/visualization/trackster/custom2.png)
 
 You can then set datasets to use our new custom build:
 
-![](/src/learn/visualization/trackster/custom3.png)
+![](/learn/visualization/trackster/custom3.png)
 
 And finally, you can create a new track browser of the new build:
 
-![](/src/learn/visualization/trackster/custom4.png)
+![](/learn/visualization/trackster/custom4.png)
 
 The new browser will use the chrom/contig information we specified for it.
 
-![](/src/learn/visualization/trackster/custom5.png)
+![](/learn/visualization/trackster/custom5.png)
 
 ----
 
@@ -141,8 +141,8 @@ See [Visualization Setup](/visualization-setup/) for instructions about how to s
 
 Trackster is designed in a modular client/server fashion using AJAX calls that return JSON data. The client is fully written in Javascript and utilizes the HTML5 canvas element, which exposes a low-level drawing API, to draw data.
 
-![Diagram](/src/learn/visualization/trackster/tracksterdiagram.png)
+![Diagram](/learn/visualization/trackster/tracksterdiagram.png)
 
 Each track consists of one or more canvas tiles, which are drawn and processed in parallel.
 
-![Drawing](/src/learn/visualization/trackster/drawingmethod.png)
+![Drawing](/learn/visualization/trackster/drawingmethod.png)

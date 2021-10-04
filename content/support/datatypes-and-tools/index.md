@@ -13,7 +13,7 @@ Expected input [datatype](/learn/datatypes/) format is explained on the Tool for
 
 ### How to fix
 
-_**Convert Format**_ or modify the datatype using the dataset's ![pencil](/src/images/icons/pencil.png "pencil") icon to reach the _**Edit Attributes**_ form. 
+_**Convert Format**_ or modify the datatype using the dataset's ![pencil](/images/icons/pencil.png "pencil") icon to reach the _**Edit Attributes**_ form. 
 
 Many attributes can be edited on these forms, including **datatype**, **database**, and other **metadata**. 
 

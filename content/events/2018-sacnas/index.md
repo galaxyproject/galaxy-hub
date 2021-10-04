@@ -14,7 +14,7 @@ contact: Camille Avestruz, Tracy Teal, Blake Joyce, Dave Clements, Joslynn Lee
 
 ## Do you have data and don’t know where to start with analysis?
 
-[<img class="float-right" src="/src/events/2018-sacnas/sacnas-2018-flier-thumb.png" />](https://depot.galaxyproject.org/hub/attachments/events/2018-sacnas/2018-sacnas-flier.pdf)
+[<img class="float-right" src="/events/2018-sacnas/sacnas-2018-flier-thumb.png" />](https://depot.galaxyproject.org/hub/attachments/events/2018-sacnas/2018-sacnas-flier.pdf)
 
 There will be two parallel full day pre-conference workshops at [2018 SACNAS](http://www.2018sacnas.org/) that will introduce participants to best practices, tools, and platforms for doing data-intensive research.
 
@@ -39,8 +39,8 @@ The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http
 # Workshop 1: Software and Data Carpentry
 
 <div class="float-right">
-[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="170" />](https://software-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" />](https://data-carpentry.org/)<br />
+[<img src="/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="170" />](https://software-carpentry.org/)<br /><br />
+[<img src="/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" />](https://data-carpentry.org/)<br />
 </div>
 
 **Wednesday, October 10, 9am- 6pm**
@@ -90,8 +90,8 @@ You will need bash and anaconda set up.  Please follow the installation instruct
 # Workshop 2: Data Platforms for Life Science Researchers
 
 <div class="right">
-[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="170" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/)<br />
+[<img src="/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="170" />](https://www.cyverse.org/)<br /><br />
+[<img src="/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/)<br />
 </div>
 
 **Wednesday, October 10, 9am- 6pm**

@@ -1,4 +1,4 @@
-<div class='right'>![](/src/galaxy-team/guerler.jpg)</div>
+<div class='right'>![](/galaxy-team/guerler.jpg)</div>
 # Aysam Guerler
 
 Aysam is a software engineer in the [Taylor Lab](http://taylorlab.org/) at [Johns Hopkins University](http://jhu.edu/). He is an active [member of the Galaxy project](/galaxy-team/).

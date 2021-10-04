@@ -13,7 +13,7 @@ Built-in data files are critical for many Galaxy tools. This page will describe 
 
 There are several steps needed for adding a genome to Galaxy. The first is to get the actual data needed and to put it into an appropriate directory accessible to the Galaxy instance. Then you need to establish the particular `.loc` ("location") file. Finally, make sure that the genome is referenced in the `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file.
 
-**Note that as of early 2014, more than a builds.txt file change is needed to establish a new reference genome. If not using** [Data Managers](/admin/tools/data-managers/) **, you must make the necessary changes/additions to the new [Data Tables](/src/admin/tools/data-tables) or use the alternative configuration file.**
+**Note that as of early 2014, more than a builds.txt file change is needed to establish a new reference genome. If not using** [Data Managers](/admin/tools/data-managers/) **, you must make the necessary changes/additions to the new [Data Tables](/admin/tools/data-tables) or use the alternative configuration file.**
 
 ### Get the data
 

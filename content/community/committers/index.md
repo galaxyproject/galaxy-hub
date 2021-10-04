@@ -6,7 +6,7 @@
 
 Each repository (repo) has it's own committers group, and each group is responsible for setting its own policies and membership. Committers have been around since the start of the project in 2005, and have been community driven since 2015.
 
-<img class="float-right img-responsive" style="max-width: 15rem;" src="/src/images/logos/github-logo-w-text.png" alt="Galaxy lives on GitHub." />
+<img class="float-right img-responsive" style="max-width: 15rem;" src="/images/logos/github-logo-w-text.png" alt="Galaxy lives on GitHub." />
 
 All Committers Groups *should* (but don't) have clear policies for how *contributors* can become *committers*.  Anyone can (and is encouraged to) contribute to any repo.  Committers are the group of people who decide what gets incorporated in the repos they are responsible for.  Most repos are under [GalaxyProject on GitHub](https://github.com/galaxyproject/).
 

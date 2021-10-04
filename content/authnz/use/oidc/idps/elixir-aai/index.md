@@ -24,11 +24,11 @@ In order to login to Galaxy using your ELIXIR AAI identity, take the following s
 
 1. Click on the **Login or Register** button:
 
-    ![image](/src/authnz/use/oidc/idps/elixir-aai/01.png)
+    ![image](/authnz/use/oidc/idps/elixir-aai/01.png)
 
 2. Click on the **Sign in with Elixir** button:
 
-    ![image](/src/authnz/use/oidc/idps/elixir-aai/02.png)
+    ![image](/authnz/use/oidc/idps/elixir-aai/02.png)
 
     <div class="alert alert-info" role="alert">
         **NOTE:**
@@ -41,7 +41,7 @@ In order to login to Galaxy using your ELIXIR AAI identity, take the following s
 3. Clicking on the **Sign in with Elixir** button will take you to the ELIXIR login page, 
 where you would need to login with your ELIXIR AAI associated credentials, such as your home institution:
 
-    ![image](/src/authnz/use/oidc/idps/elixir-aai/03.png)
+    ![image](/authnz/use/oidc/idps/elixir-aai/03.png)
     
     <div class="alert alert-info" role="alert">
         **NOTE:**

@@ -1,21 +1,21 @@
 ---
 title: Adding additional change sets to the initial change set in a repository
 ---
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main ToolShed](/src/images/logos/ToolShed.jpg)</a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main ToolShed](/images/logos/ToolShed.jpg)</a> </div>
 
 For this discussion we'll assume we have created our favorite repository named **filter**, and added a single change set that includes version 1.1.0 of the tool. Here is a view of the current repository change log. Notice the grey highlighted phrase: **Repository metadata is associated with this change set.**  Before we go further in our discussion about adding additional change sets, let's discuss repository metadata.
 
-![](/src/toolshed/repository-revisions/filter_changelog1.png)
+![](/toolshed/repository-revisions/filter_changelog1.png)
 
 # What is repository metadata?
 
 Repository metadata is information about the contents of the repository, and different information is associated with certain change sets in the repository change log. In our example of the simple filter repository with one change set consisting of version 1.1.0 of the filter tool, the repository metadata is restricted to information about the tool. This information can be viewed by clicking the pop-up menu for the tool when viewing the repository contents and selecting the **View tool metadata** option.
 
-![](/src/toolshed/repository-revisions/view_filter_metadata.png)
+![](/toolshed/repository-revisions/view_filter_metadata.png)
 
 Selecting **View tool metadata** for our filter tool displays the following page. Notice that the metadata about the filter tool includes the tool id, version, guid, name, description, requirements and functional tests.
 
-![](/src/toolshed/repository-revisions/filter_tool_metadata.png)
+![](/toolshed/repository-revisions/filter_tool_metadata.png)
 
 Repository metadata is not necessarily restricted to information about the tools in the repository. It will include information about all Galaxy utilities contained in the revision, including custom datatypes, exported Galaxy workflows and repository and tool dependency definitions. If tools included in the repository require entries in Galaxy's **tool\_data\_table\_conf.xml** file, then certain **.sample** files are required to be included in the repository, and information about the sample files is included in the repository metadata.
 
@@ -45,15 +45,15 @@ Uploading files to a non-empty repository introduces additional features on the 
 
 In our case we're just uploading  a single text file for now.
 
-![](/src/toolshed/repository-revisions/upload_non_empty.png)
+![](/toolshed/repository-revisions/upload_non_empty.png)
 
 After uploading the test file, we have the following repository contents.
 
-![](/src/toolshed/repository-revisions/uploaded_another_readme.png)
+![](/toolshed/repository-revisions/uploaded_another_readme.png)
 
 Now looking at the repository change log (by selecting the **View change log** option from the **Repository Actions** pop-up menu), we see our two change sets. The important point to note is that the single repository metadata record is now associated with the new repository tip (1:06ae15bca56a) instead of the change set it was initially associated with (0:d49f482210fc). Why did this happen?
 
-![](/src/toolshed/repository-revisions/change_log.png)
+![](/toolshed/repository-revisions/change_log.png)
 
 The reason that the metadata is associated with the new change set is because the version of the contained utility did not change when the new change set was added to the repository. No tool versions were changed, no tools were eliminated, etc. So anyone installing the repository from this point on will install the changes that are include in the change set we just added.
 
@@ -61,7 +61,7 @@ But what about those that may have installed the repository when it only contain
 
 Clicking on the change set link for the repository tip displays the contents of the file named ANOTHER_README that we uploaded.
 
-![](/src/toolshed/repository-revisions/change_set.png)
+![](/toolshed/repository-revisions/change_set.png)
 
 # Adding a change set that generates a new repository metadata record
 
@@ -74,15 +74,15 @@ The Galaxy standard is to change the value of the version string for a tool if t
 
 In this example, we're uploading a tarball that include only the 2 filter tool files, filtering.xml and filtering.py. We don't want to eliminate the text file we just uploaded, so we set the **Remove files in the repository (relative to the root or selected upload point) that are not in the uploaded archive?** select list to have the value **No**.
 
-![](/src/toolshed/repository-revisions/upload_new_tool_version.png)
+![](/toolshed/repository-revisions/upload_new_tool_version.png)
 
 Uploading the tarball results in the following page. Notice that, as we desired, the file named ANOTHER_README remains in the repository.
 
-![](/src/toolshed/repository-revisions/uploaded_new_tool_version.png)
+![](/toolshed/repository-revisions/uploaded_new_tool_version.png)
 
 Viewing the repository change log produces the following page. Notice that we now have two change set revisions with which repository metadata is associated. Why is this?  Because version 1.1.0 of the repository's filter tool must always be accessible to a Galaxy instance for installation, as well as the new version 2.2.0 of the tool!
 
-![](/src/toolshed/repository-revisions/change_log2.png)
+![](/toolshed/repository-revisions/change_log2.png)
 
 When we visit the repository's main page after uploading the new version of the filter tool, a **Repository revision** select list is displayed at the top of the page because, in the case of our filter tool, the following criteria are all met:
 
@@ -91,11 +91,11 @@ When we visit the repository's main page after uploading the new version of the 
 
 The **Repository revision** select list includes an option for each metadata record associated with the repository.
 
-![](/src/toolshed/repository-revisions/new_filter_version.png)
+![](/toolshed/repository-revisions/new_filter_version.png)
 
 The selected option of the **Repository revision** select list will default to the latest change set revision in the repository change log that is associated with a repository metadata record. Selecting an option enables you to install (or download) the versions of the tools within that change set revision into Galaxy. You can also preview the tool versions and you can inspect the metadata for each tool version available in the selected repository revision. For example, selecting revision **1:...** (the repository tip) of our Filter tool now displays version 2.2.0 of the tool when you click on the **name** of the tool in the **Preview tools and inspect metadata by tool version** form.
 
-![](/src/toolshed/repository-revisions/preview_filter_version_220.png)
+![](/toolshed/repository-revisions/preview_filter_version_220.png)
 
 Selecting revision **0:...** (the previous revision that properly loads into Galaxy) of our Filter tool displays version 1.1.0 of the tool when you click on the **name** of the tool in the **Preview tools and inspect metadata by tool version** form.
 
@@ -107,7 +107,7 @@ As discussed previously, a new repository revision is created every time a chang
 
 While browsing repositories, you'll notice that the value of some **Revision** columns is a select list, while others are simply text. For example, the barcode_splitter and clustalw repositories in the following page have textual **Revision** column values, while the clustalomega repository's value is a select list.
 
-![](/src/toolshed/repository-revisions/repository_revisions.png)
+![](/toolshed/repository-revisions/repository_revisions.png)
 
 Notice that the **Revision** values are a number followed by a **:** and an alpha-numeric string (e.g., 6**:**98d05121d41e). The number automatically increments, and refers to the zero-based number of change sets committed to the repository (i.e, the first committed change set's number is zero). The alpha-numeric string is a unique identifier for each change set within the repository's change log, and the **:** is simply a separator.
 
@@ -115,13 +115,13 @@ Tools that will not successfully load into Galaxy are deemed "invalid", but can 
 
 The criteria by which new repository revisions are generated is described in earlier sections of this page. As another example, let's take a look at the **Revision** column select list for the clustalomega tool. There are 2 options in the select list, 0:ff1768533a07 and 2:bb1847435ec1 (the repository tip). The first option, 0:ff1768533a07, refers to the repository change set that includes clustalomega tool version 0.2.
 
-![](/src/toolshed/repository-revisions/clustalomega_02.png)
+![](/toolshed/repository-revisions/clustalomega_02.png)
 
 You can download version 0.2 of the clustalomega tool by visiting the above page and selecting the appropriate options from the **Repository Actions** menu, and you can preview version 0.2 of the tool and inspect the metadata for that version using the pop-up menu in the **Preview tools and inspect metadata by tool version** section.
 
 Similarly, you can inspect metadata or download version 1.0.2 of the tool by selecting option 2:bb1847435ec1 in the **Revision** select list.
 
-![](/src/toolshed/repository-revisions/clustalomega_102.png)
+![](/toolshed/repository-revisions/clustalomega_102.png)
 
 # Resetting metadata on your repositories
 
@@ -129,11 +129,11 @@ There may be occasions when the entire changelog should be inspected and all of 
 
 Sometimes it may be necessary to reset metadata on multiple repositories. For example, if metadata is changed for a repository that is a dependency of another repository, it may be necessary to reset all metadata on each of the repositories in the dependency chain. A new menu item labeled "Reset metadata on my repositories"  is available in ToolShed under the section labeled "Repositories I can change". This features simplifies the process of resetting metadata on multiple repositories.
 
-![](/src/toolshed/repository-revisions/menu.png)
+![](/toolshed/repository-revisions/menu.png)
 
 Clicking the link will display a page like the following. The list of repositories consists of all repositories in the ToolShed that you are authorized to change. You can select any or all repositories and the entire changelog of all selected repositories will be inspected and metadata will be reset for every changeset revision. Keep in mind that using this feature will eliminate the the list of "Test runs" in the **Automated tool test results** container on the repository's main page. This information will be made available the next time the automated "Install and test framework" is executed. This occurs daily for each public ToolShed.
 
-![](/src/toolshed/repository-revisions/reset_repos.png)
+![](/toolshed/repository-revisions/reset_repos.png)
 
 The ToolShed API also provides methods for resetting metadata on repositories in the ToolShed.
 

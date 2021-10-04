@@ -5,7 +5,7 @@ external_url:
 date: "2019-12-19"
 ---
 
-[<img class="float-right" style="max-width: 18rem;" src="/src/images/galaxy-logos/galaxy-australia.png" />](https://mailchi.mp/melbournebioinformatics/2019wrap)
+[<img class="float-right" style="max-width: 18rem;" src="/images/galaxy-logos/galaxy-australia.png" />](https://mailchi.mp/melbournebioinformatics/2019wrap)
 
 Following [Galaxy Australia](https://usegalaxy.org.au/)’s very successful representation at Jakarta for the [INCOB 2019 meeting](/events/2019-09-incob/), [Dave Clements](/people/dave-clements/) of the Galaxy project asked our resident Galaxy guru Simon Gladman to represent the Galaxy community at the [Galaxy Africa](https://www.iscb.org/iscbafrica2019-ps/iscbafrica2019-worktut#galaxy) and [ISCB-Africa ASBCB Conference on Bioinformatics](https://www.iscb.org/iscbafrica2019) being held in Ghana in November 2019.
 

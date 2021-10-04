@@ -4,7 +4,7 @@ tease: "New Featured and Community News sections; new events, releases, training
 date: "2021-03-17"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 It is a very busy time in the Galaxy. 2021 is young, but we have already had two large training events, including the largest Galaxy event ever - the GTN Smörgåsbord (with an amazing 1100+ people registered). We are ramping up for GCC2021, which will be online, global, and affordable, and will be more accessible (and likely much larger) than an in-person Galaxy Community Conference.
 
@@ -62,7 +62,7 @@ A number of notable videos and video collections have recently been published:
 
 <!-- Governance  -->
 <div class="card border-info" style="min-width: 40%; max-width: 100%">
-<img class="card-img-top" src="/src/community/governance/governance-slice.png" alt="Galaxy Governance" />
+<img class="card-img-top" src="/community/governance/governance-slice.png" alt="Galaxy Governance" />
 <div class="card-header">[Working Groups](/community/wg/) and the [draft Galaxy Governance Model](/community/governance/)</div>
 
 In December, Galaxy introduced [Working Groups](/community/wg/), community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks. Working Groups were launched in late 2020.  *If you want to contribute to Galaxy in a big way, please join one or more Working Groups.* 
@@ -75,7 +75,7 @@ Our hope is that this framework will enable us to become a truly global communit
 
 <!-- Smorgasbord -->
 <div class="card border-info" style="min-width: 25%; max-width: 100%">
-<img class="card-img-top" src="/src/blog/2021-03-smorgasbord/slack-themes.png" alt="Themes in Slack over time" />
+<img class="card-img-top" src="/blog/2021-03-smorgasbord/slack-themes.png" alt="Themes in Slack over time" />
 <div class="card-header">[GTN Smörgåsbord Report](https://gallantries.github.io/posts/2021/03/01/sm%C3%B6rg%C3%A5sbord/)</div>
 
 *The recently completed GTN Smörgåsbord course was the largest Galaxy event ever, and it was absolutely incredible.*
@@ -125,7 +125,7 @@ The first round of EOSC-Life demonstrators has driven eight successful use cases
 
 <!-- Czechia! -->
 <div class="card border-info"  style="min-width: 16rem; max-width: 100%;">
-<img class="card-img-top" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
+<img class="card-img-top" src="/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
 <div class="card-header">[Czech Galaxy Community](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)</div>
 
 Has [launched](https://www.elixir-czech.cz/news/czech-galaxy-community-questionnaire-feb-2021)!  If you are part of the Czech computational analysis community then please consider getting involved by:
@@ -137,7 +137,7 @@ Has [launched](https://www.elixir-czech.cz/news/czech-galaxy-community-questionn
 
 <!-- F1000 -->
 <div class="card border-info"  style="min-width: 20rem; max-width: 100%">
-<img class="card-img-top" src="/src/images/logos/f1000research-logo-wide.png" alt="F1000 Research" />
+<img class="card-img-top" src="/images/logos/f1000research-logo-wide.png" alt="F1000 Research" />
 <div class="card-header">[F1000 Research Galaxy Gateway](https://f1000research.com/gateways/galaxy)</div>
 
 We would like to reintroduce the newly updated [Galaxy Gateway](https://f1000research.com/gateways/galaxy) powered by [F1000Research](https://f1000research.com/). This Gateway offers an accessible home for all research outputs. You can [rapidly publish your Galaxy-related presentations for free](https://f1000research.com/gateways/galaxy/for-authors/publish-your-research). The Gateway has been the recommended venue for publishing [GCC](/gcc/) slides and posters since GCC2016. It's a great way to improve the visibility and accessibility of your research, and you will receive a DOI too.
@@ -148,7 +148,7 @@ We would like to reintroduce the newly updated [Galaxy Gateway](https://f1000res
 
 <!-- Papercuts awards -->
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<img class="card-img-top" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
+<img class="card-img-top" src="/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
 <div class="card-header">[Galaxy Participating in Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6022098314592256/)</div>
 
 The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Galaxy is a part, has been accepted to participate in the [2021 Google Summer of Code](https://summerofcode.withgoogle.com/).
@@ -177,7 +177,7 @@ The [January Papercuts CoFest](/events/2021-01-papercuts/) offered prizes for 10
 
 The calendars actually start in March 2021.  You [can order one too](https://www.mixbook.com/photo-calendars/all/full-photo-layout-copy-24634591?vk=QK1D58DRcWF1R8nwwwOf).
 
-<img class="card-img-bottom" style="max-width: 50%;" src="/src/events/2021-01-papercuts/calendar.png" alt="calendar thumbnail" />
+<img class="card-img-bottom" style="max-width: 50%;" src="/events/2021-01-papercuts/calendar.png" alt="calendar thumbnail" />
 </div>
 
 <!-- Meet & Join the Galaxy Community -->
@@ -201,7 +201,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 
 <!-- Galaxy Webinars -->
 <div class="card border-info" style="min-width: 50%; max-width: 100%">
-<img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+<img class="card-img-top" src="/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 <div class="card-header">[Galaxy-ELIXIR webinars series: Advanced Features](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features)</div>
 
 **3, 10, 17, 24 March**
@@ -239,7 +239,7 @@ Please watch Galaxy channels for the registration and abstract submission announ
 
 <!-- UseGalaxy.No -->
 <div class="card border-info" style="min-width: 18rem; max-width: 100%;">
-<img class="card-img-top" src="/src/use/usegalaxy-no/usegalaxy-no-logo-600.jpg" alt="UseGalaxy.NO" />
+<img class="card-img-top" src="/use/usegalaxy-no/usegalaxy-no-logo-600.jpg" alt="UseGalaxy.NO" />
 <div class="card-header">[Using the Norwegian e-infrastructure for Life Science and usegalaxy.no](https://elixir.no/news/55/63/Online-course-by-ELIXIR-Norway-Using-the-Norwegian-e-infrastructure-for-Life-Science-and-usegalaxy.no)</div>
 
 **23 March, 7 April, or 13 April**
@@ -250,7 +250,7 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 
 <!-- Czechia! -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
+<img class="card-img-top" src="/images/logos/elixir-cz-banner.png" alt="ELIXIR Czech Republic Logo" />
 <div class="card-header">[Introduction to Galaxy & Proteomics online workshop](https://www.elixir-czech.cz/events/introduction-to-galaxy-and-proteomics-online-workshop-mar-2021)</div>
 
 **March 22**
@@ -262,7 +262,7 @@ This workshop is open to everybody interested in Galaxy and has two independent 
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
-<img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
+<img class="card-img-top" src="/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">[March Papercuts CoFest](/events/2021-03-papercuts/)</div>
 
 **18 March, Online, Global**
@@ -273,7 +273,7 @@ Please join us for the [6th Papercuts CoFest day on March 18](/events/2021-03-pa
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtable](/community/devroundtable/)</div>
 
 There next roundtable meetup will be:
@@ -284,7 +284,7 @@ There next roundtable meetup will be:
 
 <!-- biohack deadline -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/bhlogo.png" alt="Biohackathon Europe" />
+<img class="card-img-top" src="/images/logos/bhlogo.png" alt="Biohackathon Europe" />
 <div class="card-header">[Biohackathon Europe Call for Proposals](https://biohackathon-europe.org/projects.html)</div>
 
 **Deadline: 1 April**
@@ -318,7 +318,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 ASaiM integrates and hierarchically organizes metagenomic and metatranscriptomic tools to orient user choice toward the best tool for a given task. It now has a [new publication and new functionality](https://doi.org/10.12688/f1000research.28608.1) and the update is now available as [its own Docker image](https://quay.io/repository/bebatut/asaim-framework?tag=latest&tab=tags), and on [UseGalaxy.eu](https://usegalaxy.eu/) too.
 
-<img class="card-img-bottom" src="/src/use/asaim/asaim-figure1.png" alt="ASaiM paper, figure 1, showing workflow" />
+<img class="card-img-bottom" src="/use/asaim/asaim-figure1.png" alt="ASaiM paper, figure 1, showing workflow" />
 
 </div>
 
@@ -328,7 +328,7 @@ ASaiM integrates and hierarchically organizes metagenomic and metatranscriptomic
 
 immuneML is an open-source collaborative ecosystem for machine learning-based (ML) analyses of adaptive immune [receptors](https://docs.immuneml.uio.no/galaxy/galaxy_simple_receptors.html) and [repertoires](https://docs.immuneml.uio.no/galaxy/galaxy_simple_repertoires.html) (AIRR).  It comes with extensive help, and is supported by the University of Oslo.
 
-<img class="card-img-bottom" src="/src/use/immuneml/immuneml-logo.png" alt="immuneML logo" />
+<img class="card-img-bottom" src="/use/immuneml/immuneml-logo.png" alt="immuneML logo" />
 
 </div>
 
@@ -341,7 +341,7 @@ A [one-stop resource](http://galaxy.interactomix.com/) offering a wide range of 
 
 InteractoMIX is the result of the combined efforts of [Structural Bioinformatics](http://sbi.imim.es/web/index.php) and [Bioinsilico](http://www.bioinsilico.org/) labs.
 
-<img class="card-img-bottom" src="/src/use/interactomix/interactomix-visual-abstract.jpg" alt="InteractoMIX visual abstract, from paper" />
+<img class="card-img-bottom" src="/use/interactomix/interactomix-visual-abstract.jpg" alt="InteractoMIX visual abstract, from paper" />
 
 </div>
 
@@ -358,7 +358,7 @@ InteractoMIX is the result of the combined efforts of [Structural Bioinformatics
 
 Interested in being an early adopter? See the [full announcement](https://galaxyworks.io/blog/researcher-beta-users).
 
-<img class="card-img-bottom" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks logo."  />
+<img class="card-img-bottom" src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks logo."  />
 </div>
 
 
@@ -366,7 +366,7 @@ Interested in being an early adopter? See the [full announcement](https://galaxy
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
@@ -386,7 +386,7 @@ Interested in being an early adopter? See the [full announcement](https://galaxy
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
 <div class="card-header">[GalaxyWorks Blog Posts](https://galaxyproject.eu/posts/2021/02/18/community-video/)</div>
 
-<img class="card-img-top" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks logo." />
+<img class="card-img-top" src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks logo." />
 
 [GalaxyWorks](https://galaxyworks.io/) has also started a blog highlighting aspects of Galaxy (and sometimes their offerings too). Two posts from the past month are:
 
@@ -401,7 +401,7 @@ Interested in being an early adopter? See the [full announcement](https://galaxy
 
 The [ELIXIR Authentication and Authorisation Infrastructure (AAI)](https://elixir-europe.org/services/compute/aai) enables researchers to use their home organisation credentials or community or commercial identities (e.g. ORCID, LinkedIn, Google) to sign in and access Galaxy.
 
-<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="ELIXIR" />
+<img class="card-img-bottom" src="/images/logos/elixir-logo-big-wide.png" alt="ELIXIR" />
 </div>
 
 
@@ -413,7 +413,7 @@ By Wolfgang Maier, Marius Van Den Beek, Björn Grüning, Sergei Kosakovsky Pond,
 
 This analysis of intrahost variation in the COVID pandemic is split into two postings (**[Part 1](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-1/623)** and **[Part 2](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-2/624)**).
 
-<img class="card-img-bottom" src="/src/blog/2021-02-covid-intrahost/spatial-density.png" alt="Part of figure 8, Spatial density of variants per gene/product" />
+<img class="card-img-bottom" src="/blog/2021-02-covid-intrahost/spatial-density.png" alt="Part of figure 8, Spatial density of variants per gene/product" />
 </div>
 
 
@@ -425,7 +425,7 @@ By Mali Salmon-Divon.
 
 Mali shares the feedback of two workshops run using TIaaS: one or graduate students and another one for medical doctors.
 
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+<img class="card-img-bottom" src="/images/logos/tiaas-logo.png" alt="TIaaS" />
 </div>
 
 </div>
@@ -492,7 +492,7 @@ This new [tutorial](https://training.galaxyproject.org/training-material/topics/
 
 The global [Life Science Trainers Community](https://lifescitrainers.org/) (yes, you should join) wants to highlight the important role of trainers and understand how they can be better supported. **If you are, or have been a trainer, [share your thoughts](https://lifescitrainers.org/2021/01/18/global-trainers-survey/) in this survey by March 20.**
 
-<img class="card-img-bottom" src="/src/images/logos/life-science-trainiers-squarish.png" alt="Life Sciences Trainers" />
+<img class="card-img-bottom" src="/images/logos/life-science-trainiers-squarish.png" alt="Life Sciences Trainers" />
 </div>
 
 
@@ -505,7 +505,7 @@ After the success of the first [‘Galaxy-ELIXIR webinar series: FAIR data and O
 
 In this second edition, and for six consecutive weeks, speakers from all around the globe have been describing the latest Galaxy developments for working with SARS-CoV-2 data. If you missed them, the recordings are now available on the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
 
-<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+<img class="card-img-bottom" src="/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 </div>
 
 </div>
@@ -586,7 +586,7 @@ Rajczewski, A. T., Mehta, S., Nguyen, D. D. A., Grüning, B. A., Johnson, J. E.,
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 45%; max-width: 100%">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
 <div class="card-header">Galaxy 21.01</div>
 
 We are pleased to [announce the 21.01 Galaxy release](/news/2021-03-galaxy-release-21-01/).  As the announcement says:
@@ -604,7 +604,7 @@ The new [Remote Files interface](news/2021-03-galaxy-release-21-01/#remote-files
 
 
 <div class="card border-info"  style="min-width: 30%; max-width: 100%">
-<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
+<img class="card-img-top" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
 <div class="card-header">Planemo 0.74.2-3</div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of

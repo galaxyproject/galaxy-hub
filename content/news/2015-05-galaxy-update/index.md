@@ -3,8 +3,8 @@ title: "May Galactic News!"
 date: "2015-05-01"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-05/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galactic News! May 2015 Edition" width=150 /></a><br /><br />
-<a href='/galaxy-updates/2015-05/#gcc2015-4-8-july-norwich-uk'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015" width="150" /></a><br />
+<a href='/galaxy-updates/2015-05/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galactic News! May 2015 Edition" width=150 /></a><br /><br />
+<a href='/galaxy-updates/2015-05/#gcc2015-4-8-july-norwich-uk'><img src="/images/logos/GCC2015LogoWide600.png" alt="GCC2015" width="150" /></a><br />
 </div>
 
 The **[May Galactic News](/galaxy-updates/2015-05/)** brings lots of Galaxy related news including:
@@ -25,4 +25,4 @@ The **[May Galactic News](/galaxy-updates/2015-05/)** brings lots of Galaxy rela
 
 And, [other news](/galaxy-updates/2015-05/#other-news) as well.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

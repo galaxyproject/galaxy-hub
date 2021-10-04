@@ -3,7 +3,7 @@ title: GalaxyAdmins Future Directions (circa 2015)
 ---
 <div class='center'>
 
-![GalaxyAdmins](/src/images/logos/GalaxyAdmins.png)
+![GalaxyAdmins](/images/logos/GalaxyAdmins.png)
 
 </div>
 

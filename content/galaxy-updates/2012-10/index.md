@@ -1,7 +1,7 @@
 ---
 title: October 2012 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the October 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -65,7 +65,7 @@ These papers were among [35 papers added to the Galaxy CiteULike group](http://w
 
 ## New Public Server: CBIIT
 
-<div class='right'><a href='http://galaxy.cbiit.cuhk.edu.hk/'><img src="/src/images/logos/CUHKLogo.jpg" /></a></div>
+<div class='right'><a href='http://galaxy.cbiit.cuhk.edu.hk/'><img src="/images/logos/CUHKLogo.jpg" /></a></div>
 
 The [CUHK-BGI Innovation Institution of Trans-Omics (CBIIT)](http://www.cuhk.edu.hk/cbiit/) has now made its [Galaxy server](http://galaxy.cbiit.cuhk.edu.hk/) publicly available.  The CBIIT Galaxy Server has the standard Galaxy tool set plus SOAPdenovo and SOAPsnp for *de novo* assembly and SNP calling.  
 
@@ -73,7 +73,7 @@ The [CBIIT Galaxy Server](http://galaxy.cbiit.cuhk.edu.hk/) joins the 20+ other 
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs @ Penn State and Emory
@@ -84,14 +84,14 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='/events/switzerland2012/'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
-<a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src="/src/images/logos/EScience2012Logo.png" alt="Extending High-Performance Computing Beyond its Traditional User Communities Workshop" height="100" /></a>&nbsp;
-<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/src/images/logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>
+<a href='/events/switzerland2012/'><img src="/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="90" /></a>
+<a href='http://www.psc.edu/index.php/escience-2012-workshop'><img src="/images/logos/EScience2012Logo.png" alt="Extending High-Performance Computing Beyond its Traditional User Communities Workshop" height="100" /></a>&nbsp;
+<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/images/logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 
 There are October application, poster, and paper deadlines for 
 * [Rocky 2012](http://www.iscb.org/rocky2012) (deadline October 4)

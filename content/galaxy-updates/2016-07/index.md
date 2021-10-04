@@ -10,7 +10,7 @@ title: July 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
 Welcome to the July 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
 
@@ -20,7 +20,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 # GCC2016 is done!
 
 <div class='right'>
-<a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="/src/images/logos/GCC2016LogoTallBig.png" alt="2016 Galaxy Community Conference" width="120" /></a>
+<a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="/images/logos/GCC2016LogoTallBig.png" alt="2016 Galaxy Community Conference" width="120" /></a>
 </div>
 
 And it was again a smashing success!  For the 5th year in a row we had over 200 participants signed up for GCC events, including [hackathons](https://web.archive.org/web/http://gcc2016.iu.edu/hacks/index.php), [training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [the two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All). The [meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featured [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), [posters](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos), [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), and [birds-of-a-feather meetups](/events/gcc2016/bofs/).
@@ -37,7 +37,7 @@ Several upcoming events were announced / highlighted at GCC2016:
 
 ## GCC2017: 26-30 June 2017, Montpellier, France
 
-<div class='right'><a href='https://gcc2017.sciencesconf.org/'><img src="/src/images/logos/GCC2107.png" alt="2017 Galaxy Community Conference (GCC2017)" width="240" /></a></div>
+<div class='right'><a href='https://gcc2017.sciencesconf.org/'><img src="/images/logos/GCC2107.png" alt="2017 Galaxy Community Conference (GCC2017)" width="240" /></a></div>
 
 *GCC returns to Europe in 2017!*
 
@@ -47,7 +47,7 @@ GCC2017 will feature hackathons, two days of training and a two day meeting high
 
 All conference events will be at the [Le Corum Conference Center](http://www.montpellier-events.com/Le-Corum/Presentation), located in central Montpellier, next to the train station, and a 15 minute ride from the Montpellier International Airport.  GCC2017 is hosted by the [French Institute of Bioinformatics (IFB)](http://www.france-bioinformatique.fr/).
 
-<div class='right'><br /><a href='/events/sg2016/'><img src="/src/images/logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" width="230" /></a>
+<div class='right'><br /><a href='/events/sg2016/'><img src="/images/logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" width="230" /></a>
 </div>
 
 ## Swiss-German Galaxy Days
@@ -58,7 +58,7 @@ Registration is free, but space is limited on both days. We recommend you regist
 
 ## Galaxy Admin Training, November 7-11, Salt Lake City, Utah
 
-<div class='left'><a href='/events/admin-training2016/'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="140" /></a></div>
+<div class='left'><a href='/events/admin-training2016/'><img src="/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="140" /></a></div>
 
 The first ever [Galaxy Project Admin Training workshop](/events/admin-training2016/) will be held November 7-11 in Salt Lake City Utah.  The workshop features a 2 day basics session followed by a 3 day advanced session. There is a separate registration for each session, and participants may sign up for one or both.  We are working with the Utah High Performance Computing Center at the University of Utah for cluster access during the advanced session.
 
@@ -69,7 +69,7 @@ The curriculum will be published and registration will open later this month.  W
 ## European Galaxy Developer Knowledge Exchange
 
 <div class='right'>
-<a href='https://www.elixir-europe.org/about/groups/galaxy-wg'><img src="/src/images/logos/ElixirNoTextLogo.png" alt="ELIXIR" width="140" /></a>
+<a href='https://www.elixir-europe.org/about/groups/galaxy-wg'><img src="/images/logos/ElixirNoTextLogo.png" alt="ELIXIR" width="140" /></a>
 </div>
 
 [ELIXIR](https://www.elixir-europe.org/), the European life-science Infrastructure for Biological Information, aims to orchestrate the collection, quality control, share-ability and archiving of large amounts of biological data produced by life science experiments and the resources to compute with this data.
@@ -79,7 +79,7 @@ Galaxy is widely used in the ELIXIR community. The [French ELIXIR node (IFB)](ht
 
 ## Galaxy AustralAsia Meeting (GAMe 2017), 3-9 February, Melbourne
 
-<div class='right'><a href='http://www.embl-abr.org.au/GAMe2017'><img src="/src/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting (GAMe 2017)" width="140" /></a></div>
+<div class='right'><a href='http://www.embl-abr.org.au/GAMe2017'><img src="/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting (GAMe 2017)" width="140" /></a></div>
 
 The **[Galaxy Australasia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe2017)** will be held 3-9 February in Melbourne Australia. The schedule has been set:
 
@@ -100,9 +100,9 @@ Instructors and speakers will include experts from Australia and Asia, as well a
 There are [a plentitude of Galaxy related events coming up](/events/). Here's what's coming up over the next fe months:
 
 <div class='center'> 
-<a href='/events/ismb2016/'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2015" width="120" /></a>
-<a href='/events/ismb2016/'><img src="/src/images/logos/ISMB_2016_Logo.jpg" alt="ISMB 2016" width="140" /></a>
-<a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'><img src="/src/images/logos/TAGC_logo_squarish.png" alt="An Introduction to Using Galaxy for Genetic Data Analysis @ TAGC" /></a>
+<a href='/events/ismb2016/'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2015" width="120" /></a>
+<a href='/events/ismb2016/'><img src="/images/logos/ISMB_2016_Logo.jpg" alt="ISMB 2016" width="140" /></a>
+<a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'><img src="/images/logos/TAGC_logo_squarish.png" alt="An Introduction to Using Galaxy for Genetic Data Analysis @ TAGC" /></a>
 </div>
 
 <table>
@@ -273,7 +273,7 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
@@ -366,7 +366,7 @@ The new papers were tagged with:
 
 # Who's Hiring
 
-<div class='right'><br /><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><br /><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 * [PhD student or postdoctoral researcher](http://www.uni-freiburg.de/verwaltung/stellenboerse/?erf=y&stellenid=9837&layout=v4), University of Freiburg, Freiburg, Germany.
@@ -386,7 +386,7 @@ One [new publicly accessible Galaxy servers](/use/) was added to [the list](/use
 
 ## Chemical Annotation Retrieval Toolkit (CART)
 
-<div class='right solid'><a href='http://cart.embl.de/'><img src="/src/use/cart/cart.png" alt="Chemical Annotation Retrieval Toolkit (CART) Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://cart.embl.de/'><img src="/use/cart/cart.png" alt="Chemical Annotation Retrieval Toolkit (CART) Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [Server](http://cart.embl.de/)
@@ -444,9 +444,9 @@ And one [new set of Semi-Public Galaxy server](/use/) was added in June.  Semi-p
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
@@ -468,7 +468,7 @@ One new [community log board entry](/blog/) was added:
 
 ## blend4php 0.1 alpha
 
-<div class='right'><a href='https://github.com/galaxyproject/blend4php'><img src="/src/images/galaxy-logos/blend4phpLogo.png" alt="" width="220" /></a></div>
+<div class='right'><a href='https://github.com/galaxyproject/blend4php'><img src="/images/galaxy-logos/blend4phpLogo.png" alt="" width="220" /></a></div>
 
 **We are pleased to announce the alpha release of the [blend4php package](https://github.com/galaxyproject/blend4php), a PHP wrapper for the [Galaxy API](https://docs.galaxyproject.org/en/master/api_doc.html).** It follows the lead of [BioBlend](https://bioblend.readthedocs.io/en/latest/) which provides a Python package for interacting with Galaxy and CloudMan--hence the use of 'blend' in the name of this package. blend4php currently offers a partial implementation of the Galaxy API and includes support for datasets, data types, folder contents, folders, genomes, group roles, groups, group users, histories, history contents, jobs, libraries, library contents, requests, roles, search, tools, toolshed repositories, users, visualizations and workflows.
 
@@ -477,7 +477,7 @@ The motivation for development of this library is for integration with [Tripal](
 Please see the [API documentation](http://galaxyproject.github.io/blend4php/docs-v0.1a/html/index.html) page for full information.
 
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
 
 ## Planemo 0.27.0
 
@@ -505,7 +505,7 @@ Highlights of June releases include:
 
 ### Galaxy v16.04
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
  
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[April 2016 (v16.04) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.04_announce.html)**.
 
@@ -545,7 +545,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 ### CloudMan 16.04
 
-<div class='right'><a href='/cloudman/'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
 
 **We just released an update to Galaxy CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
@@ -556,7 +556,7 @@ This is a minor update release with the following changes:
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
 
 ### Pulsar 0.7.0
 
@@ -569,7 +569,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

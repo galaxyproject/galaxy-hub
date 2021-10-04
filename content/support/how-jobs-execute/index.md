@@ -7,7 +7,7 @@ title: How Jobs Execute
 
 The Galaxy user interface (UI) has been designed to communicate job execution status through visual cues and concise messages. 
 
-Learn more about how to identify these cues by [examining what Datasets in different states look like](/src/tutorials/histories/#history-panel-datasets).
+Learn more about how to identify these cues by [examining what Datasets in different states look like](/tutorials/histories/#history-panel-datasets).
 
 
 ## How Jobs Run
@@ -58,7 +58,7 @@ Learn more about how to identify these cues by [examining what Datasets in diffe
 ### Light blue
 
   * The job is paused.
-  * This indicates either an input has a problem or that you have [exceeded disk quota](/src/main/#user-data-and-job-quotas) set by the administrator of the Galaxy instance you are working on.
+  * This indicates either an input has a problem or that you have [exceeded disk quota](/main/#user-data-and-job-quotas) set by the administrator of the Galaxy instance you are working on.
   * If there is an input problem, correct the problem (often by re-run an upstream job) and click on the tool form option to "resume dependencies". 
   * You will not need to stop or restart downstream jobs in most cases (permit paused jobs to start, as inputs datasets become available, through this method).
   * Running out of disk space? [Permanently delete unneeded data](/support/account-quotas/).

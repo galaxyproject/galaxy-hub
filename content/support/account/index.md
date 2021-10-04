@@ -27,7 +27,7 @@ Note: Updating a registered account email address will not prevent ongoing multi
 
 # Adminstrators
 
-Admin setting up an instance? See our **[User Accounts](/authnz/config/gxy/)** page for more help, or [different user authentication methods](/src/authnz).
+Admin setting up an instance? See our **[User Accounts](/authnz/config/gxy/)** page for more help, or [different user authentication methods](/authnz).
 
 # Learning and Teaching
 

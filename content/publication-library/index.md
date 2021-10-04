@@ -4,7 +4,7 @@ title: "Galaxy Publication Library"
 
 <div class="float-right">
 
-[![Galaxy Publication Library at Zotero](/src/images/logos/zotero-logo-small-trans.png)](https://www.zotero.org/groups/galaxy)
+[![Galaxy Publication Library at Zotero](/images/logos/zotero-logo-small-trans.png)](https://www.zotero.org/groups/galaxy)
 
 </div>
 
@@ -60,7 +60,7 @@ Zotero is configured to also add any keywords it can detect automatically when t
 
 # Want to Help?
 
-Please see the [instructions for contributing](/src/publication-library/contribute). We'd love to have your help.
+Please see the [instructions for contributing](/publication-library/contribute). We'd love to have your help.
 
 # Some History
 
@@ -76,9 +76,9 @@ Please see the [instructions for contributing](/src/publication-library/contribu
 
 <div class="float-right">
 
-![citeulike](/src/images/logos/CiteULikeLogo.png)
+![citeulike](/images/logos/CiteULikeLogo.png)
 
-![Mendeley](/src/images/logos/MendeleyLogo.png)
+![Mendeley](/images/logos/MendeleyLogo.png)
 
 </div>
 

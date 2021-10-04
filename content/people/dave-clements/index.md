@@ -89,7 +89,7 @@ My pre-bioinformatics career included
 ### 2010s
 
 * **[2019 Galaxy Community Conference](/events/gcc2019/)**, July 1-8, 2020, Freiburg, Germany.
-* **[GCCBOSC 2018](/src/events/gccbosc2018)**, Portland, Oregon, United States
+* **[GCCBOSC 2018](/events/gccbosc2018)**, Portland, Oregon, United States
 * **[2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/)**, June 26-30, 2017, Montpellier, France
 * **[Galaxy AustralAsia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe2017)**, February 3-9, 2017, Melbourne, Australia
 * **[Galaxy Admin Training 2016](/events/admin-training2016/)**, November 7-11, 2016, Salt Lake City, Utah, United States
@@ -154,7 +154,7 @@ My pre-bioinformatics career included
 * **[Genomic data science with the Galaxy workbench](/events/2019-sacnas/)**, [2019 SACNAS](http://www.2019sacnas.org/), Honolulu, Hawai'i, United States. October 30, 2019.
 * **[Reproducible Genomic Data Analysis with the Galaxy Workbench](/events/2019-10-aises/)**, [AISES 2019, Milwaukee, Wisconsin, United States](https://conference.aises.org/agenda). October 11, 2019.
 * **[Plenary Panel: Effective Checklists for Developers and Researchers to Gather Requirements for Science Gateways](https://sched.co/RaIM)**, [Gateways 2019]( Gateways 2019, San Diego, California, United States)September 24, 2019 
-* **[Building a regional Galaxy Community and Platform](/src/events/2019-09-incob/#building-a-regional-galaxy-community-and-platform/index.md)**, [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia. September 12, 2019
+* **[Building a regional Galaxy Community and Platform](/events/2019-09-incob/#building-a-regional-galaxy-community-and-platform)**, [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia. September 12, 2019
 * **[Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://bit.ly/galaxyincob19)**, [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia. September 11, 2019.
 * **[Use Galaxy, Right Now!](https://sched.co/PSOt)**, [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany. [Slides](https://static.sched.com/hosted_files/gcc2019/05/S13OTG-7__Use%20Galaxy%2C%20Right%20Now%21.pdf). July 4, 2021. 
 * **[Galaxy Publication Library](https://sched.co/QMv4)**, [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany. [Slides](https://static.sched.com/hosted_files/gcc2019/72/S13OTG-8__Galaxy%20Publication%20Library.pdf). July 4, 2019.

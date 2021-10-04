@@ -14,10 +14,10 @@ Papercuts events are [Galaxy CoFests](/events/cofests/) that address annoying, b
 
 <div class="text-center img-sizer autowidth" style="height: 6rem">
 
-![](/src/events/2020-10-papercuts/papercuts-2020-10-21.png)
-![](/src/events/2020-11-papercuts/papercuts-2020-11-18.png)
-![](/src/events/2020-12-papercuts/papercuts-2020-12.gif)
-![](/src/events/2021-01-papercuts/papercuts-2021-01.png)
+![](/events/2020-10-papercuts/papercuts-2020-10-21.png)
+![](/events/2020-11-papercuts/papercuts-2020-11-18.png)
+![](/events/2020-12-papercuts/papercuts-2020-12.gif)
+![](/events/2021-01-papercuts/papercuts-2021-01.png)
 
 </div>
 

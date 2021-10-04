@@ -1,4 +1,4 @@
-<div class='right'>![](/src/images/people/jgoecks-banff-small.png)</div>
+<div class='right'>![](/images/people/jgoecks-banff-small.png)</div>
 
 # Jeremy Goecks
 

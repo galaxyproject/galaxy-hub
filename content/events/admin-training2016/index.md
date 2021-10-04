@@ -14,10 +14,10 @@ Training will take place the week before [Supercomputing'16 (SC16)](http://sc16.
 
 <div class='right'>
 <br /><br />
-<a href='http://www.universityguesthouse.com/University-Guest-House'><img src="/src/events/admin-training2016/UniversityGuestHouse.jpg" alt="University Guest House" width="200" /></a><br /><br />
-<a href='https://en.wikipedia.org/wiki/Red_Line_(TRAX)#/media/File:TRAX_Red_Line_to_Daybreak_at_Fort_Douglas_Station.jpg'><img src="/src/events/admin-training2016/logistics/TRAX_Red_Line_to_Daybreak_at_Fort_Douglas_Station.jpg" alt="Fort Douglas Station on the TRAX Red Line" width="200" /></a><br /><br />
-<a href='http://www.slcpl.lib.ut.us/branches/view/Main+Library'><img src="/src/events/admin-training2016/SLCLibrary1.jpg" alt="Salt Lake City Main Public Library, the venue for the introduction workshop"  /></a><br /><br />
-<a href='http://www.universityguesthouse.com/Commanders-House'><img src="/src/events/admin-training2016/CommandersHouse.jpg" alt="Commanders House on University of Utah Campus, venue for Advanced session" width="200" /></a>
+<a href='http://www.universityguesthouse.com/University-Guest-House'><img src="/events/admin-training2016/UniversityGuestHouse.jpg" alt="University Guest House" width="200" /></a><br /><br />
+<a href='https://en.wikipedia.org/wiki/Red_Line_(TRAX)#/media/File:TRAX_Red_Line_to_Daybreak_at_Fort_Douglas_Station.jpg'><img src="/events/admin-training2016/logistics/TRAX_Red_Line_to_Daybreak_at_Fort_Douglas_Station.jpg" alt="Fort Douglas Station on the TRAX Red Line" width="200" /></a><br /><br />
+<a href='http://www.slcpl.lib.ut.us/branches/view/Main+Library'><img src="/events/admin-training2016/SLCLibrary1.jpg" alt="Salt Lake City Main Public Library, the venue for the introduction workshop"  /></a><br /><br />
+<a href='http://www.universityguesthouse.com/Commanders-House'><img src="/events/admin-training2016/CommandersHouse.jpg" alt="Commanders House on University of Utah Campus, venue for Advanced session" width="200" /></a>
 </div>
 
 **[November 7-8, Salt Lake City Library](/events/admin-training2016/basics-session/)**
@@ -86,8 +86,8 @@ For information on event lodging, arriving in Salt Lake, and getting around, see
 
 # Can't make it to Salt Lake or on another continent?
 
-<div class='right'><div class='right'><a href='https://www.embl-abr.org.au/game2017/training-for-admin-workshop/'><img src="/src/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="80" /></a> </div><br />
-<a href='/events/egdw2017/'><img src="/src/images/logos/IFBGalaxyWG.png" alt="European Galaxy Developer workshop 2017" width="100" /></a></div>
+<div class='right'><div class='right'><a href='https://www.embl-abr.org.au/game2017/training-for-admin-workshop/'><img src="/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="80" /></a> </div><br />
+<a href='/events/egdw2017/'><img src="/images/logos/IFBGalaxyWG.png" alt="European Galaxy Developer workshop 2017" width="100" /></a></div>
 
 This is one of three comprehensive Galaxy admin and developer training events between November and February.  They are:
 
@@ -98,11 +98,11 @@ This is one of three comprehensive Galaxy admin and developer training events be
 # Hosts
 
 <div class='center'>
-<a href='http://www.chpc.utah.edu'><img src="/src/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a> &nbsp; 
-<a href='http://healthsciences.utah.edu/'><img src="/src/images/logos/UUtahHealthSciences.png" alt="University of Utah" height="90" /></a> <br />
-<a href='http://medicine.utah.edu/dbmi/'><img src="/src/images/logos/UUtahDBMI.png" alt="University of Utah Department of Biomedical Informatics" width="220" /></a>
-<a href='http://medicine.utah.edu/ccts/bmic/'><img src="/src/images/logos/UUtahCCTS_BMIC.png" alt="University of Utah Clinical & Translational Science Biomedical Informatics Core (CCTS BMIC)" width="220" /></a><br />
-<a href='http://ucgd.genetics.utah.edu/'><img src="/src/images/logos/USTAR-UCGD-Logo.jpg" alt="USTAR Center for Genetic Discovery (UCGD)" height="90" /></a>
+<a href='http://www.chpc.utah.edu'><img src="/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a> &nbsp; 
+<a href='http://healthsciences.utah.edu/'><img src="/images/logos/UUtahHealthSciences.png" alt="University of Utah" height="90" /></a> <br />
+<a href='http://medicine.utah.edu/dbmi/'><img src="/images/logos/UUtahDBMI.png" alt="University of Utah Department of Biomedical Informatics" width="220" /></a>
+<a href='http://medicine.utah.edu/ccts/bmic/'><img src="/images/logos/UUtahCCTS_BMIC.png" alt="University of Utah Clinical & Translational Science Biomedical Informatics Core (CCTS BMIC)" width="220" /></a><br />
+<a href='http://ucgd.genetics.utah.edu/'><img src="/images/logos/USTAR-UCGD-Logo.jpg" alt="USTAR Center for Genetic Discovery (UCGD)" height="90" /></a>
 </div>
 
 We would like to thank the [University of Utah Center for High Performance Computing (CHPC)](http://www.chpc.utah.edu/) for compute infrastructure support, and the [USTAR Center for Genetic Discovery (UCGD)](http://ucgd.genetics.utah.edu/), [Department of Biomedical Informatics](http://medicine.utah.edu/dbmi/) and the [Clinical & Translational Science Biomedical Informatics Core (CCTS BMIC)](http://medicine.utah.edu/ccts/bmic/) at the [University of Utah](http://utah.edu) for hosting this event.

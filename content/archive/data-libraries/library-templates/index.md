@@ -16,12 +16,12 @@ library permissions for non-admin users, see our [Data Libraries Security page](
 
 To add a template to a data library, select the "Add template" option from the data library pop-up menu.
 
-`![](/src/data-libraries/library_popup_menu.png)`
+`![](/data-libraries/library_popup_menu.png)`
 
 If no forms of type "Library information template" exist, the following page will be displayed (if a form of of that type does exist, you'll
 be able to select it rather than having to create a new one).
 
-`![](/src/data-libraries/create_form.png)`
+`![](/data-libraries/create_form.png)`
 
 The form "Name" and "Description" fields must be filled in and the "Type" selected (make sure to select "Library information template") as
 the first action on this page.  You can then import the form definition (the field layout) from a stored csv file, or manually add fields by
@@ -34,12 +34,12 @@ clicking the "Add field" button and setting the field type for each additional d
 * TextField - displays a text field
 * WorkflowField - displays a select list whose options are the current user's workflows
 
-`![](/src/data-libraries/form_definition1.png)`
+`![](/data-libraries/form_definition1.png)`
 
 Form field attributes are "Label", "Help text", "Type", and whether filling in the field is required or optional.  For this example, we'll 
 create a template that consists of just one optional field of type TextArea.
 
-`![](/src/data-libraries/form_definition2.png)`
+`![](/data-libraries/form_definition2.png)`
 
 When you have finished adding fields, click the "Save" button at the bottom of the page.  Then, to add the template based on this new form to
 the data library, click on the "Manage data libraries" link in the Administration menu in the left menu panel, select the data library from the
@@ -47,7 +47,7 @@ data libraries browser, and select the "Add template" option once again from the
 be presented with a list containing all existing forms of type "Library information template" from which you can choose the template.  When 
 you select a specific form from the list, the field layout for that form is displayed to help you choose the one you want.
 
-`![](/src/data-libraries/add_template.png)`
+`![](/data-libraries/add_template.png)`
 
 If checked, the checkbox labeled "Inherit template to contained folders and datasets?", will display the fields in this template on the
 information pages for folders and datasets contained within the data library (more details on this will be presented shortly).  When you've
@@ -57,7 +57,7 @@ fields on this page.  The pop-up menu to the right of the "Other information" se
 the template from the data library, or inherit / dis-inherit the template to contained folders and datasets.  We'll leave the template as
 inherited for now to demonstrate how inheritance works.
 
-`![](/src/data-libraries/library_info.png)`
+`![](/data-libraries/library_info.png)`
 
 ### Inheriting a template to a dataset
 
@@ -67,13 +67,13 @@ This will display the "Create new library datasets" page, which includes the inh
 template fields are also inherited (these can be over-written).  See our [uploading files to a data library page](/data-libraries/uploading-library-files/) 
 for more details about uploading files to a data library.
 
-`![](/src/data-libraries/upload_dataset.png)`
+`![](/data-libraries/upload_dataset.png)`
 
 After uploading the dataset to the data library, clicking on the dataset name (when browsing the selected data library) will display a page 
 containing the information about the dataset.  The inherited template fields are included in the "Other information" section of
 the page.
 
-`![](/src/data-libraries/dataset_info.png)`
+`![](/data-libraries/dataset_info.png)`
 
 ### Inheriting a template to a folder
 
@@ -81,14 +81,14 @@ Let's add a new folder to our data library.  From the data libraries browser, br
 button in the upper right corner of the page.  The "Create a new folder" page will be displayed, allowing you to provide a name and optional
 description for the folder.  When you have filled in these fields, click the "Create" button at the bottom of the page to create the folder.
 
-`![](/src/data-libraries/create_folder.png)`
+`![](/data-libraries/create_folder.png)`
 
 After the folder is created, the following page is displayed allowing you to edit the name and description of the folder and fill in the
 inherited template fields.  Notice that although the inherited template fields and contents are displayed, they are not associated with the
 folder until you click the "Save" button.  This behavior allows you to more easily select another template to associate with the folder if
 you want to override the inherited template.  Click the "Save" button at the bottom of each section on the page if you make any changes.
 
-`![](/src/data-libraries/folder_info1.png)`
+`![](/data-libraries/folder_info1.png)`
 
 After the folder is created, clicking on the folder name (when browsing the selected data library) will display the same page above, and 
 (if filled in) the inherited template fields are included in the "Other information" section of the page.
@@ -107,7 +107,7 @@ was dis-inherited.  The same behavior occurs at any level in the data library hi
 Over time, you may wish to change the layout of a template that is associated with a data library, folder or dataset.  To do this, select the
 "Edit template" option from the pop-up menu for the item and the "Edit form definition" page will be displayed.
 
-`![](/src/data-libraries/edit_template.png)`
+`![](/data-libraries/edit_template.png)`
 
 Here you can alter any of the attributes of existing form fields and you can add new fields to the layout or delete existing fields from 
 the layout.  Folders and datasets that previously inherited the original layout will not be affected (their template layout and contents will

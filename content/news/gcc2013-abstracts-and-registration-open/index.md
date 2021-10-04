@@ -2,14 +2,14 @@
 title: "GCC2013 Abstract Submission & Registration"
 date: "2013-02-23"
 ---
-<div class='center'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a></div>
+<div class='center'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a></div>
 
 **We are pleased to announce that [early registration](/events/gcc2013/register/) and [paper and poster abstract submission](/events/gcc2013/abstracts/) are now open for the [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/).**  GCC2013 will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
 
 [GCC2013](/events/gcc2013/) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/events/gcc2013/training-day/) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
 
 If you are a biologist or bioinformatician performing or enabling high-throughput biological research, then please consider attending.  GCC2013 is aimed at:
-<div class='right'> <a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="180" /></a></div>
+<div class='right'> <a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="180" /></a></div>
 
 * Bioinformatics tool developers and data providers
 * Workflow developers and power bioinformatics users

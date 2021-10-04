@@ -1,7 +1,7 @@
 ---
 title: 2012-07-09 Conference Call
 ---
-<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
 <slot name="/community/galaxy-admins/linkbox" />
 
@@ -22,7 +22,7 @@ The group's first conference call was held on Monday July 9, at 9am Central US t
 
 ## Logistics
 
-<div class='right'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
+<div class='right'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
 
 ### Generic Call Agenda
 
@@ -55,7 +55,7 @@ Communication outside of meetings will continue to happen on the [Galaxy-Dev mai
 1. Build a community 
 2. Learn from each other.
 
-<div class='right'><img src="/src/images/logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></div>
+<div class='right'><img src="/images/logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></div>
 
 ## Galaxy at Iowa
 

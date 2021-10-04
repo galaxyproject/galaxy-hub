@@ -7,7 +7,7 @@ date: 2014-10-06
 <br />
 [Distribution Summary 2014_10_06](/news/2014-10-06-galaxy-distribution/)
 
-<div class='left'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
 
 <br />
 <br />
@@ -103,7 +103,7 @@ Several enhancements and improvements have been made to facilitate easier viewin
 
 # Fixed
 
-<div class='right'> ![](/src/images/news-graphics/2014_10_06_trello-5A2czklq.png) </div>
+<div class='right'> ![](/images/news-graphics/2014_10_06_trello-5A2czklq.png) </div>
 1. Fastq groomer had a one-off difference with sequence count. [d1IIKmGK](https://trello.com/c/d1IIKmGK)
 1. Now job_files.py allows writing the VERSION_STRING back for a job. [lWAPW3hd](https://trello.com/c/lWAPW3hd)
 1. Corrected issue where the loading label in a history would duplicate if clicked multiple times (see pic). [5A2czklq](https://trello.com/c/5A2czklq) 
@@ -141,5 +141,5 @@ Several enhancements and improvements have been made to facilitate easier viewin
 
 # About Galaxy
 
-<div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
+<div class='left'><a href='http://usegalaxy.org'><img src="/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
 **[About Galaxy](/support/about-galaxy/)** • [Galaxy Project](/galaxy-project/) • [Admin](/admin/) • [Issues](/issues/) • [Big Picture](/galaxy-project/) • [Community](/community/) • [Get Galaxy](/admin/get-galaxy/) • [CloudMan](/cloudman/) • [Tool Shed](/toolshed/) • [Develop](/develop/) • [News Briefs](/docs/) • [Servers](/use/) • [Learn](/learn/) • [Support](/support/) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/news/) • [Twitter](/galaxy-on-twitter/) • [Events](/events/) • [Teach](/teach/) • [Issues](/issues/) • [Cite](/citing-galaxy/) • [Galaxy Team](/galaxy-team/)

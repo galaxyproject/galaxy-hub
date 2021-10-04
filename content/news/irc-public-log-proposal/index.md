@@ -2,7 +2,7 @@
 title: "Proposed IRC Channel Policy Change"
 date: "2014-09-02"
 ---
-<div class='right'><img src="/src/images/icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
+<div class='right'><img src="/images/icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
 
 We would like to change the logging policy for the [#galaxyproject IRC channel](/get-involved/#irc-channel):
 

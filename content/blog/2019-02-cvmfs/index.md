@@ -22,7 +22,7 @@ CVMFS uses a tiered model to distribute data in a scalable and fault tolerant ma
 
 |        |
 |--------|
-|![cvmfs-tiered-architecture-example](/src/blog/2019-02-cvmfs/cvmfs-tiered-architecture-example.png)|
+|![cvmfs-tiered-architecture-example](/blog/2019-02-cvmfs/cvmfs-tiered-architecture-example.png)|
 |<small>**CVMFS tiered architecture example** source: [https://cvmfs.readthedocs.io/en/stable/cpt-replica.html](https://cvmfs.readthedocs.io/en/stable/cpt-replica.html).</small>|
 
 _How is CVMFS being used in Galaxy?_
@@ -41,7 +41,7 @@ As news of this success got out, others wanted to use the same data. It’s now 
 
 |        |
 |--------|
-|![cvmfs-server-distribution](/src/blog/2019-02-cvmfs/cvmfs-server-distribution.png)|
+|![cvmfs-server-distribution](/blog/2019-02-cvmfs/cvmfs-server-distribution.png)|
 |<small>**Galaxy Project CVMFS infrastructure, February 2019**.</small>|
 
 _How can current system admins of Galaxy implement CVMFS reference management for their Galaxy instance?_

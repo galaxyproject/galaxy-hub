@@ -1,4 +1,4 @@
-<div class='right'><a href='http://goeckslab.org/people/'><img src="/src/galaxy-team/Remi.jpg" /></a></div>
+<div class='right'><a href='http://goeckslab.org/people/'><img src="/galaxy-team/Remi.jpg" /></a></div>
 # REMI MARENCO
 
 Email: [rmarenco AT SPAMFREE gwu DOT edu](mailto:rmarenco AT SPAMFREE gwu DOT edu)

@@ -3,7 +3,7 @@ title: "September 2014 Galaxy News"
 date: "2014-08-29"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-09/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
+<a href='/galaxy-updates/2014-09/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>
 
 Hello all,
@@ -24,4 +24,4 @@ And, as always, there are [new papers](/galaxy-updates/2014-09/#new-papers), [ne
 
 Happy September,
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

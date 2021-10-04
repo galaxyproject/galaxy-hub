@@ -4,7 +4,7 @@ tease: "Early registration ends 17 May"
 date: "2019-03-19"
 ---
 
-[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
+[<img class="float-right" style="max-width: 300px" src="/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
 
 **We are pleased to announce that [registration](/events/gcc2019/registration/) and [abstract submission](/events/gcc2019/abstracts/) for the [2019 Galaxy Community Conference (GCC2019)](/events/gcc2019/) are now open.**
 

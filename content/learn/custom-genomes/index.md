@@ -52,7 +52,7 @@ Some tools and functions require that the ['database' attribute is assigned](/su
 
 Once created, a *Custom Build* is added to the list **Database/Build:** on the dataset 'Edit Attributes' and 'Upload File' tool forms and is available for 'Visualizations'. These can be assigned or used just like any other reference genome. 
 
-* Start with an existing fasta Custom Reference Genome in your history. It is *very important* make sure the [format](/src/learn/custom-genomes/#format) is correct.
+* Start with an existing fasta Custom Reference Genome in your history. It is *very important* make sure the [format](/learn/custom-genomes/#format) is correct.
 * Go to the top "User" menu and select "Custom Builds"
 * Enter in the labels (no spaces and no special characters other than "_")
 * Select the fasta Custom Reference Genome
@@ -81,12 +81,12 @@ The above sorting method is for most tools, but not all. In particular, GATK too
 
 # Troubleshooting
 
-If a custom genome dataset is producing errors, double check the format and that the chromosome identifiers between **ALL** inputs. Clicking on the green bug icon ![](/src/images/icons/bug.png) will often provide a description of the problem. This does not automatically submit a bug report, and it is not always necessary to do so, but it is a good way to get more information about why a job is failing.
+If a custom genome dataset is producing errors, double check the format and that the chromosome identifiers between **ALL** inputs. Clicking on the green bug icon ![](/images/icons/bug.png) will often provide a description of the problem. This does not automatically submit a bug report, and it is not always necessary to do so, but it is a good way to get more information about why a job is failing.
 
 ### 1. Custom genome not assigned as <a href='/learn/datatypes/#fasta'>FASTA</a> format
   * **Symptoms include**: Dataset not included in custom genome pull down menu on tool forms.
   * **Solution**: Check datatype assigned to dataset and assign **fasta** format.
-  * **How**: Click on the dataset's pencil icon <img src="/src/images/icons/pencil.png" /> to reach the "Edit Attributes" page, and in the <a href='/learn/datatypes/'>datatypes</a> section, type in "fasta", and save.
+  * **How**: Click on the dataset's pencil icon <img src="/images/icons/pencil.png" /> to reach the "Edit Attributes" page, and in the <a href='/learn/datatypes/'>datatypes</a> section, type in "fasta", and save.
 
 ### 2. Incomplete Custom genome file load
   * **Symptoms include**: Tool errors result the first time you use the Custom genome.

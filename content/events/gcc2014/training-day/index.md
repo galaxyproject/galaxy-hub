@@ -8,7 +8,7 @@ title: Training Day
 
 <slot name="/events/gcc2014/linkbox" />
 
-<img class="float-left" src="/src/images/logos/GCC2014TDLogoSmall.png" alt="GCC2014 Training Day" />
+<img class="float-left" src="/images/logos/GCC2014TDLogoSmall.png" alt="GCC2014 Training Day" />
 
 The [2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/) started on June 30 with a *Training Day* featuring five parallel tracks, each with several two and a half hour workshops.  Tracks cover *using* Galaxy for biological research, and *deploying and managing* Galaxy instances, and everything in between.
 
@@ -44,7 +44,7 @@ Meeting participants select which Training Day topics to attend when they [regis
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:30 </th>
-    <td colspan=5 style=" text-align: center;"> <strong>Lunch</strong><br />Sponsored by <strong><a href='http://www.emc.com/isilon'>EMC Isilon</a></strong><br /><a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a> </td>
+    <td colspan=5 style=" text-align: center;"> <strong>Lunch</strong><br />Sponsored by <strong><a href='http://www.emc.com/isilon'>EMC Isilon</a></strong><br /><a href='http://www.emc.com/isilon'><img src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
@@ -126,7 +126,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> Often the first step in next generation sequencing data analysis is <em>quality control</em>.  How reliable is the data?  Does it have GC bias, or inaccuracies at the read ends, or contamination, or barcode corruption, or any number of other conditions that need to be detected and dealt with before the science begins.  This workshop will provide hands-on experience performing quality control checks and how to get your data analysis-ready using Galaxy.<br /><br />This workshop is also a good introduction to Galaxy for those who are not familiar with it. <br /><br /><strong><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/GCC2014_TD_RaisinsQAQC.pdf'>Slides</a></strong>, <strong><a href='http://usegalaxy.org/u/usinggalaxy4/p/raisins'>Page with Histories on UseGalaxy.org</a></strong> for continued learning</td>
-    <td rowspan=2 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
+    <td rowspan=2 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
  </td>
   </tr>
   <tr>
@@ -149,7 +149,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> The <a href='http://genome.edu.au'>Australian Genomics Virtual Laboratory (GVL)</a> has developed a range of online tutorials based on Galaxy to aid in training and dissemination of bioinformatics expertise.  The tutorials are completely self contained (data, workflows, rationale and background) and cover a range of introductory and advanced topics including genome assembly, variant detection and RNA-seq. This workshop will provide an overview of the available tutorials followed by a hands-on session based on a microbial genome assembly tutorial. To perform the analysis, participants will use cloud instances of the GVL platform.<br /><br /><strong><a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/LonieGVL.pdf'>Slides</a></strong> </td>
-    <td rowspan=2 style=" width: 16%;"> &nbsp;<a href='https://genome.edu.au/wiki/GVL'><img src="/src/images/logos/gvl-300.png" alt="Genomics Virtual Lab" width="70" /></a>&nbsp; <br />This workshop uses [GVL](https://genome.edu.au/wiki/GVL)-based compute infrastructure
+    <td rowspan=2 style=" width: 16%;"> &nbsp;<a href='https://genome.edu.au/wiki/GVL'><img src="/images/logos/gvl-300.png" alt="Genomics Virtual Lab" width="70" /></a>&nbsp; <br />This workshop uses [GVL](https://genome.edu.au/wiki/GVL)-based compute infrastructure
 </td>
   </tr>
   <tr>
@@ -171,7 +171,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> This hands-on workshop will demonstrate basic RNA-Seq transcript level comparison analysis using the Tophat (Bowtie), Cufflinks, Cuffmerge and Cuffdiff tools in Galaxy. We will compare the expression of genes under two conditions.<br /><br />We will demonstrate this analysis both with an installed reference genome and with a non-installed organism.<br /><br />Sample datasets small enough to be successfully processed during the course of the seminar will be provided. Participants will perform the analyses themselves on the provided cloud instance of Galaxy. <br /><br /> <strong><a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/RNA-SeqTuxedoHadouts.pdf'>Handouts</a>, <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/RNA-SeqTuxedoSlides.pdf'>Slides</a></strong> </td>
-    <td style=" text-align: center; width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
+    <td style=" text-align: center; width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
  </td>
   </tr>
   <tr>
@@ -194,7 +194,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> The Tuxedo suite of RNA-Seq tools (Cuff*, Tophat, ...) are installed on many Galaxy instances, including <a href='/main/'>Main </a> and <a href='/cloudman/'>CloudMan</a> installs.  However, many other options are available.  For example, Htseq, EdgeR and DESeq are also widely used, take a different approach to RNA-Seq analysis and return different results from the Tuxedo suite. <br /><br />This workshop would introduce alternative methods for RNA-Seq analysis, cover how to install them from the <a href='/toolshed/'>Tool Shed</a> and to test they are properly installed. The workshop could finish by comparing results from these tools with those from the Tuxedo suite. <br /><br /><strong><a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/RNA-SeqAltHandouts.pdf'>Handouts</a>, <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/RNA-SeqAltSlides.pdf'>Slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/RNA-SeqAltAnswers.pdf'>Handout Answers</a></strong></td>
-    <td style=" text-align: center; width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
+    <td style=" text-align: center; width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
  </td>
   </tr>
   <tr>
@@ -217,7 +217,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #F1DDCB;"> Different ways of visualizing NGS data more on downstream analysis such as heat maps, pathway networks and R based charts and graphs.  This workshop will cover both primary NGS analyses --alignments, variants, annotations -- as well as downstream options. <br /><br /> <strong><a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/GCC2014_Viz_Workshop.pdf'>Slides</a></strong> <br /><a href='https://dl.dropboxusercontent.com/u/4745528/galaxy-demos/create_trackster_viz.mov'>Video: Create Trackster (genome browser) visualization and explore data</a> <br /><a href='https://dl.dropboxusercontent.com/u/4745528/galaxy-demos/visual-analysis-variants.mov'>Video: Visual Analysis in Trackster and Sweepster</a> </td>
-    <td rowspan=2 style=" text-align: center; width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
+    <td rowspan=2 style=" text-align: center; width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
  </td>
   </tr>
   <tr>
@@ -262,7 +262,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> Topics: <br /> &bull; Installing Galaxy on a standalone system<br /> &bull; Installing Galaxy in a cluster environment<br /> &bull; Common administrative tasks<div class='indent'> &bull; Tool installation (using Tool Shed and manually)<br /> &bull;  Reference genome installation and configuration<br /> &bull; Misc. (user authentication, data libraries, other...)</div> &bull; Upgrading<br />&bull; Troubleshooting <br /><br /><strong><a href='/events/gcc2014/training-day/admin-walkthrough/'>Workshop Walkthrough</a></strong> </td>
-    <td rowspan=2 style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop.  </td>
+    <td rowspan=2 style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop.  </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -286,7 +286,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> Galaxy is more and more often used as a front-end to huge HPC resources. At the same time, the HPC facilities require solid user authentication procedures and accounting mechanisms allowing to control the use of HPC resources. We will provide an overview of issues and several possible approaches the problem. Participants will then install a specific third party solution (GOLD) into a test Galaxy. <br /><br /><strong><a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/UserProjectMgmt.pdf'>Slides</a></strong> </td>
-    <td rowspan=2 style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop. </td>
+    <td rowspan=2 style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -311,7 +311,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> Galaxy has a growing API that allows for external programs to control the system, search the resources, and issue work requests. The session would cover programmatic access of the API either by direct REST web calls or by using the BioBlend/blend4j APIs. <br /><br /><strong><a href='/events/gcc2014/training-day/api/'>Slides and Scripts</a></strong></td>
-    <td rowspan=2 style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop. </td>
+    <td rowspan=2 style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -334,7 +334,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> Galaxy provides an easy way to create reproducible, sharable, easy-to-use analytical workflows… if every step of the analysis has a galaxy tool available to perform that application.<br /><br />The Galaxy Toolshed offers a place to share tools that can be imported into a Galaxy Server to complete an analysis workflow.  Installation of a well-designed tool can be as simple as a couple button clicks by a Galaxy administrator.<br /><br />This session covers development process and the design considerations for stocking the toolshed with well-designed, easy-to-install tools.   We will design a couple tools, determining how to lay out the inputs and parameters, generate the command line with the cheetah template, and add test cases.  Then we’ll submit them to a toolshed, and install them in our galaxy server. <br /><br /><strong>Slides: <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/DesigningATool.pdf'>PDF</a>, <a href='http://www.slideshare.net/pjacock/galaxy-tools'>SlideShare</a></strong> </td>
-    <td style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop. </td>
+    <td style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -358,7 +358,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> Galaxy tools can require installed reference data in order to be used effectively. For example, Bowtie requires prebuilt indexes in order to efficiently map sequences to a genome.<br /><br />Data Managers enable a Galaxy administrator to add reference data to a Galaxy server via the admin webpage.<br /><br />This session covers the tool and toolshed requirements for using reference data within galaxy tools, and the design and development of tool data managers to install reference data on a Galaxy server. <br /><br /><strong><a href='/events/gcc2014/training-day/data-managers/'>Tutorial</a></strong> </td>
-    <td rowspan=2 style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop. </td>
+    <td rowspan=2 style=" text-align: center; width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player installed on your laptop. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -401,7 +401,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> This workshop will provide instruction on building bioinformatics infrastructures with Galaxy as front-end, combined with Cloud BioLinux for standardization and CloudMan for scalability in the back-end. It will be a technically-oriented workshop targeted to software developers, and will provide a tutorial how to jointly leverage the three systems for building bioinformatics applications on various cloud platforms including Amazon, OpenStack and Eucalyptus.<br /><br />The basics of deploying bioinformatics tools and pipelines on Galaxy running pre-configured on a Virtual Machine will be demonstrated. We will then move onto methods for standardizing deployment of complex bioinformatics pipelines through Galaxy by leveraging the Python Fabric scripts of Cloud BioLinux, in order to achieve interoperability and easy deployment across the various cloud platforms. The software blueprint of CloudMan for instantiating and using virtualized clusters connected to the Galaxy back-end will be presented, in addition to best practices for designing bioinformatics applications that leverage the distributed computing capabilities offered by the CloudMan framework.<br /><br />All concepts will be demonstrated through hands-on sessions where users will deploy tools through Galaxy, build VMs through Cloud BioLinux, instantiate clusters and data volumes and run distributed computing through CloudMan, using Amazon or Eucalyptus clouds. <br /><br /> <strong><a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/CloudMan.pdf'>CloudMan Slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/CloudBioLinux.pdf'>CloudBioLinux Slides</a>, <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/ViralCloudResource.pdf'>Viral Cloud Slides</a></strong></td>
-    <td style=" text-align: center; width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
+    <td style=" text-align: center; width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure
  </td>
   </tr>
   <tr>
@@ -451,7 +451,7 @@ Training Day topics were selected by the Galaxy Community.  Topic were first nom
 # Training Day Sponsor
 
 <div class='center'>
-<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br />
+<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br />
 </div>
 
 <br />

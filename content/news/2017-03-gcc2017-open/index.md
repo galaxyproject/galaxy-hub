@@ -2,7 +2,7 @@
 title: '2017 Galaxy Community Conference: Registration & abstract submission are open'
 date: '2017-03-03'
 ---
-<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/src/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></div>
+<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></div>
 
 We are pleased to announce that  [early registration](https://gcc2017.sciencesconf.org/page/registration) and [abstract submission](https://gcc2017.sciencesconf.org/page/submit) for the **[2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/)** are now open.
 

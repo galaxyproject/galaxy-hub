@@ -19,13 +19,13 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 
 <br />
 <div class='center'>
-<a href='http://urgi.versailles.inra.fr/'><img src="/src/images/logos/URGILogo.png" alt="URGI" width="70" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/'><img src="/src/images/logos/GenoToulLogo.png" alt="GenoToul" width="100" /></a> &nbsp;
-<a href='http://migale.jouy.inra.fr/'><img src="/src/images/logos/MIGALELogo.png" alt="MIGALE" width="120" /></a> &nbsp;
-<a href='http://metabohub.fr/'><img src="/src/images/logos/MetaboHubLogo.jpg" alt="PFEM" width="120" /></a> &nbsp;
-<a href='http://southgreen.cirad.fr/'><img src="/src/images/logos/SouthGreenLogo.png" alt="SouthGreen" width="120" /></a>
-<a href='http://curie.fr/'><img src="/src/images/logos/CurieLogo.gif" alt="Institut Curie" width="80" /></a> &nbsp;
-<a href='http://abims.sb-roscoff.fr/'><img src="/src/images/logos/ABiMSLogo.png" alt="ABiMS" width="70" /></a>
+<a href='http://urgi.versailles.inra.fr/'><img src="/images/logos/URGILogo.png" alt="URGI" width="70" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/'><img src="/images/logos/GenoToulLogo.png" alt="GenoToul" width="100" /></a> &nbsp;
+<a href='http://migale.jouy.inra.fr/'><img src="/images/logos/MIGALELogo.png" alt="MIGALE" width="120" /></a> &nbsp;
+<a href='http://metabohub.fr/'><img src="/images/logos/MetaboHubLogo.jpg" alt="PFEM" width="120" /></a> &nbsp;
+<a href='http://southgreen.cirad.fr/'><img src="/images/logos/SouthGreenLogo.png" alt="SouthGreen" width="120" /></a>
+<a href='http://curie.fr/'><img src="/images/logos/CurieLogo.gif" alt="Institut Curie" width="80" /></a> &nbsp;
+<a href='http://abims.sb-roscoff.fr/'><img src="/images/logos/ABiMSLogo.png" alt="ABiMS" width="70" /></a>
 </div>
 
 <br />

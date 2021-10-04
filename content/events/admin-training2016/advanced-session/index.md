@@ -11,7 +11,7 @@ title: "Galaxy Admin Training: Advanced Topics"
 
 The three day advanced session will build on topics covered in the [basics section](/events/admin-training2016/basics-session/).  This session both extends those topics, such as tool definition, and adds new ones, such as working with compute clusters and heterogeneous resources. 
 
-<div class='right'><a href='http://www.chpc.utah.edu'><img src="/src/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a>
+<div class='right'><a href='http://www.chpc.utah.edu'><img src="/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a>
 </div>
 
 We will use compute resources from the [University of Utah Center for High Performance Computing (CHPC)](https://www.chpc.utah.edu/) for cluster access during the advanced session.
@@ -259,12 +259,12 @@ Starting on Wednesday the advanced session will be held at the [Commanders House
 ## Venue
 
 <div class='right'>
-<a href='http://www.universityguesthouse.com/Commanders-House'><img src="/src/events/admin-training2016/CommandersHouse.jpg" alt="Commanders House" width="180" /></a></div>
+<a href='http://www.universityguesthouse.com/Commanders-House'><img src="/events/admin-training2016/CommandersHouse.jpg" alt="Commanders House" width="180" /></a></div>
 
 The **advanced session will be held at the [Commanders House](http://www.universityguesthouse.com/Commanders-House) on the [University of Utah](http://utah.edu/) campus**.  This is a short walk from the [University Guest House](http://www.universityguesthouse.com/University-Guest-House), where participants are staying.
 
 <div class='left'>
-<a href='http://ucgd.genetics.utah.edu/'><img src="/src/images/logos/USTAR-UCGD-Logo.jpg" alt="USTAR Center for Genetic Discovery (UCGD)" width="280" /></a></div>
+<a href='http://ucgd.genetics.utah.edu/'><img src="/images/logos/USTAR-UCGD-Logo.jpg" alt="USTAR Center for Genetic Discovery (UCGD)" width="280" /></a></div>
 
 We would like to thank the **[USTAR Center for Genetic Discovery (UCGD)](http://ucgd.genetics.utah.edu/)** for a grant to book this great venue for the advanced workshop.
 

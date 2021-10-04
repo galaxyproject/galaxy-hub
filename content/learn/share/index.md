@@ -19,13 +19,13 @@ All sharing is done by selecting 'Share or Publish' from an object's menu list. 
 
 On the form, fine the section titled 'Sharing with Specific Users'. To share with another Galaxy account on the same server, click on the button in this section and enter the email address for the account you wish to directly share with (one or more other accounts, entered individually).
 
-![Sharing Via Email](/src/learn/share/sharing-via-email.png)
+![Sharing Via Email](/learn/share/sharing-via-email.png)
 
 # Sharing via Web Link and Publishing an Item
 
 On the form, find the section titled 'Making  _Item-type_  Accessible via Link and Publishing It.' The buttons in this section enable you to make an item accessible via link and/or publish it. Items shared with the generated _web link_ can be viewed and imported (copied) by anyone that knows the link.
 
-  * **[Galaxy Main](http://usegalaxy.org)**: Anonymous (unregistered account) use is [active for many functions](/src/main/#user-data-and-job-quotas).
+  * **[Galaxy Main](http://usegalaxy.org)**: Anonymous (unregistered account) use is [active for many functions](/main/#user-data-and-job-quotas).
   * **[Other public/private servers](/use/index.md)**: If a registered account is required, a prompt to register first will come up. 
  
 Sharing items with a _web link_ is especially useful if you don't want to require that the person you're sharing with have a Galaxy account or be logged into Galaxy (when that Galaxy server permits anonymous access). You can change the text of an item's link by clicking on the pencil next to the link and typing in new text.
@@ -34,6 +34,6 @@ When you publish an item, it is made accessible via link (if it not already acce
 
 Find all Published work on any Galaxy server under the top masthead menu **Shared Data**.
 
-![Sharing Via Web Link](/src/learn/share/sharing-via-link.png)
+![Sharing Via Web Link](/learn/share/sharing-via-link.png)
 
 - - -

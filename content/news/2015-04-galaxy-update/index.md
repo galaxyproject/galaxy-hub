@@ -3,10 +3,10 @@ title: "April! Galactic News!"
 date: "2015-04-02"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-04/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galactic News! April 2015 Edition" width=150 /></a><br /><br />
-<a href='/community/galaxy-admins/meetups/2015-04-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup April 16" width="150" /></a><br /><br />
-<a href='/events/tokyo2015/'><img src="/src/events/tokyo2015/WST2015.png" alt="" width="150" /></a><br /><br />
-<a href='/galaxy-updates/2015-04/#gcc2015-6-8-july-norwich-uk'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
+<a href='/galaxy-updates/2015-04/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galactic News! April 2015 Edition" width=150 /></a><br /><br />
+<a href='/community/galaxy-admins/meetups/2015-04-16/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup April 16" width="150" /></a><br /><br />
+<a href='/events/tokyo2015/'><img src="/events/tokyo2015/WST2015.png" alt="" width="150" /></a><br /><br />
+<a href='/galaxy-updates/2015-04/#gcc2015-6-8-july-norwich-uk'><img src="/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
 </div>
 
 [April brings lots of Galaxy related news](/galaxy-updates/2015-04/), including *events news*:
@@ -31,4 +31,4 @@ In addition, there is news on:
 * [One new Community Log Board entry](/galaxy-updates/2015-04/#galaxy-community-hubs)
 * And, [other news](/galaxy-updates/2015-04/#other-news) as well.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

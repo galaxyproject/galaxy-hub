@@ -1,4 +1,4 @@
-<div class='right'> <a href='/toolshed/'>![ToolShed logo](/src/images/logos/ToolShed.jpg)</a></div>
+<div class='right'> <a href='/toolshed/'>![ToolShed logo](/images/logos/ToolShed.jpg)</a></div>
 
 The Galaxy ToolShed provides many features for creating, populating and maintaining repositories containing Galaxy utilities and for installing them into Galaxy. Here we’ll examine the set of ToolShed features that are available for administering and maintaining repositories in the ToolShed. This article describes Galaxy ToolShed features that are available in the February 10, 2014 Galaxy release. Watch for future articles here as well as future Galaxy News Briefs, which are published for each new release, for details about upcoming features.
 

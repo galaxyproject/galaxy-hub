@@ -94,7 +94,7 @@ Now that the tool and its definition file are ready, the final step is to make G
 
 To test the newly integrated tool, start Galaxy by typing `sh run.sh` from within Galaxy's root directory and point your browser to http://localhost:8080. If the tool has successfully been integrated, the Galaxy interface should look similar to:
 
-![](/src/admin/tools/add-tool-tutorial/toolExample.png)
+![](/admin/tools/add-tool-tutorial/toolExample.png)
 
 Note the correspondence between elements of the tool definition file (Step 3) and the interface elements shown above. The "Compute GC for" dropdown reads "no data has the proper type" because the history pane contains no data in the FASTA format.
 

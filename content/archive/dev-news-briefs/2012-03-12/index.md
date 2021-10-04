@@ -20,7 +20,7 @@ date: 2012-03-12
 
 ## The Emboss tools and Emboss datatypes will be eliminated from the Galaxy distribution in the NEXT release (not this one).  Other tools currently in the Galaxy distribution will be eliminated in following releases.  Those hosting local Galaxy instances should read this revised "Migrating tools" section of the Galaxy tool shed wiki to understand how this process will work:
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 ## Migrating tools from the Galaxy distribution to the Galaxy Main tool shed
 
 In 2012, the Galaxy development team will begin the process of **migrating the tools that are currently available in the Galaxy distribution to the [Galaxy Main tool shed](http://toolshed.g2.bx.psu.edu/)**.  This will enable those that host local Galaxy instances much more flexibility in choosing to provide only those specific tools in which their users are interested. [Read more...](/toolshed/migrating-tools-from-galaxy-distribution/)
@@ -82,7 +82,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
   * Move 'more rows' icon from tile level to track level 
 
 Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composite Track data using dynamic filters
-</div><a href='/learn/visualization/'><img src="/src/images/news-graphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="800px" /></a></div>
+</div><a href='/learn/visualization/'><img src="/images/news-graphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="800px" /></a></div>
 
 <br />
 # Workflows
@@ -156,7 +156,7 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 
 # Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Fix for 'Error 349 (net::ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION): Multiple Content-Disposition headers received.' error occuring when downloading certain datasets using Chrome browser
 * Correction to *History Size* calculation to accurately filter out 'purged' datasets in the summary size
 * Various bug fixes for Object Store, with a particular focus on the Distributed Object Store
@@ -169,10 +169,10 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 
 ## GCC2012 Update
 
-<div class='right'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/events/gcc2012/training-day/'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
+<div class='right'><a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/events/gcc2012/training-day/'><img src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
 * The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held July 25-27, in Chicago. 
 * The conference will feature two full days of presentations and discussions. 
-* [Abstract submission](/events/gcc2012/abstracts/) will [close April 16](/src/events/gcc2012/Key Dates/index.md). 
+* [Abstract submission](/events/gcc2012/abstracts/) will [close April 16](/events/gcc2012/Key Dates/). 
 * A [whole day of training](/events/gcc2012/training-day/) has been added, and topics set:
   * [Introduction to Galaxy](/events/gcc2012/training-day/#ws2)
   * [Installing Your Own Galaxy](/events/gcc2012/training-day/#ws5)
@@ -185,7 +185,7 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 
 ## Galaxy is Hiring!
 
-<div class='left'><img src="/src/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
+<div class='left'><img src="/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
 **The [Galaxy Team](/galaxy-team/) Wants You!**
 <br />
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/galaxy-is-hiring/)

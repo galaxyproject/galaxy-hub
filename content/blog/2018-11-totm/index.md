@@ -12,7 +12,7 @@ To help highlight our tutorials and the training effort of the community, every 
 
 This month, the [*Galaxy contributor of the Month!*](../2018-11-cotm-saskia-hiltemann), Saskia Hiltemann, selects and presents the tutorial: ["Reference-based RNA-Seq data analysis"](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html), from the topic ["Transcriptomics"](http://galaxyproject.github.io/training-material/topics/transcriptomics):
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-11-totm/ref-based-rna-seq.png" alt="Reference based RNA-seq overview"/>
+<img class="img-fluid mx-auto" src="/blog/2018-11-totm/ref-based-rna-seq.png" alt="Reference based RNA-seq overview"/>
 
 *The full version is available on the training website: [http://training.galaxyproject.org/topics/transcriptomics/tutorials/ref-based/tutorial.html](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html)*
 
@@ -32,8 +32,8 @@ I have always enjoyed teaching, having worked as a tutor all throughout universi
 
 I really like this tutorial because it is a nice end-to-end analysis, starting really from the raw data coming off the sequencer, and doing some QC, mapping, analysis and visualisation.
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-11-totm/visualization.png" alt="Visualization"/>
-<img class="img-fluid mx-auto" src="/src/blog/2018-11-totm/pipeline.png" alt="ref-based RNA-seq pipeline"/>
+<img class="img-fluid mx-auto" src="/blog/2018-11-totm/visualization.png" alt="Visualization"/>
+<img class="img-fluid mx-auto" src="/blog/2018-11-totm/pipeline.png" alt="ref-based RNA-seq pipeline"/>
 
 I think it is also one of tutorials most often taught during workshops, so all the different instructors around the world who teach this keep the materials up-to-date together, resulting in very high-quality materials, really cutting down on the time needed to prepare before each time I teach this.
 

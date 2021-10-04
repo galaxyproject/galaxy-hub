@@ -6,7 +6,7 @@ title: February 2012 Galaxy Update
 
 
 
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the inaugural edition of *[Galaxy Update](/galaxy-updates/)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -18,7 +18,7 @@ New papers of note for the Galaxy community:
 
 * Thomas Hentrich, Julia M. Schulze, Eldon Emberly, and Michael S. Kobor, "[CHROMATRA: a Galaxy tool for visualizing genome-wide chromatin signatures](http://bioinformatics.oxfordjournals.org/content/early/2012/01/10/bioinformatics.bts007.short)." *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* 
 
-* Jeremy Goecks, Kanwei Li, [Dave Clements](/people/dave-clements/), The [Galaxy Team](/src/galaxy-team/), James Taylor, "[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)." *[Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/)*
+* Jeremy Goecks, Kanwei Li, [Dave Clements](/people/dave-clements/), The [Galaxy Team](/galaxy-team/), James Taylor, "[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)." *[Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/)*
 
 Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, reference, or are about Galaxy.  
 
@@ -28,7 +28,7 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 
 ## Who's Hiring
 
-* [Galaxy is Hiring](/src/news/Galaxy is Hiring/index.md) 
+* [Galaxy is Hiring](/news/Galaxy is Hiring/) 
   * system administrators at Penn State
   * software engineers and post-docs at Emory
 * [Bioinformatics Support Provider](http://bit.ly/w6OIM0) with Galaxy experience @ [Wellcome Trust Centre for Cell Biology, University of Edinburgh](http://www.wcb.ed.ac.uk/) 
@@ -36,14 +36,14 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll include it in next month's update.
 
 <div class='right'>
-<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=105 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
+<a href='/gmod:April 2012 GMOD Meeting/'><img src="/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=105 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
 </div>
 
 ## Upcoming Events and Deadlines
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 
 There are upcoming deadlines for ISMB 2012 (workshops), DILS (abstracts), PSB (sessions), VizBI (posters), and a Bio-Linux Course (application).  See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -100,7 +100,7 @@ There are still [Gold, Silver and Bronze level sponsorships](/events/gcc2012/spo
 
 ## New Distributions
 
-There were [two Galaxy distributions](/docs/) in January, The latest on [January 27](/src/news/Jan272012 Distribution News Brief/index.md).  Some highlights from the releases:
+There were [two Galaxy distributions](/docs/) in January, The latest on [January 27](/news/Jan272012 Distribution News Brief/).  Some highlights from the releases:
 
 * Important metadata and Python 2.5 support corrections
 * [SAMtools](http://samtools.sourceforge.net/) upgraded for version 0.1.18. [Mpileup](http://samtools.sourceforge.net/mpileup.shtml) added.
@@ -114,4 +114,4 @@ There were [two Galaxy distributions](/docs/) in January, The latest on [January
 * Tool Shed installation features and many new community tool additions
 * Trackster performance upgrades and new drag & drop composite track creation 
 
-See the [January 27, 2012 release](/src/news/Jan272012 Distribution News Brief/index.md) for details on how to get the latest version of Galaxy.
+See the [January 27, 2012 release](/news/Jan272012 Distribution News Brief/) for details on how to get the latest version of Galaxy.

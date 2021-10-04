@@ -4,7 +4,7 @@ tease: "There's a workshop and a talk too"
 date: "2019-08-29"
 ---
 
-[<img class="float-right" style="max-width: 18rem" src="/src/news/2019-09-galaxy-update/galaxy-australia-incob.png" alt="Building a regional Galaxy Community and Platform at INCOB 2019" />](http://incob2019.org/breakout-session/)
+[<img class="float-right" style="max-width: 18rem" src="/news/2019-09-galaxy-update/galaxy-australia-incob.png" alt="Building a regional Galaxy Community and Platform at INCOB 2019" />](http://incob2019.org/breakout-session/)
 
 Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org.au/galaxyaustralia/) will have a strong presence at [INCOB 2019](http://incob2019.org/) in Jakarta.  There will be an [Introduction to Galaxy workshop](http://incob2019.org/workshop2/) and a conference talk about the Galaxy Australia platform.
 

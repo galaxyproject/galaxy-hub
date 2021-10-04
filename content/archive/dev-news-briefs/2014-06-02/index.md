@@ -62,7 +62,7 @@ Dataset Collections (Technology Preview): Galaxy's data model, API, tool and wor
 
 We are calling these a technology preview in this release because there is currently no rich user interface for [creating](https://trello.com/c/pPwdRwPh) or [viewing](https://trello.com/c/PVdbbpQS) dataset collections and there are a number of [known issues](https://trello.com/c/nQmxOG60). Check out this [presentation](https://docs.google.com/presentation/d/1D4pbULfe3IbSRVF3xsWvp9GyAct4SNfHhufIp-ysxYA/edit?usp=sharing), scheduled to given at this year's [Galaxy Community Conference](/events/gcc2014/), for the most up to date information on dataset collections and example usages.
 
-</div><a href='http://imgur.com/FxVDt3Z'><img src="/src/images/news-graphics/2014_06_02_dataset-collections_2.png" alt="dataset collections" width="900" /></a> <br /> The workflow image above (created by Philip Mabon) demonstrates the usage of dataset collections in the context of the [Core Phylogenomics SNP](https://github.com/apetkau/core-phylogenomics) pipeline created by Aaron Petkau, Gary Van Domselaar, Philip Mabon,
+</div><a href='http://imgur.com/FxVDt3Z'><img src="/images/news-graphics/2014_06_02_dataset-collections_2.png" alt="dataset collections" width="900" /></a> <br /> The workflow image above (created by Philip Mabon) demonstrates the usage of dataset collections in the context of the [Core Phylogenomics SNP](https://github.com/apetkau/core-phylogenomics) pipeline created by Aaron Petkau, Gary Van Domselaar, Philip Mabon,
 and Lee Katz. </div>
 
 <br />
@@ -222,7 +222,7 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/support/biostar/)*
 
 <br />
 <div class='right'>
-<br /><a href='http://usegalaxy.org'><img src="/src/images/logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
+<br /><a href='http://usegalaxy.org'><img src="/images/logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
 

@@ -1,7 +1,7 @@
 ---
 title: September 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the September 2014 *[Galaxy Update](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -35,10 +35,10 @@ There are a wealth of Galaxy related events in Europe this fall. Events include 
 These events are a great way to meet other Galaxy users and developers and learn and share best practices. If you're in Europe and are interested in learning more about Galaxy and/or the community, then please give these a look.
 
 <div class='center'> 
-<a href='/events/eccb2014/'><img src="/src/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB" height="80" /></a>
-<a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Tools integration on Galaxy" height="80" /></a> &nbsp;
-<a href='http://www.bioinformatica.crs4.it/training'><img src="/src/images/logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing con Galaxy" width="130" /></a> &nbsp;
-<a href='/events/sg2014/'><img src="/src/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
+<a href='/events/eccb2014/'><img src="/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB" height="80" /></a>
+<a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src="/images/logos/eBiogenouestLogo.png" alt="Tools integration on Galaxy" height="80" /></a> &nbsp;
+<a href='http://www.bioinformatica.crs4.it/training'><img src="/images/logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing con Galaxy" width="130" /></a> &nbsp;
+<a href='/events/sg2014/'><img src="/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
 </div>
 
 <table>
@@ -121,9 +121,9 @@ These events are a great way to meet other Galaxy users and developers and learn
 
 ## The Great GigaScience and Galaxy Workshop
 
-<div class='right'><a href='http://www.gigasciencejournal.com/'><img src="/src/images/logos/GigaScienceLogo.gif" alt="GigaScience Journal" width="200" /></a><br />
-<a href='http://www.vlsci.org.au/'><img src="/src/images/logos/VLSCILogo.png" alt="VLSCI" width="200" /></a><br />
-<a href='http://australianbioinformatics.net/'><img src="/src/images/logos/ABNLogoWText200.jpg" alt="Australian Bioinformatics Network" width="200" /></a>
+<div class='right'><a href='http://www.gigasciencejournal.com/'><img src="/images/logos/GigaScienceLogo.gif" alt="GigaScience Journal" width="200" /></a><br />
+<a href='http://www.vlsci.org.au/'><img src="/images/logos/VLSCILogo.png" alt="VLSCI" width="200" /></a><br />
+<a href='http://australianbioinformatics.net/'><img src="/images/logos/ABNLogoWText200.jpg" alt="Australian Bioinformatics Network" width="200" /></a>
 </div>
 
 The [The Great GigaScience and Galaxy (G3) Workshop](http://australianbioinformatics.net/great-gigascience-galaxy-wkshp) will be held, Friday 19 September 2014 at The University of Melbourne from 8:45-5pm.
@@ -145,7 +145,7 @@ See the [event page](http://australianbioinformatics.net/great-gigascience-galax
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 
 And don't worry, Europe does not have a complete lock on upcoming Galaxy related events.  There is also things going on in North America, and a few more in Australia too.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -259,7 +259,7 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -280,8 +280,8 @@ August was an eventful month for releases.  New versions of [Galaxy](/galaxy-upd
 
 ## August 11, 2014 Galaxy Distribution
 
-<div class='left'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
-<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/src/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=280 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
+<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=280 /></a></div>
 <br />
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014-08-11)**
 <br /><br /><br />
@@ -321,7 +321,7 @@ August was an eventful month for releases.  New versions of [Galaxy](/galaxy-upd
 
 ## August 2014 CloudMan Release
 
-<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
@@ -372,7 +372,7 @@ For complete details on implemented changes, please see the [source code commits
 
 # Galaxy IPython
 
-<div class='right'><a href='http://ipython.org/'><img src="/src/images/logos/IPythonSqaure.png" alt="IPython"  /></a></div>
+<div class='right'><a href='http://ipython.org/'><img src="/images/logos/IPythonSqaure.png" alt="IPython"  /></a></div>
 
 *And ...* Björn Grüning and Helena Rasche also released **[Galaxy IPython](https://github.com/bgruening/galaxy-ipython)**:
 
@@ -386,7 +386,7 @@ Disclaimer: Even though the [Ipython](http://ipython.org/) notebooks can be stor
 
 Keep in mind to write a nice Tool Shed Tool if you catch yourself using IPython in Galaxy to often for the same task.
 
-<div class='right'><a href='https://www.youtube.com/watch?v=jQDyTuYnn1k'><img src="/src/images/screenshots/IPythonVideo.png" alt="Galaxy IPython Screencast" width="200" /></a>
+<div class='right'><a href='https://www.youtube.com/watch?v=jQDyTuYnn1k'><img src="/images/screenshots/IPythonVideo.png" alt="Galaxy IPython Screencast" width="200" /></a>
 <div class='center'>[Screencast](https://www.youtube.com/watch?v=jQDyTuYnn1k)</div>
 </div>
 
@@ -418,8 +418,8 @@ Eric & Björn
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
@@ -434,7 +434,7 @@ Eric & Björn
 
 The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them **this month.**
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

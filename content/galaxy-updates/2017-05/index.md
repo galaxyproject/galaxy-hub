@@ -1,14 +1,14 @@
 ---
 title: May 2017 Galaxy News
 ---
-<div class='right'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
 Welcome to the May 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 
 # 2017 Galaxy Community Conference
 
-<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/src/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></a></div>
+<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></a></div>
 
 GCC2017 will be in Montpellier, France, 26-30 June and will feature two days of presentations, discussions, poster sessions, lightning talks, computer demos, keynotes, and birds-of-a-feather meetups, **all about data-intensive biology and the tools and infrastructure that support it.** GCC2017 also includes data and coding hacks, and **[two days of training](https://gcc2017.sched.com/overview/type/Training)** covering 16 different topics.
  
@@ -29,7 +29,7 @@ We are pleased to welcome [BioTeam](https://bioteam.net/products/galaxy-applianc
 
 ### GenomeWeb
 
-<div class='left'><a href='https://www.genomeweb.com/?utm_source=galaxyproject_logo&utm_medium=parterships&utm_campaign=may'><img src="/src/images/logos/GenomeWebLogo300.jpg" alt="GenomeWeb" width="200" /></a>
+<div class='left'><a href='https://www.genomeweb.com/?utm_source=galaxyproject_logo&utm_medium=parterships&utm_campaign=may'><img src="/images/logos/GenomeWebLogo300.jpg" alt="GenomeWeb" width="200" /></a>
 </div>
 
 ***[GenomeWeb](https://www.genomeweb.com/?utm_source=galaxyproject_blog&utm_medium=parterships&utm_campaign=may)*** is sponsoring [GCC](https://gcc2017.sciencesconf.org/) for the fourth year in a row. *[GenomeWeb](https://www.genomeweb.com/?utm_source=galaxyproject_blog&utm_medium=parterships&utm_campaign=may)* is an independent online news organization that provides in-depth coverage of the scientific and economic ecosystem spurred by high-throughput genome sequencing. *GenomeWeb* news is the leading information source for scientists, executives, and clinicians who use and develop advanced life science tools. ***As a conference attendee, GenomeWeb is pleased to offer you a three month trial to access their premium news content*** by contacting [customerservice@genomeweb.com](mailto:customerservice@genomeweb.com) and indicating you are a Galaxy Conference 2017 attendee.  If you are an academic professional or non-profit researcher, you automatically have access to *GenomeWeb* premium content and can [register here](https://www.genomeweb.com/user/register?utm_source=galaxyproject_attendee_mailing&utm_medium=parterships&utm_campaign=may) to join using your work email address.
@@ -39,7 +39,7 @@ We are pleased to welcome [BioTeam](https://bioteam.net/products/galaxy-applianc
 ### BioTeam
 
 <div class='right'> 
-<a href='https://bioteam.net/products/galaxy-appliance/'><img src="/src/images/logos/bioteam-appliance-white.png" alt="BioTeam Appliance Galaxy Edition" width="250" /></a>
+<a href='https://bioteam.net/products/galaxy-appliance/'><img src="/images/logos/bioteam-appliance-white.png" alt="BioTeam Appliance Galaxy Edition" width="250" /></a>
 </div>
 
 **[BioTeam](https://bioteam.net/)** is pleased to announce special pricing for the **[BioTeam Appliance Galaxy Edition](https://bioteam.net/products/galaxy-appliance/)** now through Jun 30, 2017 (the last day of GCC2017).  The BioTeam Appliance Galaxy Edition allows the researcher to get up and running fast with Galaxy.  The Galaxy Appliance comes preinstalled with a production instance of Galaxy, bioinformatics tools, and reference datasets.  "Science on Day One"  To request more information [click here](https://bioteam.net/products/galaxy-appliance/galaxy-appliance-information-request/).
@@ -74,7 +74,7 @@ The conference *enables and encourages* BoFs by
 
 # Galaxy Tutorial @ ISMB/ECCB 2017
 
-<div class="right"><a href="https://www.iscb.org/ismbeccb2017-program/tutorials#p6"><img src="/src/images/logos/ismb-2017.png" alt="Galaxy Tutorial at ISMB/ECCB 2017: Making Galaxy Work for You" width="170" /></div>
+<div class="right"><a href="https://www.iscb.org/ismbeccb2017-program/tutorials#p6"><img src="/images/logos/ismb-2017.png" alt="Galaxy Tutorial at ISMB/ECCB 2017: Making Galaxy Work for You" width="170" /></div>
 
 Ther will be a half day tutorial on [Making Galaxy Work for You](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) in Prague, Czechia. The tutorial will provide a practical, hands-on guide to adapting the Galaxy platform to the specific needs of individuals attending the ISMB.
 
@@ -93,7 +93,7 @@ See you in Prague!
 # Gateways 2017 Call for Participation (1st deadline: June 5)
 
 <div class='right'> 
-<a href='http://sciencegateways.org/gateways2017/call'><img src="/src/images/logos/sgci-logo-trans-big.png" alt="Gateways 120" height="90" /></a>
+<a href='http://sciencegateways.org/gateways2017/call'><img src="/images/logos/sgci-logo-trans-big.png" alt="Gateways 120" height="90" /></a>
 </div>
 
 [Gateways 2017](http://sciencegateways.org/gateways2017/) (October 23-25, at the University of Michigan, Ann Arbor) is now accepting submissions of papers, demos, tutorials, and panels (2-4 pages) on the topic of science or engineering gateways, which are integrated, user-friendly interfaces to scientific computing, data, and other domain-specific resources to support research and education.
@@ -254,7 +254,7 @@ Some highlights from the papers added last month:
 
 # Who's Hiring
 
-<div class='right'><br /><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><br /><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -278,7 +278,7 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 ### United Kingdom: CLIMB
 
-<div class='right solid'><a href='http://www.climb.ac.uk/'><img src="/src/images/logos/mrc-climb-logo.png" alt="MRC CLIMB (Cloud infrastructure for Microbial Bioinformatics" width="300" /></a></div>
+<div class='right solid'><a href='http://www.climb.ac.uk/'><img src="/images/logos/mrc-climb-logo.png" alt="MRC CLIMB (Cloud infrastructure for Microbial Bioinformatics" width="300" /></a></div>
 
 * *Links:*
   * **[CLIMB Home](http://www.climb.ac.uk/)**
@@ -307,7 +307,7 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 ### Antigen Receptor Galaxy (ARGalaxy)
 	
-<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/argalaxy/'><img src="/src/use/archive/argalaxy/argalaxy-logo.png" alt="Antigen Receptor Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/argalaxy/'><img src="/use/archive/argalaxy/argalaxy-logo.png" alt="Antigen Receptor Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [Antigen Receptor Galaxy (ARGalaxy)](https://bioinf-galaxian.erasmusmc.nl/argalaxy/)
@@ -332,9 +332,9 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 <table class="table">
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
@@ -365,7 +365,7 @@ Other packages that have been released in the prior 4 months.
 
 ###  17.01 Galaxy Release
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
 The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) published the **[17.01 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.01_announce.html)** in February.
 
@@ -398,7 +398,7 @@ Technically, the [all-new Galaxy CloudLaunch service](https://beta.launch.usegal
 
 ### Planemo 0.39 - 0.40
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -407,7 +407,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 ### Starforge 0.3
 
 <div class='right'>
-<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/src/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
+<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
 </div>
 
 [Starforge](https://pypi.python.org/pypi/starforge) is a collection of scripts that supports the building of components for Galaxy.  Specifically, with Starforge you can:
@@ -422,7 +422,7 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 ### Pulsar 0.7.4
 
-<div class='right'><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" /></a></div>
+<div class='right'><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" /></a></div>
 
 A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in February.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
@@ -439,7 +439,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

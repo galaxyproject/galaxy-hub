@@ -17,41 +17,41 @@ title: Visualization with Charts
 * Click on the **Visualize** icon and select **Charts**.
 * Now, you should see the *Charts* front panel, where you may select a title and a chart type:
 
-![Specific region](/src/learn/visualization/charts/charts_main.png)
+![Specific region](/learn/visualization/charts/charts_main.png)
 
 * Next, click on the 'Add Data' tab and select the column(s) you would like to visualize:
 
-![Specific region](/src/learn/visualization/charts/charts_columns.png)
+![Specific region](/learn/visualization/charts/charts_columns.png)
 
 * Finally, click on the 'Draw' button to visualize your data:
 
-![Specific region](/src/learn/visualization/charts/charts_bar.png)
+![Specific region](/learn/visualization/charts/charts_bar.png)
 
 
 ### Examples (in alphabetical order)
 
 * Area chart:
 
-![Specific region](/src/learn/visualization/charts/charts_area.png)
+![Specific region](/learn/visualization/charts/charts_area.png)
 
 * Bar diagram (stacked):
 
-![Specific region](/src/learn/visualization/charts/charts_bar_stacked.png)
+![Specific region](/learn/visualization/charts/charts_bar_stacked.png)
 
 * Box plot:
 
-![Specific region](/src/learn/visualization/charts/charts_box.png)
+![Specific region](/learn/visualization/charts/charts_box.png)
 
 * Line diagram:
 
-![Specific region](/src/learn/visualization/charts/charts_line.png)
+![Specific region](/learn/visualization/charts/charts_line.png)
 
 * Pie chart:
 
-![Specific region](/src/learn/visualization/charts/charts_pie.png)
+![Specific region](/learn/visualization/charts/charts_pie.png)
 
 *Tip*: The pie chart tool expects two columns giving the text label and the count value for each segment. To make a Pie chart from a column of data use the ""Count"" occurrences of each record" to make a tally table first.
 
 * Scatter plot:
 
-![Specific region](/src/learn/visualization/charts/charts_scatter.png)
+![Specific region](/learn/visualization/charts/charts_scatter.png)

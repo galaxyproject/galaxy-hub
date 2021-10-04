@@ -567,7 +567,7 @@ When prompted by `debconf` with the following question, select `standalone`:
 
 ## Configure ProFTPd
 
-The configuration of ProFTPd is explained in the wiki at [Admin/Config/Upload via FTP](/src/admin/config/Upload via FTP/index.md).
+The configuration of ProFTPd is explained in the wiki at [Admin/Config/Upload via FTP](/admin/config/Upload via FTP/).
 
 ```console
 root@trainingday:/etc/nginx# cd /etc/proftpd/

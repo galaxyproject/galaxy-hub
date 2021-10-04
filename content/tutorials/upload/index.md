@@ -7,7 +7,7 @@ Uploading data into Galaxy can be done in number of ways summarized in the follo
 
 |       |
 |-------|
-|![](/src/tutorials/upload/upload_logic.png)|
+|![](/tutorials/upload/upload_logic.png)|
 |<small>**Figure 1**. Deciding which upload approach to use depends on the size and number of datasets, whether they are web accessible, or if they have been deposited to the Short Read Archive (SRA). **Many** = more than 10. **Big** = over 100 Mb.</small>|
 
 The general "best practice approach" is this:

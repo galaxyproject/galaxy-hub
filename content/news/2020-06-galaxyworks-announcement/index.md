@@ -4,7 +4,7 @@ tease: "A New Company for Providing Commercial Services for Galaxy"
 date: "2020-06-29"
 ---
 
-[<img class="float-right" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 14rem;" />](https://galaxyworks.io/)
+[<img class="float-right" src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width: 14rem;" />](https://galaxyworks.io/)
 We are announcing the formation of **GalaxyWorks** (_[galaxyworks.io](https://galaxyworks.io/)_), a
 company providing commercial services and support for Galaxy. Our goal is to
 broaden the reach of Galaxy into new sectors by simplifying access to the

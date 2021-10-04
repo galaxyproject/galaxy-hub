@@ -3,7 +3,7 @@ title: 'GalaxyAdmins February 2017 Meetup'
 date: '2017-02-16'
 tease: 'GalaxyAdmins February 2017 Meetup'
 ---
-<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 </div>
 
 
@@ -21,7 +21,7 @@ CloudLaunch is an application for launching Galaxy on the Cloud instances. In th
 
 ## Call Technology
 
-<div class='right'><img src="/src/images/logos/AdobeConnectSquarish.jpg" alt="GalaxyAdmin Meetup, Online Conference Room" width="150" /></div>
+<div class='right'><img src="/images/logos/AdobeConnectSquarish.jpg" alt="GalaxyAdmin Meetup, Online Conference Room" width="150" /></div>
 
 The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
@@ -29,4 +29,4 @@ The  meetup's online conference room will open 15 minutes before the meetup.  Th
 
 You can ask questions by *typing the question in the chat box.*
 
-<div class='center'><img src="/src/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>
+<div class='center'><img src="/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>

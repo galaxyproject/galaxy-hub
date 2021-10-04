@@ -42,7 +42,7 @@ The [first day](/events/switzerland2016/), October 20<sup>th</sup>, will start w
 The [second day](/events/germany2016/), October 21<sup>st</sup>, is a developers day with 3 to 4 hands-on sessions (1.5h). Every session will start with a 10 minute talk and theoretical introduction, followed by 1h of hacking and 20 minutes discussion and a small break until the next session begins. There are a few proposed and prepared topics but we are flexible so we can discover new areas of the Galaxy. See the [event's page](/events/germany2016/) for a list of topics.
 
 
-<div class='right'><br /><a href='http://www.uni-freiburg.de/universitaet-en/kontakt-und-wegweiser/lageplaene/engineering'><img src="/src/images/logos/UniFreiburg.png" alt="Technische Fakultät; Albert-Ludwigs-Universität Freiburg" height="100" /></a></div>
+<div class='right'><br /><a href='http://www.uni-freiburg.de/universitaet-en/kontakt-und-wegweiser/lageplaene/engineering'><img src="/images/logos/UniFreiburg.png" alt="Technische Fakultät; Albert-Ludwigs-Universität Freiburg" height="100" /></a></div>
 
 ## Location
 

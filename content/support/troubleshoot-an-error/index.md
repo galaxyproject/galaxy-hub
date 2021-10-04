@@ -20,7 +20,7 @@ Please review THIS before submitting bug reports
 *   Tools for fixing/converting/modifying a [dataset](/learn/managing-datasets/) will often include the [datatype name](/learn/datatypes/). Use the tool search to locate candidate tools, likely in tool groups _**Text Manipulation, Convert Formats, or NGS: QC and manipulation**_.
 *   The most commonly used tools for investigating problems with upload, format and making corrections are:
     *   **TIP**: use the Tool search in top left panel to find tools by keyword
-    *   _**Edit Attributes**_ form, found by clicking a dataset's ![Images/Icons/pencil.png](/src/images/icons/pencil.png "Images/Icons/pencil.png") icon
+    *   _**Edit Attributes**_ form, found by clicking a dataset's ![Images/Icons/pencil.png](/images/icons/pencil.png "Images/Icons/pencil.png") icon
     *   _**Convert Format**_ tool group
     *   **Select first lines from a dataset**
     *   **Select last lines from a dataset**

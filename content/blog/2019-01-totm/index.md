@@ -12,7 +12,7 @@ To help highlight our tutorials and the training effort of the community, every 
 
 This month, the [*Galaxy contributor of the Month!*](../2018-12-cotm-simon-gladman), Simon Gladman, selects and presents the tutorial: ["Genome annotation with Prokka"](https://galaxyproject.github.io/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html), from the topic ["Genome Annotation"](https://galaxyproject.github.io/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/):
 
-<img class="img-fluid mx-auto" src="/src/blog/2019-01-totm/annotation_with_prokka.png" alt="Genome annotation with Prokka"/>
+<img class="img-fluid mx-auto" src="/blog/2019-01-totm/annotation_with_prokka.png" alt="Genome annotation with Prokka"/>
 
 *The full version is available on the training website: [http://training.galaxyproject.org/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html](http://training.galaxyproject.org/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html)*
 

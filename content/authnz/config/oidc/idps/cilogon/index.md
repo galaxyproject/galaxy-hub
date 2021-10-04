@@ -68,4 +68,4 @@ for more details.
 Having set this configuration, restart Galaxy to have the option to login to
 Galaxy using CILogon by selecting your institution from the list and entering the login credentials.
 
-![image](/src/authnz/config/oidc/idps/cilogon/cilogon-login-list.png)
+![image](/authnz/config/oidc/idps/cilogon/cilogon-login-list.png)

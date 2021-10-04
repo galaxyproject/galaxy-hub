@@ -4,7 +4,7 @@ date: "2015-01-07"
 ---
 Hey Everyone,
 
-<div class='right'><a href='/events/meetups/baltimore/2015-01-22/'><img src="/src/events/meetups/baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="Galaxy Baltimore Meetups" width="170" /></a></div>
+<div class='right'><a href='/events/meetups/baltimore/2015-01-22/'><img src="/events/meetups/baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="Galaxy Baltimore Meetups" width="170" /></a></div>
 
 We are looking forward to kicking off our first Galaxy Project Meetup! We will [meet on January 22](/events/meetups/baltimore/2015-01-22/) at one of the Galaxy project hubs - the Department of Biology of Johns Hopkins University for a general introduction to Galaxy in the form of a social gathering. This will be an informal meeting open to anyone interested in data analysis, tools, computer infrastructure, programming, ...
 
@@ -16,4 +16,4 @@ We are hoping this will be the first of many meetups, both in the Baltimore area
 
 Thanks,
 
-[Enis Afgan](/people/enis-afgan/) and [Nitesh Turaga](/people/nitesh-turaga/), of the [Galaxy Team](/src/galaxy-team/)
+[Enis Afgan](/people/enis-afgan/) and [Nitesh Turaga](/people/nitesh-turaga/), of the [Galaxy Team](/galaxy-team/)

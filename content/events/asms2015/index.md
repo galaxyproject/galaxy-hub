@@ -1,7 +1,7 @@
 <div class='title'>
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/src/images/logos/ASMSLogo.png" alt="63rd ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
+    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/images/logos/ASMSLogo.png" alt="63rd ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
     <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'>63rd ASMS Conference on Mass Spectrometry and Allied Topics</a><br /><br /> St. Louis, Missouri, United States<br /><br />May 31 - June 4, 2015 </td>
   </tr>
 </table>
@@ -114,7 +114,7 @@ Ample time will be offered for questions from attendees and discussion. Presente
 
 <div class='right'>
 <br />
-<a href='https://depot.galaxyproject.org/hub/attachments/events/asms2015/ASMS2015GalaxyPFlyer.pdf'><img src="/src/events/asms2015/ASMS2015GalaxyPFlyerThumb.png" alt="Galaxy-P at ASMS 2015" /></a>
+<a href='https://depot.galaxyproject.org/hub/attachments/events/asms2015/ASMS2015GalaxyPFlyer.pdf'><img src="/events/asms2015/ASMS2015GalaxyPFlyerThumb.png" alt="Galaxy-P at ASMS 2015" /></a>
 </div>
 
 ## Flyer

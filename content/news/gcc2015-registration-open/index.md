@@ -2,7 +2,7 @@
 title: "GCC2015 Registration is Open!"
 date: "2015-04-27"
 ---
-<div class='right'><a href='http://gcc2015.tsl.ac.uk/registration/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Registration is open" width="220" /></a></div>
+<div class='right'><a href='http://gcc2015.tsl.ac.uk/registration/'><img src="/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Registration is open" width="220" /></a></div>
 
 We are tremendously pleased (and more than a little relieved) to announce that **[registration for GCC2015 is now open](http://gcc2015.tsl.ac.uk/registration/)**.  The [2015 Galaxy Community Conference](http://gcc2015.tsl.ac.uk/) includes [2 days of hackathons, 2 days of training, and a two day meeting](http://gcc2015.tsl.ac.uk/programme/) featuring accepted presentations, keynotes, poster sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking.  GCC2015 is hosted by [The Sainsbury Laboratory](http://www.tsl.ac.uk/), in Norwich, UK, and events run 4-8 July.
 

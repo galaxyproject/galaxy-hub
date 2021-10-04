@@ -2,7 +2,7 @@
 title: "Nominate 2014 Training Day Topics"
 date: "2013-12-02"
 ---
-<div class='right'><a href='/events/gcc2014/training-day/'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014 Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2014/training-day/'><img src="/images/logos/GCC2014LogoTall200.png" alt="GCC2014 Training Day" width="150" /></a></div>
 
 <table>
   <tr>

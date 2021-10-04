@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.tgac.ac.uk/introduction-to-galaxy/'><img src="/src/images/logos/TGACLogo.png" alt="The Genome Analysis Centre"  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.tgac.ac.uk/introduction-to-galaxy/'><img src="/images/logos/TGACLogo.png" alt="The Genome Analysis Centre"  /></a> </td>
   </tr>
 </table>
 
@@ -97,8 +97,8 @@ No programming or Linux command line experience is required.
 
 
 <div class='right'>
-<br /><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
-<a href='/events/uk-may2014/'><img src="/src/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
+<br /><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
+<a href='/events/uk-may2014/'><img src="/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
 </div>
 
 ## Support

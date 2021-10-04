@@ -1,7 +1,7 @@
 ---
 title: December 2012 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the December 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -46,7 +46,7 @@ These papers may be of interest to the Galaxy community:
 </div>
 
 * [Enis Afgan](/people/enis-afgan/), Brad Chapman and [James Taylor](/people/james-taylor/), "[CloudMan as a platform for tool, data, and analysis distribution](http://www.biomedcentral.com/1471-2105/13/315/abstract)." *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2012, 13:315 <br /><br />
-* [Jeremy Goecks](/people/jeremy-goecks/), [Nate Coraor](/people/nate/), [The Galaxy Team](/src/galaxy-team/), [Anton Nekrutenko](/people/anton/) & [James Taylor](/people/james-taylor/), "[NGS analyses by visualization with Trackster](http://bit.ly/VMUz7p)."  *[Nature Biotechnology](http://www.nature.com/nbt/index.html)* 30, 1036–1039 (2012) <br /><br />
+* [Jeremy Goecks](/people/jeremy-goecks/), [Nate Coraor](/people/nate/), [The Galaxy Team](/galaxy-team/), [Anton Nekrutenko](/people/anton/) & [James Taylor](/people/james-taylor/), "[NGS analyses by visualization with Trackster](http://bit.ly/VMUz7p)."  *[Nature Biotechnology](http://www.nature.com/nbt/index.html)* 30, 1036–1039 (2012) <br /><br />
 * Samantha Baldwin, Roopashree Revanna, Susan Thomson, *et al.*, "[A Toolkit for bulk PCR-based marker design from next-generation sequence data: application for development of a framework linkage map in bulb onion (Allium cepa L.)](https://doi.org/10.1186/1471-2164-13-637)," *BMC Genomics*, Vol. 13, No. 1. (2012), 637 <br /><br />
 * Jeremy C. Morgan, Robert W. Chapman, Paul E. Anderson, "[A next generation sequence processing and analysis platform with integrated cloud-storage and high performance computing resources](https://doi.org/10.1145/2382936.2383033).  Proceedings of the ACM Conference on Bioinformatics, Computational Biology and Biomedicine <br /><br /> 
 * Bo Liu, Borja Sotomayor, Ravi Madduri, Kyle Chard, "[Deploying Bioinformatics Workflows on Clouds with Galaxy and Globus Provision](http:// bit.ly/UPBbRI)."  [Third International Workshop on Data Intensive Computing in the Clouds (DataCloud 2012)](http://www.cse.buffalo.edu/faculty/tkosar/DataCloud2012/)
@@ -58,11 +58,11 @@ These papers were among [37 papers added to the Galaxy CiteULike group](http://w
 
 ## New Public Galaxy Servers
 
-<div class='right'><a href='http://galaxy.nbic.nl/'><img src="/src/images/logos/NBICLogo.png" alt="NBIC" height="50" /></a></div>
+<div class='right'><a href='http://galaxy.nbic.nl/'><img src="/images/logos/NBICLogo.png" alt="NBIC" height="50" /></a></div>
 
 * **[Andromeda](http://galaxy.nbic.nl/):** The [Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/) and [BiG Grid/SARA](http://www.biggrid.nl/) have launched  [a public and fully populated Galaxy instance](http://galaxy.nbic.nl/) that runs on a cloud infrastructure.  See [the announcement](http://www.nbic.nl/about-nbic/news-press/bioinformatics-news/detail/article/galaxy-on-cloud/) for more details.
 
-<div class='right'><a href='http://w3lamc.umbr.cas.cz/lamc/'><img src="/src/images/logos/PlantMolBioCZLogo.png" alt="Laboratory of Molecular Cytogenetics, Laboratory of Molecular Cytogenetics, Institute of Plant Molecular Biology" height="80" /></a></div>
+<div class='right'><a href='http://w3lamc.umbr.cas.cz/lamc/'><img src="/images/logos/PlantMolBioCZLogo.png" alt="Laboratory of Molecular Cytogenetics, Laboratory of Molecular Cytogenetics, Institute of Plant Molecular Biology" height="80" /></a></div>
 
 * **[RepeatExplorer](http://repeatexplorer.umbr.cas.cz/):** Features utilities for [Graph-based clustering and characterization of repetitive sequences in next-generation sequencing data](http://www.biomedcentral.com/1471-2105/11/378) and tools for the detection of transposable element protein coding domains.  [RepeatExplorer](http://repeatexplorer.umbr.cas.cz/) is hosted by the [Laboratory of Molecular Cytogenetics](http://w3lamc.umbr.cas.cz/lamc/), [Institute of Plant Molecular Biology](http://www.umbr.cas.cz/), [Biology Centre ASCR](http://www.bc.cas.cz/en/)
 
@@ -70,7 +70,7 @@ See [the list of public Galaxy servers](/use/) for more open and accessible Gala
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * [Research Fellow (Molecular Biologist)](http://bit.ly/UZzlOd) @ [MRC Human Genetics Unit](http://www.hgu.mrc.ac.uk/) at the [MRC Institute of Genetics and Molecular Medicine](http://www.igmm.ac.uk/), Edinburgh, UK
@@ -85,14 +85,14 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'><img src="/src/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" height="80" /></a>
-<a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a>
-<a href='http://conf.abrf.org/'><img src="/src/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
-<a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
+<a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'><img src="/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" height="80" /></a>
+<a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a>
+<a href='http://conf.abrf.org/'><img src="/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
+<a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 </div>
 
 <br />
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -168,7 +168,7 @@ However, there are a few high-profile meetings:
 
 ## Source Code Documentation
 
-<div class='right'><a href='http://galaxy-dist.readthedocs.org'><img src="/src/images/news-graphics/2012-11-14_dist-readthedocs.png" alt="Galaxy-Dist at ReadTheDocs" width="320" /></a><br /><a href='http://readthedocs.org'><img src="/src/images/logos/ReadTheDocsLogo.png" alt="Read the Docs" width="125" /></a><a href='http://sphinx-doc.org/'><img src="/src/images/logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator" width="200" /></a></div>
+<div class='right'><a href='http://galaxy-dist.readthedocs.org'><img src="/images/news-graphics/2012-11-14_dist-readthedocs.png" alt="Galaxy-Dist at ReadTheDocs" width="320" /></a><br /><a href='http://readthedocs.org'><img src="/images/logos/ReadTheDocsLogo.png" alt="Read the Docs" width="125" /></a><a href='http://sphinx-doc.org/'><img src="/images/logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator" width="200" /></a></div>
 
 The Galaxy Project is now using *[Sphinx](http://sphinx-doc.org/)* hosted at [Read the Docs](http://readthedocs.org) to document the Galaxy code base.  Two versions are available:
 * **[galaxy-dist](http://galaxy-dist.readthedocs.org):** Code documentation for latest official release of Galaxy.
@@ -235,8 +235,8 @@ Several new repositories were added to, and existing repositories updated in the
 
 ## Other News
 
-<div class='right'><a href='/events/gcc2013/promotion/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a><br />
-<a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="175px" /></a>
+<div class='right'><a href='/events/gcc2013/promotion/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a><br />
+<a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="175px" /></a>
 </div>
 
 * [GCC2013](/events/gcc2013/) is coming.  Help [get the word out](/events/gcc2013/promotion/)!

@@ -9,8 +9,8 @@ Is your organization interested in playing a prominent role in the 2019 gatherin
 # Interested?
 
 <div class="float-right">
-[<img src="/src/events/gcc2019/sponsors/summary-thumb.png" alt="Download the one page summary." width="125" />](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_summary.pdf)
-[<img src="/src/events/gcc2019/sponsors/prospectus-thumb.png" alt="Download the full prospectus." width="125" />](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_prospectus.pdf)
+[<img src="/events/gcc2019/sponsors/summary-thumb.png" alt="Download the one page summary." width="125" />](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_summary.pdf)
+[<img src="/events/gcc2019/sponsors/prospectus-thumb.png" alt="Download the full prospectus." width="125" />](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_prospectus.pdf)
 </div>
 
 Please see the information below and contact the [conference organizers](/events/gcc2019/organizers/) with any questions.
@@ -61,9 +61,9 @@ Cost: €4000 (€3000 for non-profit) <span class="small">(+VAT)</span>
 ## Silver Sponsorships
 
 <div class="center">
-[<img style="max-height: 8em; padding: 1em  1em 1em 0em;" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
-[<img style="max-height: 10em; padding-right: 1em;" src="/src/images/logos/kws-logo-slogan.png" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
-[<img style="max-height: 10.5em; padding-right: 1em;" src="/src/images/logos/elixir-logo-big.png" alt="ELIXIR: uniting Europe’s leading life science organisations" />](https://elixir-europe.org/)
+[<img style="max-height: 8em; padding: 1em  1em 1em 0em;" src="/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
+[<img style="max-height: 10em; padding-right: 1em;" src="/images/logos/kws-logo-slogan.png" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
+[<img style="max-height: 10.5em; padding-right: 1em;" src="/images/logos/elixir-logo-big.png" alt="ELIXIR: uniting Europe’s leading life science organisations" />](https://elixir-europe.org/)
 </div>
 
 <br/><br />
@@ -79,7 +79,7 @@ Cost €2000 (€1500 for non-profit) <span class="small">(+VAT)</span>
 ## Bronze Sponsorships
 
 <div class="center">
-[<img style="max-height: 6.75em; padding: 1em;" src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience, an open access, open data, open peer-review journal focusing on ‘big data’ research from the life and biomedical sciences" />](https://academic.oup.com/gigascience)
+[<img style="max-height: 6.75em; padding: 1em;" src="/images/logos/GigaScienceLogo250.png" alt="GigaScience, an open access, open data, open peer-review journal focusing on ‘big data’ research from the life and biomedical sciences" />](https://academic.oup.com/gigascience)
 </div>
 
 <br/>
@@ -95,11 +95,11 @@ Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</span>
 <table>
   <tr style="text-align: center">
     <td style="vertical-align: middle;">
-      [<img style="max-width: 260px" src="/src/images/logos/elife-logo-wide.jpg" alt="an open-access journal for promising research in the life and biomedical sciences" />](https://elifesciences.org/labs)
+      [<img style="max-width: 260px" src="/images/logos/elife-logo-wide.jpg" alt="an open-access journal for promising research in the life and biomedical sciences" />](https://elifesciences.org/labs)
     </td>
     <td style="width: 5%"> </td>
     <td style="vertical-align: middle;">
-      [<img style="padding-bottom: 1em" src="/src/images/logos/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="230" />](https://f1000research.com/)
+      [<img style="padding-bottom: 1em" src="/images/logos/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="230" />](https://f1000research.com/)
     </td>
     <td style="width: 8%"> </td>
   </tr>
@@ -155,7 +155,7 @@ Cost: €1500 <span class="small">(+VAT)</span>
 ## Giga Sponsorships
 
 <div class="center">
-[<img style="max-height: 9.5em; padding-right: 1em;" src="/src/images/logos/elixir-logo-big.png" alt="ELIXIR: uniting Europe’s leading life science organisations" />](https://elixir-europe.org/)
+[<img style="max-height: 9.5em; padding-right: 1em;" src="/images/logos/elixir-logo-big.png" alt="ELIXIR: uniting Europe’s leading life science organisations" />](https://elixir-europe.org/)
 </div>
 
 
@@ -171,7 +171,7 @@ Cost: €500 <span class="small">(+VAT)</span>
 ## Hosts
 
 <div class="center">
-[<img src="/src/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy Freiburg Project" height="120" />](http://www.bioinf.uni-freiburg.de/Galaxy/) &nbsp;&nbsp; [<img src="/src/images/logos/UniFreiburg.png" alt="University of Freiburg" height="120" />](http://www.uni-freiburg.de/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/src/images/logos/deNBILogo.png" alt="de.NBI :the German Network for Bioinformatics Infrastructure" height="60" />](https://www.denbi.de/)
+[<img src="/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy Freiburg Project" height="120" />](http://www.bioinf.uni-freiburg.de/Galaxy/) &nbsp;&nbsp; [<img src="/images/logos/UniFreiburg.png" alt="University of Freiburg" height="120" />](http://www.uni-freiburg.de/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/images/logos/deNBILogo.png" alt="de.NBI :the German Network for Bioinformatics Infrastructure" height="60" />](https://www.denbi.de/)
 </div>
 
 <br />

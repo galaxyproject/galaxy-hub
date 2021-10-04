@@ -4,7 +4,7 @@ tease: "Gallantries!"
 date: "2019-03-12"
 ---
 
-[<img class="float-right" style="max-width: 300px" src="/src/images/logos/mozilla-science-lab-logo.png" alt="Mozilla Science Labs funds Galaxy + Carpentries proposal" />](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5#7d0f)
+[<img class="float-right" style="max-width: 300px" src="/images/logos/mozilla-science-lab-logo.png" alt="Mozilla Science Labs funds Galaxy + Carpentries proposal" />](https://medium.com/read-write-participate/meet-mozillas-latest-open-science-awardees-cfa45348e5d5#7d0f)
 
 At year's [Biohackathon](http://bh2018paris.info/index.html) we ([Saskia](https://github.com/shiltemann), [Bérénice](https://github.com/bebatut), and [Helena](https://github.com/hexylena) from Galaxy; and [Mateusz Kuzak](https://github.com/mkuzak) and [Fotis Psomopoulos](https://github.com/fpsom) from the Carpentries) applied for a [Mozilla Science](https://science.mozilla.org/) mini grant based on the idea of creating hybrid training materials (e.g. RNA-seq analysis in Galaxy followed by [Carpentries](https://www.carpentries.org/) style R coding for further analysis/visualisation) and piloting those materials in a hybrid workshop (streaming to multiple satellite locations).
 

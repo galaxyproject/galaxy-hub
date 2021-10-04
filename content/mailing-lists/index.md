@@ -28,7 +28,7 @@ Galaxy has several active mailing lists, each for a different purpose in the Gal
 
 # Searching
 
-<div class='right'><a href='/search/'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Search all" width="150" /></a></div>
+<div class='right'><a href='/search/'><img src="/images/galaxy-logos/galaxy-web-search.png" alt="Search all" width="150" /></a></div>
 
 You can search all lists at any of the archives above.  We recommend using [Galaxy Search](/search/) to search all mailing list archives and [online forum posts](https://help.galaxyproject.org/).
 

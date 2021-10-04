@@ -4,7 +4,7 @@ date: "2013-03-07"
 ---
 The **Galaxy Public [Main Galaxy Server](/main/)** at **http://main.g2.bx.psu.edu''' (''[usegalaxy.org](http://usegalaxy.org)*) and **[Test Galaxy Server](/test/)** at **http://test.g2.bx.psu.edu''' will be '''down on Thursday, March 14, while the team ''relocates core hardware to a new server room.'''''
 
-<div class='right'>![Rerun a job](/src/images/screenshots/re-run-sm.png)</div>
+<div class='right'>![Rerun a job](/images/screenshots/re-run-sm.png)</div>
 
 Please note that *ALL jobs running at the time of the shutdown will be terminated.* Once the move is complete, any terminated jobs can be easily restarted using the "re-run" function. 
 

@@ -2,7 +2,7 @@
 title: "European Galaxy Days Abstracts"
 ---
 
-<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days Logo" />
+<img class="float-right" src="/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days Logo" />
 
 ## Yvan Le Bras
 

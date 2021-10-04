@@ -82,17 +82,17 @@ given GCS bucket. For instance, in the following figure we show uploading a new
 dataset to Galaxy.
 
 <a href="/src/blog/2019-04-gcp/os1.png">
-    <img class="float-left" src="/src/blog/2019-04-gcp/os1.png" alt="Galaxy data upload" width="48%" />
+    <img class="float-left" src="/blog/2019-04-gcp/os1.png" alt="Galaxy data upload" width="48%" />
 </a>
 <a href="/src/blog/2019-04-gcp/os2.png">
-    <img class="float-right" src="/src/blog/2019-04-gcp/os2.png" alt="Galaxy data" width="48%" />
+    <img class="float-right" src="/blog/2019-04-gcp/os2.png" alt="Galaxy data" width="48%" />
 </a>
 
 The uploaded dataset is persisted on the given GCS bucket, as shown in the
 following figure.
 
 <div class="center"><a href="/src/blog/2019-04-gcp/os3.png">
-    <img src="/src/blog/2019-04-gcp/os3.png" alt="Galaxy data" width="50%" />
+    <img src="/blog/2019-04-gcp/os3.png" alt="Galaxy data" width="50%" />
 </a></div>
 
 
@@ -108,7 +108,7 @@ The CloudMan 2.0 appliance is currently a placeholder for launching the
 containerized version of Galaxy that was described above.
 
 <div class="center"><a href="/src/blog/2019-04-gcp/cl1.png">
-    <img class="center" src="/src/blog/2019-04-gcp/cl1.png" alt="CloudLaunch landing" width="50%" />
+    <img class="center" src="/blog/2019-04-gcp/cl1.png" alt="CloudLaunch landing" width="50%" />
 </a></div>
 
 Follow the launch wizard to create your new instance. If you do not already have
@@ -116,10 +116,10 @@ the required Google cloud credentials, check out the documentation here:
 https://www.galaxyproject.org/admin/objectstore/gce/#create-a-service-account.
 
 <a href="/src/blog/2019-04-gcp/cl2.png">
-    <img class="float-left" src="/src/blog/2019-04-gcp/cl2.png" alt="CloudLaunch wizard 1" width="48%" />
+    <img class="float-left" src="/blog/2019-04-gcp/cl2.png" alt="CloudLaunch wizard 1" width="48%" />
 </a>
 <a href="/src/blog/2019-04-gcp/cl3.png">
-    <img class="float-right" src="/src/blog/2019-04-gcp/cl3.png" alt="CloudLaunch wizard 2" width="48%" />
+    <img class="float-right" src="/blog/2019-04-gcp/cl3.png" alt="CloudLaunch wizard 2" width="48%" />
 </a>
 
 The launch process will take close to 20 minutes (we’re working on it!) and once
@@ -131,10 +131,10 @@ observe the status of the machine and, after a few more minutes, access Galaxy
 to use it for some of the task suggested above.
 
 <a href="/src/blog/2019-04-gcp/cl4.png">
-    <img class="float-left" src="/src/blog/2019-04-gcp/cl4.png" alt="CloudMan status" width="48%" />
+    <img class="float-left" src="/blog/2019-04-gcp/cl4.png" alt="CloudMan status" width="48%" />
 </a>
 <a href="/src/blog/2019-04-gcp/cl5.png">
-    <img class="float-right" src="/src/blog/2019-04-gcp/cl5.png" alt="Galaxy CloudMan" width="48%" />
+    <img class="float-right" src="/blog/2019-04-gcp/cl5.png" alt="Galaxy CloudMan" width="48%" />
 </a>
 
 As a preview of the CloudMan 2.0 features, note the ability to visually update
@@ -143,7 +143,7 @@ one idea here that translates to the ability to install additional tools in
 Galaxy.
 
 <div class="center"><a href="/src/blog/2019-04-gcp/cl6.png">
-    <img class="center" src="/src/blog/2019-04-gcp/cl6.png" alt="CloudMan config" width="50%" />
+    <img class="center" src="/blog/2019-04-gcp/cl6.png" alt="CloudMan config" width="50%" />
 </a></div>
 
 To shut down your instance, head back to CloudLaunch. Under My Appliances page,

@@ -2,7 +2,7 @@
 title: Galaxy Machine Learning Community
 ---
 
-<a href="https://ml.usegalaxy.eu"><div class='center'><img src="/src/images/communities/machine_learning_logo.png" /></div></a>
+<a href="https://ml.usegalaxy.eu"><div class='center'><img src="/images/communities/machine_learning_logo.png" /></div></a>
 
 
 The Galaxy Machine Learning workbench is a comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, consolidated workflows for end-to-end machine learning analysis and training materials to showcase the usage of these tools.

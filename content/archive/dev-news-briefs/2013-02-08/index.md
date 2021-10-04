@@ -90,7 +90,7 @@ The following new routes have been added to the Tool Shed:
 
 These allow for URLs that can be cited or shared, and viewing a repository will display it's sharable link.  Here's an example.
 
-![](/src/images/news-graphics/2013_02_5-sharable.png)
+![](/images/news-graphics/2013_02_5-sharable.png)
 
 Thanks to [Peter Cock](https://bitbucket.org/peterjc) for the contribution!
 
@@ -98,19 +98,19 @@ Thanks to [Peter Cock](https://bitbucket.org/peterjc) for the contribution!
 
 1. The ability to select multiple tool shed repositories for simultaneous installation has been reintroduced.  This feature was eliminated several months ago to allow for the implementation of repository dependencies.  Now choosing either of the options "Search for valid tools" or "Search for workflows" from a tool shed's pop-up menu as shown here...
 
-![](/src/images/news-graphics/2013_02_1-toolshed-search.png)
+![](/images/news-graphics/2013_02_1-toolshed-search.png)
 
 ...and entering a search string as shown here...
 
-![](/src/images/news-graphics/2013_02_2-search-string.png)
+![](/images/news-graphics/2013_02_2-search-string.png)
 
 ...will allow you to selectively install any of the repositories matching the search criteria.
 
-![](/src/images/news-graphics/2013_02_3-select-to-install.png)
+![](/images/news-graphics/2013_02_3-select-to-install.png)
 
 All repositories dependencies and tool dependencies that are defined for each repository selected for installation will be discovered and displayed in preparation for installation into your local Galaxy instance.  You can optionally elect to install these dependencies..
 
-![](/src/images/news-graphics/2013_02_4-confirm-dependency-installation.png)
+![](/images/news-graphics/2013_02_4-confirm-dependency-installation.png)
 
 ### Tool Shed Related Fixes
 
@@ -234,8 +234,8 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 ## GCC2013
 
-<div class='right'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a> <br />
-<a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a> <br />
+<a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
 ### Training Day Topic Voting Closes 11 February
 

@@ -5,7 +5,7 @@ title: Get Involved!
 
 # Mailing Lists
 
-<div class='left'><a href='/mailing-lists/'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Mailing Lists" width="64" /></a></div>
+<div class='left'><a href='/mailing-lists/'><img src="/images/logos/MailmanLogoSmall.png" alt="Galaxy Mailing Lists" width="64" /></a></div>
 
 Galaxy has *thousands* of users around the world, all using Galaxy in different
 and often novel ways.  When these users have a question or a topic to discuss,
@@ -17,7 +17,7 @@ experience.
 
 # Community Chatroom
 
-<div class='right'>![Galaxy Chat](/src/images/icons/ChatBalloons.png)</div>
+<div class='right'>![Galaxy Chat](/images/icons/ChatBalloons.png)</div>
 
 Galaxy also has an open community chatroom.  The channel exists on both IRC and
 Gitter, and the rooms are bridged together, so feel free to use whichever
@@ -42,7 +42,7 @@ engines](https://galaxyproject.org/search/).
 
 # Develop Tools and Tool Definitions
 
-<div class='right'><a href='/toolshed/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="170" /></a></div>
+<div class='right'><a href='/toolshed/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width="170" /></a></div>
 There are thousands of useful bioinformatics tools in existence and the Galaxy [Main](/main/) server (and the [Galaxy Team](/galaxy-team/)) cannot possibly support all of them.  Only tools that are widely useful in many areas of biomedical research (and meet several other criteria) are available on Main.
 
 The Galaxy [Tool Shed](/toolshed/) is a means to make other tools available for use within local and cloud-based Galaxy instances.  You can create tool wrappers (usually a simple file encapsulating how Galaxy should treat the underlying software tool) in order to define tools within Galaxy.  In order to share your tool with everyone, you can upload any given wrapper to the [Tool Shed](/toolshed/) where it can be downloaded and installed into any Galaxy instance worldwide. To get you started we prepared this [Adding tool tutorial](/admin/tools/add-tool-tutorial/) for you.
@@ -65,7 +65,7 @@ If and when you [setup your own Galaxy instance](/admin/get-galaxy/), you can ma
 
 # Share Your Experience
 
-<img class="img-fluid float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />
+<img class="img-fluid float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />
 
 The [Galactic Blog](/blog/) features Galaxy related blog posts from community members.  The blog contains longer form posts or pointers to longer form posts that are elsewhere on the web.
 
@@ -75,7 +75,7 @@ This site contains a large amount of documentation about using and administering
 
 # Code
 
-<div class='right'><img src="/src/images/logos/GitHubLogoText.png" alt="GitHub" width="100" /></div>
+<div class='right'><img src="/images/logos/GitHubLogoText.png" alt="GitHub" width="100" /></div>
 
 Galaxy is an open source project.  Anyone can [contribute to the code](/develop/).
 
