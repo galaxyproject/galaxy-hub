@@ -81,7 +81,7 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
     * grayscale drawing for mapped reads so that variation can easily be seen
     * using colors to denote track state (e.g. pending, error, etc.)
 
-<a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2014_02_10_trackster-css.png" alt="Trackster" width="800" /></a>
+<a href='http://usegalaxy.org'><img src="/images/news-graphics/2014_02_10_trackster-css.png" alt="Trackster" width="800" /></a>
 
 
 <br />
@@ -257,7 +257,7 @@ Also see above: [New Tool Migrations](/archive/dev-news-briefs/2014-02-10/#new-t
 
 <br />
 <div class='right'>
-<br /><a href='http://usegalaxy.org'><img src="/src/images/logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
+<br /><a href='http://usegalaxy.org'><img src="/images/logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
 

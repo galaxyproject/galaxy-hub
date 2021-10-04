@@ -60,7 +60,7 @@ We have calls spread throughout the day.  Calls last for 30 minutes.  The rest o
 ## Hey Learners!
 
 <div class="center">
-[<img src="/src/images/logos/james-cook.png" alt="James Cook University" style="max-height: 8rem;" />](https://www.jcu.edu.au/) &nbsp;&nbsp; [<img src="/src/images/logos/heriot-watt.png" alt="Heriot-Watt University" style="max-height: 8rem;" />](https://www.hw.ac.uk/) &nbsp;&nbsp;&nbsp; [<img src="/src/images/logos/lock-haven.png" alt="Lock Haven University" style="max-height: 6rem;" />](https://lockhaven.edu/)
+[<img src="/images/logos/james-cook.png" alt="James Cook University" style="max-height: 8rem;" />](https://www.jcu.edu.au/) &nbsp;&nbsp; [<img src="/images/logos/heriot-watt.png" alt="Heriot-Watt University" style="max-height: 8rem;" />](https://www.hw.ac.uk/) &nbsp;&nbsp;&nbsp; [<img src="/images/logos/lock-haven.png" alt="Lock Haven University" style="max-height: 6rem;" />](https://lockhaven.edu/)
 </div>
 <br />
 

@@ -109,7 +109,7 @@ In the following screenshots, we're using the Google Cloud Platform to add a
 machine. Note that you can also mix which providers you use for your workers.
 
 <div class="center"><a href="/src/blog/2019-05-gcr/cloudlaunch.png">
-    <img src="/src/blog/2019-05-gcr/cloudlaunch.png"
+    <img src="/blog/2019-05-gcr/cloudlaunch.png"
      alt="Running instance" width="80%" />
 </a></div>
 
@@ -124,7 +124,7 @@ instance running on GCP where Pulsar automatically installs the necessary tools
 via Conda and runs the job via an embedded Slurm job manager.
 
 <div class="center"><a href="/src/blog/2019-05-gcr/job-run.png">
-    <img src="/src/blog/2019-05-gcr/job-run.png" alt="Launch page 1" width="80%" />
+    <img src="/blog/2019-05-gcr/job-run.png" alt="Launch page 1" width="80%" />
 </a></div>
 
 # Caveats, known issues, and future directions

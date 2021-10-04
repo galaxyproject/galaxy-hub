@@ -1,7 +1,7 @@
 ---
 title: August 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the august 2014 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -9,7 +9,7 @@ The *Galaxy Update* is going out a few days early this month because the usual r
 
 # Events
 
-<div class='left'><br /><a href='/events/gcc2014/'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="120" /></a></div>
+<div class='left'><br /><a href='/events/gcc2014/'><img src="/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="120" /></a></div>
 
 ## GCC2014 Report
 
@@ -109,7 +109,7 @@ Feedback has been very positive (see below for some of it), and we would like to
 
 <div class='left'>
 <br />
-<a href='/events/gcc2015/'><img src="/src/images/logos/GCC2015LogoTall300.png" alt="GCC2015" width="150" /></a>
+<a href='/events/gcc2015/'><img src="/images/logos/GCC2015LogoTall300.png" alt="GCC2015" width="150" /></a>
 </div>
 
 ## GCC2015: Norwich, United Kingdom, 6-8 July 2015
@@ -127,25 +127,25 @@ GCC2015 will be held 6-8<sup>th</sup> July, 2015, which is just before ISMB/ECCB
 ## Galaxy @ ISMB and BOSC 2014 Slides and Posters
 
 <div class='right'>
-<a href='/events/ismb2014/'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2014" height="65" /></a>&nbsp;&nbsp;&nbsp;
-<a href='/events/ismb2014/'><img src="/src/images/logos/ISMB2014LogoRound.png" alt="ISMB 2014" height="85" /></a>
+<a href='/events/ismb2014/'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2014" height="65" /></a>&nbsp;&nbsp;&nbsp;
+<a href='/events/ismb2014/'><img src="/images/logos/ISMB2014LogoRound.png" alt="ISMB 2014" height="85" /></a>
 </div>
 
 Slides and posters for [9 Galaxy related presentations at ISMB and BOSC 2014](/events/ismb2014/) this year are now available online too.  There's also an [interesting writeup of the Bioinfo-Core Workshop](http://bit.ly/1oRKI9Z) including *Core on a Budget vs Enterprise* and *Using pipelines within a core*.
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 
 Over the rest of the few months there are many [Galaxy related events](/events/) in Brisbane, Rio de Janeiro, Rennes, and Melbourne.  Galaxy will also be at ECCB'14/JOBIM in Strasbourg, and there is [Swiss-German Galaxy Tour](/events/sg2014/) in the fall.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
 <div class='center'> 
-<a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="90" /></a>
-<a href='http://www.eccb14.org/program/tutorials/workflows'><img src="/src/images/logos/ECCB2014Logo.png" alt="T07 - Scientific Workflows for Analysing, Integrating and Scaling Bioinformatics Data: a Practical Introduction to Galaxy, Taverna and WS-PGRADE" height="80" /></a>
-<a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Tools integration on Galaxy" height="80" /></a> &nbsp;
-<a href='/events/sg2014/'><img src="/src/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
+<a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="90" /></a>
+<a href='http://www.eccb14.org/program/tutorials/workflows'><img src="/images/logos/ECCB2014Logo.png" alt="T07 - Scientific Workflows for Analysing, Integrating and Scaling Bioinformatics Data: a Practical Introduction to Galaxy, Taverna and WS-PGRADE" height="80" /></a>
+<a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src="/images/logos/eBiogenouestLogo.png" alt="Tools integration on Galaxy" height="80" /></a> &nbsp;
+<a href='/events/sg2014/'><img src="/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
 </div>
 
 <table>
@@ -305,7 +305,7 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
@@ -325,7 +325,7 @@ One new [public Galaxy server](/use/) was added to the published list in July:
 
 ## IM-PET
 
-<div class='right solid'><a href='http://impet.int-med.uiowa.edu/'><img src="/src/public-galaxy-servers/archive/im-pet.png" alt="IM-PET" width="300" /></a></div>
+<div class='right solid'><a href='http://impet.int-med.uiowa.edu/'><img src="/public-galaxy-servers/archive/im-pet.png" alt="IM-PET" width="300" /></a></div>
 
 * *Link:*
   * [IM-PET](http://impet.int-med.uiowa.edu/) 
@@ -354,8 +354,8 @@ Because this vulnerability allows for arbitrary code execution, administrators a
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
@@ -370,7 +370,7 @@ Because this vulnerability allows for arbitrary code execution, administrators a
 
 The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them **this month.**
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

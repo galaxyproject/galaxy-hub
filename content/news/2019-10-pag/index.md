@@ -4,7 +4,7 @@ tease: "PAG Deadlines are this week"
 date: "2019-10-23"
 ---
 
-[<img class="float-right" style="max-width: 24rem" src="/src/events/2020-pag/pag2020.png" alt="Galaxy @ PAG 2020" />](/events/2020-pag/)
+[<img class="float-right" style="max-width: 24rem" src="/events/2020-pag/pag2020.png" alt="Galaxy @ PAG 2020" />](/events/2020-pag/)
 
 The 28th [Plant and Animal Genome Conference (PAG 2020)](http://www.intlpag.org/) will be held January 11-15, in San Diego, California. PAG is the largest ag-genomics meeting in the world, with over 3000 participants, and 5 days of programming.
 

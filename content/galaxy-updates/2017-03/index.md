@@ -1,7 +1,7 @@
 ---
 title: March 2017 Galaxy News
 ---
-<div class='right'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
 Welcome to the March 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  After *5 years* [of monthly newsletters](/galaxy-updates/), we took a newsletter hiatus last month, but now we are back, and ready to report on our *continuing mission* to explore the Galaxy.
 
@@ -13,7 +13,7 @@ As always there are a wealth of events coming up.  Here are some highlights:
 
 ## 2017 Galaxy Community Conference
 
-<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/src/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></div>
+<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></div>
 
 ### Registration & abstract submission are open
 
@@ -61,7 +61,7 @@ Galaxy Community Fund Board
 ## Cycle "Bioinformatique par la pratique" 2017
 
 <div class="right">
-<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a>
+<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a>
 </div>
 
 The [Plateform de BioInformatique - INRA Jouy en Josas](http://migale.jouy.inra.fr/) is offering several Galaxy workshops in its "[Bioinformatics by practice](http://migale.jouy.inra.fr/?q=formations)" training cyle this month. The sessions are composed of a theoretical part and practical exercises. They are given on the campus of the INRA center in Jouy-en-Josas.  Workshops are in French and are open to anyone.
@@ -69,8 +69,8 @@ The [Plateform de BioInformatique - INRA Jouy en Josas](http://migale.jouy.inra.
 ## Metaproteomics of microbiomes at ABRF 2017
 
 <div class="right">
-<a href='http://conf.abrf.org/the-galaxy-platform'><img src="/src/images/logos/abrf2017-clipped.png" alt="The Galaxy platform for metaproteomic characterization of microbiomes @ ABRF 2017" height="60" style="vertical-align: top" /> 
-<img src="/src/images/logos/GalaxyPLogo.png" alt="presented by the GalaxyP team" height="80"> </a>
+<a href='http://conf.abrf.org/the-galaxy-platform'><img src="/images/logos/abrf2017-clipped.png" alt="The Galaxy platform for metaproteomic characterization of microbiomes @ ABRF 2017" height="60" style="vertical-align: top" /> 
+<img src="/images/logos/GalaxyPLogo.png" alt="presented by the GalaxyP team" height="80"> </a>
 </div>
 
 Learn how Galaxy can be used for proteomic data analysis, and also applications that cross the ‘omic domains.
@@ -82,7 +82,7 @@ See the [full workshop description](http://conf.abrf.org/the-galaxy-platform) fo
 
 ## Galaxy Australasia Meeting (GAMe 2017) Report
 
-<div class='right'><a href='https://www.embl-abr.org.au/game2017/'><img src="/src/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a></div>
+<div class='right'><a href='https://www.embl-abr.org.au/game2017/'><img src="/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a></div>
 
 "The [Galaxy Australasia Meeting 2017 (GAMe 2017)](https://www.embl-abr.org.au/game2017/) was [Galaxy Australia’s](https://www.embl-abr.org.au/galaxyaustralia/) first major activity. Bringing together current and future Galaxy users and administrators from nine different countries, the meeting had a fantastic community feeling and resulted in many ideas for carrying plans forward in our region."
 
@@ -93,7 +93,7 @@ See the [full report](https://www.embl-abr.org.au/game2017report/) for more.
 
 ## GalaxyAdmins February Meetup Screencast
 
-<div class='left'><a href='/community/galaxy-admins/meetups/2017-02-16/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
+<div class='left'><a href='/community/galaxy-admins/meetups/2017-02-16/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
 
 A video of the [February 16 GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2017-02-16/) is now available.  Nuwan Goonesekera and [Enis Afgan](/people/enis-afgan/) presented an all-new version of CloudLaunch, an application for launching Galaxy on the Cloud instances. The [new CloudLaunch](https://beta.launch.usegalaxy.org) allows multiple flavors of Galaxy to be deployed, Docker images or applications other than Galaxy. Each application can have its own custom user interface developed to accommodate the specific application needs.
 
@@ -102,10 +102,10 @@ A video of the [February 16 GalaxyAdmins Meetup](/community/galaxy-admins/meetup
 There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <div class='center'> 
-<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a>
-<a href='http://conf.abrf.org/the-galaxy-platform'><img src="/src/images/logos/abrf2017-clipped.png" alt="The Galaxy platform for metaproteomic characterization of microbiomes @ ABRF 2017" height="50" /></a>
-<a href='https://www.biogenouest.org/RNA-seq%2526microarray#Traitement de données de séquences par Galaxy - 1 jour'><img src="/src/images/logos/biogenouest400.jpeg" alt="Traitement de données de séquences par Galaxy" height="50" /></a>
-<a href="https://biotexcel.com/event/ngs-2017-glasgow/#1481524841260-7a533ea8-43a2"><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Data Analysis Workshop" width="110" /></a>
+<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a>
+<a href='http://conf.abrf.org/the-galaxy-platform'><img src="/images/logos/abrf2017-clipped.png" alt="The Galaxy platform for metaproteomic characterization of microbiomes @ ABRF 2017" height="50" /></a>
+<a href='https://www.biogenouest.org/RNA-seq%2526microarray#Traitement de données de séquences par Galaxy - 1 jour'><img src="/images/logos/biogenouest400.jpeg" alt="Traitement de données de séquences par Galaxy" height="50" /></a>
+<a href="https://biotexcel.com/event/ngs-2017-glasgow/#1481524841260-7a533ea8-43a2"><img src="/images/logos/GlasgowPolyomics.jpg" alt="Data Analysis Workshop" width="110" /></a>
 </div>
 
 
@@ -119,39 +119,39 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
   <tr>
     <th> March 13 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module17.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
     <td> Sandra Dérozier, Véronique Martin </td>
   </tr>
   <tr>
     <th> March 14 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module8bis.pdf'>Analyse primaire de données issues de
 séquenceurs nouvelle génération sous Galaxy </a></em> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
     <td> Valentin Loux, Véronique Martin  </td>
   </tr>
   <tr>
     <th> March 15 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module18bis.pdf'>Traitement bioinformatique des
 donnéesRNA-Seq sous Galaxy</a></em> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
     <td> Valentin Loux, Cyprien Guérin  </td>
   </tr>
   <tr>
     <th> March 16-17 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module16.pdf'>Analyse statistique de données RNA-Seq - Recherche des régions d'intérêt différentiellement exprimées (R, RStudio et Galaxy)</a></em> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
     <td> Christelle Hennequet-Antier, Julie Aubert </td>
   </tr>
   <tr>
     <th> March 25-28 </th>
     <td> <em><a href='http://conf.abrf.org/the-galaxy-platform'>The Galaxy platform for metaproteomic characterization of microbiomes</a></em> </td>
-    <td> <img src="/src/images/icons/NA.png" alt="North America" align="right" /> <a href="http://conf.abrf.org/home">ABRF 2017</a>, San Diego, California, United States </td>
+    <td> <img src="/images/icons/NA.png" alt="North America" align="right" /> <a href="http://conf.abrf.org/home">ABRF 2017</a>, San Diego, California, United States </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://conf.abrf.org/the-galaxy-platform'>Tim Griffin, Pratik Jagtap, James Johnson</a> </td>
   </tr>
   <tr>
     <th> March 27-30 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2017/module20.pdf'>Analyse de données métagénomiques 16S</a></em> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Part of <a href="http://migale.jouy.inra.fr/?q=formations">Cycle "Bioinformatique par la pratique" 2017</a>, INRA, Jouy-en-Josas, France </td>
     <td> Mahendra Mariadassou, Anne-Laure Abraham, Olivier Rué, Sandra Dérozier </td>
   </tr>
   <tr>
@@ -160,13 +160,13 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
   <tr>
     <th> April 7 </th>
     <td> <em><a href='https://www.biogenouest.org/RNA-seq%2526microarray#Traitement de données de séquences par Galaxy - 1 jour'>Traitement de données de séquences par Galaxy</a></em> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Rennes, France </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Rennes, France </td>
     <td> <a href='https://www.biogenouest.org/RNA-seq%2526microarray'>Contact</a> </td>
   </tr>
   <tr>
     <th> April 19-21 </th>
     <td> <em><a href='http://www.canceropole-idf.fr/formation-ngs-dnaseq'>NGS & Cancer : Analyses DNA-Seq</a></em> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Paris, France </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Paris, France </td>
     <td> <a href='http://www.canceropole-idf.fr/formation-ngs-dnaseq'>Instructors</a> </td>
   </tr>
   <tr>
@@ -175,19 +175,19 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
   <tr>
     <th> May 15-16 </th>
     <td> <em><a href="https://biotexcel.com/event/ngs-2017-glasgow/#1481524841260-7a533ea8-43a2">Data Analysis Workshop</a></em> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> <a href="https://biotexcel.com/event/ngs-2017-glasgow/">NGS 2017 Glasgow</a>, Glasgow, United Kingdom </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> <a href="https://biotexcel.com/event/ngs-2017-glasgow/">NGS 2017 Glasgow</a>, Glasgow, United Kingdom </td>
     <td> Julian Augley, Graham Hamilton, David Meltzer and Mani Mudaliar </td>
   </tr>
   <tr>
     <th> May 29 - June 2 </th>
     <td> <em><a href="http://www.france-bioinformatique.fr/fr/evenements/W4E2017">Workflow4Experimenters International Course</a></em> <div(class="indent red"> Applications due Feb 18 </div></td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Pasteur Institute, Paris, France </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Pasteur Institute, Paris, France </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a><a href='http://www.france-bioinformatique.fr/fr/users/caron-christophe'>Christophe Caron</a> </td>
   </tr>
   <tr>
     <th> May 29 - June 2 </th>
     <td> <em><a href='https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017'>Bioinformatics for Cancer Genomics</a></em> </td>
-    <td> <img src="/src/images/icons/NA.png" alt="North America" align="right" /> Toronto, Canada </td>
+    <td> <img src="/images/icons/NA.png" alt="North America" align="right" /> Toronto, Canada </td>
     <td> <a href='https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017'>Instructors</a> </td>
   </tr>
   <tr>
@@ -196,13 +196,13 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
   <tr>
     <th> June 4-8 </th>
     <td> <em>Metaproteomics For The Future: Democratizing functional analysis of microbiomes via community-based informatics development and dissemination</em> </td>
-    <td> <img src="/src/images/icons/NA.png" alt="North America" align="right" /> <a href="http://www.asms.org/conferences/annual-conference/annual-conference-homepage">ASMS 2017</a>, Indianapolis, Indiana, United States </td>
+    <td> <img src="/images/icons/NA.png" alt="North America" align="right" /> <a href="http://www.asms.org/conferences/annual-conference/annual-conference-homepage">ASMS 2017</a>, Indianapolis, Indiana, United States </td>
     <td> Pratik Jagtap </td>
   </tr>
   <tr>
     <th> June 26-30 </th>
     <td> <strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a></strong> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Montpellier, France </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Montpellier, France </td>
     <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
   <tr>
@@ -215,7 +215,7 @@ donnéesRNA-Seq sous Galaxy</a></em> </td>
 <div class="center">
 <table class="table table-striped">
   <tr>
-    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
@@ -227,7 +227,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 # Galaxy in Google Summer of Code 2017
 
-<div class='right'><a href='https://summerofcode.withgoogle.com/organizations/6329848994725888/'><img src="/src/images/logos/GSoC_2016_logo.png" alt="Galxy in GSoC 2017l" height="50" /></a></div>
+<div class='right'><a href='https://summerofcode.withgoogle.com/organizations/6329848994725888/'><img src="/images/logos/GSoC_2016_logo.png" alt="Galxy in GSoC 2017l" height="50" /></a></div>
 
 The [Open Genome Informatics Consortium](https://summerofcode.withgoogle.com/organizations/6329848994725888/) was selected for the [2017 Google Summer of Code](https://summerofcode.withgoogle.com/).  Galaxy is one of several projects in the consortium and there are [project ideas](http://gmod.org/wiki/GSOC_Project_Ideas_2017) from all of them.  Take a look.  If you are interested, applications open March 20.
 
@@ -348,7 +348,7 @@ Some highlights from the past two months:
 
 # Who's Hiring
 
-<div class='right'><br /><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><br /><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -370,7 +370,7 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 ## Pathogen Portal RNA-Rocket seeking funding
 
-<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src="/src/use/archive/rna-rocket-pathogen-portal/rna-rocket-horizontal.png" alt="RNA-Rocket @ Pathogen Portal" height="50" /></a></div>
+<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src="/use/archive/rna-rocket-pathogen-portal/rna-rocket-horizontal.png" alt="RNA-Rocket @ Pathogen Portal" height="50" /></a></div>
 
 Besides having a really cool logo, the [RNA-Rocket Galaxy server](http://rnaseq.pathogenportal.org/) supports RNA-Seq analysis for literally thousands of microbial reference genomes.  If you use, have used, or are going to start using RNA-Rocket, then the folks behind RNA-Rocket ask that you "please consider writing a brief statement of support to [pathporthelp@vbi.vt.edu](mailto:pathporthelp@vbi.vt.edu)."
 
@@ -378,7 +378,7 @@ Besides having a really cool logo, the [RNA-Rocket Galaxy server](http://rnaseq.
 
 ### GrAPPA
 
-<div class='right solid'><a href='https://grappa.eecs.utk.edu/grappa/'><img src="/src/use/grappa/grappa-logo.png" alt="Graph Algorithms Pipeline for Pathway Analysis" width="200" /></a></div>
+<div class='right solid'><a href='https://grappa.eecs.utk.edu/grappa/'><img src="/use/grappa/grappa-logo.png" alt="Graph Algorithms Pipeline for Pathway Analysis" width="200" /></a></div>
 
   * [GrAPPA (Graph Algorithms Pipeline for Pathway Analysis)](https://grappa.eecs.utk.edu/grappa/) is a Galaxy server for graph theoretical tools. It contains novel combinatorial methods integrated into a complete microarray analysis toolchain, from uploading raw high-throughput data to visualization of results.
 
@@ -391,7 +391,7 @@ Efforts to increase GrAPPA’s functionality are underway. Features now being in
 
 ### USMI Galaxy Demonstrator
 
-<div class='right'><a href='http://bioinformatics.hsanmartino.it:8080/'><img src="/src/use/usmi-galaxy-demonstrator/usmi.png" alt="USMI Galaxy Demonstrator" width="200" /></a></div>
+<div class='right'><a href='http://bioinformatics.hsanmartino.it:8080/'><img src="/use/usmi-galaxy-demonstrator/usmi.png" alt="USMI Galaxy Demonstrator" width="200" /></a></div>
 
 The [USMI Galaxy Demonstrator](http://bioinformatics.hsanmartino.it:8080/) demonstrates integration of microbial domain Biological Resource Center (mBRC) catalogues into the bioinformatics data integration environment.   The server supports anonymous access and account creation, and is supported by [IRCCS AOU San Martino IST](http://www.hsanmartino.it/), Genoa, Italy.  Please report issuses, request information, and send any suggestions, comments or criticisms to: [Daniele Pierpaolo Colobraro](mailto:danielepierpaolo.colobraro@hsanmartino.it) or [Paolo Romano](mailto:paolo.romano@hsanmartino.it)
 
@@ -409,9 +409,9 @@ The [Cancer Computer](http://www.cancercomputer.com/) [Galaxy service](/galaxy-s
 
 <table class="table table-striped">
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
@@ -432,7 +432,7 @@ No new resources were added to community directories in January or February.
 
 ##  17.01 Galaxy Release
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
 The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[17.01 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.01_announce.html)**.
 
@@ -456,7 +456,7 @@ And, thanks to [Björn Grüning](/people/bjoern-gruening/), there is also now [a
 
 
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
 
 ## Planemo 0.37 - 0.38
 
@@ -467,7 +467,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 ## Pulsar 0.7.4
 
-<div class='right'><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" /></a></div>
+<div class='right'><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" /></a></div>
 
 A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in February.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
@@ -482,7 +482,7 @@ The [January and February releases](https://github.com/galaxyproject/galaxy-lib/
 ## Starforge 0.3
 
 <div class='right'>
-<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/src/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
+<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
 </div>
 
 [Starforge](https://pypi.python.org/pypi/starforge) is a collection of scripts that supports the building of components for Galaxy.  Specifically, with Starforge you can:
@@ -516,7 +516,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

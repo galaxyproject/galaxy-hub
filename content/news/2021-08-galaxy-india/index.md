@@ -5,7 +5,7 @@ external_url: ""
 date: "2021-08-05"
 ---
 
-<a href="https://www.galaxyproject.in/"><img src="/src/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India" class="float-right" style="max-width: 16rem" /></a>
+<a href="https://www.galaxyproject.in/"><img src="/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India" class="float-right" style="max-width: 16rem" /></a>
 
 We are very pleased to announce that the [Galaxy India community](https://www.galaxyproject.in/) has started!  Galaxy India had a [soft launch during GCC2021](https://sched.co/kLwE).  **We are planning a full community launch at [InBix 2021, during two days of pre-conference workshops](https://easychair.org/cfp/InBix2021).**
 

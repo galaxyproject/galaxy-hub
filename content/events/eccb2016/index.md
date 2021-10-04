@@ -3,7 +3,7 @@ title:  Galaxy @ [ECCB 2016](http://www.eccb2016.org/)
 ---
 <div class='center'>
 
-<a href='http://www.eccb2016.org/'><img src="/src/images/logos/ECCB2016Full.png" alt="European Conference on Computational Biology (ECCB 2016)" width="300" /></a>
+<a href='http://www.eccb2016.org/'><img src="/images/logos/ECCB2016Full.png" alt="European Conference on Computational Biology (ECCB 2016)" width="300" /></a>
 
 
 <span style="font-size: larger;"> September 3-7<br />

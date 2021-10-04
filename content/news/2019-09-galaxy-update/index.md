@@ -4,7 +4,7 @@ tease: "Events! Pubs! Platforms! Jobs! Doc! Tutorials! Releases! And some other 
 date: "2019-08-30"
 ---
 
-[<img class="float-right" src="/src/news/2019-09-galaxy-update/2019-09-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
+[<img class="float-right" src="/news/2019-09-galaxy-update/2019-09-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *September 2019 Galactic News* continues 1) the reformatting that started last month, and 2) the fine tradition of including all Galactic news under this or any other sun:
 
@@ -23,7 +23,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 <div class="card-deck">
 <div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/news/2019-09-galaxy-update/galaxy-australia-incob.png" alt="Galaxy @ INCOB" />
+<img class="card-img-top" src="/news/2019-09-galaxy-update/galaxy-australia-incob.png" alt="Galaxy @ INCOB" />
 <div class="card-header">Galaxy @ INCOB</div>
 
 Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org.au/galaxyaustralia/) will [have a strong presence at INCOB 2019](/events/2019-09-incob/) in Jakarta.  There will be an [Introduction to Galaxy workshop](http://incob2019.org/workshop2/) and a conference talk about the Galaxy Australia platform.
@@ -32,7 +32,7 @@ In addition, **[we will also be taking first steps towards a regional Galaxy com
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/news/2019-09-galaxy-update/toolshed-bioconda.png" alt="You wrote it, now get it used: Publishing your software with Galaxy and Bioconda" />
+<img class="card-img-top" src="/news/2019-09-galaxy-update/toolshed-bioconda.png" alt="You wrote it, now get it used: Publishing your software with Galaxy and Bioconda" />
 <div class="card-header">Publishing your software with Galaxy and Bioconda</div>
 
 Learn how to increase the ease with which others can install and use your bioinformatics software.
@@ -42,7 +42,7 @@ Learn how to increase the ease with which others can install and use your bioinf
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/images/news-graphics/2019-11-galaxy-africa-logo-slice.png" alt="GalaxyAfrica 2019" />
+<img class="card-img-top" src="/images/news-graphics/2019-11-galaxy-africa-logo-slice.png" alt="GalaxyAfrica 2019" />
 <div class="card-header">Galaxy Africa 2019</div>
 
 [GalaxyAfrica 2019](https://www.iscb.org/iscbafrica2019-ps/iscbafrica2019-worktut#galaxy) will be 14-15 November, in collaboration with the [ASBCB/ISCB Africa](https://www.iscb.org/iscbafrica2019) conference in Kumasi, Ghana. We will offer Galaxy training for researchers, and training for systems administrators who need to maintain a local installation. This year we are calling for abstracts for three oral presentations that demonstrate the use of Galaxy in your research projects.
@@ -51,7 +51,7 @@ Learn how to increase the ease with which others can install and use your bioinf
 
 
 <div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/news/2019-09-galaxy-update/upcoming-events-2019-09.png" alt="Upcoming Events" />
+<img class="card-img-top" src="/news/2019-09-galaxy-update/upcoming-events-2019-09.png" alt="Upcoming Events" />
 <div class="card-header">Upcoming Events</div>
 
 There are
@@ -64,7 +64,7 @@ There are
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN Day" />
+<img class="card-img-top" src="/images/galaxy-logos/gtn-cofests.png" alt="GTN Day" />
 <div class="card-header">Galaxy Training Network day - (online) CoFest and community call</div>
 
 The Galaxy Training Network organizes one day, every three months, for collaborative work on the training materials and calls with the community.
@@ -73,7 +73,7 @@ The next day will be on the 12th of September. Anyone who would like to contribu
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/images/logos/qfab-bioinformatics-wide.png" alt="Galaxy @ QFAB in September" />
+<img class="card-img-top" src="/images/logos/qfab-bioinformatics-wide.png" alt="Galaxy @ QFAB in September" />
 <div class="card-header">Galaxy Training @ QFAB</div>
 
 [QFAB Training](https://qfab.org/training) is offering 5 training  topics in 5 days at the end of September:
@@ -88,7 +88,7 @@ All training is offered at the [Translational Research Institute (TRI)](https://
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
+<img class="card-img-top" src="/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
 <div class="card-header">GalaxyNL Face2Face Meeting</div>
 
 This year's Galaxy Netherlands Face2Face meeting will take place at:
@@ -102,7 +102,7 @@ Please let [Saskia Hiltemann](https://shiltemann.github.io/) know if you have an
 </div>
 
 <div class="card border-primary" style="min-width: 15rem; max-width: 28rem;">
-<img class="card-img-top" src="/src/images/logos/bioconda.png" alt="Bioconda" />
+<img class="card-img-top" src="/images/logos/bioconda.png" alt="Bioconda" />
 <div class="card-header">[Bioconda Collaboration Fest](https://galaxyproject.eu/event/2019-08-19-bioconda-cofest/)</div>
 
 A [collaboration fest will be held in Freiburg and elsewhere](https://galaxyproject.eu/event/2019-08-19-bioconda-cofest/) on 30 September through 1 October for [Bioconda](https://bioconda.github.io/) and its ecosystem. This CoFest is organised globally and decentralised. Feel free to join us in Freiburg, join other events or organise your own local Bioconda Collaboration Fest.
@@ -151,21 +151,21 @@ Publications are tagged with how they use, extend or reference Galaxy.  The past
 
 <div class="card-deck">
 <div class="card border-info" style="min-width: 8rem;">
-<img class="card-img-top" src="/src/images/logos/gga-logo.png" alt="The Galaxy Genome Annotation Project" />
+<img class="card-img-top" src="/images/logos/gga-logo.png" alt="The Galaxy Genome Annotation Project" />
 <div class="card-header">[The Galaxy Genome Annotation Project](https://galaxyproject.eu/posts/2019/08/05/gga/)</div>
 
 The [Galaxy Genome Annotation (GGA) Project](https://galaxyproject.eu/posts/2019/08/05/gga/) is focused on supporting genome annotation inside Galaxy. This blog post by Björn Grüning highlights a few of the recent developments and the new [Genome Annotation subsection of the European Galaxy server](https://annotation.usegalaxy.eu).
 </div>
 
 <div class="card border-info" style="min-width: 8rem;">
-<img class="card-img-top" src="/src/events/gcc2019/gcc2019-logo-big-wide.png" alt="Galaxy Community Conference Summary" />
+<img class="card-img-top" src="/events/gcc2019/gcc2019-logo-big-wide.png" alt="Galaxy Community Conference Summary" />
 <div class="card-header">[Galaxy Community Conference Summary](https://galaxyproject.eu/posts/2019/08/06/gcc/)</div>
 
 A [summary of the 2019 Galaxy Community Conference](https://galaxyproject.eu/posts/2019/08/06/gcc/) by Anika Erxleben, Helena Rasche, and Björn Grüning.
 </div>
 
 <div class="card border-info" style="min-width: 8rem;">
-<img class="card-img-top" src="/src/blog/2019-08-slamdunk/slamdunk-logo-light.png" alt="Slamdunk - SLAMseq analysis for nucleotide-conversion sequencing datasets" />
+<img class="card-img-top" src="/blog/2019-08-slamdunk/slamdunk-logo-light.png" alt="Slamdunk - SLAMseq analysis for nucleotide-conversion sequencing datasets" />
 <div class="card-header">[Slamdunk - SLAMseq analysis for nucleotide-conversion sequencing datasets](https://galaxyproject.eu/posts/2019/08/06/gcc/)</div>
 
 This post by Tobias Neumann describes SlamDunk, a novel and fully automated software tool for automated, robust, scalable and reproducible SLAMseq data analysis, that is now available on [UseGalaxy.eu](https://usegalaxy.eu/).
@@ -181,7 +181,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Climate Science Workbench](/use/climate-science-workbench/)</div>
 
-<img class="card-img-top" src="/src/use/climate-science-workbench/galaxy-climate-logo-with-text-920.png" alt="Climate Science Workbench" />
+<img class="card-img-top" src="/use/climate-science-workbench/galaxy-climate-logo-with-text-920.png" alt="Climate Science Workbench" />
 
 Features a comprehensive set of analysis tools and consolidated workflows for climate science data analysis and visualization.  [This server](https://climate.usegalaxy.eu/) supports general GIS data handling tools and climate analysis-specific tools.  It is hosted by by the UesGalaxy.eu team. This work was [presented at GCC2019](https://gcc2019.sched.com/event/PSGY/climate-analysis-with-galaxy) by [Anne Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/).
 </div>
@@ -189,7 +189,7 @@ Features a comprehensive set of analysis tools and consolidated workflows for cl
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * [PathwayMatcher published and running on usegalaxy.eu](https://galaxyproject.eu/posts/2019/08/20/PathwayMatcher/). [PathwayMatcher](https://doi.org/10.1093/gigascience/giz088) builds a protein-protein interaction network from the Reactome pathway database.
 * [MaxQuant goes Galaxy](https://galaxyproject.eu/posts/2019/08/02/max-quant/). The European Galaxy server now contains two MaxQuant tools. 
@@ -214,14 +214,14 @@ The *dark energy* of irreproducible research is threatening the science universe
 <div class="card-header">[Five permanent positions in bioinformatics / biostatistics](https://c3bi.pasteur.fr/four-permanent-positions-in-bioinformatics-biostatistics-m-f-at-the-institut-pasteur-paris/)</div>
 
 Five permanent positions in bioinformatics / biostatistics (M/F) [are open at the Institut Pasteur (Paris)](https://c3bi.pasteur.fr/four-permanent-positions-in-bioinformatics-biostatistics-m-f-at-the-institut-pasteur-paris/)
-<img class="card-img-bottom" src="/src/images/logos/InstitutePasteurLogoTrans.png" alt="Institut Pasteur" />
+<img class="card-img-bottom" src="/images/logos/InstitutePasteurLogoTrans.png" alt="Institut Pasteur" />
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Grad Students: Plant Computational Genomics](http://plantcompgenomics.com/graduate-students/)</div>
 
 The [Plant Computational Genomics lab](http://plantcompgenomics.com/) in the Department of Ecology and Evolutionary Biology at the University of Connecticut seeks motivated MS and PhD students to join the lab in the Summer/Fall 2020.
-<img class="card-img-bottom" src="/src/images/logos/uconn-plant-comp-genomics.png" alt="Plant Computational Genomics at UConn " />
+<img class="card-img-bottom" src="/images/logos/uconn-plant-comp-genomics.png" alt="Plant Computational Genomics at UConn " />
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
@@ -229,7 +229,7 @@ The [Plant Computational Genomics lab](http://plantcompgenomics.com/) in the Dep
 
 [AbSci](http://www.absci.com/), Vancouver, Washington, United States
 
-<img class="card-img-bottom" src="/src/images/logos/absci-logo.svg" alt="AbSci" />
+<img class="card-img-bottom" src="/images/logos/absci-logo.svg" alt="AbSci" />
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
@@ -237,7 +237,7 @@ The [Plant Computational Genomics lab](http://plantcompgenomics.com/) in the Dep
 
 At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 
-<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
+<img class="card-img-bottom" src="/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
@@ -245,7 +245,7 @@ At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 
 The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/) in Freiburg, Germany.
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy-europe-white.png" alt="Galaxy Europe" />
+<img class="card-img-bottom" src="/images/galaxy-logos/galaxy-europe-white.png" alt="Galaxy Europe" />
 </div>
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
@@ -253,7 +253,7 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 
 Contribute to the operation, support and functionality developments of [Galaxy Australia](https://usegalaxy.org.au/), an award-winning publicly available platform for performing bioinformatics analyses and workflows for Australian researchers. 
 
-<img class="card-img-bottom" src="/src/images/logos/GalaxyAustralia.png" alt="Galaxy Australia" />
+<img class="card-img-bottom" src="/images/logos/GalaxyAustralia.png" alt="Galaxy Australia" />
 </div>
 </div>
 
@@ -263,7 +263,7 @@ Contribute to the operation, support and functionality developments of [Galaxy A
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Introduction to image analysis using Galaxy](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/hela-screen-analysis/tutorial.html)</div>
-<img class="card-img-top" src="/src/news/2019-09-galaxy-update/image-analyze-screen-workflow.png" alt="Image analysis in Galaxy" />
+<img class="card-img-top" src="/news/2019-09-galaxy-update/image-analyze-screen-workflow.png" alt="Image analysis in Galaxy" />
 
 <p class="card-text">
 By [Thomas Wollman](https://github.com/thomaswollmann)</p>
@@ -273,7 +273,7 @@ By [Thomas Wollman](https://github.com/thomaswollmann)</p>
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Analyse HeLa fluorescence siRNA screen](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/imaging-introduction/tutorial.html)</div>
-<img class="card-img-top" src="/src/news/2019-09-galaxy-update/viz_segmentation_mask.png" alt="Viz segmentation" />
+<img class="card-img-top" src="/news/2019-09-galaxy-update/viz_segmentation_mask.png" alt="Viz segmentation" />
 <p class="card-text">
 By [Thomas Wollman](https://github.com/thomaswollmann) and [Saskia Hiltemann](https://training.galaxyproject.org/training-material/topics/instructors/philosophies/#shiltemann)</p>
 
@@ -283,7 +283,7 @@ By [Thomas Wollman](https://github.com/thomaswollmann) and [Saskia Hiltemann](ht
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Automation with Jenkins](https://training.galaxyproject.org/training-material/topics/admin/tutorials/jenkins/tutorial.html)</div>
-<img class="card-img-top" src="/src/news/2019-09-galaxy-update/jenkins-09-permissions.png" alt="Jenkins security" />
+<img class="card-img-top" src="/news/2019-09-galaxy-update/jenkins-09-permissions.png" alt="Jenkins security" />
 
 <p class="card-text">
 By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche)</p>
@@ -304,7 +304,7 @@ A new support page for one of Galaxy's most popular applications: differential g
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">[Displaying Datasets at External Display Applications / Websites using GEDAs](/admin/tools/external-display-applications-tutorial/)</div>
-<img class="card-img-top" src="/src/news/2019-09-galaxy-update/2019-09-geda.png" alt="GEDA example config" />
+<img class="card-img-top" src="/news/2019-09-galaxy-update/2019-09-geda.png" alt="GEDA example config" />
 <p class="card-text">
 By [Dan Blankenberg](/people/dan/)</p>
 
@@ -315,7 +315,7 @@ By [Dan Blankenberg](/people/dan/)</p>
 <div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header">[TIaaS Upgrades](https://galaxyproject.eu/tiaas.html)</div>
 
-<img class="card-img-top" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+<img class="card-img-top" src="/images/logos/tiaas-logo.png" alt="TIaaS" />
 
 <p class="card-text">[Training Infrastructure as a Service (TIaaS)](https://galaxyproject.eu/tiaas.html) is just one service that the European UseGalaxy project is providing.   TIaaS got a lot of updates this summer thanks to [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#erasche). [Read more about it](https://galaxyproject.eu/tiaas.html).</p>
 <br />

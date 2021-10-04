@@ -155,7 +155,7 @@ Having set this configuration, (re)start Galaxy and the `Sign in with Custos`
 feature will become available. The login page should look as follows:
 
 <div class="center">
-    <img src="/src/authnz/config/oidc/idps/custos/custos-login-button2.png"
+    <img src="/authnz/config/oidc/idps/custos/custos-login-button2.png"
      alt="User login with Custos enabled" width="60%" />
 </div>
 

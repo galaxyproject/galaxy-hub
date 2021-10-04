@@ -16,7 +16,7 @@ date: 2012-07-20
 <br />
 # GCC2012
 
-<div class='center'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='/events/gcc2012/training-day/'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" height="100" /></a></div>
+<div class='center'><a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='/events/gcc2012/training-day/'><img src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" height="100" /></a></div>
 
 The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) is a few short days away. Late registration is still open.
 
@@ -97,7 +97,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Support Unvalidated values when exporting histories
 
 <br />
@@ -110,12 +110,12 @@ The new RGalaxy package in Bioconductor. [Read more …](/news/r-galaxy-wrap-r-f
 <br />
 ## GalaxyCzars
 
-<div class='right'><a href='/community/GalaxyCzars/'><img src="/src/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
+<div class='right'><a href='/community/GalaxyCzars/'><img src="/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
 The [GalaxyCzars group](/community/GalaxyCzars/) was launched and had its [first meetup on July 9](/community/GalaxyCzars/Meetups/2012-07-09/).  GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/community/GalaxyCzars/Meetups/2012-07-09/) for links to slides and a screencast. The GalaxyCzars will have a breakout at [GCC2012](/events/gcc2012/), and the next conference call will follow in September.
 <br />
 ## Galaxy is Hiring!
 
-<div class='left'><img src="/src/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
+<div class='left'><img src="/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
 **The [Galaxy Team](/galaxy-team/) Wants You!**
 <br />
 Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/galaxy-is-hiring/)

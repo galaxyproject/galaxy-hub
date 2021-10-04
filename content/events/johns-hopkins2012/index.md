@@ -11,12 +11,12 @@ Instructor: [Dave Clements](/people/dave-clements/)
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://biolchem.bs.jhmi.edu/'><img src="/src/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  /></a><br /><strong>Reddy and Sollner-Webb Labs</strong> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://biolchem.bs.jhmi.edu/'><img src="/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  /></a><br /><strong>Reddy and Sollner-Webb Labs</strong> </td>
     <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.hopkinsmedicine.org/geneticmedicine/'><img src="/src/images/logos/JohnsHopkinsIGM.png" alt="McKusick-Nathans Institute of Genetic Medicine"  /></a><br /><strong>Salzberg Lab</strong> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.hopkinsmedicine.org/geneticmedicine/'><img src="/images/logos/JohnsHopkinsIGM.png" alt="McKusick-Nathans Institute of Genetic Medicine"  /></a><br /><strong>Salzberg Lab</strong> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://jhmi.edu/'><img src="/src/images/logos/JohnsHopkins.png" alt="Johns Hopkins"  /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://jhmi.edu/'><img src="/images/logos/JohnsHopkins.png" alt="Johns Hopkins"  /></a> </td>
   </tr>
 </table>
 
@@ -97,7 +97,7 @@ The agenda for both days will be:
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [Department of Biological Chemistry @ Johns Hopkins](http://biolchem.bs.jhmi.edu/) and the [McKusick-Nathans Institute of Genetic Medicine](http://www.hopkinsmedicine.org/geneticmedicine)
 
@@ -112,7 +112,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/johns-hopkins2012/JohnsHopkinsGalaxy2012.pdf'><img src="/src/events/johns-hopkins2012/JohnsHopkinsGalaxy2012Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/johns-hopkins2012/JohnsHopkinsGalaxy2012.pdf'><img src="/events/johns-hopkins2012/JohnsHopkinsGalaxy2012Thumb.png" alt=""  /></a></div>
 Please distribute to parts of Johns Hopkins that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

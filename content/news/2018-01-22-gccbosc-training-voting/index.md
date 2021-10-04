@@ -4,7 +4,7 @@ tease: "Voting closes January 31"
 date: "2018-01-22"
 ---
 
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Vote for the Training Topics you want" />](/events/gccbosc2018/training/)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Vote for the Training Topics you want" />](/events/gccbosc2018/training/)
 
 **[Vote now on the training topics you want!](/events/gccbosc2018/training/)**
 

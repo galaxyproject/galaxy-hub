@@ -3,7 +3,7 @@ title: 'August 2018 Galactic News'
 tease: 'New: events (GCC2019!), pubs (400+), blog posts, jobs, ...'
 date: '2018-08-02'
 ---
-[<img class="float-right" src="/src/news/2018-08-galaxy-update/2018-08-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/2018-08/)
+[<img class="float-right" src="/news/2018-08-galaxy-update/2018-08-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/2018-08/)
 
 After a two-month hiatus, the [August  2018 Galactic News](/galaxy-updates/2018-08/) is out!  Here are some of the highlights:
 

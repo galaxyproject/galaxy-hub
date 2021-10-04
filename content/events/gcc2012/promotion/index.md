@@ -8,7 +8,7 @@ Please help get the word out about the [2012 Galaxy Community Conference (GCC201
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2012/promotion/GCC2012Flier.pdf'><img src="/src/events/gcc2012/promotion/GCC2012FlierThumb.png" /></a> </td>
+    <td style=" border: none;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2012/promotion/GCC2012Flier.pdf'><img src="/events/gcc2012/promotion/GCC2012FlierThumb.png" /></a> </td>
     <td style=" border: none;"> Please print, post and distribute <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2012/promotion/GCC2012Flier.pdf'>the conference flier</a><br />at your organization, and or events.  </td>
   </tr>
 </table>
@@ -31,7 +31,7 @@ The conference logo is available in 2 formats in several widths.
     <th> Hi-res </th>
   </tr>
   <tr>
-    <td> <img src="/src/events/gcc2012/promotion/GCC2012Logo200.png" alt="Logo only" /> </td>
+    <td> <img src="/events/gcc2012/promotion/GCC2012Logo200.png" alt="Logo only" /> </td>
     <td> <a href='/src/events/gcc2012/promotion/GCC2012Logo200.png'>Download</a> </td>
     <td> <a href='/src/events/gcc2012/promotion/GCC2012Logo400.png'>Download</a> </td>
     <td> <a href='/src/events/gcc2012/promotion/GCC2012Logo600.png'>Download</a> </td>
@@ -39,7 +39,7 @@ The conference logo is available in 2 formats in several widths.
     <td> <a href='/src/events/gcc2012/promotion/GCC2012Logo.png'>Download</a> </td>
   </tr>
   <tr>
-    <td> <img src="/src/events/gcc2012/promotion/GCC2012LogoWide400.png" alt="Logo plus text" /> </td>
+    <td> <img src="/events/gcc2012/promotion/GCC2012LogoWide400.png" alt="Logo plus text" /> </td>
     <td> <a href='/src/events/gcc2012/promotion/GCC2012LogoWide200.png'>Download</a> </td>
     <td> <a href='/src/events/gcc2012/promotion/GCC2012LogoWide400.png'>Download</a> </td>
     <td> <a href='/src/events/gcc2012/promotion/GCC2012LogoWide600.png'>Download</a> </td>

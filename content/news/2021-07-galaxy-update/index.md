@@ -4,7 +4,7 @@ tease: "GCC2021 is under way."
 date: "2021-07-02"
 ---
 
-<a href="/galaxy-updates/"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -56,7 +56,7 @@ If you didn't get registered then here is some hopefully consoling news:
 
 <!-- PeerJ -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
-<img class="card-img-top" src="/src/images/logos/peerj-logo-short-400.png" alt="PeerJ" />
+<img class="card-img-top" src="/images/logos/peerj-logo-short-400.png" alt="PeerJ" />
 <div class="card-header trim-p">
 
 [PeerJ](https://peerj.com/)
@@ -77,13 +77,13 @@ If you didn't get registered then here is some hopefully consoling news:
 
 Need more Galaxy? **[Galaxy Pro](https://galaxyworks.io/product/)** is a managed Galaxy instance with no quotas or queue wait times. Ready to use without management overhead.
 
-<img class="card-img-bottom" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" />
+<img class="card-img-bottom" src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" />
 </div>
 
 
 <!-- Limagrain -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
-<img class="card-img-top" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain" />
+<img class="card-img-top" src="/images/logos/limagrain-logo-text.png" alt="Limagrain" />
 <div class="card-header trim-p">
 
 [Limagrain](https://www.limagrain.com/en/limagrain-home)
@@ -101,7 +101,7 @@ An agricultural cooperative held by French farmers, and an international seed gr
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 30%;">
-<img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
+<img class="card-img-top" src="/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
 [Galaxy Career Center](/careers/)
@@ -114,7 +114,7 @@ There are new positions in the [Galaxy Career Center](/careers/), in the Netherl
 
 <!-- OLS -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 30%;">
-<img class="card-img-top" src="/src/../images/logos/open-life-science-logo.png" alt="Open Life Sciences" />
+<img class="card-img-top" src="/../images/logos/open-life-science-logo.png" alt="Open Life Sciences" />
 <div class="card-header trim-p">
 
 [Open Life Science program & the Galaxy community](https://galaxyproject.eu/posts/2021/06/28/ols/)
@@ -180,7 +180,7 @@ Galaxy has always had a presence at ISMB/ECCB and BOSC, and we will [be there ag
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 32%; max-width:  18rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
 [Galaxy Developer Roundtable](/community/devroundtable/)
@@ -197,7 +197,7 @@ We still [need volunteers to lead the discussion on your favorite topic](https:/
 
 <!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
 <div class="card border-info" style="min-width: 20%; max-width: 37%;">
-<img class="card-img-bottom" src="/src/images/news-graphics/2021-08-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
+<img class="card-img-bottom" src="/images/news-graphics/2021-08-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
 <div class="card-header trim-p">
 
 [SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/)
@@ -231,7 +231,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 [UseGalaxy.*](/usegalaxy/) News
 
 </div>
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 * And two new use cases were described for UseGalaxy.eu:
@@ -374,7 +374,7 @@ Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning
 
 <!-- Galaxy -->
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
 <div class="card-header trim-p">
 
 [Galaxy 21.05](/news/2021-06-galaxy-release-21-05/)

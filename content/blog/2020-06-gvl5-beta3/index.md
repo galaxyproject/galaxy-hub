@@ -47,7 +47,7 @@ or be made available to targeted users.
 
 <div class="center">
     <a href="/src/blog/2020-06-gvl5-beta3/gvl-projects.png">
-        <img src="/src/blog/2020-06-gvl5-beta3/gvl-projects.png" width="80%" />
+        <img src="/blog/2020-06-gvl5-beta3/gvl-projects.png" width="80%" />
     </a>
 </div>
 
@@ -78,7 +78,7 @@ those applications that are needed for the analysis.
 
 <div class="center">
     <a href="/src/blog/2020-06-gvl5-beta3/gvl-login.png">
-        <img src="/src/blog/2020-06-gvl5-beta3/gvl-apps.png" width="80%" />
+        <img src="/blog/2020-06-gvl5-beta3/gvl-apps.png" width="80%" />
     </a>
 </div>
 

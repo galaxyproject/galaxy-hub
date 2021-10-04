@@ -3,10 +3,10 @@ title: "February 2014 Galaxy Update"
 date: "2014-01-31"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-02/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="January 2014 Galaxy Update" width=150 /></a>
+<a href='/galaxy-updates/2014-02/'><img src="/images/logos/GalaxyUpdate200.png" alt="January 2014 Galaxy Update" width=150 /></a>
 <br />
-<a href='/galaxy-updates/2014-02/#galaxy-australasia-workshop-2014-gaw-2014'><img src="/src/images/logos/GAW2014-200.png" alt="Register now for Galaxy Australasia Workshop (GAW 2014)" width="150" /></a><br />
-<a href='/galaxy-updates/2014-02/#gmod-malaysia-2014'><img src="/src/images/logos/GMODMalaysia120.png" alt="GMOD Malaysia 2014" width="140" /></a>
+<a href='/galaxy-updates/2014-02/#galaxy-australasia-workshop-2014-gaw-2014'><img src="/images/logos/GAW2014-200.png" alt="Register now for Galaxy Australasia Workshop (GAW 2014)" width="150" /></a><br />
+<a href='/galaxy-updates/2014-02/#gmod-malaysia-2014'><img src="/images/logos/GMODMalaysia120.png" alt="GMOD Malaysia 2014" width="140" /></a>
 </div>
 
 The [25th Edition of Galaxy Update is out](/galaxy-updates/2014-02/).  Highlights from the [February 2014 Galaxy Update](/galaxy-updates/2014-02/) include: 

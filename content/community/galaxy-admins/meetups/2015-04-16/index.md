@@ -1,4 +1,4 @@
-<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2015-04-16 Web Meetup<br /><br />
 
 </div></div>
@@ -33,7 +33,7 @@
 
 *[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
 
-<div class='right'><br /><a href='http://ncgas.org/'><img src="/src/images/logos/NCGASLogoWide.jpg" alt="National Center for Genome Analysis Support (NCGAS)" width="250" /></a></div>
+<div class='right'><br /><a href='http://ncgas.org/'><img src="/images/logos/NCGASLogoWide.jpg" alt="National Center for Genome Analysis Support (NCGAS)" width="250" /></a></div>
 
 ## IU Galaxies - Tips and Tricks
 
@@ -45,7 +45,7 @@
 
 ## Call Technology
 
-<div class='right'><img src="/src/images/logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
+<div class='right'><img src="/images/logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
 
 The [meetup's online conference room](https://connect.johnshopkins.edu/galaxyadmins201504/) will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
@@ -55,4 +55,4 @@ The [meetup's online conference room](https://connect.johnshopkins.edu/galaxyadm
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'><img src="/src/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>
+<div class='center'><img src="/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>

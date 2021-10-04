@@ -9,7 +9,7 @@ Galaxy Biostars has been retired and is available as an archived resource at the
 ----
 
 
-<div class='center'><a href='https://biostar.usegalaxy.org/'><img src="/src/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
+<div class='center'><a href='https://biostar.usegalaxy.org/'><img src="/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar"  /></a></div>
 
 
 
@@ -20,7 +20,7 @@ Galaxy Biostars is at **[https://biostar.usegalaxy.org/](https://biostar.usegala
 
 ## Introduction
 
-<div class='right'><a href='https://www.biostars.org/'><img src="/src/images/logos/BiostarLogo.png" alt="Biostar" width="180" /></a></div>
+<div class='right'><a href='https://www.biostars.org/'><img src="/images/logos/BiostarLogo.png" alt="Biostar" width="180" /></a></div>
 
 [Galaxy Biostars](https://biostar.usegalaxy.org/) is an instance of the popular Q&A site [Biostars](https://www.biostars.org/), runs at [https://biostar.usegalaxy.org/](https://biostar.usegalaxy.org/) and is aimed directly at the needs of the Galaxy community. The software is open source at [GitHub](https://github.com/ialbert/biostar-central) and the running version is under control of the Galaxy Team.
 
@@ -32,7 +32,7 @@ Galaxy Biostars is directly integrated into the [Galaxy](http://usegalaxy.org) u
 
 #### Sharing Accounts
 
-<div class='left'><img src="/src/images/screenshots/BiostarUserMenu.png" alt="Go to Galaxy Biostars" width="110" /></div>
+<div class='left'><img src="/images/screenshots/BiostarUserMenu.png" alt="Go to Galaxy Biostars" width="110" /></div>
 
 Every user on the public [Main Galaxy](/main/) server can access Galaxy Biostar directly through the menu **Help &rarr; Galaxy Biostar**. 
 <br />
@@ -47,7 +47,7 @@ If a user ever wants to log in to Galaxy Biostars directly, a password reset req
 
 Every tool page has two options to reach Galaxy Biostars in the top right corner, as shown on the picture.
 
-<div class='right'><img src="/src/images/screenshots/BiostarToolMenu.png" alt="Tool query in Galaxy Biostars" width="600" /></div>
+<div class='right'><img src="/images/screenshots/BiostarToolMenu.png" alt="Tool query in Galaxy Biostars" width="600" /></div>
 
 <br />
 

@@ -4,7 +4,7 @@ tease: "GCC2021 Abstracts and Registration are open, plus lots more."
 date: "2021-04-12"
 ---
 
-<a href="/galaxy-updates/"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 This newsletter coincides with the [anniversary of James Taylor's death](#featured-news) on April 2, 2020.  James was a Galaxy Project founder and PI, and losing him at the same time as the global COVID-19 shutdown made for a tough month, and then a tough year for the Galaxy Community.  To mark this, there are two items about James below.  First, *a call to share your favorite story about James* via a 30 second video (by April 30).  Second, there is a link to *a note to James* written by project leadership (mainly Anton).
 
@@ -59,7 +59,7 @@ Thank you all in advance and please feel free to invite other friends of James t
 
 <!-- James -->
 <div class="card border-info" style="min-width: 10rem; max-width: 100%">
-<img class="card-img-top" src="/src/jxtx/james-at-gcc2019-stripe.jpg" alt="James Taylor" />
+<img class="card-img-top" src="/jxtx/james-at-gcc2019-stripe.jpg" alt="James Taylor" />
 <div class="card-header">
 
 [A note to James, one year after his passing](/jxtx/)
@@ -155,7 +155,7 @@ GCC2021 is seeking oral presentations, lightning talks, posters, and demos, from
 
 <!-- GSoC -->
 <div class="card border-info"  style="min-width: 20%; max-width: 55%">
-<img class="card-img-top" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
+<img class="card-img-top" src="/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
 <div class="card-header">
 
 [Galaxy Participating in Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6022098314592256/)
@@ -180,7 +180,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 
 <!-- Galaxy @ ISMB? -->
 <div class="card border-info" style="min-width: 18rem; max-width: 100%">
-<img class="card-img-top" src="/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png" alt="Galaxy @ ISMB/ECCB & BOSC ?" />
+<img class="card-img-top" src="/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png" alt="Galaxy @ ISMB/ECCB & BOSC ?" />
 <div class="card-header">
 
 [ISMB/ECCB/BOSC Deadlines](https://www.iscb.org/ismbeccb2021)
@@ -195,13 +195,13 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 
 Most of these are accepting talk and poster submissions through the [ISMB/ECCB website](https://www.iscb.org/ismbeccb2021), but [BioInfo-Core is taking talk submissions here](https://forms.gle/N1mfB3dEEd4oi4wBA).  All submissions are due May 6.
 
-<img class="card-img-top" src="/src/images/logos/bioinfo-core-wide.png" alt="BioInfo-Core" style="max-width: 90%" />
+<img class="card-img-top" src="/images/logos/bioinfo-core-wide.png" alt="BioInfo-Core" style="max-width: 90%" />
 </div>
 
 
 <!-- Webinars -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
-<img class="card-img-top" src="/src/events/webinars/gr4-webinars-400.png" alt="Galaxy Resources for You Webinars" />
+<img class="card-img-top" src="/events/webinars/gr4-webinars-400.png" alt="Galaxy Resources for You Webinars" />
 <div class="card-header">
 
 [Webinars](/events/webinars/)
@@ -227,7 +227,7 @@ In addition, there are two more webinars this month:
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 10rem; max-width:  100%;">
-<img class="card-img-top" src="/src/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
+<img class="card-img-top" src="/events/cofests/papercuts/papercuts.png" alt="Papercuts CoFest" />
 <div class="card-header">[April Papercuts CoFest](/events/2021-04-papercuts/)</div>
 
 **15 April, Online, Global**
@@ -241,7 +241,7 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 
 <!-- UseGalaxy.No -->
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<img class="card-img-top" src="/src/use/usegalaxy-no/usegalaxy-no-logo-600.jpg" alt="UseGalaxy.NO" />
+<img class="card-img-top" src="/use/usegalaxy-no/usegalaxy-no-logo-600.jpg" alt="UseGalaxy.NO" />
 <div class="card-header">
 
 [Using the Norwegian e-infrastructure for Life Science and usegalaxy.no](https://elixir.no/news/55/63/Online-course-by-ELIXIR-Norway-Using-the-Norwegian-e-infrastructure-for-Life-Science-and-usegalaxy.no)
@@ -256,7 +256,7 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">
 
 [Galaxy Developer Roundtable](/community/devroundtable/)
@@ -276,7 +276,7 @@ That is, *they will be [if anyone volunteers to lead discussions on topics of in
 
 <!-- Plant genomics: chloroplast genome assembly using Galaxy Australia -->
 <div class="card border-info" style="min-width: 10rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-australia.png" />
 <div class="card-header">
 
 [Plant genomics: chloroplast genome assembly using Galaxy Australia](https://www.biocommons.org.au/events/plant-genomics-galaxy)
@@ -312,7 +312,7 @@ The purpose of this workshop is to gain knowledge on Next Generation Sequencing 
 
 <!-- Analyse avancée de séquences -->
 <div class="card border-info" style="min-width: 10rem; max-width:  50%;">
-<img class="card-img-top" src="/src/images/logos/CGFB_bioinformatics.png" />
+<img class="card-img-top" src="/images/logos/CGFB_bioinformatics.png" />
 <div class="card-header">
 
 [Analyse avancée de séquences](https://cnrsformation.cnrs.fr/analyse-avancee-sequences)
@@ -339,7 +339,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <!-- IPK BLAST -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
-<img class="card-img-top" src="/src/use/ipk-blast/consortia.png" alt="IPK Blast Consortia" />
+<img class="card-img-top" src="/use/ipk-blast/consortia.png" alt="IPK Blast Consortia" />
 <div class="card-header">
 
 [IPK Blast](/use/ipk-blast/)
@@ -361,13 +361,13 @@ The [IPK Galaxy Blast Suite](https://galaxy-web.ipk-gatersleben.de) is part of t
 
 ... on the [Human Cell Atlas Galaxy instance](https://humancellatlas.usegalaxy.eu/) of course.  This [write-up from EMBL-EBI](https://www.ebi.ac.uk/about/news/announcements/SCiAp) discusses both the user interface and the back end implementation of this server.
 
-<img class="card-img-bottom" src="/src/images/logos/human-cell-atlas-logo.png" alt="Human Cell Atlas" />
+<img class="card-img-bottom" src="/images/logos/human-cell-atlas-logo.png" alt="Human Cell Atlas" />
 </div>
 
 
 <!-- Australia Job 2M -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
-<img class="card-img-top" src="/src/images/logos/australian-biocommons-logo-horizontal-transparent.png" alt="Australian BioCommons" />
+<img class="card-img-top" src="/images/logos/australian-biocommons-logo-horizontal-transparent.png" alt="Australian BioCommons" />
 <div class="card-header">
 
 [Better plant quarantine enabled by Galaxy Australia’s two millionth job](https://www.biocommons.org.au/news/galaxy-au-two-millionth-job)
@@ -383,7 +383,7 @@ We asked the submitter for some background on what research they were doing. We 
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * [March 2021 Australian BioCommons Newsletter](https://mailchi.mp/0ff74a85c2a3/ausbiocommons-mar-2021-update) features several stories on Galaxy Australia.
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
@@ -412,7 +412,7 @@ By [Nolan Woods](https://www.linkedin.com/in/nolan-woods)
 
 Tips for collections, mapping, AWK, flow control, writing tool wrappers, and more.
 
-<img class="card-img-bottom" src="/src/blog/2021-03-tips-and-tricks/conditional-flow-control.png" alt="Flow Control: Conditional" />
+<img class="card-img-bottom" src="/blog/2021-03-tips-and-tricks/conditional-flow-control.png" alt="Flow Control: Conditional" />
 </div>
 
 
@@ -430,7 +430,7 @@ We heard from a lot [Training Infrastructure as a Service (TIaaS)](https://galax
 
 TIaaS is coming to both UseGalaxy.org and UseGalaxy.org.au.  Watch this space for updates.
 
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+<img class="card-img-bottom" src="/images/logos/tiaas-logo.png" alt="TIaaS" />
 </div>
 
 
@@ -477,7 +477,7 @@ Four weeks of webinars are now over. In these four sessions, the Galaxy communit
 
 If you missed them, the recordings are now available on the [ELIXIR Europe YouTube channel](https://www.youtube.com/c/ELIXIREurope).
 
-<img class="card-img-bottom" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+<img class="card-img-bottom" src="/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 </div>
 
 
@@ -653,7 +653,7 @@ Lima, J. S. (2020).  [Thesis, University of Otago]. https://ourarchive.otago.ac.
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 14rem; max-width: 30rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
+<img class="card-img-top" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
 <div class="card-header">Planemo 0.74.4</div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of

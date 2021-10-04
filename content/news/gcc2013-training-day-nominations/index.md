@@ -2,8 +2,8 @@
 title: "Nominate GCC2013 Training Topics"
 date: "2012-12-03"
 ---
-<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" /></a><br />
-<a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" /></a> </div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" /></a><br />
+<a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" /></a> </div>
 
 [Nominations are now open](http://bit.ly/gcc2013nom) for [Training Day topics](/events/gcc2013/training-day/) for the [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/). 
 

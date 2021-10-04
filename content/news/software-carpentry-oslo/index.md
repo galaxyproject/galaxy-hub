@@ -8,7 +8,7 @@ The course is aimed at postgraduate students and other scientists who are famili
 
 Content: The syllabus for this boot camp will include:
 
-<div class='right'><a href='http://bit.ly/14EmcSA'><img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry Boot Camp, 3-4 July, University of Oslo" width="200" /></a></div>
+<div class='right'><a href='http://bit.ly/14EmcSA'><img src="/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry Boot Camp, 3-4 July, University of Oslo" width="200" /></a></div>
 
 * using the shell to do more in less time
 * using version control to manage and share information

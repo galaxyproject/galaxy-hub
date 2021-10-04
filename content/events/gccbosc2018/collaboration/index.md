@@ -2,7 +2,7 @@
 
 # CollaborationFest!
 
-<img class="float-right" src="/src/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
+<img class="float-right" src="/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
 
 GCCBOSC 2018 finished with *CollaborationFest*, a 2 (or 3 or 4) day collaborative work event where our communities gathered to contribute to bioinformatics software, documentation, training materials, and challenging analysis problems and use cases.  If you are interested in learning and contributing in an intensely collaborative environment, then CollaborationFest is for you.
 
@@ -91,7 +91,7 @@ You register for CollaborationFest at the same time you [register](/events/gccbo
 
 # Venue
 
-[<img class="float-right" src="/src/events/gccbosc2018/collaboration/reed-pab-steps.jpg" alt="PAB atrium" width="180" />](http://www.reed.edu/performing_arts/)
+[<img class="float-right" src="/events/gccbosc2018/collaboration/reed-pab-steps.jpg" alt="PAB atrium" width="180" />](http://www.reed.edu/performing_arts/)
 
 CollaborationFest will be at Reed College, the same location as other GCCBOSC 2018 events.  CollaborationFest will take place in the Performing Arts Building, which features multiple meeting rooms, common spaces, and a unique 3 storey atrium that we will make maximal use of for gathering and collaborating.
 
@@ -115,7 +115,7 @@ Contact us at
 
 ## Giga Sponsors
 
-[<img src="/src/images/logos/tao-logo.png" alt="Technology Association of Oregon" width="260" />](http://www.techoregon.org/)
+[<img src="/images/logos/tao-logo.png" alt="Technology Association of Oregon" width="260" />](http://www.techoregon.org/)
 
 ## CollaborationFest Sponsorship Opportunities
 

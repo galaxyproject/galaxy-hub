@@ -2,7 +2,7 @@
 title: Introduction to Galaxy
 ---
 <div class='center'>
-<a href='http://utah.edu/'><img src="/src/images/logos/UUtah.png" alt="University of Utah" width="150" /></a><br /><br />
+<a href='http://utah.edu/'><img src="/images/logos/UUtah.png" alt="University of Utah" width="150" /></a><br /><br />
 
 **Instructor: [Dave Clements](/people/dave-clements/)
 
@@ -81,8 +81,8 @@ No programming or Linux command line experience is required.
 
 
 <div class='right'><br />
-<a href='http://www.nih.gov/'><img src="/src/images/logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a><br /><br />
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div></div>
+<a href='http://www.nih.gov/'><img src="/images/logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a><br /><br />
+<div class='right'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div></div>
 
 ## Support
 

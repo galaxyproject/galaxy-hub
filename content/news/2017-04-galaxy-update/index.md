@@ -3,7 +3,7 @@ title: 'April 2017 Galaxy News'
 tease: 'GCC2017 + new events, papers, jobs, servers, releases, and a milestone'
 date: '2017-04-04'
 ---
-<div class='right'><a href='/galaxy-updates/2017-04/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" /></a><br />
+<div class='right'><a href='/galaxy-updates/2017-04/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" /></a><br />
 <a href="https://gcc2017.sciencesconf.org/"><img src='/src/images/logos/gcc2017-logo-300.png' alt='2017 Galaxy Community Conference (GCC2017)' width="170" /></a>
 </div>
 

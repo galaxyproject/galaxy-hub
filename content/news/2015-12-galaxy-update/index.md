@@ -3,7 +3,7 @@ title: "December 2015 Galactic News"
 date: "2015-12-01"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-12/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! December 2015 Edition" width=150 /></a><br />
+<a href='/galaxy-updates/2015-12/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! December 2015 Edition" width=150 /></a><br />
 </div>
 
 The **[December Galactic News](/galaxy-updates/2015-12/)** is hot off the presses.

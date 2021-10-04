@@ -10,7 +10,7 @@ title: March 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
 Welcome to the March 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
 
@@ -80,7 +80,7 @@ See the [full announcement](/news/gcc2016-scholarships/) for details.
 
 ## Sponsors
 
-<div class='left'><br /><a href='http://bioteam.net/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="130" /></a></div>
+<div class='left'><br /><a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="130" /></a></div>
 
 We are pleased to announce that **[BioTeam](http://bioteam.net)** will again be a [sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors) for this annual event.  BioTeam is a professional services and products company at the intersection of science and information technology. BioTeam solves analytics, big data and scientific computing challenges for organizations by mapping the right technologies to their unique scientific needs. BioTeam has a well-established history of providing forward-thinking solutions to the Life Sciences.   
 
@@ -178,7 +178,7 @@ The [Galaxy CiteULike group](http://www.citeulike.org/group/16008/) surpassed 30
 ## March 7-8: Online IUC Contribution Fest - RADSeq Tools and Workflows
 
 <div class='left'>
-<a href='https://github.com/galaxyproject/tools-iuc/issues/422'><img src="/src/images/logos/RADSeqHack.png" alt="remote Contribution Fest will be held 7th and 8th of March for developers to work on Galaxy RADSeq tools" width="200" /></a>
+<a href='https://github.com/galaxyproject/tools-iuc/issues/422'><img src="/images/logos/RADSeqHack.png" alt="remote Contribution Fest will be held 7th and 8th of March for developers to work on Galaxy RADSeq tools" width="200" /></a>
 </div>
 
 A [remote Contribution Fest will be held 7th and 8th of March for developers to work on Galaxy RADSeq tools](https://github.com/galaxyproject/tools-iuc/issues/422).
@@ -196,7 +196,7 @@ We will do our best to coordinate and make this hackathon a nice and productive 
 ## GMOD Meeting, June 30 - July 1
 
 <div class='right'>
-<a href='/gmod:Jun_2016_GMOD_Meeting/'><img src="/src/images/logos/GMODLogo.png" alt="2016 GMOD meeting" width="160" /></a>
+<a href='/gmod:Jun_2016_GMOD_Meeting/'><img src="/images/logos/GMODLogo.png" alt="2016 GMOD meeting" width="160" /></a>
 </div>
 
 The [2016 GMOD meeting](http://gmod.org/wiki/Jun_2016_GMOD_Meeting) will be held **immediately following GCC2016 and in the same venue as GCC2016**.  [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) is a consortium of open-source software project, including Galaxy, that address common challenges with biological data.  Other projects in the GMOD consortium include 
@@ -209,7 +209,7 @@ Early bird registration ends May 21. For those who would like to present a talk 
 
 ## Galaxy in Google Summer of Code
 
-<div class='left'><a href='http://gmod.org/wiki/GSOC_Project_Ideas_2016'><img src="/src/images/logos/GSoC_2016_logo.png" alt="Galaxy in GSoC 2016 as part of the Open Genome Informatics group" width="100" /></a>
+<div class='left'><a href='http://gmod.org/wiki/GSOC_Project_Ideas_2016'><img src="/images/logos/GSoC_2016_logo.png" alt="Galaxy in GSoC 2016 as part of the Open Genome Informatics group" width="100" /></a>
 </div>
 
 We are delighted to announce that Galaxy will be participating in [Google Summer of Code](https://summerofcode.withgoogle.com/) this year, along with [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) and [Reactome](http://reactome.org), as part of the [Open Genome Informatics](http://gmod.org/wiki/GSOC_Project_Ideas_2016) initiative.
@@ -220,7 +220,7 @@ Between now and 13 March, would-be student participants will start to discuss ap
 Please let Robin know if you have any questions about GSoC.
 
 <div class='right'><br />
-<a href='/community/galaxy-admins/meetups/2016-02-18/'><img src="/src/images/news-graphics/AnsibleWheels.png" alt="February 2016 GalaxyAdmins meetup are now available" width="150" /></a>
+<a href='/community/galaxy-admins/meetups/2016-02-18/'><img src="/images/news-graphics/AnsibleWheels.png" alt="February 2016 GalaxyAdmins meetup are now available" width="150" /></a>
 </div>
 
 ## February GalaxyAdmins Slides & Video
@@ -234,10 +234,10 @@ Slides and video from the [February 2016 GalaxyAdmins meetup are now available](
 There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
-<a href='https://github.com/galaxyproject/tools-iuc/issues/422'><img src="/src/images/logos/IUC_RADSeq_Hack.png" alt="IUC Contribution Fest - RADSeq Tools and Workflows" height="80" /></a>
-<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/src/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2016' height="50" /></a>
-<a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'><img src="/src/images/logos/eBiogenouestLogo.png" alt="Introduction à l'analyse de données RNAseq sous Galaxy" height="80" /></a> &nbsp;
-<a href='http://icmexico2016.soibio.org/product/icwmexico2016-galaxy-workshop/'><img src="/src/images/logos/SolBio2016.png" alt="Workshop on Galaxy: Practical Course" height="60" /></a>
+<a href='https://github.com/galaxyproject/tools-iuc/issues/422'><img src="/images/logos/IUC_RADSeq_Hack.png" alt="IUC Contribution Fest - RADSeq Tools and Workflows" height="80" /></a>
+<a href='http://migale.jouy.inra.fr/?q=formations'><img src="/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2016' height="50" /></a>
+<a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'><img src="/images/logos/eBiogenouestLogo.png" alt="Introduction à l'analyse de données RNAseq sous Galaxy" height="80" /></a> &nbsp;
+<a href='http://icmexico2016.soibio.org/product/icwmexico2016-galaxy-workshop/'><img src="/images/logos/SolBio2016.png" alt="Workshop on Galaxy: Practical Course" height="60" /></a>
 </div>
 
 <table>
@@ -274,8 +274,8 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
   <tr>
     <th> March 29 </th>
     <td> <em><a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'>Introduction à l'analyse de données RNAseq sous Galaxy</a></em> </td>
-    <td> <div class='right'><img src="/src/images/icons/EU.png" alt="" /></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
-    <td> <div class='right'><img src="/src/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
+    <td> <div class='right'><img src="/images/icons/EU.png" alt="" /></div><a href='https://www.e-biogenouest.org/groups/guggo'>Galaxy User Group Grand Ouest (GUGGO), Rennes, France</a> </td>
+    <td> <div class='right'><img src="/images/galaxy-logos/GTN16.png" alt="Training offered by GTN Member" /></div><a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -354,7 +354,7 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
@@ -364,7 +364,7 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
 
 # Who's Hiring
 
-<div class='right'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></div>
+<div class='right'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Bioinformatics Web Application Developer-Biology](http://bit.ly/1LQQ2qz), Washington University in St. Louis, Missouri, United States
@@ -387,7 +387,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## BISTRO
 
-<div class='right solid'><a href='http://galaxy.bioinfo-bistro.fr/galaxy/'><img src="/src/public-galaxy-servers/archive/bistro.png" alt="BISTRO Galaxy" width="300" /></a></div>
+<div class='right solid'><a href='http://galaxy.bioinfo-bistro.fr/galaxy/'><img src="/public-galaxy-servers/archive/bistro.png" alt="BISTRO Galaxy" width="300" /></a></div>
 
 * *Link:*
   * [BISTRO Galaxy](http://galaxy.bioinfo-bistro.fr/galaxy/)
@@ -404,7 +404,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## MiModD NacreousMap
 
-<div class='right solid'><a href='http://mapping-by-sequencing.vm.uni-freiburg.de:8080/'><img src="/src/use/mimodd-nacreousmap/baumeister.png" alt="Baumeister Lab Galaxy featuring MiModD" width="300" /></a></div>
+<div class='right solid'><a href='http://mapping-by-sequencing.vm.uni-freiburg.de:8080/'><img src="/use/mimodd-nacreousmap/baumeister.png" alt="Baumeister Lab Galaxy featuring MiModD" width="300" /></a></div>
 
 * *Link:*
   * [MiModD NacreousMap](http://mapping-by-sequencing.vm.uni-freiburg.de:8080/)
@@ -424,7 +424,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## NIOO-KNAW PhyloProfiler
 
-<div class='right solid'><a href='https://galaxy.bioinf.nioo.knaw.nl/public/'><img src="/src/public-galaxy-servers/archive/nioo-knaw-loggo.jpg" alt="NIOO-KHAN Public Galaxy Server featuring PhyloPofiler" width="300" /></a></div>
+<div class='right solid'><a href='https://galaxy.bioinf.nioo.knaw.nl/public/'><img src="/public-galaxy-servers/archive/nioo-knaw-loggo.jpg" alt="NIOO-KHAN Public Galaxy Server featuring PhyloPofiler" width="300" /></a></div>
 
 * *Link:*
   * [NIOO-KHAN Public Galaxy Server featuring PhyloPofiler](https://galaxy.bioinf.nioo.knaw.nl/public/)
@@ -443,7 +443,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Galaxy v16.01
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the [January 2016 (v16.01) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html). 
 
@@ -520,7 +520,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 
 
-<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
 **[CloudMan](/cloudman/) 15.12**
 
@@ -538,7 +538,7 @@ This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/re
 **Starforge 0.1**
 
 <div class='right'>
-<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/src/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
+<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
 </div>
 
 [Starforge](https://github.com/galaxyproject/starforge/blob/master/README.rst) is a collection of scripts that supports the building of components for Galaxy.  Specifically, with Starforge you can:
@@ -552,7 +552,7 @@ These things will be built in Docker. Additionally, wheels can be built in QEMU/
 Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
 
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
 
 **Pulsar 0.6.1**
 
@@ -572,7 +572,7 @@ The 0.6.x release includes these changes:
 * Add a job manager for XSEDE jobs (thanks to @natefoo). [1017bc5](https://github.com/galaxyproject/pulsar/commit/1017bc5)
 * Fix pip dependency installation (thanks to @afgane) [Pull Request 73](https://github.com/galaxyproject/pulsar/pull/73)
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/logos/PlanemoLogo.png" alt="" width="150" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/images/logos/PlanemoLogo.png" alt="" width="150" /></a></div>
 
 **Planemo 0.21.1**
 
@@ -595,9 +595,9 @@ The 0.6.x release includes these changes:
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
@@ -609,7 +609,7 @@ The 0.6.x release includes these changes:
 <br />
 
 ----
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

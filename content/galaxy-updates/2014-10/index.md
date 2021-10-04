@@ -1,7 +1,7 @@
 ---
 title: October 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the October 2014 *[Galaxy Update](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -20,7 +20,7 @@ Let your voice be heard!
 
 # IRC Channel Policy Change
 
-<div class='left'><img src="/src/images/icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
+<div class='left'><img src="/images/icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
 
 A proposed change for the #galaxyproject IRC channel was [proposed](/news/irc-public-log-proposal/), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
 
@@ -29,7 +29,7 @@ Thanks to everyone who participated in the decision, and [those at GCC2014 who s
 
 # Events
 
-<div class='left'><br /><a href='/events/eccb2014/'><img src="/src/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB'14 / JOBIM" height="75" /></a></div>
+<div class='left'><br /><a href='/events/eccb2014/'><img src="/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB'14 / JOBIM" height="75" /></a></div>
 
 ## Galaxy at ECCB'14
 
@@ -39,14 +39,14 @@ Galaxy had a strong presence at [ECCB'14](/events/eccb2014/).  Galaxy was featur
 ## Other Events
 
 <div class='center'> 
-<a href='/events/sg2014/'><img src="/src/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
-<a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
-<a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'><img src="/src/images/logos/DTLLogo150.png" alt="iReport - A tool to create flexible, scalable Galaxy tool interface, presented at the DTL Programmers Meeting" height="90" /></a>
-<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src="/src/images/logos/SB-RoscoffBig.JPG" alt="Des bonnes pratiques d'intégration d'outils sous Galaxy" height="60" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'><img src="/src/images/logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
+<a href='/events/sg2014/'><img src="/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
+<a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
+<a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'><img src="/images/logos/DTLLogo150.png" alt="iReport - A tool to create flexible, scalable Galaxy tool interface, presented at the DTL Programmers Meeting" height="90" /></a>
+<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src="/images/logos/SB-RoscoffBig.JPG" alt="Des bonnes pratiques d'intégration d'outils sous Galaxy" height="60" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'><img src="/images/logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 
 There are [upcoming events](/events/) in Switzerland, Germany, Australia, Norway, France, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -210,7 +210,7 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -232,7 +232,7 @@ Two new [public Galaxy server](/use/) was added to the published list in Septemb
 
 ## GalaxEast
 
-<div class='right solid'><a href='http://www.galaxeast.fr'><img src="/src/use/galaxeast/galaxeast.png" alt="GalaxEast"  /></a></div>
+<div class='right solid'><a href='http://www.galaxeast.fr'><img src="/use/galaxeast/galaxeast.png" alt="GalaxEast"  /></a></div>
 
 [GalaxEast](http://www.galaxeast.fr) aims at providing a large range of bioinformatics tools for the analysis of various types of Omics data. It supports reproducible computational research by providing an environment for performing and recording bioinformatics analyses.
 
@@ -247,7 +247,7 @@ See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data
 
 ## MIRPIPE
 
-<div class='right solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src="/src/use/archive/mpi-hlr-bioinformatics-server/mirpipe-home-page.png" alt="MIRPIPE - the miRNA identification pipeline" width="300" /></a></div>
+<div class='right solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src="/use/archive/mpi-hlr-bioinformatics-server/mirpipe-home-page.png" alt="MIRPIPE - the miRNA identification pipeline" width="300" /></a></div>
 
 [MIRPIPE](https://bioinformatics.mpi-bn.mpg.de/) focuses on quantification of microRNA based on smallRNA sequencing reads.  From the home page:
  In opposition to present algorithms that generally rely on genomic data to identify miRNAs, MIRPIPE focuses on niche model organisms that lack such information. Among the MIRPIPE features are automatic trimming and adapter removal of raw RNA-Seq reads originating from various sequencing instruments, clustering of isomiRs, and quantification of detected miRNAs by homology search versus public or user uploaded reference databases.
@@ -256,8 +256,8 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
@@ -269,14 +269,14 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 <br /><br />
 
 <div class='left'><br />
-<a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/src/images/logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
+<a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/images/logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
 </div>
 
 The deployment details for the [GalaxEast public server](/use/galaxeast/) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/blog/).
 
 The *Deployment Catalog* and *[Community Log Board](/blog/)* *[Galaxy community hubs](/community/)* were launched in 2013.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them **this month.**
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # New Releases
 

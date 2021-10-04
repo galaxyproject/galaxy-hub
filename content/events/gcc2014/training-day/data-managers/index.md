@@ -8,7 +8,7 @@ title: Tool Development from bright idea to toolshed - Data Managers
 
 <slot name="/events/gcc2014/linkbox" />
 
-<div class='right'> <a href='/events/gcc2014/training-day/'><img src="/src/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
+<div class='right'> <a href='/events/gcc2014/training-day/'><img src="/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
 This is the workshop page for the **[Tool Development from bright idea to toolshed - Data Managers](/events/gcc2014/training-day/#tool-development-from-bright-idea-to-toolshed---data-managers)** Training Day session at GCC2014.
 
@@ -46,7 +46,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 ## 15:40-16:00 Using Reference Data in Galaxy Tools
 
 * Graphical Overview of Interplay between Built-in Data and Galaxy Tools
-    <a href='/src/images/learn/data_managers_figure_S1_schematic_overview.png'><img src="/src/images/learn/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a> 
+    <a href='/src/images/learn/data_managers_figure_S1_schematic_overview.png'><img src="/images/learn/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a> 
 
 * Discussion of *.loc files
   * Used as a way to provide additional configuration details to a tool, without having to manually edit the actual tool XML file.

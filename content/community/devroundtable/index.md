@@ -2,7 +2,7 @@
 title: Galaxy Developer Roundtable
 ---
 
-<img class="float-right" style="max-width: 12rem;" src="/src/images/galaxy-logos/galaxy-developer-roundtable-300.png" alt="Galaxy Developer Round Table" />
+<img class="float-right" style="max-width: 12rem;" src="/images/galaxy-logos/galaxy-developer-roundtable-300.png" alt="Galaxy Developer Round Table" />
 
 ## What
 

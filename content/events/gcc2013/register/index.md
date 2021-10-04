@@ -9,7 +9,7 @@ title: Registration
 
 Our goal is to have registration be downright affordable, and to make early registration *outrageously* affordable for students and postdocs, with combined *on-time* registration ([Training Day](/events/gcc2013/training-day/) + main meeting) starting at ~ €165.  Registering now also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.
 
-<div class='left'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a></div>
+<div class='left'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a></div>
 
 **If you are attending the [Training Day](/events/gcc2013/training-day/), you are encouraged to review the [schedule and topics](/events/gcc2013/training-day/) before registering.** You will select the topics you will attend as part of registration.
 
@@ -23,9 +23,9 @@ You will receive an email confirming your registration within 3 business days.  
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/events/gcc2013/program/'><img src="/src/images/logos/GCC2013Logo200.png" alt="Main Meeting" height="80" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2013/program/'><img src="/images/logos/GCC2013Logo200.png" alt="Main Meeting" height="80" /></a> </td>
     <td style=" border: none;"> <strong>+</strong> </td>
-    <td style=" border: none;"> <a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a> </td>
+    <td style=" border: none;"> <a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a> </td>
   </tr>
 </table>
 
@@ -64,7 +64,7 @@ You will receive an email confirming your registration within 3 business days.  
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/events/gcc2013/program/'><img src="/src/images/logos/GCC2013Logo200.png" alt="Main Meeting" height="80" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2013/program/'><img src="/images/logos/GCC2013Logo200.png" alt="Main Meeting" height="80" /></a> </td>
   </tr>
 </table>
 
@@ -103,7 +103,7 @@ Interested in only the conference?  [Conference-only registration](http://bit.ly
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='/events/gcc2013/program/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a> </td>
+    <td style=" border: none;"> <a href='/events/gcc2013/program/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="Training Day" height="60" /></a> </td>
   </tr>
 </table>
 

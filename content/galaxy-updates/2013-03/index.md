@@ -1,7 +1,7 @@
 ---
 title: March 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the March 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -9,7 +9,7 @@ Welcome to the March 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary
 
 ## New Public Galaxy Servers
 
-<div class='left'><a href='http://www.bioinformatica.ucr.ac.cr:8080/'><img src="/src/use/archive/nelly/u-costa-rica-logo.png" alt="University of Costa Rica" /></a></div>
+<div class='left'><a href='http://www.bioinformatica.ucr.ac.cr:8080/'><img src="/use/archive/nelly/u-costa-rica-logo.png" alt="University of Costa Rica" /></a></div>
 
 The [University of Costa Rica](http://www.ucr.ac.cr/) School of Medicine, [Master in Bioinformatics and System Biology](http://www2.sep.ucr.ac.cr/MaestriasAcademicas/CBIOMEDICAS/Infodescrip.html) and [BREL (Bioinformatics Research Laboratory)](http://www.ucrbrel.com/) have made the [Galaxy NELLY](http://www.bioinformatica.ucr.ac.cr:8080/) server publicly accessible.  NELLY features the standard Galaxy tool set.  It requires a login, but anyone can create a login.
 
@@ -62,7 +62,7 @@ There are now over [880 papers in the Galaxy CiteULike Group](http://www.citeuli
 
 ## Who's Hiring
 
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -75,13 +75,13 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2013
 
-<div class='center'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
+<div class='center'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 ### Registration, Talk/Poster Submission Open
 
 **[Early registration](/events/gcc2013/register/) and [paper and poster abstract submission](/events/gcc2013/abstracts/) are now open for the [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/).**  GCC2013 will be held 30 June through July 2 in Oslo Norway, at the [University of Oslo](http://uio.no).
 
-<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
 [GCC2013](/events/gcc2013/) is an opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes, lightning talks and breakouts, all about high-throughput biology and the tools that support it. The conference also includes a [Training Day](/events/gcc2013/training-day/) for the second year in a row, this year with more in-depth topic coverage, more concurrent sessions, and more topics.
 
@@ -91,8 +91,8 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ### Sponsorships
 
-<div class='right'><a href='http://lifetech.com/'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="140" /></a><br /> 
-<div class='right'><a href='http://emc.com/'><img src="/src/images/logos/EMCLogo.png" alt="EMC Isilon" width="120" /></a><br /><div class='right'><a href='http://illumina.com/'><img src="/src/images/logos/IlluminaLogo250.png" alt="Illumina" width="100" /></a></div></div></div>
+<div class='right'><a href='http://lifetech.com/'><img src="/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="140" /></a><br /> 
+<div class='right'><a href='http://emc.com/'><img src="/images/logos/EMCLogo.png" alt="EMC Isilon" width="120" /></a><br /><div class='right'><a href='http://illumina.com/'><img src="/images/logos/IlluminaLogo250.png" alt="Illumina" width="100" /></a></div></div></div>
 
 We are pleased to announce several new [sponsorships](/events/gcc2013/sponsorships/) for GCC2013:
 
@@ -104,7 +104,7 @@ There are still several [sponsorships](/events/gcc2013/sponsorships/) still avai
 
 ## March GalaxyAdmins Web Meetup
 
-<div class='left'><a href='/community/galaxy-admins/meetups/2013-03-20/'><img src="/src/images/logos/GalaxyAdmins.png" alt="March Galaxy Admins Web Meetup" height="50" /></a></div>
+<div class='left'><a href='/community/galaxy-admins/meetups/2013-03-20/'><img src="/images/logos/GalaxyAdmins.png" alt="March Galaxy Admins Web Meetup" height="50" /></a></div>
 
 The next [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-03-20/) will be held [March 20, 2013](/community/galaxy-admins/meetups/2013-03-20/) and feature [Hailiang "Leon" Mei](mailto:hailiang DOT mei AT nbic DOT nl), and [David van Enckevort](mailto:david.van.enckevort@nbic.nl) speaking on *[NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).* 
 
@@ -114,8 +114,8 @@ See the [meetup page](/community/galaxy-admins/meetups/2013-03-20/) for details.
 
 ## Galaxy at GMOD 2013 and Biocuration 2013
 
-<div class='right'> <a href='/gmod:April_2013_GMOD_Meeting/'><img src="/src/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
-<a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'><img src="/src/images/logos/ISBLogoWAcronym223.png" alt="Biocuration 2013" height="70" /></a></div>
+<div class='right'> <a href='/gmod:April_2013_GMOD_Meeting/'><img src="/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
+<a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'><img src="/images/logos/ISBLogoWAcronym223.png" alt="Biocuration 2013" height="70" /></a></div>
 
 Galaxy will [have a presence](/news/galaxy-gmod-biocuration2013/) at both the [GMOD 2013](http://gmod.org/wiki/April 2013 GMOD Meeting) and [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home).  Both are being held in Cambridge, UK in early April.  If you are interested in either community, then it would be great to see you there.
 
@@ -125,12 +125,12 @@ GMOD is also running a [community-wide survey](http://gmod.org/survey.html) thro
 ## Other Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://conf.abrf.org/'><img src="/src/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
-<a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="85" /></a>
-<a href='http://www.jgi.doe.gov/meetings/usermeeting/workshops.html#rna-tech'><img src="/src/images/logos/JGILogoSmall.jpg" alt="RNA Technologies and Analysis Workshop" height="85" /></a>
+<a href='http://conf.abrf.org/'><img src="/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
+<a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="85" /></a>
+<a href='http://www.jgi.doe.gov/meetings/usermeeting/workshops.html#rna-tech'><img src="/images/logos/JGILogoSmall.jpg" alt="RNA Technologies and Analysis Workshop" height="85" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 ### Events
@@ -217,7 +217,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 **[February 8, 2013 Galaxy Distribution](/archive/dev-news-briefs/2013-02-08/)**
 
 <div class='indent'>
-<div class='right'><a href='/toolshed/'><img src="/src/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="" width="220px" /></a></div>
+<div class='right'><a href='/toolshed/'><img src="/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="" width="220px" /></a></div>
 **Highlights:**
 * *Improvements* to our [release process](/archive/dev-news-briefs/2013-02-08/#-to-release_process). **Release tag must be used in the hg update command to upgrade**. More at **[getgalaxy.org](/admin/get-galaxy/)**.
 * Tool Shed *[Complex repository dependencies](/toolshed/complex-repository-dependencies/)* are introduced, streamlining core dependency use across individual tools. 
@@ -244,7 +244,7 @@ $ hg update release_2013.02.08
 
 ## Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * viralcloud: Viral Cloud Resource (VCR) includes viral assembly & VIGOR
 * cummeRbund: CuffDiff output analysis

@@ -4,7 +4,7 @@ tease: "Configuration free data import/export"
 date: "2019-09-30"
 ---
 
-[<img class="float-right" style="max-width: 18rem" src="/src/images/logos/intermine-logo-wide-trans.png" alt="InterMine" />](http://intermine.org/)
+[<img class="float-right" style="max-width: 18rem" src="/images/logos/intermine-logo-wide-trans.png" alt="InterMine" />](http://intermine.org/)
 
 [InterMine team](http://intermine.org/) has just [released InterMine 4.1.0](https://intermineorg.wordpress.com/2019/09/24/intermine-4-1-0/).
 

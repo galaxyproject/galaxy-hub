@@ -3,7 +3,7 @@ title: "August 2016 Galactic News"
 date: "2016-07-29"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2016-08/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=140 /></a><br /><br />
+<a href='/galaxy-updates/2016-08/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=140 /></a><br /><br />
 </div>
 
 The **[August Galaxy News](/galaxy-updates/2016-08/) is out:**

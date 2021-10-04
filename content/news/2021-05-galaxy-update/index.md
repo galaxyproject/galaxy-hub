@@ -4,7 +4,7 @@ tease: "GCC2021 and James Taylor Video Deadlines Extended, plus a whole lot more
 date: "2021-05-04"
 ---
 
-<a href="/galaxy-updates/"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -134,7 +134,7 @@ Early conference registration [is open until 1 June](/news/2021-04-gcc-reg/).
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 50%;">
-<img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
+<img class="card-img-top" src="/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
 [Open Galaxy Positions](/careers/)
@@ -176,7 +176,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 
 Most of these are accepting talk and poster submissions through the [ISMB/ECCB website](https://www.iscb.org/ismbeccb2021), but [BioInfo-Core is taking talk submissions here](https://forms.gle/N1mfB3dEEd4oi4wBA).  All submissions are due May 6.
 
-<img class="card-img-top" src="/src/images/logos/bioinfo-core-wide.png" alt="BioInfo-Core" style="max-width: 90%" />
+<img class="card-img-top" src="/images/logos/bioinfo-core-wide.png" alt="BioInfo-Core" style="max-width: 90%" />
 </div>
 
 
@@ -235,7 +235,7 @@ We will be on Gitter for chat all day long, and each event will have 3 calls spr
 
 <!--Variant calling -->
 <div class="card border-info" style="min-width: 16rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-australia.png" />
 <div class="card-header trim-p">Variant Calling Workshop Series</div>
 
 **Apply by 12 May**
@@ -276,7 +276,7 @@ The workshop will focus on theoretical and practical aspects of using next gener
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 12rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
 [Galaxy Developer Roundtable](/community/devroundtable/)
@@ -296,7 +296,7 @@ We still [need a volunteer to lead a discussions on a topic of interest on May 2
 
 <!-- Metabolomics -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/images/communities/metabolomics.png" alt="metabolomics" />
+<img class="card-img-top" src="/images/communities/metabolomics.png" alt="metabolomics" />
 <div class="card-header trim-p">
 
 [Galaxy Metabolomics Community Call](/events/2021-05-metabolomics/)
@@ -313,7 +313,7 @@ To know more about the Galaxy Metabolomics community, please [subscribe to the m
 
 <!-- Analyse avancée de séquences -->
 <div class="card border-info" style="min-width: 12rem; max-width:  50%;">
-<img class="card-img-top" src="/src/images/logos/CGFB_bioinformatics.png" />
+<img class="card-img-top" src="/images/logos/CGFB_bioinformatics.png" />
 <div class="card-header trim-p">
 
 [Analyse avancée de séquences](https://cnrsformation.cnrs.fr/analyse-avancee-sequences)
@@ -329,7 +329,7 @@ Savoir rechercher des informations dans les banques de données. Maîtriser les 
 
 <!-- Metatranscriptomes -->
 <div class="card border-info" style="min-width: 14rem; max-width:  20rem;">
-<img class="card-img-top" src="/src/images/logos/vib-training.png" />
+<img class="card-img-top" src="/images/logos/vib-training.png" />
 <div class="card-header trim-p">
 
 [Metatranscriptomics analysis using microbiome RNA seq data in Galaxy](https://training.vib.be/all-trainings/metatranscriptomics-analysis-using-microbiome-rna-seq-data-galaxy)
@@ -344,7 +344,7 @@ An introduction basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT pr
 
 <!-- Galaxy NL -->
 <div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
-<img class="card-img-top" src="/src/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
+<img class="card-img-top" src="/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
 <div class="card-header trim-p">
 
 [Galaxy-NL Meeting 2021](https://docs.google.com/document/d/1irLt2gtm-iNdgDZqybUpj7g39zkf5qaDkGW4-wW31YQ/edit)
@@ -472,7 +472,7 @@ The European Galaxy Server has surpassed the 30,000 registered users, has around
 
 </div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * The European Galaxy community is involved in [several ELIXIR Implementation Studies](https://galaxyproject.eu/posts/2021/04/19/elixir-is/).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).

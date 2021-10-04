@@ -11,7 +11,7 @@ title: Galaxy End-Users
 
 <slot name="/events/gcc2014/linkbox" />
 
-<div class='left'><a href='/events/gcc2014/bofs/'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
+<div class='left'><a href='/events/gcc2014/bofs/'><img src="/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
  
 This page describes the **Galaxy End-Users** [Birds of a Feather](/events/gcc2014/bofs/) meetup being held at [GCC2014](/events/gcc2014/).
 

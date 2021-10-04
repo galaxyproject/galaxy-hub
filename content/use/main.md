@@ -4,7 +4,7 @@ autotoc: true
 layout: use_index.pug
 ---
 
-<img class="float-right" style="max-width: 35%;" src="/src/use/use-resource-banner.png" class="img-fluid" alt="125+ platforms to use Galaxy on">
+<img class="float-right" style="max-width: 35%;" src="/use/use-resource-banner.png" class="img-fluid" alt="125+ platforms to use Galaxy on">
 
 This directory lists platforms where you can use or deploy your own Galaxy Server with minimal effort.
 

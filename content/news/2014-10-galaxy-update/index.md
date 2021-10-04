@@ -3,7 +3,7 @@ title: "October 2014 Galaxy Newsletter"
 date: "2014-10-01"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-10/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
+<a href='/galaxy-updates/2014-10/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>
 
 A lot is happening in in the Galaxy in October, and a lot of good stuff happened in September too.  Take a look at the [October 2014 Galaxy Newsletter](/galaxy-updates/2014-10/) for the complete story, but here are some highlights:

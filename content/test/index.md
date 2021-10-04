@@ -210,7 +210,7 @@ Exceeding quotas will prevent new jobs from running, but Galaxy users can monito
 
 Test server user interface:
 
-<div class='center'><img src="/src/test/QuotasOnTestScreenshot.png" alt="Screenshot showing quotas on Test server" width="800" /></div>
+<div class='center'><img src="/test/QuotasOnTestScreenshot.png" alt="Screenshot showing quotas on Test server" width="800" /></div>
 
 ## User Account Quotas
 

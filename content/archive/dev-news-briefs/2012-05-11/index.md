@@ -21,7 +21,7 @@ date: 2012-05-11
 <br />
 **After you update your Galaxy code base to this revision (if you use any of the [EMBOSS](http://emboss.sourceforge.net) tools), attempting to start your Galaxy server will display a message with instructions on what to do to install the tools from the tool shed.**  You can choose to not install the tools and start your Galaxy server - it will start on this second attempt.  
 <br />
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
 If you decide to install the tools, the location in which the Emboss repositories will be installed is the value of the `"tool_path"` attribute in in the `<tool>` tag of the file named `"migrated_tools_conf.xml"` in your Galaxy installation directory.  The default location setting is `"../shed_tools"`, which may be problematic for some cluster environments, so make sure to change it before you execute the installation process if necessary.
 
@@ -88,7 +88,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
     * *Genome Analysis Toolkit (beta) tool group includes*: Depth of Coverage on BAM files; Print Reads from BAM files; Realigner Target; Creator for use in local realignment; Indel Realigner - perform local realignment; Count Covariates on BAM files; Table Recalibration on BAM files; Analyze Covariates - draw plots; Unified Genotyper SNP and indel caller; Variant Annotator; Variant Filtration on VCF files; Select Variants from VCF files; Variant Recalibrator; Apply Variant Recalibration; Validate Variants; Eval Variants; Combine Variants.
   * Additional tool documentation developing over next few months. For now, refer to [GATK tool author help](http://www.broadinstitute.org/gsa/wiki).
 
-</div><a href='/learn/'><img src="/src/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="800px" /></a></div>
+</div><a href='/learn/'><img src="/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="800px" /></a></div>
 * **NGS: Variant Detection**
   * Added **[FreeBayes](http://github.com/ekg/freebayes)** latest version (a46483351fd0196637614121868fb5c386612b55)
     * Requires **[SAM Tools](http://samtools.sourceforge.net/), version 0.1.16-0.1.18** *strongly recommended*
@@ -180,7 +180,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * `fasta_to_len` conversion now uses only the first word in the description line from input [FASTA](/learn/datatypes/#fasta) datasets to create the *identifier name* for sequences. This is standards compliant and used by default for automatic conversion.
 * Add necessary space after threads option in [Cuffmerge](http://cufflinks.cbcb.umd.edu/).
 * The dataset cleanup scripts will no longer error out if database_connection is not explicitly set in the Galaxy config file. Addresses mailing list questions:
@@ -208,7 +208,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
 
 ## GCC2012 Update
 
-<div class='right'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a></div>
+<div class='right'><a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a></div>
 
 The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held July 25-27, in Chicago. The conference will feature two full days of presentations and discussions, and a [whole day of training](/events/gcc2012/training-day/) has been added this year.
 
@@ -216,7 +216,7 @@ The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held 
 
 ### Training Day: Help Set the Agenda
 
-<div class='right'><a href='/events/gcc2012/training-day/'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
+<div class='right'><a href='/events/gcc2012/training-day/'><img src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
 
 The [GCC2012 Training Day](/events/gcc2012/training-day/) needs your help! Training Day offers 90 minute training sessions in three parallel tracks throughout the day for a total of 12 sessions. We need your input on how to best allocate those sessions to topics. Please **[take a few minutes to indicate your top choices](https://docs.google.com/spreadsheet/viewform?formkey=dHBIRVB6cEhpTWpGN1pXSjhGdGR0aVE6MQ#gid=0)** for what you would like to see covered on the GCC2012 Training Day. 
 

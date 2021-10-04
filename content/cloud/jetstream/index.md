@@ -17,7 +17,7 @@ After you have your XSEDE account and an active allocation:
 * Visit https://use.jetstream-cloud.org/, and log in using your university, national lab, facility, project, Google, or Globus ID.
 
 * Once logged in *select* **Launch an instance**
-    <a href='/src/cloud/jetstream/jetstream_GettingStarted.png'><img src="/src/cloud/jetstream/jetstream_GettingStarted.png" alt="" width="75%" /></a><br /><br />
+    <a href='/src/cloud/jetstream/jetstream_GettingStarted.png'><img src="/cloud/jetstream/jetstream_GettingStarted.png" alt="" width="75%" /></a><br /><br />
 
 * Browse the available images and choose a Galaxy image (see [Released versions](/cloud/jetstream/#released-versions) below for the available options)
     <a href='http://i.imgur.com/OCA45pA.png'><img src="http://i.imgur.com/OCA45pA.png" alt="" width="75%" /></a>   <br /><br />
@@ -33,13 +33,13 @@ After you have your XSEDE account and an active allocation:
   * And then click **Launch**
 
 * If you don't have any existing projects in Jetstream, the next form will prompt you to create a new project.
-    <a href='/src/cloud/jetstream/jetstream_LaunchProject.png'><img src="/src/cloud/jetstream/jetstream_LaunchProject.png" alt="" width="75%" /></a><br /><br />
+    <a href='/src/cloud/jetstream/jetstream_LaunchProject.png'><img src="/cloud/jetstream/jetstream_LaunchProject.png" alt="" width="75%" /></a><br /><br />
 
 * The instance will be built and then launched.  After a few minutes the instance will be **Active** and ready to use:
     <a href='http://i.imgur.com/Z9GDeru.png'><img src="http://i.imgur.com/Z9GDeru.png" alt="" width="75%" /></a><br /><br />
 
 * In about 5 minutes, you should have your own Galaxy server - just copy the new server IP address plus :8080 to a new browser window (eg, http://your.ip.addr:8080)
-    <a href='/src/cloud/jetstream/galaxy_landing.png'><img src="/src/cloud/jetstream/galaxy_landing.png" alt="" width="75%" /></a><br /><br />
+    <a href='/src/cloud/jetstream/galaxy_landing.png'><img src="/cloud/jetstream/galaxy_landing.png" alt="" width="75%" /></a><br /><br />
 
 ## What is Jetstream cloud?
 

@@ -1,7 +1,7 @@
 ---
 title: December 2017 Galaxy News
 ---
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
 Welcome to the December 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -13,7 +13,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 
 ## European Galaxy Administrator Workshop
 
-[<img class="float-right" src="/src/images/logos/ElixirNoTextLogo.png" alt="Galaxy Admin training, this January, in Oslo " width="160" />](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)
+[<img class="float-right" src="/images/logos/ElixirNoTextLogo.png" alt="Galaxy Admin training, this January, in Oslo " width="160" />](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)
 
 **[Registration](https://skjema.uio.no/galaxy-admin-workshop-2018) opened in November for the [European Galaxy Administrator Workshop](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)**.  
 
@@ -31,13 +31,13 @@ See the [full event description](https://www.elixir-europe.org/events/european-g
 
 ## Galaxy (and GMOD) at Plant and Animal Genome XXVI
 
-[<img class="float-left" src="/src/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/events/2018-pag/)
+[<img class="float-left" src="/events/2018-pag/galaxy-at-pag-2018.png" alt="Galaxy at PAG XXVI" width="180" />](/events/2018-pag/)
 
 The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/events/2018-pag/) to help researchers get the most from their data.  There will be a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796), and a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806).  See the [Galaxy @ PAG page](/events/2018-pag/) for details.
 
 ### GMOD @ PAG
 
-<img class="float-right" src="/src/images/logos/gmod-in-san-diego-300.png" alt="GMOD at PAG XXVI" width="160" />
+<img class="float-right" src="/images/logos/gmod-in-san-diego-300.png" alt="GMOD at PAG XXVI" width="160" />
 
 [GMOD](https://gmod.org/) (of which Galaxy is a part) has a bunch of things going on at PAG that are of interest to the Galaxy Community:
 
@@ -50,13 +50,13 @@ If you are interested in supporting better integration of Galaxy with other GMOD
 
 ### Pre-PAG Intro to Galaxy Workshop at CSUSM
 
-[<img class="float-right" src="/src/images/logos/csusm-logo.gif" alt="Introduction to Galaxy Workshop, CSU San Marcos, January 12" width="160" />](/events/2018-01-csusm-workshop/)
+[<img class="float-right" src="/images/logos/csusm-logo.gif" alt="Introduction to Galaxy Workshop, CSU San Marcos, January 12" width="160" />](/events/2018-01-csusm-workshop/)
 
 If you are at [Cal State San Marcos](https://csusm.edu/), or anywhere nearby, there will be an [Introduction to Galaxy Workshop](/events/2018-01-csusm-workshop/) in San Marcos, California on Friday January 12.  The workshop is free, but space is limited, so you are encouraged to [register now](http://bit.ly/gxy-csusm-2018-reg).
 
 ## 2018 Big Genomics Data Skills Training course
 
-[<img class="float-left" src="/src/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
+[<img class="float-left" src="/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
 
 The [Jackson Lab (JAX)](https://www.jax.org/) is pleased to open the application period for the 2018 Big Genomics Data Skills Training course, funded by the NIH BD2K initiative: [Big Genomic Skills Training info and online application](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors). The program provides training and hands-on experience working with genomic scale data and will enable participants to integrate genomic data analysis into their courses or launch new courses. Topics covered include RNAseq, Whole Exome Sequencing and variant detection, ChIPseq and network analysis. Participants will gain experience using Galaxy, R and Python.
  
@@ -169,7 +169,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 # New Galactic Blog Entries
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/blog/)
+[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="The Galactic Blog is born" width="200" />](/blog/)
 
 We've got two new *[Galactic Blog](/blog/)* entries:
 
@@ -214,7 +214,7 @@ The *Galactic* and *Stellar* publications added in October were:
 ----
 # Who's Hiring
 
-<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -254,7 +254,7 @@ As part of the move to Zotero, we have started tagging papers that use, mention,
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in November](/toolshed/contributions/2017-11/).
 
@@ -263,7 +263,7 @@ As part of the move to Zotero, we have started tagging papers that use, mention,
 ## 17.09 Galaxy Release
 
 <div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
 </div>
 
 The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) published the **[17.09 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.09_announce.html)** at the end of October.
@@ -303,7 +303,7 @@ This revision:
 
 ### Planemo 0.47.0
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -343,7 +343,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 ### Pulsar 0.8.0
 
-[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+[<img class="float-right" src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in September.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 

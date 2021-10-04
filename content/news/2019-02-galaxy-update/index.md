@@ -4,7 +4,7 @@ tease: 'Events (GCC Training, GalaxyAdmins), Platforms, Pubs, Jobs, COTM!, Doc, 
 date: "2019-02-01"
 ---
 
-[<img class="float-right" src="/src/news/2019-02-galaxy-update/2019-02-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
+[<img class="float-right" src="/news/2019-02-galaxy-update/2019-02-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *February  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.
 
@@ -29,7 +29,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 ## GCC2019 Training Topic Voting Is Open
 
-[<img class="float-right" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
+[<img class="float-right" src="/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
 The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
@@ -43,7 +43,7 @@ Please take a moment and [**vote**](https://docs.google.com/forms/d/e/1FAIpQLSd7
 
 ## ELIXIR Galaxy Community Workshop
 
-[<img class="img-fluid mx-auto float-right" style="max-width: 160px" src="/src/images/logos/ElixirNoTextLogo.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
+[<img class="img-fluid mx-auto float-right" style="max-width: 160px" src="/images/logos/ElixirNoTextLogo.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
 
 Join the Galaxy Community of Elixir for a [three day workshop](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTM materials. 
 
@@ -54,7 +54,7 @@ Find pre-registration **[here](https://www.france-bioinformatique.fr/fr/evenemen
 
 ## GalaxyAdmins needs your topic suggestions
 
-[<img class="img-fluid mx-auto float-right" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
+[<img class="img-fluid mx-auto float-right" src="/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
 
 After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/community/galaxy-admins/meetups/) will return on [February 28](/community/galaxy-admins/meetups/2019-03-21/). [GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
@@ -183,7 +183,7 @@ Ten of the fourteen highlighted publications are open access.
 
 The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's what's been added since last month:
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/quantp/quantp-fig3-400.jpg" alt="QuanTP" />](/use/quantp/)
+[<img class="float-right" style="max-width: 300px" src="/use/quantp/quantp-fig3-400.jpg" alt="QuanTP" />](/use/quantp/)
 
 ## QuanTP
 
@@ -199,7 +199,7 @@ miCloud is supported  by Weill Cornell Medicine and Department of Biological Sci
 
 ## RNA Workbench
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/rna-workbench/rna-workbench-logo.png" alt="RNA Workbench" />](/use/rna-workbench/)
+[<img class="float-right" style="max-width: 300px" src="/use/rna-workbench/rna-workbench-logo.png" alt="RNA Workbench" />](/use/rna-workbench/)
 
 [RNA Workbench](/use/rna-workbench/), in addition to being available as a [Docker container](https://github.com/bgruening/galaxy-rna-workbench), is also available as [public server](https://rna.usegalaxy.eu/) hosted at UseGalaxy.eu.  RNA Workbench has a collection of over 50 tools dedicated to different research areas of RNA biology, including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein interaction, ribosome profiling, RNA-Seq analysis, and RNA target prediction.  This server has been up for a while, but we are just adding it to the platforms directory.
 
@@ -213,7 +213,7 @@ Hi-C Explorer is also hosted at UseGalaxy.eu.
 
 ## G-OnRamp
 
-[<img class="float-right" style="max-width: 300px" src="/src/images/logos/g-onramp-logo-trans.png" alt="G-OnRamp" />](/use/g-onramp/)
+[<img class="float-right" style="max-width: 300px" src="/images/logos/g-onramp-logo-trans.png" alt="G-OnRamp" />](/use/g-onramp/)
 
 [G-OnRamp](http://gonramp.wustl.edu/?page_id=1031) provides a user-friendly, web-based platform for collaborative, end-to-end annotation of eukaryotic genomes using UCSC Assembly Hubs and JBrowse/Apollo genome browsers with evidence tracks derived from sequence alignments, ab initio gene predictors, RNA-Seq data, and repeat finders. It is available as a [virtual machine](https://wustl.app.box.com/v/g-onramp-vm-v1) that can be deployed locally, and as an Amazon Machine Image that can be run on AWS and launched with [CloudLaunch](https://launch.usegalaxy.org/catalog).
 
@@ -224,7 +224,7 @@ Use the G-OnRamp output to visualize large genomics datasets, and can utilize th
 - [Virtual Machine Installation Walkthrough](https://wustl.app.box.com/s/9626q6n2mjnd3vuas26j20w419f5v0fc)
 - [CloudLaunch Deployment Walkthrough](https://wustl.app.box.com/s/rg7xaezf22p75d8yardsooa2izbdlkd5) (using the AMI)
 
-<img class="float-right" style="max-width: 200px" src="/src/use/archive/amrplusplus/amrplusplus-flowchart.png" alt="AmrPlusPlus" />
+<img class="float-right" style="max-width: 200px" src="/use/archive/amrplusplus/amrplusplus-flowchart.png" alt="AmrPlusPlus" />
 
 G-OnRamp is supported by [Washington University in St. Louis](https://wustl.edu/) and [Oregon Health & Science University](https://ohsu.edu/)
 
@@ -234,7 +234,7 @@ G-OnRamp is supported by [Washington University in St. Louis](https://wustl.edu/
 
 ## Lifeportal
 
-[<img class="float-left" style="max-width: 200px" src="/src/use/lifeportal-oslo/lifeportal-logo.png" alt="LifePortal" />](/use/lifeportal-oslo/)
+[<img class="float-left" style="max-width: 200px" src="/use/lifeportal-oslo/lifeportal-logo.png" alt="LifePortal" />](/use/lifeportal-oslo/)
 
 [Lifeportal](https://lifeportal.uio.no) is a Galaxy server available to any researcher in Norway (and possibly any other user willing to use the service). LifePortal implements about 400 applications. It runs Galaxy version 18.09 and jobs are executed on the [Abel cluster](https://www.uio.no/english/services/it/research/hpc/abel/more/) (~650 nodes) using the slurm-drmaa library.  User support is available [via email](mailto:lifeportal-help@usit.uio.no).
 
@@ -271,7 +271,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 # New Galactic Blog Posts
 
 <div class="float-right">
-[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/src/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/blog/2019-01-totm/)
+[<img class="img-fluid mx-auto" style="max-width: 90px;" src="/news/2019-02-galaxy-update/marsupial.png" alt="Genome annotation with Prokka" />](/blog/2019-01-totm/)
 </div>
 
 There are two new *[Galactic Blog](/blog/)* entries:
@@ -286,7 +286,7 @@ There are two new *[Galactic Blog](/blog/)* entries:
 
 # Who's Hiring
 
-<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
@@ -322,7 +322,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 ## GTN Training Materials
 
-[<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
+[<img class="float-right img-responsive" src="/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
 * New [Age prediction using machine learning](https://galaxyproject.github.io/training-material/topics/statistics/tutorials/age-prediction-with-ml/tutorial.html), by [Anup Kumar](https://github.com/anuprulez).
 * New [GO enrichment analysis](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/goenrichment/tutorial.html), by [igcbioinformatics](https://github.com/igcbioinformatics), [Maria Doyle](https://github.com/mblue9), and [dsobral](https://github.com/dsobral).
@@ -338,7 +338,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 # ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in January  2019](/toolshed/contributions/2019-01/).
 
@@ -353,7 +353,7 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 ## Planemo 0.58.1
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 

@@ -10,7 +10,7 @@ title: Galactic December News!
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
 Welcome to the December 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
 
@@ -96,7 +96,7 @@ The new papers were tagged with:
 ## Spanish Galaxy Community Meetup: 18 December, Barcelona
 
 <div class='right'>
-<a href='http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf'><img src="/src/images/logos/BioinformaticsBarcelona.jpg" alt="Galaxy Session at III Bioinformatics and Computational Biology Symposium" height="120" /></a>
+<a href='http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf'><img src="/images/logos/BioinformaticsBarcelona.jpg" alt="Galaxy Session at III Bioinformatics and Computational Biology Symposium" height="120" /></a>
 </div>
 
 There will be a session at the end of the [III Bioinformatics and Computational Biology Symposium](http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf) being held in Barcelona on 18 December:
@@ -108,7 +108,7 @@ See the [announcement PDF](http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015
 ## Galaxy Day 2015 Presentations
 
 <div class='left'>
-<a href='http://www.france-bioinformatique.fr/?q=fr/galaxy-2'><img src="/src/images/logos/IFB_galaxywg.png" alt="Galaxy Day 2015" height="70" /></a>
+<a href='http://www.france-bioinformatique.fr/?q=fr/galaxy-2'><img src="/images/logos/IFB_galaxywg.png" alt="Galaxy Day 2015" height="70" /></a>
 </div>
 
 [Galaxy Day 2015](http://www.france-bioinformatique.fr/?q=fr/galaxy-2) was held in Paris on 19 November. It was preceded by a Galaxy Hackathon.  Both events were well attended and the events were yet another successful gathering of the French Galaxy community.  Presentations from Galaxy Day and a summary of the Hackathon are now available [online](http://www.france-bioinformatique.fr/?q=fr/galaxy-2) (click on "Archives Galaxy").
@@ -122,10 +122,10 @@ GCC2016 registration will open this month. The full training schedule will also 
 There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
-<a href='http://www.bioplatforms.com/current-training-courses/'><img src="/src/images/logos/BioplatformsAustralia.png" alt="Galaxy Training from Bioplatforms Australia and Intersect" height="40" /></a>
-<a href='http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf'><img src="/src/images/logos/BioinformaticsBarcelona.jpg" alt="Galaxy Session at III Bioinformatics and Computational Biology Symposium" height="80" /></a>&nbsp;
-<a href='/events/asu2016/'><img src="/src/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" height="60" /></a>&nbsp;
-<a href='/events/pag2016/'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="90" /></a>
+<a href='http://www.bioplatforms.com/current-training-courses/'><img src="/images/logos/BioplatformsAustralia.png" alt="Galaxy Training from Bioplatforms Australia and Intersect" height="40" /></a>
+<a href='http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf'><img src="/images/logos/BioinformaticsBarcelona.jpg" alt="Galaxy Session at III Bioinformatics and Computational Biology Symposium" height="80" /></a>&nbsp;
+<a href='/events/asu2016/'><img src="/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" height="60" /></a>&nbsp;
+<a href='/events/pag2016/'><img src="/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="90" /></a>
 </div>
 
 <table>
@@ -220,7 +220,7 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
@@ -230,7 +230,7 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
 
 # Who's Hiring
 
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -253,7 +253,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Galaxy Integrated Omics (GIO)
 
-<div class='right solid'><a href='http://gio.sbcs.qmul.ac.uk/'><img src="/src/use/galaxy-integrated-omics-gio/gio-logo.png" alt="Galaxy Integrated Omics (GIO)" width="200" /></a></div>
+<div class='right solid'><a href='http://gio.sbcs.qmul.ac.uk/'><img src="/use/galaxy-integrated-omics-gio/gio-logo.png" alt="Galaxy Integrated Omics (GIO)" width="200" /></a></div>
 
 * *Link:*
   * [GIO Server](http://gio.sbcs.qmul.ac.uk/)
@@ -274,7 +274,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## RNA-Seq Portal
 
-<div class='right solid'><a href='http://weizhongli-lab.org/RNA-seq/'><img src="/src/public-galaxy-servers/archive/rna-seq-portal.png" alt="RNA-Seq Portal - Analyzing RNA-seq Data for Agricultural Animal Species" width="300" /></a></div>
+<div class='right solid'><a href='http://weizhongli-lab.org/RNA-seq/'><img src="/public-galaxy-servers/archive/rna-seq-portal.png" alt="RNA-Seq Portal - Analyzing RNA-seq Data for Agricultural Animal Species" width="300" /></a></div>
 
 * *Links:*
   * [RNA-Seq Portal](http://weizhongli-lab.org/RNA-seq/)
@@ -301,7 +301,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Releases
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/logos/PlanemoLogo.png" alt="" width="150" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/images/logos/PlanemoLogo.png" alt="" width="150" /></a></div>
 
 ## Planemo 0.19.0 - 0.21.1
 
@@ -311,7 +311,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 ## Other Releases
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
  **[July 2015 Galaxy Release (v 15.07)](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)**
    [Galaxy Release v 15.07](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html) includes enhancements to Interactive Environments and the Workflow Editor, an update of the Policies for Committers and Pull Requests and [much more](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html).<br /><br />
@@ -323,7 +323,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
  **Mid 2015 Galaxy CloudMan Release**
 
-<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
 <div class='indent'>
    This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/cloudman/getting-started/) documentation. 
@@ -356,9 +356,9 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
@@ -370,7 +370,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 <br />
 
 ----
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

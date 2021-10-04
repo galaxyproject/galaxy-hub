@@ -4,7 +4,7 @@ tease: "GCC2019 is here! (And other new stuff too)"
 date: "2019-06-28"
 ---
 
-[<img class="float-right" src="/src/news/2019-07-galaxy-update/2019-07-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
+[<img class="float-right" src="/news/2019-07-galaxy-update/2019-07-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *July 2019 Galactic News* is here!
 
@@ -23,7 +23,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # GCC2019 is here!
 
-[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
+[<img class="float-right" style="max-width: 300px" src="/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
 
 **The [2019 Galaxy Community Conference](/events/gcc2019/) starts on Monday, 1 July.**  *And we are all very excited, dang it!*
 
@@ -207,7 +207,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 ## OpenMinTeD: Open Mining Infrastructure for Text & Data
 
-<img class="float-right" style="max-width: 300px" src="/src/use/archive/openminted/OpenMINTED_Tag_Color.png" alt="GCC2019" />
+<img class="float-right" style="max-width: 300px" src="/use/archive/openminted/OpenMINTED_Tag_Color.png" alt="GCC2019" />
 
 [OpenMinTeD](http://openminted.eu) is dedicated to offering advanced high-quality TDM-related services to researchers, TDM experts, SMEs and industry – anyone interested in making sense and extracting hidden knowledge from the huge bulks of scientific and scholarly content. Galaxy is used to build and execute workflows on the platform. Sign in to [the platform](https://services.openminted.eu), choose *Add* in the menu and then *Applications*. Then choose *Build an application with existing components* to access the Galaxy-based workflow editor. To run a workflow use the *Process* menu item.
 
@@ -228,7 +228,7 @@ Platforms that were referenced at least twice in the past month's publications:
 
 # Who's Hiring
 
-<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
@@ -247,7 +247,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # Doc, Hub, and Training Updates
 
-[<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
+[<img class="float-right img-responsive" style="max-width: 15em;" src="/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
 
 **Updates from the [Galaxy Training Materials](https://training.galaxyproject.org/):**
 
@@ -261,7 +261,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 # ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in June 2019](/toolshed/contributions/2019-06/).
 
@@ -275,7 +275,7 @@ The May 2019 Galaxy release comes with [additional user-facing release notes](ht
 
 ## Pulsar 0.13.0
 
-[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+[<img class="float-right" src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 [Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 

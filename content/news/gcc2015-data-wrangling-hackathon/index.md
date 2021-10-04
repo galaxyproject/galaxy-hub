@@ -2,7 +2,7 @@
 title: "Galaxy Data Wrangling Hackathon"
 date: "2015-05-08"
 ---
-<div class='center'><a href='http://gcc2015.tsl.ac.uk/data-hackathon/'><img src="/src/images/logos/GCC2015DataHack400.png" alt="Galaxy Data Wrangling Hackathon @ GCC2015" /></a>
+<div class='center'><a href='http://gcc2015.tsl.ac.uk/data-hackathon/'><img src="/images/logos/GCC2015DataHack400.png" alt="Galaxy Data Wrangling Hackathon @ GCC2015" /></a>
 <br /><br />
 <span style="font-size: larger;"> **Love Galaxy? **</span>
 <br /><br />

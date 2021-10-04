@@ -8,7 +8,7 @@ GCCBOSC will be bigger than any BOSC or GCC before it.  This creates more opport
 
 ## The details
 
-[<img class="float-right" src="/src/images/logos/advanced-hpc-logo.png" alt="Advanced HPC" width="300" />](https://www.advancedhpc.com/industries/life-sciences/)
+[<img class="float-right" src="/images/logos/advanced-hpc-logo.png" alt="Advanced HPC" width="300" />](https://www.advancedhpc.com/industries/life-sciences/)
 
 When you check in you'll be given a sheet with ~15 questions on it.  Each question will require you to find a fellow GCCBOSC 2018 participant who meets a certain requirement.  *Everyone's sheet will have a mix of easy to difficult questions, and each sheet will have a different set of questions.*  Some examples:
 
@@ -22,7 +22,7 @@ Sheets are due before the last session starts on Thursday afternoon.  At the con
 
 ## Drum roll please ...
 
-[<img class="float-right" src="/src/events/gccbosc2018/icebreaker/rift.jpg" alt="Oculus Rift virtual reality system provided by Advanced HPC" width="200" />](https://www.oculus.com/rift/)
+[<img class="float-right" src="/events/gccbosc2018/icebreaker/rift.jpg" alt="Oculus Rift virtual reality system provided by Advanced HPC" width="200" />](https://www.oculus.com/rift/)
 
 **Thanks to a sponsorship from [Advanced HPC](https://www.advancedhpc.com/industries/life-sciences/)** the selected winner will receive **a brand new [Oculus Rift virtual reality system](https://www.oculus.com/rift/).***
 

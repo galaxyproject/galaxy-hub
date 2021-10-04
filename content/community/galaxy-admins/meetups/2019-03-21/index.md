@@ -5,9 +5,9 @@ date: '2019-03-21'
 ---
 
 <div class="float-right">
-[<img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" alt="GalaxyAdmins" style="max-width: 200px" />](/community/galaxy-admins/) <br /><br />
-[<img src="/src/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" style="max-width: 200px" />](https://kubernetes.io/) <br/><br />
-[<img class="float-right" src="/src/blog/2018-08-cotm-pablo-moreno/pablo-moreno.jpg" alt="Pablo Moreno" style="max-width: 150px" />](/blog/2018-08-cotm-pablo-moreno/)
+[<img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" alt="GalaxyAdmins" style="max-width: 200px" />](/community/galaxy-admins/) <br /><br />
+[<img src="/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" style="max-width: 200px" />](https://kubernetes.io/) <br/><br />
+[<img class="float-right" src="/blog/2018-08-cotm-pablo-moreno/pablo-moreno.jpg" alt="Pablo Moreno" style="max-width: 150px" />](/blog/2018-08-cotm-pablo-moreno/)
 </div>
 
 * **Date:** 21 March 2019, 15:00 GMT (see your [local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+2019+GalaxyAdmins+Meetup&iso=20190321T15&p1=1234&ah=1))

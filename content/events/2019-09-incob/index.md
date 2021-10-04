@@ -12,7 +12,7 @@ image: "/src/events/2019-09-incob/incob-logo-square.jpeg"
 gtn: true
 ---
 
-[<img class="float-left" style="max-width: 10rem" src="/src/images/logos/GalaxyAustralia.png" alt="Galaxy Australia" />](https://www.embl-abr.org.au/galaxyaustralia/)
+[<img class="float-left" style="max-width: 10rem" src="/images/logos/GalaxyAustralia.png" alt="Galaxy Australia" />](https://www.embl-abr.org.au/galaxyaustralia/)
 
 Galaxy, and especially the [Galaxy Australia community](https://www.embl-abr.org.au/galaxyaustralia/) will have a strong presence at [INCOB 2019](http://incob2019.org/) in Jakarta.  There will be an [Introduction to Galaxy workshop](http://incob2019.org/workshop2/) and a conference talk about the Galaxy Australia platform.  In addition, we will be holding a breakout session on Thursday morning about *[Building a regional Galaxy Community and Platform](http://incob2019.org/breakout-session/)*.
 

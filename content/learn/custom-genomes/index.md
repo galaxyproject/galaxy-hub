@@ -86,7 +86,7 @@ If a custom genome dataset is producing errors, double check the format and that
 ### 1. Custom genome not assigned as <a href='/learn/datatypes/#fasta'>FASTA</a> format
   * **Symptoms include**: Dataset not included in custom genome pull down menu on tool forms.
   * **Solution**: Check datatype assigned to dataset and assign **fasta** format.
-  * **How**: Click on the dataset's pencil icon <img src="/src/images/icons/pencil.png" /> to reach the "Edit Attributes" page, and in the <a href='/learn/datatypes/'>datatypes</a> section, type in "fasta", and save.
+  * **How**: Click on the dataset's pencil icon <img src="/images/icons/pencil.png" /> to reach the "Edit Attributes" page, and in the <a href='/learn/datatypes/'>datatypes</a> section, type in "fasta", and save.
 
 ### 2. Incomplete Custom genome file load
   * **Symptoms include**: Tool errors result the first time you use the Custom genome.

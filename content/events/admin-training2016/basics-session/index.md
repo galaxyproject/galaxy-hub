@@ -208,7 +208,7 @@ This two day workshop will cover the big picture, and installation, configuratio
 
 
 <div class='right'><br />
-<a href='http://www.slcpl.lib.ut.us/branches/view/Main+Library'><img src="/src/events/admin-training2016/SLCLibrary1.jpg" alt="alt Lake City Main Public Library, the venue for the introduction workshop"  /></a>
+<a href='http://www.slcpl.lib.ut.us/branches/view/Main+Library'><img src="/events/admin-training2016/SLCLibrary1.jpg" alt="alt Lake City Main Public Library, the venue for the introduction workshop"  /></a>
 </div>
 
 ## Venue

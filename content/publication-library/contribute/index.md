@@ -3,7 +3,7 @@ title: "Contribute to the Galaxy Publication Library"
 ---
 
 <div class="float-right">
-[<img src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" />](https://www.zotero.org/groups/galaxy)
+[<img src="/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" />](https://www.zotero.org/groups/galaxy)
 </div>
 
 It takes a fair amount of work to keep track of publications that reference

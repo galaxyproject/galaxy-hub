@@ -14,13 +14,13 @@ date: 2011-11-18
 
 ## News & Events
 
-<div class='left'><a href='/galaxy-is-hiring/'><img src="/src/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
+<div class='left'><a href='/galaxy-is-hiring/'><img src="/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
 * Keep current on all things Galaxy at our [News](/news/) and [Events](/events/) wikis.
 * Galaxy is still [hiring](/galaxy-is-hiring/)!
 
 ### GCC 2012 is Scheduled!
 
-<div class='right'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
+<div class='right'><a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="GCC 2012" width="180" /></a></div>
 
 **We are pleased to announce that the [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) has been scheduled for July 25-27 in Chicago, Illinois, United States.**  
 
@@ -149,7 +149,7 @@ There are two Tool Sheds supported by the core Galaxy team:
 
 ### Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 
 * Grid fixes: (a) make operation buttons work after refresh and (b) show message each time
 * Force absolute path when creating temporary directory used when importing histories. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/667](https://bitbucket.org/galaxy/galaxy-central/issue/667)

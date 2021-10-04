@@ -391,7 +391,7 @@ The last trend I want to highlight is about *Reproducibility*. Reproducibility h
 
 ## Publications per year
 
-[<img class="float-right" src="/src/blog/2017-10-5000-pubs/pubs-per-year.png" alt="Publications published in each year, as of 2017/10" width="200" />](/blog/2017-10-5000-pubs/pubs-per-year.png)
+[<img class="float-right" src="/blog/2017-10-5000-pubs/pubs-per-year.png" alt="Publications published in each year, as of 2017/10" width="200" />](/blog/2017-10-5000-pubs/pubs-per-year.png)
 
 **The number of publications that reference Galaxy each year has increased every year since the project started.**  It took [over three and a half years to reach 2,500 publications](/news/first2500-papers/) but only a little over two more years to add the next 2,500 publications.
 

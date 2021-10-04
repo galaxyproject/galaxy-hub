@@ -13,7 +13,7 @@ gtn: true
 tags: [ cofest ]
 ---
 
-<img class="float-right" style="max-width: 500px;" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>
+<img class="float-right" style="max-width: 500px;" src="/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>
 
 Every 3 months the Galaxy Training Network organises one day dedicated to the community! **May the 28th is the next community day** and here's what's going on:
 

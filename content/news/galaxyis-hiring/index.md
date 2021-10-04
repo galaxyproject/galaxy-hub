@@ -4,7 +4,7 @@ date: '2017-02-02'
 ---
 The Galaxy project currently has open positions in both the [Johns Hopkins University](http://jamestaylor.org/) and [Penn State](http://www.bx.psu.edu/~anton/) groups.
 
-<div class='right'><a href='http://www.bx.psu.edu/~anton/'><img src="/src/images/logos/PennStateLogo.jpg" alt="Opening at Penn State" width="200" /></a></div>
+<div class='right'><a href='http://www.bx.psu.edu/~anton/'><img src="/images/logos/PennStateLogo.jpg" alt="Opening at Penn State" width="200" /></a></div>
 **[Penn State](/community/Penn State/): System administrators/analysts**
 <br /><br />
 The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of Life Sciences](http://www.huck.psu.edu/) at [Penn State](http://psu.edu/) is currently recruiting system analysts/administrators with experience in building and maintaining complex performance compute environments. The areas of immediate need include:
@@ -19,7 +19,7 @@ The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of L
 A minimum of 5 year experience with UNIX/Linux system administration is required. Applicants should submit a CV and list of references to [gxyhiring AT galaxyproject DOT org](mailto:gxyhiring AT galaxyproject DOT org). 
 
 
-<div class='right'><a href='http://jamestaylor.org/joining/'><img src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Openings at Johns Hopkins University" width="200" /></a></div>
+<div class='right'><a href='http://jamestaylor.org/joining/'><img src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Openings at Johns Hopkins University" width="200" /></a></div>
 **[Johns Hopkins University](http://jamestaylor.org/): Software Engineers and Post-Docs**
 <br /><br />
 

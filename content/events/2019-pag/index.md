@@ -40,7 +40,7 @@ Galaxy will be at [Plant and Animal Genome XXVII (PAG 20189](http://www.intlpag.
 
 # Galaxy @ PAG 2019 Flier
 
-[<img class="float-right" src="/src/events/2019-pag/galaxy-at-pag-2019-flier-thumb.png" alt="download flier" />](https://depot.galaxyproject.org/hub/attachments/events/2019-pag/galaxy-at-pag-2019-flier.pdf)
+[<img class="float-right" src="/events/2019-pag/galaxy-at-pag-2019-flier-thumb.png" alt="download flier" />](https://depot.galaxyproject.org/hub/attachments/events/2019-pag/galaxy-at-pag-2019-flier.pdf)
 
 **Presentations that prominently feature Galaxy are shown in bold** and are highlighted in the [Galaxy @ PAG 2019 Flier](https://depot.galaxyproject.org/hub/attachments/events/2019-pag/galaxy-at-pag-2019-flier.pdf).
 

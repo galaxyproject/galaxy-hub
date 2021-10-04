@@ -3,7 +3,7 @@ title: "August 2014 Galaxy News"
 date: "2014-08-01"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-08/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
+<a href='/galaxy-updates/2014-08/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>
 
 The [August 2014 Galaxy Update Newsletter](/galaxy-updates/2014-08/) is out.  Here's a preview of what's inside:

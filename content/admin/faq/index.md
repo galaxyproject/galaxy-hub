@@ -127,5 +127,5 @@ The following alignment tools available in Galaxy enable this:
 
 ## Any other question
 
-<div class='left'><a href='/search/'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Search" width="150" /></a></div>
+<div class='left'><a href='/search/'><img src="/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Search" width="150" /></a></div>
 [Galaxy Search](/search/) searches all online Galaxy resources.  This includes this hub, the [Mailing Lists](/mailing-lists/), [Main](/main/), the [Tool Shed](/toolshed/), and the [Galaxy source code](https://github.com/galaxyproject/galaxy).

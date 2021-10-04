@@ -10,7 +10,7 @@ title: May 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
 Welcome to the May 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
 
@@ -73,7 +73,7 @@ You are strongly encouraged to review the [training](https://gcc16.sched.org/gri
 
 </div>
 
-<div class='left'><a href='https://docs.google.com/forms/d/1IbMoNcA6z31a8hvqjSdfQRIQ92wo-HxXvA5uk0UilnQ/viewform'><img src="/src/images/galaxy-logos/GalaxyScholarshipsBig.png" alt="Scholarships: Apply now" width="220" /></a></div>
+<div class='left'><a href='https://docs.google.com/forms/d/1IbMoNcA6z31a8hvqjSdfQRIQ92wo-HxXvA5uk0UilnQ/viewform'><img src="/images/galaxy-logos/GalaxyScholarshipsBig.png" alt="Scholarships: Apply now" width="220" /></a></div>
 
 We are pleased to offer [scholarships](https://docs.google.com/forms/d/1IbMoNcA6z31a8hvqjSdfQRIQ92wo-HxXvA5uk0UilnQ/viewform) for the [2016 Galaxy Community Conference](http://gcc2016.iu.edu/), being held in Bloomington, Indiana, United States, June 25-29.  Scholarships are available to students and post-docs in historically under-represented groups, and to those from or based in Low and Lower-Middle Income Economies, [as defined by the World Bank](http://bit.ly/1nO82wD).  If this describes you or one of your students then we hope to receive an application.
 
@@ -87,7 +87,7 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
 
 ### GigaScience
 
-<div class='right'><a href='http://gigascience.biomedcentral.com/'><img src="/src/images/logos/GigaScienceLogo.gif" alt="GigaScience" /></a>
+<div class='right'><a href='http://gigascience.biomedcentral.com/'><img src="/images/logos/GigaScienceLogo.gif" alt="GigaScience" /></a>
 </div>
 
 Please welcome the journal ***[GigaScience](http://gigascience.biomedcentral.com/)*** as a [GCC Silver Sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php) for the 4th year in a row.  *GigaScience* aims to revolutionize reproducibility of analyses, data dissemination, organization, understanding, and use. 
@@ -96,14 +96,14 @@ All accepted oral presentations are eligible for consideration for publication i
  
 ### GenomeWeb
 
-<div class='left'><a href='https://www.genomeweb.com/'><img src="/src/images/logos/GenomeWebLogo300.jpg" alt="GenomeWeb" width="250" /></a>
+<div class='left'><a href='https://www.genomeweb.com/'><img src="/images/logos/GenomeWebLogo300.jpg" alt="GenomeWeb" width="250" /></a>
 </div>
 
 Please welcome ***[GenomeWeb](https://www.genomeweb.com/)*** as a [GCC Silver Sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php) for the third year in a row.  *[GenomeWeb](https://www.genomeweb.com/)* is an independent online news organization that provides in-depth coverage of the scientific and economic ecosystem spurred by high-throughput genome sequencing. We are the leading information source for scientists, executives, and clinicians who use and develop advanced life science tools.
 
 ### EMC
 
-<div class='right'><a href='http://www.emergingtechsolutions.com/life-science'><img src="/src/images/logos/EMCLogo.png" alt="EMC" width="220" /></a>
+<div class='right'><a href='http://www.emergingtechsolutions.com/life-science'><img src="/images/logos/EMCLogo.png" alt="EMC" width="220" /></a>
 </div>
 
 Finally, we are delighted to have **[EMC](http://www.emergingtechsolutions.com/life-science)** again as a [GCC sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php) for the 4th time.  EMC is a Peta Sponsor for [both GCC2016 Hacakthons](https://web.archive.org/web/http://gcc2016.iu.edu/hacks/index.php).
@@ -114,7 +114,7 @@ Finally, we are delighted to have **[EMC](http://www.emergingtechsolutions.com/l
 
 # Upcoming Events
 
-<div class='right'><br /><a href='/events/asms2016/'><img src="/src/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" width="120" /></a></div>
+<div class='right'><br /><a href='/events/asms2016/'><img src="/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" width="120" /></a></div>
 
 ## Galaxy at ASMS 2016
 
@@ -124,7 +124,7 @@ Galaxy will have a [strong presence](/events/asms2016/) at the [64th ASMS Confer
 
 ## Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data
 
-<div class='left'><a href='https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/'><img src="/src/images/logos/UCDavisGenomeCenter_Bioinf.png" alt="Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data" width="200" /></a>
+<div class='left'><a href='https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/'><img src="/images/logos/UCDavisGenomeCenter_Bioinf.png" alt="Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data" width="200" /></a>
 </div>
 
 The [UC Davis Bioinformatics Training Program](http://training.bioinformatics.ucdavis.edu/), a [GTN member](https://training.galaxyproject.org/), will be presenting the workshop **[Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data](https://registration.genomecenter.ucdavis.edu/events/June_2016_Bioinformatics_Galaxy_Workshop/)** on June 13-17, at UC Davis in Davis, California, United States.  
@@ -140,10 +140,10 @@ There are [a staggering 14 known Galaxy related events and presentations in May]
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='center'> 
-<a href='http://www.qfab.org/training/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
-<a href='http://www.canceropole-idf.fr/formation-ngs-rnaseq'><img src="/src/images/logos/Cancerpole_logo.jpg" alt="NGS & Cancer : Analyses RNA-Seq" height="70" /></a>
-<a href='https://www.molmed.nl/courses/CourseDetail.asp?backpage=courses.asp&courseID=1448'><img src="/src/images/logos/MolecularMedicinePostGraduateSchoolLogo.jpg" alt="RNA-Seq and DNA-Seq Cancer Analyses" height="70" /></a>
-<a href='http://bioinfo.genotoul.fr/index.php?id=10'><img src="/src/images/logos/GenoToulLogo.png" alt="Cycle d'aprentissage sous Galaxy" height="60" /></a>
+<a href='http://www.qfab.org/training/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
+<a href='http://www.canceropole-idf.fr/formation-ngs-rnaseq'><img src="/images/logos/Cancerpole_logo.jpg" alt="NGS & Cancer : Analyses RNA-Seq" height="70" /></a>
+<a href='https://www.molmed.nl/courses/CourseDetail.asp?backpage=courses.asp&courseID=1448'><img src="/images/logos/MolecularMedicinePostGraduateSchoolLogo.jpg" alt="RNA-Seq and DNA-Seq Cancer Analyses" height="70" /></a>
+<a href='http://bioinfo.genotoul.fr/index.php?id=10'><img src="/images/logos/GenoToulLogo.png" alt="Cycle d'aprentissage sous Galaxy" height="60" /></a>
 </div>
 
 <table>
@@ -314,7 +314,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
@@ -325,14 +325,14 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 ## April GalaxyAdmins Slides & Video
 
 <div class='right'>
-<a href='/community/galaxy-admins/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a> 
+<a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a> 
 </div>
 
 [Slides and video](/community/galaxy-admins/meetups/2016-04-21/) from the [April 2016 GalaxyAdmins meetup are now available](/community/galaxy-admins/meetups/2016-04-21/). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201604_Admins_Portal.pdf)) and [John Chilton](/people/john-chilton/) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
 
 ## Conda Dependency Codefest Report
 
-<div class='left'><a href='https://github.com/galaxyproject/tools-iuc/issues/700'><img src="/src/images/logos/Conda_480.png" alt="Conda Dependencies Codefest" width="160" /></a>
+<div class='left'><a href='https://github.com/galaxyproject/tools-iuc/issues/700'><img src="/images/logos/Conda_480.png" alt="Conda Dependencies Codefest" width="160" /></a>
 </div>
 
 A [Conda Dependencies Dodefest](https://github.com/galaxyproject/tools-iuc/issues/700) was held on Monday April 4, and involved 8 participants.  It was designed to be beginner friendly, which increased contribution from the community. 4 members of the galaxy community were [added as contributors](https://github.com/bioconda/bioconda-recipes/issues/1#issuecomment-205241333) to the [bioconda-recipe repository](https://github.com/bioconda/bioconda-recipes) as a result of this hackathon.  The main aim of the codefest was to get community members familiar with the Conda-Galaxy integration, and to remove tools from testing blacklist. See the [full codefest report](/news/conda-dependency-codefest-report/) for details.
@@ -454,7 +454,7 @@ The new papers were tagged with:
 
 # New Tutorials and Video
 
-<div class='left'><a href='https://github.com/nekrut/galaxy/wiki/Diploid-variant-calling'><img src="/src/images/screenshots/AntonsDiploidVariantTutorial1.png" alt="Diploid variant calling" width="190" /></a></div>
+<div class='left'><a href='https://github.com/nekrut/galaxy/wiki/Diploid-variant-calling'><img src="/images/screenshots/AntonsDiploidVariantTutorial1.png" alt="Diploid variant calling" width="190" /></a></div>
 
 There are two new comprehensive online tutorials from [Anton Nekrutenko](/people/anton/):
 
@@ -462,7 +462,7 @@ There are two new comprehensive online tutorials from [Anton Nekrutenko](/people
 
 Variant calling is a complex field that was significantly propelled by advances in DNA sequencing and efforts of large scientific consortia such as the [1000 Genomes](http://www.1000genomes.org/). **[This tutorial](https://github.com/nekrut/galaxy/wiki/Diploid-variant-calling)** summarizes basic ideas central to Genotype and Variant calling. 
 
-<div class='right'><a href='https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq'><img src="/src/images/screenshots/AntonsRnaSeqTutorial1.png" alt="Reference based RNA seq" width="190" /></a></div>
+<div class='right'><a href='https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq'><img src="/images/screenshots/AntonsRnaSeqTutorial1.png" alt="Reference based RNA seq" width="190" /></a></div>
 
 Much of Galaxy-related features described in this tutorial have been developed by [Björn Grüning](/people/bjoern-gruening/) ([@bgruening](https://github.com/bgruening)) and configured by [Dave Bouvier](/people/dave-bouvier/) ([@davebx](https://github.com/davebx)).
 
@@ -480,7 +480,7 @@ Dataset collections help analyzing multiple datasets in just a few clicks. This 
 
 # Who's Hiring
 
-<div class='right'><br /><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><br /><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Galaxy Administrator & Developer](http://www.uni-freiburg.de/verwaltung/stellenboerse/?erf=y&stellenid=9693&layout=v4), University of Freiburg, Freiburg, Germany.
@@ -503,7 +503,7 @@ There are [two new publicly accessible Galaxy servers](/use/):
 
 ## MGEScan
 
-<div class='right solid'><a href='http://mgescan.readthedocs.org/en/latest/server.html'><img src="/src/use/archive/mgescan/mgescan-video-start.png" alt="MGEScan on Galaxy Workflow System" width="300px" /></a></div>
+<div class='right solid'><a href='http://mgescan.readthedocs.org/en/latest/server.html'><img src="/use/archive/mgescan/mgescan-video-start.png" alt="MGEScan on Galaxy Workflow System" width="300px" /></a></div>
 
 * *Link(s):*
   * [MGEScan on Galaxy Workflow System](http://mgescan.readthedocs.org/en/latest/server.html)
@@ -523,7 +523,7 @@ There are [two new publicly accessible Galaxy servers](/use/):
 
 ## Koslicki Lab
 
-<div class='right solid'><a href='http://math-galaxy.cgrb.oregonstate.edu:8080/'><img src="/src/images/logos/OregonStateU.jpg" alt="Koslicki Lab Server" height="200" /></a></div>
+<div class='right solid'><a href='http://math-galaxy.cgrb.oregonstate.edu:8080/'><img src="/images/logos/OregonStateU.jpg" alt="Koslicki Lab Server" height="200" /></a></div>
 
 * *Link:*
   * [Koslicki Lab Galaxy server](http://math-galaxy.cgrb.oregonstate.edu:8080/)
@@ -541,9 +541,9 @@ There are [two new publicly accessible Galaxy servers](/use/):
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/\'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/\'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
@@ -562,7 +562,7 @@ One new [training resource](https://training.galaxyproject.org/) was added in Ap
 
 # Releases
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/logos/PlanemoLogo.png" alt="" width="200" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/images/logos/PlanemoLogo.png" alt="" width="200" /></a></div>
 
 ## Planemo 0.24.2
 
@@ -580,7 +580,7 @@ See the [release history](http://planemo.readthedocs.org/en/latest/history.html#
 
 galaxy-lib is a subset of the Galaxy core code base designed to be used as a library. This subset has minimal dependencies and should be Python 3 compatible.  It's available from [GitHub](https://github.com/galaxyproject/galaxy-lib) and [PyPi](https://pypi.python.org/pypi/galaxy-lib).
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
 
 ## Pulsar 0.7.0
 
@@ -590,7 +590,7 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 **Galaxy v16.01**
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
 The [January 2016 (v16.01) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html) features
 
@@ -614,7 +614,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 **[CloudMan](/cloudman/) 16.03 **
 
-<div class='right'><a href='/cloudman/'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="180" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="180" /></a></div>
 
 **We just released an update to Galaxy CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
@@ -637,7 +637,7 @@ The first version of CloudBridge was released earlier this month and it comes wi
 **Starforge 0.1**
 
 <div class='right'>
-<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/src/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
+<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
 </div>
 
 [Starforge](https://github.com/galaxyproject/starforge/blob/master/README.rst) is a collection of scripts that supports the building of components for Galaxy.  Specifically, with Starforge you can:
@@ -662,7 +662,7 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

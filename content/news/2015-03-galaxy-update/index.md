@@ -3,7 +3,7 @@ title: "The March 2015 Galaxy News"
 date: "2015-03-02"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-03/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="The March 2015 News" width=150 /></a><br /><br />
+<a href='/galaxy-updates/2015-03/'><img src="/images/logos/GalaxyUpdate200.png" alt="The March 2015 News" width=150 /></a><br /><br />
 </div>
 
 As always, it's [a busy time in the Galaxy](/galaxy-updates/2015-03/).   The [March 2015 Galaxy News](/galaxy-updates/2015-03/) is out, and it's chock full of information.  Here are some of the highlights.
@@ -16,7 +16,7 @@ A [refresh of UseGalaxy.org](/galaxy-updates/2015-03/#usegalaxyorg-update) is un
 **[2015 Galaxy Community Conference (GCC2015)](/galaxy-updates/2015-03/#gcc2015-6-8-july-norwich-uk)**
 
 <div class='right'>
-<a href='/galaxy-updates/2015-03/#gcc2015-6-8-july-norwich-uk'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
+<a href='/galaxy-updates/2015-03/#gcc2015-6-8-july-norwich-uk'><img src="/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
 </div>
 
 The event schedule for GCC2015 has been released, and it features a few new events as well as all of the familiar ones:

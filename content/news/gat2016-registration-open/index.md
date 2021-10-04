@@ -3,7 +3,7 @@ title: "Galaxy Admin Training, Nov 7-11"
 date: "2016-08-23"
 ---
 <div class='right solid center'>
-<a href='/events/admin-training2016/'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />
+<a href='/events/admin-training2016/'><img src="/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />
 November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Registration is open](/events/admin-training2016/registration/) 
 </div>
 
@@ -24,10 +24,10 @@ The three day [advanced session](/events/admin-training2016/advanced-session/) w
 <br />
 
 <div class='center'>
-<a href='http://www.chpc.utah.edu'><img src="/src/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a> &nbsp; 
-<a href='http://healthsciences.utah.edu/'><img src="/src/images/logos/UUtahHealthSciences.png" alt="University of Utah" height="90" /></a> 
-<a href='http://medicine.utah.edu/dbmi/'><img src="/src/images/logos/UUtahDBMI.png" alt="University of Utah Department of Biomedical Informatics" width="220" /></a>
-<a href='http://medicine.utah.edu/ccts/bmic/'><img src="/src/images/logos/UUtahCCTS_BMIC.png" alt="University of Utah Clinical & Translational Science Biomedical Informatics Core (CCTS BMIC)" width="220" /></a>
+<a href='http://www.chpc.utah.edu'><img src="/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a> &nbsp; 
+<a href='http://healthsciences.utah.edu/'><img src="/images/logos/UUtahHealthSciences.png" alt="University of Utah" height="90" /></a> 
+<a href='http://medicine.utah.edu/dbmi/'><img src="/images/logos/UUtahDBMI.png" alt="University of Utah Department of Biomedical Informatics" width="220" /></a>
+<a href='http://medicine.utah.edu/ccts/bmic/'><img src="/images/logos/UUtahCCTS_BMIC.png" alt="University of Utah Clinical & Translational Science Biomedical Informatics Core (CCTS BMIC)" width="220" /></a>
 </div>
 
 Galaxy Admin Training 2016 is hosted by the [University of Utah Center for High Performance Computing (CHPC)](http://www.chpc.utah.edu/), the  [Department of Biomedical Informatics](http://medicine.utah.edu/dbmi/) and the [Clinical & Translational Science Biomedical Informatics Core (CCTS BMIC)](http://medicine.utah.edu/ccts/bmic/) at the [University of Utah](http://utah.edu).

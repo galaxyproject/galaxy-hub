@@ -2,7 +2,7 @@
 title: August 2017 Galaxy News
 ---
 <div class='right'>
-[<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 </div>
 
 Welcome to the August 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -11,7 +11,7 @@ Welcome to the August 2017 *[Galactic News](/galaxy-updates/)*, a summary of wha
 # GCC2018: Portland, Oregon, United States, June 25-30
 
 <div class="left">
-[<img src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="200" alt="GCC2018 will be colocated with BOSC 2018 in Portland, Oregon">](https://gccbosc2018.sched.com/)
+[<img src="/images/logos/gcc-bosc-2018-logo-300.png" width="200" alt="GCC2018 will be colocated with BOSC 2018 in Portland, Oregon">](https://gccbosc2018.sched.com/)
 </div>
 
 We are pleased to announce that the **2018 Galaxy Community Conference (GCC2018)** and the **[Bioinformatics Open Source Conference 2018 (BOSC2018)](https://www.open-bio.org/wiki/BOSC)** are [joining together for a unified event](https://gccbosc2018.sched.com/) to be held in Portland, Oregon, United States, June 25-30, 2018.  The event will feature two days of training, a two day meeting, and finish with two days of intense collaboration at the [OBF Codefest](https://www.open-bio.org/wiki/Codefest), and Hack the Galaxy: Dev and Data.  The meeting will feature joint and parallel sessions, and shared keynotes, poster and demo sessions, and social events.  Colocating GCC and BOSC will bring together the widest possible community of bioinformatics developers and practitioners into a single place.  At this event the whole will be greater than the sum of the parts.
@@ -21,10 +21,10 @@ The event is organized by [Oregon Health & Science University (OHSU)](https://ww
 
 # GCC2017 is Done!
 
-<div class="right">[<img src="/src/images/news-graphics/gcc2017-group-photo.jpg" alt='2017 Galaxy Community Conference (GCC2017)' width="160" />](https://gcc2017.sciencesconf.org/)
+<div class="right">[<img src="/images/news-graphics/gcc2017-group-photo.jpg" alt='2017 Galaxy Community Conference (GCC2017)' width="160" />](https://gcc2017.sciencesconf.org/)
 <br />
 [Photo](https://www.flickr.com/photos/134305289@N03/34817510423/in/album-72157685584858176/): [Bérénice Batut](https://www.flickr.com/photos/134305289@N03/albums/72157685584858176)<br /><br />
-[<img src="/src/images/logos/F1000research-logo.jpg" alt='GCC2017 writeup at F1000' width="160" />](https://blog.f1000.com/2017/07/31/intergalactique-the-galaxy-community-conference-2017/)
+[<img src="/images/logos/F1000research-logo.jpg" alt='GCC2017 writeup at F1000' width="160" />](https://blog.f1000.com/2017/07/31/intergalactique-the-galaxy-community-conference-2017/)
 </div>
 
 GCC2017 was held 26-30 June in [Montpellier, France](https://gcc2017.sciencesconf.org/page/location). The eighth global gathering of the Galaxy community featured two days of *[Hack the Galaxy](https://schd.ws/hosted_files/gcc2017/ea/S8_L8-9_gcc2017_hacks.pdf)*, [two days of training](https://gcc2017.sched.com/overview/type/D.x+Training+-+All), and a [two day community conference](https://gcc2017.sched.com/overview/type/E.x+Conference+-+All). Most training materials, slides, and posters are [now available online](https://gcc2017.sched.com/). Slides and posters are also being uploaded to the [F1000 Galaxy Channel](https://f1000research.com/gateways/galaxy). Take a look.
@@ -35,11 +35,11 @@ Two summaries of GCC2017 are available online:
 * [Trip Blog](https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/), by [Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/), Research Scientist specialising in microbial genomics, [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/).
 
 <div class="left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/events/2017-sacnas/) <br /><br />
-[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="150" />](https://software-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="150" />](https://data-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="150" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="150" />](/)
+[<img src="/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/events/2017-sacnas/) <br /><br />
+[<img src="/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="150" />](https://software-carpentry.org/)<br /><br />
+[<img src="/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="150" />](https://data-carpentry.org/)<br /><br />
+[<img src="/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="150" />](https://www.cyverse.org/)<br /><br />
+[<img src="/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="150" />](/)
 </div>
 
 # Galaxy (and CyVerse and the Carpentries) at 2017 SACNAS Meeting
@@ -61,7 +61,7 @@ Both workshops are held October 18, the day before SACNAS starts.
 # Galaxy @ ISMB/ECCB/BOSC 2017: Slides and posters are available
 
 <div class="right">
-[<img src="/src/images/logos/ismb-2017.png" alt="Galaxy at ISMB/ECCB/BOSC 2017Slides and posters" width="120" />](/events/2017-ismb-bosc/))
+[<img src="/images/logos/ismb-2017.png" alt="Galaxy at ISMB/ECCB/BOSC 2017Slides and posters" width="120" />](/events/2017-ismb-bosc/))
 </div>
 
 If you missed all the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/events/2017-ismb-bosc/) then don't, um, fret!  Most slides and posters are [available online](/events/2017-ismb-bosc/))
@@ -226,7 +226,7 @@ Some highlights from the recently added publications:
 
 # Who's Hiring
 
-<div class='right'>[<img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" />]</div>
+<div class='right'>[<img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" />]</div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -272,9 +272,9 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 <table class="table">
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
@@ -294,7 +294,7 @@ No new resources were added to community directories in January or February.
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions from June and July](/toolshed/contributions/2017-07/).
 
@@ -316,7 +316,7 @@ This project was initiated during the [Swiss-Germany Galaxy Days](https://galaxy
 
 ## Planemo 0.41.0 - 0.44.0
 
-<div class='right'>[<img src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)</div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -345,9 +345,9 @@ Other packages that have been released in the prior 4 months.
 ### May 2017 Galaxy Release (v 17.05)
 
 <div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
-<a href="https://vimeo.com/216884518"><img src="/src/images/news-graphics/dataset-tagging-17-05.png" alt="Tag your datasets to keep track of where computed datasets came from" width="200" /></a><br /># Tags are propogated<br />in histories<br /><br />
-<a href="https://depot.galaxyproject.org/hub/attachments/documents/videos/dataset-drag-17-05.gif"><img src="/src/images/news-graphics/dataset-drag-17-05.png" alt='Drag and drop with Galaxy Histories and Tools' width="200" /></a><br />Drag and drop in Galaxy 17.05
+<a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href="https://vimeo.com/216884518"><img src="/images/news-graphics/dataset-tagging-17-05.png" alt="Tag your datasets to keep track of where computed datasets came from" width="200" /></a><br /># Tags are propogated<br />in histories<br /><br />
+<a href="https://depot.galaxyproject.org/hub/attachments/documents/videos/dataset-drag-17-05.gif"><img src="/images/news-graphics/dataset-drag-17-05.png" alt='Drag and drop with Galaxy Histories and Tools' width="200" /></a><br />Drag and drop in Galaxy 17.05
 </div>
 
 The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) published the **[17.05 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.05_announce.html)** in May.
@@ -419,7 +419,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-<div class="right">[<img src="/src/images/news-graphics/tacc-mining-cancer-data-thumb.png" alt="Mining cancer data for treatment clues">](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues)</div>
+<div class="right">[<img src="/images/news-graphics/tacc-mining-cancer-data-thumb.png" alt="Mining cancer data for treatment clues">](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues)</div>
 
 * [Mining cancer data for treatment clues](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues): Cancer genomics researchers rely on TACC supercomputers to help identify risk factors and classify tumors
 * [Five years of Galaxy-P!](https://twitter.com/usegalaxyp/status/888157211612110849)

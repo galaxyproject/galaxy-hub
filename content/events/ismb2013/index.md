@@ -1,7 +1,7 @@
 <div class='center'>
-<a href='http://www.open-bio.org/wiki/BOSC_2013'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2013" width="120" /></a>&nbsp;&nbsp;&nbsp;
-<a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'><img src="/src/images/logos/MSSIG2013Logo.jpg" alt="MS SIG 2013: Beyond the Proteomics" width="110" /></a>&nbsp;&nbsp;&nbsp;
-<a href='http://www.iscb.org/ismbeccb2013'><img src="/src/images/logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="100" /></a>
+<a href='http://www.open-bio.org/wiki/BOSC_2013'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2013" width="120" /></a>&nbsp;&nbsp;&nbsp;
+<a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'><img src="/images/logos/MSSIG2013Logo.jpg" alt="MS SIG 2013: Beyond the Proteomics" width="110" /></a>&nbsp;&nbsp;&nbsp;
+<a href='http://www.iscb.org/ismbeccb2013'><img src="/images/logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="100" /></a>
 
 # Galaxy at ISMB/ECCB, BOSC, and MS SIG 2013
 

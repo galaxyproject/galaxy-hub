@@ -2,7 +2,7 @@
 title: "GCC2015 Training Day Topic Nominations"
 date: "2014-12-09"
 ---
-<div class='right'><a href='http://gcc2015.tsl.ac.uk/training-day/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Training Day" width="170" /></a></div>
+<div class='right'><a href='http://gcc2015.tsl.ac.uk/training-day/'><img src="/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Training Day" width="170" /></a></div>
 
 <table>
   <tr>

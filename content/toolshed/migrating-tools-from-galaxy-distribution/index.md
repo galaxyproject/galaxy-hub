@@ -1,7 +1,7 @@
 ---
 title: Migrating tools from the Galaxy distribution to the Galaxy Main Tool Shed
 ---
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 
 
@@ -47,7 +47,7 @@ To show how this works, let's assume we have a local Galaxy instance with a tool
 
 Starting our Galaxy instance using the tool_conf.xml file above produces the following arrangement in our tool panel.
 
-<img src="/src/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_emboss.png" alt="" height="346" />
+<img src="/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_emboss.png" alt="" height="346" />
 
 Upgrading our Galaxy instance to the release in which the Emboss tools have been eliminated and then starting our Galaxy server produces the following message. Notice that even though over 130 Emboss tools were originally included in the Galaxy distribution, only those Emboss tools that we've defined in our tool_conf.xml file are listed as missing. If we had not defined any of the Emboss tools in our tool_conf.xml file, this message would not have been displayed, and our Galaxy server would have started normally.
 
@@ -82,7 +82,7 @@ emboss_extractfeat.xml
 
 Notice that the second paragraph tells us we can choose to not install the tools. If we restart our Galaxy server without installing the tools, the tools are not loaded into our tool panel since they are no longer available on disk.
 
-<img src="/src/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_sans_emboss.png" alt="" height="202" />
+<img src="/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_sans_emboss.png" alt="" height="202" />
 
 If, however, we perform the installation, this is what we'll see.
 

@@ -4,7 +4,7 @@ tease: "Apply by 8 December"
 date: "2019-11-08"
 ---
 
-[<img class="float-right" style="max-width: 16rem" src="/src/images/logos/open-life-science-logo.png" alt="Open Life Science Logo" />](https://openlifesci.org/)
+[<img class="float-right" style="max-width: 16rem" src="/images/logos/open-life-science-logo.png" alt="Open Life Science Logo" />](https://openlifesci.org/)
 
 The [Open Life Science program](https://openlifesci.org/) helps **early stage researchers and potential academic leaders** to become Open Life Science ambassadors.
 

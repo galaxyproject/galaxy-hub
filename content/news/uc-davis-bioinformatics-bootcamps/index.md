@@ -4,8 +4,8 @@ date: "2013-10-18"
 ---
 **Registration is now open for [Bioinformatics Bootcamps in December](https://training.bioinformatics.ucdavis.edu/bootcamps/)!**
 
-<div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/images/logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core"  /></a><br />
-&nbsp;<img src="/src/images/logos/galaxyLogoSymbol.png" alt="Galaxy" width="75" /></div>
+<div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/images/logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core"  /></a><br />
+&nbsp;<img src="/images/logos/galaxyLogoSymbol.png" alt="Galaxy" width="75" /></div>
 
 We’re excited to announce our [next offering of Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/), which will be held on the [UC Davis](http://www.ucdavis.edu/) campus December 10-13.  
 
@@ -25,7 +25,7 @@ These focused one-day courses are perfect for the student, postdoc, faculty, or 
 
 Daily instruction will run from 9am until 5pm. Lunch, light breakfast, and snacks will be provided. Enrollment for each bootcamp will be capped at 24 students. Please enroll early to be assured of a seat, as these bootcamps usually fill up quickly!  More information, including full descriptions of each bootcamp is [available online](https://training.bioinformatics.ucdavis.edu/bootcamps/).  The cost for each bootcamp is $200 (academic/government) or $250 (non-academic/industry).
 
-<div class='right'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/src/images/logos/UCDavisLogoSmall.gif" alt="UC Davis"  /></a></div>
+<div class='right'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/images/logos/UCDavisLogoSmall.gif" alt="UC Davis"  /></a></div>
 
 If you have any questions, please don’t hesitate to contact us:
 

@@ -8,7 +8,7 @@ date: "2020-12-08"
 <div class="card-header">In this issue:</div>
 <div class="card-body">
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 <ul style="font-size: 1.1rem;">
   <li>**[Event news](#event-news)**:
@@ -122,7 +122,7 @@ The first call of the Galaxy Metabolomics Community will be held on the 10th of 
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtable: Working Groups](/community/devroundtable/)</div>
 
 **10 December, Online**
@@ -135,7 +135,7 @@ There will be [one roundtable meetup this month](/events/2020-12-10-dev-roundtab
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2020-12-papercuts/papercuts-2020-12-slice.png" alt="Paper Cuts December" />
+<img class="card-img-top" src="/events/2020-12-papercuts/papercuts-2020-12-slice.png" alt="Paper Cuts December" />
 <div class="card-header">[December Papercuts CollaborationFest](/events/2020-12-papercuts/)</div>
 
 **17 December, Online**
@@ -147,7 +147,7 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 
 <!--Galaxy Admin Training -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
+<img class="card-img-top" src="/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
 <div class="card-header">[Galaxy Admin Training: January 2021](/events/2021-01-admin-training/)</div>
 
 **Application Deadline: 18 December**
@@ -158,7 +158,7 @@ Applications to attend the [2021 Galaxy Admin Training](/events/2021-01-admin-tr
 
 <!-- Tripal Codefest 2021 -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2021-01-tripal-codefest/tripal-codefest.png" alt="Tripal Codefest 2021" />
+<img class="card-img-top" src="/events/2021-01-tripal-codefest/tripal-codefest.png" alt="Tripal Codefest 2021" />
 <div class="card-header">[Tripal CodeFest 2021](http://tripal.info/events/codefest_2021)</div>
 
 **11-15 January, Online**
@@ -172,7 +172,7 @@ Applications to attend the [2021 Galaxy Admin Training](/events/2021-01-admin-tr
 
 <!-- GTN Smörgåsbord -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogo300.png" alt="GTN Smörgåsbord" />
+<img class="card-img-top" src="/images/galaxy-logos/GTNLogo300.png" alt="GTN Smörgåsbord" />
 <div class="card-header">[GTN Smörgåsbord: A Global Galaxy Course](https://shiltemann.github.io/global-galaxy-course/)</div>
 
 **15-19 February, Online; Register by 1 February**
@@ -195,7 +195,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">[CLIP-Explorer](/use/clip-explorer/)</div>
 
-<img class="card-img-top" src="/src/use/clip-explorer/logo_clipseq.png" alt="CLIP-Explorer" />
+<img class="card-img-top" src="/use/clip-explorer/logo_clipseq.png" alt="CLIP-Explorer" />
 
 The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a webserver hosted by the UseGalaxy.eu team to process, analyse and visualise CLIP-Seq data.
 </div>
@@ -207,7 +207,7 @@ The [CLIP-Explorer server](https://galaxyproject.org/use/clip-explorer/) is a we
 
 [GenAP](/use/genap/), a Galaxy provider for Canadian researchers has been awarded additional funds by [CANARIE](https://www.canarie.ca/l) to expand it's service. [Read more here](https://www.canarie.ca/to-spur-software-re-use-in-research-canarie-awards-up-to-3-4m-to-research-teams-to-evolve-their-platforms-for-use-by-other-researchers/).
 
-<img class="card-img-bottom" src="/src/use/genap/genap-logo-trans-250.png" alt="GenAP" />
+<img class="card-img-bottom" src="/use/genap/genap-logo-trans-250.png" alt="GenAP" />
 
 
 </div>
@@ -221,7 +221,7 @@ The [de.NBI-Cloud](https://www.denbi.de/cloud) has extended the support to the E
 
 If you have some special needs that we should consider in our next purchase, [let us know!](mailto:galaxy@informatik.uni-freiburg.de) And please consider growing the Galaxy computational resources with the funding leftovers of your group by the end of the year.
 
-<img class="card-img-bottom" src="/src/images/logos/deNBILogo.png" alt="de.NBI" />
+<img class="card-img-bottom" src="/images/logos/deNBILogo.png" alt="de.NBI" />
 
 </div>
 
@@ -230,7 +230,7 @@ If you have some special needs that we should consider in our next purchase, [le
 <div class="card border-info"  style="min-width: 11rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Wanna know what has happened in the last 5 years in the Freiburg Galaxy Team? [Here is the 5-years report!](https://docs.google.com/document/d/1qZjFADy3opMM5l6nEAMMeYzdf2gpBVCD0Kgglo8ZFj4/preview#)
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
@@ -274,7 +274,7 @@ By Peter Bickerton.
 
 _“I wanted to step away from the command line”_, Graham Etherington explains. _“It takes a long time and it causes confusion, whereas everybody knows how to use a web browser."_
 
-<img class="card-img-bottom" src="/src/images/logos/earlham-institute-logo-trans.png" alt="Earlham" />
+<img class="card-img-bottom" src="/images/logos/earlham-institute-logo-trans.png" alt="Earlham" />
 
 </div>
 
@@ -298,7 +298,7 @@ By Anne Fouilloux, Research Software Engineer at NeIC.
 
 This training covered modelling with _FATES_ (Functionally Assembled Terrestrial Ecosystem Simulator) for improving climate models using UseGalaxy.eu's Training Infrastructure as a Service (TIaaS) and funded by EOSC-Life.
 
-<img class="card-img-bottom" src="/src/images/logos/eosc_nordic.png" alt="EOSC-Nordic" />
+<img class="card-img-bottom" src="/images/logos/eosc_nordic.png" alt="EOSC-Nordic" />
 </div>
 
 </div>
@@ -472,7 +472,7 @@ Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins Un
 
 Data science research and education focusing on genomics ([AnVIL](https://anvilproject.org/), [Genomic Data Science Community Network](http://www.gdscn.org/)), cancer ([ITCR](https://itcr.cancer.gov/))  or pain [A2CPS](https://a2cps.org/).
 
-<img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
+<img class="card-img-bottom" src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
 </div>
 
 
@@ -488,7 +488,7 @@ Roche, Bay Area, California, United States.
 * Use these tools & workflows for R&D projects.
 * Deploy these tools on Roche intranet (Galaxy) and train scientists to use them.
 
-<img class="card-img-bottom" src="/src/images/logos/roche-logo.png" alt="Roche" />
+<img class="card-img-bottom" src="/images/logos/roche-logo.png" alt="Roche" />
 </div>
 
 
@@ -500,7 +500,7 @@ Johns Hopkins University, Baltimore, Maryland, United States.
 
 Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. 
 
-<img class="card-img-bottom" src="/src/images/logos/anvil-logo-text.png" alt="AnVIL" />
+<img class="card-img-bottom" src="/images/logos/anvil-logo-text.png" alt="AnVIL" />
 </div>
 
 
@@ -510,7 +510,7 @@ Provide technical expertise and oversight for the [AnVIL Project](http://anvilpr
 
 The Blankenberg Lab in the Genomic Medicine Institute at the Cleveland Clinic Lerner Research Institute is searching for Software Engineers and Postdoctoral Fellows. We utilize high-throughput omics technologies, such as Next-Generation Sequencing, and data-intensive computing to explore biomedical research questions.
 
-<img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
+<img class="card-img-bottom" src="/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
 </div>
 
 
@@ -522,7 +522,7 @@ A 3-year position of genomic data analyst is available to work within the "COlla
 
 The project is funded by the Institut National de Recherche sur le Cancer (INCA) and the Fight Kids Cancer programme. It involves 10 participant teams across France, with clinical or fundamental approaches.
 
-<img class="card-img-bottom" src="/src/use/mississippi/artbio-ibps-logo.png" alt="ARTbio" />
+<img class="card-img-bottom" src="/use/mississippi/artbio-ibps-logo.png" alt="ARTbio" />
 </div>
 
 
@@ -534,7 +534,7 @@ The Schatz Lab at Johns Hopkins University is looking for:
 * Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
 * Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 
-<img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
+<img class="card-img-bottom" src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
 </div>
 
 </div>
@@ -560,7 +560,7 @@ Features:
 * Simplified workflow submission form.
 * Accelerated batch job creation and workflow step scheduling.
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
+<img class="card-img-bottom" src="/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
 </div>
 
 
@@ -571,7 +571,7 @@ Features:
 
 [ELIXIR Belgium](https://www.elixir-belgium.org/), in collaboration with the European Galaxy project (de.NBI) and the [European COVID-19 Data Platform](https://www.covid19dataportal.org/), have developed a tool to simplify the submission of viral sequencing data to the [European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/browser/home), an ELIXIR Core Data Resource providing open access to nucleotide sequences. The new submission tool offers an easy-to-use interface, guides researchers through the submission process and verifies the data format and description. Read more in the [official ELIXIR press release](https://elixir-europe.org/news/ENA-new-tool-COVID-19-data).
 
-<a href="/src/images/news-graphics/ENA.jpeg"><img class="card-img-bottom" src="/src/images/news-graphics/ENA.jpeg" alt="ENA submission tool" /></a>
+<a href="/src/images/news-graphics/ENA.jpeg"><img class="card-img-bottom" src="/images/news-graphics/ENA.jpeg" alt="ENA submission tool" /></a>
 </div>
 
 
@@ -584,7 +584,7 @@ Good news for the imaging community! The [IDR Download tool](https://usegalaxy.e
 
 This is an important step towards the accessibility of bioimage data. Now, images stored in local OMERO databases that are not publicly available are accessible from either public or private Galaxy instances. Imaging facilities that are running their local instance and want to perform image analysis in Galaxy can directly benefit from this new feature.
 
-<a href="/src/images/screenshots/omero.png"><img class="card-img-bottom" src="/src/images/screenshots/omero.png" alt="OMERO upload tool" /></a>
+<a href="/src/images/screenshots/omero.png"><img class="card-img-bottom" src="/images/screenshots/omero.png" alt="OMERO upload tool" /></a>
 </div>
 
 
@@ -614,11 +614,11 @@ The Chan Zuckerberg Initiative's (CZI)  [Essential Open
 Source Software for
 Science](https://chanzuckerberg.com/rfa/essential-open-source-software-for-science/) (EOSS) program is [funding work to extend Galaxy](https://chanzuckerberg.com/eoss/proposals/extending-galaxy-for-large-scale-and-integrative-biomedical-analyses/).  See [the announcement for details](/news/2020-11-czi/).
 
-<img class="card-img-bottom" src="/src/images/logos/czi-320.png" alt="Chan Zuckerberg Initiative" />
+<img class="card-img-bottom" src="/images/logos/czi-320.png" alt="Chan Zuckerberg Initiative" />
 </div>
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
-<img class="card-img-top" src="/src/news/2020-10-jxtx-awardees/first-4.jpg" alt="David, Anoushka, Sumaira, and Georgia" />
+<img class="card-img-top" src="/news/2020-10-jxtx-awardees/first-4.jpg" alt="David, Anoushka, Sumaira, and Georgia" />
 <div class="card-header">JXTX Foundation Impact</div>
 
 The [JXTX Foundation](/srcjxtx/foundation/index.md) sponsored [10 graduate students](/news/2020-10-jxtx-awardees/) to attend the [2020 Biological Data Science Conference at Cold Spring Harbor Laboratory](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20).  The scholarships included connecting the recipients with prominent mentors in the field.  Here what the awardees have to say about this experience:

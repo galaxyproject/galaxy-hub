@@ -6,7 +6,7 @@ date: "2014-10-17"
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
-<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
 
 * [BioBlend.objects](http://bioinformatics.oxfordjournals.org/content/30/19/2816.abstract): enable email & password authorization
 * Enable ToolShed tar ball uploads

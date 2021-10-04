@@ -3,7 +3,7 @@ title: 'February 2018 News of the Galaxy!'
 tease: 'GCCBOSC Topic Voting (NOW!), Europe, Africa, blog, pubs, servers, jobs, ...'
 date: '2018-01-30'
 ---
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2018-02/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2018-02/)
 
 The [February 2018 Galaxy News](/galaxy-updates/2018-02/) is out!
 

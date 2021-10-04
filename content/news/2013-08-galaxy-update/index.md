@@ -2,7 +2,7 @@
 title: "August 2013 Galaxy Update"
 date: "2013-07-31"
 ---
-<div class='right'><a href='/galaxy-updates/2013-08/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="August 2013 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/2013-08/'><img src="/images/logos/GalaxyUpdate200.png" alt="August 2013 Galaxy Update" width=150 /></a></div>
 
 The [August 2013 Galaxy Update is now available](/galaxy-updates/2013-08/). 
 

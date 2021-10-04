@@ -4,7 +4,7 @@ tease: "See you in Portland this summer..."
 date: "2018-02-20"
 ---
 
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
 
 We are pleased to announce that abstract submission and early registration for [GCCBOSC2018](https://gccbosc2018.sched.com/) are now open.
 

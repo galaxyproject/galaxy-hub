@@ -3,9 +3,9 @@ title: GalaxyAdmins GCC2015 Meetup
 ---
 <slot name="/events/gcc2015/header" />
 
-<div class='left'><a href='/events/gcc2015/bofs/'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a>
+<div class='left'><a href='/events/gcc2015/bofs/'><img src="/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a>
 <br />
-<a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
+<a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
 
 [GalaxyAdmins](/community/galaxy-admins/) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/community/galaxy-admins/meetups/) and at events like [GCC2015](http://gcc2015.tsl.ac.uk/), where a lot of us happen to be.
 

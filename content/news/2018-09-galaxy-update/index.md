@@ -4,7 +4,7 @@ tease: 'New events, pubs, blog post, jobs, ...'
 date: "2018-09-13"
 ---
 
-[<img class="float-right" src="/src/news/2018-09-galaxy-update/2018-09-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/)
+[<img class="float-right" src="/news/2018-09-galaxy-update/2018-09-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/)
 
 The *September  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
@@ -33,11 +33,11 @@ As always, there is a lot going on in the Galaxy:
 ## 2018 SACNAS Pre-conference Workshops
 
 <div class="float-left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/events/2017-sacnas/) <br /><br />
-[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/)
+[<img src="/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/events/2017-sacnas/) <br /><br />
+[<img src="/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
+[<img src="/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
+[<img src="/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
+[<img src="/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/)
 </div>
 
 If you will be anywhere near San Antonio, Texas on October 10 then please consider participating in one of [these SACNAS preconference workshops](/events/2018-sacnas/).  You don't need to be registered for the [2018 SACNAS meeting](http://www.2018sacnas.org/) to attend.  Everyone is eligible and the workshops are free.
@@ -55,7 +55,7 @@ If you will be anywhere near San Antonio, Texas on October 10 then please consid
 
 ## European Galaxy Days, 19-20 November, Freiburg, Germany
 
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
+[<img class="float-right" src="/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
 
 **[European Galaxy Days](/events/2018-europe-dev/)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
 
@@ -216,7 +216,7 @@ Four *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)*
 
 # Who's Hiring
 
-<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -232,7 +232,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 # Contributor of the Month: Carrie Ganote
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/blog/)
 </div>
 
 There is one new *[Galactic Blog](/blog/)* entry:
@@ -247,7 +247,7 @@ There are [over 100 publicly accessible Galaxy servers](/use/) and [several Gala
 
 ## epiGeEC
 
-[<img class="float-right" src="/src/use/epigeec/epigeec-heatmap.png" alt="epiGeEC" style="max-width: 200px" />](https://epigeec.genap.ca/galaxy/)
+[<img class="float-right" src="/use/epigeec/epigeec-heatmap.png" alt="epiGeEC" style="max-width: 200px" />](https://epigeec.genap.ca/galaxy/)
 
 [epiGeEC](https://epigeec.genap.ca/galaxy/) compares user-provided epigenomic datasets with thousands of public datasets in a few minutes. It can also directly compare user’s datasets. This server is provided by the Genetics and genomics Analysis Platform (GenAP) project, thereby leveraging Compute Canada's advanced research computing infrastructure.  A [tutorial](https://epigeec.genap.ca/galaxy/) is available and anonymous access and account creation are both supported."
 
@@ -255,7 +255,7 @@ See the [epiGeEC directory entry](/use/epigeec/) for more.
 
 ## MetaCentrum - Czechia
 
-[<img class="float-left" src="/src/use/metacentrum/metacentrum-logo.png" alt="MetaCentrum" width="200px" />](/use/metacentrum/)
+[<img class="float-left" src="/use/metacentrum/metacentrum-logo.png" alt="MetaCentrum" width="200px" />](/use/metacentrum/)
 
 [MetaCentrum](https://galaxy.metacentrum.cz/) supports Galaxy instances on the Czech National Grid Infrastructure (NGI), that are available to employees and students of research and academic organizations of Czechia and for scientific purposes only. Use requires [registering for an account](https://metavo.metacentrum.cz/en/application/index.html).
 
@@ -288,7 +288,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in August 2018](/toolshed/contributions/2018-08/).
 
@@ -333,6 +333,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-[<img class="float-right" src="/src/images/logos/cell-organizer-logo.jpg" alt="CellOrganizer for Galaxy" width="180px" />](http://www.cellorganizer.org/docs/2.7.2/chapters/cellorganizer_for_galaxy.html)
+[<img class="float-right" src="/images/logos/cell-organizer-logo.jpg" alt="CellOrganizer for Galaxy" width="180px" />](http://www.cellorganizer.org/docs/2.7.2/chapters/cellorganizer_for_galaxy.html)
 
 * [CellOrganizer for Galaxy](http://www.cellorganizer.org/docs/2.7.2/chapters/cellorganizer_for_galaxy.html) is a set of tools that enables users to train generative models of the cell from microscopy images, analyze trained generative models, and synthesize instances using [CellOrganizer](http://www.cellorganizer.org/), a tool for learning and managing generative models of cell organization directly from images.

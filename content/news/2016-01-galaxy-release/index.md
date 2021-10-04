@@ -2,7 +2,7 @@
 title: "Jan 2016 Galaxy Release (v 16.01)"
 date: "2016-02-24"
 ---
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
  
 **See the [full release notes](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html).**
 

@@ -1,7 +1,7 @@
 ---
 title: May 2018 Galaxy News
 ---
-[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img class="float-left" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
 Welcome to the May 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -9,7 +9,7 @@ Welcome to the May 2018 *[Galactic News](/galaxy-updates/)*, a summary of what i
 
 # GCCBOSC 2018
 
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
 
 [GCCBOSC 2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. This brings the 2018 Galaxy Community Conference and the Bioinformatics Open Source Conference together into a unified week-long event. If you work in open source life science or data-intensive biomedical research, then there is no better place than GCCBOSC 2018 to present your work and to learn from others.
 
@@ -41,14 +41,14 @@ We are happy to have [sponsors](/events/gccbosc2018/sponsors/index.html) contrib
 
 ### GigaScience and Oxford University Press
 
-[<img class="float-left" src="/src/images/logos/gigascience-oup.png" alt="GigaScience, focusing on ‘big data’ research from the life and biomedical sciences." width="200" />](https://academic.oup.com/gigascience)
+[<img class="float-left" src="/images/logos/gigascience-oup.png" alt="GigaScience, focusing on ‘big data’ research from the life and biomedical sciences." width="200" />](https://academic.oup.com/gigascience)
 
 **[GigaScience](https://academic.oup.com/gigascience)** is an online open access, open data, open peer-review journal published by **[Oxford University Press](https://academic.oup.com/)** and **[BGI](https://www.bgi.com/us/)**. The journal offers ‘big data’ research from the life and biomedical sciences, and on top of 'Omics research includes the growing range of work that uses difficult-to-access large-scale data, such as imaging, neuroscience, ecology, systems biology, and other new types of shareable data. *GigaScience* is unique in the publishing industry as it publishes all research objects (data, software tools, source code, workflows, containers and other elements related to the work underpinning the findings in the article). Promoting Open Science, all published software needs to be under an OSI-license, all supporting data must be available and open, and all peer review is carried out transparently. Presenting workflows via our [GigaGalaxy.net](http://gigagalaxy.net/) server, novel work presented at the meeting utilising Galaxy is eligible to a 15% APC if it is submitted to our [Galaxy series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research).
 
 
 ### Advanced HPC
 
-[<img class="float-right" src="/src/images/logos/advanced-hpc-logo.png" alt="Advanced HPC" width="250" />](https://www.advancedhpc.com/industries/life-sciences/)
+[<img class="float-right" src="/images/logos/advanced-hpc-logo.png" alt="Advanced HPC" width="250" />](https://www.advancedhpc.com/industries/life-sciences/)
 
 Life sciences is an ideal domain to take full advantage of all the things that HPC technology can do. Universities, research organizations, and biotechnology companies are embracing predictive analytics, machine learning and artificial intelligence to make major gains in fighting cancer, personalizing medicine and regenerating organs. The technology is paying huge dividends. For example, research institutions that are using Illumina’s<sup>®</sup> DNA sequence and array-based technologies for genotyping and epigenetic applications are leveraging our compute and parallel solutions to get better and faster results.
 
@@ -59,7 +59,7 @@ Advanced HPC is pleased to be the first ever **[GCCBOSC Icebreaker](/events/gccb
 
 <div class="float-right">
 <br />
-[<img src="/src/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
+[<img src="/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
 ### Call for sponsors!
 
@@ -71,7 +71,7 @@ Advanced HPC is pleased to be the first ever **[GCCBOSC Icebreaker](/events/gccb
 
 **The [ELIXIR Workshop for Galaxy training material and skills improvement](http://www.earlham.ac.uk/elixir-workshop-galaxy-training-material-and-skills-improvement) will be held 21-23 May at the [Earlham Institute](http://www.earlham.ac.uk/) in Norwich, UK.**
 
-[<img class="float-right" src="/src/images/logos/ElixirNoTextLogo.png" width="140" />](http://www.earlham.ac.uk/elixir-workshop-galaxy-training-material-and-skills-improvement)
+[<img class="float-right" src="/images/logos/ElixirNoTextLogo.png" width="140" />](http://www.earlham.ac.uk/elixir-workshop-galaxy-training-material-and-skills-improvement)
 
 Education and training is an integral part of the Galaxy community. The Galaxy Training Network (GTN) has been working for several years with [GOBLET](http://www.mygoblet.org/) and the [ELIXIR Training Platform](https://www.elixir-europe.org/platforms/training) to create material and deliver training for scientists, developers and system administrators. A selection of 72 tutorials, developed by more than 60 contributors, is [already available](http://training.galaxyproject.org). 
 In this workshop, we intend to improve the participants’ understanding of learning principles, training techniques and best practices for materials preparation. **We will then work together to expand the existing collection of Galaxy training materials by covering more topics relevant to the ELIXIR use cases, add missing annotation and metadata and make the materials easily accessible.**
@@ -83,8 +83,8 @@ The workshop will start with a 1-day "Train the Trainer" course, similar to the 
 ## Galaxy Africa Report
 
 <div class="float-left">
-[<img src="/src/events/2018-04-galaxy-africa/galaxy-africa-logo.svg" alt="Galaxy Africa" height="100" />](http://galaxyafrica.sanbi.ac.za/) &nbsp;&nbsp;&nbsp;
-<img src="/src/events/2018-04-galaxy-africa/2018-galaxy-africa-participants.jpg" alt="44 participants, 13 speakers, 7 countries, 12 institutions, 3 days of amazing learning and discussion!" height="120" />
+[<img src="/events/2018-04-galaxy-africa/galaxy-africa-logo.svg" alt="Galaxy Africa" height="100" />](http://galaxyafrica.sanbi.ac.za/) &nbsp;&nbsp;&nbsp;
+<img src="/events/2018-04-galaxy-africa/2018-galaxy-africa-participants.jpg" alt="44 participants, 13 speakers, 7 countries, 12 institutions, 3 days of amazing learning and discussion!" height="120" />
 </div>
 
 The beginning of April saw a flocking of a large number of individuals interested in all things Galaxy to Cape Town! This exciting destination was home for the first ever [Galaxy Africa](http://galaxyafrica.sanbi.ac.za/) event that aimed to inform, educate, and bring together bioinformaticians, biologists, and computer scientists from around the African continent. Organized by [SANBI](http://www.sanbi.ac.za/) and held at the [University of the Western Cape](https://www.uwc.ac.za/), under the close eye of [Peter van Heusden](https://www.researchgate.net/profile/Peter_Van_Heusden), nearly 50 people participated in a packed schedule where everything from an introduction to Galaxy, training, analysis, experiences, and system management were covered. There were a number of BoF sessions as well to have open discussions and start future conversations. The week ended with a Data Carpentry R workshop event.
@@ -267,7 +267,7 @@ Alexander S. Kirpich, Miguel Ibarra, Oleksandr Moskalenko, Justin M. Fear, Josep
 ----
 # Who's Hiring
 
-<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Software Developer](https://jobs.quadram.ac.uk/Details.asp?vacancyID=13373) and [Bioinformaticians](https://jobs.quadram.ac.uk/Details.asp?vacancyID=13372), [Quadram Institute](http://www.quadram.ac.uk/), Norwich , United Kingdom
@@ -291,7 +291,7 @@ There are [over 100 publicly accessible Galaxy servers](/use/) and [six semi-pub
 
 ## IRProfiler
 
-<img class="float-right" src="/src/use/archive/irprofiler/irprofiler.gif" alt="IRProfiler" width="320" />
+<img class="float-right" src="/use/archive/irprofiler/irprofiler.gif" alt="IRProfiler" width="320" />
 
 [Immune Repertoire Profiler (IRProfiler)](http://irprofiler.med.auth.gr:8080/) is a novel software pipeline that delivers a number of core receptor repertoire quantification and comparison functionalities on high-throughput TR and BcR sequencing data. IRProfiler can be used anonymously or through an account.
 
@@ -317,7 +317,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in April](/toolshed/contributions/2018-04/).
 
@@ -331,7 +331,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 ## Starforge 0.3.6
 
-[<img class="float-right" src="/src/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" />](https://github.com/galaxyproject/starforge/blob/master/README.rst)
+[<img class="float-right" src="/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" />](https://github.com/galaxyproject/starforge/blob/master/README.rst)
 
 [Starforge](https://pypi.python.org/pypi/starforge) is a collection of scripts that supports the building of components for Galaxy.  Specifically, with Starforge you can:
 
@@ -351,7 +351,7 @@ Other packages released in the prior 4 months.
 ### 18.01 Galaxy Release
 
 <div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
 </div>
 
 The [18.01 release of Galaxy  is out](https://docs.galaxyproject.org/en/release_18.01/releases/18.01_announce.html ). Thanks to the [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) and you, our community!
@@ -410,7 +410,7 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 ### Planemo 0.48.0
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -418,7 +418,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 ### Pulsar 0.8.1-3
 
-[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+[<img class="float-right" src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 [Pulsar](https://pypi.python.org/pypi/pulsar-app/) updates were [released in February](https://github.com/galaxyproject/pulsar/blob/master/HISTORY.rst).  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 

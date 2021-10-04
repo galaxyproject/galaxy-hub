@@ -5,7 +5,7 @@ external_url: ""
 date: "2020-03-10"
 ---
 
-[<img class="float-right" src="/src/use/mississippi/mississippi-logo.png" alt="Mississippi" />](https://mississippi.sorbonne-universite.fr/)
+[<img class="float-right" src="/use/mississippi/mississippi-logo.png" alt="Mississippi" />](https://mississippi.sorbonne-universite.fr/)
 
 The new Mississippi [2] server is up and ready at
 https://mississippi.sorbonne-universite.fr. You can now register and upload you data here. Every tool installed in Mississippi [1] should be already installed in Mississippi [2]. We are still migrating some public libraries and reference genomes, let us know if you are missing some old buddies from the first Mississippi.

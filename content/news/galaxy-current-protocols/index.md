@@ -2,7 +2,7 @@
 title: "Two New Current Protocols Papers"
 date: "2012-06-18"
 ---
-<div class='right'><a href='http://cda.currentprotocols.com/WileyCDA/CurPro3Category/L1-1000.html'><img src="/src/images/logos/CurrentProtocolsLogo.png" alt="Current Protocols in Bioinformatics" width="300" /></a></div>
+<div class='right'><a href='http://cda.currentprotocols.com/WileyCDA/CurPro3Category/L1-1000.html'><img src="/images/logos/CurrentProtocolsLogo.png" alt="Current Protocols in Bioinformatics" width="300" /></a></div>
 
 Two new Galaxy-related papers are now available in [Current Protocols in Bioinformatics](http://cda.currentprotocols.com/WileyCDA/CurPro3Category/L1-1000.html):
 

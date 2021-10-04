@@ -6,7 +6,7 @@ title: Capacity Planning
 <table>
   <tr>
     <td style=" border: none;"> <div class='title'>Galaxy CloudMan <a href='/cloudman/'>CapacityPlanning</a> for Amazon Web Services</div> </td>
-    <td style=" border: none;"> <a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="http://aws.amazon.com/" /></a> </td>
+    <td style=" border: none;"> <a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="http://aws.amazon.com/" /></a> </td>
   </tr>
 </table>
 

@@ -10,7 +10,7 @@ As in past years, talks will cover a wide range of biology, bioinformatics, and 
 
 ## Day 0: Training Day, 30 June
 
-[<img class="float-left" src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" />](/events/gcc2013/training-day/)
+[<img class="float-left" src="/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" />](/events/gcc2013/training-day/)
 
 The [GCC2013 Training Day](/events/gcc2013/training-day/) will be Sunday, 30 June, and feature ~~four~~ *five* parallel tracks, each with three workshops, each of which are two hours long, for a total of ~~twelve~~ *fifteen* sessions on twelve different topics.  Sessions are evenly split between topics aimed at biological research, topics aimed at Galaxy deployers and developers, and those that are geared twoards both audiences.  The topics were nominated and selected by the Galaxy Community in early 2013. The increased number of parallel tracks and topics was driven by unexpected demand.
 
@@ -83,9 +83,9 @@ Workshops will be hands-on and participants will be strongly encouraged to bring
 ## Escape (to the) Pub!
 
 <div class='left'>
-<a href='http://www.flickr.com/photos/56091045@N08/5725698963/'><img src="/src/images/photos/Escape.jpg" alt="Escape Pub" width="150" /></a></div>
+<a href='http://www.flickr.com/photos/56091045@N08/5725698963/'><img src="/images/photos/Escape.jpg" alt="Escape Pub" width="150" /></a></div>
 <div class='right'>
-<a href='http://www.flickr.com/photos/56091045@N08/5725700035/'><img src="/src/images/photos/EscapeBar.jpg" alt="Bar @ Escape" width="150" /></a>
+<a href='http://www.flickr.com/photos/56091045@N08/5725700035/'><img src="/images/photos/EscapeBar.jpg" alt="Bar @ Escape" width="150" /></a>
 </div>
 
 The [Escape Pub](http://cyb.ifi.uio.no/kjeller/), in the Ole Johan Dahls House ([the conference venue](/events/gcc2013/logistics/)), *has been reserved on Sunday and Monday evening until 21:00*.  It's normally a student pub, and has what are quite possibly the least expensive beverages in Oslo.  If you are looking for a place to relax (or a particularly convivial evening [Birds of a Feather session](/events/gcc2013/bof/)), then please do drop in.  
@@ -163,7 +163,7 @@ The first day of the conference will feature [accepted talks](/events/gcc2013/ab
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 12:15 </td>
-            <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/BrownleyGalaxySlipStream.pdf'>Slides</a>, <a href='https://vimeo.com/74869438'>Vimeo</a></em><br /><a href='http://bioteam.net/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="90" /></a></div> <strong><em><a href='/events/gcc2013/abstracts/talks/#the-galaxy-slipstream-appliance-galaxy-made-easy'>The Galaxy SlipStream Appliance: Galaxy Made Easy</a></em></strong><br /><a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a><br /> Product Manager and Scientific Consultant, <a href='http://bioteam.net/'>BioTeam</a> <br /> Gold Sponsor Presentation </td>
+            <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'><em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/BrownleyGalaxySlipStream.pdf'>Slides</a>, <a href='https://vimeo.com/74869438'>Vimeo</a></em><br /><a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="90" /></a></div> <strong><em><a href='/events/gcc2013/abstracts/talks/#the-galaxy-slipstream-appliance-galaxy-made-easy'>The Galaxy SlipStream Appliance: Galaxy Made Easy</a></em></strong><br /><a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a><br /> Product Manager and Scientific Consultant, <a href='http://bioteam.net/'>BioTeam</a> <br /> Gold Sponsor Presentation </td>
           </tr>
 </table>
 
@@ -218,7 +218,7 @@ The first day of the conference will feature [accepted talks](/events/gcc2013/ab
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 15:50 </td>
             <td style=" text-align: center; border: none; width: 100%;"> <strong><em><a href='/events/gcc2013/abstracts/talks/#ion-torrent-semiconductor-sequencing-update'>Ion Torrent Semiconductor Sequencing Update</a></em></strong><br /><a href='/people/mike-lelivelt/'>Mike Lelivelt</a>, Ph.D.<br /> Director of Bioinformatics and Software Products, <a href='http://www.lifetechnologies.com/'>Ion Torrent, part of Life Technologies</a><br />Platinum Sponsor Presentation </td>
-            <td style=" vertical-align: top; text-align: right; border: none;"> &nbsp;<a href='http://www.lifetechnologies.com/'><img src="/src/images/logos/IonTorrentLogo320.png" alt="Ion Torrent" width="150" /></a> </td>
+            <td style=" vertical-align: top; text-align: right; border: none;"> &nbsp;<a href='http://www.lifetechnologies.com/'><img src="/images/logos/IonTorrentLogo320.png" alt="Ion Torrent" width="150" /></a> </td>
           </tr>
           <tr>
             <td rowspan=9 style=" vertical-align: top; text-align: right; border: none;"> 16:30 </td>
@@ -262,9 +262,9 @@ The first day of the conference will feature [accepted talks](/events/gcc2013/ab
 ## Escape (to the) Pub, Again!
 
 <div class='left'>
-<a href='http://www.flickr.com/photos/56091045@N08/5725698963/'><img src="/src/images/photos/Escape.jpg" alt="Escape Pub" width="150" /></a></div>
+<a href='http://www.flickr.com/photos/56091045@N08/5725698963/'><img src="/images/photos/Escape.jpg" alt="Escape Pub" width="150" /></a></div>
 <div class='right'>
-<a href='http://www.flickr.com/photos/56091045@N08/5725700035/'><img src="/src/images/photos/EscapeBar.jpg" alt="Bar @ Escape" width="150" /></a>
+<a href='http://www.flickr.com/photos/56091045@N08/5725700035/'><img src="/images/photos/EscapeBar.jpg" alt="Bar @ Escape" width="150" /></a>
 </div>
 
 The [Escape Pub](http://cyb.ifi.uio.no/kjeller/), in the Ole Johan Dahls House ([the conference venue](/events/gcc2013/logistics/)), *has been reserved on Sunday and Monday evening until 21:00*.  It's normally a student pub, and has what are quite possibly the least expensive beverages in Oslo.  If you are looking for a place to relax (or a particularly convivial evening [Birds of a Feather session](/events/gcc2013/bof/)), then please do drop in.  
@@ -346,7 +346,7 @@ The second and final day of the conference will feature  [accepted talks](/event
           </tr>
           <tr>
             <td style=" vertical-align: top; text-align: right; border: none;"> 12:10 </td>
-            <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/JoshiClinicalGalaxy.pdf'>Slides</a>, <a href='https://vimeo.com/74391527'>Vimeo</a></em><br />  <a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/events/gcc2013/abstracts/talks/#the-clinical-galaxy-a-validated-platform-initiative'>The Clinical Galaxy: A validated platform initiative</a></em></strong><br /><a href='/people/sanjay-joshi/'>Sanjay Joshi</a><br /> Chief Technical Officer (CTO), <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br />Gold Sponsor Presentation </td>
+            <td colspan=2 style=" text-align: center; border: none; width: 100%;"> <div class='right'> <em><a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/JoshiClinicalGalaxy.pdf'>Slides</a>, <a href='https://vimeo.com/74391527'>Vimeo</a></em><br />  <a href='http://www.emc.com/isilon'><img src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="150" /></a></div> <strong><em><a href='/events/gcc2013/abstracts/talks/#the-clinical-galaxy-a-validated-platform-initiative'>The Clinical Galaxy: A validated platform initiative</a></em></strong><br /><a href='/people/sanjay-joshi/'>Sanjay Joshi</a><br /> Chief Technical Officer (CTO), <a href='http://www.isilon.com/industry/lifesciences'>Life Sciences</a>, <a href='http://www.emc.com/isilon'>EMC Isilon</a> <br />Gold Sponsor Presentation </td>
           </tr>
 </table>
 
@@ -443,7 +443,7 @@ The second and final day of the conference will feature  [accepted talks](/event
   </tr>
   <tr>
     <th> 18:00 </th>
-    <td style=" text-align: center;"> <div class='left'><a href='http://www.sult.no/inenglish4.cfm'><img src="/src/events/gcc2013/program/SportenLogo.jpg" alt="Sporten" width="100" /></a></div> <strong>Conference Dinner @ <a href='http://www.sult.no/inenglish4.cfm'>Sporten</a></strong><br />Sponsored by <a href='http://lifetechnologies.com'>Ion Torrent</a><br /><br />Please join us for this closing night event at <a href='http://www.sult.no/inenglish4.cfm'>Sporten</a>, a banquet hall built in 1896 and overlooking Oslo. </td>
+    <td style=" text-align: center;"> <div class='left'><a href='http://www.sult.no/inenglish4.cfm'><img src="/events/gcc2013/program/SportenLogo.jpg" alt="Sporten" width="100" /></a></div> <strong>Conference Dinner @ <a href='http://www.sult.no/inenglish4.cfm'>Sporten</a></strong><br />Sponsored by <a href='http://lifetechnologies.com'>Ion Torrent</a><br /><br />Please join us for this closing night event at <a href='http://www.sult.no/inenglish4.cfm'>Sporten</a>, a banquet hall built in 1896 and overlooking Oslo. </td>
   </tr>
 </table>
 
@@ -452,7 +452,7 @@ The second and final day of the conference will feature  [accepted talks](/event
 
 # Birds of a Feather (BoF) Gatherings
 
-<div class='right'><a href='/events/gcc2013/bof/'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="170" /></a></div>
+<div class='right'><a href='/events/gcc2013/bof/'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="170" /></a></div>
 
 There is no better place than a Galaxy Community Conference to meet and learn from others doing high-throughput biology.  GCC2013 will include *[Birds of a Feather (BoF)](/events/gcc2013/bof/)* meetups throught the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  BoFs can range from preplanned and pre-announced to just pre-announced to completely spontaneous.  Pre-announcing a BoF has the advantage that conference participants can be notified of them ahead of time, and people can plan ahead to attend.
 

@@ -13,9 +13,9 @@ Please help get the word out about the [2014 Galaxy Community Conference (GCC201
 
 The conference logos are available in several sizes.
 
-<div class='left center'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="" height="150" /> &nbsp; <img src="/src/images/logos/GCC2014TDLogo300.png" alt="" height="150" />
-<img src="/src/images/logos/GCC2014BoFLogo200.png" alt="" height="150" />
-<img src="/src/images/logos/GCC2014HackLogo200.png" alt="" height="150" />
+<div class='left center'><img src="/images/logos/GCC2014LogoTall200.png" alt="" height="150" /> &nbsp; <img src="/images/logos/GCC2014TDLogo300.png" alt="" height="150" />
+<img src="/images/logos/GCC2014BoFLogo200.png" alt="" height="150" />
+<img src="/images/logos/GCC2014HackLogo200.png" alt="" height="150" />
 </div>
 
 <table>
@@ -47,7 +47,7 @@ The conference logos are available in several sizes.
 
 
 <br /><br />
-<div class='right'><a href='http://www.mayelalopez.com/'><img src="/src/events/gcc2014/promotion/MayelaLopezDesignsLogo.png" alt="Mayela Lopez Designs" width="200" /></a></div>
+<div class='right'><a href='http://www.mayelalopez.com/'><img src="/events/gcc2014/promotion/MayelaLopezDesignsLogo.png" alt="Mayela Lopez Designs" width="200" /></a></div>
 
 The GCC2014 Logo was designed by Mayela Lopez of [Mayela Lopez Designs](http://www.mayelalopez.com/).  If you like it, [send her some business](http://www.mayelalopez.com/#!contact).
 
@@ -55,7 +55,7 @@ The GCC2014 Logo was designed by Mayela Lopez of [Mayela Lopez Designs](http://w
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/promotion/GCC2014Flier.pdf'><img src="/src/images/galaxy-logos/GCC2014FlierThumb.png" /></a> </td>
+    <td style=" border: none;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/promotion/GCC2014Flier.pdf'><img src="/images/galaxy-logos/GCC2014FlierThumb.png" /></a> </td>
     <td style=" border: none;"> Please print, post and distribute <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2014/promotion/GCC2014Flier.pdf'>the conference flier</a><br />at your organization, and or events.  </td>
   </tr>
 </table>

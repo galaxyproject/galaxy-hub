@@ -12,7 +12,7 @@ autotoc: false
 
 <div class="float-right">
 
-[<img src="/src/images/photos/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="200" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
+[<img src="/images/photos/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="200" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
 
 </div>
 
@@ -42,7 +42,7 @@ GCC2019 spans more than a week of activity:
 
 <div class="center inline-div">
 
-[<img src="/src/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy Freiburg Project" height="120" />](https://galaxyproject.eu/freiburg) &nbsp;&nbsp; [<img src="/src/images/logos/UniFreiburg.png" alt="University of Freiburg" height="120" />](https://www.uni-freiburg.de/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/src/images/logos/deNBILogo.png" alt="de.NBI :the German Network for Bioinformatics Infrastructure" height="60" />](https://www.denbi.de/)
+[<img src="/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy Freiburg Project" height="120" />](https://galaxyproject.eu/freiburg) &nbsp;&nbsp; [<img src="/images/logos/UniFreiburg.png" alt="University of Freiburg" height="120" />](https://www.uni-freiburg.de/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/images/logos/deNBILogo.png" alt="de.NBI :the German Network for Bioinformatics Infrastructure" height="60" />](https://www.denbi.de/)
 
 </div>
 

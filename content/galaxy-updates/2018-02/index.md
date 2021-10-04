@@ -1,7 +1,7 @@
 ---
 title: February 2018 Galaxy News
 ---
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
 Welcome to the February 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -13,7 +13,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 
 ## GCCBOSC 2018 Training Topic Voting Closes Jan 31
 
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Vote for the Training Topics you want" />](/events/gccbosc2018/training/)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Vote for the Training Topics you want" />](/events/gccbosc2018/training/)
 
 **Which is tomorrow.  [Vote now](http://bit.ly/gccbosc2018-vote)**
 
@@ -32,7 +32,7 @@ We are happy to have announced several [GCCBOSC 2018 sponsors](/events/gccbosc20
 
 ### PeerJ
 
-[<img class="float-right" src="/src/images/logos/peerj-logo-400.png" alt="PeerJ, the award-winning biological, medical and environmental sciences journal" width="120" />](https://peerj.com/)
+[<img class="float-right" src="/images/logos/peerj-logo-400.png" alt="PeerJ, the award-winning biological, medical and environmental sciences journal" width="120" />](https://peerj.com/)
 
 ***[PeerJ](https://peerj.com/)*** is proud to sponsor GCCBOSC 2018 and support the unified event for bioinformatics developers and practitioners. PeerJ's mission is to make Open Access affordable, fast, and easier for researchers and institutions, and central to this mission is our open source ethos. We publish two peer-reviewed journals, *[PeerJ](https://peerj.com/)* and *[PeerJ Computer Science](https://peerj.com/computer-science/)* and we also host a free *[PeerJ Preprints](https://peerj.com/preprints/)* server. *PeerJ* requires code to be open and accessible, hence readers can be assured that they can access the tools appropriately. We also provide [open source tools](https://github.com/PeerJ) helpful to both academics and general software development professionals.
 
@@ -42,7 +42,7 @@ GCCBOSC attendees may be interested to hear that, in addition to research articl
 
 <div class="float-right">
 <br />
-[<img src="/src/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
+[<img src="/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
 ### Call for sponsors!
 
@@ -52,8 +52,8 @@ GCCBOSC attendees may be interested to hear that, in addition to research articl
 ## ELIXIR Galaxy Community Kickoff and Meeting, March, Freiburg
 
 <div class="float-left">
-[<img src="/src/images/logos/ElixirNoTextLogo.png" alt="ELIXIR Galaxy Community Kickoff and Meeting" width="160" />](https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference) <br />
-[<img src="/src/images/logos/embl-australia-logo.png" alt="EMBL-Australia" width="120" />](http://www.emblaustralia.org/)
+[<img src="/images/logos/ElixirNoTextLogo.png" alt="ELIXIR Galaxy Community Kickoff and Meeting" width="160" />](https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference) <br />
+[<img src="/images/logos/embl-australia-logo.png" alt="EMBL-Australia" width="120" />](http://www.emblaustralia.org/)
 </div>
 
 The ELIXIR Galaxy community will have a [kickoff meeting](https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference) 14-16th March 2018, in Freiburg/Germany. We will combine this with a Galaxy User Conference and the **official launch of the usegalaxy.eu server.**
@@ -66,7 +66,7 @@ Wednesday (the 14th) will be dedicated to the ELIXIR Galaxy communtiy, to discus
 
 ## Galaxy Africa, April, Cape Town
 
-[<img class="float-right" src="/src/events/2018-04-galaxy-africa/galaxy-africa-logo.svg" alt="Galaxy Africa" width="170" />](http://galaxyafrica.sanbi.ac.za/)
+[<img class="float-right" src="/events/2018-04-galaxy-africa/galaxy-africa-logo.svg" alt="Galaxy Africa" width="170" />](http://galaxyafrica.sanbi.ac.za/)
 
 [Galaxy Africa](http://galaxyafrica.sanbi.ac.za/) will be held 3-5 April in Cape Town, South Africa at [SANBI](http://www.sanbi.ac.za/) on the [Universtiy of the Western Cape](https://www.uwc.ac.za/Pages/default.aspx) campus.
 
@@ -84,8 +84,8 @@ morning session will include presentations on genomic and metagenomic data analy
 ## Galaxy Administrators Course Report
 
 <div class="float-right">
-<img src="/src/events/2018-01-admin-oslo/oslo-admin-class.jpg" height="120" /> &nbsp;
-[<img  src="/src/events/2018-01-admin-oslo/admins-oslo-2018-logo.png" alt="Galaxy Administrators Course" height="120" />](https://github.com/galaxyproject/dagobah-training)
+<img src="/events/2018-01-admin-oslo/oslo-admin-class.jpg" height="120" /> &nbsp;
+[<img  src="/events/2018-01-admin-oslo/admins-oslo-2018-logo.png" alt="Galaxy Administrators Course" height="120" />](https://github.com/galaxyproject/dagobah-training)
 </div>
 
 A very successful and inspiring Galaxy admin workshop was held in Oslo in January, Thanks to 33 highly motivated participants and Nicola Soranzo, Marius Van Den Beek, Abdulrahman Azab, [Björn Grüning](/people/bjoern-gruening/) and [Enis Afgan](/people/enis-afgan/) as instructors!  Thanks also to [ELIXIR](https://www.elixir-europe.org/), [de.NBI](https://www.denbi.de/), and [ELIXIR Norway](https://www.elixir-europe.org/about-us/who-we-are/nodes/norway) for sponsoring this event.
@@ -227,7 +227,7 @@ Plenty of materials for Galaxy administration are now [up to date and available 
 # New Galactic Blog Entry: Galaxy R Markdown Tools
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
 </div>
 
 January saw one new *[Galactic Blog](/blog/)* entry:
@@ -267,7 +267,7 @@ The *Galactic* and *Stellar* publications added in January were:
 ----
 # Who's Hiring
 
-<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -283,7 +283,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them last month, including two new public servers:
 
-[<img class="float-right" src="/src/use/archive/a-game/agame-logo.png" alt="A-Game" width="150" />](http://beaconlab.it/agame)
+[<img class="float-right" src="/use/archive/a-game/agame-logo.png" alt="A-Game" width="150" />](http://beaconlab.it/agame)
 
 ## A-Game
 
@@ -294,7 +294,7 @@ A-Game is supported by [BEACON](https://bioscienzebio.unimi.it/gruppo.php?id=26)
 
 ## Splicescope
 
-[<img class="float-left" src="/src/use/archive/splicescope/zhang-lab.png" alt="Splicescope" width="240" />](http://galaxy.splicebase.net/)
+[<img class="float-left" src="/use/archive/splicescope/zhang-lab.png" alt="Splicescope" width="240" />](http://galaxy.splicebase.net/)
 
 [Splicescope](http://galaxy.splicebase.net/) is a tool-publishing server for predicting neuronal maturation using splicing profiles. Splicescope takes either an exon inclusion ratio matrix file or junction bed files from multiple samples as input and outputs a zip file including prediction results, PCA analysis results and a PCA plot based on reference samples and an html file to summarize the prediction.
 
@@ -322,7 +322,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in January](/toolshed/contributions/2018-01/).
 
@@ -333,7 +333,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 ### 17.09 Galaxy Release
 
 <div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
 </div>
 
 The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) published the **[17.09 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.09_announce.html)** at the end of October.
@@ -371,7 +371,7 @@ Ephemeris is a small Python library and set of scripts for managing the bootstra
 
 ### blend4php 0.1 beta
 
-[<img class='float-right' src="/src/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" width="220" />](https://github.com/galaxyproject/blend4php)
+[<img class='float-right' src="/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" width="220" />](https://github.com/galaxyproject/blend4php)
 
 The beta version of the [blend4php package](https://github.com/galaxyproject/blend4php), a PHP wrapper for the [Galaxy API](https://docs.galaxyproject.org/en/master/api_doc.html), was released in December. It provides a PHP package for interacting with Galaxy and CloudMan. blend4php currently offers a partial implementation of the Galaxy API and includes support for datasets, data types, folder contents, folders, genomes, group roles, groups, group users, histories, history contents, jobs, libraries, library contents, requests, roles, search, tools, toolshed repositories, users, visualizations and workflows.
 
@@ -391,7 +391,7 @@ This revision:
 
 ### Planemo 0.47.0
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 

@@ -2,7 +2,7 @@
 title: "ISMB2011 Slides"
 date: "2011-07-29"
 ---
-<div class='right'>[[<a href='/events/ISMB-ECCB-BOSC 2011/'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2011" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='/events/ISMB-ECCB-BOSC 2011/'><img src="/src/events/ISMB2011Logo80.png" alt="ISMB/ECCB 2011" /></a></div>
+<div class='right'>[[<a href='/events/ISMB-ECCB-BOSC 2011/'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2011" width="120" /></a>&nbsp;&nbsp;&nbsp;<a href='/events/ISMB-ECCB-BOSC 2011/'><img src="/events/ISMB2011Logo80.png" alt="ISMB/ECCB 2011" /></a></div>
 
 Slides for for 10 of the Galaxy-related presentations at [ISMB/ECCB/BOSC 2011](/events/ISMB-ECCB-BOSC 2011/) are [now available online](/events/ISMB-ECCB-BOSC 2011/).  Presentations include:
 

@@ -3,16 +3,16 @@ title: "Galactic News! April Edition"
 date: "2016-03-31"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2016-04/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />
+<a href='/galaxy-updates/2016-04/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a><br />
 <br />
 <div class='right'>
-<a href='/galaxy-updates/2016-04/#gcc2016'><img src="/src/images/logos/GCC2016LogoTallBig.png" alt="GCC2016 News" width="100" /></a><br />
-<a href='/galaxy-updates/2016-04/#galaxy-devops-workshop---heidelberg-6-7-april'><img src="/src/images/logos/ElixirNoTextLogo.png" alt="Two ELIXIR Sponsored Events: Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies; Hackathon: Tools, Workflows and Workbenches" width="100" /></a>
+<a href='/galaxy-updates/2016-04/#gcc2016'><img src="/images/logos/GCC2016LogoTallBig.png" alt="GCC2016 News" width="100" /></a><br />
+<a href='/galaxy-updates/2016-04/#galaxy-devops-workshop---heidelberg-6-7-april'><img src="/images/logos/ElixirNoTextLogo.png" alt="Two ELIXIR Sponsored Events: Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies; Hackathon: Tools, Workflows and Workbenches" width="100" /></a>
 </div><br />
-<a href='/galaxy-updates/2016-04/#planemo-0240'><img src="/src/images/logos/PlanemoLogo.png" alt="Planemo release" width="150" /></a><br />
-<a href='/galaxy-updates/2016-04/#cloudman-1603'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="150" /></a><br />
+<a href='/galaxy-updates/2016-04/#planemo-0240'><img src="/images/logos/PlanemoLogo.png" alt="Planemo release" width="150" /></a><br />
+<a href='/galaxy-updates/2016-04/#cloudman-1603'><img src="/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="150" /></a><br />
 <div class='center'><br />
-<a href='/galaxy-updates/2016-04/#automatic-testing-of-iuc-tools-with-conda'><img src="/src/images/logos/Conda_480.png" alt="Automatic Testing of IUC Tools with Conda" width="120" /></a>
+<a href='/galaxy-updates/2016-04/#automatic-testing-of-iuc-tools-with-conda'><img src="/images/logos/Conda_480.png" alt="Automatic Testing of IUC Tools with Conda" width="120" /></a>
 </div></div>
 
 The **[April Galaxy News](/galaxy-updates/2016-04/)** brings more than the usual amount of *News of the Galaxy*.  

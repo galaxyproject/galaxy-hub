@@ -202,7 +202,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 
 1. Enhancements to handlers, display, and data input parsing. https://trello.com/c/5jk3k7Td
 
-<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/src/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=500 /></a>
+<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=500 /></a>
 
 <br />
 # Trackster
@@ -249,9 +249,9 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 1. Upgraded `SQLAlchemy`. https://trello.com/c[/Q6kBeBy](/archive/dev-news-briefs/2013-06-03/Q6kBeBy/)D
 1. Error Logging with `Sentry`. https://trello.com/c/Yc1LXXTR
 
-<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/src/images/news-graphics/2013_06_03_sentry-1.png" alt="sentry-1" width=600 /></a>
+<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_sentry-1.png" alt="sentry-1" width=600 /></a>
 
-<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/src/images/news-graphics/2013_06_03_sentry-2.png" alt="sentry-2" width=500 /></a>
+<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_sentry-2.png" alt="sentry-2" width=500 /></a>
 
 <br />
 # Pull Requests Merged
@@ -294,7 +294,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # GCC2013
 
-<div class='left'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
+<div class='left'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
 
 <br />
 <br />

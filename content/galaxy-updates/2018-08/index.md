@@ -1,7 +1,7 @@
 ---
 title: Summer (August) 2018 Galaxy News
 ---
-[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img class="float-left" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
 Welcome to the Summer 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -9,7 +9,7 @@ Welcome to the Summer 2018 *[Galactic News](/galaxy-updates/)*, a summary of wha
 
 # GCCBOSC 2018 is done!
 
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
 
 [GCCBOSC 2018](https://gccbosc2018.sched.com/) was held 25-30 June in Portland, Oregon, United States. The combination of the Galaxy Community Conference and the Bioinformatics Open Source Conference brought together 300 people over an 8 day period.  GCCBOSC featured
 
@@ -29,12 +29,12 @@ Most posters and slides are now linked to from the [conference web site](https:/
 
 ## 2019 Galaxy Community Conference: 1-6 July, Freiburg, Germany
 
-[<img  class="img-fluid float-right" style="max-width: 250px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
+[<img  class="img-fluid float-right" style="max-width: 250px" src="/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
 
 **[GCC2019](/events/gcc2019/) will be held in Freiburg, Germany, 1-6 July.**  Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, and demos, birds-of-a-feather gatherings, multiple days of collaborative work, and plenty of opportunities to network with your fellow data-intensive researchers and practitioners.  If you are working in data-intensive life science, there is no better place to be.
 
 <div class="float-left">
-[<img src="/src/images/photos/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="180" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
+[<img src="/images/photos/freiburg_street_thumb.jpg" alt="Freiburg Germany" width="180" />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
 </div>
 
 [Freiburg](https://visit.freiburg.de/en) is on the edge of the Black Forest, and is famous for its architecture, cobblestone streets and historic districts, and is home to one of Germany's oldest universities (and our host)!. Freiburg is in the Baden wine-growing region and *is the sunniest city in Germany.*
@@ -44,7 +44,7 @@ GCC2019 will be held at [Konzerthaus Freiburg](http://www.konzerthaus.freiburg.d
 GCC2019 is hosted by the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/).
 
 <div class="center">
-[<img src="/src/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy Freiburg Project" height="100" />](http://www.bioinf.uni-freiburg.de/Galaxy/) &nbsp;&nbsp; [<img src="/src/images/logos/UniFreiburg.png" alt="University of Freiburg" height="100" />](http://www.uni-freiburg.de/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/src/images/logos/deNBILogo.png" alt="de.NBI :the German Network for Bioinformatics Infrastructure" height="50" />](https://www.denbi.de/)
+[<img src="/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy Freiburg Project" height="100" />](http://www.bioinf.uni-freiburg.de/Galaxy/) &nbsp;&nbsp; [<img src="/images/logos/UniFreiburg.png" alt="University of Freiburg" height="100" />](http://www.uni-freiburg.de/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/images/logos/deNBILogo.png" alt="de.NBI :the German Network for Bioinformatics Infrastructure" height="50" />](https://www.denbi.de/)
 </div>
 
 <br />
@@ -70,7 +70,7 @@ A joint meeting in 2020 or 2021 depends on finding a suitable venue (300+ attend
 
 ## GTN CoFest on Metagenomics Training Material, 17 August
 
-<img class="img-fluid float-right" style="max-width: 200px;" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>
+<img class="img-fluid float-right" style="max-width: 200px;" src="/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>
 
 The Galaxy Training Network is organizing regular online CoFests (Collaboration/Contribution Fests) every 3 months on the 3rd Friday for a day of the collaborative work on the training content.
 
@@ -79,11 +79,11 @@ The Galaxy Training Network is organizing regular online CoFests (Collaboration/
 ## 2018 SACNAS Workshops
 
 <div class="float-left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/events/2017-sacnas/) <br /><br />
-[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/)
+[<img src="/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/events/2017-sacnas/) <br /><br />
+[<img src="/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
+[<img src="/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
+[<img src="/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
+[<img src="/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/)
 </div>
 
 If you are attending the [2018 SACNAS meeting](http://www.2018sacnas.org/) in San Antonio in October, then please consider signing up for one of [these preconference workshops](/events/2018-sacnas/):
@@ -102,7 +102,7 @@ Both workshops are held October 10, the day before SACNAS starts.
 
 ## European Galaxy Days, 19-20 November, Freiburg, Germany
 
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
+[<img class="float-right" src="/events/2018-europe-dev/2018-europe-logo.small.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
 
 **[European Galaxy Days](/events/2018-europe-dev/)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
 
@@ -110,7 +110,7 @@ The event is free. Registration will open soon.  See the [event home page](/even
 
 ## Gateways 2018
 
-[<img class="float-left" src="/src/images/logos/gateways-2018-logo.png" alt="Gateways 2018" width="170" />](http://sciencegateways.org/gateways2018/)
+[<img class="float-left" src="/images/logos/gateways-2018-logo.png" alt="Gateways 2018" width="170" />](http://sciencegateways.org/gateways2018/)
 
 [Gateways 2018](http://sciencegateways.org/gateways2018/) (September 25–27, at the University of Texas at Austin) early bird registration ends Monday!  So, [get on it](https://sciencegateways.org/web/gateways2018/attend/register).
 
@@ -286,7 +286,7 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 
 # Christophe Caron, 1968-2018
 
-[<img class="float-right" src="/src/news/2018-05-caron/christophe-caron.jpg" alt="Christophe Caron" width="170" />](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron)
+[<img class="float-right" src="/news/2018-05-caron/christophe-caron.jpg" alt="Christophe Caron" width="170" />](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron)
 
 [Christophe Caron](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) passed away in May at the age of 50. Christophe was an extraordinary Galaxy community organizer and he is dearly missed.  See the [SFBI tribute page to Christophe](https://www.sfbi.fr/content/d%C3%A9c%C3%A8s-de-christophe-caron) and this [Galaxy News item](/news/2018-05-caron/) for more about Christophe, his passing, and his many contributions over the years.
 
@@ -346,7 +346,7 @@ Edvard Martins de Oliveira, Júlio Cézar Estrella, Alexandre Cláudio Botazzo D
 ----
 # Who's Hiring
 
-<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -359,7 +359,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 # New Galactic Blog Entries
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
 </div>
 
 There are two new *[Galactic Blog](/blog/)* entry:
@@ -375,7 +375,7 @@ There are [over 100 publicly accessible Galaxy servers](/use/) and [six semi-pub
 
 ## ProteoRE
 
-[<img class="float-right" src="/src/use/proteore/proteore.png" alt="ProteoRE" />](http://www.proteore.org/)
+[<img class="float-right" src="/use/proteore/proteore.png" alt="ProteoRE" />](http://www.proteore.org/)
 
 "[ProteoRE (Proteomics Research Environment)](http://www.proteore.org/) aims at centrally providing the proteomics community with an online research service enabling biologists/clinicians without programming expertise to **annotate and interpret** their proteomics data through the Web."
 
@@ -415,7 +415,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in May, June, and July 2018](/toolshed/contributions/2018-07/).
 
@@ -435,7 +435,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 ## 18.05 Galaxy Release
 
 <div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
 </div>
 
 The [18.05 release of Galaxy  is out](https://docs.galaxyproject.org/en/release_18.05/releases/18.05_announce.html ). Thanks to the [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) and you, our community!
@@ -459,7 +459,7 @@ The [Galaxy Docker project has a matching release](https://github.com/bgruening/
 
 ## Planemo 0.49.0-0.54.0
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst) (~50 of them).
 
@@ -483,7 +483,7 @@ Other packages released since April.
 
 ## Starforge 0.3.6
 
-[<img class="float-right" src="/src/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" />](https://github.com/galaxyproject/starforge/blob/master/README.rst)
+[<img class="float-right" src="/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" />](https://github.com/galaxyproject/starforge/blob/master/README.rst)
 
 [Starforge](https://pypi.python.org/pypi/starforge) is a collection of scripts that supports the building of components for Galaxy.  Specifically, with Starforge you can:
 

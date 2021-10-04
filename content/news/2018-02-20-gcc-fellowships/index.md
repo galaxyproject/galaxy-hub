@@ -3,7 +3,7 @@ title: 'Apply for a GCC2018 Fellowship'
 tease: 'Apply soon...'
 date: '2018-02-20'
 ---
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" alt='Apply for a GCC2018 travel fellowship' width="160" />](https://gccbosc2018.sched.com/)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-boxed-300.png" alt='Apply for a GCC2018 travel fellowship' width="160" />](https://gccbosc2018.sched.com/)
 
 [GCCBOSC 2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States.  This brings the 2018 Galaxy Community Conference (GCC2018) and the Bioinformatics Open Source Conference (BOSC 2018) together into a unified week-long event.
 

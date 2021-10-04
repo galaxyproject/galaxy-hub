@@ -3,10 +3,10 @@
 # Childcare at GCCBOSC
 
 <div class="float-left">
-<img src="/src/images/galaxy-logos/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  /></div>
+<img src="/images/galaxy-logos/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  /></div>
 
 <div class="float-right">
-[<img src="/src/events/gccbosc2018/childcare/cris-myhero-tweet.png" alt="Cris Thomas presenting ImmPort at GCCBOSC 2018" width="200" />](https://twitter.com/pattysnick/status/1012769006703411201)<br />
+[<img src="/events/gccbosc2018/childcare/cris-myhero-tweet.png" alt="Cris Thomas presenting ImmPort at GCCBOSC 2018" width="200" />](https://twitter.com/pattysnick/status/1012769006703411201)<br />
 [Cris Thomas](https://twitter.com/crstlthms) presenting at<br />
 GCCBOSC (and by far the<br />
 event's most popular tweet)
@@ -27,7 +27,7 @@ If you have an infant and you want to have them with you during the day, then pl
 ## Childcare
 
 <div class="float-left">
-[<img src="/src/events/gccbosc2018/childcare/little_vikings-ship.png" alt="Childcare provided by Little Vikings Childcare" width="140" />](http://www.littlevikings.org/)
+[<img src="/events/gccbosc2018/childcare/little_vikings-ship.png" alt="Childcare provided by Little Vikings Childcare" width="140" />](http://www.littlevikings.org/)
 </div>
 
 
@@ -66,13 +66,13 @@ Childcare can be booked in half day increments.  The rates are:
 Childcare at GCCBOSC is generously supported by a sponsorship from [eLife](https://elifesciences.org/) and an
 [International Society for Biocuration (ISB)](https://www.biocuration.org/) [Microgrant](https://www.biocuration.org/community/microgrants/).
 
-[<img class="float-left" src="/src/images/logos/elife-logo-wide.jpg" alt="eLife: an open-access journal for promising research in the life and biomedical sciences" width="220" />](https://elifesciences.org/)
+[<img class="float-left" src="/images/logos/elife-logo-wide.jpg" alt="eLife: an open-access journal for promising research in the life and biomedical sciences" width="220" />](https://elifesciences.org/)
 
 **[eLife](https://elifesciences.org/)** is a non-profit organisation inspired by research funders and led by scientists. Our mission is to help scientists accelerate discovery by operating a platform for research communication that encourages and recognises the most responsible behaviours in science.
 
 eLife publishes work of the highest scientific standards and importance in all areas of the life and biomedical sciences. The research is selected and evaluated by working scientists and is made freely available to all readers without delay. eLife also invests in [innovation](https://elifesciences.org/about/innovation) through open-source tool development to accelerate research communication and discovery. Our work is guided by the [communities](https://elifesciences.org/about/people) we serve.
 
-[<img class="float-right" src="/src/images/logos/isb-logo-wide.jpg" alt="International Society for Biocuration" width="220" />](https://www.biocuration.org/)
+[<img class="float-right" src="/images/logos/isb-logo-wide.jpg" alt="International Society for Biocuration" width="220" />](https://www.biocuration.org/)
 
 **[ISB](https://www.biocuration.org/)** is a non profit organization for biocurators, developers, and researchers with an interest in biocuration. The society promotes the field of biocuration and provides a forum for information exchange through meeting and workshops.
 

@@ -5,7 +5,7 @@ title: Galaxy @ Caltech March 5, 2013
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://caltech.edu/'><img src="/src/images/logos/CaltechLogoWTextBig.png" alt="California Institute of Technology" width="400" /></a> </td>
+    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://caltech.edu/'><img src="/images/logos/CaltechLogoWTextBig.png" alt="California Institute of Technology" width="400" /></a> </td>
   </tr>
 </table>
 
@@ -74,7 +74,7 @@ This hands-on workshop will teach participants how to integrate data, and perfor
 
 **If you attended this workshop, [please provide your feedback](http://bit.ly/Caltech2013).**
 
-<div class='right'><br /><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><br /><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 ### Workshop Support
 
@@ -96,7 +96,7 @@ This informal discussion will introduce Galaxy for developers.  We will discuss 
 
 ## Links
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/caltech2013/CaltechGalaxyDay.pdf'><img src="/src/events/caltech2013/CaltechGalaxyDayThumb.png" alt="Download flier" /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/caltech2013/CaltechGalaxyDay.pdf'><img src="/events/caltech2013/CaltechGalaxyDayThumb.png" alt="Download flier" /></a></div>
 
 * Please help get the word out by distributing [this flyer](https://depot.galaxyproject.org/hub/attachments/events/caltech2013/CaltechGalaxyDay.pdf) in your department.
 

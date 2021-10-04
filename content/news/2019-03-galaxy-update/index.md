@@ -4,7 +4,7 @@ tease: 'GalaxyAdmins, GCC2019 Childcare sponsors, Platforms, Pubs, Jobs, Blog!, 
 date: "2019-03-04"
 ---
 
-[<img class="float-right" src="/src/news/2019-03-galaxy-update/2019-03-01-galaxy-news-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
+[<img class="float-right" src="/news/2019-03-galaxy-update/2019-03-01-galaxy-news-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *March  2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
@@ -30,7 +30,7 @@ We are very pleased to announce that **[eLife](https://elifesciences.org/)** and
 
 ## eLife
 
-[<img class="float-right img-fluid mx-auto" style="max-width: 240px" src="/src/images/logos/elife-logo-wide.jpg" alt="eLife" />](https://elifesciences.org/)
+[<img class="float-right img-fluid mx-auto" style="max-width: 240px" src="/images/logos/elife-logo-wide.jpg" alt="eLife" />](https://elifesciences.org/)
 
 ***[eLife](https://elifesciences.org/)*** is a non-profit open access journal, publishing research from across the life and biomedical sciences. We also invest heavily in software development, new product design, collaboration and outreach. This includes the development of open-source tools, with extensible capabilities, that can be used, adopted and modified by any interested party to help move towards an ecosystem that serves science and scientists as efficiently and as cost-effectively as possible.
 
@@ -42,7 +42,7 @@ Through this Initiative, we’re always on the lookout for opportunities to enga
 
 ## The Galaxy Gateway on F1000Research
 
-[<img class="float-right img-fluid mx-auto" style="max-width: 200px" src="/src/images/logos/f1000-logo-wide.png" alt="F1000Research: Open for Science" />](https://f1000research.com/)
+[<img class="float-right img-fluid mx-auto" style="max-width: 200px" src="/images/logos/f1000-logo-wide.png" alt="F1000Research: Open for Science" />](https://f1000research.com/)
 
 [F1000Research](https://f1000research.com/) is proud this year to be sponsoring childcare for GCC2019, which we feel is vital for inclusivity. F1000Research is an Open Access publishing platform for the life sciences that publishes a range of different article types, from traditional research articles, to method articles and software tools. The platform is particularly well suited to publishing software tool articles as our versioning system allows small updates at any time, we have proper syntax highlighting and we can support LaTeX and markdown submissions.
 
@@ -57,8 +57,8 @@ We’re pleased to be running a call for papers for GCC2019 and **would like to 
 # GalaxyAdmins 
 
 <div class="float-right">
-[<img class="img-fluid mx-auto" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/) <br /><br />
-<img class="img-fluid mx-auto" src="/src/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" style="max-width: 160px" />
+[<img class="img-fluid mx-auto" src="/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/) <br /><br />
+<img class="img-fluid mx-auto" src="/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" style="max-width: 160px" />
 </div>
 
 After a two year hiatus, the [online GalaxyAdmins meetups](/community/galaxy-admins/meetups/) will return on [March 21](/community/galaxy-admins/meetups/2019-03-21/), with a community discussion, and a presentation from [Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/) on *Running Galaxy on Kubernetes*, online at 15:00 GMT (see [your local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+2019+GalaxyAdmins+Meetup&iso=20190321T15&p1=1234&ah=1)).  See the [meetup page for links](/community/galaxy-admins/meetups/)).
@@ -214,11 +214,11 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 ## FreeBioInfo
 
-[<img class="float-left" style="max-width: 400px" src="/src/use/freebioinfo/freebioinfologo.jpg" alt="FreeBioInfo" />](/use/freebioinfo/)
+[<img class="float-left" style="max-width: 400px" src="/use/freebioinfo/freebioinfologo.jpg" alt="FreeBioInfo" />](/use/freebioinfo/)
 
 [FreeBioinfo](http://www.freebioinfo.org/) is a public server for metagenomic analysis.  The server supports a wide range of metagenomics and other tools. Ther is a [Cookbook](http://www.freebioinfo.org/galaxy/static/protocol/galaxyhelphuixiuli20170425.pdf) for the site (although it is in Chinese). FreeBioInfo is hosted at the [China Agricultural University](https://cau.edu.cn/), in Beijing, China.
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/gcac/gcac-landing.png" alt="GCAC" />](/use/gcac/)
+[<img class="float-right" style="max-width: 300px" src="/use/gcac/gcac-landing.png" alt="GCAC" />](/use/gcac/)
 
 ## GCAC
 
@@ -228,7 +228,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 [EWAS-Galaxy](https://github.com/kpbioteam/docker_ewas) is a Docker image for population epigenetics data analysis. Epigenome-wide association studies (EWAS) analyse genome-wide activity of epigenetic marks in cohorts of different individuals to find associations between epigenetic variation and phenotype. EWAS-Galaxy is supported by the [University of Bradford](https://bradford.ac.uk/external/).
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/mandoiu/mandoiu-landing-500.png" alt="Mandoiu Lab" />](/use/mandoiu/)
+[<img class="float-right" style="max-width: 300px" src="/use/mandoiu/mandoiu-landing-500.png" alt="Mandoiu Lab" />](/use/mandoiu/)
 
 ## Mandoiu Lab
 
@@ -240,7 +240,7 @@ The [Mandoiu Lab Galaxy server](https://neo.engr.uconn.edu/) is a customized ins
 
 ## Trinity
 
-<img class="float-left" style="max-width: 300px" src="/src/use/archive/trinity-ctat/trinity-pti-logo.jpg" alt="Trinity CTAT" />
+<img class="float-left" style="max-width: 300px" src="/use/archive/trinity-ctat/trinity-pti-logo.jpg" alt="Trinity CTAT" />
 
 [Trinity CTAT Galaxy](https://galaxy.ncgas-trinity.indiana.edu/) is a [public server](https://galaxy.ncgas-trinity.indiana.edu/) and [Docker container](https://github.com/NCIP/Trinity_CTAT_galaxy/wiki/Intro) providing users with access to large memory resources required for *de novo* transcriptome assembly and downstream analysis.  Funded by the National Cancer Institute, the Trinity Cancer Transcriptome Analysis Toolkit provides a suite of software for the analysis of cancer transcriptome data. The nature of cancer data requires different assumptions and approaches to analysis, above and beyond the normal challenges of dealing with RNA-seq. View [more information on the tools available here](https://github.com/NCIP/Trinity_CTAT/wiki). The resource has slides available for tasks such as moving data, and help can be reached at trinity@ncgas.org. There are no quotas, however, there is an aggressive purge policy for the disk usage. Files over 60 days old are removed by the system. An account is needed to access the resource and users are asked to fill out a registration form about your research (this helps us stay funded).
 
@@ -262,7 +262,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 ----
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
+[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
 
 # New Galactic Blog Post
 
@@ -272,7 +272,7 @@ This month we have a *[Galactic Blog](/blog/)* post where [Nate Coraor was inter
 
 # Who's Hiring
 
-<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
@@ -304,7 +304,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 ## GTN Training Materials
 
-[<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
+[<img class="float-right img-responsive" src="/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
 * New [Plates, Batches, and Barcodes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-plates-batches-barcodes/slides.html#1) slides by [Mehmet Tekman](https://github.com/mtekman).
 * New [Understanding Barcodes](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-umis/tutorial.html) tutorial by [Mehmet Tekman](https://github.com/mtekman).
@@ -336,7 +336,7 @@ There was a tremendous amount of content added to the GTN while our fearless ins
 
 # ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in February  2019](/toolshed/contributions/2019-02/) (there were a lot).
 

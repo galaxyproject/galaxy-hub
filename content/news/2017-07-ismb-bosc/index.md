@@ -4,7 +4,7 @@ tease: "Galaxy every day, and a Tutorial, a BoF and a Dinner too"
 date: '2017-07-20'
 ---
 
-<div class="right"><a href="/events/2017-ismb-bosc/"><img src="/src/images/logos/ismb-2017.png" alt="Galaxy @ ISMB/ECCB/BOSC 2017"  width="140" /></a><br /><br />
+<div class="right"><a href="/events/2017-ismb-bosc/"><img src="/images/logos/ismb-2017.png" alt="Galaxy @ ISMB/ECCB/BOSC 2017"  width="140" /></a><br /><br />
 <a href="http://bit.ly/ismbdinnerpoll"><img src="/news/2017-06-ismb-dinner-poll/coincidence.gif" alt="Does the Prague astronomical clock resemble a dinner plate?"  width="140" /></a>
 </div>
 

@@ -3,7 +3,7 @@ title: 'European Galaxy Administrator Workshop'
 tease: '5 days of admin training in Oslo'
 date: '2017-11-15'
 ---
-[<img class="float-right" src="/src/images/logos/ElixirNoTextLogo.png" alt="Galaxy Admin training, this January, in Oslo " width="170" />](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)
+[<img class="float-right" src="/images/logos/ElixirNoTextLogo.png" alt="Galaxy Admin training, this January, in Oslo " width="170" />](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)
 
 **[Registration](https://skjema.uio.no/galaxy-admin-workshop-2018) is now open for the [European Galaxy Administrator Workshop](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)**.
 

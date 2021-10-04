@@ -4,7 +4,7 @@ tease:  "Projects Wanted"
 date: '2018-12-18'
 ---
 
-[<img class="img-fluid mx-auto" src="/src/develop/gsoc/ogi-gsoc-banner.png" alt="Galaxy in GSoC 2019" />](http://gmod.org/wiki/GSoC)
+[<img class="img-fluid mx-auto" src="/develop/gsoc/ogi-gsoc-banner.png" alt="Galaxy in GSoC 2019" />](http://gmod.org/wiki/GSoC)
 
 Galaxy will be applying to participate in the [2019 Google Summer of Code](https://summerofcode.withgoogle.com/).  We will again be participating as part of the **[Open Genome Informatics Group](http://gmod.org/wiki/GSoC)** that also includes [Bioconda](https://bioconda.github.io/), [GMOD](http://gmod.org/), [Reactome](https://reactome.org), [MGI](http://www.informatics.jax.org/), [OICR](https://oicr.on.ca/research-portfolio/), and [WormBase](http://www.wormbase.org/).
 

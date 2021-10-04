@@ -2,7 +2,7 @@
 title: "Powered by Galaxy"
 date: "2011-08-19"
 ---
-<div class='right'><a href='/outreach/powered-by-galaxy/'><img src="/src/images/powered-by-galaxy.png" /></a></div>
+<div class='right'><a href='/outreach/powered-by-galaxy/'><img src="/images/powered-by-galaxy.png" /></a></div>
 Do you use Galaxy in your research?  If so, please consider putting a *[Powered by Galaxy](/outreach/powered-by-galaxy/)* icon on your websites, presentations and posters.  Increasing Galaxy's visibility has many benefits:
 
 1. People can't use Galaxy unless they know about it. It's a sinking feeling to get the results of your first run from the sequencing center and then not know how to exploit that data.

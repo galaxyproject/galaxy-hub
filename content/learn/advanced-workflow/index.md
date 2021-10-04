@@ -27,7 +27,7 @@ title: Creating Workflows and Advanced Workflow Options
 * Click on the workflow name to access the pull-down menu of options and explore.
 * Import a workflow after viewing it. This will place it in your "Saved Workflows" list. 
 * Lost your place? Go to the very top menu and click on "Workflow". 
-* For a saved workflow in your list, click on the name to access the workflow pull-down menu. <div class='right'><img src="/src/images/learn/workflow_copy.png" alt="workflow menu" width="150" /> <br />***workflow menu***</div>
+* For a saved workflow in your list, click on the name to access the workflow pull-down menu. <div class='right'><img src="/images/learn/workflow_copy.png" alt="workflow menu" width="150" /> <br />***workflow menu***</div>
 * Choose "Edit" to open the *workflow editor*. More instructions for "how-to" are below. Be aware that you can browser navigate away from this page, or close it using the menu, **without saving** if you do NOT want to keep the changes. BUT if you want to keep the changes, *be sure to **save** before leaving the editor*. 
 * *If a workflow is very important to you, it is a good practice to make at least one exact **copy** of it.*  This is especially true for workflows undergoing active edits. How often do you copy it? Depends on how painful it would be to re-do the work if you accidentally forget to save, or save a change that you  end up not liking. You will be warned in the UI before leaving the editor with unsaved changes, but these sorts of things still do happen...
 

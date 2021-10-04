@@ -28,7 +28,7 @@ date: 2012-12-03
 
 The alignment tools **'Bowtie**' and **'Lastz**' from the tool group **NGS: Mapping** have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
 Migration scripts for both **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing replacement tool wrappers from the Tool Shed. Primary executables for **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz)** plus target reference genomes should still be installed as described in the Galaxy wiki - start in the **[Tool Dependencies](admin/config/tool-dependencies/)** section.
 
@@ -179,7 +179,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 
 [News](/news/), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-12)***
 
-<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 
 * [Training Day Topic Nominations](/events/gcc2013/training-day/) for [GCC2013](/events/gcc2013/) will open in December.  Start thinking of ideas now!
 * Slides and Screencast from [November GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2012-11-14/) are online.  The next [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/) will be on [January 16](/community/galaxy-admins/meetups/2013-01-16/) and feature [John Chilton](/people/john-chilton/) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"

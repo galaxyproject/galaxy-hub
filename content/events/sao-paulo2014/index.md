@@ -2,7 +2,7 @@
 title: DNA Sequence Bioinformatics Analysis with the Galaxy Platform
 ---
 <div class='center'>
-<a href='http://www5.usp.br/'><img src="/src/images/logos/USP.gif" alt="Universidade de São Paulo"  /></a>
+<a href='http://www5.usp.br/'><img src="/images/logos/USP.gif" alt="Universidade de São Paulo"  /></a>
 
 
 
@@ -28,7 +28,7 @@ This hands-on workshop will teach participants how to integrate data, and perfor
 
 No programming or Linux command line experience is required.
 
-<div class='right'><br /><a href='https://wiki.uspdigital.usp.br/nuvem/'><img src="/src/images/logos/USP-Nuvem.png" alt="Nuvem" /></a></div>
+<div class='right'><br /><a href='https://wiki.uspdigital.usp.br/nuvem/'><img src="/images/logos/USP-Nuvem.png" alt="Nuvem" /></a></div>
 
 ## Platform
 

@@ -3,7 +3,7 @@ title: "Sept 20, 2012 Distribution & News Brief"
 date: "2012-09-21"
 ---
 **Complete [News Brief](/archive/dev-news-briefs/2012-09-20/)**
-<div class='right'><a href='/archive/dev-news-briefs/2012-09-20/'><img src="/src/images/news-graphics/2012_09_20_toolfactory-small.png" alt="toolfactory" /></a></div>
+<div class='right'><a href='/archive/dev-news-briefs/2012-09-20/'><img src="/images/news-graphics/2012_09_20_toolfactory-small.png" alt="toolfactory" /></a></div>
 **Highlights:**
 * A new **[Galaxy tool](/archive/dev-news-briefs/2012-09-20/#galaxy-tool-factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the *[Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* (**toolfactory**). Try it **now** ->
 * **[Learn](/archive/dev-news-briefs/2012-09-20/#multiple-tool-versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 

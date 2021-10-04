@@ -4,7 +4,7 @@ tease: 'New events, pubs, blog posts, servers, tools and releases (and a Galaxy 
 date: "2018-10-01"
 ---
 
-[<img class="float-right" src="/src/news/2018-10-galaxy-update/2018-10-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/)
+[<img class="float-right" src="/news/2018-10-galaxy-update/2018-10-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/)
 
 The *October  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
@@ -33,11 +33,11 @@ Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming 
 ## 2018 SACNAS Pre-conference Workshops
 
 <div class="float-left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/events/2017-sacnas/) <br /><br />
-[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/)
+[<img src="/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/events/2017-sacnas/) <br /><br />
+[<img src="/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
+[<img src="/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
+[<img src="/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
+[<img src="/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/)
 </div>
 
 If you will be anywhere near San Antonio, Texas on October 10 then please consider participating in one of [these SACNAS preconference workshops](/events/2018-sacnas/).  You don't need to be registered for the [2018 SACNAS meeting](http://www.2018sacnas.org/) to attend.  **Everyone is eligible and the workshops are free.**
@@ -52,7 +52,7 @@ If you will be anywhere near San Antonio, Texas on October 10 then please consid
 
 *Plese note:* The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http://www.2018sacnas.org/events/2018-sacnas-the-national-diversity-in-stem-conference/custom-167-56b6a0f11ab04eec9c1b886e6cd0c33d.aspx) for the first ~ 28 scholarship recipients that register for these workshops. The additional funds will cover an extra night's lodging for scholarship recipients, enabling you to arrive the day before the workshops. Funds are limited, and once the funds are allocated, they are gone. (You must have received a SACNAS Travel Scholarship to be eligible.)
 
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
+[<img class="float-right" src="/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
 
 ## European Galaxy Days, 19-20 November, Freiburg, Germany
 
@@ -63,7 +63,7 @@ If you will be anywhere near San Antonio, Texas on October 10 then please consid
 
 ## 2019 Galaxy Admin Training
 
-[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/events/2019-admin-training/)
+[<img class="float-right" src="/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/events/2019-admin-training/)
 
 **[Galaxy Admin Training](/events/2018-europe-dev/)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
 
@@ -260,7 +260,7 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 # New Galactic Blog Posts
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/blog/)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/blog/)
 </div>
 
 There are three new *[Galactic Blog](/blog/)* entries:
@@ -273,7 +273,7 @@ There are three new *[Galactic Blog](/blog/)* entries:
 ---- 
 # Who's Hiring
 
-<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
@@ -335,7 +335,7 @@ We tag papers that use, mention, implement or extend public Galaxy servers, serv
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in September 2018](/toolshed/contributions/2018-09/).
 

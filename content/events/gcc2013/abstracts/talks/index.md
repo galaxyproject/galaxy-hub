@@ -12,7 +12,7 @@
 
 ### Computational Reproducibility is Crucial for Scientific Software Platforms
 
-<div class='right'><a href='http://www.stanford.edu/~vcs/Bio.html'><img src="/src/events/gcc2013/abstracts/talks/VictoriaStodden.jpg" alt="Victoria Stodden" width="120" /></a></div>
+<div class='right'><a href='http://www.stanford.edu/~vcs/Bio.html'><img src="/events/gcc2013/abstracts/talks/VictoriaStodden.jpg" alt="Victoria Stodden" width="120" /></a></div>
 
 **[Victoria Stodden](http://www.stanford.edu/~vcs/Bio.html)**
 
@@ -37,7 +37,7 @@ Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/
 
 ### Reproducible research and the 90/10 rule: Improving the ratio of light script to dark script matter in your Galaxy
 
-<div class='right'><a href='/people/fubar/'><img src="/src/images/people/team/ross.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/people/fubar/'><img src="/images/people/team/ross.jpg" alt="" width="120" /></a></div>
 
 **[Ross Lazarus](/people/fubar/)<sup>1</sup>**, Antony Kaspi<sup>1</sup>, Mark Ziemann<sup>1</sup> and The [Galaxy Team](/galaxy-team/) <sup>2</sup>.
 
@@ -56,7 +56,7 @@ An installable Galaxy tool will be demonstrated that reproducibly runs user supp
 
 ### Reproducible and automated processing in high-throughput NGS facilities
 
-<div class='right'><a href='http://www.crs4.it/crs4/peopledetails/people/148/Luca_Pireddu'><img src="/src/events/gcc2012/abstracts/Cuccuru.jpg" alt="" width="0" /></a></div>
+<div class='right'><a href='http://www.crs4.it/crs4/peopledetails/people/148/Luca_Pireddu'><img src="/events/gcc2012/abstracts/Cuccuru.jpg" alt="" width="0" /></a></div>
 
 [Gianmauro Cuccuru](http://www.crs4.it/crs4/peopledetails/people/195/Gianmauro_Cuccuru)<sup>1</sup>, Giorgio Fotia<sup>1</sup>, Josh Moore<sup>2</sup>, Luca Lianas<sup>1</sup>, **[Luca Pireddu](http://www.crs4.it/crs4/peopledetails/people/148/Luca_Pireddu)**<sup>1</sup>, Jason Swedlow<sup>2</sup>, Gianluigi Zanetti<sup>1</sup>
 
@@ -79,7 +79,7 @@ Currently, the system is in its testing phase and is on schedule to be in produc
 
 ### A Galaxy of learning: Bioinformatics tutorials based on Galaxy
 
-<div class='right'><img src="/src/images/people/SimonGladman.jpg" alt="Simon Gladman"  /></div>
+<div class='right'><img src="/images/people/SimonGladman.jpg" alt="Simon Gladman"  /></div>
 
 **Simon Gladman**<sup>1,2</sup>, Mahtab Mirmomeni<sup>1</sup>, Andrew Lonie<sup>1</sup>
 
@@ -102,7 +102,7 @@ The tutorials and other associated resources are freely available at http://www.
 
 ### The Genomic HyperBrowser: a Galaxy-based web server for analysis of genomic tracks
 
-<div class='right'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/'><img src="/src/events/gcc2013/abstracts/talks/GeirKjetilSandve.jpg" alt="Geir Kjetil Sandve" height="110" /></a> <a href='http://www.ous-research.no/hovig/'><img src="/src/events/gcc2013/abstracts/talks/ElvindHovig.jpg" alt="Elvind Hovig" height="110" /></a></div>
+<div class='right'><a href='http://www.mn.uio.no/ifi/english/people/aca/geirksa/'><img src="/events/gcc2013/abstracts/talks/GeirKjetilSandve.jpg" alt="Geir Kjetil Sandve" height="110" /></a> <a href='http://www.ous-research.no/hovig/'><img src="/events/gcc2013/abstracts/talks/ElvindHovig.jpg" alt="Elvind Hovig" height="110" /></a></div>
 
 **[Geir K Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/)<sup>1,2</sup>**, Sveinung Gundersen<sup>3</sup>, Morten Johansen<sup>4</sup>, Ingrid K Glad<sup>5</sup>, Krishanthi Gunathasan<sup>6</sup>, Lars Holden<sup>7</sup>, Marit Holden<sup>7</sup>, Knut Liestø<sup>l1,2</sup>, Ståle Nygård<sup>8</sup>, Vegard Nygaard<sup>4</sup>, Jonas Paulsen<sup>1,4</sup>, Halfdan Rydbeck<sup>1,3,7</sup>, Kai Trengereid<sup>1</sup>, Trevor Clancy<sup>3</sup>, Finn Drabløs<sup>9</sup>, Egil Ferkingstad<sup>7</sup>, Matúš Kalaš<sup>10,11</sup>, Tonje Lien<sup>5</sup>, Morten B Rye<sup>9</sup>, Arnoldo Frigessi<sup>7,12</sup> and **[Eivind Hovig](http://www.ous-research.no/hovig/)<sup>1,3,4,7</sup>**<br />
 
@@ -129,7 +129,7 @@ The [Genomic HyperBrowser (http://hyperbrowser.uio.no/test)](http://hyperbrowser
 
 ### modENCODE Galaxy: Uniform ChIP-Seq Processing Tools for modENCODE and ENCODE Data
 
-<div class='right'><a href='http://oicr.on.ca/institution/ontario-institute-cancer-research-oicr/person/dr-quang-trinh-scientist-and-computational'><img src="/src/events/gcc2013/abstracts/talks/QuangTrinh.jpg" alt="Quang M. Trinh" width="80" /></a></div>
+<div class='right'><a href='http://oicr.on.ca/institution/ontario-institute-cancer-research-oicr/person/dr-quang-trinh-scientist-and-computational'><img src="/events/gcc2013/abstracts/talks/QuangTrinh.jpg" alt="Quang M. Trinh" width="80" /></a></div>
 
 **[Quang M. Trinh](http://oicr.on.ca/institution/ontario-institute-cancer-research-oicr/person/dr-quang-trinh-scientist-and-computational)<sup>1</sup>**, Fei-Yang (Arthur) Jen<sup>1</sup>, Ziru Zhou<sup>1</sup>, Kar Ming Chu<sup>1</sup>, Marc D. Perry<sup>1</sup>, Ellen Kephart<sup>1</sup>, Sergio Contrino<sup>2</sup>, Peter Ruzanov<sup>1</sup>, Lincoln D. Stein1<sup>3</sup>
 
@@ -147,7 +147,7 @@ In recognition of this challenge, the modENCODE DCC has released uniform computi
 
 ### The Galaxy SlipStream Appliance: Galaxy Made Easy
 
-<div class='right'><a href='http://bioteam.net/company-leadership/'><img src="/src/events/gcc2013/abstracts/talks/AnushkaBrownley.jpg" alt="Anushka Brownley" width="100" /></a></div>
+<div class='right'><a href='http://bioteam.net/company-leadership/'><img src="/events/gcc2013/abstracts/talks/AnushkaBrownley.jpg" alt="Anushka Brownley" width="100" /></a></div>
 
 **[Anushka Brownley](http://bioteam.net/company-leadership/)**
 
@@ -163,7 +163,7 @@ IT infrastructure and support can be a bottleneck when trying to analyze data.  
 
 ### Single-cell genomics pipeline: from raw reads to phylogenomics using Galaxy
 
-<div class='right'><img src="/src/events/gcc2013/abstracts/talks/LionelGuy.png" alt="Lionel Guy" width="120" /></div>
+<div class='right'><img src="/events/gcc2013/abstracts/talks/LionelGuy.png" alt="Lionel Guy" width="120" /></div>
 
 **[Lionel Guy](http://www.icm.uu.se/research/Molecular-Evolution/People/lionel-guy/)** and [Thijs Ettema](http://www.icm.uu.se/research/Molecular-Evolution/People/thijs-ettema/)
 
@@ -183,7 +183,7 @@ By pairing single-cell genomics with advanced bioinformatics, we aim to shed som
 
 ### A layered genotyping-by-sequencing pipeline using Galaxy
 
-<div class='right'><img src="/src/events/gcc2013/abstracts/talks/SimonGuest.jpg" alt="Simon Guest" width="100" /></div>
+<div class='right'><img src="/events/gcc2013/abstracts/talks/SimonGuest.jpg" alt="Simon Guest" width="100" /></div>
 
 Rudiger Brauning, **Simon Guest**, Alan McCulloch, Russell Smithies 
  
@@ -197,7 +197,7 @@ At [AgResearch](http://www.agresearch.co.nz/) around 300 scientists perform data
 
 ### The Linked2Safety's Galaxy Based Data Analysis Space
 
-<div class='right'><img src="/src/events/gcc2013/abstracts/talks/AristosAristodimou.jpg" alt="Aristos Aristodimou" width="90" /></div>
+<div class='right'><img src="/events/gcc2013/abstracts/talks/AristosAristodimou.jpg" alt="Aristos Aristodimou" width="90" /></div>
 
 **Aristos Aristodimou**, Athos Antoniades, Constantinos Pattichis
 
@@ -211,7 +211,7 @@ At [AgResearch](http://www.agresearch.co.nz/) around 300 scientists perform data
 
 ### Galaxy as an Integration and Workflow Platform for a Cloud Enabled Bio-medical Image Analysis and Image Processing Toolkit
 
-<div class='right'><img src="/src/events/gcc2013/abstracts/talks/PiotrSzul.jpg" alt="" width="80" /></div>
+<div class='right'><img src="/events/gcc2013/abstracts/talks/PiotrSzul.jpg" alt="" width="80" /></div>
 
 **Piotr Szul**, Dadong Wang, Yulia Arzhaeva, Shiping Chen, Alex Khassapov, Neil BurdeI, Timur Gureyev, John Taylor, Tomasz Bednarz
 
@@ -229,7 +229,7 @@ The presentation explores the adaption of Galaxy to the domain of image processi
 
 ### Representation and statistical analysis of 3D chromatin data in a Galaxy framework
 
-<div class='right'><img src="/src/events/gcc2013/abstracts/talks/JonasPaulsen.jpg" alt="Jonas Paulsen" width="120" /></div>
+<div class='right'><img src="/events/gcc2013/abstracts/talks/JonasPaulsen.jpg" alt="Jonas Paulsen" width="120" /></div>
 
 **Jonas Paulsen <sup>1</sup>**, Tonje G. Lien <sup>2</sup>, Geir Kjetil Sandve <sup>3,4</sup>, Lars Holden<sup>5</sup>, Ørnulf Borgan<sup>2</sup>, Ingrid K. Glad <sup>2</sup> and [Eivind Hovig](http://www.ous-research.no/hovig/) <sup>1,3,6</sup><br />
 
@@ -255,7 +255,7 @@ We show examples of spatial co-localization of chromatin states and fusion trans
 ### Ion Torrent Semiconductor Sequencing Update
 
  
-<div class='right'><img src="/src/images/people/mike-lelivelt.png" alt="" width="90" /></div>
+<div class='right'><img src="/images/people/mike-lelivelt.png" alt="" width="90" /></div>
 
 **[Mike Lelivelt](/people/mike-lelivelt/)<sup>1</sup>**
 
@@ -269,7 +269,7 @@ Ion Torrent has invented the first device—a new semiconductor chip—capable o
 
 ### State of the Galaxy
 
-<div class='right'><img src="/src/images/people/anton.jpg" alt="" width="120" />&nbsp;<img src="/src/images/people/james.jpg" alt="" width="120" /></div>
+<div class='right'><img src="/images/people/anton.jpg" alt="" width="120" />&nbsp;<img src="/images/people/james.jpg" alt="" width="120" /></div>
 
 **[Anton Nekrutenko](/people/anton/)<sup>1</sup> and [James Taylor](/people/james-taylor/)<sup>2</sup>**
 
@@ -304,7 +304,7 @@ The library is easily installable via [PyPi](https://pypi.python.org/pypi) and c
 
 ### Extension of Galaxy to Utilize Web Services and A Semantic Suggestion Engine
 
-<div class='right'><a href='http://mango.ctegd.uga.edu/jkissingLab/'><img src="/src/events/gcc2013/abstracts/talks/JessicaKissinger.png" alt="Jessica Kissinger" width="100" /></a></div>
+<div class='right'><a href='http://mango.ctegd.uga.edu/jkissingLab/'><img src="/events/gcc2013/abstracts/talks/JessicaKissinger.png" alt="Jessica Kissinger" width="100" /></a></div>
 
 Alok Dhamanaskar<sup>1</sup>, Akshay Choche<sup>1</sup>, Michael E. Cotterell<sup>1</sup>, Jie Zheng<sup>5</sup>, Christian Stoeckert Jr.<sup>5</sup>, **[Jessica C. Kissinger](http://mango.ctegd.uga.edu/jkissingLab/)**<sup>1;2;3;4</sup> and John A. Miller<sup>1;2</sup>
 
@@ -323,7 +323,7 @@ Local installations of Galaxy often make extensive use of Galaxy’s workflow to
 
 ### GTrack 1.0: Unified data format providing customizable representation and high-speed analysis performance within Galaxy
 
-<div class='right'><a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'><img src="/src/events/gcc2013/abstracts/talks/SveinungGundersen.jpg" alt="Sveinung Gundersen" width="100" /></a></div>
+<div class='right'><a href='http://www.ous-research.no/home/hovig/Bioinformatics%20personnel/9830'><img src="/events/gcc2013/abstracts/talks/SveinungGundersen.jpg" alt="Sveinung Gundersen" width="100" /></a></div>
 
 **Sveinung Gundersen<sup>1</sup>**, Matúš Kalaš<sup>2,3</sup>, Osman Abul<sup>4</sup>, Arnoldo Frigessi<sup>5,6</sup>, [Eivind Hovig](http://www.ous-research.no/hovig/)<sup>1,7,8</sup>, and Geir Kjetil Sandve<sup>8</sup>
 
@@ -350,7 +350,7 @@ GTrack is fully supported by [The Genomic HyperBrowser (hyperbrowser.uio.no)](ht
 
 ### Globus Genomics - An Integrated End to End Sequencing Analysis Platform Powered by Globus Online and Galaxy
 
-<div class='right'><img src="/src/images/people/RaviMadduri.jpg" alt="Ravi Madduri" width="100" /></div>
+<div class='right'><img src="/images/people/RaviMadduri.jpg" alt="Ravi Madduri" width="100" /></div>
 
 Paul Dave,<sup>1</sup> **Ravi Madduri,**<sup>2</sup> Dina Sulakhe,<sup>1</sup> Alex Rodriguez<sup>1</sup>
 
@@ -365,7 +365,7 @@ In this talk, we will present Globus Genomics which is a robust, scalable, and f
 
 ### Galaxy-P: Beyond Proteomics
 
-<div class='right'><a href='/people/john-chilton/'><img src="/src/events/gcc2013/abstracts/talks/JohnChilton.jpg" alt="" width="100" /></a></div>
+<div class='right'><a href='/people/john-chilton/'><img src="/events/gcc2013/abstracts/talks/JohnChilton.jpg" alt="" width="100" /></a></div>
 
 **[John Chilton](/people/john-chilton/)**<sup>1</sup>, James Johnson<sup>1</sup>, Getiria Onsongo<sup>1</sup>, Ebbing de Jong<sup>1</sup>, Pratik Jagtap<sup>1</sup>, Timothy Griffin<sup>2</sup>
 
@@ -384,7 +384,7 @@ Galaxy has traditionally been geared toward interacting with a small, fixed numb
 
 ### DevOps Ignition to reach Galaxy continuous integration
 
-<div class='right'><img src="/src/images/people/OlivierInizan.png" alt="Olivier Inizan" width="100" /></div>
+<div class='right'><img src="/images/people/OlivierInizan.png" alt="Olivier Inizan" width="100" /></div>
 
 **Michael Loaec, Olivier Inizan**, Jonathan Kreplak, Hadi Quesneville 
 
@@ -408,7 +408,7 @@ The experience gave us new perspectives to improve our development and productio
 
 ### The Clinical Galaxy: A validated platform initiative
 
-<div class='right'><img src="/src/images/people/SanjayJoshi.png" alt="SanjayJoshi" width="100" /></div>
+<div class='right'><img src="/images/people/SanjayJoshi.png" alt="SanjayJoshi" width="100" /></div>
 
 **[Sanjay Joshi](/people/sanjay-joshi/)**
 
@@ -428,7 +428,7 @@ We will present an overview of the requirements to move Galaxy into the Clinical
 
 ### Enhancing the Galaxy Tool Shed
 
-<div class='right'><a href='/people/dan/'><img src="/src/images/people/greg.png" alt="Greg Von Kuster" width="120" /></a></div>
+<div class='right'><a href='/people/dan/'><img src="/images/people/greg.png" alt="Greg Von Kuster" width="120" /></a></div>
 
 **[Greg von Kuster](/people/greg-vonkuster/)**, [Daniel Blankenberg](/people/dan/)
  Penn State / Galaxy Team
@@ -449,7 +449,7 @@ To ensure the quality of the Tool Shed and the available contributed Utilities, 
 
 ### How to Create Your Own Web-based, Interactive Visualizations for Galaxy
 
-<div class='right'><a href='/people/carl-eberhard/'><img src="/src/images/people/carl.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/people/carl-eberhard/'><img src="/images/people/carl.jpg" alt="" width="120" /></a></div>
 
 **[Carl Eberhard](/people/carl-eberhard/)**<sup>1</sup>, [Jeremy Goecks](/people/jeremy-goecks/)<sup>1</sup>, [The Galaxy Team](/galaxy-team/)<sup>1,2</sup>, [Anton Nekrutenko](/people/anton/)<sup>2</sup>, and [James Taylor](/people/james-taylor/)<sup>1</sup>
 
@@ -466,7 +466,7 @@ In this talk, we describe how to create your own visualization for Galaxy. We pr
 
 ### Managing Galaxy's Built-in Data
 
-<div class='right'><a href='/people/dan/'><img src="/src/images/people/dan.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/people/dan/'><img src="/images/people/dan.jpg" alt="" width="120" /></a></div>
 
 **[Daniel Blankenberg](/people/dan/)**
 
@@ -484,7 +484,7 @@ Data Managers can be defined locally or installed automatically from a Tool Shed
 
 ### Contributing to Galaxy
 
-<div class='right'><a href='/people/dannon-baker/'><img src="/src/images/people/dannon.jpg" alt="" width="120" /></a></div>
+<div class='right'><a href='/people/dannon-baker/'><img src="/images/people/dannon.jpg" alt="" width="120" /></a></div>
 
 **[Dannon Baker](/people/dannon-baker/)**<sup>1</sup>, [Nate Coraor](/people/nate/)<sup>2</sup>, [John Chilton](/people/john-chilton/)<sup>3</sup> 
 

@@ -2,7 +2,7 @@
 title: "GlobusWorld 2014"
 date: "2014-03-28"
 ---
-<div class='right'><a href='http://www.globusworld.org/'><img src="/src/images/logos/GlobusGenomics.png" alt="Globus World 2014" width="180" /></a></div>
+<div class='right'><a href='http://www.globusworld.org/'><img src="/images/logos/GlobusGenomics.png" alt="Globus World 2014" width="180" /></a></div>
 
 **[GlobusWorld](http://www.globusworld.org/)** is this year’s biggest gathering of all things [Globus](https://www.globus.org/).  GlobusWorld 2014 features a features a *Using Globus Genomics to Accelerate Analysis Tutorial*, and a full half day on [Globus Genomics](/cloud/#globus-genomics) in the main meeting, including a keynote by Nancy Cox and these accepted talks:
 

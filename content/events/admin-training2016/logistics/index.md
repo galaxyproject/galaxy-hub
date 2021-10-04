@@ -11,7 +11,7 @@ title: Galaxy Admin Training Logistics
 </div>
 
 <div class='left'>
-<a href='https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing'><img src="/src/events/admin-training2016/logistics/AdminTrainingEventMapThumb.png" alt="Online Event Map" width="80" /></a>
+<a href='https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing'><img src="/events/admin-training2016/logistics/AdminTrainingEventMapThumb.png" alt="Online Event Map" width="80" /></a>
 <div class='center'>[Event map](https://drive.google.com/open?id=1vC6J8BdrMDQo_cIJvTr9pjUGGcA&usp=sharing)
 </div></div>
 <br />
@@ -28,7 +28,7 @@ title: Galaxy Admin Training Logistics
 Official conference lodging will be the [University Guest House](http://www.universityguesthouse.com/University-Guest-House) on the [University of Utah](http://utah.edu/) Campus.  *However, the block of rooms reserved for the event was released on October 6.*  You may still be able to book a room there, but it appears that some nights (Thursday and Friday) are already sold out.  [All rooms](http://www.universityguesthouse.com/Single-King) include 
 
 <div class='right'>
-<a href='http://www.universityguesthouse.com/University-Guest-House'><img src="/src/events/admin-training2016/logistics/UniversityGuestHouse.jpg" alt="University Guest House" width="180" /></a>
+<a href='http://www.universityguesthouse.com/University-Guest-House'><img src="/events/admin-training2016/logistics/UniversityGuestHouse.jpg" alt="University Guest House" width="180" /></a>
 </div>
 
 * One king bed 
@@ -39,7 +39,7 @@ Official conference lodging will be the [University Guest House](http://www.univ
 
 University Guest House is on the [UTA Trax Red Line](https://www.rideuta.com/Rider-Tools/Schedules-and-Maps/703-Red-Line), with easy access to Salt Lake City airport and the Salt Lake City Library, the location of the Introduction workshop.
 
-<div class='right'><br /><a href='http://saltlake.littleamerica.com/'><img src="/src/events/admin-training2016/logistics/LittleAmericaHotel.jpg" alt="Little America Hotel" height="100" /></a></div>
+<div class='right'><br /><a href='http://saltlake.littleamerica.com/'><img src="/events/admin-training2016/logistics/LittleAmericaHotel.jpg" alt="Little America Hotel" height="100" /></a></div>
 
 ## Little America Hotel
 
@@ -48,7 +48,7 @@ Another comparably priced option that is close to the Salt Lake City Library, an
 # Transportation
 
 <div class='right'><br />
-<a href='http://www.rideuta.com/'><img src="/src/events/admin-training2016/logistics/UTA_TRAX_Logo.png" alt="UTA TRAX, Salt Lake's light rail network" width="250" /></a>
+<a href='http://www.rideuta.com/'><img src="/events/admin-training2016/logistics/UTA_TRAX_Logo.png" alt="UTA TRAX, Salt Lake's light rail network" width="250" /></a>
 </div>
 
 Getting to Salt Lake is easy, thanks to it's major airport, and getting around Salt Lake is also easy, thanks to [UTA TRAX](http://www.rideuta.com/).
@@ -78,7 +78,7 @@ The Green Line [operates at the airport](https://www.slcairport.com/parking-and-
 * 6:36 a.m. to 11:16 p.m. Saturday
 * 6:20 a.m. to 10:20 p.m. Sunday
 
-<div class='right center'><a href='https://en.wikipedia.org/wiki/Red_Line_(TRAX)#/media/File:TRAX_Red_Line_to_Daybreak_at_Fort_Douglas_Station.jpg'><img src="/src/events/admin-training2016/logistics/TRAX_Red_Line_to_Daybreak_at_Fort_Douglas_Station.jpg" alt="Fort Douglas Station" width="200" /></a><br />
+<div class='right center'><a href='https://en.wikipedia.org/wiki/Red_Line_(TRAX)#/media/File:TRAX_Red_Line_to_Daybreak_at_Fort_Douglas_Station.jpg'><img src="/events/admin-training2016/logistics/TRAX_Red_Line_to_Daybreak_at_Fort_Douglas_Station.jpg" alt="Fort Douglas Station" width="200" /></a><br />
 Fort Douglas Station
 </div>
 
@@ -98,9 +98,9 @@ See the [event map for details](https://drive.google.com/open?id=1vC6J8BdrMDQo_c
 
 
 <div class='right'><br />
-<a href='http://www.slcpl.lib.ut.us/branches/view/Main+Library'><img src="/src/events/admin-training2016/logistics/SLCLibrary1.jpg" alt="alt Lake City Main Public Library, the venue for the introduction workshop"  /></a>
+<a href='http://www.slcpl.lib.ut.us/branches/view/Main+Library'><img src="/events/admin-training2016/logistics/SLCLibrary1.jpg" alt="alt Lake City Main Public Library, the venue for the introduction workshop"  /></a>
 <br />
-<a href='http://www.universityguesthouse.com/Commanders-House'><img src="/src/events/admin-training2016/CommandersHouse.jpg" alt="Commanders House" width="205" /></a>
+<a href='http://www.universityguesthouse.com/Commanders-House'><img src="/events/admin-training2016/CommandersHouse.jpg" alt="Commanders House" width="205" /></a>
 </div>
 
 # Training Venues
@@ -110,7 +110,7 @@ The **[Basics Session](/events/admin-training2016/logistics/BasicsSession/)** wi
 The **[Advanced Session](/events/admin-training2016/logistics/AdvancedSession/)** will be held at the **[Commanders House](http://www.universityguesthouse.com/Commanders-House) on the [University of Utah](http://utah.edu/) campus**.  This is a short walk from the [University Guest House](/events/admin-training2016/logistics/#lodging), where participants are staying.
 
 <div class='left'>
-<a href='http://ucgd.genetics.utah.edu/'><img src="/src/images/logos/USTAR-UCGD-Logo.jpg" alt="USTAR Center for Genetic Discovery (UCGD)" width="280" /></a></div>
+<a href='http://ucgd.genetics.utah.edu/'><img src="/images/logos/USTAR-UCGD-Logo.jpg" alt="USTAR Center for Genetic Discovery (UCGD)" width="280" /></a></div>
 
 We would like to thank the **[USTAR Center for Genetic Discovery (UCGD)](http://ucgd.genetics.utah.edu/)** for a grant to book this great venue for the advanced workshop.
 

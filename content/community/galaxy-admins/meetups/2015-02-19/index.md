@@ -1,4 +1,4 @@
-<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2015-02-19 Web Meetup<br /><br />
 
 </div></div>
@@ -54,7 +54,7 @@ Installing this will give you two executables, galaxycfg and galaxyadm. As their
 A virtualenv will automatically be created for your Galaxy server. It's a good thing.
 </div>
 
-<div class='right'><br /><a href='http://bit.ly/admins1502'><img src="/src/images/logos/AdobeConnectSquarish.jpg" alt="February 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></a></div>
+<div class='right'><br /><a href='http://bit.ly/admins1502'><img src="/images/logos/AdobeConnectSquarish.jpg" alt="February 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></a></div>
 
 ## Call Technology
 
@@ -66,4 +66,4 @@ The  [meetup's online conference room](http://bit.ly/admins1502) will open 15 mi
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'><img src="/src/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>
+<div class='center'><img src="/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>

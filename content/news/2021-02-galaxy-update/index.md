@@ -8,7 +8,7 @@ date: "2021-02-08"
 <div class="card-header">In this issue:</div>
 <div class="card-body">
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 <ul style="font-size: 1.1rem;">
   <li>**[Event news](#event-news)**:
@@ -127,7 +127,7 @@ Other things are changing too. See [the announcement](/news/2021-02-gcc-virtual/
 
 <!-- GTN Smörgåsbord -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogo300.png" alt="GTN Smörgåsbord" />
+<img class="card-img-top" src="/images/galaxy-logos/GTNLogo300.png" alt="GTN Smörgåsbord" />
 <div class="card-header">[GTN Smörgåsbord: A Global Galaxy Course](https://shiltemann.github.io/global-galaxy-course/)</div>
 
 **15-19 February, Online, Global**
@@ -145,7 +145,7 @@ Are you interested in teaching with Galaxy, and would you like to be involved in
 
 <!-- Galaxy Webinars -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+<img class="card-img-top" src="/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 <div class="card-header">[2nd Galaxy-ELIXIR Webinar Series](https://elixir-europe.org/events/2nd-galaxy-elixir-webinar-series)</div>
 
 **10, 17, 24 February**
@@ -164,7 +164,7 @@ This series of [webinars](https://elixir-europe.org/events/2nd-galaxy-elixir-web
 
 <!-- Paper Cuts & GTN Cofest -->
 <div class="card border-info" style="min-width: 18rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN Cofest and Community Call + Paper Cuts February" />
+<img class="card-img-top" src="/images/galaxy-logos/gtn-cofests.png" alt="GTN Cofest and Community Call + Paper Cuts February" />
 <div class="card-header">[February Papercuts + GTN: CoFests & Community Calls](/events/2021-02-gtn/)</div>
 
 **25 February, Online, Global**
@@ -182,7 +182,7 @@ Please join us online on 25 February, wherever you are in the world.
 
 <!-- CWL MiniConf -->
 <div class="card border-info" style="min-width: 12rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/cwl-logo-small-trans.png" alt="CWL" />
+<img class="card-img-top" src="/images/logos/cwl-logo-small-trans.png" alt="CWL" />
 <div class="card-header">[CWL Mini Conference](https://github.com/common-workflow-language/common-workflow-language/wiki/2021-CWL-Mini-Conference)</div>
 
 **8-10 February, Online, Global**
@@ -196,7 +196,7 @@ Three half days of talks, discussions and co-working time, all about the [Common
 
 <!-- MassSpec Meetup -->
 <div class="card border-info" style="min-width: 18rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2021-02-mass-spec/fig1.png" alt="Tools & Workflows for mass spec.  Fig 1 from doi: 10.1007/978-1-4939-9232-4_16" />
+<img class="card-img-top" src="/events/2021-02-mass-spec/fig1.png" alt="Tools & Workflows for mass spec.  Fig 1 from doi: 10.1007/978-1-4939-9232-4_16" />
 <div class="card-header">[Mass Spectrometry Meetup](https://z.umn.edu/celestialmasses)</div>
 
 **18 February, Online, Global**
@@ -209,7 +209,7 @@ Working in mass spec?  The Galaxy mass spec community gathers every 6 weeks and 
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 16rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtable](/community/devroundtable/)</div>
 
 There next roundtable meetup will be:
@@ -220,7 +220,7 @@ There next roundtable meetup will be:
 
 <!-- EBI Single Cell -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/embl-ebi-logo.png" alt="EMBL EBI" />
+<img class="card-img-top" src="/images/logos/embl-ebi-logo.png" alt="EMBL EBI" />
 <div class="card-header">[Single-cell RNA-seq & network analysis using Galaxy and Cytoscape](https://www.ebi.ac.uk/training-beta/events/single-cell-rna-seq-network-analysis-using-galaxy-and-cytoscape/)</div>
 
 **26-30 April, Online; Apply by 26 February**
@@ -241,7 +241,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[ATACgraph](/use/atacgraph/)</div>
 
-<img class="card-img-top" src="/src/use/atacgraph/atacgraph-flow-slice.png" alt="ATACgraph" />
+<img class="card-img-top" src="/use/atacgraph/atacgraph-flow-slice.png" alt="ATACgraph" />
 
 The [ATACgraph Galaxy container](https://hub.docker.com/r/lsbnb/galaxy_atacgraph) profiles accessible chromatin regions and provides ATAC-seq-specific information including definitions of nucleosome-free regions (NFRs) and nucleosome-occupied regions. ATACgraph also allows identification of differentially accessible regions between two ATAC-seq datasets.
 </div>
@@ -251,7 +251,7 @@ The [ATACgraph Galaxy container](https://hub.docker.com/r/lsbnb/galaxy_atacgraph
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[CorGAT](/use/corgat/)</div>
 
-<img class="card-img-top" src="/src/use/laniakea/laniakea_logo_def_white_background.png" alt="CorGAT on Laniakea" />
+<img class="card-img-top" src="/use/laniakea/laniakea_logo_def_white_background.png" alt="CorGAT on Laniakea" />
 
 [CorGAT](http://corgat.cloud.ba.infn.it/galaxy) aligns complete assemblies of SARS-CoV-2 genomes wih the reference genomic sequence, to obtain a list of polymorphic positions and to annotate genetic variants.  See the [CorGAT Manual](https://corgat.readthedocs.io/en/latest/) for more.  CorGAT is one of several servers that runs on [Laniakea](/use/laniakea/).
 </div>
@@ -262,7 +262,7 @@ The [ATACgraph Galaxy container](https://hub.docker.com/r/lsbnb/galaxy_atacgraph
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">StreetScience / Virology / COVID-19 / Metabolomics / Metagenomics / ...</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy.eu.256.png" alt="StreetScience, Virology, COVID-19, Metabolomics, and Metagenomics Servers, all running on UseGalaxy.eu" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy.eu.256.png" alt="StreetScience, Virology, COVID-19, Metabolomics, and Metagenomics Servers, all running on UseGalaxy.eu" />
 
 The Galaxy Europe team has been busy creating more customized Galaxy instances:
 
@@ -281,7 +281,7 @@ These are just a few of the [large number of specialty subdomains hosted by UseG
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
@@ -331,7 +331,7 @@ By Kelli Shute.
 
 [Trusted CI](https://trustedci.org/) and Galaxy reviewed the security of a new Galaxy software distribution being developed as a containerized package, with an eye toward its use with sensitive information such as protected health information (PHI). See the [announcement](https://blog.trustedci.org/2021/02/trusted-ci-and-sgci-collaborate-to.html) and the [report](http://hdl.handle.net/2022/26262) for details.
 
-<img class="card-img-bottom" src="/src/images/logos/trusted-ci-logo.jpg" alt="Trusted CI logo" />
+<img class="card-img-bottom" src="/images/logos/trusted-ci-logo.jpg" alt="Trusted CI logo" />
 </div>
 
 <!-- New and updated CNV and Variant Calling tools -->
@@ -354,7 +354,7 @@ By Wolfgang Maier and Björn Grüning.
 
 Continuous tracking of viral evolution through genome sequencing.
 
-<img class="card-img-bottom" src="/src/blog/2021-01-sars-cov-2/sars-cov-2-variation-plot.png" alt="Variation" />
+<img class="card-img-bottom" src="/blog/2021-01-sars-cov-2/sars-cov-2-variation-plot.png" alt="Variation" />
 </div>
 
 <!-- Major update to SearchGUI and PeptideShaker -->
@@ -376,7 +376,7 @@ After 3 years of work, SearchGUI (SG), a tool that performs protein identificati
 By Geraldine Van der Auwera.
 
 Run your own personal, and customizable Galaxy server in the secure (FISMA moderate) AnVIL environment.
-<img class="card-img-bottom" src="/src/images/logos/anvil-logo-text.png" alt="AnVIL" />
+<img class="card-img-bottom" src="/images/logos/anvil-logo-text.png" alt="AnVIL" />
 </div>
 
 
@@ -388,7 +388,7 @@ By Lachlan Gray.
 
 Lachlan tells the training experience or the SciX program at the University of New South Wales, Sydney.
 
-<img class="card-img-bottom" src="/src/images/logos/tiaas-logo.png" alt="TIaaS" />
+<img class="card-img-bottom" src="/images/logos/tiaas-logo.png" alt="TIaaS" />
 </div>
 
 
@@ -402,7 +402,7 @@ The past 29th of January, the Galaxy Metabolomics community had the first Mini-S
 
 To know more about the Galaxy Metabolomics community, please [subscribe to the mailing list](https://lists.galaxyproject.org/lists/metabolomics.lists.galaxyproject.org/) or join the [metabolomics Gitter channel](https://gitter.im/usegalaxy-eu/metabolomics).
 
-<img class="card-img-bottom" src="/src/images/communities/metabolomics.png" alt="metabolomics" />
+<img class="card-img-bottom" src="/images/communities/metabolomics.png" alt="metabolomics" />
 </div>
 
 </div>
@@ -443,7 +443,7 @@ As a result of the recently completed Admin Training course, most [Galaxy Server
 * [Mapping Jobs to Destinations](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html)
 * plus at least 6 more hands on examples and at least 13 slide decks.
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training" />
+<img class="card-img-bottom" src="/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training" />
 </div>
 
 
@@ -468,7 +468,7 @@ By Helena Rasche.
 
 This new feature will help the GTN contributors, as they will only need to enable video and opt-in to automatic video production. The video will be re-built anytime a contributor updates their slide decks in a completely automatic way.
 
-<img class="card-img-bottom" src="/src/images/logos/gallantries-logo-with-word-inverted-large.svg" alt="Gallantries" />
+<img class="card-img-bottom" src="/images/logos/gallantries-logo-with-word-inverted-large.svg" alt="Gallantries" />
 </div>
 
 
@@ -494,7 +494,7 @@ A number of tutorials have already created videos using the new text to speech c
 
 The global [Life Science Trainers Community](https://lifescitrainers.org/) (yes, you should join) wants to highlight the important role of trainers and understand how they can be better supported. If you are, or have been a trainer, [share your thoughts](https://lifescitrainers.org/2021/01/18/global-trainers-survey/) in this survey by March 20.
 
-<img class="card-img-bottom" src="/src/images/logos/life-science-trainiers-squarish.png" alt="Life Sciences Trainers" />
+<img class="card-img-bottom" src="/images/logos/life-science-trainiers-squarish.png" alt="Life Sciences Trainers" />
 </div>
 
 
@@ -526,7 +526,7 @@ This tutorial on proteogenomic database searching using mass spectrometry data g
 
 This genome assembly tutorial got an update from Anna Syme.
 
-<img class="card-img-bottom" src="/src/news/2020-12-galaxy-update/chloroplast_genome_assembly.png" alt="Chloroplast assembly" />
+<img class="card-img-bottom" src="/news/2020-12-galaxy-update/chloroplast_genome_assembly.png" alt="Chloroplast assembly" />
 </div>
 
 
@@ -608,7 +608,7 @@ Sabato, L. D., Vaccari, G., Knijn, A., Ianiro, G., Bartolo, I. D., & Morabito, S
 
 Utilize high-throughput omics technologies, such as next generation sequencing, and data-intensive computing to explore biomedical research questions.
 
-<img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" /></div>
+<img class="card-img-bottom" src="/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" /></div>
 
 
 <!-- SynBioData -->
@@ -621,7 +621,7 @@ Design solutions to synthesize molecules in microorganisms & to implement the se
 
 **Apply by 1 March.**
 
-<img class="card-img-bottom" src="/src/use/synbiocad/synbiocad-visual.png" alt="SynBioCAD" />
+<img class="card-img-bottom" src="/use/synbiocad/synbiocad-visual.png" alt="SynBioCAD" />
 </div>
 
 
@@ -645,7 +645,7 @@ Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins Un
 
 Data science research and education focusing on genomics ([AnVIL](https://anvilproject.org/), [Genomic Data Science Community Network](http://www.gdscn.org/)), cancer ([ITCR](https://itcr.cancer.gov/))  or pain [A2CPS](https://a2cps.org/).
 
-<img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
+<img class="card-img-bottom" src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
 </div>
 
 
@@ -661,7 +661,7 @@ Roche, Bay Area, California, United States.
 * Use these tools & workflows for R&D projects.
 * Deploy these tools on Roche intranet (Galaxy) and train scientists to use them.
 
-<img class="card-img-bottom" src="/src/images/logos/roche-logo.png" alt="Roche" />
+<img class="card-img-bottom" src="/images/logos/roche-logo.png" alt="Roche" />
 </div>
 
 
@@ -673,7 +673,7 @@ Johns Hopkins University, Baltimore, Maryland, United States.
 
 Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. 
 
-<img class="card-img-bottom" src="/src/images/logos/anvil-logo-text.png" alt="AnVIL" />
+<img class="card-img-bottom" src="/images/logos/anvil-logo-text.png" alt="AnVIL" />
 </div>
 
 
@@ -685,7 +685,7 @@ The Schatz Lab at Johns Hopkins University is looking for:
 * Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
 * Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 
-<img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
+<img class="card-img-bottom" src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
 </div>
 
 
@@ -695,7 +695,7 @@ The Schatz Lab at Johns Hopkins University is looking for:
 
 The [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/) is offering a 1-year position for a developer to work on [usegalaxy.fr](https://usegalaxy.fr/), focused on the contribution to the development, evolution, deployment and maintenance of the French infrastructure.
 
-<img class="card-img-bottom" src="/src/images/logos/ifb-logo-text.jpg" alt="IFB" />
+<img class="card-img-bottom" src="/images/logos/ifb-logo-text.jpg" alt="IFB" />
 </div>
 
 
@@ -706,7 +706,7 @@ The [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatiqu
 VIB-UGent Center for Plant Systems Biology has two open positions to work on the [ELIXIR Belgium](https://www.elixir-belgium.org/) research data analysis team, both for an initial duration of 2 years.
 
 
-<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="Johns Hopkins" />
+<img class="card-img-bottom" src="/images/logos/vib-logo-large.jpg" alt="Johns Hopkins" />
 </div>
 
 

@@ -3,7 +3,7 @@ title: "GCC2016 Training Topic Vote!"
 date: "2015-10-26"
 ---
 <div class='right'>
-<img src="/src/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="170" /><br />
+<img src="/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="170" /><br />
 <table>
   <tr>
     <th> &nbsp;&nbsp; <a href='http://bit.ly/gcc2016vote'>Vote now!</a> &nbsp;&nbsp; </th>

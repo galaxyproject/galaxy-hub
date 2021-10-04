@@ -4,7 +4,7 @@ tease: 'Platforms Directory; new events, pubs, blog posts, servers, tools and re
 date: "2018-11-01"
 ---
 
-[<img class="float-right" src="/src/news/2018-11-galaxy-update/2018-11-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
+[<img class="float-right" src="/news/2018-11-galaxy-update/2018-11-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *November  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
@@ -27,7 +27,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 # The Galaxy Platforms Directory
 
-[<img src="/src/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="400" />](/use/)
+[<img src="/use/use-resource-banner.png" class="float-right" alt="125+ platforms to use Galaxy on" width="400" />](/use/)
 
 We are pleased to announce the new [Galaxy Platform Directory](/use/).  This directory lists 125 platforms where you can use or deploy your own Galaxy Server with minimal effort, including
 
@@ -51,13 +51,13 @@ And there are several new platforms for running Galaxy this month too:
 
 ### SMAGEXP
 
-<img src="/src/use/archive/smagexp/smagexp-flowchart.png" class="float-right" alt="SMAGEXP" width="300" />
+<img src="/use/archive/smagexp/smagexp-flowchart.png" class="float-right" alt="SMAGEXP" width="300" />
 
 SMAGEXP (Statistical Meta-Analysis for Gene EXPression) provides a unified way to carry out meta-analysis of gene expression data, while taking care of their specificities. A Galaxy instance is provided in a Docker container.  SMAGEXP comes with an [Installation and user guide, including two step-by-step examples](https://github.com/sblanck/smagexp#table-of-contents-).  It is supported by Univ. Lille Droit et Santé, Lille, France and Inria Lille-Nord Europe, MODAL, Lille, France.
 
 ### SNIC Science Cloud (SSC)
 
-[<img src="/src/use/snic-science-cloud/snic-science-cloud.png" class="float-left" alt="SNIC Science Cloud (SSC)" width="200" />](/use/snic-science-cloud/)
+[<img src="/use/snic-science-cloud/snic-science-cloud.png" class="float-left" alt="SNIC Science Cloud (SSC)" width="200" />](/use/snic-science-cloud/)
 
 [Swedish National Infrastructure for Computing (SNIC)](http://snic.se/) [Science Cloud (SSC)](https://cloud.snic.se/) is a community cloud and use of the resources is free of charge to Swedish PIs and their collaborators. As for other SNIC allocations you need an affiliation with a Swedish higher education institution to be eligible to apply for a project.  It's a national-scale cloud infrastructure for Swedish Academia.
 
@@ -70,7 +70,7 @@ quotas:
 
 Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming events to help get you out and about.
 
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
+[<img class="float-right" src="/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
 
 ## European Galaxy Days, 19-20 November, Freiburg, Germany
 
@@ -81,7 +81,7 @@ Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming 
 
 ## 2019 Galaxy Admin Training
 
-[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/events/2019-admin-training/)
+[<img class="float-right" src="/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/events/2019-admin-training/)
 
 **[Galaxy Admin Training](/events/2018-europe-dev/)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
 
@@ -244,7 +244,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 ----
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="220" />](/blog/)
+[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="220" />](/blog/)
 
 There are two new *[Galactic Blog](/blog/)* entries:
 * **[Contributor of the month: Saskia Hiltemann](https://galaxyproject.org/blog/2018-11-cotm-saskia-hiltemann/)**, by Marten Čech
@@ -253,7 +253,7 @@ There are two new *[Galactic Blog](/blog/)* entries:
 ---- 
 # Who's Hiring
 
-<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
@@ -282,7 +282,7 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
 
 ## Training Materials
 
-[<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
+[<img class="float-right img-responsive" src="/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
 * New [Deploying a compute cluster in OpenStack via Terraform hands-on tutorial](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/tutorial.html) and [Slides](https://galaxyproject.github.io/training-material/topics/admin/tutorials/terraform/slides.html), by [Helena Rasche](https://github.com/hexylena)
 * New [Ansible hands-on tutoral](https://galaxyproject.github.io/training-material/topics/admin/tutorials/ansible/tutorial.html) and [Slides](https://galaxyproject.github.io/training-material/topics/admin/tutorials/ansible/slides.html), by [Helena Rasche](/people/helena-rasche/)
@@ -310,7 +310,7 @@ And we would especially like to welcome new contributors [Matthias313](https://g
 
 # ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in October 2018](/toolshed/contributions/2018-10/).
 
@@ -325,7 +325,7 @@ We are pleased to announce the [release of Galaxy 18.09](https://galaxyproject.o
 
 ## Planemo 0.56.0
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
