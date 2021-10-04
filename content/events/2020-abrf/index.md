@@ -16,18 +16,13 @@ contact: "Pratik Jagtap, Tim Griffin, Dave Clements, Saskia Hiltemann, Subina Me
 
 There will be a [day long satellite workshop on Galaxy](https://conf.abrf.org/program/satellite-workshops/) on Saturday, February 29 at [ABRF 2020](http://conf.abrf.org/) in Palm Springs.  
 
-# Registration 
-
-Registration is open.  Space is limited, so early registration is strongly encouraged.
-
-<button type="button" class="btn btn-light" style="font-size: larger">[Register now](https://conf.abrf.org/program/registration-schedule/)</button>
 
 The day focuses on two topics:
 
 # SW4a: Single Cell RNA-Seq and Visualization Using the Galaxy Workbench (AM)
 
 <div class="float-right">
-[<img src="mehmet-tekman.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Mehmet_Tekman) &nbsp; [<img src="/people/dave-clements/dave-clements-150.jpg" style="max-width:120px" />](/people/dave-clements/)
+<a href="https://www.researchgate.net/profile/Mehmet_Tekman"><img src="/images/people/mehmet-tekman/mehmet-tekman.jpg" style="max-width:120px" /> &nbsp; <a href="/people/dave-clements/"><img src="/images/people/dave-clements/dave-clements-150.jpg" style="max-width:120px" /></a>
 </div>
 
 **Instructors:**
@@ -56,7 +51,7 @@ Participants will perform hands-on guided exercises analyzing and visualizing sc
 # SW4b: Galaxy Platform for Functional Characteristics of Microbiomes (PM)
 
 <div class="float-right"><br />
-[<img src="saskia-hiltemann.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Saskia_Hiltemann) &nbsp; [<img src="pratik-jagtap.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Pratik_Jagtap2) &nbsp; [<img src="subina-mehta.jpg" style="max-width:120px" />](https://www.researchgate.net/profile/Subina_Mehta)
+<a href="https://www.researchgate.net/profile/Saskia_Hiltemann"><img src="/images/people/saskia-hiltemann/saskia-hiltemann.jpg" style="max-width:120px" /></a> &nbsp; <a href="https://www.researchgate.net/profile/Pratik_Jagtap2"><img src="/images/people/pratik-jagtap/pratik-jagtap.jpg" style="max-width:120px" /></a> &nbsp; <a href="https://www.researchgate.net/profile/Subina_Mehta"><img src="/images/people/subina-mehta/subina-mehta.jpg" style="max-width:120px" /></a>
 </div>
 
 **Instructors:**
@@ -81,13 +76,13 @@ Functional microbiome analysis which estimates the functional groups expressed b
 These workshops are generously supported by
 
 <div class="text-center">
-[<img src="/src/images/logos/sciex-logo.jpg" style="max-width:200px" alt="SCIEX: The Power of Precision" />](https://sciex.com/) &nbsp; [<img src="/src/images/logos/thermo-fisher-logo.jpg" style="max-width:200px" alt="Thermo Fisher Scientific" />](https://www.thermofisher.com/) &nbsp; [<img src="/src/images/logos/IlluminaLogo250.png" alt="Illumina" style="max-width:200px" />](https://illumina.com/) &nbsp; [<img src="/src/images/logos/jetstream-plus-ncgas.png" alt="Jetstream and NCGAS" style="max-width:200px" />](https://ncgas.org/Blog_Posts/Getting%20Started%20on%20Jetstream.php) &nbsp;&nbsp; [<img src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width:180px" />](https://galaxyworks.io/) &nbsp;&nbsp; [<img src="/src/images/logos/seqonce-logo.png" alt="SeqOnce" style="max-width:180px" />](https://seqonce.com/) &nbsp;&nbsp; [<img src="/src/images/logos/deNBILogo.png" alt="de.NBI" style="max-width:180px" />](https://www.denbi.de/) 
+<a href="https://sciex.com/"><img src="/images/logos/sciex-logo.jpg" style="max-width:200px" alt="SCIEX: The Power of Precision" /> &nbsp; <a href="https://www.thermofisher.com/"><img src="/images/logos/thermo-fisher-logo.jpg" style="max-width:200px" alt="Thermo Fisher Scientific" /> &nbsp; <a href="https://illumina.com/"><img src="/images/logos/IlluminaLogo250.png" alt="Illumina" style="max-width:200px" /> &nbsp; <a href="https://ncgas.org/Blog_Posts/Getting%20Started%20on%20Jetstream.php"><img src="/images/logos/jetstream-plus-ncgas.png" alt="Jetstream and NCGAS" style="max-width:200px" /></a> &nbsp;&nbsp; <a href="https://galaxyworks.io/"><img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width:180px" /> &nbsp;&nbsp; <a href="https://seqonce.com/"><img src="/images/logos/seqonce-logo.png" alt="SeqOnce" style="max-width:180px" /></a> &nbsp;&nbsp; <a href="https://www.denbi.de/"><img src="/images/logos/deNBILogo.png" alt="de.NBI" style="max-width:180px" /></a> 
 </div>
 
 
 # Plus
 
-* **Poster 105: Using the Galaxy Training Network tutorial library for bioinformatics training programs**
+* **[Poster 105: Using the Galaxy Training Network tutorial library for bioinformatics training programs](https://depot.galaxyproject.org/hub/attachments/events/2020-abrf/2020-abrf-gtn-poster.pdf)**
 * Monday, March 2, Poster Session I, 11:30-12:30
 * Dave Clements
 
