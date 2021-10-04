@@ -202,7 +202,7 @@ And don't worry if you are not near Norwich or Edinburgh in May.  There are [at 
 
 <div class='center'> 
 <a href='/events/uk-may2014/'><img src="/src/images/logos/UKMay2014Tour.png" alt="" height="80" /></a>&nbsp;
-<a href='/src/gmod:GMOD_Online_Training_2014/index.md'><img src="/src/images/logos/GMODOnlineTraining2014.png" alt="GMOD Online Training" height="80" /></a> &nbsp;
+<a href='/gmod:GMOD_Online_Training_2014/'><img src="/src/images/logos/GMODOnlineTraining2014.png" alt="GMOD Online Training" height="80" /></a> &nbsp;
 <a href='/events/gcc2014/'><img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014 early registration and abstract submission are now open" height="75" /></a>&nbsp;
 
 </div>

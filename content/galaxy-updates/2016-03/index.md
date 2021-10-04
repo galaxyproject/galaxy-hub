@@ -196,7 +196,7 @@ We will do our best to coordinate and make this hackathon a nice and productive 
 ## GMOD Meeting, June 30 - July 1
 
 <div class='right'>
-<a href='/src/gmod:Jun_2016_GMOD_Meeting/index.md'><img src="/src/images/logos/GMODLogo.png" alt="2016 GMOD meeting" width="160" /></a>
+<a href='/gmod:Jun_2016_GMOD_Meeting/'><img src="/src/images/logos/GMODLogo.png" alt="2016 GMOD meeting" width="160" /></a>
 </div>
 
 The [2016 GMOD meeting](http://gmod.org/wiki/Jun_2016_GMOD_Meeting) will be held **immediately following GCC2016 and in the same venue as GCC2016**.  [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) is a consortium of open-source software project, including Galaxy, that address common challenges with biological data.  Other projects in the GMOD consortium include 

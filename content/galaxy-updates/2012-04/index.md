@@ -56,7 +56,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://bioinformatics.ca/workshops/high_throughput'><img src="/src/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a>  <a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'><img src="/src/images/logos/NESCentAcademyLogo.png" alt="Next-gen Sequencing in Evolutionary Biology Course" height="100" /></a> <a href='http://www.iscb.org/ismb2012'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>
+<a href='/gmod:April 2012 GMOD Meeting/'><img src="/src/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://bioinformatics.ca/workshops/high_throughput'><img src="/src/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a>  <a href='https://www.nescent.org/sites/academy/Next-gen_sequencing'><img src="/src/images/logos/NESCentAcademyLogo.png" alt="Next-gen Sequencing in Evolutionary Biology Course" height="100" /></a> <a href='http://www.iscb.org/ismb2012'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>
 </div>
 
 ### Deadlines

@@ -141,7 +141,7 @@ The next [GalaxyAdmins meetup](/community/galaxy-admins/) will be Wednesday, Mar
 <div class='center'>
 <a href='http://bit.ly/UFefFx'><img src="/src/images/logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core" height="80" /></a>
 <a href='http://conf.abrf.org/'><img src="/src/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
-<a href='/src/gmod:April_2013_GMOD_Meeting/index.md'><img src="/src/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
+<a href='/gmod:April_2013_GMOD_Meeting/'><img src="/src/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
 <a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 </div>
 

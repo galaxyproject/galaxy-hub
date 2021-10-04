@@ -446,7 +446,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
    The [most recent edition of CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release) was released in August.
 
  **BioBlend V0.5.3**
-   [BioBlend v0.3](/src/news/bio-blend-v0.5.3/index.md) was also released in March.<br />
+   [BioBlend v0.3](/news/bio-blend-v0.5.3/) was also released in March.<br />
    [BioBlend](https://github.com/galaxyproject/bioblend/blob) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  ([CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)
 
  **blend4j v0.1.2**

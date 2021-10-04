@@ -114,7 +114,7 @@ See the [meetup page](/community/galaxy-admins/meetups/2013-03-20/) for details.
 
 ## Galaxy at GMOD 2013 and Biocuration 2013
 
-<div class='right'> <a href='/src/gmod:April_2013_GMOD_Meeting/index.md'><img src="/src/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
+<div class='right'> <a href='/gmod:April_2013_GMOD_Meeting/'><img src="/src/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
 <a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'><img src="/src/images/logos/ISBLogoWAcronym223.png" alt="Biocuration 2013" height="70" /></a></div>
 
 Galaxy will [have a presence](/news/galaxy-gmod-biocuration2013/) at both the [GMOD 2013](http://gmod.org/wiki/April 2013 GMOD Meeting) and [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home).  Both are being held in Cambridge, UK in early April.  If you are interested in either community, then it would be great to see you there.

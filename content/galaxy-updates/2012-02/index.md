@@ -36,7 +36,7 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll include it in next month's update.
 
 <div class='right'>
-<a href='/src/gmod:April 2012 GMOD Meeting/index.md'><img src="/src/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=105 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
+<a href='/gmod:April 2012 GMOD Meeting/'><img src="/src/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=105 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
 </div>
 
 ## Upcoming Events and Deadlines
