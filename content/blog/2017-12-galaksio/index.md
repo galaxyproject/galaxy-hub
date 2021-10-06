@@ -4,7 +4,7 @@ title: "Galaksio: a Galaxy user interface focused on running prepared workflows"
 tease: "Make your workflows more accessible to non-bioinformaticians"
 authors: "Tomas Klingström"
 external_url: ""
-image: "/src/images/logos/galaksio_logo.png"
+image: "/images/logos/galaksio_logo.png"
 source_blog_url: ""
 source_blog: 
 ---
@@ -49,7 +49,7 @@ The key contribution of the Galaksio interface is that it provides bioinformatic
 
 A Galaksio interface is always pointing towards a Galaxy server which hosts all the data and executes the workflows. During testing we have operated with our own locally hosted Galaxy server but also tested it using usegalaxy.org and even [organised a training workshop](https://usegalaxy-eu.github.io/galaxy-freiburg/2017/12/10/b3africa.html) with the support of the Freiburg Galaxy Team using the galaxy.uni-freiburg server. The benefit of this set up is that any Galaxy server which provides API access can be provided with a Galaksio interface without any modifications to the server itself. Meaning that Galaksio is easy to add to existing Galaxy server in order to improve access to best practice workflows or complex tool packages. 
 
-[<img class="img-fluid" src="/src/blog/2017-12-galaksio/galaksio-layers.png" alt="Galaksio layers: Figure 1, image from the article Galaksio, a user friendly workflow-centric front end for Galaxy (https://doi.org/10.14806/ej.23.0.897)." />](https://doi.org/10.14806/ej.23.0.897)
+[<img class="img-fluid" src="/blog/2017-12-galaksio/galaksio-layers.png" alt="Galaksio layers: Figure 1, image from the article Galaksio, a user friendly workflow-centric front end for Galaxy (https://doi.org/10.14806/ej.23.0.897)." />](https://doi.org/10.14806/ej.23.0.897)
 
 Figure 1, image from the article "Galaksio, a user friendly workflow-centric front end for Galaxy" (https://doi.org/10.14806/ej.23.0.897).
 

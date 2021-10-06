@@ -4,7 +4,7 @@ title: GalaxyScientists
 <slot name="/events/gcc2015/header" />
 
 
-<div class='left'><a href='/events/gcc2015/bofs/'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/events/gcc2015/bofs/'><img src="/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
 This page describes the **GalaxyScientists** [Birds of a Feather](/events/gcc2015/bofs/) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
 

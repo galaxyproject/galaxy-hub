@@ -1,7 +1,7 @@
 <div class='center'>
-<a href='http://www.open-bio.org/wiki/BOSC_2013'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2013" width="120" /></a>&nbsp;&nbsp;&nbsp;
-<a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'><img src="/src/images/logos/MSSIG2013Logo.jpg" alt="MS SIG 2013: Beyond the Proteomics" width="110" /></a>&nbsp;&nbsp;&nbsp;
-<a href='http://www.iscb.org/ismbeccb2013'><img src="/src/images/logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="100" /></a>
+<a href='http://www.open-bio.org/wiki/BOSC_2013'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2013" width="120" /></a>&nbsp;&nbsp;&nbsp;
+<a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'><img src="/images/logos/MSSIG2013Logo.jpg" alt="MS SIG 2013: Beyond the Proteomics" width="110" /></a>&nbsp;&nbsp;&nbsp;
+<a href='http://www.iscb.org/ismbeccb2013'><img src="/images/logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="100" /></a>
 
 # Galaxy at ISMB/ECCB, BOSC, and MS SIG 2013
 
@@ -118,7 +118,7 @@ Galaxy had a significant presence at [ISMB/ECCB](http://www.iscb.org/ismbeccb201
   </tr>
   <tr>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=B#B26'>B26: GenomeSpace: An environment for frictionless bioinformatics</a>,</em> Michael Reich </td>
-    <td> <a href='/src/documents/presentations/2013ISMBGenomeSpaceReich.pdf'>Poster</a>, <a href='http://www.flickr.com/photos/97823772@N02/9367536363/'>Graphic</a> </td>
+    <td> <a href='/documents/presentations/2013ISMBGenomeSpaceReich.pdf'>Poster</a>, <a href='http://www.flickr.com/photos/97823772@N02/9367536363/'>Graphic</a> </td>
   </tr>
   <tr>
     <td> <em><a href='http://www.iscb.org/cms_addon/conferences/ismbeccb2013/posterlist.php?cat=B#B60'>B60: Tools for the correction, analysis and visualization of next generation sequencing data</a>,</em> Fidel Ramírez </td>

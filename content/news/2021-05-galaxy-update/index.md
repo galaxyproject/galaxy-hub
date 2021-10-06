@@ -4,7 +4,7 @@ tease: "GCC2021 and James Taylor Video Deadlines Extended, plus a whole lot more
 date: "2021-05-04"
 ---
 
-<a href="/galaxy-updates/"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -38,7 +38,7 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 <div class="card border-info" style="min-width: 70%; max-width: 100%">
 <div class="card-img-top trim-p">
 
-![James Taylor](/src/images/jxtx/jxtx-stripe.jpg)
+![James Taylor](/images/jxtx/jxtx-stripe.jpg)
 
 </div>
 <div class="card-header">Share your favorite James Taylor story: Deadline extended to May 7</div>
@@ -134,7 +134,7 @@ Early conference registration [is open until 1 June](/news/2021-04-gcc-reg/).
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 50%;">
-<img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
+<img class="card-img-top" src="/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
 [Open Galaxy Positions](/careers/)
@@ -159,7 +159,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <div class="card border-info" style="min-width: 22rem; max-width: 100%">
 <div class="trim-p">
 
-![Galaxy @ ISMB/ECCB & BOSC ?](/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png)
+![Galaxy @ ISMB/ECCB & BOSC ?](/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png)
 
 </div>
 <div class="card-header trim-p">
@@ -176,7 +176,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 
 Most of these are accepting talk and poster submissions through the [ISMB/ECCB website](https://www.iscb.org/ismbeccb2021), but [BioInfo-Core is taking talk submissions here](https://forms.gle/N1mfB3dEEd4oi4wBA).  All submissions are due May 6.
 
-<img class="card-img-top" src="/src/images/logos/bioinfo-core-wide.png" alt="BioInfo-Core" style="max-width: 90%" />
+<img class="card-img-top" src="/images/logos/bioinfo-core-wide.png" alt="BioInfo-Core" style="max-width: 90%" />
 </div>
 
 
@@ -184,7 +184,7 @@ Most of these are accepting talk and poster submissions through the [ISMB/ECCB w
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <div class="trim-p">
 
-![Galaxy Resources for Your Webinars](/src/events/webinars/gr4-webinars-400.png)
+![Galaxy Resources for Your Webinars](/events/webinars/gr4-webinars-400.png)
 
 </div>
 
@@ -214,7 +214,7 @@ Recordings of the two earlier webinars in the series are now available:
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <div class="trim-p">
 
-![Papercuts CoFest](/images/galaxy-logos/papercuts.png)
+![Papercuts CoFest](/events/cofests/papercuts/papercuts.png)
 
 </div>
 <div class="card-header trim-p">
@@ -235,7 +235,7 @@ We will be on Gitter for chat all day long, and each event will have 3 calls spr
 
 <!--Variant calling -->
 <div class="card border-info" style="min-width: 16rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-australia.png" />
 <div class="card-header trim-p">Variant Calling Workshop Series</div>
 
 **Apply by 12 May**
@@ -257,7 +257,7 @@ All 3 workshops will be run by Gareth Price and Igor Makunin.
 <div class="card border-info" style="min-width: 14rem; max-width:  50%;">
 <div class="trim-p">
 
-![](/src/use/repeatexplorer/repeatexplorer-wide.png)
+![](/use/repeatexplorer/repeatexplorer-wide.png)
 
 </div>
 <div class="card-header trim-p">
@@ -276,7 +276,7 @@ The workshop will focus on theoretical and practical aspects of using next gener
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 12rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
 [Galaxy Developer Roundtable](/community/devroundtable/)
@@ -296,7 +296,7 @@ We still [need a volunteer to lead a discussions on a topic of interest on May 2
 
 <!-- Metabolomics -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/images/communities/metabolomics.png" alt="metabolomics" />
+<img class="card-img-top" src="/images/communities/metabolomics.png" alt="metabolomics" />
 <div class="card-header trim-p">
 
 [Galaxy Metabolomics Community Call](/events/2021-05-metabolomics/)
@@ -313,7 +313,7 @@ To know more about the Galaxy Metabolomics community, please [subscribe to the m
 
 <!-- Analyse avancée de séquences -->
 <div class="card border-info" style="min-width: 12rem; max-width:  50%;">
-<img class="card-img-top" src="/src/images/logos/CGFB_bioinformatics.png" />
+<img class="card-img-top" src="/images/logos/CGFB_bioinformatics.png" />
 <div class="card-header trim-p">
 
 [Analyse avancée de séquences](https://cnrsformation.cnrs.fr/analyse-avancee-sequences)
@@ -329,7 +329,7 @@ Savoir rechercher des informations dans les banques de données. Maîtriser les 
 
 <!-- Metatranscriptomes -->
 <div class="card border-info" style="min-width: 14rem; max-width:  20rem;">
-<img class="card-img-top" src="/src/images/logos/vib-training.png" />
+<img class="card-img-top" src="/images/logos/vib-training.png" />
 <div class="card-header trim-p">
 
 [Metatranscriptomics analysis using microbiome RNA seq data in Galaxy](https://training.vib.be/all-trainings/metatranscriptomics-analysis-using-microbiome-rna-seq-data-galaxy)
@@ -344,7 +344,7 @@ An introduction basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT pr
 
 <!-- Galaxy NL -->
 <div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
-<img class="card-img-top" src="/src/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
+<img class="card-img-top" src="/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
 <div class="card-header trim-p">
 
 [Galaxy-NL Meeting 2021](https://docs.google.com/document/d/1irLt2gtm-iNdgDZqybUpj7g39zkf5qaDkGW4-wW31YQ/edit)
@@ -370,7 +370,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <!-- Protologger -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
 
-![Protologger](/src/use/protologger/protologger-logo.png)
+![Protologger](/use/protologger/protologger-logo.png)
 
 <div class="card-header trim-p">
 
@@ -385,7 +385,7 @@ Protologger is an all-in-one genome description tool, aimed at simplifying gathe
 <!-- QIIME 2 -->
 <div class="card border-info"  style="min-width: 30%; max-width: 100%;">
 
-![QIIME 2](/src/images/logos/qiime2.svg)
+![QIIME 2](/images/logos/qiime2.svg)
 
 <div class="card-header trim-p">
 
@@ -401,7 +401,7 @@ Starting with the [2021.4 release](https://forum.qiime2.org/t/qiime-2-2021-4-is-
 <!-- CPT -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
 
-![CPT Galaxy](/src/use/center-for-phage-technology-cpt/cpt-logo.png)
+![CPT Galaxy](/use/center-for-phage-technology-cpt/cpt-logo.png)
 
 <div class="card-header trim-p">
 
@@ -472,7 +472,7 @@ The European Galaxy Server has surpassed the 30,000 registered users, has around
 
 </div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * The European Galaxy community is involved in [several ELIXIR Implementation Studies](https://galaxyproject.eu/posts/2021/04/19/elixir-is/).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
@@ -610,7 +610,7 @@ Schatz, M. C., Philippakis, A. A., Afgan, E., Banks, E., Carey, V. J., Carroll, 
 
 The 2021.4 release of QIIME2 includes a new interface, [q2galaxy](https://github.com/qiime2/q2galaxy) (see Platform News above), for generating Galaxy tool descriptions automatically from QIIME 2 actions. This means that as plugins are created and evolve, the QIIME 2 team can automatically generate complete Galaxy tools in a few seconds, rather than developing them by hand as is typically done.
 
-![QIIME2](/src/images/logos/qiime2.svg)
+![QIIME2](/images/logos/qiime2.svg)
 
 </div>
 
@@ -624,7 +624,7 @@ The 2021.4 release of QIIME2 includes a new interface, [q2galaxy](https://github
 
 [Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
-![Pulsar](/src/images/galaxy-logos/pulsar_transparent.png)
+![Pulsar](/images/galaxy-logos/pulsar_transparent.png)
 
 </div>
 

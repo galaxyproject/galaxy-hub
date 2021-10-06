@@ -8,7 +8,7 @@ platforms:
     platform_text: "NetworkAnalyst Galaxy Server"
     platform_location: CA
 summary: "For mapping and quantification of raw RNA-seq data"
-image: "/src/use/network-analyst/networkanalyst-logo.png"
+image: "/use/network-analyst/networkanalyst-logo.png"
 comments:
   - "Part of [NetworkAnalyst](https://www.networkanalyst.ca/), a visual analytics platform for comprehensive gene expression profiling & meta-analysis."
   - "Raw RNAseq processing for 17 species covering mammals, birds, bacteria, plants and parasites."

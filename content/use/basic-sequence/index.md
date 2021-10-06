@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/bgruening/galaxy-sequence-tools/"
     platform_text: "Galaxy for basic sequence manipulation."
 summary: "Galaxy Docker repository for basic sequence data analysis."
-image: "/src/images/logos/DockerInGalaxy.png"
+image: "/images/logos/DockerInGalaxy.png"
 comments:
   - "Galaxy in Docker for basic sequence manipulation."
 user_support:

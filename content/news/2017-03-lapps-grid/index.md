@@ -2,7 +2,7 @@
 title: "The Language Applications (LAPPS) Grid Seeks Input from Scientists Who Want to Mine Scientific Literature"
 date: '2017-03-20'
 ---
-<div class='right'><a href='http://www.lappsgrid.org'><img src="/src/use/lapps-grid/lapps-grid-logo.png" alt="LAPPS Grid" width="200" /></a>
+<div class='right'><a href='http://www.lappsgrid.org'><img src="/use/lapps-grid/lapps-grid-logo.png" alt="LAPPS Grid" width="200" /></a>
 </div>
 
 [The Language Applications (LAPPS) Grid](http://www.lappsgrid.org) provides an infrastructure for rapid development of natural language processing applications (NLP) that uses the Galaxy platform as its workflow engine. The LAPPS Grid has integrated a wide range of NLP tools and resources, including popular public tools such as [StanfordNLP](https://github.com/stanfordnlp), [OpenNLP](https://opennlp.apache.org/), [NLTK](http://www.nltk.org/), [LingPipe](http://alias-i.com/lingpipe/index.html), etc., into Galaxy and provided for using them interoperably in a “plug-and-play” environment.

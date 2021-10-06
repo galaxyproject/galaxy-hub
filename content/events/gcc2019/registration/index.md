@@ -49,5 +49,5 @@ GCC2019 enthusiastically welcomes your kids **and will offer subsidized [childca
 
 # GCC2019 Fellowships
 
-The Galaxy Community Fund is [offering travel fellowships to attend GCC2019](/src/news/2019-04-gcc-fellowships).  They will start reviewing applications on 23 April.
+The Galaxy Community Fund is [offering travel fellowships to attend GCC2019](/news/2019-04-gcc-fellowships).  They will start reviewing applications on 23 April.
 

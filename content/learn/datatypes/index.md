@@ -15,7 +15,7 @@ tool groups: **Convert Formats**, **SAM Tools**, and **NGS: QC and
 manipulation**, or perform a search in the top left Tool Search box.
 
 2. With the **Edit Attributes** form, reached by clicking on the pencil icon
-<img src="/images/icons/pencil.png" alt="/src/images/icons/pencil.png"> inside of a
+<img src="/images/icons/pencil.png" alt="/images/icons/pencil.png"> inside of a
 [dataset](/learn/managing-datasets) box in the history.
 
 **Tool developers**: please see [admin/datatypes](/admin/datatypes) for
@@ -223,7 +223,7 @@ tggcgcggt</pre>
 #### Best practices:
 
 *   confirm the format of a `FASTA` dataset at the start of an analysis project
-*   if a `FASTA` dataset is used as a **Custom Reference Genome**, double check the formatting and fix it as needed. The tool **NormalizeFasta** can be used in most cases -- see the [Custom Reference Genome](/src/learn/custom-genomes/) FAQ for the how-to
+*   if a `FASTA` dataset is used as a **Custom Reference Genome**, double check the formatting and fix it as needed. The tool **NormalizeFasta** can be used in most cases -- see the [Custom Reference Genome](/learn/custom-genomes/) FAQ for the how-to
 *   use the same *Target Fasta/Custom Genome* dataset for all steps to avoid technical processing errors
 
 #### Troubleshooting:

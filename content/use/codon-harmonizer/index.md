@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy Server"
     platform_location: NL
 summary: "Easily generate codon harmonized variants of gene sequences for heterologous expression"
-image: "/src/images/logos/WageningenUniversity.jpg"
+image: "/images/logos/WageningenUniversity.jpg"
 comments:
   - "From [Claassens et al](https://doi.org/10.1371/journal.pone.0184355):"
   - "...different codon usage variants significantly improved production of some of the tested proteins. However, not a single algorithm performed consistently best for the membrane-integrated production of the 6 tested proteins. In conclusion, for improving heterologous membrane protein production in E. coli, the major effect is accomplished by transcriptional tuning. In addition, further improvements may be realized by attempting different codon usage variants, such as codon harmonized variants, which can now be easily generated through our online Codon Harmonizer tool."

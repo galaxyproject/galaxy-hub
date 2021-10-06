@@ -7,7 +7,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 <div class="row row-fluid text-center">
 <div class='col-md-3'>
 
-[![Enis Afgan](/src/images/people/EnisAfgan.jpg)](/people/enis-afgan/)
+[![Enis Afgan](/images/people/EnisAfgan.jpg)](/people/enis-afgan/)
 
 [Enis Afgan](/people/enis-afgan/) 
 [Johns Hopkins](http://www.jhu.edu) 
@@ -15,21 +15,21 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 </div>
 <div class='col-md-3'>
 
-[![Dannon Baker](/src/images/people/dannon.jpg)](/people/dannon-baker/)
+[![Dannon Baker](/images/people/dannon.jpg)](/people/dannon-baker/)
 [Dannon Baker](/people/dannon-baker/) 
 [Johns Hopkins](http://www.jhu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Dan Blankenberg](/src/images/people/dan.jpg)](/people/dan/)
+[![Dan Blankenberg](/images/people/dan.jpg)](/people/dan/)
 [Dan Blankenberg](/people/dan/) 
 [The Cleveland Clinic](https://www.lerner.ccf.org/)  
 
 </div>
 <div class='col-md-3'>
 
-[![Dave Bouvier](/src/galaxy-team/davebouvierflag.jpg)](/people/dave-bouvier/)
+[![Dave Bouvier](/galaxy-team/davebouvierflag.jpg)](/people/dave-bouvier/)
 [Dave Bouvier](/people/dave-bouvier/) 
 [Penn State](http://www.bx.psu.edu)   
 
@@ -43,35 +43,35 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 </div>
 <div class='col-md-3'>
 
-[![John Chilton](/src/images/people/JohnChiltonSmaller.jpg)](/people/john-chilton/)
+[![John Chilton](/images/people/JohnChiltonSmaller.jpg)](/people/john-chilton/)
 [John Chilton](/people/john-chilton/)
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Dave Clements](/src/galaxy-team/Clements.jpg)](/people/dave-clements/)
+[![Dave Clements](/galaxy-team/Clements.jpg)](/people/dave-clements/)
 [Dave Clements](/people/dave-clements/)
 [Johns Hopkins](http://www.jhu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Nate Coraor](/src/galaxy-team/nate.jpg)](/people/nate/)
+[![Nate Coraor](/galaxy-team/nate.jpg)](/people/nate/)
 [Nate Coraor](/people/nate/)
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Jeremy Goecks](/src/images/people/jgoecks-banff-small.png)](/people/jeremy-goecks/)
+[![Jeremy Goecks](/images/people/jgoecks-banff-small.png)](/people/jeremy-goecks/)
 [Jeremy Goecks](/people/jeremy-goecks/)
 [OHSU](http://www.ohsu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Sergey Golitsynskiy](/src/galaxy-team/sergey.jpg)](/people/sergey/)
+[![Sergey Golitsynskiy](/galaxy-team/sergey.jpg)](/people/sergey/)
 [Sergey Golitsynskiy](/people/sergey/)
 [Johns Hopkins](http://www.jhu.edu)   
 
@@ -79,7 +79,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 <div class='col-md-3'>
 
 
-![Qiang Gu](/src/galaxy-team/qiang.jpg)
+![Qiang Gu](/galaxy-team/qiang.jpg)
 Qiang Gu<br />
 
 [OHSU](http://www.ohsu.edu)  
@@ -87,77 +87,77 @@ Qiang Gu<br />
 </div>
 <div class='col-md-3'>
 
-[![Aysam Guerler](/src/galaxy-team/guerler.jpg)](/people/guerler/)
+[![Aysam Guerler](/galaxy-team/guerler.jpg)](/people/guerler/)
 [Aysam Guerler](/people/guerler/)
 [Johns Hopkins](http://www.jhu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Mo Heydarian](/src/galaxy-team/mheydarian.jpg)](/people/mo-heydarian/)
+[![Mo Heydarian](/galaxy-team/mheydarian.jpg)](/people/mo-heydarian/)
 [Mo Heydarian](/people/mo-heydarian/)
 [Johns Hopkins](http://www.jhu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Jen Jackson](/src/galaxy-team/jenhjackson.png)](/people/jennifer-jackson/)
+[![Jen Jackson](/galaxy-team/jenhjackson.png)](/people/jennifer-jackson/)
 [Jennifer Hillman Jackson](/people/jennifer-jackson/)
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Vahid Jalili](/src/galaxy-team/Vahid.jpg)](/people/vahid-jalili/)
+[![Vahid Jalili](/galaxy-team/Vahid.jpg)](/people/vahid-jalili/)
 [Vahid Jalili](/people/vahid-jalili/)
 [OHSU](http://www.ohsu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![DelphineLariviere](/src/galaxy-team/DelphineLariviere.jpg)](/people/delphine-lariviere/)
+[![DelphineLariviere](/galaxy-team/DelphineLariviere.jpg)](/people/delphine-lariviere/)
 [Delphine Lariviere](/people/delphine-lariviere/)
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Alexandru Mahmoud](/src/galaxy-team/almahmoud.jpg)](/people/almahmoud/)
+[![Alexandru Mahmoud](/galaxy-team/almahmoud.jpg)](/people/almahmoud/)
 [Alexandru Mahmoud](/people/almahmoud/)
 [Johns Hopkins](http://www.jhu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![Anton Nekrutenko](/src/images/people/anton.jpg)](/people/anton/)
+[![Anton Nekrutenko](/images/people/anton.jpg)](/people/anton/)
 [Anton Nekrutenko](/people/anton/)
 [Penn State](http://www.bx.psu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Alex Ostrovsky](/src/galaxy-team/ostrovsky.jpg)](/people/alex-ostrovsky/)
+[![Alex Ostrovsky](/galaxy-team/ostrovsky.jpg)](/people/alex-ostrovsky/)
 [Alex Ostrovsky](/people/alex-ostrovsky/)
 [Johns Hopkins](http://www.jhu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-![Luke Sargent](/src/galaxy-team/luke.jpg)
+![Luke Sargent](/galaxy-team/luke.jpg)
 Luke Sargent
 [OHSU](http://www.ohsu.edu)   
 
 </div>
 <div class='col-md-3'>
 
-[![Nick Stoler](/src/galaxy-team/nstoler.jpg)](https://nstoler.com/)
+[![Nick Stoler](/galaxy-team/nstoler.jpg)](https://nstoler.com/)
 [Nick Stoler](https://nstoler.com/)
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-[![James Taylor](/src/images/people/james.jpg)](/people/james-taylor/)
+[![James Taylor](/images/people/james.jpg)](/people/james-taylor/)
 [James Taylor](/people/james-taylor/)
 [Johns Hopkins](http://www.jhu.edu)   
 
@@ -171,14 +171,14 @@ Luke Sargent
 <div class="row row-fluid text-center">
 <div class='col-md-3'>
 
-[![Matthias Bernt](/src/galaxy-team/matthias.jpg)](/people/matthias/)
+[![Matthias Bernt](/galaxy-team/matthias.jpg)](/people/matthias/)
 [Matthias Bernt](/people/matthias/) 
 [UFZ Leipzig](https://www.ufz.de/)  
 
 </div>
 <div class='col-md-3'>
 
-[![Björn Grüning](/src/galaxy-team/bjoern.jpeg)](https://github.com/bgruening)
+[![Björn Grüning](/galaxy-team/bjoern.jpeg)](https://github.com/bgruening)
 [Björn Grüning](https://github.com/bgruening)
 [Uni Freiburg](http://www.uni-freiburg.de/)  
 
@@ -192,14 +192,14 @@ Luke Sargent
 </div>
 <div class='col-md-3'>
 
-[![Nicola Soranzo](/src/galaxy-team/nicola.jpeg)](http://www.earlham.ac.uk/nicola-soranzo)
+[![Nicola Soranzo](/galaxy-team/nicola.jpeg)](http://www.earlham.ac.uk/nicola-soranzo)
 [Nicola Soranzo]()
 [Earlham Institute](http://earlham.ac.uk/)
 
 </div>
 <div class='col-md-3'>
 
-[![Marius van den Beek](/src/galaxy-team/marius.jpeg)](https://github.com/mvdbeek)
+[![Marius van den Beek](/galaxy-team/marius.jpeg)](https://github.com/mvdbeek)
 [Marius van den Beek](https://github.com/mvdbeek)
 [IBPS UPMC](http://www.ibps.upmc.fr/)  
 
@@ -213,42 +213,42 @@ Luke Sargent
 <div class="row row-fluid text-center">
 <div class='col-md-3'>
 
-![Peter Cock](/src/galaxy-team/peter.jpg)
+![Peter Cock](/galaxy-team/peter.jpg)
 [Peter Cock](http://www.hutton.ac.uk/staff/peter-cock)
 [TJHI](http://www.hutton.ac.uk/)  
 
 </div>
 <div class='col-md-3'>
 
-![Kyle Ellrott](/src/galaxy-team/kyle.jpg)
+![Kyle Ellrott](/galaxy-team/kyle.jpg)
 [Kyle Ellrott](http://www.soe.ucsc.edu/people/kellrott)
 [UCSC](http://www.ucsc.edu/)  
 
 </div>
 <div class='col-md-3'>
 
-![Brad Chapman](/src/galaxy-team/brad.jpg)
+![Brad Chapman](/galaxy-team/brad.jpg)
 [Brad Chapman](http://bcbio.wordpress.com/about/)
 [HSPH](http://www.hsph.harvard.edu/)  
 
 </div>
 <div class='col-md-3'>
 
-![Nuwan Goonasekera](/src/images/people/nuwan.jpg)
+![Nuwan Goonasekera](/images/people/nuwan.jpg)
 [Nuwan Goonasekera](https://www.linkedin.com/in/nuwangoonasekera)
 [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/)  
 
 </div>
 <div class='col-md-3'>
 
-![Greg von Kuster](/src/images/people/greg.png)
+![Greg von Kuster](/images/people/greg.png)
 [Greg von Kuster](/people/greg-vonkuster/) 
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
 <div class='col-md-3'>
 
-![Yousef Kowsar](/src/galaxy-team/yousef.jpg)
+![Yousef Kowsar](/galaxy-team/yousef.jpg)
 [Yousef Kowsar](https://www.linkedin.com/pub/yousef-kowsar/21/213/9a6)
 [VLSCI](http://http://www.vlsci.org.au/)  
 

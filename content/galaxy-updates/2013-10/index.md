@@ -1,7 +1,7 @@
 ---
 title: October 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the October 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -12,7 +12,7 @@ Welcome to the October 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summa
 
 *A record six new servers* joined [the list of over 40 publicly accessible Galaxy servers](/use/) in September.
 
-<div class='left'><br /><div class='solid'><a href='http://galaxy.csdb.cn:8000/'><img src="/src/public-galaxy-servers/archive/cnic-darwin-tree-home.png" alt="CNIC.DarwinTree" width="200" /></a></div></div>
+<div class='left'><br /><div class='solid'><a href='http://galaxy.csdb.cn:8000/'><img src="/public-galaxy-servers/archive/cnic-darwin-tree-home.png" alt="CNIC.DarwinTree" width="200" /></a></div></div>
 
 ## CNIC.DarwinTree
 
@@ -22,7 +22,7 @@ Welcome to the October 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summa
 
 ## Fast UniFrac
 
-<div class='right solid'><a href='http://unifrac.colorado.edu'><img src="/src/public-galaxy-servers/archive/fast-unifrac-home-page.png" alt="Fast UniFrac" width="200" /></a></div>
+<div class='right solid'><a href='http://unifrac.colorado.edu'><img src="/public-galaxy-servers/archive/fast-unifrac-home-page.png" alt="Fast UniFrac" width="200" /></a></div>
 
 [Fast UniFrac](http://unifrac.colorado.edu) provides a suite of tools for the comparison of microbial communities using phylogenetic information. See "[Fast UniFrac: facilitating high-throughput phylogenetic analyses of microbial communities including analysis of pyrosequencing and PhyloChip data](http://www.nature.com/ismej/journal/v4/n1/full/ismej200997a.html)" by M Hamady, C Lozupone and R Knight, *[The ISME Journal](http://www.nature.com/ismej/index.html)* (2010) 4, 17–27; doi:10.1038/ismej.2009.97
 
@@ -30,7 +30,7 @@ No login is required to use [Fast UniFrac](http://unifrac.colorado.edu) and the 
 
 ## kmer-SVM
 
-<div class='left solid'><a href='http://kmersvm.beerlab.org/'><img src="/src/use/archive/kmer-svm/kmer-svm.png" alt="kmer-SVM" height="133" /></a></div>
+<div class='left solid'><a href='http://kmersvm.beerlab.org/'><img src="/use/archive/kmer-svm/kmer-svm.png" alt="kmer-SVM" height="133" /></a></div>
 
 [kmer-SVM](http://kmersvm.beerlab.org/) is "a tool suite designed to aid in analysis of next-generation sequencing (NGS) data. Our suite uses a support vector machine (SVM) with kmer sequence features to identify predictive combinations of short transcription factor binding sites which determine the tissue specificity of the original NGS assay. Information gained from kmer-SVM can be used as an additional source of confidence in genomic experiments by recovering known binding sites, and can also reveal novel sequence features and possible cooperative mechanisms to be tested experimentally."
 
@@ -40,7 +40,7 @@ A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a
 
 ## NGS-QC Generator
 
-<div class='right solid'><a href='http://galaxy.igbmc.fr/galaxy/'><img src="/src/use/archive/ngs-qc/ngs-qc-generator.png" alt="Gronemeyer Lab Galaxy and NGS-QC Generator" width="200" /></a></div>
+<div class='right solid'><a href='http://galaxy.igbmc.fr/galaxy/'><img src="/use/archive/ngs-qc/ngs-qc-generator.png" alt="Gronemeyer Lab Galaxy and NGS-QC Generator" width="200" /></a></div>
 
 [NGS-QC Generator](http://galaxy.igbmc.fr/galaxy/) evaluates the quality of ChIP-seq and enrichment-related NGS data using [NGS-QC Generator](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/index.php), which also includes a [database with preprocessed profiles](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/database.php) and a [tutorial on how to analyze sequencing profiles yourself](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/tutorial.php). 
 
@@ -50,7 +50,7 @@ The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department
 
 ## USP-FCFRP
 
-<div class='right solid'><a href='http://fisbio.fcfrp.usp.br:8080/'><img src="/src/public-galaxy-servers/archive/usp-fcrp.png" alt="Laboratory of Biological Physics at USP-FCFRP" width="200" /></a></div>
+<div class='right solid'><a href='http://fisbio.fcfrp.usp.br:8080/'><img src="/public-galaxy-servers/archive/usp-fcrp.png" alt="Laboratory of Biological Physics at USP-FCFRP" width="200" /></a></div>
 
 The [Laboratory of Biological Physics at USP-FCFRP](http://fisbio.fcfrp.usp.br:8080/) Galaxy server has these tools:
  **ProtPred-GROMACS**: *Ab initio* protein structure prediction framework which uses evolutionary algorithms to optimize objective functions such as potential energy, number of hydrogen bonds and solvent accessible surface area. 
@@ -64,7 +64,7 @@ The [Laboratory of Biological Physics](http://fisbio.fcfrp.usp.br/), part of the
 
 ## ValidatorMAX
 
-<div class='right solid'><a href='http://msvalidator.uchicago.edu/galaxy/'><img src="/src/images/logos/UChicagoLogo.jpg" alt="ValidatorMAX at The University of Chicago" width="200" /></a></div>
+<div class='right solid'><a href='http://msvalidator.uchicago.edu/galaxy/'><img src="/images/logos/UChicagoLogo.jpg" alt="ValidatorMAX at The University of Chicago" width="200" /></a></div>
 
 [This server](http://msvalidator.uchicago.edu/galaxy/) implements Validator<sup>MAX</sup>: confident identification of stable isotope-labeled peptide pairs and associated abundance ratios. The server is sponsored by the [Department of Molecular Genetics and Cell Biology](http://mgcb.bsd.uchicago.edu/), [Ludwig Center for Metastasis Research](http://cancer.uchicago.edu/research/uchicago-advantage/metastasis.shtml), [Department of Pediatrics](http://pediatrics.uchicago.edu/), [Center for Research Informatics](http://cri.uchicago.edu/), [Computation Institute](http://www.ci.uchicago.edu/), [The University of Chicago](http://www.uchicago.edu/)
 
@@ -140,7 +140,7 @@ And the Galaxy Project now has it's own [CITATION file](https://bitbucket.org/ga
 
 # Who's Hiring
 
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
@@ -158,17 +158,17 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> There is a lot going on in the next three months, *with half of it happening in the Southern Hemisphere.*  Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> There is a lot going on in the next three months, *with half of it happening in the Southern Hemisphere.*  Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <div class='left'>
 <br />
 ## Australia!
 
 </div>
-<div class='center'><a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/src/images/logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
-<a href='http://amataconference.com.au/2013/conference-program/pre-conference-workshops/'><img src="/src/images/logos/AMATA2013LogoName.png" alt="AMATA early career researcher workshop" height="80" /></a>
-<a href='http://conference.eresearch.edu.au/eres2013/workshops-2013/'><img src="/src/images/logos/eResearchAustralAsiaSmall.png" alt="eResearch Australasia 2013" height="60" /></a>
-<a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
+<div class='center'><a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/images/logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
+<a href='http://amataconference.com.au/2013/conference-program/pre-conference-workshops/'><img src="/images/logos/AMATA2013LogoName.png" alt="AMATA early career researcher workshop" height="80" /></a>
+<a href='http://conference.eresearch.edu.au/eres2013/workshops-2013/'><img src="/images/logos/eResearchAustralAsiaSmall.png" alt="eResearch Australasia 2013" height="60" /></a>
+<a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 </div>
 <br />
 In the next 3 months there are no less than 13 talks and workshops at at least 5 different venues on at least 7 distinct dates.  Those 13 known events include 8 workshops.  If you don't find some Galaxy training this spring then you aren't trying.  
@@ -261,11 +261,11 @@ In the next 3 months there are no less than 13 talks and workshops at at least 5
 And don't worry, you won't have to travel to Australia during its spring just to learn about Galaxy.  There are also upcoming events in North America, Europe, and Africa.
 
 <div class='center'> 
-<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/src/images/logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
-<a href='http://www.beyond-the-genome.com/program/'><img src="/src/images/logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
-<a href='http://bit.ly/153avr8'><img src="/src/images/logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/images/logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
-<a href='/events/sa-workshop-tour2013/'><img src="/src/images/logos/SAGalaxyWorkshopTour2013Wide.png" alt="2013 South Africa Galaxy Workshop Tour" height="65" /></a>
+<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/images/logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
+<a href='http://www.beyond-the-genome.com/program/'><img src="/images/logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
+<a href='http://bit.ly/153avr8'><img src="/images/logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/images/logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
+<a href='/events/sa-workshop-tour2013/'><img src="/images/logos/SAGalaxyWorkshopTour2013Wide.png" alt="2013 South Africa Galaxy Workshop Tour" height="65" /></a>
 </div>
 
 <table>
@@ -385,8 +385,8 @@ And don't worry, you won't have to travel to Australia during its spring just to
 ## Online Materials from Past Events
 
 <div class='right'>
-<a href='http://bit.ly/gcc2013vimeo'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="120px" /></a><br /><br /><div class='right'>
-<a href='http://bit.ly/16rAUkf'><img src="/src/images/logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core" width="80" /></a>
+<a href='http://bit.ly/gcc2013vimeo'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="120px" /></a><br /><br /><div class='right'>
+<a href='http://bit.ly/16rAUkf'><img src="/images/logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core" width="80" /></a>
 </div></div>
 
 First, all videos from GCC2013 are [now also available on Vimeo](http://bit.ly/gcc2013vimeo).  They are still available on the Galaxy web site as well, but having them on Vimeo allows you to do all the things an online video provider supports, such as automatically embedding and linking videos from popular web sites.
@@ -410,7 +410,7 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 There were many...
 * [naive_variant_caller](http://bit.ly/157Yf3G): process aligned reads, produce VCF file containing per position variant calls 

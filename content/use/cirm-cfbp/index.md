@@ -8,7 +8,7 @@ platforms:
     platform_text: "CIRM-CFBP Server"
     platform_location: FR
 summary: "Web based access to tools ([SkIf](https://sourcesup.renater.fr/wiki/skif/), [KI-S](https://sourcesup.renater.fr/wiki/ki-s/)) of IRHS-EmerSys lab."
-image: "/src/use/cirm-cfbp/cirm-cfbp-banner.png"
+image: "/use/cirm-cfbp/cirm-cfbp-banner.png"
 comments:
   - "Virtual machine, 4 virtual CPUs, 8GB RAM, 1To of disk space."
   - "[CIRM-CFBP bioinformatics tools](https://www6.inra.fr/cirm_eng/CFBP-Plant-Associated-Bacteria/Bioinformatics-tools)"

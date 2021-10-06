@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.uio.no/'><img src="/src/images/logos/UiOLogo.png" alt="University of Oslo" /></a><br /><br /> <a href='/community/galaxy-admins/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
+<a href='http://www.uio.no/'><img src="/images/logos/UiOLogo.png" alt="University of Oslo" /></a><br /><br /> <a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
 <div class='title'>2016-04-21 [Web Meetup](https://connect.johnshopkins.edu/gxyadmins201604/)<br /><br />
 
 </div></div>
@@ -35,7 +35,7 @@
 ## Galaxy Portal
 
 <div class='right'>
-<img src="/src/images/news-graphics/GalaxyPortalHistory.png" alt="A history in Galaxy Portal" width="200" />
+<img src="/images/news-graphics/GalaxyPortalHistory.png" alt="A history in Galaxy Portal" width="200" />
 </div>
 
 **Galaxy is now accessible from your [IOS](https://itunes.apple.com/us/app/galaxy-portal/id937158087?mt=8) and [Android](https://play.google.com/store/apps/details?id=no.uio.bmi.claus) devices.** The Galaxy Portal app is a quick and easy way to monitor the status of biomedical research on any Galaxy server. With this app you can set up a list of Galaxy connections and browse your analyses histories in a user-friendly format and take a peek at your data on the go.
@@ -55,7 +55,7 @@ Galaxy Portal is provided free of charge.
 
 ## Call Technology
 
-<div class='right'><img src="/src/images/logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
+<div class='right'><img src="/images/logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
 
 The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
@@ -65,4 +65,4 @@ The  meetup's online conference room will open 15 minutes before the meetup.  Th
   * If you raise your hand, the host will need to recognize you.
   * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'><img src="/src/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>
+<div class='center'><img src="/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>

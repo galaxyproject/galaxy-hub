@@ -4,7 +4,7 @@ tease: "GCC2021 starts this month; James Taylor Video; plus a whole lot more."
 date: "2021-05-31"
 ---
 
-<a href="/galaxy-updates/"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -152,7 +152,7 @@ Happy birthday James. We miss you.
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 50%;">
-<img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
+<img class="card-img-top" src="/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
 [Open Galaxy Positions](/careers/)
@@ -174,7 +174,7 @@ We are pleased to announce the [first three sponsors for GCC2021](https://gcc202
 
 <!-- F1000Research -->
 <div class="card border-info"  style="min-width: 40%; max-width: 26rem;">
-<img class="card-img-top" src="/src/images/logos/F1000research-logo.jpg" alt="F1000Research" />
+<img class="card-img-top" src="/images/logos/F1000research-logo.jpg" alt="F1000Research" />
 <div class="card-header trim-p">
 
 [F1000Research](https://gcc2021.sched.com/sponsor/f1000research1)
@@ -203,13 +203,13 @@ BGI's Open Access Publishing division **[GigaScience Press](http://gigasciencepr
 
 We also publish data, software, and other research objects via our database, [GigaDB](http://gigadb.org/), and Galaxy workflows via [GigaGalaxy.net](http://gigagalaxy.net/). 
 
-<p><img class="card-img-bottom" src="/src/images/logos/gigascience-press-logo.png" alt="GigaScience Press" /></p>
+<p><img class="card-img-bottom" src="/images/logos/gigascience-press-logo.png" alt="GigaScience Press" /></p>
 </div>
 
 
 <!-- KWS SAAT -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
-<img class="card-img-top" src="/src/images/logos/kws-logo-slogan.png" alt="KWS SAAT" />
+<img class="card-img-top" src="/images/logos/kws-logo-slogan.png" alt="KWS SAAT" />
 <div class="card-header trim-p">
 
 [KWS SAAT](https://gcc2021.sched.com/sponsor/kws1)
@@ -248,7 +248,7 @@ The [*Galaxy Resources* webinar series](/events/webinars/) wrapped up in May (se
 
 Keep your eyes open for new webinars as they are scheduled.
 
-<p><img class="card-img-bottom" src="/src/images/logos/VectorBaseLogoWithText.png" alt="VectorBase uses Galaxy" /></p>
+<p><img class="card-img-bottom" src="/images/logos/VectorBaseLogoWithText.png" alt="VectorBase uses Galaxy" /></p>
 </div>
 
 
@@ -264,13 +264,13 @@ Keep your eyes open for new webinars as they are scheduled.
 
 As part of the [2021 OME Community Meeting](https://www.openmicroscopy.org/events/ome-community-meeting-2021/), Beatriz Serrano-Solano will give a talk on **Imaging in Galaxy** on [day 4 (June 11)](https://www.openmicroscopy.org/events/ome-community-meeting-2021/day4/) of the meeting.  Conference registration is free.
 
-<p><img class="card-img-bottom" src="/src/images/logos/ome-logo.svg" alt="Open Microscopy Environment (OME) Logo" /></p>
+<p><img class="card-img-bottom" src="/images/logos/ome-logo.svg" alt="Open Microscopy Environment (OME) Logo" /></p>
 </div>
 
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 12rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
 [Galaxy Developer Roundtable](/community/devroundtable/)
@@ -300,7 +300,7 @@ We still [need volunteers to lead discussions on a topic of interest on June 10 
 
 Gallantries is hosting a [Galaxy training workshop](https://gallantries.github.io/galaxy-workshop/events/belbi-2021.html) at [Belgrade Bioinformatics Conference 2021](https://belbi.bg.ac.rs/).  This course will familiarise participants with the Galaxy Platform.  [Register now](https://belbi.bg.ac.rs/?page_id=43).
 
-![BelBi 2021](/src/events/2021-06-belbi/belbi-2021-logo.png)
+![BelBi 2021](/events/2021-06-belbi/belbi-2021-logo.png)
 
 </div>
 
@@ -317,14 +317,14 @@ Gallantries is hosting a [Galaxy training workshop](https://gallantries.github.i
 
 Ce module comprendra un exposé théorique avec des démonstrations pratiques complétées par quelques applications sur la manipulation de données de régions génomiques et sur l’analyse de jeux de données de type NGS (détection de SNP, analyse de données RNA-seq et ChIP-seq).
 
-<img class="card-img-bottom" src="/src/images/logos/inrae-logo.jpg" alt="INRAe" />
+<img class="card-img-bottom" src="/images/logos/inrae-logo.jpg" alt="INRAe" />
 </div>
 
 
 
 <!-- GAT CoFEST -->
 <div class="card border-info" style="min-width: 12rem; max-width: 14rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training CoFest" />
+<img class="card-img-top" src="/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training CoFest" />
 <div class="card-header trim-p">
 
 [Pre-GCC2021 GAT CoFest](/events/2021-06-gat-cofest/)
@@ -342,7 +342,7 @@ As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.b
 <div class="card border-info" style="min-width: 25%; max-width: 24rem;">
 <div class="card-img-top trim-p">
 
-![Papercuts CoFest seized by GCC2021 CoFest](/src/events/2021-06-papercuts/papercuts-cofest-prep.png)
+![Papercuts CoFest seized by GCC2021 CoFest](/events/2021-06-papercuts/papercuts-cofest-prep.png)
 
 </div>
 <div class="card-header trim-p">
@@ -376,7 +376,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <div class="card-img-top trim-p">
 
-![Viral Variant Visualizer (VVV)](/src/use/vvv/vvv.png)
+![Viral Variant Visualizer (VVV)](/use/vvv/vvv.png)
 
 </div>
 <div class="card-header trim-p">
@@ -396,7 +396,7 @@ VVV is supported by Agence National de Sécurité Sanitaire, de l’environnemen
 <div class="card border-info" style="min-width: 16rem; max-width: 100%;">
 <div class="card-img-top trim-p">
 
-![SHAMAN](/src/use/shaman/shaman-logo.png)
+![SHAMAN](/use/shaman/shaman-logo.png)
 
 </div>
 <div class="card-header trim-p">
@@ -436,7 +436,7 @@ The [imaging flavor of Galaxy](https://imaging.usegalaxy.eu/) offers a set of tr
 
 </div>
 
-<p><img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" /></p>
+<p><img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" /></p>
 
 * [New high memory servers for Galaxy Australia](https://www.biocommons.org.au/news/unimelb-server-galaxy-au)
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
@@ -454,7 +454,7 @@ The [imaging flavor of Galaxy](https://imaging.usegalaxy.eu/) offers a set of tr
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="card-img-top trim-p">
 
-![Galaxy Resources Webinars](/src/events/webinars/gr4-webinars.png)
+![Galaxy Resources Webinars](/events/webinars/gr4-webinars.png)
 
 </div>
 <div class="card-header trim-p">
@@ -657,7 +657,7 @@ The Galaxy Helm chart automates the mechanics of deploying Galaxy into a single 
 
 See this [blog post](/blog/2021-05-galaxy-helm-chart-v4/) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
 
-![Galaxy Helm](/src/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
+![Galaxy Helm](/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
 
 </div>
 
@@ -672,7 +672,7 @@ See this [blog post](/blog/2021-05-galaxy-helm-chart-v4/) by Alex Mahmoud, Nuwan
 
 [Nebulizer](https://nebulizer.readthedocs.io/en/latest/) is a Python utility which provides a high-level interactive command-line interface to remotely administer Galaxy servers.  It is built on top of the [BioBlend library](https://bioblend.readthedocs.io/en/stable/index.html) and offers an interface and range of functionality that complements the lower-level interfaces offered by [Ephemeris](https://ephemeris.readthedocs.io/en/latest/index.html) and [Parsec](https://parsec.readthedocs.io/en/latest/index.html).
 
-<img class="card-img-bottom" src="/src/images/logos/nebulizer-logo.png" alt="Nebulizer" />
+<img class="card-img-bottom" src="/images/logos/nebulizer-logo.png" alt="Nebulizer" />
 </div>
 
 </div>

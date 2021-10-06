@@ -3,10 +3,10 @@ title: "October 2016 Galactic News"
 date: "2016-10-03"
 ---
 <div class='right'>
-<div class='right'><a href='/galaxy-updates/2016-10/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />
-<a href='/galaxy-updates/2016-10/#galaxy-admin-training-november-7-11-salt-lake-city-utah'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="105" /></a>
-<a href='/galaxy-updates/2016-10/#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open'><img src="/src/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="105" /></a><br />
-<div class='right'><a href='/galaxy-updates/2016-10/#swiss-german-galaxy-days'><img src="/src/images/logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" width="210" /></a></div>
+<div class='right'><a href='/galaxy-updates/2016-10/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />
+<a href='/galaxy-updates/2016-10/#galaxy-admin-training-november-7-11-salt-lake-city-utah'><img src="/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="105" /></a>
+<a href='/galaxy-updates/2016-10/#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open'><img src="/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="105" /></a><br />
+<div class='right'><a href='/galaxy-updates/2016-10/#swiss-german-galaxy-days'><img src="/images/logos/SG2016T.V2_logo.png" alt="2016 Swiss German Galaxy Tour" width="210" /></a></div>
 </div>
 
 The **[October Galaxy News](/galaxy-updates/2016-10/)** is hot off the presses and **[upcoming events](/galaxy-updates/2016-10/#events)** are prominent:
@@ -25,4 +25,4 @@ There are also [117 new publications](/galaxy-updates/2016-10/#new-publications)
 
 We hope to see you in Freiburg, Salt Lake, Melbourne, online, and around the world,
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

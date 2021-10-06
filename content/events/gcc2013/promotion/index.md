@@ -13,7 +13,7 @@ Please help get the word out about the 2013 Galaxy Community Conference (GCC2013
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2013/promotion/GCC2013Flier.pdf'><img src="/src/events/gcc2013/promotion/GCC2013FlierThumb.png" /></a> </td>
+    <td style=" border: none;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2013/promotion/GCC2013Flier.pdf'><img src="/events/gcc2013/promotion/GCC2013FlierThumb.png" /></a> </td>
     <td style=" border: none;"> Please print, post and distribute <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2013/promotion/GCC2013Flier.pdf'>the conference flier</a><br />at your organization, and or events.  </td>
   </tr>
 </table>
@@ -21,7 +21,7 @@ Please help get the word out about the 2013 Galaxy Community Conference (GCC2013
 
 # Graphics
 
-<div class='right'>![](/src/images/logos/GCC2013Logo200.png)<br />![](/src/images/logos/GCC2013TrainingDayLogo200.png)</div>
+<div class='right'>![](/images/logos/GCC2013Logo200.png)<br />![](/images/logos/GCC2013TrainingDayLogo200.png)</div>
 
 The conference logos are available in several sizes.
 
@@ -33,28 +33,28 @@ The conference logos are available in several sizes.
   </tr>
   <tr>
     <th style=" text-align: center;"> 200 px </th>
-    <td> <a href='/src/images/logos/GCC2013Logo200.png'>Download</a> </td>
-    <td> <a href='/src/images/logos/GCC2013TrainingDayLogo200.png'>Download</a> </td>
+    <td> <a href='/images/logos/GCC2013Logo200.png'>Download</a> </td>
+    <td> <a href='/images/logos/GCC2013TrainingDayLogo200.png'>Download</a> </td>
   </tr>
   <tr>
     <th style=" text-align: center;"> 400 px </th>
-    <td> <a href='/src/images/logos/GCC2013Logo400.png'>Download</a> </td>
-    <td> <a href='/src/images/logos/GCC2013TrainingDayLogo400.png'>Download</a> </td>
+    <td> <a href='/images/logos/GCC2013Logo400.png'>Download</a> </td>
+    <td> <a href='/images/logos/GCC2013TrainingDayLogo400.png'>Download</a> </td>
   </tr>
   <tr>
     <th style=" text-align: center;"> 600 px </th>
-    <td> <a href='/src/images/logos/GCC2013Logo600.png'>Download</a> </td>
+    <td> <a href='/images/logos/GCC2013Logo600.png'>Download</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th style=" text-align: center;"> 800 px </th>
-    <td> <a href='/src/images/logos/GCC2013Logo800.png'>Download</a> </td>
+    <td> <a href='/images/logos/GCC2013Logo800.png'>Download</a> </td>
     <td> </td>
   </tr>
   <tr>
     <th style=" text-align: center;"> Full </th>
     <td> <a href='http://bx.psu.edu/~clements/WikiFiles/GCC2013Logo.png'>Download</a> </td>
-    <td> <a href='/src/images/logos/GCC2013TrainingDayLogo.png'>Download</a> </td>
+    <td> <a href='/images/logos/GCC2013TrainingDayLogo.png'>Download</a> </td>
   </tr>
 </table>
 

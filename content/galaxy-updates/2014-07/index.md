@@ -1,7 +1,7 @@
 ---
 title: July 2014 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the July 2014 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -9,7 +9,7 @@ The *Galaxy Update* is going out a few days early this month because the usual r
 
 # Events
 
-<div class='left'><br /><a href='/events/gcc2014/'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="120" /></a></div>
+<div class='left'><br /><a href='/events/gcc2014/'><img src="/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="120" /></a></div>
 
 ## GCC2014: June 30 - July 2, Baltimore
 
@@ -22,8 +22,8 @@ Fifteen [Training sessions on 12 topics](/events/gcc2014/training-day/), several
 ## Galaxy @ ISBMB and BOSC 2014
 
 <div class='right'>
-<a href='/events/ismb2014/'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2014" height="65" /></a>&nbsp;&nbsp;&nbsp;
-<a href='/events/ismb2014/'><img src="/src/images/logos/ISMB2014LogoRound.png" alt="ISMB 2014" height="85" /></a>
+<a href='/events/ismb2014/'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2014" height="65" /></a>&nbsp;&nbsp;&nbsp;
+<a href='/events/ismb2014/'><img src="/images/logos/ISMB2014LogoRound.png" alt="ISMB 2014" height="85" /></a>
 </div>
 
 There will be at least six talks and five posters related to Galaxy at [ISMB and BOSC 2014](/events/ismb2014/) this year.  Talks include
@@ -37,7 +37,7 @@ There will be at least six talks and five posters related to Galaxy at [ISMB and
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div>
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 Over the rest of the summer there are other [Galaxy related events](/events/) in Leiden, Sydney, Brisbane, São Paulo, and Rio de Janeiro. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -200,7 +200,7 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -219,7 +219,7 @@ One new [public Galaxy server](/use/) was added to the published list in June:
 
 ## GVL QLD
 
-<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src="/src/images/logos/gvl-300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
+<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src="/images/logos/gvl-300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
 
 * *Link:*
     [Genomics Virtual Lab GVL-QLD](http://galaxy-qld.genome.edu.au/)
@@ -244,7 +244,7 @@ One new [public Galaxy server](/use/) was added to the published list in June:
 
 ## June 2, 2014 Galaxy Distribution
 
-<div class='right'> <a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/archive/dev-news-briefs/2014-06-02/#dataset-collections))* </div>
+<div class='right'> <a href='http://usegalaxy.org'><img src="/images/news-graphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/archive/dev-news-briefs/2014-06-02/#dataset-collections))* </div>
 
 <br />
 **[News Brief](/archive/dev-news-briefs/2014-06-02/)** **Highlights:**
@@ -302,8 +302,8 @@ The most recent version of CloudMan was [released in January 2014](/news/cloudma
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
@@ -320,7 +320,7 @@ One new [Log Board entry](/blog/) was added in June:
 The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them.
 
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

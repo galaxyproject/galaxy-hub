@@ -8,7 +8,7 @@ platforms:
     platform_text: "ProteoRE Galaxy"
     platform_location: FR
 summary: "ProteoRE (Proteomics Research Environment)"
-image: "/src/use/proteore/proteore.png"
+image: "/use/proteore/proteore.png"
 comments:
   - '"ProteoRE (Proteomics Research Environment) aims at centrally providing the proteomics community with an online research service enabling biologists/clinicians without programming expertise to **annotate and interpret** their proteomics data through the Web."'
   - "ProteoRE currently comprises tools (including graphical display) for:"

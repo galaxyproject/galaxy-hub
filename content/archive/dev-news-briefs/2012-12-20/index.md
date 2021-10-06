@@ -92,11 +92,11 @@ It is important to note that *only the most **specific match** will be used if t
 
 **Bowtie2**
 <br />
-<img src="/src/images/news-graphics/2012_12_20_ngs-mapping-bowtie2.png" alt="Bowtie2" width=600 />
+<img src="/images/news-graphics/2012_12_20_ngs-mapping-bowtie2.png" alt="Bowtie2" width=600 />
 
 **RNA-Seq Tool Suite** with updated tools highlighted
 <br />
-<img src="/src/images/news-graphics/2012_12_20_ngs-rna-analysis-toolsuite.png" alt="RNA-Seq" width=300 />
+<img src="/images/news-graphics/2012_12_20_ngs-rna-analysis-toolsuite.png" alt="RNA-Seq" width=300 />
 
 <br />
 # Visualization
@@ -129,7 +129,7 @@ It is important to note that *only the most **specific match** will be used if t
 <br />
 # Trello Issue Tracking
 
-<div class='left'><a href='http://bit.ly/gxytrello'><img src="/src/images/logos/TrelloLogo300.png" alt="Galaxy Issue Board @ Trello" width="100" /></a></div>
+<div class='left'><a href='http://bit.ly/gxytrello'><img src="/images/logos/TrelloLogo300.png" alt="Galaxy Issue Board @ Trello" width="100" /></a></div>
 
 The Galaxy Project uses *[Trello](http://trello.com/)* for [issue creation](http://galaxyproject.org/trello) plus [commenting](http://wiki.galaxyproject.org/Issues#Add a Comment) and [voting](http://wiki.galaxyproject.org/Issues#Vote) on existing issues. 
 
@@ -146,7 +146,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 1. Fix for text area tool parameters (form builder) when a size isn't provided.
 2. Fix for error reporting link throwing server errors.
-3. Fix for `SelectToolParameter` in rerun ![](/src/images/icons/arrow-circle.png) and workflows when multiple="true"
+3. Fix for `SelectToolParameter` in rerun ![](/images/icons/arrow-circle.png) and workflows when multiple="true"
 4. Fix IE console errors.
 5. Fix unhandled 'new' state for datasets in the history panel.
 6. Handle adding datasets to history panel without refresh.
@@ -161,7 +161,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 [News](/news/), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-12)***
 
-<div class='left'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
+<div class='left'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 <br />
 **[GCC2013 Training Day Topic Nominations](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay) are now open** through ***[January 11th](http://wiki.galaxyproject.org/Events/GCC2013/KeyDates)***.  
 <br />

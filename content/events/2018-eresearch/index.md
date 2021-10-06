@@ -8,7 +8,7 @@ location: "Melbourne, Victoria, Australia"
 location_url: "https://conference.eresearch.edu.au/"
 gtn: true
 contact: Presenters
-image: "/src/events/2018-eresearch/eresearch-australasia-2018.png"
+image: "/events/2018-eresearch/eresearch-australasia-2018.png"
 ---
 
 Galaxy will be featured several presentations at [eResearch Australasia 2018](https://conference.eresearch.edu.au/), including a workshop.

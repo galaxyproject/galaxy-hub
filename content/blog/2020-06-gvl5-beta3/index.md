@@ -3,7 +3,7 @@ date: '2020-06-22'
 title: "Multi-tenant, multi-project GVL with Galaxy, Jupyter, Terminal, and RStudio"
 authors: "Alexandru Mahmoud, Nuwan Goonasekera, Enis Afgan"
 tease: "Complete analysis on one platform, including training and collaboration"
-image: "/src/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
+image: "/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
 highlight: true
 ---
 
@@ -46,8 +46,8 @@ can run differentiated toolsets, be supported by different cloud allocations,
 or be made available to targeted users.
 
 <div class="center">
-    <a href="/src/blog/2020-06-gvl5-beta3/gvl-projects.png">
-        <img src="/src/blog/2020-06-gvl5-beta3/gvl-projects.png" width="80%" />
+    <a href="/blog/2020-06-gvl5-beta3/gvl-projects.png">
+        <img src="/blog/2020-06-gvl5-beta3/gvl-projects.png" width="80%" />
     </a>
 </div>
 
@@ -77,8 +77,8 @@ access to those applications and can install any additional packages within
 those applications that are needed for the analysis.
 
 <div class="center">
-    <a href="/src/blog/2020-06-gvl5-beta3/gvl-login.png">
-        <img src="/src/blog/2020-06-gvl5-beta3/gvl-apps.png" width="80%" />
+    <a href="/blog/2020-06-gvl5-beta3/gvl-login.png">
+        <img src="/blog/2020-06-gvl5-beta3/gvl-apps.png" width="80%" />
     </a>
 </div>
 

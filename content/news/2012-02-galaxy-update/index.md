@@ -2,7 +2,7 @@
 title: "February 2012 Galaxy Update"
 date: "2012-01-31"
 ---
-<div class='right'><a href='/galaxy-updates/2012-02/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/2012-02/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 The [inaugural edition](/galaxy-updates/2012-02/) of *[Galaxy Update](/galaxy-updates/)* is now available.  *[Galaxy Update](/galaxy-updates/)* is a (mostly) monthly summary of what is going on in the Galaxy community.  *Galaxy Updates* will complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 

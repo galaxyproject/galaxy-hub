@@ -26,7 +26,7 @@ A summary of common troubleshooting solutions can also be found in this **Troubl
 
 ### Red error datasets
 
-If you can reproduce on [Galaxy Main https://usegalaxy.org](/main/), and the problem has a **red error dataset**, you might be asked to send in a bug report. Click on the green bug icon within one of the red error datasets to start the submission process: ![](/src/images/icons/bug.png)
+If you can reproduce on [Galaxy Main https://usegalaxy.org](/main/), and the problem has a **red error dataset**, you might be asked to send in a bug report. Click on the green bug icon within one of the red error datasets to start the submission process: ![](/images/icons/bug.png)
 
 ### Green unexpected-result datasets
 
@@ -45,10 +45,10 @@ If the problem is presenting in your own Galaxy, administrative configuration ma
  ### TIPS
  
 Reviewing the problematic output content, the original tool form as submitted, the Job Details' `stdout/stderr`, and a bug report preview can often help to self-diagnose and correct a problem. If enough information, a bug report/Biostars post does not need to be actually submitted. 
- * ![](/src/images/icons/eye.png) Display data in browser "eye icon"
- * ![](/src/images/icons/HistoryInfo.png) Job Details and run Info
- * ![](/src/images/icons/arrow-circle.png) Run this job again or examine original submitted form (filled in)
- * ![](/src/images/icons/bug.png) Review and optionally submit a bug report
+ * ![](/images/icons/eye.png) Display data in browser "eye icon"
+ * ![](/images/icons/HistoryInfo.png) Job Details and run Info
+ * ![](/images/icons/arrow-circle.png) Run this job again or examine original submitted form (filled in)
+ * ![](/images/icons/bug.png) Review and optionally submit a bug report
  
 1. How to share a History or Workflow: [Options/Share or Publish](/learn/share/) 
 1. If a Workflow was used, please include a share link to the workflow in the bug report's form comments or the direct email.

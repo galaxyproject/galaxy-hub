@@ -5,7 +5,7 @@ external_url: ""
 date: "2021-03-16"
 ---
 
-<img class="float-right" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" style="max-width: 18rem;" />
+<img class="float-right" src="/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" style="max-width: 18rem;" />
 
 Galaxy is again participating in [Google Summer of Code](https://summerofcode.withgoogle.com/) as part of the the [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC).  
 

@@ -2,7 +2,7 @@
 date: '2018-11-01'
 title: "Contributor of the Month: Saskia Hiltemann"
 authors: "Martin Čech"
-image: "/src/blog/2018-11-cotm-saskia-hiltemann/saskia-hiltemann.png"
+image: "/blog/2018-11-cotm-saskia-hiltemann/saskia-hiltemann.png"
 ---
 
 This month we welcome Saskia Hiltemann (Twitter: [@shiltemann](https://twitter.com/shiltemann), GitHub: [@shiltemann](https://github.com/shiltemann)) as our Galaxy contributor of the Month! Saskia is a bioinformatician and a PhD student working in metagenomics at Rotterdam’s Erasmus Medical Center in the Netherlands, a core member of the [Intergalactic Utilities Commission](https://galaxyproject.org/iuc/), and one of the two primary creators of the [Galaxy Training Framework](https://training.galaxyproject.org/) ([published](https://doi.org/10.1016/j.cels.2018.05.012) in *Cell Systems*).
@@ -48,7 +48,7 @@ My (biologist) supervisor always likes to describe his ideal view of bioinformat
 
 Thanks for the fun question :) CTF stands for "Capture The Flag" and these are online hacking events that usually last anywhere from a day to a couple of weeks, and basically consist of a series of computer security challenges or puzzles in which your goal is to obtain a specific hidden string of text. This could be a web service that has been intentionally left vulnerable to SQL injections, or an executable that can be manipulated into unintended behaviour, or it might involve the breaking of insecure encryption schemes. Very often they will include real-world scenarios based on recently discovered vulnerabilities. It is a great way to learn about a broad set of computer science and security topics, but also to learn about the potential vulnerabilities in any tools and program you will write in your professional life. I usually participate in these events together with Helena Rasche, but anybody is welcome to join our team! (no experience needed, there are always challenges of varying difficulty levels) :) 
 	
-Inspired by these CTF competitions, [Helena](/people/helena-rasche) and I also created a [Galaxy CTF event at GCC2017](https://sched.co/BCVY), which was great fun to create and hopefully also a fun way to learn more about Galaxy features and internals for the people who participated, and we hope to organize another Galaxy CTF at [GCC2019](/src/events/gcc2019/), so come check it out!
+Inspired by these CTF competitions, [Helena](/people/helena-rasche) and I also created a [Galaxy CTF event at GCC2017](https://sched.co/BCVY), which was great fun to create and hopefully also a fun way to learn more about Galaxy features and internals for the people who participated, and we hope to organize another Galaxy CTF at [GCC2019](/events/gcc2019/), so come check it out!
 
 
 Thanks for the interview!

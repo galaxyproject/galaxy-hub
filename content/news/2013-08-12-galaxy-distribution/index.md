@@ -3,7 +3,7 @@ title: "Aug 12, 2013 Galaxy Distribution"
 date: "2013-08-12"
 ---
 <div class='right'>
-<a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src="/src/images/news-graphics/2013_08_12_gcc-main-room.jpg" alt="GCC 2013" width=300 /></a><br />**GCC 2013**</div>
+<a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src="/images/news-graphics/2013_08_12_gcc-main-room.jpg" alt="GCC 2013" width=300 /></a><br />**GCC 2013**</div>
 **Complete [News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2013-08-12)**
 <br />
 <br />

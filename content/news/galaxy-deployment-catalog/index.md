@@ -2,7 +2,7 @@
 title: "Galaxy Deployment Catalog"
 date: "2013-12-04"
 ---
-<div class='right'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="200" /></a></div> 
+<div class='right'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="200" /></a></div> 
 
 We are pleased to announce the Galaxy Deployment Catalog, a place to describe individual Galaxy deployments, and to learn how others in the community are implementing Galaxy in production environments.
 

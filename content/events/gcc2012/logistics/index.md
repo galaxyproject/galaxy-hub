@@ -15,7 +15,7 @@ The [2012 Galaxy Community Conference](/events/gcc2012/) was held at the [UIC Fo
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://www.uicforum.uic.edu/'><img src="/src/events/gcc2012/logistics/UICForumExteriorThumb.jpg" alt="UIC Forum" height="100" /></a> </td>
+    <td style=" border: none;"> <a href='http://www.uicforum.uic.edu/'><img src="/events/gcc2012/logistics/UICForumExteriorThumb.jpg" alt="UIC Forum" height="100" /></a> </td>
     <td style=" border: none;"> &nbsp;&nbsp; </td>
     <td style=" border: none;"> <a href='http://www.uicforum.uic.edu/'>UIC Forum</a><br />725 W Roosevelt Rd.<br />Chicago‚ IL 60608<br />Phone (312) 413-9875 </td>
   </tr>
@@ -35,7 +35,7 @@ There were blocks of rooms available at both a [nearby hotel](http://www.crownep
 </table>
 
 
-<div class='right'><a href='http://www.housing.uic.edu/halls/jst/index.php'><img src="/src/events/gcc2012/logistics/dorms2.jpg" alt="Dorm room"  /></a><br /><a href='http://www.housing.uic.edu/halls/jst/index.php'><img src="/src/events/gcc2012/logistics/dorms1.jpg" alt="Dorm lounge"  /></a></div>
+<div class='right'><a href='http://www.housing.uic.edu/halls/jst/index.php'><img src="/events/gcc2012/logistics/dorms2.jpg" alt="Dorm room"  /></a><br /><a href='http://www.housing.uic.edu/halls/jst/index.php'><img src="/events/gcc2012/logistics/dorms1.jpg" alt="Dorm lounge"  /></a></div>
 
 A limited number of low-cost rooms were available at [James Stukel Towers](http://www.housing.uic.edu/halls/jst/index.php) on the UIC Campus, and adjacent to the UIC Forum.  A mixture of 5 person and 8 person suites has been reserved. Each suite shares living space and bathrooms with a mix of single and double rooms. Linens are provided. There are no amenities and no housekeeping service.
 
@@ -53,7 +53,7 @@ These rates include free wireless internet / wifi.
 
 ### Crowne Plaza Chicago Metro Downtown
 
-<div class='right'><a href='http://www.crowneplaza.com/redirect?path=hd&brandCode=cp&localeCode=en&regionCode=1&hotelCode=CHISH&_PMID=99801505&GPC=IGC'><img src="/src/events/gcc2012/logistics/CrownePlaza1.jpg" alt="Crowne Plaza Chicago Metro Downtown" height="100" /></a></div>
+<div class='right'><a href='http://www.crowneplaza.com/redirect?path=hd&brandCode=cp&localeCode=en&regionCode=1&hotelCode=CHISH&_PMID=99801505&GPC=IGC'><img src="/events/gcc2012/logistics/CrownePlaza1.jpg" alt="Crowne Plaza Chicago Metro Downtown" height="100" /></a></div>
 
 The [Crowne Plaza Chicago Metro Downtown](http://www.crowneplaza.com/redirect?path=hd&brandCode=cp&localeCode=en&regionCode=1&hotelCode=CHISH&_PMID=99801505&GPC=IGC) is the official conference hotel.  A block of rooms has been reserved at a significant discount for conference attendees.  
 
@@ -71,7 +71,7 @@ Hotel rooms can be [reserved with this link](http://www.crowneplaza.com/redirect
 <div class='right'>
 <table>
   <tr>
-    <td style=" text-align: center;"> <a href='http://maps.google.com/maps/ms?msid=200882234356845070378.0004bb5ff01f2d9474e5d&msa=0&ll=41.874706,-87.653003&spn=0.034991,0.039139'><img src="/src/events/gcc2012/logistics/ChicagoMap1.png" alt="Venue and lodging map"  /></a><br /><a href='http://maps.google.com/maps/ms?msid=200882234356845070378.0004bb5ff01f2d9474e5d&msa=0&ll=41.874706,-87.653003&spn=0.034991,0.039139'>Venue + lodging map</a> </td>
+    <td style=" text-align: center;"> <a href='http://maps.google.com/maps/ms?msid=200882234356845070378.0004bb5ff01f2d9474e5d&msa=0&ll=41.874706,-87.653003&spn=0.034991,0.039139'><img src="/events/gcc2012/logistics/ChicagoMap1.png" alt="Venue and lodging map"  /></a><br /><a href='http://maps.google.com/maps/ms?msid=200882234356845070378.0004bb5ff01f2d9474e5d&msa=0&ll=41.874706,-87.653003&spn=0.034991,0.039139'>Venue + lodging map</a> </td>
   </tr>
 </table>
 

@@ -8,7 +8,7 @@ platforms:
     platform_text: "Langille Lab PICRUSt server"
     platform_location: CA
 summary: "Prediction of the unobserved character states in a community of organisms from phylogenetic information."
-image: "/src/use/langille-lab/picrust-workflow-450.jpg"
+image: "/use/langille-lab/picrust-workflow-450.jpg"
 comments:
   - "PICRUSt is a bioinformatics software package designed to predict metagenome functional content from marker gene (e.g., 16S rRNA) surveys and full genomes."
 user_support:

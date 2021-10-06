@@ -7,9 +7,9 @@ layout: events_index_cofests.pug
 
 <div class="text-center img-sizer autowidth" style="height: 6rem">
 
-![](/src/events/2020-10-papercuts/papercuts-2020-10-21.png)
-![](/src/images/galaxy-logos/gtn-cofests.png)
-![](/src/images/logos/bhlogo.png)
+![](/events/2020-10-papercuts/papercuts-2020-10-21.png)
+![](/images/galaxy-logos/gtn-cofests.png)
+![](/images/logos/bhlogo.png)
 
 </div>
 

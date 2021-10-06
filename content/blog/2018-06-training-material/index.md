@@ -2,7 +2,7 @@
 date: '2018-06-15'
 title: "A fruitful year for the Galaxy Training material"
 authors: "Bérénice Batut, on behalf of the Galaxy Training Network"
-image: "/src/blog/2018-06-training-material/cover_art.png"
+image: "/blog/2018-06-training-material/cover_art.png"
 ---
 
 The Galaxy Training Network has developed an infrastructure to deliver interactive training based on Galaxy: one central place ([https://training.galaxyproject.org](https://training.galaxyproject.org)) to aggregate training materials covering many current research topics.
@@ -15,7 +15,7 @@ This project was started in 2016 and was presented for the first time during the
 
 # Content: New + Restructed Topics and Tutorials
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-06-training-material/repo_content_stat_plot.png" alt="New content"/>
+<img class="img-fluid mx-auto" src="/blog/2018-06-training-material/repo_content_stat_plot.png" alt="New content"/>
 
 During the past year, two new topics have been added:
 - [Stastitics](http://galaxyproject.github.io/training-material/topics/statistics)
@@ -43,7 +43,7 @@ We are still in discussions with the Galaxy Admin instructors to integrate the c
 
 An effort has also been made to support more the tutorials with their required tools in `tools.yaml`, workflows, data on Zenodo and referenced in `data-library.yaml`, and interactive tours:
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-06-training-material/tech_support_prop_plot.png" alt="Proportion of support on the hands-on"/>
+<img class="img-fluid mx-auto" src="/blog/2018-06-training-material/tech_support_prop_plot.png" alt="Proportion of support on the hands-on"/>
 
 ## Tours
 
@@ -53,7 +53,7 @@ The development of the interactive tours has been facilitated with the developme
 
 The `tools.yaml` file of each tutorial is used to check which public Galaxy instances could be used to run the tutorial. This information is displayed on the top of the tutorial and in the topic page:
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-06-training-material/instance_annotation.png" alt="Galaxy instances"/>
+<img class="img-fluid mx-auto" src="/blog/2018-06-training-material/instance_annotation.png" alt="Galaxy instances"/>
 
 Accompanying the annotation, we also offer for each instance a collection of badges denoting compatibility with training materials ([https://training.galaxyproject.org/badges](https://training.galaxyproject.org/badges)). These badges can then be displayed on the instance homepages.
 
@@ -61,7 +61,7 @@ Accompanying the annotation, we also offer for each instance a collection of bad
 
 The European Galaxy server ([http://usegalaxy.eu](http://usegalaxy.eu)) is going one step further in the support for training. It offers Training Infrastructure as a Service (TIaaS). An organizer of a training workshop can ask for dedicated computing resources (dedicated queue and nodes on the cluster) for the trainees during the workshop. It is totally transparent for the workshop participants: they uses the UseGalaxy.eu instance as a normal user, but in the backend their jobs are automatically submitted to a dedicated queue. At the end of the workshop, the trainees are placed again on the normal queue:
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-06-training-material/tiaas.png" alt="TIasS"/>
+<img class="img-fluid mx-auto" src="/blog/2018-06-training-material/tiaas.png" alt="TIasS"/>
 
 ## Docker Images
 
@@ -71,11 +71,11 @@ More Docker images are offered to support the training. These Docker images, one
 
 The website can now be accessed from [https://training.galaxyproject.org](https://training.galaxyproject.org), which redirects to [http://galaxyproject.github.io/training-material](http://galaxyproject.github.io/training-material). An effort has been made to reshape the website:
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-06-training-material/website_reshape.png" alt="Website reshape"/>
+<img class="img-fluid mx-auto" src="/blog/2018-06-training-material/website_reshape.png" alt="Website reshape"/>
 
 We have also added some expandable boxes for the solutions of the question or more detail boxes. To help in the choice of the tutorials within a topic, we have added the possibility to tag the tutorials directly inside the `metadata.yaml`. The tags appear on the topic page, right below the title of the tutorial:
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-06-training-material/tags.png" alt="tag"/>
+<img class="img-fluid mx-auto" src="/blog/2018-06-training-material/tags.png" alt="tag"/>
 
 Each training webpage is now annotated with some metadata using the JSON-LD representation of [schema.org](https://schema.org/)'s [CreativeWork](https://schema.org/CreativeWork) vocabulary. This annotation will help the search engines by providing them structured information on our training materials and tutorials, exposing information like title and authorship in a way that they can easily consume and display to their users.
 
@@ -93,13 +93,13 @@ So we are happy to say that the article has been published on the [June issue](h
 
 This last year has been a success because of the community. Currently, >70 people have contributed at least once to the training material (>30 new contributors compared to last year). To highlight this awesome community, we have created a contributor [Hall of Fame](https://training.galaxyproject.org/hall-of-fame):
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-06-training-material/hall_of_fame.png" alt="Hall of Fame page and slide show on homepage"/>
+<img class="img-fluid mx-auto" src="/blog/2018-06-training-material/hall_of_fame.png" alt="Hall of Fame page and slide show on homepage"/>
 
 Each contributor is depicted by their GitHub profile image and can add information such as email, Gitter, Twitter, Linkedin, ORCID. Clicking on the images leads to the GitHub profile. To make this Hall of Fame visible on the homepage, we also added a little slide show on the homepage that cycles through all the contributors.
 
 The new contributors are mostly joining during the community events, such as the Contribution Fests or Hackathons: 
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-06-training-material/contribution_fests.png" alt="Contribution Fests"/>
+<img class="img-fluid mx-auto" src="/blog/2018-06-training-material/contribution_fests.png" alt="Contribution Fests"/>
 
 These events can be on-site, during conferencees or dedicated events; but we are also organizing online Contribution Fests (one or two days) to reach the whole community.
 

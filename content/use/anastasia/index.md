@@ -9,7 +9,7 @@ platforms:
     platform_location: GR
 summary: "**A**utomated **N**ucleotide **A**minoacid **S**equences **T**ranslational pl**A**tform
 for **S**ystemic **I**nterpretation and **A**nalysis"
-image: "/src/use/anastasia/anastasia-landing-page-450.png"
+image: "/use/anastasia/anastasia-landing-page-450.png"
 comments:
   - "A whole-cell bioreporter-based functional screening method"
   - "Features a novel interface to Galaxy that does not use the tool panel."

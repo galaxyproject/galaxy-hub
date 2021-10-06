@@ -1,7 +1,7 @@
 ---
 title: July 2012 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the July 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -54,7 +54,7 @@ These papers may be of interest to the Galaxy community:
 
 * ["Using Cloud Computing Infrastructure with CloudBioLinux, CloudMan, and Galaxy"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1109.html), by [Enis Afgan](/people/enis-afgan/), Brad Chapman, Margita Jadan, Vedran Franke, [James Taylor](/people/james-taylor/), *Current Protocols in Bioinformatics*. 2012 June: Unit 11.9.
 
-* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/people/jennifer-jackson/), [Dave Clements](/people/dave-clements/), [Daniel Blankenberg](/people/dan/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), [Galaxy Team](/src/galaxy-team/), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
+* ["Using Galaxy to Perform Large-Scale Interactive Data Analyses"](http://cda.currentprotocols.com/WileyCDA/CPUnit/refId-bi1005.html), by [Jennifer Hillman-Jackson](/people/jennifer-jackson/), [Dave Clements](/people/dave-clements/), [Daniel Blankenberg](/people/dan/), [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), [Galaxy Team](/galaxy-team/), *Current Protocols in Bioinformatics*. 2012 June: Unit 10.5.
 
 These papers were among [31 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/) (for a total of 348 papers in the last ~16 months).  The new papers are spread [across 8 categories](http://www.citeulike.org/group/16008/tags).
 
@@ -64,7 +64,7 @@ These papers were among [31 papers added to the Galaxy CiteULike group](http://w
 
 ## GCC2012 is July 25-27!
 
-<a href='/events/gcc2012/'><img src="/src/events/gcc2012/GCC2012LogoWide600.png" alt="2012 Galaxy Community Conference"  /></a>
+<a href='/events/gcc2012/'><img src="/events/gcc2012/GCC2012LogoWide600.png" alt="2012 Galaxy Community Conference"  /></a>
 
 <div class='blue'>
 **[Register by July 18!](/events/gcc2012/register/)**
@@ -81,7 +81,7 @@ The [program for all 3 days is now available](/events/gcc2012/program/). This in
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs and software engineers @ Emory and Penn State.
@@ -95,12 +95,12 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src="/src/images/logos/CGFB_LOGO.png" alt="Atelier Galaxy" height=60 /></a> &nbsp; <a href='/events/ismb2012/'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a> &nbsp; <a href='/news/galaxy-workshops-in-south-africa/'><img src="/src/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
+<a href='http://www.cbib.u-bordeaux2.fr/fr/content/atelier-galaxy-5-et-6-juillet'><img src="/images/logos/CGFB_LOGO.png" alt="Atelier Galaxy" height=60 /></a> &nbsp; <a href='/events/ismb2012/'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a> &nbsp; <a href='/news/galaxy-workshops-in-south-africa/'><img src="/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 
 There are July (*and June 30!*) application and registration deadlines for 
 * the [Galaxy Workshops in South Africa](/news/galaxy-workshops-in-south-africa/) (deadline: **June 30**) and the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/) (deadline **July 1**)
@@ -204,7 +204,7 @@ A new version of CloudMan was [Released in June](/news/new-cloudman-release/).
 
 ## Other News
 
-<div class='right'><a href='/news/r-galaxy-wrap-r-functions-as-tools/'><img src="/src/images/logos/BioconductorLogo.gif" alt="RGalaxy: Wrap R functions as Galaxy Tools" width="200" /></a></div>
+<div class='right'><a href='/news/r-galaxy-wrap-r-functions-as-tools/'><img src="/images/logos/BioconductorLogo.gif" alt="RGalaxy: Wrap R functions as Galaxy Tools" width="200" /></a></div>
 1. [RGalaxy](/news/r-galaxy-wrap-r-functions-as-tools/), a new [Bioconductor](http://bioconductor.org/) package, automatically generates XML definitions needed to wrap *any* R function as a Galaxy tool.
 
 1. The first [GalaxyCzars](/community/galaxy-admins/) conference call will happen July 9 or 10.  If you are interested, *please [help pick a time](http://doodle.com/f4f2f37smgcv3z6n) for the call.*

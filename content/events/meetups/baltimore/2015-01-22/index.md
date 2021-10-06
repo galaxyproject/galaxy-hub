@@ -1,7 +1,7 @@
 ---
 title: Jan 22, 2015 Baltimore Area Galaxy Meetup @ Johns Hopkins
 ---
-<div class='center'><img src="/src/events/meetups/baltimore/2015-01-22/GalaxyBaltimoreMeetupLogo400.png" alt="Galaxy Baltimore Meetups" width="300" /><br /><br />
+<div class='center'><img src="/events/meetups/baltimore/2015-01-22/GalaxyBaltimoreMeetupLogo400.png" alt="Galaxy Baltimore Meetups" width="300" /><br /><br />
 <span style="font-size: larger;"> We are full! </span>
 </div>
 
@@ -21,7 +21,7 @@ Hey Everyone,
 
 We are looking forward to kicking off our first [Galaxy Project](http://galaxyproject.org) Meetup! We will meet at one of the Galaxy project hubs - the Department of Biology of Johns Hopkins University for a general introduction to Galaxy in form of a social gathering. This will be an informal meeting open to anyone interested in data analysis, tools, computer infrastructure, programming - regardless.
 
-[Enis Afgan](/people/enis-afgan/) and [Nitesh Turaga](/people/nitesh-turaga/) of the [Galaxy team](/src/galaxy-team/) will be kicking things off with a discussion on Galaxy and how researchers around the world are leveraging it. 
+[Enis Afgan](/people/enis-afgan/) and [Nitesh Turaga](/people/nitesh-turaga/) of the [Galaxy team](/galaxy-team/) will be kicking things off with a discussion on Galaxy and how researchers around the world are leveraging it. 
 
 Thanks and hope to see you there!
 
@@ -31,7 +31,7 @@ Thanks and hope to see you there!
 * January 22, 2015 (Thursday)
 * 6PM to 7:30PM
 
-<div class='right'><a href='http://bit.ly/1xSyrt7'><img src="/src/events/meetups/baltimore/2015-01-22/BaltimoreAreaMeetupMapThumb.png" alt="Baltimore Area Galaxy Meetups Map" width="140" /></a></div>
+<div class='right'><a href='http://bit.ly/1xSyrt7'><img src="/events/meetups/baltimore/2015-01-22/BaltimoreAreaMeetupMapThumb.png" alt="Baltimore Area Galaxy Meetups Map" width="140" /></a></div>
 
 ### Where
 

@@ -8,7 +8,7 @@ platforms:
     platform_text: "CBiB Galaxy"
     platform_location: FR
 summary: "A general purpose Galaxy instance that includes EMBOSS (a software analysis package for molecular biology) and fibronectin (diversity analysis of synthetic libraries of a Fibronectin domain). "
-image: "/src/images/logos/cbib-logo-300.png"
+image: "/images/logos/cbib-logo-300.png"
 comments:
   - "Dedicated server: 4 CPU Intel Xeon - 8 cores (a total of 32 cores / 64 threads) , 128 GB RAM, 800 GB of disk space."
 user_support:

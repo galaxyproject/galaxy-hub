@@ -3,7 +3,7 @@ title: "September 2015 Galactic News"
 date: "2015-09-01"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-09/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! September 2015 Edition" width=170 /></a>
+<a href='/galaxy-updates/2015-09/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! September 2015 Edition" width=170 /></a>
 </div>
 
 The **[September Galactic News](/galaxy-updates/2015-09/)** is hot off the presses.
@@ -19,4 +19,4 @@ The **[September Galactic News](/galaxy-updates/2015-09/)** is hot off the press
   * [Workflow4Metabolomics](/galaxy-updates/2015-09/#workflow4metabolomics) and [EpiToolKit](/galaxy-updates/2015-09/#epitoolkit)
 * [Three security advisories](/galaxy-updates/2015-09/#security-advisories), [Recent Releases](/galaxy-updates/2015-09/#other-releases), and [ToolShed Contributions](/galaxy-updates/2015-09/#toolshed-contributions)
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

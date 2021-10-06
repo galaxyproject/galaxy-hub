@@ -11,7 +11,7 @@ The [JXTX Foundation's](/jxtx/foundation/) first activity was to [sponsor 10 gra
 
 <blockquote class="blockquote">
 
-<img src="/src/news/2020-10-jxtx-awardees/sumaira.jpg" alt="Sumaira Zaman" class="float-right" style="max-width: 10rem;" />
+<img src="/news/2020-10-jxtx-awardees/sumaira.jpg" alt="Sumaira Zaman" class="float-right" style="max-width: 10rem;" />
 
 First of all I really want to thank and recognize the JXTX Scholarship organizers for putting together this initiative. This scholarship is just the beginning of [James Taylor's](/jxtx/) legacy.
 <br /><br />

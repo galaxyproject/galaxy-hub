@@ -2,7 +2,7 @@
 title: "Galaxy Hackathon at GCC2014"
 date: "2014-04-18"
 ---
-<div class='right'><a href='/events/gcc2014/hackathon/'><img src="/src/images/logos/GCC2014HackLogo200.png" alt="GCC2014 Hackathon" width="200" /></a></div>
+<div class='right'><a href='/events/gcc2014/hackathon/'><img src="/images/logos/GCC2014HackLogo200.png" alt="GCC2014 Hackathon" width="200" /></a></div>
 
 Galaxy has a fantastic developer community, from the very active [mailing lists](/mailing-lists/) and #galaxyproject IRC channel to individuals who have submitted literally hundreds of pull requests and patches.  We are always looking for ways to interact with existing community members and get even more people involved. To that end, **we’re thrilled to officially announce the very first [Galaxy Project Hackathon](/events/gcc2014/hackathon/).**  The hackathon will be a three day event taking place at Johns Hopkins immediately preceding [GCC2014](/events/gcc2014/) from June 28th-30th.
 
@@ -16,4 +16,4 @@ Finally, we are very happy to have **[Curoverse](https://curoverse.com/) on boar
 
 We hope to see you in June, and can't wait to see what we can accomplish!
 
--[Dannon Baker](/people/dannon-baker/) on behalf of the [GCC2014 Hackathon Organizing Committee](/src/events/gcc2014/organizers/#hackathon-committee)
+-[Dannon Baker](/people/dannon-baker/) on behalf of the [GCC2014 Hackathon Organizing Committee](/events/gcc2014/organizers/#hackathon-committee)

@@ -3,8 +3,8 @@ title: "November 2015 Galactic News"
 date: "2015-11-02"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-11/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width=150 /></a><br />
-<a href='/galaxy-updates/2015-11/#gcc2016-training-topic-vote-ends-this-friday'><img src="/src/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="150" /></a>
+<a href='/galaxy-updates/2015-11/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galactic News! October 2015 Edition" width=150 /></a><br />
+<a href='/galaxy-updates/2015-11/#gcc2016-training-topic-vote-ends-this-friday'><img src="/events/gcc2016/GCC2016TrainingLogo400.png" alt="GCC2016 Training" width="150" /></a>
 </div>
 
 The **[November Galactic News](/galaxy-updates/2015-11/)** is hot off the presses.
@@ -19,4 +19,4 @@ The **[November Galactic News](/galaxy-updates/2015-11/)** is hot off the presse
   * [Planemo 0.15.0 - 0.18.1](/galaxy-updates/2015-11/#planemo-0150---0181)
 * and [lots of other news too](/galaxy-updates/2015-11/#other-news).
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

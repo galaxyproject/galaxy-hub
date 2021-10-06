@@ -3,7 +3,7 @@ title: "Oct 5, 2012 Distribution & News Brief"
 date: "2012-10-06"
 ---
 **Complete [News Brief](/archive/dev-news-briefs/2012-10-05/)**
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 **Highlights:**
 * **[BWA](http://bio-bwa.sourceforge.net/)** tool wrappers *[migrated](/archive/dev-news-briefs/2012-10-05/#bwa-migration-to-tool-shed)* to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**. 
 * **Tool Factory** paper has been [E Published](/archive/dev-news-briefs/2012-10-05/#galaxy-tool-factory-paper-e-published) in [PubMed](http://www.ncbi.nlm.nih.gov/pubmed) at **[PMID: 23024011](http://www.ncbi.nlm.nih.gov/pubmed/23024011)**.
@@ -22,4 +22,4 @@ upgrade: $ hg pull -u -r b5bda7a5c345
 
 **Thanks for using Galaxy!**
 
-[Jennifer Jackson](/people/jennifer-jackson/) & the [Galaxy Team](/src/galaxy-team/)
+[Jennifer Jackson](/people/jennifer-jackson/) & the [Galaxy Team](/galaxy-team/)

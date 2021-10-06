@@ -5,16 +5,16 @@ date: "2012-06-28"
 <div class='right'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <img src="/src/news/galaxy-workshops-in-south-africa/SouthAfricaFlag.png" alt="" width="150" /> </td>
+    <td style=" text-align: center; border: none;"> <img src="/news/galaxy-workshops-in-south-africa/SouthAfricaFlag.png" alt="" width="150" /> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.up.ac.za/'><img src="/src/images/logos/UPretoriaWide.png" alt="University of Pretoria" width="200" /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.up.ac.za/'><img src="/images/logos/UPretoriaWide.png" alt="University of Pretoria" width="200" /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.sun.ac.za/'><img src="/src/images/logos/StellenboschUWide.png" alt="Stellenbosch University"  /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.sun.ac.za/'><img src="/images/logos/StellenboschUWide.png" alt="Stellenbosch University"  /></a> </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://genetics.cmc-uct.co.za/'><img src="/src/images/logos/SASBCB_SAGS.png" alt="outh African Genetics & Bioinformatics Society Joint Conference"  /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://genetics.cmc-uct.co.za/'><img src="/images/logos/SASBCB_SAGS.png" alt="outh African Genetics & Bioinformatics Society Joint Conference"  /></a> </td>
   </tr>
 </table>
 

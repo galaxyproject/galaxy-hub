@@ -8,7 +8,7 @@ platforms:
     platform_text: "Huttenhower Lab"
     platform_location: US
 summary: "metagenomic and functional genomic analyses, intended for research and academic use "
-image: "/src/use/huttenhower-lab/huttenhower-lab.png"
+image: "/use/huttenhower-lab/huttenhower-lab.png"
 comments:
   - "Implements ..."
   - "LEfSe - LDA Effect Size"

@@ -1,7 +1,7 @@
 <div class='title'>
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/src/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
+    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
     <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a><br /><br /> San Antonio, Texas, United States<br /><br />June 5-9, 2016 </td>
   </tr>
 </table>

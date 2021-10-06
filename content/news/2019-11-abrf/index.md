@@ -4,7 +4,7 @@ tease: "Registration is open, but space is limited"
 date: "2019-11-21"
 ---
 
-[<img class="float-right" style="max-width: 16rem" src="/src/images/logos/abrf-logo-color-text.png" alt="Galaxy Workshop at ABRF 2020" />](/events/2020-abrf/)
+[<img class="float-right" style="max-width: 16rem" src="/images/logos/abrf-logo-color-text.png" alt="Galaxy Workshop at ABRF 2020" />](/events/2020-abrf/)
 
 Two up and coming topics in the life sciences will be featured in a day long [pre-conference workshop](/events/2020-abrf/) at the [Association of Biomolecular Resource Facilities (ABRF) 2020 conference](http://conf.abrf.org/) in Palm Springs, California:
 

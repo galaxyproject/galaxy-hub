@@ -5,7 +5,7 @@ external_url: ""
 date: "2020-12-03"
 ---
 
-<img class="float-right" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Project" />
+<img class="float-right" src="/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Project" />
 
 This [Galaxy webinar](/events/2020-12-webinar-where/) will introduce the many options for using Galaxy right now and anywhere in the world. We'll cover 
 

@@ -2,7 +2,7 @@
 title: UseGalaxy Servers
 ---
 
-<img class="float-right img-responsive" style="max-width: 300px;" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.svg" alt="UseGalaxy.*" />
+<img class="float-right img-responsive" style="max-width: 300px;" src="/images/galaxy-logos/usegalaxy-dot-star-white.svg" alt="UseGalaxy.*" />
 
 The [UseGalaxy](/use/) servers are [publicly accessible Galaxy servers](/use/) that [will support](#work-in-progress)
  a common and synchronized set of tools and reference genomes.

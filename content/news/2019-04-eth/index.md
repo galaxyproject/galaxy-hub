@@ -4,7 +4,7 @@ tease: "ETH Zurich is hiring"
 date: "2019-04-11"
 ---
 
-[<img class="float-right" style="max-width: 300px" src="/src/news/2019-04-eth/eth-zurich-cow.png" alt="ETH Zurich is hiring" />](https://apply.refline.ch/845721/6985/pub/1/index.html
+[<img class="float-right" style="max-width: 300px" src="/news/2019-04-eth/eth-zurich-cow.png" alt="ETH Zurich is hiring" />](https://apply.refline.ch/845721/6985/pub/1/index.html
 )
 
 The [Animal Genomics](http://www.ag.ethz.ch) and [Animal Physiology](http://www.ap.ethz.ch) groups at the [Institute of Agricultural Sciences](http://www.ias.ethz.ch/), [ETH Zurich](http://www.ethz.ch/), are seeking a [Postdoctoral Researcher](https://apply.refline.ch/845721/6985/pub/1/index.html) to implement bioinformatic methods that combine short and long sequencing reads for *de novo* assembly of large animal genomes. This work will address sequence variation in livestock populations and the complex regulation of physiology. Reproductive challenges are specifically in focus and include an epigenetic perspective on cellular communication in livestock and wildlife. 

@@ -3,7 +3,7 @@ title: "New Galaxy-Announce Mailing List"
 date: "2011-12-02"
 ---
 <div class='right'>
-<a href='http://lists.bx.psu.edu/listinfo/galaxy-announce'><img src="/src/images/logos/MailmanLogoSmall.png" /></a>
+<a href='http://lists.bx.psu.edu/listinfo/galaxy-announce'><img src="/images/logos/MailmanLogoSmall.png" /></a>
 </div>
 
 There is a new mailing list in the Galaxy: [Galaxy-Announce](http://lists.bx.psu.edu/listinfo/galaxy-announce).  

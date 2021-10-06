@@ -2,7 +2,7 @@
 title: "New Galaxy Group @ CiteULike"
 date: "2011-12-15"
 ---
-<div class='right'><a href='/publication-library/'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
+<div class='right'><a href='/publication-library/'><img src="/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 
 A new [Galaxy Group](/publication-library/) has been created at the CiteULike social bookmarking service to organize papers that are about, use, or reference Galaxy.  The Galaxy Group is open to any CiteULike user (and anyone can become a CiteULike user).  Group members can add papers to the group, assign tags, and rate papers.
 

@@ -1,7 +1,7 @@
 ---
 title: United Kingdom May 2014 Galaxy Tour
 ---
-<div class='center'><img src="/src/images/logos/UKMay2014Tour.png" alt="" width="400px" /></div>
+<div class='center'><img src="/images/logos/UKMay2014Tour.png" alt="" width="400px" /></div>
 
 
 
@@ -13,7 +13,7 @@ Around Norwich or Edinburgh?  A [Galaxy Tour](/events/) is happening in the Unit
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://www.tgac.ac.uk/'><img src="/src/images/logos/TGACLogo.png" alt="NGS Data after the Gold Rush" height="80" /></a> </td>
+    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://www.tgac.ac.uk/'><img src="/images/logos/TGACLogo.png" alt="NGS Data after the Gold Rush" height="80" /></a> </td>
   </tr>
   <tr>
     <td colspan=3 style=" text-align: center; border: none;"> </td>
@@ -30,15 +30,15 @@ Around Norwich or Edinburgh?  A [Galaxy Tour](/events/) is happening in the Unit
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/events/uk-may2014/u-edinburgh/'><img src="/src/images/logos/UEdinburghWideLogo.png" alt="Introduction to Galaxy Workshop" height="90" /></a><br /> <strong> 12 May AM <br /> <a href='/events/uk-may2014/u-edinburgh/'>Introduction to Galaxy Workshop</a></strong><br /><a href='http://www.ed.ac.uk/'>University of Edinburgh</a> </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/uk-may2014/u-edinburgh/'><img src="/images/logos/UEdinburghWideLogo.png" alt="Introduction to Galaxy Workshop" height="90" /></a><br /> <strong> 12 May AM <br /> <a href='/events/uk-may2014/u-edinburgh/'>Introduction to Galaxy Workshop</a></strong><br /><a href='http://www.ed.ac.uk/'>University of Edinburgh</a> </td>
     <td style=" text-align: center; border: none; width: 20%;"> </td>
-    <td style=" text-align: center; border: none;"> <a href='http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting'><img src="/src/images/logos/EdinburghBioinformatics.png" alt="5th Edinburgh Bioinformatics Meeting" height="60" /></a><br /><br /> <strong>12 May PM <br /> Galaxy Project Update <br /><a href='http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting'>5th Edinburgh Bioinformatics Meeting</a></strong><br /> <a href='http://www.ed.ac.uk/'>University of Edinburgh</a> <br /> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/GalaxyProjectUpdate201405.pdf'>Slides</a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting'><img src="/images/logos/EdinburghBioinformatics.png" alt="5th Edinburgh Bioinformatics Meeting" height="60" /></a><br /><br /> <strong>12 May PM <br /> Galaxy Project Update <br /><a href='http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting'>5th Edinburgh Bioinformatics Meeting</a></strong><br /> <a href='http://www.ed.ac.uk/'>University of Edinburgh</a> <br /> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/GalaxyProjectUpdate201405.pdf'>Slides</a> </td>
   </tr>
 </table>
 
 
 <div class='center'>
-<a href='http://www.igmm.ac.uk/'><img src="/src/images/logos/IGMMLogo.jpg" alt="Institute of Genetics and Molecular Medicine"  /></a><br />
+<a href='http://www.igmm.ac.uk/'><img src="/images/logos/IGMMLogo.jpg" alt="Institute of Genetics and Molecular Medicine"  /></a><br />
 **13 May<br />
 [Galaxy Workshop](/events/uk-may2014/igmm-workshop/)**<br />
 [Institute of Genetics and Molecular Medicine](http://www.igmm.ac.uk/)

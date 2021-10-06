@@ -1,7 +1,7 @@
 ---
 title: "Galaxy @ PAG 2016"
 ---
-<div class='center'><a href='http://www.intlpag.org/'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="100" /></a>
+<div class='center'><a href='http://www.intlpag.org/'><img src="/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="100" /></a>
 </div>
 
 

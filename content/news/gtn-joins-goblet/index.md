@@ -3,8 +3,8 @@ title: "GTN Joints GOBLET"
 date: "2015-03-09"
 ---
 <div class='right'>
-<a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="120" /></a>
-<a href='http://mygoblet.org'><img src="/src/images/logos/GobletLogo.png" alt="Global Organisation for Bioinformatics Learning, Education & Training (GOBLET)" height="120" /></a>
+<a href='https://training.galaxyproject.org/'><img src="/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="120" /></a>
+<a href='http://mygoblet.org'><img src="/images/logos/GobletLogo.png" alt="Global Organisation for Bioinformatics Learning, Education & Training (GOBLET)" height="120" /></a>
 </div>
 
 *We are delighted to announce that the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) has officially joined the [Global Organisation for Bioinformatics & Training (GOBLET)](http://mygoblet.org).*

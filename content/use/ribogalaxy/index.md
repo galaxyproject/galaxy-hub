@@ -8,7 +8,7 @@ platforms:
     platform_text: "RiboGalaxy"
     platform_location: IE
 summary: "Tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique. "
-image: "/src/use/ribogalaxy/ribogalaxy-logo.png"
+image: "/use/ribogalaxy/ribogalaxy-logo.png"
 comments:
   - "[RiboGalaxy](http://ribogalaxy.ucc.ie) is a freely available web server for processing and analysing ribosome profiling (ribo-seq) data with the visualization functionality provided by [GWIPS-viz](http://gwips.ucc.ie/). RiboGalaxy provides a compact suite of tools specifically tailored for the alignment and visualization of ribo-seq and corresponding mRNA-seq data. Users can take advantage of the published workflows on RiboGalaxy which reduce the multi-step alignment process to a minimum of inputs."
 user_support:

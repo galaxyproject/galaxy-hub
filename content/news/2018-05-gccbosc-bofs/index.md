@@ -3,7 +3,7 @@ title: 'GCCBOSC 2018 Call for BoFs'
 tease: 'Birds of feather flock together in Portland'
 date: '2018-05-15'
 ---
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" alt="Propose a BoF" width="170" />](http://bit.ly/gccbosc2018-bofs-call)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-boxed-300.png" alt="Propose a BoF" width="170" />](http://bit.ly/gccbosc2018-bofs-call)
 
 There is no better place than the upcoming [GCCBOSC 2018 Conference](https://gccbosc2018.sched.com/) to meet and learn from others doing data-intensive biology.  *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_%28computing%29)* meetups are informal gatherings where participants group together to discuss common interests.
 

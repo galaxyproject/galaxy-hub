@@ -7,7 +7,7 @@ date: 2015-03-01
 [Galaxy March Release Summary](/news/2015-03-galaxy-release/)
 <br />
 
-<div class='left'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
 
 <br />
 <br />
@@ -72,7 +72,7 @@ Be sure to check out the new [Galaxy NGS 101](/learn/galaxy-ngs101/) wiki (in pr
 
 # Github
 
-<div class='right'><a href='https://github.com/galaxyproject/galaxy'><img src="/src/images/logos/GitHubLogoText.png" alt="Galaxy on GitHub" width="100" /></a></div>
+<div class='right'><a href='https://github.com/galaxyproject/galaxy'><img src="/images/logos/GitHubLogoText.png" alt="Galaxy on GitHub" width="100" /></a></div>
 
 Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy), but stable/release changes are mirrored to Bitbucket. Deployers can continue to use Bitbucket as they have done in the past.
 
@@ -224,5 +224,5 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 
 # About Galaxy
 
-<div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
+<div class='left'><a href='http://usegalaxy.org'><img src="/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
 **[About Galaxy](/support/about-galaxy/)** • [Galaxy Project](/galaxy-project/) • [Admin](/admin/) • [Issues](/issues/) • [Big Picture](/galaxy-project/) • [Community](/community/) • [Get Galaxy](/admin/get-galaxy/) • [CloudMan](/cloudman/) • [Tool Shed](/toolshed/) • [Develop](/develop/) • [News Briefs](/docs/) • [Servers](/use/) • [Learn](/learn/) • [Support](/support/) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/news/) • [Twitter](/galaxy-on-twitter/) • [Events](/events/) • [Teach](/teach/) • [Cite](/citing-galaxy/) • [Galaxy Team](/galaxy-team/)

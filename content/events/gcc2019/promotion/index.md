@@ -5,7 +5,7 @@
 # Help get the word out
 
 
-[<img class="float-right" src="/src/events/gcc2019/promotion/gcc2019-flyer-thumb.png" alt="Help get the word out!" />](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/gcc2019-flyer.pdf)
+[<img class="float-right" src="/events/gcc2019/promotion/gcc2019-flyer-thumb.png" alt="Help get the word out!" />](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/gcc2019-flyer.pdf)
 
 # Flyer 
 

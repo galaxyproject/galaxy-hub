@@ -8,7 +8,7 @@ platforms:
     platform_text: "Mandoiu Lab"
     platform_location: US
 summary: "A customized installation of the Galaxy framework deploying bioinformatic tools and pipelines developed in the [Mandoiu Lab](http://dna.engr.uconn.edu/) at the [University of Connecticut](http://www.uconn.edu/) for high-throughput sequencing and immunogenomics data analysis"
-image: "/src/use/mandoiu/mandoiu-landing-500.png"
+image: "/use/mandoiu/mandoiu-landing-500.png"
 comments:
   - "Source code and relevant publications for these and other tools developed in the lab are available on the lab software page. "
 user_support:

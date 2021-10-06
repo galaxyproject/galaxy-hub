@@ -311,7 +311,7 @@ BlockClust was tested and works with small RNA-seq data of eukaryotic organisms.
 
 ## P17: A Galaxy-Based framework for online streaming data analytics in Heart Rate Variability Analysis
 
-<div class='right'><img src="/src/events/gcc2013/abstracts/posters/CalogeroZarbo.jpg" alt="Calogero Zarbo" width="100" /></div>
+<div class='right'><img src="/events/gcc2013/abstracts/posters/CalogeroZarbo.jpg" alt="Calogero Zarbo" width="100" /></div>
 
 **Calogero Zarbo<sup>1</sup>**, Andrea Bizzego<sup>1,2,3</sup>, Marco Mina<sup>1</sup>, Gianluca Esposito<sup>2,4</sup>, Cesare Furlanello<sup>1</sup>
 

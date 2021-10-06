@@ -4,7 +4,7 @@ tease: "Choose your own training adventure!"
 date: '2017-12-14'
 ---
 
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Nominate Training Topics" />](http://bit.ly/gccbosc2018-tr-nom)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Nominate Training Topics" />](http://bit.ly/gccbosc2018-tr-nom)
 
 **[Nominate a training topic Now](http://bit.ly/gccbosc2018-tr-nom)**
 

@@ -12,7 +12,7 @@ To help highlight our tutorials and the training effort of the community, a memb
 
 This month, the [*Galaxy contributor of the Month!*](/blog/2018-10-cotm-yvan-le-bras/), Yvan Le Bras, selects and presents a tutorial: ["Galaxy 101"](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html), from the topic ["Introduction to Galaxy Analyses"](http://galaxyproject.github.io/training-material/topics/introduction/s):
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-10-totm/galaxy101.png" alt="galaxy101 screenshot"/>
+<img class="img-fluid mx-auto" src="/blog/2018-10-totm/galaxy101.png" alt="galaxy101 screenshot"/>
 
 *The full version is available on the training website: [http://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-101/tutorial.html](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html)*
 
@@ -24,7 +24,7 @@ Yvan, we are looking forward to learn more about your choice!
 
 Since 2010, the year I discovered Galaxy, I obtained my PhD, begun to focus on Bioinformatics/Biostatistics through NGS and proteomics approaches, animated a western France Galaxy group of users, given dozens of hours of Galaxy training, created the French CeSGO e-Science Center, co-founded the Enancio start-up and finally returned to my first love, Ecology and biodiversity conservation through the birth of Galaxy-E initiative thanks to the national "65 Millions d'observateurs" project dedicated to facilitate and extend participation into citizen science projects and now coordinating the national "Pôle national de données de biodiversité" French Research Infrastructure. A big sentence isn't it ;) And... this is the view from my office:
 
-<img class="float-right" src="/src/blog/2018-10-totm/20170120_091518.jpg" alt="Galaxy-E window" style="max-width: 250px" />
+<img class="float-right" src="/blog/2018-10-totm/20170120_091518.jpg" alt="Galaxy-E window" style="max-width: 250px" />
 
 ### Can you tell us a little about yourself and your relationship to training?
 
@@ -34,7 +34,7 @@ Since my PhD, I'm convinced that training is a key element for science to go fas
 
 I gave something like 30 Galaxy training sessions, always beginning by this introductory tutorial, and this fundamental question:
 
-<img class="float-right" src="/src/blog/2018-10-totm/question.png" alt="Which exon has the highest density of SNPs on human chromosome 22?" />
+<img class="float-right" src="/blog/2018-10-totm/question.png" alt="Which exon has the highest density of SNPs on human chromosome 22?" />
 
 Writing these lines, I can see Cyril (Monjeaud), with whom I gave almost all the training sessions, face expression as it was always like a game to me to transform this "simple" question into a fundamental research one! Concretly, this is a perfect manner to introduce Galaxy functionnalities, interest, using a "simple" few-steps workflow, dealing with remote datasets, well known data banks (here UCSC), and basic but so important and powerfull pre-processing/filtering tools! For sure kind of tools that a lot of people use on the ~every-day lab life!
 

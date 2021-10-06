@@ -3,11 +3,10 @@ name: Check Internal Links
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 23 * * *'
+    - cron: "30 23 * * *"
 
 jobs:
   check_links_internal:
-    name: Check Internal Links
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

@@ -8,4 +8,4 @@ The postdoc will be part of a newly established research center and will work in
 
 The salary is good and there are good future career opportunities. Further details on the positions and how to apply are available in the [full announcement](http://uio.easycruit.com/vacancy/1566797/64290?iso=no).
 
-<div class='center'><a href='http://uio.easycruit.com/vacancy/1566797/64290?iso=no'><img src="/src/images/logos/UiOLogo.png" alt="Postdoc position on methods for transcriptome analysis of disease-specific cells in Oslo" width="300" /></a></div>
+<div class='center'><a href='http://uio.easycruit.com/vacancy/1566797/64290?iso=no'><img src="/images/logos/UiOLogo.png" alt="Postdoc position on methods for transcriptome analysis of disease-specific cells in Oslo" width="300" /></a></div>

@@ -5,7 +5,7 @@ external_url: ""
 date: "2021-03-15"
 ---
 
-[![Papercuts](/images/galaxy-logos/papercuts.png)](/events/2021-03-papercuts/)
+[<img src="/events/cofests/papercuts/papercuts.png" class="float-left" style="max-width: 12rem;" alt="Papercuts" />](/events/2021-03-papercuts/)
 
 **The [March Papercuts CoFest](/events/2021-03-papercuts/) is this Thursday.**  Like previous Papercuts events, it will start in Melbourne, Australia and then follow the sun for the next 24 hours before ending in Portland, Oregon, United States.
 

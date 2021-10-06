@@ -6,7 +6,7 @@ tease: "Data analysis of RNA-seq, ChIP-seq, Exome-seq, MethylC-seq data"
 continent: EU
 location: University of Freiburg, Freiburg, Germany
 location_url:
-image: /src/images/logos/deNBILogo.png
+image: /images/logos/deNBILogo.png
 external_url: 
 contact: Freiburg Galaxy Team
 gtn: true

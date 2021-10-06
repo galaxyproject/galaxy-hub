@@ -8,7 +8,7 @@ Due to a security vulnerability, administrators are strongly encouraged to upgra
 <br />
 
 **Complete [News Brief](/archive/dev-news-briefs/2013-04-01/)**
-<div class='right'><a href='http://galaxyproject.org'><img src="/src/images/news-graphics/2013_04_01_granular-galaxy-utilities.png" alt="tool shed" width=350 /></a></div>
+<div class='right'><a href='http://galaxyproject.org'><img src="/images/news-graphics/2013_04_01_granular-galaxy-utilities.png" alt="tool shed" width=350 /></a></div>
 **Highlights:**
 
 * [Job running configuration changes and refactoring of job runner plugins](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Job_Running_Configuration_Changes)

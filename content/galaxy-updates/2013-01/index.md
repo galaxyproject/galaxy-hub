@@ -1,7 +1,7 @@
 ---
 title: January 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the January 2013 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -61,7 +61,7 @@ There are now [599 papers in the Galaxy CiteULike Group](http://www.citeulike.or
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * **The [Galaxy Project is hiring](/galaxy-is-hiring/)!**
@@ -78,11 +78,11 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 ## GCC2013
 
-<div class='center'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
+<div class='center'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 ### Training Day Topic Nominations
 
-<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
 [Nominations are now open](http://bit.ly/gcc2013nom) for [Training Day topics](/events/gcc2013/training-day/) for the [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/).  [GCC2013](/events/gcc2013/) will start on 30 June with a Training Day featuring 4 parallel tracks, each with three, two hour workshops, for a total of twelve sessions.
 
@@ -95,10 +95,10 @@ Any topic of interest to the Galaxy Community can be [nominated](http://bit.ly/g
 <div class='center'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.uio.no/english/research/interfaculty-research-areas/mls/'><img src="/src/images/logos/MLSUiOLogo.png" alt="Molecular Life Science at the University of Oslo" height=80 /></a> </td>
-    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.forskningsradet.no/english/'><img src="/src/images/logos/ResearchCouncilNorway500.png" alt="The Research Council of Norway" width="266" /></a> </td>
-    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.bioinfo.no/about/'><img src="/src/images/logos/FUGE.png" alt="Functional Genomics" height=80 /></a> &nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none;"> <a href='http://www.elixir-europe.org/'><img src="/src/images/logos/ElixirNoTextLogo.png" alt="Elixer" height=80 /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.uio.no/english/research/interfaculty-research-areas/mls/'><img src="/images/logos/MLSUiOLogo.png" alt="Molecular Life Science at the University of Oslo" height=80 /></a> </td>
+    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.forskningsradet.no/english/'><img src="/images/logos/ResearchCouncilNorway500.png" alt="The Research Council of Norway" width="266" /></a> </td>
+    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.bioinfo.no/about/'><img src="/images/logos/FUGE.png" alt="Functional Genomics" height=80 /></a> &nbsp;&nbsp; </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.elixir-europe.org/'><img src="/images/logos/ElixirNoTextLogo.png" alt="Elixer" height=80 /></a> </td>
   </tr>
 </table>
 
@@ -106,14 +106,14 @@ Any topic of interest to the Galaxy Community can be [nominated](http://bit.ly/g
 
 Please join us in thanking [Molecular Life Science at the University of Oslo](http://www.uio.no/english/research/interfaculty-research-areas/mls/), [The Research Council of Norway](http://www.forskningsradet.no/english/), [Functional Genomics](http://www.bioinfo.no/about/) and [Elixer](http://www.elixir-europe.org/) for hosting and funding the [2013 Galaxy Community Conference](/events/gcc2013/).
 
-<div class='left'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="150" /></a></div>
+<div class='left'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="150" /></a></div>
 
 We are also pleased to announce '[Amazon Web Services](http://aws.amazon.com/) as the [GCC2013 Training Day Sponsor](/events/gcc2013/training-day/).
 There are still several [sponsorships](/events/gcc2013/sponsorships/) still available.  Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event. 
 
 ## January GalaxyAdmins Web Meetup
 
-<div class='right'><a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a></div>
+<div class='right'><a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a></div>
 
 The next [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-01-16/) will be Wednesday, January 16, 2013 at 10am US central time.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will cover "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."
 
@@ -122,14 +122,14 @@ Please join us.
 ## Other Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'><img src="/src/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" height="80" /></a>
-<a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a>
-<a href='http://conf.abrf.org/'><img src="/src/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
-<a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
+<a href='https://pag.confex.com/pag/xxi/webprogram/Paper7241.html'><img src="/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" height="80" /></a>
+<a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a>
+<a href='http://conf.abrf.org/'><img src="/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
+<a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 </div>
 
 <br />
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -214,7 +214,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ## New Galaxy Distributions
 
-<div class='right'><a href='http://galaxyproject.org'><img src="/src/images/news-graphics/2012_12_20_ngs-rna-analysis-toolsuite.png" alt="" width="140" /></a></div>
+<div class='right'><a href='http://galaxyproject.org'><img src="/images/news-graphics/2012_12_20_ngs-rna-analysis-toolsuite.png" alt="" width="140" /></a></div>
 
 **[Dec 20, 2012 Distribution](/news/2012-12-20-distribution-news-brief/)**
 
@@ -238,7 +238,7 @@ upgrade: $ hg pull -u -r 36ad8aa7b922
 
 **[Dec 3, 2012 Distribution](/news/2012-12-03-distribution-news-brief/)**
 
-<div class='right'><a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2012_12_03_new-history-menu.png" alt="" width="120" /></a></div>
+<div class='right'><a href='http://usegalaxy.org'><img src="/images/news-graphics/2012_12_03_new-history-menu.png" alt="" width="120" /></a></div>
 
 <div class='indent'>
 **Highlights:**
@@ -259,7 +259,7 @@ upgrade: $ hg pull -u -r f364d992270c
 
 ## Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 It was a banner month for [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) contributions:
 

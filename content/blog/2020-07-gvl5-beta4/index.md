@@ -3,7 +3,7 @@ date: '2020-07-16'
 title: "GVL 5.0-beta4: data browser, project-level isolation, and Galaxy 20.05"
 authors: "Nuwan Goonasekera, Alexandru Mahmoud, Mohamad Safadieh, Enis Afgan"
 tease: "The GVL workbench now integrated through data"
-image: "/src/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
+image: "/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
 highlight: true
 ---
 
@@ -37,7 +37,7 @@ local folder. Think of the GVL as your data repository in the cloud.
 <div class="center">
 <div style="width: 60%; display: inline-block">
 
-[![](./gvl-data-browser.png)](/src/blog/2020-07-gvl5-beta4/gvl-data-browser.png)
+[![](./gvl-data-browser.png)](/blog/2020-07-gvl5-beta4/gvl-data-browser.png)
 
 </div>
 </div>
@@ -53,7 +53,7 @@ web console and the content of that same bucket linked to a GVL instance.
 <div class="center">
 <div style="display: inline-block; padding-bottom: 2em">
 
-[![](./gvl-s3-mount.png)](/src/blog/2020-07-gvl5-beta4/gvl-s3-mount.png)
+[![](./gvl-s3-mount.png)](/blog/2020-07-gvl5-beta4/gvl-s3-mount.png)
 
 </div>
 </div>

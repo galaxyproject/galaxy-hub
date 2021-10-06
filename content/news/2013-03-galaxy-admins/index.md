@@ -2,7 +2,7 @@
 title: "March 2013 GalaxyAdmins Meetup"
 date: "2013-03-12"
 ---
-<div class='right'><a href='/community/galaxy-admins/meetups/2013-03-20/'><img src="/src/images/logos/GalaxyAdmins.png" alt="March 2013 GalaxyAdmins Meetup" width="160" /></a> </div>
+<div class='right'><a href='/community/galaxy-admins/meetups/2013-03-20/'><img src="/images/logos/GalaxyAdmins.png" alt="March 2013 GalaxyAdmins Meetup" width="160" /></a> </div>
 
 The [next meeting](/community/galaxy-admins/meetups/2013-03-20/) of the [GalaxyAdmins Group](/community/galaxy-admins/) will be held on [March 20, 2013, at 10 AM Central US time](/community/galaxy-admins/meetups/2013-03-20/). 
 
@@ -23,7 +23,7 @@ The [next meeting](/community/galaxy-admins/meetups/2013-03-20/) of the [GalaxyA
   </tr>
   <tr>
     <th> Presenters </th>
-    <td> <a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang "Leon" Mei</a><br />There will also be a <em>Galaxy Project Update</em> from <a href='/people/dan/'>Dan Blankenberg</a> of the <a href='/src/galaxy-team/'>Galaxy Team</a> </td>
+    <td> <a href="mailto:hailiang DOT mei AT nbic DOT nl">Hailiang "Leon" Mei</a><br />There will also be a <em>Galaxy Project Update</em> from <a href='/people/dan/'>Dan Blankenberg</a> of the <a href='/galaxy-team/'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> Links </th>

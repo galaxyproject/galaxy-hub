@@ -14,7 +14,7 @@ These are the words that James Taylor (JT) said and lived by. This, he believed,
 
 ## Recent Foundation Activity and News
 
-[<img class="float-right" src="/src/news/2020-10-jxtx-awardees/awardees-thumb.png" alt="JXTX Foundation Awards 10 Scholarships" style="max-width: 12rem" />](/news/2020-10-jxtx-awardees/)
+[<img class="float-right" src="/news/2020-10-jxtx-awardees/awardees-thumb.png" alt="JXTX Foundation Awards 10 Scholarships" style="max-width: 12rem" />](/news/2020-10-jxtx-awardees/)
 
 The JXTX Foundation's first activity is to sponsor 10 graduate students to attend the 2020 Biological Data Science Conference at Cold Spring Harbor Laboratory.  Awards were competitive and we are delighted with our first round of scholarships:
 
@@ -22,8 +22,8 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 * **[Anoushka Joglekar: Making Connections via the JXTX Foundation](/news/2020-11-jxtx-joglekar/)**, November 24, 2020
 * **[David Twesigomwe on the impact of the JXTX Foundation](/news/2020-11-jxtx-twesigomwe/)**, November 20, 2020
 * **[JXTX Foundation Awards First Ten Scholarships](/news/2020-10-jxtx-awardees/)**, October 23, 2020
-* **[Call for Scholarship Applications for Biological Data Science 2020](/news/2020-07-bds-scholarships/index.md)**, July 8, 2020
-* **[The James Taylor Foundation](/news/2020-05-jtech/index.md)**, May 7, 2020
+* **[Call for Scholarship Applications for Biological Data Science 2020](/news/2020-07-bds-scholarships/)**, July 8, 2020
+* **[The James Taylor Foundation](/news/2020-05-jtech/)**, May 7, 2020
 
 <br />
 
@@ -41,7 +41,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 
 <div class="float-left img-sizer" style="max-width: 10rem">
 
-![James Taylor Foundation: Big Shoes to Fill](/src/jxtx/jtech-shoes-400.png)
+![James Taylor Foundation: Big Shoes to Fill](/jxtx/jtech-shoes-400.png)
 
 <div class="small text-left">Big shoes to fill.
 

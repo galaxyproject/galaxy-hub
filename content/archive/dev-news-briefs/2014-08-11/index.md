@@ -7,7 +7,7 @@ date: 2014-08-11
 <br />
 [Distribution Summary 2014_08_11](/news/2014-08-11-galaxy-distribution/)
 
-<div class='left'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
 
 <br />
 <br />
@@ -54,7 +54,7 @@ Tools now annotate citation information. Tools annotate citations using either D
 
 # New! Docker
 
-<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/src/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=220 /></a></div>
+<div class='right'><a href='http://wiki.galaxyproject.org/Admin/Tools/Docker'><img src="/images/logos/DockerInGalaxyAnnotated.png" alt=" " width=220 /></a></div>
 
 [Wiki](https://wiki.galaxyproject.org/Admin/Tools/Docker), Authored by Helena Rasche
 
@@ -158,5 +158,5 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 
 # About Galaxy
 
-<div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
+<div class='left'><a href='http://usegalaxy.org'><img src="/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
 **[About Galaxy](/support/about-galaxy/)** • [Galaxy Project](/galaxy-project/) • [Admin](/admin/) • [Issues](/issues/) • [Big Picture](/galaxy-project/) • [Community](/community/) • [Get Galaxy](/admin/get-galaxy/) • [CloudMan](/cloudman/) • [Tool Shed](/toolshed/) • [Develop](/develop/) • [News Briefs](/docs/) • [Servers](/use/) • [Learn](/learn/) • [Support](/support/) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/news/) • [Twitter](/galaxy-on-twitter/) • [Events](/events/) • [Teach](/teach/) • [Issues](/issues/) • [Cite](/citing-galaxy/) • [Galaxy Team](/galaxy-team/)

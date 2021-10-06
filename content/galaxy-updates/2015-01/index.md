@@ -1,7 +1,7 @@
 ---
 title: January 2015 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the January *[Galaxy Update](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
@@ -103,7 +103,7 @@ Topics will then be selected and scheduled based on topic interest, and the orga
 
 [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers)
 
-<div class='right'><a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="250" /></a></div>
+<div class='right'><a href='http://gcc2015.tsl.ac.uk/'><img src="/images/logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="250" /></a></div>
 
 ### Call for Sponsors
 
@@ -117,13 +117,13 @@ Please let the GCC2015 Organising Committee ([gcc2015-org AT lists DOT galaxypro
 ## Other Events
 
 <div class='center'> 
-<a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src="/src/images/logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2015)" height="80" /></a>
-<a href='/events/sdsu2014/'><img src="/src/images/logos/SDSULogo.jpg" alt="Galaxy Workshops @ San Diego State University" height="80" /></a> &nbsp;
-<a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'><img src="/src/images/logos/VIBLogoBig.jpg" alt="Revolutionizing Next-Generation Sequencing: Tools and Technologies" height="75" /></a> &nbsp;
-<a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src="/src/images/logos/SupAgroMontpelierLogo.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" height="60" /></a>
+<a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src="/images/logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2015)" height="80" /></a>
+<a href='/events/sdsu2014/'><img src="/images/logos/SDSULogo.jpg" alt="Galaxy Workshops @ San Diego State University" height="80" /></a> &nbsp;
+<a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'><img src="/images/logos/VIBLogoBig.jpg" alt="Revolutionizing Next-Generation Sequencing: Tools and Technologies" height="75" /></a> &nbsp;
+<a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src="/images/logos/SupAgroMontpelierLogo.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div>
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are [upcoming events](/events/) on two continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -196,7 +196,7 @@ There are [upcoming events](/events/) on two continents.  See the [Galaxy Events
 
 # GalaxyAdmins is back!
 
-<div class='right'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins is back!" width="150" /></a></div>
+<div class='right'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins is back!" width="150" /></a></div>
 
 *We just don't know exactly when, yet ...*
 
@@ -218,7 +218,7 @@ The likely presentation for the January meetup will be a summary of the Galaxy C
 
 # Who's Hiring
 
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -238,7 +238,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## MetaNET
 
-<div class='right solid'><a href='http://metanet.osdd.net/'><img src="/src/public-galaxy-servers/archive/metanet-logo-200.png" alt="MetaNET"  /></a></div>
+<div class='right solid'><a href='http://metanet.osdd.net/'><img src="/public-galaxy-servers/archive/metanet-logo-200.png" alt="MetaNET"  /></a></div>
 * *Links:*
   * [MetaNET server](http://metanet.osdd.net/)
   * [MetaNET - a web-accessible interactive platform for biological metabolic network analysis](https://doi.org/10.1186/s12918-014-0130-2), by Pankaj Narang, Shawez Khan, Anmol J. Hemrom, Andrew M. Lynn, *BMC Systems Biology,* Vol. 8, No. 1. (5 December 2014), doi:10.1186/s12918-014-0130-2
@@ -256,7 +256,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## VectorBase Galaxy
 
-<div class='right solid'><a href='http://galaxy.vectorbase.org:8080/'><img src="/src/images/logos/VectorBaseLogoWithText.png" alt="VectorBase Galaxy" width=300 /></a></div>
+<div class='right solid'><a href='http://galaxy.vectorbase.org:8080/'><img src="/images/logos/VectorBaseLogoWithText.png" alt="VectorBase Galaxy" width=300 /></a></div>
 
 * *Link:*
   * [Vectorbase Galaxy](http://galaxy.vectorbase.org:8080/)
@@ -276,9 +276,9 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='solid'>
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/logos/GTNLogo600.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
@@ -299,11 +299,11 @@ Several new Training Resources were added in December:
 
 # New Releases
 
-[BioBlend v0.5.2 was released in October](/src/news/bio-blend-v0.5.2/index.md).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  
+[BioBlend v0.5.2 was released in October](/news/bio-blend-v0.5.2/).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  
 
 New versions of [Galaxy](/galaxy-updates/2014-09/#august-11-2014-galaxy-distribution), [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), and [blend4j](/galaxy-updates/2014-09/#blend4j-011-release) were all released in August.
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

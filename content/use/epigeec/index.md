@@ -8,7 +8,7 @@ platforms:
     platform_text: "epiGeEC server"
     platform_location: CA
 summary: "Compare user-provided epigenomic datasets with thousands of public datasets."
-image: "/src/use/epigeec/epigeec-heatmap.png"
+image: "/use/epigeec/epigeec-heatmap.png"
 comments:
   - "This epiGeEC server is designed to compare user-provided epigenomic datasets with thousands of public datasets in a few minutes. It can also be used to directly compare user’s datasets."
   - "This public Galaxy framework is provided by the Genetics and genomics Analysis Platform (GenAP) project, thereby leveraging Compute Canada advanced research computing infrastructure."

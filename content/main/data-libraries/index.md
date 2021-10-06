@@ -1,5 +1,5 @@
 Lists data libraries available on [Main](/main/).
 
-* [Available Data](/src/main/data-libraries/Available Data/index.md)
-* [Genome Data](/src/main/data-libraries/Genome Data/index.md)
+* [Available Data](/main/data-libraries/Available Data/)
+* [Genome Data](/main/data-libraries/Genome Data/)
 * [Microbes](/main/data-libraries/microbes/)

@@ -14,7 +14,7 @@
 ### Can't find the tool you want? 
 
  * Try searching  the **[Tool Shed](http://toolshed.g2.bx.psu.edu)**. 
- * New tools are added all the time that can be used in **[local](/admin/get-galaxy/index.md)** or **[cloud](/cloudman/)** Galaxy instances.
+ * New tools are added all the time that can be used in **[local](/admin/get-galaxy/)** or **[cloud](/cloudman/)** Galaxy instances.
  * If the tool you want to use is not wrapped yet, it could be. 
    * Should you have development resource, wrapped tool contributions are welcome additions to the *[Tool Shed](http://toolshed.g2.bx.psu.edu)**
    * [Development Resources](/develop/)

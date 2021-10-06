@@ -3,8 +3,8 @@ title: 'December 2016 Galactic News'
 date: '2016-12-06'
 ---
 <div class='right'>
-<div class='right'><a href='/galaxy-updates/2016-12/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />
-<a href='/galaxy-updates/2016-12/#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open'><img src="/src/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="105" /></a><br />
+<div class='right'><a href='/galaxy-updates/2016-12/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=120 /></a></div><br />
+<a href='/galaxy-updates/2016-12/#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open'><img src="/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="105" /></a><br />
 </div>
 
 The **[December Galaxy News](/galaxy-updates/2016-12/)** is hot off the press, *and is was produced on a a hot new press:*

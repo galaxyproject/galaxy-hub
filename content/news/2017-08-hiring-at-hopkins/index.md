@@ -4,8 +4,8 @@ tease: 'Software engineers and post-docs'
 date: '2017-08-10'
 ---
 <div class="center">
-<a href="/galaxy-is-hiring/"><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Galaxy Project hiring in the Taylor Lab" width="220" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.johnshopkins.edu/"><img src="/src/images/logos/JohnsHopkins.png" alt="Johns Hopkins University" width="220" /></a>
+<a href="/galaxy-is-hiring/"><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Galaxy Project hiring in the Taylor Lab" width="220" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.johnshopkins.edu/"><img src="/images/logos/JohnsHopkins.png" alt="Johns Hopkins University" width="220" /></a>
 </div>
 <br />
 

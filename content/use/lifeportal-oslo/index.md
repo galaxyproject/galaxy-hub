@@ -9,7 +9,7 @@ platforms:
     platform_text: "Server"
     platform_location: NO
 summary: "a Galaxy instance to satisfy the computational needs of the Norwegian research community in life sciences but also of any other user willing to use the service."
-image: "/src/use/lifeportal-oslo/lifeportal.png"
+image: "/use/lifeportal-oslo/lifeportal.png"
 comments:
   - "implements about 400 applications. It runs Galaxy version 18.09 and jobs are executed on the [Abel cluster](https://www.uio.no/english/services/it/research/hpc/abel/more/) (~650 nodes) using the slurm-drmaa library."
   - "We have tailored our application set to run either locally, or on the cluster with regard to the requested resources for the job. Resources (memory, walltime, number of tasks, number of cpus) are allocated on a per job basis which gives an exceptional flexibility to use and save requested resources. The instance is among the few in the world implementing a resource allocation management system plugged into Galaxy (and Galaxy GUI) which reserves, charges and refunds the user accounts after each executed job."

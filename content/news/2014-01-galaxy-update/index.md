@@ -3,11 +3,11 @@ title: "January 2014 Galaxy Update"
 date: "2013-12-31"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-01/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="January 2014 Galaxy Update" width=150 /></a>
+<a href='/galaxy-updates/2014-01/'><img src="/images/logos/GalaxyUpdate200.png" alt="January 2014 Galaxy Update" width=150 /></a>
 <br /><br />
-<a href='/galaxy-updates/2014-01/#galaxy-community-log-board'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="150" /></a>
+<a href='/galaxy-updates/2014-01/#galaxy-community-log-board'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="150" /></a>
 <br /><br />
-<a href='/galaxy-updates/2014-01/#galaxy-deployment-catalog'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="150" /></a>
+<a href='/galaxy-updates/2014-01/#galaxy-deployment-catalog'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="150" /></a>
 </div>
 
 The [January 2014 Galaxy Update is out](/galaxy-updates/2014-01/)!
@@ -32,4 +32,4 @@ If you have anything you would like to see in the next *[Galaxy Update](/galaxy-
 
 Best wishes to you and yours for a happy and spectacular 2014,
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

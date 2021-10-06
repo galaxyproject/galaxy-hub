@@ -1,4 +1,4 @@
-<div class='right'>![](/src/galaxy-team/nate.jpg)</div>
+<div class='right'>![](/galaxy-team/nate.jpg)</div>
 
 # Nate Coraor
 

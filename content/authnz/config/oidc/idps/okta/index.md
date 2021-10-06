@@ -23,7 +23,7 @@ Take the following steps to register your Galaxy instance (RP) to an Okta **dev 
 
 2. Login to your Okta developer account's admin panel and register a new application. 
 
-    ![image](/src/authnz/config/oidc/idps/okta/register-a-new-app-1.png)
+    ![image](/authnz/config/oidc/idps/okta/register-a-new-app-1.png)
 
 3. Set the "Base URI", "Login redirect URIs", "Logout redirect URIs", "Group assignments" and "Grant type allowed.
 
@@ -59,4 +59,4 @@ matching the values you got from the client registration process, as well as the
 Having set this configuration, restart Galaxy to have the option of login to
 Galaxy with your organization's Okta identity:
 
-![image](/src/authnz/config/oidc/idps/okta/login-with-okta.png)
+![image](/authnz/config/oidc/idps/okta/login-with-okta.png)

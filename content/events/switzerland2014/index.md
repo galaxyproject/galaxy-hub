@@ -38,7 +38,7 @@ Registration is now closed. Please contact [Hans-Rudolf Hotz](/people/hansrudolf
 | 9:30 - 9:45 |  [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) ([FMI](http://www.fmi.ch/)), [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  welcome  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/welcome_20141001.pdf)   | 
 | 9:45 - 10:30 |  [Dannon Baker](/people/dannon-baker/) ([Galaxy Project](http://galaxyproject.org))  |  Status of the Galaxy Project  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/SG2014T__State_of_the_Galaxy.pdf)   | 
 | 10:30 - 10:50 |  coffee Break  | 
-| 10:50 - 11:40 |  [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Galaxy: putting pieces together  |  [whiteboard](/src/events/switzerland2014/Bjoern_whiteboard.jpg) | 
+| 10:50 - 11:40 |  [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Galaxy: putting pieces together  |  [whiteboard](/events/switzerland2014/Bjoern_whiteboard.jpg) | 
 | 11:40 - 12:00 |  Nikolay Vazov ([USIT, University of Oslo](http://www.usit.uio.no/english/))  |  Authentication in Galaxy : let's use what is out there - National Identity Providers  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/Auth-tutorial-vazov.pdf)  | 
 | 12:00 - 13:30 |  Lunch Break (lunch will be at 12:15)  | 
 | 13:30 - 13:40 |  Jeevan Karloss ([CIGENE, Norwegian University of Life Sciences](http://www.cigene.no/))  |  Elixir Norway and Galaxy  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/switzerland2014/Elixir_Norway_011014.pdf)  | 
@@ -58,7 +58,7 @@ The workshop will be in the [UniS-Building (room: A -119) of the Universität Be
 
 <br />
 
-<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src="/src/images/logos/SyBITLogo.png" alt="SyBIT" /></a>     <a href='http://www.systemsx.ch/'><img src="/src/images/logos/SystemsXchLogo.png" alt="SystemsX.ch" height="89" /></a> </div>
+<div class='right'> <a href='https://wiki.systemsx.ch/display/SyBIT'><img src="/images/logos/SyBITLogo.png" alt="SyBIT" /></a>     <a href='http://www.systemsx.ch/'><img src="/images/logos/SystemsXchLogo.png" alt="SystemsX.ch" height="89" /></a> </div>
 
 
 ## Support

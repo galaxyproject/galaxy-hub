@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy-P Proteogenomics Gateway"
     platform_location: US
 summary: "Provides access to documentation and other instructional materials, and an opportunity for hands-on training using example datasets and optimized proteogenomics workflows. The main goal of this server is to provide documentation to facilitate training and mastery of these software and workflows."
-image: "/src/use/proteogenomics-gateway/proteogenomics-landing-400.png"
+image: "/use/proteogenomics-gateway/proteogenomics-landing-400.png"
 comments:
   - "The main goal of this server is to provide documentation to facilitate training and mastery of these software and workflows."
 user_support:

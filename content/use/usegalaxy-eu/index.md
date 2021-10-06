@@ -8,7 +8,7 @@ platforms:
     platform_text: "UseGalaxy Europe"
     platform_location: DE
 summary: "The European UseGalaxy server."
-image: "/src/use/usegalaxy-eu/usegalaxy-eu-landing-page-500.png"
+image: "/use/usegalaxy-eu/usegalaxy-eu-landing-page-500.png"
 comments:
   - "Strong on genomics; good central repository for shared Galaxy objects."
 user_support:

@@ -8,7 +8,7 @@ platforms:
     platform_text: "Vinther Lab server"
     platform_location: DK
 summary: "RNA structure-probing data analysis to improve the prediction of RNA secondary and tertiary structure and allow structural changes to be identified and investigated. "
-image: "/src/use/vinther-lab/vinther-lab-300.png"
+image: "/use/vinther-lab/vinther-lab-300.png"
 comments:
   - 'From [Kielpinski, et al.](http://www.sciencedirect.com/science/article/pii/S0076687915000713): "a collection of tools, which allow raw sequencing reads to be converted to normalized probing values using different published strategies. In addition, we also provide tools for visualization of the probing data in the UCSC Genome Browser and for converting RNA coordinates to genomic coordinates and vice versa. The collection is implemented as functions in the R statistical environment and as tools in the Galaxy platform, making them easily accessible for the scientific community."'
 user_support:

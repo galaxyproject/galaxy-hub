@@ -14,7 +14,7 @@ date: 2011-10-25
 
 ## News
 
-<div class='left'><a href='/galaxy-is-hiring/'><img src="/src/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
+<div class='left'><a href='/galaxy-is-hiring/'><img src="/images/icons/PointingFinger.png" alt="pointing-finger" width="30px" /></a></div>
 * Keep current on all things Galaxy at our [News](/news/) and [Events](/events/) wikis.
 * Galaxy is still [hiring](/galaxy-is-hiring/)!
 
@@ -31,7 +31,7 @@ date: 2011-10-25
   * [Galaxy News](/news/) Items and RSS feed.
 
 ----
-<a href='http://galaxyproject.org/wiki/News'><img src="/src/images/news-graphics/2011_10_25_newsitem-quotas.png" alt="" width="600px" /></a>
+<a href='http://galaxyproject.org/wiki/News'><img src="/images/news-graphics/2011_10_25_newsitem-quotas.png" alt="" width="600px" /></a>
 ----
 
 
@@ -40,24 +40,24 @@ date: 2011-10-25
 * Add the ability for a user to log out of all user sessions. Useful when sharing computers, using public computers, and the like.
 * Located under top menu bar: User -> Preferences ->*Logout of all user sessions*.
 
-<a href='http://usegalaxy.org/'><img src="/src/images/news-graphics/2011_10_25_logout-everywhere.png" alt="logout-everywhere" width="600px" /></a>
+<a href='http://usegalaxy.org/'><img src="/images/news-graphics/2011_10_25_logout-everywhere.png" alt="logout-everywhere" width="600px" /></a>
 
 ### Trackster (Galaxy Track Browser)
 
 * The October 23-24, [BioVis](http://www.biovis.net/) 2011, Providence, Rhode Island, United States, included a talk covering the visualization tool Trackster aka Galaxy Track Browser (GTB). Abstract is [here](http://www.biovis.net/papers_abstracts/papers/111.htmlhere).
 * Overview provides chromosome-wide view of a single track independent of primary, interactive view.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/news-graphics/2011_10_25_trackster-overview.png" alt="trackster-overview" width="600px" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/images/news-graphics/2011_10_25_trackster-overview.png" alt="trackster-overview" width="600px" /></a>
 * Make it possible to set features' transparency based on attribute values.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/news-graphics/2011_10_25_trackster-transparency.png" alt="trackster-tranparency" width="600px" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/images/news-graphics/2011_10_25_trackster-transparency.png" alt="trackster-tranparency" width="600px" /></a>
 * Introduce track groups, which can be used to cluster and move tracks together. Running tools places new tracks in groups.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/news-graphics/2011_10_25_trackster-groups.png" alt="trackster-groups" width="600" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/images/news-graphics/2011_10_25_trackster-groups.png" alt="trackster-groups" width="600" /></a>
 * Enable tools that produce BED output to be used in visual analytics framework and enable GOPS cluster tool to work in Trackster.
 * Use Fasta datasets to specify custom build visualizations.
 
-<a href='http://usegalaxy.org/visualization/list_published/'><img src="/src/images/news-graphics/2011_10_25_custom-builds.png" alt="custom-builds" width="400px" /></a>
+<a href='http://usegalaxy.org/visualization/list_published/'><img src="/images/news-graphics/2011_10_25_custom-builds.png" alt="custom-builds" width="400px" /></a>
 
 ### Python and OS Support
 
@@ -67,7 +67,7 @@ date: 2011-10-25
 
 ### Galaxy Tool Shed
 
-<div class='left'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="toolshed" width="100px" /></a></div>
+<div class='left'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="toolshed" width="100px" /></a></div>
 * [Search repositories for valid tools by any combination of id, name or version](/toolshed/searching-the-toolshed/#search-repositories-for-valid-tools-by-any-combination-of-id-name-or-version).
 * [Automatic installation of Galaxy tool shed repository tools into a local Galaxy instance](/admin/tools/add-tool-from-toolshed-tutorial/).
 * [Getting updates for tool shed repositories installed in a local Galaxy instance](/updating-installed-repositories/#getting-updates-for-tool-shed-repositories-installed-in-a-local-galaxy-instance).
@@ -128,7 +128,7 @@ date: 2011-10-25
 
 ### Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 
 * Tasked jobs will now inherit the parent job's user information correctly.
 * Remove unspecified build validators from Cuffdiff wrapperfixes [https://bitbucket.org/galaxy/galaxy-central/issue/631](https://bitbucket.org/galaxy/galaxy-central/issue/631).

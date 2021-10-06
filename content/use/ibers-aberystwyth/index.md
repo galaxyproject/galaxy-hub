@@ -8,7 +8,7 @@ platforms:
     platform_text: "IBERS @ Aberystwyth Galaxy"
     platform_location: UK
 summary: "Software, tools and pages written by IBERS researchers for release to the wider community. "
-image: "/src/use/ibers-aberystwyth/ibers.gif"
+image: "/use/ibers-aberystwyth/ibers.gif"
 comments:
   - "Implements the [DISMISS package](http://link.springer.com/article/10.1186/s12859-016-1158-7) for detection of stranded methylation in MeDIP-Seq data."
 user_support:

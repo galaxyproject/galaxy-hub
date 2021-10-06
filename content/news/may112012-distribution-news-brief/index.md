@@ -5,7 +5,7 @@ date: "2012-05-12"
 **Complete [News Brief](/archive/dev-news-briefs/2012-05-11/)**
 
 **Highlights:**
-<div class='right'><a href='/learn/visualization/'><img src="/src/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="180px" /></a></div>
+<div class='right'><a href='/learn/visualization/'><img src="/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="180px" /></a></div>
 * **Emboss** tools and datatypes __have now moved from the ***Galaxy distribution** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)__***.
 * [Tool Integration Tests](/testing-installed-tools/), [Custom Tool Panel Configuration](/galaxy-tool-panel//#managing-the-layout-of-your-galaxy-tool-panel), and [Configurable Tool Output Locations](/admin/tools/multiple-output-files/).
 * Improved [Multiprocess Job Handling](/admin/config/performance/scaling/) and [Enhanced OpenID Support](http://openid.net/).

@@ -8,7 +8,7 @@ platforms:
     platform_text: "MISSISSIPPI Server"
     platform_location: FR
 summary: "Support for analyses of RNA and small RNA sequencing datasets as well as for epigenetics or metagenomics studies. "
-image: "/src/use/mississippi/mississippi-logo.png"
+image: "/use/mississippi/mississippi-logo.png"
 comments:
   - "See [ARTbio on Slideshare](http://fr.slideshare.net/christopheantoniewski/linked-in-summary-50629359)"
 user_support:

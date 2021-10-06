@@ -1,4 +1,4 @@
-<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
 <div class='title'>2013-05-15 Web Meetup<br /><br />[Galaxy](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org)
 </div></div>
 
@@ -28,7 +28,7 @@
 </table>
 
 
-<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src="/src/images/screenshots/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy"  /></a></div>
+<div class='right'><a href='http://rnaseq.pathogenportal.org/'><img src="/images/screenshots/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy"  /></a></div>
 
 <br />
 

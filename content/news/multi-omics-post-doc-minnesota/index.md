@@ -3,8 +3,8 @@ title: "Multi-omics Postdoc Opening"
 date: "2016-07-22"
 ---
 <div class='right'><div class='right'>
-<a href='http://z.umn.edu/galaxypostdoc2016'><img src="/src/images/logos/GalaxyPLogo.png" alt="Galaxy-P" width="100" /></a></div><br />
-<a href='http://ummn.edu'><img src="/src/images/logos/UMN_Goldy.gif" alt="University of Minnesota" width="120" /></a>
+<a href='http://z.umn.edu/galaxypostdoc2016'><img src="/images/logos/GalaxyPLogo.png" alt="Galaxy-P" width="100" /></a></div><br />
+<a href='http://ummn.edu'><img src="/images/logos/UMN_Goldy.gif" alt="University of Minnesota" width="120" /></a>
 </div>
 
 

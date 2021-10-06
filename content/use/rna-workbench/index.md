@@ -11,7 +11,7 @@ platforms:
     platform_url: "https://github.com/bgruening/galaxy-rna-workbench"
     platform_text: "Docker"
 summary: "more than 50 bioinformatics tools dedicated to different research areas of RNA biology, including RNA structure analysis, RNA alignment, RNA annotation, RNA-protein interaction, ribosome profiling, RNA-Seq analysis, and RNA target prediction."
-image: "/src/use/rna-workbench/rna-workbench-logo.png"
+image: "/use/rna-workbench/rna-workbench-logo.png"
 comments:
   - "A comprehensive set of analysis tools and consolidated workflows."
   - "The public server is hosted by the UesGalaxy.eu team."

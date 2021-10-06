@@ -61,7 +61,7 @@ following body, replacing information with your relevant data:
     ```
 
 For example:
-![image](/src/authnz/config/oidc/idps/custos/Custos-post-request.png)
+![image](/authnz/config/oidc/idps/custos/Custos-post-request.png)
 
 1. The _Domain_ should be the main address that users will use to get to your
    instance of Galaxy.
@@ -84,7 +84,7 @@ For example:
 3. After making the POST request, you should get a response containing your
    `Client ID` and `Client Secret`; note this info! You will need it for the
    Galaxy configuration.
-   ![image](/src/authnz/config/oidc/idps/custos/Custos-post-request-response.png)
+   ![image](/authnz/config/oidc/idps/custos/Custos-post-request-response.png)
 
 4. Finally, to have your client activated, send an email to
    [custos@airavata.apache.org](mailto:custos@airavata.apache.org) with your
@@ -95,7 +95,7 @@ For example:
 
 Once we have an activated client ID and client secret from Custos, we need to
 configure Galaxy. As a first step, make sure to [enable OIDC
-login](/src/authnz/config/oidc/#enable-oidc-based-login). After setting up
+login](/authnz/config/oidc/#enable-oidc-based-login). After setting up
 `config/oidc_config.xml`, which is common to multiple IdPs, you need to
 configure `config/oidc_backends_config.xml`. The following is an example of a
 configuration. Note that the **redirect_uri** must match what as included as
@@ -118,7 +118,7 @@ during client registration.
 ```
 
 The above configuration includes the [default OIDC configuration
-tags](/src/authnz/config/oidc/#oidc-configuration-options-for-identity-providers)
+tags](/authnz/config/oidc/#oidc-configuration-options-for-identity-providers)
 as we as the required `url` tag.
 
 ### URL
@@ -155,7 +155,7 @@ Having set this configuration, (re)start Galaxy and the `Sign in with Custos`
 feature will become available. The login page should look as follows:
 
 <div class="center">
-    <img src="/src/authnz/config/oidc/idps/custos/custos-login-button2.png"
+    <img src="/authnz/config/oidc/idps/custos/custos-login-button2.png"
      alt="User login with Custos enabled" width="60%" />
 </div>
 

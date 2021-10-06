@@ -8,7 +8,7 @@ platforms:
     platform_text: "Ecology for Galaxy Server"
     platform_location: DE
 summary: "A web platform to get, process, analyze and visualize ecological data"
-image: "/src/use/ecology/map-prediction-500.png"
+image: "/use/ecology/map-prediction-500.png"
 comments:
   - "Get Ecological data: Get species occurrence data, protocoled data from Vigie-Nature, climatic data from Worldclim"
   - "Graph / Display Ecological data: Compare sites"

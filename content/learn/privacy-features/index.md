@@ -26,26 +26,26 @@ Users may choose the default permissions that newly created datasets will acquir
 Following list contains the most important operations everybody should know with regards to dataset privacy.
 
 * ### Change the privacy settings of individual dataset
-For datasets you have created (or were given permissions) you can control what roles can access it. The interface is available on history datasets after clicking the 'pencil - Edit attributes' icon and then moving on the 'Permissions' tab. [Watch animation](/src/learn/privacy-features/set-perm.gif).
+For datasets you have created (or were given permissions) you can control what roles can access it. The interface is available on history datasets after clicking the 'pencil - Edit attributes' icon and then moving on the 'Permissions' tab. [Watch animation](/learn/privacy-features/set-perm.gif).
 *Adding additional roles to the 'access' permission along with your "private role" does not do what you may expect.  Since roles are always logically ANDed together, only you will be able to access the dataset, since only you are a member of your "private role".*
 
 * ### Make all datasets in the current history private.
-You can make all datasets in a given history private to you by choosing the 'Make Data Private' option in the dropdown menu available under the 'cog - History options' icon in the top of the history. Also sets the default settings for all new datasets in this history to private. [Watch animation](/src/learn/privacy-features/this-hist-priv-perm.gif).
+You can make all datasets in a given history private to you by choosing the 'Make Data Private' option in the dropdown menu available under the 'cog - History options' icon in the top of the history. Also sets the default settings for all new datasets in this history to private. [Watch animation](/learn/privacy-features/this-hist-priv-perm.gif).
 
 * ### Set the default privacy settings for current history
-Under the 'cog - History options' menu you can choose 'Dataset Security' and set the default permissions for all new datasets created in this history. [Watch animation](/src/learn/privacy-features/current-hist-perm.gif).
+Under the 'cog - History options' menu you can choose 'Dataset Security' and set the default permissions for all new datasets created in this history. [Watch animation](/learn/privacy-features/current-hist-perm.gif).
 
 * ### Set the default privacy settings for new histories
-Under 'User - Preferences' you can find the 'Set dataset permissions for new histories' item which will allow you to set default privacy settings for contents of _newly_ created histories. [Watch animation](/src/learn/privacy-features/new-hist-perm.gif).
+Under 'User - Preferences' you can find the 'Set dataset permissions for new histories' item which will allow you to set default privacy settings for contents of _newly_ created histories. [Watch animation](/learn/privacy-features/new-hist-perm.gif).
 
 * ### Make all of your existing datasets private at once
-This mass option will set every dataset in every history you own private. Also new data created in all histories will be private. The option is available under 'User - Preferences', look for an item named 'Make all data private'. [Watch animation](/src/learn/privacy-features/all-priv-perm.gif).
+This mass option will set every dataset in every history you own private. Also new data created in all histories will be private. The option is available under 'User - Preferences', look for an item named 'Make all data private'. [Watch animation](/learn/privacy-features/all-priv-perm.gif).
 
 * ### Make history accesible via link
-In order to share history with all its content via link you can explicitly make all datasets in the history accessible, so anybody with the link to history can see all its contents. Otherwise you share the datasets with the Galaxy users explicitly. The interface is available under the 'cog - History options', look for menu option 'Share or Publish'. [Watch animation](/src/learn/privacy-features/make-access-perm.gif).
+In order to share history with all its content via link you can explicitly make all datasets in the history accessible, so anybody with the link to history can see all its contents. Otherwise you share the datasets with the Galaxy users explicitly. The interface is available under the 'cog - History options', look for menu option 'Share or Publish'. [Watch animation](/learn/privacy-features/make-access-perm.gif).
 
 * ### Share history with a specific user
-You can share history directly with a specific Galaxy user if you know their account's email address. Only the two of you will have access to that history. The interface is available under the 'cog - History options', look for menu option 'Share or Publish'. [Watch animation](/src/learn/privacy-features/share-user.gif).
+You can share history directly with a specific Galaxy user if you know their account's email address. Only the two of you will have access to that history. The interface is available under the 'cog - History options', look for menu option 'Share or Publish'. [Watch animation](/learn/privacy-features/share-user.gif).
 
 ## Permissions of datasets derived from other datasets
 

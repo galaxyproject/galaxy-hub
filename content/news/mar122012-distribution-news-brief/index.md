@@ -5,7 +5,7 @@ date: "2012-03-12"
 **Complete [News Brief](/archive/dev-news-briefs/2012-03-12/)**
 
 **Highlights:**
-<div class='right'><a href='/learn/visualization/'><img src="/src/images/news-graphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="180px" /></a></div>
+<div class='right'><a href='/learn/visualization/'><img src="/images/news-graphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="180px" /></a></div>
 * **__Emboss tools and datatypes__** __moving from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)__* __in the **NEXT release__**. Read more about the upcoming **[tool migrations...](/toolshed/migrating-tools-from-galaxy-distribution/)**
 * Galaxy tool [XML configuration](/galaxy-tool-panel//#xml-configuration-files-used-to-populate-your-galaxy-tool-panel), managing [tool panel layout](//galaxy-tool-panel//#managing-the-layout-of-your-galaxy-tool-panel), and Galaxy [tool versions](/galaxy-tool-version-lineage/).
 * **RNA-Seq Tools:** Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0, Updated **[TopHat](http://tophat.cbcb.umd.edu/)** default parameters

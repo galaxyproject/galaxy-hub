@@ -1,7 +1,7 @@
 ---
 title: April 2018 Galaxy News
 ---
-[<img class="float-left" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img class="float-left" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
 Welcome to the April 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -11,7 +11,7 @@ Welcome to the April 2018 *[Galactic News](/galaxy-updates/)*, a summary of what
 
 [UseGalaxy.org](https://usegalaxy.org/) is absolutely delighted to announce the birth of two sibling servers - **[UseGalaxy.eu](https://usegalaxy.eu/)** and **[UseGalaxy.org.au](https://usegalaxy.org.au/)**.  The three [UseGalaxy servers](/usegalaxy/) will mirror a set of core tools and reference genomes and are aimed at better distributing access to Galaxy around the world.
 
-[<img class="float-right" src="/src/images/galaxy-logos/usegalaxy.eu.256.png" alt="useGalaxy.eu" width="160" />](https://usegalaxy.eu/)
+[<img class="float-right" src="/images/galaxy-logos/usegalaxy.eu.256.png" alt="useGalaxy.eu" width="160" />](https://usegalaxy.eu/)
 
 **[UseGalaxy.eu](https://usegalaxy.eu/)** is a publicly accessible server that aims to support the analysis and sharing needs of the European research community. It was launched in March 2018 at European Galaxy User Meeting in Freiburg. It is hosted at the University of Freiburg.  See:
 
@@ -30,7 +30,7 @@ And see the new [UseGalaxy page](/usegalaxy/) for future plans.
 ----
 
 # GCCBOSC 2018
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
 
 [GCCBOSC 2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. This brings the 2018 Galaxy Community Conference and the Bioinformatics Open Source Conference together into a unified week-long event. If you work in open source life science or data-intensive biomedical research, then there is no better place than GCCBOSC 2018 to present your work and to learn from others.
 
@@ -41,7 +41,7 @@ And see the new [UseGalaxy page](/usegalaxy/) for future plans.
 
 We are pleased to announce our third [keynote speaker](/events/gccbosc2018/keynotes/):
 
-[<img class="float-right" src="/src/images/people/peixoto.jpg" alt="Lucia Peixoto"  width="110"  />](https://medicine.wsu.edu/directory-faculty/lucia-peixoto/)
+[<img class="float-right" src="/images/people/peixoto.jpg" alt="Lucia Peixoto"  width="110"  />](https://medicine.wsu.edu/directory-faculty/lucia-peixoto/)
 
 **GCC2018 Keynote: [Lucia Peixoto](/events/gccbosc2018/keynotes/#galaxy-community-conference-2018-keynote-lucia-peixoto)**
 
@@ -67,7 +67,7 @@ So c'mon, register already:
 
 ## Childcare at GCCBOSC
 
-[<img class="float-left" src="/src/images/galaxy-logos/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />](/events/gccbosc2018/childcare/)
+[<img class="float-left" src="/images/galaxy-logos/gccbosc-childcare-banner.png" alt="Childcare at GCCBOSC"  width="250"  />](/events/gccbosc2018/childcare/)
 
 Subsidized childcare for children 6 weeks to 12 years old is available at Portland State University for $7-10 / hour. If you want, you can also bring your infant with you to the conference.  A nursing room will be available on any day it is requested.
 
@@ -76,25 +76,25 @@ Interested?  Please [register your interest in a nursing room, and/or sign up fo
 
 ## GCCBOSC 2018 Sponsors
 
-We are happy to have several confirmed [GCCBOSC 2018 sponsors](/src/events/gccbosc2018/sponsors/index.html). This month we are highlighting **[Google Cloud](https://cloud.google.com/solutions/healthcare-life-sciences/)**, a GCCBOSC 2018 Platinum Sponsor:
+We are happy to have several confirmed [GCCBOSC 2018 sponsors](/events/gccbosc2018/sponsors/index.html). This month we are highlighting **[Google Cloud](https://cloud.google.com/solutions/healthcare-life-sciences/)**, a GCCBOSC 2018 Platinum Sponsor:
 
 ### Google Cloud
 
-[<img class="float-right" src="/src/images/logos/google-cloud-wide.png" alt="Google Cloud for Healthcare and Life Sciences" width="400" />](https://cloud.google.com/solutions/healthcare-life-sciences/)
+[<img class="float-right" src="/images/logos/google-cloud-wide.png" alt="Google Cloud for Healthcare and Life Sciences" width="400" />](https://cloud.google.com/solutions/healthcare-life-sciences/)
 
 [Google Cloud](https://cloud.google.com/) is working closely with the [healthcare and life science industry](https://cloud.google.com/solutions/healthcare-life-sciences/) to provide the technology and tools that power the innovations and discoveries that improve our healthcare system. By providing advanced, healthcare-specific technology solutions, we hope to accelerate our customers ability to change the way healthcare discoveries are made.  Through data management at scale, advancements in machine learning, APIs, and on-demand infrastructure, we offer solutions that enable provider, research, and life science customers to tackle the rapidly evolving and long standing challenges facing the healthcare industry.
 
 <div class="float-right">
 <br />
-[<img src="/src/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
+[<img src="/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
 ### Call for sponsors!
 
-[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 # 2018 Big Genomics Data Skills Training course
 
-[<img class="float-left" src="/src/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
+[<img class="float-left" src="/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
 
 There are still a few spaces left in  [Jackson Lab (JAX)](https://www.jax.org/)'s 2018 Big Genomics Data Skills Training course, funded by the NIH BD2K initiative: [Big Genomic Skills Training info and online application](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors). The workshop will enable participants to integrate genomic data analysis into their courses or launch new courses. Participants will gain experience using Galaxy, R and Python.
  
@@ -104,7 +104,7 @@ Housing is included; however you will need to cover your own travel.  If you tea
 
 # Gateways 2018 Call for Participation (1st deadline: May 7)
 
-[<img class="float-right" src="/src/images/logos/gateways-2018-logo.png" alt="Gateways 2018" width="170" />](http://sciencegateways.org/gateways2018/call)
+[<img class="float-right" src="/images/logos/gateways-2018-logo.png" alt="Gateways 2018" width="170" />](http://sciencegateways.org/gateways2018/call)
 
 [Gateways 2018](http://sciencegateways.org/gateways2018/) (September 25–27, at the University of Texas at Austin) is now [accepting submissions of papers, demos, tutorials, and panels](http://sciencegateways.org/gateways2018/call) on the topic of science or engineering gateways. Gateways are user-friendly interfaces (including Galaxy) to scientific computing, data, and other domain-specific resources to support research and education. 
 
@@ -305,7 +305,7 @@ doi:10.1038/s41467-018-03311-y
 ----
 # Who's Hiring
 
-<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 * [System developers / bioinformaticians, two positions](https://www.jobbnorge.no/en/available-jobs/job/150638/senior-engineer-two-positions), ELIXIR Norway, University of Oslo, Norway (closes 17 April)
@@ -315,7 +315,7 @@ The Galaxy is expanding! Please help it grow.
 * [Post-Doc / IR analyse de données miRNA](https://www.sfbi.fr/content/post-doc-ir-analyse-de-donn%C3%A9es-mirna), Unité de Nutrition Humaine, Clermont-Fd, France
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
 * [Development of innovative algorithms to process real-time mass spectrometry data for the clinical analysis of exhaled breath](https://www.sfbi.fr/content/d%C3%A9veloppement-doutils-bioinformatiques-et-statistiques-pour-lanalyse-de-lair-expir%C3%A9-en-m%C3%A9dec), CEA, Saclay, France
-* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -328,7 +328,7 @@ There are [over 100 publicly accessible Galaxy servers](/use/) and [six semi-pub
 
 ## Proteogenomics Gateway
 
-[<img class="float-right" src="/src/use/proteogenomics-gateway/proteogenomics-landing-400.png" width="250" alt="Proteogenomics Gateway" />](http://z.umn.edu/proteogenomicsgateway)
+[<img class="float-right" src="/use/proteogenomics-gateway/proteogenomics-landing-400.png" width="250" alt="Proteogenomics Gateway" />](http://z.umn.edu/proteogenomicsgateway)
 
 The [Galaxy-P Proteogenomics Gateway](http://z.umn.edu/proteogenomicsgateway) provides access to documentation and other instructional materials, and an opportunity for hands-on training using example datasets and optimized proteogenomics workflows. The main goal of this server is to provide documentation to facilitate training and mastery of these software and workflows.
 
@@ -369,7 +369,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in March](/toolshed/contributions/2018-03/).
 
@@ -378,7 +378,7 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 ## 18.01 Galaxy Release
 
 <div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
 </div>
 
 The [18.01 release of Galaxy  is out](https://docs.galaxyproject.org/en/release_18.01/releases/18.01_announce.html ). Thanks to the [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) and you, our community!
@@ -443,7 +443,7 @@ Other packages released in the prior 4 months.
 
 ### Planemo 0.48.0
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -451,7 +451,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 ### Pulsar 0.8.1-3
 
-[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+[<img class="float-right" src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 [Pulsar](https://pypi.python.org/pypi/pulsar-app/) updates were [released in February](https://github.com/galaxyproject/pulsar/blob/master/HISTORY.rst).  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
@@ -465,7 +465,7 @@ Ephemeris is a small Python library and set of scripts for managing the bootstra
 
 ### blend4php 0.1 beta
 
-[<img class='float-right' src="/src/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" width="220" />](https://github.com/galaxyproject/blend4php)
+[<img class='float-right' src="/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" width="220" />](https://github.com/galaxyproject/blend4php)
 
 The beta version of the [blend4php package](https://github.com/galaxyproject/blend4php), a PHP wrapper for the [Galaxy API](https://docs.galaxyproject.org/en/master/api_doc.html), was released in December. It provides a PHP package for interacting with Galaxy and CloudMan. blend4php currently offers a partial implementation of the Galaxy API and includes support for datasets, data types, folder contents, folders, genomes, group roles, groups, group users, histories, history contents, jobs, libraries, library contents, requests, roles, search, tools, toolshed repositories, users, visualizations and workflows.
 

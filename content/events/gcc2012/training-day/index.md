@@ -6,7 +6,7 @@ title: GCC2012 Training Day
 
 <slot name="/events/gcc2012/linkbox" />
 
-<img class="float-left" src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="GCC2012 Training Day" width="140" />
+<img class="float-left" src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="GCC2012 Training Day" width="140" />
 
 The [2012 Galaxy Community Conference](/events/gcc2012/training-day//) was preceded by a *Training Day*, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.
 

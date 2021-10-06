@@ -6,7 +6,7 @@
 Related topics
 
  * [Loading Data](/support/loading-data/)
- * [Moving data between Galaxy servers](/src/blog/2016-07-moving-data-between-galaxy-instances/)
+ * [Moving data between Galaxy servers](/blog/2016-07-moving-data-between-galaxy-instances/)
  
 Tutorials
 
@@ -29,8 +29,8 @@ Tutorials
 Download datasets from Galaxy to your computer by clicking on the "disk icon" within an expanded dataset. 
 
 * Most datasets will only have one file per dataset. 
-* Datasets with a `bam` datatype will have two files per dataset 1) the `bam` dataset itself plus 2) the associated `bai` index. Download each individually. See [Common datatypes explained: bam](/src/learn/datatypes/#bam).
-* Datasets with a `fasta` datatype will have one file per dataset. If you need a fasta `fai` index, one can be created and downloaded. See [Common datatypes explained: fasta](/src/learn/datatypes/#fasta).
+* Datasets with a `bam` datatype will have two files per dataset 1) the `bam` dataset itself plus 2) the associated `bai` index. Download each individually. See [Common datatypes explained: bam](/learn/datatypes/#bam).
+* Datasets with a `fasta` datatype will have one file per dataset. If you need a fasta `fai` index, one can be created and downloaded. See [Common datatypes explained: fasta](/learn/datatypes/#fasta).
 
 Dataset downloading incompletely?
 

@@ -2,7 +2,7 @@
 title: "Galaxy Project Openings"
 date: "2013-01-25"
 ---
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Galaxy is Hiring" width="300" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Galaxy is Hiring" width="300" /></a></div>
 
 The [Galaxy Project](http://galaxyproject.org/) is expanding and we are [looking for](/galaxy-is-hiring/) highly-motivated, seeking-a-challenge, computationally-savvy, biologically-aware [software engineers](/galaxy-is-hiring/#software-engineers) and [post-docs](/galaxy-is-hiring/) to work on Galaxy. See the [GalaxyIsHiring](/galaxy-is-hiring/) page for details.
 

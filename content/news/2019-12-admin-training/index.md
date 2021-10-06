@@ -5,7 +5,7 @@ external_url:
 date: "2019-12-19"
 ---
 
-[<img class="float-right" style="max-width: 18rem;" src="/src/events/2020-03-admin/2020-admin-rect.png" />](/events/2020-03-admin/)
+[<img class="float-right" style="max-width: 18rem;" src="/events/2020-03-admin/2020-admin-rect.png" />](/events/2020-03-admin/)
 
 **A [Galaxy Admin Training](/events/2020-03-admin/) workshop will be offered 2-6 March at the [Barcelona Supercomputing Center](https://www.bsc.es/).**
 
@@ -16,8 +16,8 @@ Galaxy is an open web based platform for biomedical data integration and analysi
 Please see the [event page](/events/2020-03-admin/) for prerequisites, instructor list, registration rates and deadlines, and registration and agenda links. Space is available on a first come, first served basis. (And, space is limited and this workshop usually fills up.)
 
 <div class="float-right">
-[<img src="/src/images/logos/ElixirNoTextLogo.png" alt="ELIXIR"  style="max-width: 10rem" />](https://elixir-europe.org/)
-[<img src="/src/images/logos/barcelona-sc-logo.png" alt="Barcelona Supercomputing Center" style="max-width: 18rem" />](https://www.bsc.es/)
+[<img src="/images/logos/ElixirNoTextLogo.png" alt="ELIXIR"  style="max-width: 10rem" />](https://elixir-europe.org/)
+[<img src="/images/logos/barcelona-sc-logo.png" alt="Barcelona Supercomputing Center" style="max-width: 18rem" />](https://www.bsc.es/)
 </div>
 
 This workshop is generously supported by [ELIXIR Europe](https://elixir-europe.org/) and the [Barcelona Supercomputing Center](https://www.bsc.es/).  And we mean *generously*.  Registration is very affordable.

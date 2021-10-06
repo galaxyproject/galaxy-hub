@@ -5,7 +5,7 @@ closes: "2021-07-20"
 summary: "Déployer sous Galaxy un système d'analyse automatisée des séquences de SARS-CoV-2 produites par différentes technologies NGS (Illumina, MinIon et Nanopore). Assurer le bon fonctionnement du serveur Galaxy dédié à ces analyses. Connecter les services Galaxy avec..."
 continent: EU
 location: "CNRS, Évry-Courcouronnes, France"
-image: /src/images/logos/cnrs-logo-text-wide.png
+image: /images/logos/cnrs-logo-text-wide.png
 location_url: "https://www.cnrs.fr/"
 external_url: "https://emploi.cnrs.fr/Offres/CDD/UMS3601-JACVAN-001/Default.aspx"
 contact: ""

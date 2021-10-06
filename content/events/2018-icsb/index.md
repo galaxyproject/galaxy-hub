@@ -7,7 +7,7 @@ continent: EU
 location: "International Conference on Systems Biology, Lyon, France"
 location_url: "http://icsb2018-france.com/"
 external_url: ""
-image: "/src/events/2018-icsb/logo_icsb_2018.jpg"
+image: "/events/2018-icsb/logo_icsb_2018.jpg"
 gtn: False
 contact: " Sheng-Yao Su, Blandine Comte"
 ---

@@ -25,9 +25,9 @@ The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject
 
 Sponsorships are available at four different levels.
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/PlatinumBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/PlatinumBanner.png)</div>
 
-<div class='center'><a href='http://www.lifetechnologies.com/'><img src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="340" /></a></div>
+<div class='center'><a href='http://www.lifetechnologies.com/'><img src="/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="340" /></a></div>
 
 <div class='indent'>
 **Cost: 75,000 NOK ([~ €10,000](http://finance.yahoo.com/currency-converter/#from=NOK;to=EUR;amt=75000))**
@@ -45,13 +45,13 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/GoldBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/GoldBanner.png)</div>
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center;"> <a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.emc.com/isilon'><img src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" /></a> </td>
     <td style=" border: none; width: 10%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://bioteam.net/'><img src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" /></a> </td>
   </tr>
 </table>
 
@@ -71,9 +71,9 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/SilverBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/SilverBanner.png)</div>
 
-<div class='center'><a href='http://www.gigasciencejournal.com/'><img src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="200" /></a></div>
+<div class='center'><a href='http://www.gigasciencejournal.com/'><img src="/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="200" /></a></div>
 
 <br />
 
@@ -89,13 +89,13 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/BronzeBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/BronzeBanner.png)</div>
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center;"> <a href='http://www.illumina.com/'><img src="/src/images/logos/IlluminaLogo250.png" alt="Illumina" width="200" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://www.illumina.com/'><img src="/images/logos/IlluminaLogo250.png" alt="Illumina" width="200" /></a> </td>
     <td style=" border: none; width: 10%; text-align: center;"> </td>
-    <td style=" border: none; text-align: center;"> <a href='http://globus.org/genomics'><img src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="200" /></a> </td>
+    <td style=" border: none; text-align: center;"> <a href='http://globus.org/genomics'><img src="/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="200" /></a> </td>
   </tr>
 </table>
 
@@ -110,25 +110,25 @@ Sponsorships are available at four different levels.
 
 <br /><br />
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/OtherBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/OtherBanner.png)</div>
 
-<div class='center'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="300" /></a><br />
+<div class='center'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="300" /></a><br />
 [Training Day Sponsor](/events/gcc2013/training-day/)
 </div>
 
 <br /><br />
 
-<div class='center'>![](/src/events/gcc2013/sponsorships/HostsBanner.png)</div>
+<div class='center'>![](/events/gcc2013/sponsorships/HostsBanner.png)</div>
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='http://www.uio.no/english/research/interfaculty-research-areas/mls/'><img src="/src/images/logos/MLSUiOLogo.png" alt="Molecular Life Science at the University of Oslo" height=120 /></a> </td>
-    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.forskningsradet.no/english/'><img src="/src/images/logos/ResearchCouncilNorway500.png" alt="The Research Council of Norway" width="400" /></a> </td>
-    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.bioinfo.no/about/'><img src="/src/images/logos/FUGE.png" alt="Functional Genomics" height=120 /></a> &nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none;"> <a href='http://www.elixir-europe.org/'><img src="/src/images/logos/ElixirNoTextLogo.png" alt="Elixer" height=120 /></a> </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.uio.no/english/research/interfaculty-research-areas/mls/'><img src="/images/logos/MLSUiOLogo.png" alt="Molecular Life Science at the University of Oslo" height=120 /></a> </td>
+    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.forskningsradet.no/english/'><img src="/images/logos/ResearchCouncilNorway500.png" alt="The Research Council of Norway" width="400" /></a> </td>
+    <td style=" text-align: center; border: none;"> &nbsp;&nbsp; <a href='http://www.bioinfo.no/about/'><img src="/images/logos/FUGE.png" alt="Functional Genomics" height=120 /></a> &nbsp;&nbsp; </td>
+    <td style=" text-align: center; border: none;"> <a href='http://www.elixir-europe.org/'><img src="/images/logos/ElixirNoTextLogo.png" alt="Elixer" height=120 /></a> </td>
   </tr>
   <tr>
-    <td colspan=4 style=" border: none; text-align: center;"> <a href='http://uio.no/'><img src="/src/images/logos/UiOLogo.png" alt="University of Oslo"  /></a> </td>
+    <td colspan=4 style=" border: none; text-align: center;"> <a href='http://uio.no/'><img src="/images/logos/UiOLogo.png" alt="University of Oslo"  /></a> </td>
   </tr>
 </table>
 

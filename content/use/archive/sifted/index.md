@@ -8,7 +8,7 @@ platforms:
     platform_text: "SIFTED Galaxy Server"
     platform_location: US
 summary: "Specificity Inference For TAL-Effector Design (SIFTED)"
-image: "/src/use/archive/sifted/sifted-landing-page.png"
+image: "/use/archive/sifted/sifted-landing-page.png"
 comments:
   - "SIFTED is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins."
 user_support:

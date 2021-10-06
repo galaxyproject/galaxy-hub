@@ -2,13 +2,13 @@
 date: '2017-10-16'
 title: "Galaxy: the first 5,000 pubs "
 tease: "The Galaxy Publication Library hits a milestone"
-image: /src/images/logos/zotero-logo-small-trans.png
+image: /images/logos/zotero-logo-small-trans.png
 authors: "Dave Clements"
 ---
 
 We reached 5,000 publications in the [Galaxy Publication Library](https://www.zotero.org/groups/1732893/galaxy) last week.  The library tracks publications that use, extend, implement or reference Galaxy or a Galaxy server.  It includes journal articles, theses, and a couple of odds and ends.  This milestone is a good opportunity to look at what the library tells us about where the Galaxy project has been, and maybe where it's going too.
 
-The library was started December 2011, when the first 168 galaxy related publications were added and classified using 8 tags.  This included all project publications plus every pub that *ad hoc* literature searches could find at the time.  The library started on CiteULike and stayed there until September 2017, when we [moved it to Zotero](/src/news/2017-09-publication-lib-on-zotero/). The library grew to 4500 papers during that time.
+The library was started December 2011, when the first 168 galaxy related publications were added and classified using 8 tags.  This included all project publications plus every pub that *ad hoc* literature searches could find at the time.  The library started on CiteULike and stayed there until September 2017, when we [moved it to Zotero](/news/2017-09-publication-lib-on-zotero/). The library grew to 4500 papers during that time.
 
 The library uses *tags* to indicate how the publication relates to Galaxy.  See below for an [explanation and history of the tags](#more-on-tags).
 
@@ -391,7 +391,7 @@ The last trend I want to highlight is about *Reproducibility*. Reproducibility h
 
 ## Publications per year
 
-[<img class="float-right" src="/src/blog/2017-10-5000-pubs/pubs-per-year.png" alt="Publications published in each year, as of 2017/10" width="200" />](/src/blog/2017-10-5000-pubs/pubs-per-year.png)
+[<img class="float-right" src="/blog/2017-10-5000-pubs/pubs-per-year.png" alt="Publications published in each year, as of 2017/10" width="200" />](/blog/2017-10-5000-pubs/pubs-per-year.png)
 
 **The number of publications that reference Galaxy each year has increased every year since the project started.**  It took [over three and a half years to reach 2,500 publications](/news/first2500-papers/) but only a little over two more years to add the next 2,500 publications.
 

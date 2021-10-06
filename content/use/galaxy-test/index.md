@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy Test"
     platform_location: US
 summary: "Beta version of Galaxy Main "
-image: "/src/use/galaxy-test/galaxy-test-300.png"
+image: "/use/galaxy-test/galaxy-test-300.png"
 comments:
   - "[Beta version](/test/) of Galaxy [Main](/main/)"
   - "Not stable or persistent.  See [Test](/test/) for more."

@@ -1,10 +1,10 @@
 <div class='center'>
-<a href='http://www.wcb.ed.ac.uk/'><img src="/src/images/logos/WTCCBLogo.png" alt="Welcome Trust Centre for Cell Biology" height="100" /></a> &nbsp; 
-<a href='http://www.genomics.ed.ac.uk/'><img src="/src/images/logos/EdinburghGenomics.png" alt="Edinburgh Genomics" height="100" /></a>
+<a href='http://www.wcb.ed.ac.uk/'><img src="/images/logos/WTCCBLogo.png" alt="Welcome Trust Centre for Cell Biology" height="100" /></a> &nbsp; 
+<a href='http://www.genomics.ed.ac.uk/'><img src="/images/logos/EdinburghGenomics.png" alt="Edinburgh Genomics" height="100" /></a>
 &nbsp; 
-<a href='http://www.roslin.ed.ac.uk/'><img src="/src/images/logos/RoslinLogo.jpg" alt="Roslin Institute" height="100" /></a> 
+<a href='http://www.roslin.ed.ac.uk/'><img src="/images/logos/RoslinLogo.jpg" alt="Roslin Institute" height="100" /></a> 
 &nbsp; 
-<a href='http://www.ed.ac.uk/'><img src="/src/images/logos/UEdinburghSquareLogo.png" alt="University of Edinburgh" height="100" /></a> 
+<a href='http://www.ed.ac.uk/'><img src="/images/logos/UEdinburghSquareLogo.png" alt="University of Edinburgh" height="100" /></a> 
 <div class='title'>Introduction to Galaxy<br />12 May 2014</div>
 
 **
@@ -70,8 +70,8 @@ Anyone affiliated with the University of Edinburgh can participate in this works
 <div class='center'>**Note:** This is a hands-on workshop!  Please bring a wifi-enabled laptop.</div>
 
 <div class='right'>
-<br /><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
-<a href='/events/uk-may2014/'><img src="/src/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
+<br /><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
+<a href='/events/uk-may2014/'><img src="/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
 </div>
 
 ## Support

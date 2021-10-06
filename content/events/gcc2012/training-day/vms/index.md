@@ -1,6 +1,6 @@
 ---
 ---
-<div class='right'><a href='/events/gcc2012/training-day/vms/'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
+<div class='right'><a href='/events/gcc2012/training-day/vms/'><img src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
 
 If you are planning on attending any of these [GCC2012](/events/gcc2012/) [Training Day](/events/gcc2012/training-day/) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
 
@@ -29,7 +29,7 @@ You will need to do two things before [Training Day](/events/gcc2012/training-da
 
 So, **please do these steps before you arrive**.
 
-<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
+<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
 
 ## 1. Install VirtualBox on your laptop
 
@@ -76,25 +76,25 @@ This image will have a configured and running Galaxy instance.
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/ApplianceImport.png'><img src="/src/events/gcc2012/training-day/vms/ApplianceImport.png" alt="Appliance Import Settings Window; click to enlarge" width="200" /></a><br />1.3. Appliance Import </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/ApplianceImport.png'><img src="/events/gcc2012/training-day/vms/ApplianceImport.png" alt="Appliance Import Settings Window; click to enlarge" width="200" /></a><br />1.3. Appliance Import </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/ImportedVM.png'><img src="/src/events/gcc2012/training-day/vms/ImportedVM.png" alt="VM successfully imported; click to enlarge" width="200" /></a><br />1.4. VM Imported </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/ImportedVM.png'><img src="/events/gcc2012/training-day/vms/ImportedVM.png" alt="VM successfully imported; click to enlarge" width="200" /></a><br />1.4. VM Imported </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/VMSettings.png'><img src="/src/events/gcc2012/training-day/vms/VMSettings.png" alt="VM settings; click to enlarge" width="200" /></a><br />1.5.1 VM settings </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/VMSettings.png'><img src="/events/gcc2012/training-day/vms/VMSettings.png" alt="VM settings; click to enlarge" width="200" /></a><br />1.5.1 VM settings </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/PortForwarding.png'><img src="/src/events/gcc2012/training-day/vms/PortForwarding.png" alt="Port forwarding rules; click to enlarge" width="200" /></a><br />1.5.3 Port forwarding rules </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/PortForwarding.png'><img src="/events/gcc2012/training-day/vms/PortForwarding.png" alt="Port forwarding rules; click to enlarge" width="200" /></a><br />1.5.3 Port forwarding rules </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/MouseInfo.png'><img src="/src/events/gcc2012/training-day/vms/MouseInfo.png" alt="Mouse Pointer info window; click to enlarge" width="200" /></a><br />2.1. An info screens </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/MouseInfo.png'><img src="/events/gcc2012/training-day/vms/MouseInfo.png" alt="Mouse Pointer info window; click to enlarge" width="200" /></a><br />2.1. An info screens </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/UserList.png'><img src="/src/events/gcc2012/training-day/vms/UserList.png" alt="List of defined users; click to enlarge" width="200" /></a><br />2.2. Defined users </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/UserList.png'><img src="/events/gcc2012/training-day/vms/UserList.png" alt="List of defined users; click to enlarge" width="200" /></a><br />2.2. Defined users </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/XFCEDesktop.png'><img src="/src/events/gcc2012/training-day/vms/XFCEDesktop.png" alt="The XFCE Desktop; click to enlarge" width="200" /></a><br />2.3. The XFCE Desktop </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/XFCEDesktop.png'><img src="/events/gcc2012/training-day/vms/XFCEDesktop.png" alt="The XFCE Desktop; click to enlarge" width="200" /></a><br />2.3. The XFCE Desktop </td>
   </tr>
 </table>
 

@@ -9,7 +9,7 @@ location_url: http://www.uicforum.uic.edu/
 external_url:
 gtn: false
 contact: Organisers
-image: /src/images/galaxy-logos/GCC2012LogoWide400.png
+image: /images/galaxy-logos/GCC2012LogoWide400.png
 ---
 
 **The 2012 Galaxy Community Conference (GCC2012) was held July 25-27 at the [UIC Forum](http://www.uicforum.uic.edu/) at [University of Illinois Chicago](http://uic.edu/).**
@@ -50,14 +50,14 @@ We would like to thank our sponsors for their generous support of the 2012 Galax
 
 <table>
   <tr>
-    <td style=" border: none; min-width: 40%;"> <img src="/src/events/gcc2012/sponsorships/PlatinumBannerLeft.png" alt="" width=340 /> </td>
+    <td style=" border: none; min-width: 40%;"> <img src="/events/gcc2012/sponsorships/PlatinumBannerLeft.png" alt="" width=340 /> </td>
     <td style=" border: none;"> &nbsp;</td>
-    <td style=" border: none; text-align: center;"> <img src="/src/events/gcc2012/sponsorships/GoldBannerLeft.png" alt="" width=340 /> </td>
+    <td style=" border: none; text-align: center;"> <img src="/events/gcc2012/sponsorships/GoldBannerLeft.png" alt="" width=340 /> </td>
   </tr>
   <tr>
-    <td style=" border: none; height: 100px; text-align: center;"> <a href='http://www.lifetechnologies.com/'><img src="/src/events/gcc2012/sponsorships/IonTorrentLogo340.png" alt="Ion Torrent"  /></a><br /><strong><a href='http://www.lifetechnologies.com/'>Ion Torrent</a></strong> </td>
+    <td style=" border: none; height: 100px; text-align: center;"> <a href='http://www.lifetechnologies.com/'><img src="/events/gcc2012/sponsorships/IonTorrentLogo340.png" alt="Ion Torrent"  /></a><br /><strong><a href='http://www.lifetechnologies.com/'>Ion Torrent</a></strong> </td>
     <td style=" border: none;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: top;"> <a href='http://www.emc.com/isilon'><img src="/src/images/logos/EMCLogo260.png" alt="EMC Isilon" width=240 /></a><br /><strong><a href='http://www.emc.com/isilon'>EMC Isilon</a></strong> </td>
+    <td style=" border: none; text-align: center; vertical-align: top;"> <a href='http://www.emc.com/isilon'><img src="/images/logos/EMCLogo260.png" alt="EMC Isilon" width=240 /></a><br /><strong><a href='http://www.emc.com/isilon'>EMC Isilon</a></strong> </td>
   </tr>
   <tr>
     <td style=" border: none;"> </td>
@@ -65,24 +65,24 @@ We would like to thank our sponsors for their generous support of the 2012 Galax
     <td style=" border: none;"> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> <img src="/src/events/gcc2012/sponsorships/SilverBanner.png" alt="" width=340 /> </td>
+    <td style=" border: none;"> <img src="/events/gcc2012/sponsorships/SilverBanner.png" alt="" width=340 /> </td>
     <td style=" border: none;"> </td>
-    <td style=" border: none; text-align: center;"> <img src="/src/events/gcc2012/sponsorships/HostsBanner.png" alt="" width=340 /> </td>
+    <td style=" border: none; text-align: center;"> <img src="/events/gcc2012/sponsorships/HostsBanner.png" alt="" width=340 /> </td>
     <td style=" border: none;"> </td>
   </tr>
   <tr>
     <td style=" border: none; text-align: center;">
       <br />
-      <a href='http://www.ncsa.illinois.edu/'><img src="/src/images/logos/NCSALogo220.png" alt="National Center for Supercomputing Applications (NCSA)"  /></a><br /><br />
-      <a href='http://www.biotech.uiuc.edu/'><img src="/src/events/gcc2012/sponsorships/UIUC_RJC_Biotech_Center280.png" alt="Roy J. Carver Biotechnology Center" width=260 /></a><br /><br />
-      <a href='http://www.igb.uiuc.edu/'><img src="/src/events/gcc2012/sponsorships/UIUC_IGB280.png" alt="The Institute for Genomic Biology" width=260 /></a> <br /><br />
-      <a href='http://www.ccts.uic.edu/'><img src="/src/events/gcc2012/sponsorships/UIC_CCTS_Logo.png" alt="UIC Center for Clinical and Translational Science" width="260" /></a><br /><br />
-      <a href='http://www.rrc.uic.edu/'><img src="/src/events/gcc2012/sponsorships/UIC_RRC_Logo.png" alt="UIC Research Resource Center" width="260" /></a> </td>
+      <a href='http://www.ncsa.illinois.edu/'><img src="/images/logos/NCSALogo220.png" alt="National Center for Supercomputing Applications (NCSA)"  /></a><br /><br />
+      <a href='http://www.biotech.uiuc.edu/'><img src="/events/gcc2012/sponsorships/UIUC_RJC_Biotech_Center280.png" alt="Roy J. Carver Biotechnology Center" width=260 /></a><br /><br />
+      <a href='http://www.igb.uiuc.edu/'><img src="/events/gcc2012/sponsorships/UIUC_IGB280.png" alt="The Institute for Genomic Biology" width=260 /></a> <br /><br />
+      <a href='http://www.ccts.uic.edu/'><img src="/events/gcc2012/sponsorships/UIC_CCTS_Logo.png" alt="UIC Center for Clinical and Translational Science" width="260" /></a><br /><br />
+      <a href='http://www.rrc.uic.edu/'><img src="/events/gcc2012/sponsorships/UIC_RRC_Logo.png" alt="UIC Research Resource Center" width="260" /></a> </td>
     <td style=" border: none;"> </td>
     <td style=" border: none; text-align: center;">
-      <a href='http://uic.edu/'><img src="/src/images/logos/UICLogo.png" alt="University of Illinois Chicago"  /></a> <br />
-      <a href='http://illinois.edu/'><img src="/src/images/logos/UIUCLogo.png" alt="University of Illinois Urbana-Champaign"  /></a> <br /><br />
-      <a href='http://http://www.ci.uchicago.edu/'><img src="/src/images/logos/ComputaitonInstituteLogo.png" alt="Computation Institute" height=80 /></a></td>
+      <a href='http://uic.edu/'><img src="/images/logos/UICLogo.png" alt="University of Illinois Chicago"  /></a> <br />
+      <a href='http://illinois.edu/'><img src="/images/logos/UIUCLogo.png" alt="University of Illinois Urbana-Champaign"  /></a> <br /><br />
+      <a href='http://http://www.ci.uchicago.edu/'><img src="/images/logos/ComputaitonInstituteLogo.png" alt="Computation Institute" height=80 /></a></td>
   </tr>
 </table>
 

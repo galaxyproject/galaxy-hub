@@ -38,7 +38,7 @@ $ rsync -avzP rsync://datacache.g2.bx.psu.edu/indexes/phiX .
 ```
 
 
-Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/admin/data-integration/) or [setting up native genome indexes](/src/admin/NGS Local Setup/index.md).
+Genomes are organized in directories by the `dbkey`. If you are not sure of the `dbkey`, check your datasets. The `dbkey` is what is populated into the "database" attribute for a dataset. Read more [about how this fits into data integration](/admin/data-integration/) or [setting up native genome indexes](/admin/NGS Local Setup/).
 
 <br />
 # More Updates to Output and Error Handling
@@ -69,7 +69,7 @@ As reported in the *[July 20th, 2012 News Brief](/archive/dev-news-briefs/2012-0
 * *New*
   * Addition of **interactive phylogenetic tree visualization**.
 
-</div><a href='/learn/'><img src="/src/images/news-graphics/2012_09_07_interactive-phylo-tree.png" alt="interactive-phylo-tree" width=800 /></a></div>
+</div><a href='/learn/'><img src="/images/news-graphics/2012_09_07_interactive-phylo-tree.png" alt="interactive-phylo-tree" width=800 /></a></div>
 
 <br />
 # Galaxy Track Browser (GTB)
@@ -82,7 +82,7 @@ As reported in the *[July 20th, 2012 News Brief](/archive/dev-news-briefs/2012-0
   * Server-side code for coverage histograms
   * Add feature search to **[Trackster](/learn/visualization/)** ; typing in location box will search tracks in visualization for features that start with entered text. Works with **[GFF](/learn/datatypes/#gff)**, **[GTF](/learn/datatypes/#gtf)**, and **[BED](/learn/datatypes/#bed)** datasets. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/611](https://bitbucket.org/galaxy/galaxy-central/issue/611)
 
-<a href='/learn/visualization/'><img src="/src/images/news-graphics/2012_09_07_trackster-feature-search.png" alt="trackster-feature-search.png" width=800 /></a>
+<a href='/learn/visualization/'><img src="/images/news-graphics/2012_09_07_trackster-feature-search.png" alt="trackster-feature-search.png" width=800 /></a>
 
 <br />
 # Source
@@ -143,26 +143,26 @@ Now the above entry still works, but the following entry is also ok (notice the 
   * The implementation for importing proprietary datatype class modules included in a tool shed repository now supports class module files whose name conflicts with a **[Python](http://www.python.org/)** standard library module name.  For example, if a proprietary datatype class module is named `xml.py`, it will now be correctly imported even though the name conflicts with the Python standard library's xml module.
   * The repository tip is now displayed in a column that is separate from the repository's installable changeset revisions in the tool shed.
 
-<a href='/toolshed/'><img src="/src/images/news-graphics/2012_09_07_repository-grid.png" alt="repository-grid.png" /></a>
+<a href='/toolshed/'><img src="/images/news-graphics/2012_09_07_repository-grid.png" alt="repository-grid.png" /></a>
 
 * Additional information has been added to the "Tool metadata" page, which is displayed when you choose the "View tool metadata" option from a tool's pop-up menu.  This menu is available in 2 locations: when viewing the repository in a tool shed, and when viewing a repository (which includes tools) that has been installed into a local Galaxy instance.  The additional information added to the Tool metadata page includes:
   * information about tool dependencies if they have been defined in the repository
   * requirements defined in the tool config `<requirements>` tag set
   * The tool's version lineage information, an example of which is shown here for a sample tool named **Filter**
 
-<a href='/toolshed/'><img src="/src/images/news-graphics/2012_09_07_view-tool-metadata-page.png" alt="view-tool-metadata-page.png" /></a>
+<a href='/toolshed/'><img src="/images/news-graphics/2012_09_07_view-tool-metadata-page.png" alt="view-tool-metadata-page.png" /></a>
 
 * In addition to browsing repositories that you own, you can now also browse repositories for which you have been granted "write" permission.  Here is a snapshot of the new Galaxy tool shed menu.
 
-<a href='/toolshed/'><img src="/src/images/news-graphics/2012_09_07_toolshed-menu.png" alt="toolshed-menu.png" /></a>
+<a href='/toolshed/'><img src="/images/news-graphics/2012_09_07_toolshed-menu.png" alt="toolshed-menu.png" /></a>
 
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width=20 /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width=20 /></a></div> 
 * *General*
   * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/archive/dev-news-briefs/2012-01-27/#run-cluster-jobs-as-the-real-user).
-  * Galaxy will no longer try to modify permissions of [linked library uploads](/src/admin/Data Libraries/Uploading Library Files/index.md).
+  * Galaxy will no longer try to modify permissions of [linked library uploads](/admin/Data Libraries/Uploading Library Files/).
   * Galaxy will honor `umask` when creating temporary library archives for download (solves permissions problems when sending via a proxy server).
   * Fix tabular display to serve raw when `preview == False`, which should resolve external display issues.
   * Fix `convert_newlines` and `sep2tabs` to return '0' lines in the event of an empty file, instead of throwing an exception.
@@ -189,7 +189,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 [News](/news/), *[August](/galaxy-updates/2012-09/)* and *[September](/galaxy-updates/2012-09/)* *2012 Galaxy Updates*
 
-<div class='right'><a href='/galaxy-updates/2012-09/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/2012-09/'><img src="/images/logos/GalaxyUpdate200.png" alt="September 2012 Galaxy Update" width=150 /></a></div>
 
 ## Highlights
 
@@ -206,7 +206,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 ## Swiss Galaxy Day
 
-<div class='right'><a href='/events/switzerland2012/'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
+<div class='right'><a href='/events/switzerland2012/'><img src="/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
 
 The 1<sup>st</sup> [Swiss Galaxy Workshop](/events/switzerland2012/) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
  
@@ -217,7 +217,7 @@ The workshop is part of the SyBIT Tech Day series.
 <br />
 ## Who's Hiring
 
-<div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width=100 /></div>
+<div class='right'><img src="/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width=100 /></div>
 The Galaxy is expanding!  Please help it grow.
 * The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs @ Penn State and Emory
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium

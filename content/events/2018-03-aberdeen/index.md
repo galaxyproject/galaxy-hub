@@ -9,5 +9,5 @@ location_url: http://www.abdn.ac.uk/genomics/bioinformatics/training/
 external_url: https://www.abdn.ac.uk/genomics/documents/201718_Workshops/Alignment_2018.pdf
 gtn: true
 contact: Sophie Shaw
-image: /src/images/logos/AberdeenLogoTrans.png
+image: /images/logos/AberdeenLogoTrans.png
 ---

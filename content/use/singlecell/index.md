@@ -8,7 +8,7 @@ platforms:
     platform_text: "Single Cell Workbench Server"
     platform_location: DE
 summary: "The Single Cell Omics workbench is a comprehensive set of analysis tools and consolidated workflows"
-image: "/src/use/singlecell/logo_single_cell.svg"
+image: "/use/singlecell/logo_single_cell.svg"
 comments:
   - "The current implementation comprises more than 20 bioinformatics tools dedicated to different research areas of single cell biology."
   - "The public server is hosted by the UesGalaxy.eu team."

@@ -3,7 +3,7 @@ title: "February 2016 Galactic News"
 date: "2016-02-02"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2016-01/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="It's a new year in the Galaxy!" width=150 /></a><br />
+<a href='/galaxy-updates/2016-01/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="It's a new year in the Galaxy!" width=150 /></a><br />
 </div>
 
 The **[February 2016 Galactic News](/galaxy-updates/2016-02/)** is hot off the presses.  Here are some highlights:
@@ -30,4 +30,4 @@ The **[February 2016 Galactic News](/galaxy-updates/2016-02/)** is hot off the p
 
 Happy February!
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

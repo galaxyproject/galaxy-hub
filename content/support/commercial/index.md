@@ -9,7 +9,7 @@ Galaxy [servers](/use/) and [support](/support/) are available in a wide variety
 
 [GalaxyWorks](https://galaxyworks.io/) offers [Galaxy Pro](https://galaxyworks.io/product), as a fully-managed Galaxy service with no usage quotas, a validated toolset, and Pro workflows. 
 
-<div class='right'><a href='https://galaxyworks.io/'><img src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks, LLC" width="270" /></a></div>
+<div class='right'><a href='https://galaxyworks.io/'><img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks, LLC" width="270" /></a></div>
 
 GalaxyWorks [was founded](https://galaxyproject.org/news/2020-06-galaxyworks-announcement/) by several [Galaxy Project's community members](https://galaxyworks.io/about/) to enable scientists to continue to rely on Galaxy as they roll through chapters in their careers and switch between academia and industry. Galaxy Pro offers the following advantages:
 * **Managed software**, saving time and cost of installing, updating, and maintaining infrastructure and software
@@ -35,7 +35,7 @@ GalaxyWorks [was founded](https://galaxyproject.org/news/2020-06-galaxyworks-ann
 
 ## Noor Biotechnologies
 
-<div class='right'><a href='http://noorbiotech.com/'><img src="/src/images/logos/NoorBioTechLogo.jpg" alt="Noor Biotechnologies Ltd." width="270" /></a></div>
+<div class='right'><a href='http://noorbiotech.com/'><img src="/images/logos/NoorBioTechLogo.jpg" alt="Noor Biotechnologies Ltd." width="270" /></a></div>
 
 Galaxy is a powerful and open, web-based platform, which is accessible to all scientists. For the beginner, it can be difficult to know how to select from the thousands of available tools, which ones are right for your data analysis. 
 
@@ -57,13 +57,13 @@ With [Noor Biotechnologies](http://noorbiotech.com/), you can make sense of your
 ## Takeru Galaxy
 
 <div class='right'>
-[<img src="/src/images/logos/nabe-logo.png" alt="NABE3 International" height="50" />](http://www.nabe-intl.co.jp/seq/takerugalaxy.html)</a></div>
+[<img src="/images/logos/nabe-logo.png" alt="NABE3 International" height="50" />](http://www.nabe-intl.co.jp/seq/takerugalaxy.html)</a></div>
 
 The [Takeru Galaxy](http://www.nabe-intl.co.jp/seq/takerugalaxy.html) server is offered by [NABE<sup>3</sup> International](http://www.nabe-intl.co.jp), a manufacturer specializing in Linux-based clusters based in Tsukuba, Japan. Takeru Galaxy servers come as a fully configured (hardware and software) system featuring numerous standard biomedical analysis tools and reference genomes, all available in a Galaxy server.  Customization and multiple support options are available.
 
 # Hosting and Commercial Cloud Solutions
 
-<div class='right'><a href='http://openstack.org'><img src="/src/images/logos/OpenStackLogo.png" alt="OpenStack" width="130" /></a>
+<div class='right'><a href='http://openstack.org'><img src="/images/logos/OpenStackLogo.png" alt="OpenStack" width="130" /></a>
 </div>
 
 [CloudMan](/cloudman/) and [Globus Genomics](/cloud/#globus-genomics) are two ways to deploy your own Galaxy server using [Amazon Web Services](http://aws.amazon.com). CloudMan can also run on any cloud provider that supports the [OpenStack](http://openstack.org) or [OpenNebula](http://opennebula.org) cloud management protocols.  This covers the vast majority of commercial cloud providers.

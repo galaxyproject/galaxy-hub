@@ -2,7 +2,7 @@
 title: September 2017 Galaxy News
 ---
 <div class='right'>
-[<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
+[<img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 </div>
 
 Welcome to the September 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -169,7 +169,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 ----
 # Who's Hiring
 
-<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -186,7 +186,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 # Takeru Galaxy
 
 <div class='right'>
-[<img src="/src/images/logos/nabe-logo.png" alt="NABE3 International" height="50" />](http://www.nabe-intl.co.jp/seq/takerugalaxy.html)</a></div>
+[<img src="/images/logos/nabe-logo.png" alt="NABE3 International" height="50" />](http://www.nabe-intl.co.jp/seq/takerugalaxy.html)</a></div>
 
 The [Takeru Galaxy](http://www.nabe-intl.co.jp/seq/takerugalaxy.html) server is offered by [NABE<sup>3</sup> International](http://www.nabe-intl.co.jp), a manufacturer specializing in Linux-based clusters based in Tsukuba, Japan. Takeru Galaxy servers come as a fully configured (hardware and software) system featuring numerous standard biomedical analysis tools and reference genomes, all available in a Galaxy server.  Customization and multiple support options are available.
 
@@ -205,9 +205,9 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 <table class="table">
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
@@ -227,7 +227,7 @@ No new resources were added to community directories in January or February.
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in August](/toolshed/contributions/2017-08/).
 
@@ -250,7 +250,7 @@ No new resources were added to community directories in January or February.
 
 ### Planemo 0.41.0 - 0.44.0
 
-<div class='right'>[<img src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)</div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -277,7 +277,7 @@ Other packages that have been released in the prior 4 months.
 ### May 2017 Galaxy Release (v 17.05)
 
 <div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
 </div>
 
 The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) published the **[17.05 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.05_announce.html)** in May.
@@ -325,6 +325,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-<div class="right">[<img src="/src/images/logos/galaksio_logo.png" alt="Galaksio" width="170px" />](http://galaksio.readthedocs.io/en/latest/)</div>
+<div class="right">[<img src="/images/logos/galaksio_logo.png" alt="Galaksio" width="170px" />](http://galaksio.readthedocs.io/en/latest/)</div>
 
 * [Galaksio](http://galaksio.readthedocs.io/en/latest/), an easy to use GUI for running Galaxy workflows. ([And there is a video too](https://www.youtube.com/watch?feature=player_embedded&v=QAeDBjUeEkI).)

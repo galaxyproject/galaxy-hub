@@ -7,8 +7,8 @@
 
 # [GalaxyAdmins](/community/galaxy-admins/) BoF
 
-<div class='left'><a href='/events/gcc2013/bof/'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
-<a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
+<div class='left'><a href='/events/gcc2013/bof/'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
+<a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
 
 This page describes the **[GalaxyAdmins](/community/galaxy-admins/)** [Birds of a Feather](/events/gcc2013/bof/) meetup being held at [GCC2013](/events/gcc2013/).
 

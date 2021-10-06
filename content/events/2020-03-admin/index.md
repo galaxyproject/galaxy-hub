@@ -98,8 +98,8 @@ The [two Barcelona Train Stations](https://www.thetrainline.com/en/stations/barc
 Working on it...
 
 <div class="float-right">
-[<img src="/src/images/logos/ElixirNoTextLogo.png" alt="ELIXIR"  style="max-width: 12rem" />](https://elixir-europe.org/)
-[<img src="/src/images/logos/barcelona-sc-logo.png" alt="Barcelona Supercomputing Center" style="max-width: 20rem" />](https://www.bsc.es/)
+[<img src="/images/logos/ElixirNoTextLogo.png" alt="ELIXIR"  style="max-width: 12rem" />](https://elixir-europe.org/)
+[<img src="/images/logos/barcelona-sc-logo.png" alt="Barcelona Supercomputing Center" style="max-width: 20rem" />](https://www.bsc.es/)
 </div>
 
 # Sponsors

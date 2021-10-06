@@ -3,7 +3,7 @@ title: 'European Galaxy Administrator Workshop'
 tease: '5 days of admin training in Oslo'
 date: '2017-11-15'
 ---
-[<img class="float-right" src="/src/images/logos/ElixirNoTextLogo.png" alt="Galaxy Admin training, this January, in Oslo " width="170" />](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)
+[<img class="float-right" src="/images/logos/ElixirNoTextLogo.png" alt="Galaxy Admin training, this January, in Oslo " width="170" />](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)
 
 **[Registration](https://skjema.uio.no/galaxy-admin-workshop-2018) is now open for the [European Galaxy Administrator Workshop](https://www.elixir-europe.org/events/european-galaxy-administrator-workshop)**.
 
@@ -24,5 +24,5 @@ Instructors
 * [Björn Grüning](https://github.com/bgruening) ([Elixir Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg), [Elixir Germany](https://www.elixir-europe.org/about-us/who-we-are/nodes/germany), [University of Freiburg](https://www.uni-freiburg.de/?set_language=en))
 * [Marius van den Beek](https://github.com/mvdbeek) ([Elixir Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg), [Institute Curie](https://science.institut-curie.org/), France)
 * [Nicola Soranzo](http://www.earlham.ac.uk/nicola-soranzo) ([Elixir Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg), [Earlham Institute](http://www.earlham.ac.uk/), UK)
-* [Enis Afgan](/people/enis-afgan/) ([Galaxy Project](/src/), [Johns Hopkins University](https://jhu.edu/), USA)
+* [Enis Afgan](/people/enis-afgan/) ([Galaxy Project](/), [Johns Hopkins University](https://jhu.edu/), USA)
 * [Abdulrahman Azab](http://www.usit.uio.no/om/organisasjon/itf/ft/ansatte/azab/index.html) ([Elixir Norway](https://www.elixir-europe.org/about-us/who-we-are/nodes/norway), [USIT](http://www.usit.uio.no/), [University of Oslo](http://www.uio.no/), Norway)

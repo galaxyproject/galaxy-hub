@@ -11,7 +11,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/bgruening/galaxy-genome-annotation/"
     platform_text: "Galaxy for Genome Annotation Docker"
 summary: "Galaxy for genome annotation"
-image: "/src/use/gga/gga-logo-trans.png"
+image: "/use/gga/gga-logo-trans.png"
 comments:
   - "A complete  Galaxy instance for Genome Annotation."
 user_support:

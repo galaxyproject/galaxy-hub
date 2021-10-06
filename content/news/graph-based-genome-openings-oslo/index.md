@@ -9,4 +9,4 @@ The positions are embedded within the HyperBrowser environment, which includes s
 
 [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/)
 
-<div class='center'>![width="200"](/src/images/logos/UiOLogo.png)</div>
+<div class='center'>![width="200"](/images/logos/UiOLogo.png)</div>

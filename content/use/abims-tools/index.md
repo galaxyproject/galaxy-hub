@@ -8,7 +8,7 @@ platforms:
     platform_text: "ABiMS Tools Galaxy server"
     platform_location: FR
 summary: "Hosts tools/resources developed at the [Station Biologique de Roscoff](http://www.sb-roscoff.fr/) in collaboration with [ABiMS](http://abims.sb-roscoff.fr/)."
-image: "/src/images/logos/ABiMSLogo.png"
+image: "/images/logos/ABiMSLogo.png"
 comments:
   - "Tools/resources developed at the Station Biologique de Roscoff in collaboration with ABiMS."
   - "[MicRhoDE workflow](http://application.sb-roscoff.fr/micrhode): places query sequences into MicRhoDE tree (type-1 rhodopsin phylogeny)."

@@ -6,7 +6,7 @@ title: Job and Tool Error Help
 Related topics
 
 * [Tutorials](/learn/)
-* [Getting Inputs Right](/src/support/#getting-inputs-right)
+* [Getting Inputs Right](/support/#getting-inputs-right)
 * [Extended Help for Differential Expression Analysis Tools](/support/diff-expression/)
 * [Reporting Usage Issues or Software bugs](/issues/)
 * [Choices](/use/#which-platform-platform-type-to-choose)
@@ -27,7 +27,7 @@ So you started a job and it ended up failing. The result datasets are red in the
 
 What to do? It depends on the **failure type** and where you are using Galaxy. 
 
-***In a rush to solve the problem?*** The top reasons for failures are listed [**here**](/src/support/#getting-inputs-right). Also consider searching **Known Issues** and review the advanced troubleshooting help covered in **Reporting Usage Issues or Software bugs** (all linked above). Your problem may be something we are already working to correct or have exising prior Q and A, Galaxy help posts, documentation, and/or Galaxy tutorials that include a solution.
+***In a rush to solve the problem?*** The top reasons for failures are listed [**here**](/support/#getting-inputs-right). Also consider searching **Known Issues** and review the advanced troubleshooting help covered in **Reporting Usage Issues or Software bugs** (all linked above). Your problem may be something we are already working to correct or have exising prior Q and A, Galaxy help posts, documentation, and/or Galaxy tutorials that include a solution.
 
 ### Query all Galaxy resources with the "Search Galaxy" box above
 
@@ -42,7 +42,7 @@ What to do? It depends on the **failure type** and where you are using Galaxy.
 
 Did the job fail with some comments that are not descriptive of the problem? Are you sure? 
 
-Click on the bug icon ![](/src/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll able to link your issue to existing troubleshooting help, either here in the [Galaxy hub](/support/) or at [Galaxy Help](https://help.galaxyproject.org/). Archived Q&A may still be helpful, find it here: [Galaxy Biostars](https://biostar.usegalaxy.org).
+Click on the bug icon ![](/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll able to link your issue to existing troubleshooting help, either here in the [Galaxy hub](/support/) or at [Galaxy Help](https://help.galaxyproject.org/). Archived Q&A may still be helpful, find it here: [Galaxy Biostars](https://biostar.usegalaxy.org).
 
 Advanced troubleshooting help is covered at: [Reporting Usage Issues or Software bugs](/issues/)
 
@@ -86,7 +86,7 @@ These are the top reasons for tool failures.
 #### Special cases - input
 
 * There are no special cases. This problem is ubiquitous no matter where or with what tools you happen to be using.
-* *How you think the job was executed may not actually be what was executed.* Use the re-run ![](/src/images/icons/arrow-circle.png) and job info ![](/src/images/icons/HistoryInfo.png) functions to review your work. 
+* *How you think the job was executed may not actually be what was executed.* Use the re-run ![](/images/icons/arrow-circle.png) and job info ![](/images/icons/HistoryInfo.png) functions to review your work. 
 
 Input problems are very common across any analysis that makes use of programmed tools. Learning how to format your data correctly will not only lead to successful jobs in Galaxy, but more robust and reproducible research overall. 
 
@@ -157,7 +157,7 @@ The error indicates that the job ran out of memory while executing on the cluste
 
 Often memory errors can be avoided by the user executing the job:
 
-* Double check the inputs to the tool. Are the [data properly formatted and labeled](/src/support/#getting-inputs-right)?
+* Double check the inputs to the tool. Are the [data properly formatted and labeled](/support/#getting-inputs-right)?
 * Review the parameters for the tool and determine if any changes made away from the default setting (or possibly the detail settings) are compute-intensive. Make changes if they suit your research goals. See the underlying tool's documentation to better understand specific parameters. This is often linked in the Help section on a tool's execution form.
 * If the tool used was one that compares two dataset, change the order of the inputs, and test with a re-run. Some tools consume less memory when the larger dataset is entered as the first input on the tool form.
 * Also see **How to resolve** and **Special cases** in next section. Just note that a rerun will not solve this type or error until changes are made to the inputs and/or the tool settings.
@@ -214,7 +214,7 @@ Moving to a local or cloud Galaxy will often not help for these cases due to how
 
 ### Type: ValueError: invalid literal for int() with base 10
 
-Full error is usually a longer message seen only after clicking on the bug icon ![](/src/images/icons/bug.png):
+Full error is usually a longer message seen only after clicking on the bug icon ![](/images/icons/bug.png):
 
 ```
 stderr
@@ -261,7 +261,7 @@ Software or Tool Bug:
 
 * The tool ended with what appears to be a tool problem message.
 * See examples above.
-* [Search Galaxy Resources](/src/search) to see if the problem is a current known problem with a workaround.
+* [Search Galaxy Resources](/search) to see if the problem is a current known problem with a workaround.
 
 #### How to resolve - bugs
 

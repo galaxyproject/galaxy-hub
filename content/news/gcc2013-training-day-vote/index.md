@@ -2,8 +2,8 @@
 title: "GCC2013 Training Day Topics: Vote!"
 date: "2013-01-28"
 ---
-<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" /></a><br />
-<div class='right'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="180" /></a> </div></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" /></a><br />
+<div class='right'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="180" /></a> </div></div>
 
 A [list of possible topics](/events/gcc2013/training-day/#topics) for the [GCC2013 Training Day](/events/gcc2013/training-day/) is now available.  Please take a few minutes to [review these possibilities](/events/gcc2013/training-day/#topics) and then [vote for your favorite three topics](http://bit.ly/gcc2013tdpoll).*
 

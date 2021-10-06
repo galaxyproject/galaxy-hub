@@ -34,7 +34,7 @@ Galaxy account to the desired external identity**.
    sign in using your desired identity provider. In the process, you will be
    redirected to the identity provider login page before returning to Galaxy.
 
-   ![image](/src/authnz/use/oidc/idps/custos/user-preferences.png)
+   ![image](/authnz/use/oidc/idps/custos/user-preferences.png)
 
 Once you have completed these steps, any identity provider linked to your
 account will be listed on the user preferences page. From now on you can sign
@@ -54,7 +54,7 @@ return to Galaxy as a logged in user.
 
 1. Click on the **Login or Register** button:
 
-    ![image](/src/authnz/use/oidc/idps/google/01.png)
+    ![image](/authnz/use/oidc/idps/google/01.png)
 
 2. Choose an identity provider and click the **Sign in with Custos** button.
    You will then be redirected to the selected identity provider's login screen
@@ -62,7 +62,7 @@ return to Galaxy as a logged in user.
    institution, you will be redirected back to Galaxy and you will be logged in
    to Galaxy with your external identity.
 
-    ![image](/src/authnz/use/oidc/idps/custos/custos-login-flow.png)
+    ![image](/authnz/use/oidc/idps/custos/custos-login-flow.png)
 
     <div class="alert alert-info" role="alert">
         **NOTE:**
@@ -87,7 +87,7 @@ disconnecting.
 To disconnect an identity, simply click the *Disconnect Custos* button from
 the Third-party identity management preferences page.
 
-![image](/src/authnz/use/oidc/idps/custos/disconnect-idp.png)
+![image](/authnz/use/oidc/idps/custos/disconnect-idp.png)
 
 
 ## About Custos

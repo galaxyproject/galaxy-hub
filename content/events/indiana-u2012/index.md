@@ -7,12 +7,12 @@ title: Galaxy Seminar and Workshops @ Indiana University Bloomington - October 1
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://indiana.edu/'><img src="/src/images/logos/IndianaU720.png" alt="Indiana University" width="500" /></a> </td>
+    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://indiana.edu/'><img src="/images/logos/IndianaU720.png" alt="Indiana University" width="500" /></a> </td>
   </tr>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%;"> <a href='http://ncgas.org/'><img src="/src/images/logos/NCGAS_Logo300.png" alt="National Center for Genome Analysis Support" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%;"> <a href='http://ncgas.org/'><img src="/images/logos/NCGAS_Logo300.png" alt="National Center for Genome Analysis Support" /></a> </td>
     <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://cgb.indiana.edu/'><img src="/src/images/logos/CGBLogoText.png" alt="The Center for Genomics and Bioinformatics" width="280px" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://cgb.indiana.edu/'><img src="/images/logos/CGBLogoText.png" alt="The Center for Genomics and Bioinformatics" width="280px" /></a> </td>
   </tr>
 </table>
 
@@ -118,9 +118,9 @@ This workshop will introduce Galaxy for developers.  This includes covering the 
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
-<div class='right'><a href='http://cgb.indiana.edu/'><img src="/src/images/logos/CGBLogoText.png" alt="The Center for Genomics and Bioinformatics" width="240px" /></a></div>
-<div class='right'><a href='http://ncgas.org/'><img src="/src/images/logos/NCGAS_Logo300.png" alt="National Center for Genome Analysis Support" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://cgb.indiana.edu/'><img src="/images/logos/CGBLogoText.png" alt="The Center for Genomics and Bioinformatics" width="240px" /></a></div>
+<div class='right'><a href='http://ncgas.org/'><img src="/images/logos/NCGAS_Logo300.png" alt="National Center for Genome Analysis Support" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, the [National Center for Genome Analysis Support](http://ncgas.org/), and the [The Center for Genomics and Bioinformatics](http://cgb.indiana.edu/).
 
@@ -128,7 +128,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Links
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/indiana-u2012/IndianaUGalaxyWorkshop.pdf'><img src="/src/events/indiana-u2012/IndianaUGalaxyWorkshopThumb.png" alt="Download flier" /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/indiana-u2012/IndianaUGalaxyWorkshop.pdf'><img src="/events/indiana-u2012/IndianaUGalaxyWorkshopThumb.png" alt="Download flier" /></a></div>
 
 * Please help get the word out by distributing [this flyer](https://depot.galaxyproject.org/hub/attachments/events/indiana-u2012/IndianaUGalaxyWorkshop.pdf) in your department.
 

@@ -5,7 +5,7 @@ days: 1
 tease: ""
 continent: GL
 location: "ISB Workshop, Online, Global"
-image: "/src/use/biocompute-object/biocompute-objects-logo.png"
+image: "/use/biocompute-object/biocompute-objects-logo.png"
 location_url: "https://www.biocuration.org/biocuration-2020-online-workshops/"
 external_url: ""
 gtn: true

@@ -481,7 +481,7 @@ Later, if serving your lab computer or from behind a proxy, Galaxy can be access
 Once your Galaxy server is running, many of its functions can be controled over the web through the administration
 page. Click `Admin` from the top menu.
 
-![](/src/events/gmod-summer-school2014/admin.png)
+![](/events/gmod-summer-school2014/admin.png)
 
 Here you'll see a page where you can:
 * Install, manage, and search for tools: bioinformatic programs/applications for user analysis

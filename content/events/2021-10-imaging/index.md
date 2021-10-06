@@ -1,5 +1,5 @@
 ---
-title: " How Galaxy Imaging makes cloud-based image analysis possibl"
+title: "How Galaxy Imaging makes cloud-based image analysis possible"
 date: '2021-10-22'
 days: 1
 tease: "Talk showcasing the image analysis capabilities of Galaxy."

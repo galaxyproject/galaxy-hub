@@ -3,7 +3,7 @@
 
 # Warning: This page has been deprecated. 
 
-* Please review these [Galaxy Support](/support/) FAQs instead: [Unexpected Results](/src/support/#unexpected-results)
+* Please review these [Galaxy Support](/support/) FAQs instead: [Unexpected Results](/support/#unexpected-results)
 
 ----
 

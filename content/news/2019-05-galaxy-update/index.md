@@ -4,7 +4,7 @@ tease: 'GCC2019 registration / Poster/Demo abstracts / sponsors, GTN CoFest, Pla
 date: "2019-05-06"
 ---
 
-[<img class="float-right" src="/src/news/2019-05-galaxy-update/03may19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
+[<img class="float-right" src="/news/2019-05-galaxy-update/03may19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *May 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
@@ -32,7 +32,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 **[Registration](/events/gcc2019/registration/) for the [2019 Galaxy Community Conference (GCC2019)](/events/gcc2019/) is open! Discounted registration rates are available until 17MAY19.** 
 
-[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
+[<img class="float-right" style="max-width: 300px" src="/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
 
 GCC2019 will be held 1-6 July in Freiburg, Germany.  The *tenth* [GCC](/events/gcc2019/) will have many familiar features from earlier years, including accepted and lightning talks, posters and demos, birds-of-a-feather gatherings (BoFs), training, and a CollaborationFest.  GCC2019 brings the [most significant conference program update](https://gcc2019.sched.com/) in several years:
 
@@ -49,7 +49,7 @@ Please find additional information on GCC2019 [here](/events/gcc2019/).
 
 ## Poster & Demo Abstract Submission is Still Open
 
-The talk submission abstract deadline was last week, but poster and demo submissions remain open!  Got something to show? [Submit an abstract](/src/events/gcc2019/abstracts).
+The talk submission abstract deadline was last week, but poster and demo submissions remain open!  Got something to show? [Submit an abstract](/events/gcc2019/abstracts).
 
 ## Fellowships: 2nd Round Due this Friday
 
@@ -62,7 +62,7 @@ We are delighted to have *GigaScience* as a returning sponsor:
 
 ### GigaScience
 
-[<img class="mx-auto float-right" src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" />](https://academic.oup.com/gigascience)
+[<img class="mx-auto float-right" src="/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" />](https://academic.oup.com/gigascience)
 
 *[GigaScience](https://academic.oup.com/gigascience)* is an online open access, open data, open peer-review journal published by [Oxford University Press](https://academic.oup.com/) and [BGI](https://www.bgi.com/us/). The journal offers ‘big data’ research from the life and biomedical sciences, and on top of 'Omics research includes the growing range of work that uses difficult-to-access large-scale data, such as imaging, neuroscience, ecology, systems biology, and other new types of shareable data. *GigaScience* is unique in the publishing industry as it publishes all research objects (data, software tools, source code, workflows, containers and other elements related to the work underpinning the findings in the article). Promoting Open Science, all published software needs to be under an OSI-license, all supporting data must be available and open, and all peer review is carried out transparently. Presenting workflows via our [GigaGalaxy.net](http://gigagalaxy.net/) server, **novel work presented at the meeting utilising Galaxy is eligible to a 15% APC if it is submitted to our [Galaxy series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research)**. 
 
@@ -70,7 +70,7 @@ We are delighted to have *GigaScience* as a returning sponsor:
 
 The Galaxy Training Network has developed an infrastructure to deliver interactive training based on Galaxy: [one central place](https://training.galaxyproject.org) to aggregate training materials covering many current research topics. Each topic is supported by different tutorials developed and maintained by the community via a [GitHub repository](https://github.com/galaxyproject/training-material).
 
-<img class="float-right" style="max-width: 200px;" src="/src/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>
+<img class="float-right" style="max-width: 200px;" src="/images/galaxy-logos/gtn-cofests.png" alt="GTN cofest logo"/>
 
 The Galaxy Training Network is organizing regular online CoFests (Collaboration/Contribution Fests) every 3 months on the 3rd Thursday for a day of the collaborative work on the training content.
 
@@ -252,29 +252,29 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 ## Single Cell Omics Galaxy workbench 
 
-[<img class="float-right" style="max-width: 110px" src="/src/use/singlecell/logo_single_cell.svg" alt="scworkbench" />](/use/singlecell/)
+[<img class="float-right" style="max-width: 110px" src="/use/singlecell/logo_single_cell.svg" alt="scworkbench" />](/use/singlecell/)
 
 The [Single Cell Omics workbench](https://singlecell.usegalaxy.eu/) is a comprehensive set of analysis tools and consolidated workflows for single cell analysis. The current implementation comprises more than 20 bioinformatics tools dedicated to different research areas of single cell biology.
 
 ## NetworkAnalyst 
 
-[<img class="float-right" style="max-width: 170px" src="/src/news/2019-05-galaxy-update/networkanalyst.png" alt="networkanalyst" />](https://www.networkanalyst.ca)
+[<img class="float-right" style="max-width: 170px" src="/news/2019-05-galaxy-update/networkanalyst.png" alt="networkanalyst" />](https://www.networkanalyst.ca)
 
 [NetworkAnalyst](https://www.networkanalyst.ca/) is an online analysis environment for transcriptome profiling, network analysis, and meta analysis for gene expression data. NetworkAnalyst has developed and made available a [public Galaxy server](https://galaxy.networkanalyst.ca/) to support raw RNAseq processing for 17 species covering mammals, birds, bacteria, plants and parasites. 
 
 ## CellOrganizer
 
-[<img class="float-right" style="max-width: 170px" src="/src/use/cell-organizer/cell-organizer-logo2-250.jpg" alt="cellorg" />](/use/cell-organizer/)
+[<img class="float-right" style="max-width: 170px" src="/use/cell-organizer/cell-organizer-logo2-250.jpg" alt="cellorg" />](/use/cell-organizer/)
 
 [CellOrganizer](http://www.cellorganizer.org/) creates generative models of the spatial organization of cells from microscope images and automatically provides geometries for spatial simulations of cell processes and behaviors. A [Galaxy](http://galaxy.compbio.cs.cmu.edu:8080/) server provides access to CellOrganizer tools for users who do not have the resources to run the Matlab or Docker versions.
 
 ## CIRM-CFBP
 
-[<img class="float-right" style="max-width: 200px" src="/src/use/cirm-cfbp/cirm-cfbp-banner.png" alt="cirmcfbp" />](/use/cirm-cfbp/)
+[<img class="float-right" style="max-width: 200px" src="/use/cirm-cfbp/cirm-cfbp-banner.png" alt="cirmcfbp" />](/use/cirm-cfbp/)
 
 [International Center for Microbial Resources - Plant Associated Bacteria (CIRM-CFBP)](https://www6.inra.fr/cirm_eng/CFBP-Plant-Associated-Bacteria) is providing web based access to tools ([SkIf](https://sourcesup.renater.fr/wiki/skif/) and [KI-S](https://sourcesup.renater.fr/wiki/ki-s/)) of IRHS-EmerSys lab on the [CIRM-CFBP Galaxy](https://iris.angers.inra.fr/galaxypub-cfbp) instance.
 
-[<img class="float-right" style="max-width: 200px" src="/src/use/gcac/gcac-landing.png" alt="gcac" />](/use/gcac/)
+[<img class="float-right" style="max-width: 200px" src="/use/gcac/gcac-landing.png" alt="gcac" />](/use/gcac/)
 
 ## Galaxy for Compound Activity Classification
 
@@ -282,7 +282,7 @@ The [Single Cell Omics workbench](https://singlecell.usegalaxy.eu/) is a compreh
 
 ## MGS-FAST
 
-<img class="float-right" style="max-width: 200px" src="/src/use/archive/mgs-fast/mgs-fast-fig2.png" alt="mgsfast" />
+<img class="float-right" style="max-width: 200px" src="/use/archive/mgs-fast/mgs-fast-fig2.png" alt="mgsfast" />
 
 [MGS-Fast](https://github.com/BCIL/MGS-Fast) is an analysis approach to rapidly map a metagenomics shotgun sequencing (MGS) data set and assign known functions to reads originating from microbial genes, producing counts of KEGG gene orthologs as output. This rapid annotation method is freely available as a [Galaxy workflow within a Docker image](https://hub.docker.com/r/bcil/metagenome).
 
@@ -299,7 +299,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools) | | 2 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 2 | [>SymD](https://www.zotero.org/groups/1732893/galaxy/tags/>SymD) | | | | | 
 ----
 
-[<img class="float-right" src="/src/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/blog/)
+[<img class="float-right" src="/blog/2019-04-gcp/ggcp.png" alt="ggcp" style="max-width: 120px" />](/blog/)
 
 # New Galactic Blog Post
 
@@ -309,7 +309,7 @@ This month we have a *[Galactic Blog](/blog/)* post where [Enis Afgan](https://g
 
 # Who's Hiring
 
-<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
@@ -343,7 +343,7 @@ Also see [Vahid Jalili](https://github.com/VJalili)'s slides on [User Authentica
 
 ## GTN Training Materials
 
-[<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
+[<img class="float-right img-responsive" style="max-width: 15em;" src="/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
 * New [Mass spectrometry imaging: Finding differential analytes](https://training.galaxyproject.org/training-material/topics/metabolomics/tutorials/msi-finding-nglycans/tutorial.html), by [Melanie Foell](https://github.com/foellmelanie)
 * New [Creating a new tutorial - Writing content in Markdown](https://training.galaxyproject.org/training-material/topics/contributing/tutorials/create-new-tutorial-content/tutorial.html) tutorial by [Bérénice Batut](https://github.com/bebatut), [Björn Grüning](https://github.com/bgruening), [Saskia Hiltemann](https://github.com/shiltemann), and [Helena Rasche](https://github.com/hexylena).
@@ -358,7 +358,7 @@ Also see [Vahid Jalili](https://github.com/VJalili)'s slides on [User Authentica
 
 # ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 We didn't get to this this month.  Look forward to a double dose of tools next month.
 
@@ -374,7 +374,7 @@ Parsec is the answer to all of these problems. It extracts all of the individual
 
 ## Pulsar 0.9.1
 
-[<img class="float-right" src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
+[<img class="float-right" src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" />](https://pypi.python.org/pypi/pulsar-app/)
 
 [Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 

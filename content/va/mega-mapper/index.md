@@ -2,7 +2,7 @@
 title: MegaMapper
 ---
 <div class='center'>
-<a href='http://linkToVirtApplOrOrg'><img src="/src/va/mega-mapper/MegasonLabLogo.png" alt="MegaMapper"  /></a>
+<a href='http://linkToVirtApplOrOrg'><img src="/va/mega-mapper/MegasonLabLogo.png" alt="MegaMapper"  /></a>
 </div>
 
 

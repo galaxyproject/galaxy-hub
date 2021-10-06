@@ -2,7 +2,7 @@
 title: "2500 Galaxy Papers & Counting"
 date: "2015-08-12"
 ---
-<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
+<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 
 The [Galaxy CiteULike library](/publication-library/) recently reached a milestone:  It now has over 2500 publications in it.  The Galaxy CiteULike Group was [launched in December 2011](/news/new-galaxy-group-cite-u-like/) and [reached 1000 papers 18 months later](/news/galaxy-cite-u-like-paper1000/). 
 

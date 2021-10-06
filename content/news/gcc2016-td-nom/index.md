@@ -9,7 +9,7 @@ date: "2015-09-28"
 </table>
 
 
-<div class='right'><a href='/events/gcc2016/'><img src="/src/events/gcc2016/GCC2016LogoFull_big.png" alt="GCC2016 Training" width="300" /></a></div>
+<div class='right'><a href='/events/gcc2016/'><img src="/events/gcc2016/GCC2016LogoFull_big.png" alt="GCC2016 Training" width="300" /></a></div>
 
 The [2016 Galaxy Community Conference (GCC2016)](/events/gcc2016/) features two full days of training on June 26-27.  Each 
 day will have multiple tracks, with each track featuring several sessions throughout the day.  GCC2016 will be held at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States.

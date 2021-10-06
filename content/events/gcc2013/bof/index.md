@@ -8,7 +8,7 @@ title: Birds of a Feather (BoF) Flock Together at GCC2013
 <slot name="/events/gcc2013/linkbox" />
 <slot name="/events/gcc2013/bof/linkbox" />
 
-<div class='left'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="250" /></div>
+<div class='left'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="250" /></div>
 
 Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 will extend this tradition by including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  Bof meetups are a natural combination of the informal meetups and the scheduled *[Breakout](/events/gcc2012/program/breakouts/)* sessions that were already happening at previous GCC's.
 

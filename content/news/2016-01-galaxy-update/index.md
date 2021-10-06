@@ -3,7 +3,7 @@ title: "January 2016 Galactic News"
 date: "2016-01-04"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2016-01/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="It's a new year in the Galaxy!" width=150 /></a><br />
+<a href='/galaxy-updates/2016-01/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="It's a new year in the Galaxy!" width=150 /></a><br />
 </div>
 
 The **[January 2016 Galactic News](/galaxy-updates/2016-01/)** is hot off the presses.
@@ -23,4 +23,4 @@ The **[January 2016 Galactic News](/galaxy-updates/2016-01/)** is hot off the pr
 * [ToolShed Contributions](/galaxy-updates/2016-01/#toolshed-contributions) from December
 * and [some other news too](/galaxy-updates/2016-01/#other-news).
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

@@ -6,7 +6,7 @@ date: "2020-11-03"
 
 # In the November 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * **[JXTX: The James P. Taylor Foundation for Open Science](#jxtx-the-james-p.-taylor-foundation-for-open-science)**
 * **[Event news](#event-news)**
@@ -30,7 +30,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <div class="card border-info" style="min-width: 13rem; max-width: 15rem">
 <div class="trim-p">
 
-![James Taylor](/src/jxtx/james.jpg)
+![James Taylor](/jxtx/james.jpg)
 
 </div>
 <div class="card-header">Same mission, new name</div>
@@ -42,7 +42,7 @@ The foundation continuing James's legacy of supporting Open Science has been ren
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="trim-p">
 
-![Meet the first class](/src/news/2020-10-jxtx-awardees/awardees-thumb.png)
+![Meet the first class](/news/2020-10-jxtx-awardees/awardees-thumb.png)
 
 </div>
 <div class="card-header trim-p">
@@ -58,7 +58,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 <div class="card border-info" style="min-width: 15rem; max-width: 17rem">
 <div class="trim-p">
 
-![Big shoes to fill](/src/jxtx/jtech-shoes-400.png)
+![Big shoes to fill](/jxtx/jtech-shoes-400.png)
 
 </div>
 <div class="card-header">Help move Open Science forward</div>
@@ -88,7 +88,7 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
 [Galaxy Developer Roundtable: 12 November](/community/devroundtable/)
@@ -103,7 +103,7 @@ There will be one roundtable meetup this month, on **[November 12](/events/2020-
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="trim-p">
 
-![Paper Cuts November](/src/news/2020-10-galaxy-update/irritating.png)
+![Paper Cuts November](/news/2020-10-galaxy-update/irritating.png)
 
 </div>
 <div class="card-header trim-p">
@@ -122,7 +122,7 @@ Please save the date! **It's an ideal opportunity for newcomers to become a Gala
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="trim-p">
 
-![Du Novo Webinar](/src/events/2020-11-du-novo/du-novo-workshop.png)
+![Du Novo Webinar](/events/2020-11-du-novo/du-novo-workshop.png)
 
 </div>
 <div class="card-header trim-p">
@@ -137,7 +137,7 @@ This **November 10 webinar** by Barbara Arbeithuber​ and ​Nick Stoler will p
 
 <!-- Down Under -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
 <div class="card-header">Whats Up Down Under?</div>
 
 Three Galaxy Australia events are being offered by in November:
@@ -151,7 +151,7 @@ Three Galaxy Australia events are being offered by in November:
 
 <!-- GTN -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/gtn-cofests.png" alt="Galaxy Training Network day - (online) CoFest and community call" />
+<img class="card-img-top" src="/images/galaxy-logos/gtn-cofests.png" alt="Galaxy Training Network day - (online) CoFest and community call" />
 <div class="card-header trim-p">
 
 [Galaxy Training Network Day: CoFest and community call](/events/2020-11-gtn/)
@@ -166,7 +166,7 @@ A [dedicated day of collaborative work](/events/2020-11-gtn/) on the training co
 
 <!-- DDA and DIA -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/vib-training.png" alt="VIB Training" />
+<img class="card-img-top" src="/images/logos/vib-training.png" alt="VIB Training" />
 <div class="card-header trim-p">
 
 [DDA and DIA proteomic analysis in Galaxy](https://training.vib.be/all-trainings/dda-and-dia-proteomic-analysis-galaxy)
@@ -182,7 +182,7 @@ This hands-on workshop will familiarize you with the Galaxy user interface & exe
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="trim-p">
 
-![Sponsors](/src/events/2020-12-tools-hack/event-sponsors.png)
+![Sponsors](/events/2020-12-tools-hack/event-sponsors.png)
 
 </div>
 <div class="card-header trim-p">
@@ -200,7 +200,7 @@ Un Hackathon pour partager des compétences en terme du développement logiciel 
 
 <!--Galaxy Admin Training -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
+<img class="card-img-top" src="/images/galaxy-logos/admin-training-logo.jpg" alt="Admin Training" />
 <div class="card-header trim-p">
 
 [Galaxy Admin Training: January 2021](/events/2021-01-admin-training/)
@@ -243,7 +243,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 </div>
 
-<img class="card-img-top" src="/src/use/galaxytrakr/galaxytrakr-logo.jpg" alt="GalaxyTrakr" />
+<img class="card-img-top" src="/use/galaxytrakr/galaxytrakr-logo.jpg" alt="GalaxyTrakr" />
 
 The [GalaxyTrakr server](https://galaxytrakr.org/) is provided by the [US Food and Drug Administration](https://www.fda.gov/) to support food-borne pathogen research worldwide. A [User Guide](https://s3.amazonaws.com/cfsan-genometrakr-docs/user+guide/Galaxy+Genome+Trakr+User+Guide.pdf), [FAQ](https://cfsan-genometrakr-docs.s3.amazonaws.com/user+guide/FAQs+for+GalaxyTrakr.pdf), [Videos](https://www.youtube.com/channel/UCxuzusNRSpnw3qG6dQDDzGw), and [Email support](mailto:GalaxyTrakrSupport_at_fda.hhs.gov) are available.  An account is required and anyone working in public health can apply.
 </div>
@@ -257,7 +257,7 @@ The [GalaxyTrakr server](https://galaxytrakr.org/) is provided by the [US Food a
 
 </div>
 
-<img class="card-img-top" src="/src/images/news-graphics/2019-11-galaxy-africa-logo-slice.png" alt="Galaxy Africa" />
+<img class="card-img-top" src="/images/news-graphics/2019-11-galaxy-africa-logo-slice.png" alt="Galaxy Africa" />
 
 Devoted to assisting researchers on the African continent, accelerate their genomics research and analyses. This [public server](https://africa.usegalaxy.eu/) is configured by the Galaxy Africa team, and hosted by the UseGalaxy.eu team.
 </div>
@@ -302,7 +302,7 @@ Galaxy EU has surpassed 20,000 users!
 
 </div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Talking about UseGalaxy.eu in a blog post or presentation? Galaxy Europe has provided [cool graphics and a fact sheet as well](https://galaxyproject.eu/posts/2020/09/06/branding/). 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
@@ -329,7 +329,7 @@ Leighton reports on the University of Strathclyde's experience teach Advanced Mi
 
 *Spoiler: It went well.*
 
-![SARS in JBrowse](/src/blog/2020-10-teaching-strathclyde/sars-in-jbrowse.jpg)
+![SARS in JBrowse](/blog/2020-10-teaching-strathclyde/sars-in-jbrowse.jpg)
 
 </div>
 
@@ -500,7 +500,7 @@ Development and implementation of a computing platform in a cloud environment wi
 
 **Applications close 14 November.**
 
-<img class="card-img-bottom" src="/src/images/logos/uniba-logo-wide.jpg" alt="Università degli Studi di Bari Aldo Moro" />
+<img class="card-img-bottom" src="/images/logos/uniba-logo-wide.jpg" alt="Università degli Studi di Bari Aldo Moro" />
 </div>
 
 <!-- Roche -->
@@ -519,7 +519,7 @@ Roche, Bay Area, California, United States.
 * Use these tools & workflows for R&D projects.
 * Deploy these tools on Roche intranet (Galaxy) and train scientists to use them.
 
-<img class="card-img-bottom" src="/src/images/logos/roche-logo.png" alt="Roche" />
+<img class="card-img-bottom" src="/images/logos/roche-logo.png" alt="Roche" />
 </div>
 
 <!-- ELIXIR Norway -->
@@ -534,7 +534,7 @@ ELIXIR Norway Team, University of Oslo, Norway.
 
 Join the ELIXIR development / operations team at the University of Oslo (UiO), participating in the development, implementation and operation of functionality for various national and international solutions provided by ELIXIR Norway, including [UseGalaxy.no](/use/usegalaxy-no/) and NeLS.
 
-<img class="card-img-bottom" src="/src/images/logos/UiOLogo.png" alt="University of Oslo" />
+<img class="card-img-bottom" src="/images/logos/UiOLogo.png" alt="University of Oslo" />
 </div>
 
 <!-- AnVIL -->
@@ -549,7 +549,7 @@ Johns Hopkins University, Baltimore, Maryland, United States.
 
 Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. 
 
-<img class="card-img-bottom" src="/src/images/logos/anvil-logo-text.png" alt="AnVIL" />
+<img class="card-img-bottom" src="/images/logos/anvil-logo-text.png" alt="AnVIL" />
 </div>
 
 
@@ -563,7 +563,7 @@ Provide technical expertise and oversight for the [AnVIL Project](http://anvilpr
 
 Help with Galaxy-P tools and workflow development, and general support for Galaxy implementation at the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/).
 
-<img class="card-img-bottom" src="/src/images/logos/minnesota-d2d.png" alt="University of Minnesota" />
+<img class="card-img-bottom" src="/images/logos/minnesota-d2d.png" alt="University of Minnesota" />
 </div>
 
 
@@ -577,7 +577,7 @@ Help with Galaxy-P tools and workflow development, and general support for Galax
 
 The Blankenberg Lab in the Genomic Medicine Institute at the Cleveland Clinic Lerner Research Institute is searching for Software Engineers and Postdoctoral Fellows. We utilize high-throughput omics technologies, such as Next-Generation Sequencing, and data-intensive computing to explore biomedical research questions.
 
-<img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
+<img class="card-img-bottom" src="/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
 </div>
 
 
@@ -593,7 +593,7 @@ A 3-year position of genomic data analyst is available to work within the "COlla
 
 The project is funded by the Institut National de Recherche sur le Cancer (INCA) and the Fight Kids Cancer programme. It involves 10 participant teams across France, with clinical or fundamental approaches.
 
-<img class="card-img-bottom" src="/src/use/mississippi/artbio-ibps-logo.png" alt="ARTbio" />
+<img class="card-img-bottom" src="/use/mississippi/artbio-ibps-logo.png" alt="ARTbio" />
 </div>
 
 
@@ -609,7 +609,7 @@ The Schatz Lab at Johns Hopkins University is looking for:
 * Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
 * Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 
-<img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
+<img class="card-img-bottom" src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
 </div>
 
 </div>
@@ -634,7 +634,7 @@ It provides realtime XML validation, code completion, help/documentation and oth
 
 The Galaxy Tools Visual Studio Code extension that uses the Galaxy Language Server can be downloaded from the [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
 
-<a href="/src/images/screencast-frame/galaxy_language_server.gif"><img class="card-img-bottom" src="/src/images/screencast-frame/galaxy_language_server.gif" alt="Galaxy Language Server " /></a>
+<a href="/images/screencast-frame/galaxy_language_server.gif"><img class="card-img-bottom" src="/images/screencast-frame/galaxy_language_server.gif" alt="Galaxy Language Server " /></a>
 </div>
 
 </div>
@@ -654,7 +654,7 @@ The Galaxy Tools Visual Studio Code extension that uses the Galaxy Language Serv
 
 A group of Freiburg researchers provide global, open access to data on the SARS-CoV-2 genome which could hold the key for a new approach to treating the virus.
 
-<img class="card-img-bottom" src="/src/images/logos/uni-freiburg-wide.png" alt="Uni Freiburg" />
+<img class="card-img-bottom" src="/images/logos/uni-freiburg-wide.png" alt="Uni Freiburg" />
 </div>
 
 

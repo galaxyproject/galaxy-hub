@@ -7,7 +7,7 @@ platforms:
     platform_url: "http://github.com/BCIL/Personal-NGS-Cloud"
     platform_text: "miCloud Docker Image"
 summary: "Leverage cloud technologies to provide an easy-to-use streamlined NGS data analysis using local computational hardware"
-image: "/src/images/logos/DockerInGalaxy.png"
+image: "/images/logos/DockerInGalaxy.png"
 comments:
   - "Includes three preconfigured and ready-to-execute NGS pipelines: two for single or paired-end ChIP-Seq data and one for paired-end RNA-Seq data"
   - "miCloud can also provide access to a large selection of ready-to-execute bioinformatics pipelines, available from online Docker repositories such as BioContainers, DockStore, or BioShadock"

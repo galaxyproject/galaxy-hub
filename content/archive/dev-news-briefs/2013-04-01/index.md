@@ -178,7 +178,7 @@ An abstracted interface has been created for the data manager to download, gener
 
 1. New lists of Valid Galaxy Utilities are now available in the tool shed allowing you to inspect more granular contents of repositories.  Lists of tools, custom datatypes, repository dependency definitions and tool dependency definitions are currently available.  The framework supporting this feature will be used to enhance searching the tool shed in a future Galaxy release where you will be able to search the tool shed for any of these galaxy utilities (currently you can only search for tools and workflows).
 
-![](/src/images/news-graphics/2013_04_01_granular-galaxy-utilities.png)
+![](/images/news-graphics/2013_04_01_granular-galaxy-utilities.png)
 
 
 ### Enhancements to existing Tool Shed features
@@ -299,9 +299,9 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 ## GCC2013
 
-<div class='left'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
+<div class='left'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
 
-<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div> 
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div> 
 <br />
 <br />
 <br />

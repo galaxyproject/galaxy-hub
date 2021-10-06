@@ -6,7 +6,9 @@
         <main id="maincontainer" class="container">
             <slot />
         </main>
-        <footer class="static-footer markdown" v-if="$static.footer" v-html="$static.footer.content" />
+        <footer class="static-footer" v-if="$static.footer">
+            <div class="markdown container" v-html="$static.footer.content" />
+        </footer>
     </div>
 </template>
 
@@ -82,14 +84,18 @@ query {
     padding-left: 15px;
 }
 /***** Page sections *****/
+#maincontainer {
+    padding-bottom: 1rem;
+}
 .body-wrapper {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 .static-footer {
     position: absolute;
+    width: 100%;
     bottom: 0;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     padding-bottom: 0.5rem;
 }
 /***** Markdown image sizing *****/

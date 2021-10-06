@@ -23,7 +23,7 @@ We can now provide the files with SRR IDs to NCBI SRA Tools (fastq-dump) to impo
 
 # NCBI SRA sourced fastq data
 
-In these [FASTQ](/src/learn/datatypes/#fastq) data:
+In these [FASTQ](/learn/datatypes/#fastq) data:
 
 * The quality score identifier (+) is sometimes not a match for the sequence identifier (@).
 * The forward and reverse reads may be interlaced and need to be seperated into distinct datasets.

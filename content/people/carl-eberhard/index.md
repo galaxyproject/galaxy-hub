@@ -1,4 +1,4 @@
-<div class='right'>![](/src/images/people/carl.jpg)</div>
+<div class='right'>![](/images/people/carl.jpg)</div>
 
 # Carl Eberherd
 
