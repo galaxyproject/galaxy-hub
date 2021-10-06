@@ -7,7 +7,6 @@ on:
 
 jobs:
   check_links_internal:
-    name: Check Internal Links
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
