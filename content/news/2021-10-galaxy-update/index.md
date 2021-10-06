@@ -38,10 +38,10 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 <div class="card-deck">
 
 <!-- Inbix 2021 & Galaxy India Launch -->
-<div class="card lead border-info" style="min-width: 50%; max-width: 24rem;">
+<div class="card lead border-info" style="min-width: 50%; max-width: 26rem;">
 <div class="trim-p">
 
-![Galaxy India](/images/galaxy-logos/galaxy-india-logo.png)
+![](/images/events/2021-11-inbix/inbix-2021-logo.png)
 
 </div>
 <div class="card-header trim-p">
@@ -64,44 +64,27 @@ Presenters include include
 [Selvaraman Nagamani](https://scholar.google.com/citations?user=aIQz3DkAAAAJ&hl=en), 
 and [Gareth Price](https://qfab.org/team-member/dr-gareth-price). 
 
-Registration will open this month.
-
-<div class="trim-p">
-
-![](/images/events/2021-11-inbix/inbix-2021-logo.png)
+Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioclues members can register for free.
 
 </div>
-</div>
 
 
-<!-- GGSC Misconceptions -->
+<!-- Outreachy -->
 <div class="card lead border-info" style="min-width: 30%; max-width: 18rem;">
 <div class="trim-p">
 
+[![Outreachy](/images/logos/outreachy-logo.svg)](/news/2021-10-outreachy/)
 
 </div>
 <div class="card-header trim-p">
 
-[Participate in the *Galaxy Misconceptions* sub-committee](https://forms.gle/RCN87JEXxAR2srbv7)
+[Galaxy + Outreachy ⇨ Internships!](/news/2021-10-outreachy/)
 
 </div>
 
+Galaxy will be participating in the [December 2021 Outreachy Internship Cohort](https://www.outreachy.org/blog/2021-08-13/december-2021-initial-applications-open/).  [Outreachy](https://www.outreachy.org/) is an internship program for open source communities and non-profits.  Galaxy has [two proposed projects](https://www.outreachy.org/apply/project-selection/#galaxy-community) for this cohort.  
 
-</div>
-
-
-<!-- HUB2 -->
-<div class="card lead border-info" style="min-width: 35%; max-width: 18rem;">
-<div class="trim-p">
-
-![Powered by Gridsome](/images/logos/gridsome-green-wide.png)
-
-</div>
-<div class="card-header">
-New Galaxy Community Hub Implementation
-</div>
-
-
+Interested in helping? See the [announcement](news/2021-10-outreachy/) for details on what you can do (starting today).
 
 </div>
 
@@ -136,17 +119,17 @@ New Galaxy Community Hub Implementation
 
 </div>
 
-The [Galaxy Career Center](/careers/index.md) lists any open Galaxy related positions that we know about.  Currently there are openings at
+Two new positions were listed in the [Galaxy Career Center](/careers/index.md) recently. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
 
+* HelmholtzZentrum München, Germany
+* Tufts University in Massachusetts
 * Sciensano in Belgium
-* GSK in Italy
 * NEB in Massachusetts, US
 * GalaxyWorks in the US
 * Cleveland Clinic in Ohio, US
 * Johns Hopkins University in Maryland, US
 
 </div>
-
 
 </div>
 
