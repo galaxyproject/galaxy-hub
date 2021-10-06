@@ -1,6 +1,6 @@
 ---
 title: RNAseq - an introduction
-redirect: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rb-rnaseq/tutorial.html"
+# redirect: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rb-rnaseq/tutorial.html"
 ---
 # RNAseq: Reference-based
 
@@ -374,7 +374,7 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 #### Getting *Drosophila malanogaster* gene annotation from UCSC
 
 >Select **UCSC Main** from **Get Data** section of the menu. Within the UCSC Genome Browser interface set parameters as shown below. In particular make sure that **assembly** is set ti `dm3` and **output format** is set to `GTF`. Click **get output**.
->[![](./ucsc_dm3.png)](./ucsc_dm3.png)
+>![](./ucsc_dm3.png)
 >
 >This [GTF](http://www.ensembl.org/info/website/upload/gff.html) dataset will be used one of the input for HTseq-count.
 
