@@ -1,6 +1,6 @@
 ---
 title: RNAseq - an introduction
-# redirect: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rb-rnaseq/tutorial.html"
+redirect: "https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rb-rnaseq/tutorial.html"
 ---
 # RNAseq: Reference-based
 
