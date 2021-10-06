@@ -1,7 +1,7 @@
 ---
 title: "Bioinformatician"
 date: "2021-07-09"
-closes: ""
+closes: "2021-10-05"
 summary: "Development and maintenance of bioinformatics analysis pipelines to continuously improve the bioinformatics support available at GSK as well as to provide creative solutions to a wide variety of biological big data challenges using a variety of environments (incl. Linux, Galaxy, DNA-Nexus or any relevant scripting language) for omics analysis."
 continent: EU
 location: "GSK, Siena, Italy"
