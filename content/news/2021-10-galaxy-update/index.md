@@ -266,7 +266,8 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 ![usegalaxy-dot-star](/images/galaxy-logos/usegalaxy-dot-star-white.png)
 
-* [New high memory computers fast-track insights into large genomes](https://www.biocommons.org.au/news/galaxy-aus-high-memory-test) at Galaxy Australia
+* [New high memory computers fast-track insights into large genomes](https://www.biocommons.org.au/news/galaxy-aus-high-memory-test) at Galaxy Australia.
+* [The FTP server on UseGalaxy.eu has been upgraded](https://galaxyproject.eu/posts/2021/10/05/ftp-server-update/), providing more space and accepting only encrypted connections (TLS).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
 </div>
