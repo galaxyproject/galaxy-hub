@@ -38,10 +38,10 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 <div class="card-deck">
 
 <!-- Inbix 2021 & Galaxy India Launch -->
-<div class="card lead border-info" style="min-width: 50%; max-width: 26rem;">
+<div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
 <div class="trim-p">
 
-![](/images/events/2021-11-inbix/inbix-2021-logo.png)
+![](/images/galaxy-logos/galaxy-india-logo.png)
 
 </div>
 <div class="card-header trim-p">
@@ -70,7 +70,7 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioc
 
 
 <!-- Outreachy -->
-<div class="card lead border-info" style="min-width: 30%; max-width: 18rem;">
+<div class="card lead border-info" style="min-width: 24%; max-width: 24rem;">
 <div class="trim-p">
 
 [![Outreachy](/images/logos/outreachy-logo.svg)](/news/2021-10-outreachy/)
@@ -90,7 +90,7 @@ Interested in helping? See the [announcement](news/2021-10-outreachy/) for detai
 
 
 <!-- ELIXIR-Galaxy Community -->
-<div class="card lead border-info" style="min-width: 35%; max-width: 20rem;">
+<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
 <div class="trim-p">
 
 ![elixir](/images/logos/ElixirNoTextLogo.png)
@@ -102,12 +102,11 @@ Interested in helping? See the [announcement](news/2021-10-outreachy/) for detai
 
 </div>
 
-
 </div>
 
 
 <!-- hiring -->
-<div class="card lead border-info" style="min-width: 30%; max-width: 18rem;">
+<div class="card lead border-info" style="min-width: 22%; max-width: 24rem;">
 <div class="trim-p">
 
 ![Galaxy is Expanding](/images/GalaxyIsExpandingCloud.png)
@@ -141,7 +140,7 @@ See all [upcoming events here](/events/index.md):
 <div class="card-deck">
 
 <!-- covid workshop -->
-<div class="card border-info" style="min-width: 20%; max-width: 18rem;">
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
 
 ![SARS-CoV-2 Data Analysis and Monitoring with Galaxy](/images/news-graphics/gtn-covid-stripe.jpeg)
@@ -163,7 +162,7 @@ Registration will open soon, stay tuned!
 
 
 <!-- Analyse avancée de séquences -->
-<div class="card border-info" style="min-width: 30%; max-width: 18rem;">
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
 
 ![Analyse avancée de séquences](/images/logos/igbc-cgfb.png)
@@ -185,7 +184,7 @@ Registration will open soon, stay tuned!
 
 
 <!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 20%; max-width: 18rem;">
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
 
 ![roundtable](/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png)
@@ -197,16 +196,15 @@ Registration will open soon, stay tuned!
 
 </div>
 
-Galaxy Developer Round Table meetups in September are:
+The Galaxy Developer Round Table meetup in October is:
 
-* **[October 14: TBD](/events/2021-10-14-dev-roundtable/)**
-* **[October 28: TBD](/events/2021-10-28-dev-roundtable/)**
+**[October 28: Imaging tools and pain points and lessons learnt during development and Galaxy deployment](/events/2021-10-28-dev-roundtable/)**, led by Yi Sun of EMBL.
 
-As you can see, we still [need volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
+We are [seeking volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent) at future roundtables.
 </div>
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 30%; max-width: 24rem;">
+<div class="card border-info" style="min-width: 35%; max-width: 20rem;">
 <div class="trim-p">
 
 ![October Papercuts](/images/galaxy-logos/papercuts.png)
@@ -214,7 +212,7 @@ As you can see, we still [need volunteers (like you!) to lead the discussion on 
 </div>
 <div class="card-header trim-p">
 
-[October Papercuts](/events/2021-10-papercuts/index.md)
+[October Papercuts](/events/2021-10-papercuts/)
 
 </div>
 
@@ -227,6 +225,28 @@ This month the [Spanish GTN community](https://training.galaxyproject.org/archiv
 We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
 
 </div>
+
+<!-- Fun Micro -->
+<div class="card border-info" style="min-width: 35%; max-width: 20rem;">
+<div class="trim-p">
+
+![Analysis of Functions Expressed by Microbiomes](/images/events/2021-11-microbiomes/sponsors-hosts-wide.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Analysis of Functions Expressed by Microbiomes](/events/2021-11-microbiomes/home/)
+
+</div>
+
+**15-24 November, Online, India.  Apply by 17 October.**
+
+Microbiome experts and instructors from the Galaxy community will lead this online course on microbiome analysis via interactive resources.  Presenters include Sanjeev Khosla, Anshu Bhardwaj, Manoj Kumar, Robert Hettich, Pratik Jagtap, Dave Clements, Subina Mehta, Saskia Hiltemann, and many, many more.
+
+**[Apply now](http://tinyurl.com/funmicro).**
+
+</div>
+
 </div>
 
 
