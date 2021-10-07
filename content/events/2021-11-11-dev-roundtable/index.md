@@ -14,7 +14,7 @@ contact: "TBD"
 
 *Have something you want to talk about at a roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).*
 
-Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20211111T12&p1=179&ah=1)) for an open discussion about ...
+Please <a href="https://psu.zoom.us/j/92752763386">join us</a> at Noon, US Eastern time (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20211111T12&p1=179&ah=1">see in your timezone</a>) for an open discussion about ...
 
 ---
 

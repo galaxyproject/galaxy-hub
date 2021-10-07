@@ -34,10 +34,9 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
   * Leaders: 
 * **[2021-11-11: TBD ](/events/2021-11-11-dev-roundtable/)**
   * Leaders: 
-* **[2021-10-28: TBD ](/events/2021-10-28-dev-roundtable/)**
-  * Leaders: 
-* **[2021-10-14: TBD ](/events/2021-10-14-dev-roundtable/)**
-  * Leaders: 
+* **[2021-10-28: Image analysis in Galaxy - pain points and lessons learnt](/events/2021-10-28-dev-roundtable/)**
+  * Leaders: Yi Sun, Jean-Karim Heriche
+* 2021-10-14: No meeting
 * 2021-09-30: No meeting
 * 2021-09-16: No meeting
 * 2021-09-02: No meeting
