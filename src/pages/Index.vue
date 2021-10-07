@@ -16,18 +16,42 @@
             <div class="row">
                 <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
                 <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :items="latest.events" />
-                <HomeCard :insert="inserts.twitter" />
+                <HomeCard
+                    :title="inserts.twitter.title"
+                    :link="inserts.twitter.link"
+                    :icon="inserts.twitter.icon"
+                    :content="inserts.twitter.content"
+                />
             </div>
 
             <div class="row">
-                <HomeCard :insert="inserts.videos" />
+                <HomeCard
+                    :title="inserts.videos.title"
+                    :link="inserts.videos.link"
+                    :icon="inserts.videos.icon"
+                    :content="inserts.videos.content"
+                    :items="inserts.videos.items"
+                />
                 <HomeCard title="Blog" link="/blog/" icon="fas fa-pencil-alt" :items="latest.blog" />
                 <HomeCard title="Careers" link="/careers/" icon="fas fa-user-astronaut" :items="latest.careers" />
             </div>
 
             <div class="row">
-                <HomeCard :insert="inserts.platforms" />
-                <HomeCard :insert="inserts.pubs" :width="8" />
+                <HomeCard
+                    :title="inserts.platforms.title"
+                    :link="inserts.platforms.link"
+                    :icon="inserts.platforms.icon"
+                    :content="inserts.platforms.content"
+                    :items="inserts.platforms.items"
+                />
+                <HomeCard
+                    :title="inserts.pubs.title"
+                    :link="inserts.pubs.link"
+                    :icon="inserts.pubs.icon"
+                    :content="inserts.pubs.content"
+                    :items="inserts.pubs.items"
+                    :width="8"
+                />
             </div>
         </section>
 

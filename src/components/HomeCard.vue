@@ -1,51 +1,27 @@
 <template>
-    <div :class="['pseudo-card', `col-sm-${attrs.width}`]">
+    <div :class="['pseudo-card', `col-sm-${width}`]">
         <h2>
-            <g-link :to="attrs.link"><span :class="`icon ${attrs.icon}`"></span>{{ attrs.title }}</g-link>
+            <g-link :to="link"><span :class="`icon ${icon}`"></span>{{ title }}</g-link>
         </h2>
-        <ItemListBrief v-for="(item, i) in attrs.items" :key="item.id || i" :item="item" />
-        <div class="markdown content" v-if="attrs.content" v-html="attrs.content" />
+        <ItemListBrief v-for="(item, i) in items" :key="item.id || i" :item="item" />
+        <div class="markdown content" v-if="content" v-html="content" />
     </div>
 </template>
 
 <script>
 import ItemListBrief from "@/components/ItemListBrief";
-const PROPS = {
-    insert: { type: Object, required: false },
-    title: { type: String, required: false },
-    link: { type: String, required: false },
-    icon: { type: String, required: false },
-    width: { type: Number, required: false },
-    content: { type: String, required: false },
-    items: { type: Array, required: false },
-};
-// Can't store these in PROPS, or they will always override any value in the insert.
-const DEFAULTS = {
-    width: 4,
-    items: [],
-};
+
 export default {
-    props: PROPS,
     components: {
         ItemListBrief,
     },
-    computed: {
-        attrs() {
-            let attrs = {};
-            for (let name of Object.keys(PROPS)) {
-                if (name === "insert") {
-                    continue;
-                }
-                let value = DEFAULTS[name];
-                if (this[name]) {
-                    value = this[name];
-                } else if (this.insert?.[name]) {
-                    value = this.insert[name];
-                }
-                attrs[name] = value;
-            }
-            return attrs;
-        },
+    props: {
+        title: { type: String, required: false, default: "" },
+        link: { type: String, required: false, default: "" },
+        icon: { type: String, required: false, default: "" },
+        width: { type: Number, required: false, default: 4 },
+        content: { type: String, required: false, default: "" },
+        items: { type: Array, required: false, default: () => [] },
     },
 };
 </script>
