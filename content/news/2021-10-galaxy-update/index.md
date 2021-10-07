@@ -361,17 +361,18 @@ Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. https://doi
 
 <div class="card-deck"> 
 
-<!-- ELIXIR And IFB reports -->
+<!-- New brochure from ELIXIR Germany -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 35%;">
-
 <div class="card-header trim-p">
 
-[Annual reports 2020: ELIXIR and IFB](https://galaxyproject.eu/posts/2021/09/10/reports-ifb-elixir/)
+[New brochure from ELIXIR Germany](https://galaxyproject.eu/posts/2021/10/06/elixir-de-brochure/)
 
 </div>
 
+ELIXIR Germany has published the handout “ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe”.
 
 </div>
+
 
 <!-- SANBI GCC Leadership -->
 <div class="card border-info" style="min-width: 12rem; max-width: 22rem;">
