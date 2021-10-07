@@ -89,19 +89,6 @@ Interested in helping? See the [announcement](news/2021-10-outreachy/) for detai
 </div>
 
 
-<!-- ELIXIR-Galaxy Community -->
-<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
-<div class="trim-p">
-
-![elixir](/images/logos/ElixirNoTextLogo.png)
-
-</div>
-<div class="card-header trim-p">
-
-[Updates from the ELIXIR Galaxy Community](https://galaxyproject.eu/posts/2021/08/24/new-elixir-galaxy-community-website/)
-
-</div>
-
 </div>
 
 
@@ -120,7 +107,7 @@ Interested in helping? See the [announcement](news/2021-10-outreachy/) for detai
 
 Two new positions were listed in the [Galaxy Career Center](/careers/index.md) recently. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
 
-* HelmholtzZentrum München, Germany
+* Helmholtz Zentrum München, Germany
 * Tufts University in Massachusetts
 * Sciensano in Belgium
 * NEB in Massachusetts, US
@@ -220,7 +207,7 @@ We are [seeking volunteers (like you!) to lead the discussion on your favorite t
 
 Please join us for the [CoFest day](/events/2021-10-papercuts/index.md) on October 21 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
-This month the [Spanish GTN community](https://training.galaxyproject.org/archive/2021-06-01/news/2021/05/20/spanish_project_begins.html) will meet to work on the curated tutorials, at 6 pm CEST. Get in touch with [Wendi Bacon](https://training.galaxyproject.org/archive/2021-06-01/hall-of-fame/nomadscientist/) to participate.
+This month the Metabolomics community will meet to work on tools, get in touch with [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame/foellmelanie/) to participate.
 
 We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
 
@@ -250,6 +237,33 @@ Microbiome experts and instructors from the Galaxy community will lead this onli
 </div>
 
 
+<!-- GTÑ -->
+<div class="card border-info" style="min-width: 35%; max-width: 20rem;">
+<div class="trim-p">
+
+![gtñ](gtn-spanish.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Spanscriptomics: Análisis de células únicas con Galaxy](https://galaxyproject.eu/event/2021-10-07-training-spanish/)
+
+</div>
+
+**29-30 November, Online, UK.**
+
+Curso de análisis de células únicas con Galaxy en español.
+
+--
+
+Single-cell workshop in Spanish.
+
+
+</div>
+
+</div>
+
+
 # Galaxy Platforms News
 
 The [Galaxy Platform Directory](/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
@@ -266,7 +280,8 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 ![usegalaxy-dot-star](/images/galaxy-logos/usegalaxy-dot-star-white.png)
 
-* [New high memory computers fast-track insights into large genomes](https://www.biocommons.org.au/news/galaxy-aus-high-memory-test) at Galaxy Australia
+* [New high memory computers fast-track insights into large genomes](https://www.biocommons.org.au/news/galaxy-aus-high-memory-test) at Galaxy Australia.
+* [The FTP server on UseGalaxy.eu has been upgraded](https://galaxyproject.eu/posts/2021/10/05/ftp-server-update/), providing more space and accepting only encrypted connections (TLS).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
 </div>
@@ -298,17 +313,33 @@ The Human Genetics working group focuses on expanding Galaxy’s ability to anal
 
 <div class="card-deck">
 
-<!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
+<!-- Survey GTN -->
 <div class="card border-info" style="min-width: 45%; max-width: 24rem;">
 <div class="trim-p">
-
 
 </div>
 <div class="card-header trim-p">
 
-[Outcomes of the workshop 'SARS-CoV-2 Data Analysis and Monitoring with Galaxy'](https://galaxyproject.eu/posts/2021/08/26/covid-workshop-summary/)
+[Got a minute? Take our survey about Galaxy for training and have your say!](https://training.galaxyproject.org/training-material/news/2021/09/29/survey.html)
 
 </div>
+
+The [Galaxy Training Network](https://training.galaxyproject.org/) would like to get feedback from instructors on the use of Galaxy for training, the preparation needed and the Galaxy Training Material.
+
+</div>
+
+
+<!-- TIaaS feedback -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="card-header trim-p">
+
+[Teaching bioinformatics through blood, mucus and tears](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
+
+</div>
+
+By Tomas Klingström.
+
+Tomas has shared with us his hilarious experience when running a workshop from home. Find out the [whole story](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)!
 
 </div>
 
@@ -332,6 +363,18 @@ Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. https://doi
 
 </div>
 
+<!-- COVID monitoring paper -->
+<div class="card border-info" style="min-width: 14rem; max-width: 28rem;">
+<div class="card-header trim-p">
+
+[Ready-to-use public infrastructure for global SARS-CoV-2 monitoring](https://doi.org/10.1038/s41587-021-01069-1)
+
+</div>
+
+Maier, W., Bray, S., van den Beek, M. et al. Ready-to-use public infrastructure for global SARS-CoV-2 monitoring. *Nat Biotechnol* 39, 1178–1179 (2021). https://doi.org/10.1038/s41587-021-01069-1
+
+</div>
+
 </div>
 
 
@@ -339,18 +382,44 @@ Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. https://doi
 
 <div class="card-deck"> 
 
+<!-- Planemo -->
+<div class="card border-info" style="min-width: 30%; max-width: 22rem;">
+<div class="card-header trim-p">
+
+[Planemo 0.74.7](https://github.com/galaxyproject/planemo/releases/tag/0.74.7)
+
+</div>
+
+Bug fixes and the documentation has been improved in the latest version of Planemo.
+
+* Fix documentation to include `--download_outputs` flag (thanks to
+  `@simonbray`_). `Pull Request 1184`_
+* Select refgenie config based on Galaxy version `Pull Request 1187`_
+* Extend autoupdate subcommand to workflows (thanks to `@simonbray`_). `Pull
+  Request 1151`_
+
+</div>
+
+
 <!-- GLS -->
 <div class="card border-info" style="min-width: 30%; max-width: 22rem;">
 <div class="card-header trim-p">
 
-[Galaxy Language Server 0.6.0](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.6.0)
+[Galaxy Language Server 0.6.1](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.6.1)
 
 </div>
 
-<div class="trim-p">
+This release contains the [Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server) and the [Galaxy Tools Visual Studio Code Extension](https://github.com/galaxyproject/galaxy-language-server/tree/master/client).
 
+The standalone version of the language server is available as a [PyPI package](https://pypi.org/project/galaxy-language-server/).
+
+The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
 </div>
-</div>
+
+
+
+
+
 </div>
 
 
@@ -360,17 +429,18 @@ Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. https://doi
 
 <div class="card-deck"> 
 
-<!-- ELIXIR And IFB reports -->
+<!-- New brochure from ELIXIR Germany -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 35%;">
-
 <div class="card-header trim-p">
 
-[Annual reports 2020: ELIXIR and IFB](https://galaxyproject.eu/posts/2021/09/10/reports-ifb-elixir/)
+[New brochure from ELIXIR Germany](https://galaxyproject.eu/posts/2021/10/06/elixir-de-brochure/)
 
 </div>
 
+ELIXIR Germany has published the handout “ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe”.
 
 </div>
+
 
 <!-- SANBI GCC Leadership -->
 <div class="card border-info" style="min-width: 12rem; max-width: 22rem;">
