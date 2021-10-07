@@ -18,7 +18,7 @@ date: "2021-04-14"
 
 **[2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) will be held 28 June through July 10, and will be [virtual, affordable, and globally accessible](/news/2021-02-gcc-virtual/).**
 
-**[Registration](/news/2021-04-gcc-reg/) and [abstract submission](/news/2021-04-gcc-abstract/) are now open.**
+**[Registration](/news/2021-04-gcc-reg/) and [abstract submission](/news/2021-04-gcc-abstracts/) are now open.**
 
 GCC2021 includes a week of training, a 3 day conference, and a multi-day CollaborationFest.  It is an excellent venue for sharing your work and learning how others are addressing challenges in data-intensive science.
 

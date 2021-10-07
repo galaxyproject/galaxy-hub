@@ -4,7 +4,7 @@ tease: "eResearch Australasia, Translational Medicine, BioHackathon, European Ga
 date: '2018-09-20'
 ---
 
-It occurred to me while I was typing up the [Galaxy Admin Training announcement](/events/2018-09-admin-training-reg/) that there were several other big and upcoming Galaxy events before the end of this year that you may want to look at.  Here are 4 of them:
+It occurred to me while I was typing up the [Galaxy Admin Training announcement](/events/2019-admin-training/) that there were several other big and upcoming Galaxy events before the end of this year that you may want to look at.  Here are 4 of them:
 
 
 **[Galaxy @ eResearch Australia](/events/2018-eresearch/)**
