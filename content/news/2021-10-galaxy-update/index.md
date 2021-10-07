@@ -376,6 +376,18 @@ Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. https://doi
 
 </div>
 
+<!-- COVID monitoring paper -->
+<div class="card border-info" style="min-width: 14rem; max-width: 28rem;">
+<div class="card-header trim-p">
+
+[Ready-to-use public infrastructure for global SARS-CoV-2 monitoring](https://doi.org/10.1038/s41587-021-01069-1)
+
+</div>
+
+Maier, W., Bray, S., van den Beek, M. et al. Ready-to-use public infrastructure for global SARS-CoV-2 monitoring. *Nat Biotechnol* 39, 1178–1179 (2021). https://doi.org/10.1038/s41587-021-01069-1
+
+</div>
+
 </div>
 
 
