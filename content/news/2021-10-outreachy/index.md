@@ -2,7 +2,7 @@
 title: "Galaxy Participating in the December 2021 Outreachy Internship Cohort"
 tease: "Galaxy Community accepted into Outreachy; 2 project proposals open"
 external_url: ""
-date: "2021-10-08"
+date: "2021-10-07"
 ---
 
 <div class="float-right" style="max-width: 16rem;">
@@ -24,7 +24,7 @@ Both projects focus on mentoring and onboarding: one for new communities (think 
 
 <div class="h2">We want your help!</div>
 
-Participants apply for internships by contributing to open source projects during the *[contribution period](https://www.outreachy.org/docs/applicant/#application-period).*  For this cohort, the application period starts today and runs through November 5.  During this time, applicants get in touch with mentors, and *make contributions*.  
+Participants apply for internships by contributing to open source projects during the *[contribution period](https://www.outreachy.org/docs/applicant/#application-period).*  For this cohort, the application period starts October 8 and runs through November 5.  During this time, applicants get in touch with mentors, and *make contributions*.
 
 We have been warned by the EDAM folks (you may have met the EDAM Outreachy interns at GCC2021) to expect a lot of questions and contributions during this time. To avoid overwhelming the main Galaxy communication channels we have set up the [GalaxyProject/Outreachy](https://gitter.im/galaxyproject/Outreachy) room on Gitter.  If you are interested in the two project, or in helping potential interns contribute to Galaxy, then please join us there.
 
