@@ -89,19 +89,6 @@ Interested in helping? See the [announcement](news/2021-10-outreachy/) for detai
 </div>
 
 
-<!-- ELIXIR-Galaxy Community -->
-<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
-<div class="trim-p">
-
-![elixir](/images/logos/ElixirNoTextLogo.png)
-
-</div>
-<div class="card-header trim-p">
-
-[Updates from the ELIXIR Galaxy Community](https://galaxyproject.eu/posts/2021/08/24/new-elixir-galaxy-community-website/)
-
-</div>
-
 </div>
 
 
