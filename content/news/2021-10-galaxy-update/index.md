@@ -220,7 +220,7 @@ We are [seeking volunteers (like you!) to lead the discussion on your favorite t
 
 Please join us for the [CoFest day](/events/2021-10-papercuts/index.md) on October 21 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
-This month the [Spanish GTN community](https://training.galaxyproject.org/archive/2021-06-01/news/2021/05/20/spanish_project_begins.html) will meet to work on the curated tutorials, at 6 pm CEST. Get in touch with [Wendi Bacon](https://training.galaxyproject.org/archive/2021-06-01/hall-of-fame/nomadscientist/) to participate.
+This month the Metabolomics community will meet to work on tools, get in touch with [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame/foellmelanie/) to participate.
 
 We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
 
