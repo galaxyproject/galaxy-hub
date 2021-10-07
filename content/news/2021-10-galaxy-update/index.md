@@ -383,6 +383,25 @@ Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. https://doi
 
 <div class="card-deck"> 
 
+<!-- Planemo -->
+<div class="card border-info" style="min-width: 30%; max-width: 22rem;">
+<div class="card-header trim-p">
+
+[Planemo 0.74.7](https://github.com/galaxyproject/planemo/releases/tag/0.74.7)
+
+</div>
+
+Bug fixes and the documentation has been improved in the latest version of Planemo.
+
+* Fix documentation to include `--download_outputs` flag (thanks to
+  `@simonbray`_). `Pull Request 1184`_
+* Select refgenie config based on Galaxy version `Pull Request 1187`_
+* Extend autoupdate subcommand to workflows (thanks to `@simonbray`_). `Pull
+  Request 1151`_
+
+</div>
+
+
 <!-- GLS -->
 <div class="card border-info" style="min-width: 30%; max-width: 22rem;">
 <div class="card-header trim-p">
@@ -396,8 +415,12 @@ This release contains the [Galaxy Language Server](https://github.com/galaxyproj
 The standalone version of the language server is available as a [PyPI package](https://pypi.org/project/galaxy-language-server/).
 
 The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
-
 </div>
+
+
+
+
+
 </div>
 
 
