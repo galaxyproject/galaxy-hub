@@ -120,7 +120,7 @@ Interested in helping? See the [announcement](news/2021-10-outreachy/) for detai
 
 Two new positions were listed in the [Galaxy Career Center](/careers/index.md) recently. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
 
-* HelmholtzZentrum München, Germany
+* Helmholtz Zentrum München, Germany
 * Tufts University in Massachusetts
 * Sciensano in Belgium
 * NEB in Massachusetts, US
@@ -299,17 +299,18 @@ The Human Genetics working group focuses on expanding Galaxy’s ability to anal
 
 <div class="card-deck">
 
-<!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
+<!-- Survey GTN -->
 <div class="card border-info" style="min-width: 45%; max-width: 24rem;">
 <div class="trim-p">
-
 
 </div>
 <div class="card-header trim-p">
 
-[Outcomes of the workshop 'SARS-CoV-2 Data Analysis and Monitoring with Galaxy'](https://galaxyproject.eu/posts/2021/08/26/covid-workshop-summary/)
+[Got a minute? Take our survey about Galaxy for training and have your say!](https://training.galaxyproject.org/training-material/news/2021/09/29/survey.html)
 
 </div>
+
+The [Galaxy Training Network](https://training.galaxyproject.org/) would like to get feedback from instructors on the use of Galaxy for training, the preparation needed and the Galaxy Training Material.
 
 </div>
 
