@@ -8,7 +8,7 @@ location: "Translational Research Institute (TRI), Woolloongabba, Queensland, Au
 location_url: "https://www.tri.edu.au/"
 external_url: "https://qfab.org/training#NGS_Workshops"
 contact: 'training@qfab.org'
-image: "/src/images/logos/QFABLogo.png"
+image: "/images/logos/QFABLogo.png"
 gtn: true
 ---
 

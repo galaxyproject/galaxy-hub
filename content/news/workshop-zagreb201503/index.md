@@ -9,7 +9,7 @@ date: "2015-02-13"
 </table>
 
 
-<div class='right'><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'><img src="/src/images/logos/IRBLogo300.jpg" alt="Ruđer Bošković Institute (RBI)" width="135" /></a></div>
+<div class='right'><a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'><img src="/images/logos/IRBLogo300.jpg" alt="Ruđer Bošković Institute (RBI)" width="135" /></a></div>
 
 
 This [2-day workshop](http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics) will cover a spread of topics in genomics. The first day will present a set of lectures and the second day will host two hands-on workshop sessions, including ***Introduction to RNA-Seq analysis with Galaxy*** presented by [Enis Afgan](/people/enis-afgan/) & Davor Davidović (RBI).  The event will be offered in English.

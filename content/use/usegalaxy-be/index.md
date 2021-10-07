@@ -8,7 +8,7 @@ platforms:
     platform_text: "ELIXIR Belgium Galaxy Server"
     platform_location: BE
 summary: "General purpose genomics Galaxy server"
-image: "/src/use/usegalaxy-be/usegalaxy-be-logo.png"
+image: "/use/usegalaxy-be/usegalaxy-be-logo.png"
 comments:
   - "A public Galaxy server with an emphasis on serving researchers in Belgium."
   - "[Real time status](https://usegalaxy.be/stats/)"

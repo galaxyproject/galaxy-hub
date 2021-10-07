@@ -4,7 +4,7 @@ tease: "Please join us"
 date: "2019-10-01"
 ---
 
-[<img class="float-right" style="max-width: 24rem" src="/src/news/2019-10-hacktoberfest/hacktoberfest-2019-logo.png" alt="Hacktoberfest Logo" />](https://github.com/galaxyproject/galaxy/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest)
+[<img class="float-right" style="max-width: 24rem" src="/news/2019-10-hacktoberfest/hacktoberfest-2019-logo.png" alt="Hacktoberfest Logo" />](https://github.com/galaxyproject/galaxy/issues?q=is%3Aissue+is%3Aopen+label%3Ahacktoberfest)
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/), the annual drive for global contribution in the growth of open source software has begun. Sign up and make a pull request for documentation, new tools, or contribute to any of the [Galaxy github repositories](https://github.com/galaxyproject/) to earn free github and digitalocean swag.
 Not sure what to contribute? Here are a few suggestions to get you started:

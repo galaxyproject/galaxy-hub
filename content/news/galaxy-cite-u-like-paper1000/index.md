@@ -2,7 +2,7 @@
 title: "1000th Galaxy CiteULike Paper"
 date: "2013-06-06"
 ---
-<div class='right'><a href='/publication-library/'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy CiteULike Group" width="200" /></a></div>
+<div class='right'><a href='/publication-library/'><img src="/images/logos/CiteULikeLogo.png" alt="Galaxy CiteULike Group" width="200" /></a></div>
 
 The 1000<sup>th</sup> Galaxy-related paper was added to the [Galaxy CiteULike group](/publication-library/) today. That paper was:
 

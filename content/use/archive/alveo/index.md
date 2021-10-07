@@ -8,7 +8,7 @@ platforms:
     platform_text: "Alveo Galaxy Server"
     platform_location: AU
 summary: "Human Communication Science (HCS)."
-image: "/src/use/archive/alveo/alveo-logo-w-text.png"
+image: "/use/archive/alveo/alveo-logo-w-text.png"
 comments:
   - "[Alveo](http://alveo.edu.au/about/) is a platform to support research in Human Communication.  The Alveo repository holds large collections of speech, video and text data and provides an API for use by research tools.  Our Galaxy server implements a number of research tools for working with speech and text data and we are exploring how best to adapt tools to this environment.  Current tools allow data to be pulled from the Alveo repository and processed with various text and speech processing methods."
 user_support:

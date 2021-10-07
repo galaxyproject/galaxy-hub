@@ -6,7 +6,7 @@ title: Galaxy Tool Shed contributions
 Note: We stopped producing these monthly reports in mid-2019.  Visits had dropped to about 1 page view per day.
 </div>
 
-[<img class="float-right" src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="180">](http://toolshed.g2.bx.psu.edu/)
+[<img class="float-right" src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="180">](http://toolshed.g2.bx.psu.edu/)
 
 Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu/):
 

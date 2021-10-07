@@ -24,11 +24,11 @@ In order to login to Galaxy using your organization's Okta identity, take the fo
 
 1. Click on the **Login or Register** button:
 
-    ![image](/src/authnz/use/oidc/idps/okta/01.png)
+    ![image](/authnz/use/oidc/idps/okta/01.png)
 
 2. Click on the **Okta** button:
 
-    ![image](/src/authnz/use/oidc/idps/okta/02.png)
+    ![image](/authnz/use/oidc/idps/okta/02.png)
 
     <div class="alert alert-info" role="alert">
         **NOTE:**

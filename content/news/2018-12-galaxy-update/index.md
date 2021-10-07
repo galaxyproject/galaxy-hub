@@ -4,7 +4,7 @@ tease: 'Platforms Directory; new events, pubs, blog posts, servers, tools and re
 date: "2018-12-02"
 ---
 
-[<img class="float-right" src="/src/news/2018-12-galaxy-update/2018-12-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
+[<img class="float-right" src="/news/2018-12-galaxy-update/2018-12-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *December  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
@@ -28,7 +28,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 # Galaxy Help: A new Q&A site for Galaxy
 
-[<img class="float-right" src="/src/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." style="max-width: 200px" />](https://help.galaxyproject.org/)
+[<img class="float-right" src="/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." style="max-width: 200px" />](https://help.galaxyproject.org/)
 
 **We are pleased to announce *[Galaxy Help](https://help.galaxyproject.org/)*, the new Galaxy Community Q&A web site.**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/support/).
 
@@ -44,7 +44,7 @@ Tired of sitting in the same old office/lab/cafe?  Here are some upcoming events
 
 ## 2019 Galaxy Admin Training: Advance Registration Closes Dec 31
 
-[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" style="max-width: 150px" />](/events/2019-admin-training/)
+[<img class="float-right" src="/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" style="max-width: 150px" />](/events/2019-admin-training/)
 
 **[Advanced registration](/events/2019-admin-training/#registration) ends December 31. Register now and avoid the 45 to 60% price increase in the new year.**
 
@@ -52,9 +52,9 @@ Tired of sitting in the same old office/lab/cafe?  Here are some upcoming events
 
 ## Nominate Topics for GCC2019 Training!
 
-[<img class="float-left" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
+[<img class="float-left" src="/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
-The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
+The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be held in be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
 **The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
 
@@ -207,17 +207,17 @@ The [Galaxy Platform Directory](/use/) was launched lat month.  It lists every r
 
 ## BioBix
 
-[<img class="float-left" src="/src/use/biobix/biobix_logo.png" alt="BioBix" />](http://galaxy.ugent.be/)
+[<img class="float-left" src="/use/biobix/biobix_logo.png" alt="BioBix" />](http://galaxy.ugent.be/)
 
 The [BioBix server](http://galaxy.ugent.be/) is a Galaxy genomics server with many of the  "standard" Galaxy tools for genomics. It also includes *PROTEOFORMER* tools. PROTEOFORMER is a proteogenomic pipeline that delineates true in vivo proteoforms and generates a protein sequence search space for peptide to MS/MS matching.  BioBix is hosted by the [Lab of Computational Genomics & Bioinformatics](http://www.biobix.be/) at  Ghent University, Belgium. See the [server description](/use/biobix/) for more details.
 
-[<img class="float-right" src="/src/use/laniakea/laniakea-indigo-datacloud.png" alt="Laniakea / INDIGO-DataCloud" width="250px" />](/use/laniakea/)
+[<img class="float-right" src="/use/laniakea/laniakea-indigo-datacloud.png" alt="Laniakea / INDIGO-DataCloud" width="250px" />](/use/laniakea/)
 
 ## Laniakea / INDIGO-DataCloud
 
 [Laniakea](https://laniakea-elixir-it.github.io/) provides Italy-based researchers the possibility to automate the creation of Galaxy-based virtualized environments through an easy setup procedure, providing an on-demand workspace ready to be used by life scientists and bioinformaticians, with built-in storage encryption for user data.  See the [service description](/use/laniakea/) for full details.
 
-[<img class="float-left" src="/src/images/logos/hardwood-geonomics-logo.jpg" alt="Hardwood Genomics Galaxy Workflows" style="max-width: 80px" />](https://www.hardwoodgenomics.org/content/tripal-galaxy-workflows)
+[<img class="float-left" src="/images/logos/hardwood-geonomics-logo.jpg" alt="Hardwood Genomics Galaxy Workflows" style="max-width: 80px" />](https://www.hardwoodgenomics.org/content/tripal-galaxy-workflows)
 
 ## Hardwood Genomics
 
@@ -260,7 +260,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
+[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
 
 There are two new *[Galactic Blog](/blog/)* entries:
 * **[Galaxy Tool Generator (GTG)](https://galaxy-tool-generator.readthedocs.io/en/latest/)**, by Ming Chen
@@ -269,7 +269,7 @@ There are two new *[Galactic Blog](/blog/)* entries:
 ----
 # Who's Hiring
 
-<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
@@ -287,7 +287,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Scientist (f/m), NGS bioinformatics core facility](https://bms.candibase.de/atool/helmholtz/frontend.php?view=a32a9d6396d8ca063e28db02ea15e3e3&lang=en), Helmholtz Zentrum München, Germany
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
-* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/): distributed computing engineer and a full stack developer; see [this for more details on the positions](https://jobs.jhu.edu/job/Baltimore-Software-Engineer-MD-21218/442289500/, Baltimore, Maryland, United States).
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -302,7 +302,7 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
 
 ## Training Materials
 
-[<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
+[<img class="float-right img-responsive" src="/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
 * New [Basics of Machine Learning Tutorial](https://galaxyproject.github.io/training-material/topics/statistics/tutorials/machinelearning/tutorial.html) by [Anna Syme](https://github.com/annasyme), [Anup Kumar](https://github.com/anuprulez), and [Levi Baber](https://github.com/baberlevi).
 * New [Proteogenomics](https://galaxyproject.github.io/training-material/topics/proteomics/) tutorials by [Subina Mehta](https://github.com/subinamehta)
@@ -337,7 +337,7 @@ And we would especially like to welcome new contributors [Anup Kumar](https://gi
 
 # ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in November 2018](/toolshed/contributions/2018-11/).
 
@@ -348,7 +348,7 @@ New additions to the Galaxy Ecosystem.
 
 ## Planemo 0.57.1
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 

@@ -341,7 +341,7 @@ Several beneficial enhancements have bee added to the support for [defining tool
 
 <br />
 <div class='right'>
-<br /><a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
+<br /><a href='http://usegalaxy.org'><img src="/images/news-graphics/2013_11_04_usegalaxy.org.jpg" alt="usegalaxy.org" width=300 /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
 

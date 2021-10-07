@@ -11,4 +11,4 @@ The tool developers specify these requirements within the [tool definition](/adm
 It is important to understand that the actual version of the tool that will be run after you hit *Execute* on the tool form depends on the configuration of the Galaxy instance and its environment. To be sure what version of the software was actually run you have to check the output dataset in the history - many tools will include the exact version of the software that was run there. 
 
 An example of requirements version information:
-![](/src/tools/requirements/requirement_versions.png)
+![](/tools/requirements/requirement_versions.png)

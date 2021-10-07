@@ -9,7 +9,7 @@ title: Frequently asked questions (FAQs) about Galaxy
 * [Admin/FAQ](/admin/faq/) - Questions about *[administering](/admin/)* your own Galaxy.
 
 <div class='center'>
-<a href='/search/'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Search all Galaxy resources" width="120" /></a>
+<a href='/search/'><img src="/images/galaxy-logos/galaxy-web-search.png" alt="Search all Galaxy resources" width="120" /></a>
 
 [Search all Galaxy resources](/search/)
 </div>

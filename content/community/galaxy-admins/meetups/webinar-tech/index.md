@@ -1,4 +1,4 @@
-<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
 <slot name="/community/galaxy-admins/linkbox" />
 
@@ -15,23 +15,23 @@ If you have headphones they greatly improve your audio and *a headset really hel
 
 A couple of things to mention, when you launch your session - you can tune your connection speed:
 
-![](/src/community/galaxy-admins/meetups/webinar-tech/BlackboardConnectionSpeed.png)
+![](/community/galaxy-admins/meetups/webinar-tech/BlackboardConnectionSpeed.png)
 
 Talking works like a walkie-talkie ... you have to select "Talk" (see capture below) to open up your audio line. There can only be 6 simultaneous talkers.  Please only select the talk button when you need to actually talk to reduce background noise and to free up lines for others to participate.
 
-![](/src/community/galaxy-admins/meetups/webinar-tech/BlackboardTalk.png)
+![](/community/galaxy-admins/meetups/webinar-tech/BlackboardTalk.png)
 
 ## Java Web Start on Mac OS X
 
 <div class='right solid'>
 <table>
   <tr>
-    <td style=" border: none;"> <img src="/src/images/logos/AppleLogo.jpg" alt="" height="50" /> +<img src="/src/images/logos/JavaLogo.png" alt="" height="50" /> </td>
-    <td style=" border:none;"> = <img src="/src/images/icons/Frown.jpg" alt="" width="50" /> </td>
+    <td style=" border: none;"> <img src="/images/logos/AppleLogo.jpg" alt="" height="50" /> +<img src="/images/logos/JavaLogo.png" alt="" height="50" /> </td>
+    <td style=" border:none;"> = <img src="/images/icons/Frown.jpg" alt="" width="50" /> </td>
   </tr>
   <tr>
-    <td style=" border: none;"> <img src="/src/images/logos/AppleLogo.jpg" alt="" height="50" /> + <img src="/src/images/logos/JavaLogo.png" alt="" height="50" /> + <img src="/src/images/icons/PointingFinger.png" alt="You" width="50" /> </td>
-    <td style=" border:none;"> = <img src="/src/images/icons/Smile.png" alt="" width="50" /> </td>
+    <td style=" border: none;"> <img src="/images/logos/AppleLogo.jpg" alt="" height="50" /> + <img src="/images/logos/JavaLogo.png" alt="" height="50" /> + <img src="/images/icons/PointingFinger.png" alt="You" width="50" /> </td>
+    <td style=" border:none;"> = <img src="/images/icons/Smile.png" alt="" width="50" /> </td>
   </tr>
 </table>
 
@@ -55,7 +55,7 @@ These two situations are known to be fixed with this solution:
 
   `Java Web Start splash screen process exiting .....`
 
-<div class='right'><img src="/src/community/galaxy-admins/meetups/webinar-tech/BlackboardHang1.png" alt="Blackboard Hang" width="300" /></div>
+<div class='right'><img src="/community/galaxy-admins/meetups/webinar-tech/BlackboardHang1.png" alt="Blackboard Hang" width="300" /></div>
 
   `Bad installation. No JRE found in configuration file`
 

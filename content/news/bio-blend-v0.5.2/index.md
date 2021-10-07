@@ -6,7 +6,7 @@ date: "2014-10-17"
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
-<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="200" /></a></div>
 
 * [BioBlend.objects](http://bioinformatics.oxfordjournals.org/content/30/19/2816.abstract): enable email & password authorization
 * Enable ToolShed tar ball uploads
@@ -22,4 +22,4 @@ See the [commit messages](https://github.com/afgane/bioblend/compare/d8925715a5a
 
 Enjoy and please let us know what you think,
 
-[Enis](/people/enis-afgan/) & [John](/people/john-chilton/) & Simone Leo & Nicola Soranzo & [The Galaxy Team](/src/galaxy-team/)
+[Enis](/people/enis-afgan/) & [John](/people/john-chilton/) & Simone Leo & Nicola Soranzo & [The Galaxy Team](/galaxy-team/)

@@ -6,7 +6,7 @@ date: "2020-06-27"
 ---
 
 <div class="float-right">
-<img  src="/src/images/logos/bof-birds.png" alt="BoF proposals due July 10" style="max-width: 10rem" /><br />
+<img  src="/images/logos/bof-birds.png" alt="BoF proposals due July 10" style="max-width: 10rem" /><br />
 <div class="small float-right"></div>
 </div>
 

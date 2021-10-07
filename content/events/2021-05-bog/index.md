@@ -9,7 +9,7 @@ location_url: "https://meetings.cshl.edu/meetings.aspx?meet=GENOME&year=21"
 external_url: ""
 gtn: false
 contact: "Anton Nekrutenko, Michael Schatz"
-image: "/src/images/logos/CSHLLogo.jpg"
+image: "/images/logos/CSHLLogo.jpg"
 ---
 
 Two Galaxy PIs will present large-scale Galaxy efforts during poster sessions at the [2021 Biology of Genomes](https://meetings.cshl.edu/abstracts.aspx?meet=GENOME&year=21) conference:

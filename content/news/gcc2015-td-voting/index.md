@@ -9,7 +9,7 @@ date: "2015-01-19"
 </table>
 
 
-<div class='right'><a href='http://gcc2015.tsl.ac.uk/training-day/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Training Day" width="170" /></a></div>
+<div class='right'><a href='http://gcc2015.tsl.ac.uk/training-day/'><img src="/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Training Day" width="170" /></a></div>
 
 What topics should be offered at the [GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/)?
 

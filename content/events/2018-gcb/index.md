@@ -4,7 +4,7 @@ date: '2018-09-25'
 days: 4
 continent: EU
 location: "German Conference on Bioinformatics (GCB), University of Vienna, Vienna, Austria"
-image: "/src/events/2018-gcb/gcb-2018-wide.png"
+image: "/events/2018-gcb/gcb-2018-wide.png"
 location_url: "https://gcb2018.csb.univie.ac.at/"
 external_url: 
 contact: "Presenters"

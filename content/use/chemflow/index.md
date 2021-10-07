@@ -8,7 +8,7 @@ platforms:
     platform_text: "ChemFlow"
     platform_location: FR
 summary: "Chemometrics without programming: infrared spectrometry on a Galaxy platform."
-image: "/src/use/chemflow/chemflow-logo.png"
+image: "/use/chemflow/chemflow-logo.png"
 comments:
   - "A free online analytical pipeline for developing chemometric approaches."
   - "Chemometrics is a collection of tools for extracting information from spectral data. The methods are essentially linear, with regressions, discriminant analyzes, unsupervised classifications, spectral decompositions, multi-array-multipath methods, plus pretreatments. Many applications focus on the near infrared. Its complementarity with the [Chemoocs mooc on France Digital University](https://www.fun-mooc.fr/) guarantees the correct use of chemometrics tools."

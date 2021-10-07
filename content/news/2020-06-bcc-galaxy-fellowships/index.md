@@ -6,7 +6,7 @@ date: "2020-06-28"
 ---
 
 <div class="float-right">
-<img  src="/src/images/galaxy-logos/galaxy-fellowships.png
+<img  src="/images/galaxy-logos/galaxy-fellowships.png
 " alt="Fellowship applications due July 10" style="max-width: 15rem" /><br />
 </div>
 

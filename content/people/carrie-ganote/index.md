@@ -1,7 +1,7 @@
 ---
 title: Carrie Ganote
 ---
-<div class='right'><img src="/src/images/people/CarrieGanote.jpg" alt="Carrie Ganote" width="120" /></div>
+<div class='right'><img src="/images/people/CarrieGanote.jpg" alt="Carrie Ganote" width="120" /></div>
 
 Carrie Ganote is a Bioinformatics Analyst at the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) in the [Pervasive Technology Institute](https://pti.iu.edu/) at [Indiana University Bloomington](http://www.iu.edu/).
 

@@ -3,7 +3,7 @@ title: 'Apply for a GCC2019 Fellowship'
 tease: 'Apply soon...'
 date: '2019-04-11'
 ---
-[<img class="float-right" src="/src/events/gcc2019/gcc2019-logo-213.png" alt='Apply for a GCC2019 travel fellowship' />](/events/gcc2019/)
+[<img class="float-right" src="/events/gcc2019/gcc2019-logo-213.png" alt='Apply for a GCC2019 travel fellowship' />](/events/gcc2019/)
 
 [GCC2019](/events/gcc2019/) will be held 1-8 July in Freiburg, Germany.  GCC is a great opportunity to discuss your research with others that are working in and facing similar challenges in data-intenisve life science research.  *But only if you can get there.*
 

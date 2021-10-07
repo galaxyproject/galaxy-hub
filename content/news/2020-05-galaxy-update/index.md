@@ -8,7 +8,7 @@ date: "2020-05-04"
 
 # From the editor
 
-[<img class="float-right" src="/src/jxtx/i-love-you-so-much.jpg" alt="I love you so much"  style="max-width: 30rem;" />](/src/jxtx/i-love-you-so-much.jpg)
+[<img class="float-right" src="/jxtx/i-love-you-so-much.jpg" alt="I love you so much"  style="max-width: 30rem;" />](/jxtx/i-love-you-so-much.jpg)
 
 This is our first newsletter since January. It has been an eventful and sorrowful four months for the world, and for the Galaxy Community too: *This newsletter starts with the [tragic loss of James Taylor](#james-peter-taylor-1979-2020), one of Galaxy's founders and leaders.*  We lost James at the beginning of April. This community, I suspect, will always feel that loss.
 
@@ -23,7 +23,7 @@ Dave Clements, on behalf of the Galaxy Community
 
 # In the May 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * **[James Peter Taylor](#james-peter-taylor-1979-2020)**, 1979-2020
 * **[BCC2020](#bcc2020-will-be-online-global-affordable-and-accessible) will be online, global, affordable, and accessible**
@@ -44,7 +44,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # James Peter Taylor, 1979-2020
 
-[<img class="float-right" src="/src/jxtx/james-and-alvey.png" alt="James and Alvey"  style="max-width: 15rem;" />](/jxtx/)
+[<img class="float-right" src="/jxtx/james-and-alvey.png" alt="James and Alvey"  style="max-width: 15rem;" />](/jxtx/)
 
 James Taylor, one of the founders and leaders of the Galaxy Project died of natural causes on April 2.  One day he was online tweeting about open access to data, and the next day he was not.  News of his passing spread around the world, and the response has been overwhelming.
 
@@ -63,28 +63,28 @@ We miss you James.
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
+<img class="card-img-top" src="/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
 <div class="card-header">[BOSC + GCC = BCC2020](https://bcc2020.github.io/)</div>
 
 The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/gcc/).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/events/bcc2020/opening-laptop.jpg" alt="BCC2020 is online" />
+<img class="card-img-top" src="/events/bcc2020/opening-laptop.jpg" alt="BCC2020 is online" />
 <div class="card-header">[BCC2020 is Online](https://bcc2020.github.io/blog/going-virtual)</div>
 
 All BCC2020 events [will be held online](https://bcc2020.github.io/blog/going-virtual).  Training will be live and interactive.  The meeting will feature keynotes, accepted talks, lightning talks, posters, demos, and birds-of-a-feather and other networking opportunities.  Talks (with the possible exception of keynotes) will be pre-recorded.  Posters, demos, and BoFs will be live and interactive.  The CoFest will also be live and interactive.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/events/bcc2020/maps-math.png" alt="BCC2020 is Global" />
+<img class="card-img-top" src="/events/bcc2020/maps-math.png" alt="BCC2020 is Global" />
 <div class="card-header">[BCC2020 is Global](https://bcc2020.github.io/blog/going-global)</div>
 
 [BCC2020 events will be held twice](https://bcc2020.github.io/blog/going-global): once in the [originally scheduled Toronto time zone (BCC West/Americas)](https://bcc2020.sched.com/overview/area/West%3A+Americas), and then [again 12 hours later in the Eastern hemisphere (BCC East/Asia-Australia)](https://bcc2020.sched.com/overview/area/East%3A+Asia+%26+Australia).  Training will differ between East and West, with enrollment open to all, regardless of where you are. The main conference content will be presented in both East and West.  We are striving to have the CoFest run continuously, with participants from every part of the world.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/events/bcc2020/affordable-slice.png" alt="BCC2020 is Affordable" />
+<img class="card-img-top" src="/events/bcc2020/affordable-slice.png" alt="BCC2020 is Affordable" />
 <div class="card-header">[BCC2020 is Affordable](https://bcc2020.github.io/Registration/)</div>
 
 We have slashed [registration rates for BCC2020](https://bcc2020.github.io/Registration/), and are offering even larger discounts to participants based in low and lower-middle income countries.  Pricing starts at US$3 per training session, and $12 for the 3 day meeting.  The CoFest is free.
@@ -98,7 +98,7 @@ Going online and global, combined with the low registration rates this enables, 
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/events/bcc2020/keynotes-banner.png" alt="Keynote speakers" />
+<img class="card-img-top" src="/events/bcc2020/keynotes-banner.png" alt="Keynote speakers" />
 <div class="card-header">[Keynotes Announced](https://bcc2020.github.io/blog/keynotes/)</div>
 
 We are pleased to announce that **Abigail Cabunoc Mayes** of the Mozilla Foundation, and **Lincoln Stein** of OICR will be keynote speakers at BCC2020.
@@ -106,7 +106,7 @@ We are pleased to announce that **Abigail Cabunoc Mayes** of the Mozilla Foundat
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/events/bcc2020/may-8.png" alt="Abstracts due May 8" />
+<img class="card-img-top" src="/events/bcc2020/may-8.png" alt="Abstracts due May 8" />
 <div class="card-header">[Abstracts due May 8](https://bcc2020.github.io/submit/)</div>
 
 BCC2020 is seeking oral presentations, lightning talks, posters, and demos, from researchers working in bioinformatics, and all over the world.  Abstracts are due May 8 (and that deadline will not be extended). Please [submit your work](https://bcc2020.github.io/submit/) today.
@@ -166,7 +166,7 @@ Computational analyses using protein-ligand docking to identify potentially inhi
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/images/logos/tacc-logo.png" alt="TACC" />
+<img class="card-img-top" src="/images/logos/tacc-logo.png" alt="TACC" />
 <div class="card-header">[COVID-19 Analysis Performed With Galaxy Bioinformatics Platform](https://www.tacc.utexas.edu/-/covid-19-analysis-performed-with-galaxy-bioinformatics-platform)</div>
 
 The [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) provides large-scale compute infrastructure for the analysis of thousands of genomes, [including Galaxy's work on SARS-CoV-2](https://www.tacc.utexas.edu/-/covid-19-analysis-performed-with-galaxy-bioinformatics-platform).
@@ -196,7 +196,7 @@ This new Galaxy Training Network tutorial from [Wolfgang Maier](https://training
 
 
 <div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
-<img class="card-img-top" src="/src/use/laniakea/laniakea_logo_def_white_background.png" alt="Laniakea" />
+<img class="card-img-top" src="/use/laniakea/laniakea_logo_def_white_background.png" alt="Laniakea" />
 <div class="card-header">[Laniakea SARS-CoV-2 flavour available](https://laniakea-elixir-it.github.io/2020/03/27/covid19-docker-flavor.html)</div>
 
 A Galaxy Covid-19 flavour is now available in Laniakea, as a Docker Container. It is based on the GalaxyProject covid-19 analysis and it is continuously updated. Due to the current Covid-19 outbreak, the flavour is made available to Laniakea users without the usual test routine. 
@@ -204,7 +204,7 @@ A Galaxy Covid-19 flavour is now available in Laniakea, as a Docker Container. I
 
 
 <div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia" />
 <div class="card-header">[Galaxy Australia on Nimbus Cloud](https://pawsey.org.au/covid19announcement/)</div>
 
 Galaxy Australia relies on distributed deployments using Pulsar to increase the range and number of jobs that can be run on the service. The team has been allocated resources on the Nimbus cloud to deploy a dedicated COVID-19 Pulsar as part of Galaxy Australia at the Pawsey Centre that allows Galaxy users to rapidly analyse their data on published tools/workflows to further research into SARS-CoV-2.
@@ -220,7 +220,7 @@ The coronavirus outbreak has impacted BCC2020, and just about every other event 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
+<img class="card-img-top" src="/images/logos/elixir-logo-big-wide.png" alt="Galaxy-ELIXIR webinar series" />
 <div class="card-header">[Galaxy-ELIXIR webinar series](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19)</div>
 
 **FAIR data and Open Infrastructures to tackle the COVID-19 pandemic**
@@ -236,7 +236,7 @@ The first session was held on 30 April.  Subsequent sessions are
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/sgci-logo-trans-big.png" alt="Galaxy @ SGCI" />
+<img class="card-img-top" src="/images/logos/sgci-logo-trans-big.png" alt="Galaxy @ SGCI" />
 <div class="card-header">Galaxy on SGCI Webinars</div>
 
 Want to learn the Galaxy community and platform big picture?  Attend the next two [Scientific Gateways Community Institute webinars](https://sciencegateways.org/engage/webinars):
@@ -293,7 +293,7 @@ By Michael Thompson.
 
 Michael Thompson of Kwame Nkrumah University of Science and Technology (K.N.U.S.T) describes his experience at the 2020 Galaxy Admin Training in Barcelona.
 
-<img class="card-img-bottom" src="/src/events/2020-03-admin/2020-galaxy-admin-participants.jpg" alt="Galaxy Admin 2020 Participants" />
+<img class="card-img-bottom" src="/events/2020-03-admin/2020-galaxy-admin-participants.jpg" alt="Galaxy Admin 2020 Participants" />
 </div>
 
 
@@ -319,16 +319,16 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card border-info"  style="min-width: 16rem;">
 <div class="card-header">[CLIMB becomes CLIMB-BIG-DATA](https://quadram.ac.uk/funding-boost-for-cloud-computing-supporting-microbial-bioinformatics/)</div>
 
-<img class="card-img-top" src="/src/images/logos/mrc-climb-logo.png" alt="MRC CLIMB" />
+<img class="card-img-top" src="/images/logos/mrc-climb-logo.png" alt="MRC CLIMB" />
 
 The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) has been [renewed as the CLIMB-BIG-DATA project](https://www.climb.ac.uk/proud-to-announce-climb-big-data-project/). The initiative will benefit from a just-awarded £2Million grant from the UKRI, and will gradually become self-sustaining. This will ensure long-term provision of an always up-to-date cloud-based infrastructure for microbial bioinformatics. 
 </div>
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[CoralSNP](/use/coral-snp/index.md)</div>
+<div class="card-header">[CoralSNP](/use/coral-snp/)</div>
 
-<img class="card-img-top" src="/src/use/coral-snp/coral.jpg" alt="Coral!" />
+<img class="card-img-top" src="/use/coral-snp/coral.jpg" alt="Coral!" />
 
 The [CoralSNP server](https://coralsnp.science.psu.edu/galaxy/) implements *Standard Tools for Acroporid Genotyping (STAG)*. In STAG the user’s data is compared to the database of previously genotyped samples and generates a report of genet identification. A login is required, but anyone can create a login.
 </div>
@@ -336,7 +336,7 @@ The [CoralSNP server](https://coralsnp.science.psu.edu/galaxy/) implements *Stan
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">Mississippi Server Upgraded</div>
 
-<img class="card-img-top" src="/src/use/mississippi/mississippi-logo.png" alt="Mississippi" />
+<img class="card-img-top" src="/use/mississippi/mississippi-logo.png" alt="Mississippi" />
 
 The [Mississippi server was upgraded](/news/2020-03-mississippi/), and [has a new URL](https://mississippi.sorbonne-universite.fr/).  Every tool installed on the previous server should be already installed on the new server.  The old server will be put into a read only state on June 1st, and then taken down on September 1st.
 </div>
@@ -345,7 +345,7 @@ The [Mississippi server was upgraded](/news/2020-03-mississippi/), and [has a ne
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[Laniakea@ReCaS: resource allocation call](https://laniakea-elixir-it.github.io/laniakea_at_recas)</div>
 
-<img class="card-img-top" src="/src/use/laniakea/laniakea_logo_def_white_background.png" alt="Laniakea" />
+<img class="card-img-top" src="/use/laniakea/laniakea_logo_def_white_background.png" alt="Laniakea" />
 
 The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyusLwbAxyl3Yef58NgEYI5-BoKQ/view?usp=sharing) offers access to Cloud resources to be used for the deployment of on-demand Galaxy instances, ready for production, with reference data and tools already pre-configured and ready to be used. 
 </div>
@@ -353,7 +353,7 @@ The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyus
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[ProteoRE 2.1 Launched](/news/2020-02-proteore/)</div>
 
-<img class="card-img-top" src="/src/use/proteore/proteore.png" alt="ProteoRE" />
+<img class="card-img-top" src="/use/proteore/proteore.png" alt="ProteoRE" />
 
 [ProteoRE 2.1](http://www.proteore.org/) is a user-oriented Galaxy-based service for the functional interpretation and exploration of proteomics data for biomedical research; This version now comprises 20 tools organized in 4 sections (data manipulation and visualization; add features/annotation; functional analysis; pathways analysis). All data sources have been updated. Two tutorials are available via the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/proteomics/). 
 </div>
@@ -362,7 +362,7 @@ The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyus
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * [Galaxy Australia processed its one millionth job in January](https://usegalaxy-au.github.io/posts/2020/01/29/one-millionth-job/).
 * [Exciting progress in the ELIXIR Galaxy community](https://elixir-europe.org/news/galaxy-europe-2020)
@@ -477,7 +477,7 @@ By Nate Coraor.
 
 Find out the latest about how the [UseGalaxy.org server is set up](/main/).
 
-<img class="card-img-bottom" src="/src/main/gxy_map.png" alt="Main" />
+<img class="card-img-bottom" src="/main/gxy_map.png" alt="Main" />
 </div>
 
 
@@ -566,7 +566,7 @@ Features:
 * Major update to container and dependency management interface
 Extended job metadata collection
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
+<img class="card-img-bottom" src="/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy" />
 </div>
 
 <div class="card border-info" style="min-width: 24rem; max-width: 50%;">
@@ -592,7 +592,7 @@ The GVL makes dedicated, production-grade installations of Galaxy available on c
 
 Command-line utilities to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the [Bioblend](http://bioblend.readthedocs.org/en/latest/) library.
 
-<img class="card-img-bottom" src="/src/images/logos/nebulizer-logo.png" alt="Nebulizer" />
+<img class="card-img-bottom" src="/images/logos/nebulizer-logo.png" alt="Nebulizer" />
 </div>
 
 <div class="card border-info"  style="min-width: 8rem; max-width: 16rem;">
@@ -800,7 +800,7 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 
 And so has the Galaxy ToolShed.  And we are darn happy about it.  Many thanks to [Nicola Soranzo](https://github.com/nsoranzo) and [Marius van den Beek](https://github.com/mvdbeek) for leading this years-long community wide effort.
 
-<img class="card-img-bottom" src="/src/images/logos/python-logo.png" alt="Python 3" />
+<img class="card-img-bottom" src="/images/logos/python-logo.png" alt="Python 3" />
 </div>
 
 
@@ -817,7 +817,7 @@ The semi-annual update of the [Galaxy Statistics Page](/galaxy-project/statistic
 
 If you’re a UK-based researcher working from home, you might require some additional computing power. The Earlham Institute offers Galaxy and CyVerse UK cloud-based bioinformatics resources to help.
 
-<img class="card-img-bottom" src="/src/images/logos/earlham-institute-logo-trans.png" alt="Earlham Institute" />
+<img class="card-img-bottom" src="/images/logos/earlham-institute-logo-trans.png" alt="Earlham Institute" />
 </div>
 
 

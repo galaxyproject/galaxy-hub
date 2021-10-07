@@ -2,7 +2,7 @@
 title: "Galaxy Community Log Board"
 date: "2013-12-06"
 ---
-<div class='left'><a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
+<div class='left'><a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" width="200" /></a></div>
 
 **Note: the Community Log Board was integrated into the [Galaxy Blog](/blog/) in September 2017.**
 

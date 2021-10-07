@@ -2,7 +2,7 @@
 title: Galaxy Developer Roundtable
 ---
 
-<img class="float-right" style="max-width: 12rem;" src="/src/images/galaxy-logos/galaxy-developer-roundtable-300.png" alt="Galaxy Developer Round Table" />
+<img class="float-right" style="max-width: 12rem;" src="/images/galaxy-logos/galaxy-developer-roundtable-300.png" alt="Galaxy Developer Round Table" />
 
 ## What
 
@@ -93,7 +93,7 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
   * Presenters: Kaivan Kamali and  John Chilton, [video](https://youtu.be/osbRh36-4dc)
 * **[2020-09-03: Interactive PR Commands and Workflow Updates](/events/2020-09-03-dev-roundtable/)**
   * Presenters: Alexandru Mahmoud and John Chilton
-* **[2020-07-09: COVID work](/events/2020-07-09-dev-roundtable/)**
+* **2020-07-09: COVID work**
   * Presenter: Anton Nekrutenko,  [Video](https://youtu.be/xQHcceFBBTs?t=104)
 * **[2020-06-11: The New History](/events/2020-06-11-dev-roundtable/)**
   * Presenter Mason Houtz, [Video](https://youtu.be/yR67bFB6W38)

@@ -1,7 +1,7 @@
 ---
 title: September 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the September 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -14,7 +14,7 @@ A record *five new servers* joined [the list of over 40 publicly accessible Gala
 
 ## Galaxy-P
 
-<div class='left solid'><a href='https://usegalaxyp.org/'><img src="/src/use/galaxy-p/get-galaxy-p-home.png" alt="Galaxy-P" width="200" /></a></div>
+<div class='left solid'><a href='https://usegalaxyp.org/'><img src="/use/galaxy-p/get-galaxy-p-home.png" alt="Galaxy-P" width="200" /></a></div>
 
 [Galaxy-P](https://usegalaxyp.org/) is a multiple 'omics' data analysis platform with particular emphasis on mass spectrometry based proteomics. Galaxy-P is developed at the [University of Minnesota](http://umn.edu/), deployed at the [Minnesota Supercomputing Institute](http://msi.umn.edu/).  Pending imminent hardware upgrades, usegalaxyp.org is running with fairly limited computational resources and on disk that is not backed up. Galaxy-P is under active development - things will break and things will change, so your patience is requested.
 
@@ -22,7 +22,7 @@ You can also [install your own copy of Galaxy-P](http://getgalaxyp.org/), either
 
 ## GWIS
 
-<div class='right solid'><a href='http://bioinformatics.research.nicta.com.au/software/gwis/'><img src="/src/public-galaxy-servers/archive/gwis-poster-top.png" alt="GWIS" width="200" /></a></div>
+<div class='right solid'><a href='http://bioinformatics.research.nicta.com.au/software/gwis/'><img src="/public-galaxy-servers/archive/gwis-poster-top.png" alt="GWIS" width="200" /></a></div>
 
 [NICTA Bioinformatics](http://bioinformatics.research.nicta.com.au/)' [Genome-wide Interaction Search (GWIS)](http://bioinformatics.research.nicta.com.au/software/gwis/) for multivariate GWAS analysis cuts the computational time for analyzing all pairs of SNP interactions in genome-wide association studies (GWAS) from months to minutes on commodity computers.  Any non-commercial user can request an account [via email](mailto:gwis AT nicta DOT com DOT au).
 
@@ -32,7 +32,7 @@ See
 
 ## Martin Luther University Halle-Wittenberg
 
-<div class='right solid'><a href='http://galaxy.informatik.uni-halle.de'><img src="/src/images/logos/MartinLutherU.png" alt="Martin Luther University Halle-Wittenberg" width="200px" /></a></div>
+<div class='right solid'><a href='http://galaxy.informatik.uni-halle.de'><img src="/images/logos/MartinLutherU.png" alt="Martin Luther University Halle-Wittenberg" width="200px" /></a></div>
 
 [Martin Luther University Halle-Wittenberg](http://galaxy.informatik.uni-halle.de)'s Galaxy server provides implementations of tools developed by the groups of [Bioinformatics and Pattern Recognition](http://informatik.uni-halle.de/arbeitsgruppen/mustererkennung/?lang=en) and/or [Bioinformatics](http://informatik.uni-halle.de/arbeitsgruppen/bioinformatik/?lang=en) in collaboration with internal and external partners. 
 * CRISPRer is a tool for genome-wide selection and assessment of CRISPR/Cas protospacers.
@@ -43,7 +43,7 @@ See
 
 ## MBAC Metabiome Portal
 
-<div class='left solid'><a href='http://mbac.gmu.edu:8080/'><img src="/src/use/archive/mbac-metabiome-portal/mbac-portal-landing-page.png" alt="MBAC Metabiome Portal" width="200px" /></a></div>
+<div class='left solid'><a href='http://mbac.gmu.edu:8080/'><img src="/use/archive/mbac-metabiome-portal/mbac-portal-landing-page.png" alt="MBAC Metabiome Portal" width="200px" /></a></div>
 
 The [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac/display_detail.php?tb=research&id=11) is a flexible and customizable webserver that simplifies control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome).  The Portal uses a relational database management system and distributed analytical resources and includes several tools such as sequence clustering, filtering sequencing artifacts, taxonomic analysis, and functional annotation. 
 
@@ -51,7 +51,7 @@ Users access the MBAC Metabiome Portal through a Galaxy based web browser to per
 
 ## ZBIT Bioinformatics Toolbox
 
-<div class='right solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src="/src/use/archive/zbit-bioinformatics-toolbox/zbit-home-page.png" alt="ZBIT Bioinformatics Toolbox" width="200" /></a></div>
+<div class='right solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src="/use/archive/zbit-bioinformatics-toolbox/zbit-home-page.png" alt="ZBIT Bioinformatics Toolbox" width="200" /></a></div>
 
 The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enables public access to these bioinformatics tools developed at [Department of Cognitive Systems](http://www.cogsys.cs.uni-tuebingen.de/) at the [University of Tübingen](http://www.uni-tuebingen.de/) of our bioinformatics tools.
 * [TFpredict](http://www.cogsys.cs.uni-tuebingen.de/software/TFpredict/welcome_e.html): Identification and structural characterization of transcription factors
@@ -127,7 +127,7 @@ The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enabl
 
 # 2014 Galaxy Training Survey
 
-<div class='right'><a href='http://bit.ly/gxy14training'><img src="/src/news/2014-galaxy-training-survey/GalaxyTrainingSurvey.png" alt="Take the Galaxy training survey" width="350" /></a></div>
+<div class='right'><a href='http://bit.ly/gxy14training'><img src="/news/2014-galaxy-training-survey/GalaxyTrainingSurvey.png" alt="Take the Galaxy training survey" width="350" /></a></div>
 
 Help guide Galaxy's 2014 training efforts by taking the [Galaxy Training Survey](http://bit.ly/gxy14training)! Please take a few minutes to let us know what you would like to see offered, and where you would like training to be held.
 
@@ -135,7 +135,7 @@ Help guide Galaxy's 2014 training efforts by taking the [Galaxy Training Survey]
 
 # Who's Hiring
 
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 * [Bioinformatics post available at University of Exeter](http://bit.ly/1cuX9b9) 
@@ -151,15 +151,15 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 # Events
 
 <div class='center'>
-<a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'><img src="/src/images/logos/UCDavisGenomeCenterLogo.jpg" alt="RNA-Seq Workshop: From Pipette to P-value! @ UC Davis Bioinformatics Core" height="60" /></a>
-<a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/src/images/logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
-<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/src/images/logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
-<a href='http://www.beyond-the-genome.com/program/'><img src="/src/images/logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
-<a href='http://bit.ly/153avr8'><img src="/src/images/logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/images/logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
+<a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'><img src="/images/logos/UCDavisGenomeCenterLogo.jpg" alt="RNA-Seq Workshop: From Pipette to P-value! @ UC Davis Bioinformatics Core" height="60" /></a>
+<a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/images/logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
+<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/images/logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
+<a href='http://www.beyond-the-genome.com/program/'><img src="/images/logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
+<a href='http://bit.ly/153avr8'><img src="/images/logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/images/logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 <br />
 
@@ -268,7 +268,7 @@ upgrade: $ hg pull
 ```
 
 
-<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
 ## CloudMan Release
 
@@ -278,7 +278,7 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * [samifier](http://bit.ly/13JjmN0): enable a nexus between proteomic and genomic analysis. 
 * [neuma](http://bit.ly/144FqOy): Accurate quantification of transcriptome from RNA-Seq data by effective length normalization 

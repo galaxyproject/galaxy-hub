@@ -4,7 +4,7 @@ tease: "Basic and Advanced Training for setting up your own Galaxy server"
 date: '2018-09-19'
 ---
 
-[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="2019 Galaxy Admin Training" width="200" />](/events/2019-admin-training/)
+[<img class="float-right" src="/events/2019-admin-training/2019-admin-training-logo.png" alt="2019 Galaxy Admin Training" width="200" />](/events/2019-admin-training/)
 
 **The [2019 Galaxy Admin Training](/events/2019-admin-training/) will be offered January 28 through February 1 at Penn State University** (where the Galaxy Project got started over ten years ago).  The workshop offers a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) followed by a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions).  Participants can register for one or both sessions.
 
@@ -12,4 +12,4 @@ This workshop will cover what you need to know to set up your own production, hi
 
 [Registration](/events/2019-admin-training/#registration) is now open and starts at $40 / day for participants from non-profits and academia.  Early registration ends October 31.  However, the 2016 and 2018 admin training were both full, so you are strongly encouraged to *register now*.
 
-*The workshop does have [prerequisites](/src/events/2019-admin-training/#prerequisites). Please read them before you register.*
+*The workshop does have [prerequisites](/events/2019-admin-training/#prerequisites). Please read them before you register.*

@@ -8,7 +8,7 @@ platforms:
     platform_text: "LAP Galaxy Server"
     platform_location: NO
 summary: "Web interface to a centralized repository of a wide range of language technology tools, all installed on a high-performance computing (HPC) cluster."
-image: "/src/images/logos/clarino-logo-trans.png"
+image: "/images/logos/clarino-logo-trans.png"
 comments:
   -  "a typical scenario is for a user to upload some ‘raw’ textual data, invoke LAP linguistic analysis tools to create annotations of the text, export processing results into a format suitable for analysis by the user, and download the resulting file(s) back onto their own computer."
 user_support:

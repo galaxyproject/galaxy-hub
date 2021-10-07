@@ -1,5 +1,5 @@
 
-<div class='right'>![](/src/images/people/greg.png)</div>
+<div class='right'>![](/images/people/greg.png)</div>
 
 # Greg von Kuster
 

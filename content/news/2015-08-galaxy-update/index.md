@@ -3,7 +3,7 @@ title: "August 2015 Galactic News"
 date: "2015-07-31"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2015-08/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galactic News! August 2015 Edition" width=150 /></a>
+<a href='/galaxy-updates/2015-08/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galactic News! August 2015 Edition" width=150 /></a>
 </div>
 
 The **[August Galactic News](/galaxy-updates/2015-08/)** is out.  It's been a busy two months for the community.  The *News* includes items on:
@@ -25,15 +25,15 @@ The **[August Galactic News](/galaxy-updates/2015-08/)** is out.  It's been a bu
   * [76 Tool Shed updates and additions from 20+ contributors](/toolshed/contributions/2015-07/)
   * And, of course [other news](/galaxy-updates/2015-08/#other-news) as well.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)
 
 <br />
 <div class='center'>
-<a href='/galaxy-updates/2015-08/#gcc2015-report'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015" height="75" /></a> &nbsp;
-<a href='/galaxy-updates/2015-08/#gcc2016-june-25-29-2016-bloomington-indiana-united-states'><img src="/src/events/gcc2016/GCC2016LogoFull_big.png" alt="2016 Galaxy Community Conference" height="75" /></a>
-<a href='/galaxy-updates/2015-08/#july-2015-pitagora-galaxy-meetup'><img src="/src/images/logos/PitagoraBoXLogo.png" alt="meetup on 23 July 2015" height="75" /></a>
-<a href='/galaxy-updates/2015-08/#august-galaxyadmins-meetup'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup August 20" height="60" /></a> &nbsp;
-<a href='/galaxy-updates/2015-08/#new-public-galaxy-servers'><img src="/src/public-galaxy-servers/70PlusSlide.png" alt="70+ Public Galaxy Servers" height="75" /></a> &nbsp;
-<a href='/galaxy-updates/2015-08/#community-committers'><img src="/src/images/CommunityCommitters1.png" alt="Community Committers" height="75" /></a>
+<a href='/galaxy-updates/2015-08/#gcc2015-report'><img src="/images/logos/GCC2015LogoWide600.png" alt="GCC2015" height="75" /></a> &nbsp;
+<a href='/galaxy-updates/2015-08/#gcc2016-june-25-29-2016-bloomington-indiana-united-states'><img src="/events/gcc2016/GCC2016LogoFull_big.png" alt="2016 Galaxy Community Conference" height="75" /></a>
+<a href='/galaxy-updates/2015-08/#july-2015-pitagora-galaxy-meetup'><img src="/images/logos/PitagoraBoXLogo.png" alt="meetup on 23 July 2015" height="75" /></a>
+<a href='/galaxy-updates/2015-08/#august-galaxyadmins-meetup'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup August 20" height="60" /></a> &nbsp;
+<a href='/galaxy-updates/2015-08/#new-public-galaxy-servers'><img src="/public-galaxy-servers/70PlusSlide.png" alt="70+ Public Galaxy Servers" height="75" /></a> &nbsp;
+<a href='/galaxy-updates/2015-08/#community-committers'><img src="/images/CommunityCommitters1.png" alt="Community Committers" height="75" /></a>
 </div>
 <br />

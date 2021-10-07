@@ -1,13 +1,13 @@
 ---
 title: June 2012 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the June 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 ## New Public Server: GWIPS-Viz
 
-<div class='right'><a href='http://http://recode.ucc.ie:8080/'><img src="/src/images/logos/UCCorkLogo300.png" alt="GWIPS-Viz @ University College Cork" width="250" /></a></div>
+<div class='right'><a href='http://http://recode.ucc.ie:8080/'><img src="/images/logos/UCCorkLogo300.png" alt="GWIPS-Viz @ University College Cork" width="250" /></a></div>
 
 [GWIPS-viz](http://http://recode.ucc.ie:8080/) features tools for the analysis of protein synthesis.  GWIPS-viz is part of the **G**enome **W**ide **I**nformation on **P**rotein **S**ynthesis using ribosome profiling project, and is in early development. At present it includes tools for motif searches and visualization:
 * MEME - Multiple Em for Motif Elicitation
@@ -26,7 +26,7 @@ Many thanks to the [LAboratory of Post-Transcriptional control and bioInformatic
 </table>
 
 
-<div class='right'><a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="140" /></a></div>
+<div class='right'><a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="140" /></a></div>
 
 * The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held July 25-27, in Chicago.  
 * Three new topics have been added to the [GCC2012 Training Day](/events/gcc2012/training-day/):
@@ -90,7 +90,7 @@ These papers were among [32 papers added to the Galaxy CiteULike group](http://w
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs and software engineers @ Emory and Penn State.
@@ -104,12 +104,12 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://bioinformatics.ca/workshops/high_throughput'><img src="/src/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a> <a href='http://www.lifl.fr/~touzet/PPF/galaxy12.html'><img src="/src/images/logos/LilleStack.png" alt="Galaxy: un environnement d'analyses bioinformatiques" height="100" /></a> <a href='/events/ismb2012/'><img src="/src/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
+<a href='http://bioinformatics.ca/workshops/high_throughput'><img src="/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=100 /></a> <a href='http://www.lifl.fr/~touzet/PPF/galaxy12.html'><img src="/images/logos/LilleStack.png" alt="Galaxy: un environnement d'analyses bioinformatiques" height="100" /></a> <a href='/events/ismb2012/'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=100 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
 </div>
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 
 There are June application and early registration deadlines for [GCC2012](/events/gcc2012/register/), [ISMB 2012](/events/ismb2012/), SciPy, and the Winter School in Mathematical and Computational Biology, and an abstract deadline for ASHG 2012.  It's also a big month for conferences and courses, including Arthropod Genomics, Bio-IT World Asia ([James Taylor](/people/james-taylor/) will be speaking), SocBIN, [Next-gen sequencing in evolutionary biology](https://academy.nescent.org/wiki/Next-gen_sequencing) Course at NESCent (Sergei Kosakovsky-Pond will cover Galaxy), [Informatics on High Throughput Sequencing Data Workshop](http://www.bioinformatics.ca/workshops/high_throughput) (Francis Ouellette will cover Galaxy), Copenhagenomics, SMBE 2012, and, ESHG 2012, *to name just a few.*
 
@@ -184,7 +184,7 @@ were created, and the `mira_asssembler`, `seq_select_by_id`, and `java_genomics_
 A new Galaxy distribution was [released on May 11, 2012](/archive/dev-news-briefs/2012-05-11/).  
 
 **Some Highlights:**
-<div class='right'><a href='/learn/visualization/'><img src="/src/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="180px" /></a></div>
+<div class='right'><a href='/learn/visualization/'><img src="/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="180px" /></a></div>
 * **Emboss** tools and datatypes __have now moved from the ***Galaxy distribution** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)__**.
 * [Tool Integration Tests](/testing-installed-tools/), [Custom Tool Panel Configuration](/galaxy-tool-panel/#managing-the-layout-of-your-galaxy-tool-panel), and [Configurable Tool Output Locations](/admin/tools/multiple-output-files/).
 * Improved [Multiprocess Job Handling](/admin/config/performance/scaling/) and [Enhanced OpenID Support](http://openid.net/).

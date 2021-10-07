@@ -6,7 +6,7 @@ tease: "Galaxy Australia"
 continent: AU
 location: "C3DIS 2020, Melbourne, Victoria, Australia"
 location_url: "http://www.c3dis.com/"
-image: /src/images/logos/c3dis-logo-2020.png
+image: /images/logos/c3dis-logo-2020.png
 external_url:
 contact: "Gareth Price"
 gtn: true

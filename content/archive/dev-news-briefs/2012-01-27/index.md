@@ -56,10 +56,10 @@ date: 2012-01-27
 * Do not find valid chroms because this is computationally expensive and not currently used.
 * Provide icon to randomly set color in drawable configuration.
 
-![](/src/images/news-graphics/2012_01_27_random-color-chooser.png)
+![](/images/news-graphics/2012_01_27_random-color-chooser.png)
 * Multi-track dynamic filtering.
 
-![](/src/images/news-graphics/2012_01_27_multi-track-filtering.png)
+![](/images/news-graphics/2012_01_27_multi-track-filtering.png)
 
 ## Workflows
 
@@ -82,7 +82,7 @@ date: 2012-01-27
 
 ## Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
 * Python 2.5 support was broken in the last stable release, this has been fixed 
 * A broken unit test under 2.5 will not be fixed until the next release, however - this can safely be ignored.
 * A fix to not use math.isnan because it is not compatible with python 2.5 has been made.

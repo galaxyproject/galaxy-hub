@@ -8,7 +8,7 @@ location: "ASMCUE 2019, Tyson, Virginia, United States"
 external_url: ""
 location_url: "https://www.asm.org/Events/ASM-Conference-for-Undergraduate-Educators/Home"
 contact: 'Mohammad Heydarian, Anton Nekrutenko'
-image: "/src/events/2019-asmcue/asmcue-2019.jpg"
+image: "/events/2019-asmcue/asmcue-2019.jpg"
 gtn: true
 ---
 

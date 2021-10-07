@@ -8,7 +8,7 @@ platforms:
     platform_text: "BF2I-MAP Galaxy Server"
     platform_location: FR
 summary: "Locally developed as well as standard tools are available on a 16-core server with 32GB memory, accessible to all users, and located in the BF2I lab."
-image: "/src/use/bf2i-map/bf21-map-sponsors.png"
+image: "/use/bf2i-map/bf21-map-sponsors.png"
 comments:
   - "ThreaDNA allows generalising the approach to a large class of DNA-binding proteins."
 user_support:

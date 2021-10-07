@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://quay.io/shiltemann/galaxy-mothur-toolset"
     platform_text: "Galaxy mothur Toolset Docker Image"
 summary: "Galaxy Docker image for microbial ecology analysis with [mothur](https://www.mothur.org/)"
-image: "/src/images/logos/mothur_300.png"
+image: "/images/logos/mothur_300.png"
 comments:
   - "GmT is available from the Galaxy Tool Shed, and a workflow definition file. A Docker image with a fully configured GmT Galaxy is also available."
 user_support:

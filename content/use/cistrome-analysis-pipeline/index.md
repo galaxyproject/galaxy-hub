@@ -8,7 +8,7 @@ platforms:
     platform_text: "Cistrome Analysis Pipeline"
     platform_location: US
 summary: "ChIP-chip/seq and gene expression data "
-image: "/src/use/cistrome-analysis-pipeline/cistrome.png"
+image: "/use/cistrome-analysis-pipeline/cistrome.png"
 comments:
   - "The [Cistrome Analysis Pipeline](http://cistrome.org/ap/root) has the standard Galaxy tools, plus 29 additional ChIP-chip and ChIP-seq specific tools, including preliminary peak calling and correlation analyses, downstream genome feature association, gene expression analyses, and motif discovery."
 user_support:

@@ -2,7 +2,7 @@
 title: "November 2012 Galaxy Update"
 date: "2012-10-31"
 ---
-<div class='right'><a href='/galaxy-updates/2012-11/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="November 2012 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/2012-11/'><img src="/images/logos/GalaxyUpdate200.png" alt="November 2012 Galaxy Update" width=150 /></a></div>
 
 The [November 2012 Galaxy Update is now available](/galaxy-updates/2012-11/). 
 
@@ -18,4 +18,4 @@ The [November 2012 Galaxy Update is now available](/galaxy-updates/2012-11/).
 
 If you have anything you would like to see in the December *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

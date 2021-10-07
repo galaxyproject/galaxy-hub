@@ -91,6 +91,6 @@ See
 
 ## Questions Not Answered Here ...
 
-<div class='right'><a href='/search/'><img src="/src/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Search" width="150" /></a></div>
+<div class='right'><a href='/search/'><img src="/images/galaxy-logos/galaxy-web-search.png" alt="Galaxy Search" width="150" /></a></div>
 
 If you have questions about using Galaxy that aren't answered here, try [Galaxy Search](/search/).  It will search *all* online Galaxy resources and return a categorized list of search results.

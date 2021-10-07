@@ -8,7 +8,7 @@ platforms:
     platform_text: "MBAC Metabiome Server"
     platform_location: US
 summary: "Simplifying control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome). "
-image: "/src/use/archive/mbac-metabiome-portal/mbac-portal-landing-page.png"
+image: "/use/archive/mbac-metabiome-portal/mbac-portal-landing-page.png"
 comments:
   - "[MBAC Metabiome Portal](http://mbac.gmu.edu/mbac_wp/)"
   - "We have developed the [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac/display_detail.php?tb=research&id=11), a flexible and customizable webserver, with the aim of simplifying control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome)."

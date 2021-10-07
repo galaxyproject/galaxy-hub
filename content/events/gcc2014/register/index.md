@@ -28,9 +28,9 @@ Register for both the [GCC2014 main meeting](/events/gcc2014/program/) and the [
 
 <table>
   <tr>
-    <td rowspan=4 style=" border: none;"> <br /> <a href='/events/gcc2014/training-day/'><img src="/src/images/logos/GCC2014TDLogoSmall.png" alt="Training Day" width="108" /></a> </td>
+    <td rowspan=4 style=" border: none;"> <br /> <a href='/events/gcc2014/training-day/'><img src="/images/logos/GCC2014TDLogoSmall.png" alt="Training Day" width="108" /></a> </td>
     <td rowspan=4 style=" border: none;"> <strong>+</strong> </td>
-    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/events/gcc2014/program/'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
+    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/events/gcc2014/program/'><img src="/images/logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
     <td style=" border: none;"> </td>
     <th style=" color: #000;"> Before/on May 23 </th>
@@ -68,7 +68,7 @@ You can, however, still register for the [Training Day](/events/gcc2014/training
 
 <table>
   <tr>
-    <td rowspan=4 style=" border: none;"> <br /> <a href='/events/gcc2014/training-day/'><img src="/src/images/logos/GCC2014TDLogoSmall.png" alt="Training Day" width="105" /></a> </td>
+    <td rowspan=4 style=" border: none;"> <br /> <a href='/events/gcc2014/training-day/'><img src="/images/logos/GCC2014TDLogoSmall.png" alt="Training Day" width="105" /></a> </td>
     <td rowspan=4 style=" border: none;"> <strong>&nbsp;</strong> </td>
     <td rowspan=4 style=" text-align: center; border: none; width: 108px;"> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
@@ -106,7 +106,7 @@ Interested in only the conference?  Conference-only registration includes admiss
   <tr>
     <td rowspan=4 style=" border: none; width: 110px;"> <br /> &nbsp; </td>
     <td rowspan=4 style=" border: none;"> <strong>&nbsp;</strong> </td>
-    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/events/gcc2014/program/'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
+    <td rowspan=4 style=" text-align: center; border: none;"> <br /><a href='/events/gcc2014/program/'><img src="/images/logos/GCC2014LogoTall200.png" alt="Main Meeting" width="100" /></a> </td>
     <td rowspan=4 style=" border: none;"> &nbsp;&nbsp;&nbsp;&nbsp; </td>
     <td style=" border: none;"> </td>
     <th style=" color: #000;"> Before/on May 23 </th>

@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main Tool Shed](/src/images/logos/ToolShed.jpg)</a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main Tool Shed](/images/logos/ToolShed.jpg)</a> </div>
 
 # Tool Dependency Packages
 
@@ -9,7 +9,7 @@ From Galaxy’s perspective, tool dependency packages are third-party packages t
 
 Of course, configuring Galaxy for a multi-user, production environment introduces several additional levels of complexity. However, installing repositories from the Tool Shed should not result in significant additional complexities beyond configuring Galaxy itself. This implies that Galaxy tool authors cannot make assumptions about packages being available in a Galaxy environment beyond a reasonable set. The Tool Shed provides the mechanism for installing additional required packages using XML recipes.
 
-Tool authors can assume certain packages are available in any Galaxy environment in which their tools may be installed. The Intergalactic Utilities Commission has defined a small set of packages that may not be included in a vanilla operating system, but should be available within any Galaxy environment. Björn Grüning, an IUC member, created the [Tool Dependencies page](/src/admin/config/tool-dependencies-list) which provides this information. The following packages have been defined as “required”, so Galaxy tool authors can assume they are  available within any Galaxy environment. The Tool Dependencies page includes lists of additional packages that can be installed from the Tool Shed using recipes.
+Tool authors can assume certain packages are available in any Galaxy environment in which their tools may be installed. The Intergalactic Utilities Commission has defined a small set of packages that may not be included in a vanilla operating system, but should be available within any Galaxy environment. Björn Grüning, an IUC member, created the [Tool Dependencies page](/admin/config/tool-dependencies-list) which provides this information. The following packages have been defined as “required”, so Galaxy tool authors can assume they are  available within any Galaxy environment. The Tool Dependencies page includes lists of additional packages that can be installed from the Tool Shed using recipes.
 
 * autoconf
 * automake

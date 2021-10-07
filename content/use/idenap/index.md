@@ -8,7 +8,7 @@ platforms:
     platform_text: "IDENAP"
     platform_location: CN
 summary: "Inter-Domain Ecological Network Analysis Pipeline"
-image: "/src/use/idenap/idenap-workflow.png"
+image: "/use/idenap/idenap-workflow.png"
 comments:
   - "Model, analyze and manage the Inter-Domain Ecological Networks (IDENs) from metagenomic datasets, e.g. GeoChip and Sequencing, and synchronous plant surveys."
 user_support:

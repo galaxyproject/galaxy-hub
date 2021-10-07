@@ -4,7 +4,7 @@ title: "GCC2019 CollaborationFest: Core and Encore"
 
 <slot name="/events/gcc2019/header" />
 
-<img class="float-right" src="/src/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
+<img class="float-right" src="/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
 
 GCC2019 will finish with *CollaborationFest*, a 2 (or 4) day collaborative work event where our community gathers to contribute code, documentation, training materials, and challenging analysis problems and use cases.  If you are interested in learning and contributing in an intensely collaborative environment, then CollaborationFest is for you.
 
@@ -81,7 +81,7 @@ Contact us at
 
 <div class="center img-sizer" style="height: 9.5em">
 
-[![ELIXIR: uniting Europe’s leading life science organisations](/src/images/logos/elixir-logo-big.png)](https://elixir-europe.org/)
+[![ELIXIR: uniting Europe’s leading life science organisations](/images/logos/elixir-logo-big.png)](https://elixir-europe.org/)
 
 </div>
 

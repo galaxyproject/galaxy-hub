@@ -8,7 +8,7 @@ platforms:
     platform_text: "Graph Algorithms Pipeline for Pathway Analysis (GrAPPA) Server"
     platform_location: US
 summary: "GrAPPA is a web-based interface constructed on the Galaxy framework for graph theoretical tools. It contains novel combinatorial methods integrated into a complete microarray analysis toolchain, from uploading raw high-throughput data to visualization of results. "
-image: "/src/use/grappa/grappa-logo.png"
+image: "/use/grappa/grappa-logo.png"
 comments:
   - "Efforts to increase GrAPPA’s functionality are underway. Features now being incorporated include a larger repertoire of pre-processing options, including Gaussian graphical models and an expanded set of correlation metrics such as mutual information; more powerful post-processing capabilities, for example, software tools for Bayesian analysis; and links to related web-centric resources, e.g. GeneWeaver, so that users can seamlessly transfer data and results"
 user_support:

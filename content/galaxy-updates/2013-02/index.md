@@ -1,7 +1,7 @@
 ---
 title: February 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the February 2013 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -9,7 +9,7 @@ Welcome to the February 2013 edition of *[Galaxy Update](/galaxy-updates/)*, a m
 
 ## New Public Galaxy Servers
 
-<div class='left'> <a href='http://yeoman.usask.ca/'><img src="/src/images/logos/USaskatchewanBIRLLogo.jpg" alt="SAPHIRE on Yeoman by the University of Saskatchewan Bioinformatics Research Group" width="120" /></a></div>
+<div class='left'> <a href='http://yeoman.usask.ca/'><img src="/images/logos/USaskatchewanBIRLLogo.jpg" alt="SAPHIRE on Yeoman by the University of Saskatchewan Bioinformatics Research Group" width="120" /></a></div>
 
 The **[Yeoman Galaxy Server](http://yeoman.usask.ca/)** runs the **SA**skatchewan **PH**osphorylation **I**nternet **RE**source (SAPHIRE). This tool by the [University of Saskatchewan Bioinformatics Research Group](http://www.cs.usask.ca/research/research_groups/birl/) allows you to predict phosphorylation sites in soybean proteins, and will be expanded to other plants in the near future. See also "[Computational phosphorylation site prediction in plants using random forests and organism-specific instance weights](https://doi.org/10.1093/bioinformatics/btt031)," by Brett Trost, Anthony Kusalik, *Bioinformatics* (22 January 2013)
 
@@ -21,13 +21,13 @@ Brett further explained that this was partly because the lab's skill set made se
 
 <br />
 
-<div class='right'> <a href='http://rnaseq.pathogenportal.org/'><img src="/src/use/archive/rna-rocket-pathogen-portal/pathogen-portal-page.png" alt="Pathogen Portal" width="150" /></a></div>
+<div class='right'> <a href='http://rnaseq.pathogenportal.org/'><img src="/use/archive/rna-rocket-pathogen-portal/pathogen-portal-page.png" alt="Pathogen Portal" width="150" /></a></div>
 
 **[Pathogen Portal](http://www.pathogenportal.org)** supports comparative analysis of host response to pathogens.  It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts.  It can analyze transcriptome data for genomes stored at [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). The pipeline is built on Galaxy. Galaxy has been modified to simplify RNA-Seq analysis for *informatics-naïve, biologically focused* users and provide a guided experience to quality control of read data, read mapping, assembling transcripts, estimating gene expression values, and doing differential expression analysis.  See "[Database resources for the tuberculosis community](http://www.sciencedirect.com/science/article/pii/S147297921200203X)" by Lew, *et al.* 
 
 <br />
 
-<div class='right'> <a href='http://biordf.org:8090/'><img src="/src/public-galaxy-servers/archive/oppl-galaxy-tool-page.png" alt="OPPL Galaxy" width="120" /></a></div>
+<div class='right'> <a href='http://biordf.org:8090/'><img src="/public-galaxy-servers/archive/oppl-galaxy-tool-page.png" alt="OPPL Galaxy" width="120" /></a></div>
 
 **[OPPL-Galaxy](http://wilkinsonlab.info/OPPL-Galaxy)** is a set of functions that can be executed over OWL ontologies with the aim of facilitating the use of semantic activities within Galaxy Bioinformatics workflows. Additional NCBO-Galaxy tools provide Galaxy users with the functionality of the NCBO BioPortal services.  See "[OPPL-Galaxy, a Galaxy tool for enhancing ontology exploitation as part of bioinformatics workflows](http://www.jbiomedsem.com/content/4/1/2/abstract)" by by Aranguren, *et al.*
 
@@ -85,7 +85,7 @@ There are now over [830 papers in the Galaxy CiteULike Group](http://www.citeuli
 
 ## Who's Hiring
 
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -99,11 +99,11 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## GCC2013
 
-<div class='center'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
+<div class='center'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 ### Training Day Topic Voting Closes 11 February
 
-<div class='right'><a href='/events/gcc2013/training-day/'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
 Thanks to everyone who [nominated topics](/events/gcc2013/training-day/#topics) for the [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/) [Training Day](/events/gcc2013/training-day/).  These nominations were compiled into a ballot which **[you can vote on until 11 February](http://bit.ly/gcc2013tdpoll)**.  If you might attend the GCC2013 Training Day then please [review the possible topics](/events/gcc2013/training-day/#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
 
@@ -120,7 +120,7 @@ Once voting [closes on 11 February](/events/gcc2013/key-dates/), we will contact
 
 ### Sponsorships
 
-<div class='right'><a href='http://www.gigasciencejournal.com/'><img src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="150" /></a></div>
+<div class='right'><a href='http://www.gigasciencejournal.com/'><img src="/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="150" /></a></div>
 
 In addition to the sponsors that we [announced in January](/galaxy-updates/2013-01/#sponsorships), we are pleased to announce that [GigaScience Journal](http://www.gigasciencejournal.com/), a [BioMed Central](http://www.biomedcentral.com/) open access journal, is a Silver Sponsor of GCC2013.
 
@@ -130,7 +130,7 @@ There are still several [sponsorships](/events/gcc2013/sponsorships/) still avai
 
 ## January GalaxyAdmins Web Meetup
 
-<div class='right'><a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/src/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a></div>
+<div class='right'><a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/images/logos/GalaxyAdmins.png" alt="January Galaxy Admins Web Meetup" height="70" /></a></div>
 
 A [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-01-16/) was held on January 16, 2013.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) presented "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."  Greg Von Kuster of the [Galaxy Team](/galaxy-team/) gave an update on recent Tool Shed enhancements.  Slides and a screencast are now available.
 
@@ -139,13 +139,13 @@ The next [GalaxyAdmins meetup](/community/galaxy-admins/) will be Wednesday, Mar
 ## Other Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://bit.ly/UFefFx'><img src="/src/images/logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core" height="80" /></a>
-<a href='http://conf.abrf.org/'><img src="/src/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
-<a href='/src/gmod:April_2013_GMOD_Meeting/index.md'><img src="/src/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
-<a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
+<a href='http://bit.ly/UFefFx'><img src="/images/logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core" height="80" /></a>
+<a href='http://conf.abrf.org/'><img src="/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
+<a href='/gmod:April_2013_GMOD_Meeting/'><img src="/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
+<a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -257,7 +257,7 @@ upgrade: $ hg pull -u -r a4113cc1cb5e
 
 ## Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * `flexbar:`: flexible barcode and adapter removal
 * `proteomics_datatypes, xtandem, mascot, tpp_prohets, omssa, msgfplus`: All new proteomics-related repositories, all from Ira Cooke 

@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.bio-itworldexpo.com/'><img src="/src/images/logos/BioITWorld2014LogoWider.png" alt="Bio-IT World 2014" /></a>
+<a href='http://www.bio-itworldexpo.com/'><img src="/images/logos/BioITWorld2014LogoWider.png" alt="Bio-IT World 2014" /></a>
 
 <span style="font-size: larger;"> Boston, Massachusetts, United States <br />
 April 29 - May 1, 2014 </span>
@@ -70,7 +70,7 @@ Galaxy will have a significant presence at the [Bio-IT World Conference](http://
 
 
 <div class='left'>
-<a href='https://depot.galaxyproject.org/hub/attachments/events/bioitworld2014/GalaxyAtBioITWorld2014Flier.pdf'><img src="/src/events/bioitworld2014/GalaxyAtBioITWorld2014Thumb.png" alt="Galaxy Related Events @ BioIT World 2014" height="137" /></a></div>
+<a href='https://depot.galaxyproject.org/hub/attachments/events/bioitworld2014/GalaxyAtBioITWorld2014Flier.pdf'><img src="/events/bioitworld2014/GalaxyAtBioITWorld2014Thumb.png" alt="Galaxy Related Events @ BioIT World 2014" height="137" /></a></div>
 
 ## Flier
 

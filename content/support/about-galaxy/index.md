@@ -1,7 +1,7 @@
 ---
 title: About Galaxy
 ---
-<div class='right'><a href='http://galaxyproject.org'><img src="/src/images/screenshots/GalaxyProjectOrg.png" alt="GalaxyProject.org" width="300" /></a></div>
+<div class='right'><a href='http://galaxyproject.org'><img src="/images/screenshots/GalaxyProjectOrg.png" alt="GalaxyProject.org" width="300" /></a></div>
 
 # Warning: This page is incomplete and deprecated
 

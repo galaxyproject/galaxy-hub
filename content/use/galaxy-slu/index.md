@@ -8,7 +8,7 @@ platforms:
   platform_text: "Galaxy@SLU"
   platform_location: US
 summary: "Standard and custom-built bioinformatics tools with special focus on ChIP-Seq, RNA-Seq, single-cell RNA-Seq, Gene Expression and Cancer Genomics (e.g. TCGA). "
-image: "/src/images/logos/slu-left-blue.png"
+image: "/images/logos/slu-left-blue.png"
 comments:
 - "Galaxy@SLU aims to provide standard and custom-built bioinformatics tools with special focus on ChIP-Seq, RNA-Seq, Gene Expression and Cancer Genomics."
 user_support:

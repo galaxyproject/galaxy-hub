@@ -9,7 +9,7 @@ location_url: ""
 external_url:
 gtn: false
 contact: "Saskia Hiltemann"
-image: "/src/images/logos/galaxy-nl-big.png"
+image: "/images/logos/galaxy-nl-big.png"
 ---
 
 **Time:** October 3, 13:30-16:00, with drinks afterwards <br />

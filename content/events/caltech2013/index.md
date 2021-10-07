@@ -5,7 +5,7 @@ title: Galaxy @ Caltech March 5, 2013
 
 <table>
   <tr>
-    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://caltech.edu/'><img src="/src/images/logos/CaltechLogoWTextBig.png" alt="California Institute of Technology" width="400" /></a> </td>
+    <td colspan=3 style=" text-align: center; border: none;"> <a href='http://caltech.edu/'><img src="/images/logos/CaltechLogoWTextBig.png" alt="California Institute of Technology" width="400" /></a> </td>
   </tr>
 </table>
 
@@ -74,7 +74,7 @@ This hands-on workshop will teach participants how to integrate data, and perfor
 
 **If you attended this workshop, [please provide your feedback](http://bit.ly/Caltech2013).**
 
-<div class='right'><br /><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><br /><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 ### Workshop Support
 
@@ -89,14 +89,14 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 **[Dave Clements](/people/dave-clements/)**<br />
 **Emory University**<br /><br />
 
-This informal discussion will introduce Galaxy for developers.  We will discuss any items of interest to attendees and answer questions relating to, for example, the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment, and anything else about Galaxy. This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees. [Dave Clements](/people/dave-clements/) of the Galaxy Project will lead the workshop and we will be joined remotely by [Dannon Baker](/people/dannon-baker/) and [Nate Coraor](/people/nate/), two members of the [core Galaxy development team](/src/galaxy-team/).
+This informal discussion will introduce Galaxy for developers.  We will discuss any items of interest to attendees and answer questions relating to, for example, the Galaxy API, Galaxy Architecture, configuring Galaxy for a production environment, and anything else about Galaxy. This will be more informal than the *Galaxy for Biologists* workshop and will cover topics that are of most interest to attendees. [Dave Clements](/people/dave-clements/) of the Galaxy Project will lead the workshop and we will be joined remotely by [Dannon Baker](/people/dannon-baker/) and [Nate Coraor](/people/nate/), two members of the [core Galaxy development team](/galaxy-team/).
 
 *This discussion is open to any member of the Caltech community. It is free, but space is limited and advanced registration is strongly encouraged.*
 </div>
 
 ## Links
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/caltech2013/CaltechGalaxyDay.pdf'><img src="/src/events/caltech2013/CaltechGalaxyDayThumb.png" alt="Download flier" /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/caltech2013/CaltechGalaxyDay.pdf'><img src="/events/caltech2013/CaltechGalaxyDayThumb.png" alt="Download flier" /></a></div>
 
 * Please help get the word out by distributing [this flyer](https://depot.galaxyproject.org/hub/attachments/events/caltech2013/CaltechGalaxyDay.pdf) in your department.
 

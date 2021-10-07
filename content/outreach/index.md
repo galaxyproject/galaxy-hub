@@ -1,7 +1,7 @@
 ---
 title: Galaxy Outreach
 ---
-![PoweredByGalaxy](/src/outreach/powered-by-galaxy/PoweredByGalaxy200.png)
+![PoweredByGalaxy](/outreach/powered-by-galaxy/PoweredByGalaxy200.png)
 
 A number of resources are available to help connect researchers and developers with Galaxy. Broadening Galaxy's reach serves several interrelated purposes:
 
@@ -11,29 +11,29 @@ A number of resources are available to help connect researchers and developers w
 
 ## Citing Galaxy
 
-[Citing Galaxy](/citing-galaxy/) in publications and presentations is an easy way to increase Galaxy's visibility and helps enormously with grants. The Galaxy Project and Galaxy users have published numerous papers on Galaxy and analyses that use Galaxy. Check out this list of [Galaxy-related publications](/src/citing-galaxy/#galaxy-project-publications-by-year) and [guidelines for citing Galaxy](/src/citing-galaxy/#citing-specific-galaxy-components-features) in your own work.
+[Citing Galaxy](/citing-galaxy/) in publications and presentations is an easy way to increase Galaxy's visibility and helps enormously with grants. The Galaxy Project and Galaxy users have published numerous papers on Galaxy and analyses that use Galaxy. Check out this list of [Galaxy-related publications](/citing-galaxy/#galaxy-project-publications-by-year) and [guidelines for citing Galaxy](/citing-galaxy/#citing-specific-galaxy-components-features) in your own work.
 
 ### Powered by Galaxy
 
-![PoweredByGalaxy](/src/outreach/powered-by-galaxy/PoweredByGalaxy120.png)
+![PoweredByGalaxy](/outreach/powered-by-galaxy/PoweredByGalaxy120.png)
 
 *Powered by Galaxy* icons are available in a [number of different resolutions](/outreach/powered-by-galaxy/) for inclusion on web sites, talks, posters, and other printed material. Including icons is an easy way to let people know how widely used and useful Galaxy is.
 
 ### Logos and Images
 
-![GalaxyLogo](/src/images/galaxy-logos/galaxy_logo_25percent.png)
+![GalaxyLogo](/images/galaxy-logos/galaxy_logo_25percent.png)
 
 The [Galaxy logos page](/images/galaxy-logos/) contains currently available Galaxy Project logos. The [Galaxy images page](/images/) lists sources for [logos](/images/logos/), [icons](/images/icons/), and [screenshots](/images/screenshots/) that can be included in Galaxy-related presentations and posters.
 
 ## Speakers and Workshops
 
-![GalaxySpeaker](/src/outreach/GalaxySpeaker.jpg)
+![GalaxySpeaker](/outreach/GalaxySpeaker.jpg)
 
 Experienced Galaxy speakers are available to give presentations and workshops at your institution or event. These sessions can range from introductory or overview talks to workshops covering specific analyses or research topics. In terms of style, presentations can take the form of short talks, workshops with multiple speakers, or even highly interactive and hands-on tutorials. Check out the [Galactic Events](/events/) page for a list of recent and upcoming events.
 
 Please contact outreach@galaxyproject.org if you are interested in arranging a presentation or workshop at your institution or event. 
 
-![AWSlogo](/src/images/logos/AWSLogo.png)
+![AWSlogo](/images/logos/AWSLogo.png)
 
 Hands-on workshops are generously supported by an [AWS in Education](http://aws.amazon.com/education) teaching grant.
 

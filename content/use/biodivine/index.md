@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy server. "
     platform_location: CZ
 summary: "Systems biology tools implemented by the Sybila team."
-image: "/src/use/biodivine/sybila.png"
+image: "/use/biodivine/sybila.png"
 comments:
   - "Tools implemented by [Sybila team](https://sybila.fi.muni.cz/)"
   - "All tools can be found on [GitHub](https://github.com/sybila/)."

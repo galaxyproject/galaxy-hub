@@ -8,7 +8,7 @@ platforms:
     platform_url: "https://www.genap.ca/"
     platform_text: "Canada: GenAP Cloud Service"
 summary: "All Canadian researchers are [eligible for a GenAP account](https://ccdb.computecanada.ca/account_application). International researchers that have a Canadian collaborator can also be sponsored and become eligible to a GenAP account as well."
-image: "/src/use/genap/genap-logo-trans-250.png"
+image: "/use/genap/genap-logo-trans-250.png"
 comments:
   - "[GenAP](https://www.genap.ca/) is targeting both life scientists through web portal applications such as Galaxy, datahub, and a UCSC Genome Browser mirror to facilitate data analysis, sharing and visualization of the results; as well as computational biologists through services such as state-of-the-art analysis pipelines and centralized code distribution."
   - "In GenAP each PI's (Principal Investigator) project can instantiate a private Galaxy which is shared only within  his/her own group. The group admin has the ability to create, start, stop and delete the group's Galaxy."

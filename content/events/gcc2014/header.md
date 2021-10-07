@@ -1,6 +1,6 @@
 <div class="text-center trim-p">
 
-[![2014 Galaxy Community Conference (GCC2014), Baltimore Maryland, United States, June 30 - July 2 2014](/src/images/logos/GCC2014LogoWide600.png)](/events/gcc2014/)
+[![2014 Galaxy Community Conference (GCC2014), Baltimore Maryland, United States, June 30 - July 2 2014](/images/logos/GCC2014LogoWide600.png)](/events/gcc2014/)
 
 <br /><br />
 

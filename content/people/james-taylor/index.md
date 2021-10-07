@@ -5,7 +5,7 @@ redirect: "/jxtx/"
 
 
 
-<div class='right'><a href='http://www.bio.jhu.edu/Faculty/Taylor/Default.html'><img src="/src/images/people/james.jpg" /></a></div>
+<div class='right'><a href='http://www.bio.jhu.edu/Faculty/Taylor/Default.html'><img src="/images/people/james.jpg" /></a></div>
 
 # James Taylor
 

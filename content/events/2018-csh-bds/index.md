@@ -8,7 +8,7 @@ location: "Cold Spring Harbor, New York, USA"
 location_url: "https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=18"
 gtn: false
 contact: Presenters
-image: "/src/images/logos/CSHLLogo.jpg"
+image: "/images/logos/CSHLLogo.jpg"
 ---
 
 Galaxy will be featured several presentations at the [Cold Spring Harbor 2018 Biological Data Science meeting](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=18).

@@ -8,7 +8,7 @@ platforms:
     platform_text: "HyPhy HIV tools server"
     platform_location: US
 summary: "Tools for HIV sequencing analysis."
-image: "/src/use/hyphy/galaxy-hiv.png"
+image: "/use/hyphy/galaxy-hiv.png"
 comments:
   - "Hypothesis Testing using Phylogenies"
   - "Comparative sequence analysis using stochastic evolutionary models"

@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy Africa Server"
     platform_location: DE
 summary: "Devoted to assisting researchers on the African continent accelerate their genomics research and analyses."
-image: "/src/images/galaxy-logos/galaxy-africa-logo-300.png"
+image: "/images/galaxy-logos/galaxy-africa-logo-300.png"
 comments:
   - "The public server is configured by the Galaxy Africa team, and hosted by the UesGalaxy.eu team."
 user_support:

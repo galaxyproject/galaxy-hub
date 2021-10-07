@@ -8,7 +8,7 @@ platforms:
   platform_text: "Galaxy India Server"
   platform_location: DE
 summary: "This is the Indian galaxy server, Welcome Home!"
-image: "/src/images/galaxy-logos/galaxy-india-logo.png"
+image: "/images/galaxy-logos/galaxy-india-logo.png"
 comments:
 - "Namaste All! Welcome to the India Galaxy workbench; a comprehensive set of tools and workflows dedicated to accelerate your bioinformatics analyses focusing Bharat."
 - "This workbench is built on the Galaxy framework thanks to Galaxy Europe we are hosting the seeds of Indian Galaxy to facilitate more wider user base."

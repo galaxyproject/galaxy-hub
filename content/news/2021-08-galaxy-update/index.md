@@ -4,7 +4,7 @@ tease: "GCC2021 is over and we're heading to GCC2022 in Minneapolis!"
 date: "2021-08-06"
 ---
 
-<a href="/galaxy-updates/"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -105,14 +105,14 @@ The [PeerJ Best Poster/Demonstration Award](https://gcc2021.sched.com/sponsor/pe
 
 Maren's presentation took full advantage of the Remo conference platform, which means that the presentation was not a single PDF, but was rather interactive.  Maren's work will be highlighted in the PeerJ Blog, and this work is eligible for free publication in any PeerJ journal. 
 
-<img class="card-img-bottom" src="/src/images/logos/peerj-logo-short-400.png" alt="PeerJ" />
+<img class="card-img-bottom" src="/images/logos/peerj-logo-short-400.png" alt="PeerJ" />
 
 </div>
 
 
 <!-- GCC2022 -->
 <div class="card border-info"  style="min-width: 30%; max-width: 26rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/events/gcc2022-logo-600.png" alt="GCC2022" />
+<img class="card-img-top" src="/images/galaxy-logos/events/gcc2022-logo-600.png" alt="GCC2022" />
 <div class="card-header trim-p">
 
 GCC2022: July 16-23, Minneapolis
@@ -130,7 +130,7 @@ We are pleased to announce that the 2022 Galaxy Community Conference (GCC2022) w
 
 <!-- Indian Community -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India" />
 <div class="card-header trim-p">
 
 [Galaxy India Community](https://www.galaxyproject.in/)
@@ -144,7 +144,7 @@ The Galaxy India community is about enabling data intensive research and instruc
 * Training and workshops, both standalone and at larger meetings
 * Webinars and community calls
 * In person gatherings, once these become prudent
-* [Communications channels](/src/community/#regional-communities), including chat and a mailing list
+* [Communications channels](/community/#regional-communities), including chat and a mailing list
 * An [India-focused server](/use/galaxy-india/) hosted by the European Galaxy Team
 
 If you are working in data intensive science in India then please consider getting involved with Galaxy India:
@@ -165,7 +165,7 @@ If you are working in data intensive science in India then please consider getti
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 35%;">
-<img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
+<img class="card-img-top" src="/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
 [Galaxy Career Center](/careers/)
@@ -217,7 +217,7 @@ There is not a lot going on in August, but what is happening is compelling.  See
 
 <!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
 <div class="card border-info" style="min-width: 45%;">
-<img class="card-img-bottom" src="/src/images/news-graphics/2021-08-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
+<img class="card-img-bottom" src="/images/news-graphics/2021-08-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
 <div class="card-header trim-p">
 
 [SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/)
@@ -253,7 +253,7 @@ Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 20%; max-width:  18rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
 [Galaxy Developer Roundtable](/community/devroundtable/)
@@ -280,7 +280,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <!-- Galaxy India -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India*" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India*" />
 <div class="card-header trim-p">
 
 [Galaxy India](/use/galaxy-india/)
@@ -296,7 +296,7 @@ Welcome to the India Galaxy workbench; a comprehensive set of tools and workflow
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="trim-p">
 
-![CropGalaxy.*](/src/use/cropgalaxy/eib-logo.png)
+![CropGalaxy.*](/use/cropgalaxy/eib-logo.png)
 
 </div>
 <div class="card-header trim-p">
@@ -317,7 +317,7 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy
 
 </div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 * And several new use cases were described for UseGalaxy.eu:

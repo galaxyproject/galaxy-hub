@@ -3,7 +3,7 @@ title: "December 2014 Galaxy Newsletter"
 date: "2014-12-01"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-12/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
+<a href='/galaxy-updates/2014-12/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>
 
 As always there's a lot going on in the Galaxy this month.  "Like what?" you say.  Well, read the dang [December Galaxy Newsletter](/galaxy-updates/2014-12/) we say! Highlights include:
@@ -18,4 +18,4 @@ As always there's a lot going on in the Galaxy this month.  "Like what?" you say
 * [15 new ToolShed repositories from 10 contributors](/galaxy-updates/2014-12/#toolshed-contributions)
 * And, [10 other juicy](/galaxy-updates/2014-12/#other-news) (well maybe not *juicy*, but certainly not *crunchy*) [bits of news](/galaxy-updates/2014-12/#other-news)
 
-[Dave Clements](/people/dave-clements/) and the *crisp* [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the *crisp* [Galaxy Team](/galaxy-team/)

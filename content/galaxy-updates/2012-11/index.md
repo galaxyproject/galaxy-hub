@@ -1,7 +1,7 @@
 ---
 title: November 2012 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the November 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
@@ -64,7 +64,7 @@ These papers may be of interest to the Galaxy community:
 
 * "[G-NEST: a gene neighborhood scoring tool to identify co-conserved, co-expressed genes](https://doi.org/10.1186/1471-2105-13-253)," Danielle Lemay, William Martin, Angie Hinrichs, Monique Rijnkels, J. German, Ian Korf, Katherine Pollard, *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)*, Vol. 13, No. 1. (28 September 2012), 253<br /><br />
 
-* "[Creating re-usable tools from scripts: The Galaxy Tool Factory](https://doi.org/10.1093/bioinformatics/bts573)," [Ross Lazarus](/people/fubar/), Antony Kaspi, Mark Ziemann, [The Galaxy Team](/src/galaxy-team/), *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (28 September 2012)
+* "[Creating re-usable tools from scripts: The Galaxy Tool Factory](https://doi.org/10.1093/bioinformatics/bts573)," [Ross Lazarus](/people/fubar/), Antony Kaspi, Mark Ziemann, [The Galaxy Team](/galaxy-team/), *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (28 September 2012)
 
 These papers were among [44 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/).  
 
@@ -81,12 +81,12 @@ The same guidelines for creating issues used previously apply here as well - rep
 
 All open [galaxy-central bitbucket issues](https://bitbucket.org/galaxy/galaxy-central) were imported and, though they still need to be sorted out, comments/voting on them are more than welcome.  Our hope is that this issue tracker will be a more effective community interface than the *Bitbucket* issues were, with the voting features and simpler visibility.
 
-<a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2012_10_23_trello-inbox.png" alt="2012_10_23_trello-inbox" width="900" /></a>
+<a href='http://usegalaxy.org'><img src="/images/news-graphics/2012_10_23_trello-inbox.png" alt="2012_10_23_trello-inbox" width="900" /></a>
 
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
 * [Computational Biologist](http://bit.ly/R2ZJoW) @ the [Harvard Stem Cell Institute's (HSCI)](http://www.hsci.harvard.edu/)[Center for Stem Cell Bioinformatics](http://www.hsci.harvard.edu/research/center-stem-cell-bioinformatics)
@@ -99,14 +99,14 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/src/images/logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>&nbsp;
-<a href='http://meetings.cshl.edu/courses13.html'><img src="/src/images/logos/CSHLLogo.jpg" alt="CSHL" height="100" /></a>
-<a href='http://www.intlpag.org/'><img src="/src/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" /></a>
+<a href='http://www.ashg.org/2012meeting/pages/workshops.shtml'><img src="/images/logos/ASHG2012Logo.png" alt="ASHG 2012" height="100" /></a>&nbsp;
+<a href='http://meetings.cshl.edu/courses13.html'><img src="/images/logos/CSHLLogo.jpg" alt="CSHL" height="100" /></a>
+<a href='http://www.intlpag.org/'><img src="/images/logos/PAGLogo114.png" alt="Plant and Animal Genome (PAG 2013)" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
 
 There are November application, poster, and paper deadlines for 
 * ICG & Bio-IT APAC 2012 abstract and poster deadlines (Oct 31 and Nov 15)

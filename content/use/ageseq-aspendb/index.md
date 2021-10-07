@@ -8,7 +8,7 @@ platforms:
     platform_text: "AGEseq Galaxy @ AspenDB"
     platform_location: US
 summary: "This site provides a user-friendly interface for AGEseq (Analysis of Genome Editing by Sequencing) in a Galaxy instance. "
-image: "/src/use/ageseq-aspendb/aspen-db-300.png"
+image: "/use/ageseq-aspendb/aspen-db-300.png"
 comments:
   - "AGEseq compares amplicon sequences with expected target sequences and finds insertion/deletion sites in the amplicon sequences."
   - "AGEseq can be used for SNP calling."

@@ -5,7 +5,7 @@ title: Hackathon
 
 <br /><br />
 
-<div class='left'><img src="/src/images/logos/GCC2014HackLogo200.png" alt="GCC2014 Hackathon" width="200" /></div>
+<div class='left'><img src="/images/logos/GCC2014HackLogo200.png" alt="GCC2014 Hackathon" width="200" /></div>
 
 <slot name="/events/gcc2014/linkbox" />
 
@@ -43,7 +43,7 @@ There is limited space for this event and we don't yet have a very good feel for
 
 Hackathons are self-organizing events and attempts to impose anything as detailed as an *agenda* should be met with resistance *and humor*.  With that in mind, this schedule tries to provide the absolute minimum amount of structure needed to ensure that something actually gets done.
 
-<div class='right'><br /><a href='http://gmod.org/wiki/GMOD_Evo_Hackathon'><img src="/src/events/gcc2014/hackathon/HackLaptops.jpg" alt="Hacking at a NESCent/GMOD Hackathon" /></a></div>
+<div class='right'><br /><a href='http://gmod.org/wiki/GMOD_Evo_Hackathon'><img src="/events/gcc2014/hackathon/HackLaptops.jpg" alt="Hacking at a NESCent/GMOD Hackathon" /></a></div>
 
 The hackathon is "officially" scheduled for three days, starting on Saturday, June 28.  The first two days will happen in the Taylor Lab at Johns Hopkins.  The last "official" day overlaps with the [Training Day](/events/gcc2014/training-day/) and we haven't yet decided if that will happen in the Taylor Lab or at the conference venue.  Our hope is that hackathoners will be able to slip in out during this day.
 
@@ -132,8 +132,8 @@ Participants will need to cover their own lodging costs, and (most) of their own
 # Sponsors
 
 <div class='center'>
-<a href='https://curoverse.com/'><img src="/src/images/logos/CuroversLogoBig.png" alt="Curoverse: Open Source developers of Arvados" height="100" /></a> &nbsp;&nbsp; 
-<a href='https://arvados.org/'><img src="/src/images/logos/ArvadosLogoBig.png" alt="Arvados: a free and open source bioinformatics platform for genomic and biomedical data" height="130" /></a>
+<a href='https://curoverse.com/'><img src="/images/logos/CuroversLogoBig.png" alt="Curoverse: Open Source developers of Arvados" height="100" /></a> &nbsp;&nbsp; 
+<a href='https://arvados.org/'><img src="/images/logos/ArvadosLogoBig.png" alt="Arvados: a free and open source bioinformatics platform for genomic and biomedical data" height="130" /></a>
 <br /><br />
 <span style="font-size: larger;"> [Curoverse](https://curoverse.com/), makers of the [Arvados](https://arvados.org/) open source bioinformatics platform, <br />
 is the exclusive Peta level Hackathon sponsor </span>
@@ -141,7 +141,7 @@ is the exclusive Peta level Hackathon sponsor </span>
 <br /><br />
 
 <div class='center'>
-<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br /><br />
+<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" /></a><br /><br />
 <span style="font-size: larger;"> [Amazon Web Services](http://aws.amazon.com) is the Hackathon Cloud Infrastructure sponsor </span>
 </div>
 

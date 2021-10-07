@@ -1,13 +1,13 @@
 ---
 title: August 2013 Galaxy Update
 ---
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the August 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
-<div class='center'><a href='/events/gcc2013/'><img src="/src/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
+<div class='center'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo400.png" alt="2013 Galaxy Community Conference (GCC2013)" width="300" /></a> </div>
 
 # GCC2013 Report
 
@@ -32,13 +32,13 @@ Two new servers joined [the list of over 30 publicly accessible Galaxy servers](
 
 ## PredPharmTox
 
-<div class='left'><a href='http://galaxy.predpharmtox.org/'><img src="/src/use/archive/predpharmtox-logo.png" alt="PredPharmTox" width="200" /></a></div>
+<div class='left'><a href='http://galaxy.predpharmtox.org/'><img src="/use/archive/predpharmtox-logo.png" alt="PredPharmTox" width="200" /></a></div>
 
 [PredPharmTox](http://galaxy.predpharmtox.org/) implements the [QuantMap tools](http://pubs.acs.org/doi/abs/10.1021/ci200429f) for grouping chemicals by biological activity. See "[Automated QuantMap for rapid quantitative molecular network topology analysis](http://bioinformatics.oxfordjournals.org/content/early/2013/07/04/bioinformatics.btt390.full.pdf)" by Schaal1, *et al.*, *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* (2013), for more.
 
 ## QBRC Galaxy
 
-<div class='right'><a href='http://www.galaxy.qbrc.org/'><img src="/src/use/archive/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="200" /></a></div>
+<div class='right'><a href='http://www.galaxy.qbrc.org/'><img src="/use/archive/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="200" /></a></div>
 
 The [QBRC Galaxy Server](http://www.galaxy.qbrc.org/) hosts custom tools developed by members of the [Quantitative Biomedical Research Center @ University of Texas Southwestern](http://www.qbrc.swmed.edu/) for statistical analysis of various High Throughput Sequencing experiments.
 
@@ -111,7 +111,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 # SlipStream Appliance: Galaxy Edition Announced
 
-<div class='left'><a href='http://www.bioteam.net/slipstream/galaxy-edition'><img src="/src/images/logos/SlipStreamApplianceLogo.png" alt="SlipStream Appliance - Galaxy Edition" width="200" /></a></div>
+<div class='left'><a href='http://www.bioteam.net/slipstream/galaxy-edition'><img src="/images/logos/SlipStreamApplianceLogo.png" alt="SlipStream Appliance - Galaxy Edition" width="200" /></a></div>
 
 [BioTeam](http://bioteam.net) has [announced](/news/slip-stream-appliance/) the [SlipStream Appliance: Galaxy Edition](http://www.bioteam.net/slipstream/galaxy-edition) – "a high-performance, server class device pre-loaded with a fully operational Galaxy analysis platform." It is a plug-and-play solution, "intended to make Galaxy more accessible by relieving some of the burdens users may experience with other methods of accessing the platform." See the [product page](http://www.bioteam.net/slipstream/galaxy-edition) for more details.
 
@@ -119,7 +119,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 # New Galaxy Proteomics Mailing List
 
-<div class='right'><a href='https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/'><img src="/src/images/logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
+<div class='right'><a href='https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/'><img src="/images/logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
 
 The Galaxy community now has a [mailing list dedicated to proteomics](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/).  In case you missed it, there is also a proteomics wiki page. 
 
@@ -131,7 +131,7 @@ Many thanks to Ira Cooke and [John Chilton](/people/john-chilton/) for suggestin
 
 # Who's Hiring
 
-<div class='right'><a href='/galaxy-is-hiring/'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 * The Netherlands Institute of Ecology (NIOO-KNAW) [Bioinformatician opening](http://bit.ly/15nT1nB) 
@@ -149,10 +149,10 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 # Events
 
 <div class='right'>
-<a href='http://www.iscb.org/ismbeccb2013'><img src="/src/images/logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="80" /></a>
+<a href='http://www.iscb.org/ismbeccb2013'><img src="/images/logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="80" /></a>
 </div>
 <div class='right'>
-<a href='http://www.open-bio.org/wiki/BOSC_2013'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2013" width="60" /></a><br /><a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'><img src="/src/images/logos/MSSIG2013Logo.jpg" alt="MS SIG 2013: Beyond the Proteomics" width="60" /></a><br />
+<a href='http://www.open-bio.org/wiki/BOSC_2013'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2013" width="60" /></a><br /><a href='http://igenomed2.stanford.edu/Proteomics2013_mssig/'><img src="/images/logos/MSSIG2013Logo.jpg" alt="MS SIG 2013: Beyond the Proteomics" width="60" /></a><br />
 </div>
 
 ## ISMB / ECCB / BOSC / MS SIG 2013
@@ -164,15 +164,15 @@ Galaxy had a strong presence at [ISMB / ECCB 2013](http://www.iscb.org/ismbeccb2
 ## Other Upcoming Events
 
 <div class='center'>
-<a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'><img src="/src/images/logos/UCDavisGenomeCenterLogo.jpg" alt="RNA-Seq Workshop: From Pipette to P-value! @ UC Davis Bioinformatics Core" height="60" /></a>
-<a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/src/images/logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
-<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/src/images/logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
-<a href='http://www.beyond-the-genome.com/program/'><img src="/src/images/logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
-<a href='http://bit.ly/153avr8'><img src="/src/images/logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/src/images/logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
+<a href='https://training.bioinformatics.ucdavis.edu/2013/07/02/the-2013-rna-seq-workshop/'><img src="/images/logos/UCDavisGenomeCenterLogo.jpg" alt="RNA-Seq Workshop: From Pipette to P-value! @ UC Davis Bioinformatics Core" height="60" /></a>
+<a href='http://www.rcpa.edu.au/Continuing/CalendarOfEvents/September2013.htm'><img src="/images/logos/RCPALogo.jpg" alt="The Genomic Bioinformatics Workshop" height="60" /></a>
+<a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/images/logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
+<a href='http://www.beyond-the-genome.com/program/'><img src="/images/logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
+<a href='http://bit.ly/153avr8'><img src="/images/logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/images/logos/GennoToulLogo.png" alt="Galaxy Training Days" height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 <br />
 
@@ -245,7 +245,7 @@ The most recent official distribution was on [June 3, 2013](/archive/dev-news-br
 
 ## CloudMan Release
 
-<div class='right'><a href='/cloudman/'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
 A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-release/).
 
@@ -270,7 +270,7 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 
 # Tool Shed Contributions
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * [varscan](http://bit.ly/12cDtT2): mutation callers for targeted, exome, & whole-genome resequencing; cancer genomics 
 * [jointsnvmix](http://bit.ly/153MT1x): Somatic mutations caller using probabilistic graphical model w/ tumour/normal pairs 

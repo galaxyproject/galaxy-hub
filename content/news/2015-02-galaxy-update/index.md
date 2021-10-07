@@ -3,10 +3,10 @@ title: "Galactic News! Feb. 2015 Edition"
 date: "2015-01-30"
 ---
 <div class='right'><div class='center'>
-<a href='/galaxy-updates/2015-02/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="February 2015 Newsletter" width=150 /></a><br /><br />
-<a href='/galaxy-updates/2015-02/#gcc2015-6-8-july-norwich-uk'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
-<a href='/galaxy-updates/2015-02/#toolshed-contributions'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=170 /></a><br />
-<a href='/galaxy-updates/2015-02/#19-february-galaxyadmins-meetup'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup February 19" width="150" /></a></div>
+<a href='/galaxy-updates/2015-02/'><img src="/images/logos/GalaxyUpdate200.png" alt="February 2015 Newsletter" width=150 /></a><br /><br />
+<a href='/galaxy-updates/2015-02/#gcc2015-6-8-july-norwich-uk'><img src="/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
+<a href='/galaxy-updates/2015-02/#toolshed-contributions'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=170 /></a><br />
+<a href='/galaxy-updates/2015-02/#19-february-galaxyadmins-meetup'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup February 19" width="150" /></a></div>
 </div>
 
 [February](/galaxy-updates/2015-02/) brings lots of [Galaxy related news](/galaxy-updates/2015-02/), including [events news](/galaxy-updates/2015-02/#events):
@@ -31,4 +31,4 @@ and *Community News* too:
 * [Ruđer Bošković Institute joins GTN](/galaxy-updates/2015-02/#new-gtn-member-ruđer-bošković-institute)
 * And, [other news](/galaxy-updates/2015-02/#other-news) as well.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

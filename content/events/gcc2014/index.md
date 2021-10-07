@@ -9,7 +9,7 @@ location_url: https://jhu.edu
 external_url:
 gtn: false
 contact: Organizers
-image: /src/images/logos/GCC2014LogoWide400.png
+image: /images/logos/GCC2014LogoWide400.png
 tags: [ cofest ]
 ---
 
@@ -66,7 +66,7 @@ Several meeting reports have been created online:
   * how to perform *and enable your users to perform* common, yet complex, analyses using Galaxy
 * when and how to use *Galaxy on the Cloud*
 
-<div class='right'><br /><br /><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/src/images/people/Salzberg.jpg" alt="Steven Salzberg" width="125" /></a></div>
+<div class='right'><br /><br /><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/images/people/Salzberg.jpg" alt="Steven Salzberg" width="125" /></a></div>
 
 ## Keynote Speaker
 
@@ -80,51 +80,51 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 ## GCC2014 Sponsors
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/PlatinumBanner.png" alt="Platinum Sponsor" />](/events/gcc2014/sponsor-exhibit/)
+[<img class="mx-auto" src="/events/gcc2013/sponsorships/PlatinumBanner.png" alt="Platinum Sponsor" />](/events/gcc2014/sponsor-exhibit/)
 
-[<img class="mx-auto" src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="320" />](http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html)
+[<img class="mx-auto" src="/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="320" />](http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html)
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/GoldBanner.png" alt="Gold Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
+[<img class="mx-auto" src="/events/gcc2013/sponsorships/GoldBanner.png" alt="Gold Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
-[<img class="mx-auto" src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" />](http://bioteam.net/slipstream/galaxy-edition/)
+[<img class="mx-auto" src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" />](http://bioteam.net/slipstream/galaxy-edition/)
 
-[<img class="mx-auto" src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" />](http://www.emc.com/isilon)
+[<img class="mx-auto" src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" />](http://www.emc.com/isilon)
 
-[<img class="mx-auto"  src="/src/images/logos/SGILogo400.jpg" alt="SGI" width="210" />](http://www.sgi.com/solutions/genomics/)
+[<img class="mx-auto"  src="/images/logos/SGILogo400.jpg" alt="SGI" width="210" />](http://www.sgi.com/solutions/genomics/)
 
  
 <br /><br />
 
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/SilverBanner.png" alt="Silver Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
+[<img class="mx-auto" src="/events/gcc2013/sponsorships/SilverBanner.png" alt="Silver Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
 <br />
 
-[<img class="mx-auto" src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="180" />](http://globus.org/genomics)
+[<img class="mx-auto" src="/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="180" />](http://globus.org/genomics)
 
-[<img class="mx-auto" src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="160" />](http://www.gigasciencejournal.com/)
+[<img class="mx-auto" src="/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="160" />](http://www.gigasciencejournal.com/)
 
-[<img class="mx-auto" src="/src/images/logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="160" />](http://www.biomedcentral.com/)
+[<img class="mx-auto" src="/images/logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="160" />](http://www.biomedcentral.com/)
 '
-[<img class="mx-auto" src="/src/images/logos/ABgenomicaLogo.jpg" alt="ABgenomica"  />](http://www.abgenomica.com/)
+[<img class="mx-auto" src="/images/logos/ABgenomicaLogo.jpg" alt="ABgenomica"  />](http://www.abgenomica.com/)
 
-[<img class="mx-auto" src="/src/images/logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" />](http://genomeweb.com)
+[<img class="mx-auto" src="/images/logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" />](http://genomeweb.com)
 
-[<img class="mx-auto" src="/src/images/logos/PenguinComputing.png" alt="Penguin computing" width="170" />](http://www.penguincomputing.com/)
+[<img class="mx-auto" src="/images/logos/PenguinComputing.png" alt="Penguin computing" width="170" />](http://www.penguincomputing.com/)
 
 <br /><br />
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
+[<img class="mx-auto" src="/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
 <br />
 
-[<img class="mx-auto" src="/src/images/logos/BioMaryland400.png" alt="BioMaryland" width="250" />](http://bio.maryland.gov/)
+[<img class="mx-auto" src="/images/logos/BioMaryland400.png" alt="BioMaryland" width="250" />](http://bio.maryland.gov/)
 
 <br /><br />
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/OtherBanner.png" alt="Other Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
+[<img class="mx-auto" src="/events/gcc2013/sponsorships/OtherBanner.png" alt="Other Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
-[<img class="mx-auto" src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" />](http://aws.amazon.com/)
+[<img class="mx-auto" src="/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" />](http://aws.amazon.com/)
 
 <div class="text-center">
 **[Training Day](/events/gcc2014/training-day/) Sponsor**
@@ -132,13 +132,13 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 <br />
 
-![Hosts and Funding Agencies](/src/events/gcc2013/sponsorships/HostsBanner.png)
+![Hosts and Funding Agencies](/events/gcc2013/sponsorships/HostsBanner.png)
 
-[<img class="mx-auto" src="/src/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  />](http://biolchem.bs.jhmi.edu/)
+[<img class="mx-auto" src="/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  />](http://biolchem.bs.jhmi.edu/)
 
-[<img class="mx-auto" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins University" height="100" />](http://jhu.edu)
+[<img class="mx-auto" src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins University" height="100" />](http://jhu.edu)
 
-[<img class="mx-auto"  src="/src/images/logos/JohnHopkinsEpigenetics.jpg" alt="Center for Epigenetics" />](http://epigenetics.jhu.edu/)
+[<img class="mx-auto"  src="/images/logos/JohnHopkinsEpigenetics.jpg" alt="Center for Epigenetics" />](http://epigenetics.jhu.edu/)
 
 <br />
 

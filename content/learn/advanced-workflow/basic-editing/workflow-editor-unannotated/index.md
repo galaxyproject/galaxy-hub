@@ -15,7 +15,7 @@ An example view of the workflow editor without annotation.
 The same view with annotated is here along with full descriptions: **[Basic Workflow Editing: Editor Layout](/learn/advanced-workflow/basic-editing/#editor-layout)**
 <br />
 <br />
-<img src="/src/images/learn/workflow_editor_overview_plain.png" alt="workflow editor view unannotated" width="900" />
+<img src="/images/learn/workflow_editor_overview_plain.png" alt="workflow editor view unannotated" width="900" />
 <br />
 <br />
 <br />

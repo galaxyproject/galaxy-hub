@@ -1,7 +1,7 @@
 ---
 title: Galaxy CloudMan
 ---
-<div class='center'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="60%" /></div>
+<div class='center'><img src="/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="60%" /></div>
 
 <br />
 

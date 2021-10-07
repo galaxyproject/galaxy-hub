@@ -29,7 +29,7 @@ date: 2012-10-05
 The tools **NGS: Mapping** &rarr; *Map with BWA for Illumina* and *Map with BWA for
 SOLiD* have moved from the Galaxy distribution to the Galaxy Main Tool Shed.
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
 Migration scripts will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing these BWA tool wrappers from the Tool Shed. **[BWA](http://bio-bwa.sourceforge.net/)** itself and target reference genomes should still be installed as described in the Galaxy wiki - start in the [Tool Dependencies](admin/config/tool-dependencies/) section.
 

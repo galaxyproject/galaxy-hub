@@ -72,8 +72,8 @@ date: 2014-04-14
 
 <table>
   <tr>
-    <td> <img src="/src/images/news-graphics/2014_04_14_trackster-sparse.png" alt="Galaxy" width="300" /></td>
-    <td> <img src="/src/images/news-graphics/2014_04_14_trackster-deep.png" alt="Galaxy" width="300" /></td>
+    <td> <img src="/images/news-graphics/2014_04_14_trackster-sparse.png" alt="Galaxy" width="300" /></td>
+    <td> <img src="/images/news-graphics/2014_04_14_trackster-deep.png" alt="Galaxy" width="300" /></td>
   </tr>
   <tr>
     <td> &nbsp;&nbsp;&nbsp;&nbsp;<strong>Trackster</strong>: Prior coverage display </td>
@@ -219,7 +219,7 @@ Thanks to our Galaxy community contributors!
 
 <br />
 <div class='right'>
-<br /><a href='http://usegalaxy.org'><img src="/src/images/logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
+<br /><a href='http://usegalaxy.org'><img src="/images/logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
 

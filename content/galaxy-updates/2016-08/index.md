@@ -10,7 +10,7 @@ title: August 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/galaxy-updates/'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
 Welcome to the August 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
 
@@ -22,7 +22,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 # GCC2016 presentations and training are online
 
 <div class='right'>
-<a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="/src/images/logos/GCC2016LogoTallBig.png" alt="2016 Galaxy Community Conference" width="120" /></a>
+<a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="/images/logos/GCC2016LogoTallBig.png" alt="2016 Galaxy Community Conference" width="120" /></a>
 </div>
 
 Slides for [accepted](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks) and [lightning](https://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning) talks are online, as are [the posters](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters).  They have also been posted to the new [F1000Research Galaxy Channel](http://f1000research.com/channels/galaxy). Video of training and talks will also be posted online in the coming month.
@@ -37,7 +37,7 @@ Registration is free, but space is limited on both days. We recommend you regist
 
 ## Galaxy Admin Training, November 7-11, Salt Lake City, Utah
 
-<div class='left'><a href='/events/admin-training2016/'><img src="/src/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="140" /></a></div>
+<div class='left'><a href='/events/admin-training2016/'><img src="/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="140" /></a></div>
 
 The first ever [Galaxy Project Admin Training workshop](/events/admin-training2016/) will be held November 7-11 in Salt Lake City Utah.  The workshop features a 2 day basics session followed by a 3 day advanced session. There is a separate registration for each session, and participants may sign up for one or both.  We are working with the Utah High Performance Computing Center at the University of Utah for cluster access during the advanced session.
 
@@ -50,11 +50,11 @@ The curriculum will be published and registration will open shortly.  Watch this
 There are [a plentitude of Galaxy related events coming up](/events/). Here's what's coming up over the next fe months:
 
 <div class='center'> 
-<a href='http://icbo.cgrb.oregonstate.edu/node/41'><img src="/src/images/logos/ICBO_joint.png" alt="Integrating Ontological and Genomic Analysis with Galaxy Workshop @ ICBO" height="70" /></a> &nbsp;&nbsp;
-<a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug16.html'><img src="/src/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
+<a href='http://icbo.cgrb.oregonstate.edu/node/41'><img src="/images/logos/ICBO_joint.png" alt="Integrating Ontological and Genomic Analysis with Galaxy Workshop @ ICBO" height="70" /></a> &nbsp;&nbsp;
+<a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug16.html'><img src="/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
 &nbsp;&nbsp;&nbsp; 
-<a href='/community/galaxy-admins/meetups/2016-08-18/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="60" /></a>
-<a href='https://registration.genomecenter.ucdavis.edu/events/Aug_2016_Bioinformatics_Galaxy_Workshop/'><img src="/src/images/logos/UCDavisGenomeCenter_Bioinf.png" alt="Using Galaxy for Analysis of RNA-Seq, Exome-Seq, and Variants" height="75" /></a>
+<a href='/community/galaxy-admins/meetups/2016-08-18/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="60" /></a>
+<a href='https://registration.genomecenter.ucdavis.edu/events/Aug_2016_Bioinformatics_Galaxy_Workshop/'><img src="/images/logos/UCDavisGenomeCenter_Bioinf.png" alt="Using Galaxy for Analysis of RNA-Seq, Exome-Seq, and Variants" height="75" /></a>
 </div>
 
 <table>
@@ -67,38 +67,38 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   <tr>
     <th> August 1-4 </th>
     <td> <em><a href='http://icbo.cgrb.oregonstate.edu/node/41'>Integrating Ontological and Genomic Analysis with Galaxy Workshop</a></em> </td>
-    <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://icbo.cgrb.oregonstate.edu/'>ICBO 2016</a>, Corvallis, Oregon, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/dave-clements/'>Dave Clements</a> </td>
+    <td> <img src='/images/icons/NA.png' alt='North America' align='right' /> <a href='http://icbo.cgrb.oregonstate.edu/'>ICBO 2016</a>, Corvallis, Oregon, United States </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 9-10 </th>
     <td> <em>Introduction to Galaxy Workflows</em> </td>
-    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home'>Workflows Workshop</a>, <em><a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home/call-for-host-sites'>Distributed</a></em> </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/dave-clements/'>Dave Clements</a> </td>
+    <td> <img src='/images/icons/GL.png' alt='Around the World' align='right' /> <a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home'>Workflows Workshop</a>, <em><a href='https://sites.google.com/a/illinois.edu/workflows-workshop/home/call-for-host-sites'>Distributed</a></em> </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 12 </th>
     <td> <em><a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug16.html'>Introduction to Galaxy Workshop</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> University of Glasgow, Glasgow, United Kingdom </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> University of Glasgow, Glasgow, United Kingdom </td>
     <td> <a href='http://www.polyomics.gla.ac.uk/biog-davidmeltzer.html'>David Meltzer</a> </td>
   </tr>
   <tr>
     <th> August 17 </th>
     <td> <em><a href='https://genomicsvirtuallab.wordpress.com/2016/07/22/galaxy-workshop-at-uq/'>Galaxy Workshop</a></em> </td>
-    <td> <img src='/src/images/icons/AU.png' alt='Australia' align='right' /> St Lucia campus, University of Queensland, Australia </td>
+    <td> <img src='/images/icons/AU.png' alt='Australia' align='right' /> St Lucia campus, University of Queensland, Australia </td>
     <td> <a href="mailto:i.makunin@uq.edu.au">Igor Makunin</a> </td>
   </tr>
   <tr>
     <th> August 18 </th>
     <td> <a href='/community/galaxy-admins/meetups/2016-08-18/'>GalaxyAdmins Web Meetup</a> </td>
-    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' />  <em><a href='/community/galaxy-admins/meetups/2016-08-18/'>Online</a></em> </td>
+    <td> <img src='/images/icons/GL.png' alt='Around the World' align='right' />  <em><a href='/community/galaxy-admins/meetups/2016-08-18/'>Online</a></em> </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 29 - September 2 </th>
     <td> <em><a href='https://registration.genomecenter.ucdavis.edu/events/Aug_2016_Bioinformatics_Galaxy_Workshop/'>Using Galaxy for Analysis of RNA-Seq, Exome-Seq, and Variants</a></em> </td>
-    <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Davis, California, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
+    <td> <img src='/images/icons/NA.png' alt='North America' align='right' /> Davis, California, United States </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:training.bioinformatics@ucdavis.edu">UC Davis Bioinformatics Training Program</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -106,32 +106,32 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   <tr>
     <th> September 3-7 </th>
     <td> <em><a href='http://www.eccb2016.org/programme/tutorials/t2/'>Tutorial: Scientific workflows under Galaxy. Use case: multiple genome comparison</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.eccb2016.org/'>European Conference on Computational Biology (ECCB 2016)</a>, The Hague, Netherlands </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://www.eccb2016.org/'>European Conference on Computational Biology (ECCB 2016)</a>, The Hague, Netherlands </td>
     <td> <a href='http://www.ac.uma.es/~ots/'>Oswaldo Trelles Salazar</a> </td>
   </tr>
   <tr>
     <th> September 12-16 </th>
     <td> <em><a href='http://sites.unica.it/metabolomicaclinica/events/scientific-school-2016/'>The Workflow4Metabolomics (W4M) online infrastructure for omics analysis with Galaxy</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://sites.unica.it/metabolomicaclinica/events/scientific-school-2016/'>Metabolomics Sardinian Scientific School: How to bridge metabolomics and genomics</a>, Pula, Italy </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='http://sites.unica.it/metabolomicaclinica/events/scientific-school-2016/'>Metabolomics Sardinian Scientific School: How to bridge metabolomics and genomics</a>, Pula, Italy </td>
     <td> E Thévenot </td>
   </tr>
   <tr>
     <th> September 12-16 </th>
     <td> <em><a href='http://www.france-bioinformatique.fr/fr/evenements/summer_school_metagenomics'>Summer School 2016 in Metagenomics</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Institut Pasteur, Paris, France </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> Institut Pasteur, Paris, France </td>
     <td> <a href='http://www.france-bioinformatique.fr/fr/evenements/summer_school_metagenomics'>Contacts</a> </td>
   </tr>
   <tr>
     <th> September 19-23 </th>
     <td> <em><a href='https://drive.google.com/file/d/0Bw3CPLmTKRT8V1p0QlU5QnYyS28/view'>High Throughput Sequencing (HTS) Data Analyses for Scientists</a></em> <div class='indent red'>This workshop is full</div></td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Freiburg, Germany </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:galaxy@informatik.uni-freiburg.de">Contact</a> </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> Freiburg, Germany </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:galaxy@informatik.uni-freiburg.de">Contact</a> </td>
   </tr>
   <tr>
     <th> September 26-28 </th>
     <td> <em><a href='http://biosb.nl/education/course-portfolio/rna-seq/'>NGS Course: RNA-seq data analysis</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Leiden University Medical Center, The Netherlands </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Peter-Bram ‘t Hoen, Jan Oosting, Celia van Gelder </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> Leiden University Medical Center, The Netherlands </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Peter-Bram ‘t Hoen, Jan Oosting, Celia van Gelder </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -139,25 +139,25 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   <tr>
     <th> October 10-13 </th>
     <td> <em><a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=83'>Metagenomic: amplicon analysis</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> INRA Auzeville, Auzeville, France </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Sarah Maman </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> INRA Auzeville, Auzeville, France </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> Sarah Maman </td>
   </tr>
   <tr>
     <th> October 18-20 </th>
     <td> <em><a href='http://www.france-bioinformatique.fr/en/evenements/galaxy4bioinformatics'>Galaxy4Bioinformatics</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Lyon, France </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://www.france-bioinformatique.fr/en/node/17'>Contacts</a> </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> Lyon, France </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://www.france-bioinformatique.fr/en/node/17'>Contacts</a> </td>
   </tr>
   <tr>
     <th> October 20 </th>
     <td> <em><a href='/events/switzerland2016/'>(third Swiss) Galaxy Workshop</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/events/sg2016/'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='/events/sg2016/'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
     <th> October 21 </th>
     <td> <em><a href='/events/germany2016/'>(second German) Galaxy Developers Day</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='/events/sg2016/'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='/events/sg2016/'>2016 Swiss-German Galaxy Tour</a> in Freiburg, Germany </td>
     <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
@@ -166,14 +166,14 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   <tr>
     <th> November 7-8 </th>
     <td> <strong><a href='/events/admin-training2016/'>Galaxy Admin Training: Introduction</a></strong> </td>
-    <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/galaxy-team/'>Galaxy Team</a> </td>
+    <td> <img src='/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/galaxy-team/'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <th> November 9-11 </th>
     <td> <strong><a href='/events/admin-training2016/'>Galaxy Admin Training: Advanced</a></strong> </td>
-    <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/galaxy-team/'>Galaxy Team</a> </td>
+    <td> <img src='/images/icons/NA.png' alt='North America' align='right' /> Salt Lake City, Utah, United States </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='/galaxy-team/'>Galaxy Team</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" text-align: center; background-color: #eef;"> <span style="font-size: larger;"> <strong>2017</strong> </span> </td>
@@ -181,8 +181,8 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   <tr>
     <th> February 3-9 </th>
     <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
-    <td> <img src='/src/images/icons/AU.png' alt='Australia' align='right' /> University of Melbourne, Victoria, Australia </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+    <td> <img src='/images/icons/AU.png' alt='Australia' align='right' /> University of Melbourne, Victoria, Australia </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -190,15 +190,15 @@ There are [a plentitude of Galaxy related events coming up](/events/). Here's wh
   <tr>
     <th> June 26-30 </th>
     <td> <strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a></strong> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Montpellier, France </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> Montpellier, France </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
@@ -209,7 +209,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 ----
 
 <div class='right'>
-<br /><a href='http://f1000research.com/channels/galaxy'><img src="/src/images/news-graphics/F1000GalaxyChannelThumb.png" alt="F1000Research Galaxy Channel" width="120" /></a>
+<br /><a href='http://f1000research.com/channels/galaxy'><img src="/images/news-graphics/F1000GalaxyChannelThumb.png" alt="F1000Research Galaxy Channel" width="120" /></a>
 </div>
 
 # F1000Research Galaxy Channel
@@ -299,7 +299,7 @@ The new papers were tagged with:
 
 # Who's Hiring
 
-<div class='right'><br /><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><br /><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -331,9 +331,9 @@ There are [over 80 publicly accessible Galaxy servers](/use/) and [four semi-pub
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
@@ -345,7 +345,7 @@ There are [over 80 publicly accessible Galaxy servers](/use/) and [four semi-pub
 <br />
 
 <div class='right'>
-<img src="/src/images/logos/MapleLeaf.png" alt="Public Health Agency of Canada - National Microbiology Laboratory" height="75" />
+<img src="/images/logos/MapleLeaf.png" alt="Public Health Agency of Canada - National Microbiology Laboratory" height="75" />
 </div>
 
 New Galaxy Deployment Catalog and [Community Log Board](/blog/) entries were added:
@@ -362,7 +362,7 @@ New Galaxy Deployment Catalog and [Community Log Board](/blog/) entries were add
 
 ### Galaxy v16.04
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
  
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[April 2016 (v16.04) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.04_announce.html)**.
 
@@ -402,7 +402,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 ### blend4php 0.1 alpha
 
-<div class='right'><a href='https://github.com/galaxyproject/blend4php'><img src="/src/images/galaxy-logos/blend4phpLogo.png" alt="" width="220" /></a></div>
+<div class='right'><a href='https://github.com/galaxyproject/blend4php'><img src="/images/galaxy-logos/blend4phpLogo.png" alt="" width="220" /></a></div>
 
 **We are pleased to announce the alpha release of the [blend4php package](https://github.com/galaxyproject/blend4php), a PHP wrapper for the [Galaxy API](https://docs.galaxyproject.org/en/master/api_doc.html).** It follows the lead of [BioBlend](https://bioblend.readthedocs.io/en/latest/) which provides a Python package for interacting with Galaxy and CloudMan--hence the use of 'blend' in the name of this package. blend4php currently offers a partial implementation of the Galaxy API and includes support for datasets, data types, folder contents, folders, genomes, group roles, groups, group users, histories, history contents, jobs, libraries, library contents, requests, roles, search, tools, toolshed repositories, users, visualizations and workflows.
 
@@ -411,7 +411,7 @@ The motivation for development of this library is for integration with [Tripal](
 Please see the [API documentation](http://galaxyproject.github.io/blend4php/docs-v0.1a/html/index.html) page for full information.
 
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
 
 ### Planemo 0.27.0
 
@@ -437,7 +437,7 @@ Highlights of June releases include:
 
 ### CloudMan 16.04
 
-<div class='right'><a href='/cloudman/'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="300" /></a></div>
 
 **We just released an update to Galaxy CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
@@ -448,7 +448,7 @@ This is a minor update release with the following changes:
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
 
 ### Pulsar 0.7.0
 
@@ -461,7 +461,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 

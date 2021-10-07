@@ -16,7 +16,7 @@ The [2012 Galaxy Community Conference](/events/gcc2012/program//) included two f
 
 ### Day 0: July 25, Wednesday, Training Day
 
-[<img class="float-left" src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="180" />](/events/gcc2012/training-day/)
+[<img class="float-left" src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="180" />](/events/gcc2012/training-day/)
 
 The [2012 Galaxy Community Conference](/events/gcc2012/program/) was preceded by a *[Training Day](/events/gcc2012/training-day/)*, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics. 
 
@@ -130,7 +130,7 @@ The main meeting started on Thursday, July 26, and featured submitted talks from
 | 11:55  | <div class="float-right"> *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Liefeld.pdf), [PPTX](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Liefeld.pptx), [Video part 1](https://uic.sharestream.net/ssdcms/i.do?u=cc90a8540a7f4ec) (starts @ 54:10), [part 2](https://uic.sharestream.net/ssdcms/i.do?u=afa05c3a39584a7)* </div> *[GenomeSpace](/events/gcc2012/abstracts/#genomespace)* <div class='indent'> Ted Liefeld, Broad Institute </div>  |
 | **12:15-1:10** | **Lunch** |
 | **1:10-2:50** | **Session 7**<br />Moderator: Ross Lazarus, [BakerIDI](http://www.bakeridi.edu.au/) |
-| **1:10** | <div class="float-right"> *[PDF](https://deport/galaxyproject.org/hub/attachments/documents/presentations/gcc2012/vonKuster.pdf), [PPT](https://deport/galaxyproject.org/hub/attachments/documents/presentations/gcc2012/vonKuster.ppt),[Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad)* </div> *[Tool Shed and Changes to Galaxy Distributions](/src/events/gcc2012/abstracts#tool_shed_and_hanges_to_galaxy_distributions)* <div class="indent"> [Greg von Kuster](/people/greg-vonkuster/), Penn State University </div> |
+| **1:10** | <div class="float-right"> *[PDF](https://deport/galaxyproject.org/hub/attachments/documents/presentations/gcc2012/vonKuster.pdf), [PPT](https://deport/galaxyproject.org/hub/attachments/documents/presentations/gcc2012/vonKuster.ppt),[Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad)* </div> *[Tool Shed and Changes to Galaxy Distributions](/events/gcc2012/abstracts#tool_shed_and_hanges_to_galaxy_distributions)* <div class="indent"> [Greg von Kuster](/people/greg-vonkuster/), Penn State University </div> |
 | **1:30** | **Lightning Talks** |
 |  | <div class="float-right"> *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Helseth.pdf), [PPTX](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Helseth.pptx), [Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad) (starts @ 24:40)* </div> *Customizing Galaxy for a Hospital Environment* <div class='indent'> Larry Helseth, NorthShore University HealthSystem </div> |
 |  | <div class="float-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Coraor.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad) (starts @ 30:30)* </div> *ObjectStore* <div class='indent'> Nate Coraor, Penn State University </div> |

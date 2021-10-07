@@ -2,7 +2,7 @@
 title: "GCC2014 Training Day Topics: Vote!"
 date: "2014-01-07"
 ---
-<div class='right'><a href='/events/gcc2014/training-day/'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014 Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2014/training-day/'><img src="/images/logos/GCC2014LogoTall200.png" alt="GCC2014 Training Day" width="150" /></a></div>
 
 What topics should be offered at the [GCC2014 Training Day](/events/gcc2014/training-day/)?
 

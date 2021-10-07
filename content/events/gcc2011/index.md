@@ -5,7 +5,7 @@ days: 2
 tease: "GDC becomes GCC, and moves to Europe"
 continent: EU
 location: "Lunteren, The Netherlands"
-image: /src/events/GCC2011Logo400.png
+image: /events/GCC2011Logo400.png
 location_url: http://www.congrescentrum.com/accommodations/de_werelt
 external_url: https://galaxyproject.org/gcc2011/
 contact: Organizers

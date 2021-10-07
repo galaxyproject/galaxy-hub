@@ -2,7 +2,7 @@
 title: "Galaxy Internships @ EMBL"
 date: "2012-12-18"
 ---
-<div class='right'><a href='http://www.embl.de/aboutus/jobs/searchjobs/index.php?newlang=1&newms=sr&searchregion=641'><img src="/src/images/logos/EMBLLogo151.png" alt="2 internships @ EMBL" /></a></div>
+<div class='right'><a href='http://www.embl.de/aboutus/jobs/searchjobs/index.php?newlang=1&newms=sr&searchregion=641'><img src="/images/logos/EMBLLogo151.png" alt="2 internships @ EMBL" /></a></div>
 
 Two [paid internships are available](http://www.embl.de/aboutus/jobs/searchjobs/index.php?newlang=1&newms=sr&searchregion=641) at the [EMBL Heidelberg](http://www.embl.de), both working extensively with Galaxy.
 

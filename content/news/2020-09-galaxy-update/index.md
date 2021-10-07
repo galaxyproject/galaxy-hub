@@ -6,7 +6,7 @@ date: "2020-09-01"
 
 # In the  September 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * [BCC2020 Wrap up and GCC2021 is on the way](#bcc2020-is-done-gcc2021-is-coming)
 * [More event news](#more-event-news)
@@ -27,7 +27,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
-<img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
+<img class="card-img-top" src="/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
 <div class="card-header">[BCC2020](https://bcc2020.github.io/)</div>
 
 The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brought together over 800 people for the second joint [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference (GCC)](/gcc/). There are several write ups of the event:
@@ -39,7 +39,7 @@ The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.
 
 
 <div class="card border-info" style="min-width: 16rem; max-width: 40rem">
-<img class="card-img-top" src="/src/events/bcc2020/bcc2020-9000-minutes.png" alt="Galaxy Training at BCC2020" />
+<img class="card-img-top" src="/events/bcc2020/bcc2020-9000-minutes.png" alt="Galaxy Training at BCC2020" />
 <div class="card-header">[BCC2020: the numbers](https://bcc2020.sched.com/)</div>
 
 * 804 people registered for one or more events
@@ -87,14 +87,14 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy_logo_25percent.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header">[Galaxy Developer Roundtable](/community/devroundtable/)</div>
 
 The next two [roundtables](/community/devroundtable/) are [September 3 (this Thursday)](/events/2020-09-03-dev-roundtable/) and September 17. This week's topics are [interactive PR commands](https://github.com/almahmoud/galaxy/pull/9) by Alex Mahmood, and workflow updates - format, tooling, and GUI by John Chilton.
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/migale-logo-orange.png" alt="MIGALE" />
+<img class="card-img-top" src="/images/logos/migale-logo-orange.png" alt="MIGALE" />
 <div class="card-header">[Cycle "Bioinformatique par la pratique"](https://migale.inra.fr/trainings)</div>
 
 Five workshops this fall, all in Jouy-en-Josas and in French, and starting September 10.  Oui.
@@ -103,7 +103,7 @@ Five workshops this fall, all in Jouy-en-Josas and in French, and starting Septe
 
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" alt="5 Workshops" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-australia.png" alt="5 Workshops" />
 <div class="card-header"></div>
 
 There are [two upcoming Galaxy Australia workshops offered by QCIF](https://www.qcif.edu.au/training/training-courses/) on  Galaxy (Intro and RNA-Seq Analysis).  The first one is 8 September.
@@ -136,7 +136,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card border-info"  style="min-width: 16rem;">
 <div class="card-header">[PiRATE](/use/pirate/)</div>
 
-<img class="card-img-top" src="/src/use/pirate/pirate-brand-line.png" alt="PiRATE" />
+<img class="card-img-top" src="/use/pirate/pirate-brand-line.png" alt="PiRATE" />
 
 [PiRATE, a **Pi**peline to **R**etrieve and **A**nnotate **T**ransposable **E**lements](https://www.seanoe.org/data/00406/51795/), is a Galaxy VM for detecting, classifying and annotating TEs of non-model organisms.  It has a [tutorial](https://archimer.ifremer.fr/doc/00412/52373/) and user support.  PiRATE is supported by [IFREMER](https://wwz.ifremer.fr/en/).
 </div>
@@ -145,7 +145,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[UseGalaxy.fr](/use/usegalaxy-fr/)</div>
 
-<img class="card-img-top" src="/src/use/usegalaxy-fr/usegalaxy-fr-logo-slice.png" alt="UseGalaxy.fr" />
+<img class="card-img-top" src="/use/usegalaxy-fr/usegalaxy-fr-logo-slice.png" alt="UseGalaxy.fr" />
 
 The [UseGalaxy.fr server](https://usegalaxy.fr/) is a general purpose omics analysis server hosted by the [French Institute of Bioinformatics (IFB)](https://www.france-bioinformatique.fr/en/).  In addition, this server also hosts the specialized [Workflow4Metabolomics](/use/workflow4metabolomics/) and [ProteoRE](/use/proteore/) servers.
 
@@ -156,7 +156,7 @@ User support is provided through [a discourse-based forum](https://community.fra
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[Machine Learning Workbench](/use/ml-workbench/)</div>
 
-<img class="card-img-top" src="/src/use/ml-workbench/ml-workbench-logo.png" alt="ML Workbench" />
+<img class="card-img-top" src="/use/ml-workbench/ml-workbench-logo.png" alt="ML Workbench" />
 
 A comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, consolidated workflows for end-to-end machine learning analysis and training materials to showcase the usage of these tools.  [This workbench](https://ml.usefalaxy.eu/) includes scikit-learn, Keras (a deep learning library based on TensorFlow) and various other tools to transform, learn and predict and plot your data.  The server is supported by the [Goecks Lab](https://goeckslab.org/) at OHSU and the [Freiburg Galaxy Project](https://usegalaxy-eu.github.io/freiburg/).
 </div>
@@ -165,7 +165,7 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[deepTS](/use/deepts/)</div>
 
-<img class="card-img-top" src="/src/use/deepts/deepts-overview-slice.png" alt="deepTS" />
+<img class="card-img-top" src="/use/deepts/deepts-overview-slice.png" alt="deepTS" />
 
 [deepTS](https://github.com/cma2015/deepTS)  is a Galaxy platform for identifying, visualizing and analyzing Transcriptional Switch (TS) events from pairwise, temporal and population transcriptome data. A [tutorial](https://github.com/cma2015/DeepTS) and user support are provided. deepTS is available as both a [server](https://deepts.nwafu.edu.cn/) and a [Docker container](https://hub.docker.com/r/malab/deepts). It is supported by [Northwest A&F University](http://en.nwsuaf.edu.cn/index.htm).
 </div>
@@ -174,7 +174,7 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[BioCompute Object Galaxy](/use/biocompute-object/)</div>
 
-<img class="card-img-top" src="/src/use/biocompute-object/biocompute-objects-logo-wide.png" alt="BioCompute Object Galaxy" />
+<img class="card-img-top" src="/use/biocompute-object/biocompute-objects-logo-wide.png" alt="BioCompute Object Galaxy" />
 
 [BioCompute Objects](https://biocomputeobject.org/) and [BioCompute Object Galaxy server](https://galaxy.aws.biochemistry.gwu.edu/1) supports the [IEEE 2791-2020 standard](https://gitlab.com/IEEE-SA/2791/ieee-2791-schema) for bioinformatics pipelines/workflows in the High-Throughput Sequencing (HTS) space.  This effort is supported by the [FDA](https://smhs.gwu.edu/news/gw-led-consortium-receives-22m-grant-fund-biocompute-object-specification-project) and the [HIVE Lab at George Washington University](https://hive.biochemistry.gwu.edu/home).
 </div>
@@ -183,7 +183,7 @@ A comprehensive set of data preprocessing, machine learning, deep learning and v
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html)
 * Galaxy Europe [is joining the NFDI-DataPLANT consortiu]m](https://galaxyproject.eu/posts/2020/08/22/DataPLANT/)
@@ -245,7 +245,7 @@ By Nuwan Goonasekera, Alexandru Mahmoud, Mohamad Safadieh, Enis Afgan
 
 A data browser, project-level isolation, and the latest release of Galaxy.
 
-<img class="card-img-bottom" src="/src/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL Beta 5" />
+<img class="card-img-bottom" src="/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg" alt="GVL Beta 5" />
 </div>
 
 
@@ -266,7 +266,7 @@ By Anne Fouilloux
 
 July has been a very busy month for Galaxy Climate ending with several sessions dedicated to Climate Science at BCC2020.
 
-<img class="card-img-bottom" src="/src/use/climate-science-workbench/galaxy-climate-logo-with-text-920.png" alt="Climate Science Workbench" />
+<img class="card-img-bottom" src="/use/climate-science-workbench/galaxy-climate-logo-with-text-920.png" alt="Climate Science Workbench" />
 </div>
 
 
@@ -287,7 +287,7 @@ By Peter van Heusden
 
 The COVID-19 pandemic has forced a rapid - and unplanned - shift towards online events instead of the usual roster of face-to-face seminars and conferences.
 
-<img class="card-img-bottom" src="/src/images/logos/sasbi-logo-with-text.png" alt="BCC2020 training and more" />
+<img class="card-img-bottom" src="/images/logos/sasbi-logo-with-text.png" alt="BCC2020 training and more" />
 </div>
 
 
@@ -298,7 +298,7 @@ By Dave Clements
 
 Ten thousand publications have used, referenced, extended and implemented Galaxy in the past 15 years.  Half of those pubs appeared in just the last 3 years.  Learn about this and other trends in the Galaxy community, as revealed by what we are publishing.
 
-<img class="card-img-bottom" src="/src/blog/2020-08-10k-pubs/top-20-slice.png" alt="Top 20 Galaxy Journals" />
+<img class="card-img-bottom" src="/blog/2020-08-10k-pubs/top-20-slice.png" alt="Top 20 Galaxy Journals" />
 </div>
 
 
@@ -356,7 +356,7 @@ This tutorial was updated and expanded by [Simon Bray](https://training.galaxypr
 
 Sections on job configuration in Ansible were added to the [Galaxy Installation with Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html) tutorial by [Simon Gladman](https://training.galaxyproject.org/training-material/hall-of-fame/slugger70/) and to the [Running Jobs on Remote Resources with Pulsar](https://training.galaxyproject.org/training-material/topics/admin/tutorials/pulsar/tutorial.html#configuring-galaxy) by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/). 
 
-<img class="card-img-bottom" src="/src/images/logos/ansible-logo-wide.png" alt="Ansible, or else" />
+<img class="card-img-bottom" src="/images/logos/ansible-logo-wide.png" alt="Ansible, or else" />
 </div>
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
@@ -364,7 +364,7 @@ Sections on job configuration in Ansible were added to the [Galaxy Installation 
 
 This tutorial saw a major revamp by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/).  Learn how to use Ansible for your deployment recipes.
 
-<img class="card-img-bottom" src="/src/images/logos/ansible-logo-wide.png" alt="Ansible, or else" />
+<img class="card-img-bottom" src="/images/logos/ansible-logo-wide.png" alt="Ansible, or else" />
 </div>
 
 
@@ -630,7 +630,7 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 
 Quatre postes (CDI) de bioinformaticiens / biostatisticiens (H/F) à l’Institut Pasteur (Paris).
 
-<img class="card-img-bottom" src="/src/images/logos/InstitutePasteurLogoTrans.png" alt="Institut Pasteur" />
+<img class="card-img-bottom" src="/images/logos/InstitutePasteurLogoTrans.png" alt="Institut Pasteur" />
 </div>
 
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
@@ -638,7 +638,7 @@ Quatre postes (CDI) de bioinformaticiens / biostatisticiens (H/F) à l’Institu
 
 The [Plant Computational Genomics laboratory](http://plantcompgenomics.com/) at the University of Connecticut (Storrs, CT) has an opening for a Postdoctoral Scholar, developing mechanisms for cross-platform data/application sharing that builds on existing efforts with Galaxy, the [Tripal platform](https://tripal.info), and cloud-based HPC.
 
-<img class="card-img-bottom" src="/src/images/logos/uconn-pcg.png" alt="UConn" />
+<img class="card-img-bottom" src="/images/logos/uconn-pcg.png" alt="UConn" />
 </div>
 
 
@@ -649,7 +649,7 @@ The Schatz Lab  at Johns Hopkins University is looking for
 * self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
 * ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 
-<img class="card-img-bottom" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
+<img class="card-img-bottom" src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
 </div>
 
 
@@ -658,7 +658,7 @@ The Schatz Lab  at Johns Hopkins University is looking for
 
 The [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC-CNS)](https://www.bsc.es/) is hiring.
 
-<img class="card-img-bottom" src="/src/images/logos/barcelona-sc-logo.png" alt="Barcelona Supercomputing Center" />
+<img class="card-img-bottom" src="/images/logos/barcelona-sc-logo.png" alt="Barcelona Supercomputing Center" />
 </div>
 
 
@@ -669,7 +669,7 @@ The [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC
 
 ... We are building on the internationally used platform [FAIRDOMhub](https://fairdomhub.org) for data management, and Galaxy (https://www.usegalaxy.be and https://usegalaxy.eu) for data analysis.
 
-<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
+<img class="card-img-bottom" src="/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
 <div class="card border-info" style="min-width: 18rem; max-width: 24rem;">
@@ -677,7 +677,7 @@ The [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC
 
 [Black Canyon Consulting](http://www.bccdc.net/) at NCBI, Bethesda, Maryland, United States.
 
-<img class="card-img-bottom" src="/src/news/2020-06-galaxy-update/black-canyon.png" alt="Black Canyon Consulting at NCBI" />
+<img class="card-img-bottom" src="/news/2020-06-galaxy-update/black-canyon.png" alt="Black Canyon Consulting at NCBI" />
 </div>
 
 </div>
@@ -692,7 +692,7 @@ The [Barcelona Supercomputing Center - Centro Nacional de Supercomputación (BSC
 
 Command-line utilities to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the [Bioblend](http://bioblend.readthedocs.org/en/latest/) library.  This release features new commands (search toolsheds, delete users, uninstall tools), fixes & updates, and newly extended documentation.
 
-<img class="card-img-bottom" src="/src/images/logos/nebulizer-logo.png" alt="Nebulizer" />
+<img class="card-img-bottom" src="/images/logos/nebulizer-logo.png" alt="Nebulizer" />
 </div>
 
 
@@ -717,7 +717,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 This write up by the [Chan Zuckerberg Science Initiative](https://medium.com/@cziscience) includes a [section on Irene Papatheodorou group's work](https://medium.com/@cziscience/fostering-collaborative-tools-for-science-8b8aa81758a9#ob3b) on the [Human Cell Atlas](https://humancellatlas.usegalaxy.eu/).
 
-<img class="card-img-bottom" src="/src/use/human-cell-atlas/human-cell-atlas-cluster.png" alt="Human Cell Atlas on Galaxy" />
+<img class="card-img-bottom" src="/use/human-cell-atlas/human-cell-atlas-cluster.png" alt="Human Cell Atlas on Galaxy" />
 </div>
 
 

@@ -5,7 +5,7 @@ title: GCC2013 Training Day Virtual Machines
 
 <slot name="/events/gcc2013/linkbox" />
 
-<div class='left'><a href='/events/gcc2013/training-day/vms/'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
+<div class='left'><a href='/events/gcc2013/training-day/vms/'><img src="/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 (*Already know about virtual machines?  Then skip the intro and go straight to [What do I ABSOLUTELY need to do before I arrive?](/events/gcc2013/training-day/vms/#what-do-i-absolutely-need-to-do-before-i-arrive)*)
 
@@ -27,7 +27,7 @@ You will need to do two things before Training Day starts. These steps take some
 
 So, **please do these steps before you arrive.**
 
-<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
+<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
 
 ## 1. Install VirtualBox on your laptop
 

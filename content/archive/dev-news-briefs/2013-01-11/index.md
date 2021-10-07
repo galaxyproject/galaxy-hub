@@ -125,9 +125,9 @@ Although there are no specific known security fixes in this distribution, all Ga
 [News](/news/), ***[January 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-13)***
 
 <div class='right'>
-<a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="160" /></a>
+<a href='http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay'><img src="/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="160" /></a>
 <br />
-<a href='http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013_01_16'><img src="/src/images/logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a>
+<a href='http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013_01_16'><img src="/images/logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a>
 </div>
 
 * [GCC2013](http://wiki.galaxyproject.org/Events/GCC2013):

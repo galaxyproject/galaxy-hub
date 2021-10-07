@@ -24,23 +24,23 @@ Take the following steps to register your Galaxy instance (RP) to the ELIXIR AAI
 2. [Click here to start register your client](https://spreg.aai.elixir-czech.cz/spreg/auth) 
 and you'll see a dashboard as the following: 
 
-    ![image](/src/authnz/config/oidc/idps/elixir-aai/register-a-new-client-1.png)
+    ![image](/authnz/config/oidc/idps/elixir-aai/register-a-new-client-1.png)
 
 3. Click the green "New Client" button:
 
-    ![image](/src/authnz/config/oidc/idps/elixir-aai/register-a-new-client-2.png)
+    ![image](/authnz/config/oidc/idps/elixir-aai/register-a-new-client-2.png)
 
 4. Fill in the "Client name" and "Redirect URI" fields, and all the other fields
 are optional. 
 
-    ![image](/src/authnz/config/oidc/idps/elixir-aai/register-a-new-client-3.png)
+    ![image](/authnz/config/oidc/idps/elixir-aai/register-a-new-client-3.png)
 
 5. Click the green "Save" button at the bottom (or at the top) and make a note of all 
 the generated credentials that is made available to you. The `Client ID` and 
 `Client Secret` fields will be used to configure Galaxy, and `Client Configuration URL`
 and `Registration Access Token` will be needed to access the client registration in future.
 
-    ![image](/src/authnz/config/oidc/idps/elixir-aai/register-a-new-client-4.png)
+    ![image](/authnz/config/oidc/idps/elixir-aai/register-a-new-client-4.png)
 
 6. Drop the following information by e-mail to aai-contact@elixir-europe.org: 
 
@@ -103,4 +103,4 @@ matching the values you got from the client registration process, as well as the
 Having set this configuration, restart Galaxy to have the option of login to
 Galaxy with ELIXIR AAI identity:
 
-![image](/src/authnz/config/oidc/idps/elixir-aai/login-including-elixir.png)
+![image](/authnz/config/oidc/idps/elixir-aai/login-including-elixir.png)

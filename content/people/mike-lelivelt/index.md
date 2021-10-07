@@ -1,5 +1,5 @@
 
-<div class='right'><a href='http://lifetech.com'><img src="/src/images/people/mike-lelivelt.png" alt="" width="125" /></a></div>
+<div class='right'><a href='http://lifetech.com'><img src="/images/people/mike-lelivelt.png" alt="" width="125" /></a></div>
 
 # Mike Lelivelt
 

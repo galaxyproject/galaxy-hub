@@ -4,7 +4,7 @@ tease: "Easter Holiday, Deadlines and GCC2019"
 date: "2019-04-23"
 ---
 
-[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
+[<img class="float-right" style="max-width: 300px" src="/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
 
 Hello all,
 

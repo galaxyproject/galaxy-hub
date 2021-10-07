@@ -4,14 +4,14 @@ title: "GCC2019 Venue: Freiburg Germany"
 
 <slot name="/events/gcc2019/header" />
 
-[<img class="float-right" style="max-width: 200px" src="/src/images/photos/freiburg_street_thumb.jpg" alt="Freiburg Germany"  />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
+[<img class="float-right" style="max-width: 200px" src="/images/photos/freiburg_street_thumb.jpg" alt="Freiburg Germany"  />](https://commons.wikimedia.org/wiki/File:Altstadt,_Freiburg,_Germany_-_panoramio_%282%29.jpg)
 </div>
 
 [Freiburg Germany](https://visit.freiburg.de/en) is on the edge of the Black Forest, and is famous for its architecture, cobblestone streets and historic districts, and is home to one of Germany's oldest universities (and our host)!. Freiburg is in the Baden wine-growing region and *is the sunniest city in Germany.*
 
 GCC2019 will be held at [Konzerthaus Freiburg](http://www.konzerthaus.freiburg.de/) in central Freiburg, adjacent to the [Freiburg train station](https://www.bahnhof.de/bahnhof-de/Freiburg__Breisgau__Hbf-1039062).
 
-[<img class="float-right" style="max-width: 200px"  src="/src/events/gcc2019/venue/freiburg-hotel.jpg" />](http://tportal.toubiz.de/freiburgKongresse/ukv/?doSearch=1&ukv_result_order=1&number_adult=1&rate=FIT00020070425997179&date_from=29.06.2019&date_to=07.07.2019&reset=1&lang=en)
+[<img class="float-right" style="max-width: 200px"  src="/events/gcc2019/venue/freiburg-hotel.jpg" />](http://tportal.toubiz.de/freiburgKongresse/ukv/?doSearch=1&ukv_result_order=1&number_adult=1&rate=FIT00020070425997179&date_from=29.06.2019&date_to=07.07.2019&reset=1&lang=en)
 
 ## Lodging
 
@@ -39,7 +39,7 @@ The airport in the north is close to Karlsruhe and [Baden-Baden](https://www.bad
 
 <div class="center inline-div">
 
-[<img src="/src/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy Freiburg Project" height="120" />](http://www.bioinf.uni-freiburg.de/Galaxy/) &nbsp;&nbsp; [<img src="/src/images/logos/UniFreiburg.png" alt="University of Freiburg" height="120" />](http://www.uni-freiburg.de/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/src/images/logos/deNBILogo.png" alt="de.NBI :the German Network for Bioinformatics Infrastructure" height="60" />](https://www.denbi.de/)
+[<img src="/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy Freiburg Project" height="120" />](http://www.bioinf.uni-freiburg.de/Galaxy/) &nbsp;&nbsp; [<img src="/images/logos/UniFreiburg.png" alt="University of Freiburg" height="120" />](http://www.uni-freiburg.de/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/images/logos/deNBILogo.png" alt="de.NBI :the German Network for Bioinformatics Infrastructure" height="60" />](https://www.denbi.de/)
 
 </div>
 

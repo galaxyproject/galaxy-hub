@@ -10,4 +10,4 @@ The position includes the development and management of services aimed at life s
 
 [Nikolay Vazov](http://www.usit.uio.no/english/about/organisation/bps/rc/rss/staff/nikolaiv/index.html)
 
-<div class='center'><a href='http://uio.easycruit.com/vacancy/1347839/69316?iso=no'><img src="/src/images/logos/UiOLogo.png" alt="Opening for a developer / bioinformatician" width="300" /></a></div>
+<div class='center'><a href='http://uio.easycruit.com/vacancy/1347839/69316?iso=no'><img src="/images/logos/UiOLogo.png" alt="Opening for a developer / bioinformatician" width="300" /></a></div>

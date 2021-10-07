@@ -2,7 +2,7 @@
 title: "GCC2012 Abstract Submission is Open"
 date: "2012-02-13"
 ---
-<div class='right'><a href='/events/gcc2012/abstracts/'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" /></a></div>
+<div class='right'><a href='/events/gcc2012/abstracts/'><img src="/images/galaxy-logos/GCC2012Logo200.png" /></a></div>
 
 [Abstracts](/events/gcc2012/abstracts/) are now being accepted for oral presentations at the [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/).  Submissions on any topics of interest to the Galaxy community are encouraged. Areas of interest include, but are not limited to:
 

@@ -4,7 +4,7 @@ tease: 'Events (Admin Training, PAG, GSOC, GCC, GalaxyAdmins), Platforms, Pubs, 
 date: "2019-01-04"
 ---
 
-[<img class="float-right" src="/src/news/2019-01-galaxy-update/2019-01-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
+[<img class="float-right" src="/news/2019-01-galaxy-update/2019-01-news-summary.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *January  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
@@ -33,7 +33,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 # Event News
 
 <div class="float-right">
-<img style="max-width: 460px" src="/src/events/admin-training2016/2016-admin-training-feedback-cloud.png" alt="Feedback from 2016 Admin Training Participants" />
+<img style="max-width: 460px" src="/events/admin-training2016/2016-admin-training-feedback-cloud.png" alt="Feedback from 2016 Admin Training Participants" />
 <div class="center">Feedback from a previous Admin Training.</div>
 </div>
 
@@ -41,7 +41,7 @@ Tired of sitting in the same old *time zone* ?  Here are some upcoming events to
 
 ## 2019 Galaxy Admin Training
 
-[<img class="float-left" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" style="max-width: 150px" />](/events/2019-admin-training/)
+[<img class="float-left" src="/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" style="max-width: 150px" />](/events/2019-admin-training/)
 
 **There is still space, but [register today](/events/2019-admin-training/#registration) as that space is limited and the workshop will likely sell out.**
 
@@ -55,7 +55,7 @@ Going to **[Plant and Animal Genome](http://www.intlpag.org/)** in San Diego thi
 
 There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40d5302) featuring 6 talks from the community**, plus a **[page full of other talks and posters](/events/2019-pag/)** during the rest of the conference.  Some Galaxy highlights from PAG 2019:
 
-[<img class="float-right" src="/src/events/2019-pag/pag2019.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/events/2019-pag/)
+[<img class="float-right" src="/events/2019-pag/pag2019.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/events/2019-pag/)
 
 * **[ELIXIR Resources for Interoperability](https://plan.core-apps.com/pag_2019/abstract/8d1a2a44-8bdc-42f3-90ab-90637edc71cf)**, [Frederik Coppens](https://www.psb.ugent.be/lab-members-and-alumni-frcop)
 * **[Execution of Scientific Workflows for Tripal-Based Community Databases](https://plan.core-apps.com/pag_2019/abstract/d86d6711-9cff-438c-8e1f-af12a4b993e5)**, Shawna Spoor
@@ -72,7 +72,7 @@ See the **[Galaxy @ PAG 2019](/events/2019-pag/)** page for a complete list.
 
 ## Galaxy needs your Google Summer of Code Project suggestions
 
-[<img class="float-left" src="/src/develop/gsoc/ogi-gsoc-3-suns.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/news/2018-12-gsoc/)
+[<img class="float-left" src="/develop/gsoc/ogi-gsoc-3-suns.png" alt="Galaxy @ PAG 2019" style="max-width: 300px" />](/news/2018-12-gsoc/)
 
 Galaxy will be applying to participate in the [2019 Google Summer of Code](https://summerofcode.withgoogle.com/).  We will again be participating as part of the **[Open Genome Informatics Group](http://gmod.org/wiki/GSoC)** that also includes [Bioconda](https://bioconda.github.io/), [GMOD](http://gmod.org/), [Reactome](https://reactome.org), [MGI](http://www.informatics.jax.org/), [OICR](https://oicr.on.ca/research-portfolio/), and [WormBase](http://www.wormbase.org/).
 
@@ -82,9 +82,9 @@ The deadline for submitting your project proposals is February 1.
 
 ## GCC2019 Training Topic Nomination Extended to 15 January
 
-[<img class="float-right" src="/src/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
+[<img class="float-right" src="/news/2018-12-gcc2019-training-nomination/training_gcc_logo_blue_bg.png" alt="GCC2019" style="max-width: 300px"/>](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)
 
-The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/src/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
+The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
 **The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
 
@@ -104,7 +104,7 @@ Please give some thought to what topics you would like to see offered, or that y
 
 ## GalaxyAdmins needs your topic suggestions
 
-[<img class="img-fluid mx-auto float-right" src="/src/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
+[<img class="img-fluid mx-auto float-right" src="/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
 
 After a two year hiatus, the [bimonthly online GalaxyAdmins meetups](/community/galaxy-admins/meetups/) will return on [February 28](/community/galaxy-admins/meetups/2019-03-21/). [GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for Galaxy installations. Our online meetups are around an hour long and feature a presentation followed by an open discussion.  It's a great place to catch up on what your fellow admins are thinking about.
 
@@ -240,7 +240,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 ## EGI Marketplace
 
-<img class="float-left" style="max-width: 400px" src="/src/use/archive/egi/egi.png" alt="EGI Marketplace" />
+<img class="float-left" style="max-width: 400px" src="/use/archive/egi/egi.png" alt="EGI Marketplace" />
 
 [EGI](https://www.egi.eu/) is a [federation of hundreds of data and compute centres worldwide and tens of cloud providers](https://marketplace.egi.eu/content/4-about-us) united by a mission to support research activities.  Galaxy instances are available to users worldwide under the EGI Marketplace's [Applications on Demand BETA](https://marketplace.egi.eu/42-applications-on-demand-beta) program. You need to create an account and then apply for an allocation.
 
@@ -249,7 +249,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 ## ChemFlow
 
-[<img class="float-right" src="/src/use/chemflow/chemflow-logo.png" alt="ChemFlow Logo" />](/use/chemflow/)
+[<img class="float-right" src="/use/chemflow/chemflow-logo.png" alt="ChemFlow Logo" />](/use/chemflow/)
 
 The [ChemFlow public Galaxy server](https://vm-chemflow-francegrille.eu/) supports *Chemometrics* and infrared spectrometry data analysis.  ChemFlow has a [detailed tutorial](https://chemproject.org/wakka.php?wiki=AideChemflow) (although it's in French), and an [onlinie support form](https://chemproject.org/wakka.php?wiki=NousContacter).  ChemFlow is supported by the [ChemProject](https://chemproject.org/wakka.php?wiki=PagePrincipale), a consortium of French research organizations.
 
@@ -286,7 +286,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Posts
 
-[<img class="float-right" src="/src/images/people/SimonGladman.jpg" alt="Galactic Blog" style="max-width: 220px" />](/src/blog/)
+[<img class="float-right" src="/images/people/SimonGladman.jpg" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
 
 There is one new *[Galactic Blog](/blog/)* entry:
 
@@ -298,7 +298,7 @@ There is one new *[Galactic Blog](/blog/)* entry:
 
 # Who's Hiring
 
-<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
@@ -316,7 +316,7 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
 * [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
-* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/).
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States).
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -331,7 +331,7 @@ Here some significant activity from the [Galaxy Training Materials](https://gala
 
 ## GTN Training Materials
 
-[<img class="float-right img-responsive" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
+[<img class="float-right img-responsive" src="/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
 * New [Visualization of RNA-Seq results with Volcano Plot tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-volcanoplot/tutorial.html), by [Maria Doyle](https://github.com/mblue9)
 * New [Visualization of RNA-Seq results with heatmap2 tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-heatmap2/tutorial.html), [Maria Doyle](https://github.com/mblue9)
@@ -351,7 +351,7 @@ Here some significant activity from the [Galaxy Training Materials](https://gala
 
 # ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in December 2018](/toolshed/contributions/2018-12/).
 
@@ -362,7 +362,7 @@ New additions to the Galaxy Ecosystem.
 
 ## Tripal Galaxy Module 1.0
 
-[<img class="float-right" src="/src/images/logos/tripal-logo-dark.png" alt="Tripal Galaxy" width="200" />](https://tripal-galaxy.readthedocs.io/en/latest/)
+[<img class="float-right" src="/images/logos/tripal-logo-dark.png" alt="Tripal Galaxy" width="200" />](https://tripal-galaxy.readthedocs.io/en/latest/)
 
 [Tripal Galaxy](https://tripal-galaxy.readthedocs.io/en/latest/) is a [Drupal](https://www.drupal.org/) module is designed to support integration of the [Tripal online database construction toolkit](http://tripal.info/) with Galaxy. It uses the [blend4php](https://github.com/galaxyproject/blend4php) library. In the past, community databases have often provided analytical tools that come prepared with site-specific data. Examples include BLAST, CAP3, and InterProScan servers, for example. By integrating Tripal with Galaxy, the Tripal-based community database can offer more complicated analytical tools that support larger data sets using Galaxy as a backend.
 
@@ -376,7 +376,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 ## Planemo 0.58.0
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -396,7 +396,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 ## Galaxy Help: The new Q&A site for Galaxy
 
-[<img class="float-right" src="/src/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." style="max-width: 200px" />](https://help.galaxyproject.org/)
+[<img class="float-right" src="/news/2018-11-help/galaxy-help.png" alt="Galaxy has a new help site." style="max-width: 200px" />](https://help.galaxyproject.org/)
 
 **Visit the new [Galaxy Community Q&A web site](https://help.galaxyproject.org/).**  Galaxy Help joins the Galaxy Gitter channels, Galaxy mailing lists and the Galaxy Hub as [another place to get answers to your Galaxy related questions](/support/).
 

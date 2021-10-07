@@ -2,7 +2,7 @@
 title: "September 2013 Galaxy Update"
 date: "2013-08-30"
 ---
-<div class='right'><a href='/galaxy-updates/2013-09/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="September 2013 Galaxy Update" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/2013-09/'><img src="/images/logos/GalaxyUpdate200.png" alt="September 2013 Galaxy Update" width=150 /></a></div>
 
 The [September 2013 Galaxy Update is hot off the press](/galaxy-updates/2013-09/):
 
@@ -18,4 +18,4 @@ The [September 2013 Galaxy Update is hot off the press](/galaxy-updates/2013-09/
 
 If you have anything you would like to see in the next *[Galaxy Update](/galaxy-updates/)*, please let us know.
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

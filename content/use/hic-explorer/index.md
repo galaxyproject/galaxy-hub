@@ -8,7 +8,7 @@ platforms:
     platform_text: "Public server hosted by usegalaxy.eu"
     platform_location: DE
 summary: "Tools to process and visualize chromosome conformation."
-image: "/src/use/hic-explorer/hic.png"
+image: "/use/hic-explorer/hic.png"
 comments:
   - "Galaxy HiCExplorer is a web server that facilitates
 the study of the 3D conformation of chromatin by allowing

@@ -39,7 +39,7 @@ Galaxy's **Cloudman** now has an admin interface that allows you to gain insight
 
 To get to the admin interface, just click the 'Admin' link at the top right corner on the main **Cloudman** UI.
 
-![cloudman](/src/archive/dev-news-briefs/2011-06-23/2011_06_23_cloudman.png)
+![cloudman](/archive/dev-news-briefs/2011-06-23/2011_06_23_cloudman.png)
 
 ### New Galaxy Tool Shed
 

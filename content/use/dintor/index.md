@@ -8,7 +8,7 @@ platforms:
     platform_text: "Dintor: Data Integrator Tool Suite"
     platform_location: US
 summary: "GWA and NGS tools and modules for functional annotation of genes and gene products "
-image: "/src/use/dintor/dintor.png"
+image: "/use/dintor/dintor.png"
 comments:
   - 'A "suite of tools that facilitate working with GWA and NGS data" and "offers modules for high level functional annotation of genes and gene products such as gene set prioritization, functional similarity of proteins, or clinical significance of variation data. Each of these tools has been designed to perform a basic task independently."'
   - 'Includes "more than thirty modules ready for use by bioinformaticians and biologists working in genomics research."'

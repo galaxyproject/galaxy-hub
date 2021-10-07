@@ -1,7 +1,7 @@
 ---
 title: Including installation information or 3rd-party tool dependency licensing information in your repository
 ---
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main Tool Shed](/src/images/logos/ToolShed.jpg)</a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main Tool Shed](/images/logos/ToolShed.jpg)</a> </div>
 
 Include important information like repository installation information or 3rd-party tool dependency licensing information in your repository in a file named one of the following (case is ignored):
 
@@ -18,11 +18,11 @@ Include important information like repository installation information or 3rd-pa
 
 Repositories that include one or more files with one of these names will include a section labeled **Repository README files - may contain important installation or license information** on the main repository page. File names with a .rst extension will be rendered as ```ReStructured Text``` so they should be written appropriately, while file names with no extension or a .txt extension will be translated to safe html for rendering.
 
-![](/src/toolshed/readme-files/readme_files_section.png)
+![](/toolshed/readme-files/readme_files_section.png)
 
 When this section is opened by clicking on the triangle or the file name link, the contents of the file are displayed. Here is the README file for the clustalw repository in the Tool Shed.
 
-![](/src/toolshed/readme-files/clustalw_readme.png)
+![](/toolshed/readme-files/clustalw_readme.png)
 
 The contents of this file are also displayed on the page allowing the Galaxy administrator to select the tool panel into which the repository tools should be loaded if the repository includes tools.
 

@@ -5,7 +5,7 @@ title: Logistics
 
 <br /><br />
 
-<div class='center'><a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'><img src="/src/events/gcc2014/logistics/HopkinsSign.jpg" alt="Johns Hopkins Homewood Campus" width="300" /></a> &nbsp;&nbsp; <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'><img src="/src/events/gcc2014/logistics/HopkinsAiriel.jpg" alt="Johns Hopkins Homewood Campus" width="300" /></a> &nbsp;&nbsp; </div>
+<div class='center'><a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'><img src="/events/gcc2014/logistics/HopkinsSign.jpg" alt="Johns Hopkins Homewood Campus" width="300" /></a> &nbsp;&nbsp; <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'><img src="/events/gcc2014/logistics/HopkinsAiriel.jpg" alt="Johns Hopkins Homewood Campus" width="300" /></a> &nbsp;&nbsp; </div>
 
 
 
@@ -17,7 +17,7 @@ Details on conference location, lodging options and transportation.
 <div class='right'>
 <table>
   <tr>
-    <td style=" text-align: center;"> <a href='https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk'><img src="/src/events/gcc2014/logistics/GCC2014GoogleMapThumb.png" alt="Event and lodging locations"  /></a><br /><a href='https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk'>Event and Lodging Map</a><br />(Also see <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf'>Campus Map</a>) </td>
+    <td style=" text-align: center;"> <a href='https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk'><img src="/events/gcc2014/logistics/GCC2014GoogleMapThumb.png" alt="Event and lodging locations"  /></a><br /><a href='https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk'>Event and Lodging Map</a><br />(Also see <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/how_to_get_here/homewood_campus/pdf/homewood_campus_map.pdf'>Campus Map</a>) </td>
   </tr>
 </table>
 
@@ -35,7 +35,7 @@ Note that there is a [JHU Mobile app](http://jhu.edu/mobile/) that includes maps
 
 # Transportation
 
-<div class='right'><br /><a href='http://www.bwiairport.com/'><img src="/src/events/gcc2014/logistics/BWILogo.jpg" alt="Baltimore Washington International (BWI)"  /></a></div>
+<div class='right'><br /><a href='http://www.bwiairport.com/'><img src="/events/gcc2014/logistics/BWILogo.jpg" alt="Baltimore Washington International (BWI)"  /></a></div>
 
 ### Airports
 
@@ -65,7 +65,7 @@ Johns Hopkins recommends parking in one of the [Homewood Campus visitor lots](ht
 
 See the [event map](https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk).
 
-<div class='right'><br /><a href='http://mta.maryland.gov/'><img src="/src/events/gcc2014/logistics/HopkinsRouteMapThumb.png" alt="Maryland Transit Authority" width="150" /></a></div>
+<div class='right'><br /><a href='http://mta.maryland.gov/'><img src="/events/gcc2014/logistics/HopkinsRouteMapThumb.png" alt="Maryland Transit Authority" width="150" /></a></div>
 
 ### Public Transportation
 
@@ -79,7 +79,7 @@ There is no rail or free bus service to the Homewood Campus, but several bus rou
 
 <table>
   <tr>
-    <td> <img src="/src/events/gcc2014/logistics/CharlesCommonsBuilding.jpg" alt="Charles Commons" /> </td>
+    <td> <img src="/events/gcc2014/logistics/CharlesCommonsBuilding.jpg" alt="Charles Commons" /> </td>
     <td> <strong>Charles Commons</strong><br /><a href='https://mapsengine.google.com/map/edit?mid=zet4IuY8822w.k5rgXfj2gUwk'>3301 N. Charles St., Baltimore, MD 21218</a><br />Two and four person suites, all single rooms<br /><a href='/events/gcc2014/logistics/#rates'>Rates</a> </td>
   </tr>
 </table>
@@ -135,7 +135,7 @@ Rooms in Charles Commons can be reserved with either 3 night or 4 night packages
 
 </div>
 
-<div class='right'><img src="/src/events/gcc2014/logistics/ColonnadeDome.jpg" alt="Inn at The Colonnade Baltimore" width=160 /><div class='center'><span style="font-size: smaller;">Inn at the Colonnade</span></div></div>
+<div class='right'><img src="/events/gcc2014/logistics/ColonnadeDome.jpg" alt="Inn at The Colonnade Baltimore" width=160 /><div class='center'><span style="font-size: smaller;">Inn at the Colonnade</span></div></div>
 
 A [block of rooms have been reserved at the Inn at The Colonnade Baltimore](http://doubletree.hilton.com/en/dt/groups/personalized/B/BWICUDT-GCC-20140627/index.jhtml?WT.mc_id=POG) from June 27, 2014 - July 3, 2014 at a special rate of $139/night. The special room rate will be available until May 30th or until the group block is sold-out, whichever comes first.  The [Inn at The Colonnade Baltimore](http://www.colonnadebaltimore.com/) is just off campus and within easy walking distance of the conference venues.
  	
@@ -147,7 +147,7 @@ A [block of rooms have been reserved at the Inn at The Colonnade Baltimore](http
 * [Hotels.com](http://www.hotels.com/search/search.html?pageName=ChangeSearchPage&viewType=LIST&pageNumber=1&priceFilterMultiplier=1&arrivalDate=06%2F29%2F14&departureDate=07%2F03%2F14&numberOfRooms=1&roomInfoList%5B0%5D.numberOfAdults=1&children%5B0%5D=0&srsReport=SearchResultPage%7CAutoS%7Clandmark%7Cjohns+hopkins%7C0%7C2%7C1%7C0%7C1%7C3%7C1659406&searchParams.landmark=1659406&hotelId=&destinationId=1424150&queryFormState=OPEN&searchParams.needPossibleResults=true&activeTab=DESTINATION&page=1&searchParams.sortOrder=DISTANCE) - includes many options in the Inner Harbor. 
 * [Hotels Near Johns Hopkins page](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/hotels_near_JHU/).
 
-<div class='right'><br /><a href='http://baltimore.org/'><img src="/src/events/gcc2014/logistics/VisitBaltimore.jpg" alt="Visit Baltimore" width="160" /></a></div>
+<div class='right'><br /><a href='http://baltimore.org/'><img src="/events/gcc2014/logistics/VisitBaltimore.jpg" alt="Visit Baltimore" width="160" /></a></div>
 
 # Baltimore
 

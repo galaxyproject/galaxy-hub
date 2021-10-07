@@ -7,7 +7,7 @@ title: "Tutorial: Galaxy Installation and Administration"
 
 <slot name="/events/gcc2014/linkbox" />
 
-<div class='right'> <a href='/events/gcc2014/training-day/'><img src="/src/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
+<div class='right'> <a href='/events/gcc2014/training-day/'><img src="/images/logos/GCC2014TrainingDayLogoSquare.png" alt="GCC2014 Training Day" width="100" /></a></div>
 
 [Nate Coraor](/people/nate/) and [John Chilton](/people/john-chilton/)
 

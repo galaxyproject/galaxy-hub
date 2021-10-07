@@ -2,7 +2,7 @@
 
 Common page structure for attached documents that are likely to be linked to from more than one page.  See also [Images](/images/).
 
-* [Galaxy Project Documents](/src/documents/Galaxy Project/index.md)
+* [Galaxy Project Documents](/documents/Galaxy Project/)
 * [Papers](/documents/papers/)
 * [Presentations](/documents/presentations/)
 * [Posters](/documents/posters/)

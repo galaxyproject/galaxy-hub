@@ -1,4 +1,4 @@
-<div class='center'><a href='/community/galaxy-admins/'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="250" /></a></div><br />
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="250" /></a></div><br />
 
 <slot name="/community/galaxy-admins/linkbox" />
 
@@ -66,7 +66,7 @@ The [GalaxyAdmins](/community/galaxy-admins/meetups/) group has bi-monthly confe
 * [2013-03-20 Web Meetup](/community/galaxy-admins/meetups/2013-03-20/)
   *  [Hailiang Leon Mei](mailto:hailiang DOT mei AT nbic DOT nl) discuss NBIC's recent experiences deploying the [NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).  [Dan Blankenberg](/people/dan/) discusses the new release policy and upcoming *Data Manager* features.
 * [2013-01-16 Web Meetup](/community/galaxy-admins/meetups/2013-01-16/)
-  *  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) covered "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."  [Greg von Kuster](/people/greg-vonkuster/) also gave an update on recent developments in the [Galaxy Tool Shed](/src/toolshed/)
+  *  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) covered "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."  [Greg von Kuster](/people/greg-vonkuster/) also gave an update on recent developments in the [Galaxy Tool Shed](/toolshed/)
 
 **2012**
 

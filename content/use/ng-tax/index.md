@@ -12,7 +12,7 @@ platforms:
     platform_text: "NG-Tax Docker"
     platform_location: NL
 summary: "A Semantic Framework for High-throughput Marker Gene (Amplicon) Analysis"
-image: "/src/use/ng-tax/ngtax-workflow.png"
+image: "/use/ng-tax/ngtax-workflow.png"
 comments:
   - "Supports NG-Tax versions 1 and 2."
 user_support:

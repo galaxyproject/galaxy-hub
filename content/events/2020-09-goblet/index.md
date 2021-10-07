@@ -8,7 +8,7 @@ location: "Online, Sweden"
 location_url: "https://mygoblet.org/goblet-agm2020/"
 external_url: ""
 contact: "Fotis Psomopoulos, Gareth Price"
-image: "/src/images/logos/GobletLogo.png"
+image: "/images/logos/GobletLogo.png"
 gtn: false
 ---
 

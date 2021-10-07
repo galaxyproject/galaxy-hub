@@ -21,28 +21,28 @@ on Globus's OAuth2.0 authorization server:
 1. Go to [Globus Developers](https://developers.globus.org) page 
 and click on the [Register your app with Globus](https://auth.globus.org/developers) link:
 
-    ![image](/src/authnz/config/oidc/idps/globus/01.png)
+    ![image](/authnz/config/oidc/idps/globus/01.png)
     
 2. If you are not already logged in, this will take you to Globus 
 login page, where you would need to login with your preferred method: 
 
-    ![image](/src/authnz/config/oidc/idps/globus/02.png)
+    ![image](/authnz/config/oidc/idps/globus/02.png)
 
 3. Having logged in, you will be redirected to the new project creation page (if you
 do not have any previous projects), fill in all the fields and hit the *Create Project*
 button:
 
-    ![image](/src/authnz/config/oidc/idps/globus/03.png)
+    ![image](/authnz/config/oidc/idps/globus/03.png)
  
 4. Having create a project, you will be redirected to the **Apps and Services** page,
 where you would need select the project you just created, and click on the *Add...* button,
 and then choose **Add new app** option:
     
-    ![image](/src/authnz/config/oidc/idps/globus/04.png)
+    ![image](/authnz/config/oidc/idps/globus/04.png)
 
 5. In the **App Registration** page fill in the fields as shown in the following figure:
 
-    ![image](/src/authnz/config/oidc/idps/globus/05.png)
+    ![image](/authnz/config/oidc/idps/globus/05.png)
 
     Note that the options we selected as shown in the above figure, are the 
     minimum required; however, you may select other options according to your
@@ -51,13 +51,13 @@ and then choose **Add new app** option:
 6. Then you will be taken back to the **Apps and Services** page, where you will
 obtain all the info of you registered Galaxy instance: 
 
-    ![image](/src/authnz/config/oidc/idps/globus/06.png)
+    ![image](/authnz/config/oidc/idps/globus/06.png)
     
 7. Scroll down to the bottom of the page and click on the 
 **Generate New Client Secret** button, then provide a name for the secret, 
 and click on the **Generate** button:
 
-    ![image](/src/authnz/config/oidc/idps/globus/07.png)
+    ![image](/authnz/config/oidc/idps/globus/07.png)
     
 8. Copy the **Client ID** and **Client Secret** from this page, and set the
 related setters as explained in the following section. 

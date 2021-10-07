@@ -262,7 +262,7 @@ Details: Only Galaxy instances with `allow_user_impersonation = True` set in the
 <br />
 
 <div class='right'>
-<br /><a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src="/src/images/news-graphics/2013_08_12_gcc-main-room.jpg" alt="GCC 2013" width=300 /></a><br />**GCC 2013**</div>
+<br /><a href='http://wiki.galaxyproject.org/Events/GCC2013/Photos'><img src="/images/news-graphics/2013_08_12_gcc-main-room.jpg" alt="GCC 2013" width=300 /></a><br />**GCC 2013**</div>
 
 # Project Updates
 

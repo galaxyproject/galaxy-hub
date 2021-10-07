@@ -2,7 +2,7 @@
 title: "March 2015 Galaxy Release (v 15.03)"
 date: "2015-03-16"
 ---
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
 
 <span style="font-size: larger;">[Complete Release Notes](http://wiki.galaxyproject.org/DevNewsBriefs/2015-03) </span>
 <br /><br />

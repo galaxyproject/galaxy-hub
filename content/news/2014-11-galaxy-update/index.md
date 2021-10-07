@@ -3,7 +3,7 @@ title: "November 2014 Galaxy Newsletter"
 date: "2014-11-03"
 ---
 <div class='right'>
-<a href='/galaxy-updates/2014-11/'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
+<a href='/galaxy-updates/2014-11/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a>
 </div>
 
 A lot is happening in in the Galaxy in November, and a lot of good stuff happened in October too.  Take a look at the [November 2014 Galaxy Newsletter](/galaxy-updates/2014-11/) for the complete story, but here are some highlights:
@@ -20,4 +20,4 @@ A lot is happening in in the Galaxy in November, and a lot of good stuff happene
 * [35 new ToolShed repos](/galaxy-updates/2014-11/#toolshed-contributions)
 * And a [smattering of other news](/galaxy-updates/2014-11/#other-news) too
 
-[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/src/galaxy-team/)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

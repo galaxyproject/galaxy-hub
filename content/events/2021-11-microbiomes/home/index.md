@@ -28,10 +28,6 @@ Hosted by [CSIR-IMTech](https://www.imtech.res.in/), Chandigarh and [Galaxy-P Te
 
 Microbiome experts and instructors from Galaxy community will teach online courses on microbiome analysis via interactive resources.
 
-## Registration
-
-Registration will open in September.
-
 ## Agenda
 
 All times are [India Standard Time](https://www.timeanddate.com/worldclock/converter.html?iso=20211115T030000&p1=1582).
@@ -70,3 +66,23 @@ All times are [India Standard Time](https://www.timeanddate.com/worldclock/conve
 | **Nov&nbsp;23** | 8:30-11:00 AM | **Talks by participants.** |
 | **Nov&nbsp;24** | 9:05-10:00 AM | **Concluding Talk** by Dr. Sharmila Mande (Distinguished Chief Scientist, TCS Research, Tata Consultancy Services Ltd.) |
 | | 10:05-11:00 AM | **Results, conclusion and feedback form.** |
+
+
+<div class="float-right">
+
+[![Analysis of Functions Expressed by Microbiomes Workshop Flyer](/images/events/2021-11-microbiomes/fun-micro-flyer-thumb.png)](https://depot.galaxyproject.org/hub/attachments/events/2021-11-microbiomes/fun-micro-flyer.pdf)
+
+</div>
+
+## Applications
+
+We are now accepting applications for this workshop.  
+
+<button type="button" class="btn btn-light" style="font-size: x-large;"> **[Apply Now](http://tinyurl.com/funmicro)**
+ </button>
+
+Apply by October 17.
+
+## Workshop Flyer
+
+Please share this workshop with your colleagues and post the event flyer in your departments.

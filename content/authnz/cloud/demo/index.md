@@ -49,21 +49,21 @@ command in your terminal:
 3. Login to your Galaxy instance by clicking on the `Login or Register`
 button, and then on the `Sign in with Google` button:
 
-    ![image](/src/authnz/cloud/demo/01.png)
+    ![image](/authnz/cloud/demo/01.png)
 
 4. Enter your Google credentials if required:
 
-    ![image](/src/authnz/cloud/demo/02.png)
+    ![image](/authnz/cloud/demo/02.png)
 
 5. Having signed-in with your Google credentials, you will be auto-redirected 
 back to your local installation of Galaxy; then click on the `User` button 
 and choose the `Preferences` menu item:
 
-    ![image](/src/authnz/cloud/demo/03.png) 
+    ![image](/authnz/cloud/demo/03.png) 
 
 6. From the preferences menu, choose the `Manage Cloud Authorization` option:
     
-    ![image](/src/authnz/cloud/demo/04.png)
+    ![image](/authnz/cloud/demo/04.png)
 
 7. Click on the `Create New Authorization Key`, and enter the following value for
 the `Role ARN` field, and click on the `Save Key` button.
@@ -72,16 +72,16 @@ the `Role ARN` field, and click on the `Save Key` button.
     arn:aws:iam::347162595075:role/Authnz_demo_role
     ```
     
-    ![image](/src/authnz/cloud/demo/05.png)
+    ![image](/authnz/cloud/demo/05.png)
     
 8. Click on the `User` button, and choose `Preferences`, and from the 
 "User Preferences" menu, choose `Manage API key`:
 
-    ![image](/src/authnz/cloud/demo/06.png)
+    ![image](/authnz/cloud/demo/06.png)
 
 9. Click on the `Create a new key`, and copy API key:
 
-    ![image](/src/authnz/cloud/demo/07.png)
+    ![image](/authnz/cloud/demo/07.png)
 
 10. Keep the terminal running your Galaxy open, and open a new terminal
 and run the following command where `[API KEY]` is your API obtained 
@@ -102,7 +102,7 @@ at previous step:
     
 11. At this point Galaxy has downloaded the object to your history:
 
-    ![image](/src/authnz/cloud/demo/08.png)
+    ![image](/authnz/cloud/demo/08.png)
 
 
 # Remarks

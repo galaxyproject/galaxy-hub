@@ -1,4 +1,4 @@
-<div class='right'> <a href='/toolshed/'>![Tool Shed logo](/src/images/logos/ToolShed.jpg)</a></div>
+<div class='right'> <a href='/toolshed/'>![Tool Shed logo](/images/logos/ToolShed.jpg)</a></div>
 
 [Repository Types](/toolshed/repository-types/)
 

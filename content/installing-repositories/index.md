@@ -1,7 +1,7 @@
 ---
 title: Installing Repositories
 ---
-<div class='right'> <a href='/toolshed/'><img src="/src/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a></div>
+<div class='right'> <a href='/toolshed/'><img src="/images/logos/ToolShed.jpg" alt="Tool Shed logo" height="110px" /></a></div>
 
 
 

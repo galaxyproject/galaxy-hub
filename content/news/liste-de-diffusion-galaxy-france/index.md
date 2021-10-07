@@ -2,7 +2,7 @@
 title: "Liste de diffusion Galaxy France"
 date: "2012-08-28"
 ---
-<div class='right'><a href='https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/'><img src="/src/images/logos/GalaxyFranceListSearch.png" alt=""  /></a></div>
+<div class='right'><a href='https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/'><img src="/images/logos/GalaxyFranceListSearch.png" alt=""  /></a></div>
 
 Cette liste a pour but de partager et communiquer sur nos différentes expériences avec Galaxy au sein de l'hexagone.
 La langue officielle de cette liste est le français.

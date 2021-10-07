@@ -5,7 +5,7 @@ title: GCC2013 Training Day
 
 <slot name="/events/gcc2013/linkbox" />
 
-<div class='left'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></div>
+<div class='left'><img src="/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></div>
 
 The [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/) will start on 30 June with a *Training Day* featuring ~~four~~ *five* parallel tracks, each with three workshops, each of which are two hours long, for a total of ~~twelve~~ *fifteen* sessions on twelve different topics.  Sessions are evenly split between topics aimed at biological research, topics aimed at Galaxy deployers and developers, and those that are geared twoards both audiences.  The topics were nominated and selected by the Galaxy Community in early 2013. The increased number of parallel tracks and topics was driven by unexpected demand.
 
@@ -119,7 +119,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #cceeff;"> New to Galaxy? This will introduce you to the Galaxy Project, the Galaxy Community, and walk you through a simple use case demonstrating what Galaxy can do. </td>
-    <td rowspan=3 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
+    <td rowspan=3 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -149,7 +149,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #cceeff;"> Want the power of Galaxy without the compute infrastructure overhead? Need to run compute-intensive analysis, but only from time to time? Learn how to set up your own elastic, and fully populated (tools and reference data) Galaxy instance using Amazon Web Services.  You'll also learn to customize and share your galaxy cloud instance with others. </td>
-    <td rowspan=3 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
+    <td rowspan=3 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -183,7 +183,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #ddffcc;"> This hands-on workshop will demonstrate basic RNA-Seq analysis pipelines including quality control, alignment (e.g. Tophat (Bowtie), GSNAP), transcript assembly (Cufflinks), exon and transcript quantification, and differential expression analysis in Galaxy.<br /><br />Sample datasets small enough to be successfully processed during the course of the seminar will be provided. Participants will perform the analyses themselves on the provided cloud instance of Galaxy. </td>
-    <td rowspan=4 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
+    <td rowspan=4 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -274,7 +274,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Content </th>
     <td style=" vertical-align: top; background-color: #ddffcc;"> Participants in this workshop will use simulation to develop familiarity with the performance of basic SNP and indel detection methods.<br /><br />By comparing variant detection results under different conditions to the known set of true variants produced by the simulation, participants will assess the effects of standard practices such as base quality recalibration, indel realignment, and variant quality filters. </td>
-    <td rowspan=4 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
+    <td rowspan=4 style=" width: 16%;"> &nbsp;<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a>&nbsp; <br />This workshop uses [AWS](http://aws.amazon.com/)-based compute infrastructure </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -317,7 +317,7 @@ See each individual workshop's list of prerequisite for specifics.
 * Basic [PostgreSQL](http://postgresql.org) database setup skills 
 * Knowledge of a simple Text Editor (`vi, pico, nano`). 
  </td>
-    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
+    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
  </td>
   </tr>
   <tr>
@@ -352,7 +352,7 @@ See each individual workshop's list of prerequisite for specifics.
 * Knowledge of a simple Text Editor (`vi, pico, nano`). 
 * A "simple" executable tool you would like to wrap that takes and/or creates existing Galaxy datatypes like bed/fastq/bam etc such as one of the [bedTools executables](http://code.google.com/p/bedtools/).
 </td>
-    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
+    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
  </td>
   </tr>
   <tr>
@@ -386,7 +386,7 @@ See each individual workshop's list of prerequisite for specifics.
 * Knowledge of a simple Text Editor (`vi, pico, nano`). 
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 </td>
-    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
+    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
  </td>
   </tr>
   <tr>
@@ -420,7 +420,7 @@ See each individual workshop's list of prerequisite for specifics.
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Introduction to Tool and Data Sources Configureation](/events/gcc2013/training-day/#introduction-to-tool-and-data-source-configuration).
  </td>
-    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
+    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
  </td>
   </tr>
   <tr>
@@ -450,7 +450,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Content </th>
-    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> Learn the ins and outs of the Galaxy Applications Programming Interface (API). Examples of how to interact with multiple Galaxy resources and how to build a complex script from API building blocks. <a href='/src/events/gcc2013/training-day/api'>Details</a>. </td>
+    <td colspan=2 style=" vertical-align: top; background-color: #ffffcc;"> Learn the ins and outs of the Galaxy Applications Programming Interface (API). Examples of how to interact with multiple Galaxy resources and how to build a complex script from API building blocks. <a href='/events/gcc2013/training-day/api'>Details</a>. </td>
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
@@ -461,7 +461,7 @@ See each individual workshop's list of prerequisite for specifics.
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * Knowledge of a programming or scripting language.
 </td>
-    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
+    <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
  </td>
   </tr>
   <tr>
@@ -505,7 +505,7 @@ See each individual workshop's list of prerequisite for specifics.
 
 <br />
 
-<div class='right'><br /><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="250" /></a></div>
+<div class='right'><br /><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="250" /></a></div>
 
 # Training Day Sponsor
 
@@ -521,7 +521,7 @@ Thanks to everyone who participated in the nomination and voting process.
 
 # Software Carpentry Boot Camp
 
-<div class='left'><a href='http://bit.ly/14EmcSA'><img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry Boot Camp, 3-4 July, University of Oslo" width="150" /></a></div>
+<div class='left'><a href='http://bit.ly/14EmcSA'><img src="/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry Boot Camp, 3-4 July, University of Oslo" width="150" /></a></div>
 
 We are happy to announce that a [Software Carpentry Boot Camp](http://bit.ly/14EmcSA) has been scheduled for 3-4 July (immediately following GCC2013), also at the University of Oslo. [Software Carpentry Boot Camps](http://software-carpentry.org/boot-camps/) are  example-driven workshops on basic computing skills. Short tutorials alternate with hands-on practical exercises, and participants are encouraged both to help one another, and to try applying what they have learned to their own research problems during and between sessions. 
 

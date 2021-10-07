@@ -4,7 +4,7 @@ tease:  "COllaborative NEtwork on research for Children and Teenagers with Acute
 date: '2019-01-09'
 ---
 
-[<img class="float-right img-fluid mx-auto" src="/src/use/mississippi/artbio-ibps-logo.png" alt="Position @ ARTbio" />](http://artbio.fr/)
+[<img class="float-right img-fluid mx-auto" src="/use/mississippi/artbio-ibps-logo.png" alt="Position @ ARTbio" />](http://artbio.fr/)
 
 A 2-year position of genomic data analyst is available to work at a research project "COllaborative NEtwork on research for Children and Teenagers with Acute Myeloblastic Leukemia" CONECT-AML. The project is funded by the Institut National de Recherche sur le Cancer (INCA) and involves 10 participant teams across France, with clinical or fundamental approaches.
 

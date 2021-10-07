@@ -3,7 +3,7 @@ title: Galactic Career Center
 layout: careers_index.pug
 ---
 
-<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy community is continually searching for new developers, bioinformaticians, system administrators, and researchers. This page lists openings from around the world that use, deploy, enhance and administer Galaxy.
 

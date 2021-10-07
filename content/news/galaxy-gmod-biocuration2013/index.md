@@ -2,7 +2,7 @@
 title: "Galaxy, GMOD2013 & Biocuration 2013"
 date: "2013-02-19"
 ---
-<div class='left'><a href='/src/gmod:/index.md'><img src="/src/images/logos/GMODLogo.png" alt="GMOD Project" width="150" /></a></div>
+<div class='left'><a href='/gmod:/'><img src="/images/logos/GMODLogo.png" alt="GMOD Project" width="150" /></a></div>
 
 There are a couple of things going on with the [http://gmod.org/wiki/|GMOD Project](http://gmod.org/wiki/|GMOD Project) that the Galaxy Community might be interested in. If you aren't familiar with GMOD, it is a federation of open-source projects and tools  that enable visualizing, annotating, managing, and analyzing biological research data.  GMOD includes Galaxy and several other widely used tools such as [BioMart](http://gmod.org/wiki/BioMart), [InterMine](http://gmod.org/wiki/InterMine), [MAKER](http://gmod.org/wiki/MAKER), [Chado](http://gmod.org/wiki/Chado) and [GBrowse](http://gmod.org/wiki/GBrowse) and [JBrowse](http://gmod.org/wiki/JBrowse).
 
@@ -10,7 +10,7 @@ The first is that GMOD is running a [community-wide survey](http://gmod.org/surv
 
   &rarr; *C'mon, **[take the dang survey](http://gmod.org/survey.html)**.*
 
-<div class='right'><a href='/src/gmod:April_2013_GMOD_Meeting/index.md'><img src="/src/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="120" /></a></div>
+<div class='right'><a href='/gmod:April_2013_GMOD_Meeting/'><img src="/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="120" /></a></div>
 
 The second is that registration is now open for the [2013 GMOD Meeting](http://gmod.org/wiki/April 2013 GMOD Meeting) being held in Cambridge, UK, April 5 and 6.  There will be a Galaxy presence (at least a project update, and I'm lobbying for a CloudMan workshop as well (and [you could lobby too!](mailto:help AT gmod DOT org))).
 

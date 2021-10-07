@@ -4,7 +4,7 @@ tease: 'GCC2019 registration and abstract submission, Platforms, Pubs, Jobs, Blo
 date: "2019-04-03"
 ---
 
-[<img class="float-right" src="/src/news/2019-04-galaxy-update/02apr19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
+[<img class="float-right" src="/news/2019-04-galaxy-update/02apr19-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 The *April 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
@@ -28,7 +28,7 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 **We are pleased to announce that [registration](/events/gcc2019/registration/) and [abstract submission](/events/gcc2019/abstracts/) for the [2019 Galaxy Community Conference (GCC2019)](/events/gcc2019/) are now open.**
 
-[<img class="float-right" style="max-width: 300px" src="/src/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
+[<img class="float-right" style="max-width: 300px" src="/events/gcc2019/gcc2019-logo-big.png" alt="GCC2019" />](/events/gcc2019/)
 
 GCC2019 will be held 1-6 July in Freiburg, Germany.  The *tenth* [GCC](/events/gcc2019/) will have many familiar features from earlier years, including accepted and lightning talks, posters and demos, birds-of-a-feather gatherings (BoFs), training, and a CollaborationFest.  GCC2019 brings the [most significant conference program update](https://gcc2019.sched.com/) in several years:
 
@@ -49,7 +49,7 @@ We are very pleased to welcome **[Limagrain](https://www.limagrain.com/en/)** as
 
 ## Limagrain
 
-[<img class="float-left img-fluid mx-auto" style="max-width: 300px" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
+[<img class="float-left img-fluid mx-auto" style="max-width: 300px" src="/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
 
 As the fourth largest seed company worldwide, **[Limagrain](https://www.limagrain.com/en/)**’s mission is to move agriculture forward to meet global food related challenges. Limagrain is a cooperative group founded and managed by French farmers. Its parent company, Coopérative Limagrain, brings together nearly 2,000 farmers located in the center of France, in the Limagne Val d'Allier plain. The Group creates, produces and distributes field seeds, vegetable seeds and cereal products. Limagrain is present in 56 countries and has more than 10,000 employees. It makes nearly 2.5 billion Euros of sales with recognized brands on their markets: LG, Vilmorin, Hazera, Harris Moran, Jacquet, Brossard.
 
@@ -187,7 +187,7 @@ Three of the four highlighted publications are open access.
 
 The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  A lot was added in March:
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/graphclust/graphclust-pipeline.png" alt="graphclust" />](/use/graphclust/)
+[<img class="float-right" style="max-width: 300px" src="/use/graphclust/graphclust-pipeline.png" alt="graphclust" />](/use/graphclust/)
 
 ## GraphClust
 
@@ -199,7 +199,7 @@ The language analysis portal (LAP) provides an intuitive and easy-to-use [web in
 
 ## CAFU
 
-[<img class="float-right" style="max-width: 300px" src="/src/use/cafu/cafu-overview-800.png" alt="cafu" />](/use/cafu/)
+[<img class="float-right" style="max-width: 300px" src="/use/cafu/cafu-overview-800.png" alt="cafu" />](/use/cafu/)
 
 [CAFU](https://github.com/cma2015/CAFU) is a [Galaxy-based bioinformatics framework](http://bioinfo.nwafu.edu.cn:4001/) for comprehensive assembly and functional annotation of unmapped RNA-seq data from single- and mixed-species samples which integrates plenty of existing NGS analytical tools and our developed programs, and features an easy-to-use interface to manage, manipulate and most importantly, explore large-scale unmapped reads.
 
@@ -219,7 +219,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 ----
 
-[<img class="float-right" src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
+[<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
 
 # New Galactic Blog Post
 
@@ -229,7 +229,7 @@ This month we have a *[Galactic Blog](/blog/)* post where [Björn Grüning](http
 
 # Who's Hiring
 
-<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
@@ -255,7 +255,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 ## GTN Training Materials
 
-[<img class="float-right img-responsive" style="max-width: 15em;" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
+[<img class="float-right img-responsive" style="max-width: 15em;" src="/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://galaxyproject.github.io/training-material/)
 
 * New [Group tags for complex experimental designs](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/tutorials/group-tags/tutorial.html) mini-tutorial by [Marius van den Beek](https://github.com/mvdbeek).
 * New [Machine learning: classification and regression](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/classification_regression/tutorial.html) tutorial by [Anup Kumar](https://github.com/anuprulez) and [Bérénice Batut](https://github.com/bebatut).
@@ -267,7 +267,7 @@ Updates from the [Galaxy Training Materials](https://galaxyproject.github.io/tra
 
 # ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
 [Tool Shed contributions in March 2019](/toolshed/contributions/2019-03/).
 

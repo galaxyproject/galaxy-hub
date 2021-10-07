@@ -7,7 +7,7 @@ continent: NA
 location: "Cal State University San Marcos, United States"
 location_url: https://csusm.edu/
 external_url:
-image: /src/images/logos/csusm-logo.gif
+image: /images/logos/csusm-logo.gif
 gtn: true
 contact: Arun Sethuraman, Dave Clements
 ---

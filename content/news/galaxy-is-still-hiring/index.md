@@ -7,7 +7,7 @@ Want to work on one of the fastest growing open source bioinformatics projects a
 <br />
 
 <div class='left solid'>
-<a href='http://bx.mathcs.emory.edu/joining/'><img src="/src/images/logos/EmoryLogo.jpg" alt="Openings at Emory" width="200" /></a><br />
+<a href='http://bx.mathcs.emory.edu/joining/'><img src="/images/logos/EmoryLogo.jpg" alt="Openings at Emory" width="200" /></a><br />
 **[Software Engineers](http://bx.mathcs.emory.edu/joining/sw/) and<br />[Post-Docs](http://bx.mathcs.emory.edu/joining/postdocs/) at [Emory](http://emory.edu/)**
 </div>
 
@@ -19,7 +19,7 @@ We are seeking [software engineers](http://bx.mathcs.emory.edu/joining/sw/) with
 
 <br />
 
-<div class='left solid'><a href='http://www.bx.psu.edu/~anton/'><img src="/src/images/logos/PennStateLogo.jpg" alt="Opening at Penn State" width="200" /></a><br />** Post-Docs at [Penn State](http://psu.edu/)**</div>
+<div class='left solid'><a href='http://www.bx.psu.edu/~anton/'><img src="/images/logos/PennStateLogo.jpg" alt="Opening at Penn State" width="200" /></a><br />** Post-Docs at [Penn State](http://psu.edu/)**</div>
 
 The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of Life Sciences](http://www.huck.psu.edu/) at [Penn State](http://psu.edu/) is seeking highly opinionated and biologically inclined Postdoctoral researchers within the Galaxy Project to develop best practices for analysis of next-generation sequencing data in all areas of Life Sciences where NGS is used. Successful candidates will join a vibrant research group at the [Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/) at [Penn State University](http://psu.edu/). 
 

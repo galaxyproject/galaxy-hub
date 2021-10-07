@@ -2,7 +2,7 @@
 title: 'Apply for a GCC2017 Fellowship'
 date: '2017-03-06'
 ---
-<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/src/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></div>
+<div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></div>
 
 The [2017 Galaxy Community Conference](https://gcc2017.sciencesconf.org/) will be held 26-30 June in Montpellier, France.  It's a great opportunity to discuss your research with others that are working in and facing similar challenges in data-intenisve life science research.  *But only if you can get there.*
 

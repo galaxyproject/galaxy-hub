@@ -49,7 +49,7 @@ Here are the highlights of the following upgrade:
 * **Trackster** now supports interactive filtering for **VCF** quality values and BED score values. 
 * For example, a user can drag a slider to filter a file of splice junctions to view junctions supported by different numbers of reads.
 
-![trackster splice example](/src/archive/dev-news-briefs/2010-11-24/2010_11_24_trackster_splice_b.png)
+![trackster splice example](/archive/dev-news-briefs/2010-11-24/2010_11_24_trackster_splice_b.png)
 * Improved CIGAR support to BAM display. Properly displays matches,
 
 deletions, skipped bases, and clipping. Padding for insertions are
@@ -79,8 +79,8 @@ currently not represented in the display.
 * Most tools (PerM, Bowtie, BWA, Lastz, Megablast, SRMA, Tophat) that previously used loc files now have the new data tables organization implemented.
 * Better data tracking has allowed for more informative genome name display in tool dropdown boxes. 
 * For local installations:
-  * See the new wiki describing how to use data tables: [wiki/DataTables](/src/admin/tools/Data Tables/index.md)
-  * More help for NGS tool setup (update pending): [wiki/NGSLocalSetup](/src/admin/NGS Local Setup/index.md)
+  * See the new wiki describing how to use data tables: [wiki/DataTables](/admin/tools/Data Tables/)
+  * More help for NGS tool setup (update pending): [wiki/NGSLocalSetup](/admin/NGS Local Setup/)
 
 ----
 
