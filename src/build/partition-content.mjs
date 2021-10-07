@@ -207,7 +207,7 @@ export class Partitioner {
                 }
             } else if (buildPathType === "dir") {
                 if (!this.simulate) {
-                    fs.rmSync(buildPath, { recursive: true });
+                    fs.rmdirSync(buildPath, { recursive: true });
                 }
             } else if (buildPathType !== "nonexistent") {
                 throw repr`Cannot remove special file ${buildPath}`;
