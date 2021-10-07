@@ -250,6 +250,33 @@ Microbiome experts and instructors from the Galaxy community will lead this onli
 </div>
 
 
+<!-- GTÑ -->
+<div class="card border-info" style="min-width: 35%; max-width: 20rem;">
+<div class="trim-p">
+
+![gtñ](gtn-spanish.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Spanscriptomics: Análisis de células únicas con Galaxy](https://galaxyproject.eu/event/2021-10-07-training-spanish/)
+
+</div>
+
+**29-30 November, Online, UK.**
+
+Curso de análisis de células únicas con Galaxy en español.
+
+--
+
+Single-cell workshop in Spanish.
+
+
+</div>
+
+</div>
+
+
 # Galaxy Platforms News
 
 The [Galaxy Platform Directory](/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
@@ -327,10 +354,7 @@ By Tomas Klingström.
 
 Tomas has shared with us his hilarious experience when running a workshop from home. Find out the [whole story](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)!
 
-
-
 </div>
-
 
 </div>
 
