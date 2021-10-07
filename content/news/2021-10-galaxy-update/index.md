@@ -363,13 +363,16 @@ Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. https://doi
 <div class="card border-info" style="min-width: 30%; max-width: 22rem;">
 <div class="card-header trim-p">
 
-[Galaxy Language Server 0.6.0](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.6.0)
+[Galaxy Language Server 0.6.1](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.6.1)
 
 </div>
 
-<div class="trim-p">
+This release contains the [Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server) and the [Galaxy Tools Visual Studio Code Extension](https://github.com/galaxyproject/galaxy-language-server/tree/master/client).
 
-</div>
+The standalone version of the language server is available as a [PyPI package](https://pypi.org/project/galaxy-language-server/).
+
+The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
+
 </div>
 </div>
 
