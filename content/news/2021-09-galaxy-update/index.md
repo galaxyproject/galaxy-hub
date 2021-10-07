@@ -310,7 +310,7 @@ microGalaxy is a [new community focusing on microbial analysis with Galaxy](http
 
 Galaxy Developer Round Table meetups in September are:
 
-**[September 30: TBD](/events/2021-09-30-dev-roundtable/)**
+**No Round Table Meetings in September**
 
 As you can see, we still [need volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
 </div>

@@ -81,7 +81,7 @@ My pre-bioinformatics career included
 
 * **[2022 Galaxy Community Conference](/events/gcc2022/)**, July 16-23, 2022, Minneapolis, Minnesota, United States
 * **[Informatics Technology for Cancer Research (ITCR) Training & Outreach Working Group](https://ncihub.org/groups/itcr/training_and_outreach_working_group_teleconference)**, Chair, September 2021-present, Monthly, Online, United States
-* **[Galaxy Resources Webinar Series](/events/webinars/)]**, Spring 2021, Online, Global
+* **[Galaxy Resources Webinar Series](/events/webinars/)**, Spring 2021, Online, Global
 * **[2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021-virtual-edition)**,  June 28-July 10, 2021, Online, Global
 * **[Galaxy Papercuts CoFest Days](/events/cofests/papercuts)**, October 2020-present, Monthly, Online, Global
 * **[2020 Bioinformatics Community Conference](https://bcc2020.github.io/)**, July 18-25, 2020, Online, Global
@@ -91,12 +91,12 @@ My pre-bioinformatics career included
 * **[2019 Galaxy Community Conference](/events/gcc2019/)**, July 1-8, 2020, Freiburg, Germany.
 * **[GCCBOSC 2018](/events/gccbosc2018)**, Portland, Oregon, United States
 * **[2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/)**, June 26-30, 2017, Montpellier, France
-* **[Galaxy AustralAsia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe2017)**, February 3-9, 2017, Melbourne, Australia
+* **[Galaxy AustralAsia Meeting (GAMe 2017)](https://www.emblaustralia.org/events-speakers/public-events/game-2017-galaxy-australasia-meeting)**, February 3-9, 2017, Melbourne, Australia
 * **[Galaxy Admin Training 2016](/events/admin-training2016/)**, November 7-11, 2016, Salt Lake City, Utah, United States
 * **[2016 Galaxy Community Conference (GCC2016)](https://web.archive.org/web/http://gcc2016.iu.edu/index.php)**, June 25-29, 2016, Bloomington, Indiana, United States
-* **[International Plant and Animal Genome XIV (PAGXIV)](http://www.intlpag.org/2016/), Computer Demonstration Track**, January 9-13, 2016, San Diego, California, United States
-* **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/), Norwich, United Kingdom**
-* **[International Plant and Animal Genome XIII (PAGXIII)](http://www.intlpag.org/2015/), Computer Demonstration Track**, January 10-14, 2015, San Diego, California, United States
+* **[International Plant and Animal Genome XIV (PAGXIV)](http://www.intlpag.org/2016/)**, Computer Demonstration Track, January 9-13, 2016, San Diego, California, United States
+* **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/)**, Norwich, United Kingdom**
+* **[International Plant and Animal Genome XIII (PAGXIII)](http://www.intlpag.org/2015/)**, Computer Demonstration Track, January 10-14, 2015, San Diego, California, United States
 * **[2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/)**, June 30 - July 2, 2014, Baltimore, Maryland, United States
   * [GalaxyAdmins Birds of a Feather Meetup](/events/gcc2014/bofs/galaxy-admins/)
 * **[May 2014 UK Galaxy Workshop Tour](/events/uk-may2014/)**, May 6-12, 2014, Norwich and Edinburgh, United Kingdom
@@ -153,7 +153,7 @@ My pre-bioinformatics career included
 * **Galaxy for Genomics-enabled Breeding**, GOBii Project, Monthly meeting, Online, Global. [Slides](https://bit.ly/gxy-eib-2019), [Video](https://youtu.be/dwN8qLAZ4f0). December 16, 2019 
 * **[Genomic data science with the Galaxy workbench](/events/2019-sacnas/)**, [2019 SACNAS](http://www.2019sacnas.org/), Honolulu, Hawai'i, United States. October 30, 2019.
 * **[Reproducible Genomic Data Analysis with the Galaxy Workbench](/events/2019-10-aises/)**, [AISES 2019, Milwaukee, Wisconsin, United States](https://conference.aises.org/agenda). October 11, 2019.
-* **[Plenary Panel: Effective Checklists for Developers and Researchers to Gather Requirements for Science Gateways](https://sched.co/RaIM)**, [Gateways 2019]( Gateways 2019, San Diego, California, United States)September 24, 2019 
+* **[Plenary Panel: Effective Checklists for Developers and Researchers to Gather Requirements for Science Gateways](https://sched.co/RaIM)**, [Gateways 2019](https://sciencegateways.org/web/gateways2019), San Diego, California, United States. September 24, 2019 
 * **[Building a regional Galaxy Community and Platform](/events/2019-09-incob/#building-a-regional-galaxy-community-and-platform)**, [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia. September 12, 2019
 * **[Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://bit.ly/galaxyincob19)**, [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia. September 11, 2019.
 * **[Use Galaxy, Right Now!](https://sched.co/PSOt)**, [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany. [Slides](https://static.sched.com/hosted_files/gcc2019/05/S13OTG-7__Use%20Galaxy%2C%20Right%20Now%21.pdf). July 4, 2021. 
@@ -459,7 +459,7 @@ Are coming, the next time I need to do a biosketch.
 * *[GMOD for Evolutionary Biology](http://gmod.org/wiki/Image:GMODForIEvoBio2010.pdf)*, presentation with [Rob Buels](http://gmod.org/wiki/User:RobertBuels) at [iEvoBio 2010](http://ievobio.org), Portland, Oregon, June 2010.
 * *[Help Desk Report](http://gmod.org/wiki/:Image:Jan2010HelpDesk.pdf)*, presentation at [January 2010 GMOD Meeting](http://gmod.org/wiki/January_2010_GMOD_Meeting), San Diego, January 2010.
 * *[GMOD Project Update](http://gmod.org/wiki/Image:PAG2010GMODProjectUpdate.pdf)*, presentation with [Scott Cain](http://gmod.org/wiki/User:Scott) at [PAG 2010](http://gmod.org/wiki/PAG_2010), San Diego, January 2010.
-* *[Comparative Genomics Tools in GMOD](http://gmod.org/wiki/Image:PAG2010ComparativeGenomicsToolsInGMOD.pdf)*, poster with [Sheldon McKay](http://gmod.org/wiki/User:Mckays), Ken Youens-Clark, [Ben Faga](http://gmod.org/wiki/User:Faga), [Scott Cain](http://gmod.org/wiki/User:Scott), at [PAG 2010](http://gmod.org/wiki/PAG 2010), San Diego, January 2010.
+* *[Comparative Genomics Tools in GMOD](http://gmod.org/wiki/Image:PAG2010ComparativeGenomicsToolsInGMOD.pdf)*, poster with [Sheldon McKay](http://gmod.org/wiki/User:Mckays), Ken Youens-Clark, [Ben Faga](http://gmod.org/wiki/User:Faga), [Scott Cain](http://gmod.org/wiki/User:Scott), at [PAG 2010](http://gmod.org/wiki/PAG_2010), San Diego, January 2010.
 
 ### 2000s and Before
 
