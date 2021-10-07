@@ -314,6 +314,24 @@ The [Galaxy Training Network](https://training.galaxyproject.org/) would like to
 
 </div>
 
+
+<!-- TIaaS feedback -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="card-header trim-p">
+
+[Teaching bioinformatics through blood, mucus and tears](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
+
+</div>
+
+By Tomas Klingström.
+
+Tomas has shared with us his hilarious experience when running a workshop from home. Find out the [whole story](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)!
+
+
+
+</div>
+
+
 </div>
 
 
