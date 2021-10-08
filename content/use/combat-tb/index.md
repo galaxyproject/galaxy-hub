@@ -7,7 +7,7 @@ platforms:
   platform_url: "https://github.com/COMBAT-TB/irida-galaxy-deploy"
   platform_text: "COMBAT-TB Docker"
 summary: "A modular, easy to install application that provides a web based environment for *Mycobacterium tuberculosis* bioinformatics"
-image: "/use/combat-tb/combat-tb-schematic.png"
+image: "/images/use/combat-tb/combat-tb-schematic.png"
 comments:
 - "COMBAT-TB Workbench is built using two main software components: the IRIDA Platform for its web-based user interface and data management capabilities and the Galaxy bioinformatics workflow platform for workflow execution."
 user_support:

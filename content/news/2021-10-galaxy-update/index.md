@@ -69,6 +69,26 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioc
 </div>
 
 
+<!-- Hacktoberfest -->
+<div class="card lead border-info" style="min-width: 24%; max-width: 24rem;">
+<div class="trim-p">
+
+[![Hacktoberfest](/images/news/2021-10-hacktoberfest/hacktoberfest-2021-logo-full.svg)](/news/2021-10-hacktoberfest/)
+
+</div>
+<div class="card-header trim-p">
+
+[Hacktoberfest!](/news/2021-10-hacktoberfest/)
+
+</div>
+
+[Hacktoberfest](https://hacktoberfest.digitalocean.com/) is an annual global contribution drive for open source software, and is underway now. Sign up and make a pull request for documentation, new tools, or contribute to any of the Galaxy GitHub repositories to earn a free Hacktoberfest T-shirt.
+
+See [the announcement](/news/2021-10-hacktoberfest/) for details.
+
+</div>
+
+
 <!-- Outreachy -->
 <div class="card lead border-info" style="min-width: 24%; max-width: 24rem;">
 <div class="trim-p">
@@ -84,7 +104,7 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioc
 
 Galaxy will be participating in the [December 2021 Outreachy Internship Cohort](https://www.outreachy.org/blog/2021-08-13/december-2021-initial-applications-open/).  [Outreachy](https://www.outreachy.org/) is an internship program for open source communities and non-profits.  Galaxy has [two proposed projects](https://www.outreachy.org/apply/project-selection/#galaxy-community) for this cohort.  
 
-Interested in helping? See the [announcement](news/2021-10-outreachy/) for details on what you can do (starting today).
+Interested in helping? See the [announcement](news/2021-10-outreachy/) for details on what you can do, starting right now.
 
 </div>
 
@@ -185,13 +205,13 @@ Registration will open soon, stay tuned!
 
 The Galaxy Developer Round Table meetup in October is:
 
-**[October 28: Imaging tools and pain points and lessons learnt during development and Galaxy deployment](/events/2021-10-28-dev-roundtable/)**, led by Yi Sun of EMBL.
+**[October 28: Image analysis in Galaxy - pain points and lessons learnt](/events/2021-10-28-dev-roundtable/)** led by Yi Sun and Jean-Karim Hériché of EMBL.
 
 We are [seeking volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent) at future roundtables.
 </div>
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 35%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
 
 ![October Papercuts](/images/galaxy-logos/papercuts.png)
@@ -214,7 +234,7 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 </div>
 
 <!-- Fun Micro -->
-<div class="card border-info" style="min-width: 35%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
 
 ![Analysis of Functions Expressed by Microbiomes](/images/events/2021-11-microbiomes/sponsors-hosts-wide.png)
@@ -234,14 +254,12 @@ Microbiome experts and instructors from the Galaxy community will lead this onli
 
 </div>
 
-</div>
-
 
 <!-- GTÑ -->
-<div class="card border-info" style="min-width: 35%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
 
-![gtñ](gtn-spanish.png)
+![gtñ](/images/galaxy-logos/gtn-spanish.png)
 
 </div>
 <div class="card-header trim-p">
@@ -270,6 +288,59 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <div class="card-deck">
 
+
+<!-- MitoLink -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
+<div class="trim-p">
+
+[![MitoLink](/images/use/mitolink/mitolink-logo.jpg)](/use/mitolink/)
+
+</div>
+<div class="card-header trim-p">
+
+[MitoLink Server](/use/mitolink/)
+
+</div>
+
+[MitoLink](https://datascience.imtech.res.in/anshu/mitolink) is an integrated workflow system to facilitate understanding of genotype-phenotype correlations in cases of mitochondrial dysfunction. MitoLink provides a complete pipeline based system to analyse and visualize the role of SNPs in Mitochondrial Diseases. It also provides a [MitoLink User Manual](https://ab-openlab.csir.res.in/mitolink_v1/static/mitolink/User_Manual.pdf), shared [data](https://ab-openlab.csir.res.in/mitolink_v1/library/list), and [workflows](https://ab-openlab.csir.res.in/mitolink_v1/workflows/list_published).
+</div>
+
+<!-- Combat TB -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
+<div class="trim-p">
+
+[![Combat-TB](/images/use/combat-tb/combat-tb-schematic-stripe.png)](/use/combat-tb/)
+
+</div>
+<div class="card-header trim-p">
+
+[Combat-TB Container](/use/combat-tb/)
+
+</div>
+
+COMBAT-TB is a modular, [easy to install application](https://github.com/COMBAT-TB/irida-galaxy-deploy) that provides a web based environment for *Mycobacterium tuberculosis* bioinformatics. It is built using two main software components: the IRIDA Platform for its web-based user interface and data management capabilities and the Galaxy bioinformatics workflow platform for workflow execution.
+
+</div>
+
+
+<!-- VEuPathDB -->
+<div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
+<div class="trim-p">
+
+[![VEuPathDB](/images/use/veupathdb/veupathdb-logo-wide.png)](/use/veupathdb/)
+
+</div>
+<div class="card-header trim-p">
+
+[VEuPathDB](/use/veupathdb/) Update
+
+</div>
+
+The [VEuPathDB Galaxy instance](https://veupathdb.globusgenomics.org) has been updated and now offers improved job and workflow performance for users. Additional tool such as those for scRNA-seq (Scanpy, Seurat), species ID (CryptoGenotyper), table manipulation (Datamash), and proteomics (MSstats, Search GUI, Peptide Shaker, MaxQuant) were added, and existing tools upgraded too.  Give it a try.
+
+</div>
+
+
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
 <div class="card-header trim-p">
@@ -280,7 +351,6 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 ![usegalaxy-dot-star](/images/galaxy-logos/usegalaxy-dot-star-white.png)
 
-* [New high memory computers fast-track insights into large genomes](https://www.biocommons.org.au/news/galaxy-aus-high-memory-test) at Galaxy Australia.
 * [The FTP server on UseGalaxy.eu has been upgraded](https://galaxyproject.eu/posts/2021/10/05/ftp-server-update/), providing more space and accepting only encrypted connections (TLS).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
@@ -292,45 +362,14 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <div class="card-deck">
 
-<!-- Cancer Informatics -->
-<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
-<div class="card-header trim-p">
-
-[Human Genetics working group T2 update](/blog/2021-09-human-genetics-wg-update/)
-
-</div>
-
-By Enis Afgan.
-
-The Human Genetics working group focuses on expanding Galaxy’s ability to analyze protected human data. 
-
-</div>
-
-</div>
-
-
-# Doc, Hub, and Training Updates
-
-<div class="card-deck">
-
-<!-- Survey GTN -->
-<div class="card border-info" style="min-width: 45%; max-width: 24rem;">
-<div class="trim-p">
-
-</div>
-<div class="card-header trim-p">
-
-[Got a minute? Take our survey about Galaxy for training and have your say!](https://training.galaxyproject.org/training-material/news/2021/09/29/survey.html)
-
-</div>
-
-The [Galaxy Training Network](https://training.galaxyproject.org/) would like to get feedback from instructors on the use of Galaxy for training, the preparation needed and the Galaxy Training Material.
-
-</div>
-
 
 <!-- TIaaS feedback -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="trim-p">
+
+[![Blood, Mucus, Tears, and My Little Pony](/images/blog/2021-10-blood-mucus-tears/my-little-pony-tears.png)](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
+
+</div>
 <div class="card-header trim-p">
 
 [Teaching bioinformatics through blood, mucus and tears](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
@@ -343,6 +382,98 @@ Tomas has shared with us his hilarious experience when running a workshop from h
 
 </div>
 
+
+
+<!-- Cancer Informatics -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+
+![AnVIL](/images/logos/anvil-logo-text.png)
+
+<div class="card-header trim-p">
+
+[Human Genetics working group T2 update](/blog/2021-09-human-genetics-wg-update/)
+
+</div>
+
+By Enis Afgan.
+
+The **Human Genetics working group** focuses on expanding Galaxy’s ability to analyze protected human data. Currently, this is made possible via [AnVIL](https://anvilproject.org/) where Galaxy is deployed in a [FedRAMP](https://www.fedramp.gov/) certified environment and alongside [3PB of data](https://anvilproject.org/data). This is the only such environment in the world where anyone can sign up and start working with this data within minutes.
+
+</div>
+
+</div>
+
+
+# Doc, Hub, and Training Updates
+
+<div class="card-deck">
+
+<!-- Automatic Jupyter Notebooks -->
+<div class="card border-info" style="min-width: 30%; max-width: 24rem;">
+
+[![New Feature: Automatic Jupyter Notebooks](/images/news/2021-10-galaxy-update/jupyter-notebook.png)](/images/news/2021-10-galaxy-update/jupyter-notebook.png)
+
+<div class="card-header trim-p">
+
+[Automatic Jupyter Notebooks](https://training.galaxyproject.org/training-material/news/2021/09/24/jupyter.html)
+
+</div>
+
+Check out the [first GTN tutorial](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-basics/tutorial.html) to use Jupyter notebooks for coding and the comand line, and that themselves run inside Galaxy.  (It's OK, you can read that sentence again.)  Using Jupyter notebooks greatly reduces the cutting and pasting in these.  See the [full announcement](https://training.galaxyproject.org/training-material/news/2021/09/24/jupyter.html) for details and link to documentation on how to use this approach.
+
+</div>
+
+<!-- Data Science Survival Kit -->
+<div class="card border-info" style="min-width: 30%; max-width: 24rem;">
+<div class="trim-p">
+
+[![CLI Pipes](/images/news/2021-10-galaxy-update/gtn-cli-pipe.png)](https://training.galaxyproject.org/training-material/topics/data-science/)
+
+</div>
+<div class="card-header trim-p">
+
+[Data Science Survival Kit: Foundations of Data Sceince](https://training.galaxyproject.org/training-material/topics/data-science/)
+
+</div>
+
+The GTN library has a new section, the **Data Science Survival Kit** for tutorials focused on Data Science.  Initially it has three tutorials in it:
+
+* [CLI basics in Galaxy ](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-advanced/tutorial.html), by The Carpentries, Helena Rasche, and Bazante Sanders
+* [Advanced CLI in Galaxy ](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-basics/tutorial.html), by The Carpentries, Helena Rasche, and Bazante Sanders
+* [CLI Educational Game - Bashcrawl](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-bashcrawl/tutorial.html), by Helena Rasche.
+
+</div>
+
+<!-- Intro to Genomics and Galaxy -->
+<div class="card border-info" style="min-width: 30%; max-width: 24rem;">
+<div class="trim-p">
+
+[![Do they ever overlap?](/images/news/2021-10-galaxy-update/gtn-do-genes-on-opposite-strands-ever-overlap.png)](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
+
+</div>
+<div class="card-header trim-p">
+
+[Introcution to Genomics and Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
+
+</div>
+
+This introductorial tutorial got a major update from [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/). Screenshots were updated, and many explanations were clafified.
+
+</div>
+
+
+<!-- Survey GTN -->
+<div class="card border-info" style="min-width: 20%; max-width: 18rem;">
+<div class="card-header trim-p">
+
+[Got a minute? Take our survey about Galaxy for training and have your say!](https://training.galaxyproject.org/training-material/news/2021/09/29/survey.html)
+
+</div>
+
+The [Galaxy Training Network](https://training.galaxyproject.org/) would like to get feedback from instructors on the use of Galaxy for training, the preparation needed and the Galaxy Training Material.
+
+</div>
+
 </div>
 
 
@@ -352,16 +483,17 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 
 <div class="card-deck">
 
-<div class="card border-info" style="min-width: 14rem; max-width: 28rem;">
+<div class="card border-info" style="min-width: 35%; max-width: 28rem;">
 <div class="card-header trim-p">
 
-[GALAXY Workflow for Bacterial Next-Generation Sequencing De Novo Assembly and Annotation](https://doi.org/10.1002/cpz1.242)
+[Moving translational mass spectrometry imaging towards transparent and reproducible data analyses: A case study of an urothelial cancer cohort analyzed in the Galaxy framework](https://doi.org/10.1101/2021.08.09.455649)
 
 </div>
 
-Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. https://doi.org/10.1002/cpz1.242
+Föll, M. C., Volkmann, V., Enderle-Ammour, K., Wilhelm, K., Guo, D., Vitek, O., Bronsert, P., & Schilling, O. (2021). *BioRxiv*, 2021.08.09.455649. https://doi.org/10.1101/2021.08.09.455649
 
 </div>
+
 
 <!-- COVID monitoring paper -->
 <div class="card border-info" style="min-width: 14rem; max-width: 28rem;">
@@ -375,6 +507,18 @@ Maier, W., Bray, S., van den Beek, M. et al. Ready-to-use public infrastructure 
 
 </div>
 
+<!-- COMBAT-TB -->
+<div class="card border-info" style="min-width: 14rem; max-width: 28rem;">
+<div class="card-header trim-p">
+
+[The COMBAT-TB Workbench: Making powerful M. tuberculosis bioinformatics accessible](https://doi.org/10.1101/2021.09.23.21263983)
+
+</div>
+
+Heusden, P. van, Mashologu, Z., Lose, T., Warren, R., & Christoffels, A. (2021). *MedRxiv*, 2021.09.23.21263983. https://doi.org/10.1101/2021.09.23.21263983
+
+</div>
+
 </div>
 
 
@@ -384,6 +528,9 @@ Maier, W., Bray, S., van den Beek, M. et al. Ready-to-use public infrastructure 
 
 <!-- Planemo -->
 <div class="card border-info" style="min-width: 30%; max-width: 22rem;">
+
+![Planemo](/images/galaxy-logos/planemo-logo.png)
+
 <div class="card-header trim-p">
 
 [Planemo 0.74.7](https://github.com/galaxyproject/planemo/releases/tag/0.74.7)
@@ -415,10 +562,6 @@ The standalone version of the language server is available as a [PyPI package](h
 
 The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
 </div>
-
-
-
-
 
 </div>
 
