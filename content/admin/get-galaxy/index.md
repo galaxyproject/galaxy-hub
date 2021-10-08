@@ -76,7 +76,7 @@ admin_users: user1@example.com,user2@example.com
 ```
 
 <div class="alert alert-info" role="alert">
-You need to restart Galaxy after configuration file changes.
+You need to restart Galaxy after configuration file changes. Make sure that you have registered and logged in as the admin user.
 </div>
 
 ## Install Tools
