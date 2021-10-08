@@ -3,7 +3,7 @@ title: "June 3, 2013 Galaxy Distribution"
 date: "2013-06-03"
 ---
 <div class='right'>
-<a href='/archive/dev-news-briefs/2013-06-01/'><img src="/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=400 /></a></div>
+<a href='/archive/dev-news-briefs/2013-06-03'><img src="/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=400 /></a></div>
 **Complete [News Brief](/archive/dev-news-briefs/2013-06-03/)**
 <br />
 <br />
