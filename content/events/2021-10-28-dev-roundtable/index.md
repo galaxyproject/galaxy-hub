@@ -1,20 +1,21 @@
 ---
-title: "Galaxy Developer Roundtable"
+title: "Image analysis in Galaxy - pain points and lessons learnt"
 date: '2021-10-28'
 days: 1
-tease: "Volunteer to lead the discussion"
+tease: "Join the discussion."
 continent: GL
-location: "Online, Global"
+location: "Galaxy Developer Roundtable, Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "TBD"
+contact: "Yi Sun, Jean-Karim Heriche"
+links: 
+- text: "Slides"
+  url: "https://docs.google.com/presentation/d/1mULgN9uRowMB0_K32AwZo6lwqohPjqVlRNIs1l0ZH2I/edit?usp=sharing"
 ---
 
-*Have something you want to talk about at a roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).*
-
-Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([see in your timezone](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20211028T12&p1=179&ah=1)) for an open discussion about ...
+Please <a href="https://psu.zoom.us/j/92752763386">join us</a>) at Noon, US Eastern time (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20211028T12&p1=179&ah=1">see in your timezone</a>) for an open discussion about Image analysis in Galaxy - pain points and lessons learnt, led by Yi Sun and Jean-Karim Heriche of EMBL.
 
 ---
 

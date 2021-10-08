@@ -14,74 +14,44 @@
             </div>
 
             <div class="row">
-                <div class="pseudo-card col-sm-4">
-                    <h2>
-                        <g-link to="/news/"><span class="fas fa-bullhorn"></span>News</g-link>
-                    </h2>
-                    <ArticleListBrief v-for="edge in $page.news.edges" :key="edge.node.id" :article="edge.node" />
-                </div>
-                <div class="pseudo-card col-sm-4">
-                    <h2>
-                        <g-link to="/events/"><span class="far fa-calendar-alt"></span>Events</g-link>
-                    </h2>
-                    <ArticleListBrief v-for="edge in $page.events.edges" :key="edge.node.id" :article="edge.node" />
-                </div>
-                <div class="pseudo-card col-sm-4">
-                    <h2>
-                        <a href="https://twitter.com/galaxyproject">
-                            <span class="fab fa-twitter"></span>@galaxyproject
-                        </a>
-                        <a
-                            class="twitter-timeline"
-                            href="https://twitter.com/galaxyproject"
-                            data-dnt="true"
-                            height="400"
-                            data-chrome="noheader nofooter noscrollbar noborders transparent"
-                            data-widget-id="384667676347363329"
-                        >
-                        </a>
-                    </h2>
-                </div>
+                <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
+                <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :items="latest.events" />
+                <HomeCard
+                    :title="inserts.twitter.title"
+                    :link="inserts.twitter.link"
+                    :icon="inserts.twitter.icon"
+                    :content="inserts.twitter.content"
+                />
             </div>
 
             <div class="row">
-                <div class="pseudo-card col-sm-4" v-if="$page.videos">
-                    <h2>
-                        <a href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA">
-                            <span class="fas fa-play-circle"></span>{{ $page.videos.title }}
-                        </a>
-                    </h2>
-                    <div class="markdown" v-html="$page.videos.content" />
-                </div>
-                <div class="pseudo-card col-sm-4">
-                    <h2>
-                        <g-link to="/blog/"><span class="fas fa-pencil-alt"></span>Blog</g-link>
-                    </h2>
-                    <ArticleListBrief v-for="edge in $page.blog.edges" :key="edge.node.id" :article="edge.node" />
-                </div>
-                <div class="pseudo-card col-sm-4">
-                    <h2>
-                        <a href="/careers/"><span class="fas fa-user-astronaut"></span>Careers</a>
-                    </h2>
-                    <ArticleListBrief v-for="node in careers" :key="node.id" :article="node" />
-                </div>
+                <HomeCard
+                    :title="inserts.videos.title"
+                    :link="inserts.videos.link"
+                    :icon="inserts.videos.icon"
+                    :content="inserts.videos.content"
+                    :items="inserts.videos.items"
+                />
+                <HomeCard title="Blog" link="/blog/" icon="fas fa-pencil-alt" :items="latest.blog" />
+                <HomeCard title="Careers" link="/careers/" icon="fas fa-user-astronaut" :items="latest.careers" />
             </div>
 
             <div class="row">
-                <div class="pseudo-card col-sm-4" v-if="$page.platforms">
-                    <h2>
-                        <a href="/use/"><span class="fas fa-server"></span>{{ $page.platforms.title }}</a>
-                    </h2>
-                    <div class="markdown" v-html="$page.platforms.content" />
-                </div>
-                <div class="pseudo-card col-sm-8" v-if="$page.pubs">
-                    <h2>
-                        <a href="https://www.zotero.org/groups/galaxy">
-                            <span class="fas fa-book-open"></span>{{ $page.pubs.title }}
-                        </a>
-                    </h2>
-                    <div class="markdown" v-html="$page.pubs.content" />
-                </div>
+                <HomeCard
+                    :title="inserts.platforms.title"
+                    :link="inserts.platforms.link"
+                    :icon="inserts.platforms.icon"
+                    :content="inserts.platforms.content"
+                    :items="inserts.platforms.items"
+                />
+                <HomeCard
+                    :title="inserts.pubs.title"
+                    :link="inserts.pubs.link"
+                    :icon="inserts.pubs.icon"
+                    :content="inserts.pubs.content"
+                    :items="inserts.pubs.items"
+                    :width="8"
+                />
             </div>
         </section>
 
@@ -90,21 +60,35 @@
 </template>
 
 <script>
-import ArticleListBrief from "@/components/ArticleListBrief";
+import HomeCard from "@/components/HomeCard";
+import { rmPrefix, rmSuffix } from "~/utils.js";
 export default {
     components: {
-        ArticleListBrief,
+        HomeCard,
     },
     metaInfo: {
         title: "Home",
     },
     computed: {
-        careers() {
-            const reversedCareers = this.$page.careers.edges.slice().reverse();
-            return reversedCareers.map((edge) => edge.node);
+        inserts() {
+            let inserts = {};
+            for (let edge of this.$page.allInsert.edges) {
+                let name = rmSuffix(rmPrefix(edge.node.path, "/insert:/homepage-"), "/");
+                inserts[name] = edge.node;
+            }
+            return inserts;
+        },
+        latest() {
+            let latest = {};
+            for (let category of ["blog", "news", "events", "careers"]) {
+                latest[category] = this.$page[category].edges.map((edge) => articleToItem(edge.node));
+            }
+            latest.careers.reverse();
+            return latest;
         },
     },
     mounted() {
+        // Insert Twitter feed.
         !(function (d, s, id) {
             var js,
                 fjs = d.getElementsByTagName(s)[0],
@@ -118,6 +102,25 @@ export default {
         })(document, "script", "twitter-wjs");
     },
 };
+/** Convert an Article to an "item", with the title, link, and tease fields expected by ItemListBrief. */
+function articleToItem(article) {
+    let item = {
+        id: article.id,
+        title: article.title,
+        link: article.external_url || article.path,
+        tease: article.tease || "",
+    };
+    if (article.date) {
+        item.tease = `*${article.date}.* ${item.tease}`;
+    }
+    if (article.location) {
+        item.tease += ` ${article.location} `;
+    }
+    if (article.closes) {
+        item.tease += ` *Apply by ${article.closes}.*`;
+    }
+    return item;
+}
 </script>
 
 <page-query>
@@ -135,20 +138,23 @@ query {
       path
     }
   }
-  videos: insert(path: "/insert:/homepage-videos/") {
-    id
-    title
-    content
-  }
-  platforms: insert(path: "/insert:/homepage-platforms/") {
-    id
-    title
-    content
-  }
-  pubs: insert(path: "/insert:/homepage-pubs/") {
-    id
-    title
-    content
+  allInsert(filter: {path: {regex: "^/insert:/homepage-[^/]+/$"}}) {
+    totalCount
+    edges {
+      node {
+        id
+        path
+        title
+        link
+        icon
+        items {
+            title
+            link
+            tease
+        }
+        content
+      }
+    }
   }
   footer: insert(path: "/insert:/footer/") {
     id
@@ -227,20 +233,5 @@ query {
     background-color: lightyellow;
     padding-top: 100px;
     border: 4px solid black;
-}
-.pseudo-card {
-    background-color: #e0eaf2;
-    border: 3px solid white;
-    border-radius: 10px;
-}
-.pseudo-card h2 .fas,
-.pseudo-card h2 .far {
-    margin-right: 0.7em;
-}
-.pseudo-card .markdown::v-deep p {
-    font-size: 80%;
-}
-.pseudo-card .markdown::v-deep a {
-    font-size: 125%;
 }
 </style>
