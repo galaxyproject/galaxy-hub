@@ -1,31 +1,16 @@
 ---
 title: 'October 2021 Galactic News'
-tease: ""
-date: "2021-10-04"
-draft: true
+tease: "It's all good."
+date: "2021-10-11"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
-The October newsletter brings what feels like a lot of news, including
+October brings Galaxy involvement in Hacktoberfest, and Outreachy, plus a nice batch of trainings, talksm and a Galaxy Papercuts CoFest day too.  It also brings news of new job openings on two continents, two new platforms, blog posts (where My Little Pony makes an appearance, really), GTN updates (few in number but big in their coolness), pulications, and relases.  
 
-* A list of 12 recent use cases for UseGalaxy.eu, covering a broad spectrum of research.
-* Want to help address misconceptions about Galaxy?
-* The Galaxy Community Hub is now using Gridsome.
-* ELIXIR community updates
-* JXTX Foundation 2021 Awards
-* 7 open positions in Belgium, Italy, and the US
-* The Galaxy YouTube channel is growing up
-* Upcoming events
-* Galaxy Platforms News
-* Recent Blog Posts
-* Doc, Hub, and Training Updates
-* Recent Publications
-* and other news too.
-
-Sit back, get comfortable, and explore the Galaxy...
+In other words, another active month in the Galaxy... :-)
 
 Beatriz Serrano-Solano and Dave Clements, Editors
 
@@ -71,11 +56,9 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioc
 
 <!-- Hacktoberfest -->
 <div class="card lead border-info" style="min-width: 24%; max-width: 24rem;">
-<div class="trim-p">
 
 [![Hacktoberfest](/images/news/2021-10-hacktoberfest/hacktoberfest-2021-logo-full.svg)](/news/2021-10-hacktoberfest/)
 
-</div>
 <div class="card-header trim-p">
 
 [Hacktoberfest!](/news/2021-10-hacktoberfest/)
@@ -91,11 +74,9 @@ See [the announcement](/news/2021-10-hacktoberfest/) for details.
 
 <!-- Outreachy -->
 <div class="card lead border-info" style="min-width: 24%; max-width: 24rem;">
-<div class="trim-p">
 
 [![Outreachy](/images/logos/outreachy-logo.svg)](/news/2021-10-outreachy/)
 
-</div>
 <div class="card-header trim-p">
 
 [Galaxy + Outreachy ⇨ Internships!](/news/2021-10-outreachy/)
@@ -352,6 +333,7 @@ The [VEuPathDB Galaxy instance](https://veupathdb.globusgenomics.org) has been u
 ![usegalaxy-dot-star](/images/galaxy-logos/usegalaxy-dot-star-white.png)
 
 * [The FTP server on UseGalaxy.eu has been upgraded](https://galaxyproject.eu/posts/2021/10/05/ftp-server-update/), providing more space and accepting only encrypted connections (TLS).
+* [UseGalaxy.eu as a cross-disciplinary platform for European researchers](https://galaxyproject.eu/posts/2021/09/15/EU-server-cross-disciplinary/)
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
 </div>
@@ -463,7 +445,7 @@ This introductorial tutorial got a major update from [Cristóbal Gallardo](https
 
 
 <!-- Survey GTN -->
-<div class="card border-info" style="min-width: 20%; max-width: 18rem;">
+<div class="card border-info" style="min-width: 20%; max-width: 100%;">
 <div class="card-header trim-p">
 
 [Got a minute? Take our survey about Galaxy for training and have your say!](https://training.galaxyproject.org/training-material/news/2021/09/29/survey.html)
@@ -567,13 +549,12 @@ The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.
 
 
 
-
 # Other News
 
 <div class="card-deck"> 
 
 <!-- New brochure from ELIXIR Germany -->
-<div class="card lead border-info" style="min-width: 15%; max-width: 35%;">
+<div class="card lead border-info" style="min-width: 15%; max-width: 100%;">
 <div class="card-header trim-p">
 
 [New brochure from ELIXIR Germany](https://galaxyproject.eu/posts/2021/10/06/elixir-de-brochure/)
@@ -584,18 +565,4 @@ ELIXIR Germany has published the handout “ELIXIR GERMANY - Shaping the Bioinfo
 
 </div>
 
-
-<!-- SANBI GCC Leadership -->
-<div class="card border-info" style="min-width: 12rem; max-width: 22rem;">
-<div class="card-header trim-p">
-
-
 </div>
-
-![SANBI](/images/logos/sanbi-uwc-logo.png)
-
-</div>
-
-</div>
-
-
