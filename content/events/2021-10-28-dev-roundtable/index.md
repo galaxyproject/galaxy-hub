@@ -9,13 +9,13 @@ image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "Yi Sun, Jean-Karim Heriche"
+contact: "Yi Sun, Jean-Karim Hériché"
 links: 
 - text: "Slides"
   url: "https://docs.google.com/presentation/d/1mULgN9uRowMB0_K32AwZo6lwqohPjqVlRNIs1l0ZH2I/edit?usp=sharing"
 ---
 
-Please <a href="https://psu.zoom.us/j/92752763386">join us</a>) at Noon, US Eastern time (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20211028T12&p1=179&ah=1">see in your timezone</a>) for an open discussion about Image analysis in Galaxy - pain points and lessons learnt, led by Yi Sun and Jean-Karim Heriche of EMBL.
+Please <a href="https://psu.zoom.us/j/92752763386">join us</a>) at Noon, US Eastern time (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20211028T12&p1=179&ah=1">see in your timezone</a>) for an open discussion about Image analysis in Galaxy - pain points and lessons learnt, led by Yi Sun and Jean-Karim Hériché of EMBL.
 
 ---
 
