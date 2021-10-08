@@ -112,7 +112,7 @@ You can also see Galaxy, in action, in **another webinar 12 hours later**: Anna 
 
 <!-- Metabolomics Call -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="metabolomics.png" alt="Metabolomics" />
+<img class="card-img-top" src="/images/communities/metabolomics.png" alt="Metabolomics" />
 <div class="card-header">[Galaxy Metabolomics Community Call](https://galaxyproject.eu/event/2020-11-24-metabolomics/)</div>
 
 **10 December, Online**

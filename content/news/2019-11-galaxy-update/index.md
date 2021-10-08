@@ -42,7 +42,7 @@ A [dedicated day of collaborative work](/events/2019-11-gtn/) on the training co
 <img class="card-img-top" src="/events/2020-pag/pag2020.png" alt="Galaxy @ PAG 2020" />
 <div class="card-header">Galaxy @ PAG 2020</div>
 
-[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/events/2020-pag/), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new [Excellence in Breeding platform](/use/eib/)) and many talks and posters featuring Galaxy.
+[Galaxy will be at Plant and Animal Genome XXVII (PAG 2020)](/events/2020-pag/), in San Diego, California, United States, January 11-15. This includes a *hands-on Galaxy Workshop* (highlighting the new Excellence in Breeding platform and many talks and posters featuring Galaxy.
 
 And there will be a [GMOD Codefest](http://gmod.org/wiki/Codefest_2020) *before* PAG and an [NCBI Codeathon](https://ncbi-codeathons.github.io/) *after* PAG.
 </div>
