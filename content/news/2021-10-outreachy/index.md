@@ -29,4 +29,4 @@ Participants apply for internships by contributing to open source projects durin
 We have been warned by the EDAM folks (you may have met the EDAM Outreachy interns at GCC2021) to expect a lot of questions and contributions during this time. To avoid overwhelming the main Galaxy communication channels we have set up the [GalaxyProject/Outreachy](https://gitter.im/galaxyproject/Outreachy) room on Gitter.  If you are interested in the two project, or in helping potential interns contribute to Galaxy, then please join us there.
 
 Thanks, and hope to see you in chat,<br />
-Anne Fouilloux, Assunta De Santo, Beatriz Serrano-Solano and Bérénice Batut
+Anne Fouilloux, Assunta De Santo, Beatriz Serrano-Solano, Bérénice Batut and Dave Clements
