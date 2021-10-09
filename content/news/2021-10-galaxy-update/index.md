@@ -8,7 +8,7 @@ date: "2021-10-11"
 
 Hello all,
 
-October brings Galaxy involvement in Hacktoberfest, and Outreachy, plus a nice batch of trainings, talksm and a Galaxy Papercuts CoFest day too.  It also brings news of new job openings on two continents, two new platforms, blog posts (where My Little Pony makes an appearance, really), GTN updates (few in number but big in their coolness), pulications, and relases.  
+October brings Galaxy involvement in Hacktoberfest, and Outreachy, plus a nice batch of trainings, talksm and a Galaxy Papercuts CoFest day too.  It also brings news of new job openings on two continents, two new platforms, blog posts (where My Little Pony makes an appearance, really), GTN updates (few in number but big in their coolness), publications, and releases.  
 
 In other words, another active month in the Galaxy... :-)
 
@@ -251,11 +251,11 @@ Microbiome experts and instructors from the Galaxy community will lead this onli
 
 **29-30 November, Online, UK.**
 
-Curso de análisis de células únicas con Galaxy en español.
+Curso de análisis de células únicas con Galaxy en español. ¡Pronto se abrirá el periodo de inscripción! 
 
 --
 
-Single-cell workshop in Spanish.
+Single-cell workshop in Spanish. Registration will open soon!
 
 
 </div>
@@ -401,7 +401,7 @@ The **Human Genetics working group** focuses on expanding Galaxy’s ability to 
 
 </div>
 
-Check out the [first GTN tutorial](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-basics/tutorial.html) to use Jupyter notebooks for coding and the comand line, and that themselves run inside Galaxy.  (It's OK, you can read that sentence again.)  Using Jupyter notebooks greatly reduces the cutting and pasting in these.  See the [full announcement](https://training.galaxyproject.org/training-material/news/2021/09/24/jupyter.html) for details and link to documentation on how to use this approach.
+Check out the [first GTN tutorial](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-basics/tutorial.html) to use Jupyter notebooks for coding and the command line, and that themselves run inside Galaxy.  (It's OK, you can read that sentence again.)  Using Jupyter notebooks greatly reduces the cutting and pasting in these.  See the [full announcement](https://training.galaxyproject.org/training-material/news/2021/09/24/jupyter.html) for details and link to documentation on how to use this approach.
 
 </div>
 
@@ -418,10 +418,10 @@ Check out the [first GTN tutorial](https://training.galaxyproject.org/training-m
 
 </div>
 
-The GTN library has a new section, the **Data Science Survival Kit** for tutorials focused on Data Science.  Initially it has three tutorials in it:
+The GTN library has a new section, the **Data Science Survival Kit** for tutorials focused on Data Science.  Initially, it has three tutorials in it:
 
-* [CLI basics in Galaxy ](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-advanced/tutorial.html), by The Carpentries, Helena Rasche, and Bazante Sanders
-* [Advanced CLI in Galaxy ](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-basics/tutorial.html), by The Carpentries, Helena Rasche, and Bazante Sanders
+* [CLI basics in Galaxy ](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-advanced/tutorial.html), by The Carpentries, Helena Rasche, and Bazante Sanders.
+* [Advanced CLI in Galaxy ](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-basics/tutorial.html), by The Carpentries, Helena Rasche, and Bazante Sanders.
 * [CLI Educational Game - Bashcrawl](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-bashcrawl/tutorial.html), by Helena Rasche.
 
 </div>
@@ -435,11 +435,11 @@ The GTN library has a new section, the **Data Science Survival Kit** for tutoria
 </div>
 <div class="card-header trim-p">
 
-[Introcution to Genomics and Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
+[Introduction to Genomics and Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
 
 </div>
 
-This introductorial tutorial got a major update from [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/). Screenshots were updated, and many explanations were clafified.
+This introductory tutorial got a major update from [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/). Screenshots were updated, and many explanations were clarified.
 
 </div>
 
