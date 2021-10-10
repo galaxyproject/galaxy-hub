@@ -278,6 +278,7 @@ module.exports = function (api) {
     api.beforeBuild(async () => {
         // Stage in cached images if they exist.
         console.log("Stage in cached images from imageCacheDir")
+        console.log(`Moving from '${api.config.imageCacheDir}/ to '${api.config.imagesDir}'`)
         moveFiles(`${api.config.imageCacheDir}/`, api.config.imagesDir);
     });
 
@@ -291,6 +292,7 @@ module.exports = function (api) {
         });
         // Copy out compiled images.
         console.log("Cache images from build to imageCacheDir")
+        console.log(`Copying from '${api.config.imagesDir}' to '${api.config.imageCacheDir}/'`)
         copyFiles(api.config.imagesDir, `${api.config.imageCacheDir}/`);
     });
 };
@@ -298,13 +300,17 @@ module.exports = function (api) {
 async function copyFiles(source, dest) {
     try {
         await fs.copy(source, dest);
-    } catch (err) {}
+    } catch (err) {
+        console.error(err);
+    }
 }
 
 async function moveFiles(source, dest) {
     try {
         await fs.move(source, dest);
-    } catch (err) {}
+    } catch (err) {
+        console.error(err);
+    }
 }
 
 function makePlatformsJson(platformsData) {
