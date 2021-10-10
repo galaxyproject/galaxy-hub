@@ -307,7 +307,7 @@ async function copyFiles(source, dest) {
 
 async function moveFiles(source, dest) {
     try {
-        await fs.move(source, dest);
+        await fs.move(source, dest, {overwrite: true});
     } catch (err) {
         console.error(err);
     }
