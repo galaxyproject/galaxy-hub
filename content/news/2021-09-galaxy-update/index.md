@@ -212,7 +212,7 @@ There is not a lot going on in August, but what is happening is compelling.  See
 <div class="card border-info" style="min-width: 30%; max-width: 18rem;">
 <div class="trim-p">
 
-![September Papercuts](/events/cofests/papercuts/papercuts.png)
+![September Papercuts](/images/galaxy-logos/papercuts.png)
 
 </div>
 <div class="card-header trim-p">

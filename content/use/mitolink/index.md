@@ -11,7 +11,7 @@ platforms:
   platform_url: "https://doi.org/10.5281/zenodo.5167938"
   platform_text: "MitoLink Virtual Machine"
 summary: "[MitoLink](https://datascience.imtech.res.in/anshu/mitolink) is an integrated workflow system to facilitate understanding of genotype-phenotype correlations in cases of mitochondrial dysfunction."
-image: "/use/mitolink/mitolink-logo.jpg"
+image: "/images/use/mitolink/mitolink-logo.jpg"
 comments:
 - "Provides a complete pipeline based system to analyse and visualize the role of SNPs in Mitochondrial Diseases."
 - "It also provides an in-house mitochondrial protein repository which allows to elucidate the role of the both mitochondrial and nuclear genome in mitochondrial dysfunction."
