@@ -275,6 +275,12 @@ module.exports = function (api) {
         });
     });
 
+    api.beforeBuild(async () => {
+        // Stage in cached images if they exist.
+        console.log("Stage in cached images from imageCacheDir")
+        moveFiles(`${api.config.imageCacheDir}/`, api.config.imagesDir);
+    });
+
     api.afterBuild(async () => {
         // Write all Platforms to /use/feed.json.
         let outDir = path.join(__dirname, "dist", "use");
@@ -283,8 +289,23 @@ module.exports = function (api) {
         fs.writeFile(feedPath, makePlatformsJson(platformsData), (error) => {
             if (error) throw error;
         });
+        // Copy out compiled images.
+        console.log("Cache images from build to imageCacheDir")
+        copyFiles(api.config.imagesDir, `${api.config.imageCacheDir}/`);
     });
 };
+
+async function copyFiles(source, dest) {
+    try {
+        await fs.copy(source, dest);
+    } catch (err) {}
+}
+
+async function moveFiles(source, dest) {
+    try {
+        await fs.move(source, dest);
+    } catch (err) {}
+}
 
 function makePlatformsJson(platformsData) {
     let platforms = platformsData.data.platforms.edges.map((edge) => {
