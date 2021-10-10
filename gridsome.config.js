@@ -37,6 +37,9 @@ function mkPlugins(collections) {
     // Path globbing rules: https://www.npmjs.com/package/globby#user-content-globbing-patterns
     let plugins = [
         {
+            use: "@national-digital/gridsome-plugin-keep-processed-images",
+        },
+        {
             use: "@gridsome/source-filesystem",
             options: {
                 path: [MD_CONTENT_DIR + "/**/index.md"],

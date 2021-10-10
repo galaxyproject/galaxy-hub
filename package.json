@@ -20,6 +20,7 @@
     "@gridsome/source-filesystem": "^0.6.2",
     "@gridsome/transformer-remark": "^0.6.4",
     "@gridsome/vue-remark": "^0.2.6",
+    "@national-digital/gridsome-plugin-keep-processed-images": "^1.0.3",
     "axios": "^0.21.4",
     "bootstrap": "<5.0",
     "bootstrap-vue": "^2.21.2",
