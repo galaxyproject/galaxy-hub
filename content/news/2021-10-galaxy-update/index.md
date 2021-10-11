@@ -42,7 +42,7 @@ This 2 day pre-[Inbix2021](https://neist.res.in/inbix2021/) workshop will featur
 Presenters include include 
 [Christopher B Barnett](http://www.chemistry.uct.ac.za/cem/staff/academic/barnett), 
 [Anshu Bhardwaj](https://www.imtech.res.in/contact/staff/dr-anshu-bhardwaj/107), 
-[Simon Bray](https://www.researchgate.net/profile/Simon-Bray-2), 
+[Simon Bray](https://github.com/simonbray), 
 [Sona Charles](http://www.spices.res.in/ms-sona-charles), 
 [Dave Clements](/people/dave-clements/), 
 [Stephan Flemming](https://github.com/stephanflemming),
