@@ -159,7 +159,7 @@ class nodeModifier {
             // Set the end date: `date + days - 1`, or just the `date` if there's no `days`.
             if (node.days) {
                 let startDate = dayjs(node.date);
-                node.end = startDate.add(node.days-1, "day");
+                node.end = startDate.add(node.days - 1, "day");
             } else {
                 node.end = node.date;
             }
