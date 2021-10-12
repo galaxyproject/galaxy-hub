@@ -32,5 +32,5 @@ Normally `category` isn't present in the metadata. It's autopopulated by the fra
 
 Here's how Inserts are inserted:
 
-<slot name="/__example__/footer" />
+<slot name="/0examples/footer" />
 
