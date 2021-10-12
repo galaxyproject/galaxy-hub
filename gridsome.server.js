@@ -155,8 +155,19 @@ class nodeModifier {
         // Label ones with dates.
         // This gets around the inability of the GraphQL schema to query on null/empty dates.
         if (node.date) {
-            node.days_ago = COMPILE_DATE.diff(node.date, "day");
             node.has_date = true;
+            // Set the end date: `date + days - 1`, or just the `date` if there's no `days`.
+            if (node.days) {
+                let startDate = dayjs(node.date);
+                node.end = startDate.add(node.days-1, "day");
+            } else {
+                node.end = node.date;
+            }
+            // days_ago
+            node.days_ago = COMPILE_DATE.diff(node.end, "day");
+            if (node.end > COMPILE_DATE) {
+                node.days_ago -= 1;
+            }
         } else {
             node.has_date = false;
         }
@@ -206,6 +217,7 @@ module.exports = function (api) {
             type Article implements Node @infer {
                 category: String
                 has_date: Boolean
+                end: Date
                 days_ago: Int
                 closed: Boolean
             }`);

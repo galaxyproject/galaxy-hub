@@ -27,7 +27,7 @@ query VueArticle($path: String!) {
     tease
     category
     date (format: "YYYY-MM-DD")
-    days
+    end (format: "YYYY-MM-DD")
     contact
     contact_url
     authors
