@@ -161,12 +161,12 @@ p.trim-p,
     background-color: rgba(0, 0, 0, 0.05);
 }
 /* Anchor link icons by headings */
-.markdown h1:hover > a[aria-hidden="true"],
-.markdown h2:hover > a[aria-hidden="true"],
-.markdown h3:hover > a[aria-hidden="true"],
-.markdown h4:hover > a[aria-hidden="true"],
-.markdown h5:hover > a[aria-hidden="true"],
-.markdown h6:hover > a[aria-hidden="true"] {
+h1:hover > a[aria-hidden="true"],
+h2:hover > a[aria-hidden="true"],
+h3:hover > a[aria-hidden="true"],
+h4:hover > a[aria-hidden="true"],
+h5:hover > a[aria-hidden="true"],
+h6:hover > a[aria-hidden="true"] {
     display: block;
     padding-right: 6px;
     padding-left: 20px;
@@ -180,12 +180,12 @@ p.trim-p,
     height: 100%;
     background: transparent;
 }
-.markdown h1:hover > a > span.icon.icon-link::before,
-.markdown h2:hover > a > span.icon.icon-link::before,
-.markdown h3:hover > a > span.icon.icon-link::before,
-.markdown h4:hover > a > span.icon.icon-link::before,
-.markdown h5:hover > a > span.icon.icon-link::before,
-.markdown h6:hover > a > span.icon.icon-link::before {
+h1:hover > a > span.icon.icon-link::before,
+h2:hover > a > span.icon.icon-link::before,
+h3:hover > a > span.icon.icon-link::before,
+h4:hover > a > span.icon.icon-link::before,
+h5:hover > a > span.icon.icon-link::before,
+h6:hover > a > span.icon.icon-link::before {
     /* link icon from FontAwesome */
     font-family: "Font Awesome 5 Free";
     content: "\f0c1";
