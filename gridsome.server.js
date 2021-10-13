@@ -131,11 +131,11 @@ class nodeModifier {
             return node;
         }
         if (typeName !== "Insert") {
-            node = this.processNonInsert(node, collection);
+            node = this.processNonInsert(node, collection, typeName);
         }
         return node;
     }
-    static processNonInsert(node) {
+    static processNonInsert(node, collection, typeName) {
         if (node.filename !== "index") {
             // All Markdown files should be named `index.md`, unless it's an `Insert`.
             // `vue-remark` doesn't offer enough filtering to exclude non-index.md files from collection
@@ -155,8 +155,20 @@ class nodeModifier {
         // Label ones with dates.
         // This gets around the inability of the GraphQL schema to query on null/empty dates.
         if (node.date) {
-            node.days_ago = COMPILE_DATE.diff(node.date, "day");
             node.has_date = true;
+            // Set the end date: `date + days - 1`, or just the `date` if there's no `days`.
+            if (node.days) {
+                let startDate = dayjs(node.date);
+                let endDate = startDate.add(node.days - 1, "day");
+                node.end = new Date(endDate);
+            } else {
+                node.end = node.date;
+            }
+            // days_ago
+            node.days_ago = COMPILE_DATE.diff(node.end, "day");
+            if (node.end > COMPILE_DATE) {
+                node.days_ago -= 1;
+            }
         } else {
             node.has_date = false;
         }
@@ -180,7 +192,7 @@ class nodeModifier {
                 if (insert) {
                     node.inserts.push(store.createReference(insert));
                 } else {
-                    console.error(repr`Failed to find Insert for path ${path}`);
+                    console.error(repr`Failed to find Insert for path ${path} in ${node.path}`);
                 }
             }
             return node;
@@ -206,6 +218,7 @@ module.exports = function (api) {
             type Article implements Node @infer {
                 category: String
                 has_date: Boolean
+                end: Date
                 days_ago: Int
                 closed: Boolean
             }`);

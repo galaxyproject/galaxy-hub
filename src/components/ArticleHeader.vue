@@ -63,16 +63,20 @@ export default {
     },
     computed: {
         dateSpan() {
-            if (this.article?.days > 1) {
-                const startDate = dayjs(this.article.date);
-                const endDate = startDate.add(this.article.days, "day");
-                return humanDateSpan(startDate, endDate);
+            if (this.article?.date !== this.article?.end) {
+                return humanDateSpan(this.startDate, this.endDate);
             } else {
                 return this.articleDateStr;
             }
         },
+        startDate() {
+            return dayjs(this.article.date);
+        },
+        endDate() {
+            return dayjs(this.article.end);
+        },
         articleDateStr() {
-            return dayjs(this.article.date).format("MMMM D YYYY");
+            return this.startDate.format("MMMM D YYYY");
         },
     },
     methods: {

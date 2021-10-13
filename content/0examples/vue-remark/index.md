@@ -1,6 +1,8 @@
 ---
 title: Example Markdown page with Vue components
 tease: A tease
+# Normally you wouldn't set the category manually. Instead, it's set based on where this file is
+# placed in the content directory. Since this isn't in the right place, we set it here manually.
 category: news
 date: 2021-04-25
 days: 2
@@ -9,7 +11,7 @@ contact: people
 contact_url: https://example.com
 authors: Jose and me
 location: Strong Badia
-location_url: https://www.youtube.com/watch?v=hfUqRp4E0L8&t=37s
+location_url: 'https://www.youtube.com/watch?v=hfUqRp4E0L8&t=37s'
 external_url: https://zombo.com
 source_blog_url: "https://blogs.nature.com/naturejobs/"
 source_blog: "Naturejobs Blog"
@@ -32,5 +34,5 @@ Normally `category` isn't present in the metadata. It's autopopulated by the fra
 
 Here's how Inserts are inserted:
 
-<slot name="/__example__/footer" />
+<slot name="/0examples/footer" />
 
