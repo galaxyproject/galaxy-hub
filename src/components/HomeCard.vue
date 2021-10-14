@@ -33,7 +33,7 @@ export default {
     &::v-deep a {
         color: $brand-primary !important;
     }
-    background-color: #e0eaf2;
+    background-color: $gray-200;
     border: 3px solid white;
     border-radius: 10px;
 }
