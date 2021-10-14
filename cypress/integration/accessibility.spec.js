@@ -1,7 +1,5 @@
 const CYPRESS_ACCESSIBILITY_CONFIG = {
-    // TODO: address serious accessibility issues and enable this.
-    //includedImpacts: ["serious", "critical"],
-    includedImpacts: ["critical"],
+    includedImpacts: ["serious", "critical"],
 };
 
 describe("Accessibility Testing", () => {
