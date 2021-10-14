@@ -149,17 +149,17 @@ function fixHyperLink(rawUrl) {
     let urlObj = new urlParse(rawUrl);
     let newPath = rmSuffix(rmPrefix(urlObj.pathname, "/src"), "index.md");
     urlObj.set("pathname", newPath);
-    if (globals.debug) {
-        if (url === rawUrl) {
-            console.log(`Link:  Kept ${url}`);
-        } else {
-            console.log(`Link:  Edited ${rawUrl} to ${url}`);
-        }
-    }
     let fixedUrl = urlObj.toString();
     if (!isAbs) {
         // url-parse always makes the path absolute. At least it doesn't trim trailing dots like `URL()`.
         fixedUrl = rmPrefix(fixedUrl, "/");
+    }
+    if (globals.debug) {
+        if (fixedUrl === rawUrl) {
+            console.log(`Link:  Kept   ${rawUrl}`);
+        } else {
+            console.log(`Link:  Edited ${rawUrl} to ${fixedUrl}`);
+        }
     }
     return fixedUrl;
 }
