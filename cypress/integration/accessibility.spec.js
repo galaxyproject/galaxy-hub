@@ -1,4 +1,6 @@
 const CYPRESS_ACCESSIBILITY_CONFIG = {
+    iframes: false,
+    ancestry: true,
     includedImpacts: ["serious", "critical"],
 };
 
