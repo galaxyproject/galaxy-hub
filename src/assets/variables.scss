@@ -56,19 +56,16 @@ $gray-lighter: $gray-200;
 // $base-color with Bootstrap 2 and 3 colors. These are now hardcoded as the
 // derivations get increasingly complicated with each release. See the history
 // of this file and `base.less` for details.
-$galaxy-bs3-primary: #25537b;
-$galaxy-bs3-success: #3a873a;
-$galaxy-bs3-warning: #ae7628;
-$galaxy-bs3-danger: #c8524f;
-$galaxy-bs3-info: #3189a3;
 
-// Lightening and saturating gets to alert backgrounds that are *very close*
-// to the Boostrap 3 Galaxy styles.
-$brand-primary: $galaxy-bs3-primary;
-$brand-success: saturate(lighten($galaxy-bs3-success, 5%), 30%);
-$brand-info: saturate(lighten($galaxy-bs3-info, 10%), 30%);
-$brand-warning: saturate(lighten($galaxy-bs3-warning, 10%), 30%);
-$brand-danger: saturate(lighten($galaxy-bs3-danger, 10%), 30%);
+$brand-primary: #25537b;
+$brand-secondary: #dee2e6;
+$brand-success: #66cc66;
+$brand-info: #2077b3;
+$brand-warning: #fe7f02;
+$brand-danger: #e31a1e;
+$brand-light: #f8f9fa;
+$brand-dark: #2c3143;
+$brand-toggle: gold;
 
 // These variables don't actually determine the colors in Bootstrap 4, instead
 // they use a map called $theme-colors, so here we override that
@@ -148,6 +145,11 @@ $line-height-computed-px: 16px;
 
 $headings-font-weight: 800; // default 500
 $headings-line-height: 1.1; // default 1.2
+
+$brand-masthead: $brand-dark;
+$brand-masthead-text: $brand-light;
+$brand-masthead-text-active: lighten($brand-light, 15%);
+$brand-masthead-text-hover: $brand-toggle;
 
 // Increase contrast of dropdown items
 $dropdown-link-hover-color: white;

@@ -37,7 +37,7 @@ $carousel-indicator-border-color: gray;
 $carousel-indicator-active-bg: $navbar-inverse-bg;
 $carousel-control-width: 5%;
 
-@import "bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/scss/bootstrap.scss";
 
 //@import "~@fortawesome/fontawesome-free/scss/_variables.scss";
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
@@ -94,8 +94,29 @@ footer {
 }
 
 // Masthead
+
+// ==== Masthead ====
 #masthead {
-    background-color: $base-color-1;
+    background-color: $brand-masthead;
+    .navbar-nav {
+        > li {
+            &.active {
+                background: darken($brand-masthead, 10%);
+            }
+            .nav-link {
+                position: relative;
+                cursor: pointer;
+                text-decoration: none;
+                color: $brand-masthead-text;
+                &:hover {
+                    color: $brand-masthead-text-hover;
+                }
+                &.toggle {
+                    color: $brand-masthead-text-hover;
+                }
+            }
+        }
+    }
 }
 
 /* Custom CSS for Galaxy wiki doc
