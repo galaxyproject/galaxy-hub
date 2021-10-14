@@ -57,7 +57,24 @@ query {
 }
 </static-query>
 
-<style>
+<style lang="scss">
+@import "~/assets/styles.scss";
+
+#maincontainer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    a:not(.btn) {
+        color: $brand-primary;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    code {
+        color: black;
+        background-color: #f5f5f5;
+    }
+}
+
 /***** Generally useful styles *****/
 .text-nowrap {
     white-space: nowrap !important;
@@ -84,9 +101,6 @@ query {
     padding-left: 15px;
 }
 /***** Page sections *****/
-#maincontainer {
-    padding-bottom: 1rem;
-}
 .body-wrapper {
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -160,6 +174,16 @@ p.trim-p,
 .markdown tbody tr:nth-of-type(2n + 1) {
     background-color: rgba(0, 0, 0, 0.05);
 }
+
+.markdown h1 > a[aria-hidden="true"],
+.markdown h2 > a[aria-hidden="true"],
+.markdown h3 > a[aria-hidden="true"],
+.markdown h4 > a[aria-hidden="true"],
+.markdown h5 > a[aria-hidden="true"],
+.markdown h6 > a[aria-hidden="true"] {
+    display: none;
+}
+
 /* Anchor link icons by headings */
 h1:hover > a[aria-hidden="true"],
 h2:hover > a[aria-hidden="true"],

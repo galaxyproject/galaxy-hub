@@ -26,9 +26,11 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "~/assets/styles.scss";
+
 .pseudo-card {
-    background-color: #e0eaf2;
+    background-color: $gray-200;
     border: 3px solid white;
     border-radius: 10px;
 }

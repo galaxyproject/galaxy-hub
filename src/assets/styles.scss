@@ -37,7 +37,7 @@ $carousel-indicator-border-color: gray;
 $carousel-indicator-active-bg: $navbar-inverse-bg;
 $carousel-control-width: 5%;
 
-@import "bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/scss/bootstrap.scss";
 
 //@import "~@fortawesome/fontawesome-free/scss/_variables.scss";
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
@@ -79,53 +79,6 @@ body {
     height: 60px;
 }
 
-#maincontainer {
-    background: white;
-    padding-top: 15px;
-    a:not(.btn) {
-        color: #2882dc;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-    code {
-        color: black;
-        background-color: #f5f5f5;
-    }
-    pre {
-        border: none;
-    }
-}
-
-#sidebar {
-    line-height: 140%;
-    a {
-        padding: 3px 15px;
-    }
-    & > ul > li > a {
-        font-weight: bold;
-    }
-    & > ul ul > li > a {
-        padding-left: 30px;
-    }
-    & > ul ul ul > li > a {
-        padding-left: 45px;
-    }
-    & > ul ul ul ul > li > a {
-        padding-left: 60px;
-    }
-}
-
-#edit_page {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    a,
-    a:visited {
-        color: white;
-    }
-}
-
 .section-content {
     width: 100%;
     padding-bottom: 24px;
@@ -141,8 +94,29 @@ footer {
 }
 
 // Masthead
+
+// ==== Masthead ====
 #masthead {
-    background-color: $base-color-1;
+    background-color: $brand-masthead;
+    .navbar-nav {
+        > li {
+            &.active {
+                background: darken($brand-masthead, 10%);
+            }
+            .nav-link {
+                position: relative;
+                cursor: pointer;
+                text-decoration: none;
+                color: $brand-masthead-text;
+                &:hover {
+                    color: $brand-masthead-text-hover;
+                }
+                &.toggle {
+                    color: $brand-masthead-text-hover;
+                }
+            }
+        }
+    }
 }
 
 /* Custom CSS for Galaxy wiki doc
