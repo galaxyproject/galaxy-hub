@@ -79,24 +79,6 @@ body {
     height: 60px;
 }
 
-#maincontainer {
-    background: white;
-    padding-top: 15px;
-    a:not(.btn) {
-        color: #2882dc;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-    code {
-        color: black;
-        background-color: #f5f5f5;
-    }
-    pre {
-        border: none;
-    }
-}
-
 #sidebar {
     line-height: 140%;
     a {

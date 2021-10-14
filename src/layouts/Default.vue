@@ -57,7 +57,26 @@ query {
 }
 </static-query>
 
-<style>
+<style lang="scss">
+#maincontainer {
+    background: white;
+    padding-top: 15px;
+    padding-bottom: 1rem;
+    a:not(.btn) {
+        color: #2882dc;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    code {
+        color: black;
+        background-color: #f5f5f5;
+    }
+    pre {
+        border: none;
+    }
+}
+
 /***** Generally useful styles *****/
 .text-nowrap {
     white-space: nowrap !important;
@@ -84,9 +103,6 @@ query {
     padding-left: 15px;
 }
 /***** Page sections *****/
-#maincontainer {
-    padding-bottom: 1rem;
-}
 .body-wrapper {
     padding-left: 0 !important;
     padding-right: 0 !important;
