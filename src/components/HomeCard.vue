@@ -30,9 +30,6 @@ export default {
 @import "~/assets/styles.scss";
 
 .pseudo-card {
-    &::v-deep a {
-        color: $brand-primary !important;
-    }
     background-color: $gray-200;
     border: 3px solid white;
     border-radius: 10px;

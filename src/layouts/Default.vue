@@ -58,11 +58,13 @@ query {
 </static-query>
 
 <style lang="scss">
+@import "~/assets/styles.scss";
+
 #maincontainer {
     padding-top: 1rem;
     padding-bottom: 1rem;
     a:not(.btn) {
-        color: #2882dc;
+        color: $brand-primary;
     }
     a:hover {
         text-decoration: underline;
