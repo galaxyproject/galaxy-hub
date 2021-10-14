@@ -59,8 +59,7 @@ query {
 
 <style lang="scss">
 #maincontainer {
-    background: white;
-    padding-top: 15px;
+    padding-top: 1rem;
     padding-bottom: 1rem;
     a:not(.btn) {
         color: #2882dc;
@@ -71,9 +70,6 @@ query {
     code {
         color: black;
         background-color: #f5f5f5;
-    }
-    pre {
-        border: none;
     }
 }
 
