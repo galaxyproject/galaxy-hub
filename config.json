@@ -17,6 +17,8 @@
         }
     },
     "redirects": {
+        "/admin/authentication/config/": "/authnz/config/",
+        "/admin/authentication/": "/authnz/",
         "/events/gtn.html": "/events/gtn/",
         "/admin/internals/galaxy-ops/Help Info.html": "/admin/internals/galaxy-ops/help-info/",
         "/admin/internals/galaxy-ops/Python.html": "/admin/internals/galaxy-ops/python/",
