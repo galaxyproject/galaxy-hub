@@ -157,7 +157,7 @@ function fixHyperLink(rawUrl) {
         }
     }
     let fixedUrl = urlObj.toString();
-    if (! isAbs) {
+    if (!isAbs) {
         // url-parse always makes the path absolute. At least it doesn't trim trailing dots like `URL()`.
         fixedUrl = rmPrefix(fixedUrl, "/");
     }
