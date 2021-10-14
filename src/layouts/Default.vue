@@ -174,6 +174,16 @@ p.trim-p,
 .markdown tbody tr:nth-of-type(2n + 1) {
     background-color: rgba(0, 0, 0, 0.05);
 }
+
+.markdown h1 > a[aria-hidden="true"],
+.markdown h2 > a[aria-hidden="true"],
+.markdown h3 > a[aria-hidden="true"],
+.markdown h4 > a[aria-hidden="true"],
+.markdown h5 > a[aria-hidden="true"],
+.markdown h6 > a[aria-hidden="true"] {
+    display: none;
+}
+
 /* Anchor link icons by headings */
 .markdown h1:hover > a[aria-hidden="true"],
 .markdown h2:hover > a[aria-hidden="true"],
