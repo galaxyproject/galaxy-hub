@@ -6,7 +6,7 @@ title: Dave Clements
 
 I am a Community Manager for the [Galaxy Project](/) at [Johns Hopkins University](http://www.jhu.edu) (and formerly at [Emory University](http://emory.edu)). I organize meetings and courses, prepare training materials, and improve Galaxy's documentation, community website, and web presence.  As a community manager I am part of a team that makes sure that the Galaxy Project and the Galaxy Community are the same thing.  *Galaxy is its community.*
 
-Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD_Help_Desk) from 2007-2010, where I did similar work.  I am still involved in the GMOD community as a representative of Galaxy. I have a guest faculty appointment at the [University of Oregon](http://uoregon.edu/), and over the years I have telecommuted from the [Phillips](http://www.uoregon.edu/~pphil/index.html) and [Cresko](http://creskolab.uoregon.edu/) Labs in the [Institute of Ecology and Evolution](http://ie2.uoregon.edu/) (IE<sup>2</sup>) and the [Toomey Lab](http://pages.uoregon.edu/drt/) in the [Department of Earth Sciences](https://earthsciences.uoregon.edu/). 
+Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD_Help_Desk) from 2007-2010, where I did similar work.  I am still involved in the GMOD community as a representative of Galaxy. I have a guest faculty appointment at the [University of Oregon](http://uoregon.edu/), and over the years I have telecommuted from the [Phillips](http://www.uoregon.edu/~pphil/index.html) and [Cresko](http://creskolab.uoregon.edu/) Labs in the [Institute of Ecology and Evolution](http://ie2.uoregon.edu/) (IE<sup>2</sup>) and the [Toomey Lab](https://blogs.uoregon.edu/dougtoomey/) in the [Department of Earth Sciences](https://earthsciences.uoregon.edu/). 
 
 ## Details
 
@@ -21,7 +21,7 @@ Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD_
 
 My background is in computer science.  I have been working in bioinformatics since 2000.
 
-Prior to working on Galaxy (and for [NESCent](http://nescent.org/) and [GMOD](http://gmod.org/wiki/) before that) I worked as the database manager at the [European Renal Genome project (EuReGene)](http://www.euregene.org/), as a member of the [Edinburgh Mouse Atlas Project (EMAP)](http://genex.hgu.mrc.ac.uk/).  This project studied kidney development and disease.  My work focused on gene expression patterns, and anatomy ontologies.
+Prior to working on Galaxy (and for [NESCent](http://nescent.org/) and [GMOD](http://gmod.org/wiki/) before that) I worked as the database manager at the [European Renal Genome project (EuReGene)](https://cordis.europa.eu/project/id/5085/reporting), as a member of the [Edinburgh Mouse Atlas Project (EMAP)](http://genex.hgu.mrc.ac.uk/).  This project studied kidney development and disease.  My work focused on gene expression patterns, and anatomy ontologies.
 
 Prior to EuReGene I worked for [ZFIN, the zebrafish model organism database](http://zfin.org) at the [University of Oregon](http://uoregon.edu) for 5 years as a database administrator and software engineer.
 
@@ -32,7 +32,7 @@ My pre-bioinformatics career included
 * Temporary positions (6 to 12 months) working on
   * [teaching database courses at the University of Oregon](http://www.cs.uoregon.edu/)
   * a data warehouse for inventory control in semiconductor manufacturing ([HP](http://hp.com/)),
-  * a test harness for a network controller OS ([IBM](http://ibm.com)), and
+  * a test harness for a network controller operating system ([IBM](http://ibm.com)), and
   * query tools for credit unions ([EDS](http://www.eds.com/))
 * A master's degree in [Computer Science from the University of Minnesota](http://www.cs.umn.edu).  My research focused on transaction management in federated databases,
 * A bachelor's degree in [Computer Science from Iowa State University](http://cs.iastate.edu).
