@@ -8,6 +8,7 @@ import nodePath from "path";
 import { unified } from "unified";
 import rehypeParse from "rehype-parse";
 import { visit } from "unist-util-visit";
+import urlParse from "url-parse";
 import { rmPrefix, rmSuffix, matchesPrefixes } from "../utils.js";
 
 // `verbose: true` makes the parser include position information for each property of each element.
@@ -18,7 +19,6 @@ const globals = {};
 //TODO: How about urls that begin with a domain but no protocol?
 //      Check if that happens in the codebase.
 const PREFIX_WHITELIST = ["http://", "https://", "mailto:", "/images/", "//", "#"];
-const DUMMY_DOMAIN = "http://dummy.invalid";
 const LINK_PROPS = { img: "src", a: "href" };
 const LINK_FIXERS = { img: fixImageLink, a: fixHyperLink };
 
@@ -48,8 +48,7 @@ export default function attacher(options) {
 }
 
 /** Get the relative path of this file from the base directory.
- *  Multiple bases can be given and this will chose the one which results in the shortest
- *  relative path.
+ *  Multiple bases can be given and this will chose the one which results in the shortest relative path.
  */
 function getDirPath(bases, cwd, filePathRaw) {
     let dirPaths = [];
@@ -141,13 +140,15 @@ function getElementsByTagNames(elem, tagNames) {
 
 /** Perform all the editing appropriate for a hyperlink url (whether in HTML or Markdown). */
 function fixHyperLink(rawUrl) {
-    // Full parsing is needed to take care of situations like a trailing url #fragment.
+    // Skip certain types of links like external (https?://), static (/images/), intrapage (#).
     if (matchesPrefixes(rawUrl, PREFIX_WHITELIST)) {
         return rawUrl;
     }
-    let urlObj = new URL(rawUrl, DUMMY_DOMAIN);
-    urlObj.pathname = rmSuffix(rmPrefix(urlObj.pathname, "/src"), "index.md");
-    let url = rmPrefix(urlObj.href, DUMMY_DOMAIN);
+    // Full parsing is needed to take care of situations like a trailing url #fragment.
+    let isAbs = rawUrl.startsWith("/");
+    let urlObj = new urlParse(rawUrl);
+    let newPath = rmSuffix(rmPrefix(urlObj.pathname, "/src"), "index.md");
+    urlObj.set("pathname", newPath);
     if (globals.debug) {
         if (url === rawUrl) {
             console.log(`Link:  Kept ${url}`);
@@ -155,7 +156,12 @@ function fixHyperLink(rawUrl) {
             console.log(`Link:  Edited ${rawUrl} to ${url}`);
         }
     }
-    return url;
+    let fixedUrl = urlObj.toString();
+    if (! isAbs) {
+        // url-parse always makes the path absolute. At least it doesn't trim trailing dots like `URL()`.
+        fixedUrl = rmPrefix(fixedUrl, "/");
+    }
+    return fixedUrl;
 }
 
 /** Perform all the editing appropriate for an image src url (whether in HTML or Markdown). */
