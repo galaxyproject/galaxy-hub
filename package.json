@@ -42,6 +42,7 @@
     "unified": "^10.1.0",
     "unified-engine": "^9.0.4",
     "unist-util-visit": "^4.0.0",
+    "url-parse": "^1.5.3",
     "which": "^2.0.2"
   },
   "devDependencies": {
