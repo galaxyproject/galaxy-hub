@@ -6,6 +6,9 @@ on:
     branches:
       - master
 
+concurrency:
+  group: publish-master
+
 jobs:
   publish:
     runs-on: ubuntu-latest
