@@ -141,7 +141,8 @@ function gridifyPath(rawPath) {
         rawParts.push("");
     }
     let sluggedParts = rawParts.map(slugify);
-    return sluggedParts.join("/");
+    let fixedPath = sluggedParts.join("/");
+    return ensureSuffix(fixedPath, "/");
 }
 module.exports.gridifyPath = gridifyPath;
 
@@ -160,14 +161,23 @@ function matchesPrefixes(string, prefixes) {
 }
 module.exports.matchesPrefixes = matchesPrefixes;
 
-function ensurePrefix(string, char) {
-    if (string.startsWith(char)) {
+function ensurePrefix(string, prefix) {
+    if (string.startsWith(prefix)) {
         return string;
     } else {
-        return char + string;
+        return prefix + string;
     }
 }
 module.exports.ensurePrefix = ensurePrefix;
+
+function ensureSuffix(string, suffix) {
+    if (string.endsWith(suffix)) {
+        return string;
+    } else {
+        return string + suffix;
+    }
+}
+module.exports.ensureSuffix = ensureSuffix;
 
 function rmPrefix(rawString, prefix) {
     if (rawString.startsWith(prefix)) {
