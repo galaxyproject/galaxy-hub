@@ -29,17 +29,37 @@ export default {
     },
     mounted() {
         // If the url is different under Gridsome's slugification rules, redirect to that.
-        let currentUrl = window.location.href;
-        let url = new URL(currentUrl);
-        url.pathname = gridifyPath(url.pathname);
-        if (url.href !== currentUrl) {
-            this.redirectUrl = url.href;
-            console.log(repr`Redirecting to slugified url ${this.redirectUrl} in ${this.redirectDelay} seconds.`);
-            let currentPath = window.location.pathname;
-            setTimeout(() => doRedirect(this.redirectUrl, currentPath), this.redirectDelay * 1000);
-        }
+        this.redirectUrl = doRedirectIfNeeded(window.location.href, window.location.pathname, this.redirectDelay);
     },
 };
+function doRedirectIfNeeded(currentUrl, currentPath, redirectDelay) {
+    let redirectUrl = currentUrl;
+    let url = new URL(currentUrl);
+    if (isFilenamePath(url.pathname)) {
+        return;
+    }
+    url.pathname = gridifyPath(url.pathname);
+    if (url.href !== currentUrl) {
+        redirectUrl = url.href;
+        console.log(repr`Redirecting to slugified url ${redirectUrl} in ${redirectDelay} seconds.`);
+        setTimeout(() => doRedirect(redirectUrl, currentPath), redirectDelay * 1000);
+        return redirectUrl;
+    }
+}
+/** Does the path look like it ends with a filename?
+ * Returns `true` if the filename at the end of the path has a file extension no longer than `maxExtLen`.
+ * Note: Paths that end in "/" or that have no "." after the last "/" will return `false`.
+ */
+function isFilenamePath(path, maxExtLen = 6) {
+    let pathParts = path.split("/");
+    let filename = pathParts[pathParts.length - 1];
+    let fileParts = filename.split(".");
+    let ext = fileParts[fileParts.length - 1];
+    if (ext && ext.length <= maxExtLen) {
+        return true;
+    }
+    return false;
+}
 </script>
 
 <page-query>
