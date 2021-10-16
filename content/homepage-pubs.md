@@ -5,7 +5,7 @@ icon: fas fa-book-open
 items:
 - title: Expanding the Galaxy’s reference data
   link: https://doi.org/10.1101/2020.10.09.327114
-  tease: VijayKrishna, N., Joshi, J., Coraor, N., Hillman-Jackson, J., Bouvier, D., Beek, M. van den, Eguinoa, I., Coppens, F., Golitsynskiy, S., Stolarczyk, M., Sheffield, N. C., Gladman, S., Cuccuru, G., Grüning, B., Soranzo, N., Rasche, H., Langhorst, B. W., Bernt, M., Fornika, D., … Blankenberg, D. (2021). *BioRxiv*, 2020.10.09.327114.
+  tease: "<div class='altmetric-embed' data-badge-type='donut' data-doi='10.1101/2020.10.09.327114'></div> VijayKrishna, N., Joshi, J., Coraor, N., Hillman-Jackson, J., Bouvier, D., Beek, M. van den, Eguinoa, I., Coppens, F., Golitsynskiy, S., Stolarczyk, M., Sheffield, N. C., Gladman, S., Cuccuru, G., Grüning, B., Soranzo, N., Rasche, H., Langhorst, B. W., Bernt, M., Fornika, D., … Blankenberg, D. (2021). <em>BioRxiv</em>, 2020.10.09.327114."
 - title: Ready-to-use public infrastructure for global SARS-CoV-2 monitoring
   link: https://doi.org/10.1038/s41587-021-01069-1
   tease: Maier, W., Bray, S., van den Beek, M., Bouvier, D., Coraor, N., Miladi, M., Singh, B., De Argila, J. R., Baker, D., Roach, N., Gladman, S., Coppens, F., Martin, D. P., Lonie, A., Grüning, B., Kosakovsky Pond, S. L., & Nekrutenko, A. (2021). *Nature Biotechnology*, 1–2.
