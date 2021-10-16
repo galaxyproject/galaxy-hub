@@ -100,6 +100,10 @@ export default {
                 fjs.parentNode.insertBefore(js, fjs);
             }
         })(document, "script", "twitter-wjs");
+
+        const altmetricScript = document.createElement("script");
+        altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
+        document.head.appendChild(altmetricScript);
     },
 };
 /** Convert an Article to an "item", with the title, link, and tease fields expected by ItemListBrief. */
