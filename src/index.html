@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html ${htmlAttrs}>
-  <head>
-    ${head}
-    <script src="//unpkg.com/jquery@3.3.1/dist/jquery.slim.min.js"></script>
-    <script>
-      ((window.gitter = {}).chat = {}).options = {
-        room: 'galaxyproject/Lobby'
-      };
-    </script>
-    <script async defer src="https://sidecar.gitter.im/dist/sidecar.v1.js"></script>
-  </head>
-  <body ${bodyAttrs}>
-    ${app}
-    ${scripts}
-    <script src="//unpkg.com/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
-  </body>
+    <head>
+        ${head}
+        <script src="//unpkg.com/jquery@3.3.1/dist/jquery.slim.min.js"></script>
+        <script>
+            ((window.gitter = {}).chat = {}).options = {
+                room: "galaxyproject/Lobby",
+            };
+        </script>
+        <script async defer src="https://sidecar.gitter.im/dist/sidecar.v1.js"></script>
+    </head>
+    <body ${bodyAttrs}>
+        ${app} ${scripts}
+        <script src="//unpkg.com/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+    </body>
 </html>
