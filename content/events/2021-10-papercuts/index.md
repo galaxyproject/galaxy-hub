@@ -77,10 +77,13 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 * **Call 1: Oceania, Australia, Asia**
   * 14:00 Australia Eastern time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=14%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20211021T14&p1=152&am=30">See your time</a>.
   * [Zoom Link](https://zoom.us/j/98189403566?pwd=SWhueXkzNHlKSG1QMU0xUG1ESFFsUT09)
-* **Call 2: Middle East, Europe, Africa**
+* **Call 2: Metabolomics tools**
+  * 09:00 Central European Summer time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=9%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20211021T10&p1=980&am=30">See your time</a>.
+  * [Zoom Link](https://us02web.zoom.us/j/88224419803?pwd=cE5sNTBmVnk5T2hnUms5aktyYXFEQT09)
+* **Call 3: Middle East, Europe, Africa**
   * 10:00 Central European Summer time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=10%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20211021T10&p1=980&am=30">See your time</a>.
   * [Zoom Link](https://us02web.zoom.us/j/88224419803?pwd=cE5sNTBmVnk5T2hnUms5aktyYXFEQT09)
-* **Call 3: Americas**
+* **Call 4: Americas**
   * 12:00 US Eastern time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20211021T12&p1=3705&am=30">See your time</a>.
   * [Zoom Link](https://zoom.us/j/98189403566?pwd=SWhueXkzNHlKSG1QMU0xUG1ESFFsUT09)
 
