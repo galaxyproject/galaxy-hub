@@ -49,12 +49,12 @@ All times are [India Standard Time](https://www.timeanddate.com/worldclock/conve
 | | 11:15 AM-3:00 PM | **Attendees work on assignments** based on the metagenomics video tutorials   |
 | | 3:30-4:00 PM | **Vendor Talk** |
 | | 4:30-5:30 PM | **Talk on viral metagenomics** by Dr. Manoj Kumar (CSIR-IMTech, Chandigarh) |
-| | 5:30-6:30 PM | **Hands-on session to answer metagenomics questions** - Berenice Batut (University of Freiburg, Freiburg) and Saskia Hiltemann (Erasmus University Medical Center, Hague) |
+| | 6:30-7:30 PM | **Hands-on session to answer metagenomics questions** - Berenice Batut (University of Freiburg, Freiburg) and Saskia Hiltemann (Erasmus University Medical Center, Hague) |
 | **Nov 17** | 8:30-9:00 AM | **Metagenomics Kahoot!** |
 | | 9:05-10:00 AM | **Recorded Lecture** by Dr. Berenice Batut (University of Freiburg, Freiburg) |
 | | 10:05-11:00 AM | **Introduction to the Metatranscriptomics video tutorials** - Subina Mehta  and Pratik Jagtap (Galaxy-P Team, University of Minnesota, MN) |
 | | 11:15&nbsp;AM-3:00&nbsp;PM | **Attendees work assignments** based on the metatranscriptomics video tutorials   |
-| | 5:30-6:30 PM | **Hands-on session to answer metatranscriptomics questions** - Subina Mehta (Galaxy-P Team, University of Minnesota, MN) and Saskia Hiltemann (Erasmus University Medical Center, Hague) |
+| | 6:30-7:30 PM | **Hands-on session to answer metatranscriptomics questions** - Subina Mehta (Galaxy-P Team, University of Minnesota, MN) and Saskia Hiltemann (Erasmus University Medical Center, Hague) |
 | **Nov 18** | 8:30-9:00 AM | **Metatranscriptomics Kahoot!** |
 | | 9:05-10:00 AM | **Talk on ocean metaproteomics** by Dr. Brook Nunn (University of Washington, Seattle, WA) |
 | | 10:05-11:00 AM | **Introduction to the Metaproteomics video tutorials** - Pratik Jagtap and Subina Mehta (Galaxy-P Team, University of Minnesota, MN) |
