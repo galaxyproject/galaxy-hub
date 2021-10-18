@@ -1,5 +1,5 @@
 ---
-title: "SARS-CoV-2 Data Analysis and Monitoring with Galaxy"
+title: "POSTPONED: SARS-CoV-2 Data Analysis and Monitoring with Galaxy"
 date: '2021-10-20'
 days: 1
 tease: "...upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments..."
