@@ -20,7 +20,7 @@ draft: false
 autotoc: true
 gtn: false
 skip_title_render: false
-image: World40.png
+image: /images/icons/GL.png
 links:
 - text: "Video"
   url: "https://youtu.be/bQFv4EVunWw"
