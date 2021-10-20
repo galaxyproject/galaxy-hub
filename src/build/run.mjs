@@ -65,11 +65,11 @@ function main(rawArgv) {
         if (command === "build") {
             // cpy's `caseSensitiveMatch` option doesn't seem to be working so let's at
             // least make sure we get both all-lowercase and all-uppercase variations.
-            let extsLower = CONFIG.build.copyFileExts.map(ext => ext.toLowerCase());
-            let extsUpper = extsLower.map(ext => ext.toUpperCase());
-            let globs = [...extsLower, ...extsUpper].map(ext => `**/*.${ext}`);
+            let extsLower = CONFIG.build.copyFileExts.map((ext) => ext.toLowerCase());
+            let extsUpper = extsLower.map((ext) => ext.toUpperCase());
+            let globs = [...extsLower, ...extsUpper].map((ext) => `**/*.${ext}`);
             console.log(`Copying integrated static content ("${extsLower.join('", "')}") to dist`);
-            cpy(globs, "../dist", {cwd: "./content", overwrite: false, parents: true});
+            cpy(globs, "../dist", { cwd: "./content", overwrite: false, parents: true });
         }
 
         if (signal) {
