@@ -7,6 +7,10 @@ import which from "which";
 import cpy from "cpy";
 import { repr } from "../utils.js";
 import { PathInfo } from "../paths.js";
+// Direct importing of JSON files isn't supported yet in ES modules. This is a workaround.
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const CONFIG = require("../../config.json");
 
 const SCRIPT_DIR = nodePath.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = nodePath.dirname(nodePath.dirname(SCRIPT_DIR));
@@ -56,16 +60,16 @@ function main(rawArgv) {
     console.log(`$ ${cmd3}`);
     let gridsome = childProcess.spawn(gridsomeExe, [command], { stdio: "inherit" });
     gridsome.on("exit", (code, signal) => {
-        // Copy static images for direct reference to dist -- only when doing a
-        // full build.  We hook into the exit this way to let Gridsome do its
-        // thing first.
+        // Copy static images for direct reference to dist -- only when doing a full build.
+        // We hook into the exit this way to let Gridsome do its thing first.
         if (command === "build") {
-            console.log("Coping integrated static content (png, jp(e)g, pdf, gif, and svg) to dist.");
-            cpy(["**/*.png", "**/*.jpg", "**/*.pdf", "**/*.gif", "**/*.svg", "**/*.jpeg"], "../dist", {
-                cwd: "./content",
-                overwrite: false,
-                parents: true,
-            });
+            // cpy's `caseSensitiveMatch` option doesn't seem to be working so let's at
+            // least make sure we get both all-lowercase and all-uppercase variations.
+            let extsLower = CONFIG.build.copyFileExts.map((ext) => ext.toLowerCase());
+            let extsUpper = extsLower.map((ext) => ext.toUpperCase());
+            let globs = [...extsLower, ...extsUpper].map((ext) => `**/*.${ext}`);
+            console.log(`Copying integrated static content ("${extsLower.join('", "')}") to dist`);
+            cpy(globs, "../dist", { cwd: "./content", overwrite: false, parents: true });
         }
 
         if (signal) {
