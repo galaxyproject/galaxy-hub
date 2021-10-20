@@ -1,7 +1,6 @@
 ---
 title: Galaxy Outreach
 ---
-![PoweredByGalaxy](/outreach/powered-by-galaxy/PoweredByGalaxy200.png)
 
 A number of resources are available to help connect researchers and developers with Galaxy. Broadening Galaxy's reach serves several interrelated purposes:
 
@@ -15,9 +14,15 @@ A number of resources are available to help connect researchers and developers w
 
 ### Powered by Galaxy
 
-![PoweredByGalaxy](/outreach/powered-by-galaxy/PoweredByGalaxy120.png)
+<div class="float-right" style="max-width: 14rem">
 
-*Powered by Galaxy* icons are available in a [number of different resolutions](/outreach/powered-by-galaxy/) for inclusion on web sites, talks, posters, and other printed material. Including icons is an easy way to let people know how widely used and useful Galaxy is.
+[![Powered by Galaxy](/images/galaxy-logos/powered-by-galaxy.png)](/images/galaxy-logos/powered-by-galaxy.png)
+
+</div>
+
+A [*Powered by Galaxy* image is available](/images/galaxy-logos/powered-by-galaxy.png) for inclusion on web sites, talks, posters, and other printed material. Including icons is an easy way to let people know how widely used and useful Galaxy is.  If you use this graphic on web pages you are encouraged to have the image link back
+to [galaxyproject.org](/).
+
 
 ### Logos and Images
 
