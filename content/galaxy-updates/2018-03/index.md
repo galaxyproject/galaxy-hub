@@ -72,7 +72,7 @@ We are pleased to announce two of our keynote speakers:
 
 ## GCCBOSC 2018 Sponsors
 
-We are happy to have several confirmed [GCCBOSC 2018 sponsors](/events/gccbosc2018/sponsors/index.html). This month we are highlighting *F1000Research* and the *Technology Association of Oregon*:
+We are happy to have several confirmed [GCCBOSC 2018 sponsors](/events/gccbosc2018/sponsors/). This month we are highlighting *F1000Research* and the *Technology Association of Oregon*:
 
 ### F1000Research
 
@@ -97,7 +97,7 @@ For the first time, the *Galaxy Community Conference* and *Bioinformatics Open S
 
 ### Call for sponsors!
 
-[Sponsors](/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/events/gccbosc2018/sponsors/) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 
 # ELIXIR Galaxy Community Kickoff and Meeting, March, Freiburg

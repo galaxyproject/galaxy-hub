@@ -76,7 +76,7 @@ Interested?  Please [register your interest in a nursing room, and/or sign up fo
 
 ## GCCBOSC 2018 Sponsors
 
-We are happy to have several confirmed [GCCBOSC 2018 sponsors](/events/gccbosc2018/sponsors/index.html). This month we are highlighting **[Google Cloud](https://cloud.google.com/solutions/healthcare-life-sciences/)**, a GCCBOSC 2018 Platinum Sponsor:
+We are happy to have several confirmed [GCCBOSC 2018 sponsors](/events/gccbosc2018/sponsors/). This month we are highlighting **[Google Cloud](https://cloud.google.com/solutions/healthcare-life-sciences/)**, a GCCBOSC 2018 Platinum Sponsor:
 
 ### Google Cloud
 
@@ -90,7 +90,7 @@ We are happy to have several confirmed [GCCBOSC 2018 sponsors](/events/gccbosc20
 
 ### Call for sponsors!
 
-[Sponsors](/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/events/gccbosc2018/sponsors/) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 # 2018 Big Genomics Data Skills Training course
 

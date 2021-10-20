@@ -20,10 +20,9 @@ date: 2012-10-05
   </tr>
 </table>
 
-
-
 <br />
 <br />
+
 # BWA Migration to Tool Shed
 
 The tools **NGS: Mapping** &rarr; *Map with BWA for Illumina* and *Map with BWA for
@@ -35,8 +34,8 @@ Migration scripts will run upon Galaxy's first launch (after updating to this re
 
 **[BWA](http://bio-bwa.sourceforge.net/)** is a fast light-weighted tool that aligns relatively short sequences (queries) to a sequence database (large), such as the human reference genome. It is developed by Heng Li at the Sanger Insitute. Li H. and Durbin R. (2009) Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics, 25, 1754-60.
 
-
 <br />
+
 # Galaxy Tool Factory Paper E Published
 
 As reported in the [September 20th News Brief](/archive/dev-news-briefs/2012-09-20/#galaxy-tool-factory), the **Tool Factory** is already available in the tool shed. At that time, the manuscript was accepted, but pending publication. The E publication is now available.
@@ -55,18 +54,19 @@ PMID: 23024011 ([PubMed](http://www.ncbi.nlm.nih.gov/pubmed) - as supplied by pu
 3. *Before you install - THIS IS IMPORTANT!!* The **Tool Factory** allows unrestricted scripting - NO SANDBOX!! so is far too dangerous for production sites. It can only be run by *local **Galaxy** site administrators*. Please, do **NOT** install on public Galaxy instances. ***Generated tools are safe if the script they wrap is safe***.
 
 <br />
+
 # Dataset Cleanup
 
 **[PostgreSQL](http://www.postgresql.org)** users with extremely large databases can now use a more efficient database-driven cleanup script.  The lifecycle is similar to the old script, but the syntax is different.  The new script can be found at:
 
 ```
-    galaxy-dist/scripts/cleanup_dataset/pgcleanup.py
+galaxy-dist/scripts/cleanup_dataset/pgcleanup.py
 ```
-
 
 If called with the `--help` option, it will output usage information.  The dataset cleanup documentation will be updated to refer to this script.
 
 <br />
+
 # Tool Shed
 
 The **[Tool Shed](/toolshed/)** wiki has been re-written with a new, cleaner presentation. *[Check it out!](/toolshed/)*
@@ -122,6 +122,7 @@ The following sections of the tool shed wiki have been updated to more thoroughl
  Executing the process for a specific tool migration stage can be done at any time, not just at the time you are starting your Galaxy server as discussed in the previous sections of this document. [Read more…](/toolshed/migrating-tools-from-galaxy-distribution/#delaying-execution-of-a-tool-migration-stage)
 
 <br />
+
 # Tools
 
 [Tool Dependencies](admin/config/tool-dependencies/)
@@ -159,6 +160,7 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 * [More about](http://cufflinks.cbcb.umd.edu) **[Cufflinks, Cuffcompare, Cuffmerge, & Cuffdiff](http://cufflinks.cbcb.umd.edu)**
 
 <br />
+
 # Visualization framework
 
 ### Enhancements
@@ -174,11 +176,13 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 1. Fix embedded visualizations and bookmarking which were broken during refactoring.
 
 <br />
+
 # API
 
 1. Fix issues with **Genomes API**: handle periods in keys, fix typo, and list genomes when querying.
 
 <br />
+
 # Workflows
 
 1. Fix to correctly display error message when attempting to run a workflow missing tools.
@@ -186,6 +190,7 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 2. Viewing and Downloading of workflows with missing tools now handled gracefully.
 
 <br />
+
 # Security Fixes
 
 1. Prevent potential login XSS, sanitize all reflected parameters.
@@ -195,12 +200,14 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 3. Revise the `Compute` tool to only allow for execution of a limited set of expressions.
 
 <br />
+
 # Bug Fixes
 
 1. Jobs
   * Set the correct job name when submitting jobs as system users.
 
 <br />
+
 # Announcements
 
 [News](/news/), *[October 2012 Galaxy Update](/galaxy-updates/2012-10/)*
@@ -215,8 +222,11 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 * [Other News](/galaxy-updates/2012-10/#other-news)
 
 <br />
+
 ----
+
 <br />
+
 # About Galaxy
 
 **[GalaxyProject.org](http://galaxyproject.org)**

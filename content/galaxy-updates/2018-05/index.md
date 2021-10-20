@@ -37,7 +37,7 @@ If you register after May 11, you will have less money to fund reagents, storage
 
 ## GCCBOSC 2018 Sponsors
 
-We are happy to have [sponsors](/events/gccbosc2018/sponsors/index.html) contributing to the success of GCCBOSC 2018. This month we are highlighting **[Advanced HPC](https://www.advancedhpc.com/industries/life-sciences/)** and **[GigaScience](https://academic.oup.com/gigascience)**.
+We are happy to have [sponsors](/events/gccbosc2018/sponsors/) contributing to the success of GCCBOSC 2018. This month we are highlighting **[Advanced HPC](https://www.advancedhpc.com/industries/life-sciences/)** and **[GigaScience](https://academic.oup.com/gigascience)**.
 
 ### GigaScience and Oxford University Press
 
@@ -63,7 +63,7 @@ Advanced HPC is pleased to be the first ever **[GCCBOSC Icebreaker](/events/gccb
 
 ### Call for sponsors!
 
-[Sponsors](/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/events/gccbosc2018/sponsors/) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 <br />
 
