@@ -101,3 +101,13 @@ If you're adding a sublist to a list, make sure to indent it four spaces:
     * Subitem B
 3. Item three
 ```
+
+## File download links
+
+Often, you might want to insert a hyperlink to a file so the reader can download it or view it on its own. You might just drop the file into the same directory as the Markdown file, then insert a link like `[click to download](./paper.pdf)`.
+
+But this sort of "local" link often gets broken in the build process. So it's best to place the file in a static directory: either `content/images/` (for images) or `content/media/` (for non-images). Then you can link to it there using an absolute link:
+
+```Markdown
+[click to download](/media/paper.pdf)
+```
