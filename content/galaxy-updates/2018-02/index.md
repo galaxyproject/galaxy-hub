@@ -28,7 +28,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 
 ## GCCBOSC 2018 Sponsors
 
-We are happy to have announced several [GCCBOSC 2018 sponsors](/events/gccbosc2018/sponsors/index.html) in January. This month we are highlighting *PeerJ*:
+We are happy to have announced several [GCCBOSC 2018 sponsors](/events/gccbosc2018/sponsors/) in January. This month we are highlighting *PeerJ*:
 
 ### PeerJ
 
@@ -46,7 +46,7 @@ GCCBOSC attendees may be interested to hear that, in addition to research articl
 
 ### Call for sponsors!
 
-[Sponsors](/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/events/gccbosc2018/sponsors/) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 
 ## ELIXIR Galaxy Community Kickoff and Meeting, March, Freiburg
