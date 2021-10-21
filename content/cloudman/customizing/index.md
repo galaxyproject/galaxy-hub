@@ -22,7 +22,9 @@ full path to the file as a single argument: `add-cluster-users
 /mnt/transient_nfs/user_list.txt`
 
 <div class='center'>
-<a href='add-system-users.png'><img src="/images/screenshots/add-system-users.png" alt="" width=600 /></a>
+
+![Add system users](/images/screenshots/add-system-users.png)
+
 </div>
 
 Once added, the users can ssh to the cluster using the specified password to

@@ -1,2 +1,2 @@
-&uarr; [/CloudMan](/CloudMan)<br />
+&uarr; [CloudMan](/cloudman)<br />
 </div>
