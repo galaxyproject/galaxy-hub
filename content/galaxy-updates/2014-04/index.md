@@ -289,7 +289,7 @@ Three [public Galaxy servers](/use/) were added to the published list in March:
 
 ## Image Analysis and Processing Toolkit
 
-<div class='right solid'><a href='http://cloudimaging.net.au/'><img src="/use/iaptk/image-analysis-toolkit.png" alt="Image Analysis and Processing ToolKit"  /></a></div>
+<div class='right solid'><a href='http://cloudimaging.net.au/'><img src="/use/archive/iaptk/image-analysis-toolkit.png" alt="Image Analysis and Processing ToolKit"  /></a></div>
 * *Links:*
   * [Image Analysis and Processing Toolkit Server](http://cloudimaging.net.au/)
   * [Project blog](http://cloudimaging.blogspot.com.au/)
