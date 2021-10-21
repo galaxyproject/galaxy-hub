@@ -90,7 +90,7 @@ If your organization is interested in participating in [GCC 2012](/events/gcc201
 
 ## About GCC 2012
 
-The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC 2012 will be the third annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](/events/gcc2012/GDC2010/) and [2011 (Lunteren, the Netherlands)](https://galaxyproject.org/gcc2011/), and we expect attendance to double again this year to nearly 300 participants.  Participants mainly come from these groups:
+The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering.  GCC 2012 will be the third annual meeting.  Attendance doubled between the first meeting in [2010 (Cold Spring Harbor Laboratories)](/events/gdc2010/) and [2011 (Lunteren, the Netherlands)](/events/gcc2011/), and we expect attendance to double again this year to nearly 300 participants.  Participants mainly come from these groups:
 * Sequencing core facility staff
 * Bioinformatics core staff
 * Bioinformatics tool and workflow developers

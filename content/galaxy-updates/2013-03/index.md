@@ -114,10 +114,10 @@ See the [meetup page](/community/galaxy-admins/meetups/2013-03-20/) for details.
 
 ## Galaxy at GMOD 2013 and Biocuration 2013
 
-<div class='right'> <a href='/gmod:April_2013_GMOD_Meeting/'><img src="/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
+<div class='right'> <a href='http://gmod.org/wiki/April_2013_GMOD_Meeting'><img src="/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
 <a href='http://www.ebi.ac.uk/biocuration2013/content/workshop-descriptions'><img src="/images/logos/ISBLogoWAcronym223.png" alt="Biocuration 2013" height="70" /></a></div>
 
-Galaxy will [have a presence](/news/galaxy-gmod-biocuration2013/) at both the [GMOD 2013](http://gmod.org/wiki/April 2013 GMOD Meeting) and [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home).  Both are being held in Cambridge, UK in early April.  If you are interested in either community, then it would be great to see you there.
+Galaxy will [have a presence](/news/galaxy-gmod-biocuration2013/) at both the [GMOD 2013](http://gmod.org/wiki/April_2013_GMOD_Meeting) and [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/home).  Both are being held in Cambridge, UK in early April.  If you are interested in either community, then it would be great to see you there.
 
 GMOD is also running a [community-wide survey](http://gmod.org/survey.html) through March 1. The survey "aims to find out how you are using GMOD, what you find useful (or otherwise), what support you need, and some information on the GMOD components you use." The survey results will be published and past surveys have been extremely useful to the project.  If that's not enough motivation, you can enter to win a free genome profile from 23andMe.
 
@@ -174,7 +174,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> April 5-6 </th>
-    <td> <em><a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a></em> </td>
+    <td> <em><a href='http://gmod.org/wiki/April_2013_GMOD_Meeting'>2013 GMOD Meeting</a></em> </td>
     <td> Cambridge, United Kingdom, immediately prior to <a href='http://www.ebi.ac.uk/biocuration2013/'>Biocuration 2013</a> </td>
     <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
