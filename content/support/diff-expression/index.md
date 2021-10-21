@@ -6,7 +6,7 @@ title: Help for Differential Expression Analysis
 FAQs and Galaxy Help Q`&`A. Most tool errors have been discussed or have existing help:
 
 * [My job ended with an error. What can I do?](/support/tool-error/)
-* [Support FAQs](/support/inde.md)
+* [Support FAQs](/support/)
 * [Galaxy Help](https://help.galaxyproject.org/)
 
 Related topics

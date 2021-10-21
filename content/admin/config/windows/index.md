@@ -79,7 +79,7 @@ The effort required involves building architecture specific “eggs” (think of
 
 Please note, a simple alternative to attempting to build eggs for Windows is to simply run Linux via virtualization software (such as the free [VirtualBox](http://www.virtualbox.org/)). For best results, use a lightweight Linux such as [Xubuntu](http://www.xubuntu.org/), or disable X-Windows.
 
-If you choose to continue, to understand Eggs and how they work in Galaxy, read the [Eggs](Admin%2FConfig%2FEggs) page.
+If you choose to continue, to understand Eggs and how they work in Galaxy, read the [Eggs](/admin/config/eggs/) page.
 
 ### Building Eggs
 
@@ -136,4 +136,4 @@ Once built, eggs need to be placed in `$GALAXY_ROOT/eggs/&lt;platform&gt;`, wher
 $ cp dist/bx_python-0.5.0_r4bf1f32e6b76-py2.4-win32.egg galaxy_dist/eggs/<platform>
 ```
 
-Once all the required eggs have been built and copied to the proper egg directory, Galaxy can now be run as normal, see [Admin/GetGalaxy](Admin%2FGetGalaxy) to continue.
+Once all the required eggs have been built and copied to the proper egg directory, Galaxy can now be run as normal, see [/admin/get-galaxy/](/admin/get-galaxy/) to continue.

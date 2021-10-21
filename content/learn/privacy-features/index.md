@@ -33,7 +33,7 @@ For datasets you have created (or were given permissions) you can control what r
 You can make all datasets in a given history private to you by choosing the 'Make Data Private' option in the dropdown menu available under the 'cog - History options' icon in the top of the history. Also sets the default settings for all new datasets in this history to private. [Watch animation](/learn/privacy-features/this-hist-priv-perm.gif).
 
 * ### Set the default privacy settings for current history
-Under the 'cog - History options' menu you can choose 'Dataset Security' and set the default permissions for all new datasets created in this history. [Watch animation](/learn/privacy-features/current-hist-perm.gif).
+Under the 'cog - History options' menu you can choose 'Dataset Security' and set the default permissions for all new datasets created in this history.
 
 * ### Set the default privacy settings for new histories
 Under 'User - Preferences' you can find the 'Set dataset permissions for new histories' item which will allow you to set default privacy settings for contents of _newly_ created histories. [Watch animation](/learn/privacy-features/new-hist-perm.gif).

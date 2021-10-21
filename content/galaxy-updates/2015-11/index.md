@@ -247,7 +247,7 @@ There are [upcoming events](/events/) on 3 continents in 4 countries, *and a ver
     <th> November 30 - December 1 </th>
     <td> <a href='https://github.com/galaxyproject/tools-iuc/issues/299'>IUC Contribution Fest - Metagenomics Tools and Workflows</a> </td>
     <td> <img src='/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='IUC'>/iuc/</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
+    <td> <a href="/iuc/">IUC</a>, <a href='/people/john-chilton/'>John Chilton</a> </td>
   </tr>
   <tr>
     <th> </th>

@@ -13,7 +13,7 @@ This blog post does not keep track of it all either, but it does highlight some 
 
 # Learning
 
-## Galaxy Training Network training materials
+## [Galaxy Training Network](https://training.galaxyproject.org/) training materials
 
 This library of training materials has something for everyone.  You can learn how to use Galaxy, how to deploy Galaxy, and even how to create new training materials.  The library features slides and hands on tutorials that often include complete workflows.  If you want to learn about Galaxy then start here
 
@@ -90,7 +90,7 @@ It's all about community.  There are many Galaxy communities and one (or more) o
 
 Running your own single-user Galaxy instance on your laptop is easy to do.  Administering a multi-user, production-grade Galaxy instance is harder and requires significantly more compute knowledge.  In either case, there is training available to help you along the way.
 
-* [Go at your own pace admin training](https://training.galaxyproject.org/training-material/topics/admin/) is available from the [Galaxy Training Network](index,md#galaxy-training-network)
+* [Go at your own pace admin training](https://training.galaxyproject.org/training-material/topics/admin/) is available from the [Galaxy Training Network](#galaxy-training-network-training-materials)
 * In person multi-day admin training is also available, at least twice a year.
   * The annual [Galaxy Community Conferences](#galaxy-community-conferences-gcc) offer a dedicated admin training day, followed by a selection of other admin training topics on a second training day.
   * Week-long Galaxy Admin training workshops have been offered every year since 2016. The most recent one was in [January 2019](/events/2019-admin-training/).  The next one will likely be between October 2019 and March 2020 - probably in Europe.

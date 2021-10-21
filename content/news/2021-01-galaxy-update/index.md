@@ -152,8 +152,16 @@ The application deadline for the [January 2021 Galaxy Admin Training](/events/20
 
 <!-- SV with ONT -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/events/2021-01-sv-wtih-ont/sv-with-ont-workshop.png" alt="Structural Variant Detection using ONT Data" />
-<div class="card-header">[Structural Variant Detection using ONT Data](/events/2021-01-sv-wtih-ont/sv-with-ont.pdf)</div>
+<div class="trim-p">
+
+![Structural Variant Detection using ONT Data](/events/2021-01-sv-with-ont/sv-with-ont-workshop.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Structural Variant Detection using ONT Data](/events/2021-01-sv-with-ont/sv-with-ont.pdf)
+
+</div>
 
 **January 26, Online**
 
