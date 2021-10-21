@@ -85,7 +85,7 @@ The following sections of the tool shed wiki provide information about features 
 
 3. **[Updating a previously installed repository to a revision that includes changes to installed tool dependencies](/updating-to-revision-with-tool-dependencies/)**
 
-  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/pdating-to-revision-with-tool-dependencies/)
+  In most cases changing the version of a tool dependency requires a change to the dependent tool's version as well.  This ensures reproducible behavior for Galaxy instances in which the tool is installed.  However, in some cases the owner of a repository may change the version or type attribute of a tool dependency in it's definition in the repository without changing the version of the dependent tool.  Again, this should not often occur! [Read more…](/updating-to-revision-with-tool-dependencies/)
 
 ### Improved tool shed feature documentation
 
@@ -99,9 +99,9 @@ The following sections of the tool shed wiki have been updated to more thoroughl
 
   If you want to push a changeset to a repository in the tool shed using mercurial from a terminal session, you have to install the Mercurial Distributed SCM (the tool shed requires [Mercurial version 2.2.3](http://mercurial.selenic.com/) or newer). [Read more…](/toolshed/advanced-repository-features/#cloning-a-repository-using-hg-from-the-command-line)
 
-3. **[Adding additional change sets to the initial change set in a repository](/repository-revisions/)**
+3. **[Adding additional change sets to the initial change set in a repository](/toolshed/repository-revisions/)**
 
-  With each change set committed and pushed to a repository, whether using hg from the command line or by uploading or deleting files using the tool shed UI features, metadata about the contents of the change set is generated.  This document provides the details about this process. [Read more…](/repository-revisions/)
+  With each change set committed and pushed to a repository, whether using hg from the command line or by uploading or deleting files using the tool shed UI features, metadata about the contents of the change set is generated.  This document provides the details about this process. [Read more…](/toolshed/repository-revisions/)
 
 ### Other tool shed fixes and features included in this Galaxy release
 

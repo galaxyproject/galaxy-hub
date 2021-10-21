@@ -253,7 +253,7 @@ There are [upcoming events](/events/) in seven countries on three continents.  S
   <tr>
     <th> June 18 </th>
     <td> <em><a href='/community/galaxy-admins/meetups/2015-06-18/'>Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester</a></em> </td>
-    <td> <div class='right'><img src="/images/icons/AllContinents40.png" alt="" /></div> <a href='/community/galaxy-admins/meetups/2015-06-18/'>June 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
+    <td> <div class='right'><img src="/images/icons/World40.png" alt="" /></div> <a href='/community/galaxy-admins/meetups/2015-06-18/'>June 2015 GalaxyAdmins Web Meetup</a>, <em>Online</em> </td>
     <td> <a href='http://galacticengineer.blogspot.co.uk/'>Peter Briggs</a>, <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>

@@ -3,7 +3,7 @@ title: Configure Your Galaxy Instance as a CILogon OIDC Client
 highlight: true
 ---
 
-_This page explains how to configure this feature, for user-specific docs, please refer to [this](/authnz/use/oidc/idps/cilogon/) page._
+_This page explains how to configure this feature, for user-specific docs, please refer to [this](/authnz/use/oidc/) page._
 
 Leveraging OpenID Connect (OIDC) protocol, users can login to Galaxy with their
 exsiting insitutional login credentials by using [CILogon](https://www.cilogon.org/oidc),

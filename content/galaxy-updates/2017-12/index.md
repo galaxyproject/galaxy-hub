@@ -174,7 +174,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 We've got two new *[Galactic Blog](/blog/)* entries:
 
 * [Setup your own instance of the Galaxy Bioinformatics platform on DigitalOcean](https://vimal.io/setup-your-own-galaxy-bioinformatics-instance-on-digitalocean/), by [Vimalkumar Velayudhan](https://vimal.io/)
-* [Galaxy Docker 17.09](/blog/2017-11-galaxy-docker-17.09/), by [Björn Grüning](/people/bjoern-gruening/)
+* [Galaxy Docker 17.09](/blog/2017-11-galaxy-docker-17-09/), by [Björn Grüning](/people/bjoern-gruening/)
 
 The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.) 
 
