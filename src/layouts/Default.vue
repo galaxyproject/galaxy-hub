@@ -69,10 +69,13 @@ query {
     a:hover {
         text-decoration: underline;
     }
-    code {
-        color: black;
-        background-color: #f5f5f5;
-    }
+}
+
+pre {
+    background-color: $brand-dark;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
 }
 
 /***** Generally useful styles *****/
