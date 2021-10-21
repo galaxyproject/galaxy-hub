@@ -29,4 +29,4 @@ The recommended practice has undergone several iterations over the years. Initia
 
 * [Including functional test for your tools](/testing-installed-tools/) - this document provides details for including input and output datasets in your repository for functional tests defined in tool config files included in the repository.
 
-* [Enabling workflow sharing](/toolshed-workflow-sharing/) - this document describes how the tool shed enables sharing Galaxy workflows.
+* [Enabling workflow sharing](/toolshed/workflow-sharing/) - this document describes how the tool shed enables sharing Galaxy workflows.

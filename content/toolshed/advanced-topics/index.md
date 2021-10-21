@@ -10,7 +10,7 @@
 
 [Developing Galaxy Utilities for Inclusion in Repositories](/toolshed/galaxy-utilities-in-repositories/)
 
-[Certifying Repositories with the Install and Test Framework](/toolshed/install-and-test-certification/)
+[Certifying Repositories with the Install and Test Framework](/install-and-test-certification/)
 
 [Certifying Repositories with the Intergalactic Utilities Commission](/toolshed/reviewing-toolshed-repositories/)
 
