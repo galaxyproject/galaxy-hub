@@ -87,12 +87,12 @@ For information on event lodging, arriving in Salt Lake, and getting around, see
 # Can't make it to Salt Lake or on another continent?
 
 <div class='right'><div class='right'><a href='https://www.embl-abr.org.au/game2017/training-for-admin-workshop/'><img src="/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="80" /></a> </div><br />
-<a href='/events/egdw2017/'><img src="/images/logos/IFBGalaxyWG.png" alt="European Galaxy Developer workshop 2017" width="100" /></a></div>
+<a href='/events/2017-egdw/'><img src="/images/logos/IFBGalaxyWG.png" alt="European Galaxy Developer workshop 2017" width="100" /></a></div>
 
 This is one of three comprehensive Galaxy admin and developer training events between November and February.  They are:
 
 * **Galaxy Admin Training 2016**, Nov 7-11, Salt Lake City, Utah, United States
-* **[European Galaxy Developer workshop 2017](/events/egdw2017/)**, Jan 16-20, Strasbourg, France
+* **[European Galaxy Developer workshop 2017](/events/2017-egdw/)**, Jan 16-20, Strasbourg, France
 * **[Galaxy Administrator Training](https://www.embl-abr.org.au/game2017/training-for-admin-workshop/)**, Feb 6-9, Melbourne, Australia
 
 # Hosts
