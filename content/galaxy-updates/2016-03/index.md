@@ -196,10 +196,10 @@ We will do our best to coordinate and make this hackathon a nice and productive 
 ## GMOD Meeting, June 30 - July 1
 
 <div class='right'>
-<a href='/gmod:Jun_2016_GMOD_Meeting/'><img src="/images/logos/GMODLogo.png" alt="2016 GMOD meeting" width="160" /></a>
+<a href='http://gmod.org/wiki/Jun_2016_GMOD_Meeting'><img src="/images/logos/GMODLogo.png" alt="2016 GMOD meeting" width="160" /></a>
 </div>
 
-The [2016 GMOD meeting](http://gmod.org/wiki/Jun_2016_GMOD_Meeting) will be held **immediately following GCC2016 and in the same venue as GCC2016**.  [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) is a consortium of open-source software project, including Galaxy, that address common challenges with biological data.  Other projects in the GMOD consortium include 
+The [2016 GMOD meeting](http://gmod.org/wiki/Jun_2016_GMOD_Meeting) will be held **immediately following GCC2016 and in the same venue as GCC2016**.  [GMOD](http://gmod.org/wiki/GMOD) is a consortium of open-source software project, including Galaxy, that address common challenges with biological data.  Other projects in the GMOD consortium include 
 * [Tripal](http://gmod.org/wiki/Tripal): A web front end for [Chado](http://gmod.org/wiki/Chado) databases.  Galaxy is working with the Tripal project to make Galaxy be Tripal's analysis engine.
 * [JBrowse](http://gmod.org/wiki/JBrowse): A client-side genome browser and successor to the venerable [http://gmod.org/wiki/GBrowse](http://gmod.org/wiki/GBrowse).  [JBrowse as a Galaxy Tool](http://gcc2015.tsl.ac.uk/Lightning/#JBrowse_as_a_Galaxy_Tool) was presented by Helena Rasche at [GCC2015](http://gcc2015.tsl.ac.uk/). Ian Holmes, the JBrowse PI, has put JBrowse-Galaxy integration  at "top of the list" for JBrowse's infrastructure upcoming infrastructure work.
 * [MAKER](http://gmod.org/wiki/MAKER): A genome annotation pipeline that integrates several gene annotation engines, and combines them to produce annotation that is better than any individual tool produces.  A [MAKER-Galaxy](https://depot.galaxyproject.org/hub/attachments/documents/posters/ISMB2014_Kandalaft_GenomeAnnotation.pdf) by Agriculture and Agri-Food Canada was presented at ISMB 2014.

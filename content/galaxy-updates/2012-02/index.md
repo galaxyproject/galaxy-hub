@@ -4,8 +4,6 @@ title: February 2012 Galaxy Update
 <div class='center'>**Looking for the [March 2012 Galaxy Update](/galaxy-updates/2012-03/)?  Click [here](/galaxy-updates/2012-03/).**<br />Sorry about the bad link in the email announcement!  [Dave C](/people/dave-clements/)</div>
 
 
-
-
 <div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
 Welcome to the inaugural edition of *[Galaxy Update](/galaxy-updates/)*, a (mostly) monthly summary of what is going on in the Galaxy community.  Galaxy Updates will complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
@@ -36,7 +34,7 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll include it in next month's update.
 
 <div class='right'>
-<a href='/gmod:April 2012 GMOD Meeting/'><img src="/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=105 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
+<a href='http://gmod.org/wiki/April_2012_GMOD_Meeting'><img src="/images/logos/GMODApril2012Logo.png" alt="April 2012 GMOD Meeting" height=100 /></a>&nbsp;&nbsp; <a href='http://www.iscb.org/ismb2012'><img src="/images/logos/ISMB2012.jpg" alt="ISMB 2012" height=105 /></a>&nbsp;&nbsp; <a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a>
 </div>
 
 ## Upcoming Events and Deadlines

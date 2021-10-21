@@ -6,12 +6,11 @@ title: Abstract submission is now closed
 <slot name="/events/gcc2012/linkbox" />
 
 
-
-Abstracts for talks that were presented at the [GCC2012 main sessions](/events/gcc2012/abstracts/Program/).  See [Training Day](/events/gcc2012/training-day/) for training abstracts.
-
+Abstracts for talks that were presented at the [GCC2012 main sessions](/events/gcc2012/program/).  See [Training Day](/events/gcc2012/training-day/) for training abstracts.
 
 
 <br /><br />
+
 # Session 1
 
 ## State of the Galaxy

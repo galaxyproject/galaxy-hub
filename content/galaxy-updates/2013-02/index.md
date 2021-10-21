@@ -141,7 +141,7 @@ The next [GalaxyAdmins meetup](/community/galaxy-admins/) will be Wednesday, Mar
 <div class='center'>
 <a href='http://bit.ly/UFefFx'><img src="/images/logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core" height="80" /></a>
 <a href='http://conf.abrf.org/'><img src="/images/logos/ABRF2013LogoSquare300.png" alt="ABRF 2013" height="80" /></a>
-<a href='/gmod:April_2013_GMOD_Meeting/'><img src="/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
+<a href='http://gmod.org/wiki/April_2013_GMOD_Meeting'><img src="/images/logos/GMOD2013Logo240.png" alt="GMOD 2013" height="80" /></a>
 <a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 </div>
 
@@ -178,7 +178,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
   </tr>
   <tr>
     <th> April 5-6 </th>
-    <td> <em><a href='http://gmod.org/wiki/April 2013 GMOD Meeting'>2013 GMOD Meeting</a></em> </td>
+    <td> <em><a href='http://gmod.org/wiki/April_2013_GMOD_Meeting'>2013 GMOD Meeting</a></em> </td>
     <td> Cambridge, United Kingdom, immediately prior to <a href='http://www.ebi.ac.uk/biocuration2013/'>Biocuration 2013</a> </td>
     <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>

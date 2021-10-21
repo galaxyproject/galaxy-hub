@@ -2,7 +2,7 @@
 
 [Installing and compiling tool dependency packages](/toolshed/installing-and-compiling-packages/)
 
-[Installing tool dependencies with initial repository installation](/tool-dependencies-with-initial-install/)
+[Installing tool dependencies with initial repository installation](/toolshed/tool-dependencies-with-initial-install/)
 
 [Updating an installed repository to a revision with defined tool dependencies](/updating-to-revision-with-new-tool-dependencies/)
 
