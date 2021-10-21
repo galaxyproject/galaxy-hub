@@ -299,7 +299,7 @@ Several new Training Resources were added in December:
 
 # New Releases
 
-[BioBlend v0.5.2 was released in October](/news/bio-blend-v0.5.2/).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  
+[BioBlend v0.5.2 was released in October](/news/bio-blend-v0-5-2/).  [BioBlend](https://github.com/afgane/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  
 
 New versions of [Galaxy](/galaxy-updates/2014-09/#august-11-2014-galaxy-distribution), [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), and [blend4j](/galaxy-updates/2014-09/#blend4j-011-release) were all released in August.
 
