@@ -168,7 +168,7 @@ However, there are a few high-profile meetings:
 
 ## Source Code Documentation
 
-<div class='right'><a href='http://galaxy-dist.readthedocs.org'><img src="/images/news-graphics/2012-11-14_dist-readthedocs.png" alt="Galaxy-Dist at ReadTheDocs" width="320" /></a><br /><a href='http://readthedocs.org'><img src="/images/logos/ReadTheDocsLogo.png" alt="Read the Docs" width="125" /></a><a href='http://sphinx-doc.org/'><img src="/images/logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator" width="200" /></a></div>
+<div class='right'><a href='http://galaxy-dist.readthedocs.org'><img src="/images/news-graphics/2012_11_14_dist-readthedocs.png" alt="Galaxy-Dist at ReadTheDocs" width="320" /></a><br /><a href='http://readthedocs.org'><img src="/images/logos/ReadTheDocsLogo.png" alt="Read the Docs" width="125" /></a><a href='http://sphinx-doc.org/'><img src="/images/logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator" width="200" /></a></div>
 
 The Galaxy Project is now using *[Sphinx](http://sphinx-doc.org/)* hosted at [Read the Docs](http://readthedocs.org) to document the Galaxy code base.  Two versions are available:
 * **[galaxy-dist](http://galaxy-dist.readthedocs.org):** Code documentation for latest official release of Galaxy.

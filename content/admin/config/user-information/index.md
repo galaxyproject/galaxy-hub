@@ -8,7 +8,7 @@ A recent addition to Galaxy introduced the ability to collect specific informati
 
 ### Details for using this feature
 
-This feature uses a Galaxy form, which must be created by a Galaxy [admin](/admin/interface) user.
+This feature uses a Galaxy form, which must be created by a Galaxy [admin](/admin/) user.
 
 On the admin page, click on "Manage Forms" link on the left go to the "Create a new form" page.
 
