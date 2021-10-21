@@ -597,7 +597,7 @@ We are pleased to [announce the 21.01 Galaxy release](/news/2021-03-galaxy-relea
 
 This include support for a workflow best practices checker, workflow reports, and tracking your workflow invocations.
 
-The new [Remote Files interface](news/2021-03-galaxy-release-21-01/#remote-files) is an absolutely fantastic new way to browse your data. Browse files on many remote file services, from your Dropbox to TCGA.
+The new [Remote Files interface](/news/2021-03-galaxy-release-21-01/#remote-files) is an absolutely fantastic new way to browse your data. Browse files on many remote file services, from your Dropbox to TCGA.
 
 **And there is a *lot* more in the full [user](https://docs.galaxyproject.org/en/master/releases/21.01_announce_user.html) and the [developer and admin](https://docs.galaxyproject.org/en/master/releases/21.01_announce.html) release announcements.**
 </div>

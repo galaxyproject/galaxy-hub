@@ -18,7 +18,7 @@ The blog is off to a running start with these posts in October:
 * [ELIXIR Galaxy Community](/blog/2017-10-05-elixir-galaxy-community/), by Frederik Coppens, Gildas Le Corguillé, and [Björn Grüning](/people/bjoern-gruening/)
 * [Public Galaxy Server Dashboard](/blog/2017-10-public-galaxy-dashboard/), by [Helena Rasche](/people/helena-rasche/)
 * [SciPy and scikit-learn integration into Galaxy](/blog/2017-10-10-scipy-galaxy/), by [Björn Grüning](/people/bjoern-gruening/)
-* [Small genome assembly in Galaxy](/blog/2017-10-16-UnicyclerTutorial/), by [Anton Nekrutenko](/people/anton/)
+* [Small genome assembly in Galaxy](/blog/2017-10-16-unicycler-tutorial/), by [Anton Nekrutenko](/people/anton/)
 * [Galaxy: the first 5,000 pubs](/blog/2017-10-5000-pubs/), by [Dave Clements](/people/dave-clements/)
 
 ## The Galactic Blog needs you!

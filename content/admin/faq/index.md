@@ -1,12 +1,12 @@
 ---
 title: Frequently Asked Questions for Galaxy Administration
 ---
+
 <slot name="/admin/linkbox" />
 <slot name="/faqs/linkbox" />
 
 
 See [Learn/FAQ](/learn/faq/) for questions about using any Galaxy instance, and [Main/FAQ](/main/faq/) for questions specifically about using Galaxy's free public server [Main](/main/).
-
 
 
 ----
@@ -121,7 +121,7 @@ The following alignment tools available in Galaxy enable this:
 
 **I've read about GALAXY_SLOTS but I don't understand what it is and how it works?**
 
-[Follow this link for a detailed description](/admin/config/galaxy_slots/)
+[Follow this link for a detailed description](/admin/config/galaxy-slots/)
 
 ----
 

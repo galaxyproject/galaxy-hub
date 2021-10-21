@@ -52,8 +52,8 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   Search for your data directly in the tool and use the Galaxy links
 *   There are a few links, so [which data do I load?](/support/ebi-sra-data-load/)
 *   Be sure to check your sequence data for correct quality score formats and the metadata "datatype" assignment. 
-  * [How to format fastq data for tools that require .fastqsanger format?](/learn/fastqsanger/)
-  * [Understanding compressed fastq data (fastq.gz)](/learn/compressed-fastq/)
+  * [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
+  * [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)
 
 ### Get Data: Upload tool used with FTP
 

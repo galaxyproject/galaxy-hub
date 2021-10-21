@@ -45,10 +45,10 @@ level. This provides isolation and flexibility where different Galaxy instances
 can run differentiated toolsets, be supported by different cloud allocations,
 or be made available to targeted users.
 
-<div class="center">
-    <a href="/blog/2020-06-gvl5-beta3/gvl-projects.png">
-        <img src="/blog/2020-06-gvl5-beta3/gvl-projects.png" width="80%" />
-    </a>
+<div class="center img-sizer" style="width: 80%">
+
+[![](./gvl-projects.png)](/blog/2020-06-gvl5-beta3/gvl-projects.png)
+
 </div>
 
 While a managed deployment of the GVL that anyone can access and request their
@@ -76,10 +76,10 @@ tools with extensive sharing capabilities. As a user, you have unrestricted
 access to those applications and can install any additional packages within
 those applications that are needed for the analysis.
 
-<div class="center">
-    <a href="/blog/2020-06-gvl5-beta3/gvl-login.png">
-        <img src="/blog/2020-06-gvl5-beta3/gvl-apps.png" width="80%" />
-    </a>
+<div class="center img-sizer" style="width: 80%">
+
+[![](./gvl-apps.png)](/blog/2020-06-gvl5-beta3/gvl-apps.png)
+
 </div>
 
 Having access to multiple applications on the same platform needs to be
