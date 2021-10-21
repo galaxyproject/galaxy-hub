@@ -13,7 +13,7 @@ title: Installing Repositories
 
 [Installing repositories that contain tools migrated from the Galaxy code distribution to the main Galaxy Tool Shed](/toolshed/migrating-tools-from-galaxy-distribution/)
 
-[Installing tool dependency packages along with Galaxy tools](/installing-tool-dependency-packages/)
+[Installing tool dependency packages along with Galaxy tools](/installingtooldependencypackages/)
 
 [The Tool Shed provides tool version lineage information to Galaxy](/galaxy-tool-version-lineage/)
 
