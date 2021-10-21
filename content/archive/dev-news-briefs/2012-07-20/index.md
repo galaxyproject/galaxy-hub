@@ -110,8 +110,8 @@ The new RGalaxy package in Bioconductor. [Read more …](/news/r-galaxy-wrap-r-f
 <br />
 ## GalaxyCzars
 
-<div class='right'><a href='/community/GalaxyCzars/'><img src="/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
-The [GalaxyCzars group](/community/GalaxyCzars/) was launched and had its [first meetup on July 9](/community/GalaxyCzars/Meetups/2012-07-09/).  GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/community/GalaxyCzars/Meetups/2012-07-09/) for links to slides and a screencast. The GalaxyCzars will have a breakout at [GCC2012](/events/gcc2012/), and the next conference call will follow in September.
+<div class='right'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
+The [GalaxyCzars group](/community/galaxy-admins/) was launched and had its [first meetup on July 9](/community/galaxy-admins/Meetups/2012-07-09/).  GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/community/galaxy-admins/Meetups/2012-07-09/) for links to slides and a screencast. The GalaxyCzars will have a breakout at [GCC2012](/events/gcc2012/), and the next conference call will follow in September.
 <br />
 ## Galaxy is Hiring!
 

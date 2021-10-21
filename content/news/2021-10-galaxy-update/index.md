@@ -85,7 +85,7 @@ See [the announcement](/news/2021-10-hacktoberfest/) for details.
 
 Galaxy will be participating in the [December 2021 Outreachy Internship Cohort](https://www.outreachy.org/blog/2021-08-13/december-2021-initial-applications-open/).  [Outreachy](https://www.outreachy.org/) is an internship program for open source communities and non-profits.  Galaxy has [two proposed projects](https://www.outreachy.org/apply/project-selection/#galaxy-community) for this cohort.  
 
-Interested in helping? See the [announcement](news/2021-10-outreachy/) for details on what you can do, starting right now.
+Interested in helping? See the [announcement](/news/2021-10-outreachy/) for details on what you can do, starting right now.
 
 </div>
 
