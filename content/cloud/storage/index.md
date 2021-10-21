@@ -67,7 +67,7 @@ A sample payload:
 }
 ```
 
-[Read this page](/cloud/storage/get_step_by_step/) for step-by-step description on how to use this API.
+[Read this page](/cloud/storage/get-step-by-step/) for step-by-step description on how to use this API.
     
 
 ## `Send` Data to Cloud
@@ -110,5 +110,5 @@ Or:
 }
 ```
 
-[Read this page](/cloud/storage/send_step_by_step/) for step-by-step description on how to use this API.
+[Read this page](/cloud/storage/send-step-by-step/) for step-by-step description on how to use this API.
 
