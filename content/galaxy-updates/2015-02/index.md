@@ -433,7 +433,7 @@ Version 0.2.0 of [Planemo](https://github.com/galaxyproject/planemo/blob/master/
 
 ## BioBlend
 
-[BioBlend v0.5.2 was released in October](/news/bio-blend-v0.5.2/).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
+[BioBlend v0.5.2 was released in October](/news/bio-blend-v0-5-2/).  [BioBlend](https://github.com/galaxyproject/bioblend) is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  In January the [BioBlend source](https://github.com/galaxyproject/bioblend) was moved to the [galaxyproject Github account](https://github.com/galaxyproject).
 
 ## CloudMan and blend4j
 
