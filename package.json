@@ -80,5 +80,5 @@
     "testPathIgnorePatterns": [
         "/node_modules/", "/cypress/"
     ]
-  },
+  }
 }
