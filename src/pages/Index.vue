@@ -83,7 +83,6 @@ export default {
             for (let category of ["blog", "news", "events", "careers"]) {
                 latest[category] = this.$page[category].edges.map((edge) => articleToItem(edge.node));
             }
-            latest.careers.reverse();
             return latest;
         },
     },
@@ -206,7 +205,7 @@ query {
     }
   }
   careers: allArticle(
-      limit: 5, sortBy: "date", order: ASC, filter: {
+      limit: 5, sortBy: "date", order: DESC, filter: {
         category: {eq: "careers"}, closed: {eq: false}, draft: {ne: true}
       }
     ) {
@@ -215,7 +214,6 @@ query {
       node {
         id
         title
-        closes (format: "MMM D")
         location
         external_url
         path
