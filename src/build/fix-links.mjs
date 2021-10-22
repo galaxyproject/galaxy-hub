@@ -139,7 +139,7 @@ function getElementsByTagNames(elem, tagNames) {
 }
 
 /** Perform all the editing appropriate for a hyperlink url (whether in HTML or Markdown). */
-function fixHyperLink(rawUrl) {
+export function fixHyperLink(rawUrl) {
     // Skip certain types of links like external (https?://), static (/images/), intrapage (#).
     if (matchesPrefixes(rawUrl, PREFIX_WHITELIST)) {
         return rawUrl;
@@ -165,7 +165,7 @@ function fixHyperLink(rawUrl) {
 }
 
 /** Perform all the editing appropriate for an image src url (whether in HTML or Markdown). */
-function fixImageLink(rawPath) {
+export function fixImageLink(rawPath) {
     let path = rmPrefix(rawPath, "/src");
     if (globals.dirPath) {
         path = toRelImagePath(globals.dirPath, path, PREFIX_WHITELIST);
