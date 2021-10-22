@@ -1,6 +1,4 @@
-import { jest } from "@jest/globals";
 import { fixHyperLink } from "./fix-links.mjs";
-import { repr } from "../utils.js";
 
 const WHITELISTED_HREFS = [
     "http://google.com/search/index.md?q=query",
@@ -45,23 +43,3 @@ test("Fix relative urls", () => {
         expect(result).toBe(expectedValue);
     }
 });
-
-// Jest shims
-/*
-function test(testDesc, testFxn) {
-    console.log(`Test: ${testDesc}`);
-    testFxn();
-}
-
-function expect(actualValue) {
-    return {
-        toBe(expectedValue) {
-            if (actualValue === expectedValue) {
-                console.log("  passed");
-            } else {
-                console.log(repr`  FAILED: ${actualValue} !== ${expectedValue}`);
-            }
-        },
-    };
-}
-*/
