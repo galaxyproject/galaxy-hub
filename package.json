@@ -75,10 +75,17 @@
       "node"
     ],
     "testMatch": [
-        "**/?(*.)test.?js"
+      "**/?(*.)test.?js"
     ],
     "testPathIgnorePatterns": [
-        "/node_modules/", "/cypress/"
+      "/node_modules/",
+      "/cypress/"
+    ],
+    "transform": {
+      "^.+\\.m?js$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "\\.pnp\\.[^\\/]+$"
     ]
   }
 }
