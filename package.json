@@ -75,7 +75,7 @@
       "node"
     ],
     "testMatch": [
-      "**/?(*.)test.?js"
+      "**/?(*.)tests.?js"
     ],
     "testPathIgnorePatterns": [
       "/node_modules/",
