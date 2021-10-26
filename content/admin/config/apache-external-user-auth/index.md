@@ -112,10 +112,10 @@ The `AuthLDAPURL` and variable in which the username is set will vary and is dep
 
 Note the S/E after substituted variables, transcluded from the [Apache mod_headers](https://httpd.apache.org/docs/2.2/mod/mod_headers.html) documentation:
 
-Variable | Value
--------- | ------
-`%{FOOBAR}e` | The contents of the environment variable FOOBAR.
-`%{FOOBAR}s` | The contents of the SSL environment variable FOOBAR, if mod_ssl is enabled.
+| Variable | Value |
+| -------- | ----- |
+| `%{FOOBAR}e` | The contents of the environment variable FOOBAR. |
+| `%{FOOBAR}s` | The contents of the SSL environment variable FOOBAR, if mod_ssl is enabled. |
 
 (If anyone has information regarding setting the username under non-https conditions, please provide it!)
 
@@ -141,10 +141,10 @@ We chose to seperate out the keytab for apache, hence the use of Krb5Keytab. Nor
 
 Note the S/E after substituted variables, transcluded from the [Apache mod_headers](https://httpd.apache.org/docs/2.2/mod/mod_headers.html) documentation:
 
-Variable | Value
--------- | ------
-`%{FOOBAR}e` | The contents of the environment variable FOOBAR.
-`%{FOOBAR}s` | The contents of the SSL environment variable FOOBAR, if mod_ssl is enabled.
+| Variable | Value |
+| -------- | ----- |
+| `%{FOOBAR}e` | The contents of the environment variable FOOBAR. |
+| `%{FOOBAR}s` | The contents of the SSL environment variable FOOBAR, if mod_ssl is enabled. |
 
 (If anyone has information regarding setting the username under non-https conditions, please provide it!)
 
