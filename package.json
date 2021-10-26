@@ -46,6 +46,7 @@
     "which": "^2.0.2"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
     "@testing-library/cypress": "^8.0.1",
     "axe-core": "^4.3.3",
     "broken-link-checker": "^0.7.8",
