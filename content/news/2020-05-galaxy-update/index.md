@@ -8,7 +8,7 @@ date: "2020-05-04"
 
 # From the editor
 
-[<img class="float-right" src="/jxtx/i-love-you-so-much.jpg" alt="I love you so much"  style="max-width: 30rem;" />](/jxtx/i-love-you-so-much.jpg)
+[<img class="float-right" src="/images/jxtx/i-love-you-so-much.jpg" alt="I love you so much"  style="max-width: 30rem;" />](/images/jxtx/i-love-you-so-much.jpg)
 
 This is our first newsletter since January. It has been an eventful and sorrowful four months for the world, and for the Galaxy Community too: *This newsletter starts with the [tragic loss of James Taylor](#james-peter-taylor-1979-2020), one of Galaxy's founders and leaders.*  We lost James at the beginning of April. This community, I suspect, will always feel that loss.
 
@@ -44,7 +44,7 @@ If you have anything to include to next month's newsletter, then please send it 
 
 # James Peter Taylor, 1979-2020
 
-[<img class="float-right" src="/jxtx/james-and-alvey.png" alt="James and Alvey"  style="max-width: 15rem;" />](/jxtx/)
+[<img class="float-right" src="/images/jxtx/james-and-alvey.png" alt="James and Alvey"  style="max-width: 15rem;" />](/jxtx/)
 
 James Taylor, one of the founders and leaders of the Galaxy Project died of natural causes on April 2.  One day he was online tweeting about open access to data, and the next day he was not.  News of his passing spread around the world, and the response has been overwhelming.
 

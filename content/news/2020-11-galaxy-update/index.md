@@ -30,7 +30,7 @@ If you have anything to include to next month's newsletter, then please send it 
 <div class="card border-info" style="min-width: 13rem; max-width: 15rem">
 <div class="trim-p">
 
-![James Taylor](/jxtx/james.jpg)
+![James Taylor](/images/jxtx/james.jpg)
 
 </div>
 <div class="card-header">Same mission, new name</div>

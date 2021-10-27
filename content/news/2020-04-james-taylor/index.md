@@ -5,7 +5,7 @@ external_url: ""
 date: "2020-04-03"
 ---
 
-[<img class="float-right" src="/jxtx/james.jpg" alt="James Taylor" style="max-width: 20rem" />](/jxtx/)
+[<img class="float-right" src="/images/jxtx/james.jpg" alt="James Taylor" style="max-width: 20rem" />](/jxtx/)
 
 <p class="lead">
 We just lost James Taylor (1979-2020). His legacy — open, reproducible science — will continue.

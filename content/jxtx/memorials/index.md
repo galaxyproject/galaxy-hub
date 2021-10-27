@@ -10,7 +10,7 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 ## Memorials to James from the web
 
-[<img class="float-right" src="/jxtx/james.jpg" alt="James Taylor" style="max-width: 15rem" />](/jxtx/james.jpg)
+[<img class="float-right" src="/images/jxtx/james.jpg" alt="James Taylor" style="max-width: 15rem" />](/images/jxtx/james.jpg)
 
 Here are some excerpts from the numerous memorials to James on the web.
 

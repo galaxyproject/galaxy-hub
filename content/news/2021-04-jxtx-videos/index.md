@@ -5,7 +5,7 @@ external_url: ""
 date: "2021-04-02"
 ---
 
-<a href="/jxtx/"><img src="/jxtx/i-love-you-so-much.jpg" alt="A good James story" class="float-right" style="max-width: 24rem" /></a>
+<a href="/jxtx/"><img src="/images/jxtx/i-love-you-so-much.jpg" alt="A good James story" class="float-right" style="max-width: 24rem" /></a>
 
 <p class="lead">
 

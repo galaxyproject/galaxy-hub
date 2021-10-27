@@ -2,7 +2,7 @@
 title: 'James Peter Taylor | 1979 - 2020'
 ---
 
-<div class="text-right">
+<div class="text-right trim-p">
 
 *Good ideas don’t have owners—they belong to everyone (@jxtx)*
 
@@ -12,7 +12,11 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 ---
 
-<img src="/jxtx/i-love-you-so-much.jpg" class="float-right figure-img img-fluid rounded" style="max-width: 30rem;" alt="We miss you James.">
+<div class="img-sizer float-right figure-img img-fluid rounded" style="max-width: 30rem">
+
+![We miss you James.](/images/jxtx/i-love-you-so-much.jpg)
+
+</div>
 
 ## Community
 
@@ -87,7 +91,11 @@ I am utterly shocked and terribly saddened to hear this. James has been a wonder
 <footer class="blockquote-footer">Steven Salzberg, Johns Hopkins</footer>
 </blockquote>
 
-[<img src="/jxtx/james-and-alvey.png" alt="James and Alvey" class="float-right" style="max-width: 10rem;" />](/jxtx/james-and-alvey.png)
+<div class="img-sizer float-right" style="max-width: 10rem">
+
+[![James and Alvey](/images/jxtx/james-and-alvey.png)](/images/jxtx/james-and-alvey.png)
+
+</div>
 
 <blockquote class="blockquote">
 Our hearts are heavy.  James Taylor has passed away.
@@ -340,9 +348,9 @@ This makes no sense. So incredibly sad to hear this. My heart goes out to all wh
 
 <div class="float-right img-sizer" style="max-width: 10rem;">
 
-[![Sarah's James-inspired shoes](/jxtx/cool-shoes-1.jpg)](/jxtx/cool-shoes-1.jpg)
+[![Sarah's James-inspired shoes](./cool-shoes-1.jpg)](/jxtx/we-miss-you/cool-shoes-1.jpg)
 
-[![James' shoes, an example](/jxtx/cool-shoes-2.png)](/jxtx/cool-shoes-2.png)
+[![James' shoes, an example](./cool-shoes-2.png)](/jxtx/we-miss-you/cool-shoes-2.png)
 
 </div>
 
@@ -661,7 +669,11 @@ I am so saddened to hear this.  I felt a bond with James over his commitment to 
 <footer class="blockquote-footer">Cricket Sloan, UCSC</footer>
 </blockquote>
 
-[<img src="/jxtx/james-at-apachecon.jpg" alt="James at ApacheCon, with Kurt Schrader" class="float-right" style="max-width: 10rem;" />](/jxtx/james-at-apachecon.jpg)
+<div class="img-sizer float-right" style="max-width: 10rem">
+
+[![James at ApacheCon, with Kurt Schrader](./james-at-apachecon.jpg)](/jxtx/we-miss-you/james-at-apachecon.jpg)
+
+</div>
 
 <blockquote class="blockquote">
 I met James in November 2002 at an open-source software conference. He was working professionally as a software developer and was speaking of his desire to go back to school to study bioinformatics. I’ve watched his career from afar as he’s done amazing work. I know he will be missed. 

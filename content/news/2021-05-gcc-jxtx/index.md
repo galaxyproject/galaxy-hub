@@ -4,7 +4,7 @@ tease: "Apply by May 17"
 external_url: ""
 date: "2021-05-06"
 ---
-<a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/jxtx/james-and-alvey.png" alt="James and Alvy" class="float-right" style="max-width: 14rem" /></a>
+<a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/images/jxtx/james-and-alvey.png" alt="James and Alvy" class="float-right" style="max-width: 14rem" /></a>
 
 **We are very pleased to announce that, thanks to an anonymous donation, we have additional funding for up to 100 conference fellowships for the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) donated in honor of [James Taylor](/jxtx/).**  These fellowships cover all conference registration costs, and are available to students and post-docs based anywhere in the world.
 
