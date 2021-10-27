@@ -45,7 +45,8 @@ When you run a tool, the result will be new boxes on the 'History' panel with na
 
 <br />
 
-<img src="/images/learn/workflow_editor_input_variables_renaming.png" alt="workflow editor" width="700" /> <br />*workflow editor showing the use of input variables in the renaming tool*
+![Workflow Editor](/images/learn/workflow_editor_input_variables_renaming.png)
+*workflow editor showing the use of input variables in the renaming tool*
 
 
 ## Source
