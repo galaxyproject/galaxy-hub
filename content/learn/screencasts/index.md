@@ -11,7 +11,6 @@ Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/gala
 
 ## Using Galaxy
 
-<div class='left'> 
 <table>
   <tr>
     <td> <strong><a href='http://vimeo.com/galaxyproject/accounts'>Accounts on Main</a></strong><br /> registration, openIDs</td>
@@ -30,22 +29,8 @@ Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/gala
   </tr>
 </table>
 
-</div>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 ## Analysis
 
-<div class='left'>
 <table>
   <tr>
     <td> <strong><a href='http://screencast.g2.bx.psu.edu/flash/TAF1.html'>TAF1: Which genes' promoter regions contain these sites?</a></strong> </td>
@@ -79,27 +64,6 @@ Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/gala
   </tr>
 </table>
 
-</div>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 ## Tutorials
 
 * **[Using UCSC from Galaxy](http://screencast.g2.bx.psu.edu/UCSC2Galaxy/)**
@@ -108,7 +72,7 @@ Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/gala
 * **[Grouping](http://screencast.g2.bx.psu.edu/quickie2_Grouping/flow.html)** 
 * **[Intervals](http://screencast.g2.bx.psu.edu/quickie3_Intervals/flow.html)**
 * **[Joining Features](http://screencast.g2.bx.psu.edu/quickie5_join/flow.html)**
-* **[http://screencast.g2.bx.psu.edu/MAF_alignExtractStitch/Stitching Multiple Alignments](http://screencast.g2.bx.psu.edu/MAF_alignExtractStitch/Stitching Multiple Alignments)**
+* **[http://screencast.g2.bx.psu.edu/MAF_alignExtractStitch/Stitching Multiple Alignments](http://screencast.g2.bx.psu.edu/MAF_alignExtractStitch/Stitching%20Multiple%20Alignments)**
 * **[Filtering Multiple Alignments and Converting Formats](http://screencast.g2.bx.psu.edu/MAF_alignFilterConvert/)**
 * **[Manipulation of Multiple Alignments](http://screencast.g2.bx.psu.edu/MAF_manipulation)**
 * **[Sharing your work](http://screencast.g2.bx.psu.edu/flash/Sharing.html)**
