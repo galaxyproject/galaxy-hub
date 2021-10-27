@@ -82,7 +82,7 @@ export default {
         },
         image() {
             return getImage(this.article.image, this.article.images);
-        }
+        },
     },
     mounted() {
         if (this.article.redirect) {
