@@ -10,8 +10,10 @@
             <a :href="article.redirect">{{ article.redirect }}</a>
             , which you will be redirected to in {{ redirectDelay }} seconds.
         </p>
-        <g-image v-if="article.image" class="img-fluid main-image" :src="getImage(article)" />
-        <h1 class="title" v-if="!article.skip_title_render">{{ article.title }}</h1>
+        <div class="clearfix"></div>
+        <g-image v-if="article.image" class="img-fluid main-image" :src="image" />
+        <h1 class="title float-left" v-if="!article.skip_title_render">{{ article.title }}</h1>
+        <div class="clearfix"></div>
         <p class="subtitle" v-if="article.tease">{{ article.tease }}</p>
         <ul class="metadata list-unstyled" v-if="article.category === 'events'">
             <li v-if="article.date"><span class="metakey">Date:</span> {{ dateSpan }}</li>
@@ -78,11 +80,9 @@ export default {
         articleDateStr() {
             return this.startDate.format("MMMM D YYYY");
         },
-    },
-    methods: {
-        getImage(article) {
-            return getImage(article.image, article.images);
-        },
+        image() {
+            return getImage(this.article.image, this.article.images);
+        }
     },
     mounted() {
         if (this.article.redirect) {
@@ -108,6 +108,8 @@ function getRedirectUrl(target) {
 .main-image {
     float: right;
     margin: 20px 0px 5px 10px;
+    max-height: 400px;
+    width: auto;
     padding: 2px;
     border: 1px solid #666;
 }
