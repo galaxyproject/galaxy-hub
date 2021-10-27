@@ -2,6 +2,7 @@
 title: 'May 2021 Galactic News'
 tease: "GCC2021 and James Taylor Video Deadlines Extended, plus a whole lot more."
 date: "2021-05-04"
+autotoc: false
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -421,13 +422,11 @@ Starting with the [2021.4 release](https://forum.qiime2.org/t/qiime-2-2021-4-is-
 ![Platforms Videos](./platform-videos-stripe.png)
 
 </div>
-<div class="card-header trim-p">
-
-[New Platforms Section on YouTube](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=7)
-
+<div class="card-header">
+<a href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=7">New Platforms Section on YouTube</a>
 </div>
 
-Protologger and CPT are not the only Galaxy platforms creating videos.  We have gathered or created YouTube playlists for every Galaxy platform that we could find videos for.  There are[ 52 videos about 15 different platforms](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=7), ranging from Galaxy Australia to Sciensano.
+Protologger and CPT are not the only Galaxy platforms creating videos.  We have gathered or created YouTube playlists for every Galaxy platform that we could find videos for.  There are <a href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=7">52 videos about 15 different platforms</a>, ranging from Galaxy Australia to Sciensano.
 
 </div>
 
@@ -577,7 +576,7 @@ Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/
 
 </div>
 
-Batut, B., van den Beek, M., Doyle, M. A., & Soranzo, N. (2021). In E. Picardi (Ed.), RNA Bioinformatics (pp. 367–392). Springer US. https://doi.org/10.1007/978-1-0716-1307-8_20
+Batut, B., van den Beek, M., Doyle, M. A., & Soranzo, N. (2021). In E. Picardi (Ed.), RNA Bioinformatics (pp. 367–392). Springer US. [https://doi.org/10.1007/978-1-0716-1307-8_20](https://doi.org/10.1007/978-1-0716-1307-8_20)
 
 </div>
 
