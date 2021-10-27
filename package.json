@@ -46,6 +46,7 @@
     "which": "^2.0.2"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
     "@testing-library/cypress": "^8.0.1",
     "axe-core": "^4.3.3",
     "broken-link-checker": "^0.7.8",
@@ -56,11 +57,36 @@
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-vue": "^7.17.0",
     "http-server": "^13.0.2",
+    "jest": "^27.3.1",
     "sass-loader": "^10.1.1",
     "start-server-and-test": "^1.14.0"
   },
   "prettier": {
     "printWidth": 120,
     "tabWidth": 4
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "mjs",
+      "js",
+      "jsx",
+      "ts",
+      "tsx",
+      "json",
+      "node"
+    ],
+    "testMatch": [
+      "**/?(*.)tests.?js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/cypress/"
+    ],
+    "transform": {
+      "^.+\\.m?js$": "babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "\\.pnp\\.[^\\/]+$"
+    ]
   }
 }
