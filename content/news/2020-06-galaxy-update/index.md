@@ -26,7 +26,7 @@ If you have anything to include to next month's newsletter, then please send it 
 # JTech, the James Taylor Foundation
 
 <div class="float-right">
-<img  src="/jxtx/jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 10rem" /><br />
+<img  src="/images/jxtx/jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 10rem" /><br />
 <div class="small float-right">Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)</div>
 </div>
 

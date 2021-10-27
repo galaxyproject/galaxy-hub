@@ -34,7 +34,7 @@
                     <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
                     <b-dropdown-item href="https://help.galaxyproject.org/">Galaxy Help Forum</b-dropdown-item>
                 </b-nav-item-dropdown>
-                <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
+                <b-nav-item href="https://jxtxfoundation.org/">@jxtx</b-nav-item>
             </b-navbar-nav>
             <b-navbar-nav id="navbar-misc" class="ml-auto">
                 <b-nav-form action="/search/" method="get">

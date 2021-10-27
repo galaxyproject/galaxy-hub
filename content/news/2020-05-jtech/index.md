@@ -7,7 +7,7 @@ date: "2020-05-07"
 
 <div class="float-right" style="max-width: 10rem">
 
-![James Taylor Foundation: Big Shoes to Fill](/jxtx/jtech-shoes-400.png)
+![James Taylor Foundation: Big Shoes to Fill](/images/jxtx/jtech-shoes-400.png)
 
 <div class="small float-right">
 

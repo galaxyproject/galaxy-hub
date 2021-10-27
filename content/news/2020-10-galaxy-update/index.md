@@ -30,7 +30,7 @@ Despite COVID-19, there is still a lot going on.  Some of it is virtual, but liv
 
 <!-- JTech -->
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
-<img class="card-img-top" src="/jxtx/cshl_jtech.png" alt="JTech Scholarships" />
+<img class="card-img-top" src="/images/jxtx/cshl_jtech.png" alt="JTech Scholarships" />
 <div class="card-header">[First JTech Scholarships Awarded](/news/2020-09-jtech-scholarships/)</div>
 
 The [first group of scholarships have been awarded](/news/2020-09-jtech-scholarships/) by the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) to attend [Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20).

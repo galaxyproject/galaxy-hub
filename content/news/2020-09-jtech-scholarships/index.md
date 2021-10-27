@@ -8,7 +8,7 @@ redirect: "/news/2020-10-jxtx-awardees/"
 
 We are pleased to announce the first group of scholarship awardees for the [James Taylor Foundation's Junior Training and Educational Hotspot (JTech)](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i) program.  JTech supports graduate students, post-docs and junior faculty working at the intersection of computational biology and data science.  The first group of 10 awardees are graduate students presenting their work at the [2020 CSHL Biological Data Science](https://meetings.cshl.edu/meetings.aspx?meet=data&year=20) conference.  Awardees represent ten institutions and are presenting a wide range of research at the meeting:
 
-[<img class="float-right" style="max-width: 14rem" src="/jxtx/jtech-logo-with-text-500.png" alt="JTech" />](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)
+[<img class="float-right" style="max-width: 14rem" src="/images/jxtx/jtech-logo-with-text-500.png" alt="JTech" />](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)
 
 * **Emily Davis-Marcisak**, Johns Hopkins University
   * *Matrix factorization of single-cell RNA-sequencing identifies immune cell states that project across species, cancer type, and infectious disease*

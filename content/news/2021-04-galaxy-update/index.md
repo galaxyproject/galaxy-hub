@@ -59,7 +59,7 @@ Thank you all in advance and please feel free to invite other friends of James t
 
 <!-- James -->
 <div class="card border-info" style="min-width: 10rem; max-width: 100%">
-<img class="card-img-top" src="/jxtx/james-at-gcc2019-stripe.jpg" alt="James Taylor" />
+<img class="card-img-top" src="/images/jxtx/james-at-gcc2019-stripe.jpg" alt="James Taylor" />
 <div class="card-header">
 
 [A note to James, one year after his passing](/jxtx/)

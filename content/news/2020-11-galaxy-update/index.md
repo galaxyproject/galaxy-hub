@@ -58,7 +58,7 @@ The JXTX Foundation's first activity is to sponsor 10 graduate students to atten
 <div class="card border-info" style="min-width: 15rem; max-width: 17rem">
 <div class="trim-p">
 
-![Big shoes to fill](/jxtx/jtech-shoes-400.png)
+![Big shoes to fill](/images/jxtx/jtech-shoes-400.png)
 
 </div>
 <div class="card-header">Help move Open Science forward</div>
