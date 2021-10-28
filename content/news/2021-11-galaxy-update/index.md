@@ -268,21 +268,7 @@ Theodora run a workshop in the Training School on Microbiome Sequencing and Data
 
 
 
-<!-- topic -->
-<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 
-![AnVIL](/images/logos/anvil-logo-text.png)
-
-<div class="card-header trim-p">
-
-[Human Genetics working group T2 update](/blog/2021-09-human-genetics-wg-update/)
-
-</div>
-
-
-
-
-</div>
 
 </div>
 
@@ -362,17 +348,18 @@ Föll, M. C., Volkmann, V., Enderle-Ammour, K., Wilhelm, K., Guo, D., Vitek, O.,
 
 # Other News
 
-<div class="card-deck"> 
+<!-- BY-COVID kick-off -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 
-<!-- New brochure from ELIXIR Germany -->
-<div class="card lead border-info" style="min-width: 15%; max-width: 100%;">
+![BY-COVID](/images/logos/by-covid.svg)
+
 <div class="card-header trim-p">
 
-[New brochure from ELIXIR Germany](https://galaxyproject.eu/posts/2021/10/06/elixir-de-brochure/)
+[BY-COVID: A new EU project for pandemic preparedness](https://galaxyproject.eu/posts/2021/10/13/bycovid-kickoff/)
 
 </div>
 
-ELIXIR Germany has published the handout “ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe”.
+BeYond-COVID is a new Horizon Europe project that will tackle the data challenges that can hinder effective pandemic response.
 
 </div>
 
