@@ -89,8 +89,15 @@ Interested in helping? See the [announcement](/news/2021-10-outreachy/) for deta
 
 </div>
 
-Two new positions were listed in the [Galaxy Career Center](/careers/index.md) recently. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
+Plenty of new positions were listed in the [Galaxy Career Center](/careers/index.md) recently. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
 
+* Limagrain, Chappes, France 
+* Computational Biology Program, Oregon Health & Science University, Portland, Oregon, United States 
+* RECETOX, Brno, Czechia 
+* Centre for Bioinformatics, University of Oslo, ELIXIR Norway, Oslo, Norway 
+* Pfizer, Cambridge, Massachusetts, United States 
+* DAWSON, Uniformed Services University of the Health Sciences (USUHS), Bethesda, Maryland, United States 
+* ELIXIR Belgium, VIB-UGent Center for Plant Systems Biology, Ghent, Belgium 
 * Helmholtz Zentrum München, Germany
 * Tufts University in Massachusetts
 * Sciensano in Belgium
@@ -219,7 +226,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 </div>
 <div class="card-header trim-p">
 
-[title](/use/veupathdb/) Update
+[title](/use/veupathdb/)
 
 </div>
 
