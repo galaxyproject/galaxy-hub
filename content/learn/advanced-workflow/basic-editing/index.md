@@ -1,10 +1,9 @@
 ---
 title: Basic Workflow Editing
 ---
+
 <slot name="/learn/linkbox" />
 
-
-<br />
 [Back to Advanced Workflow](/learn/advanced-workflow/)
 
 <br />
@@ -45,7 +44,11 @@ Open **[usegalaxy.org](http://usegalaxy.org)** (or any [Galaxy](/use/)) from any
 Selecting **Edit** opens the workflow editor view. Each of the major landmarks is used for a specific purpose and is defined on this wiki page. Below is the *annotated* view. For a look at the view *without annotation*, click **[here](/learn/advanced-workflow/basic-editing/workflow-editor-unannotated/)**.
 <br />
 <br />
-<img src="/images/learn/workflow_editor_overview_annotated.png" alt="workflow editor view annotated" width="900" />
+<div class="img-sizer" style="width: 900px">
+
+![workflow editor view annotated](/images/learn/workflow_editor_overview_annotated.png)
+
+</div>
 <br />
 <br />
 
@@ -123,8 +126,9 @@ The *details* panel is where tool settings are made and adjusted for the selecte
 * **4: edit step attributes** - Workflow-specific annotation/info that can be provided to describe what a tool's purpose is, expected input content (if an *input* dataset box), and other communications directed to users of the workflow. This annotation is displayed when a workflow is *viewed* or when it is *run*.
 * **5: tool form info contents** - Exact contents displayed on a tool's *tool form* underneath the settings. This is provided in the *workflow editor* to assist with correct setting and connections for included *tools*.
 
-<img src="/images/learn/workflow_editor_toolbox_detail-B1.png" alt="workflow editor toolbox detail-B1" width="400" /> continued on....
-<img src="/images/learn/workflow_editor_toolbox_detail-B2.png" alt="workflow editor toolbox detail-B2" width="400" />
+![workflow editor toolbox detail-B1](/images/learn/workflow_editor_toolbox_detail-B1.png) continued on....
+![workflow editor toolbox detail-B2](/images/learn/workflow_editor_toolbox_detail-B2.png)
+
 <br />
 
 ## Key Functions
@@ -136,7 +140,12 @@ The *details* panel is where tool settings are made and adjusted for the selecte
 * once on your *canvas*, drag a *noodle* from the *output* connection over to the downstream tool's *input* connection. 
 * **save** your work! 
 
-<div class='center'><img src="/images/learn/workflow_editor_input_canvas.png" alt="workflow editor input canvas" width="700" /> <br /> adding and connecting *inputs*</div>
+<div class="center">
+
+![workflow editor input canvas](/images/learn/workflow_editor_input_canvas.png)  
+adding and connecting *inputs*
+
+</div>
 <br /> 
 
 ### Noodle-y Connections
@@ -152,12 +161,14 @@ The *details* panel is where tool settings are made and adjusted for the selecte
 ### Label Inputs
 
 <div class='right'><img src="/images/learn/workflow_editor_input_renaming.png" alt="workflow editor input renaming" width="300" /></div>
+
 When a workflow is *run*, the user selects a dataset from the history to be used for each *input* in your workflow. Give them a label to make sure that the correct dataset is selected. 
+
 <br />
 <br />
 A good label may include:
 <br />
-<br />
+
 * the expected *content* of the dataset (reference annotation, gene bound coordinates, ...)
 * the expected *format* of the dataset (BAM, BED, GTF, ...)
 * the *exact name* of a dataset. When? If it is provided in a library or Page (as a shared history with datasets).
@@ -204,6 +215,7 @@ editing *datatype*
 
 </div>
 <br />
+
 **How to edit the *datatype* assignment:**
 
 * click on the *Cut toolbox* in the *workflow canvas* to bring it up in the far right *Details* panel

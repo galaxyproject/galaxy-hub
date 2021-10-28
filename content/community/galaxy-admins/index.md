@@ -1,5 +1,6 @@
 ---
 title: "Galaxy-Admins"
+autotoc: false
 ---
 <div class='center'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="" width="240" /></div>
 
