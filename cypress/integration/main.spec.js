@@ -67,9 +67,7 @@ describe("Use Page Tests", () => {
         });
     });
 
-    // TODO: This is the test that will fail until the /use/ page is fixed.
-    // This will pass against a develop server currently.
-    it.skip("Tries to visit another page after /use/, via the masthead", () => {
+    it("Tries to visit another page after /use/, via the masthead", () => {
         cy.visit("/use/");
         cy.get("#masthead-logo").should("be.visible");
         cy.findByRole("button", { name: /Community/i }).click();
