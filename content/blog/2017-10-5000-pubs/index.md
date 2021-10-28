@@ -16,6 +16,7 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
 
 # Publications and Tags Over Time
 
+<div style="overflow-x: scroll;">
 <table class="table">
   <tr>
     <th> Year </th>
@@ -370,6 +371,7 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <th  style="text-align: right; background-color: #d2eed2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud">9</a> </th>
   </tr>
 </table>
+</div>
 
 # Trends
 

@@ -16,6 +16,7 @@ The library uses *tags* to indicate how publications relate to Galaxy.  See belo
 
 # Publications and Tags Over Time
 
+<div style="overflow-x: scroll;">
 <table class="table">
   <tr style="height: 8rem;">
     <th style="vertical-align: bottom;"> Year </th>
@@ -455,6 +456,7 @@ The library uses *tags* to indicate how publications relate to Galaxy.  See belo
     <th  style="text-align: right; background-color: #cbebcb;" > <a href="https://www.zotero.org/groups/1732893/galaxy/items/tags/+UseCloud">17</a> </th>
   </tr>
 </table>
+</div>
 
 
 Trends in the publication library reflect the trajectory of the Galaxy Project.  Here are some trends that stand out in this data.
