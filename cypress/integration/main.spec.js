@@ -70,6 +70,9 @@ describe("Use Page Tests", () => {
     it("Tries to visit another page after /use/, via the masthead", () => {
         cy.visit("/use/");
         cy.get("#masthead-logo").should("be.visible");
+        // This test gives intermittent failures without a wait here
+        // (Todo: investigate a more refined wait target -- these explicit sleeps are terrible)
+        cy.wait(1000);
         cy.findByRole("button", { name: /Community/i }).click();
         cy.findByRole("menuitem", { name: /Stats/i }).click();
         cy.findByText(/Galaxy Project Stats/i).should("be.visible");
