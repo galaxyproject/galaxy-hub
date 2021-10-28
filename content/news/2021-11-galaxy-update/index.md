@@ -238,6 +238,9 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 ![usegalaxy-dot-star](/images/galaxy-logos/usegalaxy-dot-star-white.png)
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
+* New use cases published in [UseGalaxy.eu](https://galaxyproject.eu/news?tag=UseCase):
+  * [microRNAs in heart disease](https://galaxyproject.eu/posts/2021/10/11/use-case-ileana-duran/)
+  * [cellular specification, differentiation and morphogenesis of the mucociliary epithelium](https://galaxyproject.eu/posts/2021/10/12/use-case-sarah-bowden/)
 
 </div>
 </div>
@@ -311,11 +314,11 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 <div class="card border-info" style="min-width: 35%; max-width: 28rem;">
 <div class="card-header trim-p">
 
-[Moving translational mass spectrometry imaging towards transparent and reproducible data analyses: A case study of an urothelial cancer cohort analyzed in the Galaxy framework](https://doi.org/10.1101/2021.08.09.455649)
+[A proteomics sample metadata representation for multiomics integration and big data analysis](https://doi.org/10.1038/s41467-021-26111-3)
 
 </div>
 
-Föll, M. C., Volkmann, V., Enderle-Ammour, K., Wilhelm, K., Guo, D., Vitek, O., Bronsert, P., & Schilling, O. (2021). *BioRxiv*, 2021.08.09.455649. https://doi.org/10.1101/2021.08.09.455649
+Dai, C., Füllgrabe, A., Pfeuffer, J. et al. A proteomics sample metadata representation for multiomics integration and big data analysis. Nat Commun 12, 5854 (2021). https://doi.org/10.1038/s41467-021-26111-3
 
 </div>
 
