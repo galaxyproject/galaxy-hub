@@ -9,6 +9,10 @@ date: ""
 Hello all,
 
 
+
+
+
+
 Beatriz Serrano-Solano and Dave Clements, Editors
 
 PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.org/?count=100&all-lists=) and receive an email whenever this newsletter is published.
@@ -243,6 +247,24 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <div class="card-deck">
 
+<!-- TIaaS feedback -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="trim-p">
+
+[![TIaaS logo](/images/logos/tiaas-logo.png)](https://galaxyproject.eu/posts/2021/10/18/tiaas-Theodora-Tsirka/)
+
+</div>
+<div class="card-header trim-p">
+
+[Training Infrastructure Feedback](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
+
+</div>
+
+By Theodora Tsirka.
+
+Theodora run a workshop in the Training School on Microbiome Sequencing and Data Analysis in Greece.
+
+</div>
 
 
 
