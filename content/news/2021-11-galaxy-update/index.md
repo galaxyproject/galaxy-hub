@@ -251,8 +251,6 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="trim-p">
 
-[![TIaaS logo](/images/logos/tiaas-logo.png)](https://galaxyproject.eu/posts/2021/10/18/tiaas-Theodora-Tsirka/)
-
 </div>
 <div class="card-header trim-p">
 
@@ -263,6 +261,8 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 By Theodora Tsirka.
 
 Theodora run a workshop in the Training School on Microbiome Sequencing and Data Analysis in Greece.
+
+<img class="card-img-bottom" src="/images/logos/tiaas-logo.png" alt="TIaaS" />
 
 </div>
 
