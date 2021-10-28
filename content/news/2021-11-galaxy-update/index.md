@@ -185,17 +185,17 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 </div>
 <div class="card-header trim-p">
 
-[Spanscriptomics: Análisis de células únicas con Galaxy](https://galaxyproject.eu/event/2021-10-07-training-spanish/)
+[Spanscriptomics: Análisis de células únicas usando Galaxy](https://gallantries.github.io/galaxy-workshop/events/spanscriptomics/)
 
 </div>
 
 **29-30 November, Online, UK.**
 
-Curso de análisis de células únicas con Galaxy en español. ¡Pronto se abrirá el periodo de inscripción! 
+Curso de análisis de células únicas con Galaxy en español. ¡Regístrate ya! 
 
 --
 
-Single-cell workshop in Spanish. Registration will open soon!
+Single-cell workshop in Spanish. Register now!
 
 
 </div>
