@@ -57,7 +57,7 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioc
 
 
 <!-- hiring -->
-<div class="card lead border-info" style="min-width: 22%; max-width: 26rem;">
+<div class="card border-info" style="min-width: 22%; max-width: 26rem;">
 <div class="trim-p">
 
 ![Galaxy is Expanding](/images/GalaxyIsExpandingCloud.png)
@@ -118,6 +118,45 @@ Registration will open soon, stay tuned!
 </div>
 
 
+<!-- AusBioCommons Showcase -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
+
+![Australian Biocommons](/images/logos/australian-biocommons-logo-horizontal-transparent.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Australian BioCommons Showcase](https://www.biocommons.org.au/2021-showcase)
+
+</div>
+
+**3-5 November, Online**
+
+We’ll meet online over three afternoons to share achievements, challenges and future directions, including of course, [Galaxy Australia](https://usegalaxy.org.au/).
+
+</div>
+
+<!-- Genome Annotation & Large Data -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
+
+![ELIXIR Czech](/images/logos/elixir-cz-banner.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Genome annotation & Galaxy Large Data Handling workshop](https://www.elixir-czech.cz/events/genome-annotation-galaxy-large-data-handling-online-workshop-nov-2021)
+
+</div>
+
+**4 November, Online**
+
+Hands-on introduction to advanced Galaxy features and best practices of processing hundreds of datasets simultaneously; followed by Galaxy for repetitive sequence analysis and genome annotation. Enrollment is limited to 50.
+
+</div>
+
+
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
@@ -127,7 +166,7 @@ Registration will open soon, stay tuned!
 </div>
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
@@ -160,6 +199,27 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 </div>
 
 
+<!-- FROGS -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="card-header trim-p">
+
+[FROGS: tools for bioinformatics and statistics analyses with amplicon metagenomics data]([/events/2021-11-papercuts/](http://bioinfo.genotoul.fr/index.php/events/metagenomic-amplicons-and-stats-with-frogs/))
+
+</div>
+
+**29 November - 2 December, INRA, Toulouse-Auzeville, France**
+
+Learn to work with NGS data of 16S, 18S, ITS … DNA using our Galaxy instance and the [FROGS pipeline](http://frogs.toulouse.inrae.fr/). 
+
+<div class="trim-p">
+
+![FROGS formation: tools for bioinformatics and statistics analyses with amplicon metagenomics data](/images/logos/frogs.png)
+
+</div>
+
+</div>
+
+
 
 <!-- GTÑ -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
@@ -182,6 +242,24 @@ Curso de análisis de células únicas con Galaxy en español. ¡Regístrate ya!
 
 Single-cell workshop in Spanish. Register now!
 
+</div>
+
+<!-- Assemblage et Annotation de génome -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
+
+![Assemblage et Annotation de génome](/images/logos/Co-organisation-ABiMS-INRAE-IFREMER.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Formation Assemblage et Annotation de génome 2021](https://wwz.ifremer.fr/Recherche/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Bioinformatique/Animations-scientifiques/Formation-Assemblage-et-Annotation-de-genome-2021)
+
+</div>
+
+**1er au 3 décembre, Station Biologique, Roscoff, France**
+
+Initier les participant.e.s aux concepts et à l'usage des méthodes bioinformatiques pour l’assemblage de novo et l’annotation de génomes à partir de technologies de séquençage short (Illumina) et long reads (PacBio / Oxford Nanopore). 
 
 </div>
 
