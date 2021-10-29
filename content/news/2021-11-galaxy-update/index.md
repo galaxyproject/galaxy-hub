@@ -55,26 +55,6 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioc
 </div>
 
 
-<!-- Outreachy -->
-<div class="card lead border-info" style="min-width: 24%; max-width: 24rem;">
-
-[![Outreachy](/images/logos/outreachy-logo.svg)](/news/2021-10-outreachy/)
-
-<div class="card-header trim-p">
-
-[Galaxy + Outreachy ⇨ Internships!](/news/2021-10-outreachy/)
-
-</div>
-
-Galaxy will be participating in the [December 2021 Outreachy Internship Cohort](https://www.outreachy.org/blog/2021-08-13/december-2021-initial-applications-open/).  [Outreachy](https://www.outreachy.org/) is an internship program for open source communities and non-profits.  Galaxy has [two proposed projects](https://www.outreachy.org/apply/project-selection/#galaxy-community) for this cohort.  
-
-Interested in helping? See the [announcement](/news/2021-10-outreachy/) for details on what you can do, starting right now.
-
-</div>
-
-
-</div>
-
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 22%; max-width: 26rem;">
@@ -102,7 +82,6 @@ Seven new openings were added to the [Galaxy Career Center](/careers/) in Octobe
 * Tufts University in Massachusetts
 * Sciensano in Belgium
 * NEB in Massachusetts, US
-* GalaxyWorks in the US
 * Cleveland Clinic in Ohio, US
 * Johns Hopkins University in Maryland, US
 
