@@ -1,5 +1,8 @@
+---
+title: Workflow Variables
+---
+
 <slot name="/learn/linkbox" />
-# Workflow Variables
 
 [Back to Advanced Workflow](/learn/advanced-workflow/)
 
@@ -12,8 +15,8 @@ Variables are used in the editor in the far right panel, under the section "Edit
 
 The screenshot allows us to visualize that the Tophat2 tool is selected and configured to expect 2 .fastq files. In the far right panel, when we search for 'Data input', the input variables appear right in front of it between quotes. (eg. **RNA-Seq FASTQ file, forward reads** Data input 'input1' (fastqsanger)). Therefore the input variables for .fastq files are input1 and input2. 
 
-
-<img src="/images/learn/workflow_editor_input_variables.png" alt="workflow editor" width="700" /> <br />*workflow editor showing the input variables names*
+![workflow editor](/images/learn/workflow_editor_input_variables.png)
+*workflow editor showing the input variables names*
 
 ## Usage
 
@@ -44,7 +47,8 @@ When you run a tool, the result will be new boxes on the 'History' panel with na
 
 <br />
 
-<img src="/images/learn/workflow_editor_input_variables_renaming.png" alt="workflow editor" width="700" /> <br />*workflow editor showing the use of input variables in the renaming tool*
+![workflow editor](/images/learn/workflow_editor_input_variables_renaming.png)
+*workflow editor showing the use of input variables in the renaming tool*
 
 
 ## Source
