@@ -152,10 +152,9 @@ Registration will open soon, stay tuned!
 
 </div>
 
-The Galaxy Developer Round Table meetup in November are:
+The Galaxy Developer Round Table meetup in November is:
 
 - **November 11**
-- **November 28**
 
 We are [seeking volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent) at future roundtables.
 </div>
