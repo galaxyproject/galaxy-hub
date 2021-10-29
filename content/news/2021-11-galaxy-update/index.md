@@ -77,7 +77,7 @@ Interested in helping? See the [announcement](/news/2021-10-outreachy/) for deta
 
 
 <!-- hiring -->
-<div class="card lead border-info" style="min-width: 22%; max-width: 24rem;">
+<div class="card lead border-info" style="min-width: 22%; max-width: 26rem;">
 <div class="trim-p">
 
 ![Galaxy is Expanding](/images/GalaxyIsExpandingCloud.png)
@@ -85,20 +85,20 @@ Interested in helping? See the [announcement](/news/2021-10-outreachy/) for deta
 </div>
 <div class="card-header trim-p">
 
-[Galaxy Career Center](/careers/index.md)
+[Galaxy Career Center](/careers/)
 
 </div>
 
-Plenty of new positions were listed in the [Galaxy Career Center](/careers/index.md) recently. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
+Seven new openings were added to the [Galaxy Career Center](/careers/) in October. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
 
 * Limagrain, Chappes, France 
 * Computational Biology Program, Oregon Health & Science University, Portland, Oregon, United States 
-* RECETOX, Brno, Czechia 
-* Centre for Bioinformatics, University of Oslo, ELIXIR Norway, Oslo, Norway 
+* RECETOX, Brno, Czechia, **closes November 15**
+* Centre for Bioinformatics, University of Oslo, ELIXIR Norway, Oslo, Norway, **Closes November 1**
 * Pfizer, Cambridge, Massachusetts, United States 
 * DAWSON, Uniformed Services University of the Health Sciences (USUHS), Bethesda, Maryland, United States 
 * ELIXIR Belgium, VIB-UGent Center for Plant Systems Biology, Ghent, Belgium 
-* Helmholtz Zentrum München, Germany
+* Helmholtz Zentrum München, Germany, **closes November 25**
 * Tufts University in Massachusetts
 * Sciensano in Belgium
 * NEB in Massachusetts, US
@@ -174,7 +174,7 @@ We are [seeking volunteers (like you!) to lead the discussion on your favorite t
 
 **18 November, Online, Global**
 
-Please join us for the [CoFest day](/events/2021-11-papercuts/index.md) on October 21 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+Please join us for the [CoFest day](/events/2021-11-papercuts/) on November 18 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
 We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, please take advantage of both to communicate with your collaborators around the world.
 
@@ -256,6 +256,46 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <div class="card-deck">
 
+<!-- Teaching SARS Analysis -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="trim-p">
+
+</div>
+<div class="card-header trim-p">
+
+[SARS-CoV-2 analysis training with Galaxy: a perspective from Africa](https://depot.galaxyproject.org/hub/attachments/blog/2021-10-sars-training-africa/sasbi-newsletter-2021-10.pdf#page=4)
+
+</div>
+
+By Peter van Heusden.
+
+The switch to online bioinformatics training forced by the COVID-19 pandemic has opened spaces  for  collaboration  in  ways that  were  previously limited  by geography.
+
+<img class="card-img-bottom" src="/images/logos/sasbi-logo-with-text.png" alt="TIaaS" />
+
+</div>
+
+
+<!-- Sunsetting CloudLaunch -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="trim-p">
+
+</div>
+<div class="card-header trim-p">
+
+[Sunsetting the CloudLaunch service](/blog/2021-10-sunsetting-cloudlaunch/)
+
+</div>
+
+By Enis Afgan.
+
+There are now better alternatives to using Galaxy on the cloud.
+
+<img class="card-img-bottom" src="/images/galaxy-logos/cloudlaunch-small-blue.png" alt="CloudLaunch soars into the sun." />
+
+</div>
+
+
 <!-- TIaaS feedback -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="trim-p">
@@ -263,7 +303,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 </div>
 <div class="card-header trim-p">
 
-[Training Infrastructure Feedback](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
+[Training Infrastructure Feedback](https://galaxyproject.eu/posts/2021/10/18/tiaas-Theodora-Tsirka/)
 
 </div>
 
@@ -324,7 +364,7 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 
 </div>
 
-Dai, C., Füllgrabe, A., Pfeuffer, J. et al. A proteomics sample metadata representation for multiomics integration and big data analysis. Nat Commun 12, 5854 (2021). https://doi.org/10.1038/s41467-021-26111-3
+Dai, C., Füllgrabe, A., Pfeuffer, J. et al. *Nature Communications* 12, 5854 (2021). https://doi.org/10.1038/s41467-021-26111-3
 
 </div>
 
