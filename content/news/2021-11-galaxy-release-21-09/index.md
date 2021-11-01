@@ -15,7 +15,7 @@ A few release highlights are:
 
 ### Tool Panel Views
 
-We now have "Tool Panel Views"! These are different views into the same toolbox and might help it make it easier to find the tools you want. In the future there are plans to create user-customisable toolboxes, but until then go explore the new EDAM Ontology based toolboxes which organise tools around their scientific area, or based on the scientific process they do. For example a category like "Filtering" might have tools like "select lines" or "filter bam by quality", both doing the same process of filtering, despite their different filetypes and formats.
+We now have "Tool Panel Views"! These are different views into the same toolbox and might help make it easier to find the tools you want. In the future there are plans to create user-customisable toolboxes, but until then go explore the new EDAM Ontology based toolboxes which organise tools around their scientific area, or based on the scientific process they do. For example a category like "Filtering" might have tools like "select lines" or "filter bam by quality", both doing the same process of filtering, despite their different filetypes and formats.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vCapB1xHjZg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -31,13 +31,13 @@ Additionally, did a *collection ever fail* for you? And you wondered why? Now yo
 
 ### Importing Data
 
-Selecting datasets from the Remote Files view has gotten easier! Now you can select folders and files, and it will import all of the datasets recursively in those folders. Previously you could only select files within a folder so this is a huge improvement in usability of such a key new feature of Galaxy. ([Pull Request 12310](https://github.com/galaxyproject/galaxy/pull/12310)) But with great power comes great responsibility, be careful not to import the entirety of NCBI!
+Selecting datasets from the Remote Files view has gotten easier! Now you can select folders and files, and it will import all of the datasets recursively in those folders. Previously you could only select files within a folder so this is a huge improvement in usability of such a key new feature of Galaxy ([Pull Request 12310](https://github.com/galaxyproject/galaxy/pull/12310)). But with great power comes great responsibility, be careful not to import the entirety of NCBI!
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XcZgQbGojh8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Reports
 
-Report components used to try and arrange themselves in a smart way, but due to some issues with the floating of report components these will now be full width until we can figure out a good way to provide a similar feature allowing you to control the layout of the report. ([Pull Request 12085](https://github.com/galaxyproject/galaxy/pull/12085))
+Report components used to try and arrange themselves in a smart way, but due to some issues with the floating of report components these will now be full width until we can figure out a good way to provide a similar feature allowing you to control the layout of the report ([Pull Request 12085](https://github.com/galaxyproject/galaxy/pull/12085)).
 
 ![A screenshot of the reports interface is shown, there are a number of 'report components' like table previews embedded and these are full width across the report.](images/21.09-reports.png)
 
@@ -46,7 +46,7 @@ Report components used to try and arrange themselves in a smart way, but due to 
 Many fixes and enhancements were made to improve how Galaxy can import and
 write to remote data using the configured file source plugins. In addition to
 the History Export functionality, which can write to remote locations, we have
-added a ``Export datasets`` Tool for exporting individual Datasets and Dataset
+added an ``Export datasets`` Tool for exporting individual Datasets and Dataset
 collections to configured remote locations. The Tool will automatically
 maintain the name and structure of Datasets and Dataset Collections. We have
 added the possibility to import entire folders of remote data and made the
@@ -72,14 +72,14 @@ documented.
 
 The Tool Form interface has been almost completely migrated from
 [Backbone](https://backbonejs.org) to [Vue](https://vuejs.org/).
-This improves reactivity of parameter validation and enables the migration of
+This improves the reactivity of parameter validation and enables the migration of
 Tool parameters to Vue, which will also allow us to add many more types of
 Tool parameters. We further migrated the Tool Form variant for the Workflow
 Editor, the Workflow Run Form and the Show Dataset Parameter page to Vue.
 
 ### New User Welcome Page
 
-We have added a Page that new users will be directed to after signing up to Galaxy.
+We have added a Page that new users will be directed to after creating a new Galaxy account.
 
 ### Release Notes
 
