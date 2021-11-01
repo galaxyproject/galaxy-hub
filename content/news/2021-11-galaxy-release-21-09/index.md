@@ -37,7 +37,7 @@ Selecting datasets from the Remote Files view has gotten easier! Now, you can se
 
 ### Reports
 
-Report components used to try and arrange themselves in a smart way, but due to some issues with the floating of report components these will now be full width until we can figure out a good way to provide a similar feature allowing you to control the layout of the report ([Pull Request 12085](https://github.com/galaxyproject/galaxy/pull/12085)).
+Report components used to automatically arrange themselves in a smart way, but due to some issues with the floating of components, these will now be full width until we can figure out a good way to provide a similar feature ([Pull Request 12085](https://github.com/galaxyproject/galaxy/pull/12085)).
 
 ![A screenshot of the reports interface is shown, there are a number of 'report components' like table previews embedded and these are full width across the report.](images/21.09-reports.png)
 
