@@ -4,12 +4,14 @@ tease: Tool Panel Views, Collections, Reports, Remote Data, FastAPI, SQLAlchemy 
 date: '2021-11-02'
 ---
 
-We are pleased to announce the release of Galaxy 21.09:
+Dear Community,
+
+The Galaxy Committers team is pleased to announce the release of Galaxy 21.09.
 
 - **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/21.09_announce.html)** 
 - **[User release announcement](https://docs.galaxyproject.org/en/master/releases/21.09_announce_user.html)**.
 
-## Highlights
+A few release highlights are:
 
 ### Tool Panel Views
 
@@ -69,7 +71,7 @@ documented.
 ### Modernization of Tool Form interface
 
 The Tool Form interface has been almost completely migrated from
-[backbone](https://backbonejs.org) to [Vue](https://vuejs.org/).
+[Backbone](https://backbonejs.org) to [Vue](https://vuejs.org/).
 This improves reactivity of parameter validation and enables the migration of
 Tool parameters to Vue, which will also allow us to add many more types of
 Tool parameters. We further migrated the Tool Form variant for the Workflow
@@ -81,5 +83,7 @@ We have added a Page that new users will be directed to after signing up to Gala
 
 ### Release Notes
 
-Please see the [full release notes](https://docs.galaxyproject.org/en/latest/releases/21.09_announce.html) for more
-details.
+Please see the [full release notes](https://docs.galaxyproject.org/en/latest/releases/21.09_announce.html) for a lot more
+details and instructions for upgrading your Galaxy installation.
+
+Thanks for using Galaxy!
