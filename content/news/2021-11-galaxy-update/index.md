@@ -272,24 +272,6 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <div class="card-deck">
 
-
-<!-- topic -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
-<div class="trim-p">
-
-[![VEuPathDB](/images/use/veupathdb/veupathdb-logo-wide.png)](/use/veupathdb/)
-
-</div>
-<div class="card-header trim-p">
-
-[title](/use/veupathdb/)
-
-</div>
-
-
-</div>
-
-
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
 <div class="card-header trim-p">
