@@ -243,11 +243,7 @@ Learn to work with NGS data of 16S, 18S, ITS … DNA using our Galaxy instance a
 
 <!-- covid workshop -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
-<div class="trim-p">
 
-![SARS-CoV-2 Data Analysis and Monitoring with Galaxy](/images/news-graphics/gtn-covid-stripe.jpeg)
-
-</div>
 <div class="card-header trim-p">
 
 [SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-09-15-sars-cov-2-training/)
@@ -259,6 +255,8 @@ Learn to work with NGS data of 16S, 18S, ITS … DNA using our Galaxy instance a
 A workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions. 
 
 Registration will open soon, stay tuned!
+
+![SARS-CoV-2 Data Analysis and Monitoring with Galaxy](sars-cov-2-workshop.png)
 
 </div>
 
