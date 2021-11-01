@@ -152,7 +152,7 @@ Hands-on introduction to advanced Galaxy features and best practices of processi
 
 The Galaxy Developer Round Table meetup in November is:
 
-- **November 11**
+- [**November 11: Separated data PVC: How it works and potential missed implications**](https://galaxyproject.org/events/2021-11-11-dev-roundtable/) by Alexandru Mahmoud.
 
 We are [seeking volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent) at future roundtables.
 </div>
