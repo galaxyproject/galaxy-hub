@@ -96,26 +96,6 @@ See all [upcoming events here](/events/index.md):
 
 <div class="card-deck">
 
-<!-- covid workshop -->
-<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
-<div class="trim-p">
-
-![SARS-CoV-2 Data Analysis and Monitoring with Galaxy](/images/news-graphics/gtn-covid-stripe.jpeg)
-
-</div>
-<div class="card-header trim-p">
-
-[SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-09-15-sars-cov-2-training/)
-
-</div>
-
-**1 December, Online**
-
-A workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions. 
-
-Registration will open soon, stay tuned!
-
-</div>
 
 
 <!-- AusBioCommons Showcase -->
@@ -198,6 +178,29 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 
 </div>
 
+<!-- GTÑ -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
+
+![gtñ](/images/galaxy-logos/gtn-spanish.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Spanscriptomics: Análisis de células únicas usando Galaxy](https://gallantries.github.io/galaxy-workshop/events/spanscriptomics/)
+
+</div>
+
+**29-30 November, Online, UK**
+
+Curso de análisis de células únicas con Galaxy en español. [¡Regístrate ya!](https://openuniversity.onlinesurveys.ac.uk/reserva-tu-lugar-en-el-taller-analisis-de-datos-single-ce) 
+
+--
+
+Single-cell workshop in Spanish. [Register now!](https://openuniversity.onlinesurveys.ac.uk/reserva-tu-lugar-en-el-taller-analisis-de-datos-single-ce)
+
+</div>
+
 
 <!-- FROGS -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
@@ -221,28 +224,29 @@ Learn to work with NGS data of 16S, 18S, ITS … DNA using our Galaxy instance a
 
 
 
-<!-- GTÑ -->
+
+<!-- covid workshop -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
 
-![gtñ](/images/galaxy-logos/gtn-spanish.png)
+![SARS-CoV-2 Data Analysis and Monitoring with Galaxy](/images/news-graphics/gtn-covid-stripe.jpeg)
 
 </div>
 <div class="card-header trim-p">
 
-[Spanscriptomics: Análisis de células únicas usando Galaxy](https://gallantries.github.io/galaxy-workshop/events/spanscriptomics/)
+[SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-09-15-sars-cov-2-training/)
 
 </div>
 
-**29-30 November, Online, UK**
+**1 December, Online**
 
-Curso de análisis de células únicas con Galaxy en español. [¡Regístrate ya!](https://openuniversity.onlinesurveys.ac.uk/reserva-tu-lugar-en-el-taller-analisis-de-datos-single-ce) 
+A workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions. 
 
---
-
-Single-cell workshop in Spanish. [Register now!](https://openuniversity.onlinesurveys.ac.uk/reserva-tu-lugar-en-el-taller-analisis-de-datos-single-ce)
+Registration will open soon, stay tuned!
 
 </div>
+
+
 
 <!-- Assemblage et Annotation de génome -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
