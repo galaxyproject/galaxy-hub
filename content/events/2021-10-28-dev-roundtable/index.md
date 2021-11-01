@@ -11,9 +11,18 @@ external_url:
 gtn: false
 contact: "Yi Sun, Jean-Karim Hériché"
 links: 
+- text: "Video"
+  url: "https://youtu.be/o3GZBfdKu8A"
 - text: "Slides"
   url: "https://docs.google.com/presentation/d/1mULgN9uRowMB0_K32AwZo6lwqohPjqVlRNIs1l0ZH2I/edit?usp=sharing"
 ---
+
+<div class="video-variable">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/o3GZBfdKu8A" frameborder="0" allow="accelerome
+ter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br />
+
 
 Please <a href="https://psu.zoom.us/j/92752763386">join us</a>) at Noon, US Eastern time (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20211028T12&p1=179&ah=1">see in your timezone</a>) for an open discussion about Image analysis in Galaxy - pain points and lessons learnt, led by Yi Sun and Jean-Karim Hériché of EMBL.
 
