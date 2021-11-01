@@ -23,7 +23,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <div class="card-deck">
 
-<!-- Inbix 2021 & Galaxy India Launch -->
+<!-- InBix 2021 & Galaxy India Launch -->
 <div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
 <div class="trim-p">
 
@@ -32,13 +32,13 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 </div>
 <div class="card-header trim-p">
 
-[Galaxy India Launch & Inbix2021 Pre-Conference Galaxy Workshop](https://neist.res.in/inbix2021/workshop.html)
+[Galaxy India Launch & InBix2021 Pre-Conference Galaxy Workshop](https://neist.res.in/inbix2021/workshop.html)
 
 </div>
 
 **9-10 November**
 
-This 2 day pre-[Inbix2021](https://neist.res.in/inbix2021/) workshop will feature talks and hands-on exercises, **and the formal launch of the [Galaxy India Community](https://galaxyproject.in/).**  
+This 2-day pre-[InBix2021](https://neist.res.in/inbix2021/) workshop will feature talks and hands-on exercises, **and the formal launch of the [Galaxy India Community](https://galaxyproject.in/).**  
 
 Presenters include include 
 [Christopher B Barnett](http://www.chemistry.uct.ac.za/cem/staff/academic/barnett), 
@@ -50,7 +50,7 @@ Presenters include include
 [Selvaraman Nagamani](https://scholar.google.com/citations?user=aIQz3DkAAAAJ&hl=en), 
 and [Gareth Price](https://qfab.org/team-member/dr-gareth-price). 
 
-Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioclues members can register for free.
+Early [registration](https://easychair.org/cfp/InBix2021) ends November 5. BIOCLUES members can register for free.
 
 </div>
 
@@ -72,15 +72,15 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioc
 Seven new openings were added to the [Galaxy Career Center](/careers/) in October. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
 
 * Limagrain, Chappes, France 
-* Computational Biology Program, Oregon Health & Science University, Portland, Oregon, United States 
+* Computational Biology Program, Oregon Health & Science University, Portland, Oregon, US 
 * RECETOX, Brno, Czechia, **closes November 15**
-* Centre for Bioinformatics, University of Oslo, ELIXIR Norway, Oslo, Norway, **Closes November 1**
-* Pfizer, Cambridge, Massachusetts, United States 
-* DAWSON, Uniformed Services University of the Health Sciences (USUHS), Bethesda, Maryland, United States 
+* Centre for Bioinformatics, University of Oslo, ELIXIR Norway, Oslo, Norway, **closes November 1**
+* Pfizer, Cambridge, Massachusetts, US 
+* DAWSON, Uniformed Services University of the Health Sciences (USUHS), Bethesda, Maryland, US 
 * ELIXIR Belgium, VIB-UGent Center for Plant Systems Biology, Ghent, Belgium 
 * Helmholtz Zentrum München, Germany, **closes November 25**
 * Tufts University in Massachusetts
-* Sciensano in Belgium
+* Sciensano, Belgium
 * NEB in Massachusetts, US
 * Cleveland Clinic in Ohio, US
 * Johns Hopkins University in Maryland, US
@@ -166,7 +166,7 @@ Hands-on introduction to advanced Galaxy features and best practices of processi
 </div>
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/community/devroundtable/)
+[Galaxy Developer Round Table](/community/devroundtable/)
 
 </div>
 
@@ -234,13 +234,13 @@ Learn to work with NGS data of 16S, 18S, ITS … DNA using our Galaxy instance a
 
 </div>
 
-**29-30 November, Online, UK.**
+**29-30 November, Online, UK**
 
-Curso de análisis de células únicas con Galaxy en español. ¡Regístrate ya! 
+Curso de análisis de células únicas con Galaxy en español. [¡Regístrate ya!](https://openuniversity.onlinesurveys.ac.uk/reserva-tu-lugar-en-el-taller-analisis-de-datos-single-ce) 
 
 --
 
-Single-cell workshop in Spanish. Register now!
+Single-cell workshop in Spanish. [Register now!](https://openuniversity.onlinesurveys.ac.uk/reserva-tu-lugar-en-el-taller-analisis-de-datos-single-ce)
 
 </div>
 
