@@ -12,7 +12,7 @@ Happy November from Galaxy!
 The November newsletter is thin, *but powerful*:
 
  
- * [Galaxy Inida Launches this Monthy](#community-news)
+ * [Galaxy India Launches this Month](#community-news)
  * [7 new openings (13 total)](#community-news)
  * [9 upcoming Events](#event-news)
  * [Blog posts on SARS-CoV-2 training in Africa; Sunsetting CloudLaundh; and TIaaS](#galactic-blog-posts)
