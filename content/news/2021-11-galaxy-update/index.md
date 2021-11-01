@@ -96,6 +96,24 @@ See all [upcoming events here](/events/index.md):
 
 <div class="card-deck">
 
+<!-- FORCeS 2021 -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
+
+![FORCeS 2021](logo-forces.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Tools in Climate Science: Linking
+Observations with Modelling](https://forces-project.eu/events/forces-escience-course-tools-in-climate-science-linking-observations-with-modelling/)
+
+</div>
+
+**1-8 November, Tjärnö Marine Biological Laboratory, Sweden**
+
+The course will introduce the role of aerosols and clouds in Earth’s climate system along with observational techniques, Earth system models, climate forcing and climate model evaluation through a series of lectures and tutorials.
+</div>
 
 
 <!-- AusBioCommons Showcase -->
@@ -223,8 +241,6 @@ Learn to work with NGS data of 16S, 18S, ITS … DNA using our Galaxy instance a
 </div>
 
 
-
-
 <!-- covid workshop -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
@@ -245,7 +261,6 @@ A workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day eve
 Registration will open soon, stay tuned!
 
 </div>
-
 
 
 <!-- Assemblage et Annotation de génome -->
