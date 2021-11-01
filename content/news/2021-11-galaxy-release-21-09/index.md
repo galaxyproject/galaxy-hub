@@ -25,7 +25,7 @@ Did you ever create *a collection with the wrong dbkey or datatype*? Well in the
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aPgMcTuzEJ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Additionally did a *collection ever fail* for you? And you wondered why? Now you can find out with the **view details button for collections** ([Pull Request 12261](https://github.com/galaxyproject/galaxy/pull/12261))!
+Additionally, did a *collection ever fail* for you? And you wondered why? Now you can find out with the **view details button for collections** ([Pull Request 12261](https://github.com/galaxyproject/galaxy/pull/12261))!
 
 ### Importing Data
 
@@ -42,13 +42,13 @@ Report components used to try and arrange themselves in a smart way, but due to 
 ### Enhancements for working with remote data and distributed computing resources
 
 Many fixes and enhancements were made to improve how Galaxy can import and
-write to remote data using the configured file source plugins.  In addition to
-the History Export functionality, which can write to remote locations we have
+write to remote data using the configured file source plugins. In addition to
+the History Export functionality, which can write to remote locations, we have
 added a ``Export datasets`` Tool for exporting individual Datasets and Dataset
 collections to configured remote locations. The Tool will automatically
-maintain the name and structure of Datasets and Dataset Collections.  We have
+maintain the name and structure of Datasets and Dataset Collections. We have
 added the possibility to import entire folders of remote data and made the
-data selection dialog more intuitive.  We also added numerous improvements and
+data selection dialog more intuitive. We also added numerous improvements and
 fixes to the extended metadata collection strategy and [Pulsar](https://github.com/galaxyproject/pulsar),
 so that many more Tools are able to run in [Pulsar](https://github.com/galaxyproject/pulsar)
 and write data back to storage without passing through Galaxy first.
@@ -61,17 +61,17 @@ extended the documentation and validation of these routes.
 ### Migration to SQLAlchemy 1.4 and Declarative Mapping
 
 Galaxy is now using [SQLAlchemy](https://www.sqlalchemy.org/) version 1.4,
-which is a prerequisite for asynchronously interacting with the Database.  We
+which is a prerequisite for asynchronously interacting with the Database. We
 also modernized the way our Database models are defined to the more commonly
 used Declarative Mapping approach, which is more concise and better
 documented.
 
 ### Modernization of Tool Form interface
 
-The Tool Form interface has been almost completed migrated from
+The Tool Form interface has been almost completely migrated from
 [backbone](https://backbonejs.org) to [Vue](https://vuejs.org/).
 This improves reactivity of parameter validation and enables the migration of
-Tool parameters to Vue, which will also allows us to add many more types of
+Tool parameters to Vue, which will also allow us to add many more types of
 Tool parameters. We further migrated the Tool Form variant for the Workflow
 Editor, the Workflow Run Form and the Show Dataset Parameter page to Vue.
 
