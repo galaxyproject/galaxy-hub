@@ -1,17 +1,25 @@
 ---
 title: 'November 2021 Galactic News'
-tease: ""
-date: ""
+tease: "Galaxy India, new jobs, events, blog posts, ..."
+date: "2021-11-01"
+autotoc: false
 ---
 
-<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
-Hello all,
+Happy November from Galaxy!
 
+The November newsletter is thin, *but powerful*:
 
+ 
+ * [Galaxy Inida Launches this Monthy](#community-news)
+ * [7 new openings (13 total)](#community-news)
+ * [9 upcoming Events](#event-news)
+ * [Blog posts on SARS-CoV-2 training in Africa; Sunsetting CloudLaundh; and TIaaS](#galactic-blog-posts)
+ * [UseGalaxy.* Updates](#galaxy-platforms-news)
+ * [Other News too: BY-COVID Launches](#other-news)
 
-
-
+Have something for the next newsletter?  Please let us know and we will spread the word.
 
 Beatriz Serrano-Solano and Dave Clements, Editors
 
@@ -394,32 +402,6 @@ Theodora run a workshop in the Training School on Microbiome Sequencing and Data
 
 </div>
  
-</div>
-
-
-# Doc, Hub, and Training Updates
-
-<div class="card-deck">
-
-<!-- Intro to Genomics and Galaxy -->
-<div class="card border-info" style="min-width: 30%; max-width: 24rem;">
- 
-<div class="trim-p">
-
-[![Do they ever overlap?](/images/news/2021-10-galaxy-update/gtn-do-genes-on-opposite-strands-ever-overlap.png)](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
-
-</div>
- 
-<div class="card-header trim-p">
-
-[Introduction to Genomics and Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
-
-</div>
-
-This introductory tutorial got a major update from [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/). Screenshots were updated, and many explanations were clarified.
-
-</div>
-
 </div>
 
 
