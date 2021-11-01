@@ -25,11 +25,13 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <!-- InBix 2021 & Galaxy India Launch -->
 <div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
+ 
 <div class="trim-p">
 
 ![](/images/galaxy-logos/galaxy-india-logo.png)
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [Galaxy India Launch & InBix2021 Pre-Conference Galaxy Workshop](https://neist.res.in/inbix2021/workshop.html)
@@ -55,7 +57,6 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5. BIOCL
 </div>
 
 
-
 <!-- hiring -->
 <div class="card border-info" style="min-width: 22%; max-width: 26rem;">
 <div class="trim-p">
@@ -63,6 +64,7 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5. BIOCL
 ![Galaxy is Expanding](/images/GalaxyIsExpandingCloud.png)
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [Galaxy Career Center](/careers/)
@@ -98,11 +100,13 @@ See all [upcoming events here](/events/index.md):
 
 <!-- FORCeS 2021 -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+ 
 <div class="trim-p">
 
 ![FORCeS 2021](logo-forces.png)
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [Tools in Climate Science: Linking
@@ -113,16 +117,19 @@ Observations with Modelling](https://forces-project.eu/events/forces-escience-co
 **1-8 November, Tjärnö Marine Biological Laboratory, Sweden**
 
 The course will introduce the role of aerosols and clouds in Earth’s climate system along with observational techniques, Earth system models, climate forcing and climate model evaluation through a series of lectures and tutorials.
+ 
 </div>
 
 
 <!-- AusBioCommons Showcase -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+ 
 <div class="trim-p">
 
 ![Australian Biocommons](/images/logos/australian-biocommons-logo-horizontal-transparent.png)
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [Australian BioCommons Showcase](https://www.biocommons.org.au/2021-showcase)
@@ -137,11 +144,13 @@ We’ll meet online over three afternoons to share achievements, challenges and 
 
 <!-- Genome Annotation & Large Data -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+ 
 <div class="trim-p">
 
 ![ELIXIR Czech](/images/logos/elixir-cz-banner.png)
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [Genome annotation & Galaxy Large Data Handling workshop](https://www.elixir-czech.cz/events/genome-annotation-galaxy-large-data-handling-online-workshop-nov-2021)
@@ -157,11 +166,13 @@ Hands-on introduction to advanced Galaxy features and best practices of processi
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+ 
 <div class="trim-p">
 
 ![roundtable](/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png)
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [Galaxy Developer Round Table](/community/devroundtable/)
@@ -177,11 +188,13 @@ We are [seeking volunteers (like you!) to lead the discussion on your favorite t
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+ 
 <div class="trim-p">
 
 ![November Papercuts](/images/galaxy-logos/papercuts.png)
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [November Papercuts](/events/2021-11-papercuts/)
@@ -198,11 +211,13 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 
 <!-- GTÑ -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+ 
 <div class="trim-p">
 
 ![gtñ](/images/galaxy-logos/gtn-spanish.png)
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [Spanscriptomics: Análisis de células únicas usando Galaxy](https://gallantries.github.io/galaxy-workshop/events/spanscriptomics/)
@@ -222,6 +237,7 @@ Single-cell workshop in Spanish. [Register now!](https://openuniversity.onlinesu
 
 <!-- FROGS -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+ 
 <div class="card-header trim-p">
 
 [FROGS: tools for bioinformatics and statistics analyses with amplicon metagenomics data]([/events/2021-11-papercuts/](http://bioinfo.genotoul.fr/index.php/events/metagenomic-amplicons-and-stats-with-frogs/))
@@ -241,7 +257,7 @@ Learn to work with NGS data of 16S, 18S, ITS … DNA using our Galaxy instance a
 </div>
 
 
-<!-- covid workshop -->
+<!-- COVID workshop -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 
 <div class="card-header trim-p">
@@ -268,6 +284,7 @@ Registration will open soon, stay tuned!
 ![Assemblage et Annotation de génome](/images/logos/Co-organisation-ABiMS-INRAE-IFREMER.png)
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [Formation Assemblage et Annotation de génome 2021](https://wwz.ifremer.fr/Recherche/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Bioinformatique/Animations-scientifiques/Formation-Assemblage-et-Annotation-de-genome-2021)
@@ -291,6 +308,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
+ 
 <div class="card-header trim-p">
 
 [UseGalaxy.*](/usegalaxy/index.md) News
@@ -305,6 +323,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
   * [cellular specification, differentiation and morphogenesis of the mucociliary epithelium](https://galaxyproject.eu/posts/2021/10/12/use-case-sarah-bowden/)
 
 </div>
+ 
 </div>
 
 
@@ -317,6 +336,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 <div class="trim-p">
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [SARS-CoV-2 analysis training with Galaxy: a perspective from Africa](https://depot.galaxyproject.org/hub/attachments/blog/2021-10-sars-training-africa/sasbi-newsletter-2021-10.pdf#page=4)
@@ -337,6 +357,7 @@ The switch to online bioinformatics training forced by the COVID-19 pandemic has
 <div class="trim-p">
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [Sunsetting the CloudLaunch service](/blog/2021-10-sunsetting-cloudlaunch/)
@@ -354,9 +375,11 @@ There are now better alternatives to using Galaxy on the cloud.
 
 <!-- TIaaS feedback -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+ 
 <div class="trim-p">
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [Training Infrastructure Feedback](https://galaxyproject.eu/posts/2021/10/18/tiaas-Theodora-Tsirka/)
@@ -370,11 +393,7 @@ Theodora run a workshop in the Training School on Microbiome Sequencing and Data
 <img class="card-img-bottom" src="/images/logos/tiaas-logo.png" alt="TIaaS" />
 
 </div>
-
-
-
-
-
+ 
 </div>
 
 
@@ -382,15 +401,15 @@ Theodora run a workshop in the Training School on Microbiome Sequencing and Data
 
 <div class="card-deck">
 
-
-
 <!-- Intro to Genomics and Galaxy -->
 <div class="card border-info" style="min-width: 30%; max-width: 24rem;">
+ 
 <div class="trim-p">
 
 [![Do they ever overlap?](/images/news/2021-10-galaxy-update/gtn-do-genes-on-opposite-strands-ever-overlap.png)](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
 
 </div>
+ 
 <div class="card-header trim-p">
 
 [Introduction to Genomics and Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
@@ -401,54 +420,7 @@ This introductory tutorial got a major update from [Cristóbal Gallardo](https:/
 
 </div>
 
-
-
-
 </div>
-
-
-# Publications
-
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
-
-<div class="card-deck">
-
-<div class="card border-info" style="min-width: 35%; max-width: 28rem;">
-<div class="card-header trim-p">
-
-[A proteomics sample metadata representation for multiomics integration and big data analysis](https://doi.org/10.1038/s41467-021-26111-3)
-
-</div>
-
-Dai, C., Füllgrabe, A., Pfeuffer, J. et al. *Nature Communications* 12, 5854 (2021). https://doi.org/10.1038/s41467-021-26111-3
-
-</div>
-
-
-</div>
-
-
-# Releases
-
-<div class="card-deck"> 
-
-<!-- Planemo -->
-<div class="card border-info" style="min-width: 30%; max-width: 22rem;">
-
-![Planemo](/images/galaxy-logos/planemo-logo.png)
-
-<div class="card-header trim-p">
-
-[Planemo 0.74.7](https://github.com/galaxyproject/planemo/releases/tag/0.74.7)
-
-</div>
-
-
-</div>
-
-
-</div>
-
 
 
 # Other News
