@@ -32,11 +32,11 @@ GCC is a community driven event.  Training topics are nominated and then voted o
 
 GCC has met annually since 2010 and the program has grown and transformed each year. [GCC2021](https://www.vibconferences.be/events/gcc2021-virtual-edition#main-content) will be held online, 28 June through 10 July.  We hope to see you there.
 
-| Dates&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Event | Where | Hosts | # |
-| ---- | ---- | ---- | ----|
-| **July 16-23, 2022** | **[GCC2022](/events/gcc2022/)** | **Minneapolis, Minnesota, United States** | **[Minnesota Supercomputing Institute](https://www.msi.umn.edu/) and [GalaxyP Project](http://galaxyp.org/), University of Minnesota** | 1 |
+| Dates | Event | Where | Hosts | # |
+| ---- | ---- | ---- | ---- | ----: | 
+| **July 16-23, 2022** | **[GCC2022](/events/gcc2022/)** | **Minneapolis, Minnesota, United States** | **[Minnesota Supercomputing Institute](https://www.msi.umn.edu/) and [GalaxyP Project](http://galaxyp.org/), University of Minnesota** |  |
 | June 28-July 10, 2021 | [GCC2021](https://www.vibconferences.be/events/gcc2021-virtual-edition#main-content) | Online, Global | [VIB](https://vib.be/) | 398 |
-| July 17-26, 2020 | [BCC2020](https://bcc2020.github.io/) | Online | [Ontario Institute for Cancer Research](https://oicr.on.ca/), [Galaxy Australia](https://usegalaxy.org.au/) / [Australian BioCommons](https://www.biocommons.org.au/) | 804 |
+| July 17-26, 2020 | [BCC2020](https://bcc2020.github.io/) | Online, Global | [Ontario Institute for Cancer Research](https://oicr.on.ca/), [Galaxy Australia](https://usegalaxy.org.au/) / [Australian BioCommons](https://www.biocommons.org.au/) | 804 |
 | July 1-6, 2019 | [GCC2019](https://galaxyproject.org/gcc2019) | Freiburg, Germany | [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/) | 231 |
 | June 25-30, 2018 | [GCCBOSC 2018](https://gccbosc2018.sched.com/) | Portland, Oregon, United States | [Oregon Health & Science University](https://www.ohsu.edu/) | 306 |
 | June 26-30, 2017 | [GCC2017](https://gcc2017.sciencesconf.org/) | Montpellier, France | [IFB](http://www.france-bioinformatique.fr/), [CNRS](http://www.cnrs.fr/index.php), [INRA](http://www.inra.fr/en), [Inria](http://www.inria.fr/en/), [INSERM](http://english.inserm.fr/), [CEA](http://english.cea.fr/english-portal), [CIRAD](http://www.cirad.fr/en/home-page), [IRD](https://en.ird.fr/ird.fr), [Montpellier Events](http://www.montpellier-events.com/en) | 205 |
