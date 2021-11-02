@@ -421,5 +421,3 @@ Theodora run a workshop in the Training School on Microbiome Sequencing and Data
 BeYond-COVID is a new Horizon Europe project that will tackle the data challenges that can hinder effective pandemic response.
 
 </div>
-
-</div>
