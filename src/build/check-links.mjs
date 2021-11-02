@@ -127,11 +127,14 @@ const siteChecker = new blc.SiteChecker(options, {
             Fires at the very end of site procsesing.  All there is to do now is
             close out the markdown report and write it out.
         */
-        fs.writeFileSync(
-            outputFile,
+        const output =
             outTemplate(customData.summary.pages, customData.summary.total, customData.summary.broken) +
-                customData.markdownReport
-        );
+            customData.markdownReport;
+        fs.writeFileSync(outputFile, output);
+        if (customData.summary.broken > 0) {
+            console.log(output);
+            process.exitCode = 1;
+        }
     },
     // Unused hooks
     /* eslint-disable no-unused-vars */
