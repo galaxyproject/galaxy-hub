@@ -248,7 +248,7 @@ Single-cell workshop in Spanish. [Register now!](https://openuniversity.onlinesu
  
 <div class="card-header trim-p">
 
-[FROGS: tools for bioinformatics and statistics analyses with amplicon metagenomics data]([/events/2021-11-papercuts/](http://bioinfo.genotoul.fr/index.php/events/metagenomic-amplicons-and-stats-with-frogs/))
+[FROGS: tools for bioinformatics and statistics analyses with amplicon metagenomics data](http://bioinfo.genotoul.fr/index.php/events/metagenomic-amplicons-and-stats-with-frogs/)
 
 </div>
 
