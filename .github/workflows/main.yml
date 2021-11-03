@@ -23,6 +23,8 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install project dependencies
         run: yarn --prefer-offline
+      - name: Jest Tests
+        run: yarn jest
       - name: Build static site
         run: yarn build
       - name: Serve and Check Links
