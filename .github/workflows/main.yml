@@ -32,18 +32,17 @@ jobs:
         # through a single node process
         run: yarn run serve & (sleep 5 && yarn run links:internal)
       - name: Cypress run
-        if: always()
         uses: cypress-io/github-action@v2
         with:
           start: yarn serve
           wait-on: "http://localhost:8080"
-      - uses: actions/upload-artifact@v1
-        if: failure()
+      - uses: actions/upload-artifact@v2
         with:
           name: cypress-screenshots
           path: cypress/screenshots
-      - uses: actions/upload-artifact@v1
-        if: always()
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v2
         with:
           name: cypress-videos
           path: cypress/videos
+          if-no-files-found: ignore
