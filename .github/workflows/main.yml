@@ -29,13 +29,6 @@ jobs:
         # Looks weird, but this works significantly better than running it
         # through a single node process
         run: yarn run serve & (sleep 5 && yarn run links:internal)
-      - name: Create Issue From File
-        uses: peter-evans/create-issue-from-file@v3
-        with:
-          issue-number: 860
-          title: Internal Link Checker Report (updated daily)
-          content-filepath: ./broken-links.md
-          labels: report, automated issue
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
