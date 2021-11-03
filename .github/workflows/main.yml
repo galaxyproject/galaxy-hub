@@ -30,6 +30,7 @@ jobs:
         # through a single node process
         run: yarn run serve & (sleep 5 && yarn run links:internal)
       - name: Cypress run
+        if: always()
         uses: cypress-io/github-action@v2
         with:
           start: yarn serve
