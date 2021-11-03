@@ -1,10 +1,12 @@
-name: Cypress Tests
-on: pull_request
+name: PR Tests
+on: 
+  pull_request:
+  workflow_dispatch:
 concurrency:
-  group: cypress-${{ github.head_ref }}
+  group: primary-tests-${{ github.head_ref }}
   cancel-in-progress: true
 jobs:
-  cypress-run:
+  build-and-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -13,7 +15,7 @@ jobs:
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
       - uses: actions/cache@v1
-        id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+        id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
@@ -21,19 +23,26 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install project dependencies
         run: yarn --prefer-offline
+      - name: Jest Tests
+        run: yarn jest
+      - name: Build static site
+        run: yarn build
+      - name: Serve and Check Links
+        # Looks weird, but this works significantly better than running it
+        # through a single node process
+        run: yarn run serve & (sleep 5 && yarn run links:internal)
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          build: yarn build
           start: yarn serve
           wait-on: "http://localhost:8080"
-      - uses: actions/upload-artifact@v1
-        if: failure()
+      - uses: actions/upload-artifact@v2
         with:
           name: cypress-screenshots
           path: cypress/screenshots
-      - uses: actions/upload-artifact@v1
-        if: always()
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v2
         with:
           name: cypress-videos
           path: cypress/videos
+          if-no-files-found: ignore

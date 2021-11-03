@@ -28,13 +28,13 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 
 ### 2022
 
-* [2022-02-17: TBD](events/2022-02-17-dev-roundtable/)
+* [2022-02-17: TBD](/events/2022-02-17-dev-roundtable/)
   * Leaders: 
-* [2022-02-03: TBD](events/2022-02-03-dev-roundtable/)
+* [2022-02-03: TBD](/events/2022-02-03-dev-roundtable/)
   * Leaders: 
-* [2022-01-20: TBD](events/2022-01-20-dev-roundtable/)
+* [2022-01-20: TBD](/events/2022-01-20-dev-roundtable/)
   * Leaders: 
-* [2022-01-06: TBD](events/2022-01-06-dev-roundtable/)
+* [2022-01-06: TBD](/events/2022-01-06-dev-roundtable/)
   * Leaders: 
 
 
