@@ -5,7 +5,7 @@ import remarkStringify from "remark-stringify";
 const QUOTE_MAP = { '"': "'", "'": '"' };
 const remarkCompiler = unified().use(remarkStringify);
 
-export default function unescapeLink(node, parent, context) {
+export function unescapeLink(node, parent, context) {
     /** Custom handler for Link mdast nodes. This prevents special characters like `&` and `_` from being escaped in
      * link urls.
      */
@@ -54,10 +54,25 @@ export default function unescapeLink(node, parent, context) {
     return `[${childrenStr}](${node.url}${titleStr})`;
 }
 
-function isAutolink(node) {
+export function isAutolink(node) {
+    // Autolinks have only a simple text node as their only child.
     if (!(node.children.length === 1 && node.children[0].type === "text")) {
         return false;
     }
     let text = node.children[0].value;
-    return text === node.url;
+    // Their `url` field is the same as the value of their child text node.
+    if (text !== node.url) {
+        return false;
+    }
+    // The url must be absolute (containing a scheme).
+    let parts = node.url.split(":");
+    if (parts.length < 2 || !parts[1]) {
+        return false;
+    }
+    // But the scheme can't contain a slash. This excludes urls which are actually relative paths with a colon in them.
+    let scheme = parts[0];
+    if (scheme.includes("/")) {
+        return false;
+    }
+    return true;
 }
