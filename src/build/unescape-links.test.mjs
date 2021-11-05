@@ -1,7 +1,10 @@
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import remarkStringify from "remark-stringify";
-import unescapeLink from "./unescape-links.mjs";
+import { unescapeLink, isAutolink } from "./unescape-links.mjs";
+
+
+// unescapeLink()
 
 const UNALTERED_LINKS = [
     "[Google](https://google.com/search?channel=fs&q=query)",
@@ -33,5 +36,31 @@ test("Unescape links", () => {
         let tree = processor.parse(input);
         let result = processor.stringify(tree);
         expect(result).toBe(expectedValue + "\n");
+    }
+});
+
+
+// isAutolink()
+
+const POSSIBLE_AUTOLINKS = {
+    "https://google.com": true,
+    "http://google.org/full/path/with:colon": true,
+    "mailto:person@email.com": true,
+    "ftp:server.com": true,
+    "localhost:8080/path?query=string&lang=en": true,
+    "made-up-scheme://foo,bar": true,
+    "relative/path": false,
+    "/absolute/path": false,
+    "path/with:colon": false,
+};
+test("Autolink detection", () => {
+    let link = {
+        type: "link",
+        children: [ { type: "text" } ]
+    }
+    for (let [url, expectedResult] of Object.entries(POSSIBLE_AUTOLINKS)) {
+        link.url = url;
+        link.children[0].value = url;
+        expect(isAutolink(link)).toBe(expectedResult);
     }
 });
