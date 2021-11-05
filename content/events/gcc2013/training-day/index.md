@@ -12,9 +12,7 @@ The [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/) will start on
 Workshops will be hands-on and participants will be strongly encouraged to bring a laptop and follow along.
 
 
-<br />
 # Registration
-
 
 You [register](/events/gcc2013/register/) for the Training Day (and specify which sessions you will attend) when you register for the conference.  You can register for the Training Day and the main meeting, or just the Training Day. 
 
@@ -133,7 +131,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Links </th>
-    <td style=" vertical-align: top; background-color: #cceeff;"> <a href=''https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/GCC_2013_intro_workshop.pdf'>Slides</a> </td>
+    <td style=" vertical-align: top; background-color: #cceeff;"> <a href='https://depot.galaxyproject.org/hub/attachments/events/gcc2013/training-day/GCC_2013_intro_workshop.pdf'>Slides</a> </td>
     <td> </td>
   </tr>
 </table>

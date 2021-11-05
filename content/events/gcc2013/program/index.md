@@ -16,7 +16,7 @@ The [GCC2013 Training Day](/events/gcc2013/training-day/) will be Sunday, 30 Jun
 
 Workshops will be hands-on and participants will be strongly encouraged to bring a laptop and follow along.
 
-<div class='center'><br /><span style="font-size: larger;">**Day 0: Learning Galaxy**</span><br /></div>
+### Day 0: Learning Galaxy
 
 <table class="table">
   <tr class="th" >
@@ -92,11 +92,11 @@ The [Escape Pub](http://cyb.ifi.uio.no/kjeller/), in the Ole Johan Dahls House (
 
 <br /><br />
 
-# Day 1: Main Meeting, 1 July
+## Day 1: Main Meeting, 1 July
 
 The first day of the conference will feature [accepted talks](/events/gcc2013/abstracts/talks/) and [posters](/events/gcc2013/abstracts/posters/) with a biology and bioinformatics emphasis.  The first day will include a [lightning talk session](/events/gcc2013/lightning/).
 
-<div class='center'><br /><span style="font-size: larger;">**Day 1: Using Galaxy for genomics research**</span><br /></div>
+### Day 1: Using Galaxy for genomics research
 
 <table class="table">
   <tr class="th" >
@@ -271,11 +271,11 @@ The [Escape Pub](http://cyb.ifi.uio.no/kjeller/), in the Ole Johan Dahls House (
 
 <br /><br />
 
-# Day 2: Main Meeting, 2 July
+## Day 2: Main Meeting, 2 July
 
 The second and final day of the conference will feature  [accepted talks](/events/gcc2013/abstracts/talks/#talk-abstracts) and [posters](/events/gcc2013/abstracts/posters/) with a bioinformatics and informatics emphasis.  The second day will have a [lightning talk session](/events/gcc2013/lightning/), and the conference dinner
 
-<div class='center'><br /><span style="font-size: larger;">**Day 2: Extending and customizing the Galaxy system**</span><br /></div>
+### Day 2: Extending and customizing the Galaxy system
 
 <table class="table">
   <tr class="th" >

@@ -1,4 +1,4 @@
-<div class="alert alert-info float-right text-center">
+<div class="alert alert-info float-right text-center trim-p">
 
 [**GCC2014**](/events/gcc2014/)  
 [Training](/events/gcc2014/training-day)  

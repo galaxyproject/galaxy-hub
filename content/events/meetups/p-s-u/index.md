@@ -1,9 +1,8 @@
 ---
 title: Home of Penn State Community Galaxy Project Meetups!
 ---
-<div class='center'><img src="/events/meetups/p-s-u/PSUMeetupLogo600.png" alt="Galaxy Meetup @ Penn State" width="400" /></div>
 
-
+![Galaxy Meetup @ Penn State](./PSUMeetupLogo600.png)
 
 Come meet at one of the Galaxy Project hubs - Penn State University - for general discussions and training about Galaxy in an informal setting. These are open to anyone interested in data analysis, tools, computer infrastructure, programming - regardless if it is introductory or advanced.
 

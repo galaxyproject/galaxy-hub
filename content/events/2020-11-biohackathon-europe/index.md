@@ -13,10 +13,12 @@ contact: "Project organizers"
 tags: [ cofest ]
 ---
 
-<div class="float-right">
-[<img style="max-width: 160px" src="/images/logos/bioconda.png" alt="Bioconda" />](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/31)<br /><br />
-[<img style="max-width: 160px" src="/images/logos/bhlogo.png" alt="BioHackathon-Europe 2019" />](https://www.biohackathon-europe.org/index.html)<br />
-[<img style="max-width: 160px" src="/images/logos/cwl-logo-small-trans.png" alt="CWL" />](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/3)<br />
+<div class="float-right" style="max-width: 160px">
+
+[![Bioconda](/images/logos/bioconda.png)](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/31)  
+[![BioHackathon-Europe 2019](/images/logos/bhlogo.png)](https://www.biohackathon-europe.org/index.html)  
+[![CWL](/images/logos/cwl-logo-small-trans.png)](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/3)
+
 </div>
 
 Galaxy will be featured at [BioHackathon-Europe 2020](https://www.biohackathon-europe.org/index.html) as a prominent part of many of [this year's selected projects](https://www.biohackathon-europe.org/projects):
