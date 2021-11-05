@@ -3,8 +3,6 @@ title: Birds of a Feather (BoF) Flock Together at GCC2013
 ---
 <slot name="/events/gcc2013/header" />
 
-
-
 <slot name="/events/gcc2013/linkbox" />
 <slot name="/events/gcc2013/bof/linkbox" />
 
@@ -19,7 +17,6 @@ BoF meetups are encouraged throughout GCC2013.  We particularly want to encourag
 * at [the Escape Pub](/events/gcc2013/program/#escape-to-the-pub) after each of the first two days.
 
 See the [list of scheduled BoFs](/events/gcc2013/bof/#bof-schedule) below.
-
 
 
 ## Planned BoFs

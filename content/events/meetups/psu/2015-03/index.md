@@ -1,9 +1,8 @@
 ---
 title: March 2015 Penn State Using Galaxy Workshop
 ---
-<div class='center'><img src="/events/meetups/p-s-u/PSUMeetupLogo600.png" alt="Galaxy Meetup @ Penn State" width="400" /></div>
 
-
+![Galaxy Meetup @ Penn State](/events/meetups/p-s-u/PSUMeetupLogo600.png)
 
 Hey Everyone,
 
@@ -18,7 +17,7 @@ Thanks and hope to see you there!
 * **Mar 17 (Tuesday) only**
   * **4PM to 7PM**
   * **W203 Millennium Science Complex**
-  * ~~Based on your interest collected in the form linked below we will select the more popular or both of the terms and let you know via email.~~
+  * <del>Based on your interest collected in the form linked below we will select the more popular or both of the terms and let you know via email.</del>
 * Refreshments and snacks will be available.
 
 ### Where
