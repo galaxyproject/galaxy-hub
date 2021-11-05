@@ -2,6 +2,7 @@
 title: 'April 2021 Galactic News'
 tease: "GCC2021 Abstracts and Registration are open, plus lots more."
 date: "2021-04-12"
+autotoc: false
 ---
 
 <a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -59,8 +60,12 @@ Thank you all in advance and please feel free to invite other friends of James t
 
 <!-- James -->
 <div class="card border-info" style="min-width: 10rem; max-width: 100%">
-<img class="card-img-top" src="/jxtx/james-at-gcc2019-stripe.jpg" alt="James Taylor" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![James Taylor](./james-at-gcc2019-stripe.jpg)
+
+</div>
+<div class="card-header trim-p">
 
 [A note to James, one year after his passing](/jxtx/)
 
@@ -84,7 +89,7 @@ and then goes on to describe the community's progress and perseverance over the 
 <!-- GCC2021 -->
 <div class="card border-info" style="min-width: 50%; max-width: 100%;">
 <img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GCC2021 Update](https://www.vibconferences.be/events/gcc2021)
 
@@ -104,7 +109,7 @@ We will reuse the BCC2020 model for talks, posters, and demos: __posters and dem
 <!-- Registration -->
 <div class="card border-info" style="min-width: 10rem; max-width: 100%;">
 <img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GCC2021 Registration Open](https://www.vibconferences.be/events/gcc2021-virtual-edition)
 
@@ -121,7 +126,7 @@ Registering before __May 24__ saves 50% off of the full rates. Registration disc
 <!-- Fellowships -->
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GCC2021 Fellowships](https://docs.google.com/forms/d/e/1FAIpQLSfyqKg87x8wL1EhOfrGR0SlQui8wEkQgg3qVFi6txO6GmHgKg/viewform)
 
@@ -139,7 +144,7 @@ It will cover the full registration for any GCC2021 events. [Apply here](https:/
 <!-- Abstracts -->
 <div class="card border-info" style="min-width: 20%; max-width: 100%;">
 <img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GCC2021 Abstracts Submission Open](https://www.vibconferences.be/events/gcc2021-virtual-edition)
 
@@ -155,8 +160,12 @@ GCC2021 is seeking oral presentations, lightning talks, posters, and demos, from
 
 <!-- GSoC -->
 <div class="card border-info"  style="min-width: 20%; max-width: 55%">
-<img class="card-img-top" src="/develop/gsoc/ogi-gsoc-3-suns.png" alt="Open Genome Informatics" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![Open Genome Informatics](/develop/gsoc/ogi-gsoc-3-suns.png)
+
+</div>
+<div class="card-header trim-p">
 
 [Galaxy Participating in Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6022098314592256/)
 
@@ -167,9 +176,7 @@ The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Gal
 Interested?  Please review the [Galaxy project proposals](http://gmod.org/wiki/GSOC_Project_Ideas_2021) **and apply to GSoC by April 12.**  Questions? Please contact the mentor(s) for each proposal.
 </div>
 
-
 </div>
-
 
 
 # Event News
@@ -180,8 +187,12 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 
 <!-- Galaxy @ ISMB? -->
 <div class="card border-info" style="min-width: 18rem; max-width: 100%">
-<img class="card-img-top" src="/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png" alt="Galaxy @ ISMB/ECCB & BOSC ?" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![Galaxy @ ISMB/ECCB & BOSC ?](/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png)
+
+</div>
+<div class="card-header trim-p">
 
 [ISMB/ECCB/BOSC Deadlines](https://www.iscb.org/ismbeccb2021)
 
@@ -201,8 +212,12 @@ Most of these are accepting talk and poster submissions through the [ISMB/ECCB w
 
 <!-- Webinars -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
-<img class="card-img-top" src="/events/webinars/gr4-webinars-400.png" alt="Galaxy Resources for You Webinars" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![Galaxy Resources for You Webinars](/events/webinars/gr4-webinars-400.png)
+
+</div>
+<div class="card-header trim-p">
 
 [Webinars](/events/webinars/)
 
@@ -210,7 +225,7 @@ Most of these are accepting talk and poster submissions through the [ISMB/ECCB w
 
 Our next webinar series will focus on Galaxy resources for several different communities.  Webinars are held every other Wednesday at 10:00 Eastern US / 16:00 Central European time.  The first two webinars are:
 
-**[Galaxy Resources for Researchers](/events/2021-04-gr4-researchers/), April ~~14~~ 21** (postponed one week)
+**[Galaxy Resources for Researchers](/events/2021-04-gr4-researchers/), April <del>14</del> 21** (postponed one week)
 
 **[Galaxy Resources for Educators and Trainers](/events/2021-04-gr4-education/), April 28**
 
@@ -228,7 +243,11 @@ In addition, there are two more webinars this month:
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 10rem; max-width:  100%;">
 <img class="card-img-top" src="/images/galaxy-logos/papercuts.png" alt="Papercuts CoFest" />
-<div class="card-header">[April Papercuts CoFest](/events/2021-04-papercuts/)</div>
+<div class="card-header trim-p">
+
+[April Papercuts CoFest](/events/2021-04-papercuts/)
+
+</div>
 
 **15 April, Online, Global**
 
@@ -241,8 +260,12 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 
 <!-- UseGalaxy.No -->
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<img class="card-img-top" src="/use/usegalaxy-no/usegalaxy-no-logo-600.jpg" alt="UseGalaxy.NO" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![UseGalaxy.NO](/use/usegalaxy-no/usegalaxy-no-logo-600.jpg)
+
+</div>
+<div class="card-header trim-p">
 
 [Using the Norwegian e-infrastructure for Life Science and usegalaxy.no](https://elixir.no/news/55/63/Online-course-by-ELIXIR-Norway-Using-the-Norwegian-e-infrastructure-for-Life-Science-and-usegalaxy.no)
 
@@ -257,7 +280,7 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy Developer Roundtable](/community/devroundtable/)
 
@@ -265,7 +288,7 @@ ELIXIR Norway is pleased to announce the first online course on using the [Norwe
 
 The next roundtable meetups will be:
 
-~~April 15: TBD~~
+<del>April 15: TBD</del>
 
 **[April 29: Scalability and Challenges](/events/2021-04-29-dev-roundtable/)**, led by Aysam Guerler
 
@@ -277,7 +300,7 @@ That is, *they will be [if anyone volunteers to lead discussions on topics of in
 <!-- Plant genomics: chloroplast genome assembly using Galaxy Australia -->
 <div class="card border-info" style="min-width: 10rem; max-width:  100%;">
 <img class="card-img-top" src="/images/galaxy-logos/galaxy-australia.png" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Plant genomics: chloroplast genome assembly using Galaxy Australia](https://www.biocommons.org.au/events/plant-genomics-galaxy)
 
@@ -294,8 +317,12 @@ Step through genome assembly using chloroplast sequencing data and the Galaxy Au
 
 <!-- Plant Transcriptomics workshop -->
 <div class="card border-info" style="min-width: 16rem; max-width:  100%;">
-<img class="card-img-top" src="plant_transcriptomics_workshop.png" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![](./plant_transcriptomics_workshop.png)
+
+</div>
+<div class="card-header trim-p">
 
 [Plant Transcriptome Analysis using Galaxy](/events/2021-04-plant-transcriptome)
 
@@ -313,7 +340,7 @@ The purpose of this workshop is to gain knowledge on Next Generation Sequencing 
 <!-- Analyse avancée de séquences -->
 <div class="card border-info" style="min-width: 10rem; max-width:  50%;">
 <img class="card-img-top" src="/images/logos/CGFB_bioinformatics.png" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Analyse avancée de séquences](https://cnrsformation.cnrs.fr/analyse-avancee-sequences)
 
@@ -339,8 +366,12 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <!-- IPK BLAST -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
-<img class="card-img-top" src="/use/ipk-blast/consortia.png" alt="IPK Blast Consortia" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![IPK Blast Consortia](/use/ipk-blast/consortia.png)
+
+</div>
+<div class="card-header trim-p">
 
 [IPK Blast](/use/ipk-blast/)
 
@@ -353,7 +384,7 @@ The [IPK Galaxy Blast Suite](https://galaxy-web.ipk-gatersleben.de) is part of t
 
 <!-- Human Cell Atlas -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Single-cell RNAseq analysis made easy](https://www.ebi.ac.uk/about/news/announcements/SCiAp)
 
@@ -368,7 +399,7 @@ The [IPK Galaxy Blast Suite](https://galaxy-web.ipk-gatersleben.de) is part of t
 <!-- Australia Job 2M -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
 <img class="card-img-top" src="/images/logos/australian-biocommons-logo-horizontal-transparent.png" alt="Australian BioCommons" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Better plant quarantine enabled by Galaxy Australia’s two millionth job](https://www.biocommons.org.au/news/galaxy-au-two-millionth-job)
 
@@ -381,7 +412,9 @@ We asked the submitter for some background on what research they were doing. We 
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
-<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
+<div class="card-header trim-p">
+
+[UseGalaxy.*](/usegalaxy/) News</div>
 
 <img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
@@ -402,7 +435,7 @@ We asked the submitter for some background on what research they were doing. We 
 
 <!-- Tips and Tricks -->
 <div class="card border-info" style="min-width: 20%; max-width: 100%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Tips and Tricks for Galaxy](https://thewoods.blog/Galaxy-tips/)
 
@@ -412,7 +445,8 @@ By [Nolan Woods](https://www.linkedin.com/in/nolan-woods)
 
 Tips for collections, mapping, AWK, flow control, writing tool wrappers, and more.
 
-<img class="card-img-bottom" src="/blog/2021-03-tips-and-tricks/conditional-flow-control.png" alt="Flow Control: Conditional" />
+![Flow Control: Conditional](/blog/2021-03-tips-and-tricks/conditional-flow-control.png)
+
 </div>
 
 
@@ -430,7 +464,8 @@ We heard from a lot [Training Infrastructure as a Service (TIaaS)](https://galax
 
 TIaaS is coming to both UseGalaxy.org and UseGalaxy.org.au.  Watch this space for updates.
 
-<img class="card-img-bottom" src="/images/logos/tiaas-logo.png" alt="TIaaS" />
+![TIaaS](/images/logos/tiaas-logo.png)
+
 </div>
 
 
@@ -443,7 +478,7 @@ TIaaS is coming to both UseGalaxy.org and UseGalaxy.org.au.  Watch this space fo
 
 <!-- Single cell  -->
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Filter, Plot and Explore Single-cell RNA-seq Data](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/scrna-seq-basic-pipeline/tutorial.html)
 
@@ -453,14 +488,19 @@ By [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fa
 
 Fully process single-cell data, remove low quality cells, reduce the many dimensions of data that make it difficult to work with, and ultimately define clusters and find biological meaning and insights! 
 
-<img class="card-img-bottom" src="gtn-single-cell.jpg" alt="Figure 12: Appearance is everything" />
+![Figure 12: Appearance is everything](./gtn-single-cell.jpg)
+
 </div>
 
 
 <!-- Workflow Hub -->
 <div class="card border-info" style="min-width: 290px; max-width: 290px;">
 <iframe width="290" height="180" src="https://www.youtube.com/embed/eU1753h6NIs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div class="card-header">[How to import a workflow from the Workflow Hub and run it on remote COVID-19 data](https://galaxyproject.eu/posts/2021/03/25/wfh-video/)</div>
+<div class="card-header trim-p">
+
+[How to import a workflow from the Workflow Hub and run it on remote COVID-19 data](https://galaxyproject.eu/posts/2021/03/25/wfh-video/)
+
+</div>
 
 Thanks to a great Collaboration between the Galaxy Community, [Dockstore](https://dockstore.org/) and the [Workflow Hub](https://workflowhub.eu/),
 it is possible to import a
@@ -471,7 +511,11 @@ workflow directly into Galaxy and run it. This is using the [GH4GH](https://www.
 
 <!-- Galaxy-ELIXIR webinar series -->
 <div class="card border-info" style="min-width: 14rem; max-width: 100%;">
-<div class="card-header">[Recordings of the Galaxy-ELIXIR webinar series: Advanced features](https://galaxyproject.eu/posts/2021/03/25/elixir-webinar-series-advanced-features/)</div>
+<div class="card-header trim-p">
+
+[Recordings of the Galaxy-ELIXIR webinar series: Advanced features](https://galaxyproject.eu/posts/2021/03/25/elixir-webinar-series-advanced-features/)
+
+</div>
 
 Four weeks of webinars are now over. In these four sessions, the Galaxy community gave an excellent overview of recent features in Galaxy that may have remained unknown to many users, due to the rapid developments in this very large and very active community.
 
@@ -483,8 +527,12 @@ If you missed them, the recordings are now available on the [ELIXIR Europe YouTu
 
 <!-- Genome assembly of a MRSA genome  -->
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<img class="card-img-top" src="gtn-bandage-illumina.jpg" alt="Assembly graph" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![Assembly graph](./gtn-bandage-illumina.jpg)
+
+</div>
+<div class="card-header trim-p">
 
 [Genome assembly of a MRSA genome](https://training.galaxyproject.org/training-material/news/2021/03/24/tutorial_assembly_mrsa.html)
 
@@ -498,8 +546,12 @@ Two new assembly tutorials have been added to the GTN. In one, you [perform this
 
 <!-- Downstream Single-cell RNA Plant analysis with ScanPy  -->
 <div class="card border-info" style="min-width: 13rem; max-width: 100%;">
-<img class="card-img-top" src="gtn-scrna-stripe.png" alt="scRNA" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![scRNA](./gtn-scrna-stripe.png)
+
+</div>
+<div class="card-header trim-p">
 
 [Downstream Single-cell RNA Plant analysis with ScanPy](https://training.galaxyproject.org/training-material/news/2021/03/30/tutorial_scrna_plant.html)
 
@@ -515,7 +567,7 @@ Single cell RNA-seq analysis provides a great level of detail in understanding t
 <!-- Object tracking using CellProfiler   -->
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <img class="card-img-top" src="https://training.galaxyproject.org/training-material/topics/imaging/images/object-tracking-using-cell-profiler/Dividing_nuclei.gif" alt="CellProfiler" />
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Object tracking using CellProfiler](https://training.galaxyproject.org/training-material/news/2021/03/18/tutorial_imaging_cell_profiler.html)
 
@@ -528,7 +580,7 @@ This tutorial tracks dividing nuclei in a short time-lapse recording of one mito
 
 <!-- Whole transcriptome analysis of Arabidopsis thaliana  -->
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Whole transcriptome analysis of Arabidopsis thaliana](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/mirna-target-finder/tutorial.html)
 
@@ -545,8 +597,12 @@ This tutorial details the necessary steps to identify potential targets of brass
 
 <!-- FAQs  -->
 <div class="card border-info" style="min-width: 12rem; max-width: 24rem;">
-<img class="card-img-top" src="gtn-faq.jpg" alt="GTN FAQ Page" />
-<div class="card-header">
+<div class="card-img-top trim-p">
+
+![GTN FAQ Page](./gtn-faq.jpg)
+
+</div>
+<div class="card-header trim-p">
 
 [GTN has FAQs!](https://training.galaxyproject.org/training-material/news/2021/03/24/faqs.html)
 
@@ -565,7 +621,7 @@ Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Fast and accurate genome-wide predictions and structural modeling of protein-protein interactions using Galaxy](https://doi.org/10.1101/2021.03.17.435706)
 
@@ -577,7 +633,7 @@ Guerler, A., Baker, D., Beek, M. van den, Bouvier, D., Coraor, N., Schatz, M. C.
 
 
 <div class="card border-info" style="min-width: 15rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Freely accessible ready to use global infrastructure for SARS-CoV-2 monitoring](https://doi.org/10.1101/2021.03.25.437046)
 
@@ -588,7 +644,7 @@ Maier, W., Bray, S., Beek, M. van den, Bouvier, D., Coraor, N., Miladi, M., Sing
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Bioinformatics tools developed to support BioCompute Objects](https://doi.org/10.1093/database/baab008)
 
@@ -600,7 +656,7 @@ Patel, J. A., Dean, D. A., King, C. H., Xiao, N., Koc, S., Minina, E., Golikov, 
 
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [JBrowse Connect: A server API to connect JBrowse instances and users](https://doi.org/10.1371/journal.pcbi.1007261)
 
@@ -612,7 +668,7 @@ Yao, E., Buels, R., Stein, L., Sen, T. Z., & Holmes, I. (2020). *PLOS Computatio
 
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [INO80C Remodeler Maintains Genomic Stability by Preventing Promiscuous Transcription at Replication Origins](https://doi.org/10.1016/j.celrep.2020.108106)
 
@@ -624,7 +680,7 @@ Topal, S., Van, C., Xue, Y., Carey, M. F., & Peterson, C. L. (2020). *Cell Repor
 
 
 <div class="card border-info" style="min-width: 10rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Intuitive, reproducible high-throughput molecular dynamics in Galaxy: A tutorial](https://doi.org/10.1186/s13321-020-00451-6)
 
@@ -636,7 +692,7 @@ Bray, S. A., Senapathi, T., Barnett, C. B., & Grüning, B. A. (2020). *Journal o
 
 
 <div class="card border-info" style="min-width: 12rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Investigating RNF43 Mutations as Biomarkers for ctDNA Surveillance of Colorectal Cancer](https://ourarchive.otago.ac.nz/handle/10523/10560)
 
