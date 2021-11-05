@@ -3,7 +3,6 @@ import remarkParse from "remark-parse";
 import remarkStringify from "remark-stringify";
 import { unescapeLink, isAutolink } from "./unescape-links.mjs";
 
-
 // unescapeLink()
 
 const UNALTERED_LINKS = [
@@ -39,7 +38,6 @@ test("Unescape links", () => {
     }
 });
 
-
 // isAutolink()
 
 const POSSIBLE_AUTOLINKS = {
@@ -56,8 +54,8 @@ const POSSIBLE_AUTOLINKS = {
 test("Autolink detection", () => {
     let link = {
         type: "link",
-        children: [ { type: "text" } ]
-    }
+        children: [{ type: "text" }],
+    };
     for (let [url, expectedResult] of Object.entries(POSSIBLE_AUTOLINKS)) {
         link.url = url;
         link.children[0].value = url;

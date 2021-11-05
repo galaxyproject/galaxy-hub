@@ -66,7 +66,7 @@ export function isAutolink(node) {
     }
     // The url must be absolute (containing a scheme).
     let parts = node.url.split(":");
-    if (parts.length < 2 || ! parts[1]) {
+    if (parts.length < 2 || !parts[1]) {
         return false;
     }
     // But the scheme can't contain a slash. This excludes urls which are actually relative paths with a colon in them.
