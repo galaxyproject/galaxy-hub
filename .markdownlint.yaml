@@ -1,4 +1,7 @@
 ---
+# Copied from gridsome's website markdownlint configuration.  We'll want to
+# figure out what of this we want to fix or relax.
+
 # line-length
 # Markdown files don't need to observe a line length limit.
 MD013: false
