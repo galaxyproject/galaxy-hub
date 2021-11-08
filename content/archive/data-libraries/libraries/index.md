@@ -1,6 +1,4 @@
-1. 
-  1. page was renamed from Admin/Data Libraries/Libraries 
-
+1. page was renamed from Admin/Data Libraries/Libraries
 2. format text/creole 
 
 # Data Libraries

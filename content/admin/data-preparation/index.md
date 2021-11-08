@@ -99,7 +99,7 @@ Build names need to exactly match existing build names in `$GALAXY_PATH/tool-dat
 
 The following table shows the name of the loc file associated with each tool. 
 
-<table>
+<table class="compact">
   <tr>
     <th> Tool      </th>
     <th> XML File                                                    </th>
