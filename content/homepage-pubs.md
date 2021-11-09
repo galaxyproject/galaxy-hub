@@ -3,6 +3,9 @@ title: Recent Pubs
 link: https://www.zotero.org/groups/galaxy
 icon: fas fa-book-open
 items:
+- title: "Laniakea@ReCaS: Exploring the potential of customisable Galaxy on-demand instances as a cloud-based service"
+  link: https://doi.org/10.1186/s12859-021-04401-3
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1186/s12859-021-04401-3'></span> Tangaro, M. A., Mandreoli, P., Chiara, M., Donvito, G., Antonacci, M., Parisi, A., Bianco, A., Romano, A., Bianchi, D. M., Cangelosi, D., Uva, P., Molineris, I., Nosi, V., Calogero, R. A., Alessandri, L., Pedrini, E., Mordenti, M., Bonetti, E., Sangiorgi, L., … Zambelli, F. (2021). <em>BMC Bioinformatics</em>, 22(15), 544."
 - title: Expanding the Galaxy’s reference data
   link: https://doi.org/10.1101/2020.10.09.327114
   tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1101/2020.10.09.327114'></span> VijayKrishna, N., Joshi, J., Coraor, N., Hillman-Jackson, J., Bouvier, D., Beek, M. van den, Eguinoa, I., Coppens, F., Golitsynskiy, S., Stolarczyk, M., Sheffield, N. C., Gladman, S., Cuccuru, G., Grüning, B., Soranzo, N., Rasche, H., Langhorst, B. W., Bernt, M., Fornika, D., … Blankenberg, D. (2021). <em>BioRxiv</em>, 2020.10.09.327114."
@@ -15,7 +18,4 @@ items:
 - title: A SARS-CoV-2 sequence submission tool for the European Nucleotide Archive
   link: https://doi.org/10.1093/bioinformatics/btab421
   tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1093/bioinformatics/btab421'></span> Roncoroni, M., Droesbeke, B., Eguinoa, I., De Ruyck, K., D’Anna, F., Yusuf, D., Grüning, B., Backofen, R., &amp; Coppens, F. (2021). <em>Bioinformatics</em>, btab421."
-- title: "Galaxy-ML: An accessible, reproducible, and scalable machine learning toolkit for biomedicine"
-  link: https://doi.org/10.1371/journal.pcbi.1009014
-  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1371/journal.pcbi.1009014'></span> Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning, B., &amp; Goecks, J. (2021). <em>PLOS Computational Biology</em>, 17(6), e1009014."
 ---
