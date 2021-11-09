@@ -44,8 +44,8 @@ Every other Thursday at Noon ET (4pm UTC) as long as there are one or more prese
 * **[2021-12-09: Using traefik to bridge cloud and local setups](/events/2021-12-09-dev-roundtable/)**
   * Leaders: Marius van den Beek
 * 2021-11-25: No Meeting
-* **[2021-11-11: Separated data PVC: How it works and potential missed implications](/events/2021-11-11-dev-roundtable/)**
-  * Leaders: Alexandru Mahmoud 
+* **[2021-11-11: Separated data PVC: How it works and potential missed implications; and 21.09 Release Testing](/events/2021-11-11-dev-roundtable/)**
+  * Leaders: Alexandru Mahmoud, Keith Suderman 
 * **[2021-10-28: Image analysis in Galaxy - pain points and lessons learnt](/events/2021-10-28-dev-roundtable/)**
   * Leaders: Yi Sun, Jean-Karim Hériché
 * 2021-10-14: No meeting
