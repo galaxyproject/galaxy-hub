@@ -32,41 +32,40 @@ Microbiome experts and instructors from Galaxy community will teach online cours
 
 All times are [India Standard Time](https://www.timeanddate.com/worldclock/converter.html?iso=20211115T030000&p1=1582).
 
-| Date | Time | Program |
-| --- | :---: | --- |
-| **Nov 15** | 8:30-8:40 AM | **Inauguration** by Dr. Sanjeev Khosla (Director CSIR-IMTech, Chandigarh) |
-| | 8:30-8:40 AM | **Introduction to the online workshop**  - Drs. Pratik Jagtap (University of Minnesota, MN) and Manoj Kumar, (CSIR-IMTech, Chandigarh) |
-| | 8:45-9:00 AM | **Inauguration** by Dr. Sanjeev Khosla (Director CSIR-IMTech, Chandigarh) |
-| | 9:05-10:00 AM | **Inaugural Lecture** by Dr. Robert Hettich (Oak Ridge National Laboratory, Oak Ridge, TN)  on introduction to microbiome research |
-| | 10:05-11:00 AM | **Introduction to Galaxy Video Tutorials**  - Dave Clements (Galaxy Project, Johns Hopkins University) and Pratik Jagtap (Galaxy-P Team, University of Minnesota, MN) |
-| | 11:15&nbsp;AM-3:00&nbsp;PM | **Attendees work on assignments based on the Galaxy video tutorials** |
-| | 3:30-4:30 PM | **Applications within Galaxy** - Dr. Anshu Bhardwaj (CSIR-IMTech, Chandigarh) |
-| | 5:30-6:30 PM | **Ice-Breaker Session** (Interaction amongst attendees) |
-| | 6:30-7:30 PM | **Hands-on session to answer questions** - Subina Mehta (Galaxy-P Team, University of Minnesota, MN) and Saskia Hiltemann (Erasmus University Medical Center, Hague) |
-| **Nov 16** | 8:30-9:00 AM | **Microbiome/Galaxy Kahoot!** |
-| | 9:05-10:00 AM | **Metagenomics Lecture** by Dr. Yogesh Shouche (National Centre for Cell Science, Pune) |
-| | 10:05-11:00 AM | **Introduction to the Metagenomics video tutorials**. Drs. Gareth Price and Igor Makunin (QCIF Facility for Advanced Bioinformatics, St. Lucia, Australia) |
-| | 11:15 AM-3:00 PM | **Attendees work on assignments** based on the metagenomics video tutorials   |
-| | 3:30-4:00 PM | **Vendor Talk** |
-| | 4:30-5:30 PM | **Talk on viral metagenomics** by Dr. Manoj Kumar (CSIR-IMTech, Chandigarh) |
-| | 6:30-7:30 PM | **Hands-on session to answer metagenomics questions** - Berenice Batut (University of Freiburg, Freiburg) and Saskia Hiltemann (Erasmus University Medical Center, Hague) |
-| **Nov 17** | 8:30-9:00 AM | **Metagenomics Kahoot!** |
-| | 9:05-10:00 AM | **Recorded Lecture** by Dr. Berenice Batut (University of Freiburg, Freiburg) |
-| | 10:05-11:00 AM | **Introduction to the Metatranscriptomics video tutorials** - Subina Mehta  and Pratik Jagtap (Galaxy-P Team, University of Minnesota, MN) |
-| | 11:15&nbsp;AM-3:00&nbsp;PM | **Attendees work assignments** based on the metatranscriptomics video tutorials   |
-| | 6:30-7:30 PM | **Hands-on session to answer metatranscriptomics questions** - Subina Mehta (Galaxy-P Team, University of Minnesota, MN) and Saskia Hiltemann (Erasmus University Medical Center, Hague) |
-| **Nov 18** | 8:30-9:00 AM | **Metatranscriptomics Kahoot!** |
-| | 9:05-10:00 AM | **Talk on ocean metaproteomics** by Dr. Brook Nunn (University of Washington, Seattle, WA) |
-| | 10:05-11:00 AM | **Introduction to the Metaproteomics video tutorials** - Pratik Jagtap and Subina Mehta (Galaxy-P Team, University of Minnesota, MN) |
-| | 11:15&nbsp;AM-3:00&nbsp;PM | **Attendees work on the assignments** based on metaproteomics video tutorials  |
-| | 5:30-6:30 PM | **Lecture on meta-omics analysis** - Dr. Paul Wilmes (University of Luxembourg, Luxembourg) |
-| | 6:30-7:30 PM | **Hands-on session to answer metaproteomics questions** - Subina Mehta and Pratik Jagtap (Galaxy-P Team, University of Minnesota, MN)
-| **Nov 19** | 8:30-9:00 AM | **Metaproteomics Kahoot!** |
-| | 10:05-10:30 AM | **Introduction to presentation formats for attendees** - Drs. Timothy Griffin and Pratik Jagtap (Galaxy-P Team, University of Minnesota, MN) |
-| **Nov 22** | 8:30-11:00 AM | **Talks by participants.** |
-| **Nov&nbsp;23** | 8:30-11:00 AM | **Talks by participants.** |
-| **Nov&nbsp;24** | 9:05-10:00 AM | **Concluding Talk** by Dr. Sharmila Mande (Distinguished Chief Scientist, TCS Research, Tata Consultancy Services Ltd.) |
-| | 10:05-11:00 AM | **Results, conclusion and feedback form.** |
+| Date | Time | Program | Platform |
+| --- | :---: | --- | --- |
+| **Nov 15** | 8:30-8:40 AM | **Welcome** by Dr. Manoj Kumar (CSIR-IMTech, Chandigarh) | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| | 8:40-8:50 AM | **Inauguration** by Dr. Sanjeev Khosla (Director CSIR-IMTech, Chandigarh) | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| | 8:50-9:00 AM | **Introduction to the online workshop**  - Dr. Pratik Jagtap (University of Minnesota, MN) | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| | 9:05-10:00 AM | **Inaugural Lecture** by Dr. Robert Hettich (Oak Ridge National Laboratory, Oak Ridge, TN)  on introduction to microbiome research | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| | 10:05-11:00 AM | **Introduction to Galaxy Video Tutorials**  - Dave Clements (Galaxy Project, Johns Hopkins University) and Pratik Jagtap (Galaxy-P Team, University of Minnesota, MN) | **Shared with Registered Users** |
+| | 11:15&nbsp;AM-3:00&nbsp;PM | **Attendees work on assignments based on the Galaxy video tutorials** | **GTN Slack Channel** |
+| | 3:30-4:30 PM | **Applications within Galaxy** - Dr. Anshu Bhardwaj (CSIR-IMTech, Chandigarh) | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| | 5:30-6:30 PM | **Ice-Breaker Session** (Interaction amongst attendees) | **Shared with Registered Users** |
+| | 6:30-7:30 PM | **Hands-on session to answer questions** - Subina Mehta (Galaxy-P Team, University of Minnesota, MN) and Saskia Hiltemann (Erasmus University Medical Center, Hague) | **Shared with Registered Users** |
+| **Nov 16** | 8:15-9:00 AM | **Microbiome/Galaxy Kahoot!** | **Shared with Registered Users** |
+| | 9:05-10:00 AM | **Metagenomics Lecture** by Dr. Yogesh Shouche (National Centre for Cell Science, Pune) | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| | 10:05-11:00 AM | **Introduction to the Metagenomics video tutorials**. Drs. Gareth Price and Igor Makunin (QCIF Facility for Advanced Bioinformatics, St. Lucia, Australia) | **Shared with Registered Users** |
+| | 11:15 AM-3:00 PM | **Attendees work on assignments** based on the metagenomics video tutorials | **GTN Slack Channel** |
+| | 4:30-5:30 PM | **Talk on viral metagenomics** by Dr. Manoj Kumar (CSIR-IMTech, Chandigarh) | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| | 6:30-7:30 PM | **Hands-on session to answer metagenomics questions** - Berenice Batut (University of Freiburg, Freiburg) and Saskia Hiltemann (Erasmus University Medical Center, Hague) | **Shared with Registered Users** |
+| **Nov 17** | 8:15-9:00 AM | **Metagenomics Kahoot!** | **Shared with Registered Users** |
+| | 9:05-10:00 AM | **Recorded Lecture** by Dr. Berenice Batut (University of Freiburg, Freiburg) | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| | 10:05-11:00 AM | **Introduction to the Metatranscriptomics video tutorials** - Subina Mehta  and Pratik Jagtap (Galaxy-P Team, University of Minnesota, MN) | **Shared with Registered Users** |
+| | 11:15&nbsp;AM-3:00&nbsp;PM | **Attendees work assignments** based on the metatranscriptomics video tutorials | **GTN Slack Channel** |
+| | 6:30-7:30 PM | **Hands-on session to answer metatranscriptomics questions** - Subina Mehta (Galaxy-P Team, University of Minnesota, MN) and Saskia Hiltemann (Erasmus University Medical Center, Hague) | **Shared with Registered Users** |
+| **Nov 18** | 8:15-9:00 AM | **Metatranscriptomics Kahoot!** | **Shared with Registered Users** |
+| | 9:05-10:00 AM | **Talk on ocean metaproteomics** by Dr. Brook Nunn (University of Washington, Seattle, WA) | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| | 10:05-11:00 AM | **Introduction to the Metaproteomics video tutorials** - Pratik Jagtap and Subina Mehta (Galaxy-P Team, University of Minnesota, MN) | **Shared with Registered Users** |
+| | 11:15&nbsp;AM-3:00&nbsp;PM | **Attendees work on the assignments** based on metaproteomics video tutorials  | **GTN Slack Channel** |
+| | 5:30-6:30 PM | **Lecture on meta-omics analysis** - Dr. Paul Wilmes (University of Luxembourg, Luxembourg) | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| | 6:30-7:30 PM | **Hands-on session to answer metaproteomics questions** - Subina Mehta and Pratik Jagtap (Galaxy-P Team, University of Minnesota, MN) | **Shared with Registered Users** |
+| **Nov 19** | 9:15-9:45 AM | **Metaproteomics Kahoot!** | **Shared with Registered Users** |
+| | 10:05-10:30 AM | **Introduction to presentation formats for attendees** - Drs. Timothy Griffin and Pratik Jagtap (Galaxy-P Team, University of Minnesota, MN) | **Shared with Registered Users** |
+| **Nov 22** | 8:30-11:00 AM | **Talks by participants.** | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| **Nov&nbsp;23** | 8:30-11:00 AM | **Talks by participants.** | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| **Nov&nbsp;24** | 9:05-10:00 AM | **Concluding Talk** by Dr. Sharmila Mande (Distinguished Chief Scientist, TCS Research, Tata Consultancy Services Ltd.) | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
+| | 10:05-11:00 AM | **Results, conclusion and feedback form.** | **[MS Teams](https://tinyurl.com/funmicrotalk)** |
 
 
 <div class="float-right">
