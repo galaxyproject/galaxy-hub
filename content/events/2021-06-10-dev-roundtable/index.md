@@ -13,6 +13,7 @@ contact: "Alexandru Mahmoud, Marius van den Beek"
 links:
 - text: "Video"
   url: "https://youtu.be/3e71DFg3gsw"
+tags: [ "devroundtable" ]
 ---
 
 <div class="video-variable">

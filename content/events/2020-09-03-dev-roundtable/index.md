@@ -10,6 +10,7 @@ location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Alexandru Mahmoud, John Chilton"
+tags: [ "devroundtable" ]
 ---
 
 This week's topics are [interactive PR commands](https://github.com/almahmoud/galaxy/pull/9) by Alex Mahmood, and workflow updates - format, tooling, and GUI by John Chilton.

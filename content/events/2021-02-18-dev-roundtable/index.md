@@ -13,6 +13,7 @@ contact: "Enis Afgan"
 links:
   - text: "Video"
     url: "https://youtu.be/Gjrt_raGAuI"
+tags: [ "devroundtable" ]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Gjrt_raGAuI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

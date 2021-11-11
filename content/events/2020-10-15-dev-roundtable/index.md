@@ -1,5 +1,5 @@
 ---
-title: "Galaxy Developer Roundtable"
+title: "Galaxy release testing and publishing workflows to Dockstore and Workflowhub"
 date: '2020-10-15'
 days: 1
 tease: ""
@@ -13,6 +13,7 @@ contact: "Sergey Golitsynskiy, Marius van den Beek"
 links:
   - text: "Video"
     url: "https://youtu.be/lGEBWXu6Lvw"
+tags: [ "devroundtable" ]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lGEBWXu6Lvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

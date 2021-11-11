@@ -10,6 +10,7 @@ location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "TBD"
+tags: [ "devroundtable" ]
 ---
 
 *Have something you want to talk about at a roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).*

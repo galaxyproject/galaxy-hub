@@ -15,6 +15,7 @@ links:
   url: "https://youtu.be/b35qKpahQYw"
 - text: "Slides"
   url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-27-dev-roundtable//21-05-release-testing-slides.pdf"
+tags: [ "devroundtable" ]
 ---
 
 <div class="video-variable">
