@@ -10,11 +10,10 @@ external_url:
 gtn: false
 contact: Organisers
 image: /images/logos/GCC2013Logo400.png
+components: true
 ---
 
-<br /><br />
-**[Watch the talks](http://vimeo.com/channels/581875)!  [See you at GCC2018](https://gccbosc2018.sched.com/)!**
-<br /><br />
+**[Watch the talks](https://vimeo.com/channels/581875)!  [See you at GCC2018](https://gccbosc2018.sched.com/)!**
 
 The **2013 Galaxy Community Conference (GCC2013)** was held at the University of Oslo in Oslo Norway, from 30 June through 2 July.
 
@@ -22,7 +21,20 @@ Galaxy Community Conference is an opportunity to participate in [two full days](
 
 GCC2013 will continue the [best of previous meetings](/gcc/), and also incorporate new features, such as poster sessions, keynote speakers, and *themes* that organize each day and session.
 
-<slot name="/events/gcc2013/linkbox" />
+import LinkBox from '~/components/LinkBox.vue'
+<LinkBox :links="[
+  {title:'GCC2013', url:'/events/gcc2013/', bold:true},
+  {title:'Program', url:'/events/gcc2013/program/'},
+  {title:'Training', url:'/events/gcc2013/training-day/'},
+  {title:'BoFs', url:'/events/gcc2013/bof/'},
+  {title:'Abstracts', url:'/events/gcc2013/abstracts/'},
+  {title:'Logistics', url:'/events/gcc2013/logistics/'},
+  {title:'Sponsors', url:'/events/gcc2013/sponsorships/'},
+  {title:'Key Dates', url:'/events/gcc2013/key-dates/'},
+  {title:'Register', url:'/events/gcc2013/register/'},
+  {title:'Promotion', url:'/events/gcc2013/promotion/'},
+  {title:'Organizers', url:'/events/gcc2013/organizers/'},
+]" />
 
 ## Meeting Reports
 
