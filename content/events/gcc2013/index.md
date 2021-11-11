@@ -22,19 +22,8 @@ Galaxy Community Conference is an opportunity to participate in [two full days](
 GCC2013 will continue the [best of previous meetings](/gcc/), and also incorporate new features, such as poster sessions, keynote speakers, and *themes* that organize each day and session.
 
 import LinkBox from '~/components/LinkBox.vue'
-<LinkBox :links="[
-  {title:'GCC2013', url:'/events/gcc2013/', bold:true},
-  {title:'Program', url:'/events/gcc2013/program/'},
-  {title:'Training', url:'/events/gcc2013/training-day/'},
-  {title:'BoFs', url:'/events/gcc2013/bof/'},
-  {title:'Abstracts', url:'/events/gcc2013/abstracts/'},
-  {title:'Logistics', url:'/events/gcc2013/logistics/'},
-  {title:'Sponsors', url:'/events/gcc2013/sponsorships/'},
-  {title:'Key Dates', url:'/events/gcc2013/key-dates/'},
-  {title:'Register', url:'/events/gcc2013/register/'},
-  {title:'Promotion', url:'/events/gcc2013/promotion/'},
-  {title:'Organizers', url:'/events/gcc2013/organizers/'},
-]" />
+import links from './links.json'
+<LinkBox :links="links" />
 
 ## Meeting Reports
 
