@@ -81,6 +81,9 @@ export function main(inputPath, opts) {
     } else if (opts.quiet !== true) {
         console.error(`No base identified. Can't fix relative img src paths unless a --base is given.`);
     }
+    if (opts.debug && bases) {
+        console.log(`Base(s) identified: ${bases}`);
+    }
     // Get the value to pass to the `output` option of unified-engine.
     let output = false;
     if (opts.output) {

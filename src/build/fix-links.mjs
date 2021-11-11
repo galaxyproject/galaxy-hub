@@ -22,6 +22,16 @@ const PREFIX_WHITELIST = ["http://", "https://", "mailto:", "/images/", "//", "#
 const LINK_PROPS = { img: "src", a: "href" };
 const LINK_FIXERS = { img: fixImageLink, a: fixHyperLink };
 
+/**
+ * The unified plugin to transform links in parsed Markdown trees.
+ * @param {Object}   [options] Optional parameters.
+ * @param {boolean}  [options.debug=false] Whether to print very verbose logging info.
+ * @param {string[]} [options.bases] An array of file paths. Each is a possible path of the root content directory which
+ *                                   each Markdown file resides in. These should be absolute paths. For example:
+ *                                   `"/home/user/galaxy-hub/build/content-vue"`.
+ *                                   Multiple paths are allowed in case this is being run over multiple content
+ *                                   directories. The correct base will be determined based on where each file is.
+ */
 export default function attacher(options) {
     if (options === undefined) {
         options = {};
@@ -30,6 +40,8 @@ export default function attacher(options) {
     // Implement the Transformer interface:
     // https://github.com/unifiedjs/unified#function-transformernode-file-next
     function transformer(tree, file) {
+        // `file.path` will be a relative path, starting at `file.cwd` such that `nodePath.join(file.cwd, file.path)` is
+        // the absolute path to the current Markdown file.
         let dirPath = null;
         if (file.path && file.cwd && options.bases && options.bases.reduce((a, b) => a || b)) {
             dirPath = getDirPath(options.bases, file.cwd, file.path);
@@ -164,7 +176,13 @@ export function fixHyperLink(rawUrl) {
     return fixedUrl;
 }
 
-/** Perform all the editing appropriate for an image src url (whether in HTML or Markdown). */
+/** Perform all the editing appropriate for an image src url (whether in HTML or Markdown).
+ * @param {string} rawPath   The raw image src url.
+ * @param {string} [dirPath] The relative path of directory of the current file, from the content root.
+ *                           E.g. if the current file is /home/user/galaxy-hub/build/content-md/events/gcc2013/index.md
+ *                           and the base is /home/user/galaxy-hub/build/content-md, then the `dirPath` should be
+ *                           events/gcc2013.
+ */
 export function fixImageLink(rawPath, dirPath = null) {
     let path = rmPrefix(rawPath, "/src");
     if (dirPath) {
