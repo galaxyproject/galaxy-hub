@@ -1,4 +1,4 @@
-import { globals, fixImageLink, fixHyperLink } from "./fix-links.mjs";
+import { fixImageLink, fixHyperLink } from "./fix-links.mjs";
 
 // fixHyperLink()
 
@@ -67,9 +67,8 @@ const IMAGE_LINKS = [
 ];
 test("Fix image links", () => {
     for (let page of IMAGE_LINKS) {
-        globals.dirPath = page.dirPath;
         for (let [inputPath, expectedValue] of Object.entries(page.links)) {
-            let result = fixImageLink(inputPath);
+            let result = fixImageLink(inputPath, page.dirPath);
             expect(result).toBe(expectedValue);
         }
     }

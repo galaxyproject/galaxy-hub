@@ -14,7 +14,7 @@ import { rmPrefix, rmSuffix, matchesPrefixes } from "../utils.js";
 // `verbose: true` makes the parser include position information for each property of each element.
 // This is required for `editProperty()` to work.
 const htmlParser = unified().use(rehypeParse, { fragment: true, verbose: true });
-export const globals = {};
+let debug = false;
 // Prefixes that denote that the path is absolute and does not need altering.
 //TODO: How about urls that begin with a domain but no protocol?
 //      Check if that happens in the codebase.
@@ -26,13 +26,13 @@ export default function attacher(options) {
     if (options === undefined) {
         options = {};
     }
-    globals.debug = options.debug;
+    debug = options.debug;
     // Implement the Transformer interface:
     // https://github.com/unifiedjs/unified#function-transformernode-file-next
     function transformer(tree, file) {
-        globals.filePathRaw = file.path;
-        if (globals.filePathRaw && file.cwd && options.bases && options.bases.reduce((a, b) => a || b)) {
-            globals.dirPath = getDirPath(options.bases, file.cwd, globals.filePathRaw);
+        let dirPath = null;
+        if (file.path && file.cwd && options.bases && options.bases.reduce((a, b) => a || b)) {
+            dirPath = getDirPath(options.bases, file.cwd, file.path);
         } else {
             console.error("No `bases` option received. Will not be able to convert image src paths to relative paths.");
         }
@@ -40,9 +40,9 @@ export default function attacher(options) {
             node.url = fixHyperLink(node.url);
         });
         visit(tree, "image", (node) => {
-            node.url = fixImageLink(node.url);
+            node.url = fixImageLink(node.url, dirPath);
         });
-        visit(tree, "html", fixHtmlLinks);
+        visit(tree, "html", (node) => fixHtmlLinks(node, dirPath));
     }
     return transformer;
 }
@@ -84,7 +84,7 @@ function getRelFilePath(cwd, rawPath, base) {
     }
 }
 
-function fixHtmlLinks(node) {
+function fixHtmlLinks(node, dirPath = null) {
     let html = node.value;
     let dom = htmlParser.parse(node.value);
     let elems = getElementsByTagNames(dom, ["a", "img"]);
@@ -98,7 +98,7 @@ function fixHtmlLinks(node) {
         if (!url) {
             continue;
         }
-        let newUrl = LINK_FIXERS[elem.tagName](url);
+        let newUrl = LINK_FIXERS[elem.tagName](url, dirPath);
         if (url == newUrl) {
             continue;
         }
@@ -154,7 +154,7 @@ export function fixHyperLink(rawUrl) {
         // url-parse always makes the path absolute. At least it doesn't trim trailing dots like `URL()`.
         fixedUrl = rmPrefix(fixedUrl, "/");
     }
-    if (globals.debug) {
+    if (debug) {
         if (fixedUrl === rawUrl) {
             console.log(`Link:  Kept   ${rawUrl}`);
         } else {
@@ -165,12 +165,13 @@ export function fixHyperLink(rawUrl) {
 }
 
 /** Perform all the editing appropriate for an image src url (whether in HTML or Markdown). */
-export function fixImageLink(rawPath) {
+export function fixImageLink(rawPath, dirPath = null) {
     let path = rmPrefix(rawPath, "/src");
-    if (globals.dirPath) {
-        path = toRelImagePath(globals.dirPath, path, PREFIX_WHITELIST);
+    if (dirPath) {
+        path = toRelImagePath(dirPath, path, PREFIX_WHITELIST);
     }
-    if (globals.debug) {
+    if (debug) {
+        console.log("dirPath:", dirPath);
         if (rawPath === path) {
             console.log(`Image: Kept ${path}`);
         } else {
