@@ -168,9 +168,9 @@ export function fixHyperLink(rawUrl) {
     }
     if (debug) {
         if (fixedUrl === rawUrl) {
-            console.log(`Link:  Kept   ${rawUrl}`);
+            console.error(`Link:  Kept   ${rawUrl}`);
         } else {
-            console.log(`Link:  Edited ${rawUrl} to ${fixedUrl}`);
+            console.error(`Link:  Edited ${rawUrl} to ${fixedUrl}`);
         }
     }
     return fixedUrl;
@@ -189,11 +189,10 @@ export function fixImageLink(rawPath, dirPath = null) {
         path = toRelImagePath(dirPath, path, PREFIX_WHITELIST);
     }
     if (debug) {
-        console.log("dirPath:", dirPath);
         if (rawPath === path) {
-            console.log(`Image: Kept ${path}`);
+            console.error(`Image: Kept ${path}`);
         } else {
-            console.log(`Image: Edited ${rawPath} to ${path}`);
+            console.error(`Image: Edited ${rawPath} to ${path}`);
         }
     }
     return path;
