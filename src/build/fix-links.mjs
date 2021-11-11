@@ -14,7 +14,7 @@ import { rmPrefix, rmSuffix, matchesPrefixes } from "../utils.js";
 // `verbose: true` makes the parser include position information for each property of each element.
 // This is required for `editProperty()` to work.
 const htmlParser = unified().use(rehypeParse, { fragment: true, verbose: true });
-const globals = {};
+export const globals = {};
 // Prefixes that denote that the path is absolute and does not need altering.
 //TODO: How about urls that begin with a domain but no protocol?
 //      Check if that happens in the codebase.
