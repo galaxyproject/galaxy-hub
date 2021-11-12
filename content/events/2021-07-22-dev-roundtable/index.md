@@ -13,6 +13,7 @@ contact: "Anton Nekrutenko"
 links:
 - text: "Video"
   url: "https://youtu.be/n2uwDaU-L8s"
+tags: [ "devroundtable" ]
 ---
 
 <div class="video-variable">

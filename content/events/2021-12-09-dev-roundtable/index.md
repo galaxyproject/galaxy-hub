@@ -10,6 +10,7 @@ location_url: "/community/devroundtable/"
 external_url:
 gtn: false
 contact: "Marius van den Beek"
+tags: [ "devroundtable" ]
 ---
 
 

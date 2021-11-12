@@ -49,4 +49,10 @@ export default {
 .gtn-icon {
     float: right;
 }
+td {
+    padding-bottom: 1rem;
+}
+p {
+    margin: 0;
+}
 </style>
