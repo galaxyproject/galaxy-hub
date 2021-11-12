@@ -13,7 +13,8 @@
     "cypress:run": "cypress run",
     "build-and-serve": "yarn build && yarn serve",
     "test": "start-server-and-test build-and-serve http://localhost:8080 cypress:run",
-    "test:interactive": "start-server-and-test develop http://localhost:8080 cypress:open"
+    "test:interactive": "start-server-and-test develop http://localhost:8080 cypress:open",
+    "test:links": "start-server-and-test build-and-serve http://localhost:8080 links:internal"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",

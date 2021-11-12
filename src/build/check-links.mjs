@@ -131,8 +131,8 @@ const siteChecker = new blc.SiteChecker(options, {
             outTemplate(customData.summary.pages, customData.summary.total, customData.summary.broken) +
             customData.markdownReport;
         fs.writeFileSync(outputFile, output);
+        console.log(output);
         if (customData.summary.broken > 0) {
-            console.log(output);
             process.exitCode = 1;
         }
     },
