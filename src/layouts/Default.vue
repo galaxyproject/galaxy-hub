@@ -161,7 +161,7 @@ p.trim-p,
 .markdown h4,
 .markdown h5,
 .markdown h6 {
-    display: inline-block;
+    z-index: -10;
 }
 /* Replacement for .table and .table-striped on Markdown tables.
  * Until we can get those classes inserted into the table elements themselves.
