@@ -4,7 +4,7 @@ title: Sponsorships
 <slot name="/events/gcc2013/header" />
 
 import links from "../links.json"
-<LinkBox :links="links" />
+<link-box :links="links" />
 
 Is your organization interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Becoming a 2013 Galaxy Community Conference Sponsor is an excellent way to raise your organization's visibility in this active and engaged community.
 

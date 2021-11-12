@@ -4,7 +4,7 @@ title: Poster Abstracts
 <slot name="/events/gcc2013/header" />
 
 import links from "../../links.json"
-<LinkBox :links="links" />
+<link-box :links="links" />
 
 ## Abstracts
 

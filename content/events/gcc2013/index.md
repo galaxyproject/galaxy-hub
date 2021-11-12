@@ -22,7 +22,7 @@ Galaxy Community Conference is an opportunity to participate in [two full days](
 GCC2013 will continue the [best of previous meetings](/gcc/), and also incorporate new features, such as poster sessions, keynote speakers, and *themes* that organize each day and session.
 
 import links from './links.json'
-<LinkBox :links="links" />
+<link-box :links="links" />
 
 ## Meeting Reports
 

@@ -2,7 +2,7 @@
 <slot name="/events/gcc2013/header" />
 
 import links from "../../links.json"
-<LinkBox :links="links" />
+<link-box :links="links" />
 <slot name="/events/gcc2013/bof/linkbox" />
 <slot name="/community/galaxy-admins/linkbox" />
 

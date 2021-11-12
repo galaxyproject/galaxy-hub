@@ -6,7 +6,7 @@ title: Organizers
 
 
 import links from "../links.json"
-<LinkBox :links="links" />
+<link-box :links="links" />
 
 
 

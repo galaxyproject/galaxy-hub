@@ -6,7 +6,7 @@ title: Lightning Talks
 
 
 import links from "../links.json"
-<LinkBox :links="links" />
+<link-box :links="links" />
 
 Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/events/gcc2013/program/#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/people/fubar/)) and [Session 8 on Tuesday](/events/gcc2013/program/#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)).  **No more than half the lightning talk slots will be allocated before the meeting.**
 

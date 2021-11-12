@@ -6,7 +6,7 @@ title: Logistics
 
 
 import links from "../links.json"
-<LinkBox :links="links" />
+<link-box :links="links" />
 
 Details on conference location, lodging options, and transportation.
 
