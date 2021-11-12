@@ -5,7 +5,8 @@ title: Logistics
 
 
 
-<slot name="/events/gcc2013/linkbox" />
+import links from "../links.json"
+<link-box :links="links" />
 
 Details on conference location, lodging options, and transportation.
 

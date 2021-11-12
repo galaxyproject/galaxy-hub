@@ -152,6 +152,17 @@ p.trim-p,
     padding-bottom: 0.4em;
     line-height: 1.3em;
 }
+/* Keep headings from expanding to the entire width of the line (and occluding
+ * other elements that might have floated up to the right of it).
+ */
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+    display: inline-block;
+}
 /* Replacement for .table and .table-striped on Markdown tables.
  * Until we can get those classes inserted into the table elements themselves.
  */
@@ -177,7 +188,7 @@ p.trim-p,
 .markdown tbody tr:nth-of-type(2n + 1) {
     background-color: rgba(0, 0, 0, 0.05);
 }
-
+/***** Anchor link icons next to headings *****/
 .markdown h1 > a[aria-hidden="true"],
 .markdown h2 > a[aria-hidden="true"],
 .markdown h3 > a[aria-hidden="true"],
@@ -186,7 +197,6 @@ p.trim-p,
 .markdown h6 > a[aria-hidden="true"] {
     display: none;
 }
-
 /* Anchor link icons by headings */
 h1:hover > a[aria-hidden="true"],
 h2:hover > a[aria-hidden="true"],
