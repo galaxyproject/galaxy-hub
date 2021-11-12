@@ -17,12 +17,11 @@
                         </template>
                     </h2>
                     <!-- Table description. -->
-                    <p class="markdown" v-if="inserts[`tab-${tab.id}`]" v-html="inserts[`tab-${tab.id}`].content"></p>
-                    <!--
-                    The following <p> is a workaround for issue #758. Apparently the element produced by the following
-                    <b-row> is enough to trigger the bug.
-                -->
-                    <p class="d-none">dummy text</p>
+                    <div
+                        class="markdown"
+                        v-if="inserts[`tab-${tab.id}`]"
+                        v-html="inserts[`tab-${tab.id}`].content"
+                    ></div>
                     <!-- Table controls -->
                     <b-row class="table-controls">
                         <!-- Search -->
@@ -144,11 +143,11 @@
                         </template>
                     </b-table>
                     <!-- Post-table text (optional). -->
-                    <p
+                    <div
                         class="markdown"
                         v-if="inserts[`tab-${tab.id}-footer`]"
                         v-html="inserts[`tab-${tab.id}-footer`].content"
-                    ></p>
+                    ></div>
                 </b-tab>
             </b-tabs>
 

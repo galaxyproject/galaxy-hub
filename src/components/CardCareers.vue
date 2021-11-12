@@ -18,7 +18,8 @@
                 Apply by: {{ article.closes }}
             </span>
         </p>
-        <p class="markdown" v-html="mdToHtml(article.summary)" />
+        <!-- The summary should be a single line. Inserting multiple lines or <div>s can result in bug #758. -->
+        <p class="markdown" v-html="mdToHtml(article.summary)"></p>
         <p v-if="article.contact" class="contact">Contact: {{ article.contact }}</p>
         <p v-if="article.image" class="logo">
             <a :href="article.external_url">

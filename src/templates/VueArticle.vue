@@ -10,7 +10,7 @@
                     `insert.name` variable: https://vuejs.org/v2/guide/components-slots.html#Dynamic-Slot-Names
                 -->
                 <template v-for="insert of $page.article.inserts" #[insert.name]>
-                    <p class="markdown" :key="insert.name + ':md'" v-html="insert.content">&nbsp;</p>
+                    <div class="markdown" :key="insert.name + ':md'" v-html="insert.content">&nbsp;</div>
                 </template>
             </VueRemarkContent>
         </article>
