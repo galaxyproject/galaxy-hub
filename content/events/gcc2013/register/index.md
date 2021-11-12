@@ -3,7 +3,8 @@ title: Registration
 ---
 <slot name="/events/gcc2013/header" />
 
-<slot name="/events/gcc2013/linkbox" />
+import links from "../links.json"
+<LinkBox :links="links" />
 
 *Save 55% off Training Day registration when you register for it and the meeting at the same time.* 
 

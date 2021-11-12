@@ -5,7 +5,8 @@ title: Public Galaxy Servers BoF
 
 
 
-<slot name="/events/gcc2013/linkbox" />
+import links from "../../links.json"
+<LinkBox :links="links" />
 <slot name="/events/gcc2013/bof/linkbox" />
 
 <div class='left'><a href='/events/gcc2013/bof/'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>

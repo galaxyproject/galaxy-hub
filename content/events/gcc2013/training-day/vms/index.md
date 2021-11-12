@@ -3,7 +3,8 @@ title: GCC2013 Training Day Virtual Machines
 ---
 <slot name="/events/gcc2013/header" />
 
-<slot name="/events/gcc2013/linkbox" />
+import links from "../../links.json"
+<LinkBox :links="links" />
 
 <div class='left'><a href='/events/gcc2013/training-day/vms/'><img src="/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 

@@ -2,7 +2,8 @@
 ---
 <slot name="/events/gcc2013/header" />
 
-<slot name="/events/gcc2013/linkbox" />
+import links from "../../links.json"
+<LinkBox :links="links" />
 
 <div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
