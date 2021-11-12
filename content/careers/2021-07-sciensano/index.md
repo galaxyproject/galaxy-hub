@@ -1,7 +1,7 @@
 ---
 title: "Postdoctoral researcher Biosciences - RNASeq investigating host-pathogen interactions in farm animals"
 date: "2021-07-13"
-closes: ""
+closes: "2021-11-09"
 summary: "Support the development of RNASeq applications for  the characterization of host response to viral infections (transcriptomics), and the development of nanopore sequencing based viral urgency diagnostics."
 continent: EU
 location: "Sciensano, Brussels, Belgium"

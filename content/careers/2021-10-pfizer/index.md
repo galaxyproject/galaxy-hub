@@ -2,7 +2,7 @@
 title: "Bioinformatician"
 date: '2021-10-21'
 closes: ""
-summary: "research and development of qPCR tests for cobas® x800, cobas® Liat®, and digital PCR. Deploy these tools on Roche intranet (Galaxy) and train scientists to use them."
+summary: "Develop, implement and apply computational tools and methods to store, process, analyze, visualize and integrate in-house and public genetics, epigenetics, RNAseq, NGS, metabolomics, proteomics and other ‘omics data types to address key drug discovery questions"
 continent: NA
 location: "Pfizer, Cambridge, Massachusetts, United States"
 image: "/images/logos/pfizer-logo.jpg"
