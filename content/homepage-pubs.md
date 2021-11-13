@@ -3,6 +3,9 @@ title: Recent Pubs
 link: https://www.zotero.org/groups/galaxy
 icon: fas fa-book-open
 items:
+- title: "miRGalaxy: Galaxy-Based Framework for Interactive Analysis of microRNA and isomiR Sequencing Data"
+  link: https://doi.org/10.3390/cancers13225663
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.3390/cancers13225663'></span> Glogovitis, I., Yahubyan, G., Würdinger, T., Koppers-Lalic, D., & Baev, V. (2021). <em>Cancers</em>, 13(22), 5663."
 - title: "Laniakea@ReCaS: Exploring the potential of customisable Galaxy on-demand instances as a cloud-based service"
   link: https://doi.org/10.1186/s12859-021-04401-3
   tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1186/s12859-021-04401-3'></span> Tangaro, M. A., Mandreoli, P., Chiara, M., Donvito, G., Antonacci, M., Parisi, A., Bianco, A., Romano, A., Bianchi, D. M., Cangelosi, D., Uva, P., Molineris, I., Nosi, V., Calogero, R. A., Alessandri, L., Pedrini, E., Mordenti, M., Bonetti, E., Sangiorgi, L., … Zambelli, F. (2021). <em>BMC Bioinformatics</em>, 22(15), 544."
@@ -15,7 +18,4 @@ items:
 - title: GALAXY Workflow for Bacterial Next-Generation Sequencing De Novo Assembly and Annotation
   link: https://doi.org/10.1002/cpz1.242
   tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1002/cpz1.242'></span> Wee, S. K., & Yap, E. P. H. (2021). <em>Current Protocols</em>, 1(9), e242."
-- title: A SARS-CoV-2 sequence submission tool for the European Nucleotide Archive
-  link: https://doi.org/10.1093/bioinformatics/btab421
-  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1093/bioinformatics/btab421'></span> Roncoroni, M., Droesbeke, B., Eguinoa, I., De Ruyck, K., D’Anna, F., Yusuf, D., Grüning, B., Backofen, R., &amp; Coppens, F. (2021). <em>Bioinformatics</em>, btab421."
 ---

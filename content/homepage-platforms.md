@@ -3,6 +3,9 @@ title: New Platforms
 link: /use/
 icon: fas fa-server
 items:
+  - title: miRGalaxy
+    link: /use/mirgalaxy/
+    tease: "NGS data analysis focusing on microRNAs and their sequence variants—isomiRs."
   - title: MitoLink
     link: /use/mitolink/
     tease: An integrated workflow system to facilitate understanding of genotype-phenotype correlations in cases of mitochondrial dysfunction.
