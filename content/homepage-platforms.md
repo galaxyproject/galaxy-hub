@@ -4,7 +4,7 @@ link: /use/
 icon: fas fa-server
 items:
   - title: miRGalaxy
-    link: /use/mirglaxy/
+    link: /use/mirgalaxy/
     tease: "NGS data analysis focusing on microRNAs and their sequence variants—isomiRs."
   - title: MitoLink
     link: /use/mitolink/
