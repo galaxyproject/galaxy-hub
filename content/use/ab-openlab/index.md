@@ -20,5 +20,5 @@ citations:
 pub_libraries:
   - "AB-OpenLab"
 sponsors:
-  - "[CSIR- GENESIS: Genomics and Informatics Solutions for Integrating Biology](http://crdd.osdd.net/genesis/genome.html)"
+  - "[CSIR- GENESIS: Genomics and Informatics Solutions for Integrating Biology](https://webs.iiitd.edu.in/genesis/index.php)"
 ---
