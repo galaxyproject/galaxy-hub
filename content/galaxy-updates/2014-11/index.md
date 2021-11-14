@@ -59,7 +59,7 @@ The [French IFB Galaxy Working Group](http://www.ifb-galaxy.org/index.html):
 
 ## Swiss German Galaxy Tour 2014 Report
 
-<div class='right'><a href='/events/sg2014/'><img src="/images/logos/SG2014Logo400.png" alt="Swiss-German Galaxy Tour 2014" width="120" /></a></div>
+<div class='right'><br /><br /><a href='/events/sg2014/'><img src="/images/logos/SG2014Logo400.png" alt="Swiss-German Galaxy Tour 2014" width="120" /></a></div>
 
 After the big success of the [first Swiss Galaxy Workshop two years ago](/events/switzerland2012/), we decided to [organize a similar event](/events/sg2014/) again this fall. This time, we added a [training day](/events/switzerland2014/trainingday/) prior to the [workshop](/events/switzerland2014/), and a [developer day](/events/germany2014/) after the workshop. The first two days were held in Bern (Switzerland), and the third in Freiburg (Germany). Hence we called the whole event: "[Swiss German Galaxy Tour 2014](/events/sg2014/)".  
 
@@ -303,7 +303,7 @@ Two new [public Galaxy servers](/use/) were added to the published list in Octob
 
 ## Majewski Lab Galaxy
 
-<div class='right solid'><a href='http://genomequebec.mcgill.ca/exomeai'><img src="/use/majewski-lab/mcgill-qgic.png" alt="Majewski Lab: ExomeAI" width="250px" /></a></div>
+<div class='right solid'><a href='http://genomequebec.mcgill.ca/exomeai'><img src="/images/use/majewski-lab/mcgill-qgic.png" alt="Majewski Lab: ExomeAI" width="250px" /></a></div>
 
 The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) supports detection of recurrent allelic imbalance in tumors using whole exome sequencing data, using ExomeAI, a free web-based application for detection of recurrent AI/LOH segments in tumor samples. Support is provided in the [ExomeAI Manual](http://bioinformatics.oxfordjournals.org/content/suppl/2014/10/07/btu665.DC1/suppl_data.zip), and via [email](mailto:Javad DOT Nadaf AT gmail DOT com).  See Nadaf J, Majewski J, Fahiminiya S. (2014). [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/25297069). *Bioinformatics*. 2014 Oct 8.
 
@@ -311,9 +311,9 @@ The [Majewski Lab ExomeAI Server](http://genomequebec.mcgill.ca/exomeai) is supp
 
 ## OSDD Molecular Property Diagnostic Suite (MPDS)
 
-<div class='right solid'><a href='http://mpds.osdd.net/'><img src="/use/archive/mpdstb/mpdstb.png" alt="Molecular Property Diagnostic Suite (MPDS)" width="200" /></a></div>
+<div class='right solid'><a href='http://mpds.osdd.net/'><img src="/images/use/mpdstb/mpdstb.png" alt="Molecular Property Diagnostic Suite (MPDS)" width="200" /></a></div>
 
-The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Galaxy servers is an OSDD Chemoinformatics Portal.  MPDS exposes a software toolset that rationally diagnoses (druggable) molecules.  MPDS 1.0 consists of six modules covering informatics (DataBases, File format conversion), structure and analogue based drug design approaches (Property calculation, QSAR, Docking). [Support](http://mpds.osdd.net/galaxy/static/contact.htm) is available.
+The [OSDD Molecular Property Diagnostic Suite (MPDS)](http://mpds.osdd.net/) Galaxy server is an OSDD Chemoinformatics Portal.  MPDS exposes a software toolset that rationally diagnoses (druggable) molecules.  MPDS 1.0 consists of six modules covering informatics (DataBases, File format conversion), structure and analogue based drug design approaches (Property calculation, QSAR, Docking). [Support](http://mpds.osdd.net/galaxy/static/contact.htm) is available.
 
 [MPDS](http://mpds.osdd.net/) is developed under the broad initiative of [OSDD (Open Source Drug Discovery)](http://www.osdd.net/) of [CSIR (Council of Scientific and Industrial Research, Govt. of India)](http://www.csir.res.in/home.asp). The site is being hosted from [IICT](http://www.iictindia.org/), Hyderabad, India.
 

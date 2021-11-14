@@ -8,7 +8,7 @@ platforms:
     platform_text: "Molecular Property Diagnostic Suite - Tuberculosis (MPDSTB)"
     platform_location: IN
 summary: "A disease-specific web portal for Tuberculosis for drug discovery and development. "
-image: "mpdstb.png"
+image: "/images/use/mpdstb/mpdstb.png"
 comments:
   - "G. N. Sastry’s group at Centre for Molecular Modeling, CSIR-IICT, India has been in the forefront of developing disease-specific web portals for the last 7 to 8 years. The first portal supports tuberculosis research, was published in 2017, and is available at http://mpds.osdd.net and http://mpds.csiriict.in [1]. We are very keen to expand our work on these lines, by making more disease specific web portals in the near future."
   - "MPDS<sup>TB</sup> web portal has nine modules that are classified into data library (1–3), data processing (4–5) and data analysis (6–9). Module 1 is a repository of literature and related information available on the *Mycobacterium tuberculosis.* Module 2 deals with the protein target analysis of the chosen disease area. Module 3 is the compound library consisting of 110.31 million unique molecules generated from public domain databases and custom designed search tools. All the molecules are assigned a unique MPDS ID and corresponding card. Module 4 contains tools for chemical file format conversions and 2D to 3D coordinate conversions. Module 5 helps in calculating the molecular descriptors. Module 6 specifically handles QSAR model development tools using descriptors generated in Module 5. Module 7 integrates the AutoDock Vina algorithm for docking, while module 8 provides screening filters. Module 9 provides the necessary visualization tools for both small and large molecules."
