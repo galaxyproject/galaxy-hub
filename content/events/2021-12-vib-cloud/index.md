@@ -8,6 +8,6 @@ location: "VIB, Online, Ghent, Belgium"
 location_url: "https://training.vib.be/all-trainings?date=Ongoing%20trainings"
 external_url: "https://training.vib.be/all-trainings/migrating-tools-cloud-online"
 gtn: false
-contact: "Ignacio Equinoa"
+contact: "Ignacio Eguinoa"
 image: 
 ---
