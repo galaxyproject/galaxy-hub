@@ -81,7 +81,7 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
   * 09:00 Central European time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+Galaxy+Papercuts+CoFest+Call&iso=20211118T09&p1=980&am=30).
   * [Zoom Link](https://us02web.zoom.us/j/89385457829?pwd=bER2Z1hMd3pJZVBlN2kyV1A3NStpdz09)
 * **[GTN CoFest](https://github.com/galaxyproject/training-material/issues/1712) Call 1: Middle East, Europe, Africa**
-  * 10:00 Central European Summer time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+GTN+CoFest+Call&iso=20211118T10&p1=980&am=30).
+  * 10:00 Central European time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+GTN+CoFest+Call&iso=20211118T10&p1=980&am=30).
   * [Zoom](https://github.com/galaxyproject/training-material/issues/1712)
 * **[GTN CoFest](https://github.com/galaxyproject/training-material/issues/1712) Call 2: Americas**
   * 11:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+GTN+CoFest+Call&iso=20211118T11&p1=3705&am=30).
