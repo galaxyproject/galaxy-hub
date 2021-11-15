@@ -1,6 +1,5 @@
 ---
 title: Galaxy Community Hub
-layout: homepage.pug
 ---
 Galaxy is an open, web-based platform for accessible, reproducible, and
 transparent computational research.
