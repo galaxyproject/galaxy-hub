@@ -75,19 +75,19 @@ If you have time, and want to learn more about contributing you are encouraged t
 We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 * **PaperCuts Call 1: Oceania, Australia, Asia**
-  * 14:00 Australia Eastern time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=APAC+Galaxy+Papercuts+CoFest+Call&iso=20211118T14&p1=152&am=30">See your time</a>.
+  * 14:00 Australia Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=APAC+Galaxy+Papercuts+CoFest+Call&iso=20211118T14&p1=152&am=30).
   * [Zoom Link](https://zoom.us/j/98189403566?pwd=SWhueXkzNHlKSG1QMU0xUG1ESFFsUT09)
 * **PaperCuts Call 2: Middle East, Europe, Africa**
-  * 09:00 Central European time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+Galaxy+Papercuts+CoFest+Call&iso=20211118T09&p1=980&am=30">See your time</a>.
-  * [Zoom Link](https://us02web.zoom.us/j/88224419803?pwd=cE5sNTBmVnk5T2hnUms5aktyYXFEQT09)
+  * 09:00 Central European time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+Galaxy+Papercuts+CoFest+Call&iso=20211118T09&p1=980&am=30).
+  * [Zoom Link](https://us02web.zoom.us/j/89385457829?pwd=bER2Z1hMd3pJZVBlN2kyV1A3NStpdz09)
 * **[GTN CoFest](https://github.com/galaxyproject/training-material/issues/1712) Call 1: Middle East, Europe, Africa**
-  * 10:00 Central European Summer time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+GTN+CoFest+Call&iso=20211118T10&p1=980&am=30">See your time</a>.
+  * 10:00 Central European Summer time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+GTN+CoFest+Call&iso=20211118T10&p1=980&am=30).
   * [Zoom](https://github.com/galaxyproject/training-material/issues/1712)
 * **[GTN CoFest](https://github.com/galaxyproject/training-material/issues/1712) Call 2: Americas**
-  * 11:00 US Eastern time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+GTN+CoFest+Call&iso=20211118T11&p1=3705&am=30">See your time</a>.
+  * 11:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+GTN+CoFest+Call&iso=20211118T11&p1=3705&am=30).
   * [Zoom](https://github.com/galaxyproject/training-material/issues/1712)
 * **Papercuts Call 3: Americas**
-  * 12:00 US Eastern time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+Galaxy+Papercuts+CoFest+Call&iso=20211118T12&p1=3705&am=30">See your time</a>.
+  * 12:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+Galaxy+Papercuts+CoFest+Call&iso=20211118T12&p1=3705&am=30).
   * [Zoom Link](https://zoom.us/j/98189403566?pwd=SWhueXkzNHlKSG1QMU0xUG1ESFFsUT09)
 
 ## After the event
