@@ -24,7 +24,7 @@ user_support:
 quotas:
   - "The Galaxy interface is intended to make it easy for users to try out immuneML quickly, but for large-scale analyses, please [install immuneML](https://docs.immuneml.uio.no/installation.html) locally or on a private server. (It is available as a Docker image.)"
 citations:
-  - "Pavlovic, M., Scheffer, L., Motwani, K., Kanduri, C., Kompova, R., Vazov, N., Waagan, K., Bernal, F. L. M., Costa, A. A., Corrie, B., Akbar, R., Hajj, G. S. A., Balaban, G., Brusko, T. M., Chernigovskaya, M., Christley, S., Cowell, L. G., Frank, R., Grytten, I., … Sandve, G. K. (2021). [immuneML: An ecosystem for machine learning analysis of adaptive immune receptor repertoires](https://doi.org/10.1101/2021.03.08.433891). *BioRxiv*, 2021.03.08.433891. https://doi.org/10.1101/2021.03.08.433891"
+  - "Pavlović, M., Scheffer, L., Motwani, K., Kanduri, C., Kompova, R., Vazov, N., Waagan, K., Bernal, F. L. M., Costa, A. A., Corrie, B., Akbar, R., Al Hajj, G. S., Balaban, G., Brusko, T. M., Chernigovskaya, M., Christley, S., Cowell, L. G., Frank, R., Grytten, I., … Sandve, G. K. (2021). [The immuneML ecosystem for machine learning analysis of adaptive immune receptor repertoires](https://doi.org/10.1038/s42256-021-00413-z). *Nature Machine Intelligence*, 3(11), 936–944. https://doi.org/10.1038/s42256-021-00413-z. A [preprint version of the article](https://doi.org/10.1101/2021.03.08.433891) is available at *bioRxiv*."
 pub_libraries:
   - "immuneML"
 sponsors:
