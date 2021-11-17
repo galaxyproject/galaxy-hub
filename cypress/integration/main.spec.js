@@ -75,7 +75,7 @@ describe("Use Page Tests", () => {
         cy.wait(1000);
         cy.findByRole("button", { name: /Community/i }).click();
         cy.findByRole("menuitem", { name: /Stats/i }).click();
-        cy.get("h1")
+        cy.get(".title")
             .findByText(/Galaxy Project Stats/i)
             .should("be.visible");
     });
