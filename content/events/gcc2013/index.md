@@ -10,6 +10,7 @@ external_url:
 gtn: false
 contact: Organisers
 image: /images/logos/GCC2013Logo400.png
+autotoc: false
 components: true
 ---
 
@@ -69,55 +70,47 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 ## GCC2013 Sponsors
 
-[<img class="mx-auto" src="/events/gcc2013/sponsorships/PlatinumBanner.png" alt="Platinum Sponsor" />](/events/gcc2013/sponsorships/)
 
-[<img class="mx-auto" src="/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="320" />](http://www.lifetechnologies.com/)
+### [![Platinum Sponsor](/events/gcc2013/sponsorships/PlatinumBanner.png)](/events/gcc2013/sponsorships/)
 
-<br /><br />
+[![Ion Torrent by Life Technologies](/images/logos/IonTorrentLogo340.png)](https://www.lifetechnologies.com)
 
-[<img class="mx-auto" src="/events/gcc2013/sponsorships/GoldBanner.png" alt="Gold Sponsors" />](/events/gcc2013/sponsorships/)
 
-[<img class="mx-auto" src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" />](http://www.emc.com/isilon)
+### [![Gold Sponsors](/events/gcc2013/sponsorships/GoldBanner.png)](/events/gcc2013/sponsorships/)
 
-[<img class="mx-auto" src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" />](http://bioteam.net/)
+[![EMC Isilon](/images/logos/EMCIsilonLogo.jpg)](http://www.emc.com/isilon)
 
-<br /><br />
-[<img class="mx-auto" src="/events/gcc2013/sponsorships/SilverBanner.png" alt="Silver Sponsor" />](/events/gcc2013/sponsorships/)
+[![BioTeam](/images/logos/BioTeamLogo154.gif)](http://bioteam.net/)
 
-<br />
 
-[<img class="mx-auto" src="/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" />](http://www.gigasciencejournal.com/)
+### [![Silver Sponsor](/events/gcc2013/sponsorships/SilverBanner.png)](/events/gcc2013/sponsorships/)
 
-<br /><br />
+[![GigaScience Journal](/images/logos/GigaScienceLogo250.png)](http://www.gigasciencejournal.com/)
 
-[<img class="mx-auto" src="/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors" />](/events/gcc2013/sponsorships/)
-  
-[<img class="mx-auto" src="/images/logos/IlluminaLogo250.png" alt="Illumina" width="160" />](http://www.illumina.com/)
 
-<br />
+### [![Bronze Sponsors](/events/gcc2013/sponsorships/BronzeBanner.png)](/events/gcc2013/sponsorships/)
 
-[<img class="mx-auto" src="/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="150" />](http://globus.org/genomics)
+[![Illumina](/images/logos/IlluminaLogo250.png)](http://www.illumina.com/)
 
-<br /><br />
+[![Globus Genomics](/images/logos/GlobusGenomics.png)](http://globus.org/genomics)
 
-[<img class="mx-auto" src="/events/gcc2013/sponsorships/OtherBanner.png" alt="Other Sponsors" />](/events/gcc2013/sponsorships/)
 
-[<img class="mx-auto" src="/images/logos/AWSLogo400.png" alt="Amazon Web Services" width="200" />](http://aws.amazon.com/)
+### [![Other Sponsors](/events/gcc2013/sponsorships/OtherBanner.png)](/events/gcc2013/sponsorships/)
 
-<br />
+[![Amazon Web Services](/images/logos/AWSLogo400.png)](http://aws.amazon.com/)
 
-[![Hosts and Funding Agencies](./sponsorships/HostsBanner.png)](/events/gcc2013/sponsorships/)
 
-[<img class="mx-auto" src="/images/logos/MLSUiOLogo.png" alt="Molecular Life Science at the University of Oslo" height="120" />](http://www.uio.no/english/research/interfaculty-research-areas/mls/)
+### [![Hosts and Funding Agencies](./sponsorships/HostsBanner.png)](/events/gcc2013/sponsorships/)
 
-[<img class="mx-auto" src="/images/logos/ResearchCouncilNorway500.png" alt="The Research Council of Norway" width="400" />](http://www.forskningsradet.no/english/)
+[![Molecular Life Science at the University of Oslo](/images/logos/MLSUiOLogo.png)](http://www.uio.no/english/research/interfaculty-research-areas/mls/)
 
-[<img class="mx-auto" src="/images/logos/FUGE.png" alt="Functional Genomics" height="120" />](http://www.bioinfo.no/about/)
+[![The Research Council of Norway](/images/logos/ResearchCouncilNorway500.png)](http://www.forskningsradet.no/english/)
 
-[<img class="mx-auto" src="/images/logos/ElixirNoTextLogo.png" alt="Elixer" height="120" />](http://www.elixir-europe.org/)
+[![Functional Genomics](/images/logos/FUGE.png)](http://www.bioinfo.no/about/)
 
-[<img class="mx-auto" src="/images/logos/UiOLogo.png" alt="University of Oslo"  />](http://uio.no/)
-<br />
+[![Elixer](/images/logos/ElixirNoTextLogo.png)](http://www.elixir-europe.org/)
+
+[![University of Oslo](/images/logos/UiOLogo.png)](http://uio.no/)
 
 *Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/events/gcc2013/sponsorships/).*
 

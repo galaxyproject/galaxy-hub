@@ -1,17 +1,19 @@
+---
+title: GalaxyAdmins BoF
+---
 
 <slot name="/events/gcc2013/header" />
 
 import links from "../../links.json"
 <link-box :links="links" />
+
 <slot name="/events/gcc2013/bof/linkbox" />
 <slot name="/community/galaxy-admins/linkbox" />
-
-# [GalaxyAdmins](/community/galaxy-admins/) BoF
 
 <div class='left'><a href='/events/gcc2013/bof/'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a><br />
 <a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a></div>
 
-This page describes the **[GalaxyAdmins](/community/galaxy-admins/)** [Birds of a Feather](/events/gcc2013/bof/) meetup being held at [GCC2013](/events/gcc2013/).
+This page describes the **[Galaxy Admins](/community/galaxy-admins/)** [Birds of a Feather](/events/gcc2013/bof/) meetup being held at [GCC2013](/events/gcc2013/).
 
 [GalaxyAdmins](/community/galaxy-admins/) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/community/galaxy-admins/meetups/) and at events like GCC2013, where a lot of us happen to be.
 
@@ -24,12 +26,7 @@ We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF
 
 ## When and Where
 
-<table>
-  <tr>
-    <td style=" class="red" "> <strong>Please note the change in Time and Location</strong> </td>
-  </tr>
-</table>
-
+**Please note the change in Time and Location**
 
 The [tentative time and location](/events/gcc2013/bof/#bof-schedule) is Tuesday lunchtime in the cantina. Collect your lunch and then carry it up to the Cantina's balcony/mezzanine room reached from the staircase inside the cantina near the entrance.
 
