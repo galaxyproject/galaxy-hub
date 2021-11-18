@@ -114,6 +114,7 @@ I run into three circular foreign key constraints in the (empty) PostgreSQL data
 * form_definition <-> form_definition_current (see: [form_definition](https://galaxyproject.org/schema/SchemaSpy/tables/form_definition.html))
 
 I solved it by dropping the constraint, uploading the data, and recreating the foreign key, eg:
+
 ```
 ALTER TABLE workflow DROP CONSTRAINT workflow_stored_workflow_id_fkey;
 
@@ -154,6 +155,7 @@ ALTER TABLE ONLY form_definition ADD CONSTRAINT form_definition_form_definition_
 ##### tables already filled by galaxy
 
 Obviously, as part of the database generation the table "migrate_version" had already been filled in my case:
+
 ```
 =#select * from migrate_version;
  repository_id |     repository_path      | version 
@@ -163,6 +165,7 @@ Obviously, as part of the database generation the table "migrate_version" had al
 ```
 
 The "kombu_queue" table was also not empty:
+
 ```
 =# select * from kombu_queue;
  id |     name     
@@ -175,6 +178,7 @@ The "kombu_queue" table was also not empty:
 In both cases, the contents was equal to the contents from the dump out of the existing MySQL database.
 
 The "migrate_tools" table is also pre-filled:
+
 ```
 =# select * from migrate_tools;
  repository_id |           repository_path            | version 

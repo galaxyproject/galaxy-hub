@@ -62,6 +62,7 @@ or think that you may at some later date, it is a good idea to perform the follo
 user specifically for Galaxy (i.e the 'galaxy' user).
 
 Create a galaxy *NON-ROOT* user named 'galaxy' and switch to that user:
+
 ```bash
 $ sudo useradd -m -s /bin/bash galaxy
 $ sudo -iu galaxy
@@ -75,6 +76,7 @@ dependent on a normal user account and that the process will have permissions an
 ### Downloading and Installing Galaxy
 
 You'll need python 2.6 or higher.
+
 ```bash
 $ python --version
 Python 2.7.6
@@ -99,6 +101,7 @@ installing mercurial via APT (a unix package manager).
 
 1. **As the galaxy user**, create the directory where you'd want to install Galaxy on your server (in this example, a
 folder named `ourgalaxy` directly below galaxy's 'home' directory):
+
 ```bash
 $ mkdir ourgalaxy
 $ cd ourgalaxy
@@ -108,6 +111,7 @@ $ pwd
 
 
 3. To download Galaxy (from the terminal/command line):
+
 ```bash
 $ hg clone https://bitbucket.org/galaxy/galaxy-dist
 # Mercurial will download the galaxy-dist repository to /ourgalaxy/galaxy-dist ...
@@ -119,6 +123,7 @@ adding file changes # ...
 ```
 
 When the prompt in your terminal returns, the download has finished:
+
 ```bash
 # ... the numbers here may be different
 added 13084 changesets with 44579 changes to 8097 files (+1 heads)
@@ -132,6 +137,7 @@ NOTE: cloning the full Galaxy code repository can take some time. Please, jump t
 it to install.
 
 4. When the download is complete, update Galaxy to the most stable version/branch:
+
 ```bash
 $ cd galaxy-dist
 $ hg update stable
@@ -157,6 +163,7 @@ first download Galaxy it will include a 'template' of the `universe_wsgi.ini` fi
 (you'll see this `sample` template pattern for many of Galaxy's config files). The `sample` file contains all the
 original/default settings availble for configuration. Don't alter the `sample` file directly - instead, copy it to
 `universe_wsgi.ini` and change settings there:
+
 ```bash
 $ cp universe_wsgi.ini.sample universe_wsgi.ini
 ```
@@ -257,6 +264,7 @@ Some important points and suggestions for setting up a Galaxy server with a full
 Disable the debugging and development settings:
 
 1. `debug` - comment it out
+
 ```ini
 # Debug enables access to various config options useful for development and
 # debugging:                                  ... Debug mode is disabled if
@@ -266,6 +274,7 @@ Disable the debugging and development settings:
 
 
 2. `use_interactive` - comment it out
+
 ```ini
 # Enable live debugging in your browser.  This should NEVER be enabled on a
 # public site.  Enabled in the sample config for development.
@@ -285,6 +294,7 @@ debugging process.
 Set the `id_secret` to make Galaxy's ids (encoded versions of database ids for your resources such as session ids,
 dataset ids, etc.) unique to your server:
 1. Generate a random piece of text. This will be combined in Galaxy with the database ids to encode them:
+
 ```bash
 $ date | md5sum
 # NOTE: you're result will be different here
@@ -294,6 +304,7 @@ b9bf59c1cf5e910ef87b1494ac032e25  -
 (We're using only the first part of the output - don't copy the space and hyphen at the end)
 
 2. Set `id_secret` to that text:
+
 ```ini
 # Galaxy encodes various internal values when these values will be output in
 # some format (for example, in a URL or cookie).  You should set a key to be
@@ -308,6 +319,7 @@ id_secret = b9bf59c1cf5e910ef87b1494ac032e25
 #### Port Number and customization
 
 You can (uncomment and) change the port number Galaxy serves from to 8081:
+
 ```ini
 # The port on which to listen.
 port = 8081
@@ -318,6 +330,7 @@ is probably to start using a proxy server:
 [Using a proxy server](https://docs.galaxyproject.org/en/latest/admin/production.html#using-a-proxy-server)
 
 Change the listening address to `0.0.0.0` and uncomment:
+
 ```ini
 # The address on which to listen.  By default, only listen to localhost (Galaxy
 # will not be accessible over the network).  Use '0.0.0.0' to listen on all
@@ -329,6 +342,7 @@ Without this change, Galaxy by default only serves to 127.0.0.1 and its web page
 machine serving them at: `localhost:8081`. By making this change, we're allowing anyone who knows our URL/IP to connect.
 
 And change the 'brand' or name of our Galaxy server here:
+
 ```ini
 # Append "/{brand}" to the "Galaxy" text in the masthead.
 brand = GMOD
@@ -342,6 +356,7 @@ Of course, you can change this later to suit your lab or your needs.
 The final change we'll make before we log in is to uncomment and add a tool dependency directory in the
 `universe_wsgi.ini` file. This is a directory that will store the programs that Galaxy tools rely on to function as
 we'll see later in [Tools](/tools/):
+
 ```ini
 tool_dependency_dir = ../tool_dependencies
 ```
@@ -367,6 +382,7 @@ directory, and `cron` directory and they're worth exploring in a text editor.
 
 Galaxy can be easily started as a foreground process in a terminal window with the run.sh script in the Galaxy base
 directory:
+
 ```bash
 $ cd ourgalaxy/galaxy-dist
 $ sh run.sh --reload
@@ -417,6 +433,7 @@ base directory.
 
 In order to restart the server, simply shut it down and bring it back up (which can be accomplished with a single
 command):
+
 ```bash
 $ sh run.sh --stop-daemon; sh run.sh --daemon
 ```
@@ -440,6 +457,7 @@ This also means that the file can grow quickly. To 'rotate' your log files, see:
 
 It can be useful (for this tutorial or anytime you're configuring your server) when running in daemon mode to open a new
 terminal window or tab and 'follow the tail' of your log file:
+
 ```bash
 $ tail -f paster.log
 ```
@@ -447,12 +465,14 @@ $ tail -f paster.log
 In this way you get the benefit of seeing the most recent messages and can still use Galaxy as a daemon.
 
 Go ahead and start up the server so we can log in:
+
 ```bash
 $ sh run.sh --daemon
 ```
 
 
 When the server has successfully restarted and is ready you'll see:
+
 ```bash
 serving on 0.0.0.0:8081
 ```
@@ -519,6 +539,7 @@ that we can save some space and use a central location on the filesystem.
 #### Example data
 
 Let's drop back to the terminal quickly to see the data we'll use for the rest of this tutorial:
+
 ```bash
 $ ls -l /data/galaxy
 total 4
@@ -600,6 +621,7 @@ Programs and their dependencies will be installed to the directory setting `tool
 `universe_wsgi.ini` file (which we set [here](/events/gmod-summer-school2014/#the-tool_dependency_dir)). They can also be invoked on the command line
 from there (or added to your PATH). For example, if we have installed bwa, we could use that Galaxy tool installation
 from the command-line to index a yeast fasta:
+
 ```hightlight bash
 ~/tool_deps/bwa/0.5.9/devteam/package_bwa_0_5_9/ec2595e4d313/bin/bwa index -a bwtsw sacCer2.fa
 ```

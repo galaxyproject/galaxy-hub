@@ -125,6 +125,7 @@ The FASTA output is relative to the genome of the input interval; positions that
 * **Reverse complement a MAF file** - computes the reverse complement for all blocks in an alignment
 
 This MAF Block:
+
 ```
 a score=8157.000000
 s hg17.chr7    127471526 58 + 158628139 AATTTGTGGTTTATTCATTTTTCATTATTTTGTTTAAGGAGGTCTATAGTGGAAGAGG
@@ -133,6 +134,7 @@ s mm5.chr6      28904928 54 + 149721531 AA----CGTTTCATTGATTGCTCATCATTTAAAAAAAGAA
 ```
 
 becomes:
+
 ```
 a score=8157.000000
 s hg17.chr7     31156555 58 - 158628139 CCTCTTCCACTATAGACCTCCTTAAACAAAATAATGAAAAATGAATAAACCACAAATT

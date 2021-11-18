@@ -14,6 +14,7 @@ date: "2011-10-26"
 * Source updates, bug fixes, new scripts, wrapped tools, and custom tools
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
+
 ```
 new:     % hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
 upgrade: % hg pull -u -r 338ead4737ba

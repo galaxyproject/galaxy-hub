@@ -14,6 +14,7 @@ You want to look at sets (or pages) of data points from your dataset 1000 at a t
 to move between those sets.
 
 This can be accomplished with most text based datatypes using the `limit` and `offset` options:
+
 ```python
 def paginate_column_data( dataset, page_size, curr_page, **more_options )
     limit = page_size
@@ -45,18 +46,21 @@ Notes on limit and offset:
 You want to only use data that contains the string 'exon' in the third column of your dataset data.
 
 This can be accomplished using the `regex_list` option:
+
 ```python
 exons = list( hda.datatype.dataprovider( hda, 'column', regex_list=[ '\S+\s+\S+\s+exon' ] ) )
 ```
 
 
 If 'exon' could appear in either the third or fourth column you could add another regex expression:
+
 ```python
 exons = list( hda.datatype.dataprovider( hda, 'column', regex_list=[ '\S+\s+\S+\s+exon', '\S+\s+\S+\s+\S+\s+exon' ] ) )
 ```
 
 
 To filter these *out*, set the `invert` option to True:
+
 ```python
 regex_list = [ '\S+\s+\S+\s+exon', '\S+\s+\S+\s+\S+\s+exon' ]
 non_exons = list( hda.datatype.dataprovider( hda, 'column', regex_list=regex_list, invert=True ) )
@@ -79,6 +83,7 @@ You can pass column-based filters into any dataprovider that is derived from `Co
 'dataset-column', 'dict', 'genomic-region', and 'interval'. `filters` is passed into python as a list of strings. Each
 string is a 3-tuple of `( column_index, operator, value )` separated by hyphens. For example, to filter returned lines
 to only those that are greater than or equal to 20000 in the 2nd column:
+
 ```python
 data = list( hda.datatype.dataprovider( hda, 'column', filters=[ '1-ge-20000' ] ) )
 ```
@@ -87,6 +92,7 @@ data = list( hda.datatype.dataprovider( hda, 'column', filters=[ '1-ge-20000' ] 
 Filters are AND'ed together.
 
 These types of filters can be passed to the API as well by sending as a comma-separated-list:
+
 ```javascript
     jQuery.ajax( '/api/datasets/' + id, {
         data : {
@@ -118,6 +124,7 @@ The operators available depend on the column type:
 
 You may also want to create your own filter function. Pass a function into any `LineDataProvider`-derived provider
 under the `filter_fn` keyword argument:
+
 ```python
 def filter_start_lt_10k( line ):
     try:
@@ -141,6 +148,7 @@ Notes:
 * Data filtered in the above way works with limit and offset.
 
 Alternately, you can of course filter directly *after* the provider yields the data:
+
 ```python
 def generate_lt( dataset, pos, **options ):
     for col_list in hda.datatype.dataprovider( hda, 'column', **options ):
@@ -187,6 +195,7 @@ are two points in the visualizations execution where you might want to do this:
 2. Via AJAX and the API: getting data (or more data) when the user interacts with your page after it's been sent
 
 You can bootstrap JSON data by using a combination of python and javascript:
+
 ```mako
 <script type="text/javascript">
 <%
@@ -203,6 +212,7 @@ your visualization's page in the browser using 'show page source' - the data wil
 
 You can also access data providers through the datasets API using an AJAX call within your page (here, we'll use
 jQuery's ajax framework - you can use whatever your comfortable with):
+
 ```javascript
 <script type="text/javascript">
     // ...
@@ -255,6 +265,7 @@ money recvd = 0.00
 
 
 You can override the settings/options for existing providers, wrap it in a function, and return the provider:
+
 ```python
 from galaxy.datatypes.dataproviders import column
 def provide_key_value( dataset, **settings ):
@@ -321,6 +332,7 @@ start, end, and chrom values from various datatypes even though they may appear 
 Another way of creating a new provider from existing providers is to compose one from the others.
 
 In the following pattern which is seen throughout this cookbook, we use a dataset as a *`data_source`*:
+
 ```python
 for datum in dataset.datatype.dataprovider( dataset, 'my-provider' ):
     print datum
@@ -328,6 +340,7 @@ for datum in dataset.datatype.dataprovider( dataset, 'my-provider' ):
 
 
 The `data_source` for data providers can be any python iterator, including any other [DataProvider](/data-providers/):
+
 ```python
 dataprovider1 = MyFirstDataProvider( dataset, setting1=... )
 dataprovider2 = MySecondDataProvider( dataprovider1, setting2=... )
@@ -358,6 +371,7 @@ Settings:
 In order for your providers options to be available and parsed properly from a query string (from an API call),
 you'll need a class level dictionary named `settings` containing the keyword arguments that should be parsed and sent to
 your provider's `__init__` method. For example, the `FilteredLineDataProvider` has the following `settings` variable:
+
 ```python
     settings = {
         'strip_lines'   : 'bool',

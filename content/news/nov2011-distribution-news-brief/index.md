@@ -13,6 +13,7 @@ date: "2011-11-19"
 * New Trackster features, UI and Source updates, Bug fixes
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
+
 ```
 new:     % hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
 upgrade: % hg pull -u -r b258de1e6cea 

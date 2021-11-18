@@ -68,7 +68,7 @@ MD026: false # no-trailing-punctuation
 
 MD027: false # no-multiple-space-blockquote
 MD030: false # list-marker-space
-MD031: false # blanks-around-fences
+MD031: true # blanks-around-fences
 MD032: false # blanks-around-lists
 
 # The linter flags http://example.com and wants them formatted like

@@ -61,6 +61,7 @@ This session covers the tool and ToolShed requirements for using reference data 
     * http://toolshed.g2.bx.psu.edu/view/devteam/bwa_wrappers
       1. Click "Repository Actions" and select "Browse repository tip files"
       2. Find and click on "bwa_wrapper.xml" and note the section that uses indexed data:
+
 ```xml
         <conditional name="genomeSource">
           <param name="refGenomeSource" type="select" label="Will you select a reference genome from your history or use a built-in index?">
@@ -82,6 +83,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 ```
 
       3. Find and click on "tool_data_table_conf.xml.sample" which defines the mapping to the "tool-data/bwa_index.loc" file
+
 ```xml
       <tables>
         <!-- Locations of indexes in the BWA mapper format -->
@@ -93,6 +95,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 ```
 
       4. Find and click on "bwa_index.loc.sample" 
+
 ```
 #This is a sample file distributed with Galaxy that enables tools
 #to use a directory of BWA indexed sequences data files. You will need

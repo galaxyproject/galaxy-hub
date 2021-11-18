@@ -168,6 +168,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
         * Total Score = sum of codon occurences / sequence length * number of analyzed codons
         * The output is sorted from low to high (Total Score: 0 to 1).
     * Example:
+
       ```
        [['Gene_ID' 'Total Score' 'AGG' 'AGC' 'CCC' 'TGC' 'GCG']
        ['CCE57562' 0.0190476 1 3 1 2 1]
@@ -176,6 +177,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
        ['CCQ31238' 0.0328358 0 3 0 6 2]
        ['CCE57539' 0.05 2 0 4 3 3]]
        ```
+
 * *From [ecology](https://toolshed.g2.bx.psu.edu/view/ecology):*
    * [spocc_occ](https://toolshed.g2.bx.psu.edu/view/ecology/spocc_occ):  Get species occurences data. A programmatic interface to many species occurrence data sources, including Global Biodiversity Information Facility (GBIF), USGSs Biodiversity Information Serving Our Nation (BISON), iNaturalist, Berkeley Ecoinformatics Engine, AntWeb, Integrated Digitized Biocollections (iDigBio), VertNet, Ocean Biogeographic Information System (OBIS), and Atlas of Living Australia (ALA).   Includes functionality for retrieving species occurrence data, and combining those data.
 * *From [gmat](https://toolshed.g2.bx.psu.edu/view/gmat):*

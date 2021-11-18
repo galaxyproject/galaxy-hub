@@ -14,6 +14,7 @@ date: "2012-10-06"
 **[http://getgalaxy.org](http://getgalaxy.org)**
 
 **[http://bitbucket.org/galaxy/galaxy-dist](http://bitbucket.org/galaxy/galaxy-dist)**
+
 ```
 new:     $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
 upgrade: $ hg pull -u -r b5bda7a5c345

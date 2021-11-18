@@ -37,6 +37,7 @@ This tag defines a particular Data Manager. Any number of `<data_table>` tags ca
 #### Example
 
 The following is an example that contains all of the attributes described above.
+
 ```xml
 <data_manager tool_file="data_manager/twobit_builder.xml" id="twobit_builder">
 ```
@@ -57,6 +58,7 @@ This tag defines a Tool Data Table to add entries to. Any number of `<data_table
 #### Example
 
 The following is an example that contains all of the attributes described above.
+
 ```xml
 <data_table name="twobit">
 ```
@@ -72,6 +74,7 @@ This tag defines how to handle the output of the Data Manager Tool. It has no at
 #### Example
 
 The following is an example that contains all of the attributes described above.
+
 ```xml
 <output>
 ```
@@ -93,6 +96,7 @@ This tag defines a particular Tool Data Table column that will be set. Any numbe
 #### Example
 
 The following is an example that contains all of the attributes described above.
+
 ```xml
 <column name="path" output_ref="out_file" >
 ```
@@ -114,6 +118,7 @@ This tag defines how to handle moving files from within the Data Manager Tool ou
 #### Example
 
 The following is an example that contains all of the attributes described above.
+
 ```xml
 <move type="file" relativize_symlinks="False">
 ```
@@ -136,6 +141,7 @@ should resolve to a single line.
 #### Example
 
 The following is an example that contains the most common usage, where the value provided by the Data Manager Tool, relative to the extra_files_path, is used as the source.
+
 ```xml
 <source>${path}</source>
 ```
@@ -182,6 +188,7 @@ This tag allows using templating to modify the value provided by the Data Manage
 
 The following is an example that contains a common usage, where a value is constructed using several of the values provided by the Data Manager Tool and that value is then turned into an absolute path. If `<value_translation>` is a string (not a function)
 it is treated as a template, much like `<source>` and `<target>`, and must return a single line string.
+
 ```xml
 <value_translation>${GALAXY_DATA_MANAGER_DATA_PATH}/${value}/seq/${path}</value_translation>
 <value_translation type="function">abspath</value_translation>

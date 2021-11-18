@@ -40,6 +40,7 @@ We also intend to learn from recent actions in these areas that fell short of a 
 ***This distribution and the previous distribution, [October 5, 2012](/archive/dev-news-briefs/2012-10-05/#security-fixes), fix a significant security hole in Galaxy's "Compute" tool. Upgrade or patch NOW. ***
 
 The **Compute** columns tool allowed arbitrary execution of python code entered into the input text field by a user.  It has been modified to only allow safe operators and functions.  Administrators are strongly urged to apply this update for security purposes, or to manually apply/patch these changesets:
+
 ```
 https://bitbucket.org/galaxy/galaxy-dist/changeset/b5bda7a5c34535ada63722941f2a2d62524b1faa
 https://bitbucket.org/galaxy/galaxy-dist/changeset/685a17af92dfd6a2e3d7e3c9a3a4b119c78a6f96
@@ -92,12 +93,14 @@ Prior to this enhancement, values for the "tool_path" attribute defined in the `
 
 
 However, now these values can include subdirectory hierarchies like this:
+
 ```
 <toolbox tool_path="../shed_tools/galaxy_instance1">
 ```
 
 
 This allows the Galaxy administrator greater flexibility in defining locations within a single hierarchy for installed tool shed repositories using multiple shed-related tool panel config files.  For example, a Galaxy administrator may now define installation locations like this.
+
 ```
 tool panel config file name   <toolbox> tag
 ---------------------------	-------------------

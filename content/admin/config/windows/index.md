@@ -18,9 +18,11 @@ To run Galaxy using the [Windows Subsystem for Linux](https://msdn.microsoft.com
 
 **Step 1**
 Before installing any Linux distros for WSL, you must ensure that the "Windows Subsystem for Linux" optional feature is enabled. Open Windows PowerShell and run:
+
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
+
 (Hitting the windows button on your keyboard and writing PowerShell in the menu is the quickest way to open it).
 
 **Step 2**
@@ -37,11 +39,13 @@ Open your Linux distribution from Windows (press windows key and write the name 
 
 **Step 2**
 Install git, if using Ubuntu:
+
 ```
 sudo apt install git.
 ```
 
 Clone the Galaxy GitHub repository to a folder of your choice.
+
 ```
 git clone https://github.com/galaxyproject/galaxy.git
 ```
@@ -50,11 +54,13 @@ git clone https://github.com/galaxyproject/galaxy.git
 The Client build system is described in the Galaxy repository [here](https://github.com/galaxyproject/galaxy/blob/dev/client/README.md).
 
 For development purposes the following three commands gives you a Galaxy server which runs and is automatically updated when you make any changes to the galaxy client source files.
+
 ```
 GALAXY_CLIENT_SKIP_BUILD=1 sh run.sh
 source .venv/bin/activate
 make client-watch
 ```
+
 The first row runs the shell script without building the client, the 2nd row activates the virtual environment and makes the base dependencies accessible and the third row builds the client with the automatic rebuilding activated.
 
 Just running `sh run.sh` instead builds a client suitable for local development.

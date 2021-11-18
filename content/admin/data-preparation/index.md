@@ -170,6 +170,7 @@ There is a sample file for each of these files, with `.sample` appended to the f
 The best way to organize the various index files is to have dedicated directories for each build that contains a directory for each NGS tool, which then contains the actual index files.
 
 A structure like this is recommended:
+
 ```
 $BASE_PATH/
     hg18/
@@ -223,11 +224,13 @@ Usage: `bowtie-build [option] index_basename.fa index_basename `
 (where `index_basename.fa` is your input reference genome in fasta format)
 
 The Galaxy team uses the ` [option] ` **-f** to create indexes, for example:
+
 ```
 bowtie-build -f hg19.fa hg19
 ```
 
 or
+
 ```
 bowtie2-build -f hg19.fa hg19
 ```

@@ -36,6 +36,7 @@ If you already know how Django works, and how to download it from a Git reposito
 * Put your own settings in ***conf/"mySettings.py"*** and get the ***conf/default.env*** pointing on "mySettings.py".
 
 For example:
+
 ```python
 #
 # import from the main settings then override some of the values

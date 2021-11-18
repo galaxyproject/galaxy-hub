@@ -14,6 +14,7 @@ date: "2012-07-21"
 * **Trackster** new parameter space visualization. *BRAND NEW!!* More details coming soon, but give a test drive now.
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
+
 ```
 new:     % hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
 upgrade: % hg pull -u -r ec29ce8e27a1

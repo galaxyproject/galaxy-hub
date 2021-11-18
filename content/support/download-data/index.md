@@ -71,7 +71,9 @@ For dataset collections and datasets within collections you have to supply your 
 ```
 $ wget https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd4595de/download?key=MYSECRETAPIKEY
 ```
+
 or
+
 ```
 $ curl -o myfile.txt https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd4595de/download?key=MYSECRETAPIKEY
 ```

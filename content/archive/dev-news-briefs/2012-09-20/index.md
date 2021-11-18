@@ -25,6 +25,7 @@ date: 2012-09-20
 **(2)** Add the necessary lines for the **FLI** custom datatype + conversions:
 
   (a)
+
 ```
 <datatype extension="fli" type="galaxy.datatypes.tabular:FeatureLocationIndex" display_in_upload="false"/>
 ```
@@ -32,6 +33,7 @@ date: 2012-09-20
 
   (b)
 In **Bed** datatype definition:
+
 ```
 <converter file="bed_to_fli_converter.xml" target_datatype="fli"/>
 ```
@@ -39,6 +41,7 @@ In **Bed** datatype definition:
 
   (c)
 In **Gff** datatype definition:
+
 ```
 <converter file="gff_to_fli_converter.xml" target_datatype="fli"/>
 ```

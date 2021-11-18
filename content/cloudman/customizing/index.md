@@ -98,9 +98,11 @@ Note that the process of customizing an instance may require use of the command 
 1. **ssh to the EC2 instance and perform desired customizations.**<br />
 From the command prompt, connect to the newly created cluster using the
 following command, filling in the appropriate details:
+
 ```
 ssh -o StrictHostKeyChecking=no -i <path to your private key> ubuntu@<instance public DNS>
 ```
+
 Next, perform the desired changes to the system. The changes supported at this
 level of instance customization include modifications to the file systems
 managed by CloudMan. The available file systems are listed on the CloudMan

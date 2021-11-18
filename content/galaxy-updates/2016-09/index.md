@@ -467,12 +467,14 @@ Admins can now plug in the included communication server to enable users of thei
 <span style="font-size: larger;"> [Github](https://github.com/galaxyproject/galaxy) </span>
 
 **New Galaxy repository**
+
 ```
 $ git clone -b release_16.07 https://github.com/galaxyproject/galaxy.git
 ```
 
 
 **Update of existing Galaxy repository**
+
 ```
 $ git checkout release_16.07 && git pull --ff-only origin release_16.07
 ```

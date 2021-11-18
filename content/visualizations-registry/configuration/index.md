@@ -2,6 +2,7 @@
 
 There can be multiple possible sources/target objects defined for each visualization, For example, a visualization may
 be applicable to both SAM and BAM files and have a `data_source` defined for each:
+
 ```xml
     <data_sources>
         <data_source>
@@ -36,6 +37,7 @@ more general after. This allows us to send different or added settings based on 
 
 Inside each `data_source`, the first test uses the `data_source` sub-element `model_class`. If the target object is
 the same python class as the class listed here, then the remaining `data_source` tests are then run.
+
 ```xml
         <data_source>
             <model_class>HistoryDatasetAssociation</model_class>
@@ -63,6 +65,7 @@ Test `type`s are currently limited to:
 
 1) **isinstance**: testing a LibraryDatasetDatasetAssociation or HistoryDatasetAssociation's `.datatype` attribute
 for class inheritance:
+
 ```xml
 <test type="isinstance" test_attr="datatype" result_type="datatype">data.Newick</test>
 ```
@@ -70,12 +73,14 @@ for class inheritance:
 
 2) **has_dataprovider**: testing if the attribute of a data_source/model has a specific
 [DataProvider](/data-providers/):
+
 ```xml
 <test type="has_dataprovider" test_attr="datatype">node-edge</test>
 ```
 
 
 or 3) **eq**: using string comparison of any model's attribute (the default - no `type`s are required):
+
 ```xml
 <test test_attr="dbkey">hg18</test>
 ```
@@ -93,6 +98,7 @@ Note that, for `datatype` testing:
 Each `data_source` can define zero or more `to_param` elements. Each `to_param` will add one key/value pair
 to the query string of the URL of your link **allowing control over what information is contained in your visualization
 link and controlling what is passed to your visualization code**. For example:
+
 ```xml
     <data_source>
         <model_class>HistoryDatasetAssociation</model_class>
@@ -109,6 +115,7 @@ value pair on the generated link query string of: `?dataset_id=<the HDAs id>`.
 Note: ids are automatically encoded when the link is generated.
 
 The final link generated points to the exposed render method of the visualization.py controller:
+
 ```html
 <a href="http://localhost:8080/visualization/show/myvis?dataset_id=f7bb1edd6b95db62">My Visualization</a>
 ```
@@ -118,6 +125,7 @@ The visualization name is passed as the first argument and appears after the `sh
 
 Other values can be passed in as well depending on the data source either using the target's attributes or direct
 assignment:
+
 ```xml
 <data_source>
   <model_class>LibraryDatasetDatasetAssociation</model_class>
@@ -147,6 +155,7 @@ models, or lists of either).
 The registry uses the `ResourceParser` class located in `lib/galaxy/visualization/plugins/resource_parser.py` to do this.
 
 For example, the scatterplot visualization has the following params (it only needs one 'resource' - the HDA target):
+
 ```xml
       <param type="dataset" var_name_in_template="hda" required="true">dataset_id</param>
 ```
@@ -191,6 +200,7 @@ side panels in place use `galaxy_main` (this is the default `render_location`).
 
 You can **test the validity of your XML registry file** by using the DTD defined in `visualizations_conf.xml` itself.
 On the command line:
+
 ```bash
 xmllint --valid --noout myvis.xml
 ```
@@ -198,6 +208,7 @@ xmllint --valid --noout myvis.xml
 
 If **there's an error parsing the configuration** of a visualization, you'll find an error similar to this in the
 server logs:
+
 ```#!
 galaxy.web.base.pluginframework WARNING 2014-01-28 10:26:04,147 VisualizationsRegistry, plugin load failed or disabled:
 ./config/plugins/visualizations/sweepster. Skipping...

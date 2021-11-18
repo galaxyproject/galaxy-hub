@@ -50,26 +50,31 @@ date: 2014-11-04
 A security vulnerability was recently discovered by John Chilton with Galaxy's "Filter data on any column using simple expressions" and "Filter on ambiguities in polymorphism datasets" tools that can allow for arbitrary execution of code on the command line. The fix for these tools has been committed to the Galaxy source and is included in this distraction. *[Original email notification from earlier today.](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/message/BPV2WO6X5LYV5G4YIY2VPJFIFE7V7V4C/)*
 
 For Galaxy installations that administrators are not yet ready to upgrade to the latest release, there are three workarounds.  First, for Galaxy installations running on a relatively new version of the stable release (e.g. `release_2013.08.12`), Galaxy can be updated to the specific `changeset` that that contains the fix.  This will include all of the stable (non-feature) commits that have been accumulated since the 8/12 release plus any new features included with (and prior to) the 8/12/2013 release, but without all of the new features included in the 11/4/2013 release.  Ensure you are on the stable branch and then upgrade to the specific `changeset`:
+
 ```
  % hg pull -u -r e094c73fed4d
 ```
 
 Second, the patch can be downloaded and applied manually:
+
 ```
  % wget -o security.patch https://bitbucket.org/galaxy/galaxy-central/commits/e094c73fed4dc66b589932edb83412cb8b827cd3raw/
 ```
 
 and then:
+
 ```
  % hg patch security.patch
 ```
 
 or:
+
 ```
  % patch -p1 < security.patch
 ```
 
 Third, the tools can be completely disabled by removing them from the tool configuration file (by default, `tool_conf.xml`) and restarting all Galaxy server processes.  The relevant lines in `tool_conf.xml` are:
+
 ```
     <tool file="stats/dna_filtering.xml" />
     <tool file="stats/filtering.xml" />

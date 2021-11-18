@@ -82,6 +82,7 @@ Describing how this works is tricky, so let's see if we can state it in a way th
 #### The Tool Shed now Provides Sharable URLs for Repositories by Name or Owner
 
 The following new routes have been added to the Tool Shed:
+
 ```
 <tool shed url>/view/<repository owner>
 <tool shed url>/view/<repository owner>/<repository name>

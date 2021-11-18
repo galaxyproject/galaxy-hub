@@ -31,6 +31,7 @@ The [workshop](https://github.com/galaxyproject/dagobah-training) is split into 
 ### Comfortable with the Unix/Linux command line
 
 Most of the workshop will happen at the Linux command line.  *If you aren’t comfortable with this before you arrive, then you will be lost the entire time.*  How comfortable do you need to be?  Here’s a sampling of commands and concepts that you should be comfortable with:
+
   ```
 cd, mkdir, rmdir, ls
 tar, gzip

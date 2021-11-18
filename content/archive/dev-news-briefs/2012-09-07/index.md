@@ -27,12 +27,14 @@ Migration scripts will run upon Galaxy's first launch (after updating to this re
 # Reference Genome rsync Server
 
 If you would like to obtain the same *reference genome builds and indexes* as available on the public **Galaxy [Main](/main/)** instance, these can retrieved from the rsync server at:
+
 ```
 datacache.g2.bx.psu.edu
 ```
 
 
 For example, to download the complete directory for the **['phiX'](http://en.wikipedia.org/wiki/Phi_X_174)** genome:
+
 ```
 $ rsync -avzP rsync://datacache.g2.bx.psu.edu/indexes/phiX .
 ```

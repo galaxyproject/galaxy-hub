@@ -34,6 +34,7 @@ parameters to the method are parsed and a python generator is returned. This gen
 based on the type of provider (and the additional arguments).
 
 For example, given dataset contents in a tabular file called 'dataset1':
+
 ```
 # yet another data format
 1   10  11  110
@@ -44,6 +45,7 @@ For example, given dataset contents in a tabular file called 'dataset1':
 
 
 within a visualization template or python script, one could get each line as an array of columnar data by calling:
+
 ```python
 for array in dataset1.datatype.dataprovider( dataset1, 'column' ):
     print array
@@ -57,6 +59,7 @@ blank lines are stripped from the output.
 
 Pass in additional arguments to filter or configure output by adding keyword arguments to the provider. For example,
 to limit the above to only two lines and offset by one line:
+
 ```python
 for array in dataset1.datatype.dataprovider( dataset1, 'column', limit=2, offset=1 ):
     print array
@@ -66,6 +69,7 @@ for array in dataset1.datatype.dataprovider( dataset1, 'column', limit=2, offset
 
 
 To have the server parse the contents as numbers:
+
 ```python
 types = [ 'int', 'float', 'int', 'float' ]
 for array in dataset1.datatype.dataprovider( dataset1, 'column', column_types=types ):
@@ -173,6 +177,7 @@ with python or through the API.
 
 Python is currently the more powerful option. For example, in a visualization template one could pass a filter
 function to a 'genomic-region-dict' provider:
+
 ```python
 def position_within_point( self, datum ):
 def filter_chr10( datum ):
@@ -188,6 +193,7 @@ for region in hda.datatype.dataprovider( hda, 'genomic-region-dict', limit=2, of
 
 
 Through the API, (currently) the easiest way is to use the `regex_list` argument:
+
 ```javascript
 var xhr = jQuery.getJSON( "/api/datasets/86cf1d3beeec9f1c", {
     data_type : 'raw_data',
@@ -233,6 +239,7 @@ collision with other existing providers.
 Let's say we've defined a datatype that is CSV and has 20 columns of data. We'd like to provide the same format for
 data that the GenomicRegionDataProvider does (chrom, start, end) so we'll implement a provider to get that same
 data from our datatype:
+
 ```python
 from galaxy.datatypes import tabular
 from galaxy.datatypes import dataproviders
@@ -259,6 +266,7 @@ them in your datatype may allow existing consumers of data providers (for exampl
 The settings variable passed to the decorator (`GenomicRegionDataProvider.settings` in the example above)
 are a list of the options that will be parsed on a query string before being sent to the dataprovider. In other words,
 when a provider is called from the API many of its options can be passed over the url in the query string:
+
 ```bash
 curl 'http://localhost:8080/api/datasets/86cf1d3beeec9f1c?data_type=raw_data&provider=column&limit=2&offset=1'
 ```

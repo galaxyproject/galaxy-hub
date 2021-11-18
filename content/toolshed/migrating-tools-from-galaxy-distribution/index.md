@@ -52,6 +52,7 @@ Starting our Galaxy instance using the tool_conf.xml file above produces the fol
 Upgrading our Galaxy instance to the release in which the Emboss tools have been eliminated and then starting our Galaxy server produces the following message. Notice that even though over 130 Emboss tools were originally included in the Galaxy distribution, only those Emboss tools that we've defined in our tool_conf.xml file are listed as missing. If we had not defined any of the Emboss tools in our tool_conf.xml file, this message would not have been displayed, and our Galaxy server would have started normally.
 
 ```
+
 The list of files at the end of this message refers to tools that are configured to load into the tool panel for this Galaxy instance, but have been removed from the Galaxy distribution. These tools can be automatically installed from the Galaxy Tool Shed at http://toolshed.g2.bx.psu.edu.
 
 To skip this process, attempt to start your Galaxy server again (e.g., sh run.sh or whatever you use). If you do this, be aware that these tools will no longer be available in your Galaxy tool panel, and entries for each of them should be removed from your file named ./tool_conf.xml.
@@ -77,6 +78,7 @@ emboss_etandem.xml
 emboss_extractfeat.xml
 emboss_extractseq.xml
 emboss_extractfeat.xml
+
 ```
 
 
@@ -87,6 +89,7 @@ Notice that the second paragraph tells us we can choose to not install the tools
 If, however, we perform the installation, this is what we'll see.
 
 ```
+
 $ sh ./scripts/migrate_tools/0002_tools.sh
 Repositories will be installed into configured tool_path location ../shed_tools
 destination directory: emboss_datatypes
@@ -111,6 +114,7 @@ updating to branch default
 Adding new row (or updating an existing row) for repository 'emboss_5' in the tool_shed_repository table.
 
 The installation process is finished.  All tools associated with this migration that were defined in your file named ./tool_conf.xml have been removed.  You may now start your Galaxy server.
+
 ```
 
 

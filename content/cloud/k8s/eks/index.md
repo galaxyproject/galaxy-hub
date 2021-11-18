@@ -267,6 +267,7 @@ Having deployed Galaxy on an EKS cluster, you may access the instance as the fol
     ```bash
     $ kubectl describe svc wistful-quoll-galaxy
     ```
+
     where `wistful-quoll-galaxy` is the name of the `LoadBalancer` in our example, that
     should be replaced by the name of `LoadBalancer` in your deployment.
 

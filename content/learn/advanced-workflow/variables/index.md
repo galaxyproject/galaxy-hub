@@ -23,6 +23,7 @@ The screenshot allows us to visualize that the Tophat2 tool is selected and conf
 Variable syntax: ` #{input_name} `
 
 Full usage:
+
 ```
 
 Proper syntax is:  #{input_file_variable | option 1 | option n}

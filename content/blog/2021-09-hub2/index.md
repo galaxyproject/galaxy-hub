@@ -59,6 +59,7 @@ Of course, a website isn't just text! Webpages would be pretty dry without some 
 ### Configurable, path-based page groupings
 
 The new Hub is written to be as configurable as possible. So groups of pages like blog posts, news posts, events, and careers are defined in a simple section of `config.json`. Just give a category name and the path the pages are found under:
+
 ```
   "categories": {
     "/blog":  "blog",
@@ -67,6 +68,7 @@ The new Hub is written to be as configurable as possible. So groups of pages lik
     "/careers": "careers"
   },
 ```
+
 Then every page under, say, `/blog/` will be tagged with `blog`, letting you easily query for all blog posts in your dynamic pages.
 
 ### The power of Vue.js

@@ -30,6 +30,7 @@ The primary difference between a standard Galaxy Tool and a Data Manager Tool is
 # Data Manager Server Configuration Options
 
 In your "[galaxy.ini](https://github.com/galaxyproject/galaxy/blob/dev/config/galaxy.ini.sample)" file these settings exist in the `[app:main]` section:
+
 ```python
 # Data manager configuration options
 enable_data_manager_user_view = True

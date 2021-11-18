@@ -57,6 +57,7 @@ After the desired data has been loaded on the *galaxyIndicesFS*, it is likely th
 ## Tie it all together
 
 After all the components have been built, we need to add the details into the Cloud Launch application. Login to the Admin side of the application and add an entry to the *Images* table. The *Image id* needs to be a *boto*-compatible ID (e.g., *ami-03835e68*) while the description is up to you. Next, define a Flavor by specifying a name and a description for it followed by user data. The user data contains pointers to the components we built and should looks like this (of course, with the actual values for *archive_url* and *snap_id* updated to match the components you built):
+
 ```bash
 cluster_templates:
   - name: Galaxy

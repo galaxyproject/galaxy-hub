@@ -12,6 +12,7 @@ date: "2012-01-20"
 * Trackster performance upgrades and new drag & drop composite track creation
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
+
 ```
 new:     % hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
 upgrade: % hg pull -u -r 63bc46cc73b7

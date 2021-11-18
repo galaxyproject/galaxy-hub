@@ -18,6 +18,7 @@ import links from "../../links.json"
 As an administrator of your own local Galaxy, you can extend Galaxy by writing new tools and adding them to the tool panel for your users to use. There are a few things you need to do to make them work. In the simplest possible case, you need to prepare some XML and make your Galaxy read it in at startup when it reads and parses tool_conf.xml. Each tool must include a unique tool id, a visible name, a version number and a command line template. In addition, they can also include multiple tool form parameters with labels, validation and help, outputs, tests, dependency/version requirements. Galaxy uses these to set up the tool list and each selected tool's user interface form.
 
 *Note: there's actually a configuration setting in universe_wsgi.ini controlling which tool_conf.xml files are read. The default is
+
 ```
 tool_config_file = tool_conf.xml,shed_tool_conf.xml
 ```
@@ -101,12 +102,14 @@ Note that the > redirection character has been *[html-escaped](http://dev.w3.org
 3. #3 Restart
 
  **Stop Galaxy if it's running**
+
  ```
  sh run.sh –stop-daemon
  ```
 
 
  **Restart Galaxy**
+
  ```
  sh run.sh –daemon
  ```
@@ -162,6 +165,7 @@ Says hello, adding a user supplied text parameter to the output
 
 Once you have hello v 0.02 working, try using the redo button to rerun an output in your history from hello v 0.01.
 You should see a warning message
+
 ```
 This job was initially run with tool version "0.01", which is not currently available. You can rerun the job with this tool version, which is a derivation of the original tool.
 ```
@@ -249,6 +253,7 @@ Reload, test etc.
 Here is a simple datasource example. It is a a simple html page that uses JavaScript to parse incoming parameters and change the form action attribute to the provided GALAXY_URL value. The user can click the submit button to post the URL value (a prefilled text box) back to the originating Galaxy server. For more information on data source tools, see [here](/admin/internals/data-sources/).
 
 We'll use Python's built-in simple HTTP server to make the html page into a web-loadable link:
+
 ```
 cd /home/gcc2013/Desktop/Training_Day_Workshops/Datsources_Tools/datasource_simple_example/
 python -m SimpleHTTPServer 8051
@@ -259,6 +264,7 @@ Verify that you can view the simple datasource at http://localhost:8051/datasour
 Now we will define the simple datasource tool xml. Create a file under tools/data_source/ named hello_datasource.xml.
 
 The contents should look like:
+
 ```xml
 <tool name="Hello" id="hello_datasource" tool_type="data_source">
     <description>datasource</description>
@@ -276,6 +282,7 @@ The contents should look like:
 
 
 Add an entry to your tool_conf.xml file to instruct Galaxy to load the data source tool:
+
 ```xml
 <tool file="data_source/hello_datasource.xml"/>
 ```

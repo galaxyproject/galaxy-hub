@@ -92,6 +92,7 @@ bootstrapping this data is the dataset datatype's dataproviders.
 
 You could bootstrap into python, getting the data directly from the `datatype.dataprovider` (keep in mind a
 dataprovider is a python generator):
+
 ```python
 bootstrapped_interval_list = list( dataset.datatype.dataprovider( dataset, 'interval-map' ) )
 # do something with the data
@@ -99,6 +100,7 @@ bootstrapped_interval_list = list( dataset.datatype.dataprovider( dataset, 'inte
 
 
 Alternately you could bootstrap into javascript with the helper (`h`) method `to_json_string`:
+
 ```javascript
     var interval_list = ${h.to_json_string( list( dataset.datatype.dataprovider( dataset, 'interval-map' ) ) )};
     // do something with the data
@@ -107,6 +109,7 @@ Alternately you could bootstrap into javascript with the helper (`h`) method `to
 
 The entry point for getting the data through the API (or even loading *more* data after you've bootstrapped some) is
 through the datasets api and a library that can do AJAX requests (such as jQuery):
+
 ```javascript
     var encodedId = '${query_args[ 'dataset_id' ]}';
     var ajaxReq = jQuery.ajax( '/api/datasets/' + encodedId, {
@@ -138,6 +141,7 @@ including:
 If you're successfully calling your visualization's page and (from the javascript console) you're seeing **404s when
 the page attempts to load static resources**. It may be that your server is using a proxy server that needs a rewrite
 rule to find the static content. For example, with nginx:
+
 ```nginx
     location ~ ^/plugins/visualizations/(?<vis_name>.+?)/static/(?<static_file>.*?)$ {
         alias /my_galaxy_dir/config/plugins/visualizations/$vis_name/static/$static_file;

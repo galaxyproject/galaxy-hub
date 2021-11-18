@@ -122,6 +122,7 @@ Repository][cvmfs-config-repo], which will provide automatic configuration for a
 To configure, add the Galaxy-specific configuration files:
 
 **/etc/cvmfs/default.local**
+
 ```bash
 CVMFS_HTTP_PROXY="DIRECT"
 CVMFS_QUOTA_LIMIT="4000"    # the cache size in MB
@@ -129,18 +130,21 @@ CVMFS_USE_GEOAPI=yes        # sort server list by geographic distance from clien
 ```
 
 **/etc/cvmfs/config.d/cvmfs-config.galaxyproject.org.conf**
+
 ```bash
 CVMFS_SERVER_URL="http://cvmfs1-psu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-iu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-tacc0.galaxyproject.org/cvmfs/@fqrn@"
 CVMFS_PUBLIC_KEY="/etc/cvmfs/keys/galaxyproject.org/cvmfs-config.galaxyproject.org.pub"
 ```
 
 **/etc/cvmfs/default.d/80-galaxyproject-cvmfs.conf**
+
 ```bash
 CVMFS_CONFIG_REPOSITORY="cvmfs-config.galaxyproject.org"
 CVMFS_DEFAULT_DOMAIN="galaxyproject.org"
 ```
 
 **/etc/cvmfs/keys/galaxyproject.org/cvmfs-config.galaxyproject.org.pub**
+
 ```pub
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuJZTWTY3/dBfspFKifv8
@@ -162,6 +166,7 @@ If not using the dynamic config repository method in the previous section, you c
 `data.galaxyproject.org` CVMFS repository. To do so, add the Galaxy-specific configuration files:
 
 **/etc/cvmfs/default.local**
+
 ```bash
 CVMFS_REPOSITORIES="data.galaxyproject.org"
 CVMFS_HTTP_PROXY="DIRECT"
@@ -170,12 +175,14 @@ CVMFS_USE_GEOAPI=yes        # sort server list by geographic distance from clien
 ```
 
 **/etc/cvmfs/domain.d/galaxyproject.org.conf**
+
 ```bash
 CVMFS_SERVER_URL="http://cvmfs1-tacc0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-iu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-psu0.galaxyproject.org/cvmfs/@fqrn@;http://galaxy.jrc.ec.europa.eu:8008/cvmfs/@fqrn@;http://cvmfs1-mel0.gvl.org.au/cvmfs/@fqrn@"
 CVMFS_KEYS_DIR="/etc/cvmfs/keys/galaxyproject.org"
 ```
 
 **/etc/cvmfs/keys/galaxyproject.org/data.galaxyproject.org.pub**
+
 ```pub
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5LHQuKWzcX5iBbCGsXGt

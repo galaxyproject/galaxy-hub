@@ -33,9 +33,11 @@ Alternatively, you may run the following steps:
 __keep this shell open as all the following commands are executed in this window__.
 4. Run the following commands in the opened shell:
     1. Configure project name:
+
         ```
         $ gcloud config set project <PROJECT NAME>
         ```
+
         Replace `<PROJECT_NAME>` with your selected project name.
 
     2. Configure zone (e.g., us-central1-a):
@@ -182,6 +184,7 @@ You may run the following commands for this deployment:
     re-run the aforementioned `helm install` command.
 
     - if resetting `helm` does not resolve the error, you may run the following commands:
+
     ```
     $ kubectl create serviceaccount --namespace kube-system tiller
     $ kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller

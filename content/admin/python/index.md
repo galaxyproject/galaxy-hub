@@ -38,9 +38,11 @@ If Galaxy complains about the version of Python you are using:
               ```
 
 4. Remove compiled mako templates when upgrading from Python 2:
+
      ```sh
      % rm -rf /path/to/galaxy/database/compiled_templates/
      ```
+
    These templated will be regenerated automatically when starting Galaxy.
 
 5. Start Galaxy again.

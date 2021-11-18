@@ -21,6 +21,7 @@ If you do not have a Galaxy repository yet or you do not want to update the exis
 ```
 $ git clone -b release_21.09 https://github.com/galaxyproject/galaxy.git
 ```
+
 ### Updating existing
 
 If you have an existing Galaxy repository and want to update it, run:
@@ -124,6 +125,7 @@ If `git log` produces no output, Galaxy is up-to-date. If `git log` produces a l
 ```
 $ git pull
 ```
+
 <div class="alert alert-info trim-p" role="alert">
 
 **Note**: After pulling changes, the Galaxy server needs to be stopped and restarted with the updated code. Restarting will interrupt any running jobs unless you are using a cluster configuration. For more information on how to make Galaxy restartable without interrupting users, see the [production server documentation](/admin/config/performance/production-server/).

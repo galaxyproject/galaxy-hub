@@ -11,6 +11,7 @@ There are several steps needed for using refgenie with Galaxy. The first is to i
 ### Inititalize refgenie
 
 Install refgenie and run `refgenie init`, e.g.:
+
 ```shell
 /$ mkdir refgenie
 /$ cd refgenie
@@ -24,12 +25,14 @@ Initialized genome configuration file: /refgenie/genome_config.yaml
 ```
 
 List available remote genomes:
+
 ```shell
 (venv) /refgenie$ refgenie listr -c genome_config.yaml
   ...
 ```
 
 Install a genome:
+
 ```shell
 (venv) /refgenie$ refgenie pull -c genome_config.yaml -g t7 fasta
   ...
@@ -38,12 +41,14 @@ Install a genome:
 ### Configure Galaxy to load refgenie genomes
 
 Edit `/$GALAXY_ROOT/config/galaxy.yml` to point to the refgenie genome configuration YAML file:
+
 ```yml
   # File containing refgenie configuration, e.g.
   # /path/to/genome_config.yaml. Can be used by refgenie backed tool
   # data tables.
   refgenie_config_file: /refgenie/genome_config.yaml
 ```
+
 and then restart the Galaxy server.
 
 

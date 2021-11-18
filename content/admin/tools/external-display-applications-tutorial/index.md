@@ -88,6 +88,7 @@ This display application requires 2 parameters:
 
 1. The interval file converted to bestrict, named 'bed\_file', to be availabe as [http://some/url/path/galaxy.bed](http://some/url/path/galaxy.bed)
 2. The 'position' (viewport) in the form of CHR:START-END. This is calculated by looking at the first 10 lines of the bed file. This is not available as a URL (viewable is not set to True); but is instead substituted in as part of the URL that users are directed to for display.
+
 ```
 <display id="ucsc_interval_as_bed" version="1.0.0" name="display at UCSC">
     <link id="main" name="main">
@@ -160,6 +161,7 @@ This display application requires 5 parameters:
 3. 'galaxy\_url' containing the url that GeneTrack posts back to for calling peaks.
 4. 'hash\_key' used as a verification check by GeneTrack
 5. 'encoded\_filename' containing the filesystem location to the 'genetrack\_file', which has been encoded using binascii.hexlify
+
 ```
 <display id="genetrack_interval" version="1.0.0" name="view in">
     <link id="genetrack" name="GeneTrack">

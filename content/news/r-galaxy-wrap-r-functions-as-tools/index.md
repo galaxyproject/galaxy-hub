@@ -11,6 +11,7 @@ file.  The new [RGalaxy package](http://bioconductor.org/packages/2.11/bioc/html
 [RGalaxy](http://bioconductor.org/packages/2.11/bioc/html/RGalaxy.html) itself comes with a [man page](http://bioconductor.org/packages/2.11/bioc/vignettes/RGalaxy/inst/doc/Rgalaxy-vignette.pdf), and a [reference manual](http://bioconductor.org/packages/2.11/bioc/manuals/RGalaxy/man/RGalaxy.pdf).
 
 Please note that the package is now available only in the development branch of Bioconductor. So to install it, you need to have R-2.15, and do the following:
+
 ```python
 source("http://bioconductor.org/biocLite.R")
 useDevel()

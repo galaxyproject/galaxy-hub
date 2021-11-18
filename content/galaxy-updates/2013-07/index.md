@@ -411,6 +411,7 @@ $ hg update release_2013.06.03
 ## June 12, 2013 Security Fix
 
 A security vulnerability was recently discovered by Björn Grüning with Galaxy's "user impersonation" feature that can expose an administrator's active history to users whom they impersonate.  Only Galaxy instances with  
+
  ```
 allow_user_impersonation = True
  ```
@@ -418,6 +419,7 @@ allow_user_impersonation = True
 set in their configurations are affected, and only if an administrator makes use of the impersonation feature.  By default, user impersonation is disabled.
 
 A fix (id: 9d42f1e32efb) has been provided in the stable branch of Galaxy.  To apply the fix, ensure you are on the stable branch and upgrade to the latest changeset:
+
  ```
 % hg branch
 stable
@@ -426,21 +428,25 @@ stable
  ```
 
 For Galaxy installations on relatively old versions that administrators are not yet ready to upgrade, there are three workarounds.  First, the patch can be downloaded and applied manually:
+
  ```
 % wget -o security.patch https://bitbucket.org/galaxy/galaxy-central/commits/9d42f1e32efb654fda1e011dc66a4aa5888717f1/raw/
  ```
 
 and then:
+
  ```
 % hg patch security.patch
  ```
 
 or:
+
  ```
 % patch -p1 < security.patch
  ```
 
 Second, the impersonation feature can be disabled by setting the following option in Galaxy's configuration file:
+
  ```
 allow_user_impersonation = False
  ```

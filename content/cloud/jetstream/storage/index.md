@@ -60,6 +60,7 @@ use it:
   none              102400        0    102400   0% /run/user
   /dev/sdb       980385892    95308 930466840   1% /vol1
   ```
+
   In this case, the volume is available under `/vol1`. If that is the case,
   just replace all occurances of `vol_c` in the commands with the available
   path.

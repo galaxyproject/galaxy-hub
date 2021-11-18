@@ -118,12 +118,14 @@ currently not represented in the display.
 
 3 Galaxy will then source the following file prior to executing the tool's
 <command>:
+
 ```
   <tool_dependency_dir>/<NAME>/<X.Y.Z>/env.sh
 ```
 
 4 The 'version' attribute of the 'requirement' tag is optional and if left
 off, Galaxy will look for the following instead:
+
 ```
   <tool_dependency_dir>/<NAME>/default/env.sh
 ```

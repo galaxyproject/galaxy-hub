@@ -153,6 +153,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
     ```
 
 <action type="template_command" language="cheetah">...</action>
+
 ```
 
 1. #3 Allow public usernames in the tool shed to be a minimum of 3 characters instead of the Galaxy minimum of 4 characters.

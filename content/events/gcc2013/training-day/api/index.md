@@ -176,16 +176,19 @@ local filesystem.
 ```
 
 Let's load the API key into our terminal session:
+
 ```bash
 source apiworkshop-setup.sh
 ```
 
 And check what environment variables it's added. First, the API key:
+
 ```bash
 echo $GALAXY_API_KEY
 ```
 
 then the **base url** of where our Galaxy installation is served:
+
 ```bash
 echo $GALAXY_BASE_URL
 ```
@@ -230,6 +233,7 @@ in `common.py` with the key authentication.
 ```
 
 Here's the data the users_1.py script should return (if all went well):
+
 ```bash
 [ { u'email': u'apiworkshop@example.com',
     u'id': u'1cd8e2f6b131e891',
@@ -248,6 +252,7 @@ during the workshop for both dictionary keys and values. They're a special strin
 writing systems but for all intents and purposes here they can be thought of as normal strings.
 
 Now - try the first iteration of our main script, step_1.py.
+
 ```bash
 ./step_1.py
 ```
@@ -270,6 +275,7 @@ histories_1.py allows us to get (summary) data on all our histories using the GE
 
 Calling histories_1.py from the command line should show us a single, 'Unnamed history' complete with Id, name, and
 other attributes. Note that, even though there is only one history, the form of the data returned is a list:
+
 ```bash
 [ { u'deleted': False,
     u'id': u'c24141d7e4e77705',
@@ -326,6 +332,7 @@ Many resources in the Galaxy API will have index and show methods for reading an
 ## Errors!
 
 Now that we have something we can pass an argument to (and therefore break), let's break it! Try entering this:
+
 ```bash
 histories_2.py bler
 ```
@@ -367,11 +374,13 @@ the code to find out.
 
 histories_3.py is also set up to create a new history from the command line now but since we're also doing that in
 step_3.py, we'll just call that:
+
 ```bash
 ./step_3.py
 ```
 
 The output:
+
 ```bash
 created history! Step 3
 new history:
@@ -419,11 +428,13 @@ from `show`). This is a common pattern for the API when dealing with **container
 and tell the API to do something with the *contents*.
 
 ./step_4.py does everything that steps 1 to 3 do and then queries the HDAs in the new history:
+
 ```bash
 ./step_4.py
 ```
 
 The output:
+
 ```bash
 created history! Step 4
 HDAs:
@@ -463,6 +474,7 @@ The takeaway here is that, to run a tool we combine four things:
 ```
 
 The output:
+
 ```bash
 created history! Step 5
 uploaded hda! myIlluminaRun.solexa.fastq
@@ -495,6 +507,7 @@ There's our uploaded file in Galaxy.
 ### Asynchronous
 
 Note the `state` attribute of the uploaded file:
+
 ```bash
 u'state': u'queued',
 ```
@@ -527,6 +540,7 @@ Most of our changes will be 'local' this time in the step_6.py version of our fi
 and the `state` information from the HDA `show` api to **wait** for the upload to finish.
 
 The psuedo code for this loop might look like this:
+
 ```
 Get the state of the HDA from the API
 While the state isn't 'ok':
@@ -542,6 +556,7 @@ development so you know what's going on.
 ```
 
 The output:
+
 ```bash
 created history! Step 6
 uploaded hda! myIlluminaRun.solexa.fastq
@@ -582,6 +597,7 @@ check out `scripts/api/workflow_execute` and `scripts/api/workflow_execute_param
 ```
 
 The output:
+
 ```bash
 created history! Step 7
 uploaded hda! myIlluminaRun.solexa.fastq
@@ -648,11 +664,13 @@ the LibraryDatasetDatasetAssociation or LDDA resource - which we'll cover a bit)
 and LDDAs that often (effectively) 'strip' or ignore the information about the datasets' containers.
 
 Let's try datasets_1.py, tho, to see something important:
+
 ```bash
 ./datasets_1.py
 ```
 
 The output:
+
 ```bash
 Traceback (most recent call last):
 ...
@@ -687,11 +705,13 @@ them easier to use and more powerful in general.
 See the `datasets_3.get_dataset_column` for an example of how to use the datasets API to get raw data from a file.
 
 Let's now run step 8:
+
 ```bash
 ./step_8.py
 ```
 
 The output:
+
 ```bash
 uploaded hda! myIlluminaRun.solexa.fastq
      uploaded_hda_state: queued
@@ -747,11 +767,13 @@ in your browser - by navigating to the most recent 'Step 9' history and opening 
 reverse reads.
 
 Step 9 will, however, show us the changed names of the HDAs:
+
 ```bash
 ./step_9.py
 ```
 
 The output:
+
 ```bash
 created history! Step 9
 uploaded hda! myIlluminaRun.solexa.fastq
@@ -794,11 +816,13 @@ folders within them. Libraries (and their contents) can also be imported or expo
 making it a good candidate of data communication or migration **between Galaxy instances**.
 
 Step 9 will, however, show us the changed names of the HDAs:
+
 ```bash
 ./step_10.py
 ```
 
 The output:
+
 ```bash
 created history! Step 10
 uploaded hda! myIlluminaRun.solexa.fastq

@@ -125,6 +125,7 @@ The tool shed used to be named the * "Galaxy Community Space" *, so there are se
 1. community_webapp.log => tool_shed_webapp.log
 
 The original ` community_wsgi.ini ` file had this entry:
+
 ```
 [app:main]
 # Specifies the factory for the universe WSGI application
@@ -133,6 +134,7 @@ paste.app_factory = galaxy.webapps.community.buildapp:app_factory
 
 
 The above entry should be changed to the following in your local renamed ` tool_shed_wsgi.ini ` file (notice that "community" has been changed to be "tool_shed"):
+
 ```
 [app:main]
 # Specifies the factory for the universe WSGI application

@@ -20,6 +20,7 @@ Note that this script was originally called run_functional_tests.sh (which curre
 **2.`nosetests.sh`:** wrapper of `nosetests.py`
 
 **3.`nosetests.py`**
+
 ```
 nosetests.py ~[~[options]|[(optional) test files or directories]]
 options: see appendix I, “Nose options”
