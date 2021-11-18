@@ -1,6 +1,7 @@
 ---
 title: Birds of a Feather (BoF) Flock Together at GCC2013
 ---
+
 <slot name="/events/gcc2013/header" />
 
 import links from "../links.json"
@@ -8,7 +9,11 @@ import links from "../links.json"
 
 <slot name="/events/gcc2013/bof/linkbox" />
 
-<div class='left'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="250" /></div>
+<div class="left img-sizer" style="width: 250px">
+
+![Birds of a Feather logo](/images/logos/GCC2013BoFLogo.png)
+
+</div>
 
 Past Galaxy Community Conferences have been *the* event for networking in the Galaxy: There is no better place to meet and learn from others doing high-throughput biology.  GCC2013 will extend this tradition by including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_(computing))* meetups at the event.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.  Bof meetups are a natural combination of the informal meetups and the scheduled *[Breakout](/events/gcc2012/program/breakouts/)* sessions that were already happening at previous GCC's.
 
@@ -37,25 +42,10 @@ This is a list of all the BoFs that have been proposed for GCC2013.  See the [Bo
 
 Please add your BoF to this table so that other's can plan their BoF so as to minimize timing conflicts.
 
-<table>
-  <tr class="th" >
-    <th> </th>
-    <th> Day 0: Sun </th>
-    <th> Day 1: Mon </th>
-    <th> Day 2: Tue </th>
-  </tr>
-  <tr>
-    <th> Lunch </th>
-    <td> <a href='/events/gcc2013/bof/galaxy-blast/'>BLAST+ Wrappers</a>, ... </td>
-    <td> <a href='/events/gcc2013/bof/galaxy-admins/'>GalaxyAdmins BoF</a>, <a href='/events/gcc2013/bof/proteomics/'>Proteomics</a>, <a href='/events/gcc2013/bof/clinical-use-hpc-file-systems/'>Galaxy Clinical Use Survey and HPC Filesystems</a> <a href='/events/gcc2013/bof/galaxy-professionals/'>Galaxy Professionals</a></td>
-  </tr>
-  <tr>
-    <th> <a href='/events/gcc2013/program/#escape-to-the-pub'>Evening</a> </th>
-    <td> <a href='/events/gcc2013/bof/public-galaxy-servers/'>Public Galaxy Servers</a>  </td>
-    <td> <a href='/events/gcc2013/bof/tool-developers/'>Tool Developers</a> </td>
-    <td> Conference<br />Dinner </td>
-  </tr>
-</table>
+|       | Day 0: Sun     | Day 1: Mon                                                 | Day 2: Tue |
+|-------|----------------|------------------------------------------------------------|------------|
+| Lunch | [BLAST+ Wrappers](/events/gcc2013/bof/galaxy-blast/), ... | [GalaxyAdmins BoF](/events/gcc2013/bof/galaxy-admins/), [Proteomics](/events/gcc2013/bof/proteomics/), [Galaxy Clinical Use Survey and HPC Filesystems](/events/gcc2013/bof/clinical-use-hpc-file-systems/), [Galaxy Professionals](/events/gcc2013/bof/galaxy-professionals/) |
+| [Evening](/events/gcc2013/program/#escape-to-the-pub) | [Public Galaxy Servers](/events/gcc2013/bof/public-galaxy-servers/) | [Tool Developers](/events/gcc2013/bof/tool-developers/) | Conference Dinner |
 
 
 ## Want to plan a BoF?
