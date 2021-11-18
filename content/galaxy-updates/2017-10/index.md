@@ -163,7 +163,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 </tr>
 <tr>
   <td><span class="text-nowrap">November 30th 2017</span></td>
-  <td><a href="https://www.abdn.ac.uk/genomics/documents/201718_Workshops/Genome_Assembly_2017.pdf">Genome	Assembly	and	Annotation</a></td>
+  <td><a href="https://www.abdn.ac.uk/genomics/documents/201718_Workshops/Genome_Assembly_2017.pdf">Genome Assembly and Annotation</a></td>
   <td><img style="float:right" src="/images/icons/EU.png"/><a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen, Scotland, United Kingdom</a></td>
   <td><a href="https://training.galaxyproject.org/"><img style="float:right" alt="Training offered by GTN Member" src="/images/galaxy-logos/GTN16.png" title="Training offered by GTN Member"/></a>Sophie Shaw</td>
 </tr>

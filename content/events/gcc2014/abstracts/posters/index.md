@@ -430,7 +430,7 @@ This talk will be about our experiences while integrating Galaxy with GenomeClou
 <br />
 
 
-=== P24: GenomeSpace: An Environment for Frictionless Bioinformatics	===
+=== P24: GenomeSpace: An Environment for Frictionless Bioinformatics ===
 
 **Michael Reich<sup>1</sup>**, John Liefeld<sup>1</sup>, Marco Ocana<sup>1</sup>, Donkeung Jang<sup>1</sup>, James Robinson<sup>1</sup>, Peter Carr<sup>1</sup>, Barbara Hill<sup>1</sup>, Thorin Tabor<sup>1</sup>, Helga Thorvaldsdottir<sup>1</sup>, Aviv Regev<sup>1</sup>, Jill P. Mesirov<sup>1</sup>
 

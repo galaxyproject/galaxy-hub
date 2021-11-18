@@ -160,15 +160,15 @@ This will generate the following quality value distributions:
 
 
 <div class="panel panel-info">
-	<div class="panel-heading">
-  		<a data-toggle="collapse" href="#qc" aria-expanded="false" aria-controls="collapseExample">
-     		<i class="fa fa-question-circle" aria-hidden="true"></i> What can you tell about these data?
-    	</a>
-  	</div>
-  	<div class="panel-body collapse" id="qc">
+ <div class="panel-heading">
+    <a data-toggle="collapse" href="#qc" aria-expanded="false" aria-controls="collapseExample">
+       <i class="fa fa-question-circle" aria-hidden="true"></i> What can you tell about these data?
+     </a>
+   </div>
+   <div class="panel-body collapse" id="qc">
         - The read length is 99 bp<br>
         - The quality of base calls declines throughout a sequencing run.
-  	</div>
+   </div>
 </div>
 
 ## Dynamically trim low quality bases from reads' 3' ends
@@ -198,14 +198,14 @@ Now that we've ran `trimmomatic` let's see if it had any effect on our data. We 
 | `G1E_R1_f_ds_SRR549355`                        | `G1E_R1_r_ds_SRR549355`                        |
 
 <div class="panel panel-info">
-	<div class="panel-heading">
-  		<a data-toggle="collapse" href="#qc_after_trim" aria-expanded="false" aria-controls="collapseExample">
-     		<i class="fa fa-question-circle" aria-hidden="true"></i> What is the effect of trimming on the data?
-    	</a>
-  	</div>
-  	<div class="panel-body collapse" id="qc_after_trim">
+ <div class="panel-heading">
+    <a data-toggle="collapse" href="#qc_after_trim" aria-expanded="false" aria-controls="collapseExample">
+       <i class="fa fa-question-circle" aria-hidden="true"></i> What is the effect of trimming on the data?
+     </a>
+   </div>
+   <div class="panel-body collapse" id="qc_after_trim">
         The average quality of base calls does not drop off as sharply at the 3' ends of reads.
-  	</div>
+   </div>
 </div>
 
 ## Is this a stranded RNAseq experiment?
@@ -492,13 +492,13 @@ NM_133804    257.129 -10.262  1.509 -6.798 1.060e-11 9.737e-10
 ```
 where:
 
-1.	Gene identifiers
-2.	Mean normalized counts, averaged over all samples from both conditions
-3.	log<sub>2</sub> of the fold change (the values correspond to up- or downregulation relative to the condition listed as Factor level 1)
-4.	Standard error estimate for the log2 fold change estimate
-5.	[Wald](https://en.wikipedia.org/wiki/Wald_test) statistic
-6.	*p*-value for the statistical significance of this change
-7.	*p*-value adjusted for multiple testing with the Benjamini-Hochberg procedure which controls false discovery rate ([FDR](https://en.wikipedia.org/wiki/False_discovery_rate))
+1. Gene identifiers
+2. Mean normalized counts, averaged over all samples from both conditions
+3. log<sub>2</sub> of the fold change (the values correspond to up- or downregulation relative to the condition listed as Factor level 1)
+4. Standard error estimate for the log2 fold change estimate
+5. [Wald](https://en.wikipedia.org/wiki/Wald_test) statistic
+6. *p*-value for the statistical significance of this change
+7. *p*-value adjusted for multiple testing with the Benjamini-Hochberg procedure which controls false discovery rate ([FDR](https://en.wikipedia.org/wiki/False_discovery_rate))
 
 ## Making sense of the results
 
@@ -528,12 +528,12 @@ MSTRG.78.1   645.022  10.656  1.195  8.915 4.873e-19 1.342e-160    0.000   0.000
 The last four columns are normalized reads counts for two megakarycyte and two G1E replicates, respectively. You can see that for `MSTRG.977.1`  log<sub>2</sub> fold change is `-10.030` and there are practically no G1E reads. Conversely, in the case of `MSTRG.78.1` log<sub>2</sub> fold change is `10.656` and there are no megakaryocyte reads. This is this case because we set `G1E` as the Factor level 1 while running `DeSeq2` and positive change implies *downregulation* in megakaryocytes compared to G1E cells and vice versa. So to find all genes upregulated in Mk, for example, one would need to filter `DeSeq2` output for fold change below 0.
 
 <div class="panel panel-info">
-	<div class="panel-heading">
-  		<a data-toggle="collapse" href="#upreg" aria-expanded="false" aria-controls="collapseExample">
-     		<i class="fa fa-question-circle" aria-hidden="true"></i> How many transcripts are upregulated in megakaryocytes at 1% significance level?
-    	</a>
-  	</div>
-  	<div class="panel-body collapse" id="upreg">
+ <div class="panel-heading">
+    <a data-toggle="collapse" href="#upreg" aria-expanded="false" aria-controls="collapseExample">
+       <i class="fa fa-question-circle" aria-hidden="true"></i> How many transcripts are upregulated in megakaryocytes at 1% significance level?
+     </a>
+   </div>
+   <div class="panel-body collapse" id="upreg">
 
 \- Filter `DeSeq2` output using `c3 < 0 and c7 < 0.01` expression.  
 \- There will be around 40 genes.

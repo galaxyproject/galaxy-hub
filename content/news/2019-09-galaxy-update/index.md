@@ -79,7 +79,7 @@ The next day will be on the 12th of September. Anyone who would like to contribu
 [QFAB Training](https://qfab.org/training) is offering 5 training  topics in 5 days at the end of September:
 
 * [NGS Platforms: how data generation impacts bioinformatics analysis - quality control](https://qfab.org/training/NGS%20Platforms%3A%20how%20data%20generation%20impacts%20bioinformatics%20analysis), 23 September
-* [Genome assembly using Galaxy](https://qfab.org/training/Genome%20assembly%20with%20Galaxy), 24 September 	
+* [Genome assembly using Galaxy](https://qfab.org/training/Genome%20assembly%20with%20Galaxy), 24 September  
 * [RNA-Seq analysis using Galaxy](https://qfab.org/training/RNA-Seq%20analysis%20using%20Galaxy), 25 September
 * [Variant detection using Galaxy](https://qfab.org/training/Variant%20detection%20using%20Galaxy), 26 September
 * [Metagenomics analysis using Galaxy](https://qfab.org/training/Metagenomics%20using%20Galaxy), 27 September

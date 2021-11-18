@@ -67,7 +67,7 @@ You will need bash and anaconda set up.  Please follow the installation instruct
 
 | Time | Topic |
 |:----:| ----- |
-| 9:00a -   9:30a	| Software check |
+| 9:00a -   9:30a | Software check |
 | 9:30a - 10:15a | Navigating the shell; file creation & manipulation; basic loops. |
 | 10:15a - 10:30a | Break |
 | 10:30a - 11:15a | Editing text files and simple bash scripts |
@@ -112,7 +112,7 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 | Time | Topic |
 |:----:| ----- |
-| 9:00a - 9:30a	| Workshop & Participant Introductions |
+| 9:00a - 9:30a | Workshop & Participant Introductions |
 | 9:30a - 10:15a | Navigating CyVerse, finding data, and exploring tools |
 | 10:15a - 10:30a | Break |
 | 10:30a - 11:00a| Navigating CyVerse, continued |

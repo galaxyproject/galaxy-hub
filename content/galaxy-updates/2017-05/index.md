@@ -46,8 +46,8 @@ We are pleased to welcome [BioTeam](https://bioteam.net/products/galaxy-applianc
 
 | Model | Price |
 | ---- | ---- |
-| Galaxy Appliance Base Model 384/32	     | $29,995 USD |
-| Galaxy Appliance Base Model 384/96		 | $45,495 USD |
+| Galaxy Appliance Base Model 384/32      | $29,995 USD |
+| Galaxy Appliance Base Model 384/96   | $45,495 USD |
 | Galaxy Appliance Enhanced Model 512/32 | $32,995 USD |
 | Galaxy Appliance Enhanced Model 512/96 | $48,995 USD |
 
@@ -222,7 +222,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 Some highlights from the papers added last month:
 
- 	
+  
 * [Genome Build Information Is An Essential Part Of Genomic Track Files](https://doi.org/10.1101/120923)
    Chakravarthi Kanduri, Diana Domanska, Eivind Hovig, Geir K. Sandve. *bioRxiv* (2017), doi:10.1101/120923
 

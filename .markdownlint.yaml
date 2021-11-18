@@ -46,7 +46,11 @@ MD005: false # list-indent
 MD006: false # ul-start-left
 MD007: false # ul-indent
 MD009: true # no-trailing-spaces
-MD010: false # no-hard-tabs
+
+
+MD010: # MD010/no-hard-tabs
+  code_blocks: false # ignore tabs in code blocks, which are generally intentional
+
 MD011: false # no-reversed-links
 MD012: false # no-multiple-blanks
 MD014: false # commands-show-output

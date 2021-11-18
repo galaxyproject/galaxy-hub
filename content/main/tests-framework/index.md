@@ -10,10 +10,10 @@
 **Details:**
 ** 1. `run_tests.sh`:**
 * '`run_tests.sh help`' for help
-* '`run_tests.sh`'		for testing all the tools in functional directory
-*  '`run_tests.sh aaa`'		for testing one test case, 'aaa'
-* '`run_tests.sh -id bbb`'	for testing one tool with id 'bbb'
-*  '`run_tests.sh -list`'		for listing all the tool ids
+* '`run_tests.sh`'  for testing all the tools in functional directory
+*  '`run_tests.sh aaa`'  for testing one test case, 'aaa'
+* '`run_tests.sh -id bbb`' for testing one tool with id 'bbb'
+*  '`run_tests.sh -list`'  for listing all the tool ids
 
 Note that this script was originally called run_functional_tests.sh (which currently exists as an alias for back-compatibility).
 

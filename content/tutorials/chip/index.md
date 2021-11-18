@@ -51,19 +51,19 @@ There are four datasets:
 
 <!-- Modal for Library import video -->
 <div class="modal fade" id="lib_video" tabindex="-1" role="dialog" aria-labelledby="libVid">
-  	<div class="modal-dialog" role="document">
-    	<div class="modal-content">
-      		<div class="modal-header">
-        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        		<h4 class="modal-title" id="myModalLabel">Importing from History</h4>
-      		</div>
-      		<div class="modal-body">
-      			<div class="embed-responsive embed-responsive-16by9">
-  					<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212753639"></iframe>
-				</div>
-			</div>
-    	</div>
-  	</div>
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Importing from History</h4>
+        </div>
+        <div class="modal-body">
+         <div class="embed-responsive embed-responsive-16by9">
+       <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212753639"></iframe>
+    </div>
+   </div>
+     </div>
+   </div>
 </div>
 
 These datasets are deposited in a [Galaxy library](https://usegalaxy.org/libraries/folders/F050cbba300e2dbed) (watch <a href="#" data-toggle="modal" data-target="#lib_video">Video</a> on how to import data from a library):
@@ -76,19 +76,19 @@ These datasets are deposited in a [Galaxy library](https://usegalaxy.org/librari
 
 <!-- Modal for Creating collection video -->
 <div class="modal fade" id="collection_create_video" tabindex="-1" role="dialog" aria-labelledby="collection_create_Vid">
-  	<div class="modal-dialog" role="document">
-    	<div class="modal-content">
-      		<div class="modal-header">
-        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        		<h4 class="modal-title" id="myModalLabel">Creating a dataset collection | Single end data</h4>
-      		</div>
-      		<div class="modal-body">
-      			<div class="embed-responsive embed-responsive-16by9">
-  					<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212757252"></iframe>
-				</div>
-			</div>
-    	</div>
-  	</div>
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Creating a dataset collection | Single end data</h4>
+        </div>
+        <div class="modal-body">
+         <div class="embed-responsive embed-responsive-16by9">
+       <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212757252"></iframe>
+    </div>
+   </div>
+     </div>
+   </div>
 </div>
 
 
@@ -111,19 +111,19 @@ In this particular case the data is of very high quality and do not need to be t
 
 <!-- Modal for Renaming collection video -->
 <div class="modal fade" id="collection_rename_video" tabindex="-1" role="dialog" aria-labelledby="collection_rename_Vid">
-  	<div class="modal-dialog" role="document">
-    	<div class="modal-content">
-      		<div class="modal-header">
-        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        		<h4 class="modal-title" id="myModalLabel">Renaming a collection</h4>
-      		</div>
-      		<div class="modal-body">
-      			<div class="embed-responsive embed-responsive-16by9">
-  					<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212758694"></iframe>
-				</div>
-			</div>
-    	</div>
-  	</div>
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Renaming a collection</h4>
+        </div>
+        <div class="modal-body">
+         <div class="embed-responsive embed-responsive-16by9">
+       <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212758694"></iframe>
+    </div>
+   </div>
+     </div>
+   </div>
 </div>
 
 
@@ -277,19 +277,19 @@ We will use **NGS: DeepTools &rarr; bamCoverage**:
 
 <!-- Modal for displaying in IGV -->
 <div class="modal fade" id="igv_video" tabindex="-1" role="dialog" aria-labelledby="igv_Vid">
-  	<div class="modal-dialog" role="document">
-    	<div class="modal-content">
-      		<div class="modal-header">
-        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        		<h4 class="modal-title" id="myModalLabel">Displaying multiple datasets in IGV</h4>
-      		</div>
-      		<div class="modal-body">
-      			<div class="embed-responsive embed-responsive-16by9">
-  					<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/123414437"></iframe>
-				</div>
-			</div>
-    	</div>
-  	</div>
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Displaying multiple datasets in IGV</h4>
+        </div>
+        <div class="modal-body">
+         <div class="embed-responsive embed-responsive-16by9">
+       <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/123414437"></iframe>
+    </div>
+   </div>
+     </div>
+   </div>
 </div>
 
 

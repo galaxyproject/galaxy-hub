@@ -17,7 +17,7 @@ BoF meetups are encouraged throughout GCC2015.  We particularly want to encourag
 
 | BoF | When | Where | Summary | Audience |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| [**Common Workflow Language**](/events/gcc2015/bofs/cwl/) | Wednesday, 8 July, 18:00 | Franklin Room, JICCC | Talk with CWL founders & enthusiasts	Research software engineers, analysts, developers, and the like. |
+| [**Common Workflow Language**](/events/gcc2015/bofs/cwl/) | Wednesday, 8 July, 18:00 | Franklin Room, JICCC | Talk with CWL founders & enthusiasts Research software engineers, analysts, developers, and the like. |
 | [**Data management challenges for larger galaxy installations**](/events/gcc2015/bofs/data-management-challenges/) | Wednesday, 8 July, 12:30 (Lunch) | Franklin Room, JICCC | Data management challenges for larger Galaxy installations. | People using Galaxy to process large numbers of files |
 | [**Data Splitting and Parallelism**](/events/gcc2015/bofs/data-splitting-and-parallelism/) | Tuesday, 7 July, 12:30 (lunch) | Watson Room, JICCC | Developer focused meeting to discuss data splitting and parallelism in Galaxy | Developers interested in working on internals Galaxy itself |
 | [**ELIXIR-Galaxy Workshop**](/events/gcc2015/bofs/elixir/) | Tuesday, 7 July, 18:00 | Genome Seminar Room, in the nearby The Genome Analysis Center (TGAC) | Discuss technical strategy across the ELIXIR pan-European bioinformatics infrastructure with regards the provision of Galaxy services and infrastructure | Any group using or planning to use Galaxy  |
