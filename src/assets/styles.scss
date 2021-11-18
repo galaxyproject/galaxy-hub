@@ -137,6 +137,7 @@ footer {
 /* override bootstrap float-left and float-right styling */
 
 .float-right {
+    z-index: 100;
     margin: 0em 0em 1em 1em;
 }
 
