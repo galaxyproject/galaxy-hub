@@ -152,17 +152,6 @@ p.trim-p,
     padding-bottom: 0.4em;
     line-height: 1.3em;
 }
-/* Keep headings from expanding to the entire width of the line (and occluding
- * other elements that might have floated up to the right of it).
- */
-.markdown h1,
-.markdown h2,
-.markdown h3,
-.markdown h4,
-.markdown h5,
-.markdown h6 {
-    display: inline-block;
-}
 /* Replacement for .table and .table-striped on Markdown tables.
  * Until we can get those classes inserted into the table elements themselves.
  */
