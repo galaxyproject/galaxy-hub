@@ -675,7 +675,7 @@ Topic tags indicate how the publication relates to Galaxy.  Here's the current s
 | [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/main/), in its methods. | 2013 |
 | [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | Uses a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/) in its methods. | 2013 |
 | [+Visualization](https://www.zotero.org/groups/galaxy/items/tag/+Visualization/) | Publications referencing Galaxy in a visualization and/or visual analytics context. | 2013 |
-| [+Education]() | Papers referencing Galaxy in a training or education context. | 2019 |
+| [+Education](https://www.zotero.org/groups/galaxy/items/tag/+Education/) | Papers referencing Galaxy in a training or education context. | 2019 |
 
 ## Galaxy Featured Tags
 

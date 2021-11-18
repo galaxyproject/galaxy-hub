@@ -33,8 +33,8 @@ MD033: false
 MD035: false
 MD036: false # no-emphasis-as-heading/no-emphasis-as-header
 MD040: false
-MD041: false
-MD042: false
+MD041: false # first-line-heading/first-line-h1
+MD042: true  # no-empty-links
 MD043: false
 MD045: false
 MD046: false

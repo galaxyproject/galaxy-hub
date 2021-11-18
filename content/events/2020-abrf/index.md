@@ -46,7 +46,6 @@ Participants will perform hands-on guided exercises analyzing and visualizing sc
 **Links**
 
 * [Intro Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-ashg/single-cell-slides.pdf)
-* [Tutorial]()
 
 # SW4b: Galaxy Platform for Functional Characteristics of Microbiomes (PM)
 

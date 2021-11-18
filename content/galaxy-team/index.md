@@ -193,7 +193,7 @@ Luke Sargent
 <div class='col-md-3'>
 
 [![Nicola Soranzo](/galaxy-team/nicola.jpeg)](http://www.earlham.ac.uk/nicola-soranzo)
-[Nicola Soranzo]()
+[Nicola Soranzo](http://www.earlham.ac.uk/nicola-soranzo)
 [Earlham Institute](http://earlham.ac.uk/)
 
 </div>

@@ -84,7 +84,7 @@ It's all about community.  There are many Galaxy communities and one (or more) o
 
 ## Admin Documentation
 
-[Admin documentation]() is everywhere.  Add some links.
+[Admin documentation](/admin/) is everywhere.  Add some links.
 
 ## Admin Training
 
