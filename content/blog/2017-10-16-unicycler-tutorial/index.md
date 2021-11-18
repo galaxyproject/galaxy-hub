@@ -12,7 +12,7 @@ If you are impatient (like me) and would like to try assembly right away - go to
 
 </div>
 
-Perhaps assembly is spelled **ass**embly for a reason - it is complicated. When I first needed to perform assembly I was uneasy about it - I had never done it before. What I needed was to sequence a genome of an *E. coli* type C-1 that my lab was using in experimental evolution experiments (e.g., [Dickins 2009](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2817424/)). We had generated data and were sitting figuring out what to do with it. Here I describe our logic and how we ended up with integrating genome assembly into Galaxy, so *you* can use your time more wisely. 
+Perhaps assembly is spelled **ass**embly for a reason - it is complicated. When I first needed to perform assembly I was uneasy about it - I had never done it before. What I needed was to sequence a genome of an *E. coli* type C-1 that my lab was using in experimental evolution experiments (e.g., [Dickins 2009](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2817424/)). We had generated data and were sitting figuring out what to do with it. Here I describe our logic and how we ended up with integrating genome assembly into Galaxy, so *you* can use your time more wisely.
 
 ## Getting data
 
@@ -38,7 +38,7 @@ We installed Spades 3.11.1 using [Bioconda](https://bioconda.github.io/recipes/s
 
 ```
 spades.py -k 21,33,55,77,99,127 -1 forward_miseq_reads.fastq -2 reverse_miseq_reads.fastq --nanopore nanopore_reads.fastq  -t 20 -o assembly    
-```      
+```
 
 It produced the following assembly (for distinction between contigs and scaffolds [see here](https://support.ncbi.nlm.nih.gov/link/portal/28045/28049/Article/752/How-are-genome-assemblies-generated-and-what-are-assembly-levels)):
 
@@ -61,7 +61,7 @@ Here you can see that the largest scaffold is 4,575,240 bp which is very close t
 |![](./spades_graph.png)|
 |<small>**Figure 3.** SPAdes assembly graph. Repeat resolution and scaffolding along this graph produces contigs and scaffolds produced by SPAdes. This is why sequences reported by assembler are longer that nodes shown in this graph.</small>|
 
-At the bottom of this graph there is a very large number of subgraphs disconnected from the main graph. It was not clear to me what to do with them and what is their significance. 
+At the bottom of this graph there is a very large number of subgraphs disconnected from the main graph. It was not clear to me what to do with them and what is their significance.
 
 ### Unicycler to the rescue
 
@@ -74,7 +74,7 @@ Applying Unicycler to the same data produces just two (instead of 2,271!) contig
 | Statistics                       | Contigs   |
 |----------------------------------|-----------|
 | # contigs/scaffolds > 0 bp       | 2         |
-| # contigs/scaffolds &#8925; 1,000 bp  | 2    | 
+| # contigs/scaffolds &#8925; 1,000 bp  | 2    |
 | Total length > 0 bp              | 4,581,676   |
 | Total length &#8925; 1000 bp     | 4,581,676   |
 | Largest contig          | 4,576,290   |
@@ -90,7 +90,7 @@ and the final assembly graph that looks like this:
 |![](./unicycler_graph.png)|
 |<small>**Figure 4.** Unicycler final assembly graph.</small>|
 
-The second short contig is simply the complete genome of bacteriophage &#632;X174, which is added as spike-in in Illumina sequencing protocol. 
+The second short contig is simply the complete genome of bacteriophage &#632;X174, which is added as spike-in in Illumina sequencing protocol.
 
 So after doing all of this the obvious question is why not to enable assembly is Galaxy?
 
@@ -100,7 +100,7 @@ Unicycler has proven to be a great tool. So with help of [Bj&#246;rn Gr&#252;nin
 
 <div class="float-right">
 ![Bridges](./bridges.jpg)
-</div> 
+</div>
 
 By allowing assembly tools in Galaxy we are also allowing multiple users to perform assembly simultaneously. This requires substantial computational resources. Execution of Unicycler on Galaxy [main instance](http://usegalaxy.org) actually takes place on [Bridges supercomputer](https://www.psc.edu/bridges) at the Pittsburgh Supercomputing Center. This resource allocation is provided by a grant from the [XSEDE](https://www.xsede.org/) consortium for which we are extremely grateful.
 
@@ -113,7 +113,7 @@ The Unicycler interface in Galaxy looks like this:
 
 <div class="float-right">
 ![Bridges](./prokka.jpg)
-</div> 
+</div>
 
 But it's not just Unicycler, we've also integrated [Quast](http://bioinf.spbau.ru/quast) to evaluate assembly quality and [Prokka](http://www.vicbioinformatics.com/software.prokka.shtml) to produce annotations. So you can start with sequencing reads and end up with full-fledged annotated genome:
 

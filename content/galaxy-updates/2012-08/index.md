@@ -65,7 +65,7 @@ These papers were among [29 papers added to the Galaxy CiteULike group](http://w
 The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) was held July 25-27, in Chicago.  Highlights included:
 
 * the inaugural and very well attended [GCC Training Day](/events/gcc2012/training-day/) (featuring 12 hands-on sessions on 10 different topics)
-* a [main program](/events/gcc2012/program/) with 8 sessions, [27 talks](/events/gcc2012/abstracts/), 
+* a [main program](/events/gcc2012/program/) with 8 sessions, [27 talks](/events/gcc2012/abstracts/),
 * [10 lightning talks](/events/gcc2012/lightning-talks/) (and many more proposals)
 * [6 breakout sessions](/events/gcc2012/program/breakouts/),
 * Ion Torrent as the [Platinum Sponsor](/events/gcc2012/#sponsors), EMC Isilon as the [Gold Sponsor](/events/gcc2012/#sponsors), and an amazing [eight Host and Silver Sponsors](/events/gcc2012/#sponsors).
@@ -94,16 +94,16 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 <div class='center'>
 <a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'><img src="/images/logos/UIowaLogo.jpg" alt="Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation" height="75" /></a>  
-<a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>   
+<a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>
 <a href='http://genetics.cmc-uct.co.za/'><img src="/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
 <a href='/events/switzerland2012/'><img src="/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="75" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
-There are August application, poster, and paper deadlines for 
+There are August application, poster, and paper deadlines for
 * [Extending High-Performance Computing Beyond its Traditional User Communities](http://www.psc.edu/events/escience-2012-workshop/) (deadline August 6)
 * International Digital Curation Conference (deadline August 20)
 * Analysis of High-Throughput Sequencing Data, EMBO Practical Course (deadline August 24)
@@ -182,18 +182,18 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 <div class='right'><a href='/events/switzerland2012/'><img src="/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
 
-The 1<sup>st</sup> [Swiss Galaxy Workshop](/events/switzerland2012/) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
- 
-We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research. 
- 
-The workshop is part of the SyBIT Tech Day series. 
+The 1<sup>st</sup> [Swiss Galaxy Workshop](/events/switzerland2012/) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience.
+
+We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research.
+
+The workshop is part of the SyBIT Tech Day series.
 
 
 ## Tool Shed Contributions
 
 Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in July.
 
-* `nosql_interface` query and download data from MongoDB and CouchDB NoSQL databases 
+* `nosql_interface` query and download data from MongoDB and CouchDB NoSQL databases
 * `synapse_interface` interface with Sage Bionetworks Synapse platform
 * `mtls_analysis`: Analyze and compare multiple ChIP-seq experiments
 * `trinityrnaseq`: De novo assembly of rna-seq data coupled with downstream analyses
@@ -207,12 +207,12 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 
 A new Galaxy distribution was [released on July 20, 2012](/archive/dev-news-briefs/2012-07-20/).  Highlights include:
 * **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)*
-* **[EMBOSS](http://emboss.sourceforge.net/)** version 5.0.0 tool dependencies in the `emboss_5` repository of the Galaxy Main Tool Shed updated to include information for automatically installing. 
+* **[EMBOSS](http://emboss.sourceforge.net/)** version 5.0.0 tool dependencies in the `emboss_5` repository of the Galaxy Main Tool Shed updated to include information for automatically installing.
 * **Tool Shed** now also supports specifying the third party tool dependencies to be automatically installed in new repositories
 * **Admin Genome Indexing** is now in *BETA*. Download, index, and track progress right from the admin UI! That's a screen shot on the right ->
 * **Improved Error Handling** that captures `EXIT` codes, `STDOUT`, and `STDERR` from tools in XML. Be sure to read full details.
 * **TopHat2/Bowtie2** latest support includes option to 'report discordant pairs', updated tests, and more preset options.
-* **Trackster** new parameter space visualization. *BRAND NEW!!* More details coming soon, but give a test drive now. 
+* **Trackster** new parameter space visualization. *BRAND NEW!!* More details coming soon, but give a test drive now.
 
 ## Other News
 

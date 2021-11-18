@@ -23,9 +23,9 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
    * [xcms_plot_chromatogram](https://toolshed.g2.bx.psu.edu/view/lecorguille/xcms_plot_chromatogram):  [Metabolomics][W4M][LC-MS] XCMS R Package - Preprocessing - Plot base peak intensity chromatogram (BPI) and total ion chromatogram (TIC). Part of the W4M project: http://workflow4metabolomics.org XCMS: http://www.bioconductor.org/packages/release/bioc/html/xcms.html Filtration and Peak Identification using xcmsSet function from xcms R package to preprocess LC/MS data for relative quantification and statistical analysis.
    * [msnbase_readmsdata](https://toolshed.g2.bx.psu.edu/view/lecorguille/msnbase_readmsdata):  [Metabolomics][W4M][LC-MS] MSnbase R Package - Preprocessing - Imports Mass-Spectrometry Data Files. Part of the W4M project: http://workflow4metabolomics.org MSnbase: https://bioconductor.org/packages/release/bioc/html/MSnbase.html Reads XML-based mass-spectrometry data files. Can be chained with the W4M xcms.findChromPeaks tool.
 * *From [stemcellcommons](https://toolshed.g2.bx.psu.edu/view/stemcellcommons):*
-   * [qualimap_bamqc_workflow](https://toolshed.g2.bx.psu.edu/view/stemcellcommons/qualimap_bamqc_workflow):  Quality control of mapped reads. 
-   * [deeptools_bamqc_workflow](https://toolshed.g2.bx.psu.edu/view/stemcellcommons/deeptools_bamqc_workflow):  Compare aligned samples via pairwise correlation heatmap and PCA plot. 
-   * [kallisto_rnaseq_workflows](https://toolshed.g2.bx.psu.edu/view/stemcellcommons/kallisto_rnaseq_workflows):  Rapid transcript quantification via pseudoalignment. 
+   * [qualimap_bamqc_workflow](https://toolshed.g2.bx.psu.edu/view/stemcellcommons/qualimap_bamqc_workflow):  Quality control of mapped reads.
+   * [deeptools_bamqc_workflow](https://toolshed.g2.bx.psu.edu/view/stemcellcommons/deeptools_bamqc_workflow):  Compare aligned samples via pairwise correlation heatmap and PCA plot.
+   * [kallisto_rnaseq_workflows](https://toolshed.g2.bx.psu.edu/view/stemcellcommons/kallisto_rnaseq_workflows):  Rapid transcript quantification via pseudoalignment.
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
    * [flye](https://toolshed.g2.bx.psu.edu/view/bgruening/flye):  Assembly of long and error-prone reads. Flye is an assembler for long and error-prone reads. It supports data produced by both Pacific Biosciences and Oxford Nanopore Technologies.
    * [plotly_parallel_coordinates_plot](https://toolshed.g2.bx.psu.edu/view/bgruening/plotly_parallel_coordinates_plot):  parallel coordinates plot produced with plotly. Produce a parallel coordinates plot from a tabular file. Multiple columns are chosen for  dimensions and a single column for coloring. The plot is buried in a html file which  provides rich interactive features. Image can be saved in various format, such as 'png', 'svg', 'jpeg' and so on.
@@ -34,7 +34,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 * *From [artbio](https://toolshed.g2.bx.psu.edu/view/artbio):*
    * [bigwig_to_wig](https://toolshed.g2.bx.psu.edu/view/artbio/bigwig_to_wig):  Converts a bigWig file to Wiggle (WIG) format. Converts a bigWig file to Wiggle (WIG) format.
 * *From [martasampaio](https://toolshed.g2.bx.psu.edu/view/martasampaio):*
-   * [phage_promoters](https://toolshed.g2.bx.psu.edu/view/martasampaio/phage_promoters):  Get promoters of phage genomes. 
+   * [phage_promoters](https://toolshed.g2.bx.psu.edu/view/martasampaio/phage_promoters):  Get promoters of phage genomes.
 * *From [matnguyen](https://toolshed.g2.bx.psu.edu/view/matnguyen):*
    * [ngsweep](https://toolshed.g2.bx.psu.edu/view/matnguyen/ngsweep): Primary version. NGSweep, a preprocessing pipeline for bacterial Next-Generation Sequencing Data. This repository contains the in-house developed tools for NGSweep. These tools detect outliers from entire NGS datasets, and cleans the remaining samples. NGSweep removes contaminated reads from sequences in order to provide clean, high quality data for downstream analysis.
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
@@ -49,12 +49,12 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
    * [ruvseq](https://toolshed.g2.bx.psu.edu/view/iuc/ruvseq):  Remove Unwanted Variation from RNA-Seq Data. Remove unwanted variation (RUV) methods of Risso et al. (2014) for the normalization of RNA-Seq read counts between samples.
    * [intervene](https://toolshed.g2.bx.psu.edu/view/iuc/intervene):  Create pairwise and upset plots. Intervene provides three types of plots to visualize intersections of genomic regions and list sets.  These are pairwise heatmap of N genomic region sets, classic Venn diagrams of genomic regions and list sets of up to 6-way and UpSet plots.
 * *From [genouest](https://toolshed.g2.bx.psu.edu/view/genouest):*
-   * [get_pairs](https://toolshed.g2.bx.psu.edu/view/genouest/get_pairs):  Separate paired and unpaired reads from two fastq files. 
+   * [get_pairs](https://toolshed.g2.bx.psu.edu/view/genouest/get_pairs):  Separate paired and unpaired reads from two fastq files.
 * *From [marie-tremblay-metatoul](https://toolshed.g2.bx.psu.edu/view/marie-tremblay-metatoul):*
    * [asca](https://toolshed.g2.bx.psu.edu/view/marie-tremblay-metatoul/asca):  [Metabolomics][W4M][LC-MS][GC-MS][NMR] A-SCA - Splitting of the total variance into independent blocks according to the experimental factors and multivariate analysis (SCA) of each block. Part of the W4M project: http://workflow4metabolomics.org.
 * *From [jowong](https://toolshed.g2.bx.psu.edu/view/jowong):*
-   * [add_sample_as_first_line](https://toolshed.g2.bx.psu.edu/view/jowong/add_sample_as_first_line):  add name of the sample as the first line. 
+   * [add_sample_as_first_line](https://toolshed.g2.bx.psu.edu/view/jowong/add_sample_as_first_line):  add name of the sample as the first line.
 * *From [proteore](https://toolshed.g2.bx.psu.edu/view/proteore):*
-   * [proteore_kegg_pathways_coverage](https://toolshed.g2.bx.psu.edu/view/proteore/proteore_kegg_pathways_coverage):  give KEGG pathway(s) concerned by a given list of proteins or genes. 
-   * [proteore_ms_observation_pepatlas](https://toolshed.g2.bx.psu.edu/view/proteore/proteore_ms_observation_pepatlas):  Retrieve number of MS/MS observations in a tissue from Peptide Atlas. 
+   * [proteore_kegg_pathways_coverage](https://toolshed.g2.bx.psu.edu/view/proteore/proteore_kegg_pathways_coverage):  give KEGG pathway(s) concerned by a given list of proteins or genes.
+   * [proteore_ms_observation_pepatlas](https://toolshed.g2.bx.psu.edu/view/proteore/proteore_ms_observation_pepatlas):  Retrieve number of MS/MS observations in a tissue from Peptide Atlas.
    * [proteore_filter_keywords_values](https://toolshed.g2.bx.psu.edu/view/proteore/proteore_filter_keywords_values):  ProteoRE - Filter a file by keywords or values. Filter a file by keywords or values.

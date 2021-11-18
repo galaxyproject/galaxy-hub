@@ -20,7 +20,7 @@ Galaxy is an open web based platform for biomedical data integration and analysi
 
 # Format
 
-This admin training will be presented as a series of instructional lectures and hands-on materials you can follow *at your own pace*. 
+This admin training will be presented as a series of instructional lectures and hands-on materials you can follow *at your own pace*.
 
 Given that we are targetting a global audience, participants will be able to complete materials at their convenience during the week, and instructors will be continuously available for students to check in with and discuss progress and questions. Instructors will also be available for one-on-one debugging when needed.
 

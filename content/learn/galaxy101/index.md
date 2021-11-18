@@ -12,7 +12,7 @@ In this lecture we will introduce you to bare basics of Galaxy:
 
 ## What are we trying to do?
 
-Suppose you get the following question: 
+Suppose you get the following question:
 
 > *Mom (or Dad) ... Which coding exon has the highest number of single nucleotide polymorphisms on chromosome 22?*
 
@@ -139,7 +139,7 @@ click **Execute**. Your history will look like this:
 
 ![Fourth history item](http://galaxy.psu.edu/galaxy101/fourthHistoryItem.png)
 
-if you look at the above image you will see that the result of grouping (dataset #4) contains two columns. This first contains the exon name while the second shows the number of times this name has been repeated in dataset #3. 
+if you look at the above image you will see that the result of grouping (dataset #4) contains two columns. This first contains the exon name while the second shows the number of times this name has been repeated in dataset #3.
 
 ### 2.2. Sorting exons by SNP count
 
@@ -151,7 +151,7 @@ This will generate the fifth history item:
 
 ![Fifth history item](http://galaxy.psu.edu/galaxy101/fifthHistoryItem.png)
 
-and you can now see that the highest number of SNPs per exon is 63. 
+and you can now see that the highest number of SNPs per exon is 63.
 
 ### 2.3. Selecting top five
 Now let's select top five exons with the highest number of SNPs. For this we will use **Text Manipulation &#8594; Select First** tool:
@@ -230,7 +230,7 @@ The center pane will change as shown below and you will be able to choose which 
 
 ![Create workflow](http://galaxy.psu.edu/galaxy101/createWorkflow.png)
 
-once you click **Create Workflow** you will get the following message: "Workflow 'galaxy101-2015' created from current history. You can **edit** or **run** the workflow". 
+once you click **Create Workflow** you will get the following message: "Workflow 'galaxy101-2015' created from current history. You can **edit** or **run** the workflow".
 
 ### 4.1. Opening workflow editor
 
@@ -277,7 +277,7 @@ Finally let's rename the workflow's output. For this:
 
 ### 4.5. Setting parameters "at runtime"
 
-What we are trying to do here is do design a generic workflow. This means that from time to time you will need to change parameters within this workflow. For instance, in this tutorial we were selecting 5 exons containing the highest number of SNPs. But what if you need to select 10? Thus it makes sense to leave these types of parameters adjustable. To do this: 
+What we are trying to do here is do design a generic workflow. This means that from time to time you will need to change parameters within this workflow. For instance, in this tutorial we were selecting 5 exons containing the highest number of SNPs. But what if you need to select 10? Thus it makes sense to leave these types of parameters adjustable. To do this:
 
 First, select a tool in which you want to set parameters at runtime (`Select first` in this case):
 
@@ -296,7 +296,7 @@ Now let's save the changes we've made by clicking ![cog](http://galaxyproject.or
 
 ## 5. Run workflow on whole genome data
 
-Now that we have a workflow, let's do something grand like, for example, finding exons with the highest number of repetitive elements across the entire human genome. 
+Now that we have a workflow, let's do something grand like, for example, finding exons with the highest number of repetitive elements across the entire human genome.
 
 ### 5.0. Create a new history
 

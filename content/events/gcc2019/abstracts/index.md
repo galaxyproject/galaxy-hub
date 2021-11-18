@@ -5,7 +5,7 @@ Doing work in data-intensive science?  There is no better place than GCC2019 to 
 There are several options for presentations at GCC2019:
 
 * **Late Oral Presentations and Lightning Talks**
-  * *Late* submissions will be considered to fill cancellations for talks accepted in the initial review. 
+  * *Late* submissions will be considered to fill cancellations for talks accepted in the initial review.
 * **Poster presentations**
   * Deadline: 10 June
   * Presented during one of three hour-long poster/demo sessions.
@@ -19,7 +19,7 @@ There are several options for presentations at GCC2019:
   * 15 to 20 minutes long.
   * Deadline [extended to 26 April](/news/2019-04-gcc-extension/). Authors notified by 9 May
 * <del>Lightning talks</del>
-  * 5 to 7 minutes long 
+  * 5 to 7 minutes long
   * Deadline [extended to 26 April](/news/2019-04-gcc-extension/). Authors notified by 9 May
 
 You can submit the same abstract as a long talk, a lightning talk, a poster and a demo.  (You can also submit separate abstracts if you want the wording to be different.) If you check both "Oral Presentation" and "Lightning Talk" then your abstract will first be considered for a long talk, and then for a lightning talk only if it is not selected as a long talk. If you submit both "Poster Presentation" and "Software Demo" and both are accepted, then your poster and demo will be presented concurrently and adjacent to each other.

@@ -13,7 +13,7 @@ The **[March 2016 Galactic News](/galaxy-updates/2016-03/)** is hot off the pres
   * [Register early](/galaxy-updates/2016-03/#gcc2016-early-registration) and save up to 40% off regular registration costs. Early bird prices start at less than $45 / day for post-docs and students.
   * [Apply for a GCC2016 Scholarship](/galaxy-updates/2016-03/#scholarships-international-application-deadline-is-march-20). **Applications from international applicants are due March 20.**
   * The [2016 GMOD Meeting](/galaxy-updates/2016-03/#gmod-meeting-june-30---july-1) will be held immediately following GCC2016, also at Indiana University.
-  * And, we have a returning sponsor: Please welcome **[BioTeam](/galaxy-updates/2016-03/#sponsors)** to GCC2016.   
+  * And, we have a returning sponsor: Please welcome **[BioTeam](/galaxy-updates/2016-03/#sponsors)** to GCC2016.
 * **[March 7-8: Online IUC Contribution Fest - RADSeq Tools and Workflows](/galaxy-updates/2016-03/#march-7-8-online-iuc-contribution-fest---radseq-tools-and-workflows)**
 * **[Galaxy in Google Summer of Code](/galaxy-updates/2016-03/#galaxy-in-google-summer-of-code)**
 * [Twelve other upcoming events](/galaxy-updates/2016-03/#upcoming-events)

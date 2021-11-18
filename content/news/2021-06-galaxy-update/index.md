@@ -46,7 +46,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 We welcome [poster/demo submissions](/news/2021-05-gcc-posterdemo/) that use, implement or extend the Galaxy platform and ecosystem, including integrating and analyzing datasets in any research area, enhancing reproducibility in computational analyses, and fostering collaboration in scientific workflow development
 
-Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts). 
+Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts).
 
 
 **June 17: CoFest Prep Day**
@@ -201,7 +201,7 @@ BGI's Open Access Publishing division **[GigaScience Press](http://gigasciencepr
 * **[*GigaScience:*](https://gigasciencejournal.com/)** 15% APC discount for the [*GigaScience* Galaxy series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research).
 * **[*GigaByte:*](https://gigabytejournal.com/)** Less-complex workflow driven work is eligible for a free-APC discount.
 
-We also publish data, software, and other research objects via our database, [GigaDB](http://gigadb.org/), and Galaxy workflows via [GigaGalaxy.net](http://gigagalaxy.net/). 
+We also publish data, software, and other research objects via our database, [GigaDB](http://gigadb.org/), and Galaxy workflows via [GigaGalaxy.net](http://gigagalaxy.net/).
 
 <p><img class="card-img-bottom" src="/images/logos/gigascience-press-logo.png" alt="GigaScience Press" /></p>
 </div>
@@ -484,7 +484,7 @@ The Galaxy ecosystem is very broad in scope and reaches many audiences, each one
 
 **¿Hablas español?: The first curated tutorial in Spanish!**
 
-Galaxy has always had Google-translated tutorials, but we are now embarking on a project to assess the learning experience with human-translated, vs Google-translated, bioinformatics tutorials. We are aiming to survey usage and utility in a workshop for native Spanish speakers. 
+Galaxy has always had Google-translated tutorials, but we are now embarking on a project to assess the learning experience with human-translated, vs Google-translated, bioinformatics tutorials. We are aiming to survey usage and utility in a workshop for native Spanish speakers.
 
 The project started with Anna Syme's [A short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html), and produced [Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html). Many thanks to Wendi Bacon, Beatriz Serrano-Solano,  Patricia Carvajal López, Alejandra Escobar-Zepeda, Saskia Hiltemann, and Helena Rasche for making this happen.
 
@@ -503,7 +503,7 @@ The project started with Anna Syme's [A short introduction to Galaxy](https://tr
 
 By [Kaivan Kamali](https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/).
 
-There is a new [slide deck](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/CNN/slides.html#1) and [video](https://training.galaxyproject.org/training-material/videos/watch.html?v=statistics/tutorials/CNN/slides) for the [Deep Learning (Part 3) - Convolutional neural networks (CNN) tutorial](https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/). 
+There is a new [slide deck](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/CNN/slides.html#1) and [video](https://training.galaxyproject.org/training-material/videos/watch.html?v=statistics/tutorials/CNN/slides) for the [Deep Learning (Part 3) - Convolutional neural networks (CNN) tutorial](https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/).
 
 Convolutional neural networks are specifically tailored to image and video processing tasks. This material explains what convolutional neural networks are, discusses their architecture, and solves an image classification problem using a CNN in Galaxy.
 
@@ -546,7 +546,7 @@ Have you noticed a new emphasis on Galaxy Developer training?  The new BioBlend 
 </div>
 
 </div>
- 
+
 
 # Publications
 

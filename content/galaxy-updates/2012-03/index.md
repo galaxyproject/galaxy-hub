@@ -54,7 +54,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are March application deadlines for a Next-gen Sequencing in Evolutionary Biology course at NESCent; Bio-Linux, and Advanced RNA-Seq and ChIP-Seq Data Analysis courses at Hinxton; Next Generation Sequencing Data Analysis at EMBL Heidelberg; Bioinformatics and Comparative Genome Analyses in Naples; Statistical Analysis of Genomic Data at CSHL; abstract deadlines for BITS 2012 and Information Visualization in BioMedical Informatics (IVBI 2012); and early registration deadlines for the April GMOD Meeting and Copenhagenomics.
 
@@ -129,15 +129,15 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
   * [Galaxy API](/events/gcc2012/training-day/#ws6)
   * [Galaxy Tool Shed](/events/gcc2012/training-day/#ws7)
   * [Ion Torrent - Open Source Sequencing](/events/gcc2012/training-day/#ws10)
-* Early [registration](/events/gcc2012/register/) will open **any day now** and close June 11. 
+* Early [registration](/events/gcc2012/register/) will open **any day now** and close June 11.
 
 ## Tool Shed Contributions
 
-At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in February, including 
+At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in February, including
 * CREST (Clipping REveals STructure): maps somatic structural variation in cancer genomes
 * MACS 1.4 ChIP-Seq peak calling ([Main](/main/) has 1.3)
 * java_genomics_toolkit: NGS, especially WIG transformations (add/log/Z-score/etc) and visualization (KMeans/heatmaps)
-* mrFAST and mrsFAST: map Illumina short reads to reference assemblies; fast and memory-efficient 
+* mrFAST and mrsFAST: map Illumina short reads to reference assemblies; fast and memory-efficient
 * mrCaNaVaR: Read depth analysis method to characterize segmental duplications & predict absolute copy numbers
 * SCALCE: Compression of FASTQ files
 

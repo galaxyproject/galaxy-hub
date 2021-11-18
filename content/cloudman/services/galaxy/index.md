@@ -5,7 +5,7 @@ The Galaxy application is the flagship service within CloudMan. Usage and genera
 
 ### Becoming a Galaxy Admin user
 
-A Galaxy Administrator user has additional privileges and can install/manage tools from the Tool Shed, manage users, libraries, set quotas, etc. Complete documentation on the Galaxy Admin Interface is available [here](https://wiki.galaxyproject.org/Admin/Interface). 
+A Galaxy Administrator user has additional privileges and can install/manage tools from the Tool Shed, manage users, libraries, set quotas, etc. Complete documentation on the Galaxy Admin Interface is available [here](https://wiki.galaxyproject.org/Admin/Interface).
 
 In order to become an Admin user on the CloudMan instance, head to the CloudMan Admin page and type comma-separated email addresses for users you would like to become Admins (see screenshot below). Note that those emails should be registered users with this Galaxy instance. Then, click *Set admin users* and wait for Galaxy application to restart; refresh your Galaxy window and an *Admin* tab will become visible in the masthead.
 

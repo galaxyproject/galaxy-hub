@@ -23,7 +23,7 @@ Once a productive analysis pathway is in a history, you may find that you want t
 <br />
 <br />
 
-Open **[usegalaxy.org](http://usegalaxy.org)** in default view (click on "Galaxy" in masthead). 
+Open **[usegalaxy.org](http://usegalaxy.org)** in default view (click on "Galaxy" in masthead).
 
 <br />
 <br />
@@ -49,7 +49,7 @@ Open the **History menu** and scroll down to the option **Extract Workflow**
 ![choose extract](/images/learn/workflow_choose_extract.png)  
 *choose extract*
 
-Allow Galaxy to process the request without interrupting or navigating away from this view. The larger the history, or the busier the server is, the longer this will take. In most cases, this is less than a minute, but be patient. 
+Allow Galaxy to process the request without interrupting or navigating away from this view. The larger the history, or the busier the server is, the longer this will take. In most cases, this is less than a minute, but be patient.
 
 **In the center panel, the extracted workflow will display**. If you are in a hurry, clicking on the **Create Workflow** button immediately is an option. But be aware that this may result in extra content from your history being included in the workflow that you do not need or want. So, while we are here, we'll take a quick tour of the features on this view:
 
@@ -74,7 +74,7 @@ Allow Galaxy to process the request without interrupting or navigating away from
 
 * **Right: Datasets that cannot be included in workflows** (no annotation): these are the datasets that were created by the tools that can be included in workflows. This are the datasets your workflow will be creating when you run it. The content next time will be based on the content of the inputs provided and what operations the tools perform.
 
-After customizing is done (if any), click on **Create Workflow** to save the extracted analysis as a workflow. For this operation, it is also important to allow Galaxy to process the request and to not navigate away from the view. You'll know that the workflow is created when the bright blue *completed* box appears. 
+After customizing is done (if any), click on **Create Workflow** to save the extracted analysis as a workflow. For this operation, it is also important to allow Galaxy to process the request and to not navigate away from the view. You'll know that the workflow is created when the bright blue *completed* box appears.
 
 ![blue created](/images/learn/workflow_blue_created.png)  
 *confirmation that a workflow is created*
@@ -110,9 +110,9 @@ It also lists **Workflows Shared with You** (if any). Under **Other Options** is
 
 ## Help! I don't see my workflow datasets
 
-There are two reasons why the output is not in the current history. One possibility is that you did not wait for the confirmation that workflow was actually started (the "green box" confirmation in the step directly above). If you think this is the case, go back and run it again. ***But first***, check for the second possibility: did you check the box to send the output to another history? The option is at the bottom of the workflow submission page and is called **Send results to a new history**. The name can be modified, but the default history name is the same as the workflow name. Look under **History menu -> Saved Histories** and check if your data is there. 
+There are two reasons why the output is not in the current history. One possibility is that you did not wait for the confirmation that workflow was actually started (the "green box" confirmation in the step directly above). If you think this is the case, go back and run it again. ***But first***, check for the second possibility: did you check the box to send the output to another history? The option is at the bottom of the workflow submission page and is called **Send results to a new history**. The name can be modified, but the default history name is the same as the workflow name. Look under **History menu -> Saved Histories** and check if your data is there.
 
-There is a third possibility, but this only applies when the workflow has been edited and only some of the datasets appear to be missing. Some of the datasets are *hidden*. To reveal them, use **History menu -> Include Hidden Datasets**. More about *hidden datasets* is in the **[Basic Editing](/learn/advanced-workflow/basic-editing/)** workflow wiki. 
+There is a third possibility, but this only applies when the workflow has been edited and only some of the datasets appear to be missing. Some of the datasets are *hidden*. To reveal them, use **History menu -> Include Hidden Datasets**. More about *hidden datasets* is in the **[Basic Editing](/learn/advanced-workflow/basic-editing/)** workflow wiki.
 
 ## How do I know the workflow is really running?
 
@@ -127,8 +127,8 @@ Good idea! Read more about workflow operations not covered in this wiki, in othe
 Are you seeing one of these messages below? This indicates that you are not logged into your account. Workflows can only be used by registered users. Log in under **User -> Login** or create an account under **User -> Register**.
 
 ![workflow anon create message](/images/learn/workflow_anon_create_message.png)  
-*"Create Workflow" message when not logged in* 
+*"Create Workflow" message when not logged in*
 
 ![workflow anon saved warning](/images/learn/workflow_anon_saved_warning.png)  
-*"Saved Workflow" message when not logged in* 
+*"Saved Workflow" message when not logged in*
 

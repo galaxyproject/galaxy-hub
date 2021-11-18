@@ -82,7 +82,7 @@ A number of notable videos and video collections have recently been published:
 
 </div>
 
-In December, Galaxy introduced [Working Groups](/community/wg/), community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks. Working Groups were launched in late 2020.  *If you want to contribute to Galaxy in a big way, please join one or more Working Groups.* 
+In December, Galaxy introduced [Working Groups](/community/wg/), community-driven small groups that manage different aspects of the Galaxy Ecosystem. Working groups set quarterly milestones for their areas, distribute work, and meet to discuss progress and roadblocks. Working Groups were launched in late 2020.  *If you want to contribute to Galaxy in a big way, please join one or more Working Groups.*
 
 This month we are introducing the first draft of a [Galaxy Governance Model](/community/governance/) that includes Working Groups as a key component.  The model also includes the new [Galaxy Exec](/community/exec/), the [Global Galaxy Steering Committee](/community/steering/), and incorporates the longstanding [Committers Groups](/community/committers/).
 
@@ -131,7 +131,7 @@ We strongly encourage you to read the full [event report](https://gallantries.gi
 The recently opened **[Galaxy Career Center](/careers/)** lists every Galaxy Related opening we know about.  Each posting (and there are 10 that are currently open) includes a short description, a link to the full posting, and deadlines, when known. There are openings at
 
 * **North America**
-  * **GalaxyWorks, University of Minnesota, Cleveland Clinic, and Johns Hopkins University (3 positions)** 
+  * **GalaxyWorks, University of Minnesota, Cleveland Clinic, and Johns Hopkins University (3 positions)**
 * **Europe**
   * **Incliva (24 March), INSERM (1 April), and Hannover Medical School**
 </div>
@@ -278,11 +278,11 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <br />
 *Galaxy-ELIXIR webinars series: Advanced Features*
 
-With this series of four [webinars](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features) chaired by Hans-Rudolf Hotz, the global Galaxy community will present advanced features that may have remain unknown due to the rapid developments in every Galaxy release. The series will touch upon workflows, data processing and management, interoperability and interactive tools, among others. 
+With this series of four [webinars](https://elixir-europe.org/events/galaxy-elixir-webinars-series-advanced-features) chaired by Hans-Rudolf Hotz, the global Galaxy community will present advanced features that may have remain unknown due to the rapid developments in every Galaxy release. The series will touch upon workflows, data processing and management, interoperability and interactive tools, among others.
 
-**Advanced Galaxy workflow features**, *3 March*, [watch the video](https://youtu.be/7atWvOoMQwE) 
+**Advanced Galaxy workflow features**, *3 March*, [watch the video](https://youtu.be/7atWvOoMQwE)
 
-**Processing thousands of datasets simultaneously**, *10 March* [watch the video](https://youtu.be/7DN8hbI87PE) 
+**Processing thousands of datasets simultaneously**, *10 March* [watch the video](https://youtu.be/7DN8hbI87PE)
 
 **Galaxy bridge to Jupyter notebooks and RStudio**, *17 March*
 
@@ -541,7 +541,7 @@ The [ELIXIR Authentication and Authorisation Infrastructure (AAI)](https://elixi
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
 <div class="card-header">Global framework for SARS-CoV-2 data analysis: Application to intrahost variation</div>
 
-By Wolfgang Maier, Marius Van Den Beek, Björn Grüning, Sergei Kosakovsky Pond, Anton Nekrutenko, and the Galaxy Team in US, EU, and AU 
+By Wolfgang Maier, Marius Van Den Beek, Björn Grüning, Sergei Kosakovsky Pond, Anton Nekrutenko, and the Galaxy Team in US, EU, and AU
 
 This analysis of intrahost variation in the COVID pandemic is split into two postings (**[Part 1](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-1/623)** and **[Part 2](https://virological.org/t/global-framework-for-sars-cov-2-data-analysis-application-to-intrahost-variation-part-2/624)**).
 
@@ -686,7 +686,7 @@ In this second edition, and for six consecutive weeks, speakers from all around 
 </div>
 
 </div>
- 
+
 
 # Publications
 
@@ -845,7 +845,7 @@ There were a lot of improvements in this release. See the [release notes](https:
 <div class="card border-info"  style="min-width: 15%; max-width: 100%;">
 <div class="card-header">Galaxy Language Server 0.4.0-1</div>
 
-[Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.4.1) assist in the development of Galaxy tools 
+[Galaxy Language Server and Galaxy Tools VS Extension](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.4.1) assist in the development of Galaxy tools
 wrappers inside modern code editors.
 
 The 0.4.x releases includes fixes and new features. See the [GitHub repository](https://github.com/galaxyproject/galaxy-language-server) for details.

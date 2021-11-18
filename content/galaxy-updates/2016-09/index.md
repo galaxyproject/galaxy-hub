@@ -12,9 +12,9 @@ title: September 2016 Galaxy News
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the September 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
+Welcome to the September 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 
 # Events
@@ -23,7 +23,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 
 <div class='left solid center'>
 <a href='/events/admin-training2016/'><img src="/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />
-November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Early registration ends Sept 19](/events/admin-training2016/registration/) 
+November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Early registration ends Sept 19](/events/admin-training2016/registration/)
 </div>
 
 **Early registration for [Galaxy Admin Training 2016](/events/admin-training2016/) ends September 19.**
@@ -43,7 +43,7 @@ The three day [advanced session](/events/admin-training2016/advanced-session/) w
 <br />
 
 <div class='center'>
-<a href='http://www.chpc.utah.edu'><img src="/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a> &nbsp; 
+<a href='http://www.chpc.utah.edu'><img src="/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a> &nbsp;
 <a href='http://healthsciences.utah.edu/'><img src="/images/logos/UUtahHealthSciences.png" alt="University of Utah" height="90" /></a> <br />
 <a href='http://medicine.utah.edu/dbmi/'><img src="/images/logos/UUtahDBMI.png" alt="University of Utah Department of Biomedical Informatics" width="220" /></a>
 <a href='http://medicine.utah.edu/ccts/bmic/'><img src="/images/logos/UUtahCCTS_BMIC.png" alt="University of Utah Clinical & Translational Science Biomedical Informatics Core (CCTS BMIC)" width="220" /></a><br />
@@ -69,7 +69,7 @@ Registration is free, but space is limited on both days. We recommend you regist
 
 There are [a plentitude of Galaxy related events coming up](/events/). Here's what's coming up over the next few months:
 
-<div class='center'> 
+<div class='center'>
 <a href='http://sites.unica.it/metabolomicaclinica/events/scientific-school-2016/'><img src="/images/logos/UCagliariLogoTrans.png" alt="Metabolomics Sardinian Scientific School: How to bridge metabolomics and genomics" height="80" /></a>
 <a href='http://biosb.nl/education/course-portfolio/rna-seq/'><img src="/images/logos/BioSBResearchSchool.png" alt="NGS Course: RNA-seq data analysis" height="80" /></a>
 <a href='http://www.jsbi.org/iibmp2016/program_bof/#B10'><img src="/images/logos/IIBMP2016Logo.png" alt="GalaxyによるNGSデータ解析 (Galaxy NGS Data Analysis BoF)" height="80" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -252,7 +252,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 # GCC2016 Talks, Posters and Training Slides are on the F1000Research Galaxy Channel
 
-Slides for keynote, accepted and lightning talks, and training sessions at GCC2016 are now available on the  [F1000Research Galaxy Channel](http://f1000research.com/channels/galaxy).   [Slides](http://f1000research.com/channels/galaxy?&selectedDomain=SLIDES) and [posters](http://f1000research.com/channels/galaxy?&selectedDomain=POSTERS) have all bee assigned DOIs. 
+Slides for keynote, accepted and lightning talks, and training sessions at GCC2016 are now available on the  [F1000Research Galaxy Channel](http://f1000research.com/channels/galaxy).   [Slides](http://f1000research.com/channels/galaxy?&selectedDomain=SLIDES) and [posters](http://f1000research.com/channels/galaxy?&selectedDomain=POSTERS) have all bee assigned DOIs.
 
 If you present at Galaxy at an event, please consider [submitting your presentation to the Galaxy channel](http://f1000research.com/channels/galaxy/for-authors/publish-your-research).
 
@@ -263,7 +263,7 @@ If you present at Galaxy at an event, please consider [submitting your presentat
 Some highlights from last month:
 
 * **[Omicron: a Galaxy for reproducible proteogenomics](http://etd.library.vanderbilt.edu/available/etd-08052016-114746/unrestricted/MatthewChambers.pdf)**
-    Matt Chambers. 
+    Matt Chambers.
 
 * **[CloudBridge: a Simple Cross-Cloud Python Library](https://s3.amazonaws.com/cloudbridgelib/CloudBridge.pdf)**
     Nuwan Goonasekera, Andrew Lonie, [James Taylor](/people/james-taylor/), [Enis Afgan](/people/enis-afgan/). XSEDE16.
@@ -385,11 +385,11 @@ There are [over 80 publicly accessible Galaxy servers](/use/) and [four semi-pub
   * [ImmPort on Twitter](http://twitter.com/ImmPort)
 
 * *User Support:*
-  * [Help page](https://www.immportgalaxy.org/static/immportgalaxyhelp.html) 
-  * [Videos](https://www.youtube.com/channel/UC8lQSx1Z7sMFm07wfqI-_kA) 
+  * [Help page](https://www.immportgalaxy.org/static/immportgalaxyhelp.html)
+  * [Videos](https://www.youtube.com/channel/UC8lQSx1Z7sMFm07wfqI-_kA)
   * [Email](mailto:immport-galaxy@immport.org)
   * Tutorials to come.
-* *Quotas:* 
+* *Quotas:*
   * Anyone can use this server. No quotas for now.
 * *Sponsor(s):*
   * [ImmPort](http://immport.org/immport-open/public/home/home)
@@ -412,7 +412,7 @@ There are [over 80 publicly accessible Galaxy servers](/use/) and [four semi-pub
 * *User Support:*
   * [Galaxy Palfinder Service Manual](https://palfinder.ls.manchester.ac.uk/manual)
   * [Email](mailto:peter.briggs@manchester.ac.uk)
-* *Quotas:* 
+* *Quotas:*
   * Accounts have a quota of 20 GB.
   * Any data uploaded or generated are automatically deleted after 30 days (to prevent the build up of large volumes of data onto our servers long-term). Please ensure that you download all outputs that you wish to keep.
 * *Sponsor(s):*
@@ -438,7 +438,7 @@ There are [over 80 publicly accessible Galaxy servers](/use/) and [four semi-pub
 No new entries were added in August, but a new virtual appliance was added to the VA directory:
 
 * **RNAcommender**
-    A tool for genome-wide recommendation of RNA-protein interactions. 
+    A tool for genome-wide recommendation of RNA-protein interactions.
 
 ----
 
@@ -447,7 +447,7 @@ No new entries were added in August, but a new virtual appliance was added to th
 ## Galaxy v16.07
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[July 2016 (v16.07) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.07_announce.html)**.
 
 <span style="font-size: larger;"> Highlights </span>
@@ -498,7 +498,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 ## Planemo 0.28.0 - 0.29.1
 
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  Planemo saw several releases in August. See [GitHub for details](https://github.com/galaxyproject/planemo/blob/0.29.1/HISTORY.rst). 
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  Planemo saw several releases in August. See [GitHub for details](https://github.com/galaxyproject/planemo/blob/0.29.1/HISTORY.rst).
 
 <div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
 
@@ -540,7 +540,7 @@ An update to Galaxy CloudMan on AWS was released in May. CloudMan offers an easy
 
 This is a minor update release with the following changes:
 * Galaxy 16.04 update
-* Availability on Amazon's Ireland region 
+* Availability on Amazon's Ireland region
 * A couple of bug fixes
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.

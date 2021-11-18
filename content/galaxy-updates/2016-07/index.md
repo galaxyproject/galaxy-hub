@@ -12,9 +12,9 @@ title: July 2016 Galaxy News
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the July 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
+Welcome to the July 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 
 # GCC2016 is done!
@@ -83,10 +83,10 @@ Galaxy is widely used in the ELIXIR community. The [French ELIXIR node (IFB)](ht
 
 The **[Galaxy Australasia Meeting (GAMe 2017)](http://www.embl-abr.org.au/GAMe2017)** will be held 3-9 February in Melbourne Australia. The schedule has been set:
 
-  *3 February* 
+  *3 February*
      **[Using Galaxy Training](https://www.embl-abr.org.au/training-day/)**<br />
      Morning and afternoon sessions covering 4 topics in two parallel tracks
-  *4-5 February* 
+  *4-5 February*
      **Meeting**<br />
      A two day meeting of the Galaxy AustralAsian communities featuring accepted and invited talks, posters and panel discussions on best practices, data intensive research, and the computational infrastructure to support it.
   *6-9 February*
@@ -99,7 +99,7 @@ Instructors and speakers will include experts from Australia and Asia, as well a
 
 There are [a plentitude of Galaxy related events coming up](/events/). Here's what's coming up over the next fe months:
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/ismb2016/'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2015" width="120" /></a>
 <a href='/events/ismb2016/'><img src="/images/logos/ISMB_2016_Logo.jpg" alt="ISMB 2016" width="140" /></a>
 <a href='http://www.genetics-gsa.org/genetics/2016/cgi-bin/tagc16soe.pl#Sat'><img src="/images/logos/TAGC_logo_squarish.png" alt="An Introduction to Using Galaxy for Genetic Data Analysis @ TAGC" /></a>
@@ -295,7 +295,7 @@ Some highlights from last month:
 * [biosigner: a new method for the discovery of significant molecular signatures from omics data](https://doi.org/10.3389/fmolb.2016.00026)
     by Philippe Rinaudo, Samia Boudah, Christophe Junot, Etienne A. Thevenot, *Frontiers in Molecular Biosciences,* Vol. 3, No. 26. (2016), doi:10.3389/fmolb.2016.00026
 
-* [CART – a chemical annotation retrieval toolkit](https://doi.org/10.1093/bioinformatics/btw233) 
+* [CART – a chemical annotation retrieval toolkit](https://doi.org/10.1093/bioinformatics/btw233)
     by Samy Deghou, Georg Zeller, Murat Iskar *et al.,* *Bioinformatics* (02 June 2016), btw233, doi:10.1093/bioinformatics/btw233
 
 * [Experiences in integrated data and research object publishing using GigaDB](https://doi.org/10.1007/s00799-016-0174-6)
@@ -370,7 +370,7 @@ The new papers were tagged with:
 
 The Galaxy is expanding! Please help it grow.
 * [PhD student or postdoctoral researcher](http://www.uni-freiburg.de/verwaltung/stellenboerse/?erf=y&stellenid=9837&layout=v4), University of Freiburg, Freiburg, Germany.
-* [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules."  <div class='red'>Deadline July 31.</span> 
+* [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules."  <div class='red'>Deadline July 31.</span>
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -390,7 +390,7 @@ One [new publicly accessible Galaxy servers](/use/) was added to [the list](/use
 
 * *Link:*
   * [Server](http://cart.embl.de/)
-* *Domain/Purpose:* 
+* *Domain/Purpose:*
   * Retrieves annotations on biological effects of chemicals and determines which ones are enriched.
 * *Comments:*
   * From "[CART – a chemical annotation retrieval toolkit](http://bioinformatics.oxfordjournals.org/content/early/2016/06/02/bioinformatics.btw233.abstract)" by Samy Deghou, Georg Zeller, Murat Iskar, Marja Driessen, Mercedes Castillo, Vera van Noort, and Peer Bork. *Bioinformatics* (2016), doi: 10.1093/bioinformatics/btw233
@@ -398,8 +398,8 @@ One [new publicly accessible Galaxy servers](/use/) was added to [the list](/use
   * Source code and an easy-to-install command line tool are also available.
 * *User Support:*
   * See the "Tutorial" and "Contact" tabs on the [website](http://cart.embl.de/).
-* *Quotas:* 
-  * Supports anonymous access and creation of user logins. 
+* *Quotas:*
+  * Supports anonymous access and creation of user logins.
 * *Sponsor(s):*
   * [Structural and Computational Biology Unit](http://www.embl.de/research/units/scb/), [European Molecular Biology Laboratory](http://www.embl.de/index.php), Heidelberg, Germany
 
@@ -429,7 +429,7 @@ And one [new set of Semi-Public Galaxy server](/use/) was added in June.  Semi-p
 
 * *User Support:*
   * The [Norwegian Bioinformatics Platform](http://www.bioinfo.no) has a help desk that can be reached by emailing contact@bioinfo.no
-* *Quotas:* 
+* *Quotas:*
   * NeLS Galaxy instances have some temporary storage available, while the bulk volumes of data are managed through the NeLS centralized storage and the Norwegian national storage services.
 * *Sponsor(s):*
   * [University of Oslo](http://www.uio.no/)
@@ -481,7 +481,7 @@ Please see the [API documentation](http://galaxyproject.github.io/blend4php/docs
 
 ## Planemo 0.27.0
 
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  Planemo 0.27.0 was released in June. Some highlights: 
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  Planemo 0.27.0 was released in June. Some highlights:
 
 * Use ephemeris to handle syncing shed tools for workflow actions. [1c6cfbb](https://github.com/galaxyproject/planemo/commit/1c6cfbb)
 * More planemo testing enhancements for testing artifacts that aren’t Galaxy tools. [Pull Request 491](https://github.com/galaxyproject/planemo/pull/491)
@@ -506,7 +506,7 @@ Highlights of June releases include:
 ### Galaxy v16.04
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[April 2016 (v16.04) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.04_announce.html)**.
 
 *Please note that Python 2.6 is no longer supported as of this release. See the [16.04 release announcement](https://wiki.galaxyproject.org/News/2016-04_GalaxyRelease) for details.*
@@ -551,7 +551,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 This is a minor update release with the following changes:
 * Galaxy 16.04 update
-* Availability on Amazon's Ireland region 
+* Availability on Amazon's Ireland region
 * A couple of bug fixes
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.

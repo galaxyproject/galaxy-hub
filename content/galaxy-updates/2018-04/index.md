@@ -52,7 +52,7 @@ We are pleased to announce our third [keynote speaker](/events/gccbosc2018/keyno
 
 ## Submit GCC lightning talks, posters and demos by April 16
 
-The deadline for submitting **lightning talks** for GCC2018 is April 16, less than a week away. You are strongly encouraged to submit a talk (or two) by the deadline.  Depending on response we may also open up for *late-breaking lightning talks* in May. 
+The deadline for submitting **lightning talks** for GCC2018 is April 16, less than a week away. You are strongly encouraged to submit a talk (or two) by the deadline.  Depending on response we may also open up for *late-breaking lightning talks* in May.
 
 On-time **poster and demo** submissions are also closing April 16. To assure a place for your poster and/or demo, please submit these by that deadline as well.  Depending on space, we will (likely) also open a call for *late-breaking posters and demos* in May.
 
@@ -97,18 +97,18 @@ We are happy to have several confirmed [GCCBOSC 2018 sponsors](/events/gccbosc20
 [<img class="float-left" src="/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
 
 There are still a few spaces left in  [Jackson Lab (JAX)](https://www.jax.org/)'s 2018 Big Genomics Data Skills Training course, funded by the NIH BD2K initiative: [Big Genomic Skills Training info and online application](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors). The workshop will enable participants to integrate genomic data analysis into their courses or launch new courses. Participants will gain experience using Galaxy, R and Python.
- 
+
 Housing is included; however you will need to cover your own travel.  If you teach at an HBCU or Minority-serving institution (by Dept. of Education criteria) JAX may be able to provide a modest travel award.
- 
+
 *The course is for faculty who primarily teach undergraduate students* and will be held at JAX Genomic Medicine in Farmington CT, May 21-25.
 
 # Gateways 2018 Call for Participation (1st deadline: May 7)
 
 [<img class="float-right" src="/images/logos/gateways-2018-logo.png" alt="Gateways 2018" width="170" />](http://sciencegateways.org/gateways2018/call)
 
-[Gateways 2018](http://sciencegateways.org/gateways2018/) (September 25–27, at the University of Texas at Austin) is now [accepting submissions of papers, demos, tutorials, and panels](http://sciencegateways.org/gateways2018/call) on the topic of science or engineering gateways. Gateways are user-friendly interfaces (including Galaxy) to scientific computing, data, and other domain-specific resources to support research and education. 
+[Gateways 2018](http://sciencegateways.org/gateways2018/) (September 25–27, at the University of Texas at Austin) is now [accepting submissions of papers, demos, tutorials, and panels](http://sciencegateways.org/gateways2018/call) on the topic of science or engineering gateways. Gateways are user-friendly interfaces (including Galaxy) to scientific computing, data, and other domain-specific resources to support research and education.
 
-Topics may include their design, use, impact, development processes, sustainability, best practices, or any other aspect that you think fellow gateway creators or users will find interesting to learn. We also welcome educational topics directed toward the next generation of gateway creators. 
+Topics may include their design, use, impact, development processes, sustainability, best practices, or any other aspect that you think fellow gateway creators or users will find interesting to learn. We also welcome educational topics directed toward the next generation of gateway creators.
 
 The primary submission deadline is May 7, 2018, and a poster session deadline (open to all) will be August 1. Read more details in the [Call for Participation](http://sciencegateways.org/gateways2018/call)
 
@@ -295,11 +295,11 @@ doi:10.1038/s41467-018-03311-y
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 66 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 27 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 22 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 13 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | 
-| 8 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 8 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 7 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | 
-| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 3 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | 
+| 66 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 27 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 22 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 13 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) |
+| 8 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 8 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 7 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) |
+| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 3 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) |
 | 2 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | | | | | | |
 
 ----
@@ -353,14 +353,14 @@ For more information about the release, see [Release notes 2018 02](https://gith
 
 We tag papers that use, mention, implement or extend public Galaxy Servers.  Here are the counts for March's publications.
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 9 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 2 | [>DeepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>DeepTools) | | 2 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>ErasmusMC](https://www.zotero.org/groups/1732893/galaxy/tags/>ErasmusMC) | 
-| 2 | [>GVL-Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Cloud) | | 2 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>EuPathDB](https://www.zotero.org/groups/1732893/galaxy/tags/>EuPathDB) | 
-| 1 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 1 | [>ImmPort](https://www.zotero.org/groups/1732893/galaxy/tags/>ImmPort) | | 1 | [>MPI-HLR](https://www.zotero.org/groups/1732893/galaxy/tags/>MPI-HLR) | | 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | 
-| 1 | [>SCDE](https://www.zotero.org/groups/1732893/galaxy/tags/>SCDE) | | 1 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>In Silico](https://www.zotero.org/groups/1732893/galaxy/tags/>In Silico) | 
-| 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/tags/>SouthGreen) | | 1 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid) | | 1 | [>VarCap](https://www.zotero.org/groups/1732893/galaxy/tags/>VarCap) | | 1 | [>RNA Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA Workbench) | 
-| 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 1 | [>SSC](https://www.zotero.org/groups/1732893/galaxy/tags/>SSC) | | 1 | [>SMAGEXP](https://www.zotero.org/groups/1732893/galaxy/tags/>SMAGEXP) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | 
+| 9 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 2 | [>DeepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>DeepTools) | | 2 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>ErasmusMC](https://www.zotero.org/groups/1732893/galaxy/tags/>ErasmusMC) |
+| 2 | [>GVL-Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Cloud) | | 2 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>EuPathDB](https://www.zotero.org/groups/1732893/galaxy/tags/>EuPathDB) |
+| 1 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 1 | [>ImmPort](https://www.zotero.org/groups/1732893/galaxy/tags/>ImmPort) | | 1 | [>MPI-HLR](https://www.zotero.org/groups/1732893/galaxy/tags/>MPI-HLR) | | 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) |
+| 1 | [>SCDE](https://www.zotero.org/groups/1732893/galaxy/tags/>SCDE) | | 1 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>In Silico](https://www.zotero.org/groups/1732893/galaxy/tags/>In Silico) |
+| 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/tags/>SouthGreen) | | 1 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid) | | 1 | [>VarCap](https://www.zotero.org/groups/1732893/galaxy/tags/>VarCap) | | 1 | [>RNA Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA Workbench) |
+| 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 1 | [>SSC](https://www.zotero.org/groups/1732893/galaxy/tags/>SSC) | | 1 | [>SMAGEXP](https://www.zotero.org/groups/1732893/galaxy/tags/>SMAGEXP) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) |
 | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | | | | | | | | | |
 
 ----
@@ -386,7 +386,7 @@ The [18.01 release of Galaxy  is out](https://docs.galaxyproject.org/en/release_
 **Highlights:**
 
 *Performance and User Experience Improvements*
-We made Galaxy more lively and responsive. Homepage, published workflows, published/saved histories, and data libraries should all load much faster now. Importing data from FTP will also take less of your time. 
+We made Galaxy more lively and responsive. Homepage, published workflows, published/saved histories, and data libraries should all load much faster now. Importing data from FTP will also take less of your time.
 
 *Web Server and Configuration*
 The default web server used by Galaxy has changed from Paste to uWSGI and the default configuration file for Galaxy is now config/galaxy.yml instead of config/galaxy.ini. To minimize the impact of this change on existing Galaxy instances, if a Galaxy has a galaxy.ini file configured, it will continue to use Paste by default unless additional steps are taken by the administrator
@@ -395,7 +395,7 @@ The default web server used by Galaxy has changed from Paste to uWSGI and the de
 This release has significantly improved the usability of Galaxy dataset collections. Dozens of improvements to collections have been made, some of the key highlights include:
 
 * Data library folders can now be sent to histories as a dataset collection.
-* Failed dataset collection elements can now be fixed using job re-running 
+* Failed dataset collection elements can now be fixed using job re-running
 * Collections now appear with state and progress bars in the history panel and contained datasets are hidden by default
 * We added intuitive workflow post job actions for dataset collections
 * The web interface now supports collections with arbitrary nesting and size
@@ -412,7 +412,7 @@ Previously Galaxy only supported coordinate sorted BAM files by default (the bam
 * unsorted.bam, that makes no assumptions about the sort order of the file.
 
 *Experimental Job Caching*
-Galaxy can now be configured to allow users the option of skipping duplicated jobs if one with identical parameters has been previously executed and simply reuse the previously generated outputs. 
+Galaxy can now be configured to allow users the option of skipping duplicated jobs if one with identical parameters has been previously executed and simply reuse the previously generated outputs.
 
 
 See the [full release notes](https://docs.galaxyproject.org/en/release_18.01/releases/18.01_announce.html) for more.

@@ -10,7 +10,7 @@ date: "2016-09-06"
 The **[September Galaxy News](/galaxy-updates/2016-09/) is out:**
 
 * **[Galaxy Admin Training early registration ends September 19](/galaxy-updates/2016-09/#galaxy-admin-training-november-7-11-salt-lake-city-utah)**
-* **[Swiss-German Galaxy Days: 20-21 October](/galaxy-updates/2016-09/#swiss-german-galaxy-days)** 
+* **[Swiss-German Galaxy Days: 20-21 October](/galaxy-updates/2016-09/#swiss-german-galaxy-days)**
 * [Other Upcoming Events](/galaxy-updates/2016-09/#other-upcoming-events)
 * [GCC2016 presentations and training are on the Galaxy F1000 channel](/galaxy-updates/2016-09/#gcc2016-talks-posters-and-training-slides-are-on-the-f1000research-galaxy-channel)
 * [75 new Papers](/galaxy-updates/2016-09/#new-papers)

@@ -36,12 +36,12 @@ We will use RNA-seq data from a study published by *Wu et al.* in 2014 [DOI:10.1
 The goal of this exercise is to:
 
  1. Identify what transcripts are present in the G1E and megakaryocyte cellular states
- 2. Which transcripts are differentially expressed between the two states. 
+ 2. Which transcripts are differentially expressed between the two states.
 
- We will use a *de novo* transcript reconstruction strategy (not to be confused with the *de novo* RNAseq when reference genome is not known) to infer transcript structures from the mapped reads in the absence of the actual annotated transcript structures. This will allow us to identify novel transcripts and novel isoforms of known transcripts, as well as identify differentially expressed transcripts. 
+ We will use a *de novo* transcript reconstruction strategy (not to be confused with the *de novo* RNAseq when reference genome is not known) to infer transcript structures from the mapped reads in the absence of the actual annotated transcript structures. This will allow us to identify novel transcripts and novel isoforms of known transcripts, as well as identify differentially expressed transcripts.
 
 ## Tutorial Agenda
- 
+
 In this tutorial, we will address:
 
  1. Data upload
@@ -100,7 +100,7 @@ Data upload from Galaxy Library (**recommended** if using usegalaxy.org)
 
 </div>
     </div>
-  </div>	
+  </div>
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingTwo">
       <h4 class="panel-title">
@@ -144,7 +144,7 @@ To lean more about the data we will be using let's look at just one set of reads
 
 For quality control, we use similar tools as described in [NGS-QC tutorial](/tutorials/ngs/): [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic).
 
-Let's start by processing the smaller set of reads from G1E set: `G1E_R1_f_ds_SRR549355` and its reverse set of mates `G1E_R1_r_ds_SRR549355` using **NGS: QC and manipulation -> FastQC**: 
+Let's start by processing the smaller set of reads from G1E set: `G1E_R1_f_ds_SRR549355` and its reverse set of mates `G1E_R1_r_ds_SRR549355` using **NGS: QC and manipulation -> FastQC**:
 
 |      |
 |------|
@@ -188,7 +188,7 @@ Trimmomatic will produce four outputs as a result:
  - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 unpaired)`
  - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 uppaired)`
 
-The `unpaired` datasets we will no longer need in our analysis. 
+The `unpaired` datasets we will no longer need in our analysis.
 
 Now that we've ran `trimmomatic` let's see if it had any effect on our data. We can do this by rerunning `FastQC` on `G1E_R1_f_ds_SRR549355` and `G1E_R1_r_ds_SRR549355` datasets after they have been trimmed. This will generate the following quality value distributions:
 
@@ -210,7 +210,7 @@ Now that we've ran `trimmomatic` let's see if it had any effect on our data. We 
 
 ## Is this a stranded RNAseq experiment?
 
-RNAseq data is often [stranded](/tutorials/rb-rnaseq/#strand-specific-rnaseq) as it significantly increases its utility. But how do you know you have a stranded data? Moreover, if data is indeed stranded is it derived from first or second cDNA strand? To answer this question we can map the data and analyze mapping properties. Let's do that on the same set of forward and reverse `G1E_R1` datasets. 
+RNAseq data is often [stranded](/tutorials/rb-rnaseq/#strand-specific-rnaseq) as it significantly increases its utility. But how do you know you have a stranded data? Moreover, if data is indeed stranded is it derived from first or second cDNA strand? To answer this question we can map the data and analyze mapping properties. Let's do that on the same set of forward and reverse `G1E_R1` datasets.
 
 ### Map subset of data
 
@@ -340,8 +340,8 @@ To make sense of the reads, their positions within mouse genome must be determin
 - Reads contained within mature exons - these align perfectly to the reference genome
 - Reads that span splice junctions in the mature mRNA - these align with gaps to the reference genome
 
-Spliced mappers have been developed to efficiently map transcript-derived reads against genomes. [`HISAT`](https://ccb.jhu.edu/software/HISAT2/index.shtml) is an accurate and fast tool for mapping spliced reads to a genome. Another popular spliced aligner is [`TopHat`](https://ccb.jhu.edu/software/tophat/index.shtml), but we will be using `HISAT` in this tutorial. For more details on these tools see our introductory [RNAseq tutorial](/tutorials/rb-rnaseq/). 
-    
+Spliced mappers have been developed to efficiently map transcript-derived reads against genomes. [`HISAT`](https://ccb.jhu.edu/software/HISAT2/index.shtml) is an accurate and fast tool for mapping spliced reads to a genome. Another popular spliced aligner is [`TopHat`](https://ccb.jhu.edu/software/tophat/index.shtml), but we will be using `HISAT` in this tutorial. For more details on these tools see our introductory [RNAseq tutorial](/tutorials/rb-rnaseq/).
+
 ## Spliced mapping with HISAT
 
 We will run HISAT with the following settings:
@@ -363,7 +363,7 @@ Run `HISAT` on the **Mk** collection as well.  Rename collections generated by `
 
 </div>
 
-## Post-processing: cleaning the BAM 
+## Post-processing: cleaning the BAM
 
 After reads have been mapped it would make sense to restrict mapped reads to those than map in correct pairs and do not map to multiple locations. This can be done with **SAMools -> Filter SAM or BAM** tool:
 
@@ -434,7 +434,7 @@ We will rename output of `Stringtie merge` as `Merged transcriptome`.
 
 # Analysis of the differential gene expression
 
-We just generated a transcriptome database (a GFF output of `Stringtie merge`) that represents the transcripts present in the G1E and megakaryocytes samples. This database provides the location of our transcripts with non-redundant identifiers, as well as information regarding the origin of the transcript. 
+We just generated a transcriptome database (a GFF output of `Stringtie merge`) that represents the transcripts present in the G1E and megakaryocytes samples. This database provides the location of our transcripts with non-redundant identifiers, as well as information regarding the origin of the transcript.
 
 We now want to identify which transcripts are differentially expressed between the G1E and megakaryocyte cellular states. To do this we will implement a counting approach using `FeatureCounts` to count reads per transcript. Then we will provide this information to `DESeq2` to generate normalized transcript counts (abundance estimates) and significance testing for differential expression.
 
@@ -465,7 +465,7 @@ Do not forget to run `featureCounts` on `HISAT on Mk filtered` collection as wel
 
 ## Perform differential gene expression testing
 
-Transcript expression is estimated from read counts, and attempts are made to correct for variability in measurements using replicates. This is absolutely essential to obtaining accurate results. We recommend having at least two biological replicates (although you should *really* have three or even more). 
+Transcript expression is estimated from read counts, and attempts are made to correct for variability in measurements using replicates. This is absolutely essential to obtaining accurate results. We recommend having at least two biological replicates (although you should *really* have three or even more).
 
 [`DESeq2`](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) is a proven and widely used tool for differential gene expression analysis. It takes read counts produced by `FeatureCounts` and applies size factor normalization:
 
@@ -525,7 +525,7 @@ MSTRG.977.1  697.447 -10.030  1.062 -9.444 3.583e-21 1.974e-18  2081.714 706.074
 MSTRG.78.1   645.022  10.656  1.195  8.915 4.873e-19 1.342e-160    0.000   0.000 1311.325 1268.763
 ```
 
-The last four columns are normalized reads counts for two megakarycyte and two G1E replicates, respectively. You can see that for `MSTRG.977.1`  log<sub>2</sub> fold change is `-10.030` and there are practically no G1E reads. Conversely, in the case of `MSTRG.78.1` log<sub>2</sub> fold change is `10.656` and there are no megakaryocyte reads. This is this case because we set `G1E` as the Factor level 1 while running `DeSeq2` and positive change implies *downregulation* in megakaryocytes compared to G1E cells and vice versa. So to find all genes upregulated in Mk, for example, one would need to filter `DeSeq2` output for fold change below 0. 
+The last four columns are normalized reads counts for two megakarycyte and two G1E replicates, respectively. You can see that for `MSTRG.977.1`  log<sub>2</sub> fold change is `-10.030` and there are practically no G1E reads. Conversely, in the case of `MSTRG.78.1` log<sub>2</sub> fold change is `10.656` and there are no megakaryocyte reads. This is this case because we set `G1E` as the Factor level 1 while running `DeSeq2` and positive change implies *downregulation* in megakaryocytes compared to G1E cells and vice versa. So to find all genes upregulated in Mk, for example, one would need to filter `DeSeq2` output for fold change below 0.
 
 <div class="panel panel-info">
 	<div class="panel-heading">

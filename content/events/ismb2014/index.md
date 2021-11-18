@@ -42,7 +42,7 @@ Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) a
 
 ## ISMB 2014
 
-[ISMB](http://www.iscb.org/ismb2014) runs from July 13 through July 15. 
+[ISMB](http://www.iscb.org/ismb2014) runs from July 13 through July 15.
 
 <table>
   <tr class="th" >

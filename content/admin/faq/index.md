@@ -67,7 +67,7 @@ For complete details on how to support a new data type, see our [Adding Datatype
 
 ## Configuring Galaxy so a tool can properly generate an Excel file
 
-**Is there a way to force the mime type of the downloaded files ?** eg an application generates a binary excel file and the mime type is always binary, and the file extension is always "data.ext".  This causes problems when the user tries to view ( click the eye icon ) or download ( click the 'save' link ).  Changing the file type to "excel" doesn't help, and the user is forced to save the file on his desktop, rename the file to an XLS extension and then open it. 
+**Is there a way to force the mime type of the downloaded files ?** eg an application generates a binary excel file and the mime type is always binary, and the file extension is always "data.ext".  This causes problems when the user tries to view ( click the eye icon ) or download ( click the 'save' link ).  Changing the file type to "excel" doesn't help, and the user is forced to save the file on his desktop, rename the file to an XLS extension and then open it.
 
 In your universe_wsgi.ini file add this line to [galaxy:datatypes]...
 

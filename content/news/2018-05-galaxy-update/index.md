@@ -19,7 +19,7 @@ The [May 2018 Galactic News](/galaxy-updates/2018-05/) highlights what's going o
 * New:
   * [132 publications](/galaxy-updates/2018-05/#publications)
   * [Openings in 10 groups on 2 continents](/galaxy-updates/2018-05/#whos-hiring)
-  * [Public Galaxy Server News](/galaxy-updates/2018-05/#public-galaxy-server-news): [IRProfiler](/galaxy-updates/2018-05/#irprofiler) 
+  * [Public Galaxy Server News](/galaxy-updates/2018-05/#public-galaxy-server-news): [IRProfiler](/galaxy-updates/2018-05/#irprofiler)
   * [ToolShed contributions](/galaxy-updates/2018-05/#toolshed-contributions)
   * [Releases](/galaxy-updates/2018-05/#releases) of BioBlend and Starforge
 

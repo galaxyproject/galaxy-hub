@@ -1,7 +1,7 @@
 
 [Back to Support](/support/)
 
-# Warning: This page has been deprecated. 
+# Warning: This page has been deprecated.
 
 * Please review these [Galaxy Support](/support/) FAQs instead: [Unexpected Results](/support/#unexpected-results)
 
@@ -16,7 +16,7 @@ _Last updated 12-11-17_
 Server-specific issues: https://github.com/galaxyproject/usegalaxy-playbook/issues
 
 
-## Issue by tool name 
+## Issue by tool name
 
 1. (15) **Heatmap 1.0.0** Missing dependencies. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/3030
 1. (2 bugs +github) **CummeRbund 1.0.1** Select for "gene_id" problematic. Graphs for Heatmap and Volcano plots also problematic. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/340
@@ -36,7 +36,7 @@ __retest/status in progress__
 
 Note: (N) is number of confirmed bug reports about issue. Not all issues can be counted this way. Count of (many) indicates that this is ongoing user problem with usage, often clarified when reviewing other bug reports/questions.
 
-- - - 
+- - -
 ## Tools that need updated usage/help
 
 - - -
@@ -44,14 +44,14 @@ Note: (N) is number of confirmed bug reports about issue. Not all issues can be 
 
 1. (many) **StringTie 1.3.3**. Errors when output for DEseq2/EdgeR is selected. Impacts Galaxy Main http://usegalaxy.org. Details and workaround: https://github.com/galaxyproject/tools-iuc/issues/1322. Status: https://github.com/galaxyproject/usegalaxy-playbook/issues/60
 
-- - - 
+- - -
 ## Integration tests in progress ( v 17.09 )
 
 **TOOLS**
 
 1. (21) **MEME 4.11.1.0** Has dependency issues. Updates have not resolved usage problems yet (tool has never worked). Impacts http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1913
 1. **Needs RE-TEST** (many) **Upload (across releases)** Trailing return characters in pasted data cause problems and the "why" is not clear to users. Impacts Galaxy Main, locals, cloud. Details: https://github.com/galaxyproject/galaxy/issues/2886
-1. **Needs RE-TEST** (many) **MAF tools 1.0.1** Switching between MAF data sources does not refresh tool form/dbkey list. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828. 
+1. **Needs RE-TEST** (many) **MAF tools 1.0.1** Switching between MAF data sources does not refresh tool form/dbkey list. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2828.
 
 
 **UI**
@@ -59,7 +59,7 @@ Note: (N) is number of confirmed bug reports about issue. Not all issues can be 
 1. **Needs RE-TEST** (many) **Pileup** datasets not recognized by downstream tools. This is due to tabular datatype assignment by Mpileup/Generate pileup (SAMTools). Assignment of both start and end to the same column could be why auto-assignment of type is not possible. Workaround: Click on dataset's pencil icon and assign pileup datatype. Details: https://github.com/galaxyproject/galaxy/issues/1744
 1. **Workflows** *NOTE that a new workflow form is pending and these usage issues will be re-tested.* Behavior: Reference genome selection at runtime or changes through editor are not persistent or do not allow use of a Custom Reference Genome/Build. Known issues, sometimes linked to specific tools (SAMTool, Tophat). Impacts Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/1132
 
-- - - 
+- - -
 ## Issue by user interface behavior
 
 1. **Reference Genome Missing from tool** First, make certain that the [dataset has the "database" metadata asssignment](https://wiki.galaxyproject.org/Support#Tool_doesn.27t_recognize_dataset). If still missing, the genome may be undergoing indexing (on [Test](https://test.galaxyproject.org), to be promoted to [Main](https://usegalaxy.org/) ). Check the details ticket below for notes and progress. If you do not see your genome, request it as instructed in the ticket. Remember that a [Custom Reference Genome](https://wiki.galaxyproject.org/Support#Custom_reference_genome) can be used right now instead for most tools. Impacts **Bowtie2 Tophat(2) BWA BWA-MEM Kraken**. Details: https://github.com/galaxyproject/galaxy/issues/1470
@@ -71,10 +71,10 @@ Note: (N) is number of confirmed bug reports about issue. Not all issues can be 
 1. If there are issues with delays, reports of histories not loading, a blue screen stating that Galaxy is busy ... then check the Galaxy Status page to see if there is a problem with the server first: https://status.galaxyproject.org/
 1. If status is OK, then read recent posts at Galaxy Biostars, where transient issues are often reported and clarified. A new question can be asked if there is no activity about the problem. https://biostar.usegalaxy.org/
 
-- - - 
+- - -
 ## Issue by error message
 
-1. Error from a tool in the **NGS: SAMtools** or **NGS: Picard** groups about sort order. 
+1. Error from a tool in the **NGS: SAMtools** or **NGS: Picard** groups about sort order.
 1. Tool is failing for memory or walltime (click on bug icon to review - this does not need to be submitted).
 1. Tool is failing for what appears to be a cluster error.
 1. Tool is failing and you are not sure what the error message means or how to troubleshoot/get help.
@@ -85,7 +85,7 @@ Check all inputs: **[All Support help](https://galaxyproject.org/support)**
 
 If you cannot determine the problem from the help above, the bug report can be sent in: **[Common tool errors and solutions, including how to send in a bug report](https://galaxyproject.org/support/tool-error/)**.
 
-- - - 
+- - -
 ## Correction Completed History
 
 1. **Convert BIOM 2.1.5.0** Dependency issues (now resolved). Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/usegalaxy-playbook/issues/63
@@ -139,7 +139,7 @@ If you cannot determine the problem from the help above, the bug report can be s
 1. **Picard Tool: ValidateSamFile** Errors (as a green successful dataset) in summary mode. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/tools-devteam/issues/369
 1. **FastQC, MACS2** HTML results do not display when "eye" icon used. Impacts Galaxy Main http://usegalaxy.org. Details: https://github.com/galaxyproject/galaxy/issues/2240
 1. **Trim leading or trailing characters** Fails when option to specify input is fastq is used. Impacts Galaxy Main http://usegalaxy.org and possibly locals running 16.04. Details and workaround: https://github.com/galaxyproject/galaxy/issues/2245
-1. **CollectAlignmentSummaryMetrics** Fixed on Main at version 1.136.0. https://github.com/galaxyproject/galaxy/issues/1692 
+1. **CollectAlignmentSummaryMetrics** Fixed on Main at version 1.136.0. https://github.com/galaxyproject/galaxy/issues/1692
 
 
 

@@ -50,9 +50,9 @@ The conference is still accepting [late abstract submissions](/events/gcc2014/ab
 
 We are happy to have [Penguin Computing](http://www.penguincomputing.com/) as a GCC2014 Silver Sponsor. Penguin, like all [Platinum, Gold, and Silver Sponsors](/events/gcc2014/sponsor-exhibit/) will have a table at GCC2104.
 
-There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available for the [GCC2014](/events/gcc2014/) and Giga sponsorships for the [Hackathon](/events/gcc2014/hackathon/). Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor these events. 
+There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available for the [GCC2014](/events/gcc2014/) and Giga sponsorships for the [Hackathon](/events/gcc2014/hackathon/). Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor these events.
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014.
 
 ### Galaxy Hackathon at GCC2014
 
@@ -72,13 +72,13 @@ Finally, we are happy to have [Amazon Web Services](http://aws.amazon.com) on bo
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are [at least 13 other Galaxy related events](/events/) in the next two months in Thailand, Canada, France, the United States, Italy, the Netherlands, Australia, and Brazil. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
-<div class='center'> 
+<div class='center'>
 <a href='http://abims.sb-roscoff.fr/formation'><img src="/images/logos/ABiMSLogo.png" alt="ABiMS" height="50" /></a>
 <a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'><img src="/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=80 /></a>&nbsp;
 <a href='/events/asms2014/'><img src="/images/logos/ASMSLogo.png" alt="62nd ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
@@ -283,14 +283,14 @@ One new [public Galaxy servers](/use/) was added to the published list in May:
   * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
   * *[deepTools: a flexible platform for exploring deep-sequencing data](/events/gcc2014/abstracts/talks/#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/events/gcc2014/)
   * deepTools deployment description
-* *Domain/Purpose:* 
+* *Domain/Purpose:*
     deepTools is a suite of user-friendly tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments.
 * *Comments:*
     deepTools offers multiple methods for highly-customizable data visualization that immensely aid hypothesis generation and data interpretation. It also offers all the tools needed to create coverage files in standard bedGraph and bigWig file formats allowing various normalization procedures and comparisons between two files (for example, treatment and control).
 * *User Support:*
   * [Email](mailto:deeptools@googlegroups.com)
   * [deepTools wiki](https://github.com/fidelram/deepTools/wiki)
-* *Quotas:* 
+* *Quotas:*
     20 GB for unregistered users, 30 GB for registered users
 * *Sponsor(s):*
     [Bioinformatics](http://www.ie-freiburg.mpg.de/bioinformaticsfac) and [Deep-Sequencing](http://www.ie-freiburg.mpg.de/deepfac) Units at the [Max Planck Institute for Immunobiology and Epigenetics](http://www3.ie-freiburg.mpg.de/).
@@ -332,7 +332,7 @@ The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community
 
 ## Galaxy Project ToolShed Repos
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
@@ -352,17 +352,17 @@ In no particular order:
 * *From [george-weingart](http://toolshed.g2.bx.psu.edu/view/george-weingart/) *
   * [metaphlan](http://toolshed.g2.bx.psu.edu/view/george-weingart/metaphlan): MetaPhlAn (Metagenomic Phylogenetic Analysis) is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data
   * [lefse](http://toolshed.g2.bx.psu.edu/view/george-weingart/lefse): LDA Effect Size (LEfSe) ([Segata et. al 2010](http://genomebiology.com/content/12/6/R60)) is an algorithm for high-dimensional biomarker discovery and explanation that identifies genomic features (genes, pathways, or taxa) characterizing the differences between two or more biological conditions.
-  * [micropita](http://toolshed.g2.bx.psu.edu/view/george-weingart/micropita): microPITA is a computational tool enabling sample selection in tiered studies. 
+  * [micropita](http://toolshed.g2.bx.psu.edu/view/george-weingart/micropita): microPITA is a computational tool enabling sample selection in tiered studies.
   * [maaslin](http://toolshed.g2.bx.psu.edu/view/george-weingart/maaslin): MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function
 
 * *From [devteam](http://toolshed.g2.bx.psu.edu/view/devteam)*
   * [fasta_filter_by_length](http://toolshed.g2.bx.psu.edu/view/devteam/fasta_filter_by_length): Outputs sequences between Minimal length and Maximum length.
   * [rmap](http://toolshed.g2.bx.psu.edu/view/devteam/rmap): RMAP for Solexa Short Reads Alignment
   * [convert_solid_color2nuc](http://toolshed.g2.bx.psu.edu/view/devteam/convert_solid_color2nuc): Convert Color Space to Nucleotides
-  * [megablast_xml_parser](http://toolshed.g2.bx.psu.edu/view/devteam/megablast_xml_parser): processes the XML output of any NCBI blast tool 
+  * [megablast_xml_parser](http://toolshed.g2.bx.psu.edu/view/devteam/megablast_xml_parser): processes the XML output of any NCBI blast tool
   * [fastqsolexa_to_fasta_qual](http://toolshed.g2.bx.psu.edu/view/devteam/fastqsolexa_to_fasta_qual): extracts sequences and quality scores from FASTQ data (Solexa variant), producing a FASTA dataset and a QUAL dataset.
   * [fasta_concatenate_by_species](http://toolshed.g2.bx.psu.edu/view/devteam/fasta_concatenate_by_species): attempts to parse FASTA headers to determine the species for each sequence in a multiple FASTA alignment. It then linearly concatenates the sequences for each species in the file, creating one sequence per determined species.
-  * [blat_mapping](http://toolshed.g2.bx.psu.edu/view/devteam/blat_mapping): takes BLAT pslx output and returns a wig-like file showing the number of reads (coverage) mapped at each chromosome location. 
+  * [blat_mapping](http://toolshed.g2.bx.psu.edu/view/devteam/blat_mapping): takes BLAT pslx output and returns a wig-like file showing the number of reads (coverage) mapped at each chromosome location.
   * [annotation_profiler](http://toolshed.g2.bx.psu.edu/view/devteam/annotation_profiler): Profile Annotations for a set of genomic intervals
   * [megablast_wrapper](http://toolshed.g2.bx.psu.edu/view/devteam/megablast_wrapper): Megablast compare short reads against htgs, nt, and wgs databases
   * [blat_coverage_report](http://toolshed.g2.bx.psu.edu/view/devteam/blat_coverage_report): Calculate the percentage of reads supporting each nucleotide at each location

@@ -10,7 +10,7 @@ import links from "../../links.json"
 
 <div class='left'><a href='/events/gcc2013/bof/'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
-This page describes the **Galaxy Professionals** [Birds of a Feather](/events/gcc2013/bof/) meetup proposed for [GCC2013](/events/gcc2013/). 
+This page describes the **Galaxy Professionals** [Birds of a Feather](/events/gcc2013/bof/) meetup proposed for [GCC2013](/events/gcc2013/).
 
 ## Outcomes
 
@@ -25,7 +25,7 @@ Ross will update these notes when he finishes travelling. For now:
 
 1. #4 The newly announced Galaxy Foundation (GF) also represents a potential vehicle for connecting customers with professional providers
 
-1. #5 The concept of testing, accreditation and maintenance of professional Galaxy related skills and capacities was briefly discussed. This is a very complex area but one worthy of attention in the longer term as the pool of providers becomes larger and more unruly. The GF probably represents an appropriate vehicle for the definition and certification of professional standards and for providing accreditation and certification of training services. 
+1. #5 The concept of testing, accreditation and maintenance of professional Galaxy related skills and capacities was briefly discussed. This is a very complex area but one worthy of attention in the longer term as the pool of providers becomes larger and more unruly. The GF probably represents an appropriate vehicle for the definition and certification of professional standards and for providing accreditation and certification of training services.
 
 ## Origins
 
@@ -37,8 +37,8 @@ The goal of this BoF is deliberately vague, since it's not clear whether there w
 
 * learn who else is not opposed to the idea
 * clarify risks and benefits
-* propose a sustainable business model 
-* figure out where to find paying customers 
+* propose a sustainable business model
+* figure out where to find paying customers
 * discuss possible organisational models and governance structures
 * plan future steps
 

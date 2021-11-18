@@ -98,7 +98,7 @@ Each topic lists prerequisites for what you should know, and what hardware and s
 
 ## Hardware
 
-In *almost every* workshop participants will need a wifi-enabled laptop. 
+In *almost every* workshop participants will need a wifi-enabled laptop.
 
 ## Software
 
@@ -131,14 +131,14 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #F1DDCB;"> * A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+    <td style=" vertical-align: top; background-color: #F1DDCB;"> * A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
 
 
 <span style="font-size: smaller;"> This title was inspired by [Richard Smith's talk on "Experimental design: the importance of filtering](https://wiki.uiowa.edu/display/galaxyusers/IIHG+Bioinformatics+Course)" at the [Iowa Iowa Institute for Human Genetics' Bioinformatics Short course](https://wiki.uiowa.edu/display/galaxyusers/IIHG+Bioinformatics+Course) </span>
- 
+
 ### Training with Galaxy: a Genome Assembly Example
 
 <table class="table">
@@ -154,8 +154,8 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #F1DDCB;"> * A general knowledge of Galaxy (for example, you should be familiar with the material in [Galaxy 101](http://usegalaxy.org/galaxy101)), or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](/events/gcc2014/training-day/#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session. 
-* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+    <td style=" vertical-align: top; background-color: #F1DDCB;"> * A general knowledge of Galaxy (for example, you should be familiar with the material in [Galaxy 101](http://usegalaxy.org/galaxy101)), or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](/events/gcc2014/training-day/#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session.
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
@@ -177,7 +177,7 @@ See each individual workshop's list of prerequisite for specifics.
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
     <td colspan=2 style=" vertical-align: top; background-color: #F1DDCB;"> * A general knowledge of Galaxy and NGS quality control issues and tools, or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](/events/gcc2014/training-day/#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session.
-* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
@@ -201,7 +201,7 @@ See each individual workshop's list of prerequisite for specifics.
     <th style=" vertical-align: top;"> Prerequisites </th>
     <td colspan=2 style=" vertical-align: top; background-color: #F1DDCB;"> * A general knowledge of Galaxy and NGS quality control issues and tools, or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](/events/gcc2014/training-day/#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session.
  * Familiarity with the Tuxedo suite or attendance at the [RNA-Seq Analysis with Galaxy and the Tuxedo Suite](/events/gcc2014/training-day/#rna-seq-analysis-with-galaxy-and-the-tuxedo-suite) session
-* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
@@ -222,8 +222,8 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #F1DDCB;"> * A general knowledge of Galaxy (for example, you should be familiar with the material in [Galaxy 101](http://usegalaxy.org/galaxy101)), or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](/events/gcc2014/training-day/#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session. 
-* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+    <td style=" vertical-align: top; background-color: #F1DDCB;"> * A general knowledge of Galaxy (for example, you should be familiar with the material in [Galaxy 101](http://usegalaxy.org/galaxy101)), or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](/events/gcc2014/training-day/#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session.
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
@@ -242,8 +242,8 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #F1DDCB;"> * A general knowledge of Galaxy (for example, you should be familiar with the material in [Galaxy 101](http://usegalaxy.org/galaxy101)), or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](/events/gcc2014/training-day/#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session. 
-* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+    <td style=" vertical-align: top; background-color: #F1DDCB;"> * A general knowledge of Galaxy (for example, you should be familiar with the material in [Galaxy 101](http://usegalaxy.org/galaxy101)), or attendance at the "[Raisins and Rabbit Turds: NGS Quality Control with Galaxy](/events/gcc2014/training-day/#raisins-and-rabbit-turds-ngs-quality-control-with-galaxy)" session.
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
@@ -268,9 +268,9 @@ See each individual workshop's list of prerequisite for specifics.
     <th style=" vertical-align: top;"> Prerequisites </th>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * Secure Shell (SSH) client software such as [PuTTY](http://www.putty.org/) for Windows, or the [Terminal Application](http://guides.macrumors.com/Terminal) that comes with Mac OS.
-* Virtual machine (VM) player software, [VirtualBox](http://virtualbox.org) is recommended and has been tested with the conference virtual machine images. 
+* Virtual machine (VM) player software, [VirtualBox](http://virtualbox.org) is recommended and has been tested with the conference virtual machine images.
 * The [virtual machine image](/events/gcc2014/training-day/vms/#2-download-needed-vms-on-your-laptop) for this workshop.
-* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
@@ -292,9 +292,9 @@ See each individual workshop's list of prerequisite for specifics.
     <th style=" vertical-align: top;"> Prerequisites </th>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> * Experience maintaining a production Galaxy server (recommended)
 * Secure Shell (SSH) client software such as [PuTTY](http://www.putty.org/) for Windows, or the [Terminal Application](http://guides.macrumors.com/Terminal) that comes with Mac OS.
-* Virtual machine (VM) player software, [VirtualBox](http://virtualbox.org) is recommended and has been tested with the conference virtual machine images. 
+* Virtual machine (VM) player software, [VirtualBox](http://virtualbox.org) is recommended and has been tested with the conference virtual machine images.
 * The [virtual machine image](/events/gcc2014/training-day/vms/#2-download-needed-vms-on-your-laptop) for this workshop.
-* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
@@ -318,7 +318,7 @@ See each individual workshop's list of prerequisite for specifics.
     <td style=" vertical-align: top; background-color: #EFFFEF;"> * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * A knowledge of Python programming.
 * Secure Shell (SSH) client software such as [PuTTY](http://www.putty.org/) for Windows, or the [Terminal Application](http://guides.macrumors.com/Terminal) that comes with Mac OS.
-* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
@@ -340,9 +340,9 @@ See each individual workshop's list of prerequisite for specifics.
     <th style=" vertical-align: top;"> Prerequisites </th>
     <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * Secure Shell (SSH) client software such as [PuTTY](http://www.putty.org/) for Windows, or the [Terminal Application](http://guides.macrumors.com/Terminal) that comes with Mac OS.
-* Virtual machine (VM) player software, [VirtualBox](http://virtualbox.org) is recommended and has been tested with the conference virtual machine images. 
+* Virtual machine (VM) player software, [VirtualBox](http://virtualbox.org) is recommended and has been tested with the conference virtual machine images.
 * The [virtual machine image](/events/gcc2014/training-day/vms/#2-download-needed-vms-on-your-laptop) for this workshop.
-* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
@@ -364,9 +364,9 @@ See each individual workshop's list of prerequisite for specifics.
     <th style=" vertical-align: top;"> Prerequisites </th>
     <td style=" vertical-align: top; background-color: #EFFFEF;"> * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * Secure Shell (SSH) client software such as [PuTTY](http://www.putty.org/) for Windows, or the [Terminal Application](http://guides.macrumors.com/Terminal) that comes with Mac OS.
-* Virtual machine (VM) player software, [VirtualBox](http://virtualbox.org) is recommended and has been tested with the conference virtual machine images. 
+* Virtual machine (VM) player software, [VirtualBox](http://virtualbox.org) is recommended and has been tested with the conference virtual machine images.
 * The [virtual machine image](/events/gcc2014/training-day/vms/#2-download-needed-vms-on-your-laptop) for this workshop.
-* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
@@ -409,7 +409,7 @@ See each individual workshop's list of prerequisite for specifics.
     <td colspan=2 style=" vertical-align: top; background-color: #EFFFEF;"> * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * Secure Shell (SSH) client software such as [PuTTY](http://www.putty.org/) for Windows, or the [Terminal Application](http://guides.macrumors.com/Terminal) that comes with Mac OS.
 * An account on [Amazon Web Services](https://aws.amazon.com).  These can be setup for free, but it does require a credit card.
-* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best. 
+* A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.
  </td>
   </tr>
 </table>
@@ -443,10 +443,10 @@ Training Day topics were selected by the Galaxy Community.  Topic were first nom
 
 
 * <span style="font-size: larger;"> "Have attended many training days/tutorials in my 15yr career. This was for me the most fruitful (and thus the best) so far." </span>
-* "I could definitely tell a lot of time and energy went into planning this training day/conference, and for that I want to say thank you." 
-* "Intense but great" 
+* "I could definitely tell a lot of time and energy went into planning this training day/conference, and for that I want to say thank you."
+* "Intense but great"
 * "All the instructors were amazing."
-* "**Overall a great experience**" 
+* "**Overall a great experience**"
 
 # Training Day Sponsor
 

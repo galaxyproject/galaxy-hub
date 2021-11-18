@@ -11,9 +11,9 @@ to the following sections:
 - [Install and configure Helm](#install-helm);
 - [Deploy an instance of Galaxy using Helm charts](#deploy-galaxy-on-the-cluster);
 - [Access Galaxy](#access-galaxy);
-- [Delete cluster](#delete-resources-and-gke-cluster). 
+- [Delete cluster](#delete-resources-and-gke-cluster).
 
-> Note that all the commands given in this tutorial have been tested in 
+> Note that all the commands given in this tutorial have been tested in
 [_Cloud shell_](https://cloud.google.com/shell/); however, they may be
 applicable to any console where the
 [K8s command-line tool (`kubectl`)](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
@@ -168,7 +168,7 @@ The deployment of Galaxy on a K8s cluster consists of two steps discussed as it 
 
 1. [Optional] Deploy the [CernVM File System (CVMFS)](https://cernvm.cern.ch/portal/filesystem)
 service using [CVMFS-CSI chart](https://github.com/CloudVE/galaxy-cvmfs-csi-chart).
-You may run the following commands for this deployment: 
+You may run the following commands for this deployment:
 
     ```
     $ git clone https://github.com/CloudVE/galaxy-cvmfs-csi-chart.git
@@ -257,7 +257,7 @@ If you wish to delete this volume as well, use:
     kubectl delete pvc data-my-gxy-galaxy-postgres-0 --namespace mynamespace
     ```
 
-3. Delete cluster: 
+3. Delete cluster:
 
     You can delete the cluster either through the GKE dahsboard, or by using the
     following command:

@@ -299,9 +299,9 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 ## GCC2013
 
-<div class='left'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
+<div class='left'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div>
 
-<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div> 
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 <br />
 <br />
 <br />
@@ -314,7 +314,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

@@ -9,9 +9,9 @@ Related Topics
  * [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)
  * [Common datatypes explained](/learn/datatypes/)
  * [Input datatype misassignment and errors](/support/tool-error/)
- 
+
 ## Help for Fastq Datasets
- 
+
 ### Fastqsanger format is usually required
 
 Most tools that accept [FASTQ](/learn/datatypes/#fastq) data expect it to be in a specific FASTQ version: **.fastqsanger**
@@ -24,7 +24,7 @@ The `.fastqsanger` datatype must be assigned to each FASTQ dataset.
 * Run **FastQC** first to assess the type
    * Run **FASTQ Groomer** if the data needs to have the quality scores rescaled
    * If you are certain that the quality scores are already scaled to Sanger Phred+33 (the result of an Illumina 1.8+ pipeline), the datatype ".fastqsanger" can be directly assinged. Click the ![pencil](/images/icons/pencil.png "pencil") icon to reach the _**Edit Attributes**_ form. In the center panel, click on the "Datatype" tab (3rd), enter the datatype ".fastqsanger", and save. Metadata will assign, then the dataset can be used.
-* Run **FastQC** again on the entire dataset *if any changes were made to the quality scores* [for QA](/tutorials/ngs/#fastq-manipulation-and-quality-control/) 
+* Run **FastQC** again on the entire dataset *if any changes were made to the quality scores* [for QA](/tutorials/ngs/#fastq-manipulation-and-quality-control/)
 
 ### Other tips
 

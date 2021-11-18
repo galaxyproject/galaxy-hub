@@ -7,7 +7,7 @@ date: 2012-01-27
 
 <div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="50px" /></a></div>
 
- **[getgalaxy.org](http://getgalaxy.org)** 
+ **[getgalaxy.org](http://getgalaxy.org)**
 
 * **new**: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
 
@@ -82,8 +82,8 @@ date: 2012-01-27
 
 ## Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
-* Python 2.5 support was broken in the last stable release, this has been fixed 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div>
+* Python 2.5 support was broken in the last stable release, this has been fixed
 * A broken unit test under 2.5 will not be fixed until the next release, however - this can safely be ignored.
 * A fix to not use math.isnan because it is not compatible with python 2.5 has been made.
 * Fix for setting up column assignments for dynamic options with respect to tool data tables when the index file is missing causing tools to fail to load.
@@ -97,7 +97,7 @@ date: 2012-01-27
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

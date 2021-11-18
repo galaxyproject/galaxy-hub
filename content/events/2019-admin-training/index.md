@@ -56,13 +56,13 @@ You don’t need to be an expert at Linux package management, but you do need to
 
 We’ll be using Ubuntu based images during the workshop, which means we’ll be using **[apt](https://help.ubuntu.com/community/AptGet/Howto)** to do package management.  Get to know it.
 
-## Advanced Topics 
+## Advanced Topics
 
 Prerequisites include all of the Introduction Session prerequisites, plus familiarity with the topics presented in that session.
 
 # Laptop Requirements
 
-All participants should bring a wifi-enabled laptop with 
+All participants should bring a wifi-enabled laptop with
 
 * at least 4GB of memory (more is better)
 * Software to access the command line of a Linux server.

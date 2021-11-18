@@ -22,9 +22,9 @@ transition to using an external identity, **you must first link the existing
 Galaxy account to the desired external identity**.
 
 <div class="alert alert-info" role="alert">
-    **IMPORTANT:** If you sign in with an external identity that has not been 
-    linked to your existing Galaxy account, a new Galaxy account will be created. 
-    This may violate the policy of a given Galaxy server and will make it 
+    **IMPORTANT:** If you sign in with an external identity that has not been
+    linked to your existing Galaxy account, a new Galaxy account will be created.
+    This may violate the policy of a given Galaxy server and will make it
     impossible to associate that identity with an existing Galaxy account.
 </div>
 
@@ -39,7 +39,7 @@ Galaxy account to the desired external identity**.
 Once you have completed these steps, any identity provider linked to your
 account will be listed on the user preferences page. From now on you can sign
 in to Galaxy using either the user name and password or the external identity
-(as shown below). 
+(as shown below).
 
 ## Sign in to Galaxy via Custos
 

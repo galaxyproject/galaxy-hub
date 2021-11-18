@@ -28,6 +28,6 @@ upgrade: $ hg pull -u -r 36ad8aa7b922
 ```
 
 
-**Best wishes for a safe and happy holiday**, 
+**Best wishes for a safe and happy holiday**,
 
 ***[The Galaxy Team](/galaxy-team/)***

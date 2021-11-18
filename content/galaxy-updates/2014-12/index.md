@@ -61,7 +61,7 @@ Please start giving some thought to what topics you would like to see covered at
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.ifb-galaxy.org/GALAXYDAYS2014.html'><img src="/images/logos/GalaxyIFB.png" alt="Galaxy Day" width="140" /></a>&nbsp;
 <a href='/events/vsu2014/'><img src="/images/logos/VSULogo.jpg" alt="Intro to Galaxy Workshop at Virginia State University" height="70" /></a>
 <a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src="/images/logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2015)" height="80" /></a>
@@ -231,7 +231,7 @@ The Galaxy is expanding! Please help it grow.
 * [Senior Development Engineer - Bioinformatics](http://it.ly/1yGvefn), and [Bioinformatician II](http://bit.ly/1vBhgxB), University of Massachusetts Medical School
 * Searching for [bioinformaticians, post-docs, PhD students and software engineers](/news/bioinformatician-freiburg2014/) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
 * [Research Specialist](http://bit.ly/13pqd0T), Michigan State University, United States
-* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
+* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
@@ -283,7 +283,7 @@ Two new [public Galaxy servers](/use/) were announced in November:
     Since Pitagora-Galaxy enables us to run the same workflows on any infrastructure and rebuild the environments in any time, we can quickly use Galaxy, and at the same time, ensure the reproducibility of the analyses. In addition, we plan to add a connector for Garuda Desktop, a desktop application platform, for data analyses that cannot be covered only with Galaxy tools.
 * *User Support:*
   * Email: [Ryota Yamanaka](mailto:yamanaka AT genome DOT rcast.u-tokyo.ac.jp)
-* *Quotas:* 
+* *Quotas:*
   * Public Server:
     * See the [instructions](http://try.pitagora-galaxy.org/galaxy/) at Pitagora-Galaxy Server.
   * VM and AMI:
@@ -308,7 +308,7 @@ Two new [public Galaxy servers](/use/) were announced in November:
 * *User Support:*
   * [PIA Manual](https://bytebucket.org/osiris_phylogenetics/pia/raw/05d213dcb31e4cda9ccc68201ee7f8854161b2c9/docs/PIAwebManual_090914.pdf)
   * [Getting Started with PIA](https://www.youtube.com/watch?v=m23KxhxhTAE) screencast.
-* *Quotas:* 
+* *Quotas:*
 * *Sponsor(s):*
   * [Oakley Lab](https://labs.eemb.ucsb.edu/oakley/todd/) at [UC Santa Barbara](http://www.ucsb.edu/)
 
@@ -347,20 +347,20 @@ Look for a new Galaxy distribution soon.
 
 Here are new contributions for the past *two* months.
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
   * [mira_datatypes](https://toolshed.g2.bx.psu.edu/view/peterjc/mira_datatypes):  Defines 'mira' datatype for the MIRA Assembly Format. Note that Galaxy already has a 'maf' datatype for the Multiple (sequence) Alignment Format (MAF). This is specifically for the MIRA Assembly Format (also called MAF). Previously only on the Test Tool Shed.
-  * [clc_assembly_cell](https://toolshed.g2.bx.psu.edu/view/peterjc/clc_assembly_cell): Galaxy wrapper for the CLC Assembly Cell suite from CLCBio. This is a wrapper for the commercial "CLC Assembly Cell" suite from CLCBio which includes a de novo assembler and read mapper: http://www.clcbio.com/products/clc-assembly-cell/  Uploaded v0.0.2, previously only on the Test Tool Shed. 
+  * [clc_assembly_cell](https://toolshed.g2.bx.psu.edu/view/peterjc/clc_assembly_cell): Galaxy wrapper for the CLC Assembly Cell suite from CLCBio. This is a wrapper for the commercial "CLC Assembly Cell" suite from CLCBio which includes a de novo assembler and read mapper: http://www.clcbio.com/products/clc-assembly-cell/  Uploaded v0.0.2, previously only on the Test Tool Shed.
   * [seq_composition](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_composition): Uploaded v0.0.1 (with embedded citation). Sequence composition. Counts the letters in given sequence files, returning a table listing them with percentages. Suitable for use on assemblies or gene/protein sets. Probably not suitable for raw NGS reads.
-  * [mira4_assembler](https://toolshed.g2.bx.psu.edu/view/peterjc/mira4_assembler): MIRA 4.0 assembler Wrapper for core functionality of assembly tool MIRA 4.0.  Accepts data from Solexa/Illumina, Roche 454, Ion Torrent, PacBio and Sanger capillary sequencing.  The key MIRA output files are captured, but the other files are deleted when the job finishes.  Uploaded v0.0.4, previously only on the Test Tool Shed. 
-  * [samtools_depad](https://toolshed.g2.bx.psu.edu/view/peterjc/samtools_depad): Runs "samtools depad" to remap a SAM/BAM file using a padded reference (with gap characters) giving a new BAM file using an unpadded (ungapped) reference. Uploaded v0.0.1, previously only on the Test Tool Shed. 
+  * [mira4_assembler](https://toolshed.g2.bx.psu.edu/view/peterjc/mira4_assembler): MIRA 4.0 assembler Wrapper for core functionality of assembly tool MIRA 4.0.  Accepts data from Solexa/Illumina, Roche 454, Ion Torrent, PacBio and Sanger capillary sequencing.  The key MIRA output files are captured, but the other files are deleted when the job finishes.  Uploaded v0.0.4, previously only on the Test Tool Shed.
+  * [samtools_depad](https://toolshed.g2.bx.psu.edu/view/peterjc/samtools_depad): Runs "samtools depad" to remap a SAM/BAM file using a padded reference (with gap characters) giving a new BAM file using an unpadded (ungapped) reference. Uploaded v0.0.1, previously only on the Test Tool Shed.
   * [coverage_stats](https://toolshed.g2.bx.psu.edu/view/peterjc/coverage_stats): This tool runs the commands ``samtools idxstats`` and ``samtools depth`` from the SAMtools toolkit, and parses their output to produce a consise summary of the coverage information for each reference sequence.
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [bedtools](https://toolshed.g2.bx.psu.edu/view/iuc/bedtools): bedtools: a powerful toolset for genome arithmetic Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. While each individual tool is designed to do a relatively simple task (e.g., intersect two interval files), quite sophisticated analyses can be conducted by combining multiple bedtools operations. 
+  * [bedtools](https://toolshed.g2.bx.psu.edu/view/iuc/bedtools): bedtools: a powerful toolset for genome arithmetic Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. While each individual tool is designed to do a relatively simple task (e.g., intersect two interval files), quite sophisticated analyses can be conducted by combining multiple bedtools operations.
     * Repository-Maintainer: Björn Grüning
     * Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 
@@ -417,10 +417,10 @@ In no particular order:
 
 # Other News
 
-* Doing data-intensive biology in Poland? There's [a server for you](https://galaxy.plgrid.pl)!  [Become a user](http://bit.ly/1u0UDAC). 
+* Doing data-intensive biology in Poland? There's [a server for you](https://galaxy.plgrid.pl)!  [Become a user](http://bit.ly/1u0UDAC).
 * From [Yvan Le Bras](https://twitter.com/Yvan2935): You want to test [Stacks](http://creskolab.uoregon.edu/stacks/) on Galaxy? Find the links towards our Genocloud VM on [GUGGO training page](http://tinyurl.com/ku3etrv) (with a nod to [Julian Catchen](https://twitter.com/jcatchen))
 * [Claus from the University of Oslo](https://github.com/Tarostar) developed an [app for checking Galaxy on your phone](https://github.com/Tarostar/QMLGalaxyPortal). [You can help test it](https://biostar.usegalaxy.org/p/9624/).
-* From [CRS4 Galaxy](https://twitter.com/CRS4Galaxy): [Seven Mycoplasma hyosynoviae strains assembled using Orione CRS4 Galaxy](http://goo.gl/XMMci1) 
+* From [CRS4 Galaxy](https://twitter.com/CRS4Galaxy): [Seven Mycoplasma hyosynoviae strains assembled using Orione CRS4 Galaxy](http://goo.gl/XMMci1)
 * From [Enis Afgan](https://twitter.com/EnisAfgan): Just wrapped up my first talk at Supercomputing 14: [Deciphering Big Data Stacks: An Overview of Big Data Tools](http://bit.ly/BDStacks).
 * From [Robert Davidson](https://twitter.com/bobbledavidson): My conference presentation on metabolomics and Galaxy Project at [#MMW2014](https://twitter.com/hashtag/MMW2014?src=hash) citable via [FigShare](https://doi.org/10.6084/m9.figshare.1243500)
 * From [Ron Horst](https://twitter.com/Captnupoz): Been away for a month, come back to a new GVL with Galaxy, IPython, Rstudio. See the [GVL Dashboard](http://130.56.250.190) and GET your own from http://genome.edu.au

@@ -13,7 +13,7 @@ import links from "../../links.json"
 
 This page describes the **Tool Developers** [Birds of a Feather](/events/gcc2013/bof/) meetup being held at [GCC2013](/events/gcc2013/).
 
-The aim is for tool developers to discuss the process of developing tools for galaxy. 
+The aim is for tool developers to discuss the process of developing tools for galaxy.
 
 Potential topics could include;
 

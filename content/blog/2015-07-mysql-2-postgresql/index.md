@@ -18,7 +18,7 @@ I quickly realized a simple dump table from MySQL and load them into PostgreSQL 
 
 ## Preparations for the Move
 
-To make sure, the new PostgreSQL database had the correct schema, I set up a new Galaxy server from scratch, using the same release as our production server was running at the time ([15.03](http://galaxy.readthedocs.org/en/master/releases/15.03_announce.html)), and pointing to a new, empty PostgreSQL database. By starting the new Galaxy server, the 128 migration steps were executed, and the PostgreSQL database was populated with 156 empty (see also below) tables. 
+To make sure, the new PostgreSQL database had the correct schema, I set up a new Galaxy server from scratch, using the same release as our production server was running at the time ([15.03](http://galaxy.readthedocs.org/en/master/releases/15.03_announce.html)), and pointing to a new, empty PostgreSQL database. By starting the new Galaxy server, the 128 migration steps were executed, and the PostgreSQL database was populated with 156 empty (see also below) tables.
 
 I used the tool [py-mysql2pgsql](https://pypi.python.org/pypi/py-mysql2pgsql) to generate table dumps from our MySQL database. By default, [py-mysql2pgsql](https://pypi.python.org/pypi/py-mysql2pgsql) imports the data into a  PostgreSQL database, but if you provide a file name (e.g. "mysql2pgsql.txt") in the required "mysql2pgsql.yml" file, the output goes to the "mysql2pgsql.txt" file. This file contains all the commands to create a PostgreSQL database, based on the information from the MySQL database. Since I was only interested in the loading data (or rather "COPY") parts, I used a simple perl script to parse "mysql2pgsql.txt" to get the "COPY" statements for all table which had data in.
 
@@ -61,7 +61,7 @@ close DUMP;
 ```
 
 
-This script generated 81 copy statements for the database used for our production server. 
+This script generated 81 copy statements for the database used for our production server.
 
 ## Loading the Data
 
@@ -162,7 +162,7 @@ Obviously, as part of the database generation the table "migrate_version" had al
 (1 row)
 ```
 
-The "kombu_queue" table was also not empty: 
+The "kombu_queue" table was also not empty:
 ```
 =# select * from kombu_queue;
  id |     name     

@@ -58,9 +58,9 @@ Screencasts for the [August](/community/galaxy-admins/meetups/2016-08-18/) and [
 * *Dynamic Job Expansion: Experiences using [Makeflow](http://ccl.cse.nd.edu/software/makeflow/) in Galaxy*, [Nick Hazekamp](https://engineering.nd.edu/profiles/nhazekamp), [University of Notre Dame](http://www.nd.edu/)
   * [Video](https://connect.johnshopkins.edu/p9nqie63c7a/)
 * [December](/community/galaxy-admins/meetups/2016-12-15/)
-  * *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/people/bjoern-gruening/) and  Bérénice Batut, University of Freiburg 
-  * *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/people/dannon-baker/), Johns Hopkins University 
-  * [Video](https://connect.johnshopkins.edu/p7ek9bf4ez0/) 
+  * *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/people/bjoern-gruening/) and  Bérénice Batut, University of Freiburg
+  * *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/people/dannon-baker/), Johns Hopkins University
+  * [Video](https://connect.johnshopkins.edu/p7ek9bf4ez0/)
 
 
 
@@ -68,7 +68,7 @@ Screencasts for the [August](/community/galaxy-admins/meetups/2016-08-18/) and [
 
 There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/pag2017/'><img src="/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
 <a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'><img src="/images/logos/edgw_2017_300.jpg" alt="European Galaxy Developer Workshop" height="100"/></a> &nbsp;
 <a href='http://www.abdn.ac.uk/genomics/bioinformatics/training/'><img src="/images/logos/AberdeenLogoTrans.png" alt="Galaxy Training at University of Aberdeen" width="120" /></a>
@@ -203,7 +203,7 @@ Once the Hub is in better shape it will become the [galaxyproject.org](https://g
 
 Content was automatically converted from MoinMoin and Creole markup to Markdown, and many other things were also cleaned up in the process. However, the automatic translation stumbled in some places and the cleanup and general restructuring are far from done.  We also aren't yet taking advantage of Metalsmith to render semi-structured content and page metadata.
 
-[We are using GitHub issues](https://github.com/galaxyproject/galaxy-site/issues/) and a Gitter channel to coordinate work. 
+[We are using GitHub issues](https://github.com/galaxyproject/galaxy-site/issues/) and a Gitter channel to coordinate work.
 
 ----
 
@@ -214,14 +214,14 @@ Content was automatically converted from MoinMoin and Creole markup to Markdown,
 Some highlights from December:
 
 * [Chapter 13. Using Galaxy for Proteomics](https://doi.org/10.1039/9781782626732-00289)
-   Candace R. Guerrero, Pratik D. Jagtap, James E. Johnson, Timothy J. Griffin; in 
+   Candace R. Guerrero, Pratik D. Jagtap, James E. Johnson, Timothy J. Griffin; in
 Proteome Informatics, edited by Conrad Bessant. (2016), pp. 289-320, doi:10.1039/9781782626732-00289
 * [EuPathDB: the eukaryotic pathogen genomics database resource](http://nar.oxfordjournals.org/content/early/2016/11/29/nar.gkw1105.full)
    Aurrecoechea *et al.*, *Nucleic Acids Research* (29 November 2016), gkw1105, doi:10.1093/nar/gkw1105
 *  [GeneSeqToFamily: the Ensembl Compara GeneTrees pipeline as a Galaxy workflow](https://doi.org/10.1101/096529 )
-   Anil S. Thanki, Nicola Soranzo, Wilfried Haerty, Matthieu Muffato, Robert P. Davey, *bioRxiv* 096529; doi: https://doi.org/10.1101/096529 
+   Anil S. Thanki, Nicola Soranzo, Wilfried Haerty, Matthieu Muffato, Robert P. Davey, *bioRxiv* 096529; doi: https://doi.org/10.1101/096529
 * [Integration of EGA secure data access into Galaxy](https://f1000research.com/articles/5-2841/)
-   Hoogstrate *et al.*, *F1000Research* 2016, 5(ELIXIR):2841 (doi: 10.12688/f1000research.10221.1) 
+   Hoogstrate *et al.*, *F1000Research* 2016, 5(ELIXIR):2841 (doi: 10.12688/f1000research.10221.1)
 
 ## Publication Topics
 
@@ -353,8 +353,8 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
   * 2 x Dual Hexacore HP DL380 with 288GB each Tools for genomics, proteinomics & sequence analysis We can load tools on request
 * *User Support:*
   * Best effort by email. For SLA support, please contact.
-* *Quotas:* 
-  * Free to approved academic users Up to 6 Cores, 64GB RAM per user, less than 90 days. 
+* *Quotas:*
+  * Free to approved academic users Up to 6 Cores, 64GB RAM per user, less than 90 days.
   * Larger, private instances available, please contact (>16Cores, >64GB, MPI, GPU customizable instances available in private cloud)
 * *Sponsor(s):*
   * [Cancer Computer](http://www.cancercomputer.com/)

@@ -12,8 +12,8 @@ date: "2020-11-03"
 * **[Event news](#event-news)**
 * **[Galaxy platform news](#galaxy-platforms-news):** GalaxyTrakr, Galaxy Africa, Australia, Europe, and UseGalaxy.*
 * **[Blog posts](#galactic-blog-activity):** Advanced Microbiology with Galaxy and TIaaS
-* **[Training material and doc updates](#doc-hub-and-training-updates)** 
-* **[Publications](#publications)** 
+* **[Training material and doc updates](#doc-hub-and-training-updates)**
+* **[Publications](#publications)**
 * **Q: Who's hiring? [A: Eight different groups](#whos-hiring)**
 * **[New releases](#releases)**
 * **[Other news too](#other-news)**
@@ -112,7 +112,7 @@ There will be one roundtable meetup this month, on **[November 12](/events/2020-
 
 </div>
 
-Paper Cuts are annoying but easy to fix bugs. The [first Paper Cuts event](/events/2020-10-papercuts/) in October was a [smashing success](https://galaxyproject.eu/posts/2020/10/29/first-papercuts/), so we are going to [do it again on November 18](/events/2020-11-papercuts/). Our second one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
+Paper Cuts are annoying but easy to fix bugs. The [first Paper Cuts event](/events/2020-10-papercuts/) in October was a [smashing success](https://galaxyproject.eu/posts/2020/10/29/first-papercuts/), so we are going to [do it again on November 18](/events/2020-11-papercuts/). Our second one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community.
 
 Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
 </div>
@@ -273,7 +273,7 @@ Devoted to assisting researchers on the African continent, accelerate their geno
 
 <img class="card-img-top" src="AU_10K_users.jpg" alt="Galaxy Australia" />
 
-Galaxy Australia is now officially supporting 10,000 researchers to analyse their valuable data. 
+Galaxy Australia is now officially supporting 10,000 researchers to analyse their valuable data.
 It's rapidly becoming the essential research tool for so many around the world.
 
 </div>
@@ -288,9 +288,9 @@ It's rapidly becoming the essential research tool for so many around the world.
 
 <img class="card-img-top" src="EU_20K_users.jpg" alt="Galaxy Europe" />
 
-Galaxy EU has surpassed 20,000 users! 
+Galaxy EU has surpassed 20,000 users!
 
-5 continents, 100 countries, more than 100 industry companies, 4,000 users trained using TIaaS, 11 million jobs, 12 jobs per minute... 
+5 continents, 100 countries, more than 100 industry companies, 4,000 users trained using TIaaS, 11 million jobs, 12 jobs per minute...
 
 </div>
 
@@ -304,7 +304,7 @@ Galaxy EU has surpassed 20,000 users!
 
 <img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* Talking about UseGalaxy.eu in a blog post or presentation? Galaxy Europe has provided [cool graphics and a fact sheet as well](https://galaxyproject.eu/posts/2020/09/06/branding/). 
+* Talking about UseGalaxy.eu in a blog post or presentation? Galaxy Europe has provided [cool graphics and a fact sheet as well](https://galaxyproject.eu/posts/2020/09/06/branding/).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
 
 </div>
@@ -547,7 +547,7 @@ Join the ELIXIR development / operations team at the University of Oslo (UiO), p
 
 Johns Hopkins University, Baltimore, Maryland, United States.
 
-Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. 
+Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis.
 
 <img class="card-img-bottom" src="/images/logos/anvil-logo-text.png" alt="AnVIL" />
 </div>

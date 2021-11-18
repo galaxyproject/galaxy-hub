@@ -27,7 +27,7 @@ The GCC2013 Organizing Committee is responsible for event planning.  The Organiz
 
 ## Scientific Committee
 
-The GCC2013 Scientific Committee is responsible for reviewing [talk and poster abstract submissions](/events/gcc2013/abstracts/), selecting and inviting keynote speakers, and reviewing and selecting lightning talk proposals. 
+The GCC2013 Scientific Committee is responsible for reviewing [talk and poster abstract submissions](/events/gcc2013/abstracts/), selecting and inviting keynote speakers, and reviewing and selecting lightning talk proposals.
 
 The Scientific Committee can be reached at [gcc2013 DASH sci AT galaxyproject DOT org](mailto:gcc2013 DASH sci AT galaxyproject DOT org).
 

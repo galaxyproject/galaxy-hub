@@ -3,7 +3,7 @@
 This describes configuration of a proposed user interface addition to existing [Galaxy sample tracking](http://main.g2.bx.psu.edu/u/rkchak/p/sts) functionality. The goal is to provide:
 
 * An intuitive interface for sample submission by researchers.
-* Sample management by sequencing technicians. 
+* Sample management by sequencing technicians.
 * Organizing of samples via projects, with full transparency on status to researchers.
 * Full integration with the existing Galaxy analysis framework.
 

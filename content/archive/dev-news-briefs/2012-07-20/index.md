@@ -7,7 +7,7 @@ date: 2012-07-20
 
 <div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="50px" /></a></div>
 
- **[getgalaxy.org](http://getgalaxy.org)** 
+ **[getgalaxy.org](http://getgalaxy.org)**
 
 **new**: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
 
@@ -63,7 +63,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 # Tools
 
 [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/)
-* **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements: 
+* **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements:
   * use **Bowtie2** build
   * add option to report discordant pairs
   * update tests
@@ -73,8 +73,8 @@ Several changes made in in determining errors from tool exit codes and output.  
 # User Interface (UI)
 
 * *Enhancements*
-  * Full integration with **[myExperiment](http://www.myexperiment.org)** website. Galaxy workflows can be 
-    * exported from Galaxy to **myExperiment** and 
+  * Full integration with **[myExperiment](http://www.myexperiment.org)** website. Galaxy workflows can be
+    * exported from Galaxy to **myExperiment** and
     * searched and imported from myExperiment website
   * Support for genomes as first-class objects
 
@@ -90,14 +90,14 @@ Several changes made in in determining errors from tool exit codes and output.  
 
 [Tool Shed](/toolshed/)
 * *Enhancements*
-  * The tool shed's category grid is now displayed when searching and browsing tool sheds from a local Galaxy instance. 
+  * The tool shed's category grid is now displayed when searching and browsing tool sheds from a local Galaxy instance.
   * This category grid's search feature searches valid repository names and descriptions when browsing a tool shed from Galaxy.
 * Going forward from this Galaxy release, the main Galaxy tool shed will track the Galaxy releases and the galaxy-dist repository on bitbucket.
 
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div>
 * Support Unvalidated values when exporting histories
 
 <br />
@@ -128,7 +128,7 @@ Want to work on one of the fastest growing open source bioinformatics projects a
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

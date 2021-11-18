@@ -32,7 +32,7 @@ So your `config/galaxy.ini` file probably has lines like this in the section `# 
  remote_user_maildomain = example.domain
  ftp_upload_dir = /galaxy/database/ftp
 ```
- 
+
 Line 1 means you are already using remote (apache or nginx) authentication and that your users log in using their ident as their name not their email.
 
 Line 2 means Galaxy is appending a fixed string  "@example.domain"  to ALL users to convert from ident to email.

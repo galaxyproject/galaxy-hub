@@ -33,9 +33,9 @@ An **API for executing workflows** has been added.
 
 ### Move Data Library Items
 
-We have introduced a feature that enables you to move library datasets or folders (including all folder contents) to other locations within the same data library or to a different data library altogether. 
+We have introduced a feature that enables you to move library datasets or folders (including all folder contents) to other locations within the same data library or to a different data library altogether.
 
-Galaxy administrators can perform this feature on any data library item and can move items to any data library.  Users that are not Galaxy administrators must be given the modify library item permission on an item in order to move it, and they'll need the add library item permission on the desired target data library folder in order for it to be displayed in the select list of targets. 
+Galaxy administrators can perform this feature on any data library item and can move items to any data library.  Users that are not Galaxy administrators must be given the modify library item permission on an item in order to move it, and they'll need the add library item permission on the desired target data library folder in order for it to be displayed in the select list of targets.
 
 #### Moving a single dataset
 
@@ -83,23 +83,23 @@ The target folders select list is filtered to include only valid folders to whic
   * __Existing genomes added to NGS Tools__
     * hg19 Canonical female (no Y chromosome)
     * *Streptococcus pneumoniae R6*: 278
-    * *Drosophila virilis*: droVir3 and droVir2 
+    * *Drosophila virilis*: droVir3 and droVir2
 * **New **LiftOver** Files**
   * caeRem2 --> caePb1, caeRem2 --> caeRem3, caeRem2 --> cb3, caeRem2 --> ce4, caeRem2 --> priPac1, calJac3 --> hg18, canFam2 --> monDom5, danRer6 --> danRer7, danRer7 --> fr2, danRer7 --> gasAcu1, danRer7 --> hg19, danRer7 --> mm9, danRer7 --> oryLat2, danRer7 --> panTro3, danRer7 --> tetNig2, danRer7 --> xenTro2, droVir3 --> droVir2, fr2 --> danRer7, gasAcu1 --> danRer7, hg18 --> calJac3, hg19 --> danRer7, mm9 --> danRer7, panTro3 --> danRer7, panTro3 --> hg19, ponAbe2 --> calJac3, ponAbe2 --> monDom5, strPur2 --> ci2, tetNig2 --> danRer7, xenTro2 --> danRer7
 * **Add Genomes to Your Instance**
   * [http://bitbucket.org/galaxy/galaxy-central/wiki/NGSLocalSetup](http://bitbucket.org/galaxy/galaxy-central/wiki/NGSLocalSetup)
 * **Current Galaxy Main Genomes**
-  * [http://bitbucket.org/galaxy/galaxy-central/wiki/GenomeData](http://bitbucket.org/galaxy/galaxy-central/wiki/GenomeData ) 
+  * [http://bitbucket.org/galaxy/galaxy-central/wiki/GenomeData](http://bitbucket.org/galaxy/galaxy-central/wiki/GenomeData )
 
 ### Current Tools
 
 * Add more verbose error reporting to **FASTQ Groomer** tool. Provides more information to allow users to determine what is wrong with *FASTQ* files with invalid format.
 * Enhance *Bowtie* wrapper to accept non-Sanger variant *FASTQ* files.
 * Allow **Upload Tool** to function on `https` URLs.
-* Add count *GFF* features tool and tests: 
+* Add count *GFF* features tool and tests:
   * Filter and Sort -->  GFF -->  **Filter GFF file by feature count using simple expressions**.
   * Tool counts the number of features in a *GFF* file. Note: this is different than the number of lines because a single *GFF* feature can often span multiple lines.
-* *Tophat* v1.2.0 support: 
+* *Tophat* v1.2.0 support:
   * (a) allow indel search.
   * (b) max insertion and max deletion lengths.
   * (c) library type.
@@ -112,7 +112,7 @@ The target folders select list is filtered to include only valid folders to whic
 * **Multiple Alignments: *ClustalW*** multiple sequence alignment program for DNA or proteins.
 * **Motif Tools: Sequence Logo** generator for *FASTA* data (example: *ClustalW* alignment).
   * Both tools originated from the Community Tool Shed (see below).
-  * The **Sequence Logo** tool uses *Weblogo3* wrapped into **Galaxy** to generate a sequence logo. The input file must be a *FASTA* file in your current history. It is recommended for viewing multiple-sequence alignment output from the *ClustalW* tool. Set the *ClustalW* output to *FASTA* to create the input for this tool. 
+  * The **Sequence Logo** tool uses *Weblogo3* wrapped into **Galaxy** to generate a sequence logo. The input file must be a *FASTA* file in your current history. It is recommended for viewing multiple-sequence alignment output from the *ClustalW* tool. Set the *ClustalW* output to *FASTA* to create the input for this tool.
 
 #### A typical output looks like this:
 
@@ -127,7 +127,7 @@ The target folders select list is filtered to include only valid folders to whic
 ### Data Libraries
 
 * Disabled problematic eager loading on data libraries.  Very large data libraries will load two to three times quicker.
-* Upload Improvement with example walk-through: 
+* Upload Improvement with example walk-through:
 
 #### Uploading data library datasets
 
@@ -164,7 +164,7 @@ The target folders select list is filtered to include only valid folders to whic
   * Remove form from navigation controls so that enter key works properly and sets the chrom/low/high.
   * Enable full keyboard navigation via arrow keys.
 * **Bug fixes**:
-  * Fix issues with navigation input: 
+  * Fix issues with navigation input:
     * (a) arrow keys no longer perform navigation
     * (b) invalid chromosome names are handled well.
   * Fix feature track bugs so that intervals are correctly drawn as half-open.
@@ -203,13 +203,13 @@ Track of reads mapped using *Tophat* (spliced) including the transcript assemble
 * Specifying '`ftype="bam"`' as a parameter on a test's `<output>` tag will now cause the test framework to use '`samtools view`' to convert the file to *SAM*.  This should make it easier to debug why the test tool output differs from your baseline test output.
 
 Test framework enhancements:
-* Allow `toolbox tests` to upload a file found located in `subdirectories`. 
+* Allow `toolbox tests` to upload a file found located in `subdirectories`.
 * Fix a bug occurring on the determination of uploaded dataset name during the handling of the removal of `.gzip` or `.zip` extension from the uploaded filenames.
 * When using `re_match comparison method` in functional tests and line counts do not match, print out first 40 lines of the history file.
 
 ### Admin Menu
 
-* Add a checkbox to the **Create Group** page that if checked will create a new *`Role`* with the same name. This provides a similar feature the the existing checkbox on the **Create Role** page. 
+* Add a checkbox to the **Create Group** page that if checked will create a new *`Role`* with the same name. This provides a similar feature the the existing checkbox on the **Create Role** page.
 * However, the behavior is now changed such that new associations are created when the checkbox is checked, whereas before, only the *`Group`* or *`Role`* objects with the same name were created, but not associated with anything.
 
 ### Bug Fixes
@@ -218,7 +218,7 @@ Test framework enhancements:
 * The peek setting method, `set_peek()`, should now function consistently across datatypes descending from `Text`, particularly with respect to line count estimation.
 * Apply patch from Ry4an Brase to correct "NoneType preference on the jobs view" issue.
 * Don't alter the contents of a file while uploading to a data library if using one of the **Upload files from file system paths** or **Upload a directory of files** options in conjunction with the **Link to files without copying into Galaxy** option. This partially resolves the issue where a supposedly sorted *BAM* file was being resorted upon upload to a data library when using this option. A better implementation of determining whether a *BAM* file has been sorted (so that it does not get resorted) remains to be done.
-* **Extract Genomic DNA** tool: 
+* **Extract Genomic DNA** tool:
   * Do not fix strand for *GFF* input.
   * Handle *non-GFF* files when interpret features is `true`.
 * Set default value for *Cuffdiff's* minimum alignment count parameter to reflect v0.9.3.
@@ -234,7 +234,7 @@ Test framework enhancements:
 
 ## About Galaxy
 
-The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html). 
+The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html).
 
 **Galaxy** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
@@ -250,7 +250,7 @@ Join us at **Twitter**
 ```#usegalaxy```
 
 
-[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject) 
+[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject)
 
 
 ----

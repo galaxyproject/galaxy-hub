@@ -7,7 +7,7 @@ date: 2012-05-11
 
 <div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="50px" /></a></div>
 
- **[getgalaxy.org](http://getgalaxy.org)** 
+ **[getgalaxy.org](http://getgalaxy.org)**
 
 **new**: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
 
@@ -48,7 +48,7 @@ Use Galaxy's functional test framework to test tools installed into your local G
 <br />
 # Updates to Tool Panel Configuration
 
-Galaxy now supports multiple tool panel XML configuration files for populating the tool panel. You can have any number of file names defined in the comma-separated list of tool panel configuration files for the `"tool_config_files"` setting in your `universe_wsgi.ini` file. 
+Galaxy now supports multiple tool panel XML configuration files for populating the tool panel. You can have any number of file names defined in the comma-separated list of tool panel configuration files for the `"tool_config_files"` setting in your `universe_wsgi.ini` file.
 
 For example:
 
@@ -171,7 +171,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
 * Remove `enable_api flag`; API is now enabled by default and cannot be disabled.
 * Enable dynamic options for `DrillDownSelectToolParameter`.
 * Rework the display of `DrillDown` form elements.
-* Add require_login(=False) and display_interface(=True) flags to tools. 
+* Add require_login(=False) and display_interface(=True) flags to tools.
 * New config option, and change in default behavior, regarding 'dataset path display' in "View Details". Administrators can now always see the full path, and if the `expose_dataset_path option` is `True`, so can regular users.
 * Basic functionality was added for accessing the API through a session (if available) instead of an API key.
 * File path now shown (when appropriate) when datasets are accessed via the history api.  (This was incorporation and slight update to cjav/galaxy-central/expose-dataset-full-path-through-the-api (pull request #43)).
@@ -180,7 +180,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div>
 * `fasta_to_len` conversion now uses only the first word in the description line from input [FASTA](/learn/datatypes/#fasta) datasets to create the *identifier name* for sequences. This is standards compliant and used by default for automatic conversion.
 * Add necessary space after threads option in [Cuffmerge](http://cufflinks.cbcb.umd.edu/).
 * The dataset cleanup scripts will no longer error out if database_connection is not explicitly set in the Galaxy config file. Addresses mailing list questions:
@@ -218,7 +218,7 @@ The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held 
 
 <div class='right'><a href='/events/gcc2012/training-day/'><img src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
 
-The [GCC2012 Training Day](/events/gcc2012/training-day/) needs your help! Training Day offers 90 minute training sessions in three parallel tracks throughout the day for a total of 12 sessions. We need your input on how to best allocate those sessions to topics. Please **[take a few minutes to indicate your top choices](https://docs.google.com/spreadsheet/viewform?formkey=dHBIRVB6cEhpTWpGN1pXSjhGdGR0aVE6MQ#gid=0)** for what you would like to see covered on the GCC2012 Training Day. 
+The [GCC2012 Training Day](/events/gcc2012/training-day/) needs your help! Training Day offers 90 minute training sessions in three parallel tracks throughout the day for a total of 12 sessions. We need your input on how to best allocate those sessions to topics. Please **[take a few minutes to indicate your top choices](https://docs.google.com/spreadsheet/viewform?formkey=dHBIRVB6cEhpTWpGN1pXSjhGdGR0aVE6MQ#gid=0)** for what you would like to see covered on the GCC2012 Training Day.
 
 <br />
 <br />
@@ -230,7 +230,7 @@ The [GCC2012 Training Day](/events/gcc2012/training-day/) needs your help! Train
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

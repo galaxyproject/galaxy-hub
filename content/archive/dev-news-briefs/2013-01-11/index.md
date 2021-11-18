@@ -36,7 +36,7 @@ date: 2013-01-11
 
 Repositories in the tool shed can contain a file named **repository_dependencies.xml** that defines dependency relationships between repositories.  Repository dependency definitions are currently supported only within the same tool shed.  In other words, a repository in a local tool shed cannot require a repository in the main Galaxy tool shed.  Support for repository dependencies across tool sheds will be available some time in the future.
 
-There are three categories of repository dependencies which will be discussed in the following sections of this page: simple repository dependencies, repository dependencies that define tool dependencies and repository dependencies that define data dependencies. [Read more…](http://wiki.galaxyproject.org/DefiningRepositoryDependencies) 
+There are three categories of repository dependencies which will be discussed in the following sections of this page: simple repository dependencies, repository dependencies that define tool dependencies and repository dependencies that define data dependencies. [Read more…](http://wiki.galaxyproject.org/DefiningRepositoryDependencies)
 
 <br />
 # Other Tool Shed
@@ -93,7 +93,7 @@ There are three categories of repository dependencies which will be discussed in
 ### Admin
 
 2. #2 Make left panel scroll properly on smaller screens.
-3. #3 Select all checkbox added for job management. 
+3. #3 Select all checkbox added for job management.
 
 <br />
 # Security Fixes
@@ -133,7 +133,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 * [GCC2013](http://wiki.galaxyproject.org/Events/GCC2013):
   * [GCC2013 Training Day Topic Nomination closes TODAY](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay)
   * Training Day Topic Voting will open later this month
-* The [next meeting](http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013-01-16) of the [GalaxyAdmins Group](http://wiki.galaxyproject.org/Community/GalaxyAdmins) will be held on [January 16, 2013, at 10 AM Central US time](http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013-01-16). 
+* The [next meeting](http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013-01-16) of the [GalaxyAdmins Group](http://wiki.galaxyproject.org/Community/GalaxyAdmins) will be held on [January 16, 2013, at 10 AM Central US time](http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013-01-16).
   * [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will cover "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and [CloudMan](http://usegalaxy.org/cloud)"
 
 ----
@@ -142,7 +142,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

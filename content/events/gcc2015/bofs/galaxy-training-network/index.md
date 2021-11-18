@@ -22,7 +22,7 @@ If you teach with Galaxy, then please consider joining us at this BoF.
 
 # Agenda
 
-We'll talk about 
+We'll talk about
 
 * Progress since [GCC2014](/events/gcc2014/bofs/galaxy-training-network/)
 * What should GTN emphasise moving forward?
@@ -47,11 +47,11 @@ This BoF will be held **Monday, 6 July, 18:50, in the Franklin Room.**
 * Mark Fernandes
 * Catriona McInerney
 * Annette McGrath
-* Keywan Hassani-Pak 
+* Keywan Hassani-Pak
 * Fiona Roche
 * Peter Cock
 * Andrew McArthur
-* Erinija Pranckeviciene 
+* Erinija Pranckeviciene
 * Anmol Hemrom
 * Agata Smialowska
 * Jochen Bick
@@ -87,11 +87,11 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 * Work with that list to establish what the Resource Directory (and the Trainer Directory) should look like
   * Resource Directory and Trainer Directory are up.
 * Push these best practices to the GTN Best Practices area.
-  * Done 
+  * Done
   * But not particularly maintained
 * Include a video training directory
-* Publish Best practises: created 
-  * https://wiki.galaxyproject.org/Teach/BestPractices 
+* Publish Best practises: created
+  * https://wiki.galaxyproject.org/Teach/BestPractices
   * But, not particularly maintained.
 * Officially launched GTN in fall 2014.
 * GTN joins GOBLET
@@ -104,7 +104,7 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 
 ### Plans
 
-* Migrating to new wiki platform, which we hope will make it much easier to manage and populate directories of material and trainers. 
+* Migrating to new wiki platform, which we hope will make it much easier to manage and populate directories of material and trainers.
 
 ### What should GTN emphasise moving forward and Open Questions
 
@@ -127,11 +127,11 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 * Platform for bioinformatics training:
   * all platforms have challenges
   * Most people in the room will use their own servers for training
-  * tool packaging, tool cluster integration, best practise guidelines ... 
+  * tool packaging, tool cluster integration, best practise guidelines ...
     * IUC is actively developing guidelines … reusing it?
   * IPython and Interactive Environments as programming env
     * https://github.com/bgruening/galaxy-ipython
-    * training in command line usage, scripting languages 
+    * training in command line usage, scripting languages
   * A problem is matching the platform and tools to the tutorial. Often tutorials are specific to the Galaxy they were developed on.
 * E-learning possibilities in Galaxy:
   * https://www.youtube.com/watch?v=NOdym_21M4o

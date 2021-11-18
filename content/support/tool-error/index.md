@@ -23,9 +23,9 @@ Known Issues
 
 ## Job and Tool Error Help
 
-So you started a job and it ended up failing. The result datasets are red in the history. 
+So you started a job and it ended up failing. The result datasets are red in the history.
 
-What to do? It depends on the **failure type** and where you are using Galaxy. 
+What to do? It depends on the **failure type** and where you are using Galaxy.
 
 ***In a rush to solve the problem?*** The top reasons for failures are listed [**here**](/support/#getting-inputs-right). Also consider searching **Known Issues** and review the advanced troubleshooting help covered in **Reporting Usage Issues or Software bugs** (all linked above). Your problem may be something we are already working to correct or have exising prior Q and A, Galaxy help posts, documentation, and/or Galaxy tutorials that include a solution.
 
@@ -34,13 +34,13 @@ What to do? It depends on the **failure type** and where you are using Galaxy.
 ### TIPS
 
 1. The general troubleshooting help applies to most Galaxy servers/tools/functions.
-1. The cluster error help is server specific for [Galaxy Main](/main/) at http://usegalaxy.org. 
+1. The cluster error help is server specific for [Galaxy Main](/main/) at http://usegalaxy.org.
 1. If working at a different public Galaxy server, [contacting the admins directly](/use/) to address server-related problems is often necessary. Each Galaxy is independently administered.
 
 
 ## Determining the job failure type
 
-Did the job fail with some comments that are not descriptive of the problem? Are you sure? 
+Did the job fail with some comments that are not descriptive of the problem? Are you sure?
 
 Click on the bug icon ![](/images/icons/bug.png) within the error dataset to review details about the problem. This does not need to be submitted if you can figure out and correct the problem. There is a good chance you'll able to link your issue to existing troubleshooting help, either here in the [Galaxy hub](/support/) or at [Galaxy Help](https://help.galaxyproject.org/). Archived Q&A may still be helpful, find it here: [Galaxy Biostars](https://biostar.usegalaxy.org).
 
@@ -52,7 +52,7 @@ If you are still stuck after reviewing, please do send in the bug report and we 
 * Leave the input and output datasets undeleted
 * Do not delete the history immediately after submitting a bug report. Otherwise, there is a good chance we won't be able to help you.
 * Should you solve the problem before we reply, a follow-up email to let us know is appreciated.
-* The majority of submitted reports are not true software bugs. **Usage problems involving incorrect input format or content cause most errors**. 
+* The majority of submitted reports are not true software bugs. **Usage problems involving incorrect input format or content cause most errors**.
 * Confirming correct tool usage is where we start when diagnosing a problem, [**and is where you should start, too.**](/support/troubleshoot-an-error/). Sharing details about what you checked is always helpful.
 
 ### Type: input problems
@@ -68,7 +68,7 @@ These are the top reasons for tool failures.
 * The tool has specific formatting requirements for inputs that were not met.
 * Annotation files are a mismatch for the selected or assigned reference genome build.
 * The BED/Interval/GFF dataset is not really in specification.
-* Some of the data was generated outside of Galaxy, but later a built-in indexed genome build was used with downsteam tools. This scenerio can work, but only if those two genomes are an **exact** match. 
+* Some of the data was generated outside of Galaxy, but later a built-in indexed genome build was used with downsteam tools. This scenerio can work, but only if those two genomes are an **exact** match.
 * **Tip** "Chr1" and "chr1" and "1" do not mean the same thing to a tool (or rather, most tools!).
 
 
@@ -78,7 +78,7 @@ These are the top reasons for tool failures.
 
 #### How to resolve - input
 
-* Fix the inputs. 
+* Fix the inputs.
 * Read the tool form help.
 * **Follow the guidelines and troubleshooting help at the [Support Hub](/support/).**
 * **Review a [Galaxy Tutorial](/learn/) that covers your analysis and/or tool.**
@@ -86,9 +86,9 @@ These are the top reasons for tool failures.
 #### Special cases - input
 
 * There are no special cases. This problem is ubiquitous no matter where or with what tools you happen to be using.
-* *How you think the job was executed may not actually be what was executed.* Use the re-run ![](/images/icons/arrow-circle.png) and job info ![](/images/icons/HistoryInfo.png) functions to review your work. 
+* *How you think the job was executed may not actually be what was executed.* Use the re-run ![](/images/icons/arrow-circle.png) and job info ![](/images/icons/HistoryInfo.png) functions to review your work.
 
-Input problems are very common across any analysis that makes use of programmed tools. Learning how to format your data correctly will not only lead to successful jobs in Galaxy, but more robust and reproducible research overall. 
+Input problems are very common across any analysis that makes use of programmed tools. Learning how to format your data correctly will not only lead to successful jobs in Galaxy, but more robust and reproducible research overall.
 
 ### Type: cancelled by admin or a cluster failure
 
@@ -198,9 +198,9 @@ If you are excuting a tool that runs on certain remote clusters (example tools: 
 
 #### How to resolve - memory or walltime
 
-* Rerunning the job is often the only way forward. 
+* Rerunning the job is often the only way forward.
 * Give a longer-running cluster a try.
-* If the re-run fails again, and there are no known server issues, the issue is probably not cluster/server related but an input problem that needs to be corrected. 
+* If the re-run fails again, and there are no known server issues, the issue is probably not cluster/server related but an input problem that needs to be corrected.
 * In some cases, reporting the memory or wall-time issue to our team as a bug report is a good way to let us know about tools that run out of resource. Please have the expectation that we probably can not solve your specific issue immediately, but cumulative feedback helps us to learn which tools would benefit from additional resource allocation.
 * If the job remains too large to run at [Galaxy Main](/main/)(http://usegalaxy.org)(http://usegalaxy.org), then moving to an instance where more memory can be allocated to jobs is the solution. A good choice is [CloudMan](http://usegalaxy.org/cloud) as processing memory is easily scaled up. [AWS in Education](http://aws.amazon.com/grants/) grants can help with costs. Another option is setting up a [local Galaxy](http://getgalaxy.org), if you have a computer/server with enough processing memory (16 GB minimum, but more is likely needed if the jobs are large, possibly up to 64 GB).
 
@@ -209,7 +209,7 @@ If you are excuting a tool that runs on certain remote clusters (example tools: 
 * Certain inputs are very large and/or fragmented.
  * Example 1: A highly fragmented transcriptome/genome used as a custom reference genome. The size is generally **several thousands of "chromosomes"** instead of one to a few dozen. Consider only using the primary chromosomes and skipping unmapped/unplaced/other partial data. Calculating or filtering by length can reveal the extent of the fragmentation and help you to make choices about how to proceed.
  * Example 2: An entire NGS read dataset was used as a custom reference genome. The size is generally **millions of "chromosomes"**. *Fastq read datasets converted to fasta will almost never work with tools as a custom genome or build.*
- 
+
 Moving to a local or cloud Galaxy will often not help for these cases due to how the 3rd party wrapped tool is written. The tool would fail outside of Galaxy, too. Finding or creating a better quality (less fragmented) target genome/transcriptome is the solution.
 
 ### Type: ValueError: invalid literal for int() with base 10
@@ -243,7 +243,7 @@ MACS/2 is not capable of interpretting sequence read names with spaces included.
 
 ### Type: Tool and software problems
 
-Software or Tool Bug? Or a usage error? Sometimes it is hard to tell. 
+Software or Tool Bug? Or a usage error? Sometimes it is hard to tell.
 
 #### Examples - bugs
 
@@ -265,7 +265,7 @@ Software or Tool Bug:
 
 #### How to resolve - bugs
 
-* If you are on the public [Galaxy Main](/main/) (http://usegalaxy.org) server, and ran a tool that produced a red error dataset, then you will probably want to start by reviewing the error reasons here first. 
+* If you are on the public [Galaxy Main](/main/) (http://usegalaxy.org) server, and ran a tool that produced a red error dataset, then you will probably want to start by reviewing the error reasons here first.
 * Fixing inputs first, as needed, and rerunning is recommended.
 * If you cannot determine the problem, report the error in a bug report. Add in comments about your reasons why this seems like a tool bug and not a usage/input problem if you can.
 

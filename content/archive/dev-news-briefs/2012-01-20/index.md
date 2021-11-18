@@ -7,7 +7,7 @@ date: 2012-01-20
 
 <div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="50px" /></a></div>
 
- **[getgalaxy.org](http://getgalaxy.org)** 
+ **[getgalaxy.org](http://getgalaxy.org)**
 
 * **new**: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
 
@@ -29,7 +29,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 * **[TopHat:](http://tophat.cbcb.umd.edu/)**
   * Wrapper accepts versions 1.3.1-1.4.0, with at least 1.3.3 recommended. 1.4.0 is preferred.
   * Galaxy [Main](/main/) is now running version 1.4.0.
-* **[Cufflinks, CuffCompare, CuffDiff:](http://cufflinks.cbcb.umd.edu/)** 
+* **[Cufflinks, CuffCompare, CuffDiff:](http://cufflinks.cbcb.umd.edu/)**
   * Wrapper accepts versions 1.1.0-1.3.0. 1.3.0 is preferred.
   * Galaxy [Main](/main/) is now running version 1.3.0 for all Cuff* tools.
 * **[SAMTools mpileup:](http://samtools.sourceforge.net/mpileup.shtml)**
@@ -43,7 +43,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 ## Galaxy Track Browser (Trackster)
 
 * Recent publication:
-    Jeremy Goecks, Kanwei Li, Dave Clements, Team, The Galaxy, James Taylor, *[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)*. [Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/) (October 2011), pp. 39-46. 
+    Jeremy Goecks, Kanwei Li, Dave Clements, Team, The Galaxy, James Taylor, *[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)*. [Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/) (October 2011), pp. 39-46.
 * Simplified user interface that uses icons exclusively for actions.
 * Numerous performance improvements.
 * SAM datasets (including very deep) can be visualized.
@@ -68,8 +68,8 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 * Updated all tools which were manually filtering on tool_data_tables to determine paths to use built-in param.fields.path.
 * Allow select_param.fields.name method of accessing additional attributes from dynamic options work for multiple selects.
 * Merged in hanfeisun/galaxy-central-i18n (pull request #26).
-* Enhance the datatypes registry to: 
-  * (a) enable use of config files that do not include a "sniffers" tag set section 
+* Enhance the datatypes registry to:
+  * (a) enable use of config files that do not include a "sniffers" tag set section
   * (b) not load a datatype if the registry already includes a datatype with that extension
 * Enhance the datatypes registry so that it can be persisted as an xml file, which is then used for all tools instead of the datatypes config file.
 * Eliminate all references and support for datatype indexers since they have never been used - datatype converters do the same thing.
@@ -112,7 +112,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 
 ## Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div>
 * Support display of extra files/composite types in published items. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/628](https://bitbucket.org/galaxy/galaxy-central/issue/628)
 * Standardize code and error messages on 'public name' rather than 'username'
 * When exporting a history archive, use user dataset names rather than Galaxy dataset names. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/680](https://bitbucket.org/galaxy/galaxy-central/issue/680)
@@ -132,7 +132,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

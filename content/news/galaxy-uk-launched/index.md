@@ -18,7 +18,7 @@ Galaxy-UK is also an information hub for events such as:
 * Information on the location of UK Galaxy servers
 * Anything else that might be pertinent to bring the UK Galaxy users/admins together as a community
 
-We will be organising both online meetings and physical meetings, so keep an eye on the site for these events. 
+We will be organising both online meetings and physical meetings, so keep an eye on the site for these events.
 
 Best wishes,
 

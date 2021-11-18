@@ -14,8 +14,8 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
    * [w4mclstrpeakpics](https://toolshed.g2.bx.psu.edu/view/eschen42/w4mclstrpeakpics):  Visualize sample-cluster peaks. Produce a figure to assess the similarities and differences among peaks in a cluster of samples using XCMS-preprocessed data files as input.
 * *From [testtool](https://toolshed.g2.bx.psu.edu/view/testtool):*
    * [get_gr_set](https://toolshed.g2.bx.psu.edu/view/testtool/get_gr_set):  Reading Illumina methylation array data from GEO. This tool downloads data from GEO and returns to GenomicRatioSet object for further analysis.
-   * [find_dmp](https://toolshed.g2.bx.psu.edu/view/testtool/find_dmp):  Tool finds differentially methylated positions (DMPs) with respect to a phenotype covariate. 
-   * [find_snp](https://toolshed.g2.bx.psu.edu/view/testtool/find_snp):  SNPs inside the probe body or at the nucleotide extension can have important consequences on the downstream analysis, these tool offers the possibility to remove such probes. 
+   * [find_dmp](https://toolshed.g2.bx.psu.edu/view/testtool/find_dmp):  Tool finds differentially methylated positions (DMPs) with respect to a phenotype covariate.
+   * [find_snp](https://toolshed.g2.bx.psu.edu/view/testtool/find_snp):  SNPs inside the probe body or at the nucleotide extension can have important consequences on the downstream analysis, these tool offers the possibility to remove such probes.
 * *From [artbio](https://toolshed.g2.bx.psu.edu/view/artbio):*
    * [yac_clipper](https://toolshed.g2.bx.psu.edu/view/artbio/yac_clipper):  Clips 3' adapters for small RNA sequencing reads. Clips 3' adapters for small RNA sequencing reads. Supports  fasta and fastq output.
    * [small_read_size_histograms](https://toolshed.g2.bx.psu.edu/view/artbio/small_read_size_histograms):  Generates size histograms from small read alignments. Generates read size histograms from tabular, sam or bam alignments.
@@ -31,7 +31,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
    * [cravat_annotate_mutations](https://toolshed.g2.bx.psu.edu/view/in_silico/cravat_annotate_mutations):  Returns CRAVAT annotation. Gets cancer annotation from a CRAVAT query.
    * [cravat_score_and_annotate](https://toolshed.g2.bx.psu.edu/view/in_silico/cravat_score_and_annotate):  Creates a job in CRAVAT. Creates a job in CRAVAT.
 * *From [caleb-easterly](https://toolshed.g2.bx.psu.edu/view/caleb-easterly):*
-   * [validate_fasta_database](https://toolshed.g2.bx.psu.edu/view/caleb-easterly/validate_fasta_database):  runs Compomics database identification tool on any FASTA database, and separates valid and invalid entries based on a series of checks. 
+   * [validate_fasta_database](https://toolshed.g2.bx.psu.edu/view/caleb-easterly/validate_fasta_database):  runs Compomics database identification tool on any FASTA database, and separates valid and invalid entries based on a series of checks.
 * *From [davidvanzessen](https://toolshed.g2.bx.psu.edu/view/davidvanzessen):*
    * [change_o](https://toolshed.g2.bx.psu.edu/view/davidvanzessen/change_o):  Wrapper for Change-O clt. Wrapper for Change-O clt:   http://immcantation.readthedocs.io/en/latest/.
    * [imgt_locus_split](https://toolshed.g2.bx.psu.edu/view/davidvanzessen/imgt_locus_split):  Splits an IMGT archive based on on or more loci. Splits an IMGT archive based on one or more loci.
@@ -56,9 +56,9 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
    * [twobit_to_cytoband_340](https://toolshed.g2.bx.psu.edu/view/yating-l/twobit_to_cytoband_340):  Creates a cytoband file from a twoBit file. This tool creates a Cytoband file based on a twoBit file to  enable quicker navigation of individual scaffolds in the  UCSC Genome Browser.
    * [twobit_info_340](https://toolshed.g2.bx.psu.edu/view/yating-l/twobit_info_340):  Obtain sequence information from a twoBit file. This tool reports the length of each scaffold and the gap  locations stored in a twoBit file.
 * *From [earlhaminst](https://toolshed.g2.bx.psu.edu/view/earlhaminst):*
-   * [apoc](https://toolshed.g2.bx.psu.edu/view/earlhaminst/apoc):  large-scale structural comparison of protein pockets. 
+   * [apoc](https://toolshed.g2.bx.psu.edu/view/earlhaminst/apoc):  large-scale structural comparison of protein pockets.
    * [smart_domains](https://toolshed.g2.bx.psu.edu/view/earlhaminst/smart_domains):  SMART domains. Search domains in protein sequences using SMART.
-   * [plotheatmap](https://toolshed.g2.bx.psu.edu/view/earlhaminst/plotheatmap):  This tool can be used to plot heatmap of gene expression data. The genes are chosen based on p-value, FDR, log FC and log CPM from edgeR output. 
+   * [plotheatmap](https://toolshed.g2.bx.psu.edu/view/earlhaminst/plotheatmap):  This tool can be used to plot heatmap of gene expression data. The genes are chosen based on p-value, FDR, log FC and log CPM from edgeR output.
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
    * [limma_voom](https://toolshed.g2.bx.psu.edu/view/iuc/limma_voom):  Perform RNA-Seq differential expression analysis using limma voom pipeline. Apply limma voom pipeline on a table of tab separated count data to generate HTML report for differential expression analysis. Report includes mean-variance trend, MDS and smear plots as well as summarised table of statistics on each gene.
    * [jq](https://toolshed.g2.bx.psu.edu/view/iuc/jq):  JQ is a lightweight and flexible command-line JSON processor. jq is like sed for JSON data - you can use it to slice and filter and map and  transform structured data with the same ease that sed, awk, grep and friends  let you play with text.

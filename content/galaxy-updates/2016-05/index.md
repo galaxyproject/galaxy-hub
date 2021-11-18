@@ -12,9 +12,9 @@ title: May 2016 Galaxy News
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the May 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
+Welcome to the May 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 
 # GCC2016
@@ -23,7 +23,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 <a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="https://web.archive.org/web/http://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
 </div>
 
-[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes 2 days of hackathons, [2 days of training](https://gcc16.sched.org/grid-full#2016-06-26), and a two day meeting featuring accepted presentations, keynotes, poster sessions, the new Visualization Showcase and Software Demo sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking. 
+[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes 2 days of hackathons, [2 days of training](https://gcc16.sched.org/grid-full#2016-06-26), and a two day meeting featuring accepted presentations, keynotes, poster sessions, the new Visualization Showcase and Software Demo sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking.
 
 ## Deadlines!
 
@@ -38,7 +38,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 
 </div>
 
-**The deadline for [poster and computer demo abstracts](http://bit.ly/gcc2016abssub) is May 20**, or when we run out of space, *whichever comes first.*  Abstracts are reviewed on a rolling basis and submitters are notified of acceptance status no later than two weeks after submission. You may submit similar content for oral presentations, posters, and demos. 
+**The deadline for [poster and computer demo abstracts](http://bit.ly/gcc2016abssub) is May 20**, or when we run out of space, *whichever comes first.*  Abstracts are reviewed on a rolling basis and submitters are notified of acceptance status no later than two weeks after submission. You may submit similar content for oral presentations, posters, and demos.
 
 Topics should be of interest to those working in high-throughput data analysis and research. Presentations that are Galaxy-centric are encouraged, but not required.  Please see the [abstracts page](https://web.archive.org/web/http://gcc2016.iu.edu/abstracts/index.php) for full details.
 
@@ -55,7 +55,7 @@ Topics should be of interest to those working in high-throughput data analysis a
 
 </div>
 
-**[Early registration for GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/registration/) ends May 20**. 
+**[Early registration for GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/registration/) ends May 20**.
 Registration costs depend on which events you register for, your career stage & affiliation, and when you register.  Early bird registration ends May 20 and is up to 40% less than regular registration rates.  Early bird registration starts at less than $45 / day for students and postdocs, and at $65 / day for other attendees from non-profits.
 
 You can also sign up for [conference housing](https://web.archive.org/web/http://gcc2016.iu.edu/location) during registration.  
@@ -90,10 +90,10 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
 <div class='right'><a href='http://gigascience.biomedcentral.com/'><img src="/images/logos/GigaScienceLogo.gif" alt="GigaScience" /></a>
 </div>
 
-Please welcome the journal ***[GigaScience](http://gigascience.biomedcentral.com/)*** as a [GCC Silver Sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php) for the 4th year in a row.  *GigaScience* aims to revolutionize reproducibility of analyses, data dissemination, organization, understanding, and use. 
+Please welcome the journal ***[GigaScience](http://gigascience.biomedcentral.com/)*** as a [GCC Silver Sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php) for the 4th year in a row.  *GigaScience* aims to revolutionize reproducibility of analyses, data dissemination, organization, understanding, and use.
 
-All accepted oral presentations are eligible for consideration for publication in the journal *[GigaScience](http://gigascience.biomedcentral.com/)'s* [Galaxy series](http://www.gigasciencejournal.com/series/Galaxy). **Published papers will receive a 15% discount in the [article-processing charge](http://gigascience.biomedcentral.com/frequently-asked-questions)** if you flag GCC2016 on submission. As an open access and open-data journal focussing on reproducibility, GigaScience publishes all research objects (including data, software tools, workflows, VMs and containers) from 'big data' studies across the entire spectrum of life and biomedical sciences. GigaScience submissions utilize a novel format, where all of the supporting research objects are hosted and integrated into accepted papers using independently citable [digital object identifiers](http://en.wikipedia.org/wiki/Digital_object_identifier) from the journal's [GigaGalaxy server](http://gigagalaxy.net/) and [GigaDB database](http://gigadb.org/). See the [Galaxy series page](http://www.gigasciencejournal.com/series/Galaxy) for examples of work coming from previous GCC meetings. 
- 
+All accepted oral presentations are eligible for consideration for publication in the journal *[GigaScience](http://gigascience.biomedcentral.com/)'s* [Galaxy series](http://www.gigasciencejournal.com/series/Galaxy). **Published papers will receive a 15% discount in the [article-processing charge](http://gigascience.biomedcentral.com/frequently-asked-questions)** if you flag GCC2016 on submission. As an open access and open-data journal focussing on reproducibility, GigaScience publishes all research objects (including data, software tools, workflows, VMs and containers) from 'big data' studies across the entire spectrum of life and biomedical sciences. GigaScience submissions utilize a novel format, where all of the supporting research objects are hosted and integrated into accepted papers using independently citable [digital object identifiers](http://en.wikipedia.org/wiki/Digital_object_identifier) from the journal's [GigaGalaxy server](http://gigagalaxy.net/) and [GigaDB database](http://gigadb.org/). See the [Galaxy series page](http://www.gigasciencejournal.com/series/Galaxy) for examples of work coming from previous GCC meetings.
+
 ### GenomeWeb
 
 <div class='left'><a href='https://www.genomeweb.com/'><img src="/images/logos/GenomeWebLogo300.jpg" alt="GenomeWeb" width="250" /></a>
@@ -139,7 +139,7 @@ There are [a staggering 14 known Galaxy related events and presentations in May]
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.qfab.org/training/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='http://www.canceropole-idf.fr/formation-ngs-rnaseq'><img src="/images/logos/Cancerpole_logo.jpg" alt="NGS & Cancer : Analyses RNA-Seq" height="70" /></a>
 <a href='https://www.molmed.nl/courses/CourseDetail.asp?backpage=courses.asp&courseID=1448'><img src="/images/logos/MolecularMedicinePostGraduateSchoolLogo.jpg" alt="RNA-Seq and DNA-Seq Cancer Analyses" height="70" /></a>
@@ -325,7 +325,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 ## April GalaxyAdmins Slides & Video
 
 <div class='right'>
-<a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a> 
+<a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="160" /></a>
 </div>
 
 [Slides and video](/community/galaxy-admins/meetups/2016-04-21/) from the [April 2016 GalaxyAdmins meetup are now available](/community/galaxy-admins/meetups/2016-04-21/). [Ivar Grytten](http://www.mn.uio.no/ifi/english/people/aca/ivargry/) and  [Geir Kjetil Sandve](http://www.mn.uio.no/ifi/english/people/aca/geirksa/) from the [University of Oslo](http://www.uio.no/) discussed [The Galaxy Portal: Accessing Galaxy from Mobile Devices](http://bioinformatics.oxfordjournals.org/content/early/2016/02/17/bioinformatics.btw042.full) ([Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201604_Admins_Portal.pdf)) and [John Chilton](/people/john-chilton/) covered [Tool Development Developments](http://planemo.readthedocs.org/en/latest/galaxy_changelog.html).
@@ -363,7 +363,7 @@ More documentation about the process can be found [here](/cloud/jetstream/).
 
 # New Papers
 
-**72 new papers** referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in April. 
+**72 new papers** referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in April.
 
 Some April highlights:
 
@@ -371,10 +371,10 @@ Some April highlights:
     by Luca Pireddu
 
 * [qpMerge: Merging different peptide isoforms using a motif centric strategy](http://biorxiv.org/content/early/2016/04/05/047100)
-    by Matthew M Hindle, Thierry Le Bihan, Johanna Krahmer, Sarah F Martin, Zeenat B Noordally, T. Ian Simpson, Andrew J. Millar, doi: https://doi.org/10.1101/047100 
+    by Matthew M Hindle, Thierry Le Bihan, Johanna Krahmer, Sarah F Martin, Zeenat B Noordally, T. Ian Simpson, Andrew J. Millar, doi: https://doi.org/10.1101/047100
 
 * [Metavisitor, a suite of Galaxy tools for simple and rapid detection and discovery of viruses in deep sequence data](http://biorxiv.org/content/early/2016/04/20/048983)
-    by Guillaume Carissimo, Marius van den Beek, Juliana Pegoraro, Kenneth D Vernick, Christophe Antoniewski, doi: https://doi.org/10.1101/048983 
+    by Guillaume Carissimo, Marius van den Beek, Juliana Pegoraro, Kenneth D Vernick, Christophe Antoniewski, doi: https://doi.org/10.1101/048983
 
 * [MutSpec: a Galaxy toolbox for streamlined analyses of somatic mutation spectra in human and mouse cancer genomes](https://doi.org/10.1186/s12859-016-1011-z)
     by Maude Ardin, Vincent Cahais, Xavier Castells, *et al.* *BMC Bioinformatics*, Vol. 17, No. 1. (18 April 2016), doi:10.1186/s12859-016-1011-z
@@ -460,7 +460,7 @@ There are two new comprehensive online tutorials from [Anton Nekrutenko](/people
 
 ## Diploid variant calling
 
-Variant calling is a complex field that was significantly propelled by advances in DNA sequencing and efforts of large scientific consortia such as the [1000 Genomes](http://www.1000genomes.org/). **[This tutorial](https://github.com/nekrut/galaxy/wiki/Diploid-variant-calling)** summarizes basic ideas central to Genotype and Variant calling. 
+Variant calling is a complex field that was significantly propelled by advances in DNA sequencing and efforts of large scientific consortia such as the [1000 Genomes](http://www.1000genomes.org/). **[This tutorial](https://github.com/nekrut/galaxy/wiki/Diploid-variant-calling)** summarizes basic ideas central to Genotype and Variant calling.
 
 <div class='right'><a href='https://github.com/nekrut/galaxy/wiki/Reference-based-RNA-seq'><img src="/images/screenshots/AntonsRnaSeqTutorial1.png" alt="Reference based RNA seq" width="190" /></a></div>
 
@@ -474,7 +474,7 @@ Much of Galaxy-related features described in this tutorial have been developed b
 
 Dataset collections help analyzing multiple datasets in just a few clicks. This [short video](https://t.co/FslNV1GoLQ) shows how. If you prefer reading to watching, then check out [this tutorial](http://github.com/nekrut/galaxy/wiki/Processing-many-samples-at-once).
 
-<br /> 
+<br />
 
 ----
 
@@ -487,7 +487,7 @@ The Galaxy is expanding! Please help it grow.
 * [Postdoctoral researcher](https://www.uni-freiburg.de/administration/stellenboerse/?erf=y&stellenid=9661), University of Freiburg, Freiburg, Germany.
 * [Bioinformatics Web Application Developer-Biology](https://jobs.wustl.edu/) (Job ID 32899), Washington University in St. Louis, Missouri, United States
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
-* [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
+* [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States
 * [Software Engineer](/news/software-engineer-ohsu/), Oregon Health Sciences University, Portland, Oregon, United States
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -508,15 +508,15 @@ There are [two new publicly accessible Galaxy servers](/use/):
 * *Link(s):*
   * [MGEScan on Galaxy Workflow System](http://mgescan.readthedocs.org/en/latest/server.html)
 * *Domain/Purpose:*
-  * Identifying long terminal repeats (LTR) and non-LTR retroelements in eukaryotic genomic sequences. 
+  * Identifying long terminal repeats (LTR) and non-LTR retroelements in eukaryotic genomic sequences.
 * *Comments:*
-  * ENA Browser or local storage is used to obtain input genome sequences including a traditional file upload. HMMER 3.1b1 is applied to gain speed boosts compared to a previous version HMMER 2+. In addition Generic Feature Format Version 3 is used for visualization of genome sequence data via a web-based genome browser e.g. UCSC Genome Browser or Ensembl Genome Browser. 
+  * ENA Browser or local storage is used to obtain input genome sequences including a traditional file upload. HMMER 3.1b1 is applied to gain speed boosts compared to a previous version HMMER 2+. In addition Generic Feature Format Version 3 is used for visualization of genome sequence data via a web-based genome browser e.g. UCSC Genome Browser or Ensembl Genome Browser.
   * MGESCan is also [accessible through Amazon Cloud (EC2)](http://mgescan.readthedocs.org/en/latest/aws.html), [Galaxy Tool Shed](http://mgescan.readthedocs.org/en/latest/toolshed.html) or [Published Workflow](https://usegalaxy.org/u/hyungro-lee/w/retrotminer-imported-from-uploaded-file) on the public galaxy server (usegalaxy.org)
   * [MGEScan: a Galaxy based system for identifying retrotransposons in genomes](http://bioinformatics.oxfordjournals.org/content/early/2016/04/07/bioinformatics.btw157) by Hyungro Lee1, Minsu Lee, Wazim Mohammed Ismail, Mina Rho, Geoffrey Fox, Sangyoon Oh, and Haixu Tang, *Bioinformatics* (2016) doi: 10.1093/bioinformatics/btw157
 * *User Support:*
   * [MGEScan on Galaxy QuickStart Tutorial](http://mgescan.readthedocs.org/en/latest/tutorial.html)
   * [MGEScan documentation](http://mgescan.readthedocs.org/en/latest/)
-* *Quotas:* 
+* *Quotas:*
   * MGEScan can be used anonymously or with a login. Anyone can create a login.
 * *Sponsor(s):*
   * [School of Informatics and Computing](http://www.soic.indiana.edu/), [Indiana University](http://www.indiana.edu/)
@@ -533,7 +533,7 @@ There are [two new publicly accessible Galaxy servers](/use/):
     * [MetaPalette](https://github.com/dkoslicki/MetaPalette) for whole genome shotgun based taxonomic profiling
 * *Comments:*
 * *User Support:*
-* *Quotas:*   
+* *Quotas:*
 * *Sponsor(s):*
   * [Koslicki Lab](http://www.math.oregonstate.edu/~koslickd/) at [Oregon State University](http://www.oregonstate.edu/)
 
@@ -628,7 +628,7 @@ See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGE
 
 **CloudBridge 0.1.0**
 
-The Galaxy Team is proud to be part of the development team for a new cross-cloud library called CloudBridge. *CloudBridge is a Python library providing a simple layer of abstraction over different cloud providers, reducing or eliminating the need to write conditional code for each cloud.* The library is generally applicable to any domain wishing to run cloud-independent applications. There is already support for Amazon and OpenStack clouds with support for Google’s Compute Engine in development. 
+The Galaxy Team is proud to be part of the development team for a new cross-cloud library called CloudBridge. *CloudBridge is a Python library providing a simple layer of abstraction over different cloud providers, reducing or eliminating the need to write conditional code for each cloud.* The library is generally applicable to any domain wishing to run cloud-independent applications. There is already support for Amazon and OpenStack clouds with support for Google’s Compute Engine in development.
 
 The first version of CloudBridge was released earlier this month and it comes with [detailed user documentation](http://cloudbridge.readthedocs.org/). The source code is [available on Github](https://github.com/gvlproject/cloudbridge).
 
@@ -648,7 +648,7 @@ The first version of CloudBridge was released earlier this month and it comes wi
 
 These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems.
 
-Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
+Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/).
 
 
 **BioBlend 0.7.0**

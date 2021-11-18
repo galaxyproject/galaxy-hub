@@ -19,7 +19,7 @@ Galaxy-UK is also an information hub for events such as:
 * Information on the location of UK Galaxy servers
 * Anything else that might be pertinent to bring the UK Galaxy users/admins/trainers together as a community
 
-The community will also have both online meetings and physical meetings, so keep an eye open for these events. 
+The community will also have both online meetings and physical meetings, so keep an eye open for these events.
 
 
 ## Other Galaxy Communities
@@ -34,7 +34,7 @@ There are a wealth of Galaxy related events in Europe this fall. Events include 
 
 These events are a great way to meet other Galaxy users and developers and learn and share best practices. If you're in Europe and are interested in learning more about Galaxy and/or the community, then please give these a look.
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/eccb2014/'><img src="/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB" height="80" /></a>
 <a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src="/images/logos/eBiogenouestLogo.png" alt="Tools integration on Galaxy" height="80" /></a> &nbsp;
 <a href='http://www.bioinformatica.crs4.it/training'><img src="/images/logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing con Galaxy" width="130" /></a> &nbsp;
@@ -127,12 +127,12 @@ These events are a great way to meet other Galaxy users and developers and learn
 </div>
 
 The [The Great GigaScience and Galaxy (G3) Workshop](http://australianbioinformatics.net/great-gigascience-galaxy-wkshp) will be held, Friday 19 September 2014 at The University of Melbourne from 8:45-5pm.
- 
+
 The day's theme is *Turning data—big data—into research impact*
 
 **Morning Session of Talks (8:45am - 12:00pm)**
 * Theatre 1, 207 Bouverie Street, Parkville.
-  * Featuring talks from [David Vaux](https://theconversation.com/from-fraud-to-fair-play-australia-must-support-research-integrity-15733), A Speaker on Galaxy, Representative from NHMRC on open access and the [GigaScience Editorial Team](http://www.gigasciencejournal.com/about). 
+  * Featuring talks from [David Vaux](https://theconversation.com/from-fraud-to-fair-play-australia-must-support-research-integrity-15733), A Speaker on Galaxy, Representative from NHMRC on open access and the [GigaScience Editorial Team](http://www.gigasciencejournal.com/about).
 
 **Afternoon Workshops (2:00pm - 5:00pm)**
 * Workshop Stream 1 - [VLSCI Boardroom, 187 Grattan Street, Parkville](https://www.google.com.au/maps/place/187+Grattan+St,+University+of+Melbourne,+Carlton+VIC+3053/@-37.8003045,144.9626346,17z/data=!3m1!4b1!4m2!3m1!1s0x6ad642d318691715:0xbb29ca3420505539)
@@ -145,7 +145,7 @@ See the [event page](http://australianbioinformatics.net/great-gigascience-galax
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 And don't worry, Europe does not have a complete lock on upcoming Galaxy related events.  There is also things going on in North America, and a few more in Australia too.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -263,8 +263,8 @@ The new papers were tagged in many different areas:
 
 The Galaxy is expanding! Please help it grow.
 
-* [Galaxy Workflow Developer](http://bit.ly/1t1PKpO), John Innes Centre, Norwich UK. Applications Close: 12 Sept 
-* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
+* [Galaxy Workflow Developer](http://bit.ly/1t1PKpO), John Innes Centre, Norwich UK. Applications Close: 12 Sept
+* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States
 * [Galaxy Platform Development Officer](http://bit.ly/1q5iXPL), The Genome Analysis Centre (TGAC), Norwich, United Kingdom.  **Closes 18 September.**
 * [Bioinformatician position](http://www.xenbase.org/community/job.do?id=633&method=View+Job) at [Xenbase](http://xenbase.org), University of Calgary.
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
@@ -442,7 +442,7 @@ The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community
 
 Here are new contributions for the past *two* months.
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
@@ -451,7 +451,7 @@ In no particular order:
   * [fastq_join](https://toolshed.g2.bx.psu.edu/view/lparsons/fastq_join): merge overlapping paired-end reads (from ea-utils package)
 
 * *From [saskia-hiltemann](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/)*
-  * [ireport](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/ireport): create interactive HTML reports from galaxy outputs. 
+  * [ireport](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/ireport): create interactive HTML reports from galaxy outputs.
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc)*
   * [stringtie](https://toolshed.g2.bx.psu.edu/view/iuc/stringtie): fast and highly efficient assembler of RNA-Seq alignments into potential transcripts.
@@ -485,7 +485,7 @@ In no particular order:
   * [generate_pc_lda_matrix](https://toolshed.g2.bx.psu.edu/view/devteam/generate_pc_lda_matrix): generate a matrix to be used for running the Linear Discriminant Analysis as described in Carrel et al., 2006 (PMID: 17009873)
   * [count_gff_features](https://toolshed.g2.bx.psu.edu/view/devteam/count_gff_features): Counts the number of features in a GFF dataset.
   * [column_maker](https://toolshed.g2.bx.psu.edu/view/devteam/column_maker): computes an expression for every row of a dataset and appends the result as a new column (field).
-  * [scatterplot](https://toolshed.g2.bx.psu.edu/view/devteam/scatterplot): creates a simple scatter plot between two variables containing numeric values of a selected dataset. 
+  * [scatterplot](https://toolshed.g2.bx.psu.edu/view/devteam/scatterplot): creates a simple scatter plot between two variables containing numeric values of a selected dataset.
   * [plot_from_lda](https://toolshed.g2.bx.psu.edu/view/devteam/plot_from_lda): generates a Receiver Operating Characteristic (ROC) plot that shows LDA classification success rates for different values of the tuning parameter tau as Figure 3 in Carrel et al., 2006 (PMID: 17009873).
   * [histogram](https://toolshed.g2.bx.psu.edu/view/devteam/histogram): computes a histogram of the numerical values in a column of a dataset.
   * [lda_analysis](https://toolshed.g2.bx.psu.edu/view/devteam/lda_analysis): Perform Linear Discriminant Analysis
@@ -501,7 +501,7 @@ In no particular order:
   * [bigwig_to_wig](https://toolshed.g2.bx.psu.edu/view/nikos/bigwig_to_wig): Converts a bigWig file to Wiggle (WIG) format
 
 * *From [mcharles](https://toolshed.g2.bx.psu.edu/view/mcharles/):
-  * [genephys](https://toolshed.g2.bx.psu.edu/view/mcharles/genephys): 
+  * [genephys](https://toolshed.g2.bx.psu.edu/view/mcharles/genephys):
 
 * *From [alan-blakely](https://toolshed.g2.bx.psu.edu/view/alan-blakely/):
   * [filter_by_substring_match](https://toolshed.g2.bx.psu.edu/view/alan-blakely/filter_by_substring_match): Allows for partial sequences to match lines containing a larger, more complete sequence.
@@ -534,7 +534,7 @@ In no particular order:
   * [package_rseqc_2_3_9](https://toolshed.g2.bx.psu.edu/view/lparsons/package_rseqc_2_3_9): downloads and compiles version 2.3.9 of RSeQC.
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc/)*
-  * [package_stringtie_0_97](https://toolshed.g2.bx.psu.edu/view/iuc/package_stringtie_0_97): 
+  * [package_stringtie_0_97](https://toolshed.g2.bx.psu.edu/view/iuc/package_stringtie_0_97):
   * [package_vcftools_0_1_12b](https://toolshed.g2.bx.psu.edu/view/iuc/package_vcftools_0_1_12b): downloads and compiles version 0.1.12b of the vcftools suite.
   * [package_vt_5c735ab14b5603d9f14da6ee0e63d86ba3779934](https://toolshed.g2.bx.psu.edu/view/iuc/package_vt_5c735ab14b5603d9f14da6ee0e63d86ba3779934): a variant tool set that discovers short variants from Next Generation Sequencing data.
   * [package_htseq_0_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_htseq_0_6): downloads and compiles version 0.6 of the htseq package.
@@ -555,6 +555,6 @@ In no particular order:
 
 # Other News
 
-* [Basic variant calling in Galaxy](http://bit.ly/V7Efj6) online tutorial by Cynthia Gibas at Genome Intelligence 
+* [Basic variant calling in Galaxy](http://bit.ly/V7Efj6) online tutorial by Cynthia Gibas at Genome Intelligence
 * From ron Horst:
     You can now BLAST search DNA & Proteins on [galaxy-qld.genome.edu.au](http://galaxy-qld.genome.edu.au), using BRAEMBL resources. Coming soon to more Gernomics Virtual Lab VMs

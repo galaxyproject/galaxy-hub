@@ -36,6 +36,6 @@ I like that it shows how Galaxy can be used to pull in data from external resour
 
 ---
 
-Thanks to Maria for selecting this tutorial and answering our questions. We would like also to thank Bérénice Batut, Björn Grüning, Clemens Blank, Dilmurat Yusuf, Nicola Soranzo, Anne Pajon and Sarah Peter who developed and contributed to this tutorial. 
+Thanks to Maria for selecting this tutorial and answering our questions. We would like also to thank Bérénice Batut, Björn Grüning, Clemens Blank, Dilmurat Yusuf, Nicola Soranzo, Anne Pajon and Sarah Peter who developed and contributed to this tutorial.
 
 We recommend warmly to go through this nice tutorial, using it for self-learning or during workshops. Enjoy it!

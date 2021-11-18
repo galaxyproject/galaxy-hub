@@ -1,7 +1,7 @@
 ---
 title: Galaxy Data Manager XML File
 ---
-The XML File for a Galaxy Data Manager, generally referred to as the "data manager config file", serves a number of purposes.  It defines the availability of Data Managers to a Galaxy instance. It does this by specifying the id of the Data Manager and the Data Manager tool that is associated with it. It also contains a listing of the Tool Data Tables that can be added to by the Data Manager. It also specifies how to manipulate the raw column values provided by the Data Manager Tool and under what directory structure to place the finalized data values. 
+The XML File for a Galaxy Data Manager, generally referred to as the "data manager config file", serves a number of purposes.  It defines the availability of Data Managers to a Galaxy instance. It does this by specifying the id of the Data Manager and the Data Manager tool that is associated with it. It also contains a listing of the Tool Data Tables that can be added to by the Data Manager. It also specifies how to manipulate the raw column values provided by the Data Manager Tool and under what directory structure to place the finalized data values.
 
 Pay attention to the following when creating a new Data Manager:
 
@@ -28,10 +28,10 @@ The outer-most tag set. It contains no attributes. Any number of `<data_manager>
 This tag defines a particular Data Manager. Any number of `<data_table>` tags can be included within it.
 
 
-| attribute |  values  |  details  |  required  |  example  | 
-| --------- | ------- | -------- | --------- | -------- | 
-| tool_file |  a string *  |  This is the filename of the Data Manager Tool's XML file, relative to the Galaxy Root. Multiple Data Managers can use the same Tool, but doing so would require "id" to be declared. |  yes  |  `tool_file="data_manager/twobit_builder.xml"`  | 
-| id |  a string *  |  Must be unique across all Data Managers; should be lowercase and contain only letters, numbers, and underscores.  While technically optional, it is a best-practice to specify this value. When not specified, it will use the id of the underlying Data Manager Tool.  |  no  |  `id="twobit_builder"`  | 
+| attribute |  values  |  details  |  required  |  example  |
+| --------- | ------- | -------- | --------- | -------- |
+| tool_file |  a string *  |  This is the filename of the Data Manager Tool's XML file, relative to the Galaxy Root. Multiple Data Managers can use the same Tool, but doing so would require "id" to be declared. |  yes  |  `tool_file="data_manager/twobit_builder.xml"`  |
+| id |  a string *  |  Must be unique across all Data Managers; should be lowercase and contain only letters, numbers, and underscores.  While technically optional, it is a best-practice to specify this value. When not specified, it will use the id of the underlying Data Manager Tool.  |  no  |  `id="twobit_builder"`  |
 
 
 #### Example
@@ -47,12 +47,12 @@ The following is an example that contains all of the attributes described above.
 
 ### `<data_table>` tag set
 
-This tag defines a Tool Data Table to add entries to. Any number of `<data_table>` tags can be used. Each `<data_table>` tag will contain an `<output>` tagset. 
+This tag defines a Tool Data Table to add entries to. Any number of `<data_table>` tags can be used. Each `<data_table>` tag will contain an `<output>` tagset.
 
 
-| attribute |  values  |  details  |  required  |  example  | 
-| --------- | ------- | -------- | --------- | -------- | 
-| name |  a string *  |  This is the name of the Tool Data Table. |  yes  |  `name="twobit"`  | 
+| attribute |  values  |  details  |  required  |  example  |
+| --------- | ------- | -------- | --------- | -------- |
+| name |  a string *  |  This is the name of the Tool Data Table. |  yes  |  `name="twobit"`  |
 
 #### Example
 
@@ -82,13 +82,13 @@ The following is an example that contains all of the attributes described above.
 
 ### `<column>` tag set
 
-This tag defines a particular Tool Data Table column that will be set. Any number of `<column>` tags can be used. Each `<column>` tag may contain `<move>` and / or `<value_translation>` tagsets, which are optional. 
+This tag defines a particular Tool Data Table column that will be set. Any number of `<column>` tags can be used. Each `<column>` tag may contain `<move>` and / or `<value_translation>` tagsets, which are optional.
 
 
-| attribute |  values  |  details  |  required  |  example  | 
-| --------- | ------- | -------- | --------- | -------- | 
-| name |  a string *  |  This is the name of Tool Data Table column. |  yes  |  `name="value"`  | 
-| output_ref |  a string *  |  Name of the Data Manager Tool's output file to use for additional processing within e.. a <move> tag. |  no  |  `output_ref="out_file"`  | 
+| attribute |  values  |  details  |  required  |  example  |
+| --------- | ------- | -------- | --------- | -------- |
+| name |  a string *  |  This is the name of Tool Data Table column. |  yes  |  `name="value"`  |
+| output_ref |  a string *  |  Name of the Data Manager Tool's output file to use for additional processing within e.. a <move> tag. |  no  |  `output_ref="out_file"`  |
 
 #### Example
 
@@ -106,10 +106,10 @@ The following is an example that contains all of the attributes described above.
 This tag defines how to handle moving files from within the Data Manager Tool output's extra_files_path into the final storage location used for the Tool Data Table entry. Individual files or the entire directory contents can be moved. Move tag sets contain a `<source>` and a `<target>` tag set.
 
 
-| attribute |  values  |  details  |  required  |  example  | 
-| --------- | ------- | -------- | --------- | -------- | 
-| type |  a string *  |  This can be either 'file' or 'directory'. Default is 'directory'. |  no  |  `<move type="file">`  | 
-| relativize_symlinks |  True or False  |  Whether or not to relativize created existing symlinks in moved target. Default is False. |  no  |  `relativize_symlinks="True"`  | 
+| attribute |  values  |  details  |  required  |  example  |
+| --------- | ------- | -------- | --------- | -------- |
+| type |  a string *  |  This can be either 'file' or 'directory'. Default is 'directory'. |  no  |  `<move type="file">`  |
+| relativize_symlinks |  True or False  |  Whether or not to relativize created existing symlinks in moved target. Default is False. |  no  |  `relativize_symlinks="True"`  |
 
 #### Example
 
@@ -128,10 +128,10 @@ This tag defines the source location within a `<move>` tag set. When not specifi
 should resolve to a single line.
 
 
-| attribute |  values  |  details  |  required  |  example  | 
-| --------- | ------- | -------- | --------- | -------- | 
-| base |  a string Template  |  The base/root path to use for the source. When not provided, it defaults to the extra_files_path of the output dataset. |  no  |  `<move type="file">`  | 
-| TEXT |  a string Template  |  This defines the value of the source, relative to the *base* |  no  |  `<source>${path}</source>`  | 
+| attribute |  values  |  details  |  required  |  example  |
+| --------- | ------- | -------- | --------- | -------- |
+| base |  a string Template  |  The base/root path to use for the source. When not provided, it defaults to the extra_files_path of the output dataset. |  no  |  `<move type="file">`  |
+| TEXT |  a string Template  |  This defines the value of the source, relative to the *base* |  no  |  `<source>${path}</source>`  |
 
 #### Example
 
@@ -147,14 +147,14 @@ The following is an example that contains the most common usage, where the value
 ### `<target>` tag set
 
 This tag defines the target location within a `<move>` tag set. When not specified, it defaults to the *galaxy_data_manager_data_path* configuration value. The values of the `base` and the tag text are treated as
-templates as with the `<source>` tag. In addition the variables from the `<column>` tagset the value of `galaxy_data_manager_data_path` configuration value is available using the `${GALAXY_DATA_MANAGER_DATA_PATH}` 
+templates as with the `<source>` tag. In addition the variables from the `<column>` tagset the value of `galaxy_data_manager_data_path` configuration value is available using the `${GALAXY_DATA_MANAGER_DATA_PATH}`
 variable.
 
 
-| attribute |  values  |  details  |  required  |  example  | 
-| --------- | ------- | -------- | --------- | -------- | 
-| base |  a string Template  |  The base/root path to use for the target. When not specified, it defaults to the *galaxy_data_manager_data_path* configuration value. |  no  |  `<move type="file">`  | 
-| TEXT |  a string Template  |  This defines the value of the target (destination), relative to the *base* |  no  |  `<target base="${GALAXY_DATA_MANAGER_DATA_PATH}">${dbkey}/seq/${path}</target>`  | 
+| attribute |  values  |  details  |  required  |  example  |
+| --------- | ------- | -------- | --------- | -------- |
+| base |  a string Template  |  The base/root path to use for the target. When not specified, it defaults to the *galaxy_data_manager_data_path* configuration value. |  no  |  `<move type="file">`  |
+| TEXT |  a string Template  |  This defines the value of the target (destination), relative to the *base* |  no  |  `<target base="${GALAXY_DATA_MANAGER_DATA_PATH}">${dbkey}/seq/${path}</target>`  |
 
 #### Example
 
@@ -170,12 +170,12 @@ The following is an example that contains a common usage, where a target value i
 
 ### `<value_translation>` tag set
 
-This tag allows using templating to modify the value provided by the Data Manager Tool into the actual value that should be stored within the Tool Data Table. There can be any number of value translations provided for an output. The value translations are performed in the order presented in the XML. It is important to note that a move will occur before the value translations are performed. 
+This tag allows using templating to modify the value provided by the Data Manager Tool into the actual value that should be stored within the Tool Data Table. There can be any number of value translations provided for an output. The value translations are performed in the order presented in the XML. It is important to note that a move will occur before the value translations are performed.
 
 
-| attribute |  values  |  details  |  required  |  example  | 
-| --------- | ------- | -------- | --------- | -------- | 
-| type |  a string  |  The type of value translation to perform. Currently "template" and "function" are supported.  |  no  |  `type="template"`  | 
+| attribute |  values  |  details  |  required  |  example  |
+| --------- | ------- | -------- | --------- | -------- |
+| type |  a string  |  The type of value translation to perform. Currently "template" and "function" are supported.  |  no  |  `type="template"`  |
 
 
 #### Example
@@ -196,10 +196,10 @@ it is treated as a template, much like `<source>` and `<target>`, and must retur
 Assume that we have a Data Manager Tool that provides the following named values:
 
 
-| name |  value  | 
-| ---- | ------ | 
-| value |  sacCer2  | 
-| path |  sacCer2.2bit  | 
+| name |  value  |
+| ---- | ------ |
+| value |  sacCer2  |
+| path |  sacCer2.2bit  |
 
 and creates an output named "out_file", with an extra_files_path containing a file 'sacCer2.2bit'. (The primary dataset file contains [JSON](/admin/tools/data-managers/data-manager-json-syntax/) that provides the above values)
 
@@ -230,10 +230,10 @@ and has a Data Manager configuration defined as:
 The result is:
 
 
-| name |  value  | 
-| ---- | ------ | 
-| value |  sacCer2  | 
-| path |  ${ABSOLUTE_PATH_OF_CONFIGURED_GALAXY_DATA_MANAGER_DATA_PATH}/sacCer2/seq/sacCer2.2bit  | 
+| name |  value  |
+| ---- | ------ |
+| value |  sacCer2  |
+| path |  ${ABSOLUTE_PATH_OF_CONFIGURED_GALAXY_DATA_MANAGER_DATA_PATH}/sacCer2/seq/sacCer2.2bit  |
 
 and the "sacCer2.2bit" file has been moved into the location specified by path.
 

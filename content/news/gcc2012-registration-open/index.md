@@ -12,9 +12,9 @@ The Galaxy Community Conference is for:
 * Bioinformatics tool and workflow developers
 * Bioinformatics focused principal investigators and researchers
 * Data producers
-* Power bioinformatics users 
+* Power bioinformatics users
 
-This event will help you with integrating, analyzing, and sharing the diverse and very large datasets that are now typical in biomedical research.  GCC2012 is an opportunity to share best practices with, and learn from, a large community of researchers and support staff who are facing the challenges of data-intensive biology. 
+This event will help you with integrating, analyzing, and sharing the diverse and very large datasets that are now typical in biomedical research.  GCC2012 is an opportunity to share best practices with, and learn from, a large community of researchers and support staff who are facing the challenges of data-intensive biology.
 
 [Registration](/events/gcc2012/register/) is very affordable this year, especially for post-docs and students. You can can save an additional 40% by registering on or before June 11.  
 

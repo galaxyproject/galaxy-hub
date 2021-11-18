@@ -22,9 +22,9 @@ Welcome to the May 2015 *[Galactic News](/galaxy-updates/)*, a summary of what i
     Thomas A. Darde, Olivier Sallou, Emmanuelle Becker, Bertrand Evrard, Cyril Monjeaud, Yvan Le Bras, Bernard Jégou, Olivier Collin, Antoine D. Rolland and Frédéric Chalmel, *Nucleic Acids Research* (16 April 2015), gkv345, doi:10.1093/nar/gkv345
 
 * [VirAmp: a galaxy-based viral genome assembly pipeline](http://www.gigasciencejournal.com/content/4/1/19)
-    Yinan Wan1, Daniel W Renner2, Istvan Albert and Moriah L Szpara, *GigaScience* 2015, 4:19  doi:10.1186/s13742-015-0060-y	
+    Yinan Wan1, Daniel W Renner2, Istvan Albert and Moriah L Szpara, *GigaScience* 2015, 4:19  doi:10.1186/s13742-015-0060-y
 
-* [ClusTrack: Feature Extraction and Similarity Measures for Clustering of Genome-Wide Data Sets](https://doi.org/10.1371/journal.pone.0123261) 
+* [ClusTrack: Feature Extraction and Similarity Measures for Clustering of Genome-Wide Data Sets](https://doi.org/10.1371/journal.pone.0123261)
     Halfdan Rydbeck, Geir Kjetil K. Sandve, Egil Ferkingstad, Boris Simovski, Morten Rye, Eivind Hovig, *PloS one*, Vol. 10, No. 4. (2015)
 
 * [StructureFold: Genome-wide RNA secondary structure mapping and reconstruction in vivo](https://doi.org/10.1093/bioinformatics/btv213)
@@ -126,7 +126,7 @@ On-time [poster abstract submission](http://gcc2015.tsl.ac.uk/Abstracts) **close
 
 The [Galaxy Community Fund Board](mailto:community-fund@lists.galaxyproject.org) is pleased to offer [registration](http://gcc2015.tsl.ac.uk/registration) and [lodging](http://gcc2015.tsl.ac.uk/logistics/#Lodging) scholarships for [GCC2015](http://gcc2015.tsl.ac.uk/) for students and post-docs who are based in the United States, and who are members of historically underrepresented groups in life science research.
 
-See the [full announcement](/news/gcc2015-scholarships/) for further details. 
+See the [full announcement](/news/gcc2015-scholarships/) for further details.
 
 <div class='left'><br />
 <a href='http://gcc2015.tsl.ac.uk/keynote-speaker/'><img src="/events/gcc2015/oliver_stegle.jpg" alt="Oliver Stegle will present the keynote address at GCC2015" width="100" /></a></div>
@@ -144,7 +144,7 @@ Looking to extend your trip?  There are also **[at least 7 other events](/news/n
 
 <div class='right'><a href='/news/near-gcc2015/'><img src="/news/near-gcc2015/MatrixSnap.png" alt="Events nearby GCC2015" width="150" /></a></div>
 
- In Norwich 
+ In Norwich
 * [iPlant Tools & Services Workshop](http://www.tgac.ac.uk/361_Division/training-programme/courses-workshops/tgac-events/iplant-tools-and-services/)
 * [BioJS Hackathon](http://biojs.net/)
 
@@ -166,12 +166,12 @@ See the [Events Aplenty Near GCC2015](/news/near-gcc2015/) news item for dates a
 
 We are pleased to announce new GCC2015 [Silver Sponsorships](http://gcc2015.tsl.ac.uk/sponsors/) from [ELIXIR](https://www.elixir-europe.org/) and [GigaScience](http://www.gigasciencejournal.com/).
 
-<div class='right'> 
+<div class='right'>
 <a href='http://www.elixir-europe.org/'><img src="/images/logos/ElixirNoTextLogo.png" alt="Elixer" height="120" /></a> &nbsp;&nbsp;&nbsp;
 </div>
 [ELIXIR](https://www.elixir-europe.org/) is building a sustainable European infrastructure for biological information, supporting life science research and its translation to medicine, agriculture, bioindustries and society.  ELIXIR unites Europe’s leading life science organisations in managing and safeguarding the massive amounts of data being generated every day by publicly funded research. It is a pan-European research infrastructure for biological information.  This is the second time ELIXIR has sponsored a GCC.  Please welcome them back!
 
-<div class='left'> 
+<div class='left'>
 <a href='http://www.gigasciencejournal.com/'><img src="/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" height="70" /></a>
 </div>
 
@@ -192,7 +192,7 @@ Please let the [organisers](http://gcc2015.tsl.ac.uk/) know if you are intereste
 
 <div class='right'><a href='/community/galaxy-admins/meetups/2015-04-16/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup April 16" width="150" /></a></div>
 
-[Slides and video](/community/galaxy-admins/meetups/2015-04-16/) from the [April GalaxyAdmins online meetup](/community/galaxy-admins/meetups/2015-04-16/) are now available. [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) presented her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).  [Sam Guerler](/people/guerler/) of the Galaxy Project talked about Galaxy'a new tool form support. 
+[Slides and video](/community/galaxy-admins/meetups/2015-04-16/) from the [April GalaxyAdmins online meetup](/community/galaxy-admins/meetups/2015-04-16/) are now available. [Carrie Ganote](http://www.researchgate.net/profile/Carrie_Ganote) from the [National Center for Genome Analysis Support (NCGAS)](http://ncgas.org/) and [Pervasive Technology Institute](http://pti.iu.edu/) at [Indiana University](http://iu.edu/) presented her Galaxy work with [Trinity](http://trinityrnaseq.github.io/), IU Galaxy, and the [Open Science Grid](http://www.opensciencegrid.org/).  [Sam Guerler](/people/guerler/) of the Galaxy Project talked about Galaxy'a new tool form support.
 
 *Please join us for the [next GalaxyAdmins meetup on June 18](/community/galaxy-admins/meetups/2015-06-18/)* when [Peter Briggs](http://galacticengineer.blogspot.co.uk/) of the [University of Manchester](http://www.manchester.ac.uk/) will speak on *Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester*.  GalaxyAdmins will also have an in-person meetup at GCC2015.
 
@@ -200,7 +200,7 @@ Please let the [organisers](http://gcc2015.tsl.ac.uk/) know if you are intereste
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 <a href='http://migale.jouy.inra.fr/?q=formations'><img src="/images/logos/MIGALELogo.png" alt='Cycle "Bioinformatique par la pratique" 2015' height="50" /></a>
 <a href='http://www.qfab.org/event/workshop-variant-detection-using-galaxy-3/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshop: Variant detection using Galaxy" height="80" /></a>
 [[<a href='http://genomecenter.ucdavis.edu/2015/04/28/getting-bioinformatics-done-with-galaxy-a-free-bgi-uc-davis-workshop-taught-by-bioinformatics-core/'><img src="/images/logos/UCDavisGenomeCenter.png" alt="Getting Bioinformatics Done with Galaxy" height="50" /></a> &nbsp;
@@ -377,7 +377,7 @@ There are [upcoming events](/events/) in 7 countries on 3 continents.  See the [
 
 The Galaxy is expanding! Please help it grow.
 
-* [Post-Doc CDD-IR CEA-Institut de Génomique](http://bit.ly/1Pbd9gk), Evry, France 
+* [Post-Doc CDD-IR CEA-Institut de Génomique](http://bit.ly/1Pbd9gk), Evry, France
 * [Software Developer / Bioinformatician](http://bit.ly/1HVpxk3) at EMBL, Heidelberg. Closes 25 May
 * [Computational Metabolomics Professor](https://psu.jobs/job/55363), Penn State University, Pennsylvania, United States
 * [Software Developer for the Refinery Team](https://jobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1118216&PartnerId=25240&SiteId=5341&type=mail&JobReqLang=1&recordstart=1&JobSiteId=5341&JobSiteInfo=1118216_5341&gqid=0), Boston, Massachusetts, United States
@@ -392,17 +392,17 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 # New Public Galaxy Server: The ReproGenomics Viewer
 
 <div class='right solid'><a href='http://rgv.genouest.org/galaxy/'><img src="/public-galaxy-servers/archive/repro-genomics-viewer.png" alt="The ReproGenomics Viewer"  /></a></div>
- 
+
 * *Link:*
   * [The ReproGenomics Viewer working environment](http://rgv.genouest.org/galaxy/)
   * [The ReproGenomics Viewer: an integrative cross-species toolbox for the reproductive science community](http://bit.ly/1PZFfgV), by Thomas A. Darde, Olivier Sallou, Emmanuelle Becker, Bertrand Evrard, Cyril Monjeaud, Yvan Le Bras, Bernard Jégou, Olivier Collin, Antoine D. Rolland and Frédéric Chalmel1; *Nucleic Acids Research* (2015) doi: 10.1093/nar/gkv345
   * [The ReproGenomics Viewer project home page](http://rgv.genouest.org/)
 * *Domain/Purpose:*
   * "The ReproGenomics Viewer (RGV) is a cross-species genomic toolbox for the reproductive community. The system is based on the implementation of a JBrowse genome browser and a Galaxy bioinformatics workflow environment. It was developed to provide a one-stop genomic working environment and aims to assist scientists in the analysis and the mining of a wide range of high-throughput repro-genomics data, including sequencing data.<br /><br />RGV allows hosting, visualization, and direct comparison of users’ data to published genomics studies as well as to relevant genetic variations linked to reproduction. One way it does this is by enabling various genomic file format conversions.<br /><br />The ReproGenomics Viewer currently hosts datasets that are oriented mainly towards testis biology and spermatogenesis. In the near future, these will extend to other areas of reproduction, including gonad development, urogenital cancers, and reproductive toxicology."
-* *Comments:* 
+* *Comments:*
 * *User Support:*
   * [Email](mailto:support@genouest.org)
-* *Quotas:* 
+* *Quotas:*
 * *Sponsor(s):*
   * [INSERM](http://www.inserm.fr), [IRSET](http://www.irset.fr), [FRM](http://www.frm.fr), [ANSES](http://www.anses.fr), [Biogenouest](http://www.biogenouest.org), [IRISA](http://www.irisa.fr), [INRIA](http://www.inria.fr/), [CNRS](http://www.cnrs.fr/), [Université de Rennes 1](http://www.univ-rennes1.fr/), [Région Bretagne](http://www.bretagne.fr/), FEDER]]
 
@@ -464,7 +464,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 ## Others
 
  **Galaxy v15.03**
-   The [most recent Galaxy release is V 15.03](/archive/dev-news-briefs/2015-03/), released in March. 
+   The [most recent Galaxy release is V 15.03](/archive/dev-news-briefs/2015-03/), released in March.
 
  **[CloudMan](/cloudman/) **
    The [most recent edition of CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release) was released in August.

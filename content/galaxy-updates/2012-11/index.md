@@ -106,9 +106,9 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
-There are November application, poster, and paper deadlines for 
+There are November application, poster, and paper deadlines for
 * ICG & Bio-IT APAC 2012 abstract and poster deadlines (Oct 31 and Nov 15)
 * Next Generation Sequencing Workshop application deadline (U Adelaide, Nov 2)
 * Rocky 2012 early registration deadline (Nov 8)
@@ -188,9 +188,9 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in September.
 
-* `cloudmap_variant_discovery_mapping`: Map a mutation using in silico bulk segregant linkage analysis using variants that are already present in the mutant strain of interest. 
+* `cloudmap_variant_discovery_mapping`: Map a mutation using in silico bulk segregant linkage analysis using variants that are already present in the mutant strain of interest.
 * `riboPicker`: Easy identification and removal of rRNA-like sequences
-* `picard`: Wrappers for the Picard SAM/BAM manipulation tools. 
+* `picard`: Wrappers for the Picard SAM/BAM manipulation tools.
 * `nebula`: Tools suite for ChIP-seq data analysis tools from the [Nebula Galaxy server](http://nebula.curie.fr).
 * `sparql_galaxy`: Execute an SPARQL query against an OWL ontology
 * `cluster3`: A Wrapper for the [Cluster3.0 program](http://bonsai.hgc.jp/~mdehoon/software/cluster/software.htm), which implements "the most commonly used clustering methods for gene expression data analysis."
@@ -208,5 +208,5 @@ The **[October 5, 2012 distribution](/archive/dev-news-briefs/2012-10-05/)** inc
 * Slides for all [11 talks at 1st Swiss Galaxy Day](http://bit.ly/gxyswiss) are now available online.
 * Slides for [5 other Galaxy related events](/events/#a2012) in October are also now available.
 * [workflow-to-galaxy (0.3.4) @ RubyGems.org](http://rubygems.org/gems/workflow-to-galaxy): Acquires information for a taverna 2 workflow from myExperiment (or from a file) and generates a Galaxy tool (`.xml` and `.rb` files).
-* American Internet Services (AIS) unveils [Life Sciences SaaS](http://bloom.bg/TQEcGz), featuring Galaxy 
+* American Internet Services (AIS) unveils [Life Sciences SaaS](http://bloom.bg/TQEcGz), featuring Galaxy
 * The **[Tool Shed Wiki](/toolshed/)** wiki has been re-written with a new, cleaner presentation. And check out all the [new features](/archive/dev-news-briefs/2012-10-05/#tool-shed)!

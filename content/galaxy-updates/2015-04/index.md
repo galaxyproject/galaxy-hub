@@ -150,10 +150,10 @@ The schedule for [Training Day, Monday, 6 July is available](http://gcc2015.tsl.
 
 [Abstract submission](http://gcc2015.tsl.ac.uk/Abstracts) for oral presentations closes ~~10~~ 20 April, while poster submission closes 1 May. Poster authors will be notified of acceptance status within two weeks of submission, while oral presentation authors will be notified no later than 4 May.  *Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about it.*
 
- 
+
 ### GCC2015 Sponsorships
 
-<div class='center'> 
+<div class='center'>
 <a href='https://www.sgi.com/solutions/research/'><img src="/images/logos/SGI_logo_platinum_400.png" alt="SGI" height="80" /></a> &nbsp;&nbsp;
 <a href='http://www.intel.com/'><img src="/images/logos/IntelLogo600.png" alt="Intel" height="70" /></a> &nbsp;&nbsp;
 <a href='http://www.kelway.com/'><img src="/images/logos/KelwayLogo700.png" alt="Kelway" height="58" /></a>
@@ -173,7 +173,7 @@ Please let the [organisers](http://gcc2015.tsl.ac.uk/) ([gcc2015-org AT lists DO
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 <a href='https://www.e-biogenouest.org/events/details/45/'><img src="/images/logos/eBiogenouestLogo.png" alt="Fourth GUGGO meeting" height="80" /></a> &nbsp;
 <a href='/community/galaxy-admins/meetups/2015-04-16/'><img src="/images/logos/GalaxyAdmins.png" alt="16 April GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
@@ -367,12 +367,12 @@ One new [public Galaxy server](/use/) was added in March:
   * [Vinther Lab server](http://galaxy.bio.ku.dk/)
   * [Reproducible Analysis of Sequencing-Based RNA Structure Probing Data with User-Friendly Tools](http://www.sciencedirect.com/science/article/pii/S0076687915000713) by Lukasz Jan Kielpinski, Nikolaos Sidiropoulos, Jeppe Vinther, * Methods in Enzymology*, DOI: 10.1016/bs.mie.2015.01.014:
 * *Domain/Purpose:*
-  * RNA structure-probing data analysis to "improve the prediction of RNA secondary and tertiary structure and allow structural changes to be identified and investigated." 
+  * RNA structure-probing data analysis to "improve the prediction of RNA secondary and tertiary structure and allow structural changes to be identified and investigated."
 * *Comments:*
   * From [Kielpinski, et al.](http://www.sciencedirect.com/science/article/pii/S0076687915000713):
-      a collection of tools, which allow raw sequencing reads to be converted to normalized probing values using different published strategies. In addition, we also provide tools for visualization of the probing data in the UCSC Genome Browser and for converting RNA coordinates to genomic coordinates and vice versa. The collection is implemented as functions in the R statistical environment and as tools in the Galaxy platform, making them easily accessible for the scientific community. 
+      a collection of tools, which allow raw sequencing reads to be converted to normalized probing values using different published strategies. In addition, we also provide tools for visualization of the probing data in the UCSC Genome Browser and for converting RNA coordinates to genomic coordinates and vice versa. The collection is implemented as functions in the R statistical environment and as tools in the Galaxy platform, making them easily accessible for the scientific community.
 * *User Support:*
-* *Quotas:* 
+* *Quotas:*
   * Must have a login to use the server; anyone can create a login.
 * *Sponsor(s):*
   * [Vinther Lab](http://www1.bio.ku.dk/english/research/bi/rna_biologi/vinther/), [Department of Biology](http://cms.ku.dk/nat-sites/bio-sites/bio/english/), [University of Copenhagen](http://www.ku.dk/english/).
@@ -467,7 +467,7 @@ One new [Community Log Board](/blog/) entry was added in March:
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
-* Project source moved to new URL - https://github.com/galaxyproject/bioblend 
+* Project source moved to new URL - https://github.com/galaxyproject/bioblend
 * Huge improvements to automated testing, tests now run against Galaxy release_14.02 and all later versions to ensure backward compatibility (see [travis.yml](https://github.com/galaxyproject/bioblend/blob/master/.travis.yml) for details).
 * Many documentation improvements (thanks to [Helena Rasche](/people/helena-rasche/)).
 * Add Galaxy clients for the tool data tables, the roles, and library folders (thanks to Anthony Bretaudeau).
@@ -508,7 +508,7 @@ Enjoy and please let us know what you think,
 * Add linting of stdio tags in tool XML files. [8207026](https://github.com/galaxyproject/planemo/commit/8207026)
 * More tests, much higher test coverage. [0bd4ff0](https://github.com/galaxyproject/planemo/commit/0bd4ff0)
 
-Planemo is a set of command-line utilities to assist in building tools for the Galaxy project 
+Planemo is a set of command-line utilities to assist in building tools for the Galaxy project
 
 ## CloudMan and blend4j
 
@@ -518,8 +518,8 @@ New versions [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), 
 
 # Other News
 
-* From [Björn Grüning](/people/bjoern-gruening/): 
-    [New release of our Galaxy Docker container](https://biostar.usegalaxy.org/p/11376/) with a lot of new features 
+* From [Björn Grüning](/people/bjoern-gruening/):
+    [New release of our Galaxy Docker container](https://biostar.usegalaxy.org/p/11376/) with a lot of new features
 * You can browse our tutorials section by visiting this [biostar.usegalaxy.org/t/Tutorial/](https://biostar.usegalaxy.org/t/Tutorial/) (*Note: Deprecated. Now see [training.galaxyproject.org](https://training.galaxyproject.org/)*)
 * [Should Galaxy use Trello or Github for issue tracking?](http://trello.com/c/iddlQT2p)
 * Every contribution and every pull request to the Galaxy repo is now [being publicly built on Travis-CI](https://travis-ci.org/galaxyproject/galaxy/builds).
@@ -557,7 +557,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
       In case you are using our software for your publications you may want to cite:
 
      Lorenz, Ronny and Bernhart, Stephan H. and H\u00f6ner zu Siederdissen, Christian and Tafer, Hakim and Flamm, Christoph and Stadler, Peter F. and Hofacker, Ivo L.<br />
-     ViennaRNA Package 2.0, *Algorithms for Molecular Biology,* 6:1 26, 2011, doi:10.1186/1748-7188-6-26 
+     ViennaRNA Package 2.0, *Algorithms for Molecular Biology,* 6:1 26, 2011, doi:10.1186/1748-7188-6-26
 
 * *From [izsam](https://toolshed.g2.bx.psu.edu/view/izsam):*
   * [phylogeny_converter](https://toolshed.g2.bx.psu.edu/view/izsam/phylogeny_converter): Converts different file formats (FASTA, GenBank, phylip, nexus) to allow data-exchange from different phylogeny tools.
@@ -569,20 +569,20 @@ Note: Starting with the May news, this list will be placed on a separate page an
   * [sapp](https://toolshed.g2.bx.psu.edu/view/jjkoehorst/sapp): GBK2RDF Semantic Annotation Platform for Prokaryotes. It might take a while but I will try to make for each module in the SAPP paper a galaxy tool shed module.
 
 * *From [fastaptamer](https://toolshed.g2.bx.psu.edu/view/fastaptamer):*
-  * [fastaptamer_cluster](https://toolshed.g2.bx.psu.edu/view/fastaptamer/fastaptamer_cluster): Cluster closely-related sequences using Levenshtein edit distance. FASTAptamer-Cluster uses the Levenshtein algorithm to cluster together closely-related sequences based on a user-defined edit distance (the minimum number of insertions, deletions, or subsitutions required to transform one string into another). 
+  * [fastaptamer_cluster](https://toolshed.g2.bx.psu.edu/view/fastaptamer/fastaptamer_cluster): Cluster closely-related sequences using Levenshtein edit distance. FASTAptamer-Cluster uses the Levenshtein algorithm to cluster together closely-related sequences based on a user-defined edit distance (the minimum number of insertions, deletions, or subsitutions required to transform one string into another).
 
 * [fastaptamer_count](https://toolshed.g2.bx.psu.edu/view/fastaptamer/fastaptamer_count): Count, rank, sort and normalize sequence reads in a selection population. FASTAptamer-Count serves as the gateway to the FASTAptamer suite of bioinformatics tools for combinatorial selections (aptamers, (deoxy)ribozymes, phage display, direct mutagenesis, etc.). For a given FASTQ input file, FASTAptamer-Count will determine the number of times each sequence was read, normalize sequence frequency to reads per million, and rank and sort sequences by decreasing total reads.
 * [fastaptamer_compare](https://toolshed.g2.bx.psu.edu/view/fastaptamer/fastaptamer_compare): Compare sequence distribution between two populations. FASTAptamer-Compare facilitates statistical analysis of two populations by rapidly generating a tab-delimited output file that lists each unique sequence along with RPM (reads per million) in each population file (if available) and log(2) of the ratio of their RPM values in each population.  RPM data for both populations can be utilized to generate an XY-scatter plot of sequence distribution across two populations.  FASTAptamer-Compare also facilitates the generation of a histogram of the sequence distribution by creating 102 bins for the log(2) values.  This histogram can provide a quick visual comparison of the two populations: distributions centered around 0 indicate similar populations, while distributions shifted to the left or right indicate overall enrichment or depletion.
 * [fastaptamer_search](https://toolshed.g2.bx.psu.edu/view/fastaptamer/fastaptamer_search): Degenerate nucleotide motif searching. FASTAptamer-Search searches for degenerate nucleotide motifs within a FASTA file.
 
-* [fastaptamer_enrich](https://toolshed.g2.bx.psu.edu/view/fastaptamer/fastaptamer_enrich): Calculate fold-enrichment of each sequence across populations. FASTAptamer-Enrich rapidly calculates "fold-enrichment" values for each sequence across two or three input files.  Output is provided as a tab-delimited file and is formatted to include sequence composition, length, rank, reads, reads per million (RPM), cluster information (if available) and enrichment values for each sequence. 
+* [fastaptamer_enrich](https://toolshed.g2.bx.psu.edu/view/fastaptamer/fastaptamer_enrich): Calculate fold-enrichment of each sequence across populations. FASTAptamer-Enrich rapidly calculates "fold-enrichment" values for each sequence across two or three input files.  Output is provided as a tab-delimited file and is formatted to include sequence composition, length, rank, reads, reads per million (RPM), cluster information (if available) and enrichment values for each sequence.
 
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
   * [diamond](https://toolshed.g2.bx.psu.edu/view/bgruening/diamond): DIAMOND is a new high-throughput program for aligning a file of short reads against a protein reference database such as NR, at 20,000 times the speed of BLASTX, with high sensitivity
 
      Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
-* [text_processing](https://toolshed.g2.bx.psu.edu/view/bgruening/text_processing): High performance text processing tools using the GNU coreutils, sed, awk and friends. That repository contains all kind of different text processing tools. 
+* [text_processing](https://toolshed.g2.bx.psu.edu/view/bgruening/text_processing): High performance text processing tools using the GNU coreutils, sed, awk and friends. That repository contains all kind of different text processing tools.
 
 * awk - The AWK programmning language ( http://www.gnu.org/software/gawk/ )
 * sed - Stream Editor ( http://sed.sf.net )
@@ -601,7 +601,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
      Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
 
-* [data_manager_diamond_database_builder](https://toolshed.g2.bx.psu.edu/view/bgruening/data_manager_diamond_database_builder): Diamond data manager 
+* [data_manager_diamond_database_builder](https://toolshed.g2.bx.psu.edu/view/bgruening/data_manager_diamond_database_builder): Diamond data manager
 * [find_genes_located_nearby_workflow](https://toolshed.g2.bx.psu.edu/view/bgruening/find_genes_located_nearby_workflow): Galaxy workflow for the identification of candidate genes clusters This approach screens two proteins against all nucleotide sequence from the NCBI nt database within hours on our cluster, leading to all organisms with an interesting gene structure for further investigation. As usual in Galaxy workflows every parameter, including the proximity distance, can be changed and additional steps can be easily added. For example additional filtering to refine the initial BLAST hits, or inclusion of a third query sequence.
 * [find_three_genes_located_nearby_workflow](https://toolshed.g2.bx.psu.edu/view/bgruening/find_three_genes_located_nearby_workflow): Galaxy workflow for the identification of candidate genes clusters with three known genes This approach screens three proteins against a given genome sequence, leading to a genome position were all three genes are located nearby. As usual in Galaxy workflows every parameter, including the proximity distance, can be changed and additional steps can be easily added. For example additional filtering to refine the initial BLAST hits, or inclusion of a third query sequence.
 * [find_subsequences](https://toolshed.g2.bx.psu.edu/view/bgruening/find_subsequences): Searches for a subsequence in a larger sequence. For example to get all restriction enzymes for BamH1. Searches for a subsequence in a larger sequence. For example to get all restriction enzymes for BamH1.
@@ -636,34 +636,34 @@ Note: Starting with the May news, this list will be placed on a separate page an
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [vcfhethom](https://toolshed.g2.bx.psu.edu/view/devteam/vcfhethom): Count the number of heterozygotes and alleles, compute het/hom ratio. This tool perfoms three basic calculations:
-    1. Computes the number of heterozygotes                                                                                                                              
-    1. Computes the ratio between heterozygotes and homozygotes                                                                                                               1. Computes the total number of alleles in the input dataset               
+    1. Computes the number of heterozygotes
+    1. Computes the ratio between heterozygotes and homozygotes                                                                                                               1. Computes the total number of alleles in the input dataset
   * [vcfselectsamples](https://toolshed.g2.bx.psu.edu/view/devteam/vcfselectsamples): Select samples from a VCF file Allows selecting samples from a VCF dataset. This tool combines vcfkeepsamples and vcfremovesamples from VCFlib package into a single utility.
   * [vcfleftalign](https://toolshed.g2.bx.psu.edu/view/devteam/vcfleftalign): Left-align indels and complex variants in VCF dataset Left-aligns variants in VCF dataset.  Window size is determined dynamically according to the entropy of the regions flanking the indel.  These must have entropy > 1 bit/bp, or be shorter than ~5kb.
-  * [vcfannotategenotypes](https://toolshed.g2.bx.psu.edu/view/devteam/vcfannotategenotypes): Annotate genotypes in a VCF dataset using genotypes from another VCF dataset. Annotates genotypes in the first file with genotypes in the second adding the genotype as another flag to each sample filed in the first file. Annotation-tag is the name of the sample flag which is added to store the annotation.  also adds a 'has\_variant' flag for sites where the second file has a variant.     
+  * [vcfannotategenotypes](https://toolshed.g2.bx.psu.edu/view/devteam/vcfannotategenotypes): Annotate genotypes in a VCF dataset using genotypes from another VCF dataset. Annotates genotypes in the first file with genotypes in the second adding the genotype as another flag to each sample filed in the first file. Annotation-tag is the name of the sample flag which is added to store the annotation.  also adds a 'has\_variant' flag for sites where the second file has a variant.
   * [vcfbreakcreatemulti](https://toolshed.g2.bx.psu.edu/view/devteam/vcfbreakcreatemulti): Break multiple alleles into multiple records, or combine overallpoing alleles into a single record This tool breaks or creates multiallelic VCF records based on user selection.
     * Breaking = If multiple alleles are specified in a single record, break the record into multiple lines, preserving allele-specific INFO fields.
-    * Creation = If overlapping alleles are represented across multiple records, merge them into a single record.   
-  * [vcfgenotypes](https://toolshed.g2.bx.psu.edu/view/devteam/vcfgenotypes): Convert numerical representation of genotypes to allelic. Converts numerical representation of genotypes (standard in GT field) to the alleles provided in the call's ALT/REF fields. 
+    * Creation = If overlapping alleles are represented across multiple records, merge them into a single record.
+  * [vcfgenotypes](https://toolshed.g2.bx.psu.edu/view/devteam/vcfgenotypes): Convert numerical representation of genotypes to allelic. Converts numerical representation of genotypes (standard in GT field) to the alleles provided in the call's ALT/REF fields.
   * [vcfaddinfo](https://toolshed.g2.bx.psu.edu/view/devteam/vcfaddinfo): Adds info fields from the second dataset which are not present in the first dataset. Adds info fields from the second dataset which are not present in the first dataset.
-  * [vcfsort](https://toolshed.g2.bx.psu.edu/view/devteam/vcfsort): Sort VCF dataset by coordinate This tools uses native UNIX sort command to order VCF dataset in coordinate order. 
+  * [vcfsort](https://toolshed.g2.bx.psu.edu/view/devteam/vcfsort): Sort VCF dataset by coordinate This tools uses native UNIX sort command to order VCF dataset in coordinate order.
   * [vcfbedintersect](https://toolshed.g2.bx.psu.edu/view/devteam/vcfbedintersect): Intersect VCF and BED datasets Computes intersection between a VCF dataset and a set of genomic intervals defined as either a BED dataset (http://genome.ucsc.edu/FAQ/FAQformat.html#format1) or a manually typed interval (in the form of chr:start-end).  
   * [vcf2tsv](https://toolshed.g2.bx.psu.edu/view/devteam/vcf2tsv): Converts VCF files into tab-delimited format Converts stdin or given VCF file to tab-delimited format, using null string to replace empty values in the table. Specifying -g will output one line per sample with genotype information. A part of the vcflib utilities developed by Erik Garrison (https://github.com/ekg/vcflib).
   * [vcfcheck](https://toolshed.g2.bx.psu.edu/view/devteam/vcfcheck): Verify that the reference allele matches the reference genome Verifies that the VCF REF field matches the reference as described
   * [vcffixup](https://toolshed.g2.bx.psu.edu/view/devteam/vcffixup): Count the allele frequencies across alleles present in each record in the VCF file. Uses genotypes from the VCF file to correct AC (alternate allele count), AF (alternate allele frequency), NS (number of called), in the VCF records.
   * [data_manager_bwa_mem_index_builder](https://toolshed.g2.bx.psu.edu/view/devteam/data_manager_bwa_mem_index_builder): Data Manager for building BWA (0.6+) indexes Data Manager for building BWA (0.6+) indexes.
   * [vcfrandomsample](https://toolshed.g2.bx.psu.edu/view/devteam/vcfrandomsample): Randomly sample sites from VCF dataset Randomly sample sites from an input VCF file. Scale the sampling probability by the field specified by --scale-by (see advanced controls).  This may be used to provide uniform sampling across allele frequencies, for instance (AF field in this case).
-  * [vcfgeno2haplo](https://toolshed.g2.bx.psu.edu/view/devteam/vcfgeno2haplo): Convert genotype-based phased alleles into haplotype alleles Convert genotype-based phased alleles within a window size specified by -w option into haplotype alleles. Will break haplotype construction when encountering non-phased genotypes on input. 
-  * [data_manager_fetch_genome_dbkeys_all_fasta](https://toolshed.g2.bx.psu.edu/view/devteam/data_manager_fetch_genome_dbkeys_all_fasta): Allows optionally defining a new DBKEY and retrieves a FASTA file and populate the all_fasta.loc data table. 
+  * [vcfgeno2haplo](https://toolshed.g2.bx.psu.edu/view/devteam/vcfgeno2haplo): Convert genotype-based phased alleles into haplotype alleles Convert genotype-based phased alleles within a window size specified by -w option into haplotype alleles. Will break haplotype construction when encountering non-phased genotypes on input.
+  * [data_manager_fetch_genome_dbkeys_all_fasta](https://toolshed.g2.bx.psu.edu/view/devteam/data_manager_fetch_genome_dbkeys_all_fasta): Allows optionally defining a new DBKEY and retrieves a FASTA file and populate the all_fasta.loc data table.
   * [samtools_bedcov](https://toolshed.g2.bx.psu.edu/view/devteam/samtools_bedcov): Calculate read depth on BAM files This tool uses the SAMTools toolkit to produce read depth per BED region.
   * [vcfcommonsamples](https://toolshed.g2.bx.psu.edu/view/devteam/vcfcommonsamples): Output records belonging to samples commong between two datasets. Outputs each record in the first file, removing samples not present in the second.
   * [vcfvcfintersect](https://toolshed.g2.bx.psu.edu/view/devteam/vcfvcfintersect): Intersect two VCF datasets Computes intersections and unions for two VCF datasets. Unifies equivalent alleles within window-size bp.
   * [vcfcombine](https://toolshed.g2.bx.psu.edu/view/devteam/vcfcombine): Combine multiple VCF datasets Combines VCF files positionally, combining samples when sites and alleles are identical. Any number of VCF files may be combined. The INFO field and other columns are taken from one of the files which are combined when records in multiple files match. Alleles must have identical ordering to be combined into one record. If they do not, multiple records will be emitted.
-  * [vcfdistance](https://toolshed.g2.bx.psu.edu/view/devteam/vcfdistance): Calculate distance to the nearest variant. Adds a value to each VCF record indicating the distance to the nearest variant in the file.     The dataset used as input to this tool must be coordinate sorted. This can be achieved by either using the VCFsort utility or Galaxy's general purpose sort tool (in this case sort on the first and the second column in ascending order). 
+  * [vcfdistance](https://toolshed.g2.bx.psu.edu/view/devteam/vcfdistance): Calculate distance to the nearest variant. Adds a value to each VCF record indicating the distance to the nearest variant in the file.     The dataset used as input to this tool must be coordinate sorted. This can be achieved by either using the VCFsort utility or Galaxy's general purpose sort tool (in this case sort on the first and the second column in ascending order).
   * [vcfflatten](https://toolshed.g2.bx.psu.edu/view/devteam/vcfflatten): Removes multi-allelic sites by picking the most common alternate Removes multi-allelic sites by picking the most common alternate. Requires allele frequency specification 'AF' and use of 'G' and 'A' to specify the fields which vary according to the Allele or Genotype.
   * [vcfprimers](https://toolshed.g2.bx.psu.edu/view/devteam/vcfprimers): Extract flanking sequences for each VCF record For each VCF record, extract the flanking sequences, and write them to stdout as FASTA records suitable for alignment.  This tool is intended for use in designing validation experiments.  Primers extracted which would flank all of the alleles at multi-allelic sites.
   * [vcffilter](https://toolshed.g2.bx.psu.edu/view/devteam/vcffilter): Tool for filtering VCF files A vcflib-based tool for flexible filtering of VCF datasets on a variety of tags. This is a galaxy wrapper for vcffilter utility from vcflib package.
-  * [vcfallelicprimitives](https://toolshed.g2.bx.psu.edu/view/devteam/vcfallelicprimitives): Splits alleleic primitives (gaps or mismatches) into multiple VCF lines If multiple alleleic primitives (gaps or mismatches) are specified in a single VCF record, this tools splits the record into multiple lines, but drops all INFO fields.  "Pure" MNPs are split into multiple SNPs unless the -m flag is provided.  Genotypes are phased where complex alleles have been decomposed, provided genotypes in the input.     
+  * [vcfallelicprimitives](https://toolshed.g2.bx.psu.edu/view/devteam/vcfallelicprimitives): Splits alleleic primitives (gaps or mismatches) into multiple VCF lines If multiple alleleic primitives (gaps or mismatches) are specified in a single VCF record, this tools splits the record into multiple lines, but drops all INFO fields.  "Pure" MNPs are split into multiple SNPs unless the -m flag is provided.  Genotypes are phased where complex alleles have been decomposed, provided genotypes in the input.
   * [vcfannotate](https://toolshed.g2.bx.psu.edu/view/devteam/vcfannotate): Intersect VCF records with BED annotations Intersects the records in the VCF file with targets provided in a BED file. Intersections are done on the reference sequences in the VCF file.
 
 * *From [damion](https://toolshed.g2.bx.psu.edu/view/damion):*
@@ -676,13 +676,13 @@ Note: Starting with the May news, this list will be placed on a separate page an
      The original command line ffp-phylogeny code is at http://ffp-phylogeny.sourceforge.net/ . This tool uses Aaron Petkau's modified version: https://github.com/apetkau/ffp-3.19-custom.
 
 * *From [yokofakun](https://toolshed.g2.bx.psu.edu/view/yokofakun):*
-  * [jvarkit](https://toolshed.g2.bx.psu.edu/view/yokofakun/jvarkit): Tools from jvarkit https://github.com/lindenb/jvarkit Java utilities for Bioinformatics - Pierre Lindenbaum / @yokofakun https://github.com/lindenb/jvarkit 
+  * [jvarkit](https://toolshed.g2.bx.psu.edu/view/yokofakun/jvarkit): Tools from jvarkit https://github.com/lindenb/jvarkit Java utilities for Bioinformatics - Pierre Lindenbaum / @yokofakun https://github.com/lindenb/jvarkit
 
 * *From [kosrou](https://toolshed.g2.bx.psu.edu/view/kosrou):*
   * [ngs_plot](https://toolshed.g2.bx.psu.edu/view/kosrou/ngs_plot): ngs plot Novel tool to visualise next generation sequencing data around TSS, gene bodies etc
 
 * *From [dereeper](https://toolshed.g2.bx.psu.edu/view/dereeper):*
-  * [admixture](https://toolshed.g2.bx.psu.edu/view/dereeper/admixture): admixture: fast ancestry estimation ADMIXTURE is a software tool for maximum likelihood estimation of individual ancestries from multilocus SNP genotype datasets. It uses the same statistical model as STRUCTURE but calculates estimates much more rapidly using a fast numerical optimization algorithm. 
+  * [admixture](https://toolshed.g2.bx.psu.edu/view/dereeper/admixture): admixture: fast ancestry estimation ADMIXTURE is a software tool for maximum likelihood estimation of individual ancestries from multilocus SNP genotype datasets. It uses the same statistical model as STRUCTURE but calculates estimates much more rapidly using a fast numerical optimization algorithm.
   * [snpeff_from_gff_vcf](https://toolshed.g2.bx.psu.edu/view/dereeper/snpeff_from_gff_vcf): snpeff v4.0 from VCF, fasta reference and GFF files snpeff v4.0 from VCF, fasta reference and GFF files
   * [sniplay](https://toolshed.g2.bx.psu.edu/view/dereeper/sniplay): SNiPlay3: a package for exploration and large scale analyses of SNP polymorphisms (filtering, density, vcftools, diversity, linkagedisequilibrium, GWAS) SNiPlay3: a package for exploration and large scale analyses of SNP polymorphisms (filtering, density, vcftools, diversity, linkagedisequilibrium, GWAS)
   * [tassel5](https://toolshed.g2.bx.psu.edu/view/dereeper/tassel5): Software to evaluate traits associations, evolutionary patterns, and linkage disequilibrium. Software to evaluate traits associations, evolutionary patterns, and linkage disequilibrium.
@@ -691,7 +691,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
   * [itsx](https://toolshed.g2.bx.psu.edu/view/okorol/itsx): ITSx -- Identifies ITS sequences and extracts the ITS region ITSx is an open source software utility to extract the highly variable ITS1 and ITS2 subregions from ITS sequences, which is commonly used as a molecular barcode for e.g. fungi.
 
 * *From [iracooke](https://toolshed.g2.bx.psu.edu/view/iracooke):*
-  * [protk_proteogenomics](https://toolshed.g2.bx.psu.edu/view/iracooke/protk_proteogenomics): Docker support and update for protk 1.4 Tools for mapping peptides and proteins to genomic coordinates 
+  * [protk_proteogenomics](https://toolshed.g2.bx.psu.edu/view/iracooke/protk_proteogenomics): Docker support and update for protk 1.4 Tools for mapping peptides and proteins to genomic coordinates
 
 * *From [wolma](https://toolshed.g2.bx.psu.edu/view/wolma):*
   * [mimodd_workflows](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_workflows): Some example workflows for use with MiModD The workflows defined here let you automate much of the tutorial analyses from the MiModD documentation (see http://mimodd.readthedocs.org/en/latest/tutorial.html).  These example workflows should be easy to customize for your own needs.
@@ -701,8 +701,8 @@ Note: Starting with the May news, this list will be placed on a separate page an
 
 * *From [dereeper](https://toolshed.g2.bx.psu.edu/view/dereeper):*
   * [package_admixture_1_23](https://toolshed.g2.bx.psu.edu/view/dereeper/package_admixture_1_23): package_admixture_1_23 package_admixture_1_23
-  * [package_tassel_5_0](https://toolshed.g2.bx.psu.edu/view/dereeper/package_tassel_5_0): package to evaluate traits associations, evolutionary patterns, and linkage disequilibrium. 
-  * [package_plink_1_07](https://toolshed.g2.bx.psu.edu/view/dereeper/package_plink_1_07): package_plink_1_07 
+  * [package_tassel_5_0](https://toolshed.g2.bx.psu.edu/view/dereeper/package_tassel_5_0): package to evaluate traits associations, evolutionary patterns, and linkage disequilibrium.
+  * [package_plink_1_07](https://toolshed.g2.bx.psu.edu/view/dereeper/package_plink_1_07): package_plink_1_07
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [package_cofold_0_0_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_cofold_0_0_1): Contains a tool dependency definition that downloads and compiles CoFold. A tool for prediction of RNA secondary structure that takes co-transcriptional folding into account.
@@ -713,13 +713,13 @@ Note: Starting with the May news, this list will be placed on a separate page an
 * [package_samtools_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_samtools_1_2): Contains a tool dependency definition that downloads and installs version 1.2 of the SAMTools package.  samtools \u2212 Utilities for the Sequence Alignment/Map (SAM) format
 
      Samtools is a set of utilities that manipulate alignments in the BAM format. It imports from and exports to the SAM (Sequence Alignment/Map) format, does sorting, merging and indexing, and allows to retrieve reads in any regions swiftly.
-     
+
      Samtools is designed to work on a stream. It regards an input file \u2018-\u2019 as the standard input (stdin) and an output file \u2018-\u2019 as the standard output (stdout). Several commands can thus be combined with Unix pipes. Samtools always output warning and error messages to the standard error output (stderr).
-     
+
      Samtools is also able to open a BAM (not SAM) file on a remote FTP or HTTP server if the BAM file name starts with \u2018ftp://\u2019 or \u2018http://\u2019. Samtools checks the current working directory for the index file and will download the index upon absence. Samtools does not retrieve the entire alignment file unless it is asked to do so.
 
      Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
-* [package_gengetopt_2_22_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_gengetopt_2_22_6): Contains a tool dependency definition that downloads and compiles version 2.22.6 of GNU gengetopt Gengetopt is a tool to write command line option parsing code for C programs. 
+* [package_gengetopt_2_22_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_gengetopt_2_22_6): Contains a tool dependency definition that downloads and compiles version 2.22.6 of GNU gengetopt Gengetopt is a tool to write command line option parsing code for C programs.
 
      http://www.gnu.org/software/gengetopt/gengetopt.html <br />
      Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
@@ -739,7 +739,7 @@ Note: Starting with the May news, this list will be placed on a separate page an
 
      Repository-Maintainer: [Bjoern Gruening](/people/bjoern-gruening/)<br />
      Repository-Development: https://github.com/bgruening/galaxytools
-* [package_stringtie_1_0_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_stringtie_1_0_1): tool dependency definition. Contains a tool dependency definition that downloads and installs version 1.0.1 of the stringtie RNA-seq assembler. StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. It uses a novel network flow algorithm as well as an optional de novo assembly step to assemble and quantitate full-length transcripts representing multiple splice variants for each gene locus. Its input can include not only the alignments of raw reads used by other transcript assemblers, but also alignments longer sequences that have been assembled from those reads.To identify differentially expressed genes between experiments, StringTie's output can be processed either by the Cuffdiff or Ballgown programs. 
+* [package_stringtie_1_0_1](https://toolshed.g2.bx.psu.edu/view/iuc/package_stringtie_1_0_1): tool dependency definition. Contains a tool dependency definition that downloads and installs version 1.0.1 of the stringtie RNA-seq assembler. StringTie is a fast and highly efficient assembler of RNA-Seq alignments into potential transcripts. It uses a novel network flow algorithm as well as an optional de novo assembly step to assemble and quantitate full-length transcripts representing multiple splice variants for each gene locus. Its input can include not only the alignments of raw reads used by other transcript assemblers, but also alignments longer sequences that have been assembled from those reads.To identify differentially expressed genes between experiments, StringTie's output can be processed either by the Cuffdiff or Ballgown programs.
 
 * *From [biomonika](https://toolshed.g2.bx.psu.edu/view/biomonika):*
   * [package_samtools_0_1_19_custom](https://toolshed.g2.bx.psu.edu/view/biomonika/package_samtools_0_1_19_custom): custom compilation of samtools 0.1.19 using -fPIC flag custom compilation of samtools 0.1.19 using -fPIC flag

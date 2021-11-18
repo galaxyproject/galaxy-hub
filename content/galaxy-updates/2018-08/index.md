@@ -17,7 +17,7 @@ Welcome to the Summer 2018 *[Galactic News](/galaxy-updates/)*, a summary of wha
 * 2+ days of conference sessions with 3 keynotes, 29 accepted talks, 37 lightning talks, and 1 panel,
 * Two Poster and Demo sessions, with 88 poster and demo presentations,
 * 19 Birds-of-a-feather gatherings, and
-* 4 days of collaborative work 
+* 4 days of collaborative work
 
 Most posters and slides are now linked to from the [conference web site](https://gccbosc2018.sched.com/).  Videos of conference talks will be available within a month.
 
@@ -53,7 +53,7 @@ GCC2019 is hosted by the [Freiburg Galaxy Project](http://www.bioinf.uni-freibur
 
 ### What about BOSC?
 
-2018 was the first time GCC and BOSC held a joint conference.  There is significant overlap between the communities and we had been considering a joint event since at least 2015.  Organizers from both communities felt that GCCBOSC 2018 was a success, and that future joint meetings have even more potential for success.  Not everything went as smoothly as it could have, but we now have a year's experience and a plethora of excellent feedback and suggestions from conference participants. Both the GCC and BOSC organizers feel that we should explore doing this again. 
+2018 was the first time GCC and BOSC held a joint conference.  There is significant overlap between the communities and we had been considering a joint event since at least 2015.  Organizers from both communities felt that GCCBOSC 2018 was a success, and that future joint meetings have even more potential for success.  Not everything went as smoothly as it could have, but we now have a year's experience and a plethora of excellent feedback and suggestions from conference participants. Both the GCC and BOSC organizers feel that we should explore doing this again.
 
 On the flip side, there are also significant reasons to not *permanently* join the conferences together:  A permanently joint conference risks diluting both communities. GCC also has a different focus from ISMB (BOSC's usual conference partner), and many BOSCers (while still enthused about the GCC partnership) really hesitate to give that up.  Planning a joint conference is also more work than planning a standalone GCC.
 
@@ -66,7 +66,7 @@ Both sets of organizers, independently and simultaneously (that has to be a good
 
 This approach preserves both communities, and has the potential to further increase the synergy between the communities (which was our primary motivating goal in 2018). This also gets BOSC back to ISMB on a regular basis, and helps us avoid some logistical challenges a joint conference would pose in 2019.
 
-A joint meeting in 2020 or 2021 depends on finding a suitable venue (300+ attendees, and more parallel events is just harder) and several other stars aligning, but our aim to bring these communities back together. 
+A joint meeting in 2020 or 2021 depends on finding a suitable venue (300+ attendees, and more parallel events is just harder) and several other stars aligning, but our aim to bring these communities back together.
 
 ## GTN CoFest on Metagenomics Training Material, 17 August
 
@@ -335,12 +335,12 @@ Edvard Martins de Oliveira, Júlio Cézar Estrella, Alexandre Cláudio Botazzo D
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 266 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 98 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 59 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 40 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | 
-| 35 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 27 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 22 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 14 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | 
-| 14 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 11 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 10 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 5 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | 
-| 5 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 3 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | 
+| 266 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 98 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 59 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 40 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) |
+| 35 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 27 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 22 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 14 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) |
+| 14 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 11 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 10 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 5 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) |
+| 5 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 3 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) |
 | 1 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud) | | | | | | | | | | |
 
 ----
@@ -394,19 +394,19 @@ See the [ProteoRE pubic server directory page](/use/) for more.
 
 We tag papers that use, mention, implement or extend public Galaxy Servers.  Here are the counts for the past 3 month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 38 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 18 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 13 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 7 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | 
-| 7 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 6 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 5 | [>DeepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>DeepTools) | | 4 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu) | 
-| 3 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 3 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 3 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | 
-| 3 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid) | | 3 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/tags/>PIA) | | 2 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/tags/>ARIES) | | 2 | [>CLIMB](https://www.zotero.org/groups/1732893/galaxy/tags/>CLIMB) | 
-| 2 | [>GVL-Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Cloud) | | 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | | 2 | [>NCGAS](https://www.zotero.org/groups/1732893/galaxy/tags/>NCGAS) | | 2 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | 
-| 2 | [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org) | | 1 | [>BioMaS](https://www.zotero.org/groups/1732893/galaxy/tags/>BioMaS) | | 1 | [>BIPAA](https://www.zotero.org/groups/1732893/galaxy/tags/>BIPAA) | | 1 | [>CoSSci](https://www.zotero.org/groups/1732893/galaxy/tags/>CoSSci) | 
-| 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 1 | [>DeepVirome](https://www.zotero.org/groups/1732893/galaxy/tags/>DeepVirome) | | 1 | [>Dintor](https://www.zotero.org/groups/1732893/galaxy/tags/>Dintor) | | 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/tags/>EpiToolKit) | 
-| 1 | [>GenAP](https://www.zotero.org/groups/1732893/galaxy/tags/>GenAP) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/tags/>GIO) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 1 | [>IGGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>IGGalaxy) | 
-| 1 | [>KREAP](https://www.zotero.org/groups/1732893/galaxy/tags/>KREAP) | | 1 | [>Martin Luther](https://www.zotero.org/groups/1732893/galaxy/tags/>Martin Luther) | | 1 | [>MetaNET](https://www.zotero.org/groups/1732893/galaxy/tags/>MetaNET) | | 1 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) | 
-| 1 | [>NeLS](https://www.zotero.org/groups/1732893/galaxy/tags/>NeLS) | | 1 | [>NGS-QC](https://www.zotero.org/groups/1732893/galaxy/tags/>NGS-QC) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/tags/>Palfinder) | 
-| 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 1 | [>PL-Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>PL-Grid) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | 
+| 38 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 18 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 13 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 7 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) |
+| 7 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 6 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 5 | [>DeepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>DeepTools) | | 4 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu) |
+| 3 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 3 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 3 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) |
+| 3 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid) | | 3 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/tags/>PIA) | | 2 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/tags/>ARIES) | | 2 | [>CLIMB](https://www.zotero.org/groups/1732893/galaxy/tags/>CLIMB) |
+| 2 | [>GVL-Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Cloud) | | 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | | 2 | [>NCGAS](https://www.zotero.org/groups/1732893/galaxy/tags/>NCGAS) | | 2 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) |
+| 2 | [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org) | | 1 | [>BioMaS](https://www.zotero.org/groups/1732893/galaxy/tags/>BioMaS) | | 1 | [>BIPAA](https://www.zotero.org/groups/1732893/galaxy/tags/>BIPAA) | | 1 | [>CoSSci](https://www.zotero.org/groups/1732893/galaxy/tags/>CoSSci) |
+| 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 1 | [>DeepVirome](https://www.zotero.org/groups/1732893/galaxy/tags/>DeepVirome) | | 1 | [>Dintor](https://www.zotero.org/groups/1732893/galaxy/tags/>Dintor) | | 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/tags/>EpiToolKit) |
+| 1 | [>GenAP](https://www.zotero.org/groups/1732893/galaxy/tags/>GenAP) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/tags/>GIO) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 1 | [>IGGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>IGGalaxy) |
+| 1 | [>KREAP](https://www.zotero.org/groups/1732893/galaxy/tags/>KREAP) | | 1 | [>Martin Luther](https://www.zotero.org/groups/1732893/galaxy/tags/>Martin Luther) | | 1 | [>MetaNET](https://www.zotero.org/groups/1732893/galaxy/tags/>MetaNET) | | 1 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) |
+| 1 | [>NeLS](https://www.zotero.org/groups/1732893/galaxy/tags/>NeLS) | | 1 | [>NGS-QC](https://www.zotero.org/groups/1732893/galaxy/tags/>NGS-QC) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/tags/>Palfinder) |
+| 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 1 | [>PL-Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>PL-Grid) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) |
 | 1 | [>RNA Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA Workbench) | | 1 | [>UseGalaxy.org.au](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au) | | | | | | | |
 
 ----
@@ -491,7 +491,7 @@ Other packages released since April.
 * Build [Python Wheels](http://pythonwheels.com/) (e.g. for the [Galaxy Wheels Server](http://wheels.galaxyproject.org/))
 * Rebuild Debian or Ubuntu source packages (for modifications)
 
-These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems. Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
+These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems. Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/).
 
 The release features Python 3-compatible `setup.py` wrapping and a fix for pip 10.
 
@@ -509,7 +509,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 # Other News
 
 * From [Björn Grüning](https://twitter.com/bjoerngruening)
-  * [PathwayMatcher](https://github.com/PathwayAnalysisPlatform/PathwayMatcher/wiki) is a "multi-omics pathway mapping and proteoform network generation" biorxiv.org/content/early/… by Luis Francisco Hernandez Sanchez and colleagues. [Try it now](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/reactome_pathwaymatcher/reactome_pathwaymatcher/1.8.1.2) on [usegalaxy.eu](https://usegalaxy.eu) 
+  * [PathwayMatcher](https://github.com/PathwayAnalysisPlatform/PathwayMatcher/wiki) is a "multi-omics pathway mapping and proteoform network generation" biorxiv.org/content/early/… by Luis Francisco Hernandez Sanchez and colleagues. [Try it now](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/reactome_pathwaymatcher/reactome_pathwaymatcher/1.8.1.2) on [usegalaxy.eu](https://usegalaxy.eu)
 * [New Training Platform for Big Data Analysis](https://www.pr.uni-freiburg.de/pm-en/press-releases-2018/new-training-platform-for-big-data-analysis), press release from the University of Freiburg
   
 

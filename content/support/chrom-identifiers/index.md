@@ -5,13 +5,13 @@ title: Chromosome Identifiers in Reference Genomes (and other -omes)
 **[Back to Support Hub](/support/)**
 **[Troubleshooting Help](/support/#troubleshooting)**
 
-Methods described help to identify and correct errors or unexpected results linked to inputs having non-identical chromosome identifiers and/or different chromosome sequence content. 
+Methods described help to identify and correct errors or unexpected results linked to inputs having non-identical chromosome identifiers and/or different chromosome sequence content.
 
 **If using a Custom Reference genome**, the methods below also apply, but the first step is to make certain that the [Custom Genome is formatted correctly](/learn/custom-genomes/). Improper formating is the most common root cause of CG related errors.
 
 ## Find BAM dataset identifiers
 
-Quickly learn what the identifiers are in any **BAM** dataset that is the result from mapping. 
+Quickly learn what the identifiers are in any **BAM** dataset that is the result from mapping.
 
 Warning: This will *not* work for "sequence-only" `bam` datasets, as these usually have no header.
 
@@ -54,7 +54,7 @@ Or, the reverse may be true, Ensembl/UCSC/Other sourced reference genome and a d
 
 *Method 4*
 
-To adjust the Ensembl/Other reference annotation to match a UCSC-sourced reference genome (or another source that uses UCSC-style chromosome names), add a "chr" to the chromosome name, so that "N" becomes "chrN". Using tools from the group "Text Manipulation". Examples below. 
+To adjust the Ensembl/Other reference annotation to match a UCSC-sourced reference genome (or another source that uses UCSC-style chromosome names), add a "chr" to the chromosome name, so that "N" becomes "chrN". Using tools from the group "Text Manipulation". Examples below.
 
 For **[bed](/learn/datatypes/#bed)** data:
 
@@ -82,8 +82,8 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 
 **Sequence content is a match but adding "chr" is not enough to obtain an exact identifier match. You want to try to fix the identifiers anyway!!**
 
-1. If the data is in a tabular format (BED, Interval, GTF -- with any headers removed first), and a suitable identifier mapping file can be obtained or created, the tool *Replace column by values which are defined in a convert file* can be used. Note that this will NOT work with BAM, VCF, Wiggle or other structured formats, as these are not tabular formatted data. 
-1. Manipuations with tools can often be used to split up a dataset, perform text substitutions and additions, concatinate datasets, and most other common operations one could do with command-line shell tools. 
+1. If the data is in a tabular format (BED, Interval, GTF -- with any headers removed first), and a suitable identifier mapping file can be obtained or created, the tool *Replace column by values which are defined in a convert file* can be used. Note that this will NOT work with BAM, VCF, Wiggle or other structured formats, as these are not tabular formatted data.
+1. Manipuations with tools can often be used to split up a dataset, perform text substitutions and additions, concatinate datasets, and most other common operations one could do with command-line shell tools.
 1. The dataset could also be downloaded locally to your computer and manipulated there using command-line tools or the text editor of choice.
 
 *Method 6*
@@ -92,7 +92,7 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 
 1. Obtain a reference annotation dataset that is a match for the reference genome used
 1. Sometimes the source is the same for both
-1. Sometimes the source is the same, but the content of the reference annotation is not ideal for the tools used 
+1. Sometimes the source is the same, but the content of the reference annotation is not ideal for the tools used
     - Example: The tool Cuffdiff makes use of specific attributes in the reference annotation (p_id, tss_id, gene_name). If these attributes are not present in the GTF dataset, the resuls will not be fully annotated and some calculations will be skipped
     - Use the iGenomes version of the reference annotation, as described below
     - Using Cuffdiff and the Gene ID is not present? Check your GTF file - the attribute gene_name is probably missing
@@ -122,12 +122,12 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 
 ## A Note on Built-in Reference Genomes
 
-The default variant for all genomes is "Full", defined as all primary chromosomes (or scaffolds/contigs) including mitochondrial plus associated unmapped, plasmid, and other segments. 
+The default variant for all genomes is "Full", defined as all primary chromosomes (or scaffolds/contigs) including mitochondrial plus associated unmapped, plasmid, and other segments.
 
-When only one version of a genome is available for a tool, it represents the default "Full" variant. 
+When only one version of a genome is available for a tool, it represents the default "Full" variant.
 
-Some genomes will have more than one variant available. 
+Some genomes will have more than one variant available.
 
- - The "Canonical Male" or sometimes simply "Canonical" variant contains the primary chromosomes for a genome. For example a human "Canonical" variant contains chr1-chr22, chrX, chrY, and chrM. 
+ - The "Canonical Male" or sometimes simply "Canonical" variant contains the primary chromosomes for a genome. For example a human "Canonical" variant contains chr1-chr22, chrX, chrY, and chrM.
  - The "Canonical Female" variant contains the primary chromosomes excluding chrY.
 

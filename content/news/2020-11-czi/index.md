@@ -38,4 +38,4 @@ and contributions from the Galaxy community. The software development in this
 project will help solidify the Kubernetes-based version of Galaxy as a
 full-featured, robust solution  for deploying  a production-quality, scalable
 version of Galaxy on any computing platform, from laptop to computing cluster
-to a commercial computing cloud. 
+to a commercial computing cloud.

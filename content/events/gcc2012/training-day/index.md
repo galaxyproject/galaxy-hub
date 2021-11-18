@@ -110,7 +110,7 @@ See the [Virtual Machine page](/events/gcc2012/training-day/vms/) for instructio
 | **Content** | New to Galaxy? This will introduce you to the Galaxy Project, the Galaxy Community, and walk you through a simple use case demonstrating what Galaxy can do. |
 | **Prerequisites** | Little or no knowledge of Galaxy. |
 | **Results** | You'll know what Galaxy can do, the basics of how to use it, and have an understanding of the project. |
-| **Links** | • [Video Part 1](https://uic.sharestream.net/ssdcms/i.do?u=97f1f9de55e744c), [Video Part 2](https://uic.sharestream.net/ssdcms/i.do?u=615bbe126ab443a) | 
+| **Links** | • [Video Part 1](https://uic.sharestream.net/ssdcms/i.do?u=97f1f9de55e744c), [Video Part 2](https://uic.sharestream.net/ssdcms/i.do?u=615bbe126ab443a) |
 
 This workshop is supported by an AWS in Education teaching grant award.
 
@@ -121,7 +121,7 @@ This workshop is supported by an AWS in Education teaching grant award.
 | :----: | ---- |
 | **Instructors** | Enis Afgan, Ruđer Bošković Institute (RBI) and Dannon Baker, Emory University |
 | **Content** | Want the power of Galaxy without the compute infrastructure overhead? Need to run compute-intensive analysis, but only from time to time? Learn how to set up your own elastic, and fully populated (tools and reference data) Galaxy instance using Amazon Web Services. |
-| **Prerequisites** | Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop. | 
+| **Prerequisites** | Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop. |
 | **Results** |You will have created a Galaxy server on Amazon Web Services using CloudMan. You will access to this server if you wish to use it during subsequent workshops. |
 | **Links** | • [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/WS3_CloudMan.pdf) <br /> • [Video part 1](https://uic.sharestream.net/ssdcms/i.do?u=1e6ae700ffcf412), [part 2](https://uic.sharestream.net/ssdcms/i.do?u=62bf7e915df84f4) |
 

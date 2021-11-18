@@ -149,7 +149,7 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 
     ![GTN Star, transparent, with G](/images/galaxy-logos/GTNStarGTrans300.png)
 -->
-    
+
 * Star, with Galaxy Logo, white background
   * [300x299 pixels](/images/galaxy-logos/GTNStarBars300.png), [1000x998 pixels](/images/galaxy-logos/GTNStarBars1000.png), [4355x4345 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBarsHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBars.xcf)
 

@@ -14,7 +14,7 @@ title: Galaxy End Users
 * Mo Heydarian
 * Karen Reddy
 
- * 
+ *
 * [Anton](/people/anton/), [Dan](/people/dan/), Rémi, and [Jen](/people/jennifer-jackson/) from [Galaxy Team](/galaxy-team/)
 
 # Notes
@@ -36,7 +36,7 @@ These are a merged grouping of [Anton's](/people/anton/), [Dan's](/people/dan/),
   * to quickly access an instance with tools/reference data set-up and ready to go
   * for storage (S3)
 * General Comments
-  * The 'Big Plus' for end users: Amazon allows Galaxy to be used in highly controlled IT environments. 
+  * The 'Big Plus' for end users: Amazon allows Galaxy to be used in highly controlled IT environments.
   * "Galaxy better than commercial software" (the [Galaxy Team](/galaxy-team/) says "thank-you"!!)
   * Trackster/Sweepster amazed everyone (shout-out to Jeremy!)
   * New end user community to be aware of: Mass spec
@@ -93,7 +93,7 @@ These are a merged grouping of [Anton's](/people/anton/), [Dan's](/people/dan/),
 * See **ACTION** items inline above
 * Others to be added
 
- * 
+ *
 
 # Solutions
 

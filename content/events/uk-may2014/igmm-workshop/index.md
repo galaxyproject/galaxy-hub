@@ -89,7 +89,7 @@ This workshop is part of the [May 2014 Galaxy UK Tour](/events/uk-may2014/), whi
 
 ## Slides
 
-* [Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405HGMM_Workshop.pdf)   
+* [Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405HGMM_Workshop.pdf)
 
 ## Questions?
 

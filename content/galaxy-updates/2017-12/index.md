@@ -21,7 +21,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 * Python room, Blindern, UiO campus, [Ole Johan Dahls hus](https://www.uio.no/english/about/getting-around/areas/gaustad/ga06/
 ), Gaustadalléen 23B, Oslo, 0373, Norway
 
-Although located in Europe, and named to reflect this, the workshop is definitely **open to a world-wide audience.** The workshop is a result of the collaboration between the [ELIXIR Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg) and the Galaxy Project, and so far known, this is the only Galaxy Admin workshop planned for 2018. 
+Although located in Europe, and named to reflect this, the workshop is definitely **open to a world-wide audience.** The workshop is a result of the collaboration between the [ELIXIR Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg) and the Galaxy Project, and so far known, this is the only Galaxy Admin workshop planned for 2018.
 
 *Participants are to cover their own travel and accommodation, while the workshop participation is free of charge.*
 
@@ -41,8 +41,8 @@ The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held 
 
 [GMOD](https://gmod.org/) (of which Galaxy is a part) has a bunch of things going on at PAG that are of interest to the Galaxy Community:
 
-* GMOD will have a [project-wide hackathon on January 11-12](http://gmod.org/wiki/2018_PAG_Hackathon). 
-* [Meg Staton](http://gst.tennessee.edu/people/meg-staton/) will [speak about](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28295) the Tripal-Galaxy bridge 
+* GMOD will have a [project-wide hackathon on January 11-12](http://gmod.org/wiki/2018_PAG_Hackathon).
+* [Meg Staton](http://gst.tennessee.edu/people/meg-staton/) will [speak about](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28295) the Tripal-Galaxy bridge
 * There will be a [GMOD workshop](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806) on the last day of PAG.
 * The [Tripal Project](https://tripal.info) will have a user meeting on January 11, and a hackathon on January 12. [Register here](https://docs.google.com/document/d/1klQwUqaT_KxPKIfGYy_3rtGnOMVhJxEoD9dZ4PGc4yg/edit).
 
@@ -59,9 +59,9 @@ If you are at [Cal State San Marcos](https://csusm.edu/), or anywhere nearby, th
 [<img class="float-left" src="/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
 
 The [Jackson Lab (JAX)](https://www.jax.org/) is pleased to open the application period for the 2018 Big Genomics Data Skills Training course, funded by the NIH BD2K initiative: [Big Genomic Skills Training info and online application](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors). The program provides training and hands-on experience working with genomic scale data and will enable participants to integrate genomic data analysis into their courses or launch new courses. Topics covered include RNAseq, Whole Exome Sequencing and variant detection, ChIPseq and network analysis. Participants will gain experience using Galaxy, R and Python.
- 
+
 As a grant funded activity housing is included; however you will need to cover your own travel.  If you teach at an HBCU or Minority-serving institution (by Dept. of Education criteria) JAX may be able to provide a modest travel award.
- 
+
 *The course is for faculty who primarily teach undergraduate students* and will be held at JAX Genomic Medicine in Farmington CT, May 21-25.
 
 # All Upcoming events
@@ -176,7 +176,7 @@ We've got two new *[Galactic Blog](/blog/)* entries:
 * [Setup your own instance of the Galaxy Bioinformatics platform on DigitalOcean](https://vimal.io/setup-your-own-galaxy-bioinformatics-instance-on-digitalocean/), by [Vimalkumar Velayudhan](https://vimal.io/)
 * [Galaxy Docker 17.09](/blog/2017-11-galaxy-docker-17-09/), by [Björn Grüning](/people/bjoern-gruening/)
 
-The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.) 
+The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.)
 
 ## The Galactic Blog needs you!
 
@@ -204,11 +204,11 @@ The *Galactic* and *Stellar* publications added in October were:
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 83 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 29 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 28 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | 
-| 12 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 8 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 6 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | 
-| 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 3 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | 
+| 83 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 29 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 28 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) |
+| 12 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 8 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 6 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) |
+| 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 3 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) |
 | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | | | | | | |
 
 ----
@@ -241,10 +241,10 @@ And it's available on the [MiModD NacreousMap](http://mapping-by-sequencing.vm.u
 
 As part of the move to Zotero, we have started tagging papers that use, mention, implement or extend public Galaxy Servers with the server name.  Here are the counts for November's papers.
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 15 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 5 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 2 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | 
-| 2 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>AGEseq](https://www.zotero.org/groups/1732893/galaxy/tags/>AGEseq) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | 
+| 15 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 5 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 2 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) |
+| 2 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>AGEseq](https://www.zotero.org/groups/1732893/galaxy/tags/>AGEseq) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) |
 | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/tags/>GIO) | | | | | | | | | | |
 
 
@@ -270,7 +270,7 @@ The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/sou
 
 Highlights include
 
-* **Singularity** Tool execution using the HPC-friendly container technology Singularity is now supported. 
+* **Singularity** Tool execution using the HPC-friendly container technology Singularity is now supported.
 * **Download entire collection** Downloading whole collections is now possible from the history interface. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
 * **Switch tool versions in workflows** You can now select exactly what version of tool you want to use when building workflows. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
 * **Security patches**
@@ -289,7 +289,7 @@ The [Galaxy Docker project has seen a matching release](https://github.com/bgrue
 
 And
 
-* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 31k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
+* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 31k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
 
 ## galaxy-lib 17.9.10
 

@@ -11,8 +11,8 @@ date: "2020-07-01"
 * **[BCC2020](#bcc2020-starts-july-17) starts July 17**
   * **Early registration ends July 10**
   * **All registration ends July 15**
-  * BoF proposals due July 10 
-  * Fellowships due July 5 
+  * BoF proposals due July 10
+  * Fellowships due July 5
   * Full training, talk, and poster/demo schedules are online
 * [Galaxy and the NCBI Sequence Read Archive (SRA)](#galaxy-and-the-ncbi-sequence-read-archive-sra)
 * [Upcoming events](#more-upcoming-events)

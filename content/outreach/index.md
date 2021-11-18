@@ -36,7 +36,7 @@ The [Galaxy logos page](/images/galaxy-logos/) contains currently available Gala
 
 Experienced Galaxy speakers are available to give presentations and workshops at your institution or event. These sessions can range from introductory or overview talks to workshops covering specific analyses or research topics. In terms of style, presentations can take the form of short talks, workshops with multiple speakers, or even highly interactive and hands-on tutorials. Check out the [Galactic Events](/events/) page for a list of recent and upcoming events.
 
-Please contact outreach@galaxyproject.org if you are interested in arranging a presentation or workshop at your institution or event. 
+Please contact outreach@galaxyproject.org if you are interested in arranging a presentation or workshop at your institution or event.
 
 ![AWSlogo](/images/logos/AWSLogo.png)
 
@@ -52,7 +52,7 @@ If you are organizing or presenting at an event with significant Galaxy-related 
 
 We are also happy to create a wiki page and a flier for the event to highlight the Galaxy content.
 
-Please contact outreach@galaxyproject.org if you would like to use this service. 
+Please contact outreach@galaxyproject.org if you would like to use this service.
 
 ## Bling
 

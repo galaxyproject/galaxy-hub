@@ -12,7 +12,7 @@ title: The October 2015 Galactic News!
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the October 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the October News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+Welcome to the October 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the October News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 # New Papers
 
@@ -98,7 +98,7 @@ The new papers were tagged with:
 </div>
 
 The [next GalaxyAdmins meetup on October 15](/community/galaxy-admins/meetups/2015-10-15/) will feature [David Kovalic](https://www.linkedin.com/in/davidkovalic) speaking on *Galaxy at [Analome](http://analome.com/) – Outreach, Opportunity and Challenges*:
- At Analome Galaxy has found another home and we like it for numerous reasons. In this talk we will present the multifaceted role Galaxy plays at Analome and how it supports ongoing bioinformatics projects while at the same time providing opportunities for social good. 
+ At Analome Galaxy has found another home and we like it for numerous reasons. In this talk we will present the multifaceted role Galaxy plays at Analome and how it supports ongoing bioinformatics projects while at the same time providing opportunities for social good.
 
 [GalaxyAdmins](/community/galaxy-admins/) is a special interest group for Galaxy community members who are responsible for Galaxy installations.  
 
@@ -118,10 +118,10 @@ Hope to see you there.
 
 ## GCC2016 Call for Training Topic Nominations
 
-The [2016 Galaxy Community Conference (GCC2016)](/events/gcc2016/) features two full days of training on June 26-27.  Each 
+The [2016 Galaxy Community Conference (GCC2016)](/events/gcc2016/) features two full days of training on June 26-27.  Each
 day will have multiple tracks, with each track featuring several sessions throughout the day.  GCC2016 will be held at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States.
 
-**GCC2016 Training topics are [nominated by you](http://bit.ly/gcc2016tdnom), the Galaxy Community.** Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](http://bit.ly/gcc2016tdnom).  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see 
+**GCC2016 Training topics are [nominated by you](http://bit.ly/gcc2016tdnom), the Galaxy Community.** Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](http://bit.ly/gcc2016tdnom).  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see
 
 * [Topics nominated for GCC2015](http://bit.ly/gcc2015vote)
 * [Topics nominated for GCC2014](http://bit.ly/1s6NtMN)
@@ -186,7 +186,7 @@ See the [full report](/news/iuc-collections-codefest/) details.
 
 There are [upcoming events](/events/) in 4 countries on 4 continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
-<div class='center'> 
+<div class='center'>
 <a href='https://cnrsformation.cnrs.fr/stage.php?stage=15274&axe=77'><img src="/images/logos/CGFB_bioinformatics.png" alt="Analyse avancée de séquences" height="80" /></a>
 <a href='/community/galaxy-admins/meetups/2015-10-15/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="October Galaxy Admins Meetup" height="70" /></a>
 <a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-4/'><img src="/images/logos/QFABLogo.png" alt="Workshop: Extended RNA-Seq analysis" height="80" /></a>
@@ -298,9 +298,9 @@ There are [upcoming events](/events/) in 4 countries on 4 continents.  See the [
 
 The Galaxy is expanding! Please help it grow.
 
-* [Support engineer for Galaxy at the CIB in the Institut Pasteur](https://c3bi.pasteur.fr/cib-team-cdd-job-application/), Paris, France 
+* [Support engineer for Galaxy at the CIB in the Institut Pasteur](https://c3bi.pasteur.fr/cib-team-cdd-job-application/), Paris, France
 
-* [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
+* [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -320,18 +320,18 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 * *Link:*
   * [ABiMS Tools Server](http://webtools.sb-roscoff.fr/)
 * *Domain/purpose:*
-  * "Hosts tools/resources developed at the [Station Biologique de Roscoff](http://www.sb-roscoff.fr/) in collaboration with [ABiMS](http://abims.sb-roscoff.fr/)." 
+  * "Hosts tools/resources developed at the [Station Biologique de Roscoff](http://www.sb-roscoff.fr/) in collaboration with [ABiMS](http://abims.sb-roscoff.fr/)."
 * *Comments:*
   * Available tools:
     * [MicRhoDE workflow](http://application.sb-roscoff.fr/micrhode): places query sequences into MicRhoDE tree (type-1 rhodopsin phylogeny).
     * [Renkan Blast](http://renkan.sb-roscoff.fr/): blast query sequences on 18S and 28S radiolaria databases (blastn).
     * [WiseScaffolder](http://abims.sb-roscoff.fr/wisescaffolder): genome scaffolding of pre-assembled contigs using mate-pair data.
     * [HECTAR](http://www.sb-roscoff.fr/hectar/): HEterokont subCellular TARgeting is a statistical prediction method designed to assign proteins to five different categories of subcellular targeting: Signal peptides, type II signal anchors, chloroplast transit peptides, mitochondrion transit peptides and proteins which do not possess any N-terminal target peptide.
-* *User support*: 
+* *User support*:
   * For any question or request for tools or account, send an email at [ABiMS Support](mailto:support.abims@sb-roscoff.fr)
 * *Sponsor(s):*
   * [ABiMS](http://abims.sb-roscoff.fr/)
-  * [Station Biologique de Roscoff](http://www.sb-roscoff.fr/) 
+  * [Station Biologique de Roscoff](http://www.sb-roscoff.fr/)
 
 <br />
 
@@ -388,7 +388,7 @@ Thanks to everyone who helped put these together.
 ## July 2015 Galaxy Release (v 15.07)
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+
 **The July 2015 Galaxy Release is out!**
 **[Release Notes v 15.07](http://galaxy.readthedocs.org/en/master/releases/15.07_announce.html)**
 
@@ -410,9 +410,9 @@ This is the most complete update of the Galaxy on the Cloud platform to date wit
 * *Galaxy on the Cloud*: switched to a different Cloud Launch application, available at https://launch.usegalaxy.org/
 * *Galaxy on the Cloud*: Integrated Galaxy IPython Interactive Environments
 * CloudMan: Creating cluster shares is now fast (~30 seconds vs. hours)
-* Created a wealth of new documentation, including [a description of the all new automated method for building private/custom instances](/cloudman/building/). 
+* Created a wealth of new documentation, including [a description of the all new automated method for building private/custom instances](/cloudman/building/).
 
-See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes or just give it a try: see the all new [Getting Started](/cloudman/getting-started/) documentation. 
+See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes or just give it a try: see the all new [Getting Started](/cloudman/getting-started/) documentation.
 
 ## Security Advisories
 
@@ -436,7 +436,7 @@ Three security vulnerabilities were announced and patched in August.  The Galaxy
 
  **Pulsar**
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
- 
+
  **[CloudMan](/cloudman/) **
    The [most recent edition of CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release) was released in August.
 
@@ -485,18 +485,18 @@ See [list of tools contributed in September](/toolshed/contributions/2015-09/).
 * From [Brian Nosek](https://twitter.com/BrianNosek) and many others:
     Center for Open Science gives grant to [Titus Brown](https://twitter.com/ctitusbrown) and team to connect Galaxy Project and the [Open Science Framework](https://osf.io/). See the [full announcement](http://cos.io/pr/2015-09-24/).
 * From [Globus](https://www.globus.org/genomics):
-    Love (or like!) Globus? Vote for us in the [HPCWire Readers' Choice Awards](http://www.hpcwire.com/2015-hpcwire-readers-choice-awards/) (#16 - Best Data-Intensive System) 
+    Love (or like!) Globus? Vote for us in the [HPCWire Readers' Choice Awards](http://www.hpcwire.com/2015-hpcwire-readers-choice-awards/) (#16 - Best Data-Intensive System)
 * From [Björn Grüning](/people/bjoern-gruening/):
     Brand new [Galaxy Interactive Environment documentation](/admin/gies/): Enterprise Deployments, Docker on a different host...
 * From [Keywan Hassani-Pak](https://twitter.com/KeywanHP):
-    We encountered [a big problem using bwa-eXpress in Galaxy](https://github.com/Rothamsted/AppliedBioinformatics/wiki/Transcript-abundance-estimation-in-Galaxy) for transcript abundance estimation! 
+    We encountered [a big problem using bwa-eXpress in Galaxy](https://github.com/Rothamsted/AppliedBioinformatics/wiki/Transcript-abundance-estimation-in-Galaxy) for transcript abundance estimation!
 * From [Saket Choudhary](https://twitter.com/saketkc):
     [GalDrive: Pipeline for comparative identification of driver mutations using Galaxy framework](http://bit.ly/GalDrive)
 * From [Keith Bradnam](https://twitter.com/ACGT_blog)
-    Slides from a short talk: 
+    Slides from a short talk:
       [13 questions you may have about using Galaxy](http://buff.ly/1QhSwk1)
 * From Markus Wolfien
-    [TRAPLINE: A standardized and automated pipeline for RNA sequencing data analysis and evaluation](https://usegalaxy.org/u/mwolfien/p/trapline---manual) 
+    [TRAPLINE: A standardized and automated pipeline for RNA sequencing data analysis and evaluation](https://usegalaxy.org/u/mwolfien/p/trapline---manual)
 * From [GigaScience](https://twitter.com/GigaScience)
     Supporting Galaxy BLAST+ wrappers, archived at the point of publication hosted in GigaDB [dx.doi.org/10.5524/100149](http://gigadb.org/dataset/100149)
 * From [Björn Grüning](/people/bjoern-gruening/):

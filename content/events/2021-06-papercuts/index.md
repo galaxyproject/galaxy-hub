@@ -32,7 +32,7 @@ We know a cofest can be a bit intimidating for newcomers so this year we created
 
 This will be a 24h event, spanning all time zones with our worldwide community. We'll start at 09:00 Melbourne time, and end at 16:00 Portland time.
 
-##  Interested in CoFest Prep Day? 
+##  Interested in CoFest Prep Day?
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">

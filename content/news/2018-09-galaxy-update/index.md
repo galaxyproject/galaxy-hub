@@ -18,7 +18,7 @@ The *September  2018 Galactic News* is here!  This is a summary of what is going
   * [Public Galaxy Server News](#public-galaxy-server-news): epiGeEC and MetaCentrum
   * [ToolShed contributions](#toolshed-contributions)
   * [Hub and Documentation updates](#hub-and-doc-updates)
-  * [CloudBridge v1](https://galaxyproject.org/news/2018-09-cloudbridge-v1-release/) has been released! 
+  * [CloudBridge v1](https://galaxyproject.org/news/2018-09-cloudbridge-v1-release/) has been released!
   * [Releases](#releases)
 * And [other news](#other-news) too
 
@@ -206,11 +206,11 @@ Four *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)*
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 41 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 17 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 13 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 13 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | 
-| 5 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 5 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 4 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | 
-| 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 2 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | 
+| 41 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 17 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 13 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 13 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) |
+| 5 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 5 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 4 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) |
+| 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 2 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) |
 
 ----
 
@@ -265,12 +265,12 @@ See the [Metacentrum directory entry](/use/metacentrum/) for more.
 
 We tag papers that use, mention, implement or extend public Galaxy Servers.  Here are the counts for the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 3 | [>Ballaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>Ballaxy) | | 3 | [>DBCLS](https://www.zotero.org/groups/1732893/galaxy/tags/>DBCLS) | 
-| 3 | [>GrAPPA](https://www.zotero.org/groups/1732893/galaxy/tags/>GrAPPA) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>epiGeEC](https://www.zotero.org/groups/1732893/galaxy/tags/>epiGeEC) | 
-| 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/tags/>EpiToolKit) | | 1 | [>GenAP](https://www.zotero.org/groups/1732893/galaxy/tags/>GenAP) | | 1 | [>GVL-Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Cloud) | | 1 | [>IAPTK](https://www.zotero.org/groups/1732893/galaxy/tags/>IAPTK) | 
-| 1 | [>Kmer-SVM](https://www.zotero.org/groups/1732893/galaxy/tags/>Kmer-SVM) | | 1 | [>MetaCentrum](https://www.zotero.org/groups/1732893/galaxy/tags/>MetaCentrum) | | 1 | [>Oqtans](https://www.zotero.org/groups/1732893/galaxy/tags/>Oqtans) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | 
+| 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 3 | [>Ballaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>Ballaxy) | | 3 | [>DBCLS](https://www.zotero.org/groups/1732893/galaxy/tags/>DBCLS) |
+| 3 | [>GrAPPA](https://www.zotero.org/groups/1732893/galaxy/tags/>GrAPPA) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>epiGeEC](https://www.zotero.org/groups/1732893/galaxy/tags/>epiGeEC) |
+| 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/tags/>EpiToolKit) | | 1 | [>GenAP](https://www.zotero.org/groups/1732893/galaxy/tags/>GenAP) | | 1 | [>GVL-Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Cloud) | | 1 | [>IAPTK](https://www.zotero.org/groups/1732893/galaxy/tags/>IAPTK) |
+| 1 | [>Kmer-SVM](https://www.zotero.org/groups/1732893/galaxy/tags/>Kmer-SVM) | | 1 | [>MetaCentrum](https://www.zotero.org/groups/1732893/galaxy/tags/>MetaCentrum) | | 1 | [>Oqtans](https://www.zotero.org/groups/1732893/galaxy/tags/>Oqtans) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) |
 | 1 | [>Pitagora](https://www.zotero.org/groups/1732893/galaxy/tags/>Pitagora) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | | | |
 
 ----
@@ -299,7 +299,7 @@ New additions to the Galaxy Community.
 
 # CloudBridge
 
-[CloudBridge v1](https://galaxyproject.org/news/2018-09-cloudbridge-v1-release/) has been released! 
+[CloudBridge v1](https://galaxyproject.org/news/2018-09-cloudbridge-v1-release/) has been released!
 
 * One interface to major Infrastructure-as-a-Service (IaaS) cloud providers
 * CloudBridge v1 supports Amazon Web Service (AWS), Microsoft Azure, and OpenStack clouds

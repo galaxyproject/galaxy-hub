@@ -73,7 +73,7 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 
 1. *Phyloviz*: Saving as visualization corrected. https://trello.com/c/dzBmbyqF
 1. *Scatterplot*: Improvements to large data loading. https://trello.com/c/8or6FdE2
-1. *Trackster*: 
+1. *Trackster*:
   * Standalone web application(s) for visualizations. https://trello.com/c/i0yW8IgQ
   * Correct issue where attempting to set a custom build that has not finished processing resulted in unrecoverable infinite recursion. https://trello.com/c/AWyQSQ8F
   * CSS styling improvements include:
@@ -274,7 +274,7 @@ Also see above: [New Tool Migrations](/archive/dev-news-briefs/2014-02-10/#new-t
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the **[Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/)** at **[Penn State](http://www.psu.edu/)**, and the **[Department of Biology](http://www.bio.jhu.edu/)** at **[Johns Hopkinis University](http://www.jhu.edu/)**. 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the **[Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/)** at **[Penn State](http://www.psu.edu/)**, and the **[Department of Biology](http://www.bio.jhu.edu/)** at **[Johns Hopkinis University](http://www.jhu.edu/)**.
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by **[NSF](http://www.nsf.gov/)**, **[NHGRI](http://www.genome.gov/)**, the **[Huck Institutes of the Life Sciences](http://www.huck.psu.edu/)**, and **[The Institute for CyberScience at Penn State](http://www.ics.psu.edu/)**, and **[Johns Hopkins University](http://www.jhu.edu/)**.
 

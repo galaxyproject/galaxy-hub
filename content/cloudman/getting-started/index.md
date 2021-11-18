@@ -117,7 +117,7 @@ After the cluster has started, we can access it by clicking the provided URL.
 Log in with username *admin* and the password you
 chose during the launch process. It may take a few more minutes to start Galaxy
 after the interface becomes available but clicking on the link under _Access Address_
-will lead you to Galaxy. 
+will lead you to Galaxy.
 
 ----
 

@@ -55,7 +55,7 @@ Those included:
 * Security and Billing
   * Galaxy is not designed with security in mind from the ground up.
   * Authentication needs to be more pluggable.
-  * Galaxy lacks the reporting feature on cpu hours which is sometimes very useful for funding agency. 
+  * Galaxy lacks the reporting feature on cpu hours which is sometimes very useful for funding agency.
   * "We're just in accounting hell at the moment"
 * Releases  
   * Every two months is too often for releases
@@ -64,7 +64,7 @@ Those included:
 * Adding an optional phone home feature to install script is going for sustainability of the project.  Being able to say who uses it is a good way to keep being funded.
 * Tool shed is *currently* making things more complicated.
 * Dataset profiligation.  Can easily end up with 3 copies of most of your datasets, just to get files into Galaxy.
-* maintaining a public Galaxy server well requires minimal 0.5 fte. 
+* maintaining a public Galaxy server well requires minimal 0.5 fte.
 
 ## Questions?
 

@@ -73,7 +73,7 @@ Advanced HPC is pleased to be the first ever **[GCCBOSC Icebreaker](/events/gccb
 
 [<img class="float-right" src="/images/logos/ElixirNoTextLogo.png" width="140" />](http://www.earlham.ac.uk/elixir-workshop-galaxy-training-material-and-skills-improvement)
 
-Education and training is an integral part of the Galaxy community. The Galaxy Training Network (GTN) has been working for several years with [GOBLET](http://www.mygoblet.org/) and the [ELIXIR Training Platform](https://www.elixir-europe.org/platforms/training) to create material and deliver training for scientists, developers and system administrators. A selection of 72 tutorials, developed by more than 60 contributors, is [already available](http://training.galaxyproject.org). 
+Education and training is an integral part of the Galaxy community. The Galaxy Training Network (GTN) has been working for several years with [GOBLET](http://www.mygoblet.org/) and the [ELIXIR Training Platform](https://www.elixir-europe.org/platforms/training) to create material and deliver training for scientists, developers and system administrators. A selection of 72 tutorials, developed by more than 60 contributors, is [already available](http://training.galaxyproject.org).
 In this workshop, we intend to improve the participants’ understanding of learning principles, training techniques and best practices for materials preparation. **We will then work together to expand the existing collection of Galaxy training materials by covering more topics relevant to the ELIXIR use cases, add missing annotation and metadata and make the materials easily accessible.**
 
 The workshop will start with a 1-day "Train the Trainer" course, similar to the Carpentries' [Instructor Training](https://carpentries.github.io/instructor-training/) and the [ELIXIR-EXCELERATE Train the Trainer](https://github.com/TrainTheTrainer/EXCELERATE-TtT). Here Galaxy trainers will develop an insight into different learning styles, understand what makes a good trainer, and learn new approaches to training from experienced trainers. This course will help them to better contribute and shape the materials during the hackathon.
@@ -249,18 +249,18 @@ These and [other Galaxy related events](/events/)  coming up in the next few mon
 April added three *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications:
 
 * [IRProfiler – a software toolbox for high throughput immune receptor profiling](https://doi.org/10.1186/s12859-018-2144-z), Christos Maramis, Athanasios Gkoufas, Anna Vardi, Evangelia Stalika, Kostas Stamatopoulos, Anastasia Hatzidimitriou, Nicos Maglaveras and Ioanna Chouvarda. *BMC Bioinformatics* (2018) 19:144, doi:10.1186/s12859-018-2144-z
-* [SECIMTools: a suite of metabolomics data analysis tools](https://doi.org/10.1186/s12859-018-2134-1), 
+* [SECIMTools: a suite of metabolomics data analysis tools](https://doi.org/10.1186/s12859-018-2134-1),
 Alexander S. Kirpich, Miguel Ibarra, Oleksandr Moskalenko, Justin M. Fear, Joseph Gerken, Xinlei Mi, Ali Ashrafi, Alison M. Morse and Lauren M. McIntyre. *BMC Bioinformatics* (2018) 19:151, doi:10.1186/s12859-018-2134-1
 * [Notos - a galaxy tool to analyze CpN observed expected ratios for inferring DNA methylation types](https://doi.org/10.1186/s12859-018-2115-4), Ingo Bulla, Benoît Aliaga, Virginia Lacal, Jan Bulla, Christoph Grunau and Cristian Chaparro, *BMC Bioinformatics* (2018) 19:105, doi:10.1186/s12859-018-2115-4
 
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 79 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 29 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 17 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 16 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | 
-| 11 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 9 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 7 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 5 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | 
-| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | 
+| 79 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 29 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 17 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 16 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) |
+| 11 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 9 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 7 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 5 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) |
+| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) |
 | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | | | | | | | | | |
 
 
@@ -303,12 +303,12 @@ IRProfiler is supported by the [Lab of Computing, Medical Informatics & Biomedic
 
 We tag papers that use, mention, implement or extend public Galaxy Servers.  Here are the counts for March's publications.
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 13 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 8 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | 
-| 2 | [>PRABI](https://www.zotero.org/groups/1732893/galaxy/tags/>PRABI) | | 1 | [>NCGAS](https://www.zotero.org/groups/1732893/galaxy/tags/>NCGAS) | | 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | | 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/tags/>EpiToolKit) | 
-| 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>NGS-QC](https://www.zotero.org/groups/1732893/galaxy/tags/>NGS-QC) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 1 | [>PlantGenie](https://www.zotero.org/groups/1732893/galaxy/tags/>PlantGenie) | 
-| 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>IRProfiler](https://www.zotero.org/groups/1732893/galaxy/tags/>IRProfiler) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | 
+| 13 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 8 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) |
+| 2 | [>PRABI](https://www.zotero.org/groups/1732893/galaxy/tags/>PRABI) | | 1 | [>NCGAS](https://www.zotero.org/groups/1732893/galaxy/tags/>NCGAS) | | 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | | 1 | [>EpiToolKit](https://www.zotero.org/groups/1732893/galaxy/tags/>EpiToolKit) |
+| 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>NGS-QC](https://www.zotero.org/groups/1732893/galaxy/tags/>NGS-QC) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 1 | [>PlantGenie](https://www.zotero.org/groups/1732893/galaxy/tags/>PlantGenie) |
+| 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>IRProfiler](https://www.zotero.org/groups/1732893/galaxy/tags/>IRProfiler) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) |
 | 1 | [>Jetstream](https://www.zotero.org/groups/1732893/galaxy/tags/>Jetstream) | | 1 | [>Alveo](https://www.zotero.org/groups/1732893/galaxy/tags/>Alveo) | | 1 | [>RNA Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA Workbench) | | | | |
 
 ----
@@ -339,7 +339,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 * Build [Python Wheels](http://pythonwheels.com/) (e.g. for the [Galaxy Wheels Server](http://wheels.galaxyproject.org/))
 * Rebuild Debian or Ubuntu source packages (for modifications)
 
-These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems. Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
+These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems. Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/).
 
 The release features Python 3-compatible `setup.py` wrapping and a fix for pip 10.
 
@@ -359,7 +359,7 @@ The [18.01 release of Galaxy  is out](https://docs.galaxyproject.org/en/release_
 **Highlights:**
 
 *Performance and User Experience Improvements*
-We made Galaxy more lively and responsive. Homepage, published workflows, published/saved histories, and data libraries should all load much faster now. Importing data from FTP will also take less of your time. 
+We made Galaxy more lively and responsive. Homepage, published workflows, published/saved histories, and data libraries should all load much faster now. Importing data from FTP will also take less of your time.
 
 *Web Server and Configuration*
 The default web server used by Galaxy has changed from Paste to uWSGI and the default configuration file for Galaxy is now config/galaxy.yml instead of config/galaxy.ini. To minimize the impact of this change on existing Galaxy instances, if a Galaxy has a galaxy.ini file configured, it will continue to use Paste by default unless additional steps are taken by the administrator
@@ -368,7 +368,7 @@ The default web server used by Galaxy has changed from Paste to uWSGI and the de
 This release has significantly improved the usability of Galaxy dataset collections. Dozens of improvements to collections have been made, some of the key highlights include:
 
 * Data library folders can now be sent to histories as a dataset collection.
-* Failed dataset collection elements can now be fixed using job re-running 
+* Failed dataset collection elements can now be fixed using job re-running
 * Collections now appear with state and progress bars in the history panel and contained datasets are hidden by default
 * We added intuitive workflow post job actions for dataset collections
 * The web interface now supports collections with arbitrary nesting and size
@@ -385,7 +385,7 @@ Previously Galaxy only supported coordinate sorted BAM files by default (the bam
 * unsorted.bam, that makes no assumptions about the sort order of the file.
 
 *Experimental Job Caching*
-Galaxy can now be configured to allow users the option of skipping duplicated jobs if one with identical parameters has been previously executed and simply reuse the previously generated outputs. 
+Galaxy can now be configured to allow users the option of skipping duplicated jobs if one with identical parameters has been previously executed and simply reuse the previously generated outputs.
 
 
 See the [full release notes](https://docs.galaxyproject.org/en/release_18.01/releases/18.01_announce.html) for more.

@@ -56,9 +56,9 @@ The original responses, minus name, institution and email are **[also available]
 1. We haven't installed it yet but we are planning to use a standalone workstation - Dell C6145 system using the 16-core AMD processors.  This chassis includes two discrete systems, each with 64 2.3 ghz cpu cores, 128GB RAM, and 9 2.5” drives and we'll be using one chassis for the Galaxy install along with LifeScope from Life Technologies.
 1. Standalone workstation, 8 cores , 16 GB RAM
 1. We use a standalone server with four quad-core Intel X7350 and 128GB memory. This server is currently also used for individual logins. We are in the process of making it the dedicated Galaxy server on which Galaxy is the only service running.
-1. Galaxy installed for local use in our group (4 persons) is running on a Centos 6.2 virtual machine on Redhat6.2 host using KVM. The Galaxy virtual machine has 8 cores and 24GB RAM, and is run on a dedicated logical volume. The host has 24 cores and 96GB RAM. 
-1. We currently have Galaxy hosted on our small analysis server (24Gb RAM, 8 cores). We're hoping to put it on a much larger production server later this year. 
-1. Standalone server, HP Blade, 10 core, 32 GB Memory, 
+1. Galaxy installed for local use in our group (4 persons) is running on a Centos 6.2 virtual machine on Redhat6.2 host using KVM. The Galaxy virtual machine has 8 cores and 24GB RAM, and is run on a dedicated logical volume. The host has 24 cores and 96GB RAM.
+1. We currently have Galaxy hosted on our small analysis server (24Gb RAM, 8 cores). We're hoping to put it on a much larger production server later this year.
+1. Standalone server, HP Blade, 10 core, 32 GB Memory,
 
 ### In Transition / Multiple
 
@@ -82,8 +82,8 @@ The original responses, minus name, institution and email are **[also available]
 1. My Galaxy instance is integrated with a computing cluster (SGE).
 1. We plan to deploy a galaxy instance on a ~1000 CPU blade cluster + fat nodes. We expect to have it coupled with PBS PRO queueing system. We are still evaluating the possibility of having galaxy frontend in a virtual machine communicating with the postgres db and cluster system as backend.
 1. We have two Galaxy environments.  
-  1. A QA (Quality Assurance) Galaxy env which dispatches jobs to a small closed cluster managed by SGE.   
-  1. A Production Galaxy env (in alpha phase) which is a submit node to our campus High Performance Compute cluster managed by SGE.   Our production galaxy box has 24 GB Ram and is a 12 core, infiniband network card. 
+  1. A QA (Quality Assurance) Galaxy env which dispatches jobs to a small closed cluster managed by SGE.
+  1. A Production Galaxy env (in alpha phase) which is a submit node to our campus High Performance Compute cluster managed by SGE.   Our production galaxy box has 24 GB Ram and is a 12 core, infiniband network card.
   We decided to strip back the amount of tools installed to only a small subset, with plans to lazily expose more tools upon request of users.  We plan to develop and publish common analysis pipelines for common work being currently done at the U of I.
 1. Integrated with a large compute cluster using PBS/Torque.  Cluster has a number of queues specific for the tasks, including nodes with large memory capacity (500 GB - 1 TB, with a 2 TB machine on order), standard 16-24 GB nodes with 8-12 core each, etc.<br />We anticipate expanding to include other resources on our campus, including NCSA machines and other clusters.
 1. We have a dedicated galaxy VM which is registered as a submit host with our SGE cluster  Cheaha - https://docs.uabgrid.uab.edu/wiki/Cheaha . The galaxy VM and the Cheaha cluster have a consistent view of the underlying shared file-systems - home directories, Lustre file-system and shared apps/install directory. Below is a logical diagram of our research computing platform that explains our galaxy installation as well - https://docs.uabgrid.uab.edu/wiki/File:Research-computing-platform.png .
@@ -95,14 +95,14 @@ The original responses, minus name, institution and email are **[also available]
       1. Database: PostgreSQL 8.4.9, Local install
       1. Front-end web server: Apache HTTPD 2.2.3 with external Shibboleth authentication
       1. Galaxy revision: Typically 1-2 weeks behind the upstream galaxy-dist repository
-    1. System information on the cluster (one queue):   
+    1. System information on the cluster (one queue):
       1. Gen 1: 50 nodes, 2 cores/node, 2G RAM/node, 1.60GHz (AMD Opteron 242)
       1. Gen 2: 24 nodes, 8 cores/node, 16G RAM/node, 3.00GHz (Intel Xeon E5450)
       1. Gen 3: 48 nodes, 12 cores/node, 48G RAM/node, 2.66GHz (Intel Xeon E6550)
   * notes:
     1. What is notable and different about our cluster topology is that compute nodes are shared between jobs, and jobs must live withing their request resources (memory, time) or they are killed, or they will negatively impact other users' jobs (cpu). Additionally, the cluster is hetrogeneous - made up of 3 classes of nodes, all in the same queue, which are selected based on the resource requirements of the task submitted. This is very different than Penn State Galaxy's configuration, and makes coordination between code, task parameters and DRMAA settings extremely important.
 
-1. We are using both powerful standalone workstations and a computer cluster. The cluster versions is being set up now, not operational yet. 
+1. We are using both powerful standalone workstations and a computer cluster. The cluster versions is being set up now, not operational yet.
   1. In September we launch a new cluster (Abel):
     * 912 nodes - 2 intel cpus -  8 cores (2 x Intel Xeon Sandy-Bridge CPU x86 64bit, E5-2670 2.6 GHz 8.0 GT/s 20 MB cache 8-core), 64 GB RAM, IB
     * 16 GPU-nodes,  2 x Intel Xeon Sandy-Bridge CPU x86 64bit, E5-2609 2.4 GHz 6.4 GT/s 10 MB cache 4-core, 64 GB RAM, 2 x Nvidia Kepler GPU-card with 6 GB memory, IB
@@ -113,7 +113,7 @@ The original responses, minus name, institution and email are **[also available]
     * apache (2.2.3) proxy
     * ssl
     * Posgresql DB on a different host
-1. We deployed galaxy over a virtual system (XEN) integrated with a computing cluster (SGE).  Some details of the cluster nodes: 
+1. We deployed galaxy over a virtual system (XEN) integrated with a computing cluster (SGE).  Some details of the cluster nodes:
   * 256 compute nodes with Infiniband connections to Ethernet - Low latency cluster
   * Dual cpu Intel E5440 quad core a 2,8GHz.
   * RAM 16 GB DDR2 FBD 667MHz
@@ -131,38 +131,38 @@ The original responses, minus name, institution and email are **[also available]
 **How much storage do you dedicate and on what platform? Are you using quotas? Do you have an automated dataset cleanup policy?**
 
 
-| Capacity |  Architecture/Vendor  |  Policies  |  Other  | 
-| -------- | -------------------- | --------- | ------ | 
-| |  Netapp via nfs  |   |   | 
-| |  Raw data is stored on an Isilon disk array shared across the institution.  Galaxy data is stored on a private disk array on the cluster itself.  |   |   | 
-| 50 - 100GB |  Only require say 50 - 100GB at present as part of standard Cloudman volumes.  |   |   | 
-| 10 TB |  Local NAS storage cluster  |   |   | 
-| |  Because we are hosting on a virtual server its just a straight connection to the hard drive.  |   |   | 
-| ~300 TB |  We are using GPFS.  |   |  At the moment we are just starting to deploy Galaxy and haven't entered production so we haven't reached anywhere near capacity, but we do anticipate scaling to larger storage (possibly PB) in the near future.  | 
-| 10TB |  NFS  |   |  we have recently setup the Galaxy and have not reached the capacity.  | 
-| 5 TB |  NFS  |   |  We are moving from this<br /> to this  | 
-| 1PB  |  GPFS  |   | 
-| |  We are using a MD1000 for testing but will implement production on Panasas storage.  |  We have setup default user quotas of 200GB.  |   | 
-| 16TB |  NFS; a computer node with 16TB storage space is used as the file server of the computer cluster.  |  We are not using quotas yet since only 10% of the total storage space is being used so far. We will think about purging method when more storage space is being used in the future.  |   | 
-| |  Dell R515 fileserver; md3200 and md1200 disk array expansion units.<br />nfs over a 10GB ethernet backplane for the blades  |  Run default purge/delete scripts on a cron job<br />Yell at users to clean up old junk files occasionally<br />run fdupes and try to figure out all the redundancy.  |   | 
-| |  We have a BlueArc that we're using at present, and an array of NAS devices to provide support to that.  |   |   | 
-| 15TB |  Direct attached 15TB - plus, the server has access to other NFS mounted storage (ie for data libraries).  |  We run the provided clean-up scripts (set to '90 days') after each code update (which happens four times a year) - no user quotas used.  |   | 
-| 36 TB<br />50 TB |  Our HPC uses infiniband networking and lustre storage for high speed access.   We are looking to dedicate an initial 36 TB of lustre scratch space for Galaxy computational access.  |  The lustre space is not backed up and is considered temporary.  We don't have quotas, but will be looking at last access time and auto cleaning up datasets if there is data that has not been accessed in the last 30 days (we plan to first send out emails warning of this before removal giving users the chance to download or access).   We have a 50 TB ZFS box being installed right now and we will be testing out an infiniband network card with it.  This space will be used to hold our data libraries which will be more permanent store for Galaxy data.  |   | 
-| 3TB |  The Galaxy database is located on a logical volume of the host machine and is exported to the Galaxy virtual machine through nfs. Total storage capacity for the Galaxy database is about 3TB.  |  User quotas are set up on Galaxy.<br />In addition, everybody got 200 GB network space, accessible on their laptops, and which can imported into a data library. This is for easy big data upload to Galaxy.  |   | 
-| 17TB |  1. Currently 17Tb storage dedicated to Galaxy but we have provision for more if required. Currently Galaxy user data takes up ~7Tb.  |  I have set up quotas of 500Gb per user and 1.2Tb for admin users (bioinformatics core facility members). We ask users to be ruthless with datasets they don't need to reproduce analysis but this is hard to enforce. We run a cron cleaning script weekly but there are some situations where the galaxy clean up scripts have not removed data I thought should have been purged.  |   | 
-| 180 TB |  The galaxy datasets directory resides in our 180TB Lustre fabric.  |  Currently we don't have any quota policy or perform any automatic dataset cleanup. We rely on users to cleanup their datasets after their analysis is complete.  |   | 
-| |  FhGFS  |  We assign 200GB quota per cluster user on a FhGFS. Monitored by scripts and users warned to clear up space.  |   | 
-| |   |   |  We are planning to import our sequencing data into Galaxy as data libraries or provide a tool for importing these data into Galaxy as we currently do not use Galaxy for managing our sequencing data as we have an in-house lims. We are thinking of copying the data from the archive server to lustre before running tools and applying per user quota.  | 
-| 65TB |  A homegrown storage solution with a 65Tb lustre filesystem has been used for the Galaxy prototype and in production so far.  |  The usage is still below 50%, so no cleanups are being done, yet.  |  Galaxy will be migrated to a ZFS based NFS storage appliance in the medium future.  | 
-| |   |   |  We haven't figured out how we'll do this yet. The plan is that since we'll be using this mainly within the Genomics Core, we will move the analyzed files to our SAN when everything is complete.  | 
-| 2TB |  NFS storage currently, but expandable.  |  No quotas enforced so far, but maybe in the near future.  |   | 
-| |  RAID  |  We're not using user quotas yet, but plan to in the near future as the current RAID partition is nearly full and user numbers appear to be on the increase.  |   | 
-| |   |  Quotas are managed in admin interface.  |   | 
-| |   |   |  Still working this out.  | 
-| |  We use NFS sharing storage.  |  Right now there is no quotas applied. We clean the storage every month.  |   | 
-| |  We are deploying on Lustre filesystem  |   |   | 
-| |   |  We're not using quota's yet, but can see it being essential in the next 3-6 months. At the moment we manually carry out dataset cleanup every 2 months.  |   | 
-| 156TB |  Our galaxy instance is currently sitting on 156TB of isilon storage.  This storage is currently shared by all of our high performance computing users (not just galaxy users).  We are at 94% of capacity.  Without question storage is our biggest challenge.   |  We have automated scripts set up to delete files which are marked for delete by users, which runs on a weekly basis.  This is really not satisfactory.  There is no good, convenient way for users to clean up their data, and many don't bother until we warn them that we are critically low on space.  We have not use instituted the use of quotas in Galaxy, as we've not yet been able to determine what is reasonable.  We are working on an overall data retention policy at our institution now.  |   | 
+| Capacity |  Architecture/Vendor  |  Policies  |  Other  |
+| -------- | -------------------- | --------- | ------ |
+| |  Netapp via nfs  |   |   |
+| |  Raw data is stored on an Isilon disk array shared across the institution.  Galaxy data is stored on a private disk array on the cluster itself.  |   |   |
+| 50 - 100GB |  Only require say 50 - 100GB at present as part of standard Cloudman volumes.  |   |   |
+| 10 TB |  Local NAS storage cluster  |   |   |
+| |  Because we are hosting on a virtual server its just a straight connection to the hard drive.  |   |   |
+| ~300 TB |  We are using GPFS.  |   |  At the moment we are just starting to deploy Galaxy and haven't entered production so we haven't reached anywhere near capacity, but we do anticipate scaling to larger storage (possibly PB) in the near future.  |
+| 10TB |  NFS  |   |  we have recently setup the Galaxy and have not reached the capacity.  |
+| 5 TB |  NFS  |   |  We are moving from this<br /> to this  |
+| 1PB  |  GPFS  |   |
+| |  We are using a MD1000 for testing but will implement production on Panasas storage.  |  We have setup default user quotas of 200GB.  |   |
+| 16TB |  NFS; a computer node with 16TB storage space is used as the file server of the computer cluster.  |  We are not using quotas yet since only 10% of the total storage space is being used so far. We will think about purging method when more storage space is being used in the future.  |   |
+| |  Dell R515 fileserver; md3200 and md1200 disk array expansion units.<br />nfs over a 10GB ethernet backplane for the blades  |  Run default purge/delete scripts on a cron job<br />Yell at users to clean up old junk files occasionally<br />run fdupes and try to figure out all the redundancy.  |   |
+| |  We have a BlueArc that we're using at present, and an array of NAS devices to provide support to that.  |   |   |
+| 15TB |  Direct attached 15TB - plus, the server has access to other NFS mounted storage (ie for data libraries).  |  We run the provided clean-up scripts (set to '90 days') after each code update (which happens four times a year) - no user quotas used.  |   |
+| 36 TB<br />50 TB |  Our HPC uses infiniband networking and lustre storage for high speed access.   We are looking to dedicate an initial 36 TB of lustre scratch space for Galaxy computational access.  |  The lustre space is not backed up and is considered temporary.  We don't have quotas, but will be looking at last access time and auto cleaning up datasets if there is data that has not been accessed in the last 30 days (we plan to first send out emails warning of this before removal giving users the chance to download or access).   We have a 50 TB ZFS box being installed right now and we will be testing out an infiniband network card with it.  This space will be used to hold our data libraries which will be more permanent store for Galaxy data.  |   |
+| 3TB |  The Galaxy database is located on a logical volume of the host machine and is exported to the Galaxy virtual machine through nfs. Total storage capacity for the Galaxy database is about 3TB.  |  User quotas are set up on Galaxy.<br />In addition, everybody got 200 GB network space, accessible on their laptops, and which can imported into a data library. This is for easy big data upload to Galaxy.  |   |
+| 17TB |  1. Currently 17Tb storage dedicated to Galaxy but we have provision for more if required. Currently Galaxy user data takes up ~7Tb.  |  I have set up quotas of 500Gb per user and 1.2Tb for admin users (bioinformatics core facility members). We ask users to be ruthless with datasets they don't need to reproduce analysis but this is hard to enforce. We run a cron cleaning script weekly but there are some situations where the galaxy clean up scripts have not removed data I thought should have been purged.  |   |
+| 180 TB |  The galaxy datasets directory resides in our 180TB Lustre fabric.  |  Currently we don't have any quota policy or perform any automatic dataset cleanup. We rely on users to cleanup their datasets after their analysis is complete.  |   |
+| |  FhGFS  |  We assign 200GB quota per cluster user on a FhGFS. Monitored by scripts and users warned to clear up space.  |   |
+| |   |   |  We are planning to import our sequencing data into Galaxy as data libraries or provide a tool for importing these data into Galaxy as we currently do not use Galaxy for managing our sequencing data as we have an in-house lims. We are thinking of copying the data from the archive server to lustre before running tools and applying per user quota.  |
+| 65TB |  A homegrown storage solution with a 65Tb lustre filesystem has been used for the Galaxy prototype and in production so far.  |  The usage is still below 50%, so no cleanups are being done, yet.  |  Galaxy will be migrated to a ZFS based NFS storage appliance in the medium future.  |
+| |   |   |  We haven't figured out how we'll do this yet. The plan is that since we'll be using this mainly within the Genomics Core, we will move the analyzed files to our SAN when everything is complete.  |
+| 2TB |  NFS storage currently, but expandable.  |  No quotas enforced so far, but maybe in the near future.  |   |
+| |  RAID  |  We're not using user quotas yet, but plan to in the near future as the current RAID partition is nearly full and user numbers appear to be on the increase.  |   |
+| |   |  Quotas are managed in admin interface.  |   |
+| |   |   |  Still working this out.  |
+| |  We use NFS sharing storage.  |  Right now there is no quotas applied. We clean the storage every month.  |   |
+| |  We are deploying on Lustre filesystem  |   |   |
+| |   |  We're not using quota's yet, but can see it being essential in the next 3-6 months. At the moment we manually carry out dataset cleanup every 2 months.  |   |
+| 156TB |  Our galaxy instance is currently sitting on 156TB of isilon storage.  This storage is currently shared by all of our high performance computing users (not just galaxy users).  We are at 94% of capacity.  Without question storage is our biggest challenge.   |  We have automated scripts set up to delete files which are marked for delete by users, which runs on a weekly basis.  This is really not satisfactory.  There is no good, convenient way for users to clean up their data, and many don't bother until we warn them that we are critically low on space.  We have not use instituted the use of quotas in Galaxy, as we've not yet been able to determine what is reasonable.  We are working on an overall data retention policy at our institution now.  |   |
 
 # The Devil is in the Details
 
@@ -211,7 +211,7 @@ The original responses, minus name, institution and email are **[also available]
 1. We have had to tune and change several tool wrappers for various reasons
 1. We have exposed additional tools in our galaxy, some custom tools some public.
 1. We changed the navigation left hand menu to put workflows up top and limited back the amount of tools we expose
-1. Not yet big customizations. We are looking into the code base only to get more out of the tools we implement (e.g. getting to pass the original input parameters used for creating a dataset). 
+1. Not yet big customizations. We are looking into the code base only to get more out of the tools we implement (e.g. getting to pass the original input parameters used for creating a dataset).
   * Furthermore, tools that do not work out of the box are disabled.
 1. Only minor, mostly on datatypes and tools. Now trying to migrate to a fresh install as the mercurial repository seems a little messed up.
 1. Coordinate / Sync tool wrapper commands with job runner URLs: DRMAA and .xml-wrapper & .py-adaptor changes for every tool we use. Because we are on a shared cluster, where resources used must match those requested, we've had to edit the DRMAA of every command we use, often not just the universe_wsgi.ini file, but also the .xml wrapper and .py adaptors, in order to be able to run the jobs. This has been a major task and barrier to using new tools.
@@ -220,7 +220,7 @@ The original responses, minus name, institution and email are **[also available]
 
 ### Sample Tracking Customization
 
-1. We're using the NGlims version of Galaxy (from Brad Chapman's fork) and we've included a lot of our own tools. 
+1. We're using the NGlims version of Galaxy (from Brad Chapman's fork) and we've included a lot of our own tools.
 1. We are planning to build integration between our Genologics LIMS instance and our Galaxy instance, to simplify the movement of data between the two and to give us the ability to grab descriptive information about a fastq file from the LIMS.  This project has not yet started.  If anyone else has already built this type of integration, we'd be very interested in it.
 
 ### Error Handling Customization
@@ -242,12 +242,12 @@ The original responses, minus name, institution and email are **[also available]
 
 ### Data Setup Issues
 
-1. Only issue so far has been what reference files need to added. 
+1. Only issue so far has been what reference files need to added.
 1. Failures during dataset import: The galaxy preprocesses datasets during the upload/import process. For example, fastq.gz files are uncompressed and sam/bam files are sorted during the upload process. We have seen some silent failures during some of these preprocessing steps, especially in uncompressing of fastq.gz files. Frequently, that uncompress produces a truncated or corrupted .fastq file, with no indication of error in Galaxy, which results in mysterious failures or incorrect results from down-stream analyses. Fixing that is important. Having checksums computed & displayed for both the original compressed files and the final uncompressed file available in "info" would help a lot.
 
 ### Cluster Setup Issues
 
-1. The major problem for the time being is the cluster integration. 
+1. The major problem for the time being is the cluster integration.
 1. The pbs_python adapter I used with Torque at the prototype stage was very leaky - required constant monitoring and restarts of the Galaxy job runner.
 1. Configuring Galaxy and our Cluster to talk to each other was surprisingly complicated.  
 1. SLURM was used as the resource manager at the beginning, but it turned out Galaxy doesn't like it very well, so we had to switch to Torque PBS instead.
@@ -255,10 +255,10 @@ The original responses, minus name, institution and email are **[also available]
 1. We had to work around python versioning issues.  Our server has a supported version of python (v2.7) but our cluster has an outdated one (v. 2.4), so we ran into problems when initially deploying Galaxy with various incompatibilities between the two versions.
 1. No job or dataset specific control on cluster resource requirements: The galaxy's DRMAA configuration is tool specific and not job specific. This doesn't play in a shared cluster/scheduler environment. This is an on-going issue and a major limitation for shared cluster environments. It would be nice to have an option for either of following options:
   1. Allow users to specify resource limits
-  2. Make DRMAA configuration data-set dependent. 
+  2. Make DRMAA configuration data-set dependent.
     Right now there's now way for a job submitter to easily select different resource requests (like RAM) depending on the size/complexity of the genome being worked on (eg, human[big] vs vaccinia virus[very small] vs tree-shrew[thousands of contigs]). Thus, we have to size resource requests for the biggest possible data set, which causes the small runs to wait a LONG time in the queue for resources they don't need. Nor does it seem possible to set up a formula for DRMAA based on the size of the genome being used (ie, make the choice automatically). This is compounded by lack of good data on the performance/requirements of many of the underlying programs for different input types).
 1. Capturing 'failed/aborted' jobs by the scheduler: There are cases (listed below) where a job is aborted by the scheduler but it still shows up as successful in the galaxy (green-boxes):
-  1. [Job exceeds requested resource limits such as memory and run-time](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/3RYYE6ZNPM7I4NXTUNQPZ5UQQA7KXIWH/#WD3H7EGA6IPERH6VEJXFTQBBA3DANGJQ) 
+  1. [Job exceeds requested resource limits such as memory and run-time](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/3RYYE6ZNPM7I4NXTUNQPZ5UQQA7KXIWH/#WD3H7EGA6IPERH6VEJXFTQBBA3DANGJQ)
   2. Compute node on which job was running fails/restarted
 
  Job failures because of # 2 rarely happen however # 1 is very common if you have a shared cluster environment and galaxy tool's drmaa/job-runner configuration is not liberal (e.g. configure tool with 64GB RAM, 96-hrs run-time..).
@@ -269,7 +269,7 @@ The original responses, minus name, institution and email are **[also available]
 
 ### Security and FTP Setup Issues
 
-1. Integration into the Single Signon system is still an issue. Job monitoring in the Galaxy and data retrieval back from UCSC still don't work because of it. 
+1. Integration into the Single Signon system is still an issue. Job monitoring in the Galaxy and data retrieval back from UCSC still don't work because of it.
 1. FTP server for users to upload large files through FTP.  Eventually we were able to get it work, but the configuration was not very easy.
 1. A few such as setting up proFTP. Galaxy doesn't like showing users the data correctly because the permissions are not the users that has logged in but rather the systems. Had to hack and give the files 777 permissions.. Not nice.
 1. We needed a mechanism for tying galaxy accounts to unix accounts to allow for sftp access.  We had to modify galaxy for this.  
@@ -286,14 +286,14 @@ The original responses, minus name, institution and email are **[also available]
 
 1. Most issues have been on the Galaxy development side adding new tools.
 1. some issues with viewing BAM files in IGV from Galaxy
-1. However, some tools did not work out of the box. This is bad of course. It was not because of the requirements were not met, but due to too new versions of the dependencies, to which the code was not adopted. Especially visualisation tools are hit by this. 
+1. However, some tools did not work out of the box. This is bad of course. It was not because of the requirements were not met, but due to too new versions of the dependencies, to which the code was not adopted. Especially visualisation tools are hit by this.
 1. TEMP space configuration: The galaxy's shared TEMP space configuration several failures initially that were difficult to debug. This has been  issues resolved now for non-Java tools by modifying TEMP variables in the job template string in job runner drmaa class. However the issue still persists for Java based tools wheres tool wrappers need to explicitly set java.io.temp setting. Related discussion: http://comments.gmane.org/gmane.science.biology.galaxy.devel/1986
 
 ### Misc Setup Issues
 
 1. We got some help to scramble the psycopg2-2.0.13 egg in order to connect to a PostgreSQL DB server on a different host
 1. Sample Tracking System, it turned out the Sample Tracking system can not transfer data from the sequencer to Galaxy automatically (According to the galaxy-dev mailing list, this has been fixed and will be available in the next release).
-1. Not really for the Galaxy framework. Smaller issue: serving static content through apache got not resolved (due to my incapability configuring apache properly :-)) 
+1. Not really for the Galaxy framework. Smaller issue: serving static content through apache got not resolved (due to my incapability configuring apache properly :-))
 
 ### General Setup Issues
 
@@ -326,9 +326,9 @@ The original responses, minus name, institution and email are **[also available]
 1. The description and naming of the tools is sometimes plainly misleading. Even with the search tool, people often do not find a simple tool they are looking for. A threat to Galaxy.
 1. Quality of tool wrappers: (Wrappers missing inputs or outputs) a lot of galaxy wrappers don't have all the parameters for the underlying tools, and many "throw away" valuable outputs & log files - like "unmapped reads" from tophat. This pushes people outside of galaxy, if they want the extra parameters or need those output.
 1. I am trying hard to find out how can I read logged-in user's database ID, when a tool loads up. Because my tool meant to load up (in a dropdown) some custom data from a non-galaxy database for the user to select and submit a job.  I have posted this quest on Galaxy-Dev but in vein. <br />If I could find out this in this forum that would be great.
-1. There needs to be an improved mechanism for supporting multiple tool versions and tool wrapper versions in the same galaxy. 
-1. Version handling of tools - while many tools report the version the dataset was run with, Galaxy does not give us good reproducibility - the wrappers generally run the latest version of the tool in the path, and assume the .loc files point to the indexes matching the latest version (say, BWA 0.5 vs 0.6). This means people can't go back and re-run analysis 6 months later to tweak parameters, without unknowingly moving to a new version of the tool - which may give completely different results. This can probably be handled in two manners: 
-  1. Multiple versions of the same tool and tool wrappers (hard-coded with particular tool version) can be installed on the system. 
+1. There needs to be an improved mechanism for supporting multiple tool versions and tool wrapper versions in the same galaxy.
+1. Version handling of tools - while many tools report the version the dataset was run with, Galaxy does not give us good reproducibility - the wrappers generally run the latest version of the tool in the path, and assume the .loc files point to the indexes matching the latest version (say, BWA 0.5 vs 0.6). This means people can't go back and re-run analysis 6 months later to tweak parameters, without unknowingly moving to a new version of the tool - which may give completely different results. This can probably be handled in two manners:
+  1. Multiple versions of the same tool and tool wrappers (hard-coded with particular tool version) can be installed on the system.
   1. Tool wrappers or some other component of galaxy can search PATH or environment modules to provide version specific tool option
 
 ### User History and Dataset Handling Limitations
@@ -336,13 +336,13 @@ The original responses, minus name, institution and email are **[also available]
 1. There must be a built-in dataset export feature similar to the library loading from the filesystem. Galaxy is not an all-inclusive solution and the lack of an export capability for large datasets is a big problem.
 1. We have several power-users who move in and out of galaxy over the course of their workflows, and easy of access to underlying files and ability to easily link or ingest files is critical. We would like this process to be even easier - ability to move files in/out through linux command line, ability for non-admin uses to "link in" files, mnemonic names of data files, etc.
 1. naming of workflow steps - users are not happy that they must maintain a map of dataset 14 = sample1bc1 ...
-1. We would like a better way in naming the output of the jobs rather than manually having to change the name. 
+1. We would like a better way in naming the output of the jobs rather than manually having to change the name.
 1. there is no useful space for annotating histories.
 1. No hierarchical dataset organisation for histories.
 1. Hard to view "structure" of history - to see which datasets are parents/children of which others. Need a way to quickly highlight parents/children in history, or to draw and USE a structured/tree version of the history. For a simple, yet effective example, see Bugzilla display of bug dependencies (blocked by/blocks; http://sourceware.org/bugzilla/showdependencytree.cgi?id=3385)
 1. Multi-input-file-selection is great, but doesn't work with base tools, only with work flows. It also doesn't have a provision for dealing with Paired-End data (need parallel arrays of input FASTQs), which is almost entirely what we're working with!!
 1. Data set deletion through the GUI is very laborious. Need at least multi-select and delete. For example - one click to delete all datasets from a failed cuffdiff run, or from a BWA run and all down-stream (dependent) analyses.
-1. No easy way to visually tag datasets in a history - highlight yellow, etc, etc, in a way that shows up in the history itself. Folks often end up keeping a parallel history in excel. 
+1. No easy way to visually tag datasets in a history - highlight yellow, etc, etc, in a way that shows up in the history itself. Folks often end up keeping a parallel history in excel.
 1. Most of our users dislike the file management.   It's tedious to upload large numbers of files, move them back and forth between histories and libraries.  Selecting files, and histories for deletion can be quite tedious.  We have many users who do RNA Seq analysis with very large numbers of samples, and we've actually had to move some of these users out to the command-line and built command-line pipelines because it was easier for them to deal with a directory of files than select and move files within galaxy.  Submitting a workflow for many samples of paired-end sequence is impossible within galaxy (not literally, but no one wants to select 100 pairs of sequences).   Galaxy libraries can be incredibly slow to open when there are very large numbers of files in the libraries.
 
 ### Admin Dataset Handling Limitations
@@ -358,7 +358,7 @@ The original responses, minus name, institution and email are **[also available]
 ### Workflow Limitations
 
 1. Wish list: A way to submit an entire workflow as a single cluster job - workflows with many steps can take a lot of extra wall-time due to queue-wait. Some way to submit the entire workflow as a single cluster task would be very desirable.
-1. Workflows are not flexible enough 
+1. Workflows are not flexible enough
 1. Workflows can not be called as "subroutines" by other workflows. This forces duplication of sub-workflows, and creates an un-maintainable mess.
 1. From the developer point-of-view, workflows with multiple inputs, MapReduce-like functionality (though these are apparently on the horizon).  Dealing with user large data in a conservative manner, e.g. less copying, more linking.  We haven't had any user issues yet, but we do anticipate things popping up :)
 1. There should be an easier way to interoperate with other instances such as the public Galaxy instance, so users could migrate their data and records easier.
@@ -371,7 +371,7 @@ The original responses, minus name, institution and email are **[also available]
 ### Authentication, User and Job Management Limitations
 
 1. Trying to host it on our HPC grid, but they require data to be owned by respective users for security, quotas, etc..  User data in Galaxy is owned by the galaxy user, even if the processes are run as logged in users.
-1. One limitation is the number of processes allocated for a job is hard coded in the universe_wsgi.ini, we hope the number of processes for each job can be configured between different runs. 
+1. One limitation is the number of processes allocated for a job is hard coded in the universe_wsgi.ini, we hope the number of processes for each job can be configured between different runs.
 1. Using external authentication is nice, but it does cause some other limitations.
 1. Difficult to implement IdP other than OpenID at WSGI level. We managed to do it at Apache proxy level with mellon package, but this rules out the common logging in Galaxy and we had to drop it. We plan to keep the Galaxy Scientific portal free and open to all academic institutions in the world (a better version of the php-based Bioportal, www.bioportal.uio.no)
 1. The galaxy job runner does not support job specific configuration of the following:
@@ -385,13 +385,13 @@ The original responses, minus name, institution and email are **[also available]
 1. Galaxy doesn't seem to work on IE9, history fails to refresh, peep view links broken.
 1. Poor user feedback in interface for long running jobs - no progress indicator at all. Would be nice to be able to at least say 'running locally' or 'running on cluster' or 'queued on cluster'.
 1. Lack of a "progress" indicator is hard for users. Ie. in a run of some hours, what %age finished are we, or what stage of processing are we up to. I have implemented an email system that sends progress emails to the user at intervals of N minutes which alleviates this.
-1. GUI SPEED - we have a lot of long (several hundred step) workflows. They render slowly. We also run a "consulting" group, so each of us works on many projects at a time, often several for each of several clients (I have 50 histories for 6 clients, I think) - the "saved histories" link is slow, and there's no way to group histories into folders or to keep a search filter active. 
+1. GUI SPEED - we have a lot of long (several hundred step) workflows. They render slowly. We also run a "consulting" group, so each of us works on many projects at a time, often several for each of several clients (I have 50 histories for 6 clients, I think) - the "saved histories" link is slow, and there's no way to group histories into folders or to keep a search filter active.
 
 ### Other Limitations
 
 1. It's a web application so has all the associated warts and limitations.  Galaxy has the benefit that it hides a lot of complexity and the disadvantage that it hides a lot of complexity.  Bottom line for me:  It's open source so if you don't like the way it works, please send code to make it better.
 1. We are looking for progress in Trackster
-1. Better way of being able to have an arbitrary number of inputs to a workflow, like a history of inputs or something, to do batch work into some steps (like multiple BWA aligns, that all get fed into a merge) 
+1. Better way of being able to have an arbitrary number of inputs to a workflow, like a history of inputs or something, to do batch work into some steps (like multiple BWA aligns, that all get fed into a merge)
 
 # This Group
 
@@ -424,14 +424,14 @@ The original responses, minus name, institution and email are **[also available]
 
 ### Project and Feature Specific Goals
 
-1. Areas that we can contribute to the project. Do we need to help create more instructional material to help assist the project? 
+1. Areas that we can contribute to the project. Do we need to help create more instructional material to help assist the project?
 1. identify user centric development priorities
-1. The dataset deletion thing is also an area of interest to us because its just down right difficult to us and having a nicer way than there currently is would be nice. 
+1. The dataset deletion thing is also an area of interest to us because its just down right difficult to us and having a nicer way than there currently is would be nice.
 1. At the moment we have 'hardcoded' a lot of stuff like our dbsnp and 1000genome vcf files so our tools can use those files for comparison etc. Would be nice if we could integrate them into galaxy properly.
 1. A focus on improving the maintenance of galaxy and easily adding new apps
 1. Improving galaxy's job submission system to support shared cluster environments - either by allowing users to specify job resources or by making adaptive/intelligent decisions based on dataset size, type etc.
 1. Better integration between the galaxy job submission system and command line use of galaxy resources
-1. Development issues 
+1. Development issues
 
 ### No Goals
 
@@ -453,7 +453,7 @@ The original responses, minus name, institution and email are **[also available]
 1. experience with matching resources with usage/load.
 1. Interested in knowing how other people manage their local installations especially with regard to managing local customisations.
 1. Maybe an overview on how Penn State operates its Galaxy behind the scenes.
-1. User management: groups and roles, how do you use them? 
+1. User management: groups and roles, how do you use them?
 1. Cluster integration
 1. IdP autentication within WSGI
 
@@ -475,7 +475,7 @@ The original responses, minus name, institution and email are **[also available]
 ### Topics Releases
 
 1. Is the lack of Galaxy release numbers a problem, or do hg commit hashes suffice?
-1. Are there any widely-used Galaxy distributions outside of the main ones hosted at Penn State? 
+1. Are there any widely-used Galaxy distributions outside of the main ones hosted at Penn State?
 
 ### Topics Solutions and Features
 

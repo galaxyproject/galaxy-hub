@@ -2,7 +2,7 @@
 
 # GCC2019 Sponsors
 
-Sponsors are a key part of GCC2019.  They are potential partners in your success, and sponsors make this conference affordable and accessible. 
+Sponsors are a key part of GCC2019.  They are potential partners in your success, and sponsors make this conference affordable and accessible.
 
 Is your organization interested in playing a prominent role in the 2019 gathering of the Galaxy community? Becoming a GCC2019 sponsor is an excellent way to raise your organization's visibility in this active and engaged community.  Please see below for sponsorship packages and then contact the [organizers](/events/gcc2019/organizers/).
 
@@ -43,7 +43,7 @@ Cost: €8000 (€6000 for non-profit) <span class="small">(+VAT)</span>
 - Organization logo listed as a platinum sponsor on printed material distributed to meeting participants.
 - A full page color ad in printed material
 - 4 complete registrations
-- Be one of just 2 Platinum Sponsors 
+- Be one of just 2 Platinum Sponsors
 
 *There is one Platinum sponsorship remaining.*
 
@@ -112,7 +112,7 @@ Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</span>
 
 <br />
 
-Other *a la carte* sponsorship opportunities are also available. Many additional opportunities exist, including the option to sponsor childcare, the first day of training, notepads and pens, lanyards, or the printed program. Please contact the organizers at gcc2019-org@lists.galaxyproject.org to inquire about sponsoring other aspects of this event. 
+Other *a la carte* sponsorship opportunities are also available. Many additional opportunities exist, including the option to sponsor childcare, the first day of training, notepads and pens, lanyards, or the printed program. Please contact the organizers at gcc2019-org@lists.galaxyproject.org to inquire about sponsoring other aspects of this event.
 
 
 # CollaborationFest Sponsorships
@@ -164,7 +164,7 @@ Cost: €500 <span class="small">(+VAT)</span>
 - Organization logo listed as a Giga level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
 - Organization logo listed as a Giga sponsor on printed material distributed to meeting participants.
 - An eighth page color ad in printed material
-- A guaranteed participant slot for sponsor organisation representative 
+- A guaranteed participant slot for sponsor organisation representative
 - Thanks and acknowledgements from organisers before and during the collaborative events
 
 

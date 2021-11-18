@@ -82,7 +82,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 # Core Distribution Process
 
 **If you need a refresher about how to upgrade or this is your first upgrade in a while, please see the latest instructions at:
-   
+
    [Get Galaxy](http://getgalaxy.org)**
 
 <br />
@@ -91,7 +91,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 ## Required metadata reset for installed tool shed repositories
 
 **It is critical that you reset the metadata on your installed tool shed repositories when you upgrade your Galaxy instance to this revision!**
-<br /> 
+<br />
 **[Be sure to learn how.](http://wiki.galaxyproject.org/ResettingMetadataForInstalledRepositories)**
 
 <br />
@@ -107,7 +107,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 # Tools
 
 1. *Tophat2*: Added an `align_summary` output report. https://trello.com/c/72XqqDQ4
-1. General: 
+1. General:
   * Created a shared tool and parameter base on both the client and server side. https://trello.com/c/QTCrzr85
   * Dictify mixin cleanup. https://trello.com/c/P5fog600
   * Update to latest select2. https://trello.com/c[/NaGczwr](/archive/dev-news-briefs/2013-11-04/NaGczwr/)T
@@ -201,14 +201,14 @@ See above: [New Tool Migrations](/archive/dev-news-briefs/2013-11-04/#new-tool-m
 
 ## Galaxy and Tool Shed Functional Test Framework Fixes and Enhancements
 
-Significant work is continuing with the [Galaxy Tool Shed automated test framework](http://wiki.galaxyproject.org/AutomatedToolTests), including the following fixes and enhancements.   
+Significant work is continuing with the [Galaxy Tool Shed automated test framework](http://wiki.galaxyproject.org/AutomatedToolTests), including the following fixes and enhancements.
 1. Tool dependency binaries can now optionally be retained across test runs.  Tool dependencies are retained by default, shortening the time it takes to run the entire test framework.  Tool dependencies that result in installation errors are explicitly uninstalled and reinstalled.
 1. The *job walltime* has been set to 10 minutes to eiliminate process ( `buildbot`) timeouts and to shorten the time it takes to run the entire test framework.
 1. The scenario where a repository installs correctly, but it depends on another repository with a tool dependency that is in an error state is now properly handled.
 
 ## Tool Shed RESTful API Enhancements
 
-The [Tool Shed API](http://wiki.galaxyproject.org/ToolShedApi#The_Tool_Shed_API) has some new features.   
+The [Tool Shed API](http://wiki.galaxyproject.org/ToolShedApi#The_Tool_Shed_API) has some new features.
 1. `GET /api/repository_ids_for_setting_metadata ` : Returns a list of repository ids ordered for setting metadata.
 1. `POST /api/reset_metadata_on_repositories/{payload} ` : Resets all metadata on specified repositories in the Tool Shed in an "orderly fashion".  The order in which metadata is reset is repositories of type ` TOOL_DEPENDENCY_DEFINITION ` first followed by repositories of type ` UNRESTRICTED `.
 1. `POST /api/reset_metadata_on_repository/{payload} ` : Resets all metadata on a specified repository in the Tool Shed.
@@ -230,7 +230,7 @@ This release includes several fixes for rendering repository `README` text files
 Several beneficial enhancements have bee added to the support for [defining tool dependencies within a Tool Shed repository](http://wiki.galaxyproject.org/ToolShedToolFeatures), including the ability to define recipes for downloading pre-compiled dependency binaries for selected operating system environments that are automatically determined at installation time rather than always requiring source code to be installed and compiled.  This feature is supported by the introduction of a new ` <actions_group> ` tag and support for filtering contained ` <actions> ` tags by architecture and operating system.   Other enhancements include the following.
 1. The **make_directory** action has been enhanced to create the specified directory under the current working directory if it's value is not prefixed with ` $INSTALL_DIR `.
 1. The **move_file** action has been enhanced to optionally include a new `rename_to attribute`.
-1. Support for handling downloaded archives of files has been enhanced to extract files and into a specified location based on the internal directory structure of the archive. 
+1. Support for handling downloaded archives of files has been enhanced to extract files and into a specified location based on the internal directory structure of the archive.
 
 ## Galaxy Fixes and Enhancements for Installing Tool Shed Repositories
 
@@ -358,7 +358,7 @@ Several beneficial enhancements have bee added to the support for [defining tool
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

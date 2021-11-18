@@ -15,11 +15,11 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 * *From [genouest](https://toolshed.g2.bx.psu.edu/view/genouest):*
    * [askor_de](https://toolshed.g2.bx.psu.edu/view/genouest/askor_de):  AskoR links EdgeR and AskOmics. AskoR perform DE analyses from raw counts and generates AskOmics compliant files.
    * [feelnc2asko](https://toolshed.g2.bx.psu.edu/view/genouest/feelnc2asko):  Convert FeelNC GTF to GFF3. Convert FeelNC GTF to GFF3.
-   * [miranda2asko](https://toolshed.g2.bx.psu.edu/view/genouest/miranda2asko):  Converts miRanda output into AskOmics format. 
+   * [miranda2asko](https://toolshed.g2.bx.psu.edu/view/genouest/miranda2asko):  Converts miRanda output into AskOmics format.
 * *From [mheinzl](https://toolshed.g2.bx.psu.edu/view/mheinzl):*
    * [fsd](https://toolshed.g2.bx.psu.edu/view/mheinzl/fsd):  fsd. Tool that plots a histogram of sizes of read families.
 * *From [kyost](https://toolshed.g2.bx.psu.edu/view/kyost):*
-   * [atac_primer_tool](https://toolshed.g2.bx.psu.edu/view/kyost/atac_primer_tool):  Tool dependencies for ATAC Primer Tool workflow. 
+   * [atac_primer_tool](https://toolshed.g2.bx.psu.edu/view/kyost/atac_primer_tool):  Tool dependencies for ATAC Primer Tool workflow.
 * *From [kyu](https://toolshed.g2.bx.psu.edu/view/kyu):*
    * [helloworld](https://toolshed.g2.bx.psu.edu/view/kyu/helloworld):  testrepository. long description.
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
@@ -28,16 +28,16 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 * *From [jfb](https://toolshed.g2.bx.psu.edu/view/jfb):*
    * [promap](https://toolshed.g2.bx.psu.edu/view/jfb/promap):  for use with Open Contact. This tool is used to determine which atom-atom interactions are shared between multiple snapshots or multiple pictures of NMR or Crystalography.
 * *From [yqiancolumbia](https://toolshed.g2.bx.psu.edu/view/yqiancolumbia):*
-   * [ctk](https://toolshed.g2.bx.psu.edu/view/yqiancolumbia/ctk):  CLIP data analysis. 
+   * [ctk](https://toolshed.g2.bx.psu.edu/view/yqiancolumbia/ctk):  CLIP data analysis.
 * *From [padr](https://toolshed.g2.bx.psu.edu/view/padr):*
    * [remove_non_ascii_chars](https://toolshed.g2.bx.psu.edu/view/padr/remove_non_ascii_chars):  Remove Non-Ascii chars from text file. Remove Non-Ascii chars from text file.
 * *From [nml](https://toolshed.g2.bx.psu.edu/view/nml):*
-   * [pseudogenome](https://toolshed.g2.bx.psu.edu/view/nml/pseudogenome):  Create a pseudogenome from a multiple fasta file either with a JCVI linker or custom length and characters. 
+   * [pseudogenome](https://toolshed.g2.bx.psu.edu/view/nml/pseudogenome):  Create a pseudogenome from a multiple fasta file either with a JCVI linker or custom length and characters.
 * *From [dereeper](https://toolshed.g2.bx.psu.edu/view/dereeper):*
-   * [sniplay3_complete_workflow](https://toolshed.g2.bx.psu.edu/view/dereeper/sniplay3_complete_workflow):  SNiPlay3 complete workflow: a package for exploration and large scale analyses of SNP polymorphisms (filtering, density, vcftools, diversity, linkagedisequilibrium, GWAS) (all SNiPlay3 components). 
-   * [fastme](https://toolshed.g2.bx.psu.edu/view/dereeper/fastme):  A distance based phylogeny reconstruction algorithm. 
-   * [vcftools_filter_stats_diversity](https://toolshed.g2.bx.psu.edu/view/dereeper/vcftools_filter_stats_diversity):  Subset of VCFtools fonctionalities : Filtering, Statistics, Diversity (slidingWindow). 
-   * [readseq](https://toolshed.g2.bx.psu.edu/view/dereeper/readseq):  Convert various alignment formats. 
+   * [sniplay3_complete_workflow](https://toolshed.g2.bx.psu.edu/view/dereeper/sniplay3_complete_workflow):  SNiPlay3 complete workflow: a package for exploration and large scale analyses of SNP polymorphisms (filtering, density, vcftools, diversity, linkagedisequilibrium, GWAS) (all SNiPlay3 components).
+   * [fastme](https://toolshed.g2.bx.psu.edu/view/dereeper/fastme):  A distance based phylogeny reconstruction algorithm.
+   * [vcftools_filter_stats_diversity](https://toolshed.g2.bx.psu.edu/view/dereeper/vcftools_filter_stats_diversity):  Subset of VCFtools fonctionalities : Filtering, Statistics, Diversity (slidingWindow).
+   * [readseq](https://toolshed.g2.bx.psu.edu/view/dereeper/readseq):  Convert various alignment formats.
 * *From [abims-sbr](https://toolshed.g2.bx.psu.edu/view/abims-sbr):*
    * [oligator](https://toolshed.g2.bx.psu.edu/view/abims-sbr/oligator):  Oligator: design PCR primers. Oligator was written by Frederic Lechauve frederic_lechauve@yahoo.fr and integrated in Galaxy by ABiMS - Station Biologique de Roscoff - Sorbonne Université / CNRS.
 * *From [earlhaminst](https://toolshed.g2.bx.psu.edu/view/earlhaminst):*
@@ -47,10 +47,10 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 * *From [fabio](https://toolshed.g2.bx.psu.edu/view/fabio):*
    * [btman](https://toolshed.g2.bx.psu.edu/view/fabio/btman): 20180404. BloomTree Manager. A fast querying tool to identify all publicly available sequenced samples which express a transcript of interest.
 * *From [daumsoft](https://toolshed.g2.bx.psu.edu/view/daumsoft):*
-   * [htseq_count_normalized2](https://toolshed.g2.bx.psu.edu/view/daumsoft/htseq_count_normalized2):  htseq_count_normalized2. 
+   * [htseq_count_normalized2](https://toolshed.g2.bx.psu.edu/view/daumsoft/htseq_count_normalized2):  htseq_count_normalized2.
    * [star_icgc_alignment](https://toolshed.g2.bx.psu.edu/view/daumsoft/star_icgc_alignment):  star_icgc_alignment of daumsoft. star_icgc_alignment.
    * [tar](https://toolshed.g2.bx.psu.edu/view/daumsoft/tar):  tar for star_icgc_alignment. https://github.com/hpcdaumsoft.
-   * [htseq_count_normalized](https://toolshed.g2.bx.psu.edu/view/daumsoft/htseq_count_normalized):  htseq_count_normalized. 
+   * [htseq_count_normalized](https://toolshed.g2.bx.psu.edu/view/daumsoft/htseq_count_normalized):  htseq_count_normalized.
 * *From [mvdbeek](https://toolshed.g2.bx.psu.edu/view/mvdbeek):*
    * [damidseq_polii_gene_call](https://toolshed.g2.bx.psu.edu/view/mvdbeek/damidseq_polii_gene_call):  Rscript for calculating average PolII occupancy and FDR for RNA Pol II DamID datasets. Processing DamID-seq data involves extending single-end reads, aligning the  reads to the genome and determining the coverage, similar to processing  regular ChIP-seq datasets. However, as DamID data is represented as a log2  ratio of (Dam-fusion/Dam), normalisation of the sample and Dam-only control  is necessary and adding pseudocounts to mitigate the effect of background  counts is highly recommended.
    * [damidseq_average_scores](https://toolshed.g2.bx.psu.edu/view/mvdbeek/damidseq_average_scores):  Averages the score column of bed or gff files. Averages the score column of bed or gff files.
@@ -59,4 +59,4 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
    * [sklearn_model_validation](https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_model_validation):  Wrapper for scikit learn tool: Model Validation. Scikit-learn is an open source machine learning library written in python.  It provides different flavors of machine learning algorithms for classification,  regression, and clustering. It has designed to interoperate with python numerical  and scientific libraries Numpy and Scipy.    The official repository of Scikit-learn is at https://github.com/scikit-learn/scikit-learn.
    * [sklearn_regression_metrics](https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_regression_metrics):  Wrapper for scikit learn tool: Calculate metrics.
-   * [sklearn_feature_selection](https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection):  Wrapper for scikit learn tool: Feature Selection. 
+   * [sklearn_feature_selection](https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_feature_selection):  Wrapper for scikit learn tool: Feature Selection.

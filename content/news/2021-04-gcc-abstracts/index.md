@@ -21,7 +21,7 @@ GCC2021 features a 3 day conference, 6-8 July, with talks, Q`&`A, posters, demos
 
 # Abstract Submissions are Due May ~~7~~ 17
 
-CC2021 is seeking oral presentations, lightning talks, posters, and demos, from researchers, developers, and educators using, supporting and extending Galaxy all over the world. If you would like to present your work, please [submit your abstract](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts) by May ~~7~~ 17. 
+CC2021 is seeking oral presentations, lightning talks, posters, and demos, from researchers, developers, and educators using, supporting and extending Galaxy all over the world. If you would like to present your work, please [submit your abstract](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts) by May ~~7~~ 17.
 
 **Poster/Demos** will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work.  **Talks** will be pre-recorded, with live Q`&`A.
 

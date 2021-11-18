@@ -1,7 +1,7 @@
 <slot name="/events/gcc2012/page-header" />
 
 <slot name="/events/gcc2012/linkbox" />
-There are different registration levels, depending on your career stage and your organization's for-profit status, and how early you register.  Our goal has been to make this an *absurdly affordable* conference for students and postdocs, and *downright affordable* for everyone else. 
+There are different registration levels, depending on your career stage and your organization's for-profit status, and how early you register.  Our goal has been to make this an *absurdly affordable* conference for students and postdocs, and *downright affordable* for everyone else.
 
 <table>
   <tr>

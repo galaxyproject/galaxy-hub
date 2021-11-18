@@ -57,7 +57,7 @@ Sponsorships are available at four different levels.
   </tr>
 </table>
 
- 
+
 <div class='indent'>
 **Cost: $6,000**
 * 20 minute presentation
@@ -66,7 +66,7 @@ Sponsorships are available at four different levels.
 * Organization logo listed as a Gold sponsor on meeting home and sponsor pages, with link to URL of your choice
 * Organization logo listed as a gold sponsor on printed material distributed to meeting participants.
 * Half page full color ad in printed materials
-* 2 complete attendee registrations 
+* 2 complete attendee registrations
 * Be one of only 3 Gold Sponsors.
 
 </div>
@@ -129,7 +129,7 @@ Sponsorships are available at four different levels.
 <br />
 
 <div class='indent'>
-Please [contact the organizers](/events/gcc2014/organizers/) to make inquiries about sponsoring other parts of this events.  Many additional opportunities exist, including 
+Please [contact the organizers](/events/gcc2014/organizers/) to make inquiries about sponsoring other parts of this events.  Many additional opportunities exist, including
 * Breaks
 * Notepads, pens
 * Wifi
@@ -142,7 +142,7 @@ Please [contact the organizers](/events/gcc2014/organizers/) to make inquiries a
 <div class='center'><img src="/events/gcc2013/sponsorships/HostsBanner.png" alt="" height="52" width="80%" />
 
 <br />
-<a href='http://biolchem.bs.jhmi.edu/'><img src="/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  /></a> &nbsp; 
+<a href='http://biolchem.bs.jhmi.edu/'><img src="/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  /></a> &nbsp;
 <a href='http://jhu.edu'><img src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins University" height="100" /></a><br /><br />
 <a href='http://epigenetics.jhu.edu/'><img src="/images/logos/JohnHopkinsEpigenetics.jpg" alt="Center for Epigenetics" /></a>
 </div>

@@ -10,7 +10,7 @@ For the time being, it is necessary for each Jetstream user to request a new res
 * Next, set your role as a PI and click Next.
 
 <img src="http://i.imgur.com/xqfxW30.png" alt="" width=400 />
-* In the next step, you will need to provide a title for your allocation and an abstract about your research. 100 words is sufficient. 
+* In the next step, you will need to provide a title for your allocation and an abstract about your research. 100 words is sufficient.
 * Choose *Jetstream* as your desired target resource type and supply your anticipated usage for the duration of the project in [Service Units (SUs)](https://portal.xsede.org/knowledge-base/-/kb/document/bazo); projects are awarded on an annual basis so be careful not to forget about your instance left running when not in use. Note that 1 virtual CPU on an Jetstream instance corresponds to 1 SU. So, if you launch a 8 CPU instance, you will be using 8 SUs per each hour the instance is running. So, do some math and try to estimate how many SUs will you need each month.
 
 <img src="http://i.imgur.com/BS9h6Kn.png" alt="" width=400 />
@@ -86,6 +86,6 @@ the appropriate menu:
     <img src="/cloud/jetstream/allocation/cl-load-creds-4.png" alt="" width="75%" />
 </a><br /><br />
 
-**Note** that for the time being, if you launch instances via CloudLaunch, it will be 
-necessary to shut them down using the Jetstream OpenStack Dashboard 
+**Note** that for the time being, if you launch instances via CloudLaunch, it will be
+necessary to shut them down using the Jetstream OpenStack Dashboard
 (https://iu.jetstream-cloud.org/dashboard).

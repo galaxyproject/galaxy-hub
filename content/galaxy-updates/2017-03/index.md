@@ -5,7 +5,7 @@ title: March 2017 Galaxy News
 
 Welcome to the March 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  After *5 years* [of monthly newsletters](/galaxy-updates/), we took a newsletter hiatus last month, but now we are back, and ready to report on our *continuing mission* to explore the Galaxy.
 
-Thanks for sticking with us. 
+Thanks for sticking with us.
 
 # Events
 
@@ -20,7 +20,7 @@ As always there are a wealth of events coming up.  Here are some highlights:
 We are pleased to announce that  [early registration](https://gcc2017.sciencesconf.org/page/registration) and [abstract submission](https://gcc2017.sciencesconf.org/page/submit) for the **[2017 Galaxy Community Conference (GCC2017)](https://gcc2017.sciencesconf.org/)** are now open.
 
 GCC2017 will be in Montpellier, France, 26-30 June and will feature two days of presentations, discussions, poster sessions, lightning talks, computer demos, keynotes, and birds-of-a-feather meetups, **all about data-intensive biology and the tools and infrastructure that support it.** GCC2017 also includes data and coding hacks, and **[two days of training](https://gcc2017.sched.com/overview/type/Training)** covering 16 different topics.
- 
+
 GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-events.com/en/The-Corum/Presentation) in the heart of [Montpellier](https://gcc2017.sciencesconf.org/page/location), just 10km from the Mediterranean. This event will gather several hundred researchers addressing diverse questions and facing common challenges in data intensive life science research. GCC participants work across the tree of life, come from around the world, and work at universities, research organizations, industry, medical schools and research hospitals.
 
 **[Early registration](https://gcc2017.sciencesconf.org/page/registration)** is also open and starts at less than 55€ / day for post-docs and students.  You can also [book low cost conference housing](https://gcc2017.sciencesconf.org/page/lodging) when you register.
@@ -29,7 +29,7 @@ GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-even
 
 [GCC2017](https://gcc2017.sciencesconf.org/) is a great opportunity to discuss your research with others that are working in and facing similar challenges in data-intenisve life science research.  *But only if you can get there.*
 
-The Galaxy Community Fund is offering [fellowships](http://bit.ly/gcc2017apply) to early career researchers that would be coming from afar to attend GCC2017. 
+The Galaxy Community Fund is offering [fellowships](http://bit.ly/gcc2017apply) to early career researchers that would be coming from afar to attend GCC2017.
 
 Fellowships include
 
@@ -45,8 +45,8 @@ If you are
 
 Fellowship applications will be selected based on multiple criteria including
 
-- Your research! And ... 
-- How well you can describe it in a poster, demo or lightning talk abstract 
+- Your research! And ...
+- How well you can describe it in a poster, demo or lightning talk abstract
 - How much impact attending will have on you and your current and future communities, especially historically underrepresented communities and research and education in developing countries.
 
 See the [application](http://bit.ly/gcc2017apply) for full details on what's covered and what we ask you to provide.
@@ -69,7 +69,7 @@ The [Plateform de BioInformatique - INRA Jouy en Josas](http://migale.jouy.inra.
 ## Metaproteomics of microbiomes at ABRF 2017
 
 <div class="right">
-<a href='http://conf.abrf.org/the-galaxy-platform'><img src="/images/logos/abrf2017-clipped.png" alt="The Galaxy platform for metaproteomic characterization of microbiomes @ ABRF 2017" height="60" style="vertical-align: top" /> 
+<a href='http://conf.abrf.org/the-galaxy-platform'><img src="/images/logos/abrf2017-clipped.png" alt="The Galaxy platform for metaproteomic characterization of microbiomes @ ABRF 2017" height="60" style="vertical-align: top" />
 <img src="/images/logos/GalaxyPLogo.png" alt="presented by the GalaxyP team" height="80"> </a>
 </div>
 
@@ -78,7 +78,7 @@ Learn how Galaxy can be used for proteomic data analysis, and also applications 
 "With a focus on metaproteomics for characterizing microbiomes, we will help participants learn how to utilize tools for mass spectrometry-based proteomics in Galaxy. Metaproteomics is a multi-omic approach, which characterizes proteins expressed by microorganism communities (microbiomes). Participants will also learn how to leverage metagenomics data to generate protein sequence databases used for proteomic analysis, and utilize the protein information to gain better functional understanding of microbiomes. In addition to receiving hands-on instruction on the use of the Galaxy platform and its implementation, participants will gain experience with the latest software tools and workflows for proteomic and metaproteomic data analysis developed via worldwide collaborative efforts."
 
 See the [full workshop description](http://conf.abrf.org/the-galaxy-platform) for more. There is still space avaialable.
- 
+
 
 ## Galaxy Australasia Meeting (GAMe 2017) Report
 
@@ -101,7 +101,7 @@ A video of the [February 16 GalaxyAdmins Meetup](/community/galaxy-admins/meetup
 
 There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
-<div class='center'> 
+<div class='center'>
 <a href='http://migale.jouy.inra.fr/?q=formations'><img src="/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2017' height="50" /></a>
 <a href='http://conf.abrf.org/the-galaxy-platform'><img src="/images/logos/abrf2017-clipped.png" alt="The Galaxy platform for metaproteomic characterization of microbiomes @ ABRF 2017" height="50" /></a>
 <a href='https://www.biogenouest.org/RNA-seq%2526microarray#Traitement de données de séquences par Galaxy - 1 jour'><img src="/images/logos/biogenouest400.jpeg" alt="Traitement de données de séquences par Galaxy" height="50" /></a>
@@ -243,7 +243,7 @@ The *Hub* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://met
 
 Content was automatically converted from MoinMoin and Creole markup to Markdown, and many other things were also cleaned up in the process. However, the automatic translation stumbled in some places and the cleanup and general restructuring are far from done.  We also aren't yet taking advantage of Metalsmith to render semi-structured content and page metadata.
 
-[We are using GitHub issues](https://github.com/galaxyproject/galaxy-site/issues/) and a Gitter channel to coordinate work. 
+[We are using GitHub issues](https://github.com/galaxyproject/galaxy-site/issues/) and a Gitter channel to coordinate work.
 
 ----
 
@@ -286,7 +286,7 @@ Some highlights from the past two months:
       Nancy Ide, Keith Suderman, Eric Nyberg, James Pustejovsky, Marc Verhagen. In Proceedings of the Third International Workshop on Worldwide Language Service Infrastructure and Second Workshop on Open Infrastructures and Analysis Frameworks for Human Language Technologies (WLSI/OIAF4HLT2016) (December 2016), pp. 11-18
 
    * [Demonstration: The Language Application Grid as a Platform for Digital Humanities Research](http://ceur-ws.org/Vol-1786/ide.pdf)
-      Nancy Ide, Keith Suderman, James Pustejovsky, In CDH@TLT (2017) 
+      Nancy Ide, Keith Suderman, James Pustejovsky, In CDH@TLT (2017)
 
 
 ## Publication Topics
@@ -493,7 +493,7 @@ The [January and February releases](https://github.com/galaxyproject/galaxy-lib/
 
 These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems.
 
-Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
+Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/).
 
 ## sequence_utils (New)
 

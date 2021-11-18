@@ -25,7 +25,7 @@ The session content will be largely driven by the needs and interests of the par
 
 ## Audience
 
-Whether you are a scientific Galaxy user yourself, or someone that administrates a Galaxy instance, this session is an opportunity to both learn about core concepts and ask questions while exploring http://usegalaxy.org live. Experienced Galaxy users will be on hand to help so that we can break out into distinct groups as needed. 
+Whether you are a scientific Galaxy user yourself, or someone that administrates a Galaxy instance, this session is an opportunity to both learn about core concepts and ask questions while exploring http://usegalaxy.org live. Experienced Galaxy users will be on hand to help so that we can break out into distinct groups as needed.
 
 
 ## When and Where
@@ -63,7 +63,7 @@ Tour of Galaxy's learning resources included:
 ## Feedback
 
 * In future GCCs, a dedicated introduction session would benefit both Galaxy's newest scientific informatics users and new/existing developers seeking a big picture usage overview.
-* The User Interface is rich with features. More could be offered to explain nomenclature and functionality from documented use-cases in plainly given examples. 
+* The User Interface is rich with features. More could be offered to explain nomenclature and functionality from documented use-cases in plainly given examples.
 * It was suggested that primary (Learn, Pages) and alternate (Events: Workshops) learning resources be organized in topic-oriented groupings. Keywords?
 
 ## Questions?

@@ -7,7 +7,7 @@ Blankenberg D, Taylor J, Nekrutenko A, The Galaxy Team. "[Making whole genome mu
 
 ## About the Alignments
 
-Whole genome alignments, even those produced by "*quasi-global*" algorithms, are inevitably fragmented owing to the complex evolutionary history of genomic DNA and karyotypes, which involves duplications, deletions, insertions and other rearrangements. These alignments also tend to be extremely large.  To allow biologists to easily and efficiently manipulate multiple species whole genome alignments, they are stored locally at the Galaxy site, in a compressed form, and indexed.  The majority of alignments are produced using Penn State's [multiZ](http://www.bx.psu.edu/miller_lab/) (for more information on multiZ [click here](http://bio.cse.psu.edu/dist/tba.pdf)) aligner run on the computational facilities of [The UC Santa Cruz Genome Biology Group](http://genome.ucsc.edu/) led by Jim Kent.  Tools for handling multiple alignments described here are written by Dan Blankenberg and based on the [bx-python](http://bx-python.trac.bx.psu.edu/) package developed by James Taylor. 
+Whole genome alignments, even those produced by "*quasi-global*" algorithms, are inevitably fragmented owing to the complex evolutionary history of genomic DNA and karyotypes, which involves duplications, deletions, insertions and other rearrangements. These alignments also tend to be extremely large.  To allow biologists to easily and efficiently manipulate multiple species whole genome alignments, they are stored locally at the Galaxy site, in a compressed form, and indexed.  The majority of alignments are produced using Penn State's [multiZ](http://www.bx.psu.edu/miller_lab/) (for more information on multiZ [click here](http://bio.cse.psu.edu/dist/tba.pdf)) aligner run on the computational facilities of [The UC Santa Cruz Genome Biology Group](http://genome.ucsc.edu/) led by Jim Kent.  Tools for handling multiple alignments described here are written by Dan Blankenberg and based on the [bx-python](http://bx-python.trac.bx.psu.edu/) package developed by James Taylor.
 ----
 ## Tools and Categories
 
@@ -62,19 +62,19 @@ The FASTA output is relative to the genome of the input interval; positions that
   Consider the interval: "chrX 1000 1100 myInterval"
   Let's suppose we want to do stats on three way alignments for H, M, and R. The result look like this:
   
-    chrX 1000 1100 myInterval H XXX YYY 
-    
-    chrX 1000 1100 myInterval M XXX YYY 
-    
-    chrX 1000 1100 myInterval R XXX YYY 
-      
+    chrX 1000 1100 myInterval H XXX YYY
+
+    chrX 1000 1100 myInterval M XXX YYY
+
+    chrX 1000 1100 myInterval R XXX YYY
+
   
      where XXX and YYY are:
 
         XXX = number of nucleotides
      
         YYY = number of gaps
-    
+
   Alternatively, you can request only summary information for a set of intervals:
   
   

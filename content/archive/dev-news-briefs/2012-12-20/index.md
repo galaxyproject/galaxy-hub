@@ -113,7 +113,7 @@ It is important to note that *only the most **specific match** will be used if t
 
 1. *User Interface (UI)*: Tabular Display: For extremely wide datasets (50 columns or more), revert to the old (non-table) display behavior.  Rational: the incremental renderer sometimes has issues with these types of files.
 2. *Libraries*: Include custom genomes in `dbkey` field when uploading library datasets.
-3. *Histories*: Create **.bai** indexes when importing **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM) (.bam)** datasets while importing/exporting histories. 
+3. *Histories*: Create **.bai** indexes when importing **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM) (.bam)** datasets while importing/exporting histories.
   * note: a specific .bai index is associated with every .bam dataset, and is required, but the index file is not displayed in a history as a distinct dataset. Index files can be downloaded/accessed using the 'save' function in the **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM)** dataset's history item. When loading **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM)** datasets into Galaxy, or when they are created by tools, the .bai index is created automatically by those processes.
 
 <br />
@@ -131,9 +131,9 @@ It is important to note that *only the most **specific match** will be used if t
 
 <div class='left'><a href='http://bit.ly/gxytrello'><img src="/images/logos/TrelloLogo300.png" alt="Galaxy Issue Board @ Trello" width="100" /></a></div>
 
-The Galaxy Project uses *[Trello](http://trello.com/)* for [issue creation](http://galaxyproject.org/trello) plus [commenting](http://wiki.galaxyproject.org/Issues#Add a Comment) and [voting](http://wiki.galaxyproject.org/Issues#Vote) on existing issues. 
+The Galaxy Project uses *[Trello](http://trello.com/)* for [issue creation](http://galaxyproject.org/trello) plus [commenting](http://wiki.galaxyproject.org/Issues#Add a Comment) and [voting](http://wiki.galaxyproject.org/Issues#Vote) on existing issues.
 
-Want to review what we're working on, vote, or submit a new idea to the Galaxy team? Our new wiki has all the details! 
+Want to review what we're working on, vote, or submit a new idea to the Galaxy team? Our new wiki has all the details!
 **[Using the Galaxy Issue Board](http://wiki.galaxyproject.org/Issues)**
 
 <br />
@@ -153,7 +153,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 7. Fix *Trackster* links when `dbkey` is empty.
 8. Fix text selection of dataset names in the history panel.
 9. Fixes to history-related functional tests.
-10. Fix rendering of 'save' pop-up menu downloadable composite files 
+10. Fix rendering of 'save' pop-up menu downloadable composite files
   * *example:* [BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM) datasets have two download components, .bam (primary dataset) and .bam.bai (the index)
 
 <br />
@@ -177,7 +177,7 @@ Get a word in now.
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

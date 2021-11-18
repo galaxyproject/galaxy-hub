@@ -50,7 +50,7 @@ First, everyone needs data, so including some data management capabilities direc
   * Tab across top menu bar
     * Suggestions for tab display name: "Genome Info", "Reference Data", "Reference Genome"
     * Page would contain detailed info on all built-in data
-  * Link from history item to that particular build info 
+  * Link from history item to that particular build info
     * Does all info about build need to be displayed, or just some of it?
 
 ### Best practices

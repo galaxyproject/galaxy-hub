@@ -2,7 +2,7 @@
 title: "Galaxy Australasia Workshop 2014"
 date: "2014-01-17"
 ---
-**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](/events/gaw2014/) will be held in Melbourne, Australia on 24 and 25th March 2014.** 
+**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](/events/gaw2014/) will be held in Melbourne, Australia on 24 and 25th March 2014.**
 
 <div class='right'><a href='/events/gaw2014/'><img src="/events/gaw2014/MCC.png" alt="Galaxy Australasia Workshop 2014" /></a></div>
 
@@ -35,9 +35,9 @@ GAW 2014 will also include poster session, keynote speakers.
 
 **Call For Abstracts**
 
-Participants who wish to give presentations or present posters (potentially with technical demonstrations) that showcase use of Galaxy should submit a brief one-page abstract and brief one-paragraph bio to the [GAW2014 Organisers](mailto:gaw2014 DASH org AT groups DOT galaxyproject DOT org) **by February 15th, 2014.** Submitters will be notified by February 28th. Speakers, panelists, and poster presenters will be selected by the program committee based on relevance to symposium objectives and workshop balance. 
+Participants who wish to give presentations or present posters (potentially with technical demonstrations) that showcase use of Galaxy should submit a brief one-page abstract and brief one-paragraph bio to the [GAW2014 Organisers](mailto:gaw2014 DASH org AT groups DOT galaxyproject DOT org) **by February 15th, 2014.** Submitters will be notified by February 28th. Speakers, panelists, and poster presenters will be selected by the program committee based on relevance to symposium objectives and workshop balance.
 
-Submissions should clearly state whether they are for: poster or oral presentation. 
+Submissions should clearly state whether they are for: poster or oral presentation.
 
 Looking forward to seeing you all in Melbourne!
 

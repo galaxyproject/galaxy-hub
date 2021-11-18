@@ -8,20 +8,20 @@ Also see: [http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.htm
 
 Dear Galaxy User,
 
-Thank you very much for using our free and open public resource. Galaxy has become extremely popular and as a result many people rely on it daily for their analysis needs. Previously our service had no restrictions on usage, which is not sustainable in the long term. To continue providing our open service in a fair manner, we are now implementing quotas at the public Galaxy Main instance http://usegalaxy.org (http://main.g2.bx.psu.edu). 
+Thank you very much for using our free and open public resource. Galaxy has become extremely popular and as a result many people rely on it daily for their analysis needs. Previously our service had no restrictions on usage, which is not sustainable in the long term. To continue providing our open service in a fair manner, we are now implementing quotas at the public Galaxy Main instance http://usegalaxy.org (http://main.g2.bx.psu.edu).
 
 
 The Main quotas are:
 
 Data
 - 250Gb for registered users (with a Galaxy account)
-- 5Gb for unregistered users 
+- 5Gb for unregistered users
 
 Jobs
-- 8 concurrent jobs running simultaneously (all users) 
+- 8 concurrent jobs running simultaneously (all users)
 
 
-For more details please see: 
+For more details please see:
 
 Galaxy Main Wiki
 http://galaxyproject.org/wiki/Main
@@ -43,7 +43,7 @@ http://galaxyproject.org/wiki/Big%20Picture/Choices
 
 Thanks for using Galaxy!
 
--- 
+--
 The Galaxy team
 http://usegalaxy.org
 http://getgalaxy.org

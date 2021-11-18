@@ -24,11 +24,11 @@ Poster and demo listing available on https://gccbosc2018.sched.com. Note - odd n
 
 ## Who can stay in conference housing in Reed College residence halls?
 
-Conference attendees 18 years or older, and their guests.  See [requirements for guests](/events/gccbosc2018/venue/#guests). 
+Conference attendees 18 years or older, and their guests.  See [requirements for guests](/events/gccbosc2018/venue/#guests).
 
 ## Can I stay in the Reed College residence halls (dorms) on Saturday night, June 23rd?
 
-No, unfortunately the dorms are only available starting Sunday, June 24th. Please click [here](/events/gccbosc2018/venue/#other-options) for other options off campus. 
+No, unfortunately the dorms are only available starting Sunday, June 24th. Please click [here](/events/gccbosc2018/venue/#other-options) for other options off campus.
 
 ## Checking in after hours?
 If you are you picking up your key packet outside of the registration desk hours, your key packet will be available at Reed's Community Safety Office. It is open 24 hours a day, 7 days a week: 5436 SE 28th Ave, Portland, OR 97202. 503/517-5355
@@ -36,20 +36,20 @@ If you are you picking up your key packet outside of the registration desk hours
 ## Can I have mail/a package delivered to me at Reed?
 
 Yes, mail services is on the lower level of the Gray Campus Center (below commons) and is open from 9 a.m. to 4 p.m. Monday through Thursday, and from 9 a.m. to noon on Friday. USPS and FedEx shipping options are available. Incoming mail will not be delivered to dorms. Your dorm host will gladly notify your conference organizer when a package arrives for you. If you are receiving mail at Reed, please use the following address:  
- 
-YOUR NAME 
+
+YOUR NAME
 
 GCCBOSC conference
 
-Reed College 
+Reed College
 
-3203 SE Woodstock Blvd. 
+3203 SE Woodstock Blvd.
 
 Portland OR 97202-8199
 
 ## Are there off-campus housing options?
 
-[Yes](/events/gccbosc2018/venue/#other-options). 
+[Yes](/events/gccbosc2018/venue/#other-options).
 
 
 # Visas
@@ -75,7 +75,7 @@ In addition, a letter verifying your student status or employment status may be 
 
 Note, the GCCBOSC 2018 organizers are not experts on US immigration and cannot offer any advice.
 
-## ESTA 
+## ESTA
 If you need a US based contact name (address and phone number), please contact Nicole Vasilevsky at: vasilevs@ohsu.edu
 
 For your address while in the US, the address of Reed College is:
@@ -95,7 +95,7 @@ See the [childcare page](/events/gccbosc2018/childcare/) for details.
 
 # Sales Tax?
 
-There is no sales tax in Oregon. There is no tax on the registration fee. 
+There is no sales tax in Oregon. There is no tax on the registration fee.
 
 # Other questions?
 

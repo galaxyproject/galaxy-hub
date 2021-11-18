@@ -22,7 +22,7 @@ Some highlights from the **[June Galaxy News](/galaxy-updates/2016-06/)**
 * [Papers](/galaxy-updates/2016-06/#new-papers) (76 of them, 4 highlighted)
 * [Open positions](/galaxy-updates/2016-06/#whos-hiring) (5 of them)
 * New [Semi-Public Galaxy Servers Directory](/galaxy-updates/2016-06/#new-semi-public-galaxy-servers-directory) and new [Commercial Support Directory](/galaxy-updates/2016-06/#new-commercial-support-directory)
-* A new [Galaxy Trainer](/galaxy-updates/2016-06/#galaxy-community-hubs) 
+* A new [Galaxy Trainer](/galaxy-updates/2016-06/#galaxy-community-hubs)
 * New [Releases](/galaxy-updates/2016-06/#releases): [Galaxy v16.04](/galaxy-updates/2016-06/#galaxy-v1604), [CloudMan 16.04](/galaxy-updates/2016-06/#cloudman-1604), [Planemo](/galaxy-updates/2016-06/#planemo-0250---0260), and [galaxy-lib](/galaxy-updates/2016-06/#galaxy-lib-1671---1677).
 * [April and May ToolShed Contributions](/galaxy-updates/2016-06/#toolshed-contributions), and [other news](/galaxy-updates/2016-06/#other-news) too.
 

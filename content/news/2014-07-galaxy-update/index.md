@@ -9,7 +9,7 @@ date: "2014-06-25"
 </div>
 
 The [July 2014 Galaxy Update Newsletter](/galaxy-updates/2014-07/) is out, and a few days early at that.  Here's a preview of what's inside:
- 
+
 * **[GCC2014 starts on Monday](/galaxy-updates/2014-07/#gcc2014-june-30---july-2-baltimore)**.  It's Galaxy's big annual event, and for the third year in a row there will be more than 200 participants.
 * Galaxy will again be covered by many different people at [ISMB and BOSC 2014](/galaxy-updates/2014-07/#galaxy--isbmb-and-bosc-2014).  There are at least six talks and five posters related to Galaxy this year.
 * [Over the rest of the summer there are other Galaxy related events in Leiden, Sydney, Brisbane, São Paulo, and Rio de Janeiro](/galaxy-updates/2014-07/#other-events).

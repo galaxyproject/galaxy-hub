@@ -67,7 +67,7 @@ If you will be anywhere near San Antonio, Texas on October 10 then please consid
 
 **[Galaxy Admin Training](/events/2018-europe-dev/)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
 
-[Registration](https://github.com/galaxyproject/galaxy-hub/blob/master/events/2019-admin-training/#registration) is open. Early registration rates end October 31st. 
+[Registration](https://github.com/galaxyproject/galaxy-hub/blob/master/events/2019-admin-training/#registration) is open. Early registration rates end October 31st.
 
 See the [Galaxy 2019 Admin Training page](/events/2019-admin-training/) for more details.
 
@@ -248,12 +248,12 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 138 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 47 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 28 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 24 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | 
-| 15 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 7 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | 
-| 7 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 5 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | 
-| 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 2 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | 
+| 138 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 47 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 28 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 24 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) |
+| 15 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 7 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) |
+| 7 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 5 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) |
+| 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 2 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) |
 | 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | | | | | | | | | | |
 
 ----
@@ -270,7 +270,7 @@ There are three new *[Galactic Blog](/blog/)* entries:
   * *This is the first of a new monthly series about [GTN Tutorials](https://training.galaxyproject.org/).*
 * [Contributor of the Month: Yvan Le Bras](/blog/2018-10-cotm-yvan-le-bras/), By Björn Grüning
 
----- 
+----
 # Who's Hiring
 
 <div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
@@ -318,15 +318,15 @@ Here's what's new:
 
 We tag papers that use, mention, implement or extend public Galaxy servers, services and other resources.  Here are the counts for the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 20 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | | 3 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | 
-| 2 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 2 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 2 | [>MGEScan](https://www.zotero.org/groups/1732893/galaxy/tags/>MGEScan) | | 2 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) | 
-| 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>ANASTASIA](https://www.zotero.org/groups/1732893/galaxy/tags/>ANASTASIA) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/tags/>ARIES) | 
-| 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>CLIMB](https://www.zotero.org/groups/1732893/galaxy/tags/>CLIMB) | | 1 | [>CRAVAT-P](https://www.zotero.org/groups/1732893/galaxy/tags/>CRAVAT-P) | | 1 | [>DBCLS](https://www.zotero.org/groups/1732893/galaxy/tags/>DBCLS) | 
-| 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 1 | [>GenOuest](https://www.zotero.org/groups/1732893/galaxy/tags/>GenOuest) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-MEL) | 
-| 1 | [>Hunter](https://www.zotero.org/groups/1732893/galaxy/tags/>Hunter) | | 1 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid) | | 1 | [>MPDSDM](https://www.zotero.org/groups/1732893/galaxy/tags/>MPDSDM) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | 
-| 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/tags/>Palfinder) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>Sciensano](https://www.zotero.org/groups/1732893/galaxy/tags/>Sciensano) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/tags/>VirAmp) | 
+| 20 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | | 3 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) |
+| 2 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 2 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 2 | [>MGEScan](https://www.zotero.org/groups/1732893/galaxy/tags/>MGEScan) | | 2 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) |
+| 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>ANASTASIA](https://www.zotero.org/groups/1732893/galaxy/tags/>ANASTASIA) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/tags/>ARIES) |
+| 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>CLIMB](https://www.zotero.org/groups/1732893/galaxy/tags/>CLIMB) | | 1 | [>CRAVAT-P](https://www.zotero.org/groups/1732893/galaxy/tags/>CRAVAT-P) | | 1 | [>DBCLS](https://www.zotero.org/groups/1732893/galaxy/tags/>DBCLS) |
+| 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 1 | [>GenOuest](https://www.zotero.org/groups/1732893/galaxy/tags/>GenOuest) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-MEL) |
+| 1 | [>Hunter](https://www.zotero.org/groups/1732893/galaxy/tags/>Hunter) | | 1 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid) | | 1 | [>MPDSDM](https://www.zotero.org/groups/1732893/galaxy/tags/>MPDSDM) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) |
+| 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/tags/>Palfinder) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>Sciensano](https://www.zotero.org/groups/1732893/galaxy/tags/>Sciensano) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/tags/>VirAmp) |
 | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 1 | [>Jetstream](https://www.zotero.org/groups/1732893/galaxy/tags/>Jetstream) | | | | | | | |
 
 ----
@@ -348,7 +348,7 @@ New additions to the Galaxy Community.
                 <a class="heading-anchor" href="#gvl-44"><span></span></a>
                 GVL 4.4
                 </h3>
-    <p>The <a href="https://www.gvl.org.au/">Genomics Virtual Lab (GVL) 4.4.0</a> has been released. The GVL is a comprehensive data analysis workbench that comes as a complete package with a variety of pre-installed and configured software (Galaxy, RStudio, Jupyter) coupled with cloud compute infrastructure. 
+    <p>The <a href="https://www.gvl.org.au/">Genomics Virtual Lab (GVL) 4.4.0</a> has been released. The GVL is a comprehensive data analysis workbench that comes as a complete package with a variety of pre-installed and configured software (Galaxy, RStudio, Jupyter) coupled with cloud compute infrastructure.
     This latest release includes an upgrade of Galaxy to version 18.05, allows overridable Galaxy Configuration, and has many tools updraged to their latest revision. </p>
     <p>See the <a href="https://galaxyproject.org/news/2018-09-28-gvl-440/">GVL 4.4.0 release</a> note for more. </p>
     <h3 id="planemo-0550">

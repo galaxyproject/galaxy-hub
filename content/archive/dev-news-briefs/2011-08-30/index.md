@@ -18,7 +18,7 @@ Slides for several [Galaxy](http://galaxyproject.org) related talks from this ye
 
 ### Recent Publications
 
-Blankenberg D, Taylor J, Nekrutenko A, The Galaxy Team. "[Making whole genome multiple alignments usable for biologists.](http://www.ncbi.nlm.nih.gov/pubmed/21775304 )" *Bioinformatics*. 2011 Jul 19. [Epub ahead of print] 
+Blankenberg D, Taylor J, Nekrutenko A, The Galaxy Team. "[Making whole genome multiple alignments usable for biologists.](http://www.ncbi.nlm.nih.gov/pubmed/21775304 )" *Bioinformatics*. 2011 Jul 19. [Epub ahead of print]
 
 Afgan, E., Baker, D., Team, t. G., Nekrutenko, A. and Taylor, J. (2011). "[A reference model for deploying applications in virtualized environments](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/abstract)." *Concurrency and Computation: Practice and Experience*. doi: 10.1002/cpe.1836
 
@@ -77,7 +77,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * *AWS Genomics Event*
   * [http://aws.amazon.com/genomicsevent](http://aws.amazon.com/genomicsevent)
   * September 22, Seattle, Washington, United States
-  * *Developing distributed analysis pipelines with shared community resources using [CloudBioLinux](http://www.cloudbiolinux.org) and [CloudMan](/cloudman/),* Brad Chapman 
+  * *Developing distributed analysis pipelines with shared community resources using [CloudBioLinux](http://www.cloudbiolinux.org) and [CloudMan](/cloudman/),* Brad Chapman
 
 ## Updated & Improved
 
@@ -85,7 +85,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 
 * New pair-wise alignments for panTro2: calJac3, canFam2, danRer7, equCab2, galGal3, hg19, mm9, ponAbe2, rheMac2
 * New pair-wise alignments for panTro3: calJac1, canFam2, equCab1, hg17, hg19, mm9, ponAbe2, rn4, calJac3, danRer4, galGal2, hg18, mm8, monDom4, rheMac2
-* Correction: panTro3 now available as a native database for the tool "Fetch Sequences -> Extract Genomic DNA" 
+* Correction: panTro3 now available as a native database for the tool "Fetch Sequences -> Extract Genomic DNA"
 
 ### Tools
 
@@ -108,7 +108,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 *Bookmarking*: image shows a bookmark being set for a genomic region.
   ![](/archive/dev-news-briefs/2011-08-30/2011_08_30_bookmarking.png)
 
-*Overview tracks*: image shows, at the bottom: (a) an overview for the EST track and (b) the region currently being viewed. 
+*Overview tracks*: image shows, at the bottom: (a) an overview for the EST track and (b) the region currently being viewed.
   ![](/archive/dev-news-briefs/2011-08-30/2011_08_30_overview.png)
 
 *Features' transparency based on attribute values*: image shows transparency based on score, making it easy to identify a gene's dominant isoform.
@@ -199,12 +199,12 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 
 [GalaxyProject.org](http://galaxyproject.org)
 
-The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam) is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html). 
+The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam) is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
 Join us at **Twitter** `#usegalaxy`
 
-[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject) 
+[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject)
 
 ----

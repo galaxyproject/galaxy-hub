@@ -28,7 +28,7 @@ The Language Analysis Portal (LAP) is a Galaxy-based system that is currently be
 
 ### P2: Cloud-based Image Analysis and Processing Toolbox
 
-**Tomasz Bednarz**, Yulia Arzhaeva, Piotr Szul, Alex Khassapov, Neil Burdett, Dadong Wang, Shiping Chen, Darren Thompson, Tim Gureyev, John Taylor 
+**Tomasz Bednarz**, Yulia Arzhaeva, Piotr Szul, Alex Khassapov, Neil Burdett, Dadong Wang, Shiping Chen, Darren Thompson, Tim Gureyev, John Taylor
 
  [Commonwealth Scientific and Industrial Research Organisation (CSIRO), Australia](http://www.csiro.au)
 
@@ -37,9 +37,9 @@ The Language Analysis Portal (LAP) is a Galaxy-based system that is currently be
 Cloud-based Image Analysis and Processing Toolbox project runs on the [Australian National eResearch Collaboration Tools and Resources (NeCTAR)](http://www.nectar.org.au) cloud infrastructure and allows access to biomedical image processing and analysis services to researchers via remotely accessible user interfaces. The toolbox is based on software packages and libraries developed over the last 10-15 years by [CSIRO](http://www.csiro.au) scientists and software engineers and include functionality: (a) automating process of quantifying cell features in microscopy images; (b) a 3D medical imaging analysis and visualisation platform popular with researchers and medical specialists working with MRI, PET and (c) advanced X-ray image analysis and Computed Tomography. The Galaxy is used a glue to link various imaging functions into fully functional Virtual Laboratory. By providing user-friendly access to cloud computing resources and new workflow-based interfaces, our solution will enable the researchers to carry out various challenging image analysis and reconstruction tasks that are currently impossible or impractical due to the limitations of the existing interfaces. Several case studies will be presented at the conference
 
 Links:
-* [Blog](http://cloudimaging.blogspot.com.au) 
-* [Galaxy in cellular image analysis](https://www.youtube.com/watch?v=CZMDyqQwJLY) 
-* [YouTube channel](https://www.youtube.com/user/CloudImaging) 
+* [Blog](http://cloudimaging.blogspot.com.au)
+* [Galaxy in cellular image analysis](https://www.youtube.com/watch?v=CZMDyqQwJLY)
+* [YouTube channel](https://www.youtube.com/user/CloudImaging)
 * [NeCTAR connecting, sharing, collaborating](http://www.nectar.org.au)
 
 <br />
@@ -55,7 +55,7 @@ Links:
 
 *[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2013/BioBlendSloggett.pdf)*
 
-The Galaxy API allows users and administrators to access a rapidly expanding set of Galaxy functionality via REST commands. CloudMan is a cloud-based job runtime platform, which allows researchers to easily provision scalable 'virtual clusters' to run Galaxy and other applications in a cloud computing environment, and which provides its own REST-based API. 
+The Galaxy API allows users and administrators to access a rapidly expanding set of Galaxy functionality via REST commands. CloudMan is a cloud-based job runtime platform, which allows researchers to easily provision scalable 'virtual clusters' to run Galaxy and other applications in a cloud computing environment, and which provides its own REST-based API.
 
 As a part of Australia’s Genomics Virtual Laboratory project, we created the [BioBlend](http://bioblend.readthedocs.org/) library, a unified API in a high-level language (python) that wraps the functionality of both Galaxy and CloudMan APIs. BioBlend encapsulates the underlying REST API of the two applications in a format that is more suitable for programming and thus makes it easier for bioinformaticians to automate end-to-end large-data analysis, from scratch. Because the end result of a data analysis is still available in the Galaxy environment, the resulting pipeline is highly accessible to collaborators. In combination with CloudMan, it is possible to both provision the required infrastructure, and automate complex analyses over large data sets on an as needed basis.
 
@@ -116,7 +116,7 @@ The emergence of Next generation sequencing (NGS) technology ensued production o
 
 [DOI: 10.6084/m9.figshare.713512](https://doi.org/10.6084/m9.figshare.713512), *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2013/GigaGalaxyEdmunds.pdf), [PPTX](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2013/GigaGalaxyEdmunds.pptx)*
 
-Today's next generation sequencing (NGS) experiments generate substantially more data and are more broadly applicable to previous high-throughput genomic assays. Despite the plummeting costs of sequencing, downstream data processing and analysis create financial and bioinformatics challenges for many biomedical scientists. It is therefore important to make NGS data interpretation as accessible as data generation. [GigaGalaxy (http://gigagalaxy.net/)](http://gigagalaxy.net/) represents a NGS data interpretation solution towards the big sequencing data challenge. We have ported the popular Short Oligonucleotide Analysis Package (http://soap.genomics.org.cn) as well as supporting tools such as Contiguator2 (http://contiguator.sourceforge.net) into the Galaxy framework, to provide seamless NGS mapping, de novo assembly, NGS data format conversion and sequence alignment visualization. Our vision is to create an open publication, review and analysis environment by integrating !GigaGalaxy into the publication platform at !GigaScience and its !GigaDB database that links to more than 17 Tetrabytes of genomic data. We have begun this effort by re-implementing the data procedures described by [Luo et al., (!GigaScience 1: 18, 2012)](http://www.gigasciencejournal.com/content/1/1/18) as Galaxy workflows so that they can be shared in a manner which can be visualized and executed in GigaGalaxy. We hope to revolutionize the publication model with the aim of executable publications, where data analyses can be reproduced and reused. 
+Today's next generation sequencing (NGS) experiments generate substantially more data and are more broadly applicable to previous high-throughput genomic assays. Despite the plummeting costs of sequencing, downstream data processing and analysis create financial and bioinformatics challenges for many biomedical scientists. It is therefore important to make NGS data interpretation as accessible as data generation. [GigaGalaxy (http://gigagalaxy.net/)](http://gigagalaxy.net/) represents a NGS data interpretation solution towards the big sequencing data challenge. We have ported the popular Short Oligonucleotide Analysis Package (http://soap.genomics.org.cn) as well as supporting tools such as Contiguator2 (http://contiguator.sourceforge.net) into the Galaxy framework, to provide seamless NGS mapping, de novo assembly, NGS data format conversion and sequence alignment visualization. Our vision is to create an open publication, review and analysis environment by integrating !GigaGalaxy into the publication platform at !GigaScience and its !GigaDB database that links to more than 17 Tetrabytes of genomic data. We have begun this effort by re-implementing the data procedures described by [Luo et al., (!GigaScience 1: 18, 2012)](http://www.gigasciencejournal.com/content/1/1/18) as Galaxy workflows so that they can be shared in a manner which can be visualized and executed in GigaGalaxy. We hope to revolutionize the publication model with the aim of executable publications, where data analyses can be reproduced and reused.
 
 <br />
 
@@ -130,7 +130,7 @@ Massimiliano Orsini, **[Gianmauro Cuccuru](http://www.crs4.it/crs4/peopledetails
 
 *[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2013/MicrobiologyCuuccuru.pdf)*
 
-Next Generation Sequencing is today widely applied in both microbiology and metagenomics areas for research and diagnostic applications. The setup of the complete workflow to perform downstream analysis requires a significant effort to integrate software and data for each of the post sequencing steps. While many of the necessary tools are already available in Galaxy, there is currently a lack of a specialized framework in this area. To fill the gap, we developed [Orione](http://orione.crs4.it/), a Galaxy based web server for microbiology. Orione include all post mapping or assembling steps from scaffolding to complete annotation pipelines, which have been grouped into appropriate sections to facilitate navigation. We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem.  In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative,  reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as Nebula, Cistrome and several others. Orione is available at http://orione.crs4.it. 
+Next Generation Sequencing is today widely applied in both microbiology and metagenomics areas for research and diagnostic applications. The setup of the complete workflow to perform downstream analysis requires a significant effort to integrate software and data for each of the post sequencing steps. While many of the necessary tools are already available in Galaxy, there is currently a lack of a specialized framework in this area. To fill the gap, we developed [Orione](http://orione.crs4.it/), a Galaxy based web server for microbiology. Orione include all post mapping or assembling steps from scaffolding to complete annotation pipelines, which have been grouped into appropriate sections to facilitate navigation. We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem.  In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics. Orione provides additional capabilities to perform integrative,  reproducible and transparent bioinformatic data analysis in microbiology thus expanding the constellation of specialized Galaxy based web servers as Nebula, Cistrome and several others. Orione is available at http://orione.crs4.it.
 
 <br />
 
@@ -175,7 +175,7 @@ Our "virtual normal" method was able to remove up to 97% of the variants also fi
 
 We developed of a web system called BCIWeb (Bacterial Classifiation and Identification for Web) that could assist in bacterial identification and provide the technology necessary for the administration and control  of clinical specimen coming from the hospitals and the discovery of knowledge in database system, through data mining methods using SOM (Self Organizing Maps) and Multilayer Perceptron Neural Networks (MLP) for classification and identificatin of bacteria.
 
-In most laboratories the administration and control of the samples are made manualy through many forms of data sheets, when the samples  of biological materials are gathered at the hospital, up to the final identification at the laboratory. In this context, the organization of the information become very limited, its almost impossible to extract useful knowledge, which could help not only supporting decisions but also in the formulations of simple statistics. 
+In most laboratories the administration and control of the samples are made manualy through many forms of data sheets, when the samples  of biological materials are gathered at the hospital, up to the final identification at the laboratory. In this context, the organization of the information become very limited, its almost impossible to extract useful knowledge, which could help not only supporting decisions but also in the formulations of simple statistics.
 
 It’s worth mentioning that the system developed is a  generic one . It can be  easily adapted to be used by other areas. It has a web platform, friendly interface, multi-user support, can be configured for all classes of bacterias and  it is easy to be used by any kind of web browser. Access is possible by any type of computer, with various operating systems, cells and tablets.
 
@@ -190,7 +190,7 @@ From  the development  of this friendly tool, in the case study,  the historical
 **Calogero Zarbo**, Marco Chierici, Cesare Furlanello
 
  Fondazione Bruno Kessler, Trento, Italy
- 
+
 *[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2013/RNASeqPredictiveMarkersZarbo.pdf)*
 
 We present a Galaxy-based framework for clinical diagnostic on big datasets of RNA deep-sequencing (RNA-Seq) data. The framework implements a complete Data Analysis Plan (DAP), integrating state-of-the-art RNA-Seq analysis pipelines with machine learning methods for predictive biomarker selection. Here we discuss in details a Galaxy workflow for the identification of predictive biomarkers from RNA-Seq data, including the comparison with paired microarray data.  Our solution extends functions from the paramiko v1.7.5 module in order to transport the Galaxy workflow processes through a virtual bash shell, by an SSH data stream connection, on a high performance computing (HPC) system,  e.g. a Linux cluster with the SGE queue system. The goal is to achieve parallelization with one workflow, keeping the same flexibility of a direct interaction with the SGE. The solution provides functions for importing data in the HPC resource, building run-time the entire SGE call, controlling process status and exporting results (datasets) back to a Galaxy host. In particular, the status control methods are mirrored into native standard communication streams in the Galaxy host, thus enabling the rich functionalities already existing in Galaxy, like  job status, bug report, etc. DAP components (classifiers, feature weighting, feature stability methods, etc.) are tools of the MLPY Python library, and experiments organized on a 10x 5-fold cross-validation (CV) schema.  The workflow runs on the FBK KORE HPC Facility, a Linux cluster consisting of 90 nodes (~1000 cores, 5TB RAM), with tests on different datasets, the largest of 500 samples, within the US FDA-led SEQC international initiative.
@@ -220,7 +220,7 @@ The tool here presented allows anyone to run such analyses without deep knowledg
  <sup>1</sup> The University of Birmingham<br />
  <sup>2</sup> The University of Auckland
 
-In this work, we present a joint project between The University of Birmingham and The University of Auckland. The goal of this project was to deliver a tool that allows users with limited computer skills to infer and analyse gene regulatory networks from microarray data. Gene regulatory network inference and analysis is an approach for analysing microarray data that has the potential to highlight key genes, and has already resulted in a number of significant biological results in a number of different species. However, widespread use of gene regulatory networks to analyse microarray data is hindered by the specialist programming skills that are required, and also by the variability in implementing these methods between research groups. Biologists are daunted by the prospect of having to learn programming languages such as Matlab, R, and Python. We present a solution using Galaxy. Gene network inference and analysis tools are hosted on Galaxy, that allow the end user to infer and analyse gene regulatory networks from microarray data using a simple web-based interface. Inference is carried out using the widely implemented WGCNA algorithm, and analysis is performed using a number of graph theory metrics. Enrichment analysis and visualisation options are also implemented. This is the first time to our knowledge that gene regulatory inference and analysis tools have been implemented using Galaxy, and it is hoped that this will encourage greater use of gene regulatory networks as a method for analysing microarray data. 
+In this work, we present a joint project between The University of Birmingham and The University of Auckland. The goal of this project was to deliver a tool that allows users with limited computer skills to infer and analyse gene regulatory networks from microarray data. Gene regulatory network inference and analysis is an approach for analysing microarray data that has the potential to highlight key genes, and has already resulted in a number of significant biological results in a number of different species. However, widespread use of gene regulatory networks to analyse microarray data is hindered by the specialist programming skills that are required, and also by the variability in implementing these methods between research groups. Biologists are daunted by the prospect of having to learn programming languages such as Matlab, R, and Python. We present a solution using Galaxy. Gene network inference and analysis tools are hosted on Galaxy, that allow the end user to infer and analyse gene regulatory networks from microarray data using a simple web-based interface. Inference is carried out using the widely implemented WGCNA algorithm, and analysis is performed using a number of graph theory metrics. Enrichment analysis and visualisation options are also implemented. This is the first time to our knowledge that gene regulatory inference and analysis tools have been implemented using Galaxy, and it is hoped that this will encourage greater use of gene regulatory networks as a method for analysing microarray data.
 
 <br />
 
@@ -252,25 +252,25 @@ In theory, the tools make it possible for anyone with internet access to perform
 
 *[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2013/RNASeqPooledValidationQvist.pdf)*
 
-*Introduction:* Sequencing pools of individual RNA samples can reduce the cost of RNA sequencing. However, the validity of such pooling strategy to detect differentially regulated genes remains uncertain. Hence, we aim to validate a RNA sequencing strategy involving pooling of individual RNA samples, derived from brains of genetically modified mice and of their wild genotype littermate controls. 
+*Introduction:* Sequencing pools of individual RNA samples can reduce the cost of RNA sequencing. However, the validity of such pooling strategy to detect differentially regulated genes remains uncertain. Hence, we aim to validate a RNA sequencing strategy involving pooling of individual RNA samples, derived from brains of genetically modified mice and of their wild genotype littermate controls.
 
-*Material and methods:* Brains were obtained from 8 wild type and 8 genetically modified mice and sectioned manually in a 1 mm coronal mouse brain matrix. Micro-punches containing amygdala were collected from each section. 
-RNA was extracted from tissue using the Maxwell automated system (Promega) and Quality was assessed using the Agilent 2100 system. 
+*Material and methods:* Brains were obtained from 8 wild type and 8 genetically modified mice and sectioned manually in a 1 mm coronal mouse brain matrix. Micro-punches containing amygdala were collected from each section.
+RNA was extracted from tissue using the Maxwell automated system (Promega) and Quality was assessed using the Agilent 2100 system.
 
-For each genotype 3 groups were formed: 
-1. All individual samples separately 
+For each genotype 3 groups were formed:
+1. All individual samples separately
 2. Pool of 8 samples
 3. Pool of 3 samples.
 
-TruSeq libraries were constructed for individual samples and pools following polyA enrichment. Libraries were sequenced on an Illumina HiSeq 2000 platform with 50bp SE sequencing. 
+TruSeq libraries were constructed for individual samples and pools following polyA enrichment. Libraries were sequenced on an Illumina HiSeq 2000 platform with 50bp SE sequencing.
 
 *Analysis:* For all samples
-* Data filtering including removal of adaptors, contamination and low-quality reads from raw reads 
-* Assessment of sequencing（Statistics of raw reads, Sequencing saturation analysis, analysis of the distribution of reads on reference gene） 
+* Data filtering including removal of adaptors, contamination and low-quality reads from raw reads
+* Assessment of sequencing（Statistics of raw reads, Sequencing saturation analysis, analysis of the distribution of reads on reference gene）
 * Gene expression annotation
 
-Between genotypes for all groups: 
-* Differential gene expression analysis (Screening of differentially expressed genes (DEGs), and experimental repeatability analysis of DEGs) 
+Between genotypes for all groups:
+* Differential gene expression analysis (Screening of differentially expressed genes (DEGs), and experimental repeatability analysis of DEGs)
 
 Between groups:
 * Comparison of DEGs (DEGs detected in Group 1 as reference)
@@ -285,9 +285,9 @@ Between groups:
 
 *[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2013/ItemsetMiningSimovski.pdf)*
 
-While immense amounts of genomic data are now publicly available, analyzing the data is a complicated and at times resource exhaustive task. A well established analysis is the computation of pairwise overlap between two genomic tracks. However, in certain situations it is valuable to consider a larger number of genomic tracks and e.g. discover subsets of the tracks that occur together at the same locations along the genome. An example of such a problem is to find combinations of transcription factor (TF) ChiP-seq tracks that occur at the same locations in the genome, either from a set of tracks for different TFs or from a set of tracks for the same TF in different cells/settings. 
+While immense amounts of genomic data are now publicly available, analyzing the data is a complicated and at times resource exhaustive task. A well established analysis is the computation of pairwise overlap between two genomic tracks. However, in certain situations it is valuable to consider a larger number of genomic tracks and e.g. discover subsets of the tracks that occur together at the same locations along the genome. An example of such a problem is to find combinations of transcription factor (TF) ChiP-seq tracks that occur at the same locations in the genome, either from a set of tracks for different TFs or from a set of tracks for the same TF in different cells/settings.
 
-The problem at hand can be translated into a more general problem within the field of data mining, called frequent itemset mining. According to the itemset mining terminology, we take the genomic tracks to represent items and the base-pair positions of the genome to represent transactions. 
+The problem at hand can be translated into a more general problem within the field of data mining, called frequent itemset mining. According to the itemset mining terminology, we take the genomic tracks to represent items and the base-pair positions of the genome to represent transactions.
 
 We present a Galaxy-based web tool at the Genomic HyperBrowser web server that enables the user to run frequent itemset mining on large sets of genomic tracks. The result is a list of track combinations that occur together on at least a minimum number of base pairs along the genome. We present results for two different approaches, based on the breadth-first Apriori and the depth-first Eclat algorithm. We discuss their advantages and drawbacks, as well as the general usefulness of applying itemset mining to the analysis of genomic tracks.
 
@@ -297,7 +297,7 @@ We present a Galaxy-based web tool at the Genomic HyperBrowser web server that e
 
 Nicolas. Philippe<sup>1,3,4</sup>, Mikael Salson<sup>2</sup>, Alban Mancheron<sup>3,4</sup>, **Thérèse Commes**<sup>1,4</sup>, Eric Rivals<sup>3,4</sup>
 
- <sup>1</sup> Institut de Recherche en Biothérapie, INSERM U1040, France<br /> 
+ <sup>1</sup> Institut de Recherche en Biothérapie, INSERM U1040, France<br />
  <sup>2</sup> Laboratoire d'Informatique Fondamentale de Lille, France<br />
  <sup>3</sup> Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier, France<br />
  <sup>4</sup> Institut de Biologie Computationnelle, Montpellier France
@@ -320,11 +320,11 @@ The comprehensive analysis of expression profiles based on RNA-seq provides accu
 
 *[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2013/CNAExomeAMLVosberg.pdf)*
 
-Beyond the identification of SNVs and Indels, exome sequencing allows to detect somatic Copy Number Alterations (CNAs) in protein coding regions of tumor DNA. Using the Galaxy platform, we analyzed the read depth of tumor and normal control exome sequence data sets from acute myeloid leukemia (AML) patients confirming unbalanced translocations, aneuploidy and complex karyotypes. 
+Beyond the identification of SNVs and Indels, exome sequencing allows to detect somatic Copy Number Alterations (CNAs) in protein coding regions of tumor DNA. Using the Galaxy platform, we analyzed the read depth of tumor and normal control exome sequence data sets from acute myeloid leukemia (AML) patients confirming unbalanced translocations, aneuploidy and complex karyotypes.
 
-Mean exon coverages were determined for both samples and a linear regression model was used to describe the tumor sample coverage as a linear function of the healthy sample coverage. This approach may handle regions of zero coverage, monoallelic deletions and tolerates outliers. The maximum-likelihood segmentation, defined by an exact algorithm using a Bayesian Information Criterion adapted for segmentation problems, separates regions of equivalent exon coverage between tumor and control samples from regions of aberrant exon coverage. 
+Mean exon coverages were determined for both samples and a linear regression model was used to describe the tumor sample coverage as a linear function of the healthy sample coverage. This approach may handle regions of zero coverage, monoallelic deletions and tolerates outliers. The maximum-likelihood segmentation, defined by an exact algorithm using a Bayesian Information Criterion adapted for segmentation problems, separates regions of equivalent exon coverage between tumor and control samples from regions of aberrant exon coverage.
 
-Tumor samples with trisomy 13 show significantly enriched exon coverages of chromosome 13 compared to the control sample. An MLL/AF9 rearrangement with partial loss of the 3'-part of the MLL gene, showed significantly reduced coverages in the tumor sample at exons downstream of the breakpoint in the MLL gene. A complex karyotype including the unbalanced translocations t(1;2), t(5;17), t(8;11) and a monosomy 7 resulted in corresponding CNAs on chromosomes 1, 5, 7, 11 and 17. 
+Tumor samples with trisomy 13 show significantly enriched exon coverages of chromosome 13 compared to the control sample. An MLL/AF9 rearrangement with partial loss of the 3'-part of the MLL gene, showed significantly reduced coverages in the tumor sample at exons downstream of the breakpoint in the MLL gene. A complex karyotype including the unbalanced translocations t(1;2), t(5;17), t(8;11) and a monosomy 7 resulted in corresponding CNAs on chromosomes 1, 5, 7, 11 and 17.
 
 Our study demonstrates that somatic CNAs in tumor cells can be identified by exome sequencing of tumor and control samples. Furthermore, this approach might be able to detect novel tumor-specific CNAs in protein coding regions contributing to the onset and progression of AML.
 
@@ -356,9 +356,9 @@ Cristophe CARON<sup>1</sup>, **Wilfrid CARRE**<sup>1</sup>, Alexandre CORMIER<su
 
 *[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2013/FrenchCarre.pdf)*
 
-The success of the open web based platform “Galaxy” is growing among scientific communities. The French Institute of Bioinformatics (IFB) wishes to initiate a collaborative work dedicated to scientific workflows and especially to the Galaxy platform. We report here the main items on which future collaborations could be build: (i) software and hardware architecture, (ii) tools integration and (iii) training. 
+The success of the open web based platform “Galaxy” is growing among scientific communities. The French Institute of Bioinformatics (IFB) wishes to initiate a collaborative work dedicated to scientific workflows and especially to the Galaxy platform. We report here the main items on which future collaborations could be build: (i) software and hardware architecture, (ii) tools integration and (iii) training.
 
-High throughput technologies advent significantly alters analysis behaviour and strategy with mobilization of new infrastructure, new tools and new skills. IFB decided to conduct a cross action on "workflows" data analysis solutions, and especially on the Galaxy platform. The first item called "software and hardware architecture" addresses the operational issues in production environments, the potential for automating deployment tasks and the monitoring solutions for Galaxy servers. 
+High throughput technologies advent significantly alters analysis behaviour and strategy with mobilization of new infrastructure, new tools and new skills. IFB decided to conduct a cross action on "workflows" data analysis solutions, and especially on the Galaxy platform. The first item called "software and hardware architecture" addresses the operational issues in production environments, the potential for automating deployment tasks and the monitoring solutions for Galaxy servers.
 
 With the second one, "Tools integration" we aim to provide processes facilitating tool interfacing in a Galaxy instance. Priority will be the development of a good practice guide, as well as a technology watch around the methods proposed by the international community. We also want to promote the sharing of training activities at national level (such as the Aviesan Bioinformatics school, January 2013 - http://galaxy-ecole.sb-roscoff.fr/) and ensure a smooth transition to new uses, such as E-learning. A first working group is already effective. Previous items will be improved in the coming months thanks to a specific dedicated wiki and the first French Galaxy Workshop this autumn.
 
@@ -394,9 +394,9 @@ Mattias de Hollander<sup>1</sup>, David van Enckevort<sup>2</sup>, **Leon Mei**<
 
 Andromeda is a public Galaxy server set up by the Netherlands Bioinformatics Center (NBIC) to support genomics research in the Netherlands. Andromeda has been running over 3 years and was originally intended to be a demonstration server for bioinformatics tools made by NBIC developers. Several application specific pipelines are installed at Andromeda together with common sequencing analysis tools. Andromeda has been used at several NBIC courses to support practicals and has been proven to be an effective platform for knowledge dissemination.
 
-However, the need for processing real scale research datasets at Andromeda was clearly visible already in the beginning. This demand is only becoming more prominent in the past year when more researchers are able to acquire NGS datasets for their project but fail to obtain the necessary bioinformatics support within their groups. 
+However, the need for processing real scale research datasets at Andromeda was clearly visible already in the beginning. This demand is only becoming more prominent in the past year when more researchers are able to acquire NGS datasets for their project but fail to obtain the necessary bioinformatics support within their groups.
 
-To support this growing demand, NBIC together with the BigGrid project and SURFsara installed the new Andromeda at a high performance computing cloud system hosted by SURFsara. This HPC cloud consists of 19 fast servers with 608 CPUs and almost 5TB of memory. In order to best use the elastic resource provided by the HPC cloud, the new Andromeda also incorporates the CloudMan script to support dynamic adding and removing of virtual machines based on the number of submitted jobs. Till the beginning of 2013, there are about 700 registered users at Andromeda and almost 40000 jobs have been executed. 
+To support this growing demand, NBIC together with the BigGrid project and SURFsara installed the new Andromeda at a high performance computing cloud system hosted by SURFsara. This HPC cloud consists of 19 fast servers with 608 CPUs and almost 5TB of memory. In order to best use the elastic resource provided by the HPC cloud, the new Andromeda also incorporates the CloudMan script to support dynamic adding and removing of virtual machines based on the number of submitted jobs. Till the beginning of 2013, there are about 700 registered users at Andromeda and almost 40000 jobs have been executed.
 
 In this presentation, we will present the architecture of Andromeda and its installation and maintenance procedure.
 

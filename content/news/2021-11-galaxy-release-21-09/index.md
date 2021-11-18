@@ -8,7 +8,7 @@ Dear Community,
 
 The Galaxy Committers team is pleased to announce the release of Galaxy 21.09.
 
-- **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/21.09_announce.html)** 
+- **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/21.09_announce.html)**
 - **[User release announcement](https://docs.galaxyproject.org/en/master/releases/21.09_announce_user.html)**.
 
 A few release highlights are:

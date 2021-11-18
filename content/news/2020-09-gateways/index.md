@@ -8,7 +8,7 @@ date: "2020-09-25"
 [<img class="float-right" style="max-width: 14rem" src="/events/2020-10-gateways/gateways2020logo.png" alt="Gateways 2020" />](https://sciencegateways.org/web/gateways2020/welcome)
 
 
-**[Gateways 2020](https://sciencegateways.org/register2020 
+**[Gateways 2020](https://sciencegateways.org/register2020
 )**
 
 *October 12–23, Online*

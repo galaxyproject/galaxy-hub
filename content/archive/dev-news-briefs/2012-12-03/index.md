@@ -34,11 +34,11 @@ Migration scripts for both **[Bowtie](http://bowtie-bio.sourceforge.net/index.sh
 
 **Bowtie** is an ultrafast, memory-efficient short read aligner. It aligns short DNA sequences (reads) to the human genome at a rate of over 25 million 35-bp reads per hour. Bowtie indexes the genome with a Burrows-Wheeler index to keep its memory footprint small: typically about 2.2 GB for the human genome (2.9 GB for paired-end).
 
-Langmead B, Trapnell C, Pop M, Salzberg SL. *[Ultrafast and memory-efficient alignment of short DNA sequences to the human genome](http://genomebiology.com/2009/10/3/R25)*. Genome Biol 10:R25. 
+Langmead B, Trapnell C, Pop M, Salzberg SL. *[Ultrafast and memory-efficient alignment of short DNA sequences to the human genome](http://genomebiology.com/2009/10/3/R25)*. Genome Biol 10:R25.
 
 **LASTZ** is a program for aligning DNA sequences, a pairwise aligner. Originally designed to handle sequences the size of human chromosomes and from different species, it is also useful for sequences produced by NGS sequencing technologies such as Roche 454.
 
-Harris, R.S. (2007) *[Improved pairwise alignment of genomic DNA](http://www.bx.psu.edu/~rsharris/rsharris_phd_thesis_2007.pdf )*. Ph.D. Thesis, The Pennsylvania State University. 
+Harris, R.S. (2007) *[Improved pairwise alignment of genomic DNA](http://www.bx.psu.edu/~rsharris/rsharris_phd_thesis_2007.pdf )*. Ph.D. Thesis, The Pennsylvania State University.
 
 <br />
 ## New Galaxy CloudMan Release
@@ -58,7 +58,7 @@ This update brings a large number of updates and new features, the most prominen
 * Support for [Ubuntu 12.10](http://releases.ubuntu.com/quantal/)
 * Worker instances are now also SGE submit hosts
 
-This update comes as a result of 175 code changesets; for a complete list of changes, see the [commit messages](https://bitbucket.org/galaxy/cloudman/changesets/tip/3a63b9a40331%3A35baec1). 
+This update comes as a result of 175 code changesets; for a complete list of changes, see the [commit messages](https://bitbucket.org/galaxy/cloudman/changesets/tip/3a63b9a40331%3A35baec1).
 
 **Any new cluster will automatically start using this version of CloudMan. Existing clusters will be given an option to do an automatic update once the main interface page is refreshed.**
 
@@ -69,7 +69,7 @@ This update comes as a result of 175 code changesets; for a complete list of cha
 
 ### Improvements in the display of repository dependencies and contents in the tool shed
 
-<div class='indent'> 
+<div class='indent'>
 
 The various types of contents of a tool shed repository ( valid tools, invalid tools, datatypes, workflows ) as well as the dependencies that are defined for the repository are now displayed in clickable containers that can be opened or closed.  For example here is the view of the emboss_5 repository that I'm hosting on my local Galaxy tool shed.  
 
@@ -193,7 +193,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

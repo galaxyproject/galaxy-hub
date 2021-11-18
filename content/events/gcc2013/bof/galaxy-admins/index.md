@@ -17,12 +17,12 @@ This page describes the **[Galaxy Admins](/community/galaxy-admins/)** [Birds of
 
 [GalaxyAdmins](/community/galaxy-admins/) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/community/galaxy-admins/meetups/) and at events like GCC2013, where a lot of us happen to be.
 
-GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/community/galaxy-admins/future/).  *This discussion has started in advance of GCC2013 as [this email thread](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/OYSHZXMDA72UD6LKDOCF636BKKGYEPIV/#MJNIDOKMJNQLAEES23UI5X6PIYPEHAWI).* 
+GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/community/galaxy-admins/future/).  *This discussion has started in advance of GCC2013 as [this email thread](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/OYSHZXMDA72UD6LKDOCF636BKKGYEPIV/#MJNIDOKMJNQLAEES23UI5X6PIYPEHAWI).*
 
 We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF session.  That discussion and what we decide will be posted on the [GalaxyAdmins Future page](/community/galaxy-admins/future/).  However, the current talking points are:
 
 * [Goal and Activities](/community/galaxy-admins/future/#galaxyadmins-goals-and-activities)
-* [Leadership](/community/galaxy-admins/future/#leadership) 
+* [Leadership](/community/galaxy-admins/future/#leadership)
 
 ## When and Where
 
@@ -69,11 +69,11 @@ If you are interested, please add your name below and/or send an email to [Dave 
 <div class='indent'>
 **Follow-up**
 
-2013/08: Mailman topics are a worthwhile idea.  They create sublists within a list by using tags in subject lines (and other methods), making it possible for people to only subscribe to email on the sublist.  However, we aren't going to use them.  There is no software requirement that posters use the correct (or any) topic tag in Mailman, and 
+2013/08: Mailman topics are a worthwhile idea.  They create sublists within a list by using tags in subject lines (and other methods), making it possible for people to only subscribe to email on the sublist.  However, we aren't going to use them.  There is no software requirement that posters use the correct (or any) topic tag in Mailman, and
 1. We can be sure that some relevant postings would not have the tag
 2. Therefore people would have to subscribe to the full list anyway.
 
-If you still want this functionality, you are encouraged to configure your email software to tag anything with "[GalaxyAdmins](/community/galaxy-admins/)" in it. 
+If you still want this functionality, you are encouraged to configure your email software to tag anything with "[GalaxyAdmins](/community/galaxy-admins/)" in it.
 </div>
 
 **Meetups:**

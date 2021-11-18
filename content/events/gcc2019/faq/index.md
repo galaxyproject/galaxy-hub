@@ -4,10 +4,10 @@
 
 ## What will be the format for GCC in 2019?
 
-The format of GCC this year will be a bit different than the previous years. 
+The format of GCC this year will be a bit different than the previous years.
 
-It will starts with 1 day of training, continues with 3 days of conference featuring 
-unified and parallel tracks, poster/demo, birds-of-a-feather gatherings but also training, 
+It will starts with 1 day of training, continues with 3 days of conference featuring
+unified and parallel tracks, poster/demo, birds-of-a-feather gatherings but also training,
 and ends with 2 days of CollaborationFest.
 
 Day | Event | Details

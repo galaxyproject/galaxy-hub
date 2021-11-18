@@ -135,7 +135,7 @@ Please note that this new type of "multiple-input dataset" step can currently be
   * Enable *GFF* filter attributes tool to accept arbitrary conditions.
 * Datasource tools: Remove hard-coded special-case handling of *UCSC Table Browser* and *GBrowse* datasource tools; functionality remains, but is now a part of the individual tool's XML configuration files. Auto-detect is now available by providing data_type=auto parameters.
 * Make *Cufflinks*, *Cuffcompare*, and *Cuffdiff* wrappers compatible with v1.0.1 (new option implementation pending).
-* *BWA* wrapper enhancement 
+* *BWA* wrapper enhancement
   * The Galaxy *BWA* wrappers (for *Illumina* and for *SOLiD*) were updated for version 0.5.9 of *BWA*. Three new options have been added to them: Maximum number of alignments to output in the XA tag for reads paired properly (samse/sampe -n); Maximum number of alignments to output in the XA tag for disconcordant read pairs (excluding singletons) (sampe -N); and Specify the read group (samse/sampe -r).
   * If read groups are to be specified, the following aspects MUST be set:
     * Read group identifier (ID)
@@ -153,20 +153,20 @@ Please note that this new type of "multiple-input dataset" step can currently be
   * Formerly, when sampse/sampe -n was specified, it would cause *BWA* to output a format other than SAM. This is no longer the case. The *BWA* manual can be found at [http://bio-bwa.sourceforge.net/bwa.shtml](http://bio-bwa.sourceforge.net/bwa.shtml)
 * *SAM* header
   * For several wrappers where *SAM* header suppression was optional (*BWA, BFAST, Bowtie, SRMA*), the default was changed to NOT suppress, however it is still optional.
-  * Bam-to-sam now keeps the header in the *BAM* file. 
+  * Bam-to-sam now keeps the header in the *BAM* file.
 * Setting of output *dbkey*
-  * Outputs for the following now are correctly set to the relevant dbkey (for reference dbkey whether using built-in or one from history): *Freebayes, SRMA, Mosaik, BFAST, Bowtie, BWA, sam-to-bam, and bam-to-sam*. 
+  * Outputs for the following now are correctly set to the relevant dbkey (for reference dbkey whether using built-in or one from history): *Freebayes, SRMA, Mosaik, BFAST, Bowtie, BWA, sam-to-bam, and bam-to-sam*.
 
 ### New Tools
 
-* *GATK* 
+* *GATK*
   * *note* These tool integrations should be considered alpha. Changes are not necessarily backwards-compatible with workflows or re-run functionality.
-  * *Realigner Target Creator* 
+  * *Realigner Target Creator*
   * *Indel Realigner*
   * *Count Covariates*
-  * *Table Recalibration* 
+  * *Table Recalibration*
   * *Analyze Covariates*
-  * *Unified Genotyper* 
+  * *Unified Genotyper*
 * Add tool *Filter GTF by attribute values list*. Tool filters a *GTF* based on a list of attribute values. The tool is especially useful as a downstream analysis tool for filtering *GTF* files based on *Cuffdiff* outputs.
 
 ### Trackster
@@ -237,7 +237,7 @@ compatibility:
 
 ### About Galaxy
 
-The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html). 
+The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html).
 
 **Galaxy** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
@@ -254,7 +254,7 @@ Join us at **Twitter**
 ```#usegalaxy```
 
 
-[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject) 
+[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject)
 
 
 ----

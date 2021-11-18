@@ -16,7 +16,7 @@ Welcome to the August 2017 *[Galactic News](/galaxy-updates/)*, a summary of wha
 
 We are pleased to announce that the **2018 Galaxy Community Conference (GCC2018)** and the **[Bioinformatics Open Source Conference 2018 (BOSC2018)](https://www.open-bio.org/wiki/BOSC)** are [joining together for a unified event](https://gccbosc2018.sched.com/) to be held in Portland, Oregon, United States, June 25-30, 2018.  The event will feature two days of training, a two day meeting, and finish with two days of intense collaboration at the [OBF Codefest](https://www.open-bio.org/wiki/Codefest), and Hack the Galaxy: Dev and Data.  The meeting will feature joint and parallel sessions, and shared keynotes, poster and demo sessions, and social events.  Colocating GCC and BOSC will bring together the widest possible community of bioinformatics developers and practitioners into a single place.  At this event the whole will be greater than the sum of the parts.
 
-The event is organized by [Oregon Health & Science University (OHSU)](https://www.ohsu.edu) and will be held at [Reed College](http://www.reed.edu/), a small liberal arts college in Portland.  Portland is a vibrant city in the American Northwest, close to the Cascade Mountains, the Oregon Coast, and the Columbia River. 
+The event is organized by [Oregon Health & Science University (OHSU)](https://www.ohsu.edu) and will be held at [Reed College](http://www.reed.edu/), a small liberal arts college in Portland.  Portland is a vibrant city in the American Northwest, close to the Cascade Mountains, the Oregon Coast, and the Columbia River.
 
 
 # GCC2017 is Done!
@@ -215,12 +215,12 @@ Some highlights from the recently added publications:
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 167 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 55 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 55 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 35 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) | 
-| 20 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 20 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 19 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 16 | [tools](http://www.citeulike.org/group/16008/tag/tools) | 
-| 15 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | | 9 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | | 8 | [other](http://www.citeulike.org/group/16008/tag/other) | | 7 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) | 
-| 4 | [shared](http://www.citeulike.org/group/16008/tag/shared) | | 2 | [howto](http://www.citeulike.org/group/16008/tag/howto) | | 1 | [visualization](http://www.citeulike.org/group/16008/tag/visualization) | | 1 | [usecloud](http://www.citeulike.org/group/16008/tag/usecloud) | 
+| 167 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 55 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 55 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 35 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) |
+| 20 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 20 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 19 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 16 | [tools](http://www.citeulike.org/group/16008/tag/tools) |
+| 15 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | | 9 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | | 8 | [other](http://www.citeulike.org/group/16008/tag/other) | | 7 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) |
+| 4 | [shared](http://www.citeulike.org/group/16008/tag/shared) | | 2 | [howto](http://www.citeulike.org/group/16008/tag/howto) | | 1 | [visualization](http://www.citeulike.org/group/16008/tag/visualization) | | 1 | [usecloud](http://www.citeulike.org/group/16008/tag/usecloud) |
 
 ----
 
@@ -231,7 +231,7 @@ Some highlights from the recently added publications:
 The Galaxy is expanding! Please help it grow.
 
 * [Ingénieur spécialisé en NGS](https://www.sfbi.fr/content/ing%C3%A9nieur-sp%C3%A9cialis%C3%A9-en-ngs), [BIOGECO](http://www6.bordeaux-aquitaine.inra.fr/biogeco), Bordeaux, France
-* [Ingénieur web et bases de données pour les analyses métagénomiques des écosystèmes fromagers](https://www.sfbi.fr/content/ing%C3%A9nieur-web-et-bases-de-donn%C3%A9es-pour-les-analyses-m%C3%A9tag%C3%A9nomiques-des-%C3%A9cosyst%C3%A8mes-fromage-0), Micalis / MaIAGE, Jouy-en-Josas, France 
+* [Ingénieur web et bases de données pour les analyses métagénomiques des écosystèmes fromagers](https://www.sfbi.fr/content/ing%C3%A9nieur-web-et-bases-de-donn%C3%A9es-pour-les-analyses-m%C3%A9tag%C3%A9nomiques-des-%C3%A9cosyst%C3%A8mes-fromage-0), Micalis / MaIAGE, Jouy-en-Josas, France
 * [Développeur d’outils MS/MS pour le projet Workflow4Metabolomics sous Galaxy](https://www.sfbi.fr/content/d%C3%A9veloppeur-d%E2%80%99outils-msms-pour-le-projet-workflow4metabolomics-sous-galaxy), Station Biologique de Roscoff, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 * [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
@@ -379,8 +379,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 
 And
 
-* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/people/john-chilton/): 
+* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
+* From [John Chilton](/people/john-chilton/):
   * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 
@@ -423,9 +423,9 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * [Mining cancer data for treatment clues](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues): Cancer genomics researchers rely on TACC supercomputers to help identify risk factors and classify tumors
 * [Five years of Galaxy-P!](https://twitter.com/usegalaxyp/status/888157211612110849)
-* A [plugin framework for Galaxy tool error handling](https://github.com/galaxyproject/galaxy/pull/4305) (work-in-progress) by [Helena Rasche](https://github.com/hexylena). 
+* A [plugin framework for Galaxy tool error handling](https://github.com/galaxyproject/galaxy/pull/4305) (work-in-progress) by [Helena Rasche](https://github.com/hexylena).
 * [A Galaxy docker container with R markdown based Galaxy tools installed](https://github.com/statonlab/docker-GRReport).  This Docker image is used as a demonstration to show how to use R markdown as a unified framework for Galaxy tool development.
-* From [John Chilton](/people/john-chilton/): A cool outcome from our GCC hackathon - [support for Galaxy tool localization](https://github.com/galaxyproject/galaxy/pull/4251) (work in progress). 
+* From [John Chilton](/people/john-chilton/): A cool outcome from our GCC hackathon - [support for Galaxy tool localization](https://github.com/galaxyproject/galaxy/pull/4251) (work in progress).
 * From Mallory Freeberg: [Differential abundance testing of small RNAs](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html) tutorial
 * From [Enis Afgan](/people/enis-afgan/): [First launch of #usegalaxy on Microsoft #Azure!](https://twitter.com/enisafgan/status/880796649160880128) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.
 

@@ -5,7 +5,7 @@ I am a research associate in the Nekrutenko lab at Penn State. I have been invol
 Some of my key contributions to Galaxy include the following:
 
 * [Pulsar](https://github.com/galaxyproject/pulsar). This component started as a way to allow jobs to run remotely without the need for full queue manager to be installed, added flexibility that allowed remote jobs to run under Windows also, but has become a multi-faceted tool that allows many different Galaxy job running scenarios.
-* [Dynamic job desitnations](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/4DSTFNBQECLUGAYYWWIPYEODSNDMSCAU/#4DSTFNBQECLUGAYYWWIPYEODSNDMSCAU). This allows various queue settings to be specified at runtime and to depend on properties such the user, inputs, and tool parameters. 
+* [Dynamic job desitnations](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/4DSTFNBQECLUGAYYWWIPYEODSNDMSCAU/#4DSTFNBQECLUGAYYWWIPYEODSNDMSCAU). This allows various queue settings to be specified at runtime and to depend on properties such the user, inputs, and tool parameters.
 * [Blend4j](https://github.com/jmchilton/blend4j) A Java client targeting the API.
 * [Galaxy Bootstrap](https://github.com/jmchilton/galaxy-bootstrap) A Java library for deploying and configuring Galaxy instances on the fly.
 * [Rewriting the Tool Testing Backend](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/PSFAGUOLAZ6VRSQAY6VA2KP5JPE3JEY6/#PSFAGUOLAZ6VRSQAY6VA2KP5JPE3JEY6)
@@ -17,6 +17,6 @@ Some of my key contributions to Galaxy include the following:
 In my previous position on the [Galaxy-P](https://github.com/galaxyproteomics) project I did much of the initial development on many proteomics tools including [OpenMS](https://bitbucket.org/galaxyp/galaxyp-toolshed-openms), [msconvert](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/msconvert), [ProteinPilot](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/proteinpilot), [PeptideShaker](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/peptideshaker), [Scaffold](https://github.com/galaxyproteomics/tools-galaxyp/tree/master/tools/scaffold).
 
 
-Email: [jmchilton AT SPAMFREE gmail DOT com ](mailto:jmchilton AT SPAMFREE gmail DOT com ) or [jmchilton AT SPAMFREE bx DOT psu DOT edu ](mailto:jmchilton AT SPAMFREE bx DOT psu DOT edu ) 
+Email: [jmchilton AT SPAMFREE gmail DOT com ](mailto:jmchilton AT SPAMFREE gmail DOT com ) or [jmchilton AT SPAMFREE bx DOT psu DOT edu ](mailto:jmchilton AT SPAMFREE bx DOT psu DOT edu )
 
 ...

@@ -82,12 +82,12 @@ date: 2011-10-25
 * Add wrapper for [SICER](http://home.gwu.edu/~wpeng/Software.htm/) tool, a *Statistical approach for the identification of ChIP-Enriched Regions*.
 * Add wrapper for SAMtools [rmdup](http://samtools.sourceforge.net/) tool, which removes potential PCR duplicates in BAM files.
 * Add the tool *Text Manipulation -> Secure Hash / Message Digest*:
-  * calculates Secure Hashes / Message Digests of a dataset with the user selected algorithms. 
+  * calculates Secure Hashes / Message Digests of a dataset with the user selected algorithms.
   * [python](http://www.python.org) version of a shell utility ['% sha'](http://en.wikipedia.org/wiki/Secure_Hash_Algorithm).
   * used for verifying that a data load was complete (exact!) and other file quality checking functions.
 * Update the *Text Manipulation -> Select random lines from a file* tool:
-  * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets. 
-  * the random seed can now be optionally specified. 
+  * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets.
+  * the random seed can now be optionally specified.
 * New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/admin/tools/tool-config-syntax/#a3ctest3e_tag_set) documentation.
 
 ### Quotas and Data Management
@@ -128,7 +128,7 @@ date: 2011-10-25
 
 ### Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div>
 
 * Tasked jobs will now inherit the parent job's user information correctly.
 * Remove unspecified build validators from Cuffdiff wrapperfixes [https://bitbucket.org/galaxy/galaxy-central/issue/631](https://bitbucket.org/galaxy/galaxy-central/issue/631).
@@ -146,7 +146,7 @@ date: 2011-10-25
 
 [GalaxyProject.org](http://galaxyproject.org)
 
-The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/) is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/) is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

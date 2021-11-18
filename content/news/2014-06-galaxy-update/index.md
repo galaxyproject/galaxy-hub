@@ -4,11 +4,11 @@ date: "2014-05-30"
 ---
 <div class='right'>
 <a href='/galaxy-updates/2014-06/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a><br /><br /> <a href='/galaxy-updates/2014-06/#registration-closes-june-6'><img src="/images/logos/GCC2014LogoWide200.png" alt="GCC2014: June 30 - July 2" width="150" /></a><br />
-<a href='/galaxy-updates/2014-05/#galaxy-hackathon-at-gcc2014'><img src="/images/logos/GCC2014HackLogoSquare.png" alt="GCC2014 Hackathon" width="150" /></a> 
+<a href='/galaxy-updates/2014-05/#galaxy-hackathon-at-gcc2014'><img src="/images/logos/GCC2014HackLogoSquare.png" alt="GCC2014 Hackathon" width="150" /></a>
 </div>
 
 The [June 2014 Galaxy Update Newsletter](/galaxy-updates/2014-06/) is out!  There's a lot going on in the project and the community right now.  The big news for the coming month is
- 
+
 * **[GCC2014 registration closes June 6!](/galaxy-updates/2014-06/#gcc2014-june-30---july-2-baltimore)**
     (OK, that's a lie, but after June 6, late registration rates kick in, and you don't want to pay those.)
   * **[GCC2014 starts June 30](/galaxy-updates/2014-06/#gcc2014-june-30---july-2-baltimore)!**

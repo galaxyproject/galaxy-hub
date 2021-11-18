@@ -11,12 +11,12 @@ date: '2017-07-20'
 There are [Galaxy-related  events and presentations every day](/events/2017-ismb-bosc/) at [ISMB/ECCB 2017](https://www.iscb.org/ismbeccb2017) and [BOSC 2017](https://www.open-bio.org/wiki/BOSC_2017):
 
 * [A tutorial](https://www.iscb.org/ismbeccb2017-program/tutorials#p6) ([Friday](/events/2017-ismb-bosc/#21-july-friday))
-* 6 BOSC talks ([Saturday](/events/2017-ismb-bosc/#22-july-saturday), [Sunday](/events/2017-ismb-bosc/#23-july-sunday)) 
+* 6 BOSC talks ([Saturday](/events/2017-ismb-bosc/#22-july-saturday), [Sunday](/events/2017-ismb-bosc/#23-july-sunday))
 * 9 posters ([Saturday](/events/2017-ismb-bosc/#22-july-saturday), [Sunday](/events/2017-ismb-bosc/#23-july-sunday), [Monday](/events/2017-ismb-bosc/#24-july-monday), [Tuesday](/events/2017-ismb-bosc/#25-july-tuesday))
-* 2 ISMB/ECCB talks ([Saturday](/events/2017-ismb-bosc/#22-july-saturday), [Tuesday](/events/2017-ismb-bosc/#25-july-tuesday), both by Galaxy PIs) 
+* 2 ISMB/ECCB talks ([Saturday](/events/2017-ismb-bosc/#22-july-saturday), [Tuesday](/events/2017-ismb-bosc/#25-july-tuesday), both by Galaxy PIs)
 * [A Galaxy BoF](https://www.iscb.org/ismbeccb2017-program/ismbeccb2017-bof) ([Monday](/events/2017-ismb-bosc/#24-july-monday))
 * [A Galaxy Dinner](http://bit.ly/gxyismb2017bdinner) ([Monday](/events/2017-ismb-bosc/#24-july-monday), see below)
- 
+
 
 **Galaxy Community Dinner: Monday, 24 June, 8pm**
 

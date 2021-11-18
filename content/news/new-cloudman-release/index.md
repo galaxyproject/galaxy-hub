@@ -14,12 +14,12 @@ Other notable enhancements and features:
 * Added the ability to disable running of jobs on the master instance (via the Admin page), allowing you to (1) run a smaller instance type longer for the same cost and (2) not see the responsiveness of the master instance degrade with jobs being submitted
 * Significantly enhanced the details pane for individual worker nodes on the main interface, adding support for terminating and restarting individual nodes
 * Added MPI and SMP parallel environments to SGE; do `qconf -spl` to see the list and `qsub -pe <pe_name> <slots>` to use it for your cluster jobs
-* Removal of data volumes now happens in parallel, shortening the cluster shutdown time 
+* Removal of data volumes now happens in parallel, shortening the cluster shutdown time
 * Added worker_post_start_script_url and share_string user data options. See the [User Data wiki page](/cloudman/userdata/) for the complete list.
 * Added a messaging framework to allow system information to easily and prominently be shown on the main interface. For example, if an instance was restarted in the wrong zone for its data volume - an explicit message will be shown indicating there was an error and what should be done.
 * Support for Ubuntu 12.04
 * Enhancements to logging by progressively reducing the frequency of log output as no user interaction takes place and also introduced log rotation
 
-This update comes as a result of 113 code changesets; for a complete list of changes, see the [commit messages](https://bitbucket.org/galaxy/cloudman/changesets/tip/151%3A263). 
+This update comes as a result of 113 code changesets; for a complete list of changes, see the [commit messages](https://bitbucket.org/galaxy/cloudman/changesets/tip/151%3A263).
 
 Any new cluster will automatically start using this version of CloudMan. Existing clusters will be given an option to do an automatic update once the main interface page is refreshed.

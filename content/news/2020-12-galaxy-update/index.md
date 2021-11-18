@@ -129,7 +129,7 @@ The first call of the Galaxy Metabolomics Community will be held on the 10th of 
 
 There will be [one roundtable meetup this month](/events/2020-12-10-dev-roundtable/). Discussion will focus on restructuring how development and other Galaxy components are gathered and coordinated.
 
-*A gentle shout form the editors:* **Wake up!** If you want to get involved in guiding and contributing to Galaxy in a significant way, then please join this call. 
+*A gentle shout form the editors:* **Wake up!** If you want to get involved in guiding and contributing to Galaxy in a significant way, then please join this call.
 </div>
 
 
@@ -140,7 +140,7 @@ There will be [one roundtable meetup this month](/events/2020-12-10-dev-roundtab
 
 **17 December, Online**
 
-Paper Cuts are annoying but easy to fix bugs. October and November were a success, so we are going to [do it again on December 17](/events/2020-12-papercuts/). Our third one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
+Paper Cuts are annoying but easy to fix bugs. October and November were a success, so we are going to [do it again on December 17](/events/2020-12-papercuts/). Our third one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community.
 
 Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
 </div>
@@ -341,7 +341,7 @@ This tutorial shows genome assembly for the plant chloroplast genome with a subs
 
 By [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/).
 
-This tutorial uses sequencing data obtained through the MinION sequencer (Oxford Nanopore Technologies) with two objectives: 
+This tutorial uses sequencing data obtained through the MinION sequencer (Oxford Nanopore Technologies) with two objectives:
 
 1) evaluate the health status of soil samples,
 2) study how microbial populations are modified by their interaction with plant roots.
@@ -468,7 +468,7 @@ Interested in host-microbiome interactions and multi-omic data? We have multiple
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Research Associate in Biomedical Data Science](https://apply.interfolio.com/81395)</div>
 
-Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University. 
+Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University.
 
 Data science research and education focusing on genomics ([AnVIL](https://anvilproject.org/), [Genomic Data Science Community Network](http://www.gdscn.org/)), cancer ([ITCR](https://itcr.cancer.gov/))  or pain [A2CPS](https://a2cps.org/).
 
@@ -498,7 +498,7 @@ Roche, Bay Area, California, United States.
 
 Johns Hopkins University, Baltimore, Maryland, United States.
 
-Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. 
+Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis.
 
 <img class="card-img-bottom" src="/images/logos/anvil-logo-text.png" alt="AnVIL" />
 </div>

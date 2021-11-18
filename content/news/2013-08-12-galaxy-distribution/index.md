@@ -11,7 +11,7 @@ date: "2013-08-12"
 
 * Upgrades to **Data Manager** including improved installation actions
 * **Visualization** Framework tunings, plus updates to **Phyloviz**, **Scatterplot**, and **Trackster**
-* **Workflows** include new reproducibility controls and editing features 
+* **Workflows** include new reproducibility controls and editing features
 * Multiple **Tool Shed** enhancements, features, and tunings
 * Plus additional updates to the **UI**, **Admin** and **Core**, and **API**, an important **Security Fix** reminder, and **Bug Fixes**
 

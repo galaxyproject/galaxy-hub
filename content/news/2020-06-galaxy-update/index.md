@@ -104,7 +104,7 @@ Please welcome Broad Institute's Data Sciences Platform as a **Silver Level spon
 <img class="card-img-top" src="/images/logos/ssi-logo.png" alt="Software Sustainability Institute (SSI)" />
 <div class="card-header"></div>
 
-The **[Software Sustainability Institute](https://software.ac.uk/)** is a world-leading hub for the cultivation and improvement of research software practice. The Institute provides guidance, training, policy, and tools to thousands of researchers and research software engineers working across all disciplines to help achieve a vision of “better software, better research”. 
+The **[Software Sustainability Institute](https://software.ac.uk/)** is a world-leading hub for the cultivation and improvement of research software practice. The Institute provides guidance, training, policy, and tools to thousands of researchers and research software engineers working across all disciplines to help achieve a vision of “better software, better research”.
 
 Please welcome the Software Sustainability Institute as a **Gold Level sponsor of BCC2020**.
 </div>
@@ -220,7 +220,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 The **[MaREA4Galaxy server](http://bimib.disco.unimib.it:5555/)** supports the *Metabolic Reaction Enrichment Analysis and visualization of RNA-seq data* toolset.  This includes tools to
   - Compute Reaction Activity Scores from gene expression (RNA-seq) dataset(s).
-  - Cluster analysis of any dataset, according to most used algorithms: K-means, agglomerative clustering and DBSCAN. 
+  - Cluster analysis of any dataset, according to most used algorithms: K-means, agglomerative clustering and DBSCAN.
   - Analyze and visualize differences in the Reaction Activity Scores (RASs) of groups of samples, as computed by the Expression2RAS tool, of groups of samples.
 </div>
 
@@ -280,7 +280,7 @@ Platforms that were referenced/used *at least twice* in recent publications:
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[Galaxy Machine Learning Community Hub Page](/community/machine-learning/)</div>
 
-Machine Learning has had an active Galaxy community for a while now, and now that community has it's [own web page on the Galaxy Hub](/community/machine-learning/) describing the [Machine learning Workbench](https://ml.usegalaxy.eu/), relevant training, and supported tools.  Coming soon: community communication channels. 
+Machine Learning has had an active Galaxy community for a while now, and now that community has it's [own web page on the Galaxy Hub](/community/machine-learning/) describing the [Machine learning Workbench](https://ml.usegalaxy.eu/), relevant training, and supported tools.  Coming soon: community communication channels.
 
 <img class="card-img-bottom" src="/images/communities/machine_learning_logo.png" alt="Galaxy Machine Learning Community Hub" />
 </div>
@@ -291,7 +291,7 @@ Machine Learning has had an active Galaxy community for a while now, and now tha
 
 By [Alireza Khanteymoori](https://training.galaxyproject.org/training-material/hall-of-fame#khanteymoori) and [Anup Kumar](https://training.galaxyproject.org/training-material/hall-of-fame#anuprulez).
 
-Discover hidden structure or patterns in unlabeled training data using unsupervised learning with clustering. 
+Discover hidden structure or patterns in unlabeled training data using unsupervised learning with clustering.
 
 <img class="card-img-bottom" src="gtn-cluster-slice.png" alt="DBSCAN versus the world" />
 </div>
@@ -301,7 +301,7 @@ Discover hidden structure or patterns in unlabeled training data using unsupervi
 
 By [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame#foellmelanie) and [Matthias Fahrner](https://training.galaxyproject.org/training-material/hall-of-fame#matthias313)
 
-Introduces the data analysis from raw data files to protein identification and quantification of two label-free human serum samples with the MaxQuant software. 
+Introduces the data analysis from raw data files to protein identification and quantification of two label-free human serum samples with the MaxQuant software.
 
 <img class="card-img-bottom" src="gtn-maxquant.jpg" alt="Quantitative serum composition" />
 </div>
@@ -334,7 +334,7 @@ This extensive overview slide deck on how Galaxy Code is architected received a 
 
 [VIB-UGent Center for Plant Systems Biology](http://www.vib.be/en/), Ghent, Belgium
 
-... We are building on the internationally used platform [FAIRDOMhub](https://fairdomhub.org) for data management, and Galaxy (https://www.usegalaxy.be and https://usegalaxy.eu) for data analysis. 
+... We are building on the internationally used platform [FAIRDOMhub](https://fairdomhub.org) for data management, and Galaxy (https://www.usegalaxy.be and https://usegalaxy.eu) for data analysis.
 
 <img class="card-img-bottom" src="/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
@@ -507,7 +507,7 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 <div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
 <div class="card-header">[Apply for Open Life Science cohort 2 by 30 June](https://openlifesci.org/posts/2020/05/27/ols1-wrapup/#announcing-ols-2---please-share-with-your-networks)</div>
 
-[Open Life Science](https://openlifesci.org/) is launching its 2nd cohort.  If you are an early-stage researcher who wants to become an ambassador for Life Science in your communities then please considering applying for the [next 16-week mentoring & training program](https://openlifesci.org/ols-2). 
+[Open Life Science](https://openlifesci.org/) is launching its 2nd cohort.  If you are an early-stage researcher who wants to become an ambassador for Life Science in your communities then please considering applying for the [next 16-week mentoring & training program](https://openlifesci.org/ols-2).
 
 <img class="card-img-bottom" src="/images/logos/open-life-science-logo.png" alt="Open Life Science" />
 

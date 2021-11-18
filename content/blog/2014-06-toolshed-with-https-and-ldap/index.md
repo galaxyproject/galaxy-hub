@@ -8,7 +8,7 @@ source_blog_url:
 source_blog: 
 ---
 
-Setting up a local tool shed to use https and remote authentication, such as LDAP, requires some additional steps beyond what is necessary to setup Galaxy with https and LDAP. Setting up Galaxy with https and LDAP is relatively well documented and can readily be applied to a tool shed configuration. Therefore this will focus on the additional changes that are specific to tool sheds. 
+Setting up a local tool shed to use https and remote authentication, such as LDAP, requires some additional steps beyond what is necessary to setup Galaxy with https and LDAP. Setting up Galaxy with https and LDAP is relatively well documented and can readily be applied to a tool shed configuration. Therefore this will focus on the additional changes that are specific to tool sheds.
 
 ### Web server configuration
 

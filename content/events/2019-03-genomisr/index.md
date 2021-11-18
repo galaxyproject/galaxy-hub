@@ -14,7 +14,7 @@ image: "/events/2019-03-genomisr/genomisr-workshop.jpg"
 
 **Program**
 
-* About Genomisr initiative 
+* About Genomisr initiative
 * Introduction about the Field of Genomics
 * Real world applications of the field in different medical specialties
 * CRISPR Genome editing applications in medicine

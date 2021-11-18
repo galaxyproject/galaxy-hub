@@ -12,7 +12,7 @@ title: May 2015 Penn State RNA-Seq Galaxy Workshop
 Hey Everyone,
 
 This meeting is open to anyone interested in RNA-Seq analysis and biology workflows.
-[Anton Nekrutenko](/people/anton/) of the [Galaxy team](/galaxy-team/) will be delivering an introduction to RNA-Seq resources available at Galaxy from a practitioner's viewpoint. 
+[Anton Nekrutenko](/people/anton/) of the [Galaxy team](/galaxy-team/) will be delivering an introduction to RNA-Seq resources available at Galaxy from a practitioner's viewpoint.
 
 [Galaxy Team members](/galaxy-team/) will be available for any additional questions.
 

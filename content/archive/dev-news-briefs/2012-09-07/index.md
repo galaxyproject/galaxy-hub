@@ -7,7 +7,7 @@ date: 2012-09-07
 
 <div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=50 /></a></div>
 
- **[getgalaxy.org](http://getgalaxy.org)** 
+ **[getgalaxy.org](http://getgalaxy.org)**
 
 **new**: ` $ hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist `
 
@@ -50,16 +50,16 @@ As reported in the *[July 20th, 2012 News Brief](/archive/dev-news-briefs/2012-0
 
 [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/)
 * *Enhancements*
-  * **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements: 
+  * **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements:
     * Include fusions output. Read more about what this is in the [Tophat2 Manual's](http://tophat.cbcb.umd.edu/manual.html) section *Fusion mapping options:*
-  * **[Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)** wrapper enhancements: 
+  * **[Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)** wrapper enhancements:
     * Output sorted **[BAM](/learn/datatypes/#bam)** from **Bowtie2** by default
     * One benefit is that **BAM** results can be used as input to **[Cufflinks](http://cufflinks.cbcb.umd.edu/)** without an [intermediate sorting step](http://main.g2.bx.psu.edu/u/jeremy/p/transcriptome-analysis-faq#faq2).
     * *NOTE:* If you are using an older version of *Bowtie* or uploading your own results, sorting is still required before running *Cufflinks*, whether in [SAM](/learn/datatypes/#sam) or [BAM](/learn/datatypes/#bam) format.
 * *New*
   * **[Galaxy RNA-seq Analysis Exercise](http://main.g2.bx.psu.edu/u/jeremy/p/galaxy-rna-seq-analysis-exercise)** on [Main](/main/)
     * Walks through sample protocol step-by-step using paired-end data, initial read QC through **[CuffDiff](http://cufflinks.cbcb.umd.edu/)** analysis
-    * Includes **[iGenomes](http://tophat.cbcb.umd.edu/igenomes.html)** sourced **[reference annotation GTF](http://tophat.cbcb.umd.edu/igenomes.html)**, an answer key, and bonus resources 
+    * Includes **[iGenomes](http://tophat.cbcb.umd.edu/igenomes.html)** sourced **[reference annotation GTF](http://tophat.cbcb.umd.edu/igenomes.html)**, an answer key, and bonus resources
 
 <br />
 # User Interface (UI)
@@ -95,7 +95,7 @@ As reported in the *[July 20th, 2012 News Brief](/archive/dev-news-briefs/2012-0
   * If using `run.sh`, `'$GALAXY_UNIVERSE_CONFIG_DIR'` can be set to a directory containing partial config files, which will be merged in to a single *[universe_wsgi.ini](http://bitbucket.org/galaxy/galaxy-dist/src)*
   * Binary datatype sniffing has been moved to the datatype classes and removed from the upload tool thanks to a contribution by John Chilton.  Local modifications to the upload tool may conflict and should no longer be necessary.  See *[pull request 59](http://bitbucket.org/galaxy/galaxy-central/pull-request/59)* for examples.
 * *Removed*
-  * `contrib/multiprocess.sh` has been removed. If you're using multiple Galaxy processes, set `'GALAXY_RUN_ALL=1'` in your environment and start/stop as usual with: 
+  * `contrib/multiprocess.sh` has been removed. If you're using multiple Galaxy processes, set `'GALAXY_RUN_ALL=1'` in your environment and start/stop as usual with:
 
 ```
 $ sh run.sh --daemon/sh run.sh --stop-daemon
@@ -105,9 +105,9 @@ $ sh run.sh --daemon/sh run.sh --stop-daemon
 <br />
 # Workflows
 
-* *New* 
+* *New*
   * New parent tag copying for multiple workflow run output histories, contributed by Brad Langhorst. See *[pull request 54](http://bitbucket.org/galaxy/galaxy-central/pull-request/54)*
-* *Enhancements* 
+* *Enhancements*
   * Workflow API changes to support parameter execution and workflow creation, in collaboration with Richard Park. See *[pull request 55](http://bitbucket.org/galaxy/galaxy-central/pull-request/55)*
   * Additional API changes, contributed by John Chilton. See *[pull request 62](http://bitbucket.org/galaxy/galaxy-central/pull-request/62)*
 
@@ -159,7 +159,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width=20 /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width=20 /></a></div>
 * *General*
   * Fix permissions problems on `stdout/stderr/errorcode` files when running jobs as the [real system user](/archive/dev-news-briefs/2012-01-27/#run-cluster-jobs-as-the-real-user).
   * Galaxy will no longer try to modify permissions of [linked library uploads](/admin/Data Libraries/Uploading Library Files/).
@@ -199,7 +199,7 @@ Now the above entry still works, but the following entry is also ok (notice the 
   * [Tool Shed Contributions](/galaxy-updates/2012-08/#toolshed-contributions)
 * ***Sept***
   * [41 new papers](/galaxy-updates/2012-09/#new-papers)
-  * [3 new public Galaxy Servers](/galaxy-updates/2012-09/#new-public-servers) 
+  * [3 new public Galaxy Servers](/galaxy-updates/2012-09/#new-public-servers)
   * [Upcoming Events and Deadlines](/galaxy-updates/2012-09/#upcoming-events-and-deadlines)
   * [New Galaxy-France mailing list](/galaxy-updates/2012-09/#new-galaxy-france-mailing-list)
   * [Tool Shed Contributions](/galaxy-updates/2012-09/#toolshed-contributions)
@@ -208,11 +208,11 @@ Now the above entry still works, but the following entry is also ok (notice the 
 
 <div class='right'><a href='/events/switzerland2012/'><img src="/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
 
-The 1<sup>st</sup> [Swiss Galaxy Workshop](/events/switzerland2012/) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
- 
-We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research. 
- 
-The workshop is part of the SyBIT Tech Day series. 
+The 1<sup>st</sup> [Swiss Galaxy Workshop](/events/switzerland2012/) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience.
+
+We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research.
+
+The workshop is part of the SyBIT Tech Day series.
 
 <br />
 ## Who's Hiring
@@ -233,7 +233,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](/galaxy-team/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](/galaxy-team/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

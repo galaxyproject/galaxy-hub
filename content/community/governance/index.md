@@ -41,10 +41,10 @@ Cutting across all Working Groups, *[Committers Groups](/community/committers/)*
 
 **Proposed governance workflow:**
 
-* [Galaxy Exec](/community/exec/): group of PIs including Frederik Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, and Michael Schatz. 
-* [Global Steering Committee](/community/steering/): collaborators from active Galaxy communities. 
+* [Galaxy Exec](/community/exec/): group of PIs including Frederik Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, and Michael Schatz.
+* [Global Steering Committee](/community/steering/): collaborators from active Galaxy communities.
 * [Working groups](/community/wg/): groups of community members responsible for various parts of the Galaxy ecosystem.  
-* Idea by Björn Grüning, Hans-Rudolf Hotz and others. 
+* Idea by Björn Grüning, Hans-Rudolf Hotz and others.
 
 The overall idea is:
 

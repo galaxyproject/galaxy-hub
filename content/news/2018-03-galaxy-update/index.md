@@ -5,7 +5,7 @@ date: '2018-03-01'
 ---
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width="170" />](/galaxy-updates/2018-03/)
 
-The [March 2018 Galaxy News](/galaxy-updates/2018-03/) brings much news! 
+The [March 2018 Galaxy News](/galaxy-updates/2018-03/) brings much news!
 
 * *Lots* of [GCCBOSC 2018 news](/galaxy-updates/2018-03/#gccbosc-2018):
   * [Abstract submission, registration & housing are open](/galaxy-updates/2018-03/#abstract-submission-registration-and-housing-are-open)

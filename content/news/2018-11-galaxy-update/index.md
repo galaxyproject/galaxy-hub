@@ -219,11 +219,11 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 67 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 34 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 15 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 11 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | 
-| 8 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 5 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | 
-| 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | 
+| 67 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 34 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 15 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 11 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) |
+| 8 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 5 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) |
+| 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) |
 | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | | 1 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | |
 
 
@@ -231,13 +231,13 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 23 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | 
-| 2 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 2 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 2 | [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org) | | 1 | [>A-Game](https://www.zotero.org/groups/1732893/galaxy/tags/>A-Game) | 
-| 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/tags/>ABiMS) | | 1 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 1 | [>Biomina](https://www.zotero.org/groups/1732893/galaxy/tags/>Biomina) | | 1 | [>ErasmusMC](https://www.zotero.org/groups/1732893/galaxy/tags/>ErasmusMC) | 
-| 1 | [>GalaxEast](https://www.zotero.org/groups/1732893/galaxy/tags/>GalaxEast) | | 1 | [>GigaGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>GigaGalaxy) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/tags/>GIO) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | 
-| 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | | 1 | [>MPI-HLR](https://www.zotero.org/groups/1732893/galaxy/tags/>MPI-HLR) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>PSC](https://www.zotero.org/groups/1732893/galaxy/tags/>PSC) | 
+| 23 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) |
+| 2 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 2 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 2 | [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org) | | 1 | [>A-Game](https://www.zotero.org/groups/1732893/galaxy/tags/>A-Game) |
+| 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/tags/>ABiMS) | | 1 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 1 | [>Biomina](https://www.zotero.org/groups/1732893/galaxy/tags/>Biomina) | | 1 | [>ErasmusMC](https://www.zotero.org/groups/1732893/galaxy/tags/>ErasmusMC) |
+| 1 | [>GalaxEast](https://www.zotero.org/groups/1732893/galaxy/tags/>GalaxEast) | | 1 | [>GigaGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>GigaGalaxy) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/tags/>GIO) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) |
+| 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | | 1 | [>MPI-HLR](https://www.zotero.org/groups/1732893/galaxy/tags/>MPI-HLR) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>PSC](https://www.zotero.org/groups/1732893/galaxy/tags/>PSC) |
 | 1 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu) | | | | | | | | | | |
 
 
@@ -250,7 +250,7 @@ There are two new *[Galactic Blog](/blog/)* entries:
 * **[Contributor of the month: Saskia Hiltemann](https://galaxyproject.org/blog/2018-11-cotm-saskia-hiltemann/)**, by Marten Čech
 * **[Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras](https://galaxyproject.org/blog/2018-10-totm)**, by Bérénice Batut
 
----- 
+----
 # Who's Hiring
 
 <div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
@@ -258,7 +258,7 @@ There are two new *[Galactic Blog](/blog/)* entries:
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
 * [2-year IR/postdoc position (Analysis of Genomic Variants in Children and Young Adults with Acute Myeloid Leukemia)](https://www.sfbi.fr/content/analysis-genomic-variants-children-and-young-adults-acute-myeloid-leukemia),  Analyse Bioinformatique ARTbio, Paris, France
-* [Research enigineer](http://umrh-bioinfo.clermont.inra.fr/Intranet/web/UMRH/fr/show/137) Bioinformatics/Statistics/Microbial. [INRA, St Genes Champanelle, France](https://www.google.com/maps/place/Umrh-Inra/@45.709765,3.013626,15z/data=!4m5!3m4!1s0x0:0xf5ed70d42638f632!8m2!3d45.709765!4d3.013626) 
+* [Research enigineer](http://umrh-bioinfo.clermont.inra.fr/Intranet/web/UMRH/fr/show/137) Bioinformatics/Statistics/Microbial. [INRA, St Genes Champanelle, France](https://www.google.com/maps/place/Umrh-Inra/@45.709765,3.013626,15z/data=!4m5!3m4!1s0x0:0xf5ed70d42638f632!8m2!3d45.709765!4d3.013626)
 * [Bioinformatics Cloud Architect](https://www.embl.de/jobs/searchjobs/index.php?ref=EBI01293), EMBL-EBI, Hinxton, United Kingdom
 * [Galaxy Developer](https://www.linkedin.com/jobs/view/932281766/), Cambridge, United Kingdom
 * [Specialist Solutions Architect - Biological Sciences](https://us-amazon.icims.com/jobs/728182/specialist-solutions-architect----biological-sciences/job?mobile=false&width=1090&height=1200&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Amazon Web Services, United States
@@ -292,7 +292,7 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
 * Update to [Quality Control tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/quality-control/tutorial.html) from [Anthony Bretaudeau](https://github.com/abretaud)
 * Update to [Reference-based RNA-Seq data analysis tutorial](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/ref-based/tutorial.html) from Nicola Soranzo and Peter van Heusden
 * Update to [Calling variants in diploid systems](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/dip/tutorial.html) from Nicola Soranzo
-* Update to [RAD-Seq de-novo data analysis tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/de-novo-rad-seq/tutorial.html) from [Yvan Le Bras](https://github.com/yvanlebras) 
+* Update to [RAD-Seq de-novo data analysis tutorial](https://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/de-novo-rad-seq/tutorial.html) from [Yvan Le Bras](https://github.com/yvanlebras)
 
 And from [Bérénice Batut](https://github.com/bebatut):
 
@@ -319,7 +319,7 @@ And we would especially like to welcome new contributors [Matthias313](https://g
 
 New additions to the Galaxy Community.
 
-## Galaxy Release 18.09 
+## Galaxy Release 18.09
 
 We are pleased to announce the [release of Galaxy 18.09](https://galaxyproject.org/news/2018-9-galaxy-release/). This release has extensive workflow enhancements, new group tags, and Python 3 Beta Support. Please see the [full release notes](https://docs.galaxyproject.org/en/release_18.09/releases/18.09_announce.html) for more information, including how to upgrade today!
 

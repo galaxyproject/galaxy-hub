@@ -18,7 +18,7 @@ hg pull -u -r d8cf43c9a0b9
 * Support for VCFv4.0 and misc VCF fixes [Brad Chapman]
   * Support for VCFv4.0, which should be identical to 3.3 support
   * Correctly handle chromosome references when they start with 'chr' (instead of just numbers)
-  * Handle extra empty tabs on the header line which are present in GATK produced VCF and confuse the determination of how many sample states should be parsed. 
+  * Handle extra empty tabs on the header line which are present in GATK produced VCF and confuse the determination of how many sample states should be parsed.
 
 ### New Tools
 
@@ -32,7 +32,7 @@ hg pull -u -r d8cf43c9a0b9
 
 ### New Supported Data Formats
 
-* Apply patch from Brad Chapman providing support for detecting, uploading and displaying UCSC bigWig and bigBed.  Add new functional tests for uploading and detecting bigbed and bigwig formats. 
+* Apply patch from Brad Chapman providing support for detecting, uploading and displaying UCSC bigWig and bigBed.  Add new functional tests for uploading and detecting bigbed and bigwig formats.
 
 ### Existing Feature Improvements
 
@@ -113,7 +113,7 @@ hg pull -u -r d8cf43c9a0b9
 * More graceful failure if shared workflow is not found.
 * Track tool version in workflows.
 * Add select+autocomplete to run workflow template. This makes it easier to select workflow inputs, but inputs should also be filtered by type as well.
-* More graceful failure if shared workflow is not found. 
+* More graceful failure if shared workflow is not found.
 
 #### Data Libraries
 

@@ -1,4 +1,4 @@
-<div class='center'><a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a>
 <div class='title'>2016-02-18 Web Meetup<br /><br />
 
 </div></div>
@@ -29,7 +29,7 @@
 
 <br />
 
-*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations.
 
 ## Call Technology
 

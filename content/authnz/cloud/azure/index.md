@@ -3,13 +3,13 @@ title: Configure Cloud Authorization for Azure
 highlight: true
 ---
 
-On this page we explain how to setup a *service principal* on Azure, and how to configure Galaxy to assume 
-that *service principal*. 
+On this page we explain how to setup a *service principal* on Azure, and how to configure Galaxy to assume
+that *service principal*.
 
 ## Step 1: Create an Azure Service Principal
 
-1. Goto [portal.azure.com](https://portal.azure.com) and login with your Azure credentials. 
-2. Select **Azure Active Directory > App registrations**, then click **New registration** 
+1. Goto [portal.azure.com](https://portal.azure.com) and login with your Azure credentials.
+2. Select **Azure Active Directory > App registrations**, then click **New registration**
 (as shown on the following figure).
 
   ![image](/authnz/cloud/azure/01.png)
@@ -30,8 +30,8 @@ that *service principal*.
   
 ## Step 2: Setup Galaxy to Use an Azure Service Principal
 
-To setup Galaxy to use a service principal, you need to `POST` a payload as the following to 
-`/api/cloud/authz` API of Galaxy: 
+To setup Galaxy to use a service principal, you need to `POST` a payload as the following to
+`/api/cloud/authz` API of Galaxy:
 
 ```
 {
@@ -45,7 +45,7 @@ To setup Galaxy to use a service principal, you need to `POST` a payload as the 
 }
 ```
 
-You may send the API request using `curl` as the following: 
+You may send the API request using `curl` as the following:
 
 ```shell
  curl --header "Content-Type: application/json" \
@@ -54,7 +54,7 @@ You may send the API request using `curl` as the following:
  https://usegalaxy.org/api/cloud/authz?key=...
 ```
 
-This API call with respond with the created Azure authnz record as the following: 
+This API call with respond with the created Azure authnz record as the following:
 
 ```json
 {

@@ -73,7 +73,7 @@ clean up unwanted histories, libraries and datasets. There are located in the
 *   purge_libraries.sh
 *   delete_datasets.sh
 
-Note that you should activate the Galaxy virtual environment before running the scripts, as it follows. 
+Note that you should activate the Galaxy virtual environment before running the scripts, as it follows.
 
     source /path/to/galaxy/root/.venv/bin/activate
     sh delete_userless_histories.sh
@@ -115,10 +115,10 @@ some time to complete.
 | --delete_datasets | -6 | mark deletable datasets as deleted and purge associated dataset instances |
 
 Here are more details about each of the functions that the `cleanup_datasets.py`
-script can perform. Note that, in order to run the python script separately 
-you need to 1) activate Galaxy's virtual environment and 2) change into Galaxy's root 
-directory. Alternatively to 2) one can specify the galaxy configuration (galaxy.[yml|ini]) 
-extra parameter. 
+script can perform. Note that, in order to run the python script separately
+you need to 1) activate Galaxy's virtual environment and 2) change into Galaxy's root
+directory. Alternatively to 2) one can specify the galaxy configuration (galaxy.[yml|ini])
+extra parameter.
 
 ### Deleting Userless Histories
 

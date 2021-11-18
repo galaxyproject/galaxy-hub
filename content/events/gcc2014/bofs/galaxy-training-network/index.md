@@ -36,7 +36,7 @@ Anyone interested in using Galaxy for bioinformatics and related learning and te
 # Attendees
 
 * Simon Gladman
-* Maria Doyle 
+* Maria Doyle
 * Ron Horst
 * Hans-Rudolf Hotz
 * Richard Everson
@@ -81,7 +81,7 @@ This has been created.
 
 Some aspirations for the resource directory:
 
-* List the tools and packages 
+* List the tools and packages
 * Estimates of needed memory
 * Datasets
 * Target Audience: Beginner, intermediate, advanced

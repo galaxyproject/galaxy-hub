@@ -15,7 +15,7 @@ Workshops will be hands-on and participants will be strongly encouraged to bring
 
 # Registration
 
-You [register](/events/gcc2013/register/) for the Training Day (and specify which sessions you will attend) when you register for the conference.  You can register for the Training Day and the main meeting, or just the Training Day. 
+You [register](/events/gcc2013/register/) for the Training Day (and specify which sessions you will attend) when you register for the conference.  You can register for the Training Day and the main meeting, or just the Training Day.
 
 *Training Day registration is 55% off if you register for both.*
 
@@ -122,8 +122,8 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #cceeff;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
-* Little or no knowledge of Galaxy. 
+    <td style=" vertical-align: top; background-color: #cceeff;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best.
+* Little or no knowledge of Galaxy.
  </td>
   </tr>
   <tr>
@@ -152,9 +152,9 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #cceeff;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
+    <td style=" vertical-align: top; background-color: #cceeff;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best.
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
-* Knowledge of a simple Text Editor (`vi, pico, nano`). 
+* Knowledge of a simple Text Editor (`vi, pico, nano`).
  </td>
   </tr>
   <tr>
@@ -186,8 +186,8 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+    <td style=" vertical-align: top; background-color: #ddffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best.
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session.
  </td>
   </tr>
   <tr>
@@ -202,7 +202,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
 </table>
 
- 
+
 ### Statistical Genome Analysis with Galaxy
 
 <table class="table">
@@ -216,8 +216,8 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+    <td style=" vertical-align: top; background-color: #ddffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best.
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session.
  </td>
   </tr>
   <tr>
@@ -244,8 +244,8 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+    <td style=" vertical-align: top; background-color: #ddffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best.
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session.
 </td>
   </tr>
   <tr>
@@ -277,8 +277,8 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #ddffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+    <td style=" vertical-align: top; background-color: #ddffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best.
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session.
 </td>
   </tr>
   <tr>
@@ -307,14 +307,14 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
-* [Virtual machine (VM) player software](/events/gcc2013/training-day/vms/), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/). 
+    <td style=" vertical-align: top; background-color: #ffffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best.
+* [Virtual machine (VM) player software](/events/gcc2013/training-day/vms/), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/).
 * The [virtual machine image](/events/gcc2013/training-day/vms/#2-download-needed-vms-on-your-laptop) (download from [Norway](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop.ova) or [US](http://depot.galaxyproject.org/BasicWorkshop.ova)) for this workshop.
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session.
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * Basic Linux package management administration (yum / apt-get)
-* Basic [PostgreSQL](http://postgresql.org) database setup skills 
-* Knowledge of a simple Text Editor (`vi, pico, nano`). 
+* Basic [PostgreSQL](http://postgresql.org) database setup skills
+* Knowledge of a simple Text Editor (`vi, pico, nano`).
  </td>
     <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
  </td>
@@ -343,12 +343,12 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
-* [Virtual machine (VM) player software](/events/gcc2013/training-day/vms/), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/). 
+    <td style=" vertical-align: top; background-color: #ffffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best.
+* [Virtual machine (VM) player software](/events/gcc2013/training-day/vms/), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/).
 * The [virtual machine image](/events/gcc2013/training-day/vms/#2-download-needed-vms-on-your-laptop) (download from [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova)) for this workshop.
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session.
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
-* Knowledge of a simple Text Editor (`vi, pico, nano`). 
+* Knowledge of a simple Text Editor (`vi, pico, nano`).
 * A "simple" executable tool you would like to wrap that takes and/or creates existing Galaxy datatypes like bed/fastq/bam etc such as one of the [bedTools executables](http://code.google.com/p/bedtools/).
 </td>
     <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
@@ -378,11 +378,11 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
-* [Virtual machine (VM) player software](/events/gcc2013/training-day/vms/), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/). 
+    <td style=" vertical-align: top; background-color: #ffffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best.
+* [Virtual machine (VM) player software](/events/gcc2013/training-day/vms/), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/).
 * The [virtual machine image](/events/gcc2013/training-day/vms/#2-download-needed-vms-on-your-laptop) (download from [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova)) for this workshop.
 * Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Introduction to Tool and Data Sources Configureation](/events/gcc2013/training-day/#introduction-to-tool-and-data-source-configuration).
-* Knowledge of a simple Text Editor (`vi, pico, nano`). 
+* Knowledge of a simple Text Editor (`vi, pico, nano`).
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 </td>
     <td rowspan=3 style=" width: 16%;"> <a href='http://virtualbox.org'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="80" /></a><br />This workshop will require that you have the [VirtualBox](http://virtualbox.org) player (or [VMware](http://vnware.com) player) installed on your laptop.
@@ -412,10 +412,10 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
-* [Virtual machine (VM) player software](/events/gcc2013/training-day/vms/), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/). 
+    <td style=" vertical-align: top; background-color: #ffffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best.
+* [Virtual machine (VM) player software](/events/gcc2013/training-day/vms/), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/).
 * The [virtual machine image](/events/gcc2013/training-day/vms/#2-download-needed-vms-on-your-laptop) (download from [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova)) for this workshop.
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session.
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * Basic understanding of the process for developing a simple Galaxy tool as well as Galaxy data types, or attendance at [Introduction to Tool and Data Sources Configureation](/events/gcc2013/training-day/#introduction-to-tool-and-data-source-configuration).
  </td>
@@ -426,7 +426,7 @@ See each individual workshop's list of prerequisite for specifics.
     <th style=" vertical-align: top;"> Outcomes </th>
     <td style=" vertical-align: top; background-color: #ffffcc;"> 1. Starting up your own local tool shed as well as your own local Galaxy instance.  You will be interacting between these 2 applications throughout this workshop.
 2. Creating new repositories in your tool shed, and uploading various Galaxy utilities to them.
-3. Discovering how relationships are built between repositories and repository contents in the tool shed using tool dependency and simple and complex repository dependency definitions. 
+3. Discovering how relationships are built between repositories and repository contents in the tool shed using tool dependency and simple and complex repository dependency definitions.
 4. Installing repositories that contain each category of Galaxy utilities from the tool shed into your Galaxy instance and understanding the installation behavior of each of the utilities.
 5. Deactivating and reactivating repositories installed into Galaxy and understanding the behavior of the various Galaxy utilities contained in the repositories.
 6. Uninstalling and reinstalling  repositories installed into Galaxy and understanding the behavior of the various Galaxy utilities contained in the repositories.
@@ -453,10 +453,10 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best. 
-* [Virtual machine (VM) player software](/events/gcc2013/training-day/vms/), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/). 
+    <td style=" vertical-align: top; background-color: #ffffcc;"> * A modern web browser.  Google Chrome, Firefox and Safari will work best.
+* [Virtual machine (VM) player software](/events/gcc2013/training-day/vms/), either [VirtualBox](http://virtualbox.org) or [VMware Player](https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_player/).
 * The [virtual machine image](/events/gcc2013/training-day/vms/#2-download-needed-vms-on-your-laptop) (download from [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova)) for this workshop.
-* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+* A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session.
 * Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
 * Knowledge of a programming or scripting language.
 </td>
@@ -487,7 +487,7 @@ See each individual workshop's list of prerequisite for specifics.
   </tr>
   <tr>
     <th style=" vertical-align: top;"> Prerequisites </th>
-    <td style=" vertical-align: top; background-color: #ffffcc;"> * A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session. 
+    <td style=" vertical-align: top; background-color: #ffffcc;"> * A general knowledge of Galaxy, or attendance at the "[Introduction to Galaxy and the Galaxy Ecosystem](/events/gcc2013/training-day/#introduction-to-galaxy-and-the-galaxy-ecosystem)" session.
 * Knowledge of a programming or scripting language.
  </td>
   </tr>
@@ -522,6 +522,6 @@ Thanks to everyone who participated in the nomination and voting process.
 
 <div class='left'><a href='http://bit.ly/14EmcSA'><img src="/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry Boot Camp, 3-4 July, University of Oslo" width="150" /></a></div>
 
-We are happy to announce that a [Software Carpentry Boot Camp](http://bit.ly/14EmcSA) has been scheduled for 3-4 July (immediately following GCC2013), also at the University of Oslo. [Software Carpentry Boot Camps](http://software-carpentry.org/boot-camps/) are  example-driven workshops on basic computing skills. Short tutorials alternate with hands-on practical exercises, and participants are encouraged both to help one another, and to try applying what they have learned to their own research problems during and between sessions. 
+We are happy to announce that a [Software Carpentry Boot Camp](http://bit.ly/14EmcSA) has been scheduled for 3-4 July (immediately following GCC2013), also at the University of Oslo. [Software Carpentry Boot Camps](http://software-carpentry.org/boot-camps/) are  example-driven workshops on basic computing skills. Short tutorials alternate with hands-on practical exercises, and participants are encouraged both to help one another, and to try applying what they have learned to their own research problems during and between sessions.
 
 <slot name="/events/gcc2013/footer" />

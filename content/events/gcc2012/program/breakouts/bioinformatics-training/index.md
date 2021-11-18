@@ -22,7 +22,7 @@ title: Bioinformatics Training and Teaching with Galaxy
 * Graeme Grimes
 * Ketaki Bhide
 * Patra Volarath
-* Erik Garrison 
+* Erik Garrison
 * Dave Clements
 * Rama Sompallae
 * ...
@@ -64,7 +64,7 @@ These notes are a rough first grouping of [Dave Clements'](/people/dave-clements
 * Teaching R is an order of magnitude harder to teach than perl
 * Do you teach the details or high level?
   * Researchers who have specific needs.  
-  * You have students who you want to teach basic understanding too 
+  * You have students who you want to teach basic understanding too
   * We also need to train the biologists and chemists to use the tools, but too understand the outputs.
   * Some past bioinformatics training focused on statistics to the point of alienating biologists
 * Trainers can't know every detail of every tool

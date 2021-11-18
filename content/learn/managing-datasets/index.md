@@ -12,7 +12,7 @@ Please review for the most current information about **how to find and manage al
 
 ***Datasets*** are the inputs and outputs of each step in an analysis project in Galaxy. Datasets are associated with at least one History, which can be labeled, manipulated, and shared with anyone, whether they have a Galaxy account or not. **Watch the *["Datasets" video](https://vimeo.com/galaxyproject/datasets1)***
 
-Effectively managing datasets is important for general organization, collaboration, publishing, and for staying within the quotas set by the [UseGalaxy.org](https://usegalaxy.org) public Galaxy server. 
+Effectively managing datasets is important for general organization, collaboration, publishing, and for staying within the quotas set by the [UseGalaxy.org](https://usegalaxy.org) public Galaxy server.
 
 Account features, quota sizes, and terms of service are set by the administrators of each distinct public Galaxy server. Review the server's homepage and [Galaxy Directly listing](/use/) where you are working for server-specific details, including contact information and supplimental resources.
 
@@ -28,7 +28,7 @@ You have multiple options how to get your files into Galaxy thus making them dat
 
 </div>
 
-* **Upload modal** - Interface within Galaxy that suits the best for uploading small files from disk or fetching data from other servers. You can reach it by clicking on its icon (right picture) in the tool panel. 
+* **Upload modal** - Interface within Galaxy that suits the best for uploading small files from disk or fetching data from other servers. You can reach it by clicking on its icon (right picture) in the tool panel.
 * **FTP upload** - In case of large files (the upload modal ~~has ~2GB browser limit~~ can now handle data over 2 GB in most cases) or unpredictable connection (support for pausing and resuming) you might want to use FTP instead. The Galaxy server you want to upload data to has to have an FTP service configured (both [Main](/main/) and [Test](/test/) instances do). See more details at [FTPUpload](/ftp-upload/).
 
 # Dataset Icons & Text
@@ -116,10 +116,10 @@ Methods
   * **Watch how it works in the [Managing Histories](https://vimeo.com/galaxyproject/managehistories) video.**
   * **Deleted** datasets and histories **can be recovered** by users as they are retained in Galaxy for a time period set by the instance administrator. For the Galaxy public instances [Main](/main/) and [Test](/test/), this is currently several months.
   * **Permanently deleted** datasets and histories **cannot be recovered** by the user or administrator.
-  * Deleted datsets can be undeleted or permanently deleted within a History. 
+  * Deleted datsets can be undeleted or permanently deleted within a History.
   * Links to show/hide deleted (and hidden) datasets are at the top of the History panel. Only active datasets are shown by default.
   * To review or adjust an individual dataset, click on the name to expand it. If it is only deleted, but not permenently deleted (purged), you'll see a message with links to recover or to purge: *This dataset has been deleted*. Click on *Undelete it* to recover the dataset, making it active and accessible to tools again. Click on *Permenently remove it from disk* to purge the dataset and remove it from the account quota calculation.
-  * To review or adjust multiple datasets in batch, click on the "checked box" icon near the top right of the history panel to switch into "Operations on Mulitple Datasets" mode. Several options to show, hide, delete, undelete, purge, and group datasets are available. A selection box will be available for each individual dataset. Check the datasets you want to modify and chose your option. 
+  * To review or adjust multiple datasets in batch, click on the "checked box" icon near the top right of the history panel to switch into "Operations on Mulitple Datasets" mode. Several options to show, hide, delete, undelete, purge, and group datasets are available. A selection box will be available for each individual dataset. Check the datasets you want to modify and chose your option.
   
   
 * [Quotas](/admin/disk-quotas/) for Datasets and Histories
@@ -129,7 +129,7 @@ Methods
   * Datasets can be associated with one or more History, but are only considered once.
   * All copies of a dataset must be permanently deleted for it to not be considered.
   * Histories/datasets that are shared with you are *only partially considered* unless you import them.
-  * **Active** and **Deleted** histories can be **permanently deleted** under *User &rarr; Histories*. Click on *Advanced Search*, then set *status: all*. 
+  * **Active** and **Deleted** histories can be **permanently deleted** under *User &rarr; Histories*. Click on *Advanced Search*, then set *status: all*.
   * To review or change the status for an individual History, click on the History name and choose an option from the pull-down menu. *Peremenently delete* will purge an entire History and all Datasets it includes.
   * To review or change the status for multiple Histories, check the boxes for the Histories to be discarded and then click on one of the the buttons at the bottom of the form. *Permanently delete* will purge entire Histories and all Datasets included.
   * Note: A History must be *Unshared* before it can be *Deleted* or *Permenently deleted*. Adjust the sharing state for a History on the *User &rarr; Histories* form or from the History menu on the *Share or Publish* form.
@@ -146,9 +146,9 @@ Methods
 
 You can ***search your datasets*** in a number of ways:
 
-* A search bar is at the top of every History. 
-* *Type* text into the field (advanced options are described below) and press "enter/return". The list of Datasets in the History will change to include only those that match the search term, excluding those that don't. 
-* *Clear* the search by removing the text in the bar and pressing enter, or by pressing the ESC key while the text is highlighted, or by clicking on the "clear search" button on the right side of the bar. 
+* A search bar is at the top of every History.
+* *Type* text into the field (advanced options are described below) and press "enter/return". The list of Datasets in the History will change to include only those that match the search term, excluding those that don't.
+* *Clear* the search by removing the text in the bar and pressing enter, or by pressing the ESC key while the text is highlighted, or by clicking on the "clear search" button on the right side of the bar.
 
 Some notes:
 * Searches are case insensitive: 'some' will match both 'some' *and* 'Some'.

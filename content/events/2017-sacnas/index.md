@@ -64,7 +64,7 @@ Bring your laptop for a series of hands-on exercises.
 You will need bash and anaconda set up.  Please follow the installation instructions outlined [here](http://installation.software-carpentry.org/
 ) for your operating system (either Windows, Mac OS X, or Linux) to make sure you have the “Bash Shell” and “Python” installed.
 
-## Session 1 : Unix Shell 
+## Session 1 : Unix Shell
 
 | Time | Topic |
 |:----:| ----- |

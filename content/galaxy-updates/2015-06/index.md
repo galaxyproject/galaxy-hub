@@ -20,7 +20,7 @@ Welcome to the June 2015 *[Galactic News](/galaxy-updates/)*, a summary of what 
 
 * [BioMAJ2Galaxy: automatic update of reference data in Galaxy using BioMAJ](https://doi.org/10.1186/s13742-015-0063-8)
     by Anthony Bretaudeau, Cyril Monjeaud, Yvan Le Bras, Fabrice Legeai, Olivier Collin, *GigaScience*, Vol. 4, No. 1. (9 May 2015), doi:10.1186/s13742-015-0063-8
-* [Design and bioinformatics analysis of genome-wide CLIP experiments](https://doi.org/10.1093/nar/gkv439), 
+* [Design and bioinformatics analysis of genome-wide CLIP experiments](https://doi.org/10.1093/nar/gkv439),
     by Tao Wang, Guanghua Xiao, Yongjun Chu, Michael Q. Zhang, David R. Corey, Yang Xie, *Nucleic Acids Research* (09 May 2015), gkv439, doi:10.1093/nar/gkv439
 * [The Globus Galaxies platform: delivering science gateways as a service](https://doi.org/10.1002/cpe.3486)
     Ravi Madduri, Kyle Chard, Ryan Chard, Lukasz Lacinski, Alex Rodriguez, Dinanath Sulakhe, David Kelly, Utpal Dave and Ian Foster, *Concurrency and Computation: Practice and Experience* (April 2015), doi:10.1002/cpe.3486
@@ -124,7 +124,7 @@ Looking to extend your trip?  There are also **[at least 7 other events](/news/n
 
 <div class='right'><a href='/news/near-gcc2015/'><img src="/news/near-gcc2015/MatrixSnap.png" alt="Events nearby GCC2015" width="150" /></a></div>
 
- In Norwich 
+ In Norwich
 * [iPlant Tools & Services Workshop](http://www.tgac.ac.uk/361_Division/training-programme/courses-workshops/tgac-events/iplant-tools-and-services/)
 * [BioJS Conference and Hackathon](http://conf.biojs.net/)
 
@@ -183,7 +183,7 @@ Please let the [organisers](http://gcc2015.tsl.ac.uk/) know if you are intereste
 <div class='left'><a href='/community/galaxy-admins/meetups/2015-06-18/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup June 18" height="75" /></a></div>
 <div class='right'><a href='http://www.manchester.ac.uk/'><img src="/images/logos/UManchesterLogo.jpg" alt="University of Manchester" height="85" /></a></div>
 
-Please join us for the [next GalaxyAdmins meetup on June 18](/community/galaxy-admins/meetups/2015-06-18/) when **[Peter Briggs](http://galacticengineer.blogspot.co.uk/)** of the [University of Manchester](http://www.manchester.ac.uk/) will speak on 
+Please join us for the [next GalaxyAdmins meetup on June 18](/community/galaxy-admins/meetups/2015-06-18/) when **[Peter Briggs](http://galacticengineer.blogspot.co.uk/)** of the [University of Manchester](http://www.manchester.ac.uk/) will speak on
 
  **Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester**
 
@@ -193,7 +193,7 @@ Please join us for the [next GalaxyAdmins meetup on June 18](/community/galaxy-a
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/asms2015/'><img src="/images/logos/ASMSLogo.png" alt="63rd ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
 <a href='http://migale.jouy.inra.fr/?q=formations'><img src="/images/logos/MIGALELogo.png" alt='Cycle "Bioinformatique par la pratique" 2015' height="70" /></a>
 <a href='http://www.qfab.org/event/workshop-rna-seq-analysis-using-galaxy-2/'><img src="/images/logos/QFABLogo.png" alt="Workshop: RNA-Seq analysis using Galaxy" height="80" /></a> &nbsp;
@@ -370,7 +370,7 @@ There are [upcoming events](/events/) in seven countries on three continents.  S
 
 The Galaxy is expanding! Please help it grow.
 
-* [Post-Doc CDD-IR CEA-Institut de Génomique](http://bit.ly/1Pbd9gk), Evry, France 
+* [Post-Doc CDD-IR CEA-Institut de Génomique](http://bit.ly/1Pbd9gk), Evry, France
     Application deadline extended to 2015/06/30
 * [Computational Metabolomics Professor](https://psu.jobs/job/55363), Penn State University, Pennsylvania, United States
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
@@ -403,7 +403,7 @@ VirAmp includes [Documentation](http://docs.viramp.com/en/latest/) and is suppor
 ## May 2015 Galaxy Release (v 15.05)
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+
 **The May 2015 Galaxy Release is out!**
 **[Release Notes v 15.05](http://galaxy.readthedocs.org/en/master/releases/15.05_announce.html)**
 

@@ -16,7 +16,7 @@ date: 2011-02-18
 
 ### galaxyproject at Twitter
 
-Join us at Twitter for the latest updates on development projects, conferences and training, and all things Galaxy! 
+Join us at Twitter for the latest updates on development projects, conferences and training, and all things Galaxy!
 
   #usegalaxy
 
@@ -65,7 +65,7 @@ Running this script will build *whoosh* indexes in the directory named by the `c
 
 We recommend adding something like the following setting to your Galaxy server's `cron` settings to keep the indexes current:
 
-``` 
+```
 0,30 * * * * cd /var/opt/galaxy/g2test/galaxy_test ; bash ./scripts/data_libraries/build_whoosh_index.sh 
 ```
 
@@ -114,17 +114,17 @@ Adjusted the `cleanup_datasets.py` script to more correctly handle the lifecycle
 
 Managing library datasets is a bit complex, so here is a scenario that hopefully provides clarification.  The complexities of handling library datasets is mostly contained in the `delete_datasets()` method in the `cleanup_datasets.py` script.
 
-    
+
 #### Example of usage:
 
 1. Assume we have 1 library dataset with
 
-``` 
+```
 LibraryDatasetDatasetAssociation -> LibraryDataset and Dataset
 ```
 
 
-This dataset would have the following database column values: 
+This dataset would have the following database column values:
 
 ```
     LibraryDatasetDatasetAssociation deleted: False
@@ -152,7 +152,7 @@ This action results in the following database column values:
     Dataset deleted: True*, purged: False
 ```
 
-    
+
 3. After the number of days configured for the `purge_datasets()` method (option -3 in the `cleanup_datasets.py` script) have passed, execution of the `purge_datasets()` method results in the following database column values:
 
 ```
@@ -165,7 +165,7 @@ This action results in the following database column values:
 
 This scenario is about as simple as it gets.  Keep in mind that a Dataset object can have many `HistoryDatasetAssociations` and many `LibraryDatasetDatasetAssociations`, and a `LibraryDataset` can have many `LibraryDatasetDatasetAssociations`.
 
-Another way of stating it is: `LibraryDatasetDatasetAssociation` objects map `LibraryDataset` objects to `Dataset` objects, and `Dataset` objects may be mapped to `History` objects via `HistoryDatasetAssociation` 
+Another way of stating it is: `LibraryDatasetDatasetAssociation` objects map `LibraryDataset` objects to `Dataset` objects, and `Dataset` objects may be mapped to `History` objects via `HistoryDatasetAssociation`
 
 ----
 
@@ -225,7 +225,7 @@ Workflows containing tools that are not loaded will now open in the editor inste
   * Extend *CIGAR* string parsing to handle all operations (however, insertions still not fully supported).
   * History dataset selection: show history name, show and order by hid in display.
   * Modified interval index squish mode to display blocks and treat intervals as half-open.
-* Bug fixes: 
+* Bug fixes:
   * Fix *CIGAR* string parsing bug that prevented sequence data from being displayed correctly.
   * BED files without score column or with scores that are floats can now be displayed.
   * Better handling of error messages so that messages and data do not overlap.
@@ -233,8 +233,8 @@ Workflows containing tools that are not loaded will now open in the editor inste
 ### User Interface (UI)
 
 * Search improvements:
-  * Size of search box increases to show help text (column label). 
-  * Help text is highlighted rather than hidden when user clicks on search box. 
+  * Size of search box increases to show help text (column label).
+  * Help text is highlighted rather than hidden when user clicks on search box.
   * Standard and advanced search divs are toggled correctly when moving between searches.
 
 ### Galaxy Reports

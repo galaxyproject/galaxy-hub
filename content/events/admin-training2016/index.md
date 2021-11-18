@@ -25,7 +25,7 @@ Training will take place the week before [Supercomputing'16 (SC16)](http://sc16.
 This [two day introductory session](/events/admin-training2016/basics-session/) will cover how to:
 
 * Deployment platform options
-* Installing a basic Galaxy server 
+* Installing a basic Galaxy server
 * Database choices and configuration  (SQLite & PostgreSQL)
 * Web server choices and configuration  (NGINX & Apache)
 * Identifying and installing well-defined tools from the Galaxy Tool Shed
@@ -44,9 +44,9 @@ See the [Basics Session](/events/admin-training2016/basics-session/) page for de
 
 The [three day advanced session](/events/admin-training2016/advanced-session/) will build on topics covered in the [basics section](/events/admin-training2016/basics-session/).  Topics covered include
 
-* Advanced tool definition: 
-  * collections 
-  * error handling 
+* Advanced tool definition:
+  * collections
+  * error handling
   * tests
   * data types
   * data sources
@@ -98,7 +98,7 @@ This is one of three comprehensive Galaxy admin and developer training events be
 # Hosts
 
 <div class='center'>
-<a href='http://www.chpc.utah.edu'><img src="/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a> &nbsp; 
+<a href='http://www.chpc.utah.edu'><img src="/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a> &nbsp;
 <a href='http://healthsciences.utah.edu/'><img src="/images/logos/UUtahHealthSciences.png" alt="University of Utah" height="90" /></a> <br />
 <a href='http://medicine.utah.edu/dbmi/'><img src="/images/logos/UUtahDBMI.png" alt="University of Utah Department of Biomedical Informatics" width="220" /></a>
 <a href='http://medicine.utah.edu/ccts/bmic/'><img src="/images/logos/UUtahCCTS_BMIC.png" alt="University of Utah Clinical & Translational Science Biomedical Informatics Core (CCTS BMIC)" width="220" /></a><br />

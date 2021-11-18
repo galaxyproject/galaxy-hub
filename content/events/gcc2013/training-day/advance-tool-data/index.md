@@ -47,7 +47,7 @@ In summary, the essence of the entire 2 hour session is that to create your own 
 
 ## 15:05-15:25 Hello world in Galaxian
 
-The first exercise consists of creating (or copying, your choice) a text file containing valid XML describing a simple and admittedly, not very useful tool which calls a python script to do some work. However, it will demonstrate the bare bones of the power of the Galaxy tool interface. A few lines of XML and a small python script get you a familiar, simple user interface and a single new history item - a text file containing a string. Note that this is a trivial variation on the hello world tool used in the introductory session - instead of a fugly command line, we're also introducing a python script that does the actual work. 
+The first exercise consists of creating (or copying, your choice) a text file containing valid XML describing a simple and admittedly, not very useful tool which calls a python script to do some work. However, it will demonstrate the bare bones of the power of the Galaxy tool interface. A few lines of XML and a small python script get you a familiar, simple user interface and a single new history item - a text file containing a string. Note that this is a trivial variation on the hello world tool used in the introductory session - instead of a fugly command line, we're also introducing a python script that does the actual work.
 
 Steps:
 
@@ -142,7 +142,7 @@ The syntax ${...} is recommended and it is also recommended that all user suppli
 
 4. #4 Check paster.log for errors (search for “hello” to find where your tool loaded – or barfed). If it fails to load, look for the syntax error, repair it, rinse, repeat... until it loads.
 
-5. #5 When it loads correctly, test your new tool. In your VM webrowser, visit http://localhost:8080 . Register your admin email address if you haven't already done so and log in. Test your new tool. It will write “hello world” to a new file in your history. If/when it works, find the actual commands Galaxy executed to run your tool in paster.log. If it fails, look in paster.log for hints about what went wrong. Repair and reload via the admin interface (no need to restart the Galaxy server) until it works. 
+5. #5 When it loads correctly, test your new tool. In your VM webrowser, visit http://localhost:8080 . Register your admin email address if you haven't already done so and log in. Test your new tool. It will write “hello world” to a new file in your history. If/when it works, find the actual commands Galaxy executed to run your tool in paster.log. If it fails, look in paster.log for hints about what went wrong. Repair and reload via the admin interface (no need to restart the Galaxy server) until it works.
 
 6. #6 Raise arms in victory \o/
 
@@ -209,7 +209,7 @@ If the test does not work you will see some tracebacks which will indicate what 
 
 ## 15:40-15:55. Hello repeating input
 
-Add a repeating group input parameter as shown. These are handy when you need an unknown number of parameters from the user since they allow the user to simply add more until they are done. Save. Reload the tool via the admin interface and test it out. Repeat until it's working right. Experiment and play with the new repeating parameter. Note how the repeats are passed to the python script, where the optparse "append" option adds them to a list of strings which are then written as newline delimited rows. 
+Add a repeating group input parameter as shown. These are handy when you need an unknown number of parameters from the user since they allow the user to simply add more until they are done. Save. Reload the tool via the admin interface and test it out. Repeat until it's working right. Experiment and play with the new repeating parameter. Note how the repeats are passed to the python script, where the optparse "append" option adds them to a list of strings which are then written as newline delimited rows.
 
 ```xml
 <tool id="hello_advanced" name="Hello Advanced" version="0.03">
@@ -297,7 +297,7 @@ http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax#A.3Crepeat.3E_tag_set
 
 ## 16:10 – 16:30 Hello Tool Data Tables
 
-Many Galaxy tools are able to make use of built-in reference data, e.g. genome indexes for the bwa aligner, that a user can choose from e.g. a select list. Ordinarily, this select list would need to be hard-coded into the tool's xml config, but by relying on Tool Data Tables, we can have the options of the select list populated with content from an external file. 
+Many Galaxy tools are able to make use of built-in reference data, e.g. genome indexes for the bwa aligner, that a user can choose from e.g. a select list. Ordinarily, this select list would need to be hard-coded into the tool's xml config, but by relying on Tool Data Tables, we can have the options of the select list populated with content from an external file.
 
 Currently Tool Data Tables use tab-delimited files (the framework is generic and other formatted files can be defined); each field in the table is separated by a tab character.
 
@@ -352,7 +352,7 @@ Edit your tool_data_tables_conf.xml file and define the structure of the data ta
 ```
 
 
-Define the new parameter as 
+Define the new parameter as
 ```xml
 <param name="builtin_greeting" type="select" label="Select a greeting">
           <options from_data_table="hello_world">

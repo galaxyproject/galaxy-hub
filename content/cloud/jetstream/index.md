@@ -5,7 +5,7 @@ title: Galaxy on Jetstream
 
 Want your own Galaxy server, for free? You can easily create Galaxy servers on the [NSF Jetstream cloud](http://jetstream-cloud.org/).
 
-Please note that, due to some Jetstream restrictions, this is a standalone Galaxy server in the cloud - it is not a scalable virtual cluster managed by CloudMan. 
+Please note that, due to some Jetstream restrictions, this is a standalone Galaxy server in the cloud - it is not a scalable virtual cluster managed by CloudMan.
 
 ## How do I get access?
 

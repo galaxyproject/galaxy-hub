@@ -8,7 +8,7 @@ date: "2019-10-23"
 
 The 28th [Plant and Animal Genome Conference (PAG 2020)](http://www.intlpag.org/) will be held January 11-15, in San Diego, California. PAG is the largest ag-genomics meeting in the world, with over 3000 participants, and 5 days of programming.
 
-Galaxy, as we do every year, will [have a presence](/events/2020-pag/) at PAG 2020, including a two hour workshop introducing the project and how to use the Galaxy platform.  We'll also have a talk on the [Galaxy Training Network](https://training.galaxyproject.org/), and if 2020 is anything like previous years (it will be), numerous other Galaxy-related presentations from the Galaxy Community. 
+Galaxy, as we do every year, will [have a presence](/events/2020-pag/) at PAG 2020, including a two hour workshop introducing the project and how to use the Galaxy platform.  We'll also have a talk on the [Galaxy Training Network](https://training.galaxyproject.org/), and if 2020 is anything like previous years (it will be), numerous other Galaxy-related presentations from the Galaxy Community.
 
 We will add everything we know about, as we find about it, to the [Galaxy @ Pag page](/events/2020-pag/).  Watch that space.
 
@@ -26,7 +26,7 @@ We particularly encourage you to submit an abstract to the [Digital Tools and Re
 
 The [GMOD Project](http://gmod.org/) (which Galaxy is a member of) will be holding a [two day codefest](http://gmod.org/wiki/Codefest_2020) immediately before PAG starts. This is an opportunity to learn more about GMOD and to contribute to [GMOD components](http://gmod.org/wiki/Main_Page) and to the larger GMOD community as well.
 
-If you have any project ideas for this event, then [please add them here](https://docs.google.com/document/d/1_CnUW_W4tNyl7lSlihCwZDKT45VQQxcI3I-VgjnC2Dc/edit). 
+If you have any project ideas for this event, then [please add them here](https://docs.google.com/document/d/1_CnUW_W4tNyl7lSlihCwZDKT45VQQxcI3I-VgjnC2Dc/edit).
 
 **Pangenome metadata scopeathon, January 16-17**<br />
 *(Updated 2019-11-25)*

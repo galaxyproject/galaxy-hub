@@ -34,7 +34,7 @@ Minneapolis, Minnesota, United States
 
 The **2022 Galaxy Community Conference (GCC2022)** brings together hundreds of researchers, trainers, tool developers, software engineers, and  computational infrastructure providers, all addressing common challenges in data intensive science using the [Galaxy data integration and analysis platform](/).
 
-This annual gathering of the Galaxy community includes **training, talks, posters, demos, Birds of a Feather meetups, and many other opportunities for collaboration and networking**.  There is no better event to share your work and learn form others working in data-intensive science. 
+This annual gathering of the Galaxy community includes **training, talks, posters, demos, Birds of a Feather meetups, and many other opportunities for collaboration and networking**.  There is no better event to share your work and learn form others working in data-intensive science.
     </div>
   </div>
 
@@ -91,7 +91,7 @@ For over 30 years the **[Minnesota Supercomputing Institute (MSI)](https://www.m
     </div>
     <div class="card-body">
 
-**[GalaxyP Project](http://galaxyp.org/)** is a multi-omics informatics platform. The focus of the platform is integrative analysis of genomics, transcriptomics and mass spectrometry-based proteomics and metabolomics data. Galaxy-P is being actively developed by the [Griffin research group](https://cbs.umn.edu/contacts/timothy-j-griffin) at the University of Minnesota in collaboration with the Minnesota Supercomputing Institute. 
+**[GalaxyP Project](http://galaxyp.org/)** is a multi-omics informatics platform. The focus of the platform is integrative analysis of genomics, transcriptomics and mass spectrometry-based proteomics and metabolomics data. Galaxy-P is being actively developed by the [Griffin research group](https://cbs.umn.edu/contacts/timothy-j-griffin) at the University of Minnesota in collaboration with the Minnesota Supercomputing Institute.
     </div>
   </div>
 

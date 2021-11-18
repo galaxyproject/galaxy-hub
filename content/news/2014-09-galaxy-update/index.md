@@ -9,7 +9,7 @@ date: "2014-08-29"
 Hello all,
 
 A lot of cool stuff happened in the Galaxy in August, and even more cool stuff is coming: The [September Galaxy Newsletter](/galaxy-updates/2014-09/) is out and here are some highlights:
- 
+
 * [Galaxy Events in Europe this Fall](/galaxy-updates/2014-09/#galaxy-events-in-europe-fall-2014), *lots of 'em.*
 * [G3: The Great GigaScience and Galaxy Workshop](/galaxy-updates/2014-09/#the-great-gigascience-and-galaxy-workshop) is happening Friday 19 September 2014 at The University of Melbourne.
 * [New releases](/galaxy-updates/2014-09/#new-releases) and [communities](/galaxy-updates/2014-09/#galaxy-uk-community-launched) - *lots of 'em: *

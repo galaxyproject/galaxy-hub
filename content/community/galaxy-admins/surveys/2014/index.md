@@ -138,14 +138,14 @@ Two community-wide questionnaires were run in the fall of 2014.  One asked *Gala
 ### Cloud
 
 * Personal Galaxy running on national research cloud infrasrtucture. Used for research project on reproducibility of genomics
-* 7 cloud servers with 16 cpus / 32 GB or RAM each. 
-* Cloudman cluster. Head node: 16 core, 2 web  threads. 3 -  5 worker nodes (dynamic) 8 core each. 
+* 7 cloud servers with 16 cpus / 32 GB or RAM each.
+* Cloudman cluster. Head node: 16 core, 2 web  threads. 3 -  5 worker nodes (dynamic) 8 core each.
 
 ### In Transition
 
 ### Other
 
- 
+
 * VM: 4 core, 8GB ram currently running in a virtual machine.  Will be upgrading to a standalone server this year and connecting to our compute cluster
 
 ## Storage
@@ -320,20 +320,20 @@ Two community-wide questionnaires were run in the fall of 2014.  One asked *Gala
     * have customised versions of tools taken from core galaxy or toolshed, e.g. to modify parameters defaults to suit local users
   * Other: colours
   * Modified colours for masthead etc to reflect institutional corporate colour scheme, and distinguish appearance from Galaxy main.
-* Shibbolith-based authentication in Apache/mod_shib layer 
+* Shibbolith-based authentication in Apache/mod_shib layer
   * https://projects.uabgrid.uab.edu/galaxy/wiki/GalaxyApacheShibbolethConfiguration
-  * Tools - we have copies of tool wrappers for tools used for teaching that have smaller resource profiles, so they get priority running on clusters for very small datasets used when teaching classes. 
-  * Error handling - error integration with SGE not very good in galaxy. We have several cron jobs that scan SGE logs and email galaxy admin messages when jobs are killed by the scheduler due to having exceed run-time or RAM allocations. Standard galaxy just marks these as red, w/out noting the cause. 
-* fixing URL redirection XSS 
+  * Tools - we have copies of tool wrappers for tools used for teaching that have smaller resource profiles, so they get priority running on clusters for very small datasets used when teaching classes.
+  * Error handling - error integration with SGE not very good in galaxy. We have several cron jobs that scan SGE logs and email galaxy admin messages when jobs are killed by the scheduler due to having exceed run-time or RAM allocations. Standard galaxy just marks these as red, w/out noting the cause.
+* fixing URL redirection XSS
 * Authentication is through Active Directory
   * We have customised the landing page
   * There are custom tools
   * Runners and destinations have been configured
   * Some customisations done to allow remote job submission to a HPC cluster
-* error handling is done with sentry, per dev suggestions. 
+* error handling is done with sentry, per dev suggestions.
 * just added a tool in the toolshed (strelka) and installed some tools with toolshed. Eventually we will install Annovar manually (maybe add it in the toolshed if we got enough time).
 * Scripts to delete old files of certain types.  Added custom tools.
-* Lots of tool installations (tool shed)  to support GVL tutorials and workflow. 
+* Lots of tool installations (tool shed)  to support GVL tutorials and workflow.
   * Added custom genome space tools for long term data storage.
 * Our server in Queensland uses a local UCSC genome browser mirror rather than going to the US.  
   * We've developed and added some of our own tools.
@@ -405,7 +405,7 @@ Two community-wide questionnaires were run in the fall of 2014.  One asked *Gala
 * Data setup:
   * managing .loc file references to reference data has to be done largely by hand (data managers still seem too limited e.g. no delete or modify existing entries)
   * data library admin interface can be a bit frustrating when linking to existing data; also paths are written to database so this needs to be manipulated directly e.g. if sysadmin changes a mountpoint location
-* Our SGE cluster uses ""shared nodes"" - you get a faction of a node. Most galaxy tool wrappers seize all node ram/CPU, which is considered ""not playing well with others"" - so we keep having to re-write wrappers to only use the resources that were allocated to them in the DRMAA string in universe. This leads to a lot of config-dupliation headaches. We really want cores & Ram to be variables that are passed around and can even be over-ridden in the GUI by the users on a per-job basis. 
+* Our SGE cluster uses ""shared nodes"" - you get a faction of a node. Most galaxy tool wrappers seize all node ram/CPU, which is considered ""not playing well with others"" - so we keep having to re-write wrappers to only use the resources that were allocated to them in the DRMAA string in universe. This leads to a lot of config-dupliation headaches. We really want cores & Ram to be variables that are passed around and can even be over-ridden in the GUI by the users on a per-job basis.
   * FTP - we don't use FTP itself, due to security concerns, but do create a directory where users can copy their data via the commandline for import. However, we have a lot of permissions errors depending on whether this directory is on the same FS as datasets. See posting http://lists.bx.psu.edu/pipermail/galaxy-dev/2014-June/019614.html
   * As we upgrade galaxy versions, we often have headaches from tool migrations. We also tried to move our galaxy, and have found a lot of the toolshed installs of underlying packages patch in ABSOLUTE PATHS into the env.sh files, and possibly the executables themselves, making these directories very difficult to move, w/o re-doing the install!
 * The sessions were not encrypted
@@ -415,14 +415,14 @@ Two community-wide questionnaires were run in the fall of 2014.  One asked *Gala
 * Tool shed repos are of inconsistent quality.
 * Some tools was not managing dependecies properly but that is not galaxy problem.
   * We are currently trying to move our galaxy on a local cluster using hadoop.
-* Getting all tools to install correctly. Another issue has been lack of backwards compatibility of tool sheds with older galaxies.. 
+* Getting all tools to install correctly. Another issue has been lack of backwards compatibility of tool sheds with older galaxies..
 * We did have some difficulty migrating our user base from one galaxy server to another.  There were problems with the tool database.
   * Since we don't have the luxury of updating galaxy regularly we are running an older version of galaxy.  For some tools in the main toolshed, when we try and install them via the admin interface we get python errors and cannot  proceed.
 * Tool setup and installing dependencies was complicated but tool shed improvements made recently have made the process easier.
 * The Genomics Virtual Lab project in Australia (http://genome.edu.au) has spent a lot of time sorting these issues
 * It's very difficult  sometimes to discover where we must add the path to access to data usefull for a tools : data_table, .loc files (sometimes several files for one tool) ...
 * There are many things I'd like to automate that just aren't supported yet in the API. The only one that was critical enough to tackle myself (multiple parameters for workflow steps) seems to have been fixed. The next on my list is permissions. I'd like to be able to automatically publish some histories.
-  * Managing tools is still somewhat of a headache. The toolshed is a huge improvement, but I still hit problems regularly. We hit a pretty big bug this spring when we upgraded that broke any tools that needed to compile software. It turned out to have been fixed already in the development code, but it took some time to track down. 
+  * Managing tools is still somewhat of a headache. The toolshed is a huge improvement, but I still hit problems regularly. We hit a pretty big bug this spring when we upgraded that broke any tools that needed to compile software. It turned out to have been fixed already in the development code, but it took some time to track down.
   * My current tool headache is that I'm unable to install the Mira4 tool from the test tool shed. I haven't had time to debug that one yet.
   * Still, I'm happy with the tool sheds in general, they just need a little work.
 * Minor issues with cluster integration, setting up the Galaxy server as a submit node, remembering to restart Galaxy after cluster software updated, etc.
@@ -483,14 +483,14 @@ Two community-wide questionnaires were run in the fall of 2014.  One asked *Gala
 * we don't have enough time/resources to develop our own tools (making the required local adjustments) satisfying all the user wishes
 * Capacity is mainly to do with dataset deletion; we haven't found a way to purge only datasets that haven't been used as an input in N days.
   * Workflow is an issue because users have to know to import global workflows into their own account and then go to the workflows screen. They expect to have them show up in the list of components on the main screen, as all the individual tasks do. It would be really nice to have workflows be able to be exposed directly as a component.
-* It doesn't make coffee for me. Otherwise it covers most of our needs for users. 
+* It doesn't make coffee for me. Otherwise it covers most of our needs for users.
 * We do a bunch of RNA-seq work. The Galaxy tools are about a generation behind what people are actually using.
 * Capacity: as both cluster and storage are very limited here this has been frustrating for some users, and has hampered take-up.
   * Tool definitions: local users don't always agree with defaults or want minor additions to 3rd party tools, both of which have to be done in local copies.
-* Biggest headarches are 
-  1. CPU/RAM specification not well designed; requires redundancy. 
+* Biggest headarches are
+  1. CPU/RAM specification not well designed; requires redundancy.
   2. tools wrappers not exposing data, such as tophat wrapper throwing away unmapped reads (which we want to analyze)
-  3. not very good capture of errors, or resource usage from cluster. When things fail, failure reasons not well captured, when they succeed, run time, queue time and actual RAM used are not captured or displayed to end user or admin. 
+  3. not very good capture of errors, or resource usage from cluster. When things fail, failure reasons not well captured, when they succeed, run time, queue time and actual RAM used are not captured or displayed to end user or admin.
 * Earlier there were storage capacity issues but these have been resolved.
   * There has been a lot of work put into making certain tools work."
 * One workflow/one owner model is problematic, no way for those who've received a copy of a workflow to update it without re-importing.
@@ -498,7 +498,7 @@ Two community-wide questionnaires were run in the fall of 2014.  One asked *Gala
 * In the interface of the tools, i find it very limited unless we can use html and css? Did not try this at the moment.
   * For example if we could put the different element on two separate column. Put color on background or whatever.
 * Galaxy unnecessarily stores intermediate files which exacerbates our storage issues.  Also, it is very difficult to save the workflow that generated a history without also saving the history.  History import is buggy.  Workflows are nice, but not flexible enough to be able to create, for example, a generic RNA-Seq workflow that can work with various numbers of samples and experimental designs.
-* Non iuc  tools are not very reliable. Lots have been abandoned in till sheds. 
+* Non iuc  tools are not very reliable. Lots have been abandoned in till sheds.
 * Managing users data is difficult.  Its hard to tell who belongs to which files.  Purging old histories etc is not straightforward.
   * Jobs submitted by galaxy to SGE don't easily allow for accounting.
 * Our users want at least the same storage quotas they get from the public galaxy servers.  We can't provide that yet.  We have one group trying to get their tools working on the latest version of galaxy but they were written back in 2009.  It is difficult to get them to understand that we can't just put the xml files in place and everything works.  This is a HUGE misunderstanding by scientists and PIs here!

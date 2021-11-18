@@ -11,7 +11,7 @@ date: "2013-12-02"
 </table>
 
 
-Training Day topics are [nominated by you](http://bit.ly/gcc2014tdnom), the Galaxy Community.  Please take a minute to nominate a topic.  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see 
+Training Day topics are [nominated by you](http://bit.ly/gcc2014tdnom), the Galaxy Community.  Please take a minute to nominate a topic.  Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic. If you are looking for ideas, see
 * [what was offered at GCC2013](/events/gcc2013/training-day/),  
 * [what topics were nominated in 2013](http://bit.ly/1i2j1gN), and
 * the [Events](/events/) and the [Events Archive](/events/archive/) pages.

@@ -11,10 +11,10 @@ The *March  2019 Galactic News* is here! This is a summary of what is going on i
 * Event News
     * **[eLife and F1000Research sponsor childcare at GCC2019](/news/2019-03-galaxy-update/#gcc2019-sponsors)**
     * **[The GalaxyAdmins](/news/2019-03-galaxy-update/#galaxyadmins)** meetup is back March 21!
-* [184 new publications](/news/2019-03-galaxy-update/#publications), great resources lead to great insight. 
+* [184 new publications](/news/2019-03-galaxy-update/#publications), great resources lead to great insight.
 * Some most excellent [Galaxy Platform News](/news/2019-03-galaxy-update/#galaxy-platforms-news), including metagenomics, predictive model building, epigenome-wide association studies, immunogenomics, DNA methylation analysis, and more!
-* An interview on [The Galactic Blog](/news/2019-03-galaxy-update/#new-galactic-blog-post) with [Nate Coraor](/people/nate/) about CVMFS & Galaxy. 
-* At least [15 Open positions](/news/2019-03-galaxy-update/#whos-hiring) in five countries on two continents. 
+* An interview on [The Galactic Blog](/news/2019-03-galaxy-update/#new-galactic-blog-post) with [Nate Coraor](/people/nate/) about CVMFS & Galaxy.
+* At least [15 Open positions](/news/2019-03-galaxy-update/#whos-hiring) in five countries on two continents.
 * [A burst of Training Updates](/news/2019-03-galaxy-update/#doc-hub-and-training-updates).
 * [ToolShed contributions](/news/2019-03-galaxy-update/#toolshed-contributions).
 * [Galaxy 19.01 released](/news/2019-03-galaxy-update/#releases)!
@@ -34,7 +34,7 @@ We are very pleased to announce that **[eLife](https://elifesciences.org/)** and
 
 ***[eLife](https://elifesciences.org/)*** is a non-profit open access journal, publishing research from across the life and biomedical sciences. We also invest heavily in software development, new product design, collaboration and outreach. This includes the development of open-source tools, with extensible capabilities, that can be used, adopted and modified by any interested party to help move towards an ecosystem that serves science and scientists as efficiently and as cost-effectively as possible.
 
-Have you got an idea that will bring cutting-edge technology to open research communication? We are here to help. 
+Have you got an idea that will bring cutting-edge technology to open research communication? We are here to help.
 
 eLife’s **Innovation Initiative** was set up to identify and support innovative, small-to-medium-scale open-source projects aiming to improve the sharing and reuse of scientific discoveries. The primary outputs of the Initiative are open tools, technologies and processes aimed at improving the discovery, sharing, consumption and evaluation of important scientific research.
 
@@ -46,7 +46,7 @@ Through this Initiative, we’re always on the lookout for opportunities to enga
 
 [F1000Research](https://f1000research.com/) is proud this year to be sponsoring childcare for GCC2019, which we feel is vital for inclusivity. F1000Research is an Open Access publishing platform for the life sciences that publishes a range of different article types, from traditional research articles, to method articles and software tools. The platform is particularly well suited to publishing software tool articles as our versioning system allows small updates at any time, we have proper syntax highlighting and we can support LaTeX and markdown submissions.
 
-Our [Galaxy Gateway](https://f1000research.com/gateways/galaxy) on the platform brings together articles, posters and slides from Galaxy events. The Gateway allows authors to quickly share their work with the community, boosting visibility and giving researchers proper credit for their contribution. 
+Our [Galaxy Gateway](https://f1000research.com/gateways/galaxy) on the platform brings together articles, posters and slides from Galaxy events. The Gateway allows authors to quickly share their work with the community, boosting visibility and giving researchers proper credit for their contribution.
 
 We’re pleased to be running a call for papers for GCC2019 and **would like to invite the Galaxy community to submit their articles to the [Galaxy Gateway](https://f1000research.com/gateways/galaxy) by 20<sup>th</sup> July 2019.** These can be any type of article, such as a new Galaxy workflow or an update to an existing method or software tool. This is a great opportunity to shine a light on your research, improve its impact and be credited with an academic paper for your work. Please submit via the Galaxy gateway and if you have any questions at all do not hesitate to get in touch at publishers@f1000.com.
 
@@ -54,7 +54,7 @@ We’re pleased to be running a call for papers for GCC2019 and **would like to 
 
 [GCC2019](/events/gcc2019/) is looking for [sponsors](/events/gcc2019/sponsors/)!  If your organization wants to help put on the premier Galaxy event of the year, then please contact the [organizers](/events/gcc2019/sponsors/)). And please encourage your vendors to consider sponsoring as well.  Sponsors are potential partners for participants and their contributions make GCC affordable (and maybe even possible).
 
-# GalaxyAdmins 
+# GalaxyAdmins
 
 <div class="float-right">
 [<img class="img-fluid mx-auto" src="/images/galaxy-logos/GalaxyAdmins_64.png" alt="GalaxyAdmins" />](/community/galaxy-admins/) <br /><br />
@@ -75,7 +75,7 @@ These and [other Galaxy related events](/events/) are coming up:
       <th>Date</th>
       <th>Topic/Event</th>
       <th>Venue/Location</th>
-      <th>Contact</th>    
+      <th>Contact</th>
     </tr>
 </thead>
 <tbody>
@@ -199,11 +199,11 @@ Five of the eight highlighted publications are open access.
 
 We added a new tag to the [Galaxy Publication Library](/publication-library/) this month: *[Education](https://www.zotero.org/groups/1732893/galaxy/tags/%2BEducation)*.  This tag highlights papers that focus on training, teaching, and/or education in general.  Galaxy is well suited for teaching bioinformatics and this has been reflected in publications for several years.  There are three new pubs this month about education. We also selectively back-curated several papers.  *Education* is the first new tag added to the library in six years.
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 124 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 50 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 27 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 26 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | 
-| 16 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 12 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 7 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | 
-| 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [**+Education**](https://www.zotero.org/groups/1732893/galaxy/tags/+Education) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | 
+| 124 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 50 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 27 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 26 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) |
+| 16 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 12 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 7 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) |
+| 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [**+Education**](https://www.zotero.org/groups/1732893/galaxy/tags/+Education) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) |
 | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | | | | | | |
 
 ----
@@ -234,7 +234,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 The [Mandoiu Lab Galaxy server](https://neo.engr.uconn.edu/) is a customized installation of the Galaxy framework deploying bioinformatic tools and pipelines developed in the [Mandoiu Lab](http://dna.engr.uconn.edu/) at the [University of Connecticut](http://www.uconn.edu/) for high-throughput sequencing and immunogenomics data analysis.  Source code and relevant publications for these and other tools developed in the lab are available on the [Mandoiu lab software page](https://dna.engr.uconn.edu/?page_id=40).  
 
-## DocMethyl 
+## DocMethyl
 
 [DocMethyl EpiMOLAS](https://hub.docker.com/r/lsbnb/docmethyl) is Docker image  for DNA methylation analysis in WGBS. This Galaxy docker container have tested with demo dataset under the Ubuntu 16.04 64 bit system equipped with four-core CPU, 32GB RAM, 400GB storage.  The image is maintained by the [Institute of Information Science, Academia Sinica](http://eln.iis.sinica.edu.tw), in Taipei, Taiwan.
 
@@ -248,15 +248,15 @@ The [Mandoiu Lab Galaxy server](https://neo.engr.uconn.edu/) is a customized ins
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 21 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 6 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 5 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/tags/>APOSTL) | | 5 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | 
-| 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 2 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/tags/>ABiMS) | 
-| 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 1 | [>epiGeEC](https://www.zotero.org/groups/1732893/galaxy/tags/>epiGeEC) | | 1 | [>EWAS-Galaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>EWAS-Galaxy) | | 1 | [>FreeBioinfo](https://www.zotero.org/groups/1732893/galaxy/tags/>FreeBioinfo) | 
-| 1 | [>G-OnRamp](https://www.zotero.org/groups/1732893/galaxy/tags/>G-OnRamp) | | 1 | [>GalaxEast](https://www.zotero.org/groups/1732893/galaxy/tags/>GalaxEast) | | 1 | [>GCAC](https://www.zotero.org/groups/1732893/galaxy/tags/>GCAC) | | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | 
-| 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | | 1 | [>Mandoiu](https://www.zotero.org/groups/1732893/galaxy/tags/>Mandoiu) | | 1 | [>MGEScan](https://www.zotero.org/groups/1732893/galaxy/tags/>MGEScan) | | 1 | [>Nebula](https://www.zotero.org/groups/1732893/galaxy/tags/>Nebula) | 
-| 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/tags/>Palfinder) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | 
-| 1 | [>Sciensano](https://www.zotero.org/groups/1732893/galaxy/tags/>Sciensano) | | 1 | [>SMAGEXP](https://www.zotero.org/groups/1732893/galaxy/tags/>SMAGEXP) | | 1 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/tags/>VirAmp) | 
+| 21 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 6 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 5 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/tags/>APOSTL) | | 5 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) |
+| 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 2 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/tags/>ABiMS) |
+| 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 1 | [>epiGeEC](https://www.zotero.org/groups/1732893/galaxy/tags/>epiGeEC) | | 1 | [>EWAS-Galaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>EWAS-Galaxy) | | 1 | [>FreeBioinfo](https://www.zotero.org/groups/1732893/galaxy/tags/>FreeBioinfo) |
+| 1 | [>G-OnRamp](https://www.zotero.org/groups/1732893/galaxy/tags/>G-OnRamp) | | 1 | [>GalaxEast](https://www.zotero.org/groups/1732893/galaxy/tags/>GalaxEast) | | 1 | [>GCAC](https://www.zotero.org/groups/1732893/galaxy/tags/>GCAC) | | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) |
+| 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | | 1 | [>Mandoiu](https://www.zotero.org/groups/1732893/galaxy/tags/>Mandoiu) | | 1 | [>MGEScan](https://www.zotero.org/groups/1732893/galaxy/tags/>MGEScan) | | 1 | [>Nebula](https://www.zotero.org/groups/1732893/galaxy/tags/>Nebula) |
+| 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/tags/>Palfinder) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) |
+| 1 | [>Sciensano](https://www.zotero.org/groups/1732893/galaxy/tags/>Sciensano) | | 1 | [>SMAGEXP](https://www.zotero.org/groups/1732893/galaxy/tags/>SMAGEXP) | | 1 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/tags/>VirAmp) |
 | 1 | [>ZBIT](https://www.zotero.org/groups/1732893/galaxy/tags/>ZBIT) | | | | | | | | | | |
 
 
@@ -266,7 +266,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 
 # New Galactic Blog Post
 
-This month we have a *[Galactic Blog](/blog/)* post where [Nate Coraor was interviewed](https://galaxyproject.org/blog/2019-02-cvmfs/) about what CVMFS actually is and what it does for Galaxy. 
+This month we have a *[Galactic Blog](/blog/)* post where [Nate Coraor was interviewed](https://galaxyproject.org/blog/2019-02-cvmfs/) about what CVMFS actually is and what it does for Galaxy.
 
 ----
 
@@ -276,13 +276,13 @@ This month we have a *[Galactic Blog](/blog/)* post where [Nate Coraor was inter
 
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
-* [Cloud Engineer V](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
+* [Cloud Engineer V](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States.
 * ELIXIR Belgium has **four Galaxy-related openings** in Ghent:
   * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
   * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
   * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
   * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
-* [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software." 
+* [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software."
 * [Cloud Computing Bioinformatics Programmer](https://bioinformatics.ca/job-postings/0fd00bb0-9f21-11e8-a370-3ba76904a08d/#/?&order=desc) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
 * [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?) and [Senior IT Data Engineer (IT Bioinformatician)](https://adaptimmunellc.applytojob.com/apply/jobs/details/W1CcPTXteJ?),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools: Galaxy…*
 * [Specialist Solutions Architect -- Biological Sciences](https://www.amazon.jobs/en/jobs/728182/specialist-solutions-architect-biological-sciences), Amazon Web Services, United States
@@ -323,7 +323,7 @@ There was a tremendous amount of content added to the GTN while our fearless ins
 * New [Ansible for installing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html) tutorial.
 * New [Galaxy Tool Management](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tool-management/tutorial.html) tutorial and slides.
 * New [Reference Data with CVMFS](https://training.galaxyproject.org/training-material/topics/admin/tutorials/cvmfs/tutorial.html) tutorial.
-* New [Upstream Authentication](https://github.com/jmchilton) tutorial. 
+* New [Upstream Authentication](https://github.com/jmchilton) tutorial.
 * New [Empathy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/empathy/slides.html#1) for admins slides.
 * Update to [Docker and Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/galaxy-docker/slides.html) slides.
 * Update to [Connecting Galaxy to a compute cluster](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html) tutorial and slides.
@@ -347,9 +347,9 @@ New additions to the Galaxy Ecosystem.
 
 ## Galaxy Release 19.01
 
-We are pleased to announce the **[release of Galaxy 19.01](https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html)**. This release includes the revised UI style, addition of colorful tags, extensive workflow enhancements, and enhanced support for Singularity. 
+We are pleased to announce the **[release of Galaxy 19.01](https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html)**. This release includes the revised UI style, addition of colorful tags, extensive workflow enhancements, and enhanced support for Singularity.
 
-Please see the [release notes](https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html) for additional information. 
+Please see the [release notes](https://docs.galaxyproject.org/en/release_19.01/releases/19.01_announce.html) for additional information.
 
 ## galaxy-lib 19.5.0
 
@@ -362,4 +362,4 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 * From [QCIF](https://www.qcif.edu.au/), both highlighting [UseGalaxy.org.au](https://usegalaxy.org.au/)
   * "[Data Enhanced Virtual Labs: Better the DEVL you know](https://www.qcif.edu.au/index.php/news/532-data-enhanced-virtual-labs-better-the-devl-you-know)"
   * "[Galaxy Australia usage on the rise ](https://www.qcif.edu.au/index.php/news/535-galaxy-australia-usage-on-the-rise)"
-* We got an [early look at the future of Galaxy management](https://twitter.com/EnisAfgan/status/1098026864948465664) with Kubernates from Enis Afgan, stay tuned friends. 
+* We got an [early look at the future of Galaxy management](https://twitter.com/EnisAfgan/status/1098026864948465664) with Kubernates from Enis Afgan, stay tuned friends.

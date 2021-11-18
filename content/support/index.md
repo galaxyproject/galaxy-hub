@@ -12,7 +12,7 @@ title: Galaxy Support
 ## Help Resources
 
 * Query all Galaxy resources with the search function in the top masthead
-* [Galaxy Help](https://help.galaxyproject.org/) 
+* [Galaxy Help](https://help.galaxyproject.org/)
 * [Chat](https://gitter.im/galaxyproject/Lobby/)
 * [Mailing Lists](/mailing-lists/)
 * [Video Help](https://vimeo.com/galaxyproject/)
@@ -50,7 +50,7 @@ title: Galaxy Support
 
 ## Troubleshooting
 
-### Account 
+### Account
 
 * [My history is missing! Good news, it probably isn't.](/support/missing-history/#my-history-is-missing-)
 * [A history was shared with me, where can I find it?](/support/missing-history/)

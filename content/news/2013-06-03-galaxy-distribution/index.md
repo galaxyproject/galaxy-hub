@@ -10,9 +10,9 @@ date: "2013-06-03"
 **Highlights:**
 
 * Visualization tool updates to [Scatterplot](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Scatterplot) and [Trackster](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Trackster).
-* Job distribution, error tracking/management, and reporting function improvements to [Admin](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Admin) & [Core](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Core). 
+* Job distribution, error tracking/management, and reporting function improvements to [Admin](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Admin) & [Core](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Core).
 * Multiple [Tool](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Tools) updates, [History and Dataset](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Histories) upgrades, and other related [UI](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#UI) enhancements.
-* New features and fixes added to the [Tool Shed](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Tool_Shed) and related components. 
+* New features and fixes added to the [Tool Shed](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Tool_Shed) and related components.
 * [Python 2.5 Support officially ended](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Python_2.5_Support_Has_Ended).
 * Plus newly [merged Pull Requests](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Pull_Requests_Merged) and links to tickets covering key [Bug Fixes](http://wiki.galaxyproject.org/DevNewsBriefs/2013-06-03#Bug_Fixes).
 

@@ -25,9 +25,9 @@ The session is designed to give as many participants as possible a very brief op
 
 ## Timing
 
-* Will be strict so everyone gets a fair shot. 
-* It's your responsibility to make sure you have rehearsed a few times. 
-* Your heart will race so be prepared - rehearsal with a stopwatch is your friend. 
+* Will be strict so everyone gets a fair shot.
+* It's your responsibility to make sure you have rehearsed a few times.
+* Your heart will race so be prepared - rehearsal with a stopwatch is your friend.
 * To keep people interested, you'll need to tell a story, clearly and paradoxically, slowly within the allotted 5 minutes - if you go over, you will be cut off because it's unfair to everyone else for anyone to exceed their allotment of time.
 
 ## Slides
@@ -37,7 +37,7 @@ The session is designed to give as many participants as possible a very brief op
 
 ## Gratuitous Advice
 
-* Good lightning talks are well rehearsed and very, very focussed. 
+* Good lightning talks are well rehearsed and very, very focussed.
 * Don't try to cram a 30 minute talk into 5 minutes. It won't fit.
 * Plan on using no more than 5 or 6 slides and please make sure the slides are not too "busy" for a slightly hung-over reader to get through them in the time you have to show them. Big fonts. Few words.
 * Five minutes is not long enough to explain anything in detail - the big picture might fit.

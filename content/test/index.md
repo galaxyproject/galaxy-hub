@@ -197,7 +197,7 @@ Some tools or job destinations have stricter job concurrency limits than the ove
 "Increased memory tools" refers to a set of tools that are granted additional memory over the 8 GB default.
 
 <br />
-**[Terms and Conditions](https://test.galaxyproject.org/static/terms.html)**: *Attempts to subvert these limits by creating multiple accounts or through any other method may result in termination of all associated accounts.* 
+**[Terms and Conditions](https://test.galaxyproject.org/static/terms.html)**: *Attempts to subvert these limits by creating multiple accounts or through any other method may result in termination of all associated accounts.*
 
 ### Monitoring data use
 

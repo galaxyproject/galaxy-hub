@@ -35,7 +35,7 @@ use it:
 
 * [Access your instance via ssh](/cloud/jetstream/ssh/) and create
   a directory for the Galaxy files. The volume you attached to your instance
-  will be most likely be available under `/vol_c` so create a directory under 
+  will be most likely be available under `/vol_c` so create a directory under
   that one. Change the ownership of the directory to the `galaxy` system user.
 
   ```
@@ -88,7 +88,7 @@ $ ls -l /vol_c/gxy_data/datasets/000/
 total 21588
 -rw-r--r-- 1 galaxy users  1206112 Apr 10 07:39 dataset_1.dat
 -rw-r--r-- 1 galaxy users 20896315 Apr 10 07:40 dataset_2.dat
-``` 
+```
 
 If so, you are all set.
 

@@ -8,7 +8,7 @@ title: Introduction to Galaxy
 
 November 16, 2016<br />
 9:00-5:00<br /><br />
-BMI classroom, [421 Wakara Way](https://goo.gl/maps/ByLvhZ5bdXF2)<br /> 
+BMI classroom, [421 Wakara Way](https://goo.gl/maps/ByLvhZ5bdXF2)<br />
 Suite 140, Research Park <br />
 [University of Utah](http://utah.edu/), Salt Lake City
 **

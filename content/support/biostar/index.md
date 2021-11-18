@@ -14,7 +14,7 @@ Galaxy Biostars has been retired and is available as an archived resource at the
 
 
 
-As a result of joint efforts of the [Galaxy Team](/galaxy-team/) and the [Biostars Team](https://github.com/ialbert/biostar-central/graphs/contributors) a new support platform emerged for the Galaxy community to use: 
+As a result of joint efforts of the [Galaxy Team](/galaxy-team/) and the [Biostars Team](https://github.com/ialbert/biostar-central/graphs/contributors) a new support platform emerged for the Galaxy community to use:
 
 Galaxy Biostars is at **[https://biostar.usegalaxy.org/](https://biostar.usegalaxy.org/)**
 
@@ -34,7 +34,7 @@ Galaxy Biostars is directly integrated into the [Galaxy](http://usegalaxy.org) u
 
 <div class='left'><img src="/images/screenshots/BiostarUserMenu.png" alt="Go to Galaxy Biostars" width="110" /></div>
 
-Every user on the public [Main Galaxy](/main/) server can access Galaxy Biostar directly through the menu **Help &rarr; Galaxy Biostar**. 
+Every user on the public [Main Galaxy](/main/) server can access Galaxy Biostar directly through the menu **Help &rarr; Galaxy Biostar**.
 <br />
 
 A Galaxy Biostars account will be created automatically on the first access and the user will be automatically logged in to it transparently while accessing it through [http://usegalaxy.org](http://usegalaxy.org) when also logged in.

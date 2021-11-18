@@ -1,6 +1,6 @@
 # Galaxy Maintenance
 
-Maintaining a Galaxy instance is important to do, something that cannot be understated. 
+Maintaining a Galaxy instance is important to do, something that cannot be understated.
 
 ## Security Notices
 

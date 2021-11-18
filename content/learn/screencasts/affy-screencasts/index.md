@@ -14,7 +14,7 @@ This analysis involves the following steps:
   * Display in UCSC browser
 * Get data &rarr; UCSC table browser
 * Get data for CpG islands for entire genome
-* Operate on genomic intervals &rarr; intersect 
+* Operate on genomic intervals &rarr; intersect
 * Intersect CpG island with interval bed file
   * Edit title
   * View list in main panel

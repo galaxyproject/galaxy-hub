@@ -9,9 +9,9 @@ title: Jan 22, 2015 Baltimore Area Galaxy Meetup @ Johns Hopkins
 
 ## Meetup Report
 
-The first Galaxy meetup or social gathering held in Baltimore was sold out. It was the right mix of current Galaxy users, people who want to learn how to use Galaxy, and students in Biology/Computer science programs. It was good to see academics unwind with a few beers and talk about their ideas to use Galaxy. The idea behind the meetup was to build a local community of Galaxy users, and to get to know one another personally. This would in turn foster collaborations and also bring forward better feedback to the [Galaxy Team](/galaxy-team/) as well. 
+The first Galaxy meetup or social gathering held in Baltimore was sold out. It was the right mix of current Galaxy users, people who want to learn how to use Galaxy, and students in Biology/Computer science programs. It was good to see academics unwind with a few beers and talk about their ideas to use Galaxy. The idea behind the meetup was to build a local community of Galaxy users, and to get to know one another personally. This would in turn foster collaborations and also bring forward better feedback to the [Galaxy Team](/galaxy-team/) as well.
 
-The second meetup is going to be hosted in February, for which we hope to have a slightly more focussed agenda. To talk about one or a few of the topics raised during the course of the month. There is now a Baltimore newsletter if you are interested) which goes out to the members who signed up for the first meetup. We hope to have more people in the coming months, and to grow a stronger Galaxy community in Baltimore. 
+The second meetup is going to be hosted in February, for which we hope to have a slightly more focussed agenda. To talk about one or a few of the topics raised during the course of the month. There is now a Baltimore newsletter if you are interested) which goes out to the members who signed up for the first meetup. We hope to have more people in the coming months, and to grow a stronger Galaxy community in Baltimore.
 
 [Enis](/people/enis-afgan/) & [Nitesh](/people/nitesh-turaga/)
 
@@ -21,7 +21,7 @@ Hey Everyone,
 
 We are looking forward to kicking off our first [Galaxy Project](http://galaxyproject.org) Meetup! We will meet at one of the Galaxy project hubs - the Department of Biology of Johns Hopkins University for a general introduction to Galaxy in form of a social gathering. This will be an informal meeting open to anyone interested in data analysis, tools, computer infrastructure, programming - regardless.
 
-[Enis Afgan](/people/enis-afgan/) and [Nitesh Turaga](/people/nitesh-turaga/) of the [Galaxy team](/galaxy-team/) will be kicking things off with a discussion on Galaxy and how researchers around the world are leveraging it. 
+[Enis Afgan](/people/enis-afgan/) and [Nitesh Turaga](/people/nitesh-turaga/) of the [Galaxy team](/galaxy-team/) will be kicking things off with a discussion on Galaxy and how researchers around the world are leveraging it.
 
 Thanks and hope to see you there!
 
@@ -39,7 +39,7 @@ Thanks and hope to see you there!
 
 ### RSVP
 
-**We are full!** 
+**We are full!**
 
 If you would like to be notified of future Baltimore Area Galaxy Meetups, please subscribe to the Baltimore Area Galaxy mailing list.
 

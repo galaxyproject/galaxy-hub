@@ -108,11 +108,11 @@ Accepted talks and selected posters from GCC2014 are also eligible for considera
 
 ### Sponsorships
 
-There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event.
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014.
 
 ## Globus World 2014
 
@@ -147,7 +147,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
 
 The workshop will include a rich collection of lectures and hands-on sessions, covering both theory and tools. We will cover the basics of several high throughput sequencing technologies, but will focus on Illumina and PacBio data for hands-on exercises. Participants will explore software and protocols, create and modify workflows, and diagnose/treat problematic data. Workshop exercises will be performed using the popular Galaxy platform (http://usegalaxy.org) on the [Amazon Cloud](http://aws.amazon.com/) which allows for powerful web-based data analyses. There are no prerequisites other than basic familiarity with genomic concepts.
 
-A similar workshop, [using command line interfaces to perform the analysis](http://training.bioinformatics.ucdavis.edu/2014/02/13/using-the-linux-command-line-for-analysis-of-high-throughput-sequence-data-september-15-19-2014/), is being offered September 15-19, 2014. 
+A similar workshop, [using command line interfaces to perform the analysis](http://training.bioinformatics.ucdavis.edu/2014/02/13/using-the-linux-command-line-for-analysis-of-high-throughput-sequence-data-september-15-19-2014/), is being offered September 15-19, 2014.
 
 ## Other Events
 
@@ -155,7 +155,7 @@ A similar workshop, [using command line interfaces to perform the analysis](http
 
 <br />
 
-<div class='center'> 
+<div class='center'>
 <a href='http://globusworld.org/'><img src="/images/logos/GlobusWorld2014Logo.png" alt="GlobusWorld 2014" height="60" /></a> &nbsp;
 <a href='http://www.bio-itworldexpo.com/'><img src="/images/logos/BioITWorld2014Logo.png" alt="Bio-IT World 2014" /></a> &nbsp;
 <a href='http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/'><img src="/images/logos/TGACLogo.png" alt="NGS Data after the Gold Rush" height="50" /></a>&nbsp;
@@ -273,16 +273,16 @@ Three [public Galaxy servers](/use/) were added to the published list in March:
 
 * *Link:*
     [Biomina Galaxy](http://biominavm-galaxy.biomina.be/galaxy/)
-* *Domain/Purpose:* 
+* *Domain/Purpose:*
     A general purpose Galaxy instance that includes most "standard" tools for DNA/RNA sequencing, plus extra tools for panel resequencing, variant annotation and some tools for Illumina SNParray analysis.
 * *Comments:*
   * Includes a number of workflows, including workflow from "[A SWI/SNF-related autism syndrome caused by de novo mutations in ADNP](http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.2899.html)," by Helsmoortel, *et al.*, *[Nature Genetics](http://www.nature.com/ng/)* (2014) doi:10.1038/ng.2899
 * *User Support:*
     [Email support](mailto:geert DOT vandeweyer AT uantwerpen DOT be)
-* *Quotas:* 
-  * Registered users : 50Gb. Can be increased up to 3Tb in collaborative projects. 
-  * There is NO backup of data inside this galaxy server. 
-  * Collaboration partner jobs have higher priority on the system. 
+* *Quotas:*
+  * Registered users : 50Gb. Can be increased up to 3Tb in collaborative projects.
+  * There is NO backup of data inside this galaxy server.
+  * Collaboration partner jobs have higher priority on the system.
 * *Sponsor(s):*
   * [Center of Medical Genetics](http://www.ua.ac.be/main.aspx?c=.MEDGEN), [University of Antwerp](http://www.ua.ac.be/)
   * [Biomina research center](http://www.biomina.be/), [University](http://www.ua.ac.be/) and [University Hospital](http://www.uza.be/) of Antwerp.
@@ -300,7 +300,7 @@ Three [public Galaxy servers](/use/) were added to the published list in March:
 * *User Support:*
   * [Email](mailto:admin@cloudimaging.net.au)
   * [Video tutorials](http://www.youtube.com/user/CloudImaging)
-* *Quotas:* 
+* *Quotas:*
     A login is required to access the site. Logins are free and can be [requested via email](mailto:admin@cloudimaging.net.au)
 * *Sponsor(s):*
     [NeCTAR](http://www.nectar.org.au) and [CSIRO](http://www.csiro.au/)
@@ -320,7 +320,7 @@ Three [public Galaxy servers](/use/) were added to the published list in March:
 * *User Support:*
   * [Osiris-Phylogenetics Google Group](https://groups.google.com/forum/?hl=en&fromgroups#!forum/osiris-phylogenetics)
   * [Screencasts](https://www.youtube.com/watch?v=mGMxwc20Yx4)
-* *Quotas:* 
+* *Quotas:*
 * *Sponsor(s):*
     [Oakley Lab](https://labs.eemb.ucsb.edu/oakley/todd/) at [UC Santa Barbara](http://www.ucsb.edu/)
 
@@ -357,23 +357,23 @@ There was one new [Community Log Board](/blog/) entry in March:
 
 ## New Repositories in the Galaxy Project ToolShed
 
-* [regex_find_replace](http://bit.ly/1jKpNsw): Use python regular expressions to find and replace text 
-* [samtools_phase](http://bit.ly/1k9X5gK): Call and phase heterozygous SNPs 
-* [sample_seqs](http://bit.ly/1rSclEv): Sub-sample sequences files (e.g. to reduce coverage) 
-* [transpose](http://bit.ly/1e05yiN): Transposes tabular-delimited data 
-* [proteomics_rnaseq_reduced_db_workflow](http://bit.ly/1jmbFmM): Filter Proteomics Search DB by RNA-seq transcript expression analysis 
-* [proteomics_rnaseq_sap_db_workflow](http://bit.ly/1k9UaEJ): Create Proteomics Search DB from RNA-seq Single amino acid Polymorphism detection 
-* [proteomics_novel_peptide_filter_workflow](http://bit.ly/1f8hrqJ): filter a Proteomics Search DB for novel peptides 
-* [proteomics_rnaseq_splice_db_workflow](http://bit.ly/P63sIa): create Proteomics Search DB from RNA-seq novel splice detection 
-* [rsem_datatypes](http://bit.ly/1h7SvMa): Custom galaxy datatypes definitions for use with RSEM 
-* [varscan_wrapper](http://bit.ly/1jKlVrM): Fork of fcaramia package correcting errors and additional options 
-* [align_back_trans](http://bit.ly/1pryNlF): Thread nucleotides onto a protein alignment (back-translation) 
+* [regex_find_replace](http://bit.ly/1jKpNsw): Use python regular expressions to find and replace text
+* [samtools_phase](http://bit.ly/1k9X5gK): Call and phase heterozygous SNPs
+* [sample_seqs](http://bit.ly/1rSclEv): Sub-sample sequences files (e.g. to reduce coverage)
+* [transpose](http://bit.ly/1e05yiN): Transposes tabular-delimited data
+* [proteomics_rnaseq_reduced_db_workflow](http://bit.ly/1jmbFmM): Filter Proteomics Search DB by RNA-seq transcript expression analysis
+* [proteomics_rnaseq_sap_db_workflow](http://bit.ly/1k9UaEJ): Create Proteomics Search DB from RNA-seq Single amino acid Polymorphism detection
+* [proteomics_novel_peptide_filter_workflow](http://bit.ly/1f8hrqJ): filter a Proteomics Search DB for novel peptides
+* [proteomics_rnaseq_splice_db_workflow](http://bit.ly/P63sIa): create Proteomics Search DB from RNA-seq novel splice detection
+* [rsem_datatypes](http://bit.ly/1h7SvMa): Custom galaxy datatypes definitions for use with RSEM
+* [varscan_wrapper](http://bit.ly/1jKlVrM): Fork of fcaramia package correcting errors and additional options
+* [align_back_trans](http://bit.ly/1pryNlF): Thread nucleotides onto a protein alignment (back-translation)
 * [dna_visualizer](http://bit.ly/1mC67Yj): convert DNA sequence into a PNG image by representing each base with one colored pixel
-* [bwa_mem](http://bit.ly/1hnr0D1): a software package for mapping low-divergent sequences against a large reference genome 
-* [samtool_filter2](http://bit.ly/1odsd53): Filter BAM/SAM on FLAG,MAPQ,RG,LB or by region & produce a BAM/SAM on demand 
+* [bwa_mem](http://bit.ly/1hnr0D1): a software package for mapping low-divergent sequences against a large reference genome
+* [samtool_filter2](http://bit.ly/1odsd53): Filter BAM/SAM on FLAG,MAPQ,RG,LB or by region & produce a BAM/SAM on demand
 
 # Other News
 
-* Galaxy reached a milestone of [100 contributors to our codebase](http://ohloh.net/p/galaxybx)! Thank you all! 
-* Poster: "[ChemicalToolBoX and its application on the study of the drug like and purchasable space](http://bit.ly/1kzoEkF)," by Lucas. *et al.*, *Journal of Chemoinformatics* 
+* Galaxy reached a milestone of [100 contributors to our codebase](http://ohloh.net/p/galaxybx)! Thank you all!
+* Poster: "[ChemicalToolBoX and its application on the study of the drug like and purchasable space](http://bit.ly/1kzoEkF)," by Lucas. *et al.*, *Journal of Chemoinformatics*
 * [New tools available in Galaxy @ URGI](https://urgi.versailles.inra.fr/About-us/News/new-tools-available-in-Galaxy): SnpEff, Mapsembler2, BLAST+, Blast2GO, Peak predictor, ...

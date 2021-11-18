@@ -10,7 +10,7 @@ title: Introduction to Galaxy Workshop
 
 **January 8, 2016**
 
-**Instructor** <br /> 
+**Instructor** <br />
 [Anton Nekrutenko](/people/anton/), Galaxy Project, [Penn State University](http://www.psu.edu)<br />
 
 **Location: [Life Sciences E (LSE)](https://maps.asu.edu/?id=120&mrkIid=62941) 244, Tempe Main Campus** <br />
@@ -31,7 +31,7 @@ title: Introduction to Galaxy Workshop
 
 This workshop is free and open to anyone in the ASU community.
 
- 
+
 ## Audience
 
 Are you a life scientist who needs to do complex analysis on large datasets?

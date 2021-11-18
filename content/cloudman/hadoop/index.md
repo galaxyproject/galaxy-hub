@@ -54,7 +54,7 @@ For an example the user can run
          qsub -v HADOOP_HOME=/home/ubuntu/hadoop/hadoop/home,JAVA_HOME=/usr /opt/hadoop/sge_integration/hdfs-sge.cmd
 where the output has been directed to
          /home/ubuntu/hadoop/hadoop/home/output.$JOB_ID
-         
+
 ## See Also
 
 See how to use [Galaxy](https://wiki.egi.eu/wiki/Galaxy_workflows_with_EC3) in the cloud-based resources provided by [EGI](https://www.egi.eu/)

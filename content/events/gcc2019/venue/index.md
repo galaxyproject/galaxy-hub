@@ -15,7 +15,7 @@ GCC2019 will be held at [Konzerthaus Freiburg](http://www.konzerthaus.freiburg.d
 
 ## Lodging
 
-Freiburg has many options for lodging, from four-star hotels to hostels. Please book your room directly [online](https://visit.freiburg.de/en). 
+Freiburg has many options for lodging, from four-star hotels to hostels. Please book your room directly [online](https://visit.freiburg.de/en).
 
 Additional to this Freiburg Convention Bureau can assist by finding the perfect accommodation:
 
@@ -24,7 +24,7 @@ Tel.: +49 761 3881 1516
 
 ## Airports
 
-Freiburg is located nearby several airports. 
+Freiburg is located nearby several airports.
 
 The [Euroairport](https://www.euroairport.com/en) in the south is close to Basel (CH) and Mulhouse (F). From there, Freiburg is connected by bus within 55 min, e.g. [Flixbus](http://www.flixbus.com) or [Euroairport Bus](https://www.freiburger-reisedienst.de/tickets.php?lang=en). Round trip tickets are available for 46€.
 

@@ -22,7 +22,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 * *From [saskia-hiltemann](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann):*
    * [ireport](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/ireport):  create HTML reports for Galaxy workflows. create interactive HTML reports from galaxy outputs.
 * *From [davidvanzessen](https://toolshed.g2.bx.psu.edu/view/davidvanzessen):*
-   * [imgt_loader](https://toolshed.g2.bx.psu.edu/view/davidvanzessen/imgt_loader):  turn a imgt zip into a tabular file. 
+   * [imgt_loader](https://toolshed.g2.bx.psu.edu/view/davidvanzessen/imgt_loader):  turn a imgt zip into a tabular file.
 * *From [mingchen0919](https://toolshed.g2.bx.psu.edu/view/mingchen0919):*
    * [rmarkdown_mirdeep2](https://toolshed.g2.bx.psu.edu/view/mingchen0919/rmarkdown_mirdeep2):  R Markdown based tool wrapper for the mirdeep2. R Markdown based tool wrapper for the mirdeep2.
    * [rmarkdown_i_adhore](https://toolshed.g2.bx.psu.edu/view/mingchen0919/rmarkdown_i_adhore):  Generate i-adhore configure file. R Markdown based tool wrapper for generating i-adhore configure file.
@@ -44,7 +44,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 * *From [clifinder](https://toolshed.g2.bx.psu.edu/view/clifinder):*
    * [clifinder](https://toolshed.g2.bx.psu.edu/view/clifinder/clifinder):  Identification of L1 Chimeric Transcripts in RNA-seq data. L1 Chimeric Transcripts (LCTs)  are transcribed from LINE 1 antisense promoter and include the L1 5’UTR sequence in antisense orientation followed by the adjacent genomic region.   CLIFinder is a Galaxy tool, specifically designed to identify  potential LCTs from one or several oriented RNA-seq paired-end reads in the human genome.   CLIFinder is customizable to detect transcripts initiated by different types of repeat elements.
 * *From [dktanwar](https://toolshed.g2.bx.psu.edu/view/dktanwar):*
-   * [dktanwar](https://toolshed.g2.bx.psu.edu/view/dktanwar/dktanwar):  Scripts converted to tools to be used for Sperm Histone ChIP-Seq data analysis. 
+   * [dktanwar](https://toolshed.g2.bx.psu.edu/view/dktanwar/dktanwar):  Scripts converted to tools to be used for Sperm Histone ChIP-Seq data analysis.
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
    * [iwtomics_testandplot](https://toolshed.g2.bx.psu.edu/view/iuc/iwtomics_testandplot):  Interval-Wise Testing for Omics Data. Implementation of the Interval-Wise Testing (IWT) for omics data. This  inferential procedure tests for differences in "Omics" data between two groups  of genomic regions (or between a group of genomic regions and a reference  center of symmetry), and does not require fixing location and scale at the  outset.
    * [humann2_rna_dna_norm](https://toolshed.g2.bx.psu.edu/view/iuc/humann2_rna_dna_norm):  Wrapper for the humann2 tool suite: Normalize. HUMAnN is a pipeline for efficiently and accurately profiling the presence/absence and abundance of microbial pathways   in a community from metagenomic or metatranscriptomic sequencing data (typically millions of short DNA/RNA reads).   This process, referred to as functional profiling, aims to describe the metabolic potential of a microbial community   and its members. More generally, functional profiling answers the question "What are the microbes in my community-of-interest   doing (or capable of doing)?".

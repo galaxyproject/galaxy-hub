@@ -31,7 +31,7 @@ In addition, the workshop schedules for the *new* [Training SunDay](/galaxy-upda
 
 [Abstract submission for oral and poster presentations is now open](/galaxy-updates/2015-03/#abstract-submission-is-now-open).  We again have an arrangement with GigaScience that any oral or poster presentation will also be eligible for consideration for publication in the GigaScience "Galaxy: Data Intensive and Reproducible Research" series (first announced for GCC2013).
 
-Finally, registration is *not* open yet, but [the list of registration packages and their costs](/galaxy-updates/2015-03/#early-registration-opens-in-march) have been.   Early registration is very affordable and starts at less than £40 per day for students and postdocs. 
+Finally, registration is *not* open yet, but [the list of registration packages and their costs](/galaxy-updates/2015-03/#early-registration-opens-in-march) have been.   Early registration is very affordable and starts at less than £40 per day for students and postdocs.
 
 **[Other Events](/galaxy-updates/2015-03/#other-events)**
 

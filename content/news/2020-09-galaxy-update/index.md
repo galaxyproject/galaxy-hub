@@ -326,7 +326,7 @@ An on-line, curated resource that serves two functions:
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">[RNA-RNA interactome data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/tutorials/rna-interactome/tutorial.html)</div>
 
-This tutorial was updated by [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) to use the most recent versions of tools. Learn how to use CLEAR-CLIP data in your analysis. 
+This tutorial was updated by [Pavankumar Videm](https://training.galaxyproject.org/training-material/hall-of-fame/pavanvidem/) to use the most recent versions of tools. Learn how to use CLEAR-CLIP data in your analysis.
 
 <img class="card-img-bottom" src="gtn-chira-slice.png" alt="ChiRA" />
 </div>
@@ -354,7 +354,7 @@ This tutorial was updated and expanded by [Simon Bray](https://training.galaxypr
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
 <div class="card-header">Job configuration in Ansible</div>
 
-Sections on job configuration in Ansible were added to the [Galaxy Installation with Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html) tutorial by [Simon Gladman](https://training.galaxyproject.org/training-material/hall-of-fame/slugger70/) and to the [Running Jobs on Remote Resources with Pulsar](https://training.galaxyproject.org/training-material/topics/admin/tutorials/pulsar/tutorial.html#configuring-galaxy) by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/). 
+Sections on job configuration in Ansible were added to the [Galaxy Installation with Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html) tutorial by [Simon Gladman](https://training.galaxyproject.org/training-material/hall-of-fame/slugger70/) and to the [Running Jobs on Remote Resources with Pulsar](https://training.galaxyproject.org/training-material/topics/admin/tutorials/pulsar/tutorial.html#configuring-galaxy) by [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame/hexylena/).
 
 <img class="card-img-bottom" src="/images/logos/ansible-logo-wide.png" alt="Ansible, or else" />
 </div>

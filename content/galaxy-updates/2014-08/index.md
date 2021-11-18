@@ -114,7 +114,7 @@ Feedback has been very positive (see below for some of it), and we would like to
 
 ## GCC2015: Norwich, United Kingdom, 6-8 July 2015
 
-We are pleased to announce that the **[2015 Galaxy Community Conference (GCC2015)](/events/gcc2015/)** will be held at [The Sainsbury Laboratory](http://www.tsl.ac.uk/) in historic [Norwich, United Kingdom](http://www.visitnorwich.co.uk/).  Norwich is a center of biological research and is home to [The Sainsbury Laboratory](http://www.tsl.ac.uk/), [The John Innes Centre](https://www.jic.ac.uk/), [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk/), and [The University of East Anglia](http://www.uea.ac.uk/). 
+We are pleased to announce that the **[2015 Galaxy Community Conference (GCC2015)](/events/gcc2015/)** will be held at [The Sainsbury Laboratory](http://www.tsl.ac.uk/) in historic [Norwich, United Kingdom](http://www.visitnorwich.co.uk/).  Norwich is a center of biological research and is home to [The Sainsbury Laboratory](http://www.tsl.ac.uk/), [The John Innes Centre](https://www.jic.ac.uk/), [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk/), and [The University of East Anglia](http://www.uea.ac.uk/).
 
 [GCC2015](/events/gcc2015/) will likely again feature a hackathon, copious training day sessions and topics, posters, birds-of-a-feather sessions, talks, lightning talks, the best darn networking opportunities, and the possible return of an onsite pub.    As at past GCC's we will again strive to keep registration costs low, and to offer affordable housing options.
 
@@ -135,13 +135,13 @@ Slides and posters for [9 Galaxy related presentations at ISMB and BOSC 2014](/e
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 Over the rest of the few months there are many [Galaxy related events](/events/) in Brisbane, Rio de Janeiro, Rennes, and Melbourne.  Galaxy will also be at ECCB'14/JOBIM in Strasbourg, and there is [Swiss-German Galaxy Tour](/events/sg2014/) in the fall.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="90" /></a>
 <a href='http://www.eccb14.org/program/tutorials/workflows'><img src="/images/logos/ECCB2014Logo.png" alt="T07 - Scientific Workflows for Analysing, Integrating and Scaling Bioinformatics Data: a Practical Introduction to Galaxy, Taverna and WS-PGRADE" height="80" /></a>
 <a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src="/images/logos/eBiogenouestLogo.png" alt="Tools integration on Galaxy" height="80" /></a> &nbsp;
@@ -236,7 +236,7 @@ Over the rest of the few months there are many [Galaxy related events](/events/)
 
 *53 papers* were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in July. Some papers that may be particularly interesting to the Galaxy community:
 
-* [HiBrowse: multi-purpose statistical analysis of genome-wide chromatin 3D organization](http://bit.ly/1r90Wil), by Paulsen, *et al.,* *Bioinformatics* (2014) 30 (11): 1620-1622. doi: 10.1093/bioinformatics/btu082 
+* [HiBrowse: multi-purpose statistical analysis of genome-wide chromatin 3D organization](http://bit.ly/1r90Wil), by Paulsen, *et al.,* *Bioinformatics* (2014) 30 (11): 1620-1622. doi: 10.1093/bioinformatics/btu082
 
 * [Osiris: accessible and reproducible phylogenetic and phylogenomic analyses within the Galaxy workflow management system](https://doi.org/10.1186/1471-2105-15-230), by Todd H. Oakley, Markos A. Alexandrou, Roger Ngo, *et al.,* *BMC bioinformatics*, Vol. 15, No. 1. (2 July 2014), 230, doi:10.1186/1471-2105-15-230
 
@@ -308,10 +308,10 @@ The new papers were tagged in many different areas:
 <div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
-* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
+* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States
 * [Galaxy Platform Development Officer](http://bit.ly/1wr7sBJ), The Genome Analysis Centre (TGAC), Norwich, United Kingdom.  **Closes 12 August.**
 * [Bioinformatician position](http://bit.ly/1nBPm0p) at [Xenbase](http://xenbase.org), University of Calgary.
-* [Experimental Officer in Bioinformatics](http://www.nature.com/naturejobs/science/jobs/437669-experimental-officer-in-bioinformatics), NERC Metabolomics Facility, University of Birmingham, UK 
+* [Experimental Officer in Bioinformatics](http://www.nature.com/naturejobs/science/jobs/437669-experimental-officer-in-bioinformatics), NERC Metabolomics Facility, University of Birmingham, UK
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
@@ -328,14 +328,14 @@ One new [public Galaxy server](/use/) was added to the published list in July:
 <div class='right solid'><a href='http://impet.int-med.uiowa.edu/'><img src="/public-galaxy-servers/archive/im-pet.png" alt="IM-PET" width="300" /></a></div>
 
 * *Link:*
-  * [IM-PET](http://impet.int-med.uiowa.edu/) 
+  * [IM-PET](http://impet.int-med.uiowa.edu/)
 * *Domain/Purpose:*
-  * IM-PET makes genome-wide predictions of enhancer-promoter (EP) interactions by integrating multiple types of genomics data. 
+  * IM-PET makes genome-wide predictions of enhancer-promoter (EP) interactions by integrating multiple types of genomics data.
 * *Comments:*
   * See He B *et al.* [Global view of enhancer-promoter interactome in human cells[J] ](http://www.pnas.org/content/111/21/E2191.abstract). *Proceedings of the National Academy of Sciences* of the United States of America, 2014.
 * *User Support:*
-  * Email to [Bing He](mailto:bing-he@uiowa.edu) or [contact the Tan Lab](http://www.healthcare.uiowa.edu/labs/tan/Contact.html) 
-* *Quotas:* 
+  * Email to [Bing He](mailto:bing-he@uiowa.edu) or [contact the Tan Lab](http://www.healthcare.uiowa.edu/labs/tan/Contact.html)
+* *Quotas:*
 * *Sponsor(s):*
   * [Tan Lab](http://www.healthcare.uiowa.edu/labs/tan/index.htm) at [University of Iowa](http://uiowa.edu)
 

@@ -6,7 +6,7 @@ Before diving into a practical exercise let us introduce several fundamental con
 
 ## What is Galaxy Project?
 
-According to [wikipedia](https://en.wikipedia.org/wiki/Galaxy) "*a galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter*". In other words it is a *system* composed of *multiple components*. Likewise the Galaxy Project also consists of multiple components including: 
+According to [wikipedia](https://en.wikipedia.org/wiki/Galaxy) "*a galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter*". In other words it is a *system* composed of *multiple components*. Likewise the Galaxy Project also consists of multiple components including:
 
  - **The Galaxy Software Framework**
  - **The Public Galaxy Service**
@@ -81,7 +81,7 @@ Then enter your information and you're in!
 
 ## Getting data
 
-Our research problem calls for using existing annotation of human genome (we will use exons and SNPs that are *already* annotated across the genome sequence). So to answer our question we need to compare coordinates of exons and SNPs against each other. One of the most frequently used repositories of genome annotation data is maintained by the [Genome Informatics Group](https://genome.ucsc.edu/) at the University of California at Santa Cruz. 
+Our research problem calls for using existing annotation of human genome (we will use exons and SNPs that are *already* annotated across the genome sequence). So to answer our question we need to compare coordinates of exons and SNPs against each other. One of the most frequently used repositories of genome annotation data is maintained by the [Genome Informatics Group](https://genome.ucsc.edu/) at the University of California at Santa Cruz.
 
 ### Getting coding exons
 
@@ -244,7 +244,7 @@ This will generate the fifth history item:
 |![Fifth history item](/tutorials/g101/fifthHistoryItem.png)|
 |<small>**Figure 18**. Sorting generates the fifth item in the history.</small>|
 
-and you can now see that the highest number of SNPs per exon is 40. 
+and you can now see that the highest number of SNPs per exon is 40.
 
 ### Selecting top five
 
@@ -359,7 +359,7 @@ Filtering shows only one "User track" item on the browser:
 
 ## Recap
 
-In this tutorial we started with coordinates of exons and SNPs, found overlap between two datasets and narrowed it down to 5 exons containing the highest number of SNPs: 
+In this tutorial we started with coordinates of exons and SNPs, found overlap between two datasets and narrowed it down to 5 exons containing the highest number of SNPs:
 
 |        |
 |--------|
@@ -393,7 +393,7 @@ The center pane will change as shown below and you will be able to choose which 
 |![Create workflow](/tutorials/g101/createWorkflow.png)|
 |<small>**Figure 30**. Creating workflow from history. Here you can choose which steps should be included into workflow (in this case we include all) and name the workflow.</small>|
 
-Once you click **Create Workflow** you will get the following message: "Workflow 'g101' created from current history. You can **edit** or **run** the workflow". 
+Once you click **Create Workflow** you will get the following message: "Workflow 'g101' created from current history. You can **edit** or **run** the workflow".
 
 ### Opening workflow editor
 
@@ -483,7 +483,7 @@ Now let's save the changes we've made by clicking cog <i class="fa fa-cog" aria-
 
 ## Run workflow on whole genome data
 
-Now that we have a workflow, let's do something grand like, for example, finding exons with the highest number of repetitive elements across the entire human genome. 
+Now that we have a workflow, let's do something grand like, for example, finding exons with the highest number of repetitive elements across the entire human genome.
 
 ### Get back in the **Analysis** mode
 

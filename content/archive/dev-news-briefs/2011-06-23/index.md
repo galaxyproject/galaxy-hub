@@ -68,11 +68,11 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 ### Histories
 
 * Add the download/save icon to datasets in an error state, but that contain data. Fixes #207 and #583
-* Disk space usage accounting: 
-  * Users can see how much disk a history is consuming. 
-  * Disk used is also a column on the history grid. 
-  * Users can also forcibly purge a dataset from their history. 
-* Admin notes: 
+* Disk space usage accounting:
+  * Users can see how much disk a history is consuming.
+  * Disk used is also a column on the history grid.
+  * Users can also forcibly purge a dataset from their history.
+* Admin notes:
   * New script (scripts/set_dataset_sizes.py) which will set the value of the new total_size column on the dataset table (includes the contents of the extra_files_path and metadata files).
   * The ability for users to purge their own data is conditional on a config variable. Due to limitations in the grid framework, the button can't be removed from the history grid, but clicking it just does the same thing as delete but adds a message explaining that the purge operation wasn't performed.
   * For users who were pulling from galaxy-central and that already upgraded to database version 78 prior to this distribution, the following SQL query should be run to set the default value of the 'HistoryDatasetAssociation' purged column:
@@ -154,7 +154,7 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 
 ### About Galaxy
 
-The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html). 
+The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html).
 
 **Galaxy** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
@@ -171,7 +171,7 @@ Join us at **Twitter**
 ```#usegalaxy```
 
 
-[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject) 
+[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject)
 
 
 

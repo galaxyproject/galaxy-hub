@@ -32,7 +32,7 @@ Summaries of the meeting are available in a couple places:
 * [GCC2013 videos on Vimeo](http://vimeo.com/channels/581875)
 * [#usegalaxy lights up northern skies](http://blogs.biomedcentral.com/gigablog/2013/07/09/usegalaxy-lights-up-northern-skies/): Meeting report by [Scott Edmunds](http://blogs.biomedcentral.com/gigablog/author/scottedmunds/) in [GigaBlog](http://blogs.biomedcentral.com/gigablog).
 * [GCC2013 Report](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/NBICSummary.pdf) - an [NBIC](http://nbic.nl/) centric review of the meeting by Leon Mei.
-* UiO Rector's Blog: [Reproduserbarhet i livsvitenskapene](http://bit.ly/12GQpvC) 
+* UiO Rector's Blog: [Reproduserbarhet i livsvitenskapene](http://bit.ly/12GQpvC)
 * [Conference Tweets at ChirpStory](http://chirpstory.com/li/93570)
 * [Storify of conference Tweets](http://storify.com/search?q=GCC2013)
 * [Photos](/events/gcc2013/photos/) from the meeting (please add your own)
@@ -40,16 +40,16 @@ Summaries of the meeting are available in a couple places:
 ## Who will be there?
 
 * **Bioinformatics tool developers and data providers**
-    Integrate your tools and resources in the Galaxy framework, increasing their visibility, and making them easier to use and integrate with other resources. 
+    Integrate your tools and resources in the Galaxy framework, increasing their visibility, and making them easier to use and integrate with other resources.
 
 * **Workflow developers and power bioinformatics users**
     Use Galaxy to construct complex bioinformatics workflows and then use Galaxy to share them with others, or to publish them to the world.
 
 * **Sequencing and Bioinformatics core staff**
-    Local Galaxy deployments can talk directly with your sequencers, simplify your analysis tasks, and give your researchers direct access to running their own custom analysis. 
+    Local Galaxy deployments can talk directly with your sequencers, simplify your analysis tasks, and give your researchers direct access to running their own custom analysis.
 
 * **Data and analysis archival specialists**
-    Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets and the computational analyses that produced them. 
+    Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets and the computational analyses that produced them.
 
 ## You should attend to ...
 
@@ -57,7 +57,7 @@ Summaries of the meeting are available in a couple places:
 * **[Learn best practices](/events/gcc2013/program/)** for deploying Galaxy, defining and installing resources, and managing and moving large datasets.
 * **Network with others** in the Galaxy community who are facing similar challenges and using Galaxy and other tools to address them.
 * Learn what the Galaxy Project's plans are, and **contribute to Galaxy's future direction.**
-* **Learn** 
+* **Learn**
   * how to visualize your data in Galaxy and use visualization to guide your analysis (visual analytics)
   * how to share, publish, and reuse your analyses with Galaxy
   * how to perform *and enable your users to perform* common, yet complex, analyses using Galaxy
@@ -65,7 +65,7 @@ Summaries of the meeting are available in a couple places:
 
 ## About Galaxy
 
-Galaxy makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis, trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/admin/license/). 
+Galaxy makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis, trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/admin/license/).
 
 
 ## GCC2013 Sponsors

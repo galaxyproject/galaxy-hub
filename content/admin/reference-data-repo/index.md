@@ -216,7 +216,7 @@ The list of Stratum 1 servers for the `data.galaxyproject.org` CVMFS repository 
 | --- | --- | --- |
 | `cvmfs1-psu0.galaxyproject.org` | [Galaxy Project][galaxyproject] | [Penn State University][psu], Pennsylvania, USA |
 | `cvmfs1-iu0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at [Indiana University][iu], Indiana, USA |
-| `cvmfs1-tacc0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at the [Texas Advanced Computing Center][tacc], [University of Texas at Austin][utexas], Texas, USA | 
+| `cvmfs1-tacc0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at the [Texas Advanced Computing Center][tacc], [University of Texas at Austin][utexas], Texas, USA |
 | `cvmfs1-mel0.gvl.org.au` | [GVL Project][gvlproject] | Melbourne, Australia |
 | `galaxy.jrc.ec.europa.eu:8008` | [European Commission Joint Research Centre][jrc] | Ispra, Italy |
 | `cvmfs1-ufr0.galaxyproject.eu` | [Galaxy Project Europe/UseGalaxy.eu][jrc] | Freiburg, Germany |

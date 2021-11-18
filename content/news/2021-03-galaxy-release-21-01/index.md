@@ -71,7 +71,7 @@ other interfaces received updates to use this new framework:
 Histories can now be exported directly to your FTP folders, Dropbox, or
 any other configured remote file storage.
 
-![](https://docs.galaxyproject.org/en/latest/_images/21.01-hist-exp.png) 
+![](https://docs.galaxyproject.org/en/latest/_images/21.01-hist-exp.png)
 *Screenshot of "Export
 history archive" interface showing the new "to a remote file" option
 with the user's FTP directory selected and foo.tar.gz entered as an
@@ -81,7 +81,7 @@ And history importing saw the same treatment, permitting importing from
 any of these public data locations making it easier than ever to share
 histories between Galaxy, and make your analyses more reproducible!
 
-![](https://docs.galaxyproject.org/en/latest/_images/21.01-hist-imp.png) 
+![](https://docs.galaxyproject.org/en/latest/_images/21.01-hist-imp.png)
 *Screenshot of "Import history from archive" interface which now includes an option to "Select
 a remote file" which provides access to the remote file interface.*
 

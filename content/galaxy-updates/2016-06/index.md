@@ -12,9 +12,9 @@ title: June 2016 Galaxy News
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the June 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
+Welcome to the June 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 
 # GCC2016
@@ -29,7 +29,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 <a href='https://gcc2016.iu.edu'><img src="/images/screenshots/GCC2016SchedHomeThumb.png" alt="2016 Galaxy Community Conference complete schedule" width="170" /></a>
 </div>
 
-[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes [2 days of hackathons](https://web.archive.org/web/http://gcc2016.iu.edu/hacks/index.php), [2 days of training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [a two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featuring [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), **[poster sessions](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos)**, [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), [birds-of-a-feather meetups](/events/gcc2016/bofs/), and [plenty of networking](http://gcc16.sched.org/overview/type/B.+Networking+%26+Sustenance). 
+[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes [2 days of hackathons](https://web.archive.org/web/http://gcc2016.iu.edu/hacks/index.php), [2 days of training](http://gcc16.sched.org/overview/type/D.x+Training+-+All), and [a two day meeting](http://gcc16.sched.org/overview/type/E.x+Conference+-+All) featuring [accepted presentations and keynotes](http://gcc16.sched.org/overview/type/E.1+Conference+-+Talks), **[poster sessions](http://gcc16.sched.org/overview/type/E.2+Conference+-+Posters), the new [Visualization Showcase and Software Demo sessions](http://gcc16.sched.org/overview/type/E.3+Conference+-+Demos)**, [lightning talks](http://gcc16.sched.org/overview/type/E.5+Conference+-+Lightning), [birds-of-a-feather meetups](/events/gcc2016/bofs/), and [plenty of networking](http://gcc16.sched.org/overview/type/B.+Networking+%26+Sustenance).
 
 ## Registration: June 4
 
@@ -118,13 +118,13 @@ There will be two [GalaxyAdmins](/community/galaxy-admins/) [meetups](/community
 
 There are [a plentitude of Galaxy related events coming up](/events/). Here's what's coming up over the summer:
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/asms2016/'><img src="/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
 <a href='https://www.vlsci.org.au/events/new-round-workshops-announced'><img src="/images/logos/VLSCILogo.png" alt="GVL and Galaxy Workshops" height="80" /></a>
 <a href='http://bioinformatics.ca/workshops/2016/informatics-high-throughput-sequencing-data-2016'><img src="/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High-throughput Sequencing Data Workshop" height=80 /></a>
 <a href='/community/galaxy-admins/meetups/2016-06-16/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="16 June GalaxyAdmins Web Meetup" height="60" /></a>
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Jun16.html'><img src="/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
-&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;
 <a href='https://web.archive.org/web/http://gcc2016.iu.edu/index.php'><img src="/images/logos/GCC2016LogoSquareBig.png" alt="2016 Galaxy Community Conference (GCC2016)" width="120" /></a>
 </div>
 
@@ -282,7 +282,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 Some highlights from May:
 
-* [LimiTT: link miRNAs to targets](https://doi.org/10.1186/s12859-016-1070-1) 
+* [LimiTT: link miRNAs to targets](https://doi.org/10.1186/s12859-016-1070-1)
   * by Julia Bayer, Carsten Kuenne, Jens Preussner, Mario Looso. *BMC Bioinformatics*, Vol. 17, No. 1. (11 May 2016), doi:10.1186/s12859-016-1070-1
 
 * [From Scientific Workflow Patterns to 5-star Linked Open Data](https://www.usenix.org/conference/tapp16/workshop-program/presentation/gaignard)
@@ -295,7 +295,7 @@ and ...
 
 ## The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update
 
-The [project and the developer community](/galaxy-team/) has published a new paper, 
+The [project and the developer community](/galaxy-team/) has published a new paper,
 
   [The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](https://doi.org/10.1093/nar/gkw343), *Nucleic Acids Research* (2 May 2016), doi:10.1093/nar/gkw343
 
@@ -369,11 +369,11 @@ The new papers were tagged with:
 <div class='right'><br /><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
-* [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules."  <div class='red'>Deadline June 10.</span> 
+* [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules."  <div class='red'>Deadline June 10.</span>
 * [Galaxy Administrator & Developer](http://www.uni-freiburg.de/verwaltung/stellenboerse/?erf=y&stellenid=9693&layout=v4), University of Freiburg, Freiburg, Germany.
 * [Bioinformatics Web Application Developer-Biology](https://jobs.wustl.edu/) (Job ID 32899), Washington University in St. Louis, Missouri, United States
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
-* [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
+* [Postdoctoral Research Positions](https://chk.tbe.taleo.net/chk01/ats/careers/requisition.jsp?org=BCM&cws=42&rid=8453), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -397,7 +397,7 @@ No [new publicly accessible Galaxy servers](/use/) were added to [the list](/use
 
 The [Semi-Public Galaxy Servers Directory](/use/) lists Galaxy servers that aren't fully publicly accessible, but that are accessible to a larger group than just the host institution's members.  (Most Galaxy instances are *internal* to an organization - they can only be accessed by members of the host institution.)
 
-Servers are classified by whom they are accessible to.  This can be based on research domain, geography based, or by membership in a multi-organization association that provides Galaxy Servers. 
+Servers are classified by whom they are accessible to.  This can be based on research domain, geography based, or by membership in a multi-organization association that provides Galaxy Servers.
 
 **To add your semi-public Galaxy server to this list**, please either just add it (hey, *it's a wiki*), or [describe the server here](https://docs.google.com/forms/d/e/1FAIpQLSd4xzUP3pSYjTHiLoRE10zSJbplDVW7EbGy8EJ9JS0yy2SySg/viewform) and we'll post it this directory.
 
@@ -420,7 +420,7 @@ Servers are classified by whom they are accessible to.  This can be based on res
 
 One new training organization joined the [Galaxy Training Network](https://training.galaxyproject.org/):
 
-* Geneclat Technologies is based in Bengaluru, Karnataka, India, and is available globally (and "ready to travel!") 
+* Geneclat Technologies is based in Bengaluru, Karnataka, India, and is available globally (and "ready to travel!")
 
 ## New Commercial Support Directory
 
@@ -435,7 +435,7 @@ Want to add your company to that list?  Send an email to [outreach AT galaxyproj
 ## Galaxy v16.04
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[April 2016 (v16.04) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.04_announce.html)**.
 
 *Please note that Python 2.6 is no longer supported as of this release. See the [16.04 release announcement](https://wiki.galaxyproject.org/News/2016-04_GalaxyRelease) for details.*
@@ -480,7 +480,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 This is a minor update release with the following changes:
 * Galaxy 16.04 update
-* Availability on Amazon's Ireland region 
+* Availability on Amazon's Ireland region
 * A couple of bug fixes
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.
@@ -489,7 +489,7 @@ See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGE
 
 ## Planemo 0.25.0 - 0.26.0
 
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  There was a lot of activity in the May releases of Planemo. Some highlights: 
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  There was a lot of activity in the May releases of Planemo. Some highlights:
 
 * Implement `Engine` and `Runnable` abstractions - Planemo now has beta support for testing Galaxy workflows and CWL tools with Galaxy and any CWL artifact with [cwltool](https://github.com/common-workflow-language/cwltool/). [Pull Request 454](https://github.com/galaxyproject/planemo/pull/454), [7be1bf5](https://github.com/galaxyproject/planemo/commit/7be1bf5)
 * Introduce profile commands (`profile_create, profile_delete`, and `profile_list`) and profile improvements (automatic postgres database creation support). [Pull Request 480](https://github.com/galaxyproject/planemo/pull/480), [a87899b](https://github.com/galaxyproject/planemo/commit/a87899b)
@@ -525,7 +525,7 @@ Highlights of May releases include:
 
 **CloudBridge 0.1.0**
 
-The Galaxy Team is proud to be part of the development team for a new cross-cloud library called CloudBridge. *CloudBridge is a Python library providing a simple layer of abstraction over different cloud providers, reducing or eliminating the need to write conditional code for each cloud.* The library is generally applicable to any domain wishing to run cloud-independent applications. There is already support for Amazon and OpenStack clouds with support for Google’s Compute Engine in development. 
+The Galaxy Team is proud to be part of the development team for a new cross-cloud library called CloudBridge. *CloudBridge is a Python library providing a simple layer of abstraction over different cloud providers, reducing or eliminating the need to write conditional code for each cloud.* The library is generally applicable to any domain wishing to run cloud-independent applications. There is already support for Amazon and OpenStack clouds with support for Google’s Compute Engine in development.
 
 The first version of CloudBridge was released earlier this month and it comes with [detailed user documentation](http://cloudbridge.readthedocs.org/). The source code is [available on Github](https://github.com/gvlproject/cloudbridge).
 
@@ -545,7 +545,7 @@ The first version of CloudBridge was released earlier this month and it comes wi
 
 These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems.
 
-Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
+Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/).
 
 
 **BioBlend 0.7.0**

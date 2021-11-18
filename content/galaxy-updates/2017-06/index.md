@@ -11,7 +11,7 @@ Welcome to the June 2017 *[Galactic News](/galaxy-updates/)*, a summary of what 
 <div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></a></div>
 
 GCC2017 will be in Montpellier, France, 26-30 June and will feature two days of presentations, discussions, poster sessions, lightning talks, computer demos, keynotes, and birds-of-a-feather meetups, **all about data-intensive biology and the tools and infrastructure that support it.** GCC2017 also includes data and coding hacks, and **[two days of training](https://gcc2017.sched.com/overview/type/Training)** covering 16 different topics.
- 
+
 GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-events.com/en/The-Corum/Presentation) in the heart of [Montpellier](https://gcc2017.sciencesconf.org/page/location), just 10km from the Mediterranean. This event will gather several hundred researchers addressing diverse questions and facing common challenges in data intensive life science research. GCC participants work across the tree of life, come from around the world, and work at universities, research organizations, industry, medical schools and research hospitals.
 
 ## Regular Registration Rates Extended to June 16
@@ -26,7 +26,7 @@ If you missed the May 31 regular registration deadline then don't worry because 
 
 [Dr. Eytan Domany](http://www.weizmann.ac.il/complex/compphys/) will cover his work in human genomics and computational biology principally in the cancer domain. Eytan Domany is a Professor of Computational Systems Biology in the Department of Physics and Complex Systems at the [Weizmann Institute of Science](http://www.weizmann.ac.il/) in Rehovot, Israel. The main focus of his group is to mine data from large-scale experiments in biology. The work includes development of mathematical methods, their implementation in algorithms (which are incorporated in user-friendly computational tools), which are then applied to study biological data. Eytan was awarded the [Sergio Lombroso Award in Cancer Research](http://www.weizmann.ac.il/pages/prof-eytan-domany) in 2016 for his research efforts.
 
- 
+
 ### Anton Nekrutenko & James Taylor
 
 **The Galaxy Project: from the Planck epoch to Montpellier**
@@ -43,7 +43,7 @@ If you are reading this, you probably already know who they are.  If not, see th
 
 <div class="left"><a href="https://gcc2017.sciencesconf.org/page/submit"><img src="/galaxy-updates/2017-06/lightning.png" alt='Stike out and strut your work with a GCC2017 lightning talk!' width="60" /></a></div>
 
-Lightning talks are an excellent chance to share your work, preliminary or otherwise, with the community.  Lightning talks are 7 minutes long and are the quickest way to make a lasting impression on, and get feedback from all participants.  Submit your lightning talk proposal [by June 23](https://gcc2017.sciencesconf.org/page/submit). 
+Lightning talks are an excellent chance to share your work, preliminary or otherwise, with the community.  Lightning talks are 7 minutes long and are the quickest way to make a lasting impression on, and get feedback from all participants.  Submit your lightning talk proposal [by June 23](https://gcc2017.sciencesconf.org/page/submit).
 
 
 ### Talk, Poster and Demo Submission is Closed, but ...
@@ -83,7 +83,7 @@ Know someone who needs to learn more about deploying Galaxy in their organizatio
 
 Participants will learn to
 
-- Create Galaxy compatible tool and workflow definitions that are publicly accessible and that make it easy for any instance administrator to add your work to their server. 
+- Create Galaxy compatible tool and workflow definitions that are publicly accessible and that make it easy for any instance administrator to add your work to their server.
 - Deploy Galaxy and scale it up to target production-ready resources such as a Postgres database, NGINX webserver, and distributed resource managers such SLURM or PBS.
 
 Interested? Sign up when you [register](https://www.iscb.org/ismbeccb2017-registration#tutorials) for ISMB/ECCB (and register before the tutorial fills up).
@@ -214,16 +214,16 @@ Some highlights from the papers added last month:
    [Björn A. Grüning](/people/bjoern-gruening/), [Helena Rasche](/people/helena-rasche/), Boris Rebolledo-Jaramillo, [Carl Eberhard](/people/carl-eberhard/), Torsten Houwaart, [John Chilton](/people/john-chilton/), [Nate Coraor](/people/nate/), Rolf Backofen, [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/). *PLOS Computational Biology*, Vol. 13, No. 5. (25 May 2017), e1005425, doi:10.1371/journal.pcbi.1005425
 
 * [MAGenTA: a Galaxy implemented tool for complete Tn-Seq analysis and data visualization](https://doi.org/10.1093/bioinformatics/btx320)
-   Katherine M. McCoy, Margaret L. Antonio, Tim van Opijnen. *Bioinformatics* (11 May 2017), doi:10.1093/bioinformatics/btx320 
+   Katherine M. McCoy, Margaret L. Antonio, Tim van Opijnen. *Bioinformatics* (11 May 2017), doi:10.1093/bioinformatics/btx320
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 49 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 21 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 16 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) | | 15 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | 
-| 10 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 5 | [tools](http://www.citeulike.org/group/16008/tag/tools) | | 5 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 4 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | 
-| 3 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | | 2 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 1 | [shared](http://www.citeulike.org/group/16008/tag/shared) | | 1 | [project](http://www.citeulike.org/group/16008/tag/project) | 
-| 1 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) | | 1 | [other](http://www.citeulike.org/group/16008/tag/other) | | | | | | | 
+| 49 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 21 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 16 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) | | 15 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) |
+| 10 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 5 | [tools](http://www.citeulike.org/group/16008/tag/tools) | | 5 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 4 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) |
+| 3 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | | 2 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 1 | [shared](http://www.citeulike.org/group/16008/tag/shared) | | 1 | [project](http://www.citeulike.org/group/16008/tag/project) |
+| 1 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) | | 1 | [other](http://www.citeulike.org/group/16008/tag/other) | | | | | | |
 
 ----
 
@@ -255,7 +255,7 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 A new release of [ImmPort Galaxy](https://www.immportgalaxy.org/) is out:
 
-* R is all up to date logicle trans, 
+* R is all up to date logicle trans,
 * Added a transformation algorithm to the Automated gating
 * Transformation and Converson of FCS files to text tool,
 * And a couple of tools to generate 1D Density plots.
@@ -265,7 +265,7 @@ More cool visualizations to look at your flow cytometry data!
 
 ## Usegalaxy.org
 
-* The STAR RNA-seq ultra fast aligner [is now on Usegalaxy.org](https://usegalaxy.org/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Frgrnastar%2Frna_star%2F2.5.2b-0) and has 64GB of memory available for each job. 
+* The STAR RNA-seq ultra fast aligner [is now on Usegalaxy.org](https://usegalaxy.org/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Frgrnastar%2Frna_star%2F2.5.2b-0) and has 64GB of memory available for each job.
 * [TopHat is gone from usegalaxy.org because there are now superior alternatives](https://biostar.usegalaxy.org/p/23367/).
 
 
@@ -381,8 +381,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 
 And
 
-* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/people/john-chilton/): 
+* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
+* From [John Chilton](/people/john-chilton/):
   * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 

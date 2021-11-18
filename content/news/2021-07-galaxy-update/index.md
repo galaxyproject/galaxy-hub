@@ -208,7 +208,7 @@ We still [need volunteers to lead the discussion on your favorite topic](https:/
 
 The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop, all participants will be able to upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments.
 
-It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions. 
+It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions.
 
 
 </div>
@@ -345,7 +345,7 @@ How to obtain, run and combine these workflows appropriately for different types
 </div>
 
 </div>
- 
+
 
 # Publications
 

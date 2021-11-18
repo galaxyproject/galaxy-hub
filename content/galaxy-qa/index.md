@@ -116,7 +116,7 @@ The fork has been created to tied Galaxy Q&A with Galaxy. Here are the main modi
 
 ### Implementation in Galaxy
 
-Here is the [changeset](https://bitbucket.org/galaxy/galaxy-central/changeset/110a69b0d387228ec7bed84814192b9c99082d7c) of the adds in Galaxy to link with the Galaxy Q&A: 
+Here is the [changeset](https://bitbucket.org/galaxy/galaxy-central/changeset/110a69b0d387228ec7bed84814192b9c99082d7c) of the adds in Galaxy to link with the Galaxy Q&A:
 * Link to Galaxy Q&A in the Help Menu of Galaxy
 * Link to Galaxy Q&A in the Help Menu of the Tool Shed
 * Links to Galaxy Q&A in the tool form of any tools

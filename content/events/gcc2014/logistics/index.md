@@ -85,7 +85,7 @@ There is no rail or free bus service to the Homewood Campus, but several bus rou
 </table>
 
 
-Rooms for GCC2014 participants are available in *Charles Commons*, one of the [residence halls on the Homewood Campus](http://www.jhu.edu/hds/oncampus/buildings.html).  These rooms can be booked only at [registration time](/events/gcc2014/register/). 
+Rooms for GCC2014 participants are available in *Charles Commons*, one of the [residence halls on the Homewood Campus](http://www.jhu.edu/hds/oncampus/buildings.html).  These rooms can be booked only at [registration time](/events/gcc2014/register/).
 
 Some key points:
 
@@ -144,7 +144,7 @@ A [block of rooms have been reserved at the Inn at The Colonnade Baltimore](http
 
 * [Radisson at Cross Keys](http://www.radisson.com/baltimore-hotel-md-21210/mdbaltim) - Driving distance but they provide a shuttle to the Homewood Campus.
 * [Mt. Washington Conference Center](http://www.acc-mtwashingtonconferencecenter.com/baltimore-accommodations-en.html) - Several miles north of the Homewood Campus.
-* [Hotels.com](http://www.hotels.com/search/search.html?pageName=ChangeSearchPage&viewType=LIST&pageNumber=1&priceFilterMultiplier=1&arrivalDate=06%2F29%2F14&departureDate=07%2F03%2F14&numberOfRooms=1&roomInfoList%5B0%5D.numberOfAdults=1&children%5B0%5D=0&srsReport=SearchResultPage%7CAutoS%7Clandmark%7Cjohns+hopkins%7C0%7C2%7C1%7C0%7C1%7C3%7C1659406&searchParams.landmark=1659406&hotelId=&destinationId=1424150&queryFormState=OPEN&searchParams.needPossibleResults=true&activeTab=DESTINATION&page=1&searchParams.sortOrder=DISTANCE) - includes many options in the Inner Harbor. 
+* [Hotels.com](http://www.hotels.com/search/search.html?pageName=ChangeSearchPage&viewType=LIST&pageNumber=1&priceFilterMultiplier=1&arrivalDate=06%2F29%2F14&departureDate=07%2F03%2F14&numberOfRooms=1&roomInfoList%5B0%5D.numberOfAdults=1&children%5B0%5D=0&srsReport=SearchResultPage%7CAutoS%7Clandmark%7Cjohns+hopkins%7C0%7C2%7C1%7C0%7C1%7C3%7C1659406&searchParams.landmark=1659406&hotelId=&destinationId=1424150&queryFormState=OPEN&searchParams.needPossibleResults=true&activeTab=DESTINATION&page=1&searchParams.sortOrder=DISTANCE) - includes many options in the Inner Harbor.
 * [Hotels Near Johns Hopkins page](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/visitor_information/hotels_near_JHU/).
 
 <div class='right'><br /><a href='http://baltimore.org/'><img src="/events/gcc2014/logistics/VisitBaltimore.jpg" alt="Visit Baltimore" width="160" /></a></div>

@@ -51,7 +51,7 @@ This server joins the [growing list of public Galaxy servers](/use/).
 
 </div>
 
-These papers may be of interest to the Galaxy community. 
+These papers may be of interest to the Galaxy community.
 
 * "[RepeatExplorer: a Galaxy-based web server for genome-wide characterization of eukaryotic repetitive elements from next generation sequence reads](https://doi.org/10.1093/bioinformatics/btt054)," by Petr Novák, Pavel Neumann, Jiří Pech, Jaroslav Steinhaisl, Jiří Macas, *Bioinformatics* (1 February 2013)
 * "[A unified framework for the deployment, exposure and access of HPC applications as services in clouds](https://doi.org/10.1016/j.future.2013.01.014)," by Adam K. L. Wonga, Andrzej M. Goscinskia, *Future Generation Computer Systems* (February 2013)
@@ -91,22 +91,22 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ### Sponsorships
 
-<div class='right'><a href='http://lifetech.com/'><img src="/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="140" /></a><br /> 
+<div class='right'><a href='http://lifetech.com/'><img src="/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="140" /></a><br />
 <div class='right'><a href='http://emc.com/'><img src="/images/logos/EMCLogo.png" alt="EMC Isilon" width="120" /></a><br /><div class='right'><a href='http://illumina.com/'><img src="/images/logos/IlluminaLogo250.png" alt="Illumina" width="100" /></a></div></div></div>
 
 We are pleased to announce several new [sponsorships](/events/gcc2013/sponsorships/) for GCC2013:
 
-* [Ion Torrent](http://lifetech.com/) will be the exclusive Platinum Sponsor for the event. 
-* [EMC Isilon](http://emc.com/) will be a Gold Sponsor for [GCC2013](/events/gcc2013/). 
+* [Ion Torrent](http://lifetech.com/) will be the exclusive Platinum Sponsor for the event.
+* [EMC Isilon](http://emc.com/) will be a Gold Sponsor for [GCC2013](/events/gcc2013/).
 * [Illumina](http://illumina.com/) will be a Bronze Sponsor for [GCC2013](/events/gcc2013/).
 
-There are still several [sponsorships](/events/gcc2013/sponsorships/) still available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event. 
+There are still several [sponsorships](/events/gcc2013/sponsorships/) still available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event.
 
 ## March GalaxyAdmins Web Meetup
 
 <div class='left'><a href='/community/galaxy-admins/meetups/2013-03-20/'><img src="/images/logos/GalaxyAdmins.png" alt="March Galaxy Admins Web Meetup" height="50" /></a></div>
 
-The next [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-03-20/) will be held [March 20, 2013](/community/galaxy-admins/meetups/2013-03-20/) and feature [Hailiang "Leon" Mei](mailto:hailiang DOT mei AT nbic DOT nl), and [David van Enckevort](mailto:david.van.enckevort@nbic.nl) speaking on *[NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).* 
+The next [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-03-20/) will be held [March 20, 2013](/community/galaxy-admins/meetups/2013-03-20/) and feature [Hailiang "Leon" Mei](mailto:hailiang DOT mei AT nbic DOT nl), and [David van Enckevort](mailto:david.van.enckevort@nbic.nl) speaking on *[NBIC Galaxy](http://galaxy.nbic.nl/) at [SURFsara's HPC cloud](https://www.surfsara.nl/).*
 
 [NBIC Galaxy (Andromeda)](http://galaxy.nbic.nl/) was migrated to a HPC cloud hosted by Surfsara in September 2012. In this presentation, we will present the setup of this HPC cloud and the architecture of our NBIC Galaxy. We will also share our experience on the installation of the NBIC Galaxy using the Cloudman scripts. The presentation will finish with a list of issues and our possible future plans.
 
@@ -130,7 +130,7 @@ GMOD is also running a [community-wide survey](http://gmod.org/survey.html) thro
 <a href='http://www.jgi.doe.gov/meetings/usermeeting/workshops.html#rna-tech'><img src="/images/logos/JGILogoSmall.jpg" alt="RNA Technologies and Analysis Workshop" height="85" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 ### Events
@@ -220,7 +220,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 <div class='right'><a href='/toolshed/'><img src="/images/news-graphics/2013_02_6-confirm-dependency-installation-sm2.png" alt="" width="220px" /></a></div>
 **Highlights:**
 * *Improvements* to our [release process](/archive/dev-news-briefs/2013-02-08/#-to-release_process). **Release tag must be used in the hg update command to upgrade**. More at **[getgalaxy.org](/admin/get-galaxy/)**.
-* Tool Shed *[Complex repository dependencies](/toolshed/complex-repository-dependencies/)* are introduced, streamlining core dependency use across individual tools. 
+* Tool Shed *[Complex repository dependencies](/toolshed/complex-repository-dependencies/)* are introduced, streamlining core dependency use across individual tools.
 * Also updated in the Tool Shed: multiple repository installation, dependency installation (when defined - see graphic on right for an example), and many usability enhancements and fixes.
 * New *[Bedgraph-to-bigwig](/learn/datatypes/#bedgraph)* tool plus *Filter* tool updated.
 * *Workflows* now include option to export an image and the core *Framework* now allows more unified reference genome usage and access.
@@ -251,19 +251,19 @@ $ hg update release_2013.02.08
 * fastq_sync: Check or repair synchronization of a pair of fastq datasets
 * velvet_optimiser: Updated version of velvet optimiser wrapper with all features
 * tophat_stats_pe: Calculate mapping statistics from Tophat BAM files
-* [blastxml_to_top_descr](http://bit.ly/14NU5zp): Make table of top BLAST match descriptions 
+* [blastxml_to_top_descr](http://bit.ly/14NU5zp): Make table of top BLAST match descriptions
 * [qualimap_suite](http://bit.ly/12Lq2FK): [detect biases in sequencing and/or mapping in SAM/BAM data](http://qualimap.bioinfo.cipf.es)
-* [smalt](http://bit.ly/UnzH6j): efficiently align DNA sequencing reads with a reference genome 
-* [rdiff](http://bit.ly/Xh4Iss): detection of differential RNA processing from RNA Sequncing data 
-* [pileup_to_vcf](http://bit.ly/YeaafR): convert a samtools mpileup pileup to vcf 
-* [predictnls](http://bit.ly/XCyM0y/) : Python reimplementation of predictNLS for Galaxy 
+* [smalt](http://bit.ly/UnzH6j): efficiently align DNA sequencing reads with a reference genome
+* [rdiff](http://bit.ly/Xh4Iss): detection of differential RNA processing from RNA Sequncing data
+* [pileup_to_vcf](http://bit.ly/YeaafR): convert a samtools mpileup pileup to vcf
+* [predictnls](http://bit.ly/XCyM0y/) : Python reimplementation of predictNLS for Galaxy
 
 ## Other News
 
 * A [Software Carpentry bootcamp](http://bit.ly/14EmcSA) has been scheduled in Oslo immediately after [GCC2013](/events/gcc2013/).
 * An improved [Galaxy Project issues board](http://bit.ly/gxytrello) is out
-* Going to [GCC2013](/events/gcc2013/)?  [SocBiN / PTBI](http://bit.ly/SocBiN2013) is right before; Paper and early registration deadline is 15 March 
+* Going to [GCC2013](/events/gcc2013/)?  [SocBiN / PTBI](http://bit.ly/SocBiN2013) is right before; Paper and early registration deadline is 15 March
 * **[Introduction to Galaxy 2013 Bootcamp](http://training.bioinformatics.ucdavis.edu/docs/2013/02/bootcamp/galaxy/index.html)** by Nikhil Joshi, Bioinformatics Core, UC Davis Genome Center
 * **[Galaxy Tutorials](https://genome.edu.au/wiki/Galaxy_Tutorials)** Including *RNA-Seq, Variant Detection,* and *Genome Assembly* from The [Genomics Virtual Lab](https://genome.edu.au/)
-* [CloudBioLinux can now install genome indices from the Galaxy rsync server](https://github.com/chapmanb/cloudbiolinux/commit/208a59bb9ec19b1b633b0319259e313d4fae7952). 
+* [CloudBioLinux can now install genome indices from the Galaxy rsync server](https://github.com/chapmanb/cloudbiolinux/commit/208a59bb9ec19b1b633b0319259e313d4fae7952).
 * [Uploading NGS data to Amazon S3 for use in Galaxy](http://bit.ly/137rZfM)

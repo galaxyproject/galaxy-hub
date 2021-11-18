@@ -65,11 +65,11 @@ These papers were among [46 papers added to the Galaxy CiteULike group](http://w
 *Three* new publicly accessible Galaxy servers were added to the [Public Galaxy Servers](/use/) page in August:
 
 
-| Server |  Purpose / Community  |  Other Comments  |  Restrictions  |  Sponsor  | 
-| ------ | -------------------- | --------------- | ------------- | -------- | 
-| [IBDsite](http://www.itb.cnr.it/galaxy) |  a [Galaxy-interacting, integrative database for supporting Inflammatory Bowel Disease high throughput data analysis](http://www.biomedcentral.com/1471-2105/13/S14/S5/abstract)  |   |   |  [CNR-ITB](http://www.itb.cnr.it/)  | 
-| [NCBO and OPPL Galaxy](http://sele.inf.um.es:9080/) |  The NCBO-Galaxy tools provide Galaxy users with the functionality of the NCBO BioPortal services. [OPPL-Galaxy](http://miuras.inf.um.es/OPPL-Galaxy/OPPL-Galaxy.html) is a set of functions that can be executed over OWL ontologies with the aim of facilitating the use of semantic activities within Galaxy Bioinformatics workflows.  |  See "[NCBO-Galaxy: bridging the BioPortal web services and the Galaxy platform](http://kr-med.org/icbofois2012/proceedings/ICBO2012/ICBO2012DemosSingleFiles/ICBO-2012-session8-Gimenez.pdf)," by Giménez, et al., presented at ICBO2012; and "[OPPL-Galaxy: Enhancing ontology exploitation in Galaxy with OPPL](http://www.slideshare.net/MikelEganaAranguren/opplgalaxy-enhancing-ontology-exploitation-in-galaxy-with-oppl)" by Aranguren, et al.  |   |  [Universidad de Murcia](http://www.um.es/)  | 
-| [PopGenIE](http://galaxy.popgenie.org:8080/) |  The [Populus Genome Integrative Explorer](http://popgenie.org/) Galaxy instance.  |   |  Storage quotas  |  [Plant Physiology, University of Umeå](http://www.plantphys.umu.se/)  | 
+| Server |  Purpose / Community  |  Other Comments  |  Restrictions  |  Sponsor  |
+| ------ | -------------------- | --------------- | ------------- | -------- |
+| [IBDsite](http://www.itb.cnr.it/galaxy) |  a [Galaxy-interacting, integrative database for supporting Inflammatory Bowel Disease high throughput data analysis](http://www.biomedcentral.com/1471-2105/13/S14/S5/abstract)  |   |   |  [CNR-ITB](http://www.itb.cnr.it/)  |
+| [NCBO and OPPL Galaxy](http://sele.inf.um.es:9080/) |  The NCBO-Galaxy tools provide Galaxy users with the functionality of the NCBO BioPortal services. [OPPL-Galaxy](http://miuras.inf.um.es/OPPL-Galaxy/OPPL-Galaxy.html) is a set of functions that can be executed over OWL ontologies with the aim of facilitating the use of semantic activities within Galaxy Bioinformatics workflows.  |  See "[NCBO-Galaxy: bridging the BioPortal web services and the Galaxy platform](http://kr-med.org/icbofois2012/proceedings/ICBO2012/ICBO2012DemosSingleFiles/ICBO-2012-session8-Gimenez.pdf)," by Giménez, et al., presented at ICBO2012; and "[OPPL-Galaxy: Enhancing ontology exploitation in Galaxy with OPPL](http://www.slideshare.net/MikelEganaAranguren/opplgalaxy-enhancing-ontology-exploitation-in-galaxy-with-oppl)" by Aranguren, et al.  |   |  [Universidad de Murcia](http://www.um.es/)  |
+| [PopGenIE](http://galaxy.popgenie.org:8080/) |  The [Populus Genome Integrative Explorer](http://popgenie.org/) Galaxy instance.  |   |  Storage quotas  |  [Plant Physiology, University of Umeå](http://www.plantphys.umu.se/)  |
 
 ## Who's Hiring
 
@@ -93,9 +93,9 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
-There are September application, poster, and paper deadlines for 
+There are September application, poster, and paper deadlines for
 * [Personal Genomes and Medical Genomics](http://meetings.cshl.edu/meetings/pgmg12.shtml), CSHL (deadline August 31)
 * [ISCB-Asia/SCCG 2012](http://www.iscb.org/iscb-asia2012) posters
 
@@ -223,11 +223,11 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 <div class='right'><a href='/events/switzerland2012/'><img src="/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
 
-The 1<sup>st</sup> [Swiss Galaxy Workshop](/events/switzerland2012/) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
- 
-We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research. 
- 
-The workshop is part of the SyBIT Tech Day series. 
+The 1<sup>st</sup> [Swiss Galaxy Workshop](/events/switzerland2012/) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience.
+
+We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research.
+
+The workshop is part of the SyBIT Tech Day series.
 
 
 ## New Galaxy-France Mailing List

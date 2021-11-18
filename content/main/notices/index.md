@@ -8,7 +8,7 @@ Dated notices about known usage issues and solutions specifically for Galaxy's [
 <br />
 ## March 20th 2014 TACC Corral filesystem resolution
 
-* **Issue**: **[Galaxy](http://usegalaxy.org)** is currently unavailable due to problems with the Corral filesystem at the Texas Advanced Computing Center. 
+* **Issue**: **[Galaxy](http://usegalaxy.org)** is currently unavailable due to problems with the Corral filesystem at the Texas Advanced Computing Center.
 * **Update**: March 21, 2014, TACC staff members identified the cause of the intermittent access to Corral. An unscheduled, extended maintenance period will be required, however, to permanently fix the problem. Corral will be taken down at 9 a.m. (CT) on Saturday, March 22 for the repairs. The estimated time of availability of Corral will be 9 a.m. on Monday, March 24. This maintenance overlaps with prior scheduled maintenance: [http://bit.ly/1g778F1](http://bit.ly/1g778F1).
 * **Solution**: Use another [Public Galaxy](/use/) or start up your own [Cloud Galaxy](/cloud/), plus follow us at [Twitter](https://twitter.com/galaxyproject) for the most current [Main](/main/) status updates
   * Twitter: https://twitter.com/galaxyproject ([Galaxy on Twitter](/galaxy-on-twitter/))
@@ -19,7 +19,7 @@ Dated notices about known usage issues and solutions specifically for Galaxy's [
 ## May 29th 2013 FTP login resolution
 
 * **Issue**: FTP login failed for user accounts newly created or that had passwords updated during the time frame May 20th - May 29th.
-* **Solution**: Change your Galaxy password using the form on the [Main](/main/) instance at [http://usegalaxy.org](http://usegalaxy.org) 
+* **Solution**: Change your Galaxy password using the form on the [Main](/main/) instance at [http://usegalaxy.org](http://usegalaxy.org)
   * User -> Preferences -> Manage your information
   * On the "Manage User Information" form, change your password
   * Wait ~20 minutes for the server to update, then use FTP with the new credentials

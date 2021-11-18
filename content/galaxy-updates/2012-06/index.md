@@ -13,7 +13,7 @@ Welcome to the June 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a month
 * MEME - Multiple Em for Motif Elicitation
 * FIMO - Find Individual Motif Occurrences
 * Sequence Logo generator for fasta (e.g. Clustal alignments)
-* [CodonLogo](http://bioinformatics.oxfordjournals.org/content/early/2012/05/17/bioinformatics.bts295.abstract) generator for fasta (e.g. Clustal alignments) 
+* [CodonLogo](http://bioinformatics.oxfordjournals.org/content/early/2012/05/17/bioinformatics.bts295.abstract) generator for fasta (e.g. Clustal alignments)
 
 Many thanks to the [LAboratory of Post-Transcriptional control and bioInformatics (LAPTI)](http://lapti.ucc.ie/index.html) at [University College Cork](http://ucc.ie) for making this Galaxy server publicly accessible.
 
@@ -34,7 +34,7 @@ Many thanks to the [LAboratory of Post-Transcriptional control and bioInformatic
   2. [Variant and SNP Analysis with Galaxy](/events/gcc2012/training-day/#ws8)
   3. [Galaxy Code Architecture](/events/gcc2012/training-day/#ws4)
 * The [GCC2012 Training Day](/events/gcc2012/training-day/)
-  1. Has less capacity than the 2 days of the [main meeting](/events/gcc2012/program/), and 
+  1. Has less capacity than the 2 days of the [main meeting](/events/gcc2012/program/), and
   2. So far, everyone who has [registered](/events/gcc2012/register/) for the main meeting has also registered for the Training Day.
 * Cheap rooms in the [James Stuckel Towers](/events/gcc2012/logistics/#james-stuckel-towers) on the UIC campus (and adjacent to the [conference venue](/events/gcc2012/logistics/#venue)) are going fast.
 * A [draft schedule](/events/gcc2012/program/) for all 3 days of the conference has been published. This includes [12 Training Day sessions](/events/gcc2012/training-day/) on [10 different topics](/events/gcc2012/training-day/#workshops), and over 25 presentations by Galaxy Community and Galaxy Team members.
@@ -86,7 +86,7 @@ These papers may be of interest to the Galaxy community:
 * [Tavaxy: Integrating Taverna and Galaxy workflows with cloud computing support](https://doi.org/10.1186/1471-2105-13-77), Mohamed Abouelhoda, Shadi Issa, Moustafa Ghanem, BMC Bioinformatics, Vol. 13, No. 1. (2012), 77
 * [CADDSuite - a workflow-enabled suite of open-source tools for drug discovery](https://doi.org/10.1186/1758-2946-4-S1-O2), Oliver Kohlbacher, Journal of Cheminformatics, Vol. 4, No. Suppl 1. (2012), O2
 
-These papers were among [32 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/) (for a total of 317 papers in the last ~15 months).  The new papers were spread [across 7 categories](http://www.citeulike.org/group/16008/tags), including the new [tools category](http://www.citeulike.org/group/16008/tag/tools). 
+These papers were among [32 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/) (for a total of 317 papers in the last ~15 months).  The new papers were spread [across 7 categories](http://www.citeulike.org/group/16008/tags), including the new [tools category](http://www.citeulike.org/group/16008/tag/tools).
 
 ## Who's Hiring
 
@@ -109,7 +109,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are June application and early registration deadlines for [GCC2012](/events/gcc2012/register/), [ISMB 2012](/events/ismb2012/), SciPy, and the Winter School in Mathematical and Computational Biology, and an abstract deadline for ASHG 2012.  It's also a big month for conferences and courses, including Arthropod Genomics, Bio-IT World Asia ([James Taylor](/people/james-taylor/) will be speaking), SocBIN, [Next-gen sequencing in evolutionary biology](https://academy.nescent.org/wiki/Next-gen_sequencing) Course at NESCent (Sergei Kosakovsky-Pond will cover Galaxy), [Informatics on High Throughput Sequencing Data Workshop](http://www.bioinformatics.ca/workshops/high_throughput) (Francis Ouellette will cover Galaxy), Copenhagenomics, SMBE 2012, and, ESHG 2012, *to name just a few.*
 
@@ -171,9 +171,9 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 ## Tool Shed Contributions
 
-These new repositories 
+These new repositories
 
-* `deseq_hts` - version 1.6.1 of the DESeq 
+* `deseq_hts` - version 1.6.1 of the DESeq
 * `fastqdump` - convert SRA to FASTQ
 * `iassembler` - assemble Sanger and/or Roche-454 EST data into contigs
 

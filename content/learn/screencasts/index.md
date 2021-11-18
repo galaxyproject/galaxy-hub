@@ -67,23 +67,23 @@ Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/gala
 ## Tutorials
 
 * **[Using UCSC from Galaxy](http://screencast.g2.bx.psu.edu/UCSC2Galaxy/)**
-* **[Sequences as Tab Delimited Data](http://screencast.g2.bx.psu.edu/quickie1_TabSeq/flow.html)** 
+* **[Sequences as Tab Delimited Data](http://screencast.g2.bx.psu.edu/quickie1_TabSeq/flow.html)**
 * **[Filtering Data](http://screencast.g2.bx.psu.edu/microFilterTabData/)**
-* **[Grouping](http://screencast.g2.bx.psu.edu/quickie2_Grouping/flow.html)** 
+* **[Grouping](http://screencast.g2.bx.psu.edu/quickie2_Grouping/flow.html)**
 * **[Intervals](http://screencast.g2.bx.psu.edu/quickie3_Intervals/flow.html)**
 * **[Joining Features](http://screencast.g2.bx.psu.edu/quickie5_join/flow.html)**
 * **[http://screencast.g2.bx.psu.edu/MAF_alignExtractStitch/Stitching Multiple Alignments](http://screencast.g2.bx.psu.edu/MAF_alignExtractStitch/Stitching%20Multiple%20Alignments)**
 * **[Filtering Multiple Alignments and Converting Formats](http://screencast.g2.bx.psu.edu/MAF_alignFilterConvert/)**
 * **[Manipulation of Multiple Alignments](http://screencast.g2.bx.psu.edu/MAF_manipulation)**
 * **[Sharing your work](http://screencast.g2.bx.psu.edu/flash/Sharing.html)**
-* **[Create workflow from history](http://screencast.g2.bx.psu.edu/flash/WorkflowFromHistory.html)** 
+* **[Create workflow from history](http://screencast.g2.bx.psu.edu/flash/WorkflowFromHistory.html)**
 * **[Create workflow from Scratch](http://screencast.g2.bx.psu.edu/flash/WorkflowFromScratch.html)**
 * **[Import Workflow](http://screencast.g2.bx.psu.edu/mt-workflowImport/)**
 * **[Edit Workflow](http://screencast.g2.bx.psu.edu/GR_WF_4B/)**
 * **[Convert Workflow in a Tool](http://screencast.g2.bx.psu.edu/GR_WF_6/)**
 * **[Extracting Sequences and Alignments](http://screencast.g2.bx.psu.edu/flash/SeqAlign.html)**
-* **[Basic FASTQ Manipulation](http://screencast.g2.bx.psu.edu/quickie_13_fastq_basic/flow.html)** 
-* **[Advanced FASTQ Manipulation](http://screencast.g2.bx.psu.edu/quickie_14_fastq_adv/flow.html)** 
+* **[Basic FASTQ Manipulation](http://screencast.g2.bx.psu.edu/quickie_13_fastq_basic/flow.html)**
+* **[Advanced FASTQ Manipulation](http://screencast.g2.bx.psu.edu/quickie_14_fastq_adv/flow.html)**
 * **[Copy History Items](http://screencast.g2.bx.psu.edu/quickie_16_copyingHistoryItems/index.html)**
 * **[BioMart](http://screencast.g2.bx.psu.edu/BioMart2Galaxy/)**
 
@@ -97,7 +97,7 @@ Also see [Learn/Interval Operations](/learn/interval-operations/).
 * **[Base Coverage and Compliment](http://screencast.g2.bx.psu.edu/GOPS_BaseCoverageComplement/)**
 * **[Feature Coverage](http://screencast.g2.bx.psu.edu/GOPS_Coverage/)**
 * **[Finding Clusters](http://screencast.g2.bx.psu.edu/GOPS_Cluster/)**
-* **[Joining Features](http://screencast.g2.bx.psu.edu/quickie5_join/flow.htm)** 
+* **[Joining Features](http://screencast.g2.bx.psu.edu/quickie5_join/flow.htm)**
 
 ## Developers How To
 

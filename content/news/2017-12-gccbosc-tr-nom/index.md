@@ -8,13 +8,13 @@ date: '2017-12-14'
 
 **[Nominate a training topic Now](http://bit.ly/gccbosc2018-tr-nom)**
 
-The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and **the training topics are determined by you**. Please take a few minutes to consider what you would like to learn at GCCBOSC2018. Any topics of interest to these communities can be nominated. 
+The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and **the training topics are determined by you**. Please take a few minutes to consider what you would like to learn at GCCBOSC2018. Any topics of interest to these communities can be nominated.
 
 [GCCBOSC2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. It will feature two days of training: the second of which is multi-track and will feature content for both the BOSC and Galaxy communities.  
 
 Nominated topics can cover a wide range. For example:
 
-- How to use open source software using just a web browser (e.g., Intro to Using Galaxy) 
+- How to use open source software using just a web browser (e.g., Intro to Using Galaxy)
 - How to use software packages (The Newbie's Guide to BioRuby)
 - Advanced applications of software (Genome Assembly with Galaxy, or Proteomics with BioPython)
 - Software installation and configuration (Tool Wrapping for Galaxy, or Using CloudLaunch)

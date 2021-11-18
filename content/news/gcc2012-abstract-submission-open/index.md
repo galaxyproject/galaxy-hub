@@ -9,7 +9,7 @@ date: "2012-02-13"
 * Best practices for local Galaxy installation and management
 * Integrating tools and/or data sources into the Galaxy framework
 * Deploying galaxy on different infrastructures
-* Compelling or novel uses of Galaxy for biomedical analysis 
+* Compelling or novel uses of Galaxy for biomedical analysis
 
 See the [GCC2011 program](/events/gcc2011/) for an idea of the breadth of topics that are covered. Oral presentations will be approximately 15-20 minutes long, including time for question and answer. There will also be an opportunity for lightning talks, which will be solicited at the meeting.  The submission deadline is April 16.  See the [GCC2012 Abstracts](/events/gcc2012/abstracts/) page for more details and how to submit.
 

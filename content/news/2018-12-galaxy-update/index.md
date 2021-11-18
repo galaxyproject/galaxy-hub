@@ -16,10 +16,10 @@ The *December  2018 Galactic News* is here!  This is a summary of what is going 
 * [170 new publications](/news/2018-12-galaxy-update/#publications), including eight highlighted ones
 * [Galaxy Platform News](/news/2018-12-galaxy-update/#galaxy-platforms-news): Three new public servers/services, and eight containers added to the platform directory.
 * Two new [Galactic Blog entries](/news/2018-12-galaxy-update/#new-galactic-blog-posts)
-* [16 Open positions](/news/2018-12-galaxy-update/#whos-hiring) in 7 countries on 3 continents. 
+* [16 Open positions](/news/2018-12-galaxy-update/#whos-hiring) in 7 countries on 3 continents.
 * [Doc, Hub, and Training Updates](/news/2018-12-galaxy-update/#doc-hub-and-training-updates)
 * [ToolShed contributions](/news/2018-12-galaxy-update/#toolshed-contributions)
-* [Planemo 0.57.1](/news/2018-12-galaxy-update/#releases) 
+* [Planemo 0.57.1](/news/2018-12-galaxy-update/#releases)
 * And [other news](/news/2018-12-galaxy-update/#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.

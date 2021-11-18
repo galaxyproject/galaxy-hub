@@ -31,12 +31,12 @@ This session covers the tool and ToolShed requirements for using reference data 
 
 ## Prerequisites
 
-* The virtual machine image for this workshop should be installed before you arrive. 
+* The virtual machine image for this workshop should be installed before you arrive.
   * [How to VM](/events/gcc2014/training-day/vms/)
   * [Direct Download](http://depot.galaxyproject.org/GCC2014.ova)
 * A wi-fi enabled laptop with a modern web browser.  Google Chrome, Firefox and Safari will work best.  
-* Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop. 
-* Secure Shell (SSH) client software such as PuTTY for Windows, or the Terminal Application that comes with Mac OS. 
+* Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.
+* Secure Shell (SSH) client software such as PuTTY for Windows, or the Terminal Application that comes with Mac OS.
 
 ## 15:30-15:40 Introduction
 
@@ -46,7 +46,7 @@ This session covers the tool and ToolShed requirements for using reference data 
 ## 15:40-16:00 Using Reference Data in Galaxy Tools
 
 * Graphical Overview of Interplay between Built-in Data and Galaxy Tools
-    <a href='/images/learn/data_managers_figure_S1_schematic_overview.png'><img src="/images/learn/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a> 
+    <a href='/images/learn/data_managers_figure_S1_schematic_overview.png'><img src="/images/learn/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a>
 
 * Discussion of *.loc files
   * Used as a way to provide additional configuration details to a tool, without having to manually edit the actual tool XML file.
@@ -57,7 +57,7 @@ This session covers the tool and ToolShed requirements for using reference data 
   * Should **not be accessed directly** in a tool. The [Tool Data Tables](/admin/tools/data-tables/) abstraction layer should be used.
 
 * Example of typical use of reference data in a Galaxy tool
-  * search toolshed for bwa tool that uses reference data 
+  * search toolshed for bwa tool that uses reference data
     * http://toolshed.g2.bx.psu.edu/view/devteam/bwa_wrappers
       1. Click "Repository Actions" and select "Browse repository tip files"
       2. Find and click on "bwa_wrapper.xml" and note the section that uses indexed data:
@@ -142,7 +142,7 @@ cd /home/galaxy/Desktop/Data_Managers/galaxy/galaxy-central
  tail -f paster.log
 ```
 
-* Check that your galaxy instance is running.  In your VM web browser, visit http://localhost:8080. Register your admin email address if you haven't already done so and log in. 
+* Check that your galaxy instance is running.  In your VM web browser, visit http://localhost:8080. Register your admin email address if you haven't already done so and log in.
   * You can also use the preconfigured username: `admin@galaxyproject.org` password: `galaxy`
 * If you don't have an admin menu item on your tool bar, refresh your browser. If the issue persists: adjust universe_wsgi.ini by adding an admin_user email you will register with when you first log in - use commas ONLY - no spaces - to separate admin email addresses. Then restart galaxy.
   
@@ -151,17 +151,17 @@ $ grep admin_users universe_wsgi.ini
 admin_users = jj@msi.umn.edu
 ```
 
-* Install the BWA Galaxy tool 
-  1. From the Galaxy admin page: Click "Search and browse tool sheds" 
+* Install the BWA Galaxy tool
+  1. From the Galaxy admin page: Click "Search and browse tool sheds"
   2. Click "Galaxy main tool shed"
-  3. Searh for "bwa" 
+  3. Searh for "bwa"
   4. Select "bwa_wrappers" owned by **devteam**
   5. Click "Install to Galaxy"
   6. Click "Install"
 * In your terminal window:
   1. View shed_tool_conf.xml it should now contain a bwa_wrapper entry
   2. View shed_tool_data_table_conf.xml should have the bwa tool_data_table_conf.xml.sample table entries added.
-  3. There should be a tool-data/bwa_index.loc file (copied from "bwa_index.loc.sample" if not already created) 
+  3. There should be a tool-data/bwa_index.loc file (copied from "bwa_index.loc.sample" if not already created)
 * Upload some sample FASTQ datasets:
   1. http://www.bx.psu.edu/~dan/examples/gcc2014/data_manager_workshop/fastq/SRR507778-10k_1.fastqsanger
   2. http://www.bx.psu.edu/~dan/examples/gcc2014/data_manager_workshop/fastq/SRR507778-10k_2.fastqsanger
@@ -218,7 +218,7 @@ admin_users = jj@msi.umn.edu
 
 * How this operates within galaxy
   * https://wiki.galaxyproject.org/Admin/Tools/DataManagers/HowTo/Define
-  * configuration 
+  * configuration
     * universe_wsgi.ini
     * data_manager_conf.xml
     * shed_data_manager_conf.xml
@@ -248,25 +248,25 @@ galaxy_data_manager_data_path = tool-data
 * view in galaxy file system where the various elements land
   * shed_data_manager_conf.xml
   * shed_tool_data_table_conf.xml
-* from galaxy admin panel use data_manager_fetch_genome_all_fasta to install data    
+* from galaxy admin panel use data_manager_fetch_genome_all_fasta to install data
   1. Click on "Manage local data"
     **Run Data Manager Tools**
-      Reference Genome - fetching 
+      Reference Genome - fetching
     **View Data Manager Jobs**
-      Reference Genome - fetching 
+      Reference Genome - fetching
     **View Tool Data Table Entries**
       all_fasta
-  2. Click on  "all_fasta" under "View Tool Data Table Entries" 
+  2. Click on  "all_fasta" under "View Tool Data Table Entries"
     * You should see the current contents of tool-data/all_fasta.loc
   3. Click on "Reference Genome" under "Run Data Manager Tools"
     1. The **Reference Genome** tool form from data_manager_fetch_genome_all_fasta is displayed
     2. From the *DBKEY to assign to data:* list choose: **sacCer2**
     3. Click **Execute**
-  4. Under the "User" menu select "Saved Histories" 
+  4. Under the "User" menu select "Saved Histories"
     1. Select history: "Data Manager History (automatically created)"
     2. You should see your "Reference Genome" job in the history
   5. Go back to the Data Manager view by click on "Manage local data"
-    1. Click on  "all_fasta" under "View Tool Data Table Entries" 
+    1. Click on  "all_fasta" under "View Tool Data Table Entries"
     2. You should see sacCer2 added to all_fasta
 
 ## 16:30-17:10 Create a DataManager
@@ -311,7 +311,7 @@ The primary difference between a standard Galaxy Tool and a Data Manager Tool is
     * Needs requirements tag for bwa application
     * input params:
       * a select param with options from_data_table="all_fasta"
-      * a sequence_name text param   
+      * a sequence_name text param
       * a sequence_id text param  
     * outputs data param must be format
     * transcribe the xml manually
@@ -342,7 +342,7 @@ The primary difference between a standard Galaxy Tool and a Data Manager Tool is
 ```
 
 * run installer data_manager to build bwa indexes for sacCer2
-* did it work? 
+* did it work?
   * *why not?*
 * add the missing bwa dependency
   * see [Admin/Config/ToolDependencies](/admin/config/tool-dependencies/)
@@ -354,7 +354,7 @@ The primary difference between a standard Galaxy Tool and a Data Manager Tool is
 
 * review toolshed best practices
   * separate repository for required applications ( tool_dependencies.xml )
-  * separate repository for required custom datatypes ( repository_dependencies.xml )    
+  * separate repository for required custom datatypes ( repository_dependencies.xml )
 * Run your own ToolShed.
   * Add an administrator to tool_shed_wsgi.ini using the same process as before.
     * For your public username, use **devteam**.
@@ -367,13 +367,13 @@ The primary difference between a standard Galaxy Tool and a Data Manager Tool is
   * Export the 'package_bwa_0_5_9' package from http://toolshed.g2.bx.psu.edu.
     * This will create a 'capsule_toolshed.g2.bx.psu.edu_package_bwa_0_5_9_devteam_ec2595e4d313.tar.gz' file that can be imported into another ToolShed.
   * In your local ToolShed, import your freshly exported ToolShed capsule.
-* Prepare your Data Manager Toolshed Package. 
+* Prepare your Data Manager Toolshed Package.
   * There are several ways to populate ToolShed repositories. We will be using mercurial to add files. Uploading tarballs is also possible and a very common way to do this.
     1. Login in to the toolshed
     2. "Click Create new repository"
     3. Add Create Repository fields:
       * Name:  data_manager_bwa_index_builder
-      * Synopsis: Data Manager that builds BWA indexes 
+      * Synopsis: Data Manager that builds BWA indexes
       * Detailed description: Index a FASTA file using the Burrows-Wheeler algorithm and populate the bwa_index.loc file.
       * Categories:  "Data Managers"
     4. Click "Save"
@@ -428,12 +428,12 @@ SnpEff is a variant annotation and effect prediction tool. It annotates and pred
     * The SnpEff data manager populates multiple .loc files
     * The data_manager_snpEff_*databases*.xml populates data_table "snpeff_databases" which provides the options for data_manager_snpEff_*download*.xml
 * **Initial Challenges**
-  * SnpEff used a config file to specify the path to genome references, defaulted to user home directory 
+  * SnpEff used a config file to specify the path to genome references, defaulted to user home directory
     * Not compatible with galaxy structure for toolshed install and data manager operation
   * Need downloaded genome version for SnpEff tool tests
   * The available genome versions are dynamic, so the options shouldn't be hardcoded into a Galaxy Select Parameter
   * SnpEff galaxy tool has *extra* params that depend upon the reference data
-    * Every genome reference has file: snpEffectPredictor.bin 
+    * Every genome reference has file: snpEffectPredictor.bin
     * Some genome references may include regulation, motif, and nextProt annotations
 
 ```
@@ -453,7 +453,7 @@ regulation_CD4.bin      regulation_HMEC.bin     regulation_HepG2.bin    regulati
 ```
 
 * **Solutions**
-  * Discussed Galaxy requirements with application developer Pablo Cingolani who graciously added: 
+  * Discussed Galaxy requirements with application developer Pablo Cingolani who graciously added:
     * command line option "-dataDir path" to specify the path to genome reference data
     * download genome on demand functionality in SnpEff application, which allowed test cases to run without a preinstalled genome reference
   * Developed 3 options in the SnpEff tool for getting the genome reference data
@@ -645,7 +645,7 @@ $ cat snpeff_datatypes/datatypes_conf.xml
                     pass
 ```
 
-* SnpEff tool gets options for params: regulation and extra_annotations from the "snpeffdb" metadata: 
+* SnpEff tool gets options for params: regulation and extra_annotations from the "snpeffdb" metadata:
 
 ```xml
 <tool id="snpEff" name="SnpEff" version="3.6">

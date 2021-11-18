@@ -4,7 +4,7 @@
 
 <slot name="/community/galaxy-admins/linkbox" />
 
-The January 2013 [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-01-16/) was held Wednesday, January 16, 2013 at 10am US central time.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) covered "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."   
+The January 2013 [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-01-16/) was held Wednesday, January 16, 2013 at 10am US central time.  [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) covered "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan."
 
 [Greg Von Kuster](/people/greg-vonkuster/) also gave a Galaxy Project update.
 

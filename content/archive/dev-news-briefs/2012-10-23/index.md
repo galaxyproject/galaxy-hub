@@ -27,7 +27,7 @@ date: 2012-10-23
 <br />
 # Communications and Collaboration
 
-Administrators are always encouraged to install the latest release not only to incorporate new features, but to take advantage of the current set of security and bug fixes inherent in any project with a fast paced development cycle. This is even more strongly advised for those running public instances. The Galaxy team takes security very seriously and strives to quickly and clearly communicate when a security issue is identified. We have an amazing community that is instrumental in the discovery and resolution of problems when they are uncovered - and we want to thank them for their contributions and support. Galaxy is truly a team effort and transparency and information flow is our priority. 
+Administrators are always encouraged to install the latest release not only to incorporate new features, but to take advantage of the current set of security and bug fixes inherent in any project with a fast paced development cycle. This is even more strongly advised for those running public instances. The Galaxy team takes security very seriously and strives to quickly and clearly communicate when a security issue is identified. We have an amazing community that is instrumental in the discovery and resolution of problems when they are uncovered - and we want to thank them for their contributions and support. Galaxy is truly a team effort and transparency and information flow is our priority.
 
 We also intend to learn from recent actions in these areas that fell short of a best effort. The security corrections and priority of the changes to the `Compute` tool in the prior distribution lacked the details and urgency notice it deserved. The move from *Bitbucket* to *[Trello](/issues/)* for community collaboration in issue reporting also lacked the information and timely documentation that would have made the transition processes smoother. Both are covered in more detail in this News Brief. Our goals are to provide a remedy for the immediate issues and to create a successful communications and collaborations model for the future. We value your feedback - please let us know how we are doing as the new tools are put into practice.  
 
@@ -120,7 +120,7 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 1. Add *interpreter* and *absolute path logic* to **version tag**; thanks to [Björn Grüning](http://bitbucket.org/BjoernGruening).
 2. **Tool search**: remove **[Whoosh](http://packages.python.org/Whoosh/)** handling for **[Python version 2.4](http://www.python.org/)** and remove *minscore*.
 3. Performance enhancements for **Build custom track for UCSC** genome browser tool.
-4. Add **genomespace** tools to `tool_conf.xml.main`. 
+4. Add **genomespace** tools to `tool_conf.xml.main`.
   * Get Data -> [GenomeSpace](http://www.genomespace.org) import
   * Send Data -> [GenomeSpace](http://www.genomespace.org) export
   * **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [Main](/main/).
@@ -140,9 +140,9 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 
 ### Scatter Plot
 
-**What it does:** Given two numeric columns from a tabular dataset file, the scatter plot visualization function draws each datapoint onto a cartesian plane. 
+**What it does:** Given two numeric columns from a tabular dataset file, the scatter plot visualization function draws each datapoint onto a cartesian plane.
 
-Quick start to graphing data: 
+Quick start to graphing data:
 
 1. Click on the visualizations icon of a tabular dataset.
 
@@ -200,7 +200,7 @@ Detail view of center panel:
   * Do not use `backrefs` in mapping for `copied_from_library_dataset/history _dataset_association` as it confuses **[SQLAlchemy](http://www.sqlalchemy.org)** (resulted in 'is not available, due to conflicting property').
   * Correctly determine the inheritance and creating job for a dataset. Fixes issues with showing dataset info, rerun, viewing and reporting dataset errors.
   * Fix for managing user info (e.g changing email/password) that appeared in last distribution.
-  * Fix bug in stoping user jobs in the admin interface. 
+  * Fix bug in stoping user jobs in the admin interface.
   * Custom `BioStar` linkouts (not fully implemented) are now off by default.
   * Some fixes for handling unicode data in the UI.
   * Fix for dataset display.
@@ -222,7 +222,7 @@ Detail view of center panel:
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](/galaxy-team/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](/galaxy-team/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

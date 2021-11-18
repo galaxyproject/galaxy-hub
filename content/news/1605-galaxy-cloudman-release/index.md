@@ -8,7 +8,7 @@ date: "2016-05-25"
 
 This is a minor update release with the following changes:
 * Galaxy 16.04 update
-* Availability on Amazon's Ireland region 
+* Availability on Amazon's Ireland region
 * A couple of bug fixes
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.

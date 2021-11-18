@@ -116,7 +116,7 @@ Please let the GCC2015 Organising Committee ([gcc2015-org AT lists DOT galaxypro
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 <a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src="/images/logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2015)" height="80" /></a>
 <a href='/events/sdsu2014/'><img src="/images/logos/SDSULogo.jpg" alt="Galaxy Workshops @ San Diego State University" height="80" /></a> &nbsp;
 <a href='http://www.vibconferences.be/event/revolutionizing-next-generation-sequencing-tools-and-technologies'><img src="/images/logos/VIBLogoBig.jpg" alt="Revolutionizing Next-Generation Sequencing: Tools and Technologies" height="75" /></a> &nbsp;
@@ -202,7 +202,7 @@ There are [upcoming events](/events/) on two continents.  See the [Galaxy Events
 
 Except for a [meetup at GCC2014](/events/gcc2014/bofs/galaxy-admins/), the [GalaxyAdmins group](/community/galaxy-admins/) has been hiatus for a while.  Well, thanks to the efforts of [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) the GalaxyAdmins group *is back.*   Starting this month, we will resume our bi-monthly conference calls.  
 
-*Galaxy-Admins* is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
+*Galaxy-Admins* is a discussion group for Galaxy community members who are responsible for large Galaxy installations.
 
 In an effort to better serve the global community we will rotate the time of the call in different months to be convenient for different parts of the world.  To help us pick the best set of times for the calls, **please take a few minutes and fill out this [Doodle poll](http://doodle.com/dq3bexyuihs59h3c).**  It covers every hour in a 72 hour period.  *Please don't forget to select the timezone before you start filling it out.*
 
@@ -263,7 +263,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 * *Domain/Purpose:*
   * A full Galaxy server that includes reference information and workflows focusing on invertebrate vectors of human pathogens.
 * *Comments:*
-  * from [VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases](http://nar.oxfordjournals.org/content/early/2014/12/15/nar.gku1117.full), Gloria I. Giraldo-Calderón *et al.*, *Nucleic Acids Ressearch* (2014) doi: 10.1093/nar/gku1117: 
+  * from [VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases](http://nar.oxfordjournals.org/content/early/2014/12/15/nar.gku1117.full), Gloria I. Giraldo-Calderón *et al.*, *Nucleic Acids Ressearch* (2014) doi: 10.1093/nar/gku1117:
       "[VectorBase](http://vectorbase.org/) has also made available the latest relevant canonical data in this Galaxy instance. Examples of workflow analyses include alignment of Next Generation Sequence (NGS) data sets, calculation of expression values, or predicting single nucleotide polymorphisms (SNPs). Registered users can store their raw data, intermediate files and final analysis results for download or direct sharing via the BRC, which greatly improves the ability to collaborate with colleagues and VectorBase developers."
 * *User Support:*
   * [VectorBase Help Hub Page](https://www.vectorbase.org/navigation/help)
@@ -294,7 +294,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 Several new Training Resources were added in December:
 
 * UC Davis RNA-Seq and ChIP-Seq Analysis with Galaxy Workshop from the [UC Davis Bioinformatics Core](http://bioinformatics.ucdavis.edu/)
-* Running your own Galaxy instance (in the cloud from the [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/) 
+* Running your own Galaxy instance (in the cloud from the [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/)
 * Introduction to Galaxy from the [Center for Health Bioinformatics](http://compbio.sph.harvard.edu/chb/) at the [Harvard School of Public Health](http://www.hsph.harvard.edu/)
 
 # New Releases
@@ -311,7 +311,7 @@ New versions of [Galaxy](/galaxy-updates/2014-09/#august-11-2014-galaxy-distribu
 
 Here are new contributions for the past month.
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
@@ -319,7 +319,7 @@ In no particular order:
   * [rnabob](https://toolshed.g2.bx.psu.edu/view/rnateam/rnabob): Fast pattern searching for RNA structural motifs RNABOB is an implementation of D. Gautheret's RNAMOT, but with a different underlying algorithm using a nondeterministic finite state machine with node rewriting rules.
 
 * *From [schang](https://toolshed.g2.bx.psu.edu/view/schang):*
-  * [frp_tool](https://toolshed.g2.bx.psu.edu/view/schang/frp_tool): Scripts to create a fragment recruitment plot Python scripts using matlibplot to create scatter plots of metagenomic reads aligned against a reference genome. 
+  * [frp_tool](https://toolshed.g2.bx.psu.edu/view/schang/frp_tool): Scripts to create a fragment recruitment plot Python scripts using matlibplot to create scatter plots of metagenomic reads aligned against a reference genome.
 
 * *From [subazini](https://toolshed.g2.bx.psu.edu/view/subazini):*
   * [ngsaligners](https://toolshed.g2.bx.psu.edu/view/subazini/ngsaligners): NGS aligners Aligners for NGS sequence analysis
@@ -327,7 +327,7 @@ In no particular order:
 * *From [mrvollger](https://toolshed.g2.bx.psu.edu/view/mrvollger):*
   * [trtr](https://toolshed.g2.bx.psu.edu/view/mrvollger/trtr): Version 1.0. TRTR Trim Reads of Tandem Repeats. Recommended before calling SNPs. This tool removes tandem repeats from ends of unaligned sequencing reads (leaving one copy). This prevents reads that don't span the repeated region from overlapping, leading to innaccurate SNPs calls.
 
-     The maximum repeat length is adjustable (use 1 to trim only homopolymers). 
+     The maximum repeat length is adjustable (use 1 to trim only homopolymers).
 
      The "aggressive" option should not be touched in general. Setting to 0 will prevent the program from trimming to exactly 1 copy of the repeat, instead leaving between 1 and 2 copies.
 
@@ -351,7 +351,7 @@ In no particular order:
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [cuffquant](https://toolshed.g2.bx.psu.edu/view/devteam/cuffquant): Cuffquant is part of Cufflinks. Cuffquant allows precalculation of gene expression levels. Output can be used in cuffdiff and cuffnorm.
-  * [bwa](https://toolshed.g2.bx.psu.edu/view/devteam/bwa): Uploaded Wrapper for bwa mem. aln, sampe, and samse Al collection of Galaxy bwa wrapper based on version 0.7.10 (039ea206392ada2542bc41ff2581c53fa2fe2bf2). 
+  * [bwa](https://toolshed.g2.bx.psu.edu/view/devteam/bwa): Uploaded Wrapper for bwa mem. aln, sampe, and samse Al collection of Galaxy bwa wrapper based on version 0.7.10 (039ea206392ada2542bc41ff2581c53fa2fe2bf2).
   * [cuffnorm](https://toolshed.g2.bx.psu.edu/view/devteam/cuffnorm): Cuffnorm is part of Cufflinks. Cuffnorm is similar to cuffdiff, but does not perform differential expression testing. It provides normalized gene expression tables for use in downstream tools (R/matlab/...).
 
      Please cite: Trapnell C, Williams BA, Pertea G, Mortazavi AM, Kwan G, van Baren MJ, Salzberg SL, Wold B, Pachter L. Transcript assembly and abundance estimation from RNA-Seq reveals thousands of new transcripts and switching among isoforms. Nature Biotechnology doi:10.1038/nbt.1621
@@ -379,9 +379,9 @@ In no particular order:
 ### Packages / Tool Dependency Definitions
 
 * *From [wolma](https://toolshed.g2.bx.psu.edu/view/wolma):*
-  * [package_mimodd_0_1_5](https://toolshed.g2.bx.psu.edu/view/wolma/package_mimodd_0_1_5): dependency package for the MiModD suite of tools 
+  * [package_mimodd_0_1_5](https://toolshed.g2.bx.psu.edu/view/wolma/package_mimodd_0_1_5): dependency package for the MiModD suite of tools
   * [package_python3_zlib_dependent_1_0](https://toolshed.g2.bx.psu.edu/view/wolma/package_python3_zlib_dependent_1_0): a lean build of Python3.4.1 including the zlib module - based on package_python_3_4 by jankanis Several modules of the Python standard library depend on external libraries being installed. Of these modules, this package forces only the installation of the zlib module, so the zlib library version 1.2.8 is its only requirement.
-  * [package_zlib_1_2_8](https://toolshed.g2.bx.psu.edu/view/wolma/package_zlib_1_2_8): zlib library dependency definition 
+  * [package_zlib_1_2_8](https://toolshed.g2.bx.psu.edu/view/wolma/package_zlib_1_2_8): zlib library dependency definition
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
   * [package_cummerbund_2_8_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_cummerbund_2_8_2): Contains a tool dependency definition that downloads and installs version 2.8.2 of the cummeRbund R library. Allows for persistent storage, access, exploration, and manipulation of Cufflinks high-throughput sequencing data. In addition, provides numerous plotting functions for commonly used visualizations.

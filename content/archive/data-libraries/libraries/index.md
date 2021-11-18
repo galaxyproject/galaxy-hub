@@ -1,7 +1,7 @@
-1. 
-  1. page was renamed from Admin/Data Libraries/Libraries 
+1.
+  1. page was renamed from Admin/Data Libraries/Libraries
 
-2. format text/creole 
+2. format text/creole
 
 # Data Libraries
 
@@ -79,17 +79,17 @@ Like data libraries, actions can be performed on folders. The folder pop-up menu
 
 Here are the actions that we can perform on a folder:
 
-- **Add datasets** - the process for adding datasets to a folder is exactly the same as that described in the last section. In fact, when we uploaded the 2 datasets to the data library in the last section, we were actually uploading them to a folder since the top level of the data library is it's root folder. 
+- **Add datasets** - the process for adding datasets to a folder is exactly the same as that described in the last section. In fact, when we uploaded the 2 datasets to the data library in the last section, we were actually uploading them to a folder since the top level of the data library is it's root folder.
 
-- **Add sub-folder** - for the same reason, the process for adding sub-folders to a folder is exactly the same as that described in the last section. 
+- **Add sub-folder** - for the same reason, the process for adding sub-folders to a folder is exactly the same as that described in the last section.
 
-- **Edit information** - like the data library's pop-up menu described above, selecting this option allows you to edit the name and description of the folder. 
+- **Edit information** - like the data library's pop-up menu described above, selecting this option allows you to edit the name and description of the folder.
 
-- **Add template** - this allows you to add a template to the folder. See our [Data Library Templates page](/Admin/DataLibraries/LibraryTemplates) for details about using data library templates. 
+- **Add template** - this allows you to add a template to the folder. See our [Data Library Templates page](/Admin/DataLibraries/LibraryTemplates) for details about using data library templates.
 
-- **Edit permissions** - this allows you to associate roles with actions that can be performed on the folder from the Data Libraries perspective. See our [Data Library Security page](Admin%2FDataLibraries%2FLibrarySecurity) for details about managing data library permissions on folders. 
+- **Edit permissions** - this allows you to associate roles with actions that can be performed on the folder from the Data Libraries perspective. See our [Data Library Security page](Admin%2FDataLibraries%2FLibrarySecurity) for details about managing data library permissions on folders.
 
-- **Delete this folder** - we'll discuss this option in the following section. 
+- **Delete this folder** - we'll discuss this option in the following section.
 
 At this point we'll add 2 datasets (3.bed and 4.bed) to our new folder. Then we'll add a sub-folder to our folder and add 2 datasets (5.bed and 6.bed) to it. Our data library now looks like this.
 
@@ -117,19 +117,19 @@ Like data libraries and folders, actions can be performed on library datasets. T
 
 Here are the actions that we can perform on a dataset:
 
-- **Edit information** - a dataset has many attributes, so we'll discuss this option in detail next. 
+- **Edit information** - a dataset has many attributes, so we'll discuss this option in detail next.
 
-- **Add template** - this allows you to add a template to the dataset. See our [Data Library Templates page](/Admin/DataLibraries/LibraryTemplates) for details about using data library templates. 
+- **Add template** - this allows you to add a template to the dataset. See our [Data Library Templates page](/Admin/DataLibraries/LibraryTemplates) for details about using data library templates.
 
-- **Edit permissions** - this allows you to associate roles with actions (including accessing the dataset) that can be performed on the dataset from the Data Libraries perspective. See our [Data Library Security page](Admin%2FDataLibraries%2FLibrarySecurity) for details about managing permissions on datasets. 
+- **Edit permissions** - this allows you to associate roles with actions (including accessing the dataset) that can be performed on the dataset from the Data Libraries perspective. See our [Data Library Security page](Admin%2FDataLibraries%2FLibrarySecurity) for details about managing permissions on datasets.
 
-- **Upload a new version of this dataset** - data libraries allow for multiple versions of a dataset. We'll look into this shortly. 
+- **Upload a new version of this dataset** - data libraries allow for multiple versions of a dataset. We'll look into this shortly.
 
-- **Import this dataset into your current history** - this creates an item in your current history on which you can perform analysis. The item is a pointer to the library dataset disk file, so the file is not copied on disk. 
+- **Import this dataset into your current history** - this creates an item in your current history on which you can perform analysis. The item is a pointer to the library dataset disk file, so the file is not copied on disk.
 
-- **Download this dataset** - this allows you to download a local copy of the dataset. 
+- **Download this dataset** - this allows you to download a local copy of the dataset.
 
-- **Delete this dataset** - we'll look into this shortly. 
+- **Delete this dataset** - we'll look into this shortly.
 
 At this point we'll select the **Edit information** option, and we are presented with the following page.
 

@@ -11,7 +11,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 ## New Tools
 
 * *From [petr-novak](https://toolshed.g2.bx.psu.edu/view/petr-novak):*
-   * [re_utils](https://toolshed.g2.bx.psu.edu/view/petr-novak/re_utils):  Repeat Explorer utilities. 
+   * [re_utils](https://toolshed.g2.bx.psu.edu/view/petr-novak/re_utils):  Repeat Explorer utilities.
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
    * [tbprofiler](https://toolshed.g2.bx.psu.edu/view/iuc/tbprofiler):  Processes raw sequence data to infer strain type and identify known drug resistance markers. This repository contains a complete rewrite of the web version of TBProfiler, described here.  It allows the use of profiling through a command line interface and contains some additional  functionality such as the ability to process minION data.    The pipeline aligns reads to the H37Rv reference using bowtie2, BWA or minimap2  and then calls variants using SAMtools. These variants are then compared to a  drug-resistance database. We also predict the number of reads supporting drug  resistance variants as an insight into hetero-resistance (not applicable for minION data)    Full documentation at https://github.com/jodyphelan/TBProfiler.
    * [anndata_import](https://toolshed.g2.bx.psu.edu/view/iuc/anndata_import):  Wrapper for the anndata tool suite: Import AnnData. AnnData provides a scalable way of keeping track of data together with learned annotations. It is used within Scanpy, for which it was initially developed.
@@ -19,9 +19,9 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
    * [anndata_manipulate](https://toolshed.g2.bx.psu.edu/view/iuc/anndata_manipulate):  Wrapper for the anndata tool suite: Manipulate AnnData.
    * [anndata_inspect](https://toolshed.g2.bx.psu.edu/view/iuc/anndata_inspect):  Wrapper for the anndata tool suite: Inspect AnnData.
    * [transit_gumbel](https://toolshed.g2.bx.psu.edu/view/iuc/transit_gumbel):  Wrapper for the transit operation Gumbel. "TRANSIT is a tool for processing and statistical analysis of Tn-Seq data. It  provides three different analysis methods that allow the user to determine  essentiality in a single condition as well as between conditions.".
-   * [gff_to_prot](https://toolshed.g2.bx.psu.edu/view/iuc/gff_to_prot):  Wrapper for the transit operation Convert GFF3. 
-   * [transit_resampling](https://toolshed.g2.bx.psu.edu/view/iuc/transit_resampling):  Wrapper for the transit operation Resampling. 
-   * [transit_hmm](https://toolshed.g2.bx.psu.edu/view/iuc/transit_hmm):  Wrapper for the transit operation HMM. 
+   * [gff_to_prot](https://toolshed.g2.bx.psu.edu/view/iuc/gff_to_prot):  Wrapper for the transit operation Convert GFF3.
+   * [transit_resampling](https://toolshed.g2.bx.psu.edu/view/iuc/transit_resampling):  Wrapper for the transit operation Resampling.
+   * [transit_hmm](https://toolshed.g2.bx.psu.edu/view/iuc/transit_hmm):  Wrapper for the transit operation HMM.
    * [rdavidwebservice](https://toolshed.g2.bx.psu.edu/view/iuc/rdavidwebservice):  Run functional annotation using DAVID. Tools for retrieving data from the Database for Annotation, Visualization and Integrated Discovery (DAVID) using Web Services into R objects. This package offers the main functionalities of DAVID website including:   i) user-friendly connectivity to upload gene/background list/s, change gene/background position   ii) Reports of the submitted Gene List, Gene/Term Clusters, Functional Annotation Chart, Functional Annotation Table.
    * [phyml](https://toolshed.g2.bx.psu.edu/view/iuc/phyml):  PhyML is a phylogeny software based on the maximum-likelihood principle. PhyML is  a  software  package which  primary  task that  is  to estimate  maximum  likelihood phylogenies  from alignments of nucleotide or  amino-acid sequences.  It  provides a wide  range  of  options that  were  designed  to facilitate  standard  phylogenetic  analyses.
    * [barcode_splitter](https://toolshed.g2.bx.psu.edu/view/iuc/barcode_splitter):  A utility to split sequence files using multiple sets of barcodes. Split multiple FASTQ files by matching barcodes in one or more of the  sequence files. Barcodes in the tab-delimited barcodes.txt file are matched  against the beginning (or end) of the specified index read(s). By default,  barcodes must match exactly, but --mistmatches can be set higher if desired.
@@ -31,37 +31,37 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
    * [peptide_genomic_coordinate](https://toolshed.g2.bx.psu.edu/view/galaxyp/peptide_genomic_coordinate):  Gets genomic coordinate of peptides based on the information in mzsqlite and genomic mapping sqlite files. This program loads two sqlite databases (mzsqlite and genomic mapping sqlite files) and calculates the genomic coordinates of the peptides provided as input. This outputs bed file with genomic coordinate of peptides.    Input: Peptide list file, mzsqlite sqlite DB file, and genomic mapping sqlite DB file  Output: Tabular BED file with all the columns.
    * [rawtools](https://toolshed.g2.bx.psu.edu/view/galaxyp/rawtools):  Raw Tools. package designed to perform scan data parsing and quantification, and quality control analysis of Thermo Orbitrap raw mass spectrometer files.
    * [metaquantome_expand](https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_expand):  wrapper for metaQuantome: expand module. metaQuantome provides tools for analysis of metaprotemic (community proteomic) data, leveraging quantitative information (like precursor intensity values), functional annotation, and taxonomic annotation.
-   * [metaquantome_db](https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_db):  wrapper for metaQuantome: database module. 
-   * [metaquantome_viz](https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_viz):  wrapper for metaQuantome: visualize module. 
-   * [metaquantome_sample](https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_sample):  wrapper for metaQuantome: create samples file module. 
-   * [metaquantome_stat](https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_stat):  wrapper for metaQuantome: stat module. 
-   * [metaquantome_filter](https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_filter):  wrapper for metaQuantome: filter module. 
+   * [metaquantome_db](https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_db):  wrapper for metaQuantome: database module.
+   * [metaquantome_viz](https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_viz):  wrapper for metaQuantome: visualize module.
+   * [metaquantome_sample](https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_sample):  wrapper for metaQuantome: create samples file module.
+   * [metaquantome_stat](https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_stat):  wrapper for metaQuantome: stat module.
+   * [metaquantome_filter](https://toolshed.g2.bx.psu.edu/view/galaxyp/metaquantome_filter):  wrapper for metaQuantome: filter module.
 * *From [ebi-gxa](https://toolshed.g2.bx.psu.edu/view/ebi-gxa):*
    * [scanpy_parameter_iterator](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_parameter_iterator):  Wrapper for the scanpy-scripts tool suite: Scanpy ParameterIterator. Scanpy is a scalable toolkit for analyzing single-cell gene expression data.  It includes  preprocessing, visualization, clustering, pseudotime and trajectory inference and differential  expression testing. Scanpy-scripts provides a set of command-line wrapper scripts that are  composed from Scanpy API for easy execution of common analysis.
-   * [scanpy_normalise_data](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_normalise_data):  Wrapper for the scanpy-scripts tool suite: Scanpy NormaliseData. 
-   * [scanpy_run_pca](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_pca):  Wrapper for the scanpy-scripts tool suite: Scanpy RunPCA. 
-   * [scanpy_find_markers](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_markers):  Wrapper for the scanpy-scripts tool suite: Scanpy FindMarkers. 
-   * [scanpy_find_cluster](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_cluster):  Wrapper for the scanpy-scripts tool suite: Scanpy FindCluster. 
-   * [scanpy_scale_data](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_scale_data):  Wrapper for the scanpy-scripts tool suite: Scanpy ScaleData. 
-   * [scanpy_filter_genes](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_genes):  Wrapper for the scanpy-scripts tool suite: Scanpy FilterGenes. 
-   * [scanpy_run_umap](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_umap):  Wrapper for the scanpy-scripts tool suite: Scanpy RunUMAP. 
-   * [scanpy_run_tsne](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_tsne):  Wrapper for the scanpy-scripts tool suite: Scanpy RunTSNE. 
-   * [scanpy_compute_graph](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_compute_graph):  Wrapper for the scanpy-scripts tool suite: Scanpy ComputeGraph. 
-   * [scanpy_read_10x](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_read_10x):  Wrapper for the scanpy-scripts tool suite: Scanpy Read10x. 
-   * [scanpy_find_variable_genes](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_variable_genes):  Wrapper for the scanpy-scripts tool suite: Scanpy FindVariableGenes. 
+   * [scanpy_normalise_data](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_normalise_data):  Wrapper for the scanpy-scripts tool suite: Scanpy NormaliseData.
+   * [scanpy_run_pca](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_pca):  Wrapper for the scanpy-scripts tool suite: Scanpy RunPCA.
+   * [scanpy_find_markers](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_markers):  Wrapper for the scanpy-scripts tool suite: Scanpy FindMarkers.
+   * [scanpy_find_cluster](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_cluster):  Wrapper for the scanpy-scripts tool suite: Scanpy FindCluster.
+   * [scanpy_scale_data](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_scale_data):  Wrapper for the scanpy-scripts tool suite: Scanpy ScaleData.
+   * [scanpy_filter_genes](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_genes):  Wrapper for the scanpy-scripts tool suite: Scanpy FilterGenes.
+   * [scanpy_run_umap](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_umap):  Wrapper for the scanpy-scripts tool suite: Scanpy RunUMAP.
+   * [scanpy_run_tsne](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_run_tsne):  Wrapper for the scanpy-scripts tool suite: Scanpy RunTSNE.
+   * [scanpy_compute_graph](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_compute_graph):  Wrapper for the scanpy-scripts tool suite: Scanpy ComputeGraph.
+   * [scanpy_read_10x](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_read_10x):  Wrapper for the scanpy-scripts tool suite: Scanpy Read10x.
+   * [scanpy_find_variable_genes](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_find_variable_genes):  Wrapper for the scanpy-scripts tool suite: Scanpy FindVariableGenes.
    * [scanpy_filter_cells](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/scanpy_filter_cells):  Wrapper for the scanpy-scripts tool suite: Scanpy FilterCells.
    * [seurat_run_pca](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_run_pca):  Wrapper for the seurat tool suite: Seurat RunPCA. Seurat is an R package designed for QC, analysis, and exploration of single cell RNA-seq data. Seurat aims to enable users to identify and interpret sources of heterogeneity from single cell transcriptomic measurements, and to integrate diverse types of single cell data.
-   * [seurat_filter_cells](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_filter_cells):  Wrapper for the seurat tool suite: Seurat FilterCells. 
-   * [seurat_export_cellbrowser](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_export_cellbrowser):  Wrapper for the seurat tool suite: Seurat Export2CellBrowser. 
-   * [seurat_find_clusters](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_clusters):  Wrapper for the seurat tool suite: Seurat FindClusters. 
-   * [seurat_find_markers](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_markers):  Wrapper for the seurat tool suite: Seurat FindMarkers. 
-   * [seurat_find_variable_genes](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_variable_genes):  Wrapper for the seurat tool suite: Seurat FindVariableGenes. 
-   * [seurat_read10x](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_read10x):  Wrapper for the seurat tool suite: Seurat Read10x. 
-   * [seurat_scale_data](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_scale_data):  Wrapper for the seurat tool suite: Seurat ScaleData. 
-   * [seurat_run_tsne](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_run_tsne):  Wrapper for the seurat tool suite: Seurat RunTSNE. 
-   * [seurat_create_seurat_object](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_create_seurat_object):  Wrapper for the seurat tool suite: Seurat CreateSeuratObject. 
-   * [seurat_dim_plot](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_dim_plot):  Wrapper for the seurat tool suite: Seurat Plot dimension reduction. 
-   * [seurat_normalise_data](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_normalise_data):  Wrapper for the seurat tool suite: Seurat NormaliseData. 
+   * [seurat_filter_cells](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_filter_cells):  Wrapper for the seurat tool suite: Seurat FilterCells.
+   * [seurat_export_cellbrowser](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_export_cellbrowser):  Wrapper for the seurat tool suite: Seurat Export2CellBrowser.
+   * [seurat_find_clusters](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_clusters):  Wrapper for the seurat tool suite: Seurat FindClusters.
+   * [seurat_find_markers](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_markers):  Wrapper for the seurat tool suite: Seurat FindMarkers.
+   * [seurat_find_variable_genes](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_find_variable_genes):  Wrapper for the seurat tool suite: Seurat FindVariableGenes.
+   * [seurat_read10x](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_read10x):  Wrapper for the seurat tool suite: Seurat Read10x.
+   * [seurat_scale_data](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_scale_data):  Wrapper for the seurat tool suite: Seurat ScaleData.
+   * [seurat_run_tsne](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_run_tsne):  Wrapper for the seurat tool suite: Seurat RunTSNE.
+   * [seurat_create_seurat_object](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_create_seurat_object):  Wrapper for the seurat tool suite: Seurat CreateSeuratObject.
+   * [seurat_dim_plot](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_dim_plot):  Wrapper for the seurat tool suite: Seurat Plot dimension reduction.
+   * [seurat_normalise_data](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/seurat_normalise_data):  Wrapper for the seurat tool suite: Seurat NormaliseData.
    * [sc3_estimate_k](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/sc3_estimate_k):  Wrapper for the SC3 tool suite: SC3 Estimate. SC3 is a tool for unsupervised clustering and analysis of single cell RNA-Seq data.
    * [sc3_kmeans](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/sc3_kmeans):  Wrapper for the SC3 tool suite: SC3 K-Means.
    * [sc3_calc_consens](https://toolshed.g2.bx.psu.edu/view/ebi-gxa/sc3_calc_consens):  Wrapper for the SC3 tool suite: SC3 Calculate Consensus.
@@ -95,12 +95,12 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening):*
    * [autodock_vina_prepare_box](https://toolshed.g2.bx.psu.edu/view/bgruening/autodock_vina_prepare_box):  Calculate the box parameters for an AutoDock Vina job. Calculate the box parameters for an AutoDock Vina job from an input mol file (confounding box)  Home page: http://vina.scripps.edu/  License: Apache 2.0.
    * [pg_dump](https://toolshed.g2.bx.psu.edu/view/bgruening/pg_dump):  Postgresql toolbox: Dump. The postgresql tools, are using a postgresql database in user-space.  Databases are packed into a tarball and stored in the user-history.    These tools are based on https://github.com/solidsnack/pglite to interact with postgresql in user-space.
-   * [pg_import](https://toolshed.g2.bx.psu.edu/view/bgruening/pg_import):  Postgresql toolbox: Postgresql. 
-   * [pg_query](https://toolshed.g2.bx.psu.edu/view/bgruening/pg_query):  Postgresql toolbox: Query. 
+   * [pg_import](https://toolshed.g2.bx.psu.edu/view/bgruening/pg_import):  Postgresql toolbox: Postgresql.
+   * [pg_query](https://toolshed.g2.bx.psu.edu/view/bgruening/pg_query):  Postgresql toolbox: Query.
    * [ctb_rdkit_descriptors](https://toolshed.g2.bx.psu.edu/view/bgruening/ctb_rdkit_descriptors):  Descriptors tool from RDKit. RDKit is a collection of cheminformatics and machine-learning software.    Home page: https://github.com/rdkit/rdkit  License: BSD.
    * [prepare_ligands_for_docking](https://toolshed.g2.bx.psu.edu/view/bgruening/prepare_ligands_for_docking):  Prepare ligands for docking tool from Open Babel chemical toolbox. Open Babel is a chemical toolbox designed to speak the many languages of chemical data. It's an open, collaborative project allowing anyone to search, convert, analyze, or store data from molecular modeling, chemistry, solid-state materials, biochemistry, or related areas.    Home page: https://github.com/openbabel/openbabel  License: GPL Version 2.
    * [sklearn_estimator_attributes](https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_estimator_attributes):  Wrapper for scikit learn tool: Estimator attributes. Scikit-learn is an open source machine learning library written in python.  It provides different flavors of machine learning algorithms for classification,  regression, and clustering. It has designed to interoperate with python numerical  and scientific libraries Numpy and Scipy.    The official repository of Scikit-learn is at https://github.com/scikit-learn/scikit-learn.
-   * [sklearn_stacking_ensemble_models](https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_stacking_ensemble_models):  Wrapper for scikit learn tool: Stacking Ensemble Models. 
+   * [sklearn_stacking_ensemble_models](https://toolshed.g2.bx.psu.edu/view/bgruening/sklearn_stacking_ensemble_models):  Wrapper for scikit learn tool: Stacking Ensemble Models.
    * [pandas_rolling_window](https://toolshed.g2.bx.psu.edu/view/bgruening/pandas_rolling_window):  Rolling window calculations. Rolling window calculations using the python pandas library.
    * [get_online_data](https://toolshed.g2.bx.psu.edu/view/bgruening/get_online_data):  Access data from online sources. Contains tools to access data online    * get_online_data downloads and extracts data from compressed files    * get_pdb downloads protein structures from the PDB database.
    * [get_pubchem](https://toolshed.g2.bx.psu.edu/view/bgruening/get_pubchem):  Access data from the PubChem database. Access data from the PubChem database    * get_pubchem_as_smiles downloads all compounds and converts them to the SMILES format    * get_pubchem_assays downloads PubChem assays and concatenates them.
@@ -116,8 +116,8 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 * *From [jfb](https://toolshed.g2.bx.psu.edu/view/jfb):*
    * [kinatest_scoring_function](https://toolshed.g2.bx.psu.edu/view/jfb/kinatest_scoring_function):  Scores peptides for their ability to be phosphorylated by a kinase of interest. This is intended to be used as part of the Kinatest Fisher Test work flow.
 * *From [kpbioteam](https://toolshed.g2.bx.psu.edu/view/kpbioteam):*
-   * [clusterprofiler_bitr](https://toolshed.g2.bx.psu.edu/view/kpbioteam/clusterprofiler_bitr):  Biological Id TRanslator. 
-   * [clusterprofiler_go](https://toolshed.g2.bx.psu.edu/view/kpbioteam/clusterprofiler_go):  This tool provide GO Enrichment Analysis of a gene set. Given a set of genes, this will return the enrichment GO categories after FDR control. 
+   * [clusterprofiler_bitr](https://toolshed.g2.bx.psu.edu/view/kpbioteam/clusterprofiler_bitr):  Biological Id TRanslator.
+   * [clusterprofiler_go](https://toolshed.g2.bx.psu.edu/view/kpbioteam/clusterprofiler_go):  This tool provide GO Enrichment Analysis of a gene set. Given a set of genes, this will return the enrichment GO categories after FDR control.
    * [chipeakanno_annopeaks](https://toolshed.g2.bx.psu.edu/view/kpbioteam/chipeakanno_annopeaks):  This tool annotate peaks from bed file. bindingType
      * Specifying the criteria to associate peaks with annotation. Here is how to use it together with the parameter bindingRegion
      * To obtain peaks within 5kb upstream and up to 3kb downstream of TSS within the gene body, set bindingType = "startSite" and bindingRegion = c(-5000, 3000)
@@ -142,7 +142,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 * *From [ntino](https://toolshed.g2.bx.psu.edu/view/ntino):*
    * [galaxy_to_biocompute_object](https://toolshed.g2.bx.psu.edu/view/ntino/galaxy_to_biocompute_object):  Galaxy workflow to Biological Compute Object. Galaxy workflow to Biological Compute Object.
 * *From [mpaya](https://toolshed.g2.bx.psu.edu/view/mpaya):*
-   * [epic2](https://toolshed.g2.bx.psu.edu/view/mpaya/epic2): Upload epic2. Peak calling of broad ChIP-Seq marks. 
+   * [epic2](https://toolshed.g2.bx.psu.edu/view/mpaya/epic2): Upload epic2. Peak calling of broad ChIP-Seq marks.
 * *From [leomrtns](https://toolshed.g2.bx.psu.edu/view/leomrtns):*
    * [nanostat](https://toolshed.g2.bx.psu.edu/view/leomrtns/nanostat): initial upload. Calculate various statistics from a long read sequencing dataset in fastq, bam or albacore sequencing summary format. Create statistic summary of an Oxford Nanopore read dataset.
    * [nanofilt](https://toolshed.g2.bx.psu.edu/view/leomrtns/nanofilt):  Filtering and trimming of long read sequencing data. Filtering on quality and/or read length, and optional trimming after passing filters.
@@ -159,7 +159,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 * *From [jamueller](https://toolshed.g2.bx.psu.edu/view/jamueller):*
   * [codon_analysis](https://toolshed.g2.bx.psu.edu/view/jamueller/codon_analysis):  GeCoS calculates the codon composition in a DNA sequence.
     * What it does
-      * GeCos is a tool that calculates the codon composition of any given DNA sequence. 
+      * GeCos is a tool that calculates the codon composition of any given DNA sequence.
     * Input
       * If more than one sequence is analyzed at a time, a cutoff value can be used to filter the output. Only the sequences with a higher total score than the cutoff value will be displayed in the output.
       * The DNA sequence(s), that are supposed to be analyzed with GeCoS need to be formatted as fasta.
@@ -168,7 +168,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
         * Total Score = sum of codon occurences / sequence length * number of analyzed codons
         * The output is sorted from low to high (Total Score: 0 to 1).
     * Example:
-      ``` 
+      ```
        [['Gene_ID' 'Total Score' 'AGG' 'AGC' 'CCC' 'TGC' 'GCG']
        ['CCE57562' 0.0190476 1 3 1 2 1]
        ['CCQ29559' 0.0190476 0 1 2 2 1]

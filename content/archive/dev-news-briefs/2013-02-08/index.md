@@ -133,7 +133,7 @@ All repositories dependencies and tool dependencies that are defined for each re
 <br />
 # Tools
 
-1. Enable [BedGraph](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph) format datasets to be used as input to `wig-to-bigwig` tool. 
+1. Enable [BedGraph](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph) format datasets to be used as input to `wig-to-bigwig` tool.
   * Renamed tool as: `Wig/Bedgraph-to-bigwig`.
 2. #2 Add parameter to `Filter` tool to optionally skip header lines. Add test for new parameter usage as well.
 
@@ -177,7 +177,7 @@ All repositories dependencies and tool dependencies that are defined for each re
 <br />
 # Framework
 
-1. Unified system genome builds, custom builds, build len files, and build two bit files into a single python structure. 
+1. Unified system genome builds, custom builds, build len files, and build two bit files into a single python structure.
 2. Add function to get genome builds with or without build length information.
 3. Fix bugs so that the full build set (system + custom) is available via the API and when adding datasets to libraries.
 
@@ -251,7 +251,7 @@ If you might attend the [GCC2013 Training Day](/events/gcc2013/training-day/) th
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

@@ -50,11 +50,11 @@ Published: 18 October 2017
 
 **110 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in October.
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 56 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 17 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 16 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 16 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | 
-| 15 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 10 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 9 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 9 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | 
-| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 4 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 4 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | 
+| 56 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 17 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 16 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 16 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) |
+| 15 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 10 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 9 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 9 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) |
+| 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 4 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 4 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) |
 | 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | | | | | | | |
 
 We also added tags to papers that reference, use, or implement a Galaxy Public Server.  [See below](#public-servers-in-octobers-publications) for this list.
@@ -75,10 +75,10 @@ The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held 
 
 [GMOD](https://gmod.org/) (of which Galaxy is a part) has a bunch of things going on at PAG that are of interest to the Galaxy Community:
 
-* [Meg Staton](http://gst.tennessee.edu/people/meg-staton/) will [speak about](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28295) the Tripal-Galaxy bridge 
+* [Meg Staton](http://gst.tennessee.edu/people/meg-staton/) will [speak about](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28295) the Tripal-Galaxy bridge
 * There will be a [GMOD workshop](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806) on the last day of PAG.
 * The [Tripal Project](https://tripal.info) will have a user meeting on January 11, and a hackathon on January 12. [Register here](https://docs.google.com/document/d/1klQwUqaT_KxPKIfGYy_3rtGnOMVhJxEoD9dZ4PGc4yg/edit).
-* GMOD will have a project-wide hackathon on January 11-12. 
+* GMOD will have a project-wide hackathon on January 11-12.
 
 If you are interested in supporting better integration of Galaxy with other GMOD components then please give the two hackathons a look.
 
@@ -220,12 +220,12 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 As part of the move to Zotero, we have started tagging papers that use, mention, implement or extend public Galaxy Servers with the server name.  Here are the counts for October's papers.
 
-| # | Server | | # | Server | | # | Server | | # | Server | 
+| # | Server | | # | Server | | # | Server | | # | Server |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 10 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/tags/>VirAmp) | | 2 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | 
-| 2 | [>WUR](https://www.zotero.org/groups/1732893/galaxy/tags/>WUR) | | 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | | 1 | [>Whale Shark](https://www.zotero.org/groups/1732893/galaxy/tags/>Whale Shark) | | 1 | [>Jetstream](https://www.zotero.org/groups/1732893/galaxy/tags/>Jetstream) | 
-| 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>BF2I-MAP](https://www.zotero.org/groups/1732893/galaxy/tags/>BF2I-MAP) | | 1 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/tags/>APOSTL) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/tags/>GIO) | 
-| 1 | [>BioCiphers](https://www.zotero.org/groups/1732893/galaxy/tags/>BioCiphers) | | 1 | [>DeepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>DeepTools) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | 
+| 10 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/tags/>VirAmp) | | 2 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) |
+| 2 | [>WUR](https://www.zotero.org/groups/1732893/galaxy/tags/>WUR) | | 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | | 1 | [>Whale Shark](https://www.zotero.org/groups/1732893/galaxy/tags/>Whale Shark) | | 1 | [>Jetstream](https://www.zotero.org/groups/1732893/galaxy/tags/>Jetstream) |
+| 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>BF2I-MAP](https://www.zotero.org/groups/1732893/galaxy/tags/>BF2I-MAP) | | 1 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/tags/>APOSTL) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/tags/>GIO) |
+| 1 | [>BioCiphers](https://www.zotero.org/groups/1732893/galaxy/tags/>BioCiphers) | | 1 | [>DeepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>DeepTools) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) |
 | 1 | [>Oqtans](https://www.zotero.org/groups/1732893/galaxy/tags/>Oqtans) | | 1 | [>BioMaS](https://www.zotero.org/groups/1732893/galaxy/tags/>BioMaS) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/tags/>ABiMS) | | | | |
 
 ## Citation sections added to Public servers directory
@@ -356,8 +356,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 
 And
 
-* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/people/john-chilton/): 
+* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
+* From [John Chilton](/people/john-chilton/):
   * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 ## And the rest ...

@@ -9,7 +9,7 @@ This page describes the **Galaxy UK Community (GCUK)** [Birds of a Feather](/eve
 
 When:: Wednesday, 8th July. 18:00 (6pm)
 
-Where:: Watson Room, JICCC 
+Where:: Watson Room, JICCC
 
 Contact:: Christian-dot-Schudoma-at-TSL-dot-ac-dot-uk
 
@@ -43,7 +43,7 @@ If you are interested, please add your name below and/or send an email to [Chris
 
 ## Discussion
 
-* What do people want GCUK to do? 
+* What do people want GCUK to do?
   * Support
     * Get quicker answers, or just get answers.  
   * help locate complementary trainers.
@@ -74,5 +74,5 @@ If you are interested, please add your name below and/or send an email to [Chris
 
 ## Call for Participation
 
-If you are interested in becoming active in GCUK then please send an email to 
+If you are interested in becoming active in GCUK then please send an email to
 [Christian Schudoma TSL](mailto:christian.schudoma AT tsl DOT ac DOT uk).

@@ -38,7 +38,7 @@ Galaxy had a strong presence at [ECCB'14](/events/eccb2014/).  Galaxy was featur
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/sg2014/'><img src="/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
 <a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'><img src="/images/logos/DTLLogo150.png" alt="iReport - A tool to create flexible, scalable Galaxy tool interface, presented at the DTL Programmers Meeting" height="90" /></a>
@@ -46,7 +46,7 @@ Galaxy had a strong presence at [ECCB'14](/events/eccb2014/).  Galaxy was featur
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'><img src="/images/logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are [upcoming events](/events/) in Switzerland, Germany, Australia, Norway, France, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -141,7 +141,7 @@ The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) of publications reach
 
 * [Executing SADI services in Galaxy](http://bit.ly/1CB7snv), by Aranguren, *et al.* *Journal of Biomedical Semantics*, Vol. 5, No. 1. (2014), 42, doi:10.1186/2041-1480-5-42
 
-* [A Survey of Cloud-Based Service Computing Solutions for Mammalian Genomics](http://bit.ly/1vpSz3i), by Church & Goscinski, *IEEE Transactions on Services Computing,* DOI: 10.1109/TSC.2014.2353645 
+* [A Survey of Cloud-Based Service Computing Solutions for Mammalian Genomics](http://bit.ly/1vpSz3i), by Church & Goscinski, *IEEE Transactions on Services Computing,* DOI: 10.1109/TSC.2014.2353645
 
 * [An automated infrastructure to support high-throughput bioinformatics](http://bit.ly/1ryfGJB), by Cuccuru, *et al.* High Performance Computing &amp; Simulation (HPCS), 2014 International Conference on (July 2014), pp. 600-607, doi:10.1109/hpcsim.2014.6903742
 
@@ -215,10 +215,10 @@ The new papers were tagged in many different areas:
 The Galaxy is expanding! Please help it grow.
 
 * [CDD Ingénieur NGS](http://bit.ly/YGIDHy) - Institut Curie, Paris, France  
-* [Emploi CDD Ingénieur Bioinformatique - ChIP-seq](http://bit.ly/1paQDYu), Marseille, France 
-* [Research Specialist](http://bit.ly/1vbagWb), Michigan State University, United States 
+* [Emploi CDD Ingénieur Bioinformatique - ChIP-seq](http://bit.ly/1paQDYu), Marseille, France
+* [Research Specialist](http://bit.ly/1vbagWb), Michigan State University, United States
 * [Bioinformatics and Computational Biology](http://bit.ly/1uysJJH), [US Army Engineer Research and Development Center’s Environmental Laboratory](http://el.erdc.usace.army.mil/index.cfm), Vicksburg, MS, United States
-* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
+* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
@@ -290,7 +290,7 @@ Look for a new Galaxy distribution in October.
 
 Here are new contributions for the past *two* months.
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
@@ -302,7 +302,7 @@ In no particular order:
 
 * *From [mcharles](https://toolshed.g2.bx.psu.edu/view/mcharles/)*
   * [rapsodyn](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsodyn): tools and workflow used for the [Rapsodyn Project](http://www.rapsodyn.fr/)
-  * [rapsosnp](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsosnp): workflow to detect and select SNP for the rapsodyn project    
+  * [rapsosnp](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsosnp): workflow to detect and select SNP for the rapsodyn project
 
 * *From [ayllon](https://toolshed.g2.bx.psu.edu/view/ayllon/)*
   * [tcoffee](https://toolshed.g2.bx.psu.edu/view/ayllon/tcoffee): T-Coffee multiple alignment suite.
@@ -321,7 +321,7 @@ In no particular order:
   * [sirna_plant](https://toolshed.g2.bx.psu.edu/view/big-tiandm/sirna_plant): plant siRNA analysis toolkits. siRNA prediction, siRNA annotation, siRNA quantify
 
 * *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/)*
-  * [dc_genotyper](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/dc_genotyper): genotyper aimed at finding SNPs in high-ploidy (or pooled) samples sequenced at very high depth in a targeted region. 
+  * [dc_genotyper](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/dc_genotyper): genotyper aimed at finding SNPs in high-ploidy (or pooled) samples sequenced at very high depth in a targeted region.
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp/)*
   * [fasta_merge_files_and_filter_unique_sequences](https://toolshed.g2.bx.psu.edu/view/galaxyp/fasta_merge_files_and_filter_unique_sequences): Merge FASTA files, keeping only unique sequences
@@ -334,7 +334,7 @@ In no particular order:
 ### Suites
 
 * *From [biomonika](https://toolshed.g2.bx.psu.edu/view/biomonika/)*
-  * [suite_linkyx_bundle_main_0_1](https://toolshed.g2.bx.psu.edu/view/biomonika/suite_linkyx_bundle_main_0_1): 
+  * [suite_linkyx_bundle_main_0_1](https://toolshed.g2.bx.psu.edu/view/biomonika/suite_linkyx_bundle_main_0_1):
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/)*
   * [suite_vcflib_tools_3_0](https://toolshed.g2.bx.psu.edu/view/anton/suite_vcflib_tools_3_0): 23 tools for manipulation of VCF datasets
@@ -363,7 +363,7 @@ In no particular order:
   * [package_idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_idpqonvert):
   * [package_ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_ltq_iquant_cli):
   * [package_mgf_formatter](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_mgf_formatter):
-  * [package_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_tagrecon): 
+  * [package_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_tagrecon):
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/)*
   * [package_vcflib_8a5602bf07](https://toolshed.g2.bx.psu.edu/view/anton/package_vcflib_8a5602bf07): Compiled vcflib binaries for x86_64
@@ -385,7 +385,7 @@ In no particular order:
 # Other News
 
 * [Why the three biggest positive contributions to reproducible research are the iPython Notebook, knitr, and Galaxy](http://bit.ly/1rqHVJW) on the [Simply Statistics blog](http://simplystatistics.org/)
-* Updated [wiki page about dynamically discovering output datasets at runtime](/admin/tools/multiple-output-files/#number-of-output-datasets-cannot-be-determined-until-tool-run). 
+* Updated [wiki page about dynamically discovering output datasets at runtime](/admin/tools/multiple-output-files/#number-of-output-datasets-cannot-be-determined-until-tool-run).
 * The [Ansible playbook used to update usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook) is available in GitHub.
 * New [GVL Galaxy Release](https://genome.edu.au/wiki/GVL): Metagenomics Tutorial tools, MACS2, BLAST, MEME, hg38, rn6, and Trinity.
 * Galaxy Community UK launches a Twitter channel: [@GalaxyUKFriends](https://twitter.com/GalaxyUKFriends)

@@ -12,27 +12,27 @@ Here are the highlights of the following upgrade:
 
 ## What's New
 
-### Galaxy's FTP Server New Data Upload Option 
+### Galaxy's FTP Server New Data Upload Option
 
 * User how-to: [UploadViaFTP](/admin/config/upload-via-ftp/)
 * Configuration instructions for local installs: [wiki/Config/UploadViaFTP](http://bitbucket.org/galaxy/galaxy-central/wiki/Config/UploadViaFTP)
 
-### OpenID Login 
+### OpenID Login
 
 * User how-to and config instructions: [wiki/OpenIDAuthentication](http://bitbucket.org/galaxy/galaxy-central/wiki/OpenIDAuthentication)
 
-### NGS Simulation Tool 
+### NGS Simulation Tool
 
-* Allows user to simulate multiple Illumina runs with several parameters that can be set. 
-  * On each run, one position is randomly chosen to be polymorphic and sequencing errors are also simulated. 
-  * The primary output is a png with two different plots. 
-  * The other output shows summary statistics about the simulation. 
+* Allows user to simulate multiple Illumina runs with several parameters that can be set.
+  * On each run, one position is randomly chosen to be polymorphic and sequencing errors are also simulated.
+  * The primary output is a png with two different plots.
+  * The other output shows summary statistics about the simulation.
 * NGS simulation tool location: tools/ngs_simulation/ngs_simulation.xml
 
-### Tophat and Cufflinks RNA-seq Tools 
+### Tophat and Cufflinks RNA-seq Tools
 
-* Addition of RNA-seq analysis tools **Tophat** and **Cufflinks**. 
-  * Together, these tools can be used to analyze RNA-seq data to understand alternative splicing and isoforms, gene and isoform expression, and perform statistical tests for differential expression. 
+* Addition of RNA-seq analysis tools **Tophat** and **Cufflinks**.
+  * Together, these tools can be used to analyze RNA-seq data to understand alternative splicing and isoforms, gene and isoform expression, and perform statistical tests for differential expression.
   * Galaxy supports Tophat version 1.1.1 and later and Cufflinks version 0.9.1 and later. (These are the versions included this distribution).
 
 ### Import or Export Workflows & Histories  
@@ -44,9 +44,9 @@ Here are the highlights of the following upgrade:
   * tags are not currently imported
   * reproducibility is limited as parameters for imported jobs are not always recovered and set
 
-### Even Better Data Visualization with Trackster 
+### Even Better Data Visualization with Trackster
 
-* **Trackster** now supports interactive filtering for **VCF** quality values and BED score values. 
+* **Trackster** now supports interactive filtering for **VCF** quality values and BED score values.
 * For example, a user can drag a slider to filter a file of splice junctions to view junctions supported by different numbers of reads.
 
 ![trackster splice example](/archive/dev-news-briefs/2010-11-24/2010_11_24_trackster_splice_b.png)
@@ -55,7 +55,7 @@ Here are the highlights of the following upgrade:
 deletions, skipped bases, and clipping. Padding for insertions are
 currently not represented in the display.
 * GFF feature blocks are now displayed correctly, along with name, strand, and score information.
-* General enhancements 
+* General enhancements
   * Removed right-hand pane, allow inline re-ordering and configuration of elements
   * Moved navigational controls to the top
   * Histogram display for LineTracks and overview
@@ -70,14 +70,14 @@ currently not represented in the display.
   * To prevent browser lockup, only display up to 50 lines of features by default (user-editable in future). Coming soon: add warning message when this occurs.
   * Fix LineTrack rendering bug when more than one tile on screen.
 
-### Native Data set Re-organization 
+### Native Data set Re-organization
 
 * Galaxy now uses a set of data tables instead of simple loc files to organize, document, and store native genome data sets.
 * Why Data tables? Better data management for long term stability!
   * Allows the information in the loc file, including the path, to be changed.
   * By using a unique ID as the parameter value, data links in existing workflows are preserved.
 * Most tools (PerM, Bowtie, BWA, Lastz, Megablast, SRMA, Tophat) that previously used loc files now have the new data tables organization implemented.
-* Better data tracking has allowed for more informative genome name display in tool dropdown boxes. 
+* Better data tracking has allowed for more informative genome name display in tool dropdown boxes.
 * For local installations:
   * See the new wiki describing how to use data tables: [wiki/DataTables](/admin/tools/Data Tables/)
   * More help for NGS tool setup (update pending): [wiki/NGSLocalSetup](/admin/NGS Local Setup/)
@@ -86,25 +86,25 @@ currently not represented in the display.
 
 ## Updated & Improved
 
-### Sample Tracking 
+### Sample Tracking
 
 * Complete re-write of the **Framework** and **User interface** (database schema unchanged).  
 * New interactive interface to select files to transfer from the sequencer to Galaxy data libraries.
 * The data transfer feature now uses Galaxy RESTful API.
 * Full documentation detailing the new functionality and how to use it will be available within a few weeks through the home [Galaxy Wiki](http://bitbucket.org/galaxy/galaxy-central/wiki/Home).
 
-### Instantiating Galaxy 
+### Instantiating Galaxy
 
 * New checkouts will now perform all necessary setup directly in run.sh, there is no longer a need to run setup.sh prior to run.sh. (setup.sh will be removed in a future distribution).
 
-### Analysis Tools 
+### Analysis Tools
 
 * Enable **'FASTX-Toolkit for FASTQ data**' as a subsection under 'NGS: QC and manipulation' in tool_conf.xml.sample/main. Includes special handling for when the shell only allows for strict Bourne syntax.
 * Add descriptive labels to output dataset names for **MACS** peakcalling tool.
 * **Taxonomy** tools updated for better error reporting. Includes special handling for when the shell only allows for strict Bourne syntax.
 * Refactor sam_bitwise_flag_filter tool, simplifying it and making it faster when there are multiple flag criteria
 
-### Tool Dependency Enhancements 
+### Tool Dependency Enhancements
 
 * Addition of the 'package' type to <requirement> tags in the tool config. 1 Syntax for tool configs is:
 
@@ -129,29 +129,29 @@ off, Galaxy will look for the following instead:
 ```
 
 
-### Data Libraries 
+### Data Libraries
 
 * UI: new style for dropdown menus.
 * Now uses jStore to save folder expansion state.
 * Pre-generate and cache variables so that expensive functions like jQuery.siblings, jQuery.filter and jQuery.find only have to be called a minimum amount of times. Provides significant speedup to loading of large data libraries.
 
-### Genome Indexes 
+### Genome Indexes
 
 * Add basic support for **Bowtie** indexes as a datatype (bowtie_base_index, bowtie_color_index), available via datatype conversion. Currently, the indexes need to be converted manually from the FASTA file before use in Bowtie, but they can be reused.
 * A new sample loc file (tool-data/all_fasta.loc.sample) was added which lists fasta files. A script (scripts/loc_files/create_all_fasta_loc.py) was created that can be used to generate this loc file for local installations.
 
-### Data Formats 
+### Data Formats
 
 * New **gff2bed** tool to convert GFF3 files to BED.
 * Modified Filter and Sort -> **Filter** tool to operate correctly on files with a variable number of columns, such as in SAM files.
 * New datatype added: **VCF** (variant call format).
 
-### Histories 
+### Histories
 
 * Add descriptive labels to output dataset names for **MACS** peakcalling tool.
 * Add name/designation to HDA name for new datasets created in collect_primary_datasets.
 
-### Workflow Tuning 
+### Workflow Tuning
 
 * Shift management of the interaction between workflow outputs and HideDatasetActions to the front end editor.  
 * No usability changes, but this resolves the issue with multiple HideDatasetActions being created.  
@@ -161,7 +161,7 @@ off, Galaxy will look for the following instead:
   * Added 'data' datatype to registry, which will allow both text and binary inputs (and their subtypes) to workflow input steps.  
   * Note that this will allow a user to change the datatype of something to 'data'.
 
-### User Interface (UI) 
+### User Interface (UI)
 
 * New function for downloading metadata files associated with datasets
 
@@ -177,12 +177,12 @@ time, especially for data libraries having potentially large menu.
 * Remove the creation of a background element that closes the active menu clicked. Instead, bind an event to close active menus to the document object of current and all other framesets. Tested in IE.
 * Make links in split menu buttons "go through" instead of popping up the menu options.
 
-### General 
+### General
 
 * Functional Test Framework: new nose plugin that shows a diff between tests failed this time and last time.
 * Documentation update to add more options added to the sample config file.
 
-### Bug Fixes! 
+### Bug Fixes!
 
 * Fix for TextToolParameter.get_html_field when provided value is an empty string but default value specified in tool is non-empty string. Fixes issue with rerun button where if a user had input an empty string, the form displayed when rerun would have the default value from the tool and not the actual previously specified value.
 * Fix for Integer[/FloatToolParameter](/archive/dev-news-briefs/2010-11-24/FloatToolParameter/).get_html_field() when 'value' is provided as an integer/float. Fixes an issue seen when saving workflows: If an integer or float tool parameter is changed to a value of 0 or 0.0 and saved, the form field would be redisplayed using the default tool value; and not the value that is now saved in the database.
@@ -203,14 +203,14 @@ time, especially for data libraries having potentially large menu.
 * Prevent Rename Dataset Action from allowing a blank input.
 
 ----
-### How to get Galaxy 
+### How to get Galaxy
 
 [Get Galaxy!](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
 
 ``` hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist ```
 
 ----
-### About Galaxy 
+### About Galaxy
 
 **Galaxy** is supported in part by **NSF**, **NHGRI**, the **Huck Institutes of the Life Sciences**, and **The Institute for CyberScience at Penn State**.
 

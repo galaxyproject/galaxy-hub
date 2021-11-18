@@ -12,7 +12,7 @@ hg pull -u -r d681ef7538ed
 ### Enhanced Data Library Features
 
 1. Add the ability to make any library item public (and it's contents if it has any)
-* There are now options on library item pop-up menus to make a library dataset public, make all contents of a folder public, or make an entire data library public. These new menu items are displayed only if the current item (dataset) is not public or if the current item (data library, folder) contains items that are not public. 
+* There are now options on library item pop-up menus to make a library dataset public, make all contents of a folder public, or make an entire data library public. These new menu items are displayed only if the current item (dataset) is not public or if the current item (data library, folder) contains items that are not public.
 * The following image shows a data library that contains a restricted dataset and a folder that contains a restricted dataset. Since the data library contains items that are not public (restricted), it's Library Actions menu includes a "Make public" option. Selecting this option will make all of the contents of the entire data library public.
 
 ![2010_10_05_library_popup](/archive/dev-news-briefs/2010-10-05/2010_10_05_library_popup.png)
@@ -26,7 +26,7 @@ hg pull -u -r d681ef7538ed
 ![2010_10_05_dataset_popup](/archive/dev-news-briefs/2010-10-05/2010_10_05_dataset_popup.png)
 
 2. Upload Option changes
-* Move the upload options (ie., file, directory, filesystem paths, import from history), which used to be in the data library upload form's title bar popup menu, into a select list on the upload form. 
+* Move the upload options (ie., file, directory, filesystem paths, import from history), which used to be in the data library upload form's title bar popup menu, into a select list on the upload form.
 * Selecting a different upload option now performs a refresh on the upload form so that any form contents entered before selecting the option are now retained.
 
 ![2010_10_05_upload_options](/archive/dev-news-briefs/2010-10-05/2010_10_05_upload_options.png)
@@ -90,7 +90,7 @@ hg pull -u -r d681ef7538ed
 ### Mutation Visualization Tool
 
 * Requirement to enter the default columns indicating reference base, position, and start of sample.
-* New interactive zoom option: image can be zoomed in or out using the mouse wheel. 
+* New interactive zoom option: image can be zoomed in or out using the mouse wheel.
 
 ### Trackster Visualization Tool
 
@@ -118,9 +118,9 @@ hg pull -u -r d681ef7538ed
 ### General
 
 * Changes to grids to make sorting order clear and reduce clutter from tags and annotations.
-* Adjusted BWA, Bowtie, and PerM wrappers so they now use verified use-case parameters. 
+* Adjusted BWA, Bowtie, and PerM wrappers so they now use verified use-case parameters.
 * Modified the 'file_path' field type in 'sample_dataset' table to 'TEXT' to support large file paths exceeding 255 characters.
-* Make the grouping, join, sort, and any tool which uses r_wrapper.sh compatible with non-bash shells like bourne and dash (the default under modern Debian systems). 
+* Make the grouping, join, sort, and any tool which uses r_wrapper.sh compatible with non-bash shells like bourne and dash (the default under modern Debian systems).
 
 ### Bug Fixes!
 

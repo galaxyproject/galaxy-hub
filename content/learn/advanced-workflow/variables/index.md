@@ -13,7 +13,7 @@ Variables are used in the editor in the far right panel, under the section "Edit
 
 ## How to identify the input datasets variables?
 
-The screenshot allows us to visualize that the Tophat2 tool is selected and configured to expect 2 .fastq files. In the far right panel, when we search for 'Data input', the input variables appear right in front of it between quotes. (eg. **RNA-Seq FASTQ file, forward reads** Data input 'input1' (fastqsanger)). Therefore the input variables for .fastq files are input1 and input2. 
+The screenshot allows us to visualize that the Tophat2 tool is selected and configured to expect 2 .fastq files. In the far right panel, when we search for 'Data input', the input variables appear right in front of it between quotes. (eg. **RNA-Seq FASTQ file, forward reads** Data input 'input1' (fastqsanger)). Therefore the input variables for .fastq files are input1 and input2.
 
 ![workflow editor](/images/learn/workflow_editor_input_variables.png)
 *workflow editor showing the input variables names*

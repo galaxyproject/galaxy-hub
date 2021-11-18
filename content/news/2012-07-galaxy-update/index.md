@@ -4,7 +4,7 @@ date: "2012-06-28"
 ---
 <div class='right'><a href='/galaxy-updates/2012-07/'><img src="/images/logos/GalaxyUpdate200.png" alt="July 2012 Galaxy Update" width=150 /></a></div>
 
-The [July 2012 Galaxy Update is now available](/galaxy-updates/2012-07/). 
+The [July 2012 Galaxy Update is now available](/galaxy-updates/2012-07/).
 
 **Highlights:**
 
@@ -21,7 +21,7 @@ The [July 2012 Galaxy Update is now available](/galaxy-updates/2012-07/).
 * [Plus](/galaxy-updates/2012-07/#other-news)
   * Easily wrap your R functions as Galaxy tools
   * help schedule the first [GalaxyCzars](/community/galaxy-admins/) conference call on July 9 or 10
-  * and lots of new screencasts, tutorials, and new genomes on main 
+  * and lots of new screencasts, tutorials, and new genomes on main
 
 If you have anything you would like to see in the August *[Galaxy Update](/galaxy-updates/)*, please let me know.
 

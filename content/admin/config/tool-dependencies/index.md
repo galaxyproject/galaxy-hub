@@ -38,7 +38,7 @@ Setting `$PATH` in your shell startup files may work depending on your DRM - thi
 ### Managed Tool Dependencies
 
 Individual tool configurations should contain `<requirement type="package">` tags which can be used by the tool dependency system.  This system works by taking the following steps:
- 
+
 1. Create a directory accessible to Galaxy and any cluster on which Galaxy runs tools
 1. Set `tool_dependency_dir` in the Galaxy config file (`galaxy.ini`) to the above path
 1. Create a subdirectory of the above directory that matches the string in the `<requirement>` tags of tool you want to use

@@ -11,7 +11,7 @@ This newsletter coincides with the [anniversary of James Taylor's death](#featur
 
 The other big news is that [registration, abstract submission, and fellowship applications for the 2021 Galaxy Community Conference are now open](#community-news).  Abstracts and fellowship applications are due by May 7.
 
-And as always there are sections on 
+And as always there are sections on
 * **[upcoming events](#event-news)**,
 * news about **[public Galaxy platforms](#galaxy-platforms-news)**,
 * recent **[blog posts](#galactic-blog-activity)**,
@@ -115,9 +115,9 @@ We will reuse the BCC2020 model for talks, posters, and demos: __posters and dem
 
 </div>
 
-__June 25__ 
+__June 25__
 
-GCC2021 registration is open until June 25. 
+GCC2021 registration is open until June 25.
 
 Registering before __May 24__ saves 50% off of the full rates. Registration discounts will be available to researchers from low and lower-middle income countries. For everyone else, registration are downright cheap too: the rates start in €15.00 for the training week and in €25.00 for the 3-day conference. The CoFest is free.
 
@@ -132,7 +132,7 @@ Registering before __May 24__ saves 50% off of the full rates. Registration disc
 
 </div>
 
-__May 7__ 
+__May 7__
 
 The Galaxy Community Fund is offering fellowships to students, post-docs, and other non-profit / academic / government researchers based in lower, lower-middle and upper-middle income countries who will benefit from attending GCC2021, and for whom the cost of registration is a barrier.
 
@@ -150,7 +150,7 @@ It will cover the full registration for any GCC2021 events. [Apply here](https:/
 
 </div>
 
-__Submissions due May 7__ 
+__Submissions due May 7__
 
 GCC2021 is seeking oral presentations, lightning talks, posters, and demos, from researchers using Galaxy, and __all over the world__. If you would like to present your work, please [submit your abstract](https://www.vibconferences.be/events/gcc2021-virtual-edition) by May 7!
 
@@ -202,7 +202,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 
 [ISMB/ECCB 2021](https://www.iscb.org/ismbeccb2021) is one of the largest bioinformatics conferences and every year Galaxy has had a significant presence.  ISMB/ECCB is built from community building blocks, and this year that includes the **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc-2021/)** (our 2018 and 2020 conference partner), as well as communities focused on [high-throughput sequencing](http://hitseq.org/), [mass spec](http://cosi.iscb.org/wiki/CompMS:Home), [bioinformatics education](http://cosi.iscb.org/wiki/Education:Home), [visualization](http://biovis.net/2021/index.html), [microbiomes](https://www.microbiome-cosi.org/), [bioinformatics core facilities](http://bioinfo-core.org/index.php/ISMB_2021:_BioinfoCoreWorkshop), and [many others](https://www.iscb.org/communities-of-special-interest).
 
-**[BOSC](https://www.open-bio.org/2021/03/24/join-us-at-bosc-2021/)** is a particularly good match for the Galaxy community. Topics include software development practices that promote open science standards and sharing of biological data and code, as well as approaches for building diverse communities. 
+**[BOSC](https://www.open-bio.org/2021/03/24/join-us-at-bosc-2021/)** is a particularly good match for the Galaxy community. Topics include software development practices that promote open science standards and sharing of biological data and code, as well as approaches for building diverse communities.
 
 Most of these are accepting talk and poster submissions through the [ISMB/ECCB website](https://www.iscb.org/ismbeccb2021), but [BioInfo-Core is taking talk submissions here](https://forms.gle/N1mfB3dEEd4oi4wBA).  All submissions are due May 6.
 
@@ -486,7 +486,7 @@ TIaaS is coming to both UseGalaxy.org and UseGalaxy.org.au.  Watch this space fo
 
 By [Wendi Bacon](https://training.galaxyproject.org/training-material/hall-of-fame/nomadscientist/)
 
-Fully process single-cell data, remove low quality cells, reduce the many dimensions of data that make it difficult to work with, and ultimately define clusters and find biological meaning and insights! 
+Fully process single-cell data, remove low quality cells, reduce the many dimensions of data that make it difficult to work with, and ultimately define clusters and find biological meaning and insights!
 
 ![Figure 12: Appearance is everything](./gtn-single-cell.jpg)
 
@@ -612,7 +612,7 @@ The Galaxy Training Network now has a [Frequently Asked Questions (FAQ) page](ht
 </div>
 
 </div>
- 
+
 
 # Publications
 
@@ -713,12 +713,12 @@ Lima, J. S. (2020).  [Thesis, University of Otago]. https://ourarchive.otago.ac.
 <div class="card-header">Planemo 0.74.4</div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of
-command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  This release includes: 
+command-line utilities to assist in developing Galaxy and [Common Workflow Language](https://www.commonwl.org/) artifacts - including tools, workflows, and training materials.  This release includes:
 
 * New flag `--download_outputs` for the run command.
 * Simultaneous file upload configurable for the run and test commands.
 * Add option to add tags to a history with the run command.
-* Revise Allure reporting experience for workflows. 
+* Revise Allure reporting experience for workflows.
 
 
 See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).

@@ -18,7 +18,7 @@ In ecology, research data analysis is intensively linked to home made, mainly R,
  - my lab activity in galaxy tools development 'EWAS'
  - how we utilize galaxy-europe to train our masters and phd students
  - update from Elixir-CNV community meeting
- 
+
 
 ## Marco Tangaro
 
@@ -42,5 +42,5 @@ We will then point out some difficulties that Galaxy users may run into when usi
 
  - External Authentication  and Authorization. OpenID Connect solution in Apache proxy.
  - Resource Allocation and Management in Galaxy. User and project management plug-in
- 
- 
+
+

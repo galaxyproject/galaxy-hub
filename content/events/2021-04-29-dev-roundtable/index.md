@@ -26,4 +26,4 @@ Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([s
 
 ---
 
-The [Galaxy Developer Roundtable](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 
+The [Galaxy Developer Roundtable](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community.

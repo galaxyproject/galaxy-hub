@@ -61,7 +61,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are April application deadlines for EMBL-EBI Summer Bioinformatics School and Plant Bioinformatics Course; abstract deadlines for InCoB, DILS, BOSC, ISMB Tech Track, and [GCC2012](/events/gcc2012/abstracts/); and an early registration deadline for BITS.
 
@@ -145,8 +145,8 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 ## Tool Shed Contributions
 
-At least *15* new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) since the last [Galaxy Update](/galaxy-updates/), including 
-* EMBER: analysis technique for inferring the genes regulated by transcription factor. 
+At least *15* new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) since the last [Galaxy Update](/galaxy-updates/), including
+* EMBER: analysis technique for inferring the genes regulated by transcription factor.
 * hmmer: hmmscan/hmmsearch as one tool, plus hmmpress
 * RNA SEQ by Expectation Maximization (RSEM).
 * FastqMcf from ea-utils: remove barcodes and primers, filter and clip.
@@ -156,9 +156,9 @@ At least *15* new repositories were added to the [Galaxy Tool Shed](http://tools
 * snp_mapping_using_wgs: Map mutation by plotting recombination frequency from crossing to a polymorphic strain
 * ems_variant_density_mapping Map mutation by linkage to regions of high mutation density using WGS data
 * bcftools_view: Convert BCF &rarr; VCF
-* check_snpeff_candidates: Mark up snpEff output file with matches to a gene candidate list 
+* check_snpeff_candidates: Mark up snpEff output file with matches to a gene candidate list
 * match: search for occurrences of a short motif, allowing mismatches
-* sharplab_interval_analysis: align 2 interval sets, find overlaps, calculate and plot coverage 
+* sharplab_interval_analysis: align 2 interval sets, find overlaps, calculate and plot coverage
 * sharplab_seq_motif: DREME, SRA &rarr; FASTQ, FIMO &rarr; BED, FASTA &rarr; Markov Model, reverse complements, and more.
 * mtls_analysis: Functions to analyze and compare multiple ChIP-seq experiments
 

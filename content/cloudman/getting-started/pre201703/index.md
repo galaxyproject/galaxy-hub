@@ -17,7 +17,7 @@ Before you can start using cloud resources, you need to get your API access cred
 
 1. Next, it's necessary to create the API access credentials. Do this by creating an IAM user: click on *Services* → *IAM* → *Users* → *Create New Users*. Give the user a name (e.g., *galaxy_cloudman*) and click *Create*. Once created, make a note of and download the API access credentials. Keep these credentials safe because they are all that is required to use your cloud account.
 
-<div class='center'> 
+<div class='center'>
 <a href='http://i.imgur.com/PKLI8Gh.png'><img src="http://i.imgur.com/PKLI8Gh.png" alt="" width=200 /></a>
 <a href='http://i.imgur.com/IxMqWkl.png'><img src="http://i.imgur.com/IxMqWkl.png" alt="" width=200 /></a>
 <a href='http://i.imgur.com/yFL6QRA.png'><img src="http://i.imgur.com/yFL6QRA.png" alt="" width=200 /></a>
@@ -54,7 +54,7 @@ In this step, we will create a new cluster by launching a virtual server in the 
 <div class='center'>
 <a href='http://i.imgur.com/GOFLRuj.png'><img src="http://i.imgur.com/GOFLRuj.png" alt="" width=250 /></a>
 </div>
- 
+
 ## Step 2: Access Galaxy (and other services)
 
 After the cluster has started, it will take a few more minutes for all the applications to start. A popup message window will be shown when the cluster is ready for use. At that point, click *Access Galaxy* and start using Galaxy. You will probably want to [register a new account](https://vimeo.com/75925027) first - after all, this is your own cluster. Keep in mind that the account you create on your cloud cluster is separate from an account you might have created on another Galaxy server.

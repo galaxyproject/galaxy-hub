@@ -39,15 +39,15 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 This 2 day pre-[Inbix2021](https://neist.res.in/inbix2021/) workshop will feature talks and hands-on exercises, **and the formal launch of the [Galaxy India Community](https://galaxyproject.in/).**  
 
-Presenters include include 
-[Christopher B Barnett](http://www.chemistry.uct.ac.za/cem/staff/academic/barnett), 
-[Anshu Bhardwaj](https://www.imtech.res.in/contact/staff/dr-anshu-bhardwaj/107), 
-[Simon Bray](https://github.com/simonbray), 
-[Sona Charles](http://www.spices.res.in/ms-sona-charles), 
-[Dave Clements](/people/dave-clements/), 
+Presenters include include
+[Christopher B Barnett](http://www.chemistry.uct.ac.za/cem/staff/academic/barnett),
+[Anshu Bhardwaj](https://www.imtech.res.in/contact/staff/dr-anshu-bhardwaj/107),
+[Simon Bray](https://github.com/simonbray),
+[Sona Charles](http://www.spices.res.in/ms-sona-charles),
+[Dave Clements](/people/dave-clements/),
 [Stephan Flemming](https://github.com/stephanflemming),
-[Selvaraman Nagamani](https://scholar.google.com/citations?user=aIQz3DkAAAAJ&hl=en), 
-and [Gareth Price](https://qfab.org/team-member/dr-gareth-price). 
+[Selvaraman Nagamani](https://scholar.google.com/citations?user=aIQz3DkAAAAJ&hl=en),
+and [Gareth Price](https://qfab.org/team-member/dr-gareth-price).
 
 Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioclues members can register for free.
 
@@ -142,7 +142,7 @@ See all [upcoming events here](/events/index.md):
 
 **20 October, Online**
 
-A workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions. 
+A workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions.
 
 Registration will open soon, stay tuned!
 
@@ -251,7 +251,7 @@ Microbiome experts and instructors from the Galaxy community will lead this onli
 
 **29-30 November, Online, UK.**
 
-Curso de análisis de células únicas con Galaxy en español. ¡Pronto se abrirá el periodo de inscripción! 
+Curso de análisis de células únicas con Galaxy en español. ¡Pronto se abrirá el periodo de inscripción!
 
 --
 
@@ -506,7 +506,7 @@ Heusden, P. van, Mashologu, Z., Lose, T., Warren, R., & Christoffels, A. (2021).
 
 # Releases
 
-<div class="card-deck"> 
+<div class="card-deck">
 
 <!-- Planemo -->
 <div class="card border-info" style="min-width: 30%; max-width: 22rem;">
@@ -551,7 +551,7 @@ The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.
 
 # Other News
 
-<div class="card-deck"> 
+<div class="card-deck">
 
 <!-- New brochure from ELIXIR Germany -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 100%;">

@@ -25,7 +25,7 @@ The [GalaxyAdmins](/community/galaxy-admins/meetups/) group has bi-monthly confe
 
 * [2016-12-15 Web Meetup](/community/galaxy-admins/meetups/2016-12-15/)
   *  Bérénice Batut, Björn Grüning and Dannon Baker on Community creation, curation and use of training materials and Galaxy documentaiton.
-* [2016/10/20](/events/switzerland2016/) in person Meetup at the [Swiss Galaxy workshop](/events/switzerland2016/) 
+* [2016/10/20](/events/switzerland2016/) in person Meetup at the [Swiss Galaxy workshop](/events/switzerland2016/)
 * [2016-08-18 Web Meetup](/community/galaxy-admins/meetups/2016-08-18/)
   *  [Olivia Choudhury](https://engineering.nd.edu/profiles/colivia), [Nick Hazekamp](https://engineering.nd.edu/profiles/nhazekamp), and [Scott Emrich](https://www3.nd.edu/~semrich/) of the [University of Notre Dame](http://www.nd.edu/) present on MakeFlow.
 * [2016/06/28](https://gcc16.sched.org/event/7KLn/galaxyadmins-birds-of-a-feather) in person Meetup at [GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/)
@@ -48,7 +48,7 @@ The [GalaxyAdmins](/community/galaxy-admins/meetups/) group has bi-monthly confe
 * [2015-04-16 Web Meetup](/community/galaxy-admins/meetups/2015-04-16/)
   *  Carrie Ganote talks about Galaxy tweaks and customizations at Indiana University, and [Aysam Guerler](/people/guerler/) talks about new tool forms.
 * [2015-02-19 Web Meetup](/community/galaxy-admins/meetups/2015-02-19/)
-  *  Fall 2014 Galaxy Questionnaires Summary, Galaxy Project Update, GalaxyAdmins direction 
+  *  Fall 2014 Galaxy Questionnaires Summary, Galaxy Project Update, GalaxyAdmins direction
 
 **2014**
 
@@ -76,5 +76,5 @@ The [GalaxyAdmins](/community/galaxy-admins/meetups/) group has bi-monthly confe
   *  Our name has changed to Galaxy-Admins (Cheers Hans-Rudolf Holtz!).  We have set a common time to meet.  Alex Moskalenko spoke about Galaxy at University of Florida.
 * [2012-07-27 Breakout at GCC2012](/community/galaxy-admins/meetups/2012-07-27/)
   *  The group had a breakout at [GCC2012](/events/gcc2012/)
-* [2012-07-09 Web Meetup](/community/galaxy-admins/meetups/2012-07-09/) 
+* [2012-07-09 Web Meetup](/community/galaxy-admins/meetups/2012-07-09/)
   *  Inaugural conference call. Set up some guidelines and Ann Black-Ziegelbein talked about their setup up at Iowa and specifically their experience with storage infrastructure.

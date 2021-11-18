@@ -15,7 +15,7 @@ Four new servers joined [the list of over 30 publicly accessible Galaxy servers]
 
 ## P-Galaxy
 
- 
+
 [P-Galaxy](http://p-galaxy.ddbj.nig.ac.jp/) is part of the [DDBJ Read Annotation Pipeline](http://dnaresearch.oxfordjournals.org/content/early/2013/05/07/dnares.dst017.full) and is described in "[DDBJ Read Annotation Pipeline: A Cloud Computing-Based Pipeline for High-Throughput Analysis of Next-Generation Sequencing Data](http://dnaresearch.oxfordjournals.org/content/early/2013/05/07/dnares.dst017.full)" by Nagasaki, *et al.* in *[DNA Research](http://dnaresearch.oxfordjournals.org/)*.  Support is available at [P-Galaxy Team](mailto:p-galaxy AT g DOT nig DOT ac DOT jp), and P-Galaxy is developed by the [Genome Informatics Laboratory](http://www.nig.ac.jp/section/yn/yn-e.html) and the [DNA Data Bank of Japan (DDBJ)](http://www.ddbj.nig.ac.jp/) of the [National Institute of Genetics (NIG)](http://www.nig.ac.jp/english/index.html).
 
 ## In Silico Galaxy
@@ -32,7 +32,7 @@ an open source network analysis pipeline for genome-wide association studies and
 <div class='left solid'><a href='http://lisis.cs.ucy.ac.cy/'><img src="/images/logos/LiSisLogo.png" alt="LiSIs" width="200px" /></a></div>
 
 [LiSIs](http://lisis.cs.ucy.ac.cy/) is a platform for virtual screening.  The !LiSIs platform has been developed in the context of the cross-disciplinary [GRANATUM project](http://www.granatum.org) aiming to bridge the gap between biomedical researchers by ensuring their seamless access to the globally available information needed to perform complex experiments and to conduct studies on large-scale datasets. [LiSIs](http://lisis.cs.ucy.ac.cy/) is developed and maintained by the [e-Health Laboratory](http://www.medinfo.cs.ucy.ac.cy/) at the [Department of Computer Science, University of Cyprus](http://www.cs.ucy.ac.cy/).  [LiSIs](http://lisis.cs.ucy.ac.cy/) is an EU-funded project under FP7-(ICT-2009.5.3) and has its own [LiSIS Support Google Group](https://groups.google.com/forum/#!forum/lisis-support) for questions.
-   
+
 ## Orione
 
 <div class='right solid'><a href='http://orione.crs4.it/'><img src="/images/logos/orione-home-page-300.png" alt="Orione"  /></a></div>
@@ -290,10 +290,10 @@ Visit the [Boot Camp Page](http://software-carpentry.org/bootcamps/2013-07-oslo.
 <a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='/events/rt-workshop-tour2013/'><img src="/images/logos/RTGalaxyWorkshopTour2013-300.png" alt="" width="140px" /></a>
 <a href='/events/ismb2013/'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2013" width="100" /></a> &nbsp;
-<a href='/events/ismb2013/'><img src="/images/logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="60" /></a> 
+<a href='/events/ismb2013/'><img src="/images/logos/ISMB2013Logo205.png" alt="ISMB/ECCB 2013" width="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 <br /><br />
@@ -387,10 +387,10 @@ The most recent official distribution was on [June 3, 2013](/archive/dev-news-br
 **Highlights:**
 
 * Visualization tool updates to [Scatterplot](/archive/dev-news-briefs/2013-06-03/#scatterplot) and [Trackster](/archive/dev-news-briefs/2013-06-03/#trackster).
-* Job distribution, error tracking/management, and reporting function improvements to [Admin](/archive/dev-news-briefs/2013-06-03/#admin) & [Core](/archive/dev-news-briefs/2013-06-03/#core). 
+* Job distribution, error tracking/management, and reporting function improvements to [Admin](/archive/dev-news-briefs/2013-06-03/#admin) & [Core](/archive/dev-news-briefs/2013-06-03/#core).
 
 * Multiple [Tool](/archive/dev-news-briefs/2013-06-03/#tools) updates, [History and Dataset](/archive/dev-news-briefs/2013-06-03/#histories) upgrades, and other related [UI](/archive/dev-news-briefs/2013-06-03/#ui) enhancements.
-* New features and fixes added to the [Tool Shed](/archive/dev-news-briefs/2013-06-03/#tool-shed) and related components. 
+* New features and fixes added to the [Tool Shed](/archive/dev-news-briefs/2013-06-03/#tool-shed) and related components.
 * [Python 2.5 Support officially ended](/archive/dev-news-briefs/2013-06-03/#python_25_support_has_ended).
 * Plus newly [merged Pull Requests](/archive/dev-news-briefs/2013-06-03/#pull-requests-merged) and links to tickets covering key [Bug Fixes](/archive/dev-news-briefs/2013-06-03/#bug-fixes).
 
@@ -453,27 +453,27 @@ Third, the feature can be left enabled and unpatched, and the vulnerability can 
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
-* [MMuFLR](http://bit.ly/19JoLFq): Missense Mutation and Frameshift Location Reporter Workflows. 
-* [ensembl_vep](http://bit.ly/ZvuN8A): Annotation tool using Ensembl Variant Effect Predictor for GVL 
+* [MMuFLR](http://bit.ly/19JoLFq): Missense Mutation and Frameshift Location Reporter Workflows.
+* [ensembl_vep](http://bit.ly/ZvuN8A): Annotation tool using Ensembl Variant Effect Predictor for GVL
 * [eqtl_tools](http://bit.ly/11OQqhR): eQTL Analysis using [PANAMA](http://bit.ly/120E35o)  
-* [fasta_extract](http://bit.ly/10iT8yU): Extract a single sequence or set of sequences from a multifasta file 
+* [fasta_extract](http://bit.ly/10iT8yU): Extract a single sequence or set of sequences from a multifasta file
 * [fasta_stats](http://bit.ly/14vngXt): Produce basic statistics on a fasta/multifasta file  
 * [repeat_masker](http://bit.ly/10iTw0k): RepeatMasker  
 * [interproscan](http://bit.ly/12hEJ6B): Interproscan functional predictions of ORFs
-* [fastq_validator](http://bit.ly/14i19Vn): Validate your FastQ Files. 
-* [peptide_to_gff](http://bit.ly/13ht2iy): Outputs GFF3 with the peptide position in a reference genome 
-* [cmpfastq](http://bit.ly/13htNrL): Compare two fastq files 
+* [fastq_validator](http://bit.ly/14i19Vn): Validate your FastQ Files.
+* [peptide_to_gff](http://bit.ly/13ht2iy): Outputs GFF3 with the peptide position in a reference genome
+* [cmpfastq](http://bit.ly/13htNrL): Compare two fastq files
 * [samifier](http://bit.ly/17u7xtT): integrate genomic & transcriptomic NGS data with proteomic MS data.
-* [somatic_sniper](http://bit.ly/13eUa2H): identify single nucleotide positions differences between tumor and normal 
+* [somatic_sniper](http://bit.ly/13eUa2H): identify single nucleotide positions differences between tumor and normal
 
 # Other News
 
 * Tin-Lap Lee's slides from his Bio-IT 13 talk: [Next-Gen Sequencing Analysis by GigaGalaxy](http://www.slideshare.net/GigaScience/giga-galaxy-bioit-world-13tl)
-* Now in MyExperiment: [Detrprok_wf](http://bit.ly/1aWNeVE): Detect 3 types of ncRNA. Uses s_mart & detrprok_scripts from toolshed 
+* Now in MyExperiment: [Detrprok_wf](http://bit.ly/1aWNeVE): Detect 3 types of ncRNA. Uses s_mart & detrprok_scripts from toolshed
 * [Building a CloudMan instance from scratch](https://github.com/chapmanb/cloudbiolinux/blob/master/deploy/cloudman.md)
 * [Tutorial: uploading NGS data to Amazon S3 for use in Galaxy](http://postolog.com/bbdPCT)
-* [Video: ChIP-seq analysis using Galaxy](http://bit.ly/18S1eV5) by Ian Donaldson of U Manchester 
+* [Video: ChIP-seq analysis using Galaxy](http://bit.ly/18S1eV5) by Ian Donaldson of U Manchester
 * At the University of Florida? UF Health is [offering 2 Galaxy Workshops, Basics on June 26 and NGS on July 2](http://bit.ly/15cV0Yj)
-* [pycrac](http://bit.ly/11lEbNa): User-friendly Python tools for the analyses of CLIP/CRAC datasets 
+* [pycrac](http://bit.ly/11lEbNa): User-friendly Python tools for the analyses of CLIP/CRAC datasets
 * In Sweden? The Swedish National Infrastructure for Computing (SNIC) is [now supporting Galaxy (see last page)](http://bit.ly/11w8Tjf).
 * Follow [Saket Choudhary's Google Summer of Code Galaxy project work on Blogspot](http://bit.ly/1abz1bv)

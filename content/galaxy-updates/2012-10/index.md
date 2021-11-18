@@ -91,9 +91,9 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
-There are October application, poster, and paper deadlines for 
+There are October application, poster, and paper deadlines for
 * [Rocky 2012](http://www.iscb.org/rocky2012) (deadline October 4)
 * [BeNeLux Bioinformatics Conference 2012 ](http://www.nbic.nl/bbc2012) (deadline October 22)
 
@@ -201,7 +201,7 @@ There were [two new Galaxy distributions](/docs/) in September:
 
 [Highlights](/archive/dev-news-briefs/2012-09-20/)
 * A new **[Galaxy tool](/archive/dev-news-briefs/2012-09-20/#galaxy-tool-factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
-* **[Learn](/archive/dev-news-briefs/2012-09-20/#multiple-tool-versions)** how to display multiple versions of a tool in the **Galaxy** tool panel. 
+* **[Learn](/archive/dev-news-briefs/2012-09-20/#multiple-tool-versions)** how to display multiple versions of a tool in the **Galaxy** tool panel.
 * **[CloudLaunch Overhaul](/archive/dev-news-briefs/2012-09-20/#cloudlaunch-overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
 * Release also includes more **[Tool Shed](/archive/dev-news-briefs/2012-09-20/#toolshed)** updates, **[Framework](/archive/dev-news-briefs/2012-09-20/#framework)** and **[API](/archive/dev-news-briefs/2012-09-20/#api)** updates, plus **[Security](/archive/dev-news-briefs/2012-09-20/#security-fixes)** and **[Bug](/archive/dev-news-briefs/2012-09-20/#bug-fixes)** fixes.
 
@@ -218,7 +218,7 @@ There were [two new Galaxy distributions](/docs/) in September:
 
 ## Other News
 
-* Rutger Vos shows how to [add a phylotastic service to Galaxy](http://youtu.be/d-fDngweW-M) and [use phylotastic tools inside Galaxy](http://youtu.be/kMME658xOu4) 
+* Rutger Vos shows how to [add a phylotastic service to Galaxy](http://youtu.be/d-fDngweW-M) and [use phylotastic tools inside Galaxy](http://youtu.be/kMME658xOu4)
 * [ENCODE Virtual Machine and Cloud Resource](http://scofield.bx.psu.edu/~dannon/encodevm/) is now available.
-* [Galaxy tutorial](http://bit.ly/OgsOvJ) from [2012 GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School) is now available on the [http://gmod.org/wiki/|GMOD wiki](http://gmod.org/wiki/|GMOD wiki). 
+* [Galaxy tutorial](http://bit.ly/OgsOvJ) from [2012 GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School) is now available on the [http://gmod.org/wiki/|GMOD wiki](http://gmod.org/wiki/|GMOD wiki).
 * [ISCB Wikipedia Competition](http://bit.ly/QLbMMq) launched and the [Galaxy Wikipedia page](http://bit.ly/gxywp) is eligible.

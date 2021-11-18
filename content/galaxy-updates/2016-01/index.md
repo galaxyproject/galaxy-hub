@@ -12,9 +12,9 @@ title: It's a new year in the Galaxy!
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the January 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
+Welcome to the January 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 # New Papers
 
@@ -109,7 +109,7 @@ The **[2016 Galaxy Community Conference website is now online](http://gcc2016.iu
 
 [GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  
 
-[Registration information](http://gcc2016.iu.edu/registration/index.php) describes the different registration packages, rates, and deadlines.  Early registration rates start at less than $40 per day for students and post-docs. 
+[Registration information](http://gcc2016.iu.edu/registration/index.php) describes the different registration packages, rates, and deadlines.  Early registration rates start at less than $40 per day for students and post-docs.
 
 The [training schedule](https://gcc16.sched.org/grid-full#2016-06-26) includes session titles, descriptions, prerequisites, and instructors. Many thanks to everyone who nominated and voted on topics, and especially to the many [instructors](https://gcc16.sched.org/directory/artists) who are contributing their time and effort to make GCC2016 a success.
 
@@ -141,7 +141,7 @@ There are two event reports, See the [one by Björn Grüning](https://gist.githu
 
 There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/asu2016/'><img src="/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" height="60" /></a>&nbsp;
 <a href='/events/pag2016/'><img src="/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2016)" height="90" /></a> &nbsp;
 <a href='http://www.festivalofgenomicslondon.com/an-introduction-to-clinical-bioinformatics/'><img src="/images/logos/FoG_London.jpg" alt="An introduction to clinical bioinformatics" height="70" /></a>
@@ -247,7 +247,7 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
 The Galaxy is expanding! Please help it grow.
 
 * [Computational Biology post-doc](http://bit.ly/1J1WLla), IMI-eTRIKS consortium, CNRS-EISBM, Lyon France. Contribute "to the development of eTRIKS Galaxy tools and workflows for disease stratification and biomarker discovery from single and multiple omics datasets."
-* [Post-doc in Functional Genomics Of Obesity-Related Diseases](http://bit.ly/1QFyDHK), Inserm, Lille, France 
+* [Post-doc in Functional Genomics Of Obesity-Related Diseases](http://bit.ly/1QFyDHK), Inserm, Lille, France
 * [Bioinformatician Post-doc at SB Roscoff](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/message/IC6W3TYHDUB2BSI2SCJQPU2KK3MA7NQM/) working on parasitic dinoflagellate genomics
 * [Software Engineer](/news/software-engineer-ohsu/), Oregon Health Sciences University, Portland, Oregon, United States
 * [Software Developer / Bioinformatician](https://ig14.i-grasp.com/fe/tpl_embl01.asp?s=4A515F4E5A565B1A&jobid=54309,8734341283&key=64564906&c=342372129814&pagestamp=seqbdpnrnmbvdpxtgb), European Molecular Biology Laboratory (EMBL), Heidelberg, Germany
@@ -270,7 +270,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 * *Link:*
   * [Dintor: Data Integrator Tool Suite](http://dintor.eurac.edu/)
-* *Domain/Purpose:* 
+* *Domain/Purpose:*
   * A "suite of tools that facilitate working with GWA and NGS data" and "offers modules for high level functional annotation of genes and gene products such as gene set prioritization, functional similarity of proteins, or clinical significance of variation data. Each of these tools has been designed to perform a basic task independently."
 * *Comments:*
   * Includes "more than thirty modules ready for use by bioinformaticians and biologists working in genomics research."
@@ -281,10 +281,10 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 * *User Support:*
   * [Tutorials](http://dintor.eurac.edu/static/tutorial.html)
   * In addition to help on each of the Galaxy Tool pages, there is [additional help for each Dintor tool here](http://dintor.eurac.edu/doc/doc/tools.html).
-* *Quotas:* 
-  * Anyone can create a login. Anonymous use is also supported. 
+* *Quotas:*
+  * Anyone can create a login. Anonymous use is also supported.
 * *Sponsor(s):*
-  * The [Center of Biomedicine (CBM)](http://www.eurac.edu/en/research/health/biomed/Pages) at [EURAC research](http://www.eurac.edu/). 
+  * The [Center of Biomedicine (CBM)](http://www.eurac.edu/en/research/health/biomed/Pages) at [EURAC research](http://www.eurac.edu/).
 
 ## Erasmus MC
 
@@ -299,7 +299,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 * *User Support:*
 
    *
-* *Quotas:* 
+* *Quotas:*
   * "This Galaxy instance may be used without registration, but guests' histories are deleted nightly. To request an account, please [contact](mailto:a.stubbs@erasmusmc.nl) the Bioinformatics department."
 * *Sponsor(s):*
   * [Erasmus Medical Center department of Bioinformatics](http://bioinformatics.erasmusmc.nl/)
@@ -323,7 +323,7 @@ was released on November 30.* Highlights include
     The Galaxy upload widget now features support for composite datatypes and improved styling.
 
  Data Libraries
-    Improved API and UI for data libraries - including support for library folder management and search. 
+    Improved API and UI for data libraries - including support for library folder management and search.
 
  Deprecations:
     Mercurial is deprecated.<br />
@@ -353,7 +353,7 @@ It is also quite popular and has been downloaded from PyPi almost 4000 times sin
 
 ## CloudMan 15.12
 
-[CloudMan](/cloudman/) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
+[CloudMan](/cloudman/) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser.
 
 This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/releases) includes:
 
@@ -369,7 +369,7 @@ This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/re
 ## Pulsar 0.6.0 - 0.6.1
 
 [Pulsar 0.6](https://pypi.python.org/pypi/pulsar-app/) was released in December.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
- 
+
 The 0.6.x release includes these changes:
 
 * Pulsar now depends on the new galaxy-lib Python package instead of manually synchronizing Python files across Pulsar and Galaxy.
@@ -434,6 +434,6 @@ See [list of tools contributed in December](/toolshed/contributions/2015-12/).
 
 # Other News
 
-* Help the [MetaboHub](http://dsv.cea.fr/dsv/english/Pages/Research/national-infrastructures/MetaboHub.aspx) / [Workflow4metabolomics](http://galaxy.workflow4metabolomics.org/) and the [University of Birmingham](http://www.birmingham.ac.uk/) / [Galaxy-M](https://github.com/Viant-Metabolomics/Galaxy-M) teams! Please fill out the [Galaxy Workflows for Metabolomics](https://www.surveymonkey.co.uk/r/metabolomics-galaxy) Questionnaire 
+* Help the [MetaboHub](http://dsv.cea.fr/dsv/english/Pages/Research/national-infrastructures/MetaboHub.aspx) / [Workflow4metabolomics](http://galaxy.workflow4metabolomics.org/) and the [University of Birmingham](http://www.birmingham.ac.uk/) / [Galaxy-M](https://github.com/Viant-Metabolomics/Galaxy-M) teams! Please fill out the [Galaxy Workflows for Metabolomics](https://www.surveymonkey.co.uk/r/metabolomics-galaxy) Questionnaire
 * From [GigaScience](https://twitter.com/GigaScience):
   * We've been busy in 2015! Read our [end of year blog](http://bit.ly/1NQl4Tk) and we have more exciting things lined up for 2016!

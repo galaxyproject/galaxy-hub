@@ -411,7 +411,7 @@ Continuous tracking of viral evolution through genome sequencing.
 
 By Carlos Horro Marcos.
 
-After 3 years of work, SearchGUI (SG), a tool that performs protein identification using various search engines, and PeptideShaker (PS) for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively. 
+After 3 years of work, SearchGUI (SG), a tool that performs protein identification using various search engines, and PeptideShaker (PS) for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively.
 
 </div>
 
@@ -635,7 +635,7 @@ This genome assembly tutorial got an update from Anna Syme.
 
 
 </div>
- 
+
 
 # Publications
 
@@ -796,7 +796,7 @@ Interested in host-microbiome interactions and multi-omic data? We have multiple
 
 </div>
 
-Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University. 
+Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University.
 
 Data science research and education focusing on genomics ([AnVIL](https://anvilproject.org/), [Genomic Data Science Community Network](http://www.gdscn.org/)), cancer ([ITCR](https://itcr.cancer.gov/))  or pain [A2CPS](https://a2cps.org/).
 
@@ -834,7 +834,7 @@ Roche, Bay Area, California, United States.
 
 Johns Hopkins University, Baltimore, Maryland, United States.
 
-Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. 
+Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis.
 
 <img class="card-img-bottom" src="/images/logos/anvil-logo-text.png" alt="AnVIL" />
 </div>

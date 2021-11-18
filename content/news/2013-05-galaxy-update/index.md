@@ -4,7 +4,7 @@ date: "2013-05-06"
 ---
 <div class='right'><a href='/galaxy-updates/2013-05/'><img src="/images/logos/GalaxyUpdate200.png" alt="May 2013 Galaxy Update" width=150 /></a></div>
 
-The [May 2013 Galaxy Update is now available](/galaxy-updates/2013-05/). 
+The [May 2013 Galaxy Update is now available](/galaxy-updates/2013-05/).
 
 **Highlights:**
 * the [GCC2013](/galaxy-updates/2013-05/#gcc2013) **[early registration deadline is 24 May](/events/gcc2013/register/)**.

@@ -28,7 +28,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) will
 
 GCC2015 will be held 4-8<sup>th</sup> July, 2015, in Norwich, UK.  There are also many other events going on in the British Isles in the week before and after GCC2015, including:
 
- In Norwich 
+ In Norwich
 * [iPlant Tools & Services Workshop](http://www.tgac.ac.uk/361_Division/training-programme/courses-workshops/tgac-events/iplant-tools-and-services/)
 * [BioJS Hackathon](http://biojs.net/)
 

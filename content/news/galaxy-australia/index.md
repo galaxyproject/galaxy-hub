@@ -10,7 +10,7 @@ Today we officially launch the [Galaxy Australia](https://www.embl-abr.org.au/ga
 The establishment of Galaxy Australia is supported by the [EMBL Australia Bioinformatics Resource (EMBL-ABR)](https://www.embl-abr.org.au/) in its appointed role of supporting the development of skills and training in the Australian life science research community. At the EMBL-ABR Hub, hosted at the Victorian Life Sciences Computation Initiative (VLSCI), Galaxy is used extensively for teaching and data analysis directly as well as through the Australian-made [Genomics Virtual Laboratory](https://www.genome.edu.au/). VLSCI’s expert bioinformaticians and professional staff will help promote community activities and training.
 
 <div class='right'>
-<a href='https://twitter.com/galaxyaustralia'><img src="/images/logos/TwitterBird300.png" alt="@GalaxyAustralia" height="40" /></a> 
+<a href='https://twitter.com/galaxyaustralia'><img src="/images/logos/TwitterBird300.png" alt="@GalaxyAustralia" height="40" /></a>
 </div>
 
 Galaxy Australia has a has a Twitter feed ([@GalaxyAustralia](https://twitter.com/galaxyaustralia)) for announcements and discussion relevant to the community.  

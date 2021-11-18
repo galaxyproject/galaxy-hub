@@ -97,7 +97,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is t
 ### Early Registration opens in February
 
 *Early* registration (save *heaps)* and [abstract submission](http://gcc2015.tsl.ac.uk/abstracts/) will open later in February.  If you work in data-intensive life science research, then it is hard find a meeting more relevant than GCC2015.  We look forward to seeing you there.
- 
+
 
 ### Training Day Topic Voting Closes TODAY
 
@@ -113,7 +113,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) is t
 
 **[Voting](http://bit.ly/gcc2015vote) on what topics should be offered at the [GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) closes today, 30 January.**
 
-[Topics](http://gcc2015.tsl.ac.uk/training-day/) for the [GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) are selected by you, the Galaxy Community.  There are [nominated topics](http://gcc2015.tsl.ac.uk/training-day/) spanning from basic usage to advanced deployment.  No matter what you do with Galaxy, there are topics for you to choose from.  Your vote will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
+[Topics](http://gcc2015.tsl.ac.uk/training-day/) for the [GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) are selected by you, the Galaxy Community.  There are [nominated topics](http://gcc2015.tsl.ac.uk/training-day/) spanning from basic usage to advanced deployment.  No matter what you do with Galaxy, there are topics for you to choose from.  Your vote will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters.
 
 The Training Day schedule, including instructors, will be published before early registration opens in February.
 
@@ -125,7 +125,7 @@ The [2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/) will
 
 #### GenomeWeb
 
- 
+
 We are delighted to have [GenomeWeb](http://www.genomeweb.com/) as a returning [Silver Sponsor](http://gcc2015.tsl.ac.uk/sponsors) for GCC2015.
 
 <div class='right'><a href='http://www.genomoeweb.com/'><img src="/images/logos/GenomeWebLogo300.jpg" alt="GenomeWeb" width="200" /></a></div>
@@ -138,7 +138,7 @@ And we are delighted to announce that [Globus Genomics](http://www.globus.org/ge
 
 <div class='right'><a href='http://www.globus.org/genomics'><img src="/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="175" /></a></div>
 
- [Globus Genomics](http://www.globus.org/genomics) is an integrated solution for Next Gen Sequencing analysis utilizing technologies in big data management and big data analysis. Globus Genomics combines big data management capabilities of [Globus Online](http://www.globusonline.org) with the Galaxy framework and high throughput computing capabilities on Amazon Web Services.  With [Globus Genomics](http://www.globus.org/genomics) researchers can easily transfer large data sets and analyze the data in Galaxy. Globus Genomics is a non-profit service offering delivered and maintained by the Globus team at the [Computation Institute](https://www.ci.uchicago.edu/), [University of Chicago](https://www.uchicago.edu/). 
+ [Globus Genomics](http://www.globus.org/genomics) is an integrated solution for Next Gen Sequencing analysis utilizing technologies in big data management and big data analysis. Globus Genomics combines big data management capabilities of [Globus Online](http://www.globusonline.org) with the Galaxy framework and high throughput computing capabilities on Amazon Web Services.  With [Globus Genomics](http://www.globus.org/genomics) researchers can easily transfer large data sets and analyze the data in Galaxy. Globus Genomics is a non-profit service offering delivered and maintained by the Globus team at the [Computation Institute](https://www.ci.uchicago.edu/), [University of Chicago](https://www.uchicago.edu/).
 
 #### The Genome Analysis Centre (TGAC)
 
@@ -146,7 +146,7 @@ Finally, please welcome [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.u
 
 <div class='right'><a href='http://www.tgac.ac.uk/'><img src="/images/logos/TGACLogoWSupport300.jpg" alt="The Genome Analysis Centre" width="185" /></a></div>
 
- [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk) is a world-class research institute focusing on the development of genomics and computational biology. TGAC is based on the [Norwich Research Park](http://www.norwichresearchpark.com/home.aspx) and receives strategic funding from the [Biotechnology and Biological Science Research Council (BBSRC)](http://www.bbsrc.com/home/home.aspx) as well as from other research funders. TGAC offers a state of the art DNA sequencing facility, unique by its operation of multiple complementary technologies for data generation. The Institute hosts one of the largest computing hardware facilities dedicated to life science research in Europe. It is also actively involved in developing novel platforms to provide access to computational tools and processing capacity for academic and industrial users and promoting applications of computational Bioscience. Additionally, the Institute is a member of the [Galaxy Training Network](https://training.galaxyproject.org/) and offers a [Training programme](http://www.tgac.ac.uk/361_Division/) through courses and workshops, and has an [Education and Public Engagement programme](http://www.tgac.ac.uk/education-public-engagement/) targeting schools, teachers and the general public. 
+ [The Genome Analysis Centre (TGAC)](http://www.tgac.ac.uk) is a world-class research institute focusing on the development of genomics and computational biology. TGAC is based on the [Norwich Research Park](http://www.norwichresearchpark.com/home.aspx) and receives strategic funding from the [Biotechnology and Biological Science Research Council (BBSRC)](http://www.bbsrc.com/home/home.aspx) as well as from other research funders. TGAC offers a state of the art DNA sequencing facility, unique by its operation of multiple complementary technologies for data generation. The Institute hosts one of the largest computing hardware facilities dedicated to life science research in Europe. It is also actively involved in developing novel platforms to provide access to computational tools and processing capacity for academic and industrial users and promoting applications of computational Bioscience. Additionally, the Institute is a member of the [Galaxy Training Network](https://training.galaxyproject.org/) and offers a [Training programme](http://www.tgac.ac.uk/361_Division/) through courses and workshops, and has an [Education and Public Engagement programme](http://www.tgac.ac.uk/education-public-engagement/) targeting schools, teachers and the general public.
 
 #### Call for Sponsors
 
@@ -170,16 +170,16 @@ Thanks to everyone for letting us know what dates and times worked best for you.
 
 <div class='right'><a href='/events/meetups/baltimore/2015-01-22/'><img src="/events/meetups/baltimore/GalaxyBaltimoreMeetupLogo400.png" alt="January 2015 Galaxy Baltimore Meetup" width="150" /></a></div>
 
-The [first Baltimore Area Galaxy meetup](/events/meetups/baltimore/2015-01-22/) *was sold out.* It was the right mix of current Galaxy users, people who want to learn how to use Galaxy, and students in Biology/Computer science programs. It was good to see academics unwind with a few beers and talk about their ideas to use Galaxy. The idea behind the meetup was to build a local community of Galaxy users, and to get to know one another personally. This would in turn foster collaborations and also bring forward better feedback to the [Galaxy Team](/galaxy-team/) as well. 
+The [first Baltimore Area Galaxy meetup](/events/meetups/baltimore/2015-01-22/) *was sold out.* It was the right mix of current Galaxy users, people who want to learn how to use Galaxy, and students in Biology/Computer science programs. It was good to see academics unwind with a few beers and talk about their ideas to use Galaxy. The idea behind the meetup was to build a local community of Galaxy users, and to get to know one another personally. This would in turn foster collaborations and also bring forward better feedback to the [Galaxy Team](/galaxy-team/) as well.
 
-The second meetup is going to be hosted in February, for which we hope to have a slightly more focussed agenda. To talk about one or a few of the topics raised during the course of the month. There is now a Baltimore newsletter if you are interested) which goes out to the members who signed up for the first meetup. We hope to have more people in the coming months, and to grow a stronger Galaxy community in Baltimore. 
+The second meetup is going to be hosted in February, for which we hope to have a slightly more focussed agenda. To talk about one or a few of the topics raised during the course of the month. There is now a Baltimore newsletter if you are interested) which goes out to the members who signed up for the first meetup. We hope to have more people in the coming months, and to grow a stronger Galaxy community in Baltimore.
 
 [Enis Afgan](/people/enis-afgan/) & [Nitesh Turaga](/people/nitesh-turaga/)
 
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.supagro.fr/web/pages/?page=1964&id_page=2666'><img src="/images/logos/SupAgroMontpelierLogo.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" height="60" /></a> &nbsp;
 <a href='/community/galaxy-admins/meetups/2015-02-19/'><img src="/images/logos/GalaxyAdmins.png" alt="19 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
 <a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
@@ -300,7 +300,7 @@ The Galaxy is expanding! Please help it grow.
 * [Genome analysis PostDoc](/news/genome-analysis-post-doc-oslo/) in Oslo
 * [Bioinformatics scientist/engineer](/news/mdc-berlin-buch-opening/) for RNA bioinformatics and next-generation sequencing, [MDC Berlin-Buch](https://www.mdc-berlin.de/)  
 * [Bioinformatics Research Officer / Postdoc](http://bit.ly/1uUGUyh), Gene and Stem Cell Therapy, [The Centenary Institute](http://www.centenary.org.au/), Sydney, Australia  
-* [Postdoc Position](http://bit.ly/1JSbytl), Cancer Bioinformatics, [VIB](http://www.vib.be/), Leuven, Belgium 
+* [Postdoc Position](http://bit.ly/1JSbytl), Cancer Bioinformatics, [VIB](http://www.vib.be/), Leuven, Belgium
 
 * [Senior Development Engineer - Bioinformatics](http://bit.ly/1yGvefn), and [Bioinformatician II](http://bit.ly/1vBhgxB), University of Massachusetts Medical School
 * Searching for [bioinformaticians, post-docs, PhD students and software engineers](/news/bioinformatician-freiburg2014/) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
@@ -317,10 +317,10 @@ Several new [public Galaxy servers](/use/) were added in January.
 ## RiboGalaxy
 
 <div class='right solid'><a href='http://ribogalaxy.ucc.ie/'><img src="/use/ribogalaxy/ribogalaxy-logo.png" alt="RiboGalaxy" width="200" /></a></div>
- 
+
 [RiboGalaxy](http://ribogalaxy.ucc.ie/) provides on-line tools for the analysis and visualization of ribo-seq data obtained with the ribosome profiling technique. It is a freely available web server for processing and analysing ribosome profiling (ribo-seq) data with the visualization functionality provided by [GWIPS-viz](http://gwips.ucc.ie/). RiboGalaxy provides a compact suite of tools specifically tailored for the alignment and visualization of ribo-seq and corresponding mRNA-seq data. Users can take advantage of the published workflows on RiboGalaxy which reduce the multi-step alignment process to a minimum of inputs.
 
-RiboGalaxy has its own dedicated [Help page](http://ribogalaxy.ucc.ie/static/help.html). Please post any questions you may have on our [RiboGalaxy Forum](http://gwips.ucc.ie/Forum/). Anonymous users can use RiboGalaxy. However, the upload and processing of datasets larger than 2GB and the use of advanced features such as published workflows, will require the user to be registered on RiboGalaxy. 
+RiboGalaxy has its own dedicated [Help page](http://ribogalaxy.ucc.ie/static/help.html). Please post any questions you may have on our [RiboGalaxy Forum](http://gwips.ucc.ie/Forum/). Anonymous users can use RiboGalaxy. However, the upload and processing of datasets larger than 2GB and the use of advanced features such as published workflows, will require the user to be registered on RiboGalaxy.
 
 RiboGalaxy is supported by [Science Foundation Ireland](http://www.sfi.ie/).
 
@@ -386,7 +386,7 @@ Several *critical* security vulnerabilities were recently discovered by Bartlomi
 
 **IPython Integration**
 
-Thanks to the awesome work of community members [Björn Grüning](/people/bjoern-gruening/) and [Helena Rasche](/people/helena-rasche/), [Galaxy now features integration with the popular IPython project](/archive/dev-news-briefs/2015-01-13/#ipython-integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker. 
+Thanks to the awesome work of community members [Björn Grüning](/people/bjoern-gruening/) and [Helena Rasche](/people/helena-rasche/), [Galaxy now features integration with the popular IPython project](/archive/dev-news-briefs/2015-01-13/#ipython-integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker.
 
 ** Tool Form Upgrade (for Beta Testing) **
 
@@ -426,7 +426,7 @@ In Galaxy's development branch, the basic tool from has been [redesigned and mod
 
 Version 0.2.0 of [Planemo](https://github.com/galaxyproject/planemo/blob/master/README.rst) was released in January.  Planemo is a set of command-line utilities to assist in building tools for the Galaxy project.  Updates included:
 * Improvements to way Planemo loads its own copy of Galaxy modules to prevent various conflicts when launching Galaxy from Planemo. ([Pull Request 56](https://github.com/galaxyproject/planemo/pull/56))
-* Allow setting various test output options in ``~/.planemo.yml`` and disabling JSON output. 
+* Allow setting various test output options in ``~/.planemo.yml`` and disabling JSON output.
 * More experimental Brew and Tool Shed options that should not be considered part of Planemo's stable API. See [this presentation](http://bit.ly/gxbrew1) for more details.
 * Fix ``project_init`` for BSD tar (thanks to [Nitesh Turaga](/people/nitesh-turaga/) for the bug report.)
 * Documentation fixes for tool linting command (thanks to [Nicola Soranzo](/people/nicola-soranzo/)).
@@ -447,7 +447,7 @@ New versions [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), 
 
 Here are new contributions for the past month.
 
-In no particular order: 
+In no particular order:
 
 ### New Tools
 
@@ -468,7 +468,7 @@ In no particular order:
   * [snpsift](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift): snpEff SnpSift tools from Pablo Cingolani Variant annotation and effect prediction tools. It annotates and predicts the effects of variants on genes. This repository should manage tool dependencies. There are data managers for the Galaxy admin to download genome databases. SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed /<br />
-  * [snpsift_genesets](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_genesets): snpEff SnpSift genesets tool from Pablo Cingolani Annotates variants with GeneSets, such as Gene Ontology (GO), KEGG, Reactome, etc.; 
+  * [snpsift_genesets](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_genesets): snpEff SnpSift genesets tool from Pablo Cingolani Annotates variants with GeneSets, such as Gene Ontology (GO), KEGG, Reactome, etc.;
 
      http://snpeff.sourceforge.net/SnpSift.html#geneSets !SnpEff and !SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
@@ -483,14 +483,14 @@ In no particular order:
   * [edger](https://toolshed.g2.bx.psu.edu/view/amawla/edger): Empirical analysis of digital gene expression data. GVL. PeterMac Estimates differential gene expression for short read sequence count using methods appropriate for count data. <br />
       Performs digital differential gene expression analysis between groups (eg a treatment and control). Biological replicates provide information about experimental variability required for reliable inference. <br />
       Designed for easier use in Galaxy.<br />
-      R package requirements: 
-      * edgeR 
-      * limma 
+      R package requirements:
+      * edgeR
+      * limma
 
      Contributors: Monica Britton, Blythe Durbin-Johnson, Joseph Fass, Nikhil Joshi, Alex Mawla
 
 * *From [jjohnson](https://toolshed.g2.bx.psu.edu/view/jjohnson):*
-  * [gffread](https://toolshed.g2.bx.psu.edu/view/jjohnson/gffread): cufflinks gffread filters and/or converts GFF3/GTF2 records cufflinks gffread filters and/or converts GFF3/GTF2 records and can produce cdna, CDS, peptide fasta sequences 
+  * [gffread](https://toolshed.g2.bx.psu.edu/view/jjohnson/gffread): cufflinks gffread filters and/or converts GFF3/GTF2 records cufflinks gffread filters and/or converts GFF3/GTF2 records and can produce cdna, CDS, peptide fasta sequences
 
 * *From [mvdbeek](https://toolshed.g2.bx.psu.edu/view/mvdbeek):*
   * [add_input_name_as_column](https://toolshed.g2.bx.psu.edu/view/mvdbeek/add_input_name_as_column): Add input name as column on an existing tabular file Retrieves the histroy name of the input dataset and adds it as the last column. Very useful when working with dataset collections.
@@ -503,7 +503,7 @@ In no particular order:
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
   * [bamtools](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools): A collection of tools for manipulation of bamfiles BAMTools is a collection of utilities for splitting BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools). <br />
       GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools).
-  * [bamtools_split](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools_split): Utility for splitting BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools).<br /> 
+  * [bamtools_split](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools_split): Utility for splitting BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools).<br />
       GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools/bamtools_split).
 
 * [bamtools_filter](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools_filter): Utility for filtering BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools). <br />
@@ -516,7 +516,7 @@ In no particular order:
   * [tool_factory_2](https://toolshed.g2.bx.psu.edu/view/fubar/tool_factory_2): Initial commit of code in iuc github repository. updated version of the tool factory  Includes arbitrary parameters and multiple inputs. Cost is more complex parameter parsing but examples are provided. Now allows selecting any installed interpreter tool shed package or using the system default!
 
 * *From [nikhil-joshi](https://toolshed.g2.bx.psu.edu/view/nikhil-joshi):*
-  * [sam2counts_edger](https://toolshed.g2.bx.psu.edu/view/nikhil-joshi/sam2counts_edger): Takes SAM files and outputs a table of counts that can be used with edgeR. 
+  * [sam2counts_edger](https://toolshed.g2.bx.psu.edu/view/nikhil-joshi/sam2counts_edger): Takes SAM files and outputs a table of counts that can be used with edgeR.
 
 ### Tool Suites
 
@@ -524,13 +524,13 @@ In no particular order:
   * [suite_mirdeep_2_0](https://toolshed.g2.bx.psu.edu/view/rnateam/suite_mirdeep_2_0): The suite of tool wrappers for mirDeep2. MiRDeep2 is a software package for identification of novel and known miRNAs in deep sequencing data. Furthermore, it can be used for miRNA expression profiling across samples.
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [suite_bamtools_2_3_0](https://toolshed.g2.bx.psu.edu/view/devteam/suite_bamtools_2_3_0):  BAMTools is a collection of utilities for manipulating BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools). 
+  * [suite_bamtools_2_3_0](https://toolshed.g2.bx.psu.edu/view/devteam/suite_bamtools_2_3_0):  BAMTools is a collection of utilities for manipulating BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools).
       GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools).
 
 ### Data Managers
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc/): *
-  * [data_manager_snpeff](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_snpeff): Manage SnpEff genome reference data Data managers for the Galaxy admin to download SnpEff genome databases. 
+  * [data_manager_snpeff](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_snpeff): Manage SnpEff genome reference data Data managers for the Galaxy admin to download SnpEff genome databases.
       SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed/
@@ -546,7 +546,7 @@ In no particular order:
       http://www.tbi.univie.ac.at/RNA /<br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/)<br />
       Repository-Development: https://github.com/bgruening/galaxytools
-  * [package_perl_pdf_api2_2_023](https://toolshed.g2.bx.psu.edu/view/iuc/package_perl_pdf_api2_2_023): Contains a tool dependency definition that downloads and compiles version 2.023 of the perl PDF API 
+  * [package_perl_pdf_api2_2_023](https://toolshed.g2.bx.psu.edu/view/iuc/package_perl_pdf_api2_2_023): Contains a tool dependency definition that downloads and compiles version 2.023 of the perl PDF API
   * [package_randfold_2_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_randfold_2_0): Contains a tool dependency definition that downloads and compiles version 2.0 of randfold. This is RANDFOLD version 2. The software compute the probability that, for a given sequence, the Minimum Free Energy (MFE) of the secondary structure is different from MFE computed with random sequences. <br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/) & Cameron Smith<br />
       Repository-Development: https://github.com/bgruening/galaxytools
@@ -554,9 +554,9 @@ In no particular order:
       http://www.boost.org /<br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/)<br />
       Repository-Development: https://github.com/bgruening/galaxytools
-  * [package_rhmm_1_5_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_rhmm_1_5_0): Installs the RHmm CRAN library. Discrete, univariate or multivariate gaussian, mixture of univariate or multivariate gaussian HMM functions for simulation and estimation. 
+  * [package_rhmm_1_5_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_rhmm_1_5_0): Installs the RHmm CRAN library. Discrete, univariate or multivariate gaussian, mixture of univariate or multivariate gaussian HMM functions for simulation and estimation.
   * [package_snpeff_4_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_snpeff_4_0): Contains a tool dependency definition that installs version 4.0 SnpEff, a variant annotation and effect prediction tool. SnpEff is a variant annotation and effect prediction tool by Pablo Cingolani. <br />
-      It annotates and predicts the effects of variants on genes (such as amino acid changes).<br /> 
+      It annotates and predicts the effects of variants on genes (such as amino acid changes).<br />
       SnpEff and SnpSift ( http://snpeff.sourceforge.net/ )
   * [package_bedtools_2_22](https://toolshed.g2.bx.psu.edu/view/iuc/package_bedtools_2_22): Contains a tool dependency definition that downloads and compiles version 2.22 of bedtools. bedtools - a swiss army knife for genome arithmetic<br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/)<br />
@@ -570,8 +570,8 @@ In no particular order:
 
 * *From [malbuquerque](https://toolshed.g2.bx.psu.edu/view/malbuquerque):*
   * [package_seqtk_1_0_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_seqtk_1_0_0): Builds Seqtk version 1.0.0 "Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format. It seamlessly parses both FASTA and FASTQ files which can also be optionally compressed by gzip" -Heng Li, Broad Institute
-  * [package_bamtools_2_3_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_bamtools_2_3_0): BamTools - a collection of utilities for processing of bam files - for all architectures 
-  * [package_cmake_3_1_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_cmake_3_1_0): Builds CMake version 3.1.0 - Cross Platform Makefile Generator 
+  * [package_bamtools_2_3_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_bamtools_2_3_0): BamTools - a collection of utilities for processing of bam files - for all architectures
+  * [package_cmake_3_1_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_cmake_3_1_0): Builds CMake version 3.1.0 - Cross Platform Makefile Generator
   * [package_ucsc_user_apps_310](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_ucsc_user_apps_310): Builds most UCSC user applications Only those tools which successfully build without using mysql_config. Specifically only those in the kent/src/utils directory (those publicly available).
 
 # Other News
@@ -579,8 +579,8 @@ In no particular order:
 * An [IPython Notebook that builds Galaxy tool_dependencies.xml file for Perl packages](http://nbviewer.ipython.org/github/bgruening/notebooks/blob/master/Perl/perl_package_to_galaxy_tool_dependency.ipynb), from [Björn Grüning](/people/bjoern-gruening/)
 * [NSF Award CIF21 DIBBS: Tripal Gateway, a Platform for Next-Generation Data Analysis and Sharing](http://nsf.gov/awardsearch/showAward?AWD_ID=1443040).  Will integrate [Tripal](http://tripal.info/) and Galaxy, and allow Tripal community databases to create and share workflows.  (See also this story in [HPCwire](http://www.hpcwire.com/2015/01/21/nsf-signs-1-4-million-check-advance-community-database/).)
 * [Dan Blankenberg](/people/dan/) on a [useful way to handle tools with outputs tied to tool version](https://github.com/galaxyproject/tools-iuc/issues/22#issuecomment-69930103) in Galaxy
-* In [galaxy-central](https://bitbucket.org/galaxy/galaxy-central/) now: [tools can explicitly produce collections of datasets](https://bitbucket.org/galaxy/galaxy-central/pull-request/634/allow-tools-to-explicitly-produce-dataset/diff) 
-* [Getting your 23 and Me data into Galaxy](http://genomeintelligence.org/?p=745), at [Genome Intelligence](http://genomeintelligence.org/) 
+* In [galaxy-central](https://bitbucket.org/galaxy/galaxy-central/) now: [tools can explicitly produce collections of datasets](https://bitbucket.org/galaxy/galaxy-central/pull-request/634/allow-tools-to-explicitly-produce-dataset/diff)
+* [Getting your 23 and Me data into Galaxy](http://genomeintelligence.org/?p=745), at [Genome Intelligence](http://genomeintelligence.org/)
 * [What are the differences](https://www.biostars.org/p/126034/) between [Biostars - bioinformatics explained](https://www.biostars.org/) and [Biostars - Galaxy explained](https://biostar.usegalaxy.org/)?
 
 ## And a Huge Thank You!

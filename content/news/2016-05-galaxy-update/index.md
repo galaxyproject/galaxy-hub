@@ -20,8 +20,8 @@ Some highlights from the **[May Galaxy News](/galaxy-updates/2016-05/)**
   * [Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data Workshop @ UC Davis](/galaxy-updates/2016-05/#using-galaxy-for-analysis-of-rna-seq-and-chip-seq-data)
   * [All May, June and July Events](/galaxy-updates/2016-05/#may-june-and-july-events)
 * **[Galaxy on Jetstream Cloud](/galaxy-updates/2016-05/#galaxy-on-jetstream-cloud)**
-* [New tutorials and video](/galaxy-updates/2016-05/#new-tutorials-and-video) on Diploid Variant Calling, Reference Based RNA-Seq, and Dataset Collections. 
-* [Slides and video from the April GalaxyAdmins meetup](/galaxy-updates/2016-05/#april-galaxyadmins-slides--video) and a [report from the Conda Dependency Codefest](/galaxy-updates/2016-05/#conda-dependency-codefest-report) 
+* [New tutorials and video](/galaxy-updates/2016-05/#new-tutorials-and-video) on Diploid Variant Calling, Reference Based RNA-Seq, and Dataset Collections.
+* [Slides and video from the April GalaxyAdmins meetup](/galaxy-updates/2016-05/#april-galaxyadmins-slides--video) and a [report from the Conda Dependency Codefest](/galaxy-updates/2016-05/#conda-dependency-codefest-report)
 * [Papers](/galaxy-updates/2016-05/#new-papers) (72 of them, 8 highlighted)
 * [Open positions](/galaxy-updates/2016-05/#whos-hiring) (6 of them)
 * New [MGEScan](/galaxy-updates/2016-05/#mgescan) and [Koslicki Lab](/galaxy-updates/2016-05/#koslicki-lab) public Galaxy servers

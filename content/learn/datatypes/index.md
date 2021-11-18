@@ -199,7 +199,7 @@ A sequence in `FASTA` format consists of a single title line and one or more
 lines of sequence data wrapped to a consistent length. The first character of
 the title line is a greater-than (">") symbol.
 
-<pre>>sequence1 
+<pre>>sequence1
 atgcgtttgcgtgcatgcgtttgcgtgcatgcgtttgcgtgcatgcgtttgcgtgc
 gtcggtttcgttgcatgcgtttgcgtgcatgcgtttgcgtgcatgcgtttgcgtgc
 atgcgtttgcgtgc
@@ -335,7 +335,7 @@ specification: [http://genome.ucsc.edu/FAQ/FAQformat.html#format4](http://genome
 
 * Remove the headers (lines that start with a "#") with the **Select** tool using the option "NOT Matching" with the regular expression: `^#`
 * Remove blank lines with the **Select** tool using the option "NOT Matching" with the regular expression: `^$`
-* Once the formatting is fixed, change the datatype to be `gft` under Edit Attributes (pencil icon). 
+* Once the formatting is fixed, change the datatype to be `gft` under Edit Attributes (pencil icon).
 * Often `gft` data will be given the datatype `gff` by default when formatting problems are present, which works fine with some tools and but not with others. It is a good idea to fix the data first, at the start of an analysis, to avoid confusing tool errors.
 
 ## GFF3
@@ -348,7 +348,7 @@ and can contain extra content such as [FASTA](#fasta) sequence.
 Seeing the official specification (and online validation tool) for details is
 highly recommended.
 
-**TIP** When using `GFF3` datasets in Galaxy, the dataset must containly **only the single header line and the primary data lines** or tools may error. Extra comment lines (###), repeats, and fasta content is not accepted. 
+**TIP** When using `GFF3` datasets in Galaxy, the dataset must containly **only the single header line and the primary data lines** or tools may error. Extra comment lines (###), repeats, and fasta content is not accepted.
 
  > When obtaining reference annotation from the **Ensembl** downloads area, choose the `GTF` annotation for use with Galaxy's tools. Avoid the `GFF3` annotation as it contains this extra content.
 
@@ -365,7 +365,7 @@ The official specification is at
 datasets are available from many sources and can sometimes be created from
 other datatypes.
 
-*   How to source Human, Mouse, and other common genome `GTF` reference annnotation data. [See Method 6 here.](/support/chrom-identifiers/#any-mixed-sourced-data) 
+*   How to source Human, Mouse, and other common genome `GTF` reference annnotation data. [See Method 6 here.](/support/chrom-identifiers/#any-mixed-sourced-data)
 *   The public [Main](/main/) Galaxy instance contains tools to examine and
     manipulate [GFF](#gff)/[GTF](#gtf) files
     under the tool group **Filter and Sort**.

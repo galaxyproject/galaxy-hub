@@ -21,7 +21,7 @@ GCC2019 will finish with *CollaborationFest*, a 2 (or 4) day collaborative work 
 
 CoFest is split in half again this year:
 
-**CollaborationFest: Core: Friday & Saturday** 
+**CollaborationFest: Core: Friday & Saturday**
 
 There will be lots of collaborative work, but also lots of learning about projects and software.  This will be the larger of the two stages.  All you need to attend this is an interest and willingness to contribute.
 

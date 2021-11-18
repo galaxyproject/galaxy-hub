@@ -12,7 +12,7 @@ The *September 2019 Galactic News* continues 1) the reformatting that started la
 * [150 new publications](/news/2019-09-galaxy-update/#publications)
 * [Three new Galactic Blog posts](/news/2019-09-galaxy-update/#galactic-blog-activity)
 * [Galaxy Platform News](/news/2019-09-galaxy-update/#galaxy-platforms-news)
-* [6 Openings](/news/2019-09-galaxy-update/#whos-hiring) 
+* [6 Openings](/news/2019-09-galaxy-update/#whos-hiring)
 * [Training material and doc updates](/news/2019-09-galaxy-update/#doc-hub-and-training-updates)
 * [New release](/news/2019-09-galaxy-update/#releases)
 * [Other news](/news/2019-09-galaxy-update/#other-news)
@@ -143,7 +143,7 @@ Jochen T Bick, Shuqin Zeng, Mark D Robinson, Susanne E Ulbrich, Stefan Bauersach
 
 Publications are tagged with how they use, extend or reference Galaxy.  The past month's pubs were tagged as:
 
-<a class="btn"  style="text-align: right; background-color: #64c564;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Methods"> 103 : <strong>Methods</strong></a> <a class="btn"  style="text-align: right; background-color: #80cf80;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic"> 45 : <strong>UsePublic</strong></a> <a class="btn"  style="text-align: right; background-color: #9fdb9f;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench"> 17 : <strong>Workbench</strong></a> <a class="btn"  style="text-align: right; background-color: #a1dba1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic"> 16 : <strong>RefPublic</strong></a> <a class="btn"  style="text-align: right; background-color: #aadfaa;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain"> 12 : <strong>UseMain</strong></a> <a class="btn"  style="text-align: right; background-color: #b6e3b6;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility"> 8 : <strong>Reproducibility</strong></a> <a class="btn"  style="text-align: right; background-color: #bae5ba;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal"> 7 : <strong>UseLocal</strong></a> <a class="btn"  style="text-align: right; background-color: #c9ebc9;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Tools"> 4 : <strong>Tools</strong></a> <a class="btn"  style="text-align: right; background-color: #e8f6e8;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud"> 1 : <strong>Cloud</strong></a> 
+<a class="btn"  style="text-align: right; background-color: #64c564;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Methods"> 103 : <strong>Methods</strong></a> <a class="btn"  style="text-align: right; background-color: #80cf80;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic"> 45 : <strong>UsePublic</strong></a> <a class="btn"  style="text-align: right; background-color: #9fdb9f;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench"> 17 : <strong>Workbench</strong></a> <a class="btn"  style="text-align: right; background-color: #a1dba1;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic"> 16 : <strong>RefPublic</strong></a> <a class="btn"  style="text-align: right; background-color: #aadfaa;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain"> 12 : <strong>UseMain</strong></a> <a class="btn"  style="text-align: right; background-color: #b6e3b6;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility"> 8 : <strong>Reproducibility</strong></a> <a class="btn"  style="text-align: right; background-color: #bae5ba;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal"> 7 : <strong>UseLocal</strong></a> <a class="btn"  style="text-align: right; background-color: #c9ebc9;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Tools"> 4 : <strong>Tools</strong></a> <a class="btn"  style="text-align: right; background-color: #e8f6e8;" href="https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud"> 1 : <strong>Cloud</strong></a>
 </div>
 </div>
 
@@ -192,7 +192,7 @@ Features a comprehensive set of analysis tools and consolidated workflows for cl
 <img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * [PathwayMatcher published and running on usegalaxy.eu](https://galaxyproject.eu/posts/2019/08/20/PathwayMatcher/). [PathwayMatcher](https://doi.org/10.1093/gigascience/giz088) builds a protein-protein interaction network from the Reactome pathway database.
-* [MaxQuant goes Galaxy](https://galaxyproject.eu/posts/2019/08/02/max-quant/). The European Galaxy server now contains two MaxQuant tools. 
+* [MaxQuant goes Galaxy](https://galaxyproject.eu/posts/2019/08/02/max-quant/). The European Galaxy server now contains two MaxQuant tools.
 * [Galaxy Australia moves to new hardware](https://usegalaxy-au.github.io/posts/2019/08/07/galaxy-australia-to-new-hardware/plain.html). Galaxy Australia moves to the new QRIS cloud stage 5 hardware
 </div>
 
@@ -251,7 +251,7 @@ The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io
 <div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header">[Application Support / Software Developer](http://jobs.unimelb.edu.au/caw/en/job/900700/application-support-software-developer)</div>
 
-Contribute to the operation, support and functionality developments of [Galaxy Australia](https://usegalaxy.org.au/), an award-winning publicly available platform for performing bioinformatics analyses and workflows for Australian researchers. 
+Contribute to the operation, support and functionality developments of [Galaxy Australia](https://usegalaxy.org.au/), an award-winning publicly available platform for performing bioinformatics analyses and workflows for Australian researchers.
 
 <img class="card-img-bottom" src="/images/logos/GalaxyAustralia.png" alt="Galaxy Australia" />
 </div>
@@ -337,7 +337,7 @@ New additions (and editions) in the Galaxy Ecosystem.
 * to run analyses on Galaxy using a programmatic interface.
 * script and automate the process of cloud infrastructure provisioning and scaling via CloudMan.
 
-See the [v 0.13.0 release notes](https://github.com/galaxyproject/bioblend/releases/tag/v0.13.0) for more. 
+See the [v 0.13.0 release notes](https://github.com/galaxyproject/bioblend/releases/tag/v0.13.0) for more.
 </div>
 </div>
 

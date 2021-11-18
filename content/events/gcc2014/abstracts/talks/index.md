@@ -5,7 +5,7 @@ title: GCC2014 Talk Abstracts
 
 <slot name="/events/gcc2014/linkbox" />
 
- 
+
 # Session 1, Tuesday, July 1, 9:15-10:30
 
 ## Transcriptomes and Exomes: Computational Challenges of NGS Data
@@ -34,11 +34,11 @@ title: GCC2014 Talk Abstracts
 
 Integration and correlation of multiple areas of 'omics' datasets (genomic, transcriptomic, proteomic) has potential to provide novel biological insights. Integration of these datasets is challenging however, involving use of multiple, domain-specific software in a sequential manner.
 
-We describe extending the use of Galaxy for proteomics software, enabling novel, advanced multi-omic applications in proteogenomics and metaproteomics. Focusing on the perspective of a biological user, we will demonstrate the benefits of Galaxy for these analyses, as well as its value for software developers seeking to publish new software.  We will also report on our experience in training non-expert biologists to use Galaxy for these advanced, multi-omic applications. 
+We describe extending the use of Galaxy for proteomics software, enabling novel, advanced multi-omic applications in proteogenomics and metaproteomics. Focusing on the perspective of a biological user, we will demonstrate the benefits of Galaxy for these analyses, as well as its value for software developers seeking to publish new software.  We will also report on our experience in training non-expert biologists to use Galaxy for these advanced, multi-omic applications.
 
-Working with biological collaborators, multiple proteogenomics and metaproteomics datasets representing a broad array of biological applications were used to develop workflows. Software required for sequential analytical steps such as database generation (RNA-Seq derived and others), database search and genome visualization were deployed, tested and optimized for use in workflows. 
+Working with biological collaborators, multiple proteogenomics and metaproteomics datasets representing a broad array of biological applications were used to develop workflows. Software required for sequential analytical steps such as database generation (RNA-Seq derived and others), database search and genome visualization were deployed, tested and optimized for use in workflows.
 
-Novel proteoforms (proteogenomic workflows, e.g., [Galaxy Workflow: Integrated ProteoGenomics Workflow (ProteinPilot)](http://z.umn.edu/pg140)) and microorganisms (metaproteomic workflows, e.g., [Workflow for metaproteomics analysis - ProteinPilot'](http://z.umn.edu/mp65) ) were reliably identified using shareable workflows. Tandem proteogenomic and metaproteomic analysis of datasets will be discussed using modular workflows. Sharing of datasets, workflows and histories on the usegalaxyp.org website and proteomic public repositories will also be discussed. 
+Novel proteoforms (proteogenomic workflows, e.g., [Galaxy Workflow: Integrated ProteoGenomics Workflow (ProteinPilot)](http://z.umn.edu/pg140)) and microorganisms (metaproteomic workflows, e.g., [Workflow for metaproteomics analysis - ProteinPilot'](http://z.umn.edu/mp65) ) were reliably identified using shareable workflows. Tandem proteogenomic and metaproteomic analysis of datasets will be discussed using modular workflows. Sharing of datasets, workflows and histories on the usegalaxyp.org website and proteomic public repositories will also be discussed.
 
 We demonstrate the use of Galaxy for integrated analysis of multi-omic data, in an accessible, transparent and reproducible manner. Our results and experiences using this framework demonstrate the potential for Galaxy to be a unifying bioinformatics solution for multi-omic data analysis.
 
@@ -170,7 +170,7 @@ An overview of where the Galaxy Project is and where it is going.
 **[Greg von Kuster](/people/greg-vonkuster/)<sup>1</sup>** and the [Galaxy Team](/galaxy-team/)
 
  <sup>1</sup> [Penn State University](http://psu.edu/), State College, Pennsylvania, United States<br />
- 
+
 **[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2014/VonKuster.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=555f1477-4676-425f-9701-ed70cee6d1ca)**
 
 The [Tool Shed](/toolshed/) has become an integral part of the process for building and deploying Galaxy tools and other utilities.  In addition to tools, the Tool Shed supports Galaxy Data Managers, custom data types and exported Galaxy workflows.  This list will be extended to support additional utilities when appropriate.  The Tool Shed provides the ability to define relationships between repositories, enabling complementary utilities to be installed together.
@@ -256,7 +256,7 @@ In this talk, we’ll very briefly describe our Galaxy Hackathon goals and provi
 
 **[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2014/Blankenberg.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c1e892bc-0df2-40fd-b857-a933484a4834)**
 
-Recent enhancements to the Galaxy framework have introduced a new class of Galaxy Utilities, known as *Data Managers* ([doi:10.1093/bioinformatics/btu119](http://bioinformatics.oxfordjournals.org/content/early/2014/03/12/bioinformatics.btu119.full)). Data Manager tools allow the Galaxy administrator to download, create and install additional datasets for any type of built-in datasets using a web-based GUI in real time. 
+Recent enhancements to the Galaxy framework have introduced a new class of Galaxy Utilities, known as *Data Managers* ([doi:10.1093/bioinformatics/btu119](http://bioinformatics.oxfordjournals.org/content/early/2014/03/12/bioinformatics.btu119.full)). Data Manager tools allow the Galaxy administrator to download, create and install additional datasets for any type of built-in datasets using a web-based GUI in real time.
 
 Despite these advances, populating a Galaxy instance with a set of built-in datasets can be quite time consuming, especially in cases where data not only needs to be downloaded, but additional computation, such as building indexes, is required. While this works quite well, it is wasteful to have each Galaxy installation build these datasets especially for common resources and genomes. It can take considerable amounts of time to populate a new Galaxy instance with needed datasets. Although the Galaxy Project provides a public rsync server with all of the built-in datasets that are used on the Main public site, utilizing this resource can be difficult and unwieldy, as there is a large amount of data and it lacks an accessible interface interface. While the individual location files are made available, they cannot be used as-is by an end user, unless the user has the exact same directory structure on their own machine that is hosting their Galaxy instance.
 
@@ -327,7 +327,7 @@ No experiment begins with sequencing. Instead it commences with a collection of 
 Using NGS data in a clinical context comes along with a whole range of challenges, constraints and requirements, affecting all levels of an IT infrastructure dealing with that type of data – and related biomedical metadata. Especially in Germany, the restrictive data security laws play a key role.
 In 2010, the Munich regional area successfully applied for a grant ('Leading-Edge Cluster Competition') dedicated to ‘personalized medicine’, supporting infrastructures for improving cross-connections between the medical faculties of both universities and associated institutions, their hospitals, independent research institutes ([Helmholtz Centre](https://www.helmholtz.de/en/helmholtz_centres_networks/helmholtz_centres/), [Max Planck Institutes](http://www.mpg.de/institutes)) and industrial partners.
 
-Aiming for a structured, biomedical metadata-driven organization of clinical NGS data, an interconnected, user-friendly, modular, broad-ranged and self-hosted open source analysis platform turned out to be crucial. Or in a nutshell: a Galaxy instance. 
+Aiming for a structured, biomedical metadata-driven organization of clinical NGS data, an interconnected, user-friendly, modular, broad-ranged and self-hosted open source analysis platform turned out to be crucial. Or in a nutshell: a Galaxy instance.
 
 This talk is about the experiences of nearly three years of getting from blank to a conceptual Galaxy-driven NGS infrastructure, dedicated to scientist or clinicians from basic research up to experimental molecular diagnostics within a university medical center’s environment. Topics will include experiences with core IT, faculty politics, project cooperations, software establishment etc. as well as derived Dos and Don’ts. Furthermore, some small software improvements will be presented, hopefully contributing back to the community. On top, we would like to draw connections to contents presented, discussed, improved since the last two GCC’s in [Chicago](/events/gcc2012/) and [Oslo](/events/gcc2013/) - and also may have been forgotten. Over time, we had the impression to face several of them, pretty glad not to be in a minority of one.
 
@@ -340,17 +340,17 @@ This talk is about the experiences of nearly three years of getting from blank t
 
 **[Vivien DESHAIES](http://fr.linkedin.com/pub/vivien-deshaies/36/9b1/831)<sup>1,2,3</sup>, [Alban LERMINE](http://u900.curie.fr/en/profile/alban-lermine-00587)<sup>1,2,3</sup>**, [Séverine LAIR](http://u900.curie.fr/en/profile/severine-lair-00433)<sup>1,2,3</sup> , [Nicolas SERVANT](http://u900.curie.fr/en/profile/nicolas-servant-00440)<sup>1,2,3</sup>, [Elodie GIRARD](http://fr.linkedin.com/pub/elodie-girard/28/14b/984)<sup>1,2,3</sup>, Julien TARABEUX<sup>4,5</sup>, [Philippe HUPE](http://fr.linkedin.com/pub/philippe-hup%C3%A9/58/88/b11)<sup>1,2,3</sup>, [Claude HOUDAYER](http://u830.curie.fr/fr/profile/claude-houdayer-001011)<sup>4,5</sup>, [Emmanuel BARILLOT](http://curie.fr/en/profile/barillot-002973)<sup>1,2,3</sup>
 
- <sup>1</sup> [Institut Curie](http://curie.fr/)<br /> 
+ <sup>1</sup> [Institut Curie](http://curie.fr/)<br />
  <sup>2</sup> [INSERM U900, Bioinformatics and Computational Systems Biology of Cancer](http://u900.curie.fr/), Paris, France<br />
  <sup>3</sup> [Mines ParisTech, Fontainebleau](http://www.fbleau.mines-paristech.fr/), France<br />
- <sup>4</sup> [INSERM U830, Génétique et biologie des cancers](http://u830.curie.fr/en/genetics-and-biology-cancers/unit/unit-00106), Paris, France<br /> 
+ <sup>4</sup> [INSERM U830, Génétique et biologie des cancers](http://u830.curie.fr/en/genetics-and-biology-cancers/unit/unit-00106), Paris, France<br />
  <sup>5</sup> [Biologie des Tumeurs](http://u830.curie.fr/fr/genetique-et-biologie-des-cancers/unite/unite-0067), Paris, France
 
 **[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2014/Deshaies.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=66e5c295-3aac-4ee9-8edc-21d0abccdf24)**
 
 Early cancer diagnostic is a challenge that can dramatically improve cancer treatment efficiency. High throughput sequencing technology is the more promising solution to reach this goal, but the analysis of their output is not straightforward and most of the time, need to launch software only available via command line interface.
 
-Galaxy is a web platform that aim to: (1) make command line softwares accessible in an easy to use web interface, (2) construct personal workflows, (3) make analyses reproducible among time, (4) share know-how (workflow sharing) as well as data and annotations. 
+Galaxy is a web platform that aim to: (1) make command line softwares accessible in an easy to use web interface, (2) construct personal workflows, (3) make analyses reproducible among time, (4) share know-how (workflow sharing) as well as data and annotations.
 
 We built Galaxydx, an implementation of Galaxy containing a suite of softwares used for the analyses of diagnosis sequencing data (PGM torrent suite, BWA, GATK, VarScan, Annovar, … etc). Galaxydx allows Clinicians as well as Biologists to be autonomous to perform a complete set of analyses such as: (1) mapping, (2) variant calling, (3) variant filtering, (4) variant annotation, (5) rearrangements calling and (6) visualization through diagnosis dedicated Genome browser ([Alamut](http://www.interactive-biosoftware.com/alamut-visual/)).
 
@@ -401,11 +401,11 @@ GI UV scales to truly extraordinary levels – today up to 2,560 physical cores 
 **[Olivier Inizan](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Olivier-Inizan)<sup>1</sup>, [Mikael Loaec](https://urgi.versailles.inra.fr/About-us/Team/Genome-analysis/Mikael-Loaec)<sup>1</sup>**, [Helena Rasche](/people/helena-rasche/)<sup>2</sup>, [Hadi Quesneville](https://urgi.versailles.inra.fr/About-us/Team/Management-staff/Hadi-Quesneville)<sup>1</sup>
 
  <sup>1</sup> [URGI-INRA](https://urgi.versailles.inra.fr/), Versailles, France
- <sup>2</sup> [Center for Phage Technology](https://cpt.tamu.edu/), [Texas A&M University](http://tamu.edu), College Station, Texas, United States 
+ <sup>2</sup> [Center for Phage Technology](https://cpt.tamu.edu/), [Texas A&M University](http://tamu.edu), College Station, Texas, United States
 
 **[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2014/InizanLoaec.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=173f00ca-ce51-48eb-88a1-054b5f1de120)**
 
-The democratization of virtualization techniques provide a new opportunity to improve bioinformatics analysis. Storing, sharing and reusing tools dedicated to an analysis is the goal of the galaxy toolshed project. With virtualization techniques, it is now possible to expand their strategy to all the components required to perform a bioinformatic analysis such as the operating system, the software, the datasets, the dependencies, the user data, …). 
+The democratization of virtualization techniques provide a new opportunity to improve bioinformatics analysis. Storing, sharing and reusing tools dedicated to an analysis is the goal of the galaxy toolshed project. With virtualization techniques, it is now possible to expand their strategy to all the components required to perform a bioinformatic analysis such as the operating system, the software, the datasets, the dependencies, the user data, …).
 
 Integrating these components in a virtual machine provide a virtual research environment (VRE) that could be duplicated and shared. With the growing availability of infrastructures supporting virtualization (such as cloud computing infrastructures), VREs offer a new opportunity to improve bioinformatics analysis accessibility and reproducibility.
 
@@ -462,7 +462,7 @@ This talk will be about our experiences while integrating Galaxy with GenomeClou
 
 <div class='right'><a href='http://www.vlsci.org.au/researcher/ngoonasekera'><img src="/images/people/nuwan.jpg" alt="Nuwan Goonasekera" width="120" /></a></div>
 
-[Enis Afgan](/people/enis-afgan/)<sup>1,2</sup>, Derek Benson<sup>3</sup>, and **[Nuwan Goonasekera](http://www.vlsci.org.au/researcher/ngoonasekera)<sup>1</sup>** 
+[Enis Afgan](/people/enis-afgan/)<sup>1,2</sup>, Derek Benson<sup>3</sup>, and **[Nuwan Goonasekera](http://www.vlsci.org.au/researcher/ngoonasekera)<sup>1</sup>**
 
  <sup>1</sup> [VLSCI](http://www.vlsci.org.au/), University of Melbourne, Melbourne, Australia<br />
  <sup>2</sup> CIR, RBI, Zagreb, Croatia<br />

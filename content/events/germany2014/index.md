@@ -12,21 +12,21 @@ In addition to the [2nd Swiss Galaxy Workshop](/events/switzerland2014/), we wil
 ## Preliminary Schedule
 
 
-| Time |  Speaker  |  Title  |  PDF  | 
-| ---- | -------- | ------ | ---- | 
-| 9:15 - 9:30 |  ARRIVAL  | 
-| 9:30 - 9:45 |  [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Introduction: Galaxy as Developer Platform  |   | 
+| Time |  Speaker  |  Title  |  PDF  |
+| ---- | -------- | ------ | ---- |
+| 9:15 - 9:30 |  ARRIVAL  |
+| 9:30 - 9:45 |  [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Introduction: Galaxy as Developer Platform  |   |
 | 9:45 - 10:15 |  [Nicola Soranzo](/people/nicola-soranzo/) ([CRS4](http://www.crs4.it/))  |  BioBlend and BioBlend.objects: high level API for scripting Galaxy analyses  |  [pdf](https://depot.galaxyproject.org/hub/attachments/documents/presentations/Soranzo_SG2014T.pdf
-/tmp/AttchmentsWorking//events/germany2014/Soranzo_SG2014T.pdf)  | 
-| 10:15 - 10:45 |  Jürgen Reymann  |  Automated Data Pipelines & Intelligent Microscopy  |  [pdf](https://depot.galaxyproject.org/hub/attachments/AutomatedDataPipelines_IntelligentMicroscopy_JürgenReymann.pdf)   | 
-| 11:15 - 11:45 |  Sebastian Wilzbach  |  BioJS 2: taking biological visualization to the next level  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/germany2014/attachment_BioJS-Reusable_JavaScript_for_Life_Sciences.pdf), [video](https://www.youtube.com/watch?v=SkMKuj-Q0YI)  | 
-| 11:45 - 13:00 |  Lunch Break (we will need to find some food nearby)  | 
-| 13:00 - 13:30 |  Sebastian Schaaf  |  Galaxy deployment joy in Munich  |   | 
-| 13:30 - 14:00 |  [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Interactive Environments: IPython in Galaxy  |   | 
-| 14:30 - 15:30|  Open Discussion  | 
-| 15:30 - 16:00 |  DEPARTURE (... and going to the city)  | 
+/tmp/AttchmentsWorking//events/germany2014/Soranzo_SG2014T.pdf)  |
+| 10:15 - 10:45 |  Jürgen Reymann  |  Automated Data Pipelines & Intelligent Microscopy  |  [pdf](https://depot.galaxyproject.org/hub/attachments/AutomatedDataPipelines_IntelligentMicroscopy_JürgenReymann.pdf)   |
+| 11:15 - 11:45 |  Sebastian Wilzbach  |  BioJS 2: taking biological visualization to the next level  |  [pdf](https://depot.galaxyproject.org/hub/attachments/events/germany2014/attachment_BioJS-Reusable_JavaScript_for_Life_Sciences.pdf), [video](https://www.youtube.com/watch?v=SkMKuj-Q0YI)  |
+| 11:45 - 13:00 |  Lunch Break (we will need to find some food nearby)  |
+| 13:00 - 13:30 |  Sebastian Schaaf  |  Galaxy deployment joy in Munich  |   |
+| 13:30 - 14:00 |  [Björn Grüning](/people/bjoern-gruening/) ([University of Freiburg](http://www.uni-freiburg.de/))  |  Interactive Environments: IPython in Galaxy  |   |
+| 14:30 - 15:30|  Open Discussion  |
+| 15:30 - 16:00 |  DEPARTURE (... and going to the city)  |
 
-This schedule will most likely change. It will be adapted according to the progress we make during the day and topics we want to discuss. 
+This schedule will most likely change. It will be adapted according to the progress we make during the day and topics we want to discuss.
 
 ## Location
 

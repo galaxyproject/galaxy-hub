@@ -11,7 +11,7 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
 ## New Tools
 
 * *From [jpetteng](https://toolshed.g2.bx.psu.edu/view/jpetteng):*
-   * [ectyper1_0](https://toolshed.g2.bx.psu.edu/view/jpetteng/ectyper1_0):  E. coli typer based on WGS data. 
+   * [ectyper1_0](https://toolshed.g2.bx.psu.edu/view/jpetteng/ectyper1_0):  E. coli typer based on WGS data.
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp):*
    * [retrieve_ensembl_bed](https://toolshed.g2.bx.psu.edu/view/galaxyp/retrieve_ensembl_bed):  Retrieve cDNA features from Ensembl REST API in BED format. Retrieve cDNA features from Ensembl REST API in BED format.  Features can be filtered by genomic region or Ensembl biotype.
    * [proteomics_moff](https://toolshed.g2.bx.psu.edu/view/galaxyp/proteomics_moff):  moFF (a modest Feature Finder) extracts MS1 intensities from RAW and mzML spectrum files. moFF is an open-source Python program for label-free quantification. It associates the apex intensity of the MS1 scans with peptides identified via SearchGUI/PeptideShaker or other search engine tools.  https://github.com/compomics/moFF.
@@ -21,14 +21,14 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
    * [translate_bed](https://toolshed.g2.bx.psu.edu/view/galaxyp/translate_bed):  Translate BED transcript CDS or cDNA in 3 frames. Translate transcripts from the input BED file into protein sequences.    The genomic sequence may be supplied  in an extra column in the BED input file,  retrieved from a twobit genomic reference file,    or retrieved from the Ensembl REST API for Ensembl transcripts.
    * [bed_to_protein_map](https://toolshed.g2.bx.psu.edu/view/galaxyp/bed_to_protein_map):  Converts a BED file to a tabular list of exon locations. Converts a BED file (12 column) to a 6 column tabular list of exon locations  with columns: name,chrom,start,end,strand,cds_start,cds_end.    It relies on the ThickStart and ThckEnd columns of the BED file to define   the coding start and end of a protein sequence.    The tabular format can be converted to a sqlite table for the quick lookup of  the genomic location of any animo acid in the protein sequence.
 * *From [nml](https://toolshed.g2.bx.psu.edu/view/nml):*
-   * [kat_filter](https://toolshed.g2.bx.psu.edu/view/nml/kat_filter):  Filtering kmers or reads from a database of kmers hashes. 
+   * [kat_filter](https://toolshed.g2.bx.psu.edu/view/nml/kat_filter):  Filtering kmers or reads from a database of kmers hashes.
 * *From [vmarcon](https://toolshed.g2.bx.psu.edu/view/vmarcon):*
-   * [pcafactominer](https://toolshed.g2.bx.psu.edu/view/vmarcon/pcafactominer):  Realize a PCA analysis using FactoMineR package. 
-   * [h_clust](https://toolshed.g2.bx.psu.edu/view/vmarcon/h_clust):  Generate hierarchical cluster analysis on a numeric data table. 
-   * [normalization](https://toolshed.g2.bx.psu.edu/view/vmarcon/normalization):  Normalize your data with some well known methods. 
-   * [summary_statistics](https://toolshed.g2.bx.psu.edu/view/vmarcon/summary_statistics):  Produce simple descriptive statistics from a numeric table. 
+   * [pcafactominer](https://toolshed.g2.bx.psu.edu/view/vmarcon/pcafactominer):  Realize a PCA analysis using FactoMineR package.
+   * [h_clust](https://toolshed.g2.bx.psu.edu/view/vmarcon/h_clust):  Generate hierarchical cluster analysis on a numeric data table.
+   * [normalization](https://toolshed.g2.bx.psu.edu/view/vmarcon/normalization):  Normalize your data with some well known methods.
+   * [summary_statistics](https://toolshed.g2.bx.psu.edu/view/vmarcon/summary_statistics):  Produce simple descriptive statistics from a numeric table.
 * *From [dfornika](https://toolshed.g2.bx.psu.edu/view/dfornika):*
-   * [newick_display](https://toolshed.g2.bx.psu.edu/view/dfornika/newick_display):  Newick display from Newick utilities. 
+   * [newick_display](https://toolshed.g2.bx.psu.edu/view/dfornika/newick_display):  Newick display from Newick utilities.
 * *From [artbio](https://toolshed.g2.bx.psu.edu/view/artbio):*
    * [deseq2_normalization](https://toolshed.g2.bx.psu.edu/view/artbio/deseq2_normalization):  Normalizes gene hitlists. Normalizes gene count lists using DESeq2 estimateSizeFactors() function.
 * *From [fabio](https://toolshed.g2.bx.psu.edu/view/fabio):*

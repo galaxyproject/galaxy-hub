@@ -45,13 +45,13 @@ Please reserve July 25-27 on your calendars!
 
 ### Tool Shed: Enabling Workflow Sharing
 
-Galaxy tool sheds play a beneficial role in enabling sharing of exported Galaxy workflows between different Galaxy instances. 
+Galaxy tool sheds play a beneficial role in enabling sharing of exported Galaxy workflows between different Galaxy instances.
 
 * **[Finding workflows in tool shed repositories](/toolshed/searching-the-toolshed/)**
     The Search section of the left tool shed menu panel now includes an option labeled "Search for workflows"
-* **[Importing a workflow from an installed tool shed repository](/toolshed/workflow-sharing/#importing-a-workflow-from-an-installed-toolshed-repository)** 
+* **[Importing a workflow from an installed tool shed repository](/toolshed/workflow-sharing/#importing-a-workflow-from-an-installed-toolshed-repository)**
     A pop-up menu associated with a browsed Tool Shed workflow name will now provide the ability to import the workflow into your local Galaxy instance
-* **[Importing a workflow via a URL](/toolshed/workflow-sharing/#importing-a-workflow-via-a-url)** 
+* **[Importing a workflow via a URL](/toolshed/workflow-sharing/#importing-a-workflow-via-a-url)**
     If your Galaxy instance is missing any of the tools an imported workflow requires, a message is now displayed that includes links to all accessible tool sheds enabling you to search the tool sheds for the missing tools
 
 ### Using Tool Sheds
@@ -62,7 +62,7 @@ There are two Tool Sheds supported by the core Galaxy team:
     Available as a sandbox environment allowing you to familiarize yourself with tool shed features  
     Feel free to mess around here as much as you want.
 
-* **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)** 
+* **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**
     Hosts production-ready Galaxy tools and tool components
     Should not be used for testing or becoming familiar with tool shed features
 
@@ -87,11 +87,11 @@ There are two Tool Sheds supported by the core Galaxy team:
     * If you see an error message about an unrecognized parameter `"DEVIATIONS"` (related to Insertion size metrics), then an older version is being used. **[Upgrading Picard to version 1.56](http://sourceforge.net/projects/picard/files/) is required**
   * Update Picard tools to use `tool-data/shared/jars/picard/*` instead of `tool-data/shared/jars/*`
   * Galaxy [Main](/main/) is running version 1.56
-* **[TopHat:](http://tophat.cbcb.umd.edu/)** 
+* **[TopHat:](http://tophat.cbcb.umd.edu/)**
   * Wrapper updated to support versions 1.3.*
-  * If you see an error message about "tophat: option --max-insertion-length not recognized", then an older version is being used. **[Upgrading TopHat to at least version 1.3.1 (with 1.3.3 preferred)](http://tophat.cbcb.umd.edu/) is required** 
+  * If you see an error message about "tophat: option --max-insertion-length not recognized", then an older version is being used. **[Upgrading TopHat to at least version 1.3.1 (with 1.3.3 preferred)](http://tophat.cbcb.umd.edu/) is required**
   * Galaxy [Main](/main/) is running version 1.3.3
-* **[Cufflinks:](http://cufflinks.cbcb.umd.edu/)** 
+* **[Cufflinks:](http://cufflinks.cbcb.umd.edu/)**
   * Improved documentation for gene annotation dataset parameters
   * Galaxy [Main](/main/) is running version 1.0.3
 * Upgraded tool **Convert Formats -> SFF converter** to use *[sff_extract](http://bioinf.comav.upv.es/sff_extract/download.html)* version 0.2.10
@@ -106,7 +106,7 @@ There are two Tool Sheds supported by the core Galaxy team:
   * Set new track color randomly
   * Color reads based on mapped strand
   * Improved support for VCF datasets
-* Tuning: 
+* Tuning:
   * Adding dataset to a new visualization
   * Index computation for GFF/GTF datasets
   * Displaying reference data setting shared visualization's viewport
@@ -119,9 +119,9 @@ There are two Tool Sheds supported by the core Galaxy team:
 ### User Interface (UI)
 
 * When copying a history's datasets, the UI now provide links to the target history(ies)
-* It is now possible to permanently delete all deleted datasets in a history in one step 
+* It is now possible to permanently delete all deleted datasets in a history in one step
     `History -> Options -> Purge Deleted Datasets`
-* It's also possible to permanently delete a history in one step 
+* It's also possible to permanently delete a history in one step
     `History -> Options -> Delete Permanently`
 * Permanently deleted histories are now visible in the list of saved histories, even though they cannot be undeleted
 
@@ -149,7 +149,7 @@ There are two Tool Sheds supported by the core Galaxy team:
 
 ### Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div>
 
 * Grid fixes: (a) make operation buttons work after refresh and (b) show message each time
 * Force absolute path when creating temporary directory used when importing histories. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/667](https://bitbucket.org/galaxy/galaxy-central/issue/667)
@@ -168,7 +168,7 @@ There are two Tool Sheds supported by the core Galaxy team:
 
 [GalaxyProject.org](http://galaxyproject.org)
 
-The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/) is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/) is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

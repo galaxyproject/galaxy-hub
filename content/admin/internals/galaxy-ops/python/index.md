@@ -1,4 +1,4 @@
- 
+
 
 ## Galaxy Operations Help Information (Python Version)
 

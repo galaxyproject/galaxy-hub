@@ -10,9 +10,9 @@ The *July 2019 Galactic News* is here!
 
 * **[GCC2019 is here!](/news/2019-07-galaxy-update/#gcc2019-is-here)**
 * Plus [17 other upcoming events](/news/2019-07-galaxy-update/#upcoming-events) in the next 90 days
-* [153 new publications](/news/2019-07-galaxy-update/#publications), great resources lead to great insight. 
+* [153 new publications](/news/2019-07-galaxy-update/#publications), great resources lead to great insight.
 * [Galaxy Platform News](/news/2019-07-galaxy-update/#galaxy-platforms-news) for Galaxy Europe and Galaxy Australia
-* At least [6 Open positions](/news/2019-07-galaxy-update/#whos-hiring) in five countries on two continents. 
+* At least [6 Open positions](/news/2019-07-galaxy-update/#whos-hiring) in five countries on two continents.
 * [Updates to training materials and documentation](/news/2019-07-galaxy-update/#doc-hub-and-training-updates).
 * [New tools](/news/2019-07-galaxy-update/#toolshed-contributions) and [new releases](/news/2019-07-galaxy-update/#releases).
 * And [some other news](/news/2019-07-galaxy-update/#other-news) too.
@@ -181,12 +181,12 @@ There were 7 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGa
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 102 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 45 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 21 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 20 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | 
-| 13 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 9 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | 
-| 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | 
-| 1 | [+Education](https://www.zotero.org/groups/1732893/galaxy/tags/+Education) | | 1 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 1 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud) | 
+| 102 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 45 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 21 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 20 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) |
+| 13 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 9 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 5 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) |
+| 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 3 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) |
+| 1 | [+Education](https://www.zotero.org/groups/1732893/galaxy/tags/+Education) | | 1 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 1 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud) |
 
 ----
 
@@ -219,10 +219,10 @@ OpenMinTeD will be [presented at GCC2019](https://sched.co/PSOh).
 
 Platforms that were referenced at least twice in the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 3 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | 
-| 3 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 2 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | 
+| 19 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 3 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) |
+| 3 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 2 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) |
 
 ----
 
@@ -253,7 +253,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 * [Workflows: Using Workflow Parameters](https://training.galaxyproject.org/training-material/topics/galaxy-ui/tutorials/workflow-parameters/tutorial.html), a new tutorial by [Marius van den Beek](https://github.com/mvdbeek) and [Helena Rasche](https://github.com/hexylena).
 * [Antibiotic resistance detection](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/plasmid-metagenomics-nanopore/tutorial.html), a new tutorial (including a tour) from new contributor [Willem de Koning](https://github.com/willemdek11) and veteran [Saskia Hiltemann](https://github.com/shiltemann)
-* Slides for the [Galaxy Mapping tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html#1) were thoroughly updated by [Saskia Hiltemann](https://github.com/shiltemann). Lots of new information, an overview of real life mappers, and an interactive game! 
+* Slides for the [Galaxy Mapping tutorial](https://training.galaxyproject.org/training-material/topics/sequence-analysis/tutorials/mapping/slides.html#1) were thoroughly updated by [Saskia Hiltemann](https://github.com/shiltemann). Lots of new information, an overview of real life mappers, and an interactive game!
 * [Biomarker candidate identification](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/biomarker_selection/tutorial.html), a new Galaxy tutorial from [Florence Combes](https://github.com/combesf), [David Christiany](https://github.com/davidchristiany), [Valentin Loux](https://github.com/vloux), and [Yves Vandenbrouck](https://github.com/yvandenb) - All of them first time contributors! Florence will be presenting [ProteoRE](http://www.proteore.org/), the server used in this tutorial, in a [talk](https://sched.co/PSqZ) and a [demo](https://sched.co/R1uW) at GCC2019.
 * [Exome sequencing data analysis for diagnosing a genetic disease](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/exome-seq/tutorial.html) tutorial completely revamped by [Wolfgang Maier](https://github.com/wm75) (who will be teaching the [Variant Calling I - from sequenced reads to variant lists](https://sched.co/Lug9) and [Variant Calling II - causative variant discovery](https://sched.co/LugR) sessions at GCC2019)
 

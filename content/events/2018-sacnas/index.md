@@ -63,7 +63,7 @@ Bring your laptop for a series of hands-on exercises.
 
 You will need bash and anaconda set up.  Please follow the installation instructions outlined [here](https://tracykteal.github.io/2018-10-10-SACNAS/) for your operating system (either Windows, Mac OS X, or Linux) to make sure you have the “Bash Shell” and “Python” installed.
 
-## Session 1 : Unix Shell 
+## Session 1 : Unix Shell
 
 | Time | Topic |
 |:----:| ----- |

@@ -17,7 +17,7 @@ The *January  2019 Galactic News* is here!  This is a summary of what is going o
 * [80 new publications](/news/2019-01-galaxy-update/#publications), including several spectacular ones
 * Some most excellent [Galaxy Platform News](/news/2019-01-galaxy-update/#galaxy-platforms-news), including the *EGI Marketplace*.
 * The Contributor of the Month is ... [Simon Gladman](/news/2019-01-galaxy-update/#new-galactic-blog-posts)!
-* [17 Open positions](/news/2019-01-galaxy-update/#whos-hiring) in 6 countries on 3 continents. 
+* [17 Open positions](/news/2019-01-galaxy-update/#whos-hiring) in 6 countries on 3 continents.
 * [Doc, Hub, and Training Updates](/news/2019-01-galaxy-update/#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductory videos
 * [ToolShed contributions](/news/2019-01-galaxy-update/#toolshed-contributions)
 * [New releases](/news/2019-01-galaxy-update/#releases):
@@ -62,11 +62,11 @@ There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/94
 * **[Integrated Genomic Selection Galaxy Analysis Pipeline and Workflows](https://plan.core-apps.com/pag_2019/abstract/eb8d2b76e25358daf4c927eba4649409)**, Star Yanxin Gao
 * **[Galaxy Workshop: An Open Platform for Data Analysis and Integration](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40d5302)**
   * **[Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2019/abstract/bd1ddd10-af82-4bca-84c0-ff8fe7c5c46a)**, [Frederik Coppens](https://www.psb.ugent.be/lab-members-and-alumni-frcop)
-  *  **[A Phenomenal Workflow to Study the Metabolites Variation in Bryophytes across Seasons](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281815)**, [Steffen Neumann](https://www.researchgate.net/profile/Steffen_Neumann) 
-  * **[Galaxy Tools for Comparative Gene Family Analysis in Plant Genomics](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49271d78)**, [Eric Wafula](http://bio.psu.edu/directory/ekw10), [Claude dePamphilis](http://cwd.huck.psu.edu/) 
-  * **[Galaxy Metabolomics from the Ground up](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34c6da2)**, [Arthur Eschenlauer](http://hegemanlab.cfans.umn.edu/) 
-  * **[Multi-Omics with Galaxy for Diverse Biological Applications](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34ac93b)**, [Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin), [Pratik Jagtap](https://www.researchgate.net/profile/Pratik_Jagtap2) 
-  * **[Eukaryotic Genome Annotation with G-OnRamp](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281aa9)**, Luke Sargent 
+  *  **[A Phenomenal Workflow to Study the Metabolites Variation in Bryophytes across Seasons](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281815)**, [Steffen Neumann](https://www.researchgate.net/profile/Steffen_Neumann)
+  * **[Galaxy Tools for Comparative Gene Family Analysis in Plant Genomics](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49271d78)**, [Eric Wafula](http://bio.psu.edu/directory/ekw10), [Claude dePamphilis](http://cwd.huck.psu.edu/)
+  * **[Galaxy Metabolomics from the Ground up](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34c6da2)**, [Arthur Eschenlauer](http://hegemanlab.cfans.umn.edu/)
+  * **[Multi-Omics with Galaxy for Diverse Biological Applications](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34ac93b)**, [Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin), [Pratik Jagtap](https://www.researchgate.net/profile/Pratik_Jagtap2)
+  * **[Eukaryotic Genome Annotation with G-OnRamp](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281aa9)**, Luke Sargent
 
 See the **[Galaxy @ PAG 2019](/events/2019-pag/)** page for a complete list.
 
@@ -100,7 +100,7 @@ This list only shows some examples. **Any topic of interest to the Galaxy Commun
 
 Training nomination has been extended to **15th January**. Topics are being compiled into a uniform list by the GCC2019 Organizing Committee, and topics will be voted on by the Galaxy Community.
 
-Please give some thought to what topics you would like to see offered, or that you would like to offer. 
+Please give some thought to what topics you would like to see offered, or that you would like to offer.
 
 ## GalaxyAdmins needs your topic suggestions
 
@@ -212,11 +212,11 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 
 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications from December:
 
-* **[Galaxy-Kubernetes integration: scaling bioinformatics workflows in the cloud](https://doi.org/10.1101/488643)**, [Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/), Luca Pireddu, Pierrick Roger, Nuwan Goonasekera, [Enis Afgan](/people/enis-afgan/), Marius van den Beek, Sijin He, Anders Larsson, Christoph Ruttkies, Daniel Schober, David Johnson, Philippe Rocca-Serra, Ralf J.M. Weber, [Bjoern Gruening](/people/bjoern-gruening/), Reza Salek, Namrata Kale, Yasset Perez-Riverol, Irene Papatheodorou, Ola Spjuth, Steffen Neumann, *bioRxiv* 488643; 
-doi: 10.1101/488643 
+* **[Galaxy-Kubernetes integration: scaling bioinformatics workflows in the cloud](https://doi.org/10.1101/488643)**, [Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/), Luca Pireddu, Pierrick Roger, Nuwan Goonasekera, [Enis Afgan](/people/enis-afgan/), Marius van den Beek, Sijin He, Anders Larsson, Christoph Ruttkies, Daniel Schober, David Johnson, Philippe Rocca-Serra, Ralf J.M. Weber, [Bjoern Gruening](/people/bjoern-gruening/), Reza Salek, Namrata Kale, Yasset Perez-Riverol, Irene Papatheodorou, Ola Spjuth, Steffen Neumann, *bioRxiv* 488643;
+doi: 10.1101/488643
 * **[PhenoMeNal: Processing and analysis of Metabolomics data in the Cloud](https://doi.org/10.1093/gigascience/giy149)**,
 Kristian Peters, James Bradbury, Sven Bergmann, Marco Capuccini, Marta Cascante, Pedro de Atauri, Timothy M D Ebbels, Carles Foguet, Robert Glen, Alejandra Gonzalez-Beltran, Ulrich L Günther, Evangelos Handakas, Thomas Hankemeier, Kenneth Haug, Stephanie Herman, Petr Holub, Massimiliano Izzo, Daniel Jacob, David Johnson, Fabien Jourdan, Namrata Kale, Ibrahim Karaman, Bita Khalili, Payam Emami Khonsari, Kim Kultima, Samuel Lampa, Anders Larsson, Christian Ludwig, [Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/), Steffen Neumann, Jon Ander Novella, Claire O'Donovan, Jake T M Pearce, Alina Peluso, Marco Enrico Piras, Luca Pireddu, Michelle A C Reed, Philippe Rocca-Serra, Pierrick Roger, Antonio Rosato, Rico Rueedi, Christoph Ruttkies, Noureddin Sadawi, Reza M Salek, Susanna-Assunta Sansone, Vitaly Selivanov, Ola Spjuth, Daniel Schober, Etienne A Thévenot, Mattia Tomasoni, Merlijn van Rijswijk, Michael van Vliet, Mark R Viant, Ralf J M Weber, Gianluigi Zanetti, Christoph Steinbeck, *GigaScience*, giy149, doi: 10.1093/gigascience/giy149
-* **[Cloud Bursting Galaxy: Federated Identity and Access Management](https://doi.org/10.1101/506238)**, [Vahid Jalili](/people/vahid-jalili/), [Enis Afgan](/people/enis-afgan/), [James Taylor](/people/james-taylor/), [Jeremy Goecks](/people/jeremy-goecks/), *bioRxiv* 506238, doi: 10.1101/506238 
+* **[Cloud Bursting Galaxy: Federated Identity and Access Management](https://doi.org/10.1101/506238)**, [Vahid Jalili](/people/vahid-jalili/), [Enis Afgan](/people/enis-afgan/), [James Taylor](/people/james-taylor/), [Jeremy Goecks](/people/jeremy-goecks/), *bioRxiv* 506238, doi: 10.1101/506238
 * **[SkeletalVis: an exploration and meta-analysis data portal of cross-species skeletal transcriptomics data](https://doi.org/10.1093/bioinformatics/bty947
 )**, Jamie Soul, Tim E Hardingham, Ray P Boot-Handford, Jean-Marc Schwartz, *Bioinformatics*, bty947, doi: 10.1093/bioinformatics/bty947
 
@@ -224,11 +224,11 @@ All of the highlighted papers are open access.
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 56 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 23 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 11 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 9 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | 
-| 8 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 7 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | 
-| 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 2 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | 
+| 56 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 23 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 11 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 9 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) |
+| 8 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 7 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) |
+| 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 2 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) |
 | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | | | | | | | | | | |
 
 
@@ -274,13 +274,13 @@ The [Australian Environmental Microbiome Research Data Cloud Project](https://bi
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 10 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 5 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 3 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | 
-| 2 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/tags/>ABiMS) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/tags/>ARIES) | 
-| 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 1 | [>CRAVAT-P](https://www.zotero.org/groups/1732893/galaxy/tags/>CRAVAT-P) | | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | 
-| 1 | [>IGGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>IGGalaxy) | | 1 | [>MetaNET](https://www.zotero.org/groups/1732893/galaxy/tags/>MetaNET) | | 1 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) | | 1 | [>MPDSTB](https://www.zotero.org/groups/1732893/galaxy/tags/>MPDSTB) | 
-| 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>SkeletalVis](https://www.zotero.org/groups/1732893/galaxy/tags/>SkeletalVis) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/tags/>VirAmp) | 
+| 10 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 5 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 3 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 2 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) |
+| 2 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 1 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/tags/>ABiMS) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/tags/>ARIES) |
+| 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 1 | [>CRAVAT-P](https://www.zotero.org/groups/1732893/galaxy/tags/>CRAVAT-P) | | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) |
+| 1 | [>IGGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>IGGalaxy) | | 1 | [>MetaNET](https://www.zotero.org/groups/1732893/galaxy/tags/>MetaNET) | | 1 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) | | 1 | [>MPDSTB](https://www.zotero.org/groups/1732893/galaxy/tags/>MPDSTB) |
+| 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>SkeletalVis](https://www.zotero.org/groups/1732893/galaxy/tags/>SkeletalVis) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/tags/>VirAmp) |
 
 ----
 
@@ -302,7 +302,7 @@ There is one new *[Galactic Blog](/blog/)* entry:
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
-* [Bioinformatics Scientist](https://www.providenceiscalling.jobs/portland-or/bioinformatics-scientist/E4987CF3970846FDBB268E76297287DC/job/), Providence Health Services, Portland, Oregon, United States. Looking for someone "fluent in Galaxy or willing to learn" 
+* [Bioinformatics Scientist](https://www.providenceiscalling.jobs/portland-or/bioinformatics-scientist/E4987CF3970846FDBB268E76297287DC/job/), Providence Health Services, Portland, Oregon, United States. Looking for someone "fluent in Galaxy or willing to learn"
 * [Etude et galaxyfication d’un pipeline de traitement de données en lipidomique](https://www.sfbi.fr/content/etude-et-galaxyfication-d%E2%80%99un-pipeline-de-traitement-de-donn%C3%A9es-en-lipidomique), Centre INRA Auvergne-Rhône-Alpes, Theix, France
 * [assemblage et annotation des génomes](https://www.sfbi.fr/content/assemblage-et-annotation-des-g%C3%A9nomes), Faculté des Sciences et Techniques, Tours, France
 * [Chief Scientific Officer](https://www.za.amitojobs.com/job/40034/chief-scientific-officer/) University of Cape Town, South Africa. Develop a comprehensive database, informatics tools and toolsets on a Galaxy/web bioinformatics server.
@@ -389,7 +389,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 * From [Anup Kumar](https://twitter.com/musafirtweetsz) on Twitter
   * [Tool Prediction in Galaxy Workflows](https://twitter.com/musafirtweetsz/status/1077182436814012418)
 * From [PLOS Computational Biology](https://twitter.com/PLOSCompBiol/status/1075893609629503488) on Twitter:
-  * Our #mostcited #10SimpleRules article 'Ten Simple Rules for Reproducible Computational Research' has been cited 171 times https://plos.io/2QJI7sk #1000SimpleRules 
+  * Our #mostcited #10SimpleRules article 'Ten Simple Rules for Reproducible Computational Research' has been cited 171 times https://plos.io/2QJI7sk #1000SimpleRules
 * From RC Carter:
   * There's progress being made with [Galaxy deployments on Microsoft Azure](https://vimeo.com/295909461) Stay tuned.
 * [The times when you couldn't use emoji to tag Galaxy datasets are past. Behold!](https://twitter.com/galaxyproject/status/1070415381645455360)

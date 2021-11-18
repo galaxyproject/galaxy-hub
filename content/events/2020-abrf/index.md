@@ -30,11 +30,11 @@ The day focuses on two topics:
 * [Mehmet Tekman](https://www.researchgate.net/profile/Mehmet_Tekman), [University of Freiburg](https://www.uni-freiburg.de/?set_language=en)
 * [Dave Clements](/people/dave-clements/), [Johns Hopkins University](https://www.jhu.edu/)
 
-Due to technological advances, single cell RNA-seq (scRNA-seq) analysis has emerged as the new frontier of biomedical research. As scRNA-seq technology evolves and generates increasingly complex data, the need for scalable, flexible, and accessible analysis options remains critical to researchers. The Galaxy workbench (galaxyproject.org) offers a solution. Galaxy has been used for genomic data analysis for over a decade and includes many tools required for scRNA-seq analysis – offering a multitude of analysis options. 
+Due to technological advances, single cell RNA-seq (scRNA-seq) analysis has emerged as the new frontier of biomedical research. As scRNA-seq technology evolves and generates increasingly complex data, the need for scalable, flexible, and accessible analysis options remains critical to researchers. The Galaxy workbench (galaxyproject.org) offers a solution. Galaxy has been used for genomic data analysis for over a decade and includes many tools required for scRNA-seq analysis – offering a multitude of analysis options.
 
 | Time | Topic |
 | ----: | ---- |
-| 8:00 am | Welcome & Introduction | 
+| 8:00 am | Welcome & Introduction |
 | 8:15 am | Introduction to Galaxy framework |
 | 9:15 am | Introduction to scRNA-Seq Analysis |
 | 10:00 am | Refreshment Break |
@@ -76,7 +76,7 @@ Functional microbiome analysis which estimates the functional groups expressed b
 These workshops are generously supported by
 
 <div class="text-center">
-<a href="https://sciex.com/"><img src="/images/logos/sciex-logo.jpg" style="max-width:200px" alt="SCIEX: The Power of Precision" /> &nbsp; <a href="https://www.thermofisher.com/"><img src="/images/logos/thermo-fisher-logo.jpg" style="max-width:200px" alt="Thermo Fisher Scientific" /> &nbsp; <a href="https://illumina.com/"><img src="/images/logos/IlluminaLogo250.png" alt="Illumina" style="max-width:200px" /> &nbsp; <a href="https://ncgas.org/Blog_Posts/Getting%20Started%20on%20Jetstream.php"><img src="/images/logos/jetstream-plus-ncgas.png" alt="Jetstream and NCGAS" style="max-width:200px" /></a> &nbsp;&nbsp; <a href="https://galaxyworks.io/"><img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width:180px" /> &nbsp;&nbsp; <a href="https://seqonce.com/"><img src="/images/logos/seqonce-logo.png" alt="SeqOnce" style="max-width:180px" /></a> &nbsp;&nbsp; <a href="https://www.denbi.de/"><img src="/images/logos/deNBILogo.png" alt="de.NBI" style="max-width:180px" /></a> 
+<a href="https://sciex.com/"><img src="/images/logos/sciex-logo.jpg" style="max-width:200px" alt="SCIEX: The Power of Precision" /> &nbsp; <a href="https://www.thermofisher.com/"><img src="/images/logos/thermo-fisher-logo.jpg" style="max-width:200px" alt="Thermo Fisher Scientific" /> &nbsp; <a href="https://illumina.com/"><img src="/images/logos/IlluminaLogo250.png" alt="Illumina" style="max-width:200px" /> &nbsp; <a href="https://ncgas.org/Blog_Posts/Getting%20Started%20on%20Jetstream.php"><img src="/images/logos/jetstream-plus-ncgas.png" alt="Jetstream and NCGAS" style="max-width:200px" /></a> &nbsp;&nbsp; <a href="https://galaxyworks.io/"><img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" style="max-width:180px" /> &nbsp;&nbsp; <a href="https://seqonce.com/"><img src="/images/logos/seqonce-logo.png" alt="SeqOnce" style="max-width:180px" /></a> &nbsp;&nbsp; <a href="https://www.denbi.de/"><img src="/images/logos/deNBILogo.png" alt="de.NBI" style="max-width:180px" /></a>
 </div>
 
 

@@ -32,14 +32,14 @@ date: 2011-01-31
 * Instead of filling in explicit values when building a workflow, you can now use flexible parameters.  To specify a workflow parameter, simply use a tag like ${my_variable_name} in any tool input field or in a rename dataset action field.  
 * The workflow shown below has two parameters, as shown in the Workflow Parameters display in the top right of the editor window.  You can see the ${filter_condition} parameter in the right panel in both the tool input and the rename action.  
   * Note that while this ${filter_condition} is only used in a single step in this simple demo workflow, variables can be used across steps.
-      *example:* Parameters 
+      *example:* Parameters
 
      ![](/archive/dev-news-briefs/2011-01-31/2011_01_31_workflow_params_1.png)
-     
+
 * As the inputs are filled in the Workflow Parameters box, seen in the runtime example below, the new values will be reflected in all workflow steps and will be used when the workflow is executed.
 
    *example:* Runtime display
-   
+
     ![](/archive/dev-news-briefs/2011-01-31/2011_01_31_workflow_params_2.png)
 
 4) General workflow tuning
@@ -84,7 +84,7 @@ These components are under rapid development and interfaces *should be considere
 * Rice pathogen: *Xanthomonas oryzae* (str. KACC10331) [12931]
 * Rice pathogen: *Xanthomonas oryzae* (str. MAFF 311018) [16297]
 * Rice pathogen: *Xanthomonas oryzae* (str. PXO99A) [Xanthomonas_oryzae_PXO99A]
-* Little Brown Bat (*Myotis lucifugus*)  [myoluc2] 
+* Little Brown Bat (*Myotis lucifugus*)  [myoluc2]
 
 ### Current Tools
 
@@ -104,20 +104,20 @@ These components are under rapid development and interfaces *should be considere
 
 ### New Tools
 
-* BED-to-bigBed converter tool now under "Convert Formats". 
-  * Converts sorted BED files into UCSC's bigBed format. 
+* BED-to-bigBed converter tool now under "Convert Formats".
+  * Converts sorted BED files into UCSC's bigBed format.
   * Requires bedToBigBed in PATH.
 * BLAST+ tools are now commented in tool_conf.xml.sample.  
   * Not in Galaxy main, for local instance use.
   * If you run the BLAST+ tools at your site, please be sure to uncomment them if updating to the latest tool_conf.xml.sample (will be default at next update).
 * Add SAMtools flagstat tool.
 * Add CCAT ChIP-seq peak/region caller.
-* Add BWA wrapper for SOLiD. 
+* Add BWA wrapper for SOLiD.
 
 ### Histories
 
 * Estimated size is now displayed for very large text-based (non-binary) datasets.
-* Always show Galaxy masthead and enable Saved Histories to work with and without panels. 
+* Always show Galaxy masthead and enable Saved Histories to work with and without panels.
 * New "Copy Datasets" link added under History Options dropdown.
   * Dataset and history IDs are now encoded.
   * JS dropdown used to change source history, so you no longer have to switch desired source history to be "active".
@@ -150,7 +150,7 @@ These components are under rapid development and interfaces *should be considere
 
 ### User Interface (UI)
 
-* Version info is now printed in history item for Bowtie, BWA, Lastz, TopHat, Samtools, Cuffdif, Cufflinks, Cuffcompare, BFAST, and PerM. 
+* Version info is now printed in history item for Bowtie, BWA, Lastz, TopHat, Samtools, Cuffdif, Cufflinks, Cuffcompare, BFAST, and PerM.
 * Turn off web browser auto-complete for tool search (includes workflows).
 * Grid changes resulting in better readability:
   * Better page number display.
@@ -182,7 +182,7 @@ These components are under rapid development and interfaces *should be considere
 * Fix unicode error for dataset peeks.
 * Sanitize tool links in tool menu so that they can be searched. Use only lowercase letters, numbers, and underscores in links to ensure cross-browser functionality.
 * Fix for building form element for boolean tool parameter when default state is configured as checked in tool configuration, but user provided value is non-checked. Fixes an issue seen in workflows that prevents saving the unchecked state under described conditions.
-* Fix typo in BFAST. 
+* Fix typo in BFAST.
 * Trackster: fix BAM display bugs, Dense display bug, better dataset selection.
 * Add validator to Tophat's segment mismatches parameter.
 * Turn off web browser autocomplete for tool search in workflows.

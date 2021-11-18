@@ -12,7 +12,7 @@ date: "2020-10-07"
 * **[Galaxy platform news](#galaxy-platforms-news):** BRIDGE, BioCompute Object, French Galaxies, PhagePromoter, and UseGalaxy.*
 * **[Blog posts](#galactic-blog-activity):** Remote training, EOSC-Life calls
 * **[Training material and doc updates](#doc-hub-and-training-updates):** refgenie magic
-* **[Publications](#publications)** 
+* **[Publications](#publications)**
 * **Q: Who's hiring? [A: Ten different groups](#whos-hiring)**
 * **[New releases](#releases)**
 * **[Other news too](#other-news)**
@@ -94,7 +94,7 @@ Paper cuts are annoying but easy to fix bugs. We plan to have a one-day contribu
 <img class="card-img-top" src="/images/logos/ashg2020-logo.png" alt="ASHG2020" />
 <div class="card-header">[ASHG 2020](https://www.ashg.org/meetings/2020meeting/)</div>
 
-As many other events, the American Society of Human Genetics Meeting is going virtual this year. 
+As many other events, the American Society of Human Genetics Meeting is going virtual this year.
 
 There will be a session on [GWAS Analysis with Galaxy on the Analysis Visualization Integrated Lab-space (AnVIL)](https://www.abstractsonline.com/pp8/#!/9070/session/146).
 
@@ -175,7 +175,7 @@ PhagePromoter predicts promoter sequences in phage genomes, using machine learni
 
 <img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* Talking about UseGalaxy.eu in a blog post or presentation? Galaxy Europe has provided [cool graphics and a fact sheet as well](https://galaxyproject.eu/posts/2020/09/06/branding/). 
+* Talking about UseGalaxy.eu in a blog post or presentation? Galaxy Europe has provided [cool graphics and a fact sheet as well](https://galaxyproject.eu/posts/2020/09/06/branding/).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
 
 </div>
@@ -228,7 +228,7 @@ Two funding opportunities are now open within the EU project [EOSC-Life](https:/
 
 By [Dan Blankenberg](/people/dan/).
 
-How to use **[refgenie](http://refgenie.databio.org/)** with your local instance of Galaxy. 
+How to use **[refgenie](http://refgenie.databio.org/)** with your local instance of Galaxy.
 <img class="card-img-bottom" src="/images/logos/refgenie_logo.svg" alt="refgenie" />
 </div>
 
@@ -237,7 +237,7 @@ How to use **[refgenie](http://refgenie.databio.org/)** with your local instance
 
 # Publications
 
-Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway. 
+Pub curation activities [are on hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.
 
 <div class="card-deck">
 

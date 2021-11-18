@@ -19,7 +19,7 @@ The following resources provide documentation for using Galaxy through the API.
 
 ## Developer
 
-The Galaxy Project is an open source platform that utilzes the many contributions from the Galaxy community. If you are interested in contributing code to Galaxy, have a look at the [development resources](/develop/). 
+The Galaxy Project is an open source platform that utilzes the many contributions from the Galaxy community. If you are interested in contributing code to Galaxy, have a look at the [development resources](/develop/).
 
 ## Tool development
 

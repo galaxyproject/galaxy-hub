@@ -17,7 +17,7 @@ name: "Tutorial: Basic Editing"
 
 ## What you will learn
 
-Using an example where the **[3 Most Useful Edits](/learn/advanced-workflow/basic-editing/#a3_most_useful_edits)** are used to customize a workflow, and where one of them is required for correct execution, and existing Workflow will be edited. 
+Using an example where the **[3 Most Useful Edits](/learn/advanced-workflow/basic-editing/#a3_most_useful_edits)** are used to customize a workflow, and where one of them is required for correct execution, and existing Workflow will be edited.
 
 ## Why is this needed?
 
@@ -31,7 +31,7 @@ But you don't need to wait for an error. If you performed ANY **Edit Attributes*
 
 ## This editing example: Reassigning datatype after using the "Cut" tool
 
-The tool **Cut** produces output with a general datatype of *tabular* assigned. The next tool in the workflow requires a specific datatype of *interval* with detected metadata (chrom, start, end). This is how to add the datatype reassignment into an extracted workflow through a one step simple edit. 
+The tool **Cut** produces output with a general datatype of *tabular* assigned. The next tool in the workflow requires a specific datatype of *interval* with detected metadata (chrom, start, end). This is how to add the datatype reassignment into an extracted workflow through a one step simple edit.
 
 <br />
 <div class='left'><img src="/images/learn/workflow_xxxx.png" alt="workflow xxxxxx" width="200" /></div>
@@ -39,7 +39,7 @@ The tool **Cut** produces output with a general datatype of *tabular* assigned. 
 
 <br />
 <br />
-Open **[usegalaxy.org](http://usegalaxy.org)** in default view (click on "Galaxy" in masthead). 
+Open **[usegalaxy.org](http://usegalaxy.org)** in default view (click on "Galaxy" in masthead).
 <br />
 <br />
 The **History** panel is on the far right, base color light blue (with green, yellow, etc datasets).
@@ -64,7 +64,7 @@ Open the **History menu** and scroll down to the option **Extract Workflow**
 <img src="/images/learn/workflow_choose_extract_be_ex1.png" alt="choose extract" width="200" /> <br /> *choose extract*
 
 <br />
-Allow Galaxy to process the request without interrupting or navigating away from this view. The larger the history, or the busier the server is, the longer this will take. In most cases, this is less than a minute, but be patient. 
+Allow Galaxy to process the request without interrupting or navigating away from this view. The larger the history, or the busier the server is, the longer this will take. In most cases, this is less than a minute, but be patient.
 <br />
 <br />
 
@@ -98,7 +98,7 @@ For this example, the checkbox for dataset #15 can be unchecked, because there a
 <br />
 
 <br />
-After customizing, click on **Create Workflow** to save the extracted analysis as a workflow. For this operation, it is also important to allow Galaxy to process the request and to not navigate away from the view. You'll know that the workflow is created when the bright blue *completed* box appears. 
+After customizing, click on **Create Workflow** to save the extracted analysis as a workflow. For this operation, it is also important to allow Galaxy to process the request and to not navigate away from the view. You'll know that the workflow is created when the bright blue *completed* box appears.
 <br />
 <img src="/images/learn/workflow_blue_created_be_ex1.png" alt="blue created" width="600" /> <br /> *confirmation that workflow as created*
 <br />
@@ -114,7 +114,7 @@ After clicking on the top menu bar option **Workflow**, an account's **Saved Wor
 <img src="/images/learn/workflow_saved_by_you.png" alt="workflow saved by you" width="800" /> <br /> *workflows saved by you*
 <br />
 <br />
-It also lists **Workflows Shared with You** (if any). Under **Other Options** is the button for the special function described in the wiki *[How to turn your workflow into a tool...](/learn/advanced-workflow/tool-panel/)*. 
+It also lists **Workflows Shared with You** (if any). Under **Other Options** is the button for the special function described in the wiki *[How to turn your workflow into a tool...](/learn/advanced-workflow/tool-panel/)*.
 <br />
 <img src="/images/learn/workflow_shared_with_you.png" alt="workflow shared with you" width="800" /> <br /> *workflows shared with you*
 <br />
@@ -131,10 +131,10 @@ It also lists **Workflows Shared with You** (if any). Under **Other Options** is
 <br />
 ## Help! I don't see my workflow datasets
 
-There are two reasons why the output is not in the current history. One possibility is that you did not wait for the confirmation that workflow was actually started (the "green box" confirmation in the step directly above). If you think this is the case, go back and run it again. ***But first***, check for the second possibility: did you check the box to send the output to another history? The option is at the bottom of the workflow submission page and is called **Send results to a new history**. The name can be modified, but the default history name is the same as the workflow name. Look under **History menu -> Saved Histories** and check if your data is there. 
+There are two reasons why the output is not in the current history. One possibility is that you did not wait for the confirmation that workflow was actually started (the "green box" confirmation in the step directly above). If you think this is the case, go back and run it again. ***But first***, check for the second possibility: did you check the box to send the output to another history? The option is at the bottom of the workflow submission page and is called **Send results to a new history**. The name can be modified, but the default history name is the same as the workflow name. Look under **History menu -> Saved Histories** and check if your data is there.
 
 <br />
-There is a third possibility, but this only applies when the workflow has been edited and only some of the datasets appear to be missing. Some of the datasets are *hidden*. To reveal them, use **History menu -> Include Hidden Datasets**. More about *hidden datasets* is in the **[Basic Editing](/learn/advanced-workflow/basic-editing/)** workflow wiki. 
+There is a third possibility, but this only applies when the workflow has been edited and only some of the datasets appear to be missing. Some of the datasets are *hidden*. To reveal them, use **History menu -> Include Hidden Datasets**. More about *hidden datasets* is in the **[Basic Editing](/learn/advanced-workflow/basic-editing/)** workflow wiki.
 
 <br />
 ## How do I know the workflow is really running?
@@ -153,10 +153,10 @@ Good idea! Read more about workflow operations not covered in this wiki, in othe
 Are you seeing one of these messages below? This indicates that you are not logged into your account. Workflows can only be used by registered users. Log in under **User -> Login** or create an account under **User -> Register**.
 <br />
 <br />
-<img src="/images/learn/workflow_anon_create_message.png" alt="workflow anon create message" width="600" /> <br />*"Create Workflow" message when not logged in* 
+<img src="/images/learn/workflow_anon_create_message.png" alt="workflow anon create message" width="600" /> <br />*"Create Workflow" message when not logged in*
 <br />
 <br />
-<img src="/images/learn/workflow_anon_saved_warning.png" alt="workflow anon saved warning" width="300" /> <br />*"Saved Workflow" message when not logged in* 
+<img src="/images/learn/workflow_anon_saved_warning.png" alt="workflow anon saved warning" width="300" /> <br />*"Saved Workflow" message when not logged in*
 
 <br />
 <br />

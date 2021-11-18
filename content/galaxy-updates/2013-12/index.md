@@ -7,7 +7,7 @@ Welcome to the December 2013 *[Galaxy Update](/galaxy-updates/)*, a monthly summ
 
 # 50+ Public Servers
 
-Three new servers were added to [the list of publicly accessible Galaxy servers](/use/) last month.  The number of servers has more than *doubled* in the past 12 months, with the new additions bringing the total to 51. 
+Three new servers were added to [the list of publicly accessible Galaxy servers](/use/) last month.  The number of servers has more than *doubled* in the past 12 months, with the new additions bringing the total to 51.
 
 The server list has also been reorganized from a single alphabetical list into three distinct depending on server breadth of coverage. From generality to specificity the 3 lists are:
 
@@ -27,13 +27,13 @@ The newly added servers are:
 * *Links:*
   * [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/), part of the [OSDD Portal](http://sysborg2.osdd.net).
   * *Customized Galaxy with Applications as Web Services and on the Grid for Open Source Drug Discovery*, presentation by Anshu Bhardwaj and Chintalapati Janaki at [GCC2011](http://wiki.galaxyproject.org/Events/GCC2011) ([Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2011/OpenSourceDrugDiscovery.pdf), [Video](http://vimeo.com/24870112)).
-* *Domain/Purpose:* 
+* *Domain/Purpose:*
     [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) exposes the tools that are included in [OSDDlinux](http://osddlinux.osdd.net/), "a customized linux operating system for drug discovery that integrates open source software, libraries, workflows and web services in linux for creating environment for drug discovery."   OSDDLinux contains a Galaxy instance with applications for Drug Discovery.
 * *Comments:*
-    [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) integrates GPSR1.0, GPSR2.0 along with the [webservers](http://osddlinux.osdd.net/livew.php) and the [standalone software](http://osddlinux.osdd.net/stand.php) supported by OSDDlinux.  See the [complete list of tools and services](http://osddlinux.osdd.net/liveg) included in OSDDlinux LiveGalaxy. 
+    [OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) integrates GPSR1.0, GPSR2.0 along with the [webservers](http://osddlinux.osdd.net/livew.php) and the [standalone software](http://osddlinux.osdd.net/stand.php) supported by OSDDlinux.  See the [complete list of tools and services](http://osddlinux.osdd.net/liveg) included in OSDDlinux LiveGalaxy.
 * *User Support:*
     [Web form](http://crdd.osdd.net/osddlinux/feed.php) or [Email](mailto:osddlinux AT gmail DOT com)
-* *Quotas:* 
+* *Quotas:*
 * *Sponsor(s):*
     The [Open Source Drug Discovery Project](http://www.osdd.net/) and the [OSDD Linux Project](http://osddlinux.osdd.net/) under the direction of [Dr. GPS Raghava](http://www.imtech.res.in/raghava/about.html) of the [CSIR-Institute of Microbial Technology (IMTECH)](http://www.imtech.res.in/).
 
@@ -49,7 +49,7 @@ The newly added servers are:
     "Recent studies indicate that genomes are organized into dynamic three-dimensional physical networks, which are required for correct gene expression. The functional (physical) connectivity between genes and regulatory DNA elements must be mapped to understand how correct gene expression is obtained and ultimately how the genome functions." These tools  quantitatively measure the intensity of individual DNA contacts within the genome.
 * *User Support:*
 
-* *Quotas:* 
+* *Quotas:*
     Must create a login to run tools.  Anyone can create a login.
 * *Sponsor(s):*
     [Canadian Institute of Health Research](http://www.cihr-irsc.gc.ca/), and the [Canadian Cancer Society](http://www.cancer.ca/research/)
@@ -67,7 +67,7 @@ The newly added servers are:
   * See "[Combinatorial effects of multiple enhancer variants in linkage disequilibrium dictate levels of gene expression to confer susceptibility to common traits](http://genome.cshlp.org/content/early/2013/11/06/gr.164079.113.abstract)" by Corradin, *et al.*, *[Genome Research](http://genome.cshlp.org/)* (2013)
 * *User Support:*
     [PreSTIGE User Guide](http://genetics.case.edu/prestige/misc/Scacheri_PreSTIGE_User_Guide.pdf), [Email](mailto:olivia DOT corradin AT case DOT edu)
-* *Quotas:* 
+* *Quotas:*
     Available for academic use only
 * *Sponsor(s):*
     [Scacheri Lab](http://genetics.case.edu/page.php?page_id=5&LN=Scacheri&FN=Peter) at [Case Western Reserve University](http://www.case.edu/), [Department of Genetics and Genome Sciences](http://genetics.case.edu/)
@@ -144,10 +144,10 @@ The newly added servers are:
 
 The Galaxy is expanding! Please help it grow.
 
-* [Stage Master2](http://bit.ly/1hQIpTZ) "Annotation du transcriptome de l’esturgeon" Bordeaux, France 
+* [Stage Master2](http://bit.ly/1hQIpTZ) "Annotation du transcriptome de l’esturgeon" Bordeaux, France
 * [Sysadmin/Computing Officer](http://bit.ly/1hAHXfa) at Queen Mary University of London
-* [Informatics Software Support Specialist](http://bit.ly/1cdfOpr) at the University of Minnesota, United States 
-* [CDD Gif-sur-Yvette NGS et Variation Structurales UMR de Génétique Végétale](http://bit.ly/1exDipD), INRA-Université Paris Sud-CNRS 
+* [Informatics Software Support Specialist](http://bit.ly/1cdfOpr) at the University of Minnesota, United States
+* [CDD Gif-sur-Yvette NGS et Variation Structurales UMR de Génétique Végétale](http://bit.ly/1exDipD), INRA-Université Paris Sud-CNRS
 * [CDD en bioinformatique : recherche de variants structuraux par reséquençage (NGS)](http:////bit.ly/1h1yQnf)
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**, *including positions at George Washington University*.
@@ -177,18 +177,18 @@ Watch the [Galaxy Mailing Lists](/mailing-lists/) for announcements and links to
 <div class='left'><a href='http://lifetech.com/'><img src="/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="170" /></a><br />
 </div>
 
-We are pleased to announce several [sponsorships](/events/gcc2014/sponsor-exhibit/) for GCC2014.  First, [Ion Torrent](http://lifetech.com/) will again be the exclusive Platinum Sponsor for the annual Galaxy meeting.  This is the third year in a row that Ion Torrent has been the Platinum Sponsor of this event. 
+We are pleased to announce several [sponsorships](/events/gcc2014/sponsor-exhibit/) for GCC2014.  First, [Ion Torrent](http://lifetech.com/) will again be the exclusive Platinum Sponsor for the annual Galaxy meeting.  This is the third year in a row that Ion Torrent has been the Platinum Sponsor of this event.
 
 <br />
 <div class='right'><a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="120" /></a></div>
 
 We are also pleased to announce that [BioTeam](http://bioteam.net) will again be a [Gold Sponsor](/events/gcc2014/sponsor-exhibit/) for this annual event.  This is the second year in a row that BioTeam has been a GCC Gold Sponsor.
 
-There are still [Gold, Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) still available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event. 
+There are still [Gold, Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) still available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event.
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014.
 
 ## UC Davis Bioinformatics Boot Camps
 
@@ -197,7 +197,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
 
 **There is still space in 3 of the 4 [UC Davis Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/) this month.**
 
-The [next offering of UC Davis Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/) will be held on the [UC Davis](http://www.ucdavis.edu/) campus December 10-13. 
+The [next offering of UC Davis Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/) will be held on the [UC Davis](http://www.ucdavis.edu/) campus December 10-13.
 
 These focused one-day courses are for researchers looking to get up to speed quickly on the latest technologies and techniques in bioinformatics. Students will work on their own laptops and have continued access to software and example data used in the exercises through a [public Amazon Web Services virtual machine](http://bioinformatics.ucdavis.edu/software/). The first three bootcamps will use the Galaxy platform, and the final bootcamp will use both Galaxy and the command-line. The Alignment and Assembly bootcamps (Dec. 11th & 12th) require you to know Galaxy, so if you are unfamiliar with Galaxy, you should also take the Introduction bootcamp on Dec. 10th.
 
@@ -224,7 +224,7 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
 
 <br />
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='http://www.ifb-galaxy.org/4dec2013.html'><img src="/images/logos/GalaxyIFB.png" alt="Galaxy Day" height="60" /></a>
 <a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/images/logos/UCDavisGenomeCenterLogo.jpg" alt="UC Davis Bioinformatics Bootcamps" height="70" /></a>
@@ -328,7 +328,7 @@ Enrollment for each bootcamp is capped at 24 students. Please enroll early to be
 * A ***security vulnerability*** with filter tools trapped and fixed: **[Upgrade or Patch NOW](/archive/dev-news-briefs/2013-11-04/#security-fix-now)**
 * Galaxy Tool Migration: [48 tools migrated to Tool Shed](http://wiki.galaxyproject.org/DevNewsBriefs/2013-11-04#New_Tool_Migrations) for a leaner distribution.
 * Improved [tools for administrators](/archive/dev-news-briefs/2013-11-04/#admin) (email verification, reports).
-* The framework for [Tools](/archive/dev-news-briefs/2013-11-04/#tools), [Visualizations](/archive/dev-news-briefs/2013-11-04/#visualizations), and the [Core](/archive/dev-news-briefs/2013-11-04/#core) have been upgraded for performance and scalability. 
+* The framework for [Tools](/archive/dev-news-briefs/2013-11-04/#tools), [Visualizations](/archive/dev-news-briefs/2013-11-04/#visualizations), and the [Core](/archive/dev-news-briefs/2013-11-04/#core) have been upgraded for performance and scalability.
 * Come see! A whopping [26 pull requests incorporated](/archive/dev-news-briefs/2013-11-04/#pull-requests-merged)!. Many thanks to our open source community!
 * Numerous [Tool Shed enhancements and upgrades](/archive/dev-news-briefs/2013-11-04/#tool-shed): API, `READMEs`, Functional Tests, easier installs, and much much more.
 * Plus enhancements to [Workflows](/archive/dev-news-briefs/2013-11-04/#workflows), [API](/archive/dev-news-briefs/2013-11-04/#api), [CloudLaunch](/archive/dev-news-briefs/2013-11-04/#cloudlaunch), [UI](/archive/dev-news-briefs/2013-11-04/#ui), and [Bug Fixes](/archive/dev-news-briefs/2013-11-04/#bug-fixes).
@@ -369,14 +369,14 @@ The [GenOuest public ToolShed](http://toolshed.genouest.org/) contains over 60 v
 
 There were many...
 
-* [fastx_barcode_splitter_enhanced](http://bit.ly/1euqt1G): allows barcodes in a separate index read, loads results into a history 
-* [shear](http://bit.ly/HNDViX): Sample Heterogeneity Estimation and Assembly by Reference 
-* [dimont_motif_discovery](http://bit.ly/184et5t): A general approach for de-novo motif discovery from high-throughput data 
+* [fastx_barcode_splitter_enhanced](http://bit.ly/1euqt1G): allows barcodes in a separate index read, loads results into a history
+* [shear](http://bit.ly/HNDViX): Sample Heterogeneity Estimation and Assembly by Reference
+* [dimont_motif_discovery](http://bit.ly/184et5t): A general approach for de-novo motif discovery from high-throughput data
 * [arts](http://bit.ly/1dbHluC): Automated Randomization of multiple Traits for Study design  
-* [samtools_idxstats](http://bit.ly/1io30Sm): BAM mapping statistics (using samtools idxstats) 
+* [samtools_idxstats](http://bit.ly/1io30Sm): BAM mapping statistics (using samtools idxstats)
 * [vcftools](http://bit.ly/gxyshed)_{annotate, compare, isec, merge, slice, subset} and all_vcftools  
-* [filter_tools](http://bit.ly/183Vdou): Various Imaging Filters including Median, Emboss, Blur, Contour, Detail, ... 
-* [image_tools](http://bit.ly/InsBed): General Image Tools: Image Filmify, Image Tileify, Image Rotate, Image Resize 
+* [filter_tools](http://bit.ly/183Vdou): Various Imaging Filters including Median, Emboss, Blur, Contour, Detail, ...
+* [image_tools](http://bit.ly/InsBed): General Image Tools: Image Filmify, Image Tileify, Image Rotate, Image Resize
 * and ...
 
 ## deepTools
@@ -387,5 +387,5 @@ There were many...
 
 # Other News
 
-* [bioblend 0.4.1](http://bit.ly/IhF6s2) CloudMan and Galaxy API library released 
+* [bioblend 0.4.1](http://bit.ly/IhF6s2) CloudMan and Galaxy API library released
 * New accounts on [Main](/main/) now have to activate using the link sent to email address or they can't run jobs (includes upload).  Want to enable this on your own Galaxy instance?  See the [User Accounts Administration](/authnz/config/gxy/) page.

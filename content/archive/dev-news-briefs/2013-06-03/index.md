@@ -80,7 +80,7 @@ There may be occasions when the entire changelog should be inspected and all of 
   In some cases, a dependency definition author may want to write a definition whose dependency package (e.g., osra) can require a previously compiled binary (e.g., graphicsmagick) during compilation as well as tool execution time when the tool is using the compiled [osra] binary.  This is possible using a combination of three tool dependency definition tag sets, which must be defined in the tool_dependencies.xml file in the order discussed here.  [Read more…](http://wiki.galaxyproject.org/ToolShedToolFeatures#The_bells_and_whistles_of_tool_dependency_definitions)
 
 1. #3 Framework enhancements that process repository_dependencies.xml files
-  Several enhancements have been made to the Tool Shed framework that processes repository dependency definitions contained in a repository_dependencies.xml file in a repository.  Both of the previously required "toolshed" and "changeset_revision" attributes are now optional, and a new tag attribute is supported for ordering the installation of repository dependencies.  This new attribute named "prior_installation_required", and if set to True in the repository dependency definition for a certain repository XYZ, then Galaxy's repository installation process will ensure that the required repository (XYZ's defined repository dependency) is installed prior to the installation of XYZ.  These enhancements are supported when installing repositories with repository dependencies in either a browser or using the enhanced Galaxy API. 
+  Several enhancements have been made to the Tool Shed framework that processes repository dependency definitions contained in a repository_dependencies.xml file in a repository.  Both of the previously required "toolshed" and "changeset_revision" attributes are now optional, and a new tag attribute is supported for ordering the installation of repository dependencies.  This new attribute named "prior_installation_required", and if set to True in the repository dependency definition for a certain repository XYZ, then Galaxy's repository installation process will ensure that the required repository (XYZ's defined repository dependency) is installed prior to the installation of XYZ.  These enhancements are supported when installing repositories with repository dependencies in either a browser or using the enhanced Galaxy API.
   [Read more…](http://wiki.galaxyproject.org/DefiningRepositoryDependencies#Simple_repository_dependencies)
 
 1. #4 The automated tool test framework
@@ -294,7 +294,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # GCC2013
 
-<div class='left'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
+<div class='left'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div>
 
 <br />
 <br />
@@ -308,7 +308,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

@@ -78,7 +78,7 @@ The *[Tools integration on Galaxy Workshop](http://go4bioinformatics.genouest.or
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 <a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src="/images/logos/SB-RoscoffBig.JPG" alt="Des bonnes pratiques d'intégration d'outils sous Galaxy" height="60" /></a> &nbsp;
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'><img src="/images/logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
 <a href='http://www.bioinformatica.crs4.it/next_generation_sequencing_course_with_galaxy_november_2014'><img src="/images/logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing in Galaxy" width="130" /></a> &nbsp;
@@ -86,7 +86,7 @@ The *[Tools integration on Galaxy Workshop](http://go4bioinformatics.genouest.or
 <a href='http://www.prabi.fr/spip.php?article215'><img src="/images/logos/PRABILogo.png" alt="RNA-Seq & ChIP-Seq analysis course using Galaxy" height="60" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are [upcoming events](/events/) in France, Germany, Australia, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -217,12 +217,12 @@ There are [upcoming events](/events/) in France, Germany, Australia, Italy, and 
 
 * [Flexible and accessible workflows for improved proteogenomic analysis using the Galaxy framework](https://doi.org/10.1021/pr500812t), by Pratik D. Jagtap, James E. Johnson, Getiria Onsongo, *et al.,* *J. Proteome Res.* (10 October 2014), doi:10.1021/pr500812t
 
-  	
+
 * [iReport: a generalised Galaxy solution for integrated experimental reporting](https://doi.org/10.1186/2047-217x-3-19), by Saskia Hiltemann, Youri Hoogstrate, Peter van der Spek, Guido Jenster, Andrew Stubbs, *GigaScience*, Vol. 3, No. 1. (2014), 19, doi:10.1186/2047-217x-3-19
 
 * [ExomeAI: Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing](https://doi.org/10.1093/bioinformatics/btu665), by Javad Nadaf, Jacek Majewski, Somayyeh Fahiminiya, *Bioinformatics* (08 October 2014), btu665, doi:10.1093/bioinformatics/btu665
 
-  	
+
 The new papers were tagged in these areas:
 
 <table>
@@ -289,7 +289,7 @@ The Galaxy is expanding! Please help it grow.
 * [Bioinformatician](/news/bioinformatician-freiburg2014/), Max Planck Institute of Immunobiology and Epigenetics, Freiburg, Germany
 * [Research Specialist](http://bit.ly/13pqd0T), Michigan State University, United States
 * [Galaxy Workflow Developer](https://www.jic.ac.uk/training-careers/vacancies/2014/10/galaxy-workflow-developer/#), John Innes Centre, Norwich, United Kingdom.  <div class='red'>Closes Nov 5.</span>
-* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
+* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
@@ -351,12 +351,12 @@ Look for a new Galaxy distribution in November.
 
 Here are new contributions for the past *two* months.
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
 * *From [crs4](https://toolshed.g2.bx.psu.edu/view/crs4):*
-  * [seal_galaxy](https://toolshed.g2.bx.psu.edu/view/crs4/seal_galaxy): Galaxy wrappers for [Seal](http://github.com/crs4/seal) 
+  * [seal_galaxy](https://toolshed.g2.bx.psu.edu/view/crs4/seal_galaxy): Galaxy wrappers for [Seal](http://github.com/crs4/seal)
 
 * *From [arkarachai-fungtammasan](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan):*
   * [microsatellite_ngs](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan/microsatellite_ngs): Pipeline to profile and genotype microsatellites from short read data. This repository contains these sets of tools: 1 create microsatellite length profile, 2 correct for sequencing errors and report genotype, 3 estimate minimum sequencing read depth, 4 convert informative read depth to locus specific/genome wide sequencing depth.
@@ -365,7 +365,7 @@ In no particular order:
   * [mummer](https://toolshed.g2.bx.psu.edu/view/peterjc/mummer): v0.0.1, essentially a preview (previously only on the TestToolShed). A simple wrapper allowing MUMmer to be used to draw dotplots from within Galaxy using mummer, mucmer, or promer with mummerplot. No tests yet, no gnuplot or ps2pdf dependency yet.
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [picard_plus](https://toolshed.g2.bx.psu.edu/view/devteam/picard_plus): Picard wrappers for version 122 and up. New set of Picard wrappers that do not rely on external scripts and deal with all aspects of picard management and UI via tool XML. 
+  * [picard_plus](https://toolshed.g2.bx.psu.edu/view/devteam/picard_plus): Picard wrappers for version 122 and up. New set of Picard wrappers that do not rely on external scripts and deal with all aspects of picard management and UI via tool XML.
 
 * *From [saket-choudhary](https://toolshed.g2.bx.psu.edu/view/saket-choudhary):*
   * [fathmm_web](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/fathmm_web): Calls FATHMM webservice  at http://fathmm.biocompute.org.uk
@@ -378,8 +378,8 @@ In no particular order:
   * [merge_columns_with_delimiter](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/merge_columns_with_delimiter): Modified merge_columns to allow merging columns separated by a delimiter. This tool allows merging columns separated by a delimiter (two or multiple columns). It is similar to the Galaxy's default too; 'Merge Columns' but also allows merging them separated by a specified delimiter.
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp):*
-  * [pepxml_to_xls](https://toolshed.g2.bx.psu.edu/view/galaxyp/pepxml_to_xls): Convert PepXML to Tabular 
-  * [protxml_to_xls](https://toolshed.g2.bx.psu.edu/view/galaxyp/protxml_to_xls): Convert ProtXML to Tabular 
+  * [pepxml_to_xls](https://toolshed.g2.bx.psu.edu/view/galaxyp/pepxml_to_xls): Convert PepXML to Tabular
+  * [protxml_to_xls](https://toolshed.g2.bx.psu.edu/view/galaxyp/protxml_to_xls): Convert ProtXML to Tabular
   * [blastxml_to_tabular_selectable](https://toolshed.g2.bx.psu.edu/view/galaxyp/blastxml_to_tabular_selectable): Converts blast xml file to a tabular with options for unmatched queries, and number of hits to convert.  The unmatched queries can be useful for finding novel peptides.
   * [blast_plus_remote_blastp](https://toolshed.g2.bx.psu.edu/view/galaxyp/blast_plus_remote_blastp): NCBI BLAST+ remote blastp NCBI BLAST+ blastp with additional optional arguments.
 
@@ -393,10 +393,10 @@ In no particular order:
 * *From [takadonet](https://toolshed.g2.bx.psu.edu/view/takadonet):*
   * [package_tbl2asn_23_7](https://toolshed.g2.bx.psu.edu/view/takadonet/package_tbl2asn_23_7): Contains a tool dependency definition that downloads the binary version 23.7 of tbl2asn. tbl2asn is an automated bulk submission program.
   * [package_minced_0_1_6](https://toolshed.g2.bx.psu.edu/view/takadonet/package_minced_0_1_6): Contains a tool dependency definition that downloads version 0.1.6 of minced, a CRISPR finder. MinCED is a program to find Clustered Regularly Interspaced Short Palindromic Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes, in which sequence size can be anywhere from 100 to 800 bp. MinCED runs from the command-line and was derived from CRT (http://www.room220.com/crt/): Charles Bland ''et al.'', CRISPR Recognition Tool (CRT): a tool for automatic detection of clustered regularly interspaced palindromic repeats, BMC Bioinformatics 8, no. 1 (2007): 209.
-  * [package_barrnap_0_5](https://toolshed.g2.bx.psu.edu/view/takadonet/package_barrnap_0_5): Contains a tool dependency definition that downloads and compiles version 0.4 of the barrnap. Barrnap predicts the location of 5S, 16S and 23S ribosomal RNA genes in Bacterial genome sequ It takes FASTA DNA sequence as input, and write GFF3 as output. https://github.com/Victorian-Bioinformatics-Consortium/barrnap 
+  * [package_barrnap_0_5](https://toolshed.g2.bx.psu.edu/view/takadonet/package_barrnap_0_5): Contains a tool dependency definition that downloads and compiles version 0.4 of the barrnap. Barrnap predicts the location of 5S, 16S and 23S ribosomal RNA genes in Bacterial genome sequ It takes FASTA DNA sequence as input, and write GFF3 as output. https://github.com/Victorian-Bioinformatics-Consortium/barrnap
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [package_numpy_1_9](https://toolshed.g2.bx.psu.edu/view/iuc/package_numpy_1_9): Contains a tool dependency definition that downloads and compiles version 1.9 of the the python numpy package. NumPy is the fundamental package for scientific computing with Python. 
+  * [package_numpy_1_9](https://toolshed.g2.bx.psu.edu/view/iuc/package_numpy_1_9): Contains a tool dependency definition that downloads and compiles version 1.9 of the the python numpy package. NumPy is the fundamental package for scientific computing with Python.
   * [package_blast_plus_2_2_30](https://toolshed.g2.bx.psu.edu/view/iuc/package_blast_plus_2_2_30): first version, based on BLAST+ 2.2.29 definition. NCBI BLAST+ 2.2.30 (binaries only)  This Tool Shed package is intended to be used as a dependency of the Galaxy wrappers for NCBI BLAST+ and any other tools which call the BLAST+ binaries internally.
   * [package_matplotlib_1_4](https://toolshed.g2.bx.psu.edu/view/iuc/package_matplotlib_1_4): Contains a tool dependency definition that downloads and compiles version 1.4.x of the the python matplotlib package. matplotlib is a python 2D plotting library which produces publication quality figures. This is the version 1.2.x of matplotlib. www.matplotlib.org/
   * [package_networkx_1_9](https://toolshed.g2.bx.psu.edu/view/iuc/package_networkx_1_9): Contains a tool dependency definition that downloads and compiles version 1.9.x of the python library networkx. NetworkX is a Python language software package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks. http://networkx.github.io/
@@ -405,11 +405,11 @@ In no particular order:
   * [package_scikit_learn_0_15](https://toolshed.g2.bx.psu.edu/view/iuc/package_scikit_learn_0_15): Contains a tool dependency definition that downloads and compiles version 0.15.x of the the scikit-learn package. Easy-to-use and general-purpose machine learning in Python.  Scikit-learn integrates machine learning algorithms in the tightly-knit scientific Python world, building upon numpy, scipy, and matplotlib. As a machine-learning module, it provides versatile tools for data mining and analysis in any field of science and engineering. It strives to be simple and efficient, accessible to everybody, and reusable in various contexts. http://scikit-learn.org/
 
 * *From [saket-choudhary](https://toolshed.g2.bx.psu.edu/view/saket-choudhary):*
-  * [package_xlrd_0_9_3](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_xlrd_0_9_3): Tool dependency definition of python-xlrd 
-  * [package_scikit_learn_0_15](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_scikit_learn_0_15): Tool dependency package for scikit-learn-0.15 
-  * [package_fastcluster_1_1_13](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_fastcluster_1_1_13): Tool dependency definition of python-fastcluster 
-  * [package_blas_3_5_0](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_blas_3_5_0): Tool dependency package for blas 
-  * [package_pyvcf_0_6_7](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_pyvcf_0_6_7): Tool dependedency definition for PyVCF 
+  * [package_xlrd_0_9_3](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_xlrd_0_9_3): Tool dependency definition of python-xlrd
+  * [package_scikit_learn_0_15](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_scikit_learn_0_15): Tool dependency package for scikit-learn-0.15
+  * [package_fastcluster_1_1_13](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_fastcluster_1_1_13): Tool dependency definition of python-fastcluster
+  * [package_blas_3_5_0](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_blas_3_5_0): Tool dependency package for blas
+  * [package_pyvcf_0_6_7](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_pyvcf_0_6_7): Tool dependedency definition for PyVCF
 
 * *From [lparsons](https://toolshed.g2.bx.psu.edu/view/lparsons):*
   * [package_cutadapt_1_6](https://toolshed.g2.bx.psu.edu/view/lparsons/package_cutadapt_1_6): Initial version Contains a tool dependency definition that downloads and compiles cutadapt version 1.6 trim adapters from high-throughput sequencing reads
@@ -446,8 +446,8 @@ In no particular order:
 
 # Other News
 
-* Have you ever wanted to improve a Galaxy tool? Large number of tools are [now awaiting your pull requests at GitHub](https://github.com/galaxyproject/tools-devteam). 
+* Have you ever wanted to improve a Galaxy tool? Large number of tools are [now awaiting your pull requests at GitHub](https://github.com/galaxyproject/tools-devteam).
 * [On the awesomeness of the BOSC/OpenBio Codefest 2014](http://etalog.blogspot.com/2014/10/on-awesomeness-of-boscopenbio-codefest.html)
-* [Björn Grüning's](/people/bjoern-gruening/) [Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable/commits/master) now bundles FTP & SLURM and allows targeting external Galaxy directories. 
-* An IPython notebook demonstrating an [interactive cummeRbund analysis embedded in Galaxy](http://nbviewer.ipython.org/github/jmchilton/ipython_notebooks/blob/master/cummerbund_galaxy_1.ipynb). 
+* [Björn Grüning's](/people/bjoern-gruening/) [Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable/commits/master) now bundles FTP & SLURM and allows targeting external Galaxy directories.
+* An IPython notebook demonstrating an [interactive cummeRbund analysis embedded in Galaxy](http://nbviewer.ipython.org/github/jmchilton/ipython_notebooks/blob/master/cummerbund_galaxy_1.ipynb).
 * [GUGGO tutorial](http://bit.ly/ZQ7mdu): how to activate Docker functionality in Galaxy; create a Docker image and install Stacks on that image; and integrate a Stacks Galaxy tool using that image.

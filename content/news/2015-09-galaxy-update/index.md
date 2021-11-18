@@ -12,7 +12,7 @@ The **[September Galactic News](/galaxy-updates/2015-09/)** is hot off the press
 * And those 97 papers pushed the Galaxy CiteULike library [past 2500 papers](/galaxy-updates/2015-09/#galaxys-first-2500-publications).
 * [August GalaxyAdmins Slides and Video](/galaxy-updates/2015-09/#august-galaxyadmins-slides-and-video)
 * [Galaxy's Google Calendar is now two calendars](/galaxy-updates/2015-09/#galaxy-project-google-calendars)
-* [Slides and video for the August GalaxyAdmins meetup are now available](/galaxy-updates/2015-09/#august-galaxyadmins-slides-and-video). 
+* [Slides and video for the August GalaxyAdmins meetup are now available](/galaxy-updates/2015-09/#august-galaxyadmins-slides-and-video).
 * [14 upcoming events in 5 countries on 3 continents in the next 2 months](/galaxy-updates/2015-09/#upcoming-events).  
 * [Who's Hiring](/galaxy-updates/2015-09/#whos-hiring)
 * [Two new public Galaxy servers](/galaxy-updates/2015-09/#new-public-galaxy-servers):

@@ -89,6 +89,6 @@ There are several other options within a 15 minute walk:
 
 * [University Place Hotel](https://www.pdx.edu/university-place/), 310 SW Lincoln St, 14 minute walk (Portland State's own hotel, **use code STAYPDX**)
 * [Hotel Modera](https://www.hotelmodera.com/)
-* [Duniway Hotel](http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html), 545 SW Taylor, 
+* [Duniway Hotel](http://www3.hilton.com/en/hotels/oregon/the-duniway-portland-a-hilton-hotel-PDXTPHH/index.html), 545 SW Taylor,
 
 Reed College also has a [list of recommended hotels](https://www.reed.edu/accommodations.html), including [several that are downtown](https://www.reed.edu/accommodations.html#downtown).

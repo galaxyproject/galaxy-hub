@@ -10,15 +10,15 @@ title: Workflows as Custom Tools
 
 All workflows are listed by default in the left tool panel in the **Analyze Data** view. But, if you use a workflow frequently, it can be helpful to have it listed at the top. *See the tutorial below for step-by-step details*. Or, do the following:
 
-* Go the the Worflow home page by clicking on the **Workflows** link in the upper masthead. 
+* Go the the Worflow home page by clicking on the **Workflows** link in the upper masthead.
 * On the bottom of that page, in the section 'Other options', click on the button 'Configure your workflow menu'.
 * The next page lists all of your workflows. To place any at the top of your workflow list, mark the checkbox in the column **Show in menu**, scroll to the end of the page, and click on "Save"!
 
 ## Hiding Intermediate Steps
 
-Customizing a workflow so that only one or some of the jobs included are active in the History panel can be a useful way to reduce clutter. This can also make a complex workflow act more **like a tool**. 
+Customizing a workflow so that only one or some of the jobs included are active in the History panel can be a useful way to reduce clutter. This can also make a complex workflow act more **like a tool**.
 
-Hide intermediate workflow steps using the **workflow editor**. 
+Hide intermediate workflow steps using the **workflow editor**.
 
 ----
 ## Tutorial: Promote a Workflow with Hidden Steps
@@ -29,7 +29,7 @@ Step-by-step instructions for promoting a workflow and hiding intermediate steps
 
 Access Galaxy and click on **Analyze Data** in the top masthead to reach the *Analysis Home View*. The Tool Panel is on the far left. Your workflows are at the bottom of the list of tools (scroll down if needed).
 
-Clicking on **All workflows** will display workflows *owned by you* or *shared with you* in the center panel. 
+Clicking on **All workflows** will display workflows *owned by you* or *shared with you* in the center panel.
 
 If you see workflows listed above **All workflows**, these have been ***promoted*** for quick access. Do not see any or want to add more? That is what this tutorial will explain how to do.
 
@@ -80,19 +80,19 @@ Click on **Analyze Data** to return to the **Analysis Home View** where the upda
 
 ### View and Run Promoted Workflows
 
-Review the updated Workflow section in the **Tool Panel** to confirm the promotion. 
+Review the updated Workflow section in the **Tool Panel** to confirm the promotion.
 
 <div class='indent'> <img src="/images/learn/workflow_tool_your_workflows_in_tool_panel.png" alt="updated workflow section" width="200" /> <br />*updated tool panel **workflow section***</div>
 
 <br />
 
-Then launch the workflow by clicking on the name. 
+Then launch the workflow by clicking on the name.
 
 <div class='indent'> <img src="/images/learn/workflow_tool_run_from_tool_panel.png" alt="run a workflow from tool panel" width="700" /> <br />***run a workflow** from **tool panel***</div>
 
 ### Editing to Hide Intermediate Steps
 
-Too many steps displayed by default in the history after running a workflow "tool"? Consider hiding the intermediate steps. How many to display/hide depends on what is important to access or visualize in the history as an active dataset. Often just the last step is wanted as a result. 
+Too many steps displayed by default in the history after running a workflow "tool"? Consider hiding the intermediate steps. How many to display/hide depends on what is important to access or visualize in the history as an active dataset. Often just the last step is wanted as a result.
 
 Start by entering the **Workflow Editor** for the target workflow, then follow these instructions:  **[Basic Editing, Hidden Datasets](/learn/advanced-workflow/basic-editing/#hidden-datasets)**
 

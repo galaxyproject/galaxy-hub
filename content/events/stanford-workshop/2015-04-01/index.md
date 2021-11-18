@@ -10,7 +10,7 @@ title: April 1, 2015 Galaxy Workshop at Stanford University
 
 This hands-on Galaxy workshop will cover several common analysis pathways with an emphasis on maximising basic and intermediate level functions of the Galaxy application for reproducible, publication quality, scientific research.
 
-<div class='right'><a href='http://www.stanford.edu/'><img src="/images/logos/Stanford.jpeg" alt="Stanford University" width=175 /></a> <br /> <a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="Bioteam" width=100 /></a> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src="/images/logos/SlipStreamApplianceLogoTrimmed.png" alt="Galaxy Slipstream" width=200 /></a> <br /> </div> 
+<div class='right'><a href='http://www.stanford.edu/'><img src="/images/logos/Stanford.jpeg" alt="Stanford University" width=175 /></a> <br /> <a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="Bioteam" width=100 /></a> <a href='http://bioteam.net/slipstream/galaxy-edition/'><img src="/images/logos/SlipStreamApplianceLogoTrimmed.png" alt="Galaxy Slipstream" width=200 /></a> <br /> </div>
 
 ### When
 

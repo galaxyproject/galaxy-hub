@@ -2,11 +2,11 @@
 
 There are a number of ways to visualize data in Galaxy, so let's settle on some terminology first for the three major ways:
 * display applications: these are definitions of external websites that can fetch galaxy datasets and display them in their visualization applications. Examples are the UCSC genome browser, GBrowse, and IGV.
-* tools: although the tool framework generally produces 'raw' data like tabular or binary files, it can also produce the html (and js even) that can display data for visualization. An example would be 'Boxplot of quality statistics'. 
+* tools: although the tool framework generally produces 'raw' data like tabular or binary files, it can also produce the html (and js even) that can display data for visualization. An example would be 'Boxplot of quality statistics'.
 * visualization plugins: these are python/mako/js files that are meant to be more interactive visualizations in order to explore data
 
 To use the visualization plugin system:
-* since they're for external code or websites, let's take display applications off the table entirely. 
+* since they're for external code or websites, let's take display applications off the table entirely.
 * since they can be a viable alternative to the plugin system, so I'd keep tools as another option but keep our focus on the plugin system
 
 You often have two elements to incorporate:
@@ -42,7 +42,7 @@ Here's a simplified process for creating an outline for a visualization plugin p
 5. the configuration file should use the same id you used above for the directory: e.g. `config/myplugin.xml`. Most people copy and rename a simple config file like the one in config/plugins/visualizations/scatterplot/config/scatterplot.xml. We'll change the datatype it applies to later, but there's more at:
   * [The visualization configuration file](/visualizations-registry/#the-visualization-configuration-file) and
   * [Visualizations Registry Configuration](/visualizations-registry/configuration/)
-6. [a mako template file](/visualizations-registry/#creating-the-code-and-markup-for-your-visualization) should go into the templates directory: e.g. `templates/myplugin.mako`. This template file is the entry point for your visualization and is loaded first. You don't have to do any major coding here and can instead just launch javascript to render the visualization. 
+6. [a mako template file](/visualizations-registry/#creating-the-code-and-markup-for-your-visualization) should go into the templates directory: e.g. `templates/myplugin.mako`. This template file is the entry point for your visualization and is loaded first. You don't have to do any major coding here and can instead just launch javascript to render the visualization.
 
 At this point, your config/plugins/visualizations/myplugin directory should look like [one of the two trees displayed here](/visualizations-registry/#configuring-your-visualization-plugin-in-the-visualization_plugins_directory).
 
@@ -50,7 +50,7 @@ At this point, your config/plugins/visualizations/myplugin directory should look
 
 Now, we'll configure the plugin by editing the `config/plugins/visualizations/myplugin/config/myplugin.xml` file. Let's assume you've copied the scatterplot config file (https://github.com/galaxyproject/galaxy/blob/dev/config/plugins/visualizations/scatterplot/config/scatterplot.xml):
 
-1. change the name displayed to what you'd like users to see in the dataset visualizations dropdown menu: 
+1. change the name displayed to what you'd like users to see in the dataset visualizations dropdown menu:
 
 ```xml
 <visualization name="My Visualization Plugin">
@@ -71,11 +71,11 @@ Now, we'll configure the plugin by editing the `config/plugins/visualizations/my
 
 
 The above is basically saying, if an object is a) a HistoryDatasetAssociation (a dataset in a history) and b) it's a subclass or instance of `binary.MyDatatype`, then put a link:
-* in the dataset visualization dropdown menu 
+* in the dataset visualization dropdown menu
 * that will start my visualization
 * pass the encoded id of the dataset in the link using the parameter 'dataset_id'
 
-Note: the '`binary.MyDatatype`' is essentially 'module.class' and is also the last half of the id given in the 'api/datatypes/mapping' mentioned previously. 
+Note: the '`binary.MyDatatype`' is essentially 'module.class' and is also the last half of the id given in the 'api/datatypes/mapping' mentioned previously.
 
 3. change the template used as the entry point to reflect the name you gave it:
 

@@ -31,5 +31,5 @@ Salary: Depending on qualifications and experience, based on CNRS salary scale.
 Application: Send CV, cover letter and two references to [Christophe Antoniewski](mailto:christophe DOT antoniewski AT upmc DOT fr).  Shortlisted candidates will be invited for an interview.
 
 [Lab publications](http://drosophile.org/?page_id=92)
- 
+
 Christophe Antoniewski

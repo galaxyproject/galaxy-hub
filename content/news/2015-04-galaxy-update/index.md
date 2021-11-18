@@ -11,7 +11,7 @@ date: "2015-04-02"
 
 [April brings lots of Galaxy related news](/galaxy-updates/2015-04/), including *events news*:
 
-* [April GalaxyAdmins Meetup](/galaxy-updates/2015-04/#april-galaxyadmins-meetup), 
+* [April GalaxyAdmins Meetup](/galaxy-updates/2015-04/#april-galaxyadmins-meetup),
 * [Galaxy Workshop Tokyo 2015](/galaxy-updates/2015-04/#galaxy-workshop-tokyo-april-28)
 * **[2015 Galaxy Community Conference (GCC2015)](/galaxy-updates/2015-04/#gcc2015-6-8-july-norwich-uk)**
   * [Paper Abstract Submission Extended to April 20](/galaxy-updates/2015-04/#paper-abstract-submission-extended-to-april-20)

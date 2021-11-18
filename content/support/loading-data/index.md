@@ -24,7 +24,7 @@ Tutorials
 
 ## GTN Tutorials
 
-Most tutorials from the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) include one or more data upload steps. 
+Most tutorials from the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) include one or more data upload steps.
 
  * Start with this tutorial, section "Getting Data In", for a quick overview: [NGS Logistics](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html)
  * Advanced **Upload** methods are covered in the tutorial topic group [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
@@ -38,7 +38,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   The maximum size limit is 50G (uncompressed).
 *   Most individual file compression formats are supported, but multi-file archives are not (`.tar`, `.zip`).
 *   If a `.tar` archive contains multiple datasets, only the first dataset inside the archive will upload.
-*   If your compressed data does not load correctly, try loading an uncompressed version. 
+*   If your compressed data does not load correctly, try loading an uncompressed version.
 
 ### Get Data: Upload
 
@@ -51,7 +51,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 *   Search for your data directly in the tool and use the Galaxy links
 *   There are a few links, so [which data do I load?](/support/ebi-sra-data-load/)
-*   Be sure to check your sequence data for correct quality score formats and the metadata "datatype" assignment. 
+*   Be sure to check your sequence data for correct quality score formats and the metadata "datatype" assignment.
   * [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
   * [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)
 
@@ -67,7 +67,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   **`FTPS` was enabled for all transfers to [http://usegalaxy.org](http://usegalaxy.org) on July 19, 2017**. If you are having trouble connecting the first time after this date, verifying the server certificate is required when using an [FTP client](/ftp-upload/#upload-from-client).
 * Working at Galaxy EU https://usegalaxy.eu? Read the server-specific FTP help here: https://galaxyproject.eu/ftp/
 * More help for FTP is at Galaxy Help https://help.galaxyproject.org. Search with the keyword "ftp". Example post: https://help.galaxyproject.org/t/ftp-help-guides-tutorials-and-troubleshooting/3449
- 
+
 
 ### Upload tool location
 
@@ -75,7 +75,7 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 
 ### Upload tool option to move FTP datasets into a History
 
-If you DO NOT see any files, **load data using FTP first**, then come back to the _Upload_ tool. 
+If you DO NOT see any files, **load data using FTP first**, then come back to the _Upload_ tool.
 
 Make sure that the FTP transfer is completed before moving files into a History.
 

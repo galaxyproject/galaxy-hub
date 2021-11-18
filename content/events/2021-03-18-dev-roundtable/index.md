@@ -27,4 +27,4 @@ The topic is also very timely: See [New hardware: More Storage and GPUs](https:/
 
 ---
 
-The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 
+The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community.

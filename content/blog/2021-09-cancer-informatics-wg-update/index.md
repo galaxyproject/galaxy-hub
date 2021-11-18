@@ -6,7 +6,7 @@ date: "2021-09-02"
 ---
 
 # Cancer Informatics + Galaxy
-Over this last [tertile](https://en.wiktionary.org/wiki/tertile) (or, if you prefer, [quadrimestre](https://en.wiktionary.org/wiki/quadrimestre)), the Cancer Informatics working group has continued its efforts to bring cancer informatics tools, workflows, and visualizations to the Galaxy community, with the downstream goal of launching an entire 'flavor' of Galaxy (Galaxy Cancer) dedicated specifically to cancer data analysis. 
+Over this last [tertile](https://en.wiktionary.org/wiki/tertile) (or, if you prefer, [quadrimestre](https://en.wiktionary.org/wiki/quadrimestre)), the Cancer Informatics working group has continued its efforts to bring cancer informatics tools, workflows, and visualizations to the Galaxy community, with the downstream goal of launching an entire 'flavor' of Galaxy (Galaxy Cancer) dedicated specifically to cancer data analysis.
 
 The following are a couple of highlights from these efforts:
 

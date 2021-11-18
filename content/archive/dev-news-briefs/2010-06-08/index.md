@@ -44,7 +44,7 @@ and point your browse at the URL defined by the host and port setting in your co
   * Can manually set display modes for tracks.
   * Add text search to trackster dataset selection grid and fix dbkey filtering.
   * Respect block color for bam
- 
+
 * When use_remote_user = True, still display the logged in user in the User menu
 
 * Enhancement to the data libraries grid: display the file size of each library dataset in the grid.

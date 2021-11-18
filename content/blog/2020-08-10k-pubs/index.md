@@ -529,7 +529,7 @@ Galaxy has appeared in over 1800 journals.  The 20 most popular journals in the 
 | 12 | *PLOS Genetics* | 78 |
 | 13 | *Genome Biology* | 76 |
 | 14 | *GigaScience* | 72 |
-| 15 | *PeerJ* | 70 | 
+| 15 | *PeerJ* | 70 |
 | 16 | *Briefings in Bioinformatics* | 68 |
 | 17 | *Molecular Ecology* | 64 |
 | 17 | *Proceedings of the National Academy of Sciences* | 64 |
@@ -641,7 +641,7 @@ For now, we are stepping back from the monthly curation effort to figure out wha
 
 Galaxy has had an interesting journey over the past 15 years, and the Galaxy Publications Library reflects that.  We look forward to continuing to track where we go in the future.
 
-*Thanks for using Galaxy (and for saying that you are using Galaxy!),* 
+*Thanks for using Galaxy (and for saying that you are using Galaxy!),*
 
 [Dave Clements](/people/dave-clements/)
 
@@ -675,7 +675,7 @@ Topic tags indicate how the publication relates to Galaxy.  Here's the current s
 | [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/main/), in its methods. | 2013 |
 | [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | Uses a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/) in its methods. | 2013 |
 | [+Visualization](https://www.zotero.org/groups/galaxy/items/tag/+Visualization/) | Publications referencing Galaxy in a visualization and/or visual analytics context. | 2013 |
-| [+Education]() | Papers referencing Galaxy in a training or education context. | 2019 | 
+| [+Education]() | Papers referencing Galaxy in a training or education context. | 2019 |
 
 ## Galaxy Featured Tags
 
@@ -701,7 +701,7 @@ These tags were added over an 8 year period.  Are older papers back-tagged when 
 * **Galaxy Featured Tags** exist back to the beginning of time.  (These were converted from CiteULike's *priority* feature.)
 * **Topic and platform tags** have been applied to older publications on a selected basis.
 
-Therefore, don't look for a lot of **+UsePublic** or **+Cloud** tagged papers from before 2013. 
+Therefore, don't look for a lot of **+UsePublic** or **+Cloud** tagged papers from before 2013.
 
 
 

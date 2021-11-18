@@ -13,9 +13,9 @@ Questions that apply to using most Galaxy instances.  See [Main/FAQ](/main/faq/)
 
 What are the disk usage quotas when using Galaxy?
 
-Total disk space reserved per user is noted on the [Main](/main/) and [Test](/test/) home pages under the section "Quotas". 
+Total disk space reserved per user is noted on the [Main](/main/) and [Test](/test/) home pages under the section "Quotas".
 
-When using a local, cloud, or public Galaxy servers hosted by other teams, quotas may or may not be set and are configured by that instance's administrator. 
+When using a local, cloud, or public Galaxy servers hosted by other teams, quotas may or may not be set and are configured by that instance's administrator.
 
 For help understanding and organizing datasets and histories, please see: [Managing Datasets](/learn/managing-datasets/).
 
@@ -50,7 +50,7 @@ Yes, your browser cache definitely affects the behavior of Galaxy.  The Galaxy d
 
 Should I use the central Galaxy server environment hosted at Penn State or should I download the Galaxy source code and host it locally within my environment?
 
-It depends upon your specifics needs.  In general, we advise our customers to use the central Galaxy server, hosted by The Institute for Genomics, Proteomics and Bioinformatics at Penn State University.  This environment is freely available to anyone with Internet access. Unlimited disk space is available for storing personal Galaxy histories and data.  If you want to manage a local Galaxy environment, the Galaxy source distribution aims to be a "zero configuration", entirely self-contained system that provides a lightweight webserver, an embedded database and a multi-threaded job manager. All tools (and their parameters) can be specified via simple XML based configuration files. 
+It depends upon your specifics needs.  In general, we advise our customers to use the central Galaxy server, hosted by The Institute for Genomics, Proteomics and Bioinformatics at Penn State University.  This environment is freely available to anyone with Internet access. Unlimited disk space is available for storing personal Galaxy histories and data.  If you want to manage a local Galaxy environment, the Galaxy source distribution aims to be a "zero configuration", entirely self-contained system that provides a lightweight webserver, an embedded database and a multi-threaded job manager. All tools (and their parameters) can be specified via simple XML based configuration files.
 
 
 ## Alignment Tools
@@ -67,14 +67,14 @@ The following alignment tools available in Galaxy enable this:
 
 *Extract Genomic DNA* tool under *Fetch sequences* section returns one less nucleotide for the start value in each of my intervals. Is this a bug?
 
-Genomic intervals (Interval and BED formats) in Galaxy are 0-based, start-inclusive/end-exclusive, reported with respect to a forward-strand chromosome beginning with a base labeled as "0". This nomenclature is in accordance with the definition of [BED format](http://genome.ucsc.edu/FAQ/FAQformat#format1) and [0-based Coordinates](http://genomewiki.cse.ucsc.edu/index.php/Coordinate_Transforms) by UCSC. 
+Genomic intervals (Interval and BED formats) in Galaxy are 0-based, start-inclusive/end-exclusive, reported with respect to a forward-strand chromosome beginning with a base labeled as "0". This nomenclature is in accordance with the definition of [BED format](http://genome.ucsc.edu/FAQ/FAQformat#format1) and [0-based Coordinates](http://genomewiki.cse.ucsc.edu/index.php/Coordinate_Transforms) by UCSC.
 
 ### Examples
 
-1. For computational purposes, a chromosome begins with the initial base labeled as "0". So for a chromosome 1 beginning with a base labeled as "0", BED/Interval coordinates defined as "chr1 100 200" will be translated and representing the 0-start computational bases 100 to 199. 
+1. For computational purposes, a chromosome begins with the initial base labeled as "0". So for a chromosome 1 beginning with a base labeled as "0", BED/Interval coordinates defined as "chr1 100 200" will be translated and representing the 0-start computational bases 100 to 199.
 1. For certain other data formats and in particular positional visualization, a chromosomes begins with the initial base labeled as "1". So for a chromosome 1 beginning with a base labeled as "1", the BED/Interval coordinates defined as "chr1 100 200" will be translated/visualized as representing the 1-start positional bases 101 to 200.
 
-For a detailed explanation, please read [this article](https://depot.galaxyproject.org/hub/attachments/learn/faq/zero_based_coordinates.pdf). 
+For a detailed explanation, please read [this article](https://depot.galaxyproject.org/hub/attachments/learn/faq/zero_based_coordinates.pdf).
 To learn/understand whether a particular datatype is associated with a 0-based or 1-based coordinate system, see data format descriptions in Galaxy's help section for the tool "Get Data -> Upload".
 
 
@@ -85,7 +85,7 @@ The [Galaxy Test Server](/test/), http://test.g2.bx.psu.edu/, is an experimental
 
 ## Using Galaxy for Transcriptome Analysis
 
-See 
+See
 * [this Galaxy Page](http://main.g2.bx.psu.edu/u/jeremy/p/transcriptome-analysis-faq) by Jeremy Goecks.
 * [Blogspot post](http://kevin-gattaca.blogspot.com/2011/09/faq-howto-do-rna-seq-bioinformatics.html).
 

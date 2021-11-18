@@ -42,7 +42,7 @@ A [tutorial on using the web server](http://kmersvm.beerlab.org/tutorial/) and a
 
 <div class='right solid'><a href='http://galaxy.igbmc.fr/galaxy/'><img src="/use/archive/ngs-qc/ngs-qc-generator.png" alt="Gronemeyer Lab Galaxy and NGS-QC Generator" width="200" /></a></div>
 
-[NGS-QC Generator](http://galaxy.igbmc.fr/galaxy/) evaluates the quality of ChIP-seq and enrichment-related NGS data using [NGS-QC Generator](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/index.php), which also includes a [database with preprocessed profiles](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/database.php) and a [tutorial on how to analyze sequencing profiles yourself](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/tutorial.php). 
+[NGS-QC Generator](http://galaxy.igbmc.fr/galaxy/) evaluates the quality of ChIP-seq and enrichment-related NGS data using [NGS-QC Generator](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/index.php), which also includes a [database with preprocessed profiles](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/database.php) and a [tutorial on how to analyze sequencing profiles yourself](http://archive.igbmc.fr/recherche/Prog_FGC/Eq_HGron/Bioinfotools/NGS/website/tutorial.php).
 
 See *[A quality control system for profiles obtained by ChIP sequencing](http://nar.oxfordjournals.org/content/early/2013/09/14/nar.gkt829)* by Mendoza-Parra, *et al.*, in *Nucl. Acids Res.* (2013)
 
@@ -53,7 +53,7 @@ The server is hosted by the [Gronemeyer lab](http://igbmc.fr/research/department
 <div class='right solid'><a href='http://fisbio.fcfrp.usp.br:8080/'><img src="/public-galaxy-servers/archive/usp-fcrp.png" alt="Laboratory of Biological Physics at USP-FCFRP" width="200" /></a></div>
 
 The [Laboratory of Biological Physics at USP-FCFRP](http://fisbio.fcfrp.usp.br:8080/) Galaxy server has these tools:
- **ProtPred-GROMACS**: *Ab initio* protein structure prediction framework which uses evolutionary algorithms to optimize objective functions such as potential energy, number of hydrogen bonds and solvent accessible surface area. 
+ **ProtPred-GROMACS**: *Ab initio* protein structure prediction framework which uses evolutionary algorithms to optimize objective functions such as potential energy, number of hydrogen bonds and solvent accessible surface area.
     2PG: Faster and simpler algorithm in which one objective function is optimized<br />
     3PG: A more robust approach in which multiple objective functions are optimized at the same time
  **Protein Validation**: Check the integrity of a PDB file<br />
@@ -146,9 +146,9 @@ The Galaxy is expanding! Please help it grow.
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * [Computational biology opening](/news/computational-biology-paris/) at University Pierre-et-Marie-Curie, Paris
 * [M2 Développement et intégration d'outils pour la bioanalyse dans Galaxy](http://www.sfbi.fr/content/m2-d%C3%A9veloppement-et-int%C3%A9gration-doutils-pour-la-bioanalyse-dans-galaxy), Limagrain à Chappes (Puy-de-Dôme, Auvergne)
-* [Part time position at GenePeeks](http://bit.ly/18ExEfk) 
+* [Part time position at GenePeeks](http://bit.ly/18ExEfk)
 * [Stage M2 Développement et intégration d'outils pour la bioanalyse dans Galaxy chez Vilmorin & Cie.](http://bit.ly/19AYF4e)
-* [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven 
+* [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 
@@ -260,7 +260,7 @@ In the next 3 months there are no less than 13 talks and workshops at at least 5
 
 And don't worry, you won't have to travel to Australia during its spring just to learn about Galaxy.  There are also upcoming events in North America, Europe, and Africa.
 
-<div class='center'> 
+<div class='center'>
 <a href='http://individualizingmedicineconference.mayo.edu/schedule/'><img src="/images/logos/MayoClinicSmall.png" alt="Individualizing Medicine Conference" height="60" /></a> &nbsp;
 <a href='http://www.beyond-the-genome.com/program/'><img src="/images/logos/BeyondTheGenome2013.png" alt="Beyond the Genome" height="60" /></a> &nbsp;
 <a href='http://bit.ly/153avr8'><img src="/images/logos/OrioneNGSCourse.png" alt="Analisi dati Next Generation Sequencing in Galaxy: exome, RNA-Seq, metagenomica" height="65" /></a> &nbsp;
@@ -395,7 +395,7 @@ Two other resources (at least) became available in September:
 
 * [Informatics on High Throughput Sequencing Data Workshop](http://bit.ly/VyBEcS) from Bioinformatics.ca now has [slides & video online](http://bit.ly/VyBEcS).
 
-* Course Materials for the [2013 UC Davis Bioinformatics Short Course](http://bit.ly/16rAUkf): This course featured 5 great days of lecture and hands-on exercises.  *And,* an Amazon Web Services AMI that includes all tools and data used in the course, is also available. 
+* Course Materials for the [2013 UC Davis Bioinformatics Short Course](http://bit.ly/16rAUkf): This course featured 5 great days of lecture and hands-on exercises.  *And,* an Amazon Web Services AMI that includes all tools and data used in the course, is also available.
 
 See the [list of other tutorials](/learn/#other-tutorials) on the [Learn hub page](/learn/) for more.
 <br />
@@ -413,20 +413,20 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 There were many...
-* [naive_variant_caller](http://bit.ly/157Yf3G): process aligned reads, produce VCF file containing per position variant calls 
+* [naive_variant_caller](http://bit.ly/157Yf3G): process aligned reads, produce VCF file containing per position variant calls
 * [barrnap](http://bit.ly/15kPjMj): ribosomal RNA finder for Bacterial genome sequences  
 * [prokka](http://bit.ly/17XlJej) (and [a second wrapper](http://bit.ly/1d6tK3R)): rapid annotation of prokaryotic genomes
 * [coverage_report](http://bit.ly/1e3yfiI):  Generate Detailed Coverage Report from BAM file  
-* [mugsy](http://bit.ly/19IFR5c): multiple whole genome aligner 
+* [mugsy](http://bit.ly/19IFR5c): multiple whole genome aligner
 * [edena](http://bit.ly/18Vnzez): a de novo short reads assembler
 * [edge_pro](http://bit.ly/15TzWXS): efficient gene expression level estimation in prokaryotic genomes from RNA-seq
-* [glimmer](http://bit.ly/1d6ta67): find genes in microbial DNA, especially bacteria, archaea, and viruses 
-* [get_fasta_from_taxon](http://bit.ly/15Xmxgm): Get FASTA from NCBI taxonomy ID 
-* [sniploid2](http://bit.ly/181OqEW): compare SNPs detected from a polyploid to SNPs derived from its parental genomes 
+* [glimmer](http://bit.ly/1d6ta67): find genes in microbial DNA, especially bacteria, archaea, and viruses
+* [get_fasta_from_taxon](http://bit.ly/15Xmxgm): Get FASTA from NCBI taxonomy ID
+* [sniploid2](http://bit.ly/181OqEW): compare SNPs detected from a polyploid to SNPs derived from its parental genomes
 * [ssake](http://bit.ly/15kU6gR): de novo assembly of millions of very short DNA sequences  
-* [sspace](http://bit.ly/15AqpbP): scaffolding pre-assembled contigs using paired-read data   
-* [annovar](http://bit.ly/1gTsYXO): Functional annotation of genetic variants from high-throughput sequencing data 
-* [merge_fna_qual](http://bit.ly/16tT2Dg): Merges 454 Fasta and Quality files into a Fastq file. 
-* [ncbi_sra_toolkit](http://bit.ly/1fsby9r): NCBI Sequence Read Archive toolkit utilities 
+* [sspace](http://bit.ly/15AqpbP): scaffolding pre-assembled contigs using paired-read data
+* [annovar](http://bit.ly/1gTsYXO): Functional annotation of genetic variants from high-throughput sequencing data
+* [merge_fna_qual](http://bit.ly/16tT2Dg): Merges 454 Fasta and Quality files into a Fastq file.
+* [ncbi_sra_toolkit](http://bit.ly/1fsby9r): NCBI Sequence Read Archive toolkit utilities
 * [sql_tools and sparql_tools](http://bit.ly/16tTfgD): In-memory SQL and SPARQL runners and related tools
 * compute_motifs_frequency, ctd_batch, compute_motif_frequencies_for_all_motifs, indels_3way, t_test_two_samples, xy_plot, divide_pg_snp, draw_stacked_barplots, split_paired_reads, mutate_snp_codon, hgv_hilbertvis, hgv_fundo, categorize_elements_satisfying_criteria, microsatellite_birthdeath, multispecies_orthologous_microsats, fasta_nucleotide_changer, fasta_clipping_histogram, fasta_formatter, fastq_quality_boxplot, fastq_quality_converter fastq_quality_filter fastq_to_fasta, and the fastx_toolkit all from [devteam](http://http://bit.ly/15wwkeo).

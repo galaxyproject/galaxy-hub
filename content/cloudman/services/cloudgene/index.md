@@ -32,10 +32,10 @@ Download results. In this case there are seperate files, this can of course be c
 
 <img src="http://cloudgene.uibk.ac.at/images/cloudman/download.png" alt="" width=700 />
 
-The Admin Dashboard allows to maintain your service, check recent jobs or assign workflows to users: 
+The Admin Dashboard allows to maintain your service, check recent jobs or assign workflows to users:
 
 <img src="http://cloudgene.uibk.ac.at/images/cloudman/dashboard.png" alt="" width=700 />
 
-"Services" tab allows to manage your service for updates (=blocking queue) or maintenance status. 
+"Services" tab allows to manage your service for updates (=blocking queue) or maintenance status.
 
 <img src="http://cloudgene.uibk.ac.at/images/cloudman/maintenance.png" alt="" width=700 />

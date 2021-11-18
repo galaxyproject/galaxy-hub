@@ -36,6 +36,6 @@ The [next meeting](/community/galaxy-admins/meetups/2013-01-16/) of the [GalaxyA
 
 We use the [Blackboard Collaborate Web Conferencing system](/community/galaxy-admins/meetups/webinar-tech/) for the meetup. Downloading the required applets in advance and using a headphone with microphone to prevent audio feedback during the call is recommended.
 
-[GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
+[GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for large Galaxy installations.
 
 Srinivas Maddhi

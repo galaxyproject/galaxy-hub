@@ -1,7 +1,7 @@
 ## Adding MAFs to Galaxy
 
-Related to: 
-* [Admin/DataPreparation](/admin/data-preparation/) 
+Related to:
+* [Admin/DataPreparation](/admin/data-preparation/)
 * [Admin/DataIntegration](/admin/data-integration/)
 
 ----
@@ -13,12 +13,12 @@ Before adding MAFs to Galaxy, they must be indexed.
 
 ### How to index MAFs
 
-The scripts required to index MAFs are found in the [bx-python](https://github.com/bxlab/bx-python) distribution; you will need to download this package separately from Galaxy. 
+The scripts required to index MAFs are found in the [bx-python](https://github.com/bxlab/bx-python) distribution; you will need to download this package separately from Galaxy.
 
 ```
 maf_build_index.py MAF_FILENAME
 ```
- 
+
 
 for each MAF file.
 

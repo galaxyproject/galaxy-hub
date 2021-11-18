@@ -108,7 +108,7 @@ Second several new tags were added, most of them attached to papers with the `me
 
 We will likely back-annotate papers with these new tags from the beginning of 2013, but not prior to that.
 
-Finally, 32 new papers were added to the Galaxy CiteULike Group in March, including these which might be of general interest to the Galaxy community. 
+Finally, 32 new papers were added to the Galaxy CiteULike Group in March, including these which might be of general interest to the Galaxy community.
 
 * "[NightShift: NMR Shift Inference by General Hybrid Model Training - a Framework for NMR Chemical Shift Prediction](https://doi.org/10.1186/1471-2105-14-98)" by Dehof *et al.* *BMC Bioinformatics*, Vol. 14, No. 1. (16 March 2013), 98
 
@@ -127,7 +127,7 @@ There are now over [900 papers in the Galaxy CiteULike Group](http://www.citeuli
 The Galaxy is expanding! Please help it grow.
 
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)!** at both Emory and Penn State.
-* [Senior Developer, Stem Cell Bioinformatics Core](http://bit.ly/YQn94O) : Seattle, WA, United States. 
+* [Senior Developer, Stem Cell Bioinformatics Core](http://bit.ly/YQn94O) : Seattle, WA, United States.
 * [CDD Ingénieur en Bioinformatique grand séquençage](http://bit.ly/12UUPWh) - Institut Curie
 * Two openings @ LSU: [Bioinformatics Support Group Leader](http://bit.ly/VkRtrb) and [Post-doc/Res Assoc](http://bit.ly/12ipJHZ)
 * **[Bioinformatics Trainter/Analyst](http://bit.ly/14xgrVK)**, [Morgridge Institute for Research](http://discovery.wisc.edu/morgridge/), Madison, Wisconsin, United States
@@ -154,7 +154,7 @@ The [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/) will be held 
 
 ### Registration, Talk/Poster Submission Open
 
-**[Early registration](/events/gcc2013/register/) and [paper and poster abstract submission](/events/gcc2013/abstracts/) are open.** 
+**[Early registration](/events/gcc2013/register/) and [paper and poster abstract submission](/events/gcc2013/abstracts/) are open.**
 
 <div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
@@ -164,7 +164,7 @@ The [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/) will be held 
 
 ### Sponsorships
 
-There are still several [sponsorships](/events/gcc2013/sponsorships/) still available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event. 
+There are still several [sponsorships](/events/gcc2013/sponsorships/) still available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event.
 
 
 ## Galaxy at GMOD 2013, Biocuration 2013 and TGAC
@@ -182,7 +182,7 @@ There is also a [Galaxy Workshop](/events/tgac2013/) at [The Genome Analysis Cen
 <div class='center'>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 ### Events
@@ -330,16 +330,16 @@ Once the discussion settles, we will [summarize the discussion](http://bit.ly/11
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
-* [ctcf_analysis](http://bit.ly/Z6ii0k): computationally predict CTCF sites for a nucleotide sequence 
-* [interproscan_to_excel](http://bit.ly/12AF0nF): Convert interproscan raw or xml output to an Excel file 
+* [ctcf_analysis](http://bit.ly/Z6ii0k): computationally predict CTCF sites for a nucleotide sequence
+* [interproscan_to_excel](http://bit.ly/12AF0nF): Convert interproscan raw or xml output to an Excel file
 * [snpeff_cds_report](http://bit.ly/ZNDQPs): Get transcripts from Ensembl for snpEff variants and report coding changes
-* [mmuff](http://bit.ly/15R40on): Missense Mutation and Frameshift Finder Workflow 
+* [mmuff](http://bit.ly/15R40on): Missense Mutation and Frameshift Finder Workflow
 
 ## Other News
 
-* ["Galaxy for Core Facilities" ABRF talk slides now available](http://bit.ly/XNoVp1) 
+* ["Galaxy for Core Facilities" ABRF talk slides now available](http://bit.ly/XNoVp1)
 * The servers that power [Main](/main/) were [relocated to their new room and building on March 14](/news/galaxy-proect-servers-down20130314/).
-* The Galaxy Project now [has a LinkedIn group](http://bit.ly/gxyLinkedIn).  Please consider joining. 
+* The Galaxy Project now [has a LinkedIn group](http://bit.ly/gxyLinkedIn).  Please consider joining.
 * Several items relating to Galaxy have been approved for ISMB / ECCB 2013.  Will post as soon as there is a schedule.
 * [Documentation for dynamic job destinations](http://wiki.galaxyproject.org/Admin/Config/Jobs)
 * [Cloud-Based Image Analysis and Processing Toolbox](http://cloudimaging.blogspot.com/2013/03/imaging-workflows-in-galaxy.html?spref=tw)

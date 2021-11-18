@@ -20,7 +20,7 @@ What do fall foliage, pumpkin beer, and Halloween have in common? October! Or, w
 
 [<img class="float-right" src="/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" width="200" />](https://www.zotero.org/groups/galaxy)
 
-After residing on CiteULike since 2011, the Galaxy Publication Library has moved to [Zotero](https://www.zotero.org/groups/galaxy). See [the announcement](/news/2017-09-publication-lib-on-zotero/) for full details. 
+After residing on CiteULike since 2011, the Galaxy Publication Library has moved to [Zotero](https://www.zotero.org/groups/galaxy). See [the announcement](/news/2017-09-publication-lib-on-zotero/) for full details.
 
 ## Highlighted Publications
 
@@ -29,11 +29,11 @@ With the [move to Zotero](/news/2017-09-publication-lib-on-zotero/), we added tw
 The *Galactic* and *Stellar* publications added in September were:
 
 * [wft4galaxy: a workflow testing tool for galaxy](https://doi.org/10.1093/bioinformatics/btx461)
-  * Marco Enrico Piras, Luca Pireddu, Gianluigi Zanetti, *Bioinformatics*, btx461, doi:10.1093/bioinformatics/btx461 
+  * Marco Enrico Piras, Luca Pireddu, Gianluigi Zanetti, *Bioinformatics*, btx461, doi:10.1093/bioinformatics/btx461
 * [Satellite DNA: An Evolving Topic](http://www.mdpi.com/2073-4425/8/9/230)
   * Manuel A. Garrido-Ramos, *Genes* 2017, 8(9), 230; doi:10.3390/genes8090230
 * [mmquant: how to count multi-mapping reads?](https://doi.org/10.1186/s12859-017-1816-4)
-  * Matthias Zytnicki, *BMC Bioinformatics*, 201718:411 doi:10.1186/s12859-017-1816-4 
+  * Matthias Zytnicki, *BMC Bioinformatics*, 201718:411 doi:10.1186/s12859-017-1816-4
 * [Improving heterologous membrane protein production in Escherichia coli by combining transcriptional tuning and codon usage algorithms](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184355)
   * Nico J. Claassens, Melvin F. Siliakus, Sebastiaan K. Spaans, Sjoerd C. A. Creutzburg, Bart Nijsse, Peter J. Schaap, Tessa E. F. Quax, John van der Oost, *PLOS One*, Published: September 13, 2017, doi:10.1371/journal.pone.0184355
 * [GWIPS-viz: 2018 update](https://doi.org/10.1093/nar/gkx790)
@@ -50,11 +50,11 @@ The *Galactic* and *Stellar* publications added in September were:
 
 **108 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) in September.
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 58 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 23 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 21 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | 
-| 10 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 6 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | 
-| 5 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | 
+| 58 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 23 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 21 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) |
+| 10 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 8 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 6 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) |
+| 5 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 1 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 1 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) |
 | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | | | | | | | | | |
 
 We also added tags to papers that reference, use, or implement a Galaxy Public Server.  [See below](#public-servers-in-september-s-publications) for this list.
@@ -208,10 +208,10 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 As mentioned above, as part of the move to Zotero, we have started tagging papers that use, mention, implement or extend public Galaxy Servers with the server name.  Here are the counts for September's papers.
 
-| # | Server | | # | Server | | # | Server | | # | Server | 
+| # | Server | | # | Server | | # | Server | | # | Server |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 14 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 3 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | 
-| 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>BioCiphers](https://www.zotero.org/groups/1732893/galaxy/tags/>BioCiphers) | | 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | 
+| 14 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 3 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) |
+| 2 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>BioCiphers](https://www.zotero.org/groups/1732893/galaxy/tags/>BioCiphers) | | 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) |
 | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 1 | [>Codon Harmonizer](https://www.zotero.org/groups/1732893/galaxy/tags/>Codon Harmonizer) | | | | | | | |
 
 ## Public Server Directory Rebuilt
@@ -336,8 +336,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 
 And
 
-* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/people/john-chilton/): 
+* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
+* From [John Chilton](/people/john-chilton/):
   * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 ### Galaxy CloudMan 17.05 on AWS

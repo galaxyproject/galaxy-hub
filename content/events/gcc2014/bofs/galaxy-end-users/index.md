@@ -12,7 +12,7 @@ title: Galaxy End-Users
 <slot name="/events/gcc2014/linkbox" />
 
 <div class='left'><a href='/events/gcc2014/bofs/'><img src="/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
- 
+
 This page describes the **Galaxy End-Users** [Birds of a Feather](/events/gcc2014/bofs/) meetup being held at [GCC2014](/events/gcc2014/).
 
 When:: Monday, June 30, 6:15pm<br /> and <br />Tuesday, July 1, 12:15pm
@@ -23,7 +23,7 @@ Contact:: [Mo Heydarian](mailto:mheydar1 AT jhmi DOT edu)
 
 # Description
 
-This Birds-of-a-Feather session will serve as a forum for end-users of the Galaxy environment to share experiences and lessons learned, as well as address and discuss issues that hinder progress from the end-user perspective. 
+This Birds-of-a-Feather session will serve as a forum for end-users of the Galaxy environment to share experiences and lessons learned, as well as address and discuss issues that hinder progress from the end-user perspective.
 
 # Audience
 
@@ -52,32 +52,32 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 ## User experiences
 
 * The end user wants to interface with a bioinformatician, who can explain tools/workflows in biologist friendly terms.
-* When jobs don't run instantly, the user panics and restarts the job (and possible iterations of that job). This can cause a heavy burden on the server being used. If the user were told the job would eventually run, this may mitigate the panic. 
+* When jobs don't run instantly, the user panics and restarts the job (and possible iterations of that job). This can cause a heavy burden on the server being used. If the user were told the job would eventually run, this may mitigate the panic.
 * Some end users do their heavy computational work on Galaxy and visualizations on alternate programs due to: inability to customize charts/plots (like with R or even excel), inability to capture high resolution visualizations (can only take screenshots with Trackster), ETC (Add something here)
 
 ## Getting feedback from users
 
 * Users are more encouraged to provide feedback where there is a service contract in place.
-* Users are hesitant to report issues because many times we are not confident if the issue is a user error or problem in Galaxy. Users “bang our heads against a wall” trying to figure out the issue, because we don't want to look incompetent and don't want to blame a tool (or developer) for a user error. 
-* The core Galaxy team is working towards a means of collecting user information (tools used, job time, compute power used) that would allow users to “opt-in”. This information would go to the system administrators. 
+* Users are hesitant to report issues because many times we are not confident if the issue is a user error or problem in Galaxy. Users “bang our heads against a wall” trying to figure out the issue, because we don't want to look incompetent and don't want to blame a tool (or developer) for a user error.
+* The core Galaxy team is working towards a means of collecting user information (tools used, job time, compute power used) that would allow users to “opt-in”. This information would go to the system administrators.
 * Ravi Madduri has 10 – 15 stories from end users that are nice examples of users running into issues and how these issues were collaboratively resolved with system administrator/developer guidance. These types of stories would be nice to host on the Galaxy wiki.
 * J. Kissinger's group has conducted a systematic analysis of how end users interact with data (contact jkissing@uga.edu for more info).
-* Suggestions to promote feedback from users: 
-  * Standardized feedback forms that take minimal time to complete. Similar to a bug-report that would go to the system administrator. 
-  * Showing examples of correct input/output for tools could help users determine if the issue is a user issue of Galaxy issue. 
+* Suggestions to promote feedback from users:
+  * Standardized feedback forms that take minimal time to complete. Similar to a bug-report that would go to the system administrator.
+  * Showing examples of correct input/output for tools could help users determine if the issue is a user issue of Galaxy issue.
 
 ## Data management
 
 * "naming files is the worst problem in since labeling eppendorf tubes" … using batch submission mitigates this by naming files based on the input file name.
-* The core Galaxy team is working on a solution for naming/managing data files. 
+* The core Galaxy team is working on a solution for naming/managing data files.
 * University of Georgia has a mandatory one credit course on “data management” for all undergraduate students.
 
 ## Providing workflows/pipelines to the end user
 
 * To allow the end user to focus on the science (their primary goal), Globus Genomics works to make “turnkey” solutions for biologists. This was in part inspired by Karen Reddy’s talk at GCC2012 (“why all the keys?!”). To this end, there are ~ 20 standard workflows automatically loaded on a Globus instance.
-* With the cost of computation and storage rapidly decreasing it is possible to keep old versions of tools (images) for years. Sometimes it is cheaper and less time consuming to re-analyze data with current tool versions, than to debug + optimize old tools/workflows. 
-* Running NGS tools is trivial at some point, pipelines are needed for the back end analysis (on which the end user spends most of their time). 
-* UGA doesn't spend time on any tool unless there is demand for the user community. 
+* With the cost of computation and storage rapidly decreasing it is possible to keep old versions of tools (images) for years. Sometimes it is cheaper and less time consuming to re-analyze data with current tool versions, than to debug + optimize old tools/workflows.
+* Running NGS tools is trivial at some point, pipelines are needed for the back end analysis (on which the end user spends most of their time).
+* UGA doesn't spend time on any tool unless there is demand for the user community.
 
 ## Using Galaxy with Cloudman on Amazon Web Services
 
@@ -88,7 +88,7 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 
 * Some users have issues in implementing tools from the Tool Shed
 * There was a consensus that tools written from Core Galaxy team members can be trusted to work “out of the box”
-* There is a commission to vett tools (Intergalactic Utilities Commission, IUC), but it is very time consuming to vett the thousands of tools in the Tool Shed. Rating tools could speed up the vetting process, by the IUC or the community. 
+* There is a commission to vett tools (Intergalactic Utilities Commission, IUC), but it is very time consuming to vett the thousands of tools in the Tool Shed. Rating tools could speed up the vetting process, by the IUC or the community.
 * Indicating which other tools can use the output of a particular tool could be informative to end users. Keywords would be informative too.
 
 ## Participants
@@ -113,7 +113,7 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 * Malcolm Cook
 * Maria Doyle
 * Marie Jacques Seignon
-* Mark Rose 
+* Mark Rose
 * [Martin Cech](/people/marten/)
 * Michael R. Crusoe
 * Mo Heydarian

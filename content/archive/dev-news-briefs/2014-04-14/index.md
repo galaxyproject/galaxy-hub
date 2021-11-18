@@ -60,13 +60,13 @@ date: 2014-04-14
   * New picard (srma) indexes: 59
   * New liftOver mappings: 163
 1. MAF hg19 100waymultiz conservation alignment sourced from [UCSC](http://genome.ucsc.edu)
-1. Replaced: The sam index for hg_g1k_b37 was updated to use "samtools faidx" with version 0.1.18 (original from GATK 1.4 bundle used 0.1.13). The older index lead to some issues with BAM<->SAM conversion using the newer SAMTools version. 
+1. Replaced: The sam index for hg_g1k_b37 was updated to use "samtools faidx" with version 0.1.18 (original from GATK 1.4 bundle used 0.1.13). The older index lead to some issues with BAM<->SAM conversion using the newer SAMTools version.
 
 <br />
 # Visualizations
 
 1. Framework turning https://trello.com/c/kdhJ1Dit
-1. *Trackster*: 
+1. *Trackster*:
   * View complete read/feature across tile boundaries, in all tiles https://trello.com/c[/Q03dC1](/archive/dev-news-briefs/2014-04-14/Q03dC1/)QC
   * Better handling of deep coverage regions in read tracks https://trello.com/c/TxxzqWNx
 
@@ -96,7 +96,7 @@ date: 2014-04-14
   * Actions: Hide, Unhide, Delete, Undelete, Permanently delete (Purge)
   * https://wiki.galaxyproject.org/Learn/ManagingDatasets#Searching_Datasets
   * Additional actions pending review/implementation
-  * https://trello.com/c/8gLGPzxV, https://trello.com/c/mq1m6X5M, 
+  * https://trello.com/c/8gLGPzxV, https://trello.com/c/mq1m6X5M,
 1. When multiple tool versions installed, default to the latest version https://trello.com/c/zRBZ9nvD
 1. Better handling when one of many versions of a tool repo is uninstalled https://trello.com/c[/BmdG2201](/archive/dev-news-briefs/2014-04-14/BmdG2201/)
 1. Unify the places where histories are shown and used: UI view and in core code https://trello.com/c/7cN0nmKH
@@ -110,7 +110,7 @@ date: 2014-04-14
 <br />
 # API
 
-1. New functions: 
+1. New functions:
   * Make histories importable and/or published via the API is now implemented (sharing with individual users a pending feature update) https://trello.com/c/Bcsadi1q
   * History export/import https://trello.com/c/qhu1KdWU
   * Ability to extract workflow from a history to workflows https://trello.com/c/ZTehdMZH
@@ -122,22 +122,22 @@ date: 2014-04-14
 <br />
 # Core
 
-1. Admin: 
+1. Admin:
   * History view, allow importing purged datasets https://trello.com/c/tbhpQdMF
   * User list, show 'activated' and 'create_time' columns https://trello.com/c[/C6Mh](/archive/dev-news-briefs/2014-04-14/C6Mh/)EHWo
   * Setting user quota at zero is now permitted (no `ZeroDivisionError`) https://trello.com/c/38NoBtlL
   * Admin user now has permissions to copy datasets from any history to a library https://trello.com/c/Ed91qIUC
   * Improvements to 'Impersonate User' implementation https://trello.com/c/lny2me4u
-1. Config: 
+1. Config:
   * Rename `tool-data/shared/ucsc/ucsc_build_sites.txt` to `ucsc_build_sites.txt.sample` https://trello.com/c/FTbvqDMd
-1. Jobs: 
+1. Jobs:
   * Prevent 'unicode' strings being sent to pbs library as hostname https://trello.com/c/NlFXYDta
   * Fix Torque CLI runner to recognize complete ('C') state as 'ok' https://trello.com/c/vSO52k17
   * Are now cancelled if a running history item is deleted (via API). https://trello.com/c/PDmUdtbw
-1. LWR: 
+1. LWR:
   * Several updates including communication via message queue, more planned https://trello.com/c/6DcXqXNt
   * Introduce and extend along with `ComputeEnvironment`, to eliminate string based path rewriting https://trello.com/c/dL0poowc
-1. Eggs: 
+1. Eggs:
   * Guppy 0.1.9+ https://trello.com/c/zeSnHEav
   * Boto 2.25 to facilitate launching into VPC https://trello.com/c/QXfJQhlS
   * PyYAML 3.10 to be used initially with `Cloudlaunch` for parsing `persistent_data yaml` https://trello.com/c/JMZkqBtH
@@ -235,7 +235,7 @@ Thanks to our Galaxy community contributors!
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the **[Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/)** at **[Penn State](http://www.psu.edu/)**, and the **[Department of Biology](http://www.bio.jhu.edu/)** at **[Johns Hopkinis University](http://www.jhu.edu/)**. 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the **[Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/)** at **[Penn State](http://www.psu.edu/)**, and the **[Department of Biology](http://www.bio.jhu.edu/)** at **[Johns Hopkinis University](http://www.jhu.edu/)**.
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by **[NSF](http://www.nsf.gov/)**, **[NHGRI](http://www.genome.gov/)**, the **[Huck Institutes of the Life Sciences](http://www.huck.psu.edu/)**, and **[The Institute for CyberScience at Penn State](http://www.ics.psu.edu/)**, and **[Johns Hopkins University](http://www.jhu.edu/)**.
 

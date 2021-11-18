@@ -11,14 +11,14 @@ Welcome to the May 2017 *[Galactic News](/galaxy-updates/)*, a summary of what i
 <div class="right"><a href="https://gcc2017.sciencesconf.org/"><img src="/images/logos/gcc2017-logo-300.png" alt='2017 Galaxy Community Conference (GCC2017)' width="220" /></a></div>
 
 GCC2017 will be in Montpellier, France, 26-30 June and will feature two days of presentations, discussions, poster sessions, lightning talks, computer demos, keynotes, and birds-of-a-feather meetups, **all about data-intensive biology and the tools and infrastructure that support it.** GCC2017 also includes data and coding hacks, and **[two days of training](https://gcc2017.sched.com/overview/type/Training)** covering 16 different topics.
- 
+
 GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-events.com/en/The-Corum/Presentation) in the heart of [Montpellier](https://gcc2017.sciencesconf.org/page/location), just 10km from the Mediterranean. This event will gather several hundred researchers addressing diverse questions and facing common challenges in data intensive life science research. GCC participants work across the tree of life, come from around the world, and work at universities, research organizations, industry, medical schools and research hospitals.
 
 ## Early registration closes May 15
 
 **[Early registration](https://gcc2017.sciencesconf.org/page/registration) ends May 15.**  Early registration  starts at less than 55€ / day for post-docs and students.  You can also [book low cost conference housing](https://gcc2017.sciencesconf.org/page/lodging) when you register.
 
-## Poster and Demo submission closes May 27 
+## Poster and Demo submission closes May 27
 
 **[Abstract submission](https://gcc2017.sciencesconf.org/page/submit)** for posters and demos closes May 27.  Note that you can also still submit late oral prentations abstracts.  Late abstracts are considered as cancellations occur.  Lightning talk submissions close June 23.
 
@@ -38,7 +38,7 @@ We are pleased to welcome [BioTeam](https://bioteam.net/products/galaxy-applianc
 
 ### BioTeam
 
-<div class='right'> 
+<div class='right'>
 <a href='https://bioteam.net/products/galaxy-appliance/'><img src="/images/logos/bioteam-appliance-white.png" alt="BioTeam Appliance Galaxy Edition" width="250" /></a>
 </div>
 
@@ -80,7 +80,7 @@ Ther will be a half day tutorial on [Making Galaxy Work for You](https://www.isc
 
 Participants will learn to
 
-- Create Galaxy compatible tool and workflow definitions that are publicly accessible and that make it easy for any instance administrator to add your work to their server. 
+- Create Galaxy compatible tool and workflow definitions that are publicly accessible and that make it easy for any instance administrator to add your work to their server.
 - Deploy Galaxy and scale it up to target production-ready resources such as a Postgres database, NGINX webserver, and distributed resource managers such SLURM or PBS.
 
 Interested? Sign up when you [register](https://www.iscb.org/ismbeccb2017-registration#tutorials) for ISMB/ECCB (and register before the tutorial fills up).
@@ -92,7 +92,7 @@ See you in Prague!
 
 # Gateways 2017 Call for Participation (1st deadline: June 5)
 
-<div class='right'> 
+<div class='right'>
 <a href='http://sciencegateways.org/gateways2017/call'><img src="/images/logos/sgci-logo-trans-big.png" alt="Gateways 120" height="90" /></a>
 </div>
 
@@ -239,16 +239,16 @@ Some highlights from the papers added last month:
   Francis R. G. Amrit, Arjumand Ghazi. *Journal of Visualized Experiments*, No. 122. (8 April 2017), doi:10.3791/55473
 
 * [wft4galaxy: A Workflow Tester for Galaxy](https://doi.org/10.1101/132001 )
-  Marco Enrico Piras, Luca Pireddu, Gianluigi Zanetti. *bioRxiv* (2017), doi:10.1101/132001 
+  Marco Enrico Piras, Luca Pireddu, Gianluigi Zanetti. *bioRxiv* (2017), doi:10.1101/132001
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 72 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 31 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 17 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 13 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) | 
-| 12 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 10 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 8 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | | 3 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | 
-| 3 | [tools](http://www.citeulike.org/group/16008/tag/tools) | | 3 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) | | 3 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 2 | [shared](http://www.citeulike.org/group/16008/tag/shared) | 
-| 2 | [other](http://www.citeulike.org/group/16008/tag/other) | | 1 | [howto](http://www.citeulike.org/group/16008/tag/howto) | | | | | | | 
+| 72 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 31 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 17 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 13 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) |
+| 12 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 10 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 8 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | | 3 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) |
+| 3 | [tools](http://www.citeulike.org/group/16008/tag/tools) | | 3 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) | | 3 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 2 | [shared](http://www.citeulike.org/group/16008/tag/shared) |
+| 2 | [other](http://www.citeulike.org/group/16008/tag/other) | | 1 | [howto](http://www.citeulike.org/group/16008/tag/howto) | | | | | | |
   
 ----
 
@@ -297,7 +297,7 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 * *User Support:*
   * [CLIMB Community](https://discourse.climb.ac.uk/)
   * [Training](http://www.climb.ac.uk/training/)
-* *Quotas:* 
+* *Quotas:*
 * *Sponsor(s):*
   * The CLIMB project is a collaboration between Warwick, Birmingham, Cardiff and Swansea Universities.
   * CLIMB is funded by the UK’s [Medical Research Council](https://www.mrc.ac.uk/).
@@ -306,7 +306,7 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 ## New Public Galaxy Servers
 
 ### Antigen Receptor Galaxy (ARGalaxy)
-	
+
 <div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/argalaxy/'><img src="/use/archive/argalaxy/argalaxy-logo.png" alt="Antigen Receptor Galaxy" width="300" /></a></div>
 
 * *Link:*
@@ -322,9 +322,9 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 * *User Support:*
   * Contact [David van Zessen](mailto:d.vanzessen@erasmusmc.nl)
 * *Quotas:*
-  * Account creation required.  Anyone can create an account. 
+  * Account creation required.  Anyone can create an account.
 * *Sponsor(s):*
-  * Departments of [Immunology](https://www.erasmusmc.nl/immunologie/?lang=en) and [Bioinformatics](https://www.erasmusmc.nl/bioinformatica/?lang=en) at [Erasmus MC](https://www.erasmusmc.nl/).	
+  * Departments of [Immunology](https://www.erasmusmc.nl/immunologie/?lang=en) and [Bioinformatics](https://www.erasmusmc.nl/bioinformatica/?lang=en) at [Erasmus MC](https://www.erasmusmc.nl/).
 
 <!--
 
@@ -418,7 +418,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems.
 
-Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
+Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/).
 
 ### Pulsar 0.7.4
 
@@ -451,7 +451,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 <div class="right"><a href="http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow"><img src='/images/news-graphics/gigascience-guardians.png' alt="Guardians of the Galaxy Workflow" width="150" /></a></div>
 
 * [Guardians of the Galaxy Workflow](http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow/)
-* A nice writeup from [Scott Edmunds](http://gigasciencejournal.com/blog/author/scottedmunds/) about the [*GigaScience* Galaxy Series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research) (now on it's 12th paper) and GCC2017.  *[GigaScience](https://academic.oup.com/gigascience)* is a returning GCC sponsor this year and submissions relating to talks and posters at GCC2017 will be eligible for a continuing 15% discount. 
+* A nice writeup from [Scott Edmunds](http://gigasciencejournal.com/blog/author/scottedmunds/) about the [*GigaScience* Galaxy Series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research) (now on it's 12th paper) and GCC2017.  *[GigaScience](https://academic.oup.com/gigascience)* is a returning GCC sponsor this year and submissions relating to talks and posters at GCC2017 will be eligible for a continuing 15% discount.
 * From [Björn Grüning](/people/bjoern-gruening/)
   * Are you interested in #RNA #Bioinformatics? Try our new community maintained [RNA Workbench](http://bgruening.github.io/galaxy-rna-workbench/)
 * From [Peter Briggs](https://twitter.com/ironic_cog):
@@ -459,4 +459,4 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 * The [Galaxy-P Project has a brand new website](http://galaxyp.org/).
 * A new [comprehensive ChIP-seq tutorial is available](/tutorials/chip/) using DeepTools, MACS2, and MEME.
 * From Nathan Bott
-  * [Galaxy: A Workflow Management System for Modern Life Sciences Research](http://emergingtechblog.emc.com/galaxy-workflow-management-system-modern-life-sciences-research/) - [EMC Emerging Tech Blog](http://emergingtechblog.emc.com/) 
+  * [Galaxy: A Workflow Management System for Modern Life Sciences Research](http://emergingtechblog.emc.com/galaxy-workflow-management-system-modern-life-sciences-research/) - [EMC Emerging Tech Blog](http://emergingtechblog.emc.com/)
