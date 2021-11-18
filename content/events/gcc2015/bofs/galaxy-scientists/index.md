@@ -108,9 +108,9 @@ The Galaxy Scientists may or may not include support, training, faq projects (bu
 1. **Email list or forum** for discussion of end-user topics. NOT “how to”, but rather defining strategies and/or suggestions to improve the end-user experience
 1. **Electronic communications:** google drive docs, alternates
 1. **Meetings:** method, format, frequency
-  1. meetings could be held via Google hangouts or equivalent video conferences
-  1. meetings at GCC
-  1. potential meetings of local subgroups
+1. meetings could be held via Google hangouts or equivalent video conferences
+1. meetings at GCC
+1. potential meetings of local subgroups
 
 ### Long Term Goals
 

@@ -99,9 +99,9 @@ The inputs are a match for sequence content but simply adding "chr" will not mak
 4. Sometimes the source can be **iGenomes**, which does contain the extra specific attributes needed for RNA-seq and certain other operationsar
     - Example: The tool htseq-count is used and the attributes gene_id and transcript_id need to be distinct values (also true for the tool Cuffdiff for the best results)
     - Two sources: https://support.illumina.com/sequencing/sequencing_software/igenome.html and http://cole-trapnell-lab.github.io/cufflinks/igenome_table/index.html
-     - Download the .tar file locally, uncompress it, then upload just the genes.gtf dataset to Galaxy
-     - Note: the compression format .tar is not accepted by the Upload tool
-     - If a .tar dataset is attempted to be uploaded, the load may fail or just the first file in the archive is uploaded (and it will not be the genes.gtf file)
+    - Download the .tar file locally, uncompress it, then upload just the genes.gtf dataset to Galaxy
+        - Note: the compression format .tar is not accepted by the Upload tool
+        - If a .tar dataset is attempted to be uploaded, the load may fail or just the first file in the archive is uploaded (and it will not be the genes.gtf file)
 5. [Genecode Genes](https://www.gencodegenes.org) is also an annotation source for some genome builds.
 6. In summary:
     - For **Gencode**, copy the link to the GTF and paste it into the *Upload* tool. Hg38 data is here https://www.gencodegenes.org/. After it is loaded, remove the headers (lines that start with a "#") with the *Select* tool using the options "NOT Matching" with the regular expression `^#`. Once the formatting is fixed, change the datatype to be `gft` under Edit Attributes (pencil icon). The data will be given the datatype `gff` by default, which works fine with some tools and but not with others. Avoid the `gff3` version of this particular data (contains duplicated IDs and several RNA-seq tools do not work with annotation in that format anyway).

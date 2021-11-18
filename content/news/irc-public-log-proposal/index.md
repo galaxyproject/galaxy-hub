@@ -15,13 +15,13 @@ Currently, this channel is not logged anywhere.  This change will only be made i
 Starting sometime after community discussion ends (and assuming that discussion is favorable):
 
 1. At least two weeks before the change:
-  1. Warnings will be added to the IRC channel information and on the wiki, that the log will be publicly archived as of the given start date.
-  1. The policy change will be announced on [Galaxy Biostar](/support/biostar/) and the Galaxy-Dev and Galaxy-Announce [mailing lists](/mailing-lists/).<br /><br />
+1. Warnings will be added to the IRC channel information and on the wiki, that the log will be publicly archived as of the given start date.
+1. The policy change will be announced on [Galaxy Biostar](/support/biostar/) and the Galaxy-Dev and Galaxy-Announce [mailing lists](/mailing-lists/).<br /><br />
 1. On the launch date
-  1. The IRC channel (and the wiki) will be updated to clearly state that the IRC channel is publicly logged.
-  1. Announcements of the change will be posted to Biostar and the mailing lists.
-  1. IRC postings from the announcement onward will start showing up in the public log.
-  1. The IRC channel log will be included in the [Galaxy search engine](/search/).
+1. The IRC channel (and the wiki) will be updated to clearly state that the IRC channel is publicly logged.
+1. Announcements of the change will be posted to Biostar and the mailing lists.
+1. IRC postings from the announcement onward will start showing up in the public log.
+1. The IRC channel log will be included in the [Galaxy search engine](/search/).
 
 **Why now?**
 

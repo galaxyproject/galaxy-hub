@@ -42,7 +42,7 @@ MD048: false
 
 # Automatically fixable types
 MD004: true # ul-style
-MD005: false # list-indent
+MD005: true # list-indent
 MD007: # ul-indent
     indent: 4
 MD009: true # no-trailing-spaces

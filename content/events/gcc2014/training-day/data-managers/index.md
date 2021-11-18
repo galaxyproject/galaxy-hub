@@ -262,15 +262,15 @@ galaxy_data_manager_data_path = tool-data
   2. Click on  "all_fasta" under "View Tool Data Table Entries"
     * You should see the current contents of tool-data/all_fasta.loc
   3. Click on "Reference Genome" under "Run Data Manager Tools"
-    1. The **Reference Genome** tool form from data_manager_fetch_genome_all_fasta is displayed
-    2. From the *DBKEY to assign to data:* list choose: **sacCer2**
-    3. Click **Execute**
+  1. The **Reference Genome** tool form from data_manager_fetch_genome_all_fasta is displayed
+  2. From the *DBKEY to assign to data:* list choose: **sacCer2**
+  3. Click **Execute**
   4. Under the "User" menu select "Saved Histories"
-    1. Select history: "Data Manager History (automatically created)"
-    2. You should see your "Reference Genome" job in the history
+  1. Select history: "Data Manager History (automatically created)"
+  2. You should see your "Reference Genome" job in the history
   5. Go back to the Data Manager view by click on "Manage local data"
-    1. Click on  "all_fasta" under "View Tool Data Table Entries"
-    2. You should see sacCer2 added to all_fasta
+  1. Click on  "all_fasta" under "View Tool Data Table Entries"
+  2. You should see sacCer2 added to all_fasta
 
 ## 16:30-17:10 Create a DataManager
 

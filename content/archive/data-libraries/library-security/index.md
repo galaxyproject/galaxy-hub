@@ -1,6 +1,6 @@
 1.
-  1. page was renamed from Admin/DataLibraries/Library Security
-  2. page was renamed from Admin/Data Libraries/Library Security
+1. page was renamed from Admin/DataLibraries/Library Security
+2. page was renamed from Admin/Data Libraries/Library Security
 
 2. format text/creole
 

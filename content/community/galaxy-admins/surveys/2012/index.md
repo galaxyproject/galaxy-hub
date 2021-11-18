@@ -82,8 +82,8 @@ The original responses, minus name, institution and email are **[also available]
 1. My Galaxy instance is integrated with a computing cluster (SGE).
 1. We plan to deploy a galaxy instance on a ~1000 CPU blade cluster + fat nodes. We expect to have it coupled with PBS PRO queueing system. We are still evaluating the possibility of having galaxy frontend in a virtual machine communicating with the postgres db and cluster system as backend.
 1. We have two Galaxy environments.  
-  1. A QA (Quality Assurance) Galaxy env which dispatches jobs to a small closed cluster managed by SGE.
-  1. A Production Galaxy env (in alpha phase) which is a submit node to our campus High Performance Compute cluster managed by SGE.   Our production galaxy box has 24 GB Ram and is a 12 core, infiniband network card.
+1. A QA (Quality Assurance) Galaxy env which dispatches jobs to a small closed cluster managed by SGE.
+1. A Production Galaxy env (in alpha phase) which is a submit node to our campus High Performance Compute cluster managed by SGE.   Our production galaxy box has 24 GB Ram and is a 12 core, infiniband network card.
   We decided to strip back the amount of tools installed to only a small subset, with plans to lazily expose more tools upon request of users.  We plan to develop and publish common analysis pipelines for common work being currently done at the U of I.
 1. Integrated with a large compute cluster using PBS/Torque.  Cluster has a number of queues specific for the tasks, including nodes with large memory capacity (500 GB - 1 TB, with a 2 TB machine on order), standard 16-24 GB nodes with 8-12 core each, etc.<br />We anticipate expanding to include other resources on our campus, including NCSA machines and other clusters.
 1. We have a dedicated galaxy VM which is registered as a submit host with our SGE cluster  Cheaha - https://docs.uabgrid.uab.edu/wiki/Cheaha . The galaxy VM and the Cheaha cluster have a consistent view of the underlying shared file-systems - home directories, Lustre file-system and shared apps/install directory. Below is a logical diagram of our research computing platform that explains our galaxy installation as well - https://docs.uabgrid.uab.edu/wiki/File:Research-computing-platform.png .
@@ -104,13 +104,13 @@ The original responses, minus name, institution and email are **[also available]
     1. What is notable and different about our cluster topology is that compute nodes are shared between jobs, and jobs must live withing their request resources (memory, time) or they are killed, or they will negatively impact other users' jobs (cpu). Additionally, the cluster is hetrogeneous - made up of 3 classes of nodes, all in the same queue, which are selected based on the resource requirements of the task submitted. This is very different than Penn State Galaxy's configuration, and makes coordination between code, task parameters and DRMAA settings extremely important.
 
 1. We are using both powerful standalone workstations and a computer cluster. The cluster versions is being set up now, not operational yet.
-  1. In September we launch a new cluster (Abel):
+1. In September we launch a new cluster (Abel):
     * 912 nodes - 2 intel cpus -  8 cores (2 x Intel Xeon Sandy-Bridge CPU x86 64bit, E5-2670 2.6 GHz 8.0 GT/s 20 MB cache 8-core), 64 GB RAM, IB
     * 16 GPU-nodes,  2 x Intel Xeon Sandy-Bridge CPU x86 64bit, E5-2609 2.4 GHz 6.4 GT/s 10 MB cache 4-core, 64 GB RAM, 2 x Nvidia Kepler GPU-card with 6 GB memory, IB
     * 8 Hugemem-noders, 4 x AMD Opteron Abu Dhabi CPU x86 64bit, 3.0 GHz 6.4 GT/s 16 MB cache 8-core, 1 TB RAM, IB
     * OS : Rocks , RHEL6
     * Queueing system: SLURM 2.2.6.1
-  2. For Galaxy configuration
+2. For Galaxy configuration
     * apache (2.2.3) proxy
     * ssl
     * Posgresql DB on a different host
@@ -259,12 +259,12 @@ The original responses, minus name, institution and email are **[also available]
 1. NFS latency. When galaxy is installed on an NFS shared folder instead of the local hard drive, the job runner does not communicate with  Torque PBS very well.
 1. We had to work around python versioning issues.  Our server has a supported version of python (v2.7) but our cluster has an outdated one (v. 2.4), so we ran into problems when initially deploying Galaxy with various incompatibilities between the two versions.
 1. No job or dataset specific control on cluster resource requirements: The galaxy's DRMAA configuration is tool specific and not job specific. This doesn't play in a shared cluster/scheduler environment. This is an on-going issue and a major limitation for shared cluster environments. It would be nice to have an option for either of following options:
-  1. Allow users to specify resource limits
-  2. Make DRMAA configuration data-set dependent.
+1. Allow users to specify resource limits
+2. Make DRMAA configuration data-set dependent.
     Right now there's now way for a job submitter to easily select different resource requests (like RAM) depending on the size/complexity of the genome being worked on (eg, human[big] vs vaccinia virus[very small] vs tree-shrew[thousands of contigs]). Thus, we have to size resource requests for the biggest possible data set, which causes the small runs to wait a LONG time in the queue for resources they don't need. Nor does it seem possible to set up a formula for DRMAA based on the size of the genome being used (ie, make the choice automatically). This is compounded by lack of good data on the performance/requirements of many of the underlying programs for different input types).
 1. Capturing 'failed/aborted' jobs by the scheduler: There are cases (listed below) where a job is aborted by the scheduler but it still shows up as successful in the galaxy (green-boxes):
-  1. [Job exceeds requested resource limits such as memory and run-time](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/3RYYE6ZNPM7I4NXTUNQPZ5UQQA7KXIWH/#WD3H7EGA6IPERH6VEJXFTQBBA3DANGJQ)
-  2. Compute node on which job was running fails/restarted
+1. [Job exceeds requested resource limits such as memory and run-time](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/3RYYE6ZNPM7I4NXTUNQPZ5UQQA7KXIWH/#WD3H7EGA6IPERH6VEJXFTQBBA3DANGJQ)
+2. Compute node on which job was running fails/restarted
 
  Job failures because of # 2 rarely happen however # 1 is very common if you have a shared cluster environment and galaxy tool's drmaa/job-runner configuration is not liberal (e.g. configure tool with 64GB RAM, 96-hrs run-time..).
  <br />
@@ -336,8 +336,8 @@ The original responses, minus name, institution and email are **[also available]
 1. I am trying hard to find out how can I read logged-in user's database ID, when a tool loads up. Because my tool meant to load up (in a dropdown) some custom data from a non-galaxy database for the user to select and submit a job.  I have posted this quest on Galaxy-Dev but in vein. <br />If I could find out this in this forum that would be great.
 1. There needs to be an improved mechanism for supporting multiple tool versions and tool wrapper versions in the same galaxy.
 1. Version handling of tools - while many tools report the version the dataset was run with, Galaxy does not give us good reproducibility - the wrappers generally run the latest version of the tool in the path, and assume the .loc files point to the indexes matching the latest version (say, BWA 0.5 vs 0.6). This means people can't go back and re-run analysis 6 months later to tweak parameters, without unknowingly moving to a new version of the tool - which may give completely different results. This can probably be handled in two manners:
-  1. Multiple versions of the same tool and tool wrappers (hard-coded with particular tool version) can be installed on the system.
-  1. Tool wrappers or some other component of galaxy can search PATH or environment modules to provide version specific tool option
+1. Multiple versions of the same tool and tool wrappers (hard-coded with particular tool version) can be installed on the system.
+1. Tool wrappers or some other component of galaxy can search PATH or environment modules to provide version specific tool option
 
 ### User History and Dataset Handling Limitations
 
