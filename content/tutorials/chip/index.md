@@ -416,9 +416,9 @@ Next, we will run `MACS2` on BAM datasets for Replicate 1 only:
 <div class="alert alert-warning trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Now do this by yourself:
 <hr>
 
-* rename resulting datasets as `R1 summits` and `R1 peaks`
-* run `MACS2` run on Replicate 2
-* rename resulting `summits` and `narrow peak` datasets as `R2 summits` and `R2 peaks`.
+- rename resulting datasets as `R1 summits` and `R1 peaks`
+- run `MACS2` run on Replicate 2
+- rename resulting `summits` and `narrow peak` datasets as `R2 summits` and `R2 peaks`.
 
 </div>
 

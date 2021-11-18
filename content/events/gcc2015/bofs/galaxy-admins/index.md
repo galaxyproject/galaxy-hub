@@ -54,7 +54,7 @@ This BoF will meet on **Tuesday, 7 July at 18:20, in the Franklin Room, at the J
 * Martin Vickets
 * Brad Langhorst
 * Carrie Ganote
-* + at least 2 others.
+* and at least 2 others.
 
 # Discussion
 

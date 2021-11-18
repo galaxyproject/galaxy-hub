@@ -84,11 +84,11 @@ If you choose to continue, to understand Eggs and how they work in Galaxy, read 
 
 Most eggs are platform-agnostic (e.g. Pure Python), and thus you can use the pre-built versions of these (from <https://eggs.g2.bx.psu.edu>). Of the remaining eggs, not all are required by the default configuration. You'll need at a minimum:
 
-- bx-python
-- Cheetah
-- pycrypto
-- pysqlite
-- numpy
+* bx-python
+* Cheetah
+* pycrypto
+* pysqlite
+* numpy
 
 You'll need to get and build the versions specified in `galaxy_dist/eggs.ini`, so consult that file for proper versions and download URLs. The remaining eggs are required for a number of tools, as well as for some development/debugging purposes.
 

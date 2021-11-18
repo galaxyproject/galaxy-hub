@@ -219,9 +219,9 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <img class="card-img-top" src="/use/marea4galaxy/marea4galaxy-logo.png" alt="MaREA4Galaxy" />
 
 The **[MaREA4Galaxy server](http://bimib.disco.unimib.it:5555/)** supports the *Metabolic Reaction Enrichment Analysis and visualization of RNA-seq data* toolset.  This includes tools to
-  - Compute Reaction Activity Scores from gene expression (RNA-seq) dataset(s).
-  - Cluster analysis of any dataset, according to most used algorithms: K-means, agglomerative clustering and DBSCAN.
-  - Analyze and visualize differences in the Reaction Activity Scores (RASs) of groups of samples, as computed by the Expression2RAS tool, of groups of samples.
+  * Compute Reaction Activity Scores from gene expression (RNA-seq) dataset(s).
+  * Cluster analysis of any dataset, according to most used algorithms: K-means, agglomerative clustering and DBSCAN.
+  * Analyze and visualize differences in the Reaction Activity Scores (RASs) of groups of samples, as computed by the Expression2RAS tool, of groups of samples.
 </div>
 
 

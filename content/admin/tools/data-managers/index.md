@@ -31,7 +31,7 @@ The Data Manager framework supports any kind of built-in ("pre-cached") data tha
 
 # See also
 
-* [Admin/Tools/Data Tables](/admin/tools/data-tables/)
+- [Admin/Tools/Data Tables](/admin/tools/data-tables/)
 
 ----
 

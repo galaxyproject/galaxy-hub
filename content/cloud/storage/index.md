@@ -17,14 +17,14 @@ instead, they use auto-generated/refreshed credentials ([read details](/authnz/c
 
 Generally, to use the `get` and `send` APIs one should take the following steps:
 
-* **Initialization**
+- **Initialization**
 
     1. Login to Galaxy using your Google account (read
     [how to login to Galaxy using social identities](/authnz/config/oidc/));
 
     2. Securely authorize Galaxy to read/write to your cloud-based storage ([read how](/authnz/cloud/)).
 
-* **Securely access cloud-based storage**
+- **Securely access cloud-based storage**
 
     1. [`Get` data from cloud](#get-data-from-cloud);
 

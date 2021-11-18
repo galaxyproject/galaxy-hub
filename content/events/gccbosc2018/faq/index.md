@@ -63,13 +63,13 @@ For [international visitors requiring a visa](https://help.cbp.gov/app/answers/d
 
 Send your request to *vasilevs [at] ohsu.edu*  and include your
 
-* full (given/legal) name (as it appears in your passport),
-* institution/company name and address,
-* date of birth (YYYY/MM/DD),
-* passport number, and
-* country of issuance,
-* registration confirmation number
-* title of your abstract submission
+- full (given/legal) name (as it appears in your passport),
+- institution/company name and address,
+- date of birth (YYYY/MM/DD),
+- passport number, and
+- country of issuance,
+- registration confirmation number
+- title of your abstract submission
 
 In addition, a letter verifying your student status or employment status may be required to obtain a visa to enter the US. Please see [this template](https://depot.galaxyproject.org/hub/attachments/events/gccbosc2018/gccbosc2018-employment-student-letter-example.docx) for an example.
 

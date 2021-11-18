@@ -125,9 +125,9 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 # Session 2 : Galaxy
 
-* [Introduction to Genomics and Galaxy](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
-* [Extracting Workflows from Histories](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-history-to-workflow/tutorial.html)
-* [Intro and closing slides](https://depot.galaxyproject.org/hub/attachments/events/2017-sacnas/2017-sacnas-galaxy-slides.pdf)
+- [Introduction to Genomics and Galaxy](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html)
+- [Extracting Workflows from Histories](https://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-history-to-workflow/tutorial.html)
+- [Intro and closing slides](https://depot.galaxyproject.org/hub/attachments/events/2017-sacnas/2017-sacnas-galaxy-slides.pdf)
 
 | Time | Topic |
 |:----:| ----- |

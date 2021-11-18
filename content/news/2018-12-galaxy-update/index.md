@@ -62,11 +62,11 @@ Please give some thought to what topics you would like to see offered, or that y
 
 Nominated topics can cover a wide range. For example:
 
-- Introduction to Using Galaxy
-- Scientific topic oriented trainings
-- Community specific trainings
-- Development and administration around Galaxy
-- Train the trainers
+* Introduction to Using Galaxy
+* Scientific topic oriented trainings
+* Community specific trainings
+* Development and administration around Galaxy
+* Train the trainers
 
 This list only shows some examples. **Any topic of interest to the Galaxy Community can be nominated and you are encouraged to nominate more than one topic.** If you are looking for ideas, see the topic nominated in: [2016](https://bit.ly/gcc2016noms), [2015](https://bit.ly/gcc2015vote), [2014](https://bit.ly/1s6NtMN), [2013](https://bit.ly/1i2j1gN) and the [Galaxy Events page](/events/).
 

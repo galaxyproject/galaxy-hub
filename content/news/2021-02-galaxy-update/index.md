@@ -97,8 +97,8 @@ Despite COVID-19, there is still a lot going on, although online. We have update
 
 Things are just too uncertain to continue to plan an in person event for early July. GCC2021 won't be in person, but it will be more accessible and affordable because of it:
 
-* **GCC2021 events will be held twice each day**, once in their original Ghent time zone (GCC EMEA/APO), and again 8 hours later in the Americas (GCC Americas).
-* **Registration rates will be a fraction of the cost of an in person event**, and will include a significant discount for students and researchers based in low and lower-middle income countries.
+- **GCC2021 events will be held twice each day**, once in their original Ghent time zone (GCC EMEA/APO), and again 8 hours later in the Americas (GCC Americas).
+- **Registration rates will be a fraction of the cost of an in person event**, and will include a significant discount for students and researchers based in low and lower-middle income countries.
 
 Other things are changing too. See [the announcement](/news/2021-02-gcc-virtual/) for details.
 </div>
@@ -164,8 +164,8 @@ The February GTN CoFest & Community calls are joining forces with the February P
 
 Both events will feature community calls throughout the day with community engagement on chat throughout the day.  This is an excellent opportunity to become a contributor to the global open science, open source, and open access Galaxy community.
 
-* [Galaxy Training Network day -  CoFest and community call](/events/2021-02-gtn/)
-* [Galaxy February Papercuts CoFest day](/events/2021-02-papercuts/)
+- [Galaxy Training Network day -  CoFest and community call](/events/2021-02-gtn/)
+- [Galaxy February Papercuts CoFest day](/events/2021-02-papercuts/)
 
 Please join us online on 25 February, wherever you are in the world.
 </div>
@@ -285,11 +285,11 @@ The [ATACgraph Galaxy container](https://hub.docker.com/r/lsbnb/galaxy_atacgraph
 
 The Galaxy Europe team has been busy creating more customized Galaxy instances:
 
-* [StreetScience](https://streetscience.usegalaxy.eu/)
-* [Virology](https://virology.usegalaxy.eu/)
-* [COVID-19](https://covid19.usegalaxy.eu/)
-* [Metabolomics](https://metabolomics.usegalaxy.eu/), and
-* [Metagenomics](https://metagenomics.usegalaxy.eu/)
+- [StreetScience](https://streetscience.usegalaxy.eu/)
+- [Virology](https://virology.usegalaxy.eu/)
+- [COVID-19](https://covid19.usegalaxy.eu/)
+- [Metabolomics](https://metabolomics.usegalaxy.eu/), and
+- [Metagenomics](https://metagenomics.usegalaxy.eu/)
 
 These are just a few of the [large number of specialty subdomains hosted by UseGalaxy.eu](https://galaxyproject.eu/posts/2020/12/28/subdomains/).
 </div>
@@ -304,11 +304,11 @@ These are just a few of the [large number of specialty subdomains hosted by UseG
 
 <img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
+- Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
-* UseGalaxy.eu has [increased in 11 TB its RAM](https://galaxyproject.eu/posts/2021/02/05/new-hw/) thanks to de.NBI-Cloud.
+- UseGalaxy.eu has [increased in 11 TB its RAM](https://galaxyproject.eu/posts/2021/02/05/new-hw/) thanks to de.NBI-Cloud.
 
-* The European Galaxy server listed as an official resource on the [COVID-19 Data Portal](https://www.covid19dataportal.org/related-resources).
+- The European Galaxy server listed as an official resource on the [COVID-19 Data Portal](https://www.covid19dataportal.org/related-resources).
 
 </div>
 
@@ -504,16 +504,16 @@ By Galaxy Admin Training Instructors.
 
 As a result of the recently completed Admin Training course, most [Galaxy Server Admin topics](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html) were updated:
 
-* [Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html)
-* [Galaxy Installation with Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html)
-* [Connecting Galaxy to a compute cluster](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html)
-* [Data Libraries](https://training.galaxyproject.org/training-material/topics/admin/tutorials/data-library/tutorial.html)
-* [Distributed Object Storage](https://training.galaxyproject.org/training-material/topics/admin/tutorials/object-store/tutorial.html)
-* [Galaxy Monitoring with Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html)
-* [Galaxy Monitoring with Telegraf and Grafana](https://training.galaxyproject.org/training-material/topics/admin/tutorials/monitoring/tutorial.html)
-* [Galaxy Tool Management with Ephemeris](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tool-management/tutorial.html)
-* [Mapping Jobs to Destinations](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html)
-* plus at least 6 more hands on examples and at least 13 slide decks.
+- [Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html)
+- [Galaxy Installation with Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html)
+- [Connecting Galaxy to a compute cluster](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html)
+- [Data Libraries](https://training.galaxyproject.org/training-material/topics/admin/tutorials/data-library/tutorial.html)
+- [Distributed Object Storage](https://training.galaxyproject.org/training-material/topics/admin/tutorials/object-store/tutorial.html)
+- [Galaxy Monitoring with Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html)
+- [Galaxy Monitoring with Telegraf and Grafana](https://training.galaxyproject.org/training-material/topics/admin/tutorials/monitoring/tutorial.html)
+- [Galaxy Tool Management with Ephemeris](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tool-management/tutorial.html)
+- [Mapping Jobs to Destinations](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html)
+- plus at least 6 more hands on examples and at least 13 slide decks.
 
 <img class="card-img-bottom" src="/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training" />
 </div>
@@ -562,11 +562,11 @@ This new feature will help the GTN contributors, as they will only need to enabl
 
 A number of tutorials have already created videos using the new text to speech capability:
 
-* [Functionally Assembled Terrestrial Ecosystem Simulator (FATES)](https://training.galaxyproject.org/training-material/topics/climate/videos/#video-climate-fates), added by Anne Fouilloux
-* [Genome Annotation with Prokka](https://training.galaxyproject.org/training-material/topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka), added by Anthony Bretaudeau
-*  [An introduction to scRNA-seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/videos/#video-transcriptomics-scrna-intro), added by Mehmet Tekman
-* **[Thirteen videos on Galaxy Server Administration](https://training.galaxyproject.org/training-material/topics/admin/videos/)**, created by the 2021 Galaxy Admin Training instructors.
-* [ Scripting Galaxy using the API and BioBlend](https://training.galaxyproject.org/training-material/topics/dev/videos/#video-dev-bioblend-api), added by Nicola Soranzo
+- [Functionally Assembled Terrestrial Ecosystem Simulator (FATES)](https://training.galaxyproject.org/training-material/topics/climate/videos/#video-climate-fates), added by Anne Fouilloux
+- [Genome Annotation with Prokka](https://training.galaxyproject.org/training-material/topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka), added by Anthony Bretaudeau
+-  [An introduction to scRNA-seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/videos/#video-transcriptomics-scrna-intro), added by Mehmet Tekman
+- **[Thirteen videos on Galaxy Server Administration](https://training.galaxyproject.org/training-material/topics/admin/videos/)**, created by the 2021 Galaxy Admin Training instructors.
+- [ Scripting Galaxy using the API and BioBlend](https://training.galaxyproject.org/training-material/topics/dev/videos/#video-dev-bioblend-api), added by Nicola Soranzo
 
 ![GTN Videos](./gtn-videos.png)
 
@@ -814,11 +814,11 @@ Data science research and education focusing on genomics ([AnVIL](https://anvilp
 
 Roche, Bay Area, California, United States.
 
-* Lead data mining for biomarker discovery for medical conditions of interest.
-* Develop Agile Assay Design (AAD) tools for qPCR tests.
-* NGS data analysis tools and/or workflows.
-* Use these tools & workflows for R&D projects.
-* Deploy these tools on Roche intranet (Galaxy) and train scientists to use them.
+- Lead data mining for biomarker discovery for medical conditions of interest.
+- Develop Agile Assay Design (AAD) tools for qPCR tests.
+- NGS data analysis tools and/or workflows.
+- Use these tools & workflows for R&D projects.
+- Deploy these tools on Roche intranet (Galaxy) and train scientists to use them.
 
 <img class="card-img-bottom" src="/images/logos/roche-logo.png" alt="Roche" />
 </div>
@@ -849,8 +849,8 @@ Provide technical expertise and oversight for the [AnVIL Project](http://anvilpr
 </div>
 
 The Schatz Lab at Johns Hopkins University is looking for:
-* Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
-* Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
+- Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
+- Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 
 <img class="card-img-bottom" src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
 </div>

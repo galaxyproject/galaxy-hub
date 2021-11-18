@@ -32,38 +32,38 @@ Usually do the most productive part in the morning, and then handle support / fi
 1) Terminal 2) Gmail 3) Browser
 
 Here's my desk setup:
-* New: https://imgur.com/hZBsmsX
+- New: https://imgur.com/hZBsmsX
 
 #### Screen configuration:
 
-* Middle screen - 27"
-  * https://imgur.com/Ex7BRx9
-  * Vim Code is middle + left screen
-  * IRC top right
-  * Grunt + Webpack logs middle right
-  * Galaxy logs bottom right
+- Middle screen - 27"
+  - https://imgur.com/Ex7BRx9
+  - Vim Code is middle + left screen
+  - IRC top right
+  - Grunt + Webpack logs middle right
+  - Galaxy logs bottom right
 
-* Right screen - 24"
-  * Gmail Half right
-  * Galaxy + browser Half left
+- Right screen - 24"
+  - Gmail Half right
+  - Galaxy + browser Half left
 
-* Left screen - Macbook pro 13"
-  * Usually just another Galaxy or other browser destination.
-  * More often than not, unless it's something wonky (cluster testing) which is easier to set up on *nix, the code I'm working on actually lives on this machine and I'm ssh(mosh)'d in to it from all the terminals you see in the center panel.  So I actually do develop on OSX, I just don't use the interface.
+- Left screen - Macbook pro 13"
+  - Usually just another Galaxy or other browser destination.
+  - More often than not, unless it's something wonky (cluster testing) which is easier to set up on *nix, the code I'm working on actually lives on this machine and I'm ssh(mosh)'d in to it from all the terminals you see in the center panel.  So I actually do develop on OSX, I just don't use the interface.
 
 #### OS
 
-* Windows 10 (Really just a host to the VM and runs browsers)
-* XUbuntu in VirtualBox
-* OSX
+- Windows 10 (Really just a host to the VM and runs browsers)
+- XUbuntu in VirtualBox
+- OSX
 
 #### Coding best-practices and tips
 
 ##### Front-end
 
-* node_modules/webpack/bin/webpack.js --progress --colors --watch
-* node_modules/grunt-cli/bin/grunt watch --develop
-* (More details [here](https://github.com/galaxyproject/galaxy/blob/dev/client/README.md))
+- node_modules/webpack/bin/webpack.js --progress --colors --watch
+- node_modules/grunt-cli/bin/grunt watch --develop
+- (More details [here](https://github.com/galaxyproject/galaxy/blob/dev/client/README.md))
 
 ##### Keep learning
 
@@ -71,22 +71,22 @@ Read HackerNews / Python subreddit + Programming subreddit
 
 ##### Misc
 
-* How to sync your vim configuration across multiple machines (I'm commonly on 3) => rsync -avz .vim*
-* Use [ack](http://beyondgrep.com/) instead of grep. Useful for looking into the logs
-* How to use the same keyboard and mouse between Macbook pro and Main computer: Use Synergy
+- How to sync your vim configuration across multiple machines (I'm commonly on 3) => rsync -avz .vim*
+- Use [ack](http://beyondgrep.com/) instead of grep. Useful for looking into the logs
+- How to use the same keyboard and mouse between Macbook pro and Main computer: Use Synergy
 
 ### What are the things that we need to focus on
 
-* Performance needs to be improved.
-* Less friendly to novices. Regular users are behind for Advanced users. We should take some steps back to get the picture of what features are really useful for users.
+- Performance needs to be improved.
+- Less friendly to novices. Regular users are behind for Advanced users. We should take some steps back to get the picture of what features are really useful for users.
 
 ### What do you recommend to the others?
 
-* Everyone should use Terminal. You have to understand the things underline.
-* A good (mechanical) keyboard:
-  * http://www.amazon.com/CM-Storm-QuickFire-TK-Mechanical/dp/B00A378L4C
-  * http://www.keyboardco.com/blog/index.php/2012/12/an-introduction-to-cherry-mx-mechanical-switches/
-  * http://www.amazon.com/Mechanical-Keyboard-Keycaps-Cherry-Mx-Clear/dp/B00OFM6F80
+- Everyone should use Terminal. You have to understand the things underline.
+- A good (mechanical) keyboard:
+  - http://www.amazon.com/CM-Storm-QuickFire-TK-Mechanical/dp/B00A378L4C
+  - http://www.keyboardco.com/blog/index.php/2012/12/an-introduction-to-cherry-mx-mechanical-switches/
+  - http://www.amazon.com/Mechanical-Keyboard-Keycaps-Cherry-Mx-Clear/dp/B00OFM6F80
 
 ## Dan Blankenberg
 
@@ -112,12 +112,12 @@ Read HackerNews / Python subreddit + Programming subreddit
 
 ## Rémi Marenco
 
-* Uses `pdb` / `ipdb` to debug Python
-* Uses Chrome
-* Uses `debugger` and `Inspect` to debug front-end (see [Javascript Debugging)](http://www.w3schools.com/js/js_debugging.asp), and special Galaxy feature [Galaxy.emit.error](https://github.com/galaxyproject/galaxy/pull/1011)
-* Switched from PyCharm to VIM then PyCharm with IdeaVim
-* Uses `galaxy/test-data/` to find useful inputs to try things
-* http://blog.livecoding.tv/2016/03/24/the-ten-10-best-python-productivity-tools-plugins-and-libraries/
+- Uses `pdb` / `ipdb` to debug Python
+- Uses Chrome
+- Uses `debugger` and `Inspect` to debug front-end (see [Javascript Debugging)](http://www.w3schools.com/js/js_debugging.asp), and special Galaxy feature [Galaxy.emit.error](https://github.com/galaxyproject/galaxy/pull/1011)
+- Switched from PyCharm to VIM then PyCharm with IdeaVim
+- Uses `galaxy/test-data/` to find useful inputs to try things
+- http://blog.livecoding.tv/2016/03/24/the-ten-10-best-python-productivity-tools-plugins-and-libraries/
 
 ## Anton Nekrutenko
 
@@ -128,26 +128,26 @@ Read HackerNews / Python subreddit + Programming subreddit
 ## Nitesh Turaga
 
 Worked in the past on:
-* [BioConductor](/BioConductor/) - Galaxy integration
+- [BioConductor](/BioConductor/) - Galaxy integration
 
 Now:
-* Galaxy Full Stack
+- Galaxy Full Stack
 
 #### Work environment
 
-* Vim + plugins:
-  * '[VundleVim](/VundleVim/)/Vundle.vim'
-  * 'tpope/vim-fugitive'
-  * 'git://git.wincent.com/command-t.git'
-  * 'rstacruz/sparkup'
-  * 'Valloric[/YouCompleteMe](/team-set-up/YouCompleteMe/)'
-  * 'kien/ctrlp.vim'
-  * 'scrooloose/syntastic'
-  * 'Lokaltog/powerline'
-  * 'scrooloose/nerdcommenter'
-  * 'nvie/vim-flake8'
-  * 'elzr/vim-json'
-  * 'mileszs/ack.vim'
+- Vim + plugins:
+  - '[VundleVim](/VundleVim/)/Vundle.vim'
+  - 'tpope/vim-fugitive'
+  - 'git://git.wincent.com/command-t.git'
+  - 'rstacruz/sparkup'
+  - 'Valloric[/YouCompleteMe](/team-set-up/YouCompleteMe/)'
+  - 'kien/ctrlp.vim'
+  - 'scrooloose/syntastic'
+  - 'Lokaltog/powerline'
+  - 'scrooloose/nerdcommenter'
+  - 'nvie/vim-flake8'
+  - 'elzr/vim-json'
+  - 'mileszs/ack.vim'
 
 Use Sublime with plugins essentially for Javascript
 
@@ -161,19 +161,19 @@ IPython / (i)pdb: Ipython instead of python.
 
 ##### Chrome extensions:
 
-* [JsonView](/JsonView/)
-* YSlow
+- [JsonView](/JsonView/)
+- YSlow
 
 #### How do you organize your work-day?
 
-* [GitHub](/GitHub/) notifications through Slack
-* Checker Plus for Gmail
-* Regular irc notifications
+- [GitHub](/GitHub/) notifications through Slack
+- Checker Plus for Gmail
+- Regular irc notifications
 
 #### What to improve?
 
-* UI to improve
-* Developer entry-point
+- UI to improve
+- Developer entry-point
 
 #### What did you find the most difficult at the beginning in Galaxy?
 

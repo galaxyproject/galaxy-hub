@@ -83,8 +83,8 @@ Know someone who needs to learn more about deploying Galaxy in their organizatio
 
 Participants will learn to
 
-- Create Galaxy compatible tool and workflow definitions that are publicly accessible and that make it easy for any instance administrator to add your work to their server.
-- Deploy Galaxy and scale it up to target production-ready resources such as a Postgres database, NGINX webserver, and distributed resource managers such SLURM or PBS.
+* Create Galaxy compatible tool and workflow definitions that are publicly accessible and that make it easy for any instance administrator to add your work to their server.
+* Deploy Galaxy and scale it up to target production-ready resources such as a Postgres database, NGINX webserver, and distributed resource managers such SLURM or PBS.
 
 Interested? Sign up when you [register](https://www.iscb.org/ismbeccb2017-registration#tutorials) for ISMB/ECCB (and register before the tutorial fills up).
 

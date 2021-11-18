@@ -31,15 +31,15 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 We are pleased to announce the new [Galaxy Platform Directory](/use/).  This directory lists 125 platforms where you can use or deploy your own Galaxy Server with minimal effort, including
 
-- Public Galaxy servers
-- Academic and commercial cloud services that support Galaxy
-- Containers and VMs that run Galaxy
+* Public Galaxy servers
+* Academic and commercial cloud services that support Galaxy
+* Containers and VMs that run Galaxy
 
 And
 
-- Almost all of them are free to use (Commercial clouds are the exception)
-- Almost all of them are open to everyone (Academic clouds are the exception)
-- All of the resources can be used, either immediately, or shortly after getting an account
+* Almost all of them are free to use (Commercial clouds are the exception)
+* Almost all of them are open to everyone (Academic clouds are the exception)
+* All of the resources can be used, either immediately, or shortly after getting an account
 
 These resources cover a wide spectrum of domains all across life sciences. There are resources for genomics (lots of them), metagenomics, transcriptomics, proteomics, drug discovery and even some outside biology like natural language processing (a couple of them), and social science.
 

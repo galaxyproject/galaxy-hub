@@ -353,8 +353,8 @@ A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in Sept
 
 [Command-line utilities](https://pypi.python.org/pypi/nebulizer/) to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the BioBlend library.
 
-- [Documentation](https://nebulizer.readthedocs.io)
-- [Code](https://github.com/pjbriggs/nebulizer)
+* [Documentation](https://nebulizer.readthedocs.io)
+* [Code](https://github.com/pjbriggs/nebulizer)
 
 *CAVEAT nebulizer is still a work in progress; please exercise caution when attempting irreversible operations especially against production Galaxy instances (for example when creating users or data libraries).*
 

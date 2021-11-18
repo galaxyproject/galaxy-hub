@@ -39,14 +39,14 @@ The full process is described in detail on the [Publish Tool](/toolshed/publish-
 
 # Basic Topics
 
-- [Readme Files](/toolshed/readme-files/)
-- [Repository Contents](/toolshed/repository-contents/)
-- [Tool Dependency Recipes](/toolshed/tool-dependency-recipes/)
-- [Repository Features](/toolshed/repository-features/)
-- [Searching The ToolShed](/toolshed/searching-the-toolshed/)
+* [Readme Files](/toolshed/readme-files/)
+* [Repository Contents](/toolshed/repository-contents/)
+* [Tool Dependency Recipes](/toolshed/tool-dependency-recipes/)
+* [Repository Features](/toolshed/repository-features/)
+* [Searching The ToolShed](/toolshed/searching-the-toolshed/)
 
 # Advanced Topics
 
-- [Hosting a Local ToolShed](/toolshed/hosting-a-local-toolshed/)
-- [Advanced Repository Features](/toolshed/advanced-repository-features/)
-- [Advanced Topics](/toolshed/advanced-topics/)
+* [Hosting a Local ToolShed](/toolshed/hosting-a-local-toolshed/)
+* [Advanced Repository Features](/toolshed/advanced-repository-features/)
+* [Advanced Topics](/toolshed/advanced-topics/)

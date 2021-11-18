@@ -253,14 +253,14 @@ If you have some special needs that we should consider in our next purchase, [le
 
 The Galaxy community participated in 8 different projects during the BioHackathon Europe 2020:
 
-- [CNV detection software containerisation and benchmark](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/7)
-- [EDAM and Tool Information Profiles](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/10)
-- [Exporting rich metadata and provenance from Galaxy using RO-Crate packaging](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14)
-- [Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17)
-- [Hardening and Testing Galaxy cluster support with BioContainer](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18)
-- [An interface between Galaxy and disease maps](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27)
-- [Deploying biocontainers in orchestration environments for life science research](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31)
-- [bio.tools integration and sustainable development](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/8f588223a2ca50ecb76cdf37fa5bfc21aa54e5d4/projects/11)
+* [CNV detection software containerisation and benchmark](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/7)
+* [EDAM and Tool Information Profiles](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/10)
+* [Exporting rich metadata and provenance from Galaxy using RO-Crate packaging](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14)
+* [Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17)
+* [Hardening and Testing Galaxy cluster support with BioContainer](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18)
+* [An interface between Galaxy and disease maps](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27)
+* [Deploying biocontainers in orchestration environments for life science research](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31)
+* [bio.tools integration and sustainable development](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/8f588223a2ca50ecb76cdf37fa5bfc21aa54e5d4/projects/11)
 
 <img class="card-img-bottom" src="/images/logos/bhlogo.png" alt="BH2020" />
 </div>

@@ -454,9 +454,9 @@ Here we will simply rename input called "Exons" into "Feature 1" and the one cal
 
 Finally let's rename the workflow's output. For this:
 
-* click on the last dataset (**Cut**)
-* scroll down the rightmost pane and click on ![add action](/tutorials/g101/addAction.png)
-* Type `Top Exons` in the **Rename dataset** text box:
+- click on the last dataset (**Cut**)
+- scroll down the rightmost pane and click on ![add action](/tutorials/g101/addAction.png)
+- Type `Top Exons` in the **Rename dataset** text box:
 
 |        |
 |--------|
@@ -552,9 +552,9 @@ We did not fake this:
 
 The two histories and the workflow described in this page are accessible directly from this page below:
 
-* History [**my example**](https://usegalaxy.org/u/aun1/h/my-example)
-* History [**my example 2**](https://usegalaxy.org/u/aun1/h/my-example-2)
-* Workflow [**g101**]( https://usegalaxy.org/u/aun1/w/g101)
+- History [**my example**](https://usegalaxy.org/u/aun1/h/my-example)
+- History [**my example 2**](https://usegalaxy.org/u/aun1/h/my-example-2)
+- Workflow [**g101**]( https://usegalaxy.org/u/aun1/w/g101)
 
 From there you can import histories and workflows to make them your own. For example, to import **my example** history simply click [this link](https://usegalaxy.org/u/aun1/h/my-example) and select `Import history` link:
 

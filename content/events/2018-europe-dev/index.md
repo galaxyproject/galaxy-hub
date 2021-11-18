@@ -112,20 +112,20 @@ http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html
 
 ### Suggested Accommodations
 
-* **[Motel One](https://www.motel-one.com/en/hotels/freiburg/hotel-freiburg)**<br />
+- **[Motel One](https://www.motel-one.com/en/hotels/freiburg/hotel-freiburg)**<br />
   Friedrichring 1
 
-* **[Hotel Stadt Freiburg](https://www.hotel-stadt-freiburg.de)**<br />
+- **[Hotel Stadt Freiburg](https://www.hotel-stadt-freiburg.de)**<br />
   Breisacher Str. 84<br />
   79110 Freiburg im Breisgau
 
-* **[Hotel am Rathaus](http://www.am-rathaus.de)**<br />
+- **[Hotel am Rathaus](http://www.am-rathaus.de)**<br />
   Rathausgasse 4-8
 
-* **[Hotel Barbara](http://www.hotel-barbara.de)**<br />
+- **[Hotel Barbara](http://www.hotel-barbara.de)**<br />
   Poststrasse 4
 
-* **[Intercity Hotel Freiburg](http://de.intercityhotel.com/Freiburg/InterCityHotel-Freiburg)**<br />
+- **[Intercity Hotel Freiburg](http://de.intercityhotel.com/Freiburg/InterCityHotel-Freiburg)**<br />
   Bismarckallee 3
 
 **Note**: In Freiburg you have to pay an additional accommodation tax. For business trips this tax does not have to be paid if your employer fills out the [form available at this page](https://www.freiburg.de/pb/,Lde/591062.html) and you show this form to the hotel.

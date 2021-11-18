@@ -253,39 +253,39 @@ Content was automatically converted from MoinMoin and Creole markup to Markdown,
 
 Some highlights from the past two months:
 
-* [GraphFlow: Workflow-based big graph processing](https://doi.org/10.1109/BigData.2016.7840993)
+- [GraphFlow: Workflow-based big graph processing](https://doi.org/10.1109/BigData.2016.7840993)
    S. Riazi, B. Norris. In 2016 IEEE International Conference on Big Data (Big Data) (Dec 2016), pp. 3336-3343, doi:10.1109/BigData.2016.7840993
 
-* [blend4php: a PHP API for galaxy](https://doi.org/10.1093/database/baw154)
+- [blend4php: a PHP API for galaxy](https://doi.org/10.1093/database/baw154)
    Connor Wytko, Brian Soto, Stephen P. Ficklin. *Database*, Vol. 2017 (10 January 2017), baw154, doi:10.1093/database/baw154
 
-* [A guide and best practices for R/Bioconductor tool integration in Galaxy](https://doi.org/10.12688/f1000research.9821.1)
+- [A guide and best practices for R/Bioconductor tool integration in Galaxy](https://doi.org/10.12688/f1000research.9821.1)
    [Nitesh Turaga](/people/nitesh-turaga/), Mallory A. Freeberg, [Dannon Baker](/people/dannon-baker/), [John Chilton](/people/john-chilton/), [Anton Nekrutenko](/people/anton/), [James Taylor](/people/james-taylor/). *F1000Research*, Vol. 5 (24 November 2016), 2757, doi:10.12688/f1000research.9821.1
 
-* [MetaDP: a comprehensive web server for disease prediction of 16S rRNA metagenomic datasets](https://doi.org/10.1007/s41048-016-0033-4)
+- [MetaDP: a comprehensive web server for disease prediction of 16S rRNA metagenomic datasets](https://doi.org/10.1007/s41048-016-0033-4)
    Xilin Xu, Aiping Wu, Xinlei Zhang, Mingming Su, Taijiao Jiang, Zhe-Ming Yuan. *Biophysics Reports* (2017), pp. 1-10, doi:10.1007/s41048-016-0033-4
 
-* [A complete workflow for high-resolution spectral-stitching nanoelectrospray direct-infusion mass-spectrometry-based metabolomics and lipidomics](https://doi.org/10.1038/nprot.2016.156)
+- [A complete workflow for high-resolution spectral-stitching nanoelectrospray direct-infusion mass-spectrometry-based metabolomics and lipidomics](https://doi.org/10.1038/nprot.2016.156)
    Andrew D. Southam, Ralf J. M. Weber, Jasper Engel, Martin R. Jones, Mark R. Viant. *Nature Protocols*, Vol. 12, No. 2. (12 January 2017), pp. 255-273, doi:10.1038/nprot.2016.156
 
-* [Computational tools and workflows in metabolomics: An international survey highlights the opportunity for harmonisation through Galaxy](https://doi.org/10.1007/s11306-016-1147-x)
+- [Computational tools and workflows in metabolomics: An international survey highlights the opportunity for harmonisation through Galaxy](https://doi.org/10.1007/s11306-016-1147-x)
    Ralf J. M. Weber, Thomas N. Lawson, Reza M. Salek, Timothy M. D. Ebbels, Robert C. Glen, Royston Goodacre, Julian L. Griffin, Kenneth Haug, Albert Koulman, Pablo Moreno, Markus Ralser, Christoph Steinbeck, Warwick B. Dunn, Mark R. Viant.  *Metabolomics*, Vol. 13, No. 2. (2016), pp. 1-5, doi:10.1007/s11306-016-1147-x
 
-* [Variant profiling of evolving prokaryotic populations](https://doi.org/10.7717/peerj.2997)
+- [Variant profiling of evolving prokaryotic populations](https://doi.org/10.7717/peerj.2997)
    Markus Zojer, Lisa N. Schuster, Frederik Schulz, Alexander Pfundner, Matthias Horn, Thomas Rattei. *PeerJ*, Vol. 5 (16 February 2017), e2997, doi:10.7717/peerj.2997
 
-* [USMI Galaxy Demonstrator (UGD): a collection of tools to integrate microorganisms information](https://doi.org/10.7287/peerj.preprints.2766v1)
+- [USMI Galaxy Demonstrator (UGD): a collection of tools to integrate microorganisms information](https://doi.org/10.7287/peerj.preprints.2766v1)
    Daniele P. Colobraro, Paolo Romano. *PeerJ Preprints* (31 January 2017), doi:10.7287/peerj.preprints.2766v1
 
-* Three papers on natural language processing:
+- Three papers on natural language processing:
 
-   * [Supporting accessibility and reproducibility in language research in the Alveo virtual laboratory](https://doi.org/10.1016/j.csl.2017.01.003)
+   - [Supporting accessibility and reproducibility in language research in the Alveo virtual laboratory](https://doi.org/10.1016/j.csl.2017.01.003)
       Steve Cassidy, Dominique Estival. *Computer Speech & Language* (February 2017), doi:10.1016/j.csl.2017.01.003
 
-   * [LAPPS/Galaxy: Current State and Next Steps](http://aclweb.org/anthology/W16-5202)  
+   - [LAPPS/Galaxy: Current State and Next Steps](http://aclweb.org/anthology/W16-5202)  
       Nancy Ide, Keith Suderman, Eric Nyberg, James Pustejovsky, Marc Verhagen. In Proceedings of the Third International Workshop on Worldwide Language Service Infrastructure and Second Workshop on Open Infrastructures and Analysis Frameworks for Human Language Technologies (WLSI/OIAF4HLT2016) (December 2016), pp. 11-18
 
-   * [Demonstration: The Language Application Grid as a Platform for Digital Humanities Research](http://ceur-ws.org/Vol-1786/ide.pdf)
+   - [Demonstration: The Language Application Grid as a Platform for Digital Humanities Research](http://ceur-ws.org/Vol-1786/ide.pdf)
       Nancy Ide, Keith Suderman, James Pustejovsky, In CDH@TLT (2017)
 
 
@@ -352,10 +352,10 @@ Some highlights from the past two months:
 
 The Galaxy is expanding! Please help it grow.
 
-* [Postdoctoral Research Fellowship in Bioinformatics](https://www.jobbnorge.no/ledige-stillinger/stilling/134291/postdoctoral-research-fellowship-in-bioinformatics), University of Oslo
-* [BioInformaticien](https://talent.limagrain.com/Pages/Offre/detailoffre.aspx?idOffre=1407&idOrigine=2673&LCID=1036), HM.Clause, Business Unit du Groupe Limagrain,  Maine et Loire, La Bohalle, France
-* [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
-* [Development Scientist (Bioinformatics)](http://chk.tbe.taleo.net/chk05/ats/careers/requisition.jsp?org=NEB&cws=1&rid=272), New England Biolabs, Ipswich, Massachusetts, United States.
+- [Postdoctoral Research Fellowship in Bioinformatics](https://www.jobbnorge.no/ledige-stillinger/stilling/134291/postdoctoral-research-fellowship-in-bioinformatics), University of Oslo
+- [BioInformaticien](https://talent.limagrain.com/Pages/Offre/detailoffre.aspx?idOffre=1407&idOrigine=2673&LCID=1036), HM.Clause, Business Unit du Groupe Limagrain,  Maine et Loire, La Bohalle, France
+- [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
+- [Development Scientist (Bioinformatics)](http://chk.tbe.taleo.net/chk05/ats/careers/requisition.jsp?org=NEB&cws=1&rid=272), New England Biolabs, Ipswich, Massachusetts, United States.
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -380,12 +380,12 @@ Besides having a really cool logo, the [RNA-Rocket Galaxy server](http://rnaseq.
 
 <div class='right solid'><a href='https://grappa.eecs.utk.edu/grappa/'><img src="/use/grappa/grappa-logo.png" alt="Graph Algorithms Pipeline for Pathway Analysis" width="200" /></a></div>
 
-  * [GrAPPA (Graph Algorithms Pipeline for Pathway Analysis)](https://grappa.eecs.utk.edu/grappa/) is a Galaxy server for graph theoretical tools. It contains novel combinatorial methods integrated into a complete microarray analysis toolchain, from uploading raw high-throughput data to visualization of results.
+  - [GrAPPA (Graph Algorithms Pipeline for Pathway Analysis)](https://grappa.eecs.utk.edu/grappa/) is a Galaxy server for graph theoretical tools. It contains novel combinatorial methods integrated into a complete microarray analysis toolchain, from uploading raw high-throughput data to visualization of results.
 
 Efforts to increase GrAPPA’s functionality are underway. Features now being incorporated include:
-  * a larger repertoire of pre-processing options, including Gaussian graphical models and an expanded set of correlation metrics such as mutual information
-  * more powerful post-processing capabilities, for example, software tools for Bayesian analysis
-  * links to related web-centric resources, e.g. GeneWeaver, so that users can seamlessly transfer data and results
+  - a larger repertoire of pre-processing options, including Gaussian graphical models and an expanded set of correlation metrics such as mutual information
+  - more powerful post-processing capabilities, for example, software tools for Bayesian analysis
+  - links to related web-centric resources, e.g. GeneWeaver, so that users can seamlessly transfer data and results
 
 [Email Support](mailto:grappa@utk.edu) is provided and suggestions and feedback from the user community are encouraged. You need to verify your email account before running jobs. GrAPPA is supported by the [Langston Lab at the University of Tennessee](http://web.eecs.utk.edu/~langston/)
 
@@ -397,7 +397,7 @@ The [USMI Galaxy Demonstrator](http://bioinformatics.hsanmartino.it:8080/) demon
 
 The server is still in a development phase, and a preprent is available:
 
-* Colobraro DP, Romano P. (2017) [USMI Galaxy Demonstrator (UGD): a collection of tools to integrate microorganisms information](https://doi.org/10.7287/peerj.preprints.2766v1). *PeerJ Preprints*  5:e2766v1 DOI: 10.7287/peerj.preprints.2766v1
+- Colobraro DP, Romano P. (2017) [USMI Galaxy Demonstrator (UGD): a collection of tools to integrate microorganisms information](https://doi.org/10.7287/peerj.preprints.2766v1). *PeerJ Preprints*  5:e2766v1 DOI: 10.7287/peerj.preprints.2766v1
 
 # Cancer Computer upgrades
 
@@ -441,9 +441,9 @@ The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/sou
 
 Some highlights:
 
-* **Conda auto initialization is enabled by default**
-* **New interface for user preferences**
-* **Support for compressed FASTQ formats**
+- **Conda auto initialization is enabled by default**
+- **New interface for user preferences**
+- **Support for compressed FASTQ formats**
 
 ### Release Notes
 
@@ -487,9 +487,9 @@ The [January and February releases](https://github.com/galaxyproject/galaxy-lib/
 
 [Starforge](https://pypi.python.org/pypi/starforge) is a collection of scripts that supports the building of components for Galaxy.  Specifically, with Starforge you can:
 
-* Build [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) dependencies
-* Build [Python Wheels](http://pythonwheels.com/) (e.g. for the [Galaxy Wheels Server](http://wheels.galaxyproject.org/))
-* Rebuild Debian or Ubuntu source packages (for modifications)
+- Build [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) dependencies
+- Build [Python Wheels](http://pythonwheels.com/) (e.g. for the [Galaxy Wheels Server](http://wheels.galaxyproject.org/))
+- Rebuild Debian or Ubuntu source packages (for modifications)
 
 These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems.
 
@@ -526,11 +526,11 @@ And please welcome [Bérénice Batut](https://github.com/bebatut) of the Univers
 
 # Other News
 
-* [Galaxy Video - RNAseq Pipeline as Example ](https://www.youtube.com/watch?v=rVYzMWWRMN8), from [BioIT Core](https://www.youtube.com/channel/UCwFnw_YPygHs2toCXld7o9A)
-* Galaxy Training Network materials are now [automatically detected by ELIXIR TeSS](https://tess.oerc.ox.ac.uk/materials?content_provider=Galaxy+Training)
-* And there are new training materials on [metagenomics](https://galaxyproject.github.io/training-material//Metagenomics/tutorials/mothur-miseq-sop) (featuring mothur and other useful Galaxy tools) by [Saskia Hiltemann](https://github.com/shiltemann), and new [Galaxy introduction training material](https://galaxyproject.github.io/training-material//Introduction/tutorials/Introduction) reproducing a [*Cell* paper](https://www.ncbi.nlm.nih.gov/pubmed/22862943) using text & genomic region tools by [Clemens Blank](https://github.com/blankclemens).
-* [WAVES adaptor to interact with Galaxy remote platform](https://pypi.python.org/pypi/waves-galaxy-adaptors) (WAVES = [Web Application for Versatile and Easy online bioinformatic Services](http://waves.atgc-montpellier.fr/documentation/))
-* [When life sciences become data sciences](http://www.pr.uni-freiburg.de/pm/2017/pm.2017-01-27.11-en): The University of Freiburg offers Europe-wide infrastructure and service in Bioinformatics
+- [Galaxy Video - RNAseq Pipeline as Example ](https://www.youtube.com/watch?v=rVYzMWWRMN8), from [BioIT Core](https://www.youtube.com/channel/UCwFnw_YPygHs2toCXld7o9A)
+- Galaxy Training Network materials are now [automatically detected by ELIXIR TeSS](https://tess.oerc.ox.ac.uk/materials?content_provider=Galaxy+Training)
+- And there are new training materials on [metagenomics](https://galaxyproject.github.io/training-material//Metagenomics/tutorials/mothur-miseq-sop) (featuring mothur and other useful Galaxy tools) by [Saskia Hiltemann](https://github.com/shiltemann), and new [Galaxy introduction training material](https://galaxyproject.github.io/training-material//Introduction/tutorials/Introduction) reproducing a [*Cell* paper](https://www.ncbi.nlm.nih.gov/pubmed/22862943) using text & genomic region tools by [Clemens Blank](https://github.com/blankclemens).
+- [WAVES adaptor to interact with Galaxy remote platform](https://pypi.python.org/pypi/waves-galaxy-adaptors) (WAVES = [Web Application for Versatile and Easy online bioinformatic Services](http://waves.atgc-montpellier.fr/documentation/))
+- [When life sciences become data sciences](http://www.pr.uni-freiburg.de/pm/2017/pm.2017-01-27.11-en): The University of Freiburg offers Europe-wide infrastructure and service in Bioinformatics
 
 <!--
 * [Getting started with Galaxy on the cloud](/cloudman/getting-started/)

@@ -64,10 +64,10 @@ Due to the large size of this dataset, we have down-sampled it to only include r
 
 The data is structured in the following way:
 
- - There are two samples: G1E cells and megakaryocytes (`G1E` and `Mk`)
- - There are two *biological* replicates per sample: `R1` and `R2`
- - Each replicate has forward and reverse reads (`f` and `r`)
- - Thus, there are eight (8) fastq files
+ * There are two samples: G1E cells and megakaryocytes (`G1E` and `Mk`)
+ * There are two *biological* replicates per sample: `R1` and `R2`
+ * Each replicate has forward and reverse reads (`f` and `r`)
+ * Thus, there are eight (8) fastq files
 
 
 |      |
@@ -183,10 +183,10 @@ The quality score distributions we seen above for one sample are characteristic 
 
 Trimmomatic will produce four outputs as a result:
 
- - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 paired)`
- - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 paired)`
- - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 unpaired)`
- - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 uppaired)`
+ * `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 paired)`
+ * `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 paired)`
+ * `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 unpaired)`
+ * `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 uppaired)`
 
 The `unpaired` datasets we will no longer need in our analysis.
 
@@ -337,8 +337,8 @@ It will be easier down the line if we rename collections to make easier to ident
 
 To make sense of the reads, their positions within mouse genome must be determined. This process is known as aligning or 'mapping' the reads to the reference genome. In the case of a eukaryotic transcriptome, most reads originate from processed mRNAs lacking introns. Therefore, they cannot be simply mapped back to the genome as we normally do for reads derived from DNA sequences. Instead, the reads must be separated into two categories:
 
-- Reads contained within mature exons - these align perfectly to the reference genome
-- Reads that span splice junctions in the mature mRNA - these align with gaps to the reference genome
+* Reads contained within mature exons - these align perfectly to the reference genome
+* Reads that span splice junctions in the mature mRNA - these align with gaps to the reference genome
 
 Spliced mappers have been developed to efficiently map transcript-derived reads against genomes. [`HISAT`](https://ccb.jhu.edu/software/HISAT2/index.shtml) is an accurate and fast tool for mapping spliced reads to a genome. Another popular spliced aligner is [`TopHat`](https://ccb.jhu.edu/software/tophat/index.shtml), but we will be using `HISAT` in this tutorial. For more details on these tools see our introductory [RNAseq tutorial](/tutorials/rb-rnaseq/).
 
@@ -346,11 +346,11 @@ Spliced mappers have been developed to efficiently map transcript-derived reads 
 
 We will run HISAT with the following settings:
 
- - **Single end or paired reads?**: `Collection of paired reads`
- - **Source for the reference genome to align against**: `Use a built-in genome` > `Mouse (Mus Musculus): mm10`
- - **Spliced alignment parameters**: `Specify spliced alignment parameters`
- - **Specify strand-specific information**: `First Strand (R/RF)`
- - **Transcriptome assembly reporting**: `Report alignments tailored for transcript assemblers including StringTie.`
+ * **Single end or paired reads?**: `Collection of paired reads`
+ * **Source for the reference genome to align against**: `Use a built-in genome` > `Mouse (Mus Musculus): mm10`
+ * **Spliced alignment parameters**: `Specify spliced alignment parameters`
+ * **Specify strand-specific information**: `First Strand (R/RF)`
+ * **Transcriptome assembly reporting**: `Report alignments tailored for transcript assemblers including StringTie.`
 
 |       |
 |-------|
@@ -469,9 +469,9 @@ Transcript expression is estimated from read counts, and attempts are made to co
 
 [`DESeq2`](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) is a proven and widely used tool for differential gene expression analysis. It takes read counts produced by `FeatureCounts` and applies size factor normalization:
 
-- Computation for each gene of the geometric mean of read counts across all samples
-- Division of every gene count by the geometric mean
-- Use of the median of these ratios as sample's size factor for normalization
+* Computation for each gene of the geometric mean of read counts across all samples
+* Division of every gene count by the geometric mean
+* Use of the median of these ratios as sample's size factor for normalization
 
 |       |
 |-------|

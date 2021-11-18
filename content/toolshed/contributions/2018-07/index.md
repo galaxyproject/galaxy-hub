@@ -79,13 +79,13 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
    * [aurora_star_site](https://toolshed.g2.bx.psu.edu/view/mingchen0919/aurora_star_site):  ultrafast universal RNA-seq aligner.
 * *From [ubi.igc](https://toolshed.g2.bx.psu.edu/view/ubi.igc):*
   * [goenrichment](https://toolshed.g2.bx.psu.edu/view/ubi.igc/goenrichment):  GOEnrichment is a Java application that can be used to analyze gene product sets (e.g., from microarray or RNAseq experiments) for enriched GO terms. GOEnrichment is a tool for performing GO Enrichment Analysis of a set of gene products.  It requires as input:
-    - A Gene Ontology file in either OBO or OWL, and either the full GO or a GOSlim  -    An Annotation file, which can be in GAF format (from the Gene Ontology website), BLAST2GO format, or in tabular format (with gene ids in the first column and GO term ids in the second one)
-    - A Study Set file listing the gene ids in the study (one gene product per line) [NOTE: the gene ids in the Study Set file must match the gene ids in the Annotation file]
-    - Optionally, a Population Set listing the gene ids in the population (one gene product per line) [NOTE: if no Population Set file is provided, the population is assumed to consist of all genes listed in the Annotation file]
-    - A multiple test correction strategy ("Bonferroni", "Bonferroni-Holm", "Sidak", "SDA", or "Benjamini-Hochberg")
+    * A Gene Ontology file in either OBO or OWL, and either the full GO or a GOSlim  -    An Annotation file, which can be in GAF format (from the Gene Ontology website), BLAST2GO format, or in tabular format (with gene ids in the first column and GO term ids in the second one)
+    * A Study Set file listing the gene ids in the study (one gene product per line) [NOTE: the gene ids in the Study Set file must match the gene ids in the Annotation file]
+    * Optionally, a Population Set listing the gene ids in the population (one gene product per line) [NOTE: if no Population Set file is provided, the population is assumed to consist of all genes listed in the Annotation file]
+    * A multiple test correction strategy ("Bonferroni", "Bonferroni-Holm", "Sidak", "SDA", or "Benjamini-Hochberg")
     It produces as output, for each GO category (Molecular Function, Biological Process, and Cellular Component):
-    - A tabular Result file listing all non-redundant GO terms present in the study set, their frequencies and p-values
-    - A graph file in either PNG, SVG or TXT (list of relations)
+    * A tabular Result file listing all non-redundant GO terms present in the study set, their frequencies and p-values
+    * A graph file in either PNG, SVG or TXT (list of relations)
 
     Command Line Usage
 

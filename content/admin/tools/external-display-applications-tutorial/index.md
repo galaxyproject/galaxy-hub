@@ -41,9 +41,9 @@ Display applications are defined using XML.
 
 Lets suppose we want to write a display application which displays a BAM file at the UCSC genome browser. After familiarizing ourselves with the UCSC genome browser, we become aware of several pieces of information which are needed to display user data:
 
-- The data to be displayed is provided by giving a public URL to the UCSC genome browser.
-- 3 data files are needed to be provided by URL: 1) a custom track definition, 2) the BAM file and 3) the BAM index. With the following requirement: the index must have the same name as the BAM file, but have the additional suffix of '.bai'
-- The url to send data to UCSC is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;hgt.customText=URL_OF_CUSTOM_TRACK `
+* The data to be displayed is provided by giving a public URL to the UCSC genome browser.
+* 3 data files are needed to be provided by URL: 1) a custom track definition, 2) the BAM file and 3) the BAM index. With the following requirement: the index must have the same name as the BAM file, but have the additional suffix of '.bai'
+* The url to send data to UCSC is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;hgt.customText=URL_OF_CUSTOM_TRACK `
 
 This display application will require 3 parameters, corresponding to the 3 data files that are needed.
 
@@ -80,9 +80,9 @@ Now lets create a display application that can view interval (BED-like) files at
 
 Items needed for this display:
 
-- The data to be displayed is provided by giving a public URL to the UCSC genome browser.
-- 1 data file is needed to be provided by URL: 1) the result of converting the interval file to bedstrict
-- The url to send data to UCSC is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;position=CHR:START-END&amp;hgt.customText=URL_OF_STRICTBED_FILE `
+* The data to be displayed is provided by giving a public URL to the UCSC genome browser.
+* 1 data file is needed to be provided by URL: 1) the result of converting the interval file to bedstrict
+* The url to send data to UCSC is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;position=CHR:START-END&amp;hgt.customText=URL_OF_STRICTBED_FILE `
 
 This display application requires 2 parameters:
 
@@ -147,11 +147,11 @@ Create a display application that can view interval (BED-like) files at GeneTrac
 
 Items needed for this display:
 
-- 1 data file is needed to be provided: 1) A GeneTrack index binary datatype
-- The data to be displayed is provided by giving an encoded filename to the GeneTrack server, which has access to the appropriate filesystem.
-- A Hashkey, used as an identity check by GeneTrack
-- GeneTrack is able to launch peakcalling jobs at Galaxy and so also requires the dataset id and the Galaxy URL used to run jobs
-- The url to send data to GeneTrack is of the form: ` http://genetrack.g2.bx.psu.edu/galaxy?filename=ENCODED_FILENAME&amp;hashkey=HASHKEY&amp;input=DATASET_ID&amp;GALAXY_URL=POST_BACK_URL `
+* 1 data file is needed to be provided: 1) A GeneTrack index binary datatype
+* The data to be displayed is provided by giving an encoded filename to the GeneTrack server, which has access to the appropriate filesystem.
+* A Hashkey, used as an identity check by GeneTrack
+* GeneTrack is able to launch peakcalling jobs at Galaxy and so also requires the dataset id and the Galaxy URL used to run jobs
+* The url to send data to GeneTrack is of the form: ` http://genetrack.g2.bx.psu.edu/galaxy?filename=ENCODED_FILENAME&amp;hashkey=HASHKEY&amp;input=DATASET_ID&amp;GALAXY_URL=POST_BACK_URL `
 
 This display application requires 5 parameters:
 
