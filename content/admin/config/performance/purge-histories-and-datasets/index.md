@@ -19,9 +19,9 @@ Galaxy session and the previously created history. In this case, the next time
 the user visits the Galaxy home page and logs in, the history panel displays
 the history that meets all of the following criteria:
 
-*   is associated with their user ID  
-*   contains the latest update time of any of their previously stored histories  
-*   is not deleted ( the history.deleted column contains the value False )
+* is associated with their user ID  
+* contains the latest update time of any of their previously stored histories  
+* is not deleted ( the history.deleted column contains the value False )
 
 When the user performs an analysis, items are added to the history which are
 each associated with a dataset. These items are known as
@@ -66,12 +66,12 @@ There are 6 scripts included in the Galaxy distribution that can be used to
 clean up unwanted histories, libraries and datasets. There are located in the
 `GALAXY_ROOT/scripts/cleanup_datasets` directory and are named:
 
-*   delete_userless_histories.sh
-*   purge_histories.sh
-*   purge_datasets.sh
-*   purge_folders.sh
-*   purge_libraries.sh
-*   delete_datasets.sh
+* delete_userless_histories.sh
+* purge_histories.sh
+* purge_datasets.sh
+* purge_folders.sh
+* purge_libraries.sh
+* delete_datasets.sh
 
 Note that you should activate the Galaxy virtual environment before running the scripts, as it follows.
 
@@ -87,11 +87,11 @@ in desired parameter values. However, these scripts can be easily configured in
 cron to execute automatically. The order in which the scripts are executed will
 affect the outcome; for best results, the recommended running order is:
 
-1.  delete_userless_histories.sh
-2.  purge_histories.sh
-3.  purge_libraries.sh
-4.  purge_folders.sh
-5.  purge_datasets.sh
+1. delete_userless_histories.sh
+2. purge_histories.sh
+3. purge_libraries.sh
+4. purge_folders.sh
+5. purge_datasets.sh
 
 If it is desired that datasets be removed before their outer container
 (history, library/library folder) has been deleted, the `delete_datasets.sh`

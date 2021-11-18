@@ -13,7 +13,7 @@ The [May 2017 Galaxy News](/galaxy-updates/2017-05/) is out!
     * **[May 15: Early registration ends](/galaxy-updates/2017-05/#early-registration-closes-may-15)**
     * **[May 27: Poster and Demo submission closes](/galaxy-updates/2017-05/#poster-and-demo-submission-closes-may-27)**
     * We are pleased to welcome **[GenomeWeb](/galaxy-updates/2017-05/#genomeweb)** and **[BioTeam](/galaxy-updates/2017-05/#bioteam)** as returning GCC sponsors (and they both have offers for the Galaxy community)
-    *  Got a topic you want to discuss with the community?  **Create a [Birds of a Feather](/galaxy-updates/2017-05/#gcc2017-call-for-bofs-)**
+    * Got a topic you want to discuss with the community?  **Create a [Birds of a Feather](/galaxy-updates/2017-05/#gcc2017-call-for-bofs-)**
 * [Making Galaxy Work for You tutorial at ISMB/ECCB 2017](/galaxy-updates/2017-05/#galaxy-tutorial-ismb-eccb-2017)
 * [Gateways 2017 Call for Participation (1st deadline: June 5)](/galaxy-updates/2017-05/#gateways-2017-call-for-participation-1st-deadline-june-5-)
 * [All upcoming events](/galaxy-updates/2017-05/#all-upcoming-events)

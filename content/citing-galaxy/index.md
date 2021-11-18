@@ -54,7 +54,7 @@ Cite these papers if you want to cite a particular aspect of Galaxy.
 
 ## Cloud
 
-*  [Enis Afgan](/people/enis-afgan/), Andrew Lonie, [James Taylor](/people/james-taylor/), Nuwan Goonasekera.
+* [Enis Afgan](/people/enis-afgan/), Andrew Lonie, [James Taylor](/people/james-taylor/), Nuwan Goonasekera.
 **[CloudLaunch: Discover and deploy cloud applications](https://doi.org/10.1016/j.future.2018.04.037)**, *Future Generation Computer Systems*, 2018, doi:10.1016/j.future.2018.04.037
 
 ## Data Managers

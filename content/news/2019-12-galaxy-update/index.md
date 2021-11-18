@@ -18,7 +18,7 @@ The *December 2019 Galactic News* is out:
 * **[Training material and doc updates](/news/2019-12-galaxy-update/#doc-hub-and-training-updates)**
     * defining data types, citing GTN, Windows, account help, metatranscriptomics, Galaxy for everyone
 * **[Openings](/news/2019-12-galaxy-update/#whos-hiring)**
-    *  with 5 organizations in Denmark, France, US, US, Germany
+    * with 5 organizations in Denmark, France, US, US, Germany
 * **[Releases](#releases)**
     * Galaxy 19.09 is out
 * And **[other news too](/news/2019-12-galaxy-update/#other-news)**

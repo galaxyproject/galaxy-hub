@@ -3,7 +3,7 @@
 Galaxy is an open, web-based platform for accessible, reproducible, and transparent computational biomedical research.  
 
 - **Accessible:** Users without programming experience can easily specify parameters and run tools and workflows.  
--  **Reproducible:** Galaxy captures information so that any user can repeat and understand a complete computational analysis.
+- **Reproducible:** Galaxy captures information so that any user can repeat and understand a complete computational analysis.
 - **Transparent:** Users share and publish analyses via the web and create Pages, interactive, web-based documents that describe a complete analysis.  
 
 See the [Learn](/learn/) page for help on using Galaxy, and the [Admin](/admin/) page for help on setting up your own instance.

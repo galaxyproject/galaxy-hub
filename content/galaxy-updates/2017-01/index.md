@@ -218,7 +218,7 @@ Some highlights from December:
 Proteome Informatics, edited by Conrad Bessant. (2016), pp. 289-320, doi:10.1039/9781782626732-00289
 * [EuPathDB: the eukaryotic pathogen genomics database resource](http://nar.oxfordjournals.org/content/early/2016/11/29/nar.gkw1105.full)
    Aurrecoechea *et al.*, *Nucleic Acids Research* (29 November 2016), gkw1105, doi:10.1093/nar/gkw1105
-*  [GeneSeqToFamily: the Ensembl Compara GeneTrees pipeline as a Galaxy workflow](https://doi.org/10.1101/096529 )
+* [GeneSeqToFamily: the Ensembl Compara GeneTrees pipeline as a Galaxy workflow](https://doi.org/10.1101/096529 )
    Anil S. Thanki, Nicola Soranzo, Wilfried Haerty, Matthieu Muffato, Robert P. Davey, *bioRxiv* 096529; doi: https://doi.org/10.1101/096529
 * [Integration of EGA secure data access into Galaxy](https://f1000research.com/articles/5-2841/)
    Hoogstrate *et al.*, *F1000Research* 2016, 5(ELIXIR):2841 (doi: 10.12688/f1000research.10221.1)

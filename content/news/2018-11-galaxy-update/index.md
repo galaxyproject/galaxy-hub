@@ -16,7 +16,7 @@ The *November  2018 Galactic News* is here!  This is a summary of what is going 
 * [104 publications](#publications), including three highlighted ones
 * Two new [Galactic Blog entries](/news/2018-11-galaxy-update/#new-galactic-blog-posts)
 * [Open positions](/news/2018-11-galaxy-update/#whos-hiring) (at least 12 of them)
-*  [Doc, Hub, and Training Updates](/news/2018-11-galaxy-update/#doc-hub-and-training-updates)
+* [Doc, Hub, and Training Updates](/news/2018-11-galaxy-update/#doc-hub-and-training-updates)
 * [ToolShed contributions](/news/2018-11-galaxy-update/#toolshed-contributions)
 * [Releases](/news/2018-11-galaxy-update/#releases) Galaxy 18.09 is released!
 * And [other news](/news/2018-11-galaxy-update/#other-news) too

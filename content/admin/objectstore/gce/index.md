@@ -55,7 +55,7 @@ See the following figure:
     You may refer to the [roles documentation page](https://cloud.google.com/iam/docs/understanding-roles)
     for a complete list of roles and their permissions.
 
-6.  On the service account page, click on the `CREATE KEY` button,
+6. On the service account page, click on the `CREATE KEY` button,
 then choose `JSON`, and then click on the `CREATE` button, and then
 click on the `DONE` button.
 

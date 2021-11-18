@@ -285,7 +285,7 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
     * [Request a CLIMB account](https://bryn.climb.ac.uk/user/register/)
     * [Login](https://bryn.climb.ac.uk/)
 * *Eligibility:*
-    *  To register for a CLIMB group account, you must:
+    * To register for a CLIMB group account, you must:
     * Be a UK academic or public sector worker working on microbial genomics
     * Run your own research group (i.e. be a principal investigator)
     * Have a .ac.uk (or .gov.uk or .nhs.uk email account)

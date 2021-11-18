@@ -67,7 +67,7 @@ MD023: false # heading-start-left
 MD026: false # no-trailing-punctuation
 
 MD027: true # no-multiple-space-blockquote
-MD030: false # list-marker-space
+MD030: true # list-marker-space
 MD031: true # blanks-around-fences
 MD032: true # blanks-around-lists
 

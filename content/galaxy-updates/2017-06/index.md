@@ -369,7 +369,7 @@ The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/sou
 **Upload directly to a collection**
 
 * You can now bypass the history manipulation and upload your data straight into a collection for convenience.
-*  Learn more about collections and how to use them in a new [tutorial](https://galaxyproject.org/tutorials/collections/).
+* Learn more about collections and how to use them in a new [tutorial](https://galaxyproject.org/tutorials/collections/).
 
 We extend special thanks to the 64 [New Contributors](https://docs.galaxyproject.org/en/master/releases/17.05_announce.html#new-contributors) to Galaxy in the past year.
 

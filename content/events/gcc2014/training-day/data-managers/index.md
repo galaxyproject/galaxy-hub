@@ -276,7 +276,7 @@ galaxy_data_manager_data_path = tool-data
 
 **Create a *local* data manager to generate BWA indexes**
 
-*  [Documentation](/admin/tools/data-managers/how-to/define/)
+* [Documentation](/admin/tools/data-managers/how-to/define/)
 
 We will need to:
 

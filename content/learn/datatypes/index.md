@@ -72,10 +72,10 @@ data formats) is at `UCSC`'s genomewiki:
 For example, the first 100 bases of a chromosome would be given the
 coordinates: chromStart=0 and chromEnd=100.
 
-*   In a display application, a feature with these coordinates would overlap
+* In a display application, a feature with these coordinates would overlap
     chromosome bases 1-100. This overlap could be on either the (+) or (-)
     strand, depending on the strand assignment in column 6.
-*   In a computational algorithm, a feature with these coordinates would
+* In a computational algorithm, a feature with these coordinates would
     represent a chromosome base range with the mathematical notation of
     `[0,100)`, representing the 0-based numbered chromosome positions 0-99.
 
@@ -168,30 +168,30 @@ aaaaaaaaaaa ...........</pre>
 
 #### Galaxy Dbn (Dot-Bracket notation) rules:
 
-*   The first non-empty line is a header line: no comment lines are allowed.
-    *   A header line starts with a '`>`' symbol and continues with 0 or
+* The first non-empty line is a header line: no comment lines are allowed.
+    * A header line starts with a '`>`' symbol and continues with 0 or
             multiple symbols until the line ends.
-*   The second non-empty line is a sequence line.
-    *   A sequence line may only include chars that match the Fasta format
+* The second non-empty line is a sequence line.
+    * A sequence line may only include chars that match the Fasta format
             ([https://en.wikipedia.org/wiki/FASTA_format#Sequence_representation](https://en.wikipedia.org/wiki/FASTA_format#Sequence_representation))
             symbols for nucleotides: `ACGTURYKMSWBDHVN`, and may thus not include
             whitespaces.
-    *   A sequence line has no prefix and no suffix.
-    *   A sequence line is case insensitive.
-*   The third non-empty line is a structure (Dot-Bracket) line and only
+    * A sequence line has no prefix and no suffix.
+    * A sequence line is case insensitive.
+* The third non-empty line is a structure (Dot-Bracket) line and only
     describes the 2D structure of the sequence above it.
-    *   A structure line must consist of the following chars: '`.{}[]()`'.
-    *   A structure line must be of the same length as the sequence line, and
+    * A structure line must consist of the following chars: '`.{}[]()`'.
+    * A structure line must be of the same length as the sequence line, and
             each char represents the structure of the nucleotide above it.
-    *   A structure line has no prefix and no suffix.
-    *   A nucleotide pairs with only 1 or 0 other nucleotides.
-        *   In a structure line, the number of '`(`' symbols equals the number
+    * A structure line has no prefix and no suffix.
+    * A nucleotide pairs with only 1 or 0 other nucleotides.
+        * In a structure line, the number of '`(`' symbols equals the number
                 of '`)`' symbols, the number of '`[`' symbols equals the number of
                 '`]`' symbols and the number of '`{`' symbols equals the number of
                 '}' symbols.
-*   The format accepts multiple entries per file, given that each entry is
+* The format accepts multiple entries per file, given that each entry is
     provided as three lines: the header, sequence and structure line.
-*   Empty lines are allowed.
+* Empty lines are allowed.
 
 ## Fasta
 
@@ -210,33 +210,33 @@ tggcgcggt</pre>
 
 #### Galaxy FASTA format rules:
 
-*   the **identifier name** for a sequence is the first "word" after the ">"
+* the **identifier name** for a sequence is the first "word" after the ">"
     symbol in the title line
-*   no spaces are between the ">" symbol and the **identifier name**
-*   any description content in the title line after the first white space
+* no spaces are between the ">" symbol and the **identifier name**
+* any description content in the title line after the first white space
     (space, tab, etc.) is ignored by most tools
-*   **identifier names must be unique** for each sequence contained within any
+* **identifier names must be unique** for each sequence contained within any
     single `FASTA` dataset
-*   all **sequence lines** are wrapped to the same length (40-80 characters is
+* all **sequence lines** are wrapped to the same length (40-80 characters is
     recommended)
 
 #### Best practices:
 
-*   confirm the format of a `FASTA` dataset at the start of an analysis project
-*   if a `FASTA` dataset is used as a **Custom Reference Genome**, double check the formatting and fix it as needed. The tool **NormalizeFasta** can be used in most cases -- see the [Custom Reference Genome](/learn/custom-genomes/) FAQ for the how-to
-*   use the same *Target Fasta/Custom Genome* dataset for all steps to avoid technical processing errors
+* confirm the format of a `FASTA` dataset at the start of an analysis project
+* if a `FASTA` dataset is used as a **Custom Reference Genome**, double check the formatting and fix it as needed. The tool **NormalizeFasta** can be used in most cases -- see the [Custom Reference Genome](/learn/custom-genomes/) FAQ for the how-to
+* use the same *Target Fasta/Custom Genome* dataset for all steps to avoid technical processing errors
 
 #### Troubleshooting:
 
-*   Some tools will compensate for **inconsistent sequence line** wrapping, but
+* Some tools will compensate for **inconsistent sequence line** wrapping, but
     others will not. If a fasta dataset has inconsistent wrapping or is not
     wrapped, use the tool **`FASTA manipulation -> FASTA Width formatter`** to
     reformat.
-*   Including **blank lines** in a `FASTA` dataset will cause errors with many
+* Including **blank lines** in a `FASTA` dataset will cause errors with many
     tools. Use the tool **`Filter and Sort -> Select lines that match an
     expression`** with the options **"that: NOT Matching" and "the pattern:
     ^$"** to remove.
-*   Certain sources produce `FASTA` datasets with **non-unique identifier
+* Certain sources produce `FASTA` datasets with **non-unique identifier
     names**. Use the tool **`NGS: QC and manipulation -> Rename sequences`** to
     assign **unique identifier names**.
 
@@ -288,16 +288,16 @@ GAGTTCTCGTCGCCTGTAGGCACCATCAATCGTATG
 
 `GFF` lines have nine required fields that must be tab-separated.
 
-*   Fields are:
-*   seqname
-*   source
-*   feature
-*   start (1-based)
-*   end
-*   score
-*   strand
-*   frame
-*   group
+* Fields are:
+* seqname
+* source
+* feature
+* start (1-based)
+* end
+* score
+* strand
+* frame
+* group
 
 `GFF` format is also known as [General Feature Format 1](https://en.wikipedia.org/wiki/General_feature_format) or `GFF1`. The official specification is at
 [http://www.sanger.ac.uk/resources/software/gff/spec.html](http://www.sanger.ac.uk/resources/software/gff/spec.html)
@@ -312,16 +312,16 @@ specification: [http://genome.ucsc.edu/FAQ/FAQformat.html#format3](http://genome
 `GTF` lines have nine required fields that must be tab-separated.  (Similar to
 [GFF](#gff) format)
 
-*   Fields are:
-*   seqname
-*   source
-*   feature
-*   start (1-based)
-*   end
-*   score
-*   strand
-*   frame
-*   attribute
+* Fields are:
+* seqname
+* source
+* feature
+* start (1-based)
+* end
+* score
+* strand
+* frame
+* attribute
 
 `GTF` format is also known as [General Feature Format 2](https://en.wikipedia.org/wiki/General_feature_format) or `GFF2`. The official specification is at
 [http://www.sanger.ac.uk/resources/software/gff/spec.html](http://www.sanger.ac.uk/resources/software/gff/spec.html)
@@ -365,18 +365,18 @@ The official specification is at
 datasets are available from many sources and can sometimes be created from
 other datatypes.
 
-*   How to source Human, Mouse, and other common genome `GTF` reference annnotation data. [See Method 6 here.](/support/chrom-identifiers/#any-mixed-sourced-data)
-*   The public [Main](/main/) Galaxy instance contains tools to examine and
+* How to source Human, Mouse, and other common genome `GTF` reference annnotation data. [See Method 6 here.](/support/chrom-identifiers/#any-mixed-sourced-data)
+* The public [Main](/main/) Galaxy instance contains tools to examine and
     manipulate [GFF](#gff)/[GTF](#gtf) files
     under the tool group **Filter and Sort**.
-*   The public Galaxy instance at:
+* The public Galaxy instance at:
     [http://galaxy.raetschlab.org](http://galaxy.raetschlab.org) contains tools
     to examine [GFF](#gff) files or convert various formats to
     [GFF3](#gff3) under the tool group **GFF Toolkit**.
-*   The [Tool Shed](/toolshed/) contains a repository named `fml_gff3togtf`
+* The [Tool Shed](/toolshed/) contains a repository named `fml_gff3togtf`
     that houses a collection of tools to convert various formats into
     [GFF3](#gff3) format.
-*   New tools are continually added to the [Tool Shed](/toolshed/) - search
+* New tools are continually added to the [Tool Shed](/toolshed/) - search
     with a phase like "GFF" to see if others are available.
 
 ## Interval
@@ -470,14 +470,14 @@ avoided as input (as of mid-2013). A compressed version of this data is the
 
 Current VCF specification:
 
-*   [https://vcftools.github.io/specs.html](https://vcftools.github.io/specs.html)
+* [https://vcftools.github.io/specs.html](https://vcftools.github.io/specs.html)
 
 Alternate and Prior:
 
-*   [http://vcftools.sourceforge.net/specs.html](http://vcftools.sourceforge.net/specs.html)
-*   [http://en.wikipedia.org/wiki/Variant_Call_Format](http://en.wikipedia.org/wiki/Variant_Call_Format)
-*   [http://www.1000genomes.org/wiki/Analysis/vcf4.0](http://www.1000genomes.org/wiki/Analysis/vcf4.0)
-*   [http://www.1000genomes.org/wiki/Analysis/Variant%20Call%20Format/vcf-variant-call-format-version-41](http://www.1000genomes.org/wiki/Analysis/Variant%20Call%20Format/vcf-variant-call-format-version-41)
+* [http://vcftools.sourceforge.net/specs.html](http://vcftools.sourceforge.net/specs.html)
+* [http://en.wikipedia.org/wiki/Variant_Call_Format](http://en.wikipedia.org/wiki/Variant_Call_Format)
+* [http://www.1000genomes.org/wiki/Analysis/vcf4.0](http://www.1000genomes.org/wiki/Analysis/vcf4.0)
+* [http://www.1000genomes.org/wiki/Analysis/Variant%20Call%20Format/vcf-variant-call-format-version-41](http://www.1000genomes.org/wiki/Analysis/Variant%20Call%20Format/vcf-variant-call-format-version-41)
 
 ## Wig and bigWig
 
@@ -490,8 +490,8 @@ the related `.bigWig` format is recommended.
 This information and the `.wig` and `.bigWig` formats were developed at
 [UCSC](http://genome.ucsc.edu). The official specifications are at:
 
-*   [http://genome.ucsc.edu/goldenPath/help/wiggle.html](http://genome.ucsc.edu/goldenPath/help/wiggle.html)
-*   [https://genome.ucsc.edu/goldenPath/help/bigWig.html](https://genome.ucsc.edu/goldenPath/help/bigWig.html)
+* [http://genome.ucsc.edu/goldenPath/help/wiggle.html](http://genome.ucsc.edu/goldenPath/help/wiggle.html)
+* [https://genome.ucsc.edu/goldenPath/help/bigWig.html](https://genome.ucsc.edu/goldenPath/help/bigWig.html)
 
 ## Plain text
 

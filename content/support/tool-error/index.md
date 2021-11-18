@@ -112,9 +112,9 @@ It is possible that there was a server or cluster error. However, very often inp
 
 If after reviewing inputs (see section for that job falure reason below) and re-running, and the cause of the error remains unclear, try the following:
 
-*   Search prior questions/answers at [Galaxy Help](https://help.galaxyproject.org/) (current Q&A) or at [Galaxy Biostar](https://biostar.usegalaxy.org) (archived Q&A)
-*   Submit a novel question at [Galaxy Help](https://help.galaxyproject.org/)
-*   Report the novel issue in a bug report if working at [Galaxy Main](/main/) (http://usegalaxy.org) or you can reproduce the error there.
+* Search prior questions/answers at [Galaxy Help](https://help.galaxyproject.org/) (current Q&A) or at [Galaxy Biostar](https://biostar.usegalaxy.org) (archived Q&A)
+* Submit a novel question at [Galaxy Help](https://help.galaxyproject.org/)
+* Report the novel issue in a bug report if working at [Galaxy Main](/main/) (http://usegalaxy.org) or you can reproduce the error there.
 
 ### Type: exceeds memory allocation
 

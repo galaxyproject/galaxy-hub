@@ -40,7 +40,7 @@ The second day has five parallel track, and covers a full spectrum of topics of 
 * [Bioinformatics Training and Education with the Galaxy Training Network](http://sched.co/Drp9)
 * [Practical use of the Galaxy API command line tools](http://sched.co/Dn9n)
 * [Command line workflow management systems: Snakemake and Nextflow](http://sched.co/DnAi)
-*  [WDL, the Workflow Description Language](http://sched.co/DnAs)
+* [WDL, the Workflow Description Language](http://sched.co/DnAs)
 * [Community built analyses that run everywhere with bcbio](http://sched.co/Dn3v)
 * [Introduction to Common Workflow Language](http://sched.co/Dn9R)
 * [Conda and Containers](http://sched.co/Dn3G)

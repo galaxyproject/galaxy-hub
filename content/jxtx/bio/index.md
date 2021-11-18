@@ -77,21 +77,21 @@ Enis Afgan, Dannon Baker, Francesca Chiaromonte, Dave Clements, Nate Coraor, Jer
 
 April 5, 2020
 
-1.    Gibbs, R. A. et al. Genome sequence of the Brown Norway rat yields insights into mammalian evolution. Nature 428, 493–521 (2004).
-2.    Kolbe, D. et al. Regulatory potential scores from genome-wide three-way alignments of human, mouse, and rat. Genome Res. 14, 700–707 (2004).
-3.    Hillier, L. W. et al. Sequence and comparative analysis of the chicken genome provide unique perspectives on vertebrate evolution. Nature 423, (2014).
-4.    Taylor, J. Clues to function in gene deserts. Trends Biotechnol. 23, 269–271 (2005).
-5.    King, D. C. et al. Evaluation of regulatory potential and conservation scores for detecting cis-regulatory modules in aligned mammalian genome sequences. Genome Res. 15, 1051–1060 (2005).
-6.    Chimpanzee Sequencing and Analysis Consortium. Initial sequence of the chimpanzee genome and comparison with the human genome. Nature 437, 69–87 (2005).
-7.    Hillier, L. W. et al. Generation and annotation of the DNA sequences of human chromosomes 2 and 4. Nature 434, 724–731 (2005).
-8.    Giardine, B. et al. Galaxy: A platform for interactive large-scale genome analysis. Genome Res. 15, (2005).
-9.    Wang, H. et al. Experimental validation of predicted mammalian erythroid cis-regulatory modules. Genome Res. 16, 1480–1492 (2006).
-10.    Taylor, J., Tyekucheva, S., Zody, M., Chiaromonte, F. & Makova, K. D. Strong and weak male mutation bias at different sites in the primate genomes: insights from the human-chimpanzee comparison. Mol. Biol. Evol. 23, 565–573 (2006).
-11.    Taylor, J. et al. ESPERR: learning strong and weak signals in genomic sequence alignments to identify functional elements. Genome Res. 16, 1596–1604 (2006).
-12.    Harris, B. lastz. (Github).
-13.    Giardine, B. et al. GALA, a database for genomic sequence alignments and annotations. Genome Res. 13, 732–741 (2003).
-14.    Afgan, E. et al. Galaxy CloudMan: delivering cloud compute clusters. BMC Bioinformatics 11 Suppl 1, S4 (2010).
-15.    Afgan, E. et al. Harnessing cloud computing with Galaxy Cloud. Nat. Biotechnol. 29, 972–974 (2011).
-16.    Grüning, B. et al. Practical Computational Reproducibility in the Life Sciences. Cell Syst 6, 631–635 (2018).
-17.    Batut, B. et al. Community-Driven Data Analysis Training for Biology. Cell Syst 6, 752–758.e1 (2018).
+1. Gibbs, R. A. et al. Genome sequence of the Brown Norway rat yields insights into mammalian evolution. Nature 428, 493–521 (2004).
+2. Kolbe, D. et al. Regulatory potential scores from genome-wide three-way alignments of human, mouse, and rat. Genome Res. 14, 700–707 (2004).
+3. Hillier, L. W. et al. Sequence and comparative analysis of the chicken genome provide unique perspectives on vertebrate evolution. Nature 423, (2014).
+4. Taylor, J. Clues to function in gene deserts. Trends Biotechnol. 23, 269–271 (2005).
+5. King, D. C. et al. Evaluation of regulatory potential and conservation scores for detecting cis-regulatory modules in aligned mammalian genome sequences. Genome Res. 15, 1051–1060 (2005).
+6. Chimpanzee Sequencing and Analysis Consortium. Initial sequence of the chimpanzee genome and comparison with the human genome. Nature 437, 69–87 (2005).
+7. Hillier, L. W. et al. Generation and annotation of the DNA sequences of human chromosomes 2 and 4. Nature 434, 724–731 (2005).
+8. Giardine, B. et al. Galaxy: A platform for interactive large-scale genome analysis. Genome Res. 15, (2005).
+9. Wang, H. et al. Experimental validation of predicted mammalian erythroid cis-regulatory modules. Genome Res. 16, 1480–1492 (2006).
+10. Taylor, J., Tyekucheva, S., Zody, M., Chiaromonte, F. & Makova, K. D. Strong and weak male mutation bias at different sites in the primate genomes: insights from the human-chimpanzee comparison. Mol. Biol. Evol. 23, 565–573 (2006).
+11. Taylor, J. et al. ESPERR: learning strong and weak signals in genomic sequence alignments to identify functional elements. Genome Res. 16, 1596–1604 (2006).
+12. Harris, B. lastz. (Github).
+13. Giardine, B. et al. GALA, a database for genomic sequence alignments and annotations. Genome Res. 13, 732–741 (2003).
+14. Afgan, E. et al. Galaxy CloudMan: delivering cloud compute clusters. BMC Bioinformatics 11 Suppl 1, S4 (2010).
+15. Afgan, E. et al. Harnessing cloud computing with Galaxy Cloud. Nat. Biotechnol. 29, 972–974 (2011).
+16. Grüning, B. et al. Practical Computational Reproducibility in the Life Sciences. Cell Syst 6, 631–635 (2018).
+17. Batut, B. et al. Community-Driven Data Analysis Training for Biology. Cell Syst 6, 752–758.e1 (2018).
 

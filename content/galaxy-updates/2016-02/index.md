@@ -339,7 +339,7 @@ And there is also a new tutorial, [Running Du Novo interactively from Galaxy: An
 [UseGalaxy.org](https://usegalaxy.org) now supports *interactive guided tours* and two introductory tours are available:
 
 1. [User Interface Introduction](https://usegalaxy.org/?tour_id=core.galaxy_ui)<br />
-2.  [Galaxy Histories Introduction](https://usegalaxy.org/?tour_id=core.history)
+2. [Galaxy Histories Introduction](https://usegalaxy.org/?tour_id=core.history)
 
 Interactive tours are a way to walk through Galaxy, following a set of steps to accomplish a task or learn a feature.  The list of supported interactive tours on any server can be found in the *Help* menu.  Support for interactive tours will be included in the 16.01 Galaxy release.  Look for more tours in future releases.
 

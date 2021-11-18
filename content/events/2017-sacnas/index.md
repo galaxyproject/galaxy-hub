@@ -50,7 +50,7 @@ The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http
 Ever find yourself manually repeating coding tasks?  Do you feel like there should be an easier way to go about doing data analysis and visualization?  Join us for a [Software](https://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/) session to learn how to
 
 1. efficiently work in the unix shell for file manipulation and
-1.  use Python in a sample workflow of data analysis from loading to visualization.
+1. use Python in a sample workflow of data analysis from loading to visualization.
 
 Bring your laptop for a series of hands-on exercises.
 

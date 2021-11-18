@@ -564,7 +564,7 @@ A number of tutorials have already created videos using the new text to speech c
 
 - [Functionally Assembled Terrestrial Ecosystem Simulator (FATES)](https://training.galaxyproject.org/training-material/topics/climate/videos/#video-climate-fates), added by Anne Fouilloux
 - [Genome Annotation with Prokka](https://training.galaxyproject.org/training-material/topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka), added by Anthony Bretaudeau
--  [An introduction to scRNA-seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/videos/#video-transcriptomics-scrna-intro), added by Mehmet Tekman
+- [An introduction to scRNA-seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/videos/#video-transcriptomics-scrna-intro), added by Mehmet Tekman
 - **[Thirteen videos on Galaxy Server Administration](https://training.galaxyproject.org/training-material/topics/admin/videos/)**, created by the 2021 Galaxy Admin Training instructors.
 - [ Scripting Galaxy using the API and BioBlend](https://training.galaxyproject.org/training-material/topics/dev/videos/#video-dev-bioblend-api), added by Nicola Soranzo
 
