@@ -237,6 +237,7 @@ Two new [public Galaxy server](/use/) was added to the published list in Septemb
 [GalaxEast](http://www.galaxeast.fr) aims at providing a large range of bioinformatics tools for the analysis of various types of Omics data. It supports reproducible computational research by providing an environment for performing and recording bioinformatics analyses.
 
 The [GalaxEast](http://www.galaxeast.fr) project has the following main objectives:
+
 * Provide the academic scientific community with an open and powerful Galaxy instance with a guaranteed availability. The platform offers access to cutting-edge and up-to-date tools for Omics data analysis with help and support.
 * Propose innovative developments and new helpful tools packaged for Galaxy (available in the GalaxEast toolshed)
 * Promote the packaging of new developments for Galaxy (through wrappers and/or toolshed packages).

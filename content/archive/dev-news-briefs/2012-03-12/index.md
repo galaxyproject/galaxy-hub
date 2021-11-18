@@ -53,6 +53,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
 # New & Updated Tools
 
 *Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/) *for these and other recently updated Tool Dependencies. Please see * [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) * for additional new tools.*
+
 * **RNA-Seq Tools**
   * Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0
     * Requires helper script: **gtf_to_sam** version 1.3.0
@@ -67,6 +68,7 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
 # Galaxy Track Browser (GTB)
 
 **[Trackster](/learn/visualization/)**
+
 * *New:*
   * Enable visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) peak tracks (see graphic below)
   * Dynamic filtering of read tracks using quality scores
@@ -129,6 +131,7 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 # CloudMan
 
 **[CloudMan](/cloudman/)**
+
 * A larger tools volume (10GB vs old 2GB) is now the default for any new [CloudMan](/cloudman/) cluster making it easier to customize your Galaxy Cloud instances
 * A [preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py) exists within [CloudMan](/cloudman/) (thanks to Mattias de Hollander)
 * Please continue to use AMI **ami-da58aab3** for Galaxy Cloud clusters, as listed on [usegalaxy.org/cloud](/cloudman/). There is another AMI dated from Feb 26, 2012 that was not created by the Galaxy Team and is not supported by us.
@@ -137,6 +140,7 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 
 **[galaxy-cental](http://bitbucket.org/galaxy/galaxy-central/src/)**,
 **[galaxy-dist](http://bitbucket.org/galaxy/galaxy-dist/src/)**
+
 * Parameterize per-tool job runners so that parameter name/value pairs can be used to define multiple runners per tool
   * Documentation is in [universe_wsgi.ini.sample](http://bitbucket.org/galaxy/galaxy-central/src/3c32b4a448c6/universe_wsgi.ini.sample)
   * Add 'params' column to jobs table to store job parameters

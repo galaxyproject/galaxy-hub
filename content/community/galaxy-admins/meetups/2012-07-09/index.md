@@ -27,6 +27,7 @@ The group's first conference call was held on Monday July 9, at 9am Central US t
 ### Generic Call Agenda
 
 Ann proposed this generic agenda for future calls
+
 * 20 min: Galaxy in Our Town.
     Presentation from a local galaxy institution on what they are doing or a problem they are troubleshooting - or have someone walk through their use cases and pain points.
 * 20 min: Galaxy Today/Tomorrow.

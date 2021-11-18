@@ -69,6 +69,7 @@ The *navigator* provides a full view of your workflow in a condensed format. Sli
 <div class='right'><img src="/images/learn/workflow_editor_menu_detail.png" alt="workflow editor menu detail" width="300" /></div>
 
 Accessed by clicking on the gear icon on the right side of the center *Workflow Canvas* upper bar, the *workflow editor menu* is for global editor actions. (annotated *orange* in the [Editor Layout](/learn/advanced-workflow/basic-editing/#editor-layout) above)
+
 * **Save** - Be sure to save your changes before leaving the editor or they will be lost! If you do try to navigate away from the page without saving, you will be reminded with a pop-up warning (see *Close* below) - choose *Save Changes* to apply modifications to the workflow.
 * **Run** - After saving, you can choose to start a run with your new workflow directly from the editor.
 * **Edit Attributes** - Edit the name of your workflow and add in a description. Both will be displayed with the workflow is executed and if published (a *Sharing* option), part of the information listed on the *Published Workflows* page.
@@ -119,6 +120,7 @@ A *toolbox* on the *workflow canvas* represents a *tool* action or *job* perform
 ### Right Details Panel
 
 The *details* panel is where tool settings are made and adjusted for the selected *[toolbox](/learn/advanced-workflow/basic-editing/#toolbox-details)* on the *workflow canvas*. Some settings are the same as those made when a *tool* is executed from a history (the settings on the *tool form*). Others are workflow-specific options. (annotated right top *red* panel and underneath *purple* in the [Editor Layout](/learn/advanced-workflow/basic-editing/#editor-layout) above and *toolbox detail "B-1 & B-2"* below)
+
 * **tool: tool name** - The exact name of the *tool* being edited. Same as in the *toolbox*.
 * **1: version** - The Galaxy *wrapper version* for the tool. Note that this is __not__ the same as the underlying *tool executable* version (both are available on the ![](/images/icons/HistoryInfo.png) *info form* for a completed job).
 * **2: tool description** - Short portion of the tool description or actions. Same as in the *toolbox*.
@@ -136,6 +138,7 @@ The *details* panel is where tool settings are made and adjusted for the selecte
 ### Adding Inputs
 
 **Inputs** in your workflow are a special class of object. When a workflow is *run*, the *inputs* are selected by the user from datasets in the current history. The generation of original inputs cannot be added to a workflow - through the use of "Get Data" tool functions or otherwise. Add *input* datasets as boxes to your *workflow* canvas the same way as you do tools:
+
 * click on *input dataset* in the far left *Tools* panel (scroll to bottom to locate)
 * once on your *canvas*, drag a *noodle* from the *output* connection over to the downstream tool's *input* connection.
 * **save** your work!
@@ -151,6 +154,7 @@ adding and connecting *inputs*
 ### Noodle-y Connections
 
 *Noodles* represents the flow of data from one step in a workflow analysis to the next. These will link input-output connections with compatible datatypes.
+
 * When dragging a *noodle* from a tool's *output connection*, tools with available *input connections* will highlight as *green* on the *workflow canvas*. See the graphic above in the section [Adding Inputs](/learn/advanced-workflow/basic-editing/#adding-inputs) for an example.
 * When you want to remove a connection, hover the pointer over the *noodle* until an "X" appears. Click on it to delete the *noodle*.
 * Some tools have more than one *input connection*, some have more that one *output connection*. Each may be of a different *[datatype](/learn/datatypes/)*. Confused? Click on the *toolbox* then review that tool's help at the bottom of the far right *Details* panel.
@@ -174,6 +178,7 @@ A good label may include:
 * the *exact name* of a dataset. When? If it is provided in a library or Page (as a shared history with datasets).
 
 To label an input:
+
 * click on the *input* box on the *workflow canvas* to bring it up in the far right *Details* panel
 * type in the new name that you would like to be displayed to the user.
 * include extra annotation if the dataset needs to be created in a specific way or has other important details
@@ -184,6 +189,7 @@ To label an input:
 ### Hidden Datasets
 
 *Hidden* datasets are a useful way to avoid displaying intermediate datasets from longer workflows in histories. The general usage is to only display final outputs. To do this:
+
 * click on this toggle on output datasets - any not set will be hidden.
 * by default all datasets are displayed, even with the toggle unset.
 * hover over the *hide toggle* to view the help pop-up, shown below.
@@ -196,6 +202,7 @@ To label an input:
 
 A *tool* may require a specific *input* **[datatype](/learn/datatypes/)** in order for it to be used correctly. In some cases, you will find out about this after extracting a workflow, viewing it, and noticing a missing *noodle* connection. Other times it will come up during creating or editing when a downstream *input connector* is not accepting a *noodle* from an upstream tool's *output connector* (not turning green). This can indicate a true data incompatibility or a formatting problem. But sometimes just reassigning the **[datatype](/learn/datatypes/)** for the output in the upstream tool is enough to resolve the issue.
 Example:
+
 * calculations were performed on a [bed](/learn/datatypes/#bed) file adding extra fields
 * the result data was then processed by the *Cut* tool to create an [interval](/learn/datatypes/#interval) dataset for further analysis
 * however, the *Cut* tool always breaks metadata column assignments, resulting in a [tabular](/learn/datatypes/#tabular_28tab_delimited29) *datatype* assignment

@@ -93,6 +93,7 @@ If you attend both workshops and plan to eat in the area, there are many choices
 ## Galaxy for Biologists
 
 **9:00-12:00**
+
 * Basic concepts: interface, histories, workflows
 * Analysis of NGS data: polymorphism discovery, ChIP-seq. RNA-seq
 * Using your own instance on the Cloud
@@ -103,6 +104,7 @@ If you attend both workshops and plan to eat in the area, there are many choices
 *[Slides from Nate Coraor](https://depot.galaxyproject.org/hub/attachments/documents/presentations/TourDeFrance2012Coraor.pdf)*
 
 **14:00-17:00**
+
 * Galaxy architecture
 * Wrapping tools for Galaxy system, Galaxy Toolshed
 * API

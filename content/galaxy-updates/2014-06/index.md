@@ -321,6 +321,7 @@ The most recent version of CloudMan was [released in January 2014](/news/cloudma
 <br /><br />
 
 One new deployment description was added in May:
+
 * deepTools
 
 The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them.

@@ -11,6 +11,7 @@ date: "2012-11-14"
 </div>
 
 **Highlights:**
+
 * **NGS: Picard (beta)** tools have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.
 * The **Galaxy Project** is now using *[Sphinx](http://sphinx-doc.org/) Python* hosted at [Read the Docs](http://readthedocs.org) to document the **[galaxy-central](http://galaxy-central.readthedocs.org)** and **[galaxy-dist](http://galaxy-dist.readthedocs.org)** code base. That's a peek on the right &rarr;
 * The **[Intergalactic Utilities Commission](http://wiki.g2.bx.psu.edu/ReviewingToolShedRepositories)** will soon begin reviewing repositories in the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)** (better repos, better tools)

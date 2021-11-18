@@ -23,6 +23,7 @@ Hackathons are driven by participants.  Participants propose and coalesce around
 # Who Should Attend?
 
 This event is for you if you
+
 * write code
 * are passionate about improving Galaxy and/or Cloudman
 * know something about Galaxy and/or Cloudman internals

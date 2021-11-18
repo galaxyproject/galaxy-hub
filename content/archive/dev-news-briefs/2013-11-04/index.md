@@ -113,6 +113,7 @@ Third, the tools can be completely disabled by removing them from the tool confi
 
 1. *Tophat2*: Added an `align_summary` output report. https://trello.com/c/72XqqDQ4
 1. General:
+
   * Created a shared tool and parameter base on both the client and server side. https://trello.com/c/QTCrzr85
   * Dictify mixin cleanup. https://trello.com/c/P5fog600
   * Update to latest select2. https://trello.com/c[/NaGczwr](/archive/dev-news-briefs/2013-11-04/NaGczwr/)T
@@ -176,10 +177,12 @@ Third, the tools can be completely disabled by removing them from the tool confi
 
 1. Björn Grüning contributed a method to implement the ability to change the tool-panel as user preference ( `Dynamic Toolbox Filtering` ). [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool/diff). This was a frequently requested feature by the community and full documentation on this can be found here [UserDefinedToolboxFilters](/user-defined-toolbox-filters/). https://trello.com/c/Xl7CZFMd
 1. Björn Grüning also contributed several extensions allowing developers to utilize new actions simplifying various tool shed dependency definition idioms:
+
   * `make_install` action.  [#217](https://bitbucket.org/galaxy/galaxy-central/pull-request/217/implementation-of-the-make_install-action)
   * `autoconf` action. [#218](https://bitbucket.org/galaxy/galaxy-central/pull-request/218/implementation-of-the-configure-make-make)
   * `setup_r_environment` action. [#219](https://bitbucket.org/galaxy/galaxy-central/pull-request/219/implementation-of-the-a-r_environment-to)
     Further extensions enhancing this last tag and a corresponding setup_ruby_environment tag from Björn will be forthcoming in the next release.
+
 1. Additionally, Björn Grüning contributed other tool shed and tool related enhancements enhancements: [#205](https://bitbucket.org/galaxy/galaxy-central/pull-request/205/if-you-have-a-repeat-tag-and-want-to-get), [#216](https://bitbucket.org/galaxy/galaxy-central/pull-request/216/move-the-evaluate_template-function-to-the), and [#239](https://bitbucket.org/galaxy/galaxy-central/pull-request/239/add-the-value-namecol-in-a-given-bed-file)
 1. Andrew Warren contributed an API method allowing coping datasets between histories as well as support for more secure e-mail settings. [#199](https://bitbucket.org/galaxy/galaxy-central/pull-request/199/api-enable-copying-from-one-history-to) and [#198](https://bitbucket.org/galaxy/galaxy-central/pull-request/198/adding-ssl-support-for-smtp-email/diff).
 1. Nicola Soranzo contributed small fixes for various tools as well as enhancements for customizing and localizing data and time display in various parts of Galaxy. [#222](https://bitbucket.org/galaxy/galaxy-central/pull-request/234/bug-fixes-for-3-tools-rebased-222) and [#211](https://bitbucket.org/galaxy/galaxy-central/pull-request/211/display-also-creation-time-on-dataset-info).
@@ -207,6 +210,7 @@ See above: [New Tool Migrations](/archive/dev-news-briefs/2013-11-04/#new-tool-m
 ## Galaxy and Tool Shed Functional Test Framework Fixes and Enhancements
 
 Significant work is continuing with the [Galaxy Tool Shed automated test framework](http://wiki.galaxyproject.org/AutomatedToolTests), including the following fixes and enhancements.
+
 1. Tool dependency binaries can now optionally be retained across test runs.  Tool dependencies are retained by default, shortening the time it takes to run the entire test framework.  Tool dependencies that result in installation errors are explicitly uninstalled and reinstalled.
 1. The *job walltime* has been set to 10 minutes to eiliminate process ( `buildbot`) timeouts and to shorten the time it takes to run the entire test framework.
 1. The scenario where a repository installs correctly, but it depends on another repository with a tool dependency that is in an error state is now properly handled.
@@ -214,6 +218,7 @@ Significant work is continuing with the [Galaxy Tool Shed automated test framewo
 ## Tool Shed RESTful API Enhancements
 
 The [Tool Shed API](http://wiki.galaxyproject.org/ToolShedApi#The_Tool_Shed_API) has some new features.
+
 1. `GET /api/repository_ids_for_setting_metadata ` : Returns a list of repository ids ordered for setting metadata.
 1. `POST /api/reset_metadata_on_repositories/{payload} ` : Resets all metadata on specified repositories in the Tool Shed in an "orderly fashion".  The order in which metadata is reset is repositories of type ` TOOL_DEPENDENCY_DEFINITION ` first followed by repositories of type ` UNRESTRICTED `.
 1. `POST /api/reset_metadata_on_repository/{payload} ` : Resets all metadata on a specified repository in the Tool Shed.
@@ -221,8 +226,11 @@ The [Tool Shed API](http://wiki.galaxyproject.org/ToolShedApi#The_Tool_Shed_API)
 ## Galaxy RESTful API Enhancements for the Tool Shed
 
 The [Galaxy API for the Tool Shed](http://wiki.galaxyproject.org/ToolShedApi#Galaxy_API_features_for_the_Tool_Shed) has some new features.
+
 1. `GET /api/tool_shed_repositories/{encoded_tool_shed_repository_id}/exported_workflows ` : Return a list of dictionaries containing information about the exported workflows contained within a Tool Shed repository.
+
 * `POST /api/tool_shed_repositories/import_workflow/{payload} ` : Import the specified exported workflow contained in the specified installed Tool Shed repository into Galaxy.
+
 1. `POST /api/tool_shed_repositories/import_workflows ` : Import all of the exported workflows contained in the specified installed Tool Shed repository into Galaxy.
 1. `POST /api/tool_shed_repositories/reset_metadata_on_installed_repositories ` : Resets all metadata on all repositories installed into Galaxy in an orderly fashion where installed repositories of type `TOOL_DEPENDENCY_DEFINITION` are processed before installed repositories of type `UNRESTRICTED`.
 
@@ -233,6 +241,7 @@ This release includes several fixes for rendering repository `README` text files
 ## Tool Dependency Installation Recipe Enhancements
 
 Several beneficial enhancements have bee added to the support for [defining tool dependencies within a Tool Shed repository](http://wiki.galaxyproject.org/ToolShedToolFeatures), including the ability to define recipes for downloading pre-compiled dependency binaries for selected operating system environments that are automatically determined at installation time rather than always requiring source code to be installed and compiled.  This feature is supported by the introduction of a new ` <actions_group> ` tag and support for filtering contained ` <actions> ` tags by architecture and operating system.   Other enhancements include the following.
+
 1. The **make_directory** action has been enhanced to create the specified directory under the current working directory if it's value is not prefixed with ` $INSTALL_DIR `.
 1. The **move_file** action has been enhanced to optionally include a new `rename_to attribute`.
 1. Support for handling downloaded archives of files has been enhanced to extract files and into a specified location based on the internal directory structure of the archive.
@@ -254,6 +263,7 @@ Several beneficial enhancements have bee added to the support for [defining tool
 1. The `Manage installed tool shed repositories page` now displays installed repositories ordered by `tool_shed, name, owner` and `revision`.
 1. Support for [repairing an installed repository](http://wiki.galaxyproject.org/RepairingInstalledRepositories) has been enhanced to handle repairing repository dependencies and tool dependencies that are not only in an error state, but may also have one of the "installing" state values. This feature will now properly handle dependencies that are stuck in one of these installing states for some reason.  Existing system processes are not automatically killed (if they happen to exist), but warning messages are displayed.
 1. The [Get Repository Updates](http://wiki.galaxyproject.org/UpdatingInstalledRepositories) feature for installed Tool Shed repositories has been enhanced to support retrieval any type of status from the Tool Shed for the specified repository.  The current list of status categories is:
+
   * revision updates available
   * revision upgrades available
   * the revision is the latest installable revision

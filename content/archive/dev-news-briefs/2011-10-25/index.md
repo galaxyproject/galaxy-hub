@@ -48,12 +48,15 @@ date: 2011-10-25
 * Overview provides chromosome-wide view of a single track independent of primary, interactive view.
 
 <a href='http://usegalaxy.org/visualization/list_published/'><img src="/images/news-graphics/2011_10_25_trackster-overview.png" alt="trackster-overview" width="600px" /></a>
+
 * Make it possible to set features' transparency based on attribute values.
 
 <a href='http://usegalaxy.org/visualization/list_published/'><img src="/images/news-graphics/2011_10_25_trackster-transparency.png" alt="trackster-tranparency" width="600px" /></a>
+
 * Introduce track groups, which can be used to cluster and move tracks together. Running tools places new tracks in groups.
 
 <a href='http://usegalaxy.org/visualization/list_published/'><img src="/images/news-graphics/2011_10_25_trackster-groups.png" alt="trackster-groups" width="600" /></a>
+
 * Enable tools that produce BED output to be used in visual analytics framework and enable GOPS cluster tool to work in Trackster.
 * Use Fasta datasets to specify custom build visualizations.
 

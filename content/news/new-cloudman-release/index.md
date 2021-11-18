@@ -5,12 +5,14 @@ date: "2012-06-13"
 We just released an update to CloudMan. CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 This update brings a large number of updates and new features, the most prominent ones being:
+
 * Support for [OpenStack](/cloudman/openstack/) and [OpenNebula](/cloudman/open-nebula/) cloud middleware, allowing easy deployment on private, OpenStack or OpenNebula based clouds (see [CloudBioLinux](https://github.com/chapmanb/cloudbiolinux) and [mi-deployment](https://bitbucket.org/afgane/mi-deployment/) projects for an easy way to deploy CloudMan on any machine image)
 * Start your instance via biocloudcentral.org on any supported cloud by simply filling out a 4-field web form. See [this screencast](http://www.youtube.com/watch?v=AKu_CbbgEj0) for an example of using it with the [Australian National Research Cloud, NeCTAR](http://nectar.org.au/research-cloud)
 * Support for [Amazon Spot instances](http://aws.amazon.com/ec2/spot-instances/), giving you an opportunity to reduce cost of running your cluster on AWS
 * Ability to mount any S3 bucket as a local file system via the Admin page, giving you instant and easy file-based access to any of your buckets or public buckets, such as the [1000genomes](http://aws.amazon.com/datasets/4383) one
 
 Other notable enhancements and features:
+
 * Added the ability to disable running of jobs on the master instance (via the Admin page), allowing you to (1) run a smaller instance type longer for the same cost and (2) not see the responsiveness of the master instance degrade with jobs being submitted
 * Significantly enhanced the details pane for individual worker nodes on the main interface, adding support for terminating and restarting individual nodes
 * Added MPI and SMP parallel environments to SGE; do `qconf -spl` to see the list and `qsub -pe <pe_name> <slots>` to use it for your cluster jobs

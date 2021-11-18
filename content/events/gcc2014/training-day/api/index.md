@@ -14,6 +14,7 @@ title: "Galaxy Automation: Using the API"
 [https://depot.galaxyproject.org/hub/attachments/The Galaxy API ](https://depot.galaxyproject.org/hub/attachments/The Galaxy API )(GCC2014 TD API).pdf|Slides]]
 
 Anaylsis Basics Exercises:
+
 * [Tarball of exercises (and data)](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/api/api-scripts.exercises.tar.gz)
 * [Tarball of completed exercises (and data)](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/training-day/api/api-scripts.completed.tar.gz)
 

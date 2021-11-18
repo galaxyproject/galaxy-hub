@@ -475,6 +475,7 @@ To verify the essential functions of a Galaxy instance are being provided correc
 With respect to the first aspect of assessing whether the basic functions of Galaxy are working correctly from an end-user perspective, functional testing was performed via the browser automation tool Selenium, which can mimic the exact actions of an end-user interacting with the application. We then extended these tests to use the Selenium Grid, which converted the functional test into a performance test by running the tests in parallel, thus simulating multiple concurrent users.
 
 This presentation will describe how these two aspects were used to determine the scalability characteristics of Galaxy on the cloud. The presentation will discuss the following:
+
 * Describe how the same infrastructure is reused for testing the functional and scalability characteristics of Galaxy, using CloudMan;
 * Analyse how a number of variables, such as the number of users, machine size and storage option, affects scalability;
 * Provide insights into how Galaxy scales on the cloud, and what factors to consider when deploying on your own infrastructure;

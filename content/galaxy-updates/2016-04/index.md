@@ -428,10 +428,12 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <br />
 
 Two new [Community Log entries](/blog/) were added in March
+
 * **[Testing connexion between Galaxy and iRODS](https://urgi.versailles.inra.fr/content/download/5169/39254/file/galaxy_irods.pdf)** by Mikael Loaec and Olivier Inizan
 * **[Setting up Galaxy with TORQUE on AWS](https://gist.github.com/kantale/b7fecd62da22a1523aa2)** by [Alex Kanterakis](https://gist.github.com/kantale)
 
 As were two and two new [training organizations](https://training.galaxyproject.org/).
+
 * **EMBL-ABR** is a distributed national research infrastructure providing bioinformatics support to life science researchers in Australia.
 * **GenoToul bioinformatics platform, Sigenae, NED (GenPhySE) and TWB** offers a [catalog of training sessions](http://bioinfo.genotoul.fr/index.php?id=10) on Galaxy.
 
@@ -461,6 +463,7 @@ See the [release history](http://planemo.readthedocs.org/en/latest/history.html#
 **We just released an update to Galaxy CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
 Most notable changes include:
+
 * Galaxy 16.01 release
 * A fine-grained control over auto-scaling options
 * Several fixes to cluster sharing and cloning

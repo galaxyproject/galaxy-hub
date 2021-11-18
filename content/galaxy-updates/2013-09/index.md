@@ -27,6 +27,7 @@ You can also [install your own copy of Galaxy-P](http://getgalaxyp.org/), either
 [NICTA Bioinformatics](http://bioinformatics.research.nicta.com.au/)' [Genome-wide Interaction Search (GWIS)](http://bioinformatics.research.nicta.com.au/software/gwis/) for multivariate GWAS analysis cuts the computational time for analyzing all pairs of SNP interactions in genome-wide association studies (GWAS) from months to minutes on commodity computers.  Any non-commercial user can request an account [via email](mailto:gwis AT nicta DOT com DOT au).
 
 See
+
 * Benjamin Goudey, David Rawlinson, Qiao Wang, Fan Shi, Herman Ferra, Richard M Campbell, Linda Stern, Michael T Inouye, Cheng Soon Ong, Adam Kowalczyk (2013), "[GWIS – model-free, fast and exhaustive search for epistatic interactions in case-control GWAS](http://www.biomedcentral.com/1471-2164/14/S3/S10)", *BMC Genomics*, 14(Suppl 3):S10
 * *[H37: GWIS: Online exhaustive bivariate GWAS in minutes](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013ISMBRawlinsonGWIS.pdf)*, poster presented by David Rawlinson, *et al.* at [ISMB 2013](/events/ismb2013/).
 
@@ -35,6 +36,7 @@ See
 <div class='right solid'><a href='http://galaxy.informatik.uni-halle.de'><img src="/images/logos/MartinLutherU.png" alt="Martin Luther University Halle-Wittenberg" width="200px" /></a></div>
 
 [Martin Luther University Halle-Wittenberg](http://galaxy.informatik.uni-halle.de)'s Galaxy server provides implementations of tools developed by the groups of [Bioinformatics and Pattern Recognition](http://informatik.uni-halle.de/arbeitsgruppen/mustererkennung/?lang=en) and/or [Bioinformatics](http://informatik.uni-halle.de/arbeitsgruppen/bioinformatik/?lang=en) in collaboration with internal and external partners.
+
 * CRISPRer is a tool for genome-wide selection and assessment of CRISPR/Cas protospacers.
 * TALgetter allows you to scan input sequences for putative target sites of a given TAL (transcription activator-like) effector as typically expressed by many Xanthomonas bacteria.
 * TALgetterLong allows you to scan input sequences for putative target sites of a given TAL (transcription activator-like) effector as typically expressed by many Xanthomonas bacteria in large input data, but lacks some of the features of TALgetter (e.g., computation of empirical p-values).
@@ -54,6 +56,7 @@ Users access the MBAC Metabiome Portal through a Galaxy based web browser to per
 <div class='right solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src="/use/archive/zbit-bioinformatics-toolbox/zbit-home-page.png" alt="ZBIT Bioinformatics Toolbox" width="200" /></a></div>
 
 The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enables public access to these bioinformatics tools developed at [Department of Cognitive Systems](http://www.cogsys.cs.uni-tuebingen.de/) at the [University of Tübingen](http://www.uni-tuebingen.de/) of our bioinformatics tools.
+
 * [TFpredict](http://www.cogsys.cs.uni-tuebingen.de/software/TFpredict/welcome_e.html): Identification and structural characterization of transcription factors
 * [SABINE](http://www.cogsys.cs.uni-tuebingen.de/software/SABINE/welcome_e.html): Prediction of the binding specificity of transcription factors
 * [SBML2LaTeX](http://www.cogsys.cs.uni-tuebingen.de/software/SBML2LaTeX/index.html): Conversion of SBML files into human-readable reports
@@ -138,6 +141,7 @@ Help guide Galaxy's 2014 training efforts by taking the [Galaxy Training Survey]
 <div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
+
 * [Bioinformatics post available at University of Exeter](http://bit.ly/1cuX9b9)
 * [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**.

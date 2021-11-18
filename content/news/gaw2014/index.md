@@ -27,6 +27,7 @@ GAW 2014 will also include poster session, keynote speakers.
   * when and how to use Galaxy on the Cloud
 
 **Topics will potentially include:**
+
 * Image analysis and processing using Galaxy.
 * RNAseq/ChIPseq/Variant Calling/RNA Quality Control.
 * Galaxy on the Research Cloud.

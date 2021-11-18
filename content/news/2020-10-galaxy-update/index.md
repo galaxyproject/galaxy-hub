@@ -360,6 +360,7 @@ The [Plant Computational Genomics laboratory](http://plantcompgenomics.com/) at 
 <div class="card-header">[Software Engineer/Full Stack Developer](https://jobs.jhu.edu/job/Baltimore-Software-EngineerFull-Stack-Developer-MD-21218/667182900/) and [Sr. Programmer Analyst](https://jobs.jhu.edu/job/Baltimore-Sr_-Programmer-Analyst-MD-21218/666390700/)</div>
 
 The Schatz Lab  at Johns Hopkins University is looking for
+
 * self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
 * ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 

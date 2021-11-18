@@ -86,5 +86,6 @@ Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu
    * [apollo_list_organism](https://toolshed.g2.bx.psu.edu/view/gga/apollo_list_organism):  List Organisms (from the Apollo tool suite). Talk to a (local) apollo server from Galaxy.
 
 ## tool_dependency_definition
+
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
    * [package_blast_plus_2_6_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_blast_plus_2_6_0): via website. NCBI BLAST+ 2.6.0 (binaries only). This Tool Shed package is intended to be used as a dependency of the Galaxy wrappers for NCBI BLAST+ and any other tools which call the BLAST+ binaries internally.    Note that for compatibility with BioConda, internally this is now called "blast" rather than "blast+" as in the older Galaxy BLAST+ packages.

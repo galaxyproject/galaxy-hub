@@ -25,6 +25,7 @@ date: "2015-04-02"
 * [GalaxyUpdates/2015_04](/galaxy-updates/2015-04/#over-70-new-toolshed-repositories-from-19-contributors)
 
 In addition, there is news on:
+
 * [68 new publications](/galaxy-updates/2015-04/#new-papers)
 * [Who's Hiring](/galaxy-updates/2015-04/#whos-hiring)
 * [Vinther Lab Galaxy Server](/galaxy-updates/2015-04/#whale-shark)

@@ -19,6 +19,7 @@ Tutorials
 **Download entire histories** by selecting _"Export to File"_ from the History menu, and clicking on the link generated.
 
 **Transfer/Upload entire histories** after using _"Export to File"_ from the History menu and generating the link or downloading the archive, do one of the following: 1) copy the link in the "from" Galaxy instance, **then** in the "to" Galaxy instance select "Import from File" from the _"User > Saved Histories"_ page and paste in the link into the form OR 2) select a downloaded history archive file to upload it.
+
  * _"Tip"_: If your history is large, consider using _"Copy Datasets"_ from the History menu to move just your most important datasets into a new history, then create the archive from that smaller history. Copied datasets do not consume additional account quota space. Archive creation, download, and transfer will go much quicker with a smaller history not cluttered up with intermediate/error data, or any starting data that you already have and uploaded to Galaxy.
 * The video **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** includes help about different datatypes and what to expect in the download icon (one file or two!).
 
@@ -83,6 +84,7 @@ $ curl -o myfile.txt https://usegalaxy.org/api/dataset_collections/d20ad3e1ccd45
 1. Check to see if pop-ups are blocked by your web browser. Where to check can vary by browser and extensions.
 1. Double check your API key, if used. _User > Preferences > Manage API key_
 1. Check the sharing/permission status of the Datasets.
+
 * Review a dataset's permission status under _Dataset > pencil icon > Edit attributes > Permissions_. If you do not see a "Permissions" tab, then you are not the owner of the data.
 * If the data was [shared with you by someone else](/support/account-quotas/#find-histories-that-have-been-shared-with-you-and-unshare-those-not-needed) from a Shared History, or was copied from a Published History, or you are Sharing or Publishing data, be aware that there are multiple levels of data sharing permissions.
 * **All data are set to "not shared" by default**.

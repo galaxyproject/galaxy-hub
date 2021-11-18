@@ -5,6 +5,7 @@ highlight: true
 
 Galaxy allows a user to `get` /`send` data from/to a cloud-based storage, a functionality that is exposed via
 two APIs:
+
 - `/api/cloud/storage/get` [[ref](https://docs.galaxyproject.org/en/latest/lib/galaxy.webapps.galaxy.api.html?highlight=cloud#galaxy.webapps.galaxy.api.cloud.CloudController.get)];
 - `/api/cloud/storage/send`[[ref](https://docs.galaxyproject.org/en/latest/lib/galaxy.webapps.galaxy.api.html?highlight=cloud#galaxy.webapps.galaxy.api.cloud.CloudController.send)].
 

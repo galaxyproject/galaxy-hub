@@ -25,6 +25,7 @@ make many things as easy as possible.)
 
 Since the template system Galaxy currently uses is the Mako template system, the first possible jumping off point is
 python. Your template could use any number of technologies through python:
+
 * [matplotlib](http://matplotlib.org)
 * [gnuplot](http://gnuplot.info)
 * [R](http://r-project.org) and [RPy2](http://rpy.sourceforge.net/rpy2.html)
@@ -35,18 +36,21 @@ instance as a whole; you won't be able to pull them in *just* for your visualiza
 
 Mako specializes in creating markup of any type readable by modern browsers - so you can also leverage it by itself to
 create:
+
 * HTML
 * SVG
 * MathML
 * [Data URIs](http://en.wikipedia.org/wiki/Data_URI_scheme)
 
 Addtionally, since the product of the mako template is a web page, JavaScript and client side code is also a good option:
+
 * SVG with [d3js](http://d3js.org), [raphaeljs](http://raphaeljs.com), or any others
 * the HTML5 canvas with [paperjs](http://paperjs.org), [chartjs](http://chartjs.org),
   [processingjs](http://processingjs.org) or any others
 * WebGL with [philogl](http://senchalabs.org/philogl), [X](http://github.com/xtk/X), or others
 
 Interactivity can be used via python or JavaScript as well:
+
 * Control the page via python and in-page links, forms, and the traditional GET/POST HTTP cycle
 * Control the page via JavaScript with any number of JS libraries, widgets, and events
 
@@ -131,6 +135,7 @@ through the datasets api and a library that can do AJAX requests (such as jQuery
 
 More supporting infrastructure is available to you through the API. Here you can add client code for interactivity
 including:
+
 * Loading already configured or saved visualizations
 * Saving the current state of a user's visualization through the visualizations API
 * Running tools and workflows from your visualization with the tools and workflows API

@@ -31,6 +31,7 @@ Note: since data providers return generators, make sure to use `list` in order t
 if that's what you need.
 
 Notes on limit and offset:
+
 * Filtered data (such as blank lines, comment lines, or non regex matching lines) do not apply to the limit or offset -
   only the final, valid data.
 * Negative or zero limits (or if the dataset has no data) will return an empty list/generator
@@ -68,6 +69,7 @@ non_exons = list( hda.datatype.dataprovider( hda, 'column', regex_list=regex_lis
 
 
 Notes on `regex_list`:
+
 * Expressions are compared against full lines of data. Whitespace at the beginning and end of the line is stripped
   beforehand and no comparisons are made against blank lines or comment lines (unless included explicitly).
 * When sending regex expressions over the API your client may URL encode the expression - be careful to use proper
@@ -139,6 +141,7 @@ data = list( hda.datatype.dataprovider( hda, 'column', filter_fn=filter_start_lt
 
 
 Notes:
+
 * This only works in python and is not available over the API
 * The `filter_fn` is passed the unparsed line (rather than columns or parsed columns). You won't receive blank lines
   or comment lines, however (unless another option changes that), and whitespace is removed from the front and end
@@ -171,6 +174,7 @@ into a new dataset before-hand or sort after the data have been provided in your
 #### My data has comment lines that don't start with '#'
 
 Many of the default behaviors of (text-based) DataProviders are configurable:
+
 * to change which lines are considered comments and filtered out, set `comment_char`; to not filter out *any* lines
   as comments set this to `None`.
 * to include blank lines in your data, set `provide_blank` to `True`.
@@ -191,6 +195,7 @@ visualizations in python.
 
 You want to get the data into javascript for use with a graphing library or some other javascript technology. There
 are two points in the visualizations execution where you might want to do this:
+
 1. 'Bootstrapping': rendering the data as JSON using the Mako + the server *before* it's sent to the browser
 2. Via AJAX and the API: getting data (or more data) when the user interacts with your page after it's been sent
 
@@ -241,6 +246,7 @@ If you have a new datatype to add to Galaxy or you need functionality that none 
 you may want to define a new [DataProvider](/data-providers/).
 
 There are several ways to define new providers:
+
 * Create a method that uses existing provider classes, modifying their options or output in the method.
 * Compose a new provider from several other existing providers.
 * Create a new provider class.
@@ -249,6 +255,7 @@ There are several ways to define new providers:
 #### I want an easy way to define a provider for a new format
 
 You have a new format with key/value pairs that:
+
 * uses equal signs surrounded by spaces for separation
 * considers lines starting with a semicolon to be comments
 * each value in the key/value pair is a number or blank
@@ -293,6 +300,7 @@ for pair in provide_columns_for_my_format( hda ):
 
 You now want to add `provide_columns_for_my_format` to your new datatype `MyFormat`. In it's datatype class definition
 you'd need two things:
+
 1. Decorate your `MyFormat` datatype class with `@dataproviders.decorators.has_dataproviders`. This sets up a class
   to use dataproviders.
 2. Add your method to the datatype class and decorate that method with `@dataproviders.decorators.dataprovider_factory`

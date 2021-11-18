@@ -63,6 +63,7 @@ Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/
 ### Leadership / Governance
 
 Notes from the BoF:
+
 * Nothing was established here.
 * Srinivas and Dave C will continue as is, but the right thing to do is transfer Srinnivas's responsibilities to someone else.
 * Participants will think about what to do

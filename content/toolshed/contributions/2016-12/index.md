@@ -4,6 +4,7 @@
 * [All monthly summaries](/toolshed/contributions/)
 
 # Tools
+
 * *From [davidvanzessen](https://toolshed.g2.bx.psu.edu/view/davidvanzessen):*
    * [imgt_concatenate](https://toolshed.g2.bx.psu.edu/view/davidvanzessen/imgt_concatenate):  Concatenating IMGT zip files. Concatenates 1 or more IMGT zip files into a new IMGT zip file.
 * *From [yating-l](https://toolshed.g2.bx.psu.edu/view/yating-l):*
@@ -124,6 +125,7 @@
    * [agame_custom_tools](https://toolshed.g2.bx.psu.edu/view/matteoc/agame_custom_tools):  agame tools. Tools of general utility for the processing of eDNA assembly data.
 
 # Dependency Definitions
+
 * *From [insilico-bob](https://toolshed.g2.bx.psu.edu/view/insilico-bob):*
    * [ngchm_dependencies](https://toolshed.g2.bx.psu.edu/view/insilico-bob/ngchm_dependencies):  Visualization directories needed for ngchm to display Heatmap in Galaxy. Visualization directories needed for ngchm to display Heatmap in Galaxy.
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*

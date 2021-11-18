@@ -43,6 +43,7 @@ Two new servers joined [the list of over 30 publicly accessible Galaxy servers](
 The [QBRC Galaxy Server](http://www.galaxy.qbrc.org/) hosts custom tools developed by members of the [Quantitative Biomedical Research Center @ University of Texas Southwestern](http://www.qbrc.swmed.edu/) for statistical analysis of various High Throughput Sequencing experiments.
 
 Features
+
 * [SbacHTS: Spatial Background Noise Correction for HighThroughput RNAi Screening](http://bioinformatics.oxfordjournals.org/content/early/2013/06/28/bioinformatics.btt358.abstract)
 * [DecoRNAI](http://galaxy.qbrc.org/static/DecoRNAi_Manual.pdf) (deconvolution analysis of RNAi screening data)
 * [MiClip](http://galaxy.qbrc.org/static/galaxy_manual.pdf) "a novel model-based approach to identify high-confidence protein-RNA binding sites in CLIP-Seq datasets"
@@ -103,6 +104,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 
 47 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in July. These papers may be particularly interesting to the Galaxy community
+
 * "[A sustainable national gateway for biological computation](https://doi.org/10.1145/2484762.2484817)" by [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), [Nate Coraor](/people/nate/), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
 * "[Cloud-based uniform ChIP-Seq processing tools for modENCODE and ENCODE](https://doi.org/10.1186/1471-2164-14-494)" by Quang Trinh, Fei Y. Jen, Ziru Zhou, *et al.*, *BMC Genomics,* Vol. 14, No. 1. (2013), 494
 * "[The Banana Genome Hub](https://doi.org/10.1093/database/bat035)" by Droc, *et al.*, *Database*, Vol. 2013 (01 January 2013),
@@ -134,6 +136,7 @@ Many thanks to Ira Cooke and [John Chilton](/people/john-chilton/) for suggestin
 <div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
+
 * The Netherlands Institute of Ecology (NIOO-KNAW) [Bioinformatician opening](http://bit.ly/15nT1nB)
 * [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven
 * [Bioinformatics job vacancy at Rothamsted Research](http://www.rothamsted.ac.uk/Content-Section=Careers&Page=Vacancies.html#1272), UK.  Use Galaxy for delivery of data analysis resources; new tool integration, ... **Closing date 4th August.**
@@ -256,6 +259,7 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 Any new cluster will automatically start using this version of CloudMan. Existing clusters will be given an option to do an automatic update once the main interface page is refreshed. Note that this upgrade is a major version upgrade and thus the migration is rather complicated. The migration process has been automated but will take a little while to complete. If you have made customizations to your cluster in terms of adding file systems, upgrading the database, or similar, we do not recommend you perform the upgrade. Note that this upgrade comes with (and requires) a new AMI (ami-118bfc78), which will automatically be used when starting an instance via [CloudLaunch](http://usegalaxy.org/cloudlaunch).
 
 **This update brings a large number of updates and new features, the most prominent ones being:**
+
 * Unification of `galaxyTools` and `galaxyData` file systems into a single `galaxy` filesystem. This change makes it possible to utilize the [Galaxy Tool Shed](/toolshed/) when installing tools into Galaxy.
 * Added initial support for Hadoop-type workloads
 * Added initial support for cluster federation via HTCondor

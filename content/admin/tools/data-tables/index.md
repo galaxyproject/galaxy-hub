@@ -54,6 +54,7 @@ But more importantly, since the value that was stored for the parameter `index` 
 ## How to Use Data Tables
 
 There are three major components to data tables:
+
 1. An entry in the `tool_data_table_conf.xml`
 2. A reference to the relevant data table in the tool XML file
 3. An appropriate expression added to the tool XML file to pass the correct value to the supporting script (Python, Perl, etc.).

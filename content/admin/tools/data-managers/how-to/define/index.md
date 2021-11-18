@@ -12,6 +12,7 @@ This page describes how to define a Data Manager.
 # Data Manager Components
 
 Data Managers are composed of two components:
+
 * Data Manager configuration (e.g. *data_manager_conf.xml*)
 * Data Manager Tool
 

@@ -13,6 +13,7 @@ The aims of Galaxy-UK are:
 * Encourage interaction and collaboration.
 
 Galaxy-UK is also an information hub for events such as:
+
 * UK based Galaxy training courses
 * UK based talks involving Galaxy
 * Information on the location of UK Galaxy servers

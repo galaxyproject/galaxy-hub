@@ -287,6 +287,7 @@ We will need to:
         https://testtoolshed.g2.bx.psu.edu/view/jjohnson/data_manager_bowtie2_index_builder
       hint2: Dan has already done a bwa data manger
         http://toolshed.g2.bx.psu.edu/view/devteam/data_manager_bwa_index_builder
+
   * highlight extra requirements/tags/attributes vs regular galaxy tool
 
 ### Data Manager Tool
@@ -410,6 +411,7 @@ The primary difference between a standard Galaxy Tool and a Data Manager Tool is
 ```
 
           **Be sure to change the changeset_revision to the proper value.**
+
 * Use mercurial
   1. hg add
   2. hg ci -m "Populate data manager tool"
@@ -480,6 +482,7 @@ regulation_CD4.bin      regulation_HMEC.bin     regulation_HepG2.bin    regulati
 ```
 
 2. Data manager
+
   * most efficient for multiuser or multi history use
   * data_manager_snpEff_download.py inspects the downloaded genome files searching for added regulation and annotation files:
 
@@ -571,6 +574,7 @@ regulation_CD4.bin      regulation_HMEC.bin     regulation_HepG2.bin    regulati
 ```
 
 3. From history
+
   * SnpEff Download tool allows users to proceed without the Galaxy admin
   * The genome specific options are captured in metadata of the custom dataytpe: "snpeffdb"
 

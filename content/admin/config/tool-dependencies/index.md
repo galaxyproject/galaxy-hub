@@ -45,6 +45,7 @@ Individual tool configurations should contain `<requirement type="package">` tag
 1. Create a subdirectory of the subdirectory you just contained matching the version number of the package you have installed or are installing
 1. Create a symbolic link from the name `default` to the version directory you just created (this is used for tools which have a package requirement but do not specify a version of that package; most tools behave this way). Note: `default` **must** be a sybolic link, an actual directory named `default` will be ignored.
 1. In the version subdirectory create either:
+
   * a `bin/` directory or
   * an `env.sh` file as described below
 

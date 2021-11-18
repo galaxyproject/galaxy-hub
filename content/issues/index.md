@@ -45,6 +45,7 @@ If the problem is presenting in your own Galaxy, administrative configuration ma
  ### TIPS
 
 Reviewing the problematic output content, the original tool form as submitted, the Job Details' `stdout/stderr`, and a bug report preview can often help to self-diagnose and correct a problem. If enough information, a bug report/Biostars post does not need to be actually submitted.
+
  * ![](/images/icons/eye.png) Display data in browser "eye icon"
  * ![](/images/icons/HistoryInfo.png) Job Details and run Info
  * ![](/images/icons/arrow-circle.png) Run this job again or examine original submitted form (filled in)

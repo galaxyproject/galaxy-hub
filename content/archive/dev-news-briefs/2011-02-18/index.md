@@ -208,6 +208,7 @@ Another way of stating it is: `LibraryDatasetDatasetAssociation` objects map `Li
 * *Jquery1.5* workflow fixes with quotations and flagging of outputs.
 
 Workflows containing tools that are not loaded will now open in the editor instead of failing on the dictionary lookup.  The offending nodes are marked as having an error state, and the workflow cannot be saved.  This will enable users to at least look at and try to recover a workflow by removing (and potentially replacing) the offending steps, as well as providing a better view of what's actually wrong with the workflow.
+
 * Workflows will no longer try to run when required tools are not found.  An error message is displayed with a link to the editor view (to fix the workflow).
 * Interval datatype now uses line estimates for large files.  This fixes potential "'?' lines" seen by some users.
 * Removed "Annotation:" labels for a cleaner look on the run workflow page.

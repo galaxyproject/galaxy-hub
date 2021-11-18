@@ -48,6 +48,7 @@ a single node, as there is an additional step for deployment on a multi-node
 cluster that will be discussed separately.
 
 To create a cluster on on EKS, you may follow these tutorials:
+
 - via console; read [how to start a cluster using the console](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html);
 - via the `eksctl` CLI tool; read [how to start a cluster using eksctl](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)
 

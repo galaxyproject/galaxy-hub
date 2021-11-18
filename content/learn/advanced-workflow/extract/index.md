@@ -95,6 +95,7 @@ It also lists **Workflows Shared with You** (if any). Under **Other Options** is
 *workflows shared with you*
 
 **To use this workflow right now, or another that you created, do the following to set up a run:**
+
 1. Click on **Analyze Data** to return to the default Galaxy view with the source history active in the history panel (it should be if, you are following the above steps).
 1. Or, use the **History Menu -> Saved Histories** to bring up all of your saved histories to select the one with datasets you wish to run your own workflow on. Or, click on **History Menu -> Create New** and upload new datasets (and prep as needed, if data prep was not included in your workflow).
 1. Click on your workflow in the tool panel if you saved it there (at bottom of left panel), or search all belonging to you, without leaving this view, by clicking on "Workflows -> All workflows" the bottom of the left tool panel.

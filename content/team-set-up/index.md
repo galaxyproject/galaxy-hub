@@ -32,6 +32,7 @@ Usually do the most productive part in the morning, and then handle support / fi
 1) Terminal 2) Gmail 3) Browser
 
 Here's my desk setup:
+
 - New: https://imgur.com/hZBsmsX
 
 #### Screen configuration:
@@ -128,9 +129,11 @@ Read HackerNews / Python subreddit + Programming subreddit
 ## Nitesh Turaga
 
 Worked in the past on:
+
 - [BioConductor](/BioConductor/) - Galaxy integration
 
 Now:
+
 - Galaxy Full Stack
 
 #### Work environment

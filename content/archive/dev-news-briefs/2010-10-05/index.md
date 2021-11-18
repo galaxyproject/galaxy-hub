@@ -12,6 +12,7 @@ hg pull -u -r d681ef7538ed
 ### Enhanced Data Library Features
 
 1. Add the ability to make any library item public (and it's contents if it has any)
+
 * There are now options on library item pop-up menus to make a library dataset public, make all contents of a folder public, or make an entire data library public. These new menu items are displayed only if the current item (dataset) is not public or if the current item (data library, folder) contains items that are not public.
 * The following image shows a data library that contains a restricted dataset and a folder that contains a restricted dataset. Since the data library contains items that are not public (restricted), it's Library Actions menu includes a "Make public" option. Selecting this option will make all of the contents of the entire data library public.
 
@@ -26,6 +27,7 @@ hg pull -u -r d681ef7538ed
 ![2010_10_05_dataset_popup](/archive/dev-news-briefs/2010-10-05/2010_10_05_dataset_popup.png)
 
 2. Upload Option changes
+
 * Move the upload options (ie., file, directory, filesystem paths, import from history), which used to be in the data library upload form's title bar popup menu, into a select list on the upload form.
 * Selecting a different upload option now performs a refresh on the upload form so that any form contents entered before selecting the option are now retained.
 
@@ -35,26 +37,31 @@ hg pull -u -r d681ef7538ed
 ### Extended Workflow and related History/Dataset Features
 
 1. You can now flag a workflow step as an output within the editor.  
+
 * To do this, hover over any output, click the asterisk to flag/unflag an output.  If a workflow has outputs flagged, only those particular results will show in the history and all other outputs will be hidden.  If no outputs are flagged, everything is shown (same as previous behavior).  Note that workflow output flagging overrides HideDatasetActions; if a HideDatasetAction exists on a dataset flagged as a workflow output, it is removed.
 * This feature makes it much easier to take an existing workflow, and hide all of the outputs except for a small number of desired results.
 * It is worth noting that non-output results are only hidden, not deleted, and that they can be viewed in the history at any time by going to "View Hidden Datasets" in the history panel.
 
 2. More options for Exporting, Searching, and Annotating
+
 * Both workflows and histories can now be exported to files. Importing workflows and histories is coming soon.
 * Annotations preserved when importing histories and workflows.
 * Tool search is now available in workflow editor so that you can search for tools when creating workflows.
 * Improvements for annotating histories and workflows to make it easier to add annotations.
 
 3. Workflow Tool Form changes
+
 * Output extensions are now properly separated by ', ' (including space) instead of just slammed together.
 * Width is calculated better, taking into account the length of input and output rows, with an upper bound of 250px, and lower bound of 150px.
 
 4. Post Job Actions
+
 * Separated into immediate and delayed actions.  Immediate actions run when the job is created, as opposed to when it is finished.  
 * Set Datatype is now an immediate action.  This has no impact on the execution of the job, but it allows following jobs to queue with the correct subsequent datatypes.
 * RenameDatasetAction also happens immediately, rather than waiting for a job to complete.  This makes the history less confusing to watch, as things don't randomly change names.
 
 5. Updated UI - screenshots
+
 * Hovering for the tooltip on the asterisk.
 
 ![2010_10_05_workflow_tooltip](/archive/dev-news-briefs/2010-10-05/2010_10_05_workflow_tooltip.png)

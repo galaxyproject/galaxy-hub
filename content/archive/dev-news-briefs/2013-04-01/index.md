@@ -74,8 +74,10 @@ Once you're on the `stable` branch, `hg pull -u` without a specific revision or 
 The new release process works as such:
 
 1. The Galaxy source repository now contains two branches:
+
   * `stable` is committed to regularly and contains important bugfixes.
   * `default` is committed to regularly and contains new features as well as fixes merged from `stable`.
+
 1. Every two months, `stable` will be updated with new features from default and a specific distribution release version will be tagged.
 1. The two weeks prior to the release will be focused on fixing bugs found in the targeted upcoming release. New features will not be considered for inclusion in the upcoming release during this time.
 
@@ -97,12 +99,15 @@ The process for upgrading to this release should be:
 1. Pull and update to the release as documented (above), but do not restart any Galaxy server processes.
 1. Stop and permanently disable the `manager` process, as there is no longer a dedicated process for assigning job handlers (it is done at the time of job creation).
 1. Create a ` `job_conf.xml` ` ( most easily done by starting with the provided ` `job_conf.xml.sample_advanced` `).
+
   * When defining ` `<plugin>` ` tags, the ` `id` ` attribute must match the URL scheme for any jobs currently running which you want to recover.  For example, jobs running via ` `pbs:///` ` will be recovered by the plugin with id ` `pbs` `.  Likewise for ` `drmaa:///` ` and the ` `drmaa` ` plugin.
+
 1. Restart handler(s) (preferably one at a time) and watch the logs.  Warnings about using the deprecated ` set_runner() ` function can be ignored as this is part of the process of converting jobs from URLs to destinations upon first startup.
 
 As explained above, it is not strictly required that you switch to the new-style configuration.  All old-style URL options should continue to work, however, it is strongly encouraged that you update to the new-style configuration for the advanced features (and future flexibility) it provides.
 
 Full documentation on the new job running configuration is available at:
+
 * [http://wiki.galaxyproject.org/Admin/Config/Jobs](http://wiki.galaxyproject.org/Admin/Config/Jobs)
 * [http://wiki.galaxyproject.org/Admin/Config/Performance/Cluster](http://wiki.galaxyproject.org/Admin/Config/Performance/Cluster)
 
@@ -155,6 +160,7 @@ This is last Galaxy distribution that will support Python 2.5. Follow the ticket
 1. **Basic Data Manager Functionality** is now present for locally defined and Tool Shed installed data managers ([Admin/Tools/DataManagers](/admin/tools/data-managers/)).
 
 An abstracted interface has been created for the data manager to download, generate, or otherwise procure locally cached data for use in analyses. For details about implementation, please see the following Trello tickets.
+
 * In Galaxy:
   * https://trello.com/c/Rport5vq
   * https://trello.com/c/5NlsdGsr
@@ -243,7 +249,9 @@ This reserved word will route correctly in the tool shed when the tool is displa
 # CloudMan
 
 http://usegalaxy.org/cloud
+
 1. Condor introduced: [HTCondor](http://wiki.galaxyproject.org/CloudMan/HTCondor) https://trello.com/c/te1UVkam
+
   * Condor will allow federation of clusters, at first with manual configuration.
 
 <br />
@@ -263,6 +271,7 @@ http://usegalaxy.org/cloud
 
 1. "Select all" jobs in admin menu https://trello.com/c/Sc975x1l
 1. Allow old-style external display applications to be disabled https://trello.com/c/9dgk1VSl
+
   * related improvements pending: https://trello.com/c/uIctksud
 
 <br />

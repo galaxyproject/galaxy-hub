@@ -9,6 +9,7 @@ date: "2011-12-02"
 There is a new mailing list in the Galaxy: [Galaxy-Announce](http://lists.bx.psu.edu/listinfo/galaxy-announce).  
 
 Galaxy-Announce is a *moderated, low-volume mailing list*, and complements the existing [Mailing Lists](/mailing-lists/):
+
 * Galaxy-User: about the public server (a.k.a. *[Main](/main/)*) at [https://usegalaxy.org/|UseGalaxy.org](https://usegalaxy.org/|UseGalaxy.org), and
 * Galaxy-Dev: about Galaxy deployment and development.  
 

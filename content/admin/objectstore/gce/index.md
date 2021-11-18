@@ -18,6 +18,7 @@ authorize Galaxy to assume the service account, and finally create a bucket for 
 In order to do so, you may take the following steps:
 
 ### Create a Service Account
+
 1. Go to [console.cloud.google.com](https://console.cloud.google.com) and login
 with your Google credentials. You will then be redirected to your dashboard
 on Google Cloud Platform:
@@ -64,6 +65,7 @@ click on the `DONE` button.
     required information to access your Google cloud storage under your account.
 
 ### Create a Bucket for Galaxy
+
 1. On the [_console page_](https://console.cloud.google.com/), click on the _navigation menu_
 button (`☰`), and go to `Storage > Browse`. See the following figure:
 

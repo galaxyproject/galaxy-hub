@@ -141,6 +141,7 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 # Tool Shed
 
 [Tool Shed](/toolshed/)
+
 * *Tool shed features for Galaxy tools*
   * The primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed. [Read more…](/toolshed/tool-features/)
 * *Pushing changes to a tool shed repository using hg from the command line*

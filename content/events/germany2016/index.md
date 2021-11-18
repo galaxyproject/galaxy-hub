@@ -29,6 +29,7 @@ We have a few proposed and prepared topics but we are flexible so we can
 discover new areas of the Galaxy.
 
 Proposed topics:
+
 * ‘expand’ reports tool (API, Galaxy DB, JS)
 * Creating Conda packages and Docker containers (Conda, Docker, Tools)
 * Creating new Galaxy Docker flavours (Docker, Admin)

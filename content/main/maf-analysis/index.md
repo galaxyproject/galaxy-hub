@@ -26,6 +26,7 @@ For a list of data available through Galaxy, see [Available Data](/main/data-lib
 These tools convert MAF formatted files to FASTA and offer the ability to restrict alignments to a subset of species. This is useful for performing further analysis with practically all currently available genomic tools.
 
 Available Output Types:
+
 * **Multiple Blocks** - create one FASTA alignment block per provided MAF Block; blocks missing a desired species can be kept or discarded
 * **One Sequence per Species** - create one sequence per species, where all MAF blocks are concatenated in the order and strand in which they appear in the selected source MAF; desired species missing from a particular block will have their sequence padded with gaps
 
@@ -38,6 +39,7 @@ Extractors take genomic intervals as the input and return pairwise or multiple a
 ![](/main/maf-analysis/interval2maf.png)
 
 *Currently there are two types of extractors that may be merged into a single tool in the future:*
+
 * **Extract Pairwise MAF blocks given a set of genomic intervals** - takes a series of genomic intervals and extracts __pairwise__ alignments from a large selection of locally cached MAF files.
 * **Extract MAF blocks given a set of genomic intervals** - takes a series of genomic intervals and extracts __multiple__ alignments from a large selection of locally cached MAF files or from alignments in the user's history.
 

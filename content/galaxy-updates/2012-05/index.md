@@ -180,6 +180,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 ## Tool Shed Contributions
 
 At least **7** new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in April, including
+
 * head_and_tail, cdf_plot, venn, and matrix_visualization
 * BEAST (Bayesian Evolutionary Analysis Sampling Trees): Bayesian MCMC analysis of molecular sequences.
 * rtg_investigator: Mapping and Analysis Software for NGS Platforms Roche, Illumina and Complete Genomics; software from [Real Time Genomics](http://www.realtimegenomics.com/).

@@ -31,6 +31,7 @@ First, there are a plethora of events coming up around the world:
 * Plus [12 additional events](/galaxy-updates/2016-04/#upcoming-events) on three continents over the next three months.
 
 And a lot of **new**
+
 * [Papers](/galaxy-updates/2016-04/#new-papers) (86 of them, 6 highlighted)
 * [Open positions](/galaxy-updates/2016-04/#whos-hiring) (10 of them)
 * [Halogen Bonding](/galaxy-updates/2016-04/#new-public-galaxy-servers) Galaxy server

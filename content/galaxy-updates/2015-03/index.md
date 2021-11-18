@@ -103,6 +103,7 @@ The new papers were tagged with:
 # UseGalaxy.org Update
 
 A refresh of [UseGalaxy.org](https://usegalaxy.org) has started.  It includes
+
 * New versions of Bowtie2, bwa-mem, Picard, BAMTools, FastQC, ....
 * New look and feel for tool forms
 * New Scratchbook features

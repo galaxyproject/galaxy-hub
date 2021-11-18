@@ -6,6 +6,7 @@ Comprehensive documentation can be found at [CloudMan](/cloudman/).
 
 Start at [Galaxy Cloud Launch](https://main.g2.bx.psu.edu/cloudlaunch )
 Enter AWS Credentials (AWS Key ID and Secret)
+
 * Cluster Name - A name for your cluster.
 * Password - A password for the administrative functions of your cluster.
 * Key ID - AWS Key ID (The short part)
@@ -13,6 +14,7 @@ Enter AWS Credentials (AWS Key ID and Secret)
 * Instance Type - The type of EC2 instance you would like.  m1.large or higher recommended.
 
 Navigate to the URL presented on the confirmation page to configure your cluster
+
 * To create an exact copy of the instance from our workshop demo, click "advanced options", and enter the Instance Share String below
 * OR, to create a regular Galaxy cluster, just enter how much space(in gigabytes) you'd like to have to work with.
 
@@ -22,6 +24,7 @@ Navigate to the URL presented on the confirmation page to configure your cluster
 At this point, just wait a few seconds and you're ready to go when the "Access Galaxy" button lights up.
 
 **Additional Links**
+
 * [QIIME tutorial used in the demo](http://qiime.org/tutorials/tutorial.html )
 * [Archaeopteryx Tree Viewer ](http://www.phylosoft.org/archaeopteryx/ )
 

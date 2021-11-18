@@ -8,6 +8,7 @@ date: "2015-11-02"
 </div>
 
 The **[November Galactic News](/galaxy-updates/2015-11/)** is hot off the presses.
+
 * [81 new publications, including 8 highlighted pubs](/galaxy-updates/2015-11/#new-papers)
 * [Event News](/galaxy-updates/2015-11/#events)
   * **[GCC2016 Training Topic Vote Ends This Friday](/galaxy-updates/2015-11/#gcc2016-training-topic-vote-ends-this-friday)!**

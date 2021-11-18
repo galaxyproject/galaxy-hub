@@ -346,6 +346,7 @@ An update to Galaxy CloudMan was released in January. CloudMan offers an easy wa
 The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched in December.  January saw several additions:
 
 **New Galaxy Deployment Catalog entries:**
+
 * CSIRO Galaxy Service
 * UIUC-Galaxy
 
@@ -353,6 +354,7 @@ bringing the number of deployment descriptions to 10.
 
 
 **New [Community Log Board](/blog/) entries**
+
 * [LDAP remoteUser Logout](/blog/2014-01-ldap-remote-user-logout/)
 
 bringing the number of log entries to 12.

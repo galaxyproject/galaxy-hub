@@ -18,12 +18,14 @@ This project was started in 2016 and was presented for the first time during the
 <img class="img-fluid mx-auto" src="/blog/2018-06-training-material/repo_content_stat_plot.png" alt="New content"/>
 
 During the past year, two new topics have been added:
+
 - [Stastitics](http://galaxyproject.github.io/training-material/topics/statistics)
 - [Genome Annotation](http://galaxyproject.github.io/training-material/topics/genome-annotation)
 
 While several more new topics are in development (e.g. Visualization, Phylogeny, Metabolomics).
 
 Many existing topics have been expanded with new content:
+
 - Introduction to Galaxy: [Extracting Workflows from Histories](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-history-to-workflow/tutorial.html), [Introduction to Genomics and Galaxy](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html) and [Rule Based Uploader](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-rules/tutorial.html)
 - Assembly: [Unicycler](http://galaxyproject.github.io/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html) and [Making sense of newly assembled genomes](http://galaxyproject.github.io/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html)
 - Epigenetics: [Hi-C analysis of Drosophila melanogaster cells using HiCExplorer](http://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html)

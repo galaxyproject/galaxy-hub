@@ -21,6 +21,7 @@ perspective, you may want to view [The Galaxy 101 Tutorial](https://usegalaxy.or
 ## Introduction
 
 There are two sections to this workshop page:
+
 1. [command-line installation and configuration](/events/gmod-summer-school2014/#command-line-set-up-and-operation): primarily geared to users who
   want a basic installation of Galaxy with an eye towards setting things up flexibly should they decide to scale up at a
   later date.
@@ -50,6 +51,7 @@ managers (DRMs), and virtual cloud servers. It's also designed to allow thousand
 many analyses at once.
 
 It can also be very useful on a much smaller scale: a single lab or even a single user. To begin here, we'll start with:
+
 * some of the basic set up,
 * how to avoid some future problems if you decide to scale up,
 * and how to do basic administrative tasks that will allow your users (or just you) to do analysis with Galaxy
@@ -83,6 +85,7 @@ Python 2.7.6
 ```
 
 Galaxy is best downloaded using the Mercurial distibuted source management system:
+
 * [http://mercurial.selenic.com/](http://mercurial.selenic.com/)
 * [http://mercurial.selenic.com/guide](http://mercurial.selenic.com/guide)
 
@@ -170,6 +173,7 @@ $ cp universe_wsgi.ini.sample universe_wsgi.ini
 
 
 Next, let's add ourselves (NOTE: not the galaxy user) as administrator to what will be our Galaxy server:
+
 1. Open the `universe_wsgi.ini` file in a text editor.
 2. Find the line: `#admin_users = None`.
 3. Read the comments before that line. Most settings in `universe_wsgi.ini` are documented with comments before
@@ -215,6 +219,7 @@ and a quick command line example here:
 [Install and configure PostgreSQL](/events/bio-it-world2014/w14/#install-and-configure-postgresql)
 
 Let's create a postgres user named galaxy for our system galaxy user:
+
 1. Log out of the galaxy user and back into your sudo/admin user role by pressing `Ctrl-d`.
 2. Use the postgres user to create a postgres galaxy user:
 
@@ -293,6 +298,7 @@ debugging process.
 
 Set the `id_secret` to make Galaxy's ids (encoded versions of database ids for your resources such as session ids,
 dataset ids, etc.) unique to your server:
+
 1. Generate a random piece of text. This will be combined in Galaxy with the database ids to encode them:
 
 ```bash
@@ -488,6 +494,7 @@ at the end of the log output.
 ## The Admin Web Interface
 
 Your Galaxy server should now be running, so let's log in to our admin account with a browser:
+
 1. Open your preferred browser (Chrome, Firefox are recommended but Galaxy works also with IE+10) in the virtual
   machine.
 2. Using the address bar, go to `localhost:8081` - you should see the Galaxy 'Analyze Data' home page.
@@ -504,6 +511,7 @@ page. Click `Admin` from the top menu.
 ![](/events/gmod-summer-school2014/admin.png)
 
 Here you'll see a page where you can:
+
 * Install, manage, and search for tools: bioinformatic programs/applications for user analysis
 * Manage data libraries: commonly used datasets that can be copied quickly by users
 * Create, delete, and manage users as well as: separate them into groups, give them roles, and set data limit quotas
@@ -567,6 +575,7 @@ files can be downloaded here:
 #### library_import_dir
 
 To import this directory directly, Galaxy needs to know where to look. To do that, we:
+
 1. Open `universe_wsgi.ini` in an editor.
 2. Search for, uncomment, and change `#library_import_dir = None` to `library_import_dir = /data/galaxy`
 3. [Restart the server](/events/gmod-summer-school2014/#restarting-the-server)
@@ -577,6 +586,7 @@ Now Galaxy can import whole subdirectories of `/data` and their files easily.
 #### A data library for raw isolate reads
 
 Back in the browser, go to the admin page and on the left click: 'Manage data libraries':
+
 1. A page title 'Data Libraries' will appear in the main panel. Click the 'Create new data library' at the top right.
 2. A form will appear to allow naming and description of the library. For this example, only change the name to
   'isolates-raw'
@@ -644,6 +654,7 @@ See also the comprehensive documentation on Tool Sheds here: [ToolShed](/toolshe
 
 Let's look for and install some tools from the Main Galaxy Tool Shed. There are two ways to find tools you're looking
 for: A.) browse all the available tools and B.) search for specific tools. Let's browse first:
+
 1. Go to the admin page if you're not already there.
 2. On the left hand menu of links, click `search and browse tool sheds`
 3. In the center panel, you'll see two drop-down buttons: `Galaxy main tool shed` and `Galaxy test tool shed`
@@ -655,6 +666,7 @@ for when you may not know specifically what you need.
 
 Now let's go back and look for something specific: tools for fastq manipulation and quality control. We'll start with
 FastQC, a program that produces an HTML file with graphs detailing the quality of your fastq reads:
+
 1. Again, on the left hand menu of links, click `search and browse tool sheds`
 2. Click the arrow on the right of the `Galaxy main tool shed` button to make the menu appear again.
 3. This time, click `Search for valid tools`. A search form will appear.
@@ -687,6 +699,7 @@ To enable 3rd-party cookies in Firefox or Chrome, see:
 
 
 Let's check that it was installed and is now available:
+
 1. Click 'Analyze Data' to get back to the main/home page
 2. In the left hand tool menu, click 'NGS: QC and manipulation
 3. You should see a link with the text: 'FastQC:Read QC reports using FastQC' - that indicates the tools is installed
@@ -706,20 +719,27 @@ much as possible so we'll convert this trial run (if it worked) into a workflow 
 process to a two click operation.
 
 Using the procedure in [Installing a tool from a Tool Shed](/events/gmod-summer-school2014/#installing-a-tool-from-a-toolshed), search for and install the following tools:
+
 1. `fastq_paired_end_joiner`:
+
   * search with the tool name 'fastq joiner'
   * The owner is 'devteam' and
   * the description is: 'FASTQ joiner on paired end reads'
+
 2. `fastq_filter`:
+
   * search with the tool name 'filter fastq'
   * The owner is 'devteam' and
   * the description is: 'Filter FASTQ reads by quality score and length'
+
 3. `fastq_paired_end_splitter`:
+
   * search with the tool name 'fastq splitter'
   * The owner is 'devteam' and
   * the description is: 'FASTQ splitter on paired end reads'
 
 Using the tools above, we'll:
+
 * copy some raw, paired-end isolate reads into a history
 * join them into one file using the joiner - if we don't join them, the pairs will be mismatched after we filter
 * filter them by quality using the filter tool
@@ -730,6 +750,7 @@ Using the tools above, we'll:
 
 When the tools are installed, in the top menu, click: 'Shared Data', then 'Data Libraries (Beta)'. This is the new
 user interface for libraries and allows users to quickly import data from libraries into their histories.
+
 1. Click 'isolates-raw'
 2. Click both 'SRR1182403_1.fastq' and 'SRR1182403_2.fastq' to select them
 3. In the library menu above, click 'to history'
@@ -746,6 +767,7 @@ Histories can be thought of as workspaces, workbenches, or current directories. 
 from a user's tool analysis. A user can have multiple histories but only one will be their current history. When tools
 are executed on some input data (like our read datasets we imported), they create jobs. The status of a job (queued,
 running, finished, errored) is shown as the 'state' of a dataset in the current history and a color is given to each:
+
 * queued: grey
 * running: yellow
 * finished/ok: green
@@ -763,6 +785,7 @@ top right of the history panel.
 ##### 2. Join the paired-end read files
 
 Now, we'll run the paired end joiner tool on the two read files we imported:
+
 1. In the left hand tool menu, click 'NGS: QC and manipulation'
 2. Scroll down to 'FASTQ joiner on paired end reads' and click that link.
 3. The center panel will open with a form that controls the parameters the tools will use. The joiner is relatively
@@ -778,11 +801,13 @@ Now, we'll run the paired end joiner tool on the two read files we imported:
 
 Next, we'll filter that joined dataset by quality. This time, we'll search for the 'Filter fastq' tool using the tool
 menu's search bar:
+
 1. In the tool menu, click the search bar that currently says: 'search tools' enter `filter fastq`. Note how the
   contents of the menu are filtered and change with every letter entered. Using the search, users can quickly narrow
   their hunt for an appropriate tool by name or description.
 
 Notes on tool searching:
+
 * Searches can be cleared by deleting the text or pressing the circular close button on the right of the search bar.
 * Both the name and description are searchable.
 * Workflows are currently not searchable and the 'all workflows' link is always included in results
@@ -801,6 +826,7 @@ Notes on tool searching:
 ##### 5. Re-split the joined, filtered file
 
 Next, use FastQC to get quality reports on each of the split, filtered files:
+
 1. Search for 'FastQC' in the tool panel, and execute using '5: FASTQ splitter on data 4' for 'Short read data from
   your current history'
 2. *This time*, instead of waiting for that job to finish, click 'FastQC' in the tool panel now, choose
@@ -828,6 +854,7 @@ repeat over many subjects.
 
 One way to create a workflow manually using the Workflow editor. See the following wiki pages for more information on
 that:
+
 * [Creating Workflows and Advanced Workflow Options](/learn/advanced-workflow/)
 * [Create a Workflow from Scratch Screencast](http://screencast.g2.bx.psu.edu/flash/WorkflowFromScratch.html)
 
@@ -836,14 +863,17 @@ that:
 Another way is to export it from a history containing a successful analysis that you'd want to repeat
 with other input files (i.e. a prototype) like the QC we just did. Let's export our history into a workflow others can
 use on different isolates:
+
 1. Click the gear shaped icon at the top right of the history panel. The history options menu should open.
 2. Click 'Extract Workflow' from that menu. The center panel should open to page that allows you to set many options
   for the new, extracted workflow including:
+
   * A workflow name
   * Your input datasets - these will be marked as the workflow entry point because of the checked checkboxes
     'Treat as input dataset'
   * Your join, filter, and split jobs
   * The two FastQC jobs
+
 3. In that panel, change the name to 'Basic fastq QC'
 4. Click the 'Create Workflow' button. An info box should appear saying "Workflow 'Basic fastq QC' created from current
   history".
@@ -852,6 +882,7 @@ use on different isolates:
 [Creating a Workflow from a History Screencast](http://screencast.g2.bx.psu.edu/flash/WorkflowFromHistory.html))
 
 If you'd like to view the workflow in Galaxy's workflow editor:
+
 1. Click 'Workflow' in the top menu.
 2. Click the arrow on the right of the 'Basic fastq QC' workflow in the list. A menu should appear.
 3. Click 'Edit' in that menu.
@@ -861,6 +892,7 @@ If you'd like to view the workflow in Galaxy's workflow editor:
 
 
 If you'd like to have the workflow directly available to users in the tool menu:
+
 1. Click 'Workflow' in the top menu.
 2. Click 'Configure your workflow menu' at the bottom of the page. A new list should appear.
 3. Click the 'Show in menu' checkbox in the 'Basic fastq QC' row.
@@ -870,6 +902,7 @@ If you'd like to have the workflow directly available to users in the tool menu:
 
 Workflows created by users (including admin users) are by default not available to other users. They must be published
 first. Let's publish the workflow so that others can use it:
+
 1. Click 'Workflow' from the top menu. The list (currently only one) workflows appears.
 2. Click the arrow on the right of the button labelled 'Basic fastq QC'. The menu for that workflow will appear.
 3. Click 'Share or publish'. A page with sharing options titled "Share or Publish Workflow 'Basic fastq QC'" will load.
@@ -878,6 +911,7 @@ first. Let's publish the workflow so that others can use it:
 5. You can now view the pubished workflow by clicking 'Shared Data' and then 'Published Workflows' from the sub menu.
 
 There are several other options on the sharing page:
+
 * 'Make Workflow Accessible via Link' provides the link to the workflow (allowing others to import it) but does not
   list it in the 'Shared Data'->'Published Workflows' list.
 * 'Share with a user' will share it with one or more users directly allowing them to import it. Users are selected
@@ -907,6 +941,7 @@ Again, see [Creating Workflows and Advanced Workflow Options](/learn/advanced-wo
 #### Testing our QC workflow
 
 Let's run our workflow to test it (we'll use the same data):
+
 1. From the home page, open the history options menu, and click 'Copy datasets'. The center panel will show an
   interface allowing you to copy selected datasets.
 2. Select 'SRR1182403_1.fastq' and 'SRR1182403_2.fastq' on the left hand side.

@@ -12,11 +12,13 @@ date: 2011-04-08
 ## Key Upcoming Galaxy Events
 
 **May 24-26, 2011 Galaxy Community Conference**, Lunteren, The Netherlands.
+
 * [http://galaxy.psu.edu/gcc2011/](http://galaxy.psu.edu/gcc2011/)
 * **April 24** is the Early registration deadline (save 20%!)
 * [http://galaxy.psu.edu/gcc2011/Register.html](http://galaxy.psu.edu/gcc2011/Register.html)
 
 **April 13-14, NBIC Galaxy Hackathon**, Belgium.  Please submit your suggestions!  
+
 * [http://wiki.nbic.nl/index.php/NBIC_Galaxy_Hackathon_project](http://wiki.nbic.nl/index.php/NBIC_Galaxy_Hackathon_project)
 
 ----
@@ -203,6 +205,7 @@ Track of reads mapped using *Tophat* (spliced) including the transcript assemble
 * Specifying '`ftype="bam"`' as a parameter on a test's `<output>` tag will now cause the test framework to use '`samtools view`' to convert the file to *SAM*.  This should make it easier to debug why the test tool output differs from your baseline test output.
 
 Test framework enhancements:
+
 * Allow `toolbox tests` to upload a file found located in `subdirectories`.
 * Fix a bug occurring on the determination of uploaded dataset name during the handling of the removal of `.gzip` or `.zip` extension from the uploaded filenames.
 * When using `re_match comparison method` in functional tests and line counts do not match, print out first 40 lines of the history file.

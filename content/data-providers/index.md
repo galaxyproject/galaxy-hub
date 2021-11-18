@@ -23,6 +23,7 @@ For more examples than are on this page, see [DataProviders/Cookbook](/data-prov
 ## How to get data using DataProviders
 
 Currently, there are two entry points to data providers for datasets:
+
 * Programmtically (typically in a visualization template or other python script) by calling a datatype's `dataprovider`
   method and passing in (at a minimum) the dataset and the name of a particular format/dataprovider
 * Via the datasets API (which itself calls the `dataprovider` method)
@@ -132,11 +133,13 @@ xhr.done( function( response ){
 There are many data providers included in Galaxy already.
 
 For all formats:
+
 * base:    reads directly from the file without any formating or filtering
 * chunk:   allows breaking file contents into sections of `chunk_size` bytes and offsetting using `chunk_index`
 * chunk64: as chunk, but encodes each section using base64 encoding
 
 For text based formats:
+
 * line:    reads each line from a file, allowing limit, offset, filter functions (in python), removes blank lines,
   removes commented lines, strips whitespace from beginning and end of lines (all configurable)
 * regex-line: as 'line' provider above also allowing `regex_list`, a list of python regex strings. If a line matches
@@ -144,6 +147,7 @@ For text based formats:
   `invert`.
 
 For tabular formats:
+
 * column:  lines are returned as arrays of column data (as above). Many options are available for this provider
   including:
   * indeces: return only the columns specified by a 0-based, comma separated list of integers (e.g. '0,2,5')
@@ -155,6 +159,7 @@ For tabular formats:
   (e.g. column_names='id,start,end'). Based on the `column` provider and allows all options used there.
 
 Dataset specific providers for text and tabular formats:
+
 * You'll often see these used in the built-in providers (e.g. those found in `datatypes/tabular.py`). They attempt
   to infer the proper column settings for other providers by using a dataset's metadata (column names, types, etc.)
 * dataset-column: as the column provider, but infers `column_types` from metadata (for easier parsing)
@@ -162,6 +167,7 @@ Dataset specific providers for text and tabular formats:
   still passing in `column_names`.
 
 For interval datatypes:
+
 * genomic-region and genomic-region-dict: parses and returns chromosome, start, and end data as arrays or dictionaries
   respectively.
 * interval and interval-dict: as genomic-region, but also returns strand and name if set in the metadata.
@@ -218,6 +224,7 @@ in the cookbook.
 ## How to define a new DataProvider
 
 Since data providers are nothing more than fancy python generators, there are three ways to create a new data provider:
+
 * Create a new DataProvider class and inherit from an existing provider and modify it's methods
 * Instantiate an existing provider and pipe its output into a new generator
 * Hardcode or override the option arguments available for an existing provider (e.g. create a csv column provider by

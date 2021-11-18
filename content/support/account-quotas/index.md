@@ -18,6 +18,7 @@ Each Galaxy server is independent. How much disk space to allocate for end users
 If you are working at [Galaxy Main](/main/) (https://usegalaxy.org), each registered account is granted 250 GB of quota space (disk usage for data storage). Review full details [here (account and job quotas)](/main/#user-data-and-job-quotas) and [here (account terms)](/support/account/).
 
 Should you have questions after reviewing the options below, this is how to get help:
+
 * Review prior Q`&`A or ask a novel question at the **Galaxy Help** forum https://help.galaxyproject.org/.
 * Chat with us at **Gitter** https://gitter.im/galaxyproject/Lobby/.
 * Send an **email** to [galaxy-bugs@lists.galaxyproject.org](mailto:galaxy-bugs@lists.galaxyproject.org) from your registered account email address.
@@ -60,6 +61,7 @@ If the account usage is showing that quota is exceeded -[over 250 GB](/main/):
    * **Datasets must be *purged* (permenently deleted) to not count toward quota.**
 
 ### Find Histories that have been shared with you, and unshare those not needed
+
    * All account Histories owned by others, but shared with you, can be reviewed under **User > Histories shared with me**.
    * Review the list. There may be none!
    * Only a small fraction of the data content in "Histories shared with me" are part of your own quota usage, and *unsharing* will not significantly reduce quota usage for most end-users. However, if there are hundreds (or more!), or many large histories shared with you, clearing these up periodically (*unsharing*) could be worth it.

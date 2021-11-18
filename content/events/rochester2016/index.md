@@ -144,6 +144,7 @@ No programming or Linux command line experience is required.
 </div><br />
 
 This workshop is generously supported by **
+
 * [Center for Integrated Research Computing (CIRC)](http://www.circ.rochester.edu/)
 * [UR Genomics Research Center (GRC)](https://www.urmc.rochester.edu/research/for-researchers/shared-resource-laboratories-facilities/laboratories/Rochester-Genomics-Center/)
 * [Edward G. Miner Library](https://www.urmc.rochester.edu/libraries/miner/index.cfm)

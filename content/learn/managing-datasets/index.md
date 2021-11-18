@@ -34,6 +34,7 @@ You have multiple options how to get your files into Galaxy thus making them dat
 # Dataset Icons & Text
 
 Watch the **[Datasets 1](https://vimeo.com/galaxyproject/datasets1)** video to get oriented with these functions using a variety of real datasets on **Galaxy's** public **[Main](/main/)** server **[usegalaxy.org](https://usegalaxy.org)**.
+
 * Upper right corner
   * ![](/images/icons/eye.png) Display data in browser "eye icon"
   * ![](/images/icons/pencil.png) Edit attributes "pencil icon"
@@ -151,6 +152,7 @@ You can ***search your datasets*** in a number of ways:
 * *Clear* the search by removing the text in the bar and pressing enter, or by pressing the ESC key while the text is highlighted, or by clicking on the "clear search" button on the right side of the bar.
 
 Some notes:
+
 * Searches are case insensitive: 'some' will match both 'some' *and* 'Some'.
 * *Searches will persist until cleared*. If you switch histories while searching, the list of datasets will still be
     narrowed to what matches your search terms.
@@ -161,6 +163,7 @@ Some notes:
     *Include hidden datasets* options in the history options menu (the gear icon at the top left of the history panel).
 
 Advanced Options:
+
 * To search for terms that include whitespaces (e.g. a dataset named 'My Dataset' which includes a space) you can
     enclose a search term with double quotes ("My Data") and this will match the dataset in the example but exclude any
     dataset that may have matched an un-enclosed term (such as '~MyInterval' or 'Some Data').

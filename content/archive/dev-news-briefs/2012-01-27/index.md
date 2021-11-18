@@ -36,6 +36,7 @@ date: 2012-01-27
 ## Tools
 
 *Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/) *and* [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/) *for these and other recently updated Tool Dependencies.*
+
 * **[SAMtools:](http://samtools.sourceforge.net/)**
   * All wrappers in group accept versions 0.1.12-0.1.18 with 0.1.16-0.1.18 *strongly* preferred.
   * Exceptions:
@@ -57,6 +58,7 @@ date: 2012-01-27
 * Provide icon to randomly set color in drawable configuration.
 
 ![](/images/news-graphics/2012_01_27_random-color-chooser.png)
+
 * Multi-track dynamic filtering.
 
 ![](/images/news-graphics/2012_01_27_multi-track-filtering.png)

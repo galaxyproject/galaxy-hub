@@ -104,6 +104,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 <div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are August application, poster, and paper deadlines for
+
 * [Extending High-Performance Computing Beyond its Traditional User Communities](http://www.psc.edu/events/escience-2012-workshop/) (deadline August 6)
 * International Digital Curation Conference (deadline August 20)
 * Analysis of High-Throughput Sequencing Data, EMBO Practical Course (deadline August 24)
@@ -206,6 +207,7 @@ Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2
 ## New Distributions
 
 A new Galaxy distribution was [released on July 20, 2012](/archive/dev-news-briefs/2012-07-20/).  Highlights include:
+
 * **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)*
 * **[EMBOSS](http://emboss.sourceforge.net/)** version 5.0.0 tool dependencies in the `emboss_5` repository of the Galaxy Main Tool Shed updated to include information for automatically installing.
 * **Tool Shed** now also supports specifying the third party tool dependencies to be automatically installed in new repositories

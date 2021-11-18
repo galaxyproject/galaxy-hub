@@ -14,10 +14,12 @@ Thank you very much for using our free and open public resource. Galaxy has beco
 The Main quotas are:
 
 Data
+
 - 250Gb for registered users (with a Galaxy account)
 - 5Gb for unregistered users
 
 Jobs
+
 - 8 concurrent jobs running simultaneously (all users)
 
 

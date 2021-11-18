@@ -531,6 +531,7 @@ The project is funded by the Institut National de Recherche sur le Cancer (INCA)
 <div class="card-header">[Software Engineer/Full Stack Developer](https://jobs.jhu.edu/job/Baltimore-Software-EngineerFull-Stack-Developer-MD-21218/667182900/) and [Sr. Programmer Analyst](https://jobs.jhu.edu/job/Baltimore-Sr_-Programmer-Analyst-MD-21218/666390700/)</div>
 
 The Schatz Lab at Johns Hopkins University is looking for:
+
 * Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
 * Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 
@@ -548,11 +549,13 @@ The Schatz Lab at Johns Hopkins University is looking for:
 <div class="card-header">[Galaxy 20.09](/news/2020-11-galaxy-release-20-09/)</div>
 
 See
+
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)**
 * **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html)**
 * **[Release summary video](https://youtu.be/dIeXVW_eoJk)**
 
 Features:
+
 * GTN in Galaxy.
 * Plugin framework for uploading datasets.
 * Upload directly from the Tool Form.

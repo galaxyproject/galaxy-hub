@@ -72,6 +72,7 @@ GCC2017 has [11 sponsors](https://gcc2017.sciencesconf.org/page/sponsors)!  Spon
 There is no better place than a Galaxy Community Conference to meet and learn from others doing data-intensive biology.  [GCC2017](https://gcc2017.sciencesconf.org/) continues this tradition by again including *[Birds of a Feather (BoF)](http://en.wikipedia.org/wiki/Birds_of_a_feather_%28computing%29)* meetups.  Birds of a Feather meetups are informal gatherings where participants group together based on common interests.
 
 Interested?
+
 * [Start a BoF](/news/2017-05-call-for-bofs/)
 * [See already proposed BoFs](https://gcc2017.sched.com/overview/type/Conference/BoF)
 

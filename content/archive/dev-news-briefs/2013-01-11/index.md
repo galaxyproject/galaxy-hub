@@ -59,6 +59,7 @@ There are three categories of repository dependencies which will be discussed in
 # Data
 
 1. Many new reference genome datasets, indexes, and liftOver files have been added to the **public [Main](/main/) Galaxy instance** and **rsync** download area ([get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)). Among these, the following full reference genomes sourced from **[UCSC](http://genome.ucsc.edu/)** were added:
+
   * `Budgerigar Sep. 2011 (WUSTL v6.3/melUnd1)`
   * `Chicken Nov. 2011 (ICGSC Gallus_gallus-4.0/galGal4)`
   * `Cow Oct. 2011 (Baylor Btau_4.6.1/bosTau7) (bosTau7)`
@@ -72,6 +73,7 @@ There are three categories of repository dependencies which will be discussed in
   * `Tenrec July 2005 (Broad/echTel1) (echTel1)`
   * `Turkey Dec. 2009 (TGC Turkey_2.01/melGal1)`
   * `X. tropicalis Nov. 2009 (JGI 4.2/xenTro3) (xenTro3)`
+
 2. #2 Additional genomes, indexes, and related datasets will continue to be published over the next several weeks and highlights will appear in subsequent News Briefs.
 3. #3 The genome "`Yeast (Saccharomyces cerevisiae): Saccharomyces_cerevisiae_S288C_SGD2010`" has been discovered to be mislabeled, representing the Apr. 2011 release from SGD (not Feb. 2010), which makes it identical to the "`sacCer3`" genome from UCSC. This genome will be redacted on the [Main](/main/) server and users should migrate to using the "`sacCer3`" genome build as the alternative. Any chromosome naming issues associated with the `Saccharomyces_cerevisiae_S288C_SGD2010 build` (due to names of format "chr3" instead of the author published "chrIII") will also be resolved by migrating to this new, correct, reference genome build.
 
@@ -79,8 +81,10 @@ There are three categories of repository dependencies which will be discussed in
 # Visualization
 
 1. Enable BBI data provider to work when chromosome naming conventions are mixed.
+
   * e.g. "chr1" and "1" now both resolve to the same chromosome
   * `lib/galaxy/visualization/data_providers/genome.py`
+
 2. #2 Fix bugs that prevented the creation of a Circster visualization from a dataset's visualization icon.
 
 <br />

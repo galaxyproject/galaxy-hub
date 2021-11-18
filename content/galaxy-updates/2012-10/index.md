@@ -94,6 +94,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 <div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are October application, poster, and paper deadlines for
+
 * [Rocky 2012](http://www.iscb.org/rocky2012) (deadline October 4)
 * [BeNeLux Bioinformatics Conference 2012 ](http://www.nbic.nl/bbc2012) (deadline October 22)
 
@@ -200,6 +201,7 @@ There were [two new Galaxy distributions](/docs/) in September:
 ### September 20, 2012
 
 [Highlights](/archive/dev-news-briefs/2012-09-20/)
+
 * A new **[Galaxy tool](/archive/dev-news-briefs/2012-09-20/#galaxy-tool-factory)** that writes other new Galaxy tools? The **[Tool Factory](http://www.youtube.com/watch?v=Nzzc9zHZJjE)** is in the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) (`toolfactory`). Try it **now**
 * **[Learn](/archive/dev-news-briefs/2012-09-20/#multiple-tool-versions)** how to display multiple versions of a tool in the **Galaxy** tool panel.
 * **[CloudLaunch Overhaul](/archive/dev-news-briefs/2012-09-20/#cloudlaunch-overhaul)** includes **[Boto 2.5.2](http://boto.cloudhackers.com)** and simplified instance selection and key generation.
@@ -208,6 +210,7 @@ There were [two new Galaxy distributions](/docs/) in September:
 ### September 7, 2012
 
 [Highlights](/archive/dev-news-briefs/2012-09-07/):
+
 * **[NCBI BLAST+](http://blast.ncbi.nlm.nih.gov/)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/).*
 * **Tool Shed** is now running **[Mercurial version 2.2.3](http://mercurial.selenic.com/)**. Many updates and refinements including UI/metadata changes - read the full report!
 * Streamline local setup with the **[Reference Genome rsync Server](/admin/data-integration/)**: same builds and indexes as on the public **Galaxy [Main](/main/)** instance.

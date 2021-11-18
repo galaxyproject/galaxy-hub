@@ -68,6 +68,7 @@ Please note that this is the first release of this documentation and it is far f
 ### Tool Shed Enhancements inside of Galaxy
 
 1. When migrating tools:
+
   * Fail gracefully if `install_dependencies` is requested, but `tool_dependency_dir` is not set.
   * If only some tools will be installed, list the ones that won't be enabled.
 
@@ -94,6 +95,7 @@ Certain repository contents may occasionally become outdated, perhaps due to oth
 ### Miscellaneous tool shed enhancements and fixes
 
 1. Enhancements to the `tool_config_file`; thanks to [John Chilton](http://bitbucket.org/jmchilton))
+
   * Galaxy now loads tool sections from multiple files in a more consistent manner, and
   * Directories can now appear as a `tool_config_file` option
 

@@ -31,6 +31,7 @@ We assume you have your tool developed, tested, and already working in your loca
 * Writing tools with [Planemo](http://planemo.readthedocs.io/en/latest/writing_standalone.html)
 
 To publish a tool you need to take the following steps:
+
 * Create an account in the ToolShed.
 * Create a repository.
 * Upload your tool to the repository.

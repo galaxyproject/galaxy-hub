@@ -10,6 +10,7 @@ Welcome to the June 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a month
 <div class='right'><a href='http://http://recode.ucc.ie:8080/'><img src="/images/logos/UCCorkLogo300.png" alt="GWIPS-Viz @ University College Cork" width="250" /></a></div>
 
 [GWIPS-viz](http://http://recode.ucc.ie:8080/) features tools for the analysis of protein synthesis.  GWIPS-viz is part of the **G**enome **W**ide **I**nformation on **P**rotein **S**ynthesis using ribosome profiling project, and is in early development. At present it includes tools for motif searches and visualization:
+
 * MEME - Multiple Em for Motif Elicitation
 * FIMO - Find Individual Motif Occurrences
 * Sequence Logo generator for fasta (e.g. Clustal alignments)

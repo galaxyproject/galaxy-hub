@@ -143,6 +143,7 @@ And the Galaxy Project now has it's own [CITATION file](https://bitbucket.org/ga
 <div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
+
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * [Computational biology opening](/news/computational-biology-paris/) at University Pierre-et-Marie-Curie, Paris
 * [M2 Développement et intégration d'outils pour la bioanalyse dans Galaxy](http://www.sfbi.fr/content/m2-d%C3%A9veloppement-et-int%C3%A9gration-doutils-pour-la-bioanalyse-dans-galaxy), Limagrain à Chappes (Puy-de-Dôme, Auvergne)
@@ -413,6 +414,7 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 There were many...
+
 * [naive_variant_caller](http://bit.ly/157Yf3G): process aligned reads, produce VCF file containing per position variant calls
 * [barrnap](http://bit.ly/15kPjMj): ribosomal RNA finder for Bacterial genome sequences  
 * [prokka](http://bit.ly/17XlJej) (and [a second wrapper](http://bit.ly/1d6tK3R)): rapid annotation of prokaryotic genomes

@@ -125,15 +125,18 @@ Looking to extend your trip?  There are also **[at least 7 other events](/news/n
 <div class='right'><a href='/news/near-gcc2015/'><img src="/news/near-gcc2015/MatrixSnap.png" alt="Events nearby GCC2015" width="150" /></a></div>
 
  In Norwich
+
 * [iPlant Tools & Services Workshop](http://www.tgac.ac.uk/361_Division/training-programme/courses-workshops/tgac-events/iplant-tools-and-services/)
 * [BioJS Conference and Hackathon](http://conf.biojs.net/)
 
  In Cambridge
+
 * [Exploring Human Host-Microbiome Interactions in Health and Disease](https://registration.hinxton.wellcome.ac.uk/display_info.asp?id=480)
 * [Exploring Plant Variation Data](http://www.ebi.ac.uk/training/course/mining-plant-variation-data)
 * [Human Genome Analysis: Genetic Analysis of Multifactorial Diseases](http://www.wellcome.ac.uk/Education-resources/Courses-and-conferences/Advanced-Courses-and-Scientific-Conferences/Advanced-Courses/WTX026851.htm)
 
  In Dublin
+
 * [OpenBio Codefest 2015](http://www.open-bio.org/wiki/Codefest_2015)
 * [ISMB / EECB 2015](http://www.iscb.org/ismbeccb2015) including [BOSC 2015](http://www.open-bio.org/wiki/BOSC_2015) and [BioVis 2015](http://www.biovis.net/) and [lots of Galaxy content](/events/ismb2015/).
 

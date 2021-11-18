@@ -281,6 +281,7 @@ See the [17.09 release announcement](https://docs.galaxyproject.org/en/master/re
 ### Galaxy Docker Image 17.09
 
 The [Galaxy Docker project has seen a matching release](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.09), for Galaxy 17.05. Major features include
+
 * much improved documentation about using Galaxy Docker and an external cluster ([@rhpvorderman](https://github.com/rhpvorderman))
 * CVMFS support - mounting in 4TB of pre-build reference data ([@chambm](https://github.com/chambm))
 * Singularity support and tests (compose only)

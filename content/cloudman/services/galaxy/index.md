@@ -34,6 +34,7 @@ By default, CloudMan is configured with the Main and Test Tool Sheds. If you wou
 ### Updating Galaxy source
 
 Galaxy application installed within CloudMan can be updated to a newer version via git. To do so
+
 1. Stop Galaxy service via CloudMan Admin by clicking on the 'Stop' button next to the Galaxy service name
 
 <img src="http://i.imgur.com/SV3gHFA.jpg" alt="" width=500 />

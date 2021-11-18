@@ -124,6 +124,7 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 2. **Tool search**: remove **[Whoosh](http://packages.python.org/Whoosh/)** handling for **[Python version 2.4](http://www.python.org/)** and remove *minscore*.
 3. Performance enhancements for **Build custom track for UCSC** genome browser tool.
 4. Add **genomespace** tools to `tool_conf.xml.main`.
+
   * Get Data -> [GenomeSpace](http://www.genomespace.org) import
   * Send Data -> [GenomeSpace](http://www.genomespace.org) export
   * **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [Main](/main/).
@@ -150,9 +151,11 @@ Quick start to graphing data:
 1. Click on the visualizations icon of a tabular dataset.
 
 <a href='http://usegalaxy.org'><img src="/images/news-graphics/2012_10_23_scatterplot-ui-icon.png" alt="scatterplot-ui-icon" /></a>
+
 1. #2 Next, select 'Scatterplot' from the popup menu that appears and the main panel will load with data and graph options. Chose which two columns to load as datapoints and click the 'Draw' button to display the graph.
 
 <a href='http://usegalaxy.org'><img src="/images/news-graphics/2012_10_23_scatterplot-popupmenu.png" alt="scatterplot-popupmenu" /></a>
+
 1. #3 Tool is still undergoing further development and full documentation is pending, but here are the key details.
 
 Basic specifications, functions, and features:
@@ -182,6 +185,7 @@ Detail view of center panel:
 1. Enable dataset upload via tools controller; thanks to [Brad Chapman](http://bitbucket.org/chapmanb).
 2. Enable querying of current history and user; thanks to [Brad Chapman](http://bitbucket.org/chapmanb).
 3. A new folders API has been developed. It permits operations in formats similar to the library API. Wiki documentation is pending, but for now, the available actions are defined as:
+
   * `GET /api/folders/{FolderId`}: This returns information about the folder.
   * `POST /api/folders/{FolderId`}: Create a folder. The same parameters as `POST /api/libraries/{LibraryId}/contents/{FolderId`} are utilized, except that the `create_type parameter` is ignored.
   * `GET /api/folders/{FolderId}/contents`: This returns the folder's contents.
@@ -199,6 +203,7 @@ Detail view of center panel:
 # Bug Fixes
 
 1. Galaxy
+
   * Fix for preview display of tabular items when certain metadata was not set.
   * Do not use `backrefs` in mapping for `copied_from_library_dataset/history _dataset_association` as it confuses **[SQLAlchemy](http://www.sqlalchemy.org)** (resulted in 'is not available, due to conflicting property').
   * Correctly determine the inheritance and creating job for a dataset. Fixes issues with showing dataset info, rerun, viewing and reporting dataset errors.
@@ -209,7 +214,9 @@ Detail view of center panel:
   * Fix for dataset display.
   * Various fixes for **[Python 2.5](http://www.python.org/)**.
   * Bugs introduced during the controller architecture migration (often resulting in error message such as "No module named controllers.XYZ") have been traced and resolved.
+
 2. Tool Shed
+
   * Fix for tool shed `get_category_by_name` when category does not exist.
   * Better handle missing 'tool' entry in tool repository metadata.
 

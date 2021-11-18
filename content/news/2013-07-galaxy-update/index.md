@@ -7,6 +7,7 @@ date: "2013-06-30"
 The [July 2013 Galaxy Update is now available](/galaxy-updates/2013-07/).
 
 **Highlights:**
+
 * **[GCC2013](/events/gcc2013/)** starts today in Oslo, Norway.
 * [Four new public servers](/galaxy-updates/2013-07/#new-public-servers)
 * [A record 53 new papers](/galaxy-updates/2013-07/#new-papers)

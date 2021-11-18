@@ -86,6 +86,7 @@ The [Galaxy Test Server](/test/), http://test.g2.bx.psu.edu/, is an experimental
 ## Using Galaxy for Transcriptome Analysis
 
 See
+
 * [this Galaxy Page](http://main.g2.bx.psu.edu/u/jeremy/p/transcriptome-analysis-faq) by Jeremy Goecks.
 * [Blogspot post](http://kevin-gattaca.blogspot.com/2011/09/faq-howto-do-rna-seq-bioinformatics.html).
 

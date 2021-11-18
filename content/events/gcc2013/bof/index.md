@@ -20,6 +20,7 @@ Past Galaxy Community Conferences have been *the* event for networking in the Ga
 BoFs can range from preplanned and pre-announced to just pre-announced to completely spontaneous.  Pre-announcing a BoF has the advantage that conference participants can be notified of them ahead of time, and people can plan ahead to attend.
 
 BoF meetups are encouraged throughout GCC2013.  We particularly want to encourage BoFs that flock
+
 * during [lunch on any of the three days](/events/gcc2013/program/), and
 * at [the Escape Pub](/events/gcc2013/program/#escape-to-the-pub) after each of the first two days.
 

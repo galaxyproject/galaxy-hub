@@ -73,6 +73,7 @@ Heads up [GalaxyAdmins](/community/galaxy-admins/), please join us! A primary ta
 ## Ideas
 
 Add these before the BoF to aid in focusing our discussion. We'll create a [https://wiki.galaxyproject.org/GalaxyScientists](https://wiki.galaxyproject.org/GalaxyScientists) group wiki during and migrate Ideas and Resolutions content there.
+
 * Create the community group "GalaxyScientists" ??
 * **Publish a group wiki: [https://wiki.galaxyproject.org/GalaxyScientists](https://wiki.galaxyproject.org/GalaxyScientists)**
 * Who?

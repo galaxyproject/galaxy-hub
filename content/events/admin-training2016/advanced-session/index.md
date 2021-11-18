@@ -31,6 +31,7 @@ You need to have a solid grasp of the, Linux command line, a text editor, and Li
 <span style="font-size: larger;"> 2. Understanding of [material covered in the Basic Topics workshop](/events/admin-training2016/basics-session/#topics) </span>
 
 You can get this by
+
 1. Attending the [Basic Topics Workshop](/events/admin-training2016/basics-session/), or
 1. Having actual experience with setting up and running your own Galaxy server.
 

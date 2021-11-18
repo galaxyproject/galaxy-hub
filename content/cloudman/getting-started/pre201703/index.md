@@ -65,6 +65,7 @@ After the cluster has started, it will take a few more minutes for all the appli
 ----
 
 Depending on your interest, the documentation contains a wealth of information. Here are some places that might interest you:
+
 * [Capacity planning](/cloudman/capacity-planning/)
 * [Cluster applications and services](/cloudman/services/)
 * [Sharing and publishing a cluster](/cloudman/sharing/)

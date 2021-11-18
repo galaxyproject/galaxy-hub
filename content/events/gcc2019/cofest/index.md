@@ -73,6 +73,7 @@ Childcare won't be available during CoFest:Encore.
 * [The team](https://galaxyproject.org/events/gcc2019/organizers/#collaborationfest-organizers)
 
 Contact us at
+
 * CoFest 2019 Organizers <cofest2019-org@lists.galaxyproject.org>
 
 # CollaborationFest Sponsors

@@ -425,6 +425,7 @@ In Galaxy's development branch, the basic tool from has been [redesigned and mod
 ## Planemo 0.2.0
 
 Version 0.2.0 of [Planemo](https://github.com/galaxyproject/planemo/blob/master/README.rst) was released in January.  Planemo is a set of command-line utilities to assist in building tools for the Galaxy project.  Updates included:
+
 * Improvements to way Planemo loads its own copy of Galaxy modules to prevent various conflicts when launching Galaxy from Planemo. ([Pull Request 56](https://github.com/galaxyproject/planemo/pull/56))
 * Allow setting various test output options in ``~/.planemo.yml`` and disabling JSON output.
 * More experimental Brew and Tool Shed options that should not be considered part of Planemo's stable API. See [this presentation](http://bit.ly/gxbrew1) for more details.

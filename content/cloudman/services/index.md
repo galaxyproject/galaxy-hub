@@ -3,6 +3,7 @@
 <slot name="/cloudman/linkbox-horizontal" />
 
 CloudMan manages a set of applications that are referred to as *services*. Some of the services are user-facing applications (e.g., Galaxy) while others are dependencies for other services and are not used by end-users directly (e.g., NodeJSProxy). A complete list of services managed by CloudMan is available on the CloudMan Admin page; that page also allows you to control the state of those services. Below if a list of the available services; if additional information is available about a specific service, it is available by clicking on the service name:
+
 * [Post Start Script (PSS)](/cloudman/services/pss/) - a custom script provided via a URL that's run at the end of the server bootstrap process
 * [Cloudera Manager](/cloudman/services/cloudera-manager/) - an service manager used to deploy Big Data services (e.g., Hadoop)
 * [Cloudgene](/cloudman/services/cloudgene/) - a graphical user interface application for Hadoop-based workflows

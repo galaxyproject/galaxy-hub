@@ -46,6 +46,7 @@ Phyloviz supports a number of user interaction features to help you present, ana
 #### Saving and Sharing:
 
 Any visualization you create/view, or any changes you made to the tree within (eg. zoom or changing name) Phyloviz can be saved or shared. Note that searching highlights, and node selection highlight will NOT be saved.
+
 * **Save**: By clicking on the save button on the top right corner of the application.
 * **To access saved visualization**: Go to Visualization on the top navigation bar > Click Saved Visualization. From the same page, you can also set up sharing options with other users or to share it with the public.
 

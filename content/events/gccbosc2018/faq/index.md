@@ -7,12 +7,14 @@
 Poster and demo listing available on https://gccbosc2018.sched.com. Note - odd numbers are presented on Wednesday, even numbers on Thursday.
 
 ## Posters:
+
 - The poster/demo sessions are scheduled on Wed and Thurs (June 27 and 28) from 3-4pm in the Performing Arts Building (PAB) atrium. Your poster must measure not more than 4 x 4 feet (121 x 121 cm).
 - Poster setup starts at 8am on Wednesday morning, and all posters should be up before 3pm on Wednesday.
 - Posters should be left up until at least 4pm on Thursday. Posters should be taken down no later than 7pm on Thursday.
 - Odd-numbered posters will present on Wed and even-numbered on Thurs.
 
 ## Demos:
+
 - The poster/demo sessions are scheduled on Wed and Thurs from 3-4pm.
 - Tables will be available for demos in the Performing Arts Building (PAB) during the same time as the poster sessions.
 - Odd-numbered demos will present on Wed and even-numbered on Thurs.

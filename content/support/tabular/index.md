@@ -4,6 +4,7 @@
 [Back to Support Hub](/support/)
 
 Related Topics
+
  * [Fastq Manipulation and Quality Control](/tutorials/ngs/#fastq-manipulation-and-quality-control)
  * [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
  * [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)

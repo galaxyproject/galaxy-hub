@@ -28,6 +28,7 @@ on the defined persistence media.
 
 
 Related publications and presentations:
+
 - [Jalili, V., et al. "Cloud Bursting Galaxy: Federated Identity and Access Management."](https://www.biorxiv.org/node/149950.abstract);
 - [Afgan, E., et al. "Federated Galaxy: Biomedical Computing at the Frontier." IEEE CLOUD 2018](http://doi.ieeecomputersociety.org/10.1109/CLOUD.2018.00124);
 - [Jalili, V., et al. "Storage Media Federation for Galaxy." GCCBOSC 2018](https://vimeo.com/291738189);

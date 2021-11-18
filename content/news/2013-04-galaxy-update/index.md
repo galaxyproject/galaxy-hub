@@ -7,6 +7,7 @@ date: "2013-04-01"
 The [April 2013 Galaxy Update is now available](/galaxy-updates/2013-04/).
 
 **Highlights:**
+
 * the [GCC2013](/galaxy-updates/2013-04/#gcc2013) **[oral presentation abstract deadline is 12 April](/events/gcc2013/abstracts/)**, which is less than 2 weeks away.  [Early registration](/events/gcc2013/register/), and [poster abstract submission](/events/gcc2013/abstracts/) are also open.
 * [Two new public Galaxy servers](/galaxy-updates/2013-04/#new-public-galaxy-servers) are featured
 * The [slides and screencast for the March GalaxyAdmins meetup](/galaxy-updates/2013-04/#galaxyadmins) are available.

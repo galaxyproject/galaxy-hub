@@ -109,6 +109,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 <div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are November application, poster, and paper deadlines for
+
 * ICG & Bio-IT APAC 2012 abstract and poster deadlines (Oct 31 and Nov 15)
 * Next Generation Sequencing Workshop application deadline (U Adelaide, Nov 2)
 * Rocky 2012 early registration deadline (Nov 8)

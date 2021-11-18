@@ -32,6 +32,7 @@ The files here are a small subset of the files available for download from MProm
 These files are from the [Transcription Factor Binding Sites by ChIP-seq from ENCODE/Stanford/Yale](http://genome.ucsc.edu/cgi-bin/hgFileUi?db=mm9&g=wgEncodeSydhTfbs) mouse ChIP-SEQ experiment in the ENCODE project.  These data were generated and analyzed by the labs of
 [Michael Snyder](http://snyderlab.stanford.edu/) at Stanford University and
 [Sherman Weissman](http://info.med.yale.edu/bcmm/SMW/SMWhome2.html) at Yale University. The exact data can be found at:
+
 * ftp://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeSydhTfbs/
   * wgEncodeSydhTfbsMelCtcfDmso20IggyaleRawDataRep2.fastq.gz - tags dataset
   * wgEncodeSydhTfbsMelInputDmso20IggyaleRawData.fastq.gz - control dataset (**note**: this is a correction from the control data source listed in the publication)

@@ -37,6 +37,7 @@ The Language Analysis Portal (LAP) is a Galaxy-based system that is currently be
 Cloud-based Image Analysis and Processing Toolbox project runs on the [Australian National eResearch Collaboration Tools and Resources (NeCTAR)](http://www.nectar.org.au) cloud infrastructure and allows access to biomedical image processing and analysis services to researchers via remotely accessible user interfaces. The toolbox is based on software packages and libraries developed over the last 10-15 years by [CSIRO](http://www.csiro.au) scientists and software engineers and include functionality: (a) automating process of quantifying cell features in microscopy images; (b) a 3D medical imaging analysis and visualisation platform popular with researchers and medical specialists working with MRI, PET and (c) advanced X-ray image analysis and Computed Tomography. The Galaxy is used a glue to link various imaging functions into fully functional Virtual Laboratory. By providing user-friendly access to cloud computing resources and new workflow-based interfaces, our solution will enable the researchers to carry out various challenging image analysis and reconstruction tasks that are currently impossible or impractical due to the limitations of the existing interfaces. Several case studies will be presented at the conference
 
 Links:
+
 * [Blog](http://cloudimaging.blogspot.com.au)
 * [Galaxy in cellular image analysis](https://www.youtube.com/watch?v=CZMDyqQwJLY)
 * [YouTube channel](https://www.youtube.com/user/CloudImaging)
@@ -258,6 +259,7 @@ In theory, the tools make it possible for anyone with internet access to perform
 RNA was extracted from tissue using the Maxwell automated system (Promega) and Quality was assessed using the Agilent 2100 system.
 
 For each genotype 3 groups were formed:
+
 1. All individual samples separately
 2. Pool of 8 samples
 3. Pool of 3 samples.
@@ -265,14 +267,17 @@ For each genotype 3 groups were formed:
 TruSeq libraries were constructed for individual samples and pools following polyA enrichment. Libraries were sequenced on an Illumina HiSeq 2000 platform with 50bp SE sequencing.
 
 *Analysis:* For all samples
+
 * Data filtering including removal of adaptors, contamination and low-quality reads from raw reads
 * Assessment of sequencing（Statistics of raw reads, Sequencing saturation analysis, analysis of the distribution of reads on reference gene）
 * Gene expression annotation
 
 Between genotypes for all groups:
+
 * Differential gene expression analysis (Screening of differentially expressed genes (DEGs), and experimental repeatability analysis of DEGs)
 
 Between groups:
+
 * Comparison of DEGs (DEGs detected in Group 1 as reference)
 
 <br />

@@ -14,6 +14,7 @@ Documentation for administering Galaxy can be found [here](/admin/).
 ## Docs with code
 
 The following resources provide documentation for using Galaxy through the API.
+
 1. API - The application programming interface [documentation](https://docs.galaxyproject.org/en/master/api_doc.html).
 1. Framework - The Python framework [documentation](https://docs.galaxyproject.org/en/master/lib/modules.html).
 

@@ -66,6 +66,7 @@ A number of notable videos and video collections have recently been published:
   * Recordings of Galaxy Webinars and Workshops are spread across the web.  This playlist attempts to list recent webinars that we know about that are on YouTube.  This list is brand new and is rapidly expanding.
 * **[Community](https://youtube.com/playlist?list=PLNFLKDpdM3B-IT4cyNMHcQFLmxdDS8YKm)**
   * Videos that introduce the Galaxy community.
+
 </div>
 
 
@@ -134,6 +135,7 @@ The recently opened **[Galaxy Career Center](/careers/)** lists every Galaxy Rel
   * **GalaxyWorks, University of Minnesota, Cleveland Clinic, and Johns Hopkins University (3 positions)**
 * **Europe**
   * **Incliva (24 March), INSERM (1 April), and Hannover Medical School**
+
 </div>
 </div>
 
@@ -174,6 +176,7 @@ Has [launched](https://www.elixir-czech.cz/news/czech-galaxy-community-questionn
 
 * Filling out the [Czech Galaxy Community Questionnaire](https://bit.ly/czech-gxy)
 * Signing up for the [Galaxy Czech community mailing list](https://lists.galaxyproject.org/lists/galaxy-czech.lists.galaxyproject.org/).
+
 </div>
 
 
@@ -211,6 +214,7 @@ The [Open Genome Informatics Consortium](http://gmod.org/wiki/GSoC) of which Gal
 
 1. Please [add suggestions for projects here](http://gmod.org/wiki/GSOC_Project_Ideas_2021) (or send them to Dave Clements).
 2. Please apply to work on Galaxy projects between March 29 and April 12.
+
 </div>
 
 
@@ -520,6 +524,7 @@ Interested in being an early adopter? See the [full announcement](https://galaxy
 
 * [Change a datatype on multiple datasets](https://galaxyworks.io/blog/change-datatype-on-many-datasets), Feb 8, by Dan Blankenberg
 * [How to choose the Galaxy that works for you](https://galaxyworks.io/blog/choose-your-galaxy), Mar 1, by Enis Afgan
+
 </div>
 
 

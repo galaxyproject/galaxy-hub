@@ -20,6 +20,7 @@ For sure existence of this Galaxy-E instance is due to the work of so many peopl
 ### So what happen since GCC? Cripsy things ;)
 
 Thanks to the [H2020 GAPARS project](http://gapars.mmos.ch/), we deploy 2 small scale experiments,
+
 - Galaxy-Bricks, a data analysis tool based on Galaxy for ecology designed for non-professional scientists to develop data literacy, favor open data and collaboration in our communities.
 - MOODA, to enable Massive Open Online Data Analysis using Galaxy to facilitate giving access to large communities of analyzers (professional and non-professional scientists) research datasets, tools and compute.
 

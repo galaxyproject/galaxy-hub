@@ -48,6 +48,7 @@ We still have some kinks to work out and there remains other services to add, bu
 ## Future Developments - spoiler alert!
 
 We still have some steps to take before Galaxy Cancer is ready for users, but that day draws nearer! In the meantime, here's a preview of what's to come:
+
 - programmatic access to controlled [CRDC](https://datacommons.cancer.gov/) data
 - more iobio services as ITs
 - more tools and workflows

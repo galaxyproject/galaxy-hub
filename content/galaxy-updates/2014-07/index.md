@@ -315,6 +315,7 @@ The most recent version of CloudMan was [released in January 2014](/news/cloudma
 <br /><br />
 
 One new [Log Board entry](/blog/) was added in June:
+
 * [Local Tool Shed with https and LDAP](/blog/2014-06-toolshed-with-https-and-ldap/)
 
 The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them.

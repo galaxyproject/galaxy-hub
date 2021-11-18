@@ -79,8 +79,11 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/support/biostar/)*
 # Data
 
 1. *Data Manger*:
+
   * Genome Builds / dbkeys: Make adding builds accessible by Data Manager. tools https://trello.com/c/5d077rYP
+
 1. Reference Data:
+
   * Replaced: hg19 100waymultiz conservation alignments sourced from [UCSC](http://genome.ucsc.edu) utilized by "Fetch Alignments (MAF)" tools and available via rsync. https://trello.com/c/hlNAx4wq https://trello.com/c/5d077rYP
   * Updated: NCBI taxonomy data utilized by metagenomics analysis tools and available via rsync. https://trello.com/c/5d077rYP
   * Updated: NCBI database indexes utilized by Megablast and available via rsync. https://trello.com/c/jH2UBpaJ
@@ -102,9 +105,12 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/support/biostar/)*
 # Visualizations
 
 1. *Trackster*:
+
   * Implement location router in shared visualizations. https://trello.com/c[/C7Ypv](/archive/dev-news-briefs/2014-06-02/C7Ypv/)TAi
   * Put converted datasets into history as hidden dataset. https://trello.com/c[/G5ZzUb3](/archive/dev-news-briefs/2014-06-02/G5ZzUb3/)X
+
 1. External Display Applications:
+
   * Updates to IGB display of XML files. https://trello.com/c/e23KKCKb https://trello.com/c/qJyALlN7
   * Added IGB display support for bed graph files. hillrunner2008, [PR#361](https://bitbucket.org/galaxy/galaxy-central/pull-request/361/). https://trello.com/c/pJeuhEP3
   * `GenomeSpace` (OpenID) Token Expiration. https://trello.com/c/riMxlQ6k
@@ -141,19 +147,24 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/support/biostar/)*
 # Core
 
 1. Admin:
+
   * Messaging and Task Queue update. https://trello.com/c[/B0pV80d0](/archive/dev-news-briefs/2014-06-02/B0pV80d0/)
   * Client side logging for metrics and API entry point for fluentd. https://trello.com/c/7yfdzZj2
   * Improve `View data tables registry` for developers. https://trello.com/c/gmClxfV8
   * Update `phantomjs 1.9` and `casperjs 1.1` plus tests and modules in `test/casperjs`. https://trello.com/c/VjDIpgt3
   * Page controls now loaded with `history/list_published.mako`. https://trello.com/c/nR2X7VJW
   * Added rolling restart script to kill servers sequentially. Helena Rasche, [PR#393](https://bitbucket.org/galaxy/galaxy-central/pull-request/393/). https://trello.com/c/jdldxhlk
+
 1. Config:
+
   * Admin action to reload ".loc" files without restarting Galaxy. https://trello.com/c/c7nUco3u
   * Allow for an arbitrary number of `tool_data_table_config_path` files. https://trello.com/c/rm2p8PpZ
   * Better reflect `allow_user_dataset_purge` configuration in history panel. https://trello.com/c/RCPZ9zMF
   * Create `run_tests.sh` to replace `run_functional_tests.sh`. https://trello.com/c/46KduuJs
   * Remove misc files that slipped past `hgignore`. Trevor Wennblom, [PR#364](https://bitbucket.org/galaxy/galaxy-central/pull-request/364/). https://trello.com/c/NlbwJMjA
+
 1. Jobs:
+
   * Documentation Updates: https://trello.com/c/jDLtI38Z https://trello.com/c/CRjWSodv
     * https://wiki.galaxyproject.org/Admin/Config/JobMetrics
     * https://wiki.galaxyproject.org/Admin/Config/Jobs#Job_Destinations

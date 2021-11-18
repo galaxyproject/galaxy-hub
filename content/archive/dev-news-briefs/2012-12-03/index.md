@@ -48,6 +48,7 @@ Harris, R.S. (2007) *[Improved pairwise alignment of genomic DNA](http://www.bx.
 [CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 This update brings a large number of updates and new features, the most prominent ones being:
+
 * Support for Eucalyptus cloud middleware; thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).
 * Added a new file system management interface on the CloudMan Admin page, allowing control and providing insight into each available file system
 * Added quite a few new user data options. See the [UserData page](/cloudman/userdata/) for details; thanks to [John Chilton](http://bitbucket.org/jmchilton).
@@ -129,6 +130,7 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
 3. Added back in "display" and "edit" attribute buttons to datasets in the error state.
 4. Scatterplot visualization tool: updated layout of features.
 5. Updated History Pull-down menu. Options affect all datasets in the current history:
+
   * Resume Paused Jobs - a single-click resume of all paused datasets
   * Collapse Expanded Datasets - a single-click to collapse all expanded datasets
   * Show/Hide Deleted Datasets - a single-click toggle to show or hide all deleted datasets

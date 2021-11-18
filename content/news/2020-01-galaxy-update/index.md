@@ -37,6 +37,7 @@ There is an unusually rich (and aromatic!) mix of [upcoming Galaxy related event
 <div class="card-header">BCC2020: Call for Tutorial Nominations</div>
 
 The **[Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/)** needs
+
 * **[Nominate Training Topics](https://bcc2020.github.io/blog/training-nom) by January 17**
 
 BCC is [GCC](/gcc/) + [BOSC](https://www.open-bio.org/events/bosc/about/#Past_BOSCs), and will be held in July in Toronto, right after [ISMB 2020](https://www.iscb.org/ismb2020) in Montréal.
@@ -300,6 +301,7 @@ This [Galaxy docker instance](https://hub.docker.com/r/mpaya/epigenomics_galaxy)
 
 * UseGalaxy.org.Au is expanding its range of tools to better support different communities [including 19 metabolomics analysis tools & 2 workflows](https://twitter.com/GalaxyAustralia/status/1207453015814238208/photo/1) and 20 new tools for trimming, analysing, QC and assembling Oxford Nanopore data
 * [Galaxy Australia upgraded to Galaxy version 19.09](https://usegalaxy-au.github.io/posts/2019/12/11/galaxy-australia-to-galaxy-version-19-09/plain.html)
+
 </div>
 
 <div class="card border-info"  style="min-width: 17rem;">

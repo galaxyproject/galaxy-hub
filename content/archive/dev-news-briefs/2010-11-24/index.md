@@ -50,10 +50,12 @@ Here are the highlights of the following upgrade:
 * For example, a user can drag a slider to filter a file of splice junctions to view junctions supported by different numbers of reads.
 
 ![trackster splice example](/archive/dev-news-briefs/2010-11-24/2010_11_24_trackster_splice_b.png)
+
 * Improved CIGAR support to BAM display. Properly displays matches,
 
 deletions, skipped bases, and clipping. Padding for insertions are
 currently not represented in the display.
+
 * GFF feature blocks are now displayed correctly, along with name, strand, and score information.
 * General enhancements
   * Removed right-hand pane, allow inline re-ordering and configuration of elements
@@ -168,10 +170,12 @@ off, Galaxy will look for the following instead:
 * New function for downloading metadata files associated with datasets
 
 (such as bai indices for bam files). See the Save icon drop-down menu.
+
 * Enable display of unicode characters in history and workflow annotations and when listing and running workflows.
 * Dynamicically generated popup-style menus. Greatly improves load
 
 time, especially for data libraries having potentially large menu.
+
 * Labels next to checkboxes can now be clicked to check the corresponding box.
 * Radio boxes in tool forms now also have clickable labels as well.
 * New style for search boxes in grids. Grid items will no longer show outline when hovered upon if there are no actions to be performed.

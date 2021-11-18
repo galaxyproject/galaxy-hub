@@ -165,6 +165,7 @@ June is an active month for the Scientific Gateways Community Institute:
   * June 16-18, with main presentations 12-1:30 pm ET each day, and optional office hours and special topics presentations from 2-5 pm ET
   * **Register by June 12, 2020**
 * **[Galaxy: Powering Science from the Desktop to Global Cyberinfrastructure](https://sciencegateways.org/engage/webinars)**, June 24, Nate Coraor.
+
 </div>
 
 
@@ -204,6 +205,7 @@ And material from some recent past events is now available:
 
 * **Videos of all 5 sessions in the [Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19) are now available**.
 * Slides and video for the webinar [Galaxy Project—Enabling an active global research community](https://sciencegateways.org/-/galaxy-project-enabling-an-active-global-research-community?inheritRedirect=true&redirect=%2Fengage%2Fwebinar-archive) are online.
+
 </div>
 </div>
 
@@ -219,9 +221,11 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <img class="card-img-top" src="/use/marea4galaxy/marea4galaxy-logo.png" alt="MaREA4Galaxy" />
 
 The **[MaREA4Galaxy server](http://bimib.disco.unimib.it:5555/)** supports the *Metabolic Reaction Enrichment Analysis and visualization of RNA-seq data* toolset.  This includes tools to
+
   * Compute Reaction Activity Scores from gene expression (RNA-seq) dataset(s).
   * Cluster analysis of any dataset, according to most used algorithms: K-means, agglomerative clustering and DBSCAN.
   * Analyze and visualize differences in the Reaction Activity Scores (RASs) of groups of samples, as computed by the Expression2RAS tool, of groups of samples.
+
 </div>
 
 
@@ -249,6 +253,7 @@ The **[wQAP Galaxy server](http://life2cloud.com:6005/qap)** is an online versio
 
 * UseGalaxy.eu has surpassed 100,000 *workflow* invocations.
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html)
+
 </div>
 
 

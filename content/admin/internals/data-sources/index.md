@@ -36,6 +36,7 @@ Checklist for DataSource tools:
 <uihints> and <display> are no longer used.
 
 Some example DataSources:
+
 * https://github.com/galaxyproject/galaxy/blob/dev/tools/data_source/ucsc_tablebrowser.xml
 * https://github.com/hexylena/galaxy-data_source-examples
 

@@ -196,6 +196,7 @@ We are pleased to announce several new [sponsorships](/events/gcc2014/sponsor-ex
 <br />
 
 Also please welcome three new [Silver Sponsors](/events/gcc2014/sponsor-exhibit/):
+
 * [Globus Genomics](http://globus.org/genomics), for the 3rd year
 * [GigaScience Journal](http://www.gigasciencejournal.com/) and [BioMed Central](http://www.biomedcentral.com/), for the 2nd year
 * [ABgenomica](http://www.abgenomica.com/), for the first time.

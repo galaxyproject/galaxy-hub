@@ -87,6 +87,7 @@ or 3) **eq**: using string comparison of any model's attribute (the default - no
 
 
 Note that, for `datatype` testing:
+
 * you need to use the datatype module namespace (e.g. `data.Newick` or `tabular.Tabular`)
 * the use of isinstance allows you some flexibility for your testing, as any sub-class of a datatype will still pass
   the `datatype` test (e.g. a SAM file will be considered applicable if you test for the `datatype` `tabular.Tabular`)
@@ -170,6 +171,7 @@ For example, the scatterplot visualization has the following params (it only nee
   name `hda`
 
 Other complex `params` are also parsed:
+
 * `type="hda_or_ldda"`: for visualizations that accept either an HDA or LDDA
 * `type="dbkey"`: for visualizations that require the genome build of a target object
 * `type="json"`: when data is bundled and passed as JSON (the string will be parsed into a python structure for the
@@ -178,6 +180,7 @@ Other complex `params` are also parsed:
 Primitive types are parsed as well: 'str', 'bool', 'int', 'float' ('str' is the default type).
 
 Besides the `param` attributes above, the following are also available:
+
 * csv : `csv="true"` will split the query string value at commas, and recursively parse each element using the `type`
   attribute sending the final list to the template. For example: `<param type="int" csv="true">indeces</param>` would
   parse the query string key/value pair `?indeces=3,4,9,12&` and send it to the template as: `indeces = [ 3, 4, 9, 12 ]`
@@ -217,6 +220,7 @@ galaxy.web.base.pluginframework WARNING 2014-01-28 10:26:04,147 VisualizationsRe
 
 If a configuration loads successfully and you're **not seeing a link** to it on a dataset or data source that
 *should* display one:
+
 * Check the configurations `model_class` - it is case sensitive and the class should be part of `model/__init__.py`
 * Check the order of your `data_sources` - order matters here - go from specific first to general
 * Check your tests - attributes must be valid attributes of the `model_class`

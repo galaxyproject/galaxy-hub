@@ -19,6 +19,7 @@ Contact: [Simon Gladman](mailto:simon DOT gladman AT monash DOT edu), [Andrew Lo
 # Description
 
 The plan is to have a discussion surrounding:
+
 * Types of training
 * Available materials and their format
 * Infrastructure requirements
@@ -115,6 +116,7 @@ The list below was created during this BoF.  A published list of best practices 
 ## Training Servers?
 
 Is it possible to have a persistent training server?  Some ideas:
+
 * Disable data importing.
 * Prominently state that all user data and accounts will be deleted at specific time intervals.
 

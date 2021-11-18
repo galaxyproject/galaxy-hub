@@ -9,6 +9,7 @@ date: "2016-02-02"
 The **[February 2016 Galactic News](/galaxy-updates/2016-02/)** is hot off the presses.  Here are some highlights:
 
 **[GCC2016](/galaxy-updates/2016-02/#gcc2016) early registration and abstract submission are now open.**  
+
 * [Register early](/galaxy-updates/2016-02/#gcc2016-early-registration-is-open) and save up to 40% off regular registration costs. Early bird prices start at less than $45 / day for post-docs and students.
 * [Abstract submission is open](/galaxy-updates/2016-02/#gcc2016-abstract-submission-is-open) as well. If you are doing work in data-intensive biology then you are strongly encourage to present your work at the conference.  Oral presentations, poster presentations, and the new Visualization Showcase & Software Demos are all opportunities to share your work.
 * And, we have two new sponsors: Please welcome [Lenovo and Globus Genomics](/galaxy-updates/2016-02/#sponsors) to GCC2016.

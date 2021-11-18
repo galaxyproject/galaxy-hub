@@ -270,6 +270,7 @@ Alexander S. Kirpich, Miguel Ibarra, Oleksandr Moskalenko, Justin M. Fear, Josep
 <div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
+
 * [Software Developer](https://jobs.quadram.ac.uk/Details.asp?vacancyID=13373) and [Bioinformaticians](https://jobs.quadram.ac.uk/Details.asp?vacancyID=13372), [Quadram Institute](http://www.quadram.ac.uk/), Norwich , United Kingdom
 * [Ingénieur en Bioinformatique NGS](https://www.sfbi.fr/content/ing%C3%A9nieur-en-bioinformatique-ngs-0), [Institut de Biologie Intégrative de la Cellule](https://www.i2bc.paris-saclay.fr/), Orsay, France
 * [Scientist (f/m)](https://bms.candibase.de/atool/helmholtz/frontend.php?view=93d61bae347a0d201ff20cde45629683&lang=en), NGS bioinformatics core facility, [Helmholtz Zentrum München](https://www.helmholtz-muenchen.de/en), Germany.

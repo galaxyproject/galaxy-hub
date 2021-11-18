@@ -5,6 +5,7 @@ highlight: true
 
 Here we demo copying an object from an AWS S3 bucket to a Galaxy history.
 For this:
+
 - we copy the `ENCFF001SNN.broadPeak.gz` object from
 [ENCODE's AWS S3 bucket](https://registry.opendata.aws/encode-project/);
 - to gain access to the `ENCFF001SNN.broadPeak.gz` object, we

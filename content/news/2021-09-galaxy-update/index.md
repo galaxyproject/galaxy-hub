@@ -63,6 +63,7 @@ Scientists from all over the world are using [UseGalaxy.eu](https://usegalaxy.eu
 * [Food safety research](https://galaxyproject.eu/posts/2021/08/20/use-case-carol-verheecke-vaessen/)
 * [Antibody responses following vaccination](https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen/)
 * [Marine turtle tumour disease](https://galaxyproject.eu/posts/2021/09/03/use-case-liam-whitmore/)
+
 </div>
 
 

@@ -11,6 +11,7 @@ date: "2015-10-01"
 </div>
 
 The **[October Galactic News](/galaxy-updates/2015-10/)** is hot off the presses.
+
 * [60 new publications, including 4 highlighted pubs](/galaxy-updates/2015-10/#new-papers)
 * [Event News](/galaxy-updates/2015-10/#events)
   * The [October GalaxyAdmins Meetup is coming](/galaxy-updates/2015-10/#october-galaxyadmins-meetup)!

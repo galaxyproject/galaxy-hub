@@ -83,6 +83,7 @@ Fort Douglas Station
 </div>
 
 To get to the conference hotel from the airport
+
 * Catch the Green Line at the airport
 * Transfer to the Red Line (Northbound, towards Medical Center) at Courthouse Station
 * Get off the Red Line at Fort Douglas Station

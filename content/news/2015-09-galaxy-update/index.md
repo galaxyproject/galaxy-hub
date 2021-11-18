@@ -7,6 +7,7 @@ date: "2015-09-01"
 </div>
 
 The **[September Galactic News](/galaxy-updates/2015-09/)** is hot off the presses.
+
 * **The [IUC Tools & Collections Hackathon](/galaxy-updates/2015-09/#iuc-tools--collections-hackathon) will be September 17<sup>th</sup> and 18<sup>th</sup> *online*.  Please join us.**  
 * [97 new publications, including 7 highlighted ones](/galaxy-updates/2015-09/#new-papers) in all 15 !CiteULike categories.
 * And those 97 papers pushed the Galaxy CiteULike library [past 2500 papers](/galaxy-updates/2015-09/#galaxys-first-2500-publications).

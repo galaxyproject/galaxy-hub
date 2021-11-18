@@ -117,6 +117,7 @@ There are several *registration* deadlines this month:
 * **[Gateways 2019](https://sciencegateways.org/web/gateways2019/welcome)**, San Diego, California, United States.  *Regular registration: September 9*
 * **[AISES 2019](https://conference.aises.org/agenda)**, Milwaukee, Wisconsin, United States: *Regular registration: September 29*
 * **[SACNAS 2019](https://www.2019sacnas.org/)**, Honolulu, Hawai'i, United States. *Regular registration: September 30*
+
 </div>
 </div>
 
@@ -194,6 +195,7 @@ Features a comprehensive set of analysis tools and consolidated workflows for cl
 * [PathwayMatcher published and running on usegalaxy.eu](https://galaxyproject.eu/posts/2019/08/20/PathwayMatcher/). [PathwayMatcher](https://doi.org/10.1093/gigascience/giz088) builds a protein-protein interaction network from the Reactome pathway database.
 * [MaxQuant goes Galaxy](https://galaxyproject.eu/posts/2019/08/02/max-quant/). The European Galaxy server now contains two MaxQuant tools.
 * [Galaxy Australia moves to new hardware](https://usegalaxy-au.github.io/posts/2019/08/07/galaxy-australia-to-new-hardware/plain.html). Galaxy Australia moves to the new QRIS cloud stage 5 hardware
+
 </div>
 
 <div class="card border-info"  style="min-width: 16rem;">

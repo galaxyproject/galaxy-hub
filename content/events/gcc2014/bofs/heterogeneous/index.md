@@ -55,6 +55,7 @@ If you are interested, please add your name below and/or send an email to [Your 
 ## Summary
 
 Discussion included
+
 * Deploying Galaxy on clusters
 * Touched on deployment of Galaxy on TACC resources
 * Talked about submitting jobs locally, using pulsar, to add more control and functionality to job handling

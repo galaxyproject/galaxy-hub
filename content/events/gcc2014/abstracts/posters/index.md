@@ -219,6 +219,7 @@ We have been leveraging the oqtans codebase to withstand different RNA-seq downs
 Moving the Galaxy framework from academic to clinical research introduces a myriad of informatics challenges concerning the security of the data sets. In addition to developing  new methods for oqtans components, it is equally important to handle the informatics complexities  that come with scaling oqtans for clinical use. We have deployed our instance under ModSecurity and encrypted user authentication and subsequent session transmissions using Secure Sockets Layer (SSL). We have applied patches to the core codebase of the Galaxy framework to responsively address vulnerable redirection via URL injection, Reflected and stored Cross-site scripting (XSS) and properly sanitize and encode all potential user input and output.
 
 Availability
+
 * oqtans cloudman image - ami-65376a0c
 * oqtans public compute server - [galaxy.cbio.mskcc.org](http://galaxy.cbio.mskcc.org)
 

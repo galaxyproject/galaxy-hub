@@ -308,6 +308,7 @@ doi:10.1038/s41467-018-03311-y
 <div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
+
 * [System developers / bioinformaticians, two positions](https://www.jobbnorge.no/en/available-jobs/job/150638/senior-engineer-two-positions), ELIXIR Norway, University of Oslo, Norway (closes 17 April)
 * [Scientist (f/m)](https://bms.candibase.de/atool/helmholtz/frontend.php?view=93d61bae347a0d201ff20cde45629683&lang=en), NGS bioinformatics core facility,[Helmholtz Zentrum München](https://www.helmholtz-muenchen.de/en), Germany.
 * [PhD position](https://www.mol-med.uni-freiburg.de/mom-en/schilling/PhD2018.pdf ): Proteome Biology of Solid Tumors: Targeted, Spatially Resolved & Explorative Approaches, University of Freiburg, Germany

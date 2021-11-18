@@ -202,6 +202,7 @@ pre-defined by the Galaxy framework.  Some of these already existed but
 were undocumented.  All have been changed to use a common (pythonic)
 naming scheme, but the old names are retained for backwards
 compatibility:
+
 * new name = old name (if any) = value description
 * __new_file_path__ = universe_wsgi.ini new_file_path value
 * __tool_data_path__ = GALAXY_DATA_INDEX_DIR = universe_wsgi.ini tool_data_path value

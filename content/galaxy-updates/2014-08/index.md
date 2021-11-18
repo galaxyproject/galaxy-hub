@@ -308,6 +308,7 @@ The new papers were tagged in many different areas:
 <div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
+
 * [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States
 * [Galaxy Platform Development Officer](http://bit.ly/1wr7sBJ), The Genome Analysis Centre (TGAC), Norwich, United Kingdom.  **Closes 12 August.**
 * [Bioinformatician position](http://bit.ly/1nBPm0p) at [Xenbase](http://xenbase.org), University of Calgary.

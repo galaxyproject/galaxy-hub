@@ -14,6 +14,7 @@ You must be a US-based academic to access Jetstream cloud. Access is free but it
 ## How do I launch my own Galaxy server?
 
 After you have your XSEDE account and an active allocation:
+
 * Visit https://use.jetstream-cloud.org/, and log in using your university, national lab, facility, project, Google, or Globus ID.
 
 * Once logged in *select* **Launch an instance**

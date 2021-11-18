@@ -25,6 +25,7 @@ informatics will give short informal presentations on their work, followed by a 
 
 wiki comment:
 > **Note:** The workshop features a broad spectrum of the Galaxy community that is interested in proteomics:
+>
 > * Minnesota participants will talk about [Galaxy-P](http://getgalaxyp.org/)
 > * An [NBIC](http://nbic.nl) representative
 > * [Ira Cooke](/events/gcc2012/abstracts/#proteomics-tools-for-galaxy) of La Trobe University

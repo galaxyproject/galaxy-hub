@@ -17,6 +17,7 @@ For the time being, it is necessary for each Jetstream user to request a new res
 * You will also ned to supply your CV. For *Startup* type allocation, adding supporting grants and publications is optional but feel free to add any.
 
 <img src="http://i.imgur.com/jlVRiTk.png" alt="" width=150 /> <img src="http://i.imgur.com/e1r3q0a.png" alt="" width=150 /> <img src="http://i.imgur.com/IfMUenh.png" alt="" width=150 />
+
 * Finally, submit your application and wait approximately one business day for the allocation request to be approved.
 
 <img src="http://i.imgur.com/BgL7Phr.png" alt="" width=400 />

@@ -14,6 +14,7 @@ With an extensive help of the [AnswerALS project](https://www.answerals.org/) an
 
 ### More logical interface layout
 Each CloudBridge provider object now has four top-level properties logically grouping underlying resources:
+
 - _compute_: all services related to computational resources
 - _networking_: services related to virtual network setup
 - _security_: services related to ssh key pairs and firewalls
@@ -23,6 +24,7 @@ Take a look at the diagram in the documentation for a graphical overview and lin
 
 ### Consistent use of id, name, and label properties
 After much deliberation (about which you can read in the [design decisions](http://cloudbridge.cloudve.org/en/latest/topics/design_decisions.html#resource-identification-naming-and-labeling) part of the documentation), each CloudBridge resource now has three properties when it comes to naming and identifying objects:
+
 - `id` is a unique identifier for an object, always auto-generated;
 - `name` is a read-only, user-friendly value which is suitable for display to the end-user;
 - `label` is a user-assignable value that can be changed.

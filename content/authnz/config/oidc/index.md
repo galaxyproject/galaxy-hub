@@ -15,6 +15,7 @@ identities.
 
 
 **Related publications:**
+
 - Jalili, Vahid, et al. ["Cloud bursting galaxy: federated identity and access management."](https://doi.org/10.1093/bioinformatics/btz472) Bioinformatics 36.1 (2020): 1-9.
 
 

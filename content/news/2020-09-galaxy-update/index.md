@@ -35,6 +35,7 @@ The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.
   * [Birthdays and Online Conferences go Viral. ISMB2020 & BCC2020 in the time of COVID-19](http://gigasciencejournal.com/blog/conferences-go-viral/), a [GIGABlog](http://gigasciencejournal.com/blog) post by Chris Armit.
   * [Getting introduced to Bioinformatics and Open Science through BCC 2020](https://www.open-bio.org/2020/08/19/bcc-2020-gigi-kenneth/), by Gigi Kenneth
   * [Lessons learnt from organizing a virtual conference (BCC2020)](https://bcc2020.github.io/blog/lessons-learnt), by BCC2020 Organizers
+
 </div>
 
 
@@ -55,6 +56,7 @@ The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.
   * 70+ talks, presented in both hemispheres
   * 80+ posters and demos
 * 20 Birds-of-a-Feather & 2 Socials
+
 </div>
 
 
@@ -646,6 +648,7 @@ The [Plant Computational Genomics laboratory](http://plantcompgenomics.com/) at 
 <div class="card-header">[Software Engineer/Full Stack Developer](https://jobs.jhu.edu/job/Baltimore-Software-EngineerFull-Stack-Developer-MD-21218/667182900/) and [Sr. Programmer Analyst](https://jobs.jhu.edu/job/Baltimore-Sr_-Programmer-Analyst-MD-21218/666390700/)</div>
 
 The Schatz Lab  at Johns Hopkins University is looking for
+
 * self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
 * ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 

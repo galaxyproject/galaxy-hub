@@ -7,6 +7,7 @@ date: "2013-05-31"
 The [June 2013 Galaxy Update is now available](/galaxy-updates/2013-06/).
 
 **Highlights:**
+
 * **[Register](/events/gcc2013/register/) for [GCC2013](/galaxy-updates/2013-06/#gcc2013) by ~~7 June~~ 14 June to avoid late registration rates**
 * [Two new public servers](/galaxy-updates/2013-06/#new-public-servers) ODoSE and CBiB
 * [39 new papers](/galaxy-updates/2013-06/#new-papers)

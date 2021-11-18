@@ -1,6 +1,7 @@
 ## Adding MAFs to Galaxy
 
 Related to:
+
 * [Admin/DataPreparation](/admin/data-preparation/)
 * [Admin/DataIntegration](/admin/data-integration/)
 
@@ -69,6 +70,7 @@ Once you have added MAFs, the Galaxy server must be reset (or tools reloaded) so
 ### An Example Entry
 
 You want to add a set of MAFs with the following characteristics:
+
 * Has the description of "3-way multiZ (hg18,panTro2,rheMac2"
 * Decide upon and confirm that the UID "3_WAY_MULTIZ_hg18" has not been used
 * There are a number of MAFs located in `/cache/maf/hg18/align/hg18-panTro2-rheMac2.new/` which belong to this set.

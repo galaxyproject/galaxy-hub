@@ -263,6 +263,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 [<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" style="max-width: 220px" />](/blog/)
 
 There are two new *[Galactic Blog](/blog/)* entries:
+
 * **[Galaxy Tool Generator (GTG)](https://galaxy-tool-generator.readthedocs.io/en/latest/)**, by Ming Chen
 * **[Tutorial of the Month: "Reference-based RNA-Seq data analysis", selected by Saskia Hiltemann](/blog/2018-11-totm/)**, by Bérénice Batut
 

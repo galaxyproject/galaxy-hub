@@ -7,6 +7,7 @@ date: "2012-03-20"
 We are pleased to announce that [early registration](/events/gcc2012/register/) for the [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) is now open.  GCC2012 will be held July 25-27, at the [UIC Forum](http://www.uic.edu/depts/uicforum/), in Chicago, Illinois.  The conference will feature [two full days](/events/gcc2012/program /) of presentations, discussions, lightning talks, and breakouts.  We have also added a new [full day of training](/events/gcc2012/training-day/) this year, featuring 3 parallel tracks with four workshops each, covering seven different topics.
 
 The Galaxy Community Conference is for:
+
 * Sequencing core facility staff
 * Bioinformatics core staff
 * Bioinformatics tool and workflow developers

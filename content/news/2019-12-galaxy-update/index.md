@@ -222,6 +222,7 @@ Version 2 of [Laniakea](/use/laniakea/) announced at the November [ELIXIR Innova
 * [UseGalaxy.eu: 10,000 users, 6,370,000 jobs and 11,900,000 datasets](https://galaxyproject.eu/posts/2019/12/02/10000user/)
 * UseGalaxy.eu Tool Updates for [10th](https://galaxyproject.eu/posts/2019/11/10/tool-update/), [15th](https://galaxyproject.eu/posts/2019/11/15/tool-update/), [23rd](https://galaxyproject.eu/posts/2019/11/22/tool-update/), and [30th](https://galaxyproject.eu/posts/2019/11/30/tool-update/) of November.
 * Also see [recent blog posts](#galactic-blog-activity)
+
 </div>
 
 <div class="card border-info"  style="min-width: 16rem;">

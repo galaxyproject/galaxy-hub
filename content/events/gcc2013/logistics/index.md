@@ -48,6 +48,7 @@ Subway (T-bane) lines 3, 4 and 6 serve Forskningsparken station.  The subway run
 Tram lines 17 and 18 also stop at Forskningsparken.
 
 Links:
+
 * [Ruter (English)](http://ruter.no/en/) is the local transport authority and provides a route planner, maps and timetables
 * [Subway (Norwegian)](http://www.tbane.no/)
 * [Subway (Google Translate)](http://translate.google.co.uk/translate?u=http%3A%2F%2Fwww.tbane.no%2F)

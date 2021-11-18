@@ -247,6 +247,7 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 [<img class="float-right" src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="220" />](/blog/)
 
 There are two new *[Galactic Blog](/blog/)* entries:
+
 * **[Contributor of the month: Saskia Hiltemann](https://galaxyproject.org/blog/2018-11-cotm-saskia-hiltemann/)**, by Marten Čech
 * **[Tutorial of the Month: "Galaxy 101", selected by Yvan Le Bras](https://galaxyproject.org/blog/2018-10-totm)**, by Bérénice Batut
 

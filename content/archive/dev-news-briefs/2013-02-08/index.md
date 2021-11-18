@@ -135,7 +135,9 @@ All repositories dependencies and tool dependencies that are defined for each re
 # Tools
 
 1. Enable [BedGraph](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph) format datasets to be used as input to `wig-to-bigwig` tool.
+
   * Renamed tool as: `Wig/Bedgraph-to-bigwig`.
+
 2. #2 Add parameter to `Filter` tool to optionally skip header lines. Add test for new parameter usage as well.
 
 <br />
@@ -161,6 +163,7 @@ All repositories dependencies and tool dependencies that are defined for each re
 # Workflows
 
 1. Exporting workflows:
+
   * Remove spurious header.
   * Add option to create workflow image.
 

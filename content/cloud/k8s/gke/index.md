@@ -239,6 +239,7 @@ http://104.198.225.7:80
 ```
 
 # Delete Resources and GKE cluster
+
 1. You may `uninstall` the Galaxy helm chart release using the following command:
 
     ```

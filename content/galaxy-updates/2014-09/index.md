@@ -14,6 +14,7 @@ Galaxy-UK, a new [Galaxy Community](/community/) was launched in August.  The Ga
 * Encourage interaction and collaboration.
 
 Galaxy-UK is also an information hub for events such as:
+
 * UK based Galaxy training courses
 * UK based talks involving Galaxy
 * Information on the location of UK Galaxy servers
@@ -131,10 +132,12 @@ The [The Great GigaScience and Galaxy (G3) Workshop](http://australianbioinforma
 The day's theme is *Turning data—big data—into research impact*
 
 **Morning Session of Talks (8:45am - 12:00pm)**
+
 * Theatre 1, 207 Bouverie Street, Parkville.
   * Featuring talks from [David Vaux](https://theconversation.com/from-fraud-to-fair-play-australia-must-support-research-integrity-15733), A Speaker on Galaxy, Representative from NHMRC on open access and the [GigaScience Editorial Team](http://www.gigasciencejournal.com/about).
 
 **Afternoon Workshops (2:00pm - 5:00pm)**
+
 * Workshop Stream 1 - [VLSCI Boardroom, 187 Grattan Street, Parkville](https://www.google.com.au/maps/place/187+Grattan+St,+University+of+Melbourne,+Carlton+VIC+3053/@-37.8003045,144.9626346,17z/data=!3m1!4b1!4m2!3m1!1s0x6ad642d318691715:0xbb29ca3420505539)
   * Setting up your own personal galaxy instance and basic galaxy usage. Galaxy 101.
 * Workshop Stream 2 - [B117, 207 Bouverie Street, Parkville](https://www.google.com.au/maps/preview?q=B118,+207+Bouverie+Street,+Parkville&ie=UTF-8&hq&hnear=0x6ad642d2c404d12d:0xde07ecf4a4d913ad,b118/207+Bouverie+St,+University+of+Melbourne,+Carlton+VIC+3053&gl=au&ei=HMjHU5OrB8H48QW8j4GgAQ&ved=0CB0Q8gEwAA)
@@ -391,6 +394,7 @@ Keep in mind to write a nice Tool Shed Tool if you catch yourself using IPython 
 </div>
 
 A few features we have up and running:
+
 * Use IPython directly in the main window or in the Scratchbook
 * Completely encapsulated IPython environment with matplotlib, biopython, pandas and friends already installed.
 * IPython runs completely self-contained within a [Docker](https://www.docker.com/) container, separate from your Galaxy data
@@ -406,6 +410,7 @@ Please follow the installation instruction on our [project page](https://github.
 The underlying IPython Notebook (+Galaxy sugar) is stored at [Github](https://github.com/bgruening/docker-ipython-notebook) and the [Docker Registry](https://registry.hub.docker.com/u/bgruening/docker-ipython-notebook/).
 
 You can also install a ipynb datatype:
+
 * [Github](https://github.com/bgruening/galaxytools/tree/master/datatypes/json)
 * [Test ToolShed](https://testtoolshed.g2.bx.psu.edu/view/iuc/datatyp_ipynb)
 

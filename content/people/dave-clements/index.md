@@ -26,6 +26,7 @@ Prior to working on Galaxy (and for [NESCent](http://nescent.org/) and [GMOD](ht
 Prior to EuReGene I worked for [ZFIN, the zebrafish model organism database](http://zfin.org) at the [University of Oregon](http://uoregon.edu) for 5 years as a database administrator and software engineer.
 
 My pre-bioinformatics career included
+
 * 4 years at an [artificial intelligence lab at the University of Oregon](http://www.cirl.uoregon.edu/),
 * 6 years at database management system vendors,
 * 2 years as a database administrator at [General Mills](http://generalmills.com/),

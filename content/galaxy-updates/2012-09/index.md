@@ -96,6 +96,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 <div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are September application, poster, and paper deadlines for
+
 * [Personal Genomes and Medical Genomics](http://meetings.cshl.edu/meetings/pgmg12.shtml), CSHL (deadline August 31)
 * [ISCB-Asia/SCCG 2012](http://www.iscb.org/iscb-asia2012) posters
 
@@ -235,6 +236,7 @@ The workshop is part of the SyBIT Tech Day series.
 <div class='right'><a href='https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/'><img src="/images/logos/GalaxyFranceListSearch.png" alt="Galaxy-France Mailing List"  /></a></div>
 
 A new mailing list has been launched, specifically for the French Galaxy Community:
+
 * [Liste de diffusion Galaxy France](https://lists.galaxyproject.org/lists/galaxy-france.lists.galaxyproject.org/)
 
 This list is intended to communicate and share our experiences with Galaxy in France. The official language of this list is French.  See the [list announcement](/news/liste-de-diffusion-galaxy-france/), [list archive](https://lists.galaxyproject.org/archives/list/galaxy-france@lists.galaxyproject.org/) and [list subscription page](https://lists.galaxyproject.org/lists/galaxy-france.lists.galaxyproject.org/) for more.  Postings to the list will be integrated into [Galaxy search](/search/).

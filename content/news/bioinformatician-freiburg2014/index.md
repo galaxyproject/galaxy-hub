@@ -27,6 +27,7 @@ postdocs will have the opportunity to furthermore define their own
 research agenda.
 
 Our lab has two main research areas:
+
 * The Galaxy project, which is an open, web-based platform to support
   computational biomedical research. We are integrating new tools as well
   as interactive visualizations into Galaxy and working closely together

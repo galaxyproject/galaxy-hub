@@ -78,6 +78,7 @@ There are two Tool Sheds supported by the core Galaxy team:
 ### Tools
 
 **note: If using this distribution or later changesets from [galaxy-central](https://bitbucket.org/galaxy/galaxy-central/src), tool upgrades may be required, as specified below.**
+
 * **[FastQC:](http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/)**
   * Wrapper updated to handle changes in HTML output from the most recent FastQC release 0.10.0 from [Babraham Bioinformatics](http://www.bioinformatics.bbsrc.ac.uk/)
   * If you see a broken FastQC html report in the UI, then an older version is being used. **[Upgrading FastQC to version 0.10.0](http://www.bioinformatics.bbsrc.ac.uk/projects/fastqc/) is required**

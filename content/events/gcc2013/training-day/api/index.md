@@ -38,6 +38,7 @@ would tell this external system (your home) to perform a single action.
 
 You certainly can do these things yourself by manually turning light switches on and lighting fires -
 but the key advantages to an API are that you can:
+
 1. Iteratively accomplish tasks:
   `for every book in the bedroom, return the book to the bookshelf (ok - that probably won't be possible any time soon -
   but wouldn't it be nice)`
@@ -53,6 +54,7 @@ another script.
 
 Additionally, and perhaps more importantly: even when your scripts run, the features that make Galaxy great are still
 applied to your data:
+
 * histories still capture the exact steps of your experiments and reproducibility is maintained,
 * jobs and compute resources are still managed for you,
 * datasets and metadata persist and are centrallized,
@@ -67,16 +69,19 @@ It's also worth noting that all the work you did via the API is still accessible
 # How to Access and Use the API
 
 Anything that can communicate over HTTP can use the Galaxy web API.
+
 * browser - capable of only simple GET API methods
 * wget - only GET methods - but from the command line
 * curl - a unix program that will let you use any API method
 
 Some programming or scripting languages have their own libraries to do this:
+
 * python - urllib, urllib2 (can be complicated), requests (simplifies, but still many options)
 * javascript - jquery (use any API method, browser only), node (any method, command line)
 * bash - curl + bash = you're probably a bioinformaticist
 
 There are several scripts and excellent programming libraries designed to help with the Galaxy API:
+
 * scripts/api - a small selection of simple scripts and examples that can help you write and explore interacting with
   the galaxy API in python, located in the root directory of a Galaxy installation
 * bioblend - ([source](https://github.com/afgane/bioblend), [documentation](http://blend.readthedocs.org/en/latest/))
@@ -106,6 +111,7 @@ A common way to construct an API command is to view it as a simple (imperative) 
 * Often additional options and parameters must be passed to specify how the command should take place.
 
 From that then, it follows that each web API URL (command) is composed of three parts:
+
 1. an HTTP method - the verb
 2. a URL path - the resource
 3. and any additional arguments or parameters the API command may need
@@ -116,6 +122,7 @@ From that then, it follows that each web API URL (command) is composed of three 
 # A Sample Use
 
 We'll slowly build a fairly complex script using the API to:
+
 * Create a history
 * Upload a file from our local system to the server and place it in that history (data/myIlluminaRun.solexa.fastq -
   also available from [this published history on Galaxy Main](https://main.g2.bx.psu.edu/u/aun1/h/quickie-14))
@@ -125,6 +132,7 @@ We'll slowly build a fairly complex script using the API to:
 * Copy the file to a library
 
 The final script should not be considered a 'good' script, however, because a good script would take into account:
+
 * Complications: typically in a robust script/application, a significant amount of code will go towards handling
   [corner-cases](http://en.wikipedia.org/wiki/Corner_case). For the sake of making the learning examples clear and
   easy to follow, we won't cover very many of these situations.
@@ -323,6 +331,7 @@ scripts on the command line will change however from number to number - it will 
 recently added functionality.)
 
 Again:
+
 * **index**: histories_1.py: GET api/histories &rarr; a list of histories for the current user
 * **show**: histories_2.py: GET api/histories/[a history id] &rarr; a single, specific history
 
@@ -464,6 +473,7 @@ run through the API but this is still a work in progress. In this case, we use a
 moving the file into the POST data. Be sure to check out those modules for more details on what's involved.
 
 The takeaway here is that, to run a tool we combine four things:
+
 1. the POST HTTP method (or `create` again)
 2. the resource URL `api/tools`
 3. the ID of the tool to use: `upload1`

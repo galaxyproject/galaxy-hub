@@ -8,6 +8,7 @@ title: Tools contributed to the Galaxy Project Tool Shed in [January and Februar
 # Featured Updates
 
 ## Tools
+
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
    * [align_back_trans](https://toolshed.g2.bx.psu.edu/view/peterjc/align_back_trans): v0.0.7 internal Python style fixes.
    * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): v0.2.9 Python style improvements.
@@ -20,16 +21,19 @@ title: Tools contributed to the Galaxy Project Tool Shed in [January and Februar
    * [seq_primer_clip](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_primer_clip): v0.0.14 galaxy_sequence_utils dependency etc.
 
 # Dependency Definitions
+
 * *From [nml](https://toolshed.g2.bx.psu.edu/view/nml):*
    * [package_srst2_0_1_4_6](https://toolshed.g2.bx.psu.edu/view/nml/package_srst2_0_1_4_6):  PACKAGE_SRST2_0_1_4_6.
 * *From [jasonk](https://toolshed.g2.bx.psu.edu/view/jasonk):*
    * [package_metavelvet_sl](https://toolshed.g2.bx.psu.edu/view/jasonk/package_metavelvet_sl):  MetaVelvet-SL tool dependencies definition.
 
 # Suites
+
 * *From [nml](https://toolshed.g2.bx.psu.edu/view/nml):*
    * [suite_plasmid_profiler](https://toolshed.g2.bx.psu.edu/view/nml/suite_plasmid_profiler):  Plasmid Profiler suite defining all dependencies for Plasmid Profiler.
 
 # Tools
+
 * *From [tomnl](https://toolshed.g2.bx.psu.edu/view/tomnl):*
    * [mzml2isa](https://toolshed.g2.bx.psu.edu/view/tomnl/mzml2isa):  Tool to generate ISA-Tab files using metadata derived from mzML files. mzML2ISA automatically generate ISA-Tab document structure metadata files from raw XML metabolomics data files (mzML open access data format). The mzml2ISA tool provides the backbone of ISA-Tab metabolomics study which can then be edited with an ISA editing tool, ISAcreator (see MetaboLights pre-packaged ISA Creator).
    * [nmrml2isa](https://toolshed.g2.bx.psu.edu/view/tomnl/nmrml2isa):  This is a Galaxy wrapper for the nmrml2isa python package tool. Full documentation: http://2isa.readthedocs.io/en/latest/  Python PyPi package: https://pypi.python.org/pypi/mzml2isa/  Github code: https://github.com/ISA-tools/mzml2isa    nmrml2isa is a program that allows you to convert metabolomic studies in .mzML format to the open ISA-Tab standard supported by the MetaboLights database. The recommended installation is by means of the toolshed (https://toolshed.g2.bx.psu.edu/). Dependencies should be installed automatically when using Galaxy version >= 16.10. The dependencies are dealt with Bioconda. To ensure that Bioconda is working check to make sure the following settings are in the config/galaxy.ini file. # dependencies before each job runs. conda_auto_install = True  # Set to True to instruct Galaxy to install Conda from the web automatically  # if it cannot find a local copy and conda_exec is not configured. conda_auto_init = True.

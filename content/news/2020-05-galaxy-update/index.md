@@ -233,6 +233,7 @@ The first session was held on 30 April.  Subsequent sessions are
 * [Cheminformatics: Screening of the main protease, 14 May](https://attendee.gotowebinar.com/register/4607898607259954448), TBA
 * [Evolution of the Virus, 20 May](https://register.gotowebinar.com/register/3263865489071323920), Sergei Pond
 * [Behind the scenes: Global Open Infrastructures at work, 28 May](https://attendee.gotowebinar.com/register/7607010086065649936), TBA
+
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
@@ -369,6 +370,7 @@ The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyus
 * [ChiRA, an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data, added to RNA Workbench](https://galaxyproject.eu/posts/2020/03/24/rna-interactome/)
 URL
 * [UseGalaxy.eu reaches 12,000 users, 6,900,000 jobs, and 13,300,000 datasets](https://usegalaxy-eu.github.io/posts/2020/02/12/sab2020-stats/plain.html)
+
 </div>
 
 
@@ -554,10 +556,12 @@ This is a shortened version of an [existing tutorial](https://training.galaxypro
 <div class="card-header">[Galaxy 20.01](/news/2020-02-galaxy-release-20-01/)</div>
 
 See
+
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce.html)**
 * **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce_user.html)**.
 
 Features:
+
 * Easily list and review recently invoked workflows.
 * Galaxy Markdown Pages and Workflow Reports as PDF
 * Screenreader-friendly Navigation

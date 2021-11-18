@@ -5,6 +5,7 @@ date: 2011-01-31
 
 ----
 [Get Galaxy!](http://bitbucket.org/galaxy/galaxy-central/wiki/GetGalaxy)
+
 * new: ` % hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist `
 * upgrade: ` % hg pull -u -r 95d65755ac69 `
 
@@ -15,6 +16,7 @@ date: 2011-01-31
 ### Workflow Additions
 
 1) Usability improvements for workflow annotations
+
 * Workflow annotation is now shown at the top of the page.
 * Step annotations are shown in the step header rather than at the bottom.
     *example:* Annotation
@@ -22,12 +24,14 @@ date: 2011-01-31
     ![](/archive/dev-news-briefs/2011-01-31/2011_01_31_workflow-annotations.png)
 
 2) Easier to move workflows directly from one Galaxy instance to another
+
 * Workflow download/export page now provides URL that can be used to directly import a workflow from one instance to another.
     *example:* URL import
 
     ![](/archive/dev-news-briefs/2011-01-31/2011_01_31_workflow-import.001.png)
 
 3) New Parameter settings for global application or specific actions
+
 * Workflow parameters are a new feature we've added to simplify reuse of workflows, and to allow for easier variation of parameters when re-running a workflow.  
 * Instead of filling in explicit values when building a workflow, you can now use flexible parameters.  To specify a workflow parameter, simply use a tag like ${my_variable_name} in any tool input field or in a rename dataset action field.  
 * The workflow shown below has two parameters, as shown in the Workflow Parameters display in the top right of the editor window.  You can see the ${filter_condition} parameter in the right panel in both the tool input and the rename action.  
@@ -43,6 +47,7 @@ date: 2011-01-31
     ![](/archive/dev-news-briefs/2011-01-31/2011_01_31_workflow_params_2.png)
 
 4) General workflow tuning
+
 * HideDataset Action will no longer show in the workflow editor.  The ability to manually create one of these actions has been deprecated in favor of the workflow outputs approach.
 * Workflow run results can now be sent to a new history instead of the current one.
 * Ordering of workflow steps is now sorted based on the layout in the workflow editor, arranged based on distance from top left corner of the editor.  This won't affect existing workflows until re-saved.
@@ -53,6 +58,7 @@ date: 2011-01-31
 These components are under rapid development and interfaces *should be considered experimental*.  They can be enabled by setting 'enable_beta_job_managers = True' in universe_wsgi.ini.
 
 1) Deferred Jobs
+
 * A generic method for creating a dependency on an event before executing arbitrary code has now been defined in:
     *galaxy-dist/lib/galaxy/job/deferred/__init__.py*
 * The deferred job runner loads plugins found in the same directory which implement the necessary methods check_job() and run_job(). check_job() returns a state which informs the deferred job runner whether it is okay to execute the run_job() method.
@@ -60,6 +66,7 @@ These components are under rapid development and interfaces *should be considere
 * No documentation is provided for the format of a plugin at this time, but a sample plugin will be included at a later date.
 
 2) Transfer Manager
+
 * Galaxy can now spawn persistent transfers of (unauthenticated) http and https URLs via the code in:
     *galaxy-dist/lib/galaxy/job/transfer_manager.py*
 * The transfer manager is accessible in-application at app.transfer_manager.
@@ -77,6 +84,7 @@ These components are under rapid development and interfaces *should be considere
 * New Genomes:
 
 *format:* Genome [dbkey]
+
 * *Pseudomonas aeruginos* (str. PA7) [16720]
 * *Pseudomonas aeruginos* (str. PAO1) [pseuAeru]
 * *Pseudomonas aeruginos* (str. UCBPP-PA14) [386]

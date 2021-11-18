@@ -10,11 +10,13 @@ date: "2012-02-01"
 [Vilmorin & Co.](http://www.vilmorin.info/) creates seeds with added value ​​for vegetable and field crops. We propose an internship project in bioinformatics in our laboratories in Chappes (France).  The aim of this project is to integrate SNP marker data and optimize the interactions between databases and various bioinformatic tools.
 
 Specific tasks:
+
 * Organize and integrate SNP information into a database (Perl, MySQL)
 * Process data for analysis and visualization (**Galaxy**, [GBrowse](http://gmod.org/wiki/GBrowse))
 * Automate and optimize the process
 
 Profile:
+
 * Currently in an undergraduate programme (Computer Sciences or Bioinformatics)
 * Proficiency in at least one programming language, preferably Perl
 * Good knowledge of a RDBMS (MySQL)

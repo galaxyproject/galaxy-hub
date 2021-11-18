@@ -87,6 +87,7 @@ SAM Tools is highly recommended, if not actually considered required, for every 
 ## Setting Up the Reference Genomes for NGS Tools
 
 There are three key steps:
+
 1. Obtain the data
 1. Index or prepare it
 1. Modify the associate .loc file (this tells Galaxy how to find/use it)
@@ -242,6 +243,7 @@ Bowtie2: [http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml](http://bowtie-
 Put Bowtie/Bowtie2 indexes and color/non-color indexes in *distinct directories*. That means up to ***3** distinct directories* for a full set per reference genome version. But you may only need **1** or **2**.
 
 The index files that will be created for Bowtie are:
+
 * `index_basename.1.ebwt`
 * `index_basename.2.ebwt`
 * `index_basename.3.ebwt`
@@ -250,6 +252,7 @@ The index files that will be created for Bowtie are:
 * `index_basename.rev.2.ebwt`
 
 The index files that will be creates for Bowtie2 are:
+
 * `index_basename.1.bt2`
 * `index_basename.2.bt2`
 * `index_basename.3.bt2`
@@ -283,6 +286,7 @@ The Galaxy team uses the option `-a bwtsw` to create indexes.
 The manual is here: [BWA manual](http://bio-bwa.sourceforge.net/bwa.shtml).
 
 The following index files will be created for the FASTA file `name.fasta`:
+
 * `reference_in.fasta.amb`
 * `reference_in.fasta.ann`
 * `reference_in.fasta.bwt`
@@ -290,6 +294,7 @@ The following index files will be created for the FASTA file `name.fasta`:
 * `reference_in.fasta.sa`
 
 Note: that if using BWA version earlier than 5.10, you will also see the following *reverse* index files:
+
 * `reference_in.fasta.rbwt`
 * `reference_in.fasta.rpac`
 * `reference_in.fasta.rsa`
@@ -318,6 +323,7 @@ Usage: `samtools faidx <ref.fasta> [region1 [...]]`
 No special options are needed.
 
 The following index files will be created for the FASTA file `name.fasta`:
+
 * `ref.fasta.fai`
 
 Place a relative symbolic link to the original FASTA file in the same location as the sam index (or the original file), making sure the original FASTA file can be read by the Galaxy user. The Galaxy team uses a symbolic link to both organize files (placing the FASTA in a distinct directory) and to reduce data duplication. Creating a structure like:
@@ -354,6 +360,7 @@ Usage: twoBitToFa ref.2bit ref.fasta
 Type tool at command prompt for more usage details.
 
 The following index files will be created for the FASTA file `name.fasta`:
+
 * `ref.2bit`
 
 The Galaxy team places the .2bit file in the same location as the original fasta FASTA file to stay organized, such as:

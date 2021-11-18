@@ -11,6 +11,7 @@ title: GalaxyCzars GCC2012 Breakout Session
 
 
 Participants:
+
 * Alex Moskalenko
 * Nate Coraor
 * Mary Dolan

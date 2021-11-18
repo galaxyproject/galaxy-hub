@@ -69,7 +69,7 @@ MD026: false # no-trailing-punctuation
 MD027: false # no-multiple-space-blockquote
 MD030: false # list-marker-space
 MD031: true # blanks-around-fences
-MD032: false # blanks-around-lists
+MD032: true # blanks-around-lists
 
 # The linter flags http://example.com and wants them formatted like
 # <http://example.com>, but this doesn't improve readability.

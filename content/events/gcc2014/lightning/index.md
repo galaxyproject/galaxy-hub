@@ -12,6 +12,7 @@ title: Lightning Talks
 Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Tuesday](/events/gcc2014/program/#day-1-main-meeting-july-1) and [Session 8 on Wednesday](/events/gcc2014/program/#day-2-main-meeting-july-2).
 
 If you wish to give a lightning talk, please send a title and short abstract to [GCC2014 Scientific Committee](mailto:gcc2014-sci AT groups DOT galaxyproject DOT org), either
+
 * any time before the start of [Session 2](/events/gcc2014/program/#day-1-main-meeting-july-1) (to be considered for Tuesday or Wednesday slots), or
 * before [Session 6](/events/gcc2014/program/#day-2-main-meeting-july-2) (to be considered for Wednesday only).  
 

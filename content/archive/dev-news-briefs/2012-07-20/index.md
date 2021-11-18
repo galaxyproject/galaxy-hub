@@ -63,6 +63,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 # Tools
 
 [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/)
+
 * **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements:
   * use **Bowtie2** build
   * add option to report discordant pairs
@@ -82,6 +83,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 # Galaxy Track Browser (GTB)
 
 [Trackster](/learn/visualization/)
+
 * New parameter space visualization for Trackster
 * Make bookmarks available in shared Trackster visualizations
 
@@ -89,6 +91,7 @@ Several changes made in in determining errors from tool exit codes and output.  
 # Tool Shed
 
 [Tool Shed](/toolshed/)
+
 * *Enhancements*
   * The tool shed's category grid is now displayed when searching and browsing tool sheds from a local Galaxy instance.
   * This category grid's search feature searches valid repository names and descriptions when browsing a tool shed from Galaxy.

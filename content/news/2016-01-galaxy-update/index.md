@@ -7,6 +7,7 @@ date: "2016-01-04"
 </div>
 
 The **[January 2016 Galactic News](/galaxy-updates/2016-01/)** is hot off the presses.
+
 * [51 new publications, including 6 highlighted pubs](/galaxy-updates/2016-01/#new-papers)
 * [Event News](/galaxy-updates/2016-01/#events)
   * **[GCC2016 registration rates and training schedule](/galaxy-updates/2016-01/#gcc2016-website-is-online)**

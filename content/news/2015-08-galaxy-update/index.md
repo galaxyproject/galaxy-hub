@@ -7,6 +7,7 @@ date: "2015-07-31"
 </div>
 
 The **[August Galactic News](/galaxy-updates/2015-08/)** is out.  It's been a busy two months for the community.  The *News* includes items on:
+
 * [Events](/galaxy-updates/2015-08/#events):
   * **[A report on the 2015 Galaxy Community Conference](/galaxy-updates/2015-08/#gcc2015-report)**
   * **[Details on the 2016 Galaxy Community Conference](/galaxy-updates/2015-08/#gcc2016-june-25-29-2016-bloomington-indiana-united-states)**

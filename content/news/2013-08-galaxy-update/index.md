@@ -7,6 +7,7 @@ date: "2013-07-31"
 The [August 2013 Galaxy Update is now available](/galaxy-updates/2013-08/).
 
 **Highlights:**
+
 * **[GCC2013 Report](/galaxy-updates/2013-08/#gcc2013-report):** Meeting summaries, and links to videos, talks, posters, and Training Day materials.
 * [Two new public servers](/galaxy-updates/2013-08/#new-public-servers)
 * [47 new papers](/galaxy-updates/2013-08/#new-papers)

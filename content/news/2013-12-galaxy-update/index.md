@@ -7,6 +7,7 @@ date: "2013-12-02"
 The [December 2013 Galaxy Update is out](/galaxy-updates/2013-12/):
 
 **Highlights:**
+
 * Three new [public Galaxy servers](/galaxy-updates/2013-12/#50-public-servers), *bringing the total to over 50.*
 * [61 new papers](/galaxy-updates/2013-12/#new-papers) (a new monthly record)
 * [Who's hiring](/galaxy-updates/2013-12/#whos-hiring) at seven different institutions

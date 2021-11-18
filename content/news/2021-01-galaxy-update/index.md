@@ -97,6 +97,7 @@ This series of [six webinar sessions](https://elixir-europe.org/events/2nd-galax
 
 1. **COVID-19 analysis in Galaxy: Lessons learned and introduction to the series, 20 January**
 2. **Importance of (open) infrastructures in responding to a pandemic, 27 January**
+
 </div>
 
 
@@ -109,6 +110,7 @@ There are two roundtable meetups this month:
 
 * **[Galaxy Working Groups Follow Up and Discussion](/events/2021-01-07-dev-roundtable/), January 7**, Björn Grüning, Anton Nekrutenko
 * **[FastAPI](/events/2021-01-21-dev-roundtable/), January 21**, Marius van den Beek
+
 </div>
 
 
@@ -432,6 +434,7 @@ Provide technical expertise and oversight for the [AnVIL Project](http://anvilpr
 <div class="card-header">[Software Engineer/Full Stack Developer](https://jobs.jhu.edu/job/Baltimore-Software-EngineerFull-Stack-Developer-MD-21218/667182900/) and [Sr. Programmer Analyst](https://jobs.jhu.edu/job/Baltimore-Sr_-Programmer-Analyst-MD-21218/666390700/)</div>
 
 The Schatz Lab at Johns Hopkins University is looking for:
+
 * Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
 * Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 

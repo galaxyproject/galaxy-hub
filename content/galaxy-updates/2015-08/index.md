@@ -26,6 +26,7 @@ The **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/)** 
 GCC2015 was hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK.  By all measures, the meeting was a tremendous success.
 
 GCC2015 registrations reached an all-time high, and GC2015 featured more events than any previous GCC:
+
 * A record **230 researchers** signed up for one or more GCC2015 events:
   * 41 registered for the 2nd Annual [GCC Coding Hackathon](http://gcc2015.tsl.ac.uk/Hackathon/), held at TGAC, 4-5 July,
   * 17 registered for the first ever [GCC Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/data-hackathon/), held simultaneously at TGAC,
@@ -313,6 +314,7 @@ The new [Galaxy NGS 101 Tutorial](/learn/galaxy-ngs101/) was published this spri
 1. [RNA-Seq: Playing with CuffDiff output and Cummerbund to find differentially expressed transcripts](https://vimeo.com/album/3456159/video/128265982)
 
 There are also 4 new videos that provide an overview of different sequencing platforms:
+
 * [Illumina](https://vimeo.com/album/3456159/video/121178846)
 * [Ion Torrent](https://vimeo.com/album/3456159/video/121289100)
 * [PacBio](https://vimeo.com/album/3456159/video/121267426)
@@ -363,18 +365,23 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 July was a banner month, with the addition of [5 new publicly accessible Galaxy servers](/use/), bringing the list of public servers to *over 70*.
 
 1. **[AB-OpenLab FROG](http://ab-openlab.csir.res.in/frog/)**, from  [CSIR- GENESIS: Genomics and Informatics Solutions for Integrating Biology](http://crdd.osdd.net/genesis/genome.html)
+
   * **F**inge**R**printing **O**ntology of **G**enomic variations: *FROG* fingerprints capture genomic variations at different levels.  See [the FROG server description](/use/ab-openlab/) for more.
 
 1. **[AGEseq Galaxy @ AspenDB](http://aspendb.uga.edu/ageseq)**, from the [Tsai Lab](http://aspendb.uga.edu/), [Warnell School of Forestry and Natural Resources](http://warnell.uga.edu/) and [Department of Genetics](http://www.genetics.uga.edu/), University of Georgia.
+
   * AGEseq (Analysis of Genome Editing by Sequencing) compares amplicon sequences with expected target sequences and finds insertion/deletion sites in the amplicon sequences.  See [the AGEseq server description](/use/ageseq-aspendb/) for more.
 
 1. **[BioMaS Galaxy](http://galaxy.cloud.ba.infn.it:8080/)** from the [Istituto Nazionale di Fisica Nucleare](http://www.infn.it/)
+
   * Taxonomic studies of environmental microbial communities.  See [the server description](/use/biomas/) for more.
 
 1. **[MISSISSIPPI Server](http://mississippi.fr/)** from The ARTbio bioinformatics facility of the  [Institut de Biologie Paris Seine](http://www.ibps.upmc.fr/en) based at the [University Pierre & Marie Curie](http://www.upmc.fr/en/index.html).
+
   * RNA and small RNA sequencing dataset analysis as well as for epigenetics or metagenomics studies.  See the [server descriptions](/use/mississippi/) for more.
 
 1. **[SIFTED](http://thebrain.bwh.harvard.edu/sifted.html)** from [Bulyk Lab](http://thebrain.bwh.harvard.edu/index.html), [Division of Genetics](http://genetics.bwh.harvard.edu/genetics/index.html) in the [Department of Medicine at Brigham & Women's Hospital](http://www.brighamandwomens.org/medicine/) and [Harvard Medical School](http://hms.harvard.edu/hms/home.asp)
+
   * Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins.
 <br />
 

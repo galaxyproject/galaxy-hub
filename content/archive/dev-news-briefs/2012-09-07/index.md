@@ -51,6 +51,7 @@ As reported in the *[July 20th, 2012 News Brief](/archive/dev-news-briefs/2012-0
 # Tools
 
 [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/)
+
 * *Enhancements*
   * **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements:
     * Include fusions output. Read more about what this is in the [Tophat2 Manual's](http://tophat.cbcb.umd.edu/manual.html) section *Fusion mapping options:*
@@ -77,6 +78,7 @@ As reported in the *[July 20th, 2012 News Brief](/archive/dev-news-briefs/2012-0
 # Galaxy Track Browser (GTB)
 
 [Trackster](/learn/visualization/)
+
 * *New*
   * Rewrite sampling code for **[bigWig](http://genome.ucsc.edu/goldenPath/help/bigWig.html)** / **[bigBed](http://genome.ucsc.edu/goldenPath/help/bigBed.html)**
 * *Enhancements*
@@ -117,6 +119,7 @@ $ sh run.sh --daemon/sh run.sh --stop-daemon
 # Tool Shed
 
 [Tool Shed](/toolshed/)
+
 * *Fixes*
   * Several miscellaneous fixes for using a **[SQLite](http://www.sqlite.org/)** database with a local tool shed.
   * It is no longer possible to change the name of a repository in the tool shed at during the time when the repository is first being cloned.

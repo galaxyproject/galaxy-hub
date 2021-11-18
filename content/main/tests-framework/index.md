@@ -1,6 +1,7 @@
 ## Galaxy test frame work documentation
 
 **Steps of galaxy testing**
+
 1. `run_tests.sh` -->
 1. `nosetests.sh` -->
 1. `nosetests.py` -->
@@ -9,6 +10,7 @@
 
 **Details:**
 ** 1. `run_tests.sh`:**
+
 * '`run_tests.sh help`' for help
 * '`run_tests.sh`'  for testing all the tools in functional directory
 *  '`run_tests.sh aaa`'  for testing one test case, 'aaa'
@@ -35,11 +37,16 @@ options: see appendix I, “Nose options”
 **5.test on tool_id, test files or directories**
 
 1. tool_id: you can just input the tool_id to test a single galaxy tool. Please follow the following steps.
+
   * “`run_tests.sh -list`” : this command will list all the tool_ids, then you can select the correct tool_id of a tool.
   * “`run_tests.sh -id  tool_id`”: this command will test the single of this tool_id.
+
 1. test_files: if you want to test a file or files, just simply input the command as:
+
   * "`run_tests.sh test/functional/test_get_data.py`"
+
 1. directories: if you want to test all the test in a directory(s), just simply input the command as:
+
   * "`run_tests.sh test/functional`"
 
 Appendix I : Nose options

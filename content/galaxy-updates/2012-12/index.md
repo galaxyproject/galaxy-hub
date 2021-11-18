@@ -159,9 +159,11 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 ### Deadlines
 
 We only know of one deadline coming up in December:
+
 * [Genomic Standards Council Meeting (GSC 15)](http://gensc.org/gc_wiki/index.php/GSC_15) (Dec 20: Deadline for submission of abstracts)
 
 However, there are a few high-profile meetings:
+
 * [Rocky 2012](http://www.iscb.org/rocky2012)
 * [BeNeLux Bioinformatic Conference (BBC) 2012](http://www.nbic.nl/bbc2012)
 * [ISCB-Asia/SCCG 2012](http://www.iscb.org/iscb-asia2012)
@@ -171,6 +173,7 @@ However, there are a few high-profile meetings:
 <div class='right'><a href='http://galaxy-dist.readthedocs.org'><img src="/images/news-graphics/2012_11_14_dist-readthedocs.png" alt="Galaxy-Dist at ReadTheDocs" width="320" /></a><br /><a href='http://readthedocs.org'><img src="/images/logos/ReadTheDocsLogo.png" alt="Read the Docs" width="125" /></a><a href='http://sphinx-doc.org/'><img src="/images/logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator" width="200" /></a></div>
 
 The Galaxy Project is now using *[Sphinx](http://sphinx-doc.org/)* hosted at [Read the Docs](http://readthedocs.org) to document the Galaxy code base.  Two versions are available:
+
 * **[galaxy-dist](http://galaxy-dist.readthedocs.org):** Code documentation for latest official release of Galaxy.
 * **[galaxy-central](http://galaxy-central.readthedocs.org):** Code documentation for the latest committed version of the code.  This should never lag behind the Bitbucket checkins by more than an hour.
 
@@ -201,6 +204,7 @@ upgrade: $ hg pull -u -r 5dcbbdfe1087
 [CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 This update brings a large number of updates and new features, the most prominent ones being:
+
 * Support for Eucalyptus cloud middleware. Thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).
 * Added a new file system management interface on the CloudMan Admin page, allowing control and providing insight into each available file system
 * Added quite a few new user data options. See the [UserData page](/cloudman/userdata/) for details. Thanks to John Chilton.

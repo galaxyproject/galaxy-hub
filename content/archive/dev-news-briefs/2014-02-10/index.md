@@ -74,6 +74,7 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 1. *Phyloviz*: Saving as visualization corrected. https://trello.com/c/dzBmbyqF
 1. *Scatterplot*: Improvements to large data loading. https://trello.com/c/8or6FdE2
 1. *Trackster*:
+
   * Standalone web application(s) for visualizations. https://trello.com/c/i0yW8IgQ
   * Correct issue where attempting to set a custom build that has not finished processing resulted in unrecoverable infinite recursion. https://trello.com/c/AWyQSQ8F
   * CSS styling improvements include:
@@ -143,6 +144,7 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 # Pull Requests Merged
 
 Thanks to our Galaxy community contributors!
+
 1. 285 - Make to_dict method stringify non-JSONable objects. Kyle Ellrott. https://trello.com/c/fzea3Km9
 1. 296 - Adding update_time to dataset to_dict methods. Kyle Ellrott. https://trello.com/c/dEz6n55E
 1. 253 - Add API call to allow for deletion/purge of dataset in a data library. Philip Mabon. https://trello.com/c/3stOCbEi
@@ -205,6 +207,7 @@ Thanks to our Galaxy community contributors!
 ## Tool Migration Framework
 
 Also see above: [New Tool Migrations](/archive/dev-news-briefs/2014-02-10/#new-tool-migrations)
+
 1. Tags corrected: 11 tools migrated to Tool Shed contained spurious 'version=1.0.0' attribute. https://trello.com/c/2GklJHZi
 1. Implemented the ability to easily migrate a set of repositories from a tool shed to another tool shed. https://trello.com/c/J0MKjYZt
 
@@ -224,6 +227,7 @@ Also see above: [New Tool Migrations](/archive/dev-news-briefs/2014-02-10/#new-t
 1. Tool shed listings confirmed to include last updated date and other ways for the viewer to determine currency of the wrapper. https://trello.com/c/qyknuE7L https://trello.com/c[/IwwSjI3m](/archive/dev-news-briefs/2014-02-10/IwwSjI3m/)
 1. Display message on Manage / View repository page in the tool shed if repository has repository dependencies that are deprecated. https://trello.com/c/EZuWhamr
 1. Dev Team owned repo updates
+
   * *Free Bayes*: Developed a tool dependency definition that specifies precompiled binaries. https://trello.com/c/zYoVHKoV
   * *EMBOSS*: Updated repo so it downloads a precompiled platform-specific binary. https://trello.com/c/iW3Amhl5
 

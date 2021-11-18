@@ -101,6 +101,7 @@ There are several *registration* deadlines this month:
 
 * **[Galaxy Africa & ISCB Africa](https://www.iscb.org/iscbafrica2019-register)**, Kumasi, Ghana. *Early Registration: October 20*
 * **[W4E 2020](https://workflow4metabolomics.org/w4e2020)**, Brussels, Belgium. *Pre-registration: 3rd November*
+
 </div>
 </div>
 
@@ -208,6 +209,7 @@ The **[NG-Tax server](https://ngtax.systemsbiology.nl/)** provides a semantic fr
 
 * [8000 users, 6.000.000 jobs and 11.000.000 datasets on UseGalaxy.eu](https://galaxyproject.eu/posts/2019/09/17/8000users/)
 * [The European Galaxy server is part of the EOSC marketplace](https://galaxyproject.eu/posts/2019/09/15/Galaxy-part-of-EOSC-marketplace/)
+
 </div>
 
 <div class="card border-info"  style="min-width: 16rem;">

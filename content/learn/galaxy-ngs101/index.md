@@ -14,6 +14,7 @@ This section contains quick explanations and important references for major sequ
 <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/NGS101-454.pdf'><img src="/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
+
 * [Description of 454 process - Margulies et al. (2005)](http://www.nature.com/nature/journal/v437/n7057/pdf/nature03959.pdf)
 * [Overview of pyrosequencing methodology - Ronaghi (2001)](http://genome.cshlp.org/content/11/1/3)
 * [History of pyrosequencing - Pål Nyrén (2007)](http://link.springer.com/protocol/10.1385/1-59745-377-3:1)
@@ -25,6 +26,7 @@ This section contains quick explanations and important references for major sequ
 <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/NGS101-Illumina.pdf'><img src="/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
+
 * [Human genome sequencing on Illumina - Bentley et al. (2008)](http://www.nature.com/nature/journal/v456/n7218/pdf/nature07517.pdf)
 * [Illumina pitfalls - Kircher et al. (2011)](http://www.biomedcentral.com/content/pdf/1471-2164-12-382.pdf)
 * [Data quality 1 - Minoche et al. (2011)](http://genomebiology.com/content/pdf/gb-2011-12-11-r112.pdf)
@@ -35,6 +37,7 @@ This section contains quick explanations and important references for major sequ
 <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/NGS101-Ion.pdf'><img src="/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
+
 * [Semiconmductor non-optical sequencing - Rothberg et al. (2011)](http://www.nature.com/nature/journal/v475/n7356/full/nature10242.html)
 * [Ion Torrent, Illumina, PacBio comparison - Quail et al. (2011)](http://www.biomedcentral.com/content/pdf/1471-2164-13-341.pdf)
 * [Improving Ion Torrent Error Rates - Golar and Medvedev (2013)](http://bioinformatics.oxfordjournals.org/content/29/13/i344.full.pdf)  
@@ -44,6 +47,7 @@ This section contains quick explanations and important references for major sequ
 <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/NGS101-PacBio.pdf'><img src="/images/ngs101/pdf.png" alt="Slides" height="20" /></a>
 
 **Publications:**
+
 * [Single Molecule Analaysis at High Concentration - Levene et al. (2003)](http://www.sciencemag.org/content/299/5607/682.full.pdf)
 * [ZMW nanostructures - Korlach et al. (2008)](http://www.pnas.org/content/105/4/1176.full)
 * [Real Time Sequencing with PacBio - Eid et al. (2009)](http://www.sciencemag.org/content/323/5910/133.full)

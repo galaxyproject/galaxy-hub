@@ -105,6 +105,7 @@ CollaborationFest will be at Reed College, the same location as other GCCBOSC 20
 * *[Christian Schudoma](http://www.earlham.ac.uk/christian-schudoma)*, [Earlham Institute](http://www.earlham.ac.uk/)
 
 Contact us at
+
 * CollaborationFest 2018 Organizers <cofest2018-org@lists.galaxyproject.org>
 
 # CollaborationFest Sponsors

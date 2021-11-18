@@ -32,6 +32,7 @@ GCC2012 was hosted by the [University of Illinois at Chicago](http://uic.edu/), 
   * Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets *and* the computational analyses that produced them.
 
 GCC 2012 is also an opportunity to:
+
 * **[Present your work!](/events/gcc2012/abstracts/)**
 * **[Learn best practices](/events/gcc2012/program/)** for deploying Galaxy, defining and installing resources, and managing and moving large datasets.
 * **Network with others** in the Galaxy community who are facing similar challenges and using Galaxy (and other tools) to address them.

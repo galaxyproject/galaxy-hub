@@ -7,6 +7,7 @@ This page will provide details on how Hadoop has been integrated into CloudMan. 
 # Hadoop-On-Demand
 
 The capability of running a Hadoop job has been added to the CloudMan through its local resource manager, Sun Grid Engine. The SGE has been extended in such a way that it will monitor jobs submitted into it for finding Hadoop jobs. This is achieved in two steps as follow:
+
 1. The prolog variable in the All.q configuration has been set to point to the **hdfsstart.sh** script in /opt/hadoop/sge_integration path. This script is looking for jobs with the name "hadoop" assigned to them.
 2. Hadoop jobs should be submitted with the name "hadoop".
 

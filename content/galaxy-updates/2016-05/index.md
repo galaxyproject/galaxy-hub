@@ -354,6 +354,7 @@ You must be a US-based academic to access Jetstream cloud. Access is free but it
 ** How do I launch my own Galaxy server? **
 
 After you have your XSEDE account and an active allocation:
+
 1. Visit https://use.jetstream-cloud.org/
 2. Browse the available images and choose "Galaxy 16.01 Standalone"
 3. Follow the prompts on the screen to launch an instance
@@ -483,6 +484,7 @@ Dataset collections help analyzing multiple datasets in just a few clicks. This 
 <div class='right'><br /><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
+
 * [Galaxy Administrator & Developer](http://www.uni-freiburg.de/verwaltung/stellenboerse/?erf=y&stellenid=9693&layout=v4), University of Freiburg, Freiburg, Germany.
 * [Postdoctoral researcher](https://www.uni-freiburg.de/administration/stellenboerse/?erf=y&stellenid=9661), University of Freiburg, Freiburg, Germany.
 * [Bioinformatics Web Application Developer-Biology](https://jobs.wustl.edu/) (Job ID 32899), Washington University in St. Louis, Missouri, United States
@@ -619,6 +621,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 **We just released an update to Galaxy CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
 Most notable changes include:
+
 * Galaxy 16.01 release
 * A fine-grained control over auto-scaling options
 * Several fixes to cluster sharing and cloning

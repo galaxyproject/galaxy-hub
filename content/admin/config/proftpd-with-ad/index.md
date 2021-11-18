@@ -43,6 +43,7 @@ Line 3 tells Galaxy to look in  "/galaxy/database/ftp/<user>@example.domain"
 ## Getting a version of ProFTPd that will actually do what it says it will
 
 For this recipe to work will need at least these versions
+
 * proftpd            version 1.3.4
 * proftpd-mod-ldap   version 2.9.2   NOTE: Ubuntu-12.10 apt-get gives you version 2.9.0 which WILL NOT WORK!
 
@@ -170,6 +171,7 @@ AllowStoreRestart       on
 ## Discussion
 
 Where ever it's getting the information mod_ldap is looking for:
+
 * uid
 * gid
 * uidNumber

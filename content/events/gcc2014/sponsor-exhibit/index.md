@@ -14,6 +14,7 @@ If your organization is interested in participating in [GCC2014](/events/gcc2014
 ## About GCC2014
 
 The *Galaxy Community Conference* is the [Galaxy Project's](http://galaxyproject.org/) annual community gathering. GCC2014 will be the fifth annual meeting. Attendance has increased every year, and [GCC2012](/events/gcc2012/) and [GCC2013](/events/gcc2013/) both had over 200 registration each.  Participants are mainly:
+
 * Sequencing core facility staff
 * Bioinformatics core staff
 * Bioinformatics tool and workflow developers

@@ -40,6 +40,7 @@ And there is no shortage of other upcoming events either, including [RNA-Seq and
 **[Lots of other news](/galaxy-updates/2015-03/)**
 
 In addition, there is news on:
+
 * [82 new publications](/galaxy-updates/2015-03/#new-papers), including 7 highlighted ones
 * [Summary of the Fall 2014 Galaxy Community Questionnaires](/galaxy-updates/2015-03/#fall-2014-questionnaire-summaries)
 * [An introduction to Gravity](/galaxy-updates/2015-03/#gravity), a process manager (supervisor) for Galaxy servers.

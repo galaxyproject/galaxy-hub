@@ -383,6 +383,7 @@ Besides having a really cool logo, the [RNA-Rocket Galaxy server](http://rnaseq.
   - [GrAPPA (Graph Algorithms Pipeline for Pathway Analysis)](https://grappa.eecs.utk.edu/grappa/) is a Galaxy server for graph theoretical tools. It contains novel combinatorial methods integrated into a complete microarray analysis toolchain, from uploading raw high-throughput data to visualization of results.
 
 Efforts to increase GrAPPA’s functionality are underway. Features now being incorporated include:
+
   - a larger repertoire of pre-processing options, including Gaussian graphical models and an expanded set of correlation metrics such as mutual information
   - more powerful post-processing capabilities, for example, software tools for Bayesian analysis
   - links to related web-centric resources, e.g. GeneWeaver, so that users can seamlessly transfer data and results

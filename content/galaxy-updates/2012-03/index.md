@@ -134,6 +134,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 ## Tool Shed Contributions
 
 At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in February, including
+
 * CREST (Clipping REveals STructure): maps somatic structural variation in cancer genomes
 * MACS 1.4 ChIP-Seq peak calling ([Main](/main/) has 1.3)
 * java_genomics_toolkit: NGS, especially WIG transformations (add/log/Z-score/etc) and visualization (KMeans/heatmaps)
@@ -144,6 +145,7 @@ At least 8 new repositories were added to the [Galaxy Tool Shed](http://toolshed
 ## Other News
 
 **New non-wiki documentation**
+
 * [Tutorial: Using the UCSC Genome Browser and Galaxy to study regulatory sequence evolution in Drosophila](http://bergmanlab.smith.man.ac.uk/?p=1248), by [Casey Berman](http://www.ls.manchester.ac.uk/people/profile/?personid=235)
 * [Notes on installing Galaxy](http://biocoders.net/2012/02/20/guest-post-notes-on-installing-galaxy/) by [Paul-Michael Agapow](http://biocoders.net/members/agapow/)
 

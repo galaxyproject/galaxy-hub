@@ -61,6 +61,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 # Tools
 
 1. **Data Manager**
+
   * Individual location files are now namespaced when installed from the toolshed, and
   * Will write only to the location files that were installed along with them, when installed from a toolshed. https://trello.com/c/UL2Ripd0
   * Allow a named Tool Data Table to be defined more than once. If column definitions match, allow merging multiple tables. https://trello.com/c/p7I9adrj
@@ -147,6 +148,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 
 1. #1 Repositories in the tool shed that contain tools that are not tested for any reason now display a "Not tested" container within the "Automated tool test results" section of the Manage repository page.  This new container displays the reason the tool was not tested.
 1. #2 Enhanced tool dependency definition
+
   * Add support for optionally extracting a file downloaded with the download_file tool dependency action.
   * Add a change_directory action.
   * Contributions from [Björn Grüning](https://bitbucket.org/BjoernGruening) (thanks!) adding support for a `template_command` action type in tool dependency definitions for the tool shed. An example of the new action tag is:

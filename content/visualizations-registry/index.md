@@ -244,6 +244,7 @@ This tells the registry that when:
 ```
 
 is clicked:
+
 1. the `dataset_id` should be parsed into a dataset (`type="dataset"`) by finding the `HistoryDatasetAssociation`
   with the encoded id 'f7bb1edd6b95db62' in the database
 2. the ORM model is passed to the template (in this case, `sam.mako`) under the name `hda` (`var_name_in_template="hda"`)
@@ -268,6 +269,7 @@ The code for your visualization begins with a Mako template file.
 #### Your visualizations template file
 
 The main entry point for any code that you add will be your plugin's Mako template file. Within the template you can:
+
 * import Galaxy modules
 * import and use your own modules
 * run python code

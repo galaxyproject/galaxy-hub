@@ -1044,6 +1044,7 @@ Can you use Macros to simplify the inclusion of common tool content between the 
 Open questions and Free play.
 
 Some suggestions for exploration (http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax):
+
 * Config files
 * Validators
 * Defining Datatypes and Metadata

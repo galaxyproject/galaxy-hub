@@ -17,6 +17,7 @@ And there are other upcoming deadlines too:
 * **Apply for the [Galaxy Australia Variant Calling Workshops](#event-news) by May 12.**
 
 We also have
+
 * **[open positions](#community-news)**
 * **[webinars, CoFests, workshops, community meetups, and other events](#event-news)**,
 * news about **[public Galaxy platforms](#galaxy-platforms-news)**,
@@ -51,10 +52,12 @@ Here is what we will need you to do by the end of Friday, May 7:
 1. Think of your favorite story/interaction/event involving James
 2. Pick a nice location and record the video!
 3. The video should be:
+
   * in a high-resolution
   * without background noise
   * in a horizontal orientation (not vertical!)
   * ≲ 30 seconds in length
+
 4. Deposit video file to your Google Drive or Dropbox folder (or any other location that would allow us to retrieve it)
 5. Send a link to the video, your name and location as you would like them to appear in the final video to: outreach@galaxyproject.org
 

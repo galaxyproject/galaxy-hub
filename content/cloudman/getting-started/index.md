@@ -122,6 +122,7 @@ will lead you to Galaxy.
 ----
 
 Depending on your interest, the documentation contains a wealth of information. Here are some places that might interest you:
+
 * [Capacity planning](/cloudman/capacity-planning/)
 * [Cluster applications and services](/cloudman/services/)
 * [Sharing and publishing a cluster](/cloudman/sharing/)

@@ -12,6 +12,7 @@ Galaxy [servers](/use/) and [support](/support/) are available in a wide variety
 <div class='right'><a href='https://galaxyworks.io/'><img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks, LLC" width="270" /></a></div>
 
 GalaxyWorks [was founded](https://galaxyproject.org/news/2020-06-galaxyworks-announcement/) by several [Galaxy Project's community members](https://galaxyworks.io/about/) to enable scientists to continue to rely on Galaxy as they roll through chapters in their careers and switch between academia and industry. Galaxy Pro offers the following advantages:
+
 * **Managed software**, saving time and cost of installing, updating, and maintaining infrastructure and software
 * **Pro workflows**, as a set of high-quality, versatile pipelines that are available out-of-the box and are accompanied by documentation and test data
 * **Support**, via dedicated help and customizations to include tool updates or pipeline development

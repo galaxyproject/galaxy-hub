@@ -12,6 +12,7 @@ This newsletter coincides with the [anniversary of James Taylor's death](#featur
 The other big news is that [registration, abstract submission, and fellowship applications for the 2021 Galaxy Community Conference are now open](#community-news).  Abstracts and fellowship applications are due by May 7.
 
 And as always there are sections on
+
 * **[upcoming events](#event-news)**,
 * news about **[public Galaxy platforms](#galaxy-platforms-news)**,
 * recent **[blog posts](#galactic-blog-activity)**,
@@ -48,10 +49,12 @@ Here is what we will need you to do before April 30:
 1. Think of your favorite story/interaction/event involving James
 2. Pick a nice location and record the video!
 3. The video should be:
+
   * in a high-resolution
   * without background noise
   * in a horizontal orientation (not vertical!)
   * ≲ 30 seconds in length
+
 4. Deposit video file to your Google Drive or Dropbox folder (or any other location that would allow us to retrieve it)
 5. Send a link to the video, your name and location as you would like them to appear in the final video to: outreach@galaxyproject.org
 

@@ -15,6 +15,7 @@ upgrade: `% hg pull -u -r 720455407d1c`
 ## GCC 2011
 
 We had ~ 140  attendees at the **2011 Galaxy Community Conference**, held May 25-26, in the Netherlands!
+
 * Please see [GCC2011](https://galaxyproject.org/gcc2011/) for links to slides and to videos of the talks.
 * Feedback has been very positive with 100% of respondents saying they would recommend future Galaxy meetings to others.  
 * Many thanks to the **[Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/)** for co-sponsoring and hosting this event.
@@ -32,6 +33,7 @@ Python 2.7 is now supported in beta. Functional tests with 2.7 are a pass. This 
 ### Cloudman Admin Functions
 
 Galaxy's **Cloudman** now has an admin interface that allows you to gain insight and control many of the services underlying your cloud instance. Namely, you can:
+
 * Add Galaxy admin users through the web interface.
 * Update Galaxy source (even from a custom repository).
 * View logs and configurations for individual services.
@@ -44,6 +46,7 @@ To get to the admin interface, just click the 'Admin' link at the top right corn
 ### New Galaxy Tool Shed
 
 Rather than rigidly structured tool archives, the foundational component of Galaxy's **Tool Shed** is now an hg (Mercurial) repository.  
+
 * The Test/Sandbox **Tool Shed** available at [http://testtoolshed.g2.bx.psu.edu](http://testtoolshed.g2.bx.psu.edu)
 * The Production **Tool Shed** is available at [http://toolshed.g2.bx.psu.edu](http://toolshed.g2.bx.psu.edu)
 

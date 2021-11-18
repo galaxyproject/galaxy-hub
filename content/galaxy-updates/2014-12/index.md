@@ -242,6 +242,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 # Mailing Lists Moved
 
 The [Galaxy mailing lists](/mailing-lists/) have been moved from the lists.bx.psu.edu domain to the lists.galaxyproject.org domain.  This transition should be largely transparent, but there are a few things to be aware of:
+
 * List sender addresses and headers will change to reflect the updated domain: from bx.psu.edu to galaxyproject.org.  
 * Existing email filters you have set up may require adjustments.
 * Posts from lists.galaxyproject.org could be categorized as spam until you train your filtering method.

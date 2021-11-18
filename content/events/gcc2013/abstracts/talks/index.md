@@ -30,6 +30,7 @@ It is now well accepted that computation is emerging as central to the scientifi
 Victoria is an assistant professor of [Statistics](http://www.stat.columbia.edu/) at [Columbia University](http://www.columbia.edu/), and affiliated with the Columbia University [Institute for Data Sciences and Engineering](http://idse.columbia.edu/victoria-stodden). She completed her PhD in statistics and her law degree at Stanford University. Her research centers on the multifaceted problem of enabling reproducibility in computational science. This includes studying adequacy and robustness in replicated results, designing and implementing validation systems, developing standards of openness for data and code sharing, and resolving legal and policy barriers to disseminating reproducible research.
 
 [Victoria](http://www.stanford.edu/~vcs/Bio.html) is also  
+
 * the developer of the [Reproducible Research Standard](http://ijclp.net/old_website/article.php?doc=1&issue=13_2009), a suite of open licensing recommendations for the dissemination of computational results.
 * a co-founder of [RunMyCode.org](http://www.RunMyCode.org), an open platform for disseminating the code and data associated with published results, and enabling independent and public cloud-based verification of methods and findings.
 * creator and curator of [SparseLab](http://sparselab.stanford.edu/), a collaborative platform for reproducible computational research in underdetermined systems.
@@ -398,6 +399,7 @@ The DevOps is a software development movement that stresses a close relationship
 We started from an initial situation with 2 teams (software developers and netsys admins), one methodology (Agile) and an infrastructure composed by an HPC cluster, a Galaxy server and a suite of homemade tools. From this initial situation, we merged our 2 teams in one with extended skills on new tools and technologies.
 
 This experience was not straight forward. We met unexpected situations that we will discuss in this presentation :
+
 * technicals issues : HPC cluster and Galaxy Virtual Machine : communications, configurations and dependencies,
 * organisational issues :  Developpers' environement changed, we passed from isolated personnal machine to collective virtual machine, and developpers had to acquire admin system skills.
 

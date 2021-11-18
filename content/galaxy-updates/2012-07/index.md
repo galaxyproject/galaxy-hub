@@ -103,6 +103,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 <div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are July (*and June 30!*) application and registration deadlines for
+
 * the [Galaxy Workshops in South Africa](/news/galaxy-workshops-in-south-africa/) (deadline: **June 30**) and the [South African Genetics & Bioinformatics Society Conference](http://genetics.cmc-uct.co.za/) (deadline **July 1**)
 * [Systems Bioinformatics Workshop](http://gaggle.systemsbiology.net/workshop2012/) (deadline: **June 30**)
 * [GMOD Summer School](http://gmod.org/wiki/2012 GMOD Summer School) (deadline: **July 9**)
@@ -210,6 +211,7 @@ A new version of CloudMan was [Released in June](/news/new-cloudman-release/).
 1. The first [GalaxyCzars](/community/galaxy-admins/) conference call will happen July 9 or 10.  If you are interested, *please [help pick a time](http://doodle.com/f4f2f37smgcv3z6n) for the call.*
 
 1. Several new videos, screencasts, and tutorials were posted:
+
   * [OpenHelix Video Tip of the Week: Visualizing the Galaxy](http://blog.openhelix.eu/?p=12439)
   * [Using PhyloTastic Tools inside Galaxy](http://www.youtube.com/watch?v=kMME658xOu4&feature=youtu.be), by Rutger Vos
   * [Getting Started with the CloudMan Platform Using BioCloudCentral](http://www.youtube.com/watch?v=AKu_CbbgEj0), by [Enis Afgan](/people/enis-afgan/)
@@ -219,4 +221,5 @@ A new version of CloudMan was [Released in June](/news/new-cloudman-release/).
   * [Genomic Resequencing Variant Detection and Interpretation in a Diagnostic Context Hands on workshop: Next generation sequence data analysis](https://humgenprojects.lumc.nl/trac/GAPSS3/wiki/resequencing), by [Hailiang (Leon) Mei](http://www.nbic.nl/about-nbic/nbic-faculty/details/hailiang-leon-mei/), [Jeroen Laros](http://www.liacs.nl/~jlaros/)
 
 1. Several new and updated genomes were added to [Galaxy Main](/main/) in June:
+
   * bosTau4, bosTau6, bosTauMd3, canFam2, ce10, gorGor3, mm9, mm10, panTro3, rn4,

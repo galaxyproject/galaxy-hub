@@ -11,6 +11,7 @@ over different Infrastructure-as-a-Service cloud providers,
 reducing or eliminating the need to write conditional code for each cloud.
 
 The release 2.1.0 includes:
+
 - A new DNS service, which is a top level service for managing DNS zones and records.
 - Support for using the newly added AWS instance type offerings API. This removes the dependency on a static machine type list, and returns up-to-date information on instance type availability.
 - The default package no longer bundles Azure, as the Azure python libraries are very large and affects docker container size when using cloudbridge. To install with Azure, use pip install cloudbridge[full] or pip install cloudbridge[azure].

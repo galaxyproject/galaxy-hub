@@ -849,6 +849,7 @@ Provide technical expertise and oversight for the [AnVIL Project](http://anvilpr
 </div>
 
 The Schatz Lab at Johns Hopkins University is looking for:
+
 - Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
 - Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 

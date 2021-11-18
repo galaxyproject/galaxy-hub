@@ -82,6 +82,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
 # Tools
 
 [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/)
+
 * **NGS: GATK Tools (beta)**
   * Added **[GATK](http://www.broadinstitute.org/gsa/wiki) version 1.4**
     * Compiled from [v1.4-18-g80a4ce0](http://github.com/broadgsa/gatk)
@@ -118,6 +119,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
 # Tool Shed
 
 [Tool Shed](/toolshed/)
+
 * **Features**
   * The tool shed's upload process will automatically eliminate undesired directories (.svn, .git, .hg, .cvs) and file (hgrc, .jhg_archival.txt, .DS_Store) from the archive before committing the contents to the repository.  This provides for a more pristine environment for those that install the repository locally.
   * You can now browse your invalid tools in the tool shed, and clicking on an invalid tools will display information about why it is invalid.  The definition of a valid tool in the tool shed has always been restricted to the tool properly loading in a Galaxy instance and that no required dependent files are missing.  If a tool is not valid, it will not be returned in a search and it cannot be automatically installed (unless it belongs to a repository containing other valid tools).  Only valid tools should be shared in the tool shed or its value will diminish over time.   Tool developers should browse their invalid tools and make corrections to them if necessary.
@@ -132,6 +134,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
 # Galaxy Track Browser (GTB)
 
 [Trackster](/learn/visualization/)
+
 * Enable resizing of all tracks.
 * Ensure reference track does not scroll.
 * Use hash as location in Trackster.
@@ -168,6 +171,7 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
 
 [galaxy-cental](http://bitbucket.org/galaxy/galaxy-central/src/),
 [galaxy-dist](http://bitbucket.org/galaxy/galaxy-dist/src/)
+
 * Remove `enable_api flag`; API is now enabled by default and cannot be disabled.
 * Enable dynamic options for `DrillDownSelectToolParameter`.
 * Rework the display of `DrillDown` form elements.

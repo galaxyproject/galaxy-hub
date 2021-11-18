@@ -98,5 +98,6 @@ Please click the bug icon to report this problem if you need help.
 Different errors can be reported and some may seem unrelated to sort order. Try sorting as a first pass troubleshooting solution.
 
 If sorting does not work, it could be that your FASTQ data is not actually in *.fastqsanger* format. This occurs quite often in reported issues. For the quickest resolution, instead of reporting the bug and being sent back this link, first double check your data format directly.
+
 * [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
 * [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)

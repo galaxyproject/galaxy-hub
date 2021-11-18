@@ -43,6 +43,7 @@ Also, if you would like to be notified of future Baltimore Area Galaxy Meetups, 
 #### What is Galaxy and why could it be interesting to me?
 
 Galaxy is a web-based, open source, data integration and analysis platform for life science research. The core pillars of the application are:
+
 * **Accessibility**: enable bench scientists to create bioinformatics analyses
 * **Reproducibility**: facilitate computational methods to be completely easily reproducible
 * **Transparency**: enable easy sharing and publishing of research data and analyses
