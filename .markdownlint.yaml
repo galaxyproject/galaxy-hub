@@ -79,4 +79,4 @@ MD037: false # no-space-in-emphasis
 MD038: false # no-space-in-code
 MD039: false # no-space-in-links
 MD044: false # proper-names
-MD047: false # single-trailing-newline
+MD047: true # single-trailing-newline
