@@ -1,5 +1,5 @@
 1. page was renamed from Admin/Data Libraries/Libraries
-2. format text/creole 
+2. format text/creole
 
 # Data Libraries
 
