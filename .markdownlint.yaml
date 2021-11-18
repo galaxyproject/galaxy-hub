@@ -1,23 +1,16 @@
 ---
-# Copied from gridsome's website markdownlint configuration.  We'll want to
-# figure out what of this we want to fix or relax.
+# Some of this is based off of gridsome's website markdownlint configuration.
+# It'll be an incremental process figuring out what we want to fix or relax.
 
+# markdownlint schema example: https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
 
-
-
-## no-inline-html
-#MD033:
-#  # We use inline HTML to embed the Newsletter component in a page.
-#  allowed_elements:
-#    - div
-#    - Newsletter
-
-
-# Errors that cannot be automatically fixed.
+#########################################################
+# This first set of errors cannot be automatically fixed.
+#########################################################
 
 MD001: false # heading-increment/header-increment
-MD002: false
-MD003: false
+MD002: false # first-heading-h1/first-header-h1
+MD003: false # heading-style/header-style
 
 # Markdown files don't need to observe a line length limit.
 MD013: false # line-length
@@ -27,20 +20,28 @@ MD013: false # line-length
 MD024: false # no-duplicate-heading/no-duplicate-header
 
 MD025: false # single-title/single-h1
-MD028: false
+MD028: false # no-blanks-blockquote - Blank line inside blockquote
 MD029: false # ol-prefix
-MD033: false
-MD035: false
+MD033: false # no-inline-html
+#  # We use inline HTML to embed the Newsletter component in a page.
+#  allowed_elements:
+#    - div
+#    - Newsletter
+
+
+MD035: false # hr-style - Horizontal rule style
 MD036: false # no-emphasis-as-heading/no-emphasis-as-header
-MD040: false
+MD040: false # fenced-code-language - Fenced code blocks should have a language specified
 MD041: false # first-line-heading/first-line-h1
 MD042: true  # no-empty-links
-MD043: false
-MD045: false
-MD046: false
-MD048: false
+MD043: false # required-headings/required-headers - Required heading structure
+MD045: false # no-alt-text - Images should have alternate text (alt text)
+MD046: false # code-block-style
+MD048: false # code-fence-style
 
-# Automatically fixable types
+#####################################################################
+# The following error classes *can* be automatically fixed with --fix
+#####################################################################
 MD004: true # ul-style
 MD005: true # list-indent
 MD007: # ul-indent
