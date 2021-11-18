@@ -24,25 +24,25 @@ Here are the highlights of the following upgrade:
 ### NGS Simulation Tool
 
 * Allows user to simulate multiple Illumina runs with several parameters that can be set.
-  * On each run, one position is randomly chosen to be polymorphic and sequencing errors are also simulated.
-  * The primary output is a png with two different plots.
-  * The other output shows summary statistics about the simulation.
+    * On each run, one position is randomly chosen to be polymorphic and sequencing errors are also simulated.
+    * The primary output is a png with two different plots.
+    * The other output shows summary statistics about the simulation.
 * NGS simulation tool location: tools/ngs_simulation/ngs_simulation.xml
 
 ### Tophat and Cufflinks RNA-seq Tools
 
 * Addition of RNA-seq analysis tools **Tophat** and **Cufflinks**.
-  * Together, these tools can be used to analyze RNA-seq data to understand alternative splicing and isoforms, gene and isoform expression, and perform statistical tests for differential expression.
-  * Galaxy supports Tophat version 1.1.1 and later and Cufflinks version 0.9.1 and later. (These are the versions included this distribution).
+    * Together, these tools can be used to analyze RNA-seq data to understand alternative splicing and isoforms, gene and isoform expression, and perform statistical tests for differential expression.
+    * Galaxy supports Tophat version 1.1.1 and later and Cufflinks version 0.9.1 and later. (These are the versions included this distribution).
 
 ### Import or Export Workflows & Histories  
 
 * **Workflows** can now be downloaded/exported to a file and uploaded/imported into Galaxy, making it easy to move workflows between Galaxy instances.
 * Beta feature: **Histories** can also be downloaded or moved from one Galaxy instance to another, subject to these limitations:
-  * history archives can be uploaded/imported only via URL, not file
-  * histories must be accessible via link in order for them to be importable via archive
-  * tags are not currently imported
-  * reproducibility is limited as parameters for imported jobs are not always recovered and set
+    * history archives can be uploaded/imported only via URL, not file
+    * histories must be accessible via link in order for them to be importable via archive
+    * tags are not currently imported
+    * reproducibility is limited as parameters for imported jobs are not always recovered and set
 
 ### Even Better Data Visualization with Trackster
 
@@ -58,31 +58,31 @@ currently not represented in the display.
 
 * GFF feature blocks are now displayed correctly, along with name, strand, and score information.
 * General enhancements
-  * Removed right-hand pane, allow inline re-ordering and configuration of elements
-  * Moved navigational controls to the top
-  * Histogram display for LineTracks and overview
-  * New navigational slider and new overview settings under the dropdown corresponding to the track name
-  * Summary view now shows maximum y-axis value
-  * Can change draw color of LineTrack
-  * When editing track config, "Enter" and "Esc" keys submit and cancel the changes, respectively
-  * Don't index bottom level for summary_tree, greatly reducing computation time (>5x speedup) while not sacrificing usability Refactored to pass JSLint
+    * Removed right-hand pane, allow inline re-ordering and configuration of elements
+    * Moved navigational controls to the top
+    * Histogram display for LineTracks and overview
+    * New navigational slider and new overview settings under the dropdown corresponding to the track name
+    * Summary view now shows maximum y-axis value
+    * Can change draw color of LineTrack
+    * When editing track config, "Enter" and "Esc" keys submit and cancel the changes, respectively
+    * Don't index bottom level for summary_tree, greatly reducing computation time (>5x speedup) while not sacrificing usability Refactored to pass JSLint
 * Tuning
-  * Fix ReferenceTrack issue.
-  * Don't re-add new datasets when refreshing after using "Add into current viz" link.
-  * To prevent browser lockup, only display up to 50 lines of features by default (user-editable in future). Coming soon: add warning message when this occurs.
-  * Fix LineTrack rendering bug when more than one tile on screen.
+    * Fix ReferenceTrack issue.
+    * Don't re-add new datasets when refreshing after using "Add into current viz" link.
+    * To prevent browser lockup, only display up to 50 lines of features by default (user-editable in future). Coming soon: add warning message when this occurs.
+    * Fix LineTrack rendering bug when more than one tile on screen.
 
 ### Native Data set Re-organization
 
 * Galaxy now uses a set of data tables instead of simple loc files to organize, document, and store native genome data sets.
 * Why Data tables? Better data management for long term stability!
-  * Allows the information in the loc file, including the path, to be changed.
-  * By using a unique ID as the parameter value, data links in existing workflows are preserved.
+    * Allows the information in the loc file, including the path, to be changed.
+    * By using a unique ID as the parameter value, data links in existing workflows are preserved.
 * Most tools (PerM, Bowtie, BWA, Lastz, Megablast, SRMA, Tophat) that previously used loc files now have the new data tables organization implemented.
 * Better data tracking has allowed for more informative genome name display in tool dropdown boxes.
 * For local installations:
-  * See the new wiki describing how to use data tables: [wiki/DataTables](/admin/tools/Data Tables/)
-  * More help for NGS tool setup (update pending): [wiki/NGSLocalSetup](/admin/NGS Local Setup/)
+    * See the new wiki describing how to use data tables: [wiki/DataTables](/admin/tools/Data Tables/)
+    * More help for NGS tool setup (update pending): [wiki/NGSLocalSetup](/admin/NGS Local Setup/)
 
 ----
 
@@ -161,9 +161,9 @@ off, Galaxy will look for the following instead:
 * No usability changes, but this resolves the issue with multiple HideDatasetActions being created.  
 * Existing workflows displaying multiple HideDatasetActions per step on the Run Workflow screen will persist.  These extra HideDatasetActions are harmless, but a simple edit workflow -> save will remove them.
 * Workflow Inputs change:
-  * Workflow inputs that aren't a subtype of text, were previously not an option.  
-  * Added 'data' datatype to registry, which will allow both text and binary inputs (and their subtypes) to workflow input steps.  
-  * Note that this will allow a user to change the datatype of something to 'data'.
+    * Workflow inputs that aren't a subtype of text, were previously not an option.  
+    * Added 'data' datatype to registry, which will allow both text and binary inputs (and their subtypes) to workflow input steps.  
+    * Note that this will allow a user to change the datatype of something to 'data'.
 
 ### User Interface (UI)
 

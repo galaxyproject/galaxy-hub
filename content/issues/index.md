@@ -17,12 +17,12 @@ Please report usage problems with tools and functions to the **[Galaxy Help](htt
 
 A summary of common troubleshooting solutions can also be found in this **Troubleshooting FAQ**: [My job ended with an error. What can I do?](/support/tool-error/).
 
- * [Support FAQs](/support/)
- * [Galaxy Tutorials](/learn/)
- * [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
- * [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
- * [Known Issues - Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
- * [Known Issues - Tools-iuc](https://github.com/galaxyproject/tools-iuc/issues)
+* [Support FAQs](/support/)
+* [Galaxy Tutorials](/learn/)
+* [Known Issues - Galaxy](https://github.com/galaxyproject/galaxy/issues/)
+* [Known Issues - Main https://usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook/issues/)
+* [Known Issues - Tools-devteam](https://github.com/galaxyproject/tools-devteam/issues/)
+* [Known Issues - Tools-iuc](https://github.com/galaxyproject/tools-iuc/issues)
 
 ### Red error datasets
 
@@ -46,10 +46,10 @@ If the problem is presenting in your own Galaxy, administrative configuration ma
 
 Reviewing the problematic output content, the original tool form as submitted, the Job Details' `stdout/stderr`, and a bug report preview can often help to self-diagnose and correct a problem. If enough information, a bug report/Biostars post does not need to be actually submitted.
 
- * ![](/images/icons/eye.png) Display data in browser "eye icon"
- * ![](/images/icons/HistoryInfo.png) Job Details and run Info
- * ![](/images/icons/arrow-circle.png) Run this job again or examine original submitted form (filled in)
- * ![](/images/icons/bug.png) Review and optionally submit a bug report
+* ![](/images/icons/eye.png) Display data in browser "eye icon"
+* ![](/images/icons/HistoryInfo.png) Job Details and run Info
+* ![](/images/icons/arrow-circle.png) Run this job again or examine original submitted form (filled in)
+* ![](/images/icons/bug.png) Review and optionally submit a bug report
 
 1. How to share a History or Workflow: [Options/Share or Publish](/learn/share/)
 1. If a Workflow was used, please include a share link to the workflow in the bug report's form comments or the direct email.

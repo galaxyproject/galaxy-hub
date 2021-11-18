@@ -51,11 +51,11 @@ The overall idea is:
 1. The *Technical Board* and the *Community Board* are asked for high-level input. This is the step where the community, either via the technical *Working Groups* or the *Steering Committee*, can influence the process (2 weeks).
 2. The *Galaxy Exec* reviews suggestions and creates a final high-level roadmap (1 week). It is then given to the *Technical Board* which will (3 weeks):
 
-  * Add technical details.
-  * Estimate the timings.
-  * Add cross working group dependencies.
-  * Add other requirements (e.g. hardware).
-  * A detailed roadmap is given to the *Galaxy Exec* for the final decision (1 week).
+* Add technical details.
+* Estimate the timings.
+* Add cross working group dependencies.
+* Add other requirements (e.g. hardware).
+* A detailed roadmap is given to the *Galaxy Exec* for the final decision (1 week).
 
 3. The *Galaxy Exec* signs off the roadmap and publishes it on GitHub.
 

@@ -9,15 +9,15 @@ date: "2020-01-08"
 The *January 2020 Galactic News* is out:
 
 * **[13 Upcoming Events](/news/2020-01-galaxy-update/#events)**
-  * BCC2020 training topic nominations, Register for Galaxy Admin Training, Galaxy @ PAG & ABRF, and training @ Earlham and Rennes.
+    * BCC2020 training topic nominations, Register for Galaxy Admin Training, Galaxy @ PAG & ABRF, and training @ Earlham and Rennes.
 * **[172 new publications](/news/2020-01-galaxy-update/#publications)**
-  * Six highlighted pubs from RT-qPCR to functional genomics
+    * Six highlighted pubs from RT-qPCR to functional genomics
 * **[Two new blog posts](#galactic-blog-activity)**
-  * PGP-UK and Crowdsourcing Science
+    * PGP-UK and Crowdsourcing Science
 * **[Galaxy Platform News](/news/2020-01-galaxy-update/#galaxy-platforms-news)**
-  * Three new platforms, UseGalaxy.* news, and platforms in pubs
+    * Three new platforms, UseGalaxy.* news, and platforms in pubs
 * **[Training material and doc updates](/news/2020-01-galaxy-update/#doc-hub-and-training-updates)**
-  * R, RStudio, ATAC-Seq, Scanpy, and Single Cell RNA-Seq
+    * R, RStudio, ATAC-Seq, Scanpy, and Single Cell RNA-Seq
 * And **[other news too](/news/2020-01-galaxy-update/#other-news)**
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.

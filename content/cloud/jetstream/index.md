@@ -29,9 +29,9 @@ After you have your XSEDE account and an active allocation:
 
 * Set basic parameters of the instance:
     <a href='http://i.imgur.com/TSOUMJd.png?1'><img src="http://i.imgur.com/TSOUMJd.png?1" alt="" width="75%" /></a><br /><br />
-  * Select the provider: TACC or Indiana University.
-  * Select the instance size:  This must be **medium** or larger.
-  * And then click **Launch**
+    * Select the provider: TACC or Indiana University.
+    * Select the instance size:  This must be **medium** or larger.
+    * And then click **Launch**
 
 * If you don't have any existing projects in Jetstream, the next form will prompt you to create a new project.
     <a href='/cloud/jetstream/jetstream_LaunchProject.png'><img src="/cloud/jetstream/jetstream_LaunchProject.png" alt="" width="75%" /></a><br /><br />

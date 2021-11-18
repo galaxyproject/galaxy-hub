@@ -290,7 +290,7 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 * [coverage_correlation](http://bit.ly/16DibRD): calculate pearson correlation of coverages. outputs clustering/correlation matrix
 * [chemicaltoolbox](http://bit.ly/152hLBK): install cheminformatic tool wrappers (chemfp, openbabel, osra, confab, ...)
 * [ctb_machine_learning](http://bit.ly/1bNa9VC): machine learning scripts for the chemicaltoolbox
-  * [+ many others from bgruening](http://bit.ly/1bNaGXC): opsin, simsearch, rdkit, silicos_it, confab, osra, chemfp, openbabel, ...
+    * [+ many others from bgruening](http://bit.ly/1bNaGXC): opsin, simsearch, rdkit, silicos_it, confab, osra, chemfp, openbabel, ...
 * [nammer](http://bit.ly/1eXHAVg): find rRNA genes in a DNA sequence  
 * [unique](http://bit.ly/1cdLiKZ): advanced unique lines program; filter by unique lines or a unique column subset.
 * [chemicaltoolbox_merging_chemical_databases_workflow](http://bit.ly/15gDulM).

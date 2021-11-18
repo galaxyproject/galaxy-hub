@@ -12,12 +12,12 @@ Happy November from Galaxy!
 The November newsletter is thin, *but powerful*:
 
 
- * [Galaxy India Launches this Month](#community-news)
- * [7 new openings (13 total)](#community-news)
- * [9 upcoming Events](#event-news)
- * [Blog posts on SARS-CoV-2 training in Africa; Sunsetting CloudLaundh; and TIaaS](#galactic-blog-posts)
- * [UseGalaxy.* Updates](#galaxy-platforms-news)
- * [Other News too: BY-COVID Launches](#other-news)
+* [Galaxy India Launches this Month](#community-news)
+* [7 new openings (13 total)](#community-news)
+* [9 upcoming Events](#event-news)
+* [Blog posts on SARS-CoV-2 training in Africa; Sunsetting CloudLaundh; and TIaaS](#galactic-blog-posts)
+* [UseGalaxy.* Updates](#galaxy-platforms-news)
+* [Other News too: BY-COVID Launches](#other-news)
 
 Have something for the next newsletter?  Please let us know and we will spread the word.
 
@@ -327,8 +327,8 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 * New use cases published in [UseGalaxy.eu](https://galaxyproject.eu/news?tag=UseCase):
-  * [microRNAs in heart disease](https://galaxyproject.eu/posts/2021/10/11/use-case-ileana-duran/)
-  * [cellular specification, differentiation and morphogenesis of the mucociliary epithelium](https://galaxyproject.eu/posts/2021/10/12/use-case-sarah-bowden/)
+    * [microRNAs in heart disease](https://galaxyproject.eu/posts/2021/10/11/use-case-ileana-duran/)
+    * [cellular specification, differentiation and morphogenesis of the mucociliary epithelium](https://galaxyproject.eu/posts/2021/10/12/use-case-sarah-bowden/)
 
 </div>
 

@@ -48,8 +48,8 @@ This meeting features three distinct events:
 * **[Researcher Training Day](https://www.embl-abr.org.au/game2017/training-day/)** on 3 February, aimed at biomedical researchers who need to analyse their biological data
 * The **[GAMe 2017 Conference](https://www.embl-abr.org.au/game2017/conference/)** starts 4 February and features two full days of keynotes, accepted and sponsor talks, poster and sponsor sessions, birds­-of-­a­-feather gatherings, a conference dinner and lots of opportunities for networking.
 * Each day has a theme, and participants can register for one or both days.
-  * [BIO Day](https://www.embl-abr.org.au/game2017/conference/#programme): Saturday will have a biology emphasis
-  * [INFO Day](https://www.embl-abr.org.au/game2017/conference/#upstream3): Sunday will focus on infrastructure, tools, and development.
+    * [BIO Day](https://www.embl-abr.org.au/game2017/conference/#programme): Saturday will have a biology emphasis
+    * [INFO Day](https://www.embl-abr.org.au/game2017/conference/#upstream3): Sunday will focus on infrastructure, tools, and development.
 * A **[four day workshop on Galaxy server administration](https://www.embl-abr.org.au/game2017/training-for-admin-workshop/)** runs 5-9 February.  This is the 2nd time this workshop has been offered.  The first time was last month and it was [very well received](https://www.embl-abr.org.au/game2017/training-for-admin-workshop/#instructors).  Don't miss your chance to attend.
 
 ### Keynote Speakers
@@ -282,38 +282,38 @@ There are [over 80 publicly accessible Galaxy servers](/use/) and [five semi-pub
 <div class='right solid'><a href='http://public.phenomenal-h2020.eu/'><img src="/use/phenomenal/phenomenal.png" alt="PhenoMeNal"  /></a></div>
 
 * *Link:*
-  * [PhenoMeNal](http://public.phenomenal-h2020.eu/) server
+    * [PhenoMeNal](http://public.phenomenal-h2020.eu/) server
 * *Domain/Purpose:*
-  * Large scale computing for medical informatics
+    * Large scale computing for medical informatics
 * *Comments:*
-  * "The [PhenoMeNal Galaxy installation](http://public.phenomenal-h2020.eu/) allows users to access all of the [PhenoMeNal](http://phenomenal-h2020.eu/home/) containerised tools through a workflow environment, on an scalable infrastructure that can be deployed to public and private cloud installations.<br /><br />
+    * "The [PhenoMeNal Galaxy installation](http://public.phenomenal-h2020.eu/) allows users to access all of the [PhenoMeNal](http://phenomenal-h2020.eu/home/) containerised tools through a workflow environment, on an scalable infrastructure that can be deployed to public and private cloud installations.<br /><br />
 
    This PhenoMeNal H2020 Galaxy instance, and all of its tools, run as containers on top of [Kubernetes](http://kubernetes.io/), an open source container orchestrator system backed by Google. If you wish to [deploy the PhenoMeNal Galaxy installation](https://github.com/phnmnl/docker-galaxy-k8s-runtime/tree/develop) on top of your own [Kubernetes](http://kubernetes.io/) instance, you can find instructions at our [wiki](http://phenomenal-h2020.eu/home/wiki/#galaxy-with-k8s).
 
 * *User Support:*
-  * [Submit a ticket](http://phenomenal-h2020.eu/home/help/)
+    * [Submit a ticket](http://phenomenal-h2020.eu/home/help/)
 * *Quotas:*
 * *Sponsor(s):*
-  * The [PhenoMeNal consortium](http://phenomenal-h2020.eu/home/) is driven by 14 European research groups with strong experience in the development of tools and methods for large data acquisition, integration and analysis for metabolic phenotypes, genome and cross-omics data.
-  * PhenoMeNal is funded by European Commission's Horizon2020 programme, grant agreement number 654241.
+    * The [PhenoMeNal consortium](http://phenomenal-h2020.eu/home/) is driven by 14 European research groups with strong experience in the development of tools and methods for large data acquisition, integration and analysis for metabolic phenotypes, genome and cross-omics data.
+    * PhenoMeNal is funded by European Commission's Horizon2020 programme, grant agreement number 654241.
 
 ### BitLAB
 
 <div class='right solid'><a href='http://pistacho.ac.uma.es/galaxy/'><img src="/use/bitlab/bitlab.png" alt="BitLAB Galaxy" width="300" /></a></div>
 
 * *Link:*
-  * [BitLAB Galaxy](http://pistacho.ac.uma.es/galaxy/)
+    * [BitLAB Galaxy](http://pistacho.ac.uma.es/galaxy/)
 * *Domain/Purpose:*
-  * Detailed analysis of metagenomes.
+    * Detailed analysis of metagenomes.
 * *Comments:*
-  * From [Computational workflow for the fine-grained analysis of metagenomic samples](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3063-x) by Esteban Pérez-Wohlfeil, Jose A. Arjona-Medina, Oscar Torreno, Eugenia Ulzurrun and Oswaldo Trelles, *BMC Genomics* 2016 17(Suppl 8):802 DOI: 10.1186/s12864-016-3063-x
+    * From [Computational workflow for the fine-grained analysis of metagenomic samples](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-3063-x) by Esteban Pérez-Wohlfeil, Jose A. Arjona-Medina, Oscar Torreno, Eugenia Ulzurrun and Oswaldo Trelles, *BMC Genomics* 2016 17(Suppl 8):802 DOI: 10.1186/s12864-016-3063-x
       " ... provides new tools and datafile specifications that facilitate the identification of differences in abundance of reads assigned to taxa (mapping), enables the detection of reads of low-abundance bacteria (producing evidence of their presence), provides new concepts for filtering spurious matches, etc. Innovative visualization ideas for improved display of metagenomic diversity are also proposed to better understand how reads are mapped to taxa."
 * *User Support:*
-  * There is an [extensive tutorial](http://www.bitlab-es.com/gecko/documents/GalaxyGuidedExercise.pdf) on how to use the server.
+    * There is an [extensive tutorial](http://www.bitlab-es.com/gecko/documents/GalaxyGuidedExercise.pdf) on how to use the server.
 * *Quotas:*
-  * Must create a login to use it.
+    * Must create a login to use it.
 * *Sponsor(s):*
-  * [Bioinformatics and Information Technologies Laboratory (BitLAB)](http://www.bitlab-es.com/bitlab/), [Department of Computer Architecture](http://www.ac.uma.es/), [University of Málaga](http://www.uma.es/)
+    * [Bioinformatics and Information Technologies Laboratory (BitLAB)](http://www.bitlab-es.com/bitlab/), [Department of Computer Architecture](http://www.ac.uma.es/), [University of Málaga](http://www.uma.es/)
 
 
 # Galaxy Community Hubs
@@ -436,11 +436,11 @@ Didn't get there this month.
 # Other News
 
 * From [Ryan Morin](http://twitter.com/morinryan):
-  * We are looking for volunteer beta testers for our [Cancer Genomics Galaxy Docker flavour](https://github.com/morinlab/tools-morinlab/blob/master/docker/Readme.md).
+    * We are looking for volunteer beta testers for our [Cancer Genomics Galaxy Docker flavour](https://github.com/morinlab/tools-morinlab/blob/master/docker/Readme.md).
 * Want to use Galaxy on Jetstream? [Learn how to Write a Successful XSEDE Allocation Proposal](https://www.xsede.org/web/xup/course-calendar/-/training-user/class/526/session/1131), December 13
 * From [Peter Briggs](http://twitter.com/ironic_cog):
-  * [Nebulizer 0.4.0](https://pypi.python.org/pypi/nebulizer/0.4.0): utilities for managing users, tools and libraries in Galaxy now available from PyPI
+    * [Nebulizer 0.4.0](https://pypi.python.org/pypi/nebulizer/0.4.0): utilities for managing users, tools and libraries in Galaxy now available from PyPI
 * From [Enis Afgan](/people/enis-afgan/):
-  * [How does Galaxy perform on the AWS cloud: variability across instances, disks and data](http://www.slideshare.net/afgane/galaxy-cloudman-performance-on-aws).
+    * [How does Galaxy perform on the AWS cloud: variability across instances, disks and data](http://www.slideshare.net/afgane/galaxy-cloudman-performance-on-aws).
 * From [Chase Miller](http://marthlab.org/people.html)
-  * [IOBIO Now in Galaxy](http://iobio.io/2016/11/02/galaxy-integration/)
+    * [IOBIO Now in Galaxy](http://iobio.io/2016/11/02/galaxy-integration/)

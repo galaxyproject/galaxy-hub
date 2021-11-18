@@ -278,21 +278,21 @@ New [online training](http://www.ebi.ac.uk/training/online/course/phenomenal-acc
 <div class='right solid'><a href='https://galaxy.genouest.org'><img src="/use/galaxy-genouest/galaxy-genouest.png" alt="Galaxy@GenOuest" /></a></div>
 
 * *Links:*
-  * [Galaxy@GenOuest](https://galaxy.genouest.org)
-  * [Request a GenOuest account](https://my.genouest.org)
+    * [Galaxy@GenOuest](https://galaxy.genouest.org)
+    * [Request a GenOuest account](https://my.genouest.org)
 * *Domain/Purpose:*
-  * A general purpose Galaxy server
-  * Includes tools developped by [Dyliss](http://www.irisa.fr/dyliss/) and [GenScale](https://team.inria.fr/genscale/) bioinformatics research teams in Rennes, France.
+    * A general purpose Galaxy server
+    * Includes tools developped by [Dyliss](http://www.irisa.fr/dyliss/) and [GenScale](https://team.inria.fr/genscale/) bioinformatics research teams in Rennes, France.
 * *Comments:*
 * *User Support:*
-  * [Email](mailto:support AT genouest DOT org)
+    * [Email](mailto:support AT genouest DOT org)
 * *Quotas:*
-  * You must be part of an academic research lab and create an account on [GenOuest](https://my.genouest.org).
-  * The default quota for new users is 50GB.
+    * You must be part of an academic research lab and create an account on [GenOuest](https://my.genouest.org).
+    * The default quota for new users is 50GB.
 * *Sponsor(s):*
-  * [GenOuest](http://www.genouest.org/)
-  * [IRISA](https://www.irisa.fr/)
-  * [Inria](https://www.inria.fr/centre/rennes)
+    * [GenOuest](http://www.genouest.org/)
+    * [IRISA](https://www.irisa.fr/)
+    * [Inria](https://www.inria.fr/centre/rennes)
 
 
 ### BIPAA (BioInformatics Platform for Agroecosystem Arthropods)
@@ -300,24 +300,24 @@ New [online training](http://www.ebi.ac.uk/training/online/course/phenomenal-acc
 <div class='right solid'><a href='https://bipaa-galaxy.genouest.org/'><img src="/use/bipaa/bipaa-logo.png" alt="BIPAA (BioInformatics Platform for Agroecosystem Arthropods)" width="120" /></a></div>
 
 * *Links:*
-  * [BIPAA Galaxy Server](https://bipaa-galaxy.genouest.org)
-  * [BIPAA home page](https://bipaa.genouest.org/)
+    * [BIPAA Galaxy Server](https://bipaa-galaxy.genouest.org)
+    * [BIPAA home page](https://bipaa.genouest.org/)
 * *Domain/Purpose:*
-  * Insect genomics (aphids, parasitoïd wasps, lepidopterans)
+    * Insect genomics (aphids, parasitoïd wasps, lepidopterans)
 * *Comments:*
-  * Includes tools for the analysis of insect genomes (annotation, transcriptomics, epigenomics, ...).
-  * Linked to genome databases hosted by BIPAA: [AphidBase](http://bipaa.genouest.org/is/aphidbase/), [LepidoDB](http://bipaa.genouest.org/is/lepidodb/) and [ParWaspDB](http://bipaa.genouest.org/is/parwaspdb/)
-  * Hosted on the GenOuest architecture (same computing resources).
+    * Includes tools for the analysis of insect genomes (annotation, transcriptomics, epigenomics, ...).
+    * Linked to genome databases hosted by BIPAA: [AphidBase](http://bipaa.genouest.org/is/aphidbase/), [LepidoDB](http://bipaa.genouest.org/is/lepidodb/) and [ParWaspDB](http://bipaa.genouest.org/is/parwaspdb/)
+    * Hosted on the GenOuest architecture (same computing resources).
 * *User Support:*
-  * [Account creation](http://bipaa.genouest.org/account/)
-  * [Contact BIPAA](mailto:bipaa@inra.fr)
+    * [Account creation](http://bipaa.genouest.org/account/)
+    * [Contact BIPAA](mailto:bipaa@inra.fr)
 * *Quotas:*
-  * Default quota is low (<10Go), but can be increased on request.
+    * Default quota is low (<10Go), but can be increased on request.
 * *Sponsor(s):*
-  * [INRA](http://www.inra.fr)
-  * [GenOuest](http://www.genouest.org/)
-  * [IRISA](https://www.irisa.fr/)
-  * [Inria](https://www.inria.fr/centre/rennes)
+    * [INRA](http://www.inra.fr)
+    * [GenOuest](http://www.genouest.org/)
+    * [IRISA](https://www.irisa.fr/)
+    * [Inria](https://www.inria.fr/centre/rennes)
 
 
 
@@ -456,6 +456,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 * Greatly improved Cytoscape visualizations are [now available in Galaxy](https://github.com/galaxyproject/galaxy/pull/3817), thanks to [Anup Kumar](https://github.com/anuprulez).
 * [EtherCalc integrated into Galaxy](https://github.com/galaxyproject/galaxy/pull/3699) as an interactive environment thanks to [Saskia Hiltemann](https://github.com/shiltemann).
 * From [Rob Davey](https://twitter.com/froggleston)
-  * Over 400000 jobs have been run on our Galaxy server at [Earlaham Iinstitute](http://www.earlham.ac.uk/) since 2015. Infrastructure win.
+    * Over 400000 jobs have been run on our Galaxy server at [Earlaham Iinstitute](http://www.earlham.ac.uk/) since 2015. Infrastructure win.
 * [Getting started with Galaxy on the cloud](/cloudman/getting-started/)
 * New [step by step guide on howto upgrade a Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable#Upgrading-images) from [Rafa Hernández](https://github.com/fikipollo).

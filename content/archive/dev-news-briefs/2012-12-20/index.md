@@ -86,12 +86,12 @@ It is important to note that *only the most **specific match** will be used if t
 3. Allow spaces in **[Cuffdiff](http://cufflinks.cbcb.umd.edu/manual.html#cuffdiff)** group names.
 4. **[TopHat2](http://tophat.cbcb.umd.edu/manual.html)**:
 
-  * Add simple read group options.
-  * Remove deprecated parameters.
+* Add simple read group options.
+* Remove deprecated parameters.
 
 5. #5 **[Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)**:
 
-  * Add simple read group options.
+* Add simple read group options.
 
 **Bowtie2**
 <br />
@@ -109,8 +109,8 @@ It is important to note that *only the most **specific match** will be used if t
 1. Add `BAM to BigWig converter` for read coverage data.
 2. When creating a new track browser for a dataset:
 
-  * default to dataset's `dbkey`
-  * default the view to the first chromosome
+* default to dataset's `dbkey`
+* default the view to the first chromosome
 
 <br />
 # UI, Libraries, Histories
@@ -119,7 +119,7 @@ It is important to note that *only the most **specific match** will be used if t
 2. *Libraries*: Include custom genomes in `dbkey` field when uploading library datasets.
 3. *Histories*: Create **.bai** indexes when importing **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM) (.bam)** datasets while importing/exporting histories.
 
-  * note: a specific .bai index is associated with every .bam dataset, and is required, but the index file is not displayed in a history as a distinct dataset. Index files can be downloaded/accessed using the 'save' function in the **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM)** dataset's history item. When loading **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM)** datasets into Galaxy, or when they are created by tools, the .bai index is created automatically by those processes.
+* note: a specific .bai index is associated with every .bam dataset, and is required, but the index file is not displayed in a history as a distinct dataset. Index files can be downloaded/accessed using the 'save' function in the **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM)** dataset's history item. When loading **[BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM)** datasets into Galaxy, or when they are created by tools, the .bai index is created automatically by those processes.
 
 <br />
 # Source
@@ -160,7 +160,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 9. Fixes to history-related functional tests.
 10. Fix rendering of 'save' pop-up menu downloadable composite files
 
-  * *example:* [BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM) datasets have two download components, .bam (primary dataset) and .bam.bai (the index)
+* *example:* [BAM](http://wiki.galaxyproject.org/Learn/Datatypes#BAM) datasets have two download components, .bam (primary dataset) and .bam.bai (the index)
 
 <br />
 # Announcements

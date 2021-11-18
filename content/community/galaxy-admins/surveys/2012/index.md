@@ -88,7 +88,7 @@ The original responses, minus name, institution and email are **[also available]
 1. Integrated with a large compute cluster using PBS/Torque.  Cluster has a number of queues specific for the tasks, including nodes with large memory capacity (500 GB - 1 TB, with a 2 TB machine on order), standard 16-24 GB nodes with 8-12 core each, etc.<br />We anticipate expanding to include other resources on our campus, including NCSA machines and other clusters.
 1. We have a dedicated galaxy VM which is registered as a submit host with our SGE cluster  Cheaha - https://docs.uabgrid.uab.edu/wiki/Cheaha . The galaxy VM and the Cheaha cluster have a consistent view of the underlying shared file-systems - home directories, Lustre file-system and shared apps/install directory. Below is a logical diagram of our research computing platform that explains our galaxy installation as well - https://docs.uabgrid.uab.edu/wiki/File:Research-computing-platform.png .
 
-  * Platform Details
+* Platform Details
     1. System information of the galaxy VM:
       1. A VM with 2GB memory and 2-cores running on a KVM platform
       1. OS: CentOS 5.8
@@ -100,7 +100,7 @@ The original responses, minus name, institution and email are **[also available]
       1. Gen 1: 50 nodes, 2 cores/node, 2G RAM/node, 1.60GHz (AMD Opteron 242)
       1. Gen 2: 24 nodes, 8 cores/node, 16G RAM/node, 3.00GHz (Intel Xeon E5450)
       1. Gen 3: 48 nodes, 12 cores/node, 48G RAM/node, 2.66GHz (Intel Xeon E6550)
-  * notes:
+* notes:
     1. What is notable and different about our cluster topology is that compute nodes are shared between jobs, and jobs must live withing their request resources (memory, time) or they are killed, or they will negatively impact other users' jobs (cpu). Additionally, the cluster is hetrogeneous - made up of 3 classes of nodes, all in the same queue, which are selected based on the resource requirements of the task submitted. This is very different than Penn State Galaxy's configuration, and makes coordination between code, task parameters and DRMAA settings extremely important.
 
 1. We are using both powerful standalone workstations and a computer cluster. The cluster versions is being set up now, not operational yet.
@@ -116,12 +116,12 @@ The original responses, minus name, institution and email are **[also available]
     * Posgresql DB on a different host
 1. We deployed galaxy over a virtual system (XEN) integrated with a computing cluster (SGE).  Some details of the cluster nodes:
 
-  * 256 compute nodes with Infiniband connections to Ethernet - Low latency cluster
-  * Dual cpu Intel E5440 quad core a 2,8GHz.
-  * RAM 16 GB DDR2 FBD 667MHz
-  * 2 Hard Disk SATA 250GB 5400 rpm.
-  * 2 Gigabit Ethernet interconnection
-  * 1 Infiniband connections
+* 256 compute nodes with Infiniband connections to Ethernet - Low latency cluster
+* Dual cpu Intel E5440 quad core a 2,8GHz.
+* RAM 16 GB DDR2 FBD 667MHz
+* 2 Hard Disk SATA 250GB 5400 rpm.
+* 2 Gigabit Ethernet interconnection
+* 1 Infiniband connections
 
 1. We run a galaxy production instance on a virtual machine running SUSE Linux Enterprise Server 11 (x86_64).  The server has 4 cores and 16GB of memory.  We also have a development instance of galaxy where we build our own tools, and a galaxy test instance for testing these tools, or new deployments of galaxy before deploying to our production instance.  Our Galaxy instances are all integrated with our high performance computing cluster which uses Torque/MOAB for job scheduling.  Our HPC cluster currently has 17 32 core nodes (544 core total), plus 4 12 core nodes that are dedicated to HTS QC and 1 core jobs from Galaxy.  Most of our nodes have 128 GB of memory, 2 have 512 GB of memory to deal with assemblies.
 
@@ -216,7 +216,7 @@ The original responses, minus name, institution and email are **[also available]
 1. We changed the navigation left hand menu to put workflows up top and limited back the amount of tools we expose
 1. Not yet big customizations. We are looking into the code base only to get more out of the tools we implement (e.g. getting to pass the original input parameters used for creating a dataset).
 
-  * Furthermore, tools that do not work out of the box are disabled.
+* Furthermore, tools that do not work out of the box are disabled.
 
 1. Only minor, mostly on datatypes and tools. Now trying to migrate to a fresh install as the mercurial repository seems a little messed up.
 1. Coordinate / Sync tool wrapper commands with job runner URLs: DRMAA and .xml-wrapper & .py-adaptor changes for every tool we use. Because we are on a shared cluster, where resources used must match those requested, we've had to edit the DRMAA of every command we use, often not just the universe_wsgi.ini file, but also the .xml wrapper and .py adaptors, in order to be able to run the jobs. This has been a major task and barrier to using new tools.
@@ -306,8 +306,8 @@ The original responses, minus name, institution and email are **[also available]
 1. Yes.  It took about 3 -4 weeks to get Galaxy up and running and configured.  Even then, we still had unresolved problems.  I had to abandon it in order to make progress on other projects.  
 1. Technical issues are mostly specific to the local IT/political environment IMHO
 
-  * I think the hardest parts are marketing, advocacy (you need be able to reproduce your analyses just like you can reproduce your experiments!), user training  and tool building and tailoring to suit the specific high throughput local needs of your biologists and PI's
-  * Tip of the day: Smart postdocs are your friends!
+* I think the hardest parts are marketing, advocacy (you need be able to reproduce your analyses just like you can reproduce your experiments!), user training  and tool building and tailoring to suit the specific high throughput local needs of your biologists and PI's
+* Tip of the day: Smart postdocs are your friends!
 
 1. There was a whole lot of trial-and-error. The lack of a comprehensive manual and up-to-date documentation made things challenging. Having a team of people and some way to track issues, like a ticketing system, was invaluable for us. We used sharepoint.
 1. Documentation
@@ -384,9 +384,9 @@ The original responses, minus name, institution and email are **[also available]
 1. Difficult to implement IdP other than OpenID at WSGI level. We managed to do it at Apache proxy level with mellon package, but this rules out the common logging in Galaxy and we had to drop it. We plan to keep the Galaxy Scientific portal free and open to all academic institutions in the world (a better version of the php-based Bioportal, www.bioportal.uio.no)
 1. The galaxy job runner does not support job specific configuration of the following:
 
-  * run-time
-  * memory
-  * parallel environment
+* run-time
+* memory
+* parallel environment
 
 1. Our cluster has restriction when submitting jobs to it, for example, you have to specify how much memory you need and how long does the job last, but our galaxy instance is running as a single user. It is tedious to configure this for each tool and the memory needed also depends on the size of data set.
 

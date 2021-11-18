@@ -12,7 +12,7 @@ The [September 2012 Galaxy Update is now available](/galaxy-updates/2012-09/).
 * [3 new public Galaxy Servers](/galaxy-updates/2012-09/#new-public-servers)
 * [Open Positions](/galaxy-updates/2012-09/#whos-hiring) at four different institutions
 * [Upcoming Events and Deadlines](/galaxy-updates/2012-09/#upcoming-events-and-deadlines)
-  * [Swiss Galaxy Day](/galaxy-updates/2012-09/#swiss-galaxy-day)
+    * [Swiss Galaxy Day](/galaxy-updates/2012-09/#swiss-galaxy-day)
 * [New Galaxy-France mailing list](/galaxy-updates/2012-09/#new-galaxy-france-mailing-list)
 * [Tool Shed Contributions](/galaxy-updates/2012-09/#toolshed-contributions)
 * [Other News](/galaxy-updates/2012-09/#other-news)

@@ -365,9 +365,9 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 There are two new *[Galactic Blog](/blog/)* entry:
 
 * [A fruitful year for the Galaxy Training material](/blog/2018-06-training-material/), by Bérénice Batut
-  * A summary of recent developments in Galaxy Training materials and the Galaxy Training Network
+    * A summary of recent developments in Galaxy Training materials and the Galaxy Training Network
 * [Contributor of the Month: Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/), By Björn Grüning
-  * The first of a monthly series highlighting Galaxy contributors.
+    * The first of a monthly series highlighting Galaxy contributors.
 
 # Public Galaxy Server News
 
@@ -424,10 +424,10 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 * Semi-annual [project statistics update](/galaxy-project/statistics/) is *mostly* done.
 * New [Cloud Storage API page](/cloud/storage/) from [Vahid Jalili](/people/vahid-jalili/).
 * A general update by [Jennifer Hillman-Jackson](/people/jennifer-jackson/) to several support pages:
-  * [Issues](/issues/)
-  * [Support](/support/)
-  * [Tool Errors](/support/tool-error/)
-  * [Missing History](/support/missing-history/)
+    * [Issues](/issues/)
+    * [Support](/support/)
+    * [Tool Errors](/support/tool-error/)
+    * [Missing History](/support/missing-history/)
   
 
 # Releases
@@ -509,7 +509,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 # Other News
 
 * From [Björn Grüning](https://twitter.com/bjoerngruening)
-  * [PathwayMatcher](https://github.com/PathwayAnalysisPlatform/PathwayMatcher/wiki) is a "multi-omics pathway mapping and proteoform network generation" biorxiv.org/content/early/… by Luis Francisco Hernandez Sanchez and colleagues. [Try it now](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/reactome_pathwaymatcher/reactome_pathwaymatcher/1.8.1.2) on [usegalaxy.eu](https://usegalaxy.eu)
+    * [PathwayMatcher](https://github.com/PathwayAnalysisPlatform/PathwayMatcher/wiki) is a "multi-omics pathway mapping and proteoform network generation" biorxiv.org/content/early/… by Luis Francisco Hernandez Sanchez and colleagues. [Try it now](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/galaxyp/reactome_pathwaymatcher/reactome_pathwaymatcher/1.8.1.2) on [usegalaxy.eu](https://usegalaxy.eu)
 * [New Training Platform for Big Data Analysis](https://www.pr.uni-freiburg.de/pm-en/press-releases-2018/new-training-platform-for-big-data-analysis), press release from the University of Freiburg
   
 

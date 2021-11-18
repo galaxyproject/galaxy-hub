@@ -97,9 +97,9 @@ You don't have to be attending GCCBOSC 2018 events to book GCCBOSC 2018 lodging 
 
 * Guests need to share a room with the conference attendee that is hosting them as a guest.
 * The the conference participant *and* guest(s) need to register and pay for housing.
-  * The guest(s) and the conference participant need to book either a double or triple room
-  * The conference participant and guest(s) need to name each other as roommates when booking housing.
-  * Anyone staying on campus must be at least 18 years old.
+    * The guest(s) and the conference participant need to book either a double or triple room
+    * The conference participant and guest(s) need to name each other as roommates when booking housing.
+    * Anyone staying on campus must be at least 18 years old.
 
 ## Other Options
 

@@ -279,13 +279,13 @@ Some highlights from the past two months:
 
 - Three papers on natural language processing:
 
-   - [Supporting accessibility and reproducibility in language research in the Alveo virtual laboratory](https://doi.org/10.1016/j.csl.2017.01.003)
+    - [Supporting accessibility and reproducibility in language research in the Alveo virtual laboratory](https://doi.org/10.1016/j.csl.2017.01.003)
       Steve Cassidy, Dominique Estival. *Computer Speech & Language* (February 2017), doi:10.1016/j.csl.2017.01.003
 
-   - [LAPPS/Galaxy: Current State and Next Steps](http://aclweb.org/anthology/W16-5202)  
+    - [LAPPS/Galaxy: Current State and Next Steps](http://aclweb.org/anthology/W16-5202)  
       Nancy Ide, Keith Suderman, Eric Nyberg, James Pustejovsky, Marc Verhagen. In Proceedings of the Third International Workshop on Worldwide Language Service Infrastructure and Second Workshop on Open Infrastructures and Analysis Frameworks for Human Language Technologies (WLSI/OIAF4HLT2016) (December 2016), pp. 11-18
 
-   - [Demonstration: The Language Application Grid as a Platform for Digital Humanities Research](http://ceur-ws.org/Vol-1786/ide.pdf)
+    - [Demonstration: The Language Application Grid as a Platform for Digital Humanities Research](http://ceur-ws.org/Vol-1786/ide.pdf)
       Nancy Ide, Keith Suderman, James Pustejovsky, In CDH@TLT (2017)
 
 
@@ -380,13 +380,13 @@ Besides having a really cool logo, the [RNA-Rocket Galaxy server](http://rnaseq.
 
 <div class='right solid'><a href='https://grappa.eecs.utk.edu/grappa/'><img src="/use/grappa/grappa-logo.png" alt="Graph Algorithms Pipeline for Pathway Analysis" width="200" /></a></div>
 
-  - [GrAPPA (Graph Algorithms Pipeline for Pathway Analysis)](https://grappa.eecs.utk.edu/grappa/) is a Galaxy server for graph theoretical tools. It contains novel combinatorial methods integrated into a complete microarray analysis toolchain, from uploading raw high-throughput data to visualization of results.
+- [GrAPPA (Graph Algorithms Pipeline for Pathway Analysis)](https://grappa.eecs.utk.edu/grappa/) is a Galaxy server for graph theoretical tools. It contains novel combinatorial methods integrated into a complete microarray analysis toolchain, from uploading raw high-throughput data to visualization of results.
 
 Efforts to increase GrAPPA’s functionality are underway. Features now being incorporated include:
 
-  - a larger repertoire of pre-processing options, including Gaussian graphical models and an expanded set of correlation metrics such as mutual information
-  - more powerful post-processing capabilities, for example, software tools for Bayesian analysis
-  - links to related web-centric resources, e.g. GeneWeaver, so that users can seamlessly transfer data and results
+- a larger repertoire of pre-processing options, including Gaussian graphical models and an expanded set of correlation metrics such as mutual information
+- more powerful post-processing capabilities, for example, software tools for Bayesian analysis
+- links to related web-centric resources, e.g. GeneWeaver, so that users can seamlessly transfer data and results
 
 [Email Support](mailto:grappa@utk.edu) is provided and suggestions and feedback from the user community are encouraged. You need to verify your email account before running jobs. GrAPPA is supported by the [Langston Lab at the University of Tennessee](http://web.eecs.utk.edu/~langston/)
 

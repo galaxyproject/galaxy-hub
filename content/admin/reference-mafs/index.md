@@ -30,7 +30,7 @@ Once you have added MAFs, the Galaxy server must be reset (or tools reloaded) so
 ### Format of tool-data/maf_index.loc
 
 * Tab-delimited file
-  * There are 5 required fields
+    * There are 5 required fields
 * Lines beginning with **#** are ignored
 
 ### Description of Fields
@@ -38,29 +38,29 @@ Once you have added MAFs, the Galaxy server must be reset (or tools reloaded) so
 #### First Field
 
 * Display Name, as seen by Users
-  * i.e. `3-way multiZ (hg18,panTro2,rheMac2`
+    * i.e. `3-way multiZ (hg18,panTro2,rheMac2`
 
 #### Second Field
 
 * A unique ID for the MAFs
-  * i.e. `3_WAY_MULTIZ_hg18`
-  * Any combination of letters and/or numbers is acceptable
-    * Except the keyword **None**, do not use it or else your data won't be accessible
-  * Make sure that the ID that you select is different than any other
-    * If not, one of the datasets will be unknown to the tool
+    * i.e. `3_WAY_MULTIZ_hg18`
+    * Any combination of letters and/or numbers is acceptable
+        * Except the keyword **None**, do not use it or else your data won't be accessible
+    * Make sure that the ID that you select is different than any other
+        * If not, one of the datasets will be unknown to the tool
 
 #### Third Field
 
 * Comma-separated list of database builds which have been indexed.
-  * i.e. `hg18,mm6,canFam1,panTro1`
+    * i.e. `hg18,mm6,canFam1,panTro1`
 * If species name in MAF file differs from build ID:
-  * build1[=name_in_file],build2[=name_in_file]
-    * i.e. `hg18=human,mm6=mouse`
+    * build1[=name_in_file],build2[=name_in_file]
+        * i.e. `hg18=human,mm6=mouse`
 
 #### Fourth Field
 
 * Comma-separated list of database builds which exist in the file.
-  * i.e. `hg18,mm6,canFam1,panTro1`
+    * i.e. `hg18,mm6,canFam1,panTro1`
 
 #### Fifth Field
 
@@ -74,7 +74,7 @@ You want to add a set of MAFs with the following characteristics:
 * Has the description of "3-way multiZ (hg18,panTro2,rheMac2"
 * Decide upon and confirm that the UID "3_WAY_MULTIZ_hg18" has not been used
 * There are a number of MAFs located in `/cache/maf/hg18/align/hg18-panTro2-rheMac2.new/` which belong to this set.
-  * The files are accessible to the galaxy server
+    * The files are accessible to the galaxy server
 
 The entry would look like this:
 
@@ -89,12 +89,12 @@ The entry would look like this:
 ### Why doesn't my MAF set appear in my drop down menu?
 
 * You didn't reset the server or reload the tool
-  * The server must be reset in order for the tool to be aware of its presence
+    * The server must be reset in order for the tool to be aware of its presence
 * You did not include all the required fields
-  * Fields are delimited by tabs
+    * Fields are delimited by tabs
 * The file you specified isn't accessible to the Galaxy server
-  * Check permissions
+    * Check permissions
 * The file you specified doesn't exist
-  * Check your spelling
+    * Check your spelling
 * You used an ID (field 2) which matches another dataset
-  * Or someone reused your ID
+    * Or someone reused your ID

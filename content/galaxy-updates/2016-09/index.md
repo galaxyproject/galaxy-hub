@@ -385,38 +385,38 @@ There are [over 80 publicly accessible Galaxy servers](/use/) and [four semi-pub
   * [ImmPort on Twitter](http://twitter.com/ImmPort)
 
 * *User Support:*
-  * [Help page](https://www.immportgalaxy.org/static/immportgalaxyhelp.html)
-  * [Videos](https://www.youtube.com/channel/UC8lQSx1Z7sMFm07wfqI-_kA)
-  * [Email](mailto:immport-galaxy@immport.org)
-  * Tutorials to come.
+    * [Help page](https://www.immportgalaxy.org/static/immportgalaxyhelp.html)
+    * [Videos](https://www.youtube.com/channel/UC8lQSx1Z7sMFm07wfqI-_kA)
+    * [Email](mailto:immport-galaxy@immport.org)
+    * Tutorials to come.
 * *Quotas:*
-  * Anyone can use this server. No quotas for now.
+    * Anyone can use this server. No quotas for now.
 * *Sponsor(s):*
-  * [ImmPort](http://immport.org/immport-open/public/home/home)
-  * [NIAID](http://www.niaid.nih.gov/Pages/default.aspx)
-  * [DAIT](https://www.niaid.nih.gov/about/organization/dait/pages/default.aspx)
-  * [NIH](https://www.nih.gov/)
-  * [HHS](http://www.hhs.gov/)
+    * [ImmPort](http://immport.org/immport-open/public/home/home)
+    * [NIAID](http://www.niaid.nih.gov/Pages/default.aspx)
+    * [DAIT](https://www.niaid.nih.gov/about/organization/dait/pages/default.aspx)
+    * [NIH](https://www.nih.gov/)
+    * [HHS](http://www.hhs.gov/)
 
 ### Palfinder
 
 <div class='right solid'><a href='https://palfinder.ls.manchester.ac.uk/'><img src="/use/palfinder/palfinder.png" alt="Galaxy Palfinder Service" /></a></div>
 
 * *Links:*
-  * [Galaxy Palfinder Service](https://palfinder.ls.manchester.ac.uk/)
+    * [Galaxy Palfinder Service](https://palfinder.ls.manchester.ac.uk/)
 
 * *Domain/Purpose*
-  * Microsatellite development.
+    * Microsatellite development.
 * *Comments:*
-  * See [A Galaxy-based bioinformatics pipeline for optimised, streamlined microsatellite development from Illumina next-generation sequencing data](https://doi.org/10.1007/s12686-016-0570-7), Griffiths, S.M., Fox, G., Briggs, P.J. *et al. Conservation Genetics Resources* (2016). doi:10.1007/s12686-016-0570-7
+    * See [A Galaxy-based bioinformatics pipeline for optimised, streamlined microsatellite development from Illumina next-generation sequencing data](https://doi.org/10.1007/s12686-016-0570-7), Griffiths, S.M., Fox, G., Briggs, P.J. *et al. Conservation Genetics Resources* (2016). doi:10.1007/s12686-016-0570-7
 * *User Support:*
-  * [Galaxy Palfinder Service Manual](https://palfinder.ls.manchester.ac.uk/manual)
-  * [Email](mailto:peter.briggs@manchester.ac.uk)
+    * [Galaxy Palfinder Service Manual](https://palfinder.ls.manchester.ac.uk/manual)
+    * [Email](mailto:peter.briggs@manchester.ac.uk)
 * *Quotas:*
-  * Accounts have a quota of 20 GB.
-  * Any data uploaded or generated are automatically deleted after 30 days (to prevent the build up of large volumes of data onto our servers long-term). Please ensure that you download all outputs that you wish to keep.
+    * Accounts have a quota of 20 GB.
+    * Any data uploaded or generated are automatically deleted after 30 days (to prevent the build up of large volumes of data onto our servers long-term). Please ensure that you download all outputs that you wish to keep.
 * *Sponsor(s):*
-  * Palfinder Galaxy is a service is provided by the [Bioinformatics Core Facility](https://www.bmh.manchester.ac.uk/research/facilities/bioinformatics/), [Research Computing](http://www.rcs.manchester.ac.uk/), and [The Faculty of Biology, Medicine and Health](https://www.bmh.manchester.ac.uk/) at the [University of Manchester](https://www.manchester.ac.uk/) in conjunction with the [lab of Richard Preziosi](http://preziosilab.org/) at the University of Manchester.
+    * Palfinder Galaxy is a service is provided by the [Bioinformatics Core Facility](https://www.bmh.manchester.ac.uk/research/facilities/bioinformatics/), [Research Computing](http://www.rcs.manchester.ac.uk/), and [The Faculty of Biology, Medicine and Health](https://www.bmh.manchester.ac.uk/) at the [University of Manchester](https://www.manchester.ac.uk/) in conjunction with the [lab of Richard Preziosi](http://preziosilab.org/) at the University of Manchester.
 
 # Galaxy Community Hubs
 

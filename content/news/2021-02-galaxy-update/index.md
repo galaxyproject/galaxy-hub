@@ -16,58 +16,58 @@ autotoc: false
 </div>
 
 - **[Event news](#event-news)**:
-  - GCC2021 will be virtual, affordable, and globally accessible.
-  - GTN Smörgåsbord: A Global Galaxy Course. *Register by February 12 and we want your help!*
-  - 2nd Galaxy-ELIXIR webinar series, *February 10, 17, 24.*
-  - Papercuts and GTN CollaborationFest: *February 25.*
-  - CWL Mini Conference. *Starts Today.*
-  - Galaxy Developer Roundtable. *February 18, we need your topics.*
-  - Single-cell RNA-seq & network analysis using Galaxy and Cytoscape. *Apply by 26 February.*
+    - GCC2021 will be virtual, affordable, and globally accessible.
+    - GTN Smörgåsbord: A Global Galaxy Course. *Register by February 12 and we want your help!*
+    - 2nd Galaxy-ELIXIR webinar series, *February 10, 17, 24.*
+    - Papercuts and GTN CollaborationFest: *February 25.*
+    - CWL Mini Conference. *Starts Today.*
+    - Galaxy Developer Roundtable. *February 18, we need your topics.*
+    - Single-cell RNA-seq & network analysis using Galaxy and Cytoscape. *Apply by 26 February.*
 - **[Galaxy platform news](#galaxy-platforms-news)**:
-  - ATACgraph
-  - CorGAT on Laniakea
-  - *Everything* on UseGalaxy.eu
-  - Plus more UseGalaxy.\* news
+    - ATACgraph
+    - CorGAT on Laniakea
+    - *Everything* on UseGalaxy.eu
+    - Plus more UseGalaxy.\* news
 - **[Blog posts](#galactic-blog-activity)**:
-  - Nora, the new visualisation in Galaxy
-  - Three articles related to COVID-19 research using Galaxy in the de.NBI brochure
-  - Trusted CI and SGCI Collaborate to Secure the Galaxy Platform
-  - New and updated CNV and Variant Calling tools
-  - Variant Analysis of SARS-CoV-2 Sequencing Data: January 2021 update
-  - Major update to SearchGUI and PeptideShaker
-  - Try out Galaxy in Terra via AnVIL
-  - Analysis of RNA-seq data from neurodegenerative disease
-  - Galaxy Metabolomics Mini-Symposium report
+    - Nora, the new visualisation in Galaxy
+    - Three articles related to COVID-19 research using Galaxy in the de.NBI brochure
+    - Trusted CI and SGCI Collaborate to Secure the Galaxy Platform
+    - New and updated CNV and Variant Calling tools
+    - Variant Analysis of SARS-CoV-2 Sequencing Data: January 2021 update
+    - Major update to SearchGUI and PeptideShaker
+    - Try out Galaxy in Terra via AnVIL
+    - Analysis of RNA-seq data from neurodegenerative disease
+    - Galaxy Metabolomics Mini-Symposium report
 - **[Training material and doc updates](#doc-hub-and-training-updates)**:
-  - Report on 2021 Galaxy Admin Training
-  - Galaxy Server Administration Tutorials Update
-  - An introduction to scRNA-seq data analysis
-  - Gallantries implements automated text to speech for slides...
-  - ... resulting in lots of new videos!
-  - Life Science Trainers Questionnaire
-  - Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
-  - Proteogenomics 2: Database Search
-  - Chloroplast genome assembly
+    - Report on 2021 Galaxy Admin Training
+    - Galaxy Server Administration Tutorials Update
+    - An introduction to scRNA-seq data analysis
+    - Gallantries implements automated text to speech for slides...
+    - ... resulting in lots of new videos!
+    - Life Science Trainers Questionnaire
+    - Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
+    - Proteogenomics 2: Database Search
+    - Chloroplast genome assembly
 - **[Publications](#publications)**:
-  - Tool recommender system in Galaxy using deep learning
-  - Comparative ligand structural analytics illustrated on variably glycosylated MUC1 antigen–antibody binding
-  - PDAUG - a Galaxy based toolset for peptide library analysis, visualization, and machine learning modeling
-  - CorGAT: A tool for the functional annotation of SARS-CoV-2 genomes
-  - Deep Learning for Detection and Segmentation in High-Content Microscopy Images
-  - ATACgraph: Profiling Genome-Wide Chromatin Accessibility From ATAC-seq
-  - SHARP: Harmonizing Galaxy and Taverna workflow provenance
-  - SARS-CoV-2 RECoVERY: A multi-platform open-source bioinformatic pipeline for the automatic construction and analysis of SARS-CoV-2 genomes from NGS sequencing data
+    - Tool recommender system in Galaxy using deep learning
+    - Comparative ligand structural analytics illustrated on variably glycosylated MUC1 antigen–antibody binding
+    - PDAUG - a Galaxy based toolset for peptide library analysis, visualization, and machine learning modeling
+    - CorGAT: A tool for the functional annotation of SARS-CoV-2 genomes
+    - Deep Learning for Detection and Segmentation in High-Content Microscopy Images
+    - ATACgraph: Profiling Genome-Wide Chromatin Accessibility From ATAC-seq
+    - SHARP: Harmonizing Galaxy and Taverna workflow provenance
+    - SARS-CoV-2 RECoVERY: A multi-platform open-source bioinformatic pipeline for the automatic construction and analysis of SARS-CoV-2 genomes from NGS sequencing data
 - **[Who's hiring?](#whos-hiring)**
-  - Europe:
-    - INRAE & AgroParisTech, Norwegian University of Life Science, IFB, VIB
-  - North America:
-    - Cleveland Clinic, Roche, Johns Hopkins (AnVIL, 2 positions; Galaxy, 2 Positions)
+    - Europe:
+        - INRAE & AgroParisTech, Norwegian University of Life Science, IFB, VIB
+    - North America:
+        - Cleveland Clinic, Roche, Johns Hopkins (AnVIL, 2 positions; Galaxy, 2 Positions)
 - **[New releases](#releases)**:
-  - Galaxy Language Server 0.3.2
+    - Galaxy Language Server 0.3.2
 - **[Other News](#other-news)**:
-  - Chan Zuckerberg Initiative injects funds into Galaxy platform for biomedical research
-  - Nuovo software per l’analisi genomica del Covid
-  - EMBL COVID-19 Data Platform
+    - Chan Zuckerberg Initiative injects funds into Galaxy platform for biomedical research
+    - Nuovo software per l’analisi genomica del Covid
+    - EMBL COVID-19 Data Platform
 
 </div>
 </div>

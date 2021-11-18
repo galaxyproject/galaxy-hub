@@ -38,12 +38,12 @@ date: 2012-01-27
 *Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/) *and* [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/) *for these and other recently updated Tool Dependencies.*
 
 * **[SAMtools:](http://samtools.sourceforge.net/)**
-  * All wrappers in group accept versions 0.1.12-0.1.18 with 0.1.16-0.1.18 *strongly* preferred.
-  * Exceptions:
-    * **flagstat** (existing) requires versions 0.1.16-0.1.18.
-    * **[Mpileup](http://samtools.sourceforge.net/mpileup.shtml)** (new) requires versions 0.1.16-0.1.18.
-    * **[Pileup](http://samtools.sourceforge.net/pileup.shtml)** (existing) requires versions 0.1.12-0.1.16, with 0.1.16 *strongly* preferred and tool dependency directory configuration (if upgrading other SAMtools to 0.1.18).
-  * Galaxy **[Main](/main/)** is running SAMtools version 0.1.18 for all with the exception of Pileup version 0.1.16.
+    * All wrappers in group accept versions 0.1.12-0.1.18 with 0.1.16-0.1.18 *strongly* preferred.
+    * Exceptions:
+        * **flagstat** (existing) requires versions 0.1.16-0.1.18.
+        * **[Mpileup](http://samtools.sourceforge.net/mpileup.shtml)** (new) requires versions 0.1.16-0.1.18.
+        * **[Pileup](http://samtools.sourceforge.net/pileup.shtml)** (existing) requires versions 0.1.12-0.1.16, with 0.1.16 *strongly* preferred and tool dependency directory configuration (if upgrading other SAMtools to 0.1.18).
+    * Galaxy **[Main](/main/)** is running SAMtools version 0.1.18 for all with the exception of Pileup version 0.1.16.
 * Updated **[TopHat](http://tophat.cbcb.umd.edu/)** tests for version 1.4.0.
 * Updated **[Cufflinks, CuffCompare, CuffDiff](http://cufflinks.cbcb.umd.edu/)** tests for version 1.3.0.
 * Better error reporting in **[Cufflinks](http://cufflinks.cbcb.umd.edu/)**.
@@ -76,10 +76,10 @@ date: 2012-01-27
 ## Tool Shed
 
 * **[Tool Shed](/toolshed/)** fixes:
-  * Fix for handling a tool data table entry when uploading to a tool shed repository.
-  * Reset all metadata on all changeset revisions of a tool shed repsoitory whenever a new change set is introduced. This will result in a more standardized set of valid changeset revisions that can be installed.
-  * Fix for generating workflow metadata and viewing workflows in tool shed repositories.
-  * Fix for searching for workflows in the tool shed.
+    * Fix for handling a tool data table entry when uploading to a tool shed repository.
+    * Reset all metadata on all changeset revisions of a tool shed repsoitory whenever a new change set is introduced. This will result in a more standardized set of valid changeset revisions that can be installed.
+    * Fix for generating workflow metadata and viewing workflows in tool shed repositories.
+    * Fix for searching for workflows in the tool shed.
 * [Deactivating and uninstalling tool shed repositories installed into a local Galaxy instance](/uninstalling-repositories-from-galaxy/)
 
 ## Bug Fixes

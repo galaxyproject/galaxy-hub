@@ -207,8 +207,8 @@ If you are excuting a tool that runs on certain remote clusters (example tools: 
 #### Special cases - memory or walltime
 
 * Certain inputs are very large and/or fragmented.
- * Example 1: A highly fragmented transcriptome/genome used as a custom reference genome. The size is generally **several thousands of "chromosomes"** instead of one to a few dozen. Consider only using the primary chromosomes and skipping unmapped/unplaced/other partial data. Calculating or filtering by length can reveal the extent of the fragmentation and help you to make choices about how to proceed.
- * Example 2: An entire NGS read dataset was used as a custom reference genome. The size is generally **millions of "chromosomes"**. *Fastq read datasets converted to fasta will almost never work with tools as a custom genome or build.*
+* Example 1: A highly fragmented transcriptome/genome used as a custom reference genome. The size is generally **several thousands of "chromosomes"** instead of one to a few dozen. Consider only using the primary chromosomes and skipping unmapped/unplaced/other partial data. Calculating or filtering by length can reveal the extent of the fragmentation and help you to make choices about how to proceed.
+* Example 2: An entire NGS read dataset was used as a custom reference genome. The size is generally **millions of "chromosomes"**. *Fastq read datasets converted to fasta will almost never work with tools as a custom genome or build.*
 
 Moving to a local or cloud Galaxy will often not help for these cases due to how the 3rd party wrapped tool is written. The tool would fail outside of Galaxy, too. Finding or creating a better quality (less fragmented) target genome/transcriptome is the solution.
 
@@ -228,18 +228,18 @@ ValueError: invalid literal for int() with base 10: 'some-read-identifier-name'
 
 #### Example - ValueError
 
- * MACS2 produces this error the first time it is run. The original input fastq read identifiers contained spaces on the "@" line. Mapping is completed and the results are in plain text format (SAM).
+* MACS2 produces this error the first time it is run. The original input fastq read identifiers contained spaces on the "@" line. Mapping is completed and the results are in plain text format (SAM).
 
 #### How to detect - ValueError
 
- * Job errors with a message similiar to the above. MACS is not the only tool that can produce this issue, but it is the most common.
+* Job errors with a message similiar to the above. MACS is not the only tool that can produce this issue, but it is the most common.
 
 #### How to resolve - ValueError
 
 MACS/2 is not capable of interpretting sequence read names with spaces included. Two choices:
 
- * Remove unmapped reads from the SAM dataset. Unmapped reads are the only data lines in SAM datasets where the full original sequence read name is present (with the included space). (Mapped reads are trimmed at the first whitespace in SAM data lines). There are several filtering tools in the groups **SAMTools** and **Picard** that can do this.
- * Convert the SAM input to BAM format with the tool **SAMtools: SAM-to-BAM**. When compressed input is given to MACS, the spaces are no longer an issue.
+* Remove unmapped reads from the SAM dataset. Unmapped reads are the only data lines in SAM datasets where the full original sequence read name is present (with the included space). (Mapped reads are trimmed at the first whitespace in SAM data lines). There are several filtering tools in the groups **SAMTools** and **Picard** that can do this.
+* Convert the SAM input to BAM format with the tool **SAMtools: SAM-to-BAM**. When compressed input is given to MACS, the spaces are no longer an issue.
 
 ### Type: Tool and software problems
 

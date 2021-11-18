@@ -67,8 +67,8 @@ All participants should bring a wifi-enabled laptop with
 
 * at least 4GB of memory (more is better)
 * Software to access the command line of a Linux server.
-  * If you are running Linux or Mac OS, then you already have this.
-  * If you are running Windows than you’ll need to get something like putty installed before the workshop.
+    * If you are running Linux or Mac OS, then you already have this.
+    * If you are running Windows than you’ll need to get something like putty installed before the workshop.
 * A recent version of either the Chrome or Firefox web browser installed.
 
 # Instructors

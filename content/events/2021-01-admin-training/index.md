@@ -54,15 +54,15 @@ Linux has several text editors available in it.  You’ll need to be competent i
 ## Compute Requirements
 
 * **Reliable internet connection**.  Your connection needs to be good enough that you can
-  * watch pre-recorded videos over the internet
-  * participate in at least chat, and preferably audio discussions with instructors
+    * watch pre-recorded videos over the internet
+    * participate in at least chat, and preferably audio discussions with instructors
 
 * Your computer should have
-  * at least 4GB of memory (more is better)
-  * Software to access the command line of a Linux server.
-    * If you are running Linux or Mac OS, then you already have this.
-    * If you are running Windows than you’ll need to get something like putty installed before the workshop.
-  * A recent version of either the Chrome or Firefox web browser installed.
+    * at least 4GB of memory (more is better)
+    * Software to access the command line of a Linux server.
+        * If you are running Linux or Mac OS, then you already have this.
+        * If you are running Windows than you’ll need to get something like putty installed before the workshop.
+    * A recent version of either the Chrome or Firefox web browser installed.
 
 # Applications are closed
 

@@ -193,10 +193,10 @@ In this video we run `FastQC` on the four datasets and then summarized these dat
 
 One of the conclusions from our QC analyses (Fig. 6) is that the quality is acceptable but drops towards the end of the reads (this is typical for Illumina which uses reverse terminators bases with cleave-able color labels. Because the process of cleaving terminators and color labels is not 100% efficient noise accumulates as run progresses and so bases at the ends of reads tend to have lower quality). There is a number of steps we can take to mitigate the effect of low quality bases. One is dynamically trim the reads:
 
- - slide a window across reads
- - at every step of the process calculate average quality of bases within the given window
- - if quality drops below certain set threshold &#8594; stop and trim the read of the read from this point until the end
- - output the beginning of the read
+- slide a window across reads
+- at every step of the process calculate average quality of bases within the given window
+- if quality drops below certain set threshold &#8594; stop and trim the read of the read from this point until the end
+- output the beginning of the read
 
 One of the tools that performs this procedure is [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) developed by the Usadel [lab](http://www.usadellab.org/cms/index.php?page=staff). Let's use **NGS: QC and manipulation &#8594; Trimmomatic** to trim out four datasets:
 
@@ -429,10 +429,10 @@ However, one has to be careful when removing duplicates in cases when the sequen
 
 In Galaxy we support four major toolsets for processing of SAM/BAM datasets:
 
- - [DeepTools](https://deeptools.github.io/) - a suite of user-friendly tools for the visualization, quality control and normalization of data from deep-sequencing DNA sequencing experiments.
- - [SAMtools](https://www.htslib.org/) - various utilities for manipulating alignments in the SAM/BAM format, including sorting, merging, indexing and generating alignments in a per-position format.
- - [BAMtools](https://github.com/pezmaster31/bamtools/wiki/Tutorial_Toolkit_BamTools-1.0.pdf) - a toolkit for reading, writing, and manipulating BAM (genome alignment) files.
- - [Picard](https://broadinstitute.github.io/picard/) - a set of Java tools for manipulating high-throughput sequencing data (HTS) data and formats.
+- [DeepTools](https://deeptools.github.io/) - a suite of user-friendly tools for the visualization, quality control and normalization of data from deep-sequencing DNA sequencing experiments.
+- [SAMtools](https://www.htslib.org/) - various utilities for manipulating alignments in the SAM/BAM format, including sorting, merging, indexing and generating alignments in a per-position format.
+- [BAMtools](https://github.com/pezmaster31/bamtools/wiki/Tutorial_Toolkit_BamTools-1.0.pdf) - a toolkit for reading, writing, and manipulating BAM (genome alignment) files.
+- [Picard](https://broadinstitute.github.io/picard/) - a set of Java tools for manipulating high-throughput sequencing data (HTS) data and formats.
 
  The following two videos highlight major steps of fastq-to-BAM analysis trajectory.
 
@@ -468,6 +468,6 @@ Perform a similar analyses with your own data.
 
 # If things don't work...
 
- - ...create an issue by clicking "New issue" button [here](https://github.com/galaxyproject/galaxy-hub/issues)
- - ...complain. Use [Galaxy's support forum](https://help.galaxyproject.org/) to do this.
+- ...create an issue by clicking "New issue" button [here](https://github.com/galaxyproject/galaxy-hub/issues)
+- ...complain. Use [Galaxy's support forum](https://help.galaxyproject.org/) to do this.
 

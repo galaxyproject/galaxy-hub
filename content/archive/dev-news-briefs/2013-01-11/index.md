@@ -60,19 +60,19 @@ There are three categories of repository dependencies which will be discussed in
 
 1. Many new reference genome datasets, indexes, and liftOver files have been added to the **public [Main](/main/) Galaxy instance** and **rsync** download area ([get the data](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)). Among these, the following full reference genomes sourced from **[UCSC](http://genome.ucsc.edu/)** were added:
 
-  * `Budgerigar Sep. 2011 (WUSTL v6.3/melUnd1)`
-  * `Chicken Nov. 2011 (ICGSC Gallus_gallus-4.0/galGal4)`
-  * `Cow Oct. 2011 (Baylor Btau_4.6.1/bosTau7) (bosTau7)`
-  * `Dog Sep. 2011 (Broad CanFam3.1/canFam3) (canFam3)`
-  * `Medium ground finch Apr. 2012 (GeoFor_1.0/geoFor1)`
-  * `Naked mole-rat Jul. 2011 (BGI HetGla_1.0/hetGla1)`
-  * `Pig Aug. 2011 (SGSC Sscrofa10.2/susScr3) (susScr3)`
-  * `Rat Mar. 2012 (RGSC 5.0/rn5)`
-  * `S. cerevisiae Apr. 2011 (SacCer_Apr2011/sacCer3) (sacCer3)`
-  * `Tasmanian devil Feb. 2011 (WTSI Devil_ref v7.0/sarHar1)`
-  * `Tenrec July 2005 (Broad/echTel1) (echTel1)`
-  * `Turkey Dec. 2009 (TGC Turkey_2.01/melGal1)`
-  * `X. tropicalis Nov. 2009 (JGI 4.2/xenTro3) (xenTro3)`
+* `Budgerigar Sep. 2011 (WUSTL v6.3/melUnd1)`
+* `Chicken Nov. 2011 (ICGSC Gallus_gallus-4.0/galGal4)`
+* `Cow Oct. 2011 (Baylor Btau_4.6.1/bosTau7) (bosTau7)`
+* `Dog Sep. 2011 (Broad CanFam3.1/canFam3) (canFam3)`
+* `Medium ground finch Apr. 2012 (GeoFor_1.0/geoFor1)`
+* `Naked mole-rat Jul. 2011 (BGI HetGla_1.0/hetGla1)`
+* `Pig Aug. 2011 (SGSC Sscrofa10.2/susScr3) (susScr3)`
+* `Rat Mar. 2012 (RGSC 5.0/rn5)`
+* `S. cerevisiae Apr. 2011 (SacCer_Apr2011/sacCer3) (sacCer3)`
+* `Tasmanian devil Feb. 2011 (WTSI Devil_ref v7.0/sarHar1)`
+* `Tenrec July 2005 (Broad/echTel1) (echTel1)`
+* `Turkey Dec. 2009 (TGC Turkey_2.01/melGal1)`
+* `X. tropicalis Nov. 2009 (JGI 4.2/xenTro3) (xenTro3)`
 
 2. #2 Additional genomes, indexes, and related datasets will continue to be published over the next several weeks and highlights will appear in subsequent News Briefs.
 3. #3 The genome "`Yeast (Saccharomyces cerevisiae): Saccharomyces_cerevisiae_S288C_SGD2010`" has been discovered to be mislabeled, representing the Apr. 2011 release from SGD (not Feb. 2010), which makes it identical to the "`sacCer3`" genome from UCSC. This genome will be redacted on the [Main](/main/) server and users should migrate to using the "`sacCer3`" genome build as the alternative. Any chromosome naming issues associated with the `Saccharomyces_cerevisiae_S288C_SGD2010 build` (due to names of format "chr3" instead of the author published "chrIII") will also be resolved by migrating to this new, correct, reference genome build.
@@ -82,8 +82,8 @@ There are three categories of repository dependencies which will be discussed in
 
 1. Enable BBI data provider to work when chromosome naming conventions are mixed.
 
-  * e.g. "chr1" and "1" now both resolve to the same chromosome
-  * `lib/galaxy/visualization/data_providers/genome.py`
+* e.g. "chr1" and "1" now both resolve to the same chromosome
+* `lib/galaxy/visualization/data_providers/genome.py`
 
 2. #2 Fix bugs that prevented the creation of a Circster visualization from a dataset's visualization icon.
 
@@ -135,10 +135,10 @@ Although there are no specific known security fixes in this distribution, all Ga
 </div>
 
 * [GCC2013](http://wiki.galaxyproject.org/Events/GCC2013):
-  * [GCC2013 Training Day Topic Nomination closes TODAY](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay)
-  * Training Day Topic Voting will open later this month
+    * [GCC2013 Training Day Topic Nomination closes TODAY](http://wiki.galaxyproject.org/Events/GCC2013/TrainingDay)
+    * Training Day Topic Voting will open later this month
 * The [next meeting](http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013-01-16) of the [GalaxyAdmins Group](http://wiki.galaxyproject.org/Community/GalaxyAdmins) will be held on [January 16, 2013, at 10 AM Central US time](http://wiki.galaxyproject.org/Community/GalaxyAdmins/Meetups/2013-01-16).
-  * [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will cover "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and [CloudMan](http://usegalaxy.org/cloud)"
+    * [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will cover "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and [CloudMan](http://usegalaxy.org/cloud)"
 
 ----
 <br />

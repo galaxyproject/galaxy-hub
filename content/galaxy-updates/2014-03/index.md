@@ -310,8 +310,8 @@ One new [public Galaxy server](/use/), PGTB was added, and the NELLY server is b
 <div class='right solid'><a href='http://www.pgtb.u-bordeaux2.fr/'><img src="/use/archive/galaxy-pgtb-virtual-biodiversity-lab/pgtb.png" alt="PGTB Galaxy"  /></a></div>
 
 * *Links:*
-  * **[PGTB Galaxy - Virtual Biodiversity Lab](https://galaxy-pgtp.pierroton.inra.fr/)**
-  * **[Plateforme Genome Transcriptome de Bordeaux](http://www.pgtb.u-bordeaux2.fr/)**
+    * **[PGTB Galaxy - Virtual Biodiversity Lab](https://galaxy-pgtp.pierroton.inra.fr/)**
+    * **[Plateforme Genome Transcriptome de Bordeaux](http://www.pgtb.u-bordeaux2.fr/)**
 * *Domain/Purpose:*
     This is a standard Galaxy instance implemented with specific tools for Biodiversity (Biodiversity Virtual Lab) and NGS (Ion Torrent from the PGTB facility) analysis.
 * *Comments:*

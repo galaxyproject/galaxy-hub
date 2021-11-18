@@ -69,8 +69,8 @@ Please note that this is the first release of this documentation and it is far f
 
 1. When migrating tools:
 
-  * Fail gracefully if `install_dependencies` is requested, but `tool_dependency_dir` is not set.
-  * If only some tools will be installed, list the ones that won't be enabled.
+* Fail gracefully if `install_dependencies` is requested, but `tool_dependency_dir` is not set.
+* If only some tools will be installed, list the ones that won't be enabled.
 
 ### A single tool or a suite of tools per repository  ?
 
@@ -96,8 +96,8 @@ Certain repository contents may occasionally become outdated, perhaps due to oth
 
 1. Enhancements to the `tool_config_file`; thanks to [John Chilton](http://bitbucket.org/jmchilton))
 
-  * Galaxy now loads tool sections from multiple files in a more consistent manner, and
-  * Directories can now appear as a `tool_config_file` option
+* Galaxy now loads tool sections from multiple files in a more consistent manner, and
+* Directories can now appear as a `tool_config_file` option
 
 2. Allow non-admin users to see metadata revisions when viewing a repository `changelog` in the tool shed.
 

@@ -346,6 +346,6 @@ See the [v 0.13.0 release notes](https://github.com/galaxyproject/bioblend/relea
 # Other News
 
 * From Peter van Heusden:
-  * 107 *M. tuberculosis* samples with variants annotated and phylogeny built in less than one day using Galaxy at [SANBI](https://www.sanbi.ac.za/) with [COMBAT-TB](https://combattb.org) tools.  Data from [Chen, et al.](https://doi.org/10.3389/fmicb.2019.0174)
+    * 107 *M. tuberculosis* samples with variants annotated and phylogeny built in less than one day using Galaxy at [SANBI](https://www.sanbi.ac.za/) with [COMBAT-TB](https://combattb.org) tools.  Data from [Chen, et al.](https://doi.org/10.3389/fmicb.2019.0174)
 * From [Marius van den Beek](https://github.com/mvdbeek):
-  * Are you using #usegalaxy dataset collections? Is there something that just doesn't work for you or that could be easier? [Please let us know on GitHub](https://github.com/galaxyproject/galaxy/issues/8403)
+    * Are you using #usegalaxy dataset collections? Is there something that just doesn't work for you or that could be easier? [Please let us know on GitHub](https://github.com/galaxyproject/galaxy/issues/8403)

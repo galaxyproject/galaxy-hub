@@ -9,11 +9,11 @@ date: "2019-01-04"
 The *January  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
 * [Event News](/news/2019-01-galaxy-update/#event-news)
-  * **[2019 Galaxy Admin Training: Registration is still open!](/news/2019-01-galaxy-update/#2019-galaxy-admin-training)**
-  * **[Training topic nomination for GCC2019 Training extended through 15 January!](/news/2019-01-galaxy-update/#gcc2019-training-topic-nomination-extended-to-15-january)**
-  * [Galaxy will be at the 2019 Plant and Animal Genome (PAG) conference](/news/2019-01-galaxy-update/#galaxy-pag-2019)
-  * [Galaxy needs your Google Summer of Code Project suggestions](/news/2019-01-galaxy-update/#galaxy-needs-your-google-summer-of-code-project-suggestions)
-  * And [GalaxyAdmins needs your topic suggestions](/news/2019-01-galaxy-update/#galaxyadmins-needs-your-topic-suggestions)
+    * **[2019 Galaxy Admin Training: Registration is still open!](/news/2019-01-galaxy-update/#2019-galaxy-admin-training)**
+    * **[Training topic nomination for GCC2019 Training extended through 15 January!](/news/2019-01-galaxy-update/#gcc2019-training-topic-nomination-extended-to-15-january)**
+    * [Galaxy will be at the 2019 Plant and Animal Genome (PAG) conference](/news/2019-01-galaxy-update/#galaxy-pag-2019)
+    * [Galaxy needs your Google Summer of Code Project suggestions](/news/2019-01-galaxy-update/#galaxy-needs-your-google-summer-of-code-project-suggestions)
+    * And [GalaxyAdmins needs your topic suggestions](/news/2019-01-galaxy-update/#galaxyadmins-needs-your-topic-suggestions)
 * [80 new publications](/news/2019-01-galaxy-update/#publications), including several spectacular ones
 * Some most excellent [Galaxy Platform News](/news/2019-01-galaxy-update/#galaxy-platforms-news), including the *EGI Marketplace*.
 * The Contributor of the Month is ... [Simon Gladman](/news/2019-01-galaxy-update/#new-galactic-blog-posts)!
@@ -21,9 +21,9 @@ The *January  2019 Galactic News* is here!  This is a summary of what is going o
 * [Doc, Hub, and Training Updates](/news/2019-01-galaxy-update/#doc-hub-and-training-updates) covering RNA-Seq visualizations, BlockClust, cloud storage, cancer proteogenomics, and some introductory videos
 * [ToolShed contributions](/news/2019-01-galaxy-update/#toolshed-contributions)
 * [New releases](/news/2019-01-galaxy-update/#releases):
-  * Tripal Galaxy - connect Galaxy to your online database
-  * BioBlend - a Python API for Galaxy and CloudMan
-  * Planemo - utilities for building tools for Galaxy
+    * Tripal Galaxy - connect Galaxy to your online database
+    * BioBlend - a Python API for Galaxy and CloudMan
+    * Planemo - utilities for building tools for Galaxy
 * And [a bunch of other news](/news/2019-01-galaxy-update/#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -61,12 +61,12 @@ There will be **a [Galaxy Workshop](https://plan.core-apps.com/pag_2019/event/94
 * **[Execution of Scientific Workflows for Tripal-Based Community Databases](https://plan.core-apps.com/pag_2019/abstract/d86d6711-9cff-438c-8e1f-af12a4b993e5)**, Shawna Spoor
 * **[Integrated Genomic Selection Galaxy Analysis Pipeline and Workflows](https://plan.core-apps.com/pag_2019/abstract/eb8d2b76e25358daf4c927eba4649409)**, Star Yanxin Gao
 * **[Galaxy Workshop: An Open Platform for Data Analysis and Integration](https://plan.core-apps.com/pag_2019/event/9441a7255c56cf0ce04b90bfc40d5302)**
-  * **[Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2019/abstract/bd1ddd10-af82-4bca-84c0-ff8fe7c5c46a)**, [Frederik Coppens](https://www.psb.ugent.be/lab-members-and-alumni-frcop)
-  *  **[A Phenomenal Workflow to Study the Metabolites Variation in Bryophytes across Seasons](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281815)**, [Steffen Neumann](https://www.researchgate.net/profile/Steffen_Neumann)
-  * **[Galaxy Tools for Comparative Gene Family Analysis in Plant Genomics](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49271d78)**, [Eric Wafula](http://bio.psu.edu/directory/ekw10), [Claude dePamphilis](http://cwd.huck.psu.edu/)
-  * **[Galaxy Metabolomics from the Ground up](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34c6da2)**, [Arthur Eschenlauer](http://hegemanlab.cfans.umn.edu/)
-  * **[Multi-Omics with Galaxy for Diverse Biological Applications](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34ac93b)**, [Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin), [Pratik Jagtap](https://www.researchgate.net/profile/Pratik_Jagtap2)
-  * **[Eukaryotic Genome Annotation with G-OnRamp](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281aa9)**, Luke Sargent
+    * **[Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2019/abstract/bd1ddd10-af82-4bca-84c0-ff8fe7c5c46a)**, [Frederik Coppens](https://www.psb.ugent.be/lab-members-and-alumni-frcop)
+    *  **[A Phenomenal Workflow to Study the Metabolites Variation in Bryophytes across Seasons](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281815)**, [Steffen Neumann](https://www.researchgate.net/profile/Steffen_Neumann)
+    * **[Galaxy Tools for Comparative Gene Family Analysis in Plant Genomics](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49271d78)**, [Eric Wafula](http://bio.psu.edu/directory/ekw10), [Claude dePamphilis](http://cwd.huck.psu.edu/)
+    * **[Galaxy Metabolomics from the Ground up](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34c6da2)**, [Arthur Eschenlauer](http://hegemanlab.cfans.umn.edu/)
+    * **[Multi-Omics with Galaxy for Diverse Biological Applications](https://plan.core-apps.com/pag_2019/event/353f25d23822c2a17aa4cfc5b34ac93b)**, [Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin), [Pratik Jagtap](https://www.researchgate.net/profile/Pratik_Jagtap2)
+    * **[Eukaryotic Genome Annotation with G-OnRamp](https://plan.core-apps.com/pag_2019/event/c3eb8177e7ac2f211aa9202c49281aa9)**, Luke Sargent
 
 See the **[Galaxy @ PAG 2019](/events/2019-pag/)** page for a complete list.
 
@@ -291,8 +291,8 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 There is one new *[Galactic Blog](/blog/)* entry:
 
 * **[Contributor of the Month: Simon Gladman](/blog/2018-12-cotm-simon-gladman/):**
-  * 'firefighter, cheesemaker, pillar of the [Galaxy Australia](https://usegalaxy.org.au/), and an overall jolly good fellow'
-  * by [Martin Čech](/people/marten/)
+    * 'firefighter, cheesemaker, pillar of the [Galaxy Australia](https://usegalaxy.org.au/), and an overall jolly good fellow'
+    * by [Martin Čech](/people/marten/)
 
 ----
 
@@ -387,11 +387,11 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 # Other News
 
 * From [Anup Kumar](https://twitter.com/musafirtweetsz) on Twitter
-  * [Tool Prediction in Galaxy Workflows](https://twitter.com/musafirtweetsz/status/1077182436814012418)
+    * [Tool Prediction in Galaxy Workflows](https://twitter.com/musafirtweetsz/status/1077182436814012418)
 * From [PLOS Computational Biology](https://twitter.com/PLOSCompBiol/status/1075893609629503488) on Twitter:
-  * Our #mostcited #10SimpleRules article 'Ten Simple Rules for Reproducible Computational Research' has been cited 171 times https://plos.io/2QJI7sk #1000SimpleRules
+    * Our #mostcited #10SimpleRules article 'Ten Simple Rules for Reproducible Computational Research' has been cited 171 times https://plos.io/2QJI7sk #1000SimpleRules
 * From RC Carter:
-  * There's progress being made with [Galaxy deployments on Microsoft Azure](https://vimeo.com/295909461) Stay tuned.
+    * There's progress being made with [Galaxy deployments on Microsoft Azure](https://vimeo.com/295909461) Stay tuned.
 * [The times when you couldn't use emoji to tag Galaxy datasets are past. Behold!](https://twitter.com/galaxyproject/status/1070415381645455360)
 
 ## Galaxy Help: The new Q&A site for Galaxy

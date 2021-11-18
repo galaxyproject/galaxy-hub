@@ -63,8 +63,8 @@ End-users of Galaxy who would like to share experiences (or listen to those of o
 * Ravi Madduri has 10 – 15 stories from end users that are nice examples of users running into issues and how these issues were collaboratively resolved with system administrator/developer guidance. These types of stories would be nice to host on the Galaxy wiki.
 * J. Kissinger's group has conducted a systematic analysis of how end users interact with data (contact jkissing@uga.edu for more info).
 * Suggestions to promote feedback from users:
-  * Standardized feedback forms that take minimal time to complete. Similar to a bug-report that would go to the system administrator.
-  * Showing examples of correct input/output for tools could help users determine if the issue is a user issue of Galaxy issue.
+    * Standardized feedback forms that take minimal time to complete. Similar to a bug-report that would go to the system administrator.
+    * Showing examples of correct input/output for tools could help users determine if the issue is a user issue of Galaxy issue.
 
 ## Data management
 

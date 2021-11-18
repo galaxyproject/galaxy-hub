@@ -39,9 +39,9 @@ Specific documentation covering options for uploading to be libraries can be fou
 This currently requires creating a volume from the AWS Console and mounting via the instance's shell (via ssh).
 
 * From AWS, note the Availability Zone of your EC2 instance, then click Elastic Block Store -> Volumes -> Create Volume, then enter the following parameters:
-  * Size: 1 TiB
-  * Availability Zone: Same as your EC2 Instance
-  * Snapshot: snap-17f4c06d
+    * Size: 1 TiB
+    * Availability Zone: Same as your EC2 Instance
+    * Snapshot: snap-17f4c06d
 * With the new volume checked, click **More...** -> **Attach Volume**, select your instance and set the device (the default device name filled in to the dialog once you select your instance is acceptable).
 * Log in to your instance using SSH: `ssh -i /path/to/your/ecs_ssh_private_key ubuntu@ec2-1-2-3-4.compute-1.amazonaws.com`
 * Become root: `sudo -i`

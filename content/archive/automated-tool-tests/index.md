@@ -76,8 +76,8 @@ The following scripts were available for inspecting and maintaining the reposito
 
  This script required the following environment variables:<br />
 
- * `GALAXY_INSTALL_TEST_TOOL_SHED_API_KEY` - the API key for the tool shed that was being checked. See [the API page](/develop/api/) on how to obtain the API key.
- * `GALAXY_INSTALL_TEST_TOOL_SHED_URL` - must be set to a URL that the tool shed is listening on.<br />
+* `GALAXY_INSTALL_TEST_TOOL_SHED_API_KEY` - the API key for the tool shed that was being checked. See [the API page](/develop/api/) on how to obtain the API key.
+* `GALAXY_INSTALL_TEST_TOOL_SHED_URL` - must be set to a URL that the tool shed is listening on.<br />
  If the tool shed with repositories being tested was not the Galaxy main or Galaxy test tool shed, `GALAXY_INSTALL_TEST_TOOL_SHEDS_CONF` would be set to a tool sheds configuration file that did specify that tool shed, otherwise repository installation would fail. Example:
 
     ```export GALAXY_INSTALL_TEST_TOOL_SHEDS_CONF=install_and_test_tool_sheds_conf.xml```

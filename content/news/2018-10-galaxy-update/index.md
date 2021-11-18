@@ -9,17 +9,17 @@ date: "2018-10-01"
 The *October  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
 * Events
-  * [2018 SACNAS Workshops](#2018-sacnas-pre-conference-workshops) *Still space, still free!*
-  * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
-  * [2019 Galaxy Admin Training](/news/2018-10-galaxy-update/#2019-galaxy-admin-training)
-  * [All upcoming events](#upcoming-events)
+    * [2018 SACNAS Workshops](#2018-sacnas-pre-conference-workshops) *Still space, still free!*
+    * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
+    * [2019 Galaxy Admin Training](/news/2018-10-galaxy-update/#2019-galaxy-admin-training)
+    * [All upcoming events](#upcoming-events)
 * New:
-  * [200 publications](#publications), including 10 highlighted ones
-  * Three new [Galactic Blog entries](/news/2018-10-galaxy-update/#new-galactic-blog-posts) (one of them contains a *Galaxy Song*)
-  * [Open positions with 5 organizations](/news/2018-10-galaxy-update/#whos-hiring)
-  * [Public Galaxy Server News](#public-galaxy-server-news)
-  * [ToolShed contributions](#toolshed-contributions)
-  * [Releases](#releases)
+    * [200 publications](#publications), including 10 highlighted ones
+    * Three new [Galactic Blog entries](/news/2018-10-galaxy-update/#new-galactic-blog-posts) (one of them contains a *Galaxy Song*)
+    * [Open positions with 5 organizations](/news/2018-10-galaxy-update/#whos-hiring)
+    * [Public Galaxy Server News](#public-galaxy-server-news)
+    * [ToolShed contributions](#toolshed-contributions)
+    * [Releases](#releases)
 * And [other news](#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -267,7 +267,7 @@ There are three new *[Galactic Blog](/blog/)* entries:
 
 * [Hybrid training delivers online participatory training to far-reaching venues](https://www.embl-abr.org.au/hybrid-training-delivers-online-participatory-training-to-far-reaching-venues/), by Christina Hall
 * [Tutorial of the Month: Maria Doyle selected "From peaks to genes"](/blog/2018-09-totm/), by Bérénice Batut
-  * *This is the first of a new monthly series about [GTN Tutorials](https://training.galaxyproject.org/).*
+    * *This is the first of a new monthly series about [GTN Tutorials](https://training.galaxyproject.org/).*
 * [Contributor of the Month: Yvan Le Bras](/blog/2018-10-cotm-yvan-le-bras/), By Björn Grüning
 
 ----

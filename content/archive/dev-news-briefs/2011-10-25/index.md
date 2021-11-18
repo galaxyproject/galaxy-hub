@@ -23,12 +23,12 @@ date: 2011-10-25
 ### Galaxy Main
 
 * Data and Job Quotas announced earlier today by email, Galaxy wiki, Twitter, and News Items/RSS feed.
-  * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/mailing-lists/).
-  * [Main](/main/) wiki with limits, FAQ, and related links.
-  * [Managing Datasets](/learn/managing-datasets/) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
-  * [Disk Quotas](/admin/disk-quotas/) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
-  * Twitter [#galaxyproject](http://twitter.com/#galaxyproject).
-  * [Galaxy News](/news/) Items and RSS feed.
+    * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/mailing-lists/).
+    * [Main](/main/) wiki with limits, FAQ, and related links.
+    * [Managing Datasets](/learn/managing-datasets/) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
+    * [Disk Quotas](/admin/disk-quotas/) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
+    * Twitter [#galaxyproject](http://twitter.com/#galaxyproject).
+    * [Galaxy News](/news/) Items and RSS feed.
 
 ----
 <a href='http://galaxyproject.org/wiki/News'><img src="/images/news-graphics/2011_10_25_newsitem-quotas.png" alt="" width="600px" /></a>
@@ -85,12 +85,12 @@ date: 2011-10-25
 * Add wrapper for [SICER](http://home.gwu.edu/~wpeng/Software.htm/) tool, a *Statistical approach for the identification of ChIP-Enriched Regions*.
 * Add wrapper for SAMtools [rmdup](http://samtools.sourceforge.net/) tool, which removes potential PCR duplicates in BAM files.
 * Add the tool *Text Manipulation -> Secure Hash / Message Digest*:
-  * calculates Secure Hashes / Message Digests of a dataset with the user selected algorithms.
-  * [python](http://www.python.org) version of a shell utility ['% sha'](http://en.wikipedia.org/wiki/Secure_Hash_Algorithm).
-  * used for verifying that a data load was complete (exact!) and other file quality checking functions.
+    * calculates Secure Hashes / Message Digests of a dataset with the user selected algorithms.
+    * [python](http://www.python.org) version of a shell utility ['% sha'](http://en.wikipedia.org/wiki/Secure_Hash_Algorithm).
+    * used for verifying that a data load was complete (exact!) and other file quality checking functions.
 * Update the *Text Manipulation -> Select random lines from a file* tool:
-  * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets.
-  * the random seed can now be optionally specified.
+    * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets.
+    * the random seed can now be optionally specified.
 * New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/admin/tools/tool-config-syntax/#a3ctest3e_tag_set) documentation.
 
 ### Quotas and Data Management
@@ -106,9 +106,9 @@ date: 2011-10-25
 
 * Tools that include parameters that are 'dynamic select lists' that refer to local index files (`.loc` files) or entries in the `tool_data_table_conf.xml` file will now all successfully load even if these dependencies are missing.  However, an error message will be displayed in the tool form for these tools conveying information about the missing dependencies.
 * Framework for refactoring the UI and actions (implemented by the Quota interfaces, new interfaces should also use this method):
-  * UI components now live in subclasses of `BaseUIController and BaseAPIController, themselves subclasses of BaseController`.
-  * Actions, i.e. the work performed by choices made in the Web UI or API now live in galaxy.actions, so they can be called cleanly from either interface
-  * Parameters passed in the Web UI or API should be parsed in galaxy.web.params.  If standardized across all forms and API methods of a particular model class, these parsers can be generalized quite easily
+    * UI components now live in subclasses of `BaseUIController and BaseAPIController, themselves subclasses of BaseController`.
+    * Actions, i.e. the work performed by choices made in the Web UI or API now live in galaxy.actions, so they can be called cleanly from either interface
+    * Parameters passed in the Web UI or API should be parsed in galaxy.web.params.  If standardized across all forms and API methods of a particular model class, these parsers can be generalized quite easily
 * Refactor validation of user account data--email, username, password--into own module and use module for validating user data throughout Galaxy.
 * Improve GTF sniffing by doing proper parsing of attributes.
 

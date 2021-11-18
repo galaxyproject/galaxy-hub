@@ -461,9 +461,9 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 # Other News
 
 * From [John Chilton](https://twitter.com/jmchilton):
-  * EDAM ([edamontology.org](http://edamontology.org)) format added to all Galaxy datatypes. Huge thanks to Pasteur team & Helena Rasche!
-  * [Connecting a dockerized Galaxy container to a Condor cluster](https://registry.hub.docker.com/u/dpryan79/htcondor-galaxy/) pretty awesome stuff from [Devon Ryan](https://twitter.com/dpryan79).
-  * Just merged [collaborative work](https://github.com/galaxyproject/galaxy/pull/230) spearheaded by Helena Rasche adding RStudio integration to Galaxy
+    * EDAM ([edamontology.org](http://edamontology.org)) format added to all Galaxy datatypes. Huge thanks to Pasteur team & Helena Rasche!
+    * [Connecting a dockerized Galaxy container to a Condor cluster](https://registry.hub.docker.com/u/dpryan79/htcondor-galaxy/) pretty awesome stuff from [Devon Ryan](https://twitter.com/dpryan79).
+    * Just merged [collaborative work](https://github.com/galaxyproject/galaxy/pull/230) spearheaded by Helena Rasche adding RStudio integration to Galaxy
 * [Videos from Pitagora Galaxy workshop](http://bit.ly/1CPXf8v) are now online
 * [GigaScience Pushes Metabolomics Open Data & Training](http://blogs.biomedcentral.com/gigablog/2015/05/13/gigascience-pushes-metabolomics-open-data-training/), by [Scott Edmunds](http://blogs.biomedcentral.com/gigablog/author/scottedmunds)
 

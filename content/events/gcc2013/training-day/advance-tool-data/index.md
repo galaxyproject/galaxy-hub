@@ -1048,13 +1048,13 @@ Some suggestions for exploration (http://wiki.galaxyproject.org/Admin/Tools/Tool
 * Config files
 * Validators
 * Defining Datatypes and Metadata
-  * Composite Datatypes
+    * Composite Datatypes
 * Parameter sanitizers
 * Advanced Data source tool configuration
 * Dynamic Select parameters
 * Customizing output attributes
-  * Labels
-  * output `<actions>` (e.g. see tools/filters/cutWrapper.xml)
+    * Labels
+    * output `<actions>` (e.g. see tools/filters/cutWrapper.xml)
 
 ## 17:00 session ends
 

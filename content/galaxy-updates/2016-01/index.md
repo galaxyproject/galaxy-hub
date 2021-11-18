@@ -269,40 +269,40 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right solid'><a href='http://dintor.eurac.edu/'><img src="/use/dintor/dintor.png" alt="Dintor: Data Integrator Tool Suite"  /></a></div>
 
 * *Link:*
-  * [Dintor: Data Integrator Tool Suite](http://dintor.eurac.edu/)
+    * [Dintor: Data Integrator Tool Suite](http://dintor.eurac.edu/)
 * *Domain/Purpose:*
-  * A "suite of tools that facilitate working with GWA and NGS data" and "offers modules for high level functional annotation of genes and gene products such as gene set prioritization, functional similarity of proteins, or clinical significance of variation data. Each of these tools has been designed to perform a basic task independently."
+    * A "suite of tools that facilitate working with GWA and NGS data" and "offers modules for high level functional annotation of genes and gene products such as gene set prioritization, functional similarity of proteins, or clinical significance of variation data. Each of these tools has been designed to perform a basic task independently."
 * *Comments:*
-  * Includes "more than thirty modules ready for use by bioinformaticians and biologists working in genomics research."
-  * "The Galaxy server has been set up to facilitate access to our **`Dintor`** tools by biologists with little background in bioinformatics. A second, expert mode of invocation is given by command line access to the tool suite, which can be downloaded"
-  * [Admin and deployment documentation is available](http://dintor.eurac.edu/doc/doc/index.html).
-  * [Dintor: functional annotation of genomic and proteomic data](http://bit.ly/1OzzTvY), Christian X. Weichenberger, Hagen Blankenburg, Antonia Palermo, Yuri D’Elia, Eva König, Erik Bernstein and Francisco S. Domingues, *BMC Genomics* 201516:1081 DOI: 10.1186/s12864-015-2279-5
+    * Includes "more than thirty modules ready for use by bioinformaticians and biologists working in genomics research."
+    * "The Galaxy server has been set up to facilitate access to our **`Dintor`** tools by biologists with little background in bioinformatics. A second, expert mode of invocation is given by command line access to the tool suite, which can be downloaded"
+    * [Admin and deployment documentation is available](http://dintor.eurac.edu/doc/doc/index.html).
+    * [Dintor: functional annotation of genomic and proteomic data](http://bit.ly/1OzzTvY), Christian X. Weichenberger, Hagen Blankenburg, Antonia Palermo, Yuri D’Elia, Eva König, Erik Bernstein and Francisco S. Domingues, *BMC Genomics* 201516:1081 DOI: 10.1186/s12864-015-2279-5
 
 * *User Support:*
-  * [Tutorials](http://dintor.eurac.edu/static/tutorial.html)
-  * In addition to help on each of the Galaxy Tool pages, there is [additional help for each Dintor tool here](http://dintor.eurac.edu/doc/doc/tools.html).
+    * [Tutorials](http://dintor.eurac.edu/static/tutorial.html)
+    * In addition to help on each of the Galaxy Tool pages, there is [additional help for each Dintor tool here](http://dintor.eurac.edu/doc/doc/tools.html).
 * *Quotas:*
-  * Anyone can create a login. Anonymous use is also supported.
+    * Anyone can create a login. Anonymous use is also supported.
 * *Sponsor(s):*
-  * The [Center of Biomedicine (CBM)](http://www.eurac.edu/en/research/health/biomed/Pages) at [EURAC research](http://www.eurac.edu/).
+    * The [Center of Biomedicine (CBM)](http://www.eurac.edu/en/research/health/biomed/Pages) at [EURAC research](http://www.eurac.edu/).
 
 ## Erasmus MC
 
 <div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/galaxy/'><img src="/use/erasmus-mc/erasmus-mc-bioinf-300.png" alt="Erasmus MC Bioinformatics Galaxy Server"  /></a></div>
 
 * *Link:*
-  * [Erasmus MC Bioinformatics Galaxy Server](https://bioinf-galaxian.erasmusmc.nl/galaxy/)
+    * [Erasmus MC Bioinformatics Galaxy Server](https://bioinf-galaxian.erasmusmc.nl/galaxy/)
 * *Domain/Purpose:*
-  * General purpose genomics analysis, featuring many standard tools plus many additional tools.
+    * General purpose genomics analysis, featuring many standard tools plus many additional tools.
 * *Comments:*
-  * See [FuMa: reporting overlap in RNA-seq detected fusion genes](http://bioinformatics.oxfordjournals.org/content/early/2015/12/09/bioinformatics.btv721.abstract), by Youri Hoogstrate, René Böttcher, Saskia Hiltemann, Peter van der Spek, Guido Jenster and Andrew P Stubbs, *Bioinformatics* (2015) doi: 10.1093/bioinformatics/btv721
+    * See [FuMa: reporting overlap in RNA-seq detected fusion genes](http://bioinformatics.oxfordjournals.org/content/early/2015/12/09/bioinformatics.btv721.abstract), by Youri Hoogstrate, René Böttcher, Saskia Hiltemann, Peter van der Spek, Guido Jenster and Andrew P Stubbs, *Bioinformatics* (2015) doi: 10.1093/bioinformatics/btv721
 * *User Support:*
 
-   *
+    *
 * *Quotas:*
-  * "This Galaxy instance may be used without registration, but guests' histories are deleted nightly. To request an account, please [contact](mailto:a.stubbs@erasmusmc.nl) the Bioinformatics department."
+    * "This Galaxy instance may be used without registration, but guests' histories are deleted nightly. To request an account, please [contact](mailto:a.stubbs@erasmusmc.nl) the Bioinformatics department."
 * *Sponsor(s):*
-  * [Erasmus Medical Center department of Bioinformatics](http://bioinformatics.erasmusmc.nl/)
+    * [Erasmus Medical Center department of Bioinformatics](http://bioinformatics.erasmusmc.nl/)
 
 ----
 
@@ -436,4 +436,4 @@ See [list of tools contributed in December](/toolshed/contributions/2015-12/).
 
 * Help the [MetaboHub](http://dsv.cea.fr/dsv/english/Pages/Research/national-infrastructures/MetaboHub.aspx) / [Workflow4metabolomics](http://galaxy.workflow4metabolomics.org/) and the [University of Birmingham](http://www.birmingham.ac.uk/) / [Galaxy-M](https://github.com/Viant-Metabolomics/Galaxy-M) teams! Please fill out the [Galaxy Workflows for Metabolomics](https://www.surveymonkey.co.uk/r/metabolomics-galaxy) Questionnaire
 * From [GigaScience](https://twitter.com/GigaScience):
-  * We've been busy in 2015! Read our [end of year blog](http://bit.ly/1NQl4Tk) and we have more exciting things lined up for 2016!
+    * We've been busy in 2015! Read our [end of year blog](http://bit.ly/1NQl4Tk) and we have more exciting things lined up for 2016!

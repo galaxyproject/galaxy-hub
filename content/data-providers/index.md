@@ -150,10 +150,10 @@ For tabular formats:
 
 * column:  lines are returned as arrays of column data (as above). Many options are available for this provider
   including:
-  * indeces: return only the columns specified by a 0-based, comma separated list of integers (e.g. '0,2,5')
-  * column_count: return only the first N columns from each line
-  * deliminator: defaults to the tab character but can be used to parse comma separated data as well
-  * column_types: a CSV string of python primitive names used to parse each column (e.g. 'str,int,float,bool').
+    * indeces: return only the columns specified by a 0-based, comma separated list of integers (e.g. '0,2,5')
+    * column_count: return only the first N columns from each line
+    * deliminator: defaults to the tab character but can be used to parse comma separated data as well
+    * column_types: a CSV string of python primitive names used to parse each column (e.g. 'str,int,float,bool').
     Can works in tandem with indeces to parse only those columns requested.
 * dict:    return each line as a dictionary. Keys used should be sent as `column_names`, a CSV list of strings
   (e.g. column_names='id,start,end'). Based on the `column` provider and allows all options used there.

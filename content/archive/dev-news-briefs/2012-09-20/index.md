@@ -143,14 +143,14 @@ For example, let's take a look at a Galaxy instance into which 2 revisions of a 
 [Tool Shed](/toolshed/)
 
 * *Tool shed features for Galaxy tools*
-  * The primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed. [Read more…](/toolshed/tool-features/)
+    * The primary intent of the tool shed is for sharing Galaxy tools, workflows and other useful Galaxy utilities.  Galaxy tools are generally developed within a local Galaxy environment, proven to be functionally correct within that environment, and then uploaded to a tool shed for sharing.  With a couple of exceptions, tool features are defined within the Galaxy framework, and have nothing to do with the tool shed. [Read more…](/toolshed/tool-features/)
 * *Pushing changes to a tool shed repository using hg from the command line*
-  * When pushing changes to a repository in the tool shed using hg from the command line (e.g., **hg commit**, **hg push**), make sure your shell's version of ***Mercurial is at least version 2.2.3***.  **[Mercurial version 2.2.3](http://mercurial.selenic.com/)** includes features that enable the tool shed to *automatically generate the new repository metadata* when the changes have been pushed from the command line.
+    * When pushing changes to a repository in the tool shed using hg from the command line (e.g., **hg commit**, **hg push**), make sure your shell's version of ***Mercurial is at least version 2.2.3***.  **[Mercurial version 2.2.3](http://mercurial.selenic.com/)** includes features that enable the tool shed to *automatically generate the new repository metadata* when the changes have been pushed from the command line.
 * *Enhancements* & *Fixes*
-  * Enhancements to tool dependency installation when installing with a tool shed repository: multiple environment variables can now be set and a new "make_directory" tag is supported.
-  * Fixes for displaying error message when displaying invalid tools in the tool shed.
-  * Fix from *Bjorn Gruning* for telling the user which file is the offender if an uploaded tarball gets rejected in the tool shed.
-  * Fix for getting updates for tool shed repositories installed into a local Galaxy instance.
+    * Enhancements to tool dependency installation when installing with a tool shed repository: multiple environment variables can now be set and a new "make_directory" tag is supported.
+    * Fixes for displaying error message when displaying invalid tools in the tool shed.
+    * Fix from *Bjorn Gruning* for telling the user which file is the offender if an uploaded tarball gets rejected in the tool shed.
+    * Fix for getting updates for tool shed repositories installed into a local Galaxy instance.
 
 <br />
 # Framework

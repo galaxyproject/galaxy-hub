@@ -48,17 +48,17 @@ A live demo of the public Main Galaxy instance was not possible. As an alternate
 Tour of Galaxy's learning resources included:
 
 * Resources: public Main Galaxy wiki at http://galaxyproject.org:
-  * Learn, all resources including: video, object wikis, tutorials
-  * Support, general
-  * Events, how to navigate and drill-down into workshop slides (using specific examples as models)
-  * Biostar (now [help.galaxyproject.org](https://help.galaxyproject.org/), including searches) and Mailing lists
-  * Google custom searches, general
+    * Learn, all resources including: video, object wikis, tutorials
+    * Support, general
+    * Events, how to navigate and drill-down into workshop slides (using specific examples as models)
+    * Biostar (now [help.galaxyproject.org](https://help.galaxyproject.org/), including searches) and Mailing lists
+    * Google custom searches, general
 * Resources: public Main Galaxy instance http://usegalaxy.org:
-  * Reminders about of core objects, layout, definitions (mirrored earlier slide content)
-  * Tool help and Biostar link-outs
-  * Tutorials and Supplementals included in Pages
-  * Levels of Sharing
-  * Created a Page (request)
+    * Reminders about of core objects, layout, definitions (mirrored earlier slide content)
+    * Tool help and Biostar link-outs
+    * Tutorials and Supplementals included in Pages
+    * Levels of Sharing
+    * Created a Page (request)
 
 ## Feedback
 

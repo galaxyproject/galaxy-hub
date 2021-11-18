@@ -228,13 +228,13 @@ One new [public Galaxy server](/use/) was added to the published list in June:
 * *Comments:*
     Has 16 virtual CPUs.
 * *User Support:*
-  * [GVL Help](https://genome.edu.au)
-  * Follow tutorials at [GVL Learn](https://genome.edu.au) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
+    * [GVL Help](https://genome.edu.au)
+    * Follow tutorials at [GVL Learn](https://genome.edu.au) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
 * *Quotas:*
-  * University of Queensland and collaborators: 2TB
-  * Other Australian Researchers: 1TB (make sure you register with your Institute email address)
-  * Other registered users: 200GB
-  * Unregistered users: 5GB
+    * University of Queensland and collaborators: 2TB
+    * Other Australian Researchers: 1TB (make sure you register with your Institute email address)
+    * Other registered users: 200GB
+    * Unregistered users: 5GB
 * *Sponsor(s):*
     [Genomics Virtual Lab](https://genome.edu.au/) and the [University of Queensland Research Computing Centre](http://www.rcc.uq.edu.au/)
 
@@ -332,79 +332,79 @@ In no particular order:
 ### Tools
 
 * *From [qfab](http://toolshed.g2.bx.psu.edu/view/qfab/)*
-  * [pynast](http://toolshed.g2.bx.psu.edu/view/qfab/pynast): PyNAST is a sequence aligner for adding new 16S rDNA sequences to existing 16S rDNA alignments - GVL
-  * [fasttree_linux_64bit](http://toolshed.g2.bx.psu.edu/view/qfab/fasttree_linux_64bit): FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences - GVL
-  * [rarefaction](http://toolshed.g2.bx.psu.edu/view/qfab/rarefaction): Rarefaction calculation based on mothur's rarefaction.single command - GVL
+    * [pynast](http://toolshed.g2.bx.psu.edu/view/qfab/pynast): PyNAST is a sequence aligner for adding new 16S rDNA sequences to existing 16S rDNA alignments - GVL
+    * [fasttree_linux_64bit](http://toolshed.g2.bx.psu.edu/view/qfab/fasttree_linux_64bit): FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences - GVL
+    * [rarefaction](http://toolshed.g2.bx.psu.edu/view/qfab/rarefaction): Rarefaction calculation based on mothur's rarefaction.single command - GVL
 
 * *From [crs4](http://toolshed.g2.bx.psu.edu/view/crs4/)*
-  * [hadoop_galaxy](http://toolshed.g2.bx.psu.edu/view/crs4/hadoop_galaxy): Hadoop-Galaxy integration
+    * [hadoop_galaxy](http://toolshed.g2.bx.psu.edu/view/crs4/hadoop_galaxy): Hadoop-Galaxy integration
 
 * *From [evan](https://toolshed.g2.bx.psu.edu/view/evan/)*
-  * [bwa_wrappers](https://toolshed.g2.bx.psu.edu/view/evan/bwa_wrappers): Galaxy wrappers for the BWA short read aligner.
+    * [bwa_wrappers](https://toolshed.g2.bx.psu.edu/view/evan/bwa_wrappers): Galaxy wrappers for the BWA short read aligner.
 
 * *From [anton](http://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [vcfprimers](http://toolshed.g2.bx.psu.edu/view/anton/vcfprimers): Extract flanking sequences for each VCF record
-  * [vcffixup](http://toolshed.g2.bx.psu.edu/view/anton/vcffixup): Count the allele frequencies across alleles present in each record in the VCF file.
-  * [vcfsort](http://toolshed.g2.bx.psu.edu/view/anton/vcfsort): Sort VCF dataset by coordinate
-  * [vcfallelicprimitives](http://toolshed.g2.bx.psu.edu/view/anton/vcfallelicprimitives): Splits alleleic primitives (gaps or mismatches) into multiple VCF lines
-  * [vcfaddinfo](http://toolshed.g2.bx.psu.edu/view/anton/vcfaddinfo): Adds info fields from the second dataset which are not present in the first dataset.
-  * plus [18 more VCF related tools from anton](http://toolshed.g2.bx.psu.edu/view/anton/)
+    * [vcfprimers](http://toolshed.g2.bx.psu.edu/view/anton/vcfprimers): Extract flanking sequences for each VCF record
+    * [vcffixup](http://toolshed.g2.bx.psu.edu/view/anton/vcffixup): Count the allele frequencies across alleles present in each record in the VCF file.
+    * [vcfsort](http://toolshed.g2.bx.psu.edu/view/anton/vcfsort): Sort VCF dataset by coordinate
+    * [vcfallelicprimitives](http://toolshed.g2.bx.psu.edu/view/anton/vcfallelicprimitives): Splits alleleic primitives (gaps or mismatches) into multiple VCF lines
+    * [vcfaddinfo](http://toolshed.g2.bx.psu.edu/view/anton/vcfaddinfo): Adds info fields from the second dataset which are not present in the first dataset.
+    * plus [18 more VCF related tools from anton](http://toolshed.g2.bx.psu.edu/view/anton/)
 
 * *From [superyuan](http://toolshed.g2.bx.psu.edu/view/superyuan/)*
-  * [refeditor](http://toolshed.g2.bx.psu.edu/view/superyuan/refeditor): Produces a personalized diploid reference genome based on all known genetic variants of that particular individual.
+    * [refeditor](http://toolshed.g2.bx.psu.edu/view/superyuan/refeditor): Produces a personalized diploid reference genome based on all known genetic variants of that particular individual.
 
 * *From [iracooke](http://toolshed.g2.bx.psu.edu/view/iracooke/)*
-  * [make_protein_decoys](http://toolshed.g2.bx.psu.edu/view/iracooke/make_protein_decoys): Generate a decoy database from an input set of protein sequences. Decoys generated using this tool can be used for tandem ms searches.
-  * [proteindb_from_gff3](http://toolshed.g2.bx.psu.edu/view/iracooke/proteindb_from_gff3): Convert Augustus Generated gff3 to a Protein Database
-  * [protxml_to_gff](http://toolshed.g2.bx.psu.edu/view/iracooke/protxml_to_gff): Map peptides from a protXML file to genomic coordinates
-  * [sixframe_translate](http://toolshed.g2.bx.psu.edu/view/iracooke/sixframe_translate): Translates sequences in a nucleotide fasta file to protein
+    * [make_protein_decoys](http://toolshed.g2.bx.psu.edu/view/iracooke/make_protein_decoys): Generate a decoy database from an input set of protein sequences. Decoys generated using this tool can be used for tandem ms searches.
+    * [proteindb_from_gff3](http://toolshed.g2.bx.psu.edu/view/iracooke/proteindb_from_gff3): Convert Augustus Generated gff3 to a Protein Database
+    * [protxml_to_gff](http://toolshed.g2.bx.psu.edu/view/iracooke/protxml_to_gff): Map peptides from a protXML file to genomic coordinates
+    * [sixframe_translate](http://toolshed.g2.bx.psu.edu/view/iracooke/sixframe_translate): Translates sequences in a nucleotide fasta file to protein
 
 * *From [hyungrolee](https://toolshed.g2.bx.psu.edu/view/hyungrolee/)*
-  * [mgescan](https://toolshed.g2.bx.psu.edu/view/hyungrolee/mgescan): MGEScan: Identifying long terminal repeats (LTR) and non-LTR retroelements in eukaryotic genomic sequences.
+    * [mgescan](https://toolshed.g2.bx.psu.edu/view/hyungrolee/mgescan): MGEScan: Identifying long terminal repeats (LTR) and non-LTR retroelements in eukaryotic genomic sequences.
 
 * *From [iuc](http://toolshed.g2.bx.psu.edu/view/iuc/)*
-  * [samtools_sort](http://toolshed.g2.bx.psu.edu/view/iuc/samtools_sort): Sort alignments by leftmost coordinates or read name.
+    * [samtools_sort](http://toolshed.g2.bx.psu.edu/view/iuc/samtools_sort): Sort alignments by leftmost coordinates or read name.
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam/)*
-  * [bamleftalign](https://toolshed.g2.bx.psu.edu/view/devteam/bamleftalign): utility for leftaligning indels in BAM datasets.  Based on bamleftalign utility for FreeBayes package.
+    * [bamleftalign](https://toolshed.g2.bx.psu.edu/view/devteam/bamleftalign): utility for leftaligning indels in BAM datasets.  Based on bamleftalign utility for FreeBayes package.
 
 ### Packages / Tool Dependency Definitions
 
 * *From [qfab](http://toolshed.g2.bx.psu.edu/view/qfab/)*
-  * [package_numpy_1_8](http://toolshed.g2.bx.psu.edu/view/qfab/package_numpy_1_8): Tool dependency definition; downloads and compiles the python numpy package 1.8.1 - GVL
-  * [package_pycogent_1_5_2](http://toolshed.g2.bx.psu.edu/view/qfab/package_pycogent_1_5_2): Tool dependency definition; installs the PyCogent package version 1.5.2 and its dependencies - GVL
-  * [package_uclust_1_2_22q](http://toolshed.g2.bx.psu.edu/view/qfab/package_uclust_1_2_22q): Tool dependency definition; installs uclust v1.2.22q for PyNAST - GVL
-  * [package_mothur](http://toolshed.g2.bx.psu.edu/view/qfab/package_mothur): mothur is an open-source, expandable software to fill the bioinformatics needs of the microbial ecology community
-  * [collector_curve](http://toolshed.g2.bx.psu.edu/view/qfab/collector_curve): Collector's curve calculation based on mothur's collect.single command - GVL
+    * [package_numpy_1_8](http://toolshed.g2.bx.psu.edu/view/qfab/package_numpy_1_8): Tool dependency definition; downloads and compiles the python numpy package 1.8.1 - GVL
+    * [package_pycogent_1_5_2](http://toolshed.g2.bx.psu.edu/view/qfab/package_pycogent_1_5_2): Tool dependency definition; installs the PyCogent package version 1.5.2 and its dependencies - GVL
+    * [package_uclust_1_2_22q](http://toolshed.g2.bx.psu.edu/view/qfab/package_uclust_1_2_22q): Tool dependency definition; installs uclust v1.2.22q for PyNAST - GVL
+    * [package_mothur](http://toolshed.g2.bx.psu.edu/view/qfab/package_mothur): mothur is an open-source, expandable software to fill the bioinformatics needs of the microbial ecology community
+    * [collector_curve](http://toolshed.g2.bx.psu.edu/view/qfab/collector_curve): Collector's curve calculation based on mothur's collect.single command - GVL
 
 * *From [biopython](http://toolshed.g2.bx.psu.edu/view/biopython/)*
-  * [package_biopython_1_64](http://toolshed.g2.bx.psu.edu/view/biopython/package_biopython_1_64): Downloads and compiles version 1.64 of the Biopython package.
+    * [package_biopython_1_64](http://toolshed.g2.bx.psu.edu/view/biopython/package_biopython_1_64): Downloads and compiles version 1.64 of the Biopython package.
 * *From [jankanis](http://toolshed.g2.bx.psu.edu/view/jankanis/)*
-  * [package_libxml2_2_9_1](http://toolshed.g2.bx.psu.edu/view/jankanis/package_libxml2_2_9_1): fork of existing package_libxml2_2_9_1 from devteam with some additional environment variable exports
+    * [package_libxml2_2_9_1](http://toolshed.g2.bx.psu.edu/view/jankanis/package_libxml2_2_9_1): fork of existing package_libxml2_2_9_1 from devteam with some additional environment variable exports
 
 * *From [iuc](http://toolshed.g2.bx.psu.edu/view/iuc/)*
-  * [package_gnu_coreutils_8_22](http://toolshed.g2.bx.psu.edu/view/iuc/package_gnu_coreutils_8_22): downloads and compiles version 8.22 of the GNU coreutils.
-  * [package_libpng_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_libpng_1_2): Provides the 1.2.x branch of libpng for compatibility with older software.
-  * [package_tpp_4_6_3](https://toolshed.g2.bx.psu.edu/view/iuc/package_tpp_4_6_3): Downloads and compiles version 4.6.3 of the Trans-Proteomic Pipeline.
+    * [package_gnu_coreutils_8_22](http://toolshed.g2.bx.psu.edu/view/iuc/package_gnu_coreutils_8_22): downloads and compiles version 8.22 of the GNU coreutils.
+    * [package_libpng_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_libpng_1_2): Provides the 1.2.x branch of libpng for compatibility with older software.
+    * [package_tpp_4_6_3](https://toolshed.g2.bx.psu.edu/view/iuc/package_tpp_4_6_3): Downloads and compiles version 4.6.3 of the Trans-Proteomic Pipeline.
 
 * *From [iracooke](https://toolshed.g2.bx.psu.edu/view/iracooke/)*
-  * [package_protk_1_2_6](https://toolshed.g2.bx.psu.edu/view/iracooke/package_protk_1_2_6): Installs the version 1.2.6 of the protk rubygem
+    * [package_protk_1_2_6](https://toolshed.g2.bx.psu.edu/view/iracooke/package_protk_1_2_6): Installs the version 1.2.6 of the protk rubygem
 
 * *From [anton](http://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [package_vcflib](http://toolshed.g2.bx.psu.edu/view/anton/package_vcflib): Compiled binary files for vcflib toolkit.
+    * [package_vcflib](http://toolshed.g2.bx.psu.edu/view/anton/package_vcflib): Compiled binary files for vcflib toolkit.
 
 * *From [jeremie](http://toolshed.g2.bx.psu.edu/view/jeremie/)*
-  * [package_pindel_0_2_5](http://toolshed.g2.bx.psu.edu/view/jeremie/package_pindel_0_2_5): downloads and compiles version 0.2.5 of Pindel.
+    * [package_pindel_0_2_5](http://toolshed.g2.bx.psu.edu/view/jeremie/package_pindel_0_2_5): downloads and compiles version 0.2.5 of Pindel.
 
 * *From [devteam](http://toolshed.g2.bx.psu.edu/view/devteam/)*
-  * [freebayes_0_9_14_8a407cf5f4](http://toolshed.g2.bx.psu.edu/view/devteam/freebayes_0_9_14_8a407cf5f4): Dependencies for FreeBayes and LeftAlign wrappers
+    * [freebayes_0_9_14_8a407cf5f4](http://toolshed.g2.bx.psu.edu/view/devteam/freebayes_0_9_14_8a407cf5f4): Dependencies for FreeBayes and LeftAlign wrappers
 
 **Tool Updates:**
 
 * *From [vipints](https://toolshed.g2.bx.psu.edu/view/vipints/)*
-  * [fml_gff3togtf](https://toolshed.g2.bx.psu.edu/view/vipints/fml_gff3togtf): Uploaded version 2.0.0 of gfftools to integrate local Galaxy instances.
+    * [fml_gff3togtf](https://toolshed.g2.bx.psu.edu/view/vipints/fml_gff3togtf): Uploaded version 2.0.0 of gfftools to integrate local Galaxy instances.
 * *From [peterjc](http://toolshed.g2.bx.psu.edu/view/peterjc/)*
-  * [blastxml_to_top_descr](http://toolshed.g2.bx.psu.edu/view/peterjc/blastxml_to_top_descr): Uploaded v0.1.0, now also handles extended tabular BLAST output.
+    * [blastxml_to_top_descr](http://toolshed.g2.bx.psu.edu/view/peterjc/blastxml_to_top_descr): Uploaded v0.1.0, now also handles extended tabular BLAST output.
 
 # Other News
 

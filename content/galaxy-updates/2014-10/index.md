@@ -296,92 +296,92 @@ In no particular order:
 ### Tools
 
 * *From [saket-choudhary](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/)*
-  * [sift_web](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/sift_web): PROVEAN and SIFT predictions for a list of human genome variants.
+    * [sift_web](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/sift_web): PROVEAN and SIFT predictions for a list of human genome variants.
 
 * *From [gbcs-embl-heidelberg](https://toolshed.g2.bx.psu.edu/view/gbcs-embl-heidelberg/)*
-  * [jemultiplexer](https://toolshed.g2.bx.psu.edu/view/gbcs-embl-heidelberg/jemultiplexer): debarcoding/demultiplexing tool for FASTQ files accommodating all complex multiplexing protocols (iCLIP, molecule barcoding, ...).
+    * [jemultiplexer](https://toolshed.g2.bx.psu.edu/view/gbcs-embl-heidelberg/jemultiplexer): debarcoding/demultiplexing tool for FASTQ files accommodating all complex multiplexing protocols (iCLIP, molecule barcoding, ...).
 
 * *From [mcharles](https://toolshed.g2.bx.psu.edu/view/mcharles/)*
-  * [rapsodyn](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsodyn): tools and workflow used for the [Rapsodyn Project](http://www.rapsodyn.fr/)
-  * [rapsosnp](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsosnp): workflow to detect and select SNP for the rapsodyn project
+    * [rapsodyn](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsodyn): tools and workflow used for the [Rapsodyn Project](http://www.rapsodyn.fr/)
+    * [rapsosnp](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsosnp): workflow to detect and select SNP for the rapsodyn project
 
 * *From [ayllon](https://toolshed.g2.bx.psu.edu/view/ayllon/)*
-  * [tcoffee](https://toolshed.g2.bx.psu.edu/view/ayllon/tcoffee): T-Coffee multiple alignment suite.
+    * [tcoffee](https://toolshed.g2.bx.psu.edu/view/ayllon/tcoffee): T-Coffee multiple alignment suite.
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [bamtools](https://toolshed.g2.bx.psu.edu/view/anton/bamtools): A collection of tools for manipulation of bamfiles
-  * [vcfflatten](https://toolshed.g2.bx.psu.edu/view/anton/vcfflatten): Removes multi-allelic sites by picking the most common alternate
+    * [bamtools](https://toolshed.g2.bx.psu.edu/view/anton/bamtools): A collection of tools for manipulation of bamfiles
+    * [vcfflatten](https://toolshed.g2.bx.psu.edu/view/anton/vcfflatten): Removes multi-allelic sites by picking the most common alternate
 
 * *From [crs4](https://toolshed.g2.bx.psu.edu/view/crs4/)*
-  * [kggseq_variant_selection](https://toolshed.g2.bx.psu.edu/view/crs4/kggseq_variant_selection): Variant selection with KGGSeq
+    * [kggseq_variant_selection](https://toolshed.g2.bx.psu.edu/view/crs4/kggseq_variant_selection): Variant selection with KGGSeq
 
 * *From [tyty](https://toolshed.g2.bx.psu.edu/view/tyty/)*
-  * [structurefold](https://toolshed.g2.bx.psu.edu/view/tyty/structurefold): StructureFold predicts RNA secondary structures from high throughput RNA structure profiling data
+    * [structurefold](https://toolshed.g2.bx.psu.edu/view/tyty/structurefold): StructureFold predicts RNA secondary structures from high throughput RNA structure profiling data
 
 * *From [big-tiandm](https://toolshed.g2.bx.psu.edu/view/big-tiandm/)*
-  * [sirna_plant](https://toolshed.g2.bx.psu.edu/view/big-tiandm/sirna_plant): plant siRNA analysis toolkits. siRNA prediction, siRNA annotation, siRNA quantify
+    * [sirna_plant](https://toolshed.g2.bx.psu.edu/view/big-tiandm/sirna_plant): plant siRNA analysis toolkits. siRNA prediction, siRNA annotation, siRNA quantify
 
 * *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/)*
-  * [dc_genotyper](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/dc_genotyper): genotyper aimed at finding SNPs in high-ploidy (or pooled) samples sequenced at very high depth in a targeted region.
+    * [dc_genotyper](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/dc_genotyper): genotyper aimed at finding SNPs in high-ploidy (or pooled) samples sequenced at very high depth in a targeted region.
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp/)*
-  * [fasta_merge_files_and_filter_unique_sequences](https://toolshed.g2.bx.psu.edu/view/galaxyp/fasta_merge_files_and_filter_unique_sequences): Merge FASTA files, keeping only unique sequences
-  * [filter_by_fasta_ids](https://toolshed.g2.bx.psu.edu/view/galaxyp/filter_by_fasta_ids): Extract sequences from a FASTA file based on a list of IDs
-  * [myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/myrimatch): protein identification via database search using Bumbershoot MyriMatch
-  * [ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/ltq_iquant_cli): iQuant performs tag based isobaric quantification
-  * [idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/idpqonvert): Bumbershoot idpQonvert, a part of Bumbershoot IDPicker.
-  * [directag_and_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/directag_and_tagrecon): protein identification via Directag and TagRecon.
+    * [fasta_merge_files_and_filter_unique_sequences](https://toolshed.g2.bx.psu.edu/view/galaxyp/fasta_merge_files_and_filter_unique_sequences): Merge FASTA files, keeping only unique sequences
+    * [filter_by_fasta_ids](https://toolshed.g2.bx.psu.edu/view/galaxyp/filter_by_fasta_ids): Extract sequences from a FASTA file based on a list of IDs
+    * [myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/myrimatch): protein identification via database search using Bumbershoot MyriMatch
+    * [ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/ltq_iquant_cli): iQuant performs tag based isobaric quantification
+    * [idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/idpqonvert): Bumbershoot idpQonvert, a part of Bumbershoot IDPicker.
+    * [directag_and_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/directag_and_tagrecon): protein identification via Directag and TagRecon.
 
 ### Suites
 
 * *From [biomonika](https://toolshed.g2.bx.psu.edu/view/biomonika/)*
-  * [suite_linkyx_bundle_main_0_1](https://toolshed.g2.bx.psu.edu/view/biomonika/suite_linkyx_bundle_main_0_1):
+    * [suite_linkyx_bundle_main_0_1](https://toolshed.g2.bx.psu.edu/view/biomonika/suite_linkyx_bundle_main_0_1):
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [suite_vcflib_tools_3_0](https://toolshed.g2.bx.psu.edu/view/anton/suite_vcflib_tools_3_0): 23 tools for manipulation of VCF datasets
+    * [suite_vcflib_tools_3_0](https://toolshed.g2.bx.psu.edu/view/anton/suite_vcflib_tools_3_0): 23 tools for manipulation of VCF datasets
 
 ### Packages / Tool Dependency Definitions
 
 * *From [fubar](https://toolshed.g2.bx.psu.edu/view/fubar/)*
-  * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/fubar/package_graphicsmagick_1_3_20):
+    * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/fubar/package_graphicsmagick_1_3_20):
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc/)*
-  * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/iuc/package_graphicsmagick_1_3_20):
-  * [package_bioperl_1_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_bioperl_1_6): downloads and compiles version 1.6 of Bioperl.
-  * [package_onto_perl_1_41](https://toolshed.g2.bx.psu.edu/view/iuc/package_onto_perl_1_41): downloads and compiles version 1.41 of the Ontology toolkit written in perl.
+    * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/iuc/package_graphicsmagick_1_3_20):
+    * [package_bioperl_1_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_bioperl_1_6): downloads and compiles version 1.6 of Bioperl.
+    * [package_onto_perl_1_41](https://toolshed.g2.bx.psu.edu/view/iuc/package_onto_perl_1_41): downloads and compiles version 1.41 of the Ontology toolkit written in perl.
 
 * *From [saket-choudhary](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/)*
-  * [package_requests_2_2_1](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_requests_2_2_1): Tool dependency definition of python-requests
-  * [package_beautifulsoup4_4_1_0](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_beautifulsoup4_4_1_0): Tool dependency definition for python-bs4
+    * [package_requests_2_2_1](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_requests_2_2_1): Tool dependency definition of python-requests
+    * [package_beautifulsoup4_4_1_0](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_beautifulsoup4_4_1_0): Tool dependency definition for python-bs4
 
 * *From [qfab](https://toolshed.g2.bx.psu.edu/view/qfab/)*
-  * [opal2_4_1](https://toolshed.g2.bx.psu.edu/view/qfab/opal2_4_1): Opal Package - GVL
+    * [opal2_4_1](https://toolshed.g2.bx.psu.edu/view/qfab/opal2_4_1): Opal Package - GVL
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp/)*
-  * [package_peptides_to_gff_0_1](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_peptides_to_gff_0_1): Installs the peptides_to_gff python script
-  * [package_myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_myrimatch):
-  * [package_directag](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_directag):
-  * [package_idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_idpqonvert):
-  * [package_ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_ltq_iquant_cli):
-  * [package_mgf_formatter](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_mgf_formatter):
-  * [package_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_tagrecon):
+    * [package_peptides_to_gff_0_1](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_peptides_to_gff_0_1): Installs the peptides_to_gff python script
+    * [package_myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_myrimatch):
+    * [package_directag](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_directag):
+    * [package_idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_idpqonvert):
+    * [package_ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_ltq_iquant_cli):
+    * [package_mgf_formatter](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_mgf_formatter):
+    * [package_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_tagrecon):
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [package_vcflib_8a5602bf07](https://toolshed.g2.bx.psu.edu/view/anton/package_vcflib_8a5602bf07): Compiled vcflib binaries for x86_64
+    * [package_vcflib_8a5602bf07](https://toolshed.g2.bx.psu.edu/view/anton/package_vcflib_8a5602bf07): Compiled vcflib binaries for x86_64
 
 * *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/)*
-  * [package_igvtools_2_3_32](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/package_igvtools_2_3_32): igvtools binaries, to be used as dependency in other tools.
+    * [package_igvtools_2_3_32](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/package_igvtools_2_3_32): igvtools binaries, to be used as dependency in other tools.
 
 * *From [lparsons](https://toolshed.g2.bx.psu.edu/view/lparsons/)*
-  * [package_rseqc_2_4](https://toolshed.g2.bx.psu.edu/view/lparsons/package_rseqc_2_4): downloads and compiles version 2.4 of RSeQC.
+    * [package_rseqc_2_4](https://toolshed.g2.bx.psu.edu/view/lparsons/package_rseqc_2_4): downloads and compiles version 2.4 of RSeQC.
 
 ### Updates
 
 * *From [fubar](https://toolshed.g2.bx.psu.edu/view/fubar/)*
-  * [toolfactory](https://toolshed.g2.bx.psu.edu/view/fubar/toolfactory): Citations added (thanks John!) and a few more output formats for Alistair Chilcott
+    * [toolfactory](https://toolshed.g2.bx.psu.edu/view/fubar/toolfactory): Citations added (thanks John!) and a few more output formats for Alistair Chilcott
 
 * *From [nilesh](https://toolshed.g2.bx.psu.edu/view/nilesh/)*
-  * [rseqc](https://toolshed.g2.bx.psu.edu/view/nilesh/rseqc): Upgraded RSeQC to [version 2.4](http://rseqc.sourceforge.net/#release-history)
+    * [rseqc](https://toolshed.g2.bx.psu.edu/view/nilesh/rseqc): Upgraded RSeQC to [version 2.4](http://rseqc.sourceforge.net/#release-history)
 
 # Other News
 

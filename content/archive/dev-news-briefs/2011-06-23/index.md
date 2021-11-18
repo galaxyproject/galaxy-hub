@@ -37,7 +37,7 @@ Galaxy's **Cloudman** now has an admin interface that allows you to gain insight
 * Add Galaxy admin users through the web interface.
 * Update Galaxy source (even from a custom repository).
 * View logs and configurations for individual services.
-  * e.g., Galaxy, Postgres, SGE, as well as control some of the system-level services
+    * e.g., Galaxy, Postgres, SGE, as well as control some of the system-level services
 
 To get to the admin interface, just click the 'Admin' link at the top right corner on the main **Cloudman** UI.
 
@@ -52,7 +52,7 @@ Rather than rigidly structured tool archives, the foundational component of Gala
 
 A new select list was added to the upload form in Galaxy's **Tool Shed** with the following label:
 
- * Remove files in the repository (relative to the upload point) that are not in the uploaded archive?*
+* Remove files in the repository (relative to the upload point) that are not in the uploaded archive?*
 
  The selection pertains only to uploaded tar archives, not to single file uploads. If 'Yes' is selected, files that exist in the repository (relative to the selected upload point) but that are not in the uploaded archive will be removed from the repository. Otherwise, all existing repository files will remain and the uploaded archive will be added to the repository. Resolves #585
 
@@ -63,8 +63,8 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 ### Tools
 
 * RNA-seq tools:
-  * Rename and reorder Cuffdiff outputs for clarity.
-  * Make Cuffcompare wrapper compatible with v1.0.3.
+    * Rename and reorder Cuffdiff outputs for clarity.
+    * Make Cuffcompare wrapper compatible with v1.0.3.
 * 2bit/twobit datatypes now supported. (thanks Peter van Heusden!)
 * New tools for FASTA de(interlacing) added. Resolves #447
 
@@ -72,13 +72,13 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 
 * Add the download/save icon to datasets in an error state, but that contain data. Fixes #207 and #583
 * Disk space usage accounting:
-  * Users can see how much disk a history is consuming.
-  * Disk used is also a column on the history grid.
-  * Users can also forcibly purge a dataset from their history.
+    * Users can see how much disk a history is consuming.
+    * Disk used is also a column on the history grid.
+    * Users can also forcibly purge a dataset from their history.
 * Admin notes:
-  * New script (scripts/set_dataset_sizes.py) which will set the value of the new total_size column on the dataset table (includes the contents of the extra_files_path and metadata files).
-  * The ability for users to purge their own data is conditional on a config variable. Due to limitations in the grid framework, the button can't be removed from the history grid, but clicking it just does the same thing as delete but adds a message explaining that the purge operation wasn't performed.
-  * For users who were pulling from galaxy-central and that already upgraded to database version 78 prior to this distribution, the following SQL query should be run to set the default value of the 'HistoryDatasetAssociation' purged column:
+    * New script (scripts/set_dataset_sizes.py) which will set the value of the new total_size column on the dataset table (includes the contents of the extra_files_path and metadata files).
+    * The ability for users to purge their own data is conditional on a config variable. Due to limitations in the grid framework, the button can't be removed from the history grid, but clicking it just does the same thing as delete but adds a message explaining that the purge operation wasn't performed.
+    * For users who were pulling from galaxy-central and that already upgraded to database version 78 prior to this distribution, the following SQL query should be run to set the default value of the 'HistoryDatasetAssociation' purged column:
 
  UPDATE history_dataset_association SET purged=false WHERE purged IS NULL
 
@@ -133,7 +133,7 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 * Add baseline support for translating special chars to html escape codes for correct html display in the Galaxy Tool Shed. Fixes #564
 * Commit versions of tools from the last_gen Tool Shed in order of oldest -> newest in the next-gen tool shed. Fixes #578
 * Fix sample tracking to correctly import samples from a csv file.  Add the ability to include field values (in addition to field names) when defining sample form rows by importing from a csv file. Fixes #398
-  * The csv file must be in the following format: the [:FieldValue] is optional, the named form field will contain the value after the ':' if included.
+    * The csv file must be in the following format: the [:FieldValue] is optional, the named form field will contain the value after the ':' if included.
       `SampleName,DataLibraryName,FolderName,HistoryName,WorkflowName,Field1Name:Field1Value,Field2Name:Field2Value...`
 * Change the Galaxy tool shed search feature on the Categories grid to search Repository names and descriptions rather than Category names and descriptions. The ability to search Category names and descriptions has been eliminated. Fixes #480
 * Add support for uncompressing a gz or bz2 compressed file upon upload to a galaxy tool shed repository. Fixes #586

@@ -430,4 +430,4 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * The semi-annual update of the project statistics page is done.  [See what's new](/galaxy-project/statistics/).
 * From [John Chilton](/people/john-chilton/):
-  * Galaxy can now [by-pass re-running jobs with duplicate parameters/inputs](https://github.com/galaxyproject/galaxy/pull/4690) thanks to the brilliant [Marius Van Den Beek](https://twitter.com/mariusvdbeek/)
+    * Galaxy can now [by-pass re-running jobs with duplicate parameters/inputs](https://github.com/galaxyproject/galaxy/pull/4690) thanks to the brilliant [Marius Van Den Beek](https://twitter.com/mariusvdbeek/)

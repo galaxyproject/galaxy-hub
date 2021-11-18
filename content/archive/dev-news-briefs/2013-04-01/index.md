@@ -75,8 +75,8 @@ The new release process works as such:
 
 1. The Galaxy source repository now contains two branches:
 
-  * `stable` is committed to regularly and contains important bugfixes.
-  * `default` is committed to regularly and contains new features as well as fixes merged from `stable`.
+* `stable` is committed to regularly and contains important bugfixes.
+* `default` is committed to regularly and contains new features as well as fixes merged from `stable`.
 
 1. Every two months, `stable` will be updated with new features from default and a specific distribution release version will be tagged.
 1. The two weeks prior to the release will be focused on fixing bugs found in the targeted upcoming release. New features will not be considered for inclusion in the upcoming release during this time.
@@ -100,7 +100,7 @@ The process for upgrading to this release should be:
 1. Stop and permanently disable the `manager` process, as there is no longer a dedicated process for assigning job handlers (it is done at the time of job creation).
 1. Create a ` `job_conf.xml` ` ( most easily done by starting with the provided ` `job_conf.xml.sample_advanced` `).
 
-  * When defining ` `<plugin>` ` tags, the ` `id` ` attribute must match the URL scheme for any jobs currently running which you want to recover.  For example, jobs running via ` `pbs:///` ` will be recovered by the plugin with id ` `pbs` `.  Likewise for ` `drmaa:///` ` and the ` `drmaa` ` plugin.
+* When defining ` `<plugin>` ` tags, the ` `id` ` attribute must match the URL scheme for any jobs currently running which you want to recover.  For example, jobs running via ` `pbs:///` ` will be recovered by the plugin with id ` `pbs` `.  Likewise for ` `drmaa:///` ` and the ` `drmaa` ` plugin.
 
 1. Restart handler(s) (preferably one at a time) and watch the logs.  Warnings about using the deprecated ` set_runner() ` function can be ignored as this is part of the process of converting jobs from URLs to destinations upon first startup.
 
@@ -162,14 +162,14 @@ This is last Galaxy distribution that will support Python 2.5. Follow the ticket
 An abstracted interface has been created for the data manager to download, generate, or otherwise procure locally cached data for use in analyses. For details about implementation, please see the following Trello tickets.
 
 * In Galaxy:
-  * https://trello.com/c/Rport5vq
-  * https://trello.com/c/5NlsdGsr
-  * https://trello.com/c/Xaddebyn
-  * https://trello.com/c/fbIPwLJz
-  * https://trello.com/c/yAZRrZHj
+    * https://trello.com/c/Rport5vq
+    * https://trello.com/c/5NlsdGsr
+    * https://trello.com/c/Xaddebyn
+    * https://trello.com/c/fbIPwLJz
+    * https://trello.com/c/yAZRrZHj
 * Integration with the Tool Shed:
-  * https://trello.com/c/nDZB3l78
-  * https://trello.com/c/lHwb1m0O
+    * https://trello.com/c/nDZB3l78
+    * https://trello.com/c/lHwb1m0O
 
 <br />
 # Tool Shed
@@ -252,7 +252,7 @@ http://usegalaxy.org/cloud
 
 1. Condor introduced: [HTCondor](http://wiki.galaxyproject.org/CloudMan/HTCondor) https://trello.com/c/te1UVkam
 
-  * Condor will allow federation of clusters, at first with manual configuration.
+* Condor will allow federation of clusters, at first with manual configuration.
 
 <br />
 # Workflows
@@ -272,7 +272,7 @@ http://usegalaxy.org/cloud
 1. "Select all" jobs in admin menu https://trello.com/c/Sc975x1l
 1. Allow old-style external display applications to be disabled https://trello.com/c/9dgk1VSl
 
-  * related improvements pending: https://trello.com/c/uIctksud
+* related improvements pending: https://trello.com/c/uIctksud
 
 <br />
 # Source

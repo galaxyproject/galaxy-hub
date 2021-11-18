@@ -5,30 +5,30 @@
 
 Related topics
   
-  *  [Downloading Data](/support/download-data/)
-  *  [Load into a Data Library (Admin)](/data-libraries/)
-  *  [Local Galaxy? Configure FTP Upload (Admin)](/admin/config/#ftp)
+*  [Downloading Data](/support/download-data/)
+*  [Load into a Data Library (Admin)](/data-libraries/)
+*  [Local Galaxy? Configure FTP Upload (Admin)](/admin/config/#ftp)
 
 Tutorials
 
-  * [Galaxy Training Network (GTN)](https://training.galaxyproject.org/): [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
+* [Galaxy Training Network (GTN)](https://training.galaxyproject.org/): [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
 
 # Loading Data
 
 ## Video Tutorials
 
- * Quick help: [**Manupulating NGS data with Galaxy: Getting Data In**](/tutorials/ngs/#getting-ngs-data-in)
- * Full tutorial: [**Uploading data into Galaxy**](/tutorials/upload/)
- * Dataset Collections, including creation during Upload: [**Processing many samples at once with collections**](https://galaxyproject.org/tutorials/collections/)
- * FTP/FTPS tutorial: [**FTP Upload**](/ftp-upload/)
+* Quick help: [**Manupulating NGS data with Galaxy: Getting Data In**](/tutorials/ngs/#getting-ngs-data-in)
+* Full tutorial: [**Uploading data into Galaxy**](/tutorials/upload/)
+* Dataset Collections, including creation during Upload: [**Processing many samples at once with collections**](https://galaxyproject.org/tutorials/collections/)
+* FTP/FTPS tutorial: [**FTP Upload**](/ftp-upload/)
 
 ## GTN Tutorials
 
 Most tutorials from the [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) include one or more data upload steps.
 
- * Start with this tutorial, section "Getting Data In", for a quick overview: [NGS Logistics](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html)
- * Advanced **Upload** methods are covered in the tutorial topic group [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
- * All Tutorials: https://training.galaxyproject.org/
+* Start with this tutorial, section "Getting Data In", for a quick overview: [NGS Logistics](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-ngs-data-managment/tutorial.html)
+* Advanced **Upload** methods are covered in the tutorial topic group [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
+* All Tutorials: https://training.galaxyproject.org/
 
 ## Supplimental Step-by-Step
 
@@ -52,8 +52,8 @@ Data is loaded using the tools in the _**Get Data**_ tool group. Some access spe
 *   Search for your data directly in the tool and use the Galaxy links
 *   There are a few links, so [which data do I load?](/support/ebi-sra-data-load/)
 *   Be sure to check your sequence data for correct quality score formats and the metadata "datatype" assignment.
-  * [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
-  * [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)
+* [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
+* [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)
 
 ### Get Data: Upload tool used with FTP
 

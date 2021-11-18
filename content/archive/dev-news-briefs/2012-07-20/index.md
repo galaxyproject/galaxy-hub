@@ -65,19 +65,19 @@ Several changes made in in determining errors from tool exit codes and output.  
 [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/)
 
 * **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements:
-  * use **Bowtie2** build
-  * add option to report discordant pairs
-  * update tests
-  * add **Bowtie2** preset options
+    * use **Bowtie2** build
+    * add option to report discordant pairs
+    * update tests
+    * add **Bowtie2** preset options
 
 <br />
 # User Interface (UI)
 
 * *Enhancements*
-  * Full integration with **[myExperiment](http://www.myexperiment.org)** website. Galaxy workflows can be
-    * exported from Galaxy to **myExperiment** and
-    * searched and imported from myExperiment website
-  * Support for genomes as first-class objects
+    * Full integration with **[myExperiment](http://www.myexperiment.org)** website. Galaxy workflows can be
+        * exported from Galaxy to **myExperiment** and
+        * searched and imported from myExperiment website
+    * Support for genomes as first-class objects
 
 <br />
 # Galaxy Track Browser (GTB)
@@ -93,8 +93,8 @@ Several changes made in in determining errors from tool exit codes and output.  
 [Tool Shed](/toolshed/)
 
 * *Enhancements*
-  * The tool shed's category grid is now displayed when searching and browsing tool sheds from a local Galaxy instance.
-  * This category grid's search feature searches valid repository names and descriptions when browsing a tool shed from Galaxy.
+    * The tool shed's category grid is now displayed when searching and browsing tool sheds from a local Galaxy instance.
+    * This category grid's search feature searches valid repository names and descriptions when browsing a tool shed from Galaxy.
 * Going forward from this Galaxy release, the main Galaxy tool shed will track the Galaxy releases and the galaxy-dist repository on bitbucket.
 
 <br />

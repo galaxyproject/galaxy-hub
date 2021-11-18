@@ -358,7 +358,7 @@ And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
 * From [John Chilton](/people/john-chilton/):
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+    * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 ## And the rest ...
 
@@ -370,6 +370,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 # Other News
 
 * From [Stephan Nothjunge](https://twitter.com/@StephNoth):
-  * Galaxy is a *computational milestone,* according to [DNA sequencing at 40: past, present and future](https://www.nature.com/nature/journal/vaop/ncurrent/full/nature24286.html) by Shendure et al.
+    * Galaxy is a *computational milestone,* according to [DNA sequencing at 40: past, present and future](https://www.nature.com/nature/journal/vaop/ncurrent/full/nature24286.html) by Shendure et al.
 * [Five years of Galaxy-P presentations and posters](http://galaxyp.org/conference-presentations/)
   

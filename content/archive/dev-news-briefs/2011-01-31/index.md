@@ -35,7 +35,7 @@ date: 2011-01-31
 * Workflow parameters are a new feature we've added to simplify reuse of workflows, and to allow for easier variation of parameters when re-running a workflow.  
 * Instead of filling in explicit values when building a workflow, you can now use flexible parameters.  To specify a workflow parameter, simply use a tag like ${my_variable_name} in any tool input field or in a rename dataset action field.  
 * The workflow shown below has two parameters, as shown in the Workflow Parameters display in the top right of the editor window.  You can see the ${filter_condition} parameter in the right panel in both the tool input and the rename action.  
-  * Note that while this ${filter_condition} is only used in a single step in this simple demo workflow, variables can be used across steps.
+    * Note that while this ${filter_condition} is only used in a single step in this simple demo workflow, variables can be used across steps.
       *example:* Parameters
 
      ![](/archive/dev-news-briefs/2011-01-31/2011_01_31_workflow_params_1.png)
@@ -105,19 +105,19 @@ These components are under rapid development and interfaces *should be considere
 * SAM metadata detection and setting sped up dramatically upon import.
 * Wig-to-bigWig converter tool default parameters now same as UCSC's.
 * Cufflinks tool suite updates:
-  * Update Cufflinks tool suite wrappers to support v0.9.3.
-  * Add support for bias correction to Cufflinks and Cuffdiff; bias correction improves transcript quantitation results (FPKM values).
-  * Enable Cuffcompare to use sequence data so that it can generate data for use by Cuffdiff. Cuffcompare uses sam_fa_indices.loc to find locally cached genome sequence data and indices that are needed for this option.
-  * Add normalization support to Cufflinks and Cuffdiff and replicate support for cuffdiff.
+    * Update Cufflinks tool suite wrappers to support v0.9.3.
+    * Add support for bias correction to Cufflinks and Cuffdiff; bias correction improves transcript quantitation results (FPKM values).
+    * Enable Cuffcompare to use sequence data so that it can generate data for use by Cuffdiff. Cuffcompare uses sam_fa_indices.loc to find locally cached genome sequence data and indices that are needed for this option.
+    * Add normalization support to Cufflinks and Cuffdiff and replicate support for cuffdiff.
 
 ### New Tools
 
 * BED-to-bigBed converter tool now under "Convert Formats".
-  * Converts sorted BED files into UCSC's bigBed format.
-  * Requires bedToBigBed in PATH.
+    * Converts sorted BED files into UCSC's bigBed format.
+    * Requires bedToBigBed in PATH.
 * BLAST+ tools are now commented in tool_conf.xml.sample.  
-  * Not in Galaxy main, for local instance use.
-  * If you run the BLAST+ tools at your site, please be sure to uncomment them if updating to the latest tool_conf.xml.sample (will be default at next update).
+    * Not in Galaxy main, for local instance use.
+    * If you run the BLAST+ tools at your site, please be sure to uncomment them if updating to the latest tool_conf.xml.sample (will be default at next update).
 * Add SAMtools flagstat tool.
 * Add CCAT ChIP-seq peak/region caller.
 * Add BWA wrapper for SOLiD.
@@ -127,13 +127,13 @@ These components are under rapid development and interfaces *should be considere
 * Estimated size is now displayed for very large text-based (non-binary) datasets.
 * Always show Galaxy masthead and enable Saved Histories to work with and without panels.
 * New "Copy Datasets" link added under History Options dropdown.
-  * Dataset and history IDs are now encoded.
-  * JS dropdown used to change source history, so you no longer have to switch desired source history to be "active".
-  * Remove link in "edit attributes" of datasets.
-  * Simplified destination interface by using a single select box by default, but also providing a link to show checkboxes for multiple destination histories.
-  * Use newly imported Inflector library to get correct plural/singular nouns on actions.
-  * Added arrow between source and destination.
-  * Removed checkbox for copying to a new history. Instead, create new history if new history field is not blank.
+    * Dataset and history IDs are now encoded.
+    * JS dropdown used to change source history, so you no longer have to switch desired source history to be "active".
+    * Remove link in "edit attributes" of datasets.
+    * Simplified destination interface by using a single select box by default, but also providing a link to show checkboxes for multiple destination histories.
+    * Use newly imported Inflector library to get correct plural/singular nouns on actions.
+    * Added arrow between source and destination.
+    * Removed checkbox for copying to a new history. Instead, create new history if new history field is not blank.
 
 ### Data Libraries
 
@@ -143,14 +143,14 @@ These components are under rapid development and interfaces *should be considere
 
 * Add bigWig display to trackster. Automatically converts wig to bigwig if needed (NOTE: datatypes_conf.xml.sample has been edited to add the new converter, you must update datatypes_conf.xml to use it). The converter requires that wigToBigWig be in the PATH, but no other tools are needed to view bigwig files as they are provided by bx_python.
 * Tuning
-  * Fix track preferences not being applied
-  * Fix chroms not being selectable when a new track browser is created
-  * Fix ReferenceTrack not working with filters
-  * Fix visual analytics error when tool configuration has changed
-  * Fix visualization saving on Chrome by using $.each instead of for loop
-  * Fix shared visualizations
-  * Fix tracks fetching from data provider when indexer returned None, and when
-  * Fix BAM reads without cigar string.
+    * Fix track preferences not being applied
+    * Fix chroms not being selectable when a new track browser is created
+    * Fix ReferenceTrack not working with filters
+    * Fix visual analytics error when tool configuration has changed
+    * Fix visualization saving on Chrome by using $.each instead of for loop
+    * Fix shared visualizations
+    * Fix tracks fetching from data provider when indexer returned None, and when
+    * Fix BAM reads without cigar string.
 
 ### Sample Tracking
 
@@ -161,10 +161,10 @@ These components are under rapid development and interfaces *should be considere
 * Version info is now printed in history item for Bowtie, BWA, Lastz, TopHat, Samtools, Cuffdif, Cufflinks, Cuffcompare, BFAST, and PerM.
 * Turn off web browser auto-complete for tool search (includes workflows).
 * Grid changes resulting in better readability:
-  * Better page number display.
-  * Use "~" instead of "about", so "about 2 hours ago" -> "~ 2 hours ago".
-  * Cell padding decreased.
-  * Added new "nowrap" parameter to prevent text from being wrapped. Currently only used for tags to prevent "X tags" from wrapping in the middle.
+    * Better page number display.
+    * Use "~" instead of "about", so "about 2 hours ago" -> "~ 2 hours ago".
+    * Cell padding decreased.
+    * Added new "nowrap" parameter to prevent text from being wrapped. Currently only used for tags to prevent "X tags" from wrapping in the middle.
 
 ### Application Programming Interface (API)
 

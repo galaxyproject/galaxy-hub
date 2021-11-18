@@ -45,13 +45,13 @@ See the [Basics Session](/events/admin-training2016/basics-session/) page for de
 The [three day advanced session](/events/admin-training2016/advanced-session/) will build on topics covered in the [basics section](/events/admin-training2016/basics-session/).  Topics covered include
 
 * Advanced tool definition:
-  * collections
-  * error handling
-  * tests
-  * data types
-  * data sources
-  * visualizations
-  * data managers
+    * collections
+    * error handling
+    * tests
+    * data types
+    * data sources
+    * visualizations
+    * data managers
 * Interactive environments: development and deployment
 * Automating your deployment with Ansible
 * Using and configuring external authentication services

@@ -281,26 +281,26 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 <div class='right solid'><a href='http://www.climb.ac.uk/'><img src="/images/logos/mrc-climb-logo.png" alt="MRC CLIMB (Cloud infrastructure for Microbial Bioinformatics" width="300" /></a></div>
 
 * *Links:*
-  * **[CLIMB Home](http://www.climb.ac.uk/)**
-  * [Request a CLIMB account](https://bryn.climb.ac.uk/user/register/)
-  * [Login](https://bryn.climb.ac.uk/)
+    * **[CLIMB Home](http://www.climb.ac.uk/)**
+    * [Request a CLIMB account](https://bryn.climb.ac.uk/user/register/)
+    * [Login](https://bryn.climb.ac.uk/)
 * *Eligibility:*
-  *  To register for a CLIMB group account, you must:
+    *  To register for a CLIMB group account, you must:
     * Be a UK academic or public sector worker working on microbial genomics
     * Run your own research group (i.e. be a principal investigator)
     * Have a .ac.uk (or .gov.uk or .nhs.uk email account)
     * Agree to our service terms and conditions
 * *Comments:*
-  * The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) develops and deploys a world leading cyber-infrastructure for microbial bioinformatics; providing free cloud-based compute, storage, and analysis tools for academic microbiologists in the UK.
-  * The project is supported by three world class Medical Research Fellows, a comprehensive training program and two newly refurbished Bioinformatics facilities in both Warwick and Swansea.
-  * The Galaxy component of CLIMB is based on GVL. CloudBridge, and CloudMan infrastructure.
+    * The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) develops and deploys a world leading cyber-infrastructure for microbial bioinformatics; providing free cloud-based compute, storage, and analysis tools for academic microbiologists in the UK.
+    * The project is supported by three world class Medical Research Fellows, a comprehensive training program and two newly refurbished Bioinformatics facilities in both Warwick and Swansea.
+    * The Galaxy component of CLIMB is based on GVL. CloudBridge, and CloudMan infrastructure.
 * *User Support:*
-  * [CLIMB Community](https://discourse.climb.ac.uk/)
-  * [Training](http://www.climb.ac.uk/training/)
+    * [CLIMB Community](https://discourse.climb.ac.uk/)
+    * [Training](http://www.climb.ac.uk/training/)
 * *Quotas:*
 * *Sponsor(s):*
-  * The CLIMB project is a collaboration between Warwick, Birmingham, Cardiff and Swansea Universities.
-  * CLIMB is funded by the UK’s [Medical Research Council](https://www.mrc.ac.uk/).
+    * The CLIMB project is a collaboration between Warwick, Birmingham, Cardiff and Swansea Universities.
+    * CLIMB is funded by the UK’s [Medical Research Council](https://www.mrc.ac.uk/).
 
 
 ## New Public Galaxy Servers
@@ -310,21 +310,21 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 <div class='right solid'><a href='https://bioinf-galaxian.erasmusmc.nl/argalaxy/'><img src="/use/archive/argalaxy/argalaxy-logo.png" alt="Antigen Receptor Galaxy" width="300" /></a></div>
 
 * *Link:*
-  * [Antigen Receptor Galaxy (ARGalaxy)](https://bioinf-galaxian.erasmusmc.nl/argalaxy/)
+    * [Antigen Receptor Galaxy (ARGalaxy)](https://bioinf-galaxian.erasmusmc.nl/argalaxy/)
 * *Domain/Purpose:*
-  * Automate the analysis and visual reporting of T- and B-cell receptor repertoire sequencing data.
+    * Automate the analysis and visual reporting of T- and B-cell receptor repertoire sequencing data.
 * *Comments:*
-  * Consists of four parts: the demultiplex tool, the IMGT concatenate tool, the immune repertoire pipeline and the SHM&CSR pipeline. Together they allow the analysis of all different aspects of the immune repertoire. All pipelines can be run independently or combined, dependent on the available data and the question of interest
-    * The demultiplex tool allows data trimming and demultiplexing of samples
-    * The concatenate tool allows the merging of multiple IMGT/HighV-QUEST output files into a single file.
-    * The immune repertoire pipeline allows analysis of both B- and T-cell receptor rearrangements and was developed to visualize V(D)J gene usage, CDR3 characteristics (length and amino acid usage), junction characteristics and calculate the diversity of the immune repertoire.
-    * The SHM&CSR pipeline allows analysis of somatic hypermutations (SHM) and/or class switch recombination (CSR) in B-cell receptor rearrangements. It analyzes the frequency and patterns of SHM, antigen selection (including BASELINe), clonality (Change-O) and CSR.
+    * Consists of four parts: the demultiplex tool, the IMGT concatenate tool, the immune repertoire pipeline and the SHM&CSR pipeline. Together they allow the analysis of all different aspects of the immune repertoire. All pipelines can be run independently or combined, dependent on the available data and the question of interest
+        * The demultiplex tool allows data trimming and demultiplexing of samples
+        * The concatenate tool allows the merging of multiple IMGT/HighV-QUEST output files into a single file.
+        * The immune repertoire pipeline allows analysis of both B- and T-cell receptor rearrangements and was developed to visualize V(D)J gene usage, CDR3 characteristics (length and amino acid usage), junction characteristics and calculate the diversity of the immune repertoire.
+        * The SHM&CSR pipeline allows analysis of somatic hypermutations (SHM) and/or class switch recombination (CSR) in B-cell receptor rearrangements. It analyzes the frequency and patterns of SHM, antigen selection (including BASELINe), clonality (Change-O) and CSR.
 * *User Support:*
-  * Contact [David van Zessen](mailto:d.vanzessen@erasmusmc.nl)
+    * Contact [David van Zessen](mailto:d.vanzessen@erasmusmc.nl)
 * *Quotas:*
-  * Account creation required.  Anyone can create an account.
+    * Account creation required.  Anyone can create an account.
 * *Sponsor(s):*
-  * Departments of [Immunology](https://www.erasmusmc.nl/immunologie/?lang=en) and [Bioinformatics](https://www.erasmusmc.nl/bioinformatica/?lang=en) at [Erasmus MC](https://www.erasmusmc.nl/).
+    * Departments of [Immunology](https://www.erasmusmc.nl/immunologie/?lang=en) and [Bioinformatics](https://www.erasmusmc.nl/bioinformatica/?lang=en) at [Erasmus MC](https://www.erasmusmc.nl/).
 
 <!--
 
@@ -453,10 +453,10 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 * [Guardians of the Galaxy Workflow](http://gigasciencejournal.com/blog/guardians-of-the-galaxy-workflow/)
 * A nice writeup from [Scott Edmunds](http://gigasciencejournal.com/blog/author/scottedmunds/) about the [*GigaScience* Galaxy Series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research) (now on it's 12th paper) and GCC2017.  *[GigaScience](https://academic.oup.com/gigascience)* is a returning GCC sponsor this year and submissions relating to talks and posters at GCC2017 will be eligible for a continuing 15% discount.
 * From [Björn Grüning](/people/bjoern-gruening/)
-  * Are you interested in #RNA #Bioinformatics? Try our new community maintained [RNA Workbench](http://bgruening.github.io/galaxy-rna-workbench/)
+    * Are you interested in #RNA #Bioinformatics? Try our new community maintained [RNA Workbench](http://bgruening.github.io/galaxy-rna-workbench/)
 * From [Peter Briggs](https://twitter.com/ironic_cog):
-  * [Galactic Engineer: Securing Galaxy with HTTPS running with Nginx using Let’s Encrypt](http://galacticengineer.blogspot.co.uk/2017/04/securing-galaxy-with-https-running-with.html)
+    * [Galactic Engineer: Securing Galaxy with HTTPS running with Nginx using Let’s Encrypt](http://galacticengineer.blogspot.co.uk/2017/04/securing-galaxy-with-https-running-with.html)
 * The [Galaxy-P Project has a brand new website](http://galaxyp.org/).
 * A new [comprehensive ChIP-seq tutorial is available](/tutorials/chip/) using DeepTools, MACS2, and MEME.
 * From Nathan Bott
-  * [Galaxy: A Workflow Management System for Modern Life Sciences Research](http://emergingtechblog.emc.com/galaxy-workflow-management-system-modern-life-sciences-research/) - [EMC Emerging Tech Blog](http://emergingtechblog.emc.com/)
+    * [Galaxy: A Workflow Management System for Modern Life Sciences Research](http://emergingtechblog.emc.com/galaxy-workflow-management-system-modern-life-sciences-research/) - [EMC Emerging Tech Blog](http://emergingtechblog.emc.com/)

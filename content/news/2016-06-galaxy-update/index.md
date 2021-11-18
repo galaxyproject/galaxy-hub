@@ -10,15 +10,15 @@ date: "2016-06-01"
 Some highlights from the **[June Galaxy News](/galaxy-updates/2016-06/)**
 
 * **[GCC2016](/galaxy-updates/2016-06/#gcc2016) News**
-  * **[Complete schedule is online](/galaxy-updates/2016-06/#complete-schedule-online)**
-  * **[Register by June 4](/galaxy-updates/2016-06/#registration-june-4)**
-  * [You can still submit a poster](/galaxy-updates/2016-06/#posters-there-is-still-space)
-  * [GCC2016 Opening Reception](/galaxy-updates/2016-06/#opening-reception-added) added
-  * Please welcome new GCC sponsor: **[Bloomington Life Sciences Partnership](/galaxy-updates/2016-06/#bloomington-life-sciences-partnership)**.
+    * **[Complete schedule is online](/galaxy-updates/2016-06/#complete-schedule-online)**
+    * **[Register by June 4](/galaxy-updates/2016-06/#registration-june-4)**
+    * [You can still submit a poster](/galaxy-updates/2016-06/#posters-there-is-still-space)
+    * [GCC2016 Opening Reception](/galaxy-updates/2016-06/#opening-reception-added) added
+    * Please welcome new GCC sponsor: **[Bloomington Life Sciences Partnership](/galaxy-updates/2016-06/#bloomington-life-sciences-partnership)**.
 * [Other Upcoming Events](/galaxy-updates/2016-06/#upcoming-events):
-  * [Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data Workshop @ UC Davis](/galaxy-updates/2016-06/#using-galaxy-for-analysis-of-rna-seq-and-chip-seq-data)
-  * [GalaxyAdmins June Meetups](/galaxy-updates/2016-06/#galaxyadmins-june-meetups)
-  * [All June, July, and August Events](/galaxy-updates/2016-06/#june-july-and-august-events)
+    * [Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data Workshop @ UC Davis](/galaxy-updates/2016-06/#using-galaxy-for-analysis-of-rna-seq-and-chip-seq-data)
+    * [GalaxyAdmins June Meetups](/galaxy-updates/2016-06/#galaxyadmins-june-meetups)
+    * [All June, July, and August Events](/galaxy-updates/2016-06/#june-july-and-august-events)
 * [Papers](/galaxy-updates/2016-06/#new-papers) (76 of them, 4 highlighted)
 * [Open positions](/galaxy-updates/2016-06/#whos-hiring) (5 of them)
 * New [Semi-Public Galaxy Servers Directory](/galaxy-updates/2016-06/#new-semi-public-galaxy-servers-directory) and new [Commercial Support Directory](/galaxy-updates/2016-06/#new-commercial-support-directory)

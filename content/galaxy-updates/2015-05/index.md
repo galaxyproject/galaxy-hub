@@ -398,17 +398,17 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right solid'><a href='http://rgv.genouest.org/galaxy/'><img src="/public-galaxy-servers/archive/repro-genomics-viewer.png" alt="The ReproGenomics Viewer"  /></a></div>
 
 * *Link:*
-  * [The ReproGenomics Viewer working environment](http://rgv.genouest.org/galaxy/)
-  * [The ReproGenomics Viewer: an integrative cross-species toolbox for the reproductive science community](http://bit.ly/1PZFfgV), by Thomas A. Darde, Olivier Sallou, Emmanuelle Becker, Bertrand Evrard, Cyril Monjeaud, Yvan Le Bras, Bernard Jégou, Olivier Collin, Antoine D. Rolland and Frédéric Chalmel1; *Nucleic Acids Research* (2015) doi: 10.1093/nar/gkv345
-  * [The ReproGenomics Viewer project home page](http://rgv.genouest.org/)
+    * [The ReproGenomics Viewer working environment](http://rgv.genouest.org/galaxy/)
+    * [The ReproGenomics Viewer: an integrative cross-species toolbox for the reproductive science community](http://bit.ly/1PZFfgV), by Thomas A. Darde, Olivier Sallou, Emmanuelle Becker, Bertrand Evrard, Cyril Monjeaud, Yvan Le Bras, Bernard Jégou, Olivier Collin, Antoine D. Rolland and Frédéric Chalmel1; *Nucleic Acids Research* (2015) doi: 10.1093/nar/gkv345
+    * [The ReproGenomics Viewer project home page](http://rgv.genouest.org/)
 * *Domain/Purpose:*
-  * "The ReproGenomics Viewer (RGV) is a cross-species genomic toolbox for the reproductive community. The system is based on the implementation of a JBrowse genome browser and a Galaxy bioinformatics workflow environment. It was developed to provide a one-stop genomic working environment and aims to assist scientists in the analysis and the mining of a wide range of high-throughput repro-genomics data, including sequencing data.<br /><br />RGV allows hosting, visualization, and direct comparison of users’ data to published genomics studies as well as to relevant genetic variations linked to reproduction. One way it does this is by enabling various genomic file format conversions.<br /><br />The ReproGenomics Viewer currently hosts datasets that are oriented mainly towards testis biology and spermatogenesis. In the near future, these will extend to other areas of reproduction, including gonad development, urogenital cancers, and reproductive toxicology."
+    * "The ReproGenomics Viewer (RGV) is a cross-species genomic toolbox for the reproductive community. The system is based on the implementation of a JBrowse genome browser and a Galaxy bioinformatics workflow environment. It was developed to provide a one-stop genomic working environment and aims to assist scientists in the analysis and the mining of a wide range of high-throughput repro-genomics data, including sequencing data.<br /><br />RGV allows hosting, visualization, and direct comparison of users’ data to published genomics studies as well as to relevant genetic variations linked to reproduction. One way it does this is by enabling various genomic file format conversions.<br /><br />The ReproGenomics Viewer currently hosts datasets that are oriented mainly towards testis biology and spermatogenesis. In the near future, these will extend to other areas of reproduction, including gonad development, urogenital cancers, and reproductive toxicology."
 * *Comments:*
 * *User Support:*
-  * [Email](mailto:support@genouest.org)
+    * [Email](mailto:support@genouest.org)
 * *Quotas:*
 * *Sponsor(s):*
-  * [INSERM](http://www.inserm.fr), [IRSET](http://www.irset.fr), [FRM](http://www.frm.fr), [ANSES](http://www.anses.fr), [Biogenouest](http://www.biogenouest.org), [IRISA](http://www.irisa.fr), [INRIA](http://www.inria.fr/), [CNRS](http://www.cnrs.fr/), [Université de Rennes 1](http://www.univ-rennes1.fr/), [Région Bretagne](http://www.bretagne.fr/), FEDER]]
+    * [INSERM](http://www.inserm.fr), [IRSET](http://www.irset.fr), [FRM](http://www.frm.fr), [ANSES](http://www.anses.fr), [Biogenouest](http://www.biogenouest.org), [IRISA](http://www.irisa.fr), [INRIA](http://www.inria.fr/), [CNRS](http://www.cnrs.fr/), [Université de Rennes 1](http://www.univ-rennes1.fr/), [Région Bretagne](http://www.bretagne.fr/), FEDER]]
 
 ----
 

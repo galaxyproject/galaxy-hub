@@ -27,8 +27,8 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 ## Who's Hiring
 
 * [Galaxy is Hiring](/news/Galaxy is Hiring/)
-  * system administrators at Penn State
-  * software engineers and post-docs at Emory
+    * system administrators at Penn State
+    * software engineers and post-docs at Emory
 * [Bioinformatics Support Provider](http://bit.ly/w6OIM0) with Galaxy experience @ [Wellcome Trust Centre for Cell Biology, University of Edinburgh](http://www.wcb.ed.ac.uk/)
 
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll include it in next month's update.

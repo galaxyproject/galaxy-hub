@@ -257,12 +257,12 @@ The most recent Galaxy distribution was [released on July 20, 2012](/archive/dev
 
 * [blend4j](https://github.com/jmchilton/blend4j) - a Java library for interacting with the API.
 * Two new tutorials from [Paul-Michael Agapow](http://www.agapow.net/):
-  * [Upgrading Galaxy](http://www.agapow.net/science/bioinformatics/galaxy/upgrading-galaxy)
-  * [Setting up a Galaxy toolshed](http://www.agapow.net/science/bioinformatics/galaxy/setting-up-a-galaxy-toolshed)
+    * [Upgrading Galaxy](http://www.agapow.net/science/bioinformatics/galaxy/upgrading-galaxy)
+    * [Setting up a Galaxy toolshed](http://www.agapow.net/science/bioinformatics/galaxy/setting-up-a-galaxy-toolshed)
 * [Ntino Krampis BioTechniques interview](http://www.biotechniques.com/multimedia/podcasts/#.UD6V2VTYNUO) on doing bioinformatics on the cloud, including CloudMan.
 * [Jeremy Goecks](/people/jeremy-goecks/) updated his [RNA-seq Analysis Exercise Galaxy Page](https://usegalaxy.org/u/jeremy/p/galaxy-rna-seq-analysis-exercise) to cover quality control through CuffDiff: paired-end data, iGenomes gtf, answer key, and bonus resources
 * [Slides and videos](http://bit.ly/QGxVJU) for the Iowa Initiative in Human Genetics [Bioinformatics Course](http://bit.ly/QGxVJU)
 * A few summaries of the recent [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) have been posted online:
-  * Peter Li's [GigaBlog post](http://blogs.biomedcentral.com/gigablog/2012/08/06/enabling-bioinformatics-tools-to-smoke-the-peace-pipe-together/)
-  * Brad Chapman's [day 1](http://chapmanb.posterous.com/galaxy-developer-conference-day-1) and [day 2](http://chapmanb.posterous.com/galaxy-community-conference-2012-notes-from-d-90717) summaries.
-  * Slides for [all workshops and talks](/events/gcc2012/program/) are now available.
+    * Peter Li's [GigaBlog post](http://blogs.biomedcentral.com/gigablog/2012/08/06/enabling-bioinformatics-tools-to-smoke-the-peace-pipe-together/)
+    * Brad Chapman's [day 1](http://chapmanb.posterous.com/galaxy-developer-conference-day-1) and [day 2](http://chapmanb.posterous.com/galaxy-community-conference-2012-notes-from-d-90717) summaries.
+    * Slides for [all workshops and talks](/events/gcc2012/program/) are now available.

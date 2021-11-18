@@ -12,10 +12,10 @@ Uploading data into Galaxy can be done in number of ways summarized in the follo
 
 The general "best practice approach" is this:
 
-  - if you have just a few small (< 100 MB) datasets stored on your computer &#8594; use the **Local file upload**
-  - if you have large files (> 100 MB) &#8594; use **FTP upload**
-  - if you have many files (> 10) &#8594; use **FTP upload**
-  - if datasets you are uploading have been deposited to SRA &#8594; use **SRA upload**
+- if you have just a few small (< 100 MB) datasets stored on your computer &#8594; use the **Local file upload**
+- if you have large files (> 100 MB) &#8594; use **FTP upload**
+- if you have many files (> 10) &#8594; use **FTP upload**
+- if datasets you are uploading have been deposited to SRA &#8594; use **SRA upload**
 
 ## Local file upload
 

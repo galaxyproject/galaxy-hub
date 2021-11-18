@@ -22,9 +22,9 @@ We will use RNA-seq data from a study published by *Wu et al.* in 2014 [DOI:10.1
 
 ## Key fact about this study:
 
- * TAL1 is a transcription factor essential for hematopoesis. It is critically needed for establishing hematopoetic stem cells during embryonic development and to differentiate between [erythroid](https://en.wikipedia.org/wiki/Red_blood_cell) and [myeloid](https://en.wikipedia.org/wiki/Myeloid) cell lineages, including those leading to megakaryocytes, mast cells, and eosinophils.
- * Some of the TAL1 molecules are components of multiprotein complexes that also include other transcriptional factors such as GATA-1.
- * By contrasting RNA from GATA-null G1E cells with that of megakaryocytes we can identify transcripts regulated by GATA-1 dependent TAL1.
+* TAL1 is a transcription factor essential for hematopoesis. It is critically needed for establishing hematopoetic stem cells during embryonic development and to differentiate between [erythroid](https://en.wikipedia.org/wiki/Red_blood_cell) and [myeloid](https://en.wikipedia.org/wiki/Myeloid) cell lineages, including those leading to megakaryocytes, mast cells, and eosinophils.
+* Some of the TAL1 molecules are components of multiprotein complexes that also include other transcriptional factors such as GATA-1.
+* By contrasting RNA from GATA-null G1E cells with that of megakaryocytes we can identify transcripts regulated by GATA-1 dependent TAL1.
 
 |      |
 |------|
@@ -56,18 +56,18 @@ In this tutorial, we will address:
 
 Due to the large size of this dataset, we have down-sampled it to only include reads mapping to chromosome 19 and certain loci with relevance to hematopoeisis. This data is available from two sources:
 
- * [Zenodo](https://zenodo.org/record/254485) (use these data on **any** Galaxy instance)
- * [Galaxy data library](https://usegalaxy.org/library/list#folders/F3481856ea042c39d) (use these data on **main** Galaxy server at http://usegalaxy.org).
+* [Zenodo](https://zenodo.org/record/254485) (use these data on **any** Galaxy instance)
+* [Galaxy data library](https://usegalaxy.org/library/list#folders/F3481856ea042c39d) (use these data on **main** Galaxy server at http://usegalaxy.org).
 
 ## Data organization and naming
 
 
 The data is structured in the following way:
 
- * There are two samples: G1E cells and megakaryocytes (`G1E` and `Mk`)
- * There are two *biological* replicates per sample: `R1` and `R2`
- * Each replicate has forward and reverse reads (`f` and `r`)
- * Thus, there are eight (8) fastq files
+* There are two samples: G1E cells and megakaryocytes (`G1E` and `Mk`)
+* There are two *biological* replicates per sample: `R1` and `R2`
+* Each replicate has forward and reverse reads (`f` and `r`)
+* Thus, there are eight (8) fastq files
 
 
 |      |
@@ -183,10 +183,10 @@ The quality score distributions we seen above for one sample are characteristic 
 
 Trimmomatic will produce four outputs as a result:
 
- * `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 paired)`
- * `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 paired)`
- * `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 unpaired)`
- * `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 uppaired)`
+* `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 paired)`
+* `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 paired)`
+* `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 unpaired)`
+* `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 uppaired)`
 
 The `unpaired` datasets we will no longer need in our analysis.
 
@@ -346,11 +346,11 @@ Spliced mappers have been developed to efficiently map transcript-derived reads 
 
 We will run HISAT with the following settings:
 
- * **Single end or paired reads?**: `Collection of paired reads`
- * **Source for the reference genome to align against**: `Use a built-in genome` > `Mouse (Mus Musculus): mm10`
- * **Spliced alignment parameters**: `Specify spliced alignment parameters`
- * **Specify strand-specific information**: `First Strand (R/RF)`
- * **Transcriptome assembly reporting**: `Report alignments tailored for transcript assemblers including StringTie.`
+* **Single end or paired reads?**: `Collection of paired reads`
+* **Source for the reference genome to align against**: `Use a built-in genome` > `Mouse (Mus Musculus): mm10`
+* **Spliced alignment parameters**: `Specify spliced alignment parameters`
+* **Specify strand-specific information**: `First Strand (R/RF)`
+* **Transcriptome assembly reporting**: `Report alignments tailored for transcript assemblers including StringTie.`
 
 |       |
 |-------|

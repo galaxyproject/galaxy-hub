@@ -15,9 +15,9 @@ Thanks and hope to see you there!
 ### When
 
 * **Mar 17 (Tuesday) only**
-  * **4PM to 7PM**
-  * **W203 Millennium Science Complex**
-  * <del>Based on your interest collected in the form linked below we will select the more popular or both of the terms and let you know via email.</del>
+    * **4PM to 7PM**
+    * **W203 Millennium Science Complex**
+    * <del>Based on your interest collected in the form linked below we will select the more popular or both of the terms and let you know via email.</del>
 * Refreshments and snacks will be available.
 
 ### Where

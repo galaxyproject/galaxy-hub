@@ -259,17 +259,17 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right solid'><a href='http://galaxy.vectorbase.org:8080/'><img src="/images/logos/VectorBaseLogoWithText.png" alt="VectorBase Galaxy" width=300 /></a></div>
 
 * *Link:*
-  * [Vectorbase Galaxy](http://galaxy.vectorbase.org:8080/)
+    * [Vectorbase Galaxy](http://galaxy.vectorbase.org:8080/)
 * *Domain/Purpose:*
-  * A full Galaxy server that includes reference information and workflows focusing on invertebrate vectors of human pathogens.
+    * A full Galaxy server that includes reference information and workflows focusing on invertebrate vectors of human pathogens.
 * *Comments:*
-  * from [VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases](http://nar.oxfordjournals.org/content/early/2014/12/15/nar.gku1117.full), Gloria I. Giraldo-Calderón *et al.*, *Nucleic Acids Ressearch* (2014) doi: 10.1093/nar/gku1117:
+    * from [VectorBase: an updated bioinformatics resource for invertebrate vectors and other organisms related with human diseases](http://nar.oxfordjournals.org/content/early/2014/12/15/nar.gku1117.full), Gloria I. Giraldo-Calderón *et al.*, *Nucleic Acids Ressearch* (2014) doi: 10.1093/nar/gku1117:
       "[VectorBase](http://vectorbase.org/) has also made available the latest relevant canonical data in this Galaxy instance. Examples of workflow analyses include alignment of Next Generation Sequence (NGS) data sets, calculation of expression values, or predicting single nucleotide polymorphisms (SNPs). Registered users can store their raw data, intermediate files and final analysis results for download or direct sharing via the BRC, which greatly improves the ability to collaborate with colleagues and VectorBase developers."
 * *User Support:*
-  * [VectorBase Help Hub Page](https://www.vectorbase.org/navigation/help)
-  * [VectorBase Help Desk](https://www.vectorbase.org/contact)
+    * [VectorBase Help Hub Page](https://www.vectorbase.org/navigation/help)
+    * [VectorBase Help Desk](https://www.vectorbase.org/contact)
 * *Sponsor(s):*
-  * The [University of Notre Dame](http://www.nd.edu/), [EMBL-EBI](http://www.ebi.ac.uk/), and [Imperial College London](http://www.imperial.ac.uk/)
+    * The [University of Notre Dame](http://www.nd.edu/), [EMBL-EBI](http://www.ebi.ac.uk/), and [Imperial College London](http://www.imperial.ac.uk/)
 
 # Galaxy Community Hubs
 
@@ -316,16 +316,16 @@ In no particular order:
 ### Tools
 
 * *From [rnateam](https://toolshed.g2.bx.psu.edu/view/rnateam):*
-  * [rnabob](https://toolshed.g2.bx.psu.edu/view/rnateam/rnabob): Fast pattern searching for RNA structural motifs RNABOB is an implementation of D. Gautheret's RNAMOT, but with a different underlying algorithm using a nondeterministic finite state machine with node rewriting rules.
+    * [rnabob](https://toolshed.g2.bx.psu.edu/view/rnateam/rnabob): Fast pattern searching for RNA structural motifs RNABOB is an implementation of D. Gautheret's RNAMOT, but with a different underlying algorithm using a nondeterministic finite state machine with node rewriting rules.
 
 * *From [schang](https://toolshed.g2.bx.psu.edu/view/schang):*
-  * [frp_tool](https://toolshed.g2.bx.psu.edu/view/schang/frp_tool): Scripts to create a fragment recruitment plot Python scripts using matlibplot to create scatter plots of metagenomic reads aligned against a reference genome.
+    * [frp_tool](https://toolshed.g2.bx.psu.edu/view/schang/frp_tool): Scripts to create a fragment recruitment plot Python scripts using matlibplot to create scatter plots of metagenomic reads aligned against a reference genome.
 
 * *From [subazini](https://toolshed.g2.bx.psu.edu/view/subazini):*
-  * [ngsaligners](https://toolshed.g2.bx.psu.edu/view/subazini/ngsaligners): NGS aligners Aligners for NGS sequence analysis
+    * [ngsaligners](https://toolshed.g2.bx.psu.edu/view/subazini/ngsaligners): NGS aligners Aligners for NGS sequence analysis
 
 * *From [mrvollger](https://toolshed.g2.bx.psu.edu/view/mrvollger):*
-  * [trtr](https://toolshed.g2.bx.psu.edu/view/mrvollger/trtr): Version 1.0. TRTR Trim Reads of Tandem Repeats. Recommended before calling SNPs. This tool removes tandem repeats from ends of unaligned sequencing reads (leaving one copy). This prevents reads that don't span the repeated region from overlapping, leading to innaccurate SNPs calls.
+    * [trtr](https://toolshed.g2.bx.psu.edu/view/mrvollger/trtr): Version 1.0. TRTR Trim Reads of Tandem Repeats. Recommended before calling SNPs. This tool removes tandem repeats from ends of unaligned sequencing reads (leaving one copy). This prevents reads that don't span the repeated region from overlapping, leading to innaccurate SNPs calls.
 
      The maximum repeat length is adjustable (use 1 to trim only homopolymers).
 
@@ -334,71 +334,71 @@ In no particular order:
      This could also be a useful first step before assembly. More testing needs to be done.
 
 * *From [wolma](https://toolshed.g2.bx.psu.edu/view/wolma):*
-  * [mimodd_fileinfo](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_fileinfo): use MiModD to explore metadata in various NGS file formats install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_bamsort](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_bamsort): use MiModD to sort a BAM file by coordinates (or names) of the mapped reads install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_deletion_prediction](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_deletion_prediction): use MiModD to predict deletions in one or more samples of aligned paired-end reads install this tool from the suite_mimodd_0_1_3 repository
-  * [mimodd_convert](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_convert): use MiModD to convert between NGS reads sequence formats install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_reheader](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_reheader): use MiModD to reheader a BAM file install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_vcf_filter](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_vcf_filter): use MiModD to extract lines from a vcf variant file based on sample- and field-specific filters install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_snpeff_genomes](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_snpeff_genomes): use MiModD to list installed SnpEff genomes install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_extract_variants](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_extract_variants): use MiModD to extract variant sites from BCF input generated with mimodd_variant_calling and report them in VCF install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_ngs_run_annotation](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_ngs_run_annotation): use MiModD to generate a SAM format header from an NGS run description install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_variant_calling](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_variant_calling): use MiModD to call variants from an aligned reads BAM file install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_coverage_stats](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_coverage_stats): use MiModD to obtain a coverage report for a bcf file generated with mimodd_variant_calling install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_cloudmap_prepare](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_cloudmap_prepare): use MiModD to generate CloudMap-compatible output from a vcf file install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_read_alignment](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_read_alignment): use MiModD to align NGS reads to a reference genome install this tool from the suite_mimodd_0_1_5 repository
-  * [mimodd_annotate_variants](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_annotate_variants): use MiModD to annotate a vcf variant file with information about the affected genes install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_fileinfo](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_fileinfo): use MiModD to explore metadata in various NGS file formats install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_bamsort](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_bamsort): use MiModD to sort a BAM file by coordinates (or names) of the mapped reads install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_deletion_prediction](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_deletion_prediction): use MiModD to predict deletions in one or more samples of aligned paired-end reads install this tool from the suite_mimodd_0_1_3 repository
+    * [mimodd_convert](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_convert): use MiModD to convert between NGS reads sequence formats install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_reheader](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_reheader): use MiModD to reheader a BAM file install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_vcf_filter](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_vcf_filter): use MiModD to extract lines from a vcf variant file based on sample- and field-specific filters install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_snpeff_genomes](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_snpeff_genomes): use MiModD to list installed SnpEff genomes install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_extract_variants](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_extract_variants): use MiModD to extract variant sites from BCF input generated with mimodd_variant_calling and report them in VCF install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_ngs_run_annotation](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_ngs_run_annotation): use MiModD to generate a SAM format header from an NGS run description install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_variant_calling](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_variant_calling): use MiModD to call variants from an aligned reads BAM file install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_coverage_stats](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_coverage_stats): use MiModD to obtain a coverage report for a bcf file generated with mimodd_variant_calling install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_cloudmap_prepare](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_cloudmap_prepare): use MiModD to generate CloudMap-compatible output from a vcf file install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_read_alignment](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_read_alignment): use MiModD to align NGS reads to a reference genome install this tool from the suite_mimodd_0_1_5 repository
+    * [mimodd_annotate_variants](https://toolshed.g2.bx.psu.edu/view/wolma/mimodd_annotate_variants): use MiModD to annotate a vcf variant file with information about the affected genes install this tool from the suite_mimodd_0_1_5 repository
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [cuffquant](https://toolshed.g2.bx.psu.edu/view/devteam/cuffquant): Cuffquant is part of Cufflinks. Cuffquant allows precalculation of gene expression levels. Output can be used in cuffdiff and cuffnorm.
-  * [bwa](https://toolshed.g2.bx.psu.edu/view/devteam/bwa): Uploaded Wrapper for bwa mem. aln, sampe, and samse Al collection of Galaxy bwa wrapper based on version 0.7.10 (039ea206392ada2542bc41ff2581c53fa2fe2bf2).
-  * [cuffnorm](https://toolshed.g2.bx.psu.edu/view/devteam/cuffnorm): Cuffnorm is part of Cufflinks. Cuffnorm is similar to cuffdiff, but does not perform differential expression testing. It provides normalized gene expression tables for use in downstream tools (R/matlab/...).
+    * [cuffquant](https://toolshed.g2.bx.psu.edu/view/devteam/cuffquant): Cuffquant is part of Cufflinks. Cuffquant allows precalculation of gene expression levels. Output can be used in cuffdiff and cuffnorm.
+    * [bwa](https://toolshed.g2.bx.psu.edu/view/devteam/bwa): Uploaded Wrapper for bwa mem. aln, sampe, and samse Al collection of Galaxy bwa wrapper based on version 0.7.10 (039ea206392ada2542bc41ff2581c53fa2fe2bf2).
+    * [cuffnorm](https://toolshed.g2.bx.psu.edu/view/devteam/cuffnorm): Cuffnorm is part of Cufflinks. Cuffnorm is similar to cuffdiff, but does not perform differential expression testing. It provides normalized gene expression tables for use in downstream tools (R/matlab/...).
 
      Please cite: Trapnell C, Williams BA, Pertea G, Mortazavi AM, Kwan G, van Baren MJ, Salzberg SL, Wold B, Pachter L. Transcript assembly and abundance estimation from RNA-Seq reveals thousands of new transcripts and switching among isoforms. Nature Biotechnology doi:10.1038/nbt.1621
 * [cummerbund](https://toolshed.g2.bx.psu.edu/view/devteam/cummerbund): Initial commit with version 1.0.0 of the cummeRbund wrapper. Wrapper for the Bioconductor cummeRbund library Allows for persistent storage, access, exploration, and manipulation of Cufflinks high-throughput sequencing data. In addition, provides numerous plotting functions for commonly used visualizations.
 * [cummerbund_to_tabular](https://toolshed.g2.bx.psu.edu/view/devteam/cummerbund_to_tabular): Initial commit with version 1.0.0 of the tool. Regenerate the tabular files generated by cuffdiff from a cummeRbund SQLite database. This tool extracts one or more of the original tabular data files from a cummeRbund SQLite database.
 
 * *From [pjbriggs](https://toolshed.g2.bx.psu.edu/view/pjbriggs):*
-  * [pal_finder](https://toolshed.g2.bx.psu.edu/view/pjbriggs/pal_finder): Find microsatellite repeat elements sequencing reads and design PCR primers to amplif y them  Runs the pal_finder Perl script and PRIMER3 to find microsatellite repeat elements sequencing reads and design PCR primers to amplify them
-  * [trimmomatic](https://toolshed.g2.bx.psu.edu/view/pjbriggs/trimmomatic): A flexible read trimming tool for Illumina NGS data Trimmomatic performs a variety of useful trimming tasks for illumina paired-end and single ended data.
+    * [pal_finder](https://toolshed.g2.bx.psu.edu/view/pjbriggs/pal_finder): Find microsatellite repeat elements sequencing reads and design PCR primers to amplif y them  Runs the pal_finder Perl script and PRIMER3 to find microsatellite repeat elements sequencing reads and design PCR primers to amplify them
+    * [trimmomatic](https://toolshed.g2.bx.psu.edu/view/pjbriggs/trimmomatic): A flexible read trimming tool for Illumina NGS data Trimmomatic performs a variety of useful trimming tasks for illumina paired-end and single ended data.
 
 * *From [eric-rasche](https://toolshed.g2.bx.psu.edu/view/eric-rasche):*
-  * [gsaf_downloader](https://toolshed.g2.bx.psu.edu/view/eric-rasche/gsaf_downloader): Download data from GSAF Easy download utility for fastq.gz files provided by GSAF (Genomic Sequencing and Analysis Facility)
+    * [gsaf_downloader](https://toolshed.g2.bx.psu.edu/view/eric-rasche/gsaf_downloader): Download data from GSAF Easy download utility for fastq.gz files provided by GSAF (Genomic Sequencing and Analysis Facility)
 
 * *From [nikhil-joshi](https://toolshed.g2.bx.psu.edu/view/nikhil-joshi):*
-  * [ceas](https://toolshed.g2.bx.psu.edu/view/nikhil-joshi/ceas): CEAS - Cis-regulatory Element Annotation System A tool designed to characterize genome-wide protein-DNA interaction patterns from ChIP-chip and ChIP-Seq of both sharp and broad binding factors.
+    * [ceas](https://toolshed.g2.bx.psu.edu/view/nikhil-joshi/ceas): CEAS - Cis-regulatory Element Annotation System A tool designed to characterize genome-wide protein-DNA interaction patterns from ChIP-chip and ChIP-Seq of both sharp and broad binding factors.
 
 * *From [shian_su](https://toolshed.g2.bx.psu.edu/view/shians):*
-  * [voom_rnaseq](https://toolshed.g2.bx.psu.edu/view/shians/voom_rnaseq): Perform RNA-Seq analysis using limma voom pipeline
+    * [voom_rnaseq](https://toolshed.g2.bx.psu.edu/view/shians/voom_rnaseq): Perform RNA-Seq analysis using limma voom pipeline
 
 ### Tool Suites
 
 * *From [wolma](https://toolshed.g2.bx.psu.edu/view/wolma):*
-  * [suite_mimodd_0_1_5](https://toolshed.g2.bx.psu.edu/view/wolma/suite_mimodd_0_1_5): This metapackage should be used to install the MiModD suite of tools for the analysis of genome-wide sequencing data from model organisms along with its Galaxy tool wrappers.
+    * [suite_mimodd_0_1_5](https://toolshed.g2.bx.psu.edu/view/wolma/suite_mimodd_0_1_5): This metapackage should be used to install the MiModD suite of tools for the analysis of genome-wide sequencing data from model organisms along with its Galaxy tool wrappers.
 
 ### Packages / Tool Dependency Definitions
 
 * *From [wolma](https://toolshed.g2.bx.psu.edu/view/wolma):*
-  * [package_mimodd_0_1_5](https://toolshed.g2.bx.psu.edu/view/wolma/package_mimodd_0_1_5): dependency package for the MiModD suite of tools
-  * [package_python3_zlib_dependent_1_0](https://toolshed.g2.bx.psu.edu/view/wolma/package_python3_zlib_dependent_1_0): a lean build of Python3.4.1 including the zlib module - based on package_python_3_4 by jankanis Several modules of the Python standard library depend on external libraries being installed. Of these modules, this package forces only the installation of the zlib module, so the zlib library version 1.2.8 is its only requirement.
-  * [package_zlib_1_2_8](https://toolshed.g2.bx.psu.edu/view/wolma/package_zlib_1_2_8): zlib library dependency definition
+    * [package_mimodd_0_1_5](https://toolshed.g2.bx.psu.edu/view/wolma/package_mimodd_0_1_5): dependency package for the MiModD suite of tools
+    * [package_python3_zlib_dependent_1_0](https://toolshed.g2.bx.psu.edu/view/wolma/package_python3_zlib_dependent_1_0): a lean build of Python3.4.1 including the zlib module - based on package_python_3_4 by jankanis Several modules of the Python standard library depend on external libraries being installed. Of these modules, this package forces only the installation of the zlib module, so the zlib library version 1.2.8 is its only requirement.
+    * [package_zlib_1_2_8](https://toolshed.g2.bx.psu.edu/view/wolma/package_zlib_1_2_8): zlib library dependency definition
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [package_cummerbund_2_8_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_cummerbund_2_8_2): Contains a tool dependency definition that downloads and installs version 2.8.2 of the cummeRbund R library. Allows for persistent storage, access, exploration, and manipulation of Cufflinks high-throughput sequencing data. In addition, provides numerous plotting functions for commonly used visualizations.
-  * [package_r_3_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_r_3_1_2):  Contains a tool dependency definition that downloads and compiles version 3.0.3 of the the R package.
+    * [package_cummerbund_2_8_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_cummerbund_2_8_2): Contains a tool dependency definition that downloads and installs version 2.8.2 of the cummeRbund R library. Allows for persistent storage, access, exploration, and manipulation of Cufflinks high-throughput sequencing data. In addition, provides numerous plotting functions for commonly used visualizations.
+    * [package_r_3_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_r_3_1_2):  Contains a tool dependency definition that downloads and compiles version 3.0.3 of the the R package.
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [package_bowtie_2_2_4](https://toolshed.g2.bx.psu.edu/view/devteam/package_bowtie_2_2_4): tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package Contains a tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package
-  * [package_cufflinks_2_2_1](https://toolshed.g2.bx.psu.edu/view/devteam/package_cufflinks_2_2_1): tool dependency definition that downloads and compiles version 2.2.1 of the cufflinks RNA-Seq suite. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/toolshed/defining-repository-dependencies/#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
-  * [package_picard_1_126_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_picard_1_126_0): tool dependency definition that downloads and compiles version 1.126.0 of the Picard package. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/toolshed/defining-repository-dependencies/#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
-  * [package_freebayes_0_9_18_0059bdf](https://toolshed.g2.bx.psu.edu/view/devteam/package_freebayes_0_9_18_0059bdf): tool dependency definition that downloads and compiles version 0.9.18 of FreeBayes. Program: freebayes (Bayesian haplotype-based polymorphism discovery and genotyping.)  Version: 0.9.18 (0059bdf)
+    * [package_bowtie_2_2_4](https://toolshed.g2.bx.psu.edu/view/devteam/package_bowtie_2_2_4): tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package Contains a tool dependency definition that downloads and compiles version 2.2.4 of the Bowtie package
+    * [package_cufflinks_2_2_1](https://toolshed.g2.bx.psu.edu/view/devteam/package_cufflinks_2_2_1): tool dependency definition that downloads and compiles version 2.2.1 of the cufflinks RNA-Seq suite. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/toolshed/defining-repository-dependencies/#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
+    * [package_picard_1_126_0](https://toolshed.g2.bx.psu.edu/view/devteam/package_picard_1_126_0): tool dependency definition that downloads and compiles version 1.126.0 of the Picard package. This repository is intended to be [defined as a complex repository dependency within a separate repository.](/toolshed/defining-repository-dependencies/#complex-repository-dependencies-tool-dependency-definitions-that-contain-repository-dependency-definitions)
+    * [package_freebayes_0_9_18_0059bdf](https://toolshed.g2.bx.psu.edu/view/devteam/package_freebayes_0_9_18_0059bdf): tool dependency definition that downloads and compiles version 0.9.18 of FreeBayes. Program: freebayes (Bayesian haplotype-based polymorphism discovery and genotyping.)  Version: 0.9.18 (0059bdf)
 
 * *From [mrvollger](https://toolshed.g2.bx.psu.edu/view/mrvollger):*
-  * [package_trtr_0_1](https://toolshed.g2.bx.psu.edu/view/mrvollger/package_trtr_0_1): Trim Reads of Tandem Repeat in a fastq file. This tool removes tandem repeats from ends of unaligned sequencing reads (leaving one copy). This prevents reads that don't span the repeated region from overlapping and leading to inaccurate SNPs calls.
+    * [package_trtr_0_1](https://toolshed.g2.bx.psu.edu/view/mrvollger/package_trtr_0_1): Trim Reads of Tandem Repeat in a fastq file. This tool removes tandem repeats from ends of unaligned sequencing reads (leaving one copy). This prevents reads that don't span the repeated region from overlapping and leading to inaccurate SNPs calls.
 
 ### Select Updates
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [ncbi_blast_plus](https://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus): Uploaded v0.1.01 - Requires blastdbd datatype (blast_datatypes v0.0.19). Support for makeprofiledb to create protein domain databases and use them in RPS-BLAST and RPS-TBLASTN. Tools now support GI and SeqID filters, and embed the citations.
+    * [ncbi_blast_plus](https://toolshed.g2.bx.psu.edu/view/devteam/ncbi_blast_plus): Uploaded v0.1.01 - Requires blastdbd datatype (blast_datatypes v0.0.19). Support for makeprofiledb to create protein domain databases and use them in RPS-BLAST and RPS-TBLASTN. Tools now support GI and SeqID filters, and embed the citations.
 
 # Other News
 

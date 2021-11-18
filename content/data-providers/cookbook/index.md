@@ -112,16 +112,16 @@ These types of filters can be passed to the API as well by sending as a comma-se
 The operators available depend on the column type:
 
 * numeric:
-  * 'lt': is less than 'value'
-  * 'le': is less than or equal to 'value'
-  * 'eq': is equal to 'value'
-  * 'ne': is not equal to 'value'
-  * 'ge': is greater than or equal to 'value'
-  * 'gt': is greater than 'value'
+    * 'lt': is less than 'value'
+    * 'le': is less than or equal to 'value'
+    * 'eq': is equal to 'value'
+    * 'ne': is not equal to 'value'
+    * 'ge': is greater than or equal to 'value'
+    * 'gt': is greater than 'value'
 * string:
-  * 'eq': column exactly equals 'value'
-  * 'has': contains the substring 'value'
-  * 're': matches the regular expression 'value'
+    * 'eq': column exactly equals 'value'
+    * 'has': contains the substring 'value'
+    * 're': matches the regular expression 'value'
   
 
 You may also want to create your own filter function. Pass a function into any `LineDataProvider`-derived provider

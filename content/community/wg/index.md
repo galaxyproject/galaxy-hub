@@ -190,7 +190,7 @@ This is an initial, but by no means exhaustive or final list of working groups. 
 Communications across working groups.
 
 * [Gitter Chat](https://gitter.im/galaxyproject/wg-all)
-  * Please condsider joining if you are involved in any working group.
+    * Please condsider joining if you are involved in any working group.
 
 </div>
 

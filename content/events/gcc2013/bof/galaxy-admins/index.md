@@ -116,8 +116,8 @@ Meetups:
 
 * Will continue with bimonthly meetups
 * For future meetups
-  * Encourage communication before hand
-  * Shorten the main presentaiton some.
+    * Encourage communication before hand
+    * Shorten the main presentaiton some.
 * Have next meetup be more free form Everyone who can be at that meeting be there.
 
 Leadership / Governance

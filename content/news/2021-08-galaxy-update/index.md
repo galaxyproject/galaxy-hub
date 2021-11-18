@@ -62,11 +62,11 @@ GCC2021 was our second virtual Galaxy Community Conference. This year we had 399
 The complete set of training materials, including many new videos, and a whole new Galaxy Development track, are now available for free and online:
 
 * **GCC2021 Science Track**: How to use Galaxy to get science done.
-  * [Training Materials](https://galaxyproject.org/events/gcc2021/training/science-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_3M7i8fQ3rH_sax6rmAsyz) (134 videos!)
+    * [Training Materials](https://galaxyproject.org/events/gcc2021/training/science-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_3M7i8fQ3rH_sax6rmAsyz) (134 videos!)
 * **GCC2021 Developer Track**: *A brand new set of tutorials on how to contribute to Galaxy development.*
-  * [Training Materials](https://galaxyproject.org/events/gcc2021/training/dev-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_gBvf4mzjIrI8IRhTIFAmc) (35 videos)
+    * [Training Materials](https://galaxyproject.org/events/gcc2021/training/dev-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_gBvf4mzjIrI8IRhTIFAmc) (35 videos)
 * **GCC2021 Administrator Track**: How to deploy, configure and maintain your own Galaxy instance.
-  * [Training Materials](https://galaxyproject.org/events/gcc2021/training//admin-track) & [Video Playlist](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9aiB2rLaAIVdjIos4rc9-y) (28 videos)
+    * [Training Materials](https://galaxyproject.org/events/gcc2021/training//admin-track) & [Video Playlist](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9aiB2rLaAIVdjIos4rc9-y) (28 videos)
 
 Many, many thanks to the instructors and helpers who contributed their time and effort to make GCC2021 Training a success.  And a huge thanks to Helena Rasche and Saskia Hiltemann for managing GCC2021 Training Week.
 
@@ -321,10 +321,10 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 * And several new use cases were described for UseGalaxy.eu:
-  * [Epigenomics and transcriptomics in cancer](https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo/)
-  * [Plant genomics](https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong/)
-  * [Colorectal cancer research](https://galaxyproject.eu/posts/2021/07/05/use-case-amir/)
-  * [Genomics, evolution, and ecology of organohalide-respiring bacteria](https://galaxyproject.eu/posts/2021/07/02/use-case-yi-yang/)
+    * [Epigenomics and transcriptomics in cancer](https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo/)
+    * [Plant genomics](https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong/)
+    * [Colorectal cancer research](https://galaxyproject.eu/posts/2021/07/05/use-case-amir/)
+    * [Genomics, evolution, and ecology of organohalide-respiring bacteria](https://galaxyproject.eu/posts/2021/07/02/use-case-yi-yang/)
 
 </div>
 

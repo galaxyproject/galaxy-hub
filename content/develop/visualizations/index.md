@@ -47,8 +47,8 @@ Here's a simplified process for creating an outline for a visualization plugin p
 4. inside that directory, create three more directories: config, templates, static. This is where the plugin configuration, the mako templates, and any (optional) javascript or static files are kept respectively.
 5. the configuration file should use the same id you used above for the directory: e.g. `config/myplugin.xml`. Most people copy and rename a simple config file like the one in config/plugins/visualizations/scatterplot/config/scatterplot.xml. We'll change the datatype it applies to later, but there's more at:
 
-  * [The visualization configuration file](/visualizations-registry/#the-visualization-configuration-file) and
-  * [Visualizations Registry Configuration](/visualizations-registry/configuration/)
+* [The visualization configuration file](/visualizations-registry/#the-visualization-configuration-file) and
+* [Visualizations Registry Configuration](/visualizations-registry/configuration/)
 
 6. [a mako template file](/visualizations-registry/#creating-the-code-and-markup-for-your-visualization) should go into the templates directory: e.g. `templates/myplugin.mako`. This template file is the entry point for your visualization and is loaded first. You don't have to do any major coding here and can instead just launch javascript to render the visualization.
 

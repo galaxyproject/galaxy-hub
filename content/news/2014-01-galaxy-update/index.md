@@ -13,16 +13,16 @@ date: "2013-12-31"
 The [January 2014 Galaxy Update is out](/galaxy-updates/2014-01/)!
 
 * [Galactic Hubs!](/galaxy-updates/2014-01/#galaxy-community-hubs)
-  * [Galaxy Community Log Board](/galaxy-updates/2014-01/#galaxy-community-log-board): Share your Galaxy experience
-  * [Galaxy Deployment Catalog](/galaxy-updates/2014-01/#galaxy-deployment-catalog): Describe your local install so others can learn from it.
+    * [Galaxy Community Log Board](/galaxy-updates/2014-01/#galaxy-community-log-board): Share your Galaxy experience
+    * [Galaxy Deployment Catalog](/galaxy-updates/2014-01/#galaxy-deployment-catalog): Describe your local install so others can learn from it.
 * [2013 Events](/galaxy-updates/2014-01/#2013-events-archive) *[and presentation](/galaxy-updates/2014-01/#2013-events-archive)* archive
 * [52 new papers](/galaxy-updates/2014-01/#new-papers)
 * [Who's hiring](/galaxy-updates/2014-01/#whos-hiring)
 * [Upcoming Events](/galaxy-updates/2014-01/#events), including
-  * [GCC2014: June 30 - July 2, Baltimore](/galaxy-updates/2014-01/#gcc2014-june-30---july-2-baltimore)
-    * [Training Day Topic Voting, January 6-17](/galaxy-updates/2014-01/#training-day-topic-voting-january-6-17)
-    * [Sponsorships](/galaxy-updates/2014-01/#sponsorships) and [Exhibitors](/galaxy-updates/2014-01/#exhibitors)
-  * [2013 Galaxy Day Report](/galaxy-updates/2014-01/#2013-galaxy-day-report)
+    * [GCC2014: June 30 - July 2, Baltimore](/galaxy-updates/2014-01/#gcc2014-june-30---july-2-baltimore)
+        * [Training Day Topic Voting, January 6-17](/galaxy-updates/2014-01/#training-day-topic-voting-january-6-17)
+        * [Sponsorships](/galaxy-updates/2014-01/#sponsorships) and [Exhibitors](/galaxy-updates/2014-01/#exhibitors)
+    * [2013 Galaxy Day Report](/galaxy-updates/2014-01/#2013-galaxy-day-report)
 * [CAPER](/galaxy-updates/2014-01/#caper), a new [public Galaxy server](/galaxy-updates/2014-01/#new-public-servers)
 * [Distributions](/galaxy-updates/2014-01/#galaxy-distributions)
 * [Tool Shed Contributions](/galaxy-updates/2014-01/#toolshed-contributions)

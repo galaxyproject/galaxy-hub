@@ -65,8 +65,8 @@ There are now [599 papers in the Galaxy CiteULike Group](http://www.citeulike.or
 The Galaxy is expanding!  Please help it grow.
 
 * **The [Galaxy Project is hiring](/galaxy-is-hiring/)!**
-  * **[Post-docs](/galaxy-is-hiring/)** at Penn State University (Nekrutenko Lab)
-  * **[Post-docs](http://bx.mathcs.emory.edu/joining/postdocs/)** and **[Software Engineers](http://bx.mathcs.emory.edu/joining/sw/)** at Emory University ([Taylor Lab](http://bx.mathcs.emory.edu/))
+    * **[Post-docs](/galaxy-is-hiring/)** at Penn State University (Nekrutenko Lab)
+    * **[Post-docs](http://bx.mathcs.emory.edu/joining/postdocs/)** and **[Software Engineers](http://bx.mathcs.emory.edu/joining/sw/)** at Emory University ([Taylor Lab](http://bx.mathcs.emory.edu/))
 * [GenePeeks](http://genepeeks.com/) is hiring a [Computational Geneticist](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/WMJG7V2PFU4GKPCLK6PD4VTM6Q2T2T5X/#WMJG7V2PFU4GKPCLK6PD4VTM6Q2T2T5X) and a [Tools Programmer](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/PH2LBAMW4Q7C3VBBXVVNGHBH5T3Y2AKO/#PH2LBAMW4Q7C3VBBXVVNGHBH5T3Y2AKO).
 * [offre de stage pour un stage de 6 mois (Master2) dans l'équipe Bioinformatique de Syngenta Seeds à Toulouse](http://bit.ly/TvCBCx)
 * [Two Galaxy focused internships](http://bit.ly/12n4mSR) are open at EMBL Heidelberg.
@@ -265,15 +265,15 @@ It was a banner month for [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) con
 
 * `snp_annotation`: Split vcf file, variant effect predictor, protseq, netphos, mitoprot, conservation, gpi & join results.
 * Two *Bismark* repositories were created:
-  * `methylation_analysis_bismark`:
-    * Bismark: bisulfite mapper, methylation caller;
-    * Methylation Extractor: methylation information for individual cytosines;
-    * Methylation by region: create a bedgrapgh with methylation percentages aggregated by region;
-    * Differential Methylation: comparison of two samples' methylation by region
-  * `bismark`:
-    * Methylation extractor
-    * Bisulfite mapper (bowtie)
-    * Bisulfite mapper (bottie2)
+    * `methylation_analysis_bismark`:
+        * Bismark: bisulfite mapper, methylation caller;
+        * Methylation Extractor: methylation information for individual cytosines;
+        * Methylation by region: create a bedgrapgh with methylation percentages aggregated by region;
+        * Differential Methylation: comparison of two samples' methylation by region
+    * `bismark`:
+        * Methylation extractor
+        * Bisulfite mapper (bowtie)
+        * Bisulfite mapper (bottie2)
 * `bedtools_annotate`: Annotate the depth X breadth of coverage of features from multiple files
 * `add_value`, `change_case`, `condense_characters`, `convert_characters`, `cut_columns`, `merge_cols`, `remove_beginning`, `show_beginning`, `show_tail`, `trimmer`,  : All moved from distribution to tool shed.
 * `assessing_target_enrichment`: Workflows to compute coverage on targeted regions when using hybrid-capture
@@ -284,15 +284,15 @@ It was a banner month for [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) con
 * `peakranger`: multi-purpose, ultrafast ChIP Seq peak caller
 * `spp_phantompeak`: SPP cross-correlation analysis package
 * These protein tools were contributed by the Galaxy-P project:
-  * `pride_biomart`: Fetch data from [PRIDE's BioMart server](https://bitbucket.org/galaxyp/galaxyp-toolshed-pride-biomart).
-  * `dbbuilder`: Download [protein databases](https://bitbucket.org/galaxyp/galaxyp-toolshed-dbbuilder) from common sources.
-  * `msconvert`: Tool wrappers for the [msconvert](https://bitbucket.org/galaxyp/galaxyp-toolshed-msconvert) application distributed as part of Proteowizard.
-  * `ProteinPilot`: Tools for working with [ProteinPilot](https://bitbucket.org/galaxyp/galaxyp-toolshed-proteinpilot).
-  * `decoyfasta`: Transproteomic pipeline [decoyFASTA](https://bitbucket.org/galaxyp/galaxyp-toolshed-decoyfasta) tool.
-  * `ms2preproc`: Tool wrapper for [ms2preproc](https://bitbucket.org/galaxyp/galaxyp-toolshed-ms2preproc).
-  * `digestdb`: Tool wrapper for transproteomic pipeline application [digestdb](https://bitbucket.org/galaxyp/galaxyp-toolshed-digestdb).
-  * `openms`: Tool wrappers for various applications that contained in the [OpenMS](https://bitbucket.org/galaxyp/galaxyp-toolshed-openms) suite.
-  * `mzxml2search`: Use [MzXML2Search](https://bitbucket.org/galaxyp/galaxyp-toolshed-mzxml2search) to convert peak lists.
+    * `pride_biomart`: Fetch data from [PRIDE's BioMart server](https://bitbucket.org/galaxyp/galaxyp-toolshed-pride-biomart).
+    * `dbbuilder`: Download [protein databases](https://bitbucket.org/galaxyp/galaxyp-toolshed-dbbuilder) from common sources.
+    * `msconvert`: Tool wrappers for the [msconvert](https://bitbucket.org/galaxyp/galaxyp-toolshed-msconvert) application distributed as part of Proteowizard.
+    * `ProteinPilot`: Tools for working with [ProteinPilot](https://bitbucket.org/galaxyp/galaxyp-toolshed-proteinpilot).
+    * `decoyfasta`: Transproteomic pipeline [decoyFASTA](https://bitbucket.org/galaxyp/galaxyp-toolshed-decoyfasta) tool.
+    * `ms2preproc`: Tool wrapper for [ms2preproc](https://bitbucket.org/galaxyp/galaxyp-toolshed-ms2preproc).
+    * `digestdb`: Tool wrapper for transproteomic pipeline application [digestdb](https://bitbucket.org/galaxyp/galaxyp-toolshed-digestdb).
+    * `openms`: Tool wrappers for various applications that contained in the [OpenMS](https://bitbucket.org/galaxyp/galaxyp-toolshed-openms) suite.
+    * `mzxml2search`: Use [MzXML2Search](https://bitbucket.org/galaxyp/galaxyp-toolshed-mzxml2search) to convert peak lists.
 * `seq2hla`: HLA typing from RNA-Seq sequence reads
 * `snp_annotation`: Split vcf file, variant effect predictor, protseq, netphos, mitoprot, conservation, gpi and join result files.
 * `trim_galaore`: Wrapper script that makes use of the publicly available adapter trimming tool Cutadapt and FastQC for optional quality control once the trimming process has completed.

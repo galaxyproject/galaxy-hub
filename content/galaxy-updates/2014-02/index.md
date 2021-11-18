@@ -282,8 +282,8 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 <div class='right solid'><a href='http://galaxy.ctmm-trait.nl/'><img src="/public-galaxy-servers/archive/ctmm-trait.png" alt="CTMM-TraIT Demo Galaxy" width="300" /></a></div>
 
 * *Links:*
-  * [CTMM-TraIT Demo Galaxy](http://galaxy.ctmm-trait.nl/)
-  * "[CGtag: complete genomics toolkit and annotation in a cloud-based Galaxy](http://www.gigasciencejournal.com/content/3/1/1/abstract)" by Hiltemann, *et al.,* *[GigaScience](http://www.gigasciencejournal.com/)* 2014, 3:1 doi:10.1186/2047-217X-3-1
+    * [CTMM-TraIT Demo Galaxy](http://galaxy.ctmm-trait.nl/)
+    * "[CGtag: complete genomics toolkit and annotation in a cloud-based Galaxy](http://www.gigasciencejournal.com/content/3/1/1/abstract)" by Hiltemann, *et al.,* *[GigaScience](http://www.gigasciencejournal.com/)* 2014, 3:1 doi:10.1186/2047-217X-3-1
 * *Domain/Purpose:*
     Implements CGATools, the Complete Genomics open-source suite of command-line tools for the analysis of their CG-formatted mapped sequencing files in a Galaxy instance called CGtag (Complete Genomics Toolkit and Annotation in a Cloud-based Galaxy).
 * *Comments:*
@@ -301,8 +301,8 @@ Several new servers were added to [the list of publicly accessible Galaxy server
 <div class='right solid'><a href='http://pipeclip.qbrc.org/'><img src="/use/archive/qbrc-galaxy/qbrc-logo.jpg" alt="QBRC Galaxy" width="300" /></a></div>
 
 * *Links:*
-  * [PIPE-CLIP](http://pipeclip.qbrc.org/)
-    * "[PIPE-CLIP: a comprehensive online tool for CLIP-seq data analysis](http://genomebiology.com/2014/15/1/R18/abstract)" by Chen, *et al.*, *[Genome Biology](http://genomebiology.com/)*, 2014, 15:R18 doi:10.1186/gb-2014-15-1-r18
+    * [PIPE-CLIP](http://pipeclip.qbrc.org/)
+        * "[PIPE-CLIP: a comprehensive online tool for CLIP-seq data analysis](http://genomebiology.com/2014/15/1/R18/abstract)" by Chen, *et al.*, *[Genome Biology](http://genomebiology.com/)*, 2014, 15:R18 doi:10.1186/gb-2014-15-1-r18
 * *Domain/Purpose:*
     This server hosts custom tools developed by members of the [Quantitative Biomedical Research Center @ University of Texas Southwestern](http://qbrc.swmed.edu/) for statistical analysis of various High Throughput Sequencing experiments.  This server features [PIPE-CLIP](http://pipeclip.qbrc.org/static/OnlineManual.pdf).
 * *Comments:*

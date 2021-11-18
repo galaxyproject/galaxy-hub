@@ -39,9 +39,9 @@ essential for the Galaxy - HPC functionality. Our poster will discuss:
 * module for project reporting and providing feedback to the funding agency
 * big file upload based on Filesender technology allowing to upload files up to 250 GB into Galaxy
 * details of cluster deployment via SLURM DRMAA including:
-  * Galaxy code modification allowing for user-selected cluster job parameters such as queue, time, memory, number of nodes and cores
-  * export of Galaxy libraries for deployment of the core Galaxy tools on the cluster
-  * general changes to tool wrappers needed for cluster implementation
+    * Galaxy code modification allowing for user-selected cluster job parameters such as queue, time, memory, number of nodes and cores
+    * export of Galaxy libraries for deployment of the core Galaxy tools on the cluster
+    * general changes to tool wrappers needed for cluster implementation
 
 <br />
 

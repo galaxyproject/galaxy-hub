@@ -453,23 +453,23 @@ In no particular order:
 ### New Tools
 
 * *From [rnateam](https://toolshed.g2.bx.psu.edu/view/rnateam):*
-  * [mirdeep2](https://toolshed.g2.bx.psu.edu/view/rnateam/mirdeep2): identification of novel and known miRNAs MiRDeep2 is a software package for identification of novel and known miRNAs in deep sequencing data. Furthermore, it can be used for miRNA expression profiling across samples.
-  * [mirdeep2_mapper](https://toolshed.g2.bx.psu.edu/view/rnateam/mirdeep2_mapper): MiRDeep2 Mapper - process and map reads to a reference genome The mapper module is designed as a tool to process deep sequencing reads and/or map them to the reference genome. The module works in sequence space, and can process or map data that is in sequence fasta format. A number of the functions of the mapper module are implemented specifically with Solexa/Illumina data in mind.
-  * [mirdeep2_quantifier](https://toolshed.g2.bx.psu.edu/view/rnateam/mirdeep2_quantifier): Imported from capsule None fast quantitation of reads mapping to known miRBase precursors The module maps the deep sequencing reads to predefined miRNA precursors and determines by that the expression of the corresponding miRNAs. First, the predefined mature miRNA sequences are mapped to the predefined precursors. Optionally, predefined star sequences can be mapped to the precursors too. By that the mature and star sequence in the precursors are determined. Second, the deep sequencing reads are mapped to the precursors. The number of reads falling into an interval 2nt upstream and 5nt downstream of the mature/star sequence is determined.
+    * [mirdeep2](https://toolshed.g2.bx.psu.edu/view/rnateam/mirdeep2): identification of novel and known miRNAs MiRDeep2 is a software package for identification of novel and known miRNAs in deep sequencing data. Furthermore, it can be used for miRNA expression profiling across samples.
+    * [mirdeep2_mapper](https://toolshed.g2.bx.psu.edu/view/rnateam/mirdeep2_mapper): MiRDeep2 Mapper - process and map reads to a reference genome The mapper module is designed as a tool to process deep sequencing reads and/or map them to the reference genome. The module works in sequence space, and can process or map data that is in sequence fasta format. A number of the functions of the mapper module are implemented specifically with Solexa/Illumina data in mind.
+    * [mirdeep2_quantifier](https://toolshed.g2.bx.psu.edu/view/rnateam/mirdeep2_quantifier): Imported from capsule None fast quantitation of reads mapping to known miRBase precursors The module maps the deep sequencing reads to predefined miRNA precursors and determines by that the expression of the corresponding miRNAs. First, the predefined mature miRNA sequences are mapped to the predefined precursors. Optionally, predefined star sequences can be mapped to the precursors too. By that the mature and star sequence in the precursors are determined. Second, the deep sequencing reads are mapped to the precursors. The number of reads falling into an interval 2nt upstream and 5nt downstream of the mature/star sequence is determined.
 
 * *From [hammock](https://toolshed.g2.bx.psu.edu/view/hammock):*
-  * [hammock](https://toolshed.g2.bx.psu.edu/view/hammock/hammock): Cluster large amounts of short peptide sequences and generate MSAs of resulting clusters.
+    * [hammock](https://toolshed.g2.bx.psu.edu/view/hammock/hammock): Cluster large amounts of short peptide sequences and generate MSAs of resulting clusters.
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [snpsift_dbnsfp_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_datatypes): Galaxy applicable data formats for SnpSift. snpsift_dbnsfp tool Allows for the creation of a snpsift dbnsfp Galaxy dataset from a tabular file that can be used by SnpSift dbnsfp to annotate a vcf formatted file.
-  * [snpeff_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpeff_datatypes): Galaxy applicable data formats for SnpEff tools Galaxy applicable data formats for SnpEff tools.  The snpeffdb datatype provides the means to represent a SnpEff genome database in a Galaxy dataset.
-  * [snpsift_dbnsfp](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp): snpEff SnpSift dbnsfp tool from Pablo Cingolani Annotates variants on genes using the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.) http://snpeff.sourceforge.net[/SnpSift](/galaxy-updates/2015-02/SnpSift/).html#dbNSFP SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
+    * [snpsift_dbnsfp_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp_datatypes): Galaxy applicable data formats for SnpSift. snpsift_dbnsfp tool Allows for the creation of a snpsift dbnsfp Galaxy dataset from a tabular file that can be used by SnpSift dbnsfp to annotate a vcf formatted file.
+    * [snpeff_datatypes](https://toolshed.g2.bx.psu.edu/view/iuc/snpeff_datatypes): Galaxy applicable data formats for SnpEff tools Galaxy applicable data formats for SnpEff tools.  The snpeffdb datatype provides the means to represent a SnpEff genome database in a Galaxy dataset.
+    * [snpsift_dbnsfp](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_dbnsfp): snpEff SnpSift dbnsfp tool from Pablo Cingolani Annotates variants on genes using the dbNSFP, an integrated database of human functional predictions from multiple algorithms (SIFT, Polyphen2, LRT and MutationTaster, PhyloP and GERP++, etc.) http://snpeff.sourceforge.net[/SnpSift](/galaxy-updates/2015-02/SnpSift/).html#dbNSFP SnpEff and SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed/
-  * [snpsift](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift): snpEff SnpSift tools from Pablo Cingolani Variant annotation and effect prediction tools. It annotates and predicts the effects of variants on genes. This repository should manage tool dependencies. There are data managers for the Galaxy admin to download genome databases. SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
+    * [snpsift](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift): snpEff SnpSift tools from Pablo Cingolani Variant annotation and effect prediction tools. It annotates and predicts the effects of variants on genes. This repository should manage tool dependencies. There are data managers for the Galaxy admin to download genome databases. SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed /<br />
-  * [snpsift_genesets](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_genesets): snpEff SnpSift genesets tool from Pablo Cingolani Annotates variants with GeneSets, such as Gene Ontology (GO), KEGG, Reactome, etc.;
+    * [snpsift_genesets](https://toolshed.g2.bx.psu.edu/view/iuc/snpsift_genesets): snpEff SnpSift genesets tool from Pablo Cingolani Annotates variants with GeneSets, such as Gene Ontology (GO), KEGG, Reactome, etc.;
 
      http://snpeff.sourceforge.net/SnpSift.html#geneSets !SnpEff and !SnpSift are developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
      Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
@@ -481,57 +481,57 @@ In no particular order:
     Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 
 * *From [amawla](https://toolshed.g2.bx.psu.edu/view/amawla):*
-  * [edger](https://toolshed.g2.bx.psu.edu/view/amawla/edger): Empirical analysis of digital gene expression data. GVL. PeterMac Estimates differential gene expression for short read sequence count using methods appropriate for count data. <br />
+    * [edger](https://toolshed.g2.bx.psu.edu/view/amawla/edger): Empirical analysis of digital gene expression data. GVL. PeterMac Estimates differential gene expression for short read sequence count using methods appropriate for count data. <br />
       Performs digital differential gene expression analysis between groups (eg a treatment and control). Biological replicates provide information about experimental variability required for reliable inference. <br />
       Designed for easier use in Galaxy.<br />
       R package requirements:
-      * edgeR
-      * limma
+        * edgeR
+        * limma
 
      Contributors: Monica Britton, Blythe Durbin-Johnson, Joseph Fass, Nikhil Joshi, Alex Mawla
 
 * *From [jjohnson](https://toolshed.g2.bx.psu.edu/view/jjohnson):*
-  * [gffread](https://toolshed.g2.bx.psu.edu/view/jjohnson/gffread): cufflinks gffread filters and/or converts GFF3/GTF2 records cufflinks gffread filters and/or converts GFF3/GTF2 records and can produce cdna, CDS, peptide fasta sequences
+    * [gffread](https://toolshed.g2.bx.psu.edu/view/jjohnson/gffread): cufflinks gffread filters and/or converts GFF3/GTF2 records cufflinks gffread filters and/or converts GFF3/GTF2 records and can produce cdna, CDS, peptide fasta sequences
 
 * *From [mvdbeek](https://toolshed.g2.bx.psu.edu/view/mvdbeek):*
-  * [add_input_name_as_column](https://toolshed.g2.bx.psu.edu/view/mvdbeek/add_input_name_as_column): Add input name as column on an existing tabular file Retrieves the histroy name of the input dataset and adds it as the last column. Very useful when working with dataset collections.
+    * [add_input_name_as_column](https://toolshed.g2.bx.psu.edu/view/mvdbeek/add_input_name_as_column): Add input name as column on an existing tabular file Retrieves the histroy name of the input dataset and adds it as the last column. Very useful when working with dataset collections.
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
-  * [seq_filter_by_mapping](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_filter_by_mapping): Uploaded v0.0.2, fixed some error messages Filter sequencing reads using SAM/BAM mapping files This tool is a short Python script (using Biopython library functions) which divides a FASTA, FASTQ, or SFF file in two, those sequences which do or do not map according to given SAM/BAM file(s).<br />
+    * [seq_filter_by_mapping](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_filter_by_mapping): Uploaded v0.0.2, fixed some error messages Filter sequencing reads using SAM/BAM mapping files This tool is a short Python script (using Biopython library functions) which divides a FASTA, FASTQ, or SFF file in two, those sequences which do or do not map according to given SAM/BAM file(s).<br />
       Example uses include mapping of FASTQ reads against a known contaminant in order to remove reads prior to a de novo assembly.<br />
       See https://github.com/peterjc/pico_galaxy/tree/master/tools/seq_filter_by_mapping
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [bamtools](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools): A collection of tools for manipulation of bamfiles BAMTools is a collection of utilities for splitting BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools). <br />
+    * [bamtools](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools): A collection of tools for manipulation of bamfiles BAMTools is a collection of utilities for splitting BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools). <br />
       GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools).
-  * [bamtools_split](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools_split): Utility for splitting BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools).<br />
+    * [bamtools_split](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools_split): Utility for splitting BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools).<br />
       GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools/bamtools_split).
 
 * [bamtools_filter](https://toolshed.g2.bx.psu.edu/view/devteam/bamtools_filter): Utility for filtering BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools). <br />
     GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools/bamtools_filter).
 
 * *From [bigrna](https://toolshed.g2.bx.psu.edu/view/bigrna):*
-  * [gpsrna](https://toolshed.g2.bx.psu.edu/view/bigrna/gpsrna): Plant small RNA analysis toolkit, microRNA identification and quantification, multiple distinct small RNAs identification, small interacting RNAs identification and quantification.
+    * [gpsrna](https://toolshed.g2.bx.psu.edu/view/bigrna/gpsrna): Plant small RNA analysis toolkit, microRNA identification and quantification, multiple distinct small RNAs identification, small interacting RNAs identification and quantification.
 
 * *From [fubar](https://toolshed.g2.bx.psu.edu/view/fubar):*
-  * [tool_factory_2](https://toolshed.g2.bx.psu.edu/view/fubar/tool_factory_2): Initial commit of code in iuc github repository. updated version of the tool factory  Includes arbitrary parameters and multiple inputs. Cost is more complex parameter parsing but examples are provided. Now allows selecting any installed interpreter tool shed package or using the system default!
+    * [tool_factory_2](https://toolshed.g2.bx.psu.edu/view/fubar/tool_factory_2): Initial commit of code in iuc github repository. updated version of the tool factory  Includes arbitrary parameters and multiple inputs. Cost is more complex parameter parsing but examples are provided. Now allows selecting any installed interpreter tool shed package or using the system default!
 
 * *From [nikhil-joshi](https://toolshed.g2.bx.psu.edu/view/nikhil-joshi):*
-  * [sam2counts_edger](https://toolshed.g2.bx.psu.edu/view/nikhil-joshi/sam2counts_edger): Takes SAM files and outputs a table of counts that can be used with edgeR.
+    * [sam2counts_edger](https://toolshed.g2.bx.psu.edu/view/nikhil-joshi/sam2counts_edger): Takes SAM files and outputs a table of counts that can be used with edgeR.
 
 ### Tool Suites
 
 * *From [rnateam](https://toolshed.g2.bx.psu.edu/view/rnateam):*
-  * [suite_mirdeep_2_0](https://toolshed.g2.bx.psu.edu/view/rnateam/suite_mirdeep_2_0): The suite of tool wrappers for mirDeep2. MiRDeep2 is a software package for identification of novel and known miRNAs in deep sequencing data. Furthermore, it can be used for miRNA expression profiling across samples.
+    * [suite_mirdeep_2_0](https://toolshed.g2.bx.psu.edu/view/rnateam/suite_mirdeep_2_0): The suite of tool wrappers for mirDeep2. MiRDeep2 is a software package for identification of novel and known miRNAs in deep sequencing data. Furthermore, it can be used for miRNA expression profiling across samples.
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [suite_bamtools_2_3_0](https://toolshed.g2.bx.psu.edu/view/devteam/suite_bamtools_2_3_0):  BAMTools is a collection of utilities for manipulating BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools).
+    * [suite_bamtools_2_3_0](https://toolshed.g2.bx.psu.edu/view/devteam/suite_bamtools_2_3_0):  BAMTools is a collection of utilities for manipulating BAM files. It is based on BAMtools suite of tools by Derek Barnett (https://github.com/pezmaster31/bamtools).
       GitHub repo for this collection of tools can be [found here](https://github.com/galaxyproject/tools-devteam/tree/master/tool_collections/bamtools).
 
 ### Data Managers
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc/): *
-  * [data_manager_snpeff](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_snpeff): Manage SnpEff genome reference data Data managers for the Galaxy admin to download SnpEff genome databases.
+    * [data_manager_snpeff](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_snpeff): Manage SnpEff genome reference data Data managers for the Galaxy admin to download SnpEff genome databases.
       SnpEff is developed by Pablo Cingolani at http://snpeff.sourceforge.net/ <br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/), Jim Johnson, [Nicola Soranzo](/people/nicola-soranzo/)<br />
       Repository-Development: https://github.com/galaxy-iuc/tool_shed/
@@ -539,41 +539,41 @@ In no particular order:
 ### Packages / Tool Dependency Definitions
 
 * *From [biopython](https://toolshed.g2.bx.psu.edu/view/biopython):*
-  * [package_biopython_1_65](https://toolshed.g2.bx.psu.edu/view/biopython/package_biopython_1_65): Uploaded with NumPy 1.9 dependency. Downloads and compiles version 1.65 of the Biopython package.  The Biopython Project is an international association of developers of freely available Python tools for computational molecular biology.<br />
+    * [package_biopython_1_65](https://toolshed.g2.bx.psu.edu/view/biopython/package_biopython_1_65): Uploaded with NumPy 1.9 dependency. Downloads and compiles version 1.65 of the Biopython package.  The Biopython Project is an international association of developers of freely available Python tools for computational molecular biology.<br />
       http://www.biopython.org
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [package_vienna_rna_1_8](https://toolshed.g2.bx.psu.edu/view/iuc/package_vienna_rna_1_8): Imported from capsule None  Contains a tool dependency definition that downloads and compiles version 1.8 of the Vienna RNA package.  The Vienna RNA Package consists of a C code library and several stand-alone programs for the prediction and comparison of RNA secondary structures.<br />
+    * [package_vienna_rna_1_8](https://toolshed.g2.bx.psu.edu/view/iuc/package_vienna_rna_1_8): Imported from capsule None  Contains a tool dependency definition that downloads and compiles version 1.8 of the Vienna RNA package.  The Vienna RNA Package consists of a C code library and several stand-alone programs for the prediction and comparison of RNA secondary structures.<br />
       http://www.tbi.univie.ac.at/RNA /<br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/)<br />
       Repository-Development: https://github.com/bgruening/galaxytools
-  * [package_perl_pdf_api2_2_023](https://toolshed.g2.bx.psu.edu/view/iuc/package_perl_pdf_api2_2_023): Contains a tool dependency definition that downloads and compiles version 2.023 of the perl PDF API
-  * [package_randfold_2_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_randfold_2_0): Contains a tool dependency definition that downloads and compiles version 2.0 of randfold. This is RANDFOLD version 2. The software compute the probability that, for a given sequence, the Minimum Free Energy (MFE) of the secondary structure is different from MFE computed with random sequences. <br />
+    * [package_perl_pdf_api2_2_023](https://toolshed.g2.bx.psu.edu/view/iuc/package_perl_pdf_api2_2_023): Contains a tool dependency definition that downloads and compiles version 2.023 of the perl PDF API
+    * [package_randfold_2_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_randfold_2_0): Contains a tool dependency definition that downloads and compiles version 2.0 of randfold. This is RANDFOLD version 2. The software compute the probability that, for a given sequence, the Minimum Free Energy (MFE) of the secondary structure is different from MFE computed with random sequences. <br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/) & Cameron Smith<br />
       Repository-Development: https://github.com/bgruening/galaxytools
-  * [package_boost_1_55](https://toolshed.g2.bx.psu.edu/view/iuc/package_boost_1_55): Tool dependency definition that downloads and compiles version 1.55 of the boost C++ libraries Boost provides free peer-reviewed portable C++ source libraries.<br />
+    * [package_boost_1_55](https://toolshed.g2.bx.psu.edu/view/iuc/package_boost_1_55): Tool dependency definition that downloads and compiles version 1.55 of the boost C++ libraries Boost provides free peer-reviewed portable C++ source libraries.<br />
       http://www.boost.org /<br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/)<br />
       Repository-Development: https://github.com/bgruening/galaxytools
-  * [package_rhmm_1_5_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_rhmm_1_5_0): Installs the RHmm CRAN library. Discrete, univariate or multivariate gaussian, mixture of univariate or multivariate gaussian HMM functions for simulation and estimation.
-  * [package_snpeff_4_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_snpeff_4_0): Contains a tool dependency definition that installs version 4.0 SnpEff, a variant annotation and effect prediction tool. SnpEff is a variant annotation and effect prediction tool by Pablo Cingolani. <br />
+    * [package_rhmm_1_5_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_rhmm_1_5_0): Installs the RHmm CRAN library. Discrete, univariate or multivariate gaussian, mixture of univariate or multivariate gaussian HMM functions for simulation and estimation.
+    * [package_snpeff_4_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_snpeff_4_0): Contains a tool dependency definition that installs version 4.0 SnpEff, a variant annotation and effect prediction tool. SnpEff is a variant annotation and effect prediction tool by Pablo Cingolani. <br />
       It annotates and predicts the effects of variants on genes (such as amino acid changes).<br />
       SnpEff and SnpSift ( http://snpeff.sourceforge.net/ )
-  * [package_bedtools_2_22](https://toolshed.g2.bx.psu.edu/view/iuc/package_bedtools_2_22): Contains a tool dependency definition that downloads and compiles version 2.22 of bedtools. bedtools - a swiss army knife for genome arithmetic<br />
+    * [package_bedtools_2_22](https://toolshed.g2.bx.psu.edu/view/iuc/package_bedtools_2_22): Contains a tool dependency definition that downloads and compiles version 2.22 of bedtools. bedtools - a swiss army knife for genome arithmetic<br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/)<br />
       Repository-Development: https://github.com/galaxyproject/tools-iuc/tree/master/packages/package_bedtools_2_22
-  * [package_squid_1_9g](https://toolshed.g2.bx.psu.edu/view/iuc/package_squid_1_9g): Tool dependency definition that downloads and compiles version 1.9g of the squid library. SQUID is a freely redistributable library of C code functions for sequence analysis. SQUID also includes a number of small utility programs.<br />
+    * [package_squid_1_9g](https://toolshed.g2.bx.psu.edu/view/iuc/package_squid_1_9g): Tool dependency definition that downloads and compiles version 1.9g of the squid library. SQUID is a freely redistributable library of C code functions for sequence analysis. SQUID also includes a number of small utility programs.<br />
       Repository-Maintainer: [Björn Grüning](/people/bjoern-gruening/) & Cameron Smith<br />
       Repository-Development: https://github.com/bgruening/galaxytools
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [package_bamtools_2_3_0_2d7685d2ae](https://toolshed.g2.bx.psu.edu/view/devteam/package_bamtools_2_3_0_2d7685d2ae): bamtools - a collection of utilities for processing of bam files Binary files in this package are compiled from source code version 2d7685d2ae.  This is package dependency for tools relying on bamtools toolkit developed by by Derek Barnett (https://github.com/pezmaster31/bamtools). This package is distributed as x86_64 binaries only. These binaries should work on any of our stated supported linux platforms other than RHEL/CentOS 5.
+    * [package_bamtools_2_3_0_2d7685d2ae](https://toolshed.g2.bx.psu.edu/view/devteam/package_bamtools_2_3_0_2d7685d2ae): bamtools - a collection of utilities for processing of bam files Binary files in this package are compiled from source code version 2d7685d2ae.  This is package dependency for tools relying on bamtools toolkit developed by by Derek Barnett (https://github.com/pezmaster31/bamtools). This package is distributed as x86_64 binaries only. These binaries should work on any of our stated supported linux platforms other than RHEL/CentOS 5.
 
 * *From [malbuquerque](https://toolshed.g2.bx.psu.edu/view/malbuquerque):*
-  * [package_seqtk_1_0_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_seqtk_1_0_0): Builds Seqtk version 1.0.0 "Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format. It seamlessly parses both FASTA and FASTQ files which can also be optionally compressed by gzip" -Heng Li, Broad Institute
-  * [package_bamtools_2_3_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_bamtools_2_3_0): BamTools - a collection of utilities for processing of bam files - for all architectures
-  * [package_cmake_3_1_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_cmake_3_1_0): Builds CMake version 3.1.0 - Cross Platform Makefile Generator
-  * [package_ucsc_user_apps_310](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_ucsc_user_apps_310): Builds most UCSC user applications Only those tools which successfully build without using mysql_config. Specifically only those in the kent/src/utils directory (those publicly available).
+    * [package_seqtk_1_0_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_seqtk_1_0_0): Builds Seqtk version 1.0.0 "Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FASTQ format. It seamlessly parses both FASTA and FASTQ files which can also be optionally compressed by gzip" -Heng Li, Broad Institute
+    * [package_bamtools_2_3_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_bamtools_2_3_0): BamTools - a collection of utilities for processing of bam files - for all architectures
+    * [package_cmake_3_1_0](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_cmake_3_1_0): Builds CMake version 3.1.0 - Cross Platform Makefile Generator
+    * [package_ucsc_user_apps_310](https://toolshed.g2.bx.psu.edu/view/malbuquerque/package_ucsc_user_apps_310): Builds most UCSC user applications Only those tools which successfully build without using mysql_config. Specifically only those in the kent/src/utils directory (those publicly available).
 
 # Other News
 

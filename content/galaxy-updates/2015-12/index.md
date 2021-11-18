@@ -256,45 +256,45 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right solid'><a href='http://gio.sbcs.qmul.ac.uk/'><img src="/use/galaxy-integrated-omics-gio/gio-logo.png" alt="Galaxy Integrated Omics (GIO)" width="200" /></a></div>
 
 * *Link:*
-  * [GIO Server](http://gio.sbcs.qmul.ac.uk/)
+    * [GIO Server](http://gio.sbcs.qmul.ac.uk/)
 * *Domain/Purpose:*
-  * "Proteomics Informed by Transcriptomics (PIT) methodology described in [Evans et al. 2012](http://www.ncbi.nlm.nih.gov/pubmed/23142869), and selection of surrogate peptides for targeted proteomics."
+    * "Proteomics Informed by Transcriptomics (PIT) methodology described in [Evans et al. 2012](http://www.ncbi.nlm.nih.gov/pubmed/23142869), and selection of surrogate peptides for targeted proteomics."
 * *Comments:*
-  * "Galaxy-based Integrated Omics (GIO) is a curated collection of new and pre-existing open source tools brought together for proteomics applications."
-  * See [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](http://www.mcponline.org/content/14/11/3087), Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews and Conrad Bessant, *Molecular & Cellular Proteomics*, 14, 3087-3093.
+    * "Galaxy-based Integrated Omics (GIO) is a curated collection of new and pre-existing open source tools brought together for proteomics applications."
+    * See [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](http://www.mcponline.org/content/14/11/3087), Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews and Conrad Bessant, *Molecular & Cellular Proteomics*, 14, 3087-3093.
 * *User Support:*
-  * [Tutorial 1:Getting started with GIO](http://gio.sbcs.qmul.ac.uk/static/Tutorial1.pdf)
-  * [Tutorial 2:Getting started with GIO workflows](http://gio.sbcs.qmul.ac.uk/static/Tutorial2.pdf)
-  * [Tutorial 3:Proteomics Informed by Transcriptomics (PIT)](http://gio.sbcs.qmul.ac.uk/static/Tutorial3.pdf)
-  * [Tutorial 4:Targeted proteomics](http://gio.sbcs.qmul.ac.uk/static/Tutorial4.pdf)
-  * For draft documentation please visit the [GIO repository](https://code.google.com/p/gio-repository/).
+    * [Tutorial 1:Getting started with GIO](http://gio.sbcs.qmul.ac.uk/static/Tutorial1.pdf)
+    * [Tutorial 2:Getting started with GIO workflows](http://gio.sbcs.qmul.ac.uk/static/Tutorial2.pdf)
+    * [Tutorial 3:Proteomics Informed by Transcriptomics (PIT)](http://gio.sbcs.qmul.ac.uk/static/Tutorial3.pdf)
+    * [Tutorial 4:Targeted proteomics](http://gio.sbcs.qmul.ac.uk/static/Tutorial4.pdf)
+    * For draft documentation please visit the [GIO repository](https://code.google.com/p/gio-repository/).
 * *Quotas:*
 * *Sponsor(s):*
-  * "This project is led by [Conrad Bessant](http://www.bessantlab.org/) at Queen Mary and [David Matthews](http://www.bristol.ac.uk/infection-immunity/people/person/37949) at Bristol, with additional contributions from the groups of [Andy Jones](http://pcwww.liv.ac.uk/~jonesar/jonesar.html) at Liverpool and [Simon Hubbard](http://www.manchester.ac.uk/research/simon.hubbard/) at Manchester. GIO development was supported by BBSRC TRDF2 grants BB/L018438/1 (Proteomics Goes Viral), BB/K016075/1 (Galaxy Workflows for Proteomics Informed by Transcriptomics) and BB/K004123/1 (Integrating Genomes and Proteomes on the Cloud). Lead developer is [Jun Fan](http://www.sbcs.qmul.ac.uk/staff/drjunfan.html)."
+    * "This project is led by [Conrad Bessant](http://www.bessantlab.org/) at Queen Mary and [David Matthews](http://www.bristol.ac.uk/infection-immunity/people/person/37949) at Bristol, with additional contributions from the groups of [Andy Jones](http://pcwww.liv.ac.uk/~jonesar/jonesar.html) at Liverpool and [Simon Hubbard](http://www.manchester.ac.uk/research/simon.hubbard/) at Manchester. GIO development was supported by BBSRC TRDF2 grants BB/L018438/1 (Proteomics Goes Viral), BB/K016075/1 (Galaxy Workflows for Proteomics Informed by Transcriptomics) and BB/K004123/1 (Integrating Genomes and Proteomes on the Cloud). Lead developer is [Jun Fan](http://www.sbcs.qmul.ac.uk/staff/drjunfan.html)."
 
 ## RNA-Seq Portal
 
 <div class='right solid'><a href='http://weizhongli-lab.org/RNA-seq/'><img src="/public-galaxy-servers/archive/rna-seq-portal.png" alt="RNA-Seq Portal - Analyzing RNA-seq Data for Agricultural Animal Species" width="300" /></a></div>
 
 * *Links:*
-  * [RNA-Seq Portal](http://weizhongli-lab.org/RNA-seq/)
-  * [Galaxy server](http://weizhongli-lab.org:8088/)
+    * [RNA-Seq Portal](http://weizhongli-lab.org/RNA-seq/)
+    * [Galaxy server](http://weizhongli-lab.org:8088/)
 
 * *Domain/Purpose:*
-  * Analyzing RNA-seq Data for Agricultural Animal Species.
+    * Analyzing RNA-seq Data for Agricultural Animal Species.
 * *Comments:*
-  * From the [portal landing page](http://weizhongli-lab.org/RNA-seq/):
+    * From the [portal landing page](http://weizhongli-lab.org/RNA-seq/):
       The goal of this project is to develop a web portal with integrated tools for RNA-seq based gene expression analysis for agricultural animals.
-      * improve genome annotation of agricultural animal species, including (but not limiting to) cattle, pig, chicken, turkey, horse, sheep, and goat as well as catfish;
-      * develop and integrate needed bioinformatics tools and pipelines, visualization interfaces, and statistical methods;
-      * build a web portal that enable RNA-seq based transcriptomics analysis in aforementioned animal species.
+        * improve genome annotation of agricultural animal species, including (but not limiting to) cattle, pig, chicken, turkey, horse, sheep, and goat as well as catfish;
+        * develop and integrate needed bioinformatics tools and pipelines, visualization interfaces, and statistical methods;
+        * build a web portal that enable RNA-seq based transcriptomics analysis in aforementioned animal species.
 * *User Support:*
-  * [Example usage](http://weizhongli-lab.org:8088/) (see center panel)
-  * [Web support](http://weizhongli-lab.org/RNA-seq/contact/)
+    * [Example usage](http://weizhongli-lab.org:8088/) (see center panel)
+    * [Web support](http://weizhongli-lab.org/RNA-seq/contact/)
 * *Quotas:*
 
 * *Sponsor(s):*
-  * The project is developed by [Weizhong Li's lab](http://weizhongli-lab.org/) at [J. Craig Venter Institute](http://jcvi.org/) with support from NIFA (award #2013-67015-21428).
+    * The project is developed by [Weizhong Li's lab](http://weizhongli-lab.org/) at [J. Craig Venter Institute](http://jcvi.org/) with support from NIFA (award #2013-67015-21428).
 
 ----
 
@@ -392,6 +392,6 @@ See [list of tools contributed in October and November](/toolshed/contributions/
 * From [Björn Grüning](https://twitter.com/bjoerngruening):
     The [Galaxy Docker Image](https://github.com/bgruening/docker-galaxy-stable/tree/dev) has gained TravisCI testing. BioBlend will test all functionality and tool installation.
 * Updated documentation:
-  * [The source code of Galaxy](/develop/source-code/)
-  * [Galaxy Job Configuration](/admin/config/jobs/)
-  * [Datatypes](/learn/datatypes/)
+    * [The source code of Galaxy](/develop/source-code/)
+    * [Galaxy Job Configuration](/admin/config/jobs/)
+    * [Datatypes](/learn/datatypes/)

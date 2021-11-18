@@ -183,8 +183,8 @@ Another way of stating it is: `LibraryDatasetDatasetAssociation` objects map `Li
 
 * Added a Line/Word/Character counter to `Text Manipulation` tool group.
 * Extended `Extract Genomic DNA` tool to support GFF/GTF features and custom genomes:
-  * This is especially useful for extracting genomic data that correspond to transcripts in GTF format, as is produced by `Cufflinks`.
-  * Tool also now accepts sequence data from a history item, enabling the extraction of data from custom genomes.
+    * This is especially useful for extracting genomic data that correspond to transcripts in GTF format, as is produced by `Cufflinks`.
+    * Tool also now accepts sequence data from a history item, enabling the extraction of data from custom genomes.
 
 ### New Community Tools Added (Tool Shed)
 
@@ -219,24 +219,24 @@ Workflows containing tools that are not loaded will now open in the editor inste
 ### Trackster
 
 * Enhancements:
-  * Support large (10,000+) sets of chromosomes/contigs, as is often the case for low/non-model coverage genomes.
-  * Improve speed by streamlining data fetching and caching in Trackster.
-  * Add support for child tracks.
-  * UI hints for zooming out/in.
-  * Extend *CIGAR* string parsing to handle all operations (however, insertions still not fully supported).
-  * History dataset selection: show history name, show and order by hid in display.
-  * Modified interval index squish mode to display blocks and treat intervals as half-open.
+    * Support large (10,000+) sets of chromosomes/contigs, as is often the case for low/non-model coverage genomes.
+    * Improve speed by streamlining data fetching and caching in Trackster.
+    * Add support for child tracks.
+    * UI hints for zooming out/in.
+    * Extend *CIGAR* string parsing to handle all operations (however, insertions still not fully supported).
+    * History dataset selection: show history name, show and order by hid in display.
+    * Modified interval index squish mode to display blocks and treat intervals as half-open.
 * Bug fixes:
-  * Fix *CIGAR* string parsing bug that prevented sequence data from being displayed correctly.
-  * BED files without score column or with scores that are floats can now be displayed.
-  * Better handling of error messages so that messages and data do not overlap.
+    * Fix *CIGAR* string parsing bug that prevented sequence data from being displayed correctly.
+    * BED files without score column or with scores that are floats can now be displayed.
+    * Better handling of error messages so that messages and data do not overlap.
 
 ### User Interface (UI)
 
 * Search improvements:
-  * Size of search box increases to show help text (column label).
-  * Help text is highlighted rather than hidden when user clicks on search box.
-  * Standard and advanced search divs are toggled correctly when moving between searches.
+    * Size of search box increases to show help text (column label).
+    * Help text is highlighted rather than hidden when user clicks on search box.
+    * Standard and advanced search divs are toggled correctly when moving between searches.
 
 ### Galaxy Reports
 

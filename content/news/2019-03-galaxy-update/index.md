@@ -278,10 +278,10 @@ The *dark energy* of irreproducible research is threatening the science universe
 
 * [Cloud Engineer V](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States.
 * ELIXIR Belgium has **four Galaxy-related openings** in Ghent:
-  * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
-  * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
+    * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software."
 * [Cloud Computing Bioinformatics Programmer](https://bioinformatics.ca/job-postings/0fd00bb0-9f21-11e8-a370-3ba76904a08d/#/?&order=desc) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
 * [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?) and [Senior IT Data Engineer (IT Bioinformatician)](https://adaptimmunellc.applytojob.com/apply/jobs/details/W1CcPTXteJ?),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools: Galaxy…*
@@ -290,7 +290,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
 * [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
-  * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
+    * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States.
 
@@ -361,6 +361,6 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 # Other News
 
 * From [QCIF](https://www.qcif.edu.au/), both highlighting [UseGalaxy.org.au](https://usegalaxy.org.au/)
-  * "[Data Enhanced Virtual Labs: Better the DEVL you know](https://www.qcif.edu.au/index.php/news/532-data-enhanced-virtual-labs-better-the-devl-you-know)"
-  * "[Galaxy Australia usage on the rise ](https://www.qcif.edu.au/index.php/news/535-galaxy-australia-usage-on-the-rise)"
+    * "[Data Enhanced Virtual Labs: Better the DEVL you know](https://www.qcif.edu.au/index.php/news/532-data-enhanced-virtual-labs-better-the-devl-you-know)"
+    * "[Galaxy Australia usage on the rise ](https://www.qcif.edu.au/index.php/news/535-galaxy-australia-usage-on-the-rise)"
 * We got an [early look at the future of Galaxy management](https://twitter.com/EnisAfgan/status/1098026864948465664) with Kubernates from Enis Afgan, stay tuned friends.

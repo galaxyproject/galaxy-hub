@@ -18,8 +18,8 @@ The **[September Galaxy News](/galaxy-updates/2016-09/) is out:**
 * [Two new public Galaxy servers](/galaxy-updates/2016-09/#public-galaxy-server-news)
 * [RNAcommender](/galaxy-updates/2016-09/#galaxy-community-hubs)
 * New [releases](/galaxy-updates/2016-09/#releases):
-  * [Galaxy v16.07](/galaxy-updates/2016-09/#galaxy-v1607)
-  * [CloudBridge](/galaxy-updates/2016-09/#cloudbridge-011), [Planemo](/galaxy-updates/2016-09/#planemo-0280---0291), [Pulsar](/galaxy-updates/2016-09/#pulsar-071---072), [BioBlend](/galaxy-updates/2016-09/#bioblend-080) and [galaxy-lib](/galaxy-updates/2016-09/#galaxy-lib-16710---16100)
+    * [Galaxy v16.07](/galaxy-updates/2016-09/#galaxy-v1607)
+    * [CloudBridge](/galaxy-updates/2016-09/#cloudbridge-011), [Planemo](/galaxy-updates/2016-09/#planemo-0280---0291), [Pulsar](/galaxy-updates/2016-09/#pulsar-071---072), [BioBlend](/galaxy-updates/2016-09/#bioblend-080) and [galaxy-lib](/galaxy-updates/2016-09/#galaxy-lib-16710---16100)
 * [TooShed Contributions](/galaxy-updates/2016-09/#toolshed-contributions)
 * And [other news](/galaxy-updates/2016-09/#other-news) too.
 

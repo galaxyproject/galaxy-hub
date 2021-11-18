@@ -476,4 +476,4 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 * [New tutorial](http://bit.ly/TAGC_GXY_PDF) on integrating phenotype data from ZFIN and MGI.
 * [how to use GenomeSpace tools in a Galaxy workflow](https://www.youtube.com/watch?v=5QPtWS_ab0I). Video from the Genomics Virtual Lab folks.
 * New interactive Galaxy tours are available:
-  * [MultiQC](https://github.com/galaxyproject/galaxy-tours/tree/master/multiqc) and [RAD-Seq](https://github.com/galaxyproject/galaxy-tours/tree/master/rad-seq)
+    * [MultiQC](https://github.com/galaxyproject/galaxy-tours/tree/master/multiqc) and [RAD-Seq](https://github.com/galaxyproject/galaxy-tours/tree/master/rad-seq)

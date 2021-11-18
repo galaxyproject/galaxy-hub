@@ -101,14 +101,14 @@ Germany
 
 From Basel/Mulhouse/Freiburg airport (EuroAirport)
 
- - use the French/German exit and take the airport shuttle bus to Freiburg Hauptbahnhof
+- use the French/German exit and take the airport shuttle bus to Freiburg Hauptbahnhof
 http://www.freiburger-reisedienst.de/en/airportbus/timetable.php
- - use the Swiss exit and take the local bus (#50) to the train station in Basel, and from there take a train to Freiburg
+- use the Swiss exit and take the local bus (#50) to the train station in Basel, and from there take a train to Freiburg
 
 From Freiburg Hauptbahnhof
 
- - by local train: Take the Breisgau S-Bahn from Hauptbahnhof Freiburg in the direction of Gottenheim/Breisach to Neue Messe/Universität.
- - by Tram 4, direction Messe, stop “Technische Fakultät/Messe”
+- by local train: Take the Breisgau S-Bahn from Hauptbahnhof Freiburg in the direction of Gottenheim/Breisach to Neue Messe/Universität.
+- by Tram 4, direction Messe, stop “Technische Fakultät/Messe”
 http://www.vag-freiburg.de/fahrplan-linien/netzplaene/liniennetzplan.html
 
 

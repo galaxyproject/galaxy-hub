@@ -9,17 +9,17 @@ date: "2018-09-13"
 The *September  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
 * Events
-  * [2018 SACNAS Workshops](#2018-sacnas-pre-conference-workshops)
-  * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
-  * [All upcoming events](#upcoming-events)
+    * [2018 SACNAS Workshops](#2018-sacnas-pre-conference-workshops)
+    * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
+    * [All upcoming events](#upcoming-events)
 * New:
-  * [80 publications](#publications)
-  * Galactic Blog entry: [Contributor of the Month: Carrie Ganote](#contributor-of-the-month-carrie-ganote)
-  * [Public Galaxy Server News](#public-galaxy-server-news): epiGeEC and MetaCentrum
-  * [ToolShed contributions](#toolshed-contributions)
-  * [Hub and Documentation updates](#hub-and-doc-updates)
-  * [CloudBridge v1](https://galaxyproject.org/news/2018-09-cloudbridge-v1-release/) has been released!
-  * [Releases](#releases)
+    * [80 publications](#publications)
+    * Galactic Blog entry: [Contributor of the Month: Carrie Ganote](#contributor-of-the-month-carrie-ganote)
+    * [Public Galaxy Server News](#public-galaxy-server-news): epiGeEC and MetaCentrum
+    * [ToolShed contributions](#toolshed-contributions)
+    * [Hub and Documentation updates](#hub-and-doc-updates)
+    * [CloudBridge v1](https://galaxyproject.org/news/2018-09-cloudbridge-v1-release/) has been released!
+    * [Releases](#releases)
 * And [other news](#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.

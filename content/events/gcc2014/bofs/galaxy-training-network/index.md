@@ -60,13 +60,13 @@ Anyone interested in using Galaxy for bioinformatics and related learning and te
 # Content
 
 * Is the goal to teach how to use tools, or to teach understanding of concepts?  What's the balance?
-  * Focusing on basics.  They aren't going to remember specific parameter settings a week later.
+    * Focusing on basics.  They aren't going to remember specific parameter settings a week later.
 
 # Materials
 
 * Published histories
 * Galaxy Pages
-  * Fabulous resource, *but not portable*
+    * Fabulous resource, *but not portable*
 
 ## Video
 
@@ -128,9 +128,9 @@ Is it possible to have a persistent training server?  Some ideas:
 # Action Items
 
 * Create a galaxy-teach or galaxy-train mailing list / forum
-  * [Done](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/)
+    * [Done](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/)
 * Work with that list to establish what the Resource Directory (and the Trainer Directory) should look like
-  * Resource Directory and Trainer Directory are up.
+    * Resource Directory and Trainer Directory are up.
 * Push these best practices to the GTN Best Practices area.
-  * Done
+    * Done
 * Include a video training directory

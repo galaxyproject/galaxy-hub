@@ -311,40 +311,40 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 </div></div>
 
 * *Links:*
-  * [workflow4metabolomics Galaxy server](http://galaxy.workflow4metabolomics.org/)
-  * [Request an account](http://abims.sb-roscoff.fr/account)
-  * [Workflow4metabolomics.org](http://workflow4metabolomics.org/)
+    * [workflow4metabolomics Galaxy server](http://galaxy.workflow4metabolomics.org/)
+    * [Request an account](http://abims.sb-roscoff.fr/account)
+    * [Workflow4metabolomics.org](http://workflow4metabolomics.org/)
 * *Domain/Purpose:*
-  * A collaborative portal dedicated to metabolomics data processing, analysis and annotation.
+    * A collaborative portal dedicated to metabolomics data processing, analysis and annotation.
 * *Comments:*
-  * [LC-MS](http://workflow4metabolomics.org/the-lc-ms-workflow), [GC-MS](http://workflow4metabolomics.org/the-gc-ms-workflow) and [NMR](http://workflow4metabolomics.org/the-nmr-workflow) workflows are provided.
-  * See: Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](https://doi.org/10.1093/bioinformatics/btu813). *Bioinformatics*, [doi: 10.1093/bioinformatics/btu813](https://doi.org/10.1093/bioinformatics/btu813)
+    * [LC-MS](http://workflow4metabolomics.org/the-lc-ms-workflow), [GC-MS](http://workflow4metabolomics.org/the-gc-ms-workflow) and [NMR](http://workflow4metabolomics.org/the-nmr-workflow) workflows are provided.
+    * See: Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](https://doi.org/10.1093/bioinformatics/btu813). *Bioinformatics*, [doi: 10.1093/bioinformatics/btu813](https://doi.org/10.1093/bioinformatics/btu813)
 * *User Support:*
-  * [HowTo Tutorials](http://workflow4metabolomics.org/howto)
-  * [Help Desk](mailto:support AT workflow4metabolomics DOT org)
+    * [HowTo Tutorials](http://workflow4metabolomics.org/howto)
+    * [Help Desk](mailto:support AT workflow4metabolomics DOT org)
 * *Quotas:*
-  * Account required. Anyone can [request an account](http://abims.sb-roscoff.fr/account).
+    * Account required. Anyone can [request an account](http://abims.sb-roscoff.fr/account).
 * *Sponsor(s):*
-  * See [sponsor graph](/use/workflow4metabolomics/workflow4metabolomics-sponsors.png)
+    * See [sponsor graph](/use/workflow4metabolomics/workflow4metabolomics-sponsors.png)
 
 ## EpiToolKit
 
 <div class='right solid'><a href='http://www.epitoolkit.de/'><img src="/use/archive/epitoolkit/epitoolkit-molecule-peptide.png" alt="EpiToolKit Galaxy Server" height="200" /></a></div>
 
 * *Link:*
-  * [EpiToolKit Galaxy](http://www.epitoolkit.de/)
+    * [EpiToolKit Galaxy](http://www.epitoolkit.de/)
 * *Domain/Purpose:*
-  * Computational immunology for the development of novel epitope-based vaccines.
+    * Computational immunology for the development of novel epitope-based vaccines.
 * *Comments:*
-  * [EpiToolKit](http://www.epitoolkit.de/) "provides a collection of methods from computational immunology for the development of novel epitope-based vaccines including HLA ligand or potential T-Cell epitope prediction, an epitope selection framework for vaccine design, and a method to design optimal string-of-beads vaccines. Additionally, [EpiToolKit](http://www.epitoolkit.de/) provides several other tools ranging from HLA typing based on NGS data, to prediction of polymorphic peptides."
-  * See [EpiToolKit—a web-based workbench for vaccine design](http://bioinformatics.oxfordjournals.org/content/31/13/2211.full) by Benjamin Schubert, Hans-Philipp Brachvogel, Christopher Jürges and Oliver Kohlbacher, *Bioinformatics* (2015) 31 (13): 2211-2213. doi: 10.1093/bioinformatics/btv116
+    * [EpiToolKit](http://www.epitoolkit.de/) "provides a collection of methods from computational immunology for the development of novel epitope-based vaccines including HLA ligand or potential T-Cell epitope prediction, an epitope selection framework for vaccine design, and a method to design optimal string-of-beads vaccines. Additionally, [EpiToolKit](http://www.epitoolkit.de/) provides several other tools ranging from HLA typing based on NGS data, to prediction of polymorphic peptides."
+    * See [EpiToolKit—a web-based workbench for vaccine design](http://bioinformatics.oxfordjournals.org/content/31/13/2211.full) by Benjamin Schubert, Hans-Philipp Brachvogel, Christopher Jürges and Oliver Kohlbacher, *Bioinformatics* (2015) 31 (13): 2211-2213. doi: 10.1093/bioinformatics/btv116
 * *User Support:*
-  * There is [extensive documentation](http://epitoolkit-wiki.informatik.uni-tuebingen.de/doku.php) inlcuding step-by-step instructions.
+    * There is [extensive documentation](http://epitoolkit-wiki.informatik.uni-tuebingen.de/doku.php) inlcuding step-by-step instructions.
 * *Quotas:*
-  * Anyone can create an account. Alternatively, a guest account is provided with login test_user@informatik.uni-tuebingen.de and password workflowTest. Please note that the guest account shares uploaded data with all other guest users.
-  * Data of unregistered users and delete data will be permanently deleted after 7 days.
+    * Anyone can create an account. Alternatively, a guest account is provided with login test_user@informatik.uni-tuebingen.de and password workflowTest. Please note that the guest account shares uploaded data with all other guest users.
+    * Data of unregistered users and delete data will be permanently deleted after 7 days.
 * *Sponsor(s):*
-  * [ABI EpiToolKit](http://www.epitoolkit.de/) is a service of the [Applied Bioinformatics Group at University of Tuebingen](http://www.kohlbacherlab.org/).
+    * [ABI EpiToolKit](http://www.epitoolkit.de/) is a service of the [Applied Bioinformatics Group at University of Tuebingen](http://www.kohlbacherlab.org/).
 
 <br />
 

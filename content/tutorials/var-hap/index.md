@@ -34,13 +34,13 @@ For this tutorial we have prepared a subset of data previously [published](https
 >
 > ![](./mt_lib.png)
 >
->  * Go to this [this Galaxy library](https://usegalaxy.org/library/list#folders/Fe4842bd0c37b03a7)
->  * You will see screen like the one shown above
->  * Click **to History** button.
->  * Galaxy will prompt you to ask whether you want to import these data into already existing or new history.
->  * It is better to create a new history, so type some descriptive name within `or create new` text field
->  * click **Import**
->  * A green message will appear once the import is done. Click on it and will see the history you have just created. It will be populated with the four datasets as shown below:
+> * Go to this [this Galaxy library](https://usegalaxy.org/library/list#folders/Fe4842bd0c37b03a7)
+> * You will see screen like the one shown above
+> * Click **to History** button.
+> * Galaxy will prompt you to ask whether you want to import these data into already existing or new history.
+> * It is better to create a new history, so type some descriptive name within `or create new` text field
+> * click **Import**
+> * A green message will appear once the import is done. Click on it and will see the history you have just created. It will be populated with the four datasets as shown below:
 >
 > ![](./mt_imported_data.png)
 >
@@ -480,12 +480,12 @@ Time to really do it yourself. Please, complete the following exercise:
 
 Suppose you obtained a virus from some source and you would like to see how it is different from its published reference sequence. You have sequenced the virus and obtained two Illumina files (these files are large, so don't open them. Rather copy their addresses (right click) and use them to upload into Galaxy as explained in *Hints* section below):
 
- * [Forward reads](http://www.bx.psu.edu/~anton/share/ng_test_data/bmmb554/hw4/f.fq.gz)
- * [Reverse reads](http://www.bx.psu.edu/~anton/share/ng_test_data/bmmb554/hw4/r.fq.gz)
+* [Forward reads](http://www.bx.psu.edu/~anton/share/ng_test_data/bmmb554/hw4/f.fq.gz)
+* [Reverse reads](http://www.bx.psu.edu/~anton/share/ng_test_data/bmmb554/hw4/r.fq.gz)
 
 Analyze these files using Galaxy as was explained in this lesson by mapping them against [this reference genome](http://www.bx.psu.edu/~anton/share/ng_test_data/bmmb554/hw4/phix.fa) (again right click to copy the address); see *Tips*).
 
 Tips:
 
- * You need to upload reads and the reference genome into [Galaxy](https://usegalaxy.org) as shown in [this video](https://vimeo.com/120973708)
- * You will be mapping reads against an uploaded reference genome as shown in [this video](https://vimeo.com/123108417)
+* You need to upload reads and the reference genome into [Galaxy](https://usegalaxy.org) as shown in [this video](https://vimeo.com/120973708)
+* You will be mapping reads against an uploaded reference genome as shown in [this video](https://vimeo.com/123108417)

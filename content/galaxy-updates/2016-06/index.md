@@ -283,7 +283,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 Some highlights from May:
 
 * [LimiTT: link miRNAs to targets](https://doi.org/10.1186/s12859-016-1070-1)
-  * by Julia Bayer, Carsten Kuenne, Jens Preussner, Mario Looso. *BMC Bioinformatics*, Vol. 17, No. 1. (11 May 2016), doi:10.1186/s12859-016-1070-1
+    * by Julia Bayer, Carsten Kuenne, Jens Preussner, Mario Looso. *BMC Bioinformatics*, Vol. 17, No. 1. (11 May 2016), doi:10.1186/s12859-016-1070-1
 
 * [From Scientific Workflow Patterns to 5-star Linked Open Data](https://www.usenix.org/conference/tapp16/workshop-program/presentation/gaignard)
     by Alban Gaignard, Hala Skaf-Molli, and Audrey Bihouée. In 8th USENIX Workshop on the Theory and Practice of Provenance (TaPP 16) (June 2016)

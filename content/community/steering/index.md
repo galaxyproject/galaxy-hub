@@ -22,7 +22,7 @@ Come and let us know your ideas for the committee to consider in a 2 year roadma
 
 * [GCC2021 BoF](https://gcc2021.sched.com/event/kFK5)
 * [GCC2021 CoFest](https://gcc2021.sched.com/event/iLKp/gcc2021-collaborationfest)
-  * [Community roadmap topic](https://docs.google.com/document/d/1c0L4mc7s2JOx0uq6HGP3QE3V5Za20GfCh1e-KKbOoV4/edit#bookmark=id.sz6o7usg6ipk)
+    * [Community roadmap topic](https://docs.google.com/document/d/1c0L4mc7s2JOx0uq6HGP3QE3V5Za20GfCh1e-KKbOoV4/edit#bookmark=id.sz6o7usg6ipk)
 
 ## The Manifesto: Global Galaxy Steering Committee Charter
 
@@ -55,43 +55,43 @@ Please contact the committee member leading the project if you would like to lea
 ## Committee Members
 
 * **[Ross Lazarus](https://github.com/fubar2)**
-  * Galaxy emeritus, Australia, Chair
+    * Galaxy emeritus, Australia, Chair
 * **[Anne Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/)**
-  * [University of Oslo](https://www.uio.no/), Norway
+    * [University of Oslo](https://www.uio.no/), Norway
 * **[Alan Christoffels](https://www.sanbi.ac.za/alan-christoffels/)**
-  * [SANBI](https://www.sanbi.ac.za/), South Africa
+    * [SANBI](https://www.sanbi.ac.za/), South Africa
 * **[Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)**
-  * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
+    * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
 * **[Bérénice Batut](https://research.bebatut.fr/)**
-  * [University of Freiburg](https://uni-freiburg.de/en/), Germany
+    * [University of Freiburg](https://uni-freiburg.de/en/), Germany
 * **[Björn Grüning](https://github.com/bgruening)**
-  * [Galaxy Europe](https://galaxyproject.eu/), [University of Freiburg](https://uni-freiburg.de/en/), Germany
+    * [Galaxy Europe](https://galaxyproject.eu/), [University of Freiburg](https://uni-freiburg.de/en/), Germany
 * **[Brad Langhorst](https://scholar.google.com/citations?user=_TMrigoAAAAJ&hl=en)**
-  * [New England Biolabs](https://www.neb.com/), United States
+    * [New England Biolabs](https://www.neb.com/), United States
 * **[Dan Blankenberg](http://dblankenberg.org/)**
-  * [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/), United States
+    * [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/), United States
 * **[David Morais](https://ca.linkedin.com/in/david-morais-phd)**
-  * [Compute Canada](https://bioinformatics.computecanada.ca/), [Université de Sherbrooke](https://www.usherbrooke.ca/), Canada
+    * [Compute Canada](https://bioinformatics.computecanada.ca/), [Université de Sherbrooke](https://www.usherbrooke.ca/), Canada
 * **[Enis Afgan](https://www.linkedin.com/in/afgane)**
-  * [Johns Hopkins University](https://jhu.edu), United States
+    * [Johns Hopkins University](https://jhu.edu), United States
 * **[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
-  * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium
+    * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium
 * **[Hans-Rudolf Hotz](https://training.galaxyproject.org/training-material/hall-of-fame/hrhotz/)**
-  * [Friedrich Miescher Institute for Biomedical Research](http://www.fmi.ch/), Switzerland
+    * [Friedrich Miescher Institute for Biomedical Research](http://www.fmi.ch/), Switzerland
 * **[Hervé Menager](https://research.pasteur.fr/en/member/herve-menager/)**
-  * [Institut Pasteur](https://pasteur.fr/), France
+    * [Institut Pasteur](https://pasteur.fr/), France
 * **[Nancy Ide](https://www.cs.vassar.edu/~ide/)**
-  * [Vassar College](https://www.vassar.edu/), United States
+    * [Vassar College](https://www.vassar.edu/), United States
 * **[Jeremy Goecks](https://goeckslab.org/people/jeremy.html)**
-  * [Oregon Health and Science University](https://www.ohsu.edu/), United States
+    * [Oregon Health and Science University](https://www.ohsu.edu/), United States
 * **[Maria Doyle](https://au.linkedin.com/in/maria-doyle-11220739)**
-  * [Peter MacCallum Cancer Centre](https://www.petermac.org/), Australia
+    * [Peter MacCallum Cancer Centre](https://www.petermac.org/), Australia
 * **[Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/)**
-  * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
+    * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
 * **[Sveinung Gundersen](https://www.mn.uio.no/ifi/english/people/adm/sveinugu/index.html)**
-  * [University of Oslo](https://www.uio.no/english/), Norway
+    * [University of Oslo](https://www.uio.no/english/), Norway
 * **[Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin)**
-  * [University of Minnesota](https://umn.edu/), United States
+    * [University of Minnesota](https://umn.edu/), United States
 
 ## Contact
 

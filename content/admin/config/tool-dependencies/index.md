@@ -46,8 +46,8 @@ Individual tool configurations should contain `<requirement type="package">` tag
 1. Create a symbolic link from the name `default` to the version directory you just created (this is used for tools which have a package requirement but do not specify a version of that package; most tools behave this way). Note: `default` **must** be a sybolic link, an actual directory named `default` will be ignored.
 1. In the version subdirectory create either:
 
-  * a `bin/` directory or
-  * an `env.sh` file as described below
+* a `bin/` directory or
+* an `env.sh` file as described below
 
 For example, if the `<requirement>` is `<requirement type="package">bowtie</requirement>` and you have installed or plan to install version 0.12.7:
 

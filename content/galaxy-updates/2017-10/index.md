@@ -29,22 +29,22 @@ With the [move to Zotero](/news/2017-09-publication-lib-on-zotero/), we added tw
 The *Galactic* and *Stellar* publications added in September were:
 
 * [wft4galaxy: a workflow testing tool for galaxy](https://doi.org/10.1093/bioinformatics/btx461)
-  * Marco Enrico Piras, Luca Pireddu, Gianluigi Zanetti, *Bioinformatics*, btx461, doi:10.1093/bioinformatics/btx461
+    * Marco Enrico Piras, Luca Pireddu, Gianluigi Zanetti, *Bioinformatics*, btx461, doi:10.1093/bioinformatics/btx461
 * [Satellite DNA: An Evolving Topic](http://www.mdpi.com/2073-4425/8/9/230)
-  * Manuel A. Garrido-Ramos, *Genes* 2017, 8(9), 230; doi:10.3390/genes8090230
+    * Manuel A. Garrido-Ramos, *Genes* 2017, 8(9), 230; doi:10.3390/genes8090230
 * [mmquant: how to count multi-mapping reads?](https://doi.org/10.1186/s12859-017-1816-4)
-  * Matthias Zytnicki, *BMC Bioinformatics*, 201718:411 doi:10.1186/s12859-017-1816-4
+    * Matthias Zytnicki, *BMC Bioinformatics*, 201718:411 doi:10.1186/s12859-017-1816-4
 * [Improving heterologous membrane protein production in Escherichia coli by combining transcriptional tuning and codon usage algorithms](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0184355)
-  * Nico J. Claassens, Melvin F. Siliakus, Sebastiaan K. Spaans, Sjoerd C. A. Creutzburg, Bart Nijsse, Peter J. Schaap, Tessa E. F. Quax, John van der Oost, *PLOS One*, Published: September 13, 2017, doi:10.1371/journal.pone.0184355
+    * Nico J. Claassens, Melvin F. Siliakus, Sebastiaan K. Spaans, Sjoerd C. A. Creutzburg, Bart Nijsse, Peter J. Schaap, Tessa E. F. Quax, John van der Oost, *PLOS One*, Published: September 13, 2017, doi:10.1371/journal.pone.0184355
 * [GWIPS-viz: 2018 update](https://doi.org/10.1093/nar/gkx790)
-  * Audrey M. Michel, Stephen J. Kiniry, Patrick B. F. O’Connor, James P. Mullan, Pavel V. Baranov, *Nucleic Acids Research*, gkx790, doi:10.1093/nar/gkx790  
+    * Audrey M. Michel, Stephen J. Kiniry, Patrick B. F. O’Connor, James P. Mullan, Pavel V. Baranov, *Nucleic Acids Research*, gkx790, doi:10.1093/nar/gkx790  
 * [Big Data for Infectious Diseases Surveillance and the Potential Contribution to the Investigation of Foodborne Disease in Canada](https://nccid.ca/publications/big-data-for-infectious-diseases-surveillance/)
-  * Cheryl Waldner, National Collaborating Centre for Infectious Diseases (NCCID)
+    * Cheryl Waldner, National Collaborating Centre for Infectious Diseases (NCCID)
 * [A Single TCF Transcription Factor, Regardless of Its Activation Capacity, Is Sufficient for Effective Trilineage Differentiation of ESCs](https://doi.org/10.1016/j.celrep.2017.08.043)
-  * Steven Moreira, Enio Polena, Victor Gordon, Solen Abdulla, Sujeivan Mahendram, Jiayi Cao, Alexandre Blais, Geoffrey A. Wood, Anna Dvorkin-Gheva, Bradley W. Doble, *Cell Reports*, Volume 20 , Issue 10 , 2424 - 2438, doi:10.1016/j.celrep.2017.08.043
+    * Steven Moreira, Enio Polena, Victor Gordon, Solen Abdulla, Sujeivan Mahendram, Jiayi Cao, Alexandre Blais, Geoffrey A. Wood, Anna Dvorkin-Gheva, Bradley W. Doble, *Cell Reports*, Volume 20 , Issue 10 , 2424 - 2438, doi:10.1016/j.celrep.2017.08.043
 * [Antigen receptor sequencing of paired bone marrow samples shows homogeneous distribution of acute lymphoblastic leukemia subclones](http://www.haematologica.org/content/early/
   2017/08/28/haematol.2017.171454)
-  * Prisca M.J. Theunissen, David van Zessen, Andrew P. Stubbs, Malek Faham, Michel Zwaan, Jacques J.M. van Dongen, Vincent H.J. Van der Velden, *Haematologica*, August 2017 : haematol.2017.171454; doi:10.3324/haematol.2017.171454
+    * Prisca M.J. Theunissen, David van Zessen, Andrew P. Stubbs, Malek Faham, Michel Zwaan, Jacques J.M. van Dongen, Vincent H.J. Van der Velden, *Haematologica*, August 2017 : haematol.2017.171454; doi:10.3324/haematol.2017.171454
 
 ## Publication Topics
 
@@ -338,7 +338,7 @@ And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
 * From [John Chilton](/people/john-chilton/):
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+    * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 ### Galaxy CloudMan 17.05 on AWS
 
@@ -360,5 +360,5 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 # Other News
 
 * From [Stephen Ficklin](https://www.drupal.org/u/spficklin)
-  * [Tripal Galaxy](https://www.drupal.org/project/tripal_galaxy) in Drupal
+    * [Tripal Galaxy](https://www.drupal.org/project/tripal_galaxy) in Drupal
 * Video: [MSI Tutorial: NGS Galaxy QC (QC of Illumina Data using Galaxy)](https://youtu.be/I6zmPMfiWx4), 2017/07/25. Tutorial Organizer: Lauren Mills

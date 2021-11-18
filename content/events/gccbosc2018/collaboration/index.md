@@ -22,10 +22,10 @@ Both BOSC/OBF and GCC have had collaborative events in the past. We'll be contin
   everyone to get oriented with potential projects at the
   [Training days](https://galaxyproject.org/events/gccbosc2018/training/) and conference.
 * CollaborationFest will happen in two stages
-  * Friday & Saturday: **CollaborationFest: Core:**
-    * There will be lots of collaborative work, but also lots of learning about projects and software.
-  * Sunday & Monday: **CollaborationFest: Encore**
-    * The smaller of the two stages, these two days will focus on collaboration, collaboration, collaboration.
+    * Friday & Saturday: **CollaborationFest: Core:**
+        * There will be lots of collaborative work, but also lots of learning about projects and software.
+    * Sunday & Monday: **CollaborationFest: Encore**
+        * The smaller of the two stages, these two days will focus on collaboration, collaboration, collaboration.
 
 # Three tracks: OBF, Galaxy-Dev, and Galaxy-DAT
 

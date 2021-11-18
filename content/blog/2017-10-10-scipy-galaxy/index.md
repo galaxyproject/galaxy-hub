@@ -22,8 +22,8 @@ keeping the maintenance burden as low as possible.
 
 For this we will rely on two features:
 
- * scipy unified API
- * [`<configfiles>`](https://docs.galaxyproject.org/en/latest/dev/schema.html#tool-configfiles)
+* scipy unified API
+* [`<configfiles>`](https://docs.galaxyproject.org/en/latest/dev/schema.html#tool-configfiles)
 
 
 The scipy API is great, and for example allows us to use all cluster algorithms in a very similar way. Consider the following

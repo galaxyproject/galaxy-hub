@@ -2,10 +2,10 @@ INCLUDE(/UnderConstruction)
 # Datafiles used in various teaching exercises using Mouse mm9 chr19
 
 * Used in ***Using Galaxy to Perform Large-Scale Interactive Data Analysis: A live supplement*** June 2012 Update published in *Current Protocols in Bioinformatics* (pending release)
-  * *Using Galaxy to Perform Large-Scale Interactive Data Analysis* - Publication, June 2012 *CPB*
-  * Complete Live Supplemental - Page, Galaxy [/Main](/main/)
-  * Loading Data and Understanding Datatypes - Screencast, Protocol 2
-  * Calling Peaks for ChIP-seq Data - Screencast, Protocol 3
+    * *Using Galaxy to Perform Large-Scale Interactive Data Analysis* - Publication, June 2012 *CPB*
+    * Complete Live Supplemental - Page, Galaxy [/Main](/main/)
+    * Loading Data and Understanding Datatypes - Screencast, Protocol 2
+    * Calling Peaks for ChIP-seq Data - Screencast, Protocol 3
 * Other
 
 # Mammalian Promoter Database Files
@@ -34,8 +34,8 @@ These files are from the [Transcription Factor Binding Sites by ChIP-seq from EN
 [Sherman Weissman](http://info.med.yale.edu/bcmm/SMW/SMWhome2.html) at Yale University. The exact data can be found at:
 
 * ftp://hgdownload.cse.ucsc.edu/goldenPath/mm9/encodeDCC/wgEncodeSydhTfbs/
-  * wgEncodeSydhTfbsMelCtcfDmso20IggyaleRawDataRep2.fastq.gz - tags dataset
-  * wgEncodeSydhTfbsMelInputDmso20IggyaleRawData.fastq.gz - control dataset (**note**: this is a correction from the control data source listed in the publication)
+    * wgEncodeSydhTfbsMelCtcfDmso20IggyaleRawDataRep2.fastq.gz - tags dataset
+    * wgEncodeSydhTfbsMelInputDmso20IggyaleRawData.fastq.gz - control dataset (**note**: this is a correction from the control data source listed in the publication)
 
 The original files from ENCODE were too large to use in teaching examples, so they have been reduced to contain only data that corresponds to chromosome 19 (the shortest).  
 

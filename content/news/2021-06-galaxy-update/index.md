@@ -90,37 +90,37 @@ We have a [growing list of confirmed speakers and topics](https://gcc2021.sched.
 Some highlights from the confirmed presentations list so far:
 
 * **Galaxy Training Network (GTN) Community Update**
-  * *Saskia Hiltemann*
+    * *Saskia Hiltemann*
 * **Introducing the Intergalactic Workflow Commission**
-  * *Marius van den Beek*
+    * *Marius van den Beek*
 * **Bridging Natural Language Processing and Biomedical Data Analysis**
-  * *Nancy Ide*
+    * *Nancy Ide*
 * **Galaxy Language Server - Develop high-quality Galaxy tool wrappers at intergalactic speed**
-  * *David López*
+    * *David López*
 * **Analysis of Microscopy Data in Galaxy**
-  * *Beatriz Serrano-Solano*
+    * *Beatriz Serrano-Solano*
 * **Open Life Science: An Open Research mentoring and training program**
-  * *Muhammet Celik*
+    * *Muhammet Celik*
 * **Using the Galaxy (Australia) Database to Aid an Undergraduate Investigation of RNF43 Mutations as Biomarkers for ctDNA Surveillance of Colorectal Cancer**
-  * *Jordon Lima*
+    * *Jordon Lima*
 * **Designing a comprehensive workflow for detection and functional annotation of lncRNA**
-  * *Bianca Pasat*
+    * *Bianca Pasat*
 * **MaxQuant and MSstats in Galaxy enable reproducible quantitative high-throughput proteomics for everyone**
-  * *Melanie Föll*
+    * *Melanie Föll*
 * **Modernizing the Galaxy Backend - Typing and the API**
-  * *David López*
+    * *David López*
 * **Modernizing the Galaxy Backend - Data Model**
-  * *Sergey Golitsynskiy*
+    * *Sergey Golitsynskiy*
 * **Fostering Public Health Bioinformatics and Collaboration with GalaxyTrakr**
-  * *Justin Payne*
+    * *Justin Payne*
 * **Updates from the Single-Cell Community**
-  * *Mehmet Tekman*
+    * *Mehmet Tekman*
 * **Galaxy Australia - the influx state of a national eResearch service**
-  * *Gareth Price*
+    * *Gareth Price*
 * **Community engagement and how it influences Galaxy Australia Innovation**
-  * *Johan Gustafsson*
+    * *Johan Gustafsson*
 * **The “ARIES Genomics” Italian public health surveillance system**
-  * *Arnold Knijn*
+    * *Arnold Knijn*
 * ...
 
 See the [GCC2021 schedule](https://gcc2021.sched.com/) for the most current list of confirmed presenters.

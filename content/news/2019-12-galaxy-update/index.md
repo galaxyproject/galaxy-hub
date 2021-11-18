@@ -9,18 +9,18 @@ date: "2019-12-09"
 The *December 2019 Galactic News* is out:
 
 * **[12 Upcoming Events](/news/2019-12-galaxy-update/#events)**
-  * India, PAG, HTS, single cell/microbiome, Barcelona, and more
+    * India, PAG, HTS, single cell/microbiome, Barcelona, and more
 * **[191 new publications](/news/2019-12-galaxy-update/#publications)**
 * **[Two new blog posts](#galactic-blog-activity)**
-  * g:Profiler, GalaxyP
+    * g:Profiler, GalaxyP
 * **[Galaxy Platform News](/news/2019-12-galaxy-update/#galaxy-platforms-news)**
-  * Systems biology, Laniakea, OpenRefine, ...
+    * Systems biology, Laniakea, OpenRefine, ...
 * **[Training material and doc updates](/news/2019-12-galaxy-update/#doc-hub-and-training-updates)**
-  * defining data types, citing GTN, Windows, account help, metatranscriptomics, Galaxy for everyone
+    * defining data types, citing GTN, Windows, account help, metatranscriptomics, Galaxy for everyone
 * **[Openings](/news/2019-12-galaxy-update/#whos-hiring)**
-  *  with 5 organizations in Denmark, France, US, US, Germany
+    *  with 5 organizations in Denmark, France, US, US, Germany
 * **[Releases](#releases)**
-  * Galaxy 19.09 is out
+    * Galaxy 19.09 is out
 * And **[other news too](/news/2019-12-galaxy-update/#other-news)**
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -366,9 +366,9 @@ The [19.09 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/
 
 * [Embedded reports in workflows](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html#highlights)
 * [New visualizations](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html#new-visualizations)
-  * free style image annotation, allowing you to make notes on images in Galaxy and save these annotations (from [Anup Kumar](https://github.com/anuprulez))
-  * OpenLayers based map visualization, allowing you to visualize your GIS data in Galaxy (also from [Anup Kumar](https://github.com/anuprulez))
-  * And HyPhy-Vision (from [iGEM/UCSD](https://github.com/veg)), and [iCn3D](https://doi.org/10.1093/bioinformatics/btz502)
+    * free style image annotation, allowing you to make notes on images in Galaxy and save these annotations (from [Anup Kumar](https://github.com/anuprulez))
+    * OpenLayers based map visualization, allowing you to visualize your GIS data in Galaxy (also from [Anup Kumar](https://github.com/anuprulez))
+    * And HyPhy-Vision (from [iGEM/UCSD](https://github.com/veg)), and [iCn3D](https://doi.org/10.1093/bioinformatics/btz502)
 * Lots of [new datatypes](https://docs.galaxyproject.org/en/master/releases/19.09_announce_user.html#new-datatypes).
 * A [new type of interactive Galaxy tool](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html#highlights) has been implemented
 * A [New Toolshed Client Interface](https://docs.galaxyproject.org/en/master/releases/19.09_announce.html#highlights)

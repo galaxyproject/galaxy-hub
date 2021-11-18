@@ -9,8 +9,8 @@ date: "2019-02-01"
 The *February  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.
 
 * [Event News](/news/2019-02-galaxy-update/#event-news)
-  * **[Voting on GCC2019 training topics open through February 4th!](/news/2019-02-galaxy-update/#gcc2019-training-topic-voting-is-open)**.
-  * **[ELIXIR Galaxy Community Workshop](/news/2019-02-galaxy-update/#elixir-galaxy-community-workshop)** pre-registration is open!
+    * **[Voting on GCC2019 training topics open through February 4th!](/news/2019-02-galaxy-update/#gcc2019-training-topic-voting-is-open)**.
+    * **[ELIXIR Galaxy Community Workshop](/news/2019-02-galaxy-update/#elixir-galaxy-community-workshop)** pre-registration is open!
 * [GalaxyAdmins needs your topic suggestions](/news/2019-02-galaxy-update/#galaxyadmins-needs-your-topic-suggestions).
 * [160 new publications](/news/2019-02-galaxy-update/#publications), great resources lead to great insight.
 * Some most excellent [Galaxy Platform News](/news/2019-02-galaxy-update/#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
@@ -277,10 +277,10 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 There are two new *[Galactic Blog](/blog/)* entries:
 
 * **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/blog/2019-01-totm/):**
-  * read about using Prokka for annotation of draft genome sequences
-  * by Bérénice Batut
+    * read about using Prokka for annotation of draft genome sequences
+    * by Bérénice Batut
 * **[Hey Galaxy People! Want easy proteo-transcriptomics!??!](https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)**
-  * an enthusiastic post by [Ben Orsburn](https://proteomicsnews.blogspot.com/p/contact.html) about [QuanTP](/news/2019-02-galaxy-update/#quantp)
+    * an enthusiastic post by [Ben Orsburn](https://proteomicsnews.blogspot.com/p/contact.html) about [QuanTP](/news/2019-02-galaxy-update/#quantp)
 
 ----
 
@@ -293,10 +293,10 @@ The *dark energy* of irreproducible research is threatening the science universe
 * [Genomic data analyst](/news/2019-01-artbio-postdoc/), [ARTbio](http://artbio.fr/), Institut de Biology Paris Seine, campus Jussieu of the Sorbonne-Université, Paris, France
 * [Cloud Engineer V](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States.
 * ELIXIR Belgium has **four Galaxy-related openings** in Ghent:
-  * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
-  * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
+    * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software."
 * [M2 - bio-informatique](https://www.sfbi.fr/content/m2-bio-informatique-laboratoire-de-virologie-h%C3%B4pital-st-louis), Laboratoire de Virologie , Hôpital St Louis, Paris, France.
 * [Bioinformatics Scientist](https://www.providenceiscalling.jobs/portland-or/bioinformatics-scientist/E4987CF3970846FDBB268E76297287DC/job/), Providence Health Services, Portland, Oregon, United States. Looking for someone "fluent in Galaxy or willing to learn"
@@ -308,7 +308,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
 * [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
-  * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
+    * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States.
 
@@ -365,7 +365,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 * The [Galaxy statistics page](/galaxy-project/statistics/) has received it's semi-annual update.
 * From [James Taylor](/people/james-taylor/):
-  * [Visualizing scRNA-Seq data](https://twitter.com/jxtx/status/1088580033512390657/video/1) using [cellxgene](https://github.com/chanzuckerberg/cellxgene/blob/master/README.md) inside Galaxy.
+    * [Visualizing scRNA-Seq data](https://twitter.com/jxtx/status/1088580033512390657/video/1) using [cellxgene](https://github.com/chanzuckerberg/cellxgene/blob/master/README.md) inside Galaxy.
 
 ## PAG 2019 Presentations and Posters are Available
 

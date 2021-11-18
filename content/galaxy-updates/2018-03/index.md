@@ -423,5 +423,5 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 # Other News
 
 * From Björn Grüning
-  * New Galaxy tutorial by Simon Gladman and Torsten Seeman about [Microbial Variant Calling using snippy](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/microbial-variants/tutorial.html).
-  * This is big: [Aysam Guerler](/people/guerler/) has reworked the Galaxy visualization plugin architecture.
+    * New Galaxy tutorial by Simon Gladman and Torsten Seeman about [Microbial Variant Calling using snippy](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/microbial-variants/tutorial.html).
+    * This is big: [Aysam Guerler](/people/guerler/) has reworked the Galaxy visualization plugin architecture.

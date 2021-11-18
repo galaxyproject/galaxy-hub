@@ -17,7 +17,7 @@ The **[September Galactic News](/galaxy-updates/2015-09/)** is hot off the press
 * [14 upcoming events in 5 countries on 3 continents in the next 2 months](/galaxy-updates/2015-09/#upcoming-events).  
 * [Who's Hiring](/galaxy-updates/2015-09/#whos-hiring)
 * [Two new public Galaxy servers](/galaxy-updates/2015-09/#new-public-galaxy-servers):
-  * [Workflow4Metabolomics](/galaxy-updates/2015-09/#workflow4metabolomics) and [EpiToolKit](/galaxy-updates/2015-09/#epitoolkit)
+    * [Workflow4Metabolomics](/galaxy-updates/2015-09/#workflow4metabolomics) and [EpiToolKit](/galaxy-updates/2015-09/#epitoolkit)
 * [Three security advisories](/galaxy-updates/2015-09/#security-advisories), [Recent Releases](/galaxy-updates/2015-09/#other-releases), and [ToolShed Contributions](/galaxy-updates/2015-09/#toolshed-contributions)
 
 [Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

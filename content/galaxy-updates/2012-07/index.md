@@ -212,14 +212,14 @@ A new version of CloudMan was [Released in June](/news/new-cloudman-release/).
 
 1. Several new videos, screencasts, and tutorials were posted:
 
-  * [OpenHelix Video Tip of the Week: Visualizing the Galaxy](http://blog.openhelix.eu/?p=12439)
-  * [Using PhyloTastic Tools inside Galaxy](http://www.youtube.com/watch?v=kMME658xOu4&feature=youtu.be), by Rutger Vos
-  * [Getting Started with the CloudMan Platform Using BioCloudCentral](http://www.youtube.com/watch?v=AKu_CbbgEj0), by [Enis Afgan](/people/enis-afgan/)
-  * [Using Galaxy for NGS Analysis](http://chagall.med.cornell.edu/galaxy/), by [Luce Skrabanek](mailto:las2017 AT med DOT cornell DOT edu)
-  * [RNA-Seq Course v1.0 documentation](http://training.bioinformatics.ucdavis.edu/docs/2012/05/RNA/index.html), by [UC Davis Bioinformatics Professional Training Program](http://training.bioinformatics.ucdavis.edu/)
-  * [Cloud Computing for Bioinformatics](http://training.bioinformatics.ucdavis.edu/docs/2012/05/AWS/index.html) (using AWS and Galaxy, but not using CloudMan), by [UC Davis Bioinformatics Professional Training Program](http://training.bioinformatics.ucdavis.edu/)
-  * [Genomic Resequencing Variant Detection and Interpretation in a Diagnostic Context Hands on workshop: Next generation sequence data analysis](https://humgenprojects.lumc.nl/trac/GAPSS3/wiki/resequencing), by [Hailiang (Leon) Mei](http://www.nbic.nl/about-nbic/nbic-faculty/details/hailiang-leon-mei/), [Jeroen Laros](http://www.liacs.nl/~jlaros/)
+* [OpenHelix Video Tip of the Week: Visualizing the Galaxy](http://blog.openhelix.eu/?p=12439)
+* [Using PhyloTastic Tools inside Galaxy](http://www.youtube.com/watch?v=kMME658xOu4&feature=youtu.be), by Rutger Vos
+* [Getting Started with the CloudMan Platform Using BioCloudCentral](http://www.youtube.com/watch?v=AKu_CbbgEj0), by [Enis Afgan](/people/enis-afgan/)
+* [Using Galaxy for NGS Analysis](http://chagall.med.cornell.edu/galaxy/), by [Luce Skrabanek](mailto:las2017 AT med DOT cornell DOT edu)
+* [RNA-Seq Course v1.0 documentation](http://training.bioinformatics.ucdavis.edu/docs/2012/05/RNA/index.html), by [UC Davis Bioinformatics Professional Training Program](http://training.bioinformatics.ucdavis.edu/)
+* [Cloud Computing for Bioinformatics](http://training.bioinformatics.ucdavis.edu/docs/2012/05/AWS/index.html) (using AWS and Galaxy, but not using CloudMan), by [UC Davis Bioinformatics Professional Training Program](http://training.bioinformatics.ucdavis.edu/)
+* [Genomic Resequencing Variant Detection and Interpretation in a Diagnostic Context Hands on workshop: Next generation sequence data analysis](https://humgenprojects.lumc.nl/trac/GAPSS3/wiki/resequencing), by [Hailiang (Leon) Mei](http://www.nbic.nl/about-nbic/nbic-faculty/details/hailiang-leon-mei/), [Jeroen Laros](http://www.liacs.nl/~jlaros/)
 
 1. Several new and updated genomes were added to [Galaxy Main](/main/) in June:
 
-  * bosTau4, bosTau6, bosTauMd3, canFam2, ce10, gorGor3, mm9, mm10, panTro3, rn4,
+* bosTau4, bosTau6, bosTauMd3, canFam2, ce10, gorGor3, mm9, mm10, panTro3, rn4,

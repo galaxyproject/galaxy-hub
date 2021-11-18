@@ -23,8 +23,8 @@ This meeting features three distinct events:
 * **[Researcher Training Day](https://www.embl-abr.org.au/game2017/training-day/)** on 3 February, aimed at biomedical researchers who need to analyse their biological data
 * The **[GAMe 2017 Conference](https://www.embl-abr.org.au/game2017/conference/)** starts 4 February and features two full days of keynotes, accepted and sponsor talks, poster and sponsor sessions, birds­-of-­a­-feather gatherings, a conference dinner and lots of opportunities for networking.
 * Each day has a theme, and participants can register for one or both days.
-  * [BIO Day](https://www.embl-abr.org.au/game2017/conference/#programme): Saturday will have a biology emphasis
-  * [INFO Day](https://www.embl-abr.org.au/game2017/conference/#upstream3): Sunday will focus on infrastructure, tools, and development.
+    * [BIO Day](https://www.embl-abr.org.au/game2017/conference/#programme): Saturday will have a biology emphasis
+    * [INFO Day](https://www.embl-abr.org.au/game2017/conference/#upstream3): Sunday will focus on infrastructure, tools, and development.
 * A **[four day workshop on Galaxy server administration](https://www.embl-abr.org.au/game2017/training-for-admin-workshop/)** runs 5-9 February.  This is the 2nd time this workshop has been offered.  The first time was last month and it was [very well received](https://www.embl-abr.org.au/game2017/training-for-admin-workshop/#instructors).  Don't miss your chance to attend.
 
 ### Keynote Speakers
@@ -56,11 +56,11 @@ Screencasts for the [August](/community/galaxy-admins/meetups/2016-08-18/) and [
 
 * [August](/community/galaxy-admins/meetups/2016-08-18/)
 * *Dynamic Job Expansion: Experiences using [Makeflow](http://ccl.cse.nd.edu/software/makeflow/) in Galaxy*, [Nick Hazekamp](https://engineering.nd.edu/profiles/nhazekamp), [University of Notre Dame](http://www.nd.edu/)
-  * [Video](https://connect.johnshopkins.edu/p9nqie63c7a/)
+    * [Video](https://connect.johnshopkins.edu/p9nqie63c7a/)
 * [December](/community/galaxy-admins/meetups/2016-12-15/)
-  * *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/people/bjoern-gruening/) and  Bérénice Batut, University of Freiburg
-  * *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/people/dannon-baker/), Johns Hopkins University
-  * [Video](https://connect.johnshopkins.edu/p7ek9bf4ez0/)
+    * *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/people/bjoern-gruening/) and  Bérénice Batut, University of Freiburg
+    * *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/people/dannon-baker/), Johns Hopkins University
+    * [Video](https://connect.johnshopkins.edu/p7ek9bf4ez0/)
 
 
 
@@ -308,33 +308,33 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 <div class='right solid'><a href='https://galaxy.pasteur.fr/'><img src="/use/galaxy-pasteur/pasteur-300.png" alt="Galaxy@Pasteur" width="300" /></a></div>
 
 * *Link:*
-  * [Galaxy@Pasteur](https://galaxy.pasteur.fr/)
+    * [Galaxy@Pasteur](https://galaxy.pasteur.fr/)
 * *Domain/Purpose:*
-  * General purpose genomics analysis server.
+    * General purpose genomics analysis server.
 * *User Support:*
-  * [Email Support](mailto:galaxy@pasteur.fr)
+    * [Email Support](mailto:galaxy@pasteur.fr)
 * *Quotas:*
-  * Anonymous access is supported with a reduced quota; anyone can create an account.
+    * Anonymous access is supported with a reduced quota; anyone can create an account.
 * *Sponsor(s):*
-  * [C3BI](https://c3bi.pasteur.fr/) Insitute Pasteur
+    * [C3BI](https://c3bi.pasteur.fr/) Insitute Pasteur
 
 ### Galaxy Sigenae / BioInfo Genotoul
 
 <div class='right solid'><a href='http://sigenae-workbench.toulouse.inra.fr/'><img src="/public-galaxy-servers/archive/galaxy-sigenae.png" alt="Galaxy Sigenae / BioInfo Genotoul" width="300" /></a></div>
 
 * *Link:*
-  * [Galaxy Sigenae / BioInfo Genotoul server](http://sigenae-workbench.toulouse.inra.fr/)
+    * [Galaxy Sigenae / BioInfo Genotoul server](http://sigenae-workbench.toulouse.inra.fr/)
 * *Domain/Purpose:*
-  * Galaxy Sigenae / Genotoul is specialized in SNP, RNAseq, sRNAseq, metagenomics, CHIP-seq, statistics.
+    * Galaxy Sigenae / Genotoul is specialized in SNP, RNAseq, sRNAseq, metagenomics, CHIP-seq, statistics.
 * *Comments:*
-  * [E-learning and training sessions available](http://sig-learning.toulouse.inra.fr/).
+    * [E-learning and training sessions available](http://sig-learning.toulouse.inra.fr/).
 * *User Support:*
-  * [Email Support](mailto:sigenae-support@lites.inra.fr)
-  * The [user-galaxy-toulouse mailing list](http://listes.inra.fr/sympa/info/user-galaxy-toulouse) is used to distribute information to all users of the Galaxy Sigenae platform.
+    * [Email Support](mailto:sigenae-support@lites.inra.fr)
+    * The [user-galaxy-toulouse mailing list](http://listes.inra.fr/sympa/info/user-galaxy-toulouse) is used to distribute information to all users of the Galaxy Sigenae platform.
 * *Quotas:*
-  * BioInfo Genotoul platform reserves the right to purge all files not accessed since 120 days on work/disk space.
+    * BioInfo Genotoul platform reserves the right to purge all files not accessed since 120 days on work/disk space.
 * *Sponsor(s):*
-  * Hosted by [BioInof Genotoul](http://bioinfo.genotoul.fr/) platform. Supported by [Europe and Région Occitanie](http://www.midipyrenees.fr/Midi-Pyrenees-en-Europe).
+    * Hosted by [BioInof Genotoul](http://bioinfo.genotoul.fr/) platform. Supported by [Europe and Région Occitanie](http://www.midipyrenees.fr/Midi-Pyrenees-en-Europe).
 
 
 ## New Semi-public Galaxy Services
@@ -346,18 +346,18 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 <div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/galaxy-services/cancer-computer-logo-256.jpg" alt="Cancer Computer" width="120"/></a></div>
 
 * *Links:*
-  * **[Request access](http://www.cancercomputer.com/contact/)**
+    * **[Request access](http://www.cancercomputer.com/contact/)**
 * *Eligibility:*
-  * Cancer or related research only.
+    * Cancer or related research only.
 * *Comments:*
-  * 2 x Dual Hexacore HP DL380 with 288GB each Tools for genomics, proteinomics & sequence analysis We can load tools on request
+    * 2 x Dual Hexacore HP DL380 with 288GB each Tools for genomics, proteinomics & sequence analysis We can load tools on request
 * *User Support:*
-  * Best effort by email. For SLA support, please contact.
+    * Best effort by email. For SLA support, please contact.
 * *Quotas:*
-  * Free to approved academic users Up to 6 Cores, 64GB RAM per user, less than 90 days.
-  * Larger, private instances available, please contact (>16Cores, >64GB, MPI, GPU customizable instances available in private cloud)
+    * Free to approved academic users Up to 6 Cores, 64GB RAM per user, less than 90 days.
+    * Larger, private instances available, please contact (>16Cores, >64GB, MPI, GPU customizable instances available in private cloud)
 * *Sponsor(s):*
-  * [Cancer Computer](http://www.cancercomputer.com/)
+    * [Cancer Computer](http://www.cancercomputer.com/)
 
 
 # Galaxy Community Hubs

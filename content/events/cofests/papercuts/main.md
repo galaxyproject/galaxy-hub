@@ -32,20 +32,20 @@ First, you can register your interest.  We'll send you information and a reminde
 Papercuts CoFests are held regularly (see below), and it's easy to get involved in the very next one.
 
 * **Before**
-  * Each Papercuts event page has links to issues. in different parts of Galaxy, that have been flagged by experienced community members as being "fixable during a Papercuts."
-  * Figure out which of these projects interest you the most.
-  * Do some (even a little bit is useful) on that project.
-  * Each event has conference calls, every 3-4 hours, going around the world.  Look at the schedule and figure out which calls you can make it to.
+    * Each Papercuts event page has links to issues. in different parts of Galaxy, that have been flagged by experienced community members as being "fixable during a Papercuts."
+    * Figure out which of these projects interest you the most.
+    * Do some (even a little bit is useful) on that project.
+    * Each event has conference calls, every 3-4 hours, going around the world.  Look at the schedule and figure out which calls you can make it to.
 * **During**
-  * Join the discussion on [Gitter](https://gitter.im/galaxyproject/Lobby).
-  * People on Gitter will provide guidance and resources, and help connect you to folks who specialize in the area you are interested in.
-  * Before the next call, followup with others on Galaxy chat channels.
-  * Be on the next call for a follow up.
+    * Join the discussion on [Gitter](https://gitter.im/galaxyproject/Lobby).
+    * People on Gitter will provide guidance and resources, and help connect you to folks who specialize in the area you are interested in.
+    * Before the next call, followup with others on Galaxy chat channels.
+    * Be on the next call for a follow up.
 * **After**
-  * Stay involved. Galaxy has lots of ways to get involved. Leverage your newly acquired knowledge to ask for help, and to help others.
-  * Get your fixes integrated!  You may or may not get in a fix integrated during the official Papercuts day.  If you don't then stick with it until you have the final polish on it, and it goes in.
-  * Tell everyone you meet that you are now a Galaxy Project contributor.
-  * Join us again for the next Papercuts.
+    * Stay involved. Galaxy has lots of ways to get involved. Leverage your newly acquired knowledge to ask for help, and to help others.
+    * Get your fixes integrated!  You may or may not get in a fix integrated during the official Papercuts day.  If you don't then stick with it until you have the final polish on it, and it goes in.
+    * Tell everyone you meet that you are now a Galaxy Project contributor.
+    * Join us again for the next Papercuts.
 
 # Papercuts for Students?
 

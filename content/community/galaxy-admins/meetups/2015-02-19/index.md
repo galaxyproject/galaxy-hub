@@ -63,7 +63,7 @@ The  [meetup's online conference room](http://bit.ly/admins1502) will open 15 mi
 ### Instructions for Participants
 
 * You can ask questions either by *raising your hand* or by typing the question in the chat box.  
-  * If you raise your hand, the host will need to recognize you.
-  * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
+    * If you raise your hand, the host will need to recognize you.
+    * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
 <div class='center'><img src="/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>

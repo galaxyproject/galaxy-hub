@@ -14,9 +14,9 @@ Find out [what's happening in the Galaxy](/galaxy-updates/2014-03/).  Highlights
 * [54 new papers](/galaxy-updates/2014-03/#new-papers)
 * [Who's hiring](/galaxy-updates/2014-03/#whos-hiring)
 * [Upcoming Events](/galaxy-updates/2014-03/#events), including
-  * [Galaxy Australasia Workshop 2014 (GAW 2014): 24-25 March](/galaxy-updates/2014-03/#galaxy-australasia-workshop-2014-24-25-march)
-  * [Globus World 2014](/galaxy-updates/2014-03/#globus-world-2014), April 15-17
-  * [Registration](/galaxy-updates/2014-03/#registration-is-open) and [abstract submission](/galaxy-updates/2014-03/#abstract-submission-is-open) for the [2014 Galaxy Community Conference (GCC2014)](/galaxy-updates/2014-03/#gcc2014-june-30---july-2-baltimore) are open
+    * [Galaxy Australasia Workshop 2014 (GAW 2014): 24-25 March](/galaxy-updates/2014-03/#galaxy-australasia-workshop-2014-24-25-march)
+    * [Globus World 2014](/galaxy-updates/2014-03/#globus-world-2014), April 15-17
+    * [Registration](/galaxy-updates/2014-03/#registration-is-open) and [abstract submission](/galaxy-updates/2014-03/#abstract-submission-is-open) for the [2014 Galaxy Community Conference (GCC2014)](/galaxy-updates/2014-03/#gcc2014-june-30---july-2-baltimore) are open
 * [One new and one returning public Galaxy server](/galaxy-updates/2014-03/#new-public-servers)
 * [Feb 10, 2014 Galaxy Distribution](/galaxy-updates/2014-03/#galaxy-distributions)
 * [Tool Shed Contributions](/galaxy-updates/2014-03/#toolshed-contributions)

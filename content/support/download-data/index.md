@@ -5,12 +5,12 @@
 
 Related topics
 
- * [Loading Data](/support/loading-data/)
- * [Moving data between Galaxy servers](/blog/2016-07-moving-data-between-galaxy-instances/)
+* [Loading Data](/support/loading-data/)
+* [Moving data between Galaxy servers](/blog/2016-07-moving-data-between-galaxy-instances/)
 
 Tutorials
 
-  * [Galaxy Training Network (GTN)](https://training.galaxyproject.org/): [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
+* [Galaxy Training Network (GTN)](https://training.galaxyproject.org/): [Data Manipulation](https://training.galaxyproject.org/training-material/topics/galaxy-data-manipulation/)
 
 # Overview
 
@@ -20,7 +20,7 @@ Tutorials
 
 **Transfer/Upload entire histories** after using _"Export to File"_ from the History menu and generating the link or downloading the archive, do one of the following: 1) copy the link in the "from" Galaxy instance, **then** in the "to" Galaxy instance select "Import from File" from the _"User > Saved Histories"_ page and paste in the link into the form OR 2) select a downloaded history archive file to upload it.
 
- * _"Tip"_: If your history is large, consider using _"Copy Datasets"_ from the History menu to move just your most important datasets into a new history, then create the archive from that smaller history. Copied datasets do not consume additional account quota space. Archive creation, download, and transfer will go much quicker with a smaller history not cluttered up with intermediate/error data, or any starting data that you already have and uploaded to Galaxy.
+* _"Tip"_: If your history is large, consider using _"Copy Datasets"_ from the History menu to move just your most important datasets into a new history, then create the archive from that smaller history. Copied datasets do not consume additional account quota space. Archive creation, download, and transfer will go much quicker with a smaller history not cluttered up with intermediate/error data, or any starting data that you already have and uploaded to Galaxy.
 * The video **[Datasets 1](http://vimeo.com/galaxyproject/datasets1)** includes help about different datatypes and what to expect in the download icon (one file or two!).
 
 # Large Datasets

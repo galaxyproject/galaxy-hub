@@ -26,39 +26,39 @@ First, everyone needs data, so including some data management capabilities direc
 
 * per tool, etc.
 * Indexing on-the-fly
-  * allowing **reuse**
-    * by same user (already exists in some places)
-    * by other users
+    * allowing **reuse**
+        * by same user (already exists in some places)
+        * by other users
 
 ### Automation
 
 * Easily add builds when creating/updating a Galaxy instance
-  * data repository
-  * fetch on demand
+    * data repository
+    * fetch on demand
 
 ### Genome Build Metadata
 
 * **Transparency** is important to enable **reproducibility**
 * Info that users need to see
-  * Differences between builds (hg19 to hg18, for example)
-  * The source for the build data
-  * When the data was obtained
-  * How exactly it was (pre)processed before being released on Galaxy
-  * The chromosome naming standard ("chr1" vs. "1" etc.)
-  * Length file ??
+    * Differences between builds (hg19 to hg18, for example)
+    * The source for the build data
+    * When the data was obtained
+    * How exactly it was (pre)processed before being released on Galaxy
+    * The chromosome naming standard ("chr1" vs. "1" etc.)
+    * Length file ??
 * How to display the info to users?
-  * Tab across top menu bar
-    * Suggestions for tab display name: "Genome Info", "Reference Data", "Reference Genome"
-    * Page would contain detailed info on all built-in data
-  * Link from history item to that particular build info
-    * Does all info about build need to be displayed, or just some of it?
+    * Tab across top menu bar
+        * Suggestions for tab display name: "Genome Info", "Reference Data", "Reference Genome"
+        * Page would contain detailed info on all built-in data
+    * Link from history item to that particular build info
+        * Does all info about build need to be displayed, or just some of it?
 
 ### Best practices
 
 * Should be established for some things that shouldn't really be included in the Galaxy distribution
-  * Genome data directory structure
-  * Build file naming conventions
-  * dbkey naming conventions
+    * Genome data directory structure
+    * Build file naming conventions
+    * dbkey naming conventions
 
 ## Other Stuff
 

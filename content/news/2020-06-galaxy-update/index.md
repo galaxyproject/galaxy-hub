@@ -162,8 +162,8 @@ The coronavirus outbreak has impacted BCC2020, and just about every other event 
 June is an active month for the Scientific Gateways Community Institute:
 
 * **[Jumpstart Your Sustainability Plan mini-course](https://sciencegateways.org/engage/focus-week/jumpstart)**
-  * June 16-18, with main presentations 12-1:30 pm ET each day, and optional office hours and special topics presentations from 2-5 pm ET
-  * **Register by June 12, 2020**
+    * June 16-18, with main presentations 12-1:30 pm ET each day, and optional office hours and special topics presentations from 2-5 pm ET
+    * **Register by June 12, 2020**
 * **[Galaxy: Powering Science from the Desktop to Global Cyberinfrastructure](https://sciencegateways.org/engage/webinars)**, June 24, Nate Coraor.
 
 </div>
@@ -222,9 +222,9 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 The **[MaREA4Galaxy server](http://bimib.disco.unimib.it:5555/)** supports the *Metabolic Reaction Enrichment Analysis and visualization of RNA-seq data* toolset.  This includes tools to
 
-  * Compute Reaction Activity Scores from gene expression (RNA-seq) dataset(s).
-  * Cluster analysis of any dataset, according to most used algorithms: K-means, agglomerative clustering and DBSCAN.
-  * Analyze and visualize differences in the Reaction Activity Scores (RASs) of groups of samples, as computed by the Expression2RAS tool, of groups of samples.
+* Compute Reaction Activity Scores from gene expression (RNA-seq) dataset(s).
+* Cluster analysis of any dataset, according to most used algorithms: K-means, agglomerative clustering and DBSCAN.
+* Analyze and visualize differences in the Reaction Activity Scores (RASs) of groups of samples, as computed by the Expression2RAS tool, of groups of samples.
 
 </div>
 

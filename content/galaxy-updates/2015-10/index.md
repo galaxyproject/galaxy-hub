@@ -318,20 +318,20 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='float-right'><a href='http://webtools.sb-roscoff.fr/'><img src="/images/logos/ABiMSLogo.png" alt="ABiMS Tools Galaxy Server"  /></a></div>
 
 * *Link:*
-  * [ABiMS Tools Server](http://webtools.sb-roscoff.fr/)
+    * [ABiMS Tools Server](http://webtools.sb-roscoff.fr/)
 * *Domain/purpose:*
-  * "Hosts tools/resources developed at the [Station Biologique de Roscoff](http://www.sb-roscoff.fr/) in collaboration with [ABiMS](http://abims.sb-roscoff.fr/)."
+    * "Hosts tools/resources developed at the [Station Biologique de Roscoff](http://www.sb-roscoff.fr/) in collaboration with [ABiMS](http://abims.sb-roscoff.fr/)."
 * *Comments:*
-  * Available tools:
-    * [MicRhoDE workflow](http://application.sb-roscoff.fr/micrhode): places query sequences into MicRhoDE tree (type-1 rhodopsin phylogeny).
-    * [Renkan Blast](http://renkan.sb-roscoff.fr/): blast query sequences on 18S and 28S radiolaria databases (blastn).
-    * [WiseScaffolder](http://abims.sb-roscoff.fr/wisescaffolder): genome scaffolding of pre-assembled contigs using mate-pair data.
-    * [HECTAR](http://www.sb-roscoff.fr/hectar/): HEterokont subCellular TARgeting is a statistical prediction method designed to assign proteins to five different categories of subcellular targeting: Signal peptides, type II signal anchors, chloroplast transit peptides, mitochondrion transit peptides and proteins which do not possess any N-terminal target peptide.
+    * Available tools:
+        * [MicRhoDE workflow](http://application.sb-roscoff.fr/micrhode): places query sequences into MicRhoDE tree (type-1 rhodopsin phylogeny).
+        * [Renkan Blast](http://renkan.sb-roscoff.fr/): blast query sequences on 18S and 28S radiolaria databases (blastn).
+        * [WiseScaffolder](http://abims.sb-roscoff.fr/wisescaffolder): genome scaffolding of pre-assembled contigs using mate-pair data.
+        * [HECTAR](http://www.sb-roscoff.fr/hectar/): HEterokont subCellular TARgeting is a statistical prediction method designed to assign proteins to five different categories of subcellular targeting: Signal peptides, type II signal anchors, chloroplast transit peptides, mitochondrion transit peptides and proteins which do not possess any N-terminal target peptide.
 * *User support*:
-  * For any question or request for tools or account, send an email at [ABiMS Support](mailto:support.abims@sb-roscoff.fr)
+    * For any question or request for tools or account, send an email at [ABiMS Support](mailto:support.abims@sb-roscoff.fr)
 * *Sponsor(s):*
-  * [ABiMS](http://abims.sb-roscoff.fr/)
-  * [Station Biologique de Roscoff](http://www.sb-roscoff.fr/)
+    * [ABiMS](http://abims.sb-roscoff.fr/)
+    * [Station Biologique de Roscoff](http://www.sb-roscoff.fr/)
 
 <br />
 

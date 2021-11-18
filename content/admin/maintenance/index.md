@@ -13,21 +13,21 @@ Many admins update to each new release, though update frequency largely depends 
 1. Read [release notes](/docs/#releases) and look for possible breakage, security fixes, new features,
 1. Update code to the chosen release branch (release_17.01 here).
 
- * New Galaxy repository: `$ git clone -b release_17.01 https://github.com/galaxyproject/galaxy.git`
- * Update of existing repository: `$ git checkout release_17.01 && git pull --ff-only origin release_17.01`
+* New Galaxy repository: `$ git clone -b release_17.01 https://github.com/galaxyproject/galaxy.git`
+* Update of existing repository: `$ git checkout release_17.01 && git pull --ff-only origin release_17.01`
 
 1. Run `./scripts/common_startup.sh` before restarting the server to update Galaxy's virtualenv
 1. (when prompted) Update Galaxy database
 
- * Backup Galaxy database (e.g. `pg_dump -U <username> <database> > galaxy-backup-$(date "+%s").sql`).
- * Migrate your DB with `sh manage_db.sh upgrade`.
+* Backup Galaxy database (e.g. `pg_dump -U <username> <database> > galaxy-backup-$(date "+%s").sql`).
+* Migrate your DB with `sh manage_db.sh upgrade`.
 
 1. Search conflicts and resolve (check `git status`),
 1. Diff `config/galaxy.ini` and `config/galaxy.ini.sample` to check for possible new features/changes,
 1. In general all config files should be merged with the *.sample files.
 
-  * meld is a good graphical editor for this
-  * some of us prefer something like `vimdiff`
+* meld is a good graphical editor for this
+* some of us prefer something like `vimdiff`
 
 1. (when prompted) Run tool migration scripts (e.g. `sh ./scripts/migrate_tools/0011_tools.sh install_dependencies`).
 1. Notify your user group and share the release notes.

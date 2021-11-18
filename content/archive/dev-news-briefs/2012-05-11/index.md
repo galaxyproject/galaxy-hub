@@ -84,10 +84,10 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
 [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/)
 
 * **NGS: GATK Tools (beta)**
-  * Added **[GATK](http://www.broadinstitute.org/gsa/wiki) version 1.4**
-    * Compiled from [v1.4-18-g80a4ce0](http://github.com/broadgsa/gatk)
-    * *Genome Analysis Toolkit (beta) tool group includes*: Depth of Coverage on BAM files; Print Reads from BAM files; Realigner Target; Creator for use in local realignment; Indel Realigner - perform local realignment; Count Covariates on BAM files; Table Recalibration on BAM files; Analyze Covariates - draw plots; Unified Genotyper SNP and indel caller; Variant Annotator; Variant Filtration on VCF files; Select Variants from VCF files; Variant Recalibrator; Apply Variant Recalibration; Validate Variants; Eval Variants; Combine Variants.
-  * Additional tool documentation developing over next few months. For now, refer to [GATK tool author help](http://www.broadinstitute.org/gsa/wiki).
+    * Added **[GATK](http://www.broadinstitute.org/gsa/wiki) version 1.4**
+        * Compiled from [v1.4-18-g80a4ce0](http://github.com/broadgsa/gatk)
+        * *Genome Analysis Toolkit (beta) tool group includes*: Depth of Coverage on BAM files; Print Reads from BAM files; Realigner Target; Creator for use in local realignment; Indel Realigner - perform local realignment; Count Covariates on BAM files; Table Recalibration on BAM files; Analyze Covariates - draw plots; Unified Genotyper SNP and indel caller; Variant Annotator; Variant Filtration on VCF files; Select Variants from VCF files; Variant Recalibrator; Apply Variant Recalibration; Validate Variants; Eval Variants; Combine Variants.
+    * Additional tool documentation developing over next few months. For now, refer to [GATK tool author help](http://www.broadinstitute.org/gsa/wiki).
 
 </div><a href='/learn/'><img src="/images/news-graphics/2012_05_11_gatk-workflow.png" alt="gatk-workflow" width="800px" /></a></div>
 * **NGS: Variant Detection**
@@ -121,14 +121,14 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
 [Tool Shed](/toolshed/)
 
 * **Features**
-  * The tool shed's upload process will automatically eliminate undesired directories (.svn, .git, .hg, .cvs) and file (hgrc, .jhg_archival.txt, .DS_Store) from the archive before committing the contents to the repository.  This provides for a more pristine environment for those that install the repository locally.
-  * You can now browse your invalid tools in the tool shed, and clicking on an invalid tools will display information about why it is invalid.  The definition of a valid tool in the tool shed has always been restricted to the tool properly loading in a Galaxy instance and that no required dependent files are missing.  If a tool is not valid, it will not be returned in a search and it cannot be automatically installed (unless it belongs to a repository containing other valid tools).  Only valid tools should be shared in the tool shed or its value will diminish over time.   Tool developers should browse their invalid tools and make corrections to them if necessary.
-  * Reminder to include tool dependency installation instructions or licensing information in your repository ([wiki](/toolshed/readme-files/)). Tool dependency installation instructions or licensing information should be included in your repository in a file named one of (case is ignored) `readme, readme.txt, read_me, read_me.txt`.  When a user installs a single repository into their local Galaxy instance, the contents of the file will be displayed on the tool panel section selection page.  Care must be taken when including instructions or other information in `README` files to ensure the content is clear and correct.
+    * The tool shed's upload process will automatically eliminate undesired directories (.svn, .git, .hg, .cvs) and file (hgrc, .jhg_archival.txt, .DS_Store) from the archive before committing the contents to the repository.  This provides for a more pristine environment for those that install the repository locally.
+    * You can now browse your invalid tools in the tool shed, and clicking on an invalid tools will display information about why it is invalid.  The definition of a valid tool in the tool shed has always been restricted to the tool properly loading in a Galaxy instance and that no required dependent files are missing.  If a tool is not valid, it will not be returned in a search and it cannot be automatically installed (unless it belongs to a repository containing other valid tools).  Only valid tools should be shared in the tool shed or its value will diminish over time.   Tool developers should browse their invalid tools and make corrections to them if necessary.
+    * Reminder to include tool dependency installation instructions or licensing information in your repository ([wiki](/toolshed/readme-files/)). Tool dependency installation instructions or licensing information should be included in your repository in a file named one of (case is ignored) `readme, readme.txt, read_me, read_me.txt`.  When a user installs a single repository into their local Galaxy instance, the contents of the file will be displayed on the tool panel section selection page.  Care must be taken when including instructions or other information in `README` files to ensure the content is clear and correct.
 * **Updates:**
-  * Mercurial eggs have been introduced to handle all tool shed mercurial-related features, so mercurial package installation is no longer necessary to use your local Galaxy instance in combination with any Galaxy tool shed.  However, you're still required to install mercurial in order to clone any of the Galaxy / Galaxy tool shed source code repositories ( galaxy-central, galaxy-dist, etc ) and get source code updates for them using mercurial.
-  * Invalid tools are now displayed in the "Preview tools and inspect metadata by tool version" section when viewing or managing the repository.
-  * Enable a tool shed administrator to reset all repository metadata in the entire tool shed.
-  * Enable a tool shed admin to be able to view and regenerate tool shed statistics.
+    * Mercurial eggs have been introduced to handle all tool shed mercurial-related features, so mercurial package installation is no longer necessary to use your local Galaxy instance in combination with any Galaxy tool shed.  However, you're still required to install mercurial in order to clone any of the Galaxy / Galaxy tool shed source code repositories ( galaxy-central, galaxy-dist, etc ) and get source code updates for them using mercurial.
+    * Invalid tools are now displayed in the "Preview tools and inspect metadata by tool version" section when viewing or managing the repository.
+    * Enable a tool shed administrator to reset all repository metadata in the entire tool shed.
+    * Enable a tool shed admin to be able to view and regenerate tool shed statistics.
 
 <br />
 # Galaxy Track Browser (GTB)
@@ -161,10 +161,10 @@ Tools using the process described at '[Admin/Tools/MultipleOutputFiles](/admin/t
 * Updates to tabular chunked display to force text content of cells. (resolves VCF display issues)
 * Galaxy will now warn clients that try to navigate away from the Galaxy analysis interface while a file is uploading.  This was likely the cause of many interrupted uploads in the past.
 * Model–view–controller (MVC)
-  * Add `backbone.js, underscore.js, and handlebars.js` libraries in a new `/libs` directory and modify pack scripts accordingly.
-  * Use Backbone-based code to render and search tool panel.
-  * Add a `transform_publicname` method that coerces a provided string into a valid public name. This is now invoked during user creation to help guide the selection of an acceptable public name.
-  * Add `rerun` and `show info` buttons to discarded datasets (usually deleted before job finished)
+    * Add `backbone.js, underscore.js, and handlebars.js` libraries in a new `/libs` directory and modify pack scripts accordingly.
+    * Use Backbone-based code to render and search tool panel.
+    * Add a `transform_publicname` method that coerces a provided string into a valid public name. This is now invoked during user creation to help guide the selection of an acceptable public name.
+    * Add `rerun` and `show info` buttons to discarded datasets (usually deleted before job finished)
 
 <br />
 # Source

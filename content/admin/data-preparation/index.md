@@ -264,9 +264,9 @@ The index files that will be creates for Bowtie2 are:
 
 * Know where the data is
 * Know where the `bowtie_index.loc`, `bowtie_index_color.loc`, and `bowtie2_index.loc` files comes from and where they should be placed to be used
-  * initially are named `/galaxy-dist/tool-data/bowtie_index.loc.sample`, (`/galaxy-dist/tool-data/bowtie_index_color.loc.sample`, and `/galaxy-dist/tool-data/bowtie2_index.loc.sample`
-  * from the Tool Shed repository
-  * to your Galaxy instance
+    * initially are named `/galaxy-dist/tool-data/bowtie_index.loc.sample`, (`/galaxy-dist/tool-data/bowtie_index_color.loc.sample`, and `/galaxy-dist/tool-data/bowtie2_index.loc.sample`
+    * from the Tool Shed repository
+    * to your Galaxy instance
 * Follow instructions in sample file to add in rows for each database. One row per database.
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
@@ -303,9 +303,9 @@ Note: that if using BWA version earlier than 5.10, you will also see the followi
 
 * Know where the data is
 * Know where the `bwa_index.loc` file comes from and where it should be placed to be used
-  * initially are named (`/galaxy-dist/tool-data/bwa_index.loc.sample` and (`/galaxy-dist/tool-data/bwa_index_color.loc.sample`
-  * from the Tool Shed repository
-  * to your Galaxy instance
+    * initially are named (`/galaxy-dist/tool-data/bwa_index.loc.sample` and (`/galaxy-dist/tool-data/bwa_index_color.loc.sample`
+    * from the Tool Shed repository
+    * to your Galaxy instance
 * Follow instructions in sample file to add in rows for each database. One row per database.
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
@@ -341,9 +341,9 @@ Place a relative symbolic link to the original FASTA file in the same location a
 
 * Know where the data is
 * Know where the `sam_fa_index.loc` file comes from and where it should be placed to be used
-  * initially is named (`/galaxy-dist/tool-data/sam_fa_index.loc.sample`
-  * from the distribution
-  * to your Galaxy instance
+    * initially is named (`/galaxy-dist/tool-data/sam_fa_index.loc.sample`
+    * from the distribution
+    * to your Galaxy instance
 * Follow instructions in sample file to add in rows for each database. One row per database.
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
@@ -375,9 +375,9 @@ The Galaxy team places the .2bit file in the same location as the original fasta
 
 * Know where the data is
 * Know where the `lastz_seqs.loc` and `alignseq.loc` files comes from and where they should be placed to be used
-  * initially are named (`/galaxy-dist/tool-data/lastz_seqs.loc.sample` and (`/galaxy-dist/tool-data/alignseq.loc.sample`
-  * lastz comes from the Tool Shed and `alignseq.loc` is one of the key configuration files from the distribution (used for many purposes)
-  * to your Galaxy instance
+    * initially are named (`/galaxy-dist/tool-data/lastz_seqs.loc.sample` and (`/galaxy-dist/tool-data/alignseq.loc.sample`
+    * lastz comes from the Tool Shed and `alignseq.loc` is one of the key configuration files from the distribution (used for many purposes)
+    * to your Galaxy instance
 * Follow instructions in sample file to add in rows for each database. One row per database.
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc

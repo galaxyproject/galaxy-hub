@@ -114,9 +114,9 @@ Third, the tools can be completely disabled by removing them from the tool confi
 1. *Tophat2*: Added an `align_summary` output report. https://trello.com/c/72XqqDQ4
 1. General:
 
-  * Created a shared tool and parameter base on both the client and server side. https://trello.com/c/QTCrzr85
-  * Dictify mixin cleanup. https://trello.com/c/P5fog600
-  * Update to latest select2. https://trello.com/c[/NaGczwr](/archive/dev-news-briefs/2013-11-04/NaGczwr/)T
+* Created a shared tool and parameter base on both the client and server side. https://trello.com/c/QTCrzr85
+* Dictify mixin cleanup. https://trello.com/c/P5fog600
+* Update to latest select2. https://trello.com/c[/NaGczwr](/archive/dev-news-briefs/2013-11-04/NaGczwr/)T
 
 <br />
 # Visualizations
@@ -178,9 +178,9 @@ Third, the tools can be completely disabled by removing them from the tool confi
 1. Björn Grüning contributed a method to implement the ability to change the tool-panel as user preference ( `Dynamic Toolbox Filtering` ). [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool/diff). This was a frequently requested feature by the community and full documentation on this can be found here [UserDefinedToolboxFilters](/user-defined-toolbox-filters/). https://trello.com/c/Xl7CZFMd
 1. Björn Grüning also contributed several extensions allowing developers to utilize new actions simplifying various tool shed dependency definition idioms:
 
-  * `make_install` action.  [#217](https://bitbucket.org/galaxy/galaxy-central/pull-request/217/implementation-of-the-make_install-action)
-  * `autoconf` action. [#218](https://bitbucket.org/galaxy/galaxy-central/pull-request/218/implementation-of-the-configure-make-make)
-  * `setup_r_environment` action. [#219](https://bitbucket.org/galaxy/galaxy-central/pull-request/219/implementation-of-the-a-r_environment-to)
+* `make_install` action.  [#217](https://bitbucket.org/galaxy/galaxy-central/pull-request/217/implementation-of-the-make_install-action)
+* `autoconf` action. [#218](https://bitbucket.org/galaxy/galaxy-central/pull-request/218/implementation-of-the-configure-make-make)
+* `setup_r_environment` action. [#219](https://bitbucket.org/galaxy/galaxy-central/pull-request/219/implementation-of-the-a-r_environment-to)
     Further extensions enhancing this last tag and a corresponding setup_ruby_environment tag from Björn will be forthcoming in the next release.
 
 1. Additionally, Björn Grüning contributed other tool shed and tool related enhancements enhancements: [#205](https://bitbucket.org/galaxy/galaxy-central/pull-request/205/if-you-have-a-repeat-tag-and-want-to-get), [#216](https://bitbucket.org/galaxy/galaxy-central/pull-request/216/move-the-evaluate_template-function-to-the), and [#239](https://bitbucket.org/galaxy/galaxy-central/pull-request/239/add-the-value-namecol-in-a-given-bed-file)
@@ -264,11 +264,11 @@ Several beneficial enhancements have bee added to the support for [defining tool
 1. Support for [repairing an installed repository](http://wiki.galaxyproject.org/RepairingInstalledRepositories) has been enhanced to handle repairing repository dependencies and tool dependencies that are not only in an error state, but may also have one of the "installing" state values. This feature will now properly handle dependencies that are stuck in one of these installing states for some reason.  Existing system processes are not automatically killed (if they happen to exist), but warning messages are displayed.
 1. The [Get Repository Updates](http://wiki.galaxyproject.org/UpdatingInstalledRepositories) feature for installed Tool Shed repositories has been enhanced to support retrieval any type of status from the Tool Shed for the specified repository.  The current list of status categories is:
 
-  * revision updates available
-  * revision upgrades available
-  * the revision is the latest installable revision
-  * the repository has been deprecated in the tool shed
-  * the repository contains exported Galaxy workflows
+* revision updates available
+* revision upgrades available
+* the revision is the latest installable revision
+* the repository has been deprecated in the tool shed
+* the repository contains exported Galaxy workflows
 
 ## Miscellaneous Tool Shed Bug Fixes
 

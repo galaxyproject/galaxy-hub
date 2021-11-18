@@ -128,6 +128,6 @@ When only one version of a genome is available for a tool, it represents the def
 
 Some genomes will have more than one variant available.
 
- - The "Canonical Male" or sometimes simply "Canonical" variant contains the primary chromosomes for a genome. For example a human "Canonical" variant contains chr1-chr22, chrX, chrY, and chrM.
- - The "Canonical Female" variant contains the primary chromosomes excluding chrY.
+- The "Canonical Male" or sometimes simply "Canonical" variant contains the primary chromosomes for a genome. For example a human "Canonical" variant contains chr1-chr22, chrX, chrY, and chrM.
+- The "Canonical Female" variant contains the primary chromosomes excluding chrY.
 

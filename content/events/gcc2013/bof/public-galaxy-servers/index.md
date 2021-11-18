@@ -53,14 +53,14 @@ However the group had other plans and the session became about "Feature requests
 Those included:
 
 * Security and Billing
-  * Galaxy is not designed with security in mind from the ground up.
-  * Authentication needs to be more pluggable.
-  * Galaxy lacks the reporting feature on cpu hours which is sometimes very useful for funding agency.
-  * "We're just in accounting hell at the moment"
+    * Galaxy is not designed with security in mind from the ground up.
+    * Authentication needs to be more pluggable.
+    * Galaxy lacks the reporting feature on cpu hours which is sometimes very useful for funding agency.
+    * "We're just in accounting hell at the moment"
 * Releases  
-  * Every two months is too often for releases
-    * Galaxy lacks a stable release scheme (~twice per year) which makes the life of public Galaxy admin a lot easier.
-  * Better Versioning
+    * Every two months is too often for releases
+        * Galaxy lacks a stable release scheme (~twice per year) which makes the life of public Galaxy admin a lot easier.
+    * Better Versioning
 * Adding an optional phone home feature to install script is going for sustainability of the project.  Being able to say who uses it is a good way to keep being funded.
 * Tool shed is *currently* making things more complicated.
 * Dataset profiligation.  Can easily end up with 3 copies of most of your datasets, just to get files into Galaxy.

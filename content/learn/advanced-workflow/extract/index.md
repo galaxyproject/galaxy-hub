@@ -57,10 +57,10 @@ Allow Galaxy to process the request without interrupting or navigating away from
 ***extract workflow annotated***
 
 * **Structure**
-  * The **Header** contains the labels and top level control functions
-  * The **Left** column represents the tools used in the history to generate datasets
-  * The **Right** column represents the output of those tools
-  * *A **workflow is** primarily **a collection of tools***. When it does contain the output of tools, these will be treated as input datasets. Input datasets are what the user of the workflow selects from existing datasets in the starting history when the workflow is executed.
+    * The **Header** contains the labels and top level control functions
+    * The **Left** column represents the tools used in the history to generate datasets
+    * The **Right** column represents the output of those tools
+    * *A **workflow is** primarily **a collection of tools***. When it does contain the output of tools, these will be treated as input datasets. Input datasets are what the user of the workflow selects from existing datasets in the starting history when the workflow is executed.
 
 * **Header: Workflow name** (orange box): This will be the name of the workflow. Make it meaningful when you create your own.
 

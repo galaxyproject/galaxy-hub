@@ -18,9 +18,9 @@ A list of all awesome contributions from all participants is given below.
 Tools:
 
 * Swap all repeats to multiple='True' where appropriate by [Helena Rasche](/people/helena-rasche/) (@erasche)
-  * https://github.com/galaxyproject/tools-iuc/pull/276
-  * https://github.com/bgruening/galaxytools/issues/246
-  * https://github.com/galaxyproject/tools-devteam/issues/226
+    * https://github.com/galaxyproject/tools-iuc/pull/276
+    * https://github.com/bgruening/galaxytools/issues/246
+    * https://github.com/galaxyproject/tools-devteam/issues/226
 * [bedtools annotate is now collection aware](https://github.com/galaxyproject/tools-iuc/pull/282)
 * [Collection support was added to deepTools](https://github.com/fidelram/deepTools/commit/3bc1d1c6f4e28ac7ff8df79fe4e3f00a195938e6)
 * [Add support for FASTQ R1/R2 pairs using dataset collections](https://github.com/fls-bioinformatics-core/galaxy-tools/commit/5de7f4ba384afb0a67b89c01f6884288b48ab8cf) from [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)

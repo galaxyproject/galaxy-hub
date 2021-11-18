@@ -23,13 +23,13 @@ GCC2012 was hosted by the [University of Illinois at Chicago](http://uic.edu/), 
 ## Who Should Attend?
 
 * **Bioinformatics tool developers and data providers**
-  * Integrate your tools and resources in the Galaxy framework, increasing their visibility, and making them easier to use and integrate with other resources.
+    * Integrate your tools and resources in the Galaxy framework, increasing their visibility, and making them easier to use and integrate with other resources.
 * **Workflow developers and power bioinformatics users**
-  * Use Galaxy to construct complex bioinformatics workflows and then use Galaxy to share them with others, or to publish them to the world.
+    * Use Galaxy to construct complex bioinformatics workflows and then use Galaxy to share them with others, or to publish them to the world.
 * **Sequencing and Bioinformatics core staff**
-  * Local Galaxy deployments can talk directly with your sequencers, simplify your analysis tasks, *and* give your researchers direct access to running their own custom analysis.
+    * Local Galaxy deployments can talk directly with your sequencers, simplify your analysis tasks, *and* give your researchers direct access to running their own custom analysis.
 * **Data and analysis archival specialists**
-  * Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets *and* the computational analyses that produced them.
+    * Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets *and* the computational analyses that produced them.
 
 GCC 2012 is also an opportunity to:
 

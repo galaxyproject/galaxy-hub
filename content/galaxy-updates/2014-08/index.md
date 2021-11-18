@@ -329,16 +329,16 @@ One new [public Galaxy server](/use/) was added to the published list in July:
 <div class='right solid'><a href='http://impet.int-med.uiowa.edu/'><img src="/public-galaxy-servers/archive/im-pet.png" alt="IM-PET" width="300" /></a></div>
 
 * *Link:*
-  * [IM-PET](http://impet.int-med.uiowa.edu/)
+    * [IM-PET](http://impet.int-med.uiowa.edu/)
 * *Domain/Purpose:*
-  * IM-PET makes genome-wide predictions of enhancer-promoter (EP) interactions by integrating multiple types of genomics data.
+    * IM-PET makes genome-wide predictions of enhancer-promoter (EP) interactions by integrating multiple types of genomics data.
 * *Comments:*
-  * See He B *et al.* [Global view of enhancer-promoter interactome in human cells[J] ](http://www.pnas.org/content/111/21/E2191.abstract). *Proceedings of the National Academy of Sciences* of the United States of America, 2014.
+    * See He B *et al.* [Global view of enhancer-promoter interactome in human cells[J] ](http://www.pnas.org/content/111/21/E2191.abstract). *Proceedings of the National Academy of Sciences* of the United States of America, 2014.
 * *User Support:*
-  * Email to [Bing He](mailto:bing-he@uiowa.edu) or [contact the Tan Lab](http://www.healthcare.uiowa.edu/labs/tan/Contact.html)
+    * Email to [Bing He](mailto:bing-he@uiowa.edu) or [contact the Tan Lab](http://www.healthcare.uiowa.edu/labs/tan/Contact.html)
 * *Quotas:*
 * *Sponsor(s):*
-  * [Tan Lab](http://www.healthcare.uiowa.edu/labs/tan/index.htm) at [University of Iowa](http://uiowa.edu)
+    * [Tan Lab](http://www.healthcare.uiowa.edu/labs/tan/index.htm) at [University of Iowa](http://uiowa.edu)
 
 # Galaxy Distributions
 

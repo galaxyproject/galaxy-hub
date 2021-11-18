@@ -10,9 +10,9 @@ The *December  2018 Galactic News* is here!  This is a summary of what is going 
 
 * [Galaxy Help: A new Q&A site for Galaxy](/news/2018-12-galaxy-update/#galaxy-help-a-new-qa-site-for-galaxy)
 * [Event News](/news/2018-12-galaxy-update/#event-news)
-  * [ 2019 Galaxy Admin Training: Advance Registration Closes Dec 31 ](/news/2018-12-galaxy-update/#2019-galaxy-admin-training-advance-registration-closes-dec-31)
-  * [Nominate Topics for GCC2019 Training!](/news/2018-12-galaxy-update/#nominate-topics-for-gcc2019-training)
-  * [GCCBOSC 2018 videos](/news/2018-12-galaxy-update/#gccbosc-2018-videos-are-now-available) and [European Galaxy Days slides](/news/2018-12-galaxy-update/#european-galaxy-days-slides-are-online) are now online
+    * [ 2019 Galaxy Admin Training: Advance Registration Closes Dec 31 ](/news/2018-12-galaxy-update/#2019-galaxy-admin-training-advance-registration-closes-dec-31)
+    * [Nominate Topics for GCC2019 Training!](/news/2018-12-galaxy-update/#nominate-topics-for-gcc2019-training)
+    * [GCCBOSC 2018 videos](/news/2018-12-galaxy-update/#gccbosc-2018-videos-are-now-available) and [European Galaxy Days slides](/news/2018-12-galaxy-update/#european-galaxy-days-slides-are-online) are now online
 * [170 new publications](/news/2018-12-galaxy-update/#publications), including eight highlighted ones
 * [Galaxy Platform News](/news/2018-12-galaxy-update/#galaxy-platforms-news): Three new public servers/services, and eight containers added to the platform directory.
 * Two new [Galactic Blog entries](/news/2018-12-galaxy-update/#new-galactic-blog-posts)
@@ -307,16 +307,16 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
 
 * New [Basics of Machine Learning Tutorial](https://galaxyproject.github.io/training-material/topics/statistics/tutorials/machinelearning/tutorial.html) by [Anna Syme](https://github.com/annasyme), [Anup Kumar](https://github.com/anuprulez), and [Levi Baber](https://github.com/baberlevi).
 * New [Proteogenomics](https://galaxyproject.github.io/training-material/topics/proteomics/) tutorials by [Subina Mehta](https://github.com/subinamehta)
-  * [Proteogenomics 1: Database Creation](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html)
-  * [Proteogenomics 2: Database Search](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html)
-  * [Proteogenomics 3: Novel peptide analysis](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html)
+    * [Proteogenomics 1: Database Creation](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbcreation/tutorial.html)
+    * [Proteogenomics 2: Database Search](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-dbsearch/tutorial.html)
+    * [Proteogenomics 3: Novel peptide analysis](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/proteogenomics-novel-peptide-analysis/tutorial.html)
 * New [Mass spectrometry imaging 1: Loading and exploring MSI data](https://galaxyproject.github.io/training-material/topics/proteomics/tutorials/mass-spectrometry-imaging-loading-exploring-data/tutorial.html), by [Melanie Foell](https://github.com/foellmelanie)
 * New [Introduction to Metabolomics slides](https://galaxyproject.github.io/training-material/topics/metabolomics/slides/introduction.html) by [Gildas Le Corguillé](https://github.com/lecorguille) and Cécile Canlet
 * New Tutorials on [how to Teach and Host Galaxy Training](https://galaxyproject.github.io/training-material/topics/instructors/) by [Bérénice Batut](https://github.com/bebatut), [Helena Rasche](https://github.com/hexylena), and [Saskia Hiltemann](https://github.com/shiltemann):
-  * [Organizing a workshop](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/organize-workshop/tutorial.html)
-  * [Running a workshop as instructor](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/running-workshop/tutorial.html)
-  * [Set up a Galaxy for Training](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/setup-galaxy-for-training/tutorial.html)
-  * [UseGalaxy.eu's Training Infrastructure as a Service](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/setup-tiaas-for-training/tutorial.html)
+    * [Organizing a workshop](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/organize-workshop/tutorial.html)
+    * [Running a workshop as instructor](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/running-workshop/tutorial.html)
+    * [Set up a Galaxy for Training](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/setup-galaxy-for-training/tutorial.html)
+    * [UseGalaxy.eu's Training Infrastructure as a Service](https://galaxyproject.github.io/training-material/topics/instructors/tutorials/setup-tiaas-for-training/tutorial.html)
 * Update to [Visualization of RNA-Seq results with CummeRbund](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/rna-seq-viz-with-cummerbund/tutorial.html) by [Andrea Bagnacani](https://github.com/bagnacan)
 
 And a few enhancements to the [training materials website](https://galaxyproject.github.io/training-material/)
@@ -360,12 +360,12 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 # Other News
 
 * From [Andrew Page](https://quadram.ac.uk/people/andrew-page/) at the [4th Annual European Microbiome Congress](https://microbiomecongress.com/events/microbiome-congress-2018), via [Elizabeth Bik](https://twitter.com/MicrobiomDigest)
-  * At the [Quadram](https://quadram.ac.uk/) we will have 4 Illumina seqeuncers, 1 PromethION long read sequencer, and piles of minION sequencers. My team has 6 PhD level bioinformaticians and computer scientists, and we use Galaxy.
+    * At the [Quadram](https://quadram.ac.uk/) we will have 4 Illumina seqeuncers, 1 PromethION long read sequencer, and piles of minION sequencers. My team has 6 PhD level bioinformaticians and computer scientists, and we use Galaxy.
 * From [ELIXIR Europe](https://twitter.com/ELIXIREurope)
-  * [~ 4000 containers registered in BioContainers](https://github.com/BioContainers/containers) to enable sharing, exchange and reuse of bioinformatics software and facilitate reproducibility of life science research:
+    * [~ 4000 containers registered in BioContainers](https://github.com/BioContainers/containers) to enable sharing, exchange and reuse of bioinformatics software and facilitate reproducibility of life science research:
 * From [Graham Etherington](https://github.com/ethering) and [Nicola Soranzo](https://github.com/nsoranzo)
-  * [Wrappers for Scater v1.8.4](https://github.com/ethering/scater_1.8.4_wrappers), a [Single-Cell Analysis Toolkit for Gene Expression Data in R](https://bioconductor.org/packages/release/bioc/html/scater.html)
+    * [Wrappers for Scater v1.8.4](https://github.com/ethering/scater_1.8.4_wrappers), a [Single-Cell Analysis Toolkit for Gene Expression Data in R](https://bioconductor.org/packages/release/bioc/html/scater.html)
 * From [Björn Grüning](https://github.com/bgruening)
-  * If you want to test your Galaxy workflows against the [European Galaxy server](https://usegalaxy.eu/) please contribute to [UseGalaxy.eu Workflow Testing](https://github.com/usegalaxy-eu/workflow-testing) or [contact us](mailto:contact@usegalaxy.eu).
+    * If you want to test your Galaxy workflows against the [European Galaxy server](https://usegalaxy.eu/) please contribute to [UseGalaxy.eu Workflow Testing](https://github.com/usegalaxy-eu/workflow-testing) or [contact us](mailto:contact@usegalaxy.eu).
 
 

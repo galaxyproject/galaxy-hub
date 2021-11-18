@@ -372,8 +372,8 @@ Two [public Galaxy servers](/use/) were added to the published list in April:
 <div class='right solid'><a href='http://proteomics.globusgenomics.org/'><img src="/images/logos/GlobusGenomics.png" alt="Globus Genomics Proteomics Galaxy Server"  /></a></div>
 
 * *Links:*
-  * [Globus Genomics Proteomics Galaxy Server](http://proteomics.globusgenomics.org/)
-  * *[Building a Low-budget Public Resource for Large-scale Proteomic Analyses](https://depot.galaxyproject.org/hub/attachments/documents/presentations/GlobusGenomicsProteomics.pdf)*, presentation by [Anoop Mayampurath](http://www.ci.uchicago.edu/profile/257) at [Globus World 2014](http://globusworld.org/)
+    * [Globus Genomics Proteomics Galaxy Server](http://proteomics.globusgenomics.org/)
+    * *[Building a Low-budget Public Resource for Large-scale Proteomic Analyses](https://depot.galaxyproject.org/hub/attachments/documents/presentations/GlobusGenomicsProteomics.pdf)*, presentation by [Anoop Mayampurath](http://www.ci.uchicago.edu/profile/257) at [Globus World 2014](http://globusworld.org/)
 * *Domain/Purpose:*
     The [Globus Genomics Project](http://globusgenomics.org) demonstration Galaxy server. It has a strong emphasis on proteomics
 * *Comments:*

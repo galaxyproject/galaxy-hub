@@ -196,5 +196,5 @@ A new Galaxy distribution was [released on May 11, 2012](/archive/dev-news-brief
 ## Other News
 
 * [GalaxyCzars](/community/galaxy-admins/) a discussion group for Galaxy community members who are responsible for large Galaxy installations has been started.  Their first conference call will be this month.  
-  * Want to know how other sites are implementing their Galaxy installations?  See the [GalaxyCzars survey results](/community/galaxy-admins/surveys/2012/).
+    * Want to know how other sites are implementing their Galaxy installations?  See the [GalaxyCzars survey results](/community/galaxy-admins/surveys/2012/).
 * *Galaxy [Main](/main/) was down for a little over a day.* Watch the Galaxy [News](/news/) for an explanation.

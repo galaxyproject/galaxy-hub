@@ -83,16 +83,16 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 ### Activity since GCC2014
 
 * Create a galaxy-teach or galaxy-train mailing list / forum
-  * Done
+    * Done
 * Work with that list to establish what the Resource Directory (and the Trainer Directory) should look like
-  * Resource Directory and Trainer Directory are up.
+    * Resource Directory and Trainer Directory are up.
 * Push these best practices to the GTN Best Practices area.
-  * Done
-  * But not particularly maintained
+    * Done
+    * But not particularly maintained
 * Include a video training directory
 * Publish Best practises: created
-  * https://wiki.galaxyproject.org/Teach/BestPractices
-  * But, not particularly maintained.
+    * https://wiki.galaxyproject.org/Teach/BestPractices
+    * But, not particularly maintained.
 * Officially launched GTN in fall 2014.
 * GTN joins GOBLET
 
@@ -113,35 +113,35 @@ Compiled from the [Working Minutes for this BoF](http://bit.ly/gcc2015gtn) and D
 * Any idea how to raise visibility of, and contributions to resource and trainer directories, and to the best practices?  (And are these useful resources to maintain?)
 
 * How else can GTN help the Galaxy Training Community?
-  * Participants welcomed the idea of a Data Carpentry *Train the Trainer* workshop co-located with GCC2016
-    * *Dave C will investigate*
+    * Participants welcomed the idea of a Data Carpentry *Train the Trainer* workshop co-located with GCC2016
+        * *Dave C will investigate*
 
 ### Other
 
 * New repositories:
-  * https://github.com/bgruening/training-material
-  * https://github.com/bgruening/galaxy-tricks
-  * Galaxy RNA workbench with test data and training material: https://github.com/bgruening/galaxy-rna-workbench-extra
-  * Put training material in GitHub and use Software Carpentry model to manage materials?
+    * https://github.com/bgruening/training-material
+    * https://github.com/bgruening/galaxy-tricks
+    * Galaxy RNA workbench with test data and training material: https://github.com/bgruening/galaxy-rna-workbench-extra
+    * Put training material in GitHub and use Software Carpentry model to manage materials?
 
 * Platform for bioinformatics training:
-  * all platforms have challenges
-  * Most people in the room will use their own servers for training
-  * tool packaging, tool cluster integration, best practise guidelines ...
-    * IUC is actively developing guidelines … reusing it?
-  * IPython and Interactive Environments as programming env
-    * https://github.com/bgruening/galaxy-ipython
-    * training in command line usage, scripting languages
-  * A problem is matching the platform and tools to the tutorial. Often tutorials are specific to the Galaxy they were developed on.
+    * all platforms have challenges
+    * Most people in the room will use their own servers for training
+    * tool packaging, tool cluster integration, best practise guidelines ...
+        * IUC is actively developing guidelines … reusing it?
+    * IPython and Interactive Environments as programming env
+        * https://github.com/bgruening/galaxy-ipython
+        * training in command line usage, scripting languages
+    * A problem is matching the platform and tools to the tutorial. Often tutorials are specific to the Galaxy they were developed on.
 * E-learning possibilities in Galaxy:
-  * https://www.youtube.com/watch?v=NOdym_21M4o
+    * https://www.youtube.com/watch?v=NOdym_21M4o
 * Best Practices
-  * Training datasets
-    * Need dirty data - people need classroom exposure to these.
-  * Level of detail - go beyond defaults
-  * Put errors in your workflows so students learn to deal with this.
+    * Training datasets
+        * Need dirty data - people need classroom exposure to these.
+    * Level of detail - go beyond defaults
+    * Put errors in your workflows so students learn to deal with this.
 * Developer Training
-  * Simon and Bjorn do this.
+    * Simon and Bjorn do this.
 * Licensing: CC-BY everything?
 * WORKING groups on particular domains.  eg cancer, or plant or ..  Help address the training data generation problem.
 

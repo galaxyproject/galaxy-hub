@@ -9,7 +9,7 @@ date: "2018-11-01"
 The *November  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
 * The [Galaxy Platforms Directory](/news/2018-11-galaxy-update/#the-galaxy-platforms-directory): 125 ways to use Galaxy
-  * [New Galaxy Platforms](/news/2018-11-galaxy-update/#new-galaxy-platforms): SMAGEXP and the SNIC Science Cloud
+    * [New Galaxy Platforms](/news/2018-11-galaxy-update/#new-galaxy-platforms): SMAGEXP and the SNIC Science Cloud
 * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), **19-20 November**, Freiburg, Germany
 * [2019 Galaxy Admin Training](/news/2018-11-galaxy-update/#2019-galaxy-admin-training), January at Penn State
 * [All upcoming events](#upcoming-events)
@@ -297,7 +297,7 @@ There was a mind-boggling amount of activity in the [Galaxy Training Materials](
 
 And from [Bérénice Batut](https://github.com/bebatut):
 
-  * [A big Thank you!! to the 💯 contributors](https://galaxyproject.github.io/training-material/hall-of-fame) of the Galaxy Training Material! You are awesome. This project is only possible because of you!
+* [A big Thank you!! to the 💯 contributors](https://galaxyproject.github.io/training-material/hall-of-fame) of the Galaxy Training Material! You are awesome. This project is only possible because of you!
 
 And we would especially like to welcome new contributors [Matthias313](https://github.com/Matthias313), [foellmelanie](https://github.com/foellmelanie), and [Florian-H-Lab](https://github.com/Florian-H-Lab).
 

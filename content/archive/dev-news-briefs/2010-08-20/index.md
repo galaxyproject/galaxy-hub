@@ -10,15 +10,15 @@ hg pull -u -r d8cf43c9a0b9
 ### New Features
 
 * Add a ratings framework so that users can rate shared items. All sharable items--histories, workflows, datasets, visualizations, and pages--can be rated. Main framework components are:
-  * Database tables for storing ratings
-  * UsesItemRatings mixin that supports rating items and obtaining an item's average rating
-  * Controller methods to handle rating asynchronously
-  * jQuery star rating plugin and supporting code that enables interactive item rating.
+    * Database tables for storing ratings
+    * UsesItemRatings mixin that supports rating items and obtaining an item's average rating
+    * Controller methods to handle rating asynchronously
+    * jQuery star rating plugin and supporting code that enables interactive item rating.
 
 * Support for VCFv4.0 and misc VCF fixes [Brad Chapman]
-  * Support for VCFv4.0, which should be identical to 3.3 support
-  * Correctly handle chromosome references when they start with 'chr' (instead of just numbers)
-  * Handle extra empty tabs on the header line which are present in GATK produced VCF and confuse the determination of how many sample states should be parsed.
+    * Support for VCFv4.0, which should be identical to 3.3 support
+    * Correctly handle chromosome references when they start with 'chr' (instead of just numbers)
+    * Handle extra empty tabs on the header line which are present in GATK produced VCF and confuse the determination of how many sample states should be parsed.
 
 ### New Tools
 
@@ -52,10 +52,10 @@ hg pull -u -r d8cf43c9a0b9
 * Improvements to the GFF filtering tool.
 * Update gops_intersect and gops_subtract documentation to reflect that tools can accept both BED and GFF files.
 * Make "loc files" more flexible by adding "tool data tables". These are configured at the application level. Specific tabular data files are specified in an application config file and bound to names, the tools then refer to these names. Thus users can configure where location files are located without modifying tool configs.
-  * Simpler column name configuration.
-  * Columns can be referred to by name in addition to index in all dynamic option filters.
-  * A data table can merge multiple files.
-  * Design can support other types of data files.
+    * Simpler column name configuration.
+    * Columns can be referred to by name in addition to index in all dynamic option filters.
+    * A data table can merge multiple files.
+    * Design can support other types of data files.
 * Add a 'ref_attribute' attribute to param_value dynamic option filter to allow accessing attributes of the parameter value.
 * Bug fix for multiple_splitter dynamic option filter.
 * Added AttributeValueSplitterFilter to tool select parameter filters so that GFF attributes can be read and used as tool inputs.  Updated gff_filtering tool to use this filter.
@@ -104,12 +104,12 @@ hg pull -u -r d8cf43c9a0b9
 * Use svgfig egg instead of including it, minor fix for workflow image gen.
 * Add gen_image method to workflows, using svgfig library to create SVG representation of workflow.
 * Framework support for importing and exporting Galaxy workflows to and from myExperiment.
-  * Part of a larger effort to integrate myExperiment support into Galaxy, and it is the first piece of this effort.
-  * Includes controller methods to import/export Galaxy workflows to/from myExperiment as well as associated templates for generating the request XML.
-  * Refactoring was done so that there are now generic method to save a workflow to a json dict and recover a workflow from a json dict. These methods are used both for importing/exporting Galaxy workflows among Galaxy instances and for importing/exporting Galaxy workflows to/from myExperiment.
-  * Importing and exporting goes to the myExperiment sandbox right now rather than the official myExperiment website.
-  * There is no user interface for importing/exporting workflows to myExperiment
-  * There is no connection between Galaxy workflows and myExperiment workflows and hence no version tracking.
+    * Part of a larger effort to integrate myExperiment support into Galaxy, and it is the first piece of this effort.
+    * Includes controller methods to import/export Galaxy workflows to/from myExperiment as well as associated templates for generating the request XML.
+    * Refactoring was done so that there are now generic method to save a workflow to a json dict and recover a workflow from a json dict. These methods are used both for importing/exporting Galaxy workflows among Galaxy instances and for importing/exporting Galaxy workflows to/from myExperiment.
+    * Importing and exporting goes to the myExperiment sandbox right now rather than the official myExperiment website.
+    * There is no user interface for importing/exporting workflows to myExperiment
+    * There is no connection between Galaxy workflows and myExperiment workflows and hence no version tracking.
 * More graceful failure if shared workflow is not found.
 * Track tool version in workflows.
 * Add select+autocomplete to run workflow template. This makes it easier to select workflow inputs, but inputs should also be filtered by type as well.
@@ -121,7 +121,8 @@ hg pull -u -r d8cf43c9a0b9
 
 #### Jobs ( and job related )
 
-* * Fix a bug in the sge runner's stop_job and job finishing logic.
+    * * Fix a bug in the sge runner's stop_job and job finishing logic.
+
 * The DRMAA job runner, which should be compatible with all DRMs which support DRMAA (most notably, LSF and PBS Pro).  Minor testing with LSF has been done, and this code is based on the SGE runner code which has been in service for a long time, but it should not be considered production.
 
 #### Character Encoding Improvements
@@ -141,11 +142,11 @@ hg pull -u -r d8cf43c9a0b9
 * Fix failing Gtf sniffer unit test with missing test file.
 * Minor fixes for scrambling and dist-scrambling.
 * Enhancements and fixes for sharing framework
-  * Sharing/publishing webpages can now be displayed in frames.
-  * Sharing webpages can display messages.
-  * Workflow sharing highlights correct tab.
-  * History sharing for individual users now uses sharing framework.
-  * Item sharing with individual users now uses common template.
+    * Sharing/publishing webpages can now be displayed in frames.
+    * Sharing webpages can display messages.
+    * Workflow sharing highlights correct tab.
+    * History sharing for individual users now uses sharing framework.
+    * Item sharing with individual users now uses common template.
 * Refactor query code in datasets grid and do not show hidden datasets in grid.
 * Force right panel reload if a dataset was visible, tracked for updates, and hidden behind the scenes.
 * Re-added the JOB_ERROR state to galaxy.jobs since it's used by a few tools.

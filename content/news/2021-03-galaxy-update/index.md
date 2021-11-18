@@ -53,19 +53,19 @@ When Galaxy started, *screencasts* were a big part of our documentation and trai
 A number of notable videos and video collections have recently been published:
 
 * <strong><a href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=2">Galaxy Smörgåsbord Collection</a></strong>
-  * This collection of 43 videos was created for the recently completed Galaxy Smörgåsbord training event.  They cover a huge sample of the Galaxy Training Network materials.
+    * This collection of 43 videos was created for the recently completed Galaxy Smörgåsbord training event.  They cover a huge sample of the Galaxy Training Network materials.
 * **[Galaxy Admin Training Collection](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=3)**
-  * This collection of 27 videos was created for the also recently completed 2021 Galaxy Admin Training event.  Everything you ever wanted to know about administering your own Galaxy instance (well, almost).
+    * This collection of 27 videos was created for the also recently completed 2021 Galaxy Admin Training event.  Everything you ever wanted to know about administering your own Galaxy instance (well, almost).
 * **[Quick Tips](https://youtube.com/playlist?list=PLNFLKDpdM3B8__nz2xlzY2bA_2Sb_vb2o)**
-  * Nine videos (and growing), each under 3 minutes, providing brief introductions to commonly used features of Galaxy.
+    * Nine videos (and growing), each under 3 minutes, providing brief introductions to commonly used features of Galaxy.
 * **[Galactic Introductions](https://youtube.com/playlist?list=PLNFLKDpdM3B9UaxWEXgziHXO3k-003FzE)**
-  * Covers a wide range of galaxy features.  Videos range from 24 seconds (History: Sharing via link) to 12 and half minutes (Galaxy and NGS)
+    * Covers a wide range of galaxy features.  Videos range from 24 seconds (History: Sharing via link) to 12 and half minutes (Galaxy and NGS)
 * <strong><a href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=7">Developer resources</a></strong>
-  * Includes [Developer Quick Dives](https://youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n), short videos introducing common tasks in Galaxy development; and [Galaxy Developer Roundtables](https://youtube.com/playlist?list=PLNFLKDpdM3B-j7cdWzG3Qh5609fZK4fvO), recordings of the bi-weekly [Galaxy Developer Roundtable](/community/devroundtable/) calls.
+    * Includes [Developer Quick Dives](https://youtube.com/playlist?list=PLNFLKDpdM3B8Ro-V0mZboQjj40RimRZ8n), short videos introducing common tasks in Galaxy development; and [Galaxy Developer Roundtables](https://youtube.com/playlist?list=PLNFLKDpdM3B-j7cdWzG3Qh5609fZK4fvO), recordings of the bi-weekly [Galaxy Developer Roundtable](/community/devroundtable/) calls.
 * **[Webinars & Workshops](https://youtube.com/playlist?list=PLNFLKDpdM3B8beIdQKVP8zES47v5rooQm)**
-  * Recordings of Galaxy Webinars and Workshops are spread across the web.  This playlist attempts to list recent webinars that we know about that are on YouTube.  This list is brand new and is rapidly expanding.
+    * Recordings of Galaxy Webinars and Workshops are spread across the web.  This playlist attempts to list recent webinars that we know about that are on YouTube.  This list is brand new and is rapidly expanding.
 * **[Community](https://youtube.com/playlist?list=PLNFLKDpdM3B-IT4cyNMHcQFLmxdDS8YKm)**
-  * Videos that introduce the Galaxy community.
+    * Videos that introduce the Galaxy community.
 
 </div>
 
@@ -132,9 +132,9 @@ We strongly encourage you to read the full [event report](https://gallantries.gi
 The recently opened **[Galaxy Career Center](/careers/)** lists every Galaxy Related opening we know about.  Each posting (and there are 10 that are currently open) includes a short description, a link to the full posting, and deadlines, when known. There are openings at
 
 * **North America**
-  * **GalaxyWorks, University of Minnesota, Cleveland Clinic, and Johns Hopkins University (3 positions)**
+    * **GalaxyWorks, University of Minnesota, Cleveland Clinic, and Johns Hopkins University (3 positions)**
 * **Europe**
-  * **Incliva (24 March), INSERM (1 April), and Hannover Medical School**
+    * **Incliva (24 March), INSERM (1 April), and Hannover Medical School**
 
 </div>
 </div>

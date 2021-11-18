@@ -36,14 +36,14 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 #### Revised and New Content
 
 * *Learn*: A hub page for resources on learning how to use Galaxy.
-  * [Learn](/learn/)
+    * [Learn](/learn/)
 * *News Page and RSS Feed*: News items of interest to the Galaxy community
-  * [News](/news/)
+    * [News](/news/)
 * *Events*: Comprehensive listing of upcoming (and past) Galaxy Events
-  * [Events](/events/)
+    * [Events](/events/)
 * *Get Involved and Outreach*: How to get involved with Galaxy and how to spread the word.
-  * [GetInvolved](/get-involved/)
-  * [Outreach](/outreach/)
+    * [GetInvolved](/get-involved/)
+    * [Outreach](/outreach/)
 * *Public Galaxy Servers*: A list of publicly available Galaxy servers.
     If you have one, please add it to the list.
       [PublicGalaxyServers](/use/)
@@ -65,19 +65,19 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 ### Upcoming Events
 
 * *UAB Research Computing Day*
-  * [http://docs.uabgrid.uab.edu/wiki/2011](http://docs.uabgrid.uab.edu/wiki/2011)
-  * September 15-16, Birmingham, Alabama, United States
-  * *[Galaxy](http://galaxyproject.org): A Web-based Platform for Accessible, Reproducible, and Transparent High-throughput Biology,* Jeremy Goecks, and Galaxy Workshop
+    * [http://docs.uabgrid.uab.edu/wiki/2011](http://docs.uabgrid.uab.edu/wiki/2011)
+    * September 15-16, Birmingham, Alabama, United States
+    * *[Galaxy](http://galaxyproject.org): A Web-based Platform for Accessible, Reproducible, and Transparent High-throughput Biology,* Jeremy Goecks, and Galaxy Workshop
 
 * *Genome Informatics Workshop @ Beyond the Genome 2011*
-  * [http://www.beyond-the-genome.com/program.html](http://www.beyond-the-genome.com/program.html)
-  * September 19, Washington DC, United States
-  * *Transparent, accessible, reproducible analysis with [Galaxy](http://galaxyproject.org),* James Taylor
+    * [http://www.beyond-the-genome.com/program.html](http://www.beyond-the-genome.com/program.html)
+    * September 19, Washington DC, United States
+    * *Transparent, accessible, reproducible analysis with [Galaxy](http://galaxyproject.org),* James Taylor
 
 * *AWS Genomics Event*
-  * [http://aws.amazon.com/genomicsevent](http://aws.amazon.com/genomicsevent)
-  * September 22, Seattle, Washington, United States
-  * *Developing distributed analysis pipelines with shared community resources using [CloudBioLinux](http://www.cloudbiolinux.org) and [CloudMan](/cloudman/),* Brad Chapman
+    * [http://aws.amazon.com/genomicsevent](http://aws.amazon.com/genomicsevent)
+    * September 22, Seattle, Washington, United States
+    * *Developing distributed analysis pipelines with shared community resources using [CloudBioLinux](http://www.cloudbiolinux.org) and [CloudMan](/cloudman/),* Brad Chapman
 
 ## Updated & Improved
 
@@ -91,12 +91,12 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 
 * liftOver tool enhancement: new options for the reporting of multiple output regions, a useful feature for cross-species conversions
 * RNA-seq
-  * Added tool wrapper for Trinity, the *de novo* RNA-seq transcript assembler [http://trinityrnaseq.sourceforge.net](http://trinityrnaseq.sourceforge.net)
-  * Enable Cufflinks to work when setting metadata externally
-  * Rename and reorder Cuffdiff outputs for clarity
-  * Make Cuffcompare wrapper compatible with v1.0.3
-  * Make Cufflinks/compare/diff wrapper versions independent of tool versions and add comments that indicate tool versions supported by wrappers
-  * Add GTF-guide option to Cufflinks wrapper
+    * Added tool wrapper for Trinity, the *de novo* RNA-seq transcript assembler [http://trinityrnaseq.sourceforge.net](http://trinityrnaseq.sourceforge.net)
+    * Enable Cufflinks to work when setting metadata externally
+    * Rename and reorder Cuffdiff outputs for clarity
+    * Make Cuffcompare wrapper compatible with v1.0.3
+    * Make Cufflinks/compare/diff wrapper versions independent of tool versions and add comments that indicate tool versions supported by wrappers
+    * Add GTF-guide option to Cufflinks wrapper
 * BWA modified to run directly on fastqillumina files (no Fastq Groomer required)
 * Add FIMO tool, from MEME suite, available on [Test](http://test.g2.bx.psu.edu ) (only)
 * FASTQ Groomer updated to run on Color Space files that contain an extra leading quality score (for adapter base) by removing the extra leading quality score, e.g. files obtained from the SRA
@@ -115,20 +115,20 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
   ![](/archive/dev-news-briefs/2011-08-30/2011_08_30_transparency-based-on-attributes.png)
 
 * Enhancements
-  * Enable filter chaining when running on complete dataset
-  * Add tracks in the order that they appear in the dataset listing
-  * Enable copying/importing of visualizations
-  * Provide option to fetch additional data as needed
-  * Show 'Add Datasets' button when there are no tracks
-  * Use requestAnimationFrame for better performance
+    * Enable filter chaining when running on complete dataset
+    * Add tracks in the order that they appear in the dataset listing
+    * Enable copying/importing of visualizations
+    * Provide option to fetch additional data as needed
+    * Show 'Add Datasets' button when there are no tracks
+    * Use requestAnimationFrame for better performance
 * Tuning
-  * Additional security for loading visualizations
-  * Use error padding only when needed by placing error messages in div above tiles rather than in tiles
-  * Have child track inherit mode from parent track
-  * Bug fixes when (a) running tools in a shared visualization and (b) when drawing a track created by a tool
+    * Additional security for loading visualizations
+    * Use error padding only when needed by placing error messages in div above tiles rather than in tiles
+    * Have child track inherit mode from parent track
+    * Bug fixes when (a) running tools in a shared visualization and (b) when drawing a track created by a tool
 * Configuration
-  * New tag <trackster_conf> indicates that tool is compatible with Trackster
-  * Current tools compatible with Trackster include Cufflinks and [GOPS](http://galaxyproject.org/wiki/Learn/Interval%20Operations) intersect/subtract
+    * New tag <trackster_conf> indicates that tool is compatible with Trackster
+    * Current tools compatible with Trackster include Cufflinks and [GOPS](http://galaxyproject.org/wiki/Learn/Interval%20Operations) intersect/subtract
 
 ### Workflows
 
@@ -156,7 +156,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 * Update GMAJ to latest version and fix exporting results from GMAJ back into Galaxy
 * Added a generic XML datatype (thanks Peter Cock!)
 * Added utility helper.py (previously posted to the galaxy-dev mailing list as "galaxythinger.py")
-  * Command line tool for performing a couple common operations such as encoding/decoding IDs and getting the disk path of HDAs.  This can be useful for system administration and debugging
+    * Command line tool for performing a couple common operations such as encoding/decoding IDs and getting the disk path of HDAs.  This can be useful for system administration and debugging
 
 ### Quotas
 
@@ -171,7 +171,7 @@ And there is now an updated [Galaxy](http://galaxyproject.org) article on Wikipe
 
 * Make message stating how much disk space improved in Galaxy reports, fixes [#618 ](http://bitbucket.org/galaxy/galaxy-central/issue/618 )
 * Fix bug in rendering roles on the permissions page for data libraries (thanks Glen Beane!)
-  * In the data library hierarchy, rendered roles are all derived from roles associated with the LIBRARY_ACCESS permission, but roles rendered for that permission itself must be handled as a special case. Now, all legitimate roles not associated are listed.
+    * In the data library hierarchy, rendered roles are all derived from roles associated with the LIBRARY_ACCESS permission, but roles rendered for that permission itself must be handled as a special case. Now, all legitimate roles not associated are listed.
 * Fix for tool configs that do not include a command tag
 * Fix a bug when setting default history permissions in the user preferences; receiving method now gets all required parameters
 * Enable tags and annotations to work for new datasets in history;

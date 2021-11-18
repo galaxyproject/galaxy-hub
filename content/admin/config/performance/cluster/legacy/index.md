@@ -335,13 +335,13 @@ In the Galaxy config (universe_wsgi.ini), the desired job runner is specified wi
 
 * **local:///** - The local runner. No arguments available.
 * **pbs://[pbs_server]/[queue]/[pbs_options]** - The PBS runner. Arguments are the PBS server name, the queue name, any PBS-specific options, and all are optional:
-  * **pbs:///** - Use the default queue on the default PBS server.
-  * **pbs:///galaxy** - Use the 'galaxy' queue on the default PBS server.
-  * **pbs://torque2.example.edu/** - Use the default queue on the torque2.example.edu PBS server.
-  * **pbs:///bignodes/-l nodes=1:ppn=8,mem=32gb/** - Use the 'bignodes' queue and require 8 CPUs on one node and 32GB of memory. Separate multiple PBS flag options with spaces.
+    * **pbs:///** - Use the default queue on the default PBS server.
+    * **pbs:///galaxy** - Use the 'galaxy' queue on the default PBS server.
+    * **pbs://torque2.example.edu/** - Use the default queue on the torque2.example.edu PBS server.
+    * **pbs:///bignodes/-l nodes=1:ppn=8,mem=32gb/** - Use the 'bignodes' queue and require 8 CPUs on one node and 32GB of memory. Separate multiple PBS flag options with spaces.
 * **drmaa://[native_options]/** - The DRMAA runner. Arguments are any DRM-specific options, and are optional:
-  * **drmaa:///** - Use the environment defaults for RM-specific attributes like queue and project.
-  * **drmaa://-P bignodes -R y -pe threads 8/** - Use the 'bignodes' project and reserve a node with 8 cores for the tool. Separate multiple DRM flag options with spaces.
+    * **drmaa:///** - Use the environment defaults for RM-specific attributes like queue and project.
+    * **drmaa://-P bignodes -R y -pe threads 8/** - Use the 'bignodes' project and reserve a node with 8 cores for the tool. Separate multiple DRM flag options with spaces.
 
 Please note that the **pbs_options** and **native_options** fields are considered to be a temporary solution and it is the intent of the Galaxy team to provide a more general interface to these fields in the future. However, no timeline has been set on development of a replacement (and this capability will not be removed before a replacement interface is developed).
 
@@ -405,7 +405,7 @@ Since this is a complex problem, the current solution does have some caveats:
 
 
 * All of the datasets stored in Galaxy will have to be readable on the underlying filesystem by all Galaxy users. Said users need not have direct access to any systems which mount these filesystems, only the ability to run jobs on clusters that mount them. But I expect that in most environments, users will have the ability to submit jobs to these clusters or log in to these clusters outside of Galaxy, so this will be a security concern to evaluate for most environments.
-  * *Technical details* - Since Galaxy maintains dataset sharing internally and all files are owned by the Galaxy user, when running jobs only under a single user, permissions can be set such that only the Galaxy user can read all datasets. Since the dataset may be shared by multiple users, it is not suitable to simply change ownership of inputs before a job runs (what if another user tried to use the same dataset as an input during this time?). This could possibly be solved if Galaxy had tight control over extended ACLs on the file, but since many different ACL schemes exist, Galaxy would need a module for each scheme to be supported.
+    * *Technical details* - Since Galaxy maintains dataset sharing internally and all files are owned by the Galaxy user, when running jobs only under a single user, permissions can be set such that only the Galaxy user can read all datasets. Since the dataset may be shared by multiple users, it is not suitable to simply change ownership of inputs before a job runs (what if another user tried to use the same dataset as an input during this time?). This could possibly be solved if Galaxy had tight control over extended ACLs on the file, but since many different ACL schemes exist, Galaxy would need a module for each scheme to be supported.
 * The real user system works by changing ownership of the job's working directory to the system user matching the Galaxy user's email address (with the @domain stripped off) prior to running the job, and back to the Galaxy user once the job has completed. It does this by executing a site-customizable script via [sudo](http://www.gratisoft.us/sudo/). The script accepts a path and does nothing to ensure that this path is a Galaxy working directory. So anyone who has access to the Galaxy user could use this script and sudo to change the ownership of any file or directory. Patches to tighten this are welcome.
 
 ### Configuration

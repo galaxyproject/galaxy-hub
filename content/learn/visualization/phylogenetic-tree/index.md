@@ -36,8 +36,8 @@ Phyloviz supports a number of user interaction features to help you present, ana
 
 * **Searching**: You can search for node using the following conditions: “name-containing”, “annotation-containing”, “distance-greater-than-or-equal-to”, “distance-lesser-than-or-equal-to”. Simply select the condition you want, type in a value and search. Nodes satisfying your search conditions would be highlighted in green.
 * **Editing nodes**: You can change the name, distance and add annotations to ALL the nodes within Phyloviz. To do so, first select a node using Alt-Click. Selected nodes will be highlighted in red. Next, check the “Edit” box and make the necessary changes.
-  * Once you click save, the changes are instantaneous and will be reflected on the visualization.
-  * Annotations are a good way to you to make quick notes would the data and share them with your colleagues. You can store any arbitrary information there including urls.
+    * Once you click save, the changes are instantaneous and will be reflected on the visualization.
+    * Annotations are a good way to you to make quick notes would the data and share them with your colleagues. You can store any arbitrary information there including urls.
 
 #### Phyloviz Settings:
 

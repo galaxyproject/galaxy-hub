@@ -8,8 +8,8 @@ Before diving into a practical exercise let us introduce several fundamental con
 
 According to [wikipedia](https://en.wikipedia.org/wiki/Galaxy) "*a galaxy is a gravitationally bound system of stars, stellar remnants, interstellar gas, dust, and dark matter*". In other words it is a *system* composed of *multiple components*. Likewise the Galaxy Project also consists of multiple components including:
 
- - **The Galaxy Software Framework**
- - **The Public Galaxy Service**
+- **The Galaxy Software Framework**
+- **The Public Galaxy Service**
 
 ### The Galaxy software framework
 
@@ -567,7 +567,7 @@ From there you can import histories and workflows to make them your own. For exa
 
 ## If things don't work...
 
- - ...create an issue by clicking "New issue" button [here](https://github.com/galaxyproject/galaxy-hub/issues)
- - ...complain. Use [Galaxy's support forum](https://help.galaxyproject.org/) to do this.
+- ...create an issue by clicking "New issue" button [here](https://github.com/galaxyproject/galaxy-hub/issues)
+- ...complain. Use [Galaxy's support forum](https://help.galaxyproject.org/) to do this.
 
 

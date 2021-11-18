@@ -32,9 +32,9 @@ If you have anything to include to next month's newsletter, then please send it 
 
 The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brought together over 800 people for the second joint [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference (GCC)](/gcc/). There are several write ups of the event:
 
-  * [Birthdays and Online Conferences go Viral. ISMB2020 & BCC2020 in the time of COVID-19](http://gigasciencejournal.com/blog/conferences-go-viral/), a [GIGABlog](http://gigasciencejournal.com/blog) post by Chris Armit.
-  * [Getting introduced to Bioinformatics and Open Science through BCC 2020](https://www.open-bio.org/2020/08/19/bcc-2020-gigi-kenneth/), by Gigi Kenneth
-  * [Lessons learnt from organizing a virtual conference (BCC2020)](https://bcc2020.github.io/blog/lessons-learnt), by BCC2020 Organizers
+* [Birthdays and Online Conferences go Viral. ISMB2020 & BCC2020 in the time of COVID-19](http://gigasciencejournal.com/blog/conferences-go-viral/), a [GIGABlog](http://gigasciencejournal.com/blog) post by Chris Armit.
+* [Getting introduced to Bioinformatics and Open Science through BCC 2020](https://www.open-bio.org/2020/08/19/bcc-2020-gigi-kenneth/), by Gigi Kenneth
+* [Lessons learnt from organizing a virtual conference (BCC2020)](https://bcc2020.github.io/blog/lessons-learnt), by BCC2020 Organizers
 
 </div>
 
@@ -44,17 +44,17 @@ The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.
 <div class="card-header">[BCC2020: the numbers](https://bcc2020.sched.com/)</div>
 
 * 804 people registered for one or more events
-  * 592 for the three day meeting
-  * 443 for training
-  * 393 for CollaborationFest
+    * 592 for the three day meeting
+    * 443 for training
+    * 393 for CollaborationFest
 * Training
-  * [60 training sessions](https://bcc2020.sched.com/overview/subject/Training)
-  * covering 36 topics (18 with a Galaxy emphasis)
-  * adding up to 150 hours of live instruction
+    * [60 training sessions](https://bcc2020.sched.com/overview/subject/Training)
+    * covering 36 topics (18 with a Galaxy emphasis)
+    * adding up to 150 hours of live instruction
 * Presentations
-  * 3 live keynotes (and then 3 recorded keynotes)
-  * 70+ talks, presented in both hemispheres
-  * 80+ posters and demos
+    * 3 live keynotes (and then 3 recorded keynotes)
+    * 70+ talks, presented in both hemispheres
+    * 80+ posters and demos
 * 20 Birds-of-a-Feather & 2 Socials
 
 </div>

@@ -481,11 +481,11 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 # Other News
 
 * From [Yvan Le Bras](https://twitter.com/Yvan2935/):
-  * [A demo of the use of Wallace on Galaxy through dockerization](https://twitter.com/Yvan2935/status/975839729542402049/video/1), with interaction between [Wallace](https://cmerow.github.io/RDataScience/3_4_wallace.html) and Galaxy to import from and/or export to your current history, just to enhance the accessibility of Wallace (you don't need R) plus integration with others tools!  Another nice job (did you ever use OpenRefine on Galaxy ?) ) from [ValentinChambon](https://twitter.com/ValentinCh92) !
+    * [A demo of the use of Wallace on Galaxy through dockerization](https://twitter.com/Yvan2935/status/975839729542402049/video/1), with interaction between [Wallace](https://cmerow.github.io/RDataScience/3_4_wallace.html) and Galaxy to import from and/or export to your current history, just to enhance the accessibility of Wallace (you don't need R) plus integration with others tools!  Another nice job (did you ever use OpenRefine on Galaxy ?) ) from [ValentinChambon](https://twitter.com/ValentinCh92) !
 * From [Tomas Klingström](https://twitter.com/KlingstromT):
-  * We have a new version of [Galaksio](https://github.com/fikipollo/galaksio) available. It works well for us but needs to be tested on more different workflows to identify new issues.
+    * We have a new version of [Galaksio](https://github.com/fikipollo/galaksio) available. It works well for us but needs to be tested on more different workflows to identify new issues.
 * From [Stephen Newhouse](https://twitter.com/s_j_newhouse):
-  * [We have deployed Galaxy](https://twitter.com/s_j_newhouse/status/970734545334099969) on the [Genomics England research environment](https://www.genomicsengland.co.uk/about-genomics-england/research-environment/) for teaching and then more.
+    * [We have deployed Galaxy](https://twitter.com/s_j_newhouse/status/970734545334099969) on the [Genomics England research environment](https://www.genomicsengland.co.uk/about-genomics-england/research-environment/) for teaching and then more.
 * From [Anna Syme](https://twitter.com/annasyme):
-  * The new [Genome annotation with Prokka](http://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/annotation-with-prokka/tutorial.html) tutorial
+    * The new [Genome annotation with Prokka](http://galaxyproject.github.io/training-material/topics/sequence-analysis/tutorials/annotation-with-prokka/tutorial.html) tutorial
 * [Family Gathering: Galaxy Program Makes Grouping Genes Easier](https://www.technologynetworks.com/genomics/news/family-gathering-galaxy-program-makes-grouping-genes-easier-298025), *Technology Networks*

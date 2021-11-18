@@ -276,16 +276,16 @@ Three [public Galaxy servers](/use/) were added to the published list in March:
 * *Domain/Purpose:*
     A general purpose Galaxy instance that includes most "standard" tools for DNA/RNA sequencing, plus extra tools for panel resequencing, variant annotation and some tools for Illumina SNParray analysis.
 * *Comments:*
-  * Includes a number of workflows, including workflow from "[A SWI/SNF-related autism syndrome caused by de novo mutations in ADNP](http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.2899.html)," by Helsmoortel, *et al.*, *[Nature Genetics](http://www.nature.com/ng/)* (2014) doi:10.1038/ng.2899
+    * Includes a number of workflows, including workflow from "[A SWI/SNF-related autism syndrome caused by de novo mutations in ADNP](http://www.nature.com/ng/journal/vaop/ncurrent/full/ng.2899.html)," by Helsmoortel, *et al.*, *[Nature Genetics](http://www.nature.com/ng/)* (2014) doi:10.1038/ng.2899
 * *User Support:*
     [Email support](mailto:geert DOT vandeweyer AT uantwerpen DOT be)
 * *Quotas:*
-  * Registered users : 50Gb. Can be increased up to 3Tb in collaborative projects.
-  * There is NO backup of data inside this galaxy server.
-  * Collaboration partner jobs have higher priority on the system.
+    * Registered users : 50Gb. Can be increased up to 3Tb in collaborative projects.
+    * There is NO backup of data inside this galaxy server.
+    * Collaboration partner jobs have higher priority on the system.
 * *Sponsor(s):*
-  * [Center of Medical Genetics](http://www.ua.ac.be/main.aspx?c=.MEDGEN), [University of Antwerp](http://www.ua.ac.be/)
-  * [Biomina research center](http://www.biomina.be/), [University](http://www.ua.ac.be/) and [University Hospital](http://www.uza.be/) of Antwerp.
+    * [Center of Medical Genetics](http://www.ua.ac.be/main.aspx?c=.MEDGEN), [University of Antwerp](http://www.ua.ac.be/)
+    * [Biomina research center](http://www.biomina.be/), [University](http://www.ua.ac.be/) and [University Hospital](http://www.uza.be/) of Antwerp.
 
 ## Image Analysis and Processing Toolkit
 
@@ -310,16 +310,16 @@ Three [public Galaxy servers](/use/) were added to the published list in March:
 <div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/osiris/'><img src="/use/archive/osiris/osiris-logo.jpg" alt="Osiris" /></a></div>
 
 * *Links:*
-  * [Osiris Galaxy](http://galaxy-dev.cnsi.ucsb.edu/osiris/)
-  * [Osiris Blog](http://osiris-phylogenetics.blogspot.com/)
-  * [Osiris code in Bitbucket](https://bitbucket.org/osiris_phylogenetics)
+    * [Osiris Galaxy](http://galaxy-dev.cnsi.ucsb.edu/osiris/)
+    * [Osiris Blog](http://osiris-phylogenetics.blogspot.com/)
+    * [Osiris code in Bitbucket](https://bitbucket.org/osiris_phylogenetics)
 * *Domain/Purpose:*
     Pylogenetics
 * *Comments:*
     "This server aims to demonstrate Osiris, a set of phylogenetics tools for the Galaxy Bioinformatics platform. Because it is only a demo, some computationally intensive tools are disabled. Other tools will be slow because this is a public, shared resource."
 * *User Support:*
-  * [Osiris-Phylogenetics Google Group](https://groups.google.com/forum/?hl=en&fromgroups#!forum/osiris-phylogenetics)
-  * [Screencasts](https://www.youtube.com/watch?v=mGMxwc20Yx4)
+    * [Osiris-Phylogenetics Google Group](https://groups.google.com/forum/?hl=en&fromgroups#!forum/osiris-phylogenetics)
+    * [Screencasts](https://www.youtube.com/watch?v=mGMxwc20Yx4)
 * *Quotas:*
 * *Sponsor(s):*
     [Oakley Lab](https://labs.eemb.ucsb.edu/oakley/todd/) at [UC Santa Barbara](http://www.ucsb.edu/)

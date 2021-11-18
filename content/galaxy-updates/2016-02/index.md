@@ -375,24 +375,24 @@ Want to try a pre-configured Galaxy instance on your Mac OS X or Windows machine
   * [LAPPS Grid Galaxy Workflow Engine](http://galaxy.lappsgrid.org/), part of the [Languarge Application Grid](http://www.lappsgrid.org/)
 
 * *Domain/Purpose:*
-  * "An open, interoperable web service platform for natural language processing (NLP) research and development. The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."
+    * "An open, interoperable web service platform for natural language processing (NLP) research and development. The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."
 * *Comments:*
-  * "This is a **Work In Progress**. Many of the services here are undergoing active development and their behaviour is likely to change without notice."
+    * "This is a **Work In Progress**. Many of the services here are undergoing active development and their behaviour is likely to change without notice."
 * *User Support:*
-  * [Landing page](http://galaxy.lappsgrid.org/) includes a simple tutorial.
+    * [Landing page](http://galaxy.lappsgrid.org/) includes a simple tutorial.
 * *Quotas:*
-  * Anyone can create a login, or it can be used anonymously
+    * Anyone can create a login, or it can be used anonymously
 * *Sponsor(s):*
-  * See the [LAPPS Grid Participants page](http://www.lappsgrid.org/participants/). Includes
-    * [Vassar College](http://www.cs.vassar.edu/)
-    * [Brandeis University](http://www.cs.brandeis.edu/)
-    * [Carnegie-Mellon University](http://www.lti.cs.cmu.edu/)
-    * [University of Pennsylvania](http://www.ldc.upenn.edu/)
-    * [NICT Language Grid Project](http://langrid.org/en/index.html) and [Matsubara Lab at Kyoto University](http://www.ai.soc.i.kyoto-u.ac.jp/index.html)
-    * [PANACEA project](http://www.panacea-lr.eu/)
-    * [CELI / LinguaGrid](http://www.linguagrid.org/)
-    * [EXCITEMENT project](http://www.excitement-project.eu/)
-    * [Centre for Language Technology](http://www.clt.mq.edu.au/) at [Macquarie University](http://www.mq.edu.au/)
+    * See the [LAPPS Grid Participants page](http://www.lappsgrid.org/participants/). Includes
+        * [Vassar College](http://www.cs.vassar.edu/)
+        * [Brandeis University](http://www.cs.brandeis.edu/)
+        * [Carnegie-Mellon University](http://www.lti.cs.cmu.edu/)
+        * [University of Pennsylvania](http://www.ldc.upenn.edu/)
+        * [NICT Language Grid Project](http://langrid.org/en/index.html) and [Matsubara Lab at Kyoto University](http://www.ai.soc.i.kyoto-u.ac.jp/index.html)
+        * [PANACEA project](http://www.panacea-lr.eu/)
+        * [CELI / LinguaGrid](http://www.linguagrid.org/)
+        * [EXCITEMENT project](http://www.excitement-project.eu/)
+        * [Centre for Language Technology](http://www.clt.mq.edu.au/) at [Macquarie University](http://www.mq.edu.au/)
 
 # Releases
 

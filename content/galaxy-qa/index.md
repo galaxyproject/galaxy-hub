@@ -124,8 +124,8 @@ Here is the [changeset](https://bitbucket.org/galaxy/galaxy-central/changeset/11
 * Link to Galaxy Q&A in the Help Menu of Galaxy
 * Link to Galaxy Q&A in the Help Menu of the Tool Shed
 * Links to Galaxy Q&A in the tool form of any tools
-  * Icons added
-  * Code added
+    * Icons added
+    * Code added
 
 Here is the [changeset of the Galaxy tag](https://github.com/galaxyQandA/biostar-central/commit/3bbdad4ceaf837fcbb8267c2b0de0176f20823d4) and here the [changeset of the CSS/Names modifications](https://github.com/galaxyQandA/biostar-central/commit/4ae2ce800d755f97848bb92215422f7b2d65de30) in Galaxy Q&A
 

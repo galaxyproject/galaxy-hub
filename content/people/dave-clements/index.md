@@ -31,10 +31,10 @@ My pre-bioinformatics career included
 * 6 years at database management system vendors,
 * 2 years as a database administrator at [General Mills](http://generalmills.com/),
 * Temporary positions (6 to 12 months) working on
-  * [teaching database courses at the University of Oregon](http://www.cs.uoregon.edu/)
-  * a data warehouse for inventory control in semiconductor manufacturing ([HP](http://hp.com/)),
-  * a test harness for a network controller operating system ([IBM](http://ibm.com)), and
-  * query tools for credit unions ([EDS](http://www.eds.com/))
+    * [teaching database courses at the University of Oregon](http://www.cs.uoregon.edu/)
+    * a data warehouse for inventory control in semiconductor manufacturing ([HP](http://hp.com/)),
+    * a test harness for a network controller operating system ([IBM](http://ibm.com)), and
+    * query tools for credit unions ([EDS](http://www.eds.com/))
 * A master's degree in [Computer Science from the University of Minnesota](http://www.cs.umn.edu).  My research focused on transaction management in federated databases,
 * A bachelor's degree in [Computer Science from Iowa State University](http://cs.iastate.edu).
 
@@ -99,30 +99,30 @@ My pre-bioinformatics career included
 * **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/)**, Norwich, United Kingdom**
 * **[International Plant and Animal Genome XIII (PAGXIII)](http://www.intlpag.org/2015/)**, Computer Demonstration Track, January 10-14, 2015, San Diego, California, United States
 * **[2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/)**, June 30 - July 2, 2014, Baltimore, Maryland, United States
-  * [GalaxyAdmins Birds of a Feather Meetup](/events/gcc2014/bofs/galaxy-admins/)
+    * [GalaxyAdmins Birds of a Feather Meetup](/events/gcc2014/bofs/galaxy-admins/)
 * **[May 2014 UK Galaxy Workshop Tour](/events/uk-may2014/)**, May 6-12, 2014, Norwich and Edinburgh, United Kingdom
 * **[2013 Research Triangle Workshop Tour](/events/rt-workshop-tour2013/)**, May 18-22, 2013, Research Triangle Area, North Carolina, United States
 * **[2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/)**, June 30 - July 2, 2013, Oslo, Norway
-  * [GalaxyAdmins Birds of a Feather Meetup](/events/gcc2013/bof/galaxy-admins/)
-  * [Public Galaxy Server Birds of a Feather Meetup](/events/gcc2013/bof/galaxy-admins/)
+    * [GalaxyAdmins Birds of a Feather Meetup](/events/gcc2013/bof/galaxy-admins/)
+    * [Public Galaxy Server Birds of a Feather Meetup](/events/gcc2013/bof/galaxy-admins/)
 * **[Missouri Workshop Tour 2013](/events/missouri-workshop-tour2013/)**, April 29 - May 2, 2013, St. Louis and Columbia, Missouri, United States
 * **[2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/)**, July 25-27, Chicago, Illinois, United States
-  * [Bioinformatics Training and Teaching with Galaxy Breakout Session](/events/gcc2012/program/breakouts/bioinformatics-training/)
+    * [Bioinformatics Training and Teaching with Galaxy Breakout Session](/events/gcc2012/program/breakouts/bioinformatics-training/)
 * **[2011 Galaxy Community Conference (GCC2011)](http://galaxyproject.org/gcc2011/Home.html)**, May 25-26, 2011, Lunteren, The Netherlands
 * **[GMOD Americas 2011](http://gmod.org/wiki/GMOD_Americas_2011)**, March 5-12, 2011, Durham, North Carolina, United States
-  * [GMOD Satellite Meetings](http://gmod.org/wiki/Satellite_Meetings_-_GMOD_Americas_2011), March 7
-    * [GMOD in the Sequencing Center Satellite](http://gmod.org/wiki/GMOD_in_the_Sequencing_Center)
-  * [2011 GMOD Spring Training](http://gmod.org/wiki/2011_GMOD_Spring_Training), March 8-12
+    * [GMOD Satellite Meetings](http://gmod.org/wiki/Satellite_Meetings_-_GMOD_Americas_2011), March 7
+        * [GMOD in the Sequencing Center Satellite](http://gmod.org/wiki/GMOD_in_the_Sequencing_Center)
+    * [2011 GMOD Spring Training](http://gmod.org/wiki/2011_GMOD_Spring_Training), March 8-12
 * **[GMOD Europe 2010](http://gmod.org/wiki/GMOD_Europe_2010)**, September 13-16, 2010, Cambridge, United Kingdom
-  * [GMOD Satellite Meetings](http://gmod.org/wiki/Satellite_Meetings_-_GMOD_Europe_2010), September 15
-    * [Post Reference Genome Tools Satellite](http://gmod.org/wiki/Post_Reference_Genome_Tools)
-    * [Community Annotation Satellite](http://gmod.org/wiki/Community_Annotation_-_September_2010_Satellite)
+    * [GMOD Satellite Meetings](http://gmod.org/wiki/Satellite_Meetings_-_GMOD_Europe_2010), September 15
+        * [Post Reference Genome Tools Satellite](http://gmod.org/wiki/Post_Reference_Genome_Tools)
+        * [Community Annotation Satellite](http://gmod.org/wiki/Community_Annotation_-_September_2010_Satellite)
 * **[GMOD Tools for Evolutionary Biology Hackathon](http://gmod.org/wiki/GMOD_Evo_Hackathon)**, November 8-12, 2010, Durham, North Carolina, United States
 
 ### 2000s
 
 * **[GMOD Europe 2009](http://gmod.org/wiki/GMOD_Europe_2009)**, August 3-7, Oxford, United Kingdom
-  * [2009 GMOD Summer School - Europe](http://gmod.org/wiki/2009_GMOD_Summer_School_-_Europe), August 3-6
+    * [2009 GMOD Summer School - Europe](http://gmod.org/wiki/2009_GMOD_Summer_School_-_Europe), August 3-6
 * **[2009 GMOD Summer School - Americas](http://gmod.org/wiki/2009_GMOD_Summer_School_-_Americas)**, July 16-19, 2009, Durham, North Carolina, United States
 * **Database tools for evolutionary genomics workshop**, SMBE 2009, June 6, 2009, Iowa City, Iowa, United States
 * **[2008 GMOD Summer School](http://gmod.org/wiki/2008_GMOD_Summer_School)**, July 11-13, 2008, Durham, North Carolina, United States

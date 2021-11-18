@@ -61,9 +61,9 @@ Several meeting reports have been created online:
 * **Network with others** in the Galaxy community who are facing similar challenges and using Galaxy and other tools to address them.
 * Learn what the Galaxy Project's plans are, and **contribute to Galaxy's future direction.**
 * **Learn**
-  * how to visualize your data in Galaxy and use visualization to guide your analysis (visual analytics)
-  * how to share, publish, and reuse your analyses with Galaxy
-  * how to perform *and enable your users to perform* common, yet complex, analyses using Galaxy
+    * how to visualize your data in Galaxy and use visualization to guide your analysis (visual analytics)
+    * how to share, publish, and reuse your analyses with Galaxy
+    * how to perform *and enable your users to perform* common, yet complex, analyses using Galaxy
 * when and how to use *Galaxy on the Cloud*
 
 <div class='right'><br /><br /><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/images/people/Salzberg.jpg" alt="Steven Salzberg" width="125" /></a></div>

@@ -14,13 +14,13 @@ hg pull -u -r f09915c8da94
 * UI enhancements: checkboxes to select samples & select field to specify operations.
 * State change mechanism added for multiple samples and removed for individual samples in the sample_events page.
 * Enhanced sample searching implemented. Uses sample name, barcode and dataset name with menu items in masthead and admin menu.
-  * *Example of usage*: new wild-card searches.
+    * *Example of usage*: new wild-card searches.
 
 ### New Custom Sorting in Grid Framework
 
 * Enhance grid framework to enable custom column sorting (default sorting unchanged).
 * Sort criteria are now mapped to a column, and the column defines the sorting to be done on the grid query.
-  * *Examples of usage*: (a) case-insensitive sorting of text fields and (b) case-insensitive sorting for user names in published-item grids.
+    * *Examples of usage*: (a) case-insensitive sorting of text fields and (b) case-insensitive sorting for user names in published-item grids.
 
 ### New Data Format Conversion Tools
 
@@ -31,7 +31,7 @@ hg pull -u -r f09915c8da94
 
 * Filter and Sort => GFF => __Extract features__ from GFF file, __Filter GFF file by attribute__ using simple expressions, __Filter GFF file by feature count__ using simple expressions.
 * New __Filter GFF file by feature count__ filters a GFF file using conditions based on transcripts' features counts.
-  * *Example of usage*: filter for transcripts that have a minimum number of exons or transcripts that have 3' UTRs.
+    * *Example of usage*: filter for transcripts that have a minimum number of exons or transcripts that have 3' UTRs.
 
 ## Updated & Improved
 
@@ -48,15 +48,15 @@ hg pull -u -r f09915c8da94
 * Notification to multiple recipients.
 * Request events history records notifications.
 * UI enhancements:
-  * "edit request" page to allow users to change notification configurations.
-  * "request" page to show the request type state, user & notification details.
+    * "edit request" page to allow users to change notification configurations.
+    * "request" page to show the request type state, user & notification details.
 
 ### Jobs & related
 
 * Improved handling of metadata to optimize job processing. Includes a new user prompt to set metadata manually or retry auto-detection externally when using 'set_metadata_externally = True' .
 * Enhance wig datatype to only use first 100 data lines to determine column type metadata if dataset filesize exceeds max_optional_metadata_filesize as configured in datatypes_conf.xml.
 * Add 'NullToolOutputActionOption' to tool output dataset actions. This action option is used implicitly when no ToolOutputActionOption(s) have been defined.
-  * *Example of usage*: a metadata value can be set to a static value on a per Tool Output basis.
+    * *Example of usage*: a metadata value can be set to a static value on a per Tool Output basis.
 
 ### Installation and Management
 
@@ -68,7 +68,7 @@ hg pull -u -r f09915c8da94
 * Each track now has an Overview checkbox that will set the initial chromosome-wide view.
 * Visualizations that users own or are shared with can now be cloned.
 * New go-to feature allows users to redirect quickly to a specified chromosome or position.
-  * *Example of usage*: "chr1:1-100,000,000".
+    * *Example of usage*: "chr1:1-100,000,000".
 * Drag-zoom activated when a chromosomal position is clicked on.
 * Line tracks display mode can also now be activated inline.
 * Changing display mode from "Auto" now fetches additional detail data and displays features. Displays error messages in canvas elements if present. This also limits the number of features displayed per tile.

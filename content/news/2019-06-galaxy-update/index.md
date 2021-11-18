@@ -9,9 +9,9 @@ date: "2019-06-03"
 The *June 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * **[GCC2019](/news/2019-06-galaxy-update/#gcc2019-1-8-july-freiburg-germany):**
-  * **[Advance registration ends 7 June](/news/2019-06-galaxy-update/#advance-registration-ends-7-june-this-friday)**
-  * **[Poster and Demo Abstract Submission deadline: 10 June](/news/2019-06-galaxy-update/#poster-demo-abstract-submission-deadline-10-june)**
-  * [Conference schedule is online](/news/2019-06-galaxy-update/#conference-schedule-is-online)
+    * **[Advance registration ends 7 June](/news/2019-06-galaxy-update/#advance-registration-ends-7-june-this-friday)**
+    * **[Poster and Demo Abstract Submission deadline: 10 June](/news/2019-06-galaxy-update/#poster-demo-abstract-submission-deadline-10-june)**
+    * [Conference schedule is online](/news/2019-06-galaxy-update/#conference-schedule-is-online)
 * Plus [13 other upcoming events](/news/2019-06-galaxy-update/#upcoming-events) in the next 90 days
 * [150 new publications](/news/2019-06-galaxy-update/#publications), great resources lead to great insight.
 * [Galaxy Platform News](/news/2019-06-galaxy-update/#galaxy-platforms-news): New platforms for tranSMART, antibiotic resistance, phylogeny, long-read data, mass spectrometry Imaging, and Rice!
@@ -20,8 +20,8 @@ The *June 2019 Galactic News* is here! This is a summary of what is going on in 
 * [Updates to training materials and documentation](/news/2019-06-galaxy-update/#doc-hub-and-training-updates).
 * [New tools](/news/2019-06-galaxy-update/#toolshed-contributions) and [new releases](/news/2019-06-galaxy-update/#releases).
 * And [some cool other news](/news/2019-06-galaxy-update/#other-news) too:
-  * The new [Galaxy Services Status Web Site](/news/2019-06-galaxy-update/#galaxy-services-status-web-site)
-  * [Black Duck Open Hub updates it's Galaxy project stats](/news/2019-06-galaxy-update/#black-duck-open-hub-updates-its-galaxy-project-stats) *and we are doing great.*
+    * The new [Galaxy Services Status Web Site](/news/2019-06-galaxy-update/#galaxy-services-status-web-site)
+    * [Black Duck Open Hub updates it's Galaxy project stats](/news/2019-06-galaxy-update/#black-duck-open-hub-updates-its-galaxy-project-stats) *and we are doing great.*
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -49,13 +49,13 @@ The [full conference schedule is now online](https://gcc2019.sched.com/).  There
 
 * Over 35 training topics ranging from [Beyond the Intro: Further Adventures in Using Galaxy](https://sched.co/MDTP) to [Visualisation development in Galaxy](https://sched.co/LufQ)
 * 15 Sessions, including dedicated sessions on
-  * [Epigenetics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics), [Galaxy Administration & Development](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Admin+%2F+Dev) (3 sessions), [Outside the Genome & Community](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Outside+the+Genome+%26+Community) (3 sessions),  [Proteomics and Metabolomics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%26+Metabolomics), [Transcriptomics & Genomics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Transcriptomics+%2F+Genomics) (2 sessions), [Variation / Metagenomics / Assembly](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
+    * [Epigenetics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics), [Galaxy Administration & Development](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Admin+%2F+Dev) (3 sessions), [Outside the Genome & Community](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Outside+the+Genome+%26+Community) (3 sessions),  [Proteomics and Metabolomics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%26+Metabolomics), [Transcriptomics & Genomics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Transcriptomics+%2F+Genomics) (2 sessions), [Variation / Metagenomics / Assembly](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
 * Five invited talks:
-  * [Evolution of X chromosome recognition during Drosophila Dosage Compensation](https://sched.co/PSGJ), Claudia Isabelle Keller Valsecchi, Max Planck Institute of Immunobiology and Epigenetics
-  * [Pou5f3, SoxB1 and Nanog control the Zygotic Genome Activation in Zebrafish by Chromatin Remodeling](https://sched.co/PSeo), Marina Veil, Albert Ludwigs University of Freiburg
-  * [Galaxy Community Update](https://sched.co/PSfp), Jeremy Goecks, OHSU; Daniel Blankenberg, Cleveland Clinic; Anton Nekrutenko, Penn State University; James Taylor, Johns Hopkins University
-  * [Data visualisation by citizen science participants: the case of birds and bats monitoring schemes and Galaxy-E](https://sched.co/PSq5), Romain Lorrilière, French National Museum of Natural History
-  * [UseGalaxy: Elucidating chromatin biology of mouse cardiomyocytes](https://sched.co/PSr9), Stephan Nothjunge, University of Freiburg
+    * [Evolution of X chromosome recognition during Drosophila Dosage Compensation](https://sched.co/PSGJ), Claudia Isabelle Keller Valsecchi, Max Planck Institute of Immunobiology and Epigenetics
+    * [Pou5f3, SoxB1 and Nanog control the Zygotic Genome Activation in Zebrafish by Chromatin Remodeling](https://sched.co/PSeo), Marina Veil, Albert Ludwigs University of Freiburg
+    * [Galaxy Community Update](https://sched.co/PSfp), Jeremy Goecks, OHSU; Daniel Blankenberg, Cleveland Clinic; Anton Nekrutenko, Penn State University; James Taylor, Johns Hopkins University
+    * [Data visualisation by citizen science participants: the case of birds and bats monitoring schemes and Galaxy-E](https://sched.co/PSq5), Romain Lorrilière, French National Museum of Natural History
+    * [UseGalaxy: Elucidating chromatin biology of mouse cardiomyocytes](https://sched.co/PSr9), Stephan Nothjunge, University of Freiburg
 * *Over 70 talks*
 * Three Poster, Demo, and Sponsor Sessions (Posters & demos to be posted next week)
 * Three hour long sessions for BoFs (call for BoFs going out next week)
@@ -266,12 +266,12 @@ The *dark energy* of irreproducible research is threatening the science universe
 * [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/people/dan/), Cleveland Clinic, Cleveland, Ohio, United States.
 * [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
 * ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
-  * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
 * [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software."
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
-  * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
+    * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 

@@ -508,36 +508,36 @@ There are [two new publicly accessible Galaxy servers](/use/):
 <div class='right solid'><a href='http://mgescan.readthedocs.org/en/latest/server.html'><img src="/use/archive/mgescan/mgescan-video-start.png" alt="MGEScan on Galaxy Workflow System" width="300px" /></a></div>
 
 * *Link(s):*
-  * [MGEScan on Galaxy Workflow System](http://mgescan.readthedocs.org/en/latest/server.html)
+    * [MGEScan on Galaxy Workflow System](http://mgescan.readthedocs.org/en/latest/server.html)
 * *Domain/Purpose:*
-  * Identifying long terminal repeats (LTR) and non-LTR retroelements in eukaryotic genomic sequences.
+    * Identifying long terminal repeats (LTR) and non-LTR retroelements in eukaryotic genomic sequences.
 * *Comments:*
-  * ENA Browser or local storage is used to obtain input genome sequences including a traditional file upload. HMMER 3.1b1 is applied to gain speed boosts compared to a previous version HMMER 2+. In addition Generic Feature Format Version 3 is used for visualization of genome sequence data via a web-based genome browser e.g. UCSC Genome Browser or Ensembl Genome Browser.
-  * MGESCan is also [accessible through Amazon Cloud (EC2)](http://mgescan.readthedocs.org/en/latest/aws.html), [Galaxy Tool Shed](http://mgescan.readthedocs.org/en/latest/toolshed.html) or [Published Workflow](https://usegalaxy.org/u/hyungro-lee/w/retrotminer-imported-from-uploaded-file) on the public galaxy server (usegalaxy.org)
-  * [MGEScan: a Galaxy based system for identifying retrotransposons in genomes](http://bioinformatics.oxfordjournals.org/content/early/2016/04/07/bioinformatics.btw157) by Hyungro Lee1, Minsu Lee, Wazim Mohammed Ismail, Mina Rho, Geoffrey Fox, Sangyoon Oh, and Haixu Tang, *Bioinformatics* (2016) doi: 10.1093/bioinformatics/btw157
+    * ENA Browser or local storage is used to obtain input genome sequences including a traditional file upload. HMMER 3.1b1 is applied to gain speed boosts compared to a previous version HMMER 2+. In addition Generic Feature Format Version 3 is used for visualization of genome sequence data via a web-based genome browser e.g. UCSC Genome Browser or Ensembl Genome Browser.
+    * MGESCan is also [accessible through Amazon Cloud (EC2)](http://mgescan.readthedocs.org/en/latest/aws.html), [Galaxy Tool Shed](http://mgescan.readthedocs.org/en/latest/toolshed.html) or [Published Workflow](https://usegalaxy.org/u/hyungro-lee/w/retrotminer-imported-from-uploaded-file) on the public galaxy server (usegalaxy.org)
+    * [MGEScan: a Galaxy based system for identifying retrotransposons in genomes](http://bioinformatics.oxfordjournals.org/content/early/2016/04/07/bioinformatics.btw157) by Hyungro Lee1, Minsu Lee, Wazim Mohammed Ismail, Mina Rho, Geoffrey Fox, Sangyoon Oh, and Haixu Tang, *Bioinformatics* (2016) doi: 10.1093/bioinformatics/btw157
 * *User Support:*
-  * [MGEScan on Galaxy QuickStart Tutorial](http://mgescan.readthedocs.org/en/latest/tutorial.html)
-  * [MGEScan documentation](http://mgescan.readthedocs.org/en/latest/)
+    * [MGEScan on Galaxy QuickStart Tutorial](http://mgescan.readthedocs.org/en/latest/tutorial.html)
+    * [MGEScan documentation](http://mgescan.readthedocs.org/en/latest/)
 * *Quotas:*
-  * MGEScan can be used anonymously or with a login. Anyone can create a login.
+    * MGEScan can be used anonymously or with a login. Anyone can create a login.
 * *Sponsor(s):*
-  * [School of Informatics and Computing](http://www.soic.indiana.edu/), [Indiana University](http://www.indiana.edu/)
+    * [School of Informatics and Computing](http://www.soic.indiana.edu/), [Indiana University](http://www.indiana.edu/)
 
 ## Koslicki Lab
 
 <div class='right solid'><a href='http://math-galaxy.cgrb.oregonstate.edu:8080/'><img src="/images/logos/OregonStateU.jpg" alt="Koslicki Lab Server" height="200" /></a></div>
 
 * *Link:*
-  * [Koslicki Lab Galaxy server](http://math-galaxy.cgrb.oregonstate.edu:8080/)
+    * [Koslicki Lab Galaxy server](http://math-galaxy.cgrb.oregonstate.edu:8080/)
 * *Domain/Purpose:*
-  * Web based access to tools created by the [Koslicki Lab](http://www.math.oregonstate.edu/~koslickd/) at [Oregon State University](http://www.oregonstate.edu/):
-    * [ARK](https://github.com/dkoslicki/ARK) and [Quikr](https://github.com/dkoslicki/Quikr)/[SEK](https://github.com/dkoslicki/SEK) for 16S rRNA based taxonomic profiling
-    * [MetaPalette](https://github.com/dkoslicki/MetaPalette) for whole genome shotgun based taxonomic profiling
+    * Web based access to tools created by the [Koslicki Lab](http://www.math.oregonstate.edu/~koslickd/) at [Oregon State University](http://www.oregonstate.edu/):
+        * [ARK](https://github.com/dkoslicki/ARK) and [Quikr](https://github.com/dkoslicki/Quikr)/[SEK](https://github.com/dkoslicki/SEK) for 16S rRNA based taxonomic profiling
+        * [MetaPalette](https://github.com/dkoslicki/MetaPalette) for whole genome shotgun based taxonomic profiling
 * *Comments:*
 * *User Support:*
 * *Quotas:*
 * *Sponsor(s):*
-  * [Koslicki Lab](http://www.math.oregonstate.edu/~koslickd/) at [Oregon State University](http://www.oregonstate.edu/)
+    * [Koslicki Lab](http://www.math.oregonstate.edu/~koslickd/) at [Oregon State University](http://www.oregonstate.edu/)
 
 # Galaxy Community Hubs
 

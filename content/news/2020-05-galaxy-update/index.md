@@ -27,7 +27,7 @@ Dave Clements, on behalf of the Galaxy Community
 
 * **[James Peter Taylor](#james-peter-taylor-1979-2020)**, 1979-2020
 * **[BCC2020](#bcc2020-will-be-online-global-affordable-and-accessible) will be online, global, affordable, and accessible**
-  * **All abstracts are due May 8**
+    * **All abstracts are due May 8**
 * **[Galaxy COVID-19 Response](#galaxy-covid-19-response)**
 * [Upcoming events](#upcoming-events)
 * [Blog posts](#galactic-blog-activity)

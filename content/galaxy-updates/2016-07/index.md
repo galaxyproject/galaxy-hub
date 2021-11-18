@@ -390,19 +390,19 @@ One [new publicly accessible Galaxy servers](/use/) was added to [the list](/use
 <div class='right solid'><a href='http://cart.embl.de/'><img src="/use/cart/cart.png" alt="Chemical Annotation Retrieval Toolkit (CART) Galaxy" width="300" /></a></div>
 
 * *Link:*
-  * [Server](http://cart.embl.de/)
+    * [Server](http://cart.embl.de/)
 * *Domain/Purpose:*
-  * Retrieves annotations on biological effects of chemicals and determines which ones are enriched.
+    * Retrieves annotations on biological effects of chemicals and determines which ones are enriched.
 * *Comments:*
-  * From "[CART – a chemical annotation retrieval toolkit](http://bioinformatics.oxfordjournals.org/content/early/2016/06/02/bioinformatics.btw233.abstract)" by Samy Deghou, Georg Zeller, Murat Iskar, Marja Driessen, Mercedes Castillo, Vera van Noort, and Peer Bork. *Bioinformatics* (2016), doi: 10.1093/bioinformatics/btw233
+    * From "[CART – a chemical annotation retrieval toolkit](http://bioinformatics.oxfordjournals.org/content/early/2016/06/02/bioinformatics.btw233.abstract)" by Samy Deghou, Georg Zeller, Murat Iskar, Marja Driessen, Mercedes Castillo, Vera van Noort, and Peer Bork. *Bioinformatics* (2016), doi: 10.1093/bioinformatics/btw233
       "it matches an input list of chemical names into a comprehensive reference space to assign unambiguous chemical identifiers. In this unified space, bioactivity annotations can be easily retrieved from databases covering a wide variety of chemical effects on biological systems. Subsequently, CART can determine annotations enriched in the input set of chemicals and display these in tabular format and interactive network visualizations, thereby facilitating integrative analysis of chemical bioactivity data."
-  * Source code and an easy-to-install command line tool are also available.
+    * Source code and an easy-to-install command line tool are also available.
 * *User Support:*
-  * See the "Tutorial" and "Contact" tabs on the [website](http://cart.embl.de/).
+    * See the "Tutorial" and "Contact" tabs on the [website](http://cart.embl.de/).
 * *Quotas:*
-  * Supports anonymous access and creation of user logins.
+    * Supports anonymous access and creation of user logins.
 * *Sponsor(s):*
-  * [Structural and Computational Biology Unit](http://www.embl.de/research/units/scb/), [European Molecular Biology Laboratory](http://www.embl.de/index.php), Heidelberg, Germany
+    * [Structural and Computational Biology Unit](http://www.embl.de/research/units/scb/), [European Molecular Biology Laboratory](http://www.embl.de/index.php), Heidelberg, Germany
 
 # New Semi-Public Galaxy Servers
 
@@ -413,33 +413,33 @@ And one [new set of Semi-Public Galaxy server](/use/) was added in June.  Semi-p
 <div class='right solid'><a href='https://nels.bioinfo.no'><img src="https://galaxy-ntnu.bioinfo.no/www/NeLS_logo_300x100.png" alt="NeLS Portal"  /></a></div>
 
 * *Links:*
-  * **[NeLS Galaxy server at UiO](https://galaxy-uio.bioinfo.no)**
-  * **[NeLS Galaxy server at UiB](https://galaxy-uib.bioinfo.no)**
-  * **[NeLS Galaxy server at UiT](https://galaxy-uit.bioinfo.no)**
-  * **[NeLS Galaxy server at NTNU](https://galaxy-ntnu.bioinfo.no)**
-  * **[NeLS Galaxy server at NMBU](https://galaxy-nmbu.bioinfo.no)**
-  * **[Lifeportal server at UiO](https://lifeportal.uio.no)**
-  * [Apply for a NeLS account](https://nels.bioinfo.no/pages/registration.xhtml)
+    * **[NeLS Galaxy server at UiO](https://galaxy-uio.bioinfo.no)**
+    * **[NeLS Galaxy server at UiB](https://galaxy-uib.bioinfo.no)**
+    * **[NeLS Galaxy server at UiT](https://galaxy-uit.bioinfo.no)**
+    * **[NeLS Galaxy server at NTNU](https://galaxy-ntnu.bioinfo.no)**
+    * **[NeLS Galaxy server at NMBU](https://galaxy-nmbu.bioinfo.no)**
+    * **[Lifeportal server at UiO](https://lifeportal.uio.no)**
+    * [Apply for a NeLS account](https://nels.bioinfo.no/pages/registration.xhtml)
 * *Eligibility:*
-  * Life Science researchers from Norwegian academic institutions can log in with their FEIDE accounts (federation of home institution credentials). Other research collaborators can apply for a NeLS account.
+    * Life Science researchers from Norwegian academic institutions can log in with their FEIDE accounts (federation of home institution credentials). Other research collaborators can apply for a NeLS account.
 * *Comments:*
-  * The Norwegian e-Infrastructure for Life Sciences (NeLS) consists of a network of Galaxy servers at five Norwegian universities accessible via single sign-on.
-  * All the NeLS Galaxy servers are connected to the [NeLS Portal](https://nels.bioinfo.no/) which provides centralized storage and sharing capabilities.
-  * NeLS develops and maintains several [analysis pipelines](https://galaxy-ntnu.bioinfo.no/www/nels_pipelines.html) offered as Galaxy workflows.
-  * The NeLS infrastructure is operated by the Norwegian node of [Elixir](https://www.elixir-europe.org).
+    * The Norwegian e-Infrastructure for Life Sciences (NeLS) consists of a network of Galaxy servers at five Norwegian universities accessible via single sign-on.
+    * All the NeLS Galaxy servers are connected to the [NeLS Portal](https://nels.bioinfo.no/) which provides centralized storage and sharing capabilities.
+    * NeLS develops and maintains several [analysis pipelines](https://galaxy-ntnu.bioinfo.no/www/nels_pipelines.html) offered as Galaxy workflows.
+    * The NeLS infrastructure is operated by the Norwegian node of [Elixir](https://www.elixir-europe.org).
 
 * *User Support:*
-  * The [Norwegian Bioinformatics Platform](http://www.bioinfo.no) has a help desk that can be reached by emailing contact@bioinfo.no
+    * The [Norwegian Bioinformatics Platform](http://www.bioinfo.no) has a help desk that can be reached by emailing contact@bioinfo.no
 * *Quotas:*
-  * NeLS Galaxy instances have some temporary storage available, while the bulk volumes of data are managed through the NeLS centralized storage and the Norwegian national storage services.
+    * NeLS Galaxy instances have some temporary storage available, while the bulk volumes of data are managed through the NeLS centralized storage and the Norwegian national storage services.
 * *Sponsor(s):*
-  * [University of Oslo](http://www.uio.no/)
-  * [University of Bergen](http://www.uib.no/)
-  * [Norwegian University of Science and Technology (NTNU)](http://www.ntnu.no/)
-  * [Norwegian University of Life Sciences (NMBU)](http://www.nmbu.no/)
-  * [UiT The Arctic University of Norway](http://www.uit.no/)
-  * [Elixir Norway](http://www.elixir-norway.org/)
-  * [The Research Council of Norway](http://www.forskningsradet.no/en/Home_page/1177315753906)
+    * [University of Oslo](http://www.uio.no/)
+    * [University of Bergen](http://www.uib.no/)
+    * [Norwegian University of Science and Technology (NTNU)](http://www.ntnu.no/)
+    * [Norwegian University of Life Sciences (NMBU)](http://www.nmbu.no/)
+    * [UiT The Arctic University of Norway](http://www.uit.no/)
+    * [Elixir Norway](http://www.elixir-norway.org/)
+    * [The Research Council of Norway](http://www.forskningsradet.no/en/Home_page/1177315753906)
 
 # Galaxy Community Hubs
 

@@ -11,14 +11,14 @@ date: "2016-04-29"
 Some highlights from the **[May Galaxy News](/galaxy-updates/2016-05/)**
 
 * **[GCC2016](/galaxy-updates/2016-05/#gcc2016) Deadlines!** and **[Sponsors](/galaxy-updates/2016-05/#sponsors)**
-  * **[Poster & Demo Abstracts: May 20](/galaxy-updates/2016-05/#poster--demo-abstracts-may-20)**
-  * **[Early Registration: May 20](/galaxy-updates/2016-05/#early-registration-may-20)**
-  * **[Scholarships: May 1](/galaxy-updates/2016-05/#scholarships-may-1)**
-  * Please welcome returning GCC sponsors: **[GigaScience](/galaxy-updates/2016-05/#gigascience)**, **[GenomeWeb](/galaxy-updates/2016-05/#genomeweb)**, and **[EMC](/galaxy-updates/2016-05/#emc)**.
+    * **[Poster & Demo Abstracts: May 20](/galaxy-updates/2016-05/#poster--demo-abstracts-may-20)**
+    * **[Early Registration: May 20](/galaxy-updates/2016-05/#early-registration-may-20)**
+    * **[Scholarships: May 1](/galaxy-updates/2016-05/#scholarships-may-1)**
+    * Please welcome returning GCC sponsors: **[GigaScience](/galaxy-updates/2016-05/#gigascience)**, **[GenomeWeb](/galaxy-updates/2016-05/#genomeweb)**, and **[EMC](/galaxy-updates/2016-05/#emc)**.
 * [Other Upcoming Events](/galaxy-updates/2016-05/#upcoming-events):
-  * [Galaxy @ ASMS 2016](/galaxy-updates/2016-05/#galaxy-at-asms-2016)
-  * [Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data Workshop @ UC Davis](/galaxy-updates/2016-05/#using-galaxy-for-analysis-of-rna-seq-and-chip-seq-data)
-  * [All May, June and July Events](/galaxy-updates/2016-05/#may-june-and-july-events)
+    * [Galaxy @ ASMS 2016](/galaxy-updates/2016-05/#galaxy-at-asms-2016)
+    * [Using Galaxy for Analysis of RNA-Seq and ChIP-Seq Data Workshop @ UC Davis](/galaxy-updates/2016-05/#using-galaxy-for-analysis-of-rna-seq-and-chip-seq-data)
+    * [All May, June and July Events](/galaxy-updates/2016-05/#may-june-and-july-events)
 * **[Galaxy on Jetstream Cloud](/galaxy-updates/2016-05/#galaxy-on-jetstream-cloud)**
 * [New tutorials and video](/galaxy-updates/2016-05/#new-tutorials-and-video) on Diploid Variant Calling, Reference Based RNA-Seq, and Dataset Collections.
 * [Slides and video from the April GalaxyAdmins meetup](/galaxy-updates/2016-05/#april-galaxyadmins-slides--video) and a [report from the Conda Dependency Codefest](/galaxy-updates/2016-05/#conda-dependency-codefest-report)

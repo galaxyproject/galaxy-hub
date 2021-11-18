@@ -38,19 +38,19 @@ Here's my desk setup:
 #### Screen configuration:
 
 - Middle screen - 27"
-  - https://imgur.com/Ex7BRx9
-  - Vim Code is middle + left screen
-  - IRC top right
-  - Grunt + Webpack logs middle right
-  - Galaxy logs bottom right
+    - https://imgur.com/Ex7BRx9
+    - Vim Code is middle + left screen
+    - IRC top right
+    - Grunt + Webpack logs middle right
+    - Galaxy logs bottom right
 
 - Right screen - 24"
-  - Gmail Half right
-  - Galaxy + browser Half left
+    - Gmail Half right
+    - Galaxy + browser Half left
 
 - Left screen - Macbook pro 13"
-  - Usually just another Galaxy or other browser destination.
-  - More often than not, unless it's something wonky (cluster testing) which is easier to set up on *nix, the code I'm working on actually lives on this machine and I'm ssh(mosh)'d in to it from all the terminals you see in the center panel.  So I actually do develop on OSX, I just don't use the interface.
+    - Usually just another Galaxy or other browser destination.
+    - More often than not, unless it's something wonky (cluster testing) which is easier to set up on *nix, the code I'm working on actually lives on this machine and I'm ssh(mosh)'d in to it from all the terminals you see in the center panel.  So I actually do develop on OSX, I just don't use the interface.
 
 #### OS
 
@@ -85,9 +85,9 @@ Read HackerNews / Python subreddit + Programming subreddit
 
 - Everyone should use Terminal. You have to understand the things underline.
 - A good (mechanical) keyboard:
-  - http://www.amazon.com/CM-Storm-QuickFire-TK-Mechanical/dp/B00A378L4C
-  - http://www.keyboardco.com/blog/index.php/2012/12/an-introduction-to-cherry-mx-mechanical-switches/
-  - http://www.amazon.com/Mechanical-Keyboard-Keycaps-Cherry-Mx-Clear/dp/B00OFM6F80
+    - http://www.amazon.com/CM-Storm-QuickFire-TK-Mechanical/dp/B00A378L4C
+    - http://www.keyboardco.com/blog/index.php/2012/12/an-introduction-to-cherry-mx-mechanical-switches/
+    - http://www.amazon.com/Mechanical-Keyboard-Keycaps-Cherry-Mx-Clear/dp/B00OFM6F80
 
 ## Dan Blankenberg
 
@@ -139,18 +139,18 @@ Now:
 #### Work environment
 
 - Vim + plugins:
-  - '[VundleVim](/VundleVim/)/Vundle.vim'
-  - 'tpope/vim-fugitive'
-  - 'git://git.wincent.com/command-t.git'
-  - 'rstacruz/sparkup'
-  - 'Valloric[/YouCompleteMe](/team-set-up/YouCompleteMe/)'
-  - 'kien/ctrlp.vim'
-  - 'scrooloose/syntastic'
-  - 'Lokaltog/powerline'
-  - 'scrooloose/nerdcommenter'
-  - 'nvie/vim-flake8'
-  - 'elzr/vim-json'
-  - 'mileszs/ack.vim'
+    - '[VundleVim](/VundleVim/)/Vundle.vim'
+    - 'tpope/vim-fugitive'
+    - 'git://git.wincent.com/command-t.git'
+    - 'rstacruz/sparkup'
+    - 'Valloric[/YouCompleteMe](/team-set-up/YouCompleteMe/)'
+    - 'kien/ctrlp.vim'
+    - 'scrooloose/syntastic'
+    - 'Lokaltog/powerline'
+    - 'scrooloose/nerdcommenter'
+    - 'nvie/vim-flake8'
+    - 'elzr/vim-json'
+    - 'mileszs/ack.vim'
 
 Use Sublime with plugins essentially for Javascript
 

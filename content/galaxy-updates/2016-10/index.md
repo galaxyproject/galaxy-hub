@@ -17,19 +17,19 @@ Welcome to the October 2016 *[Galactic News](/galaxy-updates/)*, a summary of wh
 The big news this month is a series of upcoming events:
 
 * **[Galaxy training contribution fest](/galaxy-updates/2016-10/#galaxy-training-contribution-fest-6-7-october-online)**:
-  * October 6-7, Online
+    * October 6-7, Online
 * **[Swiss-German Galaxy Days](/galaxy-updates/2016-10/#swiss-german-galaxy-days)**:
-  * October 20-21, Freiburg, Germany
+    * October 20-21, Freiburg, Germany
 * **[Galaxy & Hacktoberfest](/galaxy-updates/2016-10/#galaxy--hacktoberfest)**:
-  * Month of October, online
+    * Month of October, online
 * **[Bioconda Contribution Fest](/galaxy-updates/2016-10/#conda-conda-conda)**:
-  * November 2-3, [Online](https://github.com/bioconda/bioconda-recipes/issues/2277)
+    * November 2-3, [Online](https://github.com/bioconda/bioconda-recipes/issues/2277)
 * **[Galaxy Admin Training](/galaxy-updates/2016-10/#galaxy-admin-training-november-7-11-salt-lake-city-utah)**:
-  * November 7-11, Salt Lake City, Utah
-  * *On time registration ends October 16*
+    * November 7-11, Salt Lake City, Utah
+    * *On time registration ends October 16*
 * **[Galaxy Australasia Meeting (GAMe 2017)](/galaxy-updates/2016-10/#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open)**:
-  * February 3-9, Melbourne, Victoria, Australia
-  * *Registration and abstract submission are now open.*
+    * February 3-9, Melbourne, Victoria, Australia
+    * *Registration and abstract submission are now open.*
 
 If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
@@ -488,19 +488,19 @@ Jetstream was officially launched in September and was added to the [Semi-Public
 <div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/images/logos/JetstreamRectClipped.jpg" alt="Jetstream" width="280" /></a></div>
 
 * *Links:*
-  * **[Galaxy on Jetstream](/cloud/jetstream/)**
+    * **[Galaxy on Jetstream](/cloud/jetstream/)**
 * *Eligibility:*
-  * [Jetstream](http://jetstream-cloud.org/) is part of [XSEDE](https://www.xsede.org/), a "collection of integrated advanced digital resources and services" and is funded by NSF. You need to be eligible for an [XSEDE allocation](https://portal.xsede.org/allocation-policies) to use Jetstream, which means must be based at a U.S. institution. And although XSEDE is NSF-funded, "projects need not be supported by NSF grants" to receive an allocation.
+    * [Jetstream](http://jetstream-cloud.org/) is part of [XSEDE](https://www.xsede.org/), a "collection of integrated advanced digital resources and services" and is funded by NSF. You need to be eligible for an [XSEDE allocation](https://portal.xsede.org/allocation-policies) to use Jetstream, which means must be based at a U.S. institution. And although XSEDE is NSF-funded, "projects need not be supported by NSF grants" to receive an allocation.
 * *Comments:*
-  * Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can [become an administrator](/cloud/jetstream/ssh/#adding-galaxy-admin-user) and even [access the server from the shell](/cloud/jetstream/ssh/).
+    * Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can [become an administrator](/cloud/jetstream/ssh/#adding-galaxy-admin-user) and even [access the server from the shell](/cloud/jetstream/ssh/).
 * *User Support:*
-  * See the [Galaxy on Jetstream documentation](/cloud/jetstream/)
-  * [FAQ](/cloud/jetstream/faq/)
+    * See the [Galaxy on Jetstream documentation](/cloud/jetstream/)
+    * [FAQ](/cloud/jetstream/faq/)
 * *Quotas:*
-  * Limits are determined by the size of your allocation and the size of the instances you launch.
+    * Limits are determined by the size of your allocation and the size of the instances you launch.
 * *Sponsor(s):*
-  * [The National Science Foundation (NSF)](http://www.nsf.gov/)
-  * [Jetstream](http://jetstream-cloud.org/) is based at [Indiana University](https://www.iu.edu/) and Jetstream resources are hosted by Indiana University and the [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/).
+    * [The National Science Foundation (NSF)](http://www.nsf.gov/)
+    * [Jetstream](http://jetstream-cloud.org/) is based at [Indiana University](https://www.iu.edu/) and Jetstream resources are hosted by Indiana University and the [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/).
 
 # Trinity comes to usegalaxy.org
 

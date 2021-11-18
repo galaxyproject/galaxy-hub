@@ -722,21 +722,21 @@ Using the procedure in [Installing a tool from a Tool Shed](/events/gmod-summer-
 
 1. `fastq_paired_end_joiner`:
 
-  * search with the tool name 'fastq joiner'
-  * The owner is 'devteam' and
-  * the description is: 'FASTQ joiner on paired end reads'
+* search with the tool name 'fastq joiner'
+* The owner is 'devteam' and
+* the description is: 'FASTQ joiner on paired end reads'
 
 2. `fastq_filter`:
 
-  * search with the tool name 'filter fastq'
-  * The owner is 'devteam' and
-  * the description is: 'Filter FASTQ reads by quality score and length'
+* search with the tool name 'filter fastq'
+* The owner is 'devteam' and
+* the description is: 'Filter FASTQ reads by quality score and length'
 
 3. `fastq_paired_end_splitter`:
 
-  * search with the tool name 'fastq splitter'
-  * The owner is 'devteam' and
-  * the description is: 'FASTQ splitter on paired end reads'
+* search with the tool name 'fastq splitter'
+* The owner is 'devteam' and
+* the description is: 'FASTQ splitter on paired end reads'
 
 Using the tools above, we'll:
 
@@ -868,11 +868,11 @@ use on different isolates:
 2. Click 'Extract Workflow' from that menu. The center panel should open to page that allows you to set many options
   for the new, extracted workflow including:
 
-  * A workflow name
-  * Your input datasets - these will be marked as the workflow entry point because of the checked checkboxes
+* A workflow name
+* Your input datasets - these will be marked as the workflow entry point because of the checked checkboxes
     'Treat as input dataset'
-  * Your join, filter, and split jobs
-  * The two FastQC jobs
+* Your join, filter, and split jobs
+* The two FastQC jobs
 
 3. In that panel, change the name to 'Basic fastq QC'
 4. Click the 'Create Workflow' button. An info box should appear saying "Workflow 'Basic fastq QC' created from current

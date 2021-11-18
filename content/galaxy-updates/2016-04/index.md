@@ -389,26 +389,26 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right solid'><a href='http://134.2.17.68:8081/'><img src="/use/halogen-bonding/halogen-bonding.png" alt="Halogen Bonding Webserver" height="200" /></a></div>
 
 * *Link:*
-  * [Halogen Bonding Galaxy Server](http://134.2.17.68:8081/)
-  * [Halogen Bonding project home](http://halogenbonding.com/)
+    * [Halogen Bonding Galaxy Server](http://134.2.17.68:8081/)
+    * [Halogen Bonding project home](http://halogenbonding.com/)
 * *Domain/Purpose:*
-  * Visualize halogen bond contacts in the protein binding site
-  * Analyze a protein binding site for halogen bonding hotspots
-  * Evaluate halogen contacts with the protein backbone using the scoring function XBScore
+    * Visualize halogen bond contacts in the protein binding site
+    * Analyze a protein binding site for halogen bonding hotspots
+    * Evaluate halogen contacts with the protein backbone using the scoring function XBScore
 * *Comments:*
-  * Supports visualizations (halogen bond spheres) for:
-    * the protein backbone (spherical scans and planar scans)
-    * methionine
-    * histidine
-  * More visualizations and evaluation tools will be added in the near future.
-  * See
-    * [Evaluating the Potential of Halogen Bonding in Molecular Design: Automated Scaffold Decoration Using the New Scoring Function XBScore](https://doi.org/10.1021/ci5007118), Markus O. Zimmermann, Andreas Lange, and Frank M. Boeckler *Journal of Chemical Information and Modeling* 2015 55 (3), 687-699 DOI:10.1021\ci5007118
-    * [Using halogen bonds to address the protein backbone: a systematic evaluation](https://doi.org/10.1007/s10822-012-9592-8), Rainer Wilcken, Markus O. Zimmermann, Andreas Lange, Stefan Zahn, and Frank M. Boeckler *J. Comput. Aided Mol. Des.* 2012, 26 (8), 935-945. DOI:10.1007/s10822-012-9592-8
+    * Supports visualizations (halogen bond spheres) for:
+        * the protein backbone (spherical scans and planar scans)
+        * methionine
+        * histidine
+    * More visualizations and evaluation tools will be added in the near future.
+    * See
+        * [Evaluating the Potential of Halogen Bonding in Molecular Design: Automated Scaffold Decoration Using the New Scoring Function XBScore](https://doi.org/10.1021/ci5007118), Markus O. Zimmermann, Andreas Lange, and Frank M. Boeckler *Journal of Chemical Information and Modeling* 2015 55 (3), 687-699 DOI:10.1021\ci5007118
+        * [Using halogen bonds to address the protein backbone: a systematic evaluation](https://doi.org/10.1007/s10822-012-9592-8), Rainer Wilcken, Markus O. Zimmermann, Andreas Lange, Stefan Zahn, and Frank M. Boeckler *J. Comput. Aided Mol. Des.* 2012, 26 (8), 935-945. DOI:10.1007/s10822-012-9592-8
 * *User Support:*
 * *Quotas:*
-  * "Files older than 30 days will be deleted, so make sure to save the results to your hard drive. "
+    * "Files older than 30 days will be deleted, so make sure to save the results to your hard drive. "
 * *Sponsor(s):*
-  * This webserver is provided by the group of [Prof. Dr. Frank Boeckler (University of Tuebingen, Germany)](http://www.mnf.uni-tuebingen.de/fachbereiche/pharmazie-und-biochemie/pharmazie/pharmazeutische-chemie/prof-dr-f-boeckler.html)
+    * This webserver is provided by the group of [Prof. Dr. Frank Boeckler (University of Tuebingen, Germany)](http://www.mnf.uni-tuebingen.de/fachbereiche/pharmazie-und-biochemie/pharmazie/pharmazeutische-chemie/prof-dr-f-boeckler.html)
 
 # Galaxy Community Hubs
 
@@ -581,8 +581,8 @@ The [IUC](/iuc/) is [seeking comments and contributions to this effort](https://
 * New and recently updated tools are now highlighted on usegalaxy.org.
 
 * From [Bjöern Grüening](/people/bjoern-gruening/):
-  * Cheminformatics datatypes were added to Galaxy with [this pull request](https://github.com/galaxyproject/galaxy/pull/1941). Expect new ChemicalToolBox development soon!
-  * [deepTools](https://deeptools.github.io/) visualization, QC, and data normalization tools are now available on [usegalaxy.org](https://usegalaxy.org). Thanks to [Devon Ryan](https://twitter.com/dpryan79) and https://twitter.com/fidel_ramirez|Fidel Ramirez]]
-  * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/galaxy-updates/2016-02/#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).
+    * Cheminformatics datatypes were added to Galaxy with [this pull request](https://github.com/galaxyproject/galaxy/pull/1941). Expect new ChemicalToolBox development soon!
+    * [deepTools](https://deeptools.github.io/) visualization, QC, and data normalization tools are now available on [usegalaxy.org](https://usegalaxy.org). Thanks to [Devon Ryan](https://twitter.com/dpryan79) and https://twitter.com/fidel_ramirez|Fidel Ramirez]]
+    * Galaxy Tours, a new interactive way to learn Galaxy, were announced in the [February News](/galaxy-updates/2016-02/#new-tutorials--and-tours).  We now have an [official repository to collect community tours](https://github.com/galaxyproject/galaxy-tours).
 * From Yvan Le Bras:
-  * My [first Galaxy Interactive Tour attempt](https://www.youtube.com/watch?v=msm-EDZcB5A&feature=youtu.be) for RADseq data analysis based on a RNAseq, using Björn Grüning's template.
+    * My [first Galaxy Interactive Tour attempt](https://www.youtube.com/watch?v=msm-EDZcB5A&feature=youtu.be) for RADseq data analysis based on a RNAseq, using Björn Grüning's template.

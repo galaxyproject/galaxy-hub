@@ -122,13 +122,13 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 * The conference will feature two full days of presentations and discussions.  
 * [Abstract submission](/events/gcc2012/abstracts/) opened February 13, and will [close April 16](/events/gcc2012/Key Dates/).  
 * A [whole day of training](/events/gcc2012/training-day/) has been added, and topics set:
-  * [Introduction to Galaxy](/events/gcc2012/training-day/#ws2)
-  * [Installing Your Own Galaxy](/events/gcc2012/training-day/#ws5)
-  * [Galaxy CloudMan](/events/gcc2012/training-day/#ws3)
-  * [Integrating Tools & Data Sources](/events/gcc2012/training-day/#ws1)
-  * [Galaxy API](/events/gcc2012/training-day/#ws6)
-  * [Galaxy Tool Shed](/events/gcc2012/training-day/#ws7)
-  * [Ion Torrent - Open Source Sequencing](/events/gcc2012/training-day/#ws10)
+    * [Introduction to Galaxy](/events/gcc2012/training-day/#ws2)
+    * [Installing Your Own Galaxy](/events/gcc2012/training-day/#ws5)
+    * [Galaxy CloudMan](/events/gcc2012/training-day/#ws3)
+    * [Integrating Tools & Data Sources](/events/gcc2012/training-day/#ws1)
+    * [Galaxy API](/events/gcc2012/training-day/#ws6)
+    * [Galaxy Tool Shed](/events/gcc2012/training-day/#ws7)
+    * [Ion Torrent - Open Source Sequencing](/events/gcc2012/training-day/#ws10)
 * Early [registration](/events/gcc2012/register/) will open **any day now** and close June 11.
 
 ## Tool Shed Contributions

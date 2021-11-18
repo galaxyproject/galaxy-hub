@@ -40,10 +40,10 @@ and point your browse at the URL defined by the host and port setting in your co
 * Add support for the GFF format to the Galaxy Operation subtract tool
 
 * Trackster
-  * Implemented drag-zooming by letting you drag a region in the top label track (where chrom position is shown). Refactored to not use zoom levels anymore.
-  * Can manually set display modes for tracks.
-  * Add text search to trackster dataset selection grid and fix dbkey filtering.
-  * Respect block color for bam
+    * Implemented drag-zooming by letting you drag a region in the top label track (where chrom position is shown). Refactored to not use zoom levels anymore.
+    * Can manually set display modes for tracks.
+    * Add text search to trackster dataset selection grid and fix dbkey filtering.
+    * Respect block color for bam
 
 * When use_remote_user = True, still display the logged in user in the User menu
 

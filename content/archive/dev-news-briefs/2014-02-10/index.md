@@ -75,9 +75,9 @@ As in prior releases, Galaxy tool migration framework has been enhanced so that 
 1. *Scatterplot*: Improvements to large data loading. https://trello.com/c/8or6FdE2
 1. *Trackster*:
 
-  * Standalone web application(s) for visualizations. https://trello.com/c/i0yW8IgQ
-  * Correct issue where attempting to set a custom build that has not finished processing resulted in unrecoverable infinite recursion. https://trello.com/c/AWyQSQ8F
-  * CSS styling improvements include:
+* Standalone web application(s) for visualizations. https://trello.com/c/i0yW8IgQ
+* Correct issue where attempting to set a custom build that has not finished processing resulted in unrecoverable infinite recursion. https://trello.com/c/AWyQSQ8F
+* CSS styling improvements include:
     * overlaying track header on track data to compress track height; this enables more data to be viewed simultaneously
     * grayscale drawing for mapped reads so that variation can easily be seen
     * using colors to denote track state (e.g. pending, error, etc.)
@@ -228,8 +228,8 @@ Also see above: [New Tool Migrations](/archive/dev-news-briefs/2014-02-10/#new-t
 1. Display message on Manage / View repository page in the tool shed if repository has repository dependencies that are deprecated. https://trello.com/c/EZuWhamr
 1. Dev Team owned repo updates
 
-  * *Free Bayes*: Developed a tool dependency definition that specifies precompiled binaries. https://trello.com/c/zYoVHKoV
-  * *EMBOSS*: Updated repo so it downloads a precompiled platform-specific binary. https://trello.com/c/iW3Amhl5
+* *Free Bayes*: Developed a tool dependency definition that specifies precompiled binaries. https://trello.com/c/zYoVHKoV
+* *EMBOSS*: Updated repo so it downloads a precompiled platform-specific binary. https://trello.com/c/iW3Amhl5
 
 ## Install and Test Framework
 

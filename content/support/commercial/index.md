@@ -30,8 +30,8 @@ GalaxyWorks [was founded](https://galaxyproject.org/news/2020-06-galaxyworks-ann
 * Production Environment Optimization
 * Data Integration Outsourcing Services
 * Enterprise Cloud Environment with SLA
-  * Fully managed and hosted on cloud Galaxy Enterprise with various levels of SLAs.
-  * Dedicated servers with dedicated secure access (VPN) including data storage and management.
+    * Fully managed and hosted on cloud Galaxy Enterprise with various levels of SLAs.
+    * Dedicated servers with dedicated secure access (VPN) including data storage and management.
 * Galaxy Enterprise Certification Training
 
 ## Noor Biotechnologies

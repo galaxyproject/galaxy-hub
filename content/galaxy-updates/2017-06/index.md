@@ -384,7 +384,7 @@ And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
 * From [John Chilton](/people/john-chilton/):
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+    * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 
 ## Parsec 1.0.0 - 1.0.2
@@ -439,13 +439,13 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 # Other News
 
 * From  [Paul Gordon](https://www.blogger.com/profile/02637194860456629067)
-  * [The ungoogleable: Authenticating a Galaxy Portal with Active Directory ](http://achri.blogspot.ca/2017/05/the-final-frontier-authenticating.html)
+    * [The ungoogleable: Authenticating a Galaxy Portal with Active Directory ](http://achri.blogspot.ca/2017/05/the-final-frontier-authenticating.html)
 * From  [Björn Grüning](/people/bjoern-gruening/)
-  * There is a new [HiCExplorer Galaxy Docker version](https://github.com/maxplanck-ie/docker-galaxy-hicexplorer), based on Galaxy 17.05, made possible by [Fidel Ramírez](https://twitter.com/fidel_ramirez) and friends.
+    * There is a new [HiCExplorer Galaxy Docker version](https://github.com/maxplanck-ie/docker-galaxy-hicexplorer), based on Galaxy 17.05, made possible by [Fidel Ramírez](https://twitter.com/fidel_ramirez) and friends.
 * From [Mo Heydarian](/people/mo-heydarian/)
- * Creating Galaxy workflows [is easier than you think](https://depot.galaxyproject.org/hub/attachments/documents/videos/2017-05-workflow-example.gif). If you like reproducibility, you'll like workflows!
+* Creating Galaxy workflows [is easier than you think](https://depot.galaxyproject.org/hub/attachments/documents/videos/2017-05-workflow-example.gif). If you like reproducibility, you'll like workflows!
 * New video on [Creating collections by uploading from SRA](https://vimeo.com/217216264).
 * From [Nate Coraor](/people/nate/)
-  * Heads up: Galaxy roles published on galaxy.ansible.com have changed namespaces from `galaxyprojectdotorg` to just `galaxyproject`
+    * Heads up: Galaxy roles published on galaxy.ansible.com have changed namespaces from `galaxyprojectdotorg` to just `galaxyproject`
 
 

@@ -28,21 +28,21 @@ GCC2015 was hosted by [The Sainsbury Lab](http://tsl.ac.uk/) in Norwich, UK.  By
 GCC2015 registrations reached an all-time high, and GC2015 featured more events than any previous GCC:
 
 * A record **230 researchers** signed up for one or more GCC2015 events:
-  * 41 registered for the 2nd Annual [GCC Coding Hackathon](http://gcc2015.tsl.ac.uk/Hackathon/), held at TGAC, 4-5 July,
-  * 17 registered for the first ever [GCC Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/data-hackathon/), held simultaneously at TGAC,
-  * 72 registered for the first ever (and sold out) [Training Sunday](http://gcc2015.tsl.ac.uk/Training-Day/) on 5 July.
-  * 178 registered for [Training Day](http://gcc2015.tsl.ac.uk/Training-Day/) on 6 July,
-  * 191 registered for the [GCC Meeting](http://gcc2015.tsl.ac.uk/Conference/), on 7-8 July,
+    * 41 registered for the 2nd Annual [GCC Coding Hackathon](http://gcc2015.tsl.ac.uk/Hackathon/), held at TGAC, 4-5 July,
+    * 17 registered for the first ever [GCC Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/data-hackathon/), held simultaneously at TGAC,
+    * 72 registered for the first ever (and sold out) [Training Sunday](http://gcc2015.tsl.ac.uk/Training-Day/) on 5 July.
+    * 178 registered for [Training Day](http://gcc2015.tsl.ac.uk/Training-Day/) on 6 July,
+    * 191 registered for the [GCC Meeting](http://gcc2015.tsl.ac.uk/Conference/), on 7-8 July,
 * [15 topics were offered in 18 sessions by 32 instructors over two days of training](http://gcc2015.tsl.ac.uk/Training-Day/).
 * The GCC2015 Meeting featured
-  * [28 accepted and keynote talks](http://gcc2015.tsl.ac.uk/abstracts) (slides for most are online, videos are coming)
-  * [34 posters](http://gcc2015.tsl.ac.uk/Posters/) (most are online)
-  * [14 lightning talks](http://gcc2015.tsl.ac.uk/Lightning/) (slides for most are online, videos are coming)
-  * [10 Birds-of-a-feather meetups](/events/gcc2015/bofs/) (writeups for most are available)
+    * [28 accepted and keynote talks](http://gcc2015.tsl.ac.uk/abstracts) (slides for most are online, videos are coming)
+    * [34 posters](http://gcc2015.tsl.ac.uk/Posters/) (most are online)
+    * [14 lightning talks](http://gcc2015.tsl.ac.uk/Lightning/) (slides for most are online, videos are coming)
+    * [10 Birds-of-a-feather meetups](/events/gcc2015/bofs/) (writeups for most are available)
 * There was a record amount of Twitter traffic at GCC2015.  Peter Cock has created several Storify pages that captured the stream:
-  * [GCC2015 Hackathon & Training Days](https://storify.com/pjacock/galaxy-community-conference-gcc2015-hackathon)
-  * [GCC2015 Galaxy Community Conference - Day One](https://storify.com/pjacock/gcc2015-galaxy-community-conference)
-  * [GCC2015 Galaxy Community Conference - Day Two](https://storify.com/pjacock/gcc2015-galaxy-community-conference-day-twp)
+    * [GCC2015 Hackathon & Training Days](https://storify.com/pjacock/galaxy-community-conference-gcc2015-hackathon)
+    * [GCC2015 Galaxy Community Conference - Day One](https://storify.com/pjacock/gcc2015-galaxy-community-conference)
+    * [GCC2015 Galaxy Community Conference - Day Two](https://storify.com/pjacock/gcc2015-galaxy-community-conference-day-twp)
 
 The [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/#Organising_Committee) would like to thank the [Scientific Committee](http://gcc2015.tsl.ac.uk/organisers/#Scientific_Committee), [Coding Hackathon Organisers](http://gcc2015.tsl.ac.uk/organisers/#Coding_Hackathon_Committee), [Data Wrangling Hackathon Organisers](http://gcc2015.tsl.ac.uk/organisers/#Data_Wrangling_Hackathon_Committee), [Conference Sponsors](http://gcc2015.tsl.ac.uk/sponsors/), [BoF Organisers](/events/gcc2015/bofs/), [Training Instructors](http://gcc2015.tsl.ac.uk/training-day) *and absolutely everyone else who contributed to the success of GCC2015.*
 
@@ -342,7 +342,7 @@ The Galaxy is expanding! Please help it grow.
 
 * [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium
 
- *
+*
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -366,23 +366,23 @@ July was a banner month, with the addition of [5 new publicly accessible Galaxy 
 
 1. **[AB-OpenLab FROG](http://ab-openlab.csir.res.in/frog/)**, from  [CSIR- GENESIS: Genomics and Informatics Solutions for Integrating Biology](http://crdd.osdd.net/genesis/genome.html)
 
-  * **F**inge**R**printing **O**ntology of **G**enomic variations: *FROG* fingerprints capture genomic variations at different levels.  See [the FROG server description](/use/ab-openlab/) for more.
+* **F**inge**R**printing **O**ntology of **G**enomic variations: *FROG* fingerprints capture genomic variations at different levels.  See [the FROG server description](/use/ab-openlab/) for more.
 
 1. **[AGEseq Galaxy @ AspenDB](http://aspendb.uga.edu/ageseq)**, from the [Tsai Lab](http://aspendb.uga.edu/), [Warnell School of Forestry and Natural Resources](http://warnell.uga.edu/) and [Department of Genetics](http://www.genetics.uga.edu/), University of Georgia.
 
-  * AGEseq (Analysis of Genome Editing by Sequencing) compares amplicon sequences with expected target sequences and finds insertion/deletion sites in the amplicon sequences.  See [the AGEseq server description](/use/ageseq-aspendb/) for more.
+* AGEseq (Analysis of Genome Editing by Sequencing) compares amplicon sequences with expected target sequences and finds insertion/deletion sites in the amplicon sequences.  See [the AGEseq server description](/use/ageseq-aspendb/) for more.
 
 1. **[BioMaS Galaxy](http://galaxy.cloud.ba.infn.it:8080/)** from the [Istituto Nazionale di Fisica Nucleare](http://www.infn.it/)
 
-  * Taxonomic studies of environmental microbial communities.  See [the server description](/use/biomas/) for more.
+* Taxonomic studies of environmental microbial communities.  See [the server description](/use/biomas/) for more.
 
 1. **[MISSISSIPPI Server](http://mississippi.fr/)** from The ARTbio bioinformatics facility of the  [Institut de Biologie Paris Seine](http://www.ibps.upmc.fr/en) based at the [University Pierre & Marie Curie](http://www.upmc.fr/en/index.html).
 
-  * RNA and small RNA sequencing dataset analysis as well as for epigenetics or metagenomics studies.  See the [server descriptions](/use/mississippi/) for more.
+* RNA and small RNA sequencing dataset analysis as well as for epigenetics or metagenomics studies.  See the [server descriptions](/use/mississippi/) for more.
 
 1. **[SIFTED](http://thebrain.bwh.harvard.edu/sifted.html)** from [Bulyk Lab](http://thebrain.bwh.harvard.edu/index.html), [Division of Genetics](http://genetics.bwh.harvard.edu/genetics/index.html) in the [Department of Medicine at Brigham & Women's Hospital](http://www.brighamandwomens.org/medicine/) and [Harvard Medical School](http://hms.harvard.edu/hms/home.asp)
 
-  * Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins.
+* Specificity Inference For TAL-Effector Design (SIFTED) is a computational model for predicting the DNA-binding specificity of any Transcription activator-like effector (TALE) proteins.
 <br />
 
 <div class='left'><br /><a href='https://github.com/galaxyproject/galaxy/pull/314'><img src="/images/CommunityCommitters1.png" alt="Community Committers" width="160" /></a>

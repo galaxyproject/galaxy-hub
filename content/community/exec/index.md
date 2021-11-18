@@ -9,16 +9,16 @@ The Galaxy Exec was formed at the _Galaxy Directions Summit_ in 2019, which gath
 ## Members
 
 * **[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
-  * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium
+    * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium
 * **[Björn Grüning](https://github.com/bgruening)**
-  * [Galaxy Europe](https://galaxyproject.eu/), [University of Freiburg](https://uni-freiburg.de/en/), Germany
+    * [Galaxy Europe](https://galaxyproject.eu/), [University of Freiburg](https://uni-freiburg.de/en/), Germany
 * **[Ross Lazarus](https://github.com/fubar2)**
-  * Retired<sup>*</sup>, Australia
+    * Retired<sup>*</sup>, Australia
 * **[Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)**
-  * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
+    * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
 * **[Anton Nekrutenko](https://www.huck.psu.edu/people/anton-nekrutenko)**
-  * [Penn State University](https://psu.edu/) United States
+    * [Penn State University](https://psu.edu/) United States
 * **[Michael Schatz](https://schatz-lab.org/)**
-  * [Johns Hopkins University](https://jhu.edu/), United States
+    * [Johns Hopkins University](https://jhu.edu/), United States
 
 <sup>*</sup> <small>But, well, obviously not.  Thank you Ross.</small>

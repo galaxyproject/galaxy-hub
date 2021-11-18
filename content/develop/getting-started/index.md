@@ -23,11 +23,11 @@ In addition to the Galaxy core project and tool projects listed above - there ar
 * [pulsar](https://github.com/galaxyproject/pulsar) - A distributed job execution application built for Galaxy. [Contribution Guide](https://github.com/galaxyproject/pulsar/blob/master/CONTRIBUTING.rst), [Documentation](https://pulsar.readthedocs.org/en/latest/), [Issues](https://github.com/galaxyproject/pulsar/issues)
 * [Puppet Galaxy](https://github.com/puppet-galaxy/puppet-galaxy) - Community maintained roles for managing Galaxy via [Puppet](http://puppetlabs.com/).
 * Devteam managed ansible projects related to managing Galaxy servers.
-  * [Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy) - Core role for deploying Galaxy.
-  * [CloudMan Playbook](https://github.com/galaxyproject/galaxy-cloudman-playbook) - Ansible and Packer components for building a CloudMan server.
-  * [Ansible Galaxy OS](https://github.com/galaxyproject/ansible-galaxy-os) - Ansible role for configuring the base operating system dependencies useful for Galaxy servers.
-  * [Ansible PostgreSQL](https://github.com/galaxyproject/ansible-postgresql) Ansible role for configuring PostgreSQL (used on usegalaxy.org).
-  * [https://github.com/jmchilton/planemo-machinelPlanemo Machine](https://github.com/jmchilton/planemo-machinelPlanemo Machine) Ansible and Packer components useful for building development virtual machines.
-  * [https://github.com/galaxyproject/ansible-galaxy-extraslAnsible Galaxy Extras](https://github.com/galaxyproject/ansible-galaxy-extraslAnsible Galaxy Extras) Ansible role for configuring dynamic production servers such as Docker images and cloud-based virtual machines (used by planemo-machine and docker-galaxy-stable).
-  * [Ansible CloudMan Image](https://github.com/galaxyproject/ansible-cloudman-image) Ansible role for configuring an Ubuntu operating system for CloudMan.
-  * [https://github.com/galaxyproject/ansible-tracksterlAnsible Trackster](https://github.com/galaxyproject/ansible-tracksterlAnsible Trackster) Ansible role for configuring Trackster dependencies.
+    * [Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy) - Core role for deploying Galaxy.
+    * [CloudMan Playbook](https://github.com/galaxyproject/galaxy-cloudman-playbook) - Ansible and Packer components for building a CloudMan server.
+    * [Ansible Galaxy OS](https://github.com/galaxyproject/ansible-galaxy-os) - Ansible role for configuring the base operating system dependencies useful for Galaxy servers.
+    * [Ansible PostgreSQL](https://github.com/galaxyproject/ansible-postgresql) Ansible role for configuring PostgreSQL (used on usegalaxy.org).
+    * [https://github.com/jmchilton/planemo-machinelPlanemo Machine](https://github.com/jmchilton/planemo-machinelPlanemo Machine) Ansible and Packer components useful for building development virtual machines.
+    * [https://github.com/galaxyproject/ansible-galaxy-extraslAnsible Galaxy Extras](https://github.com/galaxyproject/ansible-galaxy-extraslAnsible Galaxy Extras) Ansible role for configuring dynamic production servers such as Docker images and cloud-based virtual machines (used by planemo-machine and docker-galaxy-stable).
+    * [Ansible CloudMan Image](https://github.com/galaxyproject/ansible-cloudman-image) Ansible role for configuring an Ubuntu operating system for CloudMan.
+    * [https://github.com/galaxyproject/ansible-tracksterlAnsible Trackster](https://github.com/galaxyproject/ansible-tracksterlAnsible Trackster) Ansible role for configuring Trackster dependencies.

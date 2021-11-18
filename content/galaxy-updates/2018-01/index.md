@@ -329,8 +329,8 @@ We are pleased to announce a new option for [commercial Galaxy support](/support
 - Production Environment Optimization
 - Data Integration Outsourcing Services
 - Enterprise Cloud Environment with SLA
-  - Fully managed and hosted on cloud Galaxy Enterprise with various levels of SLAs.
-  - Dedicated servers with dedicated secure access (VPN) including data storage and management.
+    - Fully managed and hosted on cloud Galaxy Enterprise with various levels of SLAs.
+    - Dedicated servers with dedicated secure access (VPN) including data storage and management.
 - Galaxy Enterprise Certification Training
 
 ----
@@ -463,10 +463,10 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 - Would you like to learn some Python or JavaScript and improve Galaxy at the same time? Check out our collection of very friendly issues tagged [help wanted](https://github.com/galaxyproject/galaxy/issues?q=label%3A%22help+wanted%22+is%3Aissue+is%3Aopen). Please feel free to ask, comment, and request guidance.
 - From [Björn Grüning](/people/bjoern-gruening/)
-  -  `shed-tools update` will now update all Galaxy tools in your Galaxy instance. What a wonderful [contribution](https://github.com/galaxyproject/ephemeris/pull/64) from [Ruben Vorderman](https://github.com/rhpvorderman)!
-  - Our community maintained [CVFMS](http://cernvm.cern.ch/) based reference data storage has now a European mirror. Thanks to [JRC / EU Science Hub](https://ec.europa.eu/jrc/en), the [European Commission](http://ec.europa.eu/), [Nate Coraor](/people/nate/) and [Guy Van den Eede](https://twitter.com/guyvandeneede). This is now also available in the [Galaxy Docker project](https://github.com/bgruening/docker-galaxy-stable)! Enjoy!
+    -  `shed-tools update` will now update all Galaxy tools in your Galaxy instance. What a wonderful [contribution](https://github.com/galaxyproject/ephemeris/pull/64) from [Ruben Vorderman](https://github.com/rhpvorderman)!
+    - Our community maintained [CVFMS](http://cernvm.cern.ch/) based reference data storage has now a European mirror. Thanks to [JRC / EU Science Hub](https://ec.europa.eu/jrc/en), the [European Commission](http://ec.europa.eu/), [Nate Coraor](/people/nate/) and [Guy Van den Eede](https://twitter.com/guyvandeneede). This is now also available in the [Galaxy Docker project](https://github.com/bgruening/docker-galaxy-stable)! Enjoy!
 - From [John Chilton](/people/john-chilton/)
-  - WIP: [API to build hierarchical data in Galaxy](https://github.com/galaxyproject/galaxy/pull/5220) (libraries & collections) from zip files, YAML descriptions, BagIt archives, etc...
-  - [Allow Galaxy tools to detect out of memory errors and job runners to resubmit to other resources](https://github.com/galaxyproject/galaxy/pull/5196) based on this and other tool detected errors.
-  - Galaxy [no longer depends on having samtools on its PATH](https://github.com/galaxyproject/galaxy/pull/5037). Another huge deployability step forward from [Marius van den Beek](https://github.com/mvdbeek)!
+    - WIP: [API to build hierarchical data in Galaxy](https://github.com/galaxyproject/galaxy/pull/5220) (libraries & collections) from zip files, YAML descriptions, BagIt archives, etc...
+    - [Allow Galaxy tools to detect out of memory errors and job runners to resubmit to other resources](https://github.com/galaxyproject/galaxy/pull/5196) based on this and other tool detected errors.
+    - Galaxy [no longer depends on having samtools on its PATH](https://github.com/galaxyproject/galaxy/pull/5037). Another huge deployability step forward from [Marius van den Beek](https://github.com/mvdbeek)!
 

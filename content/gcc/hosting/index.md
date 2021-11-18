@@ -48,12 +48,12 @@ Needed facilities
 
 [<img class="float-right" src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" style="max-width: 180px" />](/events/gcc2013/)
 
-  - A large meeting space for all attendees
-  - Smaller spaces for training, parallel tracks, birds-of-a-feather, CoFests, and informal gatherings
-  - Robust WiFi in all spaces is essential - expect everyone to be connected simultaneously
-  - High foot traffic areas for vendors/sponsors to have exhibits
-  - Space for posters and/or demos
-  - Space for catering
+- A large meeting space for all attendees
+- Smaller spaces for training, parallel tracks, birds-of-a-feather, CoFests, and informal gatherings
+- Robust WiFi in all spaces is essential - expect everyone to be connected simultaneously
+- High foot traffic areas for vendors/sponsors to have exhibits
+- Space for posters and/or demos
+- Space for catering
 
 ## Lodging
 
