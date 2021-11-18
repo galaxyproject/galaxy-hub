@@ -2,56 +2,77 @@
 # Copied from gridsome's website markdownlint configuration.  We'll want to
 # figure out what of this we want to fix or relax.
 
-# line-length
-# Markdown files don't need to observe a line length limit.
-MD013: false
 
-# no-duplicate-heading/no-duplicate-header
+
+
+## no-inline-html
+#MD033:
+#  # We use inline HTML to embed the Newsletter component in a page.
+#  allowed_elements:
+#    - div
+#    - Newsletter
+
+
+# Errors that cannot be automatically fixed.
+
+MD001: false # heading-increment/header-increment
+MD002: false
+MD003: false
+
+# Markdown files don't need to observe a line length limit.
+MD013: false # line-length
+
 # It's acceptable to have duplicate headers in the same file sometimes, like
 # when multiple sections have a subsection called "### Example".
-MD024: false
+MD024: false # no-duplicate-heading/no-duplicate-header
 
-# no-trailing-punctuation
+MD025: false # single-title/single-h1
+MD028: false
+MD029: false # ol-prefix
+MD033: false
+MD035: false
+MD036: false # no-emphasis-as-heading/no-emphasis-as-header
+MD040: false
+MD041: false
+MD042: false
+MD043: false
+MD045: false
+MD046: false
+MD048: false
+
+# Automatically fixable types
+MD004: true # ul-style
+MD005: false # list-indent
+MD006: false # ul-start-left
+MD007: false # ul-indent
+MD009: true # no-trailing-spaces
+MD010: false # no-hard-tabs
+MD011: false # no-reversed-links
+MD012: false # no-multiple-blanks
+MD014: false # commands-show-output
+MD018: false # no-missing-space-atx
+MD019: false # no-multiple-space-atx
+MD020: false # no-missing-space-closed-atx
+MD021: false # no-multiple-space-closed-atx
+MD022: false # blanks-around-headings
+MD023: false # heading-start-left
+
 # Without this rule suppression, the linter flags trailing punctuation in
 # headers like "## What makes Gridsome sites fast?" but we allow headers
 # like that.
-MD026: false
+MD026: false # no-trailing-punctuation
 
-# no-inline-html
-MD033:
-  # We use inline HTML to embed the Newsletter component in a page.
-  allowed_elements:
-    - div
-    - Newsletter
+MD027: false # no-multiple-space-blockquote
+MD030: false # list-marker-space
+MD031: false # blanks-around-fences
+MD032: false # blanks-around-lists
 
-# no-bare-urls
 # The linter flags http://example.com and wants them formatted like
 # <http://example.com>, but this doesn't improve readability.
-MD034: false
+MD034: false # no-bare-urls
 
-# Note: Because this repo started without a linter, the rules below are
-# suppressed for compatibility with legacy code, but we should either fix the
-# linter errors and remove the exceptions or explicitly choose to ignore the
-# rule permanently and move it to the list above with an explanation of why we
-# ignore the rule.
-
-# heading-increment/header-increment
-MD001: false
-# ul-indent
-MD007: false
-# single-title/single-h1
-MD025: false
-# ol-prefix
-MD029: false
-# list-marker-space
-MD030: false
-# blanks-around-fences
-MD031: false
-# blanks-around-lists
-MD032: false
-# no-emphasis-as-heading/no-emphasis-as-header
-MD036: false
-# no-space-in-emphasis
-MD037: false
-# first-line-heading/first-line-h1
-MD041: false
+MD037: false # no-space-in-emphasis
+MD038: false # no-space-in-code
+MD039: false # no-space-in-links
+MD044: false # proper-names
+MD047: false # single-trailing-newline
