@@ -78,5 +78,7 @@ MD034: false # no-bare-urls
 MD037: false # no-space-in-emphasis
 MD038: false # no-space-in-code
 MD039: false # no-space-in-links
-MD044: false # proper-names
+MD044: true # proper-names
+#  names:
+#    - "ChIP-seq"
 MD047: true # single-trailing-newline
