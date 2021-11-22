@@ -16,7 +16,7 @@ platforms:
 summary: "Gene Set Analysis tools"
 image: "/images/use/galaxy-gsa/galaxy-gsa-logo-200x200.png"
 comments:
-  - "Gene Set Analysis (GSA) can be defined as the comparison of a query gene set (a list or a rank of differentially expressed genes, for example) to a reference database of annotated gene sets, in order to interpret the initial query set as a rank of significant pathways, functionally related gene sets, or ontology terms. See [GSA Central](https://gsa-central.github.io/about.html) for more."
+  - "Gene Set Analysis (GSA) can be defined as the comparison of a query gene set (a list or a rank of differentially expressed genes, for example) to a reference database of annotated gene sets, in order to interpret the initial query set as a rank of significant pathways, functionally related gene sets, or ontology terms. See [GSA Central](https://gsa-central.github.io/) for more."
   - "Galaxy-GSA includes: 1) Popular general-purpose GSA tools, 2) Specialized tools built for specific experimental designs, 3) Specialized tools for datasets different to mRNA, 4) GSA-related auxiliary tools, and 5) [Workflows](http://moralab.science:8080/workflows/list_published) for specific types of Bioinformatics projects."
 user_support:
   - "[Using Galaxy-GSA Tutorial](https://github.com/gsa-central/galaxy-gsa/blob/main/tutorials/using-galaxy-gsa.md)"
