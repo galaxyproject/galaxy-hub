@@ -26,6 +26,7 @@ quotas:
   - "Unregistered user: allocated storage space is limited to 20 Mb and is not conserved between sessions."
   - "Registered user: up to 20 Gb per registered user"
 citations:
+  - "Combes, F., Loux, V., & Vandenbrouck, Y. (2021). [GO enrichment analysis for Differential Proteomics Using ProteoRE](https://doi.org/10.1007/978-1-0716-1641-3_11). In D. Cecconi (Ed.), Proteomics Data Analysis (pp. 179–196). Springer US. https://doi.org/10.1007/978-1-0716-1641-3_11"
   - "[Designing an In Silico Strategy to Select Tissue-Leakage Biomarkers Using the Galaxy Framework](https://doi.org/10.1007/978-1-4939-9164-8_18), Nguyen L., Brun V., Combes F., Loux V., Vandenbrouck Y. (2019) In: Brun V., Couté Y. (eds) Proteomics for Biomarker Discovery. Methods in Molecular Biology, vol 1959. Humana Press, New York, NY"
   - "[P17: ProteoRE, a Galaxy-based infrastructure for interpreting and exploring mass spectrometry-based proteomics data](http://sched.co/B8U9), [GCC2017](https://gcc2017.sched.com/) poster presentation, Lien Nguyen, Maud Lacombe, Sandra Dérozier, Lisa Perus, Olivier Rué, Florence Combes, Christophe Caron, Virginie Brun, Valentin Loux, Yves Vandenbrouck"
 pub_libraries:
