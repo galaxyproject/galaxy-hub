@@ -3,6 +3,9 @@ title: Recent Pubs
 link: https://www.zotero.org/groups/galaxy
 icon: fas fa-book-open
 items:
+- title: "MCMICRO: A scalable, modular image-processing pipeline for multiplexed tissue imaging"
+  link: https://doi.org/10.1038/s41592-021-01308-y
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1038/s41592-021-01308-y'></span> Schapiro, D., Sokolov, A., Yapp, C., Chen, Y.-A., Muhlich, J. L., Hess, J., Creason, A. L., Nirmal, A. J., Baker, G. J., Nariya, M. K., Lin, J.-R., Maliga, Z., Jacobson, C. A., Hodgman, M. W., Ruokonen, J., Farhi, S. L., Abbondanza, D., McKinley, E. T., Persson, D., … Sorger, P. K. (2021). *Nature Methods*, 1–5."
 - title: "miRGalaxy: Galaxy-Based Framework for Interactive Analysis of microRNA and isomiR Sequencing Data"
   link: https://doi.org/10.3390/cancers13225663
   tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.3390/cancers13225663'></span> Glogovitis, I., Yahubyan, G., Würdinger, T., Koppers-Lalic, D., & Baev, V. (2021). <em>Cancers</em>, 13(22), 5663."
@@ -15,7 +18,4 @@ items:
 - title: Ready-to-use public infrastructure for global SARS-CoV-2 monitoring
   link: https://doi.org/10.1038/s41587-021-01069-1
   tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1038/s41587-021-01069-1'></span> Maier, W., Bray, S., van den Beek, M., Bouvier, D., Coraor, N., Miladi, M., Singh, B., De Argila, J. R., Baker, D., Roach, N., Gladman, S., Coppens, F., Martin, D. P., Lonie, A., Grüning, B., Kosakovsky Pond, S. L., & Nekrutenko, A. (2021). <em>Nature Biotechnology</em>, 1–2."
-- title: GALAXY Workflow for Bacterial Next-Generation Sequencing De Novo Assembly and Annotation
-  link: https://doi.org/10.1002/cpz1.242
-  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1002/cpz1.242'></span> Wee, S. K., & Yap, E. P. H. (2021). <em>Current Protocols</em>, 1(9), e242."
 ---
