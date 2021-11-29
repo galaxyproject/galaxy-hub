@@ -35,9 +35,9 @@ An example of Galaxy history occurences data imported in the app
 ![image](https://user-images.githubusercontent.com/7910679/143904253-56cffcf9-d209-41ff-8d13-047a83045948.png)
 
 GeoExplorer snapshot from usegalaxy.eu 2021-11-29
-Importing a Galaxy history  dataset in the app
+Importing a Galaxy history dataset in the app
 ![image](https://user-images.githubusercontent.com/7910679/143904558-633351c0-efe9-413d-8169-33c726f69aba.png)
-Selecting a point on the map allow to see associated infromation on graphs
+Selecting a point on the map allows to see associated infromation on graphs
 ![image](https://user-images.githubusercontent.com/7910679/143904700-bc4e0673-e897-4546-a3f6-d91d64627a49.png)
 You can also easily change the map appearence
 ![image](https://user-images.githubusercontent.com/7910679/143906344-121c2b9d-43e5-4bca-ad30-3bbd77038558.png)
