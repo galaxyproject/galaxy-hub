@@ -2,7 +2,6 @@
 title: "Galaxy interactive tools and R Shiny apps"
 tease: "Some dreams, mixing synchronous and asynchronous workflows in Galaxy and adding high degree of interactivity into Galaxy thanks to R Shiny are ready to be reality"
 authors: "Yvan Le Bras"
-external_url: "https://usegalaxy-eu.github.io/posts/2021/11/25/ghelp-stats/plain.html"
 date: "2021-11-30"
 ---
 
