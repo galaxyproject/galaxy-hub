@@ -25,7 +25,7 @@ but also creating workflows miwing "classical Galaxy tolls" and GxIT, as this ex
 ![image](https://user-images.githubusercontent.com/7910679/143908051-5c593c07-0f39-4506-a907-c42f64dc4a0c.png)
 Imagine launching this automatic workflows and share the links towards each interactive apps + resulting populated history so colleagues (and maybe citizens) can "play" with results and propose analyses, new outputs datasets or others... Will be completely amazing isn't it ? Technologically, thanks to this GxIT functionnality, this is possible!
 
-For sure there is a lot to work on to facilitate all related developers, administrators as users oriented steps and increase FAIRness of resulting "digital objects", but we here have an amazing basis to pave the way of exciting future around data exploration and analysis in a highly collaborative way, isn't it!
+For sure there is a lot to work on to facilitate all related developers, administrators as users oriented steps and increase FAIRness of resulting "digital objects", but we here have an amazing basis to pave the way of exciting future around data exploration and analysis in a highly collaborative way, you don't think so ?
 
 ## Some screenshots to tease ;)
 Wallace snapshot from usegalaxy.eu 2021-11-29
