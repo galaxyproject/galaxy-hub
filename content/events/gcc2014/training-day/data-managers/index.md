@@ -195,7 +195,7 @@ admin_users = jj@msi.umn.edu
   1. `cd ~/Desktop/Data_Managers/galaxy/galaxy-central/tool-data/`
   2. `nano bwa_index.loc`
   3. add this entry to the end of the file:
-    * `sacCer1 sacCer1 S. cerevisiae Oct. 2003 (SGD/sacCer1) (sacCer1) /home/galaxy/Desktop/Data_Managers/galaxy/galaxy-central/tool-data/sacCer1/bwa_index/sacCer1/sacCer1.fa`
+    * `sacCer1	sacCer1	S. cerevisiae Oct. 2003 (SGD/sacCer1) (sacCer1)	/home/galaxy/Desktop/Data_Managers/galaxy/galaxy-central/tool-data/sacCer1/bwa_index/sacCer1/sacCer1.fa`
     * Check the BWA tool for the new entry in your web browser
     * Restart your galaxy server
     * Again check the BWA tool for the new entry in your web browser
