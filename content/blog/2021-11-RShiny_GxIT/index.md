@@ -13,7 +13,7 @@ In ecology (but not only), R Shiny is a more and more known solution used by sci
 
 # So where are we?
 
-We developped several R-Shiny apps based GxIT, some "simple" ones related to data visualization like GEOexplorer, and several ones "complex" like radiant for statistical analysis or Wallace for Species Distribution Modeling. All these contributions can be seen in our Github galaxyecology repository and plan to go further (notably adding Shiny GxIT for ecological data / metadata management, see https://github.com/galaxyecology/tools-ecology/pull/53).
+We developped several R-Shiny apps based GxIT, some "simple" ones related to data visualization like [GEOexplorer](http://bioconductor.org/packages/release/bioc/html/GEOexplorer.html), and several ones "complex" like [radiant](https://shiny.rstudio.com/gallery/radiant.html) for statistical analysis or [Wallace](https://wallaceecomod.github.io/) for Species Distribution Modeling. All these contributions can be seen in our [Github galaxyecology repository](https://github.com/galaxyecology/tools-ecology/tree/master/tools/interactive) and plan to go further (notably adding Shiny GxIT for ecological data / metadata management, see https://github.com/galaxyecology/tools-ecology/pull/53).
 
 We were proposing a dedicated training in 2020 in France thanks to the GEOC (Galaxy Extra-Omics Community), and from this, a Galaxy training material was started, please don't hesitate to comment and give feedback (https://github.com/eancelet/training-material/pull/5) !
 
