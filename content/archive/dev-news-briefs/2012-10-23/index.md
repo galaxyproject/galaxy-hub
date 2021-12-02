@@ -116,6 +116,7 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 <a href='http://toolshed.g2.bx.psu.edu'><img src="/images/news-graphics/2012_10_23_toolshed-advanced-search.png" alt="tool shed" /></a>
 
 <br />
+
 # Tools
 
 [Tool Dependencies](/admin/config/tool-dependencies/)
@@ -125,9 +126,9 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 3. Performance enhancements for **Build custom track for UCSC** genome browser tool.
 4. Add **genomespace** tools to `tool_conf.xml.main`.
 
-* Get Data -> [GenomeSpace](http://www.genomespace.org) import
-* Send Data -> [GenomeSpace](http://www.genomespace.org) export
-* **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [Main](/main/).
+    * Get Data -> [GenomeSpace](http://www.genomespace.org) import
+    * Send Data -> [GenomeSpace](http://www.genomespace.org) export
+    * **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [Main](/main/).
 
 <br />
 # Visualization framework
@@ -180,17 +181,19 @@ Detail view of center panel:
 
 
 <br />
+
 # API
 
 1. Enable dataset upload via tools controller; thanks to [Brad Chapman](http://bitbucket.org/chapmanb).
 2. Enable querying of current history and user; thanks to [Brad Chapman](http://bitbucket.org/chapmanb).
 3. A new folders API has been developed. It permits operations in formats similar to the library API. Wiki documentation is pending, but for now, the available actions are defined as:
 
-* `GET /api/folders/{FolderId`}: This returns information about the folder.
-* `POST /api/folders/{FolderId`}: Create a folder. The same parameters as `POST /api/libraries/{LibraryId}/contents/{FolderId`} are utilized, except that the `create_type parameter` is ignored.
-* `GET /api/folders/{FolderId}/contents`: This returns the folder's contents.
+    * `GET /api/folders/{FolderId}`: This returns information about the folder.
+    * `POST /api/folders/{FolderId}`: Create a folder. The same parameters as `POST /api/libraries/{LibraryId}/contents/{FolderId}` are utilized, except that the `create_type parameter` is ignored.
+    * `GET /api/folders/{FolderId}/contents`: This returns the folder's contents.
 
 <br />
+
 # Source
 
 1. Allow admins to access datasets/jobs with access restrictions.
@@ -200,27 +203,29 @@ Detail view of center panel:
 5. Library browsing optimizations. Opening libraries with many datasets and/or folders is now quicker.
 
 <br />
+
 # Bug Fixes
 
 1. Galaxy
 
-* Fix for preview display of tabular items when certain metadata was not set.
-* Do not use `backrefs` in mapping for `copied_from_library_dataset/history _dataset_association` as it confuses **[SQLAlchemy](http://www.sqlalchemy.org)** (resulted in 'is not available, due to conflicting property').
-* Correctly determine the inheritance and creating job for a dataset. Fixes issues with showing dataset info, rerun, viewing and reporting dataset errors.
-* Fix for managing user info (e.g changing email/password) that appeared in last distribution.
-* Fix bug in stoping user jobs in the admin interface.
-* Custom `BioStar` linkouts (not fully implemented) are now off by default.
-* Some fixes for handling unicode data in the UI.
-* Fix for dataset display.
-* Various fixes for **[Python 2.5](http://www.python.org/)**.
-* Bugs introduced during the controller architecture migration (often resulting in error message such as "No module named controllers.XYZ") have been traced and resolved.
+    * Fix for preview display of tabular items when certain metadata was not set.
+    * Do not use `backrefs` in mapping for `copied_from_library_dataset/history _dataset_association` as it confuses **[SQLAlchemy](http://www.sqlalchemy.org)** (resulted in 'is not available, due to conflicting property').
+    * Correctly determine the inheritance and creating job for a dataset. Fixes issues with showing dataset info, rerun, viewing and reporting dataset errors.
+    * Fix for managing user info (e.g changing email/password) that appeared in last distribution.
+    * Fix bug in stoping user jobs in the admin interface.
+    * Custom `BioStar` linkouts (not fully implemented) are now off by default.
+    * Some fixes for handling unicode data in the UI.
+    * Fix for dataset display.
+    * Various fixes for **[Python 2.5](http://www.python.org/)**.
+    * Bugs introduced during the controller architecture migration (often resulting in error message such as "No module named controllers.XYZ") have been traced and resolved.
 
 2. Tool Shed
 
-* Fix for tool shed `get_category_by_name` when category does not exist.
-* Better handle missing 'tool' entry in tool repository metadata.
+    * Fix for tool shed `get_category_by_name` when category does not exist.
+    * Better handle missing 'tool' entry in tool repository metadata.
 
 <br />
+
 # Announcements
 
 [News](/news/), *[October 2012 Galaxy Update](/galaxy-updates/2012-10/)*

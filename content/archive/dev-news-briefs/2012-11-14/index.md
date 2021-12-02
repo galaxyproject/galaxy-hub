@@ -69,8 +69,8 @@ Please note that this is the first release of this documentation and it is far f
 
 1. When migrating tools:
 
-* Fail gracefully if `install_dependencies` is requested, but `tool_dependency_dir` is not set.
-* If only some tools will be installed, list the ones that won't be enabled.
+    * Fail gracefully if `install_dependencies` is requested, but `tool_dependency_dir` is not set.
+    * If only some tools will be installed, list the ones that won't be enabled.
 
 ### A single tool or a suite of tools per repository  ?
 
@@ -92,12 +92,13 @@ The features described in this document enable tool shed repositories to ultimat
 <div class='indent'>
 Certain repository contents may occasionally become outdated, perhaps due to other repositories with tools that replace the outdated tools.  The tool shed enables repository owners to mark a repository as deprecated if they so choose.  Many of the features available to repositories not marked as deprecated are eliminated from repositories that are, and deprecated repositories are not included in most tool shed repository lists or searches.  However, those that installed a repository into their local Galaxy instance before it was marked as deprecated can get appropriate updates to their locally installed repository. [Read more…](http://wiki.galaxyproject.org/ToolShedRepositoryFeatures#Marking_a_repository_you_own_as_deprecated).
 </div>
+
 ### Miscellaneous tool shed enhancements and fixes
 
 1. Enhancements to the `tool_config_file`; thanks to [John Chilton](http://bitbucket.org/jmchilton))
 
-* Galaxy now loads tool sections from multiple files in a more consistent manner, and
-* Directories can now appear as a `tool_config_file` option
+    * Galaxy now loads tool sections from multiple files in a more consistent manner, and
+    * Directories can now appear as a `tool_config_file` option
 
 2. Allow non-admin users to see metadata revisions when viewing a repository `changelog` in the tool shed.
 

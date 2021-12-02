@@ -173,33 +173,35 @@ Third, the tools can be completely disabled by removing them from the tool confi
 1. Plugins define hook functions called by a Galaxy app when certain events/situations happen. https://trello.com/c/c2AzV3Xf
 
 <br />
+
 # Pull Requests Merged
 
 1. Björn Grüning contributed a method to implement the ability to change the tool-panel as user preference ( `Dynamic Toolbox Filtering` ). [#179](https://bitbucket.org/galaxy/galaxy-central/pull-request/179/implement-the-ability-to-change-the-tool/diff). This was a frequently requested feature by the community and full documentation on this can be found here [UserDefinedToolboxFilters](/user-defined-toolbox-filters/). https://trello.com/c/Xl7CZFMd
-1. Björn Grüning also contributed several extensions allowing developers to utilize new actions simplifying various tool shed dependency definition idioms:
+2. Björn Grüning also contributed several extensions allowing developers to utilize new actions simplifying various tool shed dependency definition idioms:
 
-* `make_install` action.  [#217](https://bitbucket.org/galaxy/galaxy-central/pull-request/217/implementation-of-the-make_install-action)
-* `autoconf` action. [#218](https://bitbucket.org/galaxy/galaxy-central/pull-request/218/implementation-of-the-configure-make-make)
-* `setup_r_environment` action. [#219](https://bitbucket.org/galaxy/galaxy-central/pull-request/219/implementation-of-the-a-r_environment-to)
+    * `make_install` action.  [#217](https://bitbucket.org/galaxy/galaxy-central/pull-request/217/implementation-of-the-make_install-action)
+    * `autoconf` action. [#218](https://bitbucket.org/galaxy/galaxy-central/pull-request/218/implementation-of-the-configure-make-make)
+    * `setup_r_environment` action. [#219](https://bitbucket.org/galaxy/galaxy-central/pull-request/219/implementation-of-the-a-r_environment-to)  
     Further extensions enhancing this last tag and a corresponding setup_ruby_environment tag from Björn will be forthcoming in the next release.
 
-1. Additionally, Björn Grüning contributed other tool shed and tool related enhancements enhancements: [#205](https://bitbucket.org/galaxy/galaxy-central/pull-request/205/if-you-have-a-repeat-tag-and-want-to-get), [#216](https://bitbucket.org/galaxy/galaxy-central/pull-request/216/move-the-evaluate_template-function-to-the), and [#239](https://bitbucket.org/galaxy/galaxy-central/pull-request/239/add-the-value-namecol-in-a-given-bed-file)
-1. Andrew Warren contributed an API method allowing coping datasets between histories as well as support for more secure e-mail settings. [#199](https://bitbucket.org/galaxy/galaxy-central/pull-request/199/api-enable-copying-from-one-history-to) and [#198](https://bitbucket.org/galaxy/galaxy-central/pull-request/198/adding-ssl-support-for-smtp-email/diff).
-1. Nicola Soranzo contributed small fixes for various tools as well as enhancements for customizing and localizing data and time display in various parts of Galaxy. [#222](https://bitbucket.org/galaxy/galaxy-central/pull-request/234/bug-fixes-for-3-tools-rebased-222) and [#211](https://bitbucket.org/galaxy/galaxy-central/pull-request/211/display-also-creation-time-on-dataset-info).
-1. Kyle Ellrott contributed many enhancements for the API and the Galaxy search engine. [#187](https://bitbucket.org/galaxy/galaxy-central/pull-request/187/adding-state-field-to-the-jobn-search-view), [#241](https://bitbucket.org/galaxy/galaxy-central/pull-request/241/fixing-missing-import-in-searchpy), and [#234](https://bitbucket.org/galaxy/galaxy-central/pull-request/243/adding-output_name-to-api-tool-submit).
-1. Lance Peterson contributed two enhancements to management scripts. [#196](https://bitbucket.org/galaxy/galaxy-central/pull-request/196/fix-unicode-issue-when-printing-history) and [#158](https://bitbucket.org/galaxy/galaxy-central/pull-request/158/basic-administrative-dataset-cleanup). https://trello.com/c/qzjBuljp
-1. Google Summer of Code Intern Saket Choudhary contributed enhancements for VCF 4.1 compatibility. [#184](https://bitbucket.org/galaxy/galaxy-central/pull-request/184/vcftools-incompatible-with-vcf41).
-1. Matthew Shirley contributed grammar fixes to the tool shed interface. [#210](https://bitbucket.org/galaxy/galaxy-central/pull-request/210/fixed-its-its-typos).
-1. Stephen Mcmahon contributed fixes to the PBS job runner's staging functionality. [#194](https://bitbucket.org/galaxy/galaxy-central/pull-request/194/updated-pbspy-to-support-data-staging/diff)
-1. Rémy Dernat contributed enhancements to the administrative interface allowing for management of user API keys. [#134](https://bitbucket.org/galaxy/galaxy-central/pull-request/134/add-userskeys-feature-controller-which-is/diff)
-1. Adam Brenner contributed an enhancement making it easier to deploy the histogram2 tool. [#215](https://bitbucket.org/galaxy/galaxy-central/pull-request/215/histogram2-rpy-requires-r-missing-from).
-1. A. Rretaud contributed extensions enabling data source tool developers to utilize the tool runners login e-mail address when implementing such tools. [#206](https://bitbucket.org/galaxy/galaxy-central/pull-request/206/give-access-to-__user_email__-and/diff)
-1. John Chilton fixed job splitting to rewrite references in config files in addition to command-line. [#169](https://bitbucket.org/galaxy/galaxy-central/pull-request/169//fix-job-splitting-to-rewrite-references-in/diff). https://trello.com/c/FMPydE8L
-1. John Chilton and Simon Guest implemented configurable plugins for tool dependency resolution. [#228](https://bitbucket.org/galaxy/galaxy-central/pull-request/228/tool-dependency-resolver-plugins-revision/diff). https://trello.com/c/cP3tGSJv
-1. John Chilton implement `GALAXY_SLOTS` allowing tools to uniformly obtain allocated thread count. [#236](https://bitbucket.org/galaxy/galaxy-central/pull-request/236/job-runner-enhancements-galaxy_slots/diff). https://trello.com/c/cfOlSfdP
-1. Kyle Ellrott contributed enhancements that allow API tool's `POST` to define history for tool state. [#193](https://bitbucket.org/galaxy/galaxy-central/pull-request/193/allow-api-tools-post-to-define-history-for/diff). https://trello.com/c/hpFanyx0
+3. Additionally, Björn Grüning contributed other tool shed and tool related enhancements enhancements: [#205](https://bitbucket.org/galaxy/galaxy-central/pull-request/205/if-you-have-a-repeat-tag-and-want-to-get), [#216](https://bitbucket.org/galaxy/galaxy-central/pull-request/216/move-the-evaluate_template-function-to-the), and [#239](https://bitbucket.org/galaxy/galaxy-central/pull-request/239/add-the-value-namecol-in-a-given-bed-file)
+4. Andrew Warren contributed an API method allowing coping datasets between histories as well as support for more secure e-mail settings. [#199](https://bitbucket.org/galaxy/galaxy-central/pull-request/199/api-enable-copying-from-one-history-to) and [#198](https://bitbucket.org/galaxy/galaxy-central/pull-request/198/adding-ssl-support-for-smtp-email/diff).
+5. Nicola Soranzo contributed small fixes for various tools as well as enhancements for customizing and localizing data and time display in various parts of Galaxy. [#222](https://bitbucket.org/galaxy/galaxy-central/pull-request/234/bug-fixes-for-3-tools-rebased-222) and [#211](https://bitbucket.org/galaxy/galaxy-central/pull-request/211/display-also-creation-time-on-dataset-info).
+6. Kyle Ellrott contributed many enhancements for the API and the Galaxy search engine. [#187](https://bitbucket.org/galaxy/galaxy-central/pull-request/187/adding-state-field-to-the-jobn-search-view), [#241](https://bitbucket.org/galaxy/galaxy-central/pull-request/241/fixing-missing-import-in-searchpy), and [#234](https://bitbucket.org/galaxy/galaxy-central/pull-request/243/adding-output_name-to-api-tool-submit).
+7. Lance Peterson contributed two enhancements to management scripts. [#196](https://bitbucket.org/galaxy/galaxy-central/pull-request/196/fix-unicode-issue-when-printing-history) and [#158](https://bitbucket.org/galaxy/galaxy-central/pull-request/158/basic-administrative-dataset-cleanup). https://trello.com/c/qzjBuljp
+8. Google Summer of Code Intern Saket Choudhary contributed enhancements for VCF 4.1 compatibility. [#184](https://bitbucket.org/galaxy/galaxy-central/pull-request/184/vcftools-incompatible-with-vcf41).
+9. Matthew Shirley contributed grammar fixes to the tool shed interface. [#210](https://bitbucket.org/galaxy/galaxy-central/pull-request/210/fixed-its-its-typos).
+10. Stephen Mcmahon contributed fixes to the PBS job runner's staging functionality. [#194](https://bitbucket.org/galaxy/galaxy-central/pull-request/194/updated-pbspy-to-support-data-staging/diff)
+11. Rémy Dernat contributed enhancements to the administrative interface allowing for management of user API keys. [#134](https://bitbucket.org/galaxy/galaxy-central/pull-request/134/add-userskeys-feature-controller-which-is/diff)
+12. Adam Brenner contributed an enhancement making it easier to deploy the histogram2 tool. [#215](https://bitbucket.org/galaxy/galaxy-central/pull-request/215/histogram2-rpy-requires-r-missing-from).
+13. A. Rretaud contributed extensions enabling data source tool developers to utilize the tool runners login e-mail address when implementing such tools. [#206](https://bitbucket.org/galaxy/galaxy-central/pull-request/206/give-access-to-__user_email__-and/diff)
+14. John Chilton fixed job splitting to rewrite references in config files in addition to command-line. [#169](https://bitbucket.org/galaxy/galaxy-central/pull-request/169//fix-job-splitting-to-rewrite-references-in/diff). https://trello.com/c/FMPydE8L
+15. John Chilton and Simon Guest implemented configurable plugins for tool dependency resolution. [#228](https://bitbucket.org/galaxy/galaxy-central/pull-request/228/tool-dependency-resolver-plugins-revision/diff). https://trello.com/c/cP3tGSJv
+16. John Chilton implement `GALAXY_SLOTS` allowing tools to uniformly obtain allocated thread count. [#236](https://bitbucket.org/galaxy/galaxy-central/pull-request/236/job-runner-enhancements-galaxy_slots/diff). https://trello.com/c/cfOlSfdP
+17. Kyle Ellrott contributed enhancements that allow API tool's `POST` to define history for tool state. [#193](https://bitbucket.org/galaxy/galaxy-central/pull-request/193/allow-api-tools-post-to-define-history-for/diff). https://trello.com/c/hpFanyx0
 
 <br />
+
 # Tool Shed
 
 **[Tool Shed](/toolshed/)**

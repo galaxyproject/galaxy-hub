@@ -131,11 +131,11 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
 4. Scatterplot visualization tool: updated layout of features.
 5. Updated History Pull-down menu. Options affect all datasets in the current history:
 
-* Resume Paused Jobs - a single-click resume of all paused datasets
-* Collapse Expanded Datasets - a single-click to collapse all expanded datasets
-* Show/Hide Deleted Datasets - a single-click toggle to show or hide all deleted datasets
-* Show/Hide Hidden Datasets - a single-click toggle to show or hide all hidden datasets
-* Unhide Hidden Datasets - a single-click to change state of hidden datasets to that of regular datasets
+    * Resume Paused Jobs - a single-click resume of all paused datasets
+    * Collapse Expanded Datasets - a single-click to collapse all expanded datasets
+    * Show/Hide Deleted Datasets - a single-click toggle to show or hide all deleted datasets
+    * Show/Hide Hidden Datasets - a single-click toggle to show or hide all hidden datasets
+    * Unhide Hidden Datasets - a single-click to change state of hidden datasets to that of regular datasets
 
 ![](/images/news-graphics/2012_12_03_new-history-menu.png)
 

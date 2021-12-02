@@ -3,8 +3,11 @@ title: Development News Brief
 date: 2013-04-01
 ---
 
-```wiki red/solid/light
-Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/news/2013-04-08-galaxy-security-release/), which is was not included in the original April 1, 2013 distribution.```
+<div class="trim-p alert alert-warning">
+
+Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/news/2013-04-08-galaxy-security-release/), which is was not included in the original April 1, 2013 distribution.
+
+</div>
 
 <br />
 
@@ -42,6 +45,7 @@ Due to a security vulnerability, administrators are strongly encouraged to upgra
 
 <br />
 <br />
+
 # Key Upgrades This Release
 
 This distribution has **four key upgrades that must be considered** by local administrators. 
@@ -49,6 +53,7 @@ This distribution has **four key upgrades that must be considered** by local adm
 These are listed first. Each is important. ***Please review carefully.***
 
 <br />
+
 # Improvements to Distribution Release Process
 
 As announced in the [February 8, 2013](http://wiki.galaxyproject.org/DevNewsBriefs/2013-02-08) distribution, we have made some improvements to our release process. Because of these changes, ***you must include the new distribution release tag in your `hg update` command to upgrade to this distribution release*** and all future releases.
@@ -68,22 +73,22 @@ If you do not include the `release_2013.04.01` tag, your repository will update 
 stable
 ```
 
-
 Once you're on the `stable` branch, `hg pull -u` without a specific revision or branch will cause you to remain on the `stable` branch.
 
 The new release process works as such:
 
 1. The Galaxy source repository now contains two branches:
 
-* `stable` is committed to regularly and contains important bugfixes.
-* `default` is committed to regularly and contains new features as well as fixes merged from `stable`.
+    * `stable` is committed to regularly and contains important bugfixes.
+    * `default` is committed to regularly and contains new features as well as fixes merged from `stable`.
 
-1. Every two months, `stable` will be updated with new features from default and a specific distribution release version will be tagged.
-1. The two weeks prior to the release will be focused on fixing bugs found in the targeted upcoming release. New features will not be considered for inclusion in the upcoming release during this time.
+2. Every two months, `stable` will be updated with new features from default and a specific distribution release version will be tagged.
+3. The two weeks prior to the release will be focused on fixing bugs found in the targeted upcoming release. New features will not be considered for inclusion in the upcoming release during this time.
 
 This process will not only allow us to deploy important bug fixes on to the `stable` branch rapidly and in between releases, it will improve the quality of our tagged releases. The documentation at our wiki reflects these changes: [getgalaxy.org](http://wiki.galaxyproject.org/Admin/Get%20Galaxy).
 
 <br />
+
 # Job Running Configuration Changes
 
 ***This Galaxy release contains considerable changes to the way that the job running configuration is defined and implemented***.  It also includes a *refactoring of all job runner plugins* that are provided with the Galaxy source.  We have made every attempt to make upgrading to this release possible while jobs are running and without any configuration changes.  
@@ -246,6 +251,7 @@ This reserved word will route correctly in the tool shed when the tool is displa
 2. Collapsed composite tracks now retain the composite group name https://trello.com/c/roHlElAW
 
 <br />
+
 # CloudMan
 
 http://usegalaxy.org/cloud
@@ -255,11 +261,13 @@ http://usegalaxy.org/cloud
 * Condor will allow federation of clusters, at first with manual configuration.
 
 <br />
+
 # Workflows
 
 1. Expose function that creates SVG images from workflows to UI https://trello.com/c/PGz7JNzO
 
 <br />
+
 # UI
 
 1. Genetrack retired (view link in datasets removed) https://trello.com/c/LQr88MTz
@@ -267,14 +275,16 @@ http://usegalaxy.org/cloud
 3. Use "Chunked Tabular Dataset View" to display public datasets https://trello.com/c/p6lyDBNK
 
 <br />
+
 # Admin
 
 1. "Select all" jobs in admin menu https://trello.com/c/Sc975x1l
-1. Allow old-style external display applications to be disabled https://trello.com/c/9dgk1VSl
+2. Allow old-style external display applications to be disabled https://trello.com/c/9dgk1VSl
 
-* related improvements pending: https://trello.com/c/uIctksud
+    * related improvements pending: https://trello.com/c/uIctksud
 
 <br />
+
 # Source
 
 ### Pull Requests Merged
@@ -284,6 +294,7 @@ http://usegalaxy.org/cloud
 3. Display the toolshed tools in the workflow search, pull request **[#120](https://bitbucket.org/galaxy/galaxy-central/pull-request/120)**. Thanks to [Björn Grüning](https://bitbucket.org/BjoernGruening). https://trello.com/c/ebePONBa
 
 <br />
+
 # Security Fixes
 
 Although there are no specific known security fixes in this distribution, all Galaxy instance maintainers are *strongly encouraged* to run the latest release to take advantage of other improvements and fixes.
