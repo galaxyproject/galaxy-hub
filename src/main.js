@@ -6,8 +6,9 @@ import "~/assets/styles.scss";
 import DefaultLayout from "~/layouts/Default.vue";
 import LinkBox from "~/components/LinkBox.vue";
 import FlatShield from "~/components/FlatShield.vue";
-import DeferredIframe from "~/components/deferredIframe.vue";
-import JupyterNotebook from "~/components/JupyterNotebook.vue";
+import DeferredIframe from "~/components/DeferredIframe.vue";
+// Significant dependencies are required if we do want embedded jupyter notebooks
+//import JupyterNotebook from "~/components/JupyterNotebook.vue";
 import ObservableNotebook from "~/components/ObservableNotebook.vue";
 
 import BootstrapVue from "bootstrap-vue";
@@ -19,7 +20,7 @@ export default function (Vue, { router, head, isClient }) {
     Vue.component("LinkBox", LinkBox);
     Vue.component("FlatShield", FlatShield);
     Vue.component("DeferredIframe", DeferredIframe);
-    Vue.component("JupyterNotebook", JupyterNotebook);
+    //Vue.component("JupyterNotebook", JupyterNotebook);
     Vue.component("ObservableNotebook", ObservableNotebook);
 
     Vue.use(BootstrapVue);
