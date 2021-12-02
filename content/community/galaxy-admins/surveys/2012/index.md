@@ -75,55 +75,55 @@ The original responses, minus name, institution and email are **[also available]
 ### Compute Cluster
 
 1. Galaxy is running on a compute cluster with 4 nodes, and 4 GB per node.  We are using Rocks as our infrastructure with PBS.
-1. 4 node SGE cluster
-1. Job and web runners are on a single node that's also hosting a pgsql database for the Galaxy metadata. All jobs are run on a SGE cluster using the drmaa adapter. Number of cores used for the Galaxy instance changes depending on the demand. The head node has 8xL5420@2.50GHz cores and 16Gb of RAM. The cluster nodes have 12xX5675@3.07GHz cores and 96Gb of RAM.
-1. Galaxy is hosted on a computer cluster. Each computer node of the cluster has 8 cores with 12G memory.  Torque PBS is the resource manager.
-1. Dell blades/m1000e chassis; 128 cores; 1TB RAM;  72TB raw array storage; ubuntu 11.10; SGE;
-1. My Galaxy instance is integrated with a computing cluster (SGE).
-1. We plan to deploy a galaxy instance on a ~1000 CPU blade cluster + fat nodes. We expect to have it coupled with PBS PRO queueing system. We are still evaluating the possibility of having galaxy frontend in a virtual machine communicating with the postgres db and cluster system as backend.
-1. We have two Galaxy environments.  
-1. A QA (Quality Assurance) Galaxy env which dispatches jobs to a small closed cluster managed by SGE.
-1. A Production Galaxy env (in alpha phase) which is a submit node to our campus High Performance Compute cluster managed by SGE.   Our production galaxy box has 24 GB Ram and is a 12 core, infiniband network card.
+2. 4 node SGE cluster
+3. Job and web runners are on a single node that's also hosting a pgsql database for the Galaxy metadata. All jobs are run on a SGE cluster using the drmaa adapter. Number of cores used for the Galaxy instance changes depending on the demand. The head node has 8xL5420@2.50GHz cores and 16Gb of RAM. The cluster nodes have 12xX5675@3.07GHz cores and 96Gb of RAM.
+4. Galaxy is hosted on a computer cluster. Each computer node of the cluster has 8 cores with 12G memory.  Torque PBS is the resource manager.
+5. Dell blades/m1000e chassis; 128 cores; 1TB RAM;  72TB raw array storage; ubuntu 11.10; SGE;
+6. My Galaxy instance is integrated with a computing cluster (SGE).
+7. We plan to deploy a galaxy instance on a ~1000 CPU blade cluster + fat nodes. We expect to have it coupled with PBS PRO queueing system. We are still evaluating the possibility of having galaxy frontend in a virtual machine communicating with the postgres db and cluster system as backend.
+8. We have two Galaxy environments.  
+    1. A QA (Quality Assurance) Galaxy env which dispatches jobs to a small closed cluster managed by SGE.
+    2. A Production Galaxy env (in alpha phase) which is a submit node to our campus High Performance Compute cluster managed by SGE.   Our production galaxy box has 24 GB Ram and is a 12 core, infiniband network card.
   We decided to strip back the amount of tools installed to only a small subset, with plans to lazily expose more tools upon request of users.  We plan to develop and publish common analysis pipelines for common work being currently done at the U of I.
-1. Integrated with a large compute cluster using PBS/Torque.  Cluster has a number of queues specific for the tasks, including nodes with large memory capacity (500 GB - 1 TB, with a 2 TB machine on order), standard 16-24 GB nodes with 8-12 core each, etc.<br />We anticipate expanding to include other resources on our campus, including NCSA machines and other clusters.
-1. We have a dedicated galaxy VM which is registered as a submit host with our SGE cluster  Cheaha - https://docs.uabgrid.uab.edu/wiki/Cheaha . The galaxy VM and the Cheaha cluster have a consistent view of the underlying shared file-systems - home directories, Lustre file-system and shared apps/install directory. Below is a logical diagram of our research computing platform that explains our galaxy installation as well - https://docs.uabgrid.uab.edu/wiki/File:Research-computing-platform.png .
+9. Integrated with a large compute cluster using PBS/Torque.  Cluster has a number of queues specific for the tasks, including nodes with large memory capacity (500 GB - 1 TB, with a 2 TB machine on order), standard 16-24 GB nodes with 8-12 core each, etc.<br />We anticipate expanding to include other resources on our campus, including NCSA machines and other clusters.
+10. We have a dedicated galaxy VM which is registered as a submit host with our SGE cluster  Cheaha - https://docs.uabgrid.uab.edu/wiki/Cheaha . The galaxy VM and the Cheaha cluster have a consistent view of the underlying shared file-systems - home directories, Lustre file-system and shared apps/install directory. Below is a logical diagram of our research computing platform that explains our galaxy installation as well - https://docs.uabgrid.uab.edu/wiki/File:Research-computing-platform.png .
 
-* Platform Details
-    1. System information of the galaxy VM:
-      1. A VM with 2GB memory and 2-cores running on a KVM platform
-      1. OS: CentOS 5.8
-      1. Python: 2.6.6
-      1. Database: PostgreSQL 8.4.9, Local install
-      1. Front-end web server: Apache HTTPD 2.2.3 with external Shibboleth authentication
-      1. Galaxy revision: Typically 1-2 weeks behind the upstream galaxy-dist repository
-    1. System information on the cluster (one queue):
-      1. Gen 1: 50 nodes, 2 cores/node, 2G RAM/node, 1.60GHz (AMD Opteron 242)
-      1. Gen 2: 24 nodes, 8 cores/node, 16G RAM/node, 3.00GHz (Intel Xeon E5450)
-      1. Gen 3: 48 nodes, 12 cores/node, 48G RAM/node, 2.66GHz (Intel Xeon E6550)
-* notes:
-    1. What is notable and different about our cluster topology is that compute nodes are shared between jobs, and jobs must live withing their request resources (memory, time) or they are killed, or they will negatively impact other users' jobs (cpu). Additionally, the cluster is hetrogeneous - made up of 3 classes of nodes, all in the same queue, which are selected based on the resource requirements of the task submitted. This is very different than Penn State Galaxy's configuration, and makes coordination between code, task parameters and DRMAA settings extremely important.
+    * Platform Details
+        1. System information of the galaxy VM:
+            1. A VM with 2GB memory and 2-cores running on a KVM platform
+            2. OS: CentOS 5.8
+            3. Python: 2.6.6
+            4. Database: PostgreSQL 8.4.9, Local install
+            5. Front-end web server: Apache HTTPD 2.2.3 with external Shibboleth authentication
+            6. Galaxy revision: Typically 1-2 weeks behind the upstream galaxy-dist repository
+        2. System information on the cluster (one queue):
+            1. Gen 1: 50 nodes, 2 cores/node, 2G RAM/node, 1.60GHz (AMD Opteron 242)
+            2. Gen 2: 24 nodes, 8 cores/node, 16G RAM/node, 3.00GHz (Intel Xeon E5450)
+            3. Gen 3: 48 nodes, 12 cores/node, 48G RAM/node, 2.66GHz (Intel Xeon E6550)
+    * notes:
+        1. What is notable and different about our cluster topology is that compute nodes are shared between jobs, and jobs must live withing their request resources (memory, time) or they are killed, or they will negatively impact other users' jobs (cpu). Additionally, the cluster is hetrogeneous - made up of 3 classes of nodes, all in the same queue, which are selected based on the resource requirements of the task submitted. This is very different than Penn State Galaxy's configuration, and makes coordination between code, task parameters and DRMAA settings extremely important.
 
-1. We are using both powerful standalone workstations and a computer cluster. The cluster versions is being set up now, not operational yet.
-1. In September we launch a new cluster (Abel):
-    * 912 nodes - 2 intel cpus -  8 cores (2 x Intel Xeon Sandy-Bridge CPU x86 64bit, E5-2670 2.6 GHz 8.0 GT/s 20 MB cache 8-core), 64 GB RAM, IB
-    * 16 GPU-nodes,  2 x Intel Xeon Sandy-Bridge CPU x86 64bit, E5-2609 2.4 GHz 6.4 GT/s 10 MB cache 4-core, 64 GB RAM, 2 x Nvidia Kepler GPU-card with 6 GB memory, IB
-    * 8 Hugemem-noders, 4 x AMD Opteron Abu Dhabi CPU x86 64bit, 3.0 GHz 6.4 GT/s 16 MB cache 8-core, 1 TB RAM, IB
-    * OS : Rocks , RHEL6
-    * Queueing system: SLURM 2.2.6.1
-2. For Galaxy configuration
-    * apache (2.2.3) proxy
-    * ssl
-    * Posgresql DB on a different host
-1. We deployed galaxy over a virtual system (XEN) integrated with a computing cluster (SGE).  Some details of the cluster nodes:
+11. We are using both powerful standalone workstations and a computer cluster. The cluster versions is being set up now, not operational yet.
+    1. In September we launch a new cluster (Abel):
+        * 912 nodes - 2 intel cpus -  8 cores (2 x Intel Xeon Sandy-Bridge CPU x86 64bit, E5-2670 2.6 GHz 8.0 GT/s 20 MB cache 8-core), 64 GB RAM, IB
+        * 16 GPU-nodes,  2 x Intel Xeon Sandy-Bridge CPU x86 64bit, E5-2609 2.4 GHz 6.4 GT/s 10 MB cache 4-core, 64 GB RAM, 2 x Nvidia Kepler GPU-card with 6 GB memory, IB
+        * 8 Hugemem-noders, 4 x AMD Opteron Abu Dhabi CPU x86 64bit, 3.0 GHz 6.4 GT/s 16 MB cache 8-core, 1 TB RAM, IB
+        * OS : Rocks , RHEL6
+        * Queueing system: SLURM 2.2.6.1
+    2. For Galaxy configuration
+        * apache (2.2.3) proxy
+        * ssl
+        * Posgresql DB on a different host
+12. We deployed galaxy over a virtual system (XEN) integrated with a computing cluster (SGE).  Some details of the cluster nodes:
 
-* 256 compute nodes with Infiniband connections to Ethernet - Low latency cluster
-* Dual cpu Intel E5440 quad core a 2,8GHz.
-* RAM 16 GB DDR2 FBD 667MHz
-* 2 Hard Disk SATA 250GB 5400 rpm.
-* 2 Gigabit Ethernet interconnection
-* 1 Infiniband connections
+    * 256 compute nodes with Infiniband connections to Ethernet - Low latency cluster
+    * Dual cpu Intel E5440 quad core a 2,8GHz.
+    * RAM 16 GB DDR2 FBD 667MHz
+    * 2 Hard Disk SATA 250GB 5400 rpm.
+    * 2 Gigabit Ethernet interconnection
+    * 1 Infiniband connections
 
-1. We run a galaxy production instance on a virtual machine running SUSE Linux Enterprise Server 11 (x86_64).  The server has 4 cores and 16GB of memory.  We also have a development instance of galaxy where we build our own tools, and a galaxy test instance for testing these tools, or new deployments of galaxy before deploying to our production instance.  Our Galaxy instances are all integrated with our high performance computing cluster which uses Torque/MOAB for job scheduling.  Our HPC cluster currently has 17 32 core nodes (544 core total), plus 4 12 core nodes that are dedicated to HTS QC and 1 core jobs from Galaxy.  Most of our nodes have 128 GB of memory, 2 have 512 GB of memory to deal with assemblies.
+13. We run a galaxy production instance on a virtual machine running SUSE Linux Enterprise Server 11 (x86_64).  The server has 4 cores and 16GB of memory.  We also have a development instance of galaxy where we build our own tools, and a galaxy test instance for testing these tools, or new deployments of galaxy before deploying to our production instance.  Our Galaxy instances are all integrated with our high performance computing cluster which uses Torque/MOAB for job scheduling.  Our HPC cluster currently has 17 32 core nodes (544 core total), plus 4 12 core nodes that are dedicated to HTS QC and 1 core jobs from Galaxy.  Most of our nodes have 128 GB of memory, 2 have 512 GB of memory to deal with assemblies.
 
 ### Cloud
 
@@ -216,7 +216,7 @@ The original responses, minus name, institution and email are **[also available]
 1. We changed the navigation left hand menu to put workflows up top and limited back the amount of tools we expose
 1. Not yet big customizations. We are looking into the code base only to get more out of the tools we implement (e.g. getting to pass the original input parameters used for creating a dataset).
 
-* Furthermore, tools that do not work out of the box are disabled.
+    * Furthermore, tools that do not work out of the box are disabled.
 
 1. Only minor, mostly on datatypes and tools. Now trying to migrate to a fresh install as the mercurial repository seems a little messed up.
 1. Coordinate / Sync tool wrapper commands with job runner URLs: DRMAA and .xml-wrapper & .py-adaptor changes for every tool we use. Because we are on a shared cluster, where resources used must match those requested, we've had to edit the DRMAA of every command we use, often not just the universe_wsgi.ini file, but also the .xml wrapper and .py adaptors, in order to be able to run the jobs. This has been a major task and barrier to using new tools.
@@ -253,25 +253,24 @@ The original responses, minus name, institution and email are **[also available]
 ### Cluster Setup Issues
 
 1. The major problem for the time being is the cluster integration.
-1. The pbs_python adapter I used with Torque at the prototype stage was very leaky - required constant monitoring and restarts of the Galaxy job runner.
-1. Configuring Galaxy and our Cluster to talk to each other was surprisingly complicated.  
-1. SLURM was used as the resource manager at the beginning, but it turned out Galaxy doesn't like it very well, so we had to switch to Torque PBS instead.
-1. NFS latency. When galaxy is installed on an NFS shared folder instead of the local hard drive, the job runner does not communicate with  Torque PBS very well.
-1. We had to work around python versioning issues.  Our server has a supported version of python (v2.7) but our cluster has an outdated one (v. 2.4), so we ran into problems when initially deploying Galaxy with various incompatibilities between the two versions.
-1. No job or dataset specific control on cluster resource requirements: The galaxy's DRMAA configuration is tool specific and not job specific. This doesn't play in a shared cluster/scheduler environment. This is an on-going issue and a major limitation for shared cluster environments. It would be nice to have an option for either of following options:
-1. Allow users to specify resource limits
-2. Make DRMAA configuration data-set dependent.
+2. The pbs_python adapter I used with Torque at the prototype stage was very leaky - required constant monitoring and restarts of the Galaxy job runner.
+3. Configuring Galaxy and our Cluster to talk to each other was surprisingly complicated.  
+4. SLURM was used as the resource manager at the beginning, but it turned out Galaxy doesn't like it very well, so we had to switch to Torque PBS instead.
+5. NFS latency. When galaxy is installed on an NFS shared folder instead of the local hard drive, the job runner does not communicate with  Torque PBS very well.
+6. We had to work around python versioning issues.  Our server has a supported version of python (v2.7) but our cluster has an outdated one (v. 2.4), so we ran into problems when initially deploying Galaxy with various incompatibilities between the two versions.
+7. No job or dataset specific control on cluster resource requirements: The galaxy's DRMAA configuration is tool specific and not job specific. This doesn't play in a shared cluster/scheduler environment. This is an on-going issue and a major limitation for shared cluster environments. It would be nice to have an option for either of following options:
+    1. Allow users to specify resource limits
+    2. Make DRMAA configuration data-set dependent.  
     Right now there's now way for a job submitter to easily select different resource requests (like RAM) depending on the size/complexity of the genome being worked on (eg, human[big] vs vaccinia virus[very small] vs tree-shrew[thousands of contigs]). Thus, we have to size resource requests for the biggest possible data set, which causes the small runs to wait a LONG time in the queue for resources they don't need. Nor does it seem possible to set up a formula for DRMAA based on the size of the genome being used (ie, make the choice automatically). This is compounded by lack of good data on the performance/requirements of many of the underlying programs for different input types).
-1. Capturing 'failed/aborted' jobs by the scheduler: There are cases (listed below) where a job is aborted by the scheduler but it still shows up as successful in the galaxy (green-boxes):
-1. [Job exceeds requested resource limits such as memory and run-time](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/3RYYE6ZNPM7I4NXTUNQPZ5UQQA7KXIWH/#WD3H7EGA6IPERH6VEJXFTQBBA3DANGJQ)
-2. Compute node on which job was running fails/restarted
+8. Capturing 'failed/aborted' jobs by the scheduler: There are cases (listed below) where a job is aborted by the scheduler but it still shows up as successful in the galaxy (green-boxes):
+    1. [Job exceeds requested resource limits such as memory and run-time](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/3RYYE6ZNPM7I4NXTUNQPZ5UQQA7KXIWH/#WD3H7EGA6IPERH6VEJXFTQBBA3DANGJQ)
+    2. Compute node on which job was running fails/restarted
 
- Job failures because of # 2 rarely happen however # 1 is very common if you have a shared cluster environment and galaxy tool's drmaa/job-runner configuration is not liberal (e.g. configure tool with 64GB RAM, 96-hrs run-time..).
- <br />
- Such jobs get correctly marked with non-zero exit state (failed jobs) in the scheduler's accounting file. However, this failure state is not captured correctly by the galaxy or underlying drmaa libraries. Some tools give/capture empty dataset output while others capture partially complete output. Since the galaxy shows such failed job with successful/green-box state end-users expect a valid dataset output. Also, since a job is marked with a 'successful' state in the galaxy, all the subsequent analysis steps which use this job's output are run with an invalid dataset input. This results in wrong analysis which may or may not get detected depending on the tool and user! This inability to tell if a job was really successful (false positives) is becoming a major reason for people to avoid galaxy: they don't know if they can believe their results.
+    Job failures because of # 2 rarely happen however # 1 is very common if you have a shared cluster environment and galaxy tool's drmaa/job-runner configuration is not liberal (e.g. configure tool with 64GB RAM, 96-hrs run-time..).  
+    Such jobs get correctly marked with non-zero exit state (failed jobs) in the scheduler's accounting file. However, this failure state is not captured correctly by the galaxy or underlying drmaa libraries. Some tools give/capture empty dataset output while others capture partially complete output. Since the galaxy shows such failed job with successful/green-box state end-users expect a valid dataset output. Also, since a job is marked with a 'successful' state in the galaxy, all the subsequent analysis steps which use this job's output are run with an invalid dataset input. This results in wrong analysis which may or may not get detected depending on the tool and user! This inability to tell if a job was really successful (false positives) is becoming a major reason for people to avoid galaxy: they don't know if they can believe their results.
 
-1. Used drmaa libraries for cluster runner (http://apps.man.poznan.pl/trac/slurm-drmaa/downloads)
-1. Used Dalhö's routine (http://mdahlo.blogspot.com/2011/06/galaxy-on-uppmax.html) to make it run on our cluster
+9. Used drmaa libraries for cluster runner (http://apps.man.poznan.pl/trac/slurm-drmaa/downloads)
+10. Used Dalhö's routine (http://mdahlo.blogspot.com/2011/06/galaxy-on-uppmax.html) to make it run on our cluster
 
 ### Security and FTP Setup Issues
 
@@ -304,14 +303,14 @@ The original responses, minus name, institution and email are **[also available]
 ### General Setup Issues
 
 1. Yes.  It took about 3 -4 weeks to get Galaxy up and running and configured.  Even then, we still had unresolved problems.  I had to abandon it in order to make progress on other projects.  
-1. Technical issues are mostly specific to the local IT/political environment IMHO
+2. Technical issues are mostly specific to the local IT/political environment IMHO
 
-* I think the hardest parts are marketing, advocacy (you need be able to reproduce your analyses just like you can reproduce your experiments!), user training  and tool building and tailoring to suit the specific high throughput local needs of your biologists and PI's
-* Tip of the day: Smart postdocs are your friends!
+    * I think the hardest parts are marketing, advocacy (you need be able to reproduce your analyses just like you can reproduce your experiments!), user training  and tool building and tailoring to suit the specific high throughput local needs of your biologists and PI's
+    * Tip of the day: Smart postdocs are your friends!
 
-1. There was a whole lot of trial-and-error. The lack of a comprehensive manual and up-to-date documentation made things challenging. Having a team of people and some way to track issues, like a ticketing system, was invaluable for us. We used sharepoint.
-1. Documentation
-1. We've had our galaxy instance for close to 2 years at this point.  It took much longer to get a production instance of galaxy set up than we expected it would.  Getting a simple instance of galaxy up is relatively easy, but getting a production instance up was very time consuming.  We ended having to hire an "application administrator" to manage the instance and the associated HTS data movement.  It's not clear to me if an instance would be as hard to install today.  
+3. There was a whole lot of trial-and-error. The lack of a comprehensive manual and up-to-date documentation made things challenging. Having a team of people and some way to track issues, like a ticketing system, was invaluable for us. We used sharepoint.
+4. Documentation
+5. We've had our galaxy instance for close to 2 years at this point.  It took much longer to get a production instance of galaxy set up than we expected it would.  Getting a simple instance of galaxy up is relatively easy, but getting a production instance up was very time consuming.  We ended having to hire an "application administrator" to manage the instance and the associated HTS data movement.  It's not clear to me if an instance would be as hard to install today.  
 
 ## What limitations have you experienced in hosting Galaxy and satisfying end user requirements?
 
@@ -331,13 +330,13 @@ The original responses, minus name, institution and email are **[also available]
 ### Tool Definition Limitations
 
 1. Users always complain about the lack of wrappers for their favorite tools. I've been writing wrappers, but the amount of time I can devote to that is not big, so the process is too slow to make my users happy.
-1. The description and naming of the tools is sometimes plainly misleading. Even with the search tool, people often do not find a simple tool they are looking for. A threat to Galaxy.
-1. Quality of tool wrappers: (Wrappers missing inputs or outputs) a lot of galaxy wrappers don't have all the parameters for the underlying tools, and many "throw away" valuable outputs & log files - like "unmapped reads" from tophat. This pushes people outside of galaxy, if they want the extra parameters or need those output.
-1. I am trying hard to find out how can I read logged-in user's database ID, when a tool loads up. Because my tool meant to load up (in a dropdown) some custom data from a non-galaxy database for the user to select and submit a job.  I have posted this quest on Galaxy-Dev but in vein. <br />If I could find out this in this forum that would be great.
-1. There needs to be an improved mechanism for supporting multiple tool versions and tool wrapper versions in the same galaxy.
-1. Version handling of tools - while many tools report the version the dataset was run with, Galaxy does not give us good reproducibility - the wrappers generally run the latest version of the tool in the path, and assume the .loc files point to the indexes matching the latest version (say, BWA 0.5 vs 0.6). This means people can't go back and re-run analysis 6 months later to tweak parameters, without unknowingly moving to a new version of the tool - which may give completely different results. This can probably be handled in two manners:
-1. Multiple versions of the same tool and tool wrappers (hard-coded with particular tool version) can be installed on the system.
-1. Tool wrappers or some other component of galaxy can search PATH or environment modules to provide version specific tool option
+2. The description and naming of the tools is sometimes plainly misleading. Even with the search tool, people often do not find a simple tool they are looking for. A threat to Galaxy.
+3. Quality of tool wrappers: (Wrappers missing inputs or outputs) a lot of galaxy wrappers don't have all the parameters for the underlying tools, and many "throw away" valuable outputs & log files - like "unmapped reads" from tophat. This pushes people outside of galaxy, if they want the extra parameters or need those output.
+4. I am trying hard to find out how can I read logged-in user's database ID, when a tool loads up. Because my tool meant to load up (in a dropdown) some custom data from a non-galaxy database for the user to select and submit a job.  I have posted this quest on Galaxy-Dev but in vein. <br />If I could find out this in this forum that would be great.
+5. There needs to be an improved mechanism for supporting multiple tool versions and tool wrapper versions in the same galaxy.
+6. Version handling of tools - while many tools report the version the dataset was run with, Galaxy does not give us good reproducibility - the wrappers generally run the latest version of the tool in the path, and assume the .loc files point to the indexes matching the latest version (say, BWA 0.5 vs 0.6). This means people can't go back and re-run analysis 6 months later to tweak parameters, without unknowingly moving to a new version of the tool - which may give completely different results. This can probably be handled in two manners:
+    1. Multiple versions of the same tool and tool wrappers (hard-coded with particular tool version) can be installed on the system.
+    2. Tool wrappers or some other component of galaxy can search PATH or environment modules to provide version specific tool option
 
 ### User History and Dataset Handling Limitations
 
@@ -384,9 +383,9 @@ The original responses, minus name, institution and email are **[also available]
 1. Difficult to implement IdP other than OpenID at WSGI level. We managed to do it at Apache proxy level with mellon package, but this rules out the common logging in Galaxy and we had to drop it. We plan to keep the Galaxy Scientific portal free and open to all academic institutions in the world (a better version of the php-based Bioportal, www.bioportal.uio.no)
 1. The galaxy job runner does not support job specific configuration of the following:
 
-* run-time
-* memory
-* parallel environment
+    * run-time
+    * memory
+    * parallel environment
 
 1. Our cluster has restriction when submitting jobs to it, for example, you have to specify how much memory you need and how long does the job last, but our galaxy instance is running as a single user. It is tedious to configure this for each tool and the memory needed also depends on the size of data set.
 
@@ -425,7 +424,8 @@ The original responses, minus name, institution and email are **[also available]
 1. Would be good to know best practices for setting up a server and how people have solved a few of the maintenance issues.
 1. A good talk on how we can set up and share our tools that we create too would be nice. I know there is the galaxy toolshed but hardly any one is using it and quite a bit of it is just junk.
 1. Learn more indepth concepts of Galaxy and tips/tricks for streamlining operations management.  I understand it is hard to document everything - but maybe a quick 1 hour discussion would help.
-1. Perhaps first, what attract users to Galaxy, and what repels them? E.g. if they don't like using FTP upload, what are other options? If they don't find their ways in the menu's, should we change descriptions to our own experience. It is really important to get these issues known first, otherwise users won't use Galaxy, and we don't have to set up Galaxies.<br /><br />And next, best practices of sysadmins that host 'big' galaxies. Perhaps ""if you could restart setting up Galaxy, what would you definitely not do again, and what would you do that you didn't do".
+1. Perhaps first, what attract users to Galaxy, and what repels them? E.g. if they don't like using FTP upload, what are other options? If they don't find their ways in the menu's, should we change descriptions to our own experience. It is really important to get these issues known first, otherwise users won't use Galaxy, and we don't have to set up Galaxies.  
+    And next, best practices of sysadmins that host 'big' galaxies. Perhaps "if you could restart setting up Galaxy, what would you definitely not do again, and what would you do that you didn't do".
 1. For developers to discuss specific Galaxy set-up e.g. using different clusters, clouds, external-visualisation tools, parallel processing techniques, proxy etc, custom code, datatypes etc that differ from the main Galaxy distribution.
 1. Discuss use of hardware to support Galaxy.
 1. Share methods of marketing Galaxy to users and offering training.

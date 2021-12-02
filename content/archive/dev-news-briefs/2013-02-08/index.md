@@ -59,10 +59,10 @@ Once you're on the `stable` branch, `hg pull -u` without a specific revision or 
 The new release process works as such:
 
 1. The Galaxy source repository now contains two branches:
-1. `stable` is committed to regularly and contains important bugfixes.
-1. `default` is committed to regularly and contains new features as well as fixes merged from `stable`.
-1. Every two months, `stable` will be updated with new features from default and a specific distribution release version will be tagged.
-1. The two weeks prior to the release will be focused on fixing bugs found in the targeted upcoming release. New features will not be considered for inclusion in the upcoming release during this time.
+    1. `stable` is committed to regularly and contains important bugfixes.
+    2. `default` is committed to regularly and contains new features as well as fixes merged from `stable`.
+2. Every two months, `stable` will be updated with new features from default and a specific distribution release version will be tagged.
+3. The two weeks prior to the release will be focused on fixing bugs found in the targeted upcoming release. New features will not be considered for inclusion in the upcoming release during this time.
 
 This process will not only allow us to deploy important bug fixes on to the `stable` branch rapidly and in between releases, it will improve the quality of our tagged releases. The documentation at our wiki reflects these changes: [getgalaxy.org](http://wiki.galaxyproject.org/Admin/Get%20Galaxy).
 

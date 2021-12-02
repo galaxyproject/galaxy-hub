@@ -100,17 +100,17 @@ The Galaxy Scientists may or may not include support, training, faq projects (bu
 
 1. **Establish formal name**
     Galaxy Scientists
-1. **Leadership roles**  
+2. **Leadership roles**  
     First term (duration of term was not defined, likely to be about 1 year) representatives
     * Maria Doyle, Peter MacCallum Cancer Centre, Melbourne, Australia
     * Frederik Coppens, VIB Gent, Belgium
-1. **Recognition** by GalaxyProject.org
-1. **Email list or forum** for discussion of end-user topics. NOT “how to”, but rather defining strategies and/or suggestions to improve the end-user experience
-1. **Electronic communications:** google drive docs, alternates
-1. **Meetings:** method, format, frequency
-1. meetings could be held via Google hangouts or equivalent video conferences
-1. meetings at GCC
-1. potential meetings of local subgroups
+3. **Recognition** by GalaxyProject.org
+4. **Email list or forum** for discussion of end-user topics. NOT “how to”, but rather defining strategies and/or suggestions to improve the end-user experience
+5. **Electronic communications:** google drive docs, alternates
+6. **Meetings:** method, format, frequency
+    1. meetings could be held via Google hangouts or equivalent video conferences
+    2. meetings at GCC
+    3. potential meetings of local subgroups
 
 ### Long Term Goals
 
@@ -118,7 +118,7 @@ To start with, a set of initial long term goals was defined. These goals may be 
 
 1. **Collection of usage metrics**
     Initially based on pre-existing user groups across various institutions, the collection process is expected to capture data about how Galaxy is used by the wider end-user community in order to give the Galaxy Scientists a voice backed up by community needs and not by individual preferences.
-1. **End-User Feedback **
+1. **End-User Feedback**
     Establish a prioritized list of the likes, challenges, wish-list items, analysis needs, or gaps of the end-user community.
 1. **Communication and Collaboration**
     Members offer support and/or work directly with tool developers on projects (e.g. the IUC). <br />
