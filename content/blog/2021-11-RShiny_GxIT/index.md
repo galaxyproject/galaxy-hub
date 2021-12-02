@@ -20,7 +20,7 @@ We were proposing a dedicated training in 2020 in France thanks to the GEOC (Gal
 
 This is so amazing to have the possibility to deploy R Shiny apps on several datasets and have the ability to switch from one app to another as seen in this usegalaxy.eu screenshot
 ![image](https://user-images.githubusercontent.com/7910679/143906873-b5d1cc7d-2aa5-4950-9473-6e336e4cf5be.png)
-but also creating workflows miwing "classical Galaxy tolls" and GxIT, as this example where we propose a workflow to verify and curate data from GBIF so we keep only "human obervation" based data and then apply some filters to finally create GIS shapefile and GeoJSON files plus give the opportunity to explore the data from geoexplorer, radiant, Wallace GxIT but also from OpenRefine Java app or an RStudio instance as seen in this usegalaxy.eu screenshot
+but also creating workflows mixing "classical Galaxy tools" and GxIT, as this example where we propose a workflow to verify and curate data from GBIF so we keep only "human obervation" based data and then apply some filters to finally create GIS shapefile and GeoJSON files plus give the opportunity to explore the data from geoexplorer, radiant, Wallace GxIT but also from OpenRefine Java app or an RStudio instance as seen in this usegalaxy.eu screenshot
 ![image](https://user-images.githubusercontent.com/7910679/143908051-5c593c07-0f39-4506-a907-c42f64dc4a0c.png)
 Imagine launching this automatic workflows and share the links towards each interactive apps + resulting populated history so colleagues (and maybe citizens) can "play" with results and propose analyses, new outputs datasets or others... Will be completely amazing isn't it ? Technologically, thanks to this GxIT functionnality, this is possible!
 
