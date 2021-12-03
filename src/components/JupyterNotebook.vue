@@ -5,35 +5,35 @@
 import "!!script-loader!notebookjs";
 import "./ipython-style.styl";
 import Prism from "prismjs/prism";
-import 'prismjs/components/prism-python'
-import 'prismjs/components/prism-markdown'
+import "prismjs/components/prism-python";
+import "prismjs/components/prism-markdown";
 import "prismjs/themes/prism.css";
 import axios from "axios";
 import ansi_up from "ansi_up";
 import markdown from "marked";
 
 export default {
-    data: function() {
+    data: function () {
         return {
-            notebookData: null
+            notebookData: null,
         };
     },
     props: {
         notebookURL: {
             type: String,
-            required: true
-        }
+            required: true,
+        },
     },
     computed: {
         notebookHTML() {
             return this.notebookData === null ? "" : nb.parse(this.notebookData).render().innerHTML;
-        }
+        },
     },
     mounted() {
         const defineHighlighter = (code, lang) => {
             if (typeof lang === "undefined") lang = "markup";
 
-            if (!Prism.languages.hasOwnProperty(lang)) {
+            if (!Object.prototype.hasOwnProperty.call(Prism.languages, lang)) {
                 console.warn("Prism highlighter needs additional language for:" + lang);
                 Prism.languages[lang] = false;
             }
@@ -41,7 +41,7 @@ export default {
             return Prism.languages[lang] ? Prism.highlight(code, Prism.languages[lang]) : code;
         };
 
-        /* configure global 'nb' */
+        /* global nb */
         nb.ansi_up = ansi_up;
         nb.markdown = markdown;
 
@@ -53,9 +53,9 @@ export default {
             }
             return defineHighlighter(text, language);
         };
-        axios.get(this.notebookURL).then(r => {
+        axios.get(this.notebookURL).then((r) => {
             this.notebookData = r.data;
         });
-    }
+    },
 };
 </script>

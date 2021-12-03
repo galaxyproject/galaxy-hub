@@ -12,13 +12,13 @@ export default {
     props: {
         notebookSource: {
             type: String,
-            required: true
-        }
+            required: true,
+        },
     },
     computed: {
         getNotebookSource() {
             return `https://observablehq.com/${this.notebookSource}`;
-        }
+        },
     },
     mounted() {
         let notebookScript = document.createElement("script");
@@ -36,7 +36,7 @@ export default {
         new Runtime().module(notebook, Inspector.into(document.getElementById('${this._uid}')));
     `;
         document.head.appendChild(notebookScript);
-    }
+    },
 };
 </script>
 <style>

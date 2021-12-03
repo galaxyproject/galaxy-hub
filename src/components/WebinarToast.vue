@@ -1,5 +1,5 @@
-<template
-    ><div v-show="false">
+<template>
+    <div v-show="false">
         <a :href="link">{{ this.message }}</a>
     </div>
 </template>
@@ -12,7 +12,7 @@ export default {
     data() {
         return {
             message: "Join our COVID-19 webinars and learn about data analysis in Galaxy.",
-            link: "https://elixir-europe.org/events/webinar-galaxy-elixir-covid19"
+            link: "https://elixir-europe.org/events/webinar-galaxy-elixir-covid19",
         };
     },
     mounted() {
@@ -26,16 +26,16 @@ export default {
                     onClick: (e, toastObject) => {
                         window.open(this.link);
                         toastObject.goAway(0);
-                    }
+                    },
                 },
                 {
                     text: "dismiss",
                     onClick: (e, toastObject) => {
                         toastObject.goAway(0);
-                    }
-                }
-            ]
+                    },
+                },
+            ],
         });
-    }
+    },
 };
 </script>

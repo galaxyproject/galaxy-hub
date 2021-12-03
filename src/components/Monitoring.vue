@@ -1,23 +1,29 @@
 <template>
     <div id="monitor-container">
-        <h2 id="monitoring">
-            SARS-CoV-2 Monitoring
-        </h2>
-        <a href="https://covid19.galaxyproject.org/dashboard"><img :src="'/genomics/global_platform/figs/dashboard.png'" /></a>
-        <hr>
+        <h2 id="monitoring">SARS-CoV-2 Monitoring</h2>
+        <a href="https://covid19.galaxyproject.org/dashboard"
+            ><img :src="'/genomics/global_platform/figs/dashboard.png'"
+        /></a>
+        <hr />
         <div id="mon-tabs">
             <!-- These can be `a` or `RouterLink`, just apply the 'action-button' class -->
             <RouterLink class="action-button" :to="'/genomics/global_platform/'">Why?</RouterLink>
-            <RouterLink class="action-button" :to="'/genomics/global_platform/#workflows-for-discovery-of-sequence-variants'">Workflows</RouterLink>
+            <RouterLink
+                class="action-button"
+                :to="'/genomics/global_platform/#workflows-for-discovery-of-sequence-variants'"
+                >Workflows</RouterLink
+            >
             <RouterLink class="action-button" :to="'/genomics/global_platform/#processed-cog-uk-data'">Data</RouterLink>
             <RouterLink class="action-button" :to="'/genomics/global_platform/#how-do-i-use-it'">How Do I?</RouterLink>
-            <a class="action-button" href="https://training.galaxyproject.org/training-material/search?query=covid19">Training</a>
+            <a class="action-button" href="https://training.galaxyproject.org/training-material/search?query=covid19"
+                >Training</a
+            >
         </div>
     </div>
 </template>
 <script>
 export default {
-    name: "monitoring"
+    name: "Monitoring",
 };
 </script>
 <style lang="stylus">

@@ -136,9 +136,7 @@
             <RouterLink :to="'/cheminformatics/'">
                 <div class="h-feature">
                     <div class="h-feature-content">
-                        <h3>
-                            Docking simulations on the SARS-CoV-2 main protease.
-                        </h3>
+                        <h3>Docking simulations on the SARS-CoV-2 main protease.</h3>
                         <p>
                             A Galaxy workflow for performing and evaluating molecular docking on a massive scale, based
                             on the set of fragment hits which are known experimentally to bind to the protein.
@@ -170,6 +168,6 @@
 </template>
 <script>
 export default {
-    name: "home-features"
+    name: "HomeFeatures",
 };
 </script>

@@ -73,34 +73,38 @@ export default {
     data() {
         return {
             clipPath: "",
-            smooth: ""
+            smooth: "",
         };
     },
     props: {
         label: {
             type: String,
-            default: ""
+            default: "",
         },
         message: {
             type: String,
-            default: ""
+            default: "",
         },
         href: {
             type: String,
-            default: ""
+            default: "",
         },
         leftColor: {
-            type: String
+            type: String,
+            default: "#555",
         },
         rightColor: {
-            type: String
+            type: String,
+            default: "#4c1",
         },
         color: {
-            type: String
+            type: String,
+            default: "#4c1",
         },
         alt: {
-            type: String
-        }
+            type: String,
+            default: "",
+        },
     },
     computed: {
         leftColorParsed() {
@@ -148,11 +152,11 @@ export default {
         },
         urlClipPath() {
             return `url(#${this.clipPath})`;
-        }
+        },
     },
     mounted() {
         this.clipPath = uuidv4();
         this.smooth = uuidv4();
-    }
+    },
 };
 </script>
