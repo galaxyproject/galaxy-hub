@@ -6,10 +6,10 @@
             <div class="h-feature">
                 <div class="h-feature-content">
                     <h3>
-                        <RouterLink :to="'/genomics/global_platform/'">
+                        <g-link to="/covid/genomics/global-platform/">
                             Freely accessible ready to use global infrastructure for SARS-CoV-2 monitoring
                             <sup><font color="red">new</font></sup>
-                        </RouterLink>
+                        </g-link>
                         [<a href="https://doi.org/10.1101/2021.03.25.437046">bioRxiv</a>]
                     </h3>
                     <p>
@@ -23,9 +23,9 @@
                     </p>
                 </div>
                 <div class="h-feature-focus">
-                    <RouterLink :to="'/genomics/global_platform/'">
-                        <img :src="$withBase('../img/gn.png')" />
-                    </RouterLink>
+                    <g-link to="/covid/genomics/global-platform/">
+                        <g-image src="/images/covid/gn.png" />
+                    </g-link>
                 </div>
             </div>
 
@@ -44,12 +44,12 @@
                 </div>
                 <div class="h-feature-focus">
                     <a href="https://covid19.galaxyproject.org/dashboard/">
-                        <img :src="$withBase('./img/evo.png')" />
+                        <g-image src="/images/covid/evo.png" />
                     </a>
                 </div>
             </div>
 
-            <RouterLink :to="'/artic/'">
+            <g-link to="/covid/artic/">
                 <div class="h-feature">
                     <div class="h-feature-content">
                         <h3>ARTIC: Amplicon based data analysis</h3>
@@ -59,17 +59,17 @@
                         </p>
                     </div>
                     <div class="h-feature-focus">
-                        <img :src="$withBase('../img/artic.png')" />
+                        <g-image src="/images/covid/logos/artic.png" />
                     </div>
                 </div>
-            </RouterLink>
+            </g-link>
 
             <div class="h-feature">
                 <div class="h-feature-content">
                     <h3>
-                        <RouterLink :to="'/direct-rnaseq/'">
+                        <g-link to="/covid/direct-rnaseq/">
                             Analysis of SARS-CoV-2 transcription using Oxford Nanopore direct RNA sequencing
-                        </RouterLink>
+                        </g-link>
                         [<a href="https://doi.org/10.1101/2020.07.18.204362">bioRxiv</a>]
                     </h3>
                     <p>
@@ -81,19 +81,19 @@
                     </p>
                 </div>
                 <div class="h-feature-focus">
-                    <RouterLink :to="'/direct-rnaseq/'">
-                        <img :src="$withBase('./img/drs.png')" />
-                    </RouterLink>
+                    <g-link to="/covid/direct-rnaseq/">
+                        <g-image src="/images/covid/drs.png" />
+                    </g-link>
                 </div>
             </div>
 
             <div class="h-feature">
                 <div class="h-feature-content">
                     <h3>
-                        <RouterLink :to="'/genomics/no-more-business-as-usual/'">
+                        <g-link to="/covid/genomics/no-more-business-as-usual/">
                             No more business as usual - Agile and effective responses to emerging pathogen threats
                             require open data and open analytics
-                        </RouterLink>
+                        </g-link>
                         [<a href="https://doi.org/10.1371/journal.ppat.1008643">PLoS Pathogens</a>]
                     </h3>
                     <p>
@@ -104,9 +104,9 @@
                     </p>
                 </div>
                 <div class="h-feature-focus">
-                    <RouterLink :to="'/genomics/no-more-business-as-usual/'">
-                        <img :src="$withBase('./img/plos_p.png')" />
-                    </RouterLink>
+                    <g-link to="/covid/genomics/no-more-business-as-usual/">
+                        <g-image src="/images/covid/plos_p.png" />
+                    </g-link>
                 </div>
             </div>
 
@@ -128,12 +128,12 @@
                         </p>
                     </div>
                     <div class="h-feature-focus">
-                        <img :src="$withBase('../img/proteininteraction.png')" />
+                        <g-image src="/images/covid/proteininteraction.png" />
                     </div>
                 </div>
             </a>
 
-            <RouterLink :to="'/cheminformatics/'">
+            <g-link to="/covid/cheminformatics/">
                 <div class="h-feature">
                     <div class="h-feature-content">
                         <h3>Docking simulations on the SARS-CoV-2 main protease.</h3>
@@ -143,12 +143,12 @@
                         </p>
                     </div>
                     <div class="h-feature-focus">
-                        <img :src="$withBase('./img/cheminfo.png')" />
+                        <g-image src="/images/covid/cheminfo.png" />
                     </div>
                 </div>
-            </RouterLink>
+            </g-link>
 
-            <RouterLink :to="'/proteomics/'">
+            <g-link to="/covid/proteomics/">
                 <h2 id="proteomics">Proteomics</h2>
                 <div class="h-feature">
                     <div class="h-feature-content">
@@ -159,13 +159,14 @@
                         </p>
                     </div>
                     <div class="h-feature-focus">
-                        <img :src="$withBase('./img/mspec.png')" />
+                        <g-image src="/images/covid/mspec.png" />
                     </div>
                 </div>
-            </RouterLink>
+            </g-link>
         </div>
     </div>
 </template>
+
 <script>
 export default {
     name: "HomeFeatures",
