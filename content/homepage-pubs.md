@@ -3,6 +3,9 @@ title: Recent Pubs
 link: https://www.zotero.org/groups/galaxy
 icon: fas fa-book-open
 items:
+- title: "Galaxy Is a Suitable Bioinformatics Platform for the Molecular Diagnosis of Human Genetic Disorders Using High-Throughput Sequencing Data Analysis. Five Years of Experience in a Clinical Laboratory"
+  link: https://doi.org/10.1093/clinchem/hvab220
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1093/clinchem/hvab220'></span> Chappell, K., Francou, B., Habib, C., Huby, T., Leoni, M., Cottin, A., Nadal, F., Adnet, E., Paoli, E., Oliveira, C., Verstuyft, C., Davit-Spraul, A., Gaignard, P., Lebigot, E., Duclos-Vallee, J.-C., Young, J., Kamenicky, P., Adams, D., Echaniz-Laguna, A., … Bouligand, J. (2021). *Clinical Chemistry*, hvab220."
 - title: "MCMICRO: A scalable, modular image-processing pipeline for multiplexed tissue imaging"
   link: https://doi.org/10.1038/s41592-021-01308-y
   tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1038/s41592-021-01308-y'></span> Schapiro, D., Sokolov, A., Yapp, C., Chen, Y.-A., Muhlich, J. L., Hess, J., Creason, A. L., Nirmal, A. J., Baker, G. J., Nariya, M. K., Lin, J.-R., Maliga, Z., Jacobson, C. A., Hodgman, M. W., Ruokonen, J., Farhi, S. L., Abbondanza, D., McKinley, E. T., Persson, D., … Sorger, P. K. (2021). *Nature Methods*, 1–5."
@@ -15,7 +18,4 @@ items:
 - title: Expanding the Galaxy’s reference data
   link: https://doi.org/10.1101/2020.10.09.327114
   tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1101/2020.10.09.327114'></span> VijayKrishna, N., Joshi, J., Coraor, N., Hillman-Jackson, J., Bouvier, D., Beek, M. van den, Eguinoa, I., Coppens, F., Golitsynskiy, S., Stolarczyk, M., Sheffield, N. C., Gladman, S., Cuccuru, G., Grüning, B., Soranzo, N., Rasche, H., Langhorst, B. W., Bernt, M., Fornika, D., … Blankenberg, D. (2021). <em>BioRxiv</em>, 2020.10.09.327114."
-- title: Ready-to-use public infrastructure for global SARS-CoV-2 monitoring
-  link: https://doi.org/10.1038/s41587-021-01069-1
-  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1038/s41587-021-01069-1'></span> Maier, W., Bray, S., van den Beek, M., Bouvier, D., Coraor, N., Miladi, M., Singh, B., De Argila, J. R., Baker, D., Roach, N., Gladman, S., Coppens, F., Martin, D. P., Lonie, A., Grüning, B., Kosakovsky Pond, S. L., & Nekrutenko, A. (2021). <em>Nature Biotechnology</em>, 1–2."
 ---
