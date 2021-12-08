@@ -13,7 +13,7 @@ components: true
 |:--------:|:------------:|:------------:|:------------:|:------------:|
 | <FlatShield label="workflow" message="run" href="https://usegalaxy.org/u/aun1/w/mrca" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.eu/u/wolfgang-maier/w/covid-19-mrca-analysis" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.org.au/u/simongladman/w/covid-19-mcra" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.be/u/ieguinoa/w/covid-19-mcra" alt="Galaxy workflow" /> | <FlatShield label="workflow" message="run" href="https://usegalaxy.fr/u/lecorguille/w/covid-19-mrca-analysis" alt="Galaxy workflow" /> |
 | <FlatShield label="history" message="view" href="https://usegalaxy.org/u/aun1/h/covid-19-mrca-date" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.eu/u/wolfgang-maier/h/covid-19-mrca-analysis" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.org.au/u/simongladman/h/covid-19-mcra" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.be/u/ieguinoa/h/covid-19-mrca" alt="Galaxy history" /> | <FlatShield label="history" message="view" href="https://usegalaxy.fr/u/lecorguille/h/covid-19-mrca-date" alt="Galaxy history" /> |
-| <FlatShield label="Jupyter Notebook" color="blue" message="run" href="./MRCA_Estimation_Notebook.ipynb" alt="Jupyter Notebook" /> | <FlatShield label="Jupyter Notebook" color="blue" message="run" href="./MRCA_Estimation_Notebook.ipynb" alt="Jupyter Notebook" /> | <FlatShield label="Jupyter Notebook" color="blue" message="run" href="./MRCA_Estimation_Notebook.ipynb" alt="Jupyter Notebook" /> | <FlatShield label="Jupyter Notebook" color="blue" message="run" href="./MRCA_Estimation_Notebook.ipynb" alt="Jupyter Notebook" /> | <FlatShield label="Jupyter Notebook" color="orange" message="extern" href="./MRCA_Estimation_Notebook.ipynb" alt="Jupyter Notebook" /> |
+| <FlatShield label="Jupyter Notebook" color="blue" message="run" href="/media/covid/notebooks/MRCA_Estimation_Notebook.ipynb" alt="Jupyter Notebook" /> | <FlatShield label="Jupyter Notebook" color="blue" message="run" href="/media/covid/notebooks/MRCA_Estimation_Notebook.ipynb" alt="Jupyter Notebook" /> | <FlatShield label="Jupyter Notebook" color="blue" message="run" href="/media/covid/notebooks/MRCA_Estimation_Notebook.ipynb" alt="Jupyter Notebook" /> | <FlatShield label="Jupyter Notebook" color="blue" message="run" href="/media/covid/notebooks/MRCA_Estimation_Notebook.ipynb" alt="Jupyter Notebook" /> | <FlatShield label="Jupyter Notebook" color="orange" message="extern" href="/media/covid/notebooks/MRCA_Estimation_Notebook.ipynb" alt="Jupyter Notebook" /> |
 
 ##  What's the point?
 
@@ -21,7 +21,7 @@ To estimate the time of COVID-19 emergence we use simple root-to-tip regression 
 
 ## Outline
 
-This analysis consists of two components - a Galaxy [workflow](#history-and-workflow) and a [Jupyter notebook](./MRCA_Estimation_Notebook.ipynb). To use a Jupyter Notebook in a Galaxy workflow see these [short instructions](https://galaxyproject.github.io/training-material/topics/galaxy-ui/tutorials/galaxy-intro-jupyter/tutorial.html#open-a-notebook).
+This analysis consists of two components - a Galaxy [workflow](#history-and-workflow) and a [Jupyter notebook](/media/covid/notebooks/MRCA_Estimation_Notebook.ipynb). To use a Jupyter Notebook in a Galaxy workflow see these [short instructions](https://galaxyproject.github.io/training-material/topics/galaxy-ui/tutorials/galaxy-intro-jupyter/tutorial.html#open-a-notebook).
 
 The workflow is used to extract full length sequences of SARS-CoV-2, tidy up their names in FASTA files, produce a multiple sequences alignment and compute a maximum likelihood tree.
 
@@ -29,7 +29,7 @@ The Jupyter notebook is used to correlate branch lengths with collection dates i
 
 ## Inputs
 
-One input is required: a comma-separated [file containing accession numbers and collection dates](./acc_date.csv):
+One input is required: a comma-separated [file containing accession numbers and collection dates](/media/covid/data/acc_date.csv):
 
 ```
 Accession,Collection_Date
@@ -50,7 +50,7 @@ The collection dates will be taken from the corresponding GenBank record's `/col
 
 ## Outputs
 
-The Galaxy workflow generates a maximum-likelihood phylogenetic tree. This tree and the initial workflow input of [accession numbers and collection times](./acc_date.csv) are then used in the Jupyter notebook to calculate an estimate of the time to the most recent common ancestor of all samples.
+The Galaxy workflow generates a maximum-likelihood phylogenetic tree. This tree and the initial workflow input of [accession numbers and collection times](/media/covid/data/acc_date.csv) are then used in the Jupyter notebook to calculate an estimate of the time to the most recent common ancestor of all samples.
 
 ## History and workflow
 

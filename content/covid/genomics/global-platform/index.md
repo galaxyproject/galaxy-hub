@@ -1,5 +1,6 @@
 ---
 title: Global platform
+skip_title_render: true
 components: true
 ---
 
@@ -7,8 +8,10 @@ components: true
 
 [![DOI](https://img.shields.io/static/v1?label=DOI&message=doi:10.1101/2021.03.25.437046&color=red)](https://doi.org/10.1101/2021.03.25.437046)
 
-<div class="custom-block warning">
-This documents is divided into following sections:
+<div class="custom-block warning trim-p">
+
+This document is divided into following sections:
+
 <hr>
 	<ol>
 		<li><a href="#what-is-this">What of our objective?</a></li>
@@ -16,7 +19,7 @@ This documents is divided into following sections:
 		<li><a href="#application-of-workflows-for-analysis-of-intrahost-variation">Initial application to Boston and early COG-UK data</a></li>
 		<li><a href="#continuous-analysis-of-pandemic-data-with-the-galaxy-api">Continuous monitoring of COG-UK data</a></li>
 		<li><a href="#how-do-i-use-it">How do I use it?</a></li>
-		<li><a href="http://localhost:8080/genomics/global_platform/#methods">Methods</a></li>
+		<li><a href="#methods">Methods</a></li>
 	</ol>
 </div>
 
@@ -145,7 +148,6 @@ A cluster of **eight** low frequency variants occured in 8 samples (the probabil
 | 26,433:A&rarr;C   | 35   | *E*/K63N          |
 
 
-
 Any newly identified AV set should be compared against a list of sites with known biological significance. In our analysis we selected two such site lists : (1) the signature or defining mutation sites found in the variants of concern, B.1.1.7, B.1.351 and P.1 (referred to hereafter as VOC sites); and (2) genomic sites detectably evolving under positive or negative selection in the global SARS-CoV-2 dataset (referred to hereafter as selected sites). 
 
 The emergence of VOC starting with the B.1.1.7 lineage in the UK, raised intriguing questions about the genesis of this lineage, and a hypothesis that the variant arose in a chronically infected [immunocompromized host](https://virological.org/t/preliminary-genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-the-uk-defined-by-a-novel-set-of-spike-mutations/563/2). We were interested in how many of the [clade defining mutations](https://cov-lineages.org/global_report.html) were detectable at sub-consensus allele frequencies. Specifically, we analyzed the overlap between our data and five distinct mutation sets: B.1.1.7, P.1, B.1.351, A.23.1 as well as receptor-binding domain mutations identified by [Greany et al. 2020](https://www.biorxiv.org/content/10.1101/2020.12.31.425021v1) (called "Bloom" after the last author in the rest of this document; Fig. 4). Very few N501Y lineage mutations are detectable in pre B.1.1.7 datasets ([Fig. 4](#figure-4)). The L18F mutation (P.1, gene *S*) is present in ~0.5% of Boston samples. It is completely absent in "COG-Pre", while in "COG-Post" it reaches fixation in ~40% of samples. On the other hand the population frequency of E92K (P.1, gene *S*) stays constant for "COG-Pre" and "COG-Post" samples at ~3%. Only two of the mutations reported by Greaney et al. 21 are observed at appreciable frequency. 
@@ -159,15 +161,15 @@ The emergence of VOC starting with the B.1.1.7 lineage in the UK, raised intrigu
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/voc_Boston.html" width="600" height="320"></embed>
+<embed type="text/html" src="/media/covid/embeds/voc_Boston.html" width="600" height="320"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/voc_COG-Pre.html" width="600" height="320"></embed>
+<embed type="text/html" src="/media/covid/embeds/voc_COG-Pre.html" width="600" height="320"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/voc_COG-Post.html" width="600" height="320"></embed>
+<embed type="text/html" src="/media/covid/embeds/voc_COG-Post.html" width="600" height="320"></embed>
 
 
 The [selected sites list](https://observablehq.com/@spond/revised-sars-cov-2-analytics-page) is continuously updated by the DataMonkey team using GISAID data as it accumulates (http://covid19.datamonkey.org). This list included all SARS-CoV-2 codon sites identified with [FEL](https://doi.org/10.1093/molbev/msi105) and [MEME](http://dx.doi.org/10.1371/journal.pgen.1002764) methods to be evolving under positive or negative selection with a *p*≤0.0001 significance cutoff on Feb 01, 2021. Because selection analyses identify codons (not individual genome positions) responsible for potential selective amino acid changes, we considered all non-synonymous nucleotide substitutions with AFs<80% that fell within the boundaries of codons with the signature of selection. There were two, three, and ten AVs overlapping with codons under selection in the Boston, COG-Pre, and COG-Pos" datasets, respectively ([Table 5](#table-5)). The two sites in the Boston dataset are below the consensus (<50%) frequency. The identification of low frequency AVs at codon sites displaying evidence of positive selection could provide an early indication of AVs that are adaptive mutations and therefore warrant closer monitoring as the pandemic unfolds. 
@@ -447,7 +449,6 @@ The `lofreq` performed the best followed by `mutect2` and `FreeBayes` (contrast 
 | `lofreq` | default | def |
 
 
-
 ### Supplemental Table 1.
 
 Top 10 SRA BioProjects for three experimental strategies. BioProject IDs with a hyperlink correspond to a study chosen for subsequent analysis (Illumina RNAseq = Illumina Paired RNAseq data; Illumina Amp = Illumina Paired Artic data; *N* = number of SRA datasets in a given BioProject)
@@ -473,15 +474,15 @@ Observed (red) versus predicted (orange) counts of samples sharing *N*=0, 1, 2, 
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/thresholding_Boston.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid/embeds/thresholding_Boston.html" width="600" height="300"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/thresholding_COG-Pre.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid/embeds/thresholding_COG-Pre.html" width="600" height="300"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/thresholding_COG-Post.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid/embeds/thresholding_COG-Post.html" width="600" height="300"></embed>
 
 -----
 
@@ -491,15 +492,15 @@ Distributions of allele frequencies in the three datasets
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/af_histogram_Boston.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid/embeds/af_histogram_Boston.html" width="600" height="300"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/af_histogram_COG-Pre.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid/embeds/af_histogram_COG-Pre.html" width="600" height="300"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/af_histogram_COG-Post.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid/embeds/af_histogram_COG-Post.html" width="600" height="300"></embed>
 
 -----
 
@@ -509,15 +510,15 @@ Types and counts of nucleotide changes
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/substitutions_types_Boston.html" width="600" height="400"></embed>
+<embed type="text/html" src="/media/covid/embeds/substitutions_types_Boston.html" width="600" height="400"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/substitutions_types_COG-Pre.html" width="600" height="400"></embed>
+<embed type="text/html" src="/media/covid/embeds/substitutions_types_COG-Pre.html" width="600" height="400"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/substitutions_types_COG-Post.html" width="600" height="400"></embed>
+<embed type="text/html" src="/media/covid/embeds/substitutions_types_COG-Post.html" width="600" height="400"></embed>
 
 -----
 
@@ -527,15 +528,15 @@ Relationship between population frequency and alternative allele frequency in th
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/cov_vs_pf_Boston.html" width="500" height="900"></embed>
+<embed type="text/html" src="/media/covid/embeds/cov_vs_pf_Boston.html" width="500" height="900"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/cov_vs_pf_COG-Pre.html" width="500" height="900"></embed>
+<embed type="text/html" src="/media/covid/embeds/cov_vs_pf_COG-Pre.html" width="500" height="900"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/cov_vs_pf_COG-Post.html" width="500" height="900"></embed>
+<embed type="text/html" src="/media/covid/embeds/cov_vs_pf_COG-Post.html" width="500" height="900"></embed>
 
 -----
 
@@ -545,15 +546,15 @@ Distribution of allelic variants across the genome. Height of each bar is propor
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/genomic_dist_Boston.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid/embeds/genomic_dist_Boston.html" width="800" height="400"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/genomic_dist_COG-Pre.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid/embeds/genomic_dist_COG-Pre.html" width="800" height="400"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/genomic_dist_COG-Post.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid/embeds/genomic_dist_COG-Post.html" width="800" height="400"></embed>
 
 -----
 
@@ -561,13 +562,13 @@ Distribution of allelic variants across the genome. Height of each bar is propor
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/gene_dist_Boston.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid/embeds/gene_dist_Boston.html" width="800" height="400"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/gene_dist_COG-Pre.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid/embeds/gene_dist_COG-Pre.html" width="800" height="400"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/gene_dist_COG-Post.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid/embeds/gene_dist_COG-Post.html" width="800" height="400"></embed>
 

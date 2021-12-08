@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <g-link to="/covid/artic/">
+            <g-link to="https://covid19.galaxyproject.org/artic/">
                 <div class="h-feature">
                     <div class="h-feature-content">
                         <h3>ARTIC: Amplicon based data analysis</h3>
@@ -67,7 +67,7 @@
             <div class="h-feature">
                 <div class="h-feature-content">
                     <h3>
-                        <g-link to="/covid/direct-rnaseq/">
+                        <g-link to="https://covid19.galaxyproject.org/direct-rnaseq/">
                             Analysis of SARS-CoV-2 transcription using Oxford Nanopore direct RNA sequencing
                         </g-link>
                         [<a href="https://doi.org/10.1101/2020.07.18.204362">bioRxiv</a>]
@@ -81,7 +81,7 @@
                     </p>
                 </div>
                 <div class="h-feature-focus">
-                    <g-link to="/covid/direct-rnaseq/">
+                    <g-link to="https://covid19.galaxyproject.org/direct-rnaseq/">
                         <g-image src="/images/covid/drs.png" />
                     </g-link>
                 </div>
@@ -133,7 +133,7 @@
                 </div>
             </a>
 
-            <g-link to="/covid/cheminformatics/">
+            <g-link to="https://covid19.galaxyproject.org/cheminformatics/">
                 <div class="h-feature">
                     <div class="h-feature-content">
                         <h3>Docking simulations on the SARS-CoV-2 main protease.</h3>
@@ -148,7 +148,7 @@
                 </div>
             </g-link>
 
-            <g-link to="/covid/proteomics/">
+            <g-link to="https://covid19.galaxyproject.org/proteomics/">
                 <h2 id="proteomics">Proteomics</h2>
                 <div class="h-feature">
                     <div class="h-feature-content">
@@ -172,3 +172,23 @@ export default {
     name: "HomeFeatures",
 };
 </script>
+
+<style scoped>
+.h-feature {
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
+}
+.h-feature-content {
+    margin-right: 2rem;
+    flex: 65%;
+}
+.h-feature-focus {
+    flex: 30%;
+}
+.h-feature-focus img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+</style>
