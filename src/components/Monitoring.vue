@@ -2,19 +2,19 @@
     <div id="monitor-container">
         <h2 id="monitoring">SARS-CoV-2 Monitoring</h2>
         <a href="https://covid19.galaxyproject.org/dashboard/">
-            <g-image src="/images/covid/dashboard.png" />
+            <g-image src="/images/covid19/dashboard.png" />
         </a>
         <hr />
         <div id="mon-tabs">
-            <g-link class="action-button" to="/covid/genomics/global-platform/">Why?</g-link>
+            <g-link class="action-button" to="/covid19/genomics/global-platform/">Why?</g-link>
             <g-link
                 class="action-button"
-                to="/covid/genomics/global-platform/#workflows-for-discovery-of-sequence-variants"
+                to="/covid19/genomics/global-platform/#workflows-for-discovery-of-sequence-variants"
             >
                 Workflows
             </g-link>
-            <g-link class="action-button" to="/covid/genomics/global-platform/#processed-cog-uk-data">Data</g-link>
-            <g-link class="action-button" to="/covid/genomics/global-platform/#how-do-i-use-it">How Do I?</g-link>
+            <g-link class="action-button" to="/covid19/genomics/global-platform/#processed-cog-uk-data">Data</g-link>
+            <g-link class="action-button" to="/covid19/genomics/global-platform/#how-do-i-use-it">How Do I?</g-link>
             <a class="action-button" href="https://training.galaxyproject.org/training-material/search?query=covid19">
                 Training
             </a>
