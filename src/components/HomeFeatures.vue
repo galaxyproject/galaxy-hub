@@ -172,3 +172,23 @@ export default {
     name: "HomeFeatures",
 };
 </script>
+
+<style scoped>
+.h-feature {
+    width:100%;
+    display:flex;
+    margin-bottom: 3rem;
+}
+.h-feature-content {
+    margin-right: 2rem;
+    flex: 65%;
+}
+.h-feature-focus {
+    flex: 30%;
+}
+.h-feature-focus img {
+    max-width: 100%;
+    margin:auto;
+    display: block;
+}
+</style>

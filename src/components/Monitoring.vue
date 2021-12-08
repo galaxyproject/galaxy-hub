@@ -31,16 +31,16 @@ export default {
 <style lang="stylus">
 @require '../assets/palette.styl';
 
-#monitor-container{
+#monitor-container {
     //text-align: center;
 }
-#monitoring{
+#monitoring {
     margin: 2rem 0;
     // border: none; // If we want the faint underline gone for this header only
 }
 #mon-tabs {
     display:flex;
-    .action-button {
+    a.action-button {
         flex: 1 1 0px
         text-align: center;
         margin: 0 1rem;

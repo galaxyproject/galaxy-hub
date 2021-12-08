@@ -1,5 +1,6 @@
 ---
 title: Global platform
+skip_title_render: true
 components: true
 ---
 
@@ -7,8 +8,10 @@ components: true
 
 [![DOI](https://img.shields.io/static/v1?label=DOI&message=doi:10.1101/2021.03.25.437046&color=red)](https://doi.org/10.1101/2021.03.25.437046)
 
-<div class="custom-block warning">
-This documents is divided into following sections:
+<div class="custom-block warning trim-p">
+
+This document is divided into following sections:
+
 <hr>
 	<ol>
 		<li><a href="#what-is-this">What of our objective?</a></li>
@@ -143,7 +146,6 @@ A cluster of **eight** low frequency variants occured in 8 samples (the probabil
 | 17,934:C&rarr;A   | 30   | *helicase*/T566   |
 | 20,716:A&rarr;T   | 37   | *MethTr*/M20L     |
 | 26,433:A&rarr;C   | 35   | *E*/K63N          |
-
 
 
 Any newly identified AV set should be compared against a list of sites with known biological significance. In our analysis we selected two such site lists : (1) the signature or defining mutation sites found in the variants of concern, B.1.1.7, B.1.351 and P.1 (referred to hereafter as VOC sites); and (2) genomic sites detectably evolving under positive or negative selection in the global SARS-CoV-2 dataset (referred to hereafter as selected sites). 
@@ -445,7 +447,6 @@ The `lofreq` performed the best followed by `mutect2` and `FreeBayes` (contrast 
 | `freebayes` | `-min-alternate-fraction 0.001 --pooled-continuous --ploidy 1` | maf-001_pc |
 | `lofreq` | `--no-default-filter` | nf |
 | `lofreq` | default | def |
-
 
 
 ### Supplemental Table 1.
