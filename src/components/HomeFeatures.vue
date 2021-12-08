@@ -175,8 +175,8 @@ export default {
 
 <style scoped>
 .h-feature {
-    width:100%;
-    display:flex;
+    width: 100%;
+    display: flex;
     margin-bottom: 3rem;
 }
 .h-feature-content {
@@ -188,7 +188,7 @@ export default {
 }
 .h-feature-focus img {
     max-width: 100%;
-    margin:auto;
+    margin: auto;
     display: block;
 }
 </style>
