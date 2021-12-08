@@ -161,15 +161,15 @@ The emergence of VOC starting with the B.1.1.7 lineage in the UK, raised intrigu
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/embeds/voc_Boston.html" width="600" height="320"></embed>
+<embed type="text/html" src="/media/covid19/embeds/voc_Boston.html" width="600" height="320"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/embeds/voc_COG-Pre.html" width="600" height="320"></embed>
+<embed type="text/html" src="/media/covid19/embeds/voc_COG-Pre.html" width="600" height="320"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/embeds/voc_COG-Post.html" width="600" height="320"></embed>
+<embed type="text/html" src="/media/covid19/embeds/voc_COG-Post.html" width="600" height="320"></embed>
 
 
 The [selected sites list](https://observablehq.com/@spond/revised-sars-cov-2-analytics-page) is continuously updated by the DataMonkey team using GISAID data as it accumulates (http://covid19.datamonkey.org). This list included all SARS-CoV-2 codon sites identified with [FEL](https://doi.org/10.1093/molbev/msi105) and [MEME](http://dx.doi.org/10.1371/journal.pgen.1002764) methods to be evolving under positive or negative selection with a *p*≤0.0001 significance cutoff on Feb 01, 2021. Because selection analyses identify codons (not individual genome positions) responsible for potential selective amino acid changes, we considered all non-synonymous nucleotide substitutions with AFs<80% that fell within the boundaries of codons with the signature of selection. There were two, three, and ten AVs overlapping with codons under selection in the Boston, COG-Pre, and COG-Pos" datasets, respectively ([Table 5](#table-5)). The two sites in the Boston dataset are below the consensus (<50%) frequency. The identification of low frequency AVs at codon sites displaying evidence of positive selection could provide an early indication of AVs that are adaptive mutations and therefore warrant closer monitoring as the pandemic unfolds. 
@@ -474,15 +474,15 @@ Observed (red) versus predicted (orange) counts of samples sharing *N*=0, 1, 2, 
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/embeds/thresholding_Boston.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid19/embeds/thresholding_Boston.html" width="600" height="300"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/embeds/thresholding_COG-Pre.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid19/embeds/thresholding_COG-Pre.html" width="600" height="300"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/embeds/thresholding_COG-Post.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid19/embeds/thresholding_COG-Post.html" width="600" height="300"></embed>
 
 -----
 
@@ -492,15 +492,15 @@ Distributions of allele frequencies in the three datasets
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/embeds/af_histogram_Boston.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid19/embeds/af_histogram_Boston.html" width="600" height="300"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/embeds/af_histogram_COG-Pre.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid19/embeds/af_histogram_COG-Pre.html" width="600" height="300"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/embeds/af_histogram_COG-Post.html" width="600" height="300"></embed>
+<embed type="text/html" src="/media/covid19/embeds/af_histogram_COG-Post.html" width="600" height="300"></embed>
 
 -----
 
@@ -510,15 +510,15 @@ Types and counts of nucleotide changes
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/embeds/substitutions_types_Boston.html" width="600" height="400"></embed>
+<embed type="text/html" src="/media/covid19/embeds/substitutions_types_Boston.html" width="600" height="400"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/embeds/substitutions_types_COG-Pre.html" width="600" height="400"></embed>
+<embed type="text/html" src="/media/covid19/embeds/substitutions_types_COG-Pre.html" width="600" height="400"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/embeds/substitutions_types_COG-Post.html" width="600" height="400"></embed>
+<embed type="text/html" src="/media/covid19/embeds/substitutions_types_COG-Post.html" width="600" height="400"></embed>
 
 -----
 
@@ -528,15 +528,15 @@ Relationship between population frequency and alternative allele frequency in th
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/embeds/cov_vs_pf_Boston.html" width="500" height="900"></embed>
+<embed type="text/html" src="/media/covid19/embeds/cov_vs_pf_Boston.html" width="500" height="900"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/embeds/cov_vs_pf_COG-Pre.html" width="500" height="900"></embed>
+<embed type="text/html" src="/media/covid19/embeds/cov_vs_pf_COG-Pre.html" width="500" height="900"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/embeds/cov_vs_pf_COG-Post.html" width="500" height="900"></embed>
+<embed type="text/html" src="/media/covid19/embeds/cov_vs_pf_COG-Post.html" width="500" height="900"></embed>
 
 -----
 
@@ -546,15 +546,15 @@ Distribution of allelic variants across the genome. Height of each bar is propor
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/embeds/genomic_dist_Boston.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid19/embeds/genomic_dist_Boston.html" width="800" height="400"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/embeds/genomic_dist_COG-Pre.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid19/embeds/genomic_dist_COG-Pre.html" width="800" height="400"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/embeds/genomic_dist_COG-Post.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid19/embeds/genomic_dist_COG-Post.html" width="800" height="400"></embed>
 
 -----
 
@@ -562,13 +562,13 @@ Distribution of allelic variants across the genome. Height of each bar is propor
 
 **Boston**
 
-<embed type="text/html" src="/media/covid/embeds/gene_dist_Boston.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid19/embeds/gene_dist_Boston.html" width="800" height="400"></embed>
 
 **COG-Pre**
 
-<embed type="text/html" src="/media/covid/embeds/gene_dist_COG-Pre.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid19/embeds/gene_dist_COG-Pre.html" width="800" height="400"></embed>
 
 **COG-Post**
 
-<embed type="text/html" src="/media/covid/embeds/gene_dist_COG-Post.html" width="800" height="400"></embed>
+<embed type="text/html" src="/media/covid19/embeds/gene_dist_COG-Post.html" width="800" height="400"></embed>
 

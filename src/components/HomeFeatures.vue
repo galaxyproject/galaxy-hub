@@ -6,7 +6,7 @@
             <div class="h-feature">
                 <div class="h-feature-content">
                     <h3>
-                        <g-link to="/covid/genomics/global-platform/">
+                        <g-link to="/covid19/genomics/global-platform/">
                             Freely accessible ready to use global infrastructure for SARS-CoV-2 monitoring
                             <sup><font color="red">new</font></sup>
                         </g-link>
@@ -23,8 +23,8 @@
                     </p>
                 </div>
                 <div class="h-feature-focus">
-                    <g-link to="/covid/genomics/global-platform/">
-                        <g-image src="/images/covid/gn.png" />
+                    <g-link to="/covid19/genomics/global-platform/">
+                        <g-image src="/images/covid19/gn.png" />
                     </g-link>
                 </div>
             </div>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="h-feature-focus">
                     <a href="https://covid19.galaxyproject.org/dashboard/">
-                        <g-image src="/images/covid/evo.png" />
+                        <g-image src="/images/covid19/evo.png" />
                     </a>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                         </p>
                     </div>
                     <div class="h-feature-focus">
-                        <g-image src="/images/covid/logos/artic.png" />
+                        <g-image src="/images/covid19/logos/artic.png" />
                     </div>
                 </div>
             </g-link>
@@ -82,7 +82,7 @@
                 </div>
                 <div class="h-feature-focus">
                     <g-link to="https://covid19.galaxyproject.org/direct-rnaseq/">
-                        <g-image src="/images/covid/drs.png" />
+                        <g-image src="/images/covid19/drs.png" />
                     </g-link>
                 </div>
             </div>
@@ -90,7 +90,7 @@
             <div class="h-feature">
                 <div class="h-feature-content">
                     <h3>
-                        <g-link to="/covid/genomics/no-more-business-as-usual/">
+                        <g-link to="/covid19/genomics/no-more-business-as-usual/">
                             No more business as usual - Agile and effective responses to emerging pathogen threats
                             require open data and open analytics
                         </g-link>
@@ -104,8 +104,8 @@
                     </p>
                 </div>
                 <div class="h-feature-focus">
-                    <g-link to="/covid/genomics/no-more-business-as-usual/">
-                        <g-image src="/images/covid/plos_p.png" />
+                    <g-link to="/covid19/genomics/no-more-business-as-usual/">
+                        <g-image src="/images/covid19/plos_p.png" />
                     </g-link>
                 </div>
             </div>
@@ -128,7 +128,7 @@
                         </p>
                     </div>
                     <div class="h-feature-focus">
-                        <g-image src="/images/covid/proteininteraction.png" />
+                        <g-image src="/images/covid19/proteininteraction.png" />
                     </div>
                 </div>
             </a>
@@ -143,7 +143,7 @@
                         </p>
                     </div>
                     <div class="h-feature-focus">
-                        <g-image src="/images/covid/cheminfo.png" />
+                        <g-image src="/images/covid19/cheminfo.png" />
                     </div>
                 </div>
             </g-link>
@@ -159,7 +159,7 @@
                         </p>
                     </div>
                     <div class="h-feature-focus">
-                        <g-image src="/images/covid/mspec.png" />
+                        <g-image src="/images/covid19/mspec.png" />
                     </div>
                 </div>
             </g-link>
