@@ -63,27 +63,27 @@ In addition we will be looking at newly released data here &#8594; [Updates: Ana
 [TACC](https://www.tacc.utexas.edu/)), Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and 
 [Indiana University](https://jetstream-cloud.org/) in the U.S., [de.NBI](https://www.denbi.de/) and [VSC](https://www.vscentrum.be) 
 cloud resources on the European side, and [ARDC](https://ardc.edu.au) cloud resources in Australia.
+
 ## Pre-processing
-<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/1-PreProcessing/').key"/>
+<iframe width="100%" height="796" frameborder="0" src="/covid/genomics/no-more-business-as-usual/1-PreProcessing/" />
 
 ## Assembly
-<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/2-Assembly/').key"/>
+<iframe width="100%" height="796" frameborder="0" src="/covid/genomics/no-more-business-as-usual/2-Assembly/" />
 
 ## MRCA
-<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/3-MRCA/').key"/>
+<iframe width="100%" height="796" frameborder="0" src="/covid/genomics/no-more-business-as-usual/3-MRCA/" />
 
 ## Variation
-<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/4-Variation/').key"/>
+<iframe width="100%" height="796" frameborder="0" src="/covid/genomics/no-more-business-as-usual/4-Variation/" />
 
 ## Annotation
-<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/5-Annotation/').key"/>
+<iframe width="100%" height="796" frameborder="0" src="/covid/genomics/no-more-business-as-usual/5-Annotation/" />
 
 ## RecombinationSelection
-<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/6-RecombinationSelection/').key"/>
+<iframe width="100%" height="796" frameborder="0" src="/covid/genomics/no-more-business-as-usual/6-RecombinationSelection/" />
 
 ## Deploy
-<Content :page-key="$site.pages.find(p => p.path === '/genomics/no-more-business-as-usual/6-RecombinationSelection/').key"/>
-
+<iframe width="100%" height="796" frameborder="0" src="/covid/genomics/no-more-business-as-usual/6-RecombinationSelection/" />
 
 
 <p align="center">

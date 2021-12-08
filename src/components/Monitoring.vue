@@ -6,16 +6,15 @@
         </a>
         <hr />
         <div id="mon-tabs">
-            <!-- These can be `a` or `RouterLink`, just apply the 'action-button' class -->
-            <g-link class="action-button" to="/covid/genomics/global-platform/"> Why? </g-link>
+            <g-link class="action-button" to="/covid/genomics/global-platform/">Why?</g-link>
             <g-link
                 class="action-button"
                 to="/covid/genomics/global-platform/#workflows-for-discovery-of-sequence-variants"
             >
                 Workflows
             </g-link>
-            <g-link class="action-button" to="/covid/genomics/global-platform/#processed-cog-uk-data"> Data </g-link>
-            <g-link class="action-button" to="/covid/genomics/global-platform/#how-do-i-use-it"> How Do I? </g-link>
+            <g-link class="action-button" to="/covid/genomics/global-platform/#processed-cog-uk-data">Data</g-link>
+            <g-link class="action-button" to="/covid/genomics/global-platform/#how-do-i-use-it">How Do I?</g-link>
             <a class="action-button" href="https://training.galaxyproject.org/training-material/search?query=covid19">
                 Training
             </a>
