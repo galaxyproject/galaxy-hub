@@ -11,6 +11,8 @@ autotoc: false
 
 Hello all,
 
+<a href="/people/dave-clements/"><img class="float-right" src="/images/people/dave-clements/dave-clements-150.jpg" /></a>
+
 It is with very mixed feelings that I announce that my last day with the Galaxy Project will be December 17.  On December 20 I start as Open Source Community Manager for [Anaconda](https://anaconda.com/).  In that role, I will still be nearby (hello [Bioconda](https://bioconda.github.io/)!), but I will no longer be involved with Galaxy on a daily basis.
 
 People always want to know “why?” when you change jobs.  I certainly do.  In this case, I simply got restless.  I do that.  Prior to my 11 years at Galaxy, my longest job was 5 1/2 years at [ZFIN](https://zfin.org/). Before that my longest job, anywhere, was 4 years.  I get restless, and I was actually getting restless before [James](https://jxtxfoundation.org/) died. I still wasn't that restless 18 months later when I saw the Anaconda position. But a friend of mine works there, and he loves it, and … and now I am hoping I will love it there too.  I turn 60 next month, and I feel like I have one job change left in my career.  I think this is it.
@@ -20,6 +22,8 @@ Before I turn in my keys, I would like to express some thoughts on the remarkabl
 ## Community, community, community
 
 We have grown tremendously in size, reach, and culture in the 11 years that I have been a part of Galaxy.  A big reason for this is that community and outreach efforts have been a priority for Galaxy since we first launched in 2005. James summarized this view nicely in July 2019:
+
+<a href="https://jxtxfoundation.org/"><img class="float-right" style="width: 150px" src="/images/people/james.jpg" /></a>
 
 <blockquote class="blockquote">
 <p class="lead">The most important thing about Galaxy is this community.</p>
