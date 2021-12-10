@@ -4,6 +4,12 @@ title: Dave Clements
 
 <img class="float-right" src="/images/people/dave-clements/dave-clements-150.jpg" />
 
+<blockquote class="blockquote">
+<p class="lead">My last day with Galaxy will be December 17, 2021. After that I am starting a position at <a href="https://anaconda.com/">Anaconda</a>.  See <a href="/blog/2021-12-clements/">my departing blog post</a> for more.</p>
+</p>
+</blockquote>
+
+
 I am a Community Manager for the [Galaxy Project](/) at [Johns Hopkins University](http://www.jhu.edu) (and formerly at [Emory University](http://emory.edu)). I organize meetings and courses, prepare training materials, and improve Galaxy's documentation, community website, and web presence.  As a community manager I am part of a team that makes sure that the Galaxy Project and the Galaxy Community are the same thing.  *Galaxy is its community.*
 
 Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD_Help_Desk) from 2007-2010, where I did similar work.  I am still involved in the GMOD community as a representative of Galaxy. I have a guest faculty appointment at the [University of Oregon](http://uoregon.edu/), and over the years I have telecommuted from the [Phillips](http://www.uoregon.edu/~pphil/index.html) and [Cresko](http://creskolab.uoregon.edu/) Labs in the [Institute of Ecology and Evolution](http://ie2.uoregon.edu/) (IE<sup>2</sup>) and the [Toomey Lab](https://blogs.uoregon.edu/dougtoomey/) in the [Department of Earth Sciences](https://earthsciences.uoregon.edu/). 

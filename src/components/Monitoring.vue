@@ -1,42 +1,46 @@
 <template>
     <div id="monitor-container">
         <h2 id="monitoring">SARS-CoV-2 Monitoring</h2>
-        <a href="https://covid19.galaxyproject.org/dashboard"
-            ><img :src="'/genomics/global_platform/figs/dashboard.png'"
-        /></a>
+        <a href="https://covid19.galaxyproject.org/dashboard/">
+            <g-image src="/images/covid19/dashboard.png" />
+        </a>
         <hr />
         <div id="mon-tabs">
-            <!-- These can be `a` or `RouterLink`, just apply the 'action-button' class -->
-            <RouterLink class="action-button" :to="'/genomics/global_platform/'">Why?</RouterLink>
-            <RouterLink
+            <g-link class="action-button" to="/covid19/genomics/global-platform/">Why?</g-link>
+            <g-link
                 class="action-button"
-                :to="'/genomics/global_platform/#workflows-for-discovery-of-sequence-variants'"
-                >Workflows</RouterLink
+                to="/covid19/genomics/global-platform/#workflows-for-discovery-of-sequence-variants"
             >
-            <RouterLink class="action-button" :to="'/genomics/global_platform/#processed-cog-uk-data'">Data</RouterLink>
-            <RouterLink class="action-button" :to="'/genomics/global_platform/#how-do-i-use-it'">How Do I?</RouterLink>
-            <a class="action-button" href="https://training.galaxyproject.org/training-material/search?query=covid19"
-                >Training</a
-            >
+                Workflows
+            </g-link>
+            <g-link class="action-button" to="/covid19/genomics/global-platform/#processed-cog-uk-data">Data</g-link>
+            <g-link class="action-button" to="/covid19/genomics/global-platform/#how-do-i-use-it">How Do I?</g-link>
+            <a class="action-button" href="https://training.galaxyproject.org/training-material/search?query=covid19">
+                Training
+            </a>
         </div>
     </div>
 </template>
+
 <script>
 export default {
     name: "Monitoring",
 };
 </script>
+
 <style lang="stylus">
-#monitor-container{
+@require '../assets/palette.styl';
+
+#monitor-container {
     //text-align: center;
 }
-#monitoring{
+#monitoring {
     margin: 2rem 0;
     // border: none; // If we want the faint underline gone for this header only
 }
 #mon-tabs {
     display:flex;
-    .action-button {
+    a.action-button {
         flex: 1 1 0px
         text-align: center;
         margin: 0 1rem;
