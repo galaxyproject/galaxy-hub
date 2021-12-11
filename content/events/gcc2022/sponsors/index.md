@@ -1,9 +1,8 @@
 ---
 title: "GCC2022 Sponsors"
+autotoc: false
+components: true
 ---
-
-import links from "../links.json"
-<link-box :links="links" />
 
 Sponsors are a key part of GCC2022.  They are potential partners in your success, and sponsors make this conference affordable and accessible. 
 
@@ -13,173 +12,134 @@ Is your organization interested in playing a prominent role in the first in-pers
 
 <div class="float-right">
 
-[![Download the one page summary.](/events/gcc2019/sponsors/summary-thumb.png)](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_summary.pdf)
-[![Download the full prospectus](/events/gcc2019/sponsors/prospectus-thumb.png)](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_prospectus.pdf)
+[![Download the GCC2022 Sponsorship Prospectus](/images/events/gcc2022/sponsors/prospectus-thumb.png)](https://depot.galaxyproject.org/hub/attachments/events/gcc2022/gcc2022-sponsorship-prospectus.pdf)
 
 </div>
 
 Please see the information below and contact the [conference organizers](/events/gcc2022/organizers/) with any questions.
 
-- [One page summary](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_summary.pdf)
-- [Sponsorship prospectus](https://depot.galaxyproject.org/hub/attachments/events/gcc2019/sponsors/gcc2019_sponsorship_prospectus.pdf)
+- [Download the GCC2022 Sponsorship prospectus](https://depot.galaxyproject.org/hub/attachments/events/gcc2022/gcc2022-sponsorship-prospectus.pdf)
 
-# Meeting and Training Sponsorships
+# Meeting Sponsorships
 
 Sponsorship are offered at many levels, with an option for every budget:
 
 | | Platinum | Gold | Silver | Bronze |
 | ----: | :----: | :----: | :----: | :----: |
-| **Cost** | €8000 <span class="small">(+VAT)</span> | €4000 <span class="small">(+VAT)</span> | €2000 <span class="small">(+VAT)</span> | €1000 <span class="small">(+VAT)</span> |
-| **Non-profit cost** | €6000  <span class="small">(+VAT)</span> | €3000 <span class="small">(+VAT)</span> | €1500 <span class="small">(+VAT)</span> | €750 <span class="small">(+VAT)</span> |
-| **Sponsored event** | Dinner or opening reception | A lunch, or all breaks for a day | No | No |
-| **Limited** | Yes | Yes | No | No |
+| **Cost** | $5000 | $3000 | $2000 | $1000  |
+| **Non-profit cost** | $3750 | $2250 | $1500 | $1000 |
+| **Sponsored event** | Dinner or opening reception | A lunch | No | No |
+| **Sponsor talk** | 25 minutes | 15 minutes | No | No |
 | **Exhibit space** | Yes | Yes | Yes | No |
-| **Registrations** | 4 | 3 | 2 | 0 |
-| **Ad in printed** | Full page | Half page | Quarter page | Eighth page |
+| **Registrations** | 4 | 3 | 2 | 1 |
+| **Ad in printed** | 2 full pages | Full page | Half page | Quarter page |
 | **Logo/Link on web** | Yes | Yes | Yes | Yes |
 
 ## Platinum Sponsorships
 
-Cost: €8000 (€6000 for non-profit) <span class="small">(+VAT)</span>
+Cost: $5000 ($3750 for non-profit)
 
-- Be the exclusive sponsor of the conference dinner or the conference opening reception
-- An exhibit space
-- Organization logo listed as a platinum sponsor on meeting home and sponsor pages, with link to URL of your choice
-- Organization logo listed as a platinum sponsor on printed material distributed to meeting participants.
-- A full page color ad in printed material
-- 4 complete registrations
-- Be one of just 2 Platinum Sponsors 
-
-*There is one Platinum sponsorship remaining.*
+* Be the exclusive sponsor of the conference dinner or the conference opening reception
+* An exhibit space
+* Organization logo listed as a platinum sponsor on meeting home and sponsor pages, with link to URL
+* Organization logo listed as a platinum sponsor on printed material distributed to meeting participants
+* 2 full page color ads in printed program
+* 4 registrations for all conference events and meals 
+* **Be one of just 2 Platinum Sponsors**
 
 ## Gold Sponsorships
 
-Cost: €4000 (€3000 for non-profit) <span class="small">(+VAT)</span>
+Cost: $3000 ($2250 for non-profit) 
 
-- Be the exclusive sponsor of a lunch during the meeting or the second day of training; or sponsor all breaks during a meeting day, or during the second day of training
-- An exhibit space
-- Organization logo listed as a gold sponsor on meeting home and sponsor pages, with link to URL of your choice
-- Organization logo listed as a gold sponsor on printed material distributed to meeting participants.
-- Half page full color ad in printed materials
-- 3 complete attendee registrations
+* Be the exclusive sponsor of a lunch during the meeting, or sponsor all breaks during a meeting day
+* An exhibit space
+* Organization logo listed as a gold sponsor on meeting home and sponsor pages, with link to URL
+* Organization logo listed as a gold sponsor on printed material distributed to meeting participants
+* 1 full page full color ad in printed program
+* 3 registrations for all conference events and meals
 
 ## Silver Sponsorships
 
-<div class="center">
-[<img style="max-height: 8em; padding: 1em  1em 1em 0em;" src="/images/logos/limagrain-logo-text.png" alt="Limagrain: From earth to life" />](https://www.limagrain.com/en/)
-[<img style="max-height: 10em; padding-right: 1em;" src="/images/logos/kws-logo-slogan.png" alt="KWS: Seeding the future – since 1856" />](https://www.kws.com/)
-[<img style="max-height: 10.5em; padding-right: 1em;" src="/images/logos/elixir-logo-big.png" alt="ELIXIR: uniting Europe’s leading life science organisations" />](https://elixir-europe.org/)
-</div>
+Cost: $2000 ($1500 for non-profit) 
 
-<br/><br />
-
-Cost €2000 (€1500 for non-profit) <span class="small">(+VAT)</span>
-
-- An exhibit space
-- Organization logo listed as a silver sponsor on meeting home and sponsor pages, with link to URL of your choice
-- Organization logo listed as a silver sponsor on printed material distributed to meeting participants.
-- Quarter page full-color ad in printed materials
-- Two full registrations
+* An exhibit space
+* Organization logo listed as a silver sponsor on meeting home and sponsor pages, with link to URL
+* Organization logo listed as a silver sponsor on printed material distributed to meeting participants
+* Half page full-color ad in printed program
+* 2 registrations for all conference events and meals
 
 ## Bronze Sponsorships
 
-<div class="center">
-[<img style="max-height: 6.75em; padding: 1em;" src="/images/logos/GigaScienceLogo250.png" alt="GigaScience, an open access, open data, open peer-review journal focusing on ‘big data’ research from the life and biomedical sciences" />](https://academic.oup.com/gigascience)
-</div>
+Cost: $1000 ($750 for non-profit)
 
-<br/>
-
-Cost €1000 (€750 for non-profit) <span class="small">(+VAT)</span>
-
-- Organization logo listed as a bronze sponsor on meeting home and sponsor pages, with link to URL of your choice
-- Organization logo listed as a bronze sponsor on printed material distributed to meeting participants.
-- Eighth page full color ad in printed materials
+* Organization logo listed as a bronze sponsor on meeting home and sponsor pages, with link to URL
+* Organization logo listed as a bronze sponsor on printed material distributed to meeting participants
+* Quarter page full color ad in printed materials
+* 1 registration for all conference events and meals
 
 ## Other Sponsorships
 
-<table>
-  <tr style="text-align: center">
-    <td style="vertical-align: middle;">
-      [<img style="max-width: 260px" src="/images/logos/elife-logo-wide.jpg" alt="an open-access journal for promising research in the life and biomedical sciences" />](https://elifesciences.org/labs)
-    </td>
-    <td style="width: 5%"> </td>
-    <td style="vertical-align: middle;">
-      [<img style="padding-bottom: 1em" src="/images/logos/f1000-logo-wide.png" alt="F1000Research: Open for Science" width="230" />](https://f1000research.com/)
-    </td>
-    <td style="width: 8%"> </td>
-  </tr>
-  <tr>
-    <td>**[Childcare](/events/gcc2019/childcare/)** Sponsor</td>
-    <td></td>
-    <td>**[Childcare](/events/gcc2019/childcare/)** Sponsor</td>
-  </tr>
-</table>
-
-<br />
-
-Other *a la carte* sponsorship opportunities are also available. Many additional opportunities exist, including the option to sponsor childcare, the first day of training, notepads and pens, lanyards, or the printed program. Please contact the organizers at gcc2019-org@lists.galaxyproject.org to inquire about sponsoring other aspects of this event. 
-
+Other à la carte sponsorship opportunities are also available. Many additional opportunities exist, including the option to sponsor childcare, the first day of training, notepads and pens, lanyards, or the printed program. Please contact the organizers at gcc2022-org@lists.galaxyproject.org to inquire about sponsoring other aspects of this event.
 
 # CollaborationFest Sponsorships
 
-[CollaborationFest](/events/gcc2019/cofest/) will follow the conference. Community members collaborate to extend the Galaxy platform and ecosystem. We are also seeking sponsorships for this event. Please contact the [GCC organizers](/events/gcc2019/organizers/) if you are interested in sponsoring CollarorationFest. Participation in these events is free.  Sponsorships are much welcomed as they provide sustenance for the participants.
+Three days of [collaborative work](/events/gcc2022/cofest/), also known as a hackathon, will follow the conference. Community members collaborate to extend the Galaxy platform and ecosystem. We are seeking sponsorships for this event. Please contact the [GCC2022 Organizing Committee](/events/gcc2019/organizers/) if your organization is interested in sponsoring the CollaborationFest. Registration for CoFest will either be free or under $10 / day.
+
 
 | | Peta | Tera | Giga |
 | ----: | :----: | :----: | :----: |
-| **Cost** | €3000 <span class="small">(+VAT)</span> | €1500 <span class="small">(+VAT)</span>| €500 <span class="small">(+VAT)</span> |
-| **Sponsored event** | Event Dinner | A lunch | No |
-| **Limited** | Yes | Yes | No |
-| **Guaranteed collaborative event registration slots** | 2+ | 1+ | 1 |
-| Ad in printed | Quarter page | Eighth page | Eighth page |
+| **Cost** | $3000 | $1500 | $500 |
+| **Sponsored event** | CoFest Dinner | A lunch | No |
+| **CoFest registration slots** | 4+ | 2+ | 1 |
+| Ad in printed | Full page | Half page | Quarter page |
 | Logo/Link on web | Yes | Yes | Yes |
 
 ## Peta Sponsorship
 
-Cost: €3000 <span class="small">(+VAT)</span>
+Cost: $3000
 
-- Sponsorship of the dinner
-- Organization logo listed as a Peta level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
-- Organization logo listed as a collaborative events Peta sponsor on printed material distributed to meeting participants.
-- A quarter page color ad in printed material
-- Two guaranteed participant slots for sponsor organization representatives (additional slots are possible, dependent on space)
-- Thanks and acknowledgements from organisers before and during the collaborative events and dinner
-- Be the only Peta Sponsor
+* Sponsorship of the CollaborationFest dinner
+* Organization logo listed as a Peta level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
+* Organization logo listed as a collaborative events Peta sponsor on printed material distributed to meeting participants
+* A full page color ad in printed material
+* Four guaranteed participant slots for sponsor organization representatives (additional slots are possible, dependent on space)
+* Thanks and acknowledgements from organisers before and during the collaborative events and dinner
+* **Be the only Peta Sponsor**
 
 ## Tera Sponsorships
 
-Cost: €1500 <span class="small">(+VAT)</span>
+Cost: $1500
 
-- Organization logo listed as a Tera level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
-- Organization logo listed as a collaborative events Tera sponsor on printed material distributed to meeting participants.
-- An eighth page color ad in printed material
-- A guaranteed participant slot for a sponsor organization representative (additional slots are possible, dependent on space)
-- Sponsorship of one of the collaborative event lunches
-- Thanks and acknowledgements from organisers before and during the collaborative events and the lunch
-- Be one of only two Tera Sponsors
+* Organization logo listed as a Tera level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
+* Organization logo listed as a collaborative events Tera sponsor on printed material distributed to meeting participants
+* A half page color ad in printed material
+* Two guaranteed participant slots for sponsor organization representatives (additional slots are possible, dependent on space)
+* Sponsorship of one of the collaborative event lunches
+* Thanks and acknowledgements from organisers before and during the collaborative events and the lunch
 
 ## Giga Sponsorships
 
-<div class="center">
-[<img style="max-height: 9.5em; padding-right: 1em;" src="/images/logos/elixir-logo-big.png" alt="ELIXIR: uniting Europe’s leading life science organisations" />](https://elixir-europe.org/)
-</div>
+Cost: $500
 
-
-Cost: €500 <span class="small">(+VAT)</span>
-
-- Organization logo listed as a Giga level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
-- Organization logo listed as a Giga sponsor on printed material distributed to meeting participants.
-- An eighth page color ad in printed material
-- A guaranteed participant slot for sponsor organisation representative 
-- Thanks and acknowledgements from organisers before and during the collaborative events
-
+* Organization logo listed as a Giga level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
+* Organization logo listed as a Giga sponsor on printed material distributed to meeting participants
+* A quarter page color ad in printed material
+* A guaranteed participant slot for sponsor organisation representative 
+* Thanks and acknowledgements from organisers before and during the collaborative events
 
 ## Hosts
 
 <div class="center">
-[<img src="/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy Freiburg Project" height="120" />](http://www.bioinf.uni-freiburg.de/Galaxy/) &nbsp;&nbsp; [<img src="/images/logos/UniFreiburg.png" alt="University of Freiburg" height="120" />](http://www.uni-freiburg.de/) &nbsp;&nbsp;&nbsp;&nbsp; [<img src="/images/logos/deNBILogo.png" alt="de.NBI :the German Network for Bioinformatics Infrastructure" height="60" />](https://www.denbi.de/)
+  <a href="https://www.msi.umn.edu/">
+    <img src="/images/events/gcc2022/msi-logo-text.png"
+      alt="Minnesota Supercomputing Institute" height="120" />
+  </a> &nbsp;&nbsp; 
+  <a href="http://galaxyp.org/">
+    <img src="/images/events/gcc2022/galaxyp-logo-text.png" 
+      alt="Galaxy for Proteomics Project" height="120" />
+  </a>
 </div>
 
 <br />
 
-GCC2019 is hosted by the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/).
-
+GCC2022 is hosted by the **[Minnesota Supercomputing Institute (MSI)](https://www.msi.umn.edu/)** and the **[GalaxyP Project](http://galaxyp.org/)** at the University of Minnesota Twin Cities.
