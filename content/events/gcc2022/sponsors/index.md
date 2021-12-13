@@ -4,6 +4,9 @@ autotoc: false
 components: true
 ---
 
+import links from "../links.json"
+<link-box :links="links" />
+
 Sponsors are a key part of GCC2022.  They are potential partners in your success, and sponsors make this conference affordable and accessible. 
 
 Is your organization interested in playing a prominent role in the first in-person gathering of the Galaxy community since 2019? Becoming a GCC2022 sponsor is an excellent way to raise your organization's visibility in active and engaged Galaxy community.  See below for sponsorship packages and then contact the [organizers](/events/gcc2022/organizers/).
