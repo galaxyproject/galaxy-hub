@@ -22,9 +22,9 @@ We will use RNA-seq data from a study published by *Wu et al.* in 2014 [DOI:10.1
 
 ## Key fact about this study:
 
- * TAL1 is a transcription factor essential for hematopoesis. It is critically needed for establishing hematopoetic stem cells during embryonic development and to differentiate between [erythroid](https://en.wikipedia.org/wiki/Red_blood_cell) and [myeloid](https://en.wikipedia.org/wiki/Myeloid) cell lineages, including those leading to megakaryocytes, mast cells, and eosinophils.
- * Some of the TAL1 molecules are components of multiprotein complexes that also include other transcriptional factors such as GATA-1.
- * By contrasting RNA from GATA-null G1E cells with that of megakaryocytes we can identify transcripts regulated by GATA-1 dependent TAL1.
+* TAL1 is a transcription factor essential for hematopoesis. It is critically needed for establishing hematopoetic stem cells during embryonic development and to differentiate between [erythroid](https://en.wikipedia.org/wiki/Red_blood_cell) and [myeloid](https://en.wikipedia.org/wiki/Myeloid) cell lineages, including those leading to megakaryocytes, mast cells, and eosinophils.
+* Some of the TAL1 molecules are components of multiprotein complexes that also include other transcriptional factors such as GATA-1.
+* By contrasting RNA from GATA-null G1E cells with that of megakaryocytes we can identify transcripts regulated by GATA-1 dependent TAL1.
 
 |      |
 |------|
@@ -36,12 +36,12 @@ We will use RNA-seq data from a study published by *Wu et al.* in 2014 [DOI:10.1
 The goal of this exercise is to:
 
  1. Identify what transcripts are present in the G1E and megakaryocyte cellular states
- 2. Which transcripts are differentially expressed between the two states. 
+ 2. Which transcripts are differentially expressed between the two states.
 
- We will use a *de novo* transcript reconstruction strategy (not to be confused with the *de novo* RNAseq when reference genome is not known) to infer transcript structures from the mapped reads in the absence of the actual annotated transcript structures. This will allow us to identify novel transcripts and novel isoforms of known transcripts, as well as identify differentially expressed transcripts. 
+ We will use a *de novo* transcript reconstruction strategy (not to be confused with the *de novo* RNAseq when reference genome is not known) to infer transcript structures from the mapped reads in the absence of the actual annotated transcript structures. This will allow us to identify novel transcripts and novel isoforms of known transcripts, as well as identify differentially expressed transcripts.
 
 ## Tutorial Agenda
- 
+
 In this tutorial, we will address:
 
  1. Data upload
@@ -56,18 +56,18 @@ In this tutorial, we will address:
 
 Due to the large size of this dataset, we have down-sampled it to only include reads mapping to chromosome 19 and certain loci with relevance to hematopoeisis. This data is available from two sources:
 
- * [Zenodo](https://zenodo.org/record/254485) (use these data on **any** Galaxy instance)
- * [Galaxy data library](https://usegalaxy.org/library/list#folders/F3481856ea042c39d) (use these data on **main** Galaxy server at http://usegalaxy.org).
+* [Zenodo](https://zenodo.org/record/254485) (use these data on **any** Galaxy instance)
+* [Galaxy data library](https://usegalaxy.org/library/list#folders/F3481856ea042c39d) (use these data on **main** Galaxy server at http://usegalaxy.org).
 
 ## Data organization and naming
 
 
 The data is structured in the following way:
 
- - There are two samples: G1E cells and megakaryocytes (`G1E` and `Mk`)
- - There are two *biological* replicates per sample: `R1` and `R2`
- - Each replicate has forward and reverse reads (`f` and `r`)
- - Thus, there are eight (8) fastq files
+* There are two samples: G1E cells and megakaryocytes (`G1E` and `Mk`)
+* There are two *biological* replicates per sample: `R1` and `R2`
+* Each replicate has forward and reverse reads (`f` and `r`)
+* Thus, there are eight (8) fastq files
 
 
 |      |
@@ -100,7 +100,7 @@ Data upload from Galaxy Library (**recommended** if using usegalaxy.org)
 
 </div>
     </div>
-  </div>	
+  </div>
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingTwo">
       <h4 class="panel-title">
@@ -144,7 +144,7 @@ To lean more about the data we will be using let's look at just one set of reads
 
 For quality control, we use similar tools as described in [NGS-QC tutorial](/tutorials/ngs/): [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) and [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic).
 
-Let's start by processing the smaller set of reads from G1E set: `G1E_R1_f_ds_SRR549355` and its reverse set of mates `G1E_R1_r_ds_SRR549355` using **NGS: QC and manipulation -> FastQC**: 
+Let's start by processing the smaller set of reads from G1E set: `G1E_R1_f_ds_SRR549355` and its reverse set of mates `G1E_R1_r_ds_SRR549355` using **NGS: QC and manipulation -> FastQC**:
 
 |      |
 |------|
@@ -160,15 +160,15 @@ This will generate the following quality value distributions:
 
 
 <div class="panel panel-info">
-	<div class="panel-heading">
-  		<a data-toggle="collapse" href="#qc" aria-expanded="false" aria-controls="collapseExample">
-     		<i class="fa fa-question-circle" aria-hidden="true"></i> What can you tell about these data?
-    	</a>
-  	</div>
-  	<div class="panel-body collapse" id="qc">
+ <div class="panel-heading">
+    <a data-toggle="collapse" href="#qc" aria-expanded="false" aria-controls="collapseExample">
+       <i class="fa fa-question-circle" aria-hidden="true"></i> What can you tell about these data?
+     </a>
+   </div>
+   <div class="panel-body collapse" id="qc">
         - The read length is 99 bp<br>
         - The quality of base calls declines throughout a sequencing run.
-  	</div>
+   </div>
 </div>
 
 ## Dynamically trim low quality bases from reads' 3' ends
@@ -183,12 +183,12 @@ The quality score distributions we seen above for one sample are characteristic 
 
 Trimmomatic will produce four outputs as a result:
 
- - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 paired)`
- - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 paired)`
- - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 unpaired)`
- - `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 uppaired)`
+* `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 paired)`
+* `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 paired)`
+* `Trimmomatic on G1E_R1_f_ds_SRR549355 (R1 unpaired)`
+* `Trimmomatic on G1E_R1_f_ds_SRR549355 (R2 uppaired)`
 
-The `unpaired` datasets we will no longer need in our analysis. 
+The `unpaired` datasets we will no longer need in our analysis.
 
 Now that we've ran `trimmomatic` let's see if it had any effect on our data. We can do this by rerunning `FastQC` on `G1E_R1_f_ds_SRR549355` and `G1E_R1_r_ds_SRR549355` datasets after they have been trimmed. This will generate the following quality value distributions:
 
@@ -198,19 +198,19 @@ Now that we've ran `trimmomatic` let's see if it had any effect on our data. We 
 | `G1E_R1_f_ds_SRR549355`                        | `G1E_R1_r_ds_SRR549355`                        |
 
 <div class="panel panel-info">
-	<div class="panel-heading">
-  		<a data-toggle="collapse" href="#qc_after_trim" aria-expanded="false" aria-controls="collapseExample">
-     		<i class="fa fa-question-circle" aria-hidden="true"></i> What is the effect of trimming on the data?
-    	</a>
-  	</div>
-  	<div class="panel-body collapse" id="qc_after_trim">
+ <div class="panel-heading">
+    <a data-toggle="collapse" href="#qc_after_trim" aria-expanded="false" aria-controls="collapseExample">
+       <i class="fa fa-question-circle" aria-hidden="true"></i> What is the effect of trimming on the data?
+     </a>
+   </div>
+   <div class="panel-body collapse" id="qc_after_trim">
         The average quality of base calls does not drop off as sharply at the 3' ends of reads.
-  	</div>
+   </div>
 </div>
 
 ## Is this a stranded RNAseq experiment?
 
-RNAseq data is often [stranded](/tutorials/rb-rnaseq/#strand-specific-rnaseq) as it significantly increases its utility. But how do you know you have a stranded data? Moreover, if data is indeed stranded is it derived from first or second cDNA strand? To answer this question we can map the data and analyze mapping properties. Let's do that on the same set of forward and reverse `G1E_R1` datasets. 
+RNAseq data is often [stranded](/tutorials/rb-rnaseq/#strand-specific-rnaseq) as it significantly increases its utility. But how do you know you have a stranded data? Moreover, if data is indeed stranded is it derived from first or second cDNA strand? To answer this question we can map the data and analyze mapping properties. Let's do that on the same set of forward and reverse `G1E_R1` datasets.
 
 ### Map subset of data
 
@@ -337,20 +337,20 @@ It will be easier down the line if we rename collections to make easier to ident
 
 To make sense of the reads, their positions within mouse genome must be determined. This process is known as aligning or 'mapping' the reads to the reference genome. In the case of a eukaryotic transcriptome, most reads originate from processed mRNAs lacking introns. Therefore, they cannot be simply mapped back to the genome as we normally do for reads derived from DNA sequences. Instead, the reads must be separated into two categories:
 
-- Reads contained within mature exons - these align perfectly to the reference genome
-- Reads that span splice junctions in the mature mRNA - these align with gaps to the reference genome
+* Reads contained within mature exons - these align perfectly to the reference genome
+* Reads that span splice junctions in the mature mRNA - these align with gaps to the reference genome
 
-Spliced mappers have been developed to efficiently map transcript-derived reads against genomes. [`HISAT`](https://ccb.jhu.edu/software/HISAT2/index.shtml) is an accurate and fast tool for mapping spliced reads to a genome. Another popular spliced aligner is [`TopHat`](https://ccb.jhu.edu/software/tophat/index.shtml), but we will be using `HISAT` in this tutorial. For more details on these tools see our introductory [RNAseq tutorial](/tutorials/rb-rnaseq/). 
-    
+Spliced mappers have been developed to efficiently map transcript-derived reads against genomes. [`HISAT`](https://ccb.jhu.edu/software/HISAT2/index.shtml) is an accurate and fast tool for mapping spliced reads to a genome. Another popular spliced aligner is [`TopHat`](https://ccb.jhu.edu/software/tophat/index.shtml), but we will be using `HISAT` in this tutorial. For more details on these tools see our introductory [RNAseq tutorial](/tutorials/rb-rnaseq/).
+
 ## Spliced mapping with HISAT
 
 We will run HISAT with the following settings:
 
- - **Single end or paired reads?**: `Collection of paired reads`
- - **Source for the reference genome to align against**: `Use a built-in genome` > `Mouse (Mus Musculus): mm10`
- - **Spliced alignment parameters**: `Specify spliced alignment parameters`
- - **Specify strand-specific information**: `First Strand (R/RF)`
- - **Transcriptome assembly reporting**: `Report alignments tailored for transcript assemblers including StringTie.`
+* **Single end or paired reads?**: `Collection of paired reads`
+* **Source for the reference genome to align against**: `Use a built-in genome` > `Mouse (Mus Musculus): mm10`
+* **Spliced alignment parameters**: `Specify spliced alignment parameters`
+* **Specify strand-specific information**: `First Strand (R/RF)`
+* **Transcriptome assembly reporting**: `Report alignments tailored for transcript assemblers including StringTie.`
 
 |       |
 |-------|
@@ -363,7 +363,7 @@ Run `HISAT` on the **Mk** collection as well.  Rename collections generated by `
 
 </div>
 
-## Post-processing: cleaning the BAM 
+## Post-processing: cleaning the BAM
 
 After reads have been mapped it would make sense to restrict mapped reads to those than map in correct pairs and do not map to multiple locations. This can be done with **SAMools -> Filter SAM or BAM** tool:
 
@@ -434,7 +434,7 @@ We will rename output of `Stringtie merge` as `Merged transcriptome`.
 
 # Analysis of the differential gene expression
 
-We just generated a transcriptome database (a GFF output of `Stringtie merge`) that represents the transcripts present in the G1E and megakaryocytes samples. This database provides the location of our transcripts with non-redundant identifiers, as well as information regarding the origin of the transcript. 
+We just generated a transcriptome database (a GFF output of `Stringtie merge`) that represents the transcripts present in the G1E and megakaryocytes samples. This database provides the location of our transcripts with non-redundant identifiers, as well as information regarding the origin of the transcript.
 
 We now want to identify which transcripts are differentially expressed between the G1E and megakaryocyte cellular states. To do this we will implement a counting approach using `FeatureCounts` to count reads per transcript. Then we will provide this information to `DESeq2` to generate normalized transcript counts (abundance estimates) and significance testing for differential expression.
 
@@ -465,13 +465,13 @@ Do not forget to run `featureCounts` on `HISAT on Mk filtered` collection as wel
 
 ## Perform differential gene expression testing
 
-Transcript expression is estimated from read counts, and attempts are made to correct for variability in measurements using replicates. This is absolutely essential to obtaining accurate results. We recommend having at least two biological replicates (although you should *really* have three or even more). 
+Transcript expression is estimated from read counts, and attempts are made to correct for variability in measurements using replicates. This is absolutely essential to obtaining accurate results. We recommend having at least two biological replicates (although you should *really* have three or even more).
 
 [`DESeq2`](https://bioconductor.org/packages/release/bioc/html/DESeq2.html) is a proven and widely used tool for differential gene expression analysis. It takes read counts produced by `FeatureCounts` and applies size factor normalization:
 
-- Computation for each gene of the geometric mean of read counts across all samples
-- Division of every gene count by the geometric mean
-- Use of the median of these ratios as sample's size factor for normalization
+* Computation for each gene of the geometric mean of read counts across all samples
+* Division of every gene count by the geometric mean
+* Use of the median of these ratios as sample's size factor for normalization
 
 |       |
 |-------|
@@ -490,15 +490,16 @@ MSTRG.1498.1 252.670   6.152  0.815  7.544 4.556e-14 6.277e-12
 MSTRG.1434.1 372.478   4.855  0.666  7.288 3.125e-13 3.444e-11
 NM_133804    257.129 -10.262  1.509 -6.798 1.060e-11 9.737e-10
 ```
+
 where:
 
-1.	Gene identifiers
-2.	Mean normalized counts, averaged over all samples from both conditions
-3.	log<sub>2</sub> of the fold change (the values correspond to up- or downregulation relative to the condition listed as Factor level 1)
-4.	Standard error estimate for the log2 fold change estimate
-5.	[Wald](https://en.wikipedia.org/wiki/Wald_test) statistic
-6.	*p*-value for the statistical significance of this change
-7.	*p*-value adjusted for multiple testing with the Benjamini-Hochberg procedure which controls false discovery rate ([FDR](https://en.wikipedia.org/wiki/False_discovery_rate))
+1. Gene identifiers
+2. Mean normalized counts, averaged over all samples from both conditions
+3. log<sub>2</sub> of the fold change (the values correspond to up- or downregulation relative to the condition listed as Factor level 1)
+4. Standard error estimate for the log2 fold change estimate
+5. [Wald](https://en.wikipedia.org/wiki/Wald_test) statistic
+6. *p*-value for the statistical significance of this change
+7. *p*-value adjusted for multiple testing with the Benjamini-Hochberg procedure which controls false discovery rate ([FDR](https://en.wikipedia.org/wiki/False_discovery_rate))
 
 ## Making sense of the results
 
@@ -525,15 +526,15 @@ MSTRG.977.1  697.447 -10.030  1.062 -9.444 3.583e-21 1.974e-18  2081.714 706.074
 MSTRG.78.1   645.022  10.656  1.195  8.915 4.873e-19 1.342e-160    0.000   0.000 1311.325 1268.763
 ```
 
-The last four columns are normalized reads counts for two megakarycyte and two G1E replicates, respectively. You can see that for `MSTRG.977.1`  log<sub>2</sub> fold change is `-10.030` and there are practically no G1E reads. Conversely, in the case of `MSTRG.78.1` log<sub>2</sub> fold change is `10.656` and there are no megakaryocyte reads. This is this case because we set `G1E` as the Factor level 1 while running `DeSeq2` and positive change implies *downregulation* in megakaryocytes compared to G1E cells and vice versa. So to find all genes upregulated in Mk, for example, one would need to filter `DeSeq2` output for fold change below 0. 
+The last four columns are normalized reads counts for two megakarycyte and two G1E replicates, respectively. You can see that for `MSTRG.977.1`  log<sub>2</sub> fold change is `-10.030` and there are practically no G1E reads. Conversely, in the case of `MSTRG.78.1` log<sub>2</sub> fold change is `10.656` and there are no megakaryocyte reads. This is this case because we set `G1E` as the Factor level 1 while running `DeSeq2` and positive change implies *downregulation* in megakaryocytes compared to G1E cells and vice versa. So to find all genes upregulated in Mk, for example, one would need to filter `DeSeq2` output for fold change below 0.
 
 <div class="panel panel-info">
-	<div class="panel-heading">
-  		<a data-toggle="collapse" href="#upreg" aria-expanded="false" aria-controls="collapseExample">
-     		<i class="fa fa-question-circle" aria-hidden="true"></i> How many transcripts are upregulated in megakaryocytes at 1% significance level?
-    	</a>
-  	</div>
-  	<div class="panel-body collapse" id="upreg">
+ <div class="panel-heading">
+    <a data-toggle="collapse" href="#upreg" aria-expanded="false" aria-controls="collapseExample">
+       <i class="fa fa-question-circle" aria-hidden="true"></i> How many transcripts are upregulated in megakaryocytes at 1% significance level?
+     </a>
+   </div>
+   <div class="panel-body collapse" id="upreg">
 
 \- Filter `DeSeq2` output using `c3 < 0 and c7 < 0.01` expression.  
 \- There will be around 40 genes.

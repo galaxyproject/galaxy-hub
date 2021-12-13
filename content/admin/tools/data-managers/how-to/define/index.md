@@ -12,12 +12,13 @@ This page describes how to define a Data Manager.
 # Data Manager Components
 
 Data Managers are composed of two components:
+
 * Data Manager configuration (e.g. *data_manager_conf.xml*)
 * Data Manager Tool
 
 ## Data Manager Configuration
 
-The Data Manager Configuration (e.g. *data_manager_conf.xml*) defines the set of available Data Managers using an [XML description](/admin/tools/data-managers/data-manager-xml-syntax/). Each Data Manager can add entries to one or more [Tool Data Tables](/admin/tools/data-tables/). For each Tool Data Table under consideration, the expected output entry columns, and how to handle the Data Manager Tool results, are defined. 
+The Data Manager Configuration (e.g. *data_manager_conf.xml*) defines the set of available Data Managers using an [XML description](/admin/tools/data-managers/data-manager-xml-syntax/). Each Data Manager can add entries to one or more [Tool Data Tables](/admin/tools/data-tables/). For each Tool Data Table under consideration, the expected output entry columns, and how to handle the Data Manager Tool results, are defined.
 
 ## Data Manager Tool
 
@@ -30,6 +31,7 @@ The primary difference between a standard Galaxy Tool and a Data Manager Tool is
 # Data Manager Server Configuration Options
 
 In your "[galaxy.ini](https://github.com/galaxyproject/galaxy/blob/dev/config/galaxy.ini.sample)" file these settings exist in the `[app:main]` section:
+
 ```python
 # Data manager configuration options
 enable_data_manager_user_view = True
@@ -141,7 +143,7 @@ Fetches a reference genome from various sources (UCSC, NCBI, URL, Galaxy History
 </tool>
 
 ```
- 
+
 
 ## An example data_manager_fetch_genome_all_fasta.py
 

@@ -6,9 +6,9 @@ Tool shed repositories that contain tools with defined functional tests can be t
 
 Tools contained in installed repositories will fall into one of two possible categories: tools eliminated from the Galaxy distribution and "migrated" to the tool shed, and tools contained in repositories that are manually installed by the Galaxy administrator.
 
-Entries for all "migrated" tools are contained in the tool panel configuration file named migrated_tools_conf.xml in the Galaxy installation directory. 
+Entries for all "migrated" tools are contained in the tool panel configuration file named migrated_tools_conf.xml in the Galaxy installation directory.
 
-Note that the path to your tool dependency directory must be set up correctly - the examples below assume you have configured [galaxyroot]/tool_dependencies as that path in config/galaxy.ini. 
+Note that the path to your tool dependency directory must be set up correctly - the examples below assume you have configured [galaxyroot]/tool_dependencies as that path in config/galaxy.ini.
 
 To test  tools, run the following command from the Galaxy installation directory.
 

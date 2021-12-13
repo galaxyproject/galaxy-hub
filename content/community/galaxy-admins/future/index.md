@@ -37,7 +37,7 @@ We used the Univerisity of Iowa's Blackboard Collaborate software to host, recor
 
 # Going Forward
 
-Starting in February 2015, we will resume our bi-monthly web meetups. 
+Starting in February 2015, we will resume our bi-monthly web meetups.
 
 ## Discussion
 
@@ -49,8 +49,8 @@ The GalaxyAdmins group has been hiatus for a while. Though, the discussion about
 
 ## GalaxyAdmins Goals and Activities
 
-* What activities and goals should we pursue in the future? 
-* Should we continue with meetups as we have? 
+* What activities and goals should we pursue in the future?
+* Should we continue with meetups as we have?
 * Should we do anything else?
 * Should we be striving for a full-fledged *Galaxy User Group?*
 
@@ -62,7 +62,7 @@ When Srinivas took over for Ann in fall 2012, he agreed to be the *interim* lead
 
 So far GalaxyAdmins leadership hasn't been "selected" *per se,* but has rather *emerged*.  This *ad hoc* approach ("You're it!") has worked so far, but is not the best long term model.
 
-Should the group select its leadership (and if so, how)?  How long should people serve?  Should we have more than one officer? 
+Should the group select its leadership (and if so, how)?  How long should people serve?  Should we have more than one officer?
 
 *Does this group even want / need leadership,* or will just having someone make sure meetings happen be enough?  That would involve logistic and organization support only.
 

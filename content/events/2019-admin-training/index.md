@@ -31,6 +31,7 @@ The [workshop](https://github.com/galaxyproject/dagobah-training) is split into 
 ### Comfortable with the Unix/Linux command line
 
 Most of the workshop will happen at the Linux command line.  *If you aren’t comfortable with this before you arrive, then you will be lost the entire time.*  How comfortable do you need to be?  Here’s a sampling of commands and concepts that you should be comfortable with:
+
   ```
 cd, mkdir, rmdir, ls
 tar, gzip
@@ -56,18 +57,18 @@ You don’t need to be an expert at Linux package management, but you do need to
 
 We’ll be using Ubuntu based images during the workshop, which means we’ll be using **[apt](https://help.ubuntu.com/community/AptGet/Howto)** to do package management.  Get to know it.
 
-## Advanced Topics 
+## Advanced Topics
 
 Prerequisites include all of the Introduction Session prerequisites, plus familiarity with the topics presented in that session.
 
 # Laptop Requirements
 
-All participants should bring a wifi-enabled laptop with 
+All participants should bring a wifi-enabled laptop with
 
 * at least 4GB of memory (more is better)
 * Software to access the command line of a Linux server.
-  * If you are running Linux or Mac OS, then you already have this.
-  * If you are running Windows than you’ll need to get something like putty installed before the workshop.
+    * If you are running Linux or Mac OS, then you already have this.
+    * If you are running Windows than you’ll need to get something like putty installed before the workshop.
 * A recent version of either the Chrome or Firefox web browser installed.
 
 # Instructors

@@ -12,7 +12,7 @@ We want to create a space where researchers using Galaxy can come together and s
 
 **Current integration with usegalaxy.org**
 
-* We imported the **whole history of the `galaxy-user@bx.psu.edu`** mailing list into *[Galaxy Biostar](https://biostar.usegalaxy.org)*. Your prior posts are automatically claimed when you login! 
+* We imported the **whole history of the `galaxy-user@bx.psu.edu`** mailing list into *[Galaxy Biostar](https://biostar.usegalaxy.org)*. Your prior posts are automatically claimed when you login!
 * If you access [Galaxy Biostar](https://biostar.usegalaxy.org) from http://usegalaxy.org (Menu: **Help &rarr; Galaxy Biostar**) you will be automatically logged in. A Galaxy Biostar account will be created for you if it did not previously exist. To obtain this account’s password please use the [password reset feature](https://biostar.usegalaxy.org/accounts/password/reset/) of Galaxy Biostar.
 * When you have a question, search Galaxy Biostar directly from any Galaxy tool page.
 

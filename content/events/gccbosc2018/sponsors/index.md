@@ -3,7 +3,7 @@
 
 # Sponsors
 
-Sponsors are a key part of GCCBOSC2018.  They are potential partners in your success, and they make this conference affordable and accessible. 
+Sponsors are a key part of GCCBOSC2018.  They are potential partners in your success, and they make this conference affordable and accessible.
 
 Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Becoming a GCCBOSC 2018 sponsor is an excellent way to raise your organization's visibility in these active and engaged communities.  Please see below for sponsorship packages and then contact the [organizers](/events/gccbosc2018/organizers/).
 
@@ -128,13 +128,13 @@ Cost: $8000 ($6000 for non-profit)
 - Organization logo listed as a platinum sponsor on printed material distributed to meeting participants.
 - A full page color ad in printed material
 - 4 complete registrations
-- Be one of just 2 Platinum Sponsors 
+- Be one of just 2 Platinum Sponsors
 
 *There is one Platinum sponsorship remaining.*
 
 ## Gold Sponsorships
 
-Cost: $4000 ($3000 for non-profit) 
+Cost: $4000 ($3000 for non-profit)
 
 - Be the exclusive sponsor of a lunch during the meeting or the second day of training; or sponsor all breaks during a meeting day, or during the second day of training
 - An exhibit space
@@ -145,7 +145,7 @@ Cost: $4000 ($3000 for non-profit)
 
 ## Silver Sponsorships
 
-Cost $2000 ($1500 for non-profit) 
+Cost $2000 ($1500 for non-profit)
 
 - An exhibit space
 - Organization logo listed as a silver sponsor on meeting home and sponsor pages, with link to URL of your choice
@@ -162,7 +162,7 @@ Cost $1000 ($750 for non-profit)
 - Eighth page full color ad in printed materials
 
 ## Other Sponsorships
-Other a la carte sponsorship opportunities are also available. Many additional opportunities exist, including the option to sponsor the first day of training, notepads and pens, lanyards, or the printed program. Please contact the organizers at gccbosc2018-org@lists.galaxyproject.org to inquire about sponsoring other aspects of this event. 
+Other a la carte sponsorship opportunities are also available. Many additional opportunities exist, including the option to sponsor the first day of training, notepads and pens, lanyards, or the printed program. Please contact the organizers at gccbosc2018-org@lists.galaxyproject.org to inquire about sponsoring other aspects of this event.
 
 # CollaborationFest Sponsorships
 
@@ -209,5 +209,5 @@ Cost: $500
 - Organization logo listed as a Giga level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
 - Organization logo listed as a Giga sponsor on printed material distributed to meeting participants.
 - An eighth page color ad in printed material
-- A guaranteed participant slot for sponsor organisation representative 
+- A guaranteed participant slot for sponsor organisation representative
 - Thanks and acknowledgements from organisers before and during the collaborative events

@@ -7,7 +7,7 @@ Blankenberg D, Taylor J, Nekrutenko A, The Galaxy Team. "[Making whole genome mu
 
 ## About the Alignments
 
-Whole genome alignments, even those produced by "*quasi-global*" algorithms, are inevitably fragmented owing to the complex evolutionary history of genomic DNA and karyotypes, which involves duplications, deletions, insertions and other rearrangements. These alignments also tend to be extremely large.  To allow biologists to easily and efficiently manipulate multiple species whole genome alignments, they are stored locally at the Galaxy site, in a compressed form, and indexed.  The majority of alignments are produced using Penn State's [multiZ](http://www.bx.psu.edu/miller_lab/) (for more information on multiZ [click here](http://bio.cse.psu.edu/dist/tba.pdf)) aligner run on the computational facilities of [The UC Santa Cruz Genome Biology Group](http://genome.ucsc.edu/) led by Jim Kent.  Tools for handling multiple alignments described here are written by Dan Blankenberg and based on the [bx-python](http://bx-python.trac.bx.psu.edu/) package developed by James Taylor. 
+Whole genome alignments, even those produced by "*quasi-global*" algorithms, are inevitably fragmented owing to the complex evolutionary history of genomic DNA and karyotypes, which involves duplications, deletions, insertions and other rearrangements. These alignments also tend to be extremely large.  To allow biologists to easily and efficiently manipulate multiple species whole genome alignments, they are stored locally at the Galaxy site, in a compressed form, and indexed.  The majority of alignments are produced using Penn State's [multiZ](http://www.bx.psu.edu/miller_lab/) (for more information on multiZ [click here](http://bio.cse.psu.edu/dist/tba.pdf)) aligner run on the computational facilities of [The UC Santa Cruz Genome Biology Group](http://genome.ucsc.edu/) led by Jim Kent.  Tools for handling multiple alignments described here are written by Dan Blankenberg and based on the [bx-python](http://bx-python.trac.bx.psu.edu/) package developed by James Taylor.
 ----
 ## Tools and Categories
 
@@ -26,6 +26,7 @@ For a list of data available through Galaxy, see [Available Data](/main/data-lib
 These tools convert MAF formatted files to FASTA and offer the ability to restrict alignments to a subset of species. This is useful for performing further analysis with practically all currently available genomic tools.
 
 Available Output Types:
+
 * **Multiple Blocks** - create one FASTA alignment block per provided MAF Block; blocks missing a desired species can be kept or discarded
 * **One Sequence per Species** - create one sequence per species, where all MAF blocks are concatenated in the order and strand in which they appear in the selected source MAF; desired species missing from a particular block will have their sequence padded with gaps
 
@@ -38,6 +39,7 @@ Extractors take genomic intervals as the input and return pairwise or multiple a
 ![](/main/maf-analysis/interval2maf.png)
 
 *Currently there are two types of extractors that may be merged into a single tool in the future:*
+
 * **Extract Pairwise MAF blocks given a set of genomic intervals** - takes a series of genomic intervals and extracts __pairwise__ alignments from a large selection of locally cached MAF files.
 * **Extract MAF blocks given a set of genomic intervals** - takes a series of genomic intervals and extracts __multiple__ alignments from a large selection of locally cached MAF files or from alignments in the user's history.
 
@@ -62,19 +64,19 @@ The FASTA output is relative to the genome of the input interval; positions that
   Consider the interval: "chrX 1000 1100 myInterval"
   Let's suppose we want to do stats on three way alignments for H, M, and R. The result look like this:
   
-    chrX 1000 1100 myInterval H XXX YYY 
-    
-    chrX 1000 1100 myInterval M XXX YYY 
-    
-    chrX 1000 1100 myInterval R XXX YYY 
-      
+    chrX 1000 1100 myInterval H XXX YYY
+
+    chrX 1000 1100 myInterval M XXX YYY
+
+    chrX 1000 1100 myInterval R XXX YYY
+
   
      where XXX and YYY are:
 
         XXX = number of nucleotides
      
         YYY = number of gaps
-    
+
   Alternatively, you can request only summary information for a set of intervals:
   
   
@@ -125,6 +127,7 @@ The FASTA output is relative to the genome of the input interval; positions that
 * **Reverse complement a MAF file** - computes the reverse complement for all blocks in an alignment
 
 This MAF Block:
+
 ```
 a score=8157.000000
 s hg17.chr7    127471526 58 + 158628139 AATTTGTGGTTTATTCATTTTTCATTATTTTGTTTAAGGAGGTCTATAGTGGAAGAGG
@@ -133,6 +136,7 @@ s mm5.chr6      28904928 54 + 149721531 AA----CGTTTCATTGATTGCTCATCATTTAAAAAAAGAA
 ```
 
 becomes:
+
 ```
 a score=8157.000000
 s hg17.chr7     31156555 58 - 158628139 CCTCTTCCACTATAGACCTCCTTAAACAAAATAATGAAAAATGAATAAACCACAAATT

@@ -9,13 +9,13 @@ date: "2019-02-01"
 The *February  2019 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.
 
 * [Event News](/news/2019-02-galaxy-update/#event-news)
-  * **[Voting on GCC2019 training topics open through February 4th!](/news/2019-02-galaxy-update/#gcc2019-training-topic-voting-is-open)**.
-  * **[ELIXIR Galaxy Community Workshop](/news/2019-02-galaxy-update/#elixir-galaxy-community-workshop)** pre-registration is open! 
+    * **[Voting on GCC2019 training topics open through February 4th!](/news/2019-02-galaxy-update/#gcc2019-training-topic-voting-is-open)**.
+    * **[ELIXIR Galaxy Community Workshop](/news/2019-02-galaxy-update/#elixir-galaxy-community-workshop)** pre-registration is open!
 * [GalaxyAdmins needs your topic suggestions](/news/2019-02-galaxy-update/#galaxyadmins-needs-your-topic-suggestions).
-* [160 new publications](/news/2019-02-galaxy-update/#publications), great resources lead to great insight. 
+* [160 new publications](/news/2019-02-galaxy-update/#publications), great resources lead to great insight.
 * Some most excellent [Galaxy Platform News](/news/2019-02-galaxy-update/#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
 * The Tutorial of the Month is ... [Genome annotation with Prokka](/news/2019-02-galaxy-update/#new-galactic-blog-posts)!
-* At least [23 Open positions](/news/2019-02-galaxy-update/#whos-hiring) in 6 countries on 2 continents. 
+* At least [23 Open positions](/news/2019-02-galaxy-update/#whos-hiring) in 6 countries on 2 continents.
 * [Doc, Hub, and Training Updates](/news/2019-02-galaxy-update/#doc-hub-and-training-updates), including *GO enrichment analysis*  and *Age prediction using machine learning*.
 * [ToolShed contributions](/news/2019-02-galaxy-update/#toolshed-contributions).
 * [New releases](/news/2019-02-galaxy-update/#releases) of galaxy-lib and Planemo.
@@ -33,19 +33,19 @@ If you have anything to add to next month's newsletter, then please send it to o
 
 The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be held in **Freiburg, Germany, 1-6 July**. Like [previous Galaxy Community Conferences](/gcc/), GCC2019 will feature invited keynotes, accepted talks, posters, demos, birds-of-a-feather gatherings, and **training**. The format of GCC2019 will be a bit different than the previous years: it starts with 1 day of training and then 3 days with more specialized training sessions aligned with talks. *You can read more about the new format on the [conference FAQ](/events/gcc2019/faq/#what-will-be-the-format-for-gcc-in-2019).*
 
-The GCC2019 Organizing Committee compiled [training topics nominated by the community](https://galaxyproject.org/events/gcc2019/training/#training-topic-votes) and expanded this list with community requests and topics from the previous GCC to offer a broad range of training sessions to be voted on by the community for GCC2019. Voting closes February 4th. 
+The GCC2019 Organizing Committee compiled [training topics nominated by the community](https://galaxyproject.org/events/gcc2019/training/#training-topic-votes) and expanded this list with community requests and topics from the previous GCC to offer a broad range of training sessions to be voted on by the community for GCC2019. Voting closes February 4th.
 
 **Training topics that are offered at GCC2019 are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/e/1FAIpQLSd75S6n0GwYTrAp66h1mwL8DbnYsum71ffoLVxzKSIR34eL_w/viewform)***
 
 You can vote for as many topics as you want, but please note that the more topics you vote for the less your vote for each one counts. What? Here's an example. If Moni votes for 4 topics then each of her votes counts for 1/4 of a point. If Dave votes for 22 topics then each of his votes counts for 1/22 of a point.
 
-Please take a moment and [**vote**](https://docs.google.com/forms/d/e/1FAIpQLSd75S6n0GwYTrAp66h1mwL8DbnYsum71ffoLVxzKSIR34eL_w/viewform) on which training topics you would like to see at GCC2019, your vote matters! 
+Please take a moment and [**vote**](https://docs.google.com/forms/d/e/1FAIpQLSd75S6n0GwYTrAp66h1mwL8DbnYsum71ffoLVxzKSIR34eL_w/viewform) on which training topics you would like to see at GCC2019, your vote matters!
 
 ## ELIXIR Galaxy Community Workshop
 
 [<img class="img-fluid mx-auto float-right" style="max-width: 160px" src="/images/logos/ElixirNoTextLogo.png" alt="GalaxyAdmins" />](/community/galaxy-admins/)
 
-Join the Galaxy Community of Elixir for a [three day workshop](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTM materials. 
+Join the Galaxy Community of Elixir for a [three day workshop](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance) at Station Biological de Roscoff, France to participate in workshops and hackathons focused on tool implementation in Galaxy, development of training materials for the Galaxy Training Network (GTN), and how to teach using GTM materials.
 
 During the first 1 1/2 days, the attendees will learn about the integration of high-quality tools within Galaxy with their dependencies (Bioconda, Planemo) using the IUC best practice guidelines. They will also learn how to use Galaxy as a training tool and develop training material for the Galaxy Training Network. The second half of the workshop will be dedicated to Hackathon sessions where attendees will be able to bring their own projects around tool integration and/or training material and develop them collaboratively, with the support of community experts. Additional information can be found [here](https://www.france-bioinformatique.fr/fr/evenements/elixir-galaxy-community-workshop-roscofffrance).
 
@@ -158,7 +158,7 @@ These and [other Galaxy related events](/events/) are coming up in the next few 
 * **[Exploring the Effects of Spaceflight on Mouse Physiology using the Open Access NASA GeneLab Platform](https://www.jove.com/video/58447/exploring-effects-spaceflight-on-mouse-physiology-using-open-access)**, Afshin Beheshti, Yasaman Shirazi-Fard, Sungshin Choi, Daniel Berrios, Samrawit G. Gebre, Jonathan M. Galazka, Sylvain V. Costes. Journal of Visual Experiments (143), e58447, doi:10.3791/58447 (2019)
 * **[Mind the gaps: overlooking inaccessible regions confounds statistical testing in genome analysis](https://doi.org/10.1186/s12859-018-2438-1)**, Diana Domanska, Chakravarthi Kanduri, Boris Simovski and Geir Kjetil Sandve. *BMC Bioinformatics* 201819:481, doi: 10.1186/s12859-018-2438-1
 * **[VAPPER: High-throughput Variant Antigen Profiling in African trypanosomes](https://doi.org/10.1101/492074)**, Sara Silva Pereira, John Heap, Andrew R Jones, Andrew P. Jackson. *bioRxiv* 492074; doi: 10.1101/492074
-* **[PrediTALE: A novel model learned from quantitative data allows for new perspectives on TALE targeting](https://doi.org/10.1101/522458)**, Annett Erkes, Stefanie Mücke, Maik Reschke, Jens Boch, Jan Grau. *bioRxiv* 522458; doi: 10.1101/522458 
+* **[PrediTALE: A novel model learned from quantitative data allows for new perspectives on TALE targeting](https://doi.org/10.1101/522458)**, Annett Erkes, Stefanie Mücke, Maik Reschke, Jens Boch, Jan Grau. *bioRxiv* 522458; doi: 10.1101/522458
 * **[Enhancing Access to Digital Media: The Language Application Grid in the HTRC Data Capsule](https://doi.org/10.1145/3093338.3104171)**, James Pustejovsky, Marc Verhagen, Keongmin Rim, Yu Ma, Liang Ran, Samitha Liyanage,  Jaimie Murdock, Robert H. McDonald, Beth Plale. In PEARC17 Proceedings of the Practice and Experience in Advanced Research Computing 2017 on Sustainability, Success and Impact, Article No. 60. doi: 10.1145/3093338.3104171
 * **[Predicting runtimes of bioinformatics tools based on historical data: Five years of Galaxy usage](https://doi.org/10.1093/bioinformatics/btz054)**, Anastasia Tyryshkina, [Nate Coraor](/people/nate/), [Anton Nekrutenko](/people/anton/). *Bioinformatics*, btz054, doi: 10.1093/bioinformatics/btz054
 * **[Tools for Understanding miRNA–mRNA Interactions for Reproducible RNA Analysis](https://link.springer.com/protocol/10.1007%2F978-1-4939-8982-9_8)**, Andrea Bagnacani, Markus Wolfien, Olaf Wolkenhauer. In: Lai X., Gupta S., Vera J. (eds) Computational Biology of Non-Coding RNA. Methods in Molecular Biology, vol 1912. Humana Press, New York, NY
@@ -170,11 +170,11 @@ Ten of the fourteen highlighted publications are open access.
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 111 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 47 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 23 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 16 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | 
-| 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 10 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 9 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | 
-| 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | 
+| 111 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 47 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 23 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 16 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) |
+| 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 10 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 10 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 9 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) |
+| 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) |
 | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | | | | | | | |
 
 ----
@@ -219,10 +219,10 @@ Hi-C Explorer is also hosted at UseGalaxy.eu.
 
 Use the G-OnRamp output to visualize large genomics datasets, and can utilize the output to drive collaborative genome annotation projects in both research and educational settings. It has documentation:
 
-- [How to use G-OnRamp](http://gonramp.wustl.edu/?page_id=384/#use)
-- [Learn G-OnRamp](http://old-gep.wustl.edu/~galaxy/gonramp/?page_id=32/#materials)
-- [Virtual Machine Installation Walkthrough](https://wustl.app.box.com/s/9626q6n2mjnd3vuas26j20w419f5v0fc)
-- [CloudLaunch Deployment Walkthrough](https://wustl.app.box.com/s/rg7xaezf22p75d8yardsooa2izbdlkd5) (using the AMI)
+* [How to use G-OnRamp](http://gonramp.wustl.edu/?page_id=384/#use)
+* [Learn G-OnRamp](http://old-gep.wustl.edu/~galaxy/gonramp/?page_id=32/#materials)
+* [Virtual Machine Installation Walkthrough](https://wustl.app.box.com/s/9626q6n2mjnd3vuas26j20w419f5v0fc)
+* [CloudLaunch Deployment Walkthrough](https://wustl.app.box.com/s/rg7xaezf22p75d8yardsooa2izbdlkd5) (using the AMI)
 
 <img class="float-right" style="max-width: 200px" src="/use/archive/amrplusplus/amrplusplus-flowchart.png" alt="AmrPlusPlus" />
 
@@ -255,15 +255,15 @@ There's also some [Jetstream](/use/jetstream/) in the mix too.
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the counts for the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 23 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 6 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 5 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 3 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/tags/>ABiMS) | 
-| 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 3 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu) | | 2 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid) | 
-| 2 | [>RNA Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA Workbench) | | 2 | [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org) | | 1 | [>AmrPlusPlus](https://www.zotero.org/groups/1732893/galaxy/tags/>AmrPlusPlus) | | 1 | [>ASH](https://www.zotero.org/groups/1732893/galaxy/tags/>ASH) | 
-| 1 | [>G-OnRamp](https://www.zotero.org/groups/1732893/galaxy/tags/>G-OnRamp) | | 1 | [>GeneLab](https://www.zotero.org/groups/1732893/galaxy/tags/>GeneLab) | | 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/tags/>GIO) | 
-| 1 | [>GmT](https://www.zotero.org/groups/1732893/galaxy/tags/>GmT) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-MEL) | | 1 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | | 1 | [>Halogen Bonding](https://www.zotero.org/groups/1732893/galaxy/tags/>Halogen Bonding) | 
-| 1 | [>HiCExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>HiCExplorer) | | 1 | [>Martin Luther](https://www.zotero.org/groups/1732893/galaxy/tags/>Martin Luther) | | 1 | [>miCloud](https://www.zotero.org/groups/1732893/galaxy/tags/>miCloud) | | 1 | [>Peptimapper](https://www.zotero.org/groups/1732893/galaxy/tags/>Peptimapper) | 
-| 1 | [>PRABI](https://www.zotero.org/groups/1732893/galaxy/tags/>PRABI) | | 1 | [>QuanTP](https://www.zotero.org/groups/1732893/galaxy/tags/>QuanTP) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/tags/>SouthGreen) | | 1 | [>TDPortal](https://www.zotero.org/groups/1732893/galaxy/tags/>TDPortal) | 
+| 23 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 6 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 5 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 3 | [>ABiMS](https://www.zotero.org/groups/1732893/galaxy/tags/>ABiMS) |
+| 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 3 | [>UseGalaxy.eu](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.eu) | | 2 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid) |
+| 2 | [>RNA Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA Workbench) | | 2 | [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org) | | 1 | [>AmrPlusPlus](https://www.zotero.org/groups/1732893/galaxy/tags/>AmrPlusPlus) | | 1 | [>ASH](https://www.zotero.org/groups/1732893/galaxy/tags/>ASH) |
+| 1 | [>G-OnRamp](https://www.zotero.org/groups/1732893/galaxy/tags/>G-OnRamp) | | 1 | [>GeneLab](https://www.zotero.org/groups/1732893/galaxy/tags/>GeneLab) | | 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 1 | [>GIO](https://www.zotero.org/groups/1732893/galaxy/tags/>GIO) |
+| 1 | [>GmT](https://www.zotero.org/groups/1732893/galaxy/tags/>GmT) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-MEL) | | 1 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | | 1 | [>Halogen Bonding](https://www.zotero.org/groups/1732893/galaxy/tags/>Halogen Bonding) |
+| 1 | [>HiCExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>HiCExplorer) | | 1 | [>Martin Luther](https://www.zotero.org/groups/1732893/galaxy/tags/>Martin Luther) | | 1 | [>miCloud](https://www.zotero.org/groups/1732893/galaxy/tags/>miCloud) | | 1 | [>Peptimapper](https://www.zotero.org/groups/1732893/galaxy/tags/>Peptimapper) |
+| 1 | [>PRABI](https://www.zotero.org/groups/1732893/galaxy/tags/>PRABI) | | 1 | [>QuanTP](https://www.zotero.org/groups/1732893/galaxy/tags/>QuanTP) | | 1 | [>SouthGreen](https://www.zotero.org/groups/1732893/galaxy/tags/>SouthGreen) | | 1 | [>TDPortal](https://www.zotero.org/groups/1732893/galaxy/tags/>TDPortal) |
 | 1 | [>TreeGenes](https://www.zotero.org/groups/1732893/galaxy/tags/>TreeGenes) | | 1 | [>Trinity](https://www.zotero.org/groups/1732893/galaxy/tags/>Trinity) | | 1 |  [>UseGalaxy.org](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org) | | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics)  | |
 
 ----
@@ -277,10 +277,10 @@ We tag papers that use, mention, implement or extend public Galaxy platforms (se
 There are two new *[Galactic Blog](/blog/)* entries:
 
 * **[Tutorial of the Month: Genome annotation with Prokka, selected by Simon Gladman](/blog/2019-01-totm/):**
-  * read about using Prokka for annotation of draft genome sequences
-  * by Bérénice Batut
+    * read about using Prokka for annotation of draft genome sequences
+    * by Bérénice Batut
 * **[Hey Galaxy People! Want easy proteo-transcriptomics!??!](https://proteomicsnews.blogspot.com/2018/12/hey-galaxy-people-want-easy-proteo.html)**
-  * an enthusiastic post by [Ben Orsburn](https://proteomicsnews.blogspot.com/p/contact.html) about [QuanTP](/news/2019-02-galaxy-update/#quantp)
+    * an enthusiastic post by [Ben Orsburn](https://proteomicsnews.blogspot.com/p/contact.html) about [QuanTP](/news/2019-02-galaxy-update/#quantp)
 
 ----
 
@@ -291,15 +291,15 @@ There are two new *[Galactic Blog](/blog/)* entries:
 The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!
 
 * [Genomic data analyst](/news/2019-01-artbio-postdoc/), [ARTbio](http://artbio.fr/), Institut de Biology Paris Seine, campus Jussieu of the Sorbonne-Université, Paris, France
-* [Cloud Engineer V](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States. 
+* [Cloud Engineer V](https://careers-fhcrc.icims.com/jobs/12290/cloud-engineer-v/job?mobile=false&width=960&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420), Fred Hutchinson Cancer Research Center, Seattle, Washington, United States.
 * ELIXIR Belgium has **four Galaxy-related openings** in Ghent:
-  * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
-  * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
-* [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software." 
+    * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Bioinformatics Trainer](https://vibvzw.jobsoid.com/j/17026/elixir-bioinformatics-trainer), VIB Bioinformatics Core
+    * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
+* [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software."
 * [M2 - bio-informatique](https://www.sfbi.fr/content/m2-bio-informatique-laboratoire-de-virologie-h%C3%B4pital-st-louis), Laboratoire de Virologie , Hôpital St Louis, Paris, France.
-* [Bioinformatics Scientist](https://www.providenceiscalling.jobs/portland-or/bioinformatics-scientist/E4987CF3970846FDBB268E76297287DC/job/), Providence Health Services, Portland, Oregon, United States. Looking for someone "fluent in Galaxy or willing to learn" 
+* [Bioinformatics Scientist](https://www.providenceiscalling.jobs/portland-or/bioinformatics-scientist/E4987CF3970846FDBB268E76297287DC/job/), Providence Health Services, Portland, Oregon, United States. Looking for someone "fluent in Galaxy or willing to learn"
 * [Etude et galaxyfication d’un pipeline de traitement de données en lipidomique](https://www.sfbi.fr/content/etude-et-galaxyfication-d%E2%80%99un-pipeline-de-traitement-de-donn%C3%A9es-en-lipidomique), Centre INRA Auvergne-Rhône-Alpes, Theix, France
 * [Cloud Computing Bioinformatics Programmer](https://bioinformatics.ca/job-postings/0fd00bb0-9f21-11e8-a370-3ba76904a08d/#/?&order=desc) working with [IRIDA](http://www.irida.ca/), Simon Fraser University, Vancouver, Canada
 * [Senior IT DevOps Data Engineer](https://adaptimmunellc.applytojob.com/apply/jobs/details/OsmMz9jkwv?) and [Senior IT Data Engineer (IT Bioinformatician)](https://adaptimmunellc.applytojob.com/apply/jobs/details/W1CcPTXteJ?),  Adaptimmune, Abingdon, Oxfordshire, United Kingdom. *Required: Experience with following bioinformatic pipeline tools:   Galaxy…*
@@ -308,7 +308,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 * [Bioinformatics Scientist](https://www.indeed.com/viewjob?jk=5288546935e35605), ResearchDx, Irvine, California, United States
 * [NGS Scientific Applications Specialist](https://careers-idtdna.icims.com/jobs/4112/ngs-scientific-applications-specialist/job), Integrated DNA technologies, Iowa City, Iowa, United States
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
-  * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
+    * Software engineer, system analysts/administrators, data analyst, and a comunnity and/or research manager
 * The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
 * [Galaxy Project is hiring two software engineers at Johns Hopkins University](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States.
 
@@ -365,7 +365,7 @@ See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HI
 
 * The [Galaxy statistics page](/galaxy-project/statistics/) has received it's semi-annual update.
 * From [James Taylor](/people/james-taylor/):
-  * [Visualizing scRNA-Seq data](https://twitter.com/jxtx/status/1088580033512390657/video/1) using [cellxgene](https://github.com/chanzuckerberg/cellxgene/blob/master/README.md) inside Galaxy.
+    * [Visualizing scRNA-Seq data](https://twitter.com/jxtx/status/1088580033512390657/video/1) using [cellxgene](https://github.com/chanzuckerberg/cellxgene/blob/master/README.md) inside Galaxy.
 
 ## PAG 2019 Presentations and Posters are Available
 

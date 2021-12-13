@@ -122,12 +122,12 @@ We need to enable port forwarding so that the the host (your laptop's native ope
 3. Add these 4 rules:<div class='indent'>
 
 
-| Name |  Protocol  |  Host IP  |  Host Port  |  Guest IP  |  Guest Port  | 
-| ---- | --------- | -------- | ---------- | --------- | ----------- | 
-| Rule 1 |  TCP  |  127.0.0.1  |  8080  |   |  8080  | 
-| Rule 2 |  UDP  |  127.0.0.1  |  8080  |   |  8080  | 
-| Rule 3 |  TCP  |  127.0.0.1  |  9090  |   |  9090  | 
-| Rule 4 |  UDP  |  127.0.0.1  |  9090  |   |  9090  | 
+| Name |  Protocol  |  Host IP  |  Host Port  |  Guest IP  |  Guest Port  |
+| ---- | --------- | -------- | ---------- | --------- | ----------- |
+| Rule 1 |  TCP  |  127.0.0.1  |  8080  |   |  8080  |
+| Rule 2 |  UDP  |  127.0.0.1  |  8080  |   |  8080  |
+| Rule 3 |  TCP  |  127.0.0.1  |  9090  |   |  9090  |
+| Rule 4 |  UDP  |  127.0.0.1  |  9090  |   |  9090  |
 </div>
   This is less tedious if you type in the first rule and then copy and modify it for the next 3
 
@@ -155,7 +155,7 @@ and a local toolshed at
  *http://[VM-ip]:9090*
 
 Use *sh stopAll.sh* then *sh startAll.sh* to restart these servers if you make changes that require a Galaxy restart.
- 
+
 ## 4. Using XFCE
 
 XFCE is a desktop manager for Linux.  Unlike the more common Gnome and KDE managers, XFCE is relatively lightweight and has the advantages of keeping the VM image size small, and having a somewhat familiar look and feel.
@@ -242,37 +242,37 @@ Which distribution was used; how much virtual disk and memory does it have; what
 Any custom configuration is [described below](/events/gcc2012/training-day/vms/#additional-configuration-details).
 
 
-| Tool/Package |  Comments  | 
-| ------------ | --------- | 
-| PostgreSQL |  Used by Galaxy, Tool Shed  | 
-| Mercurial |  Source code control system used in Galaxy  | 
-| Emacs, vim, pico/nano |  Text editors.  | 
-| Galaxy Source Code |   | 
-| Galaxy Tool Shed |   | 
-| ncurses development library |  Needed for Tool Shed  | 
-| zlib development library | 
-| g++ and standard C and C++ development libraries | 
-| cmake | 
-| git  | 
-| Python 2.6 | 
-| Eclipse |  Needed for Tools and Data Sources Workshop  | 
-| hg and Python Eclipse plugins | 
-| nginx or Apache |  proxy that accepts byte-range requests would be good  | 
-| [PostgreSQL GUI](http://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools#Open_Source_.2F_Free_Software) |   | 
+| Tool/Package |  Comments  |
+| ------------ | --------- |
+| PostgreSQL |  Used by Galaxy, Tool Shed  |
+| Mercurial |  Source code control system used in Galaxy  |
+| Emacs, vim, pico/nano |  Text editors.  |
+| Galaxy Source Code |   |
+| Galaxy Tool Shed |   |
+| ncurses development library |  Needed for Tool Shed  |
+| zlib development library |
+| g++ and standard C and C++ development libraries |
+| cmake |
+| git  |
+| Python 2.6 |
+| Eclipse |  Needed for Tools and Data Sources Workshop  |
+| hg and Python Eclipse plugins |
+| nginx or Apache |  proxy that accepts byte-range requests would be good  |
+| [PostgreSQL GUI](http://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools#Open_Source_.2F_Free_Software) |   |
 
 ### WS5 VM Only
 
 
-| Tool/Package |  Comments  | 
-| ------------ | --------- | 
+| Tool/Package |  Comments  |
+| ------------ | --------- |
 
 
 ### WS1, WS6, WS7 VM Only
 
 
-| Tool/Package |  Comments  | 
-| ------------ | --------- | 
-| Galaxy Instance |   | 
+| Tool/Package |  Comments  |
+| ------------ | --------- |
+| Galaxy Instance |   |
 
 ## Additional Configuration Details
 

@@ -1,4 +1,4 @@
-<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a>
 <div class='title'>2015-06-18 Web Meetup<br /><br />
 
 </div></div>
@@ -31,13 +31,13 @@
 
 <br />
 
-*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations.
 
 ## Galactic Engineering: Experiences deploying Galaxy and developing tools within the Bioinformatics Core Facility at the University of Manchester
 
 <div class='right'><a href='http://www.manchester.ac.uk/'><img src="/images/logos/UManchesterLogo.jpg" alt="University of Manchester" width="200" /></a></div>
 
-[Peter Briggs](http://galacticengineer.blogspot.co.uk/) of the [University of Manchester](http://www.manchester.ac.uk/) and author of the *[Galactic Engineer](http://galacticengineer.blogspot.co.uk/)* blog will talk about his Galaxy work 
+[Peter Briggs](http://galacticengineer.blogspot.co.uk/) of the [University of Manchester](http://www.manchester.ac.uk/) and author of the *[Galactic Engineer](http://galacticengineer.blogspot.co.uk/)* blog will talk about his Galaxy work
 deploying Galaxy and developing tools within the [Bioinformatics Core Facility](http://www.ls.manchester.ac.uk/research/facilities/#bioinf) at the University of Manchester.
 
 ## Galaxy Project Update: Planemo
@@ -55,7 +55,7 @@ The  meetup's online conference room will open 15 minutes before the meetup.  Th
 ### Instructions for Participants
 
 * You can ask questions either by *raising your hand* or by typing the question in the chat box.  
-  * If you raise your hand, the host will need to recognize you.
-  * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
+    * If you raise your hand, the host will need to recognize you.
+    * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
 <div class='center'><img src="/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>

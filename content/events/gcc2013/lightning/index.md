@@ -10,8 +10,9 @@ import links from "../links.json"
 
 Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Monday](/events/gcc2013/program/#day-1-main-meeting-1-july) (moderated by [Ross Lazarus](/people/fubar/)) and [Session 8 on Tuesday](/events/gcc2013/program/#day-2-main-meeting-2-july) (moderated by [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)).  **No more than half the lightning talk slots will be allocated before the meeting.**
 
-If you wish to give a lightning talk, please send an abstract to [GCC2013 Scientific Committee](mailto:gcc2013-sci AT galaxyproject DOT org), either 
-* any time before the start of [Session 2](/events/gcc2013/program/#day-1-main-meeting-1-july) (to be considered for Monday or Tuesday slots), or 
+If you wish to give a lightning talk, please send an abstract to [GCC2013 Scientific Committee](mailto:gcc2013-sci AT galaxyproject DOT org), either
+
+* any time before the start of [Session 2](/events/gcc2013/program/#day-1-main-meeting-1-july) (to be considered for Monday or Tuesday slots), or
 * before [Session 6](/events/gcc2013/program/#day-2-main-meeting-2-july) (to be considered for Tuesday only).  
 
 The slides for all lightning talks will be made available on the this page, and the talks may be videotaped and posted here as well.
@@ -20,7 +21,7 @@ The slides for all lightning talks will be made available on the this page, and 
 
 ## Lightning Talks
 
-There are two lightning talk sessions, one on each day of the [main meeting](/events/gcc2013/program/). 
+There are two lightning talk sessions, one on each day of the [main meeting](/events/gcc2013/program/).
 
 ### Day 1: Monday 1 July
 
@@ -87,7 +88,7 @@ LiSIs has been used to implement virtual screening workflows for the selection o
 
 *[Slides](http://jiffyclub.github.io/scipy2013-swc-lightning-talk/#/)*
 
-This lightning talk briefly introduces Software Carpentry. Software Carpentry's aim is to teach researchers (usually graduate students) basic computing concepts and skills so that they can get more done in less time, and with less pain. 
+This lightning talk briefly introduces Software Carpentry. Software Carpentry's aim is to teach researchers (usually graduate students) basic computing concepts and skills so that they can get more done in less time, and with less pain.
 
 Our Mission: Software Carpentry helps researchers be more productive by teaching them basic computing skills. We run boot camps at dozens of sites around the world, and also provide open access material online for self-paced instruction. The benefits are more reliable results and higher productivity: a day a week is common, and a ten-fold improvement isn't rare.
 
@@ -225,9 +226,9 @@ Mattias de Hollander<sup>1</sup>, David van Enckevort<sup>2</sup>, **Leon Mei**<
 
 Andromeda is a public Galaxy server set up by the Netherlands Bioinformatics Center (NBIC) to support genomics research in the Netherlands. Andromeda has been running over 3 years and was originally intended to be a demonstration server for bioinformatics tools made by NBIC developers. Several application specific pipelines are installed at Andromeda together with common sequencing analysis tools. Andromeda has been used at several NBIC courses to support practicals and has been proven to be an effective platform for knowledge dissemination.
 
-However, the need for processing real scale research datasets at Andromeda was clearly visible already in the beginning. This demand is only becoming more prominent in the past year when more researchers are able to acquire NGS datasets for their project but fail to obtain the necessary bioinformatics support within their groups. 
+However, the need for processing real scale research datasets at Andromeda was clearly visible already in the beginning. This demand is only becoming more prominent in the past year when more researchers are able to acquire NGS datasets for their project but fail to obtain the necessary bioinformatics support within their groups.
 
-To support this growing demand, NBIC together with the BigGrid project and SURFsara installed the new Andromeda at a high performance computing cloud system hosted by SURFsara. This HPC cloud consists of 19 fast servers with 608 CPUs and almost 5TB of memory. In order to best use the elastic resource provided by the HPC cloud, the new Andromeda also incorporates the CloudMan script to support dynamic adding and removing of virtual machines based on the number of submitted jobs. Till the beginning of 2013, there are about 700 registered users at Andromeda and almost 40000 jobs have been executed. 
+To support this growing demand, NBIC together with the BigGrid project and SURFsara installed the new Andromeda at a high performance computing cloud system hosted by SURFsara. This HPC cloud consists of 19 fast servers with 608 CPUs and almost 5TB of memory. In order to best use the elastic resource provided by the HPC cloud, the new Andromeda also incorporates the CloudMan script to support dynamic adding and removing of virtual machines based on the number of submitted jobs. Till the beginning of 2013, there are about 700 registered users at Andromeda and almost 40000 jobs have been executed.
 
 In this presentation, we will present the architecture of Andromeda and its installation and maintenance procedure.
 
@@ -254,7 +255,7 @@ Our team, in collaboration with spectrometry plateforms, implements several tool
  Baker IDI Heart and Diabetes Institute
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/GLM_GSEALightning.pdf)*
- 
+
 A new suite of Galaxy tools designed to support count based GLM for differential expression of RNA and other sequence data with biological replicates will be briefly introduced. HTSeq is used to apply a gene model GTF file over multiple sample SAM/BAM files to create raw count matrices; edgeR, VOOM/limma and DESeq from BioConductor are used to test for differential relative abundance; and GSEA from the Broad is available to explore for unexpected enrichment of MSigDB and user provided coregulated gene sets representing interesting biological conditions and pathways. Where replicates are available, where GLM are needed to model the experimental design, and where differential splicing is not the primary biological question, these new tools provide an alternative to existing RPKM based methods in Galaxy which may be [less than optimal (Dillies et al.)](http://bib.oxfordjournals.org/content/early/2012/09/15/bib.bbs046.long) for testing differential abundance and are not currently able to model (eg) paired samples correctly. The GSEA tool takes the statistical differential test tables directly and tests for biological pathway enrichment. These are all available for evaluation from the test toolshed. Their integration into Galaxy will greatly facilitate empirical comparison of competing count and RPKM approaches at the level of individual differentially expressed genes and in terms of higher level biological pathways.
 
 #### Analysis of DNA methylation data using galaxy
@@ -295,7 +296,7 @@ A recipe for efficiently installing Galaxy on a bi-directionally auto-scaling HP
 
 **Marc Logghe**
 
- Ablynx NV, Gent Belgium 
+ Ablynx NV, Gent Belgium
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/CLCMainLightning.pdf)*
 
@@ -325,7 +326,7 @@ The premise of the talk will be to highlight the power of Galaxy for interdiscip
 
 **Samuel Lampa**
 
- [SNIC-UPPMAX](http://www.uppmax.uu.se), [Dept of Pharm Biosciences](http://www.farmbio.uu.se) 
+ [SNIC-UPPMAX](http://www.uppmax.uu.se), [Dept of Pharm Biosciences](http://www.farmbio.uu.se)
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/LightweightHPCLightning.pdf)*
 
@@ -362,8 +363,8 @@ This is your opportunity to give an impassioned and enthralling talk about somet
 
 ## Slides
 
-* Your slides (as PDF or PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/people/dave-clements/)) to minimize the risk of BYOD. 
-* You can BYOD (your own computer or whatever) but you are advised not to. 
+* Your slides (as PDF or PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/people/dave-clements/)) to minimize the risk of BYOD.
+* You can BYOD (your own computer or whatever) but you are advised not to.
 * **If you do BYOD, we will start swapping out your device at 2 minutes left, rather than 1.**
 * Connection and fiddling time beyond the first minute comes out of your 5 minutes and ***is painful, for everyone.***  
 
@@ -372,11 +373,11 @@ This is your opportunity to give an impassioned and enthralling talk about somet
 From [Ross Lazarus](/people/fubar/), *Benevolent Lightning Session Moderator for Life*
 
 * Good lightning talks are well rehearsed and very, very focussed.  
-* Plan on talking to 5 or 6 slides 
-* Don't try to cram a 30 minute talk into 5 minutes. It won't fit. 
+* Plan on talking to 5 or 6 slides
+* Don't try to cram a 30 minute talk into 5 minutes. It won't fit.
 * 5 minutes is not long enough to explain anything in detail.  Just give the big picture.  
-* Practice your talk at least 3 times to make sure it works and fits in 5 minutes. 
-* If you have more than 5 or 6 slides, you are probably screwed before you start and stand a high risk of being cut off in mid-flight unless you have rehearsed a few times with a timer to be sure you can fit everything in. 
-* You are advised not to read your acknowledgements out loud. It's a lightning talk for heaven's sake. 
+* Practice your talk at least 3 times to make sure it works and fits in 5 minutes.
+* If you have more than 5 or 6 slides, you are probably screwed before you start and stand a high risk of being cut off in mid-flight unless you have rehearsed a few times with a timer to be sure you can fit everything in.
+* You are advised not to read your acknowledgements out loud. It's a lightning talk for heaven's sake.
 
 <slot name="/events/gcc2013/footer" />

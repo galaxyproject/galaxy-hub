@@ -9,6 +9,7 @@ highlight: true
 
 We are happy to announce the latest release of the Genomics Virtual Lab (GVL),
 beta3, that brings two new major features:
+
 1. Isolated projects, and
 2. Multiple applications.
 

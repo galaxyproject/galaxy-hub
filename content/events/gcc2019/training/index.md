@@ -16,7 +16,7 @@ This track will take you from Galaxy newbie to Galaxy fluent in 3 introductory s
 
 1. [Introduction to Using Galaxy](https://sched.co/Lud9)
 1. [Beyond the Intro: Further Adventures in Using Galaxy](https://sched.co/LudI)
-1. [Quality control of HTS data](https://sched.co/LudR) 
+1. [Quality control of HTS data](https://sched.co/LudR)
 
 ## Introduction to Galaxy Administration Track
 

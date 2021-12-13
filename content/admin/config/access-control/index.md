@@ -116,7 +116,7 @@ The second item to restricting tool visibility is by adding in a [dynamic toolbo
 
 <!>  Filters will only hide Tools from the User Interface, they are still available and can be made visible by means of HTML manipulation. That said these feature is not a security feature, it is intended to separate multiple groups of tools and simplify the ToolBox.
 
-You can look at `lib/galaxy/tools/toolbox/filters/examples.py` for good examples of filters. For our example we'll restrict all sections with the word "Admin" in them. This is an easy way to sequester administrative tools for admins only. 
+You can look at `lib/galaxy/tools/toolbox/filters/examples.py` for good examples of filters. For our example we'll restrict all sections with the word "Admin" in them. This is an easy way to sequester administrative tools for admins only.
 
 ```python
 import logging
@@ -133,9 +133,9 @@ def admin( context, section ):
 ```
 
 
-To rewrite the important points from [UserDefinedToolboxFilters](/user-defined-toolbox-filters/) page, 
+To rewrite the important points from [UserDefinedToolboxFilters](/user-defined-toolbox-filters/) page,
 
-* Every filter is a small python function under lib/galaxy/tools/toolbox/filters/. 
+* Every filter is a small python function under lib/galaxy/tools/toolbox/filters/.
 
 * Return False to NOT display the tool
 
@@ -157,7 +157,7 @@ Each of these passes appropriate variables to the python function when they're c
 
 * `tool_label_filters: 'examples:label_filter'`
 
-Simply add the appropriate string to your `config/galaxy.yml` to activate a tool filter. 
+Simply add the appropriate string to your `config/galaxy.yml` to activate a tool filter.
 
 # Conclusion
 

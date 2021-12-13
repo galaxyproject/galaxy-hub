@@ -62,11 +62,11 @@ GCC2021 was our second virtual Galaxy Community Conference. This year we had 399
 The complete set of training materials, including many new videos, and a whole new Galaxy Development track, are now available for free and online:
 
 * **GCC2021 Science Track**: How to use Galaxy to get science done.
-  * [Training Materials](https://galaxyproject.org/events/gcc2021/training/science-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_3M7i8fQ3rH_sax6rmAsyz) (134 videos!)
+    * [Training Materials](https://galaxyproject.org/events/gcc2021/training/science-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_3M7i8fQ3rH_sax6rmAsyz) (134 videos!)
 * **GCC2021 Developer Track**: *A brand new set of tutorials on how to contribute to Galaxy development.*
-  * [Training Materials](https://galaxyproject.org/events/gcc2021/training/dev-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_gBvf4mzjIrI8IRhTIFAmc) (35 videos)
+    * [Training Materials](https://galaxyproject.org/events/gcc2021/training/dev-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_gBvf4mzjIrI8IRhTIFAmc) (35 videos)
 * **GCC2021 Administrator Track**: How to deploy, configure and maintain your own Galaxy instance.
-  * [Training Materials](https://galaxyproject.org/events/gcc2021/training//admin-track) & [Video Playlist](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9aiB2rLaAIVdjIos4rc9-y) (28 videos)
+    * [Training Materials](https://galaxyproject.org/events/gcc2021/training//admin-track) & [Video Playlist](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9aiB2rLaAIVdjIos4rc9-y) (28 videos)
 
 Many, many thanks to the instructors and helpers who contributed their time and effort to make GCC2021 Training a success.  And a huge thanks to Helena Rasche and Saskia Hiltemann for managing GCC2021 Training Week.
 
@@ -103,7 +103,7 @@ The [PeerJ Best Poster/Demonstration Award](https://gcc2021.sched.com/sponsor/pe
 * [Th-6.8: Peptide mass spectrometry imaging of pancreatic cancers – A data analysis workflow in Galaxy](https://sched.co/k5N0)
 * Presented by Maren Stillger of the University of Freiburg
 
-Maren's presentation took full advantage of the Remo conference platform, which means that the presentation was not a single PDF, but was rather interactive.  Maren's work will be highlighted in the PeerJ Blog, and this work is eligible for free publication in any PeerJ journal. 
+Maren's presentation took full advantage of the Remo conference platform, which means that the presentation was not a single PDF, but was rather interactive.  Maren's work will be highlighted in the PeerJ Blog, and this work is eligible for free publication in any PeerJ journal.
 
 <img class="card-img-bottom" src="/images/logos/peerj-logo-short-400.png" alt="PeerJ" />
 
@@ -228,7 +228,7 @@ There is not a lot going on in August, but what is happening is compelling.  See
 
 The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop, all participants will be able to upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments.
 
-It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions. 
+It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions.
 
 </div>
 
@@ -321,10 +321,10 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 * And several new use cases were described for UseGalaxy.eu:
-  * [Epigenomics and transcriptomics in cancer](https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo/)
-  * [Plant genomics](https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong/)
-  * [Colorectal cancer research](https://galaxyproject.eu/posts/2021/07/05/use-case-amir/)
-  * [Genomics, evolution, and ecology of organohalide-respiring bacteria](https://galaxyproject.eu/posts/2021/07/02/use-case-yi-yang/)
+    * [Epigenomics and transcriptomics in cancer](https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo/)
+    * [Plant genomics](https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong/)
+    * [Colorectal cancer research](https://galaxyproject.eu/posts/2021/07/05/use-case-amir/)
+    * [Genomics, evolution, and ecology of organohalide-respiring bacteria](https://galaxyproject.eu/posts/2021/07/02/use-case-yi-yang/)
 
 </div>
 
@@ -385,7 +385,7 @@ Three new tutorials from the Fahrner & Föll team teach you how to do Data Indep
 * [Library Generation for DIA Analysis](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/DIA_lib_OSW/tutorial.html):
 * [Statistical analysis of DIA data](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/DIA_Analysis_MSstats/tutorial.html)
 * [DIA Analysis using OpenSwathWorkflow](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/DIA_Analysis_OSW/tutorial.html)
- 
+
 </div>
 
 <!-- Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data -->
@@ -421,7 +421,7 @@ This tutorial got a major update, including many improvements based on feedback 
 
 </div>
 
-The venerable *Galaxy 101* tutorial is still venerable, but it is now also state of the art, thanks to an update from [Anton Nekrutenko](https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/). 
+The venerable *Galaxy 101* tutorial is still venerable, but it is now also state of the art, thanks to an update from [Anton Nekrutenko](https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/).
 </div>
 
 
@@ -440,7 +440,7 @@ We have [created a page](https://training.galaxyproject.org/training-material/ne
 </div>
 
 </div>
- 
+
 
 # Publications
 
@@ -487,7 +487,7 @@ Bosch, J. (2020).  [Vrije Universiteit Amsterdam]. https://atlarge-research.com/
 
 # Other News
 
-<div class="card-deck"> 
+<div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header trim-p">
@@ -496,7 +496,7 @@ Bosch, J. (2020).  [Vrije Universiteit Amsterdam]. https://atlarge-research.com/
 
 </div>
 
-[ELIXIR funded seven new life science data projects](https://elixir-europe.org/news/elixir-funds-seven-new-life-science-data-projects), including [Strengthen Data Management in Galaxy](https://elixir-europe.org/about-us/commissioned-services/strengthen-data-management-galaxy).  This project will enhance Galaxy's data management features to provide additional provenance information and improve the integration of Galaxy in the existing data management ecosystem. 
+[ELIXIR funded seven new life science data projects](https://elixir-europe.org/news/elixir-funds-seven-new-life-science-data-projects), including [Strengthen Data Management in Galaxy](https://elixir-europe.org/about-us/commissioned-services/strengthen-data-management-galaxy).  This project will enhance Galaxy's data management features to provide additional provenance information and improve the integration of Galaxy in the existing data management ecosystem.
 </div>
 
 
@@ -507,7 +507,7 @@ Bosch, J. (2020).  [Vrije Universiteit Amsterdam]. https://atlarge-research.com/
 
 </div>
 
-The European Galaxy Project turns out to be the glue between many scientific projects. 
+The European Galaxy Project turns out to be the glue between many scientific projects.
 
 </div>
 

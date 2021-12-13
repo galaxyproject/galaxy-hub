@@ -21,6 +21,7 @@ If you do not have a Galaxy repository yet or you do not want to update the exis
 ```
 $ git clone -b release_21.09 https://github.com/galaxyproject/galaxy.git
 ```
+
 ### Updating existing
 
 If you have an existing Galaxy repository and want to update it, run:
@@ -124,6 +125,7 @@ If `git log` produces no output, Galaxy is up-to-date. If `git log` produces a l
 ```
 $ git pull
 ```
+
 <div class="alert alert-info trim-p" role="alert">
 
 **Note**: After pulling changes, the Galaxy server needs to be stopped and restarted with the updated code. Restarting will interrupt any running jobs unless you are using a cluster configuration. For more information on how to make Galaxy restartable without interrupting users, see the [production server documentation](/admin/config/performance/production-server/).
@@ -186,12 +188,14 @@ If you're doing development or making changes to Galaxy, it is best practice to 
 Below are simplified instructions for shutting down local Galaxy server. If your configuration is more complicated, getting help from an administrator is recommended.
 
 ### The Galaxy process is running in the background
-  * If Galaxy was the last process running within a terminal window, bring it into the foreground with the command `fg` and shut down with `Ctrl-c`.
-  * If Galaxy is one of many processes running in the background within a terminal window, find it with the command `jobs`. The list of jobs will be numbered. Bring the Galaxy job to the foreground with the command `fg <number_of_the_job>` and shut down with `Ctrl-c`.
+
+* If Galaxy was the last process running within a terminal window, bring it into the foreground with the command `fg` and shut down with `Ctrl-c`.
+* If Galaxy is one of many processes running in the background within a terminal window, find it with the command `jobs`. The list of jobs will be numbered. Bring the Galaxy job to the foreground with the command `fg <number_of_the_job>` and shut down with `Ctrl-c`.
 
 ### I have lost the terminal window running Galaxy
-  * From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named similiar to `/path/to/galaxy/.venv/bin/python2.7 .venv/bin/uwsgi [additional arguments]`. Stop it with the command `kill PID`, where "PID" is the actual process ID number.
-  * If you kill only the process named `sh run.sh`, this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the process above before restarting Galaxy again.
+
+* From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named similiar to `/path/to/galaxy/.venv/bin/python2.7 .venv/bin/uwsgi [additional arguments]`. Stop it with the command `kill PID`, where "PID" is the actual process ID number.
+* If you kill only the process named `sh run.sh`, this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the process above before restarting Galaxy again.
 
 ## Installation automation
 

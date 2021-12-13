@@ -12,7 +12,7 @@ The Galaxy Community Fund is offering [fellowships](http://bit.ly/gcc2019fellows
 Fellowships include
 
 - full registration for any GCC2019 events you attend
-- the first €1200 in transport and lodging costs for the duration of those events 
+- the first €1200 in transport and lodging costs for the duration of those events
 
 If you are
 
@@ -23,8 +23,8 @@ If you are
 
 Fellowship applications will be selected based on multiple criteria including
 
-- Your research! And ... 
-- How well you can describe it in a poster, demo or lightning talk abstract 
+- Your research! And ...
+- How well you can describe it in a poster, demo or lightning talk abstract
 - How much impact attending will have on you and your current and future communities, especially historically underrepresented communities and research and education in developing countries.
 
 See the [application](http://bit.ly/gcc2019fellowships) for full details on what's covered and what we ask you to provide.

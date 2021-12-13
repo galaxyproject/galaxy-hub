@@ -6,7 +6,7 @@ title: GalaxyScientists
 
 <div class='left'><a href='/events/gcc2015/bofs/'><img src="/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **GalaxyScientists** [Birds of a Feather](/events/gcc2015/bofs/) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it! 
+This page describes the **GalaxyScientists** [Birds of a Feather](/events/gcc2015/bofs/) Meetup held at [GCC2015](http://gcc2015.tsl.ac.uk/). Don't worry if you don't know what this group is .. the BoF is intended to define and create it!
 
 When:: Tuesday, 7 July, 12:30 (Lunch)
 
@@ -43,7 +43,7 @@ If you are interested, please add your name below.
 * Gergely Izrael (izi)
 * Christian Rausch
 * Christian Schudoma
-* Hans-Rudolf Hotz, 
+* Hans-Rudolf Hotz,
 * Frederik Coppens
 * Rob Davidson
 * Helena Rasche
@@ -52,10 +52,10 @@ If you are interested, please add your name below.
 * Daniel Blankenberg
 * Meng Li
 * Bjoern Gruening
-* Ajayi Olabode 
+* Ajayi Olabode
 * Annette McGrath
 * Dave Bouvier
-* Tim Griffin 
+* Tim Griffin
 * Pratik Jagtap
 * Jennifer Hillman-Jackson
 * James Taylor
@@ -66,13 +66,14 @@ Send them to Jennifer Hillman-Jackson, Karen Ready or Mo Heydarian.
 
 ## Focus
 
-Form the group! Please reserve discussion topics to those that directly concern the core targets. 
+Form the group! Please reserve discussion topics to those that directly concern the core targets.
 
 Heads up [GalaxyAdmins](/community/galaxy-admins/), please join us! A primary target goal is to complement the input your community group provides to Galaxy. We'd love your help in determining optimal organizational strategies.
 
 ## Ideas
 
 Add these before the BoF to aid in focusing our discussion. We'll create a [https://wiki.galaxyproject.org/GalaxyScientists](https://wiki.galaxyproject.org/GalaxyScientists) group wiki during and migrate Ideas and Resolutions content there.
+
 * Create the community group "GalaxyScientists" ??
 * **Publish a group wiki: [https://wiki.galaxyproject.org/GalaxyScientists](https://wiki.galaxyproject.org/GalaxyScientists)**
 * Who?
@@ -99,17 +100,17 @@ The Galaxy Scientists may or may not include support, training, faq projects (bu
 
 1. **Establish formal name**
     Galaxy Scientists
-1. **Leadership roles**  
+2. **Leadership roles**  
     First term (duration of term was not defined, likely to be about 1 year) representatives
-    * Maria Doyle, Peter MacCallum Cancer Centre, Melbourne, Australia 
+    * Maria Doyle, Peter MacCallum Cancer Centre, Melbourne, Australia
     * Frederik Coppens, VIB Gent, Belgium
-1. **Recognition** by GalaxyProject.org
-1. **Email list or forum** for discussion of end-user topics. NOT “how to”, but rather defining strategies and/or suggestions to improve the end-user experience
-1. **Electronic communications:** google drive docs, alternates 
-1. **Meetings:** method, format, frequency
-  1. meetings could be held via Google hangouts or equivalent video conferences
-  1. meetings at GCC
-  1. potential meetings of local subgroups
+3. **Recognition** by GalaxyProject.org
+4. **Email list or forum** for discussion of end-user topics. NOT “how to”, but rather defining strategies and/or suggestions to improve the end-user experience
+5. **Electronic communications:** google drive docs, alternates
+6. **Meetings:** method, format, frequency
+    1. meetings could be held via Google hangouts or equivalent video conferences
+    2. meetings at GCC
+    3. potential meetings of local subgroups
 
 ### Long Term Goals
 
@@ -117,11 +118,11 @@ To start with, a set of initial long term goals was defined. These goals may be 
 
 1. **Collection of usage metrics**
     Initially based on pre-existing user groups across various institutions, the collection process is expected to capture data about how Galaxy is used by the wider end-user community in order to give the Galaxy Scientists a voice backed up by community needs and not by individual preferences.
-1. **End-User Feedback **
+1. **End-User Feedback**
     Establish a prioritized list of the likes, challenges, wish-list items, analysis needs, or gaps of the end-user community.
 1. **Communication and Collaboration**
     Members offer support and/or work directly with tool developers on projects (e.g. the IUC). <br />
-    Examples: 
+    Examples:
     1. define and share how important a tool/feature is to the user-community to aid in prioritization
     1. test/review a tool/function so that is is presented optimally in the UI based on how end-users work within Galaxy
     1. pairing scientists and software engineers on new development so that both can leverage their area(s) of expertise

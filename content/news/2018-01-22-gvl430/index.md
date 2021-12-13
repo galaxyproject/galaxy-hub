@@ -21,6 +21,7 @@ from [CloudLaunch](https://launch.usegalaxy.org/catalog).
 The GVL comes with all the same functionality as the standalone Galaxy CloudMan
 did including easy setup, cluster scaling, Galaxy admin user management, etc.
 In addition, each launched GVL comes with the following application services:
+
 * A dedicated Jupyter Notebook server
 * A dedicated RStudio server
 * Remote desktop access (via browser)

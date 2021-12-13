@@ -3,9 +3,9 @@ title: ‘GVL 4.4.0 release'
 tease: Galaxy 18.05 and overridable configs
 date: '2018-09-28'
 ---
-In collaboration with the University of Melbourne and [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/), we are pleased to announce the release of the Genomics Virtual Lab (GVL) 4.4.0 on Amazon Web Services (AWS) and NeCTAR clouds. 
+In collaboration with the University of Melbourne and [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/), we are pleased to announce the release of the Genomics Virtual Lab (GVL) 4.4.0 on Amazon Web Services (AWS) and NeCTAR clouds.
 
-The [GVL](https://www.gvl.org.au/) is a comprehensive data analysis workbench that comes as a complete package with a variety of pre-installed and configured software (Galaxy, RStudio, Jupyter) coupled with cloud compute infrastructure. Each instance of the GVL can be dynamically scaled via CloudMan and customized with additional tools or reference data. There are also no storage or job quotas. 
+The [GVL](https://www.gvl.org.au/) is a comprehensive data analysis workbench that comes as a complete package with a variety of pre-installed and configured software (Galaxy, RStudio, Jupyter) coupled with cloud compute infrastructure. Each instance of the GVL can be dynamically scaled via CloudMan and customized with additional tools or reference data. There are also no storage or job quotas.
 
 Key features of this release are as follows:
 

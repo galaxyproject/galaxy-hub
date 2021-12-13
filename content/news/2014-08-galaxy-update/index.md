@@ -7,7 +7,7 @@ date: "2014-08-01"
 </div>
 
 The [August 2014 Galaxy Update Newsletter](/galaxy-updates/2014-08/) is out.  Here's a preview of what's inside:
- 
+
 * [GCC2015 will be held in Norwich, United Kingdom, 6-8 July 2015](/galaxy-updates/2014-08/#gcc2015-norwich-united-kingdom-6-8-july-2015)
 * [GCC2014 was a tremendous success](/galaxy-updates/2014-08/#gcc2014-report).  Watch the talks, review the slides, posters, and BoF writeups.
 * [ISMB and BOSC 2014 slides, posters and videos](/galaxy-updates/2014-08/#galaxy--ismb-and-bosc-2014-slides-and-posters) too.

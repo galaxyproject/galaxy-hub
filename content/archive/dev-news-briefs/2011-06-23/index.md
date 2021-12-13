@@ -15,6 +15,7 @@ upgrade: `% hg pull -u -r 720455407d1c`
 ## GCC 2011
 
 We had ~ 140  attendees at the **2011 Galaxy Community Conference**, held May 25-26, in the Netherlands!
+
 * Please see [GCC2011](https://galaxyproject.org/gcc2011/) for links to slides and to videos of the talks.
 * Feedback has been very positive with 100% of respondents saying they would recommend future Galaxy meetings to others.  
 * Many thanks to the **[Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/)** for co-sponsoring and hosting this event.
@@ -32,10 +33,11 @@ Python 2.7 is now supported in beta. Functional tests with 2.7 are a pass. This 
 ### Cloudman Admin Functions
 
 Galaxy's **Cloudman** now has an admin interface that allows you to gain insight and control many of the services underlying your cloud instance. Namely, you can:
+
 * Add Galaxy admin users through the web interface.
 * Update Galaxy source (even from a custom repository).
 * View logs and configurations for individual services.
-  * e.g., Galaxy, Postgres, SGE, as well as control some of the system-level services
+    * e.g., Galaxy, Postgres, SGE, as well as control some of the system-level services
 
 To get to the admin interface, just click the 'Admin' link at the top right corner on the main **Cloudman** UI.
 
@@ -44,12 +46,13 @@ To get to the admin interface, just click the 'Admin' link at the top right corn
 ### New Galaxy Tool Shed
 
 Rather than rigidly structured tool archives, the foundational component of Galaxy's **Tool Shed** is now an hg (Mercurial) repository.  
+
 * The Test/Sandbox **Tool Shed** available at [http://testtoolshed.g2.bx.psu.edu](http://testtoolshed.g2.bx.psu.edu)
 * The Production **Tool Shed** is available at [http://toolshed.g2.bx.psu.edu](http://toolshed.g2.bx.psu.edu)
 
 A new select list was added to the upload form in Galaxy's **Tool Shed** with the following label:
 
- * Remove files in the repository (relative to the upload point) that are not in the uploaded archive?*
+* Remove files in the repository (relative to the upload point) that are not in the uploaded archive?*
 
  The selection pertains only to uploaded tar archives, not to single file uploads. If 'Yes' is selected, files that exist in the repository (relative to the selected upload point) but that are not in the uploaded archive will be removed from the repository. Otherwise, all existing repository files will remain and the uploaded archive will be added to the repository. Resolves #585
 
@@ -60,22 +63,22 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 ### Tools
 
 * RNA-seq tools:
-  * Rename and reorder Cuffdiff outputs for clarity.
-  * Make Cuffcompare wrapper compatible with v1.0.3.
+    * Rename and reorder Cuffdiff outputs for clarity.
+    * Make Cuffcompare wrapper compatible with v1.0.3.
 * 2bit/twobit datatypes now supported. (thanks Peter van Heusden!)
 * New tools for FASTA de(interlacing) added. Resolves #447
 
 ### Histories
 
 * Add the download/save icon to datasets in an error state, but that contain data. Fixes #207 and #583
-* Disk space usage accounting: 
-  * Users can see how much disk a history is consuming. 
-  * Disk used is also a column on the history grid. 
-  * Users can also forcibly purge a dataset from their history. 
-* Admin notes: 
-  * New script (scripts/set_dataset_sizes.py) which will set the value of the new total_size column on the dataset table (includes the contents of the extra_files_path and metadata files).
-  * The ability for users to purge their own data is conditional on a config variable. Due to limitations in the grid framework, the button can't be removed from the history grid, but clicking it just does the same thing as delete but adds a message explaining that the purge operation wasn't performed.
-  * For users who were pulling from galaxy-central and that already upgraded to database version 78 prior to this distribution, the following SQL query should be run to set the default value of the 'HistoryDatasetAssociation' purged column:
+* Disk space usage accounting:
+    * Users can see how much disk a history is consuming.
+    * Disk used is also a column on the history grid.
+    * Users can also forcibly purge a dataset from their history.
+* Admin notes:
+    * New script (scripts/set_dataset_sizes.py) which will set the value of the new total_size column on the dataset table (includes the contents of the extra_files_path and metadata files).
+    * The ability for users to purge their own data is conditional on a config variable. Due to limitations in the grid framework, the button can't be removed from the history grid, but clicking it just does the same thing as delete but adds a message explaining that the purge operation wasn't performed.
+    * For users who were pulling from galaxy-central and that already upgraded to database version 78 prior to this distribution, the following SQL query should be run to set the default value of the 'HistoryDatasetAssociation' purged column:
 
  UPDATE history_dataset_association SET purged=false WHERE purged IS NULL
 
@@ -130,7 +133,7 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 * Add baseline support for translating special chars to html escape codes for correct html display in the Galaxy Tool Shed. Fixes #564
 * Commit versions of tools from the last_gen Tool Shed in order of oldest -> newest in the next-gen tool shed. Fixes #578
 * Fix sample tracking to correctly import samples from a csv file.  Add the ability to include field values (in addition to field names) when defining sample form rows by importing from a csv file. Fixes #398
-  * The csv file must be in the following format: the [:FieldValue] is optional, the named form field will contain the value after the ':' if included.
+    * The csv file must be in the following format: the [:FieldValue] is optional, the named form field will contain the value after the ':' if included.
       `SampleName,DataLibraryName,FolderName,HistoryName,WorkflowName,Field1Name:Field1Value,Field2Name:Field2Value...`
 * Change the Galaxy tool shed search feature on the Categories grid to search Repository names and descriptions rather than Category names and descriptions. The ability to search Category names and descriptions has been eliminated. Fixes #480
 * Add support for uncompressing a gz or bz2 compressed file upon upload to a galaxy tool shed repository. Fixes #586
@@ -154,7 +157,7 @@ A new select list was added to the upload form in Galaxy's **Tool Shed** with th
 
 ### About Galaxy
 
-The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html). 
+The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html).
 
 **Galaxy** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
@@ -171,7 +174,7 @@ Join us at **Twitter**
 ```#usegalaxy```
 
 
-[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject) 
+[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject)
 
 
 

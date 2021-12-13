@@ -117,11 +117,12 @@ After the cluster has started, we can access it by clicking the provided URL.
 Log in with username *admin* and the password you
 chose during the launch process. It may take a few more minutes to start Galaxy
 after the interface becomes available but clicking on the link under _Access Address_
-will lead you to Galaxy. 
+will lead you to Galaxy.
 
 ----
 
 Depending on your interest, the documentation contains a wealth of information. Here are some places that might interest you:
+
 * [Capacity planning](/cloudman/capacity-planning/)
 * [Cluster applications and services](/cloudman/services/)
 * [Sharing and publishing a cluster](/cloudman/sharing/)

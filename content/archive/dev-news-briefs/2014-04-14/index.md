@@ -49,26 +49,29 @@ date: 2014-04-14
 # Data
 
 1. New and updated reference genomes added to [Rsync](https://wiki.galaxyproject.org/Admin/UseGalaxyRsync) server that mirrors contents of the public Main [http://usegalaxy.org](http://usegalaxy.org) instance
-  * New/updated genomes: 115
+
+* New/updated genomes: 115
     * includes hg38
     * note: all available in tool "Extract Genomic DNA"
-  * New bowtie indexes: 60
-  * New bowtie2 indexes: 115
-  * New BWA indexes: 54
-  * New lastz indexes: 54
-  * New sam indexes: 64
-  * New picard (srma) indexes: 59
-  * New liftOver mappings: 163
+* New bowtie indexes: 60
+* New bowtie2 indexes: 115
+* New BWA indexes: 54
+* New lastz indexes: 54
+* New sam indexes: 64
+* New picard (srma) indexes: 59
+* New liftOver mappings: 163
+
 1. MAF hg19 100waymultiz conservation alignment sourced from [UCSC](http://genome.ucsc.edu)
-1. Replaced: The sam index for hg_g1k_b37 was updated to use "samtools faidx" with version 0.1.18 (original from GATK 1.4 bundle used 0.1.13). The older index lead to some issues with BAM<->SAM conversion using the newer SAMTools version. 
+1. Replaced: The sam index for hg_g1k_b37 was updated to use "samtools faidx" with version 0.1.18 (original from GATK 1.4 bundle used 0.1.13). The older index lead to some issues with BAM<->SAM conversion using the newer SAMTools version.
 
 <br />
 # Visualizations
 
 1. Framework turning https://trello.com/c/kdhJ1Dit
-1. *Trackster*: 
-  * View complete read/feature across tile boundaries, in all tiles https://trello.com/c[/Q03dC1](/archive/dev-news-briefs/2014-04-14/Q03dC1/)QC
-  * Better handling of deep coverage regions in read tracks https://trello.com/c/TxxzqWNx
+1. *Trackster*:
+
+* View complete read/feature across tile boundaries, in all tiles https://trello.com/c[/Q03dC1](/archive/dev-news-briefs/2014-04-14/Q03dC1/)QC
+* Better handling of deep coverage regions in read tracks https://trello.com/c/TxxzqWNx
 
 <table>
   <tr>
@@ -91,12 +94,14 @@ date: 2014-04-14
 # UI
 
 1. New/Updated Dataset Action Controls:
-  * Located at the top of the history pane
-  * Ability to select: all, none, or check individual datasets
-  * Actions: Hide, Unhide, Delete, Undelete, Permanently delete (Purge)
-  * https://wiki.galaxyproject.org/Learn/ManagingDatasets#Searching_Datasets
-  * Additional actions pending review/implementation
-  * https://trello.com/c/8gLGPzxV, https://trello.com/c/mq1m6X5M, 
+
+* Located at the top of the history pane
+* Ability to select: all, none, or check individual datasets
+* Actions: Hide, Unhide, Delete, Undelete, Permanently delete (Purge)
+* https://wiki.galaxyproject.org/Learn/ManagingDatasets#Searching_Datasets
+* Additional actions pending review/implementation
+* https://trello.com/c/8gLGPzxV, https://trello.com/c/mq1m6X5M,
+
 1. When multiple tool versions installed, default to the latest version https://trello.com/c/zRBZ9nvD
 1. Better handling when one of many versions of a tool repo is uninstalled https://trello.com/c[/BmdG2201](/archive/dev-news-briefs/2014-04-14/BmdG2201/)
 1. Unify the places where histories are shown and used: UI view and in core code https://trello.com/c/7cN0nmKH
@@ -110,10 +115,12 @@ date: 2014-04-14
 <br />
 # API
 
-1. New functions: 
-  * Make histories importable and/or published via the API is now implemented (sharing with individual users a pending feature update) https://trello.com/c/Bcsadi1q
-  * History export/import https://trello.com/c/qhu1KdWU
-  * Ability to extract workflow from a history to workflows https://trello.com/c/ZTehdMZH
+1. New functions:
+
+* Make histories importable and/or published via the API is now implemented (sharing with individual users a pending feature update) https://trello.com/c/Bcsadi1q
+* History export/import https://trello.com/c/qhu1KdWU
+* Ability to extract workflow from a history to workflows https://trello.com/c/ZTehdMZH
+
 1. Improved history payload and returned error consistency https://trello.com/c/fWC7WgQf
 1. Check `ftype` attribute (if defined) on test output datasets https://trello.com/c/hFFlM4gY
 1. Published histories contents now fully accessible (no permissions issue) https://trello.com/c/KME3ZRRY
@@ -122,30 +129,40 @@ date: 2014-04-14
 <br />
 # Core
 
-1. Admin: 
-  * History view, allow importing purged datasets https://trello.com/c/tbhpQdMF
-  * User list, show 'activated' and 'create_time' columns https://trello.com/c[/C6Mh](/archive/dev-news-briefs/2014-04-14/C6Mh/)EHWo
-  * Setting user quota at zero is now permitted (no `ZeroDivisionError`) https://trello.com/c/38NoBtlL
-  * Admin user now has permissions to copy datasets from any history to a library https://trello.com/c/Ed91qIUC
-  * Improvements to 'Impersonate User' implementation https://trello.com/c/lny2me4u
-1. Config: 
-  * Rename `tool-data/shared/ucsc/ucsc_build_sites.txt` to `ucsc_build_sites.txt.sample` https://trello.com/c/FTbvqDMd
-1. Jobs: 
-  * Prevent 'unicode' strings being sent to pbs library as hostname https://trello.com/c/NlFXYDta
-  * Fix Torque CLI runner to recognize complete ('C') state as 'ok' https://trello.com/c/vSO52k17
-  * Are now cancelled if a running history item is deleted (via API). https://trello.com/c/PDmUdtbw
-1. LWR: 
-  * Several updates including communication via message queue, more planned https://trello.com/c/6DcXqXNt
-  * Introduce and extend along with `ComputeEnvironment`, to eliminate string based path rewriting https://trello.com/c/dL0poowc
-1. Eggs: 
-  * Guppy 0.1.9+ https://trello.com/c/zeSnHEav
-  * Boto 2.25 to facilitate launching into VPC https://trello.com/c/QXfJQhlS
-  * PyYAML 3.10 to be used initially with `Cloudlaunch` for parsing `persistent_data yaml` https://trello.com/c/JMZkqBtH
+1. Admin:
+
+* History view, allow importing purged datasets https://trello.com/c/tbhpQdMF
+* User list, show 'activated' and 'create_time' columns https://trello.com/c[/C6Mh](/archive/dev-news-briefs/2014-04-14/C6Mh/)EHWo
+* Setting user quota at zero is now permitted (no `ZeroDivisionError`) https://trello.com/c/38NoBtlL
+* Admin user now has permissions to copy datasets from any history to a library https://trello.com/c/Ed91qIUC
+* Improvements to 'Impersonate User' implementation https://trello.com/c/lny2me4u
+
+1. Config:
+
+* Rename `tool-data/shared/ucsc/ucsc_build_sites.txt` to `ucsc_build_sites.txt.sample` https://trello.com/c/FTbvqDMd
+
+1. Jobs:
+
+* Prevent 'unicode' strings being sent to pbs library as hostname https://trello.com/c/NlFXYDta
+* Fix Torque CLI runner to recognize complete ('C') state as 'ok' https://trello.com/c/vSO52k17
+* Are now cancelled if a running history item is deleted (via API). https://trello.com/c/PDmUdtbw
+
+1. LWR:
+
+* Several updates including communication via message queue, more planned https://trello.com/c/6DcXqXNt
+* Introduce and extend along with `ComputeEnvironment`, to eliminate string based path rewriting https://trello.com/c/dL0poowc
+
+1. Eggs:
+
+* Guppy 0.1.9+ https://trello.com/c/zeSnHEav
+* Boto 2.25 to facilitate launching into VPC https://trello.com/c/QXfJQhlS
+* PyYAML 3.10 to be used initially with `Cloudlaunch` for parsing `persistent_data yaml` https://trello.com/c/JMZkqBtH
 
 <br />
 # Pull Requests Merged
 
 Thanks to our Galaxy community contributors!
+
 1. 309 - Job module for API (list and inspect jobs). Kyle Ellrott. https://trello.com/c/s2Gk6QlH
 1. 312 - Remove unused imports and unused variables. Fix spacing. Nicola Soranzo. https://trello.com/c/iWaf1ak4
 1. 316 - Fixing non-string parameter selection for job searches. Kyle Ellrott. https://trello.com/c/ZXZ9lEkN
@@ -189,13 +206,17 @@ Thanks to our Galaxy community contributors!
 ## Repositories
 
 1. New Tool Shed categories https://trello.com/c/niCdaARH
-  * Genome-Wide Association Study
-  * Imaging
-  * RNA
+
+* Genome-Wide Association Study
+* Imaging
+* RNA
+
 1. Add support for the new repository type: Repository suite definition https://trello.com/c/sxXMmfLs
 1. Enhancements for updating a repository https://trello.com/c/c4Y9t7db
-  * Will now trigger the install of new dependencies
-  * Handles newly defined repository dependencies included in updates to installed repositories
+
+* Will now trigger the install of new dependencies
+* Handles newly defined repository dependencies included in updates to installed repositories
+
 1. Defined a base set of utilities that can be expected to be on systems into which tool dependencies are being installed https://trello.com/c/gYlRdqwr, related to project-in-planning https://trello.com/c/7VTlX9rD
 1. Dependency `ez_setup.py` added to keep `package_pysam_0_7_7` from failing on tool shed https://trello.com/c/AkACDWix
 1. Update Main Tool Shed `Picard` repo that contained invalid tools https://trello.com/c/mxxHWxLY
@@ -235,7 +256,7 @@ Thanks to our Galaxy community contributors!
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the **[Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/)** at **[Penn State](http://www.psu.edu/)**, and the **[Department of Biology](http://www.bio.jhu.edu/)** at **[Johns Hopkinis University](http://www.jhu.edu/)**. 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the **[Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/)** at **[Penn State](http://www.psu.edu/)**, and the **[Department of Biology](http://www.bio.jhu.edu/)** at **[Johns Hopkinis University](http://www.jhu.edu/)**.
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by **[NSF](http://www.nsf.gov/)**, **[NHGRI](http://www.genome.gov/)**, the **[Huck Institutes of the Life Sciences](http://www.huck.psu.edu/)**, and **[The Institute for CyberScience at Penn State](http://www.ics.psu.edu/)**, and **[Johns Hopkins University](http://www.jhu.edu/)**.
 

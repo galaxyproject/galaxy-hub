@@ -8,6 +8,6 @@ The [McArthur Lab](http://mcarthurbioinformatics.ca/) in the [McMaster Universit
 
 From the [job announcement on EvolDir](http://bit.ly/11WryeP):
 
- The candidate will configure BLADE and other hardware for general bioinformatics analysis, development of a GIT version control system, **construction of an in house Galaxy server (usegalaxy.org)**, and development of a new interface, stand-alone tools, APIs, and algorithms for the CARD (based on [Chado](http://gmod.org/wiki/Chado)). 
+ The candidate will configure BLADE and other hardware for general bioinformatics analysis, development of a GIT version control system, **construction of an in house Galaxy server (usegalaxy.org)**, and development of a new interface, stand-alone tools, APIs, and algorithms for the CARD (based on [Chado](http://gmod.org/wiki/Chado)).
 
 See the [full announcement](http://bit.ly/11WryeP) for details.

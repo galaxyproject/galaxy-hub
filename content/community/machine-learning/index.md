@@ -156,8 +156,8 @@ You have done the heavy lifting and now want to use your coding skills inside Ju
 
 Tool | Description | Reference
 | --- | --- | --- |
-[Jupyter](https://live.usegalaxy.eu/?tool_id=interactive_tool_jupyter_notebook) | Jupyter lab | 
-[RStudio](https://live.usegalaxy.eu/?tool_id=interactive_tool_rstudio_notebook) | RStudio | 
+[Jupyter](https://live.usegalaxy.eu/?tool_id=interactive_tool_jupyter_notebook) | Jupyter lab |
+[RStudio](https://live.usegalaxy.eu/?tool_id=interactive_tool_rstudio_notebook) | RStudio |
 
 
 # Contributors

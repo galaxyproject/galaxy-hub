@@ -84,7 +84,7 @@ It's all about community.  There are many Galaxy communities and one (or more) o
 
 ## Admin Documentation
 
-[Admin documentation]() is everywhere.  Add some links.
+[Admin documentation](/admin/) is everywhere.  Add some links.
 
 ## Admin Training
 
@@ -92,8 +92,8 @@ Running your own single-user Galaxy instance on your laptop is easy to do.  Admi
 
 * [Go at your own pace admin training](https://training.galaxyproject.org/training-material/topics/admin/) is available from the [Galaxy Training Network](#galaxy-training-network-training-materials)
 * In person multi-day admin training is also available, at least twice a year.
-  * The annual [Galaxy Community Conferences](#galaxy-community-conferences-gcc) offer a dedicated admin training day, followed by a selection of other admin training topics on a second training day.
-  * Week-long Galaxy Admin training workshops have been offered every year since 2016. The most recent one was in [January 2019](/events/2019-admin-training/).  The next one will likely be between October 2019 and March 2020 - probably in Europe.
+    * The annual [Galaxy Community Conferences](#galaxy-community-conferences-gcc) offer a dedicated admin training day, followed by a selection of other admin training topics on a second training day.
+    * Week-long Galaxy Admin training workshops have been offered every year since 2016. The most recent one was in [January 2019](/events/2019-admin-training/).  The next one will likely be between October 2019 and March 2020 - probably in Europe.
 
 ## Ansible
 

@@ -25,7 +25,7 @@ Alternatively You can retrieve your API key by sending [baseauth](http://en.wiki
 
 # Programming Language Bindings
 
-Various language specific libraries for interfacing with the Galaxy API have been developed by the Galaxy community: 
+Various language specific libraries for interfacing with the Galaxy API have been developed by the Galaxy community:
 
 
 * [BioBlend](https://github.com/galaxyproject/bioblend) contains a set of Python bindings
@@ -43,22 +43,23 @@ Various language specific libraries for interfacing with the Galaxy API have bee
 Many examples and API utility scripts are shipped with Galaxy and BioBlend. You can browse them [here](https://github.com/galaxyproject/galaxy/tree/dev/scripts/api) and [here](https://github.com/galaxyproject/bioblend/tree/master/docs/examples) respectively.
 
 ## Open Source Projects
-  * [Refinery](https://github.com/parklab/refinery-platform) (builds and runs workflows using [bioblend](http://bioblend.readthedocs.org/en/latest/))
-  * The [Galaxy IPython Docker Runtime](https://github.com/bgruening/docker-ipython-notebook) (leverages [bioblend](http://bioblend.readthedocs.org/en/latest/) to interface with Galaxy's history). 
-  * [Molgenis](https://github.com/molgenis/molgenis) (supports [exporting](https://github.com/molgenis/molgenis/commit/57d229a8d36fa9dae1155685e85187399863057f) to Galaxy via [blend4j](https://github.com/galaxyproject/blend4j))
-  * [trait_workflow_runner](https://github.com/CTMM-TraIT/trait_workflow_runner) (used to run Galaxy workflows from [transMART](https://github.com/transmart) via [blend4j](https://github.com/jmchilton/blend4j)).
-  * [clj-blend](https://github.com/chapmanb/clj-blend) (a Clojure library built on [blend4j](https://github.com/galaxyproject/blend4j)).
+
+* [Refinery](https://github.com/parklab/refinery-platform) (builds and runs workflows using [bioblend](http://bioblend.readthedocs.org/en/latest/))
+* The [Galaxy IPython Docker Runtime](https://github.com/bgruening/docker-ipython-notebook) (leverages [bioblend](http://bioblend.readthedocs.org/en/latest/) to interface with Galaxy's history).
+* [Molgenis](https://github.com/molgenis/molgenis) (supports [exporting](https://github.com/molgenis/molgenis/commit/57d229a8d36fa9dae1155685e85187399863057f) to Galaxy via [blend4j](https://github.com/galaxyproject/blend4j))
+* [trait_workflow_runner](https://github.com/CTMM-TraIT/trait_workflow_runner) (used to run Galaxy workflows from [transMART](https://github.com/transmart) via [blend4j](https://github.com/jmchilton/blend4j)).
+* [clj-blend](https://github.com/chapmanb/clj-blend) (a Clojure library built on [blend4j](https://github.com/galaxyproject/blend4j)).
 
 ## HTTP Methods
 
 HTTP methods correspond to operations in Galaxy. Operations are implemented as standalone scripts (in [scripts/api/](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/)) and as routines in [scripts/api/common.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/common.py).
 
-| HTTP Method |  [common.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/common.py) Routine  |  [Standalone](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/)  | 
-| ----------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | 
-| GET    |  display()  |  [display.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/display.py)  | 
-| PUT    |  update()   |  [update.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/update.py)  | 
-| POST   |  submit()   |  [create.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/create.py)  | 
-| DELETE |  delete()   |  [delete.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/delete.py)  | 
+| HTTP Method |  [common.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/common.py) Routine  |  [Standalone](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/)  |
+| ----------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| GET    |  display()  |  [display.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/display.py)  |
+| PUT    |  update()   |  [update.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/update.py)  |
+| POST   |  submit()   |  [create.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/create.py)  |
+| DELETE |  delete()   |  [delete.py](https://github.com/galaxyproject/galaxy/tree/master/scripts/api/delete.py)  |
 
 
 # Galaxy's API behind a proxy

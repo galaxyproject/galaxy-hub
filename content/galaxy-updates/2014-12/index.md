@@ -12,8 +12,8 @@ Welcome to the December 2014 *[Galaxy Update](/galaxy-updates/)*, a summary of w
 The [French Working Group GALAXY-IFB (Institut Français de Bioinformatique)](http://www.ifb-galaxy.org/index.html) is organizing a second [Galaxy Day](http://www.ifb-galaxy.org/GALAXYDAYS2014.html) around the Galaxy portal.  The event will be at Institut Curie in Paris over two days.  This year, we want to involve two communities: *biologists* (also known as Galaxy 'users') and *bioinformaticians* (Galaxy 'developers').  The goal is to present user experience around the portal, from a single user to a wider community:
 
 * Dec 3 (09:00-17:00)
-  * Galaxy's user experiences, and discussion on how the platform is (or is not) useful for building analysis.
-  * Technology talks (new environment, Galaxy in production, ...)
+    * Galaxy's user experiences, and discussion on how the platform is (or is not) useful for building analysis.
+    * Technology talks (new environment, Galaxy in production, ...)
 
 Interested? Please contact [ifb DOT galaxy AT sb DASH roscoff DOT fr](mailto:ifb DOT galaxy AT sb DASH roscoff DOT fr) for more information.
 
@@ -61,7 +61,7 @@ Please start giving some thought to what topics you would like to see covered at
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.ifb-galaxy.org/GALAXYDAYS2014.html'><img src="/images/logos/GalaxyIFB.png" alt="Galaxy Day" width="140" /></a>&nbsp;
 <a href='/events/vsu2014/'><img src="/images/logos/VSULogo.jpg" alt="Intro to Galaxy Workshop at Virginia State University" height="70" /></a>
 <a href='https://pag.confex.com/pag/xxiii/webprogram/Session2641.html'><img src="/images/logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2015)" height="80" /></a>
@@ -231,7 +231,7 @@ The Galaxy is expanding! Please help it grow.
 * [Senior Development Engineer - Bioinformatics](http://it.ly/1yGvefn), and [Bioinformatician II](http://bit.ly/1vBhgxB), University of Massachusetts Medical School
 * Searching for [bioinformaticians, post-docs, PhD students and software engineers](/news/bioinformatician-freiburg2014/) in Freiburg, Germany at [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs), and the [Bioinformatics Group at the University of Freiburg](http://www.bioinf.uni-freiburg.de//?en)
 * [Research Specialist](http://bit.ly/13pqd0T), Michigan State University, United States
-* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
+* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
@@ -242,6 +242,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 # Mailing Lists Moved
 
 The [Galaxy mailing lists](/mailing-lists/) have been moved from the lists.bx.psu.edu domain to the lists.galaxyproject.org domain.  This transition should be largely transparent, but there are a few things to be aware of:
+
 * List sender addresses and headers will change to reflect the updated domain: from bx.psu.edu to galaxyproject.org.  
 * Existing email filters you have set up may require adjustments.
 * Posts from lists.galaxyproject.org could be categorized as spam until you train your filtering method.
@@ -271,46 +272,46 @@ Two new [public Galaxy servers](/use/) were announced in November:
 <div class='right solid'><a href='http://try.pitagora-galaxy.org/galaxy/'><img src="/use/archive/pitagora-galaxy/pitagora.png" alt="Pitagora-Galaxy" width="300" /></a></div>
 
 * *Links:*
-  * [Pitagora-Galaxy Server](http://try.pitagora-galaxy.org/galaxy/)
-  * [Pitagora-Galaxy Project](http://www.pitagora-galaxy.org/about_en)
+    * [Pitagora-Galaxy Server](http://try.pitagora-galaxy.org/galaxy/)
+    * [Pitagora-Galaxy Project](http://www.pitagora-galaxy.org/about_en)
 * *Domain/Purpose:*
-  * The public, general purpose Galaxy servers of the [Pitagora-Galaxy Project](http://www.pitagora-galaxy.org/about_en). This server is intended for testing and sharing. Heavy analysis should be performed using the project's identical virtual machine (VM) or Amazon Machine Image (AMI).
+    * The public, general purpose Galaxy servers of the [Pitagora-Galaxy Project](http://www.pitagora-galaxy.org/about_en). This server is intended for testing and sharing. Heavy analysis should be performed using the project's identical virtual machine (VM) or Amazon Machine Image (AMI).
 * *Comments:*
-  * "We are running a website for sharing users' know-how, and distributing a virtual environment where we configured Galaxy with selected workflows and tools. Now, you can perform our analysis workflows on the following three environments.
-    * Access to the public web site for testing.
-    * Download the virtual machine to your own PC or server.
-    * Launch AMI (Amazon machine image) on AWS cloud.
+    * "We are running a website for sharing users' know-how, and distributing a virtual environment where we configured Galaxy with selected workflows and tools. Now, you can perform our analysis workflows on the following three environments.
+        * Access to the public web site for testing.
+        * Download the virtual machine to your own PC or server.
+        * Launch AMI (Amazon machine image) on AWS cloud.
     Since Pitagora-Galaxy enables us to run the same workflows on any infrastructure and rebuild the environments in any time, we can quickly use Galaxy, and at the same time, ensure the reproducibility of the analyses. In addition, we plan to add a connector for Garuda Desktop, a desktop application platform, for data analyses that cannot be covered only with Galaxy tools.
 * *User Support:*
-  * Email: [Ryota Yamanaka](mailto:yamanaka AT genome DOT rcast.u-tokyo.ac.jp)
-* *Quotas:* 
-  * Public Server:
-    * See the [instructions](http://try.pitagora-galaxy.org/galaxy/) at Pitagora-Galaxy Server.
-  * VM and AMI:
-    * None.
+    * Email: [Ryota Yamanaka](mailto:yamanaka AT genome DOT rcast.u-tokyo.ac.jp)
+* *Quotas:*
+    * Public Server:
+        * See the [instructions](http://try.pitagora-galaxy.org/galaxy/) at Pitagora-Galaxy Server.
+    * VM and AMI:
+        * None.
 * *Sponsor(s):*
-  * [Genome Science Division, RCAST, The University of Tokyo](http://www.genome.rcast.u-tokyo.ac.jp/en/)
-  * [Laboratory for Disease Systems Modeling, IMS, RIKEN](http://www.riken.jp/en/research/labs/ims/dis_sys_model/)
-  * [Database Center for Life Science, ROIS](http://dbcls.rois.ac.jp/en/)
+    * [Genome Science Division, RCAST, The University of Tokyo](http://www.genome.rcast.u-tokyo.ac.jp/en/)
+    * [Laboratory for Disease Systems Modeling, IMS, RIKEN](http://www.riken.jp/en/research/labs/ims/dis_sys_model/)
+    * [Database Center for Life Science, ROIS](http://dbcls.rois.ac.jp/en/)
 
 ## PIA
 
 <div class='right solid'><a href='http://galaxy-dev.cnsi.ucsb.edu/pia/'><img src="/use/archive/pia/pia-image.jpg" alt="PIA" /></a></div>
 
 * *Links:*
-  * [PIA Galaxy](http://galaxy-dev.cnsi.ucsb.edu/pia/)
-  * "[Using phylogenetically-informed annotation (PIA) to search for light-interacting genes in transcriptomes from non-model organisms](http://www.biomedcentral.com/1471-2105/15/350/abstract)," by Speiser, *et al.* in *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2014, 15:350  doi:10.1186/s12859-014-0350-x
-  * [PIA code in Bitbucket](https://bitbucket.org/osiris_phylogenetics/pia/)
+    * [PIA Galaxy](http://galaxy-dev.cnsi.ucsb.edu/pia/)
+    * "[Using phylogenetically-informed annotation (PIA) to search for light-interacting genes in transcriptomes from non-model organisms](http://www.biomedcentral.com/1471-2105/15/350/abstract)," by Speiser, *et al.* in *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2014, 15:350  doi:10.1186/s12859-014-0350-x
+    * [PIA code in Bitbucket](https://bitbucket.org/osiris_phylogenetics/pia/)
 * *Domain/Purpose:*
-  * Pylogenetics and gene interaction
+    * Pylogenetics and gene interaction
 * *Comments:*
-  * "PIA (Phylogenetically Informed Annotation) is a set of tools for the Galaxy Bioinformatics Platform. In general, PIA uses BLAST, an alignment program, and RAxML's read placement algorithm to put unknown sequences into pre-calculated phylogenetic trees. We provide 102 genes called LIT (Light Interaction Toolkit) - vision genes like phototransduction genets - for use in PIA."
+    * "PIA (Phylogenetically Informed Annotation) is a set of tools for the Galaxy Bioinformatics Platform. In general, PIA uses BLAST, an alignment program, and RAxML's read placement algorithm to put unknown sequences into pre-calculated phylogenetic trees. We provide 102 genes called LIT (Light Interaction Toolkit) - vision genes like phototransduction genets - for use in PIA."
 * *User Support:*
-  * [PIA Manual](https://bytebucket.org/osiris_phylogenetics/pia/raw/05d213dcb31e4cda9ccc68201ee7f8854161b2c9/docs/PIAwebManual_090914.pdf)
-  * [Getting Started with PIA](https://www.youtube.com/watch?v=m23KxhxhTAE) screencast.
-* *Quotas:* 
+    * [PIA Manual](https://bytebucket.org/osiris_phylogenetics/pia/raw/05d213dcb31e4cda9ccc68201ee7f8854161b2c9/docs/PIAwebManual_090914.pdf)
+    * [Getting Started with PIA](https://www.youtube.com/watch?v=m23KxhxhTAE) screencast.
+* *Quotas:*
 * *Sponsor(s):*
-  * [Oakley Lab](https://labs.eemb.ucsb.edu/oakley/todd/) at [UC Santa Barbara](http://www.ucsb.edu/)
+    * [Oakley Lab](https://labs.eemb.ucsb.edu/oakley/todd/) at [UC Santa Barbara](http://www.ucsb.edu/)
 
 # Galaxy Community Hubs
 
@@ -347,80 +348,80 @@ Look for a new Galaxy distribution soon.
 
 Here are new contributions for the past *two* months.
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
-  * [mira_datatypes](https://toolshed.g2.bx.psu.edu/view/peterjc/mira_datatypes):  Defines 'mira' datatype for the MIRA Assembly Format. Note that Galaxy already has a 'maf' datatype for the Multiple (sequence) Alignment Format (MAF). This is specifically for the MIRA Assembly Format (also called MAF). Previously only on the Test Tool Shed.
-  * [clc_assembly_cell](https://toolshed.g2.bx.psu.edu/view/peterjc/clc_assembly_cell): Galaxy wrapper for the CLC Assembly Cell suite from CLCBio. This is a wrapper for the commercial "CLC Assembly Cell" suite from CLCBio which includes a de novo assembler and read mapper: http://www.clcbio.com/products/clc-assembly-cell/  Uploaded v0.0.2, previously only on the Test Tool Shed. 
-  * [seq_composition](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_composition): Uploaded v0.0.1 (with embedded citation). Sequence composition. Counts the letters in given sequence files, returning a table listing them with percentages. Suitable for use on assemblies or gene/protein sets. Probably not suitable for raw NGS reads.
-  * [mira4_assembler](https://toolshed.g2.bx.psu.edu/view/peterjc/mira4_assembler): MIRA 4.0 assembler Wrapper for core functionality of assembly tool MIRA 4.0.  Accepts data from Solexa/Illumina, Roche 454, Ion Torrent, PacBio and Sanger capillary sequencing.  The key MIRA output files are captured, but the other files are deleted when the job finishes.  Uploaded v0.0.4, previously only on the Test Tool Shed. 
-  * [samtools_depad](https://toolshed.g2.bx.psu.edu/view/peterjc/samtools_depad): Runs "samtools depad" to remap a SAM/BAM file using a padded reference (with gap characters) giving a new BAM file using an unpadded (ungapped) reference. Uploaded v0.0.1, previously only on the Test Tool Shed. 
-  * [coverage_stats](https://toolshed.g2.bx.psu.edu/view/peterjc/coverage_stats): This tool runs the commands ``samtools idxstats`` and ``samtools depth`` from the SAMtools toolkit, and parses their output to produce a consise summary of the coverage information for each reference sequence.
+    * [mira_datatypes](https://toolshed.g2.bx.psu.edu/view/peterjc/mira_datatypes):  Defines 'mira' datatype for the MIRA Assembly Format. Note that Galaxy already has a 'maf' datatype for the Multiple (sequence) Alignment Format (MAF). This is specifically for the MIRA Assembly Format (also called MAF). Previously only on the Test Tool Shed.
+    * [clc_assembly_cell](https://toolshed.g2.bx.psu.edu/view/peterjc/clc_assembly_cell): Galaxy wrapper for the CLC Assembly Cell suite from CLCBio. This is a wrapper for the commercial "CLC Assembly Cell" suite from CLCBio which includes a de novo assembler and read mapper: http://www.clcbio.com/products/clc-assembly-cell/  Uploaded v0.0.2, previously only on the Test Tool Shed.
+    * [seq_composition](https://toolshed.g2.bx.psu.edu/view/peterjc/seq_composition): Uploaded v0.0.1 (with embedded citation). Sequence composition. Counts the letters in given sequence files, returning a table listing them with percentages. Suitable for use on assemblies or gene/protein sets. Probably not suitable for raw NGS reads.
+    * [mira4_assembler](https://toolshed.g2.bx.psu.edu/view/peterjc/mira4_assembler): MIRA 4.0 assembler Wrapper for core functionality of assembly tool MIRA 4.0.  Accepts data from Solexa/Illumina, Roche 454, Ion Torrent, PacBio and Sanger capillary sequencing.  The key MIRA output files are captured, but the other files are deleted when the job finishes.  Uploaded v0.0.4, previously only on the Test Tool Shed.
+    * [samtools_depad](https://toolshed.g2.bx.psu.edu/view/peterjc/samtools_depad): Runs "samtools depad" to remap a SAM/BAM file using a padded reference (with gap characters) giving a new BAM file using an unpadded (ungapped) reference. Uploaded v0.0.1, previously only on the Test Tool Shed.
+    * [coverage_stats](https://toolshed.g2.bx.psu.edu/view/peterjc/coverage_stats): This tool runs the commands ``samtools idxstats`` and ``samtools depth`` from the SAMtools toolkit, and parses their output to produce a consise summary of the coverage information for each reference sequence.
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [bedtools](https://toolshed.g2.bx.psu.edu/view/iuc/bedtools): bedtools: a powerful toolset for genome arithmetic Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. While each individual tool is designed to do a relatively simple task (e.g., intersect two interval files), quite sophisticated analyses can be conducted by combining multiple bedtools operations. 
-    * Repository-Maintainer: Björn Grüning
-    * Repository-Development: https://github.com/galaxy-iuc/tool_shed/
+    * [bedtools](https://toolshed.g2.bx.psu.edu/view/iuc/bedtools): bedtools: a powerful toolset for genome arithmetic Collectively, the bedtools utilities are a swiss-army knife of tools for a wide-range of genomics analysis tasks. The most widely-used tools enable genome arithmetic: that is, set theory on the genome. For example, bedtools allows one to intersect, merge, count, complement, and shuffle genomic intervals from multiple files in widely-used genomic file formats such as BAM, BED, GFF/GTF, VCF. While each individual tool is designed to do a relatively simple task (e.g., intersect two interval files), quite sophisticated analyses can be conducted by combining multiple bedtools operations.
+        * Repository-Maintainer: Björn Grüning
+        * Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 
 * *From [acrylamide](https://toolshed.g2.bx.psu.edu/view/acrylamide):*
-  * [misc_tool_workflow_linkers](https://toolshed.g2.bx.psu.edu/view/acrylamide/misc_tool_workflow_linkers): Contains my Tool Factory tools So far includes only one tool for dealing with seqprep output's gzip'd nature.
+    * [misc_tool_workflow_linkers](https://toolshed.g2.bx.psu.edu/view/acrylamide/misc_tool_workflow_linkers): Contains my Tool Factory tools So far includes only one tool for dealing with seqprep output's gzip'd nature.
 
 * *From [big-tiandm](https://toolshed.g2.bx.psu.edu/view/big-tiandm):*
-  * [boost_graph](https://toolshed.g2.bx.psu.edu/view/big-tiandm/boost_graph): perl model  Boost-Graph This is a perl model named Boost-Graph
+    * [boost_graph](https://toolshed.g2.bx.psu.edu/view/big-tiandm/boost_graph): perl model  Boost-Graph This is a perl model named Boost-Graph
 
 * *From [pjbriggs](https://toolshed.g2.bx.psu.edu/view/pjbriggs):*
-  * [weeder2](https://toolshed.g2.bx.psu.edu/view/pjbriggs/weeder2): Motif discovery in sequences from coregulated genes of a single species. Weeder2 is a program for finding novel motifs (transcription factor binding sites) conserved in a set of regulatory regions of related genes
+    * [weeder2](https://toolshed.g2.bx.psu.edu/view/pjbriggs/weeder2): Motif discovery in sequences from coregulated genes of a single species. Weeder2 is a program for finding novel motifs (transcription factor binding sites) conserved in a set of regulatory regions of related genes
 
 ### Tool Suites
 
 * *From [arkarachai-fungtammasan](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan):*
-  * [microsat_ngs_profiling_suite_trfm](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan/microsat_ngs_profiling_suite_trfm): all dependency for microsattelite_ngs package and microsattelite_ngs itself
+    * [microsat_ngs_profiling_suite_trfm](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan/microsat_ngs_profiling_suite_trfm): all dependency for microsattelite_ngs package and microsattelite_ngs itself
 
 ### Packages / Tool Dependency Definitions
 
 * *From [agordon](https://toolshed.g2.bx.psu.edu/view/agordon):*
-  * [package_datamash_1_0_6](https://toolshed.g2.bx.psu.edu/view/agordon/package_datamash_1_0_6): GNU Datamash is a grouping and summarizing tool on tabular data files GNU Datamash is a command-line program which performs basic numeric, textual and statistical operations on input textual data files.  it is designed to be portable and reliable, and aid researchers to easily automate analysis pipelines, without writing code or even short scripts. Home page: http://www.gnu.org/software/datamash
+    * [package_datamash_1_0_6](https://toolshed.g2.bx.psu.edu/view/agordon/package_datamash_1_0_6): GNU Datamash is a grouping and summarizing tool on tabular data files GNU Datamash is a command-line program which performs basic numeric, textual and statistical operations on input textual data files.  it is designed to be portable and reliable, and aid researchers to easily automate analysis pipelines, without writing code or even short scripts. Home page: http://www.gnu.org/software/datamash
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc):*
-  * [package_gnuplot_4_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_gnuplot_4_6): Contains a tool dependency definition that downloads and compiles version 4.6 of gnuplot.  Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS Windows, OSX, VMS, and many other platforms. It was originally created to allow scientists and students to visualize mathematical functions and data interactively, but has grown to support many non-interactive uses such as web scripting. It is also used as a plotting engine by third-party applications like Octave. Uploaded package as tested on the Test Tool Shed. http://www.gnuplot.info/
-    * Repository-Maintainer: Björn Grüning
-    * Repository-Development: https://github.com/galaxy-iuc/tool_shed/
+    * [package_gnuplot_4_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_gnuplot_4_6): Contains a tool dependency definition that downloads and compiles version 4.6 of gnuplot.  Gnuplot is a portable command-line driven graphing utility for Linux, OS/2, MS Windows, OSX, VMS, and many other platforms. It was originally created to allow scientists and students to visualize mathematical functions and data interactively, but has grown to support many non-interactive uses such as web scripting. It is also used as a plotting engine by third-party applications like Octave. Uploaded package as tested on the Test Tool Shed. http://www.gnuplot.info/
+        * Repository-Maintainer: Björn Grüning
+        * Repository-Development: https://github.com/galaxy-iuc/tool_shed/
 
 * *From [iyad](https://toolshed.g2.bx.psu.edu/view/iyad):*
-  * [package_blast_2_2_26](https://toolshed.g2.bx.psu.edu/view/iyad/package_blast_2_2_26): adapted tool_dependencies.xml from Blast Plus 2.2.26 repository. Legacy NCBI Blast tools v2.2.26 Based on the NCBI Blast Plus package repository, this package will build and install the legacy NCBI Blast tools v2.2.26 for various operating systems and architectures.
+    * [package_blast_2_2_26](https://toolshed.g2.bx.psu.edu/view/iyad/package_blast_2_2_26): adapted tool_dependencies.xml from Blast Plus 2.2.26 repository. Legacy NCBI Blast tools v2.2.26 Based on the NCBI Blast Plus package repository, this package will build and install the legacy NCBI Blast tools v2.2.26 for various operating systems and architectures.
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [package_fastqc_0_11_2](https://toolshed.g2.bx.psu.edu/view/devteam/package_fastqc_0_11_2): Uploaded from GH fastqc v 0.11.2 fastqc v 0.11.2
+    * [package_fastqc_0_11_2](https://toolshed.g2.bx.psu.edu/view/devteam/package_fastqc_0_11_2): Uploaded from GH fastqc v 0.11.2 fastqc v 0.11.2
 
 ### Select Updates
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/devteam):*
-  * [blast_datatypes](https://toolshed.g2.bx.psu.edu/view/devteam/blast_datatypes):  v0.0.19, adds blastdbp and pssm-asn1 datatypes.
+    * [blast_datatypes](https://toolshed.g2.bx.psu.edu/view/devteam/blast_datatypes):  v0.0.19, adds blastdbp and pssm-asn1 datatypes.
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/tyty):*
-  * [structurefold](https://toolshed.g2.bx.psu.edu/view/tyty/structurefold): updated scripts, removed *.pyc and .DS_Store. Uploaded wrapper that correctly handles structure prediction without constraints.
+    * [structurefold](https://toolshed.g2.bx.psu.edu/view/tyty/structurefold): updated scripts, removed *.pyc and .DS_Store. Uploaded wrapper that correctly handles structure prediction without constraints.
 
 * *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer):*
-  * [coverage_report](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/coverage_report): new version 0.0.3 (fix on headless R); changed tool.xml to request R 3.0.3; Correction to png calls to use cairo instead of x11. thanks to Eric Enns for pointing  this out.
+    * [coverage_report](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/coverage_report): new version 0.0.3 (fix on headless R); changed tool.xml to request R 3.0.3; Correction to png calls to use cairo instead of x11. thanks to Eric Enns for pointing  this out.
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
-  * [effectivet3](https://toolshed.g2.bx.psu.edu/view/peterjc/effectivet3): Uploaded v0.0.13, embed citation, relax test for floating point differences
-  * [clinod](https://toolshed.g2.bx.psu.edu/view/peterjc/clinod): Uploaded v0.0.7, uses $GALAXY_SLOTS and embeds citation in tool XML.
-  * [predictnls](https://toolshed.g2.bx.psu.edu/view/peterjc/predictnls): Uploaded v0.0.7 with embedded citations
-  * [blast_rbh](https://toolshed.g2.bx.psu.edu/view/peterjc/blast_rbh): Uploaded v0.1.5, NCBI BLAST+ 2.2.30 etc
-  * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): Uploaded v0.2.6, embedded citations and uses $GALAXY_SLOTS
+    * [effectivet3](https://toolshed.g2.bx.psu.edu/view/peterjc/effectivet3): Uploaded v0.0.13, embed citation, relax test for floating point differences
+    * [clinod](https://toolshed.g2.bx.psu.edu/view/peterjc/clinod): Uploaded v0.0.7, uses $GALAXY_SLOTS and embeds citation in tool XML.
+    * [predictnls](https://toolshed.g2.bx.psu.edu/view/peterjc/predictnls): Uploaded v0.0.7 with embedded citations
+    * [blast_rbh](https://toolshed.g2.bx.psu.edu/view/peterjc/blast_rbh): Uploaded v0.1.5, NCBI BLAST+ 2.2.30 etc
+    * [tmhmm_and_signalp](https://toolshed.g2.bx.psu.edu/view/peterjc/tmhmm_and_signalp): Uploaded v0.2.6, embedded citations and uses $GALAXY_SLOTS
 
 * *From [crs4](https://toolshed.g2.bx.psu.edu/view/crs4):*
-  * [mosaik2](https://toolshed.g2.bx.psu.edu/view/crs4/mosaik2): Update Orione citation. Upgrade Mosaik dependency to v. 2.2.28 (2.2.30 is buggy, see https://github.com/wanpinglee/MOSAIK/issues/11 ). Use 2.1.78 neural networks. Add package_zlib_1_2_8 and package_samtools_0_1_19 dependencies. Add <citations>.
+    * [mosaik2](https://toolshed.g2.bx.psu.edu/view/crs4/mosaik2): Update Orione citation. Upgrade Mosaik dependency to v. 2.2.28 (2.2.30 is buggy, see https://github.com/wanpinglee/MOSAIK/issues/11 ). Use 2.1.78 neural networks. Add package_zlib_1_2_8 and package_samtools_0_1_19 dependencies. Add <citations>.
 
 # Other News
 
-* Doing data-intensive biology in Poland? There's [a server for you](https://galaxy.plgrid.pl)!  [Become a user](http://bit.ly/1u0UDAC). 
+* Doing data-intensive biology in Poland? There's [a server for you](https://galaxy.plgrid.pl)!  [Become a user](http://bit.ly/1u0UDAC).
 * From [Yvan Le Bras](https://twitter.com/Yvan2935): You want to test [Stacks](http://creskolab.uoregon.edu/stacks/) on Galaxy? Find the links towards our Genocloud VM on [GUGGO training page](http://tinyurl.com/ku3etrv) (with a nod to [Julian Catchen](https://twitter.com/jcatchen))
 * [Claus from the University of Oslo](https://github.com/Tarostar) developed an [app for checking Galaxy on your phone](https://github.com/Tarostar/QMLGalaxyPortal). [You can help test it](https://biostar.usegalaxy.org/p/9624/).
-* From [CRS4 Galaxy](https://twitter.com/CRS4Galaxy): [Seven Mycoplasma hyosynoviae strains assembled using Orione CRS4 Galaxy](http://goo.gl/XMMci1) 
+* From [CRS4 Galaxy](https://twitter.com/CRS4Galaxy): [Seven Mycoplasma hyosynoviae strains assembled using Orione CRS4 Galaxy](http://goo.gl/XMMci1)
 * From [Enis Afgan](https://twitter.com/EnisAfgan): Just wrapped up my first talk at Supercomputing 14: [Deciphering Big Data Stacks: An Overview of Big Data Tools](http://bit.ly/BDStacks).
 * From [Robert Davidson](https://twitter.com/bobbledavidson): My conference presentation on metabolomics and Galaxy Project at [#MMW2014](https://twitter.com/hashtag/MMW2014?src=hash) citable via [FigShare](https://doi.org/10.6084/m9.figshare.1243500)
 * From [Ron Horst](https://twitter.com/Captnupoz): Been away for a month, come back to a new GVL with Galaxy, IPython, Rstudio. See the [GVL Dashboard](http://130.56.250.190) and GET your own from http://genome.edu.au

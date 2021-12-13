@@ -12,9 +12,9 @@ title: February 2016 Galaxy News
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the February 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
+Welcome to the February 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 
 # GCC2016
@@ -23,7 +23,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 <a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="https://web.archive.org/web/http://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
 </div>
 
-[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes 2 days of hackathons, [2 days of training](https://gcc16.sched.org/grid-full#2016-06-26), and a two day meeting featuring accepted presentations, keynotes, poster sessions, the new Visualization Showcase and Software Demo sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking. 
+[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes 2 days of hackathons, [2 days of training](https://gcc16.sched.org/grid-full#2016-06-26), and a two day meeting featuring accepted presentations, keynotes, poster sessions, the new Visualization Showcase and Software Demo sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking.
 
 ## GCC2016 Early Registration is Open
 
@@ -36,7 +36,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 
 </div>
 
-We are pleased to announce that **[early registration for GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/registration/) is now open**. 
+We are pleased to announce that **[early registration for GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/registration/) is now open**.
 Registration costs depend on which events you register for, your career stage & affiliation, and when you register.  Early bird registration ends May 20 and is up to 40% less than regular registration rates.  Early bird registration starts at less than $45 / day for students and postdocs, and at $65 / day for other attendees from non-profits.
 
 You can also sign up for [conference housing](https://web.archive.org/web/http://gcc2016.iu.edu/location) during registration.  
@@ -55,7 +55,7 @@ You are strongly encouraged to review the [training](https://gcc16.sched.org/gri
 
 </div>
 
-**[Abstract submission](http://bit.ly/gcc2016abssub) for [GCC2016](http://gcc2016.iu.edu/) is now open.**  We are accepting oral and poster presentation abstracts, as well as proposals for the brand new Visualization Showcase and Software Demo track. You may submit similar content for oral presentations, posters, and demos. Topics should be of interest to those working in high-throughput data analysis and research. Presentations that are Galaxy-centric are encouraged, but not required. If you are submitting a demo you are encouraged to consider submitting a corresponding poster. 
+**[Abstract submission](http://bit.ly/gcc2016abssub) for [GCC2016](http://gcc2016.iu.edu/) is now open.**  We are accepting oral and poster presentation abstracts, as well as proposals for the brand new Visualization Showcase and Software Demo track. You may submit similar content for oral presentations, posters, and demos. Topics should be of interest to those working in high-throughput data analysis and research. Presentations that are Galaxy-centric are encouraged, but not required. If you are submitting a demo you are encouraged to consider submitting a corresponding poster.
 
 **The deadline for oral presentation abstracts is March 25, 2016**.  Abstracts will be reviewed and submitters will be notified of acceptance status no later than April 11, 2016.
 
@@ -69,7 +69,7 @@ This is an ideal time to share your work with the community.
 <a href='http://www.lenovo.com/systems'><img src="/images/logos/LenovoRedBig.png" alt="Lenovo" width="180" /></a>
 </div>
 
-And we are pleased to welcome **[Lenovo](http://www.lenovo.com/systems)**, as a first time **[Gold Sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php)** of GCC.  Lenovo offers a [comprehensive portfolio of high-performance computing infrastructure](https://depot.galaxyproject.org/hub/attachments/documents/LenovoLifeSciences.pdf) designed to accelerate research, reduce IT complexity and maximize asset utilization in the life sciences.  Lenovo and its network of partners offer a broad portfolio of open, industry-standard infrastructure solutions that can help accelerate product innovation without becoming locked into expensive, inflexible proprietary environments. Lenovo Solution for Life Sciences is comprised of pre-integrated, high-performance servers, storage systems and networking equipment, advanced file systems and integrated workflow management software. Designed to accommodate large data volumes and compute-intensive applications, this solution can help organizations accelerate time to results at a lower total cost of ownership while making it easier to scale your HPC cluster as business grows. 
+And we are pleased to welcome **[Lenovo](http://www.lenovo.com/systems)**, as a first time **[Gold Sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php)** of GCC.  Lenovo offers a [comprehensive portfolio of high-performance computing infrastructure](https://depot.galaxyproject.org/hub/attachments/documents/LenovoLifeSciences.pdf) designed to accelerate research, reduce IT complexity and maximize asset utilization in the life sciences.  Lenovo and its network of partners offer a broad portfolio of open, industry-standard infrastructure solutions that can help accelerate product innovation without becoming locked into expensive, inflexible proprietary environments. Lenovo Solution for Life Sciences is comprised of pre-integrated, high-performance servers, storage systems and networking equipment, advanced file systems and integrated workflow management software. Designed to accommodate large data volumes and compute-intensive applications, this solution can help organizations accelerate time to results at a lower total cost of ownership while making it easier to scale your HPC cluster as business grows.
 
 <br />
 
@@ -97,7 +97,7 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
     Rachel Legendre, Agnès Baudin-Baillieu, Isabelle Hatin, Olivier Namy, *Bioinformatics*, Vol. 31, No. 15. (01 August 2015), pp. 2586-2588, doi:10.1093/bioinformatics/btv174
 
 * [Integrating UIMA with Alveo, a human communication science virtual laboratory](https://doi.org/10.3115/v1/W14-5202)
-    Dominique Estival, Steve Cassidy, Karin Verspoor, Andrew MacKinlay, Denis Burnham, In Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT (August 2014), pp. 12-22, doi:10.3115/v1/W14-5202 
+    Dominique Estival, Steve Cassidy, Karin Verspoor, Andrew MacKinlay, Denis Burnham, In Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT (August 2014), pp. 12-22, doi:10.3115/v1/W14-5202
 
 * [Alveo, a Human Communication Science Virtual Laboratory](http://www.aclweb.org/anthology/U/U14/U14-1013.pdf)
     Dominique Estival, Steve Cassidy, In Proceedings of the Australasian Language Technology Association Workshop 2014 (November 2014), pp. 104-107
@@ -105,7 +105,7 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
 * [Integrating Data-Intensive Computing Systems with Biological Data Analysis Frameworks](https://doi.org/10.1109/pdp.2015.106)
     Edvard Pedersen, Inge A. Raknes, Martin Ernstsen, Lars Ailo Bongo, In Parallel, Distributed and Network-Based Processing (PDP), 2015 23rd Euromicro International Conference on (March 2015), pp. 733-740, doi:10.1109/pdp.2015.106
 
-* [Deciphering regulation in eukaryotic cell: from sequence to function](http://arxiv.org/abs/1409.6661) 
+* [Deciphering regulation in eukaryotic cell: from sequence to function](http://arxiv.org/abs/1409.6661)
     Valentina Boeva, (23 Sep 2014)
 
 * [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract)
@@ -178,7 +178,7 @@ The new papers were tagged with:
 
 There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
-<div class='center'> 
+<div class='center'>
 <a href='https://mod2016.com/'><img src="/images/logos/MontpellierOmicsDays.png" alt="Initiation à l’environnement UNIX et à la plateforme GALAXY" height="70" /></a> &nbsp;
 <a href='http://www.agbt.org/meetings/agbt-general-meeting/'><img src="/images/logos/AGBTLogo.jpg" alt="BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)" height="65" /></a> &nbsp;
 <a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'><img src="/images/logos/SupAgroMontpelierLogoGreen.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" /></a> &nbsp;
@@ -292,7 +292,7 @@ The Galaxy is expanding! Please help it grow.
 
 * [Postdoc position on methods for transcriptome analysis of disease-specific cells](http://bit.ly/1PrQfVQ), University of Oslo
 * [Computational Biology post-doc](http://bit.ly/1J1WLla), IMI-eTRIKS consortium, CNRS-EISBM, Lyon France. Contribute "to the development of eTRIKS Galaxy tools and workflows for disease stratification and biomarker discovery from single and multiple omics datasets."
-* [Post-doc in Functional Genomics Of Obesity-Related Diseases](http://bit.ly/1QFyDHK), Inserm, Lille, France 
+* [Post-doc in Functional Genomics Of Obesity-Related Diseases](http://bit.ly/1QFyDHK), Inserm, Lille, France
 * [Software Engineer](/news/software-engineer-ohsu/), Oregon Health Sciences University, Portland, Oregon, United States
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
@@ -300,7 +300,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <br />
 
----- 
+----
 
 
 # New Tutorials ... and Tours!
@@ -313,17 +313,17 @@ A few [new tutorials are now available on GitHub](https://github.com/nekrut/gala
 
 ## An updated and expanded Galaxy 101
 
-First there is an updated and expanded version of the [Galaxy 101 Tutorial](https://github.com/nekrut/galaxy/wiki/Galaxy101-1).  Galaxy 101 introduces the Galaxy platform, how to get data from UCSC, and performing data analysis using genomic coordinates in multiple datasets.  The tutorial also covers the basics of Galaxy Histories, creating and using re-runnable workflows. 
+First there is an updated and expanded version of the [Galaxy 101 Tutorial](https://github.com/nekrut/galaxy/wiki/Galaxy101-1).  Galaxy 101 introduces the Galaxy platform, how to get data from UCSC, and performing data analysis using genomic coordinates in multiple datasets.  The tutorial also covers the basics of Galaxy Histories, creating and using re-runnable workflows.
 
 ## Processing many samples at once
 
 There is a new tutorial on using dataset collections titled [Processing many samples at once](https://github.com/nekrut/galaxy/wiki/Processing-many-samples-at-once).  From the tutorial
 
- Here we will show Galaxy features designed to help with the analysis of large numbers of samples. When you have just a few samples - clicking through them is easy. But once you've got hundreds - it becomes very annoying. In Galaxy we have introduced Dataset collections that allow you to combine numerous datasets in a single entity that can be easily manipulated. 
+ Here we will show Galaxy features designed to help with the analysis of large numbers of samples. When you have just a few samples - clicking through them is easy. But once you've got hundreds - it becomes very annoying. In Galaxy we have introduced Dataset collections that allow you to combine numerous datasets in a single entity that can be easily manipulated.
 
 ## Running Du Novo interactively from Galaxy: An ABL1 example
 
-And there is also a new tutorial, [Running Du Novo interactively from Galaxy: An ABL1 example](https://github.com/galaxyproject/dunovo/wiki), that "explains how to perform discovery of low frequency variants from duplex sequencing data" using an example *ABL1* dataset from [Schmitt and colleagues](http://www.nature.com/nmeth/journal/v12/n5/full/nmeth.3351.html) (SRA accession [SRR1799908](http://www.ncbi.nlm.nih.gov/sra/?term=SRR1799908)). 
+And there is also a new tutorial, [Running Du Novo interactively from Galaxy: An ABL1 example](https://github.com/galaxyproject/dunovo/wiki), that "explains how to perform discovery of low frequency variants from duplex sequencing data" using an example *ABL1* dataset from [Schmitt and colleagues](http://www.nature.com/nmeth/journal/v12/n5/full/nmeth.3351.html) (SRA accession [SRR1799908](http://www.ncbi.nlm.nih.gov/sra/?term=SRR1799908)).
 
 
 <div class='left'><br />
@@ -339,7 +339,7 @@ And there is also a new tutorial, [Running Du Novo interactively from Galaxy: An
 [UseGalaxy.org](https://usegalaxy.org) now supports *interactive guided tours* and two introductory tours are available:
 
 1. [User Interface Introduction](https://usegalaxy.org/?tour_id=core.galaxy_ui)<br />
-2.  [Galaxy Histories Introduction](https://usegalaxy.org/?tour_id=core.history)
+2. [Galaxy Histories Introduction](https://usegalaxy.org/?tour_id=core.history)
 
 Interactive tours are a way to walk through Galaxy, following a set of steps to accomplish a task or learn a feature.  The list of supported interactive tours on any server can be found in the *Help* menu.  Support for interactive tours will be included in the 16.01 Galaxy release.  Look for more tours in future releases.
 
@@ -359,7 +359,7 @@ Want to try a pre-configured Galaxy instance on your Mac OS X or Windows machine
 
 1. [Install the Docker Toolbox](https://www.docker.com/products/docker-toolbox) on your computer.  
 1. Launch Kitematic.
-1. Search for "galaxy" and select one of the relevant Galaxy options. This searches Docker Hub, a repository for Docker containers.  "bgruening/galaxy-stable" will launch the latest generic Galaxy instance. 
+1. Search for "galaxy" and select one of the relevant Galaxy options. This searches Docker Hub, a repository for Docker containers.  "bgruening/galaxy-stable" will launch the latest generic Galaxy instance.
 1. Once the instance has started, click on the web preview pane, and voilà, you have a running Galaxy instance.
 
 ----
@@ -375,24 +375,24 @@ Want to try a pre-configured Galaxy instance on your Mac OS X or Windows machine
   * [LAPPS Grid Galaxy Workflow Engine](http://galaxy.lappsgrid.org/), part of the [Languarge Application Grid](http://www.lappsgrid.org/)
 
 * *Domain/Purpose:*
-  * "An open, interoperable web service platform for natural language processing (NLP) research and development. The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."
+    * "An open, interoperable web service platform for natural language processing (NLP) research and development. The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."
 * *Comments:*
-  * "This is a **Work In Progress**. Many of the services here are undergoing active development and their behaviour is likely to change without notice."
+    * "This is a **Work In Progress**. Many of the services here are undergoing active development and their behaviour is likely to change without notice."
 * *User Support:*
-  * [Landing page](http://galaxy.lappsgrid.org/) includes a simple tutorial.
-* *Quotas:* 
-  * Anyone can create a login, or it can be used anonymously
+    * [Landing page](http://galaxy.lappsgrid.org/) includes a simple tutorial.
+* *Quotas:*
+    * Anyone can create a login, or it can be used anonymously
 * *Sponsor(s):*
-  * See the [LAPPS Grid Participants page](http://www.lappsgrid.org/participants/). Includes 
-    * [Vassar College](http://www.cs.vassar.edu/)
-    * [Brandeis University](http://www.cs.brandeis.edu/)
-    * [Carnegie-Mellon University](http://www.lti.cs.cmu.edu/)
-    * [University of Pennsylvania](http://www.ldc.upenn.edu/)
-    * [NICT Language Grid Project](http://langrid.org/en/index.html) and [Matsubara Lab at Kyoto University](http://www.ai.soc.i.kyoto-u.ac.jp/index.html) 
-    * [PANACEA project](http://www.panacea-lr.eu/)
-    * [CELI / LinguaGrid](http://www.linguagrid.org/)
-    * [EXCITEMENT project](http://www.excitement-project.eu/)
-    * [Centre for Language Technology](http://www.clt.mq.edu.au/) at [Macquarie University](http://www.mq.edu.au/)
+    * See the [LAPPS Grid Participants page](http://www.lappsgrid.org/participants/). Includes
+        * [Vassar College](http://www.cs.vassar.edu/)
+        * [Brandeis University](http://www.cs.brandeis.edu/)
+        * [Carnegie-Mellon University](http://www.lti.cs.cmu.edu/)
+        * [University of Pennsylvania](http://www.ldc.upenn.edu/)
+        * [NICT Language Grid Project](http://langrid.org/en/index.html) and [Matsubara Lab at Kyoto University](http://www.ai.soc.i.kyoto-u.ac.jp/index.html)
+        * [PANACEA project](http://www.panacea-lr.eu/)
+        * [CELI / LinguaGrid](http://www.linguagrid.org/)
+        * [EXCITEMENT project](http://www.excitement-project.eu/)
+        * [Centre for Language Technology](http://www.clt.mq.edu.au/) at [Macquarie University](http://www.mq.edu.au/)
 
 # Releases
 
@@ -414,7 +414,7 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems.
 
-Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
+Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/).
 
 ## Other Releases
 
@@ -437,7 +437,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 **[CloudMan](/cloudman/) 15.12**
 
-[CloudMan](/cloudman/) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
+[CloudMan](/cloudman/) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser.
 
 This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/releases) includes:
 
@@ -453,7 +453,7 @@ This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/re
 **Pulsar 0.6.1**
 
 [Pulsar 0.6](https://pypi.python.org/pypi/pulsar-app/) was released in December.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
- 
+
 The 0.6.x release includes these changes:
 
 * Pulsar now depends on the new galaxy-lib Python package instead of manually synchronizing Python files across Pulsar and Galaxy.
@@ -516,7 +516,7 @@ See [list of tools contributed in January](/toolshed/contributions/2016-01/).
 
 # Other News
 
- 
+
 * The [Project Statistics page](/galaxy-project/statistics/) has had its semi-annual update.
 
 ## Galaxy Goes Mobile!
@@ -527,7 +527,7 @@ See [list of tools contributed in January](/toolshed/contributions/2016-01/).
 
 **Galaxy is now accessible from your [IOS](https://itunes.apple.com/us/app/galaxy-portal/id937158087?mt=8) and [Android](https://play.google.com/store/apps/details?id=no.uio.bmi.claus) devices.** The Galaxy Portal app is a quick and easy way to monitor the status of biomedical research on any Galaxy server. With this app you can set up a list of Galaxy connections and browse your analyses histories in a user-friendly format and take a peek at your data on the go.
 
-The app has been in development for over a year at the University of Oslo as part of [Claus Børnich's masters thesis](https://www.duo.uio.no/handle/10852/44701) and is described in 
+The app has been in development for over a year at the University of Oslo as part of [Claus Børnich's masters thesis](https://www.duo.uio.no/handle/10852/44701) and is described in
 
   Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/people/marten/), and Geir Kjetil Sandve. [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract). *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
 

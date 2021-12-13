@@ -14,12 +14,13 @@ Galaxy-UK, a new [Galaxy Community](/community/) was launched in August.  The Ga
 * Encourage interaction and collaboration.
 
 Galaxy-UK is also an information hub for events such as:
+
 * UK based Galaxy training courses
 * UK based talks involving Galaxy
 * Information on the location of UK Galaxy servers
 * Anything else that might be pertinent to bring the UK Galaxy users/admins/trainers together as a community
 
-The community will also have both online meetings and physical meetings, so keep an eye open for these events. 
+The community will also have both online meetings and physical meetings, so keep an eye open for these events.
 
 
 ## Other Galaxy Communities
@@ -34,7 +35,7 @@ There are a wealth of Galaxy related events in Europe this fall. Events include 
 
 These events are a great way to meet other Galaxy users and developers and learn and share best practices. If you're in Europe and are interested in learning more about Galaxy and/or the community, then please give these a look.
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/eccb2014/'><img src="/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB" height="80" /></a>
 <a href='http://go4bioinformatics.genouest.org/integration-doutils-dans-la-plateforme-web-galaxy/'><img src="/images/logos/eBiogenouestLogo.png" alt="Tools integration on Galaxy" height="80" /></a> &nbsp;
 <a href='http://www.bioinformatica.crs4.it/training'><img src="/images/logos/CRS4Logo.jpg" alt="Analisi dati Next Generation Sequencing con Galaxy" width="130" /></a> &nbsp;
@@ -127,25 +128,27 @@ These events are a great way to meet other Galaxy users and developers and learn
 </div>
 
 The [The Great GigaScience and Galaxy (G3) Workshop](http://australianbioinformatics.net/great-gigascience-galaxy-wkshp) will be held, Friday 19 September 2014 at The University of Melbourne from 8:45-5pm.
- 
+
 The day's theme is *Turning data—big data—into research impact*
 
 **Morning Session of Talks (8:45am - 12:00pm)**
+
 * Theatre 1, 207 Bouverie Street, Parkville.
-  * Featuring talks from [David Vaux](https://theconversation.com/from-fraud-to-fair-play-australia-must-support-research-integrity-15733), A Speaker on Galaxy, Representative from NHMRC on open access and the [GigaScience Editorial Team](http://www.gigasciencejournal.com/about). 
+    * Featuring talks from [David Vaux](https://theconversation.com/from-fraud-to-fair-play-australia-must-support-research-integrity-15733), A Speaker on Galaxy, Representative from NHMRC on open access and the [GigaScience Editorial Team](http://www.gigasciencejournal.com/about).
 
 **Afternoon Workshops (2:00pm - 5:00pm)**
+
 * Workshop Stream 1 - [VLSCI Boardroom, 187 Grattan Street, Parkville](https://www.google.com.au/maps/place/187+Grattan+St,+University+of+Melbourne,+Carlton+VIC+3053/@-37.8003045,144.9626346,17z/data=!3m1!4b1!4m2!3m1!1s0x6ad642d318691715:0xbb29ca3420505539)
-  * Setting up your own personal galaxy instance and basic galaxy usage. Galaxy 101.
+    * Setting up your own personal galaxy instance and basic galaxy usage. Galaxy 101.
 * Workshop Stream 2 - [B117, 207 Bouverie Street, Parkville](https://www.google.com.au/maps/preview?q=B118,+207+Bouverie+Street,+Parkville&ie=UTF-8&hq&hnear=0x6ad642d2c404d12d:0xde07ecf4a4d913ad,b118/207+Bouverie+St,+University+of+Melbourne,+Carlton+VIC+3053&gl=au&ei=HMjHU5OrB8H48QW8j4GgAQ&ved=0CB0Q8gEwAA)
-  * [Authorea](http://www.authorea.com/) software carpentry workshop
+    * [Authorea](http://www.authorea.com/) software carpentry workshop
 
 See the [event page](http://australianbioinformatics.net/great-gigascience-galaxy-wkshp) for registration and contact links, and additional information.
 
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 And don't worry, Europe does not have a complete lock on upcoming Galaxy related events.  There is also things going on in North America, and a few more in Australia too.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -263,8 +266,8 @@ The new papers were tagged in many different areas:
 
 The Galaxy is expanding! Please help it grow.
 
-* [Galaxy Workflow Developer](http://bit.ly/1t1PKpO), John Innes Centre, Norwich UK. Applications Close: 12 Sept 
-* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
+* [Galaxy Workflow Developer](http://bit.ly/1t1PKpO), John Innes Centre, Norwich UK. Applications Close: 12 Sept
+* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States
 * [Galaxy Platform Development Officer](http://bit.ly/1q5iXPL), The Genome Analysis Centre (TGAC), Norwich, United Kingdom.  **Closes 18 September.**
 * [Bioinformatician position](http://www.xenbase.org/community/job.do?id=633&method=View+Job) at [Xenbase](http://xenbase.org), University of Calgary.
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
@@ -391,6 +394,7 @@ Keep in mind to write a nice Tool Shed Tool if you catch yourself using IPython 
 </div>
 
 A few features we have up and running:
+
 * Use IPython directly in the main window or in the Scratchbook
 * Completely encapsulated IPython environment with matplotlib, biopython, pandas and friends already installed.
 * IPython runs completely self-contained within a [Docker](https://www.docker.com/) container, separate from your Galaxy data
@@ -406,6 +410,7 @@ Please follow the installation instruction on our [project page](https://github.
 The underlying IPython Notebook (+Galaxy sugar) is stored at [Github](https://github.com/bgruening/docker-ipython-notebook) and the [Docker Registry](https://registry.hub.docker.com/u/bgruening/docker-ipython-notebook/).
 
 You can also install a ipynb datatype:
+
 * [Github](https://github.com/bgruening/galaxytools/tree/master/datatypes/json)
 * [Test ToolShed](https://testtoolshed.g2.bx.psu.edu/view/iuc/datatyp_ipynb)
 
@@ -442,119 +447,119 @@ The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community
 
 Here are new contributions for the past *two* months.
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
 * *From [lparsons](https://toolshed.g2.bx.psu.edu/view/lparsons/)*
-  * [sam_stats](https://toolshed.g2.bx.psu.edu/view/lparsons/sam_stats): generates basic sam/bam stats (from [ea-utils package](https://code.google.com/p/ea-utils/))
-  * [fastq_join](https://toolshed.g2.bx.psu.edu/view/lparsons/fastq_join): merge overlapping paired-end reads (from ea-utils package)
+    * [sam_stats](https://toolshed.g2.bx.psu.edu/view/lparsons/sam_stats): generates basic sam/bam stats (from [ea-utils package](https://code.google.com/p/ea-utils/))
+    * [fastq_join](https://toolshed.g2.bx.psu.edu/view/lparsons/fastq_join): merge overlapping paired-end reads (from ea-utils package)
 
 * *From [saskia-hiltemann](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/)*
-  * [ireport](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/ireport): create interactive HTML reports from galaxy outputs. 
+    * [ireport](https://toolshed.g2.bx.psu.edu/view/saskia-hiltemann/ireport): create interactive HTML reports from galaxy outputs.
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc)*
-  * [stringtie](https://toolshed.g2.bx.psu.edu/view/iuc/stringtie): fast and highly efficient assembler of RNA-Seq alignments into potential transcripts.
-  * [vt_variant_tools](https://toolshed.g2.bx.psu.edu/view/iuc/vt_variant_tools): VT: a variant tool set that discovers short variants from Next Generation Sequencing data.
-  * [bcftools](https://toolshed.g2.bx.psu.edu/view/iuc/bcftools): Utilities for variant calling and manipulating VCFs and BCFs
-  * [gemini](https://toolshed.g2.bx.psu.edu/view/iuc/gemini): GEMINI: a flexible framework for exploring genome variation
+    * [stringtie](https://toolshed.g2.bx.psu.edu/view/iuc/stringtie): fast and highly efficient assembler of RNA-Seq alignments into potential transcripts.
+    * [vt_variant_tools](https://toolshed.g2.bx.psu.edu/view/iuc/vt_variant_tools): VT: a variant tool set that discovers short variants from Next Generation Sequencing data.
+    * [bcftools](https://toolshed.g2.bx.psu.edu/view/iuc/bcftools): Utilities for variant calling and manipulating VCFs and BCFs
+    * [gemini](https://toolshed.g2.bx.psu.edu/view/iuc/gemini): GEMINI: a flexible framework for exploring genome variation
 
 * *From [urgi-team](https://toolshed.g2.bx.psu.edu/view/urgi-team/)*
-  * [tandem_repeats_finder](https://toolshed.g2.bx.psu.edu/view/urgi-team/tandem_repeats_finder): locate and display tandem repeats in DNA sequences
+    * [tandem_repeats_finder](https://toolshed.g2.bx.psu.edu/view/urgi-team/tandem_repeats_finder): locate and display tandem repeats in DNA sequences
 
 * *From [bgruening](https://toolshed.g2.bx.psu.edu/view/bgruening)*
-  * [antismash](https://toolshed.g2.bx.psu.edu/view/bgruening/antismash): AntiSMASH - rapid genome-wide identification, annotation and analysis of secondary metabolite biosynthesis gene clusters
+    * [antismash](https://toolshed.g2.bx.psu.edu/view/bgruening/antismash): AntiSMASH - rapid genome-wide identification, annotation and analysis of secondary metabolite biosynthesis gene clusters
 
 * *From [agordon](https://toolshed.g2.bx.psu.edu/view/agordon/):*
-  * [datamash_wrapper](https://toolshed.g2.bx.psu.edu/view/agordon/datamash_wrapper): grouping and summarizing tool on tabular data files
+    * [datamash_wrapper](https://toolshed.g2.bx.psu.edu/view/agordon/datamash_wrapper): grouping and summarizing tool on tabular data files
 
 * *From [david-hoover](https://toolshed.g2.bx.psu.edu/view/david-hoover/):*
-  * [mirdeep2_and_targetspy_dh](https://toolshed.g2.bx.psu.edu/view/david-hoover/mirdeep2_and_targetspy_dh): Finding miRNA in NGS data and finding the targets for those miRNA
+    * [mirdeep2_and_targetspy_dh](https://toolshed.g2.bx.psu.edu/view/david-hoover/mirdeep2_and_targetspy_dh): Finding miRNA in NGS data and finding the targets for those miRNA
 
 * *From [big-tiandm](https://toolshed.g2.bx.psu.edu/view/big-tiandm/):*
-  * [mirplant2](https://toolshed.g2.bx.psu.edu/view/big-tiandm/mirplant2): plant microRNA analysis tools
+    * [mirplant2](https://toolshed.g2.bx.psu.edu/view/big-tiandm/mirplant2): plant microRNA analysis tools
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam/):*
-  * [correlation](https://toolshed.g2.bx.psu.edu/view/devteam/correlation): computes the matrix of correlation coefficients between numeric columns.
-  * [vcf2pgsnp](https://toolshed.g2.bx.psu.edu/view/devteam/vcf2pgsnp): Convert from VCF to pgSnp format
-  * [pgsnp2gd_snp](https://toolshed.g2.bx.psu.edu/view/devteam/pgsnp2gd_snp): onverts a pgSnp dataset to gd_snp format, either starting a new dataset or appending to an old one.
-  * [ucsc_custom_track](https://toolshed.g2.bx.psu.edu/view/devteam/ucsc_custom_track): Build custom track for UCSC genome browser
-  * [dna_filtering](https://toolshed.g2.bx.psu.edu/view/devteam/dna_filtering): Filter on ambiguities in polymorphism datasets
-  * [mine](https://toolshed.g2.bx.psu.edu/view/devteam/mine): Applies the Maximal Information-based Nonparametric Exploration strategy to an input dataset.
-  * [pearson_correlation](https://toolshed.g2.bx.psu.edu/view/devteam/pearson_correlation): Computes Pearson's correlation coefficient between any two numerical columns. Column numbers start at 1.
-  * [generate_pc_lda_matrix](https://toolshed.g2.bx.psu.edu/view/devteam/generate_pc_lda_matrix): generate a matrix to be used for running the Linear Discriminant Analysis as described in Carrel et al., 2006 (PMID: 17009873)
-  * [count_gff_features](https://toolshed.g2.bx.psu.edu/view/devteam/count_gff_features): Counts the number of features in a GFF dataset.
-  * [column_maker](https://toolshed.g2.bx.psu.edu/view/devteam/column_maker): computes an expression for every row of a dataset and appends the result as a new column (field).
-  * [scatterplot](https://toolshed.g2.bx.psu.edu/view/devteam/scatterplot): creates a simple scatter plot between two variables containing numeric values of a selected dataset. 
-  * [plot_from_lda](https://toolshed.g2.bx.psu.edu/view/devteam/plot_from_lda): generates a Receiver Operating Characteristic (ROC) plot that shows LDA classification success rates for different values of the tuning parameter tau as Figure 3 in Carrel et al., 2006 (PMID: 17009873).
-  * [histogram](https://toolshed.g2.bx.psu.edu/view/devteam/histogram): computes a histogram of the numerical values in a column of a dataset.
-  * [lda_analysis](https://toolshed.g2.bx.psu.edu/view/devteam/lda_analysis): Perform Linear Discriminant Analysis
-  * [snpfreq](https://toolshed.g2.bx.psu.edu/view/devteam/snpfreq): basic analysis of bi-allelic SNPs in case-control data, using the R statistical environment and Fisher's exact test to identify SNPs with a significant difference in the allele frequencies between the two groups
+    * [correlation](https://toolshed.g2.bx.psu.edu/view/devteam/correlation): computes the matrix of correlation coefficients between numeric columns.
+    * [vcf2pgsnp](https://toolshed.g2.bx.psu.edu/view/devteam/vcf2pgsnp): Convert from VCF to pgSnp format
+    * [pgsnp2gd_snp](https://toolshed.g2.bx.psu.edu/view/devteam/pgsnp2gd_snp): onverts a pgSnp dataset to gd_snp format, either starting a new dataset or appending to an old one.
+    * [ucsc_custom_track](https://toolshed.g2.bx.psu.edu/view/devteam/ucsc_custom_track): Build custom track for UCSC genome browser
+    * [dna_filtering](https://toolshed.g2.bx.psu.edu/view/devteam/dna_filtering): Filter on ambiguities in polymorphism datasets
+    * [mine](https://toolshed.g2.bx.psu.edu/view/devteam/mine): Applies the Maximal Information-based Nonparametric Exploration strategy to an input dataset.
+    * [pearson_correlation](https://toolshed.g2.bx.psu.edu/view/devteam/pearson_correlation): Computes Pearson's correlation coefficient between any two numerical columns. Column numbers start at 1.
+    * [generate_pc_lda_matrix](https://toolshed.g2.bx.psu.edu/view/devteam/generate_pc_lda_matrix): generate a matrix to be used for running the Linear Discriminant Analysis as described in Carrel et al., 2006 (PMID: 17009873)
+    * [count_gff_features](https://toolshed.g2.bx.psu.edu/view/devteam/count_gff_features): Counts the number of features in a GFF dataset.
+    * [column_maker](https://toolshed.g2.bx.psu.edu/view/devteam/column_maker): computes an expression for every row of a dataset and appends the result as a new column (field).
+    * [scatterplot](https://toolshed.g2.bx.psu.edu/view/devteam/scatterplot): creates a simple scatter plot between two variables containing numeric values of a selected dataset.
+    * [plot_from_lda](https://toolshed.g2.bx.psu.edu/view/devteam/plot_from_lda): generates a Receiver Operating Characteristic (ROC) plot that shows LDA classification success rates for different values of the tuning parameter tau as Figure 3 in Carrel et al., 2006 (PMID: 17009873).
+    * [histogram](https://toolshed.g2.bx.psu.edu/view/devteam/histogram): computes a histogram of the numerical values in a column of a dataset.
+    * [lda_analysis](https://toolshed.g2.bx.psu.edu/view/devteam/lda_analysis): Perform Linear Discriminant Analysis
+    * [snpfreq](https://toolshed.g2.bx.psu.edu/view/devteam/snpfreq): basic analysis of bi-allelic SNPs in case-control data, using the R statistical environment and Fisher's exact test to identify SNPs with a significant difference in the allele frequencies between the two groups
 
 * *From [arkarachai-fungtammasan](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan/):*
-  * [microsatellite_ngs](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan/microsatellite_ngs): Pipeline to profile and genotype microsatellites from short read data
+    * [microsatellite_ngs](https://toolshed.g2.bx.psu.edu/view/arkarachai-fungtammasan/microsatellite_ngs): Pipeline to profile and genotype microsatellites from short read data
 
 * *From [peterjc](https://toolshed.g2.bx.psu.edu/view/peterjc):*
-  * [blast_rbh](https://toolshed.g2.bx.psu.edu/view/peterjc/blast_rbh): BLAST Reciprocal Best Hits (RBH) from two FASTA files
+    * [blast_rbh](https://toolshed.g2.bx.psu.edu/view/peterjc/blast_rbh): BLAST Reciprocal Best Hits (RBH) from two FASTA files
 
 * *From [nikos](https://toolshed.g2.bx.psu.edu/view/nikos/):*
-  * [bigwig_to_wig](https://toolshed.g2.bx.psu.edu/view/nikos/bigwig_to_wig): Converts a bigWig file to Wiggle (WIG) format
+    * [bigwig_to_wig](https://toolshed.g2.bx.psu.edu/view/nikos/bigwig_to_wig): Converts a bigWig file to Wiggle (WIG) format
 
 * *From [mcharles](https://toolshed.g2.bx.psu.edu/view/mcharles/):
-  * [genephys](https://toolshed.g2.bx.psu.edu/view/mcharles/genephys): 
+    * [genephys](https://toolshed.g2.bx.psu.edu/view/mcharles/genephys):
 
 * *From [alan-blakely](https://toolshed.g2.bx.psu.edu/view/alan-blakely/):
-  * [filter_by_substring_match](https://toolshed.g2.bx.psu.edu/view/alan-blakely/filter_by_substring_match): Allows for partial sequences to match lines containing a larger, more complete sequence.
+    * [filter_by_substring_match](https://toolshed.g2.bx.psu.edu/view/alan-blakely/filter_by_substring_match): Allows for partial sequences to match lines containing a larger, more complete sequence.
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/):*
-  * [bamtools_filter](https://toolshed.g2.bx.psu.edu/view/anton/bamtools_filter): Filter BAM files on a variety of attributes
+    * [bamtools_filter](https://toolshed.g2.bx.psu.edu/view/anton/bamtools_filter): Filter BAM files on a variety of attributes
 
 ### Data Managers
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc/):*
-  * [data_manager_gemini_database_downloader](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_gemini_database_downloader): Manage GEMINI databases. This tool will retrieve all files for the use in GEMINI.
+    * [data_manager_gemini_database_downloader](https://toolshed.g2.bx.psu.edu/view/iuc/data_manager_gemini_database_downloader): Manage GEMINI databases. This tool will retrieve all files for the use in GEMINI.
 
 ### Suites
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton)*
-  * [suite_vcflib_tools_2_0](https://toolshed.g2.bx.psu.edu/view/anton/suite_vcflib_tools_2_0): tools for manipulation of VCF files
+    * [suite_vcflib_tools_2_0](https://toolshed.g2.bx.psu.edu/view/anton/suite_vcflib_tools_2_0): tools for manipulation of VCF files
 
 ### Packages / Tool Dependency Definitions
 
 * *From [iracooke](https://toolshed.g2.bx.psu.edu/view/iracooke)*
-  * [package_peptideshaker_0_31](https://toolshed.g2.bx.psu.edu/view/iracooke/package_peptideshaker_0_31): Installs tool dependencies for PeptideShaker 0.31
-  * [package_searchgui_1_19](https://toolshed.g2.bx.psu.edu/view/iracooke/package_searchgui_1_19): Installs tool dependencies for !SearchGUI 1.19
+    * [package_peptideshaker_0_31](https://toolshed.g2.bx.psu.edu/view/iracooke/package_peptideshaker_0_31): Installs tool dependencies for PeptideShaker 0.31
+    * [package_searchgui_1_19](https://toolshed.g2.bx.psu.edu/view/iracooke/package_searchgui_1_19): Installs tool dependencies for !SearchGUI 1.19
 
 * *From [https://toolshed.g2.bx.psu.edu/view/anton](https://toolshed.g2.bx.psu.edu/view/anton)*
-  * [vcflib_86723982aa](https://toolshed.g2.bx.psu.edu/view/anton/vcflib_86723982aa): Compiled binary files for vcflib toolkit 86723982aa
-  * [package_bamtools](https://toolshed.g2.bx.psu.edu/view/anton/package_bamtools): bamtools - a collection of utilities for processing of bam files
+    * [vcflib_86723982aa](https://toolshed.g2.bx.psu.edu/view/anton/vcflib_86723982aa): Compiled binary files for vcflib toolkit 86723982aa
+    * [package_bamtools](https://toolshed.g2.bx.psu.edu/view/anton/package_bamtools): bamtools - a collection of utilities for processing of bam files
 
 * *From [lparsons](https://toolshed.g2.bx.psu.edu/view/lparsons/)*
-  * [package_ea_utils_1_1_2_484](https://toolshed.g2.bx.psu.edu/view/lparsons/package_ea_utils_1_1_2_484): Command-line tools for processing biological sequencing data. Barcode demultiplexing, adapter trimming, etc. See [ea-utils](https://code.google.com/p/ea-utils/).
-  * [package_rseqc_2_3_9](https://toolshed.g2.bx.psu.edu/view/lparsons/package_rseqc_2_3_9): downloads and compiles version 2.3.9 of RSeQC.
+    * [package_ea_utils_1_1_2_484](https://toolshed.g2.bx.psu.edu/view/lparsons/package_ea_utils_1_1_2_484): Command-line tools for processing biological sequencing data. Barcode demultiplexing, adapter trimming, etc. See [ea-utils](https://code.google.com/p/ea-utils/).
+    * [package_rseqc_2_3_9](https://toolshed.g2.bx.psu.edu/view/lparsons/package_rseqc_2_3_9): downloads and compiles version 2.3.9 of RSeQC.
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc/)*
-  * [package_stringtie_0_97](https://toolshed.g2.bx.psu.edu/view/iuc/package_stringtie_0_97): 
-  * [package_vcftools_0_1_12b](https://toolshed.g2.bx.psu.edu/view/iuc/package_vcftools_0_1_12b): downloads and compiles version 0.1.12b of the vcftools suite.
-  * [package_vt_5c735ab14b5603d9f14da6ee0e63d86ba3779934](https://toolshed.g2.bx.psu.edu/view/iuc/package_vt_5c735ab14b5603d9f14da6ee0e63d86ba3779934): a variant tool set that discovers short variants from Next Generation Sequencing data.
-  * [package_htseq_0_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_htseq_0_6): downloads and compiles version 0.6 of the htseq package.
-  * [package_pandas_0_14](https://toolshed.g2.bx.psu.edu/view/iuc/package_pandas_0_14): downloads and compiles version 0.14 of the python library [pandas](http://pandas.pydata.org/), an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
-  * [package_bedtools_2_19](https://toolshed.g2.bx.psu.edu/view/iuc/package_bedtools_2_19): downloads and compiles version 2.19 of bedtools, a swiss army knife for genome arithmetic.
-  * [package_grabix_0_1_3](https://toolshed.g2.bx.psu.edu/view/iuc/package_grabix_0_1_3): downloads and compiles version 0.1.3 of grabix. grabix leverages the fantastic BGZF library in samtools to provide random access into text files that have been compressed with bgzip
-  * [package_gemini_0_10_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_gemini_0_10_0): downloads and compiles version 0.10.0 of GEMINI. GEMINI (GEnome MINIng) is designed to be a flexible framework for exploring genetic variation in the context of the wealth of genome annotations available for the human genome.
-  * [package_r_ggplot2_0_9_3](https://toolshed.g2.bx.psu.edu/view/iuc/package_r_ggplot2_0_9_3): downloads and compiles verion 0.9.3.x from gglot2 the R package.  ggplot2 is a plotting system for R, based on the grammar of graphics, which tries to take the good parts of base and lattice graphics and none of the bad parts.
+    * [package_stringtie_0_97](https://toolshed.g2.bx.psu.edu/view/iuc/package_stringtie_0_97):
+    * [package_vcftools_0_1_12b](https://toolshed.g2.bx.psu.edu/view/iuc/package_vcftools_0_1_12b): downloads and compiles version 0.1.12b of the vcftools suite.
+    * [package_vt_5c735ab14b5603d9f14da6ee0e63d86ba3779934](https://toolshed.g2.bx.psu.edu/view/iuc/package_vt_5c735ab14b5603d9f14da6ee0e63d86ba3779934): a variant tool set that discovers short variants from Next Generation Sequencing data.
+    * [package_htseq_0_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_htseq_0_6): downloads and compiles version 0.6 of the htseq package.
+    * [package_pandas_0_14](https://toolshed.g2.bx.psu.edu/view/iuc/package_pandas_0_14): downloads and compiles version 0.14 of the python library [pandas](http://pandas.pydata.org/), an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
+    * [package_bedtools_2_19](https://toolshed.g2.bx.psu.edu/view/iuc/package_bedtools_2_19): downloads and compiles version 2.19 of bedtools, a swiss army knife for genome arithmetic.
+    * [package_grabix_0_1_3](https://toolshed.g2.bx.psu.edu/view/iuc/package_grabix_0_1_3): downloads and compiles version 0.1.3 of grabix. grabix leverages the fantastic BGZF library in samtools to provide random access into text files that have been compressed with bgzip
+    * [package_gemini_0_10_0](https://toolshed.g2.bx.psu.edu/view/iuc/package_gemini_0_10_0): downloads and compiles version 0.10.0 of GEMINI. GEMINI (GEnome MINIng) is designed to be a flexible framework for exploring genetic variation in the context of the wealth of genome annotations available for the human genome.
+    * [package_r_ggplot2_0_9_3](https://toolshed.g2.bx.psu.edu/view/iuc/package_r_ggplot2_0_9_3): downloads and compiles verion 0.9.3.x from gglot2 the R package.  ggplot2 is a plotting system for R, based on the grammar of graphics, which tries to take the good parts of base and lattice graphics and none of the bad parts.
 
 * *From [jjohnson](https://toolshed.g2.bx.psu.edu/view/jjohnson/):*
-  * [package_shear_0_2_11](https://toolshed.g2.bx.psu.edu/view/jjohnson/package_shear_0_2_11): Download and install SHEAR version 0.2.11 (Sample Heterogeneity Estimation and Assembly by Reference)
+    * [package_shear_0_2_11](https://toolshed.g2.bx.psu.edu/view/jjohnson/package_shear_0_2_11): Download and install SHEAR version 0.2.11 (Sample Heterogeneity Estimation and Assembly by Reference)
 
 * *From [agordon](https://toolshed.g2.bx.psu.edu/view/agordon/):*
-  * [package_datamash_1_0_5](https://toolshed.g2.bx.psu.edu/view/agordon/package_datamash_1_0_5): grouping and summarizing tool on tabular data files
+    * [package_datamash_1_0_5](https://toolshed.g2.bx.psu.edu/view/agordon/package_datamash_1_0_5): grouping and summarizing tool on tabular data files
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam/):*
-  * [package_mine_1_0_1](https://toolshed.g2.bx.psu.edu/view/devteam/package_mine_1_0_1): downloads and installs version 1.0.1 of the MINE .jar package.
+    * [package_mine_1_0_1](https://toolshed.g2.bx.psu.edu/view/devteam/package_mine_1_0_1): downloads and installs version 1.0.1 of the MINE .jar package.
 
 # Other News
 
-* [Basic variant calling in Galaxy](http://bit.ly/V7Efj6) online tutorial by Cynthia Gibas at Genome Intelligence 
+* [Basic variant calling in Galaxy](http://bit.ly/V7Efj6) online tutorial by Cynthia Gibas at Genome Intelligence
 * From ron Horst:
     You can now BLAST search DNA & Proteins on [galaxy-qld.genome.edu.au](http://galaxy-qld.genome.edu.au), using BRAEMBL resources. Coming soon to more Gernomics Virtual Lab VMs

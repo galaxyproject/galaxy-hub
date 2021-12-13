@@ -12,11 +12,11 @@ Uploading data into Galaxy can be done in number of ways summarized in the follo
 
 The general "best practice approach" is this:
 
-  - if you have just a few small (< 100 MB) datasets stored on your computer &#8594; use the **Local file upload** 
-  - if you have large files (> 100 MB) &#8594; use **FTP upload**
-  - if you have many files (> 10) &#8594; use **FTP upload**
-  - if datasets you are uploading have been deposited to SRA &#8594; use **SRA upload**
- 
+- if you have just a few small (< 100 MB) datasets stored on your computer &#8594; use the **Local file upload**
+- if you have large files (> 100 MB) &#8594; use **FTP upload**
+- if you have many files (> 10) &#8594; use **FTP upload**
+- if datasets you are uploading have been deposited to SRA &#8594; use **SRA upload**
+
 ## Local file upload
 
 Uploading local files directly into Galaxy works well for a small number (say, a dozen) or relatively small (tens of MB) datasets. The following screencast shows how this works:
@@ -32,7 +32,7 @@ FTP stands for [file transfer protocol](https://en.wikipedia.org/wiki/File_Trans
 ## URL upload
 
 In some cases you may need to upload public datasets from the Internet. These datasets will have web addresses (also called Uniform Resource Locators or [URLs](https://en.wikipedia.org/wiki/URL)). A web address of a dataset can be pasted directly into the upload tool interface:
- 
+
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/120973708?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
 ## SRA upload
@@ -49,4 +49,4 @@ Note: SRA approach downloads individual datasets into [collections](/tutorials/c
 
 ## To GZIP or not to GZIP
 
-Compressing can be a highly efficient way to store many types of biological data. For example fastq datasets (a typical representation for sequencing reads) can be compressed to approx. 33% of their original size with `gzip` utility. So if the data you are uploading is already compressed (e.g., has `.gz` or `.bz2` file extensions) keep it this way! Upon upload simply tell Galaxy (as shown in FTP upload video) that file(s) is(are) compressed (i.e., of `fastqsanger.gz` type if this is appropriate). 
+Compressing can be a highly efficient way to store many types of biological data. For example fastq datasets (a typical representation for sequencing reads) can be compressed to approx. 33% of their original size with `gzip` utility. So if the data you are uploading is already compressed (e.g., has `.gz` or `.bz2` file extensions) keep it this way! Upon upload simply tell Galaxy (as shown in FTP upload video) that file(s) is(are) compressed (i.e., of `fastqsanger.gz` type if this is appropriate).

@@ -20,6 +20,7 @@ For sure existence of this Galaxy-E instance is due to the work of so many peopl
 ### So what happen since GCC? Cripsy things ;)
 
 Thanks to the [H2020 GAPARS project](http://gapars.mmos.ch/), we deploy 2 small scale experiments,
+
 - Galaxy-Bricks, a data analysis tool based on Galaxy for ecology designed for non-professional scientists to develop data literacy, favor open data and collaboration in our communities.
 - MOODA, to enable Massive Open Online Data Analysis using Galaxy to facilitate giving access to large communities of analyzers (professional and non-professional scientists) research datasets, tools and compute.
 
@@ -72,18 +73,18 @@ Classifications results for the first week on MMOS developer portal:
 
 - Galaxy-E tools and workflows: https://github.com/galaxyecology/tools-ecology
 - Galaxy-E tutorials:
-  - Code https://github.com/galaxyproject/training-material/tree/master/topics/ecology
-  - Website https://galaxyproject.github.io/training-material/topics/ecology/
+    - Code https://github.com/galaxyproject/training-material/tree/master/topics/ecology
+    - Website https://galaxyproject.github.io/training-material/topics/ecology/
 - European Galaxy instance for Ecology: https://ecology.usegalaxy.eu/
 - Galaxy-Bricks: Data literacy teaching activities
-  - Wireframes
-    - NGPhylogeny version https://xd.adobe.com/view/67f3b137-4f58-4349-5c51-de2cef02ca4d-11c2/grid
-    - Scratch3 version https://xd.adobe.com/view/a762f0fb-00b9-490d-57e4-18e73ab60251-d153/
-  - Code
-    - Scratch3 WIP https://github.com/yvanlebras/Scratch3Galaxy
-    - NGPhylogeny planned for September 2020
+    - Wireframes
+        - NGPhylogeny version https://xd.adobe.com/view/67f3b137-4f58-4349-5c51-de2cef02ca4d-11c2/grid
+        - Scratch3 version https://xd.adobe.com/view/a762f0fb-00b9-490d-57e4-18e73ab60251-d153/
+    - Code
+        - Scratch3 WIP https://github.com/yvanlebras/Scratch3Galaxy
+        - NGPhylogeny planned for September 2020
 - Massive Open Online Data Analysis: MNHN SPIPOLL citizen science project Galaxy webhook
-  - Developmental initial repository https://github.com/yvanlebras/GAPARS_Galaxy
-  - Up-to-date dev repository https://github.com/galaxyecology/webhook_SPIPOLL_Flash/
-  - Production repository https://github.com/usegalaxy-eu/infrastructure-playbook
-  - Standalone webapp https://usegalaxy.eu/gapars-experiment/
+    - Developmental initial repository https://github.com/yvanlebras/GAPARS_Galaxy
+    - Up-to-date dev repository https://github.com/galaxyecology/webhook_SPIPOLL_Flash/
+    - Production repository https://github.com/usegalaxy-eu/infrastructure-playbook
+    - Standalone webapp https://usegalaxy.eu/gapars-experiment/

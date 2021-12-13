@@ -14,27 +14,31 @@ More details are [here](https://github.com/galaxyproject/tools-iuc/issues/700).
 </div>
 
 List of tools (versions) added to Bioconda:
+
 1. Seqtk r-75
 1. Shaker
 1. [EDirect](https://github.com/bioconda/bioconda-recipes/pull/1198/commits/e3d19b0faf85ebac30d37a614b68ef9e8e841a50)
-1. [PeptideShaker and SearchGUI](https://github.com/bioconda/bioconda-recipes/pull/1195) 
+1. [PeptideShaker and SearchGUI](https://github.com/bioconda/bioconda-recipes/pull/1195)
 1. [OpenBabel](https://github.com/bioconda/bioconda-recipes/pull/1199)
 1. [BamHash](https://github.com/bioconda/bioconda-recipes/pull/1196)
 1. [Trf](https://github.com/bioconda/bioconda-recipes/pull/1212)
 
-List of tools in [WIP]: 
+List of tools in [WIP]:
+
 1. All perl packages on osx
 1. Bioconductor minfi
 
 List of tools removed from .tt_blacklist in IUC
+
 1. [Seqtk](https://github.com/galaxyproject/tools-iuc/pull/705)
 1. [Vegan](https://github.com/galaxyproject/tools-iuc/pull/707)
 1. [Art](https://github.com/galaxyproject/tools-iuc/pull/709)
 1. [Macs2](https://github.com/galaxyproject/tools-iuc/pull/710)
 
 Infrastructure:
+
 1. [Automatic push from tested tools to the Test Tool Shed in tools-iuc](https://github.com/galaxyproject/tools-iuc/pull/708) and bgruenings [galaxytools](https://github.com/bgruening/galaxytools)
-1. [More strict dependency handling in Bioconda](https://github.com/bioconda/bioconda-recipes/pull/1201) 
+1. [More strict dependency handling in Bioconda](https://github.com/bioconda/bioconda-recipes/pull/1201)
 
 Thanks to everyone who participated!
 

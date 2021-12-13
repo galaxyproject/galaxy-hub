@@ -7,6 +7,7 @@ date: "2012-12-21"
 **Complete [News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2012-12-20)**
 
 **Highlights:**
+
 * **Required Metadata Reset** for instances running **[Tool Shed](http://wiki.galaxyproject.org/ToolShed)** repositories. Be sure to **[learn how](http://wiki.galaxyproject.org/ResettingMetadataForInstalledRepositories)**.
 * **Simplified tool config**: all tools (including tool shed repos) can now have handlers and runners assigned based on their "short id".
 * **New** [GFF](http://wiki.galaxyproject.org/Learn/Datatypes#GFF)/[GFF3](http://wiki.galaxyproject.org/Learn/Datatypes#GFF3) annotation support for **[Cuffcompare/merge/diff](http://cufflinks.cbcb.umd.edu/manual.html)**.
@@ -28,6 +29,6 @@ upgrade: $ hg pull -u -r 36ad8aa7b922
 ```
 
 
-**Best wishes for a safe and happy holiday**, 
+**Best wishes for a safe and happy holiday**,
 
 ***[The Galaxy Team](/galaxy-team/)***

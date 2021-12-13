@@ -4,10 +4,10 @@
 
 ## What will be the format for GCC in 2019?
 
-The format of GCC this year will be a bit different than the previous years. 
+The format of GCC this year will be a bit different than the previous years.
 
-It will starts with 1 day of training, continues with 3 days of conference featuring 
-unified and parallel tracks, poster/demo, birds-of-a-feather gatherings but also training, 
+It will starts with 1 day of training, continues with 3 days of conference featuring
+unified and parallel tracks, poster/demo, birds-of-a-feather gatherings but also training,
 and ends with 2 days of CollaborationFest.
 
 Day | Event | Details
@@ -24,6 +24,7 @@ Sat, 6 July | CollaborationFest | Collaborative work event
 The training topics that are offered during GGCC2019 are determined by the community via a nomination and voting process.
 
 Nominated topics can cover a wide range. For example:
+
 - Introduction to Using Galaxy
 - Scientific topic oriented trainings
 - Community specific trainings

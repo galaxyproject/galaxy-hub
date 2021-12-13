@@ -11,25 +11,25 @@ We are pleased to announce the first group of scholarship awardees for the [Jame
 [<img class="float-right" style="max-width: 14rem" src="/jxtx/jtech-logo-with-text-500.png" alt="JTech" />](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)
 
 * **Emily Davis-Marcisak**, Johns Hopkins University
-  * *Matrix factorization of single-cell RNA-sequencing identifies immune cell states that project across species, cancer type, and infectious disease*
+    * *Matrix factorization of single-cell RNA-sequencing identifies immune cell states that project across species, cancer type, and infectious disease*
 * **Georgia Doing**, [Hogan Lab](https://sites.dartmouth.edu/hoganlab/), Geisel School of Medicine at Dartmouth
-  * *De-noising autoencoder-derived gene expression signatures for *Pseudomonas aeruginosa* elucidate virulence-promoting characteristics of *ex vivo* sputum from persons with cystic fibrosis*
+    * *De-noising autoencoder-derived gene expression signatures for *Pseudomonas aeruginosa* elucidate virulence-promoting characteristics of *ex vivo* sputum from persons with cystic fibrosis*
 * **Kwame Forbes**, University of North Carolina Chapel Hill
-  * *Integration of preprocessed single-cell datasets with bulk differential analysis results for DESeq2*
+    * *Integration of preprocessed single-cell datasets with bulk differential analysis results for DESeq2*
 * **Yuhan Hao**, New York Genome Center and New York University
-  * *Multi-modal representation and mapping of single-cell data*
+    * *Multi-modal representation and mapping of single-cell data*
 * **[Anoushka Joglekar](https://twitter.com/noush_joglekar)**, Weill Cornell Medicine
-  * *Cell type signatures of brain-region specific splicing in postnatal development*
+    * *Cell type signatures of brain-region specific splicing in postnatal development*
 * **[John Lawson](https://j-lawson.github.io/)**, Center for Public Health Genomics and Department of Biomedical Engineering, University of Virginia
-  * *COCOA: coordinate covariation analysis to annotate epigenetic heterogeneity*
+    * *COCOA: coordinate covariation analysis to annotate epigenetic heterogeneity*
 * **[Jens Luebeck](https://jluebeck.github.io/)**, Bioinformatics & Systems Biology, University of California, San Diego
-  * *AmpliconReconstructor integrates NGS and optical mapping to resolve the complex structures of focal amplifications*
+    * *AmpliconReconstructor integrates NGS and optical mapping to resolve the complex structures of focal amplifications*
 * **[David Twesigomwe](https://about.me/twesidave)**, Sydney Brenner Institute for Molecular Bioscience, University of the Witwatersrand
-  * *CypGen: A Nextflow pipeline for calling star alleles in cytochrome P450 genes*
+    * *CypGen: A Nextflow pipeline for calling star alleles in cytochrome P450 genes*
 * **[Loan Vulliard](http://vulliard.loan/)**, Department of Biochemistry and Cell Biology, Max Perutz Labs, University of Vienna
-  * *Understanding Chemical-Genetic Interactions: Morphological screen of combined perturbations*
+    * *Understanding Chemical-Genetic Interactions: Morphological screen of combined perturbations*
 * **Sumaira Zaman**, University of Connecticut
-  * *EASEL: Efficient, Accurate, Scalable Eukaryotic modeLs for de novo Genome Annotation*
+    * *EASEL: Efficient, Accurate, Scalable Eukaryotic modeLs for de novo Genome Annotation*
 
 In addition to covering conference registration, awardees will also be paired with senior researchers in the field prior to the conference.  Awardees and mentors will meet before and during the conference to establish what we hope will become long term relationships.
 

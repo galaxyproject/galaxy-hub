@@ -38,7 +38,7 @@ Galaxy had a strong presence at [ECCB'14](/events/eccb2014/).  Galaxy was featur
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/sg2014/'><img src="/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
 <a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'><img src="/images/logos/DTLLogo150.png" alt="iReport - A tool to create flexible, scalable Galaxy tool interface, presented at the DTL Programmers Meeting" height="90" /></a>
@@ -46,7 +46,7 @@ Galaxy had a strong presence at [ECCB'14](/events/eccb2014/).  Galaxy was featur
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'><img src="/images/logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are [upcoming events](/events/) in Switzerland, Germany, Australia, Norway, France, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
@@ -141,7 +141,7 @@ The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) of publications reach
 
 * [Executing SADI services in Galaxy](http://bit.ly/1CB7snv), by Aranguren, *et al.* *Journal of Biomedical Semantics*, Vol. 5, No. 1. (2014), 42, doi:10.1186/2041-1480-5-42
 
-* [A Survey of Cloud-Based Service Computing Solutions for Mammalian Genomics](http://bit.ly/1vpSz3i), by Church & Goscinski, *IEEE Transactions on Services Computing,* DOI: 10.1109/TSC.2014.2353645 
+* [A Survey of Cloud-Based Service Computing Solutions for Mammalian Genomics](http://bit.ly/1vpSz3i), by Church & Goscinski, *IEEE Transactions on Services Computing,* DOI: 10.1109/TSC.2014.2353645
 
 * [An automated infrastructure to support high-throughput bioinformatics](http://bit.ly/1ryfGJB), by Cuccuru, *et al.* High Performance Computing &amp; Simulation (HPCS), 2014 International Conference on (July 2014), pp. 600-607, doi:10.1109/hpcsim.2014.6903742
 
@@ -215,10 +215,10 @@ The new papers were tagged in many different areas:
 The Galaxy is expanding! Please help it grow.
 
 * [CDD Ingénieur NGS](http://bit.ly/YGIDHy) - Institut Curie, Paris, France  
-* [Emploi CDD Ingénieur Bioinformatique - ChIP-seq](http://bit.ly/1paQDYu), Marseille, France 
-* [Research Specialist](http://bit.ly/1vbagWb), Michigan State University, United States 
+* [Emploi CDD Ingénieur Bioinformatique - ChIP-seq](http://bit.ly/1paQDYu), Marseille, France
+* [Research Specialist](http://bit.ly/1vbagWb), Michigan State University, United States
 * [Bioinformatics and Computational Biology](http://bit.ly/1uysJJH), [US Army Engineer Research and Development Center’s Environmental Laboratory](http://el.erdc.usace.army.mil/index.cfm), Vicksburg, MS, United States
-* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
+* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
@@ -237,6 +237,7 @@ Two new [public Galaxy server](/use/) was added to the published list in Septemb
 [GalaxEast](http://www.galaxeast.fr) aims at providing a large range of bioinformatics tools for the analysis of various types of Omics data. It supports reproducible computational research by providing an environment for performing and recording bioinformatics analyses.
 
 The [GalaxEast](http://www.galaxeast.fr) project has the following main objectives:
+
 * Provide the academic scientific community with an open and powerful Galaxy instance with a guaranteed availability. The platform offers access to cutting-edge and up-to-date tools for Omics data analysis with help and support.
 * Propose innovative developments and new helpful tools packaged for Galaxy (available in the GalaxEast toolshed)
 * Promote the packaging of new developments for Galaxy (through wrappers and/or toolshed packages).
@@ -290,102 +291,102 @@ Look for a new Galaxy distribution in October.
 
 Here are new contributions for the past *two* months.
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
 * *From [saket-choudhary](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/)*
-  * [sift_web](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/sift_web): PROVEAN and SIFT predictions for a list of human genome variants.
+    * [sift_web](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/sift_web): PROVEAN and SIFT predictions for a list of human genome variants.
 
 * *From [gbcs-embl-heidelberg](https://toolshed.g2.bx.psu.edu/view/gbcs-embl-heidelberg/)*
-  * [jemultiplexer](https://toolshed.g2.bx.psu.edu/view/gbcs-embl-heidelberg/jemultiplexer): debarcoding/demultiplexing tool for FASTQ files accommodating all complex multiplexing protocols (iCLIP, molecule barcoding, ...).
+    * [jemultiplexer](https://toolshed.g2.bx.psu.edu/view/gbcs-embl-heidelberg/jemultiplexer): debarcoding/demultiplexing tool for FASTQ files accommodating all complex multiplexing protocols (iCLIP, molecule barcoding, ...).
 
 * *From [mcharles](https://toolshed.g2.bx.psu.edu/view/mcharles/)*
-  * [rapsodyn](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsodyn): tools and workflow used for the [Rapsodyn Project](http://www.rapsodyn.fr/)
-  * [rapsosnp](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsosnp): workflow to detect and select SNP for the rapsodyn project    
+    * [rapsodyn](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsodyn): tools and workflow used for the [Rapsodyn Project](http://www.rapsodyn.fr/)
+    * [rapsosnp](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsosnp): workflow to detect and select SNP for the rapsodyn project
 
 * *From [ayllon](https://toolshed.g2.bx.psu.edu/view/ayllon/)*
-  * [tcoffee](https://toolshed.g2.bx.psu.edu/view/ayllon/tcoffee): T-Coffee multiple alignment suite.
+    * [tcoffee](https://toolshed.g2.bx.psu.edu/view/ayllon/tcoffee): T-Coffee multiple alignment suite.
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [bamtools](https://toolshed.g2.bx.psu.edu/view/anton/bamtools): A collection of tools for manipulation of bamfiles
-  * [vcfflatten](https://toolshed.g2.bx.psu.edu/view/anton/vcfflatten): Removes multi-allelic sites by picking the most common alternate
+    * [bamtools](https://toolshed.g2.bx.psu.edu/view/anton/bamtools): A collection of tools for manipulation of bamfiles
+    * [vcfflatten](https://toolshed.g2.bx.psu.edu/view/anton/vcfflatten): Removes multi-allelic sites by picking the most common alternate
 
 * *From [crs4](https://toolshed.g2.bx.psu.edu/view/crs4/)*
-  * [kggseq_variant_selection](https://toolshed.g2.bx.psu.edu/view/crs4/kggseq_variant_selection): Variant selection with KGGSeq
+    * [kggseq_variant_selection](https://toolshed.g2.bx.psu.edu/view/crs4/kggseq_variant_selection): Variant selection with KGGSeq
 
 * *From [tyty](https://toolshed.g2.bx.psu.edu/view/tyty/)*
-  * [structurefold](https://toolshed.g2.bx.psu.edu/view/tyty/structurefold): StructureFold predicts RNA secondary structures from high throughput RNA structure profiling data
+    * [structurefold](https://toolshed.g2.bx.psu.edu/view/tyty/structurefold): StructureFold predicts RNA secondary structures from high throughput RNA structure profiling data
 
 * *From [big-tiandm](https://toolshed.g2.bx.psu.edu/view/big-tiandm/)*
-  * [sirna_plant](https://toolshed.g2.bx.psu.edu/view/big-tiandm/sirna_plant): plant siRNA analysis toolkits. siRNA prediction, siRNA annotation, siRNA quantify
+    * [sirna_plant](https://toolshed.g2.bx.psu.edu/view/big-tiandm/sirna_plant): plant siRNA analysis toolkits. siRNA prediction, siRNA annotation, siRNA quantify
 
 * *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/)*
-  * [dc_genotyper](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/dc_genotyper): genotyper aimed at finding SNPs in high-ploidy (or pooled) samples sequenced at very high depth in a targeted region. 
+    * [dc_genotyper](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/dc_genotyper): genotyper aimed at finding SNPs in high-ploidy (or pooled) samples sequenced at very high depth in a targeted region.
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp/)*
-  * [fasta_merge_files_and_filter_unique_sequences](https://toolshed.g2.bx.psu.edu/view/galaxyp/fasta_merge_files_and_filter_unique_sequences): Merge FASTA files, keeping only unique sequences
-  * [filter_by_fasta_ids](https://toolshed.g2.bx.psu.edu/view/galaxyp/filter_by_fasta_ids): Extract sequences from a FASTA file based on a list of IDs
-  * [myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/myrimatch): protein identification via database search using Bumbershoot MyriMatch
-  * [ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/ltq_iquant_cli): iQuant performs tag based isobaric quantification
-  * [idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/idpqonvert): Bumbershoot idpQonvert, a part of Bumbershoot IDPicker.
-  * [directag_and_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/directag_and_tagrecon): protein identification via Directag and TagRecon.
+    * [fasta_merge_files_and_filter_unique_sequences](https://toolshed.g2.bx.psu.edu/view/galaxyp/fasta_merge_files_and_filter_unique_sequences): Merge FASTA files, keeping only unique sequences
+    * [filter_by_fasta_ids](https://toolshed.g2.bx.psu.edu/view/galaxyp/filter_by_fasta_ids): Extract sequences from a FASTA file based on a list of IDs
+    * [myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/myrimatch): protein identification via database search using Bumbershoot MyriMatch
+    * [ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/ltq_iquant_cli): iQuant performs tag based isobaric quantification
+    * [idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/idpqonvert): Bumbershoot idpQonvert, a part of Bumbershoot IDPicker.
+    * [directag_and_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/directag_and_tagrecon): protein identification via Directag and TagRecon.
 
 ### Suites
 
 * *From [biomonika](https://toolshed.g2.bx.psu.edu/view/biomonika/)*
-  * [suite_linkyx_bundle_main_0_1](https://toolshed.g2.bx.psu.edu/view/biomonika/suite_linkyx_bundle_main_0_1): 
+    * [suite_linkyx_bundle_main_0_1](https://toolshed.g2.bx.psu.edu/view/biomonika/suite_linkyx_bundle_main_0_1):
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [suite_vcflib_tools_3_0](https://toolshed.g2.bx.psu.edu/view/anton/suite_vcflib_tools_3_0): 23 tools for manipulation of VCF datasets
+    * [suite_vcflib_tools_3_0](https://toolshed.g2.bx.psu.edu/view/anton/suite_vcflib_tools_3_0): 23 tools for manipulation of VCF datasets
 
 ### Packages / Tool Dependency Definitions
 
 * *From [fubar](https://toolshed.g2.bx.psu.edu/view/fubar/)*
-  * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/fubar/package_graphicsmagick_1_3_20):
+    * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/fubar/package_graphicsmagick_1_3_20):
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc/)*
-  * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/iuc/package_graphicsmagick_1_3_20):
-  * [package_bioperl_1_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_bioperl_1_6): downloads and compiles version 1.6 of Bioperl.
-  * [package_onto_perl_1_41](https://toolshed.g2.bx.psu.edu/view/iuc/package_onto_perl_1_41): downloads and compiles version 1.41 of the Ontology toolkit written in perl.
+    * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/iuc/package_graphicsmagick_1_3_20):
+    * [package_bioperl_1_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_bioperl_1_6): downloads and compiles version 1.6 of Bioperl.
+    * [package_onto_perl_1_41](https://toolshed.g2.bx.psu.edu/view/iuc/package_onto_perl_1_41): downloads and compiles version 1.41 of the Ontology toolkit written in perl.
 
 * *From [saket-choudhary](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/)*
-  * [package_requests_2_2_1](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_requests_2_2_1): Tool dependency definition of python-requests
-  * [package_beautifulsoup4_4_1_0](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_beautifulsoup4_4_1_0): Tool dependency definition for python-bs4
+    * [package_requests_2_2_1](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_requests_2_2_1): Tool dependency definition of python-requests
+    * [package_beautifulsoup4_4_1_0](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_beautifulsoup4_4_1_0): Tool dependency definition for python-bs4
 
 * *From [qfab](https://toolshed.g2.bx.psu.edu/view/qfab/)*
-  * [opal2_4_1](https://toolshed.g2.bx.psu.edu/view/qfab/opal2_4_1): Opal Package - GVL
+    * [opal2_4_1](https://toolshed.g2.bx.psu.edu/view/qfab/opal2_4_1): Opal Package - GVL
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp/)*
-  * [package_peptides_to_gff_0_1](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_peptides_to_gff_0_1): Installs the peptides_to_gff python script
-  * [package_myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_myrimatch):
-  * [package_directag](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_directag):
-  * [package_idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_idpqonvert):
-  * [package_ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_ltq_iquant_cli):
-  * [package_mgf_formatter](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_mgf_formatter):
-  * [package_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_tagrecon): 
+    * [package_peptides_to_gff_0_1](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_peptides_to_gff_0_1): Installs the peptides_to_gff python script
+    * [package_myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_myrimatch):
+    * [package_directag](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_directag):
+    * [package_idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_idpqonvert):
+    * [package_ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_ltq_iquant_cli):
+    * [package_mgf_formatter](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_mgf_formatter):
+    * [package_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_tagrecon):
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [package_vcflib_8a5602bf07](https://toolshed.g2.bx.psu.edu/view/anton/package_vcflib_8a5602bf07): Compiled vcflib binaries for x86_64
+    * [package_vcflib_8a5602bf07](https://toolshed.g2.bx.psu.edu/view/anton/package_vcflib_8a5602bf07): Compiled vcflib binaries for x86_64
 
 * *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/)*
-  * [package_igvtools_2_3_32](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/package_igvtools_2_3_32): igvtools binaries, to be used as dependency in other tools.
+    * [package_igvtools_2_3_32](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/package_igvtools_2_3_32): igvtools binaries, to be used as dependency in other tools.
 
 * *From [lparsons](https://toolshed.g2.bx.psu.edu/view/lparsons/)*
-  * [package_rseqc_2_4](https://toolshed.g2.bx.psu.edu/view/lparsons/package_rseqc_2_4): downloads and compiles version 2.4 of RSeQC.
+    * [package_rseqc_2_4](https://toolshed.g2.bx.psu.edu/view/lparsons/package_rseqc_2_4): downloads and compiles version 2.4 of RSeQC.
 
 ### Updates
 
 * *From [fubar](https://toolshed.g2.bx.psu.edu/view/fubar/)*
-  * [toolfactory](https://toolshed.g2.bx.psu.edu/view/fubar/toolfactory): Citations added (thanks John!) and a few more output formats for Alistair Chilcott
+    * [toolfactory](https://toolshed.g2.bx.psu.edu/view/fubar/toolfactory): Citations added (thanks John!) and a few more output formats for Alistair Chilcott
 
 * *From [nilesh](https://toolshed.g2.bx.psu.edu/view/nilesh/)*
-  * [rseqc](https://toolshed.g2.bx.psu.edu/view/nilesh/rseqc): Upgraded RSeQC to [version 2.4](http://rseqc.sourceforge.net/#release-history)
+    * [rseqc](https://toolshed.g2.bx.psu.edu/view/nilesh/rseqc): Upgraded RSeQC to [version 2.4](http://rseqc.sourceforge.net/#release-history)
 
 # Other News
 
 * [Why the three biggest positive contributions to reproducible research are the iPython Notebook, knitr, and Galaxy](http://bit.ly/1rqHVJW) on the [Simply Statistics blog](http://simplystatistics.org/)
-* Updated [wiki page about dynamically discovering output datasets at runtime](/admin/tools/multiple-output-files/#number-of-output-datasets-cannot-be-determined-until-tool-run). 
+* Updated [wiki page about dynamically discovering output datasets at runtime](/admin/tools/multiple-output-files/#number-of-output-datasets-cannot-be-determined-until-tool-run).
 * The [Ansible playbook used to update usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook) is available in GitHub.
 * New [GVL Galaxy Release](https://genome.edu.au/wiki/GVL): Metagenomics Tutorial tools, MACS2, BLAST, MEME, hg38, rn6, and Trinity.
 * Galaxy Community UK launches a Twitter channel: [@GalaxyUKFriends](https://twitter.com/GalaxyUKFriends)

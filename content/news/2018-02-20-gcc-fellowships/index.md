@@ -26,8 +26,8 @@ then you are strongly encouraged to apply.
 
 Fellowship applications will be selected based on multiple criteria including
 
-- Your research! And ... 
-- How well you can describe it in a poster, demo or lightning talk abstract 
+- Your research! And ...
+- How well you can describe it in a poster, demo or lightning talk abstract
 - How much impact attending will have on you and your current and future communities, especially historically underrepresented communities and research and education in developing countries.
 
 See the [application](http://bit.ly/gcc2018apply) for full details on what's covered and what we ask you to provide.

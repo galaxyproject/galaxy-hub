@@ -7,7 +7,7 @@ date: "2013-02-09"
 **Highlights:**
 
 * *Improvements* to our [release process](http://wiki.galaxyproject.org/DevNewsBriefs/2013-02-08#Improvements_to_Release_Process). **Release tag must be used in the hg update command to upgrade**. More at **[usegalaxy.org](http://wiki.galaxyproject.org/Admin/GetGalaxy)**.
-* Tool Shed *[Complex repository dependencies](http://wiki.galaxyproject.org/DefiningRepositoryDependencies#Complex_repository_dependencies:_tool_dependency_definitions_that_contain_repository_dependency_definitions)* are introduced, streamlining core dependency use across individual tools. 
+* Tool Shed *[Complex repository dependencies](http://wiki.galaxyproject.org/DefiningRepositoryDependencies#Complex_repository_dependencies:_tool_dependency_definitions_that_contain_repository_dependency_definitions)* are introduced, streamlining core dependency use across individual tools.
 * Also updated in the Tool Shed: multiple repository installation, dependency installation (when defined - see graphic on right for an example), and many usability enhancements and fixes.
 * New *[Bedgraph-to-bigwig](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph)* tool plus *Filter* tool updated.
 * *Workflows* now include option to export an image and the core *Framework* now allows more unified reference genome usage and access.
@@ -29,7 +29,7 @@ upgrade: $ hg pull
 ```
 
 
-*To receive email updates about [Galaxy Distributions and News Briefs](/docs/), be sure to subscribe to the [Galaxy-Announce mailing list](/mailing-lists/#the-lists), a low-volume list dedicated to [News Items](/news/) and priority messages from the Galaxy [community](/community/) and [project core team](/galaxy-project/).* 
+*To receive email updates about [Galaxy Distributions and News Briefs](/docs/), be sure to subscribe to the [Galaxy-Announce mailing list](/mailing-lists/#the-lists), a low-volume list dedicated to [News Items](/news/) and priority messages from the Galaxy [community](/community/) and [project core team](/galaxy-project/).*
 
 Thanks for using Galaxy,
 

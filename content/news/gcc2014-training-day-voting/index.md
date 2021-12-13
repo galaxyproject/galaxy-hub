@@ -6,7 +6,7 @@ date: "2014-01-07"
 
 What topics should be offered at the [GCC2014 Training Day](/events/gcc2014/training-day/)?
 
-[Topics](/events/gcc2014/training-day/) for the [GCC2014 Training Day](/events/gcc2014/training-day/) are selected by you, the Galaxy Community.  For GCC2014 there are [19 nominated topics](/events/gcc2014/training-day/#nominated-topics) to pick from.  Your votes will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
+[Topics](/events/gcc2014/training-day/) for the [GCC2014 Training Day](/events/gcc2014/training-day/) are selected by you, the Galaxy Community.  For GCC2014 there are [19 nominated topics](/events/gcc2014/training-day/#nominated-topics) to pick from.  Your votes will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters.
 
 **Topic voting closes January 17.** The Training Day schedule, including instructors, will be published before early registration opens on February 10.
 

@@ -24,7 +24,7 @@ We can be reached at *GCC2019 Organizers &lt;gcc2019-org@lists.galaxyproject.org
 * *[Gildas Le Corguillé](https://github.com/lecorguille)*, [Station Biologique de Roscoff](http://www.sb-roscoff.fr/)
 * *[Maria Doyle](https://www.researchgate.net/profile/Maria_Doyle4)*, [Peter MacCallum Cancer Centre](https://www.petermac.org/)
 * *[Anika Erxleben](https://github.com/erxleben)*, [University of Freiburg](https://www.uni-freiburg.de/)
-* *[Melanie Föll](https://github.com/foellmelanie)*, [University of Freiburg](https://www.uni-freiburg.de/) 
+* *[Melanie Föll](https://github.com/foellmelanie)*, [University of Freiburg](https://www.uni-freiburg.de/)
 * *[Anne Claire Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/)*, [University of Oslo](https://www.uio.no/)
 * *[Carrie Ganote](https://www.researchgate.net/profile/Carrie_Ganote)*, [Indiana University](https://iu.edu/)
 * *[Jeremy Goecks](/people/jeremy-goecks/)*, [Oregon Health & Science University](https://www.ohsu.edu/)
@@ -44,7 +44,7 @@ We can be reached at *GCC2019 Organizers &lt;gcc2019-org@lists.galaxyproject.org
 * *[Beata Scholtz](https://www.researchgate.net/profile/Beata_Scholtz)*, [University of Debrecen](https://unideb.hu/en)
 * *[Nicola Soranzo](http://www.earlham.ac.uk/nicola-soranzo)*, [Earlham Institute](http://www.earlham.ac.uk/)
 * *[Peter van Heusden](https://www.researchgate.net/profile/Peter_Van_Heusden)*, [University of the Western Cape](https://www.uwc.ac.za/), [South African National Bioinformatics Institute (SANBI)](https://www.sanbi.ac.za/)
-* *[Ralf Weber](https://www.birmingham.ac.uk/staff/profiles/biosciences/weber-ralf.aspx)*,  [University of Birmingham](https://www.birmingham.ac.uk/) 
+* *[Ralf Weber](https://www.birmingham.ac.uk/staff/profiles/biosciences/weber-ralf.aspx)*,  [University of Birmingham](https://www.birmingham.ac.uk/)
 
 The SPC can be reached at *GCC2019 Scientifc Program Committee &lt;gcc2019-sci@lists.galaxyproject.org&gt;*
 
@@ -56,6 +56,6 @@ The SPC can be reached at *GCC2019 Scientifc Program Committee &lt;gcc2019-sci@l
 * *[Mo Heydarian](/people/mo-heydarian/)*, [Johns Hopkins University](https://jhu.edu/)
 * *[Jennifer Hillman-Jackson](/people/jennifer-jackson/)*, [Penn State University](http://www.bx.psu.edu)
 * *[Brad Langhorst](https://scholar.google.com/citations?user=75w73LQAAAAJ&hl=en)*, [New England Biolabs](https://www.neb.com/)
-* *[Marius van den Beek](https://github.com/mvdbeek)*, [Institut Curie](https://institut-curie.org/) 
+* *[Marius van den Beek](https://github.com/mvdbeek)*, [Institut Curie](https://institut-curie.org/)
 
 The CoFest organizers can be reached at *GCC2019 CoFest Organizers &lt;gcc2019-cofest-org@lists.galaxyproject.org&gt;*

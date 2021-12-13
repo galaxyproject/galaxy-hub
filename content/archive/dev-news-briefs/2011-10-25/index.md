@@ -23,12 +23,12 @@ date: 2011-10-25
 ### Galaxy Main
 
 * Data and Job Quotas announced earlier today by email, Galaxy wiki, Twitter, and News Items/RSS feed.
-  * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/mailing-lists/).
-  * [Main](/main/) wiki with limits, FAQ, and related links.
-  * [Managing Datasets](/learn/managing-datasets/) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
-  * [Disk Quotas](/admin/disk-quotas/) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
-  * Twitter [#galaxyproject](http://twitter.com/#galaxyproject).
-  * [Galaxy News](/news/) Items and RSS feed.
+    * [Email](http://lists.bx.psu.edu/pipermail/galaxy-user/2011-October/003467.html) message from the team to galaxy-user and galaxy-dev [mailing lists](/mailing-lists/).
+    * [Main](/main/) wiki with limits, FAQ, and related links.
+    * [Managing Datasets](/learn/managing-datasets/) wiki contains detailed help to organize, clone, copy, save, and delete unneeded data.
+    * [Disk Quotas](/admin/disk-quotas/) wiki has administrative information on how Galaxy's disk space accounting works, how to keep it up to date, and how to enable and manage quotas
+    * Twitter [#galaxyproject](http://twitter.com/#galaxyproject).
+    * [Galaxy News](/news/) Items and RSS feed.
 
 ----
 <a href='http://galaxyproject.org/wiki/News'><img src="/images/news-graphics/2011_10_25_newsitem-quotas.png" alt="" width="600px" /></a>
@@ -48,12 +48,15 @@ date: 2011-10-25
 * Overview provides chromosome-wide view of a single track independent of primary, interactive view.
 
 <a href='http://usegalaxy.org/visualization/list_published/'><img src="/images/news-graphics/2011_10_25_trackster-overview.png" alt="trackster-overview" width="600px" /></a>
+
 * Make it possible to set features' transparency based on attribute values.
 
 <a href='http://usegalaxy.org/visualization/list_published/'><img src="/images/news-graphics/2011_10_25_trackster-transparency.png" alt="trackster-tranparency" width="600px" /></a>
+
 * Introduce track groups, which can be used to cluster and move tracks together. Running tools places new tracks in groups.
 
 <a href='http://usegalaxy.org/visualization/list_published/'><img src="/images/news-graphics/2011_10_25_trackster-groups.png" alt="trackster-groups" width="600" /></a>
+
 * Enable tools that produce BED output to be used in visual analytics framework and enable GOPS cluster tool to work in Trackster.
 * Use Fasta datasets to specify custom build visualizations.
 
@@ -82,12 +85,12 @@ date: 2011-10-25
 * Add wrapper for [SICER](http://home.gwu.edu/~wpeng/Software.htm/) tool, a *Statistical approach for the identification of ChIP-Enriched Regions*.
 * Add wrapper for SAMtools [rmdup](http://samtools.sourceforge.net/) tool, which removes potential PCR duplicates in BAM files.
 * Add the tool *Text Manipulation -> Secure Hash / Message Digest*:
-  * calculates Secure Hashes / Message Digests of a dataset with the user selected algorithms. 
-  * [python](http://www.python.org) version of a shell utility ['% sha'](http://en.wikipedia.org/wiki/Secure_Hash_Algorithm).
-  * used for verifying that a data load was complete (exact!) and other file quality checking functions.
+    * calculates Secure Hashes / Message Digests of a dataset with the user selected algorithms.
+    * [python](http://www.python.org) version of a shell utility ['% sha'](http://en.wikipedia.org/wiki/Secure_Hash_Algorithm).
+    * used for verifying that a data load was complete (exact!) and other file quality checking functions.
 * Update the *Text Manipulation -> Select random lines from a file* tool:
-  * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets. 
-  * the random seed can now be optionally specified. 
+    * does two passes through input file: first pass determines line offsets/count, offsets are randomly removed, second pass writes out lines by seeking to remaining offsets.
+    * the random seed can now be optionally specified.
 * New assertion-based tests for tool test outputs from John Chilton.  For usage, see the example in the [Tool Config Syntax](/admin/tools/tool-config-syntax/#a3ctest3e_tag_set) documentation.
 
 ### Quotas and Data Management
@@ -103,9 +106,9 @@ date: 2011-10-25
 
 * Tools that include parameters that are 'dynamic select lists' that refer to local index files (`.loc` files) or entries in the `tool_data_table_conf.xml` file will now all successfully load even if these dependencies are missing.  However, an error message will be displayed in the tool form for these tools conveying information about the missing dependencies.
 * Framework for refactoring the UI and actions (implemented by the Quota interfaces, new interfaces should also use this method):
-  * UI components now live in subclasses of `BaseUIController and BaseAPIController, themselves subclasses of BaseController`.
-  * Actions, i.e. the work performed by choices made in the Web UI or API now live in galaxy.actions, so they can be called cleanly from either interface
-  * Parameters passed in the Web UI or API should be parsed in galaxy.web.params.  If standardized across all forms and API methods of a particular model class, these parsers can be generalized quite easily
+    * UI components now live in subclasses of `BaseUIController and BaseAPIController, themselves subclasses of BaseController`.
+    * Actions, i.e. the work performed by choices made in the Web UI or API now live in galaxy.actions, so they can be called cleanly from either interface
+    * Parameters passed in the Web UI or API should be parsed in galaxy.web.params.  If standardized across all forms and API methods of a particular model class, these parsers can be generalized quite easily
 * Refactor validation of user account data--email, username, password--into own module and use module for validating user data throughout Galaxy.
 * Improve GTF sniffing by doing proper parsing of attributes.
 
@@ -128,7 +131,7 @@ date: 2011-10-25
 
 ### Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div>
 
 * Tasked jobs will now inherit the parent job's user information correctly.
 * Remove unspecified build validators from Cuffdiff wrapperfixes [https://bitbucket.org/galaxy/galaxy-central/issue/631](https://bitbucket.org/galaxy/galaxy-central/issue/631).
@@ -146,7 +149,7 @@ date: 2011-10-25
 
 [GalaxyProject.org](http://galaxyproject.org)
 
-The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/) is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The [GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/) is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

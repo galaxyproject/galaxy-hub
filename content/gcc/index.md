@@ -33,7 +33,7 @@ GCC is a community driven event.  Training topics are nominated and then voted o
 GCC has met annually since 2010 and the program has grown and transformed each year. [GCC2021](https://www.vibconferences.be/events/gcc2021-virtual-edition#main-content) will be held online, 28 June through 10 July.  We hope to see you there.
 
 | Dates | Event | Where | Hosts | # |
-| ---- | ---- | ---- | ---- | ----: | 
+| ---- | ---- | ---- | ---- | ----: |
 | **July 16-23, 2022** | **[GCC2022](/events/gcc2022/)** | **Minneapolis, Minnesota, United States** | **[Minnesota Supercomputing Institute](https://www.msi.umn.edu/) and [GalaxyP Project](http://galaxyp.org/), University of Minnesota** |  |
 | June 28-July 10, 2021 | [GCC2021](https://www.vibconferences.be/events/gcc2021-virtual-edition#main-content) | Online, Global | [VIB](https://vib.be/) | 398 |
 | July 17-26, 2020 | [BCC2020](https://bcc2020.github.io/) | Online, Global | [Ontario Institute for Cancer Research](https://oicr.on.ca/), [Galaxy Australia](https://usegalaxy.org.au/) / [Australian BioCommons](https://www.biocommons.org.au/) | 804 |
@@ -44,7 +44,7 @@ GCC has met annually since 2010 and the program has grown and transformed each y
 | July 6-8, 2015 | [GCC2015](http://gcc2015.tsl.ac.uk/) | Norwich, England, United Kingdom | [The Sainsbury Laboratory](http://tsl.ac.uk/) | 230 |
 | June 30 - July 2, 2014 | [GCC2014](/events/gcc2014/) | Baltimore, Maryland, United States | [Dept of Biological Chemistry, Johns Hopkins University](http://biolchem.bs.jhmi.edu/) | 217 |
 | June 30 - July 2, 2013 | [GCC2013](/events/gcc2013/) | Oslo, Norway | [University of Oslo](http://www.uio.no/) | 219 |
-| July 25-27, 2012 | [GCC2012](/events/gcc2012/) | Chicago, Illinois, United States | [University of Illinois at Chicago](http://uic.edu/), [University of Illinois at Urbana-Champagne](http://illinois.edu/), [Computation Institute](http://http//www.ci.uchicago.edu/) | 202 | 
+| July 25-27, 2012 | [GCC2012](/events/gcc2012/) | Chicago, Illinois, United States | [University of Illinois at Chicago](http://uic.edu/), [University of Illinois at Urbana-Champagne](http://illinois.edu/), [Computation Institute](http://http//www.ci.uchicago.edu/) | 202 |
 | May 25-26, 2011 | [GCC2011](https://galaxyproject.org/gcc2011/) | Lunteren, The Netherlands | [NBIC](https://www.nbic.nl/) | 148 |
 | May 15-17, 2010 | [GDC2010](https://galaxyproject.org/dev2010/) | Cold Spring Harbor, New York, United States | [CSHL](http://cshl.edu/) | 69 |
 

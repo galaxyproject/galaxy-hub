@@ -41,11 +41,13 @@ vulnerabilities. Details follow:
 The code lives at [Github](https://github.com/galaxyproject/galaxy) and you should have [Git](https://git-scm.com/) to obtain it.
 
 **To get a new Galaxy repository run:**
+
 ```console
 $ git clone -b release_16.10 https://github.com/galaxyproject/galaxy.git
 ```
 
 **To update an existing Galaxy repository run:**
+
 ```console
 $ git checkout release_16.10 && git pull --ff-only origin release_16.10
 ```

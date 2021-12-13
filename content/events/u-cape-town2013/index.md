@@ -16,11 +16,11 @@ The course is hosted by the **[University of Cape Town (UCT) Computational Biolo
 
 ## Apply
 
-The [African Centre for Gene Technologies](http://www.acgt.co.za/) in collaboration with the [University of Cape Town’s Computational Biology Group](http://www.cbio.uct.ac.za/) will host this workshop at no cost to researchers who require training in NGS data analysis. Note, catering will not be provided for the course, but the medical school has two cafeterias where participants can purchase refreshments. The workshop is open to all researchers. Admission is competitive and will be based on the strength of your application. 
+The [African Centre for Gene Technologies](http://www.acgt.co.za/) in collaboration with the [University of Cape Town’s Computational Biology Group](http://www.cbio.uct.ac.za/) will host this workshop at no cost to researchers who require training in NGS data analysis. Note, catering will not be provided for the course, but the medical school has two cafeterias where participants can purchase refreshments. The workshop is open to all researchers. Admission is competitive and will be based on the strength of your application.
 
 Each applicant is required to submit a detailed motivation outlining how the course will contribute to their current research. Preference will be given to those who have already generated data which requires further analysis.  
 
-*Applications should be submitted by the 17<sup>th</sup> of September 2013.* Applications that are late or incomplete will not be considered. All applicants will be notified as to the outcome of their application by the 27<sup>th</sup> September 2013. 
+*Applications should be submitted by the 17<sup>th</sup> of September 2013.* Applications that are late or incomplete will not be considered. All applicants will be notified as to the outcome of their application by the 27<sup>th</sup> September 2013.
 
 ## Audience
 

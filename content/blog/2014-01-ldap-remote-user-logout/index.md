@@ -165,6 +165,6 @@ RewriteRule (.*) http://localhost:8080/$1 [P,E=RU:%{REMOTE_USER}]
 
 ## Links
 
-* [Original thread on Galaxy-Dev](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN/#DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN) 
+* [Original thread on Galaxy-Dev](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN/#DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN)
 * [Proxying Galaxy with Apache](/admin/config/apache-proxy/#proxying-multiple-galaxy-worker-threads)
 * [External User Authentication](/admin/config/external-user-auth/)

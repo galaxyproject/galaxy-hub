@@ -23,7 +23,7 @@ Brett further explained that this was partly because the lab's skill set made se
 
 <div class='right'> <a href='http://rnaseq.pathogenportal.org/'><img src="/use/archive/rna-rocket-pathogen-portal/pathogen-portal-page.png" alt="Pathogen Portal" width="150" /></a></div>
 
-**[Pathogen Portal](http://www.pathogenportal.org)** supports comparative analysis of host response to pathogens.  It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts.  It can analyze transcriptome data for genomes stored at [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). The pipeline is built on Galaxy. Galaxy has been modified to simplify RNA-Seq analysis for *informatics-naïve, biologically focused* users and provide a guided experience to quality control of read data, read mapping, assembling transcripts, estimating gene expression values, and doing differential expression analysis.  See "[Database resources for the tuberculosis community](http://www.sciencedirect.com/science/article/pii/S147297921200203X)" by Lew, *et al.* 
+**[Pathogen Portal](http://www.pathogenportal.org)** supports comparative analysis of host response to pathogens.  It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts.  It can analyze transcriptome data for genomes stored at [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). The pipeline is built on Galaxy. Galaxy has been modified to simplify RNA-Seq analysis for *informatics-naïve, biologically focused* users and provide a guided experience to quality control of read data, read mapping, assembling transcripts, estimating gene expression values, and doing differential expression analysis.  See "[Database resources for the tuberculosis community](http://www.sciencedirect.com/science/article/pii/S147297921200203X)" by Lew, *et al.*
 
 <br />
 
@@ -126,7 +126,7 @@ In addition to the sponsors that we [announced in January](/galaxy-updates/2013-
 
 Two companies have also stepped forward to be the sole Platinum Sponsor and one of the two Gold Sponsors.  We hope to announce them later this month.
 
-There are still several [sponsorships](/events/gcc2013/sponsorships/) still available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event. 
+There are still several [sponsorships](/events/gcc2013/sponsorships/) still available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event.
 
 ## January GalaxyAdmins Web Meetup
 
@@ -145,7 +145,7 @@ The next [GalaxyAdmins meetup](/community/galaxy-admins/) will be Wednesday, Mar
 <a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -217,15 +217,15 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 
 ### Deadlines
 
-* February 1: [Metagenomics: From the Bench to Data Analysis, EMBO Practical Course](http://www.embl.de/training/events/2013/MET13-01/index.html) Application & Abstract Deadline 
-* February 1: [PAG Asia 2013](http://intlpagasia.org/2013) Poster Abstract deadline 
+* February 1: [Metagenomics: From the Bench to Data Analysis, EMBO Practical Course](http://www.embl.de/training/events/2013/MET13-01/index.html) Application & Abstract Deadline
+* February 1: [PAG Asia 2013](http://intlpagasia.org/2013) Poster Abstract deadline
 * February 11: [GCC2013 Training Day Topic](/events/gcc2013/training-day/) voting closes
 * February 15: [European Human Genetics Conference 2013 (ESHG 2013)](http://www.eshg.org/eshg2013) Abstract Deadline
 * February 15: [Next NGS Challenge Conference](http://www.thenextngschallenge.org/) Abstract Deadline
 * February 22: [Biology of Genomes](http://meetings.cshl.edu/meetings/genome13.shtml) Abstract deadline
 * February 25: [Biocuration 2013](http://www.ebi.ac.uk/biocuration2013/) Early Registration Deadline
 * February 28: [ESEB Congress 2013](https://www.eseb2013.com/) Abstract Deadline
-* March 1: [Analyzing Next-Generation Sequencing Data Course](http://bioinformatics.msu.edu/ngs-summer-course-2013) Application Deadline 
+* March 1: [Analyzing Next-Generation Sequencing Data Course](http://bioinformatics.msu.edu/ngs-summer-course-2013) Application Deadline
 * March 1: [ISMB/ECCB 2013 Highlight Papers](http://www.iscb.org/ismbeccb2013) Deadline
 * March 1: [Next NGS Challenge Conference](http://www.thenextngschallenge.org/) Poster Deadline
 
@@ -260,16 +260,16 @@ upgrade: $ hg pull -u -r a4113cc1cb5e
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * `flexbar:`: flexible barcode and adapter removal
-* `proteomics_datatypes, xtandem, mascot, tpp_prohets, omssa, msgfplus`: All new proteomics-related repositories, all from Ira Cooke 
+* `proteomics_datatypes, xtandem, mascot, tpp_prohets, omssa, msgfplus`: All new proteomics-related repositories, all from Ira Cooke
 * `custom_amplicon_alignment`: align amplicons using primers for high accuracy
 * `file_to_ftp`: Copy Datasets from history to FTP
 * `s_mart`:  manage your RNA-Seq and ChIP-Seq data. Produce many different plots to visualize data
-* `bamedit, idr_package, macs2, peakranger & spp_package`: all from [modENCODE](http://modencode.org) 
+* `bamedit, idr_package, macs2, peakranger & spp_package`: all from [modENCODE](http://modencode.org)
 * `differential_expression_analysis_pipeline_for_rnaseq_data`: perform differential expression analysis on two different conditions.
 
 ## Other News
 
-* Video of Peter Li's ICG7 [talk on GigDB and Galaxy](http://bit.ly/Xfjs9i) is now online.  Galaxy content starts 68 minutes in. 
+* Video of Peter Li's ICG7 [talk on GigDB and Galaxy](http://bit.ly/Xfjs9i) is now online.  Galaxy content starts 68 minutes in.
 * **[IIHG Bioinformatics Short Course](https://wiki.uiowa.edu/display/galaxyusers/IIHG+Bioinformatics+Short+Course+II)** downloadable PDFs cover *Galaxy Intro and File formats*, *NGS Intro*, *Galaxy Basics*, and *Reproducibility and Collaboration within Galaxy*
 * [How to launch your own copy of a customized modENCODE Galaxy on Amazon Web Services](http://bit.ly/VwGvxc)  
 * *[The Galaxy service pilot in CSIRO](http://bit.ly/11NC6u7)* poster.

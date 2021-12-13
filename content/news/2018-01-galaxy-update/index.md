@@ -8,11 +8,11 @@ date: '2018-01-05'
 The [January 2018 Galaxy News](/galaxy-updates/2018-01/) is out!
 
 * [Upcoming events](/galaxy-updates/2018-01/#events)
-  * [**GCCBOSC 2018 Training Nominations Extended to January 12**](/galaxy-updates/2018-01/#gccbosc-2018-training-nominations-extended-to-january-12)
-  * [**ELIXIR Galaxy Community Kickoff and Meeting**](/galaxy-updates/2018-01/#elixir-galaxy-community-kickoff-and-meeting), March, Freiburg, Germany
-  * **[Galaxy (and GMOD) at PAG XXVI ](/galaxy-updates/2018-01/#galaxy-and-gmod-at-plant-and-animal-genome-xxvi) and [Cal State San Marcos](/galaxy-updates/2018-01/#intro-to-galaxy-workshop-at-csusm)**
-  * [2018 Big Genomics Data Skills Training course](/galaxy-updates/2018-01/#2018-big-genomics-data-skills-training-course)
-* [Two new blog posts](/galaxy-updates/2018-01/#new-galactic-blog-entries-galaksio), both about [Galaksio](https://galaksio.readthedocs.io/en/latest/) 
+    * [**GCCBOSC 2018 Training Nominations Extended to January 12**](/galaxy-updates/2018-01/#gccbosc-2018-training-nominations-extended-to-january-12)
+    * [**ELIXIR Galaxy Community Kickoff and Meeting**](/galaxy-updates/2018-01/#elixir-galaxy-community-kickoff-and-meeting), March, Freiburg, Germany
+    * **[Galaxy (and GMOD) at PAG XXVI ](/galaxy-updates/2018-01/#galaxy-and-gmod-at-plant-and-animal-genome-xxvi) and [Cal State San Marcos](/galaxy-updates/2018-01/#intro-to-galaxy-workshop-at-csusm)**
+    * [2018 Big Genomics Data Skills Training course](/galaxy-updates/2018-01/#2018-big-genomics-data-skills-training-course)
+* [Two new blog posts](/galaxy-updates/2018-01/#new-galactic-blog-entries-galaksio), both about [Galaksio](https://galaksio.readthedocs.io/en/latest/)
 * [155 new publications](/galaxy-updates/2018-01/#publications)
 * [Openings in 4 groups on 2 continents](/galaxy-updates/2018-01/#whos-hiring)
 * [Public Galaxy Server News](/galaxy-updates/2018-01/#public-galaxy-server-news) *(Hint: there are new servers.)*

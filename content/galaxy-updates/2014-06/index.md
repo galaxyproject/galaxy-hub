@@ -50,9 +50,9 @@ The conference is still accepting [late abstract submissions](/events/gcc2014/ab
 
 We are happy to have [Penguin Computing](http://www.penguincomputing.com/) as a GCC2014 Silver Sponsor. Penguin, like all [Platinum, Gold, and Silver Sponsors](/events/gcc2014/sponsor-exhibit/) will have a table at GCC2104.
 
-There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available for the [GCC2014](/events/gcc2014/) and Giga sponsorships for the [Hackathon](/events/gcc2014/hackathon/). Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor these events. 
+There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available for the [GCC2014](/events/gcc2014/) and Giga sponsorships for the [Hackathon](/events/gcc2014/hackathon/). Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor these events.
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014.
 
 ### Galaxy Hackathon at GCC2014
 
@@ -72,13 +72,13 @@ Finally, we are happy to have [Amazon Web Services](http://aws.amazon.com) on bo
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are [at least 13 other Galaxy related events](/events/) in the next two months in Thailand, Canada, France, the United States, Italy, the Netherlands, Australia, and Brazil. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
-<div class='center'> 
+<div class='center'>
 <a href='http://abims.sb-roscoff.fr/formation'><img src="/images/logos/ABiMSLogo.png" alt="ABiMS" height="50" /></a>
 <a href='http://bioinformatics.ca/workshops/2014/informatics-high-throughput-sequencing-data-2014'><img src="/images/logos/CanadianBioinfWorkshopsLog.png" alt="Informatics on High Throughput Sequencing Data Workshop" height=80 /></a>&nbsp;
 <a href='/events/asms2014/'><img src="/images/logos/ASMSLogo.png" alt="62nd ASMS Conference on Mass Spectrometry and Allied Topics" height="80" /></a>
@@ -278,19 +278,19 @@ One new [public Galaxy servers](/use/) was added to the published list in May:
 <div class='right solid'><a href='http://deeptools.ie-freiburg.mpg.de/'><img src="/use/archive/deeptools/deeptools.png" alt="deepTools Galaxy Server" width="200" /></a></div>
 
 * *Links:*
-  * [deepTools](http://deeptools.ie-freiburg.mpg.de/) server
-  * [deepTools home page at GitHub](http://deeptools.github.io/)
-  * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
-  * *[deepTools: a flexible platform for exploring deep-sequencing data](/events/gcc2014/abstracts/talks/#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/events/gcc2014/)
-  * deepTools deployment description
-* *Domain/Purpose:* 
+    * [deepTools](http://deeptools.ie-freiburg.mpg.de/) server
+    * [deepTools home page at GitHub](http://deeptools.github.io/)
+    * Fidel Ramírez, Friederike Dündar, Sarah Diehl, Björn A. Grüning, and Thomas Manke. [deepTools: a flexible platform for exploring deep-sequencing data](http://nar.oxfordjournals.org/cgi/content/abstract/gku365) *Nucl. Acids Res.* first published online May 5, 2014 doi:10.1093/nar/gku365
+    * *[deepTools: a flexible platform for exploring deep-sequencing data](/events/gcc2014/abstracts/talks/#deeptools-a-flexible-platform-for-exploring-deep-sequencing-data)* presentation by [Sarah Diehl](http://www.ie-freiburg.mpg.de/1892622/employee_page?c=1896591&employee_id=26993) at [GCC2014](/events/gcc2014/)
+    * deepTools deployment description
+* *Domain/Purpose:*
     deepTools is a suite of user-friendly tools for the visualization, quality control and normalization of data from high-throughput DNA sequencing experiments.
 * *Comments:*
     deepTools offers multiple methods for highly-customizable data visualization that immensely aid hypothesis generation and data interpretation. It also offers all the tools needed to create coverage files in standard bedGraph and bigWig file formats allowing various normalization procedures and comparisons between two files (for example, treatment and control).
 * *User Support:*
-  * [Email](mailto:deeptools@googlegroups.com)
-  * [deepTools wiki](https://github.com/fidelram/deepTools/wiki)
-* *Quotas:* 
+    * [Email](mailto:deeptools@googlegroups.com)
+    * [deepTools wiki](https://github.com/fidelram/deepTools/wiki)
+* *Quotas:*
     20 GB for unregistered users, 30 GB for registered users
 * *Sponsor(s):*
     [Bioinformatics](http://www.ie-freiburg.mpg.de/bioinformaticsfac) and [Deep-Sequencing](http://www.ie-freiburg.mpg.de/deepfac) Units at the [Max Planck Institute for Immunobiology and Epigenetics](http://www3.ie-freiburg.mpg.de/).
@@ -321,6 +321,7 @@ The most recent version of CloudMan was [released in January 2014](/news/cloudma
 <br /><br />
 
 One new deployment description was added in May:
+
 * deepTools
 
 The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them.
@@ -332,114 +333,114 @@ The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community
 
 ## Galaxy Project ToolShed Repos
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
 * *From [bgruening](http://toolshed.g2.bx.psu.edu/view/bgruening)*
-  * [crispr_recognition_tool](http://toolshed.g2.bx.psu.edu/view/bgruening/crispr_recognition_tool): automatic detection of clustered regularly interspaced palindromic repeats
-  * [minced](http://toolshed.g2.bx.psu.edu/view/bgruening/minced): MinCED is a program to find Clustered Regularly Interspaced Short Palindromic Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes, in which sequence size can be anywhere from 100 to 800 bp.
+    * [crispr_recognition_tool](http://toolshed.g2.bx.psu.edu/view/bgruening/crispr_recognition_tool): automatic detection of clustered regularly interspaced palindromic repeats
+    * [minced](http://toolshed.g2.bx.psu.edu/view/bgruening/minced): MinCED is a program to find Clustered Regularly Interspaced Short Palindromic Repeats (CRISPRs) in full genomes or environmental datasets such as metagenomes, in which sequence size can be anywhere from 100 to 800 bp.
 
 * *From [pieterlukasse](http://toolshed.g2.bx.psu.edu/view/pieterlukasse)*
-  * [primo_multiomics](http://toolshed.g2.bx.psu.edu/view/pieterlukasse/primo_multiomics): Multi-omics module of Plant Research International's Mass Spectrometry (PRIMS) toolsuite
+    * [primo_multiomics](http://toolshed.g2.bx.psu.edu/view/pieterlukasse/primo_multiomics): Multi-omics module of Plant Research International's Mass Spectrometry (PRIMS) toolsuite
 
 * *From [rnateam](http://toolshed.g2.bx.psu.edu/view/rnateam/)*
-  * [blockclust](http://toolshed.g2.bx.psu.edu/view/rnateam/blockclust): Non-coding RNA clustering from deep sequencing read profiles
+    * [blockclust](http://toolshed.g2.bx.psu.edu/view/rnateam/blockclust): Non-coding RNA clustering from deep sequencing read profiles
 
 * *From [drosofff](http://toolshed.g2.bx.psu.edu/view/drosofff)*
-  * [ged_bowtie](http://toolshed.g2.bx.psu.edu/view/drosofff/ged_bowtie): Bowtie wrapper for small RNA sequencing analysis
+    * [ged_bowtie](http://toolshed.g2.bx.psu.edu/view/drosofff/ged_bowtie): Bowtie wrapper for small RNA sequencing analysis
 
 * *From [george-weingart](http://toolshed.g2.bx.psu.edu/view/george-weingart/) *
-  * [metaphlan](http://toolshed.g2.bx.psu.edu/view/george-weingart/metaphlan): MetaPhlAn (Metagenomic Phylogenetic Analysis) is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data
-  * [lefse](http://toolshed.g2.bx.psu.edu/view/george-weingart/lefse): LDA Effect Size (LEfSe) ([Segata et. al 2010](http://genomebiology.com/content/12/6/R60)) is an algorithm for high-dimensional biomarker discovery and explanation that identifies genomic features (genes, pathways, or taxa) characterizing the differences between two or more biological conditions.
-  * [micropita](http://toolshed.g2.bx.psu.edu/view/george-weingart/micropita): microPITA is a computational tool enabling sample selection in tiered studies. 
-  * [maaslin](http://toolshed.g2.bx.psu.edu/view/george-weingart/maaslin): MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function
+    * [metaphlan](http://toolshed.g2.bx.psu.edu/view/george-weingart/metaphlan): MetaPhlAn (Metagenomic Phylogenetic Analysis) is a computational tool for profiling the composition of microbial communities from metagenomic shotgun sequencing data
+    * [lefse](http://toolshed.g2.bx.psu.edu/view/george-weingart/lefse): LDA Effect Size (LEfSe) ([Segata et. al 2010](http://genomebiology.com/content/12/6/R60)) is an algorithm for high-dimensional biomarker discovery and explanation that identifies genomic features (genes, pathways, or taxa) characterizing the differences between two or more biological conditions.
+    * [micropita](http://toolshed.g2.bx.psu.edu/view/george-weingart/micropita): microPITA is a computational tool enabling sample selection in tiered studies.
+    * [maaslin](http://toolshed.g2.bx.psu.edu/view/george-weingart/maaslin): MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function
 
 * *From [devteam](http://toolshed.g2.bx.psu.edu/view/devteam)*
-  * [fasta_filter_by_length](http://toolshed.g2.bx.psu.edu/view/devteam/fasta_filter_by_length): Outputs sequences between Minimal length and Maximum length.
-  * [rmap](http://toolshed.g2.bx.psu.edu/view/devteam/rmap): RMAP for Solexa Short Reads Alignment
-  * [convert_solid_color2nuc](http://toolshed.g2.bx.psu.edu/view/devteam/convert_solid_color2nuc): Convert Color Space to Nucleotides
-  * [megablast_xml_parser](http://toolshed.g2.bx.psu.edu/view/devteam/megablast_xml_parser): processes the XML output of any NCBI blast tool 
-  * [fastqsolexa_to_fasta_qual](http://toolshed.g2.bx.psu.edu/view/devteam/fastqsolexa_to_fasta_qual): extracts sequences and quality scores from FASTQ data (Solexa variant), producing a FASTA dataset and a QUAL dataset.
-  * [fasta_concatenate_by_species](http://toolshed.g2.bx.psu.edu/view/devteam/fasta_concatenate_by_species): attempts to parse FASTA headers to determine the species for each sequence in a multiple FASTA alignment. It then linearly concatenates the sequences for each species in the file, creating one sequence per determined species.
-  * [blat_mapping](http://toolshed.g2.bx.psu.edu/view/devteam/blat_mapping): takes BLAT pslx output and returns a wig-like file showing the number of reads (coverage) mapped at each chromosome location. 
-  * [annotation_profiler](http://toolshed.g2.bx.psu.edu/view/devteam/annotation_profiler): Profile Annotations for a set of genomic intervals
-  * [megablast_wrapper](http://toolshed.g2.bx.psu.edu/view/devteam/megablast_wrapper): Megablast compare short reads against htgs, nt, and wgs databases
-  * [blat_coverage_report](http://toolshed.g2.bx.psu.edu/view/devteam/blat_coverage_report): Calculate the percentage of reads supporting each nucleotide at each location
-  * [mapping_to_ucsc](http://toolshed.g2.bx.psu.edu/view/devteam/mapping_to_ucsc): Format mapping data as UCSC custom track
-  * [tabular_to_fasta](http://toolshed.g2.bx.psu.edu/view/devteam/tabular_to_fasta): Converts tab delimited data into FASTA formatted sequences.
-  * [fasta_compute_length](http://toolshed.g2.bx.psu.edu/view/devteam/fasta_compute_length): counts the length of each fasta sequence in the file. The output file has two columns per line (separated by tab): fasta titles and lengths of the sequences.
-  * [short_reads_trim_seq](http://toolshed.g2.bx.psu.edu/view/devteam/short_reads_trim_seq): Select high quality segments
-  * [fasta_to_tabular](http://toolshed.g2.bx.psu.edu/view/devteam/fasta_to_tabular): converts FASTA formatted sequences to TAB-delimited format.
-  * [rmapq](http://toolshed.g2.bx.psu.edu/view/devteam/rmapq): runs rmapq, searching against a genome build with sequence qualities.
-  * [kernel_principal_component_analysis](http://toolshed.g2.bx.psu.edu/view/devteam/kernel_principal_component_analysis): uses functions from 'kernlab' library from R statistical package to perform Kernel Principal Component Analysis (kPCA)
-  * [short_reads_figure_high_quality_length](http://toolshed.g2.bx.psu.edu/view/devteam/short_reads_figure_high_quality_length): Histogram of high quality score reads
-  * [principal_component_analysis](http://toolshed.g2.bx.psu.edu/view/devteam/principal_component_analysis): performs Principal Component Analysis on the given numeric input data using functions from R statistical package
-  * [canonical_correlation_analysis](http://toolshed.g2.bx.psu.edu/view/devteam/canonical_correlation_analysis): uses functions from 'yacca' library from R statistical package to perform Canonical Correlation Analysis (CCA)
-  * [kernel_canonical_correlation_analysis](http://toolshed.g2.bx.psu.edu/view/devteam/kernel_canonical_correlation_analysis): uses functions from 'kernlab' library from R statistical package to perform Kernel Canonical Correlation Analysis (kCCA)
-  * [short_reads_figure_score](http://toolshed.g2.bx.psu.edu/view/devteam/short_reads_figure_score): Build base quality distribution
+    * [fasta_filter_by_length](http://toolshed.g2.bx.psu.edu/view/devteam/fasta_filter_by_length): Outputs sequences between Minimal length and Maximum length.
+    * [rmap](http://toolshed.g2.bx.psu.edu/view/devteam/rmap): RMAP for Solexa Short Reads Alignment
+    * [convert_solid_color2nuc](http://toolshed.g2.bx.psu.edu/view/devteam/convert_solid_color2nuc): Convert Color Space to Nucleotides
+    * [megablast_xml_parser](http://toolshed.g2.bx.psu.edu/view/devteam/megablast_xml_parser): processes the XML output of any NCBI blast tool
+    * [fastqsolexa_to_fasta_qual](http://toolshed.g2.bx.psu.edu/view/devteam/fastqsolexa_to_fasta_qual): extracts sequences and quality scores from FASTQ data (Solexa variant), producing a FASTA dataset and a QUAL dataset.
+    * [fasta_concatenate_by_species](http://toolshed.g2.bx.psu.edu/view/devteam/fasta_concatenate_by_species): attempts to parse FASTA headers to determine the species for each sequence in a multiple FASTA alignment. It then linearly concatenates the sequences for each species in the file, creating one sequence per determined species.
+    * [blat_mapping](http://toolshed.g2.bx.psu.edu/view/devteam/blat_mapping): takes BLAT pslx output and returns a wig-like file showing the number of reads (coverage) mapped at each chromosome location.
+    * [annotation_profiler](http://toolshed.g2.bx.psu.edu/view/devteam/annotation_profiler): Profile Annotations for a set of genomic intervals
+    * [megablast_wrapper](http://toolshed.g2.bx.psu.edu/view/devteam/megablast_wrapper): Megablast compare short reads against htgs, nt, and wgs databases
+    * [blat_coverage_report](http://toolshed.g2.bx.psu.edu/view/devteam/blat_coverage_report): Calculate the percentage of reads supporting each nucleotide at each location
+    * [mapping_to_ucsc](http://toolshed.g2.bx.psu.edu/view/devteam/mapping_to_ucsc): Format mapping data as UCSC custom track
+    * [tabular_to_fasta](http://toolshed.g2.bx.psu.edu/view/devteam/tabular_to_fasta): Converts tab delimited data into FASTA formatted sequences.
+    * [fasta_compute_length](http://toolshed.g2.bx.psu.edu/view/devteam/fasta_compute_length): counts the length of each fasta sequence in the file. The output file has two columns per line (separated by tab): fasta titles and lengths of the sequences.
+    * [short_reads_trim_seq](http://toolshed.g2.bx.psu.edu/view/devteam/short_reads_trim_seq): Select high quality segments
+    * [fasta_to_tabular](http://toolshed.g2.bx.psu.edu/view/devteam/fasta_to_tabular): converts FASTA formatted sequences to TAB-delimited format.
+    * [rmapq](http://toolshed.g2.bx.psu.edu/view/devteam/rmapq): runs rmapq, searching against a genome build with sequence qualities.
+    * [kernel_principal_component_analysis](http://toolshed.g2.bx.psu.edu/view/devteam/kernel_principal_component_analysis): uses functions from 'kernlab' library from R statistical package to perform Kernel Principal Component Analysis (kPCA)
+    * [short_reads_figure_high_quality_length](http://toolshed.g2.bx.psu.edu/view/devteam/short_reads_figure_high_quality_length): Histogram of high quality score reads
+    * [principal_component_analysis](http://toolshed.g2.bx.psu.edu/view/devteam/principal_component_analysis): performs Principal Component Analysis on the given numeric input data using functions from R statistical package
+    * [canonical_correlation_analysis](http://toolshed.g2.bx.psu.edu/view/devteam/canonical_correlation_analysis): uses functions from 'yacca' library from R statistical package to perform Canonical Correlation Analysis (CCA)
+    * [kernel_canonical_correlation_analysis](http://toolshed.g2.bx.psu.edu/view/devteam/kernel_canonical_correlation_analysis): uses functions from 'kernlab' library from R statistical package to perform Kernel Canonical Correlation Analysis (kCCA)
+    * [short_reads_figure_score](http://toolshed.g2.bx.psu.edu/view/devteam/short_reads_figure_score): Build base quality distribution
 
 * *From [mb2013](http://toolshed.g2.bx.psu.edu/view/mb2013)*
-  * [nepenthes_3dpca](http://toolshed.g2.bx.psu.edu/view/mb2013/nepenthes_3dpca): Tools for Principal Component Analysis
+    * [nepenthes_3dpca](http://toolshed.g2.bx.psu.edu/view/mb2013/nepenthes_3dpca): Tools for Principal Component Analysis
 
 * *From [jade](http://toolshed.g2.bx.psu.edu/view/jade/)*
-  * [abyss](http://toolshed.g2.bx.psu.edu/view/jade/abyss): abyss de novo assembler
+    * [abyss](http://toolshed.g2.bx.psu.edu/view/jade/abyss): abyss de novo assembler
 
 * *From [fernando](http://toolshed.g2.bx.psu.edu/view/fernando/)*
-  * [protein_funcional_analysis_similarities](http://toolshed.g2.bx.psu.edu/view/fernando/protein_funcional_analysis_similarities): Provides common characteristics among similar proteins.
+    * [protein_funcional_analysis_similarities](http://toolshed.g2.bx.psu.edu/view/fernando/protein_funcional_analysis_similarities): Provides common characteristics among similar proteins.
 
 * *From [jankanis](http://toolshed.g2.bx.psu.edu/view/jankanis)*
-  * [package_python3_4](http://toolshed.g2.bx.psu.edu/view/jankanis/package_python3_4): The Python language version 3.4.1
+    * [package_python3_4](http://toolshed.g2.bx.psu.edu/view/jankanis/package_python3_4): The Python language version 3.4.1
 
 * *From [plus](http://toolshed.g2.bx.psu.edu/view/plus/)*
-  * [archer](http://toolshed.g2.bx.psu.edu/view/plus/archer): Gene Mutation Identification
+    * [archer](http://toolshed.g2.bx.psu.edu/view/plus/archer): Gene Mutation Identification
 
 * *From [qfab](http://toolshed.g2.bx.psu.edu/view/qfab)*
-  * [usearch_dereplication](http://toolshed.g2.bx.psu.edu/view/qfab/usearch_dereplication): Removal of duplicate sequences - GVL
-  * [usearch_cluster_otus](http://toolshed.g2.bx.psu.edu/view/qfab/usearch_cluster_otus): OTU clustering using the UPARSE-OTU algorithm - GVL
-  * [usearch_uchime](http://toolshed.g2.bx.psu.edu/view/qfab/usearch_uchime): Detecting chimeric sequences - GVL
-  * [usearch_map_reads_to_otus](http://toolshed.g2.bx.psu.edu/view/qfab/usearch_map_reads_to_otus): Maps read sequences to OTUs - GVL
-  * [rdp_multiclassifier](http://toolshed.g2.bx.psu.edu/view/qfab/rdp_multiclassifier): Rapid assignment of rRNA sequences into the new bacterial taxonomy - GVL
+    * [usearch_dereplication](http://toolshed.g2.bx.psu.edu/view/qfab/usearch_dereplication): Removal of duplicate sequences - GVL
+    * [usearch_cluster_otus](http://toolshed.g2.bx.psu.edu/view/qfab/usearch_cluster_otus): OTU clustering using the UPARSE-OTU algorithm - GVL
+    * [usearch_uchime](http://toolshed.g2.bx.psu.edu/view/qfab/usearch_uchime): Detecting chimeric sequences - GVL
+    * [usearch_map_reads_to_otus](http://toolshed.g2.bx.psu.edu/view/qfab/usearch_map_reads_to_otus): Maps read sequences to OTUs - GVL
+    * [rdp_multiclassifier](http://toolshed.g2.bx.psu.edu/view/qfab/rdp_multiclassifier): Rapid assignment of rRNA sequences into the new bacterial taxonomy - GVL
 
 * *From [plus91-technologies](http://toolshed.g2.bx.psu.edu/view/plus91-technologies)*
-  * [softsearch_tool](http://toolshed.g2.bx.psu.edu/view/plus91-technologies/softsearch_tool): Sensitive Structural Variant detection(SV)
+    * [softsearch_tool](http://toolshed.g2.bx.psu.edu/view/plus91-technologies/softsearch_tool): Sensitive Structural Variant detection(SV)
 
 ### Datatypes
 
 * *From [qfab](http://toolshed.g2.bx.psu.edu/view/qfab)*
-  * [metagenomics_datatypes](http://toolshed.g2.bx.psu.edu/view/qfab/metagenomics_datatypes): Galaxy datatypes required by the Metagenomics Workflow - GVL
+    * [metagenomics_datatypes](http://toolshed.g2.bx.psu.edu/view/qfab/metagenomics_datatypes): Galaxy datatypes required by the Metagenomics Workflow - GVL
 
 ### Workflows
 
 * *From [rnateam](http://toolshed.g2.bx.psu.edu/view/rnateam)*
-  * [blockclust_workflow](http://toolshed.g2.bx.psu.edu/view/rnateam/blockclust_workflow): a workflow for [BlockClust](http://toolshed.g2.bx.psu.edu/view/rnateam/blockclust).
+    * [blockclust_workflow](http://toolshed.g2.bx.psu.edu/view/rnateam/blockclust_workflow): a workflow for [BlockClust](http://toolshed.g2.bx.psu.edu/view/rnateam/blockclust).
 
 ### Packages
 
 * *From [iuc](http://toolshed.g2.bx.psu.edu/view/iuc)*
-  * [package_minced_0_1_5](http://toolshed.g2.bx.psu.edu/view/iuc/package_minced_0_1_5): tool dependency definition that downloads version 0.1.5 of [minced](http://toolshed.g2.bx.psu.edu/view/bgruening/minced), a CRISPR finder.
-  * [package_mummer_3_23](http://toolshed.g2.bx.psu.edu/view/iuc/package_mummer_3_23): tool dependency definition for MUMmer, a system for rapidly aligning entire genomes
+    * [package_minced_0_1_5](http://toolshed.g2.bx.psu.edu/view/iuc/package_minced_0_1_5): tool dependency definition that downloads version 0.1.5 of [minced](http://toolshed.g2.bx.psu.edu/view/bgruening/minced), a CRISPR finder.
+    * [package_mummer_3_23](http://toolshed.g2.bx.psu.edu/view/iuc/package_mummer_3_23): tool dependency definition for MUMmer, a system for rapidly aligning entire genomes
 
 * *From [rnateam](http://toolshed.g2.bx.psu.edu/view/rnateam)*
-  * [package_eden_1_1](http://toolshed.g2.bx.psu.edu/view/rnateam/package_eden_1_1): tool dependency definition that downloads and compiles version 1.1.x of the EDeN package.
+    * [package_eden_1_1](http://toolshed.g2.bx.psu.edu/view/rnateam/package_eden_1_1): tool dependency definition that downloads and compiles version 1.1.x of the EDeN package.
 
 * *From [devteam](http://toolshed.g2.bx.psu.edu/view/devteam)*
-  * [package_blast_plus_2_2_26](http://toolshed.g2.bx.psu.edu/view/devteam/package_blast_plus_2_2_26): tool dependency definition that downloads and installs version 2.2.26+ of the NCBI BLAST+ package.
-  * [package_rmap_2_05](http://toolshed.g2.bx.psu.edu/view/devteam/package_rmap_2_05): Tool dependency definition that downloads and compiles version 2.05 of the rmap package
-  * [package_cran_kernlab_0_1_4](http://toolshed.g2.bx.psu.edu/view/devteam/package_cran_kernlab_0_1_4): tool dependency definition that downloads and installs version 0.1-4 of the kernlab R library.
-  * [package_fontconfig_2_11_1](http://toolshed.g2.bx.psu.edu/view/devteam/package_fontconfig_2_11_1): tool dependency definition that downloads and compiles version 2.11.1 of the fontconfig package
-  * [package_cran_yacca_1_0](http://toolshed.g2.bx.psu.edu/view/devteam/package_cran_yacca_1_0): tool dependency definition that downloads and installs version 1.0 of the yacca R library.
+    * [package_blast_plus_2_2_26](http://toolshed.g2.bx.psu.edu/view/devteam/package_blast_plus_2_2_26): tool dependency definition that downloads and installs version 2.2.26+ of the NCBI BLAST+ package.
+    * [package_rmap_2_05](http://toolshed.g2.bx.psu.edu/view/devteam/package_rmap_2_05): Tool dependency definition that downloads and compiles version 2.05 of the rmap package
+    * [package_cran_kernlab_0_1_4](http://toolshed.g2.bx.psu.edu/view/devteam/package_cran_kernlab_0_1_4): tool dependency definition that downloads and installs version 0.1-4 of the kernlab R library.
+    * [package_fontconfig_2_11_1](http://toolshed.g2.bx.psu.edu/view/devteam/package_fontconfig_2_11_1): tool dependency definition that downloads and compiles version 2.11.1 of the fontconfig package
+    * [package_cran_yacca_1_0](http://toolshed.g2.bx.psu.edu/view/devteam/package_cran_yacca_1_0): tool dependency definition that downloads and installs version 1.0 of the yacca R library.
 
 * *From [crs4](http://toolshed.g2.bx.psu.edu/view/crs4/)*
-  * [package_pydoop_0_11](http://toolshed.g2.bx.psu.edu/view/crs4/package_pydoop_0_11): tool dependency definition that downloads and compiles version 0.11.1 of the pydoop package
+    * [package_pydoop_0_11](http://toolshed.g2.bx.psu.edu/view/crs4/package_pydoop_0_11): tool dependency definition that downloads and compiles version 0.11.1 of the pydoop package
 
 **Tool Updates:**
 
 * *From [peterjc](http://toolshed.g2.bx.psu.edu/view/peterjc)*
-  * [mira_assembler](http://toolshed.g2.bx.psu.edu/view/peterjc/mira_assembler): updated to v0.0.10
+    * [mira_assembler](http://toolshed.g2.bx.psu.edu/view/peterjc/mira_assembler): updated to v0.0.10
 
 * *From [stemcellcommons](http://toolshed.g2.bx.psu.edu/view/stemcellcommons)*
-  * [macs2](http://toolshed.g2.bx.psu.edu/view/stemcellcommons/macs2): updated to include option to call broad peaks
+    * [macs2](http://toolshed.g2.bx.psu.edu/view/stemcellcommons/macs2): updated to include option to call broad peaks
 
 # Other News
 

@@ -27,7 +27,7 @@ Those who attended the workflow training session and want to dig in more!
 ## When and Where
 
 **Wednesday, 8 July, 12:30 (lunch), in the Watson Room at JICCC**
- 
+
 ## Who is Participating
 
 If you are interested, please add your name below and/or send an email to [Your Name](mailto:your AT email DOT address).

@@ -27,7 +27,7 @@ date: 2012-10-23
 <br />
 # Communications and Collaboration
 
-Administrators are always encouraged to install the latest release not only to incorporate new features, but to take advantage of the current set of security and bug fixes inherent in any project with a fast paced development cycle. This is even more strongly advised for those running public instances. The Galaxy team takes security very seriously and strives to quickly and clearly communicate when a security issue is identified. We have an amazing community that is instrumental in the discovery and resolution of problems when they are uncovered - and we want to thank them for their contributions and support. Galaxy is truly a team effort and transparency and information flow is our priority. 
+Administrators are always encouraged to install the latest release not only to incorporate new features, but to take advantage of the current set of security and bug fixes inherent in any project with a fast paced development cycle. This is even more strongly advised for those running public instances. The Galaxy team takes security very seriously and strives to quickly and clearly communicate when a security issue is identified. We have an amazing community that is instrumental in the discovery and resolution of problems when they are uncovered - and we want to thank them for their contributions and support. Galaxy is truly a team effort and transparency and information flow is our priority.
 
 We also intend to learn from recent actions in these areas that fell short of a best effort. The security corrections and priority of the changes to the `Compute` tool in the prior distribution lacked the details and urgency notice it deserved. The move from *Bitbucket* to *[Trello](/issues/)* for community collaboration in issue reporting also lacked the information and timely documentation that would have made the transition processes smoother. Both are covered in more detail in this News Brief. Our goals are to provide a remedy for the immediate issues and to create a successful communications and collaborations model for the future. We value your feedback - please let us know how we are doing as the new tools are put into practice.  
 
@@ -40,6 +40,7 @@ We also intend to learn from recent actions in these areas that fell short of a 
 ***This distribution and the previous distribution, [October 5, 2012](/archive/dev-news-briefs/2012-10-05/#security-fixes), fix a significant security hole in Galaxy's "Compute" tool. Upgrade or patch NOW. ***
 
 The **Compute** columns tool allowed arbitrary execution of python code entered into the input text field by a user.  It has been modified to only allow safe operators and functions.  Administrators are strongly urged to apply this update for security purposes, or to manually apply/patch these changesets:
+
 ```
 https://bitbucket.org/galaxy/galaxy-dist/changeset/b5bda7a5c34535ada63722941f2a2d62524b1faa
 https://bitbucket.org/galaxy/galaxy-dist/changeset/685a17af92dfd6a2e3d7e3c9a3a4b119c78a6f96
@@ -92,12 +93,14 @@ Prior to this enhancement, values for the "tool_path" attribute defined in the `
 
 
 However, now these values can include subdirectory hierarchies like this:
+
 ```
 <toolbox tool_path="../shed_tools/galaxy_instance1">
 ```
 
 
 This allows the Galaxy administrator greater flexibility in defining locations within a single hierarchy for installed tool shed repositories using multiple shed-related tool panel config files.  For example, a Galaxy administrator may now define installation locations like this.
+
 ```
 tool panel config file name   <toolbox> tag
 ---------------------------	-------------------
@@ -113,6 +116,7 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 <a href='http://toolshed.g2.bx.psu.edu'><img src="/images/news-graphics/2012_10_23_toolshed-advanced-search.png" alt="tool shed" /></a>
 
 <br />
+
 # Tools
 
 [Tool Dependencies](/admin/config/tool-dependencies/)
@@ -120,10 +124,11 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 1. Add *interpreter* and *absolute path logic* to **version tag**; thanks to [Björn Grüning](http://bitbucket.org/BjoernGruening).
 2. **Tool search**: remove **[Whoosh](http://packages.python.org/Whoosh/)** handling for **[Python version 2.4](http://www.python.org/)** and remove *minscore*.
 3. Performance enhancements for **Build custom track for UCSC** genome browser tool.
-4. Add **genomespace** tools to `tool_conf.xml.main`. 
-  * Get Data -> [GenomeSpace](http://www.genomespace.org) import
-  * Send Data -> [GenomeSpace](http://www.genomespace.org) export
-  * **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [Main](/main/).
+4. Add **genomespace** tools to `tool_conf.xml.main`.
+
+    * Get Data -> [GenomeSpace](http://www.genomespace.org) import
+    * Send Data -> [GenomeSpace](http://www.genomespace.org) export
+    * **[GenomeSpace](http://www.genomespace.org)** now also enabled on Galaxy [Main](/main/).
 
 <br />
 # Visualization framework
@@ -140,16 +145,18 @@ shed_tool_conf.xml            <toolbox tool_path="../shed_tools/galaxy_instance1
 
 ### Scatter Plot
 
-**What it does:** Given two numeric columns from a tabular dataset file, the scatter plot visualization function draws each datapoint onto a cartesian plane. 
+**What it does:** Given two numeric columns from a tabular dataset file, the scatter plot visualization function draws each datapoint onto a cartesian plane.
 
-Quick start to graphing data: 
+Quick start to graphing data:
 
 1. Click on the visualizations icon of a tabular dataset.
 
 <a href='http://usegalaxy.org'><img src="/images/news-graphics/2012_10_23_scatterplot-ui-icon.png" alt="scatterplot-ui-icon" /></a>
+
 1. #2 Next, select 'Scatterplot' from the popup menu that appears and the main panel will load with data and graph options. Chose which two columns to load as datapoints and click the 'Draw' button to display the graph.
 
 <a href='http://usegalaxy.org'><img src="/images/news-graphics/2012_10_23_scatterplot-popupmenu.png" alt="scatterplot-popupmenu" /></a>
+
 1. #3 Tool is still undergoing further development and full documentation is pending, but here are the key details.
 
 Basic specifications, functions, and features:
@@ -174,16 +181,19 @@ Detail view of center panel:
 
 
 <br />
+
 # API
 
 1. Enable dataset upload via tools controller; thanks to [Brad Chapman](http://bitbucket.org/chapmanb).
 2. Enable querying of current history and user; thanks to [Brad Chapman](http://bitbucket.org/chapmanb).
 3. A new folders API has been developed. It permits operations in formats similar to the library API. Wiki documentation is pending, but for now, the available actions are defined as:
-  * `GET /api/folders/{FolderId`}: This returns information about the folder.
-  * `POST /api/folders/{FolderId`}: Create a folder. The same parameters as `POST /api/libraries/{LibraryId}/contents/{FolderId`} are utilized, except that the `create_type parameter` is ignored.
-  * `GET /api/folders/{FolderId}/contents`: This returns the folder's contents.
+
+    * `GET /api/folders/{FolderId}`: This returns information about the folder.
+    * `POST /api/folders/{FolderId}`: Create a folder. The same parameters as `POST /api/libraries/{LibraryId}/contents/{FolderId}` are utilized, except that the `create_type parameter` is ignored.
+    * `GET /api/folders/{FolderId}/contents`: This returns the folder's contents.
 
 <br />
+
 # Source
 
 1. Allow admins to access datasets/jobs with access restrictions.
@@ -193,24 +203,29 @@ Detail view of center panel:
 5. Library browsing optimizations. Opening libraries with many datasets and/or folders is now quicker.
 
 <br />
+
 # Bug Fixes
 
 1. Galaxy
-  * Fix for preview display of tabular items when certain metadata was not set.
-  * Do not use `backrefs` in mapping for `copied_from_library_dataset/history _dataset_association` as it confuses **[SQLAlchemy](http://www.sqlalchemy.org)** (resulted in 'is not available, due to conflicting property').
-  * Correctly determine the inheritance and creating job for a dataset. Fixes issues with showing dataset info, rerun, viewing and reporting dataset errors.
-  * Fix for managing user info (e.g changing email/password) that appeared in last distribution.
-  * Fix bug in stoping user jobs in the admin interface. 
-  * Custom `BioStar` linkouts (not fully implemented) are now off by default.
-  * Some fixes for handling unicode data in the UI.
-  * Fix for dataset display.
-  * Various fixes for **[Python 2.5](http://www.python.org/)**.
-  * Bugs introduced during the controller architecture migration (often resulting in error message such as "No module named controllers.XYZ") have been traced and resolved.
+
+    * Fix for preview display of tabular items when certain metadata was not set.
+    * Do not use `backrefs` in mapping for `copied_from_library_dataset/history _dataset_association` as it confuses **[SQLAlchemy](http://www.sqlalchemy.org)** (resulted in 'is not available, due to conflicting property').
+    * Correctly determine the inheritance and creating job for a dataset. Fixes issues with showing dataset info, rerun, viewing and reporting dataset errors.
+    * Fix for managing user info (e.g changing email/password) that appeared in last distribution.
+    * Fix bug in stoping user jobs in the admin interface.
+    * Custom `BioStar` linkouts (not fully implemented) are now off by default.
+    * Some fixes for handling unicode data in the UI.
+    * Fix for dataset display.
+    * Various fixes for **[Python 2.5](http://www.python.org/)**.
+    * Bugs introduced during the controller architecture migration (often resulting in error message such as "No module named controllers.XYZ") have been traced and resolved.
+
 2. Tool Shed
-  * Fix for tool shed `get_category_by_name` when category does not exist.
-  * Better handle missing 'tool' entry in tool repository metadata.
+
+    * Fix for tool shed `get_category_by_name` when category does not exist.
+    * Better handle missing 'tool' entry in tool repository metadata.
 
 <br />
+
 # Announcements
 
 [News](/news/), *[October 2012 Galaxy Update](/galaxy-updates/2012-10/)*
@@ -222,7 +237,7 @@ Detail view of center panel:
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](/galaxy-team/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](/galaxy-team/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

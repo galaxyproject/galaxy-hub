@@ -11,9 +11,9 @@ to the following sections:
 - [Install and configure Helm](#install-helm);
 - [Deploy an instance of Galaxy using Helm charts](#deploy-galaxy-on-the-cluster);
 - [Access Galaxy](#access-galaxy);
-- [Delete cluster](#delete-resources-and-gke-cluster). 
+- [Delete cluster](#delete-resources-and-gke-cluster).
 
-> Note that all the commands given in this tutorial have been tested in 
+> Note that all the commands given in this tutorial have been tested in
 [_Cloud shell_](https://cloud.google.com/shell/); however, they may be
 applicable to any console where the
 [K8s command-line tool (`kubectl`)](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
@@ -33,9 +33,11 @@ Alternatively, you may run the following steps:
 __keep this shell open as all the following commands are executed in this window__.
 4. Run the following commands in the opened shell:
     1. Configure project name:
+
         ```
         $ gcloud config set project <PROJECT NAME>
         ```
+
         Replace `<PROJECT_NAME>` with your selected project name.
 
     2. Configure zone (e.g., us-central1-a):
@@ -168,7 +170,7 @@ The deployment of Galaxy on a K8s cluster consists of two steps discussed as it 
 
 1. [Optional] Deploy the [CernVM File System (CVMFS)](https://cernvm.cern.ch/portal/filesystem)
 service using [CVMFS-CSI chart](https://github.com/CloudVE/galaxy-cvmfs-csi-chart).
-You may run the following commands for this deployment: 
+You may run the following commands for this deployment:
 
     ```
     $ git clone https://github.com/CloudVE/galaxy-cvmfs-csi-chart.git
@@ -182,6 +184,7 @@ You may run the following commands for this deployment:
     re-run the aforementioned `helm install` command.
 
     - if resetting `helm` does not resolve the error, you may run the following commands:
+
     ```
     $ kubectl create serviceaccount --namespace kube-system tiller
     $ kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admin --serviceaccount=kube-system:tiller
@@ -236,6 +239,7 @@ http://104.198.225.7:80
 ```
 
 # Delete Resources and GKE cluster
+
 1. You may `uninstall` the Galaxy helm chart release using the following command:
 
     ```
@@ -257,7 +261,7 @@ If you wish to delete this volume as well, use:
     kubectl delete pvc data-my-gxy-galaxy-postgres-0 --namespace mynamespace
     ```
 
-3. Delete cluster: 
+3. Delete cluster:
 
     You can delete the cluster either through the GKE dahsboard, or by using the
     following command:

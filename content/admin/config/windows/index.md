@@ -18,9 +18,11 @@ To run Galaxy using the [Windows Subsystem for Linux](https://msdn.microsoft.com
 
 **Step 1**
 Before installing any Linux distros for WSL, you must ensure that the "Windows Subsystem for Linux" optional feature is enabled. Open Windows PowerShell and run:
+
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
+
 (Hitting the windows button on your keyboard and writing PowerShell in the menu is the quickest way to open it).
 
 **Step 2**
@@ -33,29 +35,33 @@ Open the Microsoft store and select your desired Linux distribution. *This instr
 3. Start Galaxy for production or development.
 
 **Step 1**
-Open your Linux distribution from Windows (press windows key and write the name of your installed distribution). This will open a Terminal window which allows you to manage your Linux distribution exactly like on a computer with a Linux operating system installed. The files are stored on your computer and can even be accessed through Windows. Changing Linux files directly from Windows is however something you really *should not do* due to issues with metadata and corruption. 
+Open your Linux distribution from Windows (press windows key and write the name of your installed distribution). This will open a Terminal window which allows you to manage your Linux distribution exactly like on a computer with a Linux operating system installed. The files are stored on your computer and can even be accessed through Windows. Changing Linux files directly from Windows is however something you really *should not do* due to issues with metadata and corruption.
 
 **Step 2**
 Install git, if using Ubuntu:
+
 ```
 sudo apt install git.
 ```
 
 Clone the Galaxy GitHub repository to a folder of your choice.
+
 ```
 git clone https://github.com/galaxyproject/galaxy.git
 ```
 
 **Step 3**
-The Client build system is described in the Galaxy repository [here](https://github.com/galaxyproject/galaxy/blob/dev/client/README.md). 
+The Client build system is described in the Galaxy repository [here](https://github.com/galaxyproject/galaxy/blob/dev/client/README.md).
 
 For development purposes the following three commands gives you a Galaxy server which runs and is automatically updated when you make any changes to the galaxy client source files.
+
 ```
 GALAXY_CLIENT_SKIP_BUILD=1 sh run.sh
 source .venv/bin/activate
 make client-watch
 ```
-The first row runs the shell script without building the client, the 2nd row activates the virtual environment and makes the base dependencies accessible and the third row builds the client with the automatic rebuilding activated. 
+
+The first row runs the shell script without building the client, the 2nd row activates the virtual environment and makes the base dependencies accessible and the third row builds the client with the automatic rebuilding activated.
 
 Just running `sh run.sh` instead builds a client suitable for local development.
 
@@ -84,11 +90,11 @@ If you choose to continue, to understand Eggs and how they work in Galaxy, read 
 
 Most eggs are platform-agnostic (e.g. Pure Python), and thus you can use the pre-built versions of these (from <https://eggs.g2.bx.psu.edu>). Of the remaining eggs, not all are required by the default configuration. You'll need at a minimum:
 
-- bx-python 
-- Cheetah 
-- pycrypto 
-- pysqlite 
-- numpy 
+* bx-python
+* Cheetah
+* pycrypto
+* pysqlite
+* numpy
 
 You'll need to get and build the versions specified in `galaxy_dist/eggs.ini`, so consult that file for proper versions and download URLs. The remaining eggs are required for a number of tools, as well as for some development/debugging purposes.
 

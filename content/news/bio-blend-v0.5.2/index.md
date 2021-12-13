@@ -16,7 +16,7 @@ This is mostly an incremental bug fix release with the following summary of chan
 * Add 'deleted' attribute to [DatasetContainer](https://github.com/afgane/bioblend/blob/master/bioblend/galaxy/objects/wrappers.py#l678)
 * Handle data_type changes in the Oct 2014 Galaxy release
 * Renamed get_current_history() to get_most_recently_used_history()
-* A number of documentation improvements and other small fixes 
+* A number of documentation improvements and other small fixes
 
 See the [commit messages](https://github.com/afgane/bioblend/compare/d8925715a5a24b738c605eb63f58260479e55700...0e1ed75edc5b474e6dc34e466287cdfb170cde9a) for more details.
 

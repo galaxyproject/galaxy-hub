@@ -3,8 +3,11 @@ title: Development News Brief
 date: 2013-04-01
 ---
 
-```wiki red/solid/light
-Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/news/2013-04-08-galaxy-security-release/), which is was not included in the original April 1, 2013 distribution.```
+<div class="trim-p alert alert-warning">
+
+Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/news/2013-04-08-galaxy-security-release/), which is was not included in the original April 1, 2013 distribution.
+
+</div>
 
 <br />
 
@@ -42,6 +45,7 @@ Due to a security vulnerability, administrators are strongly encouraged to upgra
 
 <br />
 <br />
+
 # Key Upgrades This Release
 
 This distribution has **four key upgrades that must be considered** by local administrators. 
@@ -49,6 +53,7 @@ This distribution has **four key upgrades that must be considered** by local adm
 These are listed first. Each is important. ***Please review carefully.***
 
 <br />
+
 # Improvements to Distribution Release Process
 
 As announced in the [February 8, 2013](http://wiki.galaxyproject.org/DevNewsBriefs/2013-02-08) distribution, we have made some improvements to our release process. Because of these changes, ***you must include the new distribution release tag in your `hg update` command to upgrade to this distribution release*** and all future releases.
@@ -68,20 +73,22 @@ If you do not include the `release_2013.04.01` tag, your repository will update 
 stable
 ```
 
-
 Once you're on the `stable` branch, `hg pull -u` without a specific revision or branch will cause you to remain on the `stable` branch.
 
 The new release process works as such:
 
 1. The Galaxy source repository now contains two branches:
-  * `stable` is committed to regularly and contains important bugfixes.
-  * `default` is committed to regularly and contains new features as well as fixes merged from `stable`.
-1. Every two months, `stable` will be updated with new features from default and a specific distribution release version will be tagged.
-1. The two weeks prior to the release will be focused on fixing bugs found in the targeted upcoming release. New features will not be considered for inclusion in the upcoming release during this time.
+
+    * `stable` is committed to regularly and contains important bugfixes.
+    * `default` is committed to regularly and contains new features as well as fixes merged from `stable`.
+
+2. Every two months, `stable` will be updated with new features from default and a specific distribution release version will be tagged.
+3. The two weeks prior to the release will be focused on fixing bugs found in the targeted upcoming release. New features will not be considered for inclusion in the upcoming release during this time.
 
 This process will not only allow us to deploy important bug fixes on to the `stable` branch rapidly and in between releases, it will improve the quality of our tagged releases. The documentation at our wiki reflects these changes: [getgalaxy.org](http://wiki.galaxyproject.org/Admin/Get%20Galaxy).
 
 <br />
+
 # Job Running Configuration Changes
 
 ***This Galaxy release contains considerable changes to the way that the job running configuration is defined and implemented***.  It also includes a *refactoring of all job runner plugins* that are provided with the Galaxy source.  We have made every attempt to make upgrading to this release possible while jobs are running and without any configuration changes.  
@@ -97,12 +104,15 @@ The process for upgrading to this release should be:
 1. Pull and update to the release as documented (above), but do not restart any Galaxy server processes.
 1. Stop and permanently disable the `manager` process, as there is no longer a dedicated process for assigning job handlers (it is done at the time of job creation).
 1. Create a ` `job_conf.xml` ` ( most easily done by starting with the provided ` `job_conf.xml.sample_advanced` `).
-  * When defining ` `<plugin>` ` tags, the ` `id` ` attribute must match the URL scheme for any jobs currently running which you want to recover.  For example, jobs running via ` `pbs:///` ` will be recovered by the plugin with id ` `pbs` `.  Likewise for ` `drmaa:///` ` and the ` `drmaa` ` plugin.
+
+* When defining ` `<plugin>` ` tags, the ` `id` ` attribute must match the URL scheme for any jobs currently running which you want to recover.  For example, jobs running via ` `pbs:///` ` will be recovered by the plugin with id ` `pbs` `.  Likewise for ` `drmaa:///` ` and the ` `drmaa` ` plugin.
+
 1. Restart handler(s) (preferably one at a time) and watch the logs.  Warnings about using the deprecated ` set_runner() ` function can be ignored as this is part of the process of converting jobs from URLs to destinations upon first startup.
 
 As explained above, it is not strictly required that you switch to the new-style configuration.  All old-style URL options should continue to work, however, it is strongly encouraged that you update to the new-style configuration for the advanced features (and future flexibility) it provides.
 
 Full documentation on the new job running configuration is available at:
+
 * [http://wiki.galaxyproject.org/Admin/Config/Jobs](http://wiki.galaxyproject.org/Admin/Config/Jobs)
 * [http://wiki.galaxyproject.org/Admin/Config/Performance/Cluster](http://wiki.galaxyproject.org/Admin/Config/Performance/Cluster)
 
@@ -125,6 +135,7 @@ The tool shed used to be named the * "Galaxy Community Space" *, so there are se
 1. community_webapp.log => tool_shed_webapp.log
 
 The original ` community_wsgi.ini ` file had this entry:
+
 ```
 [app:main]
 # Specifies the factory for the universe WSGI application
@@ -133,6 +144,7 @@ paste.app_factory = galaxy.webapps.community.buildapp:app_factory
 
 
 The above entry should be changed to the following in your local renamed ` tool_shed_wsgi.ini ` file (notice that "community" has been changed to be "tool_shed"):
+
 ```
 [app:main]
 # Specifies the factory for the universe WSGI application
@@ -153,15 +165,16 @@ This is last Galaxy distribution that will support Python 2.5. Follow the ticket
 1. **Basic Data Manager Functionality** is now present for locally defined and Tool Shed installed data managers ([Admin/Tools/DataManagers](/admin/tools/data-managers/)).
 
 An abstracted interface has been created for the data manager to download, generate, or otherwise procure locally cached data for use in analyses. For details about implementation, please see the following Trello tickets.
+
 * In Galaxy:
-  * https://trello.com/c/Rport5vq
-  * https://trello.com/c/5NlsdGsr
-  * https://trello.com/c/Xaddebyn
-  * https://trello.com/c/fbIPwLJz
-  * https://trello.com/c/yAZRrZHj
+    * https://trello.com/c/Rport5vq
+    * https://trello.com/c/5NlsdGsr
+    * https://trello.com/c/Xaddebyn
+    * https://trello.com/c/fbIPwLJz
+    * https://trello.com/c/yAZRrZHj
 * Integration with the Tool Shed:
-  * https://trello.com/c/nDZB3l78
-  * https://trello.com/c/lHwb1m0O
+    * https://trello.com/c/nDZB3l78
+    * https://trello.com/c/lHwb1m0O
 
 <br />
 # Tool Shed
@@ -238,18 +251,23 @@ This reserved word will route correctly in the tool shed when the tool is displa
 2. Collapsed composite tracks now retain the composite group name https://trello.com/c/roHlElAW
 
 <br />
+
 # CloudMan
 
 http://usegalaxy.org/cloud
+
 1. Condor introduced: [HTCondor](http://wiki.galaxyproject.org/CloudMan/HTCondor) https://trello.com/c/te1UVkam
-  * Condor will allow federation of clusters, at first with manual configuration.
+
+* Condor will allow federation of clusters, at first with manual configuration.
 
 <br />
+
 # Workflows
 
 1. Expose function that creates SVG images from workflows to UI https://trello.com/c/PGz7JNzO
 
 <br />
+
 # UI
 
 1. Genetrack retired (view link in datasets removed) https://trello.com/c/LQr88MTz
@@ -257,13 +275,16 @@ http://usegalaxy.org/cloud
 3. Use "Chunked Tabular Dataset View" to display public datasets https://trello.com/c/p6lyDBNK
 
 <br />
+
 # Admin
 
 1. "Select all" jobs in admin menu https://trello.com/c/Sc975x1l
-1. Allow old-style external display applications to be disabled https://trello.com/c/9dgk1VSl
-  * related improvements pending: https://trello.com/c/uIctksud
+2. Allow old-style external display applications to be disabled https://trello.com/c/9dgk1VSl
+
+    * related improvements pending: https://trello.com/c/uIctksud
 
 <br />
+
 # Source
 
 ### Pull Requests Merged
@@ -273,6 +294,7 @@ http://usegalaxy.org/cloud
 3. Display the toolshed tools in the workflow search, pull request **[#120](https://bitbucket.org/galaxy/galaxy-central/pull-request/120)**. Thanks to [Björn Grüning](https://bitbucket.org/BjoernGruening). https://trello.com/c/ebePONBa
 
 <br />
+
 # Security Fixes
 
 Although there are no specific known security fixes in this distribution, all Galaxy instance maintainers are *strongly encouraged* to run the latest release to take advantage of other improvements and fixes.
@@ -299,9 +321,9 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 ## GCC2013
 
-<div class='left'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
+<div class='left'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div>
 
-<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div> 
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 <br />
 <br />
 <br />
@@ -314,7 +336,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

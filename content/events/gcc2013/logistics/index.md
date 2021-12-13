@@ -31,7 +31,7 @@ Ole Johan Dahls House is adjacent to the Forskningsparken subway and tram stops.
 
 ## Power
 
-Norway, like most of Europe, uses 50hz 230 volt power.   [Outlets in Norway are type "C"](http://goscandinavia.about.com/od/norwa1/f/eleoutletnorway.htm) (the *EuroPlug*) with two round plugs. 
+Norway, like most of Europe, uses 50hz 230 volt power.   [Outlets in Norway are type "C"](http://goscandinavia.about.com/od/norwa1/f/eleoutletnorway.htm) (the *EuroPlug*) with two round plugs.
 
 <br />
 
@@ -48,6 +48,7 @@ Subway (T-bane) lines 3, 4 and 6 serve Forskningsparken station.  The subway run
 Tram lines 17 and 18 also stop at Forskningsparken.
 
 Links:
+
 * [Ruter (English)](http://ruter.no/en/) is the local transport authority and provides a route planner, maps and timetables
 * [Subway (Norwegian)](http://www.tbane.no/)
 * [Subway (Google Translate)](http://translate.google.co.uk/translate?u=http%3A%2F%2Fwww.tbane.no%2F)
@@ -61,7 +62,7 @@ Public parking is available at the [Oslo Innovation Centre (Forskningsparken)](h
 
 <div class='right'><a href='http://ruter.no/en/'><img src="/events/gcc2013/logistics/RuterCards.png" alt="Ruter" width="150" /></a></div>
 
-[Ruter](http://ruter.no/en/) is the public transport system in Oslo and the surrounding county. City buses, regional buses, trams, subway/metro, ferries and local trains are included in Ruter's ticket system. 
+[Ruter](http://ruter.no/en/) is the public transport system in Oslo and the surrounding county. City buses, regional buses, trams, subway/metro, ferries and local trains are included in Ruter's ticket system.
 
 ## Getting to Oslo
 
@@ -111,7 +112,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 <div class='right'><a href='http://www.holmenkollenparkhotel.no/'><img src="/events/gcc2013/logistics/HolmenkollenParkHotelRica.jpg" alt="Holmenkollen Park Hotel Rica" height="80" /></a></div>
 * €€€€
-* Outside the city centre, with good Metro access, and a spectacular view close to the [Holmenkollen Ski Jump](http://www.holmenkollen.com/). 
+* Outside the city centre, with good Metro access, and a spectacular view close to the [Holmenkollen Ski Jump](http://www.holmenkollen.com/).
 * [Web Site](http://www.holmenkollenparkhotel.no/)
 * Nearest Metro Station: [Holmenkollen](http://reiseplanlegger.ruter.no/en/Kart/For/(3012370)Holmenkollen%20%5BT-bane%5D%20(Oslo)#st:1,zo:0,sp:0), n stops and 1 transfer away
 * [Has internet](http://www.holmenkollenparkhotel.no/en/rooms-in-oslo.html).
@@ -119,7 +120,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 ## Thon Hotel Ullevaal Stadion
 
 <div class='right'><a href='http://www.thonhotels.com/ullevaalstadion'><img src="/events/gcc2013/logistics/ThonHotelUllevaalStadion.jpg" alt="Thon Hotel Ullevaal Stadion" height="80" /></a></div>
-* €€€ 
+* €€€
     *Thon Hotel Ullevaal Stadion is offering a 21% discount off of published rates to conference attendees.  To book a discounted room send an email to [Ullevaal Stadion Bookings](mailto:Ullevaal DOT booking AT thonhotels DOT no), or call them directly at +47 22082000 and mention that you are requesting the University of Oslo discount, and that you will be attending GCC2013.*
 * [Web Site](http://www.thonhotels.com/ullevaalstadion)
 * Closest hotel to conference.  Right next to the Ullevaal football stadium, and far from downtown, but right next to a Metro station.
@@ -129,7 +130,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 ## Thon Hotel Munch
 
 <div class='right'><a href='http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-munch/'><img src="/events/gcc2013/logistics/ThonHotelMunch.jpg" alt="Thon Hotel Munch" height="80" /></a></div>
-* €€€ 
+* €€€
 * [Web Site](http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-munch/)
 * Located in city centre
 * Nearest Metro Station: [Nationaltheatret](http://reiseplanlegger.ruter.no/en/Kart/For/(3010031)Nationaltheatret%20%5BT-bane%5D%20(Oslo)#st:1,zo:0,sp:0), 3 stops away
@@ -147,7 +148,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 ## Thon Hotel Astoria
 
 <div class='right'><a href='http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-astoria/'><img src="/events/gcc2013/logistics/ThonHotelAstoria.jpg" alt="Thon Hotel Astoria tadion" height="80" /></a></div>
-* €€ 
+* €€
 * [Web Site](http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-astoria/)
 * Located in city center
 * Nearest Metro Station: [Jernbanetorget](http://reiseplanlegger.ruter.no/en/Kart/For/(3010011)Jernbanetorget%20%5BT-bane%5D#st:1,zo:0,sp:0), 6 stops away
@@ -156,7 +157,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 ## Thon Hotel Gyldenløve
 
 <div class='right'><a href='http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-gyldenlove/'><img src="/events/gcc2013/logistics/Gyldenlove.jpg" alt="Thon Hotel Gyldenløve" height="80" /></a></div>
-* €€ 
+* €€
     *Thon Hotel Gyldenløve is offering a 21% discount off of published rates to conference attendees.  To book a discounted room contact [Gyldenløve Bookings](mailto:gyldenlove DOT booking AT thonhotels DOT no) and mention that you are requesting the University of Oslo discount, and that you will be attending GCC2013.*
 * [Web Site](http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-gyldenlove/)
 * In a neighborhood between downtown Oslo and conference venue.
@@ -166,7 +167,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 ## Comfort Hotel Xpress
 
 <div class='right'><a href='https://www.nordicchoicehotels.com/Comfort/Comfort-Hotel-Xpress/'><img src="/events/gcc2013/logistics/ComfortHotelXpress.jpg" alt="Comfort Hotel Xpress" height="80" /></a></div>
-* €€ 
+* €€
 * [Web Site](https://www.nordicchoicehotels.com/Comfort/Comfort-Hotel-Xpress/)
 * Trendy, affordable.  In city centre.
 * Nearest Metro Station: [Stortinget](http://reiseplanlegger.ruter.no/en/Kart/For/(3010020)Stortinget%20%5BT-bane%5D#st:1,zo:0,sp:0), 5 stops away
@@ -175,7 +176,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 ## Perminalen
 
 <div class='right'><a href='http://www.perminalen.no/'><img src="/events/gcc2013/logistics/Perminalen.jpg" alt="Comfort Hotel Xpress" height="80" /></a></div>
-* € - €€ 
+* € - €€
 * [Web Site](http://www.perminalen.no/)
 * This is backpacker lodging, with single rooms, double rooms, and dormitory style lodging. Located in city centre.
 * Nearest Metro Station: [Stortinget](http://reiseplanlegger.ruter.no/en/Kart/For/(3010020)Stortinget%20%5BT-bane%5D#st:1,zo:0,sp:0), 4 stops away

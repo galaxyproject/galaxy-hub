@@ -11,6 +11,7 @@ title: GalaxyCzars GCC2012 Breakout Session
 
 
 Participants:
+
 * Alex Moskalenko
 * Nate Coraor
 * Mary Dolan
@@ -23,7 +24,7 @@ Breakout Presentation: [https://depot.galaxyproject.org/hub/attachments/communit
 
 A [GalaxyCzars](/community/galaxy-admins/) breakout session was held at [GCC2012](/events/gcc2012/). This was an opportunity for this group to meet face-to-face for the first time. GalaxyCzars is about installing, configuring, and maintaining large Galaxy installations. It was open to anyone.
 
-* We need a new name! 
+* We need a new name!
   :: We tried to brainstorm a new name for the group... being that it was Friday afternoon this was a difficult task!  We will keep looking for a new name.  Some suggestions:  GalaxyLocals, GalaxyCommons, etc.
 
 * Talked about goals for the group

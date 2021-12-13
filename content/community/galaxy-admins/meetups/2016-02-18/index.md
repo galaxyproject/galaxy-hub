@@ -1,4 +1,4 @@
-<div class='center'><a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a>
 <div class='title'>2016-02-18 Web Meetup<br /><br />
 
 </div></div>
@@ -29,7 +29,7 @@
 
 <br />
 
-*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations.
 
 ## Call Technology
 
@@ -40,7 +40,7 @@ The  meetup's [online conference room](https://connect.johnshopkins.edu/galaxyad
 ### Instructions for Participants
 
 * You can ask questions either by *raising your hand* or by typing the question in the chat box.  
-  * If you raise your hand, the host will need to recognize you.
-  * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
+    * If you raise your hand, the host will need to recognize you.
+    * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
 <div class='center'><img src="/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>

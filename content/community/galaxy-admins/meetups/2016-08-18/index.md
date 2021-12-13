@@ -29,7 +29,7 @@
 
 <br />
 
-*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations.
 
 <div class='right'><br />
 <a href='http://ccl.cse.nd.edu/software/makeflow/'><img src="/images/logos/Makeflow.png" alt="Makeflow" height="110" /></a>

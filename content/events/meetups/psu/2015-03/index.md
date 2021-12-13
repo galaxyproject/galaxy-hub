@@ -15,9 +15,9 @@ Thanks and hope to see you there!
 ### When
 
 * **Mar 17 (Tuesday) only**
-  * **4PM to 7PM**
-  * **W203 Millennium Science Complex**
-  * <del>Based on your interest collected in the form linked below we will select the more popular or both of the terms and let you know via email.</del>
+    * **4PM to 7PM**
+    * **W203 Millennium Science Complex**
+    * <del>Based on your interest collected in the form linked below we will select the more popular or both of the terms and let you know via email.</del>
 * Refreshments and snacks will be available.
 
 ### Where
@@ -41,6 +41,7 @@ Please indicate your interest or RSVP using [this form](https://docs.google.com/
 #### What is Galaxy and why could it be interesting to me?
 
 Galaxy is a web-based, open source, data integration and analysis platform for life science research. The core pillars of the application are:
+
 * **Accessibility**: enable bench scientists to create bioinformatics analyses
 * **Reproducibility**: facilitate computational methods to be completely easily reproducible
 * **Transparency**: enable easy sharing and publishing of research data and analyses

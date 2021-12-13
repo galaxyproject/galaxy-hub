@@ -15,7 +15,7 @@
 [University of Freiburg](http://www.bioinf.uni-freiburg.de) <br />
 Albert-Ludwigs-Universität Freiburg <br />
 Georges-Köhler-Allee 106 <br />
-79110 Freiburg 
+79110 Freiburg
 
 ## Contact
 

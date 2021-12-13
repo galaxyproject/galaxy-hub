@@ -7,7 +7,7 @@ image: "/blog/2018-06-training-material/cover_art.png"
 
 The Galaxy Training Network has developed an infrastructure to deliver interactive training based on Galaxy: one central place ([https://training.galaxyproject.org](https://training.galaxyproject.org)) to aggregate training materials covering many current research topics.
 
-Each topic is supported by different tutorials built to support interactive learning around a "research story" (usually the reproduction of a scientific paper). The tutorials can then easily be used for effective training to support individual users in their self-learning effort and also instructors during workshops. 
+Each topic is supported by different tutorials built to support interactive learning around a "research story" (usually the reproduction of a scientific paper). The tutorials can then easily be used for effective training to support individual users in their self-learning effort and also instructors during workshops.
 
 The tutorials are developed and maintained by the community via a GitHub repository: [https://github.com/galaxyproject/training-material](https://github.com/galaxyproject/training-material).
 
@@ -18,12 +18,14 @@ This project was started in 2016 and was presented for the first time during the
 <img class="img-fluid mx-auto" src="/blog/2018-06-training-material/repo_content_stat_plot.png" alt="New content"/>
 
 During the past year, two new topics have been added:
+
 - [Stastitics](http://galaxyproject.github.io/training-material/topics/statistics)
 - [Genome Annotation](http://galaxyproject.github.io/training-material/topics/genome-annotation)
 
 While several more new topics are in development (e.g. Visualization, Phylogeny, Metabolomics).
 
 Many existing topics have been expanded with new content:
+
 - Introduction to Galaxy: [Extracting Workflows from Histories](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-history-to-workflow/tutorial.html), [Introduction to Genomics and Galaxy](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-strands/tutorial.html) and [Rule Based Uploader](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-rules/tutorial.html)
 - Assembly: [Unicycler](http://galaxyproject.github.io/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html) and [Making sense of newly assembled genomes](http://galaxyproject.github.io/training-material/topics/assembly/tutorials/ecoli_comparison/tutorial.html)
 - Epigenetics: [Hi-C analysis of Drosophila melanogaster cells using HiCExplorer](http://galaxyproject.github.io/training-material/topics/epigenetics/tutorials/hicexplorer/tutorial.html)
@@ -87,7 +89,7 @@ Over the last year, we have improved the infrastructure. All the material is now
 
 To describe our effort, our training materials, and our philosophy, we wrote an article: [Community-driven data analysis training for biology](https://www.biorxiv.org/content/early/2017/11/29/225680). We submitted the preprint on [bioRxiv](https://www.biorxiv.org), got nice feedback, then submitted the full article on [Cell Systems](https://www.cell.com/cell-systems/home) and got it accepted there with positive reviews!
 
-So we are happy to say that the article has been published on the [June issue](https://t.co/jIwWZ3qrrr)! 
+So we are happy to say that the article has been published on the [June issue](https://t.co/jIwWZ3qrrr)!
 
 # An AWESOME Community!
 
@@ -97,7 +99,7 @@ This last year has been a success because of the community. Currently, >70 peopl
 
 Each contributor is depicted by their GitHub profile image and can add information such as email, Gitter, Twitter, Linkedin, ORCID. Clicking on the images leads to the GitHub profile. To make this Hall of Fame visible on the homepage, we also added a little slide show on the homepage that cycles through all the contributors.
 
-The new contributors are mostly joining during the community events, such as the Contribution Fests or Hackathons: 
+The new contributors are mostly joining during the community events, such as the Contribution Fests or Hackathons:
 
 <img class="img-fluid mx-auto" src="/blog/2018-06-training-material/contribution_fests.png" alt="Contribution Fests"/>
 

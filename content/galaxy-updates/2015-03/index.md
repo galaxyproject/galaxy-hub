@@ -103,6 +103,7 @@ The new papers were tagged with:
 # UseGalaxy.org Update
 
 A refresh of [UseGalaxy.org](https://usegalaxy.org) has started.  It includes
+
 * New versions of Bowtie2, bwa-mem, Picard, BAMTools, FastQC, ....
 * New look and feel for tool forms
 * New Scratchbook features
@@ -168,7 +169,7 @@ The schedule for [Training Day, Monday, 6 July is available](http://gcc2015.tsl.
 
 We are pleased to announce that again in 2015, any oral or poster presentation will also be eligible for consideration for publication in the *[GigaScience](http://www.gigasciencejournal.com/)* "[Galaxy: Data Intensive and Reproducible Research](http://www.gigasciencejournal.com/series/Galaxy)" series (first announced for GCC2013).  *[GigaScience](http://www.gigasciencejournal.com/)* is pleased to offer a 15% discount on article publishing charges for accepted papers from GCC2015.
 
- 
+
 <div class='right'><br /><a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="120" /></a></div>
 
 ### GCC2015 Sponsorships
@@ -195,7 +196,7 @@ A hands-on, 4 day workshop on *[RNA-Seq and ChIP-Seq Analysis with Galaxy](http:
 
 <div class='right'><a href='/community/galaxy-admins/meetups/2015-02-19/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup February 19" width="150" /></a></div>
 
-[Video and slides](/community/galaxy-admins/meetups/2015-02-19/) from the first [GalaxyAdmins](/community/galaxy-admins/) [meetup of 2015](/community/galaxy-admins/meetups/2015-02-19/) are now available online. 
+[Video and slides](/community/galaxy-admins/meetups/2015-02-19/) from the first [GalaxyAdmins](/community/galaxy-admins/) [meetup of 2015](/community/galaxy-admins/meetups/2015-02-19/) are now available online.
 
 [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) also lead a short discussion on *[GalaxyAdmins](/community/galaxy-admins/) direction*.
 
@@ -211,7 +212,7 @@ A summary of both the user and admin/developer [2014 Galaxy Community Questionna
 
 ## Other Events
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.irb.hr/eng/Research/Divisions-and-Centers/Centre-for-Informatics-and-Computing/News/FREE-Workshop-Bioinformatics-Methods-in-Genomics'><img src="/images/logos/IRBLogo300.jpg" alt="Ruđer Bošković Institute (RBI)" height="70" /></a>
 <a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='https://depot.galaxyproject.org/hub/attachments/documents/Flyers/DéveloppementEtIntégrationDApplicationsSousGalaxy.pdf'><img src="/images/logos/IFBSmallTransLogo.png" alt="Développement et intégration d’applications sous Galaxy" height="66" /></a>
@@ -357,19 +358,19 @@ One new [public Galaxy servers](/use/) was added in February:
 <div class='right solid'><a href='http://whaleshark.georgiaaquarium.org/'><img src="/public-galaxy-servers/archive/whate-shark-landing-300.png" alt="Whale Shark Galaxy @ The Georgia Aquarium" width=300 /></a></div>
 
 * *Link:*
-  * [Whale Shark Galaxy](http://whaleshark.georgiaaquarium.org/)
+    * [Whale Shark Galaxy](http://whaleshark.georgiaaquarium.org/)
 * *Domain/Purpose:*
-  * "Dedicated to the analysis of whale shark *(Rhincodon typus)* genome."
+    * "Dedicated to the analysis of whale shark *(Rhincodon typus)* genome."
 * *Comments:*
-  * See:
+    * See:
     [Draft sequencing and assembly of the genome of the world’s largest fish, the whale shark: Rhincodon typus Smith 1828](https://peerj.com/preprints/837/), Read TD, Petit III RA, Joseph SJ, Alam MT, RW, Ahmad M, Bhimani R, Vuong JS, Haase CP, Webb H, Dove ADM. (2015). *[PeerJ PrePrints](https://peerj.com/preprints/)* 3:e1036 https://doi.org/10.7287/peerj.preprints.837v1
 * *User Support:*
-* *Quotas:* 
-  * Max file size to upload: 2 GB
-  * For registered users, you have a disk quota of 50GB and a job walltime of 24 hours.
-  * For anonymous users, you have a disk quota of 50MB and a job walltime of 30 minutes.
+* *Quotas:*
+    * Max file size to upload: 2 GB
+    * For registered users, you have a disk quota of 50GB and a job walltime of 24 hours.
+    * For anonymous users, you have a disk quota of 50MB and a job walltime of 30 minutes.
 * *Sponsor(s):*
-  * "The whale shark genome project was made possible by financial and other support of [Georgia Aquarium](http://www.georgiaaquarium.org/) and its guests, and by a completion grant from [The Coca Cola Company](http://us.coca-cola.com/home/)."
+    * "The whale shark genome project was made possible by financial and other support of [Georgia Aquarium](http://www.georgiaaquarium.org/) and its guests, and by a completion grant from [The Coca Cola Company](http://us.coca-cola.com/home/)."
 
 # Galaxy Community Hubs
 
@@ -394,9 +395,9 @@ One new [public Galaxy servers](/use/) was added in February:
 Two new [Community Log Board](/blog/) entires were added in February:
 
 * [FTP upload to Galaxy using ProFTPd and PBKDF2](http://galacticengineer.blogspot.co.uk/2015/02/ftp-upload-to-galaxy-using-proftpd-and.html)
-  * ProFTPd implemented using PBKFD2 protocol for encryption, by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
+    * ProFTPd implemented using PBKFD2 protocol for encryption, by [Peter Briggs](http://www.ls.manchester.ac.uk/people/profile/?alias=briggsp)
 * Instalando um servidor do Galaxy Project
-  * Portuguese Galaxy Documentation, by [Léo Biscassi](https://biscassi.wordpress.com/quem-sou-eu/)
+    * Portuguese Galaxy Documentation, by [Léo Biscassi](https://biscassi.wordpress.com/quem-sou-eu/)
 
 
 ----
@@ -405,7 +406,7 @@ Two new [Community Log Board](/blog/) entires were added in February:
 
 Galaxy has moved its source from Bitbucket to [GitHub](https://github.com/galaxyproject/galaxy). The development of Galaxy takes place there from now on.
 
-However, **the Bitbucket repositories are still the official source for deployment** until we polish the process. 
+However, **the Bitbucket repositories are still the official source for deployment** until we polish the process.
 
 More information available in [Develop/SourceCode](/develop/source-code/).
 
@@ -442,6 +443,6 @@ There was no shortage of new ToolShed repositories in February, but there was a 
 # Other News
 
 * From [Pierre Lindenbaum](https://twitter.com/yokofakun)
-    [Automatic generation of tool.xml for Galaxy using xslt](http://tinyurl.com/mflwofl) 
+    [Automatic generation of tool.xml for Galaxy using xslt](http://tinyurl.com/mflwofl)
 * [The KLAST high-perfomance sequence similarity search tool is now available for the Galaxy platform.](http://www.korilog.com/news/klast-for-galaxy-platform/196)
 * [VBI-led Team Introduces Infectious Disease-focused Resource for Analyzing RNA-seq Data](http://bit.ly/1uKqHLB) on [GenomeWeb](http://genomeweb.com)

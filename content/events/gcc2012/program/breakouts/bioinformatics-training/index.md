@@ -22,7 +22,7 @@ title: Bioinformatics Training and Teaching with Galaxy
 * Graeme Grimes
 * Ketaki Bhide
 * Patra Volarath
-* Erik Garrison 
+* Erik Garrison
 * Dave Clements
 * Rama Sompallae
 * ...
@@ -45,15 +45,15 @@ These notes are a rough first grouping of [Dave Clements'](/people/dave-clements
 * Perl for bioinformatics.
 * Use Galaxy for training, bioinformatics school
 * Don't use Galaxy internally at the bioinformatics core, but do use it for training.
-  * Started teaching with command line and that was a disaster.
+    * Started teaching with command line and that was a disaster.
 * Use Galaxy to teach students, some of whom have not used a computer before.  Galaxy might be too complicated for that group.
 
 ## Goals for Training
 
 * Want to be able to teach biologists enough so that they can do the analysis, but also to have them learn how to do in depth analysis.
 * To learn programming
-  * Galaxy as a visual programming language.
-  * Don't have to teach R or Perl, but the ideas: transform the ides
+    * Galaxy as a visual programming language.
+    * Don't have to teach R or Perl, but the ideas: transform the ides
 * Make bioinformatics training a part of medical education.
 * Teach people to do their own analysis.
 
@@ -63,34 +63,34 @@ These notes are a rough first grouping of [Dave Clements'](/people/dave-clements
 * Problem with teaching is that participants forget it after a month, if they don't use it frequently after the training.
 * Teaching R is an order of magnitude harder to teach than perl
 * Do you teach the details or high level?
-  * Researchers who have specific needs.  
-  * You have students who you want to teach basic understanding too 
-  * We also need to train the biologists and chemists to use the tools, but too understand the outputs.
-  * Some past bioinformatics training focused on statistics to the point of alienating biologists
+    * Researchers who have specific needs.  
+    * You have students who you want to teach basic understanding too
+    * We also need to train the biologists and chemists to use the tools, but too understand the outputs.
+    * Some past bioinformatics training focused on statistics to the point of alienating biologists
 * Trainers can't know every detail of every tool
 * How do you communicate the complexity of analysis and tools?
-  * Can ask researchers "what do you want to assume?"  That's a lot work.
-  * Asking "which statistical test do you want to use" is not a question that many researchers can answer meaningfully.
+    * Can ask researchers "what do you want to assume?"  That's a lot work.
+    * Asking "which statistical test do you want to use" is not a question that many researchers can answer meaningfully.
 * Biologists are really good at following protocols, as long as they are at the bench.  Following recipes on computers is not the same thing.
 * Researchers that just want the data analyzed without understanding analysis.  Some would prefer to have an analysis blackbox, with a red button that says "analyze."  
 * The interface for files in Galaxy is confusing for users.
 * How do you have a meaningful example that runs fast.
 * Number of tools is daunting
 * Bioinformatics courses are not as good as many other courses
-  * Textbooks are not as good
-  * Field is developing so fast; no chance to standardize
-  * End up with *Bioinformatics for dummies* courses
+    * Textbooks are not as good
+    * Field is developing so fast; no chance to standardize
+    * End up with *Bioinformatics for dummies* courses
 
 ## Solutions
 
 * Jeremy's parameter walking can make it clear that they can get different results.  
-  * Flip side is this can be used to get the results they want.
-  * Demonstrate how sensitive things are.
+    * Flip side is this can be used to get the results they want.
+    * Demonstrate how sensitive things are.
 * Improve interface for history / files in Galaxy
-  * tie together files that are produced as a chunk.
-  * Change it to be more hierarchical.  Have folders.  Too many files, e.g. cufflinks get 11 files.
-  * Get Multiple views.
-  * Does Galaxy have access to Human Computer Interaction folks?
+    * tie together files that are produced as a chunk.
+    * Change it to be more hierarchical.  Have folders.  Too many files, e.g. cufflinks get 11 files.
+    * Get Multiple views.
+    * Does Galaxy have access to Human Computer Interaction folks?
 * Struggling with tools can get the point across that this is inherently difficult
 * Galaxy is about the making the simple things easy to do, so you can get to the science.
 * Include a "Hey this is important!" notice on complex tools.
@@ -98,10 +98,10 @@ These notes are a rough first grouping of [Dave Clements'](/people/dave-clements
 * hands-on workshops may be overrated.  Maybe speak for an hour, and then have participants go off for a few days.
 * Take a high-profile paper and reproduce the results from a paper.  That's going to be motivating.
 * Set up a catalog of teaching material
-  * Want to be able to share material
-  * slide sharing would be helpful
+    * Want to be able to share material
+    * slide sharing would be helpful
 * Teach good Galaxy practices
-  * Always rename your output files
+    * Always rename your output files
 
 # Plan of Action
 

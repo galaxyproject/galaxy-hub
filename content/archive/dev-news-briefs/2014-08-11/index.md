@@ -50,7 +50,7 @@ Many thanks to Inge Alexander Raknes for reporting the issue [T1eldqfK](https://
 
 [Wiki](http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax#A.3Ccitations.3E_tag_set), Authored by Björn Grüning and Peter Cock
 
-Tools now annotate citation information. Tools annotate citations using either DOIs or raw BibTeX - these in turn are shown as formatted citations below the help text on tool forms and may be copied to reference managers as raw `BibTeX`. All annotated citations in a history can also be obtained using the history options menu. [kY7RCnd0](https://trello.com/c/kY7RCnd0)	
+Tools now annotate citation information. Tools annotate citations using either DOIs or raw BibTeX - these in turn are shown as formatted citations below the help text on tool forms and may be copied to reference managers as raw `BibTeX`. All annotated citations in a history can also be obtained using the history options menu. [kY7RCnd0](https://trello.com/c/kY7RCnd0)
 
 # New! Docker
 
@@ -66,13 +66,13 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 
 1. Improved data loading efficiency in Trackster through »reference-based« compression for read tracks. [qoDpckp7](https://trello.com/c/qoDpckp7)
 1. DRMAA Python version in eggs.ini updated to 0.7.6. This version has better string handling and supports Python 3. Upgraded by Dan Blanchard. [E6h7wold](https://trello.com/c/E6h7wold)
-1. Added extension point to define site-specific parameters to aid defining job destinations. Based on contributions from Hector del Risco. [H87LotF7](https://trello.com/c/H87LotF7)	
+1. Added extension point to define site-specific parameters to aid defining job destinations. Based on contributions from Hector del Risco. [H87LotF7](https://trello.com/c/H87LotF7)
 1. Per-destination concurrency limits for jobs linked to destination or destination tag. Aids in avoiding queue bottlenecks or user »quota-exceeded« job rejections/failures. [o40wcWaU](https://trello.com/c/o40wcWaU)
 1. Enhanced dynamic job destinations throw new `JobNotReadyException` to indicate delayed decision. [xdf6ibmC](https://trello.com/c/xdf6ibmC)
 1. Created higher-level utilities about job metrics and users to better track and manage priorities (i.e. do it yourself meta-fairshare). [wDjPSAsy](https://trello.com/c/wDjPSAsy)
 1. Setting user preferences, toolbox filters, and default permissions now accessible when using external authentication. [AnUdQJqj](https://trello.com/c/AnUdQJqj)
 1. Implemented unit testing for routes in Galaxy app. Allows for testing both how URLs are going to map to controllers and actions as well as testing what paths will be produced by `url_for`. [TG5a8OHU](https://trello.com/c/TG5a8OHU)
-1. Added sqlite datatype and corresponding dataprovider and followed up with improved sqlite whitelisting by using the sqlparse package. Developed by Ira Cooke. [2e0ulmi1](https://trello.com/c/2e0ulmi1) [tNaEWcg7](https://trello.com/c/tNaEWcg7)	
+1. Added sqlite datatype and corresponding dataprovider and followed up with improved sqlite whitelisting by using the sqlparse package. Developed by Ira Cooke. [2e0ulmi1](https://trello.com/c/2e0ulmi1) [tNaEWcg7](https://trello.com/c/tNaEWcg7)
 1. Deprecated use of the database_engine_option_strategy = threadlocal in SQLAlchemy. The option was removed from `universe_wsgi.ini.sample`. [iXOD4vrg](https://trello.com/c/iXOD4vrg)
 1. Added function to assign detected dataset input format based on input format (action similar to assignment of stand-alone output format). Designed by Michael Crusoe at the GCC2014 Hackathon. [8wf9mNLy](https://trello.com/c/8wf9mNLy) [F29Wu1ET](https://trello.com/c/F29Wu1ET)
 1. Workflow `PostJobActions` function »`Rename`« now displays available tool inputs for `#{input1} ` as options (custom label or actual tool input id). Additional `PostJobActions` functions to be enhanced in future upgrades. [9HkqqTut](https://trello.com/c/9HkqqTut)
@@ -100,7 +100,7 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 
 # Fixed
 
-1. Fix collection for recent Tool Shed code cleanups. For example, repository installations with the API using `./scripts/api/install_tool_shed_respositories.py`. Implemented by Björn Grüning. [mdNIKjbV](https://trello.com/c/mdNIKjbV)	
+1. Fix collection for recent Tool Shed code cleanups. For example, repository installations with the API using `./scripts/api/install_tool_shed_respositories.py`. Implemented by Björn Grüning. [mdNIKjbV](https://trello.com/c/mdNIKjbV)
 1. Fix for interpreter on version commands (when different from command interpreter). Tracked down by Will Holtz, patched by Peter Cock. [d5AOLrGd](https://trello.com/c/d5AOLrGd)
 1. Admin operation »Impersonate a user« now functions when using external authentication. [zwqNwflD](https://trello.com/c/zwqNwflD)
 1. Public Galaxy Main’s Proxy is now serving for bigBed formatted datatypes correctly in external application visualization application (such as IGB). [ZLH7Lowr](https://trello.com/c/ZLH7Lowr)
@@ -113,12 +113,12 @@ Docker integration provides even greater security with [Pulsar](https://github.c
 1. Safari 6.1.4 issue with laying out `flexboxes` (associated with dataset collections), making dialog usable, is now fixed. [tDlTsXPx](https://trello.com/c/tDlTsXPx)
 1. Safari 7.0.4 caching external view application 302 redirect links is also fixed. [optldnPm](https://trello.com/c/optldnPm)
 1. Added `job_metrics_conf.xml` to `.hgignore`. Contributed by Nicola Soranzo. [FLet9NVs](https://trello.com/c/FLet9NVs)
-1. Fix »figshare« DOI handling in citations. Testing support from Michael Crusoe. [LOfrzvGz](https://trello.com/c/LOfrzvGz)	
+1. Fix »figshare« DOI handling in citations. Testing support from Michael Crusoe. [LOfrzvGz](https://trello.com/c/LOfrzvGz)
 1. Dataset Collection of »type paired« no longer producing an error while running a primary tool. New automated test created. [u6WglV0H](https://trello.com/c/u6WglV0H) [e7SFiWio](https://trello.com/c/e7SFiWio)
 1. Upload of tools to a Tool Shed with Dataset Collections and tests defined no longer fails. Contributed by Aaron Petkau. [dHqGQadb](https://trello.com/c/dHqGQadb)
 1. Allow history panel UI to contain datasets and dataset collections with the same id. [rpfCwB1X](https://trello.com/c/rpfCwB1X)
 1. Other dataset collection bugs identified and remedied. [0OUxFFAO](https://trello.com/c/0OUxFFAO)
-1. Fix for using `$output.extra_files_path` with nested object stores. May require additional tuning. Identified by Björn Grüning. [a9PVThgp](https://trello.com/c/a9PVThgp)	
+1. Fix for using `$output.extra_files_path` with nested object stores. May require additional tuning. Identified by Björn Grüning. [a9PVThgp](https://trello.com/c/a9PVThgp)
 1. Close file handles for `convert delimiters to tab` tool. Contributed by Saket Choudhary. [Qm263dGS](https://trello.com/c/Qm263dGS)
 1. Fix spelling mistakes in hopefully all of the `install_*_environments`. Tuned by Björn Grüning. [6XLCjlEc](https://trello.com/c/6XLCjlEc)
 1. Fix `shutil.move` for converted files in `upload.py`. [qH7yZfCf](https://trello.com/c/qH7yZfCf)

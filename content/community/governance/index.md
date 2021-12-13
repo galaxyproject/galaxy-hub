@@ -41,20 +41,22 @@ Cutting across all Working Groups, *[Committers Groups](/community/committers/)*
 
 **Proposed governance workflow:**
 
-* [Galaxy Exec](/community/exec/): group of PIs including Frederik Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, and Michael Schatz. 
-* [Global Steering Committee](/community/steering/): collaborators from active Galaxy communities. 
+* [Galaxy Exec](/community/exec/): group of PIs including Frederik Coppens, Björn Grüning, Ross Lazarus, Andrew Lonie, Anton Nekrutenko, and Michael Schatz.
+* [Global Steering Committee](/community/steering/): collaborators from active Galaxy communities.
 * [Working groups](/community/wg/): groups of community members responsible for various parts of the Galaxy ecosystem.  
-* Idea by Björn Grüning, Hans-Rudolf Hotz and others. 
+* Idea by Björn Grüning, Hans-Rudolf Hotz and others.
 
 The overall idea is:
 
 1. The *Technical Board* and the *Community Board* are asked for high-level input. This is the step where the community, either via the technical *Working Groups* or the *Steering Committee*, can influence the process (2 weeks).
 2. The *Galaxy Exec* reviews suggestions and creates a final high-level roadmap (1 week). It is then given to the *Technical Board* which will (3 weeks):
-  * Add technical details.
-  * Estimate the timings.
-  * Add cross working group dependencies.
-  * Add other requirements (e.g. hardware).
-  * A detailed roadmap is given to the *Galaxy Exec* for the final decision (1 week).
+
+* Add technical details.
+* Estimate the timings.
+* Add cross working group dependencies.
+* Add other requirements (e.g. hardware).
+* A detailed roadmap is given to the *Galaxy Exec* for the final decision (1 week).
+
 3. The *Galaxy Exec* signs off the roadmap and publishes it on GitHub.
 
 

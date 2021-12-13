@@ -13,7 +13,7 @@ Several *critical* security vulnerabilities were recently discovered by Bartlomi
 
 ## IPython Integration
 
-Thanks to the awesome work of community members Björn Grüning and Helena Rasche, [Galaxy now features integration with the popular IPython project](/archive/dev-news-briefs/2015-01-13/#ipython-integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker. 
+Thanks to the awesome work of community members Björn Grüning and Helena Rasche, [Galaxy now features integration with the popular IPython project](/archive/dev-news-briefs/2015-01-13/#ipython-integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker.
 
 ## Tool Form Upgrade (for Beta Testing)
 

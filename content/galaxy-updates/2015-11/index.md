@@ -12,9 +12,9 @@ title: Galactic November News!
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the November 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
+Welcome to the November 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 # New Papers
 
@@ -120,7 +120,7 @@ The new papers were tagged with:
 
 Thanks to everyone who nominated topics for GCC2016 Training.  Please take a few minutes to [vote on the topics](http://bit.ly/gcc2016trnvote) you want to see offered at GCC2016 Training.
 
-The [2016 Galaxy Community Conference (GCC2016)](/events/gcc2016/) features two full days of training on June 26-27.  Each 
+The [2016 Galaxy Community Conference (GCC2016)](/events/gcc2016/) features two full days of training on June 26-27.  Each
 day will have multiple tracks, with each track featuring several sessions throughout the day.  GCC2016 will be held at [Indiana University](http://indiana.edu) in Bloomington, Indiana, United States.
 
 **[Topic voting](http://bit.ly/gcc2016trnvote) closes November 6.**
@@ -146,7 +146,7 @@ All [forms of contribution](https://github.com/galaxyproject/tools-iuc/issues/29
 
 See [the event home page for more](https://github.com/galaxyproject/tools-iuc/issues/299).
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.festivalofgenomicscalifornia.com/'><img src="/images/logos/FestivalOfGenomicsCaliforniaLogo.png" alt="3 Workshop: Galaxy for the Analysis of Very Large Biomedical Data; Common Workflow Language on Galaxy, Part of Portable Bioinformatics; Single-Cell Sequencing: Analysis & Visualization of Copy Number Variations" height="60" /></a>
 <a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'><img src="/images/logos/PRABILogo.png" alt="Analyse de données RNA-seq sous l’environnement Galaxy" height="70" /></a>
 <a href='http://www.france-bioinformatique.fr/?q=fr/galaxy-2'><img src="/images/logos/IFB_galaxywg.png" alt="Galaxy Day 2015" height="70" /></a>
@@ -168,7 +168,7 @@ See [the event home page for more](https://github.com/galaxyproject/tools-iuc/is
 
 <br />
 
-**The [call for hosts for GCC2017](https://depot.galaxyproject.org/hub/attachments/documents/GCC2016CallForHosts.pdf) closes 30 November.**  If you are interested, please see [this announcement](/news/gcc2017-call-for-host/). 
+**The [call for hosts for GCC2017](https://depot.galaxyproject.org/hub/attachments/documents/GCC2016CallForHosts.pdf) closes 30 November.**  If you are interested, please see [this announcement](/news/gcc2017-call-for-host/).
 
 ## October GalaxyAdmins Meetup Video and Slides
 
@@ -187,7 +187,7 @@ Video and slides for the [GalaxyAdmins meetup on October 15 are now available](/
 
 There are [upcoming events](/events/) on 3 continents in 4 countries, *and a veritable globular cluster of events in France this month*.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.festivalofgenomicscalifornia.com/'><img src="/images/logos/FestivalOfGenomicsCaliforniaLogo.png" alt="3 Workshop: Galaxy for the Analysis of Very Large Biomedical Data; Common Workflow Language on Galaxy, Part of Portable Bioinformatics; Single-Cell Sequencing: Analysis & Visualization of Copy Number Variations" height="60" /></a>
 <a href='http://www.fc3bio.fr/Analyse-des-donnees-RNA-seq-sous-l-environnement-GALAXY_a39.html'><img src="/images/logos/PRABILogo.png" alt="Analyse de données RNA-seq sous l’environnement Galaxy" height="70" /></a>
 <a href='http://www.france-bioinformatique.fr/?q=fr/galaxy-2'><img src="/images/logos/IFB_galaxywg.png" alt="Galaxy Day 2015" height="70" /></a>
@@ -353,23 +353,23 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right solid'><a href='http://galaxy.prabi.fr/'><img src="/images/logos/PRABILogo.png" alt="Galaxy@PRABI" width="200" /></a></div>
 
 * *Links:*
-  * [Galaxy@PRABI](http://galaxy.prabi.fr/)
-  * [PRABI Galaxy Tool Shed](http://toolshed.prabi.fr/)
+    * [Galaxy@PRABI](http://galaxy.prabi.fr/)
+    * [PRABI Galaxy Tool Shed](http://toolshed.prabi.fr/)
 * *Domain/Purpose:*
-  * A general purpose Galaxy instance that includes bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SexDetector,* and *priam* available [through our local toolshed instance](http://toolshed.prabi.fr). 
+    * A general purpose Galaxy instance that includes bioinformatics tools developed by the research teams working in the perimeter of the PRABI core facility, including *kissplice/kissDE, TETools, SexDetector,* and *priam* available [through our local toolshed instance](http://toolshed.prabi.fr).
 * *Comments:*
-  * Dedicated server: PowerEdge R920 Rack Server - 64 CPU, 512 GB RAM, 15To GB of disk space. 
+    * Dedicated server: PowerEdge R920 Rack Server - 64 CPU, 512 GB RAM, 15To GB of disk space.
 * *User Support:*
-  * [galaxy@prabi user list](http://listes.univ-lyon1.fr/sympa/info/galaxy-user) (in French) 
-  * Email support: [galaxy DASH support AT listes DOT univ-lyon1 DOT fr](mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr) 
-  * We also provide galaxy [training courses](https://training.galaxyproject.org/) for RNA-seq and ChIP-seq data analysis.
-* *Quotas:* 
-  * Disk space is limited to 100 MB for unregistered users, registered users are free to use up to 50 GB.
-  * Users from the FRBioenvis and LECA teams are free to use up to 250 GB disk space.
-  * Can be increased up to 1-2 TB in collaborative projects (please contact [galaxy@PRABI Admins](mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr).)
+    * [galaxy@prabi user list](http://listes.univ-lyon1.fr/sympa/info/galaxy-user) (in French)
+    * Email support: [galaxy DASH support AT listes DOT univ-lyon1 DOT fr](mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr)
+    * We also provide galaxy [training courses](https://training.galaxyproject.org/) for RNA-seq and ChIP-seq data analysis.
+* *Quotas:*
+    * Disk space is limited to 100 MB for unregistered users, registered users are free to use up to 50 GB.
+    * Users from the FRBioenvis and LECA teams are free to use up to 250 GB disk space.
+    * Can be increased up to 1-2 TB in collaborative projects (please contact [galaxy@PRABI Admins](mailto:galaxy DASH support AT listes DOT univ-lyon1 DOT fr).)
 * *Sponsor(s):*
-  * [PRABI](http://www.prabi.fr)
-  * [FRBioenvis](http://bioenvis.universite-lyon.fr), [Université Lyon 1](http://www.univ-lyon1.fr), [LECA](http://www-leca.ujf-grenoble.fr)
+    * [PRABI](http://www.prabi.fr)
+    * [FRBioenvis](http://bioenvis.universite-lyon.fr), [Université Lyon 1](http://www.univ-lyon1.fr), [LECA](http://www-leca.ujf-grenoble.fr)
 
 <br />
 
@@ -378,19 +378,19 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right solid'><a href='http://semantics.systemsbiology.nl/RDF2Graph/'><img src="/use/archive/rdf2graph/rdf2graph_reactome.png" alt="RDF2Graph using Reactome" width="200" /></a></div>
 
 * *Link:*
-  * [RDF2Graph Server](http://semantics.systemsbiology.nl/RDF2Graph/)
+    * [RDF2Graph Server](http://semantics.systemsbiology.nl/RDF2Graph/)
 * *Domain/Purpose:*
-  * RDF2Graph recovers the structure of an RDF resource.
+    * RDF2Graph recovers the structure of an RDF resource.
 * *Comments:*
-  * Graphs can be exported to [Cytoscape](http://www.cytoscape.org/), OWL, and [ShEx](http://www.w3.org/2001/sw/wiki/ShEx).
-  * See "[RDF2Graph a tool to recover, understand and validate the ontology of an RDF resource](http://www.jbiomedsem.com/content/6/1/39/)" by van Dam *et al.*, *Journal of Biomedical Semantics* 2015, 6:39 (2013)
+    * Graphs can be exported to [Cytoscape](http://www.cytoscape.org/), OWL, and [ShEx](http://www.w3.org/2001/sw/wiki/ShEx).
+    * See "[RDF2Graph a tool to recover, understand and validate the ontology of an RDF resource](http://www.jbiomedsem.com/content/6/1/39/)" by van Dam *et al.*, *Journal of Biomedical Semantics* 2015, 6:39 (2013)
 * *User Support:*
-  * [RDF2Graph Manual](http://semantics.systemsbiology.nl/RDF2Graph/static/Manual.html)
-* *Quotas:* 
-  * Server can be used by anyone, but you'll need to create an account.
-  * The RDF resource is limited to 20,000,000 lines.
+    * [RDF2Graph Manual](http://semantics.systemsbiology.nl/RDF2Graph/static/Manual.html)
+* *Quotas:*
+    * Server can be used by anyone, but you'll need to create an account.
+    * The RDF resource is limited to 20,000,000 lines.
 * *Sponsor(s):*
-  * [Laboratory of Systems and Synthetic Biology](http://www.wageningenur.nl/en/Expertise-Services/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Systems-and-Synthetic-Biology.htm), [Wageningen University](http://www.wageningenur.nl/)
+    * [Laboratory of Systems and Synthetic Biology](http://www.wageningenur.nl/en/Expertise-Services/Chair-groups/Agrotechnology-and-Food-Sciences/Laboratory-of-Systems-and-Synthetic-Biology.htm), [Wageningen University](http://www.wageningenur.nl/)
 
 ----
 
@@ -423,7 +423,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 <div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
 <div class='indent'>
-   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/cloudman/getting-started/) documentation. 
+   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/cloudman/getting-started/) documentation.
 </div>
 
  **Security Advisories**
@@ -440,7 +440,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
  **Pulsar**
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
- 
+
  **[CloudMan](/cloudman/) **
    The [most recent edition of CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release) was released in August.
 
@@ -498,20 +498,20 @@ Ran out of time to compile these.  Look for a double batch in December.
 * Have a [look at a fresh chart of Main's usage](http://pic.twitter.com/G9RxTeXc0x) showing the improvements in Galaxy reports by [Daniel Bouchard](https://twitter.com/D_J_Bouchard).
 
 * From [Björn Grüning](/people/bjoern-gruening/):
-  * 💕 this community! DESeq2 update requested by @mikelove: the [Galaxy wrapper is available](https://github.com/galaxyproject/tools-iuc/pull/294) before BioC version
+    * 💕 this community! DESeq2 update requested by @mikelove: the [Galaxy wrapper is available](https://github.com/galaxyproject/tools-iuc/pull/294) before BioC version
 
 * From [John Chilton](/people/john-chilton/):
-  * [Versioned Tap Hackathon Proposal](https://github.com/Homebrew/homebrew-science/issues/2876)
-  * [Galaxy visualizations](https://github.com/galaxyproject/galaxy/pull/378#event-427974576) from [Eteri Sokhoyan](https://github.com/eteriSokhoyan) and powered by [Cytoscape.js](http://js.cytoscape.org/) have been merged.
+    * [Versioned Tap Hackathon Proposal](https://github.com/Homebrew/homebrew-science/issues/2876)
+    * [Galaxy visualizations](https://github.com/galaxyproject/galaxy/pull/378#event-427974576) from [Eteri Sokhoyan](https://github.com/eteriSokhoyan) and powered by [Cytoscape.js](http://js.cytoscape.org/) have been merged.
 
 * [Martin Čech](/people/marten/):
-  * [A list of tools presented at Genome Informatics 2015](https://github.com/galaxyproject/tools-iuc/issues/361) that might be of interest to the Galaxy community.
+    * [A list of tools presented at Genome Informatics 2015](https://github.com/galaxyproject/tools-iuc/issues/361) that might be of interest to the Galaxy community.
 
 * From [Oleg Shpynov](https://github.com/olegs)
-  * Published [our first application for the Galaxy Project](https://github.com/JetBrains-Research/galaxy) 
+    * Published [our first application for the Galaxy Project](https://github.com/JetBrains-Research/galaxy)
 
 * From [Dannon Baker](/people/dannon-baker/):
-  * [A proposal for bug and issue handling, and roadmap management](https://github.com/galaxyproject/galaxy/pull/902)
+    * [A proposal for bug and issue handling, and roadmap management](https://github.com/galaxyproject/galaxy/pull/902)
 
 * [Det'Rprok workflow](http://bit.ly/1aWNeVE) from [this paper](http://www.sciencedirect.com/science/article/pii/S1046202313002041) updated at MyExperiment.
 

@@ -9,15 +9,15 @@ date: "2020-01-08"
 The *January 2020 Galactic News* is out:
 
 * **[13 Upcoming Events](/news/2020-01-galaxy-update/#events)**
-  * BCC2020 training topic nominations, Register for Galaxy Admin Training, Galaxy @ PAG & ABRF, and training @ Earlham and Rennes. 
+    * BCC2020 training topic nominations, Register for Galaxy Admin Training, Galaxy @ PAG & ABRF, and training @ Earlham and Rennes.
 * **[172 new publications](/news/2020-01-galaxy-update/#publications)**
-  * Six highlighted pubs from RT-qPCR to functional genomics
+    * Six highlighted pubs from RT-qPCR to functional genomics
 * **[Two new blog posts](#galactic-blog-activity)**
-  * PGP-UK and Crowdsourcing Science
+    * PGP-UK and Crowdsourcing Science
 * **[Galaxy Platform News](/news/2020-01-galaxy-update/#galaxy-platforms-news)**
-  * Three new platforms, UseGalaxy.* news, and platforms in pubs
+    * Three new platforms, UseGalaxy.* news, and platforms in pubs
 * **[Training material and doc updates](/news/2020-01-galaxy-update/#doc-hub-and-training-updates)**
-  * R, RStudio, ATAC-Seq, Scanpy, and Single Cell RNA-Seq
+    * R, RStudio, ATAC-Seq, Scanpy, and Single Cell RNA-Seq
 * And **[other news too](/news/2020-01-galaxy-update/#other-news)**
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -37,9 +37,10 @@ There is an unusually rich (and aromatic!) mix of [upcoming Galaxy related event
 <div class="card-header">BCC2020: Call for Tutorial Nominations</div>
 
 The **[Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/)** needs
+
 * **[Nominate Training Topics](https://bcc2020.github.io/blog/training-nom) by January 17**
 
-BCC is [GCC](/gcc/) + [BOSC](https://www.open-bio.org/events/bosc/about/#Past_BOSCs), and will be held in July in Toronto, right after [ISMB 2020](https://www.iscb.org/ismb2020) in Montréal. 
+BCC is [GCC](/gcc/) + [BOSC](https://www.open-bio.org/events/bosc/about/#Past_BOSCs), and will be held in July in Toronto, right after [ISMB 2020](https://www.iscb.org/ismb2020) in Montréal.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
@@ -298,8 +299,9 @@ This [Galaxy docker instance](https://hub.docker.com/r/mpaya/epigenomics_galaxy)
 
 <img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* UseGalaxy.org.Au is expanding its range of tools to better support different communities [including 19 metabolomics analysis tools & 2 workflows](https://twitter.com/GalaxyAustralia/status/1207453015814238208/photo/1) and 20 new tools for trimming, analysing, QC and assembling Oxford Nanopore data 
+* UseGalaxy.org.Au is expanding its range of tools to better support different communities [including 19 metabolomics analysis tools & 2 workflows](https://twitter.com/GalaxyAustralia/status/1207453015814238208/photo/1) and 20 new tools for trimming, analysing, QC and assembling Oxford Nanopore data
 * [Galaxy Australia upgraded to Galaxy version 19.09](https://usegalaxy-au.github.io/posts/2019/12/11/galaxy-australia-to-galaxy-version-19-09/plain.html)
+
 </div>
 
 <div class="card border-info"  style="min-width: 17rem;">
