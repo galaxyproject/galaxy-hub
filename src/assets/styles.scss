@@ -292,6 +292,9 @@ div.linkbox {
     background-color: #dfe5f9;
     font-size: 90%;
     text-align: center;
+    // Raise z-index to prevent linkboxes from being occluded by elements like headings (issue #1033).
+    z-index: 100;
+    position: relative;
 }
 
 div.linkbox hr {

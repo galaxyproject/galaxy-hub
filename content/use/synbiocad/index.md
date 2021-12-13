@@ -8,7 +8,7 @@ platforms:
     platform_text: "Galaxy-SynBioCAD"
     platform_location: FR
 summary: "Synthetic biology and metabolic engineering"
-image: "synbiocad-300.png"
+image: "/images/use/synbiocad/synbiocad-300.png"
 comments:
   - "Provides a suite of interoperable and standardized tools for designing pathways from the design specification (choice of the compound, strain) to the DNA parts to be assembled."
   - "SMBL is used for strain and pathway info, and SBOL is used for genetic layouts."
@@ -26,5 +26,5 @@ citations:
 pub_libraries:
   - "SynBioCAD"
 sponsors:
-  - "<img class='img-fluid' src='synbiocad-supporting.png' />"
+  - "<img class='img-fluid' src='/images/use/synbiocad/synbiocad-supporting.png' />"
 ---

@@ -767,7 +767,7 @@ Design solutions to synthesize molecules in microorganisms & to implement the se
 
 **Apply by 1 March.**
 
-![SynBioCAD](/use/synbiocad/synbiocad-visual.png)
+![SynBioCAD](/images/use/synbiocad/synbiocad-visual.png)
 
 </div>
 

@@ -207,7 +207,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 <div class="card border-info"  style="min-width: 16rem;">
 <div class="card-header">[Galaxy-SynBioCAD](/use/synbiocad/)</div>
 
-<img class="card-img-top" src="/use/synbiocad/synbiocad-fig3-slice.png" alt="Galaxy-SynBioCAD" />
+<img class="card-img-top" src="/images/use/synbiocad/synbiocad-fig3-slice.png" alt="Galaxy-SynBioCAD" />
 
 The **[Galaxy-SynBioCAD server](https://galaxy-synbiocad.org/)** provides a suite of interoperable and standardized tools for designing pathways from the design specification (choice of the compound, strain) to the DNA parts to be assembled.  SMBL is used for strain and pathway info, and SBOL is used for genetic layouts.  The server comes with a tutorial, FAQ, email support and a QuickStart guide.
 </div>

@@ -5,7 +5,7 @@ A vibrant community of contributors is the reason this project exists. The [Gala
 
 <div class="img-fluid mx-auto trim-p">
 
-![Responsive image](./gcc2019-grouppicture.jpg)
+![The Galaxy Community at GCC2019](/images/community/gcc2019-grouppicture.jpg)
 
 <small>GCC2019 in Freiburg, Germany, photo by Bérénice Batut</small>
 </div>
