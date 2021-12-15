@@ -5,8 +5,7 @@
 </template>
 <script>
 export default {
-    components: {
-    },
+    components: {},
     metaInfo() {
         return {
             title: this.$page.main.title,
@@ -28,7 +27,7 @@ query {
 }
 </page-query>
 
-<style lang='scss'>
+<style lang="scss">
 @import "~/assets/styles.scss";
 
 #maincontainer {
