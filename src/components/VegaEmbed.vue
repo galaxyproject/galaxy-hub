@@ -9,10 +9,10 @@ export default {
     props: {
         spec: {
             type: String,
-            required: true
+            required: true,
         },
     },
-    mounted () {
+    mounted() {
         embed(this.$el, this.spec, {
             actions: false,
             renderer: "svg",
