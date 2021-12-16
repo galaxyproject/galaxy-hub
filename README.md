@@ -20,7 +20,7 @@ read and explore the web site, then you should absolutely do that through
 
 ## Getting started
 
-First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn 1*](https://yarnpkg.com/), but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).  If you prefer the [Makefile](Makefile) targets (like `make watch`) those will also work and handle dependency management for you.
+First, make sure you have [Node](https://nodejs.org/en/) installed. Then, you'll need a package manager. These instructions use [yarn 1*](https://yarnpkg.com/), but there are equivalent commands for [npm](https://docs.npmjs.com/cli/v7/commands/npm).
 
 <sup>*</sup> <small>Do not use Yarn 2.</small>
 
