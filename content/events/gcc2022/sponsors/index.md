@@ -19,9 +19,15 @@ Is your organization interested in playing a prominent role in the first in-pers
 
 # Interested?
 
-Please see the information below and contact the [conference organizers](/events/gcc2022/organizers/) with any questions.
+<button type="button" class="btn btn-secondary">
 
-- **[Download the GCC2022 Sponsorship Prospectus](https://depot.galaxyproject.org/hub/attachments/events/gcc2022/gcc2022-sponsorship-prospectus.pdf)**
+**[Download the GCC2022 Sponsorship Prospectus](https://depot.galaxyproject.org/hub/attachments/events/gcc2022/gcc2022-sponsorship-prospectus.pdf)**
+
+</button>
+<br /><br />
+
+Sponsortship levels are summarized below.  Please contact the [conference organizers](/events/gcc2022/organizers/) with any questions of if you are interested in sponsoring.
+
 
 # Meeting Sponsorships
 
@@ -38,9 +44,13 @@ Sponsorship are offered at many levels, with an option for every budget:
 | **Ad in printed** | 2 full pages | Full page | Half page | Quarter page |
 | **Logo/Link on web** | Yes | Yes | Yes | Yes |
 
-## Platinum Sponsorships
+<div class="card-deck">
 
-Cost: $5000 ($3750 for non-profit)
+<!-- Platinum -->
+<div class="card" style="min-width: 33%; max-width: 40rem;">
+<img src="/images/events/gcc2022/sponsors/platinum.png" class="card-img-top" alt="Platinum" />
+
+**Cost: $5000 ($3750 for non-profit)**
 
 * Be the exclusive sponsor of the conference dinner or the conference opening reception
 * An exhibit space
@@ -50,9 +60,13 @@ Cost: $5000 ($3750 for non-profit)
 * 4 registrations for all conference events and meals 
 * **Be one of just 2 Platinum Sponsors**
 
-## Gold Sponsorships
+</div>
 
-Cost: $3000 ($2250 for non-profit) 
+<!-- Gold -->
+<div class="card" style="min-width: 33%; max-width: 40rem;">
+<img src="/images/events/gcc2022/sponsors/gold.png" class="card-img-top" alt="Gold" />
+
+**Cost: $3000 ($2250 for non-profit)**
 
 * Be the exclusive sponsor of a lunch during the meeting, or sponsor all breaks during a meeting day
 * An exhibit space
@@ -61,9 +75,13 @@ Cost: $3000 ($2250 for non-profit)
 * 1 full page full color ad in printed program
 * 3 registrations for all conference events and meals
 
-## Silver Sponsorships
+</div>
 
-Cost: $2000 ($1500 for non-profit) 
+<!-- Silver -->
+<div class="card" style="min-width: 33%; max-width: 40rem;">
+<img src="/images/events/gcc2022/sponsors/silver.png" class="card-img-top" alt="Silver" />
+
+**Cost: $2000 ($1500 for non-profit)**
 
 * An exhibit space
 * Organization logo listed as a silver sponsor on meeting home and sponsor pages, with link to URL
@@ -71,14 +89,21 @@ Cost: $2000 ($1500 for non-profit)
 * Half page full-color ad in printed program
 * 2 registrations for all conference events and meals
 
-## Bronze Sponsorships
+</div>
 
-Cost: $1000 ($750 for non-profit)
+<!-- Bronze -->
+<div class="card" style="min-width: 33%; max-width: 40rem;">
+<img src="/images/events/gcc2022/sponsors/bronze.png" class="card-img-top" alt="Bronze" />
+
+**Cost: $1000 ($750 for non-profit)**
 
 * Organization logo listed as a bronze sponsor on meeting home and sponsor pages, with link to URL
 * Organization logo listed as a bronze sponsor on printed material distributed to meeting participants
 * Quarter page full color ad in printed materials
 * 1 registration for all conference events and meals
+
+</div>
+</div>
 
 ## Other Sponsorships
 
@@ -97,11 +122,16 @@ Three days of [collaborative work](/events/gcc2022/cofest/), also known as a hac
 | Ad in printed | Full page | Half page | Quarter page |
 | Logo/Link on web | Yes | Yes | Yes |
 
-## Peta Sponsorship
 
-Cost: $3000
+<div class="card-deck">
 
-* Sponsorship of the CollaborationFest dinner
+<!-- Peta -->
+<div class="card" style="min-width: 18rem; max-width: 40rem;">
+<img src="/images/events/gcc2022/sponsors/peta.png" class="card-img-top" alt="Peta" />
+
+**Cost: $3000**
+
+* **Sponsorship of the CollaborationFest dinner**
 * Organization logo listed as a Peta level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
 * Organization logo listed as a collaborative events Peta sponsor on printed material distributed to meeting participants
 * A full page color ad in printed material
@@ -109,26 +139,41 @@ Cost: $3000
 * Thanks and acknowledgements from organisers before and during the collaborative events and dinner
 * **Be the only Peta Sponsor**
 
-## Tera Sponsorships
+</div>
 
-Cost: $1500
+<!-- Tera -->
+<div class="card" style="min-width: 15rem; max-width: 40rem;">
+<img src="/images/events/gcc2022/sponsors/tera.png" class="card-img-top" alt="Tera" />
 
+**Cost: $1500**
+
+* **Sponsorship of one of a CoFest lunch.**
 * Organization logo listed as a Tera level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
 * Organization logo listed as a collaborative events Tera sponsor on printed material distributed to meeting participants
 * A half page color ad in printed material
 * Two guaranteed participant slots for sponsor organization representatives (additional slots are possible, dependent on space)
-* Sponsorship of one of the collaborative event lunches
 * Thanks and acknowledgements from organisers before and during the collaborative events and the lunch
 
-## Giga Sponsorships
+</div>
 
-Cost: $500
+
+<!-- Giga -->
+<div class="card" style="min-width: 12rem; max-width: 21.5rem;">
+<img src="/images/events/gcc2022/sponsors/giga.png" class="card-img-top" alt="Giga" />
+
+**Cost: $500**
 
 * Organization logo listed as a Giga level sponsor on collaborative events home and sponsor pages, with link to URL of your choice
 * Organization logo listed as a Giga sponsor on printed material distributed to meeting participants
 * A quarter page color ad in printed material
 * A guaranteed participant slot for sponsor organisation representative 
 * Thanks and acknowledgements from organisers before and during the collaborative events
+
+</div>
+</div>
+
+
+
 
 ## Hosts
 
