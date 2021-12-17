@@ -5,6 +5,9 @@ autotoc: false
 components: true
 ---
 
+<!-- currently unused, but it will be eventually, and this tells partitioner to put it in the right spot -->
+<!-- import links from "./links.json" -->
+
 ![University of Minnesota in Minneapolis Minnesota](/images/events/gcc2022/umn-river-aerial-wide.jpg)
 
 <div class="h1 text-center">

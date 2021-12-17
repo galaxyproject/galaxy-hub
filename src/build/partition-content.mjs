@@ -280,6 +280,7 @@ function makeDirPlan(indexPath, inserts, resources, placers) {
         plan.push({ path: insertPath, dest: "md", placer: placers.insert });
     }
     // Resource files (mainly images)
+    // But also 'links.json', etc.
     for (let resourcePath of resources) {
         // Check if the file is used by a Vue-requiring Markdown file.
         //TODO: It's possible a file could be referenced by multiple Markdowns in the same directory.
@@ -338,7 +339,7 @@ function fileRequiresVue(filePath) {
     if (Object.prototype.hasOwnProperty.call(metadata, "components")) {
         return !!metadata.components;
     }
-    if (fileContainsTags(content, ["slot", "g-image", "vega-embed"])) {
+    if (fileContainsTags(content, ["slot", "g-image", "link-box", "vega-embed"])) {
         return true;
     }
     return false;
