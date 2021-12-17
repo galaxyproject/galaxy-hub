@@ -156,7 +156,7 @@ GCC2022 events run from Saturday July 16 through Saturday July 23.  This is an *
 <div class="card-deck">
   <!-- By Air-->
   <div class="card" style="min-width: 25%; max-width: 40rem;">
-    <img src="/images/events/gcc2022/msp-logo.svg" class="card-img-top" alt="MSP Airport" />
+    <img src="/images/events/gcc2022/travel/msp-logo.svg" class="card-img-top" alt="MSP Airport" />
     <div class="card-header">
       <p class="card-title"> MSP International Airport</p>
     </div>
@@ -168,7 +168,7 @@ The [Minneapolis St. Paul Airport (MSP)](https://www.mspairport.com/) is a major
 
   <!-- From ISMB / BOSC -->
   <div class="card" style="min-width: 25%; max-width: 40rem;">
-    <img src="/images/events/gcc2022/map-drive.png" class="card-img-top" alt="From Madison, ISMB / BOSC" />
+    <img src="/images/events/gcc2022/travel/map-drive.png" class="card-img-top" alt="From Madison, ISMB / BOSC" />
     <div class="card-header">
       <p class="card-title"> From ISMB / BOSC </p>
     </div>
@@ -184,7 +184,7 @@ The [Minneapolis St. Paul Airport (MSP)](https://www.mspairport.com/) is a major
 
   <!-- Getting Around -->
   <div class="card" style="min-width: 25%; max-width: 40rem;">
-    <img src="/images/events/gcc2022/transit.png" class="card-img-top" alt="Getting Around" />
+    <img src="/images/events/gcc2022/travel/transit.png" class="card-img-top" alt="Getting Around" />
     <div class="card-header">
       <p class="card-title"> Getting Around </p>
     </div>
