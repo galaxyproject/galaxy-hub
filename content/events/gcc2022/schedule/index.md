@@ -27,7 +27,7 @@ This page summarizes both GCC2022 events, and other cool events happening around
 Training Day: July 8
 </div>
 
-The GCC2022 Training Day will be held on Friday, July 8.  This is a full week before the GCC2022 Conference starts.  This event will be virtual, free, and global.  Training will be asynchronous, go at your own pace, and using Galaxy Training Network materials.  Support will be available on the GTN slack channel, for the entire day, no matter what time zone you are.
+The GCC2022 Training Day will be held on Friday, July 8.  This is a full week before the GCC2022 Conference starts.  **This event will be virtual, free, and global.** Training will be asynchronous, go at your own pace, and using Galaxy Training Network materials.  Support will be available on the GTN slack channel, for the entire day, no matter what time zone you are.
 
 Introductory topics will be covered on Training Day.  Training on more advanced topics, will be offered live, during the conference.
 
@@ -48,7 +48,7 @@ This year we are expanding the number of days from three to four, but shortening
 <!-- CoFest -->
 <div class="card" style="min-width: 25%; max-width: 40rem;">
 <div class="card-header">
-CoFest: Jul 20-22
+CoFest: July 20-22
 </div>
 
 This three day event gathers community members who are interested in contributing to Galaxy's code base, available tool set, documentation, training materials, and anywhere else that expands or improves the Galaxy ecosystem.  You can register for 1, 2 or 3 days of the CoFest.
@@ -148,13 +148,6 @@ Here is what is happening and when, including GCC2022 and other nearby events.
 <td class="small" style="background-color: lightgray;"><strong><a href="https://www.aquatennial.com/">Aquatenial</a><br /><a href="https://www.aquatennial.com/torchlightparade/">Torchlight Parade</a></strong>, Minneapolis</td>
 <td colspan="2" style="background-color: lightgray;"></td>
 <td class="small" style="background-color: lightgray;"><strong><br /><a href="https://www.aquatennial.com/fireworks/">Fireworks</a></strong>, Minneapolis</td>
-</tr>
-<tr style="border: 1px solid lightgray">
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td colspan="3" class="small" style="background-color: lightgray;"><strong><a href="https://tcsummerjam.com/">Twin Cities Summer Jam</a></strong>, Shakopee</td>
 </tr>
 </table>
 
