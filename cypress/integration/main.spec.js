@@ -42,9 +42,9 @@ describe("Test Markdown rendering", () => {
 });
 
 describe("Test insert functionality", () => {
-    it("Visits 2013 GCC event page and ensures side insert with links is visible", () => {
-        cy.visit("/events/gcc2013/");
-        cy.get(".alert.alert-info  > p > a[href='/events/gcc2013/program/']").should("be.visible");
+    it("Visits 2012 GCC event page and ensures footer insert is visible", () => {
+        cy.visit("/events/gcc2012/");
+        cy.get(".markdown > p > a").findByText("Ask the organizers").should("be.visible");
     });
 });
 
