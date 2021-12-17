@@ -1,12 +1,6 @@
----
-title: "GCC2022 Key Dates"
-autotoc: false
-components: true
----
+<slot name="/events/gcc2022/header" />
 
-import links from "../links.json"
-<link-box :links="links" />
-
+# Key Dates
 
 <p class="lead">Please note that this list is a draft set of dates.  Everything but event dates can change between now and when <a href="/events/gcc2022/register/">registration</a> and <a href="/events/gcc2022/abstracts/">abstract submission</a> opens.</p>
 

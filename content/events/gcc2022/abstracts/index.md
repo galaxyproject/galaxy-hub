@@ -1,11 +1,6 @@
----
-title: "GCC2022 Abstracts"
-autotoc: false
-components: true
----
+<slot name="/events/gcc2022/header" />
 
-import links from "../links.json"
-<link-box :links="links" />
+# GCC2022 Abstracts
 
 A core component of Galaxy Community Conferences are the presentations from the community.  These include long talks, lightning talks, poster presentations, and demo presentations.  All of these are submitted by the community and go through a peer review process before being accepted for the program.
 
@@ -15,7 +10,7 @@ We are still working out our timeline for abstract submissions for talks, poster
 
 * Abstract submission will likely open when registration does, probably around the beginning of February
 * The call for *talk* and *early poster/demo* abstract submissions will likely stay open for two months, and the final *poster/demo* abstract submission call will likely stay open for two months after that.
-* If you submit an abstract, either talk or poster/demo, by the talk submission deadline, then you will be notified of your submission status at least two weeks before abstract submission closes.
+* If you submit an abstract, either for a talk or a poster/demo, by the talk submission deadline, then you will be notified of your submission status at least two weeks before abstract submission closes.
 
 # Guidelines
 

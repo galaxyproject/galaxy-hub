@@ -1,13 +1,6 @@
----
-title: "GCC2022 Travel"
-autotoc: false
-components: true
----
+<slot name="/events/gcc2022/header" />
 
-import links from "../links.json"
-<link-box :links="links" />
-
-# Getting Here and Around
+## Getting Here and Around
 
 <div class="card-deck">
   <!-- By Air-->
@@ -47,7 +40,7 @@ Minneapolis St. Paul has a [robust public transportation network](https://www.me
 </div>
 
 
-# Housing
+## Housing
 
 <div class="card-deck">
   <!-- On Campus-->

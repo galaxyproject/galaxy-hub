@@ -1,11 +1,6 @@
----
-title: "GCC2022 Sponsors"
-autotoc: false
-components: true
----
+<slot name="/events/gcc2022/header" />
 
-import links from "../links.json"
-<link-box :links="links" />
+# GCC2022 Sponsors
 
 Sponsors are a key part of GCC2022.  They are potential partners in your success, and sponsors make this conference affordable and accessible. 
 

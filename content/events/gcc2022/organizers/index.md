@@ -1,11 +1,4 @@
----
-title: "GCC2022 Organizers"
-autotoc: false
-components: true
----
-
-import links from "../links.json"
-<link-box :links="links" />
+<slot name="/events/gcc2022/header" />
 
 GCC2022 is a community effort from planning to post conference publishing and feedback.  In addition to all the participants, presenters, and instructors, here are the people who make it happen.
 
@@ -38,5 +31,16 @@ Have a question about [abstracts](/events/gcc2022/abstracts/)?  Ask the [Scienti
 
 # Training Coordinators
 
+Training Day
+
+* **[Helena Rasche](https://training.galaxyproject.org/hall-of-fame/hexylena/)**, [ErasmusMC](https://www.erasmusmc.nl/), [Avans Hogeschool](https://www.avans.nl/), Netherlands
+
+In Conference Training
+
+* **[Assunta DeSanto](https://github.com/assuntad23)**, [Penn State Universtiy](https://psu.edu/)
+* **[Sergey Golitsynskiy](https://github.com/ic4f)**, [Johns Hopkins University](https://jhu.edu/), United States 
+* **[Beatriz Serrano-Solano](https://training.galaxyproject.org/training-material/hall-of-fame/beatrizserrano/)**, [University of Freiburg](https://uni-freiburg.de/en/), Germany
 
 # CoFest Organizers
+
+*Working on it...*

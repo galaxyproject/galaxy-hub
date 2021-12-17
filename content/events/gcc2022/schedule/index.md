@@ -1,11 +1,6 @@
----
-title: "GCC2022 Schedule"
-autotoc: false
-components: true
----
+<slot name="/events/gcc2022/header" />
 
-import links from "../links.json"
-<link-box :links="links" />
+# Schedule
 
 <div class="float-right">
 
@@ -17,7 +12,7 @@ import links from "../links.json"
 
 This page summarizes both GCC2022 events, and other cool events happening around GCC2022 in time and space.  **For a full schedule, see the [GCC2022 schedule site](https://gcc2022.sched.com/)**.
 
-# GCC2022 Events
+## GCC2022 Events
 
 <div class="card-deck">
 
@@ -29,7 +24,7 @@ Training Day: July 8
 
 The GCC2022 Training Day will be held on Friday, July 8.  This is a full week before the GCC2022 Conference starts.  **This event will be virtual, free, and global.** Training will be asynchronous, go at your own pace, and using Galaxy Training Network materials.  Support will be available on the GTN slack channel, for the entire day.
 
-Introductory topics will be covered on Training Day.  Training on more advanced topics, will be offered live, during the conference.
+Introductory topics will be covered on Training Day.  More advanced topics will be offered in-person, during the conference.
 
 </div>
 
@@ -58,7 +53,7 @@ This three day event gathers community members who are interested in contributin
 </div>
 </div>
 
-# Calendar
+## Calendar
 
 Here is what is happening and when, including GCC2022 and other nearby events.
 
@@ -152,7 +147,7 @@ Here is what is happening and when, including GCC2022 and other nearby events.
 </table>
 
 
-# Other Nearby Events
+## Other Nearby Events
 <div class="card-deck">
 
 
@@ -194,5 +189,17 @@ Here is what is happening and when, including GCC2022 and other nearby events.
 **[Aquatennial](https://www.aquatennial.com/)** the biggest celebration in Minneapolis's summer, is held July 20-23, nicely overlapping with the last half of GCC2022.  Aquatennial includes parades, concerts, water ski shows (!), [**Carifest**](https://carifest.org/), and fireworks.
 
   </div>
+
+  <!-- Baseball -->
+  <div class="card" style="min-width: 25%; max-width: 25rem;">
+    <img src="/images/events/gcc2022/schedule/baseball.jpg" class="card-img-top" alt="Baseball! The Twins and Saints mascots shake hands." />
+    <div class="card-header">
+      Baseball!
+    </div>
+
+The Twin Cities is home to two professional baseball teams: The [Minnesota Twins in Minneapolis](https://www.mlb.com/twins), and the [St. Paul Saints in Saint Paul](https://www.milb.com/st-paul).  Both teams will be having home games during and around GCC.
+
+  </div>
+
 
 </div>

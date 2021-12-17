@@ -1,11 +1,6 @@
----
-title: "GCC2022 Training"
-autotoc: false
-components: true
----
+<slot name="/events/gcc2022/header" />
 
-import links from "../links.json"
-<link-box :links="links" />
+# Training
 
 Training has been a key part of Galaxy Community Conference since GCC2012.  To mark our 10th year of training at GCC we are offering training at two different times and in two different formats.
 
@@ -24,4 +19,3 @@ Note: Given that we will likely have 5 parallel sessions each day, it is unlikel
 # Training Schedule
 
 Well, we don't have on yet, for either Training Day, or Training at the Conference.  We are working on both and will publish them on the [conference schedule site](https://gcc2022.sched.com/) once we have confirmed instructors and teaching assistants for each.
-
