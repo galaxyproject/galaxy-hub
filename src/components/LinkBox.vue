@@ -4,9 +4,7 @@
             <g-link :class="link.bold ? 'bold' : ''" :to="link.url">
                 {{ link.title }}
             </g-link>
-            <template v-if="data.horizontal && i < data.links.length-1">
-                |
-            </template>
+            <template v-if="data.horizontal && i < data.links.length - 1">|</template>
         </span>
     </div>
 </template>
@@ -23,25 +21,25 @@ export default {
          */
     },
     data() {
-        let rootClasses = ['text-center'];
+        let rootClasses = ["text-center"];
         // Horizontal or vertical orientation?
         if (this.data.horizontal) {
-            rootClasses.push('horizontal');
+            rootClasses.push("horizontal");
         } else {
-            rootClasses.push('vertical');
-            rootClasses.push('float-right');
+            rootClasses.push("vertical");
+            rootClasses.push("float-right");
         }
         // Visual style
         if (this.data.style === "alert") {
-            rootClasses.push('alert');
-            rootClasses.push('alert-info');
+            rootClasses.push("alert");
+            rootClasses.push("alert-info");
         } else {
-            rootClasses.push('linkbox');
+            rootClasses.push("linkbox");
         }
         return {
-            rootClasses
-        }
-    }
+            rootClasses,
+        };
+    },
 };
 </script>
 
