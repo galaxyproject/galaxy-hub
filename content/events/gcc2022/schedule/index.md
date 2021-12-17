@@ -27,7 +27,7 @@ This page summarizes both GCC2022 events, and other cool events happening around
 Training Day: July 8
 </div>
 
-The GCC2022 Training Day will be held on Friday, July 8.  This is a full week before the GCC2022 Conference starts.  **This event will be virtual, free, and global.** Training will be asynchronous, go at your own pace, and using Galaxy Training Network materials.  Support will be available on the GTN slack channel, for the entire day, no matter what time zone you are.
+The GCC2022 Training Day will be held on Friday, July 8.  This is a full week before the GCC2022 Conference starts.  **This event will be virtual, free, and global.** Training will be asynchronous, go at your own pace, and using Galaxy Training Network materials.  Support will be available on the GTN slack channel, for the entire day.
 
 Introductory topics will be covered on Training Day.  Training on more advanced topics, will be offered live, during the conference.
 
