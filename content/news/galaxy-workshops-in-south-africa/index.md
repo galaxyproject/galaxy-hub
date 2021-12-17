@@ -20,7 +20,7 @@ date: "2012-06-28"
 
 </div>
 
-There will be two 2-day [Galaxy Workshops](http://genetics.cmc-uct.co.za/?page_id=79) in South Africa in September 2012, presented by the University of Pretoria [Genomics IRT](http://web.up.ac.za/default.asp?ipkCategoryID=17741) 
+There will be two 2-day [Galaxy Workshops](http://genetics.cmc-uct.co.za/?page_id=79) in South Africa in September 2012, presented by the University of Pretoria [Genomics IRT](http://web.up.ac.za/default.asp?ipkCategoryID=17741)
 
 * 3-4 September at the [University of Pretoria](http://www.up.ac.za/)
 * 6-7 September at [Stellenbosch University](http://www.sun.ac.za/)

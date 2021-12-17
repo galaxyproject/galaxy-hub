@@ -12,7 +12,7 @@ Hey Everyone,
 
 We are looking forward to a [follow-up Meetup](https://wiki.galaxyproject.org/Events/Meetups/Baltimore/2015-01-22) by the [Galaxy Project](http://galaxyproject.org)! We will meet at one of the Galaxy project hubs - the Department of Biology of Johns Hopkins University. This time around, we will briefly take a look at how to get started using Galaxy. Again, this will be an informal meeting open to anyone interested in data analysis, tools, computer infrastructure, programming.
 
-[Enis Afgan](/people/enis-afgan/) and [Nitesh Turaga](/people/nitesh-turaga/) of the [Galaxy team](/galaxy-team/) will be delivering a short introduction to the resources available to start using the Galaxy application from a practitioner's viewpoint (and will be available for any additional questions). 
+[Enis Afgan](/people/enis-afgan/) and [Nitesh Turaga](/people/nitesh-turaga/) of the [Galaxy team](/galaxy-team/) will be delivering a short introduction to the resources available to start using the Galaxy application from a practitioner's viewpoint (and will be available for any additional questions).
 
 Thanks and hope to see you there!
 
@@ -43,6 +43,7 @@ Also, if you would like to be notified of future Baltimore Area Galaxy Meetups, 
 #### What is Galaxy and why could it be interesting to me?
 
 Galaxy is a web-based, open source, data integration and analysis platform for life science research. The core pillars of the application are:
+
 * **Accessibility**: enable bench scientists to create bioinformatics analyses
 * **Reproducibility**: facilitate computational methods to be completely easily reproducible
 * **Transparency**: enable easy sharing and publishing of research data and analyses

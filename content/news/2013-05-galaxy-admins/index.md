@@ -6,7 +6,7 @@ date: "2013-05-08"
 <a href='http://rnaseq.pathogenportal.org/'><img src="/images/screenshots/PathogenPortalGalaxyLandingPage.png" alt="Pathogen Portal Galaxy" width="160" /></a></div>
 
 
-The [next meeting](/community/galaxy-admins/meetups/2013-05-15/) of the [GalaxyAdmins Group](/community/galaxy-admins/) will be held on [May 15, 2013, at 10 AM Central US time](/community/galaxy-admins/meetups/2013-05-15/). 
+The [next meeting](/community/galaxy-admins/meetups/2013-05-15/) of the [GalaxyAdmins Group](/community/galaxy-admins/) will be held on [May 15, 2013, at 10 AM Central US time](/community/galaxy-admins/meetups/2013-05-15/).
 
 Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/faculty/group_overview/Cyberinfrastructure_Division) of the [Virginia Bioinformatics Institute](https://www.vbi.vt.edu/) at Virginia Tech will talk about their [Galaxy deployment](http://rnaseq.pathogenportal.org/) at [Pathogen Portal](http://pathogenportal.org), a highly customized Galaxy installation, and also about the group's objectives and future plans.
 
@@ -36,6 +36,6 @@ Andrew Warren of the [Cyberinfrastructure Division](http://www.vbi.vt.edu/facult
 
 We use the [Blackboard Collaborate Web Conferencing system](/community/galaxy-admins/meetups/webinar-tech/) for the meetup. Downloading the required applets in advance and using a headphone with microphone to prevent audio feedback during the call is recommended.
 
-[GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
+[GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for large Galaxy installations.
 
 [Dave Clements](/people/dave-clements/)

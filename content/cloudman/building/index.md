@@ -9,6 +9,7 @@ Launching a default version of [CloudMan](http://usecloudman.org/) and [Galaxy o
 ## Overview
 
 The process of building your own instance of the system is time consuming (although we are continuing to simplify and streamline this) and will require some technical skills and understanding of the process. Before starting this endeavor, it is highly recommended that you read the following papers:
+
 1. "[Galaxy CloudMan: delivering cloud compute clusters](http://www.biomedcentral.com/1471-2105/11/S12/S4)" - which gives you an overview of the ideology behind what's being done here; and
 2. "[Building and Provisioning Bioinformatics Environments on Public and Private Clouds](http://figshare.com/articles/Building_and_Provisioning_Bioinformatics_Environments_on_Public_and_Private_Clouds/1424740)" - which gives many of the technical details of the overall build process
 3. (optional) "[A reference model for deploying applications in virtualized environments](http://onlinelibrary.wiley.com/doi/10.1002/cpe.1836/full)" - which gives you the technical background why things are being done they way they are being done.
@@ -43,6 +44,7 @@ To build your machine image, we need to download the [playbook](https://github.c
 ## Build the galaxyFS
 
 The Galaxy File System (*galaxyFS*) contains the Galaxy application, the PostgreSQL database, installed Galaxy tools, and the accompanying configurations. The aim here is to create a snapshot of the *galaxyFS* that can be replicated when instances of the system are launched while permitting the changes to the file system (e.g., user-uploaded data, analysis results). This replication is realized by CloudMan  at runtime. To build the *galaxyFS*, we need to do the following:
+
 1. Launch a new instance of the machine image created in Step 1 using Cloud Launch (this will require you have installed your own instance of [Cloud Launch](https://github.com/galaxyproject/cloudlaunch) and added access info for your cloud via the Admin interface). When CloudMan comes up, choose the *Cluster only* with *transient storage* option (under *Additional startup options*);
 2. Follow the instructions from the [playbook](https://github.com/galaxyproject/galaxy-cloudman-playbook) to build the *galaxyFS*; note that this playbook has an option to automatically install Galaxy tools and create an archive of the file system;
 
@@ -57,6 +59,7 @@ After the desired data has been loaded on the *galaxyIndicesFS*, it is likely th
 ## Tie it all together
 
 After all the components have been built, we need to add the details into the Cloud Launch application. Login to the Admin side of the application and add an entry to the *Images* table. The *Image id* needs to be a *boto*-compatible ID (e.g., *ami-03835e68*) while the description is up to you. Next, define a Flavor by specifying a name and a description for it followed by user data. The user data contains pointers to the components we built and should looks like this (of course, with the actual values for *archive_url* and *snap_id* updated to match the components you built):
+
 ```bash
 cluster_templates:
   - name: Galaxy
@@ -82,6 +85,7 @@ At this point, we are ready to launch an instance of the complete system!
 ## Additional resources
 
 Over time, the community has developed a few more documents and resources that can help with setting up the system and these are aggregated here:
+
 * [Genomics Virtual Lab](https://github.com/gvlproject/gvl.ansible.playbook) ⟶ Build a complete genomics workbench with more applications than Galaxy
 * John Chilton's [CloudMan bootstrap](https://github.com/jmchilton/cloudman_openstack_bootstrap) (outdated)
 * [CloudMan flavor](https://github.com/chapmanb/cloudbiolinux/blob/master/deploy/cloudman.md) in [CloudBioLinux](http://cloudbiolinux.org/) (outdated)

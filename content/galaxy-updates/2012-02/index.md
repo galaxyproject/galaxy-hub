@@ -14,7 +14,7 @@ New papers of note for the Galaxy community:
 
 * Daniel MacLean & Sophien Kamoun, "[Big data in small places](http://www.nature.com/nbt/journal/v30/n1/full/nbt.2079.html)." *[Nature Biotechnology](http://www.nature.com/nbt/index.html)*
 
-* Thomas Hentrich, Julia M. Schulze, Eldon Emberly, and Michael S. Kobor, "[CHROMATRA: a Galaxy tool for visualizing genome-wide chromatin signatures](http://bioinformatics.oxfordjournals.org/content/early/2012/01/10/bioinformatics.bts007.short)." *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)* 
+* Thomas Hentrich, Julia M. Schulze, Eldon Emberly, and Michael S. Kobor, "[CHROMATRA: a Galaxy tool for visualizing genome-wide chromatin signatures](http://bioinformatics.oxfordjournals.org/content/early/2012/01/10/bioinformatics.bts007.short)." *[Bioinformatics](http://bioinformatics.oxfordjournals.org/)*
 
 * Jeremy Goecks, Kanwei Li, [Dave Clements](/people/dave-clements/), The [Galaxy Team](/galaxy-team/), James Taylor, "[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)." *[Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/)*
 
@@ -26,10 +26,10 @@ Plus [27 other papers](http://www.citeulike.org/group/16008/library) that use, r
 
 ## Who's Hiring
 
-* [Galaxy is Hiring](/news/Galaxy is Hiring/) 
-  * system administrators at Penn State
-  * software engineers and post-docs at Emory
-* [Bioinformatics Support Provider](http://bit.ly/w6OIM0) with Galaxy experience @ [Wellcome Trust Centre for Cell Biology, University of Edinburgh](http://www.wcb.ed.ac.uk/) 
+* [Galaxy is Hiring](/news/Galaxy is Hiring/)
+    * system administrators at Penn State
+    * software engineers and post-docs at Emory
+* [Bioinformatics Support Provider](http://bit.ly/w6OIM0) with Galaxy experience @ [Wellcome Trust Centre for Cell Biology, University of Edinburgh](http://www.wcb.ed.ac.uk/)
 
 Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll include it in next month's update.
 
@@ -41,7 +41,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll i
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are upcoming deadlines for ISMB 2012 (workshops), DILS (abstracts), PSB (sessions), VizBI (posters), and a Bio-Linux Course (application).  See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com) for details on these and other events.
 
@@ -110,6 +110,6 @@ There were [two Galaxy distributions](/docs/) in January, The latest on [January
 * New Object Store data integration layer introduced
 * RNA-seq updates: [TopHat](http://tophat.cbcb.umd.edu/) to 1.4.0 and [Cufflinks, CuffDiff, & CuffCompare](http://cufflinks.cbcb.umd.edu) to 1.3.0.
 * Tool Shed installation features and many new community tool additions
-* Trackster performance upgrades and new drag & drop composite track creation 
+* Trackster performance upgrades and new drag & drop composite track creation
 
 See the [January 27, 2012 release](/news/Jan272012 Distribution News Brief/) for details on how to get the latest version of Galaxy.

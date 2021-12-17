@@ -104,7 +104,7 @@ This workshop is generously supported by [Northwestern University Research Compu
 
 ## Slides
 
-* [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015NorthwesternUWorkshop.pdf) 
+* [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015NorthwesternUWorkshop.pdf)
 
 ## Feedback
 

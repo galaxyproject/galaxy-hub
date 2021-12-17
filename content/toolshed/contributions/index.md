@@ -11,6 +11,7 @@ Note: We stopped producing these monthly reports in mid-2019.  Visits had droppe
 Tools contributed to the Galaxy Project [ToolShed](http://toolshed.g2.bx.psu.edu/):
 
 ### 2019
+
 * [June 2019](/toolshed/contributions/2019-06/)
 * [April and May 2019](/toolshed/contributions/2019-05/)
 * [March 2019](/toolshed/contributions/2019-03/)

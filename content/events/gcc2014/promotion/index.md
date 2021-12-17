@@ -7,7 +7,7 @@ title: Promotion and Outreach
 
 
 
-Please help get the word out about the [2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/). 
+Please help get the word out about the [2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/).
 
 # Graphics
 

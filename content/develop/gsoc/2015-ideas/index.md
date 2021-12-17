@@ -20,10 +20,12 @@ Additionally, all proposals should include a description of a specific bioinform
 Galaxy supports running jobs in Docker containers for running jobs on a single node. However, the size of biological datasets and the complexity of the questions being asked is constantly increasing and this is leading to ever more complex analytics - meaning one container running on one node will become an increasingly problematic limitation. [Kubernetes](http://kubernetes.io/) is an exciting project that provides facilities for coordination of many containers. Extending Galaxy and/or the Galaxy remote job submission application [Pulsar](https://pulsar.readthedocs.org/en/latest/) to interface with [Kubernetes](http://kubernetes.io/) would potentially allow Galaxy to leverage to run these more complicated multiple-node, multiple-container analysis steps that will be required for future large scale biological data analysis.
 
 **Expected Outcomes**
+
 * Implement the ability to annotate Galaxy tools with [Kubernetes](http://kubernetes.io/) pods and orchestrate these jobs via [Kubernetes](http://kubernetes.io/) orchestration either in Galaxy directly or via [Pulsar](https://pulsar.readthedocs.org/en/latest/).
 * Develop an example pod for motivating bioinformatics application (perhaps targeting one or more of the Map/Reduce applications in [ADAM](https://github.com/bigdatagenomics/adam)).
 
 **Stretch Goals**
+
 * Implement the above functionality for both Galaxy and [Pulsar](https://pulsar.readthedocs.org/en/latest/).
 * Allow scheduling of more traditional Docker-based jobs via Kubernates as well (for jobs that are not annotated with a pod).
 * Develop and document multiple example applications, apply them to real datasets, and benchmark the applications.
@@ -39,12 +41,14 @@ Galaxy supports running jobs in Docker containers for running jobs on a single n
 The [Global Alliance for Genomics Health](http://genomicsandhealth.org/) (GA4GH) is an "international coalition, dedicated to improving human health by maximizing the potential of genomic medicine through effective and responsible data sharing." The GA4GH is in the process of starting up a working group on workflows and containers and this working group will likely pick up and adopt the efforts of the [Common Workflow Language](https://github.com/common-workflow-language/common-workflow-language) group and its efforts of to create standard, modern formats for describing tools and workflows for bioinformatics platforms. Implementing support for these formats in Galaxy would allow tool and workflow authors to produce artifacts that could be shared across Galaxy, [Seven Bridges](https://www.sbgenomics.com/), and [Arvados](https://arvados.org/) and potentially other platforms in the future such as [Mobyle](https://projets.pasteur.fr/projects/mobyle/versions/73).
 
 **Expected Outcomes**
+
 * Allow Galaxy to run tools defined by the latest CWL or GA4GH specification.
 * Publish comprehensive documentation for these tools to the Galaxy Wiki.
 * Develop a mechanism to test such tools and integrate with Galaxy tool test framework.
 * Port or develop several Galaxy tools (consider for instance updating the aging Galaxy EMBOSS tools) to use this framework, summarize the differences between Galaxy Tool definitions and CWL/GA4GH.
 
 **Stretch Goals**
+
 * Extend Galaxy and the Galaxy Tool Shed to serve and install such tools.
 * Extend [Planemo](https://planemo.readthedocs.org) (a CLI toolkit for assisting Galaxy Tool Developers) to lint and testing such tools.
 * Allow Galaxy to run workflow defined by the latest CWL or GA4GH workflow specification.
@@ -106,6 +110,7 @@ To facilitate the annotation of Galaxy workflows, the existing Galaxy workflow e
 Furthermore, since workflow annotations for Refinery are currently stored in general annotation fields, they can interfere with general comments and notes added to a Galaxy workflow. It is desirable to store the Refinery workflow annotation in dedicated fields of the workflow data model so as not to interfere with general annotations. This would require either modification of the Galaxy workflow data model as well as the corresponding APIs, or the development of a workflow annotation model that stores such information directly in Refinery.
 
 **Expected Outcomes**
+
 * Extended Galaxy or Refinery workflow data model to store workflow annotation
 * Editor to create annotation of Galaxy workflows for use in Refinery
 
@@ -263,6 +268,7 @@ Galaxy has basic functionality allowing users to export their history (the compl
 * Simplify history export to allow users to just copy a URL that can be used to target the API for history export
 
 that can be pasted into an import the history from another Galaxy instance.
+
 * Split this process in pieces to allow tracking/resuming the transfers.
 * Rework the API and UI to provide pleasant progress bar tracking progress and estimating time remaining.
 
@@ -306,6 +312,7 @@ The biggest impediment to the inclusion of Galaxy within Debian is Galaxy's hand
 **Possible Mentors** [Nate Coraor](/people/nate/), [Tim Booth](https://github.com/tbooth), [John Chilton](/people/john-chilton/)
 
 **Required Skills:**
+
 * Knowledge of DPKG, BASH scripting, Makefiles, and the layout of files on a standard Linux filesystem (/etc, /var, /usr, ...)
 * Knowledge of XML and Python
 

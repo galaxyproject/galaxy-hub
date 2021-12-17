@@ -12,7 +12,7 @@ title: The September 2015 Galactic News!
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the September 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+Welcome to the September 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. It's been, and will be, a busy few months.  If you have anything to include in the September News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 # New Papers
 
@@ -98,7 +98,7 @@ The new papers were tagged with:
 
 
 <div class='right'><a href='/news/first2500-papers/'><img src="/galaxy-updates/2015-09/First2500Grid.png" alt="First 2500 papers by tag and year" width="150" /></a></div>
- 
+
 # Galaxy's First 2500 Publications
 
 And in case you missed it, we [reached 2500 publications](/news/first2500-papers/) in the [Galaxy CiteULike Library](http://bit.ly/gxyCiteULike).  [This writeup](/news/first2500-papers/) analyzes the papers by [CiteULike tag](/publication-library/#tags) and journal, across the past 11 years, and identifies some trends.  Of those 2500 papers, less than 2% have a [Galaxy Team member](/galaxy-team/) as a coauthor.  
@@ -111,7 +111,7 @@ And in case you missed it, we [reached 2500 publications](/news/first2500-papers
 <div class='center'>**[Make this happen!](https://github.com/galaxyproject/tools-iuc/issues/239)**</div>
 </div>
 
-*We are planning a [remote hackathon](https://github.com/galaxyproject/tools-iuc/issues/239) on September 17<sup>th</sup> and 18<sup>th</sup> for [Galaxy tool developers to hack on dataset collections](https://github.com/galaxyproject/tools-iuc/issues/239).* 
+*We are planning a [remote hackathon](https://github.com/galaxyproject/tools-iuc/issues/239) on September 17<sup>th</sup> and 18<sup>th</sup> for [Galaxy tool developers to hack on dataset collections](https://github.com/galaxyproject/tools-iuc/issues/239).*
 
 Dataset collections enable MapReduce style workflows in Galaxy and have come a long way over the last year+. Several groups are using dataset collections and newer tools to express workflows of various degrees of complexity that were not possible in Galaxy before.
 
@@ -121,7 +121,7 @@ We are [collecting ideas to work on](https://github.com/galaxyproject/tools-iuc/
 
 If you are interested in participating in the hackathon but not interested in actual tool development - we will assemble a list of smaller, manageable Python and JavaScript tasks to work on and certainly documentation is a chronically lacking for collections so we could use help there and no actual coding would be required.
 
-This is the first remote hackathon we have organized and we encourage ideas or advice about how to organize it please let us know. A core group of will be available on IRC all day and we will have 4 google hangouts across those days to organize, answer questions, and report progress. 
+This is the first remote hackathon we have organized and we encourage ideas or advice about how to organize it please let us know. A core group of will be available on IRC all day and we will have 4 google hangouts across those days to organize, answer questions, and report progress.
 
 Thanks, <br />
 Galaxy IUC
@@ -138,8 +138,8 @@ There has also been the complementary *[Galaxy Events Google Calendar](http://bi
  **[Galaxy Events Google Calendar](http://bit.ly/gxycal)** <a href='http://bit.ly/gxycalrss'><img src="/images/icons/RSSIcon16x16.gif" alt="Galaxy Calendar RSS Feed" /></a>
    This calendar now lists *only* events that feature Galaxy content.  Pretty much, if it's on the [Events page](/events/), it's also in this calendar.<br />
 
- **[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)**  <a href='http://bit.ly/gxyothercalrss'><img src="/images/icons/RSSIcon16x16.gif" alt="Galaxy Calendar RSS Feed" /></a> 
-   This lists additional events and deadlines that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content. 
+ **[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)**  <a href='http://bit.ly/gxyothercalrss'><img src="/images/icons/RSSIcon16x16.gif" alt="Galaxy Calendar RSS Feed" /></a>
+   This lists additional events and deadlines that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content.
 
 This split allows us to present Galaxy events in a much sparser calendar, that is more useful for setting reminders and publishing Galaxy events. And we will continue to link to past Galaxy events (and presentations, videos, examples, ...) from the  *[Events Archive](/events/#past-events)*.
 
@@ -158,7 +158,7 @@ In case you missed it, [slides and video are now available online](/community/ga
 
 # Upcoming Events
 
-<div class='center'> 
+<div class='center'>
 </div>
 
 <div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
@@ -166,7 +166,7 @@ In case you missed it, [slides and video are now available online](/community/ga
 There are [upcoming events](/events/) in five countries on three continents.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 
-<div class='center'> 
+<div class='center'>
 <a href='http://escience2015.mnm-team.org/?page_id=463'><img src="/images/logos/eScience2015.png" alt="Scaling Up Bioinformatics Workflows with Dynamic Job Expansion: A Case Study Using Galaxy and Makeflow @ IEEE eScience 2015" height="65" /></a> &nbsp;
 <a href='http://www.qfab.org/event/workshop-extended-rna-seq-analysis-3/'><img src="/images/logos/QFABLogo.png" alt="Workshop: Extended RNA-Seq analysis" height="80" /></a>
 <a href='http://biosb.nl/education/course-portfolio/rna-seq/'><img src="/images/logos/BioSBResearchSchool.png" alt="RNA-seq data analysis NGS Course" height="80" /></a>
@@ -287,8 +287,8 @@ There are [upcoming events](/events/) in five countries on three continents.  Se
 
 The Galaxy is expanding! Please help it grow.
 
-* [Systems Administrator IV](http://bit.ly/1NTuOfw), [Fred Hutchinson Cancer Institute](http://fredhutch.org), Seattle, Washington, United States 
-* [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium 
+* [Systems Administrator IV](http://bit.ly/1NTuOfw), [Fred Hutchinson Cancer Institute](http://fredhutch.org), Seattle, Washington, United States
+* [Assistant Computational Scientist](http://bit.ly/1OLwPbW) at [VIB](http://www.vib.be/), Gent, Belgium
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
@@ -307,44 +307,44 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='solid'><a href='http://galaxy.workflow4metabolomics.org/'><img src="/use/workflow4metabolomics/workflow4metabolomics.png" alt="Workflow4metabolomics Galaxy server" width=300 /></a></div>
 <br />
 <div class='right solid'><a href='/use/workflow4metabolomics/workflow4metabolomics-sponsors.png'><img src="/use/workflow4metabolomics/workflow4metabolomics-sponsors.png" alt="Workflow4Metabolomics Sponsors" width="200" /></a>
-<br /><div class='center'>*Sponsors*</div> 
+<br /><div class='center'>*Sponsors*</div>
 </div></div>
 
 * *Links:*
-  * [workflow4metabolomics Galaxy server](http://galaxy.workflow4metabolomics.org/)
-  * [Request an account](http://abims.sb-roscoff.fr/account)
-  * [Workflow4metabolomics.org](http://workflow4metabolomics.org/)
+    * [workflow4metabolomics Galaxy server](http://galaxy.workflow4metabolomics.org/)
+    * [Request an account](http://abims.sb-roscoff.fr/account)
+    * [Workflow4metabolomics.org](http://workflow4metabolomics.org/)
 * *Domain/Purpose:*
-  * A collaborative portal dedicated to metabolomics data processing, analysis and annotation.
+    * A collaborative portal dedicated to metabolomics data processing, analysis and annotation.
 * *Comments:*
-  * [LC-MS](http://workflow4metabolomics.org/the-lc-ms-workflow), [GC-MS](http://workflow4metabolomics.org/the-gc-ms-workflow) and [NMR](http://workflow4metabolomics.org/the-nmr-workflow) workflows are provided. 
-  * See: Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](https://doi.org/10.1093/bioinformatics/btu813). *Bioinformatics*, [doi: 10.1093/bioinformatics/btu813](https://doi.org/10.1093/bioinformatics/btu813)
+    * [LC-MS](http://workflow4metabolomics.org/the-lc-ms-workflow), [GC-MS](http://workflow4metabolomics.org/the-gc-ms-workflow) and [NMR](http://workflow4metabolomics.org/the-nmr-workflow) workflows are provided.
+    * See: Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). [Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics](https://doi.org/10.1093/bioinformatics/btu813). *Bioinformatics*, [doi: 10.1093/bioinformatics/btu813](https://doi.org/10.1093/bioinformatics/btu813)
 * *User Support:*
-  * [HowTo Tutorials](http://workflow4metabolomics.org/howto) 
-  * [Help Desk](mailto:support AT workflow4metabolomics DOT org)
-* *Quotas:* 
-  * Account required. Anyone can [request an account](http://abims.sb-roscoff.fr/account).
+    * [HowTo Tutorials](http://workflow4metabolomics.org/howto)
+    * [Help Desk](mailto:support AT workflow4metabolomics DOT org)
+* *Quotas:*
+    * Account required. Anyone can [request an account](http://abims.sb-roscoff.fr/account).
 * *Sponsor(s):*
-  * See [sponsor graph](/use/workflow4metabolomics/workflow4metabolomics-sponsors.png)
+    * See [sponsor graph](/use/workflow4metabolomics/workflow4metabolomics-sponsors.png)
 
 ## EpiToolKit
 
 <div class='right solid'><a href='http://www.epitoolkit.de/'><img src="/use/archive/epitoolkit/epitoolkit-molecule-peptide.png" alt="EpiToolKit Galaxy Server" height="200" /></a></div>
 
 * *Link:*
-  * [EpiToolKit Galaxy](http://www.epitoolkit.de/)
+    * [EpiToolKit Galaxy](http://www.epitoolkit.de/)
 * *Domain/Purpose:*
-  * Computational immunology for the development of novel epitope-based vaccines.
+    * Computational immunology for the development of novel epitope-based vaccines.
 * *Comments:*
-  * [EpiToolKit](http://www.epitoolkit.de/) "provides a collection of methods from computational immunology for the development of novel epitope-based vaccines including HLA ligand or potential T-Cell epitope prediction, an epitope selection framework for vaccine design, and a method to design optimal string-of-beads vaccines. Additionally, [EpiToolKit](http://www.epitoolkit.de/) provides several other tools ranging from HLA typing based on NGS data, to prediction of polymorphic peptides."
-  * See [EpiToolKit—a web-based workbench for vaccine design](http://bioinformatics.oxfordjournals.org/content/31/13/2211.full) by Benjamin Schubert, Hans-Philipp Brachvogel, Christopher Jürges and Oliver Kohlbacher, *Bioinformatics* (2015) 31 (13): 2211-2213. doi: 10.1093/bioinformatics/btv116
+    * [EpiToolKit](http://www.epitoolkit.de/) "provides a collection of methods from computational immunology for the development of novel epitope-based vaccines including HLA ligand or potential T-Cell epitope prediction, an epitope selection framework for vaccine design, and a method to design optimal string-of-beads vaccines. Additionally, [EpiToolKit](http://www.epitoolkit.de/) provides several other tools ranging from HLA typing based on NGS data, to prediction of polymorphic peptides."
+    * See [EpiToolKit—a web-based workbench for vaccine design](http://bioinformatics.oxfordjournals.org/content/31/13/2211.full) by Benjamin Schubert, Hans-Philipp Brachvogel, Christopher Jürges and Oliver Kohlbacher, *Bioinformatics* (2015) 31 (13): 2211-2213. doi: 10.1093/bioinformatics/btv116
 * *User Support:*
-  * There is [extensive documentation](http://epitoolkit-wiki.informatik.uni-tuebingen.de/doku.php) inlcuding step-by-step instructions. 
-* *Quotas:* 
-  * Anyone can create an account. Alternatively, a guest account is provided with login test_user@informatik.uni-tuebingen.de and password workflowTest. Please note that the guest account shares uploaded data with all other guest users.
-  * Data of unregistered users and delete data will be permanently deleted after 7 days.
+    * There is [extensive documentation](http://epitoolkit-wiki.informatik.uni-tuebingen.de/doku.php) inlcuding step-by-step instructions.
+* *Quotas:*
+    * Anyone can create an account. Alternatively, a guest account is provided with login test_user@informatik.uni-tuebingen.de and password workflowTest. Please note that the guest account shares uploaded data with all other guest users.
+    * Data of unregistered users and delete data will be permanently deleted after 7 days.
 * *Sponsor(s):*
-  * [ABI EpiToolKit](http://www.epitoolkit.de/) is a service of the [Applied Bioinformatics Group at University of Tuebingen](http://www.kohlbacherlab.org/). 
+    * [ABI EpiToolKit](http://www.epitoolkit.de/) is a service of the [Applied Bioinformatics Group at University of Tuebingen](http://www.kohlbacherlab.org/).
 
 <br />
 
@@ -364,7 +364,7 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
 ## Other Releases
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+
  **May 2015 Galaxy Release (v 15.05)**
     [Release Notes v 15.05](http://galaxy.readthedocs.org/en/master/releases/15.05_announce.html)
 
@@ -378,7 +378,7 @@ Two security vulnerabilities were recently discovered in Galaxy, and a third in 
 
  **Pulsar**
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
- 
+
  **[CloudMan](/cloudman/) **
    The [most recent edition of CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release) was released in August.
 

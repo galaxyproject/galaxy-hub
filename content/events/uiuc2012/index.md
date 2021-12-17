@@ -1,4 +1,4 @@
-<div class='center'> 
+<div class='center'>
 
 <a href='http://illinois.edu/'><img src="/images/logos/UIUCLogo310.jpg" alt="University of Illinois at Urbana-Champaign" /></a>
 
@@ -93,7 +93,7 @@ All work will be done in a web browser on your laptop. Please let us know if you
 
 ## Support
 
-<div class='right'><a href='http://www.ncsa.illinois.edu/'><img src="/images/logos/NCSALogo220.png" alt="NCSA" /></a></div> 
+<div class='right'><a href='http://www.ncsa.illinois.edu/'><img src="/images/logos/NCSALogo220.png" alt="NCSA" /></a></div>
 <div class='right'><a href='http://hpcbio.illinois.edu/'><img src="/images/logos/UIUC_HPCBio.png" alt="High-Performance Biological Computing" /></a></div>
 
 A workshop for the University of Illinois community supported by [High-Performance Biological Computing (HPCBio)](http://hpcbio.illinois.edu/), [Roy J. Carver Biotechnology Center](http://www.biotech.uiuc.edu/), [IGB](http://www.igb.uiuc.edu/) and [NCSA](http://www.ncsa.illinois.edu/).

@@ -89,25 +89,25 @@ If you experience or witness unacceptable behavior, or have any other concerns,
 please report it to any combination of the following people that makes you feel
 the most comfortable:
 
-- Dave Clements (clementsgalaxy@gmail.com). Dave is the Galaxy Project community
+* Dave Clements (clementsgalaxy@gmail.com). Dave is the Galaxy Project community
   outreach manager and has experience handling Code of Conduct related issues.
-- Dr. Mike Schatz (mschatz@cs.jhu.edu). Mike is Dave Clements' direct manager
+* Dr. Mike Schatz (mschatz@cs.jhu.edu). Mike is Dave Clements' direct manager
   and issues related to Dave in some way should be reported to Mike.
-- Helena Rasche (helena.rasche@gmail.com). Helena is a well-known, trusted
+* Helena Rasche (helena.rasche@gmail.com). Helena is a well-known, trusted
   community member, is LGBT+, and has completely separate funding and
   institutional affiliation from Dave and Mike.
 
 All reports will be handled with discretion. In your report please include:
 
-- Your contact information.
+* Your contact information.
 
-- Names (real, nicknames, or pseudonyms) of any individuals involved. If there
+* Names (real, nicknames, or pseudonyms) of any individuals involved. If there
   are additional witnesses, please include them as well. Your account of what
   occurred, and if you believe the incident is ongoing. If there is a publicly
   available record (e.g. a mailing list archive or a public IRC logger), please
   include a link.
 
-- Any additional information that may be helpful.
+* Any additional information that may be helpful.
 
 After filing a report, a representative will contact you personally, review the
 incident, follow up with any additional questions, and make a decision as to

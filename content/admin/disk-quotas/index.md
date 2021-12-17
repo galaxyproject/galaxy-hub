@@ -56,8 +56,8 @@ The logic used when determining a user's quota is the following:
 
 * Anonymous/unregistered users get the quota specified as the "default for unregistered users" or unlimited if no default is set
 * Registered users:
-  1. Get a "base quota" determined by finding all directly associated quota definitions with an **=** operation and setting it to the one with the largest amount
-    1. If any directly associated quota is found with an **=** operation and **unlimited** amount, the user has no quota
-    1. If the user has no **=** quotas directly associated, his or her base quota is set to the amount of the "default for registered users" quota, if it exists
-    1. If the user has no **=** quotas directly associated and no "default for registered users" quota is set, the user has no quota
-  1. The base quota is increased or decreased by the amount of any **+** or **-** operation quota with which they are associated
+    1. Get a "base quota" determined by finding all directly associated quota definitions with an **=** operation and setting it to the one with the largest amount
+        1. If any directly associated quota is found with an **=** operation and **unlimited** amount, the user has no quota
+        1. If the user has no **=** quotas directly associated, his or her base quota is set to the amount of the "default for registered users" quota, if it exists
+        1. If the user has no **=** quotas directly associated and no "default for registered users" quota is set, the user has no quota
+    1. The base quota is increased or decreased by the amount of any **+** or **-** operation quota with which they are associated

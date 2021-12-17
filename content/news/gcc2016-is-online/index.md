@@ -10,7 +10,7 @@ We are pleased to announce that the **[2016 Galaxy Community Conference website 
 
 [GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  
 
-[Registration information](http://gcc2016.iu.edu/registration/index.php) includes the different registration packages, rates, and deadlines.  Our inexpensive early registration rates start at less than $40 per day for students and post-docs. 
+[Registration information](http://gcc2016.iu.edu/registration/index.php) includes the different registration packages, rates, and deadlines.  Our inexpensive early registration rates start at less than $40 per day for students and post-docs.
 
 Registration will open within a month.
 

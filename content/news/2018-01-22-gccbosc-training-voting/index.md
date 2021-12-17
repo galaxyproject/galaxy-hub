@@ -10,7 +10,7 @@ date: "2018-01-22"
 
 [Voting is now open](http://bit.ly/gccbosc2018-vote) on what [training topics](/events/gccbosc2018/training/) will be offered at [GCCBOSC 2018](https://gccbosc2018.sched.com/).
 
-[Your vote](http://bit.ly/gccbosc2018-vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
+[Your vote](http://bit.ly/gccbosc2018-vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters.
 
 **Topic voting closes January 31.** The Training schedule, including instructors, will be published before early registration opens.
 

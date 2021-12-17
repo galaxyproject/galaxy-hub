@@ -42,7 +42,7 @@ Another important point, as instructor, is that datasets are very small, so it's
 
 ---
 
-Thanks to Yvan for selecting this tutorial and answering our questions. We would like also to thank Björn Grüning, Clemens Blank, Anton Nekrutenko, Nicola Soranzo, Anne Pajon and Saskia Hiltemann who developed and contributed to this tutorial. 
+Thanks to Yvan for selecting this tutorial and answering our questions. We would like also to thank Björn Grüning, Clemens Blank, Anton Nekrutenko, Nicola Soranzo, Anne Pajon and Saskia Hiltemann who developed and contributed to this tutorial.
 
 We recommend warmly to go through this [nice tutorial](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-101/tutorial.html), using it for self-learning or during workshops. Enjoy it!
 

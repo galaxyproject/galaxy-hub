@@ -17,9 +17,9 @@ hg pull -u -r f94f1f2fa4be
 * Updated indel analysis tools: fixed counting bugs in indel_analysis and improved help section; standardized CIGAR regex across tools; updated test files for several tools.
 * Reduce costly queries in the job runner, especially when tracking jobs in the database.
 * Fixes for generating viewports - these fixes eliminate some memory problems.
-  * Add checks to get_estimated_display_viewport() methods for tabular data types to ensure datasets are valid before generating display links.
-  * Now a maximum of 1MB is read from a line to determine the viewport; if a line greater than 10MB is encountered, then no viewport will be generated.
-  * Additional fixes for certain cases when viewport was not determined properly for for WIG tracks and GFF.
+    * Add checks to get_estimated_display_viewport() methods for tabular data types to ensure datasets are valid before generating display links.
+    * Now a maximum of 1MB is read from a line to determine the viewport; if a line greater than 10MB is encountered, then no viewport will be generated.
+    * Additional fixes for certain cases when viewport was not determined properly for for WIG tracks and GFF.
 
 #### PBS Cluster Support
 
@@ -37,8 +37,8 @@ hg pull -u -r f94f1f2fa4be
 #### Galaxy Reports
 
 * Enhancements to the Job Information page
-  * Add job.stdout to Job Info page in reports webapp ( patch from Assaf Gordon ), and change the previously displayed job.update_time to now be "Time To Finish", which is the total execution time of the job displayed in hh:mm:ss.
-  * Patch to from Assaf Gordon to include job runner and job runner id on the job info page of the reports.
+    * Add job.stdout to Job Info page in reports webapp ( patch from Assaf Gordon ), and change the previously displayed job.update_time to now be "Time To Finish", which is the total execution time of the job displayed in hh:mm:ss.
+    * Patch to from Assaf Gordon to include job runner and job runner id on the job info page of the reports.
 
 ### New Tools
 

@@ -142,7 +142,7 @@ Notably regarding [GCCBOSC 2018 Galaxy Community update presentation](https://gc
 
 - increase the number of users and not the dataset size and complexity…. Searching to be known and tested by all researcher communities to know the potential need of each community regarding what Galaxy can offer
 - in the meantime, continue to deal with dataset size and complexity on the first community of Galaxy user, so biomedical related research
-- continue and increase its role in democratising / presenting / explaining / commonizing / introducing complex data analysis processes to newcomers / young scientists / lost scientists through [Galaxy Training Network](https://training.galaxyproject.org/) activity notably. 
+- continue and increase its role in democratising / presenting / explaining / commonizing / introducing complex data analysis processes to newcomers / young scientists / lost scientists through [Galaxy Training Network](https://training.galaxyproject.org/) activity notably.
 
 <img src="dolphin.jpg" class="img-fluid" alt="Heading out" />
 

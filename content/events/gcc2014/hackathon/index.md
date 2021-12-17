@@ -23,6 +23,7 @@ Hackathons are driven by participants.  Participants propose and coalesce around
 # Who Should Attend?
 
 This event is for you if you
+
 * write code
 * are passionate about improving Galaxy and/or Cloudman
 * know something about Galaxy and/or Cloudman internals
@@ -132,7 +133,7 @@ Participants will need to cover their own lodging costs, and (most) of their own
 # Sponsors
 
 <div class='center'>
-<a href='https://curoverse.com/'><img src="/images/logos/CuroversLogoBig.png" alt="Curoverse: Open Source developers of Arvados" height="100" /></a> &nbsp;&nbsp; 
+<a href='https://curoverse.com/'><img src="/images/logos/CuroversLogoBig.png" alt="Curoverse: Open Source developers of Arvados" height="100" /></a> &nbsp;&nbsp;
 <a href='https://arvados.org/'><img src="/images/logos/ArvadosLogoBig.png" alt="Arvados: a free and open source bioinformatics platform for genomic and biomedical data" height="130" /></a>
 <br /><br />
 <span style="font-size: larger;"> [Curoverse](https://curoverse.com/), makers of the [Arvados](https://arvados.org/) open source bioinformatics platform, <br />

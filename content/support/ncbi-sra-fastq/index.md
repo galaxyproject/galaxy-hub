@@ -6,7 +6,7 @@
 
 # Data retrieval with “NCBI SRA Tools” (fastq-dump)
 
-This section will guide you through downloading experimental metadata, organizing the metadata to short lists corresponding to conditions and replicates, and finally importing the data from NCBI SRA in [**collections**](/tutorials/collections/) reflecting the experimental design. 
+This section will guide you through downloading experimental metadata, organizing the metadata to short lists corresponding to conditions and replicates, and finally importing the data from NCBI SRA in [**collections**](/tutorials/collections/) reflecting the experimental design.
 
 ### Downloading metadata
 
@@ -29,7 +29,7 @@ In these [FASTQ](/learn/datatypes/#fastq) data:
 * The forward and reverse reads may be interlaced and need to be seperated into distinct datasets.
 * Both may be present in a dataset. Correct the first, then the second, as explained below.
 * Format problems of any kind can cause tool failures and/or unexpected results.
-* Fix the problems before running any other tools (including **FastQC**, **Fastq Groomer**, or other QA tools) 
+* Fix the problems before running any other tools (including **FastQC**, **Fastq Groomer**, or other QA tools)
 
 ## Inconsistent sequence (@) and quality (+) identifiers
 
@@ -38,7 +38,7 @@ In these [FASTQ](/learn/datatypes/#fastq) data:
 Notice that the sequence identifier for the quality score name ("+" line) is NOT one of these accepted formats:
 
 * The same exact content is present for both the quality score name and the sequence name ("@" line)
-* Quality score name is a single plus sign ("+") 
+* Quality score name is a single plus sign ("+")
 
 ```
 @MG00HS05:491:C7450ACXX:4:1101:1240:2223_forward/1
@@ -61,7 +61,7 @@ Note: If the quality score line is named like "+ERR" instead (or other valid opt
 
 ### Example
 
-The forward and reverse reads were extracted into the same dataset as interlaced sequences. These need to be filtered into two distinct fastq datasets for use with tools as paired-end datasets. 
+The forward and reverse reads were extracted into the same dataset as interlaced sequences. These need to be filtered into two distinct fastq datasets for use with tools as paired-end datasets.
 
 ```
 @1/1

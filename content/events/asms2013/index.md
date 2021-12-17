@@ -25,6 +25,7 @@ informatics will give short informal presentations on their work, followed by a 
 
 wiki comment:
 > **Note:** The workshop features a broad spectrum of the Galaxy community that is interested in proteomics:
+>
 > * Minnesota participants will talk about [Galaxy-P](http://getgalaxyp.org/)
 > * An [NBIC](http://nbic.nl) representative
 > * [Ira Cooke](/events/gcc2012/abstracts/#proteomics-tools-for-galaxy) of La Trobe University
@@ -74,12 +75,12 @@ Poster: MP19 - Informatics: Workflow and Data Management<br />
 poster number: 378, Monday, Halls B&C
 </div>
 
-### An Integrated Systems Biology Platform for Complete Proteogenomic Analysis. 
+### An Integrated Systems Biology Platform for Complete Proteogenomic Analysis.
 
 Pratik Jagtap<sup>1</sup>; John Chilton<sup>1</sup>; Ebbing de Jong<sup>2</sup>; James Johnson<sup>1</sup>; Joel Kooren<sup>2</sup>; Getiria Onsongo<sup>1</sup>; Sricharan Bandhakavi<sup>3</sup>; Timothy Griffin<sup>2</sup>
 
 <div class='indent'>
-<sup>1</sup> Minnesota Supercomputing Institute, UMN, Minneapolis, MN; 
+<sup>1</sup> Minnesota Supercomputing Institute, UMN, Minneapolis, MN;
 <sup>2</sup> University of Minnesota, Minneapolis, MN; 3Bio-Rad Laboratories, Hercules, CA
 
 Poster: TP17 - Informatics: Systems Biology and Large-Scale Analyses<br />
@@ -147,7 +148,7 @@ poster number: 474, Thursday, Halls B&C
 
 ### Comparing Lung Protein Expression for Biomarkers  Within the Disease Phenotypes of COPD and Lung Cancer
 
-Brian Sandri; Chris Wendt; 
+Brian Sandri; Chris Wendt;
 
 <div class='indent'>
 University of Minnesota, Minneapolis, MN

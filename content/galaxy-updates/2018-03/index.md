@@ -34,18 +34,18 @@ The first day has two tracks about Galaxy, each with three sessions:
 The second day has five parallel track, and covers a full spectrum of topics of interest to those working in and with open source bioinformatics:
 
 * [Setting up for success: Everything you need to know when planning for an RNA-seq analysis (2 sessions)](http://sched.co/Doda)
-* [GATK4: What's new and how to run it](http://sched.co/DnB1) 
-* [Data Carpentry Genomics Workshop: Data Organization and Automation with Shell (3 sessions)](http://sched.co/Dn8R) 
+* [GATK4: What's new and how to run it](http://sched.co/DnB1)
+* [Data Carpentry Genomics Workshop: Data Organization and Automation with Shell (3 sessions)](http://sched.co/Dn8R)
 * [Handling integrated biological data using Python (or R) and InterMine](http://sched.co/Dn4G)
-* [Bioinformatics Training and Education with the Galaxy Training Network](http://sched.co/Drp9) 
-* [Practical use of the Galaxy API command line tools](http://sched.co/Dn9n) 
+* [Bioinformatics Training and Education with the Galaxy Training Network](http://sched.co/Drp9)
+* [Practical use of the Galaxy API command line tools](http://sched.co/Dn9n)
 * [Command line workflow management systems: Snakemake and Nextflow](http://sched.co/DnAi)
-*  [WDL, the Workflow Description Language](http://sched.co/DnAs)
-* [Community built analyses that run everywhere with bcbio](http://sched.co/Dn3v) 
-* [Introduction to Common Workflow Language](http://sched.co/Dn9R) 
-* [Conda and Containers](http://sched.co/Dn3G) 
+* [WDL, the Workflow Description Language](http://sched.co/DnAs)
+* [Community built analyses that run everywhere with bcbio](http://sched.co/Dn3v)
+* [Introduction to Common Workflow Language](http://sched.co/Dn9R)
+* [Conda and Containers](http://sched.co/Dn3G)
 * [Galaxy Interactive Environments](http://sched.co/DnAc)
-* [Galaxy Architecture](http://sched.co/DnB7) 
+* [Galaxy Architecture](http://sched.co/DnB7)
 
 ## Keynote speakers
 
@@ -268,11 +268,11 @@ The *Galactic* and *Stellar* publications added in February were:
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 93 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 37 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 21 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 20 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | 
-| 12 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 12 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 4 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 4 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | 
-| 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | 
+| 93 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 37 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 21 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 20 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) |
+| 12 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 12 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 4 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 4 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) |
+| 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 2 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) |
 | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | | 1 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud) | | | | | | | |
 
 ----
@@ -321,13 +321,13 @@ In addition to being referenced in several papers last month (see below), the [A
 
 We tag papers that use, mention, implement or extend public Galaxy Servers.  Here are the counts for February's publications.
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 15 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 7 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 6 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | 
-| 3 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | | 2 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 2 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 2 | [>RNA-Rocket](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA-Rocket) | 
-| 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>BioCiphers](https://www.zotero.org/groups/1732893/galaxy/tags/>BioCiphers) | | 1 | [>Metaproteomics Gateway](https://www.zotero.org/groups/1732893/galaxy/tags/>Metaproteomics Gateway) | 
-| 1 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) | | 1 | [>BIPAA](https://www.zotero.org/groups/1732893/galaxy/tags/>BIPAA) | | 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | 
-| 1 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/tags/>APOSTL) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>GenAP](https://www.zotero.org/groups/1732893/galaxy/tags/>GenAP) | | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | 
+| 15 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 7 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 6 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) |
+| 3 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | | 2 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 2 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 2 | [>RNA-Rocket](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA-Rocket) |
+| 1 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | | 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>BioCiphers](https://www.zotero.org/groups/1732893/galaxy/tags/>BioCiphers) | | 1 | [>Metaproteomics Gateway](https://www.zotero.org/groups/1732893/galaxy/tags/>Metaproteomics Gateway) |
+| 1 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) | | 1 | [>BIPAA](https://www.zotero.org/groups/1732893/galaxy/tags/>BIPAA) | | 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) |
+| 1 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/tags/>APOSTL) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>GenAP](https://www.zotero.org/groups/1732893/galaxy/tags/>GenAP) | | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) |
 | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>GalaxEast](https://www.zotero.org/groups/1732893/galaxy/tags/>GalaxEast) | | | | | | | |
 
 
@@ -376,7 +376,7 @@ The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/sou
 
 Highlights include
 
-* **Singularity** Tool execution using the HPC-friendly container technology Singularity is now supported. 
+* **Singularity** Tool execution using the HPC-friendly container technology Singularity is now supported.
 * **Download entire collection** Downloading whole collections is now possible from the history interface. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
 * **Switch tool versions in workflows** You can now select exactly what version of tool you want to use when building workflows. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
 * **Security patches**
@@ -387,6 +387,7 @@ See the [17.09 release announcement](https://docs.galaxyproject.org/en/master/re
 ### Galaxy Docker Image 17.09
 
 The [Galaxy Docker project has seen a matching release](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.09), for Galaxy 17.05. Major features include
+
 * much improved documentation about using Galaxy Docker and an external cluster ([@rhpvorderman](https://github.com/rhpvorderman))
 * CVMFS support - mounting in 4TB of pre-build reference data ([@chambm](https://github.com/chambm))
 * Singularity support and tests (compose only)
@@ -395,7 +396,7 @@ The [Galaxy Docker project has seen a matching release](https://github.com/bgrue
 
 And
 
-* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 31k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
+* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 31k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
 
 ### ephemeris 0.8.0
 
@@ -421,6 +422,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-* From Björn Grüning 
-  * New Galaxy tutorial by Simon Gladman and Torsten Seeman about [Microbial Variant Calling using snippy](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/microbial-variants/tutorial.html). 
-  * This is big: [Aysam Guerler](/people/guerler/) has reworked the Galaxy visualization plugin architecture.
+* From Björn Grüning
+    * New Galaxy tutorial by Simon Gladman and Torsten Seeman about [Microbial Variant Calling using snippy](https://galaxyproject.github.io/training-material/topics/variant-analysis/tutorials/microbial-variants/tutorial.html).
+    * This is big: [Aysam Guerler](/people/guerler/) has reworked the Galaxy visualization plugin architecture.

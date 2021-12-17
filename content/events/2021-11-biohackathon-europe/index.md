@@ -16,19 +16,19 @@ tags: [ cofest ]
 Galaxy is a popular topic at [BioHackathon-Europe 2021](https://www.biohackathon-europe.org/index.html) and is a prominent part of many of [this year's selected projects](https://biohackathon-europe.org/projects.html):
 
 * **[Support for the Common Workflow Language version 1.2 in Galaxy](https://github.com/elixir-europe/biohackathon-projects-2021/tree/master/projects/37)**
-  * Organizers: Nicola Soranzo
+    * Organizers: Nicola Soranzo
 * **[Galaxy training resources for CNVs detection software](https://github.com/elixir-europe/biohackathon-projects-2021/tree/master/projects/34)**
-  * Organizers: Krzysztof Poterlowicz
+    * Organizers: Krzysztof Poterlowicz
 * **[Implementation, testing and training on reference genome assembly pipelines for the eukaryotic tree of life](https://github.com/elixir-europe/biohackathon-projects-2021/tree/master/projects/33)**
-  * Organizers: Camila Mazzoni
+    * Organizers: Camila Mazzoni
 * **[Development of training modules for Gallantries](https://github.com/elixir-europe/biohackathon-projects-2021/tree/master/projects/10)**
-  * Organizers: Bérénice Batut
+    * Organizers: Bérénice Batut
 * **[Improve FAIR sharing for workflow systems using WorkflowHub and RO-Crate](https://github.com/elixir-europe/biohackathon-projects-2021/tree/master/projects/11)**
-  * Organizers: Ignacio Eguinoa
+    * Organizers: Ignacio Eguinoa
 * **[Adapting and integrating RO-Crate for packaging research outputs and their metadata](https://github.com/elixir-europe/biohackathon-projects-2021/tree/master/projects/24)**
-  * Organizers: Stian Soiland-Reyes, Carole Goble
+    * Organizers: Stian Soiland-Reyes, Carole Goble
 * **[Making training materials FAIR: developing a lesson and a tool to assess FAIRness of training materials](https://github.com/elixir-europe/biohackathon-projects-2021/tree/master/projects/25)**
-  * Organizers: Patricia Palagi
+    * Organizers: Patricia Palagi
 
 Join us to learn from and work with experts of the Open Source Life Science community, and discuss plans for the [ELIXIR Galaxy community](https://elixir-europe.org/communities/galaxy) and enjoy the great food and venue.
 

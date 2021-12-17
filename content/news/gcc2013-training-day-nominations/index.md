@@ -5,7 +5,7 @@ date: "2012-12-03"
 <div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" /></a><br />
 <a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" /></a> </div>
 
-[Nominations are now open](http://bit.ly/gcc2013nom) for [Training Day topics](/events/gcc2013/training-day/) for the [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/). 
+[Nominations are now open](http://bit.ly/gcc2013nom) for [Training Day topics](/events/gcc2013/training-day/) for the [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/).
 
 [GCC2013](/events/gcc2013/) will start on 30 June with a Training Day featuring 4 parallel tracks, each with three, two hour workshops, for a total of twelve sessions.
 

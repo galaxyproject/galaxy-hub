@@ -2,8 +2,8 @@
 title: Federation
 ---
 
-The popularity of Galaxy is calling for extensive compute and storage capacity to be made available. 
-The Galaxy Project and the community at large have been making strides in this effort by creating a 
+The popularity of Galaxy is calling for extensive compute and storage capacity to be made available.
+The Galaxy Project and the community at large have been making strides in this effort by creating a
 variety of resources available. These include free public servers, virtual machines, cloud instances,
 usegalaxy.* federation, container images, etc. However, such dedicated installations of Galaxy instances
 is gradually leading to many silos of data, shared objects, tools, and expertise. In order to further
@@ -12,8 +12,8 @@ on the notion of resource federation for Galaxy. This means that it will be poss
 disparate data and compute resources to effectively handle large data and long computations.
 
 For end users, this means that they will be able to bring their own resources to an existing Galaxy instance
-to expand the available storage and compute capacity for their jobs. For resource owners, it will be 
-possible to partner with other institutions to bring existing resources to an otherwise managed Galaxy 
+to expand the available storage and compute capacity for their jobs. For resource owners, it will be
+possible to partner with other institutions to bring existing resources to an otherwise managed Galaxy
 instance. Contributed resources can be added to the shared pool or isolated for specific user(s). While
 this is a long-term, multi-year effort, we have been and are continuing to work toward these goals. Below
 are some links and references about the ongoing progress. Feel free to reach out and join.
@@ -32,8 +32,8 @@ to easily retrieve private data from an AWS S3 bucket as well as send it back. A
 the storage quotas.
 
 ## Authentication and Authorization
-Acquiring a variety of resources from different providers and owners requires a significant investment into 
-authentication and authorization aspects. Our [CloudAuthz](https://github.com/galaxyproject/cloudauthz) 
+Acquiring a variety of resources from different providers and owners requires a significant investment into
+authentication and authorization aspects. Our [CloudAuthz](https://github.com/galaxyproject/cloudauthz)
 library and partnership on the [NSF Custos project](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1840003)
 are ongoing efforts to make resource connectivity as secure yet simple as possible.
 

@@ -16,14 +16,14 @@ The [Nekrutenko Lab](http://www.bx.psu.edu/~anton/) at the [Huck Institutes of L
 * Relational databases and query optimization
 * User management
 
-A minimum of 5 year experience with UNIX/Linux system administration is required. Applicants should submit a CV and list of references to [gxyhiring AT galaxyproject DOT org](mailto:gxyhiring AT galaxyproject DOT org). 
+A minimum of 5 year experience with UNIX/Linux system administration is required. Applicants should submit a CV and list of references to [gxyhiring AT galaxyproject DOT org](mailto:gxyhiring AT galaxyproject DOT org).
 
 
 <div class='right'><a href='http://jamestaylor.org/joining/'><img src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Openings at Johns Hopkins University" width="200" /></a></div>
 **[Johns Hopkins University](http://jamestaylor.org/): Software Engineers and Post-Docs**
 <br /><br />
 
-The [Taylor Lab](http://jamestaylor.org/) in the [Biology](http://bio.jhu.edu/) and [Computer Science](https://www.cs.jhu.edu/) departments at [Johns Hopkins University](http://jhu.edu/) is looking for 
+The [Taylor Lab](http://jamestaylor.org/) in the [Biology](http://bio.jhu.edu/) and [Computer Science](https://www.cs.jhu.edu/) departments at [Johns Hopkins University](http://jhu.edu/) is looking for
 [software engineers](http://jamestaylor.org/joining/sw/) and [postdoctoral scholars](http://jamestaylor.org/joining/postdocs/) to work on the Galaxy project.  
 
 We are seeking [software engineers](http://jamestaylor.org/joining/sw/) with expertise in distributed computing and systems programming, web-based visualization and visual analytics, informatics and data analysis and integration, and bioinformatics application areas such as re-sequencing, de novo assembly, metagenomics, transcriptome analysis and epigenetics.  These are full time positions located in Baltimore, MD.  See the [official posting](http://jamestaylor.org/joining/sw/) for full details.

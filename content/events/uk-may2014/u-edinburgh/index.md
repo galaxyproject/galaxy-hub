@@ -1,15 +1,15 @@
 <div class='center'>
-<a href='http://www.wcb.ed.ac.uk/'><img src="/images/logos/WTCCBLogo.png" alt="Welcome Trust Centre for Cell Biology" height="100" /></a> &nbsp; 
+<a href='http://www.wcb.ed.ac.uk/'><img src="/images/logos/WTCCBLogo.png" alt="Welcome Trust Centre for Cell Biology" height="100" /></a> &nbsp;
 <a href='http://www.genomics.ed.ac.uk/'><img src="/images/logos/EdinburghGenomics.png" alt="Edinburgh Genomics" height="100" /></a>
-&nbsp; 
-<a href='http://www.roslin.ed.ac.uk/'><img src="/images/logos/RoslinLogo.jpg" alt="Roslin Institute" height="100" /></a> 
-&nbsp; 
-<a href='http://www.ed.ac.uk/'><img src="/images/logos/UEdinburghSquareLogo.png" alt="University of Edinburgh" height="100" /></a> 
+&nbsp;
+<a href='http://www.roslin.ed.ac.uk/'><img src="/images/logos/RoslinLogo.jpg" alt="Roslin Institute" height="100" /></a>
+&nbsp;
+<a href='http://www.ed.ac.uk/'><img src="/images/logos/UEdinburghSquareLogo.png" alt="University of Edinburgh" height="100" /></a>
 <div class='title'>Introduction to Galaxy<br />12 May 2014</div>
 
 **
 9:00-13:00<br />
-Room 4325D, [James Clerk Maxwell Building (JCMB)](http://www.ph.ed.ac.uk/about/locations/jcmb), King's Buildings Campus<br /> 
+Room 4325D, [James Clerk Maxwell Building (JCMB)](http://www.ph.ed.ac.uk/about/locations/jcmb), King's Buildings Campus<br />
 [University of Edinburgh](http://www.ed.ac.uk/), Edinburgh, United Kingdom
 
 <br />
@@ -84,8 +84,8 @@ This workshop is part of the [May 2014 Galaxy UK Tour](/events/uk-may2014/), whi
 
 ## Slides
 
-* [Galaxy Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405UEDINBURGHWorkshop.pdf)   
-* [Edinburgh Genomics Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405EdinburghGenomics.pdf)   
+* [Galaxy Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405UEDINBURGHWorkshop.pdf)
+* [Edinburgh Genomics Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405EdinburghGenomics.pdf)
 
 ## Feedback
 

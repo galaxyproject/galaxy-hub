@@ -20,7 +20,7 @@ In [Big (6360 x 6360)](/images/logos/gcc-bosc-2018-logo-big.png), [Medium (800 x
 
 In one size fits all size:
 
-[<img src="/images/logos/gcc-bosc-2018-banner.png" alt="GCC2018 + BOSC 2018 Conference Banner" width="100%" />](/images/logos/gcc-bosc-2018-banner.png) 
+[<img src="/images/logos/gcc-bosc-2018-banner.png" alt="GCC2018 + BOSC 2018 Conference Banner" width="100%" />](/images/logos/gcc-bosc-2018-banner.png)
 
 ## Project Logos
 

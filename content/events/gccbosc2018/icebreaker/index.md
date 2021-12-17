@@ -17,7 +17,7 @@ When you check in you'll be given a sheet with ~15 questions on it.  Each questi
 
 You'll also be given a sheet with ~15 stickers with your name on them.  Your task is to find someone for each of your questions and to get a sticker from them.  This may involve swapping stickers, some horse trading, or outright bribery.
 
-Sheets are due before the last session starts on Thursday afternoon.  At the conference closing we will randomly draw a winner from all successfully completed entries. 
+Sheets are due before the last session starts on Thursday afternoon.  At the conference closing we will randomly draw a winner from all successfully completed entries.
 
 
 ## Drum roll please ...

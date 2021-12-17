@@ -90,6 +90,7 @@ Moreover, Galaxy’s k8s job runner facilitates Galaxy’s integration with the 
 To ensure proper functioning of the new GVL version, we have tested it using a number of representative Galaxy training tutorials from the Galaxy Training Network. The workflows were executed entirely using Docker containers for tools so they are completely reproducible and require no manual configuration or software installation. Granted, a number of the tutorials required updates to include tool updates or missing containers, implying arbitrary tutorials may not just work without intervention. However, once a tutorial has been validated, it will reliably run on any GVL instance and can be reliably used for future training workshops. If you encounter any issues running tools or workflows, please report them at https://github.com/galaxyproject/galaxy-helm/issues and we’ll do our best to fix them and make the GVL better for everyone!
 
 The tutorials selected for validation were as follows (note that some tutorials still have open PRs with the required updates):
+
 - [Introduction to Genome Assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/general-introduction/tutorial.html)
 - [Genome annotation with Prokka](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html)
 - [Unicycler Assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html)

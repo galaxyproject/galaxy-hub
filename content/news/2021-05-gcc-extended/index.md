@@ -17,7 +17,7 @@ Talk abstracts are now due by the end of 17 May.  Talks can be either long (15-2
 
 **Poster/Demo Abstracts: 14 June**
 
-Poster/Demo abstracts are now due by the end of 14 June.  (However, you are encouraged to submit your abstracts earlier, if at all possible.)  Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts). 
+Poster/Demo abstracts are now due by the end of 14 June.  (However, you are encouraged to submit your abstracts earlier, if at all possible.)  Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts).
 
 **GCC2021 Community Fellowships: 17 May**
 

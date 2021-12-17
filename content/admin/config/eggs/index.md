@@ -1,4 +1,4 @@
- 
+
 
 ## Managing and Scrambling Galaxy Eggs
 

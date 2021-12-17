@@ -7,7 +7,7 @@ This page contains statistics about the [Galaxy Project](/galaxy-project/).  Thi
 
 # Galaxy Support: Help Forum & Gitter Chat
 
-The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/), replaced the Galaxy BioStar site on November 29, 2018.  It's a brand new site.  None of the posts or user data from our old BioStar site were copied over.
+The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/), replaced the Galaxy BioStar site on November 29, 2018.  It was created as a brand new site, with none of the posts or user data from our old BioStar site copied over.
 
 [![](/galaxy-project/statistics/discourse-page-views.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=2126198183&format=interactive)
 
@@ -55,19 +55,19 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 
 | Geography/Language-based Community / Channel | Membership / Followers |
 |---|---:|
-| [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 665 |
-| [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 408 |
-| [UseGalaxy.EU Gitter](https://gitter.im/usegalaxy-eu/Lobby) | 299 |
-| [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 75 |
-| [Galaxy Africa Mailing List](https://lists.galaxyproject.org/lists/galaxy-africa.lists.galaxyproject.org/) | 52 |
+| [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 807 |
+| [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 451 |
+| [UseGalaxy.EU Gitter](https://gitter.im/usegalaxy-eu/Lobby) | 388 |
+| [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 93 |
+| [Galaxy Africa Mailing List](https://lists.galaxyproject.org/lists/galaxy-africa.lists.galaxyproject.org/) | 56 |
 | | |
 | **Topic-Based Community / Channel** |  |
-| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) | 261 |
-| [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) | 152 |
-| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) | 150 |
-| [Galaxy Admins Gitter](https://gitter.im/galaxyproject/admins) | 132 |
-| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) | 91 |
-| [Galaxy Dev Gitter](https://gitter.im/galaxyproject/dev) | 72 |
+| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) | 412 |
+| [Galaxy Admins Gitter](https://gitter.im/galaxyproject/admins) | 185 |
+| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) | 165 |
+| [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) | 160 |
+| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) | 93 |
+| [Galaxy Dev Gitter](https://gitter.im/galaxyproject/dev) | 77 |
 
 
 # Publications / Citations
@@ -561,7 +561,7 @@ Galaxy is available in a number of ways.  While most [installations of Galaxy](/
 
 ## Platforms in Publications
 
-In late 2017 the project started tracking which specific [platforms](/use/) (besides usegalaxy.org) that were used or referenced in publications.  Here are the platforms that have been mentioned in more than 30 publications since we started tracking this, as of August 2020.
+In late 2017 the project started tracking which specific [platforms](/use/) (besides usegalaxy.org) that were used or referenced in publications.  Here are the platforms that have been mentioned in more than 30 publications since we started tracking this, as of August 2021.
 
 
 <table class="table">

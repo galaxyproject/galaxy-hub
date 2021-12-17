@@ -7,6 +7,7 @@ date: "2013-08-30"
 The [September 2013 Galaxy Update is hot off the press](/galaxy-updates/2013-09/):
 
 **Highlights:**
+
 * A record *[five new public servers](/galaxy-updates/2013-09/#new-public-servers)*
 * [30 new papers](/galaxy-updates/2013-09/#new-papers)
 * Take the [2014 Galaxy Training Survey](/galaxy-updates/2013-09/#2014-galaxy-training-survey)

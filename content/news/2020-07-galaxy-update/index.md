@@ -9,11 +9,11 @@ date: "2020-07-01"
 [<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * **[BCC2020](#bcc2020-starts-july-17) starts July 17**
-  * **Early registration ends July 10**
-  * **All registration ends July 15**
-  * BoF proposals due July 10 
-  * Fellowships due July 5 
-  * Full training, talk, and poster/demo schedules are online
+    * **Early registration ends July 10**
+    * **All registration ends July 15**
+    * BoF proposals due July 10
+    * Fellowships due July 5
+    * Full training, talk, and poster/demo schedules are online
 * [Galaxy and the NCBI Sequence Read Archive (SRA)](#galaxy-and-the-ncbi-sequence-read-archive-sra)
 * [Upcoming events](#more-upcoming-events)
 * [Galaxy Platform News](#galaxy-platforms-news)
@@ -111,9 +111,11 @@ You can also [learn about](https://bcc2020.sched.com/) *Git & GitHub, Reactome, 
 <div class="card-header">BCC2020 Talk Schedule is Up!</div>
 
 The full BCC2020 talk schedule is now online
+
 * [Keynotes](https://bcc2020.sched.com/subject/Keynote) from [Lincoln Stein](https://bcc2020.sched.com/speaker/lincoln.stein), [Prashanth N Suravajhala](https://bcc2020.sched.com/speaker/prash1), and [Abigail Cabunoc Mayes](https://bcc2020.sched.com/speaker/abbycabs)
 * [70 long and lightning talks](https://bcc2020.sched.com/overview/subject/Talk) covering the full spectrum of open source bioinformatics.
 * [Posters and demos](https://bcc2020.sched.com/overview/subject/Poster-Demo) too
+
 </div>
 
 </div>
@@ -167,6 +169,7 @@ This [new bi-weekly forum](/community/devroundtable/) is an opportunity for pres
 * a COSI keynote,
 * four other talks, and
 * eight posters
+
 </div>
 
 
@@ -224,6 +227,7 @@ The **[Galaxy-SynBioCAD server](https://galaxy-synbiocad.org/)** provides a suit
 <img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html)
+
 </div>
 
 </div>
@@ -371,10 +375,12 @@ See the GVL Beta 3 release [described in the blog](/blog/2020-06-gvl5-beta3/) (a
 <div class="card-header">[Galaxy 20.05](/news/2020-06-galaxy-release-20-05/)</div>
 
 See
+
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce.html)**
 * **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.05_announce_user.html)**.
 
 Features:
+
 * Many new Interactive Tools
 * Data Tables can now be backed by refgenie
 * Tool Shed is now Python3 ready, ending a 4 year effort to get to Python 3.

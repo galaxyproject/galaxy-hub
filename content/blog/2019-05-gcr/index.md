@@ -53,6 +53,7 @@ See the documentation if you're running an older version of Galaxy.
 
 To enable this rule, edit `config/job_conf.xml` and add the content between the
 comments:
+
 ```
 <?xml version="1.0"?>
 <job_conf>

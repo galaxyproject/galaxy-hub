@@ -30,7 +30,7 @@ Any group using or planning to use Galaxy.
 
 ## When and Where
 
-Tuesday, 7 July, 18:00 in the Genome Seminar Room, in the nearby The Genome Analysis Center 
+Tuesday, 7 July, 18:00 in the Genome Seminar Room, in the nearby The Genome Analysis Center
 
 ## Who is Participating
 

@@ -31,7 +31,7 @@ In addition, the workshop schedules for the *new* [Training SunDay](/galaxy-upda
 
 [Abstract submission for oral and poster presentations is now open](/galaxy-updates/2015-03/#abstract-submission-is-now-open).  We again have an arrangement with GigaScience that any oral or poster presentation will also be eligible for consideration for publication in the GigaScience "Galaxy: Data Intensive and Reproducible Research" series (first announced for GCC2013).
 
-Finally, registration is *not* open yet, but [the list of registration packages and their costs](/galaxy-updates/2015-03/#early-registration-opens-in-march) have been.   Early registration is very affordable and starts at less than £40 per day for students and postdocs. 
+Finally, registration is *not* open yet, but [the list of registration packages and their costs](/galaxy-updates/2015-03/#early-registration-opens-in-march) have been.   Early registration is very affordable and starts at less than £40 per day for students and postdocs.
 
 **[Other Events](/galaxy-updates/2015-03/#other-events)**
 
@@ -40,6 +40,7 @@ And there is no shortage of other upcoming events either, including [RNA-Seq and
 **[Lots of other news](/galaxy-updates/2015-03/)**
 
 In addition, there is news on:
+
 * [82 new publications](/galaxy-updates/2015-03/#new-papers), including 7 highlighted ones
 * [Summary of the Fall 2014 Galaxy Community Questionnaires](/galaxy-updates/2015-03/#fall-2014-questionnaire-summaries)
 * [An introduction to Gravity](/galaxy-updates/2015-03/#gravity), a process manager (supervisor) for Galaxy servers.

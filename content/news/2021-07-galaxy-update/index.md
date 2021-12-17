@@ -208,7 +208,7 @@ We still [need volunteers to lead the discussion on your favorite topic](https:/
 
 The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop, all participants will be able to upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments.
 
-It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions. 
+It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions.
 
 
 </div>
@@ -235,8 +235,8 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 * And two new use cases were described for UseGalaxy.eu:
-  * [Zika virus effects on brain and brain tumours](https://galaxyproject.eu/posts/2021/06/18/use-case-harry-bulstrode/)
-  * [Genetics research on dairy cattle](https://galaxyproject.eu/posts/2021/06/25/use-case-tomas-klingstrom/)
+    * [Zika virus effects on brain and brain tumours](https://galaxyproject.eu/posts/2021/06/18/use-case-harry-bulstrode/)
+    * [Genetics research on dairy cattle](https://galaxyproject.eu/posts/2021/06/25/use-case-tomas-klingstrom/)
 
 </div>
 
@@ -345,7 +345,7 @@ How to obtain, run and combine these workflows appropriately for different types
 </div>
 
 </div>
- 
+
 
 # Publications
 

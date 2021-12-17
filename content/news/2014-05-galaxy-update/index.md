@@ -8,7 +8,7 @@ date: "2014-04-30"
 <a href='/galaxy-updates/2014-05/#galaxy-biostar'><img src="/images/logos/GalaxyBiostar.png" alt="Galaxy Biostar" width="200" /></a><br /><br />
 <a href='/galaxy-updates/2014-05/#early-registration-closes-may-23'><img src="/images/logos/GCC2014LogoWide200.png" alt="GCC2014: June 30 - July 2" width="200" /></a><br /><br />
 <a href='/galaxy-updates/2014-05/#uk-may-2014-galaxy-tour'><img src="/images/logos/UKMay2014Tour.png" alt="UK May 2014 Galaxy Tour" width="105px" /></a> &nbsp;
-<a href='/galaxy-updates/2014-05/#galaxy-hackathon-at-gcc2014'><img src="/images/logos/GCC2014HackLogoSquare.png" alt="GCC2014 Hackathon" width="84" /></a> 
+<a href='/galaxy-updates/2014-05/#galaxy-hackathon-at-gcc2014'><img src="/images/logos/GCC2014HackLogoSquare.png" alt="GCC2014 Hackathon" width="84" /></a>
 </div>
 
 The [May 2014 Galaxy Update Newsletter](/galaxy-updates/2014-05/) is out!  There's a lot going on in the project and the community right now.  The big news in the past month is the move [from the Galaxy-User mailing list to Galaxy Biostar](/galaxy-updates/2014-05/#galaxy-biostar) for user support.  This has been running for a week now, and has been very well received.  

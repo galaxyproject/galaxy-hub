@@ -1,8 +1,8 @@
-1. 
-  1. page was renamed from Admin/DataLibraries/Library Security 
-  2. page was renamed from Admin/Data Libraries/Library Security 
+1.
+1. page was renamed from Admin/DataLibraries/Library Security
+2. page was renamed from Admin/Data Libraries/Library Security
 
-2. format text/creole 
+2. format text/creole
 
 # Data Library Security
 
@@ -20,10 +20,10 @@ When a data library is first created, it is considered public because anyone (ev
 
 Something similar to the following page is displayed. In our case, we have 4 Galaxy users as follows:
 
-- **test@bx.psu.edu** - this is a Galaxy admin user 
-- **test1@bx.psu.edu** - this is a regular user 
-- **test2@bx.psu.edu** - this is a regular user 
-- **test3@bx.psu.edu** - this is a regular user 
+- **test@bx.psu.edu** - this is a Galaxy admin user
+- **test1@bx.psu.edu** - this is a regular user
+- **test2@bx.psu.edu** - this is a regular user
+- **test3@bx.psu.edu** - this is a regular user
 
 Each Galaxy user is associated with a private role which is the same as their login (email address), and these roles are displayed in the boxes labeled "Roles not associated" for each of the permissions on the data library. All roles that exist in your Galaxy instance, whether private or not, will be displayed here. In our case we have 1 non-private role named role1, and both users **test1@bx.psu.edu** and **test2@bx.psu.edu** have that role.
 
@@ -37,22 +37,22 @@ With regard to permissions, a Galaxy admin user is a special case in that admin 
 
 Here is a description of each of the permissions on a data library. These permissions are relevant only in the Data Libraries perspective, and except for being able to access public data libraries, users that are not logged in will not have permission to perform any of these actions. These permissions provide all of the security on a data library.
 
-- **modify library item** - Users that have a role associated with this permission are allowed to edit the data library's information, add a template to the data library or edit the layout of the data library's template if one exists. 
+- **modify library item** - Users that have a role associated with this permission are allowed to edit the data library's information, add a template to the data library or edit the layout of the data library's template if one exists.
 
-- **access library** - If no role is associated with this permission, the data library is considered public (see above). However, if any roles are associated with this permission, only those users that have one or more of the associated roles will be able to see the data library from the Data Libraries perspective. 
+- **access library** - If no role is associated with this permission, the data library is considered public (see above). However, if any roles are associated with this permission, only those users that have one or more of the associated roles will be able to see the data library from the Data Libraries perspective.
 
-- **add library item** - Users that have roles associated with this permission can add folders and datasets to the top level of the data library hierarchy (i.e, the data library itself, but not necessarily to any of it's contained folders - more on this in the following sections of this document). 
+- **add library item** - Users that have roles associated with this permission can add folders and datasets to the top level of the data library hierarchy (i.e, the data library itself, but not necessarily to any of it's contained folders - more on this in the following sections of this document).
 
-- **manage library permissions** - Users that have roles associated with this permission can associated or dis-associate roles with permissions (using the form displayed above) on the data library, but not necessarily any of it's contained folders and datasets (again, more on this later). 
+- **manage library permissions** - Users that have roles associated with this permission can associated or dis-associate roles with permissions (using the form displayed above) on the data library, but not necessarily any of it's contained folders and datasets (again, more on this later).
 
 ### Data libraries that are not public (restricted) and more on data library permissions
 
 As mentioned above, if any roles are associated with the **access library** permission, only those users that have one or more of the associated roles will be able to see the data library from the Data Libraries perspective. To demonstrate the behavior of each data library permission, we'll set permissions as follows.
 
-- Move the role **test1@bx.psu.edu** to the "Roles associated" box under the **modify library item** permission. 
-- Move the role **role1** to the "Roles associated" box under the **access library** permission. 
-- Move the role **test2@bx.psu.edu** to the "Roles associated" box under the **add library item** permission. 
-- Move the role **test1@bx.psu.edu** to the "Roles associated" box under the **manage library permissions** permission. 
+- Move the role **test1@bx.psu.edu** to the "Roles associated" box under the **modify library item** permission.
+- Move the role **role1** to the "Roles associated" box under the **access library** permission.
+- Move the role **test2@bx.psu.edu** to the "Roles associated" box under the **add library item** permission.
+- Move the role **test1@bx.psu.edu** to the "Roles associated" box under the **manage library permissions** permission.
 
 Now we'll save the changes by clicking the "Save" button at the bottom of the page and the following page will be displayed.
 
@@ -110,12 +110,12 @@ The settings for the 3 data library permissions ( **modify library item** , **ad
 
 Notice the additional permission on the dataset:
 
-- **access** - This permission is similar to the **access library** permission described earlier in that if no roles are associated with it, the dataset is considered public. However, if any roles are associated with this permission, then a user **must have all associated roles** in order to access the dataset. This differs from the behavior of the **access library** permission on data libraries since a user has to have only 1 of the roles associated with that permission in order to access the data library. 
+- **access** - This permission is similar to the **access library** permission described earlier in that if no roles are associated with it, the dataset is considered public. However, if any roles are associated with this permission, then a user **must have all associated roles** in order to access the dataset. This differs from the behavior of the **access library** permission on data libraries since a user has to have only 1 of the roles associated with that permission in order to access the data library.
 
 The reason for this is important and can best be justified with a scenario. Let's assume the following:
 
-- User **test1@bx.psu.edu** can somehow access dataset1 
-- Both users **test1@bx.psu.edu** and **test2@bx.psu.edu** can somehow access dataset2 
+- User **test1@bx.psu.edu** can somehow access dataset1
+- Both users **test1@bx.psu.edu** and **test2@bx.psu.edu** can somehow access dataset2
 
 The user **test1@bx.psu.edu** uses both dataset1 and dataset2 as input to a Galaxy tool, which produces dataset3 as output. Now dataset3 possibly includes data from both dataset1 and dataset2, so the permissions on dataset3 are derived from the permissions on both of it's ancestor datasets (dataset1 and dataset2). If the user **test2@bx.psu.edu** only had to have 1 of the roles associated with the **access** permission on dataset3, then they would be able to access it, in essence accessing the data in dataset1 even though they are restricted from accessing dataset1. Forcing users to have **all** roles associated with the **access** permission on a dataset eliminates this security breach.
 
@@ -135,8 +135,8 @@ Since the private role for user **test2@bx.psu.edu** is only associated with the
 
 To further demonstrate how permission settings on datasets affect the behavior of their containing folder, we'll do the following:
 
-- Make the data library public by eliminating all role associations from the **access library** permission on the data library 
-- Add a public dataset to the folder (the only dataset we've added so far has been to the data library itself) 
+- Make the data library public by eliminating all role associations from the **access library** permission on the data library
+- Add a public dataset to the folder (the only dataset we've added so far has been to the data library itself)
 
 The image below shows what we now have. Dataset 1.bed is a public dataset contained in the (now public) data library, and dataset 2.bed is a public dataset contained in the folder named "My first folder".
 

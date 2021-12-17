@@ -14,7 +14,7 @@ date: "2015-10-26"
 
 **[Voting is now open](http://bit.ly/gcc2016vote)** on what training topics are offered at GCC2016 Training.
 
-There are nominated topics spanning from basic usage to advanced deployment.  No matter what you do with Galaxy, there are topics for you to choose from.  [Your vote](http://bit.ly/gcc2016vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
+There are nominated topics spanning from basic usage to advanced deployment.  No matter what you do with Galaxy, there are topics for you to choose from.  [Your vote](http://bit.ly/gcc2016vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters.
 
 **Topic voting closes November 6.** The Training schedule, including instructors, will be published before early registration opens.
 

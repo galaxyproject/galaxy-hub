@@ -5,7 +5,7 @@ title: Galaxy on Jetstream
 
 Want your own Galaxy server, for free? You can easily create Galaxy servers on the [NSF Jetstream cloud](http://jetstream-cloud.org/).
 
-Please note that, due to some Jetstream restrictions, this is a standalone Galaxy server in the cloud - it is not a scalable virtual cluster managed by CloudMan. 
+Please note that, due to some Jetstream restrictions, this is a standalone Galaxy server in the cloud - it is not a scalable virtual cluster managed by CloudMan.
 
 ## How do I get access?
 
@@ -14,6 +14,7 @@ You must be a US-based academic to access Jetstream cloud. Access is free but it
 ## How do I launch my own Galaxy server?
 
 After you have your XSEDE account and an active allocation:
+
 * Visit https://use.jetstream-cloud.org/, and log in using your university, national lab, facility, project, Google, or Globus ID.
 
 * Once logged in *select* **Launch an instance**
@@ -28,9 +29,9 @@ After you have your XSEDE account and an active allocation:
 
 * Set basic parameters of the instance:
     <a href='http://i.imgur.com/TSOUMJd.png?1'><img src="http://i.imgur.com/TSOUMJd.png?1" alt="" width="75%" /></a><br /><br />
-  * Select the provider: TACC or Indiana University.
-  * Select the instance size:  This must be **medium** or larger.
-  * And then click **Launch**
+    * Select the provider: TACC or Indiana University.
+    * Select the instance size:  This must be **medium** or larger.
+    * And then click **Launch**
 
 * If you don't have any existing projects in Jetstream, the next form will prompt you to create a new project.
     <a href='/cloud/jetstream/jetstream_LaunchProject.png'><img src="/cloud/jetstream/jetstream_LaunchProject.png" alt="" width="75%" /></a><br /><br />

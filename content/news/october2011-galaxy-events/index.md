@@ -3,7 +3,7 @@ title: "October 2011 Galaxy Events"
 date: "2011-09-28"
 ---
 <div class='right'>
-<a href='/events/'><img src="/images/logos/galaxyLogoTrimmed.png" alt="Galaxy Events in October 2011" width="120" /></a> 
+<a href='/events/'><img src="/images/logos/galaxyLogoTrimmed.png" alt="Galaxy Events in October 2011" width="120" /></a>
 <a href='http://www.amata.org.au/index.php/2011-conference'><img src="/images/logos/amata-2011-conference.jpg" alt="AMATA 2011" height="80" /></a>&nbsp;&nbsp;<a href='http://gmod.org/wiki/October_2011_GMOD_Meeting'><img src="/images/logos/GMOD201110MeetingLogo.png" alt="October 2011 GMOD Meeting" height="80" /></a>&nbsp;&nbsp;<a href='http://www.biovis.net/'><img src="/images/logos/BioVisLogo.png" alt="BioVis 2011" height="70" /></a>
 </div>
 

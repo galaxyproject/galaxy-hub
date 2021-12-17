@@ -2,12 +2,12 @@
 
 ## Images
 
-For logos and other (mostly wiki-related) images please see [Images](/images/) page. 
+For logos and other (mostly wiki-related) images please see [Images](/images/) page.
 
 ## Icons
 
-We use Font Awesome (FA) icons and they should carry the same or very similar meaning across the whole Galaxy. 
- 
+We use Font Awesome (FA) icons and they should carry the same or very similar meaning across the whole Galaxy.
+
 <table>
   <tr>
     <td> <strong>Icon</strong> </td>

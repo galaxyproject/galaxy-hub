@@ -8,7 +8,7 @@ date: "2015-03-19"
 
 This is mostly an incremental bug fix release with the following summary of changes:
 
-* Project source moved to new URL - https://github.com/galaxyproject/bioblend 
+* Project source moved to new URL - https://github.com/galaxyproject/bioblend
 * Huge improvements to automated testing, tests now run against Galaxy release_14.02 and all later versions to ensure backward compatibility (see [travis.yml](https://github.com/galaxyproject/bioblend/blob/master/.travis.yml) for details).
 * Many documentation improvements (thanks to [Helena Rasche](/people/helena-rasche/)).
 * Add Galaxy clients for the tool data tables, the roles, and library folders (thanks to Anthony Bretaudeau).

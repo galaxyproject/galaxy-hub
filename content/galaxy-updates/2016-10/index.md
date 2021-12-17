@@ -12,26 +12,26 @@ title: October 2016 Galaxy News
 
 <div class='right'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the October 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
+Welcome to the October 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
 The big news this month is a series of upcoming events:
 
-* **[Galaxy training contribution fest](/galaxy-updates/2016-10/#galaxy-training-contribution-fest-6-7-october-online)**: 
-  * October 6-7, Online 
+* **[Galaxy training contribution fest](/galaxy-updates/2016-10/#galaxy-training-contribution-fest-6-7-october-online)**:
+    * October 6-7, Online
 * **[Swiss-German Galaxy Days](/galaxy-updates/2016-10/#swiss-german-galaxy-days)**:
-  * October 20-21, Freiburg, Germany
+    * October 20-21, Freiburg, Germany
 * **[Galaxy & Hacktoberfest](/galaxy-updates/2016-10/#galaxy--hacktoberfest)**:
-  * Month of October, online
+    * Month of October, online
 * **[Bioconda Contribution Fest](/galaxy-updates/2016-10/#conda-conda-conda)**:
-  * November 2-3, [Online](https://github.com/bioconda/bioconda-recipes/issues/2277)
+    * November 2-3, [Online](https://github.com/bioconda/bioconda-recipes/issues/2277)
 * **[Galaxy Admin Training](/galaxy-updates/2016-10/#galaxy-admin-training-november-7-11-salt-lake-city-utah)**:
-  * November 7-11, Salt Lake City, Utah
-  * *On time registration ends October 16*
-* **[Galaxy Australasia Meeting (GAMe 2017)](/galaxy-updates/2016-10/#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open)**: 
-  * February 3-9, Melbourne, Victoria, Australia
-  * *Registration and abstract submission are now open.* 
+    * November 7-11, Salt Lake City, Utah
+    * *On time registration ends October 16*
+* **[Galaxy Australasia Meeting (GAMe 2017)](/galaxy-updates/2016-10/#galaxy-australasia-meeting-game-2017-registration--abstract-submission-are-open)**:
+    * February 3-9, Melbourne, Victoria, Australia
+    * *Registration and abstract submission are now open.*
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 
 # Events
@@ -54,7 +54,7 @@ We look forward to welcoming you to Melbourne. Remember to pack for our fabulous
 
 *[GAMe 2017 Organising Committee](https://www.embl-abr.org.au/game2017/organisers/)* (#game_2017)
 
-*And if you are based in Australia you might also be interested in the newly launched [Galaxy Australia Community](/galaxy-updates/2016-10/#galaxy-australia-community-launched).* 
+*And if you are based in Australia you might also be interested in the newly launched [Galaxy Australia Community](/galaxy-updates/2016-10/#galaxy-australia-community-launched).*
 
 ## Galaxy training contribution fest, 6-7 October, Online
 
@@ -75,7 +75,7 @@ Ciao,
 
 <div class='left solid center'>
 <a href='/events/admin-training2016/'><img src="/images/logos/AdminTraining2016-500.png" alt="Galaxy Project Admin Training" width="200" /></a><br />
-November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Register by October 16](/events/admin-training2016/registration/) 
+November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />United States<br /><br /> [Register by October 16](/events/admin-training2016/registration/)
 </div>
 
 **Register for [Galaxy Admin Training 2016](/events/admin-training2016/) by October 16.**
@@ -95,7 +95,7 @@ The three day [advanced session](/events/admin-training2016/advanced-session/) w
 <br />
 
 <div class='center'>
-<a href='http://www.chpc.utah.edu'><img src="/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a> &nbsp; 
+<a href='http://www.chpc.utah.edu'><img src="/images/logos/UtahCHPCLogo.png" alt="University of Utah Center for High Performance Computing (CHPC)" height="90" /></a> &nbsp;
 <a href='http://healthsciences.utah.edu/'><img src="/images/logos/UUtahHealthSciences.png" alt="University of Utah" height="90" /></a> <br />
 <a href='http://medicine.utah.edu/dbmi/'><img src="/images/logos/UUtahDBMI.png" alt="University of Utah Department of Biomedical Informatics" width="220" /></a>
 <a href='http://medicine.utah.edu/ccts/bmic/'><img src="/images/logos/UUtahCCTS_BMIC.png" alt="University of Utah Clinical & Translational Science Biomedical Informatics Core (CCTS BMIC)" width="220" /></a><br />
@@ -115,7 +115,7 @@ We hope to see you in Salt Lake!
 
 The 2016 editions of [Swiss-German Galaxy Days](/events/sg2016/) will be held 20-21 October in Freiburg (Germany).
 
-Registration is free, but space is limited on both days. We recommend you register soon to secure your spot for one or both days of the SG2016Tour: 
+Registration is free, but space is limited on both days. We recommend you register soon to secure your spot for one or both days of the SG2016Tour:
 
 The two days will be held in the same location, but will have a different focus.  The [first day](/events/switzerland2016/) will start with talks, discussions and small demonstrations. This day will be problem / technology centric with [small demonstrations and hands-on sessions](/events/switzerland2016/). Everyone is expected to have their own computer.
 
@@ -131,11 +131,11 @@ Galaxy and [CloudBridge](http://cloudbridge.readthedocs.io/en/latest/) have join
 
 ## Conda, Conda, Conda!
 
-The Galaxy v16.07 release ([see below](/galaxy-updates/2016-10/#galaxy-v1607)) included a "Shift of Galaxy tool dependencies to Conda" and that shift is reflected in a whole bunch of activity: 
+The Galaxy v16.07 release ([see below](/galaxy-updates/2016-10/#galaxy-v1607)) included a "Shift of Galaxy tool dependencies to Conda" and that shift is reflected in a whole bunch of activity:
 
 * **[Conda as a new standard for Galaxy tool dependencies](http://blogs.biomedcentral.com/gigablog/2016/09/20/guest-posting-introducing-conda-for-galaxy/)**, a guest blog posting by [Björn Grüning](/people/bjoern-gruening/) in *[GigaScience's](http://www.gigasciencejournal.com/)* [GigaBlog](http://blogs.biomedcentral.com/gigablog/).
-* a Galaxy-P Conda contribution fest in September ([see report below](/galaxy-updates/2016-10/#galaxy-p-conda-contribution-fest-report)), 
-* enhancements to [Planemo](/galaxy-updates/2016-10/#planemo-0332), and 
+* a Galaxy-P Conda contribution fest in September ([see report below](/galaxy-updates/2016-10/#galaxy-p-conda-contribution-fest-report)),
+* enhancements to [Planemo](/galaxy-updates/2016-10/#planemo-0332), and
 * an upcoming **[Bioconda Contribution Fest](https://github.com/bioconda/bioconda-recipes/issues/2277)** on November 2-3.
 
 <div class='right'><br /><a href='https://gist.github.com/bgruening/97b1fa16b92f5ab30b1e7c193b286432'><img src="/images/logos/GalaxyPCondaHack.png" alt="Galaxy-P Conda Contribution Fest report" height="100" /></a></div>
@@ -151,7 +151,7 @@ Thanks to everyone who participated!
 
 There are [a plentitude of Galaxy related events coming up](/events/) in the next few months:
 
-<div class='center'> 
+<div class='center'>
 <a href='https://gist.github.com/bgruening/a54a8600c5cddca82424ad13569708c3'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Contribution Fest" height="75" /></a> &nbsp;
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=83'><img src="/images/logos/GenoToulLogo.png" alt="Metagenomic: amplicon analysis" height="60" /></a> &nbsp;
 <a href='https://www.facebook.com/events/1593583060947735/'><img src="/images/logos/CBioVikingsTrans.png" alt="Galaxy Workshop" height="80" /></a>
@@ -340,7 +340,7 @@ Today we officially launch the [Galaxy Australia](https://www.embl-abr.org.au/ga
 The establishment of Galaxy Australia is supported by the [EMBL Australia Bioinformatics Resource (EMBL-ABR)](https://www.embl-abr.org.au/) in its appointed role of supporting the development of skills and training in the Australian life science research community. At the EMBL-ABR Hub, hosted at the Victorian Life Sciences Computation Initiative (VLSCI), Galaxy is used extensively for teaching and data analysis directly as well as through the Australian-made [Genomics Virtual Laboratory](https://www.genome.edu.au/). VLSCI’s expert bioinformaticians and professional staff will help promote community activities and training.
 
 <div class='right'>
-<a href='https://twitter.com/galaxyaustralia'><img src="/images/logos/TwitterBird300.png" alt="@GalaxyAustralia" height="50" /></a> 
+<a href='https://twitter.com/galaxyaustralia'><img src="/images/logos/TwitterBird300.png" alt="@GalaxyAustralia" height="50" /></a>
 </div>
 
 Galaxy Australia has a has a Twitter feed ([@GalaxyAustralia](https://twitter.com/galaxyaustralia)) for announcements and discussion relevant to the community.  
@@ -488,19 +488,19 @@ Jetstream was officially launched in September and was added to the [Semi-Public
 <div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/images/logos/JetstreamRectClipped.jpg" alt="Jetstream" width="280" /></a></div>
 
 * *Links:*
-  * **[Galaxy on Jetstream](/cloud/jetstream/)**
+    * **[Galaxy on Jetstream](/cloud/jetstream/)**
 * *Eligibility:*
-  * [Jetstream](http://jetstream-cloud.org/) is part of [XSEDE](https://www.xsede.org/), a "collection of integrated advanced digital resources and services" and is funded by NSF. You need to be eligible for an [XSEDE allocation](https://portal.xsede.org/allocation-policies) to use Jetstream, which means must be based at a U.S. institution. And although XSEDE is NSF-funded, "projects need not be supported by NSF grants" to receive an allocation.
+    * [Jetstream](http://jetstream-cloud.org/) is part of [XSEDE](https://www.xsede.org/), a "collection of integrated advanced digital resources and services" and is funded by NSF. You need to be eligible for an [XSEDE allocation](https://portal.xsede.org/allocation-policies) to use Jetstream, which means must be based at a U.S. institution. And although XSEDE is NSF-funded, "projects need not be supported by NSF grants" to receive an allocation.
 * *Comments:*
-  * Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can [become an administrator](/cloud/jetstream/ssh/#adding-galaxy-admin-user) and even [access the server from the shell](/cloud/jetstream/ssh/).
+    * Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can [become an administrator](/cloud/jetstream/ssh/#adding-galaxy-admin-user) and even [access the server from the shell](/cloud/jetstream/ssh/).
 * *User Support:*
-  * See the [Galaxy on Jetstream documentation](/cloud/jetstream/)
-  * [FAQ](/cloud/jetstream/faq/)
-* *Quotas:* 
-  * Limits are determined by the size of your allocation and the size of the instances you launch.
+    * See the [Galaxy on Jetstream documentation](/cloud/jetstream/)
+    * [FAQ](/cloud/jetstream/faq/)
+* *Quotas:*
+    * Limits are determined by the size of your allocation and the size of the instances you launch.
 * *Sponsor(s):*
-  * [The National Science Foundation (NSF)](http://www.nsf.gov/)
-  * [Jetstream](http://jetstream-cloud.org/) is based at [Indiana University](https://www.iu.edu/) and Jetstream resources are hosted by Indiana University and the [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/).
+    * [The National Science Foundation (NSF)](http://www.nsf.gov/)
+    * [Jetstream](http://jetstream-cloud.org/) is based at [Indiana University](https://www.iu.edu/) and Jetstream resources are hosted by Indiana University and the [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/).
 
 # Trinity comes to usegalaxy.org
 
@@ -543,9 +543,9 @@ The September releases work with recents changes to Galaxy and initial mulled sc
 
 ## Planemo 0.33.2
 
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  **Planemo saw seven releases in September.**  The biggest news is that Planemo now uses the brand new [Galaxy Tool XML Schema Definition](https://github.com/galaxyproject/planemo/blob/master/planemo/xml/xsd/tool/galaxy.xsd) to validate tool definitions.  A lot happened with Conda support too. 
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  **Planemo saw seven releases in September.**  The biggest news is that Planemo now uses the brand new [Galaxy Tool XML Schema Definition](https://github.com/galaxyproject/planemo/blob/master/planemo/xml/xsd/tool/galaxy.xsd) to validate tool definitions.  A lot happened with Conda support too.
 
-See [GitHub for details](https://github.com/galaxyproject/planemo/blob/0.33.1/HISTORY.rst). 
+See [GitHub for details](https://github.com/galaxyproject/planemo/blob/0.33.1/HISTORY.rst).
 
 
 
@@ -556,7 +556,7 @@ Other packages that have been released in the prior 4 months.
 ### Galaxy v16.07
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[July 2016 (v16.07) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.07_announce.html)**.
 
 <span style="font-size: larger;"> Highlights </span>
@@ -576,12 +576,14 @@ Admins can now plug in the included communication server to enable users of thei
 <span style="font-size: larger;"> [Github](https://github.com/galaxyproject/galaxy) </span>
 
 **New Galaxy repository**
+
 ```
 $ git clone -b release_16.07 https://github.com/galaxyproject/galaxy.git
 ```
 
 
 **Update of existing Galaxy repository**
+
 ```
 $ git checkout release_16.07 && git pull --ff-only origin release_16.07
 ```
@@ -632,8 +634,9 @@ Please see the [API documentation](http://galaxyproject.github.io/blend4php/docs
 An update to Galaxy CloudMan on AWS was released in May. CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
 This is a minor update release with the following changes:
+
 * Galaxy 16.04 update
-* Availability on Amazon's Ireland region 
+* Availability on Amazon's Ireland region
 * A couple of bug fixes
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.
@@ -653,7 +656,7 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 # Other News
 
 From [Ravi Madduri](http://twitter.com/madduri)<br />
- [Globus Genomics](https://www.globus.org/genomics) RO1 was funded by [NHGRI](http://genome.gov). 
+ [Globus Genomics](https://www.globus.org/genomics) RO1 was funded by [NHGRI](http://genome.gov).
 
 From [Björn Grüning](http://twitter.com/bjoerngruening)
  [HTTPS support was added to the Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable/pull/240). Joint work by [Marius van den Beek](http://twitter.com/mvdbeek) and [Alexander Lenail](http://twitter.com/zfrenchee)

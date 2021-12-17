@@ -15,6 +15,7 @@ date: "2012-01-28"
 * New datatypes (Eland, XML), multiple tool enhancements, and bug fixes.
 
 [http://getgalaxy.org](http://getgalaxy.org)
+
 ```
 new:     % hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
 upgrade: % hg pull -u -r 26920e20157f

@@ -11,6 +11,7 @@ import DeferredIframe from "~/components/DeferredIframe.vue";
 // Significant dependencies are required if we do want embedded jupyter notebooks
 //import JupyterNotebook from "~/components/JupyterNotebook.vue";
 import ObservableNotebook from "~/components/ObservableNotebook.vue";
+import VegaEmbed from "~/components/VegaEmbed.vue";
 
 import BootstrapVue from "bootstrap-vue";
 
@@ -23,6 +24,7 @@ export default function (Vue, { router, head, isClient }) {
     Vue.component("DeferredIframe", DeferredIframe);
     //Vue.component("JupyterNotebook", JupyterNotebook);
     Vue.component("ObservableNotebook", ObservableNotebook);
+    Vue.component("VegaEmbed", VegaEmbed);
 
     Vue.use(BootstrapVue);
     Vue.config.ignoredElements = ["gcse:search", "gcse:searchresults-only"];

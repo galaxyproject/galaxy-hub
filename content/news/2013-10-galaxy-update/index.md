@@ -7,6 +7,7 @@ date: "2013-09-30"
 The [October 2013 Galaxy Update is out](/galaxy-updates/2013-10/):
 
 **Highlights:**
+
 * A record *[six new public servers](/galaxy-updates/2013-10/#new-public-servers)*
 * [44 new papers](/galaxy-updates/2013-10/#new-papers)
 * [Open Positions](/galaxy-updates/2013-10/#whos-hiring) at nine different organizations

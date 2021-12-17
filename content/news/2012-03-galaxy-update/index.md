@@ -12,8 +12,8 @@ The [March 2012 Galaxy Update](/galaxy-updates/2012-03/) is now available.  *[Ga
 * [Open Positions](/galaxy-updates/2012-03/#whos-hiring) at four different institutions
 * [Upcoming Events and Deadlines](/galaxy-updates/2012-03/#upcoming-events-and-deadlines)
 * [GCC2012 Update](/galaxy-updates/2012-03/#gcc2012-update), including
-  * Abstract submission is open.
-  * Training Day topics are set.
+    * Abstract submission is open.
+    * Training Day topics are set.
 * [Tool Shed Contributions](/galaxy-updates/2012-03/#toolshed-contributions)
 
 If you have anything you would like to see in the April *[Galaxy Update](/galaxy-updates/)*, please let me know.

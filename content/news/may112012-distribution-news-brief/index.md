@@ -14,6 +14,7 @@ date: "2012-05-12"
 * Updated **User Interface**, **Workflow-API** upgrades, and Custom **UCSC Display**.
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
+
 ```
 new:     % hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
 upgrade: % hg pull -u -r 17d57db9a7c0

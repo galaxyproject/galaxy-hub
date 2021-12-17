@@ -15,7 +15,7 @@ histogram -input=genes.bed -col=2 -bins=10 -output=image.png
 ```
 
 
-The actual calling sequence for the program may simpler or a lot more complicated, it does not matter as long as the command can be run from a command line, Galaxy can do it for you too. 
+The actual calling sequence for the program may simpler or a lot more complicated, it does not matter as long as the command can be run from a command line, Galaxy can do it for you too.
 
 ## How Galaxy displays the tools
 
@@ -102,7 +102,7 @@ Note how the HTML parameters listed within the `inputs` tag of the XML above gen
 This was just a high level summary of what Galaxy can do; many usage scenarios may be much more complex. **Galaxy** has built-in support for:
 
 * **parameter validation** that checks that parameters conform to requirements: integer, float, regular expression match etc. and produces graceful error messages pointing to the error
-* Custom code execution at various time points of the workflow that allows a fine grained control over the execution process 
+* Custom code execution at various time points of the workflow that allows a fine grained control over the execution process
 * Data deposit protocols for connecting to data repositories
 * **multi-page parameter selection** for tools that allow subsequent options to depend on previously selected ones
 

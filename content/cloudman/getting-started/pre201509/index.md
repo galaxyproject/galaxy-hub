@@ -19,7 +19,7 @@ For the purposes of executing Galaxy on the Cloud, we have packaged Galaxy, Gala
 * Once your account has been approved by Amazon (note that this may take up to one business day), **log into AWS Management Console** ([https://console.aws.amazon.com/console](https://console.aws.amazon.com/console/)).
 * **Create IAM user** by clicking on *IAM service* → *Users* → *Create New Users*. Give the user a name (e.g., *galaxy_cloudman*) and click *Create*. Once created, make a note of and download the API access credentials.
 
-<div class='center'> 
+<div class='center'>
 <a href='http://i.imgur.com/Dpy3gxq.jpg'><img src="http://i.imgur.com/Dpy3gxq.jpg" alt="" width=200 /></a>
 <a href='http://i.imgur.com/hLxBYE2.jpg'><img src="http://i.imgur.com/hLxBYE2.jpg" alt="" width=200 /></a>
 <a href='http://i.imgur.com/bYSfHyQ.jpg'><img src="http://i.imgur.com/bYSfHyQ.jpg" alt="" width=200 /></a>

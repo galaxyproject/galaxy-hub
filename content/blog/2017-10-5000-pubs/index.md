@@ -389,7 +389,7 @@ Not all *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)
 
 ## Reproducibility Rising
 
-The last trend I want to highlight is about *Reproducibility*. Reproducibility has been a core value of Galaxy since at least 2011.  **The *[Reproducibilty](https://www.zotero.org/groups/1732893/galaxy/tags/%2BReproducibility)* topic has seen a nearly 3 fold increase since then.**  There were 21 pubs in all of 2011-2013, compared to 53 pubs in 2017 *thus far* and *Reproducibility* has gone from 2.1% of papers to 5.7% of papers in the same time. 
+The last trend I want to highlight is about *Reproducibility*. Reproducibility has been a core value of Galaxy since at least 2011.  **The *[Reproducibilty](https://www.zotero.org/groups/1732893/galaxy/tags/%2BReproducibility)* topic has seen a nearly 3 fold increase since then.**  There were 21 pubs in all of 2011-2013, compared to 53 pubs in 2017 *thus far* and *Reproducibility* has gone from 2.1% of papers to 5.7% of papers in the same time.
 
 ## Publications per year
 
@@ -501,7 +501,7 @@ These tags were added over a 6 year period.  Are older papers back-tagged when n
 * **Galaxy Featured Tags** exist back to the beginning of time.  (These were converted from CiteULike's *priority* feature.)
 * **Topic and Public Server/Service tags** have been applied to older publications on a selected basis.
 
-Therefore, don't look for a lot of **+UseMain** or **+Cloud** tagged papers from before 2013. 
+Therefore, don't look for a lot of **+UseMain** or **+Cloud** tagged papers from before 2013.
 
 
 

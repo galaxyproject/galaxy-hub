@@ -26,6 +26,7 @@ for visualization plugins. It currently defaults to `<your galaxy directory>/con
 but can be set to any relative (to the galaxy directory) or absolute path reachable on the file system.
 
 Make sure this setting is uncommented and set to the directory from which you want to serve visualizations:
+
 ```bash
 # Visualizations config directory: where to look for individual visualization plugins.
 # The path is relative to the Galaxy root dir. To use an absolute path begin the path
@@ -35,12 +36,14 @@ visualization_plugins_directory = config/plugins/visualizations
 
 
 When enabled, the server log will print log messages when it finds and successfully loads a visualization plugin:
+
 ```#!
 galaxy.web.base.pluginframework INFO 2014-01-28 10:26:04,147 VisualizationsRegistry, loaded plugin: scatterplot
 ```
 
 
 If there's an error in your visualization's configuration file (or it's been disabled), you'll see:
+
 ```#!
 galaxy.web.base.pluginframework WARNING 2014-01-28 10:26:04,147 VisualizationsRegistry, plugin load failed or disabled:
 ./config/plugins/visualizations/sweepster. Skipping...
@@ -62,6 +65,7 @@ will use. At the very least, your plugin *must* have:
 3. A `template` directory and [Mako](http://www.makotemplates.org/) template file (or files)
 
 For example, if your new visualization was to be called 'myvis', you'd need a structure like this:
+
 ```#!
 config/plugins/visualizations/
     └── myvis/
@@ -78,6 +82,7 @@ same name as the plugin name / plugin directory.** In the example above that wou
 
 Additionally and optionally, you can also include a `static` directory and any statically served files your
 visualization may need (CSS, javascript, etc.):
+
 ```#!
 config/plugins/visualizations/
     └── myvis/
@@ -116,6 +121,7 @@ plugin to be loaded.
 #### A simple example
 
 Here's an example configuration file for a visualization that uses SAM data from a dataset in a user's history:
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE visualization SYSTEM "../../visualization.dtd">
@@ -148,6 +154,7 @@ Here's an example configuration file for a visualization that uses SAM data from
 end is some source of data you'd want to visualize and on the other end is the code that will generate your
 visualization's web page. `data_source` definitions allow us to define when a link will be rendered for a user give some
 source of visualization data.
+
 ```
     some data source -> `data_source` definition -> link -> `param` definition -> your visualization code
 ```
@@ -169,6 +176,7 @@ In our example, we only define one `data_source` and only test two attributes of
 can work with it:
 
 a) is it a dataset from a user's history?
+
 ```xml
         <data_source>
             <model_class>HistoryDatasetAssociation</model_class>
@@ -180,6 +188,7 @@ This sees if the source of data has the python class `HistoryDatasetAssociation`
 dataset contained within a history.
 
 and b) is the dataset in the SAM format/datatype?
+
 ```xml
         <data_source>
             ...
@@ -193,6 +202,7 @@ a subclass of it).
 
 Finally, if the dataset passes those tests, we can send it (or any other information) to the visualization using a
 `to_param` definition:
+
 ```xml
         <data_source>
             ...
@@ -202,6 +212,7 @@ Finally, if the dataset passes those tests, we can send it (or any other informa
 
 Here, we're telling the registry to add the `HistoryDatasetAssociation`'s `id` attribute to the final, rendered link
 (Note: ids are automatically encoded before being added to the link):
+
 ```#!
 <a href="http://localhost:8080/visualization/show/sam?dataset_id=f7bb1edd6b95db62">SAM Visualization</a>
 ```
@@ -217,6 +228,7 @@ This allows `param` definitions (the other end of the pipe) to parse `dataset_id
 
 In our example, we're attempting to visualize the data within a SAM dataset so we'll need to access the dataset from
 our visualization code (`sam.mako`). The following `param` definition allows us to do that:
+
 ```xml
     ...
     <params>
@@ -226,17 +238,20 @@ our visualization code (`sam.mako`). The following `param` definition allows us 
 ```
 
 This tells the registry that when:
+
 ```#!
 <a href="http://localhost:8080/visualization/show/sam?dataset_id=f7bb1edd6b95db62">SAM Visualization</a>
 ```
 
 is clicked:
+
 1. the `dataset_id` should be parsed into a dataset (`type="dataset"`) by finding the `HistoryDatasetAssociation`
   with the encoded id 'f7bb1edd6b95db62' in the database
 2. the ORM model is passed to the template (in this case, `sam.mako`) under the name `hda` (`var_name_in_template="hda"`)
 3. if `dataset_id` is *not* present in the link, an error will be raised (`required="true"`)
 
 Then, within `sam.mako`, we can access the ORM model of the `HistoryDatasetAssociation` the link was created for:
+
 ```#!
 <h2>${hda.dataset.datatype} | ${hda.name}</h2>
 ```
@@ -254,6 +269,7 @@ The code for your visualization begins with a Mako template file.
 #### Your visualizations template file
 
 The main entry point for any code that you add will be your plugin's Mako template file. Within the template you can:
+
 * import Galaxy modules
 * import and use your own modules
 * run python code
@@ -263,6 +279,7 @@ The main entry point for any code that you add will be your plugin's Mako templa
 
 The template file Galaxy and the visualizations registry will use to start your visualization is defined in your config
 file:
+
 ```xml
 <visualization name="SAM Visualization">
     ...
@@ -283,6 +300,7 @@ can iterate over the data in a dataset and output each datum. Each datum has bee
 with (hopefully) only minimum of work on your part.
 
 For our example, let's say we want to just print the mapping quality for each read in the file:
+
 ```mako
     <ul id="reads">
     %for read in hda.datatype.dataprovider( hda, 'dataset-dict' ):
@@ -303,6 +321,7 @@ base directory and placing files there. When the server is restarted, Galaxy wil
 
 For example, if we added a CSS file to our 'SAM Visualization' at `sam/static/style.css` we could load it and apply
 it like any CSS stylesheet in our final template file by adding the path:
+
 ```mako
 <!DOCTYPE HTML>
 <html>
@@ -320,6 +339,7 @@ serve different static content from each.
 
 We can also load any static file normally served by Galaxy as well without having to include them in your
 static directory:
+
 ```mako
 ...
 <script type="text/javascript" src="/static/scripts/libs/jquery/jquery.js"></script>

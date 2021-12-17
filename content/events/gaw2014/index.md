@@ -10,7 +10,7 @@ title: Galaxy Australasia Workshop 2014 (GAW 2014)
 <br />
 
 
-**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](http://australianbioinformatics.net/gaw-2014) was held in Melbourne, Australia on 24 and 25th March 2014.** 
+**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](http://australianbioinformatics.net/gaw-2014) was held in Melbourne, Australia on 24 and 25th March 2014.**
 
 The [Galaxy Australasia Workshop](http://australianbioinformatics.net/gaw-2014) was a great opportunity to participate in two full days of presentations, discussions, poster sessions, keynotes and lightning talks, all about ways of using Galaxy for high-throughput biology, imaging and other scientific applications. The workshop will also include Training Sessions taught by Galaxy developers and master users.  GAW 2014 ran 24 and 25th March, immediately preceding [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/) in Melbourne.
 
@@ -27,10 +27,10 @@ GAW 2014 also included poster session and keynote speakers.
 * Learn what the Galaxy Project's plans are, and contribute to Galaxy's future direction.
 
 * Learn
-  * how to visualize your data in Galaxy and use visualization to guide your analysis (visual analytics)
-  * how to share, publish, and reuse your analyses with Galaxy
-  * how to perform and enable your users to perform common, yet complex, analyses using Galaxy
-  * when and how to use Galaxy on the Cloud
+    * how to visualize your data in Galaxy and use visualization to guide your analysis (visual analytics)
+    * how to share, publish, and reuse your analyses with Galaxy
+    * how to perform and enable your users to perform common, yet complex, analyses using Galaxy
+    * when and how to use Galaxy on the Cloud
 
 # Program
 
@@ -233,7 +233,7 @@ It may be worth buying a [myki card](http://ptv.vic.gov.au/tickets/myki/ ); then
 ## Monday: Clayton MBI Auditorium, 770 Blackburn Rd
 
 The Australian Synchrotron is about 15 minutes walk from the Monash University Clayton Campus Bus Loop. [Travelling to Clayton Campus](http://www.monash.edu.au/campuses/clayton/travelling-and-parking.html#travel ) and
-[Public Transport to Clayton Campus - Detail](http://ptv.vic.gov.au/assets/PDFs/Campus-brochures/Campus-Specific-Brochure_Monash_Clayton_A4_Web.pdf ) 
+[Public Transport to Clayton Campus - Detail](http://ptv.vic.gov.au/assets/PDFs/Campus-brochures/Campus-Specific-Brochure_Monash_Clayton_A4_Web.pdf )
 
 ## Tuesday: Melbourne Convention Centre
 
@@ -299,9 +299,9 @@ The day closed amidst  the usual scrum of organising taxis and public transport 
 <div class='float-left'><a href='http://www.latrobe.edu.au/'><img src="/images/logos/LatrobeUSquare.jpg" alt="Latrobe University" height="75" /></a>
 <a href='http://wehi.edu.au/'><img src="/images/logos/WEHILogoSquare.jpg" alt="WEHI" height="75" /></a></div>
 
-Then two presentations about *using Galaxy for Bioinformatics Analysis*: [Using Galaxy for Proteogenomics](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/Cooke_Proteogenomics.pdf) from [Ira Cooke](http://www.latrobe.edu.au/scitecheng/about/staff/profile?uname=ICooke) ([Latrobe](http://www.latrobe.edu.au/)) and [shRNA-seq analysis in Galaxy](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/Ritchie_shRNA-Seq.pdf) from [Matthew Ritchie](http://bioinf.wehi.edu.au/folders/mritchie/) ([WEHI](http://wehi.edu.au/)). 
+Then two presentations about *using Galaxy for Bioinformatics Analysis*: [Using Galaxy for Proteogenomics](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/Cooke_Proteogenomics.pdf) from [Ira Cooke](http://www.latrobe.edu.au/scitecheng/about/staff/profile?uname=ICooke) ([Latrobe](http://www.latrobe.edu.au/)) and [shRNA-seq analysis in Galaxy](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gaw2014/Ritchie_shRNA-Seq.pdf) from [Matthew Ritchie](http://bioinf.wehi.edu.au/folders/mritchie/) ([WEHI](http://wehi.edu.au/)).
 
-The [GVL Project](https://genome.edu.au/wiki/GVL) and [CSIRO](http://csiro.au/) each gave us a few presentations about their *progress with Galaxy*, including CSIRO’s [Philippe Moncuquet](http://www.mendeley.com/profiles/moncuquet-philippe/) explaining how CSIRO is managing the large volumes of data. 
+The [GVL Project](https://genome.edu.au/wiki/GVL) and [CSIRO](http://csiro.au/) each gave us a few presentations about their *progress with Galaxy*, including CSIRO’s [Philippe Moncuquet](http://www.mendeley.com/profiles/moncuquet-philippe/) explaining how CSIRO is managing the large volumes of data.
 
 <div class='right'><a href='https://www.nectar.org.au'><img src="/images/logos/NectarLogoSmallNoText.png" alt="Nectar" height="60" /></a></div>
 

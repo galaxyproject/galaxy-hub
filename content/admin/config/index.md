@@ -11,9 +11,9 @@ title: Galaxy Configuration for Admins
 * [Galaxy Job Configuration](https://docs.galaxyproject.org/en/latest/admin/jobs.html)
 * [Authentication with LDAP/AD](/admin/config/external-user-auth/)
 * [Apache Proxy](https://docs.galaxyproject.org/en/latest/admin/special_topics/apache.html)
-  * [Apache External User Auth](/admin/config/apache-external-user-auth/)
+    * [Apache External User Auth](/admin/config/apache-external-user-auth/)
 * [Nginx Proxy](https://docs.galaxyproject.org/en/latest/admin/special_topics/nginx.html)
-  * [Nginx External User Auth](/admin/config/nginx-external-user-auth/)
+    * [Nginx External User Auth](/admin/config/nginx-external-user-auth/)
 
 ## Tools
 

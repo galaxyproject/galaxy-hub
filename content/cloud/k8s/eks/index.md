@@ -3,7 +3,7 @@ title: Deploy an Instance of Galaxy on Amazon Elastic Kubernetes Service
 highlight: true
 ---
 
-We break the steps of deploying Galaxy on 
+We break the steps of deploying Galaxy on
 [Amazon Elastic Kubernetes Service (Amazon EKS)](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html)
 into the following sections:
 
@@ -11,22 +11,22 @@ into the following sections:
 - [Install Helm](#install-helm);
 - [Deploy an instance of Galaxy using Helm charts](#deploy-galaxy-on-the-cluster);
 - [Access the deployed Galaxy instance](#access-galaxy-instance);
-- [Delete cluster](#delete-eks-cluster). 
+- [Delete cluster](#delete-eks-cluster).
 
 # Create a Cluster
 
-Amazon EKS offers two methods for creating a cluster: either via console, 
+Amazon EKS offers two methods for creating a cluster: either via console,
 or by using a tool named `eksctl`.
 
-When creating a cluster, you will need to make the following 
-decisions, taking note of the choices you make: 
+When creating a cluster, you will need to make the following
+decisions, taking note of the choices you make:
 
 1. Choose a [region](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html):
 the region selected must have Amazon Secure Token Service (STS)  
 activated for your account. You do not necessarily have STS activate for all
-regions under your account; please consult with your account admin. If you 
-choose a region where STS is not activated for your account, you may get an 
-error message as the following: 
+regions under your account; please consult with your account admin. If you
+choose a region where STS is not activated for your account, you may get an
+error message as the following:
 
     ```bash
     AWS::EKS::Cluster/ControlPlane: CREATE_FAILED – 
@@ -34,35 +34,36 @@ error message as the following:
     Your account administrator can activate STS in this region using the IAM Console. 
     ```
 
-2. Choose an [instance type](https://aws.amazon.com/ec2/instance-types/); 
-two points to consider: first, not necessarily all instance types are available in 
-all regions; therefore, choose an instance type that is available in the 
+2. Choose an [instance type](https://aws.amazon.com/ec2/instance-types/);
+two points to consider: first, not necessarily all instance types are available in
+all regions; therefore, choose an instance type that is available in the
 zone where you have STS activated. Second, choose an instance with a "reasonable"
 amount of resources, as you will be running multiple pods within that instance,
-and if you do not have enough resources, your pods will fail to schedule. For 
+and if you do not have enough resources, your pods will fail to schedule. For
 instance, avoid instance types such as `a1.medium`.
 
-3. Cluster node count. While you can deploy Galaxy on a k8s cluster with 
-multiple nodes, in the following we discuss how to deploy on a cluster with 
+3. Cluster node count. While you can deploy Galaxy on a k8s cluster with
+multiple nodes, in the following we discuss how to deploy on a cluster with
 a single node, as there is an additional step for deployment on a multi-node
-cluster that will be discussed separately. 
+cluster that will be discussed separately.
 
 To create a cluster on on EKS, you may follow these tutorials:
+
 - via console; read [how to start a cluster using the console](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html);
 - via the `eksctl` CLI tool; read [how to start a cluster using eksctl](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html)
 
-If you have used the `eksctl` tool to start a cluster, you may have run a 
-command similar to the following, which creates a cluster with `1` node of 
+If you have used the `eksctl` tool to start a cluster, you may have run a
+command similar to the following, which creates a cluster with `1` node of
 `m5.4xlarge` instance type in `us-east-1` zone:
 
 ```bash
 $ eksctl create cluster --name CLUSTER-NAME --version 1.13 --nodegroup-name standard-workers --node-type m5.4xlarge --nodes 1 --nodes-min 1 --nodes-max 1 --node-ami auto --region us-east-1
 ```
 
-Note that the instance type and zone values are arbitrary and you may choose any 
+Note that the instance type and zone values are arbitrary and you may choose any
 values following the afore-discussed points.
 
-If the command execution is successful, you may see an output as: 
+If the command execution is successful, you may see an output as:
 
 ```bash
 [ℹ]  using region us-east-1
@@ -92,27 +93,27 @@ If the command execution is successful, you may see an output as:
 
 # Install Helm
 
-In order to install and configure Helm on an EKS cluster, you may use 
+In order to install and configure Helm on an EKS cluster, you may use
 [this documentation](https://docs.aws.amazon.com/eks/latest/userguide/helm.html).
 
 
 # Deploy Galaxy on the Cluster
 
-Once you have established that you have Helm and have configured the `tiller` 
-server (as detailed in the above documentation), the deployment of a Galaxy on 
-a k8s cluster consists of two steps: 
+Once you have established that you have Helm and have configured the `tiller`
+server (as detailed in the above documentation), the deployment of a Galaxy on
+a k8s cluster consists of two steps:
 
 1. [Optional] deploy the [CernVM File System (CVMFS)](https://cernvm.cern.ch/portal/filesystem) chart.
-You may run the following commands for this deployment: 
+You may run the following commands for this deployment:
 
     ```bash
     $ git clone https://github.com/CloudVE/galaxy-cvmfs-csi-chart.git
     $ cd galaxy-cvmfs-csi-chart/galaxy-cvmfs-csi
     $ helm install .
     ```
-    
+
     Output may look like the following:
-    
+
     ```bash
     NAME:   wistful-sasquatch
     LAST DEPLOYED: Thu Aug  8 11:13:35 2019
@@ -184,10 +185,10 @@ You may run the following commands for this deployment:
     $ cd galaxy-helm/galaxy/
     $ helm dependency update
     $ helm install . --set persistence.accessMode=ReadWriteOnce --set service.type=LoadBalancer --set service.port=80 -f values-cvmfs.yaml
-    ``` 
-    
+    ```
+
     The output should look like the following:
-    
+
     ```bash
     NAME:   wistful-quoll
     LAST DEPLOYED: Thu Aug  8 11:21:33 2019
@@ -244,12 +245,12 @@ You may run the following commands for this deployment:
     NAME                           READY  AGE
     wistful-quoll-galaxy-postgres  0/1    2s
     ```
-    
+
 # Access Galaxy Instance
 
 Having deployed Galaxy on an EKS cluster, you may access the instance as the following:
 
-1. Run `kubectl get svc`, which lists the services as the following: 
+1. Run `kubectl get svc`, which lists the services as the following:
 
     ```bash
     NAME                                     TYPE           CLUSTER-IP       EXTERNAL-IP        PORT(S)        AGE
@@ -261,17 +262,18 @@ Having deployed Galaxy on an EKS cluster, you may access the instance as the fol
     wistful-quoll-galaxy-postgres-headless   ClusterIP      None             <none>             5432/TCP       9m
     ```
 
-2. Copy the `Name` of the `LoadBalancer` service (in this case, 
+2. Copy the `Name` of the `LoadBalancer` service (in this case,
 'wistful-quoll-galaxy'), and run the following command:
 
     ```bash
     $ kubectl describe svc wistful-quoll-galaxy
     ```
-    where `wistful-quoll-galaxy` is the name of the `LoadBalancer` in our example, that 
+
+    where `wistful-quoll-galaxy` is the name of the `LoadBalancer` in our example, that
     should be replaced by the name of `LoadBalancer` in your deployment.
-    
-    The output of this command is as the following: 
-    
+
+    The output of this command is as the following:
+
     ```bash
     Name:                     wistful-quoll-galaxy
     Namespace:                default
@@ -297,12 +299,12 @@ Having deployed Galaxy on an EKS cluster, you may access the instance as the fol
       Normal  EnsuredLoadBalancer   10m   service-controller  Ensured load balancer
     ```
 
-    The public IP address from which the Galaxy instance is available is given in the 
+    The public IP address from which the Galaxy instance is available is given in the
     `LoadBalancer Ingress` field.
-    
+
 # Delete EKS Cluster
 
-To delete all resources associated with the cluster (such as nodes, the load 
+To delete all resources associated with the cluster (such as nodes, the load
 balancer, and volumes) and avoid orphaned resources, a few steps must be taken:
 
 1. Run `kubectl get svc --all-namespaces`, whose output may look like the following:
@@ -317,27 +319,27 @@ balancer, and volumes) and avoid orphaned resources, a few steps must be taken:
     default       wistful-quoll-galaxy-postgres-headless   ClusterIP      None             <none>             5432/TCP        18m
     kube-system   kube-dns                                 ClusterIP      10.100.0.10      <none>             53/UDP,53/TCP   56m
     ```
-    
+
 2. Copy the `NAME` of the `LoadBalancer` service, and run the following command:
 
     ```bash
     $ kubectl delete svc wistful-quoll-galaxy
     ```
-    
-    where `wistful-quoll-galaxy` is the `NAME` of the `LoadBalancer` in our 
-    example. This will prevent normal failure recovery procedures from 
+
+    where `wistful-quoll-galaxy` is the `NAME` of the `LoadBalancer` in our
+    example. This will prevent normal failure recovery procedures from
     recreating any terminated instances.
-    
-3. To delete the cluster, run the following command replacing `CLUSTER-NAME` and `REGION` 
-with the name of your cluster and region, respectively, that you assigned when 
+
+3. To delete the cluster, run the following command replacing `CLUSTER-NAME` and `REGION`
+with the name of your cluster and region, respectively, that you assigned when
 creating the cluster.  
 
     ```bash
     $ eksctl delete cluster --name CLUSTER-NAME --region REGION
     ```
-    
+
     Output:
-    
+
     ```bash
     [ℹ]  using region us-east-1
     [ℹ]  deleting EKS cluster "CLUSTER-NAME"
@@ -349,11 +351,11 @@ creating the cluster.
     [ℹ]  will delete stack "eksctl-CLUSTER-NAME-cluster"
     [✔]  all cluster resources were deleted
     ```
-    
+
 4. [Amazon Elastic Block Store (EBS)](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-ebs-volume.html)
 volumes may not delete automatically. To delete them manually, take the following steps:
 
     - Goto [https://console.aws.amazon.com/ec2/](https://console.aws.amazon.com/ec2/);
     - Choose `Volumes` under the `ELASTIC BLOCK STORE` category;
     - choose the related volumes for the list;
-    - click on the `Actions` button, then the `Delete Volumes` menu item. 
+    - click on the `Actions` button, then the `Delete Volumes` menu item.

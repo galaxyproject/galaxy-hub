@@ -1,6 +1,6 @@
 # What are Data Managers?
 
-Data Managers are a special class of Galaxy tool which allows for the download and/or creation of data that is stored within [Tool Data Tables](/admin/tools/data-tables/) and their underlying flat (e.g. .loc) files. These tools handle e.g. the creation of indexes and the addition of entries/lines to the data table / .loc file via the Galaxy admin interface. 
+Data Managers are a special class of Galaxy tool which allows for the download and/or creation of data that is stored within [Tool Data Tables](/admin/tools/data-tables/) and their underlying flat (e.g. .loc) files. These tools handle e.g. the creation of indexes and the addition of entries/lines to the data table / .loc file via the Galaxy admin interface.
 
 Data Managers can be defined locally or installed through the Tool Shed.
 
@@ -18,7 +18,7 @@ The Data Manager framework supports any kind of built-in ("pre-cached") data tha
 
 # Graphical Overview of Interplay between Built-in Data and Galaxy Tools
 
-<a href='/images/learn/data_managers_figure_S1_schematic_overview.png'><img src="/images/learn/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a> 
+<a href='/images/learn/data_managers_figure_S1_schematic_overview.png'><img src="/images/learn/data_managers_figure_S1_schematic_overview.png" alt="" width=600 /></a>
 
 # List of pages in this category
 
@@ -31,7 +31,7 @@ The Data Manager framework supports any kind of built-in ("pre-cached") data tha
 
 # See also
 
-* [Admin/Tools/Data Tables](/admin/tools/data-tables/)
+- [Admin/Tools/Data Tables](/admin/tools/data-tables/)
 
 ----
 

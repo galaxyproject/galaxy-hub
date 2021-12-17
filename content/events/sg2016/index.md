@@ -7,7 +7,7 @@ title: Swiss German Galaxy Tour/Day 2016
 
 
 
-There will be a *Swiss-German Galaxy Tour* this fall featuring a range of events over 2 days in Freiburg (Germany) . 
+There will be a *Swiss-German Galaxy Tour* this fall featuring a range of events over 2 days in Freiburg (Germany) .
 
 
 ## Registration

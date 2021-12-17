@@ -19,4 +19,4 @@ Please [join us](https://calendar.google.com/calendar/embed?src=36q4nj52l0ps2l7j
 
 ---
 
-The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively. 
+The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively.

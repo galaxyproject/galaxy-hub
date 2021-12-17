@@ -3,39 +3,39 @@ title: Send Data to Cloud
 highlight: true
 ---
 
-The `send` API allows a user to copy data from a Galaxy `history` to a cloud-based storage (e.g., Amazon S3, and 
+The `send` API allows a user to copy data from a Galaxy `history` to a cloud-based storage (e.g., Amazon S3, and
 Microsoft Azure BLOB).
 
 You may use the following steps to use this API:
 
 1. Login to Galaxy using your Google account ([read how](/authnz/config/oidc/));
 2. Define a _cloud authzorization_ configuration ([read how](/authnz/cloud/));
-3. Get a Galaxy API key by going to `User -> Manage API key` On Galaxy's webpage and clicking on the 
+3. Get a Galaxy API key by going to `User -> Manage API key` On Galaxy's webpage and clicking on the
 `Create a new key` button;
 4. Make the API call as it follows:
 
     4.1. Open [Postman](https://www.getpostman.com);
-    
+
     4.2. Choose `POST` and enter the following in the fields highlighted in the following figure:
-    
+
     ```
     http://localhost:8080/api/cloud/storage/send?key=1234567890
     ```
-        
+
     Replace `http://localhost:8080` with the IP address of the Galaxy instance you're using, and
     replace `1234567890` with the your API key.
-        
+
     ![image](/cloud/storage/send_01.png)
-    
+
     4.3. Get the ID of Galaxy `history` from which you want to copy data, by going to the following
     address on your browser:
-    
+
     ```
     http://localhost:8080/api/histories
     ```
-        
+
     This will display a JSON object similar to the following, note the value of `id` field:
-    
+
     ```json
     [
        {
@@ -52,16 +52,16 @@ You may use the following steps to use this API:
        }
     ]
     ```
-        
-    4.4. Get the ID of authorization defined in step #2, which you want to use to write to the 
-    cloud-based storage, by going to following address: 
-    
+
+    4.4. Get the ID of authorization defined in step #2, which you want to use to write to the
+    cloud-based storage, by going to following address:
+
     ```
     http://localhost:8080/api/cloud/authz
     ```
-        
+
     This will display a JSON object similar to the following, note the value of `id` field:
-    
+
     ```json
     [
        {
@@ -76,12 +76,12 @@ You may use the following steps to use this API:
        }
     ]
     ```
-        
-    4.5. On Postman, goto `Body` tab as shown in the following figure and enter the 
+
+    4.5. On Postman, goto `Body` tab as shown in the following figure and enter the
     following API payload:
-    
+
     ![image](/cloud/storage/send_02.png)
-    
+
     ```json
     {
         "history_id": "03501d7626bd192f",
@@ -89,12 +89,12 @@ You may use the following steps to use this API:
         "bucket": "vahid-objectstore"
     }
     ```
-    
+
     Replace `vahid-objectstore` with a bucket name to which you want to `send` data.
-    
+
     4.6. Click on the `Send` button; Postman will submit a request to Galaxy to `send` data
-    and will shows a result as the following. 
-    
+    and will shows a result as the following.
+
     ```json
     {
         "sent_dataset_labels": [
@@ -105,6 +105,6 @@ You may use the following steps to use this API:
         "failed_dataset_labels": []
     }
     ```
-    
+
     This JSON object shows two Galaxy datasets,`rep1.bed` and `rep2.bed`, are queued for
-    being sent to the `vahid-objectstore` bucket. 
+    being sent to the `vahid-objectstore` bucket.

@@ -14,10 +14,10 @@ Two new servers were added to [the list of publicly accessible Galaxy servers](/
 ## CoSSci: Complex Social Science Gateway
 
 <div class='right solid'><a href='http://socscicompute.ss.uci.edu/'><img src="/use/cossci/cossci-map.png" alt="CoSSci; Women's work map: cycles of lines contain local autocorrelation regions" width="275" /></a></div>
-   
+
 *Tools for solving [Galton's problem](http://en.wikipedia.org/wiki/Galton's_problem) in Comparative Research and complex network problems in Social Science.*
 
-The [CoSSci Gateway](http://socscicompute.ss.uci.edu/) is a public Galaxy server portal linked to a [SDSC XSEDE Gateway](https://www.xsede.org/gateways-listing) for R-based analysis of multiple social science databases. CoSSci is hosted by the [Institute for Mathematical Behavioral Science](http://intersci.ss.uci.edu/) at UC Irvine.  The initial six databases are anthropological (cross-cultural, foragers, etc.) and will expand to include cross-national (political, psychological, economic), regional, comparative urban and kinship networks, and solutions to identifying network-based structural cohesion and its consequences. 
+The [CoSSci Gateway](http://socscicompute.ss.uci.edu/) is a public Galaxy server portal linked to a [SDSC XSEDE Gateway](https://www.xsede.org/gateways-listing) for R-based analysis of multiple social science databases. CoSSci is hosted by the [Institute for Mathematical Behavioral Science](http://intersci.ss.uci.edu/) at UC Irvine.  The initial six databases are anthropological (cross-cultural, foragers, etc.) and will expand to include cross-national (political, psychological, economic), regional, comparative urban and kinship networks, and solutions to identifying network-based structural cohesion and its consequences.
 
 The initial modeling software solves for autocorrelation effects (spatial, phylogenetic histories, common language, common environment, larger polities and religion, etc. *Dow-Eff* software performs autocorrelation regression.  *logit* provides multiple imputations of missing data for single or multiple overlapping datasets, maps, and also incorporates Bayesian and graphical approaches to testing for causal inferences and controlling for biases.
 
@@ -134,7 +134,7 @@ If you care about reproducible research, then take a look.
 The Galaxy is expanding! Please help it grow.
 
 * [CDD en bioinformatique : recherche de variants structuraux par reséquençage (NGS)](http:////bit.ly/1h1yQnf)
-* [Stage Master 2](http://bit.ly/18Qd2Eg) : Développement et intégrationd’outils pour la bioanalyse dans l’environnement Galaxy 
+* [Stage Master 2](http://bit.ly/18Qd2Eg) : Développement et intégrationd’outils pour la bioanalyse dans l’environnement Galaxy
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * [Computational biology opening](/news/computational-biology-paris/) at University Pierre-et-Marie-Curie, Paris
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**.
@@ -161,7 +161,7 @@ The [IFB (French Bioinformatic Institute) Galaxy working group](http://www.ifb-g
 
 The main aim of [this meeting](http://www.ifb-galaxy.org/4dec2013.html) is to share experiences from laboratories and platforms working daily with Galaxy. Thirteen talks will have been selected to present insights about installations and releases of Galaxy platforms, new usages / domains, and technological developments.
 
-[Registration](http://www.ifb-galaxy.org/formations_formulaire.html) is open and free, but limited to 90 people. 
+[Registration](http://www.ifb-galaxy.org/formations_formulaire.html) is open and free, but limited to 90 people.
 
 <div class='center'>
 Sponsored and organized by [URGI](http://urgi.versailles.inra.fr/), [GenoToul](http://bioinfo.genotoul.fr/), [MIGALE](http://migale.jouy.inra.fr/), [PFEM](http://metabohub.fr/), [SouthGreen](http://southgreen.cirad.fr/), [Institut Curie](http://curie.fr/), [ABiMS](http://abims.sb-roscoff.fr/)
@@ -182,7 +182,7 @@ Sponsored and organized by [URGI](http://urgi.versailles.inra.fr/), [GenoToul](h
 <div class='left'><a href='https://training.bioinformatics.ucdavis.edu/bootcamps/'><img src="/images/logos/UCDavisGenomeCenterLogo.jpg" alt="Introduction to Galaxy Boot Camp @ UC Davis Bioinformatics Core"  /></a><br />
 &nbsp;<img src="/images/logos/galaxyLogoSymbol.png" alt="Galaxy" width="75" /></div>
 
-The [next offering of UC Davis Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/) will be held on the [UC Davis](http://www.ucdavis.edu/) campus December 10-13. 
+The [next offering of UC Davis Bioinformatics Bootcamps](https://training.bioinformatics.ucdavis.edu/bootcamps/) will be held on the [UC Davis](http://www.ucdavis.edu/) campus December 10-13.
 
 These focused one-day courses are for researchers looking to get up to speed quickly on the latest technologies and techniques in bioinformatics. Students will work on their own laptops and have continued access to software and example data used in the exercises through a [public Amazon Web Services virtual machine](http://bioinformatics.ucdavis.edu/software/). The first three bootcamps will use the Galaxy platform, and the final bootcamp will use both Galaxy and the command-line. The Alignment and Assembly bootcamps (Dec. 11th & 12th) require you to know Galaxy, so if you are unfamiliar with Galaxy, you should also take the Introduction bootcamp on Dec. 10th.
 
@@ -208,7 +208,7 @@ Enrollment for each bootcamp will be capped at 24 students. Please enroll early 
 
 <br />
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
 <a href='http://bit.ly/16tBdIZ'><img src="/images/logos/DDBJLogoSmall.png" alt="NGS解析Galaxy特集とDDBJ" height="60" /></a>
 <a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=43'><img src="/images/logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
@@ -359,14 +359,14 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 
 There were many...
 
-* [spp_tool](http://bit.ly/19W9VKq): Cross-correlation analysis package (SPP) 
-* [micomplete](http://bit.ly/1b3zQQG): Completeness report for (single-cell amplified) genomes 
+* [spp_tool](http://bit.ly/19W9VKq): Cross-correlation analysis package (SPP)
+* [micomplete](http://bit.ly/1b3zQQG): Completeness report for (single-cell amplified) genomes
 * [BLAT](http://bit.ly/1b3zARw) a very fast sequence alignment tool similar to BLAST  
-* [sequel](http://bit.ly/GWziCQ): correct errors (i.e., insertions, deletions, substitutions) in contigs output from assembly 
-* [gatk_2_7](http://bit.ly/1cK0P5I) 
-* [macs2](http://bit.ly/1gXjSMI): Model-based Analysis of ChIP-Seq (macs2) 
-* [sample](http://bit.ly/1ejVjay): sample records from the input file(s). Supports paired data if paired files are in sync. 
-* [interproscan5](http://bit.ly/1cLUTvJ): functional annotations/predictions 
+* [sequel](http://bit.ly/GWziCQ): correct errors (i.e., insertions, deletions, substitutions) in contigs output from assembly
+* [gatk_2_7](http://bit.ly/1cK0P5I)
+* [macs2](http://bit.ly/1gXjSMI): Model-based Analysis of ChIP-Seq (macs2)
+* [sample](http://bit.ly/1ejVjay): sample records from the input file(s). Supports paired data if paired files are in sync.
+* [interproscan5](http://bit.ly/1cLUTvJ): functional annotations/predictions
 * [cuffmerge](http://bit.ly/Gzzqsc), [cuffcompare](http://bit.ly/17oDXYf), [cuffdiff](http://bit.ly/19V3Eyh), and [cufflinks](http://bit.ly/GzJSj4)
-* [muscle](http://bit.ly/1aJ0fVO): multiple alignment tool 
+* [muscle](http://bit.ly/1aJ0fVO): multiple alignment tool
 * [CLC Assembly Cell (CLCbio)](http://bit.ly/1aTY66l) (under development and looking for comments)

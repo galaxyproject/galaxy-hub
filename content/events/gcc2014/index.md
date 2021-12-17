@@ -15,7 +15,7 @@ tags: [ cofest ]
 
 <div class="text-center">
 **[Slides, posters, and videos are now available](/events/gcc2014/abstracts/); *and [GCC2018](https://gccboscs.sched.com/) is coming!* **
-</div> 
+</div>
 
 The 2014 Galaxy Community Conference (GCC2014) was held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014
 
@@ -46,13 +46,13 @@ Several meeting reports have been created online:
     Use Galaxy to construct complex bioinformatics workflows and then run them repeatedly, share them with others, or publish them to the world.
 
 * **Sequencing and Bioinformatics core staff**
-    Local Galaxy deployments can talk directly with your sequencers, simplify your analysis tasks, and give your researchers direct access to running their own custom analysis. 
+    Local Galaxy deployments can talk directly with your sequencers, simplify your analysis tasks, and give your researchers direct access to running their own custom analysis.
 
 * **Bioinformatics tool developers and data providers**
-    Integrate your tools and resources in the Galaxy framework, increasing their visibility, and making them easier to use and integrate with other resources. 
+    Integrate your tools and resources in the Galaxy framework, increasing their visibility, and making them easier to use and integrate with other resources.
 
 * **Data and analysis archival specialists**
-    Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets and the computational analyses that produced them. 
+    Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets and the computational analyses that produced them.
 
 ## You should attend to ...
 
@@ -60,10 +60,10 @@ Several meeting reports have been created online:
 * **[Learn best practices](/events/gcc2014/program/)** for deploying Galaxy, defining and installing resources, and managing and moving large datasets.
 * **Network with others** in the Galaxy community who are facing similar challenges and using Galaxy and other tools to address them.
 * Learn what the Galaxy Project's plans are, and **contribute to Galaxy's future direction.**
-* **Learn** 
-  * how to visualize your data in Galaxy and use visualization to guide your analysis (visual analytics)
-  * how to share, publish, and reuse your analyses with Galaxy
-  * how to perform *and enable your users to perform* common, yet complex, analyses using Galaxy
+* **Learn**
+    * how to visualize your data in Galaxy and use visualization to guide your analysis (visual analytics)
+    * how to share, publish, and reuse your analyses with Galaxy
+    * how to perform *and enable your users to perform* common, yet complex, analyses using Galaxy
 * when and how to use *Galaxy on the Cloud*
 
 <div class='right'><br /><br /><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/images/people/Salzberg.jpg" alt="Steven Salzberg" width="125" /></a></div>
@@ -76,7 +76,7 @@ Steve's GCC2014 talk will be on "Transcriptomes and Exomes: Computational Challe
 
 ## About Galaxy
 
-Galaxy makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis, trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/admin/license/). 
+Galaxy makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis, trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/admin/license/).
 
 ## GCC2014 Sponsors
 
@@ -92,7 +92,7 @@ Galaxy makes it easy to perform analysis interactively through the web, on arbit
 
 [<img class="mx-auto"  src="/images/logos/SGILogo400.jpg" alt="SGI" width="210" />](http://www.sgi.com/solutions/genomics/)
 
- 
+
 <br /><br />
 
 

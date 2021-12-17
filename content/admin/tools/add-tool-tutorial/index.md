@@ -52,7 +52,7 @@ Next, we need to copy the Perl script to our new subdirectory so that Galaxy can
 ### 3. Create the tool definition file.
 
 Although `toolExample.pl` now resides within the `tools/myTools/` directory, Galaxy does not know how to execute this tool. To inform Galaxy of the execution details of this tool, we need to generate a tool definition file. In this example we have created the tool definition file `toolExample.xml` within the `tools/myTools` directory.
- 
+
 ```xml
 <tool id="fa_gc_content_1" name="Compute GC content" version="0.1.0">
   <description>for each sequence in a file</description>

@@ -25,6 +25,7 @@ make many things as easy as possible.)
 
 Since the template system Galaxy currently uses is the Mako template system, the first possible jumping off point is
 python. Your template could use any number of technologies through python:
+
 * [matplotlib](http://matplotlib.org)
 * [gnuplot](http://gnuplot.info)
 * [R](http://r-project.org) and [RPy2](http://rpy.sourceforge.net/rpy2.html)
@@ -35,18 +36,21 @@ instance as a whole; you won't be able to pull them in *just* for your visualiza
 
 Mako specializes in creating markup of any type readable by modern browsers - so you can also leverage it by itself to
 create:
+
 * HTML
 * SVG
 * MathML
 * [Data URIs](http://en.wikipedia.org/wiki/Data_URI_scheme)
 
 Addtionally, since the product of the mako template is a web page, JavaScript and client side code is also a good option:
+
 * SVG with [d3js](http://d3js.org), [raphaeljs](http://raphaeljs.com), or any others
 * the HTML5 canvas with [paperjs](http://paperjs.org), [chartjs](http://chartjs.org),
   [processingjs](http://processingjs.org) or any others
 * WebGL with [philogl](http://senchalabs.org/philogl), [X](http://github.com/xtk/X), or others
 
 Interactivity can be used via python or JavaScript as well:
+
 * Control the page via python and in-page links, forms, and the traditional GET/POST HTTP cycle
 * Control the page via JavaScript with any number of JS libraries, widgets, and events
 
@@ -92,6 +96,7 @@ bootstrapping this data is the dataset datatype's dataproviders.
 
 You could bootstrap into python, getting the data directly from the `datatype.dataprovider` (keep in mind a
 dataprovider is a python generator):
+
 ```python
 bootstrapped_interval_list = list( dataset.datatype.dataprovider( dataset, 'interval-map' ) )
 # do something with the data
@@ -99,6 +104,7 @@ bootstrapped_interval_list = list( dataset.datatype.dataprovider( dataset, 'inte
 
 
 Alternately you could bootstrap into javascript with the helper (`h`) method `to_json_string`:
+
 ```javascript
     var interval_list = ${h.to_json_string( list( dataset.datatype.dataprovider( dataset, 'interval-map' ) ) )};
     // do something with the data
@@ -107,6 +113,7 @@ Alternately you could bootstrap into javascript with the helper (`h`) method `to
 
 The entry point for getting the data through the API (or even loading *more* data after you've bootstrapped some) is
 through the datasets api and a library that can do AJAX requests (such as jQuery):
+
 ```javascript
     var encodedId = '${query_args[ 'dataset_id' ]}';
     var ajaxReq = jQuery.ajax( '/api/datasets/' + encodedId, {
@@ -128,6 +135,7 @@ through the datasets api and a library that can do AJAX requests (such as jQuery
 
 More supporting infrastructure is available to you through the API. Here you can add client code for interactivity
 including:
+
 * Loading already configured or saved visualizations
 * Saving the current state of a user's visualization through the visualizations API
 * Running tools and workflows from your visualization with the tools and workflows API
@@ -138,6 +146,7 @@ including:
 If you're successfully calling your visualization's page and (from the javascript console) you're seeing **404s when
 the page attempts to load static resources**. It may be that your server is using a proxy server that needs a rewrite
 rule to find the static content. For example, with nginx:
+
 ```nginx
     location ~ ^/plugins/visualizations/(?<vis_name>.+?)/static/(?<static_file>.*?)$ {
         alias /my_galaxy_dir/config/plugins/visualizations/$vis_name/static/$static_file;

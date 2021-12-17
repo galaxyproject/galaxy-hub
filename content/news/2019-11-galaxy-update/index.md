@@ -13,7 +13,7 @@ The *November 2019 Galactic News*  includes Galactic news under this or any othe
 * [2 new blog posts](#galactic-blog-activity)
 * [Galaxy Platform News](/news/2019-11-galaxy-update/#galaxy-platforms-news)
 * [Training material and doc updates](/news/2019-11-galaxy-update/#doc-hub-and-training-updates)
-* [Openings](/news/2019-11-galaxy-update/#whos-hiring) with 5 organizations 
+* [Openings](/news/2019-11-galaxy-update/#whos-hiring) with 5 organizations
 * [Releases](#releases)
 * [Other news](/news/2019-11-galaxy-update/#other-news)
 
@@ -176,7 +176,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <img class="card-img-top" src="/images/logos/sciensano-logo.jpg" alt="Sciensano" />
 
-A general purpose Galaxy server optimized for microbiological genomics applications of interest for public health.   Support analysis of Illumina and IonTorrent data.  A set of YouTube videos will be released in the beginning of 2020. 
+A general purpose Galaxy server optimized for microbiological genomics applications of interest for public health.   Support analysis of Illumina and IonTorrent data.  A set of YouTube videos will be released in the beginning of 2020.
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">

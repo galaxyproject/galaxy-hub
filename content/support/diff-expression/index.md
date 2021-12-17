@@ -45,20 +45,21 @@ Expect odd errors or content problems if any of the usage requirements below are
 1. Reference annotation should be in [GTF](/learn/datatypes/#gtf) format for most of these tools, with no header/comment lines. Remove all [GTF](/learn/datatypes/#gtf) header lines with the tool `Remove beginning of a file`. If any are comment lines are internal to the file, those should be removed. The tool `Select` can be used.
 1. Make sure that if a [GTF](/learn/datatypes/#gtf) dataset is used, and tool form settings are expecting particular attributes, those are actually in your annotation file (example: gene_id).
 1. [GFF3](/learn/datatypes/#gff3) data (when accepted by a tool) should have single `#` comment line and any others (at the start or internal) that usually start with a `##` should be removed. The tool `Select` can be used.
-1. If a [GTF](/learn/datatypes/#gtf) dataset is not available for your genome, a two-column [tabular](/learn/datatypes/#tabular-tab-delimited) dataset containing `transcript <tab> gene` can be used instead with most of these tools. Some reformatting of a different annotation file type might be needed. Tools in the groups under `GENERAL TEXT TOOLS` can be used. 
-1. Make sure that if your count inputs have a header, the option `Files have header?` is set to `Yes`. If no header, set to `No`. 
+1. If a [GTF](/learn/datatypes/#gtf) dataset is not available for your genome, a two-column [tabular](/learn/datatypes/#tabular-tab-delimited) dataset containing `transcript <tab> gene` can be used instead with most of these tools. Some reformatting of a different annotation file type might be needed. Tools in the groups under `GENERAL TEXT TOOLS` can be used.
+1. Make sure that if your count inputs have a header, the option `Files have header?` is set to `Yes`. If no header, set to `No`.
 1. Custom genomes/transcriptomes/exomes must be formatted correctly before mapping. FAQ: [Preparing and using a Custom Reference Genome or Build](/learn/custom-genomes/)
 1. Any reference annotation should be an exact match for any genome/transcriptome/exome used for mapping. Build and version matter. FAQ: [Mismatched Chromosome identifiers (and how to avoid them)](/support/chrom-identifiers/)
 1. Avoid using [UCSC's](https://genome.ucsc.edu/) annotation extracted from their Table Browser. All [GTF](/learn/datatypes/#gtf) datasets from the UCSC Table Browser have the same content populated for the transcript_id and gene_id values. Both are the "transcript_id", which creates scientific content problems, effectively meaning that the counts will be summarized "by transcript" and not "by gene", even if labeled in a tool's output as being "by gene". It is usually possible to extract gene/transcript in tabular format from other related tables. Review the Table Browser usage at [UCSC](https://genome.ucsc.edu/) for how to link/extract data or ask them for guidance if you need extra help to get this information for a specific data track.
-  * Note: Selected genomes at UCSC do have a reference anotatation GTF pre-computed and available with a Gene Symbol populated into the "gene_id" value. Find these in the UCSC "Downloads" area. When available, the link can be directly copy/pasted into the Upload tool in Galaxy. Allow Galaxy to *autodetect the datatype* to produce an uncompressed GTF dataset in your history ready to use with tools. Examples:
-  * http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.refGene.gtf.gz
-  * http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/genes/hg19.refGene.gtf.gz
-  * http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/genes/mm10.refGene.gtf.gz
+
+* Note: Selected genomes at UCSC do have a reference anotatation GTF pre-computed and available with a Gene Symbol populated into the "gene_id" value. Find these in the UCSC "Downloads" area. When available, the link can be directly copy/pasted into the Upload tool in Galaxy. Allow Galaxy to *autodetect the datatype* to produce an uncompressed GTF dataset in your history ready to use with tools. Examples:
+* http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/genes/hg38.refGene.gtf.gz
+* http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/genes/hg19.refGene.gtf.gz
+* http://hgdownload.soe.ucsc.edu/goldenPath/mm10/bigZips/genes/mm10.refGene.gtf.gz
 
 
 # More Resources
 
-Review the documentation for these tools to better understand the usage. Galaxy tutorials also cover the topic.* 
+Review the documentation for these tools to better understand the usage. Galaxy tutorials also cover the topic.*
 
 Tool publication/help links are usually at the very bottom of tool forms, review these links if they apply to the tools you are using.
 

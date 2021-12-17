@@ -20,6 +20,7 @@ The Galaxy Community Conference has been held annually since 2010.  [This year's
 GCC draws 200+ participants from data-intensive life science research.  Participants come from around the world, from all career stages, and do research spanning the tree of life.  Universities, hospitals and medical schools, research organizations, and industry are all represented, including the largest and most influential organizations in the world.  
 
 What do we need to host GCC, you ask?  In approximately decreasing order of importance:
+
 * **Enthusiasm to plan and organize a 3+ day event for more than 200 people.**
 * Space for 4-6 parallel Training Day sessions, each able to accommodate from 25 to 75 participants.
 * Central meeting space with capacity for 250-300 people.

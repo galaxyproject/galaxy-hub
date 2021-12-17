@@ -27,7 +27,7 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 ![James Taylor](./james.jpg)
 
-</div> 
+</div>
 
 *A note to James, a year after his passing.*
 
@@ -43,7 +43,7 @@ There is also [AnVIL](https://anvilproject.org/). Shaped by your vision from the
 
 [We used your sudden absence as an excuse to raise money](/jxtx/foundation/). Our goal was to fund a program that would make it possible for graduate students to attend key genomics meetings. The response was amazing! We tested this approach at CSHL Biological Data Science past year and funded [10 graduate students](https://galaxyproject.org/news/2020-10-jxtx-awardees/). We will be doing this regularly once life returns to post-COVID normal and meetings are again of the "in-person" kind.
 
-One last thing. Some of us know your birthday date despite your best effort to hide it. So from now on, we will be celebrating each May 18 as the JXTX/Galaxy day. This year the Galaxy community members will come together to produce short videos in which they describe their interactions with you or the impact you’ve had on them - we’ll then assemble the videos into a modern poster. I just wanted to warn you ahead of time as you may find videos about yourself a bit weird. 
+One last thing. Some of us know your birthday date despite your best effort to hide it. So from now on, we will be celebrating each May 18 as the JXTX/Galaxy day. This year the Galaxy community members will come together to produce short videos in which they describe their interactions with you or the impact you’ve had on them - we’ll then assemble the videos into a modern poster. I just wanted to warn you ahead of time as you may find videos about yourself a bit weird.
 
 So, as you can see, we are trying … we’ll be keeping you in the loop. Just not on April 2. We think May 18 is better!
 

@@ -32,7 +32,7 @@ Galaxy specific tags all start with "+":
 | [+IsGalaxy](https://www.zotero.org/groups/galaxy/items/tag/+IsGalaxy/) | Publications about Galaxy itself or installations of Galaxy. |
 | [+Methods](https://www.zotero.org/groups/galaxy/items/tag/+Methods/) | Uses Galaxy in their methods. If it's clear from the paper, which instance was used, then methods papers will also include one or more of these tags: |
 | &nbsp; [+UseCloud](https://www.zotero.org/groups/galaxy/items/tag/+UseCloud/) | &nbsp; Uses a custom built cloud based instance of Galaxy in its methods. |
-| &nbsp; [+UseLocal](https://www.zotero.org/groups/galaxy/items/tag/+UseLocal/) | &nbsp; Uses a local installation of Galaxy in its methods. | 
+| &nbsp; [+UseLocal](https://www.zotero.org/groups/galaxy/items/tag/+UseLocal/) | &nbsp; Uses a local installation of Galaxy in its methods. |
 | &nbsp; [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | &nbsp; Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/main/), in its methods. |
 | &nbsp; [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | &nbsp; Uses a [publicly accessible Galaxy platform](/use/) in its methods. |
 | [+Other](https://www.zotero.org/groups/galaxy/items/tag/+Other/) | Publications that don't fit well under any other tag. |

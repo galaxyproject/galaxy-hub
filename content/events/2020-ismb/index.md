@@ -29,7 +29,7 @@ gtn: false
 | | | Poster: The Workflow Hub | Ambarish Kumar |
 | Wed July 15 | 12:20-12:30pm | [Mass spectrometry imaging in the age of reproducible medical science, CompMS COSI](https://www.iscb.org/cms_addon/conferences/ismb2020/tracks/compmscosi) ([Video](https://www.youtube.com/watch?v=Zf0aFXm8BZE)) | Melanie Christine Föll |
 | | 2:50-3pm | [Democratizing DIA analysis on public cloud infrastructures via Galaxy, CompMS COSI](https://www.iscb.org/cms_addon/conferences/ismb2020/tracks/compmscosi) ([Video](https://www.youtube.com/watch?v=CvKdZU-Hf74)) | Matthias Fahrner |
-| Thu July 16 | 3:45-4pm | [Tools, Workflows and Infrastructure for Open and Reproducible Analysis of SARS-CoV-2 Data, Covid-19 Special Track](https://www.iscb.org/cms_addon/conferences/ismb2020/tracks/covid-19) ([Video](https://www.youtube.com/watch?v=9YwwC35leUY)) | Björn Grüning | 
+| Thu July 16 | 3:45-4pm | [Tools, Workflows and Infrastructure for Open and Reproducible Analysis of SARS-CoV-2 Data, Covid-19 Special Track](https://www.iscb.org/cms_addon/conferences/ismb2020/tracks/covid-19) ([Video](https://www.youtube.com/watch?v=9YwwC35leUY)) | Björn Grüning |
 
 
 <sup>*</sup> Montréal time.

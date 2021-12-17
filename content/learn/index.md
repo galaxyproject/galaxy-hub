@@ -44,30 +44,30 @@ Administration & Development
 
 These tutorials are using Galaxy's main site at https://usegalaxy.org:
 
- - [Galaxy 101](/tutorials/g101/) - the basic introduction to Galaxy's interface, its functionality, and workflows. **Start here** if you never used Galaxy before.
- - [Uploading data](/tutorials/upload/) - how to get data into Galaxy.
- - [Histories](/tutorials/histories/) - in Galaxy uploaded data and analysis results reside within the history pane. This tutorial explains how history works.
- - [Dataset collections](/tutorials/collections/) - modern studies usually include many samples. Collection are designed to simplify complex, multi-sample analyses as shown in this tutorial.
- - [NGS logistics](/tutorials/ngs/) - this is an introduction to Galaxy's functionality for the analysis of Next Generation Sequencing data.
- - Variant discovery: [diploid case](/tutorials/var-dip/) - this tutorial explains calling sequence variants in **diploid** systems like ... humans.
- - Variant discovery: [haploid case](/tutorials/var-hap/) - this tutorial explains calling sequence variants in **haploid** systems like ... bacteria and viruses.
- - RNA-seq: [Introduction](/tutorials/rb-rnaseq/) - an introductory tutorial for transcriptome analysis.
- - RNA-seq: [Discovering and quantifying new transcripts](/tutorials/nt-rnaseq/) - an in-depth transcriptome analysis example.
- - ChIP-seq: [A simple ChIP-seq experiment with two replicates](/tutorials/chip/) - an example analysis for finding transcription factor binding sites.
+- [Galaxy 101](/tutorials/g101/) - the basic introduction to Galaxy's interface, its functionality, and workflows. **Start here** if you never used Galaxy before.
+- [Uploading data](/tutorials/upload/) - how to get data into Galaxy.
+- [Histories](/tutorials/histories/) - in Galaxy uploaded data and analysis results reside within the history pane. This tutorial explains how history works.
+- [Dataset collections](/tutorials/collections/) - modern studies usually include many samples. Collection are designed to simplify complex, multi-sample analyses as shown in this tutorial.
+- [NGS logistics](/tutorials/ngs/) - this is an introduction to Galaxy's functionality for the analysis of Next Generation Sequencing data.
+- Variant discovery: [diploid case](/tutorials/var-dip/) - this tutorial explains calling sequence variants in **diploid** systems like ... humans.
+- Variant discovery: [haploid case](/tutorials/var-hap/) - this tutorial explains calling sequence variants in **haploid** systems like ... bacteria and viruses.
+- RNA-seq: [Introduction](/tutorials/rb-rnaseq/) - an introductory tutorial for transcriptome analysis.
+- RNA-seq: [Discovering and quantifying new transcripts](/tutorials/nt-rnaseq/) - an in-depth transcriptome analysis example.
+- ChIP-seq: [A simple ChIP-seq experiment with two replicates](/tutorials/chip/) - an example analysis for finding transcription factor binding sites.
 
 ## Interactive Tours
 
 Tours guide you through interface elements interactively:
 
- - [Using Galaxy Interface](https://usegalaxy.org/tours/core.galaxy_ui)
- - [Understanding histories](https://usegalaxy.org/tours/core.history)
- - [Scratchbook introduction](https://usegalaxy.org/tours/core.scratchbook)
+- [Using Galaxy Interface](https://usegalaxy.org/tours/core.galaxy_ui)
+- [Understanding histories](https://usegalaxy.org/tours/core.history)
+- [Scratchbook introduction](https://usegalaxy.org/tours/core.scratchbook)
 
 ## Tutorials from Lewis-Sigler Institute @ Princeton
 
 These tutorials are produced by Lance Parsons at LSI
 
- - [Visualization with Galaxy and IGV Tutorial](https://bit.ly/10TFBcy)
- - [RNA-Seq Data Analysis Workshop](https://bit.ly/11Qvnwh)
- - [SNP & Indel Detection Tutorial](https://bit.ly/10mulcT)
- - [ChIP-Seq Tutorial](https://bit.ly/13fLyT1)
+- [Visualization with Galaxy and IGV Tutorial](https://bit.ly/10TFBcy)
+- [RNA-Seq Data Analysis Workshop](https://bit.ly/11Qvnwh)
+- [SNP & Indel Detection Tutorial](https://bit.ly/10mulcT)
+- [ChIP-Seq Tutorial](https://bit.ly/13fLyT1)

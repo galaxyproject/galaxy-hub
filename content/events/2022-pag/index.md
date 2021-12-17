@@ -21,6 +21,6 @@ Galaxy had a strong presence at [Plant and Animal Genome XXIX (PAG 2022](http://
 | **Tuesday, January 11** | 4:00-4:20 | [Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2022/event/b5d0a6344ad186520bf2fd8cba685fe9) | [Galaxy: An Open Platform for Data Analysis and Integration](https://plan.core-apps.com/pag_2022/event/4768a701b1aeb98ca6785b1ca7a7d4ee) | | Mike Schatz |
 | | 4:20-6:10 | [Machine Learning in Galaxy: A Worked Example Using Fruit Image Datasets](https://plan.core-apps.com/pag_2022/event/4f4ee80036503c81968a10e648621d20) | [Galaxy: An Open Platform for Data Analysis and Integration](https://plan.core-apps.com/pag_2022/event/4768a701b1aeb98ca6785b1ca7a7d4ee) | | Kaivan Kamali | 
 | **Wednesday, January 12** | | | | | |
-| **TBD** | TBD | [Integrating, Visualizing and Analyzing Tree Environment, Phenotype and Genotype Using Cartograplant, Wildtype and Tripal Galaxy](https://plan.core-apps.com/pag_2022/abstract/375f24653f6d2cd6d76377d9ba59c8ef) | | | Irene Coho-Simón | 
+| **TBD** | TBD | [Integrating, Visualizing and Analyzing Tree Environment, Phenotype and Genotype Using Cartograplant, Wildtype and Tripal Galaxy](https://plan.core-apps.com/pag_2022/abstract/375f24653f6d2cd6d76377d9ba59c8ef) | | | Irene Coho-Simón |
 
 We will add more presentations here, as they are posted.

@@ -15,9 +15,10 @@ import links from "../../links.json"
 
 ### Summary
 
-As an administrator of your own local Galaxy, you can extend Galaxy by writing new tools and adding them to the tool panel for your users to use. There are a few things you need to do to make them work. In the simplest possible case, you need to prepare some XML and make your Galaxy read it in at startup when it reads and parses tool_conf.xml. Each tool must include a unique tool id, a visible name, a version number and a command line template. In addition, they can also include multiple tool form parameters with labels, validation and help, outputs, tests, dependency/version requirements. Galaxy uses these to set up the tool list and each selected tool's user interface form. 
+As an administrator of your own local Galaxy, you can extend Galaxy by writing new tools and adding them to the tool panel for your users to use. There are a few things you need to do to make them work. In the simplest possible case, you need to prepare some XML and make your Galaxy read it in at startup when it reads and parses tool_conf.xml. Each tool must include a unique tool id, a visible name, a version number and a command line template. In addition, they can also include multiple tool form parameters with labels, validation and help, outputs, tests, dependency/version requirements. Galaxy uses these to set up the tool list and each selected tool's user interface form.
 
 *Note: there's actually a configuration setting in universe_wsgi.ini controlling which tool_conf.xml files are read. The default is
+
 ```
 tool_config_file = tool_conf.xml,shed_tool_conf.xml
 ```
@@ -79,8 +80,8 @@ Says hello
 
 <div class='indent'>
 
-This text is all you need for a new, real new tool, including some help to display to the user. 
-In this example, the executable we use is the built-in system echo command which echos its input (the string) to a new history output file - output is redirected using > to the output file path Galaxy chooses at tool execution because the template symbol `${output1} ` on the command line is replaced with the Galaxy job execution engine's choice of path. 
+This text is all you need for a new, real new tool, including some help to display to the user.
+In this example, the executable we use is the built-in system echo command which echos its input (the string) to a new history output file - output is redirected using > to the output file path Galaxy chooses at tool execution because the template symbol `${output1} ` on the command line is replaced with the Galaxy job execution engine's choice of path.
 
 The syntax ${...} is recommended and it is also recommended that all user supplied parameters be quoted in case the parameter contains slashes or spaces which might cause the tool to fail mysteriously.
 
@@ -101,12 +102,14 @@ Note that the > redirection character has been *[html-escaped](http://dev.w3.org
 3. #3 Restart
 
  **Stop Galaxy if it's running**
+
  ```
  sh run.sh –stop-daemon
  ```
 
 
  **Restart Galaxy**
+
  ```
  sh run.sh –daemon
  ```
@@ -114,7 +117,7 @@ Note that the > redirection character has been *[html-escaped](http://dev.w3.org
 
 4. #4 Check paster.log for errors (search for “hello” to find where your tool loaded – or barfed). If it fails to load, look for the syntax error, repair it, rinse, repeat... until it loads. ( `tail -f paster.log` )
 
-5. #5 When it loads correctly, test your new tool. In your VM webrowser, visit http://localhost:8050 (http://localhost:8080 is the distrubution default but Galaxy will be on the '''port''' - eg 8050 has been configured for the server in unverse_wsgi.ini - you can move it if you wish). Register your admin email address if you haven't already done so and log in. Test your new tool. It will write “hello world” to a new file in your history. If/when it works, find the actual commands Galaxy executed to run your tool in paster.log. If it fails, look in paster.log for hints about what went wrong. Repair and reload via the admin interface (no need to restart the Galaxy server) until it works. 
+5. #5 When it loads correctly, test your new tool. In your VM webrowser, visit http://localhost:8050 (http://localhost:8080 is the distrubution default but Galaxy will be on the '''port''' - eg 8050 has been configured for the server in unverse_wsgi.ini - you can move it if you wish). Register your admin email address if you haven't already done so and log in. Test your new tool. It will write “hello world” to a new file in your history. If/when it works, find the actual commands Galaxy executed to run your tool in paster.log. If it fails, look in paster.log for hints about what went wrong. Repair and reload via the admin interface (no need to restart the Galaxy server) until it works.
 
 6. #6 Raise arms in victory \o/
 
@@ -162,11 +165,12 @@ Says hello, adding a user supplied text parameter to the output
 
 Once you have hello v 0.02 working, try using the redo button to rerun an output in your history from hello v 0.01.
 You should see a warning message
+
 ```
 This job was initially run with tool version "0.01", which is not currently available. You can rerun the job with this tool version, which is a derivation of the original tool.
 ```
 
-Why does Galaxy give you a warning? 
+Why does Galaxy give you a warning?
 Why is this a good thing?
 
 **Hint:** 'reproducible research'
@@ -208,7 +212,7 @@ Reload, test etc.
 
 ## 1:20 – 1:30pm Hello_file
 
-So far, the tool does not accept any input files from the user's history. These require a **[data](/admin/tools/tool-config-syntax/#typedata)** parameter specifying the template name for the input file and a data type (optionally a comma delimited list for multiple acceptable datatypes) which will be used to filter the user's current history so you can restrict the drop down choice list to the datatypes your tool needs - excluding other potentially unacceptable data formats to make it harder for the user to choose an incompatible datatype. 
+So far, the tool does not accept any input files from the user's history. These require a **[data](/admin/tools/tool-config-syntax/#typedata)** parameter specifying the template name for the input file and a data type (optionally a comma delimited list for multiple acceptable datatypes) which will be used to filter the user's current history so you can restrict the drop down choice list to the datatypes your tool needs - excluding other potentially unacceptable data formats to make it harder for the user to choose an incompatible datatype.
 
 Before we can implement that, we need to first make a suitable input file in the current history. A plain text file containing a few words of text is all you need. There are lots of ways of doing this, but the simplest way is to simply paste or write some text into the URL box of the **Get data &rarr; Upload File** tool, then set the file format to **txt** and press execute. A new text file containing whatever you typed will appear in your history after a few moments.
 
@@ -241,7 +245,7 @@ Also appends the contents of a user supplied text file to the output.
 
 
 Note the ugly html escaping needed on the command line. This can be avoided in real tools by changing the command line to call a python or other script to replace the shell command line in a more obvious, maintainable and transparent way - but it can be made to work and will serve for the exercise although we apologise if your eyeballs hurt. In general we recommend calling wrappers rather than creating long confusing shell command lines.
- 
+
 Reload, test etc.
 
 ## 1:30 – 1:45pm hello_datasource
@@ -249,6 +253,7 @@ Reload, test etc.
 Here is a simple datasource example. It is a a simple html page that uses JavaScript to parse incoming parameters and change the form action attribute to the provided GALAXY_URL value. The user can click the submit button to post the URL value (a prefilled text box) back to the originating Galaxy server. For more information on data source tools, see [here](/admin/internals/data-sources/).
 
 We'll use Python's built-in simple HTTP server to make the html page into a web-loadable link:
+
 ```
 cd /home/gcc2013/Desktop/Training_Day_Workshops/Datsources_Tools/datasource_simple_example/
 python -m SimpleHTTPServer 8051
@@ -259,6 +264,7 @@ Verify that you can view the simple datasource at http://localhost:8051/datasour
 Now we will define the simple datasource tool xml. Create a file under tools/data_source/ named hello_datasource.xml.
 
 The contents should look like:
+
 ```xml
 <tool name="Hello" id="hello_datasource" tool_type="data_source">
     <description>datasource</description>
@@ -276,6 +282,7 @@ The contents should look like:
 
 
 Add an entry to your tool_conf.xml file to instruct Galaxy to load the data source tool:
+
 ```xml
 <tool file="data_source/hello_datasource.xml"/>
 ```
@@ -318,7 +325,7 @@ If you have extra time, you are able to customize additional attributes of your 
 
 ### Suggested procedure
 
-1. RTM for your chosen executable and carefully take note of the required input data files, their formats, user configurable parameters and the outputs and their formats. You will need to specify all of these in the XML and on the command line template. 
+1. RTM for your chosen executable and carefully take note of the required input data files, their formats, user configurable parameters and the outputs and their formats. You will need to specify all of these in the XML and on the command line template.
 
 2. Create or find some input test data files - pro tip: recycle stuff from the test-data directory - there are many, many small datasets there in almost all conceivable dataformats - as old William of Occam said, there's no point in multiplying entities unnecessarily.
 

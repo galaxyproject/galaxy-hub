@@ -54,7 +54,7 @@ Several communities within Galaxy have their own presence on Twitter.  These are
 
 [<img class="float-right" style="max-width: 64px" src="/images/logos/GalaxyAustralia-square.jpg" alt="Galaxy Australia on Twitter" />](https://twitter.com/GalaxyAustralia)
 
-Interested in Galaxy down under?  The [@GalaxyAustralia account](https://twitter.com/GalaxyAustralia) covers news of interest Galaxy community in Australia (and Oceania in general). 
+Interested in Galaxy down under?  The [@GalaxyAustralia account](https://twitter.com/GalaxyAustralia) covers news of interest Galaxy community in Australia (and Oceania in general).
 
 ### @GalaxyUKFriends
 
@@ -90,9 +90,9 @@ Here's a sample:
 | [<img style="max-width: 40px" src="/images/logos/GalaxyPLogo.png" />](https://twitter.com/usegalaxyp) | [@usegalaxyp](https://twitter.com/usegalaxyp) | [Galaxy for Proteomics project](http://galaxyp.org/) |
 | [<img style="max-width: 40px" src="/use/immport-galaxy/immport-project-logo-symbol.png" />](https://twitter.com/immportdb) | [@ImmPortDB](https://twitter.com/immportdb) | [ImmPort](https://www.immportgalaxy.org/) |
 | [<img style="max-width: 40px" src="/use/mississippi/artbio-logo-square.jpg" />](https://twitter.com/artbio_ibps) | [@artbio_ibps](https://twitter.com/artbio_ibps) | [Mississippi](https://mississippi.snv.jussieu.fr/) |
-| [<img style="max-width: 40px" src="/use/phenomenal/phenomenal-logo-square.png" />](https://twitter.com/phnmlh2020) | [@PhnmlH2020](https://twitter.com/phnmlh2020) | [PhenoMeNal](http://public.phenomenal-h2020.eu/) | 
+| [<img style="max-width: 40px" src="/use/phenomenal/phenomenal-logo-square.png" />](https://twitter.com/phnmlh2020) | [@PhnmlH2020](https://twitter.com/phnmlh2020) | [PhenoMeNal](http://public.phenomenal-h2020.eu/) |
 | [<img style="max-width: 40px" src="/use/archive/south-green/south-green-twitter.jpg" />](https://twitter.com/green_bioinfo) | [@green_bioinfo](https://twitter.com/green_bioinfo) | [South Green](https://southgreen.fr/) |
-| [<img style="max-width: 40px" src="/use/workflow4metabolomics/w4m-twitter.jpg" />](https://twitter.com/workflow4metabo) | [@workflow4metabo](https://twitter.com/workflow4metabo) | [Workflow4Metabolomics](https://galaxy.workflow4metabolomics.org) | 
+| [<img style="max-width: 40px" src="/use/workflow4metabolomics/w4m-twitter.jpg" />](https://twitter.com/workflow4metabo) | [@workflow4metabo](https://twitter.com/workflow4metabo) | [Workflow4Metabolomics](https://galaxy.workflow4metabolomics.org) |
 
 # Got something to say?
 

@@ -17,7 +17,7 @@ Galaxy Biostar is a space where researchers using Galaxy come together and share
 
 **Current integration with usegalaxy.org**
 
-* The **whole history of the `galaxy-user@bx.psu.edu`** mailing list was imported into *[Galaxy Biostar](https://biostar.usegalaxy.org)*. Your prior posts are automatically claimed when you login! 
+* The **whole history of the `galaxy-user@bx.psu.edu`** mailing list was imported into *[Galaxy Biostar](https://biostar.usegalaxy.org)*. Your prior posts are automatically claimed when you login!
 * If you access [Galaxy Biostar](https://biostar.usegalaxy.org) from [usegalaxy.org](http://usegalaxy.org) (Menu: **Help &rarr; Galaxy Biostar**) you will be automatically logged in. A Galaxy Biostar account will be created for you if it did not previously exist. To obtain this account’s password please use the [password reset feature](https://biostar.usegalaxy.org/accounts/password/reset/) of Galaxy Biostar.
 * When you have a question, search Galaxy Biostar directly from any Galaxy tool page.
 
@@ -160,15 +160,15 @@ Look for a [more detailed draft program](/events/gcc2014/program/) to be posted 
 ### Sponsorships and Exhibitors
 
 <div class='right'>
-<a href='http://biolchem.bs.jhmi.edu/'><img src="/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins" width="260" /></a><br /> 
+<a href='http://biolchem.bs.jhmi.edu/'><img src="/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins" width="260" /></a><br />
 <a href='http://epigenetics.jhu.edu/'><img src="/images/logos/JohnHopkinsEpigenetics.jpg" alt="Center for Epigenetics" width="260" /></a>
 </div>
 
-We are happy to have the [Center for Epigenetics](http://epigenetics.jhu.edu/), and the [Department of Biological Chemistry](http://biolchem.bs.jhmi.edu/), both of Johns Hopkins University as GCC2014 Sponsors. 
+We are happy to have the [Center for Epigenetics](http://epigenetics.jhu.edu/), and the [Department of Biological Chemistry](http://biolchem.bs.jhmi.edu/), both of Johns Hopkins University as GCC2014 Sponsors.
 
-There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available for the [GCC2014](/events/gcc2014/) and Giga sponsorships for the [Hackathon](/events/gcc2014/hackathon/). Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor these events. 
+There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available for the [GCC2014](/events/gcc2014/) and Giga sponsorships for the [Hackathon](/events/gcc2014/hackathon/). Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor these events.
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014.
 
 ## UK May 2014 Galaxy Tour
 
@@ -186,7 +186,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
 
 A [Galaxy Tour](/events/uk-may2014/) is happening in the United Kingdom in early May 2014.  If you are anywhere close to Norwich or Edinburgh, then it might be worth your while to attend an event.
 
-First, there will be a talk on *Scaling Galaxy for Big Data* at the [NGS Data after the Gold Rush](http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/) meeting, being held 6-7 May, at [The Genome Access Centre (TGAC)](http://www.tgac.ac.uk/) in Norwich.  This will be followed by a hands-on *[Introduction to Galaxy Workshop](/events/uk-may2014/tgac-workshop/)* on 9 May, also at TGAC. 
+First, there will be a talk on *Scaling Galaxy for Big Data* at the [NGS Data after the Gold Rush](http://www.tgac.ac.uk/SeqAhead_Scientific_Meeting_and_Management_Committee_Meeting/) meeting, being held 6-7 May, at [The Genome Access Centre (TGAC)](http://www.tgac.ac.uk/) in Norwich.  This will be followed by a hands-on *[Introduction to Galaxy Workshop](/events/uk-may2014/tgac-workshop/)* on 9 May, also at TGAC.
 
 After that, there will be 3 events in Edinburgh the following week, starting on Monday with a hands on *[Introduction to Galaxy Workshop](/events/uk-may2014/u-edinburgh/)* at the [University of Edinburgh](http://www.ed.ac.uk/) in the morning and a *Galaxy Project Update* talk at the [5th Edinburgh Bioinformatics Meeting](http://www.bioinformatics.ed.ac.uk/events/5th-edinburgh-bioinformatics-meeting), in the afternoon, and also at the University.  Finally, on Tuesday 13 May, there will be a [all-day hands-on Galaxy Workshop](/events/uk-may2014/igmm-workshop/) at the [Institute of Genetics and Molecular Medicine (IGMM)](http://www.igmm.ac.uk/) at Western General Hospital.
 
@@ -194,13 +194,13 @@ You must be affiliated with the University of Edinburgh or the IGMM to register 
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 And don't worry if you are not near Norwich or Edinburgh in May.  There are [at least 17 other Galaxy related events](/events/) in the next 70 days in Norway, France, *online*, Croatia, Thailand, Canada, the US, the Netherlands, and Australia. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/uk-may2014/'><img src="/images/logos/UKMay2014Tour.png" alt="" height="80" /></a>&nbsp;
 <a href='http://gmod.org/wiki/GMOD_Online_Training_2014'><img src="/images/logos/GMODOnlineTraining2014.png" alt="GMOD Online Training" height="80" /></a> &nbsp;
 <a href='/events/gcc2014/'><img src="/images/logos/GCC2014LogoWide200.png" alt="GCC2014 early registration and abstract submission are now open" height="75" /></a>&nbsp;
@@ -351,11 +351,11 @@ And don't worry if you are not near Norwich or Edinburgh in May.  There are [at 
 
 The Galaxy is expanding! Please help it grow.
 
-* [Post-doctoral position in computational mass spectrometry](http://bit.ly/1qFobAj) at CEA Saclay, France, Paris area 
+* [Post-doctoral position in computational mass spectrometry](http://bit.ly/1qFobAj) at CEA Saclay, France, Paris area
 * [Bioinformatics specialist/Scientific programmer](http://bit.ly/1p7GC35), Ettema Lab, Uppsala University
-* [Bioinformatician / Computational Biologist](http://bit.ly/1t6n52s), EMBL Heidelberg, Germany 
+* [Bioinformatician / Computational Biologist](http://bit.ly/1t6n52s), EMBL Heidelberg, Germany
 * [Bioinformatics Technician](http://bit.ly/QaQWb9), Bioinformatics Unit, Core Facilities, CRG, Barcelona, Spain  
-* [Experimental Officer in Bioinformatics](http://bit.ly/1imRDs4), NERC Metabolomics Facility, University of Birmingham, UK 
+* [Experimental Officer in Bioinformatics](http://bit.ly/1imRDs4), NERC Metabolomics Facility, University of Birmingham, UK
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
@@ -372,33 +372,33 @@ Two [public Galaxy servers](/use/) were added to the published list in April:
 <div class='right solid'><a href='http://proteomics.globusgenomics.org/'><img src="/images/logos/GlobusGenomics.png" alt="Globus Genomics Proteomics Galaxy Server"  /></a></div>
 
 * *Links:*
-  * [Globus Genomics Proteomics Galaxy Server](http://proteomics.globusgenomics.org/)
-  * *[Building a Low-budget Public Resource for Large-scale Proteomic Analyses](https://depot.galaxyproject.org/hub/attachments/documents/presentations/GlobusGenomicsProteomics.pdf)*, presentation by [Anoop Mayampurath](http://www.ci.uchicago.edu/profile/257) at [Globus World 2014](http://globusworld.org/)
+    * [Globus Genomics Proteomics Galaxy Server](http://proteomics.globusgenomics.org/)
+    * *[Building a Low-budget Public Resource for Large-scale Proteomic Analyses](https://depot.galaxyproject.org/hub/attachments/documents/presentations/GlobusGenomicsProteomics.pdf)*, presentation by [Anoop Mayampurath](http://www.ci.uchicago.edu/profile/257) at [Globus World 2014](http://globusworld.org/)
 * *Domain/Purpose:*
     The [Globus Genomics Project](http://globusgenomics.org) demonstration Galaxy server. It has a strong emphasis on proteomics
 * *Comments:*
-    Includes [Globus](http://www.globus.org/) tools and over 20 proteomics tools, as well as many NGS analysis tools and the usual data manipulation tool set. 
+    Includes [Globus](http://www.globus.org/) tools and over 20 proteomics tools, as well as many NGS analysis tools and the usual data manipulation tool set.
 * *User Support:*
 
-* *Quotas:* 
+* *Quotas:*
 * *Sponsor(s):*
-    [Globus Genomics](http://globusgenomics.org), [The Computation Institute](http://ci.uchicago.edu/), [The University of Chicago](http://www.uchicago.edu/), [Argonne National Lab](http://www.anl.gov/), and [Amazon Web Services](http://aws.amazon.com/). 
+    [Globus Genomics](http://globusgenomics.org), [The Computation Institute](http://ci.uchicago.edu/), [The University of Chicago](http://www.uchicago.edu/), [Argonne National Lab](http://www.anl.gov/), and [Amazon Web Services](http://aws.amazon.com/).
 
 <br />
 
 ## SunLab
 
 <div class='right solid'><a href='http://meta.cmb.usc.edu/'><img src="/public-galaxy-servers/archive/sun-lab.png" alt="SunLab Galaxy Server"  /></a></div>
- 
+
 * *Links:*
     [SunLab Galaxy Server](http://meta.cmb.usc.edu/)
 * *Domain/Purpose:*
     Provides access to computational tools developed by [Fengzhu Sun's](http://www-rcf.usc.edu/~fsun/) group at [University of Southern California](http://usc.edu), notably tools for local similarity analysis (LSA).
-* *Comments:* 
+* *Comments:*
 * *User Support:*
     [Email](mailto:lxia AT usc DOT edu)
-* *Quotas:* 
-    "Due to the limited computational resources, we refer users not using the tools developed by SunLab to the main public Galaxy site. We also encourage user applying SunLab tools to large data sets to install their standalone version of the specific tools, or install this version of Galaxy server with SunLab tools integrated. 
+* *Quotas:*
+    "Due to the limited computational resources, we refer users not using the tools developed by SunLab to the main public Galaxy site. We also encourage user applying SunLab tools to large data sets to install their standalone version of the specific tools, or install this version of Galaxy server with SunLab tools integrated.
 * *Sponsor(s):*
     The [SunLab](http://www-rcf.usc.edu/~fsun/) at the [University of Southern California](http://usc.edu).
 
@@ -489,63 +489,63 @@ The [Dutch Techcentre for Life Sciences (DTL)](http://www.dtls.nl/dtl/) has made
 
 ## Galaxy Project ToolShed New Repositories
 
-* [infernal](http://bit.ly/1lmSSsm): Inference of RNA Alignments search DNA sequence DBs for RNA structure/sequence similarities 
-* [msa_datatypes](http://bit.ly/QOoZpI): Galaxy applicable data formats for Multiple Sequence Alignments 
-* [taxonomy_krona_chart](http://bit.ly/1r5lrdC): convert metagenomic profiling results into zoomable pie chart using Krona 
-* [deeptools_workflows](http://bit.ly/1tiIPIt): deepTools workflows to visualize large datasets in a meaningful way 
-* [mosaik2](http://bit.ly/1r5kXUP): reference-guided aligner for next-generation sequencing technologies. 
-* [suite_gops_1_0](http://bit.ly/1eIw5a2): Metarepository for the gops tool suite - will install the gops tool suite 
-* [suite_gatk_1_4](http://bit.ly/QtB2IH): A suite of Galaxy utilities associated with version 1.4 of the GATK package. 
-* [join](http://bit.ly/1gHkF1G): Join the intervals of two datasets side-by-side 
-* [compute_q_values](http://bit.ly/PcPq7e): Compute q-values based on multiple simultaneous tests p-values 
-* [charts](http://bit.ly/1nuzERh): Enable advanced visualization options in Galaxy Charts, a visualization plugin for Galaxy 
-* [concat](http://bit.ly/1eK0QvF): Concatenate two datasets into one dataset 
-* [merge](http://bit.ly/1kzaYHh): Merge the overlapping intervals of a dataset 
-* [coverage](http://bit.ly/1hKkkzC): Coverage of a set of intervals on second set of intervals 
-* [basecoverage](http://bit.ly/1gBb8Ji): count total bases covered by a set of intervals 
-* [intersect](http://bit.ly/1hMgJ55): Intersect the intervals of two datasets 
-* [flanking_features](http://bit.ly/1eRODzf): Fetch closest non-overlapping feature for every interval 
-* [subtract](http://bit.ly/1paBnQg): Subtract the intervals of two datasets 
-* [quality_filter](http://bit.ly/1paB5Zx): filter nucleotides in every alignment block of MAF file based on quality/PHRED scores 
-* [rcve](http://bit.ly/P45Iz8): Compute RCVE (Relative Contribution to Variance) for all possible variable subsets 
-* [microsats_mutability](http://bit.ly/1eGqPE2): Estimate microsatellite mutability by specified attributes 
-* [partialr_square](http://bit.ly/1hH1xoL): Compute partial R square 
-* [linear_regression](http://bit.ly/1hJaij9): uses R 'lm' function to perform linear regression 
-* [getindels_2way](http://bit.ly/1kYUL0Q): Fetch Indels from pairwise alignments 
-* [getindelrates_3way](http://bit.ly/1t76Zpg): Estimate Indel Rates for 3-way alignments 
-* [cluster](http://bit.ly/1h1eLaW): Cluster the intervals of a dataset 
-* [complement](http://bit.ly/1eGog50): Complement intervals of a dataset 
-* [subtract_query](http://bit.ly/1gyaa40): Subtract Whole Dataset from another dataset 
-* [featurecounter](http://bit.ly/1gy9NX9): find the coverage of intervals in the first dataset on intervals in the second dataset 
-* [logistic_regression_vif](http://bit.ly/RjVLjd): Perform Logistic Regression with vif 
-* [maf_cpg_filter](http://bit.ly/1iQ9jtW): Mask CpG/non-CpG sites from MAF file 
-* [get_flanks](http://bit.ly/RjVjBl): find the upstream and/or downstream flanking region(s) 
-* [count_covariates](http://bit.ly/1m3Ni0a): Count Covariates on BAM files 
-* [depth_of_coverage](http://bit.ly/1ijA5x5): Depth of Coverage on BAM files at different levels of partitioning and aggregation 
-* [substitutions](http://bit.ly/RjU6tR): Fetch substitutions from pairwise alignments 
-* [microsats_alignment_level](http://bit.ly/RjTRz0): Extract Orthologous Microsatellites from pair-wise alignments 
-* [variant_combine](http://bit.ly/1p4zKUd): Combines VCF records from different sources; supports full merges & set unions 
-* [best_regression_subsets](http://bit.ly/1eH7Qnf): use regsubsets R function for regression subset selection 
-* [variant_filtration](http://bit.ly/1qHKOSN): Filter variant calls using user-selectable, parameterizable criteria 
-* [windowsplitter](http://bit.ly/1hqwPAa): splits intervals into smaller intervals based on the specified window-size and type 
-* [variants_validate](http://bit.ly/1eh939U): Validates a variants file. 
-* [variant_select](http://bit.ly/QdPkNi): Select Variants from VCF files 
-* [table_recalibration](http://bit.ly/1iBUxFP): Second pass in a two-pass BAM processing step, doing a by-read traversal 
-* [realigner_target_creator](http://bit.ly/1n1d1Xe): Realigner Target Creator for use in local realignment 
-* [variant_eval](http://bit.ly/OQ2cZ1): General tool for variant evaluation (% in dbSNP, genotype concordance, Ti/Tv ratios, ...) 
-* [variant_recalibrator](http://bit.ly/QdNPyF): learns a Gaussian mixture model over variant annotations and evaluates the variant 
-* [unified_genotyper](http://bit.ly/1lVOYbS): Variant caller which unifies approaches of several disparate callers 
-* [substitution_rates](http://bit.ly/1hGLYZi): Estimate substitution rates for non-coding regions using Jukes-Cantor JC69 model 
-* [variant_annotator](http://bit.ly/1lVOi6m): Annotate variant calls with context information. 
-* [weightedaverage](http://bit.ly/QaMbxN): Assign weighted-average of the values of features overlapping an interval 
-* [tables_arithmetic_operations](http://bit.ly/1hwAxsQ): Arithmetic Operations on tables 
-* [print_reads](http://bit.ly/1mZYGu6): Dynamically merge multiple BAM files, resulting in merged output sorted in coordinate order 
-* [variant_apply_recalibration](http://bit.ly/1lNSL8F): Cut vcf to get novel FDR levels specified during Variant Recalibration 
-* [indel_realigner](http://bit.ly/PVx2AI): local realignment of reads based on misalignments due to the presence of indels 
-* [analyze_covariates](http://bit.ly/1epA8rQ): Create collapsed recal csv files, call R to plot residual error vs covariates 
-* [data_manager_gatk_picard_index_builder](http://bit.ly/1mZXSFo): Generate GATK-sorted Picard indexes 
-* [chartskit](http://bit.ly/1hEnCzn): Enables advanced visualization options in Galaxy Charts 
-* [column_join](http://bit.ly/1qlIeDF): Join tabular files 
+* [infernal](http://bit.ly/1lmSSsm): Inference of RNA Alignments search DNA sequence DBs for RNA structure/sequence similarities
+* [msa_datatypes](http://bit.ly/QOoZpI): Galaxy applicable data formats for Multiple Sequence Alignments
+* [taxonomy_krona_chart](http://bit.ly/1r5lrdC): convert metagenomic profiling results into zoomable pie chart using Krona
+* [deeptools_workflows](http://bit.ly/1tiIPIt): deepTools workflows to visualize large datasets in a meaningful way
+* [mosaik2](http://bit.ly/1r5kXUP): reference-guided aligner for next-generation sequencing technologies.
+* [suite_gops_1_0](http://bit.ly/1eIw5a2): Metarepository for the gops tool suite - will install the gops tool suite
+* [suite_gatk_1_4](http://bit.ly/QtB2IH): A suite of Galaxy utilities associated with version 1.4 of the GATK package.
+* [join](http://bit.ly/1gHkF1G): Join the intervals of two datasets side-by-side
+* [compute_q_values](http://bit.ly/PcPq7e): Compute q-values based on multiple simultaneous tests p-values
+* [charts](http://bit.ly/1nuzERh): Enable advanced visualization options in Galaxy Charts, a visualization plugin for Galaxy
+* [concat](http://bit.ly/1eK0QvF): Concatenate two datasets into one dataset
+* [merge](http://bit.ly/1kzaYHh): Merge the overlapping intervals of a dataset
+* [coverage](http://bit.ly/1hKkkzC): Coverage of a set of intervals on second set of intervals
+* [basecoverage](http://bit.ly/1gBb8Ji): count total bases covered by a set of intervals
+* [intersect](http://bit.ly/1hMgJ55): Intersect the intervals of two datasets
+* [flanking_features](http://bit.ly/1eRODzf): Fetch closest non-overlapping feature for every interval
+* [subtract](http://bit.ly/1paBnQg): Subtract the intervals of two datasets
+* [quality_filter](http://bit.ly/1paB5Zx): filter nucleotides in every alignment block of MAF file based on quality/PHRED scores
+* [rcve](http://bit.ly/P45Iz8): Compute RCVE (Relative Contribution to Variance) for all possible variable subsets
+* [microsats_mutability](http://bit.ly/1eGqPE2): Estimate microsatellite mutability by specified attributes
+* [partialr_square](http://bit.ly/1hH1xoL): Compute partial R square
+* [linear_regression](http://bit.ly/1hJaij9): uses R 'lm' function to perform linear regression
+* [getindels_2way](http://bit.ly/1kYUL0Q): Fetch Indels from pairwise alignments
+* [getindelrates_3way](http://bit.ly/1t76Zpg): Estimate Indel Rates for 3-way alignments
+* [cluster](http://bit.ly/1h1eLaW): Cluster the intervals of a dataset
+* [complement](http://bit.ly/1eGog50): Complement intervals of a dataset
+* [subtract_query](http://bit.ly/1gyaa40): Subtract Whole Dataset from another dataset
+* [featurecounter](http://bit.ly/1gy9NX9): find the coverage of intervals in the first dataset on intervals in the second dataset
+* [logistic_regression_vif](http://bit.ly/RjVLjd): Perform Logistic Regression with vif
+* [maf_cpg_filter](http://bit.ly/1iQ9jtW): Mask CpG/non-CpG sites from MAF file
+* [get_flanks](http://bit.ly/RjVjBl): find the upstream and/or downstream flanking region(s)
+* [count_covariates](http://bit.ly/1m3Ni0a): Count Covariates on BAM files
+* [depth_of_coverage](http://bit.ly/1ijA5x5): Depth of Coverage on BAM files at different levels of partitioning and aggregation
+* [substitutions](http://bit.ly/RjU6tR): Fetch substitutions from pairwise alignments
+* [microsats_alignment_level](http://bit.ly/RjTRz0): Extract Orthologous Microsatellites from pair-wise alignments
+* [variant_combine](http://bit.ly/1p4zKUd): Combines VCF records from different sources; supports full merges & set unions
+* [best_regression_subsets](http://bit.ly/1eH7Qnf): use regsubsets R function for regression subset selection
+* [variant_filtration](http://bit.ly/1qHKOSN): Filter variant calls using user-selectable, parameterizable criteria
+* [windowsplitter](http://bit.ly/1hqwPAa): splits intervals into smaller intervals based on the specified window-size and type
+* [variants_validate](http://bit.ly/1eh939U): Validates a variants file.
+* [variant_select](http://bit.ly/QdPkNi): Select Variants from VCF files
+* [table_recalibration](http://bit.ly/1iBUxFP): Second pass in a two-pass BAM processing step, doing a by-read traversal
+* [realigner_target_creator](http://bit.ly/1n1d1Xe): Realigner Target Creator for use in local realignment
+* [variant_eval](http://bit.ly/OQ2cZ1): General tool for variant evaluation (% in dbSNP, genotype concordance, Ti/Tv ratios, ...)
+* [variant_recalibrator](http://bit.ly/QdNPyF): learns a Gaussian mixture model over variant annotations and evaluates the variant
+* [unified_genotyper](http://bit.ly/1lVOYbS): Variant caller which unifies approaches of several disparate callers
+* [substitution_rates](http://bit.ly/1hGLYZi): Estimate substitution rates for non-coding regions using Jukes-Cantor JC69 model
+* [variant_annotator](http://bit.ly/1lVOi6m): Annotate variant calls with context information.
+* [weightedaverage](http://bit.ly/QaMbxN): Assign weighted-average of the values of features overlapping an interval
+* [tables_arithmetic_operations](http://bit.ly/1hwAxsQ): Arithmetic Operations on tables
+* [print_reads](http://bit.ly/1mZYGu6): Dynamically merge multiple BAM files, resulting in merged output sorted in coordinate order
+* [variant_apply_recalibration](http://bit.ly/1lNSL8F): Cut vcf to get novel FDR levels specified during Variant Recalibration
+* [indel_realigner](http://bit.ly/PVx2AI): local realignment of reads based on misalignments due to the presence of indels
+* [analyze_covariates](http://bit.ly/1epA8rQ): Create collapsed recal csv files, call R to plot residual error vs covariates
+* [data_manager_gatk_picard_index_builder](http://bit.ly/1mZXSFo): Generate GATK-sorted Picard indexes
+* [chartskit](http://bit.ly/1hEnCzn): Enables advanced visualization options in Galaxy Charts
+* [column_join](http://bit.ly/1qlIeDF): Join tabular files
 
 # Other News
 

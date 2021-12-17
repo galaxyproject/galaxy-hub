@@ -3,13 +3,13 @@ title: Introduction to Galaxy Workshop
 ---
 <div class='center'>
 <a href='http://www.polyomics.gla.ac.uk/'><img src="/images/logos/GlasgowPolyomics.jpg" alt="Glasgow Polyomics" height="140" /></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-<a href='http://www.gla.ac.uk/'><img src="/images/logos/UGlasgowLogo.jpg" alt="University of Glasgow" height="90" /></a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href='http://www.gla.ac.uk/'><img src="/images/logos/UGlasgowLogo.jpg" alt="University of Glasgow" height="90" /></a>
 
 
 **8th - 9th June, 2015, 9:00-17:00**
 
-**Instructors** <br /> 
+**Instructors** <br />
 [Dave Clements](/people/dave-clements/), Galaxy Project, [Johns Hopkins University](http://www.jhu.edu)<br />
 [Mani Mudaliar](http://www.polyomics.gla.ac.uk/biog-manimudaliar.html), [Glasgow Polyomics](http://www.polyomics.gla.ac.uk/), [University of Glasgow](http://www.gla.ac.uk/)<br />
 [Graham Hamilton](http://www.polyomics.gla.ac.uk/biog-ghamilton.html),  [Glasgow Polyomics](http://www.polyomics.gla.ac.uk/), [University of Glasgow](http://www.gla.ac.uk/)<br />
@@ -156,11 +156,11 @@ This workshop is supported by [Glasgow Polyomics](http://www.polyomics.gla.ac.uk
 
 ## Slides
 
-* [Day 1 Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Day1.pdf) 
+* [Day 1 Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Day1.pdf)
 * Day 2 Slides
-  * [RNA-Seq & Cloud Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Day2_RNA_Cloud.pdf) 
-  * [Variant Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Day2_Varaint.pdf) 
-* [Ecosystem Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Ecosystem.pdf) 
+    * [RNA-Seq & Cloud Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Day2_RNA_Cloud.pdf)
+    * [Variant Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Day2_Varaint.pdf)
+* [Ecosystem Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2015UGlasgowWorkshop_Ecosystem.pdf)
 
 ## Feedback
 

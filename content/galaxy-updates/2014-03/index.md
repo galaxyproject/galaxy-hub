@@ -99,7 +99,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 ## Galaxy Australasia Workshop 2014: 24-25 March
 
-**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](http://australianbioinformatics.net/gaw-2014) will be held in Melbourne, Australia on 24 and 25th March 2014.** 
+**The [1st Galaxy Australasia Workshop 2014 (GAW 2014)](http://australianbioinformatics.net/gaw-2014) will be held in Melbourne, Australia on 24 and 25th March 2014.**
 
 <div class='right'><a href='http://australianbioinformatics.net/gaw-2014'><img src="/images/logos/GAW2014-200.png" alt="Galaxy Australasia Workshop 2014 (GAW2014)"  /></a></div>
 
@@ -108,7 +108,7 @@ The [Galaxy Australasia Workshop](http://australianbioinformatics.net/gaw-2014) 
 <div class='left'><a href='http://mcec.com.au/'><img src="/events/gaw2014/MCC.png" alt="Melbourne Convention Centre" width=150 /></a></div>
 
 [Registration is open](http://australianbioinformatics.net/gaw-2014).  Registration is also *free, but space is limited.*
- 
+
 The first day (Monday) will be in Clayton, next to [the Australian Synchrotron](http://www.synchrotron.org.au/).  For the 2nd day (Tuesday) we will move downtown the [Melbourne Convention Centre](http://mcec.com.au/), the venue for the [Computational and Simulation Sciences and eResearch](http://wp.csiro.au/css/).
 <br />
 
@@ -152,11 +152,11 @@ Accepted talks and selected posters from GCC2014 are also eligible for considera
 
 We are pleased to have [Amazon Web Services (AWS)](http://aws.amazon.com/) as the sponsor for the GCC [Training Day](/events/gcc2014/training-day/) for the third year in a row.  Also please welcome [BioMaryland](http://bio.maryland.gov/) as a [Bronze Sponsor](/events/gcc2014/sponsor-exhibit/) for [GCC2014](/events/gcc2014/).  BioMaryland is new to the GCC.
 
-There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event.
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014.
 
 ## Other Events
 
@@ -164,7 +164,7 @@ In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-
 
 <br />
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/gaw2014/'><img src="/images/logos/GAW2014-200.png" alt="Register now for Galaxy Australasia Workshop (GAW 2014)" height="60" /></a> &nbsp;
 <a href='http://globusworld.org/'><img src="/images/logos/GlobusWorld2014Logo.png" alt="GlobusWorld 2014" height="60" /></a> &nbsp;
 <a href='http://www.bio-itworldexpo.com/'><img src="/images/logos/BioITWorld2014Logo.png" alt="Bio-IT World 2014" /></a> &nbsp;
@@ -310,15 +310,15 @@ One new [public Galaxy server](/use/), PGTB was added, and the NELLY server is b
 <div class='right solid'><a href='http://www.pgtb.u-bordeaux2.fr/'><img src="/use/archive/galaxy-pgtb-virtual-biodiversity-lab/pgtb.png" alt="PGTB Galaxy"  /></a></div>
 
 * *Links:*
-  * **[PGTB Galaxy - Virtual Biodiversity Lab](https://galaxy-pgtp.pierroton.inra.fr/)**
-  * **[Plateforme Genome Transcriptome de Bordeaux](http://www.pgtb.u-bordeaux2.fr/)**
+    * **[PGTB Galaxy - Virtual Biodiversity Lab](https://galaxy-pgtp.pierroton.inra.fr/)**
+    * **[Plateforme Genome Transcriptome de Bordeaux](http://www.pgtb.u-bordeaux2.fr/)**
 * *Domain/Purpose:*
-    This is a standard Galaxy instance implemented with specific tools for Biodiversity (Biodiversity Virtual Lab) and NGS (Ion Torrent from the PGTB facility) analysis. 
+    This is a standard Galaxy instance implemented with specific tools for Biodiversity (Biodiversity Virtual Lab) and NGS (Ion Torrent from the PGTB facility) analysis.
 * *Comments:*
     Due to current disk space limitations, registration is required. Account request on demand at [Email](mailto:contact DOT pgtp AT pierroton DOT inra DOT fr).
 * *User Support:*
     [Email](mailto:contact DOT pgtp AT pierroton DOT inra DOT fr)
-* *Quotas:* 
+* *Quotas:*
     Registered users: 50GB;
 * *Sponsor(s):*
     [INRA](http://www.inra.fr/) and [Equipex Xyloforest](http://www.xyloforest.org/) and [Labex CEBA](http://www.labex-ceba.fr/) and [Plateforme Genome Transcriptome de Bordeaux](http://www.pgtb.u-bordeaux2.fr/)
@@ -339,7 +339,7 @@ The most recent version of CloudMan was [released in January 2014](/news/cloudma
 * Visualization upgrades, including Trackster CSS styling
 * Multiple Tools migrated to the Tool Shed for a leaner distribution
 * Redesign of UI rendering: new icons, new font, history pane updates
-* API functionality upgrades featuring a new master admin API key and 
+* API functionality upgrades featuring a new master admin API key and
 * Tool Shed updates a focus on repository metadata, displays, installs, and tests
 * Over 35 new community contributions added
 
@@ -380,22 +380,22 @@ The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community
 
 ## New Repositories in the Galaxy Project ToolShed
 
-* [phylorelatives](http://bit.ly/1dIJIDG): Relatedness of minor alelle sequences in NJ tree 
-* [advanced_grep_from_file](http://bit.ly/1m6Gfkr): Extended Grep Using Perl, fetch lines after match and get patterns from file 
-* [getalleleseq](http://bit.ly/MwAlN3): Generate FASTA sequence from alleles table 
-* [hetbox](http://bit.ly/1jOLTtg): minor variant boxplot 
-* [find_in_reference](http://bit.ly/MwAPmq): filter tab file where a field is a substring of a field in any line of a reference 
-* [filter_bed_on_splice_junctions](http://bit.ly/1jDm1wY): Filter out lines w/ junctions in reference bed file of known junctions 
-* [translate_bed_sequences](http://bit.ly/1eNHFKg): 3 frame translation of BED file augmented with a sequence column 
-* [rsem](http://bit.ly/1biTdtX): RNA SEQ by Expectation Maximization 
-* [snpeff_to_peptides](http://bit.ly/1h2zMUr): Creates a peptide fasta from a SnpEff VCF output and an Ensembl all_peps.fa 
+* [phylorelatives](http://bit.ly/1dIJIDG): Relatedness of minor alelle sequences in NJ tree
+* [advanced_grep_from_file](http://bit.ly/1m6Gfkr): Extended Grep Using Perl, fetch lines after match and get patterns from file
+* [getalleleseq](http://bit.ly/MwAlN3): Generate FASTA sequence from alleles table
+* [hetbox](http://bit.ly/1jOLTtg): minor variant boxplot
+* [find_in_reference](http://bit.ly/MwAPmq): filter tab file where a field is a substring of a field in any line of a reference
+* [filter_bed_on_splice_junctions](http://bit.ly/1jDm1wY): Filter out lines w/ junctions in reference bed file of known junctions
+* [translate_bed_sequences](http://bit.ly/1eNHFKg): 3 frame translation of BED file augmented with a sequence column
+* [rsem](http://bit.ly/1biTdtX): RNA SEQ by Expectation Maximization
+* [snpeff_to_peptides](http://bit.ly/1h2zMUr): Creates a peptide fasta from a SnpEff VCF output and an Ensembl all_peps.fa
 * [synteny_mapper](http://bit.ly/1nLamwQ): find microrearrangements w/in syntenic regions, viz & compare UCSC features  
-* [bamtools_wrappers](http://bit.ly/1jOONxS): Wrappers for the bamtools package 
-* [fastq_qc_trimmer](http://bit.ly/1kSTVRV): Parallel FASTQ QC Trimmer 
-* [fastq_all_to_sanger](http://bit.ly/N74geH): Very Fast groomer of quality formats to Sanger 
+* [bamtools_wrappers](http://bit.ly/1jOONxS): Wrappers for the bamtools package
+* [fastq_qc_trimmer](http://bit.ly/1kSTVRV): Parallel FASTQ QC Trimmer
+* [fastq_all_to_sanger](http://bit.ly/N74geH): Very Fast groomer of quality formats to Sanger
 * [prada](http://bit.ly/1miEAs8): pipeline for RNAseq data analysis for Illumina paired end data
 * [shrnaseq](http://bit.ly/1myEYpV): shRNAseq differential representation analysis using edgeR  
-* [segemehl](http://bit.ly/1o4LyQx): short read mapping with gaps 
+* [segemehl](http://bit.ly/1o4LyQx): short read mapping with gaps
 * [blockbuster](http://bit.ly/1euOkZK): Detection of blocks of overlapping reads  
 * [twistdna](http://bit.ly/1mGzXf3): prediction of superhelically destabilized regions  
 * [rnaz](http://bit.ly/1myhRIE): predicting structural noncoding RNAs  

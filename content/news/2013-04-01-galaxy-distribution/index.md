@@ -24,10 +24,12 @@ Due to a security vulnerability, administrators are strongly encouraged to upgra
 *[http://galaxy-dist.readthedocs.org](http://galaxy-dist.readthedocs.org)*
 
 ```
+
 new:     $ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable
 
-upgrade: $ hg pull 
+upgrade: $ hg pull
          $ hg update security_2013.04.08
+
 ```
 
 

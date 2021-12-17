@@ -2,7 +2,7 @@
 title: Manupulating NGS data with Galaxy
 ---
 
-In this section we will look at practical aspects of manipulation of next-generation sequencing data. We will start with Fastq format produced by most sequencing machines and will finish with SAM/BAM format representing mapped reads. 
+In this section we will look at practical aspects of manipulation of next-generation sequencing data. We will start with Fastq format produced by most sequencing machines and will finish with SAM/BAM format representing mapped reads.
 
 # Set your Galaxy to begin
 
@@ -38,7 +38,7 @@ Upload the datasets. If you've done everything correctly, you will see Galaxy in
 
 ## What is Fastq?
 
-[FastQ](https://en.wikipedia.org/wiki/FASTQ_format) is not a very well defined format. In the beginning various manufacturers of sequencing instruments were free to interpret fastq as they saw fit, resulting in a multitude of fastq flavors. This variation stemmed primarily from different ways of encoding quality values as described [here](https://en.wikipedia.org/wiki/FASTQ_format) (below you will find explanation of quality scores and their meaning). Today, [fastq Sanger](https://www.ncbi.nlm.nih.gov/pubmed/20015970) version of the format is considered to be the standard form of fastq. Galaxy is using fastq sanger as the only legitimate input for downstream processing tools and provides [a number of utilities for converting fastq files](https://www.ncbi.nlm.nih.gov/pubmed/20562416) into this form (see **NGS: QC and manipulation** section of Galaxy tools). 
+[FastQ](https://en.wikipedia.org/wiki/FASTQ_format) is not a very well defined format. In the beginning various manufacturers of sequencing instruments were free to interpret fastq as they saw fit, resulting in a multitude of fastq flavors. This variation stemmed primarily from different ways of encoding quality values as described [here](https://en.wikipedia.org/wiki/FASTQ_format) (below you will find explanation of quality scores and their meaning). Today, [fastq Sanger](https://www.ncbi.nlm.nih.gov/pubmed/20015970) version of the format is considered to be the standard form of fastq. Galaxy is using fastq sanger as the only legitimate input for downstream processing tools and provides [a number of utilities for converting fastq files](https://www.ncbi.nlm.nih.gov/pubmed/20562416) into this form (see **NGS: QC and manipulation** section of Galaxy tools).
 
 Fastq format looks like this:
 
@@ -69,7 +69,7 @@ Each sequencing read is represented by four lines:
 
 ## Paired end data
 
-It is common to prepare pair-end and mate-pair sequencing libraries. This is highly beneficial for a number of applications discussed in subsequent topics. This is because in addition to sequence data we know that forward and reverse reads are physically linked within the sequenced molecule. For now let's just briefly discuss what these are and how they manifest themselves in fastq form. 
+It is common to prepare pair-end and mate-pair sequencing libraries. This is highly beneficial for a number of applications discussed in subsequent topics. This is because in addition to sequence data we know that forward and reverse reads are physically linked within the sequenced molecule. For now let's just briefly discuss what these are and how they manifest themselves in fastq form.
 
 |       |
 |-------|
@@ -108,7 +108,7 @@ CACTACCGGGGTATCTAATCCTGTTCGCTCCCCACGCTTTCGTCCATC
 
 <div class="alert alert-info" role="alert">
 
-**Note** that read IDs are **identical** in two files and they are listed in **the same** order. In some cases read IDs in the first and second file may be appended with `/1` and `/2` tags, respectively. 
+**Note** that read IDs are **identical** in two files and they are listed in **the same** order. In some cases read IDs in the first and second file may be appended with `/1` and `/2` tags, respectively.
 
 </div>
 
@@ -143,10 +143,10 @@ Fastq format is not strictly defined and its variations will always cause headac
 
 ## What are base qualities?
 
-As we've seen above, fastq datasets contain two types of information: 
+As we've seen above, fastq datasets contain two types of information:
 
 - *sequence of the read*
-- *base qualities* for each nucleotide in the read. 
+- *base qualities* for each nucleotide in the read.
 
 The base qualities allow us to judge how trustworthy each base in a sequencing read is. The following excerpt from an excellent [tutorial](https://chagall.med.cornell.edu/RNASEQcourse/Intro2RNAseq.pdf) by Friederike D&uuml;ndar, Luce Skrabanek, Paul Zumbo explains what base qualities are:
 
@@ -168,14 +168,14 @@ Sanger/Phred format that is also used by other sequencing platforms and the sequ
 
 ## Assessing data quality
 
-One of the first steps in the analysis of NGS data is seeing how good the data actually is. [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) is a fantastic tool allowing you to evaluate the quality of fastq datasets (and deciding whether to blame or not to blame whoever has done sequencing for you). 
+One of the first steps in the analysis of NGS data is seeing how good the data actually is. [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) is a fantastic tool allowing you to evaluate the quality of fastq datasets (and deciding whether to blame or not to blame whoever has done sequencing for you).
 
 |                                                      |                                        |
 |:-----------------------------------------------------|:---------------------------------------|
-| ![](/tutorials/ngs/good_fq.png)                  | ![](/tutorials/ngs/bad_fq.png)     |    
+| ![](/tutorials/ngs/good_fq.png)                  | ![](/tutorials/ngs/bad_fq.png)     |
 |<small>**Figure 5. Left:** Excellent quality.</small> |  <small>**Right:** Hmmmm....Ok.</small>|
 
-Here you can see FastQC base quality reports (the tools gives you many other types of data) for two datasets: **A** and **B**. The **A** dataset has long reads (250 bp) and very good quality profile with no qualities dropping below [phred score](https://www.phrap.com/phred/) of 30. The **B** dataset is significantly worse with ends of the reads dipping below phred score of 20. The **B** reads may need to be trimmed for further processing. 
+Here you can see FastQC base quality reports (the tools gives you many other types of data) for two datasets: **A** and **B**. The **A** dataset has long reads (250 bp) and very good quality profile with no qualities dropping below [phred score](https://www.phrap.com/phred/) of 30. The **B** dataset is significantly worse with ends of the reads dipping below phred score of 20. The **B** reads may need to be trimmed for further processing.
 
 It may be challenging to use `fastQC` when you have a lot of datasets. For example, in our case there are four datasets. `FastQC` needs to be run on each dataset individually and then one needs to look at each `fastQC` report individually. This may not be a big problem for four datasets, but it will become an issue if you have 100s or 1,000s of datasets. [Phil Ewels](https://github.com/ewels) has developed a tool called [`MultiQC`](https://multiqc.info/) that allows to summarize multiple QC reports at once. To run `MultiQC` you need to run `fastQC` on individual datasets and then feed fastQC outputs to `MultiQC` (note that `MultiQC` is not limited to processing FastQC reports but accepts outputs of many other tools). Galaxy makes this easy as shown in the following video:
 
@@ -193,10 +193,10 @@ In this video we run `FastQC` on the four datasets and then summarized these dat
 
 One of the conclusions from our QC analyses (Fig. 6) is that the quality is acceptable but drops towards the end of the reads (this is typical for Illumina which uses reverse terminators bases with cleave-able color labels. Because the process of cleaving terminators and color labels is not 100% efficient noise accumulates as run progresses and so bases at the ends of reads tend to have lower quality). There is a number of steps we can take to mitigate the effect of low quality bases. One is dynamically trim the reads:
 
- - slide a window across reads
- - at every step of the process calculate average quality of bases within the given window
- - if quality drops below certain set threshold &#8594; stop and trim the read of the read from this point until the end
- - output the beginning of the read
+- slide a window across reads
+- at every step of the process calculate average quality of bases within the given window
+- if quality drops below certain set threshold &#8594; stop and trim the read of the read from this point until the end
+- output the beginning of the read
 
 One of the tools that performs this procedure is [Trimmomatic](http://www.usadellab.org/cms/?page=trimmomatic) developed by the Usadel [lab](http://www.usadellab.org/cms/index.php?page=staff). Let's use **NGS: QC and manipulation &#8594; Trimmomatic** to trim out four datasets:
 
@@ -212,7 +212,7 @@ To see the effect of trimming on the reads let's take Trimmomatic output, run it
 |![](/tutorials/ngs/multiqc2.png)|
 |<small>**Figure 8**. Quality score distribution for trimmed datasets. Compare this image with Fig. 6. You can see that sequences are shorted but quality is significantly higher.</small>|
 
-We will now use trimmed reads as the input to downstream analyses. 
+We will now use trimmed reads as the input to downstream analyses.
 
 ## Try it yourself
 
@@ -230,15 +230,15 @@ Mapping of NGS reads against reference sequences is one of the key steps of the 
 
 ## Mapping against a pre-computed genome index
 
-Mappers usually compare reads against a reference sequence that has been transformed into a highly accessible data structure called genome index. Such indexes should be generated before mapping begins. Galaxy instances typically store indexes for a number of publicly available genome builds. 
+Mappers usually compare reads against a reference sequence that has been transformed into a highly accessible data structure called genome index. Such indexes should be generated before mapping begins. Galaxy instances typically store indexes for a number of publicly available genome builds.
 
 |                                                              |
 |--------------------------------------------------------------|
 | ![](/tutorials/ngs/cached_genome.png)                    |
 |<small>**Figure 9**. Mapping against a pre-computed index in Galaxy.</small>|
 
-For example, the image above shows indexes for `hg38` version of the human genome. You can see that there are actually three choices: (1) `hg38`, (2) `hg38 canonical` and (3) `hg38 canonical female`. The `hg38` contains all chromosomes as well as all unplaced contigs. The `hg38 canonical` does not contain unplaced sequences and only consists of chromosomes 1 through 22, X, Y, and mitochondria. The 
-`hg38 canonical female` contains everything from the canonical set with the exception of chromosome Y. 
+For example, the image above shows indexes for `hg38` version of the human genome. You can see that there are actually three choices: (1) `hg38`, (2) `hg38 canonical` and (3) `hg38 canonical female`. The `hg38` contains all chromosomes as well as all unplaced contigs. The `hg38 canonical` does not contain unplaced sequences and only consists of chromosomes 1 through 22, X, Y, and mitochondria. The
+`hg38 canonical female` contains everything from the canonical set with the exception of chromosome Y.
 
 The following video show mapping using BWA-MEM:
 
@@ -246,11 +246,11 @@ The following video show mapping using BWA-MEM:
 
 ### Try it yourself
 
-Map datasets uploaded before using BWA against `hg38` version of the human genome. 
+Map datasets uploaded before using BWA against `hg38` version of the human genome.
 
 ## What if pre-computed index does not exist?
 
-If Galaxy does not have a genome you need to map against, you can upload your genome sequence as a FASTA file and use it in the mapper directly as shown below (**Load reference genome** is set to `History`). 
+If Galaxy does not have a genome you need to map against, you can upload your genome sequence as a FASTA file and use it in the mapper directly as shown below (**Load reference genome** is set to `History`).
 
 |                                                              |
 |--------------------------------------------------------------|
@@ -385,7 +385,7 @@ Thus, for example, we can use the NM:i:0 tag to select only those reads which ma
 
 ## Read Groups
 
-One of the key features of SAM/BAM format is the ability to label individual reads with readgroup tags. This allows pooling results of multiple experiments into a single BAM dataset. This significantly simplifies downstream logistics: instead of dealing with multiple datasets one can handle just one. Many downstream analysis tools such as variant callers are designed to recognize readgroup data and output results on per-readgroup basis. 
+One of the key features of SAM/BAM format is the ability to label individual reads with readgroup tags. This allows pooling results of multiple experiments into a single BAM dataset. This significantly simplifies downstream logistics: instead of dealing with multiple datasets one can handle just one. Many downstream analysis tools such as variant callers are designed to recognize readgroup data and output results on per-readgroup basis.
 
 One of the best descriptions of BAM readgroups is on [GATK support site](http://gatkforums.broadinstitute.org/discussion/1317/collected-faqs-about-bam-files). We have gratefully stolen two tables describing the most important readgroup tags - `ID`, `SM`, `LB`, and `PL` - from GATK forum and provide them here:
 
@@ -401,7 +401,7 @@ To see an example of read group manipulation in Galaxy see the following video. 
 
 ## Effects of PCR duplicates
 
-Preparation of sequencing libraries (at least at the time of writing) for technologies such as Illumina involves PCR amplification. It is required to generate sufficient number of sequencing templates so that a reliable detection can be performed by base callers. Yet PCR has it's biases, which are especially profound in cases of multitemplate PCR used for construction of sequencing libraries (Kanagawa et al. [2003](https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16233530)). 
+Preparation of sequencing libraries (at least at the time of writing) for technologies such as Illumina involves PCR amplification. It is required to generate sufficient number of sequencing templates so that a reliable detection can be performed by base callers. Yet PCR has it's biases, which are especially profound in cases of multitemplate PCR used for construction of sequencing libraries (Kanagawa et al. [2003](https://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=PubMed&dopt=Abstract&list_uids=16233530)).
 
 |                                              |
 |----------------------------------------------|
@@ -429,12 +429,12 @@ However, one has to be careful when removing duplicates in cases when the sequen
 
 In Galaxy we support four major toolsets for processing of SAM/BAM datasets:
 
- * [DeepTools](https://deeptools.github.io/) - a suite of user-friendly tools for the visualization, quality control and normalization of data from deep-sequencing DNA sequencing experiments.
- * [SAMtools](https://www.htslib.org/) - various utilities for manipulating alignments in the SAM/BAM format, including sorting, merging, indexing and generating alignments in a per-position format.
- * [BAMtools](https://github.com/pezmaster31/bamtools/wiki/Tutorial_Toolkit_BamTools-1.0.pdf) - a toolkit for reading, writing, and manipulating BAM (genome alignment) files.
- * [Picard](https://broadinstitute.github.io/picard/) - a set of Java tools for manipulating high-throughput sequencing data (HTS) data and formats.
+- [DeepTools](https://deeptools.github.io/) - a suite of user-friendly tools for the visualization, quality control and normalization of data from deep-sequencing DNA sequencing experiments.
+- [SAMtools](https://www.htslib.org/) - various utilities for manipulating alignments in the SAM/BAM format, including sorting, merging, indexing and generating alignments in a per-position format.
+- [BAMtools](https://github.com/pezmaster31/bamtools/wiki/Tutorial_Toolkit_BamTools-1.0.pdf) - a toolkit for reading, writing, and manipulating BAM (genome alignment) files.
+- [Picard](https://broadinstitute.github.io/picard/) - a set of Java tools for manipulating high-throughput sequencing data (HTS) data and formats.
 
- The following two videos highlight major steps of fastq-to-BAM analysis trajectory. 
+ The following two videos highlight major steps of fastq-to-BAM analysis trajectory.
 
 ## Organizing and QC'ing multiple datasets
 
@@ -460,14 +460,14 @@ After QC'ing we move on to map the reads, process the resulting BAM datasets, an
 
 <br>
 
-The merged BAM file can be using in a variety of downstream analyses. In this example we only used four samples represented by eight paired fastq datasets. Collection, prominently featured in this tutorial, make it easy to apply the same exact analysis logic to 100s or 1,000s of datasets. 
+The merged BAM file can be using in a variety of downstream analyses. In this example we only used four samples represented by eight paired fastq datasets. Collection, prominently featured in this tutorial, make it easy to apply the same exact analysis logic to 100s or 1,000s of datasets.
 
 ## Try it yourself
 
-Perform a similar analyses with your own data. 
+Perform a similar analyses with your own data.
 
 # If things don't work...
 
- - ...create an issue by clicking "New issue" button [here](https://github.com/galaxyproject/galaxy-hub/issues)
- - ...complain. Use [Galaxy's support forum](https://help.galaxyproject.org/) to do this.
+- ...create an issue by clicking "New issue" button [here](https://github.com/galaxyproject/galaxy-hub/issues)
+- ...complain. Use [Galaxy's support forum](https://help.galaxyproject.org/) to do this.
 

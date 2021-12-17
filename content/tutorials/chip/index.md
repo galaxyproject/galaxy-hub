@@ -6,7 +6,7 @@ title: Analysis of ChIP-seq data
 <blockquote class="blockquote">
 <small>
 
-This tutorial was inspired by efforts of [Mo Heydarian](/people/mo-heydarian/) and [Mallory Freeberg](https://github.com/malloryfreeberg). Tools higlighted here have been wrapped by [Björn Grüning](https://github.com/bgruening), [Marius van den Beek](https://github.com/mvdbeek) and other [IUC](/iuc/) members. [Dave Bouvier](https://github.com/davebx) and [Martin Cech](https://github.com/martenson) helped fine tuning and deploying tools to Galaxy's public server. 
+This tutorial was inspired by efforts of [Mo Heydarian](/people/mo-heydarian/) and [Mallory Freeberg](https://github.com/malloryfreeberg). Tools higlighted here have been wrapped by [Björn Grüning](https://github.com/bgruening), [Marius van den Beek](https://github.com/mvdbeek) and other [IUC](/iuc/) members. [Dave Bouvier](https://github.com/davebx) and [Martin Cech](https://github.com/martenson) helped fine tuning and deploying tools to Galaxy's public server.
 
 </small>
 </blockquote>
@@ -51,19 +51,19 @@ There are four datasets:
 
 <!-- Modal for Library import video -->
 <div class="modal fade" id="lib_video" tabindex="-1" role="dialog" aria-labelledby="libVid">
-  	<div class="modal-dialog" role="document">
-    	<div class="modal-content">
-      		<div class="modal-header">
-        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        		<h4 class="modal-title" id="myModalLabel">Importing from History</h4>
-      		</div>
-      		<div class="modal-body">
-      			<div class="embed-responsive embed-responsive-16by9">
-  					<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212753639"></iframe>
-				</div>
-			</div>	
-    	</div>
-  	</div>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Importing from History</h4>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212753639"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 These datasets are deposited in a [Galaxy library](https://usegalaxy.org/libraries/folders/F050cbba300e2dbed) (watch <a href="#" data-toggle="modal" data-target="#lib_video">Video</a> on how to import data from a library):
@@ -76,23 +76,23 @@ These datasets are deposited in a [Galaxy library](https://usegalaxy.org/librari
 
 <!-- Modal for Creating collection video -->
 <div class="modal fade" id="collection_create_video" tabindex="-1" role="dialog" aria-labelledby="collection_create_Vid">
-  	<div class="modal-dialog" role="document">
-    	<div class="modal-content">
-      		<div class="modal-header">
-        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        		<h4 class="modal-title" id="myModalLabel">Creating a dataset collection | Single end data</h4>
-      		</div>
-      		<div class="modal-body">
-      			<div class="embed-responsive embed-responsive-16by9">
-  					<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212757252"></iframe>
-				</div>
-			</div>	
-    	</div>
-  	</div>
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Creating a dataset collection | Single end data</h4>
+        </div>
+        <div class="modal-body">
+         <div class="embed-responsive embed-responsive-16by9">
+       <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212757252"></iframe>
+    </div>
+   </div>
+     </div>
+   </div>
 </div>
 
 
-## Uploading 
+## Uploading
 
 After uploading datasets into Galaxy history we will combine all datasets into a single dataset collection. This will simplify downstream processing of the data. The process for creating a collection for this tutorial is <a href="#" data-toggle="modal" data-target="#collection_create_video">is shown here</a>.
 
@@ -111,19 +111,19 @@ In this particular case the data is of very high quality and do not need to be t
 
 <!-- Modal for Renaming collection video -->
 <div class="modal fade" id="collection_rename_video" tabindex="-1" role="dialog" aria-labelledby="collection_rename_Vid">
-  	<div class="modal-dialog" role="document">
-    	<div class="modal-content">
-      		<div class="modal-header">
-        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        		<h4 class="modal-title" id="myModalLabel">Renaming a collection</h4>
-      		</div>
-      		<div class="modal-body">
-      			<div class="embed-responsive embed-responsive-16by9">
-  					<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212758694"></iframe>
-				</div>
-			</div>	
-    	</div>
-  	</div>
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Renaming a collection</h4>
+        </div>
+        <div class="modal-body">
+         <div class="embed-responsive embed-responsive-16by9">
+       <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/212758694"></iframe>
+    </div>
+   </div>
+     </div>
+   </div>
 </div>
 
 
@@ -140,11 +140,11 @@ For post-processing we will remove all non-uniquely mapped reads. This can be do
 
 # Assessment of ChIP quality
 
-After we mapped and filtered the reads it is time to make some inferences about how good the underlying data is. 
+After we mapped and filtered the reads it is time to make some inferences about how good the underlying data is.
 
 ## Correlation among samples
 
-In out experiment there are two replicates, each containing treatment and input (control) datasets. The first thing we can check is if the samples are correlated (in other words if treatment and control samples across the two replicates contain this same kind of signal). To do this we first generate read count matrix using **NGS: DeepTools &rarr; multiBamSummary**. 
+In out experiment there are two replicates, each containing treatment and input (control) datasets. The first thing we can check is if the samples are correlated (in other words if treatment and control samples across the two replicates contain this same kind of signal). To do this we first generate read count matrix using **NGS: DeepTools &rarr; multiBamSummary**.
 
 |      |
 |------|
@@ -209,7 +209,7 @@ Window   ChIP-count Input-count
 9          45         3
 ```
 
-Now let's add another two columns to this dataset. These columns will show percentage of reads summing up to each row for ChIP and Input data. For example, 0.044 on row 3 is (1 + 2 + 2)/113 = 0.044. 
+Now let's add another two columns to this dataset. These columns will show percentage of reads summing up to each row for ChIP and Input data. For example, 0.044 on row 3 is (1 + 2 + 2)/113 = 0.044.
 
 ```
  1   2   3  4      5
@@ -277,23 +277,23 @@ We will use **NGS: DeepTools &rarr; bamCoverage**:
 
 <!-- Modal for displaying in IGV -->
 <div class="modal fade" id="igv_video" tabindex="-1" role="dialog" aria-labelledby="igv_Vid">
-  	<div class="modal-dialog" role="document">
-    	<div class="modal-content">
-      		<div class="modal-header">
-        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        		<h4 class="modal-title" id="myModalLabel">Displaying multiple datasets in IGV</h4>
-      		</div>
-      		<div class="modal-body">
-      			<div class="embed-responsive embed-responsive-16by9">
-  					<iframe class="embed-responsive-item" src="https://player.vimeo.com/video/123414437"></iframe>
-				</div>
-			</div>	
-    	</div>
-  	</div>
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Displaying multiple datasets in IGV</h4>
+        </div>
+        <div class="modal-body">
+         <div class="embed-responsive embed-responsive-16by9">
+       <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/123414437"></iframe>
+    </div>
+   </div>
+     </div>
+   </div>
 </div>
 
 
-Now we can display bigWig datasets generated in the previous section in a genome browser. There is a variety of available browsers. In this tutorial we will use IGV Browser (this <a href="#" data-toggle="modal" data-target="#igv_video">video</a> shows how to display multiple datasets in IGV). 
+Now we can display bigWig datasets generated in the previous section in a genome browser. There is a variety of available browsers. In this tutorial we will use IGV Browser (this <a href="#" data-toggle="modal" data-target="#igv_video">video</a> shows how to display multiple datasets in IGV).
 
 |      |
 |------|
@@ -338,7 +338,7 @@ Here is a concise description of these steps:
 |<small>Peaks mapped to two strands are treated separately to build two coverage density profiles - two two modes. The distance between the modes is the fragment size `d`. This profile is build from 1,000 randomply selected enriched regions (From [Zhang:2008](https://www.ncbi.nlm.nih.gov/pubmed?cmd=search&term=18798982)).</small>|
 
 
-- **Generate peaks** - now that *d* has been defined MACS slides a window of size *2d* across the genome to identify regions significantly enriched in the ChIP sample. MACS assumes that background reads obey [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution). Thus given the number of reads in a given interval within the control sample we can calculate the probability of having observed number of reads in the ChIP sample (e.g., see flood example [here](https://en.wikipedia.org/wiki/Poisson_distribution#Examples_of_probability_for_Poisson_distributions)). This procedure is performed for several intervals around the examined location (*2d*, 1kb, 5kb, 10kb, and the whole genome) and the maximum value is chosen. One problem with this approach is that it only works if both samples (ChIP and control) are sequenced to the depth, which is not usually happening in practice. To correct with this MACS scales down the larger sample. 
+- **Generate peaks** - now that *d* has been defined MACS slides a window of size *2d* across the genome to identify regions significantly enriched in the ChIP sample. MACS assumes that background reads obey [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution). Thus given the number of reads in a given interval within the control sample we can calculate the probability of having observed number of reads in the ChIP sample (e.g., see flood example [here](https://en.wikipedia.org/wiki/Poisson_distribution#Examples_of_probability_for_Poisson_distributions)). This procedure is performed for several intervals around the examined location (*2d*, 1kb, 5kb, 10kb, and the whole genome) and the maximum value is chosen. One problem with this approach is that it only works if both samples (ChIP and control) are sequenced to the depth, which is not usually happening in practice. To correct with this MACS scales down the larger sample.
 
 - **Compute False Discovery Rate (FDR)** - [Feng:2012](https://www.nature.com/nprot/journal/v7/n9/full/nprot.2012.101.html) explains computing FDR in MACS as follows: <em>"When a control sample is available </em>(and you should really always use it - AN)<em>, MACS can also estimate an empirical FDR for every peak by exchanging the ChIP-seq and control samples and identifying peaks in the control sample using the same set of parameters used for the ChIP-seq sample. Because the control sample should not exhibit read enrichment, any such peaks found by MACS can be regarded as false positives. For a particular P value threshold, the empirical FDR is then calculated as the number of control peaks passing the threshold divided by the number of ChIP-seq peaks passing the same threshold." </em>
 
@@ -395,7 +395,7 @@ In the case of these data peaks are very sharp and have narrow gap between them:
 |                |
 |----------------|
 |![](/tutorials/chip/macs1.png)|
-|<small>**Calling peaks with `MACS2` on pooled data**. Here we choose multiple inputs by pressing <i class="far fa-copy" aria-hidden="true"></i> button and selecting both ChIP datasets in **ChIP-Seq Treatment File** and both Input DNA datasets in **ChIP-Seq Control File**. We then select `Saccharomyces cerevisiae` genome as the **Effective genome size**. `MACS2`s interface is long and we split it into several pieces in this figure. See the lower section as well - it is important!</small>| 
+|<small>**Calling peaks with `MACS2` on pooled data**. Here we choose multiple inputs by pressing <i class="far fa-copy" aria-hidden="true"></i> button and selecting both ChIP datasets in **ChIP-Seq Treatment File** and both Input DNA datasets in **ChIP-Seq Control File**. We then select `Saccharomyces cerevisiae` genome as the **Effective genome size**. `MACS2`s interface is long and we split it into several pieces in this figure. See the lower section as well - it is important!</small>|
 |![](/tutorials/chip/macs2.png)|
 |<small>In this lower part of `MACS2` interface set **Build model** to `Do not build the shifting model` (we have already done this with `preductd` in the previous step) and **Set extension size* to `30` (the number we estimated in the previous step). Finally, we will only ask `MACS2` to produce two outputs: `Peak summits` and the one it produced by default, which contains peak coordinates.</small>|
 
@@ -416,9 +416,9 @@ Next, we will run `MACS2` on BAM datasets for Replicate 1 only:
 <div class="alert alert-warning trim-p" role="alert"><i class="fa fa-exclamation-circle" aria-hidden="true"></i> Now do this by yourself:
 <hr>
 
-* rename resulting datasets as `R1 summits` and `R1 peaks`
-* run `MACS2` run on Replicate 2
-* rename resulting `summits` and `narrow peak` datasets as `R2 summits` and `R2 peaks`.
+- rename resulting datasets as `R1 summits` and `R1 peaks`
+- run `MACS2` run on Replicate 2
+- rename resulting `summits` and `narrow peak` datasets as `R2 summits` and `R2 peaks`.
 
 </div>
 
@@ -460,7 +460,7 @@ where columns  are:
  1. Strand (irrelevant in this case)
  1. Fold-change (fold enrichment for this peak summit against random Poisson distribution with local [lambda](https://en.wikipedia.org/wiki/Poisson_distribution))
  1. -log<sub>10</sub>*P*-value (e.g., 17.68 is 1 x 10<sup>-17</sup>)
- 1. -log<sub>10</sub>*Q*-value from [Benjamini–Hochberg–Yekutieli procedure](https://en.wikipedia.org/wiki/False_discovery_rate#Benjamini.E2.80.93Hochberg.E2.80.93Yekutieli_procedure.) 
+ 1. -log<sub>10</sub>*Q*-value from [Benjamini–Hochberg–Yekutieli procedure](https://en.wikipedia.org/wiki/False_discovery_rate#Benjamini.E2.80.93Hochberg.E2.80.93Yekutieli_procedure.)
  1. Relative summit position to peak start
 
 ## How many peaks are common between replicates?

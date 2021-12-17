@@ -44,13 +44,13 @@ You can also directly download and install the appropriate package from [Virtual
 There are two VMs to pick from.  
 
 
-| Topic |  Download  |  Description  | 
-| ----- | --------- | ------------ | 
-| [Installing and Maintaining a Local Galaxy Server](/events/gcc2013/training-day/vms/) |  [Norway](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop.ova), [US](http://depot.galaxyproject.org/BasicWorkshop.ova) ([Checksum](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop-sha256sum.txt))  |  Has the Galaxy source code distribution, and Galaxy prerequisites, but Galaxy is not installed or running.  | 
-| [Introduction to Tool and Data Source Configuration](/events/gcc2013/training-day/vms/#introduction-to-tool-and-data-source-configuration) |  [Norway](ftp://ftp.no.embnet.org/galaxy/images/GCC2013-AdvWorkshops.ova), [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova) ([Checksum](ftp://ftp.no.embnet.org/galaxy/images/GCC2013-AdvWorkshops-sha256sum.txt))  |  Has Galaxy source code distribution and Galaxy prerequisites, and running Galaxy and Galaxy Tool Shed instances.  | 
-| [Advanced Tool and Data Source Configuration](/events/gcc2013/training-day/vms/#advanced-tool-and-data-source-configuration) | 
-| [Galaxy Tool Shed](/events/gcc2013/training-day/vms/#galaxy-toolshed) | 
-| [The Galaxy API](/events/gcc2013/training-day/vms/#the-galaxy-api) | 
+| Topic |  Download  |  Description  |
+| ----- | --------- | ------------ |
+| [Installing and Maintaining a Local Galaxy Server](/events/gcc2013/training-day/vms/) |  [Norway](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop.ova), [US](http://depot.galaxyproject.org/BasicWorkshop.ova) ([Checksum](ftp://ftp.no.embnet.org/galaxy/images/BasicWorkshop-sha256sum.txt))  |  Has the Galaxy source code distribution, and Galaxy prerequisites, but Galaxy is not installed or running.  |
+| [Introduction to Tool and Data Source Configuration](/events/gcc2013/training-day/vms/#introduction-to-tool-and-data-source-configuration) |  [Norway](ftp://ftp.no.embnet.org/galaxy/images/GCC2013-AdvWorkshops.ova), [US](http://depot.galaxyproject.org/GCC2013-AdvWorkshops.ova) ([Checksum](ftp://ftp.no.embnet.org/galaxy/images/GCC2013-AdvWorkshops-sha256sum.txt))  |  Has Galaxy source code distribution and Galaxy prerequisites, and running Galaxy and Galaxy Tool Shed instances.  |
+| [Advanced Tool and Data Source Configuration](/events/gcc2013/training-day/vms/#advanced-tool-and-data-source-configuration) |
+| [Galaxy Tool Shed](/events/gcc2013/training-day/vms/#galaxy-toolshed) |
+| [The Galaxy API](/events/gcc2013/training-day/vms/#the-galaxy-api) |
 
 ## 3. Import the VM into VirtualBox
 

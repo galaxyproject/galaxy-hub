@@ -12,7 +12,7 @@ contact: "Dave Clements, Lukas Mueller, Surya Saha"
 image:
 ---
 
-<div class="float-right"> <a href='http://bti.cornell.edu/'><img src="/images/logos/BTILogo.png" alt="Boyce Thompson Institute" width="263" /></a> <br /> 
+<div class="float-right"> <a href='http://bti.cornell.edu/'><img src="/images/logos/BTILogo.png" alt="Boyce Thompson Institute" width="263" /></a> <br />
 <img src="/images/logos/CornellLogoSmall.gif" alt="Cornell University" width="263" /></a>
 </div>
 

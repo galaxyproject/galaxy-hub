@@ -129,7 +129,7 @@ The first call of the Galaxy Metabolomics Community will be held on the 10th of 
 
 There will be [one roundtable meetup this month](/events/2020-12-10-dev-roundtable/). Discussion will focus on restructuring how development and other Galaxy components are gathered and coordinated.
 
-*A gentle shout form the editors:* **Wake up!** If you want to get involved in guiding and contributing to Galaxy in a significant way, then please join this call. 
+*A gentle shout form the editors:* **Wake up!** If you want to get involved in guiding and contributing to Galaxy in a significant way, then please join this call.
 </div>
 
 
@@ -140,7 +140,7 @@ There will be [one roundtable meetup this month](/events/2020-12-10-dev-roundtab
 
 **17 December, Online**
 
-Paper Cuts are annoying but easy to fix bugs. October and November were a success, so we are going to [do it again on December 17](/events/2020-12-papercuts/). Our third one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community. 
+Paper Cuts are annoying but easy to fix bugs. October and November were a success, so we are going to [do it again on December 17](/events/2020-12-papercuts/). Our third one-day Paper Cuts contribution fest will also be a 24-hour event spanning all time zones with our worldwide community.
 
 Please save the date! **It's an ideal opportunity for newcomers to become a Galaxy contributor.**
 </div>
@@ -253,14 +253,14 @@ If you have some special needs that we should consider in our next purchase, [le
 
 The Galaxy community participated in 8 different projects during the BioHackathon Europe 2020:
 
-- [CNV detection software containerisation and benchmark](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/7)
-- [EDAM and Tool Information Profiles](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/10)
-- [Exporting rich metadata and provenance from Galaxy using RO-Crate packaging](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14)
-- [Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17)
-- [Hardening and Testing Galaxy cluster support with BioContainer](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18)
-- [An interface between Galaxy and disease maps](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27)
-- [Deploying biocontainers in orchestration environments for life science research](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31)
-- [bio.tools integration and sustainable development](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/8f588223a2ca50ecb76cdf37fa5bfc21aa54e5d4/projects/11)
+* [CNV detection software containerisation and benchmark](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/7)
+* [EDAM and Tool Information Profiles](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/10)
+* [Exporting rich metadata and provenance from Galaxy using RO-Crate packaging](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14)
+* [Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17)
+* [Hardening and Testing Galaxy cluster support with BioContainer](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18)
+* [An interface between Galaxy and disease maps](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27)
+* [Deploying biocontainers in orchestration environments for life science research](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/31)
+* [bio.tools integration and sustainable development](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/8f588223a2ca50ecb76cdf37fa5bfc21aa54e5d4/projects/11)
 
 <img class="card-img-bottom" src="/images/logos/bhlogo.png" alt="BH2020" />
 </div>
@@ -341,7 +341,7 @@ This tutorial shows genome assembly for the plant chloroplast genome with a subs
 
 By [Cristóbal Gallardo](https://training.galaxyproject.org/training-material/hall-of-fame/gallardoalba/).
 
-This tutorial uses sequencing data obtained through the MinION sequencer (Oxford Nanopore Technologies) with two objectives: 
+This tutorial uses sequencing data obtained through the MinION sequencer (Oxford Nanopore Technologies) with two objectives:
 
 1) evaluate the health status of soil samples,
 2) study how microbial populations are modified by their interaction with plant roots.
@@ -468,7 +468,7 @@ Interested in host-microbiome interactions and multi-omic data? We have multiple
 <div class="card border-info" style="min-width: 14rem; max-width: 20rem">
 <div class="card-header">[Research Associate in Biomedical Data Science](https://apply.interfolio.com/81395)</div>
 
-Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University. 
+Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University.
 
 Data science research and education focusing on genomics ([AnVIL](https://anvilproject.org/), [Genomic Data Science Community Network](http://www.gdscn.org/)), cancer ([ITCR](https://itcr.cancer.gov/))  or pain [A2CPS](https://a2cps.org/).
 
@@ -498,7 +498,7 @@ Roche, Bay Area, California, United States.
 
 Johns Hopkins University, Baltimore, Maryland, United States.
 
-Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. 
+Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis.
 
 <img class="card-img-bottom" src="/images/logos/anvil-logo-text.png" alt="AnVIL" />
 </div>
@@ -531,6 +531,7 @@ The project is funded by the Institut National de Recherche sur le Cancer (INCA)
 <div class="card-header">[Software Engineer/Full Stack Developer](https://jobs.jhu.edu/job/Baltimore-Software-EngineerFull-Stack-Developer-MD-21218/667182900/) and [Sr. Programmer Analyst](https://jobs.jhu.edu/job/Baltimore-Sr_-Programmer-Analyst-MD-21218/666390700/)</div>
 
 The Schatz Lab at Johns Hopkins University is looking for:
+
 * Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
 * Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 
@@ -548,11 +549,13 @@ The Schatz Lab at Johns Hopkins University is looking for:
 <div class="card-header">[Galaxy 20.09](/news/2020-11-galaxy-release-20-09/)</div>
 
 See
+
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce.html)**
 * **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.09_announce_user.html)**
 * **[Release summary video](https://youtu.be/dIeXVW_eoJk)**
 
 Features:
+
 * GTN in Galaxy.
 * Plugin framework for uploading datasets.
 * Upload directly from the Tool Form.

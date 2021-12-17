@@ -12,9 +12,9 @@ title: March 2016 Galaxy News
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the March 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
+Welcome to the March 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 
 # GCC2016
@@ -23,7 +23,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 <a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="https://web.archive.org/web/http://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
 </div>
 
-[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes 2 days of hackathons, [2 days of training](https://gcc16.sched.org/grid-full#2016-06-26), and a two day meeting featuring accepted presentations, keynotes, poster sessions, the new Visualization Showcase and Software Demo sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking. 
+[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes 2 days of hackathons, [2 days of training](https://gcc16.sched.org/grid-full#2016-06-26), and a two day meeting featuring accepted presentations, keynotes, poster sessions, the new Visualization Showcase and Software Demo sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking.
 
 ## GCC2016 Early Registration
 
@@ -36,7 +36,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 
 </div>
 
-**[Early registration for GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/registration/) is now open**. 
+**[Early registration for GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/registration/) is now open**.
 Registration costs depend on which events you register for, your career stage & affiliation, and when you register.  Early bird registration ends May 20 and is up to 40% less than regular registration rates.  Early bird registration starts at less than $45 / day for students and postdocs, and at $65 / day for other attendees from non-profits.
 
 You can also sign up for [conference housing](https://web.archive.org/web/http://gcc2016.iu.edu/location) during registration.  
@@ -56,7 +56,7 @@ You are strongly encouraged to review the [training](https://gcc16.sched.org/gri
 
 **The deadline for [oral presentation abstracts](http://bit.ly/gcc2016abssub) is March 25, 2016**.  Abstracts will be reviewed and submitters will be notified of acceptance status no later than April 11, 2016.
 
-**[Poster and Demo abstract submission](http://bit.ly/gcc2016abssub) closes May 20, 2016** (or earlier depending on poster space availability).  Poster and demo submissions are reviewed on a rolling basis, and submitters will be notified of acceptance status no later than two weeks after the abstract is submitted.  You may submit similar content for oral presentations, posters, and demos. 
+**[Poster and Demo abstract submission](http://bit.ly/gcc2016abssub) closes May 20, 2016** (or earlier depending on poster space availability).  Poster and demo submissions are reviewed on a rolling basis, and submitters will be notified of acceptance status no later than two weeks after the abstract is submitted.  You may submit similar content for oral presentations, posters, and demos.
 
 Topics should be of interest to those working in high-throughput data analysis and research. Presentations that are Galaxy-centric are encouraged, but not required.  Please see the [abstracts page](https://web.archive.org/web/http://gcc2016.iu.edu/abstracts/index.php) for full details.
 
@@ -82,7 +82,7 @@ See the [full announcement](/news/gcc2016-scholarships/) for details.
 
 <div class='left'><br /><a href='http://bioteam.net/'><img src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="130" /></a></div>
 
-We are pleased to announce that **[BioTeam](http://bioteam.net)** will again be a [sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors) for this annual event.  BioTeam is a professional services and products company at the intersection of science and information technology. BioTeam solves analytics, big data and scientific computing challenges for organizations by mapping the right technologies to their unique scientific needs. BioTeam has a well-established history of providing forward-thinking solutions to the Life Sciences.   
+We are pleased to announce that **[BioTeam](http://bioteam.net)** will again be a [sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors) for this annual event.  BioTeam is a professional services and products company at the intersection of science and information technology. BioTeam solves analytics, big data and scientific computing challenges for organizations by mapping the right technologies to their unique scientific needs. BioTeam has a well-established history of providing forward-thinking solutions to the Life Sciences.
 
 The **[BioTeam Appliance Galaxy Edition](http://bioteam.net/bioteam-appliance/galaxy-edition/)** is a push-button solution that let’s researchers get up and running quickly with Galaxy.  The Galaxy Appliance comes preinstalled with a production instance of Galaxy, bioinformatics tools, and reference datasets. This powerful system is specifically configured for computationally intensive scientific workloads. Most importantly, the Galaxy Appliance is an open system so researchers can install whatever tools they need and use the server as their own high-performance informatics infrastructure along side Galaxy.  BioTeam provides ongoing support for the Galaxy Appliance, enabling researchers to minimize their IT burden. The Galaxy Appliance is used by researchers around the world for metagenomic, ChIP-Seq, RNA-Seq analysis and more.  For more information:  http://bioteam.net/bioteam-appliance/galaxy-edition/
 
@@ -199,7 +199,8 @@ We will do our best to coordinate and make this hackathon a nice and productive 
 <a href='http://gmod.org/wiki/Jun_2016_GMOD_Meeting'><img src="/images/logos/GMODLogo.png" alt="2016 GMOD meeting" width="160" /></a>
 </div>
 
-The [2016 GMOD meeting](http://gmod.org/wiki/Jun_2016_GMOD_Meeting) will be held **immediately following GCC2016 and in the same venue as GCC2016**.  [GMOD](http://gmod.org/wiki/GMOD) is a consortium of open-source software project, including Galaxy, that address common challenges with biological data.  Other projects in the GMOD consortium include 
+The [2016 GMOD meeting](http://gmod.org/wiki/Jun_2016_GMOD_Meeting) will be held **immediately following GCC2016 and in the same venue as GCC2016**.  [GMOD](http://gmod.org/wiki/GMOD) is a consortium of open-source software project, including Galaxy, that address common challenges with biological data.  Other projects in the GMOD consortium include
+
 * [Tripal](http://gmod.org/wiki/Tripal): A web front end for [Chado](http://gmod.org/wiki/Chado) databases.  Galaxy is working with the Tripal project to make Galaxy be Tripal's analysis engine.
 * [JBrowse](http://gmod.org/wiki/JBrowse): A client-side genome browser and successor to the venerable [http://gmod.org/wiki/GBrowse](http://gmod.org/wiki/GBrowse).  [JBrowse as a Galaxy Tool](http://gcc2015.tsl.ac.uk/Lightning/#JBrowse_as_a_Galaxy_Tool) was presented by Helena Rasche at [GCC2015](http://gcc2015.tsl.ac.uk/). Ian Holmes, the JBrowse PI, has put JBrowse-Galaxy integration  at "top of the list" for JBrowse's infrastructure upcoming infrastructure work.
 * [MAKER](http://gmod.org/wiki/MAKER): A genome annotation pipeline that integrates several gene annotation engines, and combines them to produce annotation that is better than any individual tool produces.  A [MAKER-Galaxy](https://depot.galaxyproject.org/hub/attachments/documents/posters/ISMB2014_Kandalaft_GenomeAnnotation.pdf) by Agriculture and Agri-Food Canada was presented at ISMB 2014.
@@ -233,7 +234,7 @@ Slides and video from the [February 2016 GalaxyAdmins meetup are now available](
 
 There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
-<div class='center'> 
+<div class='center'>
 <a href='https://github.com/galaxyproject/tools-iuc/issues/422'><img src="/images/logos/IUC_RADSeq_Hack.png" alt="IUC Contribution Fest - RADSeq Tools and Workflows" height="80" /></a>
 <a href='http://migale.jouy.inra.fr/?q=formations'><img src="/images/logos/MIGALELogo.png" alt='Le cycle "Bioinformatique par la pratique" 2016' height="50" /></a>
 <a href='http://go4bioinformatics.genouest.org/analyse-de-donnees-rnaseq-sous-galaxy/'><img src="/images/logos/eBiogenouestLogo.png" alt="Introduction à l'analyse de données RNAseq sous Galaxy" height="80" /></a> &nbsp;
@@ -367,9 +368,10 @@ There are [many upcoming events](/events/) in the next few months.  See the [Gal
 <div class='right'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></div>
 
 The Galaxy is expanding! Please help it grow.
+
 * [Bioinformatics Web Application Developer-Biology](http://bit.ly/1LQQ2qz), Washington University in St. Louis, Missouri, United States
 * [Software developer and Post-docs](http://gehlenborg.com/open-positions/), Gehlenborg Lab, Harvard Medical School, Boston, Massachusetts, United States
-* [Postdoctoral Research Positions](http://bit.ly/1KYf1rg), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States 
+* [Postdoctoral Research Positions](http://bit.ly/1KYf1rg), Molecular and Cellular Biology Department at Baylor College of Medicine, Houston, Texas, United States
 * [Bioinformaticist](/news/jhu-apl-bioinformaticist/), Johns Hopkins University Applied Physics Laboratory (APL)
 * [Software Engineer](/news/software-engineer-ohsu/), Oregon Health Sciences University, Portland, Oregon, United States
 
@@ -390,54 +392,54 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right solid'><a href='http://galaxy.bioinfo-bistro.fr/galaxy/'><img src="/public-galaxy-servers/archive/bistro.png" alt="BISTRO Galaxy" width="300" /></a></div>
 
 * *Link:*
-  * [BISTRO Galaxy](http://galaxy.bioinfo-bistro.fr/galaxy/)
-* *Domain/Purpose:* 
-  * Taxonomic studies of environmental microbial communities 
+    * [BISTRO Galaxy](http://galaxy.bioinfo-bistro.fr/galaxy/)
+* *Domain/Purpose:*
+    * Taxonomic studies of environmental microbial communities
 * *Comments:*
-  * Publishes the [PipeAlign workflow](http://galaxy.bioinfo-bistro.fr/galaxy/u/kress/w/pipealign-2) and supporting tools. These tools include ballast, RASCAL, LEON, and MACSIMS.
+    * Publishes the [PipeAlign workflow](http://galaxy.bioinfo-bistro.fr/galaxy/u/kress/w/pipealign-2) and supporting tools. These tools include ballast, RASCAL, LEON, and MACSIMS.
 * *User Support:*
-  * [Email support](mailto:akress@unistra.fr)
-* *Quotas:* 
-  * Supports anonymous access and creation of user logins. 
+    * [Email support](mailto:akress@unistra.fr)
+* *Quotas:*
+    * Supports anonymous access and creation of user logins.
 * *Sponsor(s):*
-  * This instance of Galaxy is managed by the [BISTRO platform](http://bioinfo-bistro.fr/bioinfo-bistro/).
+    * This instance of Galaxy is managed by the [BISTRO platform](http://bioinfo-bistro.fr/bioinfo-bistro/).
 
 ## MiModD NacreousMap
 
 <div class='right solid'><a href='http://mapping-by-sequencing.vm.uni-freiburg.de:8080/'><img src="/use/mimodd-nacreousmap/baumeister.png" alt="Baumeister Lab Galaxy featuring MiModD" width="300" /></a></div>
 
 * *Link:*
-  * [MiModD NacreousMap](http://mapping-by-sequencing.vm.uni-freiburg.de:8080/)
-* *Domain/Purpose:* 
-  * This server exposes the NacreousMap mapping/plotting tool of MiModD for users of MiModD who do not want to install the required dependencies (R and rpy2) for graphical output from this tool on their local system. [MiModD](http://www.celegans.de/en/mimodd) is a comprehensive software package for the identification and annotation of mutations in the genomes of model organisms from whole-genome sequencing (WGS) data. 
+    * [MiModD NacreousMap](http://mapping-by-sequencing.vm.uni-freiburg.de:8080/)
+* *Domain/Purpose:*
+    * This server exposes the NacreousMap mapping/plotting tool of MiModD for users of MiModD who do not want to install the required dependencies (R and rpy2) for graphical output from this tool on their local system. [MiModD](http://www.celegans.de/en/mimodd) is a comprehensive software package for the identification and annotation of mutations in the genomes of model organisms from whole-genome sequencing (WGS) data.
 * *Comments:*
-  * [CloudMap](https://usegalaxy.org/cloudmap) users can replot data produced with the Hawaiian Variant Mapping tool using the NacreousMap engine to obtain optimized (much smaller files that display faster) plots.
-  * To install the complete MiModD package for use as a command line tool or for integration into any local Galaxy follow the [installation instructions](http://mimodd.readthedocs.org/en/latest/INSTALL.html) in the [MiModD User Guide](http://mimodd.readthedocs.org/en/latest/).
+    * [CloudMap](https://usegalaxy.org/cloudmap) users can replot data produced with the Hawaiian Variant Mapping tool using the NacreousMap engine to obtain optimized (much smaller files that display faster) plots.
+    * To install the complete MiModD package for use as a command line tool or for integration into any local Galaxy follow the [installation instructions](http://mimodd.readthedocs.org/en/latest/INSTALL.html) in the [MiModD User Guide](http://mimodd.readthedocs.org/en/latest/).
 * *User Support:*
-  * [MiModD User Guide](http://mimodd.readthedocs.org/en/latest/index.html#)
-  * [MiModD Google Group](mailto:mimodd@googlegroups.com)
-* *Quotas:* 
-  * The quota for anonymous usage is 50MB, registered users have 250MB available.
-  * You can analyze/plot data in VCF format or the "Per variant report" format generated by local runs of the MiModD NacreousMap tool. The latter has the advantage of being up to 20 times smaller than the corresponding VCF file.
+    * [MiModD User Guide](http://mimodd.readthedocs.org/en/latest/index.html#)
+    * [MiModD Google Group](mailto:mimodd@googlegroups.com)
+* *Quotas:*
+    * The quota for anonymous usage is 50MB, registered users have 250MB available.
+    * You can analyze/plot data in VCF format or the "Per variant report" format generated by local runs of the MiModD NacreousMap tool. The latter has the advantage of being up to 20 times smaller than the corresponding VCF file.
 * *Sponsor(s):*
-  * [The Baumeister Laboratory](http://www.celegans.de/) at the [Institute for Biology 3](http://www.biologie.uni-freiburg.de/data/bio3/) of the [Albert-Ludwig University](http://www.uni-freiburg.de/) in Freiburg/Breisgau, Germany.
+    * [The Baumeister Laboratory](http://www.celegans.de/) at the [Institute for Biology 3](http://www.biologie.uni-freiburg.de/data/bio3/) of the [Albert-Ludwig University](http://www.uni-freiburg.de/) in Freiburg/Breisgau, Germany.
 
 ## NIOO-KNAW PhyloProfiler
 
 <div class='right solid'><a href='https://galaxy.bioinf.nioo.knaw.nl/public/'><img src="/public-galaxy-servers/archive/nioo-knaw-loggo.jpg" alt="NIOO-KHAN Public Galaxy Server featuring PhyloPofiler" width="300" /></a></div>
 
 * *Link:*
-  * [NIOO-KHAN Public Galaxy Server featuring PhyloPofiler](https://galaxy.bioinf.nioo.knaw.nl/public/)
+    * [NIOO-KHAN Public Galaxy Server featuring PhyloPofiler](https://galaxy.bioinf.nioo.knaw.nl/public/)
 * *Domain/Purpose:*
-  * [PhyloProfiler](https://galaxy.bioinf.nioo.knaw.nl/public/) consists of several filtering and reporting options for analyzing [PhyloChip](http://www.secondgenome.com/solutions/services/phylochip/) data consisting of OTUs with hybridization scores (HybScores).
+    * [PhyloProfiler](https://galaxy.bioinf.nioo.knaw.nl/public/) consists of several filtering and reporting options for analyzing [PhyloChip](http://www.secondgenome.com/solutions/services/phylochip/) data consisting of OTUs with hybridization scores (HybScores).
 * *Comments:*
-  * See [Impact of soil heat on reassembly of bacterial communities in the rhizosphere microbiome and plant disease suppression](http://onlinelibrary.wiley.com/doi/10.1111/ele.12567/abstract) by van der Voort, *et al.*, in *Ecology Letters* doi: 10.1111/ele.12567
+    * See [Impact of soil heat on reassembly of bacterial communities in the rhizosphere microbiome and plant disease suppression](http://onlinelibrary.wiley.com/doi/10.1111/ele.12567/abstract) by van der Voort, *et al.*, in *Ecology Letters* doi: 10.1111/ele.12567
 * *User Support:*
-  * See the [Galaxy PhyloChip analysis pipeline PhyloProfiler User’s Manual](https://galaxy.bioinf.nioo.knaw.nl/public/static/pdf/PhyloProfiler_Manual_v2.pdf) 
-* *Quotas:* 
-  * Anonymous access is supported.
+    * See the [Galaxy PhyloChip analysis pipeline PhyloProfiler User’s Manual](https://galaxy.bioinf.nioo.knaw.nl/public/static/pdf/PhyloProfiler_Manual_v2.pdf)
+* *Quotas:*
+    * Anonymous access is supported.
 * *Sponsor(s):*
-  * [BRS group of the Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/support/brs/group-members) in collaboration with the [Laboratory of Phytopathology of the Wageningen University](http://www.wageningenur.nl/en/Expertise-Services/Chair-groups/Plant-Sciences/Laboratory-of-Phytopathology.htm)/[NIOO-KNAW](https://nioo.knaw.nl/).
+    * [BRS group of the Netherlands Bioinformatics Centre (NBIC)](http://www.nbic.nl/support/brs/group-members) in collaboration with the [Laboratory of Phytopathology of the Wageningen University](http://www.wageningenur.nl/en/Expertise-Services/Chair-groups/Plant-Sciences/Laboratory-of-Phytopathology.htm)/[NIOO-KNAW](https://nioo.knaw.nl/).
 
 # Releases
 
@@ -445,7 +447,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
-The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the [January 2016 (v16.01) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html). 
+The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the [January 2016 (v16.01) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html).
 
 **Galaxy administrators should also be aware of the<div class='red'> [security announcements](/galaxy-updates/2016-03/#security-announcements) </span> below.**
 
@@ -497,7 +499,7 @@ Multiple security vulnerabilities were recently discovered in Galaxy that allow 
 
 ### Tool Shed Security Vulnerability - Read/write arbitrary filesystem paths
 
-Multiple security vulnerabilities were recently discovered in the Tool Shed that allow malicious actors to read and write files on the Tool Shed server outside of normal Tool Shed repository directories. 
+Multiple security vulnerabilities were recently discovered in the Tool Shed that allow malicious actors to read and write files on the Tool Shed server outside of normal Tool Shed repository directories.
 
 *This issue affects all known releases of Galaxy in at least the last 3 years.*  See the [full announcment](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/message/TQG5K6DHSJX6HDFMV6MJ43SRNEO3X3JZ/) for details.
 <br /><br /></div></div>
@@ -508,7 +510,7 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 ## CloudBridge 0.1.0
 
-The Galaxy Team is proud to be part of the development team for a new cross-cloud library called CloudBridge. **CloudBridge is a Python library providing a simple layer of abstraction over different cloud providers, reducing or eliminating the need to write conditional code for each cloud.** The library is generally applicable to any domain wishing to run cloud-independent applications. There is already support for Amazon and OpenStack clouds with support for Google’s Compute Engine in development. 
+The Galaxy Team is proud to be part of the development team for a new cross-cloud library called CloudBridge. **CloudBridge is a Python library providing a simple layer of abstraction over different cloud providers, reducing or eliminating the need to write conditional code for each cloud.** The library is generally applicable to any domain wishing to run cloud-independent applications. There is already support for Amazon and OpenStack clouds with support for Google’s Compute Engine in development.
 
 The first version of CloudBridge was released earlier this month and it comes with detailed user documentation: http://cloudbridge.readthedocs.org/. The source code is available on Github: https://github.com/gvlproject/cloudbridge.
 
@@ -524,7 +526,7 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 **[CloudMan](/cloudman/) 15.12**
 
-[CloudMan](/cloudman/) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
+[CloudMan](/cloudman/) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser.
 
 This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/releases) includes:
 
@@ -549,7 +551,7 @@ This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/re
 
 These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems.
 
-Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
+Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/).
 
 
 <div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
@@ -557,7 +559,7 @@ Documentation can be found at [starforge.readthedocs.org](http://starforge.readt
 **Pulsar 0.6.1**
 
 [Pulsar 0.6](https://pypi.python.org/pypi/pulsar-app/) was released in December.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
- 
+
 The 0.6.x release includes these changes:
 
 * Pulsar now depends on the new galaxy-lib Python package instead of manually synchronizing Python files across Pulsar and Galaxy.
@@ -620,6 +622,6 @@ See [list of tools contributed in February](/toolshed/contributions/2016-02/).
 
 # Other News
 
- 
+
 * From [Peter Amstutz (@peteramstutz)](https://twitter.com/peteramstutz)
-  * [Common Workflow Language (CWL) draft-3](https://common-workflow-language.github.io/draft-3/) is now stable!
+    * [Common Workflow Language (CWL) draft-3](https://common-workflow-language.github.io/draft-3/) is now stable!

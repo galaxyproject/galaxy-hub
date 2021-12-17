@@ -25,7 +25,7 @@ Conference housing is on campus in two Reed College dorm complexes.
 
 * On the main campus and adjacent to the conference venues
 * Older dorms
-* Not air conditioned (see [this Portland Climate graph](https://en.wikipedia.org/wiki/Portland,_Oregon#Climate)) 
+* Not air conditioned (see [this Portland Climate graph](https://en.wikipedia.org/wiki/Portland,_Oregon#Climate))
 * Not ADA compliant
 * Open for all events
 * Cheapest option
@@ -52,7 +52,7 @@ Conference housing is on campus in two Reed College dorm complexes.
 * Minors are prohibited from staying in the dorms (see Other Options below)
 * Checkin during [conference desk hours](https://gccbosc2018.sched.com/grid/)
 * To checkin or checkout, outside of conference desk hours go to Reed's Community Safety Office. It is open 24 hours a day, 7 days a week: [5436 SE 28th Ave, Portland, OR 97202](https://www.google.com/maps/d/viewer?mid=1rYNYrnJlS_cogqd1iQOef0BjEeCEjLPx&ll=45.48334080000003%2C-122.63702469999998&z=15). 503/517-5355.
-* Please see the [Reed Summer Conference Handbook](https://www.reed.edu/cep/assets/pdfs/reed-summer-conference-handbook.pdf) for information on policies and rules while staying at Reed. 
+* Please see the [Reed Summer Conference Handbook](https://www.reed.edu/cep/assets/pdfs/reed-summer-conference-handbook.pdf) for information on policies and rules while staying at Reed.
 
 
 ## Nightly rates
@@ -65,11 +65,11 @@ There are a limited number of single rooms, and they have sold out on a few nigh
 
 **Double and triple rooms**
 
-There are a limited number of double and triple occupancy rooms available in each block. These rooms have a set of furniture for each resident. If you book a double or triple room, you will have the option to provide roommate name(s), or the conference will match you up with roommates of the same gender. 
+There are a limited number of double and triple occupancy rooms available in each block. These rooms have a set of furniture for each resident. If you book a double or triple room, you will have the option to provide roommate name(s), or the conference will match you up with roommates of the same gender.
 
-* You and your roommate(s) need to both register for housing, and to request each other as roommates. 
-* Breakfast is included for all roommates. 
-* If your requested roommate is a different gender than you, then their bathroom (or your bathroom) may be on a different floor than the room. 
+* You and your roommate(s) need to both register for housing, and to request each other as roommates.
+* Breakfast is included for all roommates.
+* If your requested roommate is a different gender than you, then their bathroom (or your bathroom) may be on a different floor than the room.
 * Your roommate is not required to also be registered for GCCBOSC (but they need to be if they are attending GCCBOSC events).
 
 **Rates per bed per night**
@@ -79,7 +79,7 @@ In increasing order of cost:
 | Block | Occupancy | Booked | #Nights<br /> 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | ODB  | Triple   | By June 1     | $51.60 | $44.41 | $42.01 | $40.81 | $40.09 | $39.61 | $39.27 | $39.01 | $38.81 |
-| ODB  | Triple   | After&nbsp;June&nbsp;1 | $56.76 | $48.85 | $46.21 | $44.89 | $44.10 | $43.57 | $43.19 | $42.91 | $42.69 | 
+| ODB  | Triple   | After&nbsp;June&nbsp;1 | $56.76 | $48.85 | $46.21 | $44.89 | $44.10 | $43.57 | $43.19 | $42.91 | $42.69 |
 | Sitka (Grove) | Triple   | By June 1     | $59.40 | $52.18 | $49.77 | $48.56 | $47.84 | $47.36 | $47.02 | | |
 | Sitka (Grove) | Triple   | After June 1 | $65.34 | $57.39 | $54.74 | $53.42 | $52.62 | $52.09 | $51.72 | | |
 | ODB  | Double | By June 1     | $68.80 | $59.21 | $56.01 | $54.41 | $53.45 | $52.81 | $52.35 | $52.01 | $51.75 |
@@ -97,9 +97,9 @@ You don't have to be attending GCCBOSC 2018 events to book GCCBOSC 2018 lodging 
 
 * Guests need to share a room with the conference attendee that is hosting them as a guest.
 * The the conference participant *and* guest(s) need to register and pay for housing.
-  * The guest(s) and the conference participant need to book either a double or triple room
-  * The conference participant and guest(s) need to name each other as roommates when booking housing.
-  * Anyone staying on campus must be at least 18 years old.
+    * The guest(s) and the conference participant need to book either a double or triple room
+    * The conference participant and guest(s) need to name each other as roommates when booking housing.
+    * Anyone staying on campus must be at least 18 years old.
 
 ## Other Options
 
@@ -111,7 +111,7 @@ The conference is [offering subsidized childcare](/events/gccbosc2018/childcare/
 
 ## Public transportation
 
-Click [here](https://www.reed.edu/getting-to-reed.html) for information about getting to Reed. The address at Reed is: 3203 SE Woodstock Blvd. 
+Click [here](https://www.reed.edu/getting-to-reed.html) for information about getting to Reed. The address at Reed is: 3203 SE Woodstock Blvd.
 
 [Trimet Public Transit](http://trimet.org/index.htm) provides bus, light rail, and commuter rail service in the Portland region. Their transportation options connect people with their community, while easing traffic congestion and reducing air pollution—making our region a better place to live.  See [Trimet](http://trimet.org/index.htm) for more information on fares, schedules, and maps.
 
@@ -139,9 +139,9 @@ Sun, June 24 - [North Portland Sunday Parkways](https://www.portlandoregon.gov/t
 
 Fri-Sun, June 22-24 - [Portland International Beer Fest](http://www.portland-beerfest.com/) will be held in the Pearl District North Park Blocks, and will be showcasing beers from all over the world.
 
-June 19 - 24 - [Les Miserables](https://portland.broadway.com/) is playing at the [Keller Auditorium](https://www.portland5.com/keller-auditorium) in downtown Portland, as part of the Broadway Across American series. 
+June 19 - 24 - [Les Miserables](https://portland.broadway.com/) is playing at the [Keller Auditorium](https://www.portland5.com/keller-auditorium) in downtown Portland, as part of the Broadway Across American series.
 
-Sun, June 24 - [Singin’ in the Square](https://www.facebook.com/events/188186418571692/) is a free community sing-a-long with [Pink Martini's](http://pinkmartini.com/) band leader Thomas Lauderdale, held from 3-5pm in Pioneer Square in downtown Portland. 
+Sun, June 24 - [Singin’ in the Square](https://www.facebook.com/events/188186418571692/) is a free community sing-a-long with [Pink Martini's](http://pinkmartini.com/) band leader Thomas Lauderdale, held from 3-5pm in Pioneer Square in downtown Portland.
 
 ## Dining
 
@@ -150,7 +150,7 @@ Some [meals are included with registration and/or conference lodging](/events/gc
 ### Recommended pubs and restaurants near Reed
 
 **[Gigantic Brewing](https://www.giganticbrewing.com/)** *- .8 miles from Reed College*<br />
-Owned by Reedies (aka Reed College alumni). At Gigantic we only do two things: make the best IPA in Portland, Oregon and produce seasonal, exciting, flavorful beers, most of which will be brewed only once. Our goal is simultaneously to create new interpretations of classic styles and to ignore those same style guidelines completely and brew whatever our creative natures produce. 
+Owned by Reedies (aka Reed College alumni). At Gigantic we only do two things: make the best IPA in Portland, Oregon and produce seasonal, exciting, flavorful beers, most of which will be brewed only once. Our goal is simultaneously to create new interpretations of classic styles and to ignore those same style guidelines completely and brew whatever our creative natures produce.
 
 Note - there are food carts next to Gigantic Brewing, which would be a good option if you wanted a quick meal.
 
@@ -181,17 +181,17 @@ Longtime German deli with sidewalk picnic tables selling homemade sausages, hot 
 
 **[10 Barrel Brewing](https://10barrel.com/pub/portland/)** - *1411 NW Flanders St*<br />
 Second location for the brewery, the main brewery is based in Bend, Oregon. Now owned by Anheuser-Busch. Very popular spot in NW Portland. There is a rooftop bar but it gets very crowded.
- 
+
 **[Boxer Ramen](http://www.boxerramen.com/)** - *1025 SW Stark St*<br />
 Hip, cash-only restaurant offering Japanese noodle soups, booze & more in stylish, muraled digs.
 
 
 **[Oven and Shaker](http://ovenandshaker.com/)** - *1134 NW Everett St*<br />
-Happening pizzeria with wood-fired pies & top-shelf cocktails in a lively, music-filled space. 
+Happening pizzeria with wood-fired pies & top-shelf cocktails in a lively, music-filled space.
 
 **[Podnah’s Pit](http://www.podnahspit.com/)** - *1625 NE Killingsworth St*<br />
 BBQ joint in NE Portland that was once awarded ‘restaurant of the year’. The owner is from Austin and does a nice job on the smoker. It can get very crowded and there often is a wait.
- 
+
 #### Fine dining
 
 **[Accanto](http://accantopdx.com/)** - *2838 SE Belmont St*<br />
@@ -208,4 +208,4 @@ Eclectic, inventive French bistro fare served in a sexy spot with red banquettes
 
 **[Q Restaurant](http://q-portland.com/)** - *828 SW 2nd Ave*
 Modern & romantic space featuring imaginative, locally sourced Pacific Northwest cuisine.
- 
+

@@ -100,9 +100,9 @@ Past Galaxy Community Conferences have been *the* event for networking in the Ga
 
 <div class='right'><a href='http://bit.ly/11VvkxL'><img src="/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="150" /></a></div>
 
-We are pleased to announce that [Globus Genomics](http://bit.ly/11VvkxL) is a [Bronze Sponsor of GCC2013](/events/gcc2013/sponsorships/). 
+We are pleased to announce that [Globus Genomics](http://bit.ly/11VvkxL) is a [Bronze Sponsor of GCC2013](/events/gcc2013/sponsorships/).
 
-There are still several [sponsorships](/events/gcc2013/sponsorships/) still available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event. 
+There are still several [sponsorships](/events/gcc2013/sponsorships/) still available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event.
 
 
 ## Other Upcoming Events
@@ -115,7 +115,7 @@ There are still several [sponsorships](/events/gcc2013/sponsorships/) still avai
 <a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 ### Events
@@ -225,12 +225,12 @@ The most recent official distribution was on [April 1, 2013](/archive/dev-news-b
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
 * [snptools](http://bit.ly/17irtR1): Tools for functional analysis of SNPs in microbial genomes  
-* [rnbeads](http://bit.ly/11tcQV9): R-package for Illumina Infinium HumanMethylation450 BeadChip data analysis 
+* [rnbeads](http://bit.ly/11tcQV9): R-package for Illumina Infinium HumanMethylation450 BeadChip data analysis
 
 ## Other News
 
 * [Computation Institute Launches Sequencing Analysis Service](http://bit.ly/124cPKs)
-* The Tuxedo RNA-Seq analysis tool set (Bowtie, Tophat, Cufflinks, Cuffmerge, ...) now has a [user support forum](http://bit.ly/tuxedornaseq). 
+* The Tuxedo RNA-Seq analysis tool set (Bowtie, Tophat, Cufflinks, Cuffmerge, ...) now has a [user support forum](http://bit.ly/tuxedornaseq).
 * [Environmental Metabolomics Collaboration](/news/environmental-metabolomics-collaboration/)
 * [Galaxy will be well-represented at ASMS](/news/galaxy-at-asms2013/)
 * [Ruby script for managing bundling of Galaxy tool repositories](http://bit.ly/YlMSW1) by Ira Cooke

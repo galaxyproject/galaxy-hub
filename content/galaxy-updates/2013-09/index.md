@@ -26,15 +26,17 @@ You can also [install your own copy of Galaxy-P](http://getgalaxyp.org/), either
 
 [NICTA Bioinformatics](http://bioinformatics.research.nicta.com.au/)' [Genome-wide Interaction Search (GWIS)](http://bioinformatics.research.nicta.com.au/software/gwis/) for multivariate GWAS analysis cuts the computational time for analyzing all pairs of SNP interactions in genome-wide association studies (GWAS) from months to minutes on commodity computers.  Any non-commercial user can request an account [via email](mailto:gwis AT nicta DOT com DOT au).
 
-See 
-* Benjamin Goudey, David Rawlinson, Qiao Wang, Fan Shi, Herman Ferra, Richard M Campbell, Linda Stern, Michael T Inouye, Cheng Soon Ong, Adam Kowalczyk (2013), "[GWIS – model-free, fast and exhaustive search for epistatic interactions in case-control GWAS](http://www.biomedcentral.com/1471-2164/14/S3/S10)", *BMC Genomics*, 14(Suppl 3):S10 
+See
+
+* Benjamin Goudey, David Rawlinson, Qiao Wang, Fan Shi, Herman Ferra, Richard M Campbell, Linda Stern, Michael T Inouye, Cheng Soon Ong, Adam Kowalczyk (2013), "[GWIS – model-free, fast and exhaustive search for epistatic interactions in case-control GWAS](http://www.biomedcentral.com/1471-2164/14/S3/S10)", *BMC Genomics*, 14(Suppl 3):S10
 * *[H37: GWIS: Online exhaustive bivariate GWAS in minutes](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013ISMBRawlinsonGWIS.pdf)*, poster presented by David Rawlinson, *et al.* at [ISMB 2013](/events/ismb2013/).
 
 ## Martin Luther University Halle-Wittenberg
 
 <div class='right solid'><a href='http://galaxy.informatik.uni-halle.de'><img src="/images/logos/MartinLutherU.png" alt="Martin Luther University Halle-Wittenberg" width="200px" /></a></div>
 
-[Martin Luther University Halle-Wittenberg](http://galaxy.informatik.uni-halle.de)'s Galaxy server provides implementations of tools developed by the groups of [Bioinformatics and Pattern Recognition](http://informatik.uni-halle.de/arbeitsgruppen/mustererkennung/?lang=en) and/or [Bioinformatics](http://informatik.uni-halle.de/arbeitsgruppen/bioinformatik/?lang=en) in collaboration with internal and external partners. 
+[Martin Luther University Halle-Wittenberg](http://galaxy.informatik.uni-halle.de)'s Galaxy server provides implementations of tools developed by the groups of [Bioinformatics and Pattern Recognition](http://informatik.uni-halle.de/arbeitsgruppen/mustererkennung/?lang=en) and/or [Bioinformatics](http://informatik.uni-halle.de/arbeitsgruppen/bioinformatik/?lang=en) in collaboration with internal and external partners.
+
 * CRISPRer is a tool for genome-wide selection and assessment of CRISPR/Cas protospacers.
 * TALgetter allows you to scan input sequences for putative target sites of a given TAL (transcription activator-like) effector as typically expressed by many Xanthomonas bacteria.
 * TALgetterLong allows you to scan input sequences for putative target sites of a given TAL (transcription activator-like) effector as typically expressed by many Xanthomonas bacteria in large input data, but lacks some of the features of TALgetter (e.g., computation of empirical p-values).
@@ -45,7 +47,7 @@ See
 
 <div class='left solid'><a href='http://mbac.gmu.edu:8080/'><img src="/use/archive/mbac-metabiome-portal/mbac-portal-landing-page.png" alt="MBAC Metabiome Portal" width="200px" /></a></div>
 
-The [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac/display_detail.php?tb=research&id=11) is a flexible and customizable webserver that simplifies control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome).  The Portal uses a relational database management system and distributed analytical resources and includes several tools such as sequence clustering, filtering sequencing artifacts, taxonomic analysis, and functional annotation. 
+The [MBAC Metabiome Portal](http://mbac.gmu.edu/mbac/display_detail.php?tb=research&id=11) is a flexible and customizable webserver that simplifies control, usage, access, and analysis of microbiome, metabolome, and immunome data (the Metabiome).  The Portal uses a relational database management system and distributed analytical resources and includes several tools such as sequence clustering, filtering sequencing artifacts, taxonomic analysis, and functional annotation.
 
 Users access the MBAC Metabiome Portal through a Galaxy based web browser to perform individual and group analysis and share their results. Programming support is also available to configure and run customized pipelines.  Users can view a demo of the [Metabiome Database here](http://mbac.gmu.edu/mbac/galaxy_frontpage/portal_example.html).
 
@@ -54,6 +56,7 @@ Users access the MBAC Metabiome Portal through a Galaxy based web browser to per
 <div class='right solid'><a href='http://webservices.cs.uni-tuebingen.de/'><img src="/use/archive/zbit-bioinformatics-toolbox/zbit-home-page.png" alt="ZBIT Bioinformatics Toolbox" width="200" /></a></div>
 
 The [ZBIT Bioinformatics Toolbox](http://webservices.cs.uni-tuebingen.de/) enables public access to these bioinformatics tools developed at [Department of Cognitive Systems](http://www.cogsys.cs.uni-tuebingen.de/) at the [University of Tübingen](http://www.uni-tuebingen.de/) of our bioinformatics tools.
+
 * [TFpredict](http://www.cogsys.cs.uni-tuebingen.de/software/TFpredict/welcome_e.html): Identification and structural characterization of transcription factors
 * [SABINE](http://www.cogsys.cs.uni-tuebingen.de/software/SABINE/welcome_e.html): Prediction of the binding specificity of transcription factors
 * [SBML2LaTeX](http://www.cogsys.cs.uni-tuebingen.de/software/SBML2LaTeX/index.html): Conversion of SBML files into human-readable reports
@@ -138,8 +141,9 @@ Help guide Galaxy's 2014 training efforts by taking the [Galaxy Training Survey]
 <div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
-* [Bioinformatics post available at University of Exeter](http://bit.ly/1cuX9b9) 
-* [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven 
+
+* [Bioinformatics post available at University of Exeter](http://bit.ly/1cuX9b9)
+* [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
 * [Senior Developer](http://www.nature.com/naturejobs/science/jobs/334107-senior-developer-stem-cell-bioinformatics-core), Stem Cell Bioinformatics Core, Sage Bionetworks, Seattle, WA, United States
@@ -250,7 +254,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 * Upgrades to **Data Manager** including improved installation actions
 * **Visualization** Framework tunings, plus updates to **Phyloviz**, **Scatterplot**, and **Trackster**
-* **Workflows** include new reproducibility controls and editing features 
+* **Workflows** include new reproducibility controls and editing features
 * Multiple **Tool Shed** enhancements, features, and tunings
 * Plus additional updates to the **UI**, **Admin** and **Core**, and **API**, an important **Security Fix** reminder, and **Bug Fixes**
 
@@ -280,22 +284,22 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
-* [samifier](http://bit.ly/13JjmN0): enable a nexus between proteomic and genomic analysis. 
-* [neuma](http://bit.ly/144FqOy): Accurate quantification of transcriptome from RNA-Seq data by effective length normalization 
-* [bwa_0_7_5](http://bit.ly/1cJk0yK): bwa version 0.7.5, nomore bwa aln, bwa same/sampe. BWA-MEM only for this integration version 
-* [coverage_correlation](http://bit.ly/16DibRD): calculate pearson correlation of coverages. outputs clustering/correlation matrix 
-* [chemicaltoolbox](http://bit.ly/152hLBK): install cheminformatic tool wrappers (chemfp, openbabel, osra, confab, ...) 
-* [ctb_machine_learning](http://bit.ly/1bNa9VC): machine learning scripts for the chemicaltoolbox 
-  * [+ many others from bgruening](http://bit.ly/1bNaGXC): opsin, simsearch, rdkit, silicos_it, confab, osra, chemfp, openbabel, ... 
+* [samifier](http://bit.ly/13JjmN0): enable a nexus between proteomic and genomic analysis.
+* [neuma](http://bit.ly/144FqOy): Accurate quantification of transcriptome from RNA-Seq data by effective length normalization
+* [bwa_0_7_5](http://bit.ly/1cJk0yK): bwa version 0.7.5, nomore bwa aln, bwa same/sampe. BWA-MEM only for this integration version
+* [coverage_correlation](http://bit.ly/16DibRD): calculate pearson correlation of coverages. outputs clustering/correlation matrix
+* [chemicaltoolbox](http://bit.ly/152hLBK): install cheminformatic tool wrappers (chemfp, openbabel, osra, confab, ...)
+* [ctb_machine_learning](http://bit.ly/1bNa9VC): machine learning scripts for the chemicaltoolbox
+    * [+ many others from bgruening](http://bit.ly/1bNaGXC): opsin, simsearch, rdkit, silicos_it, confab, osra, chemfp, openbabel, ...
 * [nammer](http://bit.ly/1eXHAVg): find rRNA genes in a DNA sequence  
-* [unique](http://bit.ly/1cdLiKZ): advanced unique lines program; filter by unique lines or a unique column subset. 
+* [unique](http://bit.ly/1cdLiKZ): advanced unique lines program; filter by unique lines or a unique column subset.
 * [chemicaltoolbox_merging_chemical_databases_workflow](http://bit.ly/15gDulM).
 * [lots of SAM/BAM/Pileup tools](http://bit.ly/tsdevteam)  
-* [bwa_tools_mini](http://bit.ly/1dkuZiA): bwa_tools with restricted resources for use in classes 
+* [bwa_tools_mini](http://bit.ly/1dkuZiA): bwa_tools with restricted resources for use in classes
 
 # Other News
 
-* [bioblend 0.4.0](http://bit.ly/1cgNhR8) is out: CloudMan and Galaxy API library 
+* [bioblend 0.4.0](http://bit.ly/1cgNhR8) is out: CloudMan and Galaxy API library
 * [Write up of BOSC2013, AFP13 ISMB/ECCB in GigaBlog](http://bit.ly/1dkyyVX): Bioinformaticians breaking down barriers in Berlin.
 * TRON technologists have developed a [laboratory information management system (LIMS)](http://bit.ly/1d0XMqL) for a next-generation sequencing (NGS) laboratory within the existing Galaxy platform.  [Code and documentation are available for download](http://tron-mainz.de/tron-facilities/computational-medicine/galaxy-lims/).
 * [Saket Choudhary's Week 7+8 GSOC update](http://bit.ly/1bsoiaM): making Workflow's run page editable; enable user to change params at runtime

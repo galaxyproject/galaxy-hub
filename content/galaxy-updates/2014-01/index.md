@@ -31,7 +31,7 @@ The [Galaxy Community Log Board](/blog/) describes how things can be done, and i
 
 ## Galaxy Deployment Catalog
 
-<div class='left'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="150" /></div> 
+<div class='left'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" width="150" /></div>
 
 <div class='right'>
 <table>
@@ -156,11 +156,11 @@ This brings the total number of papers to 1330.
 
 The Galaxy is expanding! Please help it grow.
 
-* [Integrated Data Analysis for Improved Understanding of Disease Life Sciences studentship](http://www.qmul.ac.uk/lifesciences/phd/data-analysis/index.html), Queen Mary University of London 
+* [Integrated Data Analysis for Improved Understanding of Disease Life Sciences studentship](http://www.qmul.ac.uk/lifesciences/phd/data-analysis/index.html), Queen Mary University of London
 
-* [Stage Master2](http://bit.ly/1hQIpTZ) "Annotation du transcriptome de l’esturgeon" Bordeaux, France 
-* [Informatics Software Support Specialist](http://bit.ly/1cdfOpr) at the University of Minnesota, United States 
-* [CDD Gif-sur-Yvette NGS et Variation Structurales UMR de Génétique Végétale](http://bit.ly/1exDipD), INRA-Université Paris Sud-CNRS 
+* [Stage Master2](http://bit.ly/1hQIpTZ) "Annotation du transcriptome de l’esturgeon" Bordeaux, France
+* [Informatics Software Support Specialist](http://bit.ly/1cdfOpr) at the University of Minnesota, United States
+* [CDD Gif-sur-Yvette NGS et Variation Structurales UMR de Génétique Végétale](http://bit.ly/1exDipD), INRA-Université Paris Sud-CNRS
 * [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**, *including positions at George Washington University*.
 
@@ -190,12 +190,13 @@ Watch the [Galaxy Mailing Lists](/mailing-lists/) for announcements and links to
 
 <div class='left'><a href='http://www.emc.com/isilon'><img src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="200" /></a><br />
 </div>
- 
+
 We are pleased to announce several new [sponsorships](/events/gcc2014/sponsor-exhibit/) for GCC2014.  First, [EMC Isilon](http://www.emc.com/isilon) will be a Gold Sponsor for the third year in a row, and  [SGI](http://www.sgi.com/) will a [Gold Sponsor](/events/gcc2014/sponsor-exhibit/) for the first time.
 
 <br />
 
 Also please welcome three new [Silver Sponsors](/events/gcc2014/sponsor-exhibit/):
+
 * [Globus Genomics](http://globus.org/genomics), for the 3rd year
 * [GigaScience Journal](http://www.gigasciencejournal.com/) and [BioMed Central](http://www.biomedcentral.com/), for the 2nd year
 * [ABgenomica](http://www.abgenomica.com/), for the first time.
@@ -211,11 +212,11 @@ Also please welcome three new [Silver Sponsors](/events/gcc2014/sponsor-exhibit/
 </table>
 
 
-The Platinum, Gold and Silver sponsors will have exhibit booths at the event.  There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) still available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event. 
+The Platinum, Gold and Silver sponsors will have exhibit booths at the event.  There are still [Silver and Bronze sponsorships](/events/gcc2014/sponsor-exhibit/) still available. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to help sponsor this event.
 
 ### Exhibitors
 
-In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014. 
+In 2014 we are also adding [non-sponsor exhibit spaces](/events/gcc2014/sponsor-exhibit/#exhibit) in addition to the sponsor exhibits.  This will significantly increase the size of the exhibit floor. Please contact the [Organizers](/events/gcc2014/organizers/) if your organization would like to have an exhibit space at GCC2014.
 
 
 ## 2013 Galaxy Day Report
@@ -231,7 +232,7 @@ The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) too
 
 <br />
 
-<div class='center'> 
+<div class='center'>
 <a href='/events/pag-gmod-2014/'><img src="/images/logos/PAGLogo114.png" alt="Galaxy @ Plant and Animal Genome (PAG 2014)" height="80" /></a>
 <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src="/images/logos/GMOD2014.png" alt="2014 GMOD Meeting" height="70" /></a> &nbsp;
 <a href='http://www.supagro.fr/web/pages/?idl=19&page=498&id_page=2666'><img src="/images/logos/SupAgroMontpelierLogo.jpg" alt="Analyse Bioinformatique de séquences pour l'amélioration des plantes" height="60" /></a>
@@ -338,7 +339,7 @@ One new server was added to [the list of publicly accessible Galaxy servers](/us
 
 [CAPER](http://www.bprc.ac.cn/CAPE) is "An Interactive, Configurable, and Extensible Workflow-Based Platform to Analyze Data Sets from the [Chromosome-centric Human Proteome Project](http://www.c-hpp.org/)" at [Beijing Proteome Research Center](http://www.bprc.ac.cn/), China.
 
-The Chromosome-centric Human Proteome Project (C-HPP) aims to map and annotate the entire human proteome by the "chromosome-by-chromosome" strategy. As the C-HPP proceeds, the increasing volume of proteomic data sets presents a challenge for customized and reproducible bioinformatics data analyses for mining biological knowledge. To address this challenge CAPER 2.0 − an interactive, configurable and extensible workflow-based platform is developed for C-HPP data analyses. 
+The Chromosome-centric Human Proteome Project (C-HPP) aims to map and annotate the entire human proteome by the "chromosome-by-chromosome" strategy. As the C-HPP proceeds, the increasing volume of proteomic data sets presents a challenge for customized and reproducible bioinformatics data analyses for mining biological knowledge. To address this challenge CAPER 2.0 − an interactive, configurable and extensible workflow-based platform is developed for C-HPP data analyses.
 
 <div class='right solid'><a href='http://www.bprc.ac.cn/CAPE'><img src="/public-galaxy-servers/archive/caper-300.png" alt="CAPER"  /></a></div>
 
@@ -362,18 +363,18 @@ The latest version of [CloudMan](/cloudman/) was [released in July](/news/cloudm
 
 ## New Repositories in the Galaxy Project ToolShed
 
-* [redup](http://bit.ly/1gAatJQ): Remove exact duplicate reads from paired-end fastq files 
-* [rgttable](http://bit.ly/1bFbgd8): Generate FPKM tables from cuffdiff read_group_tracking files 
-* [dgidb_annotator](http://bit.ly/IHOqFC): Annotate tabular file with information from [Drug-Gene Interaction DB](http://dgidb.genome.wustl.edu) 
+* [redup](http://bit.ly/1gAatJQ): Remove exact duplicate reads from paired-end fastq files
+* [rgttable](http://bit.ly/1bFbgd8): Generate FPKM tables from cuffdiff read_group_tracking files
+* [dgidb_annotator](http://bit.ly/IHOqFC): Annotate tabular file with information from [Drug-Gene Interaction DB](http://dgidb.genome.wustl.edu)
 * [gatk2](http://bit.ly/1eYgaAX): The Genome Analysis Toolkit in Version 2
-* [table_annovar](http://bit.ly/1bJC382): Annotate VCF file using ANNOVAR annotations to create a tabular file that can be filtered 
+* [table_annovar](http://bit.ly/1bJC382): Annotate VCF file using ANNOVAR annotations to create a tabular file that can be filtered
 * [spectral_hk](http://bit.ly/1d6jJ5Z): Convert InChIs to spectral hashkeys.  
-* [snpeff](http://bit.ly/1f8ZxBP): snpEff tools from Pablo Cingolani 
+* [snpeff](http://bit.ly/1f8ZxBP): snpEff tools from Pablo Cingolani
 * [split_file_on_column](http://bit.ly/1be1ybR): Split file on specific column; every group is saved in a separate file.  
 
 # Other News
 
-* Take the [ABRF DNA Sequencing Research Group survey](http://svy.mk/1cclCfs) on nucleic acid quantification methods & best practices 
+* Take the [ABRF DNA Sequencing Research Group survey](http://svy.mk/1cclCfs) on nucleic acid quantification methods & best practices
 * The first 30 minutes of the "[Galaxy Code and Storage Architecture](/events/gcc2013/training-day/#galaxy-code-and-storage-architecture)" [GCC2013 Training Day](/events/gcc2013/training-day/) session is now on  [Vimeo](https://vimeo.com/82179199) and [YouTube](http://youtu.be/kphYnONMOP8).  Thanks to [Samuel Lampa](http://saml.rilspace.org/blogs/samuel-lampa) for recording and making this available.
 * [http://gmod.org/wiki/|GMOD](http://gmod.org/wiki/|GMOD) is looking into running a GMOD workshop in Malaysia, February 26-28 -- please email help@gmod.org if you're interested in attending.
 * Aussie researchers can now launch their own Galaxy instance on Nectar. See the guide at the [Genome Virtual Lab](http://genome.edu.au/wiki/Get)

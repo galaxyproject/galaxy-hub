@@ -10,16 +10,16 @@ title: 2012-09-19 Conference Call
 # Links
 
 * [Slides](https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2012-09-19/2012-09-19-Galaxy_Managers-UFL-Moskalenko.pdf): Alex Moskalenko: 2012-09-19-Galaxy_Managers-UFL-Moskalenko.pdf
-* [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262330108904_1348060268057): Unfortunately the recording starting a bit late for our up front discussion about logistics (name change/common time).  But it began right after Alex starting his presentation (the important part!). 
+* [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262330108904_1348060268057): Unfortunately the recording starting a bit late for our up front discussion about logistics (name change/common time).  But it began right after Alex starting his presentation (the important part!).
 
 ## Meeting Summary
 
-We have a new name!  The group formally known as GalaxyCzars is now Galaxy-Admins.  Thank you to Hans-Rudolf Hotz for the winning suggestion - cheers to you Hans-Rudolf!  Thanks to to all the other great and humorous suggestions submitted: GalaxyCaretakers, GalaxyHackers, GalaxySudoers, GalaxyLocals, GalaxyCommons. 
+We have a new name!  The group formally known as GalaxyCzars is now Galaxy-Admins.  Thank you to Hans-Rudolf Hotz for the winning suggestion - cheers to you Hans-Rudolf!  Thanks to to all the other great and humorous suggestions submitted: GalaxyCaretakers, GalaxyHackers, GalaxySudoers, GalaxyLocals, GalaxyCommons.
 
 
 
 
-We have set a common meeting time.  We will meet every other month (starting in January) on the third Wednesday of the month at 10 am central time (Chicago, USA). 
+We have set a common meeting time.  We will meet every other month (starting in January) on the third Wednesday of the month at 10 am central time (Chicago, USA).
 
 
 

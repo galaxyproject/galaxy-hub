@@ -17,7 +17,7 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 
 **Which is tomorrow.  [Vote now](http://bit.ly/gccbosc2018-vote)**
 
-[Your vote](http://bit.ly/gccbosc2018-vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
+[Your vote](http://bit.ly/gccbosc2018-vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters.
 
 [GCCBOSC2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. It will feature two days of training: the second of which is multi-track and will feature content for both the BOSC and Galaxy communities.  Workshops will be hands-on and participants will be strongly encouraged to bring a laptop and follow along.  If you work in data-intensive biomedical research, there is no better place than GCCBOSC 2018 to present your work and to learn from others.
 
@@ -257,11 +257,11 @@ The *Galactic* and *Stellar* publications added in January were:
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 67 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 30 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 22 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 10 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | 
-| 8 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 4 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 3 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | 
-| 3 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | 
+| 67 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 30 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 22 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 10 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) |
+| 8 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 4 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 3 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) |
+| 3 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) |
 | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | | | | | | |
 
 ----
@@ -308,11 +308,11 @@ Splicescope can be accessed anonymously, or with an account, and anyone can crea
 
 We tag papers that use, mention, implement or extend public Galaxy Servers.  Here are the counts for January's publications.
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 12 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | 
-| 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/tags/>PIA) | | 1 | [>Splicescope](https://www.zotero.org/groups/1732893/galaxy/tags/>Splicescope) | 
-| 1 | [>A-Game](https://www.zotero.org/groups/1732893/galaxy/tags/>A-Game) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | | 1 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | 
+| 12 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) |
+| 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/tags/>PIA) | | 1 | [>Splicescope](https://www.zotero.org/groups/1732893/galaxy/tags/>Splicescope) |
+| 1 | [>A-Game](https://www.zotero.org/groups/1732893/galaxy/tags/>A-Game) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | | 1 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) |
 | 1 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | | | | | | | | | |
 
 
@@ -340,7 +340,7 @@ The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/sou
 
 Highlights include
 
-* **Singularity** Tool execution using the HPC-friendly container technology Singularity is now supported. 
+* **Singularity** Tool execution using the HPC-friendly container technology Singularity is now supported.
 * **Download entire collection** Downloading whole collections is now possible from the history interface. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
 * **Switch tool versions in workflows** You can now select exactly what version of tool you want to use when building workflows. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
 * **Security patches**
@@ -351,6 +351,7 @@ See the [17.09 release announcement](https://docs.galaxyproject.org/en/master/re
 ### Galaxy Docker Image 17.09
 
 The [Galaxy Docker project has seen a matching release](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.09), for Galaxy 17.05. Major features include
+
 * much improved documentation about using Galaxy Docker and an external cluster ([@rhpvorderman](https://github.com/rhpvorderman))
 * CVMFS support - mounting in 4TB of pre-build reference data ([@chambm](https://github.com/chambm))
 * Singularity support and tests (compose only)
@@ -359,7 +360,7 @@ The [Galaxy Docker project has seen a matching release](https://github.com/bgrue
 
 And
 
-* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 31k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
+* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 31k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
 
 ### ephemeris 0.8.0
 
@@ -429,4 +430,4 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 * The semi-annual update of the project statistics page is done.  [See what's new](/galaxy-project/statistics/).
 * From [John Chilton](/people/john-chilton/):
-  * Galaxy can now [by-pass re-running jobs with duplicate parameters/inputs](https://github.com/galaxyproject/galaxy/pull/4690) thanks to the brilliant [Marius Van Den Beek](https://twitter.com/mariusvdbeek/) 
+    * Galaxy can now [by-pass re-running jobs with duplicate parameters/inputs](https://github.com/galaxyproject/galaxy/pull/4690) thanks to the brilliant [Marius Van Den Beek](https://twitter.com/mariusvdbeek/)

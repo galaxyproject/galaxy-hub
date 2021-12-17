@@ -11,8 +11,9 @@ title: Lightning Talks
 
 Lightning talks are a mixture of topics selected in advance and those solicited during the meeting. They will be presented during [Session 4, on Tuesday](/events/gcc2014/program/#day-1-main-meeting-july-1) and [Session 8 on Wednesday](/events/gcc2014/program/#day-2-main-meeting-july-2).
 
-If you wish to give a lightning talk, please send a title and short abstract to [GCC2014 Scientific Committee](mailto:gcc2014-sci AT groups DOT galaxyproject DOT org), either 
-* any time before the start of [Session 2](/events/gcc2014/program/#day-1-main-meeting-july-1) (to be considered for Tuesday or Wednesday slots), or 
+If you wish to give a lightning talk, please send a title and short abstract to [GCC2014 Scientific Committee](mailto:gcc2014-sci AT groups DOT galaxyproject DOT org), either
+
+* any time before the start of [Session 2](/events/gcc2014/program/#day-1-main-meeting-july-1) (to be considered for Tuesday or Wednesday slots), or
 * before [Session 6](/events/gcc2014/program/#day-2-main-meeting-july-2) (to be considered for Wednesday only).  
 
 The slides for all lightning talks will be made available on the this page, and the talks may be videotaped and posted here as well.
@@ -82,11 +83,11 @@ Non-coding small RNAs (miRNA, siRNA, piRNA, …) are involved in the regulation 
 
 **[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/ZarboHeartRate.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=534f4b31-1e7b-4284-91b4-0f2e84731820)**
 
-The emerging applications in physiological data processing, encouraged by the availability of wearable sensors for continuous self-monitoring and quantified self, require new platforms for time series analysis supporting real-time processing and fast prototyping capabilities. We recently proposed Physiolyze, a Galaxy-based web framework to support complex workflows for Heart Rate Variability (HRV) analysis. Here we extend Physiolyze by introducing scalable online processing capabilities. 
+The emerging applications in physiological data processing, encouraged by the availability of wearable sensors for continuous self-monitoring and quantified self, require new platforms for time series analysis supporting real-time processing and fast prototyping capabilities. We recently proposed Physiolyze, a Galaxy-based web framework to support complex workflows for Heart Rate Variability (HRV) analysis. Here we extend Physiolyze by introducing scalable online processing capabilities.
 
 The enhanced version still relies on Galaxy as core platform to design and manage the pipelines. In order to incrementally analyze the streams, a set of Python routines based on the Bioblend library works as middleware to trigger the pipelines as new data become available. A web interface based on the Django Python framework allows the user to control the execution of the pipelines, running them on new data streams.
 
-We tested our system on the task of predicting infant behavioral state from HRV patterns. We simulated a real-time scenario of 100 asynchronous data streams from data for 24 infants previously collected with a Light WP Holter ECG recorder (GE Healthcare). The system incrementally extracts 37 HRV indicators from each data stream and predicts the infant state (e.g. wake, sleep, cry) with a Random Forest regression model. The pipeline is modular and fully managed as a Galaxy workflow. 
+We tested our system on the task of predicting infant behavioral state from HRV patterns. We simulated a real-time scenario of 100 asynchronous data streams from data for 24 infants previously collected with a Light WP Holter ECG recorder (GE Healthcare). The system incrementally extracts 37 HRV indicators from each data stream and predicts the infant state (e.g. wake, sleep, cry) with a Random Forest regression model. The pipeline is modular and fully managed as a Galaxy workflow.
 
 Our system can easily be adapted to other online streaming analytics applications,  such as for the parallelized analysis of multiple data streams acquired from physiological sensors and wearable devices.
 
@@ -134,7 +135,7 @@ These talks have been accepted for the second lightning talks storm on Wednesday
 
 Franz-Josef Pfreundt<sup>1</sup>, **Björn Grüning<sup>2</sup>**
 
- <sup>1</sup> Fraunhofer ITWM<br /> 
+ <sup>1</sup> Fraunhofer ITWM<br />
  <sup>2</sup> Bioinformatics Uni Freiburg
 
 **[Slides](https://depot.galaxyproject.org/hub/attachments/GrüningBeeGFS.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=393d0dbc-d56a-48ad-8dee-a54cfe145251)**
@@ -143,7 +144,7 @@ Franz-Josef Pfreundt<sup>1</sup>, **Björn Grüning<sup>2</sup>**
 
 **Michael Crusoe<sup>1</sup>**
 
- <sup>1</sup> Michigan State University 
+ <sup>1</sup> Michigan State University
 
 **[Slides](https://depot.galaxyproject.org/hub/attachments/events/gcc2014/lightning/CrusoeDoing.pdf), [Video](http://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d6c9a21d-4b22-41c9-8ab5-d031cdf11ed1)**
 
@@ -215,8 +216,8 @@ Lightning talks are your opportunity to give an impassioned and enthralling talk
 
 ## Slides
 
-* Your slides (as PDF or PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/people/dave-clements/)) to minimize the risk of BYOD. 
-* You can BYOD (your own computer or whatever) but you are advised not to. 
+* Your slides (as PDF or PowerPoint) should be on the presentation computer before the session starts (talk to [Dave Clements](/people/dave-clements/)) to minimize the risk of BYOD.
+* You can BYOD (your own computer or whatever) but you are advised not to.
 * **If you do BYOD, we will start swapping out your device at 2 minutes left, rather than 1.**
 * Connection and fiddling time beyond the first minute comes out of your 5 minutes and ***is painful, for everyone.***  
 
@@ -225,12 +226,12 @@ Lightning talks are your opportunity to give an impassioned and enthralling talk
 From [Ross Lazarus](/people/fubar/), the (possibly former) *Benevolent Lightning Session Moderator for Life*
 
 * Good lightning talks are well rehearsed and very, very focussed.  
-* Plan on talking to 5 or 6 slides 
-* Don't try to cram a 30 minute talk into 5 minutes. It won't fit. 
+* Plan on talking to 5 or 6 slides
+* Don't try to cram a 30 minute talk into 5 minutes. It won't fit.
 * 5 minutes is not long enough to explain anything in detail.  Just give the big picture.  
-* Practice your talk at least 3 times to make sure it works and fits in 5 minutes. 
-* If you have more than 5 or 6 slides, you are probably screwed before you start and stand a high risk of being cut off in mid-flight unless you have rehearsed a few times with a timer to be sure you can fit everything in. 
-* You are advised not to read your acknowledgements out loud. It's a lightning talk for heaven's sake. 
+* Practice your talk at least 3 times to make sure it works and fits in 5 minutes.
+* If you have more than 5 or 6 slides, you are probably screwed before you start and stand a high risk of being cut off in mid-flight unless you have rehearsed a few times with a timer to be sure you can fit everything in.
+* You are advised not to read your acknowledgements out loud. It's a lightning talk for heaven's sake.
 
 ## Submit a Proposal
 
@@ -241,10 +242,10 @@ From [Ross Lazarus](/people/fubar/), the (possibly former) *Benevolent Lightning
 </table>
 
 
-<br /> 
+<br />
 
 Proposals will be solicited during the meeting.  If you wish to give a lightning talk, please send it to outreach@galaxyproject.org before the start of Session 2 (to present on Tuesday) or the start of Session 6 (to present on Wednesday).  The slides for all lightning talks will be made available on the conference web site, and the talks may be videotaped and also posted on the conference web site.
 
-A proposal consists, of a title, and a short description of the topic. 
+A proposal consists, of a title, and a short description of the topic.
 
 <slot name="/events/gcc2014/footer" />

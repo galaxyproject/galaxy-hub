@@ -1,4 +1,4 @@
-<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a>
 <div class='title'>2013-11-20 Web Meetup<br /><br />GCC2013 Followup
 </div></div>
 
@@ -43,7 +43,7 @@ Action items from BoF:
 
 * Want a knowledge base with different descriptions of Galaxy Deployments
 * Possibly have an Admin/Logs section where people can describe what they did
-* Add a list of Admin Tutorials to Admin and Cloud Hub pages, similar to what is on the Learn hub page. 
+* Add a list of Admin Tutorials to Admin and Cloud Hub pages, similar to what is on the Learn hub page.
 
 Draft implementations of the first two are in place:
 
@@ -63,6 +63,7 @@ Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/
 ### Leadership / Governance
 
 Notes from the BoF:
+
 * Nothing was established here.
 * Srinivas and Dave C will continue as is, but the right thing to do is transfer Srinnivas's responsibilities to someone else.
 * Participants will think about what to do

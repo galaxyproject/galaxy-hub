@@ -8,8 +8,8 @@ This tutorial is inspired by an exceptional [RNAseq course](http://chagall.med.c
 
 RNAseq can be roughly divided into two "types":
 
- * **Reference genome-based** - an assembled genome exists for a species for which an RNAseq experiment is performed. It allows reads to be aligned against the reference genome and significantly improves our ability to reconstruct transcripts. This category would obviously include humans and most model organisms but excludes the majority of truly biologically interesting species (e.g., [Hyacinth macaw](https://en.wikipedia.org/wiki/Hyacinth_macaw));
- * **Reference genome-free** - no genome assembly for the species of interest is available. In this case one would need to assemble the reads into transcripts using *de novo* approaches. This type of RNAseq is as much of an art as well as science because assembly is heavily parameter-dependent and difficult to do well.
+* **Reference genome-based** - an assembled genome exists for a species for which an RNAseq experiment is performed. It allows reads to be aligned against the reference genome and significantly improves our ability to reconstruct transcripts. This category would obviously include humans and most model organisms but excludes the majority of truly biologically interesting species (e.g., [Hyacinth macaw](https://en.wikipedia.org/wiki/Hyacinth_macaw));
+* **Reference genome-free** - no genome assembly for the species of interest is available. In this case one would need to assemble the reads into transcripts using *de novo* approaches. This type of RNAseq is as much of an art as well as science because assembly is heavily parameter-dependent and difficult to do well.
 
 In this lesson we will focus on the **Reference genome-based** type of RNA seq.
 
@@ -21,15 +21,15 @@ The *Everything's connected* slide by Dündar et al. (2015) explains the overall
 
 There is a variety of ways in which RNA is treated during its conversion to cDNA and eventual preparation of sequencing libraries. In general the experimental workflow includes the following steps:
 
- * RNA purification;
- * Reverse transcription using Reverse Transcriptase (RT), which produces the first strand of cDNA ("c" stands for *complimentary*);
- * Second strand synthesis using DNA polymerase;
- * Library preparation for sequencing.
+* RNA purification;
+* Reverse transcription using Reverse Transcriptase (RT), which produces the first strand of cDNA ("c" stands for *complimentary*);
+* Second strand synthesis using DNA polymerase;
+* Library preparation for sequencing.
 
 In listing these basic steps we are ignoring a vast amount of details such as, for example, normalization strategies and procedures needed to deal with rare RNAs or degraded samples (see [Adiconis:2013](http://nature.com/nmeth/journal/v10/n7/full/nmeth.2483.html)). Yet, there are two important experimental considerations that would effect the ways in which one analyses data and interprets the results. These are:
 
- * Priming for the first cDNA strand synthesis;
- * Stranded versus Non-stranded libraries.
+* Priming for the first cDNA strand synthesis;
+* Stranded versus Non-stranded libraries.
 
 ### Priming for the first strand synthesis
 
@@ -68,14 +68,14 @@ Depending on the approach and whether one performs single- or paired-end sequenc
 
 The relative orientation of the reads is only relevant if the library is pair-ended. The possible options are:
 
- * **I** = inward;
- * **O** = outward;
- * **M** = matching (co-directional).
+* **I** = inward;
+* **O** = outward;
+* **M** = matching (co-directional).
 
 Library can be stranded (**S**) or unstranded (**U**). If this library is stranded than depending on the protocols reads (single reads or forward reads in a paired-end run) may originate from:
 
- * **F** = read 1 in paired-end sequencing or single-end read is derived from the Forward strand;
- * **R** = read 1 in paired-end sequencing or single-end read is derived from the Reverse strand.
+* **F** = read 1 in paired-end sequencing or single-end read is derived from the Forward strand;
+* **R** = read 1 in paired-end sequencing or single-end read is derived from the Reverse strand.
 
 So by combining the relative orientation of reads is I, O, or M (if reads are paired), strandedness or the library (S or U), and whether the reads originate from forward and reverse strand (F or R) there can be quite a number of possibilities:
 
@@ -87,8 +87,8 @@ So by combining the relative orientation of reads is I, O, or M (if reads are pa
 
 However, in practice, if you use Illumina paired-end RNAseq protocols you are unlikely to uncover many of these possibilities. You will either deal with:
 
- * unstranded RNAseq data (**IU** type from above. Also called **fr-unstranded** in TopHat/Cufflinks jargon);
- * stranded RNAseq data produced with Illumina TrueSeq RNAseq kits and [dUTP tagging](http://nar.oxfordjournals.org/content/37/18/e123) (**ISR** type from above or **fr-firststrand** in TopHat/Cufflinks nomenclature).
+* unstranded RNAseq data (**IU** type from above. Also called **fr-unstranded** in TopHat/Cufflinks jargon);
+* stranded RNAseq data produced with Illumina TrueSeq RNAseq kits and [dUTP tagging](http://nar.oxfordjournals.org/content/37/18/e123) (**ISR** type from above or **fr-firststrand** in TopHat/Cufflinks nomenclature).
 
 The implication of stranded RNAseq is that you can distinguish whether the reads are derived from forward- or reverse-encoded transcripts:
 
@@ -112,8 +112,8 @@ An RNAseq experiment without a sufficient number of replicates will be a waste o
 
 After sequencing is performed you have a collection of sequencing reads for each sample/replicate. In a reference-based RNAseq experiment these need to be mapped against the genome. Because in the case of eukaryotic transcriptome most reads originate from processed mRNAs lacking exons, they cannot be simply mapped back to the genome. Instead they can be separated into two categories:
 
- * Reads that map entirely within exons
- * Reads that cannot be mapped within an exon across their entire length because they span two or more exons
+* Reads that map entirely within exons
+* Reads that cannot be mapped within an exon across their entire length because they span two or more exons
 
 *Spliced* mappers have been developed to efficiently map transcript-derived reads against genome.
 
@@ -230,7 +230,7 @@ StringTie, which performs assembly and quantification simultaneously converts sp
 The Expectation/Maximization framework (EM) is utilized in a number of tools such as [eXpress](http://bio.math.berkeley.edu/eXpress/index.html) and more recently [Sailfish](http://www.cs.cmu.edu/~ckingsf/software/sailfish/), [Kallisto](http://pachterlab.github.io/kallisto/), and [Salmon](https://combine-lab.github.io/salmon/about/) (As an alternative strategy Salmon also utilizes [variational Bayesian method](http://arxiv.org/pdf/1308.5953v1.pdf). The principle of EM is nicely illustrated by [Lior Pachter](https://liorpachter.wordpress.com/) in his transcript quantification [review](http://arxiv.org/pdf/1104.3889v2.pdf). Suppose, as shown on the image below, there are three transcripts (green, red, and blue). There are five reads associated with these transcripts. One read (*d*) is unique to the red transcript, while others correspond to two (*b*, *c*, *e*) or three (*a*) transcripts. The EM is an iterative procedure. In the first round transcript abundances are initialized as equal (0.33 each as there are three transcripts) and during expectation reads are apportioned across transcripts based on these abundances. Next, during maximization step transcript abundances are re-calculated as follow. For red transcript we sum up fraction of each read as 0.33 + 0 + 0.5 + 1 + 0.5 for reads a, b, c, d, and e, respectively. We now divide this by the sum of read allocations for each transcript as 2.33 + 1.33 + 1.33 for red, green, and blue transcripts respectively. For all three transcript calculation will look like this:
 
 <div>
-	$$
+$$
 
 \color{red}{red}   =  \frac{0.33 + 0.0 + 0.5 + 1.0 + 0.5}{2.33 + 1.33 + 1.33} = 0.47\\
 
@@ -238,7 +238,7 @@ The Expectation/Maximization framework (EM) is utilized in a number of tools suc
 
 \color{blue}{blue}  =  \frac{0.33 + 0.5 + 0.5 + 0.0 + 0.0}{2.33 + 1.33 + 1.33} = 0.27
 
-    $$
+$$
 </div>
 
 During next expectation stage read are re-apportioned across transcripts and the procedure is repeated until convergence:
@@ -252,8 +252,8 @@ During next expectation stage read are re-apportioned across transcripts and the
 
 As we've seen above quantification for a transcript is estimated using the number of associated reads. Yet the count is not a very good measure as it will be severely biased by multiple factors such as, for example, transcript length. Thus these counts need to be normalized. Normalization strategies can be roughly divided into two groups:
 
- * Normalization for comparison within a **single** sample;
- * Normalization for comparison among **multiple** samples/conditions.
+* Normalization for comparison within a **single** sample;
+* Normalization for comparison among **multiple** samples/conditions.
 
 In their [tutorial](http://chagall.med.cornell.edu/RNASEQcourse/) Dündar et al. have compiled a table summarizing various metrics. Below is description of normalization technique for within sample comparisons (between sample comparison can be found in the next section on differential expression analysis):
 
@@ -270,8 +270,8 @@ In addition, an excellent overview of these metrics can be found [here](https://
 
 The goal of differential expression analysis (DE) is to find gene (DGE) or transcript (DTE) differences between conditions, developmental stages, treatments etc. In particular DE has two goals:
 
- * Estimate the *magnitude* of expression differences;
- * Estimate the *significance* of expression differences.
+* Estimate the *magnitude* of expression differences;
+* Estimate the *significance* of expression differences.
 
 For this expression is estimated from read counts and attempts are made to correct for variability in measurements using replicates that are absolutely essential accurate results (see below). We begin our short discussion on DE by reproducing a figure from [Trapnell:2013](http://www.nature.com/nbt/journal/v31/n1/abs/nbt.2450.html) highlighting some of the challenges associated with judging expression differences from read counts:
 
@@ -395,9 +395,9 @@ Before we can use `HTseq-count` we need to download gene annotations for version
 
 `DESeq2` takes read counts produced by `HTseq-count` and apply size factor normalization. Specifically, `DESeq2` will:
 
- * For each gene, compute the geometric mean of read counts across all samples;
- * Every gene count in then divided by the geometric mean;
- * The median of these ratios is a sample's size factor used for normalization.
+* For each gene, compute the geometric mean of read counts across all samples;
+* Every gene count in then divided by the geometric mean;
+* The median of these ratios is a sample's size factor used for normalization.
 
 <span style="color: red;">&#10148;</span> Note: For a comprehensive overview of differential gene expression with DESeq2 see [Love:2016](https://www.bioconductor.org/packages/3.3/bioc/vignettes/DESeq2/inst/doc/DESeq2.pdf).
 

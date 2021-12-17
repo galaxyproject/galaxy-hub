@@ -25,7 +25,7 @@ The session content will be largely driven by the needs and interests of the par
 
 ## Audience
 
-Whether you are a scientific Galaxy user yourself, or someone that administrates a Galaxy instance, this session is an opportunity to both learn about core concepts and ask questions while exploring http://usegalaxy.org live. Experienced Galaxy users will be on hand to help so that we can break out into distinct groups as needed. 
+Whether you are a scientific Galaxy user yourself, or someone that administrates a Galaxy instance, this session is an opportunity to both learn about core concepts and ask questions while exploring http://usegalaxy.org live. Experienced Galaxy users will be on hand to help so that we can break out into distinct groups as needed.
 
 
 ## When and Where
@@ -48,22 +48,22 @@ A live demo of the public Main Galaxy instance was not possible. As an alternate
 Tour of Galaxy's learning resources included:
 
 * Resources: public Main Galaxy wiki at http://galaxyproject.org:
-  * Learn, all resources including: video, object wikis, tutorials
-  * Support, general
-  * Events, how to navigate and drill-down into workshop slides (using specific examples as models)
-  * Biostar (now [help.galaxyproject.org](https://help.galaxyproject.org/), including searches) and Mailing lists
-  * Google custom searches, general
+    * Learn, all resources including: video, object wikis, tutorials
+    * Support, general
+    * Events, how to navigate and drill-down into workshop slides (using specific examples as models)
+    * Biostar (now [help.galaxyproject.org](https://help.galaxyproject.org/), including searches) and Mailing lists
+    * Google custom searches, general
 * Resources: public Main Galaxy instance http://usegalaxy.org:
-  * Reminders about of core objects, layout, definitions (mirrored earlier slide content)
-  * Tool help and Biostar link-outs
-  * Tutorials and Supplementals included in Pages
-  * Levels of Sharing
-  * Created a Page (request)
+    * Reminders about of core objects, layout, definitions (mirrored earlier slide content)
+    * Tool help and Biostar link-outs
+    * Tutorials and Supplementals included in Pages
+    * Levels of Sharing
+    * Created a Page (request)
 
 ## Feedback
 
 * In future GCCs, a dedicated introduction session would benefit both Galaxy's newest scientific informatics users and new/existing developers seeking a big picture usage overview.
-* The User Interface is rich with features. More could be offered to explain nomenclature and functionality from documented use-cases in plainly given examples. 
+* The User Interface is rich with features. More could be offered to explain nomenclature and functionality from documented use-cases in plainly given examples.
 * It was suggested that primary (Learn, Pages) and alternate (Events: Workshops) learning resources be organized in topic-oriented groupings. Keywords?
 
 ## Questions?

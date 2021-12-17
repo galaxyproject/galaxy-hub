@@ -17,6 +17,7 @@ And there are other upcoming deadlines too:
 * **Apply for the [Galaxy Australia Variant Calling Workshops](#event-news) by May 12.**
 
 We also have
+
 * **[open positions](#community-news)**
 * **[webinars, CoFests, workshops, community meetups, and other events](#event-news)**,
 * news about **[public Galaxy platforms](#galaxy-platforms-news)**,
@@ -51,10 +52,12 @@ Here is what we will need you to do by the end of Friday, May 7:
 1. Think of your favorite story/interaction/event involving James
 2. Pick a nice location and record the video!
 3. The video should be:
-  * in a high-resolution
-  * without background noise
-  * in a horizontal orientation (not vertical!)
-  * ≲ 30 seconds in length
+
+* in a high-resolution
+* without background noise
+* in a horizontal orientation (not vertical!)
+* ≲ 30 seconds in length
+
 4. Deposit video file to your Google Drive or Dropbox folder (or any other location that would allow us to retrieve it)
 5. Send a link to the video, your name and location as you would like them to appear in the final video to: outreach@galaxyproject.org
 
@@ -85,7 +88,7 @@ Thank you all in advance and please feel free to invite other friends of James t
 GCC2021 will start with a [__week of online training__](https://galaxyproject.org/events/gcc2021/training/). Training will largely use the GTN Smörgåsbord model: lectures will be prerecorded, with live help available on chat for the duration of the week. This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
 
 
-__Registration closes June 25__ 
+__Registration closes June 25__
 
 Registering before __June 1__ saves 50% off of the full rates. Registration discounts will be available to researchers from low and lower-middle income countries. For everyone else, registration are downright cheap too: the rates start in €15.00 for the training week and in €25.00 for the 3-day conference (plus VAT). The CoFest is free.
 
@@ -117,7 +120,7 @@ Talks can be either long (15-20 minutes) or lightning (5-7 minutes). **Talks** w
 
 **Poster/Demo Abstracts: 14 June**
 
-(However, you are encouraged to submit your abstracts earlier, if at all possible.)  Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts). 
+(However, you are encouraged to submit your abstracts earlier, if at all possible.)  Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts).
 
 **GCC2021 Community Fellowships: 17 May**
 
@@ -173,7 +176,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 
 [ISMB/ECCB 2021](https://www.iscb.org/ismbeccb2021) is one of the largest bioinformatics conferences and every year Galaxy has had a significant presence.  ISMB/ECCB is built from community building blocks, and this year that includes the **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc-2021/)** (our 2018 and 2020 conference partner), as well as communities focused on [high-throughput sequencing](http://hitseq.org/), [mass spec](http://cosi.iscb.org/wiki/CompMS:Home), [bioinformatics education](http://cosi.iscb.org/wiki/Education:Home), [visualization](http://biovis.net/2021/index.html), [microbiomes](https://www.microbiome-cosi.org/), [bioinformatics core facilities](http://bioinfo-core.org/index.php/ISMB_2021:_BioinfoCoreWorkshop), and [many others](https://www.iscb.org/communities-of-special-interest).
 
-**[BOSC](https://www.open-bio.org/2021/03/24/join-us-at-bosc-2021/)** is a particularly good match for the Galaxy community. Topics include software development practices that promote open science standards and sharing of biological data and code, as well as approaches for building diverse communities. 
+**[BOSC](https://www.open-bio.org/2021/03/24/join-us-at-bosc-2021/)** is a particularly good match for the Galaxy community. Topics include software development practices that promote open science standards and sharing of biological data and code, as well as approaches for building diverse communities.
 
 Most of these are accepting talk and poster submissions through the [ISMB/ECCB website](https://www.iscb.org/ismbeccb2021), but [BioInfo-Core is taking talk submissions here](https://forms.gle/N1mfB3dEEd4oi4wBA).  All submissions are due May 6.
 
@@ -496,7 +499,7 @@ The European Galaxy Server has surpassed the 30,000 registered users, has around
 
 By Simon Bray, Wolfgang Maier, Beatriz Serrano-Solano and Björn Grüning
 
-UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing data published by the COVID-19 Genomics UK Consortium (COG-UK). This infrastructure is easily scalable and could be used in other large-scale SARS-CoV-2 sequencing projects. 
+UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing data published by the COVID-19 Genomics UK Consortium (COG-UK). This infrastructure is easily scalable and could be used in other large-scale SARS-CoV-2 sequencing projects.
 
 ![COVID-19 monitoring](./covid-monitoring.png)
 
@@ -561,7 +564,7 @@ This [slide deck](https://training.galaxyproject.org/training-material/topics/tr
 </div>
 
 </div>
- 
+
 
 # Publications
 

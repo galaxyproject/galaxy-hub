@@ -14,7 +14,7 @@ title: Galaxy End Users
 * Mo Heydarian
 * Karen Reddy
 
- * 
+*
 * [Anton](/people/anton/), [Dan](/people/dan/), Rémi, and [Jen](/people/jennifer-jackson/) from [Galaxy Team](/galaxy-team/)
 
 # Notes
@@ -30,16 +30,16 @@ These are a merged grouping of [Anton's](/people/anton/), [Dan's](/people/dan/),
 ## How Galaxy currently facilitates research
 
 * Galaxy [Main](/main/)
-  * to identify 'vetted' tools
-  * to experiment with workflows before committing resources to Cloud instances
+    * to identify 'vetted' tools
+    * to experiment with workflows before committing resources to Cloud instances
 * [CloudMan](/cloudman/)
-  * to quickly access an instance with tools/reference data set-up and ready to go
-  * for storage (S3)
+    * to quickly access an instance with tools/reference data set-up and ready to go
+    * for storage (S3)
 * General Comments
-  * The 'Big Plus' for end users: Amazon allows Galaxy to be used in highly controlled IT environments. 
-  * "Galaxy better than commercial software" (the [Galaxy Team](/galaxy-team/) says "thank-you"!!)
-  * Trackster/Sweepster amazed everyone (shout-out to Jeremy!)
-  * New end user community to be aware of: Mass spec
+    * The 'Big Plus' for end users: Amazon allows Galaxy to be used in highly controlled IT environments.
+    * "Galaxy better than commercial software" (the [Galaxy Team](/galaxy-team/) says "thank-you"!!)
+    * Trackster/Sweepster amazed everyone (shout-out to Jeremy!)
+    * New end user community to be aware of: Mass spec
 
 ## What would be most helpful going forward
 
@@ -49,13 +49,13 @@ These are a merged grouping of [Anton's](/people/anton/), [Dan's](/people/dan/),
 * Community currently relies on [Main](/main/) for this type of information
 * Extends to Libraries & other source Data, Workflows, Visualizations
 * Ideas (some overlap):
-  * Best practices as a way to adopt to correct tools
-  * A need to explain what is needed for particular analysis goals
-  * Tag tools/workflows based on publications, citations, peer-reviewed status
-  * **DOI** would be the *ideal* tag
-  * Methods to evaluate tools in the [Tool Shed](/toolshed/)
-  * [Tool Shed](/toolshed/): Download counts/trends e.g. downloads this week week
-  * [Tool Shed](/toolshed/): Flag bad objects, like craigslist, to alert admin moderator
+    * Best practices as a way to adopt to correct tools
+    * A need to explain what is needed for particular analysis goals
+    * Tag tools/workflows based on publications, citations, peer-reviewed status
+    * **DOI** would be the *ideal* tag
+    * Methods to evaluate tools in the [Tool Shed](/toolshed/)
+    * [Tool Shed](/toolshed/): Download counts/trends e.g. downloads this week week
+    * [Tool Shed](/toolshed/): Flag bad objects, like craigslist, to alert admin moderator
 
 ### Data integration between Main and CloudMan
 
@@ -81,9 +81,9 @@ These are a merged grouping of [Anton's](/people/anton/), [Dan's](/people/dan/),
 ## Support
 
 * Mailing list &rarr; Forum
-  * Galaxy-dev 1st. **ACTION:** Switch now (Dannon/Jen). Maybe add Google Searches (Dave).
-  * Galaxy-user 2nd. **ACTION:** Dual Forum/List ~ 1 year, then transition to forum only. (Dannon/Jen/Dave).
-  * Others no change.
+    * Galaxy-dev 1st. **ACTION:** Switch now (Dannon/Jen). Maybe add Google Searches (Dave).
+    * Galaxy-user 2nd. **ACTION:** Dual Forum/List ~ 1 year, then transition to forum only. (Dannon/Jen/Dave).
+    * Others no change.
 * Trackster .... any data - rna, small genome region, etc. can be used as 'ref genome' with or without sequence. **ACTION:** Tutorial. (Jeremy/Jen)
 * Multiple versions of tools in UI. **ACTION:** Tutorial. (Jen)
 * Of interest: CloudMan Costs ~ $900 for 1 flow cell Hi-Seq analysis run. **ACTION:** Useful info to capture in wiki where users could share usage data? (Dave)
@@ -93,7 +93,7 @@ These are a merged grouping of [Anton's](/people/anton/), [Dan's](/people/dan/),
 * See **ACTION** items inline above
 * Others to be added
 
- * 
+*
 
 # Solutions
 

@@ -10,10 +10,10 @@ date: "2015-05-31"
 The **[June Galactic News](/galaxy-updates/2015-06/)** brings this *news of the Galaxy:*
 
 * **[GCC2015 News](/galaxy-updates/2015-06/#gcc2015-4-8-july-norwich-uk)**
-  * **[Register Now](/galaxy-updates/2015-06/#registration-is-open)!**
-  * [Late Poster Abstracts](/galaxy-updates/2015-06/#late-poster-abstracts)!
-  * [Extend your trip](/galaxy-updates/2015-06/#other-events-near-gcc2015) at nearby events.
-  * [Sponsorships](/galaxy-updates/2015-06/#gcc2015-sponsorships)
+    * **[Register Now](/galaxy-updates/2015-06/#registration-is-open)!**
+    * [Late Poster Abstracts](/galaxy-updates/2015-06/#late-poster-abstracts)!
+    * [Extend your trip](/galaxy-updates/2015-06/#other-events-near-gcc2015) at nearby events.
+    * [Sponsorships](/galaxy-updates/2015-06/#gcc2015-sponsorships)
 * **[June GalaxyAdmins Meetup](/galaxy-updates/2015-06/#june-galaxyadmins-meetup)**
 * [And, 20+ events over the next 3 months](/galaxy-updates/2015-06/#other-events)
 * [New releases (Galaxy, Pulsar, Planemo)](/galaxy-updates/2015-06/#releases) and [Tool Shed contributions](/galaxy-updates/2015-06/#toolshed-contributions):

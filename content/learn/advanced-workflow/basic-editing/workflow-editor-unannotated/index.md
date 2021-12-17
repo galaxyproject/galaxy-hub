@@ -9,7 +9,7 @@
 
 <br />
 <br />
-An example view of the workflow editor without annotation. 
+An example view of the workflow editor without annotation.
 <br />
 <br />
 The same view with annotated is here along with full descriptions: **[Basic Workflow Editing: Editor Layout](/learn/advanced-workflow/basic-editing/#editor-layout)**

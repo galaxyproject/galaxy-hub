@@ -48,7 +48,7 @@ These papers may be of interest to the Galaxy community:
 * [Enis Afgan](/people/enis-afgan/), Brad Chapman and [James Taylor](/people/james-taylor/), "[CloudMan as a platform for tool, data, and analysis distribution](http://www.biomedcentral.com/1471-2105/13/315/abstract)." *[BMC Bioinformatics](http://www.biomedcentral.com/bmcbioinformatics/)* 2012, 13:315 <br /><br />
 * [Jeremy Goecks](/people/jeremy-goecks/), [Nate Coraor](/people/nate/), [The Galaxy Team](/galaxy-team/), [Anton Nekrutenko](/people/anton/) & [James Taylor](/people/james-taylor/), "[NGS analyses by visualization with Trackster](http://bit.ly/VMUz7p)."  *[Nature Biotechnology](http://www.nature.com/nbt/index.html)* 30, 1036–1039 (2012) <br /><br />
 * Samantha Baldwin, Roopashree Revanna, Susan Thomson, *et al.*, "[A Toolkit for bulk PCR-based marker design from next-generation sequence data: application for development of a framework linkage map in bulb onion (Allium cepa L.)](https://doi.org/10.1186/1471-2164-13-637)," *BMC Genomics*, Vol. 13, No. 1. (2012), 637 <br /><br />
-* Jeremy C. Morgan, Robert W. Chapman, Paul E. Anderson, "[A next generation sequence processing and analysis platform with integrated cloud-storage and high performance computing resources](https://doi.org/10.1145/2382936.2383033).  Proceedings of the ACM Conference on Bioinformatics, Computational Biology and Biomedicine <br /><br /> 
+* Jeremy C. Morgan, Robert W. Chapman, Paul E. Anderson, "[A next generation sequence processing and analysis platform with integrated cloud-storage and high performance computing resources](https://doi.org/10.1145/2382936.2383033).  Proceedings of the ACM Conference on Bioinformatics, Computational Biology and Biomedicine <br /><br />
 * Bo Liu, Borja Sotomayor, Ravi Madduri, Kyle Chard, "[Deploying Bioinformatics Workflows on Clouds with Galaxy and Globus Provision](http:// bit.ly/UPBbRI)."  [Third International Workshop on Data Intensive Computing in the Clouds (DataCloud 2012)](http://www.cse.buffalo.edu/faculty/tkosar/DataCloud2012/)
 
 These papers were among [37 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/).  
@@ -92,7 +92,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 </div>
 
 <br />
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
@@ -159,18 +159,21 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
 ### Deadlines
 
 We only know of one deadline coming up in December:
+
 * [Genomic Standards Council Meeting (GSC 15)](http://gensc.org/gc_wiki/index.php/GSC_15) (Dec 20: Deadline for submission of abstracts)
 
 However, there are a few high-profile meetings:
+
 * [Rocky 2012](http://www.iscb.org/rocky2012)
 * [BeNeLux Bioinformatic Conference (BBC) 2012](http://www.nbic.nl/bbc2012)
-* [ISCB-Asia/SCCG 2012](http://www.iscb.org/iscb-asia2012) 
+* [ISCB-Asia/SCCG 2012](http://www.iscb.org/iscb-asia2012)
 
 ## Source Code Documentation
 
 <div class='right'><a href='http://galaxy-dist.readthedocs.org'><img src="/images/news-graphics/2012_11_14_dist-readthedocs.png" alt="Galaxy-Dist at ReadTheDocs" width="320" /></a><br /><a href='http://readthedocs.org'><img src="/images/logos/ReadTheDocsLogo.png" alt="Read the Docs" width="125" /></a><a href='http://sphinx-doc.org/'><img src="/images/logos/SphinxLogo333.png" alt="Sphinx Python Documentation Generator" width="200" /></a></div>
 
 The Galaxy Project is now using *[Sphinx](http://sphinx-doc.org/)* hosted at [Read the Docs](http://readthedocs.org) to document the Galaxy code base.  Two versions are available:
+
 * **[galaxy-dist](http://galaxy-dist.readthedocs.org):** Code documentation for latest official release of Galaxy.
 * **[galaxy-central](http://galaxy-central.readthedocs.org):** Code documentation for the latest committed version of the code.  This should never lag behind the Bitbucket checkins by more than an hour.
 
@@ -201,6 +204,7 @@ upgrade: $ hg pull -u -r 5dcbbdfe1087
 [CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 This update brings a large number of updates and new features, the most prominent ones being:
+
 * Support for Eucalyptus cloud middleware. Thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).
 * Added a new file system management interface on the CloudMan Admin page, allowing control and providing insight into each available file system
 * Added quite a few new user data options. See the [UserData page](/cloudman/userdata/) for details. Thanks to John Chilton.
@@ -211,7 +215,7 @@ This update brings a large number of updates and new features, the most prominen
 * Support for Ubuntu 12.10
 * Worker instances are now also SGE submit hosts
 
-This update comes as a result of 175 code changesets; for a complete list of changes, see the [commit messages](https://bitbucket.org/galaxy/cloudman/changesets/tip/3a63b9a40331%3A35baec1). 
+This update comes as a result of 175 code changesets; for a complete list of changes, see the [commit messages](https://bitbucket.org/galaxy/cloudman/changesets/tip/3a63b9a40331%3A35baec1).
 
 **Any new cluster will automatically start using this version of CloudMan. Existing clusters will be given an option to do an automatic update once the main interface page is refreshed.**
 
@@ -223,12 +227,12 @@ Several new repositories were added to, and existing repositories updated in the
 * `bowtie_wrappers, bowtie_color_wrappers, lastz, lastz_paired_ends`: Wrappers all created by the [Galaxy Team](/galaxy-team/)
 * `semweb_tools`: A collection of Semantic Web tools, including a (pure python) SPARQL-to-tabular format tool
 * `ea_utils`: FASTQ processing utilities; sam-stats added
-* `regex_replace`: Regular expression replacement using the Python 
+* `regex_replace`: Regular expression replacement using the Python
 * `blast_datatypes` and `ncbi_blast_plus`: Added BLAST database support
 * `homer`: motif discovery and next generation sequencing analysis
 * `meme_chip`: Motif based sequence analysis
 * `SVDetect`:  detect genomic structural variations from paired-end and mate-pair sequencing data
-* `cloudmap_in_silico_complementation`: Perform in silico complementation analysis on multiple tabular snpEff output files 
+* `cloudmap_in_silico_complementation`: Perform in silico complementation analysis on multiple tabular snpEff output files
 * `sniploid`: compares SNP detected from a polyploid to those derived from its parental genomes
 * `tabular_label_convert`: Takes a tabular format file of numerical values and converts the labels of the  rows or columns using an alias map
 * `tabular_edit`: Edit the contents and row/column labels of a tabular file using python statements
@@ -244,5 +248,5 @@ Several new repositories were added to, and existing repositories updated in the
 * Slides and Screencast from [November GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2012-11-14/) are online.  The next [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/) will be on [January 16](/community/galaxy-admins/meetups/2013-01-16/) and feature [John Chilton](/people/john-chilton/) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
 * New Tutorial: *[Analysis of ChIP-seq data in Galaxy](http://jura.wi.mit.edu/bio/education/hot_topics/galaxy/GalaxyNov2012_ChIP-seq_toPost.pdf)* from the [BaRC, Whitehead Institute](http://jura.wi.mit.edu/bio/education/hot_topics/)
 * [A short "Getting started with JGalaxy"](http://bit.ly/SkW2yU) document (with screenshots), by [John Chilton](/people/john-chilton/)
-* [生物人的電腦教室：高通量定序分析一次搞定](http://bit.ly/Sc4LDN) including Galaxy, by Eric Lee 
+* [生物人的電腦教室：高通量定序分析一次搞定](http://bit.ly/Sc4LDN) including Galaxy, by Eric Lee
 * [Batch Workflow starting using the Galaxy API : Practical Example](http://bit.ly/TjTj6X) by Geert Vandeweyer

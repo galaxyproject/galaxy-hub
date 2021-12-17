@@ -11,7 +11,7 @@ The *October 2019 Galactic News*  includes Galactic news under this or any other
 * [20 Upcoming Events](/news/2019-10-galaxy-update/#events)
 * [143 new publications](/news/2019-10-galaxy-update/#publications)
 * [Galaxy Platform News](/news/2019-10-galaxy-update/#galaxy-platforms-news)
-* [6 Openings](/news/2019-10-galaxy-update/#whos-hiring) 
+* [6 Openings](/news/2019-10-galaxy-update/#whos-hiring)
 * [Training material and doc updates](/news/2019-10-galaxy-update/#doc-hub-and-training-updates)
 * [Other news](/news/2019-10-galaxy-update/#other-news)
 
@@ -48,7 +48,7 @@ This year's [Galaxy Netherlands Face2Face meeting](/events/2019-10-galaxynl/) wi
 
 Brussels, Belgium. Monday 3th to Friday February 7th 2020.
 
-This [one-week course](https://workflow4metabolomics.org/w4e2020) (entirely in English), Learn to use the W4M infrastructure and analyze your own LC-MS, GC-MS, or NMR data. Morning sessions will be dedicated to methodology and tools. Afternoon sessions will be devoted to tutoring. 
+This [one-week course](https://workflow4metabolomics.org/w4e2020) (entirely in English), Learn to use the W4M infrastructure and analyze your own LC-MS, GC-MS, or NMR data. Morning sessions will be dedicated to methodology and tools. Afternoon sessions will be devoted to tutoring.
 
 **Preregister by 3 November.**
 </div>
@@ -77,7 +77,7 @@ Galaxy, differential gene expression analysis, bisulfite sequencing analysis, an
 <img class="card-img-top" src="/events/2019-10-aises/aises-2019-banner.png" alt="Galaxy @ AISES" />
 <div class="card-header">[Galaxy @ AISES 2019](/events/2019-10-aises/)</div>
 
-**[Reproducible Genomic Data Analysis with the Galaxy Workbench](https://conference.aises.org/agenda)**, 9:30 - 11:20,  Friday, October 11. 
+**[Reproducible Genomic Data Analysis with the Galaxy Workbench](https://conference.aises.org/agenda)**, 9:30 - 11:20,  Friday, October 11.
 </div>
 
 <div class="card border-info" style="min-width: 15rem; max-width: 28rem;">
@@ -101,6 +101,7 @@ There are several *registration* deadlines this month:
 
 * **[Galaxy Africa & ISCB Africa](https://www.iscb.org/iscbafrica2019-register)**, Kumasi, Ghana. *Early Registration: October 20*
 * **[W4E 2020](https://workflow4metabolomics.org/w4e2020)**, Brussels, Belgium. *Pre-registration: 3rd November*
+
 </div>
 </div>
 
@@ -120,19 +121,19 @@ Andrio, Pau, Adam Hospital, et al. 2019. *Scientific Data* 6 (1): 1–8. doi: 10
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Understanding rumen function using (meta)genome-guided metaproteomics](https://nmbu.brage.unit.no/nmbu-xmlui/handle/11250/2609080)</div>
 
-Andersen, Thea Os. 2019. Thesis, Norwegian University of Life Sciences. 
+Andersen, Thea Os. 2019. Thesis, Norwegian University of Life Sciences.
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Reproducible biomedical benchmarking in the cloud: lessons from crowd-sourced data challenges](https://doi.org/10.1186/s13059-019-1794-0)</div>
 
-Ellrott, Kyle, Alex Buchanan, et al. *Genome Biology* 20 (1): 195. doi: 10.1186/s13059-019-1794-0. 2019. 
+Ellrott, Kyle, Alex Buchanan, et al. *Genome Biology* 20 (1): 195. doi: 10.1186/s13059-019-1794-0. 2019.
 </div>
 
 <div class="card border-info" style="min-width: 14rem;">
 <div class="card-header">[You Wrote It, Now Get It Used: Publishing Your Software with Galaxy and Bioconda](http://doi.acm.org/10.1145/3307339.3343178)</div>
 
-[Daniel Blankenberg](/people/dan/), [Martin Cech](/people/marten/). 2019. In Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (BCB '19). ACM, New York, NY, USA, 559-559. DOI: 10.1145/3307339.3343178 
+[Daniel Blankenberg](/people/dan/), [Martin Cech](/people/marten/). 2019. In Proceedings of the 10th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (BCB '19). ACM, New York, NY, USA, 559-559. DOI: 10.1145/3307339.3343178
 </div>
 
 <div class="card border-info" style="min-width: 18rem;">
@@ -174,7 +175,7 @@ The **[Inter-Domain Ecological Network Analysis Pipeline (IDENAP) server](http:/
 
 <img class="card-img-top" src="/use/usegalaxy-be/usegalaxy-be-logo.png" alt="UseGalaxy.be" />
 
-The **[ELIXIR Belgium Galaxy server](https://usegalaxy.be/)** has been launched.  This server focuses on serving researchers in Belgium, provides a wealth of tools, and reference data for plant species from the [PLAZA data warehouse](https://usegalaxy-be.github.io/posts/2019/07/01/PLAZA-reference-data/plain.html). 
+The **[ELIXIR Belgium Galaxy server](https://usegalaxy.be/)** has been launched.  This server focuses on serving researchers in Belgium, provides a wealth of tools, and reference data for plant species from the [PLAZA data warehouse](https://usegalaxy-be.github.io/posts/2019/07/01/PLAZA-reference-data/plain.html).
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
@@ -198,7 +199,7 @@ The **[NG-Tax server](https://ngtax.systemsbiology.nl/)** provides a semantic fr
 
 <img class="card-img-top" src="/use/ecology/map-prediction-slice.png" alt="Galaxy for Ecology: Mapped prediction" />
 
-**[Galaxy for Ecology](https://ecology.usegalaxy.eu/)** is a web platform to get, process, analyze and visualize ecological data, including species occurrence data, protocoled data from Vigie-Nature, and climatic data from Worldclim. 
+**[Galaxy for Ecology](https://ecology.usegalaxy.eu/)** is a web platform to get, process, analyze and visualize ecological data, including species occurrence data, protocoled data from Vigie-Nature, and climatic data from Worldclim.
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
@@ -208,6 +209,7 @@ The **[NG-Tax server](https://ngtax.systemsbiology.nl/)** provides a semantic fr
 
 * [8000 users, 6.000.000 jobs and 11.000.000 datasets on UseGalaxy.eu](https://galaxyproject.eu/posts/2019/09/17/8000users/)
 * [The European Galaxy server is part of the EOSC marketplace](https://galaxyproject.eu/posts/2019/09/15/Galaxy-part-of-EOSC-marketplace/)
+
 </div>
 
 <div class="card border-info"  style="min-width: 16rem;">

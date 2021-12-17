@@ -64,7 +64,7 @@ The workshops will be held in the seminar room of the [Laboratoire Génome et D�
  [Bâtiment Thémis - Amphi 8](http://maps.google.fr/maps?q=Batiment+th%C3%A9mis+villeurbanne&hl=fr&ie=UTF8&ll=45.783327,4.871653&spn=0.002428,0.004259&sll=45.783507,4.871546&sspn=0.004856,0.008519&hnear=B%C3%A2timent+Themis,+69100+Villeurbanne,+Rh%C3%B4ne,+Rh%C3%B4ne-Alpes&t=m&z=18)<br />
  11 Avenue Gaston Berger<br />
  Université Lyon 1<br />
- Villeurbanne 
+ Villeurbanne
 
 ## Paris: 1 June
 
@@ -93,6 +93,7 @@ If you attend both workshops and plan to eat in the area, there are many choices
 ## Galaxy for Biologists
 
 **9:00-12:00**
+
 * Basic concepts: interface, histories, workflows
 * Analysis of NGS data: polymorphism discovery, ChIP-seq. RNA-seq
 * Using your own instance on the Cloud
@@ -103,6 +104,7 @@ If you attend both workshops and plan to eat in the area, there are many choices
 *[Slides from Nate Coraor](https://depot.galaxyproject.org/hub/attachments/documents/presentations/TourDeFrance2012Coraor.pdf)*
 
 **14:00-17:00**
+
 * Galaxy architecture
 * Wrapping tools for Galaxy system, Galaxy Toolshed
 * API
