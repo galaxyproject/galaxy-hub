@@ -1,7 +1,7 @@
 <div class="center">
   <a href='/events/gcc2022/'>
     <div class="img-sizer trim-p">
-    
+
 ![GCC2022](/images/events/gcc2022/umn-river-aerial-wide.jpg)
 
   </div>
