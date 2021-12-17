@@ -7,10 +7,11 @@ title: usegalaxy.org
 
 <div class="text-center my-5">
 
-[![JXTX Foundation](jxtx-foundation.webp)][jxtx-foundation]
+[![GTN Smörgåsbord 2: 14-18 March, join a free, global, week-long Galaxy Training event covering everything from RNA-Seq, Single Cell, Proteomics, SARS-CoV-2 and more!  This year will include Galaxy Admin Training.](/images/events/2022-03-smorgasbord2/smorgasbord2-blurb.png)](https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/)
 
+---
 
-**Announcing the James P. Taylor (JXTX) Foundation for Open Science**
+**Donate to the James P. Taylor Foundation for Open Science**
 
 <button type="button" class="btn btn-secondary" style="font-size: 1.5em; font-weight: 600;">
 
