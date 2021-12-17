@@ -4,8 +4,8 @@ title: Birds of a Feather (BoF) Flock Together at GCC2013
 
 <slot name="/events/gcc2013/header" />
 
-import links from "../links.json"
-<link-box :links="links" />
+import linkbox from "../linkbox.json"
+<link-box :data="linkbox" />
 
 <slot name="/events/gcc2013/bof/linkbox" />
 
