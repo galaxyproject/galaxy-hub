@@ -19,7 +19,7 @@ In addition to the videos and presentation materials, there are also several mee
 
 * [#usegalaxy lights up northern skies](http://blogs.biomedcentral.com/gigablog/2013/07/09/usegalaxy-lights-up-northern-skies/): Meeting report by [Scott Edmunds](http://blogs.biomedcentral.com/gigablog/author/scottedmunds/) in [GigaBlog](http://blogs.biomedcentral.com/gigablog).
 * [GCC2013 Report](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2013/NBICSummary.pdf) - an [NBIC](http://nbic.nl/) centric review of the meeting by Leon Mei.
-* UiO Rector's Blog: [Reproduserbarhet i livsvitenskapene](http://bit.ly/12GQpvC) 
+* UiO Rector's Blog: [Reproduserbarhet i livsvitenskapene](http://bit.ly/12GQpvC)
 * [Conference Tweets at ChirpStory](http://chirpstory.com/li/93570)
 * [Storify of conference Tweets](http://storify.com/search?q=GCC2013)
 * [Photos](/events/gcc2013/photos/) from the meeting (please add your own)
@@ -43,7 +43,8 @@ Two new servers joined [the list of over 30 publicly accessible Galaxy servers](
 The [QBRC Galaxy Server](http://www.galaxy.qbrc.org/) hosts custom tools developed by members of the [Quantitative Biomedical Research Center @ University of Texas Southwestern](http://www.qbrc.swmed.edu/) for statistical analysis of various High Throughput Sequencing experiments.
 
 Features
-* [SbacHTS: Spatial Background Noise Correction for HighThroughput RNAi Screening](http://bioinformatics.oxfordjournals.org/content/early/2013/06/28/bioinformatics.btt358.abstract)   
+
+* [SbacHTS: Spatial Background Noise Correction for HighThroughput RNAi Screening](http://bioinformatics.oxfordjournals.org/content/early/2013/06/28/bioinformatics.btt358.abstract)
 * [DecoRNAI](http://galaxy.qbrc.org/static/DecoRNAi_Manual.pdf) (deconvolution analysis of RNAi screening data)
 * [MiClip](http://galaxy.qbrc.org/static/galaxy_manual.pdf) "a novel model-based approach to identify high-confidence protein-RNA binding sites in CLIP-Seq datasets"
 
@@ -103,9 +104,10 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 
 47 new papers were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in July. These papers may be particularly interesting to the Galaxy community
+
 * "[A sustainable national gateway for biological computation](https://doi.org/10.1145/2484762.2484817)" by [James Taylor](/people/james-taylor/), [Anton Nekrutenko](/people/anton/), [Nate Coraor](/people/nate/), *et al.* In *Proceedings of the Conference on Extreme Science and Engineering Discovery Environment: Gateway to Discovery* (2013)
 * "[Cloud-based uniform ChIP-Seq processing tools for modENCODE and ENCODE](https://doi.org/10.1186/1471-2164-14-494)" by Quang Trinh, Fei Y. Jen, Ziru Zhou, *et al.*, *BMC Genomics,* Vol. 14, No. 1. (2013), 494
-* "[The Banana Genome Hub](https://doi.org/10.1093/database/bat035)" by Droc, *et al.*, *Database*, Vol. 2013 (01 January 2013), 
+* "[The Banana Genome Hub](https://doi.org/10.1093/database/bat035)" by Droc, *et al.*, *Database*, Vol. 2013 (01 January 2013),
 
 <br />
 
@@ -121,7 +123,7 @@ The QBRC galaxy server tools are constantly being updated. Please contact author
 
 <div class='right'><a href='https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/'><img src="/images/logos/MailmanLogoSmall.png" alt="Galaxy Proteomics Mailing List"  /></a></div>
 
-The Galaxy community now has a [mailing list dedicated to proteomics](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/).  In case you missed it, there is also a proteomics wiki page. 
+The Galaxy community now has a [mailing list dedicated to proteomics](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/). If you're using Galaxy to do proteomics, or if you are thinking of doing so then [please subscribe](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/).  In case you missed it, there is also a proteomics wiki page.
 
 See [the complete list of mailing lists](/mailing-lists/) for more information on this and other Galaxy mailing lists, including links to searchable archives of all Galaxy lists.
 
@@ -134,8 +136,9 @@ Many thanks to Ira Cooke and [John Chilton](/people/john-chilton/) for suggestin
 <div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
-* The Netherlands Institute of Ecology (NIOO-KNAW) [Bioinformatician opening](http://bit.ly/15nT1nB) 
-* [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven 
+
+* The Netherlands Institute of Ecology (NIOO-KNAW) [Bioinformatician opening](http://bit.ly/15nT1nB)
+* [PhD or postdoc position available](http://bit.ly/15Iz3nL) at [Laboratory of Computational Biology](http://med.kuleuven.be/lcb/), University of Leuven
 * [Bioinformatics job vacancy at Rothamsted Research](http://www.rothamsted.ac.uk/Content-Section=Careers&Page=Vacancies.html#1272), UK.  Use Galaxy for delivery of data analysis resources; new tool integration, ... **Closing date 4th August.**
 * **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**.
 * [Sr Bioinformatics Specialist, Tufts University](http://bit.ly/1bOLLBd), Boston MA.
@@ -256,6 +259,7 @@ A new version of [CloudMan](/cloudman/) was [released in July](/news/cloudman-re
 Any new cluster will automatically start using this version of CloudMan. Existing clusters will be given an option to do an automatic update once the main interface page is refreshed. Note that this upgrade is a major version upgrade and thus the migration is rather complicated. The migration process has been automated but will take a little while to complete. If you have made customizations to your cluster in terms of adding file systems, upgrading the database, or similar, we do not recommend you perform the upgrade. Note that this upgrade comes with (and requires) a new AMI (ami-118bfc78), which will automatically be used when starting an instance via [CloudLaunch](http://usegalaxy.org/cloudlaunch).
 
 **This update brings a large number of updates and new features, the most prominent ones being:**
+
 * Unification of `galaxyTools` and `galaxyData` file systems into a single `galaxy` filesystem. This change makes it possible to utilize the [Galaxy Tool Shed](/toolshed/) when installing tools into Galaxy.
 * Added initial support for Hadoop-type workloads
 * Added initial support for cluster federation via HTCondor
@@ -272,24 +276,24 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
-* [varscan](http://bit.ly/12cDtT2): mutation callers for targeted, exome, & whole-genome resequencing; cancer genomics 
-* [jointsnvmix](http://bit.ly/153MT1x): Somatic mutations caller using probabilistic graphical model w/ tumour/normal pairs 
-* [scaffold](http://bit.ly/16gjK2h): Tool wrapper for the commercial proteomics application Scaffold 
-* [trim_galore](http://bit.ly/16gk9BR): adaptive quality and adapter trimmer 
-* [bismark](http://bit.ly/12kirxb): A flexible aligner and methylation caller for Bisulfite-Seq applications 
-* [augustus](http://bit.ly/1ad06vO): eukaryotic gene predictor 
-* [glimmer3](http://bit.ly/12OFpMD): microbial DNA gene finder. 
+* [varscan](http://bit.ly/12cDtT2): mutation callers for targeted, exome, & whole-genome resequencing; cancer genomics
+* [jointsnvmix](http://bit.ly/153MT1x): Somatic mutations caller using probabilistic graphical model w/ tumour/normal pairs
+* [scaffold](http://bit.ly/16gjK2h): Tool wrapper for the commercial proteomics application Scaffold
+* [trim_galore](http://bit.ly/16gk9BR): adaptive quality and adapter trimmer
+* [bismark](http://bit.ly/12kirxb): A flexible aligner and methylation caller for Bisulfite-Seq applications
+* [augustus](http://bit.ly/1ad06vO): eukaryotic gene predictor
+* [glimmer3](http://bit.ly/12OFpMD): microbial DNA gene finder.
 * [trna_prediction](http://bit.ly/1aPhAhh): Prediction of t-RNA with aragorn and tRNAscan-SE  
-* [rseqc](http://bit.ly/130kkPv): converts RNA-seq data from .bam to .wig   
+* [rseqc](http://bit.ly/130kkPv): converts RNA-seq data from .bam to .wig
 * [sickle](http://bit.ly/15gM7i4): A windowed adaptive trimming tool for FASTQ files using quality  
-* [tabix](http://bit.ly/13nbawD): index TAB-delimited genome position file in.tab.bgz; creates an index file in.tab.bgz.tbi 
+* [tabix](http://bit.ly/13nbawD): index TAB-delimited genome position file in.tab.bgz; creates an index file in.tab.bgz.tbi
 * [glimmer_gene_calling_workflow](http://bit.ly/1bhYbWm): Gene calling with glimmer and trainingset of known genes.  
-* [vcftools](http://bit.ly/1bDK1xo): validate/merge/compare/calculate basic population genetic statistics on VCF. 
-* [bcftools](http://bit.ly/146sigA): work with BCF data 
+* [vcftools](http://bit.ly/1bDK1xo): validate/merge/compare/calculate basic population genetic statistics on VCF.
+* [bcftools](http://bit.ly/146sigA): work with BCF data
 * [cmpfastq](http://bit.ly/14UNqnV): compare QC filtered fastq files  
-* [fastQValidator](http://bit.ly/1dALG54): validates the format of fastq files 
+* [fastQValidator](http://bit.ly/1dALG54): validates the format of fastq files
 * [bs_seeker2](http://bit.ly/18kf3eU): Bisulfite sequencing mapper
-* [spades](http://bit.ly/1aLaW94): genome assembler for regular and single-cell projects. 
+* [spades](http://bit.ly/1aLaW94): genome assembler for regular and single-cell projects.
 
 # Other News
 

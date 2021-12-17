@@ -5,11 +5,11 @@
 
 # Registering for a Galaxy account
 
-Having your own account on the public **[Test](/test/)** and/or **[Main](/main/)** server means that you can save histories, work with more data, and get the most out of Galaxy's functionality. 
+Having your own account on the public **[Test](/test/)** and/or **[Main](/main/)** server means that you can save histories, work with more data, and get the most out of Galaxy's functionality.
 
 Accounts are created under the **User** masthead menu. This same menu is also where you will log in and out of Galaxy.
 
-Be sure to note that the public [Test](/test/) and [Main](/main/) instance **usage policies are <span class="red">one account per user<span class="grey"></span></span>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'll want the email!). 
+Be sure to note that the public [Test](/test/) and [Main](/main/) instance **usage policies are <span class="red">one account per user<span class="grey"></span></span>**, as stated in our **[Terms and Conditions](https://usegalaxy.org/static/terms.html)**. Also, make sure your email address is valid so that you can confirm your new account (emails are case sensitive) and so that our administrator can contact you if needed (rare, but you'll want the email!).
 
 The activation email will include a link and an abbreviated terms of usage explaination:
 
@@ -31,15 +31,15 @@ Admin setting up an instance? See our **[User Accounts](/authnz/config/gxy/)** p
 
 # Learning and Teaching
 
-Teaching with Galaxy? New and learning how to use it? Review the help under the masthead **Learn** area. 
+Teaching with Galaxy? New and learning how to use it? Review the help under the masthead **Learn** area.
 
 If you need more help, review FAQs under the masthead **Support** area. The most common usage issues and reasons for tool errors are covered in detail.
 
-You can also visit the **[Galaxy Help forum](https://help.galaxyproject.org)** to review prior QA and to ask a new question. 
+You can also visit the **[Galaxy Help forum](https://help.galaxyproject.org)** to review prior QA and to ask a new question.
 
 # Account questions or problems
 
-If you are having problems with your account or have misunderstandings about terms of usage, contact the server administrators where you are working. 
+If you are having problems with your account or have misunderstandings about terms of usage, contact the server administrators where you are working.
 
 Protect your password and keep it private. Server administrators will never need or ask for it. Other people will never need it. Share data, not accounts.
 
@@ -51,7 +51,7 @@ Account problems that can be resolved include _proactively clearing up existing 
 
 * [Manage your own data](/support/account-quotas/) and delete old/extra accounts under *User > Preferences*.
 
-* Multiple accounts that are detected, suspended, and administratively managed, without followup on your part, result in data loss. Creating another account is not the solution -- the new account will also be detected up as a duplicate and removed. 
+* Multiple accounts that are detected, suspended, and administratively managed, without followup on your part, result in data loss. Creating another account is not the solution -- the new account will also be detected up as a duplicate and removed.
 
 * You will not receive a special notification when accounts are administratively managed due to a breach of the terms of service. The original terms of service included directly on the account registration form and in the account activation emails are your notice.  
 

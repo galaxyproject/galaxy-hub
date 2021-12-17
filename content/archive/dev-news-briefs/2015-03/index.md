@@ -43,7 +43,7 @@ date: 2015-03-01
 
 # Release Versioning
 
-Starting with this distribution, an updated Galaxy release versioning system has been implemented. The versioning scheme is [Ubuntu-style](https://wiki.ubuntu.com/Releases). 
+Starting with this distribution, an updated Galaxy release versioning system has been implemented. The versioning scheme is [Ubuntu-style](https://wiki.ubuntu.com/Releases).
 
 Releases versioning details are as follows:
 
@@ -58,7 +58,7 @@ Releases versioning details are as follows:
 
 # Release Branches
 
-* The Github [master](https://github.com/galaxyproject/galaxy/tree/master) branch is similar to the former Bitbucket [stable](https://bitbucket.org/galaxy/galaxy-dist/branch/stable) branch. The difference is that whereas individual commits to the current stable release were previously applied to the stable branch, they are now only applied in a group, when a "point" release is made (e.g. `15.03.1`). 
+* The Github [master](https://github.com/galaxyproject/galaxy/tree/master) branch is similar to the former Bitbucket [stable](https://bitbucket.org/galaxy/galaxy-dist/branch/stable) branch. The difference is that whereas individual commits to the current stable release were previously applied to the stable branch, they are now only applied in a group, when a "point" release is made (e.g. `15.03.1`).
 * The Bitbucket stable branch now works the same way as the Github master branch.
 * Permanent named branches are now created for each release. The 15.03 release is in the [release_15.03](https://github.com/galaxyproject/galaxy/tree/release_15.03) branch, which will be updated with additional changes throughout the lifecycle of this release, as was done with the Bitbucket `stable` branch in the past. When the Galaxy Team determines that a "point" release is necessary, this branch is merged to `master` and a point release tag is created. This branch exists in both the [Github](https://github.com/galaxyproject/galaxy) and [Bitbucket](https://bitbucket.org/galaxy/galaxy-dist) versions of Galaxy.
 
@@ -66,9 +66,9 @@ Thus, if you would like to upgrade to the 15.03 release and ensure you do not su
 
 # Tool Redesign
 
-Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolsehd) and many are ready for use on Galaxy [Main](/main/). Older Workflows may contain tools that automatically map to the new tools or Workflows may need minor adjustments. [c6Lkejro](https://trello.com/c/c6Lkejro) 
+Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolsehd) and many are ready for use on Galaxy [Main](/main/). Older Workflows may contain tools that automatically map to the new tools or Workflows may need minor adjustments. [c6Lkejro](https://trello.com/c/c6Lkejro)
 
-Be sure to check out the new [Galaxy NGS 101](/learn/galaxy-ngs101/) wiki (in progress). 
+Be sure to check out the new [Galaxy NGS 101](/learn/galaxy-ngs101/) wiki (in progress).
 
 # Github
 
@@ -121,30 +121,36 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Data Source/Provider Functions: filtering of transferred lines based on parsed column values. [jBMtQm0w](https://trello.com/c/jBMtQm0w)
 1. Updated the [Tuxedo RNA-seq tools](http://cole-trapnell-lab.github.io/cufflinks/manual/) to version 2.2.1 and created new wrappers for Cuffquant and Cuffnorm. In the [Tool Shed](http://usegalaxy.org/toolshed) and installed on [http://usegalaxy.org](http://usegalaxy.org). [bfr0jKut](https://trello.com/c/bfr0jKut)
 1. New Multiple Histories View. [XLkP9pCr](https://trello.com/c/XLkP9pCr)
-1. Enhancement for how the »Available Genomes List« is generated for the display application [IGV](http://www.broadinstitute.org/igv). [1T49snMh](https://trello.com/c/1T49snMh) 
+1. Enhancement for how the »Available Genomes List« is generated for the display application [IGV](http://www.broadinstitute.org/igv). [1T49snMh](https://trello.com/c/1T49snMh)
 1. Enhanced the Data Managers' reference genome retrieval protocol to function better with UCSC's updated file naming/paths. Created a new Data Manager for `dbkeys/Genome Builds`. Find these in the [Tool Shed](http://usegalaxy.org/toolshed). [kPkwDHmi](https://trello.com/c/kPkwDHmi) [pmd6gSS6](https://trello.com/c/pmd6gSS6)
 1. External Display Applications can now use Tool Data Tables. [b5kX6Eje](https://trello.com/c/b5kX6Eje)
 1. Data Managers can now populate Tool Data Tables that are undeclared. [2FV2aVIH](https://trello.com/c/2FV2aVIH)
 1. Tool Data Tables can load from a URL instead of a path. [xTsc9ojY](https://trello.com/c/xTsc9ojY)
 1. Tuned and enhanced the `determine_output_formats()` method for tools. [jeMaAiap](https://trello.com/c/jeMaAiap)
 1. Many changes have been made in order to support full usability of Dataset Collections in the near term. Latest progress includes:
-  * Tools can now be written to explicitly produce one or more Dataset Collections. [ndVQmt3G](https://trello.com/c/ndVQmt3G) [RA15wpMH](https://trello.com/c/RA15wpMH)
-  * Tools may now use `$input.element_identifier` during tool evaluation for input data parameters (useful for Workflows/Dataset Collections). [W5IChoLS](https://trello.com/c/W5IChoLS)
-  * Implementation of Dataset Collections »list of pairs«. Additional work is in-progress (see ticket). [8hEO00xj](https://trello.com/c/8hEO00xj)
-  * Dataset Collections updated to permit »Drag & Drop« functionality (»copy datasets« is still an option). [Zmy8aiFP](https://trello.com/c/Zmy8aiFP)
+
+* Tools can now be written to explicitly produce one or more Dataset Collections. [ndVQmt3G](https://trello.com/c/ndVQmt3G) [RA15wpMH](https://trello.com/c/RA15wpMH)
+* Tools may now use `$input.element_identifier` during tool evaluation for input data parameters (useful for Workflows/Dataset Collections). [W5IChoLS](https://trello.com/c/W5IChoLS)
+* Implementation of Dataset Collections »list of pairs«. Additional work is in-progress (see ticket). [8hEO00xj](https://trello.com/c/8hEO00xj)
+* Dataset Collections updated to permit »Drag & Drop« functionality (»copy datasets« is still an option). [Zmy8aiFP](https://trello.com/c/Zmy8aiFP)
+
 1. New [ZebrafishMine](http://www.zebrafishmine.org) Data Source tool. [u5OlE4kZ](https://trello.com/c/u5OlE4kZ)
 1. New datatypes. Thanks to [Björn Grüning](/people/bjoern-gruening/).
-  * Added [SnpEff](http://snpeff.sourceforge.net) datatypes. [accZ8KdI](https://trello.com/c/accZ8KdI)
-  * Added `CompressedArchive` as a new datatype that does not uncompress during data upload. [1xtvpWil](https://trello.com/c/1xtvpWil)
-  * Added Arff datatype. [fdVfagbS](https://trello.com/c/fdVfagbS)
-  * Added »RNA dotplot matrix« as a new datatype. [vNmGhAGE](https://trello.com/c/vNmGhAGE)
+
+* Added [SnpEff](http://snpeff.sourceforge.net) datatypes. [accZ8KdI](https://trello.com/c/accZ8KdI)
+* Added `CompressedArchive` as a new datatype that does not uncompress during data upload. [1xtvpWil](https://trello.com/c/1xtvpWil)
+* Added Arff datatype. [fdVfagbS](https://trello.com/c/fdVfagbS)
+* Added »RNA dotplot matrix« as a new datatype. [vNmGhAGE](https://trello.com/c/vNmGhAGE)
+
 1. API updated to include options for selecting data from or downloading (as a tar ball) tool-data content. Thank you Kyle Ellrott. [1874DlBw](https://trello.com/c/1874DlBw)
 1. Allow BAM's `set_meta()` function to use [SAMTools 1](http://samtools.sourceforge.net) to generate the index (when `$PATH` points to SAMTools 1). [wVN3wSiT](https://trello.com/c/wVN3wSiT)
 1. Upload UI enhancements that added »select all« functionality to severall operations. Contributed by Jennifer Cabral. [X4WscBt8](https://trello.com/c/X4WscBt8)
 1. Modified API protocol when removing or refreshing a data table. [x2DLSNlN](https://trello.com/c/x2DLSNlN)
-1. History API Prototypes: 
-  * Consumers can filter index lists with a larger set of per-model options. [n72g8sZG](https://trello.com/c/n72g8sZG)
-  * New use of limit, offset in index calls. [7QH3vxRO](https://trello.com/c/7QH3vxRO)
+1. History API Prototypes:
+
+* Consumers can filter index lists with a larger set of per-model options. [n72g8sZG](https://trello.com/c/n72g8sZG)
+* New use of limit, offset in index calls. [7QH3vxRO](https://trello.com/c/7QH3vxRO)
+
 1. Updated location for new Tool’s »Tool Shed URL«: Tool Options pull down menu. (see graphic at right) [8GdLuEj2](https://trello.com/c/8GdLuEj2)
 1. Tool Panel »search« function optimized. [6Bvbduci](https://trello.com/c/6Bvbduci)
 1. Allowing Workflow step dependencies when no input/output files exist. [h5qZlgU8](https://trello.com/c/h5qZlgU8)
@@ -195,10 +201,10 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 
 # News and Community
 
-* **[GCC 2015](http://gcc2015.tsl.ac.uk/)** has opened [Abstract Submissions](/news/gcc2015-abstract-submission-open/). 
-* Two Hackathons are now scheduled to occur *before* and *during* GCC 2015. 
-  * [GCC2015 Coding Hackathon](http://gcc2015.tsl.ac.uk/organisers/hackathon)
-  * New! [GCC2015 Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/organisers/data-hackathon)
+* **[GCC 2015](http://gcc2015.tsl.ac.uk/)** has opened [Abstract Submissions](/news/gcc2015-abstract-submission-open/).
+* Two Hackathons are now scheduled to occur *before* and *during* GCC 2015.
+    * [GCC2015 Coding Hackathon](http://gcc2015.tsl.ac.uk/organisers/hackathon)
+    * New! [GCC2015 Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/organisers/data-hackathon)
 * [All Galaxy News](/news/) and the [Hub for Release News](/docs/)
 * [Twitter](/galaxy-on-twitter/) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
 * [Events](/events/), [Learn](/learn/), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/support/) with FAQ help, [Mailing list](/mailing-lists/) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)

@@ -7,7 +7,7 @@
     Basic examples introducing the Galaxy nterface and highlighting a wide range of Galaxy's functionality.
 * Next Generation Sequencing (NGS) Data Quality Control
     Options for evaluating quality, trimming data, and tradeoffs involved.
-* RNA-Seq Analysis Example, Part I 
+* RNA-Seq Analysis Example, Part I
     Read Mapping and Transcript Prediction using the Tuxedo Suite of Tools
 
 END_INCLUDE

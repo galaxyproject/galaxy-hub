@@ -17,13 +17,13 @@ There are [a plenitude of Galaxy related events coming up](/events/) in the next
 
 [<img class="float-left" src="/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Nominate Training Topics" />](http://bit.ly/gccbosc2018-tr-nom)
 
-The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and **the training topics are determined by you**.  **Topic nominations have been extended January 12**. Any topics of interest to these communities can be nominated. 
+The joint [2018 Galaxy Community and Bioinformatics Open Source Conferences](https://gccbosc2018.sched.com/) start with training and **the training topics are determined by you**.  **Topic nominations have been extended January 12**. Any topics of interest to these communities can be nominated.
 
 [GCCBOSC2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. It will feature two days of training: the second of which is multi-track and will feature content for both the BOSC and Galaxy communities.  
 
 Nominated topics can cover a wide range. For example:
 
-- How to use open source software using just a web browser (e.g., Intro to Using Galaxy) 
+- How to use open source software using just a web browser (e.g., Intro to Using Galaxy)
 - How to use software packages (The Newbie's Guide to BioRuby)
 - Advanced applications of software (Genome Assembly with Galaxy, or Proteomics with BioPython)
 - Software installation and configuration (Tool Wrapping for Galaxy, or Using CloudLaunch)
@@ -39,11 +39,11 @@ Nominated topics have been, and will continue to be [published](/events/gccbosc2
 
 The [26th Plant and Animal Genome Conference](http://intlpag.org/) will be held January 13-17, in San Diego, California.  PAG is the largest ag-genomics meeting in the world and [Galaxy will be there](/events/2018-pag/) to help researchers get the most from their data.  There will be (at least):
 
-* a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796),
-* a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806)
-* 10 other Galaxy-related talks, and 
-* 12 Galaxy-related posters.
-* 4 pre-conference [GMOD](#gmod-pag) and [Galaxy](#intro-to-galaxy-workshop-at-csusm) events
+- a [Galaxy Workshop with 4 talks](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4796),
+- a Galaxy Community Update talk during the [GMOD session](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806)
+- 10 other Galaxy-related talks, and
+- 12 Galaxy-related posters.
+- 4 pre-conference [GMOD](#gmod-pag) and [Galaxy](#intro-to-galaxy-workshop-at-csusm) events
 
 See the [Galaxy @ PAG page](/events/2018-pag/) for details.
 
@@ -53,10 +53,10 @@ See the [Galaxy @ PAG page](/events/2018-pag/) for details.
 
 [GMOD](https://gmod.org/) (of which Galaxy is a part) has a bunch of things going on at PAG that are of interest to the Galaxy Community:
 
-* GMOD will have a [project-wide hackathon on January 11-12](http://gmod.org/wiki/2018_PAG_Hackathon). 
-* [Meg Staton](http://gst.tennessee.edu/people/meg-staton/) will [speak about](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28295) the Tripal-Galaxy bridge 
-* There will be a [GMOD workshop](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806) on the last day of PAG.
-* The [Tripal Project](https://tripal.info) will have a user meeting on January 11, and a hackathon on January 12. [Register here](https://docs.google.com/document/d/1klQwUqaT_KxPKIfGYy_3rtGnOMVhJxEoD9dZ4PGc4yg/edit).
+- GMOD will have a [project-wide hackathon on January 11-12](http://gmod.org/wiki/2018_PAG_Hackathon).
+- [Meg Staton](http://gst.tennessee.edu/people/meg-staton/) will [speak about](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Paper/28295) the Tripal-Galaxy bridge
+- There will be a [GMOD workshop](https://pag.confex.com/pag/xxvi/meetingapp.cgi/Session/4806) on the last day of PAG.
+- The [Tripal Project](https://tripal.info) will have a user meeting on January 11, and a hackathon on January 12. [Register here](https://docs.google.com/document/d/1klQwUqaT_KxPKIfGYy_3rtGnOMVhJxEoD9dZ4PGc4yg/edit).
 
 If you are interested in supporting better integration of Galaxy with other GMOD components then please give the two hackathons a look.
 
@@ -87,9 +87,9 @@ Wednesday (the 14th) will be dedicated to the ELIXIR Galaxy communtiy, to discus
 [<img class="float-right" src="/images/logos/jax-logo-no-text-200.png" alt="2018 Big Genomics Data Skills Training course" width="160" />](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors)
 
 The [Jackson Lab (JAX)](https://www.jax.org/) is pleased to open the application period for the 2018 Big Genomics Data Skills Training course, funded by the NIH BD2K initiative: [Big Genomic Skills Training info and online application](https://www.jax.org/education-and-learning/education-calendar/2018/may/big-genomic-data-skills-training-for-professors). The program provides training and hands-on experience working with genomic scale data and will enable participants to integrate genomic data analysis into their courses or launch new courses. Topics covered include RNAseq, Whole Exome Sequencing and variant detection, ChIPseq and network analysis. Participants will gain experience using Galaxy, R and Python.
- 
+
 As a grant funded activity housing is included; however you will need to cover your own travel.  If you teach at an HBCU or Minority-serving institution (by Dept. of Education criteria) JAX may be able to provide a modest travel award.
- 
+
 *The course is for faculty who primarily teach undergraduate students* and will be held at JAX Genomic Medicine in Farmington CT, May 21-25.
 
 # All Upcoming events
@@ -222,10 +222,10 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 We've got two new *[Galactic Blog](/blog/)* entries, both related to [Galaksio](https://galaksio.readthedocs.io/en/latest/):
 
-* [Galaksio: a Galaxy user interface focused on running prepared workflows](/blog/2017-12-galaksio/), by Tomas Klingström
-* [Bioinformatic training with the B3Africa project](https://usegalaxy-eu.github.io/galaxy-freiburg/2017/12/10/b3africa.html), by Tomas Klingström
+- [Galaksio: a Galaxy user interface focused on running prepared workflows](/blog/2017-12-galaksio/), by Tomas Klingström
+- [Bioinformatic training with the B3Africa project](https://usegalaxy-eu.github.io/galaxy-freiburg/2017/12/10/b3africa.html), by Tomas Klingström
 
-The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.) 
+The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy. (See [Galaxy News](/news/) for shorter-form items.)
 
 # Publications
 
@@ -236,25 +236,25 @@ The *Galactic Blog* is a place for longer-form posts that are relevant to Galaxy
 
 The *Galactic* and *Stellar* publications added in December were:
 
-* [TOSCA-based orchestration of complex clusters at the IaaS level](http://iopscience.iop.org/article/10.1088/1742-6596/898/8/082036), M Caballer, G Donvito, G Moltó, R Rocha and M Velten. *Journal of Physics: Conference Series*, Volume 898, Track 6: Infrastructures
+- [TOSCA-based orchestration of complex clusters at the IaaS level](http://iopscience.iop.org/article/10.1088/1742-6596/898/8/082036), M Caballer, G Donvito, G Moltó, R Rocha and M Velten. *Journal of Physics: Conference Series*, Volume 898, Track 6: Infrastructures
 
-* [Molecular property diagnostic suite (MPDS): Development of disease-specific open source web portals for drug discovery](http://www.tandfonline.com/doi/abs/10.1080/1062936X.2017.1402819?journalCode=gsar20), S. Nagamani, A. S. Gaur, K. Tanneeru, G. Muneeswaran, S. S. Madugula, MPDS Consortium, D. Druzhilovskiy, V. V. Poroikov & G. N. Sastry. *SAR and QSAR in Environmental Research*, Special Issue: 9th International Symposium on Computational Methods in Toxicology and Pharmacology Integrating Internet Resources (CMTPI-2017) - Part 2. Guest Editors: A.K. Saxena and M. Saxena
+- [Molecular property diagnostic suite (MPDS): Development of disease-specific open source web portals for drug discovery](http://www.tandfonline.com/doi/abs/10.1080/1062936X.2017.1402819?journalCode=gsar20), S. Nagamani, A. S. Gaur, K. Tanneeru, G. Muneeswaran, S. S. Madugula, MPDS Consortium, D. Druzhilovskiy, V. V. Poroikov & G. N. Sastry. *SAR and QSAR in Environmental Research*, Special Issue: 9th International Symposium on Computational Methods in Toxicology and Pharmacology Integrating Internet Resources (CMTPI-2017) - Part 2. Guest Editors: A.K. Saxena and M. Saxena
 
-* [The Planteome database: an integrated resource for reference ontologies, plant genomics and phenomics](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkx1152/4653531), Laurel Cooper, Austin Meier, Marie-Angélique Laporte, Justin L. Elser, Chris Mungall,
+- [The Planteome database: an integrated resource for reference ontologies, plant genomics and phenomics](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkx1152/4653531), Laurel Cooper, Austin Meier, Marie-Angélique Laporte, Justin L. Elser, Chris Mungall,
 Brandon T. Sinn, Dario Cavaliere, Seth Carbon, Nathan A. Dunn, Barry Smith, Botong Qu, Justin Preece, Eugene Zhang, Sinisa Todorovic, Georgios Gkoutos, John H. Doonan, Dennis W. Stevenson, Elizabeth Arnaud and Pankaj Jaiswal. *Nucleic Acids Research*, 2017 1 doi: 10.1093/nar/gkx1152
 
-* [FROGS: Find, Rapidly, OTUs with Galaxy Solution](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btx791/4708232?redirectedFrom=fulltext), Frédéric Escudié, Lucas Auer, Maria Bernard, Mahendra Mariadassou, Laurent Cauquil, Katia Vidal, Sarah Maman, Guillermina Hernandez-Raquet, Sylvie Combes, Géraldine Pascal. *Bioinformatics*, btx791, https://doi.org/10.1093/bioinformatics/btx791
+- [FROGS: Find, Rapidly, OTUs with Galaxy Solution](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btx791/4708232?redirectedFrom=fulltext), Frédéric Escudié, Lucas Auer, Maria Bernard, Mahendra Mariadassou, Laurent Cauquil, Katia Vidal, Sarah Maman, Guillermina Hernandez-Raquet, Sylvie Combes, Géraldine Pascal. *Bioinformatics*, btx791, https://doi.org/10.1093/bioinformatics/btx791
 
-* [Transcriptomic Data Analysis: RNA-Seq Analysis Using Galaxy](https://doi.org/10.1142/9789813229150_0005), Chia-Lang Hsu and Chantal Hoi Yin Cheung (2018), in A Practical Guide to Cancer Systems Biology: pp. 49-62.
+- [Transcriptomic Data Analysis: RNA-Seq Analysis Using Galaxy](https://doi.org/10.1142/9789813229150_0005), Chia-Lang Hsu and Chantal Hoi Yin Cheung (2018), in A Practical Guide to Cancer Systems Biology: pp. 49-62.
 https://doi.org/10.1142/9789813229150_0005
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 96 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 32 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 18 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 14 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | 
-| 13 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 11 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 7 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | 
-| 5 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | 
+| 96 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 32 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 18 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 14 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) |
+| 13 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 11 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 7 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 6 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) |
+| 5 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 4 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) |
 | 2 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 2 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | | | |
 
 
@@ -265,10 +265,10 @@ https://doi.org/10.1142/9789813229150_0005
 
 The Galaxy is expanding! Please help it grow.
 
-* [Responsable Opérationnel de la Plateforme de Bioinformatique ARTbio](https://www.sfbi.fr/content/responsable-op%C3%A9rationnel-de-la-plateforme-de-bioinformatique-artbio), ARTbio, Institut de Biologie Paris Seine, France
-* [Classification des micropolluants dans l'environnement : amélioration de l'algorithme online TyPol](https://www.sfbi.fr/content/classification-des-micropolluants-dans-lenvironnement-am%C3%A9lioration-de-lalgorithme-online-typ), INRA-LBE, Narbonne, France
-* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
+- [Responsable Opérationnel de la Plateforme de Bioinformatique ARTbio](https://www.sfbi.fr/content/responsable-op%C3%A9rationnel-de-la-plateforme-de-bioinformatique-artbio), ARTbio, Institut de Biologie Paris Seine, France
+- [Classification des micropolluants dans l'environnement : amélioration de l'algorithme online TyPol](https://www.sfbi.fr/content/classification-des-micropolluants-dans-lenvironnement-am%C3%A9lioration-de-lalgorithme-online-typ), INRA-LBE, Narbonne, France
+- The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
+- [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -284,10 +284,10 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 The [EuPathDB Galaxy Data Analysis Service](http://eupathdb.org/eupathdb/app/galaxy-orientation) is a free Galaxy server for large-scale data analysis focused on eukaryotic pathogens.
 
-* All [EuPathDB](http://eupathdb.org/) genomes are pre-loaded.
-* [Pre-configured workflows](https://eupathdb.globusgenomics.org/workflow/list_published) are available.
-* Powered by [Globus Genomics](https://www.globus.org/genomics)
-* [EuPathDB tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EEuPathDB) in [Galaxy Publication library](/publication-library/).
+- All [EuPathDB](http://eupathdb.org/) genomes are pre-loaded.
+- [Pre-configured workflows](https://eupathdb.globusgenomics.org/workflow/list_published) are available.
+- Powered by [Globus Genomics](https://www.globus.org/genomics)
+- [EuPathDB tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3EEuPathDB) in [Galaxy Publication library](/publication-library/).
 
 User support is available via a [web form](http://eupathdb.org/eupathdb/contact.do). The service is supported by [EuPathDB](http://eupathdb.org/), University of Georgia, University of Pennsylvania, and University of Liverpool.
 
@@ -301,21 +301,21 @@ Anonymous access and account creation are both supported. This server is support
 
 See:
 
-* [Predictive functional profiling of microbial communities using 16S rRNA marker gene sequences](https://www.nature.com/articles/nbt.2676), Morgan G I Langille et al. *Nature Biotechnology* 31, 814–821 (2013)
+- [Predictive functional profiling of microbial communities using 16S rRNA marker gene sequences](https://www.nature.com/articles/nbt.2676), Morgan G I Langille et al. *Nature Biotechnology* 31, 814–821 (2013)
 doi:10.1038/nbt.2676
-* [Langille tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3ELangille) in [Galaxy Publication library](/publication-library/).
+- [Langille tagged publications](https://www.zotero.org/groups/1732893/galaxy/tags/%3ELangille) in [Galaxy Publication library](/publication-library/).
 
 
 ## Public Servers in Publications
 
 We tag papers that use, mention, implement or extend public Galaxy Servers.  Here are the counts for December's publications.
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 17 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 8 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 4 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | 
-| 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>EuPathDB](https://www.zotero.org/groups/1732893/galaxy/tags/>EuPathDB) | 
-| 1 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/tags/>APOSTL) | | 1 | [>OSDD MPDS](https://www.zotero.org/groups/1732893/galaxy/tags/>OSDD MPDS) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>RNA-Rocket](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA-Rocket) | 
-| 1 | [>Nebula](https://www.zotero.org/groups/1732893/galaxy/tags/>Nebula) | | 1 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/tags/>PIA) | | 1 | [>CBIB](https://www.zotero.org/groups/1732893/galaxy/tags/>CBIB) | | 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | 
+| 17 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 8 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 4 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) |
+| 3 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | | 1 | [>Pasteur](https://www.zotero.org/groups/1732893/galaxy/tags/>Pasteur) | | 1 | [>EuPathDB](https://www.zotero.org/groups/1732893/galaxy/tags/>EuPathDB) |
+| 1 | [>APOSTL](https://www.zotero.org/groups/1732893/galaxy/tags/>APOSTL) | | 1 | [>OSDD MPDS](https://www.zotero.org/groups/1732893/galaxy/tags/>OSDD MPDS) | | 1 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>RNA-Rocket](https://www.zotero.org/groups/1732893/galaxy/tags/>RNA-Rocket) |
+| 1 | [>Nebula](https://www.zotero.org/groups/1732893/galaxy/tags/>Nebula) | | 1 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/tags/>PIA) | | 1 | [>CBIB](https://www.zotero.org/groups/1732893/galaxy/tags/>CBIB) | | 1 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) |
 
 # Commercial Support: Intero Life Sciences and Galaxy Enterprise
 
@@ -323,15 +323,15 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 We are pleased to announce a new option for [commercial Galaxy support](/support/commercial/). [Intero Life Sciences](https://www.interolifesciences.com/) offers *[Galaxy Enterprise](https://www.galaxyinformatics.com/)*,  a set of support services for Galaxy, including:
 
-* Subscription/Contract Based Enterprise-Level Support
-* Turn-key Customized Workflows
-* Professional Services & Consulting
-* Production Environment Optimization
-* Data Integration Outsourcing Services
-* Enterprise Cloud Environment with SLA
-  * Fully managed and hosted on cloud Galaxy Enterprise with various levels of SLAs.
-  * Dedicated servers with dedicated secure access (VPN) including data storage and management.
-* Galaxy Enterprise Certification Training
+- Subscription/Contract Based Enterprise-Level Support
+- Turn-key Customized Workflows
+- Professional Services & Consulting
+- Production Environment Optimization
+- Data Integration Outsourcing Services
+- Enterprise Cloud Environment with SLA
+    - Fully managed and hosted on cloud Galaxy Enterprise with various levels of SLAs.
+    - Dedicated servers with dedicated secure access (VPN) including data storage and management.
+- Galaxy Enterprise Certification Training
 
 ----
 
@@ -349,9 +349,9 @@ We are pleased to announce a new option for [commercial Galaxy support](/support
 
 Ephemeris is a small Python library and set of scripts for managing the bootstrapping of Galaxy plugins - tools, index data, and workflows.
 
-* Free software: Academic Free License version 3.0
-* Documentation: https://ephemeris.readthedocs.org.
-* Code: https://github.com/galaxyproject/ephemeris
+- Free software: Academic Free License version 3.0
+- Documentation: https://ephemeris.readthedocs.org.
+- Code: https://github.com/galaxyproject/ephemeris
 
 ## blend4php 0.1 beta
 
@@ -375,26 +375,27 @@ The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/sou
 
 Highlights include
 
-* **Singularity** Tool execution using the HPC-friendly container technology Singularity is now supported. 
-* **Download entire collection** Downloading whole collections is now possible from the history interface. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
-* **Switch tool versions in workflows** You can now select exactly what version of tool you want to use when building workflows. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
-* **Security patches**
-* Several features were **deprecated**
+- **Singularity** Tool execution using the HPC-friendly container technology Singularity is now supported.
+- **Download entire collection** Downloading whole collections is now possible from the history interface. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
+- **Switch tool versions in workflows** You can now select exactly what version of tool you want to use when building workflows. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
+- **Security patches**
+- Several features were **deprecated**
 
 See the [17.09 release announcement](https://docs.galaxyproject.org/en/master/releases/17.09_announce.html) for details.
 
 ### Galaxy Docker Image 17.09
 
 The [Galaxy Docker project has seen a matching release](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.09), for Galaxy 17.05. Major features include
-* much improved documentation about using Galaxy Docker and an external cluster ([@rhpvorderman](https://github.com/rhpvorderman))
-* CVMFS support - mounting in 4TB of pre-build reference data ([@chambm](https://github.com/chambm))
-* Singularity support and tests (compose only)
-* more work on K8s support and testing ([@jmchilton](https://github.com/jmchilton))
-* using .env files to configure the compose setup for SLURM, Condor, K8s, SLURM-Singularity, Condor-Docker
+
+- much improved documentation about using Galaxy Docker and an external cluster ([@rhpvorderman](https://github.com/rhpvorderman))
+- CVMFS support - mounting in 4TB of pre-build reference data ([@chambm](https://github.com/chambm))
+- Singularity support and tests (compose only)
+- more work on K8s support and testing ([@jmchilton](https://github.com/jmchilton))
+- using .env files to configure the compose setup for SLURM, Condor, K8s, SLURM-Singularity, Condor-Docker
 
 And
 
-* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 31k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
+- The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 31k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
 
 ### galaxy-lib 17.9.10
 
@@ -402,9 +403,9 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 This revision:
 
-* Added docs for using mulled-build with your own quay.io account (thanks to @jerowe).
-* Catch errors in Conda search if nothing is found (preventing planemo-monitor from functioning properly) (thanks to @bgruening).
-* Make multi-requirement container building via mulled more stable (thanks to @bgruening).
+- Added docs for using mulled-build with your own quay.io account (thanks to @jerowe).
+- Catch errors in Conda search if nothing is found (preventing planemo-monitor from functioning properly) (thanks to @bgruening).
+- Make multi-requirement container building via mulled more stable (thanks to @bgruening).
 
 ### Planemo 0.47.0
 
@@ -425,18 +426,18 @@ Galaxy's [sequence utilities](https://github.com/galaxyproject/sequence_utils) a
 
 [StarForge](https://github.com/galaxyproject/starforge) help build Galaxy things in virtualization:
 
-* Build Galaxy Tool Shed dependencies
-* Build Python Wheels (e.g. for the Galaxy Wheels Server)
-* Rebuild Debian or Ubuntu source packages (for modifications)
+- Build Galaxy Tool Shed dependencies
+- Build Python Wheels (e.g. for the Galaxy Wheels Server)
+- Rebuild Debian or Ubuntu source packages (for modifications)
 
 These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems.  StarForge has had several updates this fall.  Fixes and new features include:
 
-* Support xz/lzma tarballs for wheel builds Pull Request 166
-* Native support for auditwheel and delocate. (#160)
-* Do not build sdists with the wheel subcommand by default. (#155)
-* Fix a bug where the wrong working directory was set when building wheels with multiple sources. (#154)
-* Fix a bug with sudo and brew install on macOS. (#151).
-* Short circuit platform caching on OS X (#150).
+- Support xz/lzma tarballs for wheel builds Pull Request 166
+- Native support for auditwheel and delocate. (#160)
+- Do not build sdists with the wheel subcommand by default. (#155)
+- Fix a bug where the wrong working directory was set when building wheels with multiple sources. (#154)
+- Fix a bug with sudo and brew install on macOS. (#151).
+- Short circuit platform caching on OS X (#150).
 
 ### BioBlend 0.10.0
 
@@ -460,12 +461,12 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-* Would you like to learn some Python or JavaScript and improve Galaxy at the same time? Check out our collection of very friendly issues tagged [help wanted](https://github.com/galaxyproject/galaxy/issues?q=label%3A%22help+wanted%22+is%3Aissue+is%3Aopen). Please feel free to ask, comment, and request guidance. 
-* From [Björn Grüning](/people/bjoern-gruening/)
-  *  `shed-tools update` will now update all Galaxy tools in your Galaxy instance. What a wonderful [contribution](https://github.com/galaxyproject/ephemeris/pull/64) from [Ruben Vorderman](https://github.com/rhpvorderman)!
-  * Our community maintained [CVFMS](http://cernvm.cern.ch/) based reference data storage has now a European mirror. Thanks to [JRC / EU Science Hub](https://ec.europa.eu/jrc/en), the [European Commission](http://ec.europa.eu/), [Nate Coraor](/people/nate/) and [Guy Van den Eede](https://twitter.com/guyvandeneede). This is now also available in the [Galaxy Docker project](https://github.com/bgruening/docker-galaxy-stable)! Enjoy!
-* From [John Chilton](/people/john-chilton/)
-  * WIP: [API to build hierarchical data in Galaxy](https://github.com/galaxyproject/galaxy/pull/5220) (libraries & collections) from zip files, YAML descriptions, BagIt archives, etc...   
-  * [Allow Galaxy tools to detect out of memory errors and job runners to resubmit to other resources](https://github.com/galaxyproject/galaxy/pull/5196) based on this and other tool detected errors. 
-  * Galaxy [no longer depends on having samtools on its PATH](https://github.com/galaxyproject/galaxy/pull/5037). Another huge deployability step forward from [Marius van den Beek](https://github.com/mvdbeek)!
+- Would you like to learn some Python or JavaScript and improve Galaxy at the same time? Check out our collection of very friendly issues tagged [help wanted](https://github.com/galaxyproject/galaxy/issues?q=label%3A%22help+wanted%22+is%3Aissue+is%3Aopen). Please feel free to ask, comment, and request guidance.
+- From [Björn Grüning](/people/bjoern-gruening/)
+    - `shed-tools update` will now update all Galaxy tools in your Galaxy instance. What a wonderful [contribution](https://github.com/galaxyproject/ephemeris/pull/64) from [Ruben Vorderman](https://github.com/rhpvorderman)!
+    - Our community maintained [CVFMS](http://cernvm.cern.ch/) based reference data storage has now a European mirror. Thanks to [JRC / EU Science Hub](https://ec.europa.eu/jrc/en), the [European Commission](http://ec.europa.eu/), [Nate Coraor](/people/nate/) and [Guy Van den Eede](https://twitter.com/guyvandeneede). This is now also available in the [Galaxy Docker project](https://github.com/bgruening/docker-galaxy-stable)! Enjoy!
+- From [John Chilton](/people/john-chilton/)
+    - WIP: [API to build hierarchical data in Galaxy](https://github.com/galaxyproject/galaxy/pull/5220) (libraries & collections) from zip files, YAML descriptions, BagIt archives, etc...
+    - [Allow Galaxy tools to detect out of memory errors and job runners to resubmit to other resources](https://github.com/galaxyproject/galaxy/pull/5196) based on this and other tool detected errors.
+    - Galaxy [no longer depends on having samtools on its PATH](https://github.com/galaxyproject/galaxy/pull/5037). Another huge deployability step forward from [Marius van den Beek](https://github.com/mvdbeek)!
 

@@ -4,7 +4,7 @@ date: "2012-11-30"
 ---
 <div class='right'><a href='/galaxy-updates/2012-12/'><img src="/images/logos/GalaxyUpdate200.png" alt="December 2012 Galaxy Update" width=150 /></a></div>
 
-The [December 2012 Galaxy Update is now available](/galaxy-updates/2012-12/). 
+The [December 2012 Galaxy Update is now available](/galaxy-updates/2012-12/).
 
 **Highlights:**
 

@@ -11,8 +11,8 @@ There has also been the complementary *[Galaxy Events Google Calendar](http://bi
  **[Galaxy Events Google Calendar](http://bit.ly/gxycal)** <a href='http://bit.ly/gxycalrss'><img src="/images/icons/RSSIcon16x16.gif" alt="Galaxy Calendar RSS Feed" /></a>
    This calendar now lists *only* events that feature Galaxy content.  Pretty much, if it's on the [Events page](/events/), it's also in this calendar.<br />
 
- **[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)**  <a href='http://bit.ly/gxyothercalrss'><img src="/images/icons/RSSIcon16x16.gif" alt="Galaxy Calendar RSS Feed" /></a> 
-   This lists additional events and deadlines that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content. 
+ **[Galaxy Other Events Google Calendar](http://bit.ly/gxyothercal)**  <a href='http://bit.ly/gxyothercalrss'><img src="/images/icons/RSSIcon16x16.gif" alt="Galaxy Calendar RSS Feed" /></a>
+   This lists additional events and deadlines that are relevant to the Galaxy Community, but that are not known to feature significant Galaxy content.
 
 This split allows us to present Galaxy events in a much sparser calendar, that is more useful for setting reminders and publishing Galaxy events.
 

@@ -13,7 +13,7 @@ title: Processing many samples at once with collections
 
 </div>
 
-In Galaxy you perform data analyses and organize your data simply by clicking on things. If you have just a few items in your history, clicking is easy. However, in most real-world analyses you never have just a few datasets, instead you have many (sometimes thousands) and **Collections** help manage your data to minimize the amount of clicking you have to do. 
+In Galaxy you perform data analyses and organize your data simply by clicking on things. If you have just a few items in your history, clicking is easy. However, in most real-world analyses you never have just a few datasets, instead you have many (sometimes thousands) and **Collections** help manage your data to minimize the amount of clicking you have to do.
 
 
 |      |
@@ -21,7 +21,7 @@ In Galaxy you perform data analyses and organize your data simply by clicking on
 |![](/tutorials/collections/smallVsLarge.png)|
 |<small>**Figure 1. A history with few datasets** is *easy* to navigate. **A history with many datasets** is *hard* to navigate.</small>
 
-Not only may clicking on thousands datasets lead to a severe form of [carpal tunnel syndrome](https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome), it may simply be impossible. **Collections** (also known as *Dataset collections* or *Lists*) described here help to resolve this situation and make very large analyses Galaxy-friendly. 
+Not only may clicking on thousands datasets lead to a severe form of [carpal tunnel syndrome](https://en.wikipedia.org/wiki/Carpal_tunnel_syndrome), it may simply be impossible. **Collections** (also known as *Dataset collections* or *Lists*) described here help to resolve this situation and make very large analyses Galaxy-friendly.
 
 # Collections combine datasets to minimize clutter
 
@@ -51,7 +51,7 @@ As was mentioned above in Galaxy's language there are two interchangeable terms:
 
 ### A simple collection example
 
-In this example we have six datasets representing single-end (not paired-end) sequencing datasets from six patients. The datasets are already loaded in the history. 
+In this example we have six datasets representing single-end (not paired-end) sequencing datasets from six patients. The datasets are already loaded in the history.
 
 |      |
 |------|
@@ -84,7 +84,7 @@ You can upload data into collections directly bypassing the need to upload datas
 
 ### Uploading from local disk
 
-If you have datasets stored on your computer, you can upload them into collection as shown in following video. 
+If you have datasets stored on your computer, you can upload them into collection as shown in following video.
 
 <div class="alert alert-warning" role="alert">
 This approach only works for a relatively small (dozens) number of small (below 2GB) datasets due to limitations of web browsers.
@@ -100,7 +100,7 @@ A more robust, preferred way of uploading data is through FTP. For this you need
 
 ### Uploading from short read archive
 
-Finally, if the data you are uploading has been deposited to the Short Read Archive ([SRA](https://www.ncbi.nlm.nih.gov/sra)) at [NCBI](https://www.ncbi.nlm.nih.gov/) use this approach: 
+Finally, if the data you are uploading has been deposited to the Short Read Archive ([SRA](https://www.ncbi.nlm.nih.gov/sra)) at [NCBI](https://www.ncbi.nlm.nih.gov/) use this approach:
 
 <div class="embed-responsive embed-responsive-16by9"><iframe src="https://player.vimeo.com/video/217216264?portrait=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 
@@ -141,7 +141,7 @@ Galaxy contains a special set of tools - **Collection operations** - designed fo
 
 # Using collections
 
-Earlier in this tutorial we demonstrated what collections are, how they can be created, and manipulated. Now let's have a short usage example. 
+Earlier in this tutorial we demonstrated what collections are, how they can be created, and manipulated. Now let's have a short usage example.
 
 ## Collections are reduced during an analysis
 
@@ -173,7 +173,7 @@ At this point we map the contents of the collection using **NGS: Mapping &rarr; 
 |![](/tutorials/collections/collection_use3.png)|
 |<small>**Figure 12. Mapping a collection**. Set input type (red arrow) to "Paired Collection". This will allow selecting a collection from the history. Set readgroup dropdown to "Set readgroups (SAM/BAM specifications" (green arrow) and switch the three "Auto-assign" controls to "Yes" (blue arrows). Run the tool.</small>|
 
-Mapping produces another collection containing a list of BAM datasets produced by BWA. In other words every time a tool is run using a collection as input, Galaxy actually runs the tool *N* times on *N* collection elements (or a dataset pair in the case of paired data) and bundles outputs into an output collection. 
+Mapping produces another collection containing a list of BAM datasets produced by BWA. In other words every time a tool is run using a collection as input, Galaxy actually runs the tool *N* times on *N* collection elements (or a dataset pair in the case of paired data) and bundles outputs into an output collection.
 
 |      |
 |------|

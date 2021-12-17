@@ -137,9 +137,9 @@ Past Galaxy Community Conferences have been *the* event for networking in the Ga
 
 ### Sponsorships
 
-We are pleased to announce that [BioTeam](http://bioteam.net) is a [Gold Sponsor of GCC2013](/events/gcc2013/sponsorships/). 
+We are pleased to announce that [BioTeam](http://bioteam.net) is a [Gold Sponsor of GCC2013](/events/gcc2013/sponsorships/).
 
-There are still [Silver and Bronze sponsorships](/events/gcc2013/sponsorships/) available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event. 
+There are still [Silver and Bronze sponsorships](/events/gcc2013/sponsorships/) available. Please contact the [Organizers](/events/gcc2013/organizers/) if your organization would like to help sponsor this event.
 
 <br />
 
@@ -164,14 +164,14 @@ Visit the [Boot Camp Page](http://software-carpentry.org/bootcamps/2013-07-oslo.
 
 ## Other Upcoming Events
 
-<div class='center'> 
+<div class='center'>
 <a href='https://www.eshg.org/sunday2013.0.html#W1'><img src="/images/logos/ESHG2013Narrow.png" alt="Galaxy Workshop @ ESHG" height="80px" /></a>
 <a href='/events/asms2013/'><img src="/images/logos/ASMS2013LogoClipped.png" alt="61st ASMS Conference" height="80px" /></a>
 <a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="135px" /></a>
 <a href='/events/rt-workshop-tour2013/'><img src="/images/logos/RTGalaxyWorkshopTour2013-300.png" alt="" width="140px" /></a>
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on these and other events.
 
 ### Events
@@ -286,7 +286,7 @@ The [May GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2013-05-15/) feat
 
 <div class='right'><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/images/logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a><br /><a href='https://main.g2.bx.psu.edu/static/terms.html'><img src="/images/logos/UseGalaxyOrgLogoShadow200.png" alt="Main's Terms of Use"  /></a></div>
 
-The [terms of use](https://main.g2.bx.psu.edu/static/terms.html) for the Galaxy Project's free Galaxy server, [http://usegalaxy.org](http://usegalaxy.org) (a.k.a. [Main](/main/)) specify 
+The [terms of use](https://main.g2.bx.psu.edu/static/terms.html) for the Galaxy Project's free Galaxy server, [http://usegalaxy.org](http://usegalaxy.org) (a.k.a. [Main](/main/)) specify
 
 <div class='indent'>
 Your access to the Service is provided under the condition that you abide by any published quotas on data storage, job submissions, or any other limitations placed on the public Service. *Attempts to subvert these limits by creating multiple accounts or through any other method may result in termination of all associated accounts.*
@@ -306,22 +306,22 @@ The most recent official distribution was on [April 1, 2013](/archive/dev-news-b
 
 <div class='right'><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Tool Shed" width=150 /></a></div>
 
-* [rxlr_venn_workflow](http://bit.ly/1071hG2): a workflow for comparing 3 RXLR prediction methods with a Venn Diagram 
+* [rxlr_venn_workflow](http://bit.ly/1071hG2): a workflow for comparing 3 RXLR prediction methods with a Venn Diagram
 * [vcf_to_variantdb](http://bit.ly/14bpN9c): Send UnifiedGenotyper VCF to a !VariantDB instance  
-* [iquant](http://bit.ly/15VS5cs): isobaric tag quantification program 
-* [appendfdr](http://bit.ly/15VSvzq): compute false discovery rate of tabular data using decoy entries 
+* [iquant](http://bit.ly/15VS5cs): isobaric tag quantification program
+* [appendfdr](http://bit.ly/15VSvzq): compute false discovery rate of tabular data using decoy entries
 * [bumbershoot](http://bit.ly/ZOh5e1): Tabb lab tools idqonvert, myrimatch, tagrecon, all for protein identification.
 * [dbbuilder](http://bit.ly/135vHq9): download protein databases from common sources  
 * [nbic_fasta](http://bit.ly/17SbTei): Galaxy-P unofficial fork of NBIC Galaxy tools for FASTA manipulation
-* [maxquant](http://bit.ly/17ScCfB): large mass-spec data quantitative proteomics analysis, especially high-resolution mass spectometry 
+* [maxquant](http://bit.ly/17ScCfB): large mass-spec data quantitative proteomics analysis, especially high-resolution mass spectometry
 * [msconvert](http://bit.ly/14bsTKv): Tool wrappers for msconvert, distributed as part of Proteowizard.
-* [peptideshaker](http://bit.ly/YLoLSY): Identify proteins combining X! Tandem, OMSSA (using SearchGUI) and PeptideShaker 
+* [peptideshaker](http://bit.ly/YLoLSY): Identify proteins combining X! Tandem, OMSSA (using SearchGUI) and PeptideShaker
 * [psm_eval](http://bit.ly/ZULT0e): Peptide-Spectrum-Match reevaluation tool  
 * [allele_counts](http://bit.ly/13QaSCN): Parse Naive Variant Detector output, count alleles and calculate minor allele frequencies.
-* [snp_analysis_conversion](http://bit.ly/1avPD9D): Format conversion for SNP Analysis tools from Miller Lab @ PSU. 
+* [snp_analysis_conversion](http://bit.ly/1avPD9D): Format conversion for SNP Analysis tools from Miller Lab @ PSU.
 
 ## Other News
 
-* Just discovered [these tutorials](http://bit.ly/167H7AP) by Lance Parsons on RNA-Seq, ChIP-Seq, SNP & Indels, and IGV all using Galaxy   
+* Just discovered [these tutorials](http://bit.ly/167H7AP) by Lance Parsons on RNA-Seq, ChIP-Seq, SNP & Indels, and IGV all using Galaxy
 * [Scaling variant detection pipelines for whole genome sequencing analysis](http://j.mp/10Tk2Kq)
 * There is now a [Google+ Galaxy Group](http://gplus.to/galaxyportal).  Thanks to Samuel Lampa for setting this up.

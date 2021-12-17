@@ -9,35 +9,35 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 
 [![Enis Afgan](/images/people/EnisAfgan.jpg)](/people/enis-afgan/)
 
-[Enis Afgan](/people/enis-afgan/) 
-[Johns Hopkins](http://www.jhu.edu) 
+[Enis Afgan](/people/enis-afgan/)
+[Johns Hopkins](http://www.jhu.edu)
 
 </div>
 <div class='col-md-3'>
 
 [![Dannon Baker](/images/people/dannon.jpg)](/people/dannon-baker/)
-[Dannon Baker](/people/dannon-baker/) 
-[Johns Hopkins](http://www.jhu.edu)   
+[Dannon Baker](/people/dannon-baker/)
+[Johns Hopkins](http://www.jhu.edu)
 
 </div>
 <div class='col-md-3'>
 
 [![Dan Blankenberg](/images/people/dan.jpg)](/people/dan/)
-[Dan Blankenberg](/people/dan/) 
+[Dan Blankenberg](/people/dan/)
 [The Cleveland Clinic](https://www.lerner.ccf.org/)  
 
 </div>
 <div class='col-md-3'>
 
 [![Dave Bouvier](/galaxy-team/davebouvierflag.jpg)](/people/dave-bouvier/)
-[Dave Bouvier](/people/dave-bouvier/) 
-[Penn State](http://www.bx.psu.edu)   
+[Dave Bouvier](/people/dave-bouvier/)
+[Penn State](http://www.bx.psu.edu)
 
 </div>
 <div class='col-md-3'>
 
 [![Marten Cech](/people/marten/marten.jpg)](/people/marten/)
-[Martin Cech](/people/marten/) 
+[Martin Cech](/people/marten/)
 [Penn State](http://www.bx.psu.edu)  
 
 </div>
@@ -52,7 +52,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 
 [![Dave Clements](/galaxy-team/Clements.jpg)](/people/dave-clements/)
 [Dave Clements](/people/dave-clements/)
-[Johns Hopkins](http://www.jhu.edu)   
+[Johns Hopkins](http://www.jhu.edu)
 
 </div>
 <div class='col-md-3'>
@@ -73,7 +73,7 @@ Galaxy is developed by the [Nekrutenko lab](http://nekrut.bx.psu.edu) in the [Ce
 
 [![Sergey Golitsynskiy](/galaxy-team/sergey.jpg)](/people/sergey/)
 [Sergey Golitsynskiy](/people/sergey/)
-[Johns Hopkins](http://www.jhu.edu)   
+[Johns Hopkins](http://www.jhu.edu)
 
 </div>
 <div class='col-md-3'>
@@ -89,14 +89,14 @@ Qiang Gu<br />
 
 [![Aysam Guerler](/galaxy-team/guerler.jpg)](/people/guerler/)
 [Aysam Guerler](/people/guerler/)
-[Johns Hopkins](http://www.jhu.edu)   
+[Johns Hopkins](http://www.jhu.edu)
 
 </div>
 <div class='col-md-3'>
 
 [![Mo Heydarian](/galaxy-team/mheydarian.jpg)](/people/mo-heydarian/)
 [Mo Heydarian](/people/mo-heydarian/)
-[Johns Hopkins](http://www.jhu.edu)   
+[Johns Hopkins](http://www.jhu.edu)
 
 </div>
 <div class='col-md-3'>
@@ -110,7 +110,7 @@ Qiang Gu<br />
 
 [![Vahid Jalili](/galaxy-team/Vahid.jpg)](/people/vahid-jalili/)
 [Vahid Jalili](/people/vahid-jalili/)
-[OHSU](http://www.ohsu.edu)   
+[OHSU](http://www.ohsu.edu)
 
 </div>
 <div class='col-md-3'>
@@ -131,7 +131,7 @@ Qiang Gu<br />
 
 [![Anton Nekrutenko](/images/people/anton.jpg)](/people/anton/)
 [Anton Nekrutenko](/people/anton/)
-[Penn State](http://www.bx.psu.edu)   
+[Penn State](http://www.bx.psu.edu)
 
 </div>
 <div class='col-md-3'>
@@ -145,7 +145,7 @@ Qiang Gu<br />
 
 ![Luke Sargent](/galaxy-team/luke.jpg)
 Luke Sargent
-[OHSU](http://www.ohsu.edu)   
+[OHSU](http://www.ohsu.edu)
 
 </div>
 <div class='col-md-3'>
@@ -159,7 +159,7 @@ Luke Sargent
 
 [![James Taylor](/images/people/james.jpg)](/people/james-taylor/)
 [James Taylor](/people/james-taylor/)
-[Johns Hopkins](http://www.jhu.edu)   
+[Johns Hopkins](http://www.jhu.edu)
 
 </div>
 </div>
@@ -172,7 +172,7 @@ Luke Sargent
 <div class='col-md-3'>
 
 [![Matthias Bernt](/galaxy-team/matthias.jpg)](/people/matthias/)
-[Matthias Bernt](/people/matthias/) 
+[Matthias Bernt](/people/matthias/)
 [UFZ Leipzig](https://www.ufz.de/)  
 
 </div>
@@ -193,7 +193,7 @@ Luke Sargent
 <div class='col-md-3'>
 
 [![Nicola Soranzo](/galaxy-team/nicola.jpeg)](http://www.earlham.ac.uk/nicola-soranzo)
-[Nicola Soranzo]()
+[Nicola Soranzo](http://www.earlham.ac.uk/nicola-soranzo)
 [Earlham Institute](http://earlham.ac.uk/)
 
 </div>
@@ -242,7 +242,7 @@ Luke Sargent
 <div class='col-md-3'>
 
 ![Greg von Kuster](/images/people/greg.png)
-[Greg von Kuster](/people/greg-vonkuster/) 
+[Greg von Kuster](/people/greg-vonkuster/)
 [Penn State](http://www.bx.psu.edu)  
 
 </div>

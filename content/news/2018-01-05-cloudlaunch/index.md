@@ -11,6 +11,7 @@ https://launch.usegalaxy.org/.
 
 The new launcher has a large number of new features, some of the most
 notable ones are summarized here:
+
 - **Native multi-cloud support**: built on
   [CloudBridge](http://cloudbridge.cloudve.org/), this implementation of
   CloudLaunch has native support for multiple cloud providers, paving a path for

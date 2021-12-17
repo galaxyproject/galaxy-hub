@@ -9,10 +9,10 @@ The *August 2019 Galactic News* is here!
 [<img class="float-right" src="/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
 * [Events: GCC2019 is done; BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/news/2019-08-galaxy-update/#events)
-  * Plus deadlines this month and 19 other events in the next 90 days.
+    * Plus deadlines this month and 19 other events in the next 90 days.
 * [178 new publications](/news/2019-08-galaxy-update/#publications), including 5 highlighted ones.
 * [Two new Galactic Blog posts](/news/2019-08-galaxy-update/#galactic-blog-activity):
-  * Getting the most out of 1) Galaxy on Twitter, and 2) Pan-Galactic Search
+    * Getting the most out of 1) Galaxy on Twitter, and 2) Pan-Galactic Search
 * [Galaxy Platform News](/news/2019-08-galaxy-update/#galaxy-platforms-news) from UseGalaxy.* and the Human Cell Atlas.
 * [Seven Open positions](/news/2019-08-galaxy-update/#whos-hiring) in four countries on two continents.
 * [Updates to training materials and documentation](/news/2019-08-galaxy-update/#doc-hub-and-training-updates).
@@ -31,13 +31,13 @@ If you have anything to include to next month's newsletter, then please send it 
 
 * 231 total participants
 * 65 Talks
-  * [17 Outside the Genome / Community talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Outside+the+Genome+%26+Community)
-  * [17 Admin/Dev talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Admin+%2F+Dev)
-  * [10 Transcriptomics / Genomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Transcriptomics+%2F+Genomics)
-  * [9 Proteomics / Metabolomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%2F+Metabolomics)
-  * [7 General talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+General)
-  * [5 Epigenetics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics)
-  * [5 Variation / Metagenomics / Assembly talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
+    * [17 Outside the Genome / Community talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Outside+the+Genome+%26+Community)
+    * [17 Admin/Dev talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Admin+%2F+Dev)
+    * [10 Transcriptomics / Genomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Transcriptomics+%2F+Genomics)
+    * [9 Proteomics / Metabolomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%2F+Metabolomics)
+    * [7 General talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+General)
+    * [5 Epigenetics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics)
+    * [5 Variation / Metagenomics / Assembly talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
 * [54 Posters](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Posters) and [14 Demos](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Demos)
 * [39 Training Sessions](https://gcc2019.sched.com/overview/type/A.+Training)
 * [~30 Birds of a Feather meetups](https://gcc2019.sched.com/overview/type/D.+Break+%2F+Social+%2F+Networking+%2F+Meal/BoFs)
@@ -300,6 +300,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 * [UseGalaxy.eu](https://usegalaxy.eu/) hits [7000 users and 10.000.000 datasets](https://galaxyproject.eu/posts/2019/07/20/7000-users-10M-datasets/).
 * [UseGalaxy.org](https://usegalaxy.org/) and [UseGalaxy.org.au](https://usegalaxy.org.au/) now have the Galaxy Training Network tutorial datasets.  And they are all automatically updated too, courtesy of Helena Rasche.  (And, ahem, UseGalaxy.eu has had this data *forever*.)
+
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">

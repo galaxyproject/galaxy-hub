@@ -48,12 +48,12 @@ Needed facilities
 
 [<img class="float-right" src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" style="max-width: 180px" />](/events/gcc2013/)
 
-  - A large meeting space for all attendees
-  - Smaller spaces for training, parallel tracks, birds-of-a-feather, CoFests, and informal gatherings
-  - Robust WiFi in all spaces is essential - expect everyone to be connected simultaneously
-  - High foot traffic areas for vendors/sponsors to have exhibits
-  - Space for posters and/or demos
-  - Space for catering
+- A large meeting space for all attendees
+- Smaller spaces for training, parallel tracks, birds-of-a-feather, CoFests, and informal gatherings
+- Robust WiFi in all spaces is essential - expect everyone to be connected simultaneously
+- High foot traffic areas for vendors/sponsors to have exhibits
+- Space for posters and/or demos
+- Space for catering
 
 ## Lodging
 
@@ -67,7 +67,7 @@ Ideally, the event will be within 2 hours of a major airport, and lodging and ev
 
 We meet in North America in even years, and *not-in-North-America* in odd years.  (So far *not-in-North-America* has always meant Europe, but we are open to other continents.)  We'd like to keep that pattern going.
 
-[<img class="float-right" src="/events/GCC2011Logo400.png" alt="GCC2011" style="max-width: 200px" />](/events/gcc2011/) 
+[<img class="float-right" src="/events/GCC2011Logo400.png" alt="GCC2011" style="max-width: 200px" />](/events/gcc2011/)
 
 ## Ideas for improvement
 

@@ -38,15 +38,16 @@ Setting `$PATH` in your shell startup files may work depending on your DRM - thi
 ### Managed Tool Dependencies
 
 Individual tool configurations should contain `<requirement type="package">` tags which can be used by the tool dependency system.  This system works by taking the following steps:
- 
+
 1. Create a directory accessible to Galaxy and any cluster on which Galaxy runs tools
 1. Set `tool_dependency_dir` in the Galaxy config file (`galaxy.ini`) to the above path
 1. Create a subdirectory of the above directory that matches the string in the `<requirement>` tags of tool you want to use
 1. Create a subdirectory of the subdirectory you just contained matching the version number of the package you have installed or are installing
 1. Create a symbolic link from the name `default` to the version directory you just created (this is used for tools which have a package requirement but do not specify a version of that package; most tools behave this way). Note: `default` **must** be a sybolic link, an actual directory named `default` will be ignored.
 1. In the version subdirectory create either:
-  * a `bin/` directory or
-  * an `env.sh` file as described below
+
+* a `bin/` directory or
+* an `env.sh` file as described below
 
 For example, if the `<requirement>` is `<requirement type="package">bowtie</requirement>` and you have installed or plan to install version 0.12.7:
 

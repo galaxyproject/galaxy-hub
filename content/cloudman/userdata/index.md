@@ -4,6 +4,7 @@
 
 
 [CloudMan](/cloudman/) supports the notion of User Data when instantiating an instance. User Data allows individual instances of CloudMan to be customized for a given user. Some of the User Data fields are required while others allow further customization of one's instance. This page describes the available User Data fields. User Data is specified at the time of instance request in [YAML format](http://en.wikipedia.org/wiki/YAML), for example:
+
 ```bash
 cluster_name: <DESIRED CLUSTER NAME>
 password: <DESIRED Galaxy CloudMan WEB UI PASSWORD>

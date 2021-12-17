@@ -237,8 +237,8 @@ No new resources were added to community directories in January or February.
 
 [Command-line utilities](https://pypi.python.org/pypi/nebulizer/) to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the Bioblend library.
 
-- [Documentation](https://nebulizer.readthedocs.io)
-- [Code](https://github.com/pjbriggs/nebulizer)
+* [Documentation](https://nebulizer.readthedocs.io)
+* [Code](https://github.com/pjbriggs/nebulizer)
 
 *CAVEAT nebulizer is still a work in progress; please exercise caution when attempting irreversible operations especially against production Galaxy instances (for example when creating users or data libraries).*
 
@@ -291,7 +291,7 @@ And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
 * From [John Chilton](/people/john-chilton/):
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+    * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 
 ### Parsec 1.0.0

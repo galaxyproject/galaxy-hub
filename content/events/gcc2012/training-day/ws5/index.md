@@ -732,7 +732,7 @@ galaxy@trainingday:~/galaxy-dist$ vim universe_wsgi.ini
 
 In `universe_wsgi.ini`, set the following:
 
-* `start_job_runners = drmaa` - Start the [DRMAA](http://www.drmaa.org) job runner. 
+* `start_job_runners = drmaa` - Start the [DRMAA](http://www.drmaa.org) job runner.
 * `default_cluster_job_runner = drmaa:///` - By default, run jobs on the cluster.
 * Comment out the `local:///` tool overrides in the `[galaxy:tool_runners]` section.
 

@@ -15,12 +15,12 @@ Some highlights from the **[July Galaxy News](/galaxy-updates/2016-07/):**
 
 * [GCC2016 is done!](/galaxy-updates/2016-07/#gcc2016-is-done) and slides and posters are now online (and video and training materials are coming)
 * And there is plenty more happening:
-  * **[GCC2017 Announced](/galaxy-updates/2016-07/#gcc2017-26-30-june-2017-montpellier-france)!**
-  * [Swiss-German Galaxy Days](/galaxy-updates/2016-07/#swiss-german-galaxy-days)
-  * [Galaxy Admin Training](/galaxy-updates/2016-07/#galaxy-admin-training-november-7-11-salt-lake-city-utah) announced
-  * [European Galaxy Developer Knowledge Exchange](/galaxy-updates/2016-07/#european-galaxy-developer-knowledge-exchange)
-  * [Galaxy AustralAsia Meeting (GAMe 2017)](/galaxy-updates/2016-07/#galaxy-australasia-meeting-game-2017-3-9-february-melbourne) announced
-  * [Other Upcoming Events](/galaxy-updates/2016-07/#upcoming-events)
+    * **[GCC2017 Announced](/galaxy-updates/2016-07/#gcc2017-26-30-june-2017-montpellier-france)!**
+    * [Swiss-German Galaxy Days](/galaxy-updates/2016-07/#swiss-german-galaxy-days)
+    * [Galaxy Admin Training](/galaxy-updates/2016-07/#galaxy-admin-training-november-7-11-salt-lake-city-utah) announced
+    * [European Galaxy Developer Knowledge Exchange](/galaxy-updates/2016-07/#european-galaxy-developer-knowledge-exchange)
+    * [Galaxy AustralAsia Meeting (GAMe 2017)](/galaxy-updates/2016-07/#galaxy-australasia-meeting-game-2017-3-9-february-melbourne) announced
+    * [Other Upcoming Events](/galaxy-updates/2016-07/#upcoming-events)
 * [82 new Papers](/galaxy-updates/2016-07/#new-papers)
 * [Open positions](/galaxy-updates/2016-07/#whos-hiring)
 * New [public](/galaxy-updates/2016-07/#new-public-galaxy-servers) and [semi-public](/galaxy-updates/2016-07/#semi-public-galaxy-servers) Galaxy servers

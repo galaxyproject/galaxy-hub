@@ -63,6 +63,7 @@ Scientists from all over the world are using [UseGalaxy.eu](https://usegalaxy.eu
 * [Food safety research](https://galaxyproject.eu/posts/2021/08/20/use-case-carol-verheecke-vaessen/)
 * [Antibody responses following vaccination](https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen/)
 * [Marine turtle tumour disease](https://galaxyproject.eu/posts/2021/09/03/use-case-liam-whitmore/)
+
 </div>
 
 
@@ -171,7 +172,7 @@ The [Galaxy Career Center](/careers/) lists any open Galaxy related positions th
 <div class="card lead border-info" style="min-width: 25%; max-width: 16rem;">
 
 <div class="video-variable">
-<iframe src="https://www.youtube.com/embed/jOlTfKUUZS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe src="https://www.youtube.com/embed/jOlTfKUUZS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="card-header trim-p">
@@ -330,7 +331,7 @@ As you can see, we still [need volunteers (like you!) to lead the discussion on 
 
 **20 October, Online**
 
-Yet another workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions. 
+Yet another workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions.
  Registration will open soon, stay tuned!
 
 </div>
@@ -514,7 +515,7 @@ Submitting raw sequencing reads to ENA
 
 By [Miguel Roncoroni](https://training.galaxyproject.org/training-material/hall-of-fame/roncoronimiguel/)
 
-How to submit raw viral sequence reads to the European Nucleotide Archive using Galaxy's **ENA upload tool**.  See the 
+How to submit raw viral sequence reads to the European Nucleotide Archive using Galaxy's **ENA upload tool**.  See the
 
 * [Slides](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/slides.html#1)
 * [Tutorial](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html)
@@ -522,7 +523,7 @@ How to submit raw viral sequence reads to the European Nucleotide Archive using 
 </div>
 
 </div>
- 
+
 
 
 
@@ -584,7 +585,7 @@ Roncoroni, M., Droesbeke, B., Eguinoa, I., De Ruyck, K., D’Anna, F., Yusuf, D.
 
 # Releases
 
-<div class="card-deck"> 
+<div class="card-deck">
 
 <!-- GLS -->
 <div class="card border-info" style="min-width: 30%; max-width: 22rem;">
@@ -613,7 +614,7 @@ The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.
 
 # Other News
 
-<div class="card-deck"> 
+<div class="card-deck">
 
 <!-- ELIXIR And IFB reports -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 35%;">

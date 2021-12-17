@@ -8,7 +8,7 @@ The [**2019 Galaxy Community Conference (GCC2019)**](/events/gcc2019/) will be h
 
 **The training topics that are offered are determined by *the community* so *[BY YOU!](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/)***
 
-Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/). 
+Please give some thought to what topics you would like to see offered, or that you would like to offer, and then [submit them as topic nominations](https://docs.google.com/forms/d/1fBPjEmw7Td52rhBnC0SvflnQCD7Ue5IMJ9RkM0SjnYg/).
 
 Nominated topics can cover a wide range. For example:
 

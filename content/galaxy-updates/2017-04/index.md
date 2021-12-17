@@ -27,7 +27,7 @@ Thanks for using Galaxy, all 100,000 of you.
 **Note: The submission deadline for oral presentations is 15 April.**
 
 GCC2017 will be in Montpellier, France, 26-30 June and will feature two days of presentations, discussions, poster sessions, lightning talks, computer demos, keynotes, and birds-of-a-feather meetups, **all about data-intensive biology and the tools and infrastructure that support it.** GCC2017 also includes data and coding hacks, and **[two days of training](https://gcc2017.sched.com/overview/type/Training)** covering 16 different topics.
- 
+
 GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-events.com/en/The-Corum/Presentation) in the heart of [Montpellier](https://gcc2017.sciencesconf.org/page/location), just 10km from the Mediterranean. This event will gather several hundred researchers addressing diverse questions and facing common challenges in data intensive life science research. GCC participants work across the tree of life, come from around the world, and work at universities, research organizations, industry, medical schools and research hospitals.
 
 **[Early registration](https://gcc2017.sciencesconf.org/page/registration)** is also open and starts at less than 55€ / day for post-docs and students.  You can also [book low cost conference housing](https://gcc2017.sciencesconf.org/page/lodging) when you register.
@@ -35,7 +35,7 @@ GCC2017 will be held at [Le Corum Conference Centre](http://www.montpellier-even
 
 ## GCC2017 Travel Fellowships
 
-[GCC2017](https://gcc2017.sciencesconf.org/) is a great opportunity to discuss your research with others that are working in and facing similar challenges in data-intenisve life science research.  *But only if you can get there.*  The Galaxy Community Fund is offering [fellowships](/news/2017-03-gcc2017-fellowships/) to early career researchers that would be coming from afar to attend GCC2017. 
+[GCC2017](https://gcc2017.sciencesconf.org/) is a great opportunity to discuss your research with others that are working in and facing similar challenges in data-intenisve life science research.  *But only if you can get there.*  The Galaxy Community Fund is offering [fellowships](/news/2017-03-gcc2017-fellowships/) to early career researchers that would be coming from afar to attend GCC2017.
 
 See the [application](http://bit.ly/gcc2017apply) for full details on what's covered and what we ask you to provide.
 
@@ -50,7 +50,7 @@ Galaxy Community Fund Board
 
 We are pleased to welcome [ELIXIR](http://www.elixir-europe.org/) and GigaScience as returning GCC sponsors.
 
-<div class='right'> 
+<div class='right'>
 <a href='http://www.elixir-europe.org/'><img src="/images/logos/ElixirNoTextLogo.png" alt="Elixer" height="120" /></a>
 </div>
 
@@ -179,7 +179,7 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 
 # New Publications
 
-**275 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in March. This includes papers that were added as part of the 2016 year end review of alerts. (Often a paper isn't added when an alert first comes out because the DOI isn't working yet, or because the paper is embargoed.) 
+**275 new publications** referencing, using, extending, and implementing Galaxy were added to the [Galaxy CiteULike Group](http://www.citeulike.org/group/16008/) in March. This includes papers that were added as part of the 2016 year end review of alerts. (Often a paper isn't added when an alert first comes out because the DOI isn't working yet, or because the paper is embargoed.)
 
 Some highlights from the papers added in March:
 
@@ -222,12 +222,12 @@ Some highlights from the papers added in March:
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 120 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 69 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 37 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 27 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) | 
-| 23 | [tools](http://www.citeulike.org/group/16008/tag/tools) | | 21 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 20 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 19 | [other](http://www.citeulike.org/group/16008/tag/other) | 
-| 15 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | | 14 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | | 11 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 4 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) | 
-| 3 | [visualization](http://www.citeulike.org/group/16008/tag/visualization) | | 3 | [shared](http://www.citeulike.org/group/16008/tag/shared) | | 1 | [howto](http://www.citeulike.org/group/16008/tag/howto) | | 1 | [project](http://www.citeulike.org/group/16008/tag/project) | 
+| 120 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 69 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 37 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 27 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) |
+| 23 | [tools](http://www.citeulike.org/group/16008/tag/tools) | | 21 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 20 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 19 | [other](http://www.citeulike.org/group/16008/tag/other) |
+| 15 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | | 14 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | | 11 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 4 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) |
+| 3 | [visualization](http://www.citeulike.org/group/16008/tag/visualization) | | 3 | [shared](http://www.citeulike.org/group/16008/tag/shared) | | 1 | [howto](http://www.citeulike.org/group/16008/tag/howto) | | 1 | [project](http://www.citeulike.org/group/16008/tag/project) |
   
 ----
 
@@ -262,7 +262,7 @@ There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-publ
 
 Interested in participating? See the [full call for details](/news/2017-03-lapps-grid/).
 
-[LAPPS Grid](http://www.lappsgrid.org) provides an infrastructure for rapid development of natural language processing applications (NLP) that uses the Galaxy platform as its workflow engine. The LAPPS Grid has integrated a wide range of NLP tools and resources into Galaxy and provided for using them interoperably in a “plug-and-play” environment. 
+[LAPPS Grid](http://www.lappsgrid.org) provides an infrastructure for rapid development of natural language processing applications (NLP) that uses the Galaxy platform as its workflow engine. The LAPPS Grid has integrated a wide range of NLP tools and resources into Galaxy and provided for using them interoperably in a “plug-and-play” environment.
 
 ## PhenoMeNal Online Training Material
 
@@ -278,21 +278,21 @@ New [online training](http://www.ebi.ac.uk/training/online/course/phenomenal-acc
 <div class='right solid'><a href='https://galaxy.genouest.org'><img src="/use/galaxy-genouest/galaxy-genouest.png" alt="Galaxy@GenOuest" /></a></div>
 
 * *Links:*
-  * [Galaxy@GenOuest](https://galaxy.genouest.org)
-  * [Request a GenOuest account](https://my.genouest.org)
+    * [Galaxy@GenOuest](https://galaxy.genouest.org)
+    * [Request a GenOuest account](https://my.genouest.org)
 * *Domain/Purpose:*
-  * A general purpose Galaxy server
-  * Includes tools developped by [Dyliss](http://www.irisa.fr/dyliss/) and [GenScale](https://team.inria.fr/genscale/) bioinformatics research teams in Rennes, France.
+    * A general purpose Galaxy server
+    * Includes tools developped by [Dyliss](http://www.irisa.fr/dyliss/) and [GenScale](https://team.inria.fr/genscale/) bioinformatics research teams in Rennes, France.
 * *Comments:*
 * *User Support:*
-  * [Email](mailto:support AT genouest DOT org)
+    * [Email](mailto:support AT genouest DOT org)
 * *Quotas:*
-  * You must be part of an academic research lab and create an account on [GenOuest](https://my.genouest.org).
-  * The default quota for new users is 50GB.
+    * You must be part of an academic research lab and create an account on [GenOuest](https://my.genouest.org).
+    * The default quota for new users is 50GB.
 * *Sponsor(s):*
-  * [GenOuest](http://www.genouest.org/)
-  * [IRISA](https://www.irisa.fr/)
-  * [Inria](https://www.inria.fr/centre/rennes)
+    * [GenOuest](http://www.genouest.org/)
+    * [IRISA](https://www.irisa.fr/)
+    * [Inria](https://www.inria.fr/centre/rennes)
 
 
 ### BIPAA (BioInformatics Platform for Agroecosystem Arthropods)
@@ -300,24 +300,24 @@ New [online training](http://www.ebi.ac.uk/training/online/course/phenomenal-acc
 <div class='right solid'><a href='https://bipaa-galaxy.genouest.org/'><img src="/use/bipaa/bipaa-logo.png" alt="BIPAA (BioInformatics Platform for Agroecosystem Arthropods)" width="120" /></a></div>
 
 * *Links:*
-  * [BIPAA Galaxy Server](https://bipaa-galaxy.genouest.org)
-  * [BIPAA home page](https://bipaa.genouest.org/)
+    * [BIPAA Galaxy Server](https://bipaa-galaxy.genouest.org)
+    * [BIPAA home page](https://bipaa.genouest.org/)
 * *Domain/Purpose:*
-  * Insect genomics (aphids, parasitoïd wasps, lepidopterans)
+    * Insect genomics (aphids, parasitoïd wasps, lepidopterans)
 * *Comments:*
-  * Includes tools for the analysis of insect genomes (annotation, transcriptomics, epigenomics, ...).
-  * Linked to genome databases hosted by BIPAA: [AphidBase](http://bipaa.genouest.org/is/aphidbase/), [LepidoDB](http://bipaa.genouest.org/is/lepidodb/) and [ParWaspDB](http://bipaa.genouest.org/is/parwaspdb/)
-  * Hosted on the GenOuest architecture (same computing resources).
+    * Includes tools for the analysis of insect genomes (annotation, transcriptomics, epigenomics, ...).
+    * Linked to genome databases hosted by BIPAA: [AphidBase](http://bipaa.genouest.org/is/aphidbase/), [LepidoDB](http://bipaa.genouest.org/is/lepidodb/) and [ParWaspDB](http://bipaa.genouest.org/is/parwaspdb/)
+    * Hosted on the GenOuest architecture (same computing resources).
 * *User Support:*
-  * [Account creation](http://bipaa.genouest.org/account/)
-  * [Contact BIPAA](mailto:bipaa@inra.fr)
+    * [Account creation](http://bipaa.genouest.org/account/)
+    * [Contact BIPAA](mailto:bipaa@inra.fr)
 * *Quotas:*
-  * Default quota is low (<10Go), but can be increased on request.
+    * Default quota is low (<10Go), but can be increased on request.
 * *Sponsor(s):*
-  * [INRA](http://www.inra.fr)
-  * [GenOuest](http://www.genouest.org/)
-  * [IRISA](https://www.irisa.fr/)
-  * [Inria](https://www.inria.fr/centre/rennes)
+    * [INRA](http://www.inra.fr)
+    * [GenOuest](http://www.genouest.org/)
+    * [IRISA](https://www.irisa.fr/)
+    * [Inria](https://www.inria.fr/centre/rennes)
 
 
 
@@ -420,7 +420,7 @@ And, thanks to [Björn Grüning](/people/bjoern-gruening/), there is also now [a
 
 These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems.
 
-Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
+Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/).
 
 ### Pulsar 0.7.4
 
@@ -452,10 +452,10 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-* A new [in-depth RNAseq tutorial](http://bit.ly/rnaseq_tut) is available. 
+* A new [in-depth RNAseq tutorial](http://bit.ly/rnaseq_tut) is available.
 * Greatly improved Cytoscape visualizations are [now available in Galaxy](https://github.com/galaxyproject/galaxy/pull/3817), thanks to [Anup Kumar](https://github.com/anuprulez).
 * [EtherCalc integrated into Galaxy](https://github.com/galaxyproject/galaxy/pull/3699) as an interactive environment thanks to [Saskia Hiltemann](https://github.com/shiltemann).
 * From [Rob Davey](https://twitter.com/froggleston)
-  * Over 400000 jobs have been run on our Galaxy server at [Earlaham Iinstitute](http://www.earlham.ac.uk/) since 2015. Infrastructure win.
+    * Over 400000 jobs have been run on our Galaxy server at [Earlaham Iinstitute](http://www.earlham.ac.uk/) since 2015. Infrastructure win.
 * [Getting started with Galaxy on the cloud](/cloudman/getting-started/)
 * New [step by step guide on howto upgrade a Galaxy Docker image](https://github.com/bgruening/docker-galaxy-stable#Upgrading-images) from [Rafa Hernández](https://github.com/fikipollo).

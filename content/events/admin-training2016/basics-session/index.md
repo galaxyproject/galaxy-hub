@@ -21,6 +21,7 @@ This two day introductory session will introduce participants to what you need t
 ### Comfortable with the Unix/Linux command line
 
 Most of the workshop will happen at the Linux command line.  *If you aren’t comfortable with this before you arrive, then you will be lost the entire time.*  How comfortable do you need to be?  Here’s a sampling of commands and concepts that you should be comfortable with:
+
   ```
 cd, mkdir, rmdir, ls
 tar, gzip
@@ -50,12 +51,12 @@ We’ll be using Ubuntu based images during the workshop, which means we’ll be
 
 ### Hardware and Software
 
-All participants should bring a wifi-enabled laptop with 
+All participants should bring a wifi-enabled laptop with
 
 * at least 4GB of memory (more is better)
 * Software to access the command line of a Linux server.
-  * If you are running Linux or Mac OS, then you already have this.
-  * If you are running Windows than you’ll need to get something like putty installed before the workshop.
+    * If you are running Linux or Mac OS, then you already have this.
+    * If you are running Windows than you’ll need to get something like putty installed before the workshop.
 * A recent version of either the Chrome or Firefox web browser installed.
 
 ## Topics
@@ -63,7 +64,7 @@ All participants should bring a wifi-enabled laptop with
 This two day workshop will cover the big picture, and installation, configuration, and customization basics.  We'll present these topics by exploring several specific examples in detail.  Participants will finish this workshop with a solid understanding of how to set up and customize a Galaxy instance running on a desktop or standalone server.
 
 * Deployment platform options
-* Installing a basic Galaxy server 
+* Installing a basic Galaxy server
 * Database choices and configuration  (SQLite & PostgreSQL)
 * Web server choices and configuration  (NGINX & Apache)
 * Identifying and installing well-defined tools from the Galaxy Tool Shed

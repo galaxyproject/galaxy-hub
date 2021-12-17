@@ -12,9 +12,9 @@ title: Galactic December News!
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the December 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
+Welcome to the December 2015 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 # New Papers
 
@@ -121,7 +121,7 @@ GCC2016 registration will open this month. The full training schedule will also 
 
 There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
-<div class='center'> 
+<div class='center'>
 <a href='http://www.bioplatforms.com/current-training-courses/'><img src="/images/logos/BioplatformsAustralia.png" alt="Galaxy Training from Bioplatforms Australia and Intersect" height="40" /></a>
 <a href='http://scb.iec.cat/wp-content/uploads/2015/11/jdB2015_anunci_.pdf'><img src="/images/logos/BioinformaticsBarcelona.jpg" alt="Galaxy Session at III Bioinformatics and Computational Biology Symposium" height="80" /></a>&nbsp;
 <a href='/events/asu2016/'><img src="/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" height="60" /></a>&nbsp;
@@ -256,45 +256,45 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 <div class='right solid'><a href='http://gio.sbcs.qmul.ac.uk/'><img src="/use/galaxy-integrated-omics-gio/gio-logo.png" alt="Galaxy Integrated Omics (GIO)" width="200" /></a></div>
 
 * *Link:*
-  * [GIO Server](http://gio.sbcs.qmul.ac.uk/)
+    * [GIO Server](http://gio.sbcs.qmul.ac.uk/)
 * *Domain/Purpose:*
-  * "Proteomics Informed by Transcriptomics (PIT) methodology described in [Evans et al. 2012](http://www.ncbi.nlm.nih.gov/pubmed/23142869), and selection of surrogate peptides for targeted proteomics."
+    * "Proteomics Informed by Transcriptomics (PIT) methodology described in [Evans et al. 2012](http://www.ncbi.nlm.nih.gov/pubmed/23142869), and selection of surrogate peptides for targeted proteomics."
 * *Comments:*
-  * "Galaxy-based Integrated Omics (GIO) is a curated collection of new and pre-existing open source tools brought together for proteomics applications."
-  * See [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](http://www.mcponline.org/content/14/11/3087), Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews and Conrad Bessant, *Molecular & Cellular Proteomics*, 14, 3087-3093. 
+    * "Galaxy-based Integrated Omics (GIO) is a curated collection of new and pre-existing open source tools brought together for proteomics applications."
+    * See [Galaxy Integrated Omics: Web-based standards-compliant workflows for proteomics informed by transcriptomics](http://www.mcponline.org/content/14/11/3087), Jun Fan, Shyamasree Saha, Gary Barker, Kate J. Heesom, Fawaz Ghali, Andrew R. Jones, David A. Matthews and Conrad Bessant, *Molecular & Cellular Proteomics*, 14, 3087-3093.
 * *User Support:*
-  * [Tutorial 1:Getting started with GIO](http://gio.sbcs.qmul.ac.uk/static/Tutorial1.pdf)
-  * [Tutorial 2:Getting started with GIO workflows](http://gio.sbcs.qmul.ac.uk/static/Tutorial2.pdf)
-  * [Tutorial 3:Proteomics Informed by Transcriptomics (PIT)](http://gio.sbcs.qmul.ac.uk/static/Tutorial3.pdf)
-  * [Tutorial 4:Targeted proteomics](http://gio.sbcs.qmul.ac.uk/static/Tutorial4.pdf)
-  * For draft documentation please visit the [GIO repository](https://code.google.com/p/gio-repository/). 
-* *Quotas:* 
+    * [Tutorial 1:Getting started with GIO](http://gio.sbcs.qmul.ac.uk/static/Tutorial1.pdf)
+    * [Tutorial 2:Getting started with GIO workflows](http://gio.sbcs.qmul.ac.uk/static/Tutorial2.pdf)
+    * [Tutorial 3:Proteomics Informed by Transcriptomics (PIT)](http://gio.sbcs.qmul.ac.uk/static/Tutorial3.pdf)
+    * [Tutorial 4:Targeted proteomics](http://gio.sbcs.qmul.ac.uk/static/Tutorial4.pdf)
+    * For draft documentation please visit the [GIO repository](https://code.google.com/p/gio-repository/).
+* *Quotas:*
 * *Sponsor(s):*
-  * "This project is led by [Conrad Bessant](http://www.bessantlab.org/) at Queen Mary and [David Matthews](http://www.bristol.ac.uk/infection-immunity/people/person/37949) at Bristol, with additional contributions from the groups of [Andy Jones](http://pcwww.liv.ac.uk/~jonesar/jonesar.html) at Liverpool and [Simon Hubbard](http://www.manchester.ac.uk/research/simon.hubbard/) at Manchester. GIO development was supported by BBSRC TRDF2 grants BB/L018438/1 (Proteomics Goes Viral), BB/K016075/1 (Galaxy Workflows for Proteomics Informed by Transcriptomics) and BB/K004123/1 (Integrating Genomes and Proteomes on the Cloud). Lead developer is [Jun Fan](http://www.sbcs.qmul.ac.uk/staff/drjunfan.html)."
+    * "This project is led by [Conrad Bessant](http://www.bessantlab.org/) at Queen Mary and [David Matthews](http://www.bristol.ac.uk/infection-immunity/people/person/37949) at Bristol, with additional contributions from the groups of [Andy Jones](http://pcwww.liv.ac.uk/~jonesar/jonesar.html) at Liverpool and [Simon Hubbard](http://www.manchester.ac.uk/research/simon.hubbard/) at Manchester. GIO development was supported by BBSRC TRDF2 grants BB/L018438/1 (Proteomics Goes Viral), BB/K016075/1 (Galaxy Workflows for Proteomics Informed by Transcriptomics) and BB/K004123/1 (Integrating Genomes and Proteomes on the Cloud). Lead developer is [Jun Fan](http://www.sbcs.qmul.ac.uk/staff/drjunfan.html)."
 
 ## RNA-Seq Portal
 
 <div class='right solid'><a href='http://weizhongli-lab.org/RNA-seq/'><img src="/public-galaxy-servers/archive/rna-seq-portal.png" alt="RNA-Seq Portal - Analyzing RNA-seq Data for Agricultural Animal Species" width="300" /></a></div>
 
 * *Links:*
-  * [RNA-Seq Portal](http://weizhongli-lab.org/RNA-seq/)
-  * [Galaxy server](http://weizhongli-lab.org:8088/)
+    * [RNA-Seq Portal](http://weizhongli-lab.org/RNA-seq/)
+    * [Galaxy server](http://weizhongli-lab.org:8088/)
 
 * *Domain/Purpose:*
-  * Analyzing RNA-seq Data for Agricultural Animal Species.
+    * Analyzing RNA-seq Data for Agricultural Animal Species.
 * *Comments:*
-  * From the [portal landing page](http://weizhongli-lab.org/RNA-seq/):
+    * From the [portal landing page](http://weizhongli-lab.org/RNA-seq/):
       The goal of this project is to develop a web portal with integrated tools for RNA-seq based gene expression analysis for agricultural animals.
-      * improve genome annotation of agricultural animal species, including (but not limiting to) cattle, pig, chicken, turkey, horse, sheep, and goat as well as catfish;
-      * develop and integrate needed bioinformatics tools and pipelines, visualization interfaces, and statistical methods;
-      * build a web portal that enable RNA-seq based transcriptomics analysis in aforementioned animal species.
+        * improve genome annotation of agricultural animal species, including (but not limiting to) cattle, pig, chicken, turkey, horse, sheep, and goat as well as catfish;
+        * develop and integrate needed bioinformatics tools and pipelines, visualization interfaces, and statistical methods;
+        * build a web portal that enable RNA-seq based transcriptomics analysis in aforementioned animal species.
 * *User Support:*
-  * [Example usage](http://weizhongli-lab.org:8088/) (see center panel)
-  * [Web support](http://weizhongli-lab.org/RNA-seq/contact/)
-* *Quotas:* 
+    * [Example usage](http://weizhongli-lab.org:8088/) (see center panel)
+    * [Web support](http://weizhongli-lab.org/RNA-seq/contact/)
+* *Quotas:*
 
 * *Sponsor(s):*
-  * The project is developed by [Weizhong Li's lab](http://weizhongli-lab.org/) at [J. Craig Venter Institute](http://jcvi.org/) with support from NIFA (award #2013-67015-21428). 
+    * The project is developed by [Weizhong Li's lab](http://weizhongli-lab.org/) at [J. Craig Venter Institute](http://jcvi.org/) with support from NIFA (award #2013-67015-21428).
 
 ----
 
@@ -326,7 +326,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 <div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
 <div class='indent'>
-   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/cloudman/getting-started/) documentation. 
+   This is the most complete update of the Galaxy on the Cloud platform to date with all the cloud components being built from the ground up. See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a complete set of changes or just give it a try: see the all new [Getting Started](/cloudman/getting-started/) documentation.
 </div>
 
  **Security Advisories**
@@ -343,7 +343,7 @@ Planemo is a set of command-line utilities to assist in building tools for the G
 
  **Pulsar**
    [Pulsar 0.5.0](https://pypi.python.org/pypi/pulsar-app/0.5.0) was released in May.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
- 
+
 
  **blend4j v0.1.2**
    [blend4j v0.1.2](https://github.com/jmchilton/blend4j) was released in December 2014.  blend4j is a JVM partial reimplemenation of the Python library bioblend for interacting with Galaxy, CloudMan, and BioCloudCentral.
@@ -383,15 +383,15 @@ See [list of tools contributed in October and November](/toolshed/contributions/
 
 * From [Guy Reeves](https://biostar.usegalaxy.org/u/4670/):
     'Hidden' Galaxy features which are really useful. For Scratchbook see [this video](http://vimeo.com/120839821).
-* Ever wondered who writes Galaxy? 
+* Ever wondered who writes Galaxy?
     [These people do](https://github.com/galaxyproject/galaxy/blob/dev/CONTRIBUTORS.md).
 * See the [executive summary](https://galaxyproject.github.io) of free open source software the Galaxy community provides. (Big thanks to Helena Rasche.)
 * From [Nate Coraor](https://github.com/natefoo)
-    An Ansible role for installing Galaxy Interactive Environments 
+    An Ansible role for installing Galaxy Interactive Environments
 * [Expanding the Galaxy Platform](https://www.msi.umn.edu/content/expanding-galaxy-platform) at the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/).
 * From [Björn Grüning](https://twitter.com/bjoerngruening):
-    The [Galaxy Docker Image](https://github.com/bgruening/docker-galaxy-stable/tree/dev) has gained TravisCI testing. BioBlend will test all functionality and tool installation. 
+    The [Galaxy Docker Image](https://github.com/bgruening/docker-galaxy-stable/tree/dev) has gained TravisCI testing. BioBlend will test all functionality and tool installation.
 * Updated documentation:
-  * [The source code of Galaxy](/develop/source-code/)
-  * [Galaxy Job Configuration](/admin/config/jobs/)
-  * [Datatypes](/learn/datatypes/)
+    * [The source code of Galaxy](/develop/source-code/)
+    * [Galaxy Job Configuration](/admin/config/jobs/)
+    * [Datatypes](/learn/datatypes/)

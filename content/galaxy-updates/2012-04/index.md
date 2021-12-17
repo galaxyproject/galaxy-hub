@@ -8,6 +8,7 @@ Welcome to the April 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a mont
 ## New Papers
 
 This paper may be of interest to the Galaxy community:
+
 * Konstantinos Krampis, Tim Booth, Brad Chapman, Bela Tiwari, Mesude Bicak, Dawn Field and Karen Nelson , "[Cloud BioLinux: pre-configured and on-demand bioinformatics computing for the genomics community](http://www.biomedcentral.com/1471-2105/13/42/abstract)." *BMC Bioinformatics* 2012, 13:42
 
 These were among [28 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/).  The new papers were spread [across 6 categories](http://www.citeulike.org/group/16008/tags).
@@ -61,7 +62,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are April application deadlines for EMBL-EBI Summer Bioinformatics School and Plant Bioinformatics Course; abstract deadlines for InCoB, DILS, BOSC, ISMB Tech Track, and [GCC2012](/events/gcc2012/abstracts/); and an early registration deadline for BITS.
 
@@ -145,8 +146,9 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 
 ## Tool Shed Contributions
 
-At least *15* new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) since the last [Galaxy Update](/galaxy-updates/), including 
-* EMBER: analysis technique for inferring the genes regulated by transcription factor. 
+At least *15* new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) since the last [Galaxy Update](/galaxy-updates/), including
+
+* EMBER: analysis technique for inferring the genes regulated by transcription factor.
 * hmmer: hmmscan/hmmsearch as one tool, plus hmmpress
 * RNA SEQ by Expectation Maximization (RSEM).
 * FastqMcf from ea-utils: remove barcodes and primers, filter and clip.
@@ -156,15 +158,16 @@ At least *15* new repositories were added to the [Galaxy Tool Shed](http://tools
 * snp_mapping_using_wgs: Map mutation by plotting recombination frequency from crossing to a polymorphic strain
 * ems_variant_density_mapping Map mutation by linkage to regions of high mutation density using WGS data
 * bcftools_view: Convert BCF &rarr; VCF
-* check_snpeff_candidates: Mark up snpEff output file with matches to a gene candidate list 
+* check_snpeff_candidates: Mark up snpEff output file with matches to a gene candidate list
 * match: search for occurrences of a short motif, allowing mismatches
-* sharplab_interval_analysis: align 2 interval sets, find overlaps, calculate and plot coverage 
+* sharplab_interval_analysis: align 2 interval sets, find overlaps, calculate and plot coverage
 * sharplab_seq_motif: DREME, SRA &rarr; FASTQ, FIMO &rarr; BED, FASTA &rarr; Markov Model, reverse complements, and more.
 * mtls_analysis: Functions to analyze and compare multiple ChIP-seq experiments
 
 ## New Distribution
 
 There has been one [Galaxy distribution](/docs/) in the past month.  The [most recent release (March 12)](/archive/dev-news-briefs/2012-03-12/), includes these highlights:
+
 * **Emboss tools and datatypes** moving from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)* in the **NEXT release**. Read more about the upcoming **[tool migrations...](/toolshed/migrating-tools-from-galaxy-distribution/)**
 * Galaxy tool [XML configuration](/galaxy-tool-panel/#xml-configuration-files-used-to-populate-your-galaxy-tool-panel), managing [tool panel layout](/galaxy-tool-panel/#managing-the-layout-of-your-galaxy-tool-panel), and Galaxy [tool versions](/galaxy-tool-version-lineage/).
 * **RNA-Seq Tools:** Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0, Updated **[TopHat](http://tophat.cbcb.umd.edu/)** default parameters
@@ -176,6 +179,7 @@ There has been one [Galaxy distribution](/docs/) in the past month.  The [most r
 ## Other News
 
 **New non-wiki documentation**
+
 * [Analyzing epigenome data in context of genome evolution and human diseases](http://www.springerlink.com/content/l2184206p7583v75/), by  Feuerbach, *et al.*
 * [Analyzing Complete Genomics masterVar File through Galaxy](http://media.completegenomics.com/documents/Galaxy_demo_PDF.pdf), by [Complete Genomics](http://www.completegenomics.com/recordings/) (only viewable in Adobe Reader)
 

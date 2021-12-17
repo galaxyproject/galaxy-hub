@@ -17,12 +17,12 @@ This page describes the **[Galaxy Admins](/community/galaxy-admins/)** [Birds of
 
 [GalaxyAdmins](/community/galaxy-admins/) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/community/galaxy-admins/meetups/) and at events like GCC2013, where a lot of us happen to be.
 
-GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/community/galaxy-admins/future/).  *This discussion has started in advance of GCC2013 as [this email thread](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/OYSHZXMDA72UD6LKDOCF636BKKGYEPIV/#MJNIDOKMJNQLAEES23UI5X6PIYPEHAWI).* 
+GCC2013 coincides with the one year anniversary of GalaxyAdmins starting up and this is a good time to discuss the [future direction of the group](/community/galaxy-admins/future/).  *This discussion has started in advance of GCC2013 as [this email thread](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/OYSHZXMDA72UD6LKDOCF636BKKGYEPIV/#MJNIDOKMJNQLAEES23UI5X6PIYPEHAWI).*
 
 We plan to continue, and perhaps finish, that discussion at GCC2013, at this BoF session.  That discussion and what we decide will be posted on the [GalaxyAdmins Future page](/community/galaxy-admins/future/).  However, the current talking points are:
 
 * [Goal and Activities](/community/galaxy-admins/future/#galaxyadmins-goals-and-activities)
-* [Leadership](/community/galaxy-admins/future/#leadership) 
+* [Leadership](/community/galaxy-admins/future/#leadership)
 
 ## When and Where
 
@@ -51,11 +51,13 @@ If you are interested, please add your name below and/or send an email to [Dave 
 ## Summary
 
 **General Support Concerns**
+
 * From Jessie K
     People answer questions right away.  Problems some are big and no-one knows how to do that.
     What is the bleeding edge stuff.  That's where the problem is.
 
 **Reference / Wiki**
+
 * Want a knowledge base with different descriptions of Galaxy Deployments
 * Possibly have an Admin/Logs section where people can describe what they did
 * Add a list of Admin Tutorials to [Admin](/admin/) and [Cloud](/cloudman/) Hub pages, similar to what is on the [Learn](/learn/) hub page.
@@ -69,14 +71,16 @@ If you are interested, please add your name below and/or send an email to [Dave 
 <div class='indent'>
 **Follow-up**
 
-2013/08: Mailman topics are a worthwhile idea.  They create sublists within a list by using tags in subject lines (and other methods), making it possible for people to only subscribe to email on the sublist.  However, we aren't going to use them.  There is no software requirement that posters use the correct (or any) topic tag in Mailman, and 
+2013/08: Mailman topics are a worthwhile idea.  They create sublists within a list by using tags in subject lines (and other methods), making it possible for people to only subscribe to email on the sublist.  However, we aren't going to use them.  There is no software requirement that posters use the correct (or any) topic tag in Mailman, and
+
 1. We can be sure that some relevant postings would not have the tag
 2. Therefore people would have to subscribe to the full list anyway.
 
-If you still want this functionality, you are encouraged to configure your email software to tag anything with "[GalaxyAdmins](/community/galaxy-admins/)" in it. 
+If you still want this functionality, you are encouraged to configure your email software to tag anything with "[GalaxyAdmins](/community/galaxy-admins/)" in it.
 </div>
 
 **Meetups:**
+
 * Graham E would like to see communication before the meetups  Have more discussion before hand
 * Consensus was to continue doing the meetups.
 * Maybe shorten the main presentation some.
@@ -85,6 +89,7 @@ If you still want this functionality, you are encouraged to configure your email
 * Survey participants for suggested meetup technology.
 
 **Leadership / Governance**
+
 * Nothing was established here.
 * Srinivas and Dave C will continue as is, but the right thing to do is transfer Srinnivas's responsibilities to someone else.
 * Participants will think about what to do
@@ -97,6 +102,7 @@ If you still want this functionality, you are encouraged to configure your email
 
 
 Reference / Wiki
+
 * Dave C will set up an "installation description" template that enables people to provide a basic description of their installation.  This is not a database, but it would build a searchable list of deployments
 * Dave C will create a section of the wiki for admins to log what they did during installs.
 * Dave C will add a list of Admin Tutorials to [Admin](/admin/) and [Cloud](/cloudman/) Hub pages, similar to what is on the [Learn](/learn/) hub page.
@@ -107,13 +113,15 @@ Mailing Lists / Forums
 * Dave C will investigate using [Mailman Topics](http://www.list.org/mailman-member/node29.html) to flag threads that are specific to this group.
 
 Meetups:
+
 * Will continue with bimonthly meetups
 * For future meetups
-  * Encourage communication before hand
-  * Shorten the main presentaiton some.
+    * Encourage communication before hand
+    * Shorten the main presentaiton some.
 * Have next meetup be more free form Everyone who can be at that meeting be there.
 
 Leadership / Governance
+
 * Need something here.
 
 ## Questions?

@@ -204,7 +204,8 @@ Tool changes that enable clearer experimental tracking and ease reproducibility
 # Bug Fixes
 
 1. Jobs
-  * Set the correct job name when submitting jobs as system users.
+
+    * Set the correct job name when submitting jobs as system users.
 
 <br />
 

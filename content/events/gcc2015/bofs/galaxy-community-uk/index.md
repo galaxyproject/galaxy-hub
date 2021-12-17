@@ -9,7 +9,7 @@ This page describes the **Galaxy UK Community (GCUK)** [Birds of a Feather](/eve
 
 When:: Wednesday, 8th July. 18:00 (6pm)
 
-Where:: Watson Room, JICCC 
+Where:: Watson Room, JICCC
 
 Contact:: Christian-dot-Schudoma-at-TSL-dot-ac-dot-uk
 
@@ -43,12 +43,12 @@ If you are interested, please add your name below and/or send an email to [Chris
 
 ## Discussion
 
-* What do people want GCUK to do? 
-  * Support
-    * Get quicker answers, or just get answers.  
-  * help locate complementary trainers.
-  * buying a server would like advice on vendors and what to buy.
-  * Galaxy Carpentry?
+* What do people want GCUK to do?
+    * Support
+        * Get quicker answers, or just get answers.  
+    * help locate complementary trainers.
+    * buying a server would like advice on vendors and what to buy.
+    * Galaxy Carpentry?
 
 * Might be scope in Peter's grant for a galaxy workshop with a strong metabolomics bent,
 
@@ -59,20 +59,20 @@ If you are interested, please add your name below and/or send an email to [Chris
 * We aren't united by a distinct language like France or Japan.
 
 * The big Data paper by Dan MacLean on how they changed the environment at TSL.
-  * Took goodwill, infrastructure, backing.  It increased productivity.
+    * Took goodwill, infrastructure, backing.  It increased productivity.
 
 * Raising the profile of GCUK.
-  * People think they need a bioinformatician
-  * But they don't need to wait.
+    * People think they need a bioinformatician
+    * But they don't need to wait.
 
 * Funding
-  * BBSRC has funding
-  * MRC funding?
-  * CRUK
-  * BEPSRC
-  * NERC
+    * BBSRC has funding
+    * MRC funding?
+    * CRUK
+    * BEPSRC
+    * NERC
 
 ## Call for Participation
 
-If you are interested in becoming active in GCUK then please send an email to 
+If you are interested in becoming active in GCUK then please send an email to
 [Christian Schudoma TSL](mailto:christian.schudoma AT tsl DOT ac DOT uk).

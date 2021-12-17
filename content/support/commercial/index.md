@@ -7,11 +7,12 @@ Galaxy [servers](/use/) and [support](/support/) are available in a wide variety
 
 ## GalaxyWorks
 
-[GalaxyWorks](https://galaxyworks.io/) offers [Galaxy Pro](https://galaxyworks.io/product), as a fully-managed Galaxy service with no usage quotas, a validated toolset, and Pro workflows. 
+[GalaxyWorks](https://galaxyworks.io/) offers [Galaxy Pro](https://galaxyworks.io/product), as a fully-managed Galaxy service with no usage quotas, a validated toolset, and Pro workflows.
 
 <div class='right'><a href='https://galaxyworks.io/'><img src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks, LLC" width="270" /></a></div>
 
 GalaxyWorks [was founded](https://galaxyproject.org/news/2020-06-galaxyworks-announcement/) by several [Galaxy Project's community members](https://galaxyworks.io/about/) to enable scientists to continue to rely on Galaxy as they roll through chapters in their careers and switch between academia and industry. Galaxy Pro offers the following advantages:
+
 * **Managed software**, saving time and cost of installing, updating, and maintaining infrastructure and software
 * **Pro workflows**, as a set of high-quality, versatile pipelines that are available out-of-the box and are accompanied by documentation and test data
 * **Support**, via dedicated help and customizations to include tool updates or pipeline development
@@ -29,15 +30,15 @@ GalaxyWorks [was founded](https://galaxyproject.org/news/2020-06-galaxyworks-ann
 * Production Environment Optimization
 * Data Integration Outsourcing Services
 * Enterprise Cloud Environment with SLA
-  * Fully managed and hosted on cloud Galaxy Enterprise with various levels of SLAs.
-  * Dedicated servers with dedicated secure access (VPN) including data storage and management.
+    * Fully managed and hosted on cloud Galaxy Enterprise with various levels of SLAs.
+    * Dedicated servers with dedicated secure access (VPN) including data storage and management.
 * Galaxy Enterprise Certification Training
 
 ## Noor Biotechnologies
 
 <div class='right'><a href='http://noorbiotech.com/'><img src="/images/logos/NoorBioTechLogo.jpg" alt="Noor Biotechnologies Ltd." width="270" /></a></div>
 
-Galaxy is a powerful and open, web-based platform, which is accessible to all scientists. For the beginner, it can be difficult to know how to select from the thousands of available tools, which ones are right for your data analysis. 
+Galaxy is a powerful and open, web-based platform, which is accessible to all scientists. For the beginner, it can be difficult to know how to select from the thousands of available tools, which ones are right for your data analysis.
 
 In addition, for microbiology, few public Galaxy servers are available and their use could limited to subscribers or collaborators only. Many tools, which specially designed for microbiology, are not available in Galaxy main.
 
@@ -47,7 +48,7 @@ At [Noor Biotechnologies](http://noorbiotech.com/) we support your genomics rese
 2. Providing support in the design of your sequencing experiment.
 3. [Training](/support/commercial/#training) you in using Galaxy for high throughput data analysis.
 4. Providing help in selecting the correct bioinformatics tools and work workflows on either public Galaxy servers or to customize your own local Galaxy server.
-5. Offering a deep understanding of microbial genomics. 
+5. Offering a deep understanding of microbial genomics.
 
 With [Noor Biotechnologies](http://noorbiotech.com/), you can make sense of your microbial genomics data
 

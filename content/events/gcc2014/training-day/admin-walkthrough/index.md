@@ -83,16 +83,16 @@ serving on http://127.0.0.1:8080
 ### Topics for this section
 
 * What is a Galaxy tool?
-  * Basic: An XML description of the tool's interface, allowing Galaxy to render a UI (tool form), as well as the command line to execute.
-  * Complex: XML + wrapper scripts and interfaces to external dependencies
+    * Basic: An XML description of the tool's interface, allowing Galaxy to render a UI (tool form), as well as the command line to execute.
+    * Complex: XML + wrapper scripts and interfaces to external dependencies
 * Exploring preinstalled tools and filesystem layout
-  * `galaxy-dist/tool_conf.xml`
-  * `galaxy-dist/tools/`
-  * Example simple tool: `galaxy-dist/tools/filters/sorter.xml` (tool xml), `galaxy-dist/tools/filters/sorter.py` (tool code)
-  * Example tool with unmet dependencies: `galaxy-dist/tools/sr_mapping/mosaik.xml`
+    * `galaxy-dist/tool_conf.xml`
+    * `galaxy-dist/tools/`
+    * Example simple tool: `galaxy-dist/tools/filters/sorter.xml` (tool xml), `galaxy-dist/tools/filters/sorter.py` (tool code)
+    * Example tool with unmet dependencies: `galaxy-dist/tools/sr_mapping/mosaik.xml`
 * The Tool Shed
-  * Installing tools from the Tool Shed
-  * Exploring the filesystem layout of tools installed from the Tool Shed
+    * Installing tools from the Tool Shed
+    * Exploring the filesystem layout of tools installed from the Tool Shed
 
 ### Galaxy configuration for Tool Shed installs
 
@@ -143,12 +143,12 @@ serving on 127.0.0.1:8080 view at http://127.0.0.1:8080
 
 * Register an account that matches the address you set in `admin_users`
 * Follow the [tutorial on installing tools from the Tool Shed](/admin/tools/add-tool-from-toolshed-tutorial/). In brief:
-  * Click **Admin** from the masthead
-  * Click **Search and browse tool sheds** from the left panel
-  * Click the popup icon for **Galaxy main tool shed** and select **Search for valid tools**
-  * Search for **Tool name**s that contain the name `bwa`
-  * Click the popup icon for **bwa_wrappers** owned by **devteam** and select **Install to Galaxy**
-  * Select the **NGS: Mapping** section and click **Install to Galaxy**
+    * Click **Admin** from the masthead
+    * Click **Search and browse tool sheds** from the left panel
+    * Click the popup icon for **Galaxy main tool shed** and select **Search for valid tools**
+    * Search for **Tool name**s that contain the name `bwa`
+    * Click the popup icon for **bwa_wrappers** owned by **devteam** and select **Install to Galaxy**
+    * Select the **NGS: Mapping** section and click **Install to Galaxy**
 * Tools (XML, wrapper scripts) are installed in `/home/galaxy/shed_tools`
 * Tool dependencies (binaries) are installed in `/home/galaxy/tool_deps`
 
@@ -168,10 +168,10 @@ serving on 127.0.0.1:8080 view at http://127.0.0.1:8080
 
 * What is local data?
 * Manual data inclusion
-  * Building indexes on the command line
-  * `.loc` files
-  * `tool_data_table_conf.xml`
-  * Example of the above with bwa and S. cerevisiae (sacCer2) [transcript](/events/gcc2014/training-day/admin-walkthrough/#adding-local-data-by-hand)
+    * Building indexes on the command line
+    * `.loc` files
+    * `tool_data_table_conf.xml`
+    * Example of the above with bwa and S. cerevisiae (sacCer2) [transcript](/events/gcc2014/training-day/admin-walkthrough/#adding-local-data-by-hand)
 * Galaxy Data Managers
 
 ### Adding local data with a Galaxy Data Manager
@@ -755,11 +755,11 @@ Next, import the data in the Galaxy UI:
 * Enter a Name and Description (and optionally a Synopsis) and click **Create**
 * Click **Add datasets**:
 * On the upload form:
-  * From the **Upload option:** menu, select **Upload directory of files**
-  * In the **File Format:** field, enter **fastqsanger**
-  * From **Server Directory**, select **run1**
-  * From the **Copy data into Galaxy?** menu, select **Link to files without copying into Galaxy**
-  * Click **Upload to library**
+    * From the **Upload option:** menu, select **Upload directory of files**
+    * In the **File Format:** field, enter **fastqsanger**
+    * From **Server Directory**, select **run1**
+    * From the **Copy data into Galaxy?** menu, select **Link to files without copying into Galaxy**
+    * Click **Upload to library**
 * Click the **Shared Data** menu in the masthead and select **Data Libraries**
 * Click on the library you created
 * Select some datasets, then click **Go** to import them to your history

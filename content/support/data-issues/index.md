@@ -3,7 +3,7 @@
 
 ## Data Updates
 
-Master **Genomes Additions** tracking: https://github.com/galaxyproject/galaxy/issues/1470 
+Master **Genomes Additions** tracking: https://github.com/galaxyproject/galaxy/issues/1470
 
 ## Data Issues
 

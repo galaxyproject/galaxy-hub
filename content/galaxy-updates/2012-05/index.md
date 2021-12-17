@@ -12,7 +12,7 @@ Welcome to the May 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthl
 * The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held July 25-27, in Chicago.  
 * **[Early registration](/events/gcc2012/register/) is now open.**  The early registration deadline is June 11.
 * The [GCC2012 Training Day](/events/gcc2012/training-day/)
-  1. Has less capacity than the 2 days of the [main meeting](/events/gcc2012/program/), and 
+  1. Has less capacity than the 2 days of the [main meeting](/events/gcc2012/program/), and
   2. So far, everyone who has [registered](/events/gcc2012/register/) for the main meeting has also registered for the Training Day.
 * Cheap, *non-shared* rooms in the [James Stuckel Towers](/events/gcc2012/logistics/#james-stuckel-towers) on the UIC campus (and adjacent to the [conference venue](/events/gcc2012/logistics/#venue)) are going fast.
 * Did we mention that **[Early registration](/events/gcc2012/register/) is now open?**
@@ -25,7 +25,7 @@ Welcome to the May 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthl
 
 If you are planning on or are interested in attending GCC2012, please [take 2 minutes to tell us which topics you are interested in](https://docs.google.com/spreadsheet/viewform?formkey=dHBIRVB6cEhpTWpGN1pXSjhGdGR0aVE6MQ#gid=0).  We will use your feedback to set the Training Day schedule.
 
-Also, if you are interested in presenting a topic, especially a "how to use Galaxy" topic, then we strongly encourage you to also nominate yourself (or, hey someone else!) on the survey as well.  *Please provide your feedback no later than May 11.* 
+Also, if you are interested in presenting a topic, especially a "how to use Galaxy" topic, then we strongly encourage you to also nominate yourself (or, hey someone else!) on the survey as well.  *Please provide your feedback no later than May 11.*
 
 <table>
   <tr>
@@ -103,7 +103,7 @@ Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll p
 
 ### Deadlines
 
-<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='left'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
 There are May application deadlines for the Informatics on High Throughput Sequencing Data Workshop, and abstract and poster deadlines for SciPy and EuroSciPy (May 1!), SocBiN Bioinformatics 2012, and InCoB.
 
@@ -180,6 +180,7 @@ See the [Galaxy Events Google Calendar](https://www.google.com/calendar/embed?sr
 ## Tool Shed Contributions
 
 At least **7** new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in April, including
+
 * head_and_tail, cdf_plot, venn, and matrix_visualization
 * BEAST (Bayesian Evolutionary Analysis Sampling Trees): Bayesian MCMC analysis of molecular sequences.
 * rtg_investigator: Mapping and Analysis Software for NGS Platforms Roche, Illumina and Complete Genomics; software from [Real Time Genomics](http://www.realtimegenomics.com/).

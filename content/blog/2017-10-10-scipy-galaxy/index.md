@@ -8,7 +8,7 @@ image: /blog/2017-10-10-scipy-galaxy/sci-py-kit-learn.png
 
 [Numpy](http://www.numpy.org), [SciPy](https://www.scipy.org), [scikit-learn](http://scikit-learn.org),
 [pandas](http://pandas.pydata.org/) - indeed the entire scientific Python stack - provides an awesome foundation for modern
-scientific computing. With Jupyter now an [integral part of Galaxy](https://doi.org/10.1371%2Fjournal.pcbi.1005425) 
+scientific computing. With Jupyter now an [integral part of Galaxy](https://doi.org/10.1371%2Fjournal.pcbi.1005425)
 its time to integrate all the powerful scientific Python libraries into Galaxy.
 
 Integrating all different modules of scipy or scikit-learn into Galaxy as tools seems to be a laborious task.
@@ -22,8 +22,8 @@ keeping the maintenance burden as low as possible.
 
 For this we will rely on two features:
 
- * scipy unified API
- * [`<configfiles>`](https://docs.galaxyproject.org/en/latest/dev/schema.html#tool-configfiles)
+* scipy unified API
+* [`<configfiles>`](https://docs.galaxyproject.org/en/latest/dev/schema.html#tool-configfiles)
 
 
 The scipy API is great, and for example allows us to use all cluster algorithms in a very similar way. Consider the following

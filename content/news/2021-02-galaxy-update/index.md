@@ -16,58 +16,58 @@ autotoc: false
 </div>
 
 - **[Event news](#event-news)**:
-  - GCC2021 will be virtual, affordable, and globally accessible.
-  - GTN Smörgåsbord: A Global Galaxy Course. *Register by February 12 and we want your help!*
-  - 2nd Galaxy-ELIXIR webinar series, *February 10, 17, 24.*
-  - Papercuts and GTN CollaborationFest: *February 25.*
-  - CWL Mini Conference. *Starts Today.*
-  - Galaxy Developer Roundtable. *February 18, we need your topics.*
-  - Single-cell RNA-seq & network analysis using Galaxy and Cytoscape. *Apply by 26 February.*
+    - GCC2021 will be virtual, affordable, and globally accessible.
+    - GTN Smörgåsbord: A Global Galaxy Course. *Register by February 12 and we want your help!*
+    - 2nd Galaxy-ELIXIR webinar series, *February 10, 17, 24.*
+    - Papercuts and GTN CollaborationFest: *February 25.*
+    - CWL Mini Conference. *Starts Today.*
+    - Galaxy Developer Roundtable. *February 18, we need your topics.*
+    - Single-cell RNA-seq & network analysis using Galaxy and Cytoscape. *Apply by 26 February.*
 - **[Galaxy platform news](#galaxy-platforms-news)**:
-  - ATACgraph
-  - CorGAT on Laniakea
-  - *Everything* on UseGalaxy.eu
-  - Plus more UseGalaxy.\* news
+    - ATACgraph
+    - CorGAT on Laniakea
+    - *Everything* on UseGalaxy.eu
+    - Plus more UseGalaxy.\* news
 - **[Blog posts](#galactic-blog-activity)**:
-  - Nora, the new visualisation in Galaxy
-  - Three articles related to COVID-19 research using Galaxy in the de.NBI brochure
-  - Trusted CI and SGCI Collaborate to Secure the Galaxy Platform
-  - New and updated CNV and Variant Calling tools
-  - Variant Analysis of SARS-CoV-2 Sequencing Data: January 2021 update
-  - Major update to SearchGUI and PeptideShaker
-  - Try out Galaxy in Terra via AnVIL
-  - Analysis of RNA-seq data from neurodegenerative disease
-  - Galaxy Metabolomics Mini-Symposium report
+    - Nora, the new visualisation in Galaxy
+    - Three articles related to COVID-19 research using Galaxy in the de.NBI brochure
+    - Trusted CI and SGCI Collaborate to Secure the Galaxy Platform
+    - New and updated CNV and Variant Calling tools
+    - Variant Analysis of SARS-CoV-2 Sequencing Data: January 2021 update
+    - Major update to SearchGUI and PeptideShaker
+    - Try out Galaxy in Terra via AnVIL
+    - Analysis of RNA-seq data from neurodegenerative disease
+    - Galaxy Metabolomics Mini-Symposium report
 - **[Training material and doc updates](#doc-hub-and-training-updates)**:
-  - Report on 2021 Galaxy Admin Training
-  - Galaxy Server Administration Tutorials Update
-  - An introduction to scRNA-seq data analysis
-  - Gallantries implements automated text to speech for slides...
-  - ... resulting in lots of new videos!
-  - Life Science Trainers Questionnaire
-  - Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
-  - Proteogenomics 2: Database Search
-  - Chloroplast genome assembly
+    - Report on 2021 Galaxy Admin Training
+    - Galaxy Server Administration Tutorials Update
+    - An introduction to scRNA-seq data analysis
+    - Gallantries implements automated text to speech for slides...
+    - ... resulting in lots of new videos!
+    - Life Science Trainers Questionnaire
+    - Functionally Assembled Terrestrial Ecosystem Simulator (FATES)
+    - Proteogenomics 2: Database Search
+    - Chloroplast genome assembly
 - **[Publications](#publications)**:
-  - Tool recommender system in Galaxy using deep learning
-  - Comparative ligand structural analytics illustrated on variably glycosylated MUC1 antigen–antibody binding
-  - PDAUG - a Galaxy based toolset for peptide library analysis, visualization, and machine learning modeling
-  - CorGAT: A tool for the functional annotation of SARS-CoV-2 genomes
-  - Deep Learning for Detection and Segmentation in High-Content Microscopy Images
-  - ATACgraph: Profiling Genome-Wide Chromatin Accessibility From ATAC-seq
-  - SHARP: Harmonizing Galaxy and Taverna workflow provenance
-  - SARS-CoV-2 RECoVERY: A multi-platform open-source bioinformatic pipeline for the automatic construction and analysis of SARS-CoV-2 genomes from NGS sequencing data
+    - Tool recommender system in Galaxy using deep learning
+    - Comparative ligand structural analytics illustrated on variably glycosylated MUC1 antigen–antibody binding
+    - PDAUG - a Galaxy based toolset for peptide library analysis, visualization, and machine learning modeling
+    - CorGAT: A tool for the functional annotation of SARS-CoV-2 genomes
+    - Deep Learning for Detection and Segmentation in High-Content Microscopy Images
+    - ATACgraph: Profiling Genome-Wide Chromatin Accessibility From ATAC-seq
+    - SHARP: Harmonizing Galaxy and Taverna workflow provenance
+    - SARS-CoV-2 RECoVERY: A multi-platform open-source bioinformatic pipeline for the automatic construction and analysis of SARS-CoV-2 genomes from NGS sequencing data
 - **[Who's hiring?](#whos-hiring)**
-  - Europe:
-    - INRAE & AgroParisTech, Norwegian University of Life Science, IFB, VIB
-  - North America:
-    - Cleveland Clinic, Roche, Johns Hopkins (AnVIL, 2 positions; Galaxy, 2 Positions)
+    - Europe:
+        - INRAE & AgroParisTech, Norwegian University of Life Science, IFB, VIB
+    - North America:
+        - Cleveland Clinic, Roche, Johns Hopkins (AnVIL, 2 positions; Galaxy, 2 Positions)
 - **[New releases](#releases)**:
-  - Galaxy Language Server 0.3.2
+    - Galaxy Language Server 0.3.2
 - **[Other News](#other-news)**:
-  - Chan Zuckerberg Initiative injects funds into Galaxy platform for biomedical research
-  - Nuovo software per l’analisi genomica del Covid
-  - EMBL COVID-19 Data Platform
+    - Chan Zuckerberg Initiative injects funds into Galaxy platform for biomedical research
+    - Nuovo software per l’analisi genomica del Covid
+    - EMBL COVID-19 Data Platform
 
 </div>
 </div>
@@ -97,8 +97,8 @@ Despite COVID-19, there is still a lot going on, although online. We have update
 
 Things are just too uncertain to continue to plan an in person event for early July. GCC2021 won't be in person, but it will be more accessible and affordable because of it:
 
-* **GCC2021 events will be held twice each day**, once in their original Ghent time zone (GCC EMEA/APO), and again 8 hours later in the Americas (GCC Americas).
-* **Registration rates will be a fraction of the cost of an in person event**, and will include a significant discount for students and researchers based in low and lower-middle income countries.
+- **GCC2021 events will be held twice each day**, once in their original Ghent time zone (GCC EMEA/APO), and again 8 hours later in the Americas (GCC Americas).
+- **Registration rates will be a fraction of the cost of an in person event**, and will include a significant discount for students and researchers based in low and lower-middle income countries.
 
 Other things are changing too. See [the announcement](/news/2021-02-gcc-virtual/) for details.
 </div>
@@ -164,8 +164,8 @@ The February GTN CoFest & Community calls are joining forces with the February P
 
 Both events will feature community calls throughout the day with community engagement on chat throughout the day.  This is an excellent opportunity to become a contributor to the global open science, open source, and open access Galaxy community.
 
-* [Galaxy Training Network day -  CoFest and community call](/events/2021-02-gtn/)
-* [Galaxy February Papercuts CoFest day](/events/2021-02-papercuts/)
+- [Galaxy Training Network day -  CoFest and community call](/events/2021-02-gtn/)
+- [Galaxy February Papercuts CoFest day](/events/2021-02-papercuts/)
 
 Please join us online on 25 February, wherever you are in the world.
 </div>
@@ -285,11 +285,11 @@ The [ATACgraph Galaxy container](https://hub.docker.com/r/lsbnb/galaxy_atacgraph
 
 The Galaxy Europe team has been busy creating more customized Galaxy instances:
 
-* [StreetScience](https://streetscience.usegalaxy.eu/)
-* [Virology](https://virology.usegalaxy.eu/)
-* [COVID-19](https://covid19.usegalaxy.eu/)
-* [Metabolomics](https://metabolomics.usegalaxy.eu/), and
-* [Metagenomics](https://metagenomics.usegalaxy.eu/)
+- [StreetScience](https://streetscience.usegalaxy.eu/)
+- [Virology](https://virology.usegalaxy.eu/)
+- [COVID-19](https://covid19.usegalaxy.eu/)
+- [Metabolomics](https://metabolomics.usegalaxy.eu/), and
+- [Metagenomics](https://metagenomics.usegalaxy.eu/)
 
 These are just a few of the [large number of specialty subdomains hosted by UseGalaxy.eu](https://galaxyproject.eu/posts/2020/12/28/subdomains/).
 </div>
@@ -304,11 +304,11 @@ These are just a few of the [large number of specialty subdomains hosted by UseG
 
 <img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
-* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
+- Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 
-* UseGalaxy.eu has [increased in 11 TB its RAM](https://galaxyproject.eu/posts/2021/02/05/new-hw/) thanks to de.NBI-Cloud.
+- UseGalaxy.eu has [increased in 11 TB its RAM](https://galaxyproject.eu/posts/2021/02/05/new-hw/) thanks to de.NBI-Cloud.
 
-* The European Galaxy server listed as an official resource on the [COVID-19 Data Portal](https://www.covid19dataportal.org/related-resources).
+- The European Galaxy server listed as an official resource on the [COVID-19 Data Portal](https://www.covid19dataportal.org/related-resources).
 
 </div>
 
@@ -411,7 +411,7 @@ Continuous tracking of viral evolution through genome sequencing.
 
 By Carlos Horro Marcos.
 
-After 3 years of work, SearchGUI (SG), a tool that performs protein identification using various search engines, and PeptideShaker (PS) for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively. 
+After 3 years of work, SearchGUI (SG), a tool that performs protein identification using various search engines, and PeptideShaker (PS) for protein identification (which uses SearchGUI results) have been deeply updated and released in new major versions: 4.0.7 and 2.0.5, respectively.
 
 </div>
 
@@ -504,16 +504,16 @@ By Galaxy Admin Training Instructors.
 
 As a result of the recently completed Admin Training course, most [Galaxy Server Admin topics](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html) were updated:
 
-* [Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html)
-* [Galaxy Installation with Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html)
-* [Connecting Galaxy to a compute cluster](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html)
-* [Data Libraries](https://training.galaxyproject.org/training-material/topics/admin/tutorials/data-library/tutorial.html)
-* [Distributed Object Storage](https://training.galaxyproject.org/training-material/topics/admin/tutorials/object-store/tutorial.html)
-* [Galaxy Monitoring with Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html)
-* [Galaxy Monitoring with Telegraf and Grafana](https://training.galaxyproject.org/training-material/topics/admin/tutorials/monitoring/tutorial.html)
-* [Galaxy Tool Management with Ephemeris](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tool-management/tutorial.html)
-* [Mapping Jobs to Destinations](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html)
-* plus at least 6 more hands on examples and at least 13 slide decks.
+- [Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible/tutorial.html)
+- [Galaxy Installation with Ansible](https://training.galaxyproject.org/training-material/topics/admin/tutorials/ansible-galaxy/tutorial.html)
+- [Connecting Galaxy to a compute cluster](https://training.galaxyproject.org/training-material/topics/admin/tutorials/connect-to-compute-cluster/tutorial.html)
+- [Data Libraries](https://training.galaxyproject.org/training-material/topics/admin/tutorials/data-library/tutorial.html)
+- [Distributed Object Storage](https://training.galaxyproject.org/training-material/topics/admin/tutorials/object-store/tutorial.html)
+- [Galaxy Monitoring with Reports](https://training.galaxyproject.org/training-material/topics/admin/tutorials/reports/tutorial.html)
+- [Galaxy Monitoring with Telegraf and Grafana](https://training.galaxyproject.org/training-material/topics/admin/tutorials/monitoring/tutorial.html)
+- [Galaxy Tool Management with Ephemeris](https://training.galaxyproject.org/training-material/topics/admin/tutorials/tool-management/tutorial.html)
+- [Mapping Jobs to Destinations](https://training.galaxyproject.org/training-material/topics/admin/tutorials/job-destinations/tutorial.html)
+- plus at least 6 more hands on examples and at least 13 slide decks.
 
 <img class="card-img-bottom" src="/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training" />
 </div>
@@ -562,11 +562,11 @@ This new feature will help the GTN contributors, as they will only need to enabl
 
 A number of tutorials have already created videos using the new text to speech capability:
 
-* [Functionally Assembled Terrestrial Ecosystem Simulator (FATES)](https://training.galaxyproject.org/training-material/topics/climate/videos/#video-climate-fates), added by Anne Fouilloux
-* [Genome Annotation with Prokka](https://training.galaxyproject.org/training-material/topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka), added by Anthony Bretaudeau
-*  [An introduction to scRNA-seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/videos/#video-transcriptomics-scrna-intro), added by Mehmet Tekman
-* **[Thirteen videos on Galaxy Server Administration](https://training.galaxyproject.org/training-material/topics/admin/videos/)**, created by the 2021 Galaxy Admin Training instructors.
-* [ Scripting Galaxy using the API and BioBlend](https://training.galaxyproject.org/training-material/topics/dev/videos/#video-dev-bioblend-api), added by Nicola Soranzo
+- [Functionally Assembled Terrestrial Ecosystem Simulator (FATES)](https://training.galaxyproject.org/training-material/topics/climate/videos/#video-climate-fates), added by Anne Fouilloux
+- [Genome Annotation with Prokka](https://training.galaxyproject.org/training-material/topics/genome-annotation/videos/#video-genome-annotation-annotation-with-prokka), added by Anthony Bretaudeau
+- [An introduction to scRNA-seq data analysis](https://training.galaxyproject.org/training-material/topics/transcriptomics/videos/#video-transcriptomics-scrna-intro), added by Mehmet Tekman
+- **[Thirteen videos on Galaxy Server Administration](https://training.galaxyproject.org/training-material/topics/admin/videos/)**, created by the 2021 Galaxy Admin Training instructors.
+- [ Scripting Galaxy using the API and BioBlend](https://training.galaxyproject.org/training-material/topics/dev/videos/#video-dev-bioblend-api), added by Nicola Soranzo
 
 ![GTN Videos](./gtn-videos.png)
 
@@ -635,7 +635,7 @@ This genome assembly tutorial got an update from Anna Syme.
 
 
 </div>
- 
+
 
 # Publications
 
@@ -796,7 +796,7 @@ Interested in host-microbiome interactions and multi-omic data? We have multiple
 
 </div>
 
-Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University. 
+Department of Biostatistics, Bloomberg School of Public Health, Johns Hopkins University.
 
 Data science research and education focusing on genomics ([AnVIL](https://anvilproject.org/), [Genomic Data Science Community Network](http://www.gdscn.org/)), cancer ([ITCR](https://itcr.cancer.gov/))  or pain [A2CPS](https://a2cps.org/).
 
@@ -814,11 +814,11 @@ Data science research and education focusing on genomics ([AnVIL](https://anvilp
 
 Roche, Bay Area, California, United States.
 
-* Lead data mining for biomarker discovery for medical conditions of interest.
-* Develop Agile Assay Design (AAD) tools for qPCR tests.
-* NGS data analysis tools and/or workflows.
-* Use these tools & workflows for R&D projects.
-* Deploy these tools on Roche intranet (Galaxy) and train scientists to use them.
+- Lead data mining for biomarker discovery for medical conditions of interest.
+- Develop Agile Assay Design (AAD) tools for qPCR tests.
+- NGS data analysis tools and/or workflows.
+- Use these tools & workflows for R&D projects.
+- Deploy these tools on Roche intranet (Galaxy) and train scientists to use them.
 
 <img class="card-img-bottom" src="/images/logos/roche-logo.png" alt="Roche" />
 </div>
@@ -834,7 +834,7 @@ Roche, Bay Area, California, United States.
 
 Johns Hopkins University, Baltimore, Maryland, United States.
 
-Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis. 
+Provide technical expertise and oversight for the [AnVIL Project](http://anvilproject.org/), which incorporates Galaxy, Bioconductor, Terra, Gen3, and Dockstore into a secure cloud-based software ecosystem for genomic data analysis.
 
 <img class="card-img-bottom" src="/images/logos/anvil-logo-text.png" alt="AnVIL" />
 </div>
@@ -849,8 +849,9 @@ Provide technical expertise and oversight for the [AnVIL Project](http://anvilpr
 </div>
 
 The Schatz Lab at Johns Hopkins University is looking for:
-* Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
-* Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
+
+- Self-driven individuals that can work independently to fill multiple software development positions on the Galaxy Project.
+- Ambitious individuals to fill a programmer analyst position working on the Galaxy and [AnVIL](https://anvilproject.org/) projects.
 
 <img class="card-img-bottom" src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins" />
 </div>

@@ -24,4 +24,4 @@ Our plans and the proposal can be found [here](https://docs.google.com/document/
 
 For more information please see the [official ELIXIR announcement](https://www.elixir-europe.org/news/elixir-establish-new-use-cases-proteomics-metabolomics-and-galaxy).
 
- 
+

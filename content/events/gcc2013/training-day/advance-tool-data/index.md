@@ -47,7 +47,7 @@ In summary, the essence of the entire 2 hour session is that to create your own 
 
 ## 15:05-15:25 Hello world in Galaxian
 
-The first exercise consists of creating (or copying, your choice) a text file containing valid XML describing a simple and admittedly, not very useful tool which calls a python script to do some work. However, it will demonstrate the bare bones of the power of the Galaxy tool interface. A few lines of XML and a small python script get you a familiar, simple user interface and a single new history item - a text file containing a string. Note that this is a trivial variation on the hello world tool used in the introductory session - instead of a fugly command line, we're also introducing a python script that does the actual work. 
+The first exercise consists of creating (or copying, your choice) a text file containing valid XML describing a simple and admittedly, not very useful tool which calls a python script to do some work. However, it will demonstrate the bare bones of the power of the Galaxy tool interface. A few lines of XML and a small python script get you a familiar, simple user interface and a single new history item - a text file containing a string. Note that this is a trivial variation on the hello world tool used in the introductory session - instead of a fugly command line, we're also introducing a python script that does the actual work.
 
 Steps:
 
@@ -105,6 +105,7 @@ if __name__ == "__main__":
 
 
 Test this script on the command line - eg something like
+
 ```
 python tools/hello_advanced/hello_advanced.py -s "hello" -s "advanced" -s "world" -o /tmp/test.txt
 cat /tmp/test.txt
@@ -129,12 +130,14 @@ The syntax ${...} is recommended and it is also recommended that all user suppli
 3. #3 Restart
 
  **Stop Galaxy if it's running**
+
  ```
  sh run.sh –stop-daemon
  ```
 
 
  **Restart Galaxy**
+
  ```
  sh run.sh –daemon
  ```
@@ -142,7 +145,7 @@ The syntax ${...} is recommended and it is also recommended that all user suppli
 
 4. #4 Check paster.log for errors (search for “hello” to find where your tool loaded – or barfed). If it fails to load, look for the syntax error, repair it, rinse, repeat... until it loads.
 
-5. #5 When it loads correctly, test your new tool. In your VM webrowser, visit http://localhost:8080 . Register your admin email address if you haven't already done so and log in. Test your new tool. It will write “hello world” to a new file in your history. If/when it works, find the actual commands Galaxy executed to run your tool in paster.log. If it fails, look in paster.log for hints about what went wrong. Repair and reload via the admin interface (no need to restart the Galaxy server) until it works. 
+5. #5 When it loads correctly, test your new tool. In your VM webrowser, visit http://localhost:8080 . Register your admin email address if you haven't already done so and log in. Test your new tool. It will write “hello world” to a new file in your history. If/when it works, find the actual commands Galaxy executed to run your tool in paster.log. If it fails, look in paster.log for hints about what went wrong. Repair and reload via the admin interface (no need to restart the Galaxy server) until it works.
 
 6. #6 Raise arms in victory \o/
 
@@ -161,6 +164,7 @@ Tests could fill a workshop on their own, but we can add a simple one for the he
 Steps:
 
 1. #1 Make a new text file in your Galaxy test-data/ directory under the name hello_world_advanced_testout.txt - we will provide that name to the test tag and the test harness will find it there. It should contain exactly the same string as a successful run of the hello world advanced script which should be the single string
+
   ```
 
 hello world advanced
@@ -199,6 +203,7 @@ Says hello advanced world by running a python script and passing appropriate par
 4. #5 Reload the hello_world_advanced tool and run it again to make sure there are no syntax errors in the test section - the test won't pass unless the tool itself runs in Galaxy.
 
 5. #6 Run a functional test on the command line and use the -id parameter to pass the tool id hello_advanced
+
   ```
 
 sh run_functional_tests.sh -id hello_advanced
@@ -209,7 +214,7 @@ If the test does not work you will see some tracebacks which will indicate what 
 
 ## 15:40-15:55. Hello repeating input
 
-Add a repeating group input parameter as shown. These are handy when you need an unknown number of parameters from the user since they allow the user to simply add more until they are done. Save. Reload the tool via the admin interface and test it out. Repeat until it's working right. Experiment and play with the new repeating parameter. Note how the repeats are passed to the python script, where the optparse "append" option adds them to a list of strings which are then written as newline delimited rows. 
+Add a repeating group input parameter as shown. These are handy when you need an unknown number of parameters from the user since they allow the user to simply add more until they are done. Save. Reload the tool via the admin interface and test it out. Repeat until it's working right. Experiment and play with the new repeating parameter. Note how the repeats are passed to the python script, where the optparse "append" option adds them to a list of strings which are then written as newline delimited rows.
 
 ```xml
 <tool id="hello_advanced" name="Hello Advanced" version="0.03">
@@ -297,17 +302,19 @@ http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax#A.3Crepeat.3E_tag_set
 
 ## 16:10 – 16:30 Hello Tool Data Tables
 
-Many Galaxy tools are able to make use of built-in reference data, e.g. genome indexes for the bwa aligner, that a user can choose from e.g. a select list. Ordinarily, this select list would need to be hard-coded into the tool's xml config, but by relying on Tool Data Tables, we can have the options of the select list populated with content from an external file. 
+Many Galaxy tools are able to make use of built-in reference data, e.g. genome indexes for the bwa aligner, that a user can choose from e.g. a select list. Ordinarily, this select list would need to be hard-coded into the tool's xml config, but by relying on Tool Data Tables, we can have the options of the select list populated with content from an external file.
 
 Currently Tool Data Tables use tab-delimited files (the framework is generic and other formatted files can be defined); each field in the table is separated by a tab character.
 
 A bare minimum for tool data tables is to include at least a value (required) and a display name (defaults to value when not specified) that will be used to populate the tool form and determine the value to pass on the command-line. The exact number and content of the columns to use with a tool data table will vary for the specific purpose, but a good practice would be to include an unique ID (value), name, dbkey (when needed), and command-line value. For example, the bwa_index.loc file has the form:
+
 ```
 <unique_build_id>	<dbkey>	<display_name>	<file_path>
 ```
 
 
 with a tool data table defined in tool_data_table_conf.xml:
+
 ```xml
 <tables>
     <!-- Locations of indexes in the BWA mapper format -->
@@ -321,6 +328,7 @@ with a tool data table defined in tool_data_table_conf.xml:
 Here the value is the unique id and is the value stored in the database (for e.g. rerun). The path column contains the path to the indexes, which will be the value passed to the command-line; this allows the underlying paths to the indexes to change over time, as needed, but to remain usable in workflows or via rerun.
 
 Inside of the bwa tool xml file, we then define the select list parameter as:
+
 ```xml
 <param name="indices" type="select" label="Select a reference genome">
           <options from_data_table="bwa_indexes">
@@ -330,12 +338,14 @@ Inside of the bwa tool xml file, we then define the select list parameter as:
 ```
 
 and can pass the "path" value of the selected data table entry as:
+
 ```
 "${indices.fields.path}"
 ```
 
 
 Create a new location file tool-data/hello_world.loc, and add several entries, e.g. of the form:
+
 ```
 #<greeting_id>	<greeting_text>	<path_to_image_file_of_greeting>	<world_where_greating_is_valid>
 greeting_hello	Hello	/path/to/file.png	Earth
@@ -344,6 +354,7 @@ greeting_hello	Hello	/path/to/file.png	Earth
 **Be sure to check that white space between fields are `<TABS>` and not spaces (double check, some editors automatically replace tab with space).**
 
 Edit your tool_data_tables_conf.xml file and define the structure of the data table:
+
 ```xml
 <table name="hello_world" comment_char="#">
         <columns>value, name, image_path, valid_world</columns>
@@ -352,7 +363,8 @@ Edit your tool_data_tables_conf.xml file and define the structure of the data ta
 ```
 
 
-Define the new parameter as 
+Define the new parameter as
+
 ```xml
 <param name="builtin_greeting" type="select" label="Select a greeting">
           <options from_data_table="hello_world">
@@ -363,11 +375,13 @@ Define the new parameter as
 
 
 You can then access the various fields in the command-line by using e.g
+
 ```
 -s "${builtin_greeting.fields.name}"
 ```
 
 or
+
 ```
 -s "${builtin_greeting.fields.valid_world}"
 ```
@@ -384,6 +398,7 @@ Extensively documented: http://wiki.galaxyproject.org/Admin/Tools[/ToolConfigSyn
 An example is the GATK. See tools/gatk/unified_genotyper.xml which makes use of the Macro file tools/gatk/gatk_macros.xml.
 
 unified_genotyper.xml:
+
 ```xml
 <tool id="gatk_unified_genotyper" name="Unified Genotyper" version="0.0.6">
   <description>SNP and indel caller</description>
@@ -710,6 +725,7 @@ Go `here &lt;http://www.broadinstitute.org/gsa/wiki/index.php/Input_files_for_th
 
 
 gatk_macros.xml:
+
 ```xml
 <macros>
   <template name="standard_gatk_options">      
@@ -1028,16 +1044,17 @@ Can you use Macros to simplify the inclusion of common tool content between the 
 Open questions and Free play.
 
 Some suggestions for exploration (http://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax):
+
 * Config files
 * Validators
 * Defining Datatypes and Metadata
-  * Composite Datatypes
+    * Composite Datatypes
 * Parameter sanitizers
 * Advanced Data source tool configuration
 * Dynamic Select parameters
 * Customizing output attributes
-  * Labels
-  * output `<actions>` (e.g. see tools/filters/cutWrapper.xml)
+    * Labels
+    * output `<actions>` (e.g. see tools/filters/cutWrapper.xml)
 
 ## 17:00 session ends
 

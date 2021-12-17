@@ -53,7 +53,7 @@ URGI is an INRA bio-informatics unit dedicated to plants and pest genomics. We h
 Integrating Galaxy with data repositories without a significant amount of manual intervention has remained a difficult task. By extending and adding to Galaxy’s core API functionality, we are able to demonstrate controlling and automating analyses purely through a 3rd party interface using the Harvard Stem Cell Institute's Stem Cell Commons project as a use case. Experimental metadata defined by ISA-TAB specifications are integrated to guide users to choose the proper workflows, parameters, and data sources to run and interpret analyses.
 
 With the avalanche of data available in public and private repositories there is a growing need to use Galaxy in a fully automated and dynamic fashion. We enhanced Galaxy’s API in a number of ways. Galaxy can now import, delete, and download workflows as well as run workflows with variable tool parameters. Finally, we are able to generate and run dynamic workflows based on a variable number of input files selected from a data repository.
-       
+
 This ongoing project demonstrates a novel integration of Galaxy with experimental metadata and raw data available in biomedical data repositories. We directly benefit by using key Galaxy features such as cluster/Cloud deployment, the large selection of tools, and the workflow editor. We hope to provide the greater Galaxy community the utility of our API extensions as well as the novel possibilities of using Galaxy in a fully automated fashion. We hope to use this opportunity to gain feedback and learn better approaches from the Galaxy developer community.
 
 ## Role of Galaxy in a bioinformatic plant breeding platform
@@ -176,7 +176,7 @@ The intersection of the established Galaxy Research community with the requireme
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Afgan.pdf), Video*
 
-An increasing number of small groups do not have simple access to needed bioinformatics tools and data resources. The tools are complicated to install and customize, require dedicated compute resources and data stores, and typically involve a high level of ongoing maintenance to keep the software, data and hardware current, which in turn requires significant expertise in software development, system administration and hardware and networking, as well as access to hardware resources and data-centers. Galaxy CloudMan addresses many of the issues dealing with the initial provisioning of a configured set of tools and data that have been integrated with Galaxy, thus facilitating the access to accessible and private bioinformatics platform. 
+An increasing number of small groups do not have simple access to needed bioinformatics tools and data resources. The tools are complicated to install and customize, require dedicated compute resources and data stores, and typically involve a high level of ongoing maintenance to keep the software, data and hardware current, which in turn requires significant expertise in software development, system administration and hardware and networking, as well as access to hardware resources and data-centers. Galaxy CloudMan addresses many of the issues dealing with the initial provisioning of a configured set of tools and data that have been integrated with Galaxy, thus facilitating the access to accessible and private bioinformatics platform.
 
 Through the context of CloudMan, this talk will focus on the components required to establish a national collaborative initiative that aims at connecting genome researchers with massive datasets, sophisticated analysis and visualization tools, and large-scale computational and storage infrastructure. The initiative is known as the Genomics Virtual Laboratory; it is designed to scale to multiple locations and arbitrary cluster sizes as well as be supported by comprehensive training courses, outreach programs, and end-user support.
 
@@ -215,9 +215,9 @@ Sebastian J. Schultheiss<sup>1</sup>, Géraldine Jean<sup>1,2</sup>, **Vipin T. 
 With the latest improvements in next-generation sequencing technologies, data analysis software is constantly updated to obtain the best-possible results in a reasonable time period. However, the sheer number of different software programs available for the same task can be overwhelming, and it is difficult for researchers to determine which ones to use for their experimental set up.
 
 Here, we present Oqtans+, an improved open-source workbench integrated in the Galaxy framework that enables researchers to perform comparative quantitative transcriptome analysis, in part thanks to the Galaxy NGS toolbox. In addition to the NGS toolbox, we provide tool wrappers for the following tools: PALMapper, mTIM, Trinity, rQuant, rDiff, DESeq, Genesetter, GOrilla, SAFT, KIRMES, Shogun, GFF Tools, and others. The distinguishing features of Oqtans+ include a modular pipeline architecture, which facilitates comparative assessment of tool and data quality: Since Oqtans+ contains several tools that can in principle be applied to the same data, it is straightforward to compare the performance of different programs and parameter settings on the same data and choose the best suited for the task. Oqtans+ also contains programs, which are well-suited for the evaluation of RNA-seq read alignment accuracy, in particular when dealing with read alignment filtering and optimal alignment of multiple mapped reads.
- 
+
 Moreover, Oqtans+ provides sophisticated machine learning-powered tools that are shown to perform
-better or as well as the state-of-the-art for short-read alignments, transcript identification/quantification, and differential expression analysis. Finally, Oqtans+ sets a new standard in terms of reproducibility, building on Galaxy’s features that greatly facilitate persistent storage, exchange, and documentation of intermediate results and analysis workflows. We show how to use Oqtans+ with two easy-to-understand workflow examples and real-world data. 
+better or as well as the state-of-the-art for short-read alignments, transcript identification/quantification, and differential expression analysis. Finally, Oqtans+ sets a new standard in terms of reproducibility, building on Galaxy’s features that greatly facilitate persistent storage, exchange, and documentation of intermediate results and analysis workflows. We show how to use Oqtans+ with two easy-to-understand workflow examples and real-world data.
 
 Oqtans+ is available for download (GPL, free for non- commercial use), as a machine image for cloud environments, and at our server via the persistent web address [bioweb.me/oqtans](http://bioweb.me/oqtans).
 
@@ -232,7 +232,7 @@ Contact: support@oqtans.org; ratschg@mskcc.org
 
  <sup>1</sup> Department of Biochemistry and Molecular Biophysics, Howard Hughes Medical Institute, Columbia University Medical Center, New York, NY, USA<br />
  <sup>2</sup> Center for Comparative Genomics and Bioinformatics, Penn State University, University Park, PA, USA<br />
- 
+
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Minevich.pdf), Video*
 
 Whole genome sequencing (WGS) is the fastest and most cost effective way to map causal mutations in model organisms such as *C. elegans*. Our lab has previously developed single step SNP mapping strategies coupled with whole genome sequencing ([Doitsidou et al. 2010](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0015435)) as well as software analysis tools for mutant genome sequence analysis (MAQGene, [Bigelow et al. 2009](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2854518/?tool=pubmed)). In an effort to take advantage of the cloud and many freely available open source tools, we've adapted our mutant genome sequence analysis pipeline to run on Galaxy. Our pipeline uses custom Python scripts to provide greatly improved mutant mapping tools and relies on the NGS Toolbox in Galaxy, [GATK Tools](http://www.nature.com/ng/journal/v43/n5/abs/ng.806.html), and [snpEff](http://snpeff.sourceforge.net). In addition to allowing for pinpoint mapping of causal mutations in *C. elegans* using any mapping strain, we also support similar mapping strategies for other model organisms that can be crossed to mapping strains. An alternate mapping strategy whereby mutants are backcrossed to their starting strain ([Zuryn, et al. 2010](http://www.genetics.org/content/186/1/427.full)) is also supported. The CloudMap pipeline provides a set of best practices for mapping causal mutations and also facilitates the cataloguing and sharing of WGS variant data among model organism communities that use the tool.
@@ -252,7 +252,7 @@ Correspondence to [gm2123 AT columbia DOT edu](mailto:gm2123 AT columbia DOT edu
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Sun.pdf), Video*
 
-With the numerous projects focusing on gene regulation and epigenetic mechanisms such as ENCODE, a huge amount of ChIP-seq data has been produced and stored in various databases, such as SRA and UCSC. However, as the size of database grows, it become more difficult for users to retrieve potentially helpful data and analysis the possible relationship within such large datasets. 
+With the numerous projects focusing on gene regulation and epigenetic mechanisms such as ENCODE, a huge amount of ChIP-seq data has been produced and stored in various databases, such as SRA and UCSC. However, as the size of database grows, it become more difficult for users to retrieve potentially helpful data and analysis the possible relationship within such large datasets.
 
 For many genome databases, keyword search method is widely used for their retrieval. Hence, when a user searches for a dataset with a keyword, he/she can only retrieve the datasets whose meta-data contains this keyword. If a dataset doesn’t contain this keyword in its meta-data, users can’t find it by keyword searching, though it may have most characteristics of the datasets under this keyword.
 
@@ -283,11 +283,11 @@ The big data derived from next generation sequencing experiments makes efficient
 
 Mohammad Heydarian<sup>1</sup>, Barbara Sollner-Webb<sup>1</sup>, and **Karen Reddy<sup>1</sup>**
 
- <sup>1</sup> Department of Biological Chemistry & Center for Epigenetics, Johns Hopkins University. 
+ <sup>1</sup> Department of Biological Chemistry & Center for Epigenetics, Johns Hopkins University.
 
 *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Reddy.pdf), Video*
 
-As the cost of next generation sequencing decreases and the accessibility increases many labs will be in a position to perform NGS experiments, at one point limited to the mega-lab. With NGS data comes the necessity for adequate analysis capabilities to make sense of millions to billions of short sequence reads. These large data sets require high performance computing power for their analysis, generally not found in office computers that service the standard science lab. The Galaxy Project has developed an instance of its powerful and user friendly environment to be used with Amazon Web Services to allow researchers to perform NGS analysis on the cloud. This is a very convenient option for researchers who are in need of high computational power for a limited number of experiments (time) and may not have access to the necessary computational infrastructure. Here we discuss our experiences as cellular and molecular biologists with no computational/programming background performing RNA-seq analysis using the Galaxy CloudMan. We aim to create resource that can help the non-computational biologist establish cloud space and perform analyses with minimal programming/coding, to maximize the efficiency of the biologist and to allow her/him to focus on the biology of the experiment. This work will hopefully contribute to the dialogue between biologists and developers to maximize the efficiency of both parties. 
+As the cost of next generation sequencing decreases and the accessibility increases many labs will be in a position to perform NGS experiments, at one point limited to the mega-lab. With NGS data comes the necessity for adequate analysis capabilities to make sense of millions to billions of short sequence reads. These large data sets require high performance computing power for their analysis, generally not found in office computers that service the standard science lab. The Galaxy Project has developed an instance of its powerful and user friendly environment to be used with Amazon Web Services to allow researchers to perform NGS analysis on the cloud. This is a very convenient option for researchers who are in need of high computational power for a limited number of experiments (time) and may not have access to the necessary computational infrastructure. Here we discuss our experiences as cellular and molecular biologists with no computational/programming background performing RNA-seq analysis using the Galaxy CloudMan. We aim to create resource that can help the non-computational biologist establish cloud space and perform analyses with minimal programming/coding, to maximize the efficiency of the biologist and to allow her/him to focus on the biology of the experiment. This work will hopefully contribute to the dialogue between biologists and developers to maximize the efficiency of both parties.
 
 ## The Galaxy Visualization Framework
 
@@ -311,7 +311,7 @@ The Galaxy team is building a framework for Web-based visualization of next-gene
 
 **[Mike Lelivelt](/people/mike-lelivelt/)<sup>1</sup>**
 
- <sup>1</sup> Director of Bioinformatics and Software Products, [Ion Torrent](http://lifetech.com) 
+ <sup>1</sup> Director of Bioinformatics and Software Products, [Ion Torrent](http://lifetech.com)
 
 *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lelivelt.pdf), [PPT](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lelivelt.ppt), Video*
 
@@ -405,15 +405,15 @@ The National Center for Genome Analysis Support is an NSF funded resource design
 
 *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Vardi.pdf), [PPSX](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Vardi.ppsx), Video*
 
-Galaxy holds the promise of incorporating diverse command-line tools into reusable workflows. However, a big limitation of a typical Galaxy installation is the strict requirement that all tools be run from a Linux shell. As a result, many external tools that are pre-compiled for windows cannot be easily incorporated into a galaxy workflow. While a windows simulator, such as Wine, can provide a partial solution, its installation is not trivial for some Linux distributions, and, moreover, it does not provide full windows compatibility. 
+Galaxy holds the promise of incorporating diverse command-line tools into reusable workflows. However, a big limitation of a typical Galaxy installation is the strict requirement that all tools be run from a Linux shell. As a result, many external tools that are pre-compiled for windows cannot be easily incorporated into a galaxy workflow. While a windows simulator, such as Wine, can provide a partial solution, its installation is not trivial for some Linux distributions, and, moreover, it does not provide full windows compatibility.
 
 We present a Galaxy extension, *Window2Galaxy*, that acts as a middle-man between Linux and Windows, enabling Galaxy developers to incorporate Windows command-line tools into a standard Linux-based galaxy workflow. Our tool consists of two parts: A Linux client and a windows web-service. The web-service is hosted on a web-server (which can be run on either an external windows machine or on a local windows virtual machine) is responsible for executing the command line. A Linux client is responsible for copying input files from galaxy to a shared directory; send “execute” request to the windows service and finally, copying output files back to Galaxy repository.  
 
-With this extension, adding a windows-based tool to galaxy is straight forward – adding "Window2Galaxy" before the windows-command in the xml configuration file.   
+With this extension, adding a windows-based tool to galaxy is straight forward – adding "Window2Galaxy" before the windows-command in the xml configuration file.
 
-From end-users perspective, this extension is completely transparent – workflows can be constructed from various tools, independent of whether those tools are Linux or Windows based. 
+From end-users perspective, this extension is completely transparent – workflows can be constructed from various tools, independent of whether those tools are Linux or Windows based.
 
-In the talk, we will present the architecture and provide example use cases. 
+In the talk, we will present the architecture and provide example use cases.
 
 
 ## NBIC Galaxy to Strengthen the Bioinformatics Community in the Netherlands
@@ -438,7 +438,7 @@ The Netherlands Bioinformatics Centre (NBIC) plays a central coordinating role i
 
 **Ted Liefeld<sup>1</sup>**
 
- <sup>1</sup> Broad Institute 
+ <sup>1</sup> Broad Institute
 
 *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Liefeld.pdf), [PPTX](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Liefeld.pptx), Video*
 

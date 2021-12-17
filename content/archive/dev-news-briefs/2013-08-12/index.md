@@ -4,14 +4,9 @@ date: 2013-08-12
 ---
 
 [All News Briefs](/docs/)
-<br />
+
 [Distribution Summary 2013_08_12](/news/2013-08-12-galaxy-distribution/)
 
-<br />
-
-
-
-<br />
 # Get Galaxy
 
 *Please note new* **upgrade** *syntax*
@@ -61,10 +56,11 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 # Tools
 
 1. **Data Manager**
-  * Individual location files are now namespaced when installed from the toolshed, and
-  * Will write only to the location files that were installed along with them, when installed from a toolshed. https://trello.com/c/UL2Ripd0
-  * Allow a named Tool Data Table to be defined more than once. If column definitions match, allow merging multiple tables. https://trello.com/c/p7I9adrj
-  * Permit multiple value translations to be specified per column and also allow multiple types of value translations. https://trello.com/c/n97jX4UN
+
+* Individual location files are now namespaced when installed from the toolshed, and
+* Will write only to the location files that were installed along with them, when installed from a toolshed. https://trello.com/c/UL2Ripd0
+* Allow a named Tool Data Table to be defined more than once. If column definitions match, allow merging multiple tables. https://trello.com/c/p7I9adrj
+* Permit multiple value translations to be specified per column and also allow multiple types of value translations. https://trello.com/c/n97jX4UN
 
 <br />
 # Visualizations
@@ -146,13 +142,15 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 ## Tool Shed feature enhancements
 
 1. #1 Repositories in the tool shed that contain tools that are not tested for any reason now display a "Not tested" container within the "Automated tool test results" section of the Manage repository page.  This new container displays the reason the tool was not tested.
-1. #2 Enhanced tool dependency definition
-  * Add support for optionally extracting a file downloaded with the download_file tool dependency action.
-  * Add a change_directory action.
-  * Contributions from [Björn Grüning](https://bitbucket.org/BjoernGruening) (thanks!) adding support for a `template_command` action type in tool dependency definitions for the tool shed. An example of the new action tag is:
-    ```
+2. #2 Enhanced tool dependency definition
 
+    * Add support for optionally extracting a file downloaded with the download_file tool dependency action.
+    * Add a change_directory action.
+    * Contributions from [Björn Grüning](https://bitbucket.org/BjoernGruening) (thanks!) adding support for a `template_command` action type in tool dependency definitions for the tool shed. An example of the new action tag is:
+
+```
 <action type="template_command" language="cheetah">...</action>
+
 ```
 
 1. #3 Allow public usernames in the tool shed to be a minimum of 3 characters instead of the Galaxy minimum of 4 characters.

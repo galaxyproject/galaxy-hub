@@ -44,6 +44,7 @@ following body, replacing information with your relevant data:
 * URI : https://custos.scigap.org:/apiserver/tenant-management/v1.0.0/oauth2/tenant
 * Method : POST
 * Body :
+
     ```
     client_name:John Doe University
     requester_email:johndoe@university.edu

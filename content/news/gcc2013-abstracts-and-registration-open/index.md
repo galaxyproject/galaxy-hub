@@ -16,7 +16,7 @@ If you are a biologist or bioinformatician performing or enabling high-throughpu
 * Sequencing and Bioinformatics core staff
 * Data archival and analysis reproducibility specialists
 
-**[Early registration](/events/gcc2013/register/)** is now open. Register early and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/events/gcc2013/training-day/) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May. 
+**[Early registration](/events/gcc2013/register/)** is now open. Register early and *save up to 75% off regular registration costs.*  Early registration is very affordable, with combined registration ([Training Day](/events/gcc2013/training-day/) + main meeting) starting at ~ €95 for post-docs and students.  Registering early also assures you a spot in the Training Day workshops you want to attend.  Once a session becomes full, it will be closed to new registrations.  Early registration closes 24 May.
 
 **[Abstract submission](/events/gcc2013/abstracts/)** for both oral presentations and posters is also open.  Abstract submission for oral presentations closes 12 April, and poster abstract submission closes 3 May.  Please consider presenting your work. If you are dealing with big biological data, then this meeting wants to hear about your work.
 

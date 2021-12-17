@@ -11,7 +11,7 @@ date: "2014-09-03"
 
 <div class='right'><a href='http://bit.ly/1lIsHQh'><img src="/images/logos/ASA_CSSA_SSSA_2014.jpg" alt="Galaxy Workshops at 2014 ASA, CSSA, and SSSA International Annual Meeting" width="500" /></a></div>
 
-This year Galaxy will have a presence (for the first time) at the [ASA, CSSA, and SSSA International Annual Meeting](https://www.acsmeetings.org/home), being held in Long Beach, California, from November 1-5.  Three workshops are being offered: 
+This year Galaxy will have a presence (for the first time) at the [ASA, CSSA, and SSSA International Annual Meeting](https://www.acsmeetings.org/home), being held in Long Beach, California, from November 1-5.  Three workshops are being offered:
 
 **Introduction to Bioinformatics Analysis with Galaxy**<br />
 Saturday, Nov. 1, 2:00 pm–4:00 pm<br />

@@ -2,13 +2,13 @@ The "home" or "welcome" page in galaxy, i.e. the large central window on first p
 
 ## Adding a Changelog
 
-Maintenance of a changelog with notes on things like 
+Maintenance of a changelog with notes on things like
 
 * Downtimes/Maintenance periods
 * New tools
 * Publications relating to your galaxy
 
-can be a very useful resource, however, it's cumbersome to maintain the static HTML file. If your group is already running a blog or other website, you may wish to make use of the features there, and load that content as part of the home page. 
+can be a very useful resource, however, it's cumbersome to maintain the static HTML file. If your group is already running a blog or other website, you may wish to make use of the features there, and load that content as part of the home page.
 
 Doing this is incredibly simple; load the JS, define a location for your content, and finally load it through jquery.
 

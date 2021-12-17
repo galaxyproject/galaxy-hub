@@ -9,7 +9,7 @@ title: Using Galaxy with Heterogeneous and Remote Resources
 
 This page describes the **Using Galaxy with Heterogeneous and Remote Resources** [Birds of a Feather](/events/gcc2014/bofs/) meetup being held at [GCC2014](/events/gcc2014/).
 
-When: Tuesday, July 1, 5:45pm 
+When: Tuesday, July 1, 5:45pm
 
 Where: Salon A
 
@@ -17,7 +17,7 @@ Contact: [Philip Blood](mailto:blood AT psc DOT edu), [John Chilton](/people/joh
 
 ## Description
 
-We'll summarize recent efforts to enable Galaxy Main to send jobs to remote HPC resources (XSEDE) and invite others to share related experiences and requirements.  We'll discuss a path to overcome challenges and better meet the needs of the research community. 
+We'll summarize recent efforts to enable Galaxy Main to send jobs to remote HPC resources (XSEDE) and invite others to share related experiences and requirements.  We'll discuss a path to overcome challenges and better meet the needs of the research community.
 
 ## Audience
 
@@ -54,7 +54,8 @@ If you are interested, please add your name below and/or send an email to [Your 
 
 ## Summary
 
-Discussion included 
+Discussion included
+
 * Deploying Galaxy on clusters
 * Touched on deployment of Galaxy on TACC resources
 * Talked about submitting jobs locally, using pulsar, to add more control and functionality to job handling
@@ -62,7 +63,7 @@ Discussion included
 
 Possible action items:
 
-* more documentation would be great (ideas on where to start when you have multiple machines). 
+* more documentation would be great (ideas on where to start when you have multiple machines).
 * ...
 
 ## Questions?

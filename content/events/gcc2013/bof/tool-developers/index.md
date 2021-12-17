@@ -13,7 +13,7 @@ import links from "../../links.json"
 
 This page describes the **Tool Developers** [Birds of a Feather](/events/gcc2013/bof/) meetup being held at [GCC2013](/events/gcc2013/).
 
-The aim is for tool developers to discuss the process of developing tools for galaxy. 
+The aim is for tool developers to discuss the process of developing tools for galaxy.
 
 Potential topics could include;
 
@@ -62,38 +62,38 @@ Send them to the [Intergalactic Utilities Commission](mailto:galaxy-iuc AT lists
 
 * Better visual cues for Groups of parameters
 * How to handle datatypes in the toolshed
-  * Collisions
-  * Searching
+    * Collisions
+    * Searching
 * Naming Tabular Columns in the preview / peek
-  * especially via datatypes_conf.xml
+    * especially via datatypes_conf.xml
 * Peter's Trello Card on column name selection
 * Naming of multiple outputs from tools
-  * or naming from input name (possible to do manually via label tag, but some automatic way)
+    * or naming from input name (possible to do manually via label tag, but some automatic way)
 * Groups of files (i.e. the functionality provided by John Chilton's declined pull request that uses composite datatypes, but done 'better')
 * Make running buildbot locally easy
 * Tool testing framework enhancements
-  * grouping parameters (e.g. multiple repeats)
+    * grouping parameters (e.g. multiple repeats)
 * Trello
-  * Slow
-  * Search sucks (especially for issue tracking)
+    * Slow
+    * Search sucks (especially for issue tracking)
 * Toolshed: how to offer repository for adoption to other users (including advertising availability)
 * Toolshed bitbucket integration
-  * Tool's homepage
-  * Pull Requests, easier collaboration, etc
+    * Tool's homepage
+    * Pull Requests, easier collaboration, etc
 * Inheriting toolshed tools from other users (e.g. important tools could be given to IUC / devteam, etc)
 * Create IUC Toolshed user ( done :) )
 * Per Toolshed User Grant access (can grant on per repo level, but not all of repos on an account; see IUC user being shared between persons, instead )
-  * create repo as e.g. IUC user (an 'organization' account)
+    * create repo as e.g. IUC user (an 'organization' account)
 * How to handle displaying and agreeing to licensing for tools
-  * clicking 'I agree' during install or running
-  * Avoiding Workflows sharing with licensing agreement checkbox already checked (e.g. when using a validator, see MEME tools)
+    * clicking 'I agree' during install or running
+    * Avoiding Workflows sharing with licensing agreement checkbox already checked (e.g. when using a validator, see MEME tools)
 * Workflows now save tool versions - so for old tool ids could also filter with ID (e.g. migrated tools)
 * Uploading workflwo to toolshed using old tool IDs should give a warning to the uploader
 * When Searching toolshed, allow limiting to rating/start ranges, etc
 * Allow rating tools by users from within Galaxy
-  * i.e. user runs a toolshed tool at some Galaxy instance and wants to go rate the tool in the toolshed
+    * i.e. user runs a toolshed tool at some Galaxy instance and wants to go rate the tool in the toolshed
 * Better / standardized handling of references / citations (right we include it as free text in tool help)
 * When using a Galaxy tool, make it easier to get back to the toolshed, e.g. for installing it into your own Galaxy instance (can we create some copy and pasteable link that is in Galaxy tool interface and then can be entered a different Galaxy instance for admin install)
 * Estimate remaining runtime
-  * e.g. allow a tool itself to provide feed back, many cmdline tools already estimate by e.g. printing to stderr, but we should be able to get this info back into Galaxy in realtime to the user
+    * e.g. allow a tool itself to provide feed back, many cmdline tools already estimate by e.g. printing to stderr, but we should be able to get this info back into Galaxy in realtime to the user
 * Run toolshed automated testing framework on file upload (not just overnight, as is now)

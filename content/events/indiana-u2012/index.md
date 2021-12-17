@@ -24,10 +24,11 @@ title: Galaxy Seminar and Workshops @ Indiana University Bloomington - October 1
 * **Reproducible:** Galaxy captures information so that any user can repeat and understand a complete computational analysis.
 * **Transparent:** Users share and publish analyses via the web and create Pages, interactive, web-based documents that describe a complete analysis.
 
-There will be three Galaxy-related events on the Indiana University Bloomington Campus on October 19: 
+There will be three Galaxy-related events on the Indiana University Bloomington Campus on October 19:
+
 1. **[Seminar: Transparent, Accessible, Reproducible Biological Analysis with Galaxy](/events/indiana-u2012/#seminar-transparent-accessible-reproducible-biological-analysis-with-galaxy)**, 1:30pm-2:30pm, Jordan Hall 065
-1. **[Galaxy for Biologists Workshop](/events/indiana-u2012/#galaxy-for-biologists-workshop)**, 3:00pm-4:30pm, Lindley 102 
-1. **[Galaxy for Developers Workshop](/events/indiana-u2012/#galaxy-for-developers-workshop)**, 9:30am-11:30am (note new time), PTI 015 
+1. **[Galaxy for Biologists Workshop](/events/indiana-u2012/#galaxy-for-biologists-workshop)**, 3:00pm-4:30pm, Lindley 102
+1. **[Galaxy for Developers Workshop](/events/indiana-u2012/#galaxy-for-developers-workshop)**, 9:30am-11:30am (note new time), PTI 015
 
 <br />
 

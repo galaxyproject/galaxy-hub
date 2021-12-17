@@ -5,7 +5,7 @@
 
 **Workshops for the Washington University community
 
-Instructor: [Dave Clements](/people/dave-clements/), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu) 
+Instructor: [Dave Clements](/people/dave-clements/), [Galaxy Project](http://galaxyproject.org), [Emory University](http://emory.edu)
 
 9:00am-5:00pm (both days)**
 
@@ -18,7 +18,7 @@ Instructor: [Dave Clements](/people/dave-clements/), [Galaxy Project](http://gal
 </table>
 
 
-**[Farrell Learning and Teaching Center](http://fltc.wustl.edu/)** <br /> 
+**[Farrell Learning and Teaching Center](http://fltc.wustl.edu/)** <br />
 [Training Room 602](https://becker.wustl.edu/services/event-meeting-space/farrell-training-room), 520 S. Euclid Ave. <br />
 [Washington University in St. Louis](http://wustl.edu)<br />
 </div>

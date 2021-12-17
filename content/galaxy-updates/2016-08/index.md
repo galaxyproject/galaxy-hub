@@ -12,9 +12,9 @@ title: August 2016 Galaxy News
 
 <div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the August 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. 
+Welcome to the August 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 
 # Events
@@ -49,10 +49,10 @@ The curriculum will be published and registration will open shortly.  Watch this
 
 There are [a plentitude of Galaxy related events coming up](/events/). Here's what's coming up over the next fe months:
 
-<div class='center'> 
+<div class='center'>
 <a href='http://icbo.cgrb.oregonstate.edu/node/41'><img src="/images/logos/ICBO_joint.png" alt="Integrating Ontological and Genomic Analysis with Galaxy Workshop @ ICBO" height="70" /></a> &nbsp;&nbsp;
 <a href='http://www.polyomics.gla.ac.uk/course-galaxy-workshop_Aug16.html'><img src="/images/logos/GlasgowPolyomics.jpg" alt="Introduction to Galaxy Workshop" height="80" /></a>
-&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;
 <a href='/community/galaxy-admins/meetups/2016-08-18/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" height="60" /></a>
 <a href='https://registration.genomecenter.ucdavis.edu/events/Aug_2016_Bioinformatics_Galaxy_Workshop/'><img src="/images/logos/UCDavisGenomeCenter_Bioinf.png" alt="Using Galaxy for Analysis of RNA-Seq, Exome-Seq, and Variants" height="75" /></a>
 </div>
@@ -304,7 +304,7 @@ The new papers were tagged with:
 The Galaxy is expanding! Please help it grow.
 
 * [PhD Student Bioinformatics](http://www.nature.com/naturejobs/science/jobs/584723-phd-student-bioinformatics), German Cancer Research Center (DKFZ), Munich Germany
-* [Ingénieur en développement de composants Galaxy pour la protéomique](http://www.sfbi.fr/content/ing%C3%A9nieur-en-d%C3%A9veloppement-de-composants-galaxy-pour-la-prot%C3%A9omique), MAIAGE (Jouy-en-Josas), France. Closes August 28 
+* [Ingénieur en développement de composants Galaxy pour la protéomique](http://www.sfbi.fr/content/ing%C3%A9nieur-en-d%C3%A9veloppement-de-composants-galaxy-pour-la-prot%C3%A9omique), MAIAGE (Jouy-en-Josas), France. Closes August 28
 * [Post­doctoral Research Position](https://drive.google.com/file/d/0B5_H88SQ1C_7Z3dJY3FzU0hQMUU/view?pref=2&pli=1), Multi­omic Bioinformatics, University of Minnesota
 * [eResearch Analyst - Bioinformatics](http://www.seek.com.au/job/31413839), University of Queensland  <div class='red'>Act fast.</span>
 * [PhD student or postdoctoral researcher](http://www.uni-freiburg.de/verwaltung/stellenboerse/?erf=y&stellenid=9837&layout=v4), University of Freiburg, Freiburg, Germany. <div class='red'>Act fast.</span>
@@ -363,7 +363,7 @@ New Galaxy Deployment Catalog and [Community Log Board](/blog/) entries were add
 ### Galaxy v16.04
 
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[April 2016 (v16.04) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.04_announce.html)**.
 
 *Please note that Python 2.6 is no longer supported as of this release. See the [16.04 release announcement](https://wiki.galaxyproject.org/News/2016-04_GalaxyRelease) for details.*
@@ -415,7 +415,7 @@ Please see the [API documentation](http://galaxyproject.github.io/blend4php/docs
 
 ### Planemo 0.27.0
 
-[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  Planemo 0.27.0 was released in June. Some highlights: 
+[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  Planemo 0.27.0 was released in June. Some highlights:
 
 * Use ephemeris to handle syncing shed tools for workflow actions. [1c6cfbb](https://github.com/galaxyproject/planemo/commit/1c6cfbb)
 * More planemo testing enhancements for testing artifacts that aren’t Galaxy tools. [Pull Request 491](https://github.com/galaxyproject/planemo/pull/491)
@@ -442,8 +442,9 @@ Highlights of June releases include:
 **We just released an update to Galaxy CloudMan on AWS.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration or imposed quotas. Once running, you have complete control over Galaxy, including the ability to install new tools.
 
 This is a minor update release with the following changes:
+
 * Galaxy 16.04 update
-* Availability on Amazon's Ireland region 
+* Availability on Amazon's Ireland region
 * A couple of bug fixes
 
 See the [CHANGELOG](https://github.com/galaxyproject/cloudman/blob/master/CHANGELOG.md) for a more complete set of changes.
@@ -475,4 +476,4 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 * [New tutorial](http://bit.ly/TAGC_GXY_PDF) on integrating phenotype data from ZFIN and MGI.
 * [how to use GenomeSpace tools in a Galaxy workflow](https://www.youtube.com/watch?v=5QPtWS_ab0I). Video from the Genomics Virtual Lab folks.
 * New interactive Galaxy tours are available:
-  * [MultiQC](https://github.com/galaxyproject/galaxy-tours/tree/master/multiqc) and [RAD-Seq](https://github.com/galaxyproject/galaxy-tours/tree/master/rad-seq)
+    * [MultiQC](https://github.com/galaxyproject/galaxy-tours/tree/master/multiqc) and [RAD-Seq](https://github.com/galaxyproject/galaxy-tours/tree/master/rad-seq)

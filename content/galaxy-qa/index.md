@@ -15,6 +15,7 @@ Galaxy Q&A is a fork of [BioStar](http://www.biostars.org/). This is a collabora
 Our fork is a modification of [BioStar](http://www.biostars.org/) to be able to tied Galaxy up with the Q&A.
 
 The Galaxy Q&A and [BioStar](http://www.biostars.org/) source code is open-source and accessible on Github:
+
 * [Galaxy Q&A source code](https://github.com/galaxyQandA)
 * [BioStar source code](https://github.com/ialbert/biostar-central)
 
@@ -36,6 +37,7 @@ If you already know how Django works, and how to download it from a Git reposito
 * Put your own settings in ***conf/"mySettings.py"*** and get the ***conf/default.env*** pointing on "mySettings.py".
 
 For example:
+
 ```python
 #
 # import from the main settings then override some of the values
@@ -109,6 +111,7 @@ If you want to modify Galaxy Q&A, We recommend to put your modifications and tes
 ## Differences with BioStar
 
 The fork has been created to tied Galaxy Q&A with Galaxy. Here are the main modifications added to Biostar:
+
 * **The style of Biostar has been changed**: To match the Galaxy style, some modifications has been added in Galaxy Q&A. Here is the [changeset1](https://github.com/galaxyQandA/biostar-central/commit/4ae2ce800d755f97848bb92215422f7b2d65de30), [changeset2](https://github.com/galaxyQandA/biostar-central/commit/fa7d13f94d965d24806f8d27627349d733e72e4e)
 * **Implementation in Galaxy**: Links has been added in Galaxy to point on some Galaxy Q&A urls. These urls have been added to match some Galaxy needs as automatically fill the tags when a user wants to ask a question from the tool links in Galaxy, or wants to access to all the questions related to tool they are actually using
 * **Mail notification**: As Galaxy works actually with mailing lists, users could be disoriented with the new Galaxy Q&A as there were only a RSS feed for *bookmarked* posts. We have also the mail notification on *bookmarked* posts, so users can know when somebody interacts with their bookmarked posts
@@ -116,12 +119,13 @@ The fork has been created to tied Galaxy Q&A with Galaxy. Here are the main modi
 
 ### Implementation in Galaxy
 
-Here is the [changeset](https://bitbucket.org/galaxy/galaxy-central/changeset/110a69b0d387228ec7bed84814192b9c99082d7c) of the adds in Galaxy to link with the Galaxy Q&A: 
+Here is the [changeset](https://bitbucket.org/galaxy/galaxy-central/changeset/110a69b0d387228ec7bed84814192b9c99082d7c) of the adds in Galaxy to link with the Galaxy Q&A:
+
 * Link to Galaxy Q&A in the Help Menu of Galaxy
 * Link to Galaxy Q&A in the Help Menu of the Tool Shed
 * Links to Galaxy Q&A in the tool form of any tools
-  * Icons added
-  * Code added
+    * Icons added
+    * Code added
 
 Here is the [changeset of the Galaxy tag](https://github.com/galaxyQandA/biostar-central/commit/3bbdad4ceaf837fcbb8267c2b0de0176f20823d4) and here the [changeset of the CSS/Names modifications](https://github.com/galaxyQandA/biostar-central/commit/4ae2ce800d755f97848bb92215422f7b2d65de30) in Galaxy Q&A
 

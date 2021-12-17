@@ -20,22 +20,23 @@ DataSources are configured as a special type of [tool](/tools/).
 Checklist for DataSource tools:
 
 1. The [<tool> tag set](/admin/tools/tool-config-syntax/#a3ctool3e_tag_set) has the attribute "tool_type" with the value "data_source"
-1. The [<command> tag set](/admin/tools/tool-config-syntax/#a3ccommand3e_tag_set), inside the <tool> tag set, contains either "data_source.py" to use the built in sychronous/asynchronous single file downloader or a different command for custom downloading (multiple files, ...?). 
-  1. If using "data_source.py" then the first parameter passed should be the name of the data tag in the outputs tag set. Likely it is "$output".
-  1. If using "data_source.py" then the second parameter passed is the maximum file size allowed by this Galaxy instance to quickly cancel a download that will fail later. This should be "$__app__.config.output_size_limit".
+1. The [<command> tag set](/admin/tools/tool-config-syntax/#a3ccommand3e_tag_set), inside the <tool> tag set, contains either "data_source.py" to use the built in sychronous/asynchronous single file downloader or a different command for custom downloading (multiple files, ...?).
+    1. If using "data_source.py" then the first parameter passed should be the name of the data tag in the outputs tag set. Likely it is "$output".
+    1. If using "data_source.py" then the second parameter passed is the maximum file size allowed by this Galaxy instance to quickly cancel a download that will fail later. This should be "$__app__.config.output_size_limit".
 1. The [<inputs>](/admin/tools/tool-config-syntax/#a3cinputs3e_tag_set) tag set, inside the <tool> tag set, has three attributes defined: "action", "check_values", "method".
-  1. The "action" attribute has the URL to redirect the Galaxy user to.
-  1. The "method" attribute ...???
-  1. The "check_values" attribute ...???
+    1. The "action" attribute has the URL to redirect the Galaxy user to.
+    1. The "method" attribute ...???
+    1. The "check_values" attribute ...???
 1. If you want to translate between URL parameters sent by the remote web server back to Galaxy then a [<request_param_translation> tag set](/admin/tools/tool-config-syntax/#a3crequest_param_translation3e_tag_set) should be defined inside the <tool> tag set.
 1. The [<outputs> tag set](/admin/tools/tool-config-syntax/#a3coutputs3e_tag_set), inside the <tool> tag set, contains only one <data> tag if using the built-in "data_source.py" script.
-  1. The "format" attribute can be used to set the data format if it is of a fixed type.
-  1. If using the built-in "data_source.py" script then the value of the "name" attribute must match the first parameter passed to "data_source.py" in the <command> tag set.
+    1. The "format" attribute can be used to set the data format if it is of a fixed type.
+    1. If using the built-in "data_source.py" script then the value of the "name" attribute must match the first parameter passed to "data_source.py" in the <command> tag set.
 1. Finally, the tag <options sanitize="False" refresh="True"/> should be inside the <tool> tag set.
 
 <uihints> and <display> are no longer used.
 
 Some example DataSources:
+
 * https://github.com/galaxyproject/galaxy/blob/dev/tools/data_source/ucsc_tablebrowser.xml
 * https://github.com/hexylena/galaxy-data_source-examples
 
@@ -62,12 +63,12 @@ The process is meant to proceed as follows:
 
 ### Asynchronous data depositing
 
-This process operates similarly to the synchronous one, the exception being that the datasource will have to later notify Galaxy with the location of the data. 
+This process operates similarly to the synchronous one, the exception being that the datasource will have to later notify Galaxy with the location of the data.
 
 1. The same as steps 1. through 4. for the synchronous data depositing. For the step 4 above, Galaxy will create another parameter `GALAXY_URL` that will uniquely characterize the data that is returned. The result of the resubmission step of this step is a data entry that is *waiting* for the data source.
 1. When the data created by the datasource is ready the datasource will have to reconnect to the url specified in `GALAXY_URL` and submit via HTTP GET the `STATUS` and `URL` parameters. Galaxy will then make a background request to fetch the data stored at the location `URL`.
 
-**Inter-process communication** is performed via a very simple text outputs. Commands that have been executed correctly may write any kind of text messages. If the text ends with the word `OK` it will be considered a successful submission. Messages that do not end with `OK` will be treated as errors. There is no requirement on interpreting any of the messages; they primarily serve for informational/debugging purposes. 
+**Inter-process communication** is performed via a very simple text outputs. Commands that have been executed correctly may write any kind of text messages. If the text ends with the word `OK` it will be considered a successful submission. Messages that do not end with `OK` will be treated as errors. There is no requirement on interpreting any of the messages; they primarily serve for informational/debugging purposes.
 
 **Example** Upon returning to the datasource (step 4) Galaxy submits the following:
 
@@ -105,7 +106,7 @@ OK
 ```
 
 
-in which case it will also go and fetch the data from `http://www.data.org/temp/1299292.dat`. 
+in which case it will also go and fetch the data from `http://www.data.org/temp/1299292.dat`.
 But the output could also be:
 
  ```

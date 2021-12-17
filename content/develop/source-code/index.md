@@ -35,6 +35,7 @@ And receive updates
 % git checkout dev
 % git pull
 ```
+
 ## Mercurial and BitBucket
 
 Before the switch to GitHub in 2015 the Galaxy source code has been hosted on BitBucket.
@@ -43,6 +44,7 @@ Before the switch to GitHub in 2015 the Galaxy source code has been hosted on Bi
 
 1. Backup everything.
 1. Find what branch and commit is your Mercurial Galaxy at:
+
   ```#! highlight sh
   $ hg log -b $(hg branch)
   ```
@@ -54,6 +56,7 @@ Before the switch to GitHub in 2015 the Galaxy source code has been hosted on Bi
 1. Replace your `.hg/` folder with the `.git/` folder from the new checkout.
 1. Your Galaxy should be switched to Git. Unless you have local changes, `git status` should show none.
 1. You can now update to the latest Git revision:
+
   ```#! highlight sh
   $ git pull
   ```

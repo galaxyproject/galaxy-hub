@@ -48,7 +48,7 @@ It occurred to me while I was typing up the [Galaxy Admin Training announcement]
 <img src="/images/icons/NA.png" alt="In North America!" />
 </div>
 
-In addition to these events, there are many others offered this year, and around the world (Africa, Asia, Australia, Europe, North America) that are less than 3 days long (and are even sometimes in French).  See the [Galaxy Events Horizon](/events/) for a complete listing. 
+In addition to these events, there are many others offered this year, and around the world (Africa, Asia, Australia, Europe, North America) that are less than 3 days long (and are even sometimes in French).  See the [Galaxy Events Horizon](/events/) for a complete listing.
 
 We hope to see you somewhere!
 

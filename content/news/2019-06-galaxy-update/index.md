@@ -9,19 +9,19 @@ date: "2019-06-03"
 The *June 2019 Galactic News* is here! This is a summary of what is going on in the Galaxy community.
 
 * **[GCC2019](/news/2019-06-galaxy-update/#gcc2019-1-8-july-freiburg-germany):**
-  * **[Advance registration ends 7 June](/news/2019-06-galaxy-update/#advance-registration-ends-7-june-this-friday)**
-  * **[Poster and Demo Abstract Submission deadline: 10 June](/news/2019-06-galaxy-update/#poster-demo-abstract-submission-deadline-10-june)**
-  * [Conference schedule is online](/news/2019-06-galaxy-update/#conference-schedule-is-online)
+    * **[Advance registration ends 7 June](/news/2019-06-galaxy-update/#advance-registration-ends-7-june-this-friday)**
+    * **[Poster and Demo Abstract Submission deadline: 10 June](/news/2019-06-galaxy-update/#poster-demo-abstract-submission-deadline-10-june)**
+    * [Conference schedule is online](/news/2019-06-galaxy-update/#conference-schedule-is-online)
 * Plus [13 other upcoming events](/news/2019-06-galaxy-update/#upcoming-events) in the next 90 days
-* [150 new publications](/news/2019-06-galaxy-update/#publications), great resources lead to great insight. 
+* [150 new publications](/news/2019-06-galaxy-update/#publications), great resources lead to great insight.
 * [Galaxy Platform News](/news/2019-06-galaxy-update/#galaxy-platforms-news): New platforms for tranSMART, antibiotic resistance, phylogeny, long-read data, mass spectrometry Imaging, and Rice!
 * A new entry to [The Galactic Blog](/news/2019-06-galaxy-update/#new-galactic-blog-post-enabling-cloud-bursting-for-galaxy) on Galaxy cloud bursting
-* At least [8 Open positions](/news/2019-06-galaxy-update/#whos-hiring) in five countries on two continents. 
+* At least [8 Open positions](/news/2019-06-galaxy-update/#whos-hiring) in five countries on two continents.
 * [Updates to training materials and documentation](/news/2019-06-galaxy-update/#doc-hub-and-training-updates).
 * [New tools](/news/2019-06-galaxy-update/#toolshed-contributions) and [new releases](/news/2019-06-galaxy-update/#releases).
 * And [some cool other news](/news/2019-06-galaxy-update/#other-news) too:
-  * The new [Galaxy Services Status Web Site](/news/2019-06-galaxy-update/#galaxy-services-status-web-site)
-  * [Black Duck Open Hub updates it's Galaxy project stats](/news/2019-06-galaxy-update/#black-duck-open-hub-updates-its-galaxy-project-stats) *and we are doing great.*
+    * The new [Galaxy Services Status Web Site](/news/2019-06-galaxy-update/#galaxy-services-status-web-site)
+    * [Black Duck Open Hub updates it's Galaxy project stats](/news/2019-06-galaxy-update/#black-duck-open-hub-updates-its-galaxy-project-stats) *and we are doing great.*
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -49,13 +49,13 @@ The [full conference schedule is now online](https://gcc2019.sched.com/).  There
 
 * Over 35 training topics ranging from [Beyond the Intro: Further Adventures in Using Galaxy](https://sched.co/MDTP) to [Visualisation development in Galaxy](https://sched.co/LufQ)
 * 15 Sessions, including dedicated sessions on
-  * [Epigenetics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics), [Galaxy Administration & Development](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Admin+%2F+Dev) (3 sessions), [Outside the Genome & Community](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Outside+the+Genome+%26+Community) (3 sessions),  [Proteomics and Metabolomics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%26+Metabolomics), [Transcriptomics & Genomics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Transcriptomics+%2F+Genomics) (2 sessions), [Variation / Metagenomics / Assembly](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
+    * [Epigenetics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics), [Galaxy Administration & Development](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Admin+%2F+Dev) (3 sessions), [Outside the Genome & Community](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Outside+the+Genome+%26+Community) (3 sessions),  [Proteomics and Metabolomics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%26+Metabolomics), [Transcriptomics & Genomics](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Transcriptomics+%2F+Genomics) (2 sessions), [Variation / Metagenomics / Assembly](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
 * Five invited talks:
-  * [Evolution of X chromosome recognition during Drosophila Dosage Compensation](https://sched.co/PSGJ), Claudia Isabelle Keller Valsecchi, Max Planck Institute of Immunobiology and Epigenetics
-  * [Pou5f3, SoxB1 and Nanog control the Zygotic Genome Activation in Zebrafish by Chromatin Remodeling](https://sched.co/PSeo), Marina Veil, Albert Ludwigs University of Freiburg
-  * [Galaxy Community Update](https://sched.co/PSfp), Jeremy Goecks, OHSU; Daniel Blankenberg, Cleveland Clinic; Anton Nekrutenko, Penn State University; James Taylor, Johns Hopkins University
-  * [Data visualisation by citizen science participants: the case of birds and bats monitoring schemes and Galaxy-E](https://sched.co/PSq5), Romain Lorrilière, French National Museum of Natural History
-  * [UseGalaxy: Elucidating chromatin biology of mouse cardiomyocytes](https://sched.co/PSr9), Stephan Nothjunge, University of Freiburg
+    * [Evolution of X chromosome recognition during Drosophila Dosage Compensation](https://sched.co/PSGJ), Claudia Isabelle Keller Valsecchi, Max Planck Institute of Immunobiology and Epigenetics
+    * [Pou5f3, SoxB1 and Nanog control the Zygotic Genome Activation in Zebrafish by Chromatin Remodeling](https://sched.co/PSeo), Marina Veil, Albert Ludwigs University of Freiburg
+    * [Galaxy Community Update](https://sched.co/PSfp), Jeremy Goecks, OHSU; Daniel Blankenberg, Cleveland Clinic; Anton Nekrutenko, Penn State University; James Taylor, Johns Hopkins University
+    * [Data visualisation by citizen science participants: the case of birds and bats monitoring schemes and Galaxy-E](https://sched.co/PSq5), Romain Lorrilière, French National Museum of Natural History
+    * [UseGalaxy: Elucidating chromatin biology of mouse cardiomyocytes](https://sched.co/PSr9), Stephan Nothjunge, University of Freiburg
 * *Over 70 talks*
 * Three Poster, Demo, and Sponsor Sessions (Posters & demos to be posted next week)
 * Three hour long sessions for BoFs (call for BoFs going out next week)
@@ -172,7 +172,7 @@ These and [other Galaxy related events](/events/) are coming up:
 There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BGalactic)* and *[Stellar](https://www.zotero.org/groups/1732893/galaxy/tags/%2BStellar)* publications added, and 9 of those are open access:
 
 * **[Accessible and reproducible mass spectrometry imaging data analysis in Galaxy]( https://doi.org/10.1101/628719)**, Melanie Christine Föll, Lennart Moritz, Thomas Wollmann, Maren Nicole Stillger, Niklas Vockert, Martin Werner, Peter Bronsert, Karl Rohr, Björn Andreas Grüning, Oliver Schilling. *bioRxiv* 628719; doi: 10.1101/628719
-* **[G-OnRamp: a Galaxy-based platform for collaborative annotation of eukaryotic genomes](https://doi.org/10.1093/bioinformatics/btz309)**, Yating Liu, Luke Sargent, Wilson Leung, Sarah C. R. Elgin and [Jeremy Goecks](/people/jeremy-goecks/). *Bioinformatics*, btz309, doi: 10.1093/bioinformatics/btz309 
+* **[G-OnRamp: a Galaxy-based platform for collaborative annotation of eukaryotic genomes](https://doi.org/10.1093/bioinformatics/btz309)**, Yating Liu, Luke Sargent, Wilson Leung, Sarah C. R. Elgin and [Jeremy Goecks](/people/jeremy-goecks/). *Bioinformatics*, btz309, doi: 10.1093/bioinformatics/btz309
 * **[MetaDEGalaxy: Galaxy workflow for differential abundance analysis of 16s metagenomic data](https://f1000research.com/articles/8-726)**, Mike W.C. Thang, Xin-Yi Chua, Gareth Price, Dominique Gorse, Matt A. Field. *F1000Research* 2019, 8:726, doi: 10.12688/f1000research.18866.1)
 * **[NGPhylogeny.fr: new generation phylogenetic services for non-specialists](https://doi.org/10.1093/nar/gkz303)**, Frédéric Lemoine, Damien Correia, Vincent Lefort, Olivia Doppelt-Azeroual, Fabien Mareuil, Sarah Cohen-Boulakia, Olivier Gascuel. *Nucleic Acids Research*, gkz303, doi: 10.1093/nar/gkz303
 * **[Rice Galaxy: an open resource for plant science](https://academic.oup.com/gigascience/article/8/5/giz028/5492234)**, Venice Juanillas, Alexis Dereeper, Nicolas Beaume, Gaetan Droc, Joshua Dizon, John Robert Mendoza, Jon Peter Perdon, Locedie Mansueto, Lindsay Triplett, Jillian Lang, Gabriel Zhou, Kunalan Ratharanjan, Beth Plale, Jason Haga, Jan E. Leach, Manuel Ruiz, Michael Thomson, Nickolai Alexandrov, Pierre Larmande, Tobias Kretzschmar and Ramil P. Mauleon. *GigaScience*, 8, 2019, 1–14, doi: 10.1093/gigascience/giz028
@@ -183,11 +183,11 @@ There were 10 *[Galactic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BG
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 95 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 43 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 23 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 18 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | 
-| 17 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 9 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 7 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | 
-| 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Education](https://www.zotero.org/groups/1732893/galaxy/tags/+Education) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | 
+| 95 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 43 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 23 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 18 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) |
+| 17 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | | 11 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 9 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 7 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) |
+| 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Education](https://www.zotero.org/groups/1732893/galaxy/tags/+Education) | | 2 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) |
 | 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | | | | | | |
 
 ----
@@ -200,7 +200,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 [<img class="float-right" style="max-width: 110px" src="/use/tgm/tgm-fig1.png" alt="tgmpipeline" />](/use/tgm/)
 
-The *[TGM pipeline](http://r3lab.uni.lu/web/tgm-pipeline/)* is a platform combining [tranSMART server](http://r3lab.uni.lu/web/tgm-pipeline/#transmart-setup), [Galaxy Server](http://tgm-pipeline.uni.lu/galaxy/), and [MINERVA platform](http://r3lab.uni.lu/web/tgm-pipeline/#minerva-setup) to enable visually-aided exploration, analysis, and interpretation of high-throughput translational medicine data. The TGM pipeline enables establishing workflows with Galaxy for data processing using tools and resources of the tranSMART server. 
+The *[TGM pipeline](http://r3lab.uni.lu/web/tgm-pipeline/)* is a platform combining [tranSMART server](http://r3lab.uni.lu/web/tgm-pipeline/#transmart-setup), [Galaxy Server](http://tgm-pipeline.uni.lu/galaxy/), and [MINERVA platform](http://r3lab.uni.lu/web/tgm-pipeline/#minerva-setup) to enable visually-aided exploration, analysis, and interpretation of high-throughput translational medicine data. The TGM pipeline enables establishing workflows with Galaxy for data processing using tools and resources of the tranSMART server.
 
 
 ## ARGA
@@ -238,10 +238,10 @@ The [Rice Galaxy server](http://galaxy.irri.org/) is a revamped version of IRRI'
 
 We tag papers that use, mention, implement or extend public Galaxy platforms (servers, services, clouds, containers...).  Here are the platforms that were referenced at least twice in the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 21 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 9 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 7 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | 
-| 3 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 3 | [>UseGalaxy.org.au](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au) | | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools) | 
+| 21 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 9 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 7 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 5 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) |
+| 3 | [>ARGs-OAP](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGs-OAP) | | 3 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 3 | [>UseGalaxy.org.au](https://www.zotero.org/groups/1732893/galaxy/tags/>UseGalaxy.org.au) | | 2 | [>deepTools](https://www.zotero.org/groups/1732893/galaxy/tags/>deepTools) |
 | 2 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 2 | [>IRProfiler](https://www.zotero.org/groups/1732893/galaxy/tags/>IRProfiler) | | 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | |  | | |
 
 ----
@@ -266,12 +266,12 @@ The *dark energy* of irreproducible research is threatening the science universe
 * [Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197), [Blankenberg Lab](/people/dan/), Cleveland Clinic, Cleveland, Ohio, United States.
 * [Scientist - Molecular R&D](https://jobs.vibrantm.com/emd/job/Rockville-Scientist-Molecular-R&D-MD-20850-3304/518778201/), MilliporeSigma, Rockville, Maryland, United States
 * ELIXIR Belgium has **three Galaxy-related openings** in Ghent:
-  * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
-  * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
-* [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software." 
+    * [ELIXIR Open Science Community Manager](https://vibvzw.jobsoid.com/j/17164/elixir-open-science-community-manager), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Software developer data management tools](https://vibvzw.jobsoid.com/jobs/35bba14f-79b7-4388-b015-a4fb9d97ee41/17168/software-developer-data-management-tools), VIB-UGent Center for Plant Systems Biology
+    * [ELIXIR Scientific Cloud Coordinator](https://vibvzw.jobsoid.com/j/17165/elixir-scientific-cloud-coordinator), VIB-UGent Center for Plant Systems Biology
+* [Software Developer](https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1433370#jobDetails=1433370_5341), Harvard T.H. Chan School of Public Health, Boston, Massachusetts, United States. "Basic automated analysis workflows using Galaxy for 16S marker gene, metagenomic, and metatranscriptomic data leveraging existing software."
 * The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/), Freiburg, Germany
-  * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
+    * Software engineer, system analysts/administrators, data analyst, and a community and/or research manager
 
 Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 

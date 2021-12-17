@@ -11,13 +11,13 @@ one month? It is doable if we keep things simple.
 
 ----
 
-Rico: 
+Rico:
 
 take a look at http://www.bx.psu.edu/~rico/galaxy
 
 ----
 
-James: 
+James:
 
 But what about if the front end is running on multiple nodes? Sharing
 a BDB file over NFS is a _bad idea_ for this case. A database that

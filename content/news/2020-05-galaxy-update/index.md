@@ -27,7 +27,7 @@ Dave Clements, on behalf of the Galaxy Community
 
 * **[James Peter Taylor](#james-peter-taylor-1979-2020)**, 1979-2020
 * **[BCC2020](#bcc2020-will-be-online-global-affordable-and-accessible) will be online, global, affordable, and accessible**
-  * **All abstracts are due May 8**
+    * **All abstracts are due May 8**
 * **[Galaxy COVID-19 Response](#galaxy-covid-19-response)**
 * [Upcoming events](#upcoming-events)
 * [Blog posts](#galactic-blog-activity)
@@ -142,7 +142,7 @@ These efforts focus on three areas:
 <img class="card-img-top" src="covid19-genomics.png" alt="Genomics" />
 <div class="card-header">[Genomics](https://covid19.galaxyproject.org/genomics/)</div>
 
-There are 397 sites showing intra-host variation across 33 samples (with frequencies between 5% and 95%). Twenty nine samples have fixed differences at 39 sites from the published reference. Variant lists and VCF files are updated daily. 
+There are 397 sites showing intra-host variation across 33 samples (with frequencies between 5% and 95%). Twenty nine samples have fixed differences at 39 sites from the published reference. Variant lists and VCF files are updated daily.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
@@ -184,7 +184,7 @@ The MRC CLIMB project has been [providing compute and storage for the COVID-19 G
 <img class="card-img-top" src="gtn-mpro-slice.png" alt="MPro" />
 <div class="card-header">[Virtual screening of the SARS-CoV-2 main protease with rDock and pose scoring](https://training.galaxyproject.org/training-material/topics/computational-chemistry/tutorials/covid19-docking/tutorial.html)</div>
 
-This new Galaxy Training Network tutorial from [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame#simonbray) is a companion tutorial for the cheminformatics work described above that performs virtual screening on candidate ligands for the SARS-CoV-2 main protease (MPro). 
+This new Galaxy Training Network tutorial from [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame#simonbray) is a companion tutorial for the cheminformatics work described above that performs virtual screening on candidate ligands for the SARS-CoV-2 main protease (MPro).
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
@@ -199,7 +199,7 @@ This new Galaxy Training Network tutorial from [Wolfgang Maier](https://training
 <img class="card-img-top" src="/use/laniakea/laniakea_logo_def_white_background.png" alt="Laniakea" />
 <div class="card-header">[Laniakea SARS-CoV-2 flavour available](https://laniakea-elixir-it.github.io/2020/03/27/covid19-docker-flavor.html)</div>
 
-A Galaxy Covid-19 flavour is now available in Laniakea, as a Docker Container. It is based on the GalaxyProject covid-19 analysis and it is continuously updated. Due to the current Covid-19 outbreak, the flavour is made available to Laniakea users without the usual test routine. 
+A Galaxy Covid-19 flavour is now available in Laniakea, as a Docker Container. It is based on the GalaxyProject covid-19 analysis and it is continuously updated. Due to the current Covid-19 outbreak, the flavour is made available to Laniakea users without the usual test routine.
 </div>
 
 
@@ -233,6 +233,7 @@ The first session was held on 30 April.  Subsequent sessions are
 * [Cheminformatics: Screening of the main protease, 14 May](https://attendee.gotowebinar.com/register/4607898607259954448), TBA
 * [Evolution of the Virus, 20 May](https://register.gotowebinar.com/register/3263865489071323920), Sergei Pond
 * [Behind the scenes: Global Open Infrastructures at work, 28 May](https://attendee.gotowebinar.com/register/7607010086065649936), TBA
+
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
@@ -321,7 +322,7 @@ The [Galaxy Platform Directory](/use/) lists resources for easily running your a
 
 <img class="card-img-top" src="/images/logos/mrc-climb-logo.png" alt="MRC CLIMB" />
 
-The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) has been [renewed as the CLIMB-BIG-DATA project](https://www.climb.ac.uk/proud-to-announce-climb-big-data-project/). The initiative will benefit from a just-awarded £2Million grant from the UKRI, and will gradually become self-sustaining. This will ensure long-term provision of an always up-to-date cloud-based infrastructure for microbial bioinformatics. 
+The CLIMB project (Cloud Infrastructure for Microbial Bioinformatics) has been [renewed as the CLIMB-BIG-DATA project](https://www.climb.ac.uk/proud-to-announce-climb-big-data-project/). The initiative will benefit from a just-awarded £2Million grant from the UKRI, and will gradually become self-sustaining. This will ensure long-term provision of an always up-to-date cloud-based infrastructure for microbial bioinformatics.
 </div>
 
 
@@ -347,7 +348,7 @@ The [Mississippi server was upgraded](/news/2020-03-mississippi/), and [has a ne
 
 <img class="card-img-top" src="/use/laniakea/laniakea_logo_def_white_background.png" alt="Laniakea" />
 
-The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyusLwbAxyl3Yef58NgEYI5-BoKQ/view?usp=sharing) offers access to Cloud resources to be used for the deployment of on-demand Galaxy instances, ready for production, with reference data and tools already pre-configured and ready to be used. 
+The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyusLwbAxyl3Yef58NgEYI5-BoKQ/view?usp=sharing) offers access to Cloud resources to be used for the deployment of on-demand Galaxy instances, ready for production, with reference data and tools already pre-configured and ready to be used.
 </div>
 
 <div class="card border-info"  style="min-width: 14rem;">
@@ -355,7 +356,7 @@ The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyus
 
 <img class="card-img-top" src="/use/proteore/proteore.png" alt="ProteoRE" />
 
-[ProteoRE 2.1](http://www.proteore.org/) is a user-oriented Galaxy-based service for the functional interpretation and exploration of proteomics data for biomedical research; This version now comprises 20 tools organized in 4 sections (data manipulation and visualization; add features/annotation; functional analysis; pathways analysis). All data sources have been updated. Two tutorials are available via the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/proteomics/). 
+[ProteoRE 2.1](http://www.proteore.org/) is a user-oriented Galaxy-based service for the functional interpretation and exploration of proteomics data for biomedical research; This version now comprises 20 tools organized in 4 sections (data manipulation and visualization; add features/annotation; functional analysis; pathways analysis). All data sources have been updated. Two tutorials are available via the [Galaxy Training Network](https://training.galaxyproject.org/training-material/topics/proteomics/).
 </div>
 
 
@@ -369,6 +370,7 @@ The [ELIXIR-ITALY Laniakea@ReCaS Call](https://drive.google.com/file/d/13xAslyus
 * [ChiRA, an integrated framework for Chimeric Read Analysis from RNA-RNA interactome data, added to RNA Workbench](https://galaxyproject.eu/posts/2020/03/24/rna-interactome/)
 URL
 * [UseGalaxy.eu reaches 12,000 users, 6,900,000 jobs, and 13,300,000 datasets](https://usegalaxy-eu.github.io/posts/2020/02/12/sab2020-stats/plain.html)
+
 </div>
 
 
@@ -430,7 +432,7 @@ Introduces the data analysis from raw data files to protein identification and q
 
 By [Anne Fouilloux](https://training.galaxyproject.org/training-material/hall-of-fame#annefou)
 
-Familiarze yourself with the [Panoply](https://www.giss.nasa.gov/tools/panoply/) Galaxy interactive environment. Panoply is among the most popular tools to visualize geo-referenced data stored in [Network Common Data Form (netCDF)](https://en.wikipedia.org/wiki/NetCDF). 
+Familiarze yourself with the [Panoply](https://www.giss.nasa.gov/tools/panoply/) Galaxy interactive environment. Panoply is among the most popular tools to visualize geo-referenced data stored in [Network Common Data Form (netCDF)](https://en.wikipedia.org/wiki/NetCDF).
 
 <img class="card-img-bottom" src="gtn-panoply-slice.png" alt="It's getting hot" />
 </div>
@@ -452,7 +454,7 @@ We’ve seen the [TIaaS Queue Status](https://galaxyproject.eu/tiaas) receive a 
 
 By [Helena Rasche](https://training.galaxyproject.org/training-material/hall-of-fame#hexylena) and [Saskia Hiltemann](https://training.galaxyproject.org/training-material/hall-of-fame#shiltemann).
 
-How to set up your own *[Training Infrastructure as a Service (TIaaS)](https://galaxyproject.eu/tiaas.html)*  service to support Galaxy training compute infrastructure. 
+How to set up your own *[Training Infrastructure as a Service (TIaaS)](https://galaxyproject.eu/tiaas.html)*  service to support Galaxy training compute infrastructure.
 
 <img class="card-img-bottom" src="tiaas_intro.png" alt="TIaaS plumbing" />
 </div>
@@ -532,7 +534,7 @@ How to use regression techniques to create predictive models from biological dat
 
 By Pratik Jagtap, Subina Mehta, Ray Sajulga, Bérénice Batut, Emma Leith, Praveen Kumar, and Saskia Hiltemann.
 
-This is a shortened version of an [existing tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html). Instead of running each tool individually, this tutorial employs workflows to run groups of analysis steps (e.g. data cleaning) at once. 
+This is a shortened version of an [existing tutorial](https://training.galaxyproject.org/training-material/topics/metagenomics/tutorials/metatranscriptomics/tutorial.html). Instead of running each tool individually, this tutorial employs workflows to run groups of analysis steps (e.g. data cleaning) at once.
 
 <img class="card-img-bottom" src="gtn-krona.png" alt="Krona" />
 </div>
@@ -553,16 +555,18 @@ This is a shortened version of an [existing tutorial](https://training.galaxypro
 <div class="card border-info"  style="min-width: 16rem; max-width: 20rem;">
 <div class="card-header">[Galaxy 20.01](/news/2020-02-galaxy-release-20-01/)</div>
 
-See 
+See
+
 * **[Developer and admin release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce.html)**
 * **[User release announcement](https://docs.galaxyproject.org/en/master/releases/20.01_announce_user.html)**.
 
 Features:
+
 * Easily list and review recently invoked workflows.
 * Galaxy Markdown Pages and Workflow Reports as PDF
 * Screenreader-friendly Navigation
 * Email notification for completed jobs
-* Workflows can now make use of optional datasets and optional parameters 
+* Workflows can now make use of optional datasets and optional parameters
 * Major update to container and dependency management interface
 Extended job metadata collection
 
@@ -832,8 +836,8 @@ Read ScienceNode's [writeup](https://sciencenode.org/feature/Multiplying%20scien
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header">[ABLS20 #UseGalaxy Poster Prizes awarded](https://www.vibconferences.be/news/the-3rd-sold-out-edition-of-abls20-showcases-the-power-of-bioinformatics)</div>
 
-[Sema Elif Eski](https://www.researchgate.net/profile/Sema_Eski) (ULB, BE) and [Simon van Heeringen](https://molbio.science.ru.nl/about/molecular-developmental-biology/simon-van-heeringen/) (Radboud Universiteit, NL) received the #UseGalaxy poster prizes at the 
-[Applied Bioinformatics in Life Sciences Conference](https://www.vibconferences.be/events/applied-bioinformatics-in-life-sciences-3rd-edition) in Leuven. 
+[Sema Elif Eski](https://www.researchgate.net/profile/Sema_Eski) (ULB, BE) and [Simon van Heeringen](https://molbio.science.ru.nl/about/molecular-developmental-biology/simon-van-heeringen/) (Radboud Universiteit, NL) received the #UseGalaxy poster prizes at the
+[Applied Bioinformatics in Life Sciences Conference](https://www.vibconferences.be/events/applied-bioinformatics-in-life-sciences-3rd-edition) in Leuven.
 
 <img class="card-img-bottom" src="abls20-prizes.png" alt="ABLS20 Poster Prizes" />
 </div>

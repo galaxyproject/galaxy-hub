@@ -7,7 +7,7 @@ The [GalaxyAdmins](/community/galaxy-admins/meetups/) group uses the University 
 
 ## Blackboard Collaborate (Ellumiate Live!) Tips
 
-You do not need any special client, just a web browser and Java installed (the client will run as a Java web start app). 
+You do not need any special client, just a web browser and Java installed (the client will run as a Java web start app).
 
 **If you are using a recently updated version of Mac OS X, you will need to take [some extra steps](/community/galaxy-admins/meetups/webinar-tech/#java-web-start-on-mac-os-x) to get Java Web Start to work.**
 
@@ -51,7 +51,7 @@ These two situations are known to be fixed with this solution:
 
   `javaws meeting.jnlp`
 
- if you see 
+ if you see
 
   `Java Web Start splash screen process exiting .....`
 

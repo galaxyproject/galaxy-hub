@@ -15,7 +15,7 @@ Participants will learn how to install, configure, customize, and extend their o
 
 *Maximum number of participants is limited to 30, and we will manage registrations to allow for geographical distribution and proritize participants with responsibility of administrating galaxy servers.* After registering you will get a second confirmation if/when a slot has been allocated to you.
 
-Although located in Europe, and named to reflect this, the workshop is definitely **open to a world-wide audience.** The workshop is a result of the collaboration between the [Elixir Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg) and the Galaxy Project, and so far known, this is the only Galaxy Admin workshop planned for 2018. 
+Although located in Europe, and named to reflect this, the workshop is definitely **open to a world-wide audience.** The workshop is a result of the collaboration between the [Elixir Galaxy WG](https://www.elixir-europe.org/about/groups/galaxy-wg) and the Galaxy Project, and so far known, this is the only Galaxy Admin workshop planned for 2018.
 
 *Participants are to cover their own travel and accomodation, while the workshop participation is free of charge.*
 

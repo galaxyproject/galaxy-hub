@@ -39,9 +39,9 @@ essential for the Galaxy - HPC functionality. Our poster will discuss:
 * module for project reporting and providing feedback to the funding agency
 * big file upload based on Filesender technology allowing to upload files up to 250 GB into Galaxy
 * details of cluster deployment via SLURM DRMAA including:
-  * Galaxy code modification allowing for user-selected cluster job parameters such as queue, time, memory, number of nodes and cores
-  * export of Galaxy libraries for deployment of the core Galaxy tools on the cluster
-  * general changes to tool wrappers needed for cluster implementation
+    * Galaxy code modification allowing for user-selected cluster job parameters such as queue, time, memory, number of nodes and cores
+    * export of Galaxy libraries for deployment of the core Galaxy tools on the cluster
+    * general changes to tool wrappers needed for cluster implementation
 
 <br />
 
@@ -83,9 +83,9 @@ Aarif Mohamed Nazeer Batcha<sup>1</sup>, **Sebastian Schaaf<sup>1,2</sup>**, Guo
 
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P3Schaaf.pdf)**
 
-Over three years, the Munich NGS-FabLab  was build up first as a concept and later as a running IT system, based on an assessment of requirements, constraints and given structural conditions. Since some months it is in active use, although still under intense development. 
+Over three years, the Munich NGS-FabLab  was build up first as a concept and later as a running IT system, based on an assessment of requirements, constraints and given structural conditions. Since some months it is in active use, although still under intense development.
 
-As every developer knows, especially complex and broad open source software like Galaxy does not come error-free. Expected issues were due to non-standard elements like the operating system (SLES 11), hardware (x86 server not supported by the clinics IT, FPGA hybrid-computer, network load, …), computational requests (projects with special needs or proprietary software) and not to forget financing and politics. Apart from that, Galaxy itself and the associated software packages and/or the respecting wrappers surprisingly often turned out to be in need of corrections, although we assumed to use standard input data and perform simple jobs.  Finally, those tools or computations which were needed, but are not yet supported by the Galaxy framework, most work invested deals with trouble-shooting, bug-hunting and code analysis. 
+As every developer knows, especially complex and broad open source software like Galaxy does not come error-free. Expected issues were due to non-standard elements like the operating system (SLES 11), hardware (x86 server not supported by the clinics IT, FPGA hybrid-computer, network load, …), computational requests (projects with special needs or proprietary software) and not to forget financing and politics. Apart from that, Galaxy itself and the associated software packages and/or the respecting wrappers surprisingly often turned out to be in need of corrections, although we assumed to use standard input data and perform simple jobs.  Finally, those tools or computations which were needed, but are not yet supported by the Galaxy framework, most work invested deals with trouble-shooting, bug-hunting and code analysis.
 
 Experiences, fixes, improvements and new integrations are subject to this poster, which may appear more like a collage of loosely connected sub-topics. While we did not return those code snippets to the community yet, we also hope to get into the process of submitting contents for public use and discuss them, in order to improve the framework as a whole.
 
@@ -104,7 +104,7 @@ Experiences, fixes, improvements and new integrations are subject to this poster
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P4leBras.pdf)**
 
 
-Research processes are evolving at a rapid pace. This evolution, mainly due to technological advances, offers powerful equipment and generalizes the digital aspect of the research data. If facing the actual data deluge context represents a challenge, it also offers an opportunity to change and enhance our manner to tackle research tasks and disseminate science. In Life Sciences, as in other domains, we are noting a sharp increase in storage and computing needs. Regularly adding hardware resources to the bioinformatics core facilities is no longer sustainable. Scientific data management and analysis have to be enhanced in order to offer services and developments matching the new uses. 
+Research processes are evolving at a rapid pace. This evolution, mainly due to technological advances, offers powerful equipment and generalizes the digital aspect of the research data. If facing the actual data deluge context represents a challenge, it also offers an opportunity to change and enhance our manner to tackle research tasks and disseminate science. In Life Sciences, as in other domains, we are noting a sharp increase in storage and computing needs. Regularly adding hardware resources to the bioinformatics core facilities is no longer sustainable. Scientific data management and analysis have to be enhanced in order to offer services and developments matching the new uses.
 
 Since 2 years, Galaxy platform is used in combination with ISATools and HUBzero to build a Life Sciences Virtual Research Environment. Each tool offers complementary functionalities: ISAtools software suite for metadata management, HUBzero for scientific collaboration and Galaxy for computation. The resulting combination allows scientists to manage their project from collaboration to data management and analysis. This Virtual Research Environment (VRE) is tested in partnership with the scientific communities in Western France. The evaluation will give us insights on the usage and acceptance of new tools in a scientific field characterized by profound modification of its traditional processes.
 
@@ -122,7 +122,7 @@ Although the deployment of this kind of environment is challenging, it represent
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P5Rausch.pdf)**
 
 The Cancer Center Amsterdam (CCA) of VU University Medical Center is a research center that performs internationally recognized research in the area of oncogenetics, immunopathogenesis, disease profiling, innovative therapy and quality of life.
- 
+
 We are currently establishing a Drylab that empowers both researchers and clinicians with state-of-the-art bioinformatics solutions. The Drylab is expected to contribute scientifically, which we want to make possible by building a team with diverse interdisciplinary backgrounds: Biology, statistics, experimental design, bioinformatics etc.
 
 Establishing an organizational context with continued funding is an ongoing challenging task. First, we have built a scalable infrastructure. We established Drylab.nl as a custom Wordpress instance, expanded with a helpdesk and ticketing system and linked to a Galaxy based workflow system using a tool shed to (re)use and share internal and external workflows. In external collaborations (e.g. with Biobix in Ghent, Belgium) we are building/exchanging pipelines/workflows for RNAseq, proteogenomics (riboSeq) and methylome analysis (methylcapSeq). We are also implementing a workflow validation procedure using test data. In order to close the loop to the end user we are planning to visualize genomic data on different platforms.
@@ -147,7 +147,7 @@ Non-coding small RNAs (miRNA, siRNA, piRNA, …) are involved in the regulation 
 
 **Ulf Schaefer<sup>1</sup>**, Anthony Underwood<sup>1</sup>, and Jonathan Green<sup>1</sup>
 
- <sup>1</sup> [Advanced Laboratory and Bio-Informatics, Microbiology Services, Public Health England](https://www.gov.uk/government/organisations/public-health-england), 61 Colindale Avenue, London NW9 5EQ, United Kingdom, 
+ <sup>1</sup> [Advanced Laboratory and Bio-Informatics, Microbiology Services, Public Health England](https://www.gov.uk/government/organisations/public-health-england), 61 Colindale Avenue, London NW9 5EQ, United Kingdom,
 
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P7Schaefer.pdf)**
 
@@ -216,9 +216,10 @@ Powerful algorithmic techniques lead to software applications that can answer im
 
 We have been leveraging the oqtans codebase to withstand different RNA-seq downstream analysis directions. In particular, it has been utilized recently for translational research to understand the effect of anticancer therapeutics. To measure the translational efficiency change for protein coding genes from multiple samples (treated vs nontreated), we used the sequencing based transcriptome scale ribosome footprinting and RNA-seq data. Our approach allowed us to detect significant changes of the ribosome binding profile of mRNA transcripts between two conditions using a non-parametric testing strategy.
 
-Moving the Galaxy framework from academic to clinical research introduces a myriad of informatics challenges concerning the security of the data sets. In addition to developing  new methods for oqtans components, it is equally important to handle the informatics complexities  that come with scaling oqtans for clinical use. We have deployed our instance under ModSecurity and encrypted user authentication and subsequent session transmissions using Secure Sockets Layer (SSL). We have applied patches to the core codebase of the Galaxy framework to responsively address vulnerable redirection via URL injection, Reflected and stored Cross-site scripting (XSS) and properly sanitize and encode all potential user input and output. 
+Moving the Galaxy framework from academic to clinical research introduces a myriad of informatics challenges concerning the security of the data sets. In addition to developing  new methods for oqtans components, it is equally important to handle the informatics complexities  that come with scaling oqtans for clinical use. We have deployed our instance under ModSecurity and encrypted user authentication and subsequent session transmissions using Secure Sockets Layer (SSL). We have applied patches to the core codebase of the Galaxy framework to responsively address vulnerable redirection via URL injection, Reflected and stored Cross-site scripting (XSS) and properly sanitize and encode all potential user input and output.
 
-Availability 
+Availability
+
 * oqtans cloudman image - ami-65376a0c
 * oqtans public compute server - [galaxy.cbio.mskcc.org](http://galaxy.cbio.mskcc.org)
 
@@ -236,7 +237,7 @@ Availability
 
 For a research lab, accessing shared resources like those available in supercomputer centers is a welcome addition to Galaxy capabilities. However, privacy or flexibility requirements might impose the need for a locally managed Galaxy installation. In these cases a way to communicate a local instance of Galaxy with the supercomputer would be a solution.
 
-The [Center for Biotechnology and Genomics of Plants (CBGP)](http://www.cbgp.upm.es/) and the [Madrid Supercomputing and Visualization Center (CeSViMa)](http://www.cesvima.upm.es/) are located at Technical University of Madrid (UPM) Montegancedo Campus. CeSViMa manages the large heterogeneous Magerit cluster, with about 4,000 Power7 and 1,000 Intel cores, accessed in batch mode. The resource manager used is SLURM and scheduler is MOAB. Standard job runs in Magerit involve logging into one of the interactive nodes, preparing a job command file and then submitting them to one of the batch queues. The challenge was to be able to seamlessly use this system through a Galaxy front-end. The solution adopted was to set up a Virtual Private Server that runs Galaxy. The Galaxy instance has been installed in a filesystem shared between VPS and Magerit, which is under the control of Magerit GPFS filesystem. 
+The [Center for Biotechnology and Genomics of Plants (CBGP)](http://www.cbgp.upm.es/) and the [Madrid Supercomputing and Visualization Center (CeSViMa)](http://www.cesvima.upm.es/) are located at Technical University of Madrid (UPM) Montegancedo Campus. CeSViMa manages the large heterogeneous Magerit cluster, with about 4,000 Power7 and 1,000 Intel cores, accessed in batch mode. The resource manager used is SLURM and scheduler is MOAB. Standard job runs in Magerit involve logging into one of the interactive nodes, preparing a job command file and then submitting them to one of the batch queues. The challenge was to be able to seamlessly use this system through a Galaxy front-end. The solution adopted was to set up a Virtual Private Server that runs Galaxy. The Galaxy instance has been installed in a filesystem shared between VPS and Magerit, which is under the control of Magerit GPFS filesystem.
 
 Galaxy jobs are sent to Magerit through Command Line Interface. A Job Plug-In has been coded that creates the needed Jobfiles transparently submitted to the queuing system.
 
@@ -252,7 +253,7 @@ Using this approach, research group members are fully responsible for deploying 
 
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P13Rasche.pdf)**
 
-Addition of new software to Galaxy is currently a non-trivial task. Galaxy tools consist of many interdependent parts; packaged executables or scripts, tool data, and tool configuration in the form of XML files. This presents a problem in the form of a large codebase to maintain, especially for groups that regularly produce tools to add to Galaxy. 
+Addition of new software to Galaxy is currently a non-trivial task. Galaxy tools consist of many interdependent parts; packaged executables or scripts, tool data, and tool configuration in the form of XML files. This presents a problem in the form of a large codebase to maintain, especially for groups that regularly produce tools to add to Galaxy.
 
 With the goals of code deduplication, simplification of deployment workflow, and improved accessibility of the Galaxy platform for new developers, we have developed Python and Perl libraries that function to replace traditional methods of obtaining command line arguments like GetOpt and argparse. Our libraries are capable of automatically generating valid Galaxy XML tool description files that represent the full set of a tool's command line options. This removes the need to maintain the Python/Perl script and the XML file separately, as the XML files can be regenerated at any time from the Python/Perl script. We believe this will lead to significant reductions in time spent on maintenance of codebases and decreases turn around times for shipping new releases. These libraries will benefit anyone adding new custom tools to Galaxy by providing a convenient method to specify command line parameters, an easy way to access that data in their tools, and automatic Galaxy integration.
 
@@ -301,7 +302,7 @@ Presented by **Björn Grüning<sup>1</sup>**
 
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P16Videm.pdf)**
 
-Non-coding RNAs play a vital role in many cellular processes such as RNA splicing, translation, gene regulation. However the vast majority of ncRNAs still have no functional annotation. One prominent approach for putative function assignment is clustering of transcripts according to sequence and secondary structure. However sequence information is changed by post-transcriptional modifications, and secondary structure is only a proxy for the true three dimensional conformation of the RNA polymer. A different type of information that does not suffer from these issues and that can be used for the detection of RNA classes, is the pattern of processing and its traces in small RNA-seq reads data. 
+Non-coding RNAs play a vital role in many cellular processes such as RNA splicing, translation, gene regulation. However the vast majority of ncRNAs still have no functional annotation. One prominent approach for putative function assignment is clustering of transcripts according to sequence and secondary structure. However sequence information is changed by post-transcriptional modifications, and secondary structure is only a proxy for the true three dimensional conformation of the RNA polymer. A different type of information that does not suffer from these issues and that can be used for the detection of RNA classes, is the pattern of processing and its traces in small RNA-seq reads data.
 
 Here we introduce BlockClust, an efficient approach to detect transcripts with similar processing patterns. We propose a novel way to encode expression profiles in compact discrete structures, which can then be processed using fast graph kernel techniques. We perform both unsupervised clustering and develop family specific discriminative models; finally we show how the proposed approach is both scalable, accurate and robust across different organisms, tissues and cell lines.
 
@@ -322,11 +323,11 @@ BlockClust was tested and works with small RNA-seq data of eukaryotic organisms.
 
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P17Zarbo.pdf)**
 
-The emerging applications in physiological data processing, encouraged by the availability of wearable sensors for continuous self-monitoring and quantified self, require new platforms for time series analysis supporting real-time processing and fast prototyping capabilities. We recently proposed Physiolyze, a Galaxy-based web framework to support complex workflows for Heart Rate Variability (HRV) analysis. Here we extend Physiolyze by introducing scalable online processing capabilities. 
+The emerging applications in physiological data processing, encouraged by the availability of wearable sensors for continuous self-monitoring and quantified self, require new platforms for time series analysis supporting real-time processing and fast prototyping capabilities. We recently proposed Physiolyze, a Galaxy-based web framework to support complex workflows for Heart Rate Variability (HRV) analysis. Here we extend Physiolyze by introducing scalable online processing capabilities.
 
 The enhanced version still relies on Galaxy as core platform to design and manage the pipelines. In order to incrementally analyze the streams, a set of Python routines based on the Bioblend library works as middleware to trigger the pipelines as new data become available. A web interface based on the Django Python framework allows the user to control the execution of the pipelines, running them on new data streams.
 
-We tested our system on the task of predicting infant behavioral state from HRV patterns. We simulated a real-time scenario of 100 asynchronous data streams from data for 24 infants previously collected with a Light WP Holter ECG recorder (GE Healthcare). The system incrementally extracts 37 HRV indicators from each data stream and predicts the infant state (e.g. wake, sleep, cry) with a Random Forest regression model. The pipeline is modular and fully managed as a Galaxy workflow. 
+We tested our system on the task of predicting infant behavioral state from HRV patterns. We simulated a real-time scenario of 100 asynchronous data streams from data for 24 infants previously collected with a Light WP Holter ECG recorder (GE Healthcare). The system incrementally extracts 37 HRV indicators from each data stream and predicts the infant state (e.g. wake, sleep, cry) with a Random Forest regression model. The pipeline is modular and fully managed as a Galaxy workflow.
 
 Our system can easily be adapted to other online streaming analytics applications,  such as for the parallelized analysis of multiple data streams acquired from physiological sensors and wearable devices.
 
@@ -340,7 +341,7 @@ Our system can easily be adapted to other online streaming analytics application
 
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P18vanLieshout.pdf)**
 
-DNA copy number aberrations are a hallmark of cancer and can be quantified by shallow whole-genome sequencing (WGS). A robust method has been developed<sup>1</sup> that detects copy number aberrations by binning and counting sequence reads in non-overlapping windows (usually of 15kb). Then a combined LOESS correction for mappability and GC content is applied followed by excluding genomic regions from both ENCODE project blacklists and a novel blacklist based on sequence depth of 38 individuals from the 1000 Genomes project. 
+DNA copy number aberrations are a hallmark of cancer and can be quantified by shallow whole-genome sequencing (WGS). A robust method has been developed<sup>1</sup> that detects copy number aberrations by binning and counting sequence reads in non-overlapping windows (usually of 15kb). Then a combined LOESS correction for mappability and GC content is applied followed by excluding genomic regions from both ENCODE project blacklists and a novel blacklist based on sequence depth of 38 individuals from the 1000 Genomes project.
 
 The procedure is available as a Bioconductor package, QDNAseq<sup>2</sup>. The accompanying Galaxy tool uses the popular BAM format as input and reports results in a clear and concise HTML based view within Galaxy itself. Various output formats can be downloaded, including an R data structure file for downstream analysis and a Zipped archive with all the output together.
 
@@ -361,13 +362,13 @@ Funding was supported by the Center for Translational Molecular Medicine, Transl
 
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P19Loraine.pdf)**;
 
-Integrated Genome Browser is a fast, flexible and free Java-based desktop software tool that enables interactive exploration of genomic data sets. To accommodate large data sets, IGB featured a simple ReST-style interface that triggers incremental loading of data from local files or URLs. We used this ReST-style interface and the Galaxy viewers API to enable IGB visualization for Galaxy users. When Galaxy users create compatible data files, they now see a link labeled “View in IGB” upon clicking data file links in their Galaxy History. Clicking this link triggers delivery of data to IGB for display. This is a simple interaction from the user’s perspective, but from an engineering point of view, it highlights a key extension point for Galaxy that enables integration with IGB or other visualization tools. By enabling access to data sets in a user-friendly, web-based interface, Galaxy offers many possibilities to enhance user interactions for data analysis and data sharing. 
+Integrated Genome Browser is a fast, flexible and free Java-based desktop software tool that enables interactive exploration of genomic data sets. To accommodate large data sets, IGB featured a simple ReST-style interface that triggers incremental loading of data from local files or URLs. We used this ReST-style interface and the Galaxy viewers API to enable IGB visualization for Galaxy users. When Galaxy users create compatible data files, they now see a link labeled “View in IGB” upon clicking data file links in their Galaxy History. Clicking this link triggers delivery of data to IGB for display. This is a simple interaction from the user’s perspective, but from an engineering point of view, it highlights a key extension point for Galaxy that enables integration with IGB or other visualization tools. By enabling access to data sets in a user-friendly, web-based interface, Galaxy offers many possibilities to enhance user interactions for data analysis and data sharing.
 
 <br />
 
 ## P20: An approach for detecting structural variations from NGS paired end reads using Split Reads, Discordant Read Pairs and Local Alignment
 
-**Michael Ta<sup>1</sup>**, Philip D. Cotter<sup>1</sup>, Mathew W. Moore<sup>1</sup> 
+**Michael Ta<sup>1</sup>**, Philip D. Cotter<sup>1</sup>, Mathew W. Moore<sup>1</sup>
 
  <sup>1</sup> Bioinformatics Department, [ResearchDx](http://www.researchdx.com), Irvine CA, USA
 
@@ -381,7 +382,7 @@ A major challenge in Next Generation Sequencing is the development of efficient 
 
 **J Christopher Bare<sup>1</sup>**, Synapse Platform Team<sup>1</sup>, Michael R Kellen<sup>1</sup>, Stephen H Friend<sup>1</sup>
 
- <sup>1</sup> [Sage Bionetworks](http://sagebase.org/) 
+ <sup>1</sup> [Sage Bionetworks](http://sagebase.org/)
 
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P21Bare.pdf)**
 
@@ -430,17 +431,17 @@ This talk will be about our experiences while integrating Galaxy with GenomeClou
 <br />
 
 
-=== P24: GenomeSpace: An Environment for Frictionless Bioinformatics	===
+=== P24: GenomeSpace: An Environment for Frictionless Bioinformatics ===
 
-**Michael Reich<sup>1</sup>**, John Liefeld<sup>1</sup>, Marco Ocana<sup>1</sup>, Donkeung Jang<sup>1</sup>, James Robinson<sup>1</sup>, Peter Carr<sup>1</sup>, Barbara Hill<sup>1</sup>, Thorin Tabor<sup>1</sup>, Helga Thorvaldsdottir<sup>1</sup>, Aviv Regev<sup>1</sup>, Jill P. Mesirov<sup>1</sup> 
+**Michael Reich<sup>1</sup>**, John Liefeld<sup>1</sup>, Marco Ocana<sup>1</sup>, Donkeung Jang<sup>1</sup>, James Robinson<sup>1</sup>, Peter Carr<sup>1</sup>, Barbara Hill<sup>1</sup>, Thorin Tabor<sup>1</sup>, Helga Thorvaldsdottir<sup>1</sup>, Aviv Regev<sup>1</sup>, Jill P. Mesirov<sup>1</sup>
 
- <sup>1</sup> Broad Institute, Cambridge, MA 
+ <sup>1</sup> Broad Institute, Cambridge, MA
 
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P24Reich.pdf)**
 
 Over the past several years, initiatives such as The Cancer Genome Atlas and 1000 Genomes Project have produced an explosion of genomic data. These efforts offer a new era of potential for the understanding of basic mechanisms of disease and identification of novel treatments. Comprehensive analysis of these datasets requires coordinated use of Web-based applications, data repositories, and desktop analysis tools. However, the effort required to transfer data between tools, convert between formats, and manage results often prevents researchers from utilizing the wealth of methods available. Many "bench to bedside" discoveries are possible with combinations of existing tools, but the necessary transitions between them puts them out of the reach of most researchers.
 
-[GenomeSpace](http://www.genomespace.org) is an environment that brings together diverse computational tools, enabling non-programmer scientists to easily combine their capabilities. It provides a space to create, manipulate and share a growing collection of genomic analysis tools. [GenomeSpace](http://www.genomespace.org) features support for cloud-based data storage and analysis, automatic conversion of data formats, and ease of connecting new tools to the environment via a RESTful API. 
+[GenomeSpace](http://www.genomespace.org) is an environment that brings together diverse computational tools, enabling non-programmer scientists to easily combine their capabilities. It provides a space to create, manipulate and share a growing collection of genomic analysis tools. [GenomeSpace](http://www.genomespace.org) features support for cloud-based data storage and analysis, automatic conversion of data formats, and ease of connecting new tools to the environment via a RESTful API.
 
 The Galaxy main server is one of the first GenomeSpace-enabled tools, as well as the Galaxy-based Cistrome epigenetic analysis platform. These and the other GenomeSpace-enabled tools, including Cytoscape, GenePattern, Genomica, IGV, ArrayExpress, Genomica, and others, form a comprehensive environment for analysis of genomic data, with new resources being released regularly. We show how researchers can use GenomeSpace to combine the capabilities of these tools and how developers can add their tools to the GenomeSpace environment.
 
@@ -448,10 +449,10 @@ The Galaxy main server is one of the first GenomeSpace-enabled tools, as well as
 
 ## P25: Less talking, more doing: crowd-sourcing the integration of Galaxy with a high-performance computing cluster
 
-[Dirk Colbry](http://icer.msu.edu/person/dirk-colbry)<sup>1</sup>, **[Michael R. Crusoe](http://orcid.org/0000-0002-2961-9670)<sup>2</sup>**, [Andy Keen](http://icer.msu.edu/person/andrew-keen)<sup>1</sup>, [Greg Mason](http://icer.msu.edu/person/greg-mason)<sup>1</sup>, [Jason Muffett](http://icer.msu.edu/person/jason-muffett)<sup>1</sup>, [Matthew Scholz](http://icer.msu.edu/person/matthew-scholz)<sup>1</sup>, [Tracy K. Teal](http://idyll.org/~tracyt/)<sup>2</sup> 
+[Dirk Colbry](http://icer.msu.edu/person/dirk-colbry)<sup>1</sup>, **[Michael R. Crusoe](http://orcid.org/0000-0002-2961-9670)<sup>2</sup>**, [Andy Keen](http://icer.msu.edu/person/andrew-keen)<sup>1</sup>, [Greg Mason](http://icer.msu.edu/person/greg-mason)<sup>1</sup>, [Jason Muffett](http://icer.msu.edu/person/jason-muffett)<sup>1</sup>, [Matthew Scholz](http://icer.msu.edu/person/matthew-scholz)<sup>1</sup>, [Tracy K. Teal](http://idyll.org/~tracyt/)<sup>2</sup>
 
  <sup>1</sup> Michigan State University, Institute for Cyber-Enabled Research<br />
- <sup>2</sup> Michigan State University, Department of Microbiology and Molecular Genetics 
+ <sup>2</sup> Michigan State University, Department of Microbiology and Molecular Genetics
 
 **[Poster](https://depot.galaxyproject.org/hub/attachments/documents/posters/gcc2014/P25Crusoe.pdf)**
 
@@ -466,7 +467,7 @@ On March 5th, 2014 a team of system administrators and bioinformaticians conduct
  <sup>1</sup> [Galaxy Project](http://galaxyproject.org)<br />
  <sup>2</sup> [Johns Hopkins University](http://www.jhu.edu), Baltimore, Maryland, United States<br />
  <sup>3</sup> [The Genome Analysis Centre (TGAC)](http://tgac.ac.uk), Norwich, United Kingdom<br />
- <sup>4</sup> [Bioinformatics Core Facility](http://bioinformatics.ucdavis.edu/), University of California, Davis, United States<br /> 
+ <sup>4</sup> [Bioinformatics Core Facility](http://bioinformatics.ucdavis.edu/), University of California, Davis, United States<br />
  <sup>5</sup> [Life Sciences Computation Centre](http://www.vlsci.org.au/page/lscc), Melbourne, Australia<br />
  <sup>6</sup> [University of Melbourne](http://www.unimelb.edu.au/), Melbourne, Australia<br />
  <sup>7</sup> [Monash University](http://www.monash.edu.au/), Australia

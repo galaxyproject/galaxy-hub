@@ -51,30 +51,30 @@ Need more help? See: [Galaxy Help](https://help.galaxyproject.org/)
 
 In this example, `lftp` for MacOS is used.
 
-First, check to see if `lftp` is installed. Type in the command and the prompt will result, as show below, *if installed*. Type `exit` at the prompt to back out of the session. 
+First, check to see if `lftp` is installed. Type in the command and the prompt will result, as show below, *if installed*. Type `exit` at the prompt to back out of the session.
 
 ```
 $ lftp
 lftp :~>
 ```
 
-If the command is not found, `brew` can be used to install `lftp`. [Instructions when using MacOS](http://macappstore.org/lftp/). 
+If the command is not found, `brew` can be used to install `lftp`. [Instructions when using MacOS](http://macappstore.org/lftp/).
 
-Command-line for `lftp` when connecting to the Public Main Galaxy server. Executing the command will prompt for your password. Your `email` (aka `user@email.edu`) and `password` are exactly the same as when logging into your account at https://usegalaxy.org. 
+Command-line for `lftp` when connecting to the Public Main Galaxy server. Executing the command will prompt for your password. Your `email` (aka `user@email.edu`) and `password` are exactly the same as when logging into your account at https://usegalaxy.org.
 
-For explicit FTPS: 
+For explicit FTPS:
 
 ```
 $ lftp -u user@email.edu usegalaxy.org
 ```
 
-For implicit FTPS: 
+For implicit FTPS:
 
 ```
 $ lftp -u user@email.edu ftps://usegalaxy.org
 ```
 
-If you are using a different Galaxy server, `FTPS` may or may not be enabled, or the server may only accept implicit or explicit `FTP/FTPS` connections. Check with the administrators of that server if you are not sure. 
+If you are using a different Galaxy server, `FTPS` may or may not be enabled, or the server may only accept implicit or explicit `FTP/FTPS` connections. Check with the administrators of that server if you are not sure.
 
 General `FTP` instructions for a Galaxy server *that has `FTP` enabled but not `FTPS`*. The base URL for the server is used for `othergalaxy.org` in the command below. The `email` (aka `user@email.edu`) and `password` is also server specific and the same as when logging in through a browser.
 

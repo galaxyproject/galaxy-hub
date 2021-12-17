@@ -27,7 +27,7 @@ Btown has a wide selection of dining options and prices. My recommendations are 
 
 ## Bars
 
-* Nicks - Bloomington institution. Play Sink the Biz if you are brave. Great bar for hanging out and conversation, with nooks and crannies that aren't too loud. 
+* Nicks - Bloomington institution. Play Sink the Biz if you are brave. Great bar for hanging out and conversation, with nooks and crannies that aren't too loud.
 * Yogis - Cheap, food is ok. Great selection on draft.
 * The Tap - Loud. Great selection on draft. Seats 20.
 * Crazy Horse - Loud, fun, lots of options. Seats 25.
@@ -48,7 +48,7 @@ Btown has a wide selection of dining options and prices. My recommendations are 
 
 ## Hiking
 
-I love to hike; my favorite places are Griffy Lake, the Deam Wilderness, and the Beanblossom Bottoms. 
+I love to hike; my favorite places are Griffy Lake, the Deam Wilderness, and the Beanblossom Bottoms.
 
 * [Griffy](https://en.wikipedia.org/wiki/Griffy_Lake) is close to Bloomington and has nice trails and a tranquil lake to watch birds or fish.
 * [Deam Wilderness](https://en.wikipedia.org/wiki/Charles_C._Deam_Wilderness_Area) is about 45 minutes from campus, but a beautiful place for those who like to be lost in forests.

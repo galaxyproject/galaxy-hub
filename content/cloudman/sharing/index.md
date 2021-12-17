@@ -17,6 +17,7 @@ Sharing is achieved via point-in-time snapshots of the underlying file system(s)
 ## Use cases
 
 The following is a list of typical use cases for when cluster sharing is particularly useful:
+
 * *Training*: you can create a custom version of a cluster with all the training data and histories pre-loaded so once training participants access the cluster, all the data is there without needing to repeat the data bootstrapping process. Additionally, this allows people to create their own instances of your training share and do the training individually and at their own pace, or develop additional curricula.
 * *Reproducible analysis*: include your cluster share string as part of a publication so others can readily access all the details of your analysis methods.
 * *Cluster scaling*: If more than 30 people are expected to be using a cluster simultaneously, it is likely that the performance will not be sufficient to satisfy the load. You can hence create multiple clones of the same cluster and distribute users across those clusters.

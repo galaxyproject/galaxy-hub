@@ -4,7 +4,7 @@ date: "2013-12-17"
 ---
 <div class='right'><a href='http://wiki.sb-roscoff.fr/ifb/index.php/Accueil'><img src="/images/logos/GalaxyIFB.png" alt="Galaxy Day" /></a></div>
 
-The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) took place at Institut Curie in Paris, 4 december.  Program and presentations are [available online](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil). 
+The [2013 Galaxy Day event](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil) took place at Institut Curie in Paris, 4 december.  Program and presentations are [available online](http://wiki.sb-roscoff.fr/ifb/index.php/Accueil).
 
 The Galaxy Day began with the [presentation of the French Galaxy working group](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2013GalaxyDayIFBGalaxyWorkingGroup.pdf).
 

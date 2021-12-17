@@ -4,7 +4,7 @@ date: "2015-08-12"
 ---
 <div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 
-The [Galaxy CiteULike library](/publication-library/) recently reached a milestone:  It now has over 2500 publications in it.  The Galaxy CiteULike Group was [launched in December 2011](/news/new-galaxy-group-cite-u-like/) and [reached 1000 papers 18 months later](/news/galaxy-cite-u-like-paper1000/). 
+The [Galaxy CiteULike library](/publication-library/) recently reached a milestone:  It now has over 2500 publications in it.  The Galaxy CiteULike Group was [launched in December 2011](/news/new-galaxy-group-cite-u-like/) and [reached 1000 papers 18 months later](/news/galaxy-cite-u-like-paper1000/).
 
 To be included in the library a publication needs to reference or mention Galaxy, extend Galaxy, use or reference a Galaxy instance, or otherwise discuss Galaxy or [cite one of the Galaxy Project papers](/citing-galaxy/).
 
@@ -302,29 +302,29 @@ A couple of trends stand out in the tag data:
 Information on where the papers appeared is also available.  Galaxy-related papers have appeared in over 500 different publications.  Publications with 15 or more Galaxy papers are:
 
 
-| Journal |  2005  |  2006  |  2007  |  2008  |  2009  |  2010  |  2011  |  2012  |  2013  |  2014  |  2015  |  Total  | 
-| ------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ | 
-| *Plos One* |  0  |  0  |  0  |  1  |  1  |  4  |  16  |  32  |  42  |  45  |  27  |  **168**  | 
-| *Nucleic Acids Research* |  0  |  1  |  0  |  1  |  11  |  13  |  8  |  21  |  22  |  29  |  19  |  **125**  | 
-| *Bmc Genomics* |  0  |  0  |  0  |  0  |  2  |  4  |  12  |  22  |  27  |  42  |  15  |  **124**  | 
-| *Bioinformatics* |  0  |  0  |  0  |  5  |  4  |  7  |  23  |  19  |  19  |  30  |  10  |  **117**  | 
-| *Bmc Bioinformatics* |  0  |  0  |  1  |  0  |  2  |  10  |  15  |  16  |  8  |  25  |  6  |  **83**  | 
-| *Genome Research* |  1  |  2  |  4  |  3  |  5  |  2  |  9  |  12  |  2  |  8  |  3  |  **51**  | 
-| *Genome Biology* |  0  |  0  |  0  |  1  |  3  |  9  |  11  |  11  |  4  |  6  |  2  |  **47**  | 
-| *Plos Genet* |  0  |  0  |  0  |  2  |  0  |  1  |  6  |  10  |  15  |  6  |  4  |  **44**  | 
-| *Briefings in Bioinformatics* |  0  |  0  |  0  |  1  |  1  |  1  |  3  |  2  |  8  |  4  |  9  |  **29**  | 
-| *Genome Announcements* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  4  |  3  |  19  |  **26**  | 
-| *Concurrency and Computation: Practice and Experience* |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  0  |  11  |  10  |  **25**  | 
-| *Proceedings of the National Academy of Sciences* |  0  |  0  |  0  |  1  |  1  |  0  |  2  |  3  |  4  |  8  |  4  |  **23**  | 
-| *Cell* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  5  |  8  |  3  |  5  |  **23**  | 
-| *Plos Comput Biol* |  0  |  0  |  2  |  1  |  0  |  2  |  3  |  3  |  5  |  5  |  2  |  **23**  | 
-| *Molecular Biology and Evolution* |  0  |  0  |  0  |  0  |  3  |  0  |  1  |  1  |  9  |  2  |  4  |  **20**  | 
-| *Nature Communications* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  2  |  4  |  7  |  7  |  **20**  | 
-| *Molecular Ecology* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  1  |  11  |  4  |  0  |  **18**  | 
-| *Database* |  0  |  0  |  0  |  0  |  0  |  1  |  6  |  2  |  4  |  3  |  1  |  **17**  | 
-| *Genome Biology and Evolution* |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  2  |  3  |  5  |  2  |  **16**  | 
-| *Nature* |  1  |  0  |  0  |  0  |  1  |  3  |  1  |  0  |  4  |  2  |  3  |  **15**  | 
-| *Cell Reports* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  3  |  5  |  4  |  3  |  **15**  | 
+| Journal |  2005  |  2006  |  2007  |  2008  |  2009  |  2010  |  2011  |  2012  |  2013  |  2014  |  2015  |  Total  |
+| ------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
+| *Plos One* |  0  |  0  |  0  |  1  |  1  |  4  |  16  |  32  |  42  |  45  |  27  |  **168**  |
+| *Nucleic Acids Research* |  0  |  1  |  0  |  1  |  11  |  13  |  8  |  21  |  22  |  29  |  19  |  **125**  |
+| *Bmc Genomics* |  0  |  0  |  0  |  0  |  2  |  4  |  12  |  22  |  27  |  42  |  15  |  **124**  |
+| *Bioinformatics* |  0  |  0  |  0  |  5  |  4  |  7  |  23  |  19  |  19  |  30  |  10  |  **117**  |
+| *Bmc Bioinformatics* |  0  |  0  |  1  |  0  |  2  |  10  |  15  |  16  |  8  |  25  |  6  |  **83**  |
+| *Genome Research* |  1  |  2  |  4  |  3  |  5  |  2  |  9  |  12  |  2  |  8  |  3  |  **51**  |
+| *Genome Biology* |  0  |  0  |  0  |  1  |  3  |  9  |  11  |  11  |  4  |  6  |  2  |  **47**  |
+| *Plos Genet* |  0  |  0  |  0  |  2  |  0  |  1  |  6  |  10  |  15  |  6  |  4  |  **44**  |
+| *Briefings in Bioinformatics* |  0  |  0  |  0  |  1  |  1  |  1  |  3  |  2  |  8  |  4  |  9  |  **29**  |
+| *Genome Announcements* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  4  |  3  |  19  |  **26**  |
+| *Concurrency and Computation: Practice and Experience* |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  0  |  11  |  10  |  **25**  |
+| *Proceedings of the National Academy of Sciences* |  0  |  0  |  0  |  1  |  1  |  0  |  2  |  3  |  4  |  8  |  4  |  **23**  |
+| *Cell* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  5  |  8  |  3  |  5  |  **23**  |
+| *Plos Comput Biol* |  0  |  0  |  2  |  1  |  0  |  2  |  3  |  3  |  5  |  5  |  2  |  **23**  |
+| *Molecular Biology and Evolution* |  0  |  0  |  0  |  0  |  3  |  0  |  1  |  1  |  9  |  2  |  4  |  **20**  |
+| *Nature Communications* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  2  |  4  |  7  |  7  |  **20**  |
+| *Molecular Ecology* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  1  |  11  |  4  |  0  |  **18**  |
+| *Database* |  0  |  0  |  0  |  0  |  0  |  1  |  6  |  2  |  4  |  3  |  1  |  **17**  |
+| *Genome Biology and Evolution* |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  2  |  3  |  5  |  2  |  **16**  |
+| *Nature* |  1  |  0  |  0  |  0  |  1  |  3  |  1  |  0  |  4  |  2  |  3  |  **15**  |
+| *Cell Reports* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  3  |  5  |  4  |  3  |  **15**  |
 
 <br />
 There are also many unexpected publications in the list:

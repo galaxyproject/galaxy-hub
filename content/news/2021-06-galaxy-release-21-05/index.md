@@ -27,7 +27,7 @@ tasks will bridge the gap between rapid requests that can be handled
 during a web request and jobs that require extensive and relatively slow
 setup.
 
-## More robust selection of job handlers 
+## More robust selection of job handlers
 Job throughput can be increased by starting Galaxy with multiple
 external job handler processes. Jobs were traditionally assigned to a
 job handler process by the web handler or workflow handler process that

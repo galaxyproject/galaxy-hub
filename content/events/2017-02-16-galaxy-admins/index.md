@@ -11,4 +11,5 @@ external_url: /community/galaxy-admins/meetups/2017-02-16/
 contact: Nuwan Goonasekera, Enis Afgan
 ---
 Additional Resources:
+
 - [Video](https://connect.johnshopkins.edu/p8t92n1zw9q)

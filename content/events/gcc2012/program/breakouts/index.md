@@ -20,5 +20,6 @@ Breakouts are informal, open discussion sessions where participants interested i
 
 
 There was discussion of merging the [GalaxyCzars](/community/galaxy-admins/meetups/2012-07-27/) and [Automation Strategies for Data, Tools, & Config](/events/gcc2012/program/breakouts/automation-strategies/) breakouts.  However, this wasn't been done because the emphases of the two breakouts is distinct:
+
 * [Automation Strategies](/events/gcc2012/program/breakouts/automation-strategies/) has a narrow focus on automating deployment of genomes, tools, data libraries and such.
 * [GalaxyCzars](/community/galaxy-admins/meetups/2012-07-27/) is about the breadth of issues facing those deploying and managing Galaxy installations.

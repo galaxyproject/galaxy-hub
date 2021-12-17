@@ -1,4 +1,4 @@
-<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a>
 <div class='title'>2015-02-19 Web Meetup<br /><br />
 
 </div></div>
@@ -35,7 +35,7 @@
 
 Except for a [meetup at GCC2014](/events/gcc2014/bofs/galaxy-admins/), the [GalaxyAdmins group](/community/galaxy-admins/) has been hiatus for a while.  Thanks to the efforts of [Hans-Rudolf Hotz](/people/hansrudolf-hotz/), the [GalaxyAdmins group](/community/galaxy-admins/) *is back.*  Starting in February 2015, we will resume our bi-monthly web meetups.  
 
-*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations.
 
 ## Fall 2014 Galaxy Community Questionnaires Summary
 
@@ -63,7 +63,7 @@ The  [meetup's online conference room](http://bit.ly/admins1502) will open 15 mi
 ### Instructions for Participants
 
 * You can ask questions either by *raising your hand* or by typing the question in the chat box.  
-  * If you raise your hand, the host will need to recognize you.
-  * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
+    * If you raise your hand, the host will need to recognize you.
+    * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
 <div class='center'><img src="/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>

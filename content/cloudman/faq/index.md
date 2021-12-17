@@ -58,6 +58,7 @@ Once you have chosen the device type and provided the necessary device informati
 ## Terminology
 
 The space of cloud computing is littered with technical terms, here we try to explain the meaning of the most common terms:
+
 * *Access key*: credentials required along with the secret key to access cloud resources under your account via the [API](https://en.wikipedia.org/wiki/Application_programming_interface)
 * *Secret key*: credentials required along with the access key to access cloud resources under your account via the API
 * *Instance*: a running virtual machine that can be used

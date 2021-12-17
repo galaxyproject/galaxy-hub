@@ -52,21 +52,21 @@ The -w tool_dependency_definitions flag installs all Tool dependency definition 
 As I write this article, the Install and Test Framework for the Main Tool Shed installs 142 Tool dependency definition repositories with 113 successful installations of tool dependencies defined by their recipes and 26 recipes resulting in tool dependency installation errors.  The tool dependency installation results for each repository revision are uploaded to the Tool Shed and displayed in the Test runs container on each repository’s main page.  The Tool Shed can be configured to store any number of test runs, and the Main Tool Shed has been configured to store 5.  These test run containers include the following categories of information for Tool dependency definition repositories.
 
 * Test environment
-  * Date and time tested
-  * Galaxy revision
-  * Galaxy database version
-  * Tool Shed revision
-  * Tool Shed database version
-  * Tool Shed mercurial version
-  * Python version
-  * System and architecture
+    * Date and time tested
+    * Galaxy revision
+    * Galaxy database version
+    * Tool Shed revision
+    * Tool Shed database version
+    * Tool Shed mercurial version
+    * Python version
+    * System and architecture
 * Successful installations
-  * Repository dependencies
-  * Tool dependencies
+    * Repository dependencies
+    * Tool dependencies
 * Installation errors
-  * Current repository
-  * Repository dependencies
-  * Tool dependencies
+    * Current repository
+    * Repository dependencies
+    * Tool dependencies
 
 After stage 1 of the Install and Test process is completed, stage 2 is executed with the following call.
 
@@ -78,22 +78,22 @@ The -w repositories_with_tools flag installs all Unrestricted repositories that 
 As I write this post, the Install and Test Framework for the Main Tool Shed successfully installs 226 repository revisions containing 74 additional tool dependencies that were not installed in Stage 1, with 17 additional tool dependency installations resulting in errors.  Of the successful installations, 106 repository revisions pass all tool functional tests, while 37 revisions fail at least 1 tool functional test.  Unfortunately, many repositories in the Main Tool Shed are lacking tool tests or test data.  As with Tool dependency definition repositories, the test results of these Unrestricted repositories are uploaded to the Tool Shed and displayed in the Test runs container on each repository’s main page.  These containers include the same information listed above, but also include the additional following categories of information.
 
 * Passed tests
-  * Test id
-  * Tool id
-  * Tool version
+    * Test id
+    * Tool id
+    * Tool version
 * Failed tests
-  * Test id
-  * Tool id
-  * Tool version
-  * Stderr output of test
-  * Traceback output of test
+    * Test id
+    * Tool id
+    * Tool version
+    * Stderr output of test
+    * Traceback output of test
 * Missing test components
-  * Test id
-  * Tool id
-  * Tool version
+    * Test id
+    * Tool id
+    * Tool version
 * Missing components (defined tests or test data files)
 * Not tested
-  * Reason not tested
+    * Reason not tested
 
 This article discusses the Install and Test Framework’s processes for certifying a Tool Shed’s contents.  Repositories that contain both tool dependency recipes and tools that require them are installed and validated using a production Galaxy environment.  This process provides the foundation for the next level of repository certification which is performed by the Intergalactic Utilities Commission, which will be discussed in a future post.
 

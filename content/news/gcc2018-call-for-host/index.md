@@ -27,6 +27,7 @@ GCC alternates every year between meeting in North America, and meeting outside 
 GCC draws 200+ participants from data-intensive life science research.  Participants come from around the world, from all career stages, and do research spanning the tree of life.  Universities, hospitals and medical schools, research organizations, and industry are all represented, including some of the largest and most influential research organizations in the world.  
 
 What do you need to host GCC2018, you ask?  In approximately decreasing order of importance:
+
 * **Enthusiasm to plan and organize several events over several days for more than 200 people.**
 * Space for 4-6 parallel training sessions, with each space able to accommodate 25 to 75 participants.
 * Central meeting space with capacity for 250-300 people.
@@ -34,7 +35,7 @@ What do you need to host GCC2018, you ask?  In approximately decreasing order of
 * Nearby space for breakouts, poster sessions and sponsors.
 * Nearby space for lunch, coffee breaks.
 * Good wifi for all events (that's 200+ people and their devices).
-* Space for hackathons for 2 days 
+* Space for hackathons for 2 days
 * Easy to get to by air.
 * Nearby, affordable housing, or easy walking distance or easy public transport from lodging options to conference facilities
 * Close proximity to a pub and other social hubs.

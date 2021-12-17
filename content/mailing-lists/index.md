@@ -61,7 +61,7 @@ Once you have mastered Rule 1, you can refine your mailing list chops by applyin
 ## New to Open Source Software Support Mailing Lists?
 
 If you are brand new to programming mailing lists please read
-**[How To Ask Questions The Smart Way by Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html)** for practical tips on writing programming questions to this or any other open source mailing list. 
+**[How To Ask Questions The Smart Way by Eric Steven Raymond](http://www.catb.org/esr/faqs/smart-questions.html)** for practical tips on writing programming questions to this or any other open source mailing list.
 
 <span style="font-size: smaller;"> Hint for those too lazy to click: only you know useful information about the problem context such as the software packages and versions involved. A good question includes the bare minimum context detail, allowing someone who is skilled in the art and reading the list to understand the problem. </span>
 

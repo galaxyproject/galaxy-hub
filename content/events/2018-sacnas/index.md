@@ -50,7 +50,7 @@ The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http
 Ever find yourself manually repeating coding tasks?  Do you feel like there should be an easier way to go about doing data analysis and visualization?  Join us for a [Software](https://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/) session to learn how to
 
 1. efficiently work in the unix shell for file manipulation and
-1.  use Python in a sample workflow of data analysis from loading to visualization.
+1. use Python in a sample workflow of data analysis from loading to visualization.
 
 Bring your laptop for a series of hands-on exercises.
 
@@ -63,11 +63,11 @@ Bring your laptop for a series of hands-on exercises.
 
 You will need bash and anaconda set up.  Please follow the installation instructions outlined [here](https://tracykteal.github.io/2018-10-10-SACNAS/) for your operating system (either Windows, Mac OS X, or Linux) to make sure you have the “Bash Shell” and “Python” installed.
 
-## Session 1 : Unix Shell 
+## Session 1 : Unix Shell
 
 | Time | Topic |
 |:----:| ----- |
-| 9:00a -   9:30a	| Software check |
+| 9:00a -   9:30a | Software check |
 | 9:30a - 10:15a | Navigating the shell; file creation & manipulation; basic loops. |
 | 10:15a - 10:30a | Break |
 | 10:30a - 11:15a | Editing text files and simple bash scripts |
@@ -112,7 +112,7 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 | Time | Topic |
 |:----:| ----- |
-| 9:00a - 9:30a	| Workshop & Participant Introductions |
+| 9:00a - 9:30a | Workshop & Participant Introductions |
 | 9:30a - 10:15a | Navigating CyVerse, finding data, and exploring tools |
 | 10:15a - 10:30a | Break |
 | 10:30a - 11:00a| Navigating CyVerse, continued |

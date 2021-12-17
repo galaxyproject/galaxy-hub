@@ -11,13 +11,13 @@ Happy November from Galaxy!
 
 The November newsletter is thin, *but powerful*:
 
- 
- * [Galaxy India Launches this Month](#community-news)
- * [7 new openings (13 total)](#community-news)
- * [9 upcoming Events](#event-news)
- * [Blog posts on SARS-CoV-2 training in Africa; Sunsetting CloudLaundh; and TIaaS](#galactic-blog-posts)
- * [UseGalaxy.* Updates](#galaxy-platforms-news)
- * [Other News too: BY-COVID Launches](#other-news)
+
+* [Galaxy India Launches this Month](#community-news)
+* [7 new openings (13 total)](#community-news)
+* [9 upcoming Events](#event-news)
+* [Blog posts on SARS-CoV-2 training in Africa; Sunsetting CloudLaundh; and TIaaS](#galactic-blog-posts)
+* [UseGalaxy.* Updates](#galaxy-platforms-news)
+* [Other News too: BY-COVID Launches](#other-news)
 
 Have something for the next newsletter?  Please let us know and we will spread the word.
 
@@ -33,13 +33,13 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <!-- InBix 2021 & Galaxy India Launch -->
 <div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
- 
+
 <div class="trim-p">
 
 ![](/images/galaxy-logos/galaxy-india-logo.png)
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [Galaxy India Launch & InBix2021 Pre-Conference Galaxy Workshop](https://neist.res.in/inbix2021/workshop.html)
@@ -50,15 +50,15 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 This 2-day pre-[InBix2021](https://neist.res.in/inbix2021/) workshop will feature talks and hands-on exercises, **and the formal launch of the [Galaxy India Community](https://galaxyproject.in/).**  
 
-Presenters include include 
-[Christopher B Barnett](http://www.chemistry.uct.ac.za/cem/staff/academic/barnett), 
-[Anshu Bhardwaj](https://www.imtech.res.in/contact/staff/dr-anshu-bhardwaj/107), 
-[Simon Bray](https://github.com/simonbray), 
-[Sona Charles](http://www.spices.res.in/ms-sona-charles), 
-[Dave Clements](/people/dave-clements/), 
+Presenters include include
+[Christopher B Barnett](http://www.chemistry.uct.ac.za/cem/staff/academic/barnett),
+[Anshu Bhardwaj](https://www.imtech.res.in/contact/staff/dr-anshu-bhardwaj/107),
+[Simon Bray](https://github.com/simonbray),
+[Sona Charles](http://www.spices.res.in/ms-sona-charles),
+[Dave Clements](/people/dave-clements/),
 [Stephan Flemming](https://github.com/stephanflemming),
-[Selvaraman Nagamani](https://scholar.google.com/citations?user=aIQz3DkAAAAJ&hl=en), 
-and [Gareth Price](https://qfab.org/team-member/dr-gareth-price). 
+[Selvaraman Nagamani](https://scholar.google.com/citations?user=aIQz3DkAAAAJ&hl=en),
+and [Gareth Price](https://qfab.org/team-member/dr-gareth-price).
 
 Early [registration](https://easychair.org/cfp/InBix2021) ends November 5. BIOCLUES members can register for free.
 
@@ -72,7 +72,7 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5. BIOCL
 ![Galaxy is Expanding](/images/GalaxyIsExpandingCloud.png)
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [Galaxy Career Center](/careers/)
@@ -81,13 +81,13 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5. BIOCL
 
 Seven new openings were added to the [Galaxy Career Center](/careers/) in October. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
 
-* Limagrain, Chappes, France 
-* Computational Biology Program, Oregon Health & Science University, Portland, Oregon, US 
+* Limagrain, Chappes, France
+* Computational Biology Program, Oregon Health & Science University, Portland, Oregon, US
 * RECETOX, Brno, Czechia, **closes November 15**
 * Centre for Bioinformatics, University of Oslo, ELIXIR Norway, Oslo, Norway, **closes November 1**
-* Pfizer, Cambridge, Massachusetts, US 
-* DAWSON, Uniformed Services University of the Health Sciences (USUHS), Bethesda, Maryland, US 
-* ELIXIR Belgium, VIB-UGent Center for Plant Systems Biology, Ghent, Belgium 
+* Pfizer, Cambridge, Massachusetts, US
+* DAWSON, Uniformed Services University of the Health Sciences (USUHS), Bethesda, Maryland, US
+* ELIXIR Belgium, VIB-UGent Center for Plant Systems Biology, Ghent, Belgium
 * Helmholtz Zentrum München, Germany, **closes November 25**
 * Tufts University in Massachusetts
 * Sciensano, Belgium
@@ -108,13 +108,13 @@ See all [upcoming events here](/events/index.md):
 
 <!-- FORCeS 2021 -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
- 
+
 <div class="trim-p">
 
 ![FORCeS 2021](logo-forces.png)
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [Tools in Climate Science: Linking
@@ -125,19 +125,19 @@ Observations with Modelling](https://forces-project.eu/events/forces-escience-co
 **1-8 November, Tjärnö Marine Biological Laboratory, Sweden**
 
 The course will introduce the role of aerosols and clouds in Earth’s climate system along with observational techniques, Earth system models, climate forcing and climate model evaluation through a series of lectures and tutorials.
- 
+
 </div>
 
 
 <!-- AusBioCommons Showcase -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
- 
+
 <div class="trim-p">
 
 ![Australian Biocommons](/images/logos/australian-biocommons-logo-horizontal-transparent.png)
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [Australian BioCommons Showcase](https://www.biocommons.org.au/2021-showcase)
@@ -152,13 +152,13 @@ We’ll meet online over three afternoons to share achievements, challenges and 
 
 <!-- Genome Annotation & Large Data -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
- 
+
 <div class="trim-p">
 
 ![ELIXIR Czech](/images/logos/elixir-cz-banner.png)
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [Genome annotation & Galaxy Large Data Handling workshop](https://www.elixir-czech.cz/events/genome-annotation-galaxy-large-data-handling-online-workshop-nov-2021)
@@ -174,13 +174,13 @@ Hands-on introduction to advanced Galaxy features and best practices of processi
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
- 
+
 <div class="trim-p">
 
 ![roundtable](/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png)
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [Galaxy Developer Round Table](/community/devroundtable/)
@@ -189,20 +189,20 @@ Hands-on introduction to advanced Galaxy features and best practices of processi
 
 The Galaxy Developer Round Table meetup in November is:
 
-- [**November 11: Separated data PVC: How it works and potential missed implications**](https://galaxyproject.org/events/2021-11-11-dev-roundtable/) by Alexandru Mahmoud.
+* [**November 11: Separated data PVC: How it works and potential missed implications**](https://galaxyproject.org/events/2021-11-11-dev-roundtable/) by Alexandru Mahmoud.
 
 We are [seeking volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent) at future roundtables.
 </div>
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
- 
+
 <div class="trim-p">
 
 ![November Papercuts](/images/galaxy-logos/papercuts.png)
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [November Papercuts](/events/2021-11-papercuts/)
@@ -219,13 +219,13 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 
 <!-- GTÑ -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
- 
+
 <div class="trim-p">
 
 ![gtñ](/images/galaxy-logos/gtn-spanish.png)
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [Spanscriptomics: Análisis de células únicas usando Galaxy](https://gallantries.github.io/galaxy-workshop/events/spanscriptomics/)
@@ -234,7 +234,7 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 
 **29-30 November, Online, UK**
 
-Curso de análisis de células únicas con Galaxy en español. [¡Regístrate ya!](https://openuniversity.onlinesurveys.ac.uk/reserva-tu-lugar-en-el-taller-analisis-de-datos-single-ce) 
+Curso de análisis de células únicas con Galaxy en español. [¡Regístrate ya!](https://openuniversity.onlinesurveys.ac.uk/reserva-tu-lugar-en-el-taller-analisis-de-datos-single-ce)
 
 --
 
@@ -245,7 +245,7 @@ Single-cell workshop in Spanish. [Register now!](https://openuniversity.onlinesu
 
 <!-- FROGS -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
- 
+
 <div class="card-header trim-p">
 
 [FROGS: tools for bioinformatics and statistics analyses with amplicon metagenomics data](http://bioinfo.genotoul.fr/index.php/events/metagenomic-amplicons-and-stats-with-frogs/)
@@ -254,7 +254,7 @@ Single-cell workshop in Spanish. [Register now!](https://openuniversity.onlinesu
 
 **29 November - 2 December, INRA, Toulouse-Auzeville, France**
 
-Learn to work with NGS data of 16S, 18S, ITS … DNA using our Galaxy instance and the [FROGS pipeline](http://frogs.toulouse.inrae.fr/). 
+Learn to work with NGS data of 16S, 18S, ITS … DNA using our Galaxy instance and the [FROGS pipeline](http://frogs.toulouse.inrae.fr/).
 
 <div class="trim-p">
 
@@ -276,7 +276,7 @@ Learn to work with NGS data of 16S, 18S, ITS … DNA using our Galaxy instance a
 
 **1 December, Online**
 
-A workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions. 
+A workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions.
 
 Registration will open soon, stay tuned!
 
@@ -292,7 +292,7 @@ Registration will open soon, stay tuned!
 ![Assemblage et Annotation de génome](/images/logos/Co-organisation-ABiMS-INRAE-IFREMER.png)
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [Formation Assemblage et Annotation de génome 2021](https://wwz.ifremer.fr/Recherche/Departements-scientifiques/Departement-Infrastructures-de-Recherche-et-Systemes-d-Information/Bioinformatique/Animations-scientifiques/Formation-Assemblage-et-Annotation-de-genome-2021)
@@ -301,7 +301,7 @@ Registration will open soon, stay tuned!
 
 **1er au 3 décembre, Station Biologique, Roscoff, France**
 
-Initier les participant.e.s aux concepts et à l'usage des méthodes bioinformatiques pour l’assemblage de novo et l’annotation de génomes à partir de technologies de séquençage short (Illumina) et long reads (PacBio / Oxford Nanopore). 
+Initier les participant.e.s aux concepts et à l'usage des méthodes bioinformatiques pour l’assemblage de novo et l’annotation de génomes à partir de technologies de séquençage short (Illumina) et long reads (PacBio / Oxford Nanopore).
 
 </div>
 
@@ -316,7 +316,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
- 
+
 <div class="card-header trim-p">
 
 [UseGalaxy.*](/usegalaxy/index.md) News
@@ -327,11 +327,11 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 * New use cases published in [UseGalaxy.eu](https://galaxyproject.eu/news?tag=UseCase):
-  * [microRNAs in heart disease](https://galaxyproject.eu/posts/2021/10/11/use-case-ileana-duran/)
-  * [cellular specification, differentiation and morphogenesis of the mucociliary epithelium](https://galaxyproject.eu/posts/2021/10/12/use-case-sarah-bowden/)
+    * [microRNAs in heart disease](https://galaxyproject.eu/posts/2021/10/11/use-case-ileana-duran/)
+    * [cellular specification, differentiation and morphogenesis of the mucociliary epithelium](https://galaxyproject.eu/posts/2021/10/12/use-case-sarah-bowden/)
 
 </div>
- 
+
 </div>
 
 
@@ -344,7 +344,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 <div class="trim-p">
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [SARS-CoV-2 analysis training with Galaxy: a perspective from Africa](https://depot.galaxyproject.org/hub/attachments/blog/2021-10-sars-training-africa/sasbi-newsletter-2021-10.pdf#page=4)
@@ -365,7 +365,7 @@ The switch to online bioinformatics training forced by the COVID-19 pandemic has
 <div class="trim-p">
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [Sunsetting the CloudLaunch service](/blog/2021-10-sunsetting-cloudlaunch/)
@@ -383,11 +383,11 @@ There are now better alternatives to using Galaxy on the cloud.
 
 <!-- TIaaS feedback -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
- 
+
 <div class="trim-p">
 
 </div>
- 
+
 <div class="card-header trim-p">
 
 [Training Infrastructure Feedback](https://galaxyproject.eu/posts/2021/10/18/tiaas-Theodora-Tsirka/)
@@ -401,7 +401,7 @@ Theodora run a workshop in the Training School on Microbiome Sequencing and Data
 <img class="card-img-bottom" src="/images/logos/tiaas-logo.png" alt="TIaaS" />
 
 </div>
- 
+
 </div>
 
 

@@ -36,5 +36,6 @@ In a CloudMan based Galaxy cloud configuration you will need to determine two ma
 # Platforms
 
 Each different cloud infrastructures has it's own capacity planning information:
+
 * [Amazon Web Services (AWS) Capacity Planning](/cloudman/aws/capacity-planning/)
 * *... (others to be added)*

@@ -23,15 +23,16 @@ GCC2012 was hosted by the [University of Illinois at Chicago](http://uic.edu/), 
 ## Who Should Attend?
 
 * **Bioinformatics tool developers and data providers**
-  * Integrate your tools and resources in the Galaxy framework, increasing their visibility, and making them easier to use and integrate with other resources.
+    * Integrate your tools and resources in the Galaxy framework, increasing their visibility, and making them easier to use and integrate with other resources.
 * **Workflow developers and power bioinformatics users**
-  * Use Galaxy to construct complex bioinformatics workflows and then use Galaxy to share them with others, or to publish them to the world.
+    * Use Galaxy to construct complex bioinformatics workflows and then use Galaxy to share them with others, or to publish them to the world.
 * **Sequencing and Bioinformatics core staff**
-  * Local Galaxy deployments can talk directly with your sequencers, simplify your analysis tasks, *and* give your researchers direct access to running their own custom analysis.
+    * Local Galaxy deployments can talk directly with your sequencers, simplify your analysis tasks, *and* give your researchers direct access to running their own custom analysis.
 * **Data and analysis archival specialists**
-  * Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets *and* the computational analyses that produced them.
+    * Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets *and* the computational analyses that produced them.
 
 GCC 2012 is also an opportunity to:
+
 * **[Present your work!](/events/gcc2012/abstracts/)**
 * **[Learn best practices](/events/gcc2012/program/)** for deploying Galaxy, defining and installing resources, and managing and moving large datasets.
 * **Network with others** in the Galaxy community who are facing similar challenges and using Galaxy (and other tools) to address them.
@@ -41,7 +42,7 @@ GCC 2012 is also an opportunity to:
 
 ## About Galaxy
 
-[Galaxy](http://galaxyproject.org) makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis (including numerous Illumina-, SOLiD-, and 454-specific tools), trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/admin/license/). 
+[Galaxy](http://galaxyproject.org) makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis (including numerous Illumina-, SOLiD-, and 454-specific tools), trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/admin/license/).
 
 
 ## Sponsors

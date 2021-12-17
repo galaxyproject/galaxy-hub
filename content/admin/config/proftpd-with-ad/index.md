@@ -27,12 +27,13 @@ Galaxy exchanges no messages directly with the FTP server, if files are there, i
 Your Galaxy serves a single institution with an AD domain and you're already using it to authenticate users in the Galaxy web pages.
 
 So your `config/galaxy.ini` file probably has lines like this in the section `# Enable Galaxy's "Upload via FTP" interface.`:
+
 ```bash
  use_remote_user = True
  remote_user_maildomain = example.domain
  ftp_upload_dir = /galaxy/database/ftp
 ```
- 
+
 Line 1 means you are already using remote (apache or nginx) authentication and that your users log in using their ident as their name not their email.
 
 Line 2 means Galaxy is appending a fixed string  "@example.domain"  to ALL users to convert from ident to email.
@@ -42,6 +43,7 @@ Line 3 tells Galaxy to look in  "/galaxy/database/ftp/<user>@example.domain"
 ## Getting a version of ProFTPd that will actually do what it says it will
 
 For this recipe to work will need at least these versions
+
 * proftpd            version 1.3.4
 * proftpd-mod-ldap   version 2.9.2   NOTE: Ubuntu-12.10 apt-get gives you version 2.9.0 which WILL NOT WORK!
 
@@ -71,6 +73,7 @@ LDAPGenerateHomedirPrefixNoUsername     on
 ## Configuring ProFTPd
 
 Here is a commented more complete file from  /etc/proftpd/proftpd.conf
+
 ```apache
 # Load LDAP module
 LoadModule mod_ldap.c
@@ -168,6 +171,7 @@ AllowStoreRestart       on
 ## Discussion
 
 Where ever it's getting the information mod_ldap is looking for:
+
 * uid
 * gid
 * uidNumber

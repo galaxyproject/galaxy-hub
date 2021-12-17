@@ -13,6 +13,7 @@ date: "2011-08-31"
 * API improvements for managing histories and datasets, including creating histories from library items.
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
+
 ```
 new:     % hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
 upgrade: % hg pull -u -r 949e4f5fa03a

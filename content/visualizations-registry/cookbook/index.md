@@ -10,6 +10,7 @@ datatype but no other tabular datatypes.
 
 You can have as many tests in a data source in your configuration as you may need. In this case, we can define two
 datatype tests, one for each of the two types:
+
 ```xml
     <data_sources>
         <data_source>
@@ -26,6 +27,7 @@ Now your visualization will appear for both bed and gff datasets.
 ### I want my visualization to work on any type of a dataset
 
 Current implementation of the visualization plugin requires you to specify at least one *test* tag. In oder to have the plugin apply to every datatype and display the visualization option, it is necessary to specify the lowest common denominator datatype: *data.Data*.
+
 ```xml
     <test type="isinstance" test_attr="datatype" result_type="datatype">data.Data</test>
 ```
@@ -39,6 +41,7 @@ from the tool shed.
 You can test the data source's (dataset) attributes using the test type `eq`. This is the default test type, so you
 don't have to include the `type="eq"`. In this case, you'll compare the dataset's `creating_job.tool_id` to the
 full id of the 'FASTQ Summary Statistics': `toolshed.g2.bx.psu.edu/repos/devteam/fastq_stats/fastq_stats/1.0.0`:
+
 ```xml
     <data_sources>
         <data_source>
@@ -66,6 +69,7 @@ contains a 'chrom', 'start', and 'end' entry the visualization can use it.
 [DataProviders](/data-providers/) yield data in configurable ways and many dataset datatypes have them. One format they can yield is the
 'interval' type of data which yields the three values needed. You can use the `type="has_dataprovider"` test to see
 if a dataset (or any data source) has this data provider:
+
 ```xml
     <data_sources>
         <data_source>
@@ -112,6 +116,7 @@ wiki comment
 
 First you'll need to load the base javascript libraries and CSS stylesheets that Galaxy normally includes on every one
 of it's pages. Load these in the `head` section of your mako template:
+
 ```mako
 <!DOCTYPE HTML>
 <html>
@@ -137,6 +142,7 @@ ${h.js( 'libs/jquery/jquery',
 
 Galaxy often uses a `module` loading system called [requirejs](http://requirejs.org/). Although it can seem complex at
 first, the example below is often all you have to do to load a Galaxy component:
+
 ```javascript
 // (from within a script tag in your mako template)
 
@@ -168,6 +174,7 @@ The javascript libraries for Galaxy have code to create a javascript control to 
 [above](/visualizations-registry/cookbook/#how-can-i-use-some-of-the-javascript-ui-elements-galaxy-uses-in-my-visualization)
 for information on how to include Galaxy UI components. From within your mako template or scripts, you can
 then use this to allow a user dataset choice from datasets in the user's current history:
+
 ```javascript
 require.config({
     baseUrl: "/static/scripts"

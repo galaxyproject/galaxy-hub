@@ -27,11 +27,12 @@ The group's first conference call was held on Monday July 9, at 9am Central US t
 ### Generic Call Agenda
 
 Ann proposed this generic agenda for future calls
-* 20 min: Galaxy in Our Town. 
+
+* 20 min: Galaxy in Our Town.
     Presentation from a local galaxy institution on what they are doing or a problem they are troubleshooting - or have someone walk through their use cases and pain points.
-* 20 min: Galaxy Today/Tomorrow. 
+* 20 min: Galaxy Today/Tomorrow.
     Presentation on a galaxy coding item. Either from [Galaxy Team](/galaxy-team/), or from [someone](/community/) working on a new feature or customization.
-* 20 mins: Open Mic Discussion & make point to point connections. 
+* 20 mins: Open Mic Discussion & make point to point connections.
     Organize smaller breakouts if someone wants to host a call specific to an issue, ...
 
 This was approved by those present.
@@ -52,7 +53,7 @@ Communication outside of meetings will continue to happen on the [Galaxy-Dev mai
 
 ## Goals
 
-1. Build a community 
+1. Build a community
 2. Learn from each other.
 
 <div class='right'><img src="/images/logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></div>
@@ -71,7 +72,7 @@ They initially started with Lustre on HP MSA 2312sa P2000 G2 hardware.  That fai
 
 ### Other Highlights
 
-There is an upcoming workshop at Iowa, 
+There is an upcoming workshop at Iowa,
 
  [Bioinformatics Short Course](http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/) August 1-3, 2012
   [Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation](http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/)

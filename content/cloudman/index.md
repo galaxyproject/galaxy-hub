@@ -31,6 +31,7 @@ pays only for the resources they need and use.
 ## When to use Galaxy CloudMan
 
 The following is a non-exhaustive list of scenarios when it is beneficial to use Galaxy on the Cloud:
+
 * Do not want to spend time setting up a Galaxy instance
 * Need to customize a Galaxy instance with new tools or genome reference data
 * Have run up against the quotas on a public server
@@ -67,12 +68,14 @@ allocation for which ones needs to apply.
 ## Galaxy AMIs
 
 **Current AMI:**
+
 * AMI: ami-3be8cd2c
 * Name: Galaxy CloudMan 161101b2 (active dates: 2016-11-01 -> present)
 
 Note that the current AMI represents the environment required to run CloudMan (in the format of a machine image) and *the machine image release date does not represent the most recent update or version of either CloudMan or Galaxy*. Versions of those tools can be seen (and automatically updated, with the Update button in the CloudMan Admin page) once an instance has been instantiated (we are also looking into a more explicit form of making this information available).
 
 **Deprecated AMIs**
+
 * AMI: ami-b45e59de
 * Name: Galaxy-CloudMan-1457720469 (active dates: 2016-03-24 -> 2016-11-01)
 * AMI: ami-d5246abf

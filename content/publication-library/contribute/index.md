@@ -36,7 +36,7 @@ To help out you'll need to:
 1. Read this page carefully.
 1. Request update access to the Galaxy Zotero Group
 
-## Get a Zotero account 
+## Get a Zotero account
 
 If you don't already have a Zotero account, you'll need to [set one
 up](https://www.zotero.org/user/register/). You'll need to confirm your account

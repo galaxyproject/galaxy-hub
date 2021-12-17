@@ -42,28 +42,28 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 ## UseGalaxy.*
 
 * White background
-  * [SVG](/images/galaxy-logos/usegalaxy-dot-star-white.svg), [925x352 pixels](/images/galaxy-logos/usegalaxy-dot-star-white.png)
+    * [SVG](/images/galaxy-logos/usegalaxy-dot-star-white.svg), [925x352 pixels](/images/galaxy-logos/usegalaxy-dot-star-white.png)
 * Transparent background
-  * [SVG](/images/galaxy-logos/usegalaxy-dot-star-trans.svg)
+    * [SVG](/images/galaxy-logos/usegalaxy-dot-star-trans.svg)
 
     [<img src="/images/galaxy-logos/usegalaxy-dot-star-trans.svg" alt="UseGalaxy.* Logo, transparent background" width=300 />](/images/galaxy-logos/usegalaxy-dot-star-trans.svg)
 
 ## Galaxy Africa
 
 * Transparent background
-  * [PNG](/images/galaxy-logos/galaxy-africa-logo-big.png), [1247x1247 pixels](/images/galaxy-logos/galaxy-africa-logo-big.png)
+    * [PNG](/images/galaxy-logos/galaxy-africa-logo-big.png), [1247x1247 pixels](/images/galaxy-logos/galaxy-africa-logo-big.png)
 
     [<img src="/images/galaxy-logos/galaxy-africa-logo-big.png" alt="Galaxy Africa Logo, transparent background" width=300 />](/images/galaxy-logos/galaxy-africa-logo-big.png)
 
 ## Galaxy Australia
 
 * Blue background, rectangle
-  * [PNG](/images/galaxy-logos/galaxy-australia.png), [400x170 pixels](/images/galaxy-logos/galaxy-australia.png)
+    * [PNG](/images/galaxy-logos/galaxy-australia.png), [400x170 pixels](/images/galaxy-logos/galaxy-australia.png)
 
     [<img src="/images/galaxy-logos/galaxy-australia.png" alt="Galaxy Australia Logo, blue background" width=300 />](/images/galaxy-logos/galaxy-australia.png)
 
 * Blue background, square
-  * [JPG](/images/galaxy-logos/galaxy-australia-square.jpg), [400x400 pixels](/images/galaxy-logos/galaxy-australia-square.jpg)
+    * [JPG](/images/galaxy-logos/galaxy-australia-square.jpg), [400x400 pixels](/images/galaxy-logos/galaxy-australia-square.jpg)
 
     [<img src="/images/galaxy-logos/galaxy-australia-square.jpg" alt="Galaxy Australia Logo, blue background" width=300 />](/images/galaxy-logos/galaxy-australia-square.jpg)
 
@@ -77,7 +77,7 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 ## ToolShed
 
 * White background
-  * [300x137 pixels](/images/galaxy-logos/galaxy-toolshed-300.png), [1000x455 pixels](/images/galaxy-logos/galaxy-toolshed-1000.png), [3455x1572 pixels](/images/galaxy-logos/galaxy-toolshed-huge.png)
+    * [300x137 pixels](/images/galaxy-logos/galaxy-toolshed-300.png), [1000x455 pixels](/images/galaxy-logos/galaxy-toolshed-1000.png), [3455x1572 pixels](/images/galaxy-logos/galaxy-toolshed-huge.png)
 
   [<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed Logo, 300px wide"  />](/images/galaxy-logos/galaxy-toolshed-300.png)
 
@@ -126,7 +126,7 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 ## Galactic Blog
 
 * Rectangular
-  * [400x156 pixels](/images/galaxy-logos/galactic-blog-400.png), [2048x800 pixels](/images/galaxy-logos/galactic-blog.png)
+    * [400x156 pixels](/images/galaxy-logos/galactic-blog-400.png), [2048x800 pixels](/images/galaxy-logos/galactic-blog.png)
 
     [<img src="/images/galaxy-logos/galactic-blog-400.png" />](/images/galaxy-logos/galactic-blog-400.png)
 
@@ -134,7 +134,7 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 ## Galaxy Training Network
 
 * Icon, Transparent background
-  * [16x16 pixels](/images/galaxy-logos/GTN16.png)
+    * [16x16 pixels](/images/galaxy-logos/GTN16.png)
 
     [<img src="/images/galaxy-logos/GTN16.png" />](/images/galaxy-logos/GTN16.png)
 
@@ -149,36 +149,36 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 
     ![GTN Star, transparent, with G](/images/galaxy-logos/GTNStarGTrans300.png)
 -->
-    
+
 * Star, with Galaxy Logo, white background
-  * [300x299 pixels](/images/galaxy-logos/GTNStarBars300.png), [1000x998 pixels](/images/galaxy-logos/GTNStarBars1000.png), [4355x4345 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBarsHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBars.xcf)
+    * [300x299 pixels](/images/galaxy-logos/GTNStarBars300.png), [1000x998 pixels](/images/galaxy-logos/GTNStarBars1000.png), [4355x4345 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBarsHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBars.xcf)
 
     [<img src="/images/galaxy-logos/GTNStarBars300.png" width="150" alt="GTN Star, white background, with Galaxy Logo" />](/images/galaxy-logos/GTNStarBars300.png)
 
 * Star, with Galaxy Logo, transparent background
-  * [300x299 pixels](/images/galaxy-logos/GTNStarBarsTrans300.png), [1000x998 pixels](/images/galaxy-logos/GTNStarBarsTrans1000.png), [4355x4345 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBarsTransHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBarsTrans.xcf)
+    * [300x299 pixels](/images/galaxy-logos/GTNStarBarsTrans300.png), [1000x998 pixels](/images/galaxy-logos/GTNStarBarsTrans1000.png), [4355x4345 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBarsTransHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNStarBarsTrans.xcf)
 
     [<img src="/images/galaxy-logos/GTNStarBarsTrans300.png" width="150" alt="GTN Star, transparent, with Galaxy Logo" />](/images/galaxy-logos/GTNStarBarsTrans300.png)
 
 * Logo, with gray text, white background
-  * [300x142 pixels](/images/galaxy-logos/GTNLogo300.png), [1000x475 pixels](/images/galaxy-logos/GTNLogo1000.png), [10840x5146 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogo.xcf)
+    * [300x142 pixels](/images/galaxy-logos/GTNLogo300.png), [1000x475 pixels](/images/galaxy-logos/GTNLogo1000.png), [10840x5146 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogo.xcf)
 
     ![GTN Logo. white background](/images/galaxy-logos/GTNLogo300.png)
 
 * Logo, with gray text, transparent background
-  * [300x142 pixels](/images/galaxy-logos/GTNLogoTrans300.png), [1000x475 pixels](/images/galaxy-logos/GTNLogoTrans1000.png), [10840x5146 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTransHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTrans.xcf)
+    * [300x142 pixels](/images/galaxy-logos/GTNLogoTrans300.png), [1000x475 pixels](/images/galaxy-logos/GTNLogoTrans1000.png), [10840x5146 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTransHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTrans.xcf)
 
     ![GTN Logo. transparent, gray lettering](/images/galaxy-logos/GTNLogoTrans300.png)
 
 * Logo, with white text, transparent background
-  * [300x142 pixels](/images/galaxy-logos/GTNLogoTransWhite300.png), [1000x475 pixels](/images/galaxy-logos/GTNLogoTransWhite1000.png), [10840x5146 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTransWhiteHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTransWhite.xcf)
+    * [300x142 pixels](/images/galaxy-logos/GTNLogoTransWhite300.png), [1000x475 pixels](/images/galaxy-logos/GTNLogoTransWhite1000.png), [10840x5146 pixels](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTransWhiteHuge.png), [GIMP Source](https://depot.galaxyproject.org/hub/attachments/images/galaxy-logos/GTNLogoTransWhite.xcf)
 
     ![GTN Logo. transparent, gray lettering](/images/galaxy-logos/GTNLogoTransWhite300.png)
 
 ### GTN CoFests
 
 * Logo, transparent background
-  * [2963x1394 pixels](/images/galaxy-logos/gtn-cofests.png), [7944x3244 pixels](/images/galaxy-logos/gtn-cofests-huge.png)
+    * [2963x1394 pixels](/images/galaxy-logos/gtn-cofests.png), [7944x3244 pixels](/images/galaxy-logos/gtn-cofests-huge.png)
 
     ![GTN CoFests Logo. transparent](/images/galaxy-logos/gtn-cofests.png)
 
@@ -186,10 +186,10 @@ The fonts used in the logos are Verdana Bold and Exo-ExtraLight
 ## Intergalactic Utitlities Commision
 
 * Logo, white background
-  * [562x347 pixels](/images/galaxy-logos/iuc-logo.png)
+    * [562x347 pixels](/images/galaxy-logos/iuc-logo.png)
 
 * Logo, transparent background
-  * [562x347 pixels](/images/galaxy-logos/iuc-logo-trans.png)
+    * [562x347 pixels](/images/galaxy-logos/iuc-logo-trans.png)
 
     ![IUC Logo, Transparent](/images/galaxy-logos/iuc-logo-trans.png)
 

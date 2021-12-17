@@ -3,7 +3,7 @@ title: "April 2016 Galaxy Release (v 16.04)"
 date: "2016-05-18"
 ---
 <div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+
 <br />
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[April 2016 (v16.04) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.04_announce.html)**.
 

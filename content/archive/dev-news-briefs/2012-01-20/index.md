@@ -7,7 +7,7 @@ date: 2012-01-20
 
 <div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="50px" /></a></div>
 
- **[getgalaxy.org](http://getgalaxy.org)** 
+ **[getgalaxy.org](http://getgalaxy.org)**
 
 * **new**: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
 
@@ -27,14 +27,14 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 ## Tools
 
 * **[TopHat:](http://tophat.cbcb.umd.edu/)**
-  * Wrapper accepts versions 1.3.1-1.4.0, with at least 1.3.3 recommended. 1.4.0 is preferred.
-  * Galaxy [Main](/main/) is now running version 1.4.0.
-* **[Cufflinks, CuffCompare, CuffDiff:](http://cufflinks.cbcb.umd.edu/)** 
-  * Wrapper accepts versions 1.1.0-1.3.0. 1.3.0 is preferred.
-  * Galaxy [Main](/main/) is now running version 1.3.0 for all Cuff* tools.
+    * Wrapper accepts versions 1.3.1-1.4.0, with at least 1.3.3 recommended. 1.4.0 is preferred.
+    * Galaxy [Main](/main/) is now running version 1.4.0.
+* **[Cufflinks, CuffCompare, CuffDiff:](http://cufflinks.cbcb.umd.edu/)**
+    * Wrapper accepts versions 1.1.0-1.3.0. 1.3.0 is preferred.
+    * Galaxy [Main](/main/) is now running version 1.3.0 for all Cuff* tools.
 * **[SAMTools mpileup:](http://samtools.sourceforge.net/mpileup.shtml)**
-  * Wrapper for use in local instances.
-  * Not available on Galaxy [Main](/main/) at this time.
+    * Wrapper for use in local instances.
+    * Not available on Galaxy [Main](/main/) at this time.
 * **[GenomeSpace](http://www.genomespace.org/)** import from file browser tool updated to use their newer API.
 * **[EBI ENA SRA](http://www.ebi.ac.uk/ena/)** tool contributed by Iain Cleland.
 * **[Picard](http://sourceforge.net/projects/picard/) Interval List to [BED6](http://genome.ucsc.edu/FAQ/FAQformat.html#format1)** converter added.
@@ -43,7 +43,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 ## Galaxy Track Browser (Trackster)
 
 * Recent publication:
-    Jeremy Goecks, Kanwei Li, Dave Clements, Team, The Galaxy, James Taylor, *[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)*. [Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/) (October 2011), pp. 39-46. 
+    Jeremy Goecks, Kanwei Li, Dave Clements, Team, The Galaxy, James Taylor, *[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6094046)*. [Biological Data Visualization (BioVis), 2011 IEEE Symposium on](http://www.biovis.net/) (October 2011), pp. 39-46.
 * Simplified user interface that uses icons exclusively for actions.
 * Numerous performance improvements.
 * SAM datasets (including very deep) can be visualized.
@@ -68,9 +68,9 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 * Updated all tools which were manually filtering on tool_data_tables to determine paths to use built-in param.fields.path.
 * Allow select_param.fields.name method of accessing additional attributes from dynamic options work for multiple selects.
 * Merged in hanfeisun/galaxy-central-i18n (pull request #26).
-* Enhance the datatypes registry to: 
-  * (a) enable use of config files that do not include a "sniffers" tag set section 
-  * (b) not load a datatype if the registry already includes a datatype with that extension
+* Enhance the datatypes registry to:
+    * (a) enable use of config files that do not include a "sniffers" tag set section
+    * (b) not load a datatype if the registry already includes a datatype with that extension
 * Enhance the datatypes registry so that it can be persisted as an xml file, which is then used for all tools instead of the datatypes config file.
 * Eliminate all references and support for datatype indexers since they have never been used - datatype converters do the same thing.
 * Security: sanitize output anytime a raw text/html dataset is served via dataset/display.
@@ -80,39 +80,39 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 ## Tool Shed
 
 * New features:
-  * Add the ability to reset all metadata (for every change set) in a tool shed repository (currently restricted to an admin).
-  * Enhance User preferences within a Galaxy tool shed to enable users to elect to receive email when content is first uploaded to a new repository. Also add a new grid interface to enable users to easily manage registering with any tool shed respositories to receive email when changes are made to the selected repositories.
+    * Add the ability to reset all metadata (for every change set) in a tool shed repository (currently restricted to an admin).
+    * Enhance User preferences within a Galaxy tool shed to enable users to elect to receive email when content is first uploaded to a new repository. Also add a new grid interface to enable users to easily manage registering with any tool shed respositories to receive email when changes are made to the selected repositories.
 * Existing tool shed fixes:
-  * Make the use of the 'require_login' config setting functionally correct for the tool shed, and debug it's use in the Galaxy framework as well.
-  * Enhance the process for displaying a workflow in a tool shed repository so that workflows in change sets other than the repository tip can be viewed.
-  * Do not allow public user names to be changed within the tool shed if the user has created a tool shed repository.
-  * Don't allow repository names to be changed if the repository has been cloned at least 1 time.
+    * Make the use of the 'require_login' config setting functionally correct for the tool shed, and debug it's use in the Galaxy framework as well.
+    * Enhance the process for displaying a workflow in a tool shed repository so that workflows in change sets other than the repository tip can be viewed.
+    * Do not allow public user names to be changed within the tool shed if the user has created a tool shed repository.
+    * Don't allow repository names to be changed if the repository has been cloned at least 1 time.
 * More new tool shed features documented in the following new Galaxy wiki sections:
-  * [Including proprietary data types that subclass from Galaxy data types in the distribution](/toolshed/#including-proprietary-data-types-that-subclass-from-galaxy-data-types-in-the-distribution)
-  * [Including proprietary data types that use class modules contained in your repository](/toolshed/#including-proprietary-data-types-that-use-class-modules-contained-in-your-repository)
-  * [Including datatype converters and display applications](/toolshed/#including-datatype-converters-and-display-applications)
-  * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/toolshed/#automatic-installation-of-galaxy-tool-shed-repository-data-types-into-a-local-galaxy-instance)
-  * [Getting updates for tool shed repositories installed in a local Galaxy instance](/toolshed/#getting-updates-for-tool-shed-repositories-installed-in-a-local_galaxy_instance)
-  * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/toolshed/#migrating-tools-from-the-galaxy-distribution-to-the-galaxy-main-tool-shed)
-  * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/toolshed/#configuring-your-galaxy-server-to-automatically-install-tools-eliminated-from-the-galaxy-distribution)
-  * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/toolshed/#use-case-automatically-install-the-emboss-tools-and-datatypes-into-a-local-galaxy-instance)
+    * [Including proprietary data types that subclass from Galaxy data types in the distribution](/toolshed/#including-proprietary-data-types-that-subclass-from-galaxy-data-types-in-the-distribution)
+    * [Including proprietary data types that use class modules contained in your repository](/toolshed/#including-proprietary-data-types-that-use-class-modules-contained-in-your-repository)
+    * [Including datatype converters and display applications](/toolshed/#including-datatype-converters-and-display-applications)
+    * [Automatic installation of Galaxy tool shed repository data types into a local Galaxy instance](/toolshed/#automatic-installation-of-galaxy-tool-shed-repository-data-types-into-a-local-galaxy-instance)
+    * [Getting updates for tool shed repositories installed in a local Galaxy instance](/toolshed/#getting-updates-for-tool-shed-repositories-installed-in-a-local_galaxy_instance)
+    * [Migrating tools from the Galaxy distribution to the Galaxy main tool shed](/toolshed/#migrating-tools-from-the-galaxy-distribution-to-the-galaxy-main-tool-shed)
+    * [Configuring your Galaxy server to automatically install tools eliminated from the Galaxy distribution](/toolshed/#configuring-your-galaxy-server-to-automatically-install-tools-eliminated-from-the-galaxy-distribution)
+    * [Use case: automatically install the Emboss tools and datatypes into a local Galaxy instance](/toolshed/#use-case-automatically-install-the-emboss-tools-and-datatypes-into-a-local-galaxy-instance)
 
 ## Tool Shed Contributions
 
 * New in the [Tool Shed](http://toolshed.g2.bx.psu.edu/):
-  * `garli, tandem_repeats_finder`, by `malex`
-  * `data_nfs` - Import/export to FTP/NFS directories, by Ed Kirton
-  * `tapdance` - by Jesse Erdmann
-  * `bedtools` - by Aaron Quinlan
-  * `ncbo_services` - by Mikel Egaña Aranguren
-  * `repeat_masker, trna_prediction, glimmer3, glimmer_hmm` - by Björn Grüning
+    * `garli, tandem_repeats_finder`, by `malex`
+    * `data_nfs` - Import/export to FTP/NFS directories, by Ed Kirton
+    * `tapdance` - by Jesse Erdmann
+    * `bedtools` - by Aaron Quinlan
+    * `ncbo_services` - by Mikel Egaña Aranguren
+    * `repeat_masker, trna_prediction, glimmer3, glimmer_hmm` - by Björn Grüning
 * Updated:
-  * `ssr_marker_design` - by John McCallum
-  * `fastq_paired_unpaired, mira-assembler` - by Peter Cock
+    * `ssr_marker_design` - by John McCallum
+    * `fastq_paired_unpaired, mira-assembler` - by Peter Cock
 
 ## Bug Fixes
 
-<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div>
 * Support display of extra files/composite types in published items. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/628](https://bitbucket.org/galaxy/galaxy-central/issue/628)
 * Standardize code and error messages on 'public name' rather than 'username'
 * When exporting a history archive, use user dataset names rather than Galaxy dataset names. Fixes [https://bitbucket.org/galaxy/galaxy-central/issue/680](https://bitbucket.org/galaxy/galaxy-central/issue/680)
@@ -132,7 +132,7 @@ Galaxy now has a layer between the front end and disk files, and this layer is t
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

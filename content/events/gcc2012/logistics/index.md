@@ -44,10 +44,10 @@ Dormitory rooms must be paid in advance, as part of the conference registration 
 Room rates per person, per night are:
 
 
-| Room Occupancy |  $ / person / night  | 
-| -------------- | ------------------- | 
-| Single room (one person) |  $90  | 
-| Double room (two people) |  $45  | 
+| Room Occupancy |  $ / person / night  |
+| -------------- | ------------------- |
+| Single room (one person) |  $90  |
+| Double room (two people) |  $45  |
 
 These rates include free wireless internet / wifi.
 
@@ -58,9 +58,9 @@ These rates include free wireless internet / wifi.
 The [Crowne Plaza Chicago Metro Downtown](http://www.crowneplaza.com/redirect?path=hd&brandCode=cp&localeCode=en&regionCode=1&hotelCode=CHISH&_PMID=99801505&GPC=IGC) is the official conference hotel.  A block of rooms has been reserved at a significant discount for conference attendees.  
 
 
-| Room Occupancy |  $ / night  | 
-| -------------- | ---------- | 
-| Single or double occupancy |  $145<br /> with tax: $167  | 
+| Room Occupancy |  $ / night  |
+| -------------- | ---------- |
+| Single or double occupancy |  $145<br /> with tax: $167  |
 
 *These rates [include wireless internet](http://www.thechicagometro.com/html/chicago-hotel-suites.asp) and expire on July 23, or when all the rooms are gone.*  The discounted rate is available for any booking that arrives on or after July 24, and departs on or before July 28.
 

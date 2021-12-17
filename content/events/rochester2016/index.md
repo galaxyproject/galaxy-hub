@@ -18,7 +18,7 @@ Instructor: [Dave Clements](/people/dave-clements/)
 
 ## Registration
 
-[Registration](https://www.urmc.rochester.edu/libraries/miner/teaching_and_learning/classes/) is free and open to any member of the University of Rochester community. Space is available on a first-come, first served basis. 
+[Registration](https://www.urmc.rochester.edu/libraries/miner/teaching_and_learning/classes/) is free and open to any member of the University of Rochester community. Space is available on a first-come, first served basis.
 <br />
 
 <div class='center'>
@@ -144,9 +144,10 @@ No programming or Linux command line experience is required.
 </div><br />
 
 This workshop is generously supported by **
-* [Center for Integrated Research Computing (CIRC)](http://www.circ.rochester.edu/) 
-* [UR Genomics Research Center (GRC)](https://www.urmc.rochester.edu/research/for-researchers/shared-resource-laboratories-facilities/laboratories/Rochester-Genomics-Center/) 
-* [Edward G. Miner Library](https://www.urmc.rochester.edu/libraries/miner/index.cfm) 
+
+* [Center for Integrated Research Computing (CIRC)](http://www.circ.rochester.edu/)
+* [UR Genomics Research Center (GRC)](https://www.urmc.rochester.edu/research/for-researchers/shared-resource-laboratories-facilities/laboratories/Rochester-Genomics-Center/)
+* [Edward G. Miner Library](https://www.urmc.rochester.edu/libraries/miner/index.cfm)
 * [UR Research Data Integration and Analytics (RDIA)](https://www.urmc.rochester.edu/smd/it/research/research-data-integration-and-analytics-rdia.aspx)
 * [University of Rochester](https://www.rochester.edu/)
 * [National Institutes of Health (NIH)](http://www.nih.gov/)

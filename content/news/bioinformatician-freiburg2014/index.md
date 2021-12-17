@@ -13,7 +13,7 @@ date: "2014-10-30"
 
 Most of the above tasks are executed within the context of our Galaxy platform that will have to be administrated and further developed. There will be ample opportunities for direct collaborations with research groups and methodological developments.
 
-See the [full job posting](https://depot.galaxyproject.org/hub/attachments/news/bioinformatician-freiburg2014/FreiburgJobPosting.pdf) for further details. 
+See the [full job posting](https://depot.galaxyproject.org/hub/attachments/news/bioinformatician-freiburg2014/FreiburgJobPosting.pdf) for further details.
 
 ----
 
@@ -27,6 +27,7 @@ postdocs will have the opportunity to furthermore define their own
 research agenda.
 
 Our lab has two main research areas:
+
 * The Galaxy project, which is an open, web-based platform to support
   computational biomedical research. We are integrating new tools as well
   as interactive visualizations into Galaxy and working closely together

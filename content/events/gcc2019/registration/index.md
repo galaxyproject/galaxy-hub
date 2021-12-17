@@ -3,7 +3,7 @@ title: "GCC2019 Registration"
 ---
 
 <slot name="/events/gcc2019/header" />
-   
+
 GCC2019 features [several events](https://gcc2019.sched.com/), which can be registered for separately or all at once.  Steep discounts are offered to students and postdocs, and for registering early.
 
 # Training
@@ -35,7 +35,7 @@ If you are participating in training on Monday, you will need to decide [which t
 The conference dinner is a separate registration this year and is €50.00 per person.  Space is limited.
 
 
-## CollaborationFest: Core and Encore events, Friday-Monday 
+## CollaborationFest: Core and Encore events, Friday-Monday
 
 Registration for both CollaborationFest events is *free*, but space is limited so you are encouraged to register early.
 

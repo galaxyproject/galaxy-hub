@@ -12,7 +12,7 @@ title: Dave Clements
 
 I am a Community Manager for the [Galaxy Project](/) at [Johns Hopkins University](http://www.jhu.edu) (and formerly at [Emory University](http://emory.edu)). I organize meetings and courses, prepare training materials, and improve Galaxy's documentation, community website, and web presence.  As a community manager I am part of a team that makes sure that the Galaxy Project and the Galaxy Community are the same thing.  *Galaxy is its community.*
 
-Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD_Help_Desk) from 2007-2010, where I did similar work.  I am still involved in the GMOD community as a representative of Galaxy. I have a guest faculty appointment at the [University of Oregon](http://uoregon.edu/), and over the years I have telecommuted from the [Phillips](http://www.uoregon.edu/~pphil/index.html) and [Cresko](http://creskolab.uoregon.edu/) Labs in the [Institute of Ecology and Evolution](http://ie2.uoregon.edu/) (IE<sup>2</sup>) and the [Toomey Lab](https://blogs.uoregon.edu/dougtoomey/) in the [Department of Earth Sciences](https://earthsciences.uoregon.edu/). 
+Prior to working on Galaxy I ran the [GMOD Help Desk](http://gmod.org/wiki/GMOD_Help_Desk) from 2007-2010, where I did similar work.  I am still involved in the GMOD community as a representative of Galaxy. I have a guest faculty appointment at the [University of Oregon](http://uoregon.edu/), and over the years I have telecommuted from the [Phillips](http://www.uoregon.edu/~pphil/index.html) and [Cresko](http://creskolab.uoregon.edu/) Labs in the [Institute of Ecology and Evolution](http://ie2.uoregon.edu/) (IE<sup>2</sup>) and the [Toomey Lab](https://blogs.uoregon.edu/dougtoomey/) in the [Department of Earth Sciences](https://earthsciences.uoregon.edu/).
 
 ## Details
 
@@ -32,14 +32,15 @@ Prior to working on Galaxy (and for [NESCent](http://nescent.org/) and [GMOD](ht
 Prior to EuReGene I worked for [ZFIN, the zebrafish model organism database](http://zfin.org) at the [University of Oregon](http://uoregon.edu) for 5 years as a database administrator and software engineer.
 
 My pre-bioinformatics career included
+
 * 4 years at an [artificial intelligence lab at the University of Oregon](http://www.cirl.uoregon.edu/),
 * 6 years at database management system vendors,
 * 2 years as a database administrator at [General Mills](http://generalmills.com/),
 * Temporary positions (6 to 12 months) working on
-  * [teaching database courses at the University of Oregon](http://www.cs.uoregon.edu/)
-  * a data warehouse for inventory control in semiconductor manufacturing ([HP](http://hp.com/)),
-  * a test harness for a network controller operating system ([IBM](http://ibm.com)), and
-  * query tools for credit unions ([EDS](http://www.eds.com/))
+    * [teaching database courses at the University of Oregon](http://www.cs.uoregon.edu/)
+    * a data warehouse for inventory control in semiconductor manufacturing ([HP](http://hp.com/)),
+    * a test harness for a network controller operating system ([IBM](http://ibm.com)), and
+    * query tools for credit unions ([EDS](http://www.eds.com/))
 * A master's degree in [Computer Science from the University of Minnesota](http://www.cs.umn.edu).  My research focused on transaction management in federated databases,
 * A bachelor's degree in [Computer Science from Iowa State University](http://cs.iastate.edu).
 
@@ -61,16 +62,16 @@ My pre-bioinformatics career included
 * Afgan, E., Baker, D., van den Beek, M., Blankenberg, D., Bouvier, D., Čech, M., Chilton, J., Clements, D., Coraor, N., Eberhard, C., Grüning, B., Guerler, A., Hillman-Jackson, J., Von Kuster, G., Rasche, E., Soranzo, N., Turaga, N., Taylor, J., Nekrutenko, A., & Goecks, J. (2016). **[The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update](https://doi.org/10.1093/nar/gkw343)**. *Nucleic Acids Research*. DOI: 10.1093/nar/gkw343
 * Hillman-Jackson, J., Clements, D., Blankenberg, D., Taylor, J., Nekrutenko, A., & Team, G. (2012). **[Using Galaxy to Perform Large-Scale Interactive Data Analyses](https://doi.org/10.1002/0471250953.bi1005s38)**. *Current Protocols in Bioinformatics*, Chapter 10. DOI: 10.1002/0471250953.bi1005s38
 * Goecks, J., Li, K., Clements, D., & Taylor, J. (2011). **[The Galaxy Track Browser: Transforming the genome browser from visualization tool to analysis tool](https://doi.org/10.1109/biovis.2011.6094046)**. *Biological Data Visualization (BioVis), 2011 IEEE Symposium On*, 39–46. DOI: 10.1109/biovis.2011.6094046
-* Bolser, D. M., Chibon, P. Y., Palopoli, N., Gong, S., Jacob, D., Del Angel, V. D., Swan, D., Bassi, S., González, V., Suravajhala, P., Hwang, S., Romano, P., Edwards, R., Bishop, B., Eargle, J., Shtatland, T., Provart, N. J., Clements, D., Renfro, D. P., Bhak, D., … Bhak, J. (2012). **[MetaBase--the wiki-database of biological databases](https://doi.org/10.1093/nar/gkr1099)**. *Nucleic Acids Research*, 40(Database issue), D1250–D1254. DOI: 10.1093/nar/gkr1099 
-* Jung, S., Menda, N., Redmond, S., Buels, R. M., Friesen, M., Bendana, Y., Sanderson, L. A., Lapp, H., Lee, T., MacCallum, B., Bett, K. E., Cain, S., Clements, D., Mueller, L. A., & Main, D. (2011). **[The Chado Natural Diversity module: a new generic database schema for large-scale phenotyping and genotyping data](https://doi.org/10.1093/database/bar051)**. *Database : the Journal of Biological Databases and Curation*, 2011, bar051. DOI: 10.1093/database/bar051 
+* Bolser, D. M., Chibon, P. Y., Palopoli, N., Gong, S., Jacob, D., Del Angel, V. D., Swan, D., Bassi, S., González, V., Suravajhala, P., Hwang, S., Romano, P., Edwards, R., Bishop, B., Eargle, J., Shtatland, T., Provart, N. J., Clements, D., Renfro, D. P., Bhak, D., … Bhak, J. (2012). **[MetaBase--the wiki-database of biological databases](https://doi.org/10.1093/nar/gkr1099)**. *Nucleic Acids Research*, 40(Database issue), D1250–D1254. DOI: 10.1093/nar/gkr1099
+* Jung, S., Menda, N., Redmond, S., Buels, R. M., Friesen, M., Bendana, Y., Sanderson, L. A., Lapp, H., Lee, T., MacCallum, B., Bett, K. E., Cain, S., Clements, D., Mueller, L. A., & Main, D. (2011). **[The Chado Natural Diversity module: a new generic database schema for large-scale phenotyping and genotyping data](https://doi.org/10.1093/database/bar051)**. *Database : the Journal of Biological Databases and Curation*, 2011, bar051. DOI: 10.1093/database/bar051
 
 ### 2000s
 
 * Raciti, D., Reggiani, L., Geffers, L., Jiang, Q., Bacchion, F., Subrizi, A. E., Clements, D., Tindal, C., Davidson, D. R., Kaissling, B., & Brändli, A. W. (2008). **[Organization of the pronephric kidney revealed by large-scale gene expression mapping](https://doi.org/10.1186/gb-2008-9-5-r84)**. *Genome Biology*, 9(5), R84. DOI: 10.1186/gb-2008-9-5-r84
-* Little, M. H., Brennan, J., Georgas, K., Davies, J. A., Davidson, D. R., Baldock, R. A., Beverdam, A., Bertram, J. F., Capel, B., Chiu, H. S., Clements, D., Cullen-McEwen, L., Fleming, J., Gilbert, T., Herzlinger, D., Houghton, D., Kaufman, M. H., Kleymenova, E., Koopman, P. A., Lewis, A. G., … Yu, J. (2007). **[A high-resolution anatomical ontology of the developing murine genitourinary tract](https://doi.org/10.1016/j.modgep.2007.03.002)**. *Gene Expression Patterns* : GEP, 7(6), 680–699. DOI: 10.1016/j.modgep.2007.03.002 
-* Sprague, J., Bayraktaroglu, L., Clements, D., Conlin, T., Fashena, D., Frazer, K., Haendel, M., Howe, D. G., Mani, P., Ramachandran, S., Schaper, K., Segerdell, E., Song, P., Sprunger, B., Taylor, S., Van Slyke, C. E., & Westerfield, M. (2006). **[The Zebrafish Information Network: the zebrafish model organism database](https://doi.org/10.1093/nar/gkj086)**. *Nucleic Acids Research*, 34(Database issue), D581–D585. DOI: 10.1093/nar/gkj086 
-* Sprague, J., Clements, D., Conlin, T., Edwards, P., Frazer, K., Schaper, K., Segerdell, E., Song, P., Sprunger, B., & Westerfield, M. (2003). **[The Zebrafish Information Network (ZFIN): the zebrafish model organism database](https://doi.org/10.1093/nar/gkg027)**. *Nucleic Acids Research*, 31(1), 241–243. DOI: 10.1093/nar/gkg027 
-* Sprague, J., Doerry, E., Douglas, S., & Westerfield, M. (2001). **[The Zebrafish Information Network (ZFIN): a resource for genetic, genomic and developmental research](https://doi.org/10.1093/nar/29.1.87)**. *Nucleic Acids Research*, 29(1), 87–90. DOI: 10.1093/nar/29.1.87 
+* Little, M. H., Brennan, J., Georgas, K., Davies, J. A., Davidson, D. R., Baldock, R. A., Beverdam, A., Bertram, J. F., Capel, B., Chiu, H. S., Clements, D., Cullen-McEwen, L., Fleming, J., Gilbert, T., Herzlinger, D., Houghton, D., Kaufman, M. H., Kleymenova, E., Koopman, P. A., Lewis, A. G., … Yu, J. (2007). **[A high-resolution anatomical ontology of the developing murine genitourinary tract](https://doi.org/10.1016/j.modgep.2007.03.002)**. *Gene Expression Patterns* : GEP, 7(6), 680–699. DOI: 10.1016/j.modgep.2007.03.002
+* Sprague, J., Bayraktaroglu, L., Clements, D., Conlin, T., Fashena, D., Frazer, K., Haendel, M., Howe, D. G., Mani, P., Ramachandran, S., Schaper, K., Segerdell, E., Song, P., Sprunger, B., Taylor, S., Van Slyke, C. E., & Westerfield, M. (2006). **[The Zebrafish Information Network: the zebrafish model organism database](https://doi.org/10.1093/nar/gkj086)**. *Nucleic Acids Research*, 34(Database issue), D581–D585. DOI: 10.1093/nar/gkj086
+* Sprague, J., Clements, D., Conlin, T., Edwards, P., Frazer, K., Schaper, K., Segerdell, E., Song, P., Sprunger, B., & Westerfield, M. (2003). **[The Zebrafish Information Network (ZFIN): the zebrafish model organism database](https://doi.org/10.1093/nar/gkg027)**. *Nucleic Acids Research*, 31(1), 241–243. DOI: 10.1093/nar/gkg027
+* Sprague, J., Doerry, E., Douglas, S., & Westerfield, M. (2001). **[The Zebrafish Information Network (ZFIN): a resource for genetic, genomic and developmental research](https://doi.org/10.1093/nar/29.1.87)**. *Nucleic Acids Research*, 29(1), 87–90. DOI: 10.1093/nar/29.1.87
 
 ### 1990s
 
@@ -104,30 +105,30 @@ My pre-bioinformatics career included
 * **[2015 Galaxy Community Conference (GCC2015)](http://gcc2015.tsl.ac.uk/)**, Norwich, United Kingdom**
 * **[International Plant and Animal Genome XIII (PAGXIII)](http://www.intlpag.org/2015/)**, Computer Demonstration Track, January 10-14, 2015, San Diego, California, United States
 * **[2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/)**, June 30 - July 2, 2014, Baltimore, Maryland, United States
-  * [GalaxyAdmins Birds of a Feather Meetup](/events/gcc2014/bofs/galaxy-admins/)
+    * [GalaxyAdmins Birds of a Feather Meetup](/events/gcc2014/bofs/galaxy-admins/)
 * **[May 2014 UK Galaxy Workshop Tour](/events/uk-may2014/)**, May 6-12, 2014, Norwich and Edinburgh, United Kingdom
 * **[2013 Research Triangle Workshop Tour](/events/rt-workshop-tour2013/)**, May 18-22, 2013, Research Triangle Area, North Carolina, United States
 * **[2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/)**, June 30 - July 2, 2013, Oslo, Norway
-  * [GalaxyAdmins Birds of a Feather Meetup](/events/gcc2013/bof/galaxy-admins/)
-  * [Public Galaxy Server Birds of a Feather Meetup](/events/gcc2013/bof/galaxy-admins/)
+    * [GalaxyAdmins Birds of a Feather Meetup](/events/gcc2013/bof/galaxy-admins/)
+    * [Public Galaxy Server Birds of a Feather Meetup](/events/gcc2013/bof/galaxy-admins/)
 * **[Missouri Workshop Tour 2013](/events/missouri-workshop-tour2013/)**, April 29 - May 2, 2013, St. Louis and Columbia, Missouri, United States
 * **[2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/)**, July 25-27, Chicago, Illinois, United States
-  * [Bioinformatics Training and Teaching with Galaxy Breakout Session](/events/gcc2012/program/breakouts/bioinformatics-training/)
+    * [Bioinformatics Training and Teaching with Galaxy Breakout Session](/events/gcc2012/program/breakouts/bioinformatics-training/)
 * **[2011 Galaxy Community Conference (GCC2011)](http://galaxyproject.org/gcc2011/Home.html)**, May 25-26, 2011, Lunteren, The Netherlands
-* **[GMOD Americas 2011](http://gmod.org/wiki/GMOD_Americas_2011)**, March 5-12, 2011, Durham, North Carolina, United States 
-  * [GMOD Satellite Meetings](http://gmod.org/wiki/Satellite_Meetings_-_GMOD_Americas_2011), March 7
-    * [GMOD in the Sequencing Center Satellite](http://gmod.org/wiki/GMOD_in_the_Sequencing_Center) 
-  * [2011 GMOD Spring Training](http://gmod.org/wiki/2011_GMOD_Spring_Training), March 8-12
+* **[GMOD Americas 2011](http://gmod.org/wiki/GMOD_Americas_2011)**, March 5-12, 2011, Durham, North Carolina, United States
+    * [GMOD Satellite Meetings](http://gmod.org/wiki/Satellite_Meetings_-_GMOD_Americas_2011), March 7
+        * [GMOD in the Sequencing Center Satellite](http://gmod.org/wiki/GMOD_in_the_Sequencing_Center)
+    * [2011 GMOD Spring Training](http://gmod.org/wiki/2011_GMOD_Spring_Training), March 8-12
 * **[GMOD Europe 2010](http://gmod.org/wiki/GMOD_Europe_2010)**, September 13-16, 2010, Cambridge, United Kingdom
-  * [GMOD Satellite Meetings](http://gmod.org/wiki/Satellite_Meetings_-_GMOD_Europe_2010), September 15
-    * [Post Reference Genome Tools Satellite](http://gmod.org/wiki/Post_Reference_Genome_Tools)
-    * [Community Annotation Satellite](http://gmod.org/wiki/Community_Annotation_-_September_2010_Satellite)
+    * [GMOD Satellite Meetings](http://gmod.org/wiki/Satellite_Meetings_-_GMOD_Europe_2010), September 15
+        * [Post Reference Genome Tools Satellite](http://gmod.org/wiki/Post_Reference_Genome_Tools)
+        * [Community Annotation Satellite](http://gmod.org/wiki/Community_Annotation_-_September_2010_Satellite)
 * **[GMOD Tools for Evolutionary Biology Hackathon](http://gmod.org/wiki/GMOD_Evo_Hackathon)**, November 8-12, 2010, Durham, North Carolina, United States
 
 ### 2000s
 
-* **[GMOD Europe 2009](http://gmod.org/wiki/GMOD_Europe_2009)**, August 3-7, Oxford, United Kingdom 
-  * [2009 GMOD Summer School - Europe](http://gmod.org/wiki/2009_GMOD_Summer_School_-_Europe), August 3-6
+* **[GMOD Europe 2009](http://gmod.org/wiki/GMOD_Europe_2009)**, August 3-7, Oxford, United Kingdom
+    * [2009 GMOD Summer School - Europe](http://gmod.org/wiki/2009_GMOD_Summer_School_-_Europe), August 3-6
 * **[2009 GMOD Summer School - Americas](http://gmod.org/wiki/2009_GMOD_Summer_School_-_Americas)**, July 16-19, 2009, Durham, North Carolina, United States
 * **Database tools for evolutionary genomics workshop**, SMBE 2009, June 6, 2009, Iowa City, Iowa, United States
 * **[2008 GMOD Summer School](http://gmod.org/wiki/2008_GMOD_Summer_School)**, July 11-13, 2008, Durham, North Carolina, United States
@@ -149,20 +150,20 @@ My pre-bioinformatics career included
 * **[Single Cell RNA-Seq and Visualization Using the Galaxy Workbench](/events/2020-abrf/)**, [ABRF 2020 pre-conference workshop](https://conf.abrf.org/program/satellite-workshops/), Palm Springs, California, United States. February 29, 2021. 
 * **The Path from Galaxy Team to Galaxy Community**, [NCI ITCR Training and Outreach Working Group](https://ncihub.org/groups/itcr/training_and_outreach_working_group_teleconference), Online, United States. [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-02-itcr-tow/itcr-tow-2020-02-galaxy-community-efforts.pdf), February 13, 2020.
 * **[Introduction to Galaxy and the Galaxy Ecosystem](https://plan.core-apps.com/pag_2020/event/a8f1e9dbae7dc0d6d1e5f05d4657f89d)**, [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States. [Slides](https://depot.galaxyproject.org/hub/attachments/events/2020-pag/pag2020-intro-slides.pdf). January 14, 2020.
-* **[Galaxy Demo: Genomic Selection and Genome Wide Association Study (GWAS) Analysis with Excellence in Breeding Tools](https://plan.core-apps.com/pag_2020/event/959619631bade74d533994f26e218d04)**, [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States. [History](http://galaxy-demo.excellenceinbreeding.org/u/clements/h/pag-2020-3k-rgp). January 14, 2020. 
-* **[Galaxy: A Global Platform & Community for Life Science Data Integration & Analysis](https://plan.core-apps.com/pag_2020/abstract/d58894cb3c5f7a1019a50c969c59cd70)**, [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States. [Poster](https://depot.galaxyproject.org/hub/attachments/events/2020-pag/pag2020-galaxy-poster.pdf). January 13, 2020 
+* **[Galaxy Demo: Genomic Selection and Genome Wide Association Study (GWAS) Analysis with Excellence in Breeding Tools](https://plan.core-apps.com/pag_2020/event/959619631bade74d533994f26e218d04)**, [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States. [History](http://galaxy-demo.excellenceinbreeding.org/u/clements/h/pag-2020-3k-rgp). January 14, 2020.
+* **[Galaxy: A Global Platform & Community for Life Science Data Integration & Analysis](https://plan.core-apps.com/pag_2020/abstract/d58894cb3c5f7a1019a50c969c59cd70)**, [Plant and Animal Genome XXVIII](http://www.intlpag.org/2020/), San Diego, California, United States. [Poster](https://depot.galaxyproject.org/hub/attachments/events/2020-pag/pag2020-galaxy-poster.pdf). January 13, 2020
 
 (Before 2020, my formatting here is a bit chaotic.)
 
 ### 2019
 
-* **Galaxy for Genomics-enabled Breeding**, GOBii Project, Monthly meeting, Online, Global. [Slides](https://bit.ly/gxy-eib-2019), [Video](https://youtu.be/dwN8qLAZ4f0). December 16, 2019 
+* **Galaxy for Genomics-enabled Breeding**, GOBii Project, Monthly meeting, Online, Global. [Slides](https://bit.ly/gxy-eib-2019), [Video](https://youtu.be/dwN8qLAZ4f0). December 16, 2019
 * **[Genomic data science with the Galaxy workbench](/events/2019-sacnas/)**, [2019 SACNAS](http://www.2019sacnas.org/), Honolulu, Hawai'i, United States. October 30, 2019.
 * **[Reproducible Genomic Data Analysis with the Galaxy Workbench](/events/2019-10-aises/)**, [AISES 2019, Milwaukee, Wisconsin, United States](https://conference.aises.org/agenda). October 11, 2019.
-* **[Plenary Panel: Effective Checklists for Developers and Researchers to Gather Requirements for Science Gateways](https://sched.co/RaIM)**, [Gateways 2019](https://sciencegateways.org/web/gateways2019), San Diego, California, United States. September 24, 2019 
+* **[Plenary Panel: Effective Checklists for Developers and Researchers to Gather Requirements for Science Gateways](https://sched.co/RaIM)**, [Gateways 2019](https://sciencegateways.org/web/gateways2019), San Diego, California, United States. September 24, 2019
 * **[Building a regional Galaxy Community and Platform](/events/2019-09-incob/#building-a-regional-galaxy-community-and-platform)**, [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia. September 12, 2019
 * **[Workshop : An introduction to the Galaxy platform for computational biology – with real-world hands-on demonstration](http://bit.ly/galaxyincob19)**, [InCoB 2019](http://incob2019.org/), Jakarta, Indonesia. September 11, 2019.
-* **[Use Galaxy, Right Now!](https://sched.co/PSOt)**, [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany. [Slides](https://static.sched.com/hosted_files/gcc2019/05/S13OTG-7__Use%20Galaxy%2C%20Right%20Now%21.pdf). July 4, 2021. 
+* **[Use Galaxy, Right Now!](https://sched.co/PSOt)**, [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany. [Slides](https://static.sched.com/hosted_files/gcc2019/05/S13OTG-7__Use%20Galaxy%2C%20Right%20Now%21.pdf). July 4, 2021.
 * **[Galaxy Publication Library](https://sched.co/QMv4)**, [GCC2019](https://galaxyproject.org/events/gcc2019/), Freiburg, Germany. [Slides](https://static.sched.com/hosted_files/gcc2019/72/S13OTG-8__Galaxy%20Publication%20Library.pdf). July 4, 2019.
 * **Recent Developments in Galaxy**, [CGRB Spring Conference 2019](https://cgrb.oregonstate.edu/spring-conference), Oregon State University, Corvallis, Oregon, United States. [Slides](https://depot.galaxyproject.org/hub/attachments/events/2019-04-osu/2019-04-cgrb-lightning.pdf). April 19, 2019.
 

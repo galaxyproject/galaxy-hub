@@ -15,6 +15,7 @@ date: "2012-03-12"
 * **[CloudMan](http://wiki.g2.bx.psu.edu/Admin/Cloud)** now offers **[preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py)** and a **larger default tools volume** (10GB vs old 2GB).
 
 **[http://getgalaxy.org](http://getgalaxy.org)**
+
 ```
 new:     % hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist
 upgrade: % hg pull -u -r 40f1816d6857

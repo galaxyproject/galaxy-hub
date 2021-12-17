@@ -52,5 +52,5 @@ Wait until "First Run" is finished and press "Continue":
 System is now ready and  [Cloudgene](/cloudman/services/cloudgene/) can be started (from the CloudMan Admin page):
 <img src="http://i.imgur.com/SirnrWl.png" alt="" width=700 />
 
-This is a default dashboard view for the Cloudera Manager. 
+This is a default dashboard view for the Cloudera Manager.
 <img src="http://i.imgur.com/llO7KvF.png" alt="" width=700 />

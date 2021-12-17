@@ -12,7 +12,7 @@ For the most current information about Galaxy, or help, please see:
 
 ----
 
-Galaxy is an open, web-based platform for data intensive biomedical research. Galaxy's goal is to be *accessible*, *reproducible*, and *transparent*. 
+Galaxy is an open, web-based platform for data intensive biomedical research. Galaxy's goal is to be *accessible*, *reproducible*, and *transparent*.
 
 * **Accessible:** Users without programming experience can easily specify parameters and run tools and workflows.
 * **Reproducible:** Galaxy captures information so that any user can repeat and understand a complete computational analysis.
@@ -21,7 +21,7 @@ Galaxy is an open, web-based platform for data intensive biomedical research. Ga
 In addition to using the [public Galaxy server](http://usegalaxy.org), you can also install your [own instance of Galaxy](/admin/get-galaxy/), or create an [instance of Galaxy on the cloud using CloudMan](/cloudman/) and explore all [Cloud](/cloud/) resources.  Another option is to use one of the ever-increasing number of [Public Galaxy Servers](/use/) hosted by other organizations.
 
 
-The [Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam) is a part of the [Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Department of Biology](http://www.bio.jhu.edu/) at [Johns Hopkinis University](http://www.jhu.edu/). 
+The [Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam) is a part of the [Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Department of Biology](http://www.bio.jhu.edu/) at [Johns Hopkinis University](http://www.jhu.edu/).
 
 [Galaxy](http://usegalaxy.org ) is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Johns Hopkins University](http://www.jhu.edu/).
 
