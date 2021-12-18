@@ -1,12 +1,10 @@
-<div class="center">
-  <a href='/events/gcc2022/'>
-    <div class="img-sizer trim-p">
-    
-![GCC2022](/images/events/gcc2022/umn-river-aerial-wide.jpg)
 
-  </div>
-  </a>
-  <div class="linkbox-horizontal trim-p">
+<div class="trim-p">
+
+[![GCC2022](/images/events/gcc2022/umn-river-aerial-wide.jpg)](/events/gcc2022/)
+
+</div>
+<div class="linkbox-horizontal trim-p">
 
 [Key Dates](/events/gcc2022/key-dates/) |
 [Conduct](/events/gcc2022/conduct/) |
@@ -20,26 +18,15 @@
 [Childcare](/events/gcc2022/childcare/) |
 [Organizers](/events/gcc2022/organizers/)
 
-  </div>
-
-<div class="h1 text-center">
-
-**2022 Galaxy Community Conference (GCC2022)**
-
 </div>
+<div class="text-center">
 
-<div class="h3 text-center">
+# **2022 Galaxy Community Conference (GCC2022)**
 
-July 16-23, 2022<br />
-University of Minnesota, Twin Cities <br />
-Minneapolis, Minnesota, United States
+### July 16-23, 2022
+### University of Minnesota, Twin Cities
+### Minneapolis, Minnesota, United States
 
-</div>
+#### [#UseGalaxy2022](https://twitter.com/hashtag/UseGalaxy2022)
 
-<div class="h4 trim-p">
-
-[#UseGalaxy2022](https://twitter.com/hashtag/UseGalaxy2022)
-
-<br />
-</div>
 </div>
