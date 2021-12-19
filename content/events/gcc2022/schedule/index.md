@@ -67,7 +67,6 @@ Here is what is happening and when, including GCC2022 and other nearby events.
 <th style="min-width: 12%; padding: 0.2em;">Fri</th>
 <th style="min-width: 12%; padding: 0.2em;">Sat</th>
 </tr>
-<tr></tr>
 <tr class="text-center" style="background-color: #BCE">
 <th>Jul 3</th>
 <th>Jul 4</th>
@@ -105,7 +104,7 @@ Here is what is happening and when, including GCC2022 and other nearby events.
 </tr>
 <tr class="text-center" style="border: 1px solid lightgray">
 <td colspan="4" style="padding: 0.2em;"></td>
-<td colspan="3" class="small" style="padding: 0.2em; background-color: #DEF;"><strong>Conference Housing Open</a></strong></td>
+<td colspan="3" class="small" style="padding: 0.2em; background-color: #DEF;"><strong>Conference Housing Open</strong></td>
 </tr>
 <tr style="border: 1px solid lightgray">
 <td></td>
@@ -134,7 +133,7 @@ Here is what is happening and when, including GCC2022 and other nearby events.
 <td></td>
 </tr>
 <tr class="text-center" style="border: 1px solid lightgray">
-<td colspan="7" class="small" style="padding: 0.2em; background-color: #DEF;"><strong>Conference Housing Open</a></strong></td>
+<td colspan="7" class="small" style="padding: 0.2em; background-color: #DEF;"><strong>Conference Housing Open</strong></td>
 </tr>
 <tr style="border: 1px solid lightgray">
 <td class="small" style="background-color: lightgray;"><strong><a href="https://www.milb.com/st-paul">Saints vs. Mud Hens</a></strong>, St. Paul</td>
@@ -145,7 +144,6 @@ Here is what is happening and when, including GCC2022 and other nearby events.
 <td class="small" style="background-color: lightgray;"><strong><br /><a href="https://www.aquatennial.com/fireworks/">Fireworks</a></strong>, Minneapolis</td>
 </tr>
 </table>
-
 
 ## Other Nearby Events
 <div class="card-deck">
