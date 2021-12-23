@@ -33,6 +33,7 @@
                     <b-dropdown-item to="/mailing-lists">Mailing lists</b-dropdown-item>
                     <b-dropdown-item to="/publication-library/">Publications</b-dropdown-item>
                     <b-dropdown-item to="/citing-galaxy/">Citing Galaxy</b-dropdown-item>
+                    <b-dropdown-item to="/images/galaxy-logos/">Branding</b-dropdown-item>
                 </b-nav-item-dropdown>
             </b-navbar-nav>
             <b-navbar-nav id="navbar-misc" class="ml-auto">
