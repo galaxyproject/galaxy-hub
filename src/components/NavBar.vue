@@ -30,6 +30,7 @@
                     <b-dropdown-item to="/use/">Platforms</b-dropdown-item>
                     <b-dropdown-item to="/careers/">Careers</b-dropdown-item>
                     <b-dropdown-item to="/galaxy-project/statistics/">Stats</b-dropdown-item>
+                    <b-dropdown-item to="/mailing-lists">Mailing lists</b-dropdown-item>
                     <b-dropdown-item to="/publication-library/">Publications</b-dropdown-item>
                     <b-dropdown-item to="/citing-galaxy/">Citing Galaxy</b-dropdown-item>
                 </b-nav-item-dropdown>
