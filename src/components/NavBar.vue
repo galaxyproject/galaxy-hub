@@ -28,9 +28,10 @@
                 </b-nav-item-dropdown>
                 <b-nav-item-dropdown text="About">
                     <b-dropdown-item to="/use/">Platforms</b-dropdown-item>
-                    <b-dropdown-item to="/publication-library/">Publications</b-dropdown-item>
                     <b-dropdown-item to="/careers/">Careers</b-dropdown-item>
                     <b-dropdown-item to="/galaxy-project/statistics/">Stats</b-dropdown-item>
+                    <b-dropdown-item to="/publication-library/">Publications</b-dropdown-item>
+                    <b-dropdown-item to="/citing-galaxy/">Citing Galaxy</b-dropdown-item>
                 </b-nav-item-dropdown>
             </b-navbar-nav>
             <b-navbar-nav id="navbar-misc" class="ml-auto">
