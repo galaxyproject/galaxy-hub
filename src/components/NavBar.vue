@@ -6,35 +6,32 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav id="navbar-menu">
-                <b-nav-item to="/use/">Use</b-nav-item>
-                <b-nav-item-dropdown text="Learn">
-                    <b-dropdown-item to="/learn/">How to use Galaxy</b-dropdown-item>
-                    <b-dropdown-item href="https://training.galaxyproject.org/">Teach with Galaxy</b-dropdown-item>
-                </b-nav-item-dropdown>
-                <b-nav-item-dropdown text="Community">
-                    <b-dropdown-item to="/community/">About</b-dropdown-item>
-                    <b-dropdown-item to="/events/">Events</b-dropdown-item>
-                    <b-dropdown-item to="/news/">News</b-dropdown-item>
-                    <b-dropdown-item to="/blog/">Blog</b-dropdown-item>
-                    <b-dropdown-item to="/careers/">Careers</b-dropdown-item>
-                    <b-dropdown-item to="/publication-library/">Publications</b-dropdown-item>
-                    <b-dropdown-item to="/galaxy-project/statistics/">Stats</b-dropdown-item>
-                    <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
-                    <b-dropdown-item to="/community/coc/">Code of Conduct</b-dropdown-item>
-                </b-nav-item-dropdown>
-                <b-nav-item-dropdown text="Deploy &amp; Develop">
+                <b-nav-item to="/learn/">Learn</b-nav-item>
+                <b-nav-item to="/news/">News</b-nav-item>
+                <b-nav-item to="/events/">Events</b-nav-item>
+                <b-nav-item-dropdown text="Support">
+                    <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
+                    <b-dropdown-item href="https://help.galaxyproject.org/">Galaxy Help Forum</b-dropdown-item>
                     <b-dropdown-item to="/admin/get-galaxy/">Install Galaxy</b-dropdown-item>
                     <b-dropdown-item to="/admin/">Server administration</b-dropdown-item>
                     <b-dropdown-item to="/tools/">Tools</b-dropdown-item>
                     <b-dropdown-item to="/develop/api/">Working with the API</b-dropdown-item>
+                    <b-dropdown-item to="/docs/">Code documentation</b-dropdown-item>             
+                </b-nav-item-dropdown>
+                <b-nav-item-dropdown text="Community">
+                    <b-dropdown-item to="/community/">The Galaxy Community</b-dropdown-item>
+                    <b-dropdown-item to="/jxtx/">@jxtx</b-dropdown-item>
+                    <b-dropdown-item to="/blog/">Blog</b-dropdown-item>
+                    <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
+                    <b-dropdown-item to="/community/coc/">Code of Conduct</b-dropdown-item>
                     <b-dropdown-item to="/develop/">Contributing</b-dropdown-item>
-                    <b-dropdown-item to="/docs/">Code documentation</b-dropdown-item>
                 </b-nav-item-dropdown>
-                <b-nav-item-dropdown text="Support">
-                    <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
-                    <b-dropdown-item href="https://help.galaxyproject.org/">Galaxy Help Forum</b-dropdown-item>
+                <b-nav-item-dropdown text="About">
+                    <b-dropdown-item to="/use/">Platforms</b-dropdown-item>
+                    <b-dropdown-item to="/publication-library/">Publications</b-dropdown-item>
+                    <b-dropdown-item to="/careers/">Careers</b-dropdown-item>
+                    <b-dropdown-item to="/galaxy-project/statistics/">Stats</b-dropdown-item>
                 </b-nav-item-dropdown>
-                <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
             </b-navbar-nav>
             <b-navbar-nav id="navbar-misc" class="ml-auto">
                 <b-nav-form action="/search/" method="get">
