@@ -6,22 +6,9 @@ components: true
 
 # Global platform for SARS-CoV-2 analysis
 
-[![DOI](https://img.shields.io/static/v1?label=DOI&message=doi:10.1101/2021.03.25.437046&color=red)](https://doi.org/10.1101/2021.03.25.437046)
+<vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/freiburg_chronic.json"/>
 
-<div class="custom-block warning trim-p">
 
-This document is divided into following sections:
-
-<hr>
-	<ol>
-		<li><a href="#what-is-this">What of our objective?</a></li>
-		<li><a href="#workflows-for-discovery-of-sequence-variants">Workflows for variant analysis</a></li>
-		<li><a href="#application-of-workflows-for-analysis-of-intrahost-variation">Initial application to Boston and early COG-UK data</a></li>
-		<li><a href="#continuous-analysis-of-pandemic-data-with-the-galaxy-api">Continuous monitoring of COG-UK data</a></li>
-		<li><a href="#how-do-i-use-it">How do I use it?</a></li>
-		<li><a href="#methods">Methods</a></li>
-	</ol>
-</div>
 
 ## What is this?
 
