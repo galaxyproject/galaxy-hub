@@ -16,7 +16,7 @@
                     <b-dropdown-item to="/admin/">Server administration</b-dropdown-item>
                     <b-dropdown-item to="/tools/">Tools</b-dropdown-item>
                     <b-dropdown-item to="/develop/api/">Working with the API</b-dropdown-item>
-                    <b-dropdown-item to="/docs/">Code documentation</b-dropdown-item>             
+                    <b-dropdown-item to="/docs/">Code documentation</b-dropdown-item>
                 </b-nav-item-dropdown>
                 <b-nav-item-dropdown text="Community">
                     <b-dropdown-item to="/community/">The Galaxy Community</b-dropdown-item>
