@@ -1,5 +1,4 @@
 ---
-title: "usegalaxy.* SARS-CoV-2 monitoring effort"
 description: "Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral datasets."
 components: true
 autotoc: false
@@ -15,7 +14,11 @@ autotoc: false
 
 -----
 
+
 ### A continuous analysis of intra-host variation in SARS-CoV-2
+
+- Most variation data 
+
 
 The current knowledge about the evolutionary dynamics of SARS-CoV-2 comes primarily from genome assemblies and **not** from read-level data. While complete genomes allow complex inferences about [the evolutionary trajectory of the virus](https://pubmed.ncbi.nlm.nih.gov/34537136/) they hide any information about intrahost dynamics because they do not show variants that exist at sub-consensus allele frequencies. This situation is further aggravated by the fact that the number of publicly available read-level datasets lags dramatically behind the number of complete genomes assemblies making it impossible to confirm or further investigate data found in the GISAID database. In addition, only a fraction of available read-level datasets are useful because of the lacking metadata.
 
@@ -27,7 +30,7 @@ Despite these challenges there is a number of high quality read-level datasets p
       <div class="card-body">
         <h3><b>Samples</b></h3>
         Information about how we select, pre-process, and analyze public read-level datasets.<br><br>
-        <a href="/covid19/genomics/samples" class="btn btn-primary">Read more ...</a>
+        <a href="/covid19/genomics/samples/" class="btn btn-primary">Read more ...</a>
       </div>
     </div>
   </div>
@@ -36,7 +39,7 @@ Despite these challenges there is a number of high quality read-level datasets p
       <div class="card-body bg-light">
         <h3><b>Variants</b></h3>
         Access to all datasets and continuously updated interpretation of intra-host variant data.<br><br>
-        <a href="#" class="btn btn-warning">Read more ...</a>
+        <a href="/covid19/genomics/analyses/" class="btn btn-warning">Read more ...</a>
       </div>
     </div>
   </div>
@@ -45,7 +48,7 @@ Despite these challenges there is a number of high quality read-level datasets p
       <div class="card-body">
         <h3><b>Workflows</b></h3>
         Curated and validated Workflows for immediate use on public Galaxy instances across the globe.<br><br>
-        <a href="#" class="btn btn-danger">Read more ...</a>
+        <a href="/covid19/genomics/workflows/" class="btn btn-danger">Read more ...</a>
       </div>
     </div>
   </div>
@@ -54,7 +57,7 @@ Despite these challenges there is a number of high quality read-level datasets p
       <div class="card-body">
         <h3><b>Infrastructure</b></h3>
         Free for all computational resources for interactive or programmatic analysis of thousands of samples.<br><br>
-        <a href="#" class="btn btn-success">Read more ...</a>
+        <a href="infrastructure" class="btn btn-success">Read more ...</a>
       </div>
     </div>
   </div>

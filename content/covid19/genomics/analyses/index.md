@@ -1,6 +1,6 @@
 ---
-title: "Infrastructure"
-description: "Infrastructure used by Galaxy effort"
+title: "Analysis"
+description: "Analysis of variants"
 components: true
 autotoc: false
 ---
