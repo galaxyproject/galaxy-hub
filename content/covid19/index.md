@@ -64,7 +64,7 @@ Despite these challenges there is a number of high quality read-level datasets p
 </div>
 </div>
 
-
+shadow-sm p-3 mb-5 bg-light rounded
 -----
 
 ## Why intra-host variation?
