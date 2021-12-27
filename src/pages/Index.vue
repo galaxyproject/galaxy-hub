@@ -4,54 +4,56 @@
             <h2 class="display-4">{{ $page.main.title }}</h2>
             <h3>The meeting point where you can find curated documentation of all things Galaxy</h3>
         </header>
-            <div class="row">
-                <div class="col-sm-5 lead markdown" v-html="$page.main.content" />
-                <section class="col-sm-7 jumbotron" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
-                  <div class="text-center"> <h3><b> Announcements </b></h3></div>
-                  <div class="text-center markdown" v-html="$page.jumbotron.content" />
-                </section>
-            </div>
-            <div class="row">
-                <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
-                <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :items="latest.events" />
-                <HomeCard
-                    :title="inserts.twitter.title"
-                    :link="inserts.twitter.link"
-                    :icon="inserts.twitter.icon"
-                    :content="inserts.twitter.content"
-                />
-            </div>
+        <div class="row">
+            <div class="col-sm-5 lead markdown" v-html="$page.main.content" />
+            <section class="col-sm-7 jumbotron" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
+                <div class="text-center">
+                    <h3><b> Announcements </b></h3>
+                </div>
+                <div class="text-center markdown" v-html="$page.jumbotron.content" />
+            </section>
+        </div>
 
-            <div class="row">
-                <HomeCard
-                    :title="inserts.videos.title"
-                    :link="inserts.videos.link"
-                    :icon="inserts.videos.icon"
-                    :content="inserts.videos.content"
-                    :items="inserts.videos.items"
-                />
-                <HomeCard title="Blog" link="/blog/" icon="fas fa-pencil-alt" :items="latest.blog" />
-                <HomeCard title="Careers" link="/careers/" icon="fas fa-user-astronaut" :items="latest.careers" />
-            </div>
+        <div class="row">
+            <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
+            <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :items="latest.events" />
+            <HomeCard
+                :title="inserts.twitter.title"
+                :link="inserts.twitter.link"
+                :icon="inserts.twitter.icon"
+                :content="inserts.twitter.content"
+            />
+        </div>
 
-            <div class="row">
-                <HomeCard
-                    :title="inserts.platforms.title"
-                    :link="inserts.platforms.link"
-                    :icon="inserts.platforms.icon"
-                    :content="inserts.platforms.content"
-                    :items="inserts.platforms.items"
-                />
-                <HomeCard
-                    :title="inserts.pubs.title"
-                    :link="inserts.pubs.link"
-                    :icon="inserts.pubs.icon"
-                    :content="inserts.pubs.content"
-                    :items="inserts.pubs.items"
-                    :width="8"
-                />
-            </div>
-        </section>
+        <div class="row">
+            <HomeCard
+                :title="inserts.videos.title"
+                :link="inserts.videos.link"
+                :icon="inserts.videos.icon"
+                :content="inserts.videos.content"
+                :items="inserts.videos.items"
+            />
+            <HomeCard title="Blog" link="/blog/" icon="fas fa-pencil-alt" :items="latest.blog" />
+            <HomeCard title="Careers" link="/careers/" icon="fas fa-user-astronaut" :items="latest.careers" />
+        </div>
+
+        <div class="row">
+            <HomeCard
+                :title="inserts.platforms.title"
+                :link="inserts.platforms.link"
+                :icon="inserts.platforms.icon"
+                :content="inserts.platforms.content"
+                :items="inserts.platforms.items"
+            />
+            <HomeCard
+                :title="inserts.pubs.title"
+                :link="inserts.pubs.link"
+                :icon="inserts.pubs.icon"
+                :content="inserts.pubs.content"
+                :items="inserts.pubs.items"
+                :width="8"
+            />
+        </div>
 
         <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
     </Layout>
