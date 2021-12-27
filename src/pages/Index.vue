@@ -1,18 +1,16 @@
 <template>
     <Layout>
         <header class="header">
-            <h1 class="display-4">{{ $page.main.title }}</h1>
+            <h2 class="display-4">{{ $page.main.title }}</h2>
+            <h3>The meeting point where you can find curated documentation of all things Galaxy</h3>
         </header>
-
-        <section class="section-content jumbotron" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
-            <div class="text-center markdown" v-html="$page.jumbotron.content" />
-        </section>
-
-        <section class="section-content main-content">
-            <div id="splash-row">
-                <div class="col-sm-12 lead markdown" v-html="$page.main.content" />
+            <div class="row">
+                <div class="col-sm-5 lead markdown" v-html="$page.main.content" />
+                <section class="col-sm-7 jumbotron" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
+                  <div class="text-center"> <h3><b> Announcements </b></h3></div>
+                  <div class="text-center markdown" v-html="$page.jumbotron.content" />
+                </section>
             </div>
-
             <div class="row">
                 <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
                 <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :items="latest.events" />
