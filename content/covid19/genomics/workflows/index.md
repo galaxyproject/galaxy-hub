@@ -5,7 +5,7 @@ components: true
 autotoc: false
 ---
 
-## A quick summary
+## Overview
 
 -----
 
@@ -14,8 +14,8 @@ Here is the info to get you started quickly:
 - We have five [<kbd>workflows</kbd>](#workflows-for-discovery-of-sequence-variants) for different sequencing platforms (Illumina or Oxford Nanopore) and library preparation strategies (Ampliconic or Metatranscriptomic).
 - Wokflows can be used to analyze any number of samples.
 - Workflows can be used via graphical user interface right now on any of our global instances in EU (https://usegalaxy.eu), US (https://usegalaxy.org), or Australia (https://usegalaxy.org.au) as shown in this [<kbd>tutorial</kbd>](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html). 
-- Workflows can be accessed programmatically by either submitted a list of accession numbers to our [<kbd>Request an analysis</kbd>](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests) service or by configuring your own Galaxy to [<kbd>automatically</kbd>](https://github.com/usegalaxy-eu/ena-cog-uk-wfs) trigger the analyses.
-
+- Workflows can be accessed programmatically by either submitted a list of accession numbers to our [<kbd>Request an analysis</kbd>](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests) service or by configuring your own Galaxy to [<kbd>automatically</kbd>](https://github.com/usegalaxy-eu/ena-cog-uk-wfs) trigger the analyses
+- We provide [powerful](#graph) computational infrastructure for data analysis support by national supercomputing resources in the US, EU, and Australia. 
 
 
 ## Workflows for discovery of sequence variants
@@ -38,7 +38,6 @@ We developed a number of workflows for the analysis of SARS-CoV-2 sequencing dat
 The following <a href="https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html#from-fastq-to-annotated-allelic-variants">tutorial</a> explains how to import workflows into your Galaxy instance.
 
 
-
 ## Which workflow do I use?
 
 ------
@@ -59,7 +58,7 @@ Each of the four variant calling workflows from the table above is designed to b
 <sup>1</sup> - there is an increasing number of PacBio data. Our workflows can be easily adapted for these data as well. Use **OPEN CHAT** below to let us know. <sup>2</sup> - this conceptually is identical to <span class="badge badge-warning">ILL-MT-SE</span> except for replacing mapper with `minimap2` and variant caller with `medaka` 
 
 
-## How do I use it?
+## How do I use it and where do I run my analyses?
 
 ------
 
@@ -70,3 +69,9 @@ This depends on who you are. If you are:
 | **Biomedical researcher** | Use any of the three global Galaxy instances in EU (https://usegalaxy.eu), US (https://usegalaxy.org), or Australia (https://usegalaxy.org.au). Take a look at the following tutorial to begin: [Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data](https://training.galaxyproject.org/training-material/topics/variant-analysis/tutorials/sars-cov-2-variant-discovery/tutorial.html) - a [Galaxy Training Network](https://training.galaxyproject.org/training-material/) Tutorial. |
 | **Bioinformatician or data scientist** | You have two options: <ol> <li>**Option 1**: Use our ["Request an analysis"](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests) service to submit a list of datasets to us and trigger automated analyses.</li> <li>**Option 2**: Configuring your own Galaxy instance to [automatically](https://github.com/usegalaxy-eu/ena-cog-uk-wfs) trigger the analyses. Use this option if you run your own Galaxy installation</li> </ol> | 
 
+These analysis capabilities are supported by public computational infrastructure provided by the [XSEDE](https://www.xsede.org) consortium in the US, the [deNBI](https://www.denbi.de) and [ELIXIR](https://elixir-europe.org) consortia in the EU, and [Nectar Cloud](https://ardc.edu.au/services/nectar-research-cloud/) in Australia. The figure below illustrates current processing times (in EU) for analysis of SARS-CoV-2 data. You can see that most analyses complete within a 1-2 hour interval.
+
+
+<div class="shadow-sm p-3 mb-5 bg-light rounded" id="graph" align="center">
+	<vega-embed align="center" spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/run_times.json"/> 
+</div>

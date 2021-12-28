@@ -46,7 +46,7 @@ Despite these challenges there is a number of high quality read-level datasets p
   <div class="col mb-4">
     <div class="card bg-light">
       <div class="card-body">
-        <h3><b>Workflows</b></h3>
+        <h3><b>Workflows + Infrastructure</b></h3>
         Curated and validated Workflows for immediate use on public Galaxy instances across the globe.<br><br>
         <a href="/covid19/genomics/workflows/" class="btn btn-danger">Read more ...</a>
       </div>
@@ -55,7 +55,7 @@ Despite these challenges there is a number of high quality read-level datasets p
   <div class="col mb-4">
     <div class="card bg-light">
       <div class="card-body">
-        <h3><b>Infrastructure</b></h3>
+        <h3><b>Analysis</b></h3>
         Free for all computational resources for interactive or programmatic analysis of thousands of samples.<br><br>
         <a href="infrastructure" class="btn btn-success">Read more ...</a>
       </div>
@@ -64,7 +64,7 @@ Despite these challenges there is a number of high quality read-level datasets p
 </div>
 </div>
 
-shadow-sm p-3 mb-5 bg-light rounded
+
 -----
 
 ## Why intra-host variation?
