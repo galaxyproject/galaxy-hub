@@ -307,7 +307,9 @@ div.linkbox hr {
     text-align: center;
 }
 
-div.linkbox-horizontal {
+div.linkbox-horizontal,
+.linkbox.horizontal {
+    float: initial;
     margin-bottom: 15px;
     padding: 0 5px;
     border: 1px solid #ddd;
