@@ -21,9 +21,7 @@ describe("Sitewide tests", () => {
         // findByRole doesn't seem to work on invisible elements.
         cy.get("#navbar-menu [href='/blog/']").should("not.be.visible");
         cy.findByRole("button", { name: /Community/i }).click();
-        cy.get("#navbar-menu")
-            .findByRole("menuitem", { name: /Blog/i })
-            .should("be.visible");
+        cy.get("#navbar-menu").findByRole("menuitem", { name: /Blog/i }).should("be.visible");
         // Check that navigating works.
         cy.findByRole("button", { name: /Support/i }).click();
         cy.findByRole("menuitem", { name: /Install Galaxy/i }).click();
