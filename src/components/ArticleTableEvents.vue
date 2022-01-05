@@ -33,7 +33,7 @@
     </tr>
 </template>
 
-<script scoped>
+<script>
 import Continent from "@/components/Continent";
 export default {
     components: {
