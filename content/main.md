@@ -1,6 +1,8 @@
 ---
 title: Welcome to the Galaxy Community Hub
+subtitle: The meeting point where you can find curated documentation for all things Galaxy
 ---
+
 **Galaxy** is an **open-source** platform for **[FAIR](https://www.go-fair.org/fair-principles/) data analysis** that enables users to: 
 
 - use **tools** from various domains (that can be plugged into **workflows**) through its graphical web interface.
