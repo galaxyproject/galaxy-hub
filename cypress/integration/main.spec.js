@@ -19,13 +19,13 @@ describe("Sitewide tests", () => {
     it("Tests the NavBar", () => {
         // Check that the dropdown menus work.
         // findByRole doesn't seem to work on invisible elements.
-        cy.get("#navbar-menu [href='/events/']").should("not.be.visible");
+        cy.get("#navbar-menu [href='/blog/']").should("not.be.visible");
         cy.findByRole("button", { name: /Community/i }).click();
         cy.get("#navbar-menu")
-            .findByRole("menuitem", { name: /Events/i })
+            .findByRole("menuitem", { name: /Blog/i })
             .should("be.visible");
         // Check that navigating works.
-        cy.findByRole("button", { name: /Deploy & Develop/i }).click();
+        cy.findByRole("button", { name: /Support/i }).click();
         cy.findByRole("menuitem", { name: /Install Galaxy/i }).click();
         cy.location("pathname").should("equal", "/admin/get-galaxy/");
     });
@@ -73,7 +73,7 @@ describe("Use Page Tests", () => {
         // This test gives intermittent failures without a wait here
         // (Todo: investigate a more refined wait target -- these explicit sleeps are terrible)
         cy.wait(1000);
-        cy.findByRole("button", { name: /Community/i }).click();
+        cy.findByRole("button", { name: /About/i }).click();
         cy.findByRole("menuitem", { name: /Stats/i }).click();
         cy.get(".title")
             .findByText(/Galaxy Project Stats/i)
