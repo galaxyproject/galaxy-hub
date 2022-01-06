@@ -51,7 +51,7 @@
                 </b-nav-form>
                 <b-nav-item :href="editUrl">
                     <i class="fab fa-lg fa-github"></i>
-                    Contribute
+                    Contribute!
                 </b-nav-item>
             </b-navbar-nav>
         </b-collapse>
