@@ -81,31 +81,6 @@ describe("Use Page Tests", () => {
     });
 });
 
-describe("Bootstrap component tests", () => {
-    it("Tests the video popup on /tutorials/chip/", () => {
-        cy.visit("/tutorials/chip/");
-        // This test gives intermittent failures without a wait here.
-        // Probably needs time to load Bootstrap's JS from the CDN (unpkg.com).
-        cy.wait(1000);
-        cy.get("h4.modal-title").should("not.be.visible");
-        cy.get('[data-target="#lib_video"]').first().click();
-        cy.get("h4.modal-title").should("be.visible");
-    });
-    it("Tests collapsing elements on /tutorials/nt-rnaseq/", () => {
-        cy.visit("/tutorials/nt-rnaseq/");
-        // This test gives intermittent failures without a wait here (just like above).
-        cy.wait(1000);
-        // First collapsible element
-        cy.get("#qc").should("not.be.visible");
-        cy.get('[href="#qc"]').click();
-        cy.get("#qc").should("be.visible");
-        // Second collapsible element
-        cy.get("#collapseOne").should("not.be.visible");
-        cy.get('[href="#collapseOne"]').click();
-        cy.get("#collapseOne").should("be.visible");
-    });
-});
-
 // Save the tests with long timeouts for the end.
 
 describe("Test 404 page", () => {
