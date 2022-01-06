@@ -48,6 +48,13 @@ $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
 
 @import "overrides.scss";
 
+pre {
+    background-color: $brand-dark;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
 html {
     position: relative;
     min-height: 100%;
