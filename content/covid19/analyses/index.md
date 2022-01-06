@@ -1,7 +1,6 @@
 ---
 title: "Intrahost analysis (Jan 4, 2022)"
 description: "Analysis of variants"
-components: true
 autotoc: false
 ---
 

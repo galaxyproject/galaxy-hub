@@ -1,6 +1,5 @@
 ---
 description: "Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral datasets."
-components: true
 autotoc: false
 ---
 
@@ -70,8 +69,7 @@ The old version of our site can be found at
 </div>
 -->
 
-
------
+------
 
 ## Why intra-host variation?
 

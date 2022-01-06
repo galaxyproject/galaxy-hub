@@ -34,6 +34,7 @@
                     <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
                     <b-dropdown-item href="https://help.galaxyproject.org/">Galaxy Help Forum</b-dropdown-item>
                 </b-nav-item-dropdown>
+                <b-nav-item to="/covid19/">Covid19</b-nav-item>
                 <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
             </b-navbar-nav>
             <b-navbar-nav id="navbar-misc" class="ml-auto">
