@@ -20,12 +20,12 @@
                 </b-nav-item-dropdown>
                 <b-nav-item-dropdown text="Community">
                     <b-dropdown-item to="/community/">The Galaxy Community</b-dropdown-item>
-                    <b-dropdown-item to="/jxtx/">@jxtx</b-dropdown-item>
                     <b-dropdown-item to="/blog/">Blog</b-dropdown-item>
                     <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
                     <b-dropdown-item to="/community/coc/">Code of Conduct</b-dropdown-item>
                     <b-dropdown-item to="/develop/">Contributing</b-dropdown-item>
                 </b-nav-item-dropdown>
+                <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
                 <b-nav-item-dropdown text="About">
                     <b-dropdown-item to="/use/">Platforms</b-dropdown-item>
                     <b-dropdown-item to="/careers/">Careers</b-dropdown-item>
