@@ -8,126 +8,17 @@ autotoc: false
 
 ## Thresholding of raw data
 
+### Raw data overview
+
+The initial dataset contains 9,390,063 variants. Stratification by substitution effect is shown below (10 top rows shown). The minimum and maximum alternative allele frequencies (AFs) are 0.05 and 1 for all categories:
+
 <div class="compact">
 
-These are raw counts for 9390063 variants in this set. Organizing them by substitution effect looks like this (only 10 top rows are shown):
-
-<div class="compact">
-
-<style type="text/css">
-#T_a348d_row0_col1 {
-  width: 10em;
-  height: 80%;
-  background: linear-gradient(90deg,orange 100.0%, transparent 100.0%);
-}
-#T_a348d_row1_col1 {
-  width: 10em;
-  height: 80%;
-  background: linear-gradient(90deg,orange 29.4%, transparent 29.4%);
-}
-#T_a348d_row2_col1 {
-  width: 10em;
-  height: 80%;
-  background: linear-gradient(90deg,orange 12.2%, transparent 12.2%);
-}
-#T_a348d_row3_col1 {
-  width: 10em;
-  height: 80%;
-  background: linear-gradient(90deg,orange 5.7%, transparent 5.7%);
-}
-#T_a348d_row4_col1 {
-  width: 10em;
-  height: 80%;
-  background: linear-gradient(90deg,orange 3.9%, transparent 3.9%);
-}
-#T_a348d_row5_col1 {
-  width: 10em;
-  height: 80%;
-  background: linear-gradient(90deg,orange 2.4%, transparent 2.4%);
-}
-#T_a348d_row6_col1 {
-  width: 10em;
-  height: 80%;
-  background: linear-gradient(90deg,orange 1.3%, transparent 1.3%);
-}
-#T_a348d_row7_col1 {
-  width: 10em;
-  height: 80%;
-  background: linear-gradient(90deg,orange 0.1%, transparent 0.1%);
-}
-#T_a348d_row8_col1, #T_a348d_row9_col1 {
-  width: 10em;
-  height: 80%;
-  background: linear-gradient(90deg,orange 0.0%, transparent 0.0%);
-}
-</style>
-<table id="T_a348d_">
-  <thead>
-    <tr>
-      <th class="blank level0" >&nbsp;</th>
-      <th class="col_heading level0 col0" >EFFECT</th>
-      <th class="col_heading level0 col1" >COUNT</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th id="T_a348d_level0_row0" class="row_heading level0 row0" >0</th>
-      <td id="T_a348d_row0_col0" class="data row0 col0" >NON_SYNONYMOUS_CODING</td>
-      <td id="T_a348d_row0_col1" class="data row0 col1" >6053936</td>
-    </tr>
-    <tr>
-      <th id="T_a348d_level0_row1" class="row_heading level0 row1" >1</th>
-      <td id="T_a348d_row1_col0" class="data row1 col0" >SYNONYMOUS_CODING</td>
-      <td id="T_a348d_row1_col1" class="data row1 col1" >1778954</td>
-    </tr>
-    <tr>
-      <th id="T_a348d_level0_row2" class="row_heading level0 row2" >2</th>
-      <td id="T_a348d_row2_col0" class="data row2 col0" >.</td>
-      <td id="T_a348d_row2_col1" class="data row2 col1" >740330</td>
-    </tr>
-    <tr>
-      <th id="T_a348d_level0_row3" class="row_heading level0 row3" >3</th>
-      <td id="T_a348d_row3_col0" class="data row3 col0" >CODON_CHANGE_PLUS_CODON_DELETION</td>
-      <td id="T_a348d_row3_col1" class="data row3 col1" >347489</td>
-    </tr>
-    <tr>
-      <th id="T_a348d_level0_row4" class="row_heading level0 row4" >4</th>
-      <td id="T_a348d_row4_col0" class="data row4 col0" >CODON_DELETION</td>
-      <td id="T_a348d_row4_col1" class="data row4 col1" >238785</td>
-    </tr>
-    <tr>
-      <th id="T_a348d_level0_row5" class="row_heading level0 row5" >5</th>
-      <td id="T_a348d_row5_col0" class="data row5 col0" >STOP_GAINED</td>
-      <td id="T_a348d_row5_col1" class="data row5 col1" >145616</td>
-    </tr>
-    <tr>
-      <th id="T_a348d_level0_row6" class="row_heading level0 row6" >6</th>
-      <td id="T_a348d_row6_col0" class="data row6 col0" >FRAME_SHIFT</td>
-      <td id="T_a348d_row6_col1" class="data row6 col1" >75987</td>
-    </tr>
-    <tr>
-      <th id="T_a348d_level0_row7" class="row_heading level0 row7" >7</th>
-      <td id="T_a348d_row7_col0" class="data row7 col0" >CODON_INSERTION</td>
-      <td id="T_a348d_row7_col1" class="data row7 col1" >3482</td>
-    </tr>
-    <tr>
-      <th id="T_a348d_level0_row8" class="row_heading level0 row8" >8</th>
-      <td id="T_a348d_row8_col0" class="data row8 col0" >FRAME_SHIFT+STOP_GAINED</td>
-      <td id="T_a348d_row8_col1" class="data row8 col1" >2255</td>
-    </tr>
-    <tr>
-      <th id="T_a348d_level0_row9" class="row_heading level0 row9" >9</th>
-      <td id="T_a348d_row9_col0" class="data row9 col0" >SPLICE_SITE_REGION+SYNONYMOUS_CODING</td>
-      <td id="T_a348d_row9_col1" class="data row9 col1" >757</td>
-    </tr>
-  </tbody>
-</table>
-
-
+<style type="text/css">#T_182f9_  {  font-size: 8pt;}#T_182f9_r0_c1, #T_182f9_r0_c2 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 100.0%, transparent 100.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 100.0%, transparent 100.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 100.0%, transparent 100.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 100.0%, transparent 100.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 100.0%, transparent 100.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 100.0%, transparent 100.0%);}#T_182f9_r0_c3, #T_182f9_r5_c3 {  background-color: #df634e;  color: #f1f1f1;  background-color: #9b3504;  color: #f1f1f1;  background-color: #be0126;  color: #f1f1f1;  background-color: #be0126;  color: #f1f1f1;  background-color: #be0126;  color: #f1f1f1;  background-color: #be0126;  color: #f1f1f1;}#T_182f9_r0_c4 {  background-color: #d24b40;  color: #f1f1f1;  background-color: #892f05;  color: #f1f1f1;  background-color: #aa0026;  color: #f1f1f1;  background-color: #aa0026;  color: #f1f1f1;  background-color: #aa0026;  color: #f1f1f1;  background-color: #aa0026;  color: #f1f1f1;}#T_182f9_r0_c5 {  background-color: #6c8ff1;  color: #f1f1f1;  background-color: #fff2b1;  color: #000000;  background-color: #ffe895;  color: #000000;  background-color: #ffe895;  color: #000000;  background-color: #ffe895;  color: #000000;  background-color: #ffe895;  color: #000000;}#T_182f9_r1_c1 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 36.9%, transparent 36.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 36.9%, transparent 36.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 36.9%, transparent 36.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 36.9%, transparent 36.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 36.9%, transparent 36.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 36.9%, transparent 36.9%);}#T_182f9_r1_c2 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 29.7%, transparent 29.7%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 29.7%, transparent 29.7%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 29.7%, transparent 29.7%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 29.7%, transparent 29.7%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 29.7%, transparent 29.7%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 29.7%, transparent 29.7%);}#T_182f9_r1_c3 {  background-color: #e97a5f;  color: #f1f1f1;  background-color: #ae3e03;  color: #f1f1f1;  background-color: #cd0b22;  color: #f1f1f1;  background-color: #cd0b22;  color: #f1f1f1;  background-color: #cd0b22;  color: #f1f1f1;  background-color: #cd0b22;  color: #f1f1f1;}#T_182f9_r1_c4, #T_182f9_r3_c4, #T_182f9_r8_c4 {  background-color: #d85646;  color: #f1f1f1;  background-color: #913204;  color: #f1f1f1;  background-color: #b40026;  color: #f1f1f1;  background-color: #b40026;  color: #f1f1f1;  background-color: #b40026;  color: #f1f1f1;  background-color: #b40026;  color: #f1f1f1;}#T_182f9_r1_c5 {  background-color: #b3cdfb;  color: #000000;  background-color: #fec857;  color: #000000;  background-color: #feb651;  color: #000000;  background-color: #feb651;  color: #000000;  background-color: #feb651;  color: #000000;  background-color: #feb651;  color: #000000;}#T_182f9_r2_c1 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 35.1%, transparent 35.1%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 35.1%, transparent 35.1%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 35.1%, transparent 35.1%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 35.1%, transparent 35.1%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 35.1%, transparent 35.1%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 35.1%, transparent 35.1%);}#T_182f9_r2_c2 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 1.9%, transparent 1.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 1.9%, transparent 1.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 1.9%, transparent 1.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 1.9%, transparent 1.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 1.9%, transparent 1.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 1.9%, transparent 1.9%);}#T_182f9_r2_c3 {  background-color: #506bda;  color: #f1f1f1;  background-color: #ffface;  color: #000000;  background-color: #fff5b3;  color: #000000;  background-color: #fff5b3;  color: #000000;  background-color: #fff5b3;  color: #000000;  background-color: #fff5b3;  color: #000000;}#T_182f9_r2_c4 {  background-color: #4055c8;  color: #f1f1f1;  background-color: #fffedf;  color: #000000;  background-color: #fffcc5;  color: #000000;  background-color: #fffcc5;  color: #000000;  background-color: #fffcc5;  color: #000000;  background-color: #fffcc5;  color: #000000;}#T_182f9_r2_c5 {  background-color: #ebd3c6;  color: #000000;  background-color: #f5851f;  color: #f1f1f1;  background-color: #fd6e33;  color: #f1f1f1;  background-color: #fd6e33;  color: #f1f1f1;  background-color: #fd6e33;  color: #f1f1f1;  background-color: #fd6e33;  color: #f1f1f1;}#T_182f9_r3_c1 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 4.9%, transparent 4.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 4.9%, transparent 4.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 4.9%, transparent 4.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 4.9%, transparent 4.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 4.9%, transparent 4.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 4.9%, transparent 4.9%);}#T_182f9_r3_c2 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.5%, transparent 2.5%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.5%, transparent 2.5%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.5%, transparent 2.5%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.5%, transparent 2.5%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.5%, transparent 2.5%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.5%, transparent 2.5%);}#T_182f9_r3_c3 {  background-color: #ec7f63;  color: #f1f1f1;  background-color: #b34003;  color: #f1f1f1;  background-color: #d00d21;  color: #f1f1f1;  background-color: #d00d21;  color: #f1f1f1;  background-color: #d00d21;  color: #f1f1f1;  background-color: #d00d21;  color: #f1f1f1;}#T_182f9_r3_c5 {  background-color: #e2dad5;  color: #000000;  background-color: #fb9225;  color: #000000;  background-color: #fd8239;  color: #f1f1f1;  background-color: #fd8239;  color: #f1f1f1;  background-color: #fd8239;  color: #f1f1f1;  background-color: #fd8239;  color: #f1f1f1;}#T_182f9_r4_c1 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.8%, transparent 3.8%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.8%, transparent 3.8%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.8%, transparent 3.8%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.8%, transparent 3.8%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.8%, transparent 3.8%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.8%, transparent 3.8%);}#T_182f9_r4_c2 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 5.7%, transparent 5.7%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 5.7%, transparent 5.7%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 5.7%, transparent 5.7%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 5.7%, transparent 5.7%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 5.7%, transparent 5.7%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 5.7%, transparent 5.7%);}#T_182f9_r4_c3, #T_182f9_r4_c4, #T_182f9_r6_c3, #T_182f9_r6_c4, #T_182f9_r9_c5 {  background-color: #b40426;  color: #f1f1f1;  background-color: #662506;  color: #f1f1f1;  background-color: #800026;  color: #f1f1f1;  background-color: #800026;  color: #f1f1f1;  background-color: #800026;  color: #f1f1f1;  background-color: #800026;  color: #f1f1f1;}#T_182f9_r4_c5, #T_182f9_r6_c5, #T_182f9_r7_c3, #T_182f9_r7_c4 {  background-color: #3b4cc0;  color: #f1f1f1;  background-color: #ffffe5;  color: #000000;  background-color: #ffffcc;  color: #000000;  background-color: #ffffcc;  color: #000000;  background-color: #ffffcc;  color: #000000;  background-color: #ffffcc;  color: #000000;}#T_182f9_r5_c1 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.6%, transparent 3.6%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.6%, transparent 3.6%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.6%, transparent 3.6%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.6%, transparent 3.6%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.6%, transparent 3.6%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.6%, transparent 3.6%);}#T_182f9_r5_c2 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 12.0%, transparent 12.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 12.0%, transparent 12.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 12.0%, transparent 12.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 12.0%, transparent 12.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 12.0%, transparent 12.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 12.0%, transparent 12.0%);}#T_182f9_r5_c4 {  background-color: #dc5d4a;  color: #f1f1f1;  background-color: #963304;  color: #f1f1f1;  background-color: #b90026;  color: #f1f1f1;  background-color: #b90026;  color: #f1f1f1;  background-color: #b90026;  color: #f1f1f1;  background-color: #b90026;  color: #f1f1f1;}#T_182f9_r5_c5 {  background-color: #465ecf;  color: #f1f1f1;  background-color: #fffcd8;  color: #000000;  background-color: #fff9be;  color: #000000;  background-color: #fff9be;  color: #000000;  background-color: #fff9be;  color: #000000;  background-color: #fff9be;  color: #000000;}#T_182f9_r6_c1 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.3%, transparent 2.3%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.3%, transparent 2.3%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.3%, transparent 2.3%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.3%, transparent 2.3%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.3%, transparent 2.3%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 2.3%, transparent 2.3%);}#T_182f9_r6_c2 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.9%, transparent 3.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.9%, transparent 3.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.9%, transparent 3.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.9%, transparent 3.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.9%, transparent 3.9%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 3.9%, transparent 3.9%);}#T_182f9_r7_c1 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.6%, transparent 0.6%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.6%, transparent 0.6%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.6%, transparent 0.6%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.6%, transparent 0.6%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.6%, transparent 0.6%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.6%, transparent 0.6%);}#T_182f9_r7_c2, #T_182f9_r8_c2, #T_182f9_r9_c2 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.0%, transparent 0.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.0%, transparent 0.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.0%, transparent 0.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.0%, transparent 0.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.0%, transparent 0.0%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.0%, transparent 0.0%);}#T_182f9_r7_c5 {  background-color: #7b9ff9;  color: #f1f1f1;  background-color: #feeba2;  color: #000000;  background-color: #fee187;  color: #000000;  background-color: #fee187;  color: #000000;  background-color: #fee187;  color: #000000;  background-color: #fee187;  color: #000000;}#T_182f9_r8_c1 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.3%, transparent 0.3%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.3%, transparent 0.3%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.3%, transparent 0.3%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.3%, transparent 0.3%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.3%, transparent 0.3%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.3%, transparent 0.3%);}#T_182f9_r8_c3 {  background-color: #f5c1a9;  color: #000000;  background-color: #e96d13;  color: #f1f1f1;  background-color: #fa4a29;  color: #f1f1f1;  background-color: #fa4a29;  color: #f1f1f1;  background-color: #fa4a29;  color: #f1f1f1;  background-color: #fa4a29;  color: #f1f1f1;}#T_182f9_r8_c5 {  background-color: #d0473d;  color: #f1f1f1;  background-color: #862e05;  color: #f1f1f1;  background-color: #a60026;  color: #f1f1f1;  background-color: #a60026;  color: #f1f1f1;  background-color: #a60026;  color: #f1f1f1;  background-color: #a60026;  color: #f1f1f1;}#T_182f9_r9_c1 {  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.2%, transparent 0.2%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.2%, transparent 0.2%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.2%, transparent 0.2%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.2%, transparent 0.2%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.2%, transparent 0.2%);  width: 10em;  height: 80%;  background: linear-gradient(90deg,orange 0.2%, transparent 0.2%);}#T_182f9_r9_c3 {  background-color: #80a3fa;  color: #f1f1f1;  background-color: #fee99e;  color: #000000;  background-color: #fedf83;  color: #000000;  background-color: #fedf83;  color: #000000;  background-color: #fedf83;  color: #000000;  background-color: #fedf83;  color: #000000;}#T_182f9_r9_c4 {  background-color: #445acc;  color: #f1f1f1;  background-color: #fffddb;  color: #000000;  background-color: #fffac1;  color: #000000;  background-color: #fffac1;  color: #000000;  background-color: #fffac1;  color: #000000;  background-color: #fffac1;  color: #000000;}</style><table id="T_182f9_">  <thead>    <tr>      <th class="blank level0" >&nbsp;</th>      <th class="col_heading level0 c0" >EFFECT</th>      <th class="col_heading level0 c1" >Sites</th>      <th class="col_heading level0 c2" >Mutations</th>      <th class="col_heading level0 c3" >AF_mean</th>      <th class="col_heading level0 c4" >AF_median</th>      <th class="col_heading level0 c5" >AF_std</th>    </tr>  </thead>  <tbody>    <tr>      <th id="T_182f9_level0_r0" class="row_heading level0 r0" >0</th>      <td id="T_182f9_r0_c0" class="data r0 c0" >NON_SYNONYMOUS_CODING</td>      <td id="T_182f9_r0_c1" class="data r0 c1" >40,204</td>      <td id="T_182f9_r0_c2" class="data r0 c2" >6,197,830</td>      <td id="T_182f9_r0_c3" class="data r0 c3" >0.87</td>      <td id="T_182f9_r0_c4" class="data r0 c4" >0.92</td>      <td id="T_182f9_r0_c5" class="data r0 c5" >0.16</td>    </tr>    <tr>      <th id="T_182f9_level0_r1" class="row_heading level0 r1" >1</th>      <td id="T_182f9_r1_c0" class="data r1 c0" >SYNONYMOUS_CODING</td>      <td id="T_182f9_r1_c1" class="data r1 c1" >14,838</td>      <td id="T_182f9_r1_c2" class="data r1 c2" >1,843,572</td>      <td id="T_182f9_r1_c3" class="data r1 c3" >0.83</td>      <td id="T_182f9_r1_c4" class="data r1 c4" >0.90</td>      <td id="T_182f9_r1_c5" class="data r1 c5" >0.21</td>    </tr>    <tr>      <th id="T_182f9_level0_r2" class="row_heading level0 r2" >2</th>      <td id="T_182f9_r2_c0" class="data r2 c0" >FRAME_SHIFT</td>      <td id="T_182f9_r2_c1" class="data r2 c1" >14,092</td>      <td id="T_182f9_r2_c2" class="data r2 c2" >118,087</td>      <td id="T_182f9_r2_c3" class="data r2 c3" >0.19</td>      <td id="T_182f9_r2_c4" class="data r2 c4" >0.09</td>      <td id="T_182f9_r2_c5" class="data r2 c5" >0.26</td>    </tr>    <tr>      <th id="T_182f9_level0_r3" class="row_heading level0 r3" >3</th>      <td id="T_182f9_r3_c0" class="data r3 c0" >STOP_GAINED</td>      <td id="T_182f9_r3_c1" class="data r3 c1" >1,955</td>      <td id="T_182f9_r3_c2" class="data r3 c2" >152,332</td>      <td id="T_182f9_r3_c3" class="data r3 c3" >0.82</td>      <td id="T_182f9_r3_c4" class="data r3 c4" >0.90</td>      <td id="T_182f9_r3_c5" class="data r3 c5" >0.25</td>    </tr>    <tr>      <th id="T_182f9_level0_r4" class="row_heading level0 r4" >4</th>      <td id="T_182f9_r4_c0" class="data r4 c0" >CODON_CHANGE_PLUS_CODON_DELETION</td>      <td id="T_182f9_r4_c1" class="data r4 c1" >1,530</td>      <td id="T_182f9_r4_c2" class="data r4 c2" >350,346</td>      <td id="T_182f9_r4_c3" class="data r4 c3" >0.98</td>      <td id="T_182f9_r4_c4" class="data r4 c4" >1.00</td>      <td id="T_182f9_r4_c5" class="data r4 c5" >0.12</td>    </tr>    <tr>      <th id="T_182f9_level0_r5" class="row_heading level0 r5" >5</th>      <td id="T_182f9_r5_c0" class="data r5 c0" >.</td>      <td id="T_182f9_r5_c1" class="data r5 c1" >1,447</td>      <td id="T_182f9_r5_c2" class="data r5 c2" >745,659</td>      <td id="T_182f9_r5_c3" class="data r5 c3" >0.87</td>      <td id="T_182f9_r5_c4" class="data r5 c4" >0.89</td>      <td id="T_182f9_r5_c5" class="data r5 c5" >0.13</td>    </tr>    <tr>      <th id="T_182f9_level0_r6" class="row_heading level0 r6" >6</th>      <td id="T_182f9_r6_c0" class="data r6 c0" >CODON_DELETION</td>      <td id="T_182f9_r6_c1" class="data r6 c1" >907</td>      <td id="T_182f9_r6_c2" class="data r6 c2" >240,515</td>      <td id="T_182f9_r6_c3" class="data r6 c3" >0.98</td>      <td id="T_182f9_r6_c4" class="data r6 c4" >1.00</td>      <td id="T_182f9_r6_c5" class="data r6 c5" >0.12</td>    </tr>    <tr>      <th id="T_182f9_level0_r7" class="row_heading level0 r7" >7</th>      <td id="T_182f9_r7_c0" class="data r7 c0" >FRAME_SHIFT+STOP_GAINED</td>      <td id="T_182f9_r7_c1" class="data r7 c1" >241</td>      <td id="T_182f9_r7_c2" class="data r7 c2" >2,858</td>      <td id="T_182f9_r7_c3" class="data r7 c3" >0.13</td>      <td id="T_182f9_r7_c4" class="data r7 c4" >0.07</td>      <td id="T_182f9_r7_c5" class="data r7 c5" >0.17</td>    </tr>    <tr>      <th id="T_182f9_level0_r8" class="row_heading level0 r8" >8</th>      <td id="T_182f9_r8_c0" class="data r8 c0" >CODON_CHANGE_PLUS_CODON_INSERTION</td>      <td id="T_182f9_r8_c1" class="data r8 c1" >102</td>      <td id="T_182f9_r8_c2" class="data r8 c2" >777</td>      <td id="T_182f9_r8_c3" class="data r8 c3" >0.67</td>      <td id="T_182f9_r8_c4" class="data r8 c4" >0.90</td>      <td id="T_182f9_r8_c5" class="data r8 c5" >0.35</td>    </tr>    <tr>      <th id="T_182f9_level0_r9" class="row_heading level0 r9" >9</th>      <td id="T_182f9_r9_c0" class="data r9 c0" >STOP_GAINED+CODON_CHANGE_PLUS_CODON_DELETION</td>      <td id="T_182f9_r9_c1" class="data r9 c1" >75</td>      <td id="T_182f9_r9_c2" class="data r9 c2" >228</td>      <td id="T_182f9_r9_c3" class="data r9 c3" >0.31</td>      <td id="T_182f9_r9_c4" class="data r9 c4" >0.10</td>      <td id="T_182f9_r9_c5" class="data r9 c5" >0.37</td>    </tr>  </tbody></table>
 
 </div>
 
-</div>
+### Thresholding by sample-frequency
 
 It is expected that some fraction of these mutations is spurious. One way to remove spurious sites is to see how many times a given mutation appears in the data. Specifically, for each unique mutation compute the number of samples (individual accession numbers) this mutation appears in. Then graph these data by plotting the number of mutations appearing in 1, 2, 3, and so on samples as shown below:
 
@@ -135,22 +26,20 @@ It is expected that some fraction of these mutations is spurious. One way to rem
   <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/per_sample.json"/>
 </div>
 
-Using the above image we arbitrarily selected 20 as the lower threshold (this is the point in the graph where red circles begin to disperse). We then applied the following filtering strategy to all sites:
+Using the above image we arbitrarily selected <kbd>20</kbd> as the lower threshold (this is the point in the graph where red circles begin to disperse). 
 
- 1. If a site appears with another site(s) in two or more samples it will be kept;
- 2. All sites (excluding those satisfying #1 above) are removed if they appear in less than 20 samples.
+### Thresholding by co-occurrence
 
------
-
-## Covariable sites
-
-Before applying filtering to our data we identified all co-occuring sites. A co-occuring site is a variant that is linked to other variant(s) in the same set of samples. The following co-occuring sites were identified (note that some of them overlap with Variant of Concern [VOC] defining sites):
+Another approach to identifying real variants is to look for sites that co-occur with other sites in the same set of samples.
+Since having two or more sites co-occurring in two or more samples is highly unlikely by chance, we can use this approach to keep variants
+that would otherwise be removed by sample-frequency filtering described in the previous section. The figure below shows all sets of two or more 
+variants co-occuring in two of more samples
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
   <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/co_occ.json"/>
 </div>
 
------
+----
 
 ## The filtered set
 

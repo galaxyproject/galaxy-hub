@@ -5,7 +5,7 @@ components: true
 autotoc: false
 ---
 
-All data produced by our effort can be found at a public FTP server at ftp://xfer13.crg.eu/. This site was generously provided by [the Viral Beacon project](https://covid19beacon.crg.eu/).
+All data produced by our effort can be found at a public FTP server at <kbd>ftp://xfer13.crg.eu/</kbd>. This site was generously provided by [the Viral Beacon project](https://covid19beacon.crg.eu/).
 
 The root directory of the FTP site contains aggregate files (`all_variants.tsv.gz`, `all_consensus.fasta.gz`, `all_pangolin.tsv.gz`, `gx-observable_data_*` and `gx-suveillance.json`) as well as directories corresponding to all data processed so far (directories beginning with `SRR`, `ERR`, or `Estonia`). Aggregate files contain variant information from all processed samples. 
 
