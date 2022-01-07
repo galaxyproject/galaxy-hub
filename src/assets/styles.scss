@@ -485,3 +485,14 @@ h6:hover .heading-anchor span:before {
 .bg-wg-all {
     background-color: #d87e55 !important;
 }
+
+/* *******
+   Gridsome era additions.
+ * *******/
+
+pre {
+    background-color: $brand-dark;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}

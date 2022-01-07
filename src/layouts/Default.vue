@@ -71,13 +71,6 @@ query {
     }
 }
 
-pre {
-    background-color: $brand-dark;
-    color: white;
-    padding: 1rem;
-    border-radius: 0.5rem;
-}
-
 /***** Generally useful styles *****/
 .text-nowrap {
     white-space: nowrap !important;
