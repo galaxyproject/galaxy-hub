@@ -2,7 +2,7 @@
 
 # GCC2022 Abstracts
 
-A core component of Galaxy Community Conferences are the presentations from the community.  These include long talks, lightning talks, poster presentations, and demo presentations.  All of these are submitted by the community and go through a peer review process before being accepted for the program.
+Presentations from the community are a core component of Galaxy Community Conferences.  These include long talks, lightning talks, poster presentations, and demo presentations.  All of these are submitted by the community and go through a peer review process before being accepted for the program.
 
 # Key Dates
 
