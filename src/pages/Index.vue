@@ -12,6 +12,29 @@
             </section>
         </div>
 
+        <b-row class="justify-content-md-center">
+          <b-button href="/use" variant="outline-primary" class="m-1 border" style="max-width: 19%;">
+            <b-img src="/images/icons/galaxy-for-scientists.svg" fluid alt="Galaxy for scientists"></b-img>
+            <h3>Galaxy for <b>SCIENTISTS</b></h3>                        
+          </b-button>
+          <b-button href="/learn" variant="outline-primary" class="m-1 border" style="max-width: 19%;">
+             <b-img src="/images/icons/galaxy-for-trainers.svg" fluid alt="Galaxy for trainers"></b-img>
+             <h3>Galaxy for <b>TRAINERS</b></h3>                        
+          </b-button>
+          <b-button href="/develop" variant="outline-primary" class="m-1 border" style="max-width: 19%;">
+            <b-img src="/images/icons/galaxy-for-tool-developers.svg" fluid alt="Galaxy for tool developers"></b-img>
+            <h3>Galaxy for <b>TOOL DEVELOPERS</b></h3>  
+          </b-button>
+          <b-button href="/develop" variant="outline-primary" class="m-1 border" style="max-width: 19%;">
+            <b-img src="/images/icons/galaxy-for-developers.svg" fluid alt="Galaxy for developers"></b-img>
+            <h3>Galaxy for <b> DEVELOPERS</b></h3>                        
+          </b-button>
+          <b-button href="/admin" variant="outline-primary" class="m-1 border" style="max-width: 19%;">
+            <b-img src="/images/icons/galaxy-for-admins.svg" fluid alt="Galaxy for admins"></b-img>
+            <h3>Galaxy for <b>ADMINS</b></h3>                        
+          </b-button>
+        </b-row>
+
         <div class="row">
             <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
             <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :items="latest.events" />
@@ -58,6 +81,7 @@
 </template>
 
 <script>
+
 import HomeCard from "@/components/HomeCard";
 import { rmPrefix, rmSuffix } from "~/utils.js";
 export default {
