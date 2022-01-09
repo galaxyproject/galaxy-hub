@@ -6,9 +6,9 @@
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav id="navbar-menu">
-                <b-nav-item to="/learn/">Learn</b-nav-item>
                 <b-nav-item to="/news/">News</b-nav-item>
                 <b-nav-item to="/events/">Events</b-nav-item>
+                <b-nav-item to="/learn/">Training</b-nav-item>
                 <b-nav-item-dropdown text="Support">
                     <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
                     <b-dropdown-item href="https://help.galaxyproject.org/">Galaxy Help Forum</b-dropdown-item>
