@@ -8,18 +8,14 @@
             <b-navbar-nav id="navbar-menu">
                 <b-nav-item to="/news/">News</b-nav-item>
                 <b-nav-item to="/events/">Events</b-nav-item>
+                <b-nav-item to="/blog/">Blog</b-nav-item>
                 <b-nav-item to="/learn/">Training</b-nav-item>
                 <b-nav-item-dropdown text="Support">
                     <b-dropdown-item to="/support/">FAQ</b-dropdown-item>
                     <b-dropdown-item href="https://help.galaxyproject.org/">Galaxy Help Forum</b-dropdown-item>
-                    <b-dropdown-item to="/admin/get-galaxy/">Install Galaxy</b-dropdown-item>
-                    <b-dropdown-item to="/admin/">Server administration</b-dropdown-item>
-                    <b-dropdown-item to="/tools/">Tools</b-dropdown-item>
-                    <b-dropdown-item to="/docs/">Code documentation</b-dropdown-item>
                 </b-nav-item-dropdown>
                 <b-nav-item-dropdown text="Community">
                     <b-dropdown-item to="/community/">The Galaxy Community</b-dropdown-item>
-                    <b-dropdown-item to="/blog/">Blog</b-dropdown-item>
                     <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
                     <b-dropdown-item to="/community/coc/">Code of Conduct</b-dropdown-item>
                 </b-nav-item-dropdown>
