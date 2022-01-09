@@ -15,25 +15,25 @@
         <b-row class="justify-content-md-center">
             <HomeProfile
                 title="SCIENTISTS"
-                link="/scientist"
+                link="/scientist/"
                 img="/images/undraw-illustrations/galaxy-for-scientists.svg"
                 alt="Galaxy for scientists"
             />
             <HomeProfile
                 title="TRAINERS"
-                link="/learn"
+                link="/learn/"
                 img="/images/undraw-illustrations/galaxy-for-trainers.svg"
                 alt="Galaxy for trainers"
             />
             <HomeProfile
                 title="TOOL DEVELOPERS"
-                link="/develop"
+                link="/tools/"
                 img="/images/undraw-illustrations/galaxy-for-tool-developers.svg"
                 alt="Galaxy for tool developers"
             />
             <HomeProfile
                 title="DEVELOPERS"
-                link="/develop"
+                link="/develop/"
                 img="/images/undraw-illustrations/galaxy-for-developers.svg"
                 alt="Galaxy for developers"
             />
