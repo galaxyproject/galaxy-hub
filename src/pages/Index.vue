@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <header class="header">
-            <h2 class="display-4">{{ $page.main.title }}</h2>
+            <h1 class="display-4">{{ $page.main.title }}</h1>
             <h3 v-if="$page.main.subtitle">{{ $page.main.subtitle }}</h3>
         </header>
         <div class="row">
@@ -14,30 +14,28 @@
 
         <b-row class="justify-content-md-center">
             <b-button href="/use" variant="outline-primary" class="m-1 border" style="max-width: 19%">
+                <h2>Galaxy for <b>SCIENTISTS</b></h2>
                 <b-img src="/images/icons/galaxy-for-scientists.svg" fluid alt="Galaxy for scientists"></b-img>
-                <h3>Galaxy for <b>SCIENTISTS</b></h3>
             </b-button>
             <b-button href="/learn" variant="outline-primary" class="m-1 border" style="max-width: 19%">
+                <h2>Galaxy for <b>TRAINERS</b></h2>
                 <b-img src="/images/icons/galaxy-for-trainers.svg" fluid alt="Galaxy for trainers"></b-img>
-                <h3>Galaxy for <b>TRAINERS</b></h3>
             </b-button>
             <b-button href="/develop" variant="outline-primary" class="m-1 border" style="max-width: 19%">
-                <b-img
-                    src="/images/icons/galaxy-for-tool-developers.svg"
-                    fluid
-                    alt="Galaxy for tool developers"
-                ></b-img>
-                <h3>Galaxy for <b>TOOL DEVELOPERS</b></h3>
+                <h2>Galaxy for <b>TOOL DEVELOPERS</b></h2>
+                <b-img src="/images/icons/galaxy-for-tool-developers.svg" fluid alt="Galaxy for tool developers"></b-img>
             </b-button>
             <b-button href="/develop" variant="outline-primary" class="m-1 border" style="max-width: 19%">
+                <h2>Galaxy for <b> DEVELOPERS</b></h2>
                 <b-img src="/images/icons/galaxy-for-developers.svg" fluid alt="Galaxy for developers"></b-img>
-                <h3>Galaxy for <b> DEVELOPERS</b></h3>
             </b-button>
             <b-button href="/admin" variant="outline-primary" class="m-1 border" style="max-width: 19%">
+                <h2>Galaxy for <b>ADMINS</b></h2>
                 <b-img src="/images/icons/galaxy-for-admins.svg" fluid alt="Galaxy for admins"></b-img>
-                <h3>Galaxy for <b>ADMINS</b></h3>
             </b-button>
         </b-row>
+
+        <br><br>
 
         <div class="row">
             <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
@@ -255,7 +253,7 @@ query {
 }
 .jumbotron {
     padding-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
 }
 .jumbo-title {
     font-weight: bold;

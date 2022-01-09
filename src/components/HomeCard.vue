@@ -1,7 +1,7 @@
 <template>
     <div :class="['pseudo-card', `col-sm-${width}`]">
         <h2>
-            <g-link :to="link"><span :class="`icon ${icon}`"></span>{{ title }}</g-link>
+            <g-link :to="link"><span :class="`icon ${icon}`"></span><b>{{ title }}</b></g-link>
         </h2>
         <ItemListBrief v-for="(item, i) in items" :key="item.id || i" :item="item" />
         <div class="markdown content" v-if="content" v-html="content" />
@@ -31,8 +31,8 @@ export default {
 
 .pseudo-card {
     background-color: $gray-200;
-    border: 3px solid white;
-    border-radius: 10px;
+    border: 4px solid white;
+    border-radius: 8px;
 }
 h2 .icon {
     margin-right: 0.7em;
@@ -41,6 +41,6 @@ h2 .icon {
     font-size: 80%;
 }
 .content.markdown::v-deep a {
-    font-size: 125%;
+    font-size: 120%;
 }
 </style>
