@@ -13,29 +13,39 @@
         </div>
 
         <b-row class="justify-content-md-center">
-            <b-button href="/use" variant="outline-primary" class="m-1 border" style="max-width: 19%">
-                <h2>Galaxy for <b>SCIENTISTS</b></h2>
-                <b-img src="/images/icons/galaxy-for-scientists.svg" fluid alt="Galaxy for scientists"></b-img>
-            </b-button>
-            <b-button href="/learn" variant="outline-primary" class="m-1 border" style="max-width: 19%">
-                <h2>Galaxy for <b>TRAINERS</b></h2>
-                <b-img src="/images/icons/galaxy-for-trainers.svg" fluid alt="Galaxy for trainers"></b-img>
-            </b-button>
-            <b-button href="/develop" variant="outline-primary" class="m-1 border" style="max-width: 19%">
-                <h2>Galaxy for <b>TOOL DEVELOPERS</b></h2>
-                <b-img src="/images/icons/galaxy-for-tool-developers.svg" fluid alt="Galaxy for tool developers"></b-img>
-            </b-button>
-            <b-button href="/develop" variant="outline-primary" class="m-1 border" style="max-width: 19%">
-                <h2>Galaxy for <b> DEVELOPERS</b></h2>
-                <b-img src="/images/icons/galaxy-for-developers.svg" fluid alt="Galaxy for developers"></b-img>
-            </b-button>
-            <b-button href="/admin" variant="outline-primary" class="m-1 border" style="max-width: 19%">
-                <h2>Galaxy for <b>ADMINS</b></h2>
-                <b-img src="/images/icons/galaxy-for-admins.svg" fluid alt="Galaxy for admins"></b-img>
-            </b-button>
+            <HomeProfile
+                title="SCIENTISTS"
+                link="/use"
+                img="/images/undraw-illustrations/galaxy-for-scientists.svg"
+                alt="Galaxy for scientists"
+            />
+            <HomeProfile
+                title="TRAINERS"
+                link="/learn"
+                img="/images/undraw-illustrations/galaxy-for-trainers.svg"
+                alt="Galaxy for trainers"
+            />
+            <HomeProfile
+                title="TOOL DEVELOPERS"
+                link="/develop"
+                img="/images/undraw-illustrations/galaxy-for-tool-developers.svg"
+                alt="Galaxy for tool developers"
+            />
+            <HomeProfile
+                title="DEVELOPERS"
+                link="/develop"
+                img="/images/undraw-illustrations/galaxy-for-developers.svg"
+                alt="Galaxy for developers"
+            />
+            <HomeProfile
+                title="ADMINS"
+                link="/admin"
+                img="/images/undraw-illustrations/galaxy-for-admins.svg"
+                alt="Galaxy for admins"
+            />
         </b-row>
 
-        <br><br>
+        <br /><br />
 
         <div class="row">
             <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
@@ -85,9 +95,11 @@
 <script>
 import HomeCard from "@/components/HomeCard";
 import { rmPrefix, rmSuffix } from "~/utils.js";
+import HomeProfile from "../components/HomeProfile.vue";
 export default {
     components: {
         HomeCard,
+        HomeProfile,
     },
     metaInfo: {
         title: "Home",
@@ -262,5 +274,8 @@ query {
     background-color: lightyellow;
     padding-top: 100px;
     border: 4px solid black;
+}
+.profile-button-image {
+    max-height: 5rem;
 }
 </style>
