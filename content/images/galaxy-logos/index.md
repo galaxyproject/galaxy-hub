@@ -1,6 +1,10 @@
 ---
 title: Galaxy Project Logos
 ---
+
+<img src="/images/undraw-illustrations/branding.svg" alt="branding" style="width:230px; float:right;"/>
+
+
 These are current official Galaxy Project logos, using the current version of the Galaxy Logo created by [Petr Kadlec](http://puradesign.cz/en).
 
 Galaxy Project Logos have been provided to the Galaxy community for community building activities. You may use this logo for referential purposes only to accurately identify the Galaxy project and code base (Permitted Use) without conveying any express or implied endorsement of your company's products and services by or in connection with the Galaxy Project and without using the Galaxy Logo or Word Mark as trademarks or service marks of the Company.
