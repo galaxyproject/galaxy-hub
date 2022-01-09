@@ -15,7 +15,7 @@
         <b-row class="justify-content-md-center">
             <HomeProfile
                 title="SCIENTISTS"
-                link="/use"
+                link="/scientist"
                 img="/images/undraw-illustrations/galaxy-for-scientists.svg"
                 alt="Galaxy for scientists"
             />
