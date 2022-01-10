@@ -19,13 +19,12 @@ describe("Sitewide tests", () => {
     it("Tests the NavBar", () => {
         // Check that the dropdown menus work.
         // findByRole doesn't seem to work on invisible elements.
-        cy.get("#navbar-menu [href='/blog/']").should("not.be.visible");
+        cy.get("#navbar-menu [href='/community/governance/']").should("not.be.visible");
         cy.findByRole("button", { name: /Community/i }).click();
-        cy.get("#navbar-menu").findByRole("menuitem", { name: /Blog/i }).should("be.visible");
+        cy.get("#navbar-menu [href='/community/governance/']").should("be.visible");
         // Check that navigating works.
-        cy.findByRole("button", { name: /Support/i }).click();
-        cy.findByRole("menuitem", { name: /Install Galaxy/i }).click();
-        cy.location("pathname").should("equal", "/admin/get-galaxy/");
+        cy.get("#navbar-menu").findByText(/Training/i).click();
+        cy.location("pathname").should("equal", "/learn/");
     });
 });
 
