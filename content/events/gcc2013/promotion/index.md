@@ -4,8 +4,8 @@ title: Promotion and Outreach
 
 <slot name="/events/gcc2013/header" />
 
-import links from "../links.json"
-<link-box :links="links" />
+import linkbox from "../linkbox.json"
+<link-box :data="linkbox" />
 
 Please help get the word out about the 2013 Galaxy Community Conference (GCC2013). A [flier](/events/gcc2013/promotion/#flier) suitable for printing is below, as well as several different sizes of the conference banner that can be used on the web.
 

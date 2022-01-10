@@ -4,8 +4,8 @@ title: Galaxy Professionals
 
 <slot name="/events/gcc2013/header" />
 
-import links from "../../links.json"
-<link-box :links="links" />
+import linkbox from "../../linkbox.json"
+<link-box :data="linkbox" />
 <slot name="/events/gcc2013/bof/linkbox" />
 
 <div class='left'><a href='/events/gcc2013/bof/'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
