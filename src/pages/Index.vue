@@ -12,7 +12,7 @@
             </section>
         </div>
 
-        <b-row class="justify-content-md-center">
+        <b-row id="profiles" class="justify-content-md-center">
             <HomeProfile
                 title="SCIENTISTS"
                 link="/scientist/"
@@ -44,8 +44,6 @@
                 alt="Galaxy for admins"
             />
         </b-row>
-
-        <br /><br />
 
         <div class="row">
             <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
@@ -275,7 +273,7 @@ query {
     padding-top: 100px;
     border: 4px solid black;
 }
-.profile-button-image {
-    max-height: 5rem;
+#profiles {
+    margin-bottom: 45px;
 }
 </style>
