@@ -23,7 +23,9 @@ describe("Sitewide tests", () => {
         cy.findByRole("button", { name: /Community/i }).click();
         cy.get("#navbar-menu [href='/community/governance/']").should("be.visible");
         // Check that navigating works.
-        cy.get("#navbar-menu").findByText(/Training/i).click();
+        cy.get("#navbar-menu")
+            .findByText(/Training/i)
+            .click();
         cy.location("pathname").should("equal", "/learn/");
     });
 });
