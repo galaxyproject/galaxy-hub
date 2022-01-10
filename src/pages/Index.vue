@@ -161,99 +161,99 @@ function articleToItem(article) {
 
 <page-query>
 query {
-  jumbotron: insert(path: "/insert:/jumbotron/") {
-    id
-    title
-    content
-  }
-  main: insert(path: "/insert:/main/") {
-    id
-    title
-    subtitle
-    content
-    fileInfo {
-      path
-    }
-  }
-  allInsert(filter: {path: {regex: "^/insert:/homepage-[^/]+/$"}}) {
-    totalCount
-    edges {
-      node {
+    jumbotron: insert(path: "/insert:/jumbotron/") {
         id
-        path
         title
-        link
-        icon
-        items {
-            title
-            link
-            tease
-        }
         content
-      }
     }
-  }
-  footer: insert(path: "/insert:/footer/") {
-    id
-    title
-    content
-  }
-  news: allArticle(limit: 5, filter: {category: {eq: "news" }, draft: {ne: true}}) {
-    totalCount
-    edges {
-      node {
+    main: insert(path: "/insert:/main/") {
         id
         title
-        tease
-        external_url
-        path
-      }
+        subtitle
+        content
+        fileInfo {
+            path
+        }
     }
-  }
-  events: allArticle(
-      limit: 5, sortBy: "date", order: ASC,
-      filter: {category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}, draft: {ne: true}}
+    allInsert(filter: {path: {regex: "^/insert:/homepage-[^/]+/$"}}) {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                title
+                link
+                icon
+                items {
+                    title
+                    link
+                    tease
+                }
+                content
+            }
+        }
+    }
+    footer: insert(path: "/insert:/footer/") {
+        id
+        title
+        content
+    }
+    news: allArticle(limit: 5, filter: {category: {eq: "news" }, draft: {ne: true}}) {
+        totalCount
+        edges {
+            node {
+                id
+                title
+                tease
+                external_url
+                path
+            }
+        }
+    }
+    events: allArticle(
+        limit: 5, sortBy: "date", order: ASC,
+        filter: {category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}, draft: {ne: true}}
     ) {
-    totalCount
-    edges {
-      node {
-        id
-        title
-        tease
-        date (format: "MMM D")
-        external_url
-        path
-      }
+        totalCount
+        edges {
+            node {
+                id
+                title
+                tease
+                date (format: "MMM D")
+                external_url
+                path
+            }
+        }
     }
-  }
-  blog: allArticle(limit: 5, filter: {category: {eq: "blog"}, draft: {ne: true}}) {
-    totalCount
-    edges {
-      node {
-        id
-        title
-        tease
-        external_url
-        path
-      }
+    blog: allArticle(limit: 5, filter: {category: {eq: "blog"}, draft: {ne: true}}) {
+        totalCount
+        edges {
+            node {
+                id
+                title
+                tease
+                external_url
+                path
+            }
+        }
     }
-  }
-  careers: allArticle(
-      limit: 5, sortBy: "date", order: DESC, filter: {
-        category: {eq: "careers"}, closed: {eq: false}, draft: {ne: true}
-      }
+    careers: allArticle(
+        limit: 5, sortBy: "date", order: DESC, filter: {
+            category: {eq: "careers"}, closed: {eq: false}, draft: {ne: true}
+        }
     ) {
-    totalCount
-    edges {
-      node {
-        id
-        title
-        location
-        external_url
-        path
-      }
+        totalCount
+        edges {
+            node {
+                id
+                title
+                location
+                external_url
+                path
+            }
+        }
     }
-  }
 }
 </page-query>
 
