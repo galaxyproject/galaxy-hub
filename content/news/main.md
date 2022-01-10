@@ -13,4 +13,4 @@ Also see the *[Galactic Blog](/blog/)* for more.
 
 ### Contribute
 
-To add a news item, create a new folder within the [_news folder_](https://github.com/galaxyproject/galaxy-hub/tree/master/src/news) with an _index.md_ file. It's probably easiest to copy the format from one of the other existing news items as a template.
+To add a news item, create a new folder within the [_news folder_](https://github.com/galaxyproject/galaxy-hub/tree/master/content/news) with an _index.md_ file. It's probably easiest to copy the format from one of the other existing news items as a template.
