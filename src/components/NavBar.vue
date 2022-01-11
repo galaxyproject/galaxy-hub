@@ -35,13 +35,10 @@
                     <b-form-input
                         id="search-input"
                         size="sm"
-                        class="mr-sm-2"
+                        class="mr-sm-1"
                         name="q"
-                        placeholder="Search Galaxy"
+                        placeholder="Search"
                     ></b-form-input>
-                    <b-button aria-label="Search" size="sm" class="my-2 my-sm-0" type="submit">
-                        <span class="fa fa-search"></span>
-                    </b-button>
                 </b-nav-form>
                 <b-nav-item :href="editUrl">
                     <i class="fab fa-lg fa-github"></i>
