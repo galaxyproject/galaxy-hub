@@ -1,5 +1,6 @@
 ---
 title: Finding variants in haploid genomes
+redirect: "/learn"
 ---
 # Introduction
 

@@ -1,6 +1,7 @@
 ---
 autotoc: true
 title: Uploading data into Galaxy
+redirect: "/learn"
 ---
 
 Uploading data into Galaxy can be done in number of ways summarized in the following chart:

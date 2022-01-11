@@ -1,9 +1,12 @@
 ---
 title: Galaxy Updates
 ---
+
+<img src="/images/undraw-illustrations/newsletter.svg" alt="newsletter" style="width:230px; float:right;"/>
+
 *Galaxy Updates* feature news of interest to the Galaxy community.  They come out approximately monthly, and complement the *[Galaxy Development News Briefs](/docs/)*, which accompany Galaxy releases and are aimed at those developing and deploying Galaxy.  *Galaxy Updates* are more general, and are geared towards all of the Galaxy community.
 
-## See also
+### See also
 
 * The [News](/news/)
 * [Galaxy Development News Briefs](/docs/)
@@ -11,8 +14,22 @@ title: Galaxy Updates
 * [Galaxy on Twitter](/galaxy-on-twitter/)
 * [Mailing Lists](/mailing-lists/)
 
+## 2021 Updates
+
+* [2021-11](/news/2021-11-galaxy-update/)
+* [2021-10](/news/2021-10-galaxy-update/)
+* [2021-09](/news/2021-09-galaxy-update/)
+* [2021-08](/news/2021-07-galaxy-update/)
+* [2021-07](/news/2021-08-galaxy-update/)
+* [2021-06](/news/2021-06-galaxy-update/)
+* [2021-05](/news/2021-05-galaxy-update/)
+* [2021-04](/news/2021-04-galaxy-update/)
+* [2021-03](/news/2021-03-galaxy-update/)
+* [2021-02](/news/2021-02-galaxy-update/)
+* [2021-01](/news/2021-01-galaxy-update/)
 ## 2020 Updates
 
+* [2020-12](/news/2020-12-galaxy-update/)
 * [2020-11](/news/2020-11-galaxy-update/)
 * [2020-10](/news/2020-10-galaxy-update/)
 * [2020-09](/news/2020-09-galaxy-update/)
