@@ -19,7 +19,6 @@
                     <b-dropdown-item to="/community/governance/">Governance</b-dropdown-item>
                     <b-dropdown-item to="/community/coc/">Code of Conduct</b-dropdown-item>
                 </b-nav-item-dropdown>
-                <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
                 <b-nav-item-dropdown text="About">
                     <b-dropdown-item to="/use/">Platforms</b-dropdown-item>
                     <b-dropdown-item to="/careers/">Careers</b-dropdown-item>
@@ -29,6 +28,7 @@
                     <b-dropdown-item to="/citing-galaxy/">Citing Galaxy</b-dropdown-item>
                     <b-dropdown-item to="/images/galaxy-logos/">Branding</b-dropdown-item>
                 </b-nav-item-dropdown>
+                <b-nav-item to="/jxtx/">@jxtx</b-nav-item>
             </b-navbar-nav>
             <b-navbar-nav id="navbar-misc" class="ml-auto">
                 <b-nav-form action="/search/" method="get">
