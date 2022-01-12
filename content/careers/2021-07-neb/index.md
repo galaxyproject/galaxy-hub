@@ -1,7 +1,7 @@
 ---
 title: "Development Scientist - Bioinformatics"
 date: "2021-07-01"
-closes: ""
+closes: "2022-01-11"
 summary: "Work collaboratively with bench scientists. We will collaboratively construct software methods, analyze sequence results, and integrate data from instrumentation, ultimately creating high quality, rigorously tested, and provably excellent products."
 continent: NA
 location: "New England BioLabs, Ipswich, Massachusetts, United States"
