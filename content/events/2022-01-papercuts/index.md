@@ -56,7 +56,7 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
     * 10:00 Central European time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+Galaxy+Papercuts+CoFest+Call&iso=20220120T10&p1=980&am=30).
     * [Zoom Link](https://us02web.zoom.us/j/83870155833?pwd=anVWdGFLQU9WbU1XZXZHSlRxaG9vQT09)
 * **Papercuts Call 3: Americas**
-    * 12:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+Galaxy+Papercuts+CoFest+Call&iso=20220120T12&p1=3705&am=30).
+    * 11:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+Galaxy+Papercuts+CoFest+Call&iso=20220120T11&p1=3705&am=30).
     * [Zoom Link]()
 
 ### Issues to work on
