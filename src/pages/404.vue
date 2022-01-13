@@ -1,49 +1,52 @@
 <template>
     <Layout>
-        <div v-if="this.redirectUrl" class="redirect alert alert-warning trim-p">
-            <p>
-                This url is no longer valid. Perhaps you meant
-                <a :href="this.redirectUrl">{{ this.redirectUrl }}</a>
-                ?
-            </p>
-            <p>You will be redirected in {{ redirectDelay }} seconds.</p>
-        </div>
+        <Redirect
+            v-if="redirectUrl"
+            preText="This url is no longer valid. Perhaps you meant "
+            :url="redirectUrl"
+            postText="?"
+            :location="location"
+        >
+        </Redirect>
         <h1 class="page-title">{{ $page.main.title }}</h1>
         <div class="markdown" v-html="$page.main.content" />
     </Layout>
 </template>
 
 <script>
-import { repr, gridifyPath, doRedirect } from "~/utils.js";
+import Redirect from "@/components/Redirect";
+import { repr, gridifyPath } from "~/utils.js";
 export default {
     metaInfo() {
         return {
             title: this.$page.main.title,
         };
     },
+    components: {
+        Redirect,
+    },
     data() {
         return {
-            redirectDelay: 5,
+            location: window.location,
             redirectUrl: undefined,
         };
     },
     mounted() {
         // If the url is different under Gridsome's slugification rules, redirect to that.
-        this.redirectUrl = doRedirectIfNeeded(window.location.href, window.location.pathname, this.redirectDelay);
+        this.redirectUrl = doRedirectIfNeeded(window.location.href);
     },
 };
-function doRedirectIfNeeded(currentUrl, currentPath, redirectDelay) {
+function doRedirectIfNeeded(currentUrl) {
     let redirectUrl = currentUrl;
     let url = new URL(currentUrl);
     if (isFilenamePath(url.pathname)) {
+        console.log('Current url path looks like a filename.');
         return;
     }
     url.pathname = gridifyPath(url.pathname);
     if (url.href !== currentUrl) {
-        redirectUrl = url.href;
-        console.log(repr`Redirecting to slugified url ${redirectUrl} in ${redirectDelay} seconds.`);
-        setTimeout(() => doRedirect(redirectUrl, currentPath), redirectDelay * 1000);
-        return redirectUrl;
+        console.log(repr`Slugified url ${redirectUrl} is different from current one.`);
+        return url.href;
     }
 }
 /** Does the path look like it ends with a filename?

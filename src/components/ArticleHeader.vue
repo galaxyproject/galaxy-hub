@@ -3,12 +3,8 @@
         <g-link v-if="article.category" :to="`/${article.category}/`" class="link">
             &larr; Back to <span class="text-capitalize">{{ article.category }}</span>
         </g-link>
-        <p v-if="article.redirect" class="redirect alert alert-warning">
-            <strong>Note</strong>
-            This content has a new home at
-            <a :href="article.redirect">{{ article.redirect }}</a>
-            , which you will be redirected to in {{ redirectDelay }} seconds.
-        </p>
+        <Redirect v-if="article.redirect" :url="article.redirect" :location="location">
+        </Redirect>
         <div class="clearfix"></div>
         <g-image v-if="article.image" class="img-fluid main-image" :src="image" />
         <h1 class="title float-left" v-if="!article.skip_title_render">{{ article.title }}</h1>
@@ -50,16 +46,20 @@
 </template>
 
 <script>
-import { repr, doRedirect, getImage, humanDateSpan } from "~/utils.js";
+import Redirect from "@/components/Redirect";
+import { getImage, humanDateSpan } from "~/utils.js";
 import * as dayjs from "dayjs";
 
 export default {
+    components: {
+        Redirect,
+    },
     props: {
         article: { type: Object, required: true },
     },
     data() {
         return {
-            redirectDelay: 5,
+            location: window.location,
         };
     },
     computed: {
@@ -83,24 +83,7 @@ export default {
             return getImage(this.article.image, this.article.images);
         },
     },
-    mounted() {
-        if (this.article.redirect) {
-            let url = getRedirectUrl(this.article.redirect);
-            console.log(repr`Redirecting to ${url} in ${this.redirectDelay} seconds..`);
-            let currentPath = window.location.pathname;
-            setTimeout(() => doRedirect(url, currentPath), this.redirectDelay * 1000);
-        }
-    },
 };
-function getRedirectUrl(target) {
-    if (target.startsWith("/")) {
-        return `${window.location.origin}${target}`;
-    } else if (target.startsWith("http://") || target.startsWith("https://")) {
-        return target;
-    } else {
-        console.error(repr`Unrecognized redirect url ${target}`);
-    }
-}
 </script>
 
 <style scoped>
@@ -111,9 +94,6 @@ function getRedirectUrl(target) {
     width: auto;
     padding: 2px;
     border: 1px solid #666;
-}
-.redirect {
-    margin-top: 20px;
 }
 .title {
     font-size: 28px;
