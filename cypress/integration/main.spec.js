@@ -19,15 +19,14 @@ describe("Sitewide tests", () => {
     it("Tests the NavBar", () => {
         // Check that the dropdown menus work.
         // findByRole doesn't seem to work on invisible elements.
-        cy.get("#navbar-menu [href='/events/']").should("not.be.visible");
+        cy.get("#navbar-menu [href='/community/governance/']").should("not.be.visible");
         cy.findByRole("button", { name: /Community/i }).click();
-        cy.get("#navbar-menu")
-            .findByRole("menuitem", { name: /Events/i })
-            .should("be.visible");
+        cy.get("#navbar-menu [href='/community/governance/']").should("be.visible");
         // Check that navigating works.
-        cy.findByRole("button", { name: /Deploy & Develop/i }).click();
-        cy.findByRole("menuitem", { name: /Install Galaxy/i }).click();
-        cy.location("pathname").should("equal", "/admin/get-galaxy/");
+        cy.get("#navbar-menu")
+            .findByText(/Training/i)
+            .click();
+        cy.location("pathname").should("equal", "/learn/");
     });
 });
 
@@ -42,9 +41,9 @@ describe("Test Markdown rendering", () => {
 });
 
 describe("Test insert functionality", () => {
-    it("Visits 2013 GCC event page and ensures side insert with links is visible", () => {
-        cy.visit("/events/gcc2013/");
-        cy.get(".alert.alert-info  > p > a[href='/events/gcc2013/program/']").should("be.visible");
+    it("Visits 2012 GCC event page and ensures footer insert is visible", () => {
+        cy.visit("/events/gcc2012/");
+        cy.get(".markdown > p > a").findByText("Ask the organizers").should("be.visible");
     });
 });
 
@@ -73,36 +72,11 @@ describe("Use Page Tests", () => {
         // This test gives intermittent failures without a wait here
         // (Todo: investigate a more refined wait target -- these explicit sleeps are terrible)
         cy.wait(1000);
-        cy.findByRole("button", { name: /Community/i }).click();
+        cy.findByRole("button", { name: /About/i }).click();
         cy.findByRole("menuitem", { name: /Stats/i }).click();
         cy.get(".title")
             .findByText(/Galaxy Project Stats/i)
             .should("be.visible");
-    });
-});
-
-describe("Bootstrap component tests", () => {
-    it("Tests the video popup on /tutorials/chip/", () => {
-        cy.visit("/tutorials/chip/");
-        // This test gives intermittent failures without a wait here.
-        // Probably needs time to load Bootstrap's JS from the CDN (unpkg.com).
-        cy.wait(1000);
-        cy.get("h4.modal-title").should("not.be.visible");
-        cy.get('[data-target="#lib_video"]').first().click();
-        cy.get("h4.modal-title").should("be.visible");
-    });
-    it("Tests collapsing elements on /tutorials/nt-rnaseq/", () => {
-        cy.visit("/tutorials/nt-rnaseq/");
-        // This test gives intermittent failures without a wait here (just like above).
-        cy.wait(1000);
-        // First collapsible element
-        cy.get("#qc").should("not.be.visible");
-        cy.get('[href="#qc"]').click();
-        cy.get("#qc").should("be.visible");
-        // Second collapsible element
-        cy.get("#collapseOne").should("not.be.visible");
-        cy.get('[href="#collapseOne"]').click();
-        cy.get("#collapseOne").should("be.visible");
     });
 });
 

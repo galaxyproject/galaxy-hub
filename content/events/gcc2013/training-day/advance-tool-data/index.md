@@ -4,8 +4,8 @@ title: GCC2013 Training Day
 
 <slot name="/events/gcc2013/header" />
 
-import links from "../../links.json"
-<link-box :links="links" />
+import linkbox from "../../linkbox.json"
+<link-box :data="linkbox" />
 
 <div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 

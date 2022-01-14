@@ -4,8 +4,8 @@ title: Photos
 
 <slot name="/events/gcc2013/header" />
 
-import links from "../links.json"
-<link-box :links="links" />
+import linkbox from "../linkbox.json"
+<link-box :data="linkbox" />
 
 If you have some you would like to have posted here, plase send them to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).  To see a larger version of any picture, right click it.
 

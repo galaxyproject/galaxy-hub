@@ -1,6 +1,9 @@
 ---
 title: Galaxy Support
 ---
+
+<img src="/images/undraw-illustrations/faq.svg" alt="faq" style="width:230px; float:right;"/>
+
 ## Quick Start
 
 * [NGS 101](/tutorials/g101/)

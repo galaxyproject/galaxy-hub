@@ -2,6 +2,9 @@
 title: "Galaxy Project Code of Conduct"
 ---
 
+
+<img src="/images/undraw-illustrations/coc.svg" alt="coc" style="width:230px; float:right;"/>
+
 ## Note: Change is Coming
 
 From 2015 through 2021 the Galaxy Project Code of Conduct [resided in the main Galaxy repository on GitHub](https://github.com/galaxyproject/galaxy/blob/57d6a3857d397fedf9fbed724241584fd031033b/CODE_OF_CONDUCT.md), and updates to it were coordinated by the Committers Group for that repo.

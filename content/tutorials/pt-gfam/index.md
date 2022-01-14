@@ -1,5 +1,6 @@
 ---
 autotoc: true
+redirect: "/learn"
 ---
 
 # **PlantTribes Analysis**

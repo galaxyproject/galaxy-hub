@@ -9,13 +9,6 @@ The ToolShed allows Galaxy administrators to install thousands of freely availab
 
 The main Galaxy ToolShed also contains tools that were previously packaged with the Galaxy distribution, but have now been [migrated](/toolshed/migrating-tools-from-galaxy-distribution/) to the ToolShed. This migration simplifies maintaining reproducibility and allows tool authors and Galaxy administrators to gain an overview of the development process and install older versions of tools.
 
-# Common Terminology
-
-* [*wrapper*](/toolshed/publish-tool/) or *tool definition file* - The XML file that describes to Galaxy how the underlying software works, thus allowing Galaxy to execute the software in the right way.
-* [*repository*](/toolshed/repository/) - Tools in ToolShed are stored in versioned code archives. The ToolShed uses Mercurial as the platform of choice for this purpose.
-* [*utility*](/toolshed/galaxy-utilities-in-repositories/) - Any component that can be uploaded to the ToolShed and installed into other Galaxy instances for general or specific analyses.
-* [*workflow*](/toolshed/workflow-sharing/) - A JSON file describing steps in an analysis, which can be used to reproduce the analysis on another Galaxy instance.
-
 # Installing Tools into Galaxy
 
 The main goal of the ToolShed is to allow populating any Galaxy with utilities such as tools, datatypes, workflows, and more. For this you don't even need to know much about the ToolShed. A basic installation of a tool into Galaxy is described in the [Add Tool Tutorial](/admin/tools/add-tool-from-toolshed-tutorial/). For more in-depth explanation of how to install and manage tools please see the [ToolShed Repositories in a Galaxy Environment](/installing-repositories/) article.

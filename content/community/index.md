@@ -1,6 +1,9 @@
 ---
 title: The Galaxy Community
 ---
+
+<img class="img-fluid float-right" src="/images/undraw-illustrations/community-events.svg" style="width:200px;" alt="community events" />
+
 A vibrant community of contributors is the reason this project exists. The [Galaxy team](/galaxy-team/) alone cannot possibly [maintain enough servers](/use/), [wrap enough tools](https://toolshed.g2.bx.psu.edu/), [teach enough workshops](/events/), implement [all needed features](https://github.com/galaxyproject), or [answer every question](/support/) on its own. This is why community is vital to our core mission - enabling reproducible research in data-rich sciences and beyond. Members within the Galaxy community are located all around the world and often form subgroups that differ in size (small versus large) and degree of privacy (public versus private). This page highlights these groups.
 
 <div class="img-fluid mx-auto trim-p">

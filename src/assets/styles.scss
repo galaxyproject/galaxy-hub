@@ -307,11 +307,13 @@ div.linkbox hr {
     text-align: center;
 }
 
-div.linkbox-horizontal {
+div.linkbox-horizontal,
+.linkbox.horizontal {
+    float: initial;
     margin-bottom: 15px;
     padding: 0 5px;
     border: 1px solid #ddd;
-    color: #ddd;
+    color: #686868;
     background-color: #efeff9;
     text-align: center;
 }
@@ -482,4 +484,15 @@ h6:hover .heading-anchor span:before {
 
 .bg-wg-all {
     background-color: #d87e55 !important;
+}
+
+/* *******
+   Gridsome era additions.
+ * *******/
+
+pre {
+    background-color: $brand-dark;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
 }

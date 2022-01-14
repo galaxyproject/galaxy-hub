@@ -1,5 +1,6 @@
 ---
 title: Manupulating NGS data with Galaxy
+redirect: "/learn"
 ---
 
 In this section we will look at practical aspects of manipulation of next-generation sequencing data. We will start with Fastq format produced by most sequencing machines and will finish with SAM/BAM format representing mapped reads.

@@ -385,8 +385,7 @@ We are pleased to [announce the 21.05 Galaxy release](/news/2021-06-galaxy-relea
 
 A new development stack (featuring FastAPI, Celery and Circus) is coming, a job handler update is here, ¡Galaxy, ahora en español!,  Remote Files gets FTP Support, and SimText visualization is added.
 
-**And there is a *lot* more in the full [user](https://docs.galaxyproject.org/en/master/releases/21.05_announce_user.html) and [developer and admin](https:
-//docs.galaxyproject.org/en/master/releases/21.05_announce.html) release announcements.**
+**And there is a *lot* more in the full [user](https://docs.galaxyproject.org/en/master/releases/21.05_announce_user.html) and [developer and admin](https://docs.galaxyproject.org/en/master/releases/21.05_announce.html) release announcements.**
 
 </div>
 
