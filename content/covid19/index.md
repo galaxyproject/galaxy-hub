@@ -65,13 +65,6 @@ The current knowledge about the evolutionary dynamics of SARS-CoV-2 comes primar
 </div>
 </div>
 
-<!--
-Need to point to the old site here
-<div class="alert alert-warning" role="alert">
-The old version of our site can be found at 
-</div>
--->
-
 ------
 
 ## Why analyze intra-host variation?

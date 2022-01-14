@@ -73,5 +73,5 @@ These analysis capabilities are supported by public computational infrastructure
 
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" id="graph" align="center">
-	<vega-embed align="center" spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/run_times.json"/> 
+    <vega-embed align="center" spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/run_times.json"/>
 </div>

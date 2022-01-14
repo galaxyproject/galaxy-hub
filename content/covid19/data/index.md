@@ -39,14 +39,14 @@ This file contains all variants produced by our effort. It contains the followin
 
  For each analysis batch we compute allelic variant (AV) exclusion threshold and per-base error rate. The AV exclusion threshold is the number of samples in a given batch a variant must be observed in. This logic comes from the assumption that a fraction of allelic variants with low frequencies are random errors, modeled by a simple Poisson distribution with per-site error rate λ. We tabulate, for each position in the genome, the number of samples that contained an AV with 0.05 ≤ AF ≤ 0.5, inferred λ using a closed form ML estimator (the mean of per-base counts), and plotted the observed number of genome positions with *N* = 0,1,2… and so on AVs.  We that compute the point where the predicted Poisson distribution diverges from the observed distribution, which gives us the AV exclusion threshold. We also provide an estimate of per-base error rate. For details see [this script](https://github.com/usegalaxy-eu/ena-cog-uk-wfs/blob/aggregate-observable-data/aggregator.py). The file has the following fields:
 
- <div class="compact">
+<div class="compact">
 
- | # | Column | Example value | Meaning |
- |-----|:-----|:-----|------|
- | 0 | Batch ID | `2cc93c20b35de7f2` | Batch ID cross referenced in `gx-suveillance.json` file   |
- | 1 | N | `362` | Number of samples in the batch | 
- | 2 | Error rate |  `6.038988994556521e-07` | Per base error rate in this sample |
- | 3 | AV exclusion threshold | `3` | The number of samples in this batch a variant must be observed in to be kept |
+| # | Column | Example value | Meaning |
+|-----|:-----|:-----|------|
+| 0 | Batch ID | `2cc93c20b35de7f2` | Batch ID cross referenced in `gx-suveillance.json` file   |
+| 1 | N | `362` | Number of samples in the batch |
+| 2 | Error rate |  `6.038988994556521e-07` | Per base error rate in this sample |
+| 3 | AV exclusion threshold | `3` | The number of samples in this batch a variant must be observed in to be kept |
 
 </div>
 
