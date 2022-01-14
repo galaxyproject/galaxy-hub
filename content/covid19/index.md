@@ -1,21 +1,83 @@
 ---
-title: "Global platform for the analysis of SARS-CoV-2 data: Genomics, Cheminformatics, and Proteomics"
 description: "Using open source tools and public cyberinfrastructure for transparent, reproducible analyses of viral datasets."
-components: true
+autotoc: false
+title: "GalaxyProject SARS-CoV-2 analysis effort"
 ---
 
-The goal of this resource is to provide publicly accessible infrastructure
-and workflows for SARS-CoV-2 data analyses. We currently feature three
-different types of analyses: [Genomics](#genomics), [Cheminformatics](#cheminformatics), and [Proteomics](#proteomics).
+<div class="no-header shadow-sm bg-light rounded border-0 ">
 
-import Monitoring from "~/components/Monitoring.vue";
-import HomeFeatures from "~/components/HomeFeatures.vue";
+| Column 1 | Column 2 | Column 3 | Column 4 |
+| -------- | -------- | -------- | --------|
+| [![Baker2020](/images/covid19/baker_2020.png)](https://pubmed.ncbi.nlm.nih.gov/32790776/) | [![martin_2021.png](/images/covid19/martin_2021.png)](https://pubmed.ncbi.nlm.nih.gov/34537136/) | [![maier_2021.png](/images/covid19/maier_2021.png)](https://pubmed.ncbi.nlm.nih.gov/34588690/) | [![mei_2021.png](/images/covid19/mei_2021.png)](https://pubmed.ncbi.nlm.nih.gov/34505896/) |
 
-<Monitoring />
-<HomeFeatures />
+</div>
 
-The analyses have been performed using the [Galaxy](http://galaxyproject.org) platform and open source tools from [BioConda](https://bioconda.github.io/). Tools were run using [XSEDE](https://www.xsede.org/) resources maintained by the Texas Advanced Computing Center ([TACC](https://www.tacc.utexas.edu/)),
-Pittsburgh Supercomputing Center ([PSC](https://www.psc.edu/)), and [Indiana University](https://jetstream-cloud.org/) in the U.S., [de.NBI](https://www.denbi.de/), [VSC](https://www.vscentrum.be) cloud resources and [IFB](https://www.france-bioinformatique.fr/en/cluster) cluster resources on the European side, [STFC-IRIS](https://stfc.ukri.org/) at the Diamond Light Source, and [ARDC](https://ardc.edu.au) cloud resources in Australia.
+-----
 
-<slot name="/covid19/footer" />
+## Continuous analysis of intra-host variation in SARS-CoV-2
+
+Our effort focuses on four goals:
+
+- Continuously analysis of within-host sequence variants in high quality public read-level [<span class="badge badge-primary">datasets</span>](/covid19/samples/).
+- Maintenance of curated [<span class="badge badge-danger">workflows</span>](/covid19/workflows/) for the analysis of SARS-CoV-2 sequence data and free powerful infrastructure to execute them.
+- Development of continuously updated [<span class="badge badge-warning">analysis</span>](/covid19/analyses/) page and [<span class="badge badge-warning">dashboard</span>](https://covid19.galaxyproject.org/dashboard) summarizing latest insights from the variant.
+- Providing access to all [<span class="badge badge-success">results</span>](/covid19/data/) in raw and aggregated form for immediate use.
+
+The current knowledge about the evolutionary dynamics of SARS-CoV-2 comes primarily from genome assemblies and **not** from read-level data. While complete genomes allow complex inferences about [the evolutionary trajectory of the virus](https://pubmed.ncbi.nlm.nih.gov/34537136/) they hide any information about intrahost dynamics because they do not show variants that exist at sub-consensus allele frequencies. This situation is further aggravated by the fact that the number of publicly available read-level datasets lags dramatically behind the number of complete genomes assemblies making it impossible to confirm or further investigate data found in the GISAID database. In addition, only a fraction of available read-level datasets are useful because of the [lacking metadata](/covid19/samples/).
+
+<div class="row row-cols-1 row-cols-md-2">
+  <div class="col mb-4">
+    <div class="card h-100 shadow-sm bg-light rounded border-0">
+      <div class="card-body">
+        <h3><b>Datasets</b></h3>
+        Information about how we select, pre-process, and analyze public read-level datasets.<br><br>
+        <a href="/covid19/samples/" class="btn btn-primary">Read more ...</a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100 shadow-sm bg-light rounded border-0">
+      <div class="card-body">
+        <h3><b>Analysis</b></h3>
+        Analysis resources and continuously updated interpretation of intra-host variant data and <a href="https://covid19.galaxyproject.org/dashboard">dashboard</a>. <br><br>
+        <a href="/covid19/analyses/" class="btn btn-warning">Read more ...</a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100 shadow-sm bg-light rounded border-0">
+      <div class="card-body">
+        <h3><b>Workflows</b></h3>
+        Curated and validated Workflows for immediate use on public Galaxy instances across the globe.<br><br>
+        <a href="/covid19/workflows/" class="btn btn-danger">Read more ...</a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100 shadow-sm bg-light rounded border-0">
+      <div class="card-body">
+        <h3><b>Results</b></h3>
+        Access to all final and intermediate datasets generated by this effort.<br><br>
+        <a href="/covid19/data/" class="btn btn-success">Read more ...</a>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+------
+
+## Why analyze intra-host variation?
+
+Many lineage defining sites have been present in SARS-CoV-2 genomes at below-consensus frequencies well before becoming fixed. As we demonstrate on our recent [virological post](https://virological.org/t/selection-analysis-identifies-significant-mutational-changes-in-omicron-that-are-likely-to-influence-both-antibody-neutralization-and-spike-function-part-1-of-2/771) the mutations occurring at the 14 Omicron *S*-gene codons which display either evidence of negative selection or no evidence of selection (neutral evolution), have rarely been seen within previously sampled sequences (see [here](https://observablehq.com/@spond/omicron-mutations-tables)) indicating the action of strong purifying selection due to functional constraints. Despite the rarity of these mutations in assembled genomes, it is not uncommon to find them in within-patient sequence datasets (Figure below), often at sub-consensus allelic frequencies. This indicates that, with the possible exceptions of S/N764K, S/N856K and S/Q954H, the mutations at these sites are not rare simply because they are unlikely to occur, but rather because whenever they do occur they are unlikely to either increase sufficiently in frequency to be transmitted, or increase sufficiently in frequency among transmitting viruses to be detected by genomic surveillance.
+
+<div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
+<vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/voc_time_progression_S_NS.json"/>
+</div>
+
+-----
+
+## Our sponsors
+
+This work is funded by NIH NHGRI Grant U41 HG006620, NIH NIAID Grant R01 AI134384, NIH NIGMS Grant R01 GM093939  and NSF ABI Grant 1661497. Usegalaxy.eu is supported by the German Federal Ministry of Education and Research grants 031L0101C and de.NBI-epi to BG. Usegalaxy.org.au is supported by Bioplatforms Australia and the Australian Research Data Commons through funding from the Australian Government National Collaborative Research Infrastructure Strategy. Usegalaxy.be is supported by the Research Foundation-Flanders (FWO) grant I002919N and the Flemish Supercomputer Center (VSC). 
 
