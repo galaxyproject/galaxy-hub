@@ -20,7 +20,7 @@ Our effort focuses on four goals:
 
 - Continuously analysis of within-host sequence variants in high quality public read-level [<span class="badge badge-primary">datasets</span>](/covid19/samples/).
 - Maintenance of curated [<span class="badge badge-danger">workflows</span>](/covid19/workflows/) for the analysis of SARS-CoV-2 sequence data and free powerful infrastructure to execute them.
-- Development of continuously updated dashboard summarizing latest insights from the variant [<span class="badge badge-warning">analysis</span>](/covid19/analyses/).
+- Development of continuously updated [<span class="badge badge-warning">analysis</span>](/covid19/analyses/) page and [<span class="badge badge-warning">dashboard</span>](https://covid19.galaxyproject.org/dashboard) summarizing latest insights from the variant.
 - Providing access to all [<span class="badge badge-success">results</span>](/covid19/data/) in raw and aggregated form for immediate use.
 
 The current knowledge about the evolutionary dynamics of SARS-CoV-2 comes primarily from genome assemblies and **not** from read-level data. While complete genomes allow complex inferences about [the evolutionary trajectory of the virus](https://pubmed.ncbi.nlm.nih.gov/34537136/) they hide any information about intrahost dynamics because they do not show variants that exist at sub-consensus allele frequencies. This situation is further aggravated by the fact that the number of publicly available read-level datasets lags dramatically behind the number of complete genomes assemblies making it impossible to confirm or further investigate data found in the GISAID database. In addition, only a fraction of available read-level datasets are useful because of the [lacking metadata](/covid19/samples/).
@@ -39,7 +39,7 @@ The current knowledge about the evolutionary dynamics of SARS-CoV-2 comes primar
     <div class="card h-100 shadow-sm bg-light rounded border-0">
       <div class="card-body">
         <h3><b>Analysis</b></h3>
-        Analysis resources and continuously updated interpretation of intra-host variant data.<br><br>
+        Analysis resources and continuously updated interpretation of intra-host variant data and <a href="https://covid19.galaxyproject.org/dashboard">dashboard</a>. <br><br>
         <a href="/covid19/analyses/" class="btn btn-warning">Read more ...</a>
       </div>
     </div>
@@ -79,8 +79,7 @@ The old version of our site can be found at
 Many lineage defining sites have been present in SARS-CoV-2 genomes at below-consensus frequencies well before becoming fixed. As we demonstrate on our recent [virological post](https://virological.org/t/selection-analysis-identifies-significant-mutational-changes-in-omicron-that-are-likely-to-influence-both-antibody-neutralization-and-spike-function-part-1-of-2/771) the mutations occurring at the 14 Omicron *S*-gene codons which display either evidence of negative selection or no evidence of selection (neutral evolution), have rarely been seen within previously sampled sequences (see [here](https://observablehq.com/@spond/omicron-mutations-tables)) indicating the action of strong purifying selection due to functional constraints. Despite the rarity of these mutations in assembled genomes, it is not uncommon to find them in within-patient sequence datasets (Figure below), often at sub-consensus allelic frequencies. This indicates that, with the possible exceptions of S/N764K, S/N856K and S/Q954H, the mutations at these sites are not rare simply because they are unlikely to occur, but rather because whenever they do occur they are unlikely to either increase sufficiently in frequency to be transmitted, or increase sufficiently in frequency among transmitting viruses to be detected by genomic surveillance.
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <p><h4>Time progression for variants of concern in gene <i>S</i></h4></p>
-<vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/voc_time_progression.json"/>
+<vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/voc_time_progression_S_NS.json"/>
 </div>
 
 -----
