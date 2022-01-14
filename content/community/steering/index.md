@@ -12,9 +12,16 @@ The [Galaxy Executive Board](/src/community/exec/index.md) has formed the Global
 
 <br />
 
+## News and Announcements
+
+### New member
+
+**September 14 2021**
+
+The GGSC is pleased to announce our latest member - welcome Sveinung Gundersen from ELIXIR Norway.
 
 
-## Community consultation - help wanted!
+### Community consultation - help wanted!
 
 **June 26 2021**
 
@@ -24,7 +31,7 @@ Come and let us know your ideas for the committee to consider in a 2 year roadma
 * [GCC2021 CoFest](https://gcc2021.sched.com/event/iLKp/gcc2021-collaborationfest)
   * [Community roadmap topic](https://docs.google.com/document/d/1c0L4mc7s2JOx0uq6HGP3QE3V5Za20GfCh1e-KKbOoV4/edit#bookmark=id.sz6o7usg6ipk)
 
-## The Manifesto: Global Galaxy Steering Committee Charter
+### The Manifesto: Global Galaxy Steering Committee Charter
 
 **March 4, 2021**
 
