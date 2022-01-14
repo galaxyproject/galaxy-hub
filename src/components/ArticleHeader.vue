@@ -3,7 +3,7 @@
         <g-link v-if="article.category" :to="`/${article.category}/`" class="link">
             &larr; Back to <span class="text-capitalize">{{ article.category }}</span>
         </g-link>
-        <Redirect v-if="article.redirect" :url="article.redirect" :location="location">
+        <Redirect v-if="article.redirect" :url="article.redirect" :location="this.location">
         </Redirect>
         <div class="clearfix"></div>
         <g-image v-if="article.image" class="img-fluid main-image" :src="image" />
@@ -59,7 +59,7 @@ export default {
     },
     data() {
         return {
-            location: window.location,
+            location: undefined,
         };
     },
     computed: {
@@ -83,6 +83,11 @@ export default {
             return getImage(this.article.image, this.article.images);
         },
     },
+    mounted() {
+        // This has to be set in mounted() because window does not exist when building.
+        // This will execute in the browser on page load.
+        this.location = window.location;
+    }
 };
 </script>
 

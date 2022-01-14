@@ -26,8 +26,14 @@ export default {
     data() {
         return {
             cancelled: false,
-            parsedUrl: parseUrl(this.url, this.location),
         };
+    },
+    computed: {
+        // Need to set this here to make sure the component will update when
+        // `url` or `location` does.
+        parsedUrl() {
+            return parseUrl(this.url, this.location);
+        },
     },
     methods: {
         cancel() {
@@ -36,13 +42,23 @@ export default {
         },
     },
     mounted() {
-        console.log(repr`Redirecting to ${this.url} in ${this.delay} seconds..`);
-        let currentPath = location.pathname;
-        setTimeout(() => doRedirect(this.url, currentPath, this.cancelled), this.delay * 1000);
+        redirectIfPossible(this);
+    },
+    beforeUpdate() {
+        redirectIfPossible(this);
     },
 };
+function redirectIfPossible(data) {
+    if (data.location && data.url) {
+        console.log(repr`Redirecting to ${data.url} in ${data.delay} seconds..`);
+        let currentPath = data.location.pathname;
+        setTimeout(() => doRedirect(data.url, currentPath, data.cancelled), data.delay * 1000);
+    }
+}
 function parseUrl(rawUrl, location) {
-    if (rawUrl.startsWith("/")) {
+    if (location === undefined) {
+        return undefined;
+    } else if (rawUrl.startsWith("/")) {
         return `${location.origin}${rawUrl}`;
     } else if (rawUrl.startsWith("http://") || rawUrl.startsWith("https://")) {
         return rawUrl;

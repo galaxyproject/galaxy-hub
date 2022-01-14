@@ -27,17 +27,19 @@ export default {
     },
     data() {
         return {
-            location: window.location,
+            location: undefined,
             redirectUrl: undefined,
         };
     },
     mounted() {
+        // This has to be set in mounted() because window does not exist when building.
+        // This will execute in the browser on page load.
+        this.location = window.location;
         // If the url is different under Gridsome's slugification rules, redirect to that.
         this.redirectUrl = doRedirectIfNeeded(window.location.href);
     },
 };
 function doRedirectIfNeeded(currentUrl) {
-    let redirectUrl = currentUrl;
     let url = new URL(currentUrl);
     if (isFilenamePath(url.pathname)) {
         console.log('Current url path looks like a filename.');
@@ -45,7 +47,7 @@ function doRedirectIfNeeded(currentUrl) {
     }
     url.pathname = gridifyPath(url.pathname);
     if (url.href !== currentUrl) {
-        console.log(repr`Slugified url ${redirectUrl} is different from current one.`);
+        console.log(repr`Slugified url ${url.href} is different from current one.`);
         return url.href;
     }
 }
