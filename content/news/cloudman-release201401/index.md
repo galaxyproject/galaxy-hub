@@ -2,7 +2,7 @@
 title: "January 2014 CloudMan Release"
 date: "2014-01-07"
 ---
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="300" /></a></div>
 
 **We just released an update to Galaxy CloudMan.** CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
@@ -32,4 +32,4 @@ For more details on the new features, see the the [CHANGELOG](https://bitbucket.
 
 Enjoy and please let us know what you think,
 
-[Enis Afgan](/src/people/enis-afgan/index.md) and [Dannon Baker](/src/people/dannon-baker/index.md)
+[Enis Afgan](/people/enis-afgan/) and [Dannon Baker](/people/dannon-baker/)

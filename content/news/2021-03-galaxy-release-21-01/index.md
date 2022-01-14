@@ -71,7 +71,7 @@ other interfaces received updates to use this new framework:
 Histories can now be exported directly to your FTP folders, Dropbox, or
 any other configured remote file storage.
 
-![](https://docs.galaxyproject.org/en/latest/_images/21.01-hist-exp.png) 
+![](https://docs.galaxyproject.org/en/latest/_images/21.01-hist-exp.png)
 *Screenshot of "Export
 history archive" interface showing the new "to a remote file" option
 with the user's FTP directory selected and foo.tar.gz entered as an
@@ -81,7 +81,7 @@ And history importing saw the same treatment, permitting importing from
 any of these public data locations making it easier than ever to share
 histories between Galaxy, and make your analyses more reproducible!
 
-![](https://docs.galaxyproject.org/en/latest/_images/21.01-hist-imp.png) 
+![](https://docs.galaxyproject.org/en/latest/_images/21.01-hist-imp.png)
 *Screenshot of "Import history from archive" interface which now includes an option to "Select
 a remote file" which provides access to the remote file interface.*
 
@@ -114,15 +114,15 @@ directly.*
 This is a new section covering smaller improvements that just make your
 life easier and your interactions with Galaxy faster.
 
--   Interactive tools can be stopped, without their outputs
+- Interactive tools can be stopped, without their outputs
     disappearing, better for reproducibility!
--   When uploading files, the 'name' field will be auto-focused,
+- When uploading files, the 'name' field will be auto-focused,
     allowing you to get straight to renaming the files, saving you time.
--   Workflow versions now expose their update time. Reverting to an old
+- Workflow versions now expose their update time. Reverting to an old
     version? Oh, yes, that one from Tuesday!
--   Sharing components now include a "copy to clipboard" feature for
+- Sharing components now include a "copy to clipboard" feature for
     URLs. One click and you're ready to share with the world.
--   The GTN-in-Galaxy overlay now keeps track of the page you were
+- The GTN-in-Galaxy overlay now keeps track of the page you were
     looking at if the Galaxy page gets refreshed. Go forth and learn
     without distraction!
 

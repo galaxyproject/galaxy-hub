@@ -3,10 +3,12 @@
         <header id="masthead">
             <NavBar />
         </header>
-        <section id="maincontainer" class="container">
+        <main id="maincontainer" class="container">
             <slot />
-            <footer class="static-footer markdown" v-if="$static.footer" v-html="$static.footer.content" />
-        </section>
+        </main>
+        <footer class="static-footer" v-if="$static.footer">
+            <div class="markdown container" v-html="$static.footer.content" />
+        </footer>
     </div>
 </template>
 
@@ -19,8 +21,6 @@ export default {
     mounted() {
         // Google Analytics tag.
         addGATag();
-        // Gitter integrated #galaxyproject chat.
-        addGitterChat();
     },
 };
 function addGATag() {
@@ -38,20 +38,9 @@ function addGATag() {
         a.src = g;
         m.parentNode.insertBefore(a, m);
     })(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
+    /* global ga */
     ga("create", "UA-45719423-4", "auto");
     ga("send", "pageview");
-}
-function addGitterChat() {
-    window.gitter = { chat: { options: { room: "galaxyproject/Lobby" } } };
-    // This handles correct positioning when using location hashes.
-    let shiftWindow = function () {
-        scrollBy(0, -70);
-    };
-    if (location.hash) {
-        shiftWindow();
-    }
-    window.addEventListener("hashchange", shiftWindow);
-    window.addEventListener("load", shiftWindow);
 }
 </script>
 
@@ -68,7 +57,20 @@ query {
 }
 </static-query>
 
-<style>
+<style lang="scss">
+@import "~/assets/styles.scss";
+
+#maincontainer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    a:not(.btn) {
+        color: $brand-primary;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
 /***** Generally useful styles *****/
 .text-nowrap {
     white-space: nowrap !important;
@@ -101,8 +103,9 @@ query {
 }
 .static-footer {
     position: absolute;
+    width: 100%;
     bottom: 0;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     padding-bottom: 0.5rem;
 }
 /***** Markdown image sizing *****/
@@ -167,13 +170,22 @@ p.trim-p,
 .markdown tbody tr:nth-of-type(2n + 1) {
     background-color: rgba(0, 0, 0, 0.05);
 }
+/***** Anchor link icons next to headings *****/
+.markdown h1 > a[aria-hidden="true"],
+.markdown h2 > a[aria-hidden="true"],
+.markdown h3 > a[aria-hidden="true"],
+.markdown h4 > a[aria-hidden="true"],
+.markdown h5 > a[aria-hidden="true"],
+.markdown h6 > a[aria-hidden="true"] {
+    display: none;
+}
 /* Anchor link icons by headings */
-.markdown h1:hover > a[aria-hidden="true"],
-.markdown h2:hover > a[aria-hidden="true"],
-.markdown h3:hover > a[aria-hidden="true"],
-.markdown h4:hover > a[aria-hidden="true"],
-.markdown h5:hover > a[aria-hidden="true"],
-.markdown h6:hover > a[aria-hidden="true"] {
+h1:hover > a[aria-hidden="true"],
+h2:hover > a[aria-hidden="true"],
+h3:hover > a[aria-hidden="true"],
+h4:hover > a[aria-hidden="true"],
+h5:hover > a[aria-hidden="true"],
+h6:hover > a[aria-hidden="true"] {
     display: block;
     padding-right: 6px;
     padding-left: 20px;
@@ -187,12 +199,12 @@ p.trim-p,
     height: 100%;
     background: transparent;
 }
-.markdown h1:hover > a > span.icon.icon-link::before,
-.markdown h2:hover > a > span.icon.icon-link::before,
-.markdown h3:hover > a > span.icon.icon-link::before,
-.markdown h4:hover > a > span.icon.icon-link::before,
-.markdown h5:hover > a > span.icon.icon-link::before,
-.markdown h6:hover > a > span.icon.icon-link::before {
+h1:hover > a > span.icon.icon-link::before,
+h2:hover > a > span.icon.icon-link::before,
+h3:hover > a > span.icon.icon-link::before,
+h4:hover > a > span.icon.icon-link::before,
+h5:hover > a > span.icon.icon-link::before,
+h6:hover > a > span.icon.icon-link::before {
     /* link icon from FontAwesome */
     font-family: "Font Awesome 5 Free";
     content: "\f0c1";

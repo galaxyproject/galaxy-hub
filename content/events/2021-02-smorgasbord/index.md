@@ -12,7 +12,7 @@ contact: "Saskia Hiltemann & Helena Rasche"
 gtn: true
 ---
 
-<img class="float-right" style="max-width: 500px;" src="/src/images/galaxy-logos/GTNLogo300.png" alt="GTN logo"/>
+<img class="float-right" style="max-width: 500px;" src="/images/galaxy-logos/GTNLogo300.png" alt="GTN logo"/>
 
 In February 2021, we will organize a global 5-day Galaxy Training event showcasing a wide variety of GTN (Galaxy Training Network) [tutorials](https://training.galaxyproject.org). This will be an **online** event, spanning **all time zones**. All training sessions are pre-recorded, so you can work through them **at your own pace**, and manage your own time. A large community of GTN trainers will be available via **online support** to answer all your questions.
 

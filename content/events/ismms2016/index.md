@@ -1,14 +1,14 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://icahn.mssm.edu/'><img src="/src/images/logos/ISMMSLogo.jpg" alt="Icahn School of Medicine at Mount Sinai"  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://icahn.mssm.edu/'><img src="/images/logos/ISMMSLogo.jpg" alt="Icahn School of Medicine at Mount Sinai"  /></a> </td>
   </tr>
 </table>
 
 
 <div class='title'>Introduction to Galaxy<br />January 21, 2016, and<br />January 22, 2016</div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+**Instructor: [Dave Clements](/people/dave-clements/)
 
 9:00-5:00<br /><br />
 Location: Large Classroom (Thursday), Small Classroom (Friday)<br /> [Levy Library](http://icahn.mssm.edu/about-us/services-and-resources/levy-library) (11<sup>th</sup> floor)<br /> Annenberg Building. 1468 Madison Ave.<br />
@@ -81,9 +81,9 @@ No programming or Linux command line experience is required.
 
 
 <div class='right'><br />
-<a href='http://icahn.mssm.edu/'><img src="/src/images/logos/ISMMSLogo.jpg" alt="Icahn School of Medicine at Mount Sinai" width="220" /></a><br />
-<a href='http://www.nih.gov/'><img src="/src/images/logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a><br /><br />
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div></div>
+<a href='http://icahn.mssm.edu/'><img src="/images/logos/ISMMSLogo.jpg" alt="Icahn School of Medicine at Mount Sinai" width="220" /></a><br />
+<a href='http://www.nih.gov/'><img src="/images/logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a><br /><br />
+<div class='right'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div></div>
 
 ## Support
 

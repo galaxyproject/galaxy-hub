@@ -9,12 +9,12 @@ location_url: ""
 external_url: "https://www.facebook.com/events/392829814603666/"
 gtn: false
 contact: "Abdelazeem Abdelhameed Elhabyan"
-image: "/src/events/2019-03-genomisr/genomisr-workshop.jpg"
+image: "/events/2019-03-genomisr/genomisr-workshop.jpg"
 ---
 
 **Program**
 
-* About Genomisr initiative 
+* About Genomisr initiative
 * Introduction about the Field of Genomics
 * Real world applications of the field in different medical specialties
 * CRISPR Genome editing applications in medicine

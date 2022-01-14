@@ -2,22 +2,22 @@
 title: "January 13, 2015 Galaxy Distribution"
 date: "2015-01-13"
 ---
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt="width=175" /></a></div>
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2015-01-13)**
 <br />
 # Highlights
 
 ## Security
 
-Several *critical* security vulnerabilities were recently discovered by Bartlomiej Balcerek and colleagues at the Wroclaw Centre for Networking and Supercomputing. This [stable Galaxy release contains fixes for those vulnerabilities](/src/archive/dev-news-briefs/2015-01-13/index.md#security). **The Galaxy Team strongly encourages Galaxy server administrators to update their Galaxy servers immediately.**
+Several *critical* security vulnerabilities were recently discovered by Bartlomiej Balcerek and colleagues at the Wroclaw Centre for Networking and Supercomputing. This [stable Galaxy release contains fixes for those vulnerabilities](/archive/dev-news-briefs/2015-01-13/#security). **The Galaxy Team strongly encourages Galaxy server administrators to update their Galaxy servers immediately.**
 
 ## IPython Integration
 
-Thanks to the awesome work of community members Björn Grüning and Helena Rasche, [Galaxy now features integration with the popular IPython project](/src/archive/dev-news-briefs/2015-01-13/index.md#ipython-integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker. 
+Thanks to the awesome work of community members Björn Grüning and Helena Rasche, [Galaxy now features integration with the popular IPython project](/archive/dev-news-briefs/2015-01-13/#ipython-integration). The [Galaxy-IPython](https://github.com/bgruening/galaxy-ipython) project has been merged into Galaxy core and made into a generic plugin framework of interactive environments based on Docker.
 
 ## Tool Form Upgrade (for Beta Testing)
 
-In Galaxy's development branch, the basic tool from has been [redesigned and modernized to address certain limitations in Galaxy's responsiveness when working with longer forms containing multiple parameter choices](/src/archive/dev-news-briefs/2015-01-13/index.md#tool-form-upgrade-for-beta-testing). This new tool form will become the default with the next release - but we are hoping tool author's and power users enable it and provide feedback during this release cycle in order to ensure it is working ideally when it becomes the default.
+In Galaxy's development branch, the basic tool from has been [redesigned and modernized to address certain limitations in Galaxy's responsiveness when working with longer forms containing multiple parameter choices](/archive/dev-news-briefs/2015-01-13/#tool-form-upgrade-for-beta-testing). This new tool form will become the default with the next release - but we are hoping tool author's and power users enable it and provide feedback during this release cycle in order to ensure it is working ideally when it becomes the default.
 
 ## Get The Distribution
 
@@ -49,4 +49,4 @@ In Galaxy's development branch, the basic tool from has been [redesigned and mod
 
 <br /><br />
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

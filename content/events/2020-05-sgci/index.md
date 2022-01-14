@@ -6,8 +6,8 @@ tease: "Find out about Galaxy's community emphasis"
 continent: NA
 location: "SGCI Webinar Series, Online, North America"
 image: 
-location_url: "https://sciencegateways.org/engage/webinars"
-external_url: "https://sciencegateways.org/-/galaxy-project-enabling-an-active-global-research-community"
+location_url: "https://sciencegateways.org/webinar-archive"
+external_url: "https://sciencegateways.org/w/galaxy-project-enabling-an-active-global-research-community"
 gtn: false
 tags: [ webinar ]
 links:

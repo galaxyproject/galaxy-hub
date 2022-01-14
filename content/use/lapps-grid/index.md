@@ -8,7 +8,7 @@ platforms:
     platform_text: "LAPPS Grid Galaxy Workflow Engine"
     platform_location: NO
 summary: "An open, interoperable web service platform for natural language processing (NLP) research and development.  "
-image: "/src/use/lapps-grid/lapps-grid.png"
+image: "/use/lapps-grid/lapps-grid.png"
 comments:
   - "[Language Application Grid](http://www.lappsgrid.org/)"
   - "The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."

@@ -8,7 +8,7 @@ platforms:
     platform_text: "GigaGalaxy"
     platform_location: HK
 summary: "GigaGalaxy hosts tools and data analyses from papers published in *[GigaScience](http://www.gigasciencejournal.com/)*."
-image: "/src/use/gigagalaxy/gigagalaxy-nebula.png"
+image: "/use/gigagalaxy/gigagalaxy-nebula.png"
 comments:
   - "Standard Galaxy tools set plus SOAPdenovo and SOAPsnp for *de novo* assembly and SNP calling."
 user_support:

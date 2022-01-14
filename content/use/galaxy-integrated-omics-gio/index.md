@@ -8,7 +8,7 @@ platforms:
     platform_text: "GIO Server"
     platform_location: UK
 summary: "Proteomics Informed by Transcriptomics (PIT) methodology, and selection of surrogate peptides for targeted proteomics. "
-image: "/src/use/galaxy-integrated-omics-gio/gio-logo.png"
+image: "/use/galaxy-integrated-omics-gio/gio-logo.png"
 comments:
   - "Proteomics Informed by Transcriptomics (PIT) methodology is described in [Evans et al. 2012](http://www.ncbi.nlm.nih.gov/pubmed/23142869)"
   - "Galaxy-based Integrated Omics (GIO) is a curated collection of new and pre-existing open source tools brought together for proteomics applications."

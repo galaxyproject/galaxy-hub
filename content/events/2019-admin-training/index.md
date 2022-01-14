@@ -9,7 +9,7 @@ location_url: "https://www.psu.edu/"
 external_url:
 gtn: true
 contact: Instructors
-image: /src/events/2019-admin-training/2019-admin-training-logo.png
+image: /events/2019-admin-training/2019-admin-training-logo.png
 ---
 
 **[Galaxy Admin Training](https://github.com/galaxyproject/dagobah-training)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago.  The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions).  Participants can register for one or both sessions.
@@ -31,6 +31,7 @@ The [workshop](https://github.com/galaxyproject/dagobah-training) is split into 
 ### Comfortable with the Unix/Linux command line
 
 Most of the workshop will happen at the Linux command line.  *If you aren’t comfortable with this before you arrive, then you will be lost the entire time.*  How comfortable do you need to be?  Here’s a sampling of commands and concepts that you should be comfortable with:
+
   ```
 cd, mkdir, rmdir, ls
 tar, gzip
@@ -56,27 +57,27 @@ You don’t need to be an expert at Linux package management, but you do need to
 
 We’ll be using Ubuntu based images during the workshop, which means we’ll be using **[apt](https://help.ubuntu.com/community/AptGet/Howto)** to do package management.  Get to know it.
 
-## Advanced Topics 
+## Advanced Topics
 
 Prerequisites include all of the Introduction Session prerequisites, plus familiarity with the topics presented in that session.
 
 # Laptop Requirements
 
-All participants should bring a wifi-enabled laptop with 
+All participants should bring a wifi-enabled laptop with
 
 * at least 4GB of memory (more is better)
 * Software to access the command line of a Linux server.
-  * If you are running Linux or Mac OS, then you already have this.
-  * If you are running Windows than you’ll need to get something like putty installed before the workshop.
+    * If you are running Linux or Mac OS, then you already have this.
+    * If you are running Windows than you’ll need to get something like putty installed before the workshop.
 * A recent version of either the Chrome or Firefox web browser installed.
 
 # Instructors
 
 We currently have five confirmed (and highly experienced!) instructors:
 
-* [Martin Čech](/src/people/marten/index.md), software engineer for the Galaxy Project and frequent sys admin for usegalaxy.org.
-* [Nate Coraor](/src/people/nate/index.md), lead sysadmin of Galaxy Main (https://usegalaxy.org) and a software engineer for the Galaxy Project
-* [John Chilton](/src/people/john-chilton/), software engineer for the Galaxy Project working on both the front and back ends, with an emphasis on scalability.
+* [Martin Čech](/people/marten/), software engineer for the Galaxy Project and frequent sys admin for usegalaxy.org.
+* [Nate Coraor](/people/nate/), lead sysadmin of Galaxy Main (https://usegalaxy.org) and a software engineer for the Galaxy Project
+* [John Chilton](/people/john-chilton/), software engineer for the Galaxy Project working on both the front and back ends, with an emphasis on scalability.
 * [Simon Gladman](https://github.com/Slugger70), administrator of Galaxy Australia (https://usegalaxy.org.au), University of Melbourne
 * [Helena Rasche](https://github.com/hexylena), lead sysadmin of Galaxy Europe (https://usegalaxy.eu), software engineer and cloud administrator for University of Freiburg/de.NBI Project Freiburg branch
 

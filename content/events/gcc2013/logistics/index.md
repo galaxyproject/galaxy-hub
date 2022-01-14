@@ -5,7 +5,8 @@ title: Logistics
 
 
 
-<slot name="/events/gcc2013/linkbox" />
+import linkbox from "../linkbox.json"
+<link-box :data="linkbox" />
 
 Details on conference location, lodging options, and transportation.
 
@@ -13,11 +14,11 @@ Details on conference location, lodging options, and transportation.
 
 # Venue
 
-The [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/logistics/index.md) was held at the [University of Oslo (UiO)](http://uio.no/) in Oslo, Norway, from 30 June through 2 July.  The meeting will be held in the [Department of Informatics](http://www.mn.uio.no/ifi/english/) new home, the [Ole-Johan Dahls House](http://www.mn.uio.no/ifi/english/research/news-and-events/news/newbuilding.html).
+The [2013 Galaxy Community Conference (GCC2013)](/events/gcc2013/logistics/) was held at the [University of Oslo (UiO)](http://uio.no/) in Oslo, Norway, from 30 June through 2 July.  The meeting will be held in the [Department of Informatics](http://www.mn.uio.no/ifi/english/) new home, the [Ole-Johan Dahls House](http://www.mn.uio.no/ifi/english/research/news-and-events/news/newbuilding.html).
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://www.mn.uio.no/ifi/english/'><img src="/src/events/gcc2013/logistics/OleJohanDahls300.jpg" alt="UiO Department of Informatics" width="200" /></a> </td>
+    <td style=" border: none;"> <a href='http://www.mn.uio.no/ifi/english/'><img src="/events/gcc2013/logistics/OleJohanDahls300.jpg" alt="UiO Department of Informatics" width="200" /></a> </td>
     <td style=" border: none;"> </td>
     <td style=" border: none;"> <a href='http://www.mn.uio.no/ifi/english/research/news-and-events/news/newbuilding.html'>Ole Johan Dahls house</a><br />Department of Informatics<br />University of Oslo<br />Gaustadalléen 23 B<br />N-0373 OSLO Norway </td>
   </tr>
@@ -26,19 +27,19 @@ The [2013 Galaxy Community Conference (GCC2013)](/src/events/gcc2013/logistics/i
 
 Ole Johan Dahls House is adjacent to the Forskningsparken subway and tram stops.  
 
-<div class='right'><br /><img src="/src/events/gcc2013/logistics/Euro-Plug.jpg" alt="Euro Plug" height="80" /></div>
+<div class='right'><br /><img src="/events/gcc2013/logistics/Euro-Plug.jpg" alt="Euro Plug" height="80" /></div>
 
 ## Power
 
-Norway, like most of Europe, uses 50hz 230 volt power.   [Outlets in Norway are type "C"](http://goscandinavia.about.com/od/norwa1/f/eleoutletnorway.htm) (the *EuroPlug*) with two round plugs. 
+Norway, like most of Europe, uses 50hz 230 volt power.   [Outlets in Norway are type "C"](http://goscandinavia.about.com/od/norwa1/f/eleoutletnorway.htm) (the *EuroPlug*) with two round plugs.
 
 <br />
 
 # Transportation
 
-<div class='right'><a href='http://www.tbane.no/'><img src="/src/events/gcc2013/logistics/TBanenLogo100.png" alt="T-banen" width="60" /></a></div>
+<div class='right'><a href='http://www.tbane.no/'><img src="/events/gcc2013/logistics/TBanenLogo100.png" alt="T-banen" width="60" /></a></div>
 
-<div class='left'><a href='http://bit.ly/VW9JbA'><img src="/src/events/gcc2013/logistics/OleJohanDahlsStations.png" alt="Nearby stations" width="150" /></a> </div>
+<div class='left'><a href='http://bit.ly/VW9JbA'><img src="/events/gcc2013/logistics/OleJohanDahlsStations.png" alt="Nearby stations" width="150" /></a> </div>
 
 The conference venue [Ole Johan Dahls house](http://www.mn.uio.no/ifi/english/research/news-and-events/news/newbuilding.html), is adjacent to the Forskningsparken subway and tram stops.  
 
@@ -47,6 +48,7 @@ Subway (T-bane) lines 3, 4 and 6 serve Forskningsparken station.  The subway run
 Tram lines 17 and 18 also stop at Forskningsparken.
 
 Links:
+
 * [Ruter (English)](http://ruter.no/en/) is the local transport authority and provides a route planner, maps and timetables
 * [Subway (Norwegian)](http://www.tbane.no/)
 * [Subway (Google Translate)](http://translate.google.co.uk/translate?u=http%3A%2F%2Fwww.tbane.no%2F)
@@ -58,9 +60,9 @@ Public parking is available at the [Oslo Innovation Centre (Forskningsparken)](h
 
 ## Around Oslo
 
-<div class='right'><a href='http://ruter.no/en/'><img src="/src/events/gcc2013/logistics/RuterCards.png" alt="Ruter" width="150" /></a></div>
+<div class='right'><a href='http://ruter.no/en/'><img src="/events/gcc2013/logistics/RuterCards.png" alt="Ruter" width="150" /></a></div>
 
-[Ruter](http://ruter.no/en/) is the public transport system in Oslo and the surrounding county. City buses, regional buses, trams, subway/metro, ferries and local trains are included in Ruter's ticket system. 
+[Ruter](http://ruter.no/en/) is the public transport system in Oslo and the surrounding county. City buses, regional buses, trams, subway/metro, ferries and local trains are included in Ruter's ticket system.
 
 ## Getting to Oslo
 
@@ -68,9 +70,9 @@ Public parking is available at the [Oslo Innovation Centre (Forskningsparken)](h
 
 Oslo has 3 international airports,  
 
-<div class='right'><a href='http://www.osl.no/'><img src="/src/events/gcc2013/logistics/OsloAirportLogo.gif" alt="Oslo Airport Gardermoen (OSL)" width="100" /></a><br />
-<a href='http://www.flytoget.no/'><img src="/src/events/gcc2013/logistics/FlyToGetLogo.png" alt="Airport Express Train (Flytoget)" width="100" /></a><br />
-<a href='http://www.nsb.no/airport-by-train/airport-by-train-article38282-4405.html'><img src="/src/events/gcc2013/logistics/NSBLogo.png" alt="Norwegian State Railways (NSB)" width="100" /></a>
+<div class='right'><a href='http://www.osl.no/'><img src="/events/gcc2013/logistics/OsloAirportLogo.gif" alt="Oslo Airport Gardermoen (OSL)" width="100" /></a><br />
+<a href='http://www.flytoget.no/'><img src="/events/gcc2013/logistics/FlyToGetLogo.png" alt="Airport Express Train (Flytoget)" width="100" /></a><br />
+<a href='http://www.nsb.no/airport-by-train/airport-by-train-article38282-4405.html'><img src="/events/gcc2013/logistics/NSBLogo.png" alt="Norwegian State Railways (NSB)" width="100" /></a>
 </div>
 
 #### Oslo Airport Gardermoen
@@ -79,7 +81,7 @@ Oslo has 3 international airports,
 
 #### Sandefjord Airport Torp
 
-<div class='left'><a href='http://www.torp.no/'><img src="/src/events/gcc2013/logistics/SandefjordAirportLogo.png" alt="Sandefjord Airport Torp (TRF)" height="130" /></a></div>
+<div class='left'><a href='http://www.torp.no/'><img src="/events/gcc2013/logistics/SandefjordAirportLogo.png" alt="Sandefjord Airport Torp (TRF)" height="130" /></a></div>
 
 [Sandefjord Airport Torp (TRF)](http://www.torp.no/) offers [direct connections to Amsterdam, Copenhagen, multiple cities in the United Kingdom and Poland, and throughout Europe](http://www.torp.no/Pages/Artikkler/Artikkel.aspx?pkArtikkel=672&Language=EN), and indirect connections all over the world.  Sandefjord is served by several carriers, including [KLM](http://klm.com/) and [Ryanair](http://ryanair.com).
 
@@ -88,7 +90,7 @@ Oslo has 3 international airports,
 
 #### Moss Airport Rygge
 
-<div class='right'><a href='http://www.en.ryg.no/'><img src="/src/events/gcc2013/logistics/RyggeAirportLogo.jpg" alt="Moss Airport Rygge (RYG)" height="75" /></a></div>
+<div class='right'><a href='http://www.en.ryg.no/'><img src="/events/gcc2013/logistics/RyggeAirportLogo.jpg" alt="Moss Airport Rygge (RYG)" height="75" /></a></div>
 
 [Moss Airport Rygge (RYG)](http://www.en.ryg.no/) offers [direct connections to Denmark, Germany, Belgium, England, Ireland, Poland, France, Italy, Spain, Greece, and nine other countries in Europe](http://www.en.ryg.no/destinations).  Rygge is served by [Ryanair](http://ryanair.com), [Norwegian](http://www.norwegian.com/), and [DAT](http://www.dat.dk/).
 
@@ -100,7 +102,7 @@ You can also reach Oslo [by ferry](http://www.visitoslo.com/en/transport/to-oslo
 
 <br />
 
-<div class='right'><a href='http://bit.ly/VW9JbA'><img src="/src/events/gcc2013/logistics/LodgingMapThumb.png" alt="Conference and Lodging Map" width="120" /></a></div>
+<div class='right'><a href='http://bit.ly/VW9JbA'><img src="/events/gcc2013/logistics/LodgingMapThumb.png" alt="Conference and Lodging Map" width="120" /></a></div>
 
 # Lodging
 
@@ -108,17 +110,17 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 ## Holmenkollen Park Hotel Rica
 
-<div class='right'><a href='http://www.holmenkollenparkhotel.no/'><img src="/src/events/gcc2013/logistics/HolmenkollenParkHotelRica.jpg" alt="Holmenkollen Park Hotel Rica" height="80" /></a></div>
+<div class='right'><a href='http://www.holmenkollenparkhotel.no/'><img src="/events/gcc2013/logistics/HolmenkollenParkHotelRica.jpg" alt="Holmenkollen Park Hotel Rica" height="80" /></a></div>
 * €€€€
-* Outside the city centre, with good Metro access, and a spectacular view close to the [Holmenkollen Ski Jump](http://www.holmenkollen.com/). 
+* Outside the city centre, with good Metro access, and a spectacular view close to the [Holmenkollen Ski Jump](http://www.holmenkollen.com/).
 * [Web Site](http://www.holmenkollenparkhotel.no/)
 * Nearest Metro Station: [Holmenkollen](http://reiseplanlegger.ruter.no/en/Kart/For/(3012370)Holmenkollen%20%5BT-bane%5D%20(Oslo)#st:1,zo:0,sp:0), n stops and 1 transfer away
 * [Has internet](http://www.holmenkollenparkhotel.no/en/rooms-in-oslo.html).
 
 ## Thon Hotel Ullevaal Stadion
 
-<div class='right'><a href='http://www.thonhotels.com/ullevaalstadion'><img src="/src/events/gcc2013/logistics/ThonHotelUllevaalStadion.jpg" alt="Thon Hotel Ullevaal Stadion" height="80" /></a></div>
-* €€€ 
+<div class='right'><a href='http://www.thonhotels.com/ullevaalstadion'><img src="/events/gcc2013/logistics/ThonHotelUllevaalStadion.jpg" alt="Thon Hotel Ullevaal Stadion" height="80" /></a></div>
+* €€€
     *Thon Hotel Ullevaal Stadion is offering a 21% discount off of published rates to conference attendees.  To book a discounted room send an email to [Ullevaal Stadion Bookings](mailto:Ullevaal DOT booking AT thonhotels DOT no), or call them directly at +47 22082000 and mention that you are requesting the University of Oslo discount, and that you will be attending GCC2013.*
 * [Web Site](http://www.thonhotels.com/ullevaalstadion)
 * Closest hotel to conference.  Right next to the Ullevaal football stadium, and far from downtown, but right next to a Metro station.
@@ -127,8 +129,8 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 ## Thon Hotel Munch
 
-<div class='right'><a href='http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-munch/'><img src="/src/events/gcc2013/logistics/ThonHotelMunch.jpg" alt="Thon Hotel Munch" height="80" /></a></div>
-* €€€ 
+<div class='right'><a href='http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-munch/'><img src="/events/gcc2013/logistics/ThonHotelMunch.jpg" alt="Thon Hotel Munch" height="80" /></a></div>
+* €€€
 * [Web Site](http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-munch/)
 * Located in city centre
 * Nearest Metro Station: [Nationaltheatret](http://reiseplanlegger.ruter.no/en/Kart/For/(3010031)Nationaltheatret%20%5BT-bane%5D%20(Oslo)#st:1,zo:0,sp:0), 3 stops away
@@ -136,7 +138,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 ## Radisson Blu Scandinavia Hotel
 
-<div class='right'><a href='http://www.radissonblu.com/scandinaviahotel-oslo/'><img src="/src/events/gcc2013/logistics/RadissonBlu.jpg" alt="Radisson Blu Scandinavia Hotel" height="80" /></a></div>
+<div class='right'><a href='http://www.radissonblu.com/scandinaviahotel-oslo/'><img src="/events/gcc2013/logistics/RadissonBlu.jpg" alt="Radisson Blu Scandinavia Hotel" height="80" /></a></div>
 * €€€
 * [Web Site](http://www.radissonblu.com/scandinaviahotel-oslo/)
 * In city centre, very close to Palace Park.
@@ -145,8 +147,8 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 ## Thon Hotel Astoria
 
-<div class='right'><a href='http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-astoria/'><img src="/src/events/gcc2013/logistics/ThonHotelAstoria.jpg" alt="Thon Hotel Astoria tadion" height="80" /></a></div>
-* €€ 
+<div class='right'><a href='http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-astoria/'><img src="/events/gcc2013/logistics/ThonHotelAstoria.jpg" alt="Thon Hotel Astoria tadion" height="80" /></a></div>
+* €€
 * [Web Site](http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-astoria/)
 * Located in city center
 * Nearest Metro Station: [Jernbanetorget](http://reiseplanlegger.ruter.no/en/Kart/For/(3010011)Jernbanetorget%20%5BT-bane%5D#st:1,zo:0,sp:0), 6 stops away
@@ -154,8 +156,8 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 ## Thon Hotel Gyldenløve
 
-<div class='right'><a href='http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-gyldenlove/'><img src="/src/events/gcc2013/logistics/Gyldenlove.jpg" alt="Thon Hotel Gyldenløve" height="80" /></a></div>
-* €€ 
+<div class='right'><a href='http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-gyldenlove/'><img src="/events/gcc2013/logistics/Gyldenlove.jpg" alt="Thon Hotel Gyldenløve" height="80" /></a></div>
+* €€
     *Thon Hotel Gyldenløve is offering a 21% discount off of published rates to conference attendees.  To book a discounted room contact [Gyldenløve Bookings](mailto:gyldenlove DOT booking AT thonhotels DOT no) and mention that you are requesting the University of Oslo discount, and that you will be attending GCC2013.*
 * [Web Site](http://www.thonhotels.com/hotels/countrys/norway/oslo/thon-hotel-gyldenlove/)
 * In a neighborhood between downtown Oslo and conference venue.
@@ -164,8 +166,8 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 ## Comfort Hotel Xpress
 
-<div class='right'><a href='https://www.nordicchoicehotels.com/Comfort/Comfort-Hotel-Xpress/'><img src="/src/events/gcc2013/logistics/ComfortHotelXpress.jpg" alt="Comfort Hotel Xpress" height="80" /></a></div>
-* €€ 
+<div class='right'><a href='https://www.nordicchoicehotels.com/Comfort/Comfort-Hotel-Xpress/'><img src="/events/gcc2013/logistics/ComfortHotelXpress.jpg" alt="Comfort Hotel Xpress" height="80" /></a></div>
+* €€
 * [Web Site](https://www.nordicchoicehotels.com/Comfort/Comfort-Hotel-Xpress/)
 * Trendy, affordable.  In city centre.
 * Nearest Metro Station: [Stortinget](http://reiseplanlegger.ruter.no/en/Kart/For/(3010020)Stortinget%20%5BT-bane%5D#st:1,zo:0,sp:0), 5 stops away
@@ -173,8 +175,8 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 ## Perminalen
 
-<div class='right'><a href='http://www.perminalen.no/'><img src="/src/events/gcc2013/logistics/Perminalen.jpg" alt="Comfort Hotel Xpress" height="80" /></a></div>
-* € - €€ 
+<div class='right'><a href='http://www.perminalen.no/'><img src="/events/gcc2013/logistics/Perminalen.jpg" alt="Comfort Hotel Xpress" height="80" /></a></div>
+* € - €€
 * [Web Site](http://www.perminalen.no/)
 * This is backpacker lodging, with single rooms, double rooms, and dormitory style lodging. Located in city centre.
 * Nearest Metro Station: [Stortinget](http://reiseplanlegger.ruter.no/en/Kart/For/(3010020)Stortinget%20%5BT-bane%5D#st:1,zo:0,sp:0), 4 stops away
@@ -182,7 +184,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 ## Cochs Pensjonat
 
-<div class='right'><a href='https://cochspensjonat.no/'><img src="/src/events/gcc2013/logistics/CochsPensjonat.jpg" alt="Cochs Pensjonat" height="80" /></a></div>
+<div class='right'><a href='https://cochspensjonat.no/'><img src="/events/gcc2013/logistics/CochsPensjonat.jpg" alt="Cochs Pensjonat" height="80" /></a></div>
 * € - €€
 * [Web Site](https://cochspensjonat.no/)
 * This is a hostel, with single rooms, double rooms, and dormitory style lodging. Located in city centre, very close to Palace Park.
@@ -190,7 +192,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 ## Anker Hostel Oslo
 
-<div class='right'><a href='http://www.ankerhostel.no/en/'><img src="/src/events/gcc2013/logistics/AnkerHostelOslo.jpg" alt="Anker Hostel Oslo" height="80" /></a></div>
+<div class='right'><a href='http://www.ankerhostel.no/en/'><img src="/events/gcc2013/logistics/AnkerHostelOslo.jpg" alt="Anker Hostel Oslo" height="80" /></a></div>
 * € - €€
 * A hostel starting at 625 NOK for a private room, and decreasing in cost as the number of roommates goes up.
 * [Web Site](http://www.ankerhostel.no/en/)
@@ -199,7 +201,7 @@ The conference does not have an official conference hotel.  However, our hosts h
 
 ## Oslo Vandrerhjem Haraldsheim Hostel
 
-<div class='right'><a href='http://www.hihostels.com/dba/hostels-Oslo-Haraldsheim-042001.en.htm'><img src="/src/events/gcc2013/logistics/OsloVandrerhjemHaraldsheimHostel.jpg" alt="Oslo Vandrerhjem Haraldsheim Hostel" height="80" /></a></div>
+<div class='right'><a href='http://www.hihostels.com/dba/hostels-Oslo-Haraldsheim-042001.en.htm'><img src="/events/gcc2013/logistics/OsloVandrerhjemHaraldsheimHostel.jpg" alt="Oslo Vandrerhjem Haraldsheim Hostel" height="80" /></a></div>
 * €
 * This is a bed in a shared dormitory style room.  Located close to a metro stop, but outside the city centre in a residential area.
 * [Web Site](http://www.hihostels.com/dba/hostels-Oslo-Haraldsheim-042001.en.htm)

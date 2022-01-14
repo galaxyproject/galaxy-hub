@@ -1,5 +1,5 @@
 <div class='center'>
-<a href='http://www.igmm.ac.uk/'><img src="/src/images/logos/IGMMLogo.jpg" alt="Institute of Genetics and Molecular Medicine" height="150" /></a>
+<a href='http://www.igmm.ac.uk/'><img src="/images/logos/IGMMLogo.jpg" alt="Institute of Genetics and Molecular Medicine" height="150" /></a>
 <div class='title'>Introduction to Galaxy<br />13 May 2014</div>
 
 **
@@ -9,7 +9,7 @@ Western General Hospital, Crewe Road, Edinburgh, United Kingdom**<br />
 [Directions](http://www.igmm.ac.uk/contact.htm)<br />
 
 <br />
-**Instructor**<br />[Dave Clements](/src/people/dave-clements/index.md), [Johns Hopkins University](http://www.jhu.edu/)<br />
+**Instructor**<br />[Dave Clements](/people/dave-clements/), [Johns Hopkins University](http://www.jhu.edu/)<br />
 </div>
 
 ## Registration
@@ -75,8 +75,8 @@ No programming or Linux command line experience is required.
 This is a hands-on workshop being held an IGMM computer lab.  The workshop will use the computers in the lab, but feel free to also bring your own laptop.
 
 <div class='right'>
-<br /><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
-<a href='/src/events/uk-may2014/index.md'><img src="/src/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
+<br /><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
+<a href='/events/uk-may2014/'><img src="/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
 </div>
 
 ## Support
@@ -85,11 +85,11 @@ This workshop is generously supported by the [MRC Institute of Genetics and Mole
 
 ### Galaxy May 2014 UK Tour
 
-This workshop is part of the [May 2014 Galaxy UK Tour](/src/events/uk-may2014/index.md), which features events in Norwich, as well as other events in Edinburgh.
+This workshop is part of the [May 2014 Galaxy UK Tour](/events/uk-may2014/), which features events in Norwich, as well as other events in Edinburgh.
 
 ## Slides
 
-* [Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405HGMM_Workshop.pdf)   
+* [Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405HGMM_Workshop.pdf)
 
 ## Questions?
 

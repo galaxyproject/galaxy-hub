@@ -3,7 +3,7 @@ date: '2020-02-14'
 title: "With Love: The All-new GVL 5.0 (beta)"
 authors: "Enis Afgan, Nuwan Goonasekera, Alexandru Mahmoud, Alex Ostrovsky, the GVL and Galaxy teams"
 tease: "Now more reliable, with better security, and with new features."
-image: "/src/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
+image: "/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
 highlight: true
 ---
 
@@ -31,8 +31,8 @@ end-users, or researchers (see section “Looking Ahead”). Together, the new
 platform enables a more robust deployment process, a more reliable Galaxy
 service, improved system security, and new user features.
 
-<div class="center"><a href="/src/blog/2020-02-gvl5-beta/gvl-login.png">
-    <img src="/src/blog/2020-02-gvl5-beta/gvl-login.png"
+<div class="center"><a href="/blog/2020-02-gvl5-beta/gvl-login.png">
+    <img src="/blog/2020-02-gvl5-beta/gvl-login.png"
      alt="GVL login" width="80%" />
 </a></div>
 
@@ -43,8 +43,8 @@ Getting access to a GVL instance is accomplished by launching your own instance 
 
 A key feature of the GVL v5.0 is its uniform availability on at least 4 cloud providers, up from just 2 supported by the previous GVL. By combining the [CloudBridge library](http://cloudbridge.cloudve.org/), which provides an abstraction over differences in cloud providers, with software containers, it is now possible to launch an identical version of the GVL on Amazon, Google, Jetstream, and NeCTAR clouds (Azure support is pending). Choosing which provider you want to use is as simple as selecting the appropriate provider from the _Target_ dropdown in CloudLaunch.
 
-<div class="center"><a href="/src/blog/2020-02-gvl5-beta/five-clouds.png">
-    <img src="/src/blog/2020-02-gvl5-beta/five-clouds.png"
+<div class="center"><a href="/blog/2020-02-gvl5-beta/five-clouds.png">
+    <img src="/blog/2020-02-gvl5-beta/five-clouds.png"
      alt="Multi-cloud selection" width="80%" />
 </a></div>
 
@@ -53,8 +53,8 @@ The GVL v5.0 also comes with an all-new implementation of CloudMan. CloudMan is 
 
 Specifically for Galaxy, CloudMan offers a graphical management interface for Galaxy configuration files. Changing values of `galaxy.yml` or `job_conf.xml` for example can now be accomplished with a visual editor made available within the web browser. Adding new configuration files is also supported. Importantly, all configuration changes are performed with zero-downtime, so when you change a configuration value that requires a process restart, Galaxy will continue to be available and serve user requests during this entire period without users experiencing service disruption. An erroneous configuration can also be rolled back with the click of a button, as all configuration changes are versioned and tracked. Overall, we believe this makes Galaxy administration more accessible while retaining the benefits of a scripted configuration management approach. With this setup, for example, it is possible to manually edit a configuration file without having to setup and use a tool such as Ansible. Meanwhile, Helm will ensure the changes are tracked and can be reversed in case of an undesirable change.
 
-<div class="center"><a href="/src/blog/2020-02-gvl5-beta/cm-galaxy-configs.png">
-    <img src="/src/blog/2020-02-gvl5-beta/cm-galaxy-configs.png"
+<div class="center"><a href="/blog/2020-02-gvl5-beta/cm-galaxy-configs.png">
+    <img src="/blog/2020-02-gvl5-beta/cm-galaxy-configs.png"
      alt="Visual Galaxy configuration via CloudMan" width="80%" />
 </a></div>
 
@@ -65,8 +65,8 @@ Since cloud computing became available, the ability to dynamically scale availab
 
 When should you scale? CloudMan now comes with a customizable status dashboard that monitors system status and allows you to react to the current load. By default, there are two dashboards: a system dashboard and a Galaxy dashboard. The system dashboard provides an overview of system resources, such as CPU and memory usage while the Galaxy dashboard provides insight into Galaxy metrics, such as the number of currently running jobs and distribution of tools used. The dashboard can be customized via [Grafana](https://grafana.com/) so the world is your oyster.
 
-<div class="center"><a href="/src/blog/2020-02-gvl5-beta/cluster-metrics.png">
-    <img src="/src/blog/2020-02-gvl5-beta/cluster-metrics.png"
+<div class="center"><a href="/blog/2020-02-gvl5-beta/cluster-metrics.png">
+    <img src="/blog/2020-02-gvl5-beta/cluster-metrics.png"
      alt="CloudMan cluster metrics dashboard" width="80%" />
 </a></div>
 
@@ -77,8 +77,8 @@ GVL v5.0 also implements improved security practices. The authentication to the 
 
 It is now possible to launch GVL instances on any supported cloud with an automatically signed SSL certificate so all the traffic to and from the instance is encrypted. The only requirements are you either have cloud DNS available on your cloud, in which case a DNS name can be automatically assigned for you, or you can pre-map a DNS name to the instance IP address yourself. During launch, select the “Cloud DNS” option and assign a domain name, or if your cloud provider does not support it, select the “Manually Specify” option, in which case you must map the DNS to a floating IP yourself before launching the cluster. CloudMan will take care of the rest to setup a valid SSL certificate that will be automatically renewed before it expires.
 
-<div class="center"><a href="/src/blog/2020-02-gvl5-beta/ssl.png">
-    <img src="/src/blog/2020-02-gvl5-beta/ssl.png"
+<div class="center"><a href="/blog/2020-02-gvl5-beta/ssl.png">
+    <img src="/blog/2020-02-gvl5-beta/ssl.png"
      alt="SSL certificate" width="80%" />
 </a></div>
 
@@ -90,6 +90,7 @@ Moreover, Galaxy’s k8s job runner facilitates Galaxy’s integration with the 
 To ensure proper functioning of the new GVL version, we have tested it using a number of representative Galaxy training tutorials from the Galaxy Training Network. The workflows were executed entirely using Docker containers for tools so they are completely reproducible and require no manual configuration or software installation. Granted, a number of the tutorials required updates to include tool updates or missing containers, implying arbitrary tutorials may not just work without intervention. However, once a tutorial has been validated, it will reliably run on any GVL instance and can be reliably used for future training workshops. If you encounter any issues running tools or workflows, please report them at https://github.com/galaxyproject/galaxy-helm/issues and we’ll do our best to fix them and make the GVL better for everyone!
 
 The tutorials selected for validation were as follows (note that some tutorials still have open PRs with the required updates):
+
 - [Introduction to Genome Assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/general-introduction/tutorial.html)
 - [Genome annotation with Prokka](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html)
 - [Unicycler Assembly](https://training.galaxyproject.org/training-material/topics/assembly/tutorials/unicycler-assembly/tutorial.html)

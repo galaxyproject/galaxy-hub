@@ -2,17 +2,17 @@
 title: "2500 Galaxy Papers & Counting"
 date: "2015-08-12"
 ---
-<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/src/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
+<div class='right'><a href='http://www.citeulike.org/group/16008/order/group_rating'><img src="/images/logos/CiteULikeLogo.png" alt="Galaxy at CiteULike Social Bookmarking Service" width="200" /></a></div>
 
-The [Galaxy CiteULike library](/src/publication-library/index.md) recently reached a milestone:  It now has over 2500 publications in it.  The Galaxy CiteULike Group was [launched in December 2011](/src/news/new-galaxy-group-cite-u-like/index.md) and [reached 1000 papers 18 months later](/src/news/galaxy-cite-u-like-paper1000/index.md). 
+The [Galaxy CiteULike library](/publication-library/) recently reached a milestone:  It now has over 2500 publications in it.  The Galaxy CiteULike Group was [launched in December 2011](/news/new-galaxy-group-cite-u-like/) and [reached 1000 papers 18 months later](/news/galaxy-cite-u-like-paper1000/).
 
-To be included in the library a publication needs to reference or mention Galaxy, extend Galaxy, use or reference a Galaxy instance, or otherwise discuss Galaxy or [cite one of the Galaxy Project papers](/src/citing-galaxy/index.md).
+To be included in the library a publication needs to reference or mention Galaxy, extend Galaxy, use or reference a Galaxy instance, or otherwise discuss Galaxy or [cite one of the Galaxy Project papers](/citing-galaxy/).
 
 Here's a review of those first 2500 papers.
 
-<span style="font-size: larger;">**[The Tags](/src/publication-library/index.md#tags)**</span>
+<span style="font-size: larger;">**[The Tags](/publication-library/#tags)**</span>
 
-Each paper is reviewed and one or more tags are added to it.  The initial set featured 9 tags.  This wasn't quite enough, and 8 more were added in 2013, bringing the [total to 17](/src/publication-library/index.md#tags).  (Papers from 2012 were back-curated with the new tags, but not before that.)  The numbers for each tag in each year for the first 2500 papers are below.
+Each paper is reviewed and one or more tags are added to it.  The initial set featured 9 tags.  This wasn't quite enough, and 8 more were added in 2013, bringing the [total to 17](/publication-library/#tags).  (Papers from 2012 were back-curated with the new tags, but not before that.)  The numbers for each tag in each year for the first 2500 papers are below.
 
 <table class="table">
   <tr>
@@ -293,7 +293,7 @@ Each paper is reviewed and one or more tags are added to it.  The initial set fe
 A couple of trends stand out in the tag data:
 
 * *methods* and *workbench* have always been the most popular.  *methods* papers use Galaxy in their analysis.  *workbench* either just mention Galaxy or discuss the platform itself.
-* The numbers of *usepublic* and *refpublic* publications are climbing rapidly.  Respectively, these are *methods* studies that did their analyses on a [public Galaxy server](/src/use/index.md) other than [usegalaxy.org](http://usegalaxy.org), and papers that reference those servers in some way (besides their methodology).  Part of this increase reflects better tracking of these papers, but (I believe) most of the increase reflects both the increased number of public servers (as reflected by the *isgalaxy* numbers), and their increased visibility.
+* The numbers of *usepublic* and *refpublic* publications are climbing rapidly.  Respectively, these are *methods* studies that did their analyses on a [public Galaxy server](/use/) other than [usegalaxy.org](http://usegalaxy.org), and papers that reference those servers in some way (besides their methodology).  Part of this increase reflects better tracking of these papers, but (I believe) most of the increase reflects both the increased number of public servers (as reflected by the *isgalaxy* numbers), and their increased visibility.
 * *reproducibility* became a hot topic (finally) in 2014.
 
 <br />
@@ -302,29 +302,29 @@ A couple of trends stand out in the tag data:
 Information on where the papers appeared is also available.  Galaxy-related papers have appeared in over 500 different publications.  Publications with 15 or more Galaxy papers are:
 
 
-| Journal |  2005  |  2006  |  2007  |  2008  |  2009  |  2010  |  2011  |  2012  |  2013  |  2014  |  2015  |  Total  | 
-| ------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ | 
-| *Plos One* |  0  |  0  |  0  |  1  |  1  |  4  |  16  |  32  |  42  |  45  |  27  |  **168**  | 
-| *Nucleic Acids Research* |  0  |  1  |  0  |  1  |  11  |  13  |  8  |  21  |  22  |  29  |  19  |  **125**  | 
-| *Bmc Genomics* |  0  |  0  |  0  |  0  |  2  |  4  |  12  |  22  |  27  |  42  |  15  |  **124**  | 
-| *Bioinformatics* |  0  |  0  |  0  |  5  |  4  |  7  |  23  |  19  |  19  |  30  |  10  |  **117**  | 
-| *Bmc Bioinformatics* |  0  |  0  |  1  |  0  |  2  |  10  |  15  |  16  |  8  |  25  |  6  |  **83**  | 
-| *Genome Research* |  1  |  2  |  4  |  3  |  5  |  2  |  9  |  12  |  2  |  8  |  3  |  **51**  | 
-| *Genome Biology* |  0  |  0  |  0  |  1  |  3  |  9  |  11  |  11  |  4  |  6  |  2  |  **47**  | 
-| *Plos Genet* |  0  |  0  |  0  |  2  |  0  |  1  |  6  |  10  |  15  |  6  |  4  |  **44**  | 
-| *Briefings in Bioinformatics* |  0  |  0  |  0  |  1  |  1  |  1  |  3  |  2  |  8  |  4  |  9  |  **29**  | 
-| *Genome Announcements* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  4  |  3  |  19  |  **26**  | 
-| *Concurrency and Computation: Practice and Experience* |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  0  |  11  |  10  |  **25**  | 
-| *Proceedings of the National Academy of Sciences* |  0  |  0  |  0  |  1  |  1  |  0  |  2  |  3  |  4  |  8  |  4  |  **23**  | 
-| *Cell* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  5  |  8  |  3  |  5  |  **23**  | 
-| *Plos Comput Biol* |  0  |  0  |  2  |  1  |  0  |  2  |  3  |  3  |  5  |  5  |  2  |  **23**  | 
-| *Molecular Biology and Evolution* |  0  |  0  |  0  |  0  |  3  |  0  |  1  |  1  |  9  |  2  |  4  |  **20**  | 
-| *Nature Communications* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  2  |  4  |  7  |  7  |  **20**  | 
-| *Molecular Ecology* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  1  |  11  |  4  |  0  |  **18**  | 
-| *Database* |  0  |  0  |  0  |  0  |  0  |  1  |  6  |  2  |  4  |  3  |  1  |  **17**  | 
-| *Genome Biology and Evolution* |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  2  |  3  |  5  |  2  |  **16**  | 
-| *Nature* |  1  |  0  |  0  |  0  |  1  |  3  |  1  |  0  |  4  |  2  |  3  |  **15**  | 
-| *Cell Reports* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  3  |  5  |  4  |  3  |  **15**  | 
+| Journal |  2005  |  2006  |  2007  |  2008  |  2009  |  2010  |  2011  |  2012  |  2013  |  2014  |  2015  |  Total  |
+| ------- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ------ |
+| *Plos One* |  0  |  0  |  0  |  1  |  1  |  4  |  16  |  32  |  42  |  45  |  27  |  **168**  |
+| *Nucleic Acids Research* |  0  |  1  |  0  |  1  |  11  |  13  |  8  |  21  |  22  |  29  |  19  |  **125**  |
+| *Bmc Genomics* |  0  |  0  |  0  |  0  |  2  |  4  |  12  |  22  |  27  |  42  |  15  |  **124**  |
+| *Bioinformatics* |  0  |  0  |  0  |  5  |  4  |  7  |  23  |  19  |  19  |  30  |  10  |  **117**  |
+| *Bmc Bioinformatics* |  0  |  0  |  1  |  0  |  2  |  10  |  15  |  16  |  8  |  25  |  6  |  **83**  |
+| *Genome Research* |  1  |  2  |  4  |  3  |  5  |  2  |  9  |  12  |  2  |  8  |  3  |  **51**  |
+| *Genome Biology* |  0  |  0  |  0  |  1  |  3  |  9  |  11  |  11  |  4  |  6  |  2  |  **47**  |
+| *Plos Genet* |  0  |  0  |  0  |  2  |  0  |  1  |  6  |  10  |  15  |  6  |  4  |  **44**  |
+| *Briefings in Bioinformatics* |  0  |  0  |  0  |  1  |  1  |  1  |  3  |  2  |  8  |  4  |  9  |  **29**  |
+| *Genome Announcements* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  4  |  3  |  19  |  **26**  |
+| *Concurrency and Computation: Practice and Experience* |  0  |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  0  |  11  |  10  |  **25**  |
+| *Proceedings of the National Academy of Sciences* |  0  |  0  |  0  |  1  |  1  |  0  |  2  |  3  |  4  |  8  |  4  |  **23**  |
+| *Cell* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  5  |  8  |  3  |  5  |  **23**  |
+| *Plos Comput Biol* |  0  |  0  |  2  |  1  |  0  |  2  |  3  |  3  |  5  |  5  |  2  |  **23**  |
+| *Molecular Biology and Evolution* |  0  |  0  |  0  |  0  |  3  |  0  |  1  |  1  |  9  |  2  |  4  |  **20**  |
+| *Nature Communications* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  2  |  4  |  7  |  7  |  **20**  |
+| *Molecular Ecology* |  0  |  0  |  0  |  0  |  0  |  1  |  1  |  1  |  11  |  4  |  0  |  **18**  |
+| *Database* |  0  |  0  |  0  |  0  |  0  |  1  |  6  |  2  |  4  |  3  |  1  |  **17**  |
+| *Genome Biology and Evolution* |  0  |  0  |  0  |  0  |  0  |  1  |  3  |  2  |  3  |  5  |  2  |  **16**  |
+| *Nature* |  1  |  0  |  0  |  0  |  1  |  3  |  1  |  0  |  4  |  2  |  3  |  **15**  |
+| *Cell Reports* |  0  |  0  |  0  |  0  |  0  |  0  |  0  |  3  |  5  |  4  |  3  |  **15**  |
 
 <br />
 There are also many unexpected publications in the list:
@@ -375,8 +375,8 @@ Finally, the total number of papers per year continues to increase, and we expec
 
 <br />
 
-We will continue to report new papers in the [monthly Galaxy newsletters](/src/galaxy-updates/index.md).  New [tags](/src/publication-library/index.md#tags) may also show up as the project and community evolve.
+We will continue to report new papers in the [monthly Galaxy newsletters](/galaxy-updates/).  New [tags](/publication-library/#tags) may also show up as the project and community evolve.
 
 In the meantime, I expect the next 2500 papers will be published in considerably less than time than the first 2500.  I'm looking forward to all that research
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)

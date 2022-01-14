@@ -4,13 +4,13 @@ title: "Galaxy Publication Library"
 
 <div class="float-right">
 
-[![Galaxy Publication Library at Zotero](/src/images/logos/zotero-logo-small-trans.png)](https://www.zotero.org/groups/galaxy)
+[![Galaxy Publication Library at Zotero](/images/logos/zotero-logo-small-trans.png)](https://www.zotero.org/groups/galaxy)
 
 </div>
 
-The Galaxy Project uses the [Zotero](https://zotero.org/) social bookmarking service to organize publications that reference Galaxy. The [Galaxy Group](https://www.zotero.org/groups/galaxy) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy.  You can [search the library at Zotero](https://www.zotero.org/groups/1732893/galaxy/items), or through the [unified Galaxy search](/src/search/index.md).
+The Galaxy Project uses the [Zotero](https://zotero.org/) social bookmarking service to organize publications that reference Galaxy. The [Galaxy Group](https://www.zotero.org/groups/galaxy) lists published articles, conference proceedings, theses, book chapters and books that use, extend, reference or implement Galaxy.  You can [search the library at Zotero](https://www.zotero.org/groups/1732893/galaxy/items), or through the [unified Galaxy search](/search/).
 
-*(Need to cite Galaxy in a publication? See [Citing Galaxy](/src/citing-galaxy/index.md).)*
+*(Need to cite Galaxy in a publication? See [Citing Galaxy](/citing-galaxy/).)*
 
 # Tags
 
@@ -32,12 +32,12 @@ Galaxy specific tags all start with "+":
 | [+IsGalaxy](https://www.zotero.org/groups/galaxy/items/tag/+IsGalaxy/) | Publications about Galaxy itself or installations of Galaxy. |
 | [+Methods](https://www.zotero.org/groups/galaxy/items/tag/+Methods/) | Uses Galaxy in their methods. If it's clear from the paper, which instance was used, then methods papers will also include one or more of these tags: |
 | &nbsp; [+UseCloud](https://www.zotero.org/groups/galaxy/items/tag/+UseCloud/) | &nbsp; Uses a custom built cloud based instance of Galaxy in its methods. |
-| &nbsp; [+UseLocal](https://www.zotero.org/groups/galaxy/items/tag/+UseLocal/) | &nbsp; Uses a local installation of Galaxy in its methods. | 
-| &nbsp; [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | &nbsp; Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md), in its methods. |
-| &nbsp; [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | &nbsp; Uses a [publicly accessible Galaxy platform](/src/use/index.md) in its methods. |
+| &nbsp; [+UseLocal](https://www.zotero.org/groups/galaxy/items/tag/+UseLocal/) | &nbsp; Uses a local installation of Galaxy in its methods. |
+| &nbsp; [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | &nbsp; Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/main/), in its methods. |
+| &nbsp; [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | &nbsp; Uses a [publicly accessible Galaxy platform](/use/) in its methods. |
 | [+Other](https://www.zotero.org/groups/galaxy/items/tag/+Other/) | Publications that don't fit well under any other tag. |
-| [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/src/galaxy-team/index.md) member as an author. |
-| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/src/use/index.md) or a [Galaxy service](/src/use/index.md).  This is distinct from the *+UsePublic* tag. |
+| [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/galaxy-team/) member as an author. |
+| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/).  This is distinct from the *+UsePublic* tag. |
 | [+Reproducibility](https://www.zotero.org/groups/galaxy/items/tag/+Reproducibility/) | Reproducibility and persistence in science. |
 | [+Shared](https://www.zotero.org/groups/galaxy/items/tag/+Shared/) |  Publications that have published workflows, histories, datasets, pages, or visualizations in a Galaxy instance. |
 | [+Tools](https://www.zotero.org/groups/galaxy/items/tag/+Tools/) | Tools that run in, have been ported to, or interact with Galaxy |
@@ -47,7 +47,7 @@ Galaxy specific tags all start with "+":
 
 ### Public Platform tags (">")
 
-Publications that mention or use a [public Galaxy platform](/src/use/index.md) are tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
+Publications that mention or use a [public Galaxy platform](/use/) are tagged with the platform's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the RepeatExplorer public server.
 
 *Note: We only started using ">" tags after the move to Zotero in September 2017.  Publications before that might have these tags, but most won't.*
 
@@ -60,25 +60,25 @@ Zotero is configured to also add any keywords it can detect automatically when t
 
 # Want to Help?
 
-Please see the [instructions for contributing](/src/publication-library/contribute). We'd love to have your help.
+Please see the [instructions for contributing](/publication-library/contribute). We'd love to have your help.
 
 # Some History
 
 ## Milestones
 
-* [1000th Galaxy CiteULike Paper](/src/news/galaxy-cite-u-like-paper1000/index.md), June 6, 2013
-* [2500 Galaxy Papers & Counting](/src/news/first2500-papers/index.md), August 12, 2015
-* [Galaxy: the first 5,000 pubs](/src/blog/2017-10-5000-pubs/index.md), October 16, 2017
+* [1000th Galaxy CiteULike Paper](/news/galaxy-cite-u-like-paper1000/), June 6, 2013
+* [2500 Galaxy Papers & Counting](/news/first2500-papers/), August 12, 2015
+* [Galaxy: the first 5,000 pubs](/blog/2017-10-5000-pubs/), October 16, 2017
 * [7,500 pubs in library](https://twitter.com/tnabtaf/status/1121086728293343232), April 23, 2019
-* [Galaxy: the first 10,000 pubs](/src/blog/2020-08-10k-pubs/index.md), August 26, 2020
+* [Galaxy: the first 10,000 pubs](/blog/2020-08-10k-pubs/), August 26, 2020
 
 ## CiteULike & Mendeley
 
 <div class="float-right">
 
-![citeulike](/src/images/logos/CiteULikeLogo.png)
+![citeulike](/images/logos/CiteULikeLogo.png)
 
-![Mendeley](/src/images/logos/MendeleyLogo.png)
+![Mendeley](/images/logos/MendeleyLogo.png)
 
 </div>
 

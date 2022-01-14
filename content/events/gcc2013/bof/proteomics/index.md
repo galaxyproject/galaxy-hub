@@ -5,22 +5,23 @@ title: Proteomics BoF
 
 
 
-<slot name="/events/gcc2013/linkbox" />
+import linkbox from "../../linkbox.json"
+<link-box :data="linkbox" />
 <slot name="/events/gcc2013/bof/linkbox" />
 
-<div class='left'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
+<div class='left'><a href='/events/gcc2013/bof/'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
-This page describes the **Proteomics BoF** [Birds of a Feather](/src/events/gcc2013/bof/index.md) meetup being held at [GCC2013](/src/events/gcc2013/index.md).
+This page describes the **Proteomics BoF** [Birds of a Feather](/events/gcc2013/bof/) meetup being held at [GCC2013](/events/gcc2013/).
 
 Two potential directions this BoF could follow depending on who (if anyone) is interested in attending - this could take the form of an tutorial/advertisement session or more of a planning session.
 
 If there are attendees who are not currently supporting proteomics with their Galaxy installations but would like to, this could be more of tutorial session - we could discuss various options currently available - ProtK, Galaxy-P tools, Adapt, NBIC, what it takes to get them up and running, current challenges, etc....
 
-If the attendees are more or exclusively current developers using Galaxy for proteomics we could skip right to discussing what our plans are for the next year, strategize how to spur adoption and papers, develop documentation/best practices, etc.... 
+If the attendees are more or exclusively current developers using Galaxy for proteomics we could skip right to discussing what our plans are for the next year, strategize how to spur adoption and papers, develop documentation/best practices, etc....
 
 ## When and Where
 
-The Proteomics BoF has been  [tentatively scheduled](/src/events/gcc2013/bof/index.md#bof-schedule) for lunch on tuesday in the cantina
+The Proteomics BoF has been  [tentatively scheduled](/events/gcc2013/bof/#bof-schedule) for lunch on tuesday in the cantina
 
 ## Who is Participating
 

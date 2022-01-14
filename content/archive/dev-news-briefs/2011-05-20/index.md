@@ -97,27 +97,27 @@ New tool wrapper generates a comprehensive and useful QC report.
 
 * This wrapper will accept any *FASTQ*, *SAM*, or *BAM* file as primary input. It will also take an optional file containing a list of contaminants information, in the form of a tab-delimited file with 2 columns, name and sequence.
 * The tool produces a single HTML output file that contains all of the results, including the following basic statistics:
-  * Per base sequence quality
-  * Per sequence quality scores
-  * Per base sequence content
-  * Per base GC content
-  * Per sequence GC content
-  * Per base N content
-  * Sequence Length Distribution
-  * Sequence Duplication Levels
-  * Overrepresented sequences
+    * Per base sequence quality
+    * Per sequence quality scores
+    * Per base sequence content
+    * Per base GC content
+    * Per sequence GC content
+    * Per base N content
+    * Sequence Length Distribution
+    * Sequence Duplication Levels
+    * Overrepresented sequences
 
-![](/src/archive/dev-news-briefs/2011-05-20/2011_05_20_fastqc.png)
+![](/archive/dev-news-briefs/2011-05-20/2011_05_20_fastqc.png)
 
 ### Workflows & Multiple datasets
 
 Workflows can now be run on multiple datasets at the same time.  The run workflow page will now show a new stacked dataset icon.  
 
-![](/src/archive/dev-news-briefs/2011-05-20/2011_05_20_workflow1.png)
+![](/archive/dev-news-briefs/2011-05-20/2011_05_20_workflow1.png)
 
 Upon clicking that, the selection box changes to a multi-select, and an independent workflow execution will occur for each of these input dataset steps.  The rest of the parameters of the workflow will be identical.  Combining this functionality with the existing "Send results to a new history" option will send the results of *each* workflow execution to a separate history, numbered sequentially "<name> 1", "<name> 2", etc., where <name> is whatever text you put in the new history name box.
 
-![](/src/archive/dev-news-briefs/2011-05-20/2011_05_20_workflow2.png)
+![](/archive/dev-news-briefs/2011-05-20/2011_05_20_workflow2.png)
 
 Please note that this new type of "multiple-input dataset" step can currently be used only once in any individual workflow.
 
@@ -129,44 +129,44 @@ Please note that this new type of "multiple-input dataset" step can currently be
 
 * *BAM to SAM* tool can now optionally output headers.
 * *GFF*,*GFF3*,*GTF* related
-  * Gracefully handle parsing errors in GFFReader and accurately compute raw size of *GFF* features.
-  * Enable *GFF* and *GFF3* attributes to be written in *GTF* format.
-  * Make *Operate on Genomic Intervals (GOPS)* intersect and subtract tools compatible with *GFF* features rather than *GFF* lines.
-  * Enable *GFF* filter attributes tool to accept arbitrary conditions.
+    * Gracefully handle parsing errors in GFFReader and accurately compute raw size of *GFF* features.
+    * Enable *GFF* and *GFF3* attributes to be written in *GTF* format.
+    * Make *Operate on Genomic Intervals (GOPS)* intersect and subtract tools compatible with *GFF* features rather than *GFF* lines.
+    * Enable *GFF* filter attributes tool to accept arbitrary conditions.
 * Datasource tools: Remove hard-coded special-case handling of *UCSC Table Browser* and *GBrowse* datasource tools; functionality remains, but is now a part of the individual tool's XML configuration files. Auto-detect is now available by providing data_type=auto parameters.
 * Make *Cufflinks*, *Cuffcompare*, and *Cuffdiff* wrappers compatible with v1.0.1 (new option implementation pending).
-* *BWA* wrapper enhancement 
-  * The Galaxy *BWA* wrappers (for *Illumina* and for *SOLiD*) were updated for version 0.5.9 of *BWA*. Three new options have been added to them: Maximum number of alignments to output in the XA tag for reads paired properly (samse/sampe -n); Maximum number of alignments to output in the XA tag for disconcordant read pairs (excluding singletons) (sampe -N); and Specify the read group (samse/sampe -r).
-  * If read groups are to be specified, the following aspects MUST be set:
-    * Read group identifier (ID)
-    * Library name
-    * Platform/technology used to produce the reads sample
-  * And the following can be set:
-    * Sequencing center that produced the read
-    * Description
-    * Date that run was produced
-    * Flow order
-    * Array of nucleotide bases that correspond to the key sequence of each read
-    * Programs used for processing the read group
-    * Predicted median insert size
-    * Platform unit
-  * Formerly, when sampse/sampe -n was specified, it would cause *BWA* to output a format other than SAM. This is no longer the case. The *BWA* manual can be found at [http://bio-bwa.sourceforge.net/bwa.shtml](http://bio-bwa.sourceforge.net/bwa.shtml)
+* *BWA* wrapper enhancement
+    * The Galaxy *BWA* wrappers (for *Illumina* and for *SOLiD*) were updated for version 0.5.9 of *BWA*. Three new options have been added to them: Maximum number of alignments to output in the XA tag for reads paired properly (samse/sampe -n); Maximum number of alignments to output in the XA tag for disconcordant read pairs (excluding singletons) (sampe -N); and Specify the read group (samse/sampe -r).
+    * If read groups are to be specified, the following aspects MUST be set:
+        * Read group identifier (ID)
+        * Library name
+        * Platform/technology used to produce the reads sample
+    * And the following can be set:
+        * Sequencing center that produced the read
+        * Description
+        * Date that run was produced
+        * Flow order
+        * Array of nucleotide bases that correspond to the key sequence of each read
+        * Programs used for processing the read group
+        * Predicted median insert size
+        * Platform unit
+    * Formerly, when sampse/sampe -n was specified, it would cause *BWA* to output a format other than SAM. This is no longer the case. The *BWA* manual can be found at [http://bio-bwa.sourceforge.net/bwa.shtml](http://bio-bwa.sourceforge.net/bwa.shtml)
 * *SAM* header
-  * For several wrappers where *SAM* header suppression was optional (*BWA, BFAST, Bowtie, SRMA*), the default was changed to NOT suppress, however it is still optional.
-  * Bam-to-sam now keeps the header in the *BAM* file. 
+    * For several wrappers where *SAM* header suppression was optional (*BWA, BFAST, Bowtie, SRMA*), the default was changed to NOT suppress, however it is still optional.
+    * Bam-to-sam now keeps the header in the *BAM* file.
 * Setting of output *dbkey*
-  * Outputs for the following now are correctly set to the relevant dbkey (for reference dbkey whether using built-in or one from history): *Freebayes, SRMA, Mosaik, BFAST, Bowtie, BWA, sam-to-bam, and bam-to-sam*. 
+    * Outputs for the following now are correctly set to the relevant dbkey (for reference dbkey whether using built-in or one from history): *Freebayes, SRMA, Mosaik, BFAST, Bowtie, BWA, sam-to-bam, and bam-to-sam*.
 
 ### New Tools
 
-* *GATK* 
-  * *note* These tool integrations should be considered alpha. Changes are not necessarily backwards-compatible with workflows or re-run functionality.
-  * *Realigner Target Creator* 
-  * *Indel Realigner*
-  * *Count Covariates*
-  * *Table Recalibration* 
-  * *Analyze Covariates*
-  * *Unified Genotyper* 
+* *GATK*
+    * *note* These tool integrations should be considered alpha. Changes are not necessarily backwards-compatible with workflows or re-run functionality.
+    * *Realigner Target Creator*
+    * *Indel Realigner*
+    * *Count Covariates*
+    * *Table Recalibration*
+    * *Analyze Covariates*
+    * *Unified Genotyper*
 * Add tool *Filter GTF by attribute values list*. Tool filters a *GTF* based on a list of attribute values. The tool is especially useful as a downstream analysis tool for filtering *GTF* files based on *Cuffdiff* outputs.
 
 ### Trackster
@@ -191,17 +191,18 @@ Please note that this new type of "multiple-input dataset" step can currently be
 
 * Cloud instance sharing: now share your entire cloud instance deployment (including data, analyses, and/or customizations) with the world or specific users with a click of a button.
 
-![](/src/archive/dev-news-briefs/2011-05-20/2011_05_20_cloudman1.png)
+![](/archive/dev-news-briefs/2011-05-20/2011_05_20_cloudman1.png)
 
 ### Source
 
 * Reserved/predefined tool template values
-  * Tool command line templates may make use of certain variables
+    * Tool command line templates may make use of certain variables
 
 pre-defined by the Galaxy framework.  Some of these already existed but
 were undocumented.  All have been changed to use a common (pythonic)
 naming scheme, but the old names are retained for backwards
 compatibility:
+
 * new name = old name (if any) = value description
 * __new_file_path__ = universe_wsgi.ini new_file_path value
 * __tool_data_path__ = GALAXY_DATA_INDEX_DIR = universe_wsgi.ini tool_data_path value
@@ -237,7 +238,7 @@ compatibility:
 
 ### About Galaxy
 
-The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html). 
+The **Galaxy team** is a part of [BX](http://www.bx.psu.edu/) at [Penn State](http://www.psu.edu/), and the [Biology](http://www.biology.emory.edu/) and [Mathematics and Computer Science](http://www.mathcs.emory.edu/) departments at [Emory University](http://www.emory.edu/home/index.html).
 
 **Galaxy** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
@@ -254,7 +255,7 @@ Join us at **Twitter**
 ```#usegalaxy```
 
 
-[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject) 
+[http://twitter.com/#!/search/galaxyproject](http://twitter.com/#!/search/galaxyproject)
 
 
 ----

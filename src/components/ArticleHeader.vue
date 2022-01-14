@@ -1,20 +1,21 @@
 <template>
     <header :class="article.category">
         <g-link v-if="article.category" :to="`/${article.category}/`" class="link">
-            &larr; Back to {{ titlecase(article.category) }}
+            &larr; Back to <span class="text-capitalize">{{ article.category }}</span>
         </g-link>
-        <g-link v-else to="/" class="link">&larr; Back to Home</g-link>
         <p v-if="article.redirect" class="redirect alert alert-warning">
             <strong>Note</strong>
             This content has a new home at
             <a :href="article.redirect">{{ article.redirect }}</a>
-            , which you will be redirected to in 5 seconds.
+            , which you will be redirected to in {{ redirectDelay }} seconds.
         </p>
-        <g-image v-if="article.image" class="img-fluid main-image" :src="getImage(article)" />
-        <h1 class="title" v-if="!article.skip_title_render">{{ article.title }}</h1>
+        <div class="clearfix"></div>
+        <g-image v-if="article.image" class="img-fluid main-image" :src="image" />
+        <h1 class="title float-left" v-if="!article.skip_title_render">{{ article.title }}</h1>
+        <div class="clearfix"></div>
         <p class="subtitle" v-if="article.tease">{{ article.tease }}</p>
         <ul class="metadata list-unstyled" v-if="article.category === 'events'">
-            <li v-if="article.date"><span class="metakey">Date:</span> {{ dateSpan(article.date, article.days) }}</li>
+            <li v-if="article.date"><span class="metakey">Date:</span> {{ dateSpan }}</li>
             <li v-if="article.location">
                 <span class="metakey">Location: </span>
                 <a v-if="article.location_url" :href="article.location_url">{{ article.location }}</a>
@@ -37,7 +38,7 @@
             <p class="contact" v-if="article.contact">Contact: {{ article.contact }}</p>
             <p class="authors" v-if="article.authors">By {{ article.authors }}</p>
             <p class="date" v-if="article.date">
-                {{ dateToStr(strToDate(article.date), "D MMMM YYYY") }}
+                {{ articleDateStr }}
             </p>
         </section>
         <p class="outlink" v-if="article.external_url">See <a :href="article.external_url">(external) url</a></p>
@@ -49,63 +50,52 @@
 </template>
 
 <script>
-import { repr, doRedirect, titlecase, startswith, strToDate, dateToStr, getImage } from "~/utils.js";
+import { repr, doRedirect, getImage, humanDateSpan } from "~/utils.js";
+import * as dayjs from "dayjs";
+
 export default {
     props: {
         article: { type: Object, required: true },
     },
-    methods: {
-        getImage(article) {
-            return getImage(article.image, article.images);
-        },
-        dateSpan(start, days, format = "D MMMM YYYY") {
-            let startDate = strToDate(start);
-            if (days && days > 1) {
-                let endTimestamp = startDate.getTime() + (days - 1) * 24 * 60 * 60 * 1000;
-                let endDate = new Date(endTimestamp);
-                let prefix = "",
-                    startDateStr,
-                    endDateStr,
-                    suffix = "";
-                if (startDate.getFullYear() === endDate.getFullYear()) {
-                    if (startDate.getMonth() === endDate.getMonth()) {
-                        // Everything the same but the day.
-                        prefix = dateToStr(startDate, "MMMM") + " ";
-                        startDateStr = String(startDate.getDate());
-                        endDateStr = String(endDate.getDate());
-                        suffix = ", " + startDate.getFullYear();
-                    } else {
-                        // Same year.
-                        startDateStr = dateToStr(startDate, "D MMMM");
-                        endDateStr = dateToStr(endDate, "D MMMM");
-                        suffix = ", " + startDate.getFullYear();
-                    }
-                } else {
-                    // Different years.
-                    startDateStr = dateToStr(startDate, format);
-                    endDateStr = dateToStr(endDate, format);
-                }
-                return `${prefix}${startDateStr} - ${endDateStr}${suffix}`;
+    data() {
+        return {
+            redirectDelay: 5,
+        };
+    },
+    computed: {
+        dateSpan() {
+            if (this.article?.date !== this.article?.end) {
+                return humanDateSpan(this.startDate, this.endDate);
             } else {
-                return dateToStr(startDate, format);
+                return this.articleDateStr;
             }
         },
-        titlecase,
-        strToDate,
-        dateToStr,
+        startDate() {
+            return dayjs(this.article.date);
+        },
+        endDate() {
+            return dayjs(this.article.end);
+        },
+        articleDateStr() {
+            return this.startDate.format("MMMM D YYYY");
+        },
+        image() {
+            return getImage(this.article.image, this.article.images);
+        },
     },
     mounted() {
         if (this.article.redirect) {
             let url = getRedirectUrl(this.article.redirect);
-            console.log(repr`Redirecting to ${url} in 5 seconds..`);
-            setTimeout(() => doRedirect(url), 5000);
+            console.log(repr`Redirecting to ${url} in ${this.redirectDelay} seconds..`);
+            let currentPath = window.location.pathname;
+            setTimeout(() => doRedirect(url, currentPath), this.redirectDelay * 1000);
         }
     },
 };
 function getRedirectUrl(target) {
-    if (startswith(target, "/")) {
+    if (target.startsWith("/")) {
         return `${window.location.origin}${target}`;
-    } else if (startswith(target, "http://") || startswith(target, "https://")) {
+    } else if (target.startsWith("http://") || target.startsWith("https://")) {
         return target;
     } else {
         console.error(repr`Unrecognized redirect url ${target}`);
@@ -117,6 +107,8 @@ function getRedirectUrl(target) {
 .main-image {
     float: right;
     margin: 20px 0px 5px 10px;
+    max-height: 400px;
+    width: auto;
     padding: 2px;
     border: 1px solid #666;
 }

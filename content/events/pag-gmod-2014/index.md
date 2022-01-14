@@ -1,7 +1,7 @@
 ---
 title: Galaxy @ PAG 2014 and GMOD 2014
 ---
-<div class='center'><a href='http://www.intlpag.org/'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2014)" height="100" /></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src="/src/images/logos/GMOD2014.png" alt="2014 GMOD Meeting" height="90" /></a> 
+<div class='center'><a href='http://www.intlpag.org/'><img src="/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2014)" height="100" /></a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href='http://gmod.org/wiki/Jan_2014_GMOD_Meeting'><img src="/images/logos/GMOD2014.png" alt="2014 GMOD Meeting" height="90" /></a>
 </div>
 
 
@@ -82,7 +82,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=18AEC6'>Galaxy for NGS Data Analysis: A Hands-on Workshop</a> </td>
     <td> Workshops<div class='indent'>California Room</div> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014PAGNGSAnalysisWorkshop.pdf'>Slides1</a>, <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014PAGRunningALocalGalaxy.pdf'>Slides2</a> </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, Anushka Brownley </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a>, Anushka Brownley </td>
   </tr>
   <tr>
     <th colspan=6> </th>
@@ -99,7 +99,7 @@ Galaxy had a strong presence at the [Plant and Animal Genome XXII (PAG 2014)](ht
     <td style=" text-align: center;"> 11:50-12:30 </td>
     <td> <a href='http://pag14.mapyourshow.com/5_0/sessions/sessiondetails.cfm?ScheduledSessionID=1FAC'>Galaxy CloudMan: A Gentle Introduction to Data Analysis on the Cloud</a> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014PAGCloudManTalk.pdf'>Slides</a> </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
 </table>
 
@@ -121,7 +121,7 @@ The [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting) meeting schedule has
     <th> Thursday<br />January 16 </th>
     <td> Galaxy Project Update </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2014GMODGalaxyUpdae.pdf'>Slides</a> </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> Friday<br />January 17 </th>
@@ -135,6 +135,6 @@ The [GMOD 2014](http://gmod.org/wiki/Jan_2014_GMOD_Meeting) meeting schedule has
 ## Flier
 
 <div class='left'>
-<a href='https://depot.galaxyproject.org/hub/attachments/events/pag-gmod-2014/GalaxyAtPAG2014Flier.pdf'><img src="/src/events/pag-gmod-2014/GalaxyAtPAG_GMOD_2014Thumb.png" alt="Galaxy Related Events @ PAG & GMOD 2014" height="137" /></a> 
-<a href='https://depot.galaxyproject.org/hub/attachments/events/pag-gmod-2014/GalaxyAtPAG2014wGCCFlier.pdf'><img src="/src/images/galaxy-logos/GCC2014FlierThumb.png" alt="Galaxy @ PAG; on one side GCC announcement on the other" /></a></div>
+<a href='https://depot.galaxyproject.org/hub/attachments/events/pag-gmod-2014/GalaxyAtPAG2014Flier.pdf'><img src="/events/pag-gmod-2014/GalaxyAtPAG_GMOD_2014Thumb.png" alt="Galaxy Related Events @ PAG & GMOD 2014" height="137" /></a>
+<a href='https://depot.galaxyproject.org/hub/attachments/events/pag-gmod-2014/GalaxyAtPAG2014wGCCFlier.pdf'><img src="/images/galaxy-logos/GCC2014FlierThumb.png" alt="Galaxy @ PAG; on one side GCC announcement on the other" /></a></div>
 Going to PAG?  Print out a copy of the [Galaxy @ PAG 2014 flier](https://depot.galaxyproject.org/hub/attachments/events/pag-gmod-2014/GalaxyAtPAG2014Flier.pdf).  Want to help get the word out about Galaxy?  [Print the version with the GCC2014 announcement on the back](https://depot.galaxyproject.org/hub/attachments/events/pag-gmod-2014/GalaxyAtPAG2014wGCCFlier.pdf) and take several copies with you.

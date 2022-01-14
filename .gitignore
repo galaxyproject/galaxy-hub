@@ -8,3 +8,6 @@ __pycache__
 *.DS_Store
 /testing
 /meta
+/cypress/videos
+/cypress/screenshots
+broken-links.md

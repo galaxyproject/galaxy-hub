@@ -4,9 +4,9 @@ tease: "Sarepta Therapeutics is looking for you"
 date: "2019-05-02"
 ---
 
-[<img class="float-right" style="max-width: 300px" src="/src/news/2019-05-sarepta/sarepta-logo.png" alt="Develop Galaxy-based solutions for Sarepta Therapeutics" />](https://www.sarepta.com/)
+[<img class="float-right" style="max-width: 300px" src="/news/2019-05-sarepta/sarepta-logo.png" alt="Develop Galaxy-based solutions for Sarepta Therapeutics" />](https://www.sarepta.com/)
 
-[Sarepta Therapeutics](https://www.sarepta.com/) is looking for an experienced Galaxy user/programmer/administrative user to set up a pipeline either on local server or Cloud environment.   This will be a consulting type of work, applying 
+[Sarepta Therapeutics](https://www.sarepta.com/) is looking for an experienced Galaxy user/programmer/administrative user to set up a pipeline either on local server or Cloud environment.   This will be a consulting type of work, applying
 
 * QC reads and trim adapter and low quality reads
 * Create QC report using MultiQC tool

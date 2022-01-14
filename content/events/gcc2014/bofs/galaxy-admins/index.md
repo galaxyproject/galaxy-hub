@@ -5,23 +5,23 @@ title: GalaxyAdmins BoF
 
 <slot name="/events/gcc2014/linkbox" />
 
-<div class='left'><a href='/src/events/gcc2014/bofs/index.md'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a><br /><br />
-<a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="100" /></a></div></div>
+<div class='left'><a href='/events/gcc2014/bofs/'><img src="/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a><br /><br />
+<a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="100" /></a></div></div>
 
-This page describes the **[GalaxyAdmins](/src/community/galaxy-admins/index.md)** [Birds of a Feather](/src/events/gcc2014/bofs/index.md) meetup being held at [GCC2014](/src/events/gcc2014/index.md).
+This page describes the **[GalaxyAdmins](/community/galaxy-admins/)** [Birds of a Feather](/events/gcc2014/bofs/) meetup being held at [GCC2014](/events/gcc2014/).
 
 
 When: **Wednesday, July 2, 5:45pm**
 
 Where: **Multipurpose Room 324**
 
-Contact: [Dave Clements](/src/people/dave-clements/index.md)
+Contact: [Dave Clements](/people/dave-clements/)
 
 # Description
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/src/community/galaxy-admins/meetups/index.md) and at events like GCC2014, where a lot of us happen to be.
+[GalaxyAdmins](/community/galaxy-admins/) is a group of people that are responsible for administering large Galaxy instances.  We [meet online every other month](/community/galaxy-admins/meetups/) and at events like GCC2014, where a lot of us happen to be.
 
-GCC2014 coincides with the two year anniversary of GalaxyAdmins starting up.  The [GalaxyAdmins BoF at GCC2013](/src/events/gcc2013/bof/galaxy-admins/index.md) was very well attended and resulted in several actions items, many of which have now been implemented.  However, the past 12 months have been less successful at having this group meet online every other month.
+GCC2014 coincides with the two year anniversary of GalaxyAdmins starting up.  The [GalaxyAdmins BoF at GCC2013](/events/gcc2013/bof/galaxy-admins/) was very well attended and resulted in several actions items, many of which have now been implemented.  However, the past 12 months have been less successful at having this group meet online every other month.
 
 This meetup will discuss last year's action items, what we can about meetups in the coming year, GalaxyAdmins leadership, and whatever else participants want to talk about.
 
@@ -45,13 +45,13 @@ If you manage, or are about to manage, a Galaxy installation, then this is an ex
 
 # Attendees
 
-If you are interested, please add your name below and/or send an email to [Dave Clements](/src/people/dave-clements/index.md)
+If you are interested, please add your name below and/or send an email to [Dave Clements](/people/dave-clements/)
 
-* [Dave Clements](/src/people/dave-clements/index.md)
-* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
+* [Dave Clements](/people/dave-clements/)
+* [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
 * Sebastian Schaaf
-* [Helena Rasche](/src/people/helena-rasche/index.md)
-* [Dan Blankenberg](/src/people/dan/index.md)
+* [Helena Rasche](/people/helena-rasche/)
+* [Dan Blankenberg](/people/dan/)
 * Christine Walls
 * Alistair Chilcott
 * Nathan Cole
@@ -59,8 +59,8 @@ If you are interested, please add your name below and/or send an email to [Dave 
 * David van Enckevort
 * Leon Mei
 * Melissa Cline
-* [Dannon Baker](/src/people/dannon-baker/index.md)
-* [James Taylor](/src/people/james-taylor/index.md)
+* [Dannon Baker](/people/dannon-baker/)
+* [James Taylor](/people/james-taylor/)
 * Kyle Elrott
 * Nikolay Vazov
 * Derek Benson
@@ -75,7 +75,7 @@ If you are interested, please add your name below and/or send an email to [Dave 
 * Ulf Schaefer
 * JJ Johnson
 * Ira Cooke
-* [John Chilton](/src/people/john-chilton/index.md)
+* [John Chilton](/people/john-chilton/)
 * Nuria Lozano-Garcia
 * Eric Petkau
 * Carsten Rundsten
@@ -96,17 +96,17 @@ Discussion focused on a few different areas:
 
 # Action Items from GCC2013 Meetup
 
-[Last year's meetup](/src/events/gcc2013/bof/galaxy-admins/index.md) provided a number of actions.  Most of them were acted upon.
+[Last year's meetup](/events/gcc2013/bof/galaxy-admins/) provided a number of actions.  Most of them were acted upon.
 
 ## Separate Mailing List for GalaxyAdmins
 
-We investigated splitting the Galaxy-Dev [Mailing List](/src/mailing-lists/index.md) into two: one for development and one for administration.  We also investigated using Mailman tagging to flag GalaxyAdmins threads.  Both were rejected as ineffective.  People were already frequently posting to the wrong list.  Adding a third list to the mix would make that problem worse and anyone subscribing to -dev or -admin would still have to subscribe to both.  
+We investigated splitting the Galaxy-Dev [Mailing List](/mailing-lists/) into two: one for development and one for administration.  We also investigated using Mailman tagging to flag GalaxyAdmins threads.  Both were rejected as ineffective.  People were already frequently posting to the wrong list.  Adding a third list to the mix would make that problem worse and anyone subscribing to -dev or -admin would still have to subscribe to both.  
 
 ## Better Enable Sharing of Information
 
 Two items were implemented late in 2013:
 
-* Galaxy Log Board: (since moved to the [Galaxy Blog](/src/blog/index.md) a place for linking to and/or describing experiences administering Galaxy.  These entries are dated, may not be particularly maintained once created.  And, more often then not, Log Board entries are just metadata, plus a link to an external resource on the web, such as a Wordpress page.
+* Galaxy Log Board: (since moved to the [Galaxy Blog](/blog/) a place for linking to and/or describing experiences administering Galaxy.  These entries are dated, may not be particularly maintained once created.  And, more often then not, Log Board entries are just metadata, plus a link to an external resource on the web, such as a Wordpress page.
 * Galaxy Deployment Catalog (since dropped): Describes how different Galaxy Servers are implemented.  This is a means for admins to learn what others have done to address particular types of demand and communities.  
 
 # The GalaxyAdmins Group Itself

@@ -13,6 +13,7 @@ contact: "Helena Rasche and Saskia Hiltemann"
 links:
   - text: "Video"
     url: "https://youtu.be/D8GCuQMjjpw"
+tags: [ "devroundtable" ]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/D8GCuQMjjpw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -25,4 +26,4 @@ Have something you want to talk about at a future round table? [Submit your topi
 
 ---
 
-The [Galaxy Developer Roundatble](/src/community/devroundtable/index.md) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 
+The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community.

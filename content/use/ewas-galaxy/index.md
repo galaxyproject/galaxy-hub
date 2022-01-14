@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://github.com/kpbioteam/docker_ewas"
     platform_text: "EWAS-Galaxy Docker Image"
 summary: "Galaxy Docker image for population epigenetics data analysis"
-image: "/src/images/logos/DockerInGalaxy.png"
+image: "/images/logos/DockerInGalaxy.png"
 comments:
   - "Epigenome-wide association studies (EWAS) analyse genome-wide activity of epigenetic marks in cohorts of different individuals to find associations between epigenetic variation and phenotype."
 user_support:
@@ -15,7 +15,7 @@ user_support:
 quotas:
   - "None."
 citations:
-  - "[EWAS-Galaxy: a tools suite for population epigenetics integrated into Galaxy](https://doi.org/10.1101/553784 ), Katarzyna Murat, [Björn Grüning](/src/people/bjoern-gruening/index.md), Paulina Wiktoria Poterlowicz, Gillian Westgate, Desmond J Tobin, Krzysztof Poterlowicz. *bioRxiv* 553784; doi:doi.org/10.1101/553784 "
+  - "[EWAS-Galaxy: a tools suite for population epigenetics integrated into Galaxy](https://doi.org/10.1101/553784 ), Katarzyna Murat, [Björn Grüning](/people/bjoern-gruening/), Paulina Wiktoria Poterlowicz, Gillian Westgate, Desmond J Tobin, Krzysztof Poterlowicz. *bioRxiv* 553784; doi:doi.org/10.1101/553784 "
 pub_libraries:
   - "EWAS-Galaxy"  
 sponsors:

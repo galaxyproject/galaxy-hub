@@ -13,7 +13,7 @@ platforms:
     platform_text: "Globus Genomics"
     platform_location: US
 summary: "Globus Genomics provides hardened high-performance Galaxy servers running with Globus on AWS."
-image: "/src/use/globus-genomics/globus-genomics-logo.png"
+image: "/use/globus-genomics/globus-genomics-logo.png"
 comments:
   - "Data transfer, sharing, and management is powered by [Globus](https://www.globus.org/research-data-management-simplified)."
   - "Computation is built on Amazon Web Services."

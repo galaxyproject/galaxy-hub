@@ -1,7 +1,7 @@
 
 # Jennifer Hillman-Jackson
 
-[Galaxy Team](/src/galaxy-team/index.md), Application Science
+[Galaxy Team](/galaxy-team/), Application Science
 
 
 [Nekrutenko Lab](http://nekrut.bx.psu.edu/), Penn State University, PA, US

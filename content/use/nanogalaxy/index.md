@@ -8,7 +8,7 @@ platforms:
     platform_text: "NanoGalaxy server"
     platform_location: DE
 summary: "a webserver to process, analyse and visualize Oxford Nanopore Technologies (ONT) data and similar long-reads technologies."
-image: "/src/use/nanogalaxy/nanogalaxy-toolkit.png"
+image: "/use/nanogalaxy/nanogalaxy-toolkit.png"
 comments:
   - "The public server is hosted by the UesGalaxy.eu team."
 user_support:

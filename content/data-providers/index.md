@@ -1,6 +1,6 @@
 ## Data Providers
 
-[DataProviders](/src/data-providers/index.md) are a framework for easily controlling how data can be provided from a source
+[DataProviders](/data-providers/) are a framework for easily controlling how data can be provided from a source
 (generally, a dataset's file contents). They are meant to be:
 
 1. Simple to declare, configure, and associate with some source of data.
@@ -16,13 +16,14 @@ Essentially, they are meant to be a 'view' of your data and not the data themsel
 
 Currently, data providers are only available for the file contents of a dataset.
 
-For more examples than are on this page, see [DataProviders/Cookbook](/src/data-providers/cookbook/index.md).
+For more examples than are on this page, see [DataProviders/Cookbook](/data-providers/cookbook/).
 
 
 ----
 ## How to get data using DataProviders
 
 Currently, there are two entry points to data providers for datasets:
+
 * Programmtically (typically in a visualization template or other python script) by calling a datatype's `dataprovider`
   method and passing in (at a minimum) the dataset and the name of a particular format/dataprovider
 * Via the datasets API (which itself calls the `dataprovider` method)
@@ -34,6 +35,7 @@ parameters to the method are parsed and a python generator is returned. This gen
 based on the type of provider (and the additional arguments).
 
 For example, given dataset contents in a tabular file called 'dataset1':
+
 ```
 # yet another data format
 1   10  11  110
@@ -44,6 +46,7 @@ For example, given dataset contents in a tabular file called 'dataset1':
 
 
 within a visualization template or python script, one could get each line as an array of columnar data by calling:
+
 ```python
 for array in dataset1.datatype.dataprovider( dataset1, 'column' ):
     print array
@@ -57,6 +60,7 @@ blank lines are stripped from the output.
 
 Pass in additional arguments to filter or configure output by adding keyword arguments to the provider. For example,
 to limit the above to only two lines and offset by one line:
+
 ```python
 for array in dataset1.datatype.dataprovider( dataset1, 'column', limit=2, offset=1 ):
     print array
@@ -66,6 +70,7 @@ for array in dataset1.datatype.dataprovider( dataset1, 'column', limit=2, offset
 
 
 To have the server parse the contents as numbers:
+
 ```python
 types = [ 'int', 'float', 'int', 'float' ]
 for array in dataset1.datatype.dataprovider( dataset1, 'column', column_types=types ):
@@ -80,7 +85,7 @@ for array in dataset1.datatype.dataprovider( dataset1, 'column', column_types=ty
 #### The datasets API
 
 You can access data providers for a dataset via the datasets API by passing the provider name as an argument (for more
-information on how to use the API see [Learn/API](/src/learn/api/index.md)).
+information on how to use the API see [Learn/API](/develop/api/)).
 
 ```bash
 curl 'http://localhost:8080/api/datasets/86cf1d3beeec9f1c?data_type=raw_data&provider=column&limit=2&offset=1&api_key=cf8245802b54146014108216e815d6e4'
@@ -128,11 +133,13 @@ xhr.done( function( response ){
 There are many data providers included in Galaxy already.
 
 For all formats:
+
 * base:    reads directly from the file without any formating or filtering
 * chunk:   allows breaking file contents into sections of `chunk_size` bytes and offsetting using `chunk_index`
 * chunk64: as chunk, but encodes each section using base64 encoding
 
 For text based formats:
+
 * line:    reads each line from a file, allowing limit, offset, filter functions (in python), removes blank lines,
   removes commented lines, strips whitespace from beginning and end of lines (all configurable)
 * regex-line: as 'line' provider above also allowing `regex_list`, a list of python regex strings. If a line matches
@@ -140,17 +147,19 @@ For text based formats:
   `invert`.
 
 For tabular formats:
+
 * column:  lines are returned as arrays of column data (as above). Many options are available for this provider
   including:
-  * indeces: return only the columns specified by a 0-based, comma separated list of integers (e.g. '0,2,5')
-  * column_count: return only the first N columns from each line
-  * deliminator: defaults to the tab character but can be used to parse comma separated data as well
-  * column_types: a CSV string of python primitive names used to parse each column (e.g. 'str,int,float,bool').
+    * indeces: return only the columns specified by a 0-based, comma separated list of integers (e.g. '0,2,5')
+    * column_count: return only the first N columns from each line
+    * deliminator: defaults to the tab character but can be used to parse comma separated data as well
+    * column_types: a CSV string of python primitive names used to parse each column (e.g. 'str,int,float,bool').
     Can works in tandem with indeces to parse only those columns requested.
 * dict:    return each line as a dictionary. Keys used should be sent as `column_names`, a CSV list of strings
   (e.g. column_names='id,start,end'). Based on the `column` provider and allows all options used there.
 
 Dataset specific providers for text and tabular formats:
+
 * You'll often see these used in the built-in providers (e.g. those found in `datatypes/tabular.py`). They attempt
   to infer the proper column settings for other providers by using a dataset's metadata (column names, types, etc.)
 * dataset-column: as the column provider, but infers `column_types` from metadata (for easier parsing)
@@ -158,6 +167,7 @@ Dataset specific providers for text and tabular formats:
   still passing in `column_names`.
 
 For interval datatypes:
+
 * genomic-region and genomic-region-dict: parses and returns chromosome, start, and end data as arrays or dictionaries
   respectively.
 * interval and interval-dict: as genomic-region, but also returns strand and name if set in the metadata.
@@ -173,6 +183,7 @@ with python or through the API.
 
 Python is currently the more powerful option. For example, in a visualization template one could pass a filter
 function to a 'genomic-region-dict' provider:
+
 ```python
 def position_within_point( self, datum ):
 def filter_chr10( datum ):
@@ -188,6 +199,7 @@ for region in hda.datatype.dataprovider( hda, 'genomic-region-dict', limit=2, of
 
 
 Through the API, (currently) the easiest way is to use the `regex_list` argument:
+
 ```javascript
 var xhr = jQuery.getJSON( "/api/datasets/86cf1d3beeec9f1c", {
     data_type : 'raw_data',
@@ -205,13 +217,14 @@ xhr.done( function( response ){
 (Note: the double slash escaping of '\\b' which allows us to send the regex with a proper, final '\b' and not the
 ascii bell character)
 
-For more filters, see: [Filtering using calculations](/src/data-providers/cookbook/index.md#no2c_i_want_to_filter_my_data_using_a_calculation_-_not_regex)
+For more filters, see: [Filtering using calculations](/data-providers/cookbook/#no2c_i_want_to_filter_my_data_using_a_calculation_-_not_regex)
 in the cookbook.
 
 ----
 ## How to define a new DataProvider
 
 Since data providers are nothing more than fancy python generators, there are three ways to create a new data provider:
+
 * Create a new DataProvider class and inherit from an existing provider and modify it's methods
 * Instantiate an existing provider and pipe its output into a new generator
 * Hardcode or override the option arguments available for an existing provider (e.g. create a csv column provider by
@@ -233,6 +246,7 @@ collision with other existing providers.
 Let's say we've defined a datatype that is CSV and has 20 columns of data. We'd like to provide the same format for
 data that the GenomicRegionDataProvider does (chrom, start, end) so we'll implement a provider to get that same
 data from our datatype:
+
 ```python
 from galaxy.datatypes import tabular
 from galaxy.datatypes import dataproviders
@@ -259,6 +273,7 @@ them in your datatype may allow existing consumers of data providers (for exampl
 The settings variable passed to the decorator (`GenomicRegionDataProvider.settings` in the example above)
 are a list of the options that will be parsed on a query string before being sent to the dataprovider. In other words,
 when a provider is called from the API many of its options can be passed over the url in the query string:
+
 ```bash
 curl 'http://localhost:8080/api/datasets/86cf1d3beeec9f1c?data_type=raw_data&provider=column&limit=2&offset=1'
 ```
@@ -287,7 +302,7 @@ It's generally enough to use the settings of an existing provider, but you may w
 in addition to existing settings.
 
 
-For more examples than are on this page, see [DataProviders/Cookbook](/src/data-providers/cookbook/index.md).
+For more examples than are on this page, see [DataProviders/Cookbook](/data-providers/cookbook/).
 
 ```wiki comment
 ----

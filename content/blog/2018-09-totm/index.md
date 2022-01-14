@@ -12,7 +12,7 @@ To help highlight our tutorials and the training effort of the community, a memb
 
 This month Maria Doyle (GitHub: [@mblue9](https://github.com/mblue9)) has selected the tutorial **["From peaks to genes"](http://galaxyproject.github.io/training-material/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html)**, from the topic ["Introduction to Galaxy Analyses"](http://galaxyproject.github.io/training-material/topics/introduction/s):
 
-<img class="img-fluid mx-auto" src="/src/blog/2018-09-totm/from_peaks_to_genes.png" alt="from_peaks_to_genes screenshot"/>
+<img class="img-fluid mx-auto" src="/blog/2018-09-totm/from_peaks_to_genes.png" alt="from_peaks_to_genes screenshot"/>
 
 **The full version is available on the training website: [https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html](https://training.galaxyproject.org/topics/introduction/tutorials/galaxy-intro-peaks2genes/tutorial.html)**
 
@@ -36,6 +36,6 @@ I like that it shows how Galaxy can be used to pull in data from external resour
 
 ---
 
-Thanks to Maria for selecting this tutorial and answering our questions. We would like also to thank Bérénice Batut, Björn Grüning, Clemens Blank, Dilmurat Yusuf, Nicola Soranzo, Anne Pajon and Sarah Peter who developed and contributed to this tutorial. 
+Thanks to Maria for selecting this tutorial and answering our questions. We would like also to thank Bérénice Batut, Björn Grüning, Clemens Blank, Dilmurat Yusuf, Nicola Soranzo, Anne Pajon and Sarah Peter who developed and contributed to this tutorial.
 
 We recommend warmly to go through this nice tutorial, using it for self-learning or during workshops. Enjoy it!

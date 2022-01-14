@@ -12,16 +12,17 @@ This page describes how to define a Data Manager.
 # Data Manager Components
 
 Data Managers are composed of two components:
+
 * Data Manager configuration (e.g. *data_manager_conf.xml*)
 * Data Manager Tool
 
 ## Data Manager Configuration
 
-The Data Manager Configuration (e.g. *data_manager_conf.xml*) defines the set of available Data Managers using an [XML description](/src/admin/tools/data-managers/data-manager-xml-syntax/index.md). Each Data Manager can add entries to one or more [Tool Data Tables](/src/admin/tools/data-tables/index.md). For each Tool Data Table under consideration, the expected output entry columns, and how to handle the Data Manager Tool results, are defined. 
+The Data Manager Configuration (e.g. *data_manager_conf.xml*) defines the set of available Data Managers using an [XML description](/admin/tools/data-managers/data-manager-xml-syntax/). Each Data Manager can add entries to one or more [Tool Data Tables](/admin/tools/data-tables/). For each Tool Data Table under consideration, the expected output entry columns, and how to handle the Data Manager Tool results, are defined.
 
 ## Data Manager Tool
 
-A Data Manager Tool is a special class of [Galaxy Tool](/src/admin/tools/adding-tools/index.md). Data Manager Tools do not appear in the standard Tool Panel and can only be accessed by a Galaxy Administrator. Additionally, the initial content of a Data Manager's output file contains a JSON dictionary with a listing of the Tool parameters and Job settings (i.e. they are a type of OutputParameterJSONTool, this is also available for DataSourceTools). There is no requirement for the underlying Data Manager tool to make use of these contents, but they are provided as a handy way to transfer all of the tool and job parameters without requiring a different command-line argument for each necessary piece of information.
+A Data Manager Tool is a special class of [Galaxy Tool](/admin/tools/adding-tools/). Data Manager Tools do not appear in the standard Tool Panel and can only be accessed by a Galaxy Administrator. Additionally, the initial content of a Data Manager's output file contains a JSON dictionary with a listing of the Tool parameters and Job settings (i.e. they are a type of OutputParameterJSONTool, this is also available for DataSourceTools). There is no requirement for the underlying Data Manager tool to make use of these contents, but they are provided as a handy way to transfer all of the tool and job parameters without requiring a different command-line argument for each necessary piece of information.
 
 The primary difference between a standard Galaxy Tool and a Data Manager Tool is that the primary output dataset of a Data Manager Tool **must** be a file containing a JSON description of the new entries to add to a Tool Data Table. The on-disk content to be referenced by the Data Manager Tool, if any, is stored within the *extra_files_path* of the output dataset created by the tool.
 
@@ -30,6 +31,7 @@ The primary difference between a standard Galaxy Tool and a Data Manager Tool is
 # Data Manager Server Configuration Options
 
 In your "[galaxy.ini](https://github.com/galaxyproject/galaxy/blob/dev/config/galaxy.ini.sample)" file these settings exist in the `[app:main]` section:
+
 ```python
 # Data manager configuration options
 enable_data_manager_user_view = True
@@ -141,7 +143,7 @@ Fetches a reference genome from various sources (UCSC, NCBI, URL, Galaxy History
 </tool>
 
 ```
- 
+
 
 ## An example data_manager_fetch_genome_all_fasta.py
 
@@ -426,4 +428,4 @@ sacCer2	sacCer2	S. cerevisiae June 2008 (SGD/sacCer2) (sacCer2)	/Users/dan/galax
 
 
 ----
-[Admin/Tools/DataManagers](/src/admin/tools/data-managers/index.md)
+[Admin/Tools/DataManagers](/admin/tools/data-managers/)

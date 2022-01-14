@@ -8,4 +8,4 @@ source_blog_url: "https://genomicsvirtuallab.wordpress.com/"
 source_blog: "Genomics Virtual Lab – Queensland"
 ---
 
-Also linked from primary Support FAQ hub under: [**Datasets and Histories**](/src/support/#datasets-and-histories)
+Also linked from primary Support FAQ hub under: [**Datasets and Histories**](/support/#datasets-and-histories)

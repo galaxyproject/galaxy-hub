@@ -8,7 +8,7 @@ platforms:
     platform_url: "https://nectar.org.au/research-cloud/"
     platform_text: "Nectar Cloud"
 summary: "Set up a Galaxy server on Australia's Nectar research cloud."
-image: "/src/images/logos/nectar-square-400.png"
+image: "/images/logos/nectar-square-400.png"
 comments:
   - "Nectar based Galaxy instances can be easily started from CloudLaunch.  They are based on the Genomics Virtual Laboratory (GVL)."
 user_support:

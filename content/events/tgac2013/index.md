@@ -1,14 +1,14 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.tgac.ac.uk/'><img src="/src/images/logos/TGACLogo.png" alt="The Genome Analysis Centre"  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.tgac.ac.uk/'><img src="/images/logos/TGACLogo.png" alt="The Genome Analysis Centre"  /></a> </td>
   </tr>
 </table>
 
 
 <div class='title'>Introduction to Galaxy<br />11 April 2013</div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+**Instructor: [Dave Clements](/people/dave-clements/)
 
 9:00-16:30<br />
 IT Training Theatre<br />
@@ -103,7 +103,7 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [The Genomics Analysis Centre (TGAC)](http://tgac.ac.uk).
 
@@ -113,7 +113,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/tgac2013/TGACGalaxy2013.pdf'><img src="/src/events/tgac2013/TGACGalaxy2013Thumb.png" alt="" width="100" /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/tgac2013/TGACGalaxy2013.pdf'><img src="/events/tgac2013/TGACGalaxy2013Thumb.png" alt="" width="100" /></a></div>
 Please distribute to any groups that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Seminar on 12 April

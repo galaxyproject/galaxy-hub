@@ -2,18 +2,18 @@
 date: '2018-08-01'
 title: "Contributor of the Month: Pablo Moreno"
 authors: "Björn Grüning"
-image: "/src/blog/2018-08-cotm-pablo-moreno/pablo-moreno.jpg"
+image: "/blog/2018-08-cotm-pablo-moreno/pablo-moreno.jpg"
 ---
 
-**Welcome to the first ever Galaxy Contributor of the Month posting!** 
+**Welcome to the first ever Galaxy Contributor of the Month posting!**
 
-The Galaxy ecosystem is a direct result of the Galaxy community and the contributions and involvement of community members.  The community make it all work in innumerable ways, including support, training and tutorial development, talks, posters, documentation, issue reporting, feature requests, tool publishing, coding, and Galaxy server, cloud, and appliance support. 
+The Galaxy ecosystem is a direct result of the Galaxy community and the contributions and involvement of community members.  The community make it all work in innumerable ways, including support, training and tutorial development, talks, posters, documentation, issue reporting, feature requests, tool publishing, coding, and Galaxy server, cloud, and appliance support.
 
 To help highlight our community we will interview a member of the community every month and feature him/her in the *Galactic Blog*.
 
 ## Pablo Moreno
 
-This month we welcome [Pablo Moreno (@pcm32)](https://github.com/pcm32) as our *Galaxy contributor of the Month!* He is developing and maintaining the [Phenomenal Metabolomics Galaxy instance](https://public.phenomenal-h2020.eu/) at the [EBI](https://www.ebi.ac.uk/). 
+This month we welcome [Pablo Moreno (@pcm32)](https://github.com/pcm32) as our *Galaxy contributor of the Month!* He is developing and maintaining the [Phenomenal Metabolomics Galaxy instance](https://public.phenomenal-h2020.eu/) at the [EBI](https://www.ebi.ac.uk/).
 Our first featured *Contributor of the Month* is *Pablo Moreno* of EBI and PhenoMeNal.
 
 Among many other things, Pablo has this to say about Galaxy:
@@ -28,11 +28,11 @@ Pablo, thanks for doing this interview, we are looking forward to learn more abo
 
 ### Can you tell us a little about yourself (hobbies, education, background, etc.)?
 
-My largest contribution to society so far is my beautiful 6 year old daughter, together with my wife who deserves most of the credits. This contribution occupies most of my free time, a portion of it playing Lego with her. Love traveling with them. When there is some time and I have the energies, I like to play the piano (which I can do at a relatively basic level). 
+My largest contribution to society so far is my beautiful 6 year old daughter, together with my wife who deserves most of the credits. This contribution occupies most of my free time, a portion of it playing Lego with her. Love traveling with them. When there is some time and I have the energies, I like to play the piano (which I can do at a relatively basic level).
 
-I was originally trained as a Biotech/Chemical engineer back at home at the [University of Chile](http://www.uchile.cl/english), to scale up microbial fermentation processes to industrial sizes. However I never actually worked on that. Since very early I worked in Bioinformatics, due to my interest in computer science and molecular biology, and did my Engineering research thesis on dynamic metabolic modelling. From that time is that my scientific heart is with cellular metabolism and its modelling. 
+I was originally trained as a Biotech/Chemical engineer back at home at the [University of Chile](http://www.uchile.cl/english), to scale up microbial fermentation processes to industrial sizes. However I never actually worked on that. Since very early I worked in Bioinformatics, due to my interest in computer science and molecular biology, and did my Engineering research thesis on dynamic metabolic modelling. From that time is that my scientific heart is with cellular metabolism and its modelling.
 
-After my undergrad, I worked in the genomics and metabolic modelling of copper bioleaching bacteria for around 4 years before coming to the EBI in the UK to do my PhD in Bioinformatics with now [Prof. Chris Steinbeck](https://www.ebi.ac.uk/about/people/christoph-steinbeck); after a short post-doc there as well, I went to work again in production to run a Bioinformatics Core Facility at the [Cambridge Institute for Medical Research (CIMR)](https://www.cimr.cam.ac.uk/) at Addenbrooke’s Hospital. After a few years I was invited to return to the EBI to lead the technical side of the [PhenoMeNal Project](http://phenomenal-h2020.eu/home/), for providing workflows through a microservices architecture for metabolomics data analysis. 
+After my undergrad, I worked in the genomics and metabolic modelling of copper bioleaching bacteria for around 4 years before coming to the EBI in the UK to do my PhD in Bioinformatics with now [Prof. Chris Steinbeck](https://www.ebi.ac.uk/about/people/christoph-steinbeck); after a short post-doc there as well, I went to work again in production to run a Bioinformatics Core Facility at the [Cambridge Institute for Medical Research (CIMR)](https://www.cimr.cam.ac.uk/) at Addenbrooke’s Hospital. After a few years I was invited to return to the EBI to lead the technical side of the [PhenoMeNal Project](http://phenomenal-h2020.eu/home/), for providing workflows through a microservices architecture for metabolomics data analysis.
 
 ### Why did you start using Galaxy?
 
@@ -48,7 +48,7 @@ I don’t think I have one, I’m more on the infrastructure side of things. I d
 
 ### What is your favorite Galaxy feature?
 
-I find both the new Galaxy Tours and and having an API access very appealing. 
+I find both the new Galaxy Tours and and having an API access very appealing.
 
 ### What projects are you working on now?
 
@@ -56,7 +56,7 @@ I recently moved to the Gene Expression Group, led by [Irene Papatheodorou](http
 
 ### What are current challenges in Metabolomics?
 
-Probably the biggest challenges in Metabolomics lie in identification of small molecules from spectra and being able to provide truly quantitative and reproducible results. This as well as uncovering so much of the metabolome that still remains elusive for detection. At our side on tools and workflows, probably the biggest challenge is the normalization of intermediate formats, which would truly enable interoperability of tools, towards mixing and matching different tools into workflows. 
+Probably the biggest challenges in Metabolomics lie in identification of small molecules from spectra and being able to provide truly quantitative and reproducible results. This as well as uncovering so much of the metabolome that still remains elusive for detection. At our side on tools and workflows, probably the biggest challenge is the normalization of intermediate formats, which would truly enable interoperability of tools, towards mixing and matching different tools into workflows.
   
 
 ### What advice would you give to new admins/developers/contributors?

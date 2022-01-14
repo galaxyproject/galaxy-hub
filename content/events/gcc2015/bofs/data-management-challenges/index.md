@@ -3,9 +3,9 @@ title: Data management challenges for larger Galaxy installations
 ---
 <slot name="/events/gcc2015/header" />
 
-<div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/events/gcc2015/bofs/'><img src="/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **Data management challenges for larger galaxy installations** [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+This page describes the **Data management challenges for larger galaxy installations** [Birds of a Feather](/events/gcc2015/bofs/) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
 When: Wednesday, 8 July, 12:30 (Lunch)
 
@@ -31,8 +31,8 @@ Wednesday, 8 July, 12:30 (Lunch), in the Franklin Room, JICCC
 If you are interested, please add your name below and/or send an email to [Brad Langhorst](mailto:langhorst@neb DOT com), **or just show up.**
 
 * Brad Langhorst
-* [Nate Coraor](/src/people/nate/index.md)
-* [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md)
+* [Nate Coraor](/people/nate/)
+* [Hans-Rudolf Hotz](/people/hansrudolf-hotz/)
 * Next Name
 
 ## Questions?

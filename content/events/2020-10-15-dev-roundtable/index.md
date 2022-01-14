@@ -1,5 +1,5 @@
 ---
-title: "Galaxy Developer Roundtable"
+title: "Galaxy release testing and publishing workflows to Dockstore and Workflowhub"
 date: '2020-10-15'
 days: 1
 tease: ""
@@ -13,6 +13,7 @@ contact: "Sergey Golitsynskiy, Marius van den Beek"
 links:
   - text: "Video"
     url: "https://youtu.be/lGEBWXu6Lvw"
+tags: [ "devroundtable" ]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lGEBWXu6Lvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -26,4 +27,4 @@ Please [join us](https://calendar.google.com/calendar/embed?src=36q4nj52l0ps2l7j
 
 ---
 
-The [Galaxy Developer Roundatble](/src/community/devroundtable/index.md) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 
+The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community.

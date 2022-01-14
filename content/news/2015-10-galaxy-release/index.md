@@ -2,8 +2,8 @@
 title: "Oct 2015 Galaxy Release (v 15.10)"
 date: "2016-01-13"
 ---
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+
 **October 2015 Galaxy Release Notes**
 **[Release Notes v 15.10](http://galaxy.readthedocs.org/en/master/releases/15.10_announce.html)**
 
@@ -20,4 +20,4 @@ date: "2016-01-13"
 * **[Github](https://github.com/galaxyproject)**
 
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

@@ -1,14 +1,14 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.uga.edu/'><img src="/src/images/logos/UGALogoBig.gif" alt="University of Georgia" width="500" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.uga.edu/'><img src="/images/logos/UGALogoBig.gif" alt="University of Georgia" width="500" /></a> </td>
   </tr>
 </table>
 
 
 <div class='title'>Introduction to Galaxy<br />March 7, 2014</div>
 
-**Instructors<br />[Carl Eberhard](/src/people/carl-eberhard/index.md), [Dave Clements](/src/people/dave-clements/index.md), [Dannon Baker](/src/people/dannon-baker/index.md), and [Raj Ayyampalayam](http://plantbio.uga.edu/directory/raj-ayyampalayam)<br />[Johns Hopkins University](http://www.jhu.edu/) & [University of Georgia](http://www.uga.edu/)
+**Instructors<br />[Carl Eberhard](/people/carl-eberhard/), [Dave Clements](/people/dave-clements/), [Dannon Baker](/people/dannon-baker/), and [Raj Ayyampalayam](http://plantbio.uga.edu/directory/raj-ayyampalayam)<br />[Johns Hopkins University](http://www.jhu.edu/) & [University of Georgia](http://www.uga.edu/)
 
 8:30-17:00<br />
 [University of Georgia](http://www.uga.edu/), Athens, GA**
@@ -64,10 +64,10 @@
 ## Support
 
 <div class='center'>
-<a href='http://qbcg.uga.edu/'><img src="/src/images/logos/QBCG_UGA_Logo.png" alt="Quantitative Biology Consulting Group (QBCG" width="200px" /></a>
-<a href='http://iob.uga.edu/'><img src="/src/images/logos/IOB_UGA_Logo.png" alt="Institute of Bioinformatics (IOB)" width="230px" /></a>
-<a href='http://gacrc.uga.edu/'><img src="/src/images/logos/GACRC_UGA_Logo.png" alt="Georgia Advanced Computing Resource Center (GACRC)" width="180px" /></a> &nbsp;&nbsp;
-<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="130px" /></a>
+<a href='http://qbcg.uga.edu/'><img src="/images/logos/QBCG_UGA_Logo.png" alt="Quantitative Biology Consulting Group (QBCG" width="200px" /></a>
+<a href='http://iob.uga.edu/'><img src="/images/logos/IOB_UGA_Logo.png" alt="Institute of Bioinformatics (IOB)" width="230px" /></a>
+<a href='http://gacrc.uga.edu/'><img src="/images/logos/GACRC_UGA_Logo.png" alt="Georgia Advanced Computing Resource Center (GACRC)" width="180px" /></a> &nbsp;&nbsp;
+<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="130px" /></a>
 </div>
 <br />
 
@@ -75,7 +75,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Slides
 
-* [Intro and Worked Example Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201403UGAWorkshop.pdf)   
+* [Intro and Worked Example Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201403UGAWorkshop.pdf)
 
 ## Feedback
 

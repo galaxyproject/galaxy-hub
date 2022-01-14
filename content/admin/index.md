@@ -2,7 +2,7 @@
 title: Galaxy Administration
 ---
 This is a hub page on topics related to deployment and administration of your own instance of Galaxy.<br>
-If you are new to Galaxy and want to administer your own service read the [Ten Simple Rules for Setting up a Galaxy Instance as a Service](/src/admin/ten-simple-steps-galaxy-as-a-service/index.md).
+If you are new to Galaxy and want to administer your own service read the [Ten Simple Rules for Setting up a Galaxy Instance as a Service](/admin/ten-simple-steps-galaxy-as-a-service/).
 
 ## Setup admin user
 
@@ -17,56 +17,56 @@ When an admin user logs into Galaxy, they will see an "Admin" menu item in the t
 
 ## Deploying
 
-* [Install own Galaxy](/src/admin/get-galaxy/index.md)
-* [Run on the Cloud Infrastructure](/src/cloudman/index.md)
-* [Maintaining an Instance](/src/admin/maintenance/index.md)
+* [Install own Galaxy](/admin/get-galaxy/)
+* [Run on the Cloud Infrastructure](/cloudman/)
+* [Maintaining an Instance](/admin/maintenance/)
 
 ## Configuration
 
-* [Authentication and Authorization](/src/authnz/index.md)
-* [Production Configuration](/src/admin/config/index.md)
-* [Installing Tools](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md)
-* [Tool Panel](/src/admin/tool-panel/index.md)
-* [Local Reference Data](/src/admin/data-integration/index.md)
-* [Data Libraries](/src/data-libraries/index.md)
-* [Datatypes](/src/admin/datatypes/index.md)
-* [Configuring Galaxy Home/Welcome Page](/src/admin/galaxy-welcome-page/index.md)
-* [Interactive Environments (IE)](/src/admin/gies/index.md)
+* [Authentication and Authorization](/authnz/)
+* [Production Configuration](/admin/config/)
+* [Installing Tools](/admin/tools/add-tool-from-toolshed-tutorial/)
+* [Tool Panel](/admin/tool-panel/)
+* [Local Reference Data](/admin/data-integration/)
+* [Data Libraries](/data-libraries/)
+* [Datatypes](/admin/datatypes/)
+* [Configuring Galaxy Home/Welcome Page](/admin/galaxy-welcome-page/)
+* [Interactive Environments (IE)](/admin/gies/)
 
 
 ## Users
 
-* [Disk Accounting and Quotas](/src/admin/disk-quotas/index.md)
-* [Usage Reports](/src/admin/usage-reports/index.md)
-* [Purge Histories and Datasets](/src/admin/config/performance/purge-histories-and-datasets/index.md)
+* [Disk Accounting and Quotas](/admin/disk-quotas/)
+* [Usage Reports](/admin/usage-reports/)
+* [Purge Histories and Datasets](/admin/config/performance/purge-histories-and-datasets/)
 
 
 ## Learning Resources
 
-* [FAQ](/src/admin/faq/index.md)
-* [Mailing Lists (galaxy-dev)](/src/mailing-lists/index.md)
-* [Tutorials](/src/admin/training/index.md)
+* [FAQ](/admin/faq/)
+* [Mailing Lists (galaxy-dev)](/mailing-lists/)
+* [Tutorials](/admin/training/)
 
 
 ## Development Resources
 
-* [Developer's hub](/src/develop/index.md)
+* [Developer's hub](/develop/)
 
 
 ## Data Resources
 
 * [Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)
-* [Admin/DataIntegration](/src/admin/data-integration/index.md)
-* [Admin/DataPreparation](/src/admin/data-preparation/index.md)
-* [Admin/ReferenceMAFs](/src/admin/reference-mafs/index.md)
-* [Admin/refgenie](/src/admin/refgenie/index.md)
+* [Admin/DataIntegration](/admin/data-integration/)
+* [Admin/DataPreparation](/admin/data-preparation/)
+* [Admin/ReferenceMAFs](/admin/reference-mafs/)
+* [Admin/refgenie](/admin/refgenie/)
 
 
 ## Other
 
-* [License](/src/admin/license/index.md)
-* [Running Tests](/src/admin/running-tests/index.md)
-* [Galaxy-Admins discussion group](/src/community/galaxy-admins/index.md)
-* [Switching to Github from Bitbucket](/src/admin/switching-to-github-from-bitbucket/index.md)
+* [License](/admin/license/)
+* [Running Tests](/admin/running-tests/)
+* [Galaxy-Admins discussion group](/community/galaxy-admins/)
+* [Switching to Github from Bitbucket](/admin/switching-to-github-from-bitbucket/)
 
-[Search all Galaxy resources](/src/search/index.md)
+[Search all Galaxy resources](/search/)

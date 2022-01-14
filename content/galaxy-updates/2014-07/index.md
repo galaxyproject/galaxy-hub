@@ -1,45 +1,45 @@
 ---
 title: July 2014 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the July 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the July 2014 *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
-The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/src/events/gcc2014/index.md).
+The *Galaxy Update* is going out a few days early this month because the usual release date is during [GCC2014](/events/gcc2014/).
 
 # Events
 
-<div class='left'><br /><a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="120" /></a></div>
+<div class='left'><br /><a href='/events/gcc2014/'><img src="/images/logos/GCC2014LogoTall200.png" alt="GCC2014: June 30 - July 2" width="120" /></a></div>
 
 ## GCC2014: June 30 - July 2, Baltimore
 
-**The [2014 Galaxy Community Conference (GCC2014)](/src/events/gcc2014/index.md) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/src/events/gcc2014/program/index.md) is online and all [titles and abstracts for accepted talks and posters](/src/events/gcc2014/abstracts/talks/index.md) are now online.
+**The [2014 Galaxy Community Conference (GCC2014)](/events/gcc2014/) starts on Monday, June 30, and runs through July 2,** at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States.  The [program](/events/gcc2014/program/) is online and all [titles and abstracts for accepted talks and posters](/events/gcc2014/abstracts/talks/) are now online.
 
-Fifteen [Training sessions on 12 topics](/src/events/gcc2014/training-day/index.md), several [Birds of a Feather](/src/events/gcc2014/bofs/index.md), two lightning talk sessions, and the very first [Galaxy Project Hackathon](/src/events/gcc2014/hackathon/index.md) are also happening.
+Fifteen [Training sessions on 12 topics](/events/gcc2014/training-day/), several [Birds of a Feather](/events/gcc2014/bofs/), two lightning talk sessions, and the very first [Galaxy Project Hackathon](/events/gcc2014/hackathon/) are also happening.
 
 <br />
 
 ## Galaxy @ ISBMB and BOSC 2014
 
 <div class='right'>
-<a href='/src/events/ismb2014/index.md'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2014" height="65" /></a>&nbsp;&nbsp;&nbsp;
-<a href='/src/events/ismb2014/index.md'><img src="/src/images/logos/ISMB2014LogoRound.png" alt="ISMB 2014" height="85" /></a>
+<a href='/events/ismb2014/'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2014" height="65" /></a>&nbsp;&nbsp;&nbsp;
+<a href='/events/ismb2014/'><img src="/images/logos/ISMB2014LogoRound.png" alt="ISMB 2014" height="85" /></a>
 </div>
 
-There will be at least six talks and five posters related to Galaxy at [ISMB and BOSC 2014](/src/events/ismb2014/index.md) this year.  Talks include
+There will be at least six talks and five posters related to Galaxy at [ISMB and BOSC 2014](/events/ismb2014/) this year.  Talks include
 
-* *Galaxy as an Extensible Job Execution Platform*, [John Chilton](/src/people/john-chilton/index.md)
-* *Enhancing the Galaxy Experience through Community Involvement*, [Daniel Blankenberg](/src/people/dan/index.md)
-* *[TT03: Interactive Visual Analysis with Galaxy Charts](http://www.iscb.org/uploaded/css/166/29988.pdf)*, [Sam Guerler](/src/people/guerler/index.md)
-* *[TT24: From the Ground to the Cloud in 25 minutes: Building a Customized Galaxy Analysis Server Using Only a Web Browser](http://www.iscb.org/uploaded/css/166/30137.pdf)*, [Daniel Blankenberg](/src/people/dan/index.md)
+* *Galaxy as an Extensible Job Execution Platform*, [John Chilton](/people/john-chilton/)
+* *Enhancing the Galaxy Experience through Community Involvement*, [Daniel Blankenberg](/people/dan/)
+* *[TT03: Interactive Visual Analysis with Galaxy Charts](http://www.iscb.org/uploaded/css/166/29988.pdf)*, [Sam Guerler](/people/guerler/)
+* *[TT24: From the Ground to the Cloud in 25 minutes: Building a Customized Galaxy Analysis Server Using Only a Web Browser](http://www.iscb.org/uploaded/css/166/30137.pdf)*, [Daniel Blankenberg](/people/dan/)
 * *[TT27: Bioinformatics and Computer Biology Systems design applied to Medical Molecular Nanobiotechnology](http://www.iscb.org/uploaded/css/166/30125.pdf)*, Allan Orozco
-* *[TT29: Scaling Galaxy: Preparing for Those Next Few Orders of Magnitude](http://www.iscb.org/uploaded/css/166/30134.pdf)*, [John Chilton](/src/people/john-chilton/index.md)
+* *[TT29: Scaling Galaxy: Preparing for Those Next Few Orders of Magnitude](http://www.iscb.org/uploaded/css/166/30134.pdf)*, [John Chilton](/people/john-chilton/)
 
 ## Other Events
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div>
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
-Over the rest of the summer there are other [Galaxy related events](/src/events/index.md) in Leiden, Sydney, Brisbane, São Paulo, and Rio de Janeiro. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+Over the rest of the summer there are other [Galaxy related events](/events/) in Leiden, Sydney, Brisbane, São Paulo, and Rio de Janeiro. Also see the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <br />
 
@@ -55,14 +55,14 @@ Over the rest of the summer there are other [Galaxy related events](/src/events/
   </tr>
   <tr>
     <th> June 28-30 </th>
-    <td> <a href='/src/events/gcc2014/hackathon/index.md'>Galaxy Hackathon</a> </td>
+    <td> <a href='/events/gcc2014/hackathon/'>Galaxy Hackathon</a> </td>
     <td rowspan=2> <a href='http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/'>Homewood Campus</a> of <a href='http://jhu.edu'>Johns Hopkins University</a>, <a href='http://visitors.baltimorecity.gov/'>Baltimore, Maryland</a>, United States </td>
-    <td> <a href='/src/events/gcc2014/organizers/index.md'>Organizers</a> </td>
+    <td> <a href='/events/gcc2014/organizers/'>Organizers</a> </td>
   </tr>
   <tr>
     <th> June 30 -<br />July 2 </th>
-    <td> <strong><a href='/src/events/gcc2014/index.md'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
-    <td> <a href='/src/events/gcc2014/organizers/index.md'>Organizers</a> </td>
+    <td> <strong><a href='/events/gcc2014/'>2014 Galaxy Community Conference (GCC2014)</a></strong> </td>
+    <td> <a href='/events/gcc2014/organizers/'>Organizers</a> </td>
   </tr>
   <tr>
     <th> July 7-9 </th>
@@ -78,9 +78,9 @@ Over the rest of the summer there are other [Galaxy related events](/src/events/
   </tr>
   <tr>
     <th> July 11-15 </th>
-    <td> <strong><a href='/src/events/ismb2014/index.md'>ISMB and BOSC 2014</a></strong><div class='indent'>At least six talks and five posters</div> </td>
+    <td> <strong><a href='/events/ismb2014/'>ISMB and BOSC 2014</a></strong><div class='indent'>At least six talks and five posters</div> </td>
     <td> Boston, Massachussetts, United States </td>
-    <td> See <a href='/src/events/ismb2014/index.md'>presenter list</a> </td>
+    <td> See <a href='/events/ismb2014/'>presenter list</a> </td>
   </tr>
   <tr>
     <th> July 18 </th>
@@ -90,9 +90,9 @@ Over the rest of the summer there are other [Galaxy related events](/src/events/
   </tr>
   <tr>
     <th> July 28 - August 1 </th>
-    <td> <em><a href='/src/events/sao-paulo2014/index.md'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
+    <td> <em><a href='/events/sao-paulo2014/'>Workshop: DNA Sequence Bioinformatics Analysis with the Galaxy Platform</a></em> </td>
     <td> <a href='http://usp.br/'>University of São Paulo (USP)</a>, São Paulo, Brazil </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> August 25-27 </th>
@@ -114,16 +114,16 @@ Over the rest of the summer there are other [Galaxy related events](/src/events/
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/src/events/switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
+    <td> <a href='/events/switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
     <td> Bern (Switzerland) </td>
-    <td rowspan=3> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
+    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
     <td> SyBIT Tech Day, Bern (Switzerland) </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
+    <td> <em><a href='/events/germany2014/'>German Galaxy Developers Day</a></em> </td>
     <td> Freiburg (Germany) </td>
   </tr>
 </table>
@@ -200,26 +200,26 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [Experimental Officer in Bioinformatics](http://bit.ly/1uW1qIs), NERC Metabolomics Facility, University of Birmingham, UK
-* [Two postdoc positions in integrative genomics](/src/news/post-docs-in-oslo/index.md) available in Oslo, Norway
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
+* [Two postdoc positions in integrative genomics](/news/post-docs-in-oslo/) available in Oslo, Norway
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
 # New Public Servers
 
-One new [public Galaxy server](/src/use/index.md) was added to the published list in June:
+One new [public Galaxy server](/use/) was added to the published list in June:
 
 ## GVL QLD
 
-<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src="/src/images/logos/gvl-300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
+<div class='right solid'><a href='http://galaxy-qld.genome.edu.au/'><img src="/images/logos/gvl-300.png" alt="Genomics Virtual Lab" height="220" /></a></div>
 
 * *Link:*
     [Genomics Virtual Lab GVL-QLD](http://galaxy-qld.genome.edu.au/)
@@ -228,13 +228,13 @@ One new [public Galaxy server](/src/use/index.md) was added to the published lis
 * *Comments:*
     Has 16 virtual CPUs.
 * *User Support:*
-  * [GVL Help](https://genome.edu.au)
-  * Follow tutorials at [GVL Learn](https://genome.edu.au) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
+    * [GVL Help](https://genome.edu.au)
+    * Follow tutorials at [GVL Learn](https://genome.edu.au) and use [Galaxy Tut](http://galaxy-tut.genome.edu.au/)
 * *Quotas:*
-  * University of Queensland and collaborators: 2TB
-  * Other Australian Researchers: 1TB (make sure you register with your Institute email address)
-  * Other registered users: 200GB
-  * Unregistered users: 5GB
+    * University of Queensland and collaborators: 2TB
+    * Other Australian Researchers: 1TB (make sure you register with your Institute email address)
+    * Other registered users: 200GB
+    * Unregistered users: 5GB
 * *Sponsor(s):*
     [Genomics Virtual Lab](https://genome.edu.au/) and the [University of Queensland Research Computing Centre](http://www.rcc.uq.edu.au/)
 
@@ -244,10 +244,10 @@ One new [public Galaxy server](/src/use/index.md) was added to the published lis
 
 ## June 2, 2014 Galaxy Distribution
 
-<div class='right'> <a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/archive/dev-news-briefs/2014-06-02/index.md#dataset-collections))* </div>
+<div class='right'> <a href='http://usegalaxy.org'><img src="/images/news-graphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/archive/dev-news-briefs/2014-06-02/#dataset-collections))* </div>
 
 <br />
-**[News Brief](/src/archive/dev-news-briefs/2014-06-02/index.md)** **Highlights:**
+**[News Brief](/archive/dev-news-briefs/2014-06-02/)** **Highlights:**
 
 * Dataset Collections introduced
 * Changes to database build (dbkey) organization
@@ -260,7 +260,7 @@ One new [public Galaxy server](/src/use/index.md) was added to the published lis
 <table>
   <tr>
     <td rowspan=3 style=" border: none;"> <a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width=70 /></a> &nbsp;&nbsp; </td>
-    <td colspan=2 style=" border: none;"> <strong><a href='/src/admin/get-galaxy/index.md'>getgalaxy.org</a></strong> </td>
+    <td colspan=2 style=" border: none;"> <strong><a href='/admin/get-galaxy/'>getgalaxy.org</a></strong> </td>
   </tr>
   <tr>
     <td style=" border: none;"> <strong><a href='http://galaxy-dist.readthedocs.org'>galaxy-dist.readthedocs.org</a></strong> </td>
@@ -297,30 +297,31 @@ A [corresponding version](http://gregvonkuster.org/galaxy-toolshed-june-2-2014-r
 
 [BioBlend 0.4.3](https://pypi.python.org/pypi/bioblend/0.4.3) was released on April 11, 2014.
 
-The most recent version of CloudMan was [released in January 2014](/src/news/cloudman-release201401/index.md).
+The most recent version of CloudMan was [released in January 2014](/news/cloudman-release201401/).
 
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a> </em> &nbsp;&nbsp;<br /> </td>
+    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a> </em> &nbsp;&nbsp;<br /> </td>
   </tr>
 </table>
 
 <br /><br />
 
-One new [Log Board entry](/src/blog/index.md) was added in June:
-* [Local Tool Shed with https and LDAP](/src/blog/2014-06-toolshed-with-https-and-ldap/index.md)
+One new [Log Board entry](/blog/) was added in June:
 
-The *[Community Log Board](/src/blog/index.md)* and  *Deployment Catalog* *[Galaxy community hubs](/src/community/index.md)* were launched last your.  If you have a Galaxy deployment, or [experience](/src/blog/index.md) you want to share then please publish them.
+* [Local Tool Shed with https and LDAP](/blog/2014-06-toolshed-with-https-and-ldap/)
+
+The *[Community Log Board](/blog/)* and  *Deployment Catalog* *[Galaxy community hubs](/community/)* were launched last your.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them.
 
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 
@@ -331,79 +332,79 @@ In no particular order:
 ### Tools
 
 * *From [qfab](http://toolshed.g2.bx.psu.edu/view/qfab/)*
-  * [pynast](http://toolshed.g2.bx.psu.edu/view/qfab/pynast): PyNAST is a sequence aligner for adding new 16S rDNA sequences to existing 16S rDNA alignments - GVL
-  * [fasttree_linux_64bit](http://toolshed.g2.bx.psu.edu/view/qfab/fasttree_linux_64bit): FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences - GVL
-  * [rarefaction](http://toolshed.g2.bx.psu.edu/view/qfab/rarefaction): Rarefaction calculation based on mothur's rarefaction.single command - GVL
+    * [pynast](http://toolshed.g2.bx.psu.edu/view/qfab/pynast): PyNAST is a sequence aligner for adding new 16S rDNA sequences to existing 16S rDNA alignments - GVL
+    * [fasttree_linux_64bit](http://toolshed.g2.bx.psu.edu/view/qfab/fasttree_linux_64bit): FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences - GVL
+    * [rarefaction](http://toolshed.g2.bx.psu.edu/view/qfab/rarefaction): Rarefaction calculation based on mothur's rarefaction.single command - GVL
 
 * *From [crs4](http://toolshed.g2.bx.psu.edu/view/crs4/)*
-  * [hadoop_galaxy](http://toolshed.g2.bx.psu.edu/view/crs4/hadoop_galaxy): Hadoop-Galaxy integration
+    * [hadoop_galaxy](http://toolshed.g2.bx.psu.edu/view/crs4/hadoop_galaxy): Hadoop-Galaxy integration
 
 * *From [evan](https://toolshed.g2.bx.psu.edu/view/evan/)*
-  * [bwa_wrappers](https://toolshed.g2.bx.psu.edu/view/evan/bwa_wrappers): Galaxy wrappers for the BWA short read aligner.
+    * [bwa_wrappers](https://toolshed.g2.bx.psu.edu/view/evan/bwa_wrappers): Galaxy wrappers for the BWA short read aligner.
 
 * *From [anton](http://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [vcfprimers](http://toolshed.g2.bx.psu.edu/view/anton/vcfprimers): Extract flanking sequences for each VCF record
-  * [vcffixup](http://toolshed.g2.bx.psu.edu/view/anton/vcffixup): Count the allele frequencies across alleles present in each record in the VCF file.
-  * [vcfsort](http://toolshed.g2.bx.psu.edu/view/anton/vcfsort): Sort VCF dataset by coordinate
-  * [vcfallelicprimitives](http://toolshed.g2.bx.psu.edu/view/anton/vcfallelicprimitives): Splits alleleic primitives (gaps or mismatches) into multiple VCF lines
-  * [vcfaddinfo](http://toolshed.g2.bx.psu.edu/view/anton/vcfaddinfo): Adds info fields from the second dataset which are not present in the first dataset.
-  * plus [18 more VCF related tools from anton](http://toolshed.g2.bx.psu.edu/view/anton/)
+    * [vcfprimers](http://toolshed.g2.bx.psu.edu/view/anton/vcfprimers): Extract flanking sequences for each VCF record
+    * [vcffixup](http://toolshed.g2.bx.psu.edu/view/anton/vcffixup): Count the allele frequencies across alleles present in each record in the VCF file.
+    * [vcfsort](http://toolshed.g2.bx.psu.edu/view/anton/vcfsort): Sort VCF dataset by coordinate
+    * [vcfallelicprimitives](http://toolshed.g2.bx.psu.edu/view/anton/vcfallelicprimitives): Splits alleleic primitives (gaps or mismatches) into multiple VCF lines
+    * [vcfaddinfo](http://toolshed.g2.bx.psu.edu/view/anton/vcfaddinfo): Adds info fields from the second dataset which are not present in the first dataset.
+    * plus [18 more VCF related tools from anton](http://toolshed.g2.bx.psu.edu/view/anton/)
 
 * *From [superyuan](http://toolshed.g2.bx.psu.edu/view/superyuan/)*
-  * [refeditor](http://toolshed.g2.bx.psu.edu/view/superyuan/refeditor): Produces a personalized diploid reference genome based on all known genetic variants of that particular individual.
+    * [refeditor](http://toolshed.g2.bx.psu.edu/view/superyuan/refeditor): Produces a personalized diploid reference genome based on all known genetic variants of that particular individual.
 
 * *From [iracooke](http://toolshed.g2.bx.psu.edu/view/iracooke/)*
-  * [make_protein_decoys](http://toolshed.g2.bx.psu.edu/view/iracooke/make_protein_decoys): Generate a decoy database from an input set of protein sequences. Decoys generated using this tool can be used for tandem ms searches.
-  * [proteindb_from_gff3](http://toolshed.g2.bx.psu.edu/view/iracooke/proteindb_from_gff3): Convert Augustus Generated gff3 to a Protein Database
-  * [protxml_to_gff](http://toolshed.g2.bx.psu.edu/view/iracooke/protxml_to_gff): Map peptides from a protXML file to genomic coordinates
-  * [sixframe_translate](http://toolshed.g2.bx.psu.edu/view/iracooke/sixframe_translate): Translates sequences in a nucleotide fasta file to protein
+    * [make_protein_decoys](http://toolshed.g2.bx.psu.edu/view/iracooke/make_protein_decoys): Generate a decoy database from an input set of protein sequences. Decoys generated using this tool can be used for tandem ms searches.
+    * [proteindb_from_gff3](http://toolshed.g2.bx.psu.edu/view/iracooke/proteindb_from_gff3): Convert Augustus Generated gff3 to a Protein Database
+    * [protxml_to_gff](http://toolshed.g2.bx.psu.edu/view/iracooke/protxml_to_gff): Map peptides from a protXML file to genomic coordinates
+    * [sixframe_translate](http://toolshed.g2.bx.psu.edu/view/iracooke/sixframe_translate): Translates sequences in a nucleotide fasta file to protein
 
 * *From [hyungrolee](https://toolshed.g2.bx.psu.edu/view/hyungrolee/)*
-  * [mgescan](https://toolshed.g2.bx.psu.edu/view/hyungrolee/mgescan): MGEScan: Identifying long terminal repeats (LTR) and non-LTR retroelements in eukaryotic genomic sequences.
+    * [mgescan](https://toolshed.g2.bx.psu.edu/view/hyungrolee/mgescan): MGEScan: Identifying long terminal repeats (LTR) and non-LTR retroelements in eukaryotic genomic sequences.
 
 * *From [iuc](http://toolshed.g2.bx.psu.edu/view/iuc/)*
-  * [samtools_sort](http://toolshed.g2.bx.psu.edu/view/iuc/samtools_sort): Sort alignments by leftmost coordinates or read name.
+    * [samtools_sort](http://toolshed.g2.bx.psu.edu/view/iuc/samtools_sort): Sort alignments by leftmost coordinates or read name.
 
 * *From [devteam](https://toolshed.g2.bx.psu.edu/view/devteam/)*
-  * [bamleftalign](https://toolshed.g2.bx.psu.edu/view/devteam/bamleftalign): utility for leftaligning indels in BAM datasets.  Based on bamleftalign utility for FreeBayes package.
+    * [bamleftalign](https://toolshed.g2.bx.psu.edu/view/devteam/bamleftalign): utility for leftaligning indels in BAM datasets.  Based on bamleftalign utility for FreeBayes package.
 
 ### Packages / Tool Dependency Definitions
 
 * *From [qfab](http://toolshed.g2.bx.psu.edu/view/qfab/)*
-  * [package_numpy_1_8](http://toolshed.g2.bx.psu.edu/view/qfab/package_numpy_1_8): Tool dependency definition; downloads and compiles the python numpy package 1.8.1 - GVL
-  * [package_pycogent_1_5_2](http://toolshed.g2.bx.psu.edu/view/qfab/package_pycogent_1_5_2): Tool dependency definition; installs the PyCogent package version 1.5.2 and its dependencies - GVL
-  * [package_uclust_1_2_22q](http://toolshed.g2.bx.psu.edu/view/qfab/package_uclust_1_2_22q): Tool dependency definition; installs uclust v1.2.22q for PyNAST - GVL
-  * [package_mothur](http://toolshed.g2.bx.psu.edu/view/qfab/package_mothur): mothur is an open-source, expandable software to fill the bioinformatics needs of the microbial ecology community
-  * [collector_curve](http://toolshed.g2.bx.psu.edu/view/qfab/collector_curve): Collector's curve calculation based on mothur's collect.single command - GVL
+    * [package_numpy_1_8](http://toolshed.g2.bx.psu.edu/view/qfab/package_numpy_1_8): Tool dependency definition; downloads and compiles the python numpy package 1.8.1 - GVL
+    * [package_pycogent_1_5_2](http://toolshed.g2.bx.psu.edu/view/qfab/package_pycogent_1_5_2): Tool dependency definition; installs the PyCogent package version 1.5.2 and its dependencies - GVL
+    * [package_uclust_1_2_22q](http://toolshed.g2.bx.psu.edu/view/qfab/package_uclust_1_2_22q): Tool dependency definition; installs uclust v1.2.22q for PyNAST - GVL
+    * [package_mothur](http://toolshed.g2.bx.psu.edu/view/qfab/package_mothur): mothur is an open-source, expandable software to fill the bioinformatics needs of the microbial ecology community
+    * [collector_curve](http://toolshed.g2.bx.psu.edu/view/qfab/collector_curve): Collector's curve calculation based on mothur's collect.single command - GVL
 
 * *From [biopython](http://toolshed.g2.bx.psu.edu/view/biopython/)*
-  * [package_biopython_1_64](http://toolshed.g2.bx.psu.edu/view/biopython/package_biopython_1_64): Downloads and compiles version 1.64 of the Biopython package.
+    * [package_biopython_1_64](http://toolshed.g2.bx.psu.edu/view/biopython/package_biopython_1_64): Downloads and compiles version 1.64 of the Biopython package.
 * *From [jankanis](http://toolshed.g2.bx.psu.edu/view/jankanis/)*
-  * [package_libxml2_2_9_1](http://toolshed.g2.bx.psu.edu/view/jankanis/package_libxml2_2_9_1): fork of existing package_libxml2_2_9_1 from devteam with some additional environment variable exports
+    * [package_libxml2_2_9_1](http://toolshed.g2.bx.psu.edu/view/jankanis/package_libxml2_2_9_1): fork of existing package_libxml2_2_9_1 from devteam with some additional environment variable exports
 
 * *From [iuc](http://toolshed.g2.bx.psu.edu/view/iuc/)*
-  * [package_gnu_coreutils_8_22](http://toolshed.g2.bx.psu.edu/view/iuc/package_gnu_coreutils_8_22): downloads and compiles version 8.22 of the GNU coreutils.
-  * [package_libpng_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_libpng_1_2): Provides the 1.2.x branch of libpng for compatibility with older software.
-  * [package_tpp_4_6_3](https://toolshed.g2.bx.psu.edu/view/iuc/package_tpp_4_6_3): Downloads and compiles version 4.6.3 of the Trans-Proteomic Pipeline.
+    * [package_gnu_coreutils_8_22](http://toolshed.g2.bx.psu.edu/view/iuc/package_gnu_coreutils_8_22): downloads and compiles version 8.22 of the GNU coreutils.
+    * [package_libpng_1_2](https://toolshed.g2.bx.psu.edu/view/iuc/package_libpng_1_2): Provides the 1.2.x branch of libpng for compatibility with older software.
+    * [package_tpp_4_6_3](https://toolshed.g2.bx.psu.edu/view/iuc/package_tpp_4_6_3): Downloads and compiles version 4.6.3 of the Trans-Proteomic Pipeline.
 
 * *From [iracooke](https://toolshed.g2.bx.psu.edu/view/iracooke/)*
-  * [package_protk_1_2_6](https://toolshed.g2.bx.psu.edu/view/iracooke/package_protk_1_2_6): Installs the version 1.2.6 of the protk rubygem
+    * [package_protk_1_2_6](https://toolshed.g2.bx.psu.edu/view/iracooke/package_protk_1_2_6): Installs the version 1.2.6 of the protk rubygem
 
 * *From [anton](http://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [package_vcflib](http://toolshed.g2.bx.psu.edu/view/anton/package_vcflib): Compiled binary files for vcflib toolkit.
+    * [package_vcflib](http://toolshed.g2.bx.psu.edu/view/anton/package_vcflib): Compiled binary files for vcflib toolkit.
 
 * *From [jeremie](http://toolshed.g2.bx.psu.edu/view/jeremie/)*
-  * [package_pindel_0_2_5](http://toolshed.g2.bx.psu.edu/view/jeremie/package_pindel_0_2_5): downloads and compiles version 0.2.5 of Pindel.
+    * [package_pindel_0_2_5](http://toolshed.g2.bx.psu.edu/view/jeremie/package_pindel_0_2_5): downloads and compiles version 0.2.5 of Pindel.
 
 * *From [devteam](http://toolshed.g2.bx.psu.edu/view/devteam/)*
-  * [freebayes_0_9_14_8a407cf5f4](http://toolshed.g2.bx.psu.edu/view/devteam/freebayes_0_9_14_8a407cf5f4): Dependencies for FreeBayes and LeftAlign wrappers
+    * [freebayes_0_9_14_8a407cf5f4](http://toolshed.g2.bx.psu.edu/view/devteam/freebayes_0_9_14_8a407cf5f4): Dependencies for FreeBayes and LeftAlign wrappers
 
 **Tool Updates:**
 
 * *From [vipints](https://toolshed.g2.bx.psu.edu/view/vipints/)*
-  * [fml_gff3togtf](https://toolshed.g2.bx.psu.edu/view/vipints/fml_gff3togtf): Uploaded version 2.0.0 of gfftools to integrate local Galaxy instances.
+    * [fml_gff3togtf](https://toolshed.g2.bx.psu.edu/view/vipints/fml_gff3togtf): Uploaded version 2.0.0 of gfftools to integrate local Galaxy instances.
 * *From [peterjc](http://toolshed.g2.bx.psu.edu/view/peterjc/)*
-  * [blastxml_to_top_descr](http://toolshed.g2.bx.psu.edu/view/peterjc/blastxml_to_top_descr): Uploaded v0.1.0, now also handles extended tabular BLAST output.
+    * [blastxml_to_top_descr](http://toolshed.g2.bx.psu.edu/view/peterjc/blastxml_to_top_descr): Uploaded v0.1.0, now also handles extended tabular BLAST output.
 
 # Other News
 

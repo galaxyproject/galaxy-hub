@@ -7,7 +7,7 @@ platforms:
   platform_url: "http://cropgalaxy.excellenceinbreeding.org/"
   platform_text: "CropGalaxy"
   platform_location: PH
-summary: "Hosts tools for the [RiceGalaxy](/src/use/ricegalaxy/index.md), [GOBii project](http://gobiiproject.org/), [HTPG project](http://cegsb.icrisat.org/high-throughput-genotyping-project-htpg/) and the [Excellence in Breeding (EiB) platform](http://excellenceinbreeding.org/), including genomic selection, marker selection, GWAS, imputation, file conversion, and cluster analysis."
+summary: "Hosts tools for the [RiceGalaxy](/use/rice-galaxy/), [GOBii project](http://gobiiproject.org/), [HTPG project](http://cegsb.icrisat.org/high-throughput-genotyping-project-htpg/) and the [Excellence in Breeding (EiB) platform](http://excellenceinbreeding.org/), including genomic selection, marker selection, GWAS, imputation, file conversion, and cluster analysis."
 image: "eib-logo.png"
 comments:
 - "Through the **[Excellence in Breeding Platform](https://excellenceinbreeding.org/)** the [CGIAR](https://cgiar.org/) intends to modernize breeding programs targeting the developing world for greater impact on food and nutrition security, climate change adaptation and development."

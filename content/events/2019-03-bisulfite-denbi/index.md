@@ -6,7 +6,7 @@ tease: "Learn Galaxy and tools for data handling and preprocessing, differential
 continent: EU
 location: "University of Rostock, Rostock, Germany"
 location_url: 
-image: /src/images/logos/deNBILogo.png
+image: /images/logos/deNBILogo.png
 external_url: "https://www.denbi.de/training/532-galaxy-for-linking-bisulfite-sequencing-with-rna-sequencing"
 contact: "destair [at] leibniz-fli.de"
 gtn: true

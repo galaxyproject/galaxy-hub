@@ -7,7 +7,7 @@ continent: NA
 location: "Cal State University San Marcos, United States"
 location_url: https://csusm.edu/
 external_url:
-image: /src/images/logos/csusm-logo.gif
+image: /images/logos/csusm-logo.gif
 gtn: true
 contact: Arun Sethuraman, Dave Clements
 ---
@@ -49,4 +49,4 @@ This workshop is generously supported by the [College of Science & Mathematics (
 
 ## Questions
 
-Contact [Arun Sethuraman](http://www.csusm.edu/biology/directory.html#asethuraman) or [Dave Clements](/src/people/dave-clements/index.md).
+Contact [Arun Sethuraman](http://www.csusm.edu/biology/directory.html#asethuraman) or [Dave Clements](/people/dave-clements/).

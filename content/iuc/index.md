@@ -1,11 +1,16 @@
 ---
 title: Intergalactic Utilities Commission
 ---
+
 ## Introduction
 
-<img class="float-right" src="/src/images/galaxy-logos/iuc-logo-trans.png" alt="Intergalactic Utilities Commission" width="250" />
+<div class="float-right img-sizer" style="width: 250px">
 
-The Intergalactic Utilities Commission (IUC) was established in 2012 to enable the pervasive use of the main Galaxy [Tool Shed](/src/toolshed/index.md) by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to [Galaxy tool](/src/tools/index.md) developers so that they can improve the quality of their repositories.
+![Intergalactic Utilities Commission](/images/galaxy-logos/iuc-logo-trans.png)
+
+</div>
+
+The Intergalactic Utilities Commission (IUC) was established in 2012 to enable the pervasive use of the main Galaxy [Tool Shed](/toolshed/) by ensuring the repositories available include contents that are functionally correct and optimized for installation into local Galaxies.  When appropriate, the group provides guidance to [Galaxy tool](/tools/) developers so that they can improve the quality of their repositories.
 
 ## Activities
 
@@ -18,8 +23,8 @@ The Intergalactic Utilities Commission (IUC) was established in 2012 to enable t
 
 IUC membership evolves over time and helpful community contributors are asked to join.
 
-Member | Joined | GitHub
------- | ------ | ------
+| Member | Joined | GitHub |
+| ------ | ------ | ------ |
 **Daniel Blankenberg**, Galaxy Team, Penn State University | founding member | [@blankenberg](https://github.com/blankenberg)
 **Dave Bouvier**, Galaxy Team, Penn State University | founding member | [@davebx](https://github.com/davebx)
 **Peter Cock**, The James Hutton Institute | founding member | [@peterjc](https://github.com/peterjc)
@@ -38,12 +43,13 @@ Member | Joined | GitHub
 **Simon Gladman**, University of Melbourne | 2017-11-11 | [@Slugger70](https://github.com/slugger70)
 **Matthias Bernt**, Helmholtz Centre for Environmental Research (UFZ) | 2018-07-20 | [@bernt-matthias](https://github.com/bernt-matthias)
 **Wolfgang Maier**, University of Freiburg | 2019-11-04 | [@wm75](https://github.com/wm75)
+**Cristóbal Gallardo**, University of Freiburg | 2021-11-25 | [@gallardoalba](https://github.com/gallardoalba)
 
 ### Former members
 
-Member | Joined | GitHub
------- | ------ | ------
-**Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb)
-**Edward Kirton**, U.S. Department of Energy | founding member |
-**Youri Hoogstrate**, Erasmus Universiteit Rotterdam | 2015-10-07 | [@yhoogstrate](https://github.com/yhoogstrate)
+| Member | Joined | GitHub |
+| ------ | ------ | ------ |
+| **Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb) |
+| **Edward Kirton**, U.S. Department of Energy | founding member |
+| **Youri Hoogstrate**, Erasmus Universiteit Rotterdam | 2015-10-07 | [@yhoogstrate](https://github.com/yhoogstrate) |
 

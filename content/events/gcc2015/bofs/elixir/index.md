@@ -3,8 +3,8 @@ title: ELIXIR-Galaxy Workshop
 ---
 <slot name="/events/gcc2015/header" />
 
-<div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a> <br />
-<a href='https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi'><img src="/src/images/logos/ElixirNoTextLogo.png" alt="Elixer" width="160" /></a> &nbsp;&nbsp;&nbsp;
+<div class='left'><a href='/events/gcc2015/bofs/'><img src="/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a> <br />
+<a href='https://docs.google.com/document/d/1k_d9A4HDTcmjEhYW3FbVeEjcAkembhxupZZN3KQn0NA/edit#heading=h.8fvjaj9oq5oi'><img src="/images/logos/ElixirNoTextLogo.png" alt="Elixer" width="160" /></a> &nbsp;&nbsp;&nbsp;
 </div>
 
 When: Tuesday, 7 July, 18:00
@@ -30,7 +30,7 @@ Any group using or planning to use Galaxy.
 
 ## When and Where
 
-Tuesday, 7 July, 18:00 in the Genome Seminar Room, in the nearby The Genome Analysis Center 
+Tuesday, 7 July, 18:00 in the Genome Seminar Room, in the nearby The Genome Analysis Center
 
 ## Who is Participating
 

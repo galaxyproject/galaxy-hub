@@ -25,7 +25,8 @@ quotas:
 The call is available [here](https://tinyurl.com/sqwk4fy).
 All applications must be submitted using this [form](https://tinyurl.com/wnhvx9e).'
 citations:
-  - 'Tangaro, M. A., Donvito, G., Antonacci, M., Chiara, M., Mandreoli, P., Pesole, G., & Zambelli, F. (2020). [Laniakea: An open solution to provide Galaxy “on-demand” instances over heterogeneous cloud infrastructures](https://doi.org/10.1093/gigascience/giaa033). *GigaScience*, 9(4). doi:10.1093/gigascience/giaa033'
+- "Tangaro, M. A., Mandreoli, P., Chiara, M., Donvito, G., Antonacci, M., Parisi, A., Bianco, A., Romano, A., Bianchi, D. M., Cangelosi, D., Uva, P., Molineris, I., Nosi, V., Calogero, R. A., Alessandri, L., Pedrini, E., Mordenti, M., Bonetti, E., Sangiorgi, L., … Zambelli, F. (2021). [Laniakea@ReCaS: Exploring the potential of customisable Galaxy on-demand instances as a cloud-based service](https://doi.org/10.1186/s12859-021-04401-3). *BMC Bioinformatics*, 22(15), 544. doi:10.1186/s12859-021-04401-3"
+- 'Tangaro, M. A., Donvito, G., Antonacci, M., Chiara, M., Mandreoli, P., Pesole, G., & Zambelli, F. (2020). [Laniakea: An open solution to provide Galaxy “on-demand” instances over heterogeneous cloud infrastructures](https://doi.org/10.1093/gigascience/giaa033). *GigaScience*, 9(4). doi:10.1093/gigascience/giaa033'
 pub_libraries:
 - "Laniakea"
 sponsors:

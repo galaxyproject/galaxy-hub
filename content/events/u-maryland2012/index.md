@@ -6,22 +6,22 @@ title: Introduction to Galaxy
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbmg.umd.edu/'><img src="/src/images/logos/UMarylandBioLogo.png" alt="Department of Cell Biology and Molecular Genetics"  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbmg.umd.edu/'><img src="/images/logos/UMarylandBioLogo.png" alt="Department of Cell Biology and Molecular Genetics"  /></a> </td>
     <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbcb.umd.edu/'><img src="/src/images/logos/CBCBLogo.png" alt="Center for Bioinformatics & Computational Biology" width="300" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.cbcb.umd.edu/'><img src="/images/logos/CBCBLogo.png" alt="Center for Bioinformatics & Computational Biology" width="300" /></a> </td>
   </tr>
   <tr>
     <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://umd.edu/'><img src="/src/images/logos/UMarylandLogoLong349.gif" alt="University of Maryland" width="300" /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://umd.edu/'><img src="/images/logos/UMarylandLogoLong349.gif" alt="University of Maryland" width="300" /></a> </td>
   </tr>
 </table>
 
 
 **A workshop for the University of Maryland community
 
-Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+Instructor: [Dave Clements](/people/dave-clements/)
 
 1:30-5:00pm, April 11<br />
 Bioscience Research Building, Room 1103**
@@ -85,7 +85,7 @@ The [slides for the lecture part of the workshop are now available](https://depo
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [Department of Cell Biology and Molecular Genetics](http://www.cbmg.umd.edu/) and the [Center for Bioinformatics & Computational Biology](http://www.cbcb.umd.edu/).
 

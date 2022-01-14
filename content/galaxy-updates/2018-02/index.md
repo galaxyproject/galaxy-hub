@@ -1,23 +1,23 @@
 ---
 title: February 2018 Galaxy News
 ---
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 
-Welcome to the February 2018 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the February 2018 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 ----
 
 # Events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months, including *large regional meetings in Europe and Africa.*
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months, including *large regional meetings in Europe and Africa.*
 
 ## GCCBOSC 2018 Training Topic Voting Closes Jan 31
 
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Vote for the Training Topics you want" />](/src/events/gccbosc2018/training/index.md)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Vote for the Training Topics you want" />](/events/gccbosc2018/training/)
 
 **Which is tomorrow.  [Vote now](http://bit.ly/gccbosc2018-vote)**
 
-[Your vote](http://bit.ly/gccbosc2018-vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
+[Your vote](http://bit.ly/gccbosc2018-vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters.
 
 [GCCBOSC2018](https://gccbosc2018.sched.com/) will be held 25-30 June in Portland, Oregon, United States. It will feature two days of training: the second of which is multi-track and will feature content for both the BOSC and Galaxy communities.  Workshops will be hands-on and participants will be strongly encouraged to bring a laptop and follow along.  If you work in data-intensive biomedical research, there is no better place than GCCBOSC 2018 to present your work and to learn from others.
 
@@ -28,11 +28,11 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
 
 ## GCCBOSC 2018 Sponsors
 
-We are happy to have announced several [GCCBOSC 2018 sponsors](/src/events/gccbosc2018/sponsors/index.html) in January. This month we are highlighting *PeerJ*:
+We are happy to have announced several [GCCBOSC 2018 sponsors](/events/gccbosc2018/sponsors/) in January. This month we are highlighting *PeerJ*:
 
 ### PeerJ
 
-[<img class="float-right" src="/src/images/logos/peerj-logo-400.png" alt="PeerJ, the award-winning biological, medical and environmental sciences journal" width="120" />](https://peerj.com/)
+[<img class="float-right" src="/images/logos/peerj-logo-400.png" alt="PeerJ, the award-winning biological, medical and environmental sciences journal" width="120" />](https://peerj.com/)
 
 ***[PeerJ](https://peerj.com/)*** is proud to sponsor GCCBOSC 2018 and support the unified event for bioinformatics developers and practitioners. PeerJ's mission is to make Open Access affordable, fast, and easier for researchers and institutions, and central to this mission is our open source ethos. We publish two peer-reviewed journals, *[PeerJ](https://peerj.com/)* and *[PeerJ Computer Science](https://peerj.com/computer-science/)* and we also host a free *[PeerJ Preprints](https://peerj.com/preprints/)* server. *PeerJ* requires code to be open and accessible, hence readers can be assured that they can access the tools appropriately. We also provide [open source tools](https://github.com/PeerJ) helpful to both academics and general software development professionals.
 
@@ -42,18 +42,18 @@ GCCBOSC attendees may be interested to hear that, in addition to research articl
 
 <div class="float-right">
 <br />
-[<img src="/src/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/src/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
+[<img src="/images/events/summary-thumb.png" alt="Download the one page summary." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_summary_20170906.pdf) [<img src="/images/events/prospectus-thumb.png" alt="Download the full prospectus." />](https://depot.galaxyproject.org/hub/attachments/documents/gccbosc2018_sponsorship_prospectus_20170906.pdf)  </div>
 
 ### Call for sponsors!
 
-[Sponsors](/src/events/gccbosc2018/sponsors/index.html) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/src/events/gccbosc2018/sponsors/index.md#interested) and raise your organization's visibility in these active and engaged communities.
+[Sponsors](/events/gccbosc2018/sponsors/) are a key part of [GCCBOSC 2018](https://gccbosc2018.sched.com/).  Is your organization interested in playing a prominent role in the first joint gathering of the Galaxy and BOSC communities? Then [become a GCCBOSC 2018 sponsor](/events/gccbosc2018/sponsors/#interested) and raise your organization's visibility in these active and engaged communities.
 
 
 ## ELIXIR Galaxy Community Kickoff and Meeting, March, Freiburg
 
 <div class="float-left">
-[<img src="/src/images/logos/ElixirNoTextLogo.png" alt="ELIXIR Galaxy Community Kickoff and Meeting" width="160" />](https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference) <br />
-[<img src="/src/images/logos/embl-australia-logo.png" alt="EMBL-Australia" width="120" />](http://www.emblaustralia.org/)
+[<img src="/images/logos/ElixirNoTextLogo.png" alt="ELIXIR Galaxy Community Kickoff and Meeting" width="160" />](https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference) <br />
+[<img src="/images/logos/embl-australia-logo.png" alt="EMBL-Australia" width="120" />](http://www.emblaustralia.org/)
 </div>
 
 The ELIXIR Galaxy community will have a [kickoff meeting](https://www.elixir-europe.org/events/galaxy-community-kickoff-meeting-and-galaxy-user-conference) 14-16th March 2018, in Freiburg/Germany. We will combine this with a Galaxy User Conference and the **official launch of the usegalaxy.eu server.**
@@ -66,7 +66,7 @@ Wednesday (the 14th) will be dedicated to the ELIXIR Galaxy communtiy, to discus
 
 ## Galaxy Africa, April, Cape Town
 
-[<img class="float-right" src="/src/events/2018-04-galaxy-africa/galaxy-africa-logo.svg" alt="Galaxy Africa" width="170" />](http://galaxyafrica.sanbi.ac.za/)
+[<img class="float-right" src="/events/2018-04-galaxy-africa/galaxy-africa-logo.svg" alt="Galaxy Africa" width="170" />](http://galaxyafrica.sanbi.ac.za/)
 
 [Galaxy Africa](http://galaxyafrica.sanbi.ac.za/) will be held 3-5 April in Cape Town, South Africa at [SANBI](http://www.sanbi.ac.za/) on the [Universtiy of the Western Cape](https://www.uwc.ac.za/Pages/default.aspx) campus.
 
@@ -84,13 +84,13 @@ morning session will include presentations on genomic and metagenomic data analy
 ## Galaxy Administrators Course Report
 
 <div class="float-right">
-<img src="/src/events/2018-01-admin-oslo/oslo-admin-class.jpg" height="120" /> &nbsp;
-[<img  src="/src/events/2018-01-admin-oslo/admins-oslo-2018-logo.png" alt="Galaxy Administrators Course" height="120" />](https://github.com/galaxyproject/dagobah-training)
+<img src="/events/2018-01-admin-oslo/oslo-admin-class.jpg" height="120" /> &nbsp;
+[<img  src="/events/2018-01-admin-oslo/admins-oslo-2018-logo.png" alt="Galaxy Administrators Course" height="120" />](https://github.com/galaxyproject/dagobah-training)
 </div>
 
-A very successful and inspiring Galaxy admin workshop was held in Oslo in January, Thanks to 33 highly motivated participants and Nicola Soranzo, Marius Van Den Beek, Abdulrahman Azab, [Björn Grüning](/src/people/bjoern-gruening/index.md) and [Enis Afgan](/src/people/enis-afgan/index.md) as instructors!  Thanks also to [ELIXIR](https://www.elixir-europe.org/), [de.NBI](https://www.denbi.de/), and [ELIXIR Norway](https://www.elixir-europe.org/about-us/who-we-are/nodes/norway) for sponsoring this event.
+A very successful and inspiring Galaxy admin workshop was held in Oslo in January, Thanks to 33 highly motivated participants and Nicola Soranzo, Marius Van Den Beek, Abdulrahman Azab, [Björn Grüning](/people/bjoern-gruening/) and [Enis Afgan](/people/enis-afgan/) as instructors!  Thanks also to [ELIXIR](https://www.elixir-europe.org/), [de.NBI](https://www.denbi.de/), and [ELIXIR Norway](https://www.elixir-europe.org/about-us/who-we-are/nodes/norway) for sponsoring this event.
 
-Plenty of materials for Galaxy administration are now [up to date and available online](https://github.com/galaxyproject/dagobah-training).  The workshop included a sneak [preview of what's coming in the 18.01 release](https://galaxyproject.github.io/dagobah-training/2018-oslo/whatsnew/18.01.html#1) from [Nate Coraor](/src/people/nate/index.md).
+Plenty of materials for Galaxy administration are now [up to date and available online](https://github.com/galaxyproject/dagobah-training).  The workshop included a sneak [preview of what's coming in the 18.01 release](https://galaxyproject.github.io/dagobah-training/2018-oslo/whatsnew/18.01.html#1) from [Nate Coraor](/people/nate/).
 
 
 # Select Upcoming events
@@ -227,10 +227,10 @@ Plenty of materials for Galaxy administration are now [up to date and available 
 # New Galactic Blog Entry: Galaxy R Markdown Tools
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/src/blog/index.md)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="200" />](/blog/)
 </div>
 
-January saw one new *[Galactic Blog](/src/blog/index.md)* entry:
+January saw one new *[Galactic Blog](/blog/)* entry:
 
 * [Galaxy R Markdown Tools](https://github.com/statonlab/galaxy-r-markdown-tools), by Ming Chen
 
@@ -239,8 +239,8 @@ January saw one new *[Galactic Blog](/src/blog/index.md)* entry:
 
 January was a big month for Galaxy in the cloud:
 
-* [Galaxy Cloud embraces the GVL](/src/news/2018-01-22-gvl430/index.md)
-* [All-new CloudLaunch release](/src/news/2018-01-05-cloudlaunch/index.md)
+* [Galaxy Cloud embraces the GVL](/news/2018-01-22-gvl430/)
+* [All-new CloudLaunch release](/news/2018-01-05-cloudlaunch/)
 
 # Publications
 
@@ -257,33 +257,33 @@ The *Galactic* and *Stellar* publications added in January were:
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 67 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 30 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 22 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 10 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | 
-| 8 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 4 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 3 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | 
-| 3 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | 
+| 67 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 30 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 22 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 10 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) |
+| 8 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 4 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 4 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 3 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) |
+| 3 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 3 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | | 2 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | | 1 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) |
 | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | | | | | | |
 
 ----
 # Who's Hiring
 
-<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * The [Freiburg Galaxy Team](https://usegalaxy-eu.github.io/galaxy-freiburg/people/) is [looking for 2 Postdoctoral researchers](https://usegalaxy-eu.github.io/galaxy-freiburg/2018/01/18/openpositions.html)
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them last month, including two new public servers:
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them last month, including two new public servers:
 
-[<img class="float-right" src="/src/use/archive/a-game/agame-logo.png" alt="A-Game" width="150" />](http://beaconlab.it/agame)
+[<img class="float-right" src="/use/archive/a-game/agame-logo.png" alt="A-Game" width="150" />](http://beaconlab.it/agame)
 
 ## A-Game
 
@@ -294,7 +294,7 @@ A-Game is supported by [BEACON](https://bioscienzebio.unimi.it/gruppo.php?id=26)
 
 ## Splicescope
 
-[<img class="float-left" src="/src/use/archive/splicescope/zhang-lab.png" alt="Splicescope" width="240" />](http://galaxy.splicebase.net/)
+[<img class="float-left" src="/use/archive/splicescope/zhang-lab.png" alt="Splicescope" width="240" />](http://galaxy.splicebase.net/)
 
 [Splicescope](http://galaxy.splicebase.net/) is a tool-publishing server for predicting neuronal maturation using splicing profiles. Splicescope takes either an exon inclusion ratio matrix file or junction bed files from multiple samples as input and outputs a zip file including prediction results, PCA analysis results and a PCA plot based on reference samples and an html file to summarize the prediction.
 
@@ -308,11 +308,11 @@ Splicescope can be accessed anonymously, or with an account, and anyone can crea
 
 We tag papers that use, mention, implement or extend public Galaxy Servers.  Here are the counts for January's publications.
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 12 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | 
-| 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/tags/>PIA) | | 1 | [>Splicescope](https://www.zotero.org/groups/1732893/galaxy/tags/>Splicescope) | 
-| 1 | [>A-Game](https://www.zotero.org/groups/1732893/galaxy/tags/>A-Game) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | | 1 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) | 
+| 12 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 3 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 1 | [>GVL-Unspecified](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-Unspecified) | | 1 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) |
+| 1 | [>Osiris](https://www.zotero.org/groups/1732893/galaxy/tags/>Osiris) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>PIA](https://www.zotero.org/groups/1732893/galaxy/tags/>PIA) | | 1 | [>Splicescope](https://www.zotero.org/groups/1732893/galaxy/tags/>Splicescope) |
+| 1 | [>A-Game](https://www.zotero.org/groups/1732893/galaxy/tags/>A-Game) | | 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | | 1 | [>GVL-QLD](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-QLD) |
 | 1 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | | | | | | | | | |
 
 
@@ -322,9 +322,9 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in January](/src/toolshed/contributions/2018-01/index.md).
+[Tool Shed contributions in January](/toolshed/contributions/2018-01/).
 
 # Releases
 
@@ -333,14 +333,14 @@ We tag papers that use, mention, implement or extend public Galaxy Servers.  Her
 ### 17.09 Galaxy Release
 
 <div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
 </div>
 
 The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) published the **[17.09 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.09_announce.html)** at the end of October.
 
 Highlights include
 
-* **Singularity** Tool execution using the HPC-friendly container technology Singularity is now supported. 
+* **Singularity** Tool execution using the HPC-friendly container technology Singularity is now supported.
 * **Download entire collection** Downloading whole collections is now possible from the history interface. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
 * **Switch tool versions in workflows** You can now select exactly what version of tool you want to use when building workflows. (Thanks to [@mvdbeek](https://github.com/mvdbeek).)
 * **Security patches**
@@ -351,6 +351,7 @@ See the [17.09 release announcement](https://docs.galaxyproject.org/en/master/re
 ### Galaxy Docker Image 17.09
 
 The [Galaxy Docker project has seen a matching release](https://github.com/bgruening/docker-galaxy-stable/releases/tag/17.09), for Galaxy 17.05. Major features include
+
 * much improved documentation about using Galaxy Docker and an external cluster ([@rhpvorderman](https://github.com/rhpvorderman))
 * CVMFS support - mounting in 4TB of pre-build reference data ([@chambm](https://github.com/chambm))
 * Singularity support and tests (compose only)
@@ -359,7 +360,7 @@ The [Galaxy Docker project has seen a matching release](https://github.com/bgrue
 
 And
 
-* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 31k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
+* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 31k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
 
 ### ephemeris 0.8.0
 
@@ -371,7 +372,7 @@ Ephemeris is a small Python library and set of scripts for managing the bootstra
 
 ### blend4php 0.1 beta
 
-[<img class='float-right' src="/src/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" width="220" />](https://github.com/galaxyproject/blend4php)
+[<img class='float-right' src="/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" width="220" />](https://github.com/galaxyproject/blend4php)
 
 The beta version of the [blend4php package](https://github.com/galaxyproject/blend4php), a PHP wrapper for the [Galaxy API](https://docs.galaxyproject.org/en/master/api_doc.html), was released in December. It provides a PHP package for interacting with Galaxy and CloudMan. blend4php currently offers a partial implementation of the Galaxy API and includes support for datasets, data types, folder contents, folders, genomes, group roles, groups, group users, histories, history contents, jobs, libraries, library contents, requests, roles, search, tools, toolshed repositories, users, visualizations and workflows.
 
@@ -391,7 +392,7 @@ This revision:
 
 ### Planemo 0.47.0
 
-[<img class="float-right" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
+[<img class="float-right" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -427,6 +428,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-* The semi-annual update of the project statistics page is done.  [See what's new](/src/galaxy-project/statistics/index.md).
-* From [John Chilton](/src/people/john-chilton/index.md):
-  * Galaxy can now [by-pass re-running jobs with duplicate parameters/inputs](https://github.com/galaxyproject/galaxy/pull/4690) thanks to the brilliant [Marius Van Den Beek](https://twitter.com/mariusvdbeek/) 
+* The semi-annual update of the project statistics page is done.  [See what's new](/galaxy-project/statistics/).
+* From [John Chilton](/people/john-chilton/):
+    * Galaxy can now [by-pass re-running jobs with duplicate parameters/inputs](https://github.com/galaxyproject/galaxy/pull/4690) thanks to the brilliant [Marius Van Den Beek](https://twitter.com/mariusvdbeek/)

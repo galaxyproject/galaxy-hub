@@ -2,23 +2,23 @@
 title: 'Feedback on GCC2011'
 ---
 
-[<img class='mx-auto' src="/src/events/GCC2011Logo400.png" alt="GCC2011" />](http://galaxy.psu.edu/gcc2011/)
+[<img class='mx-auto' src="/events/GCC2011Logo400.png" alt="GCC2011" />](http://galaxy.psu.edu/gcc2011/)
 
-The [2011 Galaxy Community Conference](/src/events/gcc2011/index.md) was held 25-26 May, at the [Conference Centre De Werelt](http://www.congrescentrum.com/accommodations/de_werelt) in Lunteren, The Netherlands. 
+The [2011 Galaxy Community Conference](/events/gcc2011/) was held 25-26 May, at the [Conference Centre De Werelt](http://www.congrescentrum.com/accommodations/de_werelt) in Lunteren, The Netherlands.
 
 We received feedback from 73 participants.
 
 ## Would you recommend future Galaxy meetings to others?**
 
-| Answer |  #  |  %  |  Comments  | 
-| ------ | --- | --- | --------- | 
-| **Yes** |  **72**  |  **99%**  |   | 
-| Yes, but ... |  1  |  1%  |  The one response was "there was a bit too much info from the field, and not enough from the core development team."  | 
-| No |  0  |  0  |   | 
+| Answer |  #  |  %  |  Comments  |
+| ------ | --- | --- | --------- |
+| **Yes** |  **72**  |  **99%**  |   |
+| Yes, but ... |  1  |  1%  |  The one response was "there was a bit too much info from the field, and not enough from the core development team."  |
+| No |  0  |  0  |   |
 
 ## How useful was the meeting?
 
-| Weight | Answer |  # |  % | Comments 
+| Weight | Answer |  # |  % | Comments
 | ----: | ---- | ----: | ----: | ---- |
 | 4 | Exceptional | 21 | 29% | |</td>
 | 3 | **Above Average** | **42** | **58%** |
@@ -30,19 +30,19 @@ We received feedback from 73 participants.
 
 ## Was the meeting well run and organized?
 
-| Weight | Answer |  # |  % | Comments 
+| Weight | Answer |  # |  % | Comments
 | ----: | ---- | ----: | ----: | ---- |
 | 4 | Exceptional | 28 | 38% | |</td>
 | 3 | **Above Average** | **40** | **55%** | |
 | 2 | Average | 5 | 7% | |
 | 1 | Below Average | 0 | 0% | |
-| 0 | Not at all | 0 | 0% | | 
+| 0 | Not at all | 0 | 0% | |
 
 **Average weighted score: 3.32 out of 4 (just above "Above Average")**
 
 ## Did the meeting meet your expectations?
 
-| Weight | Answer |  # |  % | Comments 
+| Weight | Answer |  # |  % | Comments
 | ----: | ---- | ----: | ----: | ---- |
 | 2 | **Exceeded** | **38** | **52%** | |
 | 1 | Met | 35 | 48% | |
@@ -64,7 +64,7 @@ We received feedback from 73 participants.
 * Thanks for all the good work, both the conference organization and galaxy itself! Keep on.
 * The organisation was excellent!
 * Conference was very well organization.  Its amazing to see participation from so many organizations.
-* Fantastic venue, relaxed atmosphere, fantastic organisation and great to interact with the community as a whole. 
+* Fantastic venue, relaxed atmosphere, fantastic organisation and great to interact with the community as a whole.
 * I also found that the frequent opportunities to interact with other Galaxy users and developers very useful, and which was helped by having everything on the single site.
 * The relaxed atmosphere encouraged interaction and discussion.
 * The community aspect was most useful; the chance to talk to the devs and to other people in a similar situation to our institution.

@@ -2,14 +2,14 @@
 title: "October 06, 2014 Galaxy Distribution"
 date: "2014-10-06"
 ---
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width=150 /></a></div>
 **[Complete News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014-10-06)**
 <br /><br />
 *Highlights:* <br />
 <br />  • New! [UseGalaxy.org](http://usegalaxy.org) Admin Reorganized
 <br />  • New! History and Dataset Functions
-<br />  • Learn about [TACC's](https://www.tacc.utexas.edu/) Stampede supercomputer, a compute powerhouse behind [Main](/src/main/index.md)
-<br />  • Join our [GitHub](https://github.com/galaxyproject/tools-devteam) community 
+<br />  • Learn about [TACC's](https://www.tacc.utexas.edu/) Stampede supercomputer, a compute powerhouse behind [Main](/main/)
+<br />  • Join our [GitHub](https://github.com/galaxyproject/tools-devteam) community
 <br />  • Server Status a click away [http://status.galaxyproject.org](http://status.galaxyproject.org)
 <br />  • Many other Admin, Workflow, Tool Development, Visualization, API, and Job upgrades
 <br />  • Tunings and Bug Fixes
@@ -43,4 +43,4 @@ date: "2014-10-06"
 
 <br />
 *Thanks for using Galaxy!* <br />
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

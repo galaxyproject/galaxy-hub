@@ -4,13 +4,13 @@ tease: "Voting closes January 31"
 date: "2018-01-22"
 ---
 
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Vote for the Training Topics you want" />](/src/events/gccbosc2018/training/index.md)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-300.png" width="160" alt="GCCBOSC 2018: Vote for the Training Topics you want" />](/events/gccbosc2018/training/)
 
-**[Vote now on the training topics you want!](/src/events/gccbosc2018/training/index.md)**
+**[Vote now on the training topics you want!](/events/gccbosc2018/training/)**
 
-[Voting is now open](http://bit.ly/gccbosc2018-vote) on what [training topics](/src/events/gccbosc2018/training/index.md) will be offered at [GCCBOSC 2018](https://gccbosc2018.sched.com/).
+[Voting is now open](http://bit.ly/gccbosc2018-vote) on what [training topics](/events/gccbosc2018/training/) will be offered at [GCCBOSC 2018](https://gccbosc2018.sched.com/).
 
-[Your vote](http://bit.ly/gccbosc2018-vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
+[Your vote](http://bit.ly/gccbosc2018-vote) will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters.
 
 **Topic voting closes January 31.** The Training schedule, including instructors, will be published before early registration opens.
 
@@ -18,4 +18,4 @@ date: "2018-01-22"
 
 Thanks, and see you in Portland!
 
-The [GCCBOSC 2018 Organizers](/src/events/gccbosc2018/organizers)
+The [GCCBOSC 2018 Organizers](/events/gccbosc2018/organizers)

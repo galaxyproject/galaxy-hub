@@ -6,7 +6,7 @@ date: "2020-10-23"
 ---
 
 
-**[JXTX: The James P. Taylor Foundation for Open Science](/src/jxtx/foundation)** is pleased to announce the recipients of the 2020 JTech Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field. 
+**[JXTX: The James P. Taylor Foundation for Open Science](/jxtx/foundation)** is pleased to announce the recipients of the 2020 JTech Scholarships. The JXTX Foundation provides support for students to attend conferences in computational biology and data science, where they can present their work and form connections with other researchers in the field.
 
 Ten genomics and data sciences graduate students from around the globe were awarded the first annual JTech scholarship.  These awardees will present their work at the [2020 Cold Spring Harbor Laboratory (CSHL) Biological Data Science Conference](https://meetings.cshl.edu/meetings.aspx?meet=DATA&year=20) being held virtually November 4-6.  Awardees represent ten institutions and are presenting a wide range of research at the meeting.
 

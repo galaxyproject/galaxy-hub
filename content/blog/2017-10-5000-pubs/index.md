@@ -2,13 +2,13 @@
 date: '2017-10-16'
 title: "Galaxy: the first 5,000 pubs "
 tease: "The Galaxy Publication Library hits a milestone"
-image: /src/images/logos/zotero-logo-small-trans.png
+image: /images/logos/zotero-logo-small-trans.png
 authors: "Dave Clements"
 ---
 
 We reached 5,000 publications in the [Galaxy Publication Library](https://www.zotero.org/groups/1732893/galaxy) last week.  The library tracks publications that use, extend, implement or reference Galaxy or a Galaxy server.  It includes journal articles, theses, and a couple of odds and ends.  This milestone is a good opportunity to look at what the library tells us about where the Galaxy project has been, and maybe where it's going too.
 
-The library was started December 2011, when the first 168 galaxy related publications were added and classified using 8 tags.  This included all project publications plus every pub that *ad hoc* literature searches could find at the time.  The library started on CiteULike and stayed there until September 2017, when we [moved it to Zotero](/src/news/2017-09-publication-lib-on-zotero/). The library grew to 4500 papers during that time.
+The library was started December 2011, when the first 168 galaxy related publications were added and classified using 8 tags.  This included all project publications plus every pub that *ad hoc* literature searches could find at the time.  The library started on CiteULike and stayed there until September 2017, when we [moved it to Zotero](/news/2017-09-publication-lib-on-zotero/). The library grew to 4500 papers during that time.
 
 The library uses *tags* to indicate how the publication relates to Galaxy.  See below for an [explanation and history of the tags](#more-on-tags).
 
@@ -16,6 +16,7 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
 
 # Publications and Tags Over Time
 
+<div style="overflow-x: scroll;">
 <table class="table">
   <tr>
     <th> Year </th>
@@ -370,6 +371,7 @@ The library uses *tags* to indicate how the publication relates to Galaxy.  See 
     <th  style="text-align: right; background-color: #d2eed2;" > <a href="https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud">9</a> </th>
   </tr>
 </table>
+</div>
 
 # Trends
 
@@ -383,17 +385,17 @@ The most obvious "trend" is that **there are a lot of pubs using Galaxy in their
 
 Not all *[Methods](https://www.zotero.org/groups/1732893/galaxy/tags/%2BMethods)* paper say which Galaxy instance(s) they used.  But starting in 2013, papers that do mention this are also tagged with *[UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseMain)*, *[UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUsePublic)*, *[UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseLocal)*, and/or *[UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/%2BUseCloud)* tags (see [Tags](#tags) below for an explanation of all tags).
 
-**The relative number of *UseMain* and *UsePublic* pubs highlights the increasing availability of publicly accessible Galaxy servers.**  In 2013-2014, there are 2 1/2 times as many *UseMain* pubs as *UsePublic* pubs.  In 2015 they were about the same, and in 2016-2017, there are nearly twice as many *UsePublic* pubs as there are *UseMain* pubs. This rise reflects the increase in available [public servers](/src/use/index.md) from 21 servers at the start of 2012 to over 90 servers, and 6 services today.
+**The relative number of *UseMain* and *UsePublic* pubs highlights the increasing availability of publicly accessible Galaxy servers.**  In 2013-2014, there are 2 1/2 times as many *UseMain* pubs as *UsePublic* pubs.  In 2015 they were about the same, and in 2016-2017, there are nearly twice as many *UsePublic* pubs as there are *UseMain* pubs. This rise reflects the increase in available [public servers](/use/) from 21 servers at the start of 2012 to over 90 servers, and 6 services today.
 
 ## Reproducibility Rising
 
-The last trend I want to highlight is about *Reproducibility*. Reproducibility has been a core value of Galaxy since at least 2011.  **The *[Reproducibilty](https://www.zotero.org/groups/1732893/galaxy/tags/%2BReproducibility)* topic has seen a nearly 3 fold increase since then.**  There were 21 pubs in all of 2011-2013, compared to 53 pubs in 2017 *thus far* and *Reproducibility* has gone from 2.1% of papers to 5.7% of papers in the same time. 
+The last trend I want to highlight is about *Reproducibility*. Reproducibility has been a core value of Galaxy since at least 2011.  **The *[Reproducibilty](https://www.zotero.org/groups/1732893/galaxy/tags/%2BReproducibility)* topic has seen a nearly 3 fold increase since then.**  There were 21 pubs in all of 2011-2013, compared to 53 pubs in 2017 *thus far* and *Reproducibility* has gone from 2.1% of papers to 5.7% of papers in the same time.
 
 ## Publications per year
 
-[<img class="float-right" src="/src/blog/2017-10-5000-pubs/pubs-per-year.png" alt="Publications published in each year, as of 2017/10" width="200" />](/src/blog/2017-10-5000-pubs/pubs-per-year.png)
+[<img class="float-right" src="/blog/2017-10-5000-pubs/pubs-per-year.png" alt="Publications published in each year, as of 2017/10" width="200" />](/blog/2017-10-5000-pubs/pubs-per-year.png)
 
-**The number of publications that reference Galaxy each year has increased every year since the project started.**  It took [over three and a half years to reach 2,500 publications](/src/news/first2500-papers/index.md) but only a little over two more years to add the next 2,500 publications.
+**The number of publications that reference Galaxy each year has increased every year since the project started.**  It took [over three and a half years to reach 2,500 publications](/news/first2500-papers/) but only a little over two more years to add the next 2,500 publications.
 
 
 
@@ -441,7 +443,7 @@ If [current trends continue](#publications-per-year) we'll hit 10,000 publicatio
 
 *Thanks for using Galaxy,*
 
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)
 
 ----
 
@@ -461,18 +463,18 @@ Topic tags indicate how the publication relates to Galaxy.  Here's the current s
 | [+IsGalaxy](https://www.zotero.org/groups/galaxy/items/tag/+IsGalaxy/) | Publications about Galaxy itself or installations of Galaxy. | 2011 |
 | [+Methods](https://www.zotero.org/groups/galaxy/items/tag/+Methods/) | Uses Galaxy in their methods. | 2011 |
 | [+Other](https://www.zotero.org/groups/galaxy/items/tag/+Other/) | Publications that don't fit well under any other tag. | 2011 |
-| [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/src/galaxy-team/index.md) member as an author. | 2011 |
+| [+Project](https://www.zotero.org/groups/galaxy/items/tag/+Project/) | Publications with a [Galaxy team](/galaxy-team/) member as an author. | 2011 |
 | [+Reproducibility](https://www.zotero.org/groups/galaxy/items/tag/+Reproducibility/) | Reproducibility and persistence in science. | 2011 |
 | [+Shared](https://www.zotero.org/groups/galaxy/items/tag/+Shared/) |  Publications that have published workflows, histories, datasets, pages, or visualizations in a Galaxy instance. | 2011 |
 | [+Workbench](https://www.zotero.org/groups/galaxy/items/tag/+Workbench/) | Publication mentions Galaxy as a platform. | 2011 |
 | [+Tools](https://www.zotero.org/groups/galaxy/items/tag/+Tools/) | Tools that run in, have been ported to, or interact with Galaxy | 2012 |
 | [+Cloud](https://www.zotero.org/groups/galaxy/items/tag/+Cloud/) | Publications referencing / extending / discussing Galaxy in a cloud context. | 2013 |
-| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/src/use/index.md) or a [Galaxy service](/src/use/index.md).  This is distinct from the *+UsePublic* tag. | 2013 |
+| [+RefPublic](https://www.zotero.org/groups/galaxy/items/tag/+RefPublic/) | References a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/).  This is distinct from the *+UsePublic* tag. | 2013 |
 | [+Unknown](https://www.zotero.org/groups/galaxy/items/tag/+Unknown/) | Publications that we know refer to Galaxy, but we aren't sure how because they are behind a paywall we don't have access to.  These are revisited periodically. | 2013 |
 | [+UseCloud](https://www.zotero.org/groups/galaxy/items/tag/+UseCloud/) | Uses a custom built cloud based instance of Galaxy in its methods. | 2013 |
 | [+UseLocal](https://www.zotero.org/groups/galaxy/items/tag/+UseLocal/) | Uses a local installation of Galaxy in its methods. | 2013 |
-| [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/src/main/index.md), in its methods. | 2013 |
-| [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | Uses a [publicly accessible Galaxy instance](/src/use/index.md) or a [Galaxy service](/src/use/index.md) in its methods. | 2013 |
+| [+UseMain](https://www.zotero.org/groups/galaxy/items/tag/+UseMain/) | Uses the project's public server, [usegalaxy.org](https://usegalaxy.org/) (a.k.a. [Main](/main/), in its methods. | 2013 |
+| [+UsePublic](https://www.zotero.org/groups/galaxy/items/tag/+UsePublic/) | Uses a [publicly accessible Galaxy instance](/use/) or a [Galaxy service](/use/) in its methods. | 2013 |
 | [+Visualization](https://www.zotero.org/groups/galaxy/items/tag/+Visualization/) | Publications referencing Galaxy in a visualization and/or visual analytics context. | 2013 |
 
 ## Galaxy Featured Tags
@@ -486,7 +488,7 @@ With the move to Zotero we added two new sets of tags. The first set is used to 
 
 ## Public server and services tags
 
-The second set of new tags show which  [public Galaxy server](/src/use/index.md) or [service](/src/use/index.md) is used or discussed in publications. These are  tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/src/use/repeatexplorer/index.md) public server.
+The second set of new tags show which  [public Galaxy server](/use/) or [service](/use/) is used or discussed in publications. These are  tagged with the server's name, preceded by a ">".  For example, the [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/%3ERepeatExplorer) tag lists all papers that use or reference the [RepeatExplorer](/use/repeatexplorer/) public server.
 
 ## Publisher Tags
 
@@ -499,7 +501,7 @@ These tags were added over a 6 year period.  Are older papers back-tagged when n
 * **Galaxy Featured Tags** exist back to the beginning of time.  (These were converted from CiteULike's *priority* feature.)
 * **Topic and Public Server/Service tags** have been applied to older publications on a selected basis.
 
-Therefore, don't look for a lot of **+UseMain** or **+Cloud** tagged papers from before 2013. 
+Therefore, don't look for a lot of **+UseMain** or **+Cloud** tagged papers from before 2013.
 
 
 

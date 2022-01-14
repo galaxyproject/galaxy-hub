@@ -2,10 +2,10 @@
 title: September 2017 Galaxy News
 ---
 <div class='right'>
-[<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 </div>
 
-Welcome to the September 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the September 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 
 ----
@@ -17,16 +17,16 @@ Welcome to the September 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a
 Some highlights from the recently added pubs:
 
 * [2017 Galaxy community update](https://doi.org/10.7490/f1000research.1114388.1)
-  [Dan Blankenberg](/src/people/dan/index.md), [Jeremy Goecks](/src/people/jeremy-goecks/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114388.1
+  [Dan Blankenberg](/people/dan/), [Jeremy Goecks](/people/jeremy-goecks/). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114388.1
 
 * [Approaches for small RNA-seq in Galaxy](https://doi.org/10.7490/f1000research.1114423.1)
-  Mallory Freeberg, [James Taylor](/src/people/james-taylor/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114423.1
+  Mallory Freeberg, [James Taylor](/people/james-taylor/). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114423.1
 
 * [Bio-Docklets: virtualization containers for single-step execution of NGS pipelines](https://doi.org/10.1093/gigascience/gix048)
   Baekdoo Kim, Thahmina Ali, Carlos Lijeron, Enis Afgan, Konstantinos Krampis. *GigaScience*, Vol. 6, No. 8. (August 2017), pp. 1-7, doi:10.1093/gigascience/gix048
 
 * [Building an open, collaborative, online infrastructure for bioinformatics training](https://doi.org/10.7490/f1000research.1114447.1)
-  Bérénice Batut, [Galaxy Training Network](https://training.galaxyproject.org/), [Dave Clements](/src/people/dave-clements/index.md), [Björn Grüning](/src/people/bjoern-gruening/index.md). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114447.1
+  Bérénice Batut, [Galaxy Training Network](https://training.galaxyproject.org/), [Dave Clements](/people/dave-clements/), [Björn Grüning](/people/bjoern-gruening/). *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114447.1
 
 * [Galaxy-compatible Tool for Rapid Aptamer Clustering and HT-SELEX Data Analysis](https://doi.org/10.22377/ajp.v11i02.1265)
   Nikita A. Skrylnik, *Asian Journal of Pharmaceutics (AJP)*, Vol. 11, No. 02. (2017), doi:10.22377/ajp.v11i02.1265
@@ -50,13 +50,13 @@ Some highlights from the recently added pubs:
   Jeffrey Miller, Brenna Miller. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114436.1
 
 * [Recent object formation in the core of Galaxy](https://doi.org/10.7490/f1000research.1114483.1)
-  [Martin Čech](/src/people/marten/index.md), et. al. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114483.1
+  [Martin Čech](/people/marten/), et. al. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114483.1
 
 * [Systematically linking tranSMART, Galaxy and EGA for reusing human translational research data](https://doi.org/10.12688/f1000research.12168.1)
   Chao Zhang, Jochem Bijlard, Christine Staiger, et al. *F1000Research*, Vol. 6 (16 August 2017), 1488, doi:10.12688/f1000research.12168.1
 
 * [The backbone of research reproducibility-sustainable and flexible tool deployment](https://doi.org/10.7490/f1000research.1114482.1)
-  [Björn Grüning](/src/people/bjoern-gruening/index.md), [John Chilton](/src/people/john-chilton/index.md), Johannes Köster, Dale Ryan, Yasset Perez-Riverol. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114482.1
+  [Björn Grüning](/people/bjoern-gruening/), [John Chilton](/people/john-chilton/), Johannes Köster, Dale Ryan, Yasset Perez-Riverol. *F1000Research* In Bioinformatics Open Source Conference 2017, Vol. 6 (2017), doi:10.7490/f1000research.1114482.1
 
 * [ToolDog-generating tool descriptors from the ELIXIR tool registry](https://doi.org/10.7490/f1000research.1114473.1)
   Kenzo-Hugo Hillion, Ivan Kuzmin, Hedi Peterson, Jon Ison, Hervé Ménager. *F1000Research* In 2017 Galaxy Community Conference, Vol. 6 (2017), doi:10.7490/f1000research.1114473.1
@@ -77,7 +77,7 @@ Some highlights from the recently added pubs:
 
 # Upcoming events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <table class="table table-striped">
 <thead>
@@ -169,16 +169,16 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on oth
 ----
 # Who's Hiring
 
-<div class='right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [Ingénieur en développement de composants Galaxy pour l’Ecologie](https://www.sfbi.fr/content/d%C3%A9veloppement-de-composants-galaxy-pour-l%E2%80%99ecologie), [Station de Biologie marine](http://www.mnhn.fr/fr/recherche-expertise/stations-marines/station-biologie-marine-concarneau), Concarneau, France
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 * [Ingénieur spécialisé en NGS](https://www.sfbi.fr/content/ing%C3%A9nieur-sp%C3%A9cialis%C3%A9-en-ngs), [BIOGECO](http://www6.bordeaux-aquitaine.inra.fr/biogeco), Bordeaux, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -186,18 +186,18 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 # Takeru Galaxy
 
 <div class='right'>
-[<img src="/src/images/logos/nabe-logo.png" alt="NABE3 International" height="50" />](http://www.nabe-intl.co.jp/seq/takerugalaxy.html)</a></div>
+[<img src="/images/logos/nabe-logo.png" alt="NABE3 International" height="50" />](http://www.nabe-intl.co.jp/seq/takerugalaxy.html)</a></div>
 
 The [Takeru Galaxy](http://www.nabe-intl.co.jp/seq/takerugalaxy.html) server is offered by [NABE<sup>3</sup> International](http://www.nabe-intl.co.jp), a manufacturer specializing in Linux-based clusters based in Tsukuba, Japan. Takeru Galaxy servers come as a fully configured (hardware and software) system featuring numerous standard biomedical analysis tools and reference genomes, all available in a Galaxy server.  Customization and multiple support options are available.
 
-Takeru Galaxy is the newest of [many commercial support options](/src/support/commercial/index.md) for Galaxy.
+Takeru Galaxy is the newest of [many commercial support options](/support/commercial/) for Galaxy.
 
 
 <!--
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in August.
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in August.
 
 
 
@@ -205,13 +205,13 @@ There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [s
 
 <table class="table">
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> </td>
   </tr>
 </table>
@@ -227,9 +227,9 @@ No new resources were added to community directories in January or February.
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in August](/src/toolshed/contributions/2017-08/index.md).
+[Tool Shed contributions in August](/toolshed/contributions/2017-08/).
 
 # Releases
 
@@ -237,8 +237,8 @@ No new resources were added to community directories in January or February.
 
 [Command-line utilities](https://pypi.python.org/pypi/nebulizer/) to help with managing users, data libraries and tools in a Galaxy instance, using the Galaxy API via the Bioblend library.
 
-- [Documentation](https://nebulizer.readthedocs.io)
-- [Code](https://github.com/pjbriggs/nebulizer)
+* [Documentation](https://nebulizer.readthedocs.io)
+* [Code](https://github.com/pjbriggs/nebulizer)
 
 *CAVEAT nebulizer is still a work in progress; please exercise caution when attempting irreversible operations especially against production Galaxy instances (for example when creating users or data libraries).*
 
@@ -250,7 +250,7 @@ No new resources were added to community directories in January or February.
 
 ### Planemo 0.41.0 - 0.44.0
 
-<div class='right'>[<img src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)</div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -277,7 +277,7 @@ Other packages that have been released in the prior 4 months.
 ### May 2017 Galaxy Release (v 17.05)
 
 <div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
 </div>
 
 The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) published the **[17.05 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.05_announce.html)** in May.
@@ -290,8 +290,8 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 And
 
 * The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
-* From [John Chilton](/src/people/john-chilton/index.md):
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+* From [John Chilton](/people/john-chilton/):
+    * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 
 ### Parsec 1.0.0
@@ -308,7 +308,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 ## Galaxy CloudMan 17.05 on AWS
 
-A new release of [Galaxy CloudMan](/src/cloudman/index.md) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/src/cloudman/index.md#getting-started) guide.
+A new release of [Galaxy CloudMan](/cloudman/) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/cloudman/#getting-started) guide.
 
 
 ## CloudLaunch
@@ -325,6 +325,6 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-<div class="right">[<img src="/src/images/logos/galaksio_logo.png" alt="Galaksio" width="170px" />](http://galaksio.readthedocs.io/en/latest/)</div>
+<div class="right">[<img src="/images/logos/galaksio_logo.png" alt="Galaksio" width="170px" />](http://galaksio.readthedocs.io/en/latest/)</div>
 
 * [Galaksio](http://galaksio.readthedocs.io/en/latest/), an easy to use GUI for running Galaxy workflows. ([And there is a video too](https://www.youtube.com/watch?feature=player_embedded&v=QAeDBjUeEkI).)

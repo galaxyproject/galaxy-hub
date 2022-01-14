@@ -1,9 +1,9 @@
 ---
 title: January 2017 Galaxy News
 ---
-<div class='right'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='right'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the January 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.
+Welcome to the January 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
 If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
@@ -14,7 +14,7 @@ As always here are a wealth of events coming up.  Here are some highlights:
 
 ## Galaxy Australasia Meeting (GAMe 2017)
 
-<div class='right'><a href='https://www.embl-abr.org.au/game2017/'><img src="/src/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a></div>
+<div class='right'><a href='https://www.embl-abr.org.au/game2017/'><img src="/images/logos/GAMeLogo200.png" alt="Galaxy Australasia Meeting 2017" width="120" /></a></div>
 
 [GAMe 2017](https://www.embl-abr.org.au/game2017/) will bring together biomedical researchers, bioinformaticians, infrastructure providers, and data producers from across Australia and Asia to share expertise across many levels.
 
@@ -23,8 +23,8 @@ This meeting features three distinct events:
 * **[Researcher Training Day](https://www.embl-abr.org.au/game2017/training-day/)** on 3 February, aimed at biomedical researchers who need to analyse their biological data
 * The **[GAMe 2017 Conference](https://www.embl-abr.org.au/game2017/conference/)** starts 4 February and features two full days of keynotes, accepted and sponsor talks, poster and sponsor sessions, birds­-of-­a­-feather gatherings, a conference dinner and lots of opportunities for networking.
 * Each day has a theme, and participants can register for one or both days.
-  * [BIO Day](https://www.embl-abr.org.au/game2017/conference/#programme): Saturday will have a biology emphasis
-  * [INFO Day](https://www.embl-abr.org.au/game2017/conference/#upstream3): Sunday will focus on infrastructure, tools, and development.
+    * [BIO Day](https://www.embl-abr.org.au/game2017/conference/#programme): Saturday will have a biology emphasis
+    * [INFO Day](https://www.embl-abr.org.au/game2017/conference/#upstream3): Sunday will focus on infrastructure, tools, and development.
 * A **[four day workshop on Galaxy server administration](https://www.embl-abr.org.au/game2017/training-for-admin-workshop/)** runs 5-9 February.  This is the 2nd time this workshop has been offered.  The first time was last month and it was [very well received](https://www.embl-abr.org.au/game2017/training-for-admin-workshop/#instructors).  Don't miss your chance to attend.
 
 ### Keynote Speakers
@@ -33,7 +33,7 @@ We are pleased to announce that the keynote speakers for GAMe 2017 will be James
 
 **[Dr James Taylor](http://taylorlab.org/)** is the Ralph S. O’Connor Associate Professor of Biology and associate professor of computer science at [Johns Hopkins University](http://jhu.edu/). He is a Galaxy Project PI, and one of the original developers of the Galaxy platform for data analysis. His group works on extending the Galaxy platform, and understanding genomic and epigenomic regulation of gene transcription through integrated analysis of functional genomic data.
 
-**[Dr Björn Grüning](/src/people/bjoern-gruening/index.md)** is with the [Bioinformatics Group](http://www.bioinf.uni-freiburg.de/team.html) at [Albert-Ludwigs-Universität Freiburg](http://www.uni-freiburg.de/), in Freiburg Germany, where he heads the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/index.html). His [publication list](http://orcid.org/0000-0002-3079-6586) includes several papers that feature Galaxy prominently,  including the recent “Enhancing pre-defined workflows with *ad hoc* analytics using Galaxy, Docker and Jupyter” ([Grüning, et al, 2016](http://biorxiv.org/content/early/2016/09/22/075457). He is a prominent contributor to, and is a driving force in, the Galaxy community. In the past year alone, he helped organize the Bioconda Contribution Fest, Swiss-German Galaxy Days, the Galaxy Training Materials Contribution Fest, the Galaxy DevOps Workshop, and the Conda Dependencies Codefest, and presented and taught at [GCC2016](https://gcc16.sched.org/?s=bj%C3%B6rn).  His research interests include data visualisation, computational chemistry, and drug discovery.
+**[Dr Björn Grüning](/people/bjoern-gruening/)** is with the [Bioinformatics Group](http://www.bioinf.uni-freiburg.de/team.html) at [Albert-Ludwigs-Universität Freiburg](http://www.uni-freiburg.de/), in Freiburg Germany, where he heads the [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/index.html). His [publication list](http://orcid.org/0000-0002-3079-6586) includes several papers that feature Galaxy prominently,  including the recent “Enhancing pre-defined workflows with *ad hoc* analytics using Galaxy, Docker and Jupyter” ([Grüning, et al, 2016](http://biorxiv.org/content/early/2016/09/22/075457). He is a prominent contributor to, and is a driving force in, the Galaxy community. In the past year alone, he helped organize the Bioconda Contribution Fest, Swiss-German Galaxy Days, the Galaxy Training Materials Contribution Fest, the Galaxy DevOps Workshop, and the Conda Dependencies Codefest, and presented and taught at [GCC2016](https://gcc16.sched.org/?s=bj%C3%B6rn).  His research interests include data visualisation, computational chemistry, and drug discovery.
 
 ### Poster abstracts and late oral presentation Abstracts
 
@@ -50,29 +50,29 @@ We are pleased to announce that the keynote speakers for GAMe 2017 will be James
 
 ## GalaxyAdmins Screencasts
 
-<div class='right'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
+<div class='right'><a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="180" /></a> </div>
 
-Screencasts for the [August](/src/community/galaxy-admins/meetups/2016-08-18/index.md) and [December](/src/community/galaxy-admins/meetups/2016-12-15/index.md) [GalaxyAdmins](/src/community/galaxy-admins/index.md) meetups have been published:
+Screencasts for the [August](/community/galaxy-admins/meetups/2016-08-18/) and [December](/community/galaxy-admins/meetups/2016-12-15/) [GalaxyAdmins](/community/galaxy-admins/) meetups have been published:
 
-* [August](/src/community/galaxy-admins/meetups/2016-08-18/index.md)
+* [August](/community/galaxy-admins/meetups/2016-08-18/)
 * *Dynamic Job Expansion: Experiences using [Makeflow](http://ccl.cse.nd.edu/software/makeflow/) in Galaxy*, [Nick Hazekamp](https://engineering.nd.edu/profiles/nhazekamp), [University of Notre Dame](http://www.nd.edu/)
-  * [Video](https://connect.johnshopkins.edu/p9nqie63c7a/)
-* [December](/src/community/galaxy-admins/meetups/2016-12-15/index.md)
-  * *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/src/people/bjoern-gruening/index.md) and  Bérénice Batut, University of Freiburg 
-  * *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/src/people/dannon-baker/index.md), Johns Hopkins University 
-  * [Video](https://connect.johnshopkins.edu/p7ek9bf4ez0/) 
+    * [Video](https://connect.johnshopkins.edu/p9nqie63c7a/)
+* [December](/community/galaxy-admins/meetups/2016-12-15/)
+    * *Galaxy Training Materials: Community creation, curation, and use*, [Björn Grüning](/people/bjoern-gruening/) and  Bérénice Batut, University of Freiburg
+    * *The new Galaxy Hub: Community creation, curation, and use*, [Dannon Baker](/people/dannon-baker/), Johns Hopkins University
+    * [Video](https://connect.johnshopkins.edu/p7ek9bf4ez0/)
 
 
 
 ## All upcoming events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
-<div class='center'> 
-<a href='/src/events/pag2017/index.md'><img src="/src/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
-<a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'><img src="/src/images/logos/edgw_2017_300.jpg" alt="European Galaxy Developer Workshop" height="100"/></a> &nbsp;
-<a href='http://www.abdn.ac.uk/genomics/bioinformatics/training/'><img src="/src/images/logos/AberdeenLogoTrans.png" alt="Galaxy Training at University of Aberdeen" width="120" /></a>
-<a href='https://www.embl-abr.org.au/game2017/'><img src='/src/images/logos/GAMeLogo200.png' alt="Galaxy Australasia Meeting 2017" width="120" /></a>
+<div class='center'>
+<a href='/events/pag2017/'><img src="/images/logos/PAGLogo300.png" alt="Galaxy @ Plant and Animal Genome (PAG 2017)" height="90" /></a> &nbsp;
+<a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'><img src="/images/logos/edgw_2017_300.jpg" alt="European Galaxy Developer Workshop" height="100"/></a> &nbsp;
+<a href='http://www.abdn.ac.uk/genomics/bioinformatics/training/'><img src="/images/logos/AberdeenLogoTrans.png" alt="Galaxy Training at University of Aberdeen" width="120" /></a>
+<a href='https://www.embl-abr.org.au/game2017/'><img src='/images/logos/GAMeLogo200.png' alt="Galaxy Australasia Meeting 2017" width="120" /></a>
 </div>
 
 
@@ -86,37 +86,37 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <tr>
     <th> January 9-10 </th>
     <td> <em><a href="https://github.com/galaxyproject/tools-iuc/issues/1078">QIIME Contribution Fest</a></em> </td>
-    <td> <img src="/src/images/icons/GL.png" alt="Online" align="right" /><em>Online</em> </td>
+    <td> <img src="/images/icons/GL.png" alt="Online" align="right" /><em>Online</em> </td>
     <td> <a href="https://github.com/galaxyproject/tools-iuc/issues/1078">Bérénice, Björn, and Saskia</a> </td>
   </tr>
   <tr>
     <th> January 14-18 </th>
-    <td> <strong><a href="/src/events/pag2017/index.md">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></strong> </td>
-    <td> <img src="/src/images/icons/NA.png" alt="North America" align="right" /> San Diego, California, United States </td>
-    <td> <a href="/src/events/pag2017/index.md">Presenters</a> </td>
+    <td> <strong><a href="/events/pag2017/">Galaxy @ Plant &amp; Animal Genome XXV (PAG 2017)</a></strong> </td>
+    <td> <img src="/images/icons/NA.png" alt="North America" align="right" /> San Diego, California, United States </td>
+    <td> <a href="/events/pag2017/">Presenters</a> </td>
   </tr>
   <tr>
     <th> January 16-19 </th>
     <td> <strong><a href='https://www.france-bioinformatique.fr/fr/evenements/EGDW2017'>European Galaxy Developer Workshop</a></strong> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Strasbourg, France </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> Strasbourg, France </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:egdw2017.oc@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
   <tr>
     <th> January 23 </th>
     <td> <em><a href='https://www.abdn.ac.uk/genomics/documents/201617_Workshops/RNA_Sequencing_2017.pdf'>RNA Sequencing and Differential Expression</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen</a>, Scotland, United Kingdom </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='mailto:s.shaw@abdn.ac.uk'>Sophie Shaw</a> </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen</a>, Scotland, United Kingdom </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='mailto:s.shaw@abdn.ac.uk'>Sophie Shaw</a> </td>
   </tr>
   <tr>
     <th> January 24 </th>
-    <td> <em><a href='https://www.abdn.ac.uk/genomics/documents/201617_Workshops/Advanced_RNA_Sequencing_2017.pdf'>Advanced	RNA	Sequencing (RNA-seq) Analysis</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen</a>, Scotland, United Kingdom </td>
-    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='mailto:s.shaw@abdn.ac.uk'>Sophie Shaw</a> </td>
+    <td> <em><a href='https://www.abdn.ac.uk/genomics/documents/201617_Workshops/Advanced_RNA_Sequencing_2017.pdf'>Advanced RNA Sequencing (RNA-seq) Analysis</a></em> </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href="http://www.abdn.ac.uk/genomics/bioinformatics/training/">University of Aberdeen</a>, Scotland, United Kingdom </td>
+    <td> <div class='right'><a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' /></a></div> <a href='mailto:s.shaw@abdn.ac.uk'>Sophie Shaw</a> </td>
   </tr>
   <tr>
     <th> January 30 </th>
     <td> <em><a href='http://www.bioplatforms.com/rna-seq-using-galaxy-jan-2017/'>RNA-Seq Analysis Using Galaxy</a></em> </td>
-    <td> <img src="/src/images/icons/AU.png" alt="Australia" align="right" /> Australian National University, Canberra, ACT, Australia </td>
+    <td> <img src="/images/icons/AU.png" alt="Australia" align="right" /> Australian National University, Canberra, ACT, Australia </td>
     <td>  <a href="mailto:kchamp@bioplatforms.com">Katherine Chamnp</a> </td>
   </tr>
   <tr>
@@ -125,20 +125,20 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <tr>
     <th> February 3-9 </th>
     <td> <strong><a href='http://www.embl-abr.org.au/GAMe2017'>Galaxy Australasia Meeting (GAMe 2017)</a></strong> </td>
-    <td> <img src="/src/images/icons/AU.png" alt="Australia" align="right" /> University of Melbourne, Victoria, Australia </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
+    <td> <img src="/images/icons/AU.png" alt="Australia" align="right" /> University of Melbourne, Victoria, Australia </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.embl-abr.org.au/organisers/'>Organisers</a> </td>
   </tr>
   <tr>
     <th> February 6 </th>
     <td> <em>Globus Genomics and several other cloud-based solution in data storage and management</em> </td>
-    <td> <img src="/src/images/icons/NA.png" alt="North America" align="right" /> <a href="http://www.mnmconferences.com/NGS-Data-Analysis-and-Informatics-Conference">NGS Data Analysis & Informatics Conference</a>, San Diego, California, United States </td>
+    <td> <img src="/images/icons/NA.png" alt="North America" align="right" /> <a href="http://www.mnmconferences.com/NGS-Data-Analysis-and-Informatics-Conference">NGS Data Analysis & Informatics Conference</a>, San Diego, California, United States </td>
     <td>  <a href='http://www.mcs.anl.gov/person/ravi-madduri'>Ravi Madduri</a> </td>
   </tr>
   <tr>
     <th> February 13-17 </th>
     <td> <em><a href='http://www.denbi.de/22-training-cat/training-courses/213-3rd-galaxy-high-throughput-sequencing-hts-data-analysis-workshop'>Galaxy Workshop on HTS data analysis for Scientists</a></em> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Freiburg, Germany </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Freiburg, Germany </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='mailto:erxleben@informatik.uni-freiburg.de'>Organisers</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -146,8 +146,8 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <tr>
     <th> March 25-28 </th>
     <td> <em><a href='http://conf.abrf.org/the-galaxy-platform'>The Galaxy platform for metaproteomic characterization of microbiomes</a></em> </td>
-    <td> <img src="/src/images/icons/NA.png" alt="North America" align="right" /> <a href="http://conf.abrf.org/home">ABRF 2017</a>, San Diego, California, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://conf.abrf.org/the-galaxy-platform'>Tim Griffin, Pratik Jagtap, James Johnson</a> </td>
+    <td> <img src="/images/icons/NA.png" alt="North America" align="right" /> <a href="http://conf.abrf.org/home">ABRF 2017</a>, San Diego, California, United States </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='http://conf.abrf.org/the-galaxy-platform'>Tim Griffin, Pratik Jagtap, James Johnson</a> </td>
   </tr>
   <tr>
     <td colspan=4 style=" background-color: #eef;"> </td>
@@ -155,7 +155,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <tr>
     <th> April 19-21 </th>
     <td> <em><a href='http://www.canceropole-idf.fr/formation-ngs-dnaseq'>NGS & Cancer : Analyses DNA-Seq</a></em> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Paris, France </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Paris, France </td>
     <td> <a href='http://www.canceropole-idf.fr/formation-ngs-dnaseq'>Instructors</a> </td>
   </tr>
   <tr>
@@ -164,7 +164,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <tr>
     <th> May 29 - June 2 </th>
     <td> <em><a href='https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017'>Bioinformatics for Cancer Genomics</a></em> </td>
-    <td> <img src="/src/images/icons/NA.png" alt="North America" align="right" /> Toronto, Canada </td>
+    <td> <img src="/images/icons/NA.png" alt="North America" align="right" /> Toronto, Canada </td>
     <td> <a href='https://bioinformatics.ca/workshops/2017/bioinformatics-cancer-genomics-2017'>Instructors</a> </td>
   </tr>
   <tr>
@@ -173,8 +173,8 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
   <tr>
     <th> June 26-30 </th>
     <td> <strong><a href='https://gcc2017.sciencesconf.org/'>2017 Galaxy Community Conference (GCC2017)</a></strong> </td>
-    <td> <img src="/src/images/icons/EU.png" alt="Europe" align="right" /> Montpellier, France </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
+    <td> <img src="/images/icons/EU.png" alt="Europe" align="right" /> Montpellier, France </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href="mailto:gcc2017_organization@groupes.france-bioinformatique.fr">Organisers</a> </td>
   </tr>
 </table>
 
@@ -182,7 +182,7 @@ There are [a plenitude of Galaxy related events coming up](/src/events/index.md)
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
@@ -197,13 +197,13 @@ We are continuing the transformation from our old MoinMoin based wiki to a GitHu
 
 **And we need your help to finish the move.**
 
-The *Hub* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://metalsmith.io) for web site rendering and for semi-structured content (such as the [Events](/src/events/index.md) page). The new platform offers the strength of our old wiki (easy contribution) with a markup language many more people know, easy programmatic access, and all the strengths of GitHub.
+The *Hub* uses GitHub Flavored Markdown for markup,  and [Metalsmith](http://metalsmith.io) for web site rendering and for semi-structured content (such as the [Events](/events/) page). The new platform offers the strength of our old wiki (easy contribution) with a markup language many more people know, easy programmatic access, and all the strengths of GitHub.
 
 Once the Hub is in better shape it will become the [galaxyproject.org](https://galaxyproject.org) site.  Until then you can find it at [new.galaxyproject.org](https://new.galaxyproject.org).  Once the move is complete and the [old wiki](https://wiki.galaxyproject.org) will be shut down and those URLs will redirect to the new site.
 
 Content was automatically converted from MoinMoin and Creole markup to Markdown, and many other things were also cleaned up in the process. However, the automatic translation stumbled in some places and the cleanup and general restructuring are far from done.  We also aren't yet taking advantage of Metalsmith to render semi-structured content and page metadata.
 
-[We are using GitHub issues](https://github.com/galaxyproject/galaxy-site/issues/) and a Gitter channel to coordinate work. 
+[We are using GitHub issues](https://github.com/galaxyproject/galaxy-site/issues/) and a Gitter channel to coordinate work.
 
 ----
 
@@ -214,14 +214,14 @@ Content was automatically converted from MoinMoin and Creole markup to Markdown,
 Some highlights from December:
 
 * [Chapter 13. Using Galaxy for Proteomics](https://doi.org/10.1039/9781782626732-00289)
-   Candace R. Guerrero, Pratik D. Jagtap, James E. Johnson, Timothy J. Griffin; in 
+   Candace R. Guerrero, Pratik D. Jagtap, James E. Johnson, Timothy J. Griffin; in
 Proteome Informatics, edited by Conrad Bessant. (2016), pp. 289-320, doi:10.1039/9781782626732-00289
 * [EuPathDB: the eukaryotic pathogen genomics database resource](http://nar.oxfordjournals.org/content/early/2016/11/29/nar.gkw1105.full)
    Aurrecoechea *et al.*, *Nucleic Acids Research* (29 November 2016), gkw1105, doi:10.1093/nar/gkw1105
-*  [GeneSeqToFamily: the Ensembl Compara GeneTrees pipeline as a Galaxy workflow](https://doi.org/10.1101/096529 )
-   Anil S. Thanki, Nicola Soranzo, Wilfried Haerty, Matthieu Muffato, Robert P. Davey, *bioRxiv* 096529; doi: https://doi.org/10.1101/096529 
+* [GeneSeqToFamily: the Ensembl Compara GeneTrees pipeline as a Galaxy workflow](https://doi.org/10.1101/096529 )
+   Anil S. Thanki, Nicola Soranzo, Wilfried Haerty, Matthieu Muffato, Robert P. Davey, *bioRxiv* 096529; doi: https://doi.org/10.1101/096529
 * [Integration of EGA secure data access into Galaxy](https://f1000research.com/articles/5-2841/)
-   Hoogstrate *et al.*, *F1000Research* 2016, 5(ELIXIR):2841 (doi: 10.12688/f1000research.10221.1) 
+   Hoogstrate *et al.*, *F1000Research* 2016, 5(ELIXIR):2841 (doi: 10.12688/f1000research.10221.1)
 
 ## Publication Topics
 
@@ -282,7 +282,7 @@ Proteome Informatics, edited by Conrad Bessant. (2016), pp. 289-320, doi:10.1039
 
 # Who's Hiring
 
-<div class='right'><br /><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='right'><br /><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The Galaxy is expanding! Please help it grow.
 
@@ -290,7 +290,7 @@ The Galaxy is expanding! Please help it grow.
 * [Réalisation de modules d'interoperabilité entre la base de données OMICmDB et l'instance Galaxy de la Plateforme d’Exploration du Métabolisme de l’INRA de Clermont Ferrand-Theix](https://www.sfbi.fr/content/r%C3%A9alisation-de-modules-dinteroperabilit%C3%A9-entre-la-base-de-donn%C3%A9es-omicmdb-et-linstance-galax).  Date de validité:  06/01/2017
 * [Development Scientist (Bioinformatics)](http://chk.tbe.taleo.net/chk05/ats/careers/requisition.jsp?org=NEB&cws=1&rid=272), New England Biolabs, Ipswich, Massachusetts, United States.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -299,42 +299,42 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in December.
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in December.
 
 ## New Public Galaxy Servers
 
 ### Galaxy@Pasteur
 
-<div class='right solid'><a href='https://galaxy.pasteur.fr/'><img src="/src/use/galaxy-pasteur/pasteur-300.png" alt="Galaxy@Pasteur" width="300" /></a></div>
+<div class='right solid'><a href='https://galaxy.pasteur.fr/'><img src="/use/galaxy-pasteur/pasteur-300.png" alt="Galaxy@Pasteur" width="300" /></a></div>
 
 * *Link:*
-  * [Galaxy@Pasteur](https://galaxy.pasteur.fr/)
+    * [Galaxy@Pasteur](https://galaxy.pasteur.fr/)
 * *Domain/Purpose:*
-  * General purpose genomics analysis server.
+    * General purpose genomics analysis server.
 * *User Support:*
-  * [Email Support](mailto:galaxy@pasteur.fr)
+    * [Email Support](mailto:galaxy@pasteur.fr)
 * *Quotas:*
-  * Anonymous access is supported with a reduced quota; anyone can create an account.
+    * Anonymous access is supported with a reduced quota; anyone can create an account.
 * *Sponsor(s):*
-  * [C3BI](https://c3bi.pasteur.fr/) Insitute Pasteur
+    * [C3BI](https://c3bi.pasteur.fr/) Insitute Pasteur
 
 ### Galaxy Sigenae / BioInfo Genotoul
 
-<div class='right solid'><a href='http://sigenae-workbench.toulouse.inra.fr/'><img src="/src/public-galaxy-servers/archive/galaxy-sigenae.png" alt="Galaxy Sigenae / BioInfo Genotoul" width="300" /></a></div>
+<div class='right solid'><a href='http://sigenae-workbench.toulouse.inra.fr/'><img src="/public-galaxy-servers/archive/galaxy-sigenae.png" alt="Galaxy Sigenae / BioInfo Genotoul" width="300" /></a></div>
 
 * *Link:*
-  * [Galaxy Sigenae / BioInfo Genotoul server](http://sigenae-workbench.toulouse.inra.fr/)
+    * [Galaxy Sigenae / BioInfo Genotoul server](http://sigenae-workbench.toulouse.inra.fr/)
 * *Domain/Purpose:*
-  * Galaxy Sigenae / Genotoul is specialized in SNP, RNAseq, sRNAseq, metagenomics, CHIP-seq, statistics.
+    * Galaxy Sigenae / Genotoul is specialized in SNP, RNAseq, sRNAseq, metagenomics, CHIP-seq, statistics.
 * *Comments:*
-  * [E-learning and training sessions available](http://sig-learning.toulouse.inra.fr/).
+    * [E-learning and training sessions available](http://sig-learning.toulouse.inra.fr/).
 * *User Support:*
-  * [Email Support](mailto:sigenae-support@lites.inra.fr)
-  * The [user-galaxy-toulouse mailing list](http://listes.inra.fr/sympa/info/user-galaxy-toulouse) is used to distribute information to all users of the Galaxy Sigenae platform.
+    * [Email Support](mailto:sigenae-support@lites.inra.fr)
+    * The [user-galaxy-toulouse mailing list](http://listes.inra.fr/sympa/info/user-galaxy-toulouse) is used to distribute information to all users of the Galaxy Sigenae platform.
 * *Quotas:*
-  * BioInfo Genotoul platform reserves the right to purge all files not accessed since 120 days on work/disk space.
+    * BioInfo Genotoul platform reserves the right to purge all files not accessed since 120 days on work/disk space.
 * *Sponsor(s):*
-  * Hosted by [BioInof Genotoul](http://bioinfo.genotoul.fr/) platform. Supported by [Europe and Région Occitanie](http://www.midipyrenees.fr/Midi-Pyrenees-en-Europe).
+    * Hosted by [BioInof Genotoul](http://bioinfo.genotoul.fr/) platform. Supported by [Europe and Région Occitanie](http://www.midipyrenees.fr/Midi-Pyrenees-en-Europe).
 
 
 ## New Semi-public Galaxy Services
@@ -343,34 +343,34 @@ There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [s
 
 ### Cancer Computer
 
-<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/src/galaxy-services/cancer-computer-logo-256.jpg" alt="Cancer Computer" width="120"/></a></div>
+<div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/galaxy-services/cancer-computer-logo-256.jpg" alt="Cancer Computer" width="120"/></a></div>
 
 * *Links:*
-  * **[Request access](http://www.cancercomputer.com/contact/)**
+    * **[Request access](http://www.cancercomputer.com/contact/)**
 * *Eligibility:*
-  * Cancer or related research only.
+    * Cancer or related research only.
 * *Comments:*
-  * 2 x Dual Hexacore HP DL380 with 288GB each Tools for genomics, proteinomics & sequence analysis We can load tools on request
+    * 2 x Dual Hexacore HP DL380 with 288GB each Tools for genomics, proteinomics & sequence analysis We can load tools on request
 * *User Support:*
-  * Best effort by email. For SLA support, please contact.
-* *Quotas:* 
-  * Free to approved academic users Up to 6 Cores, 64GB RAM per user, less than 90 days. 
-  * Larger, private instances available, please contact (>16Cores, >64GB, MPI, GPU customizable instances available in private cloud)
+    * Best effort by email. For SLA support, please contact.
+* *Quotas:*
+    * Free to approved academic users Up to 6 Cores, 64GB RAM per user, less than 90 days.
+    * Larger, private instances available, please contact (>16Cores, >64GB, MPI, GPU customizable instances available in private cloud)
 * *Sponsor(s):*
-  * [Cancer Computer](http://www.cancercomputer.com/)
+    * [Cancer Computer](http://www.cancercomputer.com/)
 
 
 # Galaxy Community Hubs
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -387,7 +387,7 @@ No new resources were added to community hubs in December.
 
 ## October 2016 Galaxy Release (v 16.10)
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[October 2016 (v16.10) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.10_announce.html)**.
 
@@ -426,11 +426,11 @@ For full details on all of the enhancements and fixes in this release, please se
 
 ### Galaxy Docker Image 16.10
 
-And, thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md), there is also now [a Docker image for Galaxy 16.10](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.10) as well.
+And, thanks to [Björn Grüning](/people/bjoern-gruening/), there is also now [a Docker image for Galaxy 16.10](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.10) as well.
 
 
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/images/galaxy-logos/planemo-logo.png" alt="" width="200" /></a></div>
 
 ## Planemo 0.36.1
 
@@ -451,7 +451,7 @@ Other packages that have been released in the prior 4 months.
 
 ### Pulsar 0.7.3
 
-<div class='right'><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" /></a></div>
+<div class='right'><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="170" /></a></div>
 
 A [Pulsar](https://pypi.python.org/pypi/pulsar-app/) update was released in October.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
@@ -462,8 +462,8 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 ----
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 
-[Tool Shed contributions froim November and December](/src/toolshed/contributions/2016-12/index.md).
+[Tool Shed contributions froim November and December](/toolshed/contributions/2016-12/).

@@ -2,7 +2,8 @@ import fs from "fs";
 import nodePath from "path";
 import { fileURLToPath } from "url";
 import grayMatter from "gray-matter";
-import { splitlines, repr, PathInfo } from "../utils.js";
+import { splitlines, repr } from "../utils.js";
+import { PathInfo } from "../paths.js";
 
 /** Types of files recognized by this module. */
 export const CONTENT_TYPES = ["md", "vue", "insert", "resource"];
@@ -206,7 +207,7 @@ export class Partitioner {
                 }
             } else if (buildPathType === "dir") {
                 if (!this.simulate) {
-                    fs.rmSync(buildPath, { recursive: true });
+                    fs.rmdirSync(buildPath, { recursive: true });
                 }
             } else if (buildPathType !== "nonexistent") {
                 throw repr`Cannot remove special file ${buildPath}`;
@@ -279,6 +280,7 @@ function makeDirPlan(indexPath, inserts, resources, placers) {
         plan.push({ path: insertPath, dest: "md", placer: placers.insert });
     }
     // Resource files (mainly images)
+    // But also 'links.json', etc.
     for (let resourcePath of resources) {
         // Check if the file is used by a Vue-requiring Markdown file.
         //TODO: It's possible a file could be referenced by multiple Markdowns in the same directory.
@@ -337,7 +339,7 @@ function fileRequiresVue(filePath) {
     if (Object.prototype.hasOwnProperty.call(metadata, "components")) {
         return !!metadata.components;
     }
-    if (fileContainsTags(content, ["slot", "g-image"])) {
+    if (fileContainsTags(content, ["slot", "g-image", "link-box", "vega-embed"])) {
         return true;
     }
     return false;
@@ -347,7 +349,7 @@ function fileContainsTags(fileContents, tags) {
     let queryStrings = tags.map((tag) => `<${tag} `);
     for (let line of splitlines(fileContents)) {
         for (let query of queryStrings) {
-            if (line.indexOf(query) >= 0) {
+            if (line.includes(query)) {
                 return true;
             }
         }
@@ -357,7 +359,7 @@ function fileContainsTags(fileContents, tags) {
 
 function fileContainsSubstr(filePath, substr) {
     let fileContents = fs.readFileSync(filePath, { encoding: "utf8" });
-    return fileContents.indexOf(substr) >= 0;
+    return fileContents.includes(substr);
 }
 
 /** Delete any empty directories in the tree rooted at `dirPath`, including `dirPath`. */
@@ -404,7 +406,7 @@ function assignPlacers(placerOpt, placersOpt, contentTypes) {
     }
     if (placersOpt) {
         for (let [name, value] of Object.entries(placersOpt)) {
-            if (contentTypes.indexOf(name) === -1) {
+            if (!contentTypes.includes(name)) {
                 let typesList = contentTypes.join("', '");
                 throw repr`Invalid content type ${name}. Must be one of '` + typesList + "'";
             }

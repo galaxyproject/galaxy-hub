@@ -4,6 +4,7 @@ date: "2014-09-30"
 ---
 The Galaxy Project is preparing for our next grant cycle and we are seeking your feedback and comments on on all things Galaxy.  We have created two questionnaires, each focused on how you interact with Galaxy:
 **
+
 1. [Galaxy User Questionnaire](https://docs.google.com/forms/d/1NT3ma2g7rR-mWA_vgOg2Ia_6VTFiZ86um2JhX2SecCk/formResponse)
 1. [Galaxy Admin, Tool Developer, and Galaxy Developer Questionnaire](https://docs.google.com/forms/d/1lszXJ2lDJ2dYCWKXBk1qT1jO7XdDDfxXmGRCUMZFX2U/viewform)
 
@@ -15,4 +16,4 @@ Please take a few minutes and fill out whichever surveys apply to you.  The ques
 
 Let your voice be heard!
 
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

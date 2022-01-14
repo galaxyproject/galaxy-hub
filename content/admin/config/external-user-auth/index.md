@@ -4,7 +4,7 @@ title: External User Authentication
 
 By default, Galaxy will manage its own users, allowing standard username/password login. However, it may be more useful at your site to tie into an external authentication system like CAS, LDAP, AD, PAM, etc.
 
-Galaxy supports LDAP and AD authentication natively, but you must still use upstream [Nginx](/src/admin/config/nginx-external-user-auth/index.md) or [Apache](/src/admin/config/apache-external-user-auth/index.md) for other authentication schemes like CAS.
+Galaxy supports LDAP and AD authentication natively, but you must still use upstream [Nginx](/admin/config/nginx-external-user-auth/) or [Apache](/admin/config/apache-external-user-auth/) for other authentication schemes like CAS.
 
 # Activate authentication through LDAP
 

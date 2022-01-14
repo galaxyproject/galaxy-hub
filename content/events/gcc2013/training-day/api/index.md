@@ -2,15 +2,16 @@
 ---
 <slot name="/events/gcc2013/header" />
 
-<slot name="/events/gcc2013/linkbox" />
+import linkbox from "../../linkbox.json"
+<link-box :data="linkbox" />
 
-<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo300.png" alt="Training Day" width="200" /></a></div>
 
 # The Galaxy API
 
 The Galaxy API is a way of interacting with Galaxy data without using the web-based, user interface.
 
-A more thorough explanation can be found at [Learn/API](/src/learn/api/index.md) along with some general steps on
+A more thorough explanation can be found at [Learn/API](/develop/api/) along with some general steps on
 how to begin using the API. This page may duplicate some of that data in order to keep information relevant to the
 workshop in one place.
 
@@ -37,6 +38,7 @@ would tell this external system (your home) to perform a single action.
 
 You certainly can do these things yourself by manually turning light switches on and lighting fires -
 but the key advantages to an API are that you can:
+
 1. Iteratively accomplish tasks:
   `for every book in the bedroom, return the book to the bookshelf (ok - that probably won't be possible any time soon -
   but wouldn't it be nice)`
@@ -52,6 +54,7 @@ another script.
 
 Additionally, and perhaps more importantly: even when your scripts run, the features that make Galaxy great are still
 applied to your data:
+
 * histories still capture the exact steps of your experiments and reproducibility is maintained,
 * jobs and compute resources are still managed for you,
 * datasets and metadata persist and are centrallized,
@@ -66,16 +69,19 @@ It's also worth noting that all the work you did via the API is still accessible
 # How to Access and Use the API
 
 Anything that can communicate over HTTP can use the Galaxy web API.
+
 * browser - capable of only simple GET API methods
 * wget - only GET methods - but from the command line
 * curl - a unix program that will let you use any API method
 
 Some programming or scripting languages have their own libraries to do this:
+
 * python - urllib, urllib2 (can be complicated), requests (simplifies, but still many options)
 * javascript - jquery (use any API method, browser only), node (any method, command line)
 * bash - curl + bash = you're probably a bioinformaticist
 
 There are several scripts and excellent programming libraries designed to help with the Galaxy API:
+
 * scripts/api - a small selection of simple scripts and examples that can help you write and explore interacting with
   the galaxy API in python, located in the root directory of a Galaxy installation
 * bioblend - ([source](https://github.com/afgane/bioblend), [documentation](http://blend.readthedocs.org/en/latest/))
@@ -105,6 +111,7 @@ A common way to construct an API command is to view it as a simple (imperative) 
 * Often additional options and parameters must be passed to specify how the command should take place.
 
 From that then, it follows that each web API URL (command) is composed of three parts:
+
 1. an HTTP method - the verb
 2. a URL path - the resource
 3. and any additional arguments or parameters the API command may need
@@ -115,6 +122,7 @@ From that then, it follows that each web API URL (command) is composed of three 
 # A Sample Use
 
 We'll slowly build a fairly complex script using the API to:
+
 * Create a history
 * Upload a file from our local system to the server and place it in that history (data/myIlluminaRun.solexa.fastq -
   also available from [this published history on Galaxy Main](https://main.g2.bx.psu.edu/u/aun1/h/quickie-14))
@@ -124,6 +132,7 @@ We'll slowly build a fairly complex script using the API to:
 * Copy the file to a library
 
 The final script should not be considered a 'good' script, however, because a good script would take into account:
+
 * Complications: typically in a robust script/application, a significant amount of code will go towards handling
   [corner-cases](http://en.wikipedia.org/wiki/Corner_case). For the sake of making the learning examples clear and
   easy to follow, we won't cover very many of these situations.
@@ -175,16 +184,19 @@ local filesystem.
 ```
 
 Let's load the API key into our terminal session:
+
 ```bash
 source apiworkshop-setup.sh
 ```
 
 And check what environment variables it's added. First, the API key:
+
 ```bash
 echo $GALAXY_API_KEY
 ```
 
 then the **base url** of where our Galaxy installation is served:
+
 ```bash
 echo $GALAXY_BASE_URL
 ```
@@ -229,6 +241,7 @@ in `common.py` with the key authentication.
 ```
 
 Here's the data the users_1.py script should return (if all went well):
+
 ```bash
 [ { u'email': u'apiworkshop@example.com',
     u'id': u'1cd8e2f6b131e891',
@@ -247,6 +260,7 @@ during the workshop for both dictionary keys and values. They're a special strin
 writing systems but for all intents and purposes here they can be thought of as normal strings.
 
 Now - try the first iteration of our main script, step_1.py.
+
 ```bash
 ./step_1.py
 ```
@@ -269,6 +283,7 @@ histories_1.py allows us to get (summary) data on all our histories using the GE
 
 Calling histories_1.py from the command line should show us a single, 'Unnamed history' complete with Id, name, and
 other attributes. Note that, even though there is only one history, the form of the data returned is a list:
+
 ```bash
 [ { u'deleted': False,
     u'id': u'c24141d7e4e77705',
@@ -316,6 +331,7 @@ scripts on the command line will change however from number to number - it will 
 recently added functionality.)
 
 Again:
+
 * **index**: histories_1.py: GET api/histories &rarr; a list of histories for the current user
 * **show**: histories_2.py: GET api/histories/[a history id] &rarr; a single, specific history
 
@@ -325,6 +341,7 @@ Many resources in the Galaxy API will have index and show methods for reading an
 ## Errors!
 
 Now that we have something we can pass an argument to (and therefore break), let's break it! Try entering this:
+
 ```bash
 histories_2.py bler
 ```
@@ -366,11 +383,13 @@ the code to find out.
 
 histories_3.py is also set up to create a new history from the command line now but since we're also doing that in
 step_3.py, we'll just call that:
+
 ```bash
 ./step_3.py
 ```
 
 The output:
+
 ```bash
 created history! Step 3
 new history:
@@ -418,11 +437,13 @@ from `show`). This is a common pattern for the API when dealing with **container
 and tell the API to do something with the *contents*.
 
 ./step_4.py does everything that steps 1 to 3 do and then queries the HDAs in the new history:
+
 ```bash
 ./step_4.py
 ```
 
 The output:
+
 ```bash
 created history! Step 4
 HDAs:
@@ -452,6 +473,7 @@ run through the API but this is still a work in progress. In this case, we use a
 moving the file into the POST data. Be sure to check out those modules for more details on what's involved.
 
 The takeaway here is that, to run a tool we combine four things:
+
 1. the POST HTTP method (or `create` again)
 2. the resource URL `api/tools`
 3. the ID of the tool to use: `upload1`
@@ -462,6 +484,7 @@ The takeaway here is that, to run a tool we combine four things:
 ```
 
 The output:
+
 ```bash
 created history! Step 5
 uploaded hda! myIlluminaRun.solexa.fastq
@@ -494,6 +517,7 @@ There's our uploaded file in Galaxy.
 ### Asynchronous
 
 Note the `state` attribute of the uploaded file:
+
 ```bash
 u'state': u'queued',
 ```
@@ -526,6 +550,7 @@ Most of our changes will be 'local' this time in the step_6.py version of our fi
 and the `state` information from the HDA `show` api to **wait** for the upload to finish.
 
 The psuedo code for this loop might look like this:
+
 ```
 Get the state of the HDA from the API
 While the state isn't 'ok':
@@ -541,6 +566,7 @@ development so you know what's going on.
 ```
 
 The output:
+
 ```bash
 created history! Step 6
 uploaded hda! myIlluminaRun.solexa.fastq
@@ -581,6 +607,7 @@ check out `scripts/api/workflow_execute` and `scripts/api/workflow_execute_param
 ```
 
 The output:
+
 ```bash
 created history! Step 7
 uploaded hda! myIlluminaRun.solexa.fastq
@@ -647,11 +674,13 @@ the LibraryDatasetDatasetAssociation or LDDA resource - which we'll cover a bit)
 and LDDAs that often (effectively) 'strip' or ignore the information about the datasets' containers.
 
 Let's try datasets_1.py, tho, to see something important:
+
 ```bash
 ./datasets_1.py
 ```
 
 The output:
+
 ```bash
 Traceback (most recent call last):
 ...
@@ -686,11 +715,13 @@ them easier to use and more powerful in general.
 See the `datasets_3.get_dataset_column` for an example of how to use the datasets API to get raw data from a file.
 
 Let's now run step 8:
+
 ```bash
 ./step_8.py
 ```
 
 The output:
+
 ```bash
 uploaded hda! myIlluminaRun.solexa.fastq
      uploaded_hda_state: queued
@@ -746,11 +777,13 @@ in your browser - by navigating to the most recent 'Step 9' history and opening 
 reverse reads.
 
 Step 9 will, however, show us the changed names of the HDAs:
+
 ```bash
 ./step_9.py
 ```
 
 The output:
+
 ```bash
 created history! Step 9
 uploaded hda! myIlluminaRun.solexa.fastq
@@ -793,11 +826,13 @@ folders within them. Libraries (and their contents) can also be imported or expo
 making it a good candidate of data communication or migration **between Galaxy instances**.
 
 Step 9 will, however, show us the changed names of the HDAs:
+
 ```bash
 ./step_10.py
 ```
 
 The output:
+
 ```bash
 created history! Step 10
 uploaded hda! myIlluminaRun.solexa.fastq
@@ -844,7 +879,7 @@ And ... we're done!
 
 We are always adding new functionality to the API and progressively ensuring that everything that can be done in the
 UI can be done in the API - because of that, please, consider the API a 'work in progress' and check the
-[Galaxy Development Briefs](/src/docs/index.md) for new features or fixes.
+[Galaxy Development Briefs](/docs/) for new features or fixes.
 
 <br />
 ### Versioning of the API

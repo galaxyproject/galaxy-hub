@@ -25,6 +25,7 @@ Galaxy is an open web based platform for biomedical data integration and analysi
 ## Comfortable with the Unix/Linux command line
 
 Most of the workshop will happen at the Linux command line.  *If you aren’t comfortable with this before you arrive, then you will be lost the entire time.*  How comfortable do you need to be?  Here’s a sampling of commands and concepts that you should be comfortable with:
+
   ```
 cd, mkdir, rmdir, ls
 tar, gzip
@@ -52,12 +53,12 @@ We’ll be using Ubuntu based images during the workshop, which means we’ll be
 
 ## Laptop Requirements
 
-All participants should bring a wifi-enabled laptop with 
+All participants should bring a wifi-enabled laptop with
 
 * at least 4GB of memory (more is better)
 * Software to access the command line of a Linux server.
-  * If you are running Linux or Mac OS, then you already have this.
-  * If you are running Windows than you’ll need to get something like putty installed before the workshop.
+    * If you are running Linux or Mac OS, then you already have this.
+    * If you are running Windows than you’ll need to get something like putty installed before the workshop.
 * A recent version of either the Chrome or Firefox web browser installed.
 
 # Registration
@@ -81,10 +82,10 @@ Space is available on a first come, first served basis. Rates depend on your org
 
 We currently have these confirmed (and highly experienced!) instructors:
 
-* [Nate Coraor](/src/people/nate/index.md), lead sysadmin of [usegalaxy.org](https://usegalaxy.org), a software engineer for the Galaxy Project, ...
+* [Nate Coraor](/people/nate/), lead sysadmin of [usegalaxy.org](https://usegalaxy.org), a software engineer for the Galaxy Project, ...
 * [Saskia Hiltemann](https://github.com/shiltemann), administrator of [Galaxian](https://bioinf-galaxian.erasmusmc.nl/galaxy/) the Galaxy server hosted by Erasmus MC, longtime tool developer, co-founder of the Galaxy Training Network, ...
 * [Helena Rasche](https://github.com/hexylena), managed and setup much of the [Galaxy Europe](https://usegalaxy.eu) and [CPT Galaxy](https://cpt.tamu.edu/galaxy-pub/) infrastructure, ...
-* [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), Galaxy Platform Development Officer at the [Earlham Institute](https://www.earlham.ac.uk/), Intergalactic Utilities Commission member, ... 
+* [Nicola Soranzo](https://www.earlham.ac.uk/nicola-soranzo), Galaxy Platform Development Officer at the [Earlham Institute](https://www.earlham.ac.uk/), Intergalactic Utilities Commission member, ...
 * [Marius van den Beek](https://github.com/mvdbeek), Galaxy community contributor extraordinaire, the newest member of the US Galaxy Team, ...
 
 # Transportation
@@ -98,8 +99,8 @@ The [two Barcelona Train Stations](https://www.thetrainline.com/en/stations/barc
 Working on it...
 
 <div class="float-right">
-[<img src="/src/images/logos/ElixirNoTextLogo.png" alt="ELIXIR"  style="max-width: 12rem" />](https://elixir-europe.org/)
-[<img src="/src/images/logos/barcelona-sc-logo.png" alt="Barcelona Supercomputing Center" style="max-width: 20rem" />](https://www.bsc.es/)
+[<img src="/images/logos/ElixirNoTextLogo.png" alt="ELIXIR"  style="max-width: 12rem" />](https://elixir-europe.org/)
+[<img src="/images/logos/barcelona-sc-logo.png" alt="Barcelona Supercomputing Center" style="max-width: 20rem" />](https://www.bsc.es/)
 </div>
 
 # Sponsors

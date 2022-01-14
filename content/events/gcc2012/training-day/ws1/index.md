@@ -1,6 +1,7 @@
 Slides are available here: [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/WS1_blankenberg_gcc_2012_integrating_tools_and_data_sources.pdf).
 
 maf_slice.py:
+
 ```
 #!/usr/bin/env python
 
@@ -148,6 +149,7 @@ if __name__ == "__main__": __main__()
 
 
 tool_conf.xml section:
+
 ```
 <toolbox>
   <section name="Workshop Demo" id="workshop_demo">
@@ -158,6 +160,7 @@ tool_conf.xml section:
 
 
 End of Exercise, adding a basic tool:
+
 ```
 <tool id="maf_slice" name="Slice MAF" version="1.0.0">
   <description>by intervals</description>
@@ -180,6 +183,7 @@ maf_slice.py --dbkey=hg17 --mafFile=${maf_input} --interval_file=${interval_inpu
 
 
 End of Exercise adding metadata elements to tool:
+
 ```
 <tool id="maf_slice" name="Slice MAF" version="1.0.1">
   <description>by intervals</description>
@@ -204,6 +208,7 @@ maf_slice.py --dbkey=${interval_input.dbkey} --mafFile=${maf_input} --interval_f
 
 
 End of Exercise, adding conditional:
+
 ```
 <tool id="maf_slice" name="Slice MAF" version="1.0.2">
   <description>by intervals</description>
@@ -239,6 +244,7 @@ maf_slice.py --dbkey=${interval_input.dbkey} --mafFile=${maf_source_type.maf_inp
 
 
 End of Exercise, accessing .loc file:
+
 ```
 <tool id="maf_slice" name="Slice MAF" version="1.0.3">
   <description>by intervals</description>
@@ -285,6 +291,7 @@ End of Exercise, accessing .loc file:
 
 
 End of Exercise, selecting species from metadata values for MAF in history:
+
 ```
 <tool id="maf_slice" name="Slice MAF" version="1.0.4">
   <description>by intervals</description>
@@ -337,6 +344,7 @@ End of Exercise, selecting species from metadata values for MAF in history:
 
 
 End of exercise, selecting species available from .loc file:
+
 ```
 <tool id="maf_slice" name="Slice MAF" version="1.0.5">
   <description>by intervals</description>

@@ -2,7 +2,7 @@
 title: "Bioinformaticians, Freiburg"
 date: "2014-10-30"
 ---
-<div class='right'><a href='http://www.ie-freiburg.mpg.de/jobs'><img src="/src/images/logos/MaxPlanckIIE.png" alt="Max Planck Institute of Immunobiology and Epigenetics" /></a></div>
+<div class='right'><a href='http://www.ie-freiburg.mpg.de/jobs'><img src="/images/logos/MaxPlanckIIE.png" alt="Max Planck Institute of Immunobiology and Epigenetics" /></a></div>
 
 [Max Planck Institute of Immunobiology and Epigenetics](http://www.ie-freiburg.mpg.de/jobs) in Freiburg, Germany has an opening for a Bioinformatician for an initial period of two years.  The successful candidate will work at the interface between an in-house deep-sequencing facility (HiSeq-2500) and the various research groups at the institute. Main responsibilities include
 
@@ -13,11 +13,11 @@ date: "2014-10-30"
 
 Most of the above tasks are executed within the context of our Galaxy platform that will have to be administrated and further developed. There will be ample opportunities for direct collaborations with research groups and methodological developments.
 
-See the [full job posting](https://depot.galaxyproject.org/hub/attachments/news/bioinformatician-freiburg2014/FreiburgJobPosting.pdf) for further details. 
+See the [full job posting](https://depot.galaxyproject.org/hub/attachments/news/bioinformatician-freiburg2014/FreiburgJobPosting.pdf) for further details.
 
 ----
 
-<div class='right'><a href='http://www.bioinf.uni-freiburg.de//?en'><img src="/src/images/logos/bioinf_uni_freiburg.png" alt="Bioinformatics Uni-Freiburg" width="100" /></a></div>
+<div class='right'><a href='http://www.bioinf.uni-freiburg.de//?en'><img src="/images/logos/bioinf_uni_freiburg.png" alt="Bioinformatics Uni-Freiburg" width="100" /></a></div>
 
 [The Bioinformatics group](http://www.bioinf.uni-freiburg.de//?en) in Freiburg, Germany recruiting creative and motivated PhD students, postdoctoral
 scholars or software engineers with a strong interest in RNA and NGS
@@ -27,6 +27,7 @@ postdocs will have the opportunity to furthermore define their own
 research agenda.
 
 Our lab has two main research areas:
+
 * The Galaxy project, which is an open, web-based platform to support
   computational biomedical research. We are integrating new tools as well
   as interactive visualizations into Galaxy and working closely together
@@ -46,4 +47,4 @@ Our lab is located in Freiburg, a beautiful university city in the south
 west of Germany with the Black Forest, France and Switzerland just
 around the corner and excellent research facilities all over the city.
 
-Please contact [Bjoern Gruening](/src/people/bjoern-gruening/index.md) for further details.
+Please contact [Bjoern Gruening](/people/bjoern-gruening/) for further details.

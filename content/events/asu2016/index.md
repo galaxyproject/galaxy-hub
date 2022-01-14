@@ -2,7 +2,7 @@
 title: Introduction to Galaxy Workshop
 ---
 <div class='center'>
-<a href='https://clas.asu.edu/biokic'><img src="/src/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" width="400" /></a>
+<a href='https://clas.asu.edu/biokic'><img src="/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" width="400" /></a>
 
 <br /><br />
 
@@ -10,8 +10,8 @@ title: Introduction to Galaxy Workshop
 
 **January 8, 2016**
 
-**Instructor** <br /> 
-[Anton Nekrutenko](/src/people/anton/index.md), Galaxy Project, [Penn State University](http://www.psu.edu)<br />
+**Instructor** <br />
+[Anton Nekrutenko](/people/anton/), Galaxy Project, [Penn State University](http://www.psu.edu)<br />
 
 **Location: [Life Sciences E (LSE)](https://maps.asu.edu/?id=120&mrkIid=62941) 244, Tempe Main Campus** <br />
 
@@ -31,7 +31,7 @@ title: Introduction to Galaxy Workshop
 
 This workshop is free and open to anyone in the ASU community.
 
- 
+
 ## Audience
 
 Are you a life scientist who needs to do complex analysis on large datasets?
@@ -97,7 +97,7 @@ Tea, coffee and lunch will be provided
 ## Support
 
 <div class='right center'>
-<a href='https://clas.asu.edu/biokic'><img src="/src/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" width="300" /></a>
+<a href='https://clas.asu.edu/biokic'><img src="/images/logos/ASUBioKIC_600.png" alt="Biodiversity Knowledge Integration Center" width="300" /></a>
 </div>
 
 This workshop is supported by [Biodiversity Knowledge Integration Center (BioKIC)](https://clas.asu.edu/biokic) of the [Arizona State University](http://asu.edu), and the [National Institutes of Health (NIH)](http://www.nih.gov). which funds the Galaxy Project.
@@ -108,4 +108,4 @@ This workshop is supported by [Biodiversity Knowledge Integration Center (BioKIC
 
 ## Questions?
 
-Contact [Nico Franz](https://sols.asu.edu/people/nico-franz) or [Melissa A. Wilson Sayres](https://sols.asu.edu/people/melissa-wilson-sayres) at ASU, or [Anton Nekrutenko](/src/people/anton/index.md) of the Galaxy Project.
+Contact [Nico Franz](https://sols.asu.edu/people/nico-franz) or [Melissa A. Wilson Sayres](https://sols.asu.edu/people/melissa-wilson-sayres) at ASU, or [Anton Nekrutenko](/people/anton/) of the Galaxy Project.

@@ -1,12 +1,12 @@
 <div class="linkbox trim-p">
 
-**[FAQs](/src/faqs/index.md)**
+**[FAQs](/faqs/)**
 
 ---
 
-[Main](/src/main/faq/index.md)  
-[Learn](/src/learn/faq/index.md)  
-[Admin](/admin/faq/index.md)  
+[Main](/main/faq/)  
+[Learn](/learn/faq/)  
+[Admin](/admin/faq/)  
 
 </div>
 

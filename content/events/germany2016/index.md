@@ -7,7 +7,7 @@ title:  2nd German Galaxy Developer workshop, Friday, October 21st, Freiburg
 
 
 
-On the second day of the [Swiss German Galaxy Days 2016](/src/events/sg2016/index.md), we will organize a Galaxy Developer Day in Freiburg.
+On the second day of the [Swiss German Galaxy Days 2016](/events/sg2016/), we will organize a Galaxy Developer Day in Freiburg.
 
 
 ## Location
@@ -16,7 +16,7 @@ The developer day will be held at the Universität of Freiburg
 
 ## Schedule
 
-We will start at 9:30 on Friday as well. There will be no fixed schedule, 
+We will start at 9:30 on Friday as well. There will be no fixed schedule,
 but we expect to finish between 5 and 6pm.
 
 ## Ideas
@@ -29,6 +29,7 @@ We have a few proposed and prepared topics but we are flexible so we can
 discover new areas of the Galaxy.
 
 Proposed topics:
+
 * ‘expand’ reports tool (API, Galaxy DB, JS)
 * Creating Conda packages and Docker containers (Conda, Docker, Tools)
 * Creating new Galaxy Docker flavours (Docker, Admin)
@@ -39,4 +40,4 @@ Please let us know what you are interesting in.
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) or [Björn Grüning](/src/people/bjoern-gruening/index.md)
+Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/people/bjoern-gruening/)

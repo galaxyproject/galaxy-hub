@@ -4,7 +4,7 @@ import nodePath from "path";
 import process from "process";
 import { fileURLToPath } from "url";
 import { unified } from "unified";
-import * as unifiedArgs from "unified-args";
+import * as unifiedEngine from "unified-engine";
 import remarkParse from "remark-parse";
 import remarkFrontmatter from "remark-frontmatter";
 import remarkStringify from "remark-stringify";
@@ -13,7 +13,9 @@ import keepNewlineBeforeHtml from "./keep-newline-before-html.mjs";
 import htmlImgToMd from "./html-img-to-md.mjs";
 import fixLinks from "./fix-links.mjs";
 import tocAdd from "./toc-add.mjs";
-import { repr, PathInfo, rmPrefix } from "../utils.js";
+import { unescapeLink } from "./unescape-links.mjs";
+import { repr, rmPrefix } from "../utils.js";
+import { PathInfo } from "../paths.js";
 
 const MD_EXT = "md";
 const REMARK_STRINGIFY_OPTIONS = {
@@ -21,14 +23,14 @@ const REMARK_STRINGIFY_OPTIONS = {
     rule: "-",
     listItemIndent: "one",
     setext: true,
-    handlers: { break: () => "  \n" },
+    handlers: { break: () => "  \n", link: unescapeLink },
 };
 
 const program = new Command();
 program
     .arguments("<input>")
-    .option("-q, --quiet", "Output only warnings and errors.")
-    .option("-o, --output [path]", "Specify output location. Give without a path to overwrite the original file(s).")
+    .option("-o, --output <path>", "Specify output location.")
+    .option("-O, --overwrite", "Edit the input files in-place. The input path must be a directory.")
     .option(
         "-w, --watch",
         "Watch the given directory for changes in Markdown files and update the output. Only works if " +
@@ -40,6 +42,7 @@ program
         "The root content directory for this input file. Only needed when working on a single input " +
             "file, not a directory."
     )
+    .option("-q, --quiet", "Output only warnings and errors.")
     .option("--inspect", "Output formatted syntax tree.")
     .option("-l, --limit <limit>", "Only process this many html nodes in the <img> replacer.", (l) => parseInt(l))
     .option("--debug")
@@ -60,23 +63,36 @@ export function main(inputPath, opts) {
             opts[key] = value;
         }
     }
+    // Validate arguments.
+    if (opts.overwrite && PathInfo.type(inputPath) !== "dir") {
+        throw repr`--overwrite given but input path is not a directory: ${inputPath}`;
+    }
+    if (opts.output && opts.overwrite) {
+        throw "Must give --output OR --overwrite, not both.";
+    }
+    // Get the base path to pass to fix-links.mjs.
     let bases;
     if (opts.base) {
         bases = [opts.base];
-    } else if (opts.output === true) {
+    } else if (opts.overwrite) {
         bases = [inputPath];
     } else if (opts.output && PathInfo.type(opts.output) === "dir") {
         bases = [opts.output];
     } else if (opts.quiet !== true) {
         console.error(`No base identified. Can't fix relative img src paths unless a --base is given.`);
     }
-    // Fix up process.argv so `unified-args` will be happy.
-    let originalArgv = process.argv.slice();
-    process.argv = fixArgv(process.argv, [inputPath], opts);
-
+    if (opts.debug && bases) {
+        console.log(`Base(s) identified: ${bases}`);
+    }
+    // Get the value to pass to the `output` option of unified-engine.
+    let output = false;
+    if (opts.output) {
+        output = opts.output;
+    } else if (opts.overwrite) {
+        output = true;
+    }
     // Parse Markdown with remark-parse, parse the frontmatter, modify it with our plugins, then
     // serialize it right back to Markdown with remark-stringify.
-    //TODO: Use unified-engine directly. Could avoid the argv munging.
     //TODO: Both htmlImgToMd and fixLinks parse the HTML of each `html` node. If it's a performance
     //      issue, we could cache the parsed `hast` tree in a property on the node. Then maybe a
     //      separate plugin at the end could handle stringifying it back into HTML.
@@ -89,20 +105,26 @@ export function main(inputPath, opts) {
         .use(remarkFrontmatter, { type: "yaml", marker: "-" })
         .use(remarkStringify, REMARK_STRINGIFY_OPTIONS);
 
-    unifiedArgs.args({
-        processor: processor,
-        name: "mdfixer",
-        description: "Fix Markdown.",
-        version: 0.1,
-        extensions: [opts.ext],
-        ignoreName: ".mdfixer.ignore",
-        rcName: ".mdfixerc",
-        packageField: "none",
-        pluginPrefix: "none",
-    });
+    unifiedEngine.engine(
+        {
+            processor: processor,
+            files: [inputPath],
+            output: output,
+            extensions: [opts.ext],
+            quiet: opts.quiet,
+        },
+        handleExit
+    );
+}
 
-    // Restore original argv to avoid affecting other modules/scripts.
-    process.argv = originalArgv;
+function handleExit(error, code) {
+    if (error) {
+        throw error;
+    }
+    if (code) {
+        console.error(repr`unified-engine in mdfixer.mjs returned exit code ${code}.`);
+        process.exitCode = code;
+    }
 }
 
 /** Fix all Markdown files that are direct children of `dirPath`, but do not recurse into
@@ -124,62 +146,6 @@ export function shallowPass(dirPath, opts = {}) {
             main(mdPath, { ...opts, output: mdPath });
         }
     }
-}
-
-// `unified-args` does its own inspection of `process.argv`.
-// We need to make sure those arguments are how it likes it, otherwise it'll throw a fit.
-function fixArgv(currentArgv, positionals, opts) {
-    if (process.argv[1] === fileURLToPath(import.meta.url)) {
-        // If this is being executed directly as a script, all we have to do is remove arguments that
-        // `unified-args` doesn't recognize.
-        return removeExtraArgs(currentArgv.slice());
-    } else {
-        // If this is being used as a module, the current process.argv is irrelevant: it's the arguments
-        // to the calling executable, not this script. We have to construct an artificial argv.
-        return constructArgv(positionals, opts);
-    }
-}
-
-function removeExtraArgs(argv) {
-    // Options that take arguments.
-    for (let arg of ["-b", "--base", "-l", "--limit"]) {
-        let i = argv.indexOf(arg);
-        if (i >= 0) {
-            argv.splice(i, 2);
-        }
-    }
-    // Flags.
-    for (let arg of ["--debug"]) {
-        let i = argv.indexOf(arg);
-        if (i >= 0) {
-            argv.splice(i, 1);
-        }
-    }
-    return argv;
-}
-
-function constructArgv(positionals, opts) {
-    let argv = [process.argv[0], process.argv[1]];
-    // Flags.
-    for (let arg of ["quiet", "inspect"]) {
-        if (opts[arg]) {
-            argv.push(`--${arg}`);
-        }
-    }
-    // Positionals.
-    if (positionals.length !== 1) {
-        throw repr`Invalid arguments: Must give one positional; instead found ${positionals}`;
-    }
-    let inputPath = positionals[0];
-    argv.push(inputPath);
-    // Special cases.
-    if (opts.output) {
-        argv.push("--output");
-        if (opts.output !== true) {
-            argv.push(opts.output);
-        }
-    }
-    return argv;
 }
 
 function getDefaults(options) {

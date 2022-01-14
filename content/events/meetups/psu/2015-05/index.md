@@ -1,7 +1,7 @@
 ---
 title: May 2015 Penn State RNA-Seq Galaxy Workshop
 ---
-<div class='center'><img src="/src/events/meetups/p-s-u/PSUMeetupLogo600.png" alt="Galaxy Meetup @ Penn State" width="400" /></div>
+<div class='center'><img src="/events/meetups/p-s-u/PSUMeetupLogo600.png" alt="Galaxy Meetup @ Penn State" width="400" /></div>
 
 
 
@@ -12,9 +12,9 @@ title: May 2015 Penn State RNA-Seq Galaxy Workshop
 Hey Everyone,
 
 This meeting is open to anyone interested in RNA-Seq analysis and biology workflows.
-[Anton Nekrutenko](/src/people/anton/index.md) of the [Galaxy team](/src/galaxy-team/index.md) will be delivering an introduction to RNA-Seq resources available at Galaxy from a practitioner's viewpoint. 
+[Anton Nekrutenko](/people/anton/) of the [Galaxy team](/galaxy-team/) will be delivering an introduction to RNA-Seq resources available at Galaxy from a practitioner's viewpoint.
 
-[Galaxy Team members](/src/galaxy-team/index.md) will be available for any additional questions.
+[Galaxy Team members](/galaxy-team/) will be available for any additional questions.
 
 Thanks and hope to see you there!
 
@@ -40,6 +40,7 @@ Thanks and hope to see you there!
 #### What is Galaxy and why could it be interesting to me?
 
 Galaxy is a web-based, open source, data integration and analysis platform for life science research. The core pillars of the application are:
+
 * **Accessibility**: enable bench scientists to create bioinformatics analyses
 * **Reproducibility**: facilitate computational methods to be completely easily reproducible
 * **Transparency**: enable easy sharing and publishing of research data and analyses

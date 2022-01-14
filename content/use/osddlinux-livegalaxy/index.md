@@ -8,7 +8,7 @@ platforms:
     platform_text: "OSDDlinux LiveGalaxy"
     platform_location: IN
 summary: "Drug discovery "
-image: "/src/use/osddlinux-livegalaxy/osdd-linux-live-galaxy-home-page-300.png"
+image: "/use/osddlinux-livegalaxy/osdd-linux-live-galaxy-home-page-300.png"
 comments:
   - "[OSDD Portal](http://sysborg2.osdd.net)"
   - '[OSDDlinux LiveGalaxy](http://osddlinux.osdd.net:8001/) exposes the tools that are included in [OSDDlinux](http://osddlinux.osdd.net/), "a customized linux operating system for drug discovery that integrates open source software, libraries, workflows and web services in linux for creating environment for drug discovery."'

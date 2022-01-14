@@ -2,9 +2,9 @@
 title: "January 2013 GalaxyAdmins"
 date: "2013-01-07"
 ---
-<div class='right'><a href='/src/community/galaxy-admins/meetups/2013-01-16/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a> </div>
+<div class='right'><a href='/community/galaxy-admins/meetups/2013-01-16/'><img src="/images/logos/GalaxyAdmins.png" alt="January 2013 GalaxyAdmins Meetup" width="160" /></a> </div>
 
-The [next meeting](/src/community/galaxy-admins/meetups/2013-01-16/index.md) of the [GalaxyAdmins Group](/src/community/galaxy-admins/index.md) will be held on [January 16, 2013, at 10 AM Central US time](/src/community/galaxy-admins/meetups/2013-01-16/index.md).  
+The [next meeting](/community/galaxy-admins/meetups/2013-01-16/) of the [GalaxyAdmins Group](/community/galaxy-admins/) will be held on [January 16, 2013, at 10 AM Central US time](/community/galaxy-admins/meetups/2013-01-16/).  
 
 [John Chilton](https://www.msi.umn.edu/users/chilton) of the [Minnesota Supercomputing Institute](https://www.msi.umn.edu/) will cover "Deploying Production Galaxy Environments on [OpenStack](http://www.openstack.org/) with [CloudBioLinux](http://cloudbiolinux.org/) and CloudMan"
 
@@ -34,8 +34,8 @@ The [next meeting](/src/community/galaxy-admins/meetups/2013-01-16/index.md) of 
 
 <br />
 
-We use the [Blackboard Collaborate Web Conferencing system](/src/community/galaxy-admins/meetups/webinar-tech/index.md) for the meetup. Downloading the required applets in advance and using a headphone with microphone to prevent audio feedback during the call is recommended.
+We use the [Blackboard Collaborate Web Conferencing system](/community/galaxy-admins/meetups/webinar-tech/) for the meetup. Downloading the required applets in advance and using a headphone with microphone to prevent audio feedback during the call is recommended.
 
-[GalaxyAdmins](/src/community/galaxy-admins/index.md) is a discussion group for Galaxy community members who are responsible for large Galaxy installations. 
+[GalaxyAdmins](/community/galaxy-admins/) is a discussion group for Galaxy community members who are responsible for large Galaxy installations.
 
 Srinivas Maddhi

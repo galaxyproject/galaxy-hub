@@ -1,0 +1,18 @@
+---
+title: "GTÑ: Introducing the Galaxy Training Ñetwork - Collaboration towards bioinformatics resources in Spanish"
+date: "2021-09-22"
+days: 3
+tease: ""
+continent: SA
+location: "2nd Women in Bioinformatics & Data Science LA Conference, Online, Latin America"
+image: 
+location_url: "https://wbds.la/conferences/2WBDSLAC/index.html"
+external_url: "https://youtu.be/Snuoucmfg1M"
+gtn: false
+contact: "Patricia Carvajal-López, Alejandra Escobar-Zepeda and Wendi Bacon"
+links:
+- text: "Video"
+  url: "https://youtu.be/Snuoucmfg1M"
+- text: "Poster"
+  url: "https://wbds.la/conferences/2WBDSLAC/assets/img/posters/Carvajal-Lopez_Patricia_Poster37%20-%20Patricia%20Carvajal.png"
+---

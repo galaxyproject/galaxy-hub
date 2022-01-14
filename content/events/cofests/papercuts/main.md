@@ -3,7 +3,7 @@ title: "Papercuts CoFests!"
 layout: events_index_papercuts.pug
 ---
 
-Papercuts events are [Galaxy CoFests](/src/events/cofests/index.md) that address annoying, but easy to fix bugs ("paper cuts").  *Papercut CoFests* run for 24 hours (following the sun) and are collaborative events, dedicated to
+Papercuts events are [Galaxy CoFests](/events/cofests/) that address annoying, but easy to fix bugs ("paper cuts").  *Papercut CoFests* run for 24 hours (following the sun) and are collaborative events, dedicated to
 
 * **Making the Galaxy experience be a pleasure and be productive by removing and reducing irritants.**
 * **Growing the Galaxy *contributor* community by holding regular events.**
@@ -14,10 +14,10 @@ Papercuts events are [Galaxy CoFests](/src/events/cofests/index.md) that address
 
 <div class="text-center img-sizer autowidth" style="height: 6rem">
 
-![](/src/events/2020-10-papercuts/papercuts-2020-10-21.png)
-![](/src/events/2020-11-papercuts/papercuts-2020-11-18.png)
-![](/src/events/2020-12-papercuts/papercuts-2020-12.gif)
-![](/src/events/2021-01-papercuts/papercuts-2021-01.png)
+![](/events/2020-10-papercuts/papercuts-2020-10-21.png)
+![](/events/2020-11-papercuts/papercuts-2020-11-18.png)
+![](/events/2020-12-papercuts/papercuts-2020-12.gif)
+![](/events/2021-01-papercuts/papercuts-2021-01.png)
 
 </div>
 
@@ -32,20 +32,20 @@ First, you can register your interest.  We'll send you information and a reminde
 Papercuts CoFests are held regularly (see below), and it's easy to get involved in the very next one.
 
 * **Before**
-  * Each Papercuts event page has links to issues. in different parts of Galaxy, that have been flagged by experienced community members as being "fixable during a Papercuts."
-  * Figure out which of these projects interest you the most.
-  * Do some (even a little bit is useful) on that project.
-  * Each event has conference calls, every 3-4 hours, going around the world.  Look at the schedule and figure out which calls you can make it to.
+    * Each Papercuts event page has links to issues. in different parts of Galaxy, that have been flagged by experienced community members as being "fixable during a Papercuts."
+    * Figure out which of these projects interest you the most.
+    * Do some (even a little bit is useful) on that project.
+    * Each event has conference calls, every 3-4 hours, going around the world.  Look at the schedule and figure out which calls you can make it to.
 * **During**
-  * Join the discussion on [Gitter](https://gitter.im/galaxyproject/Lobby).
-  * People on Gitter will provide guidance and resources, and help connect you to folks who specialize in the area you are interested in.
-  * Before the next call, followup with others on Galaxy chat channels.
-  * Be on the next call for a follow up.
+    * Join the discussion on [Gitter](https://gitter.im/galaxyproject/Lobby).
+    * People on Gitter will provide guidance and resources, and help connect you to folks who specialize in the area you are interested in.
+    * Before the next call, followup with others on Galaxy chat channels.
+    * Be on the next call for a follow up.
 * **After**
-  * Stay involved. Galaxy has lots of ways to get involved. Leverage your newly acquired knowledge to ask for help, and to help others.
-  * Get your fixes integrated!  You may or may not get in a fix integrated during the official Papercuts day.  If you don't then stick with it until you have the final polish on it, and it goes in.
-  * Tell everyone you meet that you are now a Galaxy Project contributor.
-  * Join us again for the next Papercuts.
+    * Stay involved. Galaxy has lots of ways to get involved. Leverage your newly acquired knowledge to ask for help, and to help others.
+    * Get your fixes integrated!  You may or may not get in a fix integrated during the official Papercuts day.  If you don't then stick with it until you have the final polish on it, and it goes in.
+    * Tell everyone you meet that you are now a Galaxy Project contributor.
+    * Join us again for the next Papercuts.
 
 # Papercuts for Students?
 

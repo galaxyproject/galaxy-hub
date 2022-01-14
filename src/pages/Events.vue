@@ -1,8 +1,19 @@
 <template>
     <Layout>
         <h1 class="page-title">{{ $page.main.title }}</h1>
-        <div class="markdown" v-html="$page.main.content" />
-        <h2 id="upcoming-events">Upcoming Events</h2>
+        <div class="toc-wrapper col-md-3">
+            <ul>
+                <li><a href="#upcoming-events">Upcoming Events</a></li>
+                <li><a href="#recent-events">Recent Events</a></li>
+            </ul>
+        </div>
+        <div class="body-wrapper col-md-9">
+            <div class="content markdown" v-html="$page.main.content" />
+        </div>
+        <h2 id="upcoming-events">
+            <a href="#upcoming-events" aria-hidden="true"><span class="icon icon-link"></span></a>
+            Upcoming Events
+        </h2>
         <table class="table table-striped">
             <thead>
                 <tr>
@@ -16,7 +27,10 @@
                 <ArticleTableEvents v-for="edge in $page.upcoming.edges" :key="edge.node.id" :article="edge.node" />
             </tbody>
         </table>
-        <h2 id="recent-events">Recent Events</h2>
+        <h2 id="recent-events">
+            <a href="#recent-events" aria-hidden="true"><span class="icon icon-link"></span></a>
+            Recent Events
+        </h2>
         <p>Events in the past 12 months:</p>
         <table class="table table-striped">
             <thead>
@@ -55,6 +69,9 @@ query {
     id
     title
     content
+    fileInfo {
+      path
+    }
   }
   footer: insert(path: "/insert:/events/footer/") {
     id
@@ -78,6 +95,10 @@ query {
         contact
         external_url
         gtn
+        links {
+          text
+          url
+        }
         date (format: "D MMMM YYYY")
         path
       }
@@ -100,6 +121,10 @@ query {
         contact
         external_url
         gtn
+        links {
+          text
+          url
+        }
         date (format: "D MMMM YYYY")
         path
       }

@@ -6,9 +6,9 @@
 
 <table>
   <tr>
-    <td> <a href='/src/people/enis-afgan/index.md'><img src="/src/images/people/EnisAfgan.jpg" /></a> <br /> <a href='http://cloudman.irb.hr/enis/'>Enis Afgan</a> <br /> <a href='http://www.irb.hr/en/cir/'>RBI</a> </td>
-    <td> <img src="/src/images/people/dannon.jpg" /> <br /> <a href='/src/people/dannon-baker/index.md'>Dannon Baker</a> <br /> <a href='http://www.jhu.edu'>Johns Hopkins</a> </td>
-    <td> <img src="/src/cloudman/team/TomislavLipic.jpg" /> <br /> Tomislav Lipic <br /><a href='http://www.irb.hr/en/cir/'>RBI</a> </td>
-    <td> <img src="/src/images/people/james.jpg" /> <br /> <a href='/src/people/james-taylor/index.md'>James Taylor</a> <br /> <a href='http://www.jhu.edu'>Johns Hopkins</a> </td>
+    <td> <a href='/people/enis-afgan/'><img src="/images/people/EnisAfgan.jpg" /></a> <br /> <a href='http://cloudman.irb.hr/enis/'>Enis Afgan</a> <br /> <a href='http://www.irb.hr/en/cir/'>RBI</a> </td>
+    <td> <img src="/images/people/dannon.jpg" /> <br /> <a href='/people/dannon-baker/'>Dannon Baker</a> <br /> <a href='http://www.jhu.edu'>Johns Hopkins</a> </td>
+    <td> <img src="/cloudman/team/TomislavLipic.jpg" /> <br /> Tomislav Lipic <br /><a href='http://www.irb.hr/en/cir/'>RBI</a> </td>
+    <td> <img src="/images/people/james.jpg" /> <br /> <a href='/people/james-taylor/'>James Taylor</a> <br /> <a href='http://www.jhu.edu'>Johns Hopkins</a> </td>
   </tr>
 </table>

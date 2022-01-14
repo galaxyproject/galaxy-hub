@@ -8,7 +8,7 @@ platforms:
     platform_text: "VirAmp Galaxy"
     platform_location: US
 summary: "VirAmp is a web-based semi-*de novo* fast virus genome assembly pipeline designed for extremely high coverage NGS data. "
-image: "/src/use/viramp/viramp-home.png"
+image: "/use/viramp/viramp-home.png"
 comments:
   - 'From [Wan et al.](https://www.ncbi.nlm.nih.gov/pubmed/25918639): "[VirAmp](http://viramp.com/) "combines existing tools and techniques and presents them to end users via a web-enabled Galaxy interface. Our pipeline allows users to assemble, analyze, and interpret high coverage viral sequencing data with an ease and efficiency that was not possible previously. Our software makes a large number of genome assembly and related tools available to life scientists and automates the currently recommended best practices into a single, easy to use interface. We tested our pipeline with three different datasets from human herpes simplex virus (HSV)."'
 user_support:

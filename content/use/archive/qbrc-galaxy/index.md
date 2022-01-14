@@ -8,14 +8,14 @@ platforms:
     platform_text: "QBRC Galaxy"
     platform_location: US
 summary: "Hosts custom tools developed by members of the Quantitative Biomedical Research Center @ University of Texas Southwestern for statistical analysis of various High Throughput Sequencing experiments. "
-image: "/src/use/archive/qbrc-galaxy/qbrc-logo.jpg"
+image: "/use/archive/qbrc-galaxy/qbrc-logo.jpg"
 comments:
   - "Hosts custom tools developed by members of the [Quantitative Biomedical Research Center @ University of Texas Southwestern](http://qbrc.swmed.edu/) for statistical analysis of various High Throughput Sequencing experiments."
   - "Features:"
   - "[SbacHTS: Spatial Background Noise Correction for HighThroughput RNAi Screening](http://bioinformatics.oxfordjournals.org/content/early/2013/06/28/bioinformatics.btt358.abstract)"
   - "[DecoRNAI](http://galaxy.qbrc.org/static/DecoRNAi_Manual.pdf) (deconvolution analysis of RNAi screening data)"
   - '[MiClip](http://galaxy.qbrc.org/static/galaxy_manual.pdf) "a novel model-based approach to identify high-confidence protein-RNA binding sites in CLIP-Seq datasets"'
-  - "Alse see the [PIPE-CLIP server](/src/use/archive/pipe-clip/index.md)."
+  - "Alse see the [PIPE-CLIP server](/use/archive/pipe-clip/)."
 user_support:
   - "[Web form](http://qbrc.swmed.edu/contact/)"
 quotas:

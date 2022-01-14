@@ -3,12 +3,13 @@ date: '2020-06-22'
 title: "Multi-tenant, multi-project GVL with Galaxy, Jupyter, Terminal, and RStudio"
 authors: "Alexandru Mahmoud, Nuwan Goonasekera, Enis Afgan"
 tease: "Complete analysis on one platform, including training and collaboration"
-image: "/src/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
+image: "/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
 highlight: true
 ---
 
 We are happy to announce the latest release of the Genomics Virtual Lab (GVL),
 beta3, that brings two new major features:
+
 1. Isolated projects, and
 2. Multiple applications.
 
@@ -45,10 +46,10 @@ level. This provides isolation and flexibility where different Galaxy instances
 can run differentiated toolsets, be supported by different cloud allocations,
 or be made available to targeted users.
 
-<div class="center">
-    <a href="/src/blog/2020-06-gvl5-beta3/gvl-projects.png">
-        <img src="/src/blog/2020-06-gvl5-beta3/gvl-projects.png" width="80%" />
-    </a>
+<div class="center img-sizer" style="width: 80%">
+
+[![](./gvl-projects.png)](/blog/2020-06-gvl5-beta3/gvl-projects.png)
+
 </div>
 
 While a managed deployment of the GVL that anyone can access and request their
@@ -76,10 +77,10 @@ tools with extensive sharing capabilities. As a user, you have unrestricted
 access to those applications and can install any additional packages within
 those applications that are needed for the analysis.
 
-<div class="center">
-    <a href="/src/blog/2020-06-gvl5-beta3/gvl-login.png">
-        <img src="/src/blog/2020-06-gvl5-beta3/gvl-apps.png" width="80%" />
-    </a>
+<div class="center img-sizer" style="width: 80%">
+
+[![](./gvl-apps.png)](/blog/2020-06-gvl5-beta3/gvl-apps.png)
+
 </div>
 
 Having access to multiple applications on the same platform needs to be

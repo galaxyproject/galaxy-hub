@@ -3,12 +3,12 @@ title: "April 1, 2013 Galaxy Distribution"
 date: "2013-04-02"
 ---
 ```wiki red/solid/light
-Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/src/news/2013-04-08-galaxy-security-release/index.md), which is was not included in the original April 1, 2013 distribution.```
+Due to a security vulnerability, administrators are strongly encouraged to upgrade to the [April 8, 2013 Security Release](/news/2013-04-08-galaxy-security-release/), which is was not included in the original April 1, 2013 distribution.```
 
 <br />
 
-**Complete [News Brief](/src/archive/dev-news-briefs/2013-04-01/index.md)**
-<div class='right'><a href='http://galaxyproject.org'><img src="/src/images/news-graphics/2013_04_01_granular-galaxy-utilities.png" alt="tool shed" width=350 /></a></div>
+**Complete [News Brief](/archive/dev-news-briefs/2013-04-01/)**
+<div class='right'><a href='http://galaxyproject.org'><img src="/images/news-graphics/2013_04_01_granular-galaxy-utilities.png" alt="tool shed" width=350 /></a></div>
 **Highlights:**
 
 * [Job running configuration changes and refactoring of job runner plugins](http://wiki.galaxyproject.org/DevNewsBriefs/2013-04-01#Job_Running_Configuration_Changes)
@@ -24,14 +24,16 @@ Due to a security vulnerability, administrators are strongly encouraged to upgra
 *[http://galaxy-dist.readthedocs.org](http://galaxy-dist.readthedocs.org)*
 
 ```
+
 new:     $ hg clone https://bitbucket.org/galaxy/galaxy-dist#stable
 
-upgrade: $ hg pull 
+upgrade: $ hg pull
          $ hg update security_2013.04.08
+
 ```
 
 
 
 *Thanks for using Galaxy,*
 
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

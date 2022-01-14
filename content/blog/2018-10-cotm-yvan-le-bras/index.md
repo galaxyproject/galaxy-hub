@@ -3,7 +3,7 @@ date: '2018-10-01'
 title: "Contributor of the Month: Yvan Le Bras"
 authors: "Björn Grüning"
 tease: "Citizen Science and Galaxy for Ecology"
-image: "/src/images/photos/yvanlebras.png"
+image: "/images/photos/yvanlebras.png"
 ---
 
 This month we welcome Yvan Le Bras, also called the magic Yvan ([@yvanlebras](https://github.com/yvanlebras)) as our *Galaxy contributor of the Month!* Yvan is a long time community member and PI of the GalaxyE project for Ecology data science. Yvan thanks for doing this interview with us, we are looking forward to learn more about you and your work!
@@ -24,7 +24,7 @@ During my PhD, 3 years 200% full time in a research lab, I rapidly noticed that 
 
 ### How did you get into the Galaxy community, what (and when) was your first contribution?
 
-After one year as a user, a new postdoctoral contract brought me to the GenOuest INRIA Bioinformatics core facility where we started to enter the community creating “our” local one: the Western France Galaxy User Group (GUGGO). This community was started following the increasing demand from the core facility users, the core facility finally accept to administrate a Galaxy server but only of a local working group was created so we can exchange regularly with users, developers and others Galaxy instance administrators/developers/users… to share issues, best practices and feedback! First “”relations”” with the worldwide Galaxy community was in 2014, for the [Baltimore Galaxy Community Conference](/src/events/gcc2014/index.md)… and this was a real revelation! A so interesting conference that I can’t stop since this period to exchange and maybe sometime harass (sorry) Galaxy community… My first contribution to Galaxy was the (really quick and dirty) integration of population genetics tools such as Structure.
+After one year as a user, a new postdoctoral contract brought me to the GenOuest INRIA Bioinformatics core facility where we started to enter the community creating “our” local one: the Western France Galaxy User Group (GUGGO). This community was started following the increasing demand from the core facility users, the core facility finally accept to administrate a Galaxy server but only of a local working group was created so we can exchange regularly with users, developers and others Galaxy instance administrators/developers/users… to share issues, best practices and feedback! First “”relations”” with the worldwide Galaxy community was in 2014, for the [Baltimore Galaxy Community Conference](/events/gcc2014/)… and this was a real revelation! A so interesting conference that I can’t stop since this period to exchange and maybe sometime harass (sorry) Galaxy community… My first contribution to Galaxy was the (really quick and dirty) integration of population genetics tools such as Structure.
 
 ### Which are your favorite Galaxy tools?
 
@@ -142,7 +142,7 @@ Notably regarding [GCCBOSC 2018 Galaxy Community update presentation](https://gc
 
 - increase the number of users and not the dataset size and complexity…. Searching to be known and tested by all researcher communities to know the potential need of each community regarding what Galaxy can offer
 - in the meantime, continue to deal with dataset size and complexity on the first community of Galaxy user, so biomedical related research
-- continue and increase its role in democratising / presenting / explaining / commonizing / introducing complex data analysis processes to newcomers / young scientists / lost scientists through [Galaxy Training Network](https://training.galaxyproject.org/) activity notably. 
+- continue and increase its role in democratising / presenting / explaining / commonizing / introducing complex data analysis processes to newcomers / young scientists / lost scientists through [Galaxy Training Network](https://training.galaxyproject.org/) activity notably.
 
 <img src="dolphin.jpg" class="img-fluid" alt="Heading out" />
 

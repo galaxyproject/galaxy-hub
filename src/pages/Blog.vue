@@ -38,6 +38,9 @@ query {
     id
     title
     content
+    fileInfo {
+      path
+    }
   }
   footer: insert(path: "/insert:/blog/footer/") {
     id

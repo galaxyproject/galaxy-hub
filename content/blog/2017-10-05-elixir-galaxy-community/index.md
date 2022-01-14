@@ -2,7 +2,7 @@
 date: '2017-10-05'
 title: "ELIXIR establishes a new official Community for Galaxy"
 tease: ""
-image: /src/images/logos/ElixirNoTextLogo.png
+image: /images/logos/ElixirNoTextLogo.png
 authors: "Frederik Coppens, Gildas Le Corguillé, Björn Grüning"
 ---
 
@@ -24,4 +24,4 @@ Our plans and the proposal can be found [here](https://docs.google.com/document/
 
 For more information please see the [official ELIXIR announcement](https://www.elixir-europe.org/news/elixir-establish-new-use-cases-proteomics-metabolomics-and-galaxy).
 
- 
+

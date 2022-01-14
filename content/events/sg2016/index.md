@@ -7,7 +7,7 @@ title: Swiss German Galaxy Tour/Day 2016
 
 
 
-There will be a *Swiss-German Galaxy Tour* this fall featuring a range of events over 2 days in Freiburg (Germany) . 
+There will be a *Swiss-German Galaxy Tour* this fall featuring a range of events over 2 days in Freiburg (Germany) .
 
 
 ## Registration
@@ -27,22 +27,22 @@ Registration is free, but space is limited on both days. We recommend you regist
   </tr>
   <tr>
     <th> October 20<sup>th</sup>, Thursday </th>
-    <td> <a href='/src/events/switzerland2016/index.md'>3rd Swiss Galaxy Workshop</a> </td>
+    <td> <a href='/events/switzerland2016/'>3rd Swiss Galaxy Workshop</a> </td>
     <td rowspan=2 style=" text-align: left; width: 33%;"> <a href='http://www.uni-freiburg.de/universitaet-en/kontakt-und-wegweiser/lageplaene/engineering'>Technische Fakultät, Albert-Ludwigs-Universität, Freiburg, Germany</a> </td>
   </tr>
   <tr>
     <th> October 21<sup>st</sup>, Friday </th>
-    <td> <a href='/src/events/germany2016/index.md'>2nd German Galaxy Developer workshop</a> </td>
+    <td> <a href='/events/germany2016/'>2nd German Galaxy Developer workshop</a> </td>
   </tr>
 </table>
 
 
-The [first day](/src/events/switzerland2016/index.md), October 20<sup>th</sup>, will start with talks, discussions and small demonstrations. This day will be problem / technology centric with small demonstrations and hands-on sessions. Everyone is expected to have their own computer.  See the [event's page](/src/events/switzerland2016/index.md) for a list of topics and presenters.
+The [first day](/events/switzerland2016/), October 20<sup>th</sup>, will start with talks, discussions and small demonstrations. This day will be problem / technology centric with small demonstrations and hands-on sessions. Everyone is expected to have their own computer.  See the [event's page](/events/switzerland2016/) for a list of topics and presenters.
 
-The [second day](/src/events/germany2016/index.md), October 21<sup>st</sup>, is a developers day with 3 to 4 hands-on sessions (1.5h). Every session will start with a 10 minute talk and theoretical introduction, followed by 1h of hacking and 20 minutes discussion and a small break until the next session begins. There are a few proposed and prepared topics but we are flexible so we can discover new areas of the Galaxy. See the [event's page](/src/events/germany2016/index.md) for a list of topics.
+The [second day](/events/germany2016/), October 21<sup>st</sup>, is a developers day with 3 to 4 hands-on sessions (1.5h). Every session will start with a 10 minute talk and theoretical introduction, followed by 1h of hacking and 20 minutes discussion and a small break until the next session begins. There are a few proposed and prepared topics but we are flexible so we can discover new areas of the Galaxy. See the [event's page](/events/germany2016/) for a list of topics.
 
 
-<div class='right'><br /><a href='http://www.uni-freiburg.de/universitaet-en/kontakt-und-wegweiser/lageplaene/engineering'><img src="/src/images/logos/UniFreiburg.png" alt="Technische Fakultät; Albert-Ludwigs-Universität Freiburg" height="100" /></a></div>
+<div class='right'><br /><a href='http://www.uni-freiburg.de/universitaet-en/kontakt-und-wegweiser/lageplaene/engineering'><img src="/images/logos/UniFreiburg.png" alt="Technische Fakultät; Albert-Ludwigs-Universität Freiburg" height="100" /></a></div>
 
 ## Location
 
@@ -51,4 +51,4 @@ The [second day](/src/events/germany2016/index.md), October 21<sup>st</sup>, is 
 
 ## Questions?
 
-Contact [Hans-Rudolf Hotz](/src/people/hansrudolf-hotz/index.md) or [Björn Grüning](/src/people/bjoern-gruening/index.md)
+Contact [Hans-Rudolf Hotz](/people/hansrudolf-hotz/) or [Björn Grüning](/people/bjoern-gruening/)

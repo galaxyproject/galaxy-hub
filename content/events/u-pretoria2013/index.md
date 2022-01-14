@@ -4,14 +4,14 @@ title: NGS Data Analysis and Galaxy Workshop
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.acgt.co.za/'><img src="/src/images/logos/ACGT_UPretoriaWide.png" alt="The African Centre for Gene Technologies at the University of Pretoria" width="500" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.acgt.co.za/'><img src="/images/logos/ACGT_UPretoriaWide.png" alt="The African Centre for Gene Technologies at the University of Pretoria" width="500" /></a> </td>
   </tr>
 </table>
 
 
 
 
-**Instructors: [Dave Clements](/src/people/dave-clements/index.md), [Burger van Jaarsveld](https://www.linkedin.com/pub/burger-van-jaarsveld/4a/561/566), [Fourie Joubert](http://science.up.ac.za/html/fourie_joubert.html)
+**Instructors: [Dave Clements](/people/dave-clements/), [Burger van Jaarsveld](https://www.linkedin.com/pub/burger-van-jaarsveld/4a/561/566), [Fourie Joubert](http://science.up.ac.za/html/fourie_joubert.html)
 
 14-18 October 2013<br />
 8:30-16:30  <br />
@@ -22,11 +22,11 @@ title: NGS Data Analysis and Galaxy Workshop
 
 ## Apply
 
-The [African Centre for Gene Technologies](http://www.acgt.co.za/) in collaboration with the [University of Pretoria’s IRT for Genomics](http://web.up.ac.za/default.asp?ipkCategoryID=19419) will host this workshop at no cost to researchers who require training in NGS data analysis. The workshop is open to all researchers. Admission is competitive and will be based on the strength of your application. 
+The [African Centre for Gene Technologies](http://www.acgt.co.za/) in collaboration with the [University of Pretoria’s IRT for Genomics](http://web.up.ac.za/default.asp?ipkCategoryID=19419) will host this workshop at no cost to researchers who require training in NGS data analysis. The workshop is open to all researchers. Admission is competitive and will be based on the strength of your application.
 
 Each applicant is required to submit a detailed motivation outlining how the course will contribute to their current research. Preference will be given to those who have already generated data which requires further analysis.  
 
-*Applications should be submitted by the 17<sup>th</sup> of September 2013.* Applications that are late or incomplete will not be considered. All applicants will be notified as to the outcome of their application by the 27<sup>th</sup> September 2013. 
+*Applications should be submitted by the 17<sup>th</sup> of September 2013.* Applications that are late or incomplete will not be considered. All applicants will be notified as to the outcome of their application by the 27<sup>th</sup> September 2013.
 
 ## Audience
 

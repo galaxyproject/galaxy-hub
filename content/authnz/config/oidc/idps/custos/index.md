@@ -4,7 +4,7 @@ highlight: true
 ---
 
 _This page explains how to configure this feature as an administrator,
-for user-specific docs, please refer to the [Use page](/src/authnz/use/oidc/idps/custos/index.md)._
+for user-specific docs, please refer to the [Use page](/authnz/use/oidc/idps/custos/)._
 
 
 # About Custos
@@ -24,7 +24,7 @@ allowing users to link their institutional identities with a Galaxy account.
 
 To set up a Galaxy instance to work with Custos, it is necessary to enable
 OIDC-based login for Galaxy. To do this, follow the instructions for enabling
-[OIDC-based login](/src/authnz/config/oidc/index.md#enable-oidc-based-login).
+[OIDC-based login](/authnz/config/oidc/#enable-oidc-based-login).
 Next, it is necessary to register your Galaxy instance as a client of Custos.
 The following section demonstrates how to do that. Finally, you need to
 configure Custos as an IdP provider in Galaxy by editing
@@ -44,6 +44,7 @@ following body, replacing information with your relevant data:
 * URI : https://custos.scigap.org:/apiserver/tenant-management/v1.0.0/oauth2/tenant
 * Method : POST
 * Body :
+
     ```
     client_name:John Doe University
     requester_email:johndoe@university.edu
@@ -61,7 +62,7 @@ following body, replacing information with your relevant data:
     ```
 
 For example:
-![image](/src/authnz/config/oidc/idps/custos/Custos-post-request.png)
+![image](/authnz/config/oidc/idps/custos/Custos-post-request.png)
 
 1. The _Domain_ should be the main address that users will use to get to your
    instance of Galaxy.
@@ -79,12 +80,12 @@ For example:
    https://university.edu/galaxy/authnz/custos/callback
    ```
 
-   See [this section](/src/authnz/config/oidc/index.md#redirect-uri) for details.
+   See [this section](/authnz/config/oidc/#redirect-uri) for details.
 
 3. After making the POST request, you should get a response containing your
    `Client ID` and `Client Secret`; note this info! You will need it for the
    Galaxy configuration.
-   ![image](/src/authnz/config/oidc/idps/custos/Custos-post-request-response.png)
+   ![image](/authnz/config/oidc/idps/custos/Custos-post-request-response.png)
 
 4. Finally, to have your client activated, send an email to
    [custos@airavata.apache.org](mailto:custos@airavata.apache.org) with your
@@ -95,7 +96,7 @@ For example:
 
 Once we have an activated client ID and client secret from Custos, we need to
 configure Galaxy. As a first step, make sure to [enable OIDC
-login](/src/authnz/config/oidc/#enable-oidc-based-login). After setting up
+login](/authnz/config/oidc/#enable-oidc-based-login). After setting up
 `config/oidc_config.xml`, which is common to multiple IdPs, you need to
 configure `config/oidc_backends_config.xml`. The following is an example of a
 configuration. Note that the **redirect_uri** must match what as included as
@@ -118,7 +119,7 @@ during client registration.
 ```
 
 The above configuration includes the [default OIDC configuration
-tags](/src/authnz/config/oidc/#oidc-configuration-options-for-identity-providers)
+tags](/authnz/config/oidc/#oidc-configuration-options-for-identity-providers)
 as we as the required `url` tag.
 
 ### URL
@@ -155,10 +156,10 @@ Having set this configuration, (re)start Galaxy and the `Sign in with Custos`
 feature will become available. The login page should look as follows:
 
 <div class="center">
-    <img src="/src/authnz/config/oidc/idps/custos/custos-login-button2.png"
+    <img src="/authnz/config/oidc/idps/custos/custos-login-button2.png"
      alt="User login with Custos enabled" width="60%" />
 </div>
 
 For the end-user documentation of how to use the Custos login now that it has
 been configured, take a look at the
-[end-user](/src/authnz/use/oidc/idps/custos/index.md) page.
+[end-user](/authnz/use/oidc/idps/custos/) page.

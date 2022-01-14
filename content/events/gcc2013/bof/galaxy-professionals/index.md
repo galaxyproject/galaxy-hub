@@ -4,12 +4,13 @@ title: Galaxy Professionals
 
 <slot name="/events/gcc2013/header" />
 
-<slot name="/events/gcc2013/linkbox" />
+import linkbox from "../../linkbox.json"
+<link-box :data="linkbox" />
 <slot name="/events/gcc2013/bof/linkbox" />
 
-<div class='left'><a href='/src/events/gcc2013/bof/index.md'><img src="/src/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
+<div class='left'><a href='/events/gcc2013/bof/'><img src="/images/logos/GCC2013BoFLogo.png" alt="" width="160" /></a></div>
 
-This page describes the **Galaxy Professionals** [Birds of a Feather](/src/events/gcc2013/bof/index.md) meetup proposed for [GCC2013](/src/events/gcc2013/index.md). 
+This page describes the **Galaxy Professionals** [Birds of a Feather](/events/gcc2013/bof/) meetup proposed for [GCC2013](/events/gcc2013/).
 
 ## Outcomes
 
@@ -24,7 +25,7 @@ Ross will update these notes when he finishes travelling. For now:
 
 1. #4 The newly announced Galaxy Foundation (GF) also represents a potential vehicle for connecting customers with professional providers
 
-1. #5 The concept of testing, accreditation and maintenance of professional Galaxy related skills and capacities was briefly discussed. This is a very complex area but one worthy of attention in the longer term as the pool of providers becomes larger and more unruly. The GF probably represents an appropriate vehicle for the definition and certification of professional standards and for providing accreditation and certification of training services. 
+1. #5 The concept of testing, accreditation and maintenance of professional Galaxy related skills and capacities was briefly discussed. This is a very complex area but one worthy of attention in the longer term as the pool of providers becomes larger and more unruly. The GF probably represents an appropriate vehicle for the definition and certification of professional standards and for providing accreditation and certification of training services.
 
 ## Origins
 
@@ -36,23 +37,23 @@ The goal of this BoF is deliberately vague, since it's not clear whether there w
 
 * learn who else is not opposed to the idea
 * clarify risks and benefits
-* propose a sustainable business model 
-* figure out where to find paying customers 
+* propose a sustainable business model
+* figure out where to find paying customers
 * discuss possible organisational models and governance structures
 * plan future steps
 
 ## When and Where
 
-The [time and location](/src/events/gcc2013/bof/index.md#bof-schedule) for this BoF has not been set yet.  Watch this space. If there is little enthusiasm, this BoF will quietly fade away.
+The [time and location](/events/gcc2013/bof/#bof-schedule) for this BoF has not been set yet.  Watch this space. If there is little enthusiasm, this BoF will quietly fade away.
 
 ## Who is Participating
 
 If you are interested, please add your name below and/or send an email to [Ross Lazarus](mailto:ross DOT lazarus AT gmail DOT com).
 
-* [Ross Lazarus](/src/people/fubar/index.md)
+* [Ross Lazarus](/people/fubar/)
 * Mo Heydarian
 * Srinivas Maddhi
-* [Daniel Blankenberg](/src/people/dan/index.md)
+* [Daniel Blankenberg](/people/dan/)
 * Your name here..
 
 ## Questions?

@@ -2,7 +2,7 @@
 title: "Computational Biology Position, Paris"
 date: "2013-09-09"
 ---
-<div class='right'><a href='http://drosophile.org/GEDlab/?page_id=760'><img src="/src/images/logos/DrosophileLogo.jpg" alt="Opening in Drosophila Genetics and Epigenetics" width="150" /></a></div>
+<div class='right'><a href='http://drosophile.org/GEDlab/?page_id=760'><img src="/images/logos/DrosophileLogo.jpg" alt="Opening in Drosophila Genetics and Epigenetics" width="150" /></a></div>
 
 **A 2 and half years [position in Computational Biology](http://drosophile.org/GEDlab/?page_id=760)** is available at the [laboratory of Drosophila Genetics and Epigenetics](http://drosophile.org/) (CNRS UMR 7622 – [University Pierre-et-Marie-Curie](http://www.upmc.fr/en/index.html), Paris) in relation with a consortium of four laboratories funded by the ANR (Plastisipi project).
 
@@ -17,6 +17,7 @@ We are looking for a dynamic candidate with a wide knowledge in computer science
 The ideal candidate holds a PhD degree in computational biology and is experienced in Galaxy developments; however, this profile is not mandatory and candidates with little background in biology but strong experience in core computing sciences, computing infrastructures, mathematics and/or statistics will be welcome too. He/she will collaborate closely with a multi-disciplinary team of biologists and bioinformaticians. Excellent communication, management and reporting skills are essential for this role.
 
 **Favored Experience/Skills:**
+
 * Experience in NGS sequencing dataset analysis
 * Advanced knowledge of a least one OOP language
 * Knowledge of Postgresql
@@ -31,5 +32,5 @@ Salary: Depending on qualifications and experience, based on CNRS salary scale.
 Application: Send CV, cover letter and two references to [Christophe Antoniewski](mailto:christophe DOT antoniewski AT upmc DOT fr).  Shortlisted candidates will be invited for an interview.
 
 [Lab publications](http://drosophile.org/?page_id=92)
- 
+
 Christophe Antoniewski

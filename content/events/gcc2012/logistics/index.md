@@ -7,15 +7,15 @@ title: Logistics
 
 <slot name="/events/gcc2012/linkbox" />
 
-Details on conference [location](/src/events/gcc2012/logistics/index.md#venue), [lodging](/src/events/gcc2012/logistics/index.md#lodging), and [transportation](/src/events/gcc2012/logistics/index.md#getting-there) are listed here.
+Details on conference [location](/events/gcc2012/logistics/#venue), [lodging](/events/gcc2012/logistics/#lodging), and [transportation](/events/gcc2012/logistics/#getting-there) are listed here.
 
 ## Venue
 
-The [2012 Galaxy Community Conference](/src/events/gcc2012/index.md) was held at the [UIC Forum](http://www.uicforum.uic.edu/) conference facility on the [University of Illinois Chicago campus](http://uic.edu/), located minutes from downtown Chicago.  The UIC Forum is at
+The [2012 Galaxy Community Conference](/events/gcc2012/) was held at the [UIC Forum](http://www.uicforum.uic.edu/) conference facility on the [University of Illinois Chicago campus](http://uic.edu/), located minutes from downtown Chicago.  The UIC Forum is at
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://www.uicforum.uic.edu/'><img src="/src/events/gcc2012/logistics/UICForumExteriorThumb.jpg" alt="UIC Forum" height="100" /></a> </td>
+    <td style=" border: none;"> <a href='http://www.uicforum.uic.edu/'><img src="/events/gcc2012/logistics/UICForumExteriorThumb.jpg" alt="UIC Forum" height="100" /></a> </td>
     <td style=" border: none;"> &nbsp;&nbsp; </td>
     <td style=" border: none;"> <a href='http://www.uicforum.uic.edu/'>UIC Forum</a><br />725 W Roosevelt Rd.<br />Chicago‚ IL 60608<br />Phone (312) 413-9875 </td>
   </tr>
@@ -35,7 +35,7 @@ There were blocks of rooms available at both a [nearby hotel](http://www.crownep
 </table>
 
 
-<div class='right'><a href='http://www.housing.uic.edu/halls/jst/index.php'><img src="/src/events/gcc2012/logistics/dorms2.jpg" alt="Dorm room"  /></a><br /><a href='http://www.housing.uic.edu/halls/jst/index.php'><img src="/src/events/gcc2012/logistics/dorms1.jpg" alt="Dorm lounge"  /></a></div>
+<div class='right'><a href='http://www.housing.uic.edu/halls/jst/index.php'><img src="/events/gcc2012/logistics/dorms2.jpg" alt="Dorm room"  /></a><br /><a href='http://www.housing.uic.edu/halls/jst/index.php'><img src="/events/gcc2012/logistics/dorms1.jpg" alt="Dorm lounge"  /></a></div>
 
 A limited number of low-cost rooms were available at [James Stukel Towers](http://www.housing.uic.edu/halls/jst/index.php) on the UIC Campus, and adjacent to the UIC Forum.  A mixture of 5 person and 8 person suites has been reserved. Each suite shares living space and bathrooms with a mix of single and double rooms. Linens are provided. There are no amenities and no housekeeping service.
 
@@ -44,23 +44,23 @@ Dormitory rooms must be paid in advance, as part of the conference registration 
 Room rates per person, per night are:
 
 
-| Room Occupancy |  $ / person / night  | 
-| -------------- | ------------------- | 
-| Single room (one person) |  $90  | 
-| Double room (two people) |  $45  | 
+| Room Occupancy |  $ / person / night  |
+| -------------- | ------------------- |
+| Single room (one person) |  $90  |
+| Double room (two people) |  $45  |
 
 These rates include free wireless internet / wifi.
 
 ### Crowne Plaza Chicago Metro Downtown
 
-<div class='right'><a href='http://www.crowneplaza.com/redirect?path=hd&brandCode=cp&localeCode=en&regionCode=1&hotelCode=CHISH&_PMID=99801505&GPC=IGC'><img src="/src/events/gcc2012/logistics/CrownePlaza1.jpg" alt="Crowne Plaza Chicago Metro Downtown" height="100" /></a></div>
+<div class='right'><a href='http://www.crowneplaza.com/redirect?path=hd&brandCode=cp&localeCode=en&regionCode=1&hotelCode=CHISH&_PMID=99801505&GPC=IGC'><img src="/events/gcc2012/logistics/CrownePlaza1.jpg" alt="Crowne Plaza Chicago Metro Downtown" height="100" /></a></div>
 
 The [Crowne Plaza Chicago Metro Downtown](http://www.crowneplaza.com/redirect?path=hd&brandCode=cp&localeCode=en&regionCode=1&hotelCode=CHISH&_PMID=99801505&GPC=IGC) is the official conference hotel.  A block of rooms has been reserved at a significant discount for conference attendees.  
 
 
-| Room Occupancy |  $ / night  | 
-| -------------- | ---------- | 
-| Single or double occupancy |  $145<br /> with tax: $167  | 
+| Room Occupancy |  $ / night  |
+| -------------- | ---------- |
+| Single or double occupancy |  $145<br /> with tax: $167  |
 
 *These rates [include wireless internet](http://www.thechicagometro.com/html/chicago-hotel-suites.asp) and expire on July 23, or when all the rooms are gone.*  The discounted rate is available for any booking that arrives on or after July 24, and departs on or before July 28.
 
@@ -71,7 +71,7 @@ Hotel rooms can be [reserved with this link](http://www.crowneplaza.com/redirect
 <div class='right'>
 <table>
   <tr>
-    <td style=" text-align: center;"> <a href='http://maps.google.com/maps/ms?msid=200882234356845070378.0004bb5ff01f2d9474e5d&msa=0&ll=41.874706,-87.653003&spn=0.034991,0.039139'><img src="/src/events/gcc2012/logistics/ChicagoMap1.png" alt="Venue and lodging map"  /></a><br /><a href='http://maps.google.com/maps/ms?msid=200882234356845070378.0004bb5ff01f2d9474e5d&msa=0&ll=41.874706,-87.653003&spn=0.034991,0.039139'>Venue + lodging map</a> </td>
+    <td style=" text-align: center;"> <a href='http://maps.google.com/maps/ms?msid=200882234356845070378.0004bb5ff01f2d9474e5d&msa=0&ll=41.874706,-87.653003&spn=0.034991,0.039139'><img src="/events/gcc2012/logistics/ChicagoMap1.png" alt="Venue and lodging map"  /></a><br /><a href='http://maps.google.com/maps/ms?msid=200882234356845070378.0004bb5ff01f2d9474e5d&msa=0&ll=41.874706,-87.653003&spn=0.034991,0.039139'>Venue + lodging map</a> </td>
   </tr>
 </table>
 
@@ -92,7 +92,7 @@ If you are driving to the meeting, see the [UIC Forum Parking and Directions](ht
 
 ## Meals
 
-A continental breakfast and lunch were provided on the [Training Day](/src/events/gcc2012/training-day/index.md), and [both days](/src/events/gcc2012/program/index.md) of the conference.
+A continental breakfast and lunch were provided on the [Training Day](/events/gcc2012/training-day/), and [both days](/events/gcc2012/program/) of the conference.
 
 The conference dinner was on July 25. The cost is included in registration. Guest dinner tickets may also be purchased when registering.
 

@@ -4,7 +4,7 @@ tease: two events from GTN target global audience.
 date: "2020-11-30"
 ---
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 Galactic Training is going Global in 2021! After the success of the ELIXIR-Europe series of Machine Learning webinars, the [Galaxy Training Network](https://training.galaxyproject.org) is scaling up and hosting two events with global reach in January and February
 
@@ -20,7 +20,7 @@ This workshop will cover introductory and advanced topics you need to know to se
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Apply now](/src/events/2021-01-admin-training/index.md)</button>
+[Apply now](/events/2021-01-admin-training/)</button>
 </div>
 
 ## February 15-19, 2021: GTN Smörgåsbord: A Global Galaxy Course
@@ -32,5 +32,5 @@ The program covers a general **introduction to the Galaxy platform**, **NGS Anal
 
 <div class="text-center">
 <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Apply now](/src/events/2021-02-smorgasbord/index.md)</button>
+[Apply now](/events/2021-02-smorgasbord/)</button>
 </div>

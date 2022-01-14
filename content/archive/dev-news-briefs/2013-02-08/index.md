@@ -59,17 +59,17 @@ Once you're on the `stable` branch, `hg pull -u` without a specific revision or 
 The new release process works as such:
 
 1. The Galaxy source repository now contains two branches:
-  1. `stable` is committed to regularly and contains important bugfixes.
-  1. `default` is committed to regularly and contains new features as well as fixes merged from `stable`.
-1. Every two months, `stable` will be updated with new features from default and a specific distribution release version will be tagged.
-1. The two weeks prior to the release will be focused on fixing bugs found in the targeted upcoming release. New features will not be considered for inclusion in the upcoming release during this time.
+    1. `stable` is committed to regularly and contains important bugfixes.
+    2. `default` is committed to regularly and contains new features as well as fixes merged from `stable`.
+2. Every two months, `stable` will be updated with new features from default and a specific distribution release version will be tagged.
+3. The two weeks prior to the release will be focused on fixing bugs found in the targeted upcoming release. New features will not be considered for inclusion in the upcoming release during this time.
 
 This process will not only allow us to deploy important bug fixes on to the `stable` branch rapidly and in between releases, it will improve the quality of our tagged releases. The documentation at our wiki reflects these changes: [getgalaxy.org](http://wiki.galaxyproject.org/Admin/Get%20Galaxy).
 
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ### New Tool Shed Features
 
@@ -82,6 +82,7 @@ Describing how this works is tricky, so let's see if we can state it in a way th
 #### The Tool Shed now Provides Sharable URLs for Repositories by Name or Owner
 
 The following new routes have been added to the Tool Shed:
+
 ```
 <tool shed url>/view/<repository owner>
 <tool shed url>/view/<repository owner>/<repository name>
@@ -90,7 +91,7 @@ The following new routes have been added to the Tool Shed:
 
 These allow for URLs that can be cited or shared, and viewing a repository will display it's sharable link.  Here's an example.
 
-![](/src/images/news-graphics/2013_02_5-sharable.png)
+![](/images/news-graphics/2013_02_5-sharable.png)
 
 Thanks to [Peter Cock](https://bitbucket.org/peterjc) for the contribution!
 
@@ -98,19 +99,19 @@ Thanks to [Peter Cock](https://bitbucket.org/peterjc) for the contribution!
 
 1. The ability to select multiple tool shed repositories for simultaneous installation has been reintroduced.  This feature was eliminated several months ago to allow for the implementation of repository dependencies.  Now choosing either of the options "Search for valid tools" or "Search for workflows" from a tool shed's pop-up menu as shown here...
 
-![](/src/images/news-graphics/2013_02_1-toolshed-search.png)
+![](/images/news-graphics/2013_02_1-toolshed-search.png)
 
 ...and entering a search string as shown here...
 
-![](/src/images/news-graphics/2013_02_2-search-string.png)
+![](/images/news-graphics/2013_02_2-search-string.png)
 
 ...will allow you to selectively install any of the repositories matching the search criteria.
 
-![](/src/images/news-graphics/2013_02_3-select-to-install.png)
+![](/images/news-graphics/2013_02_3-select-to-install.png)
 
 All repositories dependencies and tool dependencies that are defined for each repository selected for installation will be discovered and displayed in preparation for installation into your local Galaxy instance.  You can optionally elect to install these dependencies..
 
-![](/src/images/news-graphics/2013_02_4-confirm-dependency-installation.png)
+![](/images/news-graphics/2013_02_4-confirm-dependency-installation.png)
 
 ### Tool Shed Related Fixes
 
@@ -133,14 +134,16 @@ All repositories dependencies and tool dependencies that are defined for each re
 <br />
 # Tools
 
-1. Enable [BedGraph](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph) format datasets to be used as input to `wig-to-bigwig` tool. 
-  * Renamed tool as: `Wig/Bedgraph-to-bigwig`.
+1. Enable [BedGraph](http://wiki.galaxyproject.org/Learn/Datatypes#BedGraph) format datasets to be used as input to `wig-to-bigwig` tool.
+
+* Renamed tool as: `Wig/Bedgraph-to-bigwig`.
+
 2. #2 Add parameter to `Filter` tool to optionally skip header lines. Add test for new parameter usage as well.
 
 <br />
 # Data
 
-1. **Megablast** indexes for the divisions `nt`, `htgs`, and `wgs` have been updated on the public [Main](/src/main/index.md) Galaxy server dated `28jan2013`.
+1. **Megablast** indexes for the divisions `nt`, `htgs`, and `wgs` have been updated on the public [Main](/main/) Galaxy server dated `28jan2013`.
 2. **NGS Data Set-up** wiki updated and simplified. [View here...](http://wiki.galaxyproject.org/Admin/NGS Local Setup)
 3. **Rsync** server hosts download of the same `.loc` files used by the Galaxy team (to be used as additional examples, or starter files if you use our rsync reference genome data. [Read more...](http://wiki.galaxyproject.org/Admin/Data%20Integration#Get_the_data)
 
@@ -160,8 +163,9 @@ All repositories dependencies and tool dependencies that are defined for each re
 # Workflows
 
 1. Exporting workflows:
-  * Remove spurious header.
-  * Add option to create workflow image.
+
+* Remove spurious header.
+* Add option to create workflow image.
 
 <br />
 # Histories
@@ -177,7 +181,7 @@ All repositories dependencies and tool dependencies that are defined for each re
 <br />
 # Framework
 
-1. Unified system genome builds, custom builds, build len files, and build two bit files into a single python structure. 
+1. Unified system genome builds, custom builds, build len files, and build two bit files into a single python structure.
 2. Add function to get genome builds with or without build length information.
 3. Fix bugs so that the full build set (system + custom) is available via the API and when adding datasets to libraries.
 
@@ -230,20 +234,20 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Announcements
 
-[News](/src/news/index.md), ***[February 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-02)***
+[News](/news/), ***[February 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-02)***
 
 ## GCC2013
 
-<div class='right'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a> <br />
-<a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
+<div class='right'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a> <br />
+<a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013TrainingDayLogo200.png" alt="2013 Galaxy Community Conference (GCC2013) Training Day" width="150" /></a></div>
 
 ### Training Day Topic Voting Closes 11 February
 
-If you might attend the [GCC2013 Training Day](/src/events/gcc2013/training-day/index.md) then please [review the possible topics](/src/events/gcc2013/training-day/index.md#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
+If you might attend the [GCC2013 Training Day](/events/gcc2013/training-day/) then please [review the possible topics](/events/gcc2013/training-day/#topics) and then [vote for your top 3 choices](http://bit.ly/gcc2013tdpoll).  Your votes will determine not only the topics that are offered, but also which topics should be offered more than once, assigned to which rooms, and which ones should not be scheduled at the same time.  Your vote matters.
 
 ### Registration, Talk & Poster Submission Opens 22 February
 
-[Early Registration](/src/events/gcc2013/register/index.md), and [talk and poster abstract submission](/src/events/gcc2013/abstracts/index.md) all [open 22 February](/src/events/gcc2013/key-dates/index.md).  Watch the mailing lists and this wiki for details.
+[Early Registration](/events/gcc2013/register/), and [talk and poster abstract submission](/events/gcc2013/abstracts/) all [open 22 February](/events/gcc2013/key-dates/).  Watch the mailing lists and this wiki for details.
 
 ----
 <br />
@@ -251,7 +255,7 @@ If you might attend the [GCC2013 Training Day](/src/events/gcc2013/training-day/
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

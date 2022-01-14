@@ -1,25 +1,27 @@
-# Data Preparation
+---
+title: Data Preparation
+---
 
-**Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see [Data Managers Overview](/src/admin/tools/data-managers/index.md)** and our **[Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)**.
+**Please note that "built-in" or "cached" data can now be managed directly from within the Galaxy admin interface. For details, see [Data Managers Overview](/admin/tools/data-managers/)** and our **[Data Managers Tutorial](https://github.com/galaxyproject/dagobah-training/blob/2017-montpellier/sessions/05-reference-genomes/ex1-reference-genomes.md)**.
 
-**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](/src/admin/tools/data-managers/index.md) are recommended to index new genomes (these are found in the [ToolShed](/src/toolshed/index.md). *This wiki is considered legacy and provided as a reference.***
+**NOTE: Be aware that that as of early 2014, builds are incorporated into the Galaxy schema in tables. [Data Managers](/admin/tools/data-managers/) are recommended to index new genomes (these are found in the [ToolShed](/toolshed/). *This wiki is considered legacy and provided as a reference.***
 
 # Builds list changes
 
-If you still choose to do this manually, follow the instructions at [Data Integration](/src/admin/data-integration/index.md) to start, (**impact**: more than just a builds.txt file is needed to establish a new reference genome), making certain that your server has the necessary changes/additions to the [Data Tables](/src/admin/tools/Data%20Tables.md) model or use the alternate configuration file, then follow the guide here for the organization and execution of **data preparation** tasks in a local or cloud instance. 
+If you still choose to do this manually, follow the instructions at [Data Integration](/admin/data-integration/) to start, (**impact**: more than just a builds.txt file is needed to establish a new reference genome), making certain that your server has the necessary changes/additions to the [Data Tables](/admin/tools/data-tables/) model or use the alternate configuration file, then follow the guide here for the organization and execution of **data preparation** tasks in a local or cloud instance.
 
 # Data and indexes hosted at http://usegalaxy.org
 
-Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](/src/main/index.md)** instance. All options are described here http://datacache.galaxyproject.org/. More details about the rsync server and the contents is at **[Usegalaxy.org Rsync](/src/admin/use-galaxy-rsync/index.md)**.
+Using the Galaxy team's version of reference genomes and indexes can often be a good strategy for those working with both a local and the public **[Main](/main/)** instance. All options are described here http://datacache.galaxyproject.org/. More details about the rsync server and the contents is at **[Usegalaxy.org Rsync](/admin/use-galaxy-rsync/)**.
 
 ## What's in this wiki ?
 
 **This wiki shows you how to organize, index, and link in your local built-in data for the most commonly used tools.**
 Galaxy's web tool forms are each a web-accessible input wrapper that interacts with one or more underlying tools. Many require that reference data be indexed in a specific way as an one of the inputs, whether specifically selected on the form by the user or interpreted from the other input's metadata (specifically, the "database" attribute, or **dbkey**).
 
-Although a reference genome can be used from the history with most tools (see [Custom Genomes](/src/learn/custom-genomes/index.md)), this is a resource intensive process, and local built-in indexes mean quicker job execution and reduced server load. 
+Although a reference genome can be used from the history with most tools (see [Custom Genomes](/learn/custom-genomes/)), this is a resource intensive process, and local built-in indexes mean quicker job execution and reduced server load.
 
-The link between a tool and built-in data is a configurable `".loc"` file. 
+The link between a tool and built-in data is a configurable `".loc"` file.
 
 ## Setting up Tools and Reference Data
 
@@ -47,15 +49,15 @@ The how-to is below, but this section gives a quick overview by tool or tool gro
 
 For tools from the "Fastx Toolkit", go to the [http://hannonlab.cshl.edu/fastx_toolkit](http://hannonlab.cshl.edu/fastx_toolkit) web site for the current download and instructions.
 
-Two other common dependencies are "rpy" (a Python library) and "R". Start with rpy first. Check if R was built with the `--enable-R-shlib` option if you run into problems (unlikely, this is default in pre-compiled binaries). Go to [http://rpy.sourceforge.net](http://rpy.sourceforge.net) and [http://www.r-project.org](http://www.r-project.org) for the current download and instructions. 
+Two other common dependencies are "rpy" (a Python library) and "R". Start with rpy first. Check if R was built with the `--enable-R-shlib` option if you run into problems (unlikely, this is default in pre-compiled binaries). Go to [http://rpy.sourceforge.net](http://rpy.sourceforge.net) and [http://www.r-project.org](http://www.r-project.org) for the current download and instructions.
 
 #### Bowtie/Bowtie2 installation
 
-To install Bowtie and/or Bowtie2, go to the [http://bowtie-bio.sourceforge.net/index.shtml](http://bowtie-bio.sourceforge.net/index.shtml) or [http://sourceforge.net/projects/bowtie-bio/files/bowtie2](http://sourceforge.net/projects/bowtie-bio/files/bowtie2). Download (source or binary) and follow the instructions per tool. 
+To install Bowtie and/or Bowtie2, go to the [http://bowtie-bio.sourceforge.net/index.shtml](http://bowtie-bio.sourceforge.net/index.shtml) or [http://sourceforge.net/projects/bowtie-bio/files/bowtie2](http://sourceforge.net/projects/bowtie-bio/files/bowtie2). Download (source or binary) and follow the instructions per tool.
 
 #### BWA installation
 
-To install BWA, download the source from [http://bio-bwa.sourceforge.net](http://bio-bwa.sourceforge.net). To install, open the archive and run `make` in the new BWA directory. 
+To install BWA, download the source from [http://bio-bwa.sourceforge.net](http://bio-bwa.sourceforge.net). To install, open the archive and run `make` in the new BWA directory.
 
 #### LASTZ installation
 
@@ -67,11 +69,11 @@ The Extract tool is downloaded from [http://genome.ucsc.edu](http://genome.ucsc.
 
 #### Megablast installation
 
-Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml)). See [dependencies wiki](/src/admin/tools/ToolDependencies/index.md) for current version then [download blast+](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download). Many data indexes are available directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/)
+Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml)). See [dependencies wiki](/admin/config/tool-dependencies/) for current version then [download blast+](http://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download). Many data indexes are available directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/)
 
 #### Picard/SRMA installation
 
-SRMA is a Java program that relies on Picard, a Java implementation of C Samtools. SRMA is available from the [Sourceforge SRMA project](https://sourceforge.net/projects/srma/files/). The SRMA jar file should be named `srma.jar` and placed in `$GALAXY_PATH/tool-data/shared/jars`. If you want to compile SRMA from source, you will also need to install Picard ([Sourceforge Picard project](http://sourceforge.net/projects/picard/files/)) and extract it into the lib directory of the SRMA directory. You can get more info on SRMA from [its wiki](http://sourceforge.net/apps/mediawiki/srma/index.php?title=Main_Page). 
+SRMA is a Java program that relies on Picard, a Java implementation of C Samtools. SRMA is available from the [Sourceforge SRMA project](https://sourceforge.net/projects/srma/files/). The SRMA jar file should be named `srma.jar` and placed in `$GALAXY_PATH/tool-data/shared/jars`. If you want to compile SRMA from source, you will also need to install Picard ([Sourceforge Picard project](http://sourceforge.net/projects/picard/files/)) and extract it into the lib directory of the SRMA directory. You can get more info on SRMA from [its wiki](http://sourceforge.net/apps/mediawiki/srma/index.php?title=Main_Page).
 
 (Note that there also is a C version of SRMA, but the Galaxy team does not use it as of the last page edit.)
 
@@ -85,6 +87,7 @@ SAM Tools is highly recommended, if not actually considered required, for every 
 ## Setting Up the Reference Genomes for NGS Tools
 
 There are three key steps:
+
 1. Obtain the data
 1. Index or prepare it
 1. Modify the associate .loc file (this tells Galaxy how to find/use it)
@@ -95,9 +98,9 @@ Build names need to exactly match existing build names in `$GALAXY_PATH/tool-dat
 
 ### Tools and Their Corresponding loc Files
 
-The following table shows the name of the loc file associated with each tool. 
+The following table shows the name of the loc file associated with each tool.
 
-<table>
+<table class="compact">
   <tr>
     <th> Tool      </th>
     <th> XML File                                                    </th>
@@ -165,9 +168,10 @@ There is a sample file for each of these files, with `.sample` appended to the f
 
 ### Organizing Index Files
 
-The best way to organize the various index files is to have dedicated directories for each build that contains a directory for each NGS tool, which then contains the actual index files. 
+The best way to organize the various index files is to have dedicated directories for each build that contains a directory for each NGS tool, which then contains the actual index files.
 
 A structure like this is recommended:
+
 ```
 $BASE_PATH/
     hg18/
@@ -208,11 +212,11 @@ $BASE_PATH/
 
 #### Generating Indices
 
-Instructions are for both Bowtie/Tophat and Bowtie2/Tophat2. 
+Instructions are for both Bowtie/Tophat and Bowtie2/Tophat2.
 
-*Bowtie and Tophat use the same index set, and Bowtie2 and Tophat2 use the same index set, **but** Bowtie/Tophat and Bowtie2/Tophat2 **do not** use the same index set.* 
+*Bowtie and Tophat use the same index set, and Bowtie2 and Tophat2 use the same index set, **but** Bowtie/Tophat and Bowtie2/Tophat2 **do not** use the same index set.*
 
-Know what tools are you evoking and which indexes are being accessed by that tool based on the `.loc` file contents. If your tools are giving errors after a data update or at first usage, *review the wrapper and tool versions against the indexes used in the error message to verify!* 
+Know what tools are you evoking and which indexes are being accessed by that tool based on the `.loc` file contents. If your tools are giving errors after a data update or at first usage, *review the wrapper and tool versions against the indexes used in the error message to verify!*
 
 Have Bowtie and/or Bowtie2 installed and in your `$PATH`.
 Also have Tophat and/or Tophat2 installed and in your `$PATH` so that you can test the tools on the command-line for simple installation checks or for use later on in Galaxy.
@@ -220,23 +224,26 @@ Also have Tophat and/or Tophat2 installed and in your `$PATH` so that you can te
 Usage: `bowtie-build [option] index_basename.fa index_basename `
 (where `index_basename.fa` is your input reference genome in fasta format)
 
-The Galaxy team uses the ` [option] ` **-f** to create indexes, for example: 
+The Galaxy team uses the ` [option] ` **-f** to create indexes, for example:
+
 ```
 bowtie-build -f hg19.fa hg19
 ```
 
 or
+
 ```
 bowtie2-build -f hg19.fa hg19
 ```
 
-The ` [option] ` **-C** would be used instead to create color indexes for Bowtie/Tophat. *Please note that Bowtie2/Tophat2 [do not support colorspace reads](http://bowtie-bio.sourceforge.net/bowtie2/faq.shtml).* Confused? Type `bowtie-build` or `bowtie2-build` at the command prompt to view the usage and see the manual: 
-Bowtie: [http://bowtie-bio.sourceforge.net/manual.shtml](http://bowtie-bio.sourceforge.net/manual.shtml) 
-Bowtie2: [http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml) 
+The ` [option] ` **-C** would be used instead to create color indexes for Bowtie/Tophat. *Please note that Bowtie2/Tophat2 [do not support colorspace reads](http://bowtie-bio.sourceforge.net/bowtie2/faq.shtml).* Confused? Type `bowtie-build` or `bowtie2-build` at the command prompt to view the usage and see the manual:
+Bowtie: [http://bowtie-bio.sourceforge.net/manual.shtml](http://bowtie-bio.sourceforge.net/manual.shtml)
+Bowtie2: [http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml](http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml)
 
-Put Bowtie/Bowtie2 indexes and color/non-color indexes in *distinct directories*. That means up to ***3** distinct directories* for a full set per reference genome version. But you may only need **1** or **2**. 
+Put Bowtie/Bowtie2 indexes and color/non-color indexes in *distinct directories*. That means up to ***3** distinct directories* for a full set per reference genome version. But you may only need **1** or **2**.
 
 The index files that will be created for Bowtie are:
+
 * `index_basename.1.ebwt`
 * `index_basename.2.ebwt`
 * `index_basename.3.ebwt`
@@ -245,6 +252,7 @@ The index files that will be created for Bowtie are:
 * `index_basename.rev.2.ebwt`
 
 The index files that will be creates for Bowtie2 are:
+
 * `index_basename.1.bt2`
 * `index_basename.2.bt2`
 * `index_basename.3.bt2`
@@ -256,9 +264,9 @@ The index files that will be creates for Bowtie2 are:
 
 * Know where the data is
 * Know where the `bowtie_index.loc`, `bowtie_index_color.loc`, and `bowtie2_index.loc` files comes from and where they should be placed to be used
-  * initially are named `/galaxy-dist/tool-data/bowtie_index.loc.sample`, (`/galaxy-dist/tool-data/bowtie_index_color.loc.sample`, and `/galaxy-dist/tool-data/bowtie2_index.loc.sample`
-  * from the Tool Shed repository
-  * to your Galaxy instance
+    * initially are named `/galaxy-dist/tool-data/bowtie_index.loc.sample`, (`/galaxy-dist/tool-data/bowtie_index_color.loc.sample`, and `/galaxy-dist/tool-data/bowtie2_index.loc.sample`
+    * from the Tool Shed repository
+    * to your Galaxy instance
 * Follow instructions in sample file to add in rows for each database. One row per database.
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
@@ -275,9 +283,10 @@ Usage: `bwa index [options] <reference_in>`
 
 The Galaxy team uses the option `-a bwtsw` to create indexes.
 
-The manual is here: [BWA manual](http://bio-bwa.sourceforge.net/bwa.shtml). 
+The manual is here: [BWA manual](http://bio-bwa.sourceforge.net/bwa.shtml).
 
 The following index files will be created for the FASTA file `name.fasta`:
+
 * `reference_in.fasta.amb`
 * `reference_in.fasta.ann`
 * `reference_in.fasta.bwt`
@@ -285,6 +294,7 @@ The following index files will be created for the FASTA file `name.fasta`:
 * `reference_in.fasta.sa`
 
 Note: that if using BWA version earlier than 5.10, you will also see the following *reverse* index files:
+
 * `reference_in.fasta.rbwt`
 * `reference_in.fasta.rpac`
 * `reference_in.fasta.rsa`
@@ -293,9 +303,9 @@ Note: that if using BWA version earlier than 5.10, you will also see the followi
 
 * Know where the data is
 * Know where the `bwa_index.loc` file comes from and where it should be placed to be used
-  * initially are named (`/galaxy-dist/tool-data/bwa_index.loc.sample` and (`/galaxy-dist/tool-data/bwa_index_color.loc.sample`
-  * from the Tool Shed repository
-  * to your Galaxy instance
+    * initially are named (`/galaxy-dist/tool-data/bwa_index.loc.sample` and (`/galaxy-dist/tool-data/bwa_index_color.loc.sample`
+    * from the Tool Shed repository
+    * to your Galaxy instance
 * Follow instructions in sample file to add in rows for each database. One row per database.
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
@@ -313,6 +323,7 @@ Usage: `samtools faidx <ref.fasta> [region1 [...]]`
 No special options are needed.
 
 The following index files will be created for the FASTA file `name.fasta`:
+
 * `ref.fasta.fai`
 
 Place a relative symbolic link to the original FASTA file in the same location as the sam index (or the original file), making sure the original FASTA file can be read by the Galaxy user. The Galaxy team uses a symbolic link to both organize files (placing the FASTA in a distinct directory) and to reduce data duplication. Creating a structure like:
@@ -330,28 +341,29 @@ Place a relative symbolic link to the original FASTA file in the same location a
 
 * Know where the data is
 * Know where the `sam_fa_index.loc` file comes from and where it should be placed to be used
-  * initially is named (`/galaxy-dist/tool-data/sam_fa_index.loc.sample`
-  * from the distribution
-  * to your Galaxy instance
+    * initially is named (`/galaxy-dist/tool-data/sam_fa_index.loc.sample`
+    * from the distribution
+    * to your Galaxy instance
 * Follow instructions in sample file to add in rows for each database. One row per database.
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
 * You can make sure the file was created correctly by restarting the server and a tool from the **SAM Tools** tool set. Input datasets should have a database assigned that corresponds to a database having a sam index.
-* Test the new database(s) by running a few datasets through tools. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset-icons-text)). 
+* Test the new database(s) by running a few datasets through tools. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/learn/managing-datasets/#dataset-icons-text)).
 
 ### LASTZ and EXTRACT Genomic DNA
 
 Have LASTZ installed in your `$PATH`, although it is not needed for creating indexes, you will need it for testing/using the tool.
-The LASTZ and 'Extract Genomic DNA' tools both use a .2bit compressed file representing a reference genome. If the data is sourced from [UCSC](http://genome.ucsc.edu/), this can often just be downloaded. 
-If from another source, use the FASTA file as input and have twoBitToFa installed in your `$PATH`. 
-twoBitToFa is available from [UCSC](http://genome.ucsc.edu/) as a precompiled binary if needed, see the *Downloads* link on left side bar. 
-Usage: twoBitToFa ref.2bit ref.fasta 
-Type tool at command prompt for more usage details. 
+The LASTZ and 'Extract Genomic DNA' tools both use a .2bit compressed file representing a reference genome. If the data is sourced from [UCSC](http://genome.ucsc.edu/), this can often just be downloaded.
+If from another source, use the FASTA file as input and have twoBitToFa installed in your `$PATH`.
+twoBitToFa is available from [UCSC](http://genome.ucsc.edu/) as a precompiled binary if needed, see the *Downloads* link on left side bar.
+Usage: twoBitToFa ref.2bit ref.fasta
+Type tool at command prompt for more usage details.
 
 The following index files will be created for the FASTA file `name.fasta`:
+
 * `ref.2bit`
 
-The Galaxy team places the .2bit file in the same location as the original fasta FASTA file to stay organized, such as: 
+The Galaxy team places the .2bit file in the same location as the original fasta FASTA file to stay organized, such as:
 
 ```
 /ref/seq/ref.2bit 
@@ -363,38 +375,38 @@ The Galaxy team places the .2bit file in the same location as the original fasta
 
 * Know where the data is
 * Know where the `lastz_seqs.loc` and `alignseq.loc` files comes from and where they should be placed to be used
-  * initially are named (`/galaxy-dist/tool-data/lastz_seqs.loc.sample` and (`/galaxy-dist/tool-data/alignseq.loc.sample`
-  * lastz comes from the Tool Shed and `alignseq.loc` is one of the key configuration files from the distribution (used for many purposes)
-  * to your Galaxy instance
+    * initially are named (`/galaxy-dist/tool-data/lastz_seqs.loc.sample` and (`/galaxy-dist/tool-data/alignseq.loc.sample`
+    * lastz comes from the Tool Shed and `alignseq.loc` is one of the key configuration files from the distribution (used for many purposes)
+    * to your Galaxy instance
 * Follow instructions in sample file to add in rows for each database. One row per database.
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host if you are altering an existing .loc
-* Restarting the server 
+* Restarting the server
 * You can make sure the `lastz_seqs.loc` is correct by opening up the LASTZ tool, and checking the dropdown menu of genomes. Test the new database(s) by running a few sequences that you expect to have hits with default parameters.
-* You can make sure the `alignseq.loc` is correct by loading a simple [BED](/src/learn/datatypes/index.md#bed) file of coordinates that you know will pull regions from the target genome as a dataset, assigning the database as the reference genome that you are testing, and running the tool. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/src/learn/managing-datasets/index.md#dataset-icons-text)). 
+* You can make sure the `alignseq.loc` is correct by loading a simple [BED](/learn/datatypes/#bed) file of coordinates that you know will pull regions from the target genome as a dataset, assigning the database as the reference genome that you are testing, and running the tool. Change dataset database assignments using the "Edit Attributes" form ([pencil icon](/learn/managing-datasets/#dataset-icons-text)).
 
 ### Megablast
 
 Have Megablast installed in your `$PATH`, although it is not needed for creating indexes, you will need it for testing/using the tool.
-Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml)). 
+Megablast in Galaxy was updated to use [NCBI BLAST+](http://blast.ncbi.nlm.nih.gov) (`BLASTN`) in April 2012 (changeset [0b5cb60e4810](https://bitbucket.org/galaxy/galaxy-central/changeset/0b5cb60e4810#chg-tools/metag_tools/megablast_wrapper.xml)).
 Get the indexes: download directly at NCBI from [ftp://ftp.ncbi.nlm.nih.gov/blast/db/](ftp://ftp.ncbi.nlm.nih.gov/blast/db/).
 Create your own, Usage: `formatdb -i <database>.fa -p F -n "<database>" -v 2000`
 
-The Galaxy [Main](/src/main/index.md) public instance uses htgs, wgs, and nt from NCBI.
+The Galaxy [Main](/main/) public instance uses htgs, wgs, and nt from NCBI.
 
-Put the data files in an organized hierarchy such as: 
+Put the data files in an organized hierarchy such as:
  ` /galaxy-dist/tool-data/blast/<div>/<date>/<date_div>.* `
 or
  ` /galaxy-dist/tool-data/blast/<date_db>.* `
 
 #### Setting Up loc Files
 
-* Know where the data is 
+* Know where the data is
 * Know where the `blastdb.loc` file is located (`/galaxy-dist/tool-data/blastdb.loc.sample` is default)
 * Follow instructions in sample file to add in rows for each database. One row per database.
 * Remove the ".sample" from the file name if this is the first time you are using it
 * Remove any rows for databases that you no longer want to host
-* You can make sure the file was created correctly by restarting the server and opening up the Megablast page, where you should see the list of databases you added. 
+* You can make sure the file was created correctly by restarting the server and opening up the Megablast page, where you should see the list of databases you added.
 * Test the databases by running a few of the sequence from the same database against themselves through the UI (self-hits) with simple filtering set to "no" (-F F). (Load a few .fa sequences as a dataset -> run tool).
 
 ### SRMA

@@ -4,9 +4,9 @@ date: "2015-02-03"
 ---
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='https://galaxyproject.org/gcc2011/'><img src="/src/events/GCC2011Logo400.png" alt="" width="200" /></a>&nbsp;&nbsp; <br /><br /><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="190" /></a>&nbsp;&nbsp;&nbsp; </td>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2014/index.md'><img src="/src/images/logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="220" /></a>&nbsp;&nbsp;&nbsp;<br /><br /> <a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" /></a>&nbsp;&nbsp;&nbsp;  </td>
-    <td style=" text-align: center; border: none;"> <a href='http://gcc2015.tsl.ac.uk/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="200" /></a><br /><br /><div class='solid red'> <span style="font-size: larger;"> <strong>GCC2016 <br />needs a host!</strong><br /></span> <span style="font-size: smaller;">(and a logo)</span> </td>
+    <td style=" text-align: center; border: none;"> <a href='https://galaxyproject.org/gcc2011/'><img src="/events/GCC2011Logo400.png" alt="" width="200" /></a>&nbsp;&nbsp; <br /><br /><a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" width="190" /></a>&nbsp;&nbsp;&nbsp; </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2014/'><img src="/images/logos/GCC2014LogoWide200.png" alt="GCC2014, June 30-July2" width="220" /></a>&nbsp;&nbsp;&nbsp;<br /><br /> <a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="220px" /></a>&nbsp;&nbsp;&nbsp;  </td>
+    <td style=" text-align: center; border: none;"> <a href='http://gcc2015.tsl.ac.uk/'><img src="/images/logos/GCC2015LogoWide600.png" alt="2015 Galaxy Community Conference (GCC2015)" width="200" /></a><br /><br /><div class='solid red'> <span style="font-size: larger;"> <strong>GCC2016 <br />needs a host!</strong><br /></span> <span style="font-size: smaller;">(and a logo)</span> </td>
   </tr>
 </table>
 
@@ -20,6 +20,7 @@ The Galaxy Community Conference has been held annually since 2010.  [This year's
 GCC draws 200+ participants from data-intensive life science research.  Participants come from around the world, from all career stages, and do research spanning the tree of life.  Universities, hospitals and medical schools, research organizations, and industry are all represented, including the largest and most influential organizations in the world.  
 
 What do we need to host GCC, you ask?  In approximately decreasing order of importance:
+
 * **Enthusiasm to plan and organize a 3+ day event for more than 200 people.**
 * Space for 4-6 parallel Training Day sessions, each able to accommodate from 25 to 75 participants.
 * Central meeting space with capacity for 250-300 people.
@@ -36,4 +37,4 @@ Hosts get copious (and enthusiastic) organizational support from Galaxy's Outrea
 
 Hoping to work with you in 2016!
 
-[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

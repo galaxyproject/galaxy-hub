@@ -1,14 +1,14 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://niehs.nih.gov/'><img src="/src/images/logos/NIEHSLogoWideTrans.png" alt="NIEHS" width="400px" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://niehs.nih.gov/'><img src="/images/logos/NIEHSLogoWideTrans.png" alt="NIEHS" width="400px" /></a> </td>
   </tr>
 </table>
 
 
 <div class='title'>Galaxy<br />July 18, 2013</div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+**Instructor: [Dave Clements](/people/dave-clements/)
 
 9:00-5:00<br />
 NIEHS Rall Room 101/A262<br />
@@ -93,15 +93,15 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='left'><a href='/src/events/rt-workshop-tour2013/index.md'><img src="/src/images/logos/RTGalaxyWorkshopTour2013-300.png" alt="2013 Research Triangle Galaxy Workshop Tour" width="170px" /></a></div>
+<div class='left'><a href='/events/rt-workshop-tour2013/'><img src="/images/logos/RTGalaxyWorkshopTour2013-300.png" alt="2013 Research Triangle Galaxy Workshop Tour" width="170px" /></a></div>
 
-<div class='right'><a href='http://niehs.nih.gov/'><img src="/src/images/logos/NIEHSLogoWideTrans.png" alt="NIEHS" width="240px" /></a><br /><br />
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://niehs.nih.gov/'><img src="/images/logos/NIEHSLogoWideTrans.png" alt="NIEHS" width="240px" /></a><br /><br />
+<div class='right'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 </div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [National Institute of Environmental Health Sciences](http://niehs.nih.gov/).
 
-This workshop is also part of the [NIEHS](http://niehs.nih.gov/) *2013 Introduction to Biostatistics and Bioinformatics Summer Short Courses* series and the [2013 Research Triangle Galaxy Workshop Tour](/src/events/rt-workshop-tour2013/index.md).
+This workshop is also part of the [NIEHS](http://niehs.nih.gov/) *2013 Introduction to Biostatistics and Bioinformatics Summer Short Courses* series and the [2013 Research Triangle Galaxy Workshop Tour](/events/rt-workshop-tour2013/).
 
 ## Slides
 

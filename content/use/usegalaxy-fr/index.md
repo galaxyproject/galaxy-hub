@@ -8,7 +8,7 @@ platforms:
     platform_text: "French Galaxy Server"
     platform_location: FR
 summary: "General purpose genomics Galaxy server"
-image: "/src/use/usegalaxy-fr/usegalaxy-fr-logo.png"
+image: "/use/usegalaxy-fr/usegalaxy-fr-logo.png"
 comments:
   - "A public Galaxy instance "
 user_support:

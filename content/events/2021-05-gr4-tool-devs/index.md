@@ -30,6 +30,7 @@ This webinar will highlight Galaxy resources for **tool developers**.  It's part
 Galaxy is an excellent platform for increasing the visibility and use of computational tools in any domain that Galaxy has been applied to.  If you develop computational analysis or visualization tools then this webinar will demonstrate how porting your tools to Galaxy can [significantly increase](https://doi.org/10.1101/2020.11.16.385211) their visibility and adoption.
 
 This webinar will highlight
+
 * **Why Galaxy?**  How integrating with the Galaxy ecosystem impacts your tools's visibility.
 * **Bioconda and the Galaxy Toolshed**.  Wrapping your tool for Galaxy enables any Galaxy admin to easily install your tools.
 * **Docker**.  Many groups make their tools easy to use by creating a Docker image that runs Galaxy and already has their tools, and example data and analysis already installed.

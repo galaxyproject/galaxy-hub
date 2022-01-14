@@ -2,7 +2,7 @@
 title: Supported Python versions
 ---
 
-Galaxy's core functionality is currently supported on Python **3.5** and **3.6**.
+Galaxy's core functionality is currently supported on Python **3.6** or newer.
 
 If Galaxy complains about the version of Python you are using:
 
@@ -38,9 +38,11 @@ If Galaxy complains about the version of Python you are using:
               ```
 
 4. Remove compiled mako templates when upgrading from Python 2:
+
      ```sh
      % rm -rf /path/to/galaxy/database/compiled_templates/
      ```
+
    These templated will be regenerated automatically when starting Galaxy.
 
 5. Start Galaxy again.

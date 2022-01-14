@@ -6,7 +6,7 @@ Here you will find information on obtaining and setting up a Galaxy instance wit
 # Requirements
 
 * UNIX/Linux or Mac OSX
-* [Python 3.6 or newer](/src/admin/python/index.md)
+* [Python 3.6 or newer](/admin/python/)
 
 # Get Started
 
@@ -19,14 +19,15 @@ If setting up or running a production Galaxy service or creating your own person
 If you do not have a Galaxy repository yet or you do not want to update the existing instance, run:
 
 ```
-$ git clone -b release_21.01 https://github.com/galaxyproject/galaxy.git
+$ git clone -b release_21.09 https://github.com/galaxyproject/galaxy.git
 ```
+
 ### Updating existing
 
 If you have an existing Galaxy repository and want to update it, run:
 
 ```
-$ git fetch origin && git checkout release_21.01 && git pull --ff-only origin release_21.01
+$ git fetch origin && git checkout release_21.09 && git pull --ff-only origin release_21.09
 ```
 
 
@@ -68,7 +69,7 @@ http: 0.0.0.0
 
 ## Become an Admin
 
-To control Galaxy through the UI (installing tools, managing users, creating groups, etc.), user must become an [administrator](/src/admin/index.md). Only registered users can become admins. To give a user admin privileges add the user's Galaxy login email to the configuration file `config/galaxy.yml`. If you don't have the file set it up using the instructions [above](#configure). The entry looks like this:
+To control Galaxy through the UI (installing tools, managing users, creating groups, etc.), user must become an [administrator](/admin/). Only registered users can become admins. To give a user admin privileges add the user's Galaxy login email to the configuration file `config/galaxy.yml`. If you don't have the file set it up using the instructions [above](#configure). The entry looks like this:
 
 ```
 # this should be a comma-separated list of valid Galaxy users
@@ -76,18 +77,18 @@ admin_users: user1@example.com,user2@example.com
 ```
 
 <div class="alert alert-info" role="alert">
-You need to restart Galaxy after configuration file changes.
+You need to restart Galaxy after configuration file changes. Make sure that you have registered and logged in as the admin user.
 </div>
 
 ## Install Tools
 
-Galaxy comes with a small set of basic tools pre-installed. To install additional tools, follow the instructions on [Installing tools into Galaxy from the Tool Shed](/src/admin/tools/add-tool-from-toolshed-tutorial/index.md).
+Galaxy comes with a small set of basic tools pre-installed. To install additional tools, follow the instructions on [Installing tools into Galaxy from the Tool Shed](/admin/tools/add-tool-from-toolshed-tutorial/).
 
 ## Join the Discussion
 
 To stay up-to-date on new Galaxy features and bug fixes, as well as to discuss future features, consider joining
 
-* the [Galaxy Developers mailing list](https://lists.galaxyproject.org/lists/galaxy-dev.lists.galaxyproject.org/). (See [Mailing Lists](/src/mailing-lists/index.md) for other options.)
+* the [Galaxy Developers mailing list](https://lists.galaxyproject.org/lists/galaxy-dev.lists.galaxyproject.org/). (See [Mailing Lists](/mailing-lists/) for other options.)
 * the [Galaxy Gitter Channel](https://gitter.im/galaxyproject/Lobby) for a chat-based interface.
 
 ## Keep your instance backed up
@@ -98,7 +99,7 @@ Like any other application, Galaxy directories and Galaxy database tables should
 
 The above instructions are intended for users wishing to develop Galaxy tools and Galaxy itself. To deploy a production-ready installation of Galaxy, some changes from the default configuration are highly recommended. If nothing else, switching to PostgreSQL database (from the default SQLite) is heavily endorsed to prevent database locking issues that can arise with multiple users.
 
-Please see the [Running Galaxy in a production environment](/src/admin/config/performance/production-server/index.md) page for more details.
+Please see the [Running Galaxy in a production environment](/admin/config/performance/production-server/) page for more details.
 
 ## Keep your code up to date
 
@@ -124,9 +125,10 @@ If `git log` produces no output, Galaxy is up-to-date. If `git log` produces a l
 ```
 $ git pull
 ```
+
 <div class="alert alert-info trim-p" role="alert">
 
-**Note**: After pulling changes, the Galaxy server needs to be stopped and restarted with the updated code. Restarting will interrupt any running jobs unless you are using a cluster configuration. For more information on how to make Galaxy restartable without interrupting users, see the [production server documentation](/src/admin/config/performance/production-server/index.md).
+**Note**: After pulling changes, the Galaxy server needs to be stopped and restarted with the updated code. Restarting will interrupt any running jobs unless you are using a cluster configuration. For more information on how to make Galaxy restartable without interrupting users, see the [production server documentation](/admin/config/performance/production-server/).
 
 </div>
 
@@ -165,9 +167,9 @@ Restore the fresh backup if a database update was required, and then restart Gal
 
 * The basic Galaxy install is a single-user instance and is only accessible by the local user. As with many web-based applications, enable cookies in the web-browser for full functionality.
 
-* A common practice when using any web browser is to stay current with software updates to maximize performance and security. If moving forward to [production server](/src/admin/config/performance/production-server/index.md) with login enabled, please make sure you and your end-users are current.
+* A common practice when using any web browser is to stay current with software updates to maximize performance and security. If moving forward to [production server](/admin/config/performance/production-server/) with login enabled, please make sure you and your end-users are current.
 
-* Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](/src/admin/config/tool-dependencies/index.md).
+* Some tools shipped with Galaxy have dependencies that need to be satisfied manually. Please see details [here](/admin/config/tool-dependencies/).
 
 # Additional Info
 
@@ -186,12 +188,14 @@ If you're doing development or making changes to Galaxy, it is best practice to 
 Below are simplified instructions for shutting down local Galaxy server. If your configuration is more complicated, getting help from an administrator is recommended.
 
 ### The Galaxy process is running in the background
-  * If Galaxy was the last process running within a terminal window, bring it into the foreground with the command `fg` and shut down with `Ctrl-c`.
-  * If Galaxy is one of many processes running in the background within a terminal window, find it with the command `jobs`. The list of jobs will be numbered. Bring the Galaxy job to the foreground with the command `fg <number_of_the_job>` and shut down with `Ctrl-c`.
+
+* If Galaxy was the last process running within a terminal window, bring it into the foreground with the command `fg` and shut down with `Ctrl-c`.
+* If Galaxy is one of many processes running in the background within a terminal window, find it with the command `jobs`. The list of jobs will be numbered. Bring the Galaxy job to the foreground with the command `fg <number_of_the_job>` and shut down with `Ctrl-c`.
 
 ### I have lost the terminal window running Galaxy
-  * From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named similiar to `/path/to/galaxy/.venv/bin/python2.7 .venv/bin/uwsgi [additional arguments]`. Stop it with the command `kill PID`, where "PID" is the actual process ID number.
-  * If you kill only the process named `sh run.sh`, this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the process above before restarting Galaxy again.
+
+* From another terminal window, find all active processes with the command `ps`. The list of processes will each have a process ID (called PID). The target process will be named similiar to `/path/to/galaxy/.venv/bin/python2.7 .venv/bin/uwsgi [additional arguments]`. Stop it with the command `kill PID`, where "PID" is the actual process ID number.
+* If you kill only the process named `sh run.sh`, this will result in conflicts and Galaxy will not restart. If you did this or are simply getting errors when trying to restart Galaxy, the solution is to kill the process above before restarting Galaxy again.
 
 ## Installation automation
 

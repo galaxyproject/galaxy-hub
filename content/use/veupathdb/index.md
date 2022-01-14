@@ -8,7 +8,7 @@ platforms:
     platform_url: "https://veupathdb.org/veupathdb/app/galaxy-orientation"
     platform_text: "EuPathDB Galaxy Data Analysis Service"
 summary: "A free, interactive, web-based platform for large-scale data analysis focused on eukaryotic pathogens. Merges the former VectorBase and EuPathDB servers."
-image: "veupathdb-logo.jpg"
+image: "/images/use/veupathdb/veupathdb-logo.jpg"
 comments:
   - "All VEuPathDB and VectorBase genomes are pre-loaded."
   - "[Pre-configured workflows](https://veupathdb.globusgenomics.org/workflow/list_published) are available."

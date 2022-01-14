@@ -71,18 +71,18 @@ participants with disabilities.
 ## Reporting Issues
 
 If you experience or witness unacceptable behavior, or have any other concerns,
-please report it by contacting any member of the [GCC2019 Organizing Committee](/src/events/gcc2019/organizers/index.md). All reports will be handled with discretion. In your
+please report it by contacting any member of the [GCC2019 Organizing Committee](/events/gcc2019/organizers/). All reports will be handled with discretion. In your
 report please include:
 
-- Your contact information.
+* Your contact information.
 
-- Names (real, nicknames, or pseudonyms) of any individuals involved. If there
+* Names (real, nicknames, or pseudonyms) of any individuals involved. If there
   are additional witnesses, please include them as well. Your account of what
   occurred, and if you believe the incident is ongoing. If there is a publicly
   available record (e.g. a mailing list archive or a public IRC logger), please
   include a link.
 
-- Any additional information that may be helpful.
+* Any additional information that may be helpful.
 
 If you file a report, a representative will contact you personally, review the
 incident, follow up with any additional questions, and make a decision as to

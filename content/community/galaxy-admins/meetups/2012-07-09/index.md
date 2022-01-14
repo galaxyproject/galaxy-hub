@@ -1,7 +1,7 @@
 ---
 title: 2012-07-09 Conference Call
 ---
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a></div>
 
 <slot name="/community/galaxy-admins/linkbox" />
 
@@ -14,24 +14,25 @@ The group's first conference call was held on Monday July 9, at 9am Central US t
 
 # Agenda
 
-* [Logistics](/src/community/galaxy-admins/meetups/2012-07-09/index.md#logistics): Address how we want to tackle these calls. Go over generic agenda. Frequency of calls
-* [Group Goals](/src/community/galaxy-admins/meetups/2012-07-09/index.md#goals): what do we want to accomplish with this group beyond discussions/sharing?
-* [Presentation](/src/community/galaxy-admins/meetups/2012-07-09/index.md#galaxy-at-iowa): Galaxy at Iowa: Discuss our issues with big data, how NGS tools take in/output data and finding the right storage server solution.
-* [Open Mic](/src/community/galaxy-admins/meetups/2012-07-09/index.md#open-mic) & recruit new volunteers for the next call.
-* [Break out at Galaxy Community Conference](/src/community/galaxy-admins/meetups/2012-07-09/index.md#gcc2012-breakout)
+* [Logistics](/community/galaxy-admins/meetups/2012-07-09/#logistics): Address how we want to tackle these calls. Go over generic agenda. Frequency of calls
+* [Group Goals](/community/galaxy-admins/meetups/2012-07-09/#goals): what do we want to accomplish with this group beyond discussions/sharing?
+* [Presentation](/community/galaxy-admins/meetups/2012-07-09/#galaxy-at-iowa): Galaxy at Iowa: Discuss our issues with big data, how NGS tools take in/output data and finding the right storage server solution.
+* [Open Mic](/community/galaxy-admins/meetups/2012-07-09/#open-mic) & recruit new volunteers for the next call.
+* [Break out at Galaxy Community Conference](/community/galaxy-admins/meetups/2012-07-09/#gcc2012-breakout)
 
 ## Logistics
 
-<div class='right'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
+<div class='right'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
 
 ### Generic Call Agenda
 
 Ann proposed this generic agenda for future calls
-* 20 min: Galaxy in Our Town. 
+
+* 20 min: Galaxy in Our Town.
     Presentation from a local galaxy institution on what they are doing or a problem they are troubleshooting - or have someone walk through their use cases and pain points.
-* 20 min: Galaxy Today/Tomorrow. 
-    Presentation on a galaxy coding item. Either from [Galaxy Team](/src/galaxy-team/index.md), or from [someone](/src/community/index.md) working on a new feature or customization.
-* 20 mins: Open Mic Discussion & make point to point connections. 
+* 20 min: Galaxy Today/Tomorrow.
+    Presentation on a galaxy coding item. Either from [Galaxy Team](/galaxy-team/), or from [someone](/community/) working on a new feature or customization.
+* 20 mins: Open Mic Discussion & make point to point connections.
     Organize smaller breakouts if someone wants to host a call specific to an issue, ...
 
 This was approved by those present.
@@ -48,14 +49,14 @@ The group decided to continue with Blackboard.
 
 ### Non-Meeting Communication
 
-Communication outside of meetings will continue to happen on the [Galaxy-Dev mailing list](/src/mailing-lists/index.md).  We will consider other options if that becomes unworkable.
+Communication outside of meetings will continue to happen on the [Galaxy-Dev mailing list](/mailing-lists/).  We will consider other options if that becomes unworkable.
 
 ## Goals
 
-1. Build a community 
+1. Build a community
 2. Learn from each other.
 
-<div class='right'><img src="/src/images/logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></div>
+<div class='right'><img src="/images/logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></div>
 
 ## Galaxy at Iowa
 
@@ -71,7 +72,7 @@ They initially started with Lustre on HP MSA 2312sa P2000 G2 hardware.  That fai
 
 ### Other Highlights
 
-There is an upcoming workshop at Iowa, 
+There is an upcoming workshop at Iowa,
 
  [Bioinformatics Short Course](http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/) August 1-3, 2012
   [Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation](http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/)
@@ -92,8 +93,8 @@ Iowa addresses the "give them enough rope" conundrum* by providing well tested a
 
 ## GCC2012 Breakout
 
-There will be a [GalaxyCzars](/src/community/galaxy-admins/index.md) breakout session at [GCC2012](/src/events/gcc2012/index.md) at the end of this month.  It will be a chance to refine the groups goals, logistics, and schedule and a great to chance to meet in person.
+There will be a [GalaxyCzars](/community/galaxy-admins/) breakout session at [GCC2012](/events/gcc2012/) at the end of this month.  It will be a chance to refine the groups goals, logistics, and schedule and a great to chance to meet in person.
 
 ## Next Meeting
 
-The next [conference call](/src/community/galaxy-admins/meetups/2012-07-09/index.md) will happen in September.  If you have a large Galaxy installation, please consider telling the group about it.
+The next [conference call](/community/galaxy-admins/meetups/2012-07-09/) will happen in September.  If you have a large Galaxy installation, please consider telling the group about it.

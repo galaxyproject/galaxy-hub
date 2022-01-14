@@ -3,7 +3,7 @@ date: '2019-05-30'
 title: "Enabling cloud bursting for Galaxy"
 authors: "Enis Afgan and Nuwan Goonasekera"
 tease: "Expand your compute horizons."
-image: "/src/blog/2019-05-gcr/gcr.png"
+image: "/blog/2019-05-gcr/gcr.png"
 highlight: true
 ---
 
@@ -53,6 +53,7 @@ See the documentation if you're running an older version of Galaxy.
 
 To enable this rule, edit `config/job_conf.xml` and add the content between the
 comments:
+
 ```
 <?xml version="1.0"?>
 <job_conf>
@@ -108,8 +109,8 @@ capacity, just delete the machines from CloudLaunch.
 In the following screenshots, we're using the Google Cloud Platform to add a
 machine. Note that you can also mix which providers you use for your workers.
 
-<div class="center"><a href="/src/blog/2019-05-gcr/cloudlaunch.png">
-    <img src="/src/blog/2019-05-gcr/cloudlaunch.png"
+<div class="center"><a href="/blog/2019-05-gcr/cloudlaunch.png">
+    <img src="/blog/2019-05-gcr/cloudlaunch.png"
      alt="Running instance" width="80%" />
 </a></div>
 
@@ -123,8 +124,8 @@ a job submitted on a local laptop was sent to a remote GalaxyCloudRunner
 instance running on GCP where Pulsar automatically installs the necessary tools
 via Conda and runs the job via an embedded Slurm job manager.
 
-<div class="center"><a href="/src/blog/2019-05-gcr/job-run.png">
-    <img src="/src/blog/2019-05-gcr/job-run.png" alt="Launch page 1" width="80%" />
+<div class="center"><a href="/blog/2019-05-gcr/job-run.png">
+    <img src="/blog/2019-05-gcr/job-run.png" alt="Launch page 1" width="80%" />
 </a></div>
 
 # Caveats, known issues, and future directions

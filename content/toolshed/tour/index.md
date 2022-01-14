@@ -1,4 +1,4 @@
-<div class='right'> <a href='/src/toolshed/index.md'>![Galaxy Main ToolShed](/src/images/logos/ToolShed.jpg)</a></div>
+<div class='right'> <a href='/toolshed/'>![Galaxy Main ToolShed](/images/logos/ToolShed.jpg)</a></div>
 
 # What is the ToolShed?
 

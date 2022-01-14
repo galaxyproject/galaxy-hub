@@ -10,7 +10,7 @@ platforms:
 summary: "Automated NOE assignment and NMR structure calculation"
 image: "ariaweb.png"
 comments:
-  - "The [ARIAweb server](https://ariaweb.pasteur.fr/) does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/src/use/galaxy-pasteur/index.md) for data analysis and workflow execution."
+  - "The [ARIAweb server](https://ariaweb.pasteur.fr/) does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/use/galaxy-pasteur/) for data analysis and workflow execution."
   - "ARIA (Ambiguous Restraints for Iterative Assignment) does automated NOE assignment and NMR structure calculation."
 user_support:
   - "[Email Support](mailto:ariaweb@pasteur.fr)"

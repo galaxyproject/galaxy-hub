@@ -2,7 +2,7 @@
 date: '2018-11-01'
 title: "Contributor of the Month: Saskia Hiltemann"
 authors: "Martin Čech"
-image: "/src/blog/2018-11-cotm-saskia-hiltemann/saskia-hiltemann.png"
+image: "/blog/2018-11-cotm-saskia-hiltemann/saskia-hiltemann.png"
 ---
 
 This month we welcome Saskia Hiltemann (Twitter: [@shiltemann](https://twitter.com/shiltemann), GitHub: [@shiltemann](https://github.com/shiltemann)) as our Galaxy contributor of the Month! Saskia is a bioinformatician and a PhD student working in metagenomics at Rotterdam’s Erasmus Medical Center in the Netherlands, a core member of the [Intergalactic Utilities Commission](https://galaxyproject.org/iuc/), and one of the two primary creators of the [Galaxy Training Framework](https://training.galaxyproject.org/) ([published](https://doi.org/10.1016/j.cels.2018.05.012) in *Cell Systems*).
@@ -22,7 +22,7 @@ I started using Galaxy in 2012, at first quite simply because the project I was 
 
 *How did you get into the Galaxy community? What (and when) was your first contribution?*
 
-My first contributions were back in 2012, when I made a tool called [iReport](/src/events/gcc2014/abstracts/talks/index.md#ireport-html-reporting-in-galaxy) to create custom web pages for results reporting in Galaxy. Looking back, Galaxy has come a long way since then (and so have I), and I realize that I would do things very differently if I were to create that tool today, and I hope to be able to make a version 2.0 of this tool some time soon, because I still think that what it does is great, but the way it does it can be much improved.
+My first contributions were back in 2012, when I made a tool called [iReport](/events/gcc2014/abstracts/talks/#ireport-html-reporting-in-galaxy) to create custom web pages for results reporting in Galaxy. Looking back, Galaxy has come a long way since then (and so have I), and I realize that I would do things very differently if I were to create that tool today, and I hope to be able to make a version 2.0 of this tool some time soon, because I still think that what it does is great, but the way it does it can be much improved.
 
 *Which are your favorite Galaxy tools?*
 
@@ -46,9 +46,9 @@ My (biologist) supervisor always likes to describe his ideal view of bioinformat
 
 *What are the infosec CTF events that you mention on your website?*
 
-Thanks for the fun question :) CTF stands for "Capture The Flag" and these are online hacking events that usually last anywhere from a day to a couple of weeks, and basically consist of a series of computer security challenges or puzzles in which your goal is to obtain a specific hidden string of text. This could be a web service that has been intentionally left vulnerable to SQL injections, or an executable that can be manipulated into unintended behaviour, or it might involve the breaking of insecure encryption schemes. Very often they will include real-world scenarios based on recently discovered vulnerabilities. It is a great way to learn about a broad set of computer science and security topics, but also to learn about the potential vulnerabilities in any tools and program you will write in your professional life. I usually participate in these events together with Helena Rasche, but anybody is welcome to join our team! (no experience needed, there are always challenges of varying difficulty levels) :) 
-	
-Inspired by these CTF competitions, [Helena](/src/people/helena-rasche) and I also created a [Galaxy CTF event at GCC2017](https://sched.co/BCVY), which was great fun to create and hopefully also a fun way to learn more about Galaxy features and internals for the people who participated, and we hope to organize another Galaxy CTF at [GCC2019](/src/events/gcc2019/index.md), so come check it out!
+Thanks for the fun question :) CTF stands for "Capture The Flag" and these are online hacking events that usually last anywhere from a day to a couple of weeks, and basically consist of a series of computer security challenges or puzzles in which your goal is to obtain a specific hidden string of text. This could be a web service that has been intentionally left vulnerable to SQL injections, or an executable that can be manipulated into unintended behaviour, or it might involve the breaking of insecure encryption schemes. Very often they will include real-world scenarios based on recently discovered vulnerabilities. It is a great way to learn about a broad set of computer science and security topics, but also to learn about the potential vulnerabilities in any tools and program you will write in your professional life. I usually participate in these events together with Helena Rasche, but anybody is welcome to join our team! (no experience needed, there are always challenges of varying difficulty levels) :)
+
+Inspired by these CTF competitions, [Helena](/people/helena-rasche) and I also created a [Galaxy CTF event at GCC2017](https://sched.co/BCVY), which was great fun to create and hopefully also a fun way to learn more about Galaxy features and internals for the people who participated, and we hope to organize another Galaxy CTF at [GCC2019](/events/gcc2019/), so come check it out!
 
 
 Thanks for the interview!

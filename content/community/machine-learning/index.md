@@ -2,7 +2,7 @@
 title: Galaxy Machine Learning Community
 ---
 
-<a href="https://ml.usegalaxy.eu"><div class='center'><img src="/src/images/communities/machine_learning_logo.png" /></div></a>
+<a href="https://ml.usegalaxy.eu"><div class='center'><img src="/images/communities/machine_learning_logo.png" /></div></a>
 
 
 The Galaxy Machine Learning workbench is a comprehensive set of data preprocessing, machine learning, deep learning and visualisation tools, consolidated workflows for end-to-end machine learning analysis and training materials to showcase the usage of these tools.
@@ -156,8 +156,8 @@ You have done the heavy lifting and now want to use your coding skills inside Ju
 
 Tool | Description | Reference
 | --- | --- | --- |
-[Jupyter](https://live.usegalaxy.eu/?tool_id=interactive_tool_jupyter_notebook) | Jupyter lab | 
-[RStudio](https://live.usegalaxy.eu/?tool_id=interactive_tool_rstudio_notebook) | RStudio | 
+[Jupyter](https://live.usegalaxy.eu/?tool_id=interactive_tool_jupyter_notebook) | Jupyter lab |
+[RStudio](https://live.usegalaxy.eu/?tool_id=interactive_tool_rstudio_notebook) | RStudio |
 
 
 # Contributors

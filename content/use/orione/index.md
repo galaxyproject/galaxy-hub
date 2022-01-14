@@ -8,9 +8,9 @@ platforms:
     platform_text: "Orione"
     platform_location: IT
 summary: "A Galaxy based web server for microbiology. [Orione](http://orione.crs4.it/) includes all post mapping or assembling steps from scaffolding to complete annotation pipelines. "
-image: "/src/use/orione/orione-logo.png"
+image: "/use/orione/orione-logo.png"
 comments:
-  - 'From the [GCC2013](/src/events/gcc2013/index.md) poster "[Engaging Galaxy in Microbiology](/src/events/gcc2013/abstracts/posters/index.md#p7-engaging-galaxy-in-microbiology)"'
+  - 'From the [GCC2013](/events/gcc2013/) poster "[Engaging Galaxy in Microbiology](/events/gcc2013/abstracts/posters/#p7-engaging-galaxy-in-microbiology)"'
   - "We started on selecting the relevant software in the microbiology area, developing then all the necessary tools to integrate them into the Galaxy ecosystem. In addition to that, we made available several specialized workflows covering major applications such as bacterial resequencing, de novo assembly, scaffolding, bacterial RNA-seq, gene annotation and metagenomics."
 user_support:
   - "email: galaxyadmin AT crs4 DOT it"

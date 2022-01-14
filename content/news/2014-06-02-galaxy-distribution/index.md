@@ -2,7 +2,7 @@
 title: "June 2, 2014 Galaxy Distribution"
 date: "2014-06-02"
 ---
-<div class='right'> <a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/src/archive/dev-news-briefs/2014-06-02/index.md#dataset-collections))* </div>
+<div class='right'> <a href='http://usegalaxy.org'><img src="/images/news-graphics/2014_06_02_dataset-collections-crop.png" alt="Dataset Collections Workflow Detail" width="400" /></a> <br /> *example dataset collection workflow ([credits](/archive/dev-news-briefs/2014-06-02/#dataset-collections))* </div>
 
 <br />
 **[News Brief](http://wiki.galaxyproject.org/DevNewsBriefs/2014-06-02)** **Highlights:**
@@ -45,4 +45,4 @@ date: "2014-06-02"
 <br />
 *Thanks for using Galaxy!*
 
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

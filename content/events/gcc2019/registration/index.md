@@ -3,7 +3,7 @@ title: "GCC2019 Registration"
 ---
 
 <slot name="/events/gcc2019/header" />
-   
+
 GCC2019 features [several events](https://gcc2019.sched.com/), which can be registered for separately or all at once.  Steep discounts are offered to students and postdocs, and for registering early.
 
 # Training
@@ -35,7 +35,7 @@ If you are participating in training on Monday, you will need to decide [which t
 The conference dinner is a separate registration this year and is €50.00 per person.  Space is limited.
 
 
-## CollaborationFest: Core and Encore events, Friday-Monday 
+## CollaborationFest: Core and Encore events, Friday-Monday
 
 Registration for both CollaborationFest events is *free*, but space is limited so you are encouraged to register early.
 
@@ -45,9 +45,9 @@ Freiburg has many options for lodging, from four-star hotels to hostels. Freibur
 
 # Got kids?
 
-GCC2019 enthusiastically welcomes your kids **and will offer subsidized [childcare](/src/events/gcc2019/childcare/index.md) to meeting participant families.**  Registration for childcare will be separate from registration for events.  See the [childcare](/src/events/gcc2019/childcare/index.md) page for more.
+GCC2019 enthusiastically welcomes your kids **and will offer subsidized [childcare](/events/gcc2019/childcare/) to meeting participant families.**  Registration for childcare will be separate from registration for events.  See the [childcare](/events/gcc2019/childcare/) page for more.
 
 # GCC2019 Fellowships
 
-The Galaxy Community Fund is [offering travel fellowships to attend GCC2019](/src/news/2019-04-gcc-fellowships).  They will start reviewing applications on 23 April.
+The Galaxy Community Fund is [offering travel fellowships to attend GCC2019](/news/2019-04-gcc-fellowships).  They will start reviewing applications on 23 April.
 

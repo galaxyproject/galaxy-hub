@@ -1,13 +1,13 @@
-<div class='center'> 
+<div class='center'>
 
-<a href='http://illinois.edu/'><img src="/src/images/logos/UIUCLogo310.jpg" alt="University of Illinois at Urbana-Champaign" /></a>
+<a href='http://illinois.edu/'><img src="/images/logos/UIUCLogo310.jpg" alt="University of Illinois at Urbana-Champaign" /></a>
 
 
-<a href='http://hpcbio.illinois.edu/'><img src="/src/images/logos/UIUC_HPCBio.png" alt="High-Performance Biological Computing" /></a> &nbsp;&nbsp; <a href='http://www.ncsa.illinois.edu/'><img src="/src/images/logos/NCSALogo220.png" alt="NCSA" width="200px" /></a>
+<a href='http://hpcbio.illinois.edu/'><img src="/images/logos/UIUC_HPCBio.png" alt="High-Performance Biological Computing" /></a> &nbsp;&nbsp; <a href='http://www.ncsa.illinois.edu/'><img src="/images/logos/NCSALogo220.png" alt="NCSA" width="200px" /></a>
 
 <div class='title'>Introduction to Galaxy<br />October 16-17, 2012</div>
 
-**Instructors: [Dave Clements](/src/people/dave-clements/index.md)** with **Christopher Fields**
+**Instructors: [Dave Clements](/people/dave-clements/)** with **Christopher Fields**
 
 **1pm - 5pm<br /> Location - 1040 NCSA**
 
@@ -93,14 +93,14 @@ All work will be done in a web browser on your laptop. Please let us know if you
 
 ## Support
 
-<div class='right'><a href='http://www.ncsa.illinois.edu/'><img src="/src/images/logos/NCSALogo220.png" alt="NCSA" /></a></div> 
-<div class='right'><a href='http://hpcbio.illinois.edu/'><img src="/src/images/logos/UIUC_HPCBio.png" alt="High-Performance Biological Computing" /></a></div>
+<div class='right'><a href='http://www.ncsa.illinois.edu/'><img src="/images/logos/NCSALogo220.png" alt="NCSA" /></a></div>
+<div class='right'><a href='http://hpcbio.illinois.edu/'><img src="/images/logos/UIUC_HPCBio.png" alt="High-Performance Biological Computing" /></a></div>
 
 A workshop for the University of Illinois community supported by [High-Performance Biological Computing (HPCBio)](http://hpcbio.illinois.edu/), [Roy J. Carver Biotechnology Center](http://www.biotech.uiuc.edu/), [IGB](http://www.igb.uiuc.edu/) and [NCSA](http://www.ncsa.illinois.edu/).
 
 ## IGB Galaxy Seminar: October 9
 
-<div class='right'>[[<a href='http://www.igb.illinois.edu/sites/default/files/upload/Nekrutenko-1.pdf'><img src="/src/events/uiuc2012/IGBNekrutenkoTalkThumb.png" alt="Download poster" height="225" /></a></div>
+<div class='right'>[[<a href='http://www.igb.illinois.edu/sites/default/files/upload/Nekrutenko-1.pdf'><img src="/events/uiuc2012/IGBNekrutenkoTalkThumb.png" alt="Download poster" height="225" /></a></div>
 
 One week before this workshop there will be an Institute for Genomic Biology Seminar that also features Galaxy:
 
@@ -108,7 +108,7 @@ One week before this workshop there will be an Institute for Genomic Biology Sem
 
 **[Addressing Irreproducibility of Biomedical Research](http://www.igb.illinois.edu/sites/default/files/upload/Nekrutenko-1.pdf)**
 
-[Anton Nekrutenko](/src/people/anton/index.md), Ph.D.<br />
+[Anton Nekrutenko](/people/anton/), Ph.D.<br />
 
 Associate Professor of Biochemistry and Molecular Biology<br />
 Penn State University

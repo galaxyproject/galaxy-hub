@@ -2,102 +2,125 @@
     <Layout>
         <header class="header">
             <h1 class="display-4">{{ $page.main.title }}</h1>
+            <h3 v-if="$page.main.subtitle">{{ $page.main.subtitle }}</h3>
         </header>
+        <div class="row">
+            <div class="col-sm-5 lead markdown" v-html="$page.main.content" />
+            <section class="col-sm-7 jumbotron" v-if="$page.jumbotron && $page.jumbotron.content.trim()">
+                <h3 v-if="$page.jumbotron.title" class="jumbo-title text-center">{{ $page.jumbotron.title }}</h3>
+                <div class="text-center markdown" v-html="$page.jumbotron.content" />
+            </section>
+        </div>
 
-        <section class="section-content jumbotron" v-if="$page.jumbotron">
-            <div class="row text-center markdown" v-html="$page.jumbotron.content" />
-        </section>
+        <b-row id="profiles" class="justify-content-md-center">
+            <HomeProfile
+                title="SCIENTISTS"
+                link="/scientist/"
+                img="/images/undraw-illustrations/galaxy-for-scientists.svg"
+                alt="Galaxy for scientists"
+            />
+            <HomeProfile
+                title="TRAINERS"
+                link="/learn/"
+                img="/images/undraw-illustrations/galaxy-for-trainers.svg"
+                alt="Galaxy for trainers"
+            />
+            <HomeProfile
+                title="TOOL DEVELOPERS"
+                link="/tools/"
+                img="/images/undraw-illustrations/galaxy-for-tool-developers.svg"
+                alt="Galaxy for tool developers"
+            />
+            <HomeProfile
+                title="DEVELOPERS"
+                link="/develop/"
+                img="/images/undraw-illustrations/galaxy-for-developers.svg"
+                alt="Galaxy for developers"
+            />
+            <HomeProfile
+                title="ADMINS"
+                link="/admin"
+                img="/images/undraw-illustrations/galaxy-for-admins.svg"
+                alt="Galaxy for admins"
+            />
+        </b-row>
 
-        <section class="section-content">
-            <div id="splash-row">
-                <div class="col-sm-12 lead markdown" v-html="$page.main.content" />
-            </div>
+        <div class="row">
+            <HomeCard title="News" link="/news/" icon="fas fa-bullhorn" :items="latest.news" />
+            <HomeCard title="Events" link="/events/" icon="far fa-calendar-alt" :items="latest.events" />
+            <HomeCard
+                :title="inserts.twitter.title"
+                :link="inserts.twitter.link"
+                :icon="inserts.twitter.icon"
+                :content="inserts.twitter.content"
+            />
+        </div>
 
-            <div class="row">
-                <div class="pseudo-card col-sm-4">
-                    <h2>
-                        <g-link to="/news/"><span class="fas fa-bullhorn"></span>News</g-link>
-                    </h2>
-                    <ArticleListBrief v-for="edge in $page.news.edges" :key="edge.node.id" :article="edge.node" />
-                </div>
-                <div class="pseudo-card col-sm-4">
-                    <h2>
-                        <g-link to="/events/"><span class="far fa-calendar-alt"></span>Events</g-link>
-                    </h2>
-                    <ArticleListBrief v-for="edge in $page.events.edges" :key="edge.node.id" :article="edge.node" />
-                </div>
-                <div class="pseudo-card col-sm-4">
-                    <h2>
-                        <a href="https://twitter.com/galaxyproject">
-                            <span class="fab fa-twitter"></span>@galaxyproject
-                        </a>
-                        <a
-                            class="twitter-timeline"
-                            href="https://twitter.com/galaxyproject"
-                            data-dnt="true"
-                            height="400"
-                            data-chrome="noheader nofooter noscrollbar noborders transparent"
-                            data-widget-id="384667676347363329"
-                        >
-                        </a>
-                    </h2>
-                </div>
-            </div>
+        <div class="row">
+            <HomeCard
+                :title="inserts.videos.title"
+                :link="inserts.videos.link"
+                :icon="inserts.videos.icon"
+                :content="inserts.videos.content"
+                :items="inserts.videos.items"
+            />
+            <HomeCard title="Blog" link="/blog/" icon="fas fa-pencil-alt" :items="latest.blog" />
+            <HomeCard title="Careers" link="/careers/" icon="fas fa-user-astronaut" :items="latest.careers" />
+        </div>
 
-            <div class="row">
-                <div class="pseudo-card col-sm-4 markdown" v-if="$page.videos" v-html="$page.videos.content" />
-                <div class="pseudo-card col-sm-4">
-                    <h2>
-                        <g-link to="/blog/"><span class="fas fa-pencil-alt"></span>Blog</g-link>
-                    </h2>
-                    <ArticleListBrief v-for="edge in $page.blog.edges" :key="edge.node.id" :article="edge.node" />
-                </div>
-                <div class="pseudo-card col-sm-4">
-                    <h2>
-                        <a href="/careers/"><span class="fas fa-user-astronaut"></span>Careers</a>
-                    </h2>
-                    <ArticleListBrief v-for="node in careers" :key="node.id" :article="node" />
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="pseudo-card col-sm-4" v-if="$page.platforms">
-                    <h2>
-                        <a href="/use/"><span class="fas fa-server"></span>{{ $page.platforms.title }}</a>
-                    </h2>
-                    <div class="markdown" v-html="$page.platforms.content" />
-                </div>
-                <div class="pseudo-card col-sm-8" v-if="$page.pubs">
-                    <h2>
-                        <a href="https://www.zotero.org/groups/galaxy">
-                            <span class="fas fa-book-open"></span>{{ $page.pubs.title }}
-                        </a>
-                    </h2>
-                    <div class="markdown" v-html="$page.pubs.content" />
-                </div>
-            </div>
-        </section>
+        <div class="row">
+            <HomeCard
+                :title="inserts.platforms.title"
+                :link="inserts.platforms.link"
+                :icon="inserts.platforms.icon"
+                :content="inserts.platforms.content"
+                :items="inserts.platforms.items"
+            />
+            <HomeCard
+                :title="inserts.pubs.title"
+                :link="inserts.pubs.link"
+                :icon="inserts.pubs.icon"
+                :content="inserts.pubs.content"
+                :items="inserts.pubs.items"
+                :width="8"
+            />
+        </div>
 
         <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
     </Layout>
 </template>
 
 <script>
-import ArticleListBrief from "@/components/ArticleListBrief";
+import HomeCard from "@/components/HomeCard";
+import { rmPrefix, rmSuffix } from "~/utils.js";
+import HomeProfile from "../components/HomeProfile.vue";
 export default {
     components: {
-        ArticleListBrief,
+        HomeCard,
+        HomeProfile,
     },
     metaInfo: {
         title: "Home",
     },
     computed: {
-        careers() {
-            this.$page.careers.edges.reverse();
-            return this.$page.careers.edges.map((edge) => edge.node);
+        inserts() {
+            let inserts = {};
+            for (let edge of this.$page.allInsert.edges) {
+                let name = rmSuffix(rmPrefix(edge.node.path, "/insert:/homepage-"), "/");
+                inserts[name] = edge.node;
+            }
+            return inserts;
+        },
+        latest() {
+            let latest = {};
+            for (let category of ["blog", "news", "events", "careers"]) {
+                latest[category] = this.$page[category].edges.map((edge) => articleToItem(edge.node));
+            }
+            return latest;
         },
     },
     mounted() {
+        // Insert Twitter feed.
         !(function (d, s, id) {
             var js,
                 fjs = d.getElementsByTagName(s)[0],
@@ -109,124 +132,148 @@ export default {
                 fjs.parentNode.insertBefore(js, fjs);
             }
         })(document, "script", "twitter-wjs");
+
+        const altmetricScript = document.createElement("script");
+        altmetricScript.src = "https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js";
+        document.head.appendChild(altmetricScript);
     },
 };
+/** Convert an Article to an "item", with the title, link, and tease fields expected by ItemListBrief. */
+function articleToItem(article) {
+    let item = {
+        id: article.id,
+        title: article.title,
+        link: article.external_url || article.path,
+        tease: article.tease || "",
+    };
+    if (article.date) {
+        item.tease = `*${article.date}.* ${item.tease}`;
+    }
+    if (article.location) {
+        item.tease += ` ${article.location} `;
+    }
+    if (article.closes) {
+        item.tease += ` *Apply by ${article.closes}.*`;
+    }
+    return item;
+}
 </script>
 
 <page-query>
 query {
-  jumbotron: insert(path: "/insert:/jumbotron/") {
-    id
-    title
-    content
-  }
-  main: insert(path: "/insert:/main/") {
-    id
-    title
-    content
-  }
-  videos: insert(path: "/insert:/homepage-videos/") {
-    id
-    title
-    content
-  }
-  platforms: insert(path: "/insert:/homepage-platforms/") {
-    id
-    title
-    content
-  }
-  pubs: insert(path: "/insert:/homepage-pubs/") {
-    id
-    title
-    content
-  }
-  footer: insert(path: "/insert:/footer/") {
-    id
-    title
-    content
-  }
-  news: allArticle(limit: 5, filter: {category: {eq: "news" }, draft: {ne: true}}) {
-    totalCount
-    edges {
-      node {
+    jumbotron: insert(path: "/insert:/jumbotron/") {
         id
         title
-        tease
-        external_url
-        path
-      }
+        content
     }
-  }
-  events: allArticle(
-      limit: 5, sortBy: "date", order: ASC,
-      filter: {category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}, draft: {ne: true}}
+    main: insert(path: "/insert:/main/") {
+        id
+        title
+        subtitle
+        content
+        fileInfo {
+            path
+        }
+    }
+    allInsert(filter: {path: {regex: "^/insert:/homepage-[^/]+/$"}}) {
+        totalCount
+        edges {
+            node {
+                id
+                path
+                title
+                link
+                icon
+                items {
+                    title
+                    link
+                    tease
+                }
+                content
+            }
+        }
+    }
+    footer: insert(path: "/insert:/footer/") {
+        id
+        title
+        content
+    }
+    news: allArticle(limit: 5, filter: {category: {eq: "news" }, draft: {ne: true}}) {
+        totalCount
+        edges {
+            node {
+                id
+                title
+                tease
+                external_url
+                path
+            }
+        }
+    }
+    events: allArticle(
+        limit: 5, sortBy: "date", order: ASC,
+        filter: {category: {eq: "events"}, has_date: {eq: true}, days_ago: {lte: 0}, draft: {ne: true}}
     ) {
-    totalCount
-    edges {
-      node {
-        id
-        title
-        tease
-        date (format: "MMM D")
-        external_url
-        path
-      }
+        totalCount
+        edges {
+            node {
+                id
+                title
+                tease
+                date (format: "MMM D")
+                external_url
+                path
+            }
+        }
     }
-  }
-  blog: allArticle(limit: 5, filter: {category: {eq: "blog"}, draft: {ne: true}}) {
-    totalCount
-    edges {
-      node {
-        id
-        title
-        tease
-        external_url
-        path
-      }
+    blog: allArticle(limit: 5, filter: {category: {eq: "blog"}, draft: {ne: true}}) {
+        totalCount
+        edges {
+            node {
+                id
+                title
+                tease
+                external_url
+                path
+            }
+        }
     }
-  }
-  careers: allArticle(
-      limit: 5, sortBy: "date", order: ASC, filter: {
-        category: {eq: "careers"}, closed: {eq: false}, draft: {ne: true}
-      }
+    careers: allArticle(
+        limit: 5, sortBy: "date", order: DESC, filter: {
+            category: {eq: "careers"}, closed: {eq: false}, draft: {ne: true}
+        }
     ) {
-    totalCount
-    edges {
-      node {
-        id
-        title
-        closes (format: "MMM D")
-        location
-        external_url
-        path
-      }
+        totalCount
+        edges {
+            node {
+                id
+                title
+                location
+                external_url
+                path
+            }
+        }
     }
-  }
 }
 </page-query>
 
 <style scoped>
+.header {
+    margin-bottom: 2.5rem;
+}
 .jumbotron {
-    padding-top: 2.5rem;
+    padding-top: 0;
+    margin-bottom: 0rem;
+}
+.jumbo-title {
+    font-weight: bold;
 }
 .jumbo-image {
     background-color: lightyellow;
     padding-top: 100px;
     border: 4px solid black;
 }
-.pseudo-card {
-    background-color: #e0eaf2;
-    border: 3px solid white;
-    border-radius: 10px;
-}
-.pseudo-card h2 .fas,
-.pseudo-card h2 .far {
-    margin-right: 0.7em;
-}
-.pseudo-card .markdown::v-deep p {
-    font-size: 80%;
-}
-.pseudo-card .markdown::v-deep a {
-    font-size: 125%;
+#profiles {
+    margin-bottom: 45px;
 }
 </style>

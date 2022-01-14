@@ -11,7 +11,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/evolbioinfo/ngphylogeny/"
     platform_text: "NGPhylogeny.fr Docker image"
 summary: "Robust phylogenetic analysis for everyone."
-image: "/src/use/ngphylogeny/ngphylogeny-steps.png"
+image: "/use/ngphylogeny/ngphylogeny-steps.png"
 comments:
   - "Free, simple to use web service dedicated to reconstructing and analysing phylogenetic relationships between molecular sequences."
   - "Site is built on top of Galaxy, but uses an entirely novel interface to Galaxy."
@@ -19,7 +19,7 @@ comments:
   - "*Advanced workflows* have basically the same structure as oneclick workflows, but can be parametrized. It means that the user should customize the options of each step of the workflows: alignment, curation, tree inference."
   - "*Workflow maker* allows the user to choose the combination of tools that suits best his/her needs, and to customize the parameters."
   - "*Individual tools* may be run if specific taks are required."
-  - "The NGPhylogeny.fr server does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/src/use/galaxy-pasteur/index.md) for data analysis and workflow execution."
+  - "The NGPhylogeny.fr server does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/use/galaxy-pasteur/) for data analysis and workflow execution."
 user_support:
   - "[Documentation](https://ngphylogeny.fr/documentation), including a video"
 quotas:

@@ -2,7 +2,7 @@
 title: Video Viz
 ---
 
-![](/src/learn/visualization/custom/video-viz/screenshot.png)
+![](/learn/visualization/custom/video-viz/screenshot.png)
 
 In the modern world of imaging and microscopy, data is more than just sam, bam, and fastq files. This plugin allows videos to be viewed within galaxy, stepping through them frame-by-frame or playing them normally. Additionally we use the speed plugin for faster or slower playback.
 

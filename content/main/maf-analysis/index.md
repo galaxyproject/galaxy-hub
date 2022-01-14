@@ -7,37 +7,39 @@ Blankenberg D, Taylor J, Nekrutenko A, The Galaxy Team. "[Making whole genome mu
 
 ## About the Alignments
 
-Whole genome alignments, even those produced by "*quasi-global*" algorithms, are inevitably fragmented owing to the complex evolutionary history of genomic DNA and karyotypes, which involves duplications, deletions, insertions and other rearrangements. These alignments also tend to be extremely large.  To allow biologists to easily and efficiently manipulate multiple species whole genome alignments, they are stored locally at the Galaxy site, in a compressed form, and indexed.  The majority of alignments are produced using Penn State's [multiZ](http://www.bx.psu.edu/miller_lab/) (for more information on multiZ [click here](http://bio.cse.psu.edu/dist/tba.pdf)) aligner run on the computational facilities of [The UC Santa Cruz Genome Biology Group](http://genome.ucsc.edu/) led by Jim Kent.  Tools for handling multiple alignments described here are written by Dan Blankenberg and based on the [bx-python](http://bx-python.trac.bx.psu.edu/) package developed by James Taylor. 
+Whole genome alignments, even those produced by "*quasi-global*" algorithms, are inevitably fragmented owing to the complex evolutionary history of genomic DNA and karyotypes, which involves duplications, deletions, insertions and other rearrangements. These alignments also tend to be extremely large.  To allow biologists to easily and efficiently manipulate multiple species whole genome alignments, they are stored locally at the Galaxy site, in a compressed form, and indexed.  The majority of alignments are produced using Penn State's [multiZ](http://www.bx.psu.edu/miller_lab/) (for more information on multiZ [click here](http://bio.cse.psu.edu/dist/tba.pdf)) aligner run on the computational facilities of [The UC Santa Cruz Genome Biology Group](http://genome.ucsc.edu/) led by Jim Kent.  Tools for handling multiple alignments described here are written by Dan Blankenberg and based on the [bx-python](http://bx-python.trac.bx.psu.edu/) package developed by James Taylor.
 ----
 ## Tools and Categories
 
-[Format Converters](/src/main/MAF Analysis/index.md#format-converters)
+[Format Converters](/main/MAF Analysis/#format-converters)
 
-[Alignment Extractors](/src/main/MAF Analysis/index.md#alignment-extractors)
+[Alignment Extractors](/main/MAF Analysis/#alignment-extractors)
 
-[Alignment Stitchers](/src/main/MAF Analysis/index.md#alignment-stitchers)
+[Alignment Stitchers](/main/MAF Analysis/#alignment-stitchers)
 
-[Filters and Utilities](/src/main/MAF Analysis/index.md#filters-and-utilities)
+[Filters and Utilities](/main/MAF Analysis/#filters-and-utilities)
 ----
-For a list of data available through Galaxy, see [Available Data](/src/main/data-libraries/Available Data/index.md).
+For a list of data available through Galaxy, see [Available Data](/main/data-libraries/Available Data/).
 ----
 ## Format Converters
 
 These tools convert MAF formatted files to FASTA and offer the ability to restrict alignments to a subset of species. This is useful for performing further analysis with practically all currently available genomic tools.
 
 Available Output Types:
+
 * **Multiple Blocks** - create one FASTA alignment block per provided MAF Block; blocks missing a desired species can be kept or discarded
 * **One Sequence per Species** - create one sequence per species, where all MAF blocks are concatenated in the order and strand in which they appear in the selected source MAF; desired species missing from a particular block will have their sequence padded with gaps
 
-![](/src/main/maf-analysis/maf_to_fasta.png)
+![](/main/maf-analysis/maf_to_fasta.png)
 ----
 ## Alignment Extractors
 
-Extractors take genomic intervals as the input and return pairwise or multiple alignments corresponding to these intervals as illustrated below. Users can use locally stored ([cached](/src/main/data-libraries/Available Data/index.md)) alignments, or alignments from their history as the MAF source.  Here, three MAF blocks overlapping a single interval are extracted.  MAF blocks are output relative to the strand of the provided interval, where the default is '+'.  Blocks 1 and 3 are trimmed because they extend beyond the boundaries of the interval:
+Extractors take genomic intervals as the input and return pairwise or multiple alignments corresponding to these intervals as illustrated below. Users can use locally stored ([cached](/main/data-libraries/Available Data/)) alignments, or alignments from their history as the MAF source.  Here, three MAF blocks overlapping a single interval are extracted.  MAF blocks are output relative to the strand of the provided interval, where the default is '+'.  Blocks 1 and 3 are trimmed because they extend beyond the boundaries of the interval:
 
-![](/src/main/maf-analysis/interval2maf.png)
+![](/main/maf-analysis/interval2maf.png)
 
 *Currently there are two types of extractors that may be merged into a single tool in the future:*
+
 * **Extract Pairwise MAF blocks given a set of genomic intervals** - takes a series of genomic intervals and extracts __pairwise__ alignments from a large selection of locally cached MAF files.
 * **Extract MAF blocks given a set of genomic intervals** - takes a series of genomic intervals and extracts __multiple__ alignments from a large selection of locally cached MAF files or from alignments in the user's history.
 
@@ -46,7 +48,7 @@ Extractors take genomic intervals as the input and return pairwise or multiple a
 
 Multiple genome alignments consist of a very large number of relatively short blocks. This is why extractors (described in the previous category) typically return multiple MAF blocks per interval. In many cases, however, it is desirable to join (stitch) these multiple alignments together into a single continuous one.  This is the purpose of this category of tools. The figure below shows a genomic interval overlapping four blocks.  Stitching these together returns a single alignment (in FASTA format) where the void between blocks (2,3) and blocks (3,4) is filled with gaps:
 
-![](/src/main/maf-analysis/maf_stitch.png)
+![](/main/maf-analysis/maf_stitch.png)
 
 *Currently there are two tools that perform this operation each able to use cached or user-supplied alignments:*
 
@@ -62,19 +64,19 @@ The FASTA output is relative to the genome of the input interval; positions that
   Consider the interval: "chrX 1000 1100 myInterval"
   Let's suppose we want to do stats on three way alignments for H, M, and R. The result look like this:
   
-    chrX 1000 1100 myInterval H XXX YYY 
-    
-    chrX 1000 1100 myInterval M XXX YYY 
-    
-    chrX 1000 1100 myInterval R XXX YYY 
-      
+    chrX 1000 1100 myInterval H XXX YYY
+
+    chrX 1000 1100 myInterval M XXX YYY
+
+    chrX 1000 1100 myInterval R XXX YYY
+
   
      where XXX and YYY are:
 
         XXX = number of nucleotides
      
         YYY = number of gaps
-    
+
   Alternatively, you can request only summary information for a set of intervals:
   
   
@@ -106,25 +108,26 @@ The FASTA output is relative to the genome of the input interval; positions that
 
 * **Filter MAF blocks by Species** - restricts alignments to a subset of species
 
-![](/src/main/maf-analysis/filter_by_species.png)
+![](/main/maf-analysis/filter_by_species.png)
 
   Users can choose to keep or discard (1) blocks which are missing a desired species and (2) blocks which contain only one species.
 
 * **Filter MAF blocks by Size** - restricts alignments to a specified size range
 
-![](/src/main/maf-analysis/maf_filter_by_size.png)
+![](/main/maf-analysis/maf_filter_by_size.png)
 
 * **Join MAF blocks by Species** - Merges MAF blocks which are adjoining in each specified species from a MAF file. Columns which contain only gaps are removed. Species which are not desired are removed from the output.
 
-![](/src/main/maf-analysis/join_by_species.png)
+![](/main/maf-analysis/join_by_species.png)
 
 * **Extract MAF by block number** - extracts specific MAF blocks by their number in the dataset; block indexes start at 0
 
-![](/src/main/maf-analysis/maf_by_block_number.png)
+![](/main/maf-analysis/maf_by_block_number.png)
 
 * **Reverse complement a MAF file** - computes the reverse complement for all blocks in an alignment
 
 This MAF Block:
+
 ```
 a score=8157.000000
 s hg17.chr7    127471526 58 + 158628139 AATTTGTGGTTTATTCATTTTTCATTATTTTGTTTAAGGAGGTCTATAGTGGAAGAGG
@@ -133,6 +136,7 @@ s mm5.chr6      28904928 54 + 149721531 AA----CGTTTCATTGATTGCTCATCATTTAAAAAAAGAA
 ```
 
 becomes:
+
 ```
 a score=8157.000000
 s hg17.chr7     31156555 58 - 158628139 CCTCTTCCACTATAGACCTCCTTAAACAAAATAATGAAAAATGAATAAACCACAAATT

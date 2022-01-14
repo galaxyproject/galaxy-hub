@@ -9,7 +9,7 @@ Galaxy is designed to run jobs on your local system by default, but it can be co
 
 
 ```wiki red/solid/light
-This documentation applies to old Galaxy releases.  For the April 1, 2013 (tag `release_2013.04.01`) Galaxy release and newer, use the [current](/src/admin/config/performance/cluster/index.md) documentation.
+This documentation applies to old Galaxy releases.  For the April 1, 2013 (tag `release_2013.04.01`) Galaxy release and newer, use the [current](/admin/config/performance/cluster/) documentation.
 ```
 
 
@@ -23,12 +23,12 @@ This documentation applies to old Galaxy releases.  For the April 1, 2013 (tag `
 
 ## Cluster Resources Managers
 
-<div class='left'><a href='http://www.drmaa.org'><img src="/src/images/logos/DRMAALogo200.png" alt="DRMAA" /></a></div>Galaxy is known to work with [TORQUE PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php), [Sun Grid Engine](http://gridengine.sunsource.net/), [Platform LSF](http://www.platform.com/workload-management/high-performance-computing), [PBS Pro](http://www.pbsworks.com/Product.aspx?id=1) and there's work in progress for [SLURM](https://computing.llnl.gov/linux/slurm/) (see this [blog post](http://mdahlo.blogspot.com/2011/06/galaxy-on-uppmax.html)). However, since Galaxy uses the [Distributed Resource Management Application API](http://www.drmaa.org), it should work with [any distributed resource manager (DRM) which implements the DRMAA](http://www.drmaa.org/implementations.php). Galaxy interfaces with these systems via [drmaa-python](http://code.google.com/p/drmaa-python/), although for legacy reasons, [pbs_python](https://subtrac.sara.nl/oss/pbs_python) can be used for TORQUE. If you successfully run Galaxy with another DRM, please let us know via an email to the [galaxy-dev mailing list](/src/mailing-lists/index.md).
+<div class='left'><a href='http://www.drmaa.org'><img src="/images/logos/DRMAALogo200.png" alt="DRMAA" /></a></div>Galaxy is known to work with [TORQUE PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php), [Sun Grid Engine](http://gridengine.sunsource.net/), [Platform LSF](http://www.platform.com/workload-management/high-performance-computing), [PBS Pro](http://www.pbsworks.com/Product.aspx?id=1) and there's work in progress for [SLURM](https://computing.llnl.gov/linux/slurm/) (see this [blog post](http://mdahlo.blogspot.com/2011/06/galaxy-on-uppmax.html)). However, since Galaxy uses the [Distributed Resource Management Application API](http://www.drmaa.org), it should work with [any distributed resource manager (DRM) which implements the DRMAA](http://www.drmaa.org/implementations.php). Galaxy interfaces with these systems via [drmaa-python](http://code.google.com/p/drmaa-python/), although for legacy reasons, [pbs_python](https://subtrac.sara.nl/oss/pbs_python) can be used for TORQUE. If you successfully run Galaxy with another DRM, please let us know via an email to the [galaxy-dev mailing list](/mailing-lists/).
 
 
 
 
-Galaxy contributor John Chilton has also written [Pulsar](/src/admin/config/pulsar/index.md) which does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts. Please see the README included with Pulsar for instructions on how to set it up.
+Galaxy contributor John Chilton has also written [Pulsar](/admin/config/pulsar/) which does not require an existing cluster or a shared filesystem and can also run jobs on Windows hosts. Please see the README included with Pulsar for instructions on how to set it up.
 
 
 
@@ -61,7 +61,7 @@ The drmaa egg is provided by Galaxy, but you must tell it where your resource ma
 
 ### pbs_python egg
 
-pbs_python is dependent upon TORQUE and is not provided by Galaxy. You must "scramble" it yourself (for more information on Galaxy's Python Egg dependencies, see the [Eggs](/src/admin/config/Eggs/index.md) page). Fortunately, this process should be simple:
+pbs_python is dependent upon TORQUE and is not provided by Galaxy. You must "scramble" it yourself (for more information on Galaxy's Python Egg dependencies, see the [Eggs](/admin/config/Eggs/) page). Fortunately, this process should be simple:
 
 
 
@@ -122,7 +122,7 @@ node1%
 
 
 
-One should also check that the job manager can accept jobs from the `galaxy` user.  This is typically not an issue unless the `galaxy` user lacks a shell login (not uncommon with secure server configurations); this may be an assigned shell of `/bin/false` (Debian/Ubuntu) or `/bin/nologin` (Fedora[/RedHat](/src/admin/config/performance/cluster/legacy/RedHat/index.md)).  A default shell login is typically required for job submission with [TORQUE/PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php); this can be set using `usermod`:
+One should also check that the job manager can accept jobs from the `galaxy` user.  This is typically not an issue unless the `galaxy` user lacks a shell login (not uncommon with secure server configurations); this may be an assigned shell of `/bin/false` (Debian/Ubuntu) or `/bin/nologin` (Fedora[/RedHat](/admin/config/performance/cluster/legacy/RedHat/)).  A default shell login is typically required for job submission with [TORQUE/PBS](http://www.clusterresources.com/pages/products/torque-resource-manager.php); this can be set using `usermod`:
 
 
 
@@ -335,13 +335,13 @@ In the Galaxy config (universe_wsgi.ini), the desired job runner is specified wi
 
 * **local:///** - The local runner. No arguments available.
 * **pbs://[pbs_server]/[queue]/[pbs_options]** - The PBS runner. Arguments are the PBS server name, the queue name, any PBS-specific options, and all are optional:
-  * **pbs:///** - Use the default queue on the default PBS server.
-  * **pbs:///galaxy** - Use the 'galaxy' queue on the default PBS server.
-  * **pbs://torque2.example.edu/** - Use the default queue on the torque2.example.edu PBS server.
-  * **pbs:///bignodes/-l nodes=1:ppn=8,mem=32gb/** - Use the 'bignodes' queue and require 8 CPUs on one node and 32GB of memory. Separate multiple PBS flag options with spaces.
+    * **pbs:///** - Use the default queue on the default PBS server.
+    * **pbs:///galaxy** - Use the 'galaxy' queue on the default PBS server.
+    * **pbs://torque2.example.edu/** - Use the default queue on the torque2.example.edu PBS server.
+    * **pbs:///bignodes/-l nodes=1:ppn=8,mem=32gb/** - Use the 'bignodes' queue and require 8 CPUs on one node and 32GB of memory. Separate multiple PBS flag options with spaces.
 * **drmaa://[native_options]/** - The DRMAA runner. Arguments are any DRM-specific options, and are optional:
-  * **drmaa:///** - Use the environment defaults for RM-specific attributes like queue and project.
-  * **drmaa://-P bignodes -R y -pe threads 8/** - Use the 'bignodes' project and reserve a node with 8 cores for the tool. Separate multiple DRM flag options with spaces.
+    * **drmaa:///** - Use the environment defaults for RM-specific attributes like queue and project.
+    * **drmaa://-P bignodes -R y -pe threads 8/** - Use the 'bignodes' project and reserve a node with 8 cores for the tool. Separate multiple DRM flag options with spaces.
 
 Please note that the **pbs_options** and **native_options** fields are considered to be a temporary solution and it is the intent of the Galaxy team to provide a more general interface to these fields in the future. However, no timeline has been set on development of a replacement (and this capability will not be removed before a replacement interface is developed).
 
@@ -385,7 +385,7 @@ Or, if you want a tool to use a different DRM server or queue than the default s
 
 ### Tool Handler Configuration
 
-You can also control which job handler will be used via the similarly named [galaxy:tool_handlers] configuration section.  The synax on the left hand of the assignment (tool_id[params]) syntax is identical to the tool_runners options.  On the right hand of the assignment, you can specify which handler should be used to handle jobs for the specified tool/params.  More details about how to configure multiple job handlers can be found on the [Admin/Config/Performance/Scaling](/src/admin/config/performance/scaling/index.md) page.
+You can also control which job handler will be used via the similarly named [galaxy:tool_handlers] configuration section.  The synax on the left hand of the assignment (tool_id[params]) syntax is identical to the tool_runners options.  On the right hand of the assignment, you can specify which handler should be used to handle jobs for the specified tool/params.  More details about how to configure multiple job handlers can be found on the [Admin/Config/Performance/Scaling](/admin/config/performance/scaling/) page.
 
 
 
@@ -405,7 +405,7 @@ Since this is a complex problem, the current solution does have some caveats:
 
 
 * All of the datasets stored in Galaxy will have to be readable on the underlying filesystem by all Galaxy users. Said users need not have direct access to any systems which mount these filesystems, only the ability to run jobs on clusters that mount them. But I expect that in most environments, users will have the ability to submit jobs to these clusters or log in to these clusters outside of Galaxy, so this will be a security concern to evaluate for most environments.
-  * *Technical details* - Since Galaxy maintains dataset sharing internally and all files are owned by the Galaxy user, when running jobs only under a single user, permissions can be set such that only the Galaxy user can read all datasets. Since the dataset may be shared by multiple users, it is not suitable to simply change ownership of inputs before a job runs (what if another user tried to use the same dataset as an input during this time?). This could possibly be solved if Galaxy had tight control over extended ACLs on the file, but since many different ACL schemes exist, Galaxy would need a module for each scheme to be supported.
+    * *Technical details* - Since Galaxy maintains dataset sharing internally and all files are owned by the Galaxy user, when running jobs only under a single user, permissions can be set such that only the Galaxy user can read all datasets. Since the dataset may be shared by multiple users, it is not suitable to simply change ownership of inputs before a job runs (what if another user tried to use the same dataset as an input during this time?). This could possibly be solved if Galaxy had tight control over extended ACLs on the file, but since many different ACL schemes exist, Galaxy would need a module for each scheme to be supported.
 * The real user system works by changing ownership of the job's working directory to the system user matching the Galaxy user's email address (with the @domain stripped off) prior to running the job, and back to the Galaxy user once the job has completed. It does this by executing a site-customizable script via [sudo](http://www.gratisoft.us/sudo/). The script accepts a path and does nothing to ensure that this path is a Galaxy working directory. So anyone who has access to the Galaxy user could use this script and sudo to change the ownership of any file or directory. Patches to tighten this are welcome.
 
 ### Configuration
@@ -445,4 +445,4 @@ If your sudo config contains `Defaults    requiretty`, this option must be disab
 
 
 
-Some maintenance and support of this code will be provided via the usual [Support](/src/support/index.md) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.
+Some maintenance and support of this code will be provided via the usual [Support](/support/) channels, but improvements and fixes would be greatly welcomed, as this is a complex feature which is not used by the Galaxy Development Team.

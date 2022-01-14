@@ -1,13 +1,13 @@
 ---
 title: Galaxy CloudMan
 ---
-<div class='center'><img src="/src/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="60%" /></div>
+<div class='center'><img src="/images/galaxy-logos/cloudman-logo.jpg" alt="CloudMan" width="60%" /></div>
 
 <br />
 
 <slot name="/cloudman/linkbox-horizontal" />
 
-There are several choices for using Galaxy.  This page describes using Galaxy on a *[cloud infrastructure](https://www.tcnp3.com/home/cloud-technology/what-is-cloud-computing-infographic/)* using CloudMan (see below). For other options, see the [Galaxy Platform Directory](/src/use/index.md) and [Cloud](/src/cloud/index.md).
+There are several choices for using Galaxy.  This page describes using Galaxy on a *[cloud infrastructure](https://www.tcnp3.com/home/cloud-technology/what-is-cloud-computing-infographic/)* using CloudMan (see below). For other options, see the [Galaxy Platform Directory](/use/) and [Cloud](/cloud/).
 
 ## About Galaxy CloudMan
 
@@ -31,6 +31,7 @@ pays only for the resources they need and use.
 ## When to use Galaxy CloudMan
 
 The following is a non-exhaustive list of scenarios when it is beneficial to use Galaxy on the Cloud:
+
 * Do not want to spend time setting up a Galaxy instance
 * Need to customize a Galaxy instance with new tools or genome reference data
 * Have run up against the quotas on a public server
@@ -38,15 +39,15 @@ The following is a non-exhaustive list of scenarios when it is beneficial to use
 
 ## Getting started
 
-To start your own *Galaxy CloudMan*, see the [Getting Started](/src/cloudman/getting-started/index.md) page.
+To start your own *Galaxy CloudMan*, see the [Getting Started](/cloudman/getting-started/) page.
 
 ## Determining the size of your cloud cluster
 
-Cloud computing allows your cloud cluster to be variable in size and capacity. See [this page](/src/cloudman/capacity-planning/index.md) for some guidelines on how to decide what is right for you.
+Cloud computing allows your cloud cluster to be variable in size and capacity. See [this page](/cloudman/capacity-planning/) for some guidelines on how to decide what is right for you.
 
 ## Customizing your cloud cluster
 
-If you are interested in running your own version of Galaxy and/or tools on the cloud while utilizing all the automation and functionality provided by CloudMan, [this page](/src/cloudman/customizing/index.md) explains how to do it.
+If you are interested in running your own version of Galaxy and/or tools on the cloud while utilizing all the automation and functionality provided by CloudMan, [this page](/cloudman/customizing/) explains how to do it.
 
 ## A note about costs
 
@@ -67,12 +68,14 @@ allocation for which ones needs to apply.
 ## Galaxy AMIs
 
 **Current AMI:**
+
 * AMI: ami-3be8cd2c
 * Name: Galaxy CloudMan 161101b2 (active dates: 2016-11-01 -> present)
 
 Note that the current AMI represents the environment required to run CloudMan (in the format of a machine image) and *the machine image release date does not represent the most recent update or version of either CloudMan or Galaxy*. Versions of those tools can be seen (and automatically updated, with the Update button in the CloudMan Admin page) once an instance has been instantiated (we are also looking into a more explicit form of making this information available).
 
 **Deprecated AMIs**
+
 * AMI: ami-b45e59de
 * Name: Galaxy-CloudMan-1457720469 (active dates: 2016-03-24 -> 2016-11-01)
 * AMI: ami-d5246abf

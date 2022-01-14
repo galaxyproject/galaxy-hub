@@ -3,7 +3,7 @@
 
 **Workshops for the Johns Hopkins community
 
-Instructors: [Dave Clements](/src/people/dave-clements/index.md), [Mo Heydarian](http://epigenetics.jhu.edu/?section=personnelPages&personID=26)
+Instructors: [Dave Clements](/people/dave-clements/), [Mo Heydarian](http://epigenetics.jhu.edu/?section=personnelPages&personID=26)
 
 9:00am-4:30pm<br />
 Rangos 490<br />
@@ -11,12 +11,12 @@ Rangos 490<br />
 
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://biolchem.bs.jhmi.edu/'><img src="/src/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  /></a><br /><strong><a href='http://biolchem.bs.jhmi.edu/bcmb/Pages/faculty/faculty_detail.aspx?FID=343'>Reddy</a> and <a href='http://biolchem.bs.jhmi.edu/bcmb/Pages/faculty/faculty_detail.aspx?FID=82'>Sollner-Webb</a> Labs</strong> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://biolchem.bs.jhmi.edu/'><img src="/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  /></a><br /><strong><a href='http://biolchem.bs.jhmi.edu/bcmb/Pages/faculty/faculty_detail.aspx?FID=343'>Reddy</a> and <a href='http://biolchem.bs.jhmi.edu/bcmb/Pages/faculty/faculty_detail.aspx?FID=82'>Sollner-Webb</a> Labs</strong> </td>
     <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://ccb.jhu.edu/'><img src="/src/images/logos/JohnsHopkinsCCB.png" alt="Center for Computational Biology" height="100" /></a><br /><strong><a href='http://bioinformatics.igm.jhmi.edu/salzberg/Salzberg/Salzberg_Lab_Home.html'>Salzberg Lab</a></strong> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://ccb.jhu.edu/'><img src="/images/logos/JohnsHopkinsCCB.png" alt="Center for Computational Biology" height="100" /></a><br /><strong><a href='http://bioinformatics.igm.jhmi.edu/salzberg/Salzberg/Salzberg_Lab_Home.html'>Salzberg Lab</a></strong> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://jhmi.edu/'><img src="/src/images/logos/JohnsHopkins.png" alt="Johns Hopkins"  /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://jhmi.edu/'><img src="/images/logos/JohnsHopkins.png" alt="Johns Hopkins"  /></a> </td>
   </tr>
 </table>
 
@@ -98,7 +98,7 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [Department of Biological Chemistry @ Johns Hopkins](http://biolchem.bs.jhmi.edu/) and the [Center for Computational Biology](http://ccb.jhu.edu/).
 
@@ -112,7 +112,7 @@ This workshop is generously supported by an [AWS in Education](http://aws.amazon
 
 ## Flyer
 
-<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/johns-hopkins2013/JohnsHopkinsGalaxy2013.pdf'><img src="/src/events/johns-hopkins2013/JohnsHopkinsGalaxy2013Thumb.png" alt=""  /></a></div>
+<div class='right'><a href='https://depot.galaxyproject.org/hub/attachments/events/johns-hopkins2013/JohnsHopkinsGalaxy2013.pdf'><img src="/events/johns-hopkins2013/JohnsHopkinsGalaxy2013Thumb.png" alt=""  /></a></div>
 Please distribute to parts of Johns Hopkins that might be interested.  You are also encouraged to print a post a copy of the workshop flyer.
 
 ## Questions?

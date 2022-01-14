@@ -3,7 +3,7 @@ title: Frequently Asked Questions for CloudMan
 ---
 <slot name="/cloudman/linkbox-horizontal" />
 
-See [Learn/FAQ](/src/learn/faq/index.md) for questions about using any Galaxy instance and [CloudMan](/src/cloudman/index.md) page for general information about CloudMan.
+See [Learn/FAQ](/learn/faq/) for questions about using any Galaxy instance and [CloudMan](/cloudman/) page for general information about CloudMan.
 
 ----
 
@@ -37,7 +37,7 @@ When copying files from the cluster, on your local machine, issue the following 
 
 ## Adding more storage space
 
-You can add additional storage space to your cluster by adding a file system to it. For [cluster types](/src/cloudman/cluster-types/index.md) with persistent storage, you can also increase the size of the storage by clicking on the *Grow* icon next to the Disk Status.
+You can add additional storage space to your cluster by adding a file system to it. For [cluster types](/cloudman/cluster-types/) with persistent storage, you can also increase the size of the storage by clicking on the *Grow* icon next to the Disk Status.
 
 To add a new file system, go to CloudMan Admin page, and click *Add new* under *File systems* section of the page. You can choose among several storage device options:
 
@@ -58,6 +58,7 @@ Once you have chosen the device type and provided the necessary device informati
 ## Terminology
 
 The space of cloud computing is littered with technical terms, here we try to explain the meaning of the most common terms:
+
 * *Access key*: credentials required along with the secret key to access cloud resources under your account via the [API](https://en.wikipedia.org/wiki/Application_programming_interface)
 * *Secret key*: credentials required along with the access key to access cloud resources under your account via the API
 * *Instance*: a running virtual machine that can be used

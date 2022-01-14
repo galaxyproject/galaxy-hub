@@ -2,9 +2,10 @@
 title: 'May 2021 Galactic News'
 tease: "GCC2021 and James Taylor Video Deadlines Extended, plus a whole lot more."
 date: "2021-05-04"
+autotoc: false
 ---
 
-<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -16,6 +17,7 @@ And there are other upcoming deadlines too:
 * **Apply for the [Galaxy Australia Variant Calling Workshops](#event-news) by May 12.**
 
 We also have
+
 * **[open positions](#community-news)**
 * **[webinars, CoFests, workshops, community meetups, and other events](#event-news)**,
 * news about **[public Galaxy platforms](#galaxy-platforms-news)**,
@@ -38,22 +40,24 @@ Dave Clements and Beatriz Serrano-Solano, Editors
 <div class="card border-info" style="min-width: 70%; max-width: 100%">
 <div class="card-img-top trim-p">
 
-![James Taylor](/src/images/jxtx/jxtx-stripe.jpg)
+![James Taylor](/images/jxtx/jxtx-stripe.jpg)
 
 </div>
 <div class="card-header">Share your favorite James Taylor story: Deadline extended to May 7</div>
 
-It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we are creating a community video, *and we have extended the deadline for contributions to this Friday, May 7*.  We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a video that will be prominently featured on all Galaxy-related sites.
+It's been a year since [James Taylor](/jxtx/) passed away.  To remember him, and mark his upcoming birthday (May 18) we are creating a community video, *and we have extended the deadline for contributions to this Friday, May 7*.  We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a video that will be prominently featured on all Galaxy-related sites.
 
 Here is what we will need you to do by the end of Friday, May 7:
 
 1. Think of your favorite story/interaction/event involving James
 2. Pick a nice location and record the video!
 3. The video should be:
-  * in a high-resolution
-  * without background noise
-  * in a horizontal orientation (not vertical!)
-  * ≲ 30 seconds in length
+
+* in a high-resolution
+* without background noise
+* in a horizontal orientation (not vertical!)
+* ≲ 30 seconds in length
+
 4. Deposit video file to your Google Drive or Dropbox folder (or any other location that would allow us to retrieve it)
 5. Send a link to the video, your name and location as you would like them to appear in the final video to: outreach@galaxyproject.org
 
@@ -70,7 +74,7 @@ Thank you all in advance and please feel free to invite other friends of James t
 <div class="card lead border-info" style="min-width: 40%; max-width: 100%;">
 <div class="card-img-top trim-p">
 
-![GCC2021 is coming](/src/events/gcc2021/gcc2021-banner-global.png)
+![GCC2021 is coming](/images/events/gcc2021/gcc2021-banner-global.png)
 
 </div>
 <div class="card-header trim-p">
@@ -79,12 +83,12 @@ Thank you all in advance and please feel free to invite other friends of James t
 
 </div>
 
-**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md).**
+**The [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) will be held 28 June through July 10.  It will be [virtual, affordable, and globally accessible](/news/2021-02-gcc-virtual/).**
 
 GCC2021 will start with a [__week of online training__](https://galaxyproject.org/events/gcc2021/training/). Training will largely use the GTN Smörgåsbord model: lectures will be prerecorded, with live help available on chat for the duration of the week. This model allows participants to learn at their own pace, avoids scheduling conflicts that are inherent with our usual multi-track training, and enables those with low bandwidth internet connections to fully participate.
 
 
-__Registration closes June 25__ 
+__Registration closes June 25__
 
 Registering before __June 1__ saves 50% off of the full rates. Registration discounts will be available to researchers from low and lower-middle income countries. For everyone else, registration are downright cheap too: the rates start in €15.00 for the training week and in €25.00 for the 3-day conference (plus VAT). The CoFest is free.
 
@@ -97,12 +101,12 @@ Registering before __June 1__ saves 50% off of the full rates. Registration disc
 <div class="card border-info" style="min-width: 40%; max-width: 100%;">
 <div class="card-img-top trim-p">
 
-![GCC2021 is coming](/src/events/gcc2021/gcc2021-banner-global.png)
+![GCC2021 is coming](/images/events/gcc2021/gcc2021-banner-global.png)
 
 </div>
 <div class="card-header trim-p">
 
-[GCC2021 Fellowships & Abstract Submission Deadlines Extended](/src/news/2021-05-gcc-extended/index.md)
+[GCC2021 Fellowships & Abstract Submission Deadlines Extended](/news/2021-05-gcc-extended/)
 
 </div>
 
@@ -116,17 +120,17 @@ Talks can be either long (15-20 minutes) or lightning (5-7 minutes). **Talks** w
 
 **Poster/Demo Abstracts: 14 June**
 
-(However, you are encouraged to submit your abstracts earlier, if at all possible.)  Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts). 
+(However, you are encouraged to submit your abstracts earlier, if at all possible.)  Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts).
 
 **GCC2021 Community Fellowships: 17 May**
 
-The Galaxy Community Fund is offering fellowships to students, post-docs, and other non-profit / academic / government researchers based in [lower, lower-middle and upper-middle income countries](https://docs.google.com/document/d/1aFR1b8Al0DE0Ovn1pFJYlLchVUl2At82Dt4MRudvtRY/edit?usp=sharing) who will benefit from attending GCC2021, and for whom the [cost of registration](/src/news/2021-04-gcc-reg/index.md) is a barrier.
+The Galaxy Community Fund is offering fellowships to students, post-docs, and other non-profit / academic / government researchers based in [lower, lower-middle and upper-middle income countries](https://docs.google.com/document/d/1aFR1b8Al0DE0Ovn1pFJYlLchVUl2At82Dt4MRudvtRY/edit?usp=sharing) who will benefit from attending GCC2021, and for whom the [cost of registration](/news/2021-04-gcc-reg/) is a barrier.
 
 Fellowships will cover the full registration for any GCC2021 events awardees want to attend. Interested?  [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfyqKg87x8wL1EhOfrGR0SlQui8wEkQgg3qVFi6txO6GmHgKg/viewform) by May 17.
 
 **Early Registration: 1 June**
 
-Early conference registration [is open until 1 June](/src/news/2021-04-gcc-reg/index.md).
+Early conference registration [is open until 1 June](/news/2021-04-gcc-reg/).
 
 </div>
 
@@ -134,14 +138,14 @@ Early conference registration [is open until 1 June](/src/news/2021-04-gcc-reg/i
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 50%;">
-<img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
+<img class="card-img-top" src="/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
-[Open Galaxy Positions](/src/careers/index.md)
+[Open Galaxy Positions](/careers/)
 
 </div>
 
-There are two new positions in the [Galaxy Career Center](/src/careers/index.md), both in Rennes, France (and is due **1 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There are two new positions in the [Galaxy Career Center](/careers/), both in Rennes, France (and is due **1 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
 
@@ -151,7 +155,7 @@ There are two new positions in the [Galaxy Career Center](/src/careers/index.md)
 
 # Event News
 
-Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/src/events/index.md). Some highlights:
+Despite COVID-19, there is still a lot going on, and most of it is online. See the [full list of events](/events/). Some highlights:
 
 <div class="card-deck">
 
@@ -159,7 +163,7 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 <div class="card border-info" style="min-width: 22rem; max-width: 100%">
 <div class="trim-p">
 
-![Galaxy @ ISMB/ECCB & BOSC ?](/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png)
+![Galaxy @ ISMB/ECCB & BOSC ?](/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png)
 
 </div>
 <div class="card-header trim-p">
@@ -172,11 +176,11 @@ Despite COVID-19, there is still a lot going on, and most of it is online. See t
 
 [ISMB/ECCB 2021](https://www.iscb.org/ismbeccb2021) is one of the largest bioinformatics conferences and every year Galaxy has had a significant presence.  ISMB/ECCB is built from community building blocks, and this year that includes the **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc-2021/)** (our 2018 and 2020 conference partner), as well as communities focused on [high-throughput sequencing](http://hitseq.org/), [mass spec](http://cosi.iscb.org/wiki/CompMS:Home), [bioinformatics education](http://cosi.iscb.org/wiki/Education:Home), [visualization](http://biovis.net/2021/index.html), [microbiomes](https://www.microbiome-cosi.org/), [bioinformatics core facilities](http://bioinfo-core.org/index.php/ISMB_2021:_BioinfoCoreWorkshop), and [many others](https://www.iscb.org/communities-of-special-interest).
 
-**[BOSC](https://www.open-bio.org/2021/03/24/join-us-at-bosc-2021/)** is a particularly good match for the Galaxy community. Topics include software development practices that promote open science standards and sharing of biological data and code, as well as approaches for building diverse communities. 
+**[BOSC](https://www.open-bio.org/2021/03/24/join-us-at-bosc-2021/)** is a particularly good match for the Galaxy community. Topics include software development practices that promote open science standards and sharing of biological data and code, as well as approaches for building diverse communities.
 
 Most of these are accepting talk and poster submissions through the [ISMB/ECCB website](https://www.iscb.org/ismbeccb2021), but [BioInfo-Core is taking talk submissions here](https://forms.gle/N1mfB3dEEd4oi4wBA).  All submissions are due May 6.
 
-<img class="card-img-top" src="/src/images/logos/bioinfo-core-wide.png" alt="BioInfo-Core" style="max-width: 90%" />
+<img class="card-img-top" src="/images/logos/bioinfo-core-wide.png" alt="BioInfo-Core" style="max-width: 90%" />
 </div>
 
 
@@ -184,21 +188,21 @@ Most of these are accepting talk and poster submissions through the [ISMB/ECCB w
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <div class="trim-p">
 
-![Galaxy Resources for Your Webinars](/src/events/webinars/gr4-webinars-400.png)
+![Galaxy Resources for Your Webinars](/events/webinars/gr4-webinars-400.png)
 
 </div>
 
 <div class="card-header trim-p">
 
-[Webinars](/src/events/webinars/index.md)
+[Webinars](/events/webinars/)
 
 </div>
 
 Our current webinar series focuses on Galaxy resources for several different communities.  Webinars are held every other Wednesday at 10:00 Eastern US / 16:00 Central European time.  The last two webinars are this month
 
-**[Galaxy Resources for Tool Developers](/src/events/2021-05-gr4-tool-devs/index.md), May 12**
+**[Galaxy Resources for Tool Developers](/events/2021-05-gr4-tool-devs/), May 12**
 
-**[Galaxy Resources for Sys Admins and Infrastructure Providers](/src/events/2021-05-gr4-admins/index.md), May 26**
+**[Galaxy Resources for Sys Admins and Infrastructure Providers](/events/2021-05-gr4-admins/), May 26**
 
 Space is, um, unlimited!  But sign up today anyway and we will send you a reminder.
 
@@ -214,19 +218,19 @@ Recordings of the two earlier webinars in the series are now available:
 <div class="card border-info" style="min-width: 14rem; max-width:  100%;">
 <div class="trim-p">
 
-![Papercuts CoFest](/src/events/cofests/papercuts/papercuts.png)
+![Papercuts CoFest](/images/galaxy-logos/papercuts.png)
 
 </div>
 <div class="card-header trim-p">
 
-[May Papercuts](/src/events/2021-05-papercuts/index.md) and
-[GTN CoFest Day](/src/events/2021-02-gtn/index.md)
+[May Papercuts](/events/2021-05-papercuts/) and
+[GTN CoFest Day](/events/2021-02-gtn/)
 
 </div>
 
 **20 May, Online, Global**
 
-Please join us for the [8th Papercuts CoFest day](/src/events/2021-05-papercuts/index.md) and the [Galaxy Training Network CoFest day](/src/events/2021-05-gtn/index.md) on May 20 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+Please join us for the [8th Papercuts CoFest day](/events/2021-05-papercuts/) and the [Galaxy Training Network CoFest day](/events/2021-05-gtn/) on May 20 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
 We will be on Gitter for chat all day long, and each event will have 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
@@ -235,7 +239,7 @@ We will be on Gitter for chat all day long, and each event will have 3 calls spr
 
 <!--Variant calling -->
 <div class="card border-info" style="min-width: 16rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-australia.png" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-australia.png" />
 <div class="card-header trim-p">Variant Calling Workshop Series</div>
 
 **Apply by 12 May**
@@ -257,7 +261,7 @@ All 3 workshops will be run by Gareth Price and Igor Makunin.
 <div class="card border-info" style="min-width: 14rem; max-width:  50%;">
 <div class="trim-p">
 
-![](/src/use/repeatexplorer/repeatexplorer-wide.png)
+![](/use/repeatexplorer/repeatexplorer-wide.png)
 
 </div>
 <div class="card-header trim-p">
@@ -276,16 +280,16 @@ The workshop will focus on theoretical and practical aspects of using next gener
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 12rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
 The next roundtable meetups will be:
 
-**[May 13: Customizeable welcome and introduction page for new Galaxy users](/src/events/2021-05-13-dev-roundtable/index.md), Alex Ostrovsky**
+**[May 13: Customizeable welcome and introduction page for new Galaxy users](/events/2021-05-13-dev-roundtable/), Alex Ostrovsky**
 
 **May 27: TBD**
 
@@ -296,10 +300,10 @@ We still [need a volunteer to lead a discussions on a topic of interest on May 2
 
 <!-- Metabolomics -->
 <div class="card border-info" style="min-width: 14rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/images/communities/metabolomics.png" alt="metabolomics" />
+<img class="card-img-top" src="/images/communities/metabolomics.png" alt="metabolomics" />
 <div class="card-header trim-p">
 
-[Galaxy Metabolomics Community Call](/src/events/2021-05-metabolomics/index.md)
+[Galaxy Metabolomics Community Call](/events/2021-05-metabolomics/)
 
 </div>
 
@@ -313,7 +317,7 @@ To know more about the Galaxy Metabolomics community, please [subscribe to the m
 
 <!-- Analyse avancée de séquences -->
 <div class="card border-info" style="min-width: 12rem; max-width:  50%;">
-<img class="card-img-top" src="/src/images/logos/CGFB_bioinformatics.png" />
+<img class="card-img-top" src="/images/logos/CGFB_bioinformatics.png" />
 <div class="card-header trim-p">
 
 [Analyse avancée de séquences](https://cnrsformation.cnrs.fr/analyse-avancee-sequences)
@@ -329,7 +333,7 @@ Savoir rechercher des informations dans les banques de données. Maîtriser les 
 
 <!-- Metatranscriptomes -->
 <div class="card border-info" style="min-width: 14rem; max-width:  20rem;">
-<img class="card-img-top" src="/src/images/logos/vib-training.png" />
+<img class="card-img-top" src="/images/logos/vib-training.png" />
 <div class="card-header trim-p">
 
 [Metatranscriptomics analysis using microbiome RNA seq data in Galaxy](https://training.vib.be/all-trainings/metatranscriptomics-analysis-using-microbiome-rna-seq-data-galaxy)
@@ -344,7 +348,7 @@ An introduction basic concepts and tools from the ASaiM-MT workflow. ASaiM-MT pr
 
 <!-- Galaxy NL -->
 <div class="card border-info" style="min-width: 15rem; max-width: 20rem;">
-<img class="card-img-top" src="/src/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
+<img class="card-img-top" src="/images/logos/galaxy-nl-big.png" alt="Galaxy Netherlands" />
 <div class="card-header trim-p">
 
 [Galaxy-NL Meeting 2021](https://docs.google.com/document/d/1irLt2gtm-iNdgDZqybUpj7g39zkf5qaDkGW4-wW31YQ/edit)
@@ -362,7 +366,7 @@ This year's [Galaxy Netherlands meeting](https://docs.google.com/document/d/1irL
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -370,11 +374,11 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <!-- Protologger -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
 
-![Protologger](/src/use/protologger/protologger-logo.png)
+![Protologger](/use/protologger/protologger-logo.png)
 
 <div class="card-header trim-p">
 
-[Protologger](/src/use/protologger/index.md)
+[Protologger](/use/protologger/)
 
 </div>
 
@@ -385,11 +389,11 @@ Protologger is an all-in-one genome description tool, aimed at simplifying gathe
 <!-- QIIME 2 -->
 <div class="card border-info"  style="min-width: 30%; max-width: 100%;">
 
-![QIIME 2](/src/images/logos/qiime2.svg)
+![QIIME 2](/images/logos/qiime2.svg)
 
 <div class="card-header trim-p">
 
-[q2Galaxy](/src/use/qiime2/index.md) (Alpha)
+[q2Galaxy](/use/qiime2/) (Alpha)
 
 </div>
 
@@ -401,15 +405,15 @@ Starting with the [2021.4 release](https://forum.qiime2.org/t/qiime-2-2021-4-is-
 <!-- CPT -->
 <div class="card border-info"  style="min-width: 20%; max-width: 100%;">
 
-![CPT Galaxy](/src/use/center-for-phage-technology-cpt/cpt-logo.png)
+![CPT Galaxy](/use/center-for-phage-technology-cpt/cpt-logo.png)
 
 <div class="card-header trim-p">
 
-[Center for Phage Technology (CPT)](/src/use/center-for-phage-technology-cpt/index.md)
+[Center for Phage Technology (CPT)](/use/center-for-phage-technology-cpt/)
 
 </div>
 
-[Four videos about](https://youtube.com/playlist?list=PLNFLKDpdM3B-wbkkZJHqS4aMkg_9UhOsF) the Texas A&M [Center for Phage Technology](https://cpt.tamu.edu/)'s [Galaxy server](/src/use/center-for-phage-technology-cpt/index.md) came out recently.  They include three how-to videos, and a webinar by Jason Gill. The Videos highlight doing annotation with Galaxy and Apollo.
+[Four videos about](https://youtube.com/playlist?list=PLNFLKDpdM3B-wbkkZJHqS4aMkg_9UhOsF) the Texas A&M [Center for Phage Technology](https://cpt.tamu.edu/)'s [Galaxy server](/use/center-for-phage-technology-cpt/) came out recently.  They include three how-to videos, and a webinar by Jason Gill. The Videos highlight doing annotation with Galaxy and Apollo.
 
 </div>
 
@@ -421,13 +425,11 @@ Starting with the [2021.4 release](https://forum.qiime2.org/t/qiime-2-2021-4-is-
 ![Platforms Videos](./platform-videos-stripe.png)
 
 </div>
-<div class="card-header trim-p">
-
-[New Platforms Section on YouTube](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=7)
-
+<div class="card-header">
+<a href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=7">New Platforms Section on YouTube</a>
 </div>
 
-Protologger and CPT are not the only Galaxy platforms creating videos.  We have gathered or created YouTube playlists for every Galaxy platform that we could find videos for.  There are[ 52 videos about 15 different platforms](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=7), ranging from Galaxy Australia to Sciensano.
+Protologger and CPT are not the only Galaxy platforms creating videos.  We have gathered or created YouTube playlists for every Galaxy platform that we could find videos for.  There are <a href="https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA/playlists?view=50&sort=dd&shelf_id=7">52 videos about 15 different platforms</a>, ranging from Galaxy Australia to Sciensano.
 
 </div>
 
@@ -468,11 +470,11 @@ The European Galaxy Server has surpassed the 30,000 registered users, has around
 <div class="card border-info"  style="min-width: 12rem; max-width: 16rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * The European Galaxy community is involved in [several ELIXIR Implementation Studies](https://galaxyproject.eu/posts/2021/04/19/elixir-is/).
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
@@ -497,7 +499,7 @@ The European Galaxy Server has surpassed the 30,000 registered users, has around
 
 By Simon Bray, Wolfgang Maier, Beatriz Serrano-Solano and Björn Grüning
 
-UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing data published by the COVID-19 Genomics UK Consortium (COG-UK). This infrastructure is easily scalable and could be used in other large-scale SARS-CoV-2 sequencing projects. 
+UseGalaxy.eu is now automatically collecting, and analyzing raw sequencing data published by the COVID-19 Genomics UK Consortium (COG-UK). This infrastructure is easily scalable and could be used in other large-scale SARS-CoV-2 sequencing projects.
 
 ![COVID-19 monitoring](./covid-monitoring.png)
 
@@ -562,11 +564,11 @@ This [slide deck](https://training.galaxyproject.org/training-material/topics/tr
 </div>
 
 </div>
- 
+
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -577,7 +579,7 @@ Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-p
 
 </div>
 
-Batut, B., van den Beek, M., Doyle, M. A., & Soranzo, N. (2021). In E. Picardi (Ed.), RNA Bioinformatics (pp. 367–392). Springer US. https://doi.org/10.1007/978-1-0716-1307-8_20
+Batut, B., van den Beek, M., Doyle, M. A., & Soranzo, N. (2021). In E. Picardi (Ed.), RNA Bioinformatics (pp. 367–392). Springer US. [https://doi.org/10.1007/978-1-0716-1307-8_20](https://doi.org/10.1007/978-1-0716-1307-8_20)
 
 </div>
 
@@ -610,7 +612,7 @@ Schatz, M. C., Philippakis, A. A., Afgan, E., Banks, E., Carey, V. J., Carroll, 
 
 The 2021.4 release of QIIME2 includes a new interface, [q2galaxy](https://github.com/qiime2/q2galaxy) (see Platform News above), for generating Galaxy tool descriptions automatically from QIIME 2 actions. This means that as plugins are created and evolve, the QIIME 2 team can automatically generate complete Galaxy tools in a few seconds, rather than developing them by hand as is typically done.
 
-![QIIME2](/src/images/logos/qiime2.svg)
+![QIIME2](/images/logos/qiime2.svg)
 
 </div>
 
@@ -624,7 +626,7 @@ The 2021.4 release of QIIME2 includes a new interface, [q2galaxy](https://github
 
 [Pulsar](https://pypi.python.org/pypi/pulsar-app/) is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
 
-![Pulsar](/src/images/galaxy-logos/pulsar_transparent.png)
+![Pulsar](/images/galaxy-logos/pulsar_transparent.png)
 
 </div>
 

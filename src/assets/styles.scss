@@ -37,7 +37,7 @@ $carousel-indicator-border-color: gray;
 $carousel-indicator-active-bg: $navbar-inverse-bg;
 $carousel-control-width: 5%;
 
-@import "bootstrap/scss/bootstrap.scss";
+@import "~bootstrap/scss/bootstrap.scss";
 
 //@import "~@fortawesome/fontawesome-free/scss/_variables.scss";
 $fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
@@ -79,53 +79,6 @@ body {
     height: 60px;
 }
 
-#maincontainer {
-    background: white;
-    padding-top: 15px;
-    a:not(.btn) {
-        color: #2882dc;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-    code {
-        color: black;
-        background-color: #f5f5f5;
-    }
-    pre {
-        border: none;
-    }
-}
-
-#sidebar {
-    line-height: 140%;
-    a {
-        padding: 3px 15px;
-    }
-    & > ul > li > a {
-        font-weight: bold;
-    }
-    & > ul ul > li > a {
-        padding-left: 30px;
-    }
-    & > ul ul ul > li > a {
-        padding-left: 45px;
-    }
-    & > ul ul ul ul > li > a {
-        padding-left: 60px;
-    }
-}
-
-#edit_page {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    a,
-    a:visited {
-        color: white;
-    }
-}
-
 .section-content {
     width: 100%;
     padding-bottom: 24px;
@@ -141,8 +94,29 @@ footer {
 }
 
 // Masthead
+
+// ==== Masthead ====
 #masthead {
-    background-color: $base-color-1;
+    background-color: $brand-masthead;
+    .navbar-nav {
+        > li {
+            &.active {
+                background: darken($brand-masthead, 10%);
+            }
+            .nav-link {
+                position: relative;
+                cursor: pointer;
+                text-decoration: none;
+                color: $brand-masthead-text;
+                &:hover {
+                    color: $brand-masthead-text-hover;
+                }
+                &.toggle {
+                    color: $brand-masthead-text-hover;
+                }
+            }
+        }
+    }
 }
 
 /* Custom CSS for Galaxy wiki doc
@@ -163,6 +137,7 @@ footer {
 /* override bootstrap float-left and float-right styling */
 
 .float-right {
+    z-index: 100;
     margin: 0em 0em 1em 1em;
 }
 
@@ -317,6 +292,9 @@ div.linkbox {
     background-color: #dfe5f9;
     font-size: 90%;
     text-align: center;
+    // Raise z-index to prevent linkboxes from being occluded by elements like headings (issue #1033).
+    z-index: 100;
+    position: relative;
 }
 
 div.linkbox hr {
@@ -329,11 +307,13 @@ div.linkbox hr {
     text-align: center;
 }
 
-div.linkbox-horizontal {
+div.linkbox-horizontal,
+.linkbox.horizontal {
+    float: initial;
     margin-bottom: 15px;
     padding: 0 5px;
     border: 1px solid #ddd;
-    color: #ddd;
+    color: #686868;
     background-color: #efeff9;
     text-align: center;
 }
@@ -341,12 +321,6 @@ div.linkbox-horizontal {
 div.linkbox p {
     padding: 0;
     margin: 0 0 0 0;
-}
-
-div.linkbox a:link {
-}
-
-div.linkbox a:visited {
 }
 
 /* CSS for News Items */
@@ -457,7 +431,6 @@ h1.pageTitle {
     text-decoration: none;
     height: 100%;
     background: transparent;
-    vertical-align: middle;
 }
 h1,
 h2,
@@ -511,4 +484,15 @@ h6:hover .heading-anchor span:before {
 
 .bg-wg-all {
     background-color: #d87e55 !important;
+}
+
+/* *******
+   Gridsome era additions.
+ * *******/
+
+pre {
+    background-color: $brand-dark;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
 }

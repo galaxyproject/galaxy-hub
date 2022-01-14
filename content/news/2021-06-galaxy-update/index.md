@@ -4,7 +4,7 @@ tease: "GCC2021 starts this month; James Taylor Video; plus a whole lot more."
 date: "2021-05-31"
 ---
 
-<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -25,7 +25,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <div class="card-deck">
 
-<img class="card-img-top" src="/src/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
+<img class="card-img-top" src="/images/events/gcc2021/gcc2021-banner-global.png" alt="GCC2021 is coming" />
 
 
 <!-- GCC Starts Soon -->
@@ -40,18 +40,18 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 **June ~~1~~ 8: Early registration closes**
 
-[Register by __June 8__ and save 50% off of the full rates](/src/news/2021-05-gcc-reg/index.md). Registration [discounts are available to researchers from low and lower-middle income countries](/src/news/2021-05-gcc-reg/index.md#participants-based-in-low-lower-middle-and-upper-middle-income-countries). For everyone else, registration is downright cheap too, starting at €15.00 for the training week and in €25.00 for the 3-day conference (plus VAT). *The [CoFest](https://sched.co/iLKn) is free.*
+[Register by __June 8__ and save 50% off of the full rates](/news/2021-05-gcc-reg/). Registration [discounts are available to researchers from low and lower-middle income countries](/news/2021-05-gcc-reg/#participants-based-in-low-lower-middle-and-upper-middle-income-countries). For everyone else, registration is downright cheap too, starting at €15.00 for the training week and in €25.00 for the 3-day conference (plus VAT). *The [CoFest](https://sched.co/iLKn) is free.*
 
 **June 14: Poster/Demo Abstracts Due**
 
-We welcome [poster/demo submissions](/src/news/2021-05-gcc-posterdemo/index.md) that use, implement or extend the Galaxy platform and ecosystem, including integrating and analyzing datasets in any research area, enhancing reproducibility in computational analyses, and fostering collaboration in scientific workflow development
+We welcome [poster/demo submissions](/news/2021-05-gcc-posterdemo/) that use, implement or extend the Galaxy platform and ecosystem, including integrating and analyzing datasets in any research area, enhancing reproducibility in computational analyses, and fostering collaboration in scientific workflow development
 
-Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts). 
+Poster/Demos will be presented live at Remo.co tables and will not be limited to a single large PDF.  They are an opportunity to fully communicate your work. [Submit your abstract now](https://www.vibconferences.be/events/gcc2021-virtual-edition#abstracts).
 
 
 **June 17: CoFest Prep Day**
 
-The *June Paper Cuts Day* is now  the [GCC2021 CoFest Prep Day](/src/events/2021-06-papercuts/index.md) for CoFest participants to create plans for the [GCC2021 CoFest](https://sched.co/iLKn). The CoFest will loosely organized around *clusters* -- shared areas of interest. [Find, propose, or guide your cluster ahead of time](/src/news/2021-05-gcc-cofest-call/index.md), and at prep day.
+The *June Paper Cuts Day* is now  the [GCC2021 CoFest Prep Day](/events/2021-06-papercuts/) for CoFest participants to create plans for the [GCC2021 CoFest](https://sched.co/iLKn). The CoFest will loosely organized around *clusters* -- shared areas of interest. [Find, propose, or guide your cluster ahead of time](/news/2021-05-gcc-cofest-call/), and at prep day.
 
 
 **June 25: All Registration Closes**
@@ -67,7 +67,7 @@ GCC2021 [Training Week](https://galaxyproject.org/events/gcc2021/training) runs 
 
 Featuring accepted full and lightning talks, poster/demo presentations, sponsors, birds-of-a-feather gatherings, and plenty of time for networking, the GCC2021 meeting is a three day event that brings the Galaxy Community together to share our work and address common challenges in data intensive science.   I
 
-The meeting is [virtual, affordable, and globally accessible](/src/news/2021-02-gcc-virtual/index.md) no matter what time zone or country you live in.
+The meeting is [virtual, affordable, and globally accessible](/news/2021-02-gcc-virtual/) no matter what time zone or country you live in.
 
 **July 9: Two Day CollaborationFest Starts**
 
@@ -90,37 +90,37 @@ We have a [growing list of confirmed speakers and topics](https://gcc2021.sched.
 Some highlights from the confirmed presentations list so far:
 
 * **Galaxy Training Network (GTN) Community Update**
-  * *Saskia Hiltemann*
+    * *Saskia Hiltemann*
 * **Introducing the Intergalactic Workflow Commission**
-  * *Marius van den Beek*
+    * *Marius van den Beek*
 * **Bridging Natural Language Processing and Biomedical Data Analysis**
-  * *Nancy Ide*
+    * *Nancy Ide*
 * **Galaxy Language Server - Develop high-quality Galaxy tool wrappers at intergalactic speed**
-  * *David López*
+    * *David López*
 * **Analysis of Microscopy Data in Galaxy**
-  * *Beatriz Serrano-Solano*
+    * *Beatriz Serrano-Solano*
 * **Open Life Science: An Open Research mentoring and training program**
-  * *Muhammet Celik*
+    * *Muhammet Celik*
 * **Using the Galaxy (Australia) Database to Aid an Undergraduate Investigation of RNF43 Mutations as Biomarkers for ctDNA Surveillance of Colorectal Cancer**
-  * *Jordon Lima*
+    * *Jordon Lima*
 * **Designing a comprehensive workflow for detection and functional annotation of lncRNA**
-  * *Bianca Pasat*
+    * *Bianca Pasat*
 * **MaxQuant and MSstats in Galaxy enable reproducible quantitative high-throughput proteomics for everyone**
-  * *Melanie Föll*
+    * *Melanie Föll*
 * **Modernizing the Galaxy Backend - Typing and the API**
-  * *David López*
+    * *David López*
 * **Modernizing the Galaxy Backend - Data Model**
-  * *Sergey Golitsynskiy*
+    * *Sergey Golitsynskiy*
 * **Fostering Public Health Bioinformatics and Collaboration with GalaxyTrakr**
-  * *Justin Payne*
+    * *Justin Payne*
 * **Updates from the Single-Cell Community**
-  * *Mehmet Tekman*
+    * *Mehmet Tekman*
 * **Galaxy Australia - the influx state of a national eResearch service**
-  * *Gareth Price*
+    * *Gareth Price*
 * **Community engagement and how it influences Galaxy Australia Innovation**
-  * *Johan Gustafsson*
+    * *Johan Gustafsson*
 * **The “ARIES Genomics” Italian public health surveillance system**
-  * *Arnold Knijn*
+    * *Arnold Knijn*
 * ...
 
 See the [GCC2021 schedule](https://gcc2021.sched.com/) for the most current list of confirmed presenters.
@@ -142,7 +142,7 @@ See the [GCC2021 schedule](https://gcc2021.sched.com/) for the most current list
 </div>
 <div class="card-header trim-p">James Taylor's Birthday Video</div>
 
-To help commemorate [James Taylor's](/src/jxtx/index.md) birthday (he would have turned 42 on May 18), the community contributed short video remembrances, which have been linked together in one video.
+To help commemorate [James Taylor's](/jxtx/) birthday (he would have turned 42 on May 18), the community contributed short video remembrances, which have been linked together in one video.
 
 Happy birthday James. We miss you.
 
@@ -152,14 +152,14 @@ Happy birthday James. We miss you.
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 50%;">
-<img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
+<img class="card-img-top" src="/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
-[Open Galaxy Positions](/src/careers/index.md)
+[Open Galaxy Positions](/careers/)
 
 </div>
 
-There are three new positions in the [Galaxy Career Center](/src/careers/index.md), two in Rennes, France (one is due **1 June**), and one in Genoa, Italy (due **13 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There are three new positions in the [Galaxy Career Center](/careers/), two in Rennes, France (one is due **1 June**), and one in Genoa, Italy (due **13 June**).  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
 
@@ -174,7 +174,7 @@ We are pleased to announce the [first three sponsors for GCC2021](https://gcc202
 
 <!-- F1000Research -->
 <div class="card border-info"  style="min-width: 40%; max-width: 26rem;">
-<img class="card-img-top" src="/src/images/logos/F1000research-logo.jpg" alt="F1000Research" />
+<img class="card-img-top" src="/images/logos/F1000research-logo.jpg" alt="F1000Research" />
 <div class="card-header trim-p">
 
 [F1000Research](https://gcc2021.sched.com/sponsor/f1000research1)
@@ -201,15 +201,15 @@ BGI's Open Access Publishing division **[GigaScience Press](http://gigasciencepr
 * **[*GigaScience:*](https://gigasciencejournal.com/)** 15% APC discount for the [*GigaScience* Galaxy series](https://academic.oup.com/gigascience/pages/galaxy_series_data_intensive_reproducible_research).
 * **[*GigaByte:*](https://gigabytejournal.com/)** Less-complex workflow driven work is eligible for a free-APC discount.
 
-We also publish data, software, and other research objects via our database, [GigaDB](http://gigadb.org/), and Galaxy workflows via [GigaGalaxy.net](http://gigagalaxy.net/). 
+We also publish data, software, and other research objects via our database, [GigaDB](http://gigadb.org/), and Galaxy workflows via [GigaGalaxy.net](http://gigagalaxy.net/).
 
-<p><img class="card-img-bottom" src="/src/images/logos/gigascience-press-logo.png" alt="GigaScience Press" /></p>
+<p><img class="card-img-bottom" src="/images/logos/gigascience-press-logo.png" alt="GigaScience Press" /></p>
 </div>
 
 
 <!-- KWS SAAT -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
-<img class="card-img-top" src="/src/images/logos/kws-logo-slogan.png" alt="KWS SAAT" />
+<img class="card-img-top" src="/images/logos/kws-logo-slogan.png" alt="KWS SAAT" />
 <div class="card-header trim-p">
 
 [KWS SAAT](https://gcc2021.sched.com/sponsor/kws1)
@@ -229,7 +229,7 @@ We also publish data, software, and other research objects via our database, [Gi
 
 # Event News
 
-There is a lot going on in the Galaxy, with [10 events this week alone](/src/events/index.md). Some upcoming highlights:
+There is a lot going on in the Galaxy, with [10 events this week alone](/events/). Some upcoming highlights:
 
 <div class="card-deck">
 
@@ -238,17 +238,17 @@ There is a lot going on in the Galaxy, with [10 events this week alone](/src/eve
 <div class="card border-info" style="min-width: 12rem; max-width:  100%;">
 <div class="card-header trim-p">
 
-[Webinars](/src/events/webinars/index.md)
+[Webinars](/events/webinars/)
 
 </div>
 
-The [*Galaxy Resources* webinar series](/src/events/webinars/index.md) wrapped up in May (see the [blog post below](#galactic-blog-activity).  All webinars are available as videos.  As of press time, there is only one webinar scheduled for June:
+The [*Galaxy Resources* webinar series](/events/webinars/) wrapped up in May (see the [blog post below](#galactic-blog-activity).  All webinars are available as videos.  As of press time, there is only one webinar scheduled for June:
 
 **[Analyzing your own data in VectorBase](https://vectorbase.org/vectorbase/app/static-content/webinars.html#vect4), June 10**
 
 Keep your eyes open for new webinars as they are scheduled.
 
-<p><img class="card-img-bottom" src="/src/images/logos/VectorBaseLogoWithText.png" alt="VectorBase uses Galaxy" /></p>
+<p><img class="card-img-bottom" src="/images/logos/VectorBaseLogoWithText.png" alt="VectorBase uses Galaxy" /></p>
 </div>
 
 
@@ -264,16 +264,16 @@ Keep your eyes open for new webinars as they are scheduled.
 
 As part of the [2021 OME Community Meeting](https://www.openmicroscopy.org/events/ome-community-meeting-2021/), Beatriz Serrano-Solano will give a talk on **Imaging in Galaxy** on [day 4 (June 11)](https://www.openmicroscopy.org/events/ome-community-meeting-2021/day4/) of the meeting.  Conference registration is free.
 
-<p><img class="card-img-bottom" src="/src/images/logos/ome-logo.svg" alt="Open Microscopy Environment (OME) Logo" /></p>
+<p><img class="card-img-bottom" src="/images/logos/ome-logo.svg" alt="Open Microscopy Environment (OME) Logo" /></p>
 </div>
 
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 12rem; max-width:  100%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
@@ -300,7 +300,7 @@ We still [need volunteers to lead discussions on a topic of interest on June 10 
 
 Gallantries is hosting a [Galaxy training workshop](https://gallantries.github.io/galaxy-workshop/events/belbi-2021.html) at [Belgrade Bioinformatics Conference 2021](https://belbi.bg.ac.rs/).  This course will familiarise participants with the Galaxy Platform.  [Register now](https://belbi.bg.ac.rs/?page_id=43).
 
-![BelBi 2021](/src/events/2021-06-belbi/belbi-2021-logo.png)
+![BelBi 2021](/events/2021-06-belbi/belbi-2021-logo.png)
 
 </div>
 
@@ -317,23 +317,23 @@ Gallantries is hosting a [Galaxy training workshop](https://gallantries.github.i
 
 Ce module comprendra un exposé théorique avec des démonstrations pratiques complétées par quelques applications sur la manipulation de données de régions génomiques et sur l’analyse de jeux de données de type NGS (détection de SNP, analyse de données RNA-seq et ChIP-seq).
 
-<img class="card-img-bottom" src="/src/images/logos/inrae-logo.jpg" alt="INRAe" />
+<img class="card-img-bottom" src="/images/logos/inrae-logo.jpg" alt="INRAe" />
 </div>
 
 
 
 <!-- GAT CoFEST -->
 <div class="card border-info" style="min-width: 12rem; max-width: 14rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training CoFest" />
+<img class="card-img-top" src="/images/galaxy-logos/admin-training-logo.jpg" alt="Galaxy Admin Training CoFest" />
 <div class="card-header trim-p">
 
-[Pre-GCC2021 GAT CoFest](/src/events/2021-06-gat-cofest/index.md)
+[Pre-GCC2021 GAT CoFest](/events/2021-06-gat-cofest/)
 
 </div>
 
 **1-4 June, Online**
 
-As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) draws near ([training](https://galaxyproject.org/events/gcc2021/training/) starts June 28) the instructors behind the [Galaxy Admin Track](https://galaxyproject.org/events/gcc2021/training/admin-track) (and [Galaxy Admin Training events](/src/events/2021-01-admin-training/index.md))  would like to gather to address [some lingering issues](https://github.com/galaxyproject/training-material/issues/2274) before GCC.
+As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.be/events/gcc2021-virtual-edition) draws near ([training](https://galaxyproject.org/events/gcc2021/training/) starts June 28) the instructors behind the [Galaxy Admin Track](https://galaxyproject.org/events/gcc2021/training/admin-track) (and [Galaxy Admin Training events](/events/2021-01-admin-training/))  would like to gather to address [some lingering issues](https://github.com/galaxyproject/training-material/issues/2274) before GCC.
 
 </div>
 
@@ -342,18 +342,18 @@ As the [2021 Galaxy Community Conference (GCC2021)](https://www.vibconferences.b
 <div class="card border-info" style="min-width: 25%; max-width: 24rem;">
 <div class="card-img-top trim-p">
 
-![Papercuts CoFest seized by GCC2021 CoFest](/src/events/2021-06-papercuts/papercuts-cofest-prep.png)
+![Papercuts CoFest seized by GCC2021 CoFest](/events/2021-06-papercuts/papercuts-cofest-prep.png)
 
 </div>
 <div class="card-header trim-p">
 
-[Pre-GCC CoFest Prep Day](/src/events/2021-06-papercuts/index.md)
+[Pre-GCC CoFest Prep Day](/events/2021-06-papercuts/)
 
 </div>
 
 **17 June, Online, Global**
 
-The June Papercuts CoFest Day is now the **[GCC2021 CoFest Prep Day](/src/events/2021-06-papercuts/index.md)** for participants to plan work *(collaborative work, dang it)* for the **[GCC2021 CoFest](https://sched.co/iLKn)** being held July 9-10, right after the 3-day GCC2021 meeting.  We will have 3 calls, spread throughout the global day, and communicate via Gitter and (video as needed) between calls.
+The June Papercuts CoFest Day is now the **[GCC2021 CoFest Prep Day](/events/2021-06-papercuts/)** for participants to plan work *(collaborative work, dang it)* for the **[GCC2021 CoFest](https://sched.co/iLKn)** being held July 9-10, right after the 3-day GCC2021 meeting.  We will have 3 calls, spread throughout the global day, and communicate via Gitter and (video as needed) between calls.
 
 If you are participating in the GCC2021 CoFest<sup>*</sup> then please join us June 17.
 
@@ -367,7 +367,7 @@ If you are participating in the GCC2021 CoFest<sup>*</sup> then please join us J
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -376,12 +376,12 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 <div class="card-img-top trim-p">
 
-![Viral Variant Visualizer (VVV)](/src/use/vvv/vvv.png)
+![Viral Variant Visualizer (VVV)](/use/vvv/vvv.png)
 
 </div>
 <div class="card-header trim-p">
 
-[Viral Variant Visualizer (VVV)](/src/use/vvv/index.md)
+[Viral Variant Visualizer (VVV)](/use/vvv/)
 
 </div>
 
@@ -396,16 +396,16 @@ VVV is supported by Agence National de Sécurité Sanitaire, de l’environnemen
 <div class="card border-info" style="min-width: 16rem; max-width: 100%;">
 <div class="card-img-top trim-p">
 
-![SHAMAN](/src/use/shaman/shaman-logo.png)
+![SHAMAN](/use/shaman/shaman-logo.png)
 
 </div>
 <div class="card-header trim-p">
 
-[SHAMAN](/src/use/shaman/index.md)
+[SHAMAN](/use/shaman/)
 
 </div>
 
-[SHAMAN](https://shaman.pasteur.fr/) is a user-friendly website for metataxonomic analysis from raw reads to statistical analysis. SHAMAN does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/src/use/galaxy-pasteur/index.md) for data analysis and workflow execution.
+[SHAMAN](https://shaman.pasteur.fr/) is a user-friendly website for metataxonomic analysis from raw reads to statistical analysis. SHAMAN does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/use/galaxy-pasteur/) for data analysis and workflow execution.
 
 SHAMAN is a shiny application for differential analysis of metagenomic data (16S, 18S, 23S, 28S, ITS and WGS) including bioinformatics treatment of raw reads for targeted metagenomics, statistical analysis and results visualization with a large variety of plots (barplot, boxplot, heatmap, …).
 
@@ -419,7 +419,7 @@ SHAMAN is a shiny application for differential analysis of metagenomic data (16S
 </div>
 <div class="card-header trim-p">
 
-[Imaging EU Server](/src/use/imaging/index.md)
+[Imaging EU Server](/use/imaging/)
 
 </div>
 
@@ -432,11 +432,11 @@ The [imaging flavor of Galaxy](https://imaging.usegalaxy.eu/) offers a set of tr
 <div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 
-<p><img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" /></p>
+<p><img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" /></p>
 
 * [New high memory servers for Galaxy Australia](https://www.biocommons.org.au/news/unimelb-server-galaxy-au)
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
@@ -454,7 +454,7 @@ The [imaging flavor of Galaxy](https://imaging.usegalaxy.eu/) offers a set of tr
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="card-img-top trim-p">
 
-![Galaxy Resources Webinars](/src/events/webinars/gr4-webinars.png)
+![Galaxy Resources Webinars](/events/webinars/gr4-webinars.png)
 
 </div>
 <div class="card-header trim-p">
@@ -484,7 +484,7 @@ The Galaxy ecosystem is very broad in scope and reaches many audiences, each one
 
 **¿Hablas español?: The first curated tutorial in Spanish!**
 
-Galaxy has always had Google-translated tutorials, but we are now embarking on a project to assess the learning experience with human-translated, vs Google-translated, bioinformatics tutorials. We are aiming to survey usage and utility in a workshop for native Spanish speakers. 
+Galaxy has always had Google-translated tutorials, but we are now embarking on a project to assess the learning experience with human-translated, vs Google-translated, bioinformatics tutorials. We are aiming to survey usage and utility in a workshop for native Spanish speakers.
 
 The project started with Anna Syme's [A short introduction to Galaxy](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial.html), and produced [Breve introducción a Galaxy - en español](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-intro-short/tutorial_ES.html). Many thanks to Wendi Bacon, Beatriz Serrano-Solano,  Patricia Carvajal López, Alejandra Escobar-Zepeda, Saskia Hiltemann, and Helena Rasche for making this happen.
 
@@ -503,7 +503,7 @@ The project started with Anna Syme's [A short introduction to Galaxy](https://tr
 
 By [Kaivan Kamali](https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/).
 
-There is a new [slide deck](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/CNN/slides.html#1) and [video](https://training.galaxyproject.org/training-material/videos/watch.html?v=statistics/tutorials/CNN/slides) for the [Deep Learning (Part 3) - Convolutional neural networks (CNN) tutorial](https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/). 
+There is a new [slide deck](https://training.galaxyproject.org/training-material/topics/statistics/tutorials/CNN/slides.html#1) and [video](https://training.galaxyproject.org/training-material/videos/watch.html?v=statistics/tutorials/CNN/slides) for the [Deep Learning (Part 3) - Convolutional neural networks (CNN) tutorial](https://training.galaxyproject.org/training-material/hall-of-fame/kxk302/).
 
 Convolutional neural networks are specifically tailored to image and video processing tasks. This material explains what convolutional neural networks are, discusses their architecture, and solves an image classification problem using a CNN in Galaxy.
 
@@ -546,11 +546,11 @@ Have you noticed a new emphasis on Galaxy Developer training?  The new BioBlend 
 </div>
 
 </div>
- 
+
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -649,15 +649,15 @@ Fahrner, M., Kook, L., Fröhlich, K., Biniossek, M. L., & Schilling, O. (2021). 
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
 <div class="card-header trim-p">
 
-[Galaxy Helm Chart v4.0](/src/blog/2021-05-galaxy-helm-chart-v4/index.md)
+[Galaxy Helm Chart v4.0](/blog/2021-05-galaxy-helm-chart-v4/)
 
 </div>
 
 The Galaxy Helm chart automates the mechanics of deploying Galaxy into a single package. The same package can be used to deploy Galaxy for development, testing, or production. With v4, the chart also introduces improvements for managing Galaxy over time.
 
-See this [blog post](/src/blog/2021-05-galaxy-helm-chart-v4/index.md) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
+See this [blog post](/blog/2021-05-galaxy-helm-chart-v4/) by Alex Mahmoud, Nuwan Goonasekera, Keith Suderman, and Enis Afgan for details.
 
-![Galaxy Helm](/src/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
+![Galaxy Helm](/blog/2021-05-galaxy-helm-chart-v4/no-cvmfs.png)
 
 </div>
 
@@ -672,7 +672,7 @@ See this [blog post](/src/blog/2021-05-galaxy-helm-chart-v4/index.md) by Alex Ma
 
 [Nebulizer](https://nebulizer.readthedocs.io/en/latest/) is a Python utility which provides a high-level interactive command-line interface to remotely administer Galaxy servers.  It is built on top of the [BioBlend library](https://bioblend.readthedocs.io/en/stable/index.html) and offers an interface and range of functionality that complements the lower-level interfaces offered by [Ephemeris](https://ephemeris.readthedocs.io/en/latest/index.html) and [Parsec](https://parsec.readthedocs.io/en/latest/index.html).
 
-<img class="card-img-bottom" src="/src/images/logos/nebulizer-logo.png" alt="Nebulizer" />
+<img class="card-img-bottom" src="/images/logos/nebulizer-logo.png" alt="Nebulizer" />
 </div>
 
 </div>

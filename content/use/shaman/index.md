@@ -10,7 +10,7 @@ platforms:
 summary: "A user-friendly website for metataxonomic analysis from raw reads to statistical analysis"
 image: "shaman-logo.png"
 comments:
-  - "The [SHAMAN server](https://shaman.pasteur.fr/) does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/src/use/galaxy-pasteur/index.md) for data analysis and workflow execution."
+  - "The [SHAMAN server](https://shaman.pasteur.fr/) does not look like Galaxy, but it uses the [Galaxy@Pasteur server](/use/galaxy-pasteur/) for data analysis and workflow execution."
   - "SHAMAN is a shiny application for differential analysis of metagenomic data (16S, 18S, 23S, 28S, ITS and WGS) including bioinformatics treatment of raw reads for targeted metagenomics, statistical analysis and results visualization with a large variety of plots (barplot, boxplot, heatmap, …)."
 user_support:
   - "A tutorial and User Guide are available."

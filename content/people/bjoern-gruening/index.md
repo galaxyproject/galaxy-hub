@@ -1,4 +1,4 @@
-<div class='right'>![](/src/galaxy-team/BjoernGruening.jpg)</div>
+<div class='right'>![](/galaxy-team/BjoernGruening.jpg)</div>
 
 
 # Björn Grüning
@@ -15,7 +15,7 @@
 [University of Freiburg](http://www.bioinf.uni-freiburg.de) <br />
 Albert-Ludwigs-Universität Freiburg <br />
 Georges-Köhler-Allee 106 <br />
-79110 Freiburg 
+79110 Freiburg
 
 ## Contact
 

@@ -1,14 +1,14 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.unc.edu/'><img src="/src/images/logos/UNCLogo.png" alt="University or North Carolina Chapel Hill" width="400px" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://www.unc.edu/'><img src="/images/logos/UNCLogo.png" alt="University or North Carolina Chapel Hill" width="400px" /></a> </td>
   </tr>
 </table>
 
 
 <div class='title'>Introduction to Galaxy<br />July 19, 2013</div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+**Instructor: [Dave Clements](/people/dave-clements/)
 
 9:00-4:30<br />
 Health Sciences Library Biogen-Idec Classroom (#307)<br />
@@ -17,7 +17,7 @@ Health Sciences Library Biogen-Idec Classroom (#307)<br />
 
 ## Registration
 
-[Registration](http://www.hsl.unc.edu/Services/Classes/classregistration.cfm) was free, first come first served, and open to anyone in the UNC-CH research community. 
+[Registration](http://www.hsl.unc.edu/Services/Classes/classregistration.cfm) was free, first come first served, and open to anyone in the UNC-CH research community.
 
 ## Audience
 
@@ -93,14 +93,14 @@ No programming or Linux command line experience is required.
 
 ## Support
 
-<div class='left'><a href='/src/events/rt-workshop-tour2013/index.md'><img src="/src/images/logos/RTGalaxyWorkshopTour2013-300.png" alt="2013 Research Triangle Galaxy Workshop Tour" width="170px" /></a></div>
- 
-<div class='right'><a href='http://hsl.lib.unc.edu'><img src="/src/images/logos/UNCHSLLogo.png" alt="UNC Health Sciences Library" height="50" /></a> <a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="130px" /></a></div>
+<div class='left'><a href='/events/rt-workshop-tour2013/'><img src="/images/logos/RTGalaxyWorkshopTour2013-300.png" alt="2013 Research Triangle Galaxy Workshop Tour" width="170px" /></a></div>
+
+<div class='right'><a href='http://hsl.lib.unc.edu'><img src="/images/logos/UNCHSLLogo.png" alt="UNC Health Sciences Library" height="50" /></a> <a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="130px" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [UNC Health Sciences Library](http://hsl.lib.unc.edu).
 
-This course will be part of both the [UNC Health Sciences Library’s](http://hsl.lib.unc.edu) [Basic Bioinformatics Tools Workshop series](http://guides.lib.unc.edu/bioinformatics), and the 
-[2013 Research Triangle Galaxy Workshop Tour](/src/events/rt-workshop-tour2013/index.md).
+This course will be part of both the [UNC Health Sciences Library’s](http://hsl.lib.unc.edu) [Basic Bioinformatics Tools Workshop series](http://guides.lib.unc.edu/bioinformatics), and the
+[2013 Research Triangle Galaxy Workshop Tour](/events/rt-workshop-tour2013/).
 
 ## Slides
 

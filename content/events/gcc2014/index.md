@@ -9,19 +9,19 @@ location_url: https://jhu.edu
 external_url:
 gtn: false
 contact: Organizers
-image: /src/images/logos/GCC2014LogoWide400.png
+image: /images/logos/GCC2014LogoWide400.png
 tags: [ cofest ]
 ---
 
 <div class="text-center">
-**[Slides, posters, and videos are now available](/src/events/gcc2014/abstracts/index.md); *and [GCC2018](https://gccboscs.sched.com/) is coming!* **
-</div> 
+**[Slides, posters, and videos are now available](/events/gcc2014/abstracts/); *and [GCC2018](https://gccboscs.sched.com/) is coming!* **
+</div>
 
 The 2014 Galaxy Community Conference (GCC2014) was held at the [Homewood Campus](http://webapps.jhu.edu/jhuniverse/information_about_hopkins/campuses/homewood_campus/) of [Johns Hopkins University](http://jhu.edu), in [Baltimore, Maryland](http://visitors.baltimorecity.gov/), United States, from June 30 through July 2, 2014
 
-[Galaxy Community Conferences](/src/gcc/index.md) are an opportunity to participate in [presentations](/src/events/gcc2014/abstracts/index.md#talk-abstracts), discussions, [poster sessions](/src/events/gcc2014/abstracts/index.md#poster-abstracts), [lightning talks](/src/events/gcc2014/lightning/index.md) and [birds-of-a-feather gatherings](/src/events/gcc2014/bofs/index.md), all about high-throughput biology and the tools that support it.  
+[Galaxy Community Conferences](/gcc/) are an opportunity to participate in [presentations](/events/gcc2014/abstracts/#talk-abstracts), discussions, [poster sessions](/events/gcc2014/abstracts/#poster-abstracts), [lightning talks](/events/gcc2014/lightning/) and [birds-of-a-feather gatherings](/events/gcc2014/bofs/), all about high-throughput biology and the tools that support it.  
 
-The conference also included a [Training Day](/src/events/gcc2014/training-day/index.md) offering in-depth topic coverage, across several concurrent sessions.  
+The conference also included a [Training Day](/events/gcc2014/training-day/) offering in-depth topic coverage, across several concurrent sessions.  
 
 <slot name="/events/gcc2014/linkbox" />
 
@@ -46,27 +46,27 @@ Several meeting reports have been created online:
     Use Galaxy to construct complex bioinformatics workflows and then run them repeatedly, share them with others, or publish them to the world.
 
 * **Sequencing and Bioinformatics core staff**
-    Local Galaxy deployments can talk directly with your sequencers, simplify your analysis tasks, and give your researchers direct access to running their own custom analysis. 
+    Local Galaxy deployments can talk directly with your sequencers, simplify your analysis tasks, and give your researchers direct access to running their own custom analysis.
 
 * **Bioinformatics tool developers and data providers**
-    Integrate your tools and resources in the Galaxy framework, increasing their visibility, and making them easier to use and integrate with other resources. 
+    Integrate your tools and resources in the Galaxy framework, increasing their visibility, and making them easier to use and integrate with other resources.
 
 * **Data and analysis archival specialists**
-    Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets and the computational analyses that produced them. 
+    Galaxy is being used to extend the goal of reproducibility from the wet lab to the computational realm by persisting datasets and the computational analyses that produced them.
 
 ## You should attend to ...
 
-* **[Present your work!](/src/events/gcc2014/abstracts/index.md)**
-* **[Learn best practices](/src/events/gcc2014/program/index.md)** for deploying Galaxy, defining and installing resources, and managing and moving large datasets.
+* **[Present your work!](/events/gcc2014/abstracts/)**
+* **[Learn best practices](/events/gcc2014/program/)** for deploying Galaxy, defining and installing resources, and managing and moving large datasets.
 * **Network with others** in the Galaxy community who are facing similar challenges and using Galaxy and other tools to address them.
 * Learn what the Galaxy Project's plans are, and **contribute to Galaxy's future direction.**
-* **Learn** 
-  * how to visualize your data in Galaxy and use visualization to guide your analysis (visual analytics)
-  * how to share, publish, and reuse your analyses with Galaxy
-  * how to perform *and enable your users to perform* common, yet complex, analyses using Galaxy
+* **Learn**
+    * how to visualize your data in Galaxy and use visualization to guide your analysis (visual analytics)
+    * how to share, publish, and reuse your analyses with Galaxy
+    * how to perform *and enable your users to perform* common, yet complex, analyses using Galaxy
 * when and how to use *Galaxy on the Cloud*
 
-<div class='right'><br /><br /><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/src/images/people/Salzberg.jpg" alt="Steven Salzberg" width="125" /></a></div>
+<div class='right'><br /><br /><a href='http://ccb.jhu.edu/people/salzberg/'><img src="/images/people/Salzberg.jpg" alt="Steven Salzberg" width="125" /></a></div>
 
 ## Keynote Speaker
 
@@ -76,73 +76,73 @@ Steve's GCC2014 talk will be on "Transcriptomes and Exomes: Computational Challe
 
 ## About Galaxy
 
-Galaxy makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis, trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/src/admin/license/index.md). 
+Galaxy makes it easy to perform analysis interactively through the web, on arbitrarily large datasets. With hundreds of tools there are few limits on what can be done. Now with NGS tools & workflows for short-read mapping, ChIP-seq, RNA-seq, metagenomics, and pileup analysis, trackster browser, collaborative pages, and support for Galaxy in the Cloud. Galaxy is distributed under the [Academic Free License](/admin/license/).
 
 ## GCC2014 Sponsors
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/PlatinumBanner.png" alt="Platinum Sponsor" />](/src/events/gcc2014/sponsor-exhibit/index.md)
+[<img class="mx-auto" src="/events/gcc2013/sponsorships/PlatinumBanner.png" alt="Platinum Sponsor" />](/events/gcc2014/sponsor-exhibit/)
 
-[<img class="mx-auto" src="/src/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="320" />](http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html)
+[<img class="mx-auto" src="/images/logos/IonTorrentLogo340.png" alt="Ion Torrent by Life Technologies" width="320" />](http://www.lifetechnologies.com/us/en/home/brands/ion-torrent.html)
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/GoldBanner.png" alt="Gold Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
+[<img class="mx-auto" src="/events/gcc2013/sponsorships/GoldBanner.png" alt="Gold Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
-[<img class="mx-auto" src="/src/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" />](http://bioteam.net/slipstream/galaxy-edition/)
+[<img class="mx-auto" src="/images/logos/BioTeamLogo154.gif" alt="BioTeam" width="200" />](http://bioteam.net/slipstream/galaxy-edition/)
 
-[<img class="mx-auto" src="/src/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" />](http://www.emc.com/isilon)
+[<img class="mx-auto" src="/images/logos/EMCIsilonLogo.jpg" alt="EMC Isilon" width="340" />](http://www.emc.com/isilon)
 
-[<img class="mx-auto"  src="/src/images/logos/SGILogo400.jpg" alt="SGI" width="210" />](http://www.sgi.com/solutions/genomics/)
+[<img class="mx-auto"  src="/images/logos/SGILogo400.jpg" alt="SGI" width="210" />](http://www.sgi.com/solutions/genomics/)
 
- 
+
 <br /><br />
 
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/SilverBanner.png" alt="Silver Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
+[<img class="mx-auto" src="/events/gcc2013/sponsorships/SilverBanner.png" alt="Silver Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
 <br />
 
-[<img class="mx-auto" src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="180" />](http://globus.org/genomics)
+[<img class="mx-auto" src="/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="180" />](http://globus.org/genomics)
 
-[<img class="mx-auto" src="/src/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="160" />](http://www.gigasciencejournal.com/)
+[<img class="mx-auto" src="/images/logos/GigaScienceLogo250.png" alt="GigaScience Journal" width="160" />](http://www.gigasciencejournal.com/)
 
-[<img class="mx-auto" src="/src/images/logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="160" />](http://www.biomedcentral.com/)
+[<img class="mx-auto" src="/images/logos/BMCLogo200.png" alt="BioMed Central, The Open Access Publisher" width="160" />](http://www.biomedcentral.com/)
 '
-[<img class="mx-auto" src="/src/images/logos/ABgenomicaLogo.jpg" alt="ABgenomica"  />](http://www.abgenomica.com/)
+[<img class="mx-auto" src="/images/logos/ABgenomicaLogo.jpg" alt="ABgenomica"  />](http://www.abgenomica.com/)
 
-[<img class="mx-auto" src="/src/images/logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" />](http://genomeweb.com)
+[<img class="mx-auto" src="/images/logos/GenomeWebSmall.png" alt="GenomeWeb" width="180" />](http://genomeweb.com)
 
-[<img class="mx-auto" src="/src/images/logos/PenguinComputing.png" alt="Penguin computing" width="170" />](http://www.penguincomputing.com/)
+[<img class="mx-auto" src="/images/logos/PenguinComputing.png" alt="Penguin computing" width="170" />](http://www.penguincomputing.com/)
 
 <br /><br />
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
+[<img class="mx-auto" src="/events/gcc2013/sponsorships/BronzeBanner.png" alt="Bronze Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
 <br />
 
-[<img class="mx-auto" src="/src/images/logos/BioMaryland400.png" alt="BioMaryland" width="250" />](http://bio.maryland.gov/)
+[<img class="mx-auto" src="/images/logos/BioMaryland400.png" alt="BioMaryland" width="250" />](http://bio.maryland.gov/)
 
 <br /><br />
 
-[<img class="mx-auto" src="/src/events/gcc2013/sponsorships/OtherBanner.png" alt="Other Sponsors"  />](/src/events/gcc2014/sponsor-exhibit/index.md)
+[<img class="mx-auto" src="/events/gcc2013/sponsorships/OtherBanner.png" alt="Other Sponsors"  />](/events/gcc2014/sponsor-exhibit/)
 
-[<img class="mx-auto" src="/src/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" />](http://aws.amazon.com/)
+[<img class="mx-auto" src="/images/logos/AWSLogo1280.jpg" alt="Amazon Web Services" width="250" />](http://aws.amazon.com/)
 
 <div class="text-center">
-**[Training Day](/src/events/gcc2014/training-day/index.md) Sponsor**
+**[Training Day](/events/gcc2014/training-day/) Sponsor**
 </div>
 
 <br />
 
-![Hosts and Funding Agencies](/src/events/gcc2013/sponsorships/HostsBanner.png)
+![Hosts and Funding Agencies](/events/gcc2013/sponsorships/HostsBanner.png)
 
-[<img class="mx-auto" src="/src/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  />](http://biolchem.bs.jhmi.edu/)
+[<img class="mx-auto" src="/images/logos/JohnsHopkinsBioChem.png" alt="Biological Chemistry @ Johns Hopkins"  />](http://biolchem.bs.jhmi.edu/)
 
-[<img class="mx-auto" src="/src/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins University" height="100" />](http://jhu.edu)
+[<img class="mx-auto" src="/images/logos/JohnsHopkinsLogoLarge.gif" alt="Johns Hopkins University" height="100" />](http://jhu.edu)
 
-[<img class="mx-auto"  src="/src/images/logos/JohnHopkinsEpigenetics.jpg" alt="Center for Epigenetics" />](http://epigenetics.jhu.edu/)
+[<img class="mx-auto"  src="/images/logos/JohnHopkinsEpigenetics.jpg" alt="Center for Epigenetics" />](http://epigenetics.jhu.edu/)
 
 <br />
 
-*Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/src/events/gcc2014/sponsor-exhibit/index.md) or [exhibitor](/src/events/gcc2014/sponsor-exhibit/index.md#exhibitor).*
+*Interested in being a prominent part of one of the fastest growing communities in bioinformatics?  Become a [meeting sponsor](/events/gcc2014/sponsor-exhibit/) or [exhibitor](/events/gcc2014/sponsor-exhibit/#exhibitor).*
 
 <br />
 

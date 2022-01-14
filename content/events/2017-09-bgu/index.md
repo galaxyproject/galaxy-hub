@@ -18,16 +18,16 @@ September 7th
 
 **GALAXY – a tool for analyzing NGS data: introduction**
 
-[Anton Nekrutenko](/src/people/anton/index.md), PhD (Penn State University)
+[Anton Nekrutenko](/people/anton/), PhD (Penn State University)
 
 The workshop will take place in Building 38, computer room, ground floor (unless indicated differently)
 
 | Time | Who | Talk | Where |
 | ---- | ---- | ---- | ---- |
  | 9:00 - 10:00  | Prof. Kateryna Makova (Penn-State University) | "Non-canonical DNA conformations affect polymerase progression and error rate in sequencers and in living cells" | Building 38, Auditorium 10 |
- 
+
  **The Workshop - computer room, building 38**
- 
+
 Prof. Anton Nekrutenko, Penn-State University
 
 | Time | Topic |

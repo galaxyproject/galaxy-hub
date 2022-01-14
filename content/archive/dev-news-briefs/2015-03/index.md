@@ -2,12 +2,12 @@
 title: March 2015 Galaxy Release (v 15.03)
 date: 2015-03-01
 ---
-[All News Briefs](/src/docs/index.md)
+[All News Briefs](/docs/)
 <br />
-[Galaxy March Release Summary](/src/news/2015-03-galaxy-release/index.md)
+[Galaxy March Release Summary](/news/2015-03-galaxy-release/)
 <br />
 
-<div class='left'><a href='http://getgalaxy.org'><img src="/src/images/logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
+<div class='left'><a href='http://getgalaxy.org'><img src="/images/logos/GetGalaxyOrg.png" alt=" " width=175 /></a></div>
 
 <br />
 <br />
@@ -43,7 +43,7 @@ date: 2015-03-01
 
 # Release Versioning
 
-Starting with this distribution, an updated Galaxy release versioning system has been implemented. The versioning scheme is [Ubuntu-style](https://wiki.ubuntu.com/Releases). 
+Starting with this distribution, an updated Galaxy release versioning system has been implemented. The versioning scheme is [Ubuntu-style](https://wiki.ubuntu.com/Releases).
 
 Releases versioning details are as follows:
 
@@ -58,7 +58,7 @@ Releases versioning details are as follows:
 
 # Release Branches
 
-* The Github [master](https://github.com/galaxyproject/galaxy/tree/master) branch is similar to the former Bitbucket [stable](https://bitbucket.org/galaxy/galaxy-dist/branch/stable) branch. The difference is that whereas individual commits to the current stable release were previously applied to the stable branch, they are now only applied in a group, when a "point" release is made (e.g. `15.03.1`). 
+* The Github [master](https://github.com/galaxyproject/galaxy/tree/master) branch is similar to the former Bitbucket [stable](https://bitbucket.org/galaxy/galaxy-dist/branch/stable) branch. The difference is that whereas individual commits to the current stable release were previously applied to the stable branch, they are now only applied in a group, when a "point" release is made (e.g. `15.03.1`).
 * The Bitbucket stable branch now works the same way as the Github master branch.
 * Permanent named branches are now created for each release. The 15.03 release is in the [release_15.03](https://github.com/galaxyproject/galaxy/tree/release_15.03) branch, which will be updated with additional changes throughout the lifecycle of this release, as was done with the Bitbucket `stable` branch in the past. When the Galaxy Team determines that a "point" release is necessary, this branch is merged to `master` and a point release tag is created. This branch exists in both the [Github](https://github.com/galaxyproject/galaxy) and [Bitbucket](https://bitbucket.org/galaxy/galaxy-dist) versions of Galaxy.
 
@@ -66,13 +66,13 @@ Thus, if you would like to upgrade to the 15.03 release and ensure you do not su
 
 # Tool Redesign
 
-Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolsehd) and many are ready for use on Galaxy [Main](/src/main/index.md). Older Workflows may contain tools that automatically map to the new tools or Workflows may need minor adjustments. [c6Lkejro](https://trello.com/c/c6Lkejro) 
+Much of Galaxy’s core tool set has been redesigned. Several contain new functionality. These tools are included in the [Tool Shed](http://usegalaxy.org/toolsehd) and many are ready for use on Galaxy [Main](/main/). Older Workflows may contain tools that automatically map to the new tools or Workflows may need minor adjustments. [c6Lkejro](https://trello.com/c/c6Lkejro)
 
-Be sure to check out the new [Galaxy NGS 101](/src/learn/galaxy-ngs101/index.md) wiki (in progress). 
+Be sure to check out the new [Galaxy NGS 101](/learn/galaxy-ngs101/) wiki (in progress).
 
 # Github
 
-<div class='right'><a href='https://github.com/galaxyproject/galaxy'><img src="/src/images/logos/GitHubLogoText.png" alt="Galaxy on GitHub" width="100" /></a></div>
+<div class='right'><a href='https://github.com/galaxyproject/galaxy'><img src="/images/logos/GitHubLogoText.png" alt="Galaxy on GitHub" width="100" /></a></div>
 
 Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy), but stable/release changes are mirrored to Bitbucket. Deployers can continue to use Bitbucket as they have done in the past.
 
@@ -81,7 +81,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. [Mercurial](http://mercurial.selenic.com) egg updated to version (3.2.4). [9A9uIav0](https://trello.com/c/9A9uIav0) [NUqyskst](https://trello.com/c/NUqyskst)
 1. [SQLAlchemy](http://www.sqlalchemy.org) upgrade to version 0.9.8. [zGLtSgPW](https://trello.com/c/zGLtSgPW)
 1. An invalid API key will now always return a »403« error. Triggers: API key is not found, is expired, or is not associated with an active account. [n59kZhXk](https://trello.com/c/n59kZhXk)
-1. Python PEP-8 fixes and API documentation enhancements for Libraries API. Thanks to [Nicola Soranzo](/src/people/nicola-soranzo/index.md). [MD4iUtzk](https://trello.com/c/MD4iUtzk)
+1. Python PEP-8 fixes and API documentation enhancements for Libraries API. Thanks to [Nicola Soranzo](/people/nicola-soranzo/). [MD4iUtzk](https://trello.com/c/MD4iUtzk)
 1. Moved the vast majority of the test-data out of `GALAXY_ROOT` (remaining tools excluded). [kcYI9DnK](https://trello.com/c/kcYI9DnK) [xd7Uri9l](https://trello.com/c/xd7Uri9l)
 1. New options that permits tools to access their `$REPOSITORY_INSTALL_DIR` location via `PATH`. [0pgF5PBQ](https://trello.com/c/0pgF5PBQ)
 1. To preserve the original deployment state, a new option to disable runtime egg fetching was created (a configurable environment variable - see ticket for details). [lthRjVZq](https://trello.com/c/lthRjVZq)
@@ -92,9 +92,9 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Expanded on Base, History, and HDA managers to provide a consistent facade for common model operations. [3A8nocpN](https://trello.com/c/3A8nocpN)
 1. Upgraded [SQLAlchemy](http://www.sqlalchemy.org) to incorporate two major revisions in this release. [XbZwEuxx](https://trello.com/c/XbZwEuxx)
 1. Removed use of the elementtree package and move to lxml.etree. [JJDxFdzK](https://trello.com/c/JJDxFdzK)
-1. Stopped aborted restart when `stop_daemon()` fails. Thank you [Nicola Soranzo](/src/people/nicola-soranzo/index.md). [1nlG2OmX](https://trello.com/c/1nlG2OmX)
-1. Merged `rolling_restart.sh` in `run.sh` by adding a new `—wait` parameter and other enhancements. Thank you [Nicola Soranzo](/src/people/nicola-soranzo/index.md). [QNKSMf2B](https://trello.com/c/QNKSMf2B) [S3WLFpGL](https://trello.com/c/S3WLFpGL) [jx0F2RKy](https://trello.com/c/jx0F2RKy)
-1. Enhancements to `galaxy.ini` and `integrated_tool_panel.xml` documentation. Contributed by [Nicola Soranzo](/src/people/nicola-soranzo/index.md). [4idoVDY8](https://trello.com/c/4idoVDY8)
+1. Stopped aborted restart when `stop_daemon()` fails. Thank you [Nicola Soranzo](/people/nicola-soranzo/). [1nlG2OmX](https://trello.com/c/1nlG2OmX)
+1. Merged `rolling_restart.sh` in `run.sh` by adding a new `—wait` parameter and other enhancements. Thank you [Nicola Soranzo](/people/nicola-soranzo/). [QNKSMf2B](https://trello.com/c/QNKSMf2B) [S3WLFpGL](https://trello.com/c/S3WLFpGL) [jx0F2RKy](https://trello.com/c/jx0F2RKy)
+1. Enhancements to `galaxy.ini` and `integrated_tool_panel.xml` documentation. Contributed by [Nicola Soranzo](/people/nicola-soranzo/). [4idoVDY8](https://trello.com/c/4idoVDY8)
 1. New configuration option to isolate tool commands in their own shell. [kyS9dF0s](https://trello.com/c/kyS9dF0s)
 1. Added a new configuration, `template_cache_path`, to reports_wsgi.ini.sample. Thank you Trevor Wennblom. [5vJ4EsDI](https://trello.com/c/5vJ4EsDI)
 1. Provide [NGINX](http://nginx.org/en) packages with the upload module. [C3g6Ko8K](https://trello.com/c/C3g6Ko8K)
@@ -103,7 +103,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Restructured `mvc/ui.js`. [HnnBFJy0](https://trello.com/c/HnnBFJy0)
 1. Improved use of a SELECT statement to reliably retrieve table column names. Thank you James Johnson. [oYkjj4T3](https://trello.com/c/oYkjj4T3)
 1. Enhanced a method to use first component of X-Forwarded-{For,Host,Scheme} when redirecting to the Galaxy browser. [BmbtnSon](https://trello.com/c/BmbtnSon) [BmbtnSon](https://trello.com/c/BmbtnSon)
-1. Migrated `shed_tool_conf.xml` into /config. Contributed by [Nitesh Turaga](/src/people/nitesh-turaga/index.md). [6olcQrhR](https://trello.com/c/6olcQrhR)
+1. Migrated `shed_tool_conf.xml` into /config. Contributed by [Nitesh Turaga](/people/nitesh-turaga/). [6olcQrhR](https://trello.com/c/6olcQrhR)
 1. Made installation of tool repositories more robust by setting time to "Epoch" instead of throwing server error when `repository_metadata.time_last_tested` is unset. [o09VBhr1](https://trello.com/c/o09VBhr1)
 1. Change to allow anonymous users (those not logged into a Galaxy account) to view Pages with embedded Histories. [9Om6Odj2](https://trello.com/c/9Om6Odj2)
 1. The GET /api/jobs request/response functionality has been expanded. Details in ticket. Thank you Thomas McGowan. [H0Bvd737](https://trello.com/c/H0Bvd737)
@@ -111,7 +111,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Moved `blastdb_p.loc.sample` to the NCBI BLAST Tool Shed repository. Thanks to Lance Parsons. [lpZNmEzj](https://trello.com/c/lpZNmEzj)
 1. Clearer error messages where parameter validation fails. Thanks to Peter Cock. [dRaX5reV](https://trello.com/c/dRaX5reV)
 1. Added `pkg_resources` to load required Mako packages. Thanks to Lance Parsons. [JdxJ11U0](https://trello.com/c/JdxJ11U0)
-1. Updated the Dockerfile template to the latest version our Galaxy Docker Container (updated at Galaxy release). Thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md). [Z45ZZ9C2](https://trello.com/c/Z45ZZ9C2)
+1. Updated the Dockerfile template to the latest version our Galaxy Docker Container (updated at Galaxy release). Thanks to [Björn Grüning](/people/bjoern-gruening/). [Z45ZZ9C2](https://trello.com/c/Z45ZZ9C2)
 1. Added a new API method to remove items from tool data tables. Thanks to Anthony Bretaud. [51JsMj0b](https://trello.com/c/51JsMj0b)
 1. Create attribute »optional« for data column parameters. A compliment to »force_select«. [G5YtpQZK](https://trello.com/c/G5YtpQZK)
 1. Enhanced the `collect_primary_datasets()` method to allow assignment of the defined output parameter for 3rd-party tools that manage tool outputs internally. [pncHLXdw](https://trello.com/c/pncHLXdw)
@@ -121,43 +121,49 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Data Source/Provider Functions: filtering of transferred lines based on parsed column values. [jBMtQm0w](https://trello.com/c/jBMtQm0w)
 1. Updated the [Tuxedo RNA-seq tools](http://cole-trapnell-lab.github.io/cufflinks/manual/) to version 2.2.1 and created new wrappers for Cuffquant and Cuffnorm. In the [Tool Shed](http://usegalaxy.org/toolshed) and installed on [http://usegalaxy.org](http://usegalaxy.org). [bfr0jKut](https://trello.com/c/bfr0jKut)
 1. New Multiple Histories View. [XLkP9pCr](https://trello.com/c/XLkP9pCr)
-1. Enhancement for how the »Available Genomes List« is generated for the display application [IGV](http://www.broadinstitute.org/igv). [1T49snMh](https://trello.com/c/1T49snMh) 
+1. Enhancement for how the »Available Genomes List« is generated for the display application [IGV](http://www.broadinstitute.org/igv). [1T49snMh](https://trello.com/c/1T49snMh)
 1. Enhanced the Data Managers' reference genome retrieval protocol to function better with UCSC's updated file naming/paths. Created a new Data Manager for `dbkeys/Genome Builds`. Find these in the [Tool Shed](http://usegalaxy.org/toolshed). [kPkwDHmi](https://trello.com/c/kPkwDHmi) [pmd6gSS6](https://trello.com/c/pmd6gSS6)
 1. External Display Applications can now use Tool Data Tables. [b5kX6Eje](https://trello.com/c/b5kX6Eje)
 1. Data Managers can now populate Tool Data Tables that are undeclared. [2FV2aVIH](https://trello.com/c/2FV2aVIH)
 1. Tool Data Tables can load from a URL instead of a path. [xTsc9ojY](https://trello.com/c/xTsc9ojY)
 1. Tuned and enhanced the `determine_output_formats()` method for tools. [jeMaAiap](https://trello.com/c/jeMaAiap)
 1. Many changes have been made in order to support full usability of Dataset Collections in the near term. Latest progress includes:
-  * Tools can now be written to explicitly produce one or more Dataset Collections. [ndVQmt3G](https://trello.com/c/ndVQmt3G) [RA15wpMH](https://trello.com/c/RA15wpMH)
-  * Tools may now use `$input.element_identifier` during tool evaluation for input data parameters (useful for Workflows/Dataset Collections). [W5IChoLS](https://trello.com/c/W5IChoLS)
-  * Implementation of Dataset Collections »list of pairs«. Additional work is in-progress (see ticket). [8hEO00xj](https://trello.com/c/8hEO00xj)
-  * Dataset Collections updated to permit »Drag & Drop« functionality (»copy datasets« is still an option). [Zmy8aiFP](https://trello.com/c/Zmy8aiFP)
+
+* Tools can now be written to explicitly produce one or more Dataset Collections. [ndVQmt3G](https://trello.com/c/ndVQmt3G) [RA15wpMH](https://trello.com/c/RA15wpMH)
+* Tools may now use `$input.element_identifier` during tool evaluation for input data parameters (useful for Workflows/Dataset Collections). [W5IChoLS](https://trello.com/c/W5IChoLS)
+* Implementation of Dataset Collections »list of pairs«. Additional work is in-progress (see ticket). [8hEO00xj](https://trello.com/c/8hEO00xj)
+* Dataset Collections updated to permit »Drag & Drop« functionality (»copy datasets« is still an option). [Zmy8aiFP](https://trello.com/c/Zmy8aiFP)
+
 1. New [ZebrafishMine](http://www.zebrafishmine.org) Data Source tool. [u5OlE4kZ](https://trello.com/c/u5OlE4kZ)
-1. New datatypes. Thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md).
-  * Added [SnpEff](http://snpeff.sourceforge.net) datatypes. [accZ8KdI](https://trello.com/c/accZ8KdI)
-  * Added `CompressedArchive` as a new datatype that does not uncompress during data upload. [1xtvpWil](https://trello.com/c/1xtvpWil)
-  * Added Arff datatype. [fdVfagbS](https://trello.com/c/fdVfagbS)
-  * Added »RNA dotplot matrix« as a new datatype. [vNmGhAGE](https://trello.com/c/vNmGhAGE)
+1. New datatypes. Thanks to [Björn Grüning](/people/bjoern-gruening/).
+
+* Added [SnpEff](http://snpeff.sourceforge.net) datatypes. [accZ8KdI](https://trello.com/c/accZ8KdI)
+* Added `CompressedArchive` as a new datatype that does not uncompress during data upload. [1xtvpWil](https://trello.com/c/1xtvpWil)
+* Added Arff datatype. [fdVfagbS](https://trello.com/c/fdVfagbS)
+* Added »RNA dotplot matrix« as a new datatype. [vNmGhAGE](https://trello.com/c/vNmGhAGE)
+
 1. API updated to include options for selecting data from or downloading (as a tar ball) tool-data content. Thank you Kyle Ellrott. [1874DlBw](https://trello.com/c/1874DlBw)
 1. Allow BAM's `set_meta()` function to use [SAMTools 1](http://samtools.sourceforge.net) to generate the index (when `$PATH` points to SAMTools 1). [wVN3wSiT](https://trello.com/c/wVN3wSiT)
 1. Upload UI enhancements that added »select all« functionality to severall operations. Contributed by Jennifer Cabral. [X4WscBt8](https://trello.com/c/X4WscBt8)
 1. Modified API protocol when removing or refreshing a data table. [x2DLSNlN](https://trello.com/c/x2DLSNlN)
-1. History API Prototypes: 
-  * Consumers can filter index lists with a larger set of per-model options. [n72g8sZG](https://trello.com/c/n72g8sZG)
-  * New use of limit, offset in index calls. [7QH3vxRO](https://trello.com/c/7QH3vxRO)
+1. History API Prototypes:
+
+* Consumers can filter index lists with a larger set of per-model options. [n72g8sZG](https://trello.com/c/n72g8sZG)
+* New use of limit, offset in index calls. [7QH3vxRO](https://trello.com/c/7QH3vxRO)
+
 1. Updated location for new Tool’s »Tool Shed URL«: Tool Options pull down menu. (see graphic at right) [8GdLuEj2](https://trello.com/c/8GdLuEj2)
 1. Tool Panel »search« function optimized. [6Bvbduci](https://trello.com/c/6Bvbduci)
 1. Allowing Workflow step dependencies when no input/output files exist. [h5qZlgU8](https://trello.com/c/h5qZlgU8)
 1. Workflow steps are now assigned UUIDs. [4U9e1och](https://trello.com/c/4U9e1och)
 1. Updated the Workflow API by replacing preferred usage terminology (s/usage/invocation). [XNInq5KH](https://trello.com/c/XNInq5KH)
 1. Tuning for History panel functions: Dataset search, multi-select Datasets to perform batch operations, related database modifications. [D4nLl5Ky](https://trello.com/c/D4nLl5Ky)
-1. To enhance sharing of a History or Page, the forms now accept user IDs. Contributed by [Helena Rasche](/src/people/helena-rasche/index.md). [qzYtnG4T](https://trello.com/c/qzYtnG4T) [DCjT4KdQ](https://trello.com/c/DCjT4KdQ)
+1. To enhance sharing of a History or Page, the forms now accept user IDs. Contributed by [Helena Rasche](/people/helena-rasche/). [qzYtnG4T](https://trello.com/c/qzYtnG4T) [DCjT4KdQ](https://trello.com/c/DCjT4KdQ)
 1. Load the »Available Genomes« list from data tables for visualizations (Trackster). Thanks to Anthony Bretaudeau. [x8LMSD7Z](https://trello.com/c/x8LMSD7Z)
 1. The History »Options« menu has been updated to better compliment other recent UI changes. [EEsM0abM](https://trello.com/c/EEsM0abM)
 1. Several improvements to the History list view. [ltNMDNbZ](https://trello.com/c/ltNMDNbZ)
 1. New [Fetch Genome](http://toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta) Data Manager updated to create the metadata needed by Trackster. [IKdX0vX5](https://trello.com/c/IKdX0vX5)
 1. Addressed »multipart-upload« by using [Swift](https://swiftstack.com/openstack-swift) as an object storage backend. Thank you Charles Hsu. [U4kJBMk9](https://trello.com/c/U4kJBMk9)
-1. Added [Planemo](http://https://github.com/galaxyproject/planemo) test file to Tool Shed upload »blacklist«. Thanks to [Björn Grüning](/src/people/bjoern-gruening/index.md). [0Z1tfTVU](https://trello.com/c/0Z1tfTVU)
+1. Added [Planemo](http://https://github.com/galaxyproject/planemo) test file to Tool Shed upload »blacklist«. Thanks to [Björn Grüning](/people/bjoern-gruening/). [0Z1tfTVU](https://trello.com/c/0Z1tfTVU)
 1. Added tool tests functions to assert properties about command, standard output, and standard error. [kNgOADAF](https://trello.com/c/kNgOADAF)
 
 # Fixed
@@ -195,18 +201,18 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 
 # News and Community
 
-* **[GCC 2015](http://gcc2015.tsl.ac.uk/)** has opened [Abstract Submissions](/src/news/gcc2015-abstract-submission-open/index.md). 
-* Two Hackathons are now scheduled to occur *before* and *during* GCC 2015. 
-  * [GCC2015 Coding Hackathon](http://gcc2015.tsl.ac.uk/organisers/hackathon)
-  * New! [GCC2015 Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/organisers/data-hackathon)
-* [All Galaxy News](/src/news/index.md) and the [Hub for Release News](/src/docs/index.md)
-* [Twitter](/src/galaxy-on-twitter/index.md) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
-* [Events](/src/events/index.md), [Learn](/src/learn/index.md), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/src/support/index.md) with FAQ help, [Mailing list](/src/mailing-lists/index.md) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
-* All know of [Public Galaxy Main](/src/main/index.md), but have you reviewed the [Other Galaxy Public-hosted Servers](/src/use/index.md) lately?
-* [Teach](/src/teach/index.md) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
+* **[GCC 2015](http://gcc2015.tsl.ac.uk/)** has opened [Abstract Submissions](/news/gcc2015-abstract-submission-open/).
+* Two Hackathons are now scheduled to occur *before* and *during* GCC 2015.
+    * [GCC2015 Coding Hackathon](http://gcc2015.tsl.ac.uk/organisers/hackathon)
+    * New! [GCC2015 Data Wrangling Hackathon](http://gcc2015.tsl.ac.uk/organisers/data-hackathon)
+* [All Galaxy News](/news/) and the [Hub for Release News](/docs/)
+* [Twitter](/galaxy-on-twitter/) (wiki summary) or follow us directly at [https://twitter.com/galaxyproject](https://twitter.com/galaxyproject)
+* [Events](/events/), [Learn](/learn/), [Galaxy Biostar](https://biostar.usegalaxy.org/), [Support Resources](/support/) with FAQ help, [Mailing list](/mailing-lists/) subscription and archvies, and [Vimeo tutorials](http://vimeo.com/galaxyproject)
+* All know of [Public Galaxy Main](/main/), but have you reviewed the [Other Galaxy Public-hosted Servers](/use/) lately?
+* [Teach](/teach/) resources are an exciting, growing, and key area for expansion throughout 2015, check out what is new!
 * Follow current development real-time and create, comment, and vote on active [Trello](https://trello.com/galaxyproject) tickets. As an open source project, we very much welcome community involvement. Not sure how to get involved or how to [create an account](https://trello.com/b/ijIE4lMx/welcome-board)? We have guidance available **[here...](https://wiki.galaxyproject.org/Issues)**, that includes a form to aid with quick ticket submission.
-* [Community](/src/community/index.md) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
-* [Galaxy Project](/src/galaxy-project/index.md) home page (hub for all resources, those listed above and more!)
+* [Community](/community/) resources. Overview about how we value and seek your input. Have your voice heard and get involved!
+* [Galaxy Project](/galaxy-project/) home page (hub for all resources, those listed above and more!)
 * See our wiki's right side bar menu &rarr; for more links to areas of interest to you
 * Our wiki is absolutely open for community contributions and improvements.
 
@@ -215,7 +221,7 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 1. Various low-vulnerability-level security fixes. [U6yj2pPr](https://trello.com/c/U6yj2pPr)
 1. Galaxy logs no longer leak database connection information. [VjEqTxlT](https://trello.com/c/VjEqTxlT)
 1. The email for resetting an account password is now a link. [SKjU40t6](https://trello.com/c/SKjU40t6)
-1. New »shared secret« between Galaxy and upstream proxies, thereby preventing a specific potential impersonation attack. Thank you [Helena Rasche](/src/people/helena-rasche/index.md). [jTHrXHol](https://trello.com/c/jTHrXHol)
+1. New »shared secret« between Galaxy and upstream proxies, thereby preventing a specific potential impersonation attack. Thank you [Helena Rasche](/people/helena-rasche/). [jTHrXHol](https://trello.com/c/jTHrXHol)
 
 # Upgrades
 
@@ -224,5 +230,5 @@ Galaxy development has moved to [Github](https://github.com/galaxyproject/galaxy
 
 # About Galaxy
 
-<div class='left'><a href='http://usegalaxy.org'><img src="/src/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
-**[About Galaxy](/src/support/about-galaxy/index.md)** • [Galaxy Project](/src/galaxy-project/index.md) • [Admin](/src/admin/index.md) • [Issues](/src/issues/index.md) • [Big Picture](/src/galaxy-project/index.md) • [Community](/src/community/index.md) • [Get Galaxy](/src/admin/get-galaxy/index.md) • [CloudMan](/src/cloudman/index.md) • [Tool Shed](/src/toolshed/index.md) • [Develop](/src/develop/index.md) • [News Briefs](/src/docs/index.md) • [Servers](/src/use/index.md) • [Learn](/src/learn/index.md) • [Support](/src/support/index.md) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/src/news/index.md) • [Twitter](/src/galaxy-on-twitter/index.md) • [Events](/src/events/index.md) • [Teach](/src/teach/index.md) • [Cite](/src/citing-galaxy/index.md) • [Galaxy Team](/src/galaxy-team/index.md)
+<div class='left'><a href='http://usegalaxy.org'><img src="/images/logos/GalaxyLogoHighRes.png" alt="UseGalaxy.org" width="200" /></a></div>
+**[About Galaxy](/support/about-galaxy/)** • [Galaxy Project](/galaxy-project/) • [Admin](/admin/) • [Issues](/issues/) • [Big Picture](/galaxy-project/) • [Community](/community/) • [Get Galaxy](/admin/get-galaxy/) • [CloudMan](/cloudman/) • [Tool Shed](/toolshed/) • [Develop](/develop/) • [News Briefs](/docs/) • [Servers](/use/) • [Learn](/learn/) • [Support](/support/) • [Galaxy Biostar](http://biostar.usegalaxy.org) • [News](/news/) • [Twitter](/galaxy-on-twitter/) • [Events](/events/) • [Teach](/teach/) • [Cite](/citing-galaxy/) • [Galaxy Team](/galaxy-team/)

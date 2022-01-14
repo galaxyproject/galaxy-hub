@@ -1,9 +1,9 @@
 ---
 title: October 2014 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the October 2014 *[Galaxy Update](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/src/galaxy-updates/index.md)* complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.  
+Welcome to the October 2014 *[Galaxy Update](/galaxy-updates/)*, a summary of what is going on in the Galaxy community. *[Galaxy Updates](/galaxy-updates/)* complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.  
 
 # Galaxy Needs Your Input!
 
@@ -20,35 +20,35 @@ Let your voice be heard!
 
 # IRC Channel Policy Change
 
-<div class='left'><img src="/src/images/icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
+<div class='left'><img src="/images/icons/ChatBalloons.png" alt="Galaxy IRC Channel" width="60" /></div>
 
-A proposed change for the #galaxyproject IRC channel was [proposed](/src/news/irc-public-log-proposal/index.md), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
+A proposed change for the #galaxyproject IRC channel was [proposed](/news/irc-public-log-proposal/), and then [discussed, and approved on Galaxy Biostar](http://bit.ly/gxybs8804).  Starting sometime in October, posts to this channel will be made available in a searchable archive on the web.
 
-Thanks to everyone who participated in the decision, and [those at GCC2014 who suggested this](/src/events/gcc2014/bofs/galaxy-admins/index.md).
+Thanks to everyone who participated in the decision, and [those at GCC2014 who suggested this](/events/gcc2014/bofs/galaxy-admins/).
 
 
 # Events
 
-<div class='left'><br /><a href='/src/events/eccb2014/index.md'><img src="/src/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB'14 / JOBIM" height="75" /></a></div>
+<div class='left'><br /><a href='/events/eccb2014/'><img src="/images/logos/ECCB2014Logo.png" alt="Galaxy at ECCB'14 / JOBIM" height="75" /></a></div>
 
 ## Galaxy at ECCB'14
 
-Galaxy had a strong presence at [ECCB'14](/src/events/eccb2014/index.md).  Galaxy was featured in workshops, demos and posters.  Couldn't make it?  No worries, as [most slides and posters are now available online](/src/events/eccb2014/index.md).
+Galaxy had a strong presence at [ECCB'14](/events/eccb2014/).  Galaxy was featured in workshops, demos and posters.  Couldn't make it?  No worries, as [most slides and posters are now available online](/events/eccb2014/).
 
 
 ## Other Events
 
-<div class='center'> 
-<a href='/src/events/sg2014/index.md'><img src="/src/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
-<a href='http://www.qfab.org/events/upcoming/'><img src="/src/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
-<a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'><img src="/src/images/logos/DTLLogo150.png" alt="iReport - A tool to create flexible, scalable Galaxy tool interface, presented at the DTL Programmers Meeting" height="90" /></a>
-<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src="/src/images/logos/SB-RoscoffBig.JPG" alt="Des bonnes pratiques d'intégration d'outils sous Galaxy" height="60" /></a> &nbsp;
-<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'><img src="/src/images/logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
+<div class='center'>
+<a href='/events/sg2014/'><img src="/images/logos/SG2014Logo400.png" alt="2014 Swiss German Galaxy Tour" height="90" /></a>
+<a href='http://www.qfab.org/events/upcoming/'><img src="/images/logos/QFABLogo.png" alt="QFAB Workshops" height="80" /></a>
+<a href='http://wiki.data.dtls.nl/index.php/DTL_Programmers_Meeting'><img src="/images/logos/DTLLogo150.png" alt="iReport - A tool to create flexible, scalable Galaxy tool interface, presented at the DTL Programmers Meeting" height="90" /></a>
+<a href='http://galaxy4bioinformatics.sb-roscoff.fr/'><img src="/images/logos/SB-RoscoffBig.JPG" alt="Des bonnes pratiques d'intégration d'outils sous Galaxy" height="60" /></a> &nbsp;
+<a href='http://bioinfo.genotoul.fr/index.php?id=34&tx_seminars_pi1%5BshowUid%5D=62'><img src="/images/logos/GenoToulLogo.png" alt="Galaxy Training Days" height="60" /></a> &nbsp;
 </div>
 
-<div class='right'><a href='http://bit.ly/gxycal'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='http://bit.ly/gxycal'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
-There are [upcoming events](/src/events/index.md) in Switzerland, Germany, Australia, Norway, France, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [upcoming events](/events/) in Switzerland, Germany, Australia, Norway, France, Italy, and the United States.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
 <table class="table">
   <tr class="th" >
@@ -59,15 +59,15 @@ There are [upcoming events](/src/events/index.md) in Switzerland, Germany, Austr
   </tr>
   <tr>
     <th rowspan=3> September 30 - October 2 </th>
-    <td> <a href='/src/events/switzerland2014/trainingday/index.md'>Galaxy Training and Demo Day</a> </td>
-    <td rowspan=3> <strong><a href='/src/events/sg2014/index.md'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
-    <td rowspan=3> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> and <a href='/src/people/bjoern-gruening/index.md'>Bjoern Gruening</a> </td>
+    <td> <a href='/events/switzerland2014/trainingday/'>Galaxy Training and Demo Day</a> </td>
+    <td rowspan=3> <strong><a href='/events/sg2014/'>2014 Swiss-German Galaxy Tour</a></strong> with events in <strong>Bern, Switzerland</strong> and <strong>Freiburg, Germany</strong> </td>
+    <td rowspan=3> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> and <a href='/people/bjoern-gruening/'>Bjoern Gruening</a> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/switzerland2014/index.md'>(second Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/switzerland2014/'>(second Swiss) Galaxy Workshop</a></em> </td>
   </tr>
   <tr>
-    <td> <em><a href='/src/events/germany2014/index.md'>German Galaxy Developers Day</a></em> </td>
+    <td> <em><a href='/events/germany2014/'>German Galaxy Developers Day</a></em> </td>
   </tr>
   <tr>
     <th> October 1 </th>
@@ -141,7 +141,7 @@ The [Galaxy CiteULike library](http://bit.ly/gxyCiteULike) of publications reach
 
 * [Executing SADI services in Galaxy](http://bit.ly/1CB7snv), by Aranguren, *et al.* *Journal of Biomedical Semantics*, Vol. 5, No. 1. (2014), 42, doi:10.1186/2041-1480-5-42
 
-* [A Survey of Cloud-Based Service Computing Solutions for Mammalian Genomics](http://bit.ly/1vpSz3i), by Church & Goscinski, *IEEE Transactions on Services Computing,* DOI: 10.1109/TSC.2014.2353645 
+* [A Survey of Cloud-Based Service Computing Solutions for Mammalian Genomics](http://bit.ly/1vpSz3i), by Church & Goscinski, *IEEE Transactions on Services Computing,* DOI: 10.1109/TSC.2014.2353645
 
 * [An automated infrastructure to support high-throughput bioinformatics](http://bit.ly/1ryfGJB), by Cuccuru, *et al.* High Performance Computing &amp; Simulation (HPCS), 2014 International Conference on (July 2014), pp. 600-607, doi:10.1109/hpcsim.2014.6903742
 
@@ -210,44 +210,45 @@ The new papers were tagged in many different areas:
 
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [CDD Ingénieur NGS](http://bit.ly/YGIDHy) - Institut Curie, Paris, France  
-* [Emploi CDD Ingénieur Bioinformatique - ChIP-seq](http://bit.ly/1paQDYu), Marseille, France 
-* [Research Specialist](http://bit.ly/1vbagWb), Michigan State University, United States 
+* [Emploi CDD Ingénieur Bioinformatique - ChIP-seq](http://bit.ly/1paQDYu), Marseille, France
+* [Research Specialist](http://bit.ly/1vbagWb), Michigan State University, United States
 * [Bioinformatics and Computational Biology](http://bit.ly/1uysJJH), [US Army Engineer Research and Development Center’s Environmental Laboratory](http://el.erdc.usace.army.mil/index.cfm), Vicksburg, MS, United States
-* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States 
-* [Statistical Genomics Postdoc](/src/news/statistical-genomics-post-doc-penn-state/index.md) opening in the Makova lab at Penn State
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
+* [Computational Science Developer I](http://bit.ly/1lLkAMR), Cold Spring Harbor Laboratory (CSHL), New York, United States
+* [Statistical Genomics Postdoc](/news/statistical-genomics-post-doc-penn-state/) opening in the Makova lab at Penn State
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
 # New Public Servers
 
-Two new [public Galaxy server](/src/use/index.md) was added to the published list in September:
+Two new [public Galaxy server](/use/) was added to the published list in September:
 
 ## GalaxEast
 
-<div class='right solid'><a href='http://www.galaxeast.fr'><img src="/src/use/galaxeast/galaxeast.png" alt="GalaxEast"  /></a></div>
+<div class='right solid'><a href='http://www.galaxeast.fr'><img src="/use/galaxeast/galaxeast.png" alt="GalaxEast"  /></a></div>
 
 [GalaxEast](http://www.galaxeast.fr) aims at providing a large range of bioinformatics tools for the analysis of various types of Omics data. It supports reproducible computational research by providing an environment for performing and recording bioinformatics analyses.
 
 The [GalaxEast](http://www.galaxeast.fr) project has the following main objectives:
+
 * Provide the academic scientific community with an open and powerful Galaxy instance with a guaranteed availability. The platform offers access to cutting-edge and up-to-date tools for Omics data analysis with help and support.
 * Propose innovative developments and new helpful tools packaged for Galaxy (available in the GalaxEast toolshed)
 * Promote the packaging of new developments for Galaxy (through wrappers and/or toolshed packages).
 
 [GalaxEast](http://www.galaxeast.fr) is supported by [IGBMC](http://www.igbmc.fr/), [CNRS](http://www.cnrs.fr/), [Inserm](http://www.inserm.fr/), and [Université Strasbourg](http://www.unistra.fr/).
 
-See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/src/events/eccb2014/index.md) by Stephanie Le Gras, *et al.* for more.
+See *[GalaxEast: an open and powerful Galaxy instance for integrative Omics data analysis](https://depot.galaxyproject.org/hub/attachments/documents/posters/2014ECCB_GalaxEast.pdf),* poster presented at [ECCB'14](/events/eccb2014/) by Stephanie Le Gras, *et al.* for more.
 
 ## MIRPIPE
 
-<div class='right solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src="/src/use/archive/mpi-hlr-bioinformatics-server/mirpipe-home-page.png" alt="MIRPIPE - the miRNA identification pipeline" width="300" /></a></div>
+<div class='right solid'><a href='https://bioinformatics.mpi-bn.mpg.de/'><img src="/use/archive/mpi-hlr-bioinformatics-server/mirpipe-home-page.png" alt="MIRPIPE - the miRNA identification pipeline" width="300" /></a></div>
 
 [MIRPIPE](https://bioinformatics.mpi-bn.mpg.de/) focuses on quantification of microRNA based on smallRNA sequencing reads.  From the home page:
  In opposition to present algorithms that generally rely on genomic data to identify miRNAs, MIRPIPE focuses on niche model organisms that lack such information. Among the MIRPIPE features are automatic trimming and adapter removal of raw RNA-Seq reads originating from various sequencing instruments, clustering of isomiRs, and quantification of detected miRNAs by homology search versus public or user uploaded reference databases.
@@ -256,31 +257,31 @@ See "[MIRPIPE – quantification of microRNAs in niche model organisms](http://b
 
 # Galaxy Community Hubs
 
-<div class='left'>&nbsp;&nbsp; <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
-<div class='right'><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
+<div class='left'>&nbsp;&nbsp; <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a></div>
+<div class='right'><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> &nbsp;&nbsp;</div>
 <br />
 
 <table>
   <tr>
-    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a> </em> &nbsp;&nbsp;<br /> </td>
+    <td style="text-align: center;"> &nbsp;&nbsp; <a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a> </em> &nbsp;&nbsp;<br /> </td>
   </tr>
 </table>
 
 <br /><br />
 
 <div class='left'><br />
-<a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/src/images/logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
+<a href='http://environmentalomics.org/bio-linux-galaxy/'><img src="/images/logos/EOS.gif" alt="Overview of Galaxy on Bio-Linux 8" width="100" /></a>
 </div>
 
-The deployment details for the [GalaxEast public server](/src/use/galaxeast/index.md) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/src/blog/index.md).
+The deployment details for the [GalaxEast public server](/use/galaxeast/) were posted in September.  Tracey Timms-Wilson's (of the [NERC Environmental 'Omics Synthesis Centre](http://environmentalomics.org/)) [Overview of Galaxy on Bio-Linux 8](http://environmentalomics.org/bio-linux-galaxy/) page was also added to the [Community Log Board](/blog/).
 
-The *Deployment Catalog* and *[Community Log Board](/src/blog/index.md)* *[Galaxy community hubs](/src/community/index.md)* were launched in 2013.  If you have a Galaxy deployment, or [experience](/src/blog/index.md) you want to share then please publish them **this month.**
+The *Deployment Catalog* and *[Community Log Board](/blog/)* *[Galaxy community hubs](/community/)* were launched in 2013.  If you have a Galaxy deployment, or [experience](/blog/) you want to share then please publish them **this month.**
 
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # New Releases
 
-New versions of [Galaxy](/src/galaxy-updates/2014-09/index.md#august-11-2014-galaxy-distribution), [CloudMan](/src/galaxy-updates/2014-09/index.md#august-2014-cloudman-release), [BioBlend](/src/galaxy-updates/2014-09/index.md#bioblend-051-release), and [blend4j](/src/galaxy-updates/2014-09/index.md#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/src/galaxy-updates/2014-09/index.md#galaxy-ipython) too.
+New versions of [Galaxy](/galaxy-updates/2014-09/#august-11-2014-galaxy-distribution), [CloudMan](/galaxy-updates/2014-09/#august-2014-cloudman-release), [BioBlend](/galaxy-updates/2014-09/#bioblend-051-release), and [blend4j](/galaxy-updates/2014-09/#blend4j-011-release) were all released in August.  And so was [Galaxy IPython](/galaxy-updates/2014-09/#galaxy-ipython) too.
 
 Look for a new Galaxy distribution in October.
 
@@ -290,102 +291,102 @@ Look for a new Galaxy distribution in October.
 
 Here are new contributions for the past *two* months.
 
-In no particular order: 
+In no particular order:
 
 ### Tools
 
 * *From [saket-choudhary](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/)*
-  * [sift_web](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/sift_web): PROVEAN and SIFT predictions for a list of human genome variants.
+    * [sift_web](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/sift_web): PROVEAN and SIFT predictions for a list of human genome variants.
 
 * *From [gbcs-embl-heidelberg](https://toolshed.g2.bx.psu.edu/view/gbcs-embl-heidelberg/)*
-  * [jemultiplexer](https://toolshed.g2.bx.psu.edu/view/gbcs-embl-heidelberg/jemultiplexer): debarcoding/demultiplexing tool for FASTQ files accommodating all complex multiplexing protocols (iCLIP, molecule barcoding, ...).
+    * [jemultiplexer](https://toolshed.g2.bx.psu.edu/view/gbcs-embl-heidelberg/jemultiplexer): debarcoding/demultiplexing tool for FASTQ files accommodating all complex multiplexing protocols (iCLIP, molecule barcoding, ...).
 
 * *From [mcharles](https://toolshed.g2.bx.psu.edu/view/mcharles/)*
-  * [rapsodyn](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsodyn): tools and workflow used for the [Rapsodyn Project](http://www.rapsodyn.fr/)
-  * [rapsosnp](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsosnp): workflow to detect and select SNP for the rapsodyn project    
+    * [rapsodyn](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsodyn): tools and workflow used for the [Rapsodyn Project](http://www.rapsodyn.fr/)
+    * [rapsosnp](https://toolshed.g2.bx.psu.edu/view/mcharles/rapsosnp): workflow to detect and select SNP for the rapsodyn project
 
 * *From [ayllon](https://toolshed.g2.bx.psu.edu/view/ayllon/)*
-  * [tcoffee](https://toolshed.g2.bx.psu.edu/view/ayllon/tcoffee): T-Coffee multiple alignment suite.
+    * [tcoffee](https://toolshed.g2.bx.psu.edu/view/ayllon/tcoffee): T-Coffee multiple alignment suite.
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [bamtools](https://toolshed.g2.bx.psu.edu/view/anton/bamtools): A collection of tools for manipulation of bamfiles
-  * [vcfflatten](https://toolshed.g2.bx.psu.edu/view/anton/vcfflatten): Removes multi-allelic sites by picking the most common alternate
+    * [bamtools](https://toolshed.g2.bx.psu.edu/view/anton/bamtools): A collection of tools for manipulation of bamfiles
+    * [vcfflatten](https://toolshed.g2.bx.psu.edu/view/anton/vcfflatten): Removes multi-allelic sites by picking the most common alternate
 
 * *From [crs4](https://toolshed.g2.bx.psu.edu/view/crs4/)*
-  * [kggseq_variant_selection](https://toolshed.g2.bx.psu.edu/view/crs4/kggseq_variant_selection): Variant selection with KGGSeq
+    * [kggseq_variant_selection](https://toolshed.g2.bx.psu.edu/view/crs4/kggseq_variant_selection): Variant selection with KGGSeq
 
 * *From [tyty](https://toolshed.g2.bx.psu.edu/view/tyty/)*
-  * [structurefold](https://toolshed.g2.bx.psu.edu/view/tyty/structurefold): StructureFold predicts RNA secondary structures from high throughput RNA structure profiling data
+    * [structurefold](https://toolshed.g2.bx.psu.edu/view/tyty/structurefold): StructureFold predicts RNA secondary structures from high throughput RNA structure profiling data
 
 * *From [big-tiandm](https://toolshed.g2.bx.psu.edu/view/big-tiandm/)*
-  * [sirna_plant](https://toolshed.g2.bx.psu.edu/view/big-tiandm/sirna_plant): plant siRNA analysis toolkits. siRNA prediction, siRNA annotation, siRNA quantify
+    * [sirna_plant](https://toolshed.g2.bx.psu.edu/view/big-tiandm/sirna_plant): plant siRNA analysis toolkits. siRNA prediction, siRNA annotation, siRNA quantify
 
 * *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/)*
-  * [dc_genotyper](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/dc_genotyper): genotyper aimed at finding SNPs in high-ploidy (or pooled) samples sequenced at very high depth in a targeted region. 
+    * [dc_genotyper](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/dc_genotyper): genotyper aimed at finding SNPs in high-ploidy (or pooled) samples sequenced at very high depth in a targeted region.
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp/)*
-  * [fasta_merge_files_and_filter_unique_sequences](https://toolshed.g2.bx.psu.edu/view/galaxyp/fasta_merge_files_and_filter_unique_sequences): Merge FASTA files, keeping only unique sequences
-  * [filter_by_fasta_ids](https://toolshed.g2.bx.psu.edu/view/galaxyp/filter_by_fasta_ids): Extract sequences from a FASTA file based on a list of IDs
-  * [myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/myrimatch): protein identification via database search using Bumbershoot MyriMatch
-  * [ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/ltq_iquant_cli): iQuant performs tag based isobaric quantification
-  * [idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/idpqonvert): Bumbershoot idpQonvert, a part of Bumbershoot IDPicker.
-  * [directag_and_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/directag_and_tagrecon): protein identification via Directag and TagRecon.
+    * [fasta_merge_files_and_filter_unique_sequences](https://toolshed.g2.bx.psu.edu/view/galaxyp/fasta_merge_files_and_filter_unique_sequences): Merge FASTA files, keeping only unique sequences
+    * [filter_by_fasta_ids](https://toolshed.g2.bx.psu.edu/view/galaxyp/filter_by_fasta_ids): Extract sequences from a FASTA file based on a list of IDs
+    * [myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/myrimatch): protein identification via database search using Bumbershoot MyriMatch
+    * [ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/ltq_iquant_cli): iQuant performs tag based isobaric quantification
+    * [idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/idpqonvert): Bumbershoot idpQonvert, a part of Bumbershoot IDPicker.
+    * [directag_and_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/directag_and_tagrecon): protein identification via Directag and TagRecon.
 
 ### Suites
 
 * *From [biomonika](https://toolshed.g2.bx.psu.edu/view/biomonika/)*
-  * [suite_linkyx_bundle_main_0_1](https://toolshed.g2.bx.psu.edu/view/biomonika/suite_linkyx_bundle_main_0_1): 
+    * [suite_linkyx_bundle_main_0_1](https://toolshed.g2.bx.psu.edu/view/biomonika/suite_linkyx_bundle_main_0_1):
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [suite_vcflib_tools_3_0](https://toolshed.g2.bx.psu.edu/view/anton/suite_vcflib_tools_3_0): 23 tools for manipulation of VCF datasets
+    * [suite_vcflib_tools_3_0](https://toolshed.g2.bx.psu.edu/view/anton/suite_vcflib_tools_3_0): 23 tools for manipulation of VCF datasets
 
 ### Packages / Tool Dependency Definitions
 
 * *From [fubar](https://toolshed.g2.bx.psu.edu/view/fubar/)*
-  * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/fubar/package_graphicsmagick_1_3_20):
+    * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/fubar/package_graphicsmagick_1_3_20):
 
 * *From [iuc](https://toolshed.g2.bx.psu.edu/view/iuc/)*
-  * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/iuc/package_graphicsmagick_1_3_20):
-  * [package_bioperl_1_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_bioperl_1_6): downloads and compiles version 1.6 of Bioperl.
-  * [package_onto_perl_1_41](https://toolshed.g2.bx.psu.edu/view/iuc/package_onto_perl_1_41): downloads and compiles version 1.41 of the Ontology toolkit written in perl.
+    * [package_graphicsmagick_1_3_20](https://toolshed.g2.bx.psu.edu/view/iuc/package_graphicsmagick_1_3_20):
+    * [package_bioperl_1_6](https://toolshed.g2.bx.psu.edu/view/iuc/package_bioperl_1_6): downloads and compiles version 1.6 of Bioperl.
+    * [package_onto_perl_1_41](https://toolshed.g2.bx.psu.edu/view/iuc/package_onto_perl_1_41): downloads and compiles version 1.41 of the Ontology toolkit written in perl.
 
 * *From [saket-choudhary](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/)*
-  * [package_requests_2_2_1](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_requests_2_2_1): Tool dependency definition of python-requests
-  * [package_beautifulsoup4_4_1_0](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_beautifulsoup4_4_1_0): Tool dependency definition for python-bs4
+    * [package_requests_2_2_1](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_requests_2_2_1): Tool dependency definition of python-requests
+    * [package_beautifulsoup4_4_1_0](https://toolshed.g2.bx.psu.edu/view/saket-choudhary/package_beautifulsoup4_4_1_0): Tool dependency definition for python-bs4
 
 * *From [qfab](https://toolshed.g2.bx.psu.edu/view/qfab/)*
-  * [opal2_4_1](https://toolshed.g2.bx.psu.edu/view/qfab/opal2_4_1): Opal Package - GVL
+    * [opal2_4_1](https://toolshed.g2.bx.psu.edu/view/qfab/opal2_4_1): Opal Package - GVL
 
 * *From [galaxyp](https://toolshed.g2.bx.psu.edu/view/galaxyp/)*
-  * [package_peptides_to_gff_0_1](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_peptides_to_gff_0_1): Installs the peptides_to_gff python script
-  * [package_myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_myrimatch):
-  * [package_directag](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_directag):
-  * [package_idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_idpqonvert):
-  * [package_ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_ltq_iquant_cli):
-  * [package_mgf_formatter](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_mgf_formatter):
-  * [package_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_tagrecon): 
+    * [package_peptides_to_gff_0_1](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_peptides_to_gff_0_1): Installs the peptides_to_gff python script
+    * [package_myrimatch](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_myrimatch):
+    * [package_directag](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_directag):
+    * [package_idpqonvert](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_idpqonvert):
+    * [package_ltq_iquant_cli](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_ltq_iquant_cli):
+    * [package_mgf_formatter](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_mgf_formatter):
+    * [package_tagrecon](https://toolshed.g2.bx.psu.edu/view/galaxyp/package_tagrecon):
 
 * *From [anton](https://toolshed.g2.bx.psu.edu/view/anton/)*
-  * [package_vcflib_8a5602bf07](https://toolshed.g2.bx.psu.edu/view/anton/package_vcflib_8a5602bf07): Compiled vcflib binaries for x86_64
+    * [package_vcflib_8a5602bf07](https://toolshed.g2.bx.psu.edu/view/anton/package_vcflib_8a5602bf07): Compiled vcflib binaries for x86_64
 
 * *From [geert-vandeweyer](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/)*
-  * [package_igvtools_2_3_32](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/package_igvtools_2_3_32): igvtools binaries, to be used as dependency in other tools.
+    * [package_igvtools_2_3_32](https://toolshed.g2.bx.psu.edu/view/geert-vandeweyer/package_igvtools_2_3_32): igvtools binaries, to be used as dependency in other tools.
 
 * *From [lparsons](https://toolshed.g2.bx.psu.edu/view/lparsons/)*
-  * [package_rseqc_2_4](https://toolshed.g2.bx.psu.edu/view/lparsons/package_rseqc_2_4): downloads and compiles version 2.4 of RSeQC.
+    * [package_rseqc_2_4](https://toolshed.g2.bx.psu.edu/view/lparsons/package_rseqc_2_4): downloads and compiles version 2.4 of RSeQC.
 
 ### Updates
 
 * *From [fubar](https://toolshed.g2.bx.psu.edu/view/fubar/)*
-  * [toolfactory](https://toolshed.g2.bx.psu.edu/view/fubar/toolfactory): Citations added (thanks John!) and a few more output formats for Alistair Chilcott
+    * [toolfactory](https://toolshed.g2.bx.psu.edu/view/fubar/toolfactory): Citations added (thanks John!) and a few more output formats for Alistair Chilcott
 
 * *From [nilesh](https://toolshed.g2.bx.psu.edu/view/nilesh/)*
-  * [rseqc](https://toolshed.g2.bx.psu.edu/view/nilesh/rseqc): Upgraded RSeQC to [version 2.4](http://rseqc.sourceforge.net/#release-history)
+    * [rseqc](https://toolshed.g2.bx.psu.edu/view/nilesh/rseqc): Upgraded RSeQC to [version 2.4](http://rseqc.sourceforge.net/#release-history)
 
 # Other News
 
 * [Why the three biggest positive contributions to reproducible research are the iPython Notebook, knitr, and Galaxy](http://bit.ly/1rqHVJW) on the [Simply Statistics blog](http://simplystatistics.org/)
-* Updated [wiki page about dynamically discovering output datasets at runtime](/src/admin/tools/multiple-output-files/index.md#number-of-output-datasets-cannot-be-determined-until-tool-run). 
+* Updated [wiki page about dynamically discovering output datasets at runtime](/admin/tools/multiple-output-files/#number-of-output-datasets-cannot-be-determined-until-tool-run).
 * The [Ansible playbook used to update usegalaxy.org](https://github.com/galaxyproject/usegalaxy-playbook) is available in GitHub.
 * New [GVL Galaxy Release](https://genome.edu.au/wiki/GVL): Metagenomics Tutorial tools, MACS2, BLAST, MEME, hg38, rn6, and Trinity.
 * Galaxy Community UK launches a Twitter channel: [@GalaxyUKFriends](https://twitter.com/GalaxyUKFriends)

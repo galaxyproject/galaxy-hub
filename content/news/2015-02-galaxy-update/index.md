@@ -3,32 +3,35 @@ title: "Galactic News! Feb. 2015 Edition"
 date: "2015-01-30"
 ---
 <div class='right'><div class='center'>
-<a href='/src/galaxy-updates/2015-02/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="February 2015 Newsletter" width=150 /></a><br /><br />
-<a href='/src/galaxy-updates/2015-02/index.md#gcc2015-6-8-july-norwich-uk'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
-<a href='/src/galaxy-updates/2015-02/index.md#toolshed-contributions'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=170 /></a><br />
-<a href='/src/galaxy-updates/2015-02/index.md#19-february-galaxyadmins-meetup'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup February 19" width="150" /></a></div>
+<a href='/galaxy-updates/2015-02/'><img src="/images/logos/GalaxyUpdate200.png" alt="February 2015 Newsletter" width=150 /></a><br /><br />
+<a href='/galaxy-updates/2015-02/#gcc2015-6-8-july-norwich-uk'><img src="/images/logos/GCC2015LogoWide600.png" alt="Sponsor GCC2015" width="150" /></a><br />
+<a href='/galaxy-updates/2015-02/#toolshed-contributions'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=170 /></a><br />
+<a href='/galaxy-updates/2015-02/#19-february-galaxyadmins-meetup'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins meetup February 19" width="150" /></a></div>
 </div>
 
-[February](/src/galaxy-updates/2015-02/index.md) brings lots of [Galaxy related news](/src/galaxy-updates/2015-02/index.md), including [events news](/src/galaxy-updates/2015-02/index.md#events):
-* **[GCC2015: 6-8 July, Norwich UK](/src/galaxy-updates/2015-02/index.md#gcc2015-6-8-july-norwich-uk)**
-  * *[GCC2015 Training Day Topic Voting Closes TODAY](/src/galaxy-updates/2015-02/index.md#training-day-topic-voting-closes-today)! [Vote NOW](http://bit.ly/gcc2015vote)*
-  * *[GCC2015 Early Registration opens in February](/src/galaxy-updates/2015-02/index.md#early-registration-opens-in-february)*
-  * [Sponsorships](/src/galaxy-updates/2015-02/index.md#sponsorships):
-    * Please welcome *[GenomeWeb](/src/galaxy-updates/2015-02/index.md#genomeweb)* and *[Globus Genomics](/src/galaxy-updates/2015-02/index.md#globus-genomics)* as GCC returning sponsors, and *[The Genome Analysis Centre (TGAC)](/src/galaxy-updates/2015-02/index.md#the-genome-analysis-centre-tgac)* as a first time sponsor.
-    * And [we are still seeking additional sponsors](/src/galaxy-updates/2015-02/index.md#call-for-sponsors)
-* [19 February GalaxyAdmins Meetup](/src/galaxy-updates/2015-02/index.md#19-february-galaxyadmins-meetup)
-* [Baltimore Area Galaxy Meetup Success](/src/galaxy-updates/2015-02/index.md#january-baltimore-area-galaxy-meetup-report) - and more to come
+[February](/galaxy-updates/2015-02/) brings lots of [Galaxy related news](/galaxy-updates/2015-02/), including [events news](/galaxy-updates/2015-02/#events):
 
-[New Releases](/src/galaxy-updates/2015-02/index.md#new-releases) and [ToolShed Contributions](/src/galaxy-updates/2015-02/index.md#toolshed-contributions):
-* [New Galaxy Distribution](/src/galaxy-updates/2015-02/index.md#galaxy-20150113-distribution) *fixes security flaws and adds IPython integration*
-* [Planemo 0.2.0 released](/src/galaxy-updates/2015-02/index.md#planemo-020)
-* [Over 30 new and updated ToolShed repositories from 13 contributors](/src/galaxy-updates/2015-02/index.md#toolshed-contributions)
+* **[GCC2015: 6-8 July, Norwich UK](/galaxy-updates/2015-02/#gcc2015-6-8-july-norwich-uk)**
+    * *[GCC2015 Training Day Topic Voting Closes TODAY](/galaxy-updates/2015-02/#training-day-topic-voting-closes-today)! [Vote NOW](http://bit.ly/gcc2015vote)*
+    * *[GCC2015 Early Registration opens in February](/galaxy-updates/2015-02/#early-registration-opens-in-february)*
+    * [Sponsorships](/galaxy-updates/2015-02/#sponsorships):
+        * Please welcome *[GenomeWeb](/galaxy-updates/2015-02/#genomeweb)* and *[Globus Genomics](/galaxy-updates/2015-02/#globus-genomics)* as GCC returning sponsors, and *[The Genome Analysis Centre (TGAC)](/galaxy-updates/2015-02/#the-genome-analysis-centre-tgac)* as a first time sponsor.
+        * And [we are still seeking additional sponsors](/galaxy-updates/2015-02/#call-for-sponsors)
+* [19 February GalaxyAdmins Meetup](/galaxy-updates/2015-02/#19-february-galaxyadmins-meetup)
+* [Baltimore Area Galaxy Meetup Success](/galaxy-updates/2015-02/#january-baltimore-area-galaxy-meetup-report) - and more to come
+
+[New Releases](/galaxy-updates/2015-02/#new-releases) and [ToolShed Contributions](/galaxy-updates/2015-02/#toolshed-contributions):
+
+* [New Galaxy Distribution](/galaxy-updates/2015-02/#galaxy-20150113-distribution) *fixes security flaws and adds IPython integration*
+* [Planemo 0.2.0 released](/galaxy-updates/2015-02/#planemo-020)
+* [Over 30 new and updated ToolShed repositories from 13 contributors](/galaxy-updates/2015-02/#toolshed-contributions)
 
 and *Community News* too:
-* [55 new papers](/src/galaxy-updates/2015-02/index.md#new-papers), including 4 highlighted papers, referencing, using, extending, and implementing Galaxy.
-* [Job openings at 9 organizations](/src/galaxy-updates/2015-02/index.md#whos-hiring)
-* [Three new public servers](/src/galaxy-updates/2015-02/index.md#new-public-servers)
-* [Ruđer Bošković Institute joins GTN](/src/galaxy-updates/2015-02/index.md#new-gtn-member-ruđer-bošković-institute)
-* And, [other news](/src/galaxy-updates/2015-02/index.md#other-news) as well.
 
-[Dave Clements](/src/people/dave-clements/index.md) and the [Galaxy Team](/src/galaxy-team/index.md)
+* [55 new papers](/galaxy-updates/2015-02/#new-papers), including 4 highlighted papers, referencing, using, extending, and implementing Galaxy.
+* [Job openings at 9 organizations](/galaxy-updates/2015-02/#whos-hiring)
+* [Three new public servers](/galaxy-updates/2015-02/#new-public-servers)
+* [Ruđer Bošković Institute joins GTN](/galaxy-updates/2015-02/#new-gtn-member-ruđer-bošković-institute)
+* And, [other news](/galaxy-updates/2015-02/#other-news) as well.
+
+[Dave Clements](/people/dave-clements/) and the [Galaxy Team](/galaxy-team/)

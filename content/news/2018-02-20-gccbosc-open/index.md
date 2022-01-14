@@ -4,7 +4,7 @@ tease: "See you in Portland this summer..."
 date: "2018-02-20"
 ---
 
-[<img class="float-right" src="/src/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
+[<img class="float-right" src="/images/logos/gcc-bosc-2018-logo-boxed-300.png" width="160" alt="GCCBOSC 2018" />](https://gccbosc2018.sched.com/)
 
 We are pleased to announce that abstract submission and early registration for [GCCBOSC2018](https://gccbosc2018.sched.com/) are now open.
 
@@ -16,7 +16,7 @@ We are pleased to announce that abstract submission and early registration for [
 
 ## Events
 
-[GCCBOSC](https://gccbosc2018.sched.com/) starts with [two days of training](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All) with a wide range of topics nominated and selected by our communities.  Training is followed by a two day meeting, with joint and parallel tracks, featuring oral presentations, posters, demos, lightning talks, birds-of-a-feather and [invited keynotes](/src/events/gccbosc2018/keynotes/index.md) from [Fernando Pérez](/src/events/gccbosc2018/keynotes/index.md#bosc-gcc-joint-keynote-fernando-perez) of the [Berkeley Institute for Data Science](https://bids.berkeley.edu/) and [Project Jupyter](http://jupyter.org/), and [Tracy K. Teal](/src/events/gccbosc2018/keynotes/index.md#bosc-2018-keynote-tracy-k-teal) of The Carpentries.  The week finishes with *[CollaborationFest](/src/events/gccbosc2018/collaboration/index.md) Core* and *Encore*, two or four days of collaborative work on code, documentation, training and challenging data analysis problems.
+[GCCBOSC](https://gccbosc2018.sched.com/) starts with [two days of training](https://gccbosc2018.sched.com/overview/type/C.x+Training+-+All) with a wide range of topics nominated and selected by our communities.  Training is followed by a two day meeting, with joint and parallel tracks, featuring oral presentations, posters, demos, lightning talks, birds-of-a-feather and [invited keynotes](/events/gccbosc2018/keynotes/) from [Fernando Pérez](/events/gccbosc2018/keynotes/#bosc-gcc-joint-keynote-fernando-perez) of the [Berkeley Institute for Data Science](https://bids.berkeley.edu/) and [Project Jupyter](http://jupyter.org/), and [Tracy K. Teal](/events/gccbosc2018/keynotes/#bosc-2018-keynote-tracy-k-teal) of The Carpentries.  The week finishes with *[CollaborationFest](/events/gccbosc2018/collaboration/) Core* and *Encore*, two or four days of collaborative work on code, documentation, training and challenging data analysis problems.
 
 ## Abstract Submission
 
@@ -26,7 +26,7 @@ BOSC and GCC are now [accepting abstracts](https://easychair.org/conferences/?co
 
 ## Registration
 
-[Register now](https://gccbosc2018.eventbrite.com) to take full advantage of [early registration discounts](/src/events/gccbosc2018/register/index.md) for students/post-docs (75% off full price), non-profits (67%) and industry (50%).  Early registration rates for students and post-docs average $66 / day.
+[Register now](https://gccbosc2018.eventbrite.com) to take full advantage of [early registration discounts](/events/gccbosc2018/register/) for students/post-docs (75% off full price), non-profits (67%) and industry (50%).  Early registration rates for students and post-docs average $66 / day.
 
 ## Conference Housing
 
@@ -37,10 +37,10 @@ BOSC and GCC are now [accepting abstracts](https://easychair.org/conferences/?co
 Both OBF and the Galaxy Community Fund Board are offering fellowships to attend GCCBOSC 2018:
 
 * [OBF Travel Fellowships](https://github.com/OBF/obf-docs/blob/master/Travel_fellowships.md), deadline is April 15.
-* [GCC2018 Fellowships](/src/news/2018-02-20-gcc-fellowships/index.md), first deadline is March 16.
+* [GCC2018 Fellowships](/news/2018-02-20-gcc-fellowships/), first deadline is March 16.
 
 
 See you in Portland!
 
-The [GCCBOSC 2018 Organizers](/src/events/gccbosc2018/organizers)
+The [GCCBOSC 2018 Organizers](/events/gccbosc2018/organizers)
 

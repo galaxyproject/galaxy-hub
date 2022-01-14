@@ -2,29 +2,29 @@
 title: August 2017 Galaxy News
 ---
 <div class='right'>
-[<img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/src/galaxy-updates/index.md)
+[<img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 />](/galaxy-updates/)
 </div>
 
-Welcome to the August 2017 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
+Welcome to the August 2017 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.  If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
 
 # GCC2018: Portland, Oregon, United States, June 25-30
 
 <div class="left">
-[<img src="/src/images/logos/gcc-bosc-2018-logo-300.png" width="200" alt="GCC2018 will be colocated with BOSC 2018 in Portland, Oregon">](https://gccbosc2018.sched.com/)
+[<img src="/images/logos/gcc-bosc-2018-logo-300.png" width="200" alt="GCC2018 will be colocated with BOSC 2018 in Portland, Oregon">](https://gccbosc2018.sched.com/)
 </div>
 
 We are pleased to announce that the **2018 Galaxy Community Conference (GCC2018)** and the **[Bioinformatics Open Source Conference 2018 (BOSC2018)](https://www.open-bio.org/wiki/BOSC)** are [joining together for a unified event](https://gccbosc2018.sched.com/) to be held in Portland, Oregon, United States, June 25-30, 2018.  The event will feature two days of training, a two day meeting, and finish with two days of intense collaboration at the [OBF Codefest](https://www.open-bio.org/wiki/Codefest), and Hack the Galaxy: Dev and Data.  The meeting will feature joint and parallel sessions, and shared keynotes, poster and demo sessions, and social events.  Colocating GCC and BOSC will bring together the widest possible community of bioinformatics developers and practitioners into a single place.  At this event the whole will be greater than the sum of the parts.
 
-The event is organized by [Oregon Health & Science University (OHSU)](https://www.ohsu.edu) and will be held at [Reed College](http://www.reed.edu/), a small liberal arts college in Portland.  Portland is a vibrant city in the American Northwest, close to the Cascade Mountains, the Oregon Coast, and the Columbia River. 
+The event is organized by [Oregon Health & Science University (OHSU)](https://www.ohsu.edu) and will be held at [Reed College](http://www.reed.edu/), a small liberal arts college in Portland.  Portland is a vibrant city in the American Northwest, close to the Cascade Mountains, the Oregon Coast, and the Columbia River.
 
 
 # GCC2017 is Done!
 
-<div class="right">[<img src="/src/images/news-graphics/gcc2017-group-photo.jpg" alt='2017 Galaxy Community Conference (GCC2017)' width="160" />](https://gcc2017.sciencesconf.org/)
+<div class="right">[<img src="/images/news-graphics/gcc2017-group-photo.jpg" alt='2017 Galaxy Community Conference (GCC2017)' width="160" />](https://gcc2017.sciencesconf.org/)
 <br />
 [Photo](https://www.flickr.com/photos/134305289@N03/34817510423/in/album-72157685584858176/): [Bérénice Batut](https://www.flickr.com/photos/134305289@N03/albums/72157685584858176)<br /><br />
-[<img src="/src/images/logos/F1000research-logo.jpg" alt='GCC2017 writeup at F1000' width="160" />](https://blog.f1000.com/2017/07/31/intergalactique-the-galaxy-community-conference-2017/)
+[<img src="/images/logos/F1000research-logo.jpg" alt='GCC2017 writeup at F1000' width="160" />](https://blog.f1000.com/2017/07/31/intergalactique-the-galaxy-community-conference-2017/)
 </div>
 
 GCC2017 was held 26-30 June in [Montpellier, France](https://gcc2017.sciencesconf.org/page/location). The eighth global gathering of the Galaxy community featured two days of *[Hack the Galaxy](https://schd.ws/hosted_files/gcc2017/ea/S8_L8-9_gcc2017_hacks.pdf)*, [two days of training](https://gcc2017.sched.com/overview/type/D.x+Training+-+All), and a [two day community conference](https://gcc2017.sched.com/overview/type/E.x+Conference+-+All). Most training materials, slides, and posters are [now available online](https://gcc2017.sched.com/). Slides and posters are also being uploaded to the [F1000 Galaxy Channel](https://f1000research.com/gateways/galaxy). Take a look.
@@ -35,20 +35,20 @@ Two summaries of GCC2017 are available online:
 * [Trip Blog](https://www.melbournebioinformatics.org.au/projects-blog/uk-tour-2017-blog2/), by [Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/), Research Scientist specialising in microbial genomics, [Melbourne Bioinformatics](https://www.melbournebioinformatics.org.au/).
 
 <div class="left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/src/events/2017-sacnas/index.md) <br /><br />
-[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="150" />](https://software-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="150" />](https://data-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="150" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="150" />](/src/index.md)
+[<img src="/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="150" />](/events/2017-sacnas/) <br /><br />
+[<img src="/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="150" />](https://software-carpentry.org/)<br /><br />
+[<img src="/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="150" />](https://data-carpentry.org/)<br /><br />
+[<img src="/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="150" />](https://www.cyverse.org/)<br /><br />
+[<img src="/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="150" />](/)
 </div>
 
 # Galaxy (and CyVerse and the Carpentries) at 2017 SACNAS Meeting
 
-If you are attending the [2017 SACNAS meeting](http://www.2017sacnas.org/) in Salt Lake City in October, then please consider signing up for one of [these preconference workshops](/src/events/2017-sacnas/index.md):
+If you are attending the [2017 SACNAS meeting](http://www.2017sacnas.org/) in Salt Lake City in October, then please consider signing up for one of [these preconference workshops](/events/2017-sacnas/):
 
-**[Software and Data Carpentry](/src/events/2017-sacnas/index.md#workshop-1-software-and-data-carpentry)**
+**[Software and Data Carpentry](/events/2017-sacnas/#workshop-1-software-and-data-carpentry)**
 
-**[Data Platforms for Life Science Researchers](/src/events/2017-sacnas/index.md#workshop-2-data-platforms-for-life-science-researchers)**
+**[Data Platforms for Life Science Researchers](/events/2017-sacnas/#workshop-2-data-platforms-for-life-science-researchers)**
 
 [Registration](http://bit.ly/sacnas-data-reg-2017) is *free* but space is limited.  You are strongly encouraged to register soon.
 Both workshops are held October 18, the day before SACNAS starts.
@@ -61,16 +61,16 @@ Both workshops are held October 18, the day before SACNAS starts.
 # Galaxy @ ISMB/ECCB/BOSC 2017: Slides and posters are available
 
 <div class="right">
-[<img src="/src/images/logos/ismb-2017.png" alt="Galaxy at ISMB/ECCB/BOSC 2017Slides and posters" width="120" />](/src/events/2017-ismb-bosc/index.md))
+[<img src="/images/logos/ismb-2017.png" alt="Galaxy at ISMB/ECCB/BOSC 2017Slides and posters" width="120" />](/events/2017-ismb-bosc/))
 </div>
 
-If you missed all the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/src/events/2017-ismb-bosc/index.md) then don't, um, fret!  Most slides and posters are [available online](/src/events/2017-ismb-bosc/index.md))
+If you missed all the [Galaxy @ ISMB/ECCB 2017 & BOSC 2017](/events/2017-ismb-bosc/) then don't, um, fret!  Most slides and posters are [available online](/events/2017-ismb-bosc/))
 
 See you next year in Chicago!
 
 # All events
 
-There are [a plenitude of Galaxy related events coming up](/src/events/index.md) in the next few months:
+There are [a plenitude of Galaxy related events coming up](/events/) in the next few months:
 
 <table class="table table-striped">
   <thead>
@@ -215,28 +215,28 @@ Some highlights from the recently added publications:
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 167 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 55 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 55 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 35 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) | 
-| 20 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 20 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 19 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 16 | [tools](http://www.citeulike.org/group/16008/tag/tools) | 
-| 15 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | | 9 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | | 8 | [other](http://www.citeulike.org/group/16008/tag/other) | | 7 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) | 
-| 4 | [shared](http://www.citeulike.org/group/16008/tag/shared) | | 2 | [howto](http://www.citeulike.org/group/16008/tag/howto) | | 1 | [visualization](http://www.citeulike.org/group/16008/tag/visualization) | | 1 | [usecloud](http://www.citeulike.org/group/16008/tag/usecloud) | 
+| 167 | [methods](http://www.citeulike.org/group/16008/tag/methods) | | 55 | [workbench](http://www.citeulike.org/group/16008/tag/workbench) | | 55 | [usepublic](http://www.citeulike.org/group/16008/tag/usepublic) | | 35 | [usemain](http://www.citeulike.org/group/16008/tag/usemain) |
+| 20 | [uselocal](http://www.citeulike.org/group/16008/tag/uselocal) | | 20 | [isgalaxy](http://www.citeulike.org/group/16008/tag/isgalaxy) | | 19 | [refpublic](http://www.citeulike.org/group/16008/tag/refpublic) | | 16 | [tools](http://www.citeulike.org/group/16008/tag/tools) |
+| 15 | [reproducibility](http://www.citeulike.org/group/16008/tag/reproducibility) | | 9 | [cloud](http://www.citeulike.org/group/16008/tag/cloud) | | 8 | [other](http://www.citeulike.org/group/16008/tag/other) | | 7 | [unknown](http://www.citeulike.org/group/16008/tag/unknown) |
+| 4 | [shared](http://www.citeulike.org/group/16008/tag/shared) | | 2 | [howto](http://www.citeulike.org/group/16008/tag/howto) | | 1 | [visualization](http://www.citeulike.org/group/16008/tag/visualization) | | 1 | [usecloud](http://www.citeulike.org/group/16008/tag/usecloud) |
 
 ----
 
 # Who's Hiring
 
-<div class='right'>[<img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" />]</div>
+<div class='right'>[<img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" />]</div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [Ingénieur spécialisé en NGS](https://www.sfbi.fr/content/ing%C3%A9nieur-sp%C3%A9cialis%C3%A9-en-ngs), [BIOGECO](http://www6.bordeaux-aquitaine.inra.fr/biogeco), Bordeaux, France
-* [Ingénieur web et bases de données pour les analyses métagénomiques des écosystèmes fromagers](https://www.sfbi.fr/content/ing%C3%A9nieur-web-et-bases-de-donn%C3%A9es-pour-les-analyses-m%C3%A9tag%C3%A9nomiques-des-%C3%A9cosyst%C3%A8mes-fromage-0), Micalis / MaIAGE, Jouy-en-Josas, France 
+* [Ingénieur web et bases de données pour les analyses métagénomiques des écosystèmes fromagers](https://www.sfbi.fr/content/ing%C3%A9nieur-web-et-bases-de-donn%C3%A9es-pour-les-analyses-m%C3%A9tag%C3%A9nomiques-des-%C3%A9cosyst%C3%A8mes-fromage-0), Micalis / MaIAGE, Jouy-en-Josas, France
 * [Développeur d’outils MS/MS pour le projet Workflow4Metabolomics sous Galaxy](https://www.sfbi.fr/content/d%C3%A9veloppeur-d%E2%80%99outils-msms-pour-le-projet-workflow4metabolomics-sous-galaxy), Station Biologique de Roscoff, France
 * [Bioinformatics Research Associate](https://academicpositions.harvard.edu/postings/7556), Huttenhower Lab, Harvard School of Public Health, Boston, Massachusetts, United States
 * [Scientific Research Programmer](http://goo.gl/cMZVCn), [Sethuraman Lab](http://arunsethuraman.weebly.com/), [California State University San Marcos](https://www.csusm.edu/). Develop model-based population genomics pipelines.
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
@@ -245,7 +245,7 @@ Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll pu
 
 # Public Galaxy Server News
 
-There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [six semi-public Galaxy services](/src/use/index.md).  Here's what happened with them in May
+There are [over 90 publicly accessible Galaxy servers](/use/) and [six semi-public Galaxy services](/use/).  Here's what happened with them in May
 
 ## Galaxy Integrated Omics (GIO)
 
@@ -272,13 +272,13 @@ There are [over 90 publicly accessible Galaxy servers](/src/use/index.md) and [s
 
 <table class="table">
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/community/logs/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"><img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/community/logs/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"><img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/community/logs/index.md#add-a-log-page'>Share your experience</a> <em><a href='/src/community/logs/index.md#add-a-log-page'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/community/logs/#add-a-log-page'>Share your experience</a> <em><a href='/community/logs/#add-a-log-page'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> </td>
   </tr>
 </table>
@@ -294,9 +294,9 @@ No new resources were added to community directories in January or February.
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions from June and July](/src/toolshed/contributions/2017-07/index.md).
+[Tool Shed contributions from June and July](/toolshed/contributions/2017-07/).
 
 # Releases
 
@@ -316,7 +316,7 @@ This project was initiated during the [Swiss-Germany Galaxy Days](https://galaxy
 
 ## Planemo 0.41.0 - 0.44.0
 
-<div class='right'>[<img src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" width="200" />](https://pypi.python.org/pypi/planemo/)</div>
 
 [Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).
 
@@ -345,9 +345,9 @@ Other packages that have been released in the prior 4 months.
 ### May 2017 Galaxy Release (v 17.05)
 
 <div class="right">
-<a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
-<a href="https://vimeo.com/216884518"><img src="/src/images/news-graphics/dataset-tagging-17-05.png" alt="Tag your datasets to keep track of where computed datasets came from" width="200" /></a><br /># Tags are propogated<br />in histories<br /><br />
-<a href="https://depot.galaxyproject.org/hub/attachments/documents/videos/dataset-drag-17-05.gif"><img src="/src/images/news-graphics/dataset-drag-17-05.png" alt='Drag and drop with Galaxy Histories and Tools' width="200" /></a><br />Drag and drop in Galaxy 17.05
+<a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a><br /><br />
+<a href="https://vimeo.com/216884518"><img src="/images/news-graphics/dataset-tagging-17-05.png" alt="Tag your datasets to keep track of where computed datasets came from" width="200" /></a><br /># Tags are propogated<br />in histories<br /><br />
+<a href="https://depot.galaxyproject.org/hub/attachments/documents/videos/dataset-drag-17-05.gif"><img src="/images/news-graphics/dataset-drag-17-05.png" alt='Drag and drop with Galaxy Histories and Tools' width="200" /></a><br />Drag and drop in Galaxy 17.05
 </div>
 
 The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) published the **[17.05 release of Galaxy](https://docs.galaxyproject.org/en/master/releases/17.05_announce.html)** in May.
@@ -366,7 +366,7 @@ The [Galaxy Committers](https://github.com/galaxyproject/galaxy/blob/dev/doc/sou
 **Upload directly to a collection**
 
 * You can now bypass the history manipulation and upload your data straight into a collection for convenience.
-*  Learn more about collections and how to use them in a new [tutorial](https://galaxyproject.org/tutorials/collections/).
+* Learn more about collections and how to use them in a new [tutorial](https://galaxyproject.org/tutorials/collections/).
 
 We extend special thanks to the 64 [New Contributors](https://docs.galaxyproject.org/en/master/releases/17.05_announce.html#new-contributors) to Galaxy in the past year.
 
@@ -379,9 +379,9 @@ The [Galaxy Docker project has seen a new release](https://github.com/bgruening/
 
 And
 
-* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors 
-* From [John Chilton](/src/people/john-chilton/index.md): 
-  * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/src/people/bjoern-gruening/index.md): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
+* The [Galaxy Docker Project](https://github.com/bgruening/docker-galaxy-stable) has reached more than 23k downloads on [Dockerhub](https://hub.docker.com/r/bgruening/galaxy-stable/) - not counting quay.io and all flavors
+* From [John Chilton](/people/john-chilton/):
+    * Awesome new mode for docker-galaxy-stable by  [Björn Grüning](/people/bjoern-gruening/): [container scheduling with Condor](https://github.com/bgruening/docker-galaxy-stable/pull/323)
 
 
 ### Parsec 1.0.0 - 1.0.2
@@ -399,7 +399,7 @@ See the [release notes](https://github.com/galaxyproject/bioblend/releases) for 
 
 ### Galaxy CloudMan 17.05 on AWS
 
-A new release of [Galaxy CloudMan](/src/cloudman/index.md) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/src/cloudman/index.md#getting-started) guide.
+A new release of [Galaxy CloudMan](/cloudman/) is available on the Amazon Web Services cloud infrastructure. This release includes Galaxy 17.05, an updated [tool list](https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/usegalaxy_main_tool_list.yaml), and Slurm configuration changes to improve job performance. To get started, vist https://beta.launch.usegalaxy.org/ or take a look at the [Getting Started](/cloudman/#getting-started) guide.
 
 
 ### CloudLaunch ##
@@ -419,13 +419,13 @@ Other Galaxy packages that haven't had a release in the past four months can be 
 
 # Other News
 
-<div class="right">[<img src="/src/images/news-graphics/tacc-mining-cancer-data-thumb.png" alt="Mining cancer data for treatment clues">](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues)</div>
+<div class="right">[<img src="/images/news-graphics/tacc-mining-cancer-data-thumb.png" alt="Mining cancer data for treatment clues">](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues)</div>
 
 * [Mining cancer data for treatment clues](https://www.tacc.utexas.edu/-/mining-cancer-data-for-treatment-clues): Cancer genomics researchers rely on TACC supercomputers to help identify risk factors and classify tumors
 * [Five years of Galaxy-P!](https://twitter.com/usegalaxyp/status/888157211612110849)
-* A [plugin framework for Galaxy tool error handling](https://github.com/galaxyproject/galaxy/pull/4305) (work-in-progress) by [Helena Rasche](https://github.com/hexylena). 
+* A [plugin framework for Galaxy tool error handling](https://github.com/galaxyproject/galaxy/pull/4305) (work-in-progress) by [Helena Rasche](https://github.com/hexylena).
 * [A Galaxy docker container with R markdown based Galaxy tools installed](https://github.com/statonlab/docker-GRReport).  This Docker image is used as a demonstration to show how to use R markdown as a unified framework for Galaxy tool development.
-* From [John Chilton](/src/people/john-chilton/index.md): A cool outcome from our GCC hackathon - [support for Galaxy tool localization](https://github.com/galaxyproject/galaxy/pull/4251) (work in progress). 
+* From [John Chilton](/people/john-chilton/): A cool outcome from our GCC hackathon - [support for Galaxy tool localization](https://github.com/galaxyproject/galaxy/pull/4251) (work in progress).
 * From Mallory Freeberg: [Differential abundance testing of small RNAs](https://galaxyproject.github.io/training-material/topics/transcriptomics/tutorials/srna/tutorial.html) tutorial
-* From [Enis Afgan](/src/people/enis-afgan/index.md): [First launch of #usegalaxy on Microsoft #Azure!](https://twitter.com/enisafgan/status/880796649160880128) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.
+* From [Enis Afgan](/people/enis-afgan/): [First launch of #usegalaxy on Microsoft #Azure!](https://twitter.com/enisafgan/status/880796649160880128) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.) A huge thanks to RC Carter and Elizabeth Bruce for setting the wheels in motion.
 

@@ -10,8 +10,8 @@ source_blog:
 
 Alper Kucukural posted this [Galaxy-Dev thread](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN/#DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN) about logout problems when using LDAP for authentication with remoteUser enabled.  This page is based on Tim Booth's response.   Furthermore, Helena Rasche also brought these pages up to date to reflect this discussion:
 
-* [Proxying Galaxy with Apache](/src/admin/config/apache-proxy/index.md#proxying-multiple-galaxy-worker-threads)
-* [External User Authentication](/src/admin/config/external-user-auth/index.md)
+* [Proxying Galaxy with Apache](/admin/config/apache-proxy/#proxying-multiple-galaxy-worker-threads)
+* [External User Authentication](/admin/config/external-user-auth/)
 
 Many, many thanks to Tim and Eric for this work.
 
@@ -165,6 +165,6 @@ RewriteRule (.*) http://localhost:8080/$1 [P,E=RU:%{REMOTE_USER}]
 
 ## Links
 
-* [Original thread on Galaxy-Dev](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN/#DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN) 
-* [Proxying Galaxy with Apache](/src/admin/config/apache-proxy/index.md#proxying-multiple-galaxy-worker-threads)
-* [External User Authentication](/src/admin/config/external-user-auth/index.md)
+* [Original thread on Galaxy-Dev](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN/#DEYFKN3SZ2JJ5J3RUS62RS7NOZFGTKAN)
+* [Proxying Galaxy with Apache](/admin/config/apache-proxy/#proxying-multiple-galaxy-worker-threads)
+* [External User Authentication](/admin/config/external-user-auth/)

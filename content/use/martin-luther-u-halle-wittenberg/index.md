@@ -8,7 +8,7 @@ platforms:
     platform_text: "Martin Luther University Halle-Wittenberg"
     platform_location: DE
 summary: "Provides implementations of [GeMoMa](http://www.jstacs.de/index.php/GeMoMa), InMoDe, CRISPRer, TALgetter, TALgetterLong, TALENoffer, and Dimont "
-image: "/src/images/logos/MartinLutherU.png"
+image: "/images/logos/MartinLutherU.png"
 comments:
   - "Provides implementations of these tools:"
   - "InMoDe  is a collection of Tools for learning and visualizing inhomogeneous parsimonious Markov models (iPMMs)."

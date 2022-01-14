@@ -33,9 +33,9 @@ use it:
       <a href='volume-attached.png'><img src="volume-attached.png" alt="" width=200 /></a>
     </div>
 
-* [Access your instance via ssh](/src/cloud/jetstream/ssh/index.md) and create
+* [Access your instance via ssh](/cloud/jetstream/ssh/) and create
   a directory for the Galaxy files. The volume you attached to your instance
-  will be most likely be available under `/vol_c` so create a directory under 
+  will be most likely be available under `/vol_c` so create a directory under
   that one. Change the ownership of the directory to the `galaxy` system user.
 
   ```
@@ -60,6 +60,7 @@ use it:
   none              102400        0    102400   0% /run/user
   /dev/sdb       980385892    95308 930466840   1% /vol1
   ```
+
   In this case, the volume is available under `/vol1`. If that is the case,
   just replace all occurances of `vol_c` in the commands with the available
   path.
@@ -88,7 +89,7 @@ $ ls -l /vol_c/gxy_data/datasets/000/
 total 21588
 -rw-r--r-- 1 galaxy users  1206112 Apr 10 07:39 dataset_1.dat
 -rw-r--r-- 1 galaxy users 20896315 Apr 10 07:40 dataset_2.dat
-``` 
+```
 
 If so, you are all set.
 

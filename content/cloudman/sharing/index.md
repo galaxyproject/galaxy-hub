@@ -17,6 +17,7 @@ Sharing is achieved via point-in-time snapshots of the underlying file system(s)
 ## Use cases
 
 The following is a list of typical use cases for when cluster sharing is particularly useful:
+
 * *Training*: you can create a custom version of a cluster with all the training data and histories pre-loaded so once training participants access the cluster, all the data is there without needing to repeat the data bootstrapping process. Additionally, this allows people to create their own instances of your training share and do the training individually and at their own pace, or develop additional curricula.
 * *Reproducible analysis*: include your cluster share string as part of a publication so others can readily access all the details of your analysis methods.
 * *Cluster scaling*: If more than 30 people are expected to be using a cluster simultaneously, it is likely that the performance will not be sufficient to satisfy the load. You can hence create multiple clones of the same cluster and distribute users across those clusters.
@@ -29,7 +30,7 @@ Sharing a cluster is achieved via CloudMan console by clicking the *Share* butto
 ![](http://i.imgur.com/CVTxmH9.png?2)
 </div>
 
-After the sharing popup shows up, decide whether your would like to share the cluster with specific AWS accounts or make it public and click the button at the bottom of the popup. **Note** that as you initiate the sharing process, most of the [cluster services](/src/cloudman/services/index.md) (including Galaxy) will be automatically shut down and later restarted. It is hence advisable to initiate the sharing process only after all the jobs have completed and all the *ssh* sessions to the cluster have been closed.
+After the sharing popup shows up, decide whether your would like to share the cluster with specific AWS accounts or make it public and click the button at the bottom of the popup. **Note** that as you initiate the sharing process, most of the [cluster services](/cloudman/services/) (including Galaxy) will be automatically shut down and later restarted. It is hence advisable to initiate the sharing process only after all the jobs have completed and all the *ssh* sessions to the cluster have been closed.
 
 <div class='center'>
 ![](http://i.imgur.com/CUwr5ID.png?1)

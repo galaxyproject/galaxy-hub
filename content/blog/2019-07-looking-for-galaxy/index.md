@@ -15,7 +15,7 @@ There are *many* lessons here:
 1. Don't name your project with a widely used word.
 1. Don't use a general search tool when searching for information about a so named project.
 
-Fortunately there is a solution to lesson #5: The **[Pan-Galactic Search](/src/search/index.md)** is a custom Google search engine that searches only websites related to *our* Galaxy.  It is available at the top of every page on the Galaxy Community Hub.
+Fortunately there is a solution to lesson #5: The **[Pan-Galactic Search](/search/)** is a custom Google search engine that searches only websites related to *our* Galaxy.  It is available at the top of every page on the Galaxy Community Hub.
 
 Here, as an example, are the top hits when you search for "Galaxy search":
 
@@ -36,7 +36,7 @@ The search further classifies results by where they are found and what they are 
 The **Galaxy Publication Search** tab searches the [Galaxy Publication Library](https://www.zotero.org/groups/1732893/galaxy) using Zotero's built in search.  It will show you publications relevant to your search.  (It's not integrated into the Google search because Google doesn't want to search collections of material available elsewhere on the web.)
 
 Happy searching,<br />
-[Dave Clements](/src/people/dave-clements/index.md)
+[Dave Clements](/people/dave-clements/)
 
 <sup>&#42;</sup> Or the *infinitely* more interesting [*Galaxie 500*](https://en.wikipedia.org/wiki/Ford_Galaxie) (which was also my very first car).
 

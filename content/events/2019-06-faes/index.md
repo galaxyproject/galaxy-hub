@@ -6,7 +6,7 @@ tease: "4-Day Hands On Workshop"
 continent: NA
 location: "National Institutes of Health (NIH), Bethesda, Maryland, United States"
 external_url: "https://faes.org/biotech82june"
-image: /src/images/logos/faes.png
+image: /images/logos/faes.png
 gtn: false
 contact: training@faes.org
 ---

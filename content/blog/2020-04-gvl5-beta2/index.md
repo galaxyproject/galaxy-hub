@@ -3,7 +3,7 @@ date: '2020-04-24'
 title: "GVL 5.0-beta2 release"
 authors: "Alexandru Mahmoud, Nuwan Goonasekera, Luke Sargent, Enis Afgan"
 tease: "30% faster and single sign-on, ohh my"
-image: "/src/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
+image: "/blog/2020-02-gvl5-beta/gvl-logo-landscape-2018.svg"
 highlight: true
 ---
 
@@ -17,7 +17,7 @@ The GVL is a conglomerate of applications, with plans to continue adding more ap
 
 # Compute Infrastructure Auto-scaling
 
-One of the most beneficial features of cloud computing is the ability to dynamically scale the available resources based on current need. The initial release of GVL 5 offered the [ability to dynamically scale the size of the cluster](https://galaxyproject.org/blog/2020-02-gvl5-beta/#controlled-performance-and-monitoring) handling Galaxy jobs but the process required manual intervention. With the beta2 release, auto-scaling capability was added where an administrator can specify upper and lower bounds on the size of the cluster and select the size of the virtual machines they would like to use. The thresholds for performing the scaling are controlled via a set of rules and are based on the cluster load. In this sense, CloudMan will monitor the status of the cluster and automatically add or remove cloud machines as necessary to keep the load under a set threshold. These can be visually inspected in Grafana and readily adjusted, even on a running cluster. 
+One of the most beneficial features of cloud computing is the ability to dynamically scale the available resources based on current need. The initial release of GVL 5 offered the [ability to dynamically scale the size of the cluster](https://galaxyproject.org/blog/2020-02-gvl5-beta/#controlled-performance-and-monitoring) handling Galaxy jobs but the process required manual intervention. With the beta2 release, auto-scaling capability was added where an administrator can specify upper and lower bounds on the size of the cluster and select the size of the virtual machines they would like to use. The thresholds for performing the scaling are controlled via a set of rules and are based on the cluster load. In this sense, CloudMan will monitor the status of the cluster and automatically add or remove cloud machines as necessary to keep the load under a set threshold. These can be visually inspected in Grafana and readily adjusted, even on a running cluster.
 
 <div class="center"><a href="https://i.imgur.com/QffCC3K.png">
     <img src="https://i.imgur.com/QffCC3K.png"
@@ -41,4 +41,4 @@ The GVL 5 beta2 release is available via CloudLaunch at [https://launch.usegalax
 
 # What’s next for the GVL?
 
-Looking ahead, the plan is to increase the robustness of the platform, push the limits of containerized computing in genomics, and build a platform for uniformly deploying Galaxy. Specifically, for the next release, we hope to include a web-based terminal, introduce a shared storage location for multiple applications, and write documentation. We are hopeful to accomplish this by the end of Q2/2020 and prepare some GVL-based use cases in time for the [BCC 2020](https://bcc2020.github.io/).	With that, stay tuned for the results of testing the [COVID-19 analyses](https://covid19.galaxyproject.org/) otherwise available on the _usegalaxy.*_ servers.
+Looking ahead, the plan is to increase the robustness of the platform, push the limits of containerized computing in genomics, and build a platform for uniformly deploying Galaxy. Specifically, for the next release, we hope to include a web-based terminal, introduce a shared storage location for multiple applications, and write documentation. We are hopeful to accomplish this by the end of Q2/2020 and prepare some GVL-based use cases in time for the [BCC 2020](https://bcc2020.github.io/). With that, stay tuned for the results of testing the [COVID-19 analyses](https://covid19.galaxyproject.org/) otherwise available on the _usegalaxy.*_ servers.

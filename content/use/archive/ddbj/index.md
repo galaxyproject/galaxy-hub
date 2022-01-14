@@ -10,7 +10,7 @@ platforms:
 summary: "Annotates raw sequencing reads from next-generation sequencers(NGS) with high throughput, which are registered in DDBJ Read Archive (DRA)."
 comments:
   - "Pipeline consists of two processes: basic process for genome mapping and de novo assembly, and high-level process for structural and functional annotations such as single nucleotide polymorphism (SNP) detection and expression tag counts."
-image: "/src/use/archive/ddbj/ddbj-rap-banner.png"
+image: "/use/archive/ddbj/ddbj-rap-banner.png"
 user_support:
   - "[Tutorials and manuals in English and Japanese](https://p.ddbj.nig.ac.jp/pipeline/Login.do)"
 quotas:

@@ -8,7 +8,7 @@ platforms:
     platform_text: "Server"
     platform_location: DE
 summary: "a webserver to process, analyse and visualize Metagenomic and Microbiota data in general."
-image: "/src/use/asaim/asaim-figure1.png"
+image: "/use/asaim/asaim-figure1.png"
 comments:
   - "More than 200 tools are integrated in this custom Galaxy instance. They were chosen for their use in exploitation of microbiota data."
   - "The public server is hosted by the UseGalaxy.eu team."

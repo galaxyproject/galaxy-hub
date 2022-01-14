@@ -1,4 +1,4 @@
-Before starting Cloudgene, it is necessary to start [Cloudera Manager](/src/cloudman/services/cloudera-manager/index.md) service first. Once it is running, start the Cloudgene service. Both of these services can be started via CloudMan's Admin page by clicking on *Start* next to the service name. Once running, the application is available under */cloudgene* URI.
+Before starting Cloudgene, it is necessary to start [Cloudera Manager](/cloudman/services/cloudera-manager/) service first. Once it is running, start the Cloudgene service. Both of these services can be started via CloudMan's Admin page by clicking on *Start* next to the service name. Once running, the application is available under */cloudgene* URI.
 
 For more info about Cloudgene, please visit http://cloudgene.uibk.ac.at/ or check out more Cloudgene workflows at [Michigan Imputation Server](https://imputationserver.sph.umich.edu/)  or  [mtDNA-Server](http://mtdna-server.uibk.ac.at).
 
@@ -32,10 +32,10 @@ Download results. In this case there are seperate files, this can of course be c
 
 <img src="http://cloudgene.uibk.ac.at/images/cloudman/download.png" alt="" width=700 />
 
-The Admin Dashboard allows to maintain your service, check recent jobs or assign workflows to users: 
+The Admin Dashboard allows to maintain your service, check recent jobs or assign workflows to users:
 
 <img src="http://cloudgene.uibk.ac.at/images/cloudman/dashboard.png" alt="" width=700 />
 
-"Services" tab allows to manage your service for updates (=blocking queue) or maintenance status. 
+"Services" tab allows to manage your service for updates (=blocking queue) or maintenance status.
 
 <img src="http://cloudgene.uibk.ac.at/images/cloudman/maintenance.png" alt="" width=700 />

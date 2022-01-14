@@ -8,12 +8,12 @@ platforms:
     platform_text: "RNA-Rocket at Pathogen Portal"
     platform_location: US
 summary: "Supports comparative analysis of host response to pathogens. It provides an RNA-Seq pipeline to characterize the transcriptome of all NIAID Bioinformatic Resource Center (BRC) pathogens and their key hosts.  "
-image: "/src/use/archive/rna-rocket-pathogen-portal/pathogen-portal-home-300.png"
+image: "/use/archive/rna-rocket-pathogen-portal/pathogen-portal-home-300.png"
 comments:
   - 'From [Lew, *et al.*](http://www.sciencedirect.com/science/article/pii/S147297921200203X): "It can analyze transcriptome data for genomes stored at [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/). The pipeline is built on Galaxy. Galaxy has been modified to simplify RNA-Seq analysis for *informatics-naïve, biologically focused* users and provide a guided experience to quality control of read data, read mapping, assembling transcripts, estimating gene expression values, and doing differential expression analysis"'
   - "Map your RNA-Seq Reads to Reference Genomes: Align your Illumina fastQ reads (gzipped fastQ files accepted) against any sequenced genome from [EuPathDB](http://www.eupathdb.org/), [PATRIC](http://www.patricbrc.org/), and [VectorBase](http://www.vectorbase.org/)."
   - "Estimate Gene Expression Values: Obtain BAM files for the resulting alignments and FPKM expression values for annotated genes and novel transcripts."
-  - "The [RNA-Rocket](http://rnaseq.pathogenportal.org/) implementation was also covered by Andrew Warren at the [May 2013 GalaxyAdmins meetup](/src/community/galaxy-admins/meetups/2013-05-15/index.md). A [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535) and the [slides](https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2013-05-15/201305PathogenPortalSlides.pdf) are both available."
+  - "The [RNA-Rocket](http://rnaseq.pathogenportal.org/) implementation was also covered by Andrew Warren at the [May 2013 GalaxyAdmins meetup](/community/galaxy-admins/meetups/2013-05-15/). A [Screencast](https://globalcampus.uiowa.edu/play_recording.html?recordingId=1262346908659_1368628622535) and the [slides](https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2013-05-15/201305PathogenPortalSlides.pdf) are both available."
 user_support:
 quotas:
   - "Need to create a login"

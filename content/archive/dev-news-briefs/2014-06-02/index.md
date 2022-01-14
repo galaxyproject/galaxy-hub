@@ -3,9 +3,9 @@ title: Development News Brief
 date: 2014-06-02
 ---
 
-[All News Briefs](/src/docs/index.md)
+[All News Briefs](/docs/)
 <br />
-[Distribution Summary 2014_06_02](/src/news/2014-06-02-galaxy-distribution/index.md)
+[Distribution Summary 2014_06_02](/news/2014-06-02-galaxy-distribution/)
 
 <br />
 
@@ -58,11 +58,11 @@ If you have made local modifications to the `tool-data/shared/ucsc/ucsc_build_si
 <br />
 # Dataset Collections
 
-Dataset Collections (Technology Preview): Galaxy's data model, API, tool and workflow subsystems have been updated to incorporate the concept of dataset collections. Outlined in these [1](https://trello.com/c/325AXIEr)[2](https://trello.com/c/CnPKZ9ZN) trello cards, dataset collections allow performing complex analyses over lists of dataset, paired datasets, lists of paired datasets, etc.... 
+Dataset Collections (Technology Preview): Galaxy's data model, API, tool and workflow subsystems have been updated to incorporate the concept of dataset collections. Outlined in these [1](https://trello.com/c/325AXIEr)[2](https://trello.com/c/CnPKZ9ZN) trello cards, dataset collections allow performing complex analyses over lists of dataset, paired datasets, lists of paired datasets, etc....
 
-We are calling these a technology preview in this release because there is currently no rich user interface for [creating](https://trello.com/c/pPwdRwPh) or [viewing](https://trello.com/c/PVdbbpQS) dataset collections and there are a number of [known issues](https://trello.com/c/nQmxOG60). Check out this [presentation](https://docs.google.com/presentation/d/1D4pbULfe3IbSRVF3xsWvp9GyAct4SNfHhufIp-ysxYA/edit?usp=sharing), scheduled to given at this year's [Galaxy Community Conference](/src/events/gcc2014/index.md), for the most up to date information on dataset collections and example usages.
+We are calling these a technology preview in this release because there is currently no rich user interface for [creating](https://trello.com/c/pPwdRwPh) or [viewing](https://trello.com/c/PVdbbpQS) dataset collections and there are a number of [known issues](https://trello.com/c/nQmxOG60). Check out this [presentation](https://docs.google.com/presentation/d/1D4pbULfe3IbSRVF3xsWvp9GyAct4SNfHhufIp-ysxYA/edit?usp=sharing), scheduled to given at this year's [Galaxy Community Conference](/events/gcc2014/), for the most up to date information on dataset collections and example usages.
 
-</div><a href='http://imgur.com/FxVDt3Z'><img src="/src/images/news-graphics/2014_06_02_dataset-collections_2.png" alt="dataset collections" width="900" /></a> <br /> The workflow image above (created by Philip Mabon) demonstrates the usage of dataset collections in the context of the [Core Phylogenomics SNP](https://github.com/apetkau/core-phylogenomics) pipeline created by Aaron Petkau, Gary Van Domselaar, Philip Mabon,
+</div><a href='http://imgur.com/FxVDt3Z'><img src="/images/news-graphics/2014_06_02_dataset-collections_2.png" alt="dataset collections" width="900" /></a> <br /> The workflow image above (created by Philip Mabon) demonstrates the usage of dataset collections in the context of the [Core Phylogenomics SNP](https://github.com/apetkau/core-phylogenomics) pipeline created by Aaron Petkau, Gary Van Domselaar, Philip Mabon,
 and Lee Katz. </div>
 
 <br />
@@ -73,19 +73,22 @@ You will now find merged pull requested incorporated directly into the News Brie
 <br />
 # Galaxy Biostar
 
-If you haven't claimed your account yet at *[Galaxy Biostar](/src/support/biostar/index.md)*, now is a good time. This is the last reminder that the galaxy-user@bx.psu.edu mailing list will be retired Friday, June 6th. https://trello.com/c/0nQ5tHG7
+If you haven't claimed your account yet at *[Galaxy Biostar](/support/biostar/)*, now is a good time. This is the last reminder that the galaxy-user@bx.psu.edu mailing list will be retired Friday, June 6th. https://trello.com/c/0nQ5tHG7
 
 <br />
 # Data
 
-1. *Data Manger*: 
-  * Genome Builds / dbkeys: Make adding builds accessible by Data Manager. tools https://trello.com/c/5d077rYP
+1. *Data Manger*:
+
+* Genome Builds / dbkeys: Make adding builds accessible by Data Manager. tools https://trello.com/c/5d077rYP
+
 1. Reference Data:
-  * Replaced: hg19 100waymultiz conservation alignments sourced from [UCSC](http://genome.ucsc.edu) utilized by "Fetch Alignments (MAF)" tools and available via rsync. https://trello.com/c/hlNAx4wq https://trello.com/c/5d077rYP
-  * Updated: NCBI taxonomy data utilized by metagenomics analysis tools and available via rsync. https://trello.com/c/5d077rYP
-  * Updated: NCBI database indexes utilized by Megablast and available via rsync. https://trello.com/c/jH2UBpaJ
-  * Correction: Error in alignseq.loc entry for "Arabidopsis_thaliana_TAIR10". https://trello.com/c/oEgtg6yc
-  * Documentation: Wikis for data prep reorganized and updated. [Start here...](/src/admin/data-integration/index.md)
+
+* Replaced: hg19 100waymultiz conservation alignments sourced from [UCSC](http://genome.ucsc.edu) utilized by "Fetch Alignments (MAF)" tools and available via rsync. https://trello.com/c/hlNAx4wq https://trello.com/c/5d077rYP
+* Updated: NCBI taxonomy data utilized by metagenomics analysis tools and available via rsync. https://trello.com/c/5d077rYP
+* Updated: NCBI database indexes utilized by Megablast and available via rsync. https://trello.com/c/jH2UBpaJ
+* Correction: Error in alignseq.loc entry for "Arabidopsis_thaliana_TAIR10". https://trello.com/c/oEgtg6yc
+* Documentation: Wikis for data prep reorganized and updated. [Start here...](/admin/data-integration/)
 
 <br />
 # Tools
@@ -96,18 +99,21 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/support/biosta
 1. Enhancements for configuring tools that produce a variable number of outputs. [PR#356](https://bitbucket.org/galaxy/galaxy-central/pull-request/356/). https://trello.com/c/3SNHcQlU
 1. Pull in a complete tool input parameters spec in JSON (e.g. recursion into Group parameters: Conditional and Repeat). https://trello.com/c/ydPxchL4
 1. Toolshed Tools: Display link to toolshed repository on form. https://trello.com/c/QRAP0eFj
-1. Changed `selected_file` to `repo_file`. Resolve `NameError`: global name 'selected_file' is not defined. Trevor Wennblom, [PR#382](https://bitbucket.org/galaxy/galaxy-central/pull-request/382/). https://trello.com/c[/FhofbMxp](/src/archive/dev-news-briefs/2014-06-02/FhofbMxp/index.md)
+1. Changed `selected_file` to `repo_file`. Resolve `NameError`: global name 'selected_file' is not defined. Trevor Wennblom, [PR#382](https://bitbucket.org/galaxy/galaxy-central/pull-request/382/). https://trello.com/c[/FhofbMxp](/archive/dev-news-briefs/2014-06-02/FhofbMxp/)
 
 <br />
 # Visualizations
 
-1. *Trackster*: 
-  * Implement location router in shared visualizations. https://trello.com/c[/C7Ypv](/src/archive/dev-news-briefs/2014-06-02/C7Ypv/index.md)TAi
-  * Put converted datasets into history as hidden dataset. https://trello.com/c[/G5ZzUb3](/src/archive/dev-news-briefs/2014-06-02/G5ZzUb3/index.md)X
-1. External Display Applications: 
-  * Updates to IGB display of XML files. https://trello.com/c/e23KKCKb https://trello.com/c/qJyALlN7
-  * Added IGB display support for bed graph files. hillrunner2008, [PR#361](https://bitbucket.org/galaxy/galaxy-central/pull-request/361/). https://trello.com/c/pJeuhEP3
-  * `GenomeSpace` (OpenID) Token Expiration. https://trello.com/c/riMxlQ6k
+1. *Trackster*:
+
+* Implement location router in shared visualizations. https://trello.com/c[/C7Ypv](/archive/dev-news-briefs/2014-06-02/C7Ypv/)TAi
+* Put converted datasets into history as hidden dataset. https://trello.com/c[/G5ZzUb3](/archive/dev-news-briefs/2014-06-02/G5ZzUb3/)X
+
+1. External Display Applications:
+
+* Updates to IGB display of XML files. https://trello.com/c/e23KKCKb https://trello.com/c/qJyALlN7
+* Added IGB display support for bed graph files. hillrunner2008, [PR#361](https://bitbucket.org/galaxy/galaxy-central/pull-request/361/). https://trello.com/c/pJeuhEP3
+* `GenomeSpace` (OpenID) Token Expiration. https://trello.com/c/riMxlQ6k
 
 <br />
 # Workflows
@@ -123,7 +129,7 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/support/biosta
 1. Dataset provenance functionality improved for all user types. https://trello.com/c/ms6rtKmQ
 1. Improve public `username` handling at registration (including via API). https://trello.com/c/UAfb8SVX
 1. Improve `History options -> Purge deleted datasets` to update user disk usage. https://trello.com/c/bvOL9IBb
-1. Simplify localization of output and ensure acceptance of UTF-8 in history, dataset API, and client code. https://trello.com/c[/SxVszv0r](/src/archive/dev-news-briefs/2014-06-02/SxVszv0r/index.md)
+1. Simplify localization of output and ensure acceptance of UTF-8 in history, dataset API, and client code. https://trello.com/c[/SxVszv0r](/archive/dev-news-briefs/2014-06-02/SxVszv0r/)
 1. Create a proper JS object to contain components (user, configuration, logger). https://trello.com/c/JXPol7vs
 1. Extending the UI library: new elements. https://trello.com/c/xYiHvOfl
 
@@ -134,45 +140,50 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/support/biosta
 1. Allow fetching input/output dataset association information through jobs API. https://trello.com/c/1ly1QN3a
 1. Include job id in dataset provenance API. https://trello.com/c/SH8mWi8J
 1. Expose use_remote_user via configuration API. https://trello.com/c/AGKePuHZ
-1. Update code checks and documentation after commit 17a2dc7. Nicola Soranzo, [PR#383](https://bitbucket.org/galaxy/galaxy-central/pull-request/383/). https://trello.com/c[/Ms6E0enr](/src/archive/dev-news-briefs/2014-06-02/Ms6E0enr/index.md)
+1. Update code checks and documentation after commit 17a2dc7. Nicola Soranzo, [PR#383](https://bitbucket.org/galaxy/galaxy-central/pull-request/383/). https://trello.com/c[/Ms6E0enr](/archive/dev-news-briefs/2014-06-02/Ms6E0enr/)
 1. Fix for "'HistoryTagsController' object has no attribute 'security_check'". Nicola Soranzo, [PR#394](https://bitbucket.org/galaxy/galaxy-central/pull-request/394). https://trello.com/c/7iIv01zm
 
 <br />
 # Core
 
-1. Admin: 
-  * Messaging and Task Queue update. https://trello.com/c[/B0pV80d0](/src/archive/dev-news-briefs/2014-06-02/B0pV80d0/index.md)
-  * Client side logging for metrics and API entry point for fluentd. https://trello.com/c/7yfdzZj2
-  * Improve `View data tables registry` for developers. https://trello.com/c/gmClxfV8
-  * Update `phantomjs 1.9` and `casperjs 1.1` plus tests and modules in `test/casperjs`. https://trello.com/c/VjDIpgt3
-  * Page controls now loaded with `history/list_published.mako`. https://trello.com/c/nR2X7VJW
-  * Added rolling restart script to kill servers sequentially. Helena Rasche, [PR#393](https://bitbucket.org/galaxy/galaxy-central/pull-request/393/). https://trello.com/c/jdldxhlk
-1. Config: 
-  * Admin action to reload ".loc" files without restarting Galaxy. https://trello.com/c/c7nUco3u
-  * Allow for an arbitrary number of `tool_data_table_config_path` files. https://trello.com/c/rm2p8PpZ
-  * Better reflect `allow_user_dataset_purge` configuration in history panel. https://trello.com/c/RCPZ9zMF
-  * Create `run_tests.sh` to replace `run_functional_tests.sh`. https://trello.com/c/46KduuJs
-  * Remove misc files that slipped past `hgignore`. Trevor Wennblom, [PR#364](https://bitbucket.org/galaxy/galaxy-central/pull-request/364/). https://trello.com/c/NlbwJMjA
-1. Jobs: 
-  * Documentation Updates: https://trello.com/c/jDLtI38Z https://trello.com/c/CRjWSodv
+1. Admin:
+
+* Messaging and Task Queue update. https://trello.com/c[/B0pV80d0](/archive/dev-news-briefs/2014-06-02/B0pV80d0/)
+* Client side logging for metrics and API entry point for fluentd. https://trello.com/c/7yfdzZj2
+* Improve `View data tables registry` for developers. https://trello.com/c/gmClxfV8
+* Update `phantomjs 1.9` and `casperjs 1.1` plus tests and modules in `test/casperjs`. https://trello.com/c/VjDIpgt3
+* Page controls now loaded with `history/list_published.mako`. https://trello.com/c/nR2X7VJW
+* Added rolling restart script to kill servers sequentially. Helena Rasche, [PR#393](https://bitbucket.org/galaxy/galaxy-central/pull-request/393/). https://trello.com/c/jdldxhlk
+
+1. Config:
+
+* Admin action to reload ".loc" files without restarting Galaxy. https://trello.com/c/c7nUco3u
+* Allow for an arbitrary number of `tool_data_table_config_path` files. https://trello.com/c/rm2p8PpZ
+* Better reflect `allow_user_dataset_purge` configuration in history panel. https://trello.com/c/RCPZ9zMF
+* Create `run_tests.sh` to replace `run_functional_tests.sh`. https://trello.com/c/46KduuJs
+* Remove misc files that slipped past `hgignore`. Trevor Wennblom, [PR#364](https://bitbucket.org/galaxy/galaxy-central/pull-request/364/). https://trello.com/c/NlbwJMjA
+
+1. Jobs:
+
+* Documentation Updates: https://trello.com/c/jDLtI38Z https://trello.com/c/CRjWSodv
     * https://wiki.galaxyproject.org/Admin/Config/JobMetrics
     * https://wiki.galaxyproject.org/Admin/Config/Jobs#Job_Destinations
     * job_conf.xml.sample_advanced
-  * Plugin framework and plugins for job metrics. https://trello.com/c[/MexBahA3](/src/archive/dev-news-briefs/2014-06-02/MexBahA3/index.md)
-  * Capture and report time taken to run each job. https://trello.com/c/tRxCl9xv
-  * Local Job Runner Enhancements. [PR#384](https://bitbucket.org/galaxy/galaxy-central/pull-request/384/). https://trello.com/c/PDwEzOj1
-  * Improve `run_functional_tests.sh` script. https://trello.com/c/14Mt7Nap
-  * Fix GALAXY_SLOTS calculation for LSF. Ilya Sytchev. https://trello.com/c/WZ7ydlnW
-  * Add option test system environment option GALAXY_TEST_VERBOSE_ERRORS to report on dataset errors. https://trello.com/c/neyVEnxZ
-  * Update the job exit codes. Jian-Long Huang, [PR#365](https://bitbucket.org/galaxy/galaxy-central/pull-request/365/). https://trello.com/c/BXldAhSn
-  * CLI Job Runner Enhancements. [PR#385](https://bitbucket.org/galaxy/galaxy-central/pull-request/385/). https://trello.com/c[/KclOs](/src/archive/dev-news-briefs/2014-06-02/KclOs/index.md)ZJi
-  * Change: `job_directory -> jobs_directory`. Trevor Wennblom, [PR#360](https://bitbucket.org/galaxy/galaxy-central/pull-request/360/). https://trello.com/c/DXBL1XTt
-  * LWR Message Queue Fixes and Improvements. https://trello.com/c/wMvq2qNZ
+* Plugin framework and plugins for job metrics. https://trello.com/c[/MexBahA3](/archive/dev-news-briefs/2014-06-02/MexBahA3/)
+* Capture and report time taken to run each job. https://trello.com/c/tRxCl9xv
+* Local Job Runner Enhancements. [PR#384](https://bitbucket.org/galaxy/galaxy-central/pull-request/384/). https://trello.com/c/PDwEzOj1
+* Improve `run_functional_tests.sh` script. https://trello.com/c/14Mt7Nap
+* Fix GALAXY_SLOTS calculation for LSF. Ilya Sytchev. https://trello.com/c/WZ7ydlnW
+* Add option test system environment option GALAXY_TEST_VERBOSE_ERRORS to report on dataset errors. https://trello.com/c/neyVEnxZ
+* Update the job exit codes. Jian-Long Huang, [PR#365](https://bitbucket.org/galaxy/galaxy-central/pull-request/365/). https://trello.com/c/BXldAhSn
+* CLI Job Runner Enhancements. [PR#385](https://bitbucket.org/galaxy/galaxy-central/pull-request/385/). https://trello.com/c[/KclOs](/archive/dev-news-briefs/2014-06-02/KclOs/)ZJi
+* Change: `job_directory -> jobs_directory`. Trevor Wennblom, [PR#360](https://bitbucket.org/galaxy/galaxy-central/pull-request/360/). https://trello.com/c/DXBL1XTt
+* LWR Message Queue Fixes and Improvements. https://trello.com/c/wMvq2qNZ
 
 <br />
 # Security
 
-1. Change to avoid potential privacy exploit during login. https://trello.com/c[/XlXwM866](/src/archive/dev-news-briefs/2014-06-02/XlXwM866/index.md)
+1. Change to avoid potential privacy exploit during login. https://trello.com/c[/XlXwM866](/archive/dev-news-briefs/2014-06-02/XlXwM866/)
 1. Remove use of unencoded ids from history_common.mako, related controllers. https://trello.com/c/psDNnyRL
 
 # Fixes
@@ -196,7 +207,7 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/support/biosta
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ## Repositories
 
@@ -208,7 +219,7 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/support/biosta
 ## API
 
 1. Improve API error message when sent an incorrect user name. https://trello.com/c/bxZiluH3
-1. API installation of "Repository suite definition" no longer fails when there are multiple, different, owners. https://trello.com/c[/Bxe2E5Pp](/src/archive/dev-news-briefs/2014-06-02/Bxe2E5Pp/index.md)
+1. API installation of "Repository suite definition" no longer fails when there are multiple, different, owners. https://trello.com/c[/Bxe2E5Pp](/archive/dev-news-briefs/2014-06-02/Bxe2E5Pp/)
 1. Enhance the API to provide the current set of categories. https://trello.com/c/xaUy82rl
 
 ## Test Framework
@@ -222,12 +233,12 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/support/biosta
 
 <br />
 <div class='right'>
-<br /><a href='http://usegalaxy.org'><img src="/src/images/logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
+<br /><a href='http://usegalaxy.org'><img src="/images/logos/galaxyLogoTrimmed.png" alt="Galaxy" height="50" /></a><br />**usegalaxy.org**</div>
 
 # Project Updates
 
-1. [News](/src/news/index.md)
-1. [Events](/src/events/index.md)
+1. [News](/news/)
+1. [Events](/events/)
 1. *[May 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014-05)*
 1. *[June 2014 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2014-06)*
 
@@ -237,12 +248,12 @@ If you haven't claimed your account yet at *[Galaxy Biostar](/src/support/biosta
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the **[Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/)** at **[Penn State](http://www.psu.edu/)**, and the **[Department of Biology](http://www.bio.jhu.edu/)** at **[Johns Hopkinis University](http://www.jhu.edu/)**. 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of the **[Center for Comparative Genomics and Bioinformatics](http://www.bx.psu.edu/)** at **[Penn State](http://www.psu.edu/)**, and the **[Department of Biology](http://www.bio.jhu.edu/)** at **[Johns Hopkinis University](http://www.jhu.edu/)**.
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by **[NSF](http://www.nsf.gov/)**, **[NHGRI](http://www.genome.gov/)**, the **[Huck Institutes of the Life Sciences](http://www.huck.psu.edu/)**, and **[The Institute for CyberScience at Penn State](http://www.ics.psu.edu/)**, and **[Johns Hopkins University](http://www.jhu.edu/)**.
 
-The *[public Main instance](/src/main/index.md)* of **Galaxy** at **[http://usegalaxy.org](http://usegalaxy.org)** utilizes infrastructure generously provided by the **[iPlant Collaborative](http://www.iplantcollaborative.org/)** at the **[Texas Advanced Computing Center](https://www.tacc.utexas.edu/)**, with support from the **[National Science Foundation](http://www.nsf.gov/)**.
+The *[public Main instance](/main/)* of **Galaxy** at **[http://usegalaxy.org](http://usegalaxy.org)** utilizes infrastructure generously provided by the **[iPlant Collaborative](http://www.iplantcollaborative.org/)** at the **[Texas Advanced Computing Center](https://www.tacc.utexas.edu/)**, with support from the **[National Science Foundation](http://www.nsf.gov/)**.
 
-Follow us on **Twitter [@galaxyproject](http://twitter.com/galaxyproject)** or read our tweets at **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Follow us on **Twitter [@galaxyproject](http://twitter.com/galaxyproject)** or read our tweets at **[Galaxy on Twitter](/galaxy-on-twitter/)**
 
 Have a suggestion? Please see **[Using the Galaxy Issue Board](http://wiki.galaxyproject.org/Issues)**, and be sure to up vote the issues important to YOU.

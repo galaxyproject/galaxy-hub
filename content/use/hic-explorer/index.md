@@ -8,7 +8,7 @@ platforms:
     platform_text: "Public server hosted by usegalaxy.eu"
     platform_location: DE
 summary: "Tools to process and visualize chromosome conformation."
-image: "/src/use/hic-explorer/hic.png"
+image: "/use/hic-explorer/hic.png"
 comments:
   - "Galaxy HiCExplorer is a web server that facilitates
 the study of the 3D conformation of chromatin by allowing
@@ -21,7 +21,7 @@ quotas:
   - "Storage and computational quotas."
 citations:
   - "[Galaxy HiCExplorer: a web server for reproducible
-Hi-C data analysis, quality control and visualization](https://academic.oup.com/nar/article/46/W1/W11/5036837), Joachim Wolff, Vivek Bhardwaj, Stephan Nothjunge, Gautier Richard, Gina Renschler, Ralf Gilsbach, Thomas Manke, Rolf Backofen,  Fidel Ramírez, and [Björn A Grüning](/src/people/bjoern-gruening/index.md), *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W11–W16, doi:10.1093/nar/gky504"
+Hi-C data analysis, quality control and visualization](https://academic.oup.com/nar/article/46/W1/W11/5036837), Joachim Wolff, Vivek Bhardwaj, Stephan Nothjunge, Gautier Richard, Gina Renschler, Ralf Gilsbach, Thomas Manke, Rolf Backofen,  Fidel Ramírez, and [Björn A Grüning](/people/bjoern-gruening/), *Nucleic Acids Research*, Volume 46, Issue W1, 2 July 2018, Pages W11–W16, doi:10.1093/nar/gky504"
 pub_libraries:
   - "HiCExplorer"
 sponsors:

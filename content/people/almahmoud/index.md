@@ -1,4 +1,4 @@
-<div class='right'>![](/src/galaxy-team/almahmoud.jpg)</div>
+<div class='right'>![](/galaxy-team/almahmoud.jpg)</div>
 
 # Alexandru Mahmoud
 

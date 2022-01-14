@@ -4,10 +4,10 @@
 
 ## What will be the format for GCC in 2019?
 
-The format of GCC this year will be a bit different than the previous years. 
+The format of GCC this year will be a bit different than the previous years.
 
-It will starts with 1 day of training, continues with 3 days of conference featuring 
-unified and parallel tracks, poster/demo, birds-of-a-feather gatherings but also training, 
+It will starts with 1 day of training, continues with 3 days of conference featuring
+unified and parallel tracks, poster/demo, birds-of-a-feather gatherings but also training,
 and ends with 2 days of CollaborationFest.
 
 Day | Event | Details
@@ -24,13 +24,14 @@ Sat, 6 July | CollaborationFest | Collaborative work event
 The training topics that are offered during GGCC2019 are determined by the community via a nomination and voting process.
 
 Nominated topics can cover a wide range. For example:
+
 - Introduction to Using Galaxy
 - Scientific topic oriented trainings
 - Community specific trainings
 - Development and administration around Galaxy
 - Train the trainers
 
-This list only shows some examples. If you think the communities would be interested in a topic, then please nominate it!  And if you are looking for ideas, see the topic nominated in: [2016](http://bit.ly/gcc2016noms), [2015](http://bit.ly/gcc2015vote), [2014](http://bit.ly/1s6NtMN), [2013](http://bit.ly/1i2j1gN) and the [Galaxy Events page](/src/events/index.md).
+This list only shows some examples. If you think the communities would be interested in a topic, then please nominate it!  And if you are looking for ideas, see the topic nominated in: [2016](http://bit.ly/gcc2016noms), [2015](http://bit.ly/gcc2015vote), [2014](http://bit.ly/1s6NtMN), [2013](http://bit.ly/1i2j1gN) and the [Galaxy Events page](/events/).
 
 The training nomination is open from **December, 1st** to **December, 31**. Topics will be compiled by the GCC2017 Organizing Committee, and voted on by the Galaxy Community from **January, 15th** to **January, 31st**.
 

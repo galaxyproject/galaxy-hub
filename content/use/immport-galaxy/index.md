@@ -8,7 +8,7 @@ platforms:
     platform_text: "ImmPort Galaxy"
     platform_location: US
 summary: "Flow Cytometry Analysis. "
-image: "/src/use/immport-galaxy/immport.png"
+image: "/use/immport-galaxy/immport.png"
 comments:
   - "[ImmPort Galaxy](https://www.immportgalaxy.org/) hosts [ImmPort](http://www.immport.org/)'s flow analysis tools."
   - "See [FlowGalaxy: Developing a workflow for Flow Cytometry Analysis in Galaxy](http://sched.co/745G), presented by [Cristel Thomas](http://twitter.com/crstlthms) at [GCC2016](https://gcc16.sched.org/)."

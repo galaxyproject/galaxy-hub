@@ -7,7 +7,7 @@ platforms:
   platform_url: "https://quay.io/repository/qiime2/q2galaxy"
   platform_text: "q2galaxy"
 summary: "QIIME 2 Galaxy Docker image."
-image: "/src/images/logos/qiime2.svg"
+image: "/images/logos/qiime2.svg"
 comments:
 - "Starting with the 2021.4 release of QIIME 2, this Docker image is automatically updated as QIIME 2 is updated. This container is maintained by the QIIME 2 team."
 - "QIIME 2 is a next-generation microbiome bioinformatics platform that is extensible, free, and open source."

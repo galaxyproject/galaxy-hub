@@ -1,4 +1,4 @@
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main Tool Shed](/src/images/logos/ToolShed.jpg)</a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'>![Galaxy Main Tool Shed](/images/logos/ToolShed.jpg)</a> </div>
 
 # Complex Repository Dependencies
 
@@ -50,6 +50,6 @@ The above tool dependency definition is associated with the entry in the `<requi
 
 Visiting the repository's main page displays various containers. There are two dependencies defined for this repository, both of which are defined in the simple **tool\_dependencies.xml** file above. The repository dependency on revision **a347750db1d1** of the repository named **bwa\_059** owned by **greg** is defined by the ```repository``` tag, while the tool dependency on version **0.5.9** of the **bwa package** is defined by the ```<package>``` tag set.
 
-![](/src/toolshed/complex-repository-dependencies/manage_complex_repository_dependency_on_bwa_059.png)
+![](/toolshed/complex-repository-dependencies/manage_complex_repository_dependency_on_bwa_059.png)
 
-For more technical details on this XML file, see the [supported tool_dependencies.xml tag sets](/src/toolshed/tool-dependencies-tag-sets/index.md).
+For more technical details on this XML file, see the [supported tool_dependencies.xml tag sets](/toolshed/tool-dependencies-tag-sets/).

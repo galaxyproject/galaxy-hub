@@ -1,9 +1,9 @@
 # usegalaxy.org Reference Data
 
-[usegalaxy.org](http://usegalaxy.org) ([Main](/src/main/index.md) is home to over 4 TB of reference data. This is
+[usegalaxy.org](http://usegalaxy.org) ([Main](/main/) is home to over 4 TB of reference data. This is
 comprised mainly of genome sequence builds and associated prebuilt indexes for the tools installed on usegalaxy.org, as
 well as the Galaxy-specific configuration files that make the data known to those tools. Because preparing this data for
-your own **[local](/src/admin/get-galaxy/index.md)** Galaxy server or an external application can be a laborious
+your own **[local](/admin/get-galaxy/)** Galaxy server or an external application can be a laborious
 process, we have made this reference available from a variety of schemes.
 
 ## Data Structure
@@ -59,8 +59,8 @@ other related tools are in the [UCSC Genome Browser][ucsc] source code [download
 
 ## Related topics
 
-* [Data Integration](/src/admin/data-integration/index.md)
-* [Data Preparation](/src/admin/data-preparation/index.md)
+* [Data Integration](/admin/data-integration/)
+* [Data Preparation](/admin/data-preparation/)
 
 ## Mounting Reference Data with CernVM-FS (CVMFS)
 
@@ -122,6 +122,7 @@ Repository][cvmfs-config-repo], which will provide automatic configuration for a
 To configure, add the Galaxy-specific configuration files:
 
 **/etc/cvmfs/default.local**
+
 ```bash
 CVMFS_HTTP_PROXY="DIRECT"
 CVMFS_QUOTA_LIMIT="4000"    # the cache size in MB
@@ -129,18 +130,21 @@ CVMFS_USE_GEOAPI=yes        # sort server list by geographic distance from clien
 ```
 
 **/etc/cvmfs/config.d/cvmfs-config.galaxyproject.org.conf**
+
 ```bash
 CVMFS_SERVER_URL="http://cvmfs1-psu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-iu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-tacc0.galaxyproject.org/cvmfs/@fqrn@"
 CVMFS_PUBLIC_KEY="/etc/cvmfs/keys/galaxyproject.org/cvmfs-config.galaxyproject.org.pub"
 ```
 
 **/etc/cvmfs/default.d/80-galaxyproject-cvmfs.conf**
+
 ```bash
 CVMFS_CONFIG_REPOSITORY="cvmfs-config.galaxyproject.org"
 CVMFS_DEFAULT_DOMAIN="galaxyproject.org"
 ```
 
 **/etc/cvmfs/keys/galaxyproject.org/cvmfs-config.galaxyproject.org.pub**
+
 ```pub
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuJZTWTY3/dBfspFKifv8
@@ -162,6 +166,7 @@ If not using the dynamic config repository method in the previous section, you c
 `data.galaxyproject.org` CVMFS repository. To do so, add the Galaxy-specific configuration files:
 
 **/etc/cvmfs/default.local**
+
 ```bash
 CVMFS_REPOSITORIES="data.galaxyproject.org"
 CVMFS_HTTP_PROXY="DIRECT"
@@ -170,12 +175,14 @@ CVMFS_USE_GEOAPI=yes        # sort server list by geographic distance from clien
 ```
 
 **/etc/cvmfs/domain.d/galaxyproject.org.conf**
+
 ```bash
 CVMFS_SERVER_URL="http://cvmfs1-tacc0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-iu0.galaxyproject.org/cvmfs/@fqrn@;http://cvmfs1-psu0.galaxyproject.org/cvmfs/@fqrn@;http://galaxy.jrc.ec.europa.eu:8008/cvmfs/@fqrn@;http://cvmfs1-mel0.gvl.org.au/cvmfs/@fqrn@"
 CVMFS_KEYS_DIR="/etc/cvmfs/keys/galaxyproject.org"
 ```
 
 **/etc/cvmfs/keys/galaxyproject.org/data.galaxyproject.org.pub**
+
 ```pub
 -----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5LHQuKWzcX5iBbCGsXGt
@@ -216,7 +223,7 @@ The list of Stratum 1 servers for the `data.galaxyproject.org` CVMFS repository 
 | --- | --- | --- |
 | `cvmfs1-psu0.galaxyproject.org` | [Galaxy Project][galaxyproject] | [Penn State University][psu], Pennsylvania, USA |
 | `cvmfs1-iu0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at [Indiana University][iu], Indiana, USA |
-| `cvmfs1-tacc0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at the [Texas Advanced Computing Center][tacc], [University of Texas at Austin][utexas], Texas, USA | 
+| `cvmfs1-tacc0.galaxyproject.org` | [Galaxy Project][galaxyproject] via [XSEDE][xsede] | [Jetstream Cloud][jetstream] at the [Texas Advanced Computing Center][tacc], [University of Texas at Austin][utexas], Texas, USA |
 | `cvmfs1-mel0.gvl.org.au` | [GVL Project][gvlproject] | Melbourne, Australia |
 | `galaxy.jrc.ec.europa.eu:8008` | [European Commission Joint Research Centre][jrc] | Ispra, Italy |
 | `cvmfs1-ufr0.galaxyproject.eu` | [Galaxy Project Europe/UseGalaxy.eu][jrc] | Freiburg, Germany |
@@ -300,7 +307,7 @@ $ rsync -avzP rsync://datacache.galaxyproject.org/indexes/microbes/63 .
 ### Organization and DBKEY
 
 Genomes are organized in directories by reference genome **dbkey**. If you are not sure of the **dbkey**, it can be
-found in the [Main](/src/main/index.md) user interface. This value is what is populated into the *"database"* attribute
+found in the [Main](/main/) user interface. This value is what is populated into the *"database"* attribute
 for a dataset. Or, it is the last value in parenthesis *(dbkey)* at the end of the full reference genome build name in
 two specific places in the [usegalaxy.org](https://usegalaxy.org/) interface:
 

@@ -18,7 +18,7 @@ I quickly realized a simple dump table from MySQL and load them into PostgreSQL 
 
 ## Preparations for the Move
 
-To make sure, the new PostgreSQL database had the correct schema, I set up a new Galaxy server from scratch, using the same release as our production server was running at the time ([15.03](http://galaxy.readthedocs.org/en/master/releases/15.03_announce.html)), and pointing to a new, empty PostgreSQL database. By starting the new Galaxy server, the 128 migration steps were executed, and the PostgreSQL database was populated with 156 empty (see also below) tables. 
+To make sure, the new PostgreSQL database had the correct schema, I set up a new Galaxy server from scratch, using the same release as our production server was running at the time ([15.03](http://galaxy.readthedocs.org/en/master/releases/15.03_announce.html)), and pointing to a new, empty PostgreSQL database. By starting the new Galaxy server, the 128 migration steps were executed, and the PostgreSQL database was populated with 156 empty (see also below) tables.
 
 I used the tool [py-mysql2pgsql](https://pypi.python.org/pypi/py-mysql2pgsql) to generate table dumps from our MySQL database. By default, [py-mysql2pgsql](https://pypi.python.org/pypi/py-mysql2pgsql) imports the data into a  PostgreSQL database, but if you provide a file name (e.g. "mysql2pgsql.txt") in the required "mysql2pgsql.yml" file, the output goes to the "mysql2pgsql.txt" file. This file contains all the commands to create a PostgreSQL database, based on the information from the MySQL database. Since I was only interested in the loading data (or rather "COPY") parts, I used a simple perl script to parse "mysql2pgsql.txt" to get the "COPY" statements for all table which had data in.
 
@@ -61,7 +61,7 @@ close DUMP;
 ```
 
 
-This script generated 81 copy statements for the database used for our production server. 
+This script generated 81 copy statements for the database used for our production server.
 
 ## Loading the Data
 
@@ -114,6 +114,7 @@ I run into three circular foreign key constraints in the (empty) PostgreSQL data
 * form_definition <-> form_definition_current (see: [form_definition](https://galaxyproject.org/schema/SchemaSpy/tables/form_definition.html))
 
 I solved it by dropping the constraint, uploading the data, and recreating the foreign key, eg:
+
 ```
 ALTER TABLE workflow DROP CONSTRAINT workflow_stored_workflow_id_fkey;
 
@@ -154,6 +155,7 @@ ALTER TABLE ONLY form_definition ADD CONSTRAINT form_definition_form_definition_
 ##### tables already filled by galaxy
 
 Obviously, as part of the database generation the table "migrate_version" had already been filled in my case:
+
 ```
 =#select * from migrate_version;
  repository_id |     repository_path      | version 
@@ -162,7 +164,8 @@ Obviously, as part of the database generation the table "migrate_version" had al
 (1 row)
 ```
 
-The "kombu_queue" table was also not empty: 
+The "kombu_queue" table was also not empty:
+
 ```
 =# select * from kombu_queue;
  id |     name     
@@ -175,6 +178,7 @@ The "kombu_queue" table was also not empty:
 In both cases, the contents was equal to the contents from the dump out of the existing MySQL database.
 
 The "migrate_tools" table is also pre-filled:
+
 ```
 =# select * from migrate_tools;
  repository_id |           repository_path            | version 
@@ -203,4 +207,4 @@ I first tested the transition process with our development server. Although, we 
 
 As the final step, I had to change the database setting in the "galaxy.ini" (well, "universe_wsgi.ini" for our old instance) and "reports_wsgi.ini" files, and restart the server.
 
-I am sure there are better and easier ways to do this, but the process worked for me. Feel free to contact [me](/src/people/hansrudolf-hotz/index.md), if you have any questions or want to do such a migration for your Galaxy server as well.
+I am sure there are better and easier ways to do this, but the process worked for me. Feel free to contact [me](/people/hansrudolf-hotz/), if you have any questions or want to do such a migration for your Galaxy server as well.

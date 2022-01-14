@@ -6,17 +6,17 @@ date: "2019-08-01"
 
 The *August 2019 Galactic News* is here!
 
-[<img class="float-right" src="/src/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/news/2019-08-galaxy-update/2019-08-galaxy-update-image.png" alt="Galaxy News" width="350" />](/galaxy-updates/)
 
-* [Events: GCC2019 is done; BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/src/news/2019-08-galaxy-update/index.md#events)
-  * Plus deadlines this month and 19 other events in the next 90 days.
-* [178 new publications](/src/news/2019-08-galaxy-update/index.md#publications), including 5 highlighted ones.
-* [Two new Galactic Blog posts](/src/news/2019-08-galaxy-update/index.md#galactic-blog-activity):
-  * Getting the most out of 1) Galaxy on Twitter, and 2) Pan-Galactic Search
-* [Galaxy Platform News](/src/news/2019-08-galaxy-update/index.md#galaxy-platforms-news) from UseGalaxy.* and the Human Cell Atlas.
-* [Seven Open positions](/src/news/2019-08-galaxy-update/index.md#whos-hiring) in four countries on two continents.
-* [Updates to training materials and documentation](/src/news/2019-08-galaxy-update/index.md#doc-hub-and-training-updates).
-* [New releases](/src/news/2019-08-galaxy-update/index.md#releases).
+* [Events: GCC2019 is done; BCC2020 is coming! Galaxy ♥ BioHackathon Europe!](/news/2019-08-galaxy-update/#events)
+    * Plus deadlines this month and 19 other events in the next 90 days.
+* [178 new publications](/news/2019-08-galaxy-update/#publications), including 5 highlighted ones.
+* [Two new Galactic Blog posts](/news/2019-08-galaxy-update/#galactic-blog-activity):
+    * Getting the most out of 1) Galaxy on Twitter, and 2) Pan-Galactic Search
+* [Galaxy Platform News](/news/2019-08-galaxy-update/#galaxy-platforms-news) from UseGalaxy.* and the Human Cell Atlas.
+* [Seven Open positions](/news/2019-08-galaxy-update/#whos-hiring) in four countries on two continents.
+* [Updates to training materials and documentation](/news/2019-08-galaxy-update/#doc-hub-and-training-updates).
+* [New releases](/news/2019-08-galaxy-update/#releases).
 
 If you have anything to include to next month's newsletter, then please send it to outreach@galaxyproject.org.
 
@@ -24,20 +24,20 @@ If you have anything to include to next month's newsletter, then please send it 
 
 <div class="card-deck">
 <div class="card border-info" style="min-width: 15rem;">
-[<img class="card-img-top" src="/src/events/gcc2019/gcc2019-logo-big-wide.png" alt="GCC2019" />](/src/events/gcc2019/index.md)
+[<img class="card-img-top" src="/events/gcc2019/gcc2019-logo-big-wide.png" alt="GCC2019" />](/events/gcc2019/)
 <div class="card-header">GCC2019: Biggest GCC Yet</div>
 
-**The [2019 Galaxy Community Conference](/src/events/gcc2019/index.md)** is done!  GCC2019 was held 1-8 July, in Freiburg, Germany, the home of [Galaxy Europe](https://galaxyproject.eu/).  It was a smashing success by any measure:
+**The [2019 Galaxy Community Conference](/events/gcc2019/)** is done!  GCC2019 was held 1-8 July, in Freiburg, Germany, the home of [Galaxy Europe](https://galaxyproject.eu/).  It was a smashing success by any measure:
 
 * 231 total participants
 * 65 Talks
-  * [17 Outside the Genome / Community talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Outside+the+Genome+%26+Community)
-  * [17 Admin/Dev talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Admin+%2F+Dev)
-  * [10 Transcriptomics / Genomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Transcriptomics+%2F+Genomics)
-  * [9 Proteomics / Metabolomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%2F+Metabolomics)
-  * [7 General talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+General)
-  * [5 Epigenetics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics)
-  * [5 Variation / Metagenomics / Assembly talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
+    * [17 Outside the Genome / Community talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Outside+the+Genome+%26+Community)
+    * [17 Admin/Dev talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Admin+%2F+Dev)
+    * [10 Transcriptomics / Genomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Transcriptomics+%2F+Genomics)
+    * [9 Proteomics / Metabolomics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Proteomics+%2F+Metabolomics)
+    * [7 General talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+General)
+    * [5 Epigenetics talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Epigenetics)
+    * [5 Variation / Metagenomics / Assembly talks](https://gcc2019.sched.com/overview/type/B.+Talks%3A+Variation+%2F+Metagenomics+%2F+Assembly)
 * [54 Posters](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Posters) and [14 Demos](https://gcc2019.sched.com/overview/type/C.+Posters+%2F+Demos+%2F+Sponsors/Demos)
 * [39 Training Sessions](https://gcc2019.sched.com/overview/type/A.+Training)
 * [~30 Birds of a Feather meetups](https://gcc2019.sched.com/overview/type/D.+Break+%2F+Social+%2F+Networking+%2F+Meal/BoFs)
@@ -48,10 +48,10 @@ The slides for most talks and posters are [online](https://gcc2019.sched.com/). 
 </div>
 
 <div class="card border-primary" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/images/logos/bcc2020-wide-1000.png" alt="BCC2020" />
+<img class="card-img-top" src="/images/logos/bcc2020-wide-1000.png" alt="BCC2020" />
 <div class="card-header">BCC2020: July 18-25, 2020, Toronto</div>
 
-We are pleased to announce that the 2020 **[Galaxy Community Conference](/src/gcc/index.md)** will be held jointly with the 2020 **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/)**, at the  **Bioinformatics Community Conference (BCC2020).**
+We are pleased to announce that the 2020 **[Galaxy Community Conference](/gcc/)** will be held jointly with the 2020 **[Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/)**, at the  **Bioinformatics Community Conference (BCC2020).**
 
 The new name, *BCC2020*, reflects the increased blending of these two communities that is happening at next year's event.  BCC2020 will feature more theme/domain driven presentation, poster and demo sessions, featuring content from *both* communities.
 
@@ -89,7 +89,7 @@ Interested? Registration is available on a first come, first serve basis. Regist
 https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/tutorials/), [GMDS-Jahrestagung](https://gmds.de/aktuelles-termine/tagungen-2019-willkommen/), Dortmund, Germany. Advance registration: August 30.
 
 
-## All [Upcoming events](/src/events/index.md)
+## All [Upcoming events](/events/)
 
 There is a lot going on in the next 3 months.
 
@@ -269,8 +269,8 @@ Caleb W. Easterly, Ray Sajulga, Subina Mehta, James Johnson, Praveen Kumar, Shan
 
 <div class="card-deck">
 <div class="card border-info" style="min-width: 8rem;">
-<img class="card-img-top" src="/src/blog/2019-07-galaxy-twitter/galaxy-on-twitter.png" alt="Galaxy on Twitter" />
-<div class="card-header">[Galaxy on Twitter: An Update](/src/blog/2019-07-galaxy-twitter/index.md)</div>
+<img class="card-img-top" src="/blog/2019-07-galaxy-twitter/galaxy-on-twitter.png" alt="Galaxy on Twitter" />
+<div class="card-header">[Galaxy on Twitter: An Update](/blog/2019-07-galaxy-twitter/)</div>
 
 An update from the team behind [@galaxyproject](https://twitter.com/galaxyproject) tweets, motivated by the new [@gxytraining](https://twitter.com/gxytraining) account.
 
@@ -278,8 +278,8 @@ There a lot more going on than @galaxyproject and [#UseGalaxy](https://twitter.c
 </div>
 
 <div class="card border-info" style="min-width: 8rem;">
-<img class="card-img-top" src="/src/blog/2019-07-looking-for-galaxy/19-feet-of-family-sedan.jpg" alt="Where do cars go after they die?" />
-<div class="card-header">[Looking for Galaxy (info), in all the right places](/src/blog/2019-07-looking-for-galaxy/index.md)</div>
+<img class="card-img-top" src="/blog/2019-07-looking-for-galaxy/19-feet-of-family-sedan.jpg" alt="Where do cars go after they die?" />
+<div class="card-header">[Looking for Galaxy (info), in all the right places](/blog/2019-07-looking-for-galaxy/)</div>
 
 How to find Galaxy info on the web, and find *only* Galaxy info on the web.  No more phones, astronomy, soccer, cars, chocolate, or Ansible (OK, maybe Ansible).
 
@@ -290,22 +290,23 @@ Also answers the question of "Where do cars go after they die?"
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * [UseGalaxy.eu](https://usegalaxy.eu/) hits [7000 users and 10.000.000 datasets](https://galaxyproject.eu/posts/2019/07/20/7000-users-10M-datasets/).
 * [UseGalaxy.org](https://usegalaxy.org/) and [UseGalaxy.org.au](https://usegalaxy.org.au/) now have the Galaxy Training Network tutorial datasets.  And they are all automatically updated too, courtesy of Helena Rasche.  (And, ahem, UseGalaxy.eu has had this data *forever*.)
+
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">Human Cell Atlas gets a Galaxy</div>
 
-[<img class="card-img-top" src="/src/images/logos/human-cell-atlas-logo.png" alt="Human Cell Atlas" />](https://humancellatlas.usegalaxy.eu/)
+[<img class="card-img-top" src="/images/logos/human-cell-atlas-logo.png" alt="Human Cell Atlas" />](https://humancellatlas.usegalaxy.eu/)
 
 The newly launched [Human Cell Atlas Galaxy instance](https://humancellatlas.usegalaxy.eu/) has tools and workflows for the analysis of Single Cell RNA-Seq data. It includes a module that connects to the Matrix Service API of the [Human Cell Atlas](https://www.humancellatlas.org/)’s Data Coordination Platform that enables retrieval of gene expression matrices from any data sets in the Human Cell Atlas.  This server is hosted by the UseGalaxy.eu team.
 </div>
@@ -326,7 +327,7 @@ Platforms that were referenced at least twice in the past month's publications:
 
 # Who's Hiring
 
-The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+The *dark energy* of irreproducible research is threatening the science universe! Please help the Galaxy push it back!  Have a Galaxy-related opening? Send it to outreach @ galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
@@ -334,7 +335,7 @@ The *dark energy* of irreproducible research is threatening the science universe
 
 [AbSci](http://www.absci.com/), Vancouver, Washington, United States
 
-<img class="card-img-bottom" src="/src/images/logos/absci-logo.svg" alt="AbSci" />
+<img class="card-img-bottom" src="/images/logos/absci-logo.svg" alt="AbSci" />
 </div>
 
 
@@ -343,15 +344,15 @@ The *dark energy* of irreproducible research is threatening the science universe
 
 Wageningen University & Research is hiring.
 
-<img class="card-img-bottom" src="/src/images/logos/WageningenUniversity.jpg" alt="Wageningen University & Research" />
+<img class="card-img-bottom" src="/images/logos/WageningenUniversity.jpg" alt="Wageningen University & Research" />
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
 <div class="card-header">[Postdoctoral Fellows](https://www.postdocjobs.com/posting/7057197)</div>
 
-In the [Blankenberg Lab](/src/people/dan/index.md) at the Cleveland Clinic, Cleveland, Ohio, United States.
+In the [Blankenberg Lab](/people/dan/) at the Cleveland Clinic, Cleveland, Ohio, United States.
 
-<img class="card-img-bottom" src="/src/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
+<img class="card-img-bottom" src="/images/logos/cleveland-clinic.svg" alt="Cleveland Clinic" />
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
@@ -359,7 +360,7 @@ In the [Blankenberg Lab](/src/people/dan/index.md) at the Cleveland Clinic, Clev
 
 At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 
-<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
+<img class="card-img-bottom" src="/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
 <div class="card border-info" style="min-width: 12rem;">
@@ -367,7 +368,7 @@ At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 
 At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 
-<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
+<img class="card-img-bottom" src="/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
 <div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
@@ -375,7 +376,7 @@ At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 
 At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 
-<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
+<img class="card-img-bottom" src="/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
 <div class="card border-info"  style="min-width: 12rem; max-width: 28rem;">
@@ -383,7 +384,7 @@ At the VIB-UGent Center for Plant Systems Biology, with ELIXIR Belgium.
 
 The [The European Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2019/01/10/openpositions/) in Freiburg, Germany.
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/galaxy-europe-white.png" alt="Galaxy Europe" />
+<img class="card-img-bottom" src="/images/galaxy-logos/galaxy-europe-white.png" alt="Galaxy Europe" />
 </div>
 </div>
 
@@ -404,7 +405,7 @@ By [Delphine Lariviere](https://training.galaxyproject.org/training-material/hal
 
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">2 New Tutorials for Galaxy on Kubernetes: [Deploying Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-deploying-galaxy/tutorial.html) and [Managing Galaxy](https://training.galaxyproject.org/training-material/topics/admin/tutorials/k8s-managing-galaxy/tutorial.html)</div>
-<img class="card-img-top" src="/src/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" />
+<img class="card-img-top" src="/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" />
 <div class="card-body">
 <p class="card-text">
 By [Pablo Moreno](https://training.galaxyproject.org/training-material/hall-of-fame#pcm32), [Enis Afgan](https://training.galaxyproject.org/training-material/hall-of-fame#afgane), [Nuwan Goonasekera](https://training.galaxyproject.org/training-material/hall-of-fame#nuwang), [Alex Mahmoud](https://training.galaxyproject.org/training-material/hall-of-fame#almahmoud), [Sergey Golitsynskiy](https://training.galaxyproject.org/training-material/hall-of-fame#ic4f).</p>
@@ -423,8 +424,8 @@ Updated by [Nate Coraor](https://training.galaxyproject.org/training-material/ha
 </div>
 
 <div class="card border-info"  style="min-width: 12rem;">
-<div class="card-header">New doc: [Configure Cloud Authorization for GCP](/src/authnz/cloud/gcp/index.md)</div>
-<img class="card-img-top" src="/src/images/logos/google-cloud-platform-wide.png" alt="Google Cloud Platform" />
+<div class="card-header">New doc: [Configure Cloud Authorization for GCP](/authnz/cloud/gcp/)</div>
+<img class="card-img-top" src="/images/logos/google-cloud-platform-wide.png" alt="Google Cloud Platform" />
 <div class="card-body">
 <p class="card-text">
 Galaxy can now [access](https://github.com/galaxyproject/cloudauthz#cloudauthz) Google Cloud Storage, (joining AWS and Azure).  This builds on Google Cloud Platform support in new release of CloudAuthz.
@@ -445,7 +446,7 @@ Galaxy can now [access](https://github.com/galaxyproject/cloudauthz#cloudauthz) 
 <div class="card border-info"  style="min-width: 12rem; max-width: 28rem">
 <div class="card-header">GTN Tweets!</div>
 
-[<img class="card-img-top" src="/src/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
+[<img class="card-img-top" src="/images/galaxy-logos/GTNLogoTrans300.png" alt="Galaxy Training Materials" />](https://training.galaxyproject.org/)
 The **[Galaxy Training Network](https://training.galaxyproject.org/)** now has a Twitter account! Follow [**@GxyTraining**](https://twitter.com/gxytraining) to stay up to date on GTN training materials, events, and announcements!
 </div>
 
@@ -487,7 +488,7 @@ New additions (and editions) in the Galaxy Ecosystem.
 <div class="card-deck">
 <div class="card border-info"  style="min-width: 12rem;">
 <div class="card-header">Planemo 0.61.0</div>
-<img class="card-img-top" src="/src/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
+<img class="card-img-top" src="/images/galaxy-logos/planemo-logo.png" alt="Planemo" />
 <div class="card-body">
 <p class="card-text">[Planemo](https://pypi.python.org/pypi/planemo) is a set of command-line utilities to assist in building tools for the Galaxy project.  These releases included [numerous fixes and enhancements](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).  See [GitHub for details](https://github.com/galaxyproject/planemo/blob/master/HISTORY.rst).</p>
 </div>

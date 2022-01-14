@@ -15,6 +15,7 @@ links:
   url: "https://youtu.be/MSUt-F9Jib4"
 - text: "Slides"
   url: "https://depot.galaxyproject.org/hub/attachments/events/2021-05-13-dev-roundtable/new-users-landing.pdf"
+tags: [ "devroundtable" ]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MSUt-F9Jib4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -29,4 +30,4 @@ Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([s
 
 
 
-The [Galaxy Developer Roundatble](/src/community/devroundtable/index.md) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 
+The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community.

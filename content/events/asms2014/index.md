@@ -1,14 +1,14 @@
 <div class='title'>
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/src/images/logos/ASMSLogo.png" alt="62nd ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
+    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/images/logos/ASMSLogo.png" alt="62nd ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
     <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'>62nd ASMS Conference on Mass Spectrometry and Allied Topics</a><br /><br /> Baltimore Maryland, United States<br /><br />June 15 - 19, 2014 </td>
   </tr>
 </table>
 
 </div>
 
-Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it's in Baltimore, two weeks before [GCC2014](/src/events/gcc2014/index.md).
+Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it's in Baltimore, two weeks before [GCC2014](/events/gcc2014/).
 
 <table>
   <tr class="th" >
@@ -61,7 +61,7 @@ Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it
     <th> Wednesday </th>
     <td style=" text-align: center;"> 5:45pm - 7:00pm </td>
     <td> Room 339-340 </td>
-    <td> <strong>Workshop 7: The Galaxy Framework for Biological MS Informatics: Practical Tips for Software Developers and Users </strong><div class='indent'><em>Tim Griffin (presiding), University of Minnesota, Minneapolis, MN<br />See <a href='/src/events/asms2014/index.md#workshop-7-the-galaxy-framework-for-biological-ms-informatics-practical-tips-for-software-developers-and-users'>below</a> for more information</em></div> </td>
+    <td> <strong>Workshop 7: The Galaxy Framework for Biological MS Informatics: Practical Tips for Software Developers and Users </strong><div class='indent'><em>Tim Griffin (presiding), University of Minnesota, Minneapolis, MN<br />See <a href='/events/asms2014/#workshop-7-the-galaxy-framework-for-biological-ms-informatics-practical-tips-for-software-developers-and-users'>below</a> for more information</em></div> </td>
     <td> </td>
   </tr>
   <tr>
@@ -80,24 +80,24 @@ Galaxy will again have a strong presence at the 2014 ASMS meeting.  This year it
 **Wednesday, 5:45-7:00 PM, Room 339-340. <br />
 Tim Griffin (presiding), University of Minnesota**
 
-The open source Galaxy software framework is gaining momentum as 
-a tool to solve biological MS informatics problems. It offers unique 
-features such as flexibility to integrate disparate software programs into 
-effective workflows, and the ability to share complete workflows with 
-other researchers. In this workshop, expert developers and users of 
-Galaxy for biological MS data analysis will present practical tutorials. 
-Presentations will be aimed at informing both software developers and 
-biologists/analytical chemists on how they can make effective use of 
+The open source Galaxy software framework is gaining momentum as
+a tool to solve biological MS informatics problems. It offers unique
+features such as flexibility to integrate disparate software programs into
+effective workflows, and the ability to share complete workflows with
+other researchers. In this workshop, expert developers and users of
+Galaxy for biological MS data analysis will present practical tutorials.
+Presentations will be aimed at informing both software developers and
+biologists/analytical chemists on how they can make effective use of
 the Galaxy framework in their research.
 
 Scheduled speakers:
 
 
-| Talk |  Topic  |  Speaker  |  Links  | 
-| ---- | ------ | -------- | ------ | 
-| 1. |  **Short introduction to the workshop**  |  *Tim Griffin, University of Minnesota, Minneapolis, MN*  |   | 
-| 2. |  **Using the Galaxy Tool Shed to publish software for MS-based data analysis** |  *Ira Cooke, La Trobe University, Australia*  |   | 
-| 3. |  **Using installed tools and workflows within GalaxyP**  |  *Pratik Jagtap, Center for Mass Spectrometry and Proteomics, St. Paul, MN*  |   | 
-| 4. |  **Using Galaxy to generate customized databases for MS-based proteogenomics**  |  *Gloria Sheynkman, University of Wisconsin, Madison, WI*  |   | 
-| 5. |  **Using Galaxy for advanced multi-omic applications**  |  *Jorrit Boekel , Karolinska Institute/Science for Life Laboratory, Sweden*  |   | 
+| Talk |  Topic  |  Speaker  |  Links  |
+| ---- | ------ | -------- | ------ |
+| 1. |  **Short introduction to the workshop**  |  *Tim Griffin, University of Minnesota, Minneapolis, MN*  |   |
+| 2. |  **Using the Galaxy Tool Shed to publish software for MS-based data analysis** |  *Ira Cooke, La Trobe University, Australia*  |   |
+| 3. |  **Using installed tools and workflows within GalaxyP**  |  *Pratik Jagtap, Center for Mass Spectrometry and Proteomics, St. Paul, MN*  |   |
+| 4. |  **Using Galaxy to generate customized databases for MS-based proteogenomics**  |  *Gloria Sheynkman, University of Wisconsin, Madison, WI*  |   |
+| 5. |  **Using Galaxy for advanced multi-omic applications**  |  *Jorrit Boekel , Karolinska Institute/Science for Life Laboratory, Sweden*  |   |
 | 6. |  **Concluding questions/discussion**  |   |   |

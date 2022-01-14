@@ -5,19 +5,19 @@ tease: "a new view of the Universe"
 authors: "Helena Rasche"
 ---
 
-[<img class="img-fluid mx-auto" src="/src/blog/2017-10-public-galaxy-dashboard/dashboard-landing.png" alt="Public Galaxy Server Dashboard" />](https://stats.galaxyproject.eu/dashboard/db/public-galaxy-servers)
+[<img class="img-fluid mx-auto" src="/blog/2017-10-public-galaxy-dashboard/dashboard-landing.png" alt="Public Galaxy Server Dashboard" />](https://stats.galaxyproject.eu/dashboard/db/public-galaxy-servers)
 
 ## History
 
 For the past month a few Galaxy Developers have been working on monitoring the
-[public Galaxy instances](/src/use/index.md) across the universe. We have been making hourly
+[public Galaxy instances](/use/) across the universe. We have been making hourly
 requests to instances which have listed themselves in one of the public Galaxy
 server lists to request non-sensitive information about their configuration.
 
 E.g. what "brand" do they have configured, how many allow users to purge
 datasets, how many have quotas enabled.
 
-[<img class="img-fluid mx-auto" src="/src/blog/2017-10-public-galaxy-dashboard/dashboard-details.png" alt="Public Galaxy Server Dashboard" />](https://stats.galaxyproject.eu/dashboard-solo/snapshot/7pgA1b2OcA0UBteiMx1h5bPlwh7Kzv95?orgId=1&panelId=11)
+[<img class="img-fluid mx-auto" src="/blog/2017-10-public-galaxy-dashboard/dashboard-details.png" alt="Public Galaxy Server Dashboard" />](https://stats.galaxyproject.eu/dashboard-solo/snapshot/7pgA1b2OcA0UBteiMx1h5bPlwh7Kzv95?orgId=1&panelId=11)
 
 ## Dashboards
 

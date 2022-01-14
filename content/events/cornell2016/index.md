@@ -12,11 +12,11 @@ contact: "Dave Clements, Lukas Mueller, Surya Saha"
 image:
 ---
 
-<div class="float-right"> <a href='http://bti.cornell.edu/'><img src="/src/images/logos/BTILogo.png" alt="Boyce Thompson Institute" width="263" /></a> <br /> 
-<img src="/src/images/logos/CornellLogoSmall.gif" alt="Cornell University" width="263" /></a>
+<div class="float-right"> <a href='http://bti.cornell.edu/'><img src="/images/logos/BTILogo.png" alt="Boyce Thompson Institute" width="263" /></a> <br />
+<img src="/images/logos/CornellLogoSmall.gif" alt="Cornell University" width="263" /></a>
 </div>
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)**
+**Instructor: [Dave Clements](/people/dave-clements/)**
 
 **9:00-5:00<br />
 Location: [Room B30A](https://mannlib.cornell.edu/rooms-labs/classrooms-labs/b30a-computer-lab), Mann library<br />
@@ -94,8 +94,8 @@ No programming or Linux command line experience is required.
 </table>
 
 <div class='float-right'><br />
-<a href='http://www.nih.gov/'><img src="/src/images/logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a><br /><br />
-<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div>
+<a href='http://www.nih.gov/'><img src="/images/logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a><br /><br />
+<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" width="120" /></a></div>
 
 ## Support
 

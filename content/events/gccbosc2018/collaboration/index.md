@@ -2,7 +2,7 @@
 
 # CollaborationFest!
 
-<img class="float-right" src="/src/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
+<img class="float-right" src="/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
 
 GCCBOSC 2018 finished with *CollaborationFest*, a 2 (or 3 or 4) day collaborative work event where our communities gathered to contribute to bioinformatics software, documentation, training materials, and challenging analysis problems and use cases.  If you are interested in learning and contributing in an intensely collaborative environment, then CollaborationFest is for you.
 
@@ -22,10 +22,10 @@ Both BOSC/OBF and GCC have had collaborative events in the past. We'll be contin
   everyone to get oriented with potential projects at the
   [Training days](https://galaxyproject.org/events/gccbosc2018/training/) and conference.
 * CollaborationFest will happen in two stages
-  * Friday & Saturday: **CollaborationFest: Core:**
-    * There will be lots of collaborative work, but also lots of learning about projects and software.
-  * Sunday & Monday: **CollaborationFest: Encore**
-    * The smaller of the two stages, these two days will focus on collaboration, collaboration, collaboration.
+    * Friday & Saturday: **CollaborationFest: Core:**
+        * There will be lots of collaborative work, but also lots of learning about projects and software.
+    * Sunday & Monday: **CollaborationFest: Encore**
+        * The smaller of the two stages, these two days will focus on collaboration, collaboration, collaboration.
 
 # Three tracks: OBF, Galaxy-Dev, and Galaxy-DAT
 
@@ -55,7 +55,7 @@ CollaborationFest's goals are much wider:
 
 *Clusters* are groups of CollaborationFest participants that coalesce around shared interests and they address common challenges related to those interests.  Clusters form before, at the beginning of, and throughout CollaborationFest.  In fact, CollaborationFest can be thought of as a two (or four) day jam of Brownian motion where clusters form, interact, and exchange ideas and members with each other.
 
-If you have an idea for a Cluster at ContributionFest then please send it to the [CollaborationFest organizers](/src/events/gccbosc2018/collaboration/index.md#collaborationfest-organizers).  We'll post it here where CoFest participants can see it and then contact you.  We recommend that clusters have a an online communications channel (like Gitter), and that you meet online at least once during the week or two before GCCBOSC starts.
+If you have an idea for a Cluster at ContributionFest then please send it to the [CollaborationFest organizers](/events/gccbosc2018/collaboration/#collaborationfest-organizers).  We'll post it here where CoFest participants can see it and then contact you.  We recommend that clusters have a an online communications channel (like Gitter), and that you meet online at least once during the week or two before GCCBOSC starts.
 
 Please note that many clusters will form *during* CollaborationFest.  We encourage that.  The clusters listed here will just have a head start.
 
@@ -77,34 +77,35 @@ The [NIH Data Commons](https://commonfund.nih.gov/bd2k/commons) will be at Colla
 
 # Registration
 
-CollaborationFest is free, for all 4 days.  You still need to [register](/src/events/gccbosc2018/register) (and select either 2, 3, or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
+CollaborationFest is free, for all 4 days.  You still need to [register](/events/gccbosc2018/register) (and select either 2, 3, or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
 
-You register for CollaborationFest at the same time you [register](/src/events/gccbosc2018/register) for other GCCBOSC events.
+You register for CollaborationFest at the same time you [register](/events/gccbosc2018/register) for other GCCBOSC events.
 
 ## Lodging
 
-[Lodging](/src/events/gccbosc2018/venue/index.md#housing) is available on the Reed campus, and throughout CollaborationFest, in the centrally located **Old Dorm Block**.  If you are attending *only* CollaborationFest:Core then you can opt to stay in the Sitka Block instead.  (Or, if you like moving, you can spend the first 2 nights in the Sitka Block, and then move to the Old Dorm Block for the last two nights, but that will cost you extra.)
+[Lodging](/events/gccbosc2018/venue/#housing) is available on the Reed campus, and throughout CollaborationFest, in the centrally located **Old Dorm Block**.  If you are attending *only* CollaborationFest:Core then you can opt to stay in the Sitka Block instead.  (Or, if you like moving, you can spend the first 2 nights in the Sitka Block, and then move to the Old Dorm Block for the last two nights, but that will cost you extra.)
 
 ## Childcare
 
-**[Childcare](/src/events/gccbosc2018/childcare/index.md) will be available during CollaborationFest:Core, *but not during CollaborationFest:Encore.***  Space is very limited and you are encouraged to book childcare *right now.*
+**[Childcare](/events/gccbosc2018/childcare/) will be available during CollaborationFest:Core, *but not during CollaborationFest:Encore.***  Space is very limited and you are encouraged to book childcare *right now.*
 
 # Venue
 
-[<img class="float-right" src="/src/events/gccbosc2018/collaboration/reed-pab-steps.jpg" alt="PAB atrium" width="180" />](http://www.reed.edu/performing_arts/)
+[<img class="float-right" src="/events/gccbosc2018/collaboration/reed-pab-steps.jpg" alt="PAB atrium" width="180" />](http://www.reed.edu/performing_arts/)
 
 CollaborationFest will be at Reed College, the same location as other GCCBOSC 2018 events.  CollaborationFest will take place in the Performing Arts Building, which features multiple meeting rooms, common spaces, and a unique 3 storey atrium that we will make maximal use of for gathering and collaborating.
 
 # CollaborationFest Organizers
 
 * *[Brad Chapman](http://bcb.io/)*, [Harvard T.H. Chan School of Public Health](https://www.hsph.harvard.edu/)
-* *[Dannon Baker](/src/people/dannon-baker/index.md)*,  [Johns Hopkins University](https://jhu.edu/)
-* *[Jennifer Hillman-Jackson](/src/people/jennifer-jackson/index.md)*, [Penn State University](http://www.bx.psu.edu)
+* *[Dannon Baker](/people/dannon-baker/)*,  [Johns Hopkins University](https://jhu.edu/)
+* *[Jennifer Hillman-Jackson](/people/jennifer-jackson/)*, [Penn State University](http://www.bx.psu.edu)
 * *[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)*, [VIB](http://www.vib.be/) and [ELIXIR Belgium](https://www.elixir-belgium.org/)
 * *[Björn Grüning](https://github.com/bgruening)*, [University of Freiburg](http://www.uni-freiburg.de/)
 * *[Christian Schudoma](http://www.earlham.ac.uk/christian-schudoma)*, [Earlham Institute](http://www.earlham.ac.uk/)
 
 Contact us at
+
 * CollaborationFest 2018 Organizers <cofest2018-org@lists.galaxyproject.org>
 
 # CollaborationFest Sponsors
@@ -115,8 +116,8 @@ Contact us at
 
 ## Giga Sponsors
 
-[<img src="/src/images/logos/tao-logo.png" alt="Technology Association of Oregon" width="260" />](http://www.techoregon.org/)
+[<img src="/images/logos/tao-logo.png" alt="Technology Association of Oregon" width="260" />](http://www.techoregon.org/)
 
 ## CollaborationFest Sponsorship Opportunities
 
-Interested in helping make this event happen?  See the [sponsorship page](/src/events/gccbosc2018/sponsors#collaborationfest-sponsorships) for options.
+Interested in helping make this event happen?  See the [sponsorship page](/events/gccbosc2018/sponsors#collaborationfest-sponsorships) for options.

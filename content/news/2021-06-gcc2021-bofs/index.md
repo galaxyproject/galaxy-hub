@@ -4,11 +4,11 @@ tease: 'Birds of feather flock together at GCC'
 date: "2021-06-14"
 ---
 
-<a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/src/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 16rem" /></a>
+<a href="https://www.vibconferences.be/events/gcc2021-virtual-edition"><img src="/images/events/gcc2021/gcc2021-logo-wide.png" alt="GCC2021" class="float-right" style="max-width: 16rem" /></a>
 
 There is no better place than the [GCC2021 Conference](https://www.vibconferences.be/events/gcc2021-virtual-edition) to meet and learn from others doing data-intensive science.  *[Birds of a Feather (BoF)](https://en.wiktionary.org/wiki/birds-of-a-feather_session)* meetups are informal gatherings where participants group together to discuss common interests.
 
-There are [9 BoF sessions](https://gcc2021.sched.com/area/BoF) across the three conference days.  BoFs are held before and after the day's formal program. **The [current list of BoFs is available on the conference web site](https://gcc2021.sched.com/area/BoF).** 
+There are [9 BoF sessions](https://gcc2021.sched.com/area/BoF) across the three conference days.  BoFs are held before and after the day's formal program. **The [current list of BoFs is available on the conference web site](https://gcc2021.sched.com/area/BoF).**
 
 **Want to organize a BoF?**
 

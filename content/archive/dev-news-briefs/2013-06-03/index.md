@@ -3,7 +3,7 @@ title: Development News Brief
 date: 2013-06-03
 ---
 
-[All News Briefs](/src/docs/index.md)
+[All News Briefs](/docs/)
 
 <br />
 
@@ -62,7 +62,7 @@ When a tool shed repository is installed into your local Galaxy instance, metada
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ### New Tool Shed Features
 
@@ -80,7 +80,7 @@ There may be occasions when the entire changelog should be inspected and all of 
   In some cases, a dependency definition author may want to write a definition whose dependency package (e.g., osra) can require a previously compiled binary (e.g., graphicsmagick) during compilation as well as tool execution time when the tool is using the compiled [osra] binary.  This is possible using a combination of three tool dependency definition tag sets, which must be defined in the tool_dependencies.xml file in the order discussed here.  [Read more…](http://wiki.galaxyproject.org/ToolShedToolFeatures#The_bells_and_whistles_of_tool_dependency_definitions)
 
 1. #3 Framework enhancements that process repository_dependencies.xml files
-  Several enhancements have been made to the Tool Shed framework that processes repository dependency definitions contained in a repository_dependencies.xml file in a repository.  Both of the previously required "toolshed" and "changeset_revision" attributes are now optional, and a new tag attribute is supported for ordering the installation of repository dependencies.  This new attribute named "prior_installation_required", and if set to True in the repository dependency definition for a certain repository XYZ, then Galaxy's repository installation process will ensure that the required repository (XYZ's defined repository dependency) is installed prior to the installation of XYZ.  These enhancements are supported when installing repositories with repository dependencies in either a browser or using the enhanced Galaxy API. 
+  Several enhancements have been made to the Tool Shed framework that processes repository dependency definitions contained in a repository_dependencies.xml file in a repository.  Both of the previously required "toolshed" and "changeset_revision" attributes are now optional, and a new tag attribute is supported for ordering the installation of repository dependencies.  This new attribute named "prior_installation_required", and if set to True in the repository dependency definition for a certain repository XYZ, then Galaxy's repository installation process will ensure that the required repository (XYZ's defined repository dependency) is installed prior to the installation of XYZ.  These enhancements are supported when installing repositories with repository dependencies in either a browser or using the enhanced Galaxy API.
   [Read more…](http://wiki.galaxyproject.org/DefiningRepositoryDependencies#Simple_repository_dependencies)
 
 1. #4 The automated tool test framework
@@ -194,15 +194,15 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 1. Clarify tool tip FASTQ Summary Statistics. https://trello.com/c/LX0ma0uQ
 1. Resolve `BSD/GNU` grep version behavior differences. https://trello.com/c/dPUZ9zEA
 1. Filter and Sort: "Select" tool, improved handling of special characters. https://trello.com/c/cwrBpNP9
-1. Change file-merging to use copy.copyfileobj() rather than cat and mv. https://trello.com/c[/Gaqoc6H8](/src/archive/dev-news-briefs/2013-06-03/Gaqoc6H8/index.md)
-1. Data Manager: Fix for detecting job error in data manager tools; needed as a result of recent job flow changes. https://trello.com/c[/EtXd4zqq](/src/archive/dev-news-briefs/2013-06-03/EtXd4zqq/index.md)
+1. Change file-merging to use copy.copyfileobj() rather than cat and mv. https://trello.com/c[/Gaqoc6H8](/archive/dev-news-briefs/2013-06-03/Gaqoc6H8/)
+1. Data Manager: Fix for detecting job error in data manager tools; needed as a result of recent job flow changes. https://trello.com/c[/EtXd4zqq](/archive/dev-news-briefs/2013-06-03/EtXd4zqq/)
 
 <br />
 # Scatterplot
 
 1. Enhancements to handlers, display, and data input parsing. https://trello.com/c/5jk3k7Td
 
-<a href='/src/archive/dev-news-briefs/2013-06-03/index.md'><img src="/src/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=500 /></a>
+<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_scatterplot-1.png" alt="scatterplot" width=500 /></a>
 
 <br />
 # Trackster
@@ -227,7 +227,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 # UI
 
 1. Unicode fixes for previewing large datasets. https://trello.com/c/BHRKkcaw
-1. Unicode fixes for uploading by file in upload tool. https://trello.com/c[/O0M8W8X8](/src/archive/dev-news-briefs/2013-06-03/O0M8W8X8/index.md)
+1. Unicode fixes for uploading by file in upload tool. https://trello.com/c[/O0M8W8X8](/archive/dev-news-briefs/2013-06-03/O0M8W8X8/)
 1. Unicode fixes for displaying saved workflows in **Tool Menu**. https://trello.com/c/dAuDcE99
 1. Unicode fixes for form builder and toolparameters. https://trello.com/c/nVldKDiL
 1. Fix for `TabularToolDataTable.get_column_name_list()` when value column is overloaded by e.g. name. https://trello.com/c/6fPCLwn5
@@ -237,7 +237,7 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 # Admin
 
 1. Stop jobs on history deletion. https://trello.com/c/LBZxfcjx
-1. Track down decorator import failure that shows on some machines (see ticket). https://trello.com/c[/It6q5Ul8](/src/archive/dev-news-briefs/2013-06-03/It6q5Ul8/index.md)
+1. Track down decorator import failure that shows on some machines (see ticket). https://trello.com/c[/It6q5Ul8](/archive/dev-news-briefs/2013-06-03/It6q5Ul8/)
 1. Do not allow deleted datasets to be viewed / downloaded. https://trello.com/c/elIs7IHc
 1. Reports app: Fix util clash due to bad imports. https://trello.com/c/5d7EeeTq
 
@@ -246,19 +246,19 @@ Support for Toolsheds with external auth enabled, pull request **[#155](https://
 
 1. Unify Web/API Transactions. https://trello.com/c/c5wZPVGd
 1. Eliminate `PasteScript` startup. https://trello.com/c/Q4bJNZuo
-1. Upgraded `SQLAlchemy`. https://trello.com/c[/Q6kBeBy](/src/archive/dev-news-briefs/2013-06-03/Q6kBeBy/index.md)D
+1. Upgraded `SQLAlchemy`. https://trello.com/c[/Q6kBeBy](/archive/dev-news-briefs/2013-06-03/Q6kBeBy/)D
 1. Error Logging with `Sentry`. https://trello.com/c/Yc1LXXTR
 
-<a href='/src/archive/dev-news-briefs/2013-06-03/index.md'><img src="/src/images/news-graphics/2013_06_03_sentry-1.png" alt="sentry-1" width=600 /></a>
+<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_sentry-1.png" alt="sentry-1" width=600 /></a>
 
-<a href='/src/archive/dev-news-briefs/2013-06-03/index.md'><img src="/src/images/news-graphics/2013_06_03_sentry-2.png" alt="sentry-2" width=500 /></a>
+<a href='/archive/dev-news-briefs/2013-06-03/'><img src="/images/news-graphics/2013_06_03_sentry-2.png" alt="sentry-2" width=500 /></a>
 
 <br />
 # Pull Requests Merged
 
 1. Significantly enhance job resource definitions. https://trello.com/c/uNpYoYov
 1. More even distribution of job scheduling. https://trello.com/c/wBDXGcx2
-1. Workflows batch mode enhancements. **[#75](https://bitbucket.org/galaxy/galaxy-central/pull-request/75)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c[/UoBadE0f](/src/archive/dev-news-briefs/2013-06-03/UoBadE0f/index.md)
+1. Workflows batch mode enhancements. **[#75](https://bitbucket.org/galaxy/galaxy-central/pull-request/75)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c[/UoBadE0f](/archive/dev-news-briefs/2013-06-03/UoBadE0f/)
 1. Parallelism does work with from_work_dir attribute. **[#156](https://bitbucket.org/galaxy/galaxy-central/pull-request/156)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/5fFZSCWn
 1. Galaxy Search Engine. **[#137](https://bitbucket.org/galaxy/galaxy-central/pull-request/137)**. Thanks to [Kyle Ellrott](https://bitbucket.org/kellrott). https://trello.com/c/moZezGDP
 1. Validation on optional multi-select lists. **[#154](https://bitbucket.org/galaxy/galaxy-central/pull-request/154)**. Thanks to [John Chilton](http://jmchilton.net/). https://trello.com/c/5PxgbL0b
@@ -279,7 +279,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 1. Fix Tophat2 Wrapper to properly quote read group attribute values. https://trello.com/c/nDBz5eoR
 1. Fix bug admin jobs `'AttributeError: 'NoopQueue'` object has no attribute 'job_lock'. https://trello.com/c/uBlCbOFs
 1. `ToolDataTables`: Fix loading .loc files from locations other than galaxy's `tool_data`. https://trello.com/c/Xedp7bo5
-1. Fix API External Authentication. https://trello.com/c[/UjBbWw4](/src/archive/dev-news-briefs/2013-06-03/UjBbWw4/index.md)A
+1. Fix API External Authentication. https://trello.com/c[/UjBbWw4](/archive/dev-news-briefs/2013-06-03/UjBbWw4/)A
 1. Fix non-persistent workflow step hiding. https://trello.com/c/sVKvrw67
 1. Fix problem with search in workflow editor. https://trello.com/c/sAsC6lAK
 1. Fix to add confirm on delete permanently (footer button), saved histories. https://trello.com/c/8nUlUMew
@@ -288,13 +288,13 @@ Although there are no specific known security fixes in this distribution, all Ga
 <br />
 # Project Updates
 
-**[News](/src/news/index.md)**, ***[June 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-06)***
+**[News](/news/)**, ***[June 2013 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2013-06)***
 
 <br />
 <br />
 # GCC2013
 
-<div class='left'><a href='/src/events/gcc2013/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div> 
+<div class='left'><a href='/events/gcc2013/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="150" /></a></div>
 
 <br />
 <br />
@@ -308,7 +308,7 @@ Although there are no specific known security fixes in this distribution, all Ga
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

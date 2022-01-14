@@ -1,16 +1,16 @@
 ---
 ---
-<div class='right'><a href='/src/events/gcc2012/training-day/vms/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
+<div class='right'><a href='/events/gcc2012/training-day/vms/'><img src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" /></a></div>
 
-If you are planning on attending any of these [GCC2012](/src/events/gcc2012/index.md) [Training Day](/src/events/gcc2012/training-day/index.md) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
+If you are planning on attending any of these [GCC2012](/events/gcc2012/) [Training Day](/events/gcc2012/training-day/) workshops, then you will need shell admin access to a system with Galaxy and/or a Galaxy Tool Shed already installed and running.
 
-* [WS1: Integrating Tools & Data Sources](/src/events/gcc2012/training-day/vms/index.md#ws1)
-* [WS6: Galaxy API](/src/events/gcc2012/training-day/vms/index.md#ws6)
-* [WS7: Galaxy Tool Shed](/src/events/gcc2012/training-day/vms/index.md#ws7)
+* [WS1: Integrating Tools & Data Sources](/events/gcc2012/training-day/vms/#ws1)
+* [WS6: Galaxy API](/events/gcc2012/training-day/vms/#ws6)
+* [WS7: Galaxy Tool Shed](/events/gcc2012/training-day/vms/#ws7)
 
 If you are attending this workshop
 
-* [WS5: Installing Your Own Galaxy](/src/events/gcc2012/training-day/vms/index.md#ws5)
+* [WS5: Installing Your Own Galaxy](/events/gcc2012/training-day/vms/#ws5)
 
 you will need shell admin access to a system that has Galaxy's prerequisites installed, but not Galaxy itself.
 
@@ -25,11 +25,11 @@ Using a virtual machine ensures that you will be running with the same configura
 
 # What Do I Need to Do?
 
-You will need to do two things before [Training Day](/src/events/gcc2012/training-day/vms/index.md) starts.  These steps take some time, and require downloading large files, so please do not postpone this until you arrive.  Downloading files of this size at the [UIC Forum](/src/events/gcc2012/logistics/index.md) would be painfully slow, and would adversely affect your fellow students.
+You will need to do two things before [Training Day](/events/gcc2012/training-day/vms/) starts.  These steps take some time, and require downloading large files, so please do not postpone this until you arrive.  Downloading files of this size at the [UIC Forum](/events/gcc2012/logistics/) would be painfully slow, and would adversely affect your fellow students.
 
 So, **please do these steps before you arrive**.
 
-<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/src/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
+<div class='right'><a href='https://www.virtualbox.org/wiki/Downloads'><img src="/images/logos/VirtualBox180.png" alt="Virtual Machine Images" width="120" /></a></div>
 
 ## 1. Install VirtualBox on your laptop
 
@@ -46,7 +46,7 @@ These VMs will be available for download in the days just before the conference.
 
 This VM is for:
 
-* [WS5: Installing Your Own Galaxy](/src/events/gcc2012/training-day/vms/index.md#ws5)
+* [WS5: Installing Your Own Galaxy](/events/gcc2012/training-day/vms/#ws5)
 
 This image will have all prerequisites for Galaxy, but not a running Galaxy instance.
 
@@ -56,9 +56,9 @@ This image will have all prerequisites for Galaxy, but not a running Galaxy inst
 
 This VM image is for these workshops
 
-* [WS1: Integrating Tools & Data Sources](/src/events/gcc2012/training-day/vms/index.md#ws1)
-* [WS6: Galaxy API](/src/events/gcc2012/training-day/vms/index.md#ws6)
-* [WS7: Galaxy Tool Shed](/src/events/gcc2012/training-day/vms/index.md#ws7)
+* [WS1: Integrating Tools & Data Sources](/events/gcc2012/training-day/vms/#ws1)
+* [WS6: Galaxy API](/events/gcc2012/training-day/vms/#ws6)
+* [WS7: Galaxy Tool Shed](/events/gcc2012/training-day/vms/#ws7)
 
 This image will have a configured and running Galaxy instance.
 
@@ -76,25 +76,25 @@ This image will have a configured and running Galaxy instance.
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/ApplianceImport.png'><img src="/src/events/gcc2012/training-day/vms/ApplianceImport.png" alt="Appliance Import Settings Window; click to enlarge" width="200" /></a><br />1.3. Appliance Import </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/ApplianceImport.png'><img src="/events/gcc2012/training-day/vms/ApplianceImport.png" alt="Appliance Import Settings Window; click to enlarge" width="200" /></a><br />1.3. Appliance Import </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/ImportedVM.png'><img src="/src/events/gcc2012/training-day/vms/ImportedVM.png" alt="VM successfully imported; click to enlarge" width="200" /></a><br />1.4. VM Imported </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/ImportedVM.png'><img src="/events/gcc2012/training-day/vms/ImportedVM.png" alt="VM successfully imported; click to enlarge" width="200" /></a><br />1.4. VM Imported </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/VMSettings.png'><img src="/src/events/gcc2012/training-day/vms/VMSettings.png" alt="VM settings; click to enlarge" width="200" /></a><br />1.5.1 VM settings </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/VMSettings.png'><img src="/events/gcc2012/training-day/vms/VMSettings.png" alt="VM settings; click to enlarge" width="200" /></a><br />1.5.1 VM settings </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/PortForwarding.png'><img src="/src/events/gcc2012/training-day/vms/PortForwarding.png" alt="Port forwarding rules; click to enlarge" width="200" /></a><br />1.5.3 Port forwarding rules </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/PortForwarding.png'><img src="/events/gcc2012/training-day/vms/PortForwarding.png" alt="Port forwarding rules; click to enlarge" width="200" /></a><br />1.5.3 Port forwarding rules </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/MouseInfo.png'><img src="/src/events/gcc2012/training-day/vms/MouseInfo.png" alt="Mouse Pointer info window; click to enlarge" width="200" /></a><br />2.1. An info screens </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/MouseInfo.png'><img src="/events/gcc2012/training-day/vms/MouseInfo.png" alt="Mouse Pointer info window; click to enlarge" width="200" /></a><br />2.1. An info screens </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/UserList.png'><img src="/src/events/gcc2012/training-day/vms/UserList.png" alt="List of defined users; click to enlarge" width="200" /></a><br />2.2. Defined users </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/UserList.png'><img src="/events/gcc2012/training-day/vms/UserList.png" alt="List of defined users; click to enlarge" width="200" /></a><br />2.2. Defined users </td>
   </tr>
   <tr>
-    <td style=" text-align: center; border: none;"> <a href='/src/events/gcc2012/training-day/vms/XFCEDesktop.png'><img src="/src/events/gcc2012/training-day/vms/XFCEDesktop.png" alt="The XFCE Desktop; click to enlarge" width="200" /></a><br />2.3. The XFCE Desktop </td>
+    <td style=" text-align: center; border: none;"> <a href='/events/gcc2012/training-day/vms/XFCEDesktop.png'><img src="/events/gcc2012/training-day/vms/XFCEDesktop.png" alt="The XFCE Desktop; click to enlarge" width="200" /></a><br />2.3. The XFCE Desktop </td>
   </tr>
 </table>
 
@@ -122,12 +122,12 @@ We need to enable port forwarding so that the the host (your laptop's native ope
 3. Add these 4 rules:<div class='indent'>
 
 
-| Name |  Protocol  |  Host IP  |  Host Port  |  Guest IP  |  Guest Port  | 
-| ---- | --------- | -------- | ---------- | --------- | ----------- | 
-| Rule 1 |  TCP  |  127.0.0.1  |  8080  |   |  8080  | 
-| Rule 2 |  UDP  |  127.0.0.1  |  8080  |   |  8080  | 
-| Rule 3 |  TCP  |  127.0.0.1  |  9090  |   |  9090  | 
-| Rule 4 |  UDP  |  127.0.0.1  |  9090  |   |  9090  | 
+| Name |  Protocol  |  Host IP  |  Host Port  |  Guest IP  |  Guest Port  |
+| ---- | --------- | -------- | ---------- | --------- | ----------- |
+| Rule 1 |  TCP  |  127.0.0.1  |  8080  |   |  8080  |
+| Rule 2 |  UDP  |  127.0.0.1  |  8080  |   |  8080  |
+| Rule 3 |  TCP  |  127.0.0.1  |  9090  |   |  9090  |
+| Rule 4 |  UDP  |  127.0.0.1  |  9090  |   |  9090  |
 </div>
   This is less tedious if you type in the first rule and then copy and modify it for the next 3
 
@@ -155,7 +155,7 @@ and a local toolshed at
  *http://[VM-ip]:9090*
 
 Use *sh stopAll.sh* then *sh startAll.sh* to restart these servers if you make changes that require a Galaxy restart.
- 
+
 ## 4. Using XFCE
 
 XFCE is a desktop manager for Linux.  Unlike the more common Gnome and KDE managers, XFCE is relatively lightweight and has the advantages of keeping the VM image size small, and having a somewhat familiar look and feel.
@@ -239,40 +239,40 @@ Which distribution was used; how much virtual disk and memory does it have; what
 
 ### Both VMs
 
-Any custom configuration is [described below](/src/events/gcc2012/training-day/vms/index.md#additional-configuration-details).
+Any custom configuration is [described below](/events/gcc2012/training-day/vms/#additional-configuration-details).
 
 
-| Tool/Package |  Comments  | 
-| ------------ | --------- | 
-| PostgreSQL |  Used by Galaxy, Tool Shed  | 
-| Mercurial |  Source code control system used in Galaxy  | 
-| Emacs, vim, pico/nano |  Text editors.  | 
-| Galaxy Source Code |   | 
-| Galaxy Tool Shed |   | 
-| ncurses development library |  Needed for Tool Shed  | 
-| zlib development library | 
-| g++ and standard C and C++ development libraries | 
-| cmake | 
-| git  | 
-| Python 2.6 | 
-| Eclipse |  Needed for Tools and Data Sources Workshop  | 
-| hg and Python Eclipse plugins | 
-| nginx or Apache |  proxy that accepts byte-range requests would be good  | 
-| [PostgreSQL GUI](http://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools#Open_Source_.2F_Free_Software) |   | 
+| Tool/Package |  Comments  |
+| ------------ | --------- |
+| PostgreSQL |  Used by Galaxy, Tool Shed  |
+| Mercurial |  Source code control system used in Galaxy  |
+| Emacs, vim, pico/nano |  Text editors.  |
+| Galaxy Source Code |   |
+| Galaxy Tool Shed |   |
+| ncurses development library |  Needed for Tool Shed  |
+| zlib development library |
+| g++ and standard C and C++ development libraries |
+| cmake |
+| git  |
+| Python 2.6 |
+| Eclipse |  Needed for Tools and Data Sources Workshop  |
+| hg and Python Eclipse plugins |
+| nginx or Apache |  proxy that accepts byte-range requests would be good  |
+| [PostgreSQL GUI](http://wiki.postgresql.org/wiki/Community_Guide_to_PostgreSQL_GUI_Tools#Open_Source_.2F_Free_Software) |   |
 
 ### WS5 VM Only
 
 
-| Tool/Package |  Comments  | 
-| ------------ | --------- | 
+| Tool/Package |  Comments  |
+| ------------ | --------- |
 
 
 ### WS1, WS6, WS7 VM Only
 
 
-| Tool/Package |  Comments  | 
-| ------------ | --------- | 
-| Galaxy Instance |   | 
+| Tool/Package |  Comments  |
+| ------------ | --------- |
+| Galaxy Instance |   |
 
 ## Additional Configuration Details
 

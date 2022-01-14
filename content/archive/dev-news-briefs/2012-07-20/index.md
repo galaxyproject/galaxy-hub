@@ -7,7 +7,7 @@ date: 2012-07-20
 
 <div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="50px" /></a></div>
 
- **[getgalaxy.org](http://getgalaxy.org)** 
+ **[getgalaxy.org](http://getgalaxy.org)**
 
 **new**: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
 
@@ -16,17 +16,17 @@ date: 2012-07-20
 <br />
 # GCC2012
 
-<div class='center'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" height="100" /></a></div>
+<div class='center'><a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference" height="100" /></a> &nbsp; <a href='/events/gcc2012/training-day/'><img src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" height="100" /></a></div>
 
-The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) is a few short days away. Late registration is still open.
+The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) is a few short days away. Late registration is still open.
 
 <br />
 # FreeBayes Migration
 
-The tool **Human Genome Variation -> [Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the Galaxy distribution to the Galaxy Main **[Tool Shed](/src/toolshed/index.md)**.
+The tool **Human Genome Variation -> [Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the Galaxy distribution to the Galaxy Main **[Tool Shed](/toolshed/)**.
 
 ```FreeBayes```
- is a high-performance, flexible, and open-source Bayesian genetic variant detector. It operates on [BAM](/src/datatypes/index.md#bam) alignment files, which are produced by most contemporary short-read aligners.
+ is a high-performance, flexible, and open-source Bayesian genetic variant detector. It operates on [BAM](/datatypes/#bam) alignment files, which are produced by most contemporary short-read aligners.
 
 <br />
 # EMBOSS Update
@@ -36,23 +36,23 @@ The `emboss_5` repository in the Galaxy Main Tool Shed has been updated to inclu
 <br />
 # Admin Genome Indexing
 
-If `enable_beta_job_managers = True`, Galaxy will now show a *new option* in the admin interface, titled **Manage Local Data**. With this tool, a Galaxy admin will be able to select and download any genome already contained with the local `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file sourced from UCSC, NCBI, or Ensembl, optionally indexing the FASTA data with one or more of BWA, Bowtie, Bowtie 2, PerM, Picard, and SAM. After these processes finish, the indexed build will then be available for other tools in the analysis section. This does not replace setting up a build.txt file ([read more ...](/src/admin/data-integration/index.md)). This would replace many of the manual indexing processes for commonly used tools ([read more...](/src/admin/NGS Local Setup/index.md)). Please this tool is still **beta**, feedback and bug reports welcome at galaxy-dev@bx.psu.edu for discussion. We will also touch on it during a breakout session at GCC (Day 2, Section 8, [Automation Strategies](/src/events/gcc2012/program/breakouts/automation-strategies/index.md)).
+If `enable_beta_job_managers = True`, Galaxy will now show a *new option* in the admin interface, titled **Manage Local Data**. With this tool, a Galaxy admin will be able to select and download any genome already contained with the local `$GALAXYROOT/tool-data/shared/ucsc/builds.txt` file sourced from UCSC, NCBI, or Ensembl, optionally indexing the FASTA data with one or more of BWA, Bowtie, Bowtie 2, PerM, Picard, and SAM. After these processes finish, the indexed build will then be available for other tools in the analysis section. This does not replace setting up a build.txt file ([read more ...](/admin/data-integration/)). This would replace many of the manual indexing processes for commonly used tools ([read more...](/admin/NGS Local Setup/)). Please this tool is still **beta**, feedback and bug reports welcome at galaxy-dev@bx.psu.edu for discussion. We will also touch on it during a breakout session at GCC (Day 2, Section 8, [Automation Strategies](/events/gcc2012/program/breakouts/automation-strategies/)).
 
 Example of selecting a source, the indexes to create, and the target genome:
-![](/src/images/news-graphics/2012_07_20_select.png)
+![](/images/news-graphics/2012_07_20_select.png)
 
 The status of the indexing for a single genome:
-![](/src/images/news-graphics/2012_07_20_status.png)
+![](/images/news-graphics/2012_07_20_status.png)
 
 And a global status of all indexes for all genomes in progress:
-![](/src/images/news-graphics/2012_07_20_main-page.png)
+![](/images/news-graphics/2012_07_20_main-page.png)
 
 <br />
 # Simplified install of 3rd-party Dependencies
 
 Automatic third-party tool dependency installation and compilation with installed repositories
 
-Tool shed repository owners can define information in their repositories that enable third party tool dependencies to be automatically installed along with the repository for those repositories that contain tools that require the dependencies.  The process for enabling this is the inclusion of a simple xml file named tool_dependencies.xml in the repository. [Read more…](/src/toolshed/installing-and-compiling-packages/index.md)
+Tool shed repository owners can define information in their repositories that enable third party tool dependencies to be automatically installed along with the repository for those repositories that contain tools that require the dependencies.  The process for enabling this is the inclusion of a simple xml file named tool_dependencies.xml in the repository. [Read more…](/toolshed/installing-and-compiling-packages/)
 
 <br />
 # Improved Error Handling
@@ -62,63 +62,66 @@ Several changes made in in determining errors from tool exit codes and output.  
 <br />
 # Tools
 
-[Admin/Config/Tool Dependencies](/src/admin/config/tool-dependencies/index.md)
-* **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements: 
-  * use **Bowtie2** build
-  * add option to report discordant pairs
-  * update tests
-  * add **Bowtie2** preset options
+[Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/)
+
+* **[Tophat2](http://tophat.cbcb.umd.edu/tutorial.html)** wrapper enhancements:
+    * use **Bowtie2** build
+    * add option to report discordant pairs
+    * update tests
+    * add **Bowtie2** preset options
 
 <br />
 # User Interface (UI)
 
 * *Enhancements*
-  * Full integration with **[myExperiment](http://www.myexperiment.org)** website. Galaxy workflows can be 
-    * exported from Galaxy to **myExperiment** and 
-    * searched and imported from myExperiment website
-  * Support for genomes as first-class objects
+    * Full integration with **[myExperiment](http://www.myexperiment.org)** website. Galaxy workflows can be
+        * exported from Galaxy to **myExperiment** and
+        * searched and imported from myExperiment website
+    * Support for genomes as first-class objects
 
 <br />
 # Galaxy Track Browser (GTB)
 
-[Trackster](/src/learn/visualization/index.md)
+[Trackster](/learn/visualization/)
+
 * New parameter space visualization for Trackster
 * Make bookmarks available in shared Trackster visualizations
 
 <br />
 # Tool Shed
 
-[Tool Shed](/src/toolshed/index.md)
+[Tool Shed](/toolshed/)
+
 * *Enhancements*
-  * The tool shed's category grid is now displayed when searching and browsing tool sheds from a local Galaxy instance. 
-  * This category grid's search feature searches valid repository names and descriptions when browsing a tool shed from Galaxy.
+    * The tool shed's category grid is now displayed when searching and browsing tool sheds from a local Galaxy instance.
+    * This category grid's search feature searches valid repository names and descriptions when browsing a tool shed from Galaxy.
 * Going forward from this Galaxy release, the main Galaxy tool shed will track the Galaxy releases and the galaxy-dist repository on bitbucket.
 
 <br />
 # Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div>
 * Support Unvalidated values when exporting histories
 
 <br />
 # Announcements
 
-[News](/src/news/index.md), *[July 2012 Galaxy Update](/src/galaxy-updates/2012-07/index.md)*
+[News](/news/), *[July 2012 Galaxy Update](/galaxy-updates/2012-07/)*
 ## Collaboration
 
-The new RGalaxy package in Bioconductor. [Read more …](/src/news/r-galaxy-wrap-r-functions-as-tools/index.md)
+The new RGalaxy package in Bioconductor. [Read more …](/news/r-galaxy-wrap-r-functions-as-tools/)
 <br />
 ## GalaxyCzars
 
-<div class='right'><a href='/src/community/GalaxyCzars/index.md'><img src="/src/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
-The [GalaxyCzars group](/src/community/GalaxyCzars/index.md) was launched and had its [first meetup on July 9](/src/community/GalaxyCzars/Meetups/2012-07-09/index.md).  GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/src/community/GalaxyCzars/Meetups/2012-07-09/index.md) for links to slides and a screencast. The GalaxyCzars will have a breakout at [GCC2012](/src/events/gcc2012/index.md), and the next conference call will follow in September.
+<div class='right'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyCzars.png" alt="GalaxyCzars" width="150" /></a></div>
+The [GalaxyCzars group](/community/galaxy-admins/) was launched and had its [first meetup on July 9](/community/galaxy-admins/Meetups/2012-07-09/).  GalaxyCzars is a group of people that manage large local Galaxy installations.  See the [meeting writeup](/community/galaxy-admins/Meetups/2012-07-09/) for links to slides and a screencast. The GalaxyCzars will have a breakout at [GCC2012](/events/gcc2012/), and the next conference call will follow in September.
 <br />
 ## Galaxy is Hiring!
 
-<div class='left'><img src="/src/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
-**The [Galaxy Team](/src/galaxy-team/index.md) Wants You!**
+<div class='left'><img src="/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
+**The [Galaxy Team](/galaxy-team/) Wants You!**
 <br />
-Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/src/galaxy-is-hiring/index.md)
+Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/galaxy-is-hiring/)
 <br />
 <br />
 ----
@@ -128,8 +131,8 @@ Want to work on one of the fastest growing open source bioinformatics projects a
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/galaxy-on-twitter/)**

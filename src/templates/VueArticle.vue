@@ -10,8 +10,7 @@
                     `insert.name` variable: https://vuejs.org/v2/guide/components-slots.html#Dynamic-Slot-Names
                 -->
                 <template v-for="insert of $page.article.inserts" #[insert.name]>
-                    <p class="markdown" :key="insert.name + ':md'" v-html="insert.content" />
-                    <p class="d-none" :key="insert.name + ':p'">Issue #758 workaround</p>
+                    <div class="markdown" :key="insert.name + ':md'" v-html="insert.content">&nbsp;</div>
                 </template>
             </VueRemarkContent>
         </article>
@@ -27,7 +26,7 @@ query VueArticle($path: String!) {
     tease
     category
     date (format: "YYYY-MM-DD")
-    days
+    end (format: "YYYY-MM-DD")
     contact
     contact_url
     authors
@@ -37,6 +36,7 @@ query VueArticle($path: String!) {
     source_blog_url
     skip_title_render
     redirect
+    external_url
     autotoc
     links {
       url
@@ -44,11 +44,13 @@ query VueArticle($path: String!) {
     }
     image
     images
+    fileInfo {
+        path
+    }
     inserts {
       name
       content
     }
-    external_url
     content
   }
 }

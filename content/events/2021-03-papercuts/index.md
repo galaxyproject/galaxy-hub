@@ -5,7 +5,7 @@ days: 1
 tease: 'A community contribution day'
 continent: GL
 location: 'Online, Global'
-image: "/events/cofests/papercuts/papercuts.png"
+image: "/images/galaxy-logos/papercuts.png"
 location_url: "/events/cofests/papercuts/"
 external_url:
 gtn: false
@@ -13,7 +13,7 @@ contact: Community
 tags: [ cofest, papercuts ]
 ---
 
-*Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/src/events/cofests/papercuts/index.md) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
+*Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/events/cofests/papercuts/) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
 
 Want to improve Galaxy, and get involved with Galaxy? Please join us on March 18
 
@@ -43,15 +43,15 @@ Here are links to the issues identified as potential targets for papercuts day:
 
 | Repo / Project | What is it? | Tags |
 | --- | --- | --- |
-| **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Galaxy server and front end. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut" role="button">paper-cut</a> | 
-| **[Galaxy Admin Training](https://github.com/galaxyproject/admin-training/)** | Training materials for Galaxy Admin Training. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/admin-training/labels/paper-cuts" role="button">paper-cut</a> | 
-| **[Galaxy Training Network](https://github.com/galaxyproject/training-material)** | Training materials. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/issues/2070" role="button">Collaboration Fest ideas</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/newcomer-friendly" role="button">newcomer-friendly</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/paper-cut" role="button">paper-cut</a> | 
-| **[CloudMan](https://github.com/galaxyproject/cloudman)** | Managing instances on cloud infrastructures. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a> | 
-| **[IUC Tools](https://github.com/galaxyproject/tools-iuc)** | Wrappers for popular tools in Galaxy. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a>  | 
-| **[BioBlend](https://github.com/galaxyproject/bioblend)** | The Galaxy Python API. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> | 
-| **[Galaxy Hub](https://github.com/galaxyproject/galaxy-hub/)** | The Galaxy Community web site. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-hub/labels/paper-cut">paper-cut</a> | 
-| **[Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy/)** | Galaxy deployment recipes.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/ansible-galaxy/labels/paper-cut">paper-cut</a> | 
-| **[LSP server](https://github.com/galaxyproject/galaxy-language-server/)** | Galaxy Tool Language Server.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-language-server/labels/paper-cut">paper-cut</a> | 
+| **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Galaxy server and front end. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut" role="button">paper-cut</a> |
+| **[Galaxy Admin Training](https://github.com/galaxyproject/admin-training/)** | Training materials for Galaxy Admin Training. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/admin-training/labels/paper-cuts" role="button">paper-cut</a> |
+| **[Galaxy Training Network](https://github.com/galaxyproject/training-material)** | Training materials. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/issues/2070" role="button">Collaboration Fest ideas</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/newcomer-friendly" role="button">newcomer-friendly</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/paper-cut" role="button">paper-cut</a> |
+| **[CloudMan](https://github.com/galaxyproject/cloudman)** | Managing instances on cloud infrastructures. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a> |
+| **[IUC Tools](https://github.com/galaxyproject/tools-iuc)** | Wrappers for popular tools in Galaxy. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a>  |
+| **[BioBlend](https://github.com/galaxyproject/bioblend)** | The Galaxy Python API. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> |
+| **[Galaxy Hub](https://github.com/galaxyproject/galaxy-hub/)** | The Galaxy Community web site. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-hub/labels/paper-cut">paper-cut</a> |
+| **[Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy/)** | Galaxy deployment recipes.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/ansible-galaxy/labels/paper-cut">paper-cut</a> |
+| **[LSP server](https://github.com/galaxyproject/galaxy-language-server/)** | Galaxy Tool Language Server.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-language-server/labels/paper-cut">paper-cut</a> |
 
 
 ## Developer Quick Dive Videos
@@ -82,5 +82,5 @@ We will have video calls throughout the day and be on Gitter for chat all day lo
 
 ### Communication
 
-Communication will happen through GitHub, [Gitter](https://gitter.im/galaxyproject/Lobby) and breakout calls as needed. 
+Communication will happen through GitHub, [Gitter](https://gitter.im/galaxyproject/Lobby) and breakout calls as needed.
 

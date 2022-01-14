@@ -28,7 +28,7 @@ A CloudMan cluster can be used for different scenarios, including a comprehensiv
   <tr class="th" >
     <th style=" width: 7em;"> Option </th>
     <th> Option type description </th>
-    <th style=" width: 37%;"> Default <a href='/src/cloudman/services/index.md'>services</a> started </th>
+    <th style=" width: 37%;"> Default <a href='/cloudman/services/'>services</a> started </th>
   </tr>
   <tr>
     <th> Cluster only </th>
@@ -42,7 +42,7 @@ A CloudMan cluster can be used for different scenarios, including a comprehensiv
   <tr>
     <th> Cluster with Galaxy </th>
     <td> This cluster type will configure all the same functionality as the <em>Cluster only</em> type with the addition of the Galaxy application ecosystem. Namely, this cluster type will automatically configure the Galaxy application in <a href='https://wiki.galaxyproject.org/Admin/Config/Performance/ProductionServer'>production mode</a> and supply the necessary cloud infrastructure for processing the tasks. The Galaxy application comes preconfigured with hundreds of bioinformatics tools (for the complete list, see <a href='https://github.com/galaxyproject/galaxy-cloudman-playbook/blob/master/files/shed_tool_list.yaml'>this file</a>) and hundreds of gigabytes of genomic reference data. </td>
-    <td> • Post Start Script (PSS)<br />• Galaxy application<br />• Galaxy Reports web app<br />• Nginx web server<br />• NodeJS Proxy for <a href='/src/admin/IEs/index.md'>Interactive Environments</a><br />• PostgreSQL database<br />• ProFTPd FTP server<br />• Slurm job manager (node daemon and controller)<br />• Supervisor</td>
+    <td> • Post Start Script (PSS)<br />• Galaxy application<br />• Galaxy Reports web app<br />• Nginx web server<br />• NodeJS Proxy for <a href='/admin/gies/'>Interactive Environments</a><br />• PostgreSQL database<br />• ProFTPd FTP server<br />• Slurm job manager (node daemon and controller)<br />• Supervisor</td>
   </tr>
   <tr>
     <th> </th>

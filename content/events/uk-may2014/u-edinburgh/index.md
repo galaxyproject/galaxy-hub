@@ -1,19 +1,19 @@
 <div class='center'>
-<a href='http://www.wcb.ed.ac.uk/'><img src="/src/images/logos/WTCCBLogo.png" alt="Welcome Trust Centre for Cell Biology" height="100" /></a> &nbsp; 
-<a href='http://www.genomics.ed.ac.uk/'><img src="/src/images/logos/EdinburghGenomics.png" alt="Edinburgh Genomics" height="100" /></a>
-&nbsp; 
-<a href='http://www.roslin.ed.ac.uk/'><img src="/src/images/logos/RoslinLogo.jpg" alt="Roslin Institute" height="100" /></a> 
-&nbsp; 
-<a href='http://www.ed.ac.uk/'><img src="/src/images/logos/UEdinburghSquareLogo.png" alt="University of Edinburgh" height="100" /></a> 
+<a href='http://www.wcb.ed.ac.uk/'><img src="/images/logos/WTCCBLogo.png" alt="Welcome Trust Centre for Cell Biology" height="100" /></a> &nbsp;
+<a href='http://www.genomics.ed.ac.uk/'><img src="/images/logos/EdinburghGenomics.png" alt="Edinburgh Genomics" height="100" /></a>
+&nbsp;
+<a href='http://www.roslin.ed.ac.uk/'><img src="/images/logos/RoslinLogo.jpg" alt="Roslin Institute" height="100" /></a>
+&nbsp;
+<a href='http://www.ed.ac.uk/'><img src="/images/logos/UEdinburghSquareLogo.png" alt="University of Edinburgh" height="100" /></a>
 <div class='title'>Introduction to Galaxy<br />12 May 2014</div>
 
 **
 9:00-13:00<br />
-Room 4325D, [James Clerk Maxwell Building (JCMB)](http://www.ph.ed.ac.uk/about/locations/jcmb), King's Buildings Campus<br /> 
+Room 4325D, [James Clerk Maxwell Building (JCMB)](http://www.ph.ed.ac.uk/about/locations/jcmb), King's Buildings Campus<br />
 [University of Edinburgh](http://www.ed.ac.uk/), Edinburgh, United Kingdom
 
 <br />
-Instructors<br />[Dave Clements](/src/people/dave-clements/index.md), [Johns Hopkins University](http://www.jhu.edu/)<br /> [Shaun Webb](http://www.research.ed.ac.uk/portal/en/persons/shaun-webb(f89f2a63-6811-473c-aa8a-5e9df97bea3a)/publications.html), [University of Edinburgh](http://www.ed.ac.uk/)<br />
+Instructors<br />[Dave Clements](/people/dave-clements/), [Johns Hopkins University](http://www.jhu.edu/)<br /> [Shaun Webb](http://www.research.ed.ac.uk/portal/en/persons/shaun-webb(f89f2a63-6811-473c-aa8a-5e9df97bea3a)/publications.html), [University of Edinburgh](http://www.ed.ac.uk/)<br />
 [Bert Overduin](https://www.linkedin.com/pub/bert-overduin/21/233/129), [University of Edinburgh](http://www.ed.ac.uk/)
 **
 </div>
@@ -70,8 +70,8 @@ Anyone affiliated with the University of Edinburgh can participate in this works
 <div class='center'>**Note:** This is a hands-on workshop!  Please bring a wifi-enabled laptop.</div>
 
 <div class='right'>
-<br /><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
-<a href='/src/events/uk-may2014/index.md'><img src="/src/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
+<br /><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a><br /><br />
+<a href='/events/uk-may2014/'><img src="/images/logos/UKMay2014Tour.png" alt="May 2014 Galaxy UK Tour" width="160px" /></a>
 </div>
 
 ## Support
@@ -80,12 +80,12 @@ This workshop is generously supported by the [Welcome Trust Centre for Cell Biol
 
 ### Galaxy May 2014 UK Tour
 
-This workshop is part of the [May 2014 Galaxy UK Tour](/src/events/uk-may2014/index.md), which features events in Norwich, as well as other events in Edinburgh.
+This workshop is part of the [May 2014 Galaxy UK Tour](/events/uk-may2014/), which features events in Norwich, as well as other events in Edinburgh.
 
 ## Slides
 
-* [Galaxy Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405UEDINBURGHWorkshop.pdf)   
-* [Edinburgh Genomics Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405EdinburghGenomics.pdf)   
+* [Galaxy Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405UEDINBURGHWorkshop.pdf)
+* [Edinburgh Genomics Sides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/201405EdinburghGenomics.pdf)
 
 ## Feedback
 

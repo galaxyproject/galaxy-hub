@@ -8,7 +8,7 @@ platforms:
     platform_text: "CoralSNP Galaxy Server"
     platform_location: US
 summary: "Standard Tools for Acroporid Genotyping (STAG)"
-image: "/src/use/coral-snp/coral.jpg"
+image: "/use/coral-snp/coral.jpg"
 comments:
   - "In STAG the user’s data is compared to the database of previously genotyped samples and generates a report of genet identification. "
 user_support:

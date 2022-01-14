@@ -7,11 +7,12 @@
 
 const fs = require("fs");
 const path = require("path");
+const dayjs = require("dayjs");
 const { imageType } = require("gridsome/lib/graphql/types/image");
-const { repr, rmPrefix, rmSuffix, dateToStr, dateStrDiff, matchesPrefixes } = require("./src/utils");
+const { repr, rmPrefix, rmSuffix, matchesPrefixes } = require("./src/utils.js");
+const CONFIG = require("./config.json");
 
-const CONFIG = JSON.parse(fs.readFileSync(path.join(__dirname, "config.json"), "utf8"));
-const COMPILE_DATE = dateToStr(new Date());
+const COMPILE_DATE = dayjs();
 const IMAGE_REGISTRY = new Set();
 const IMAGE_PREFIX_WHITELIST = ["images/", "https://", "http://"];
 
@@ -130,11 +131,11 @@ class nodeModifier {
             return node;
         }
         if (typeName !== "Insert") {
-            node = this.processNonInsert(node, collection);
+            node = this.processNonInsert(node, collection, typeName);
         }
         return node;
     }
-    static processNonInsert(node) {
+    static processNonInsert(node, collection, typeName) {
         if (node.filename !== "index") {
             // All Markdown files should be named `index.md`, unless it's an `Insert`.
             // `vue-remark` doesn't offer enough filtering to exclude non-index.md files from collection
@@ -145,7 +146,7 @@ class nodeModifier {
         let pathParts = node.path.split("/");
         node.category = categorize(pathParts);
         if (node.category === "careers") {
-            if (node.closes && dateStrDiff(COMPILE_DATE, node.closes) > 0) {
+            if (node.closes && COMPILE_DATE.diff(node.closes, "day") > 0) {
                 node.closed = true;
             } else {
                 node.closed = false;
@@ -154,8 +155,20 @@ class nodeModifier {
         // Label ones with dates.
         // This gets around the inability of the GraphQL schema to query on null/empty dates.
         if (node.date) {
-            node.days_ago = dateStrDiff(COMPILE_DATE, node.date);
             node.has_date = true;
+            // Set the end date: `date + days - 1`, or just the `date` if there's no `days`.
+            if (node.days) {
+                let startDate = dayjs(node.date);
+                let endDate = startDate.add(node.days - 1, "day");
+                node.end = new Date(endDate);
+            } else {
+                node.end = node.date;
+            }
+            // days_ago
+            node.days_ago = COMPILE_DATE.diff(node.end, "day");
+            if (node.end > COMPILE_DATE) {
+                node.days_ago -= 1;
+            }
         } else {
             node.has_date = false;
         }
@@ -179,7 +192,7 @@ class nodeModifier {
                 if (insert) {
                     node.inserts.push(store.createReference(insert));
                 } else {
-                    console.error(repr`Failed to find Insert for path ${path}`);
+                    console.error(repr`Failed to find Insert for path ${path} in ${node.path}`);
                 }
             }
             return node;
@@ -192,7 +205,6 @@ class nodeModifier {
 }
 
 module.exports = function (api) {
-
     api.loadSource((actions) => {
         // Using the Data Store API: https://gridsome.org/docs/data-store-api/
         // Add derived `category` field.
@@ -206,6 +218,7 @@ module.exports = function (api) {
             type Article implements Node @infer {
                 category: String
                 has_date: Boolean
+                end: Date
                 days_ago: Int
                 closed: Boolean
             }`);
@@ -235,36 +248,37 @@ module.exports = function (api) {
     let platformsData;
     api.createPages(async ({ graphql }) => {
         platformsData = await graphql(`
-        query {
-            platforms: allPlatform(sortBy: "title", order: ASC) {
-              totalCount
-              edges {
-                node {
-                  id
-                  url
-                  path
-                  title
-                  image
-                  scope
-                  summary
-                  comments
-                  user_support
-                  quotas
-                  citations
-                  pub_libraries
-                  sponsors
-                  platforms {
-                    platform_group
-                    platform_url
-                    platform_text
-                    platform_location
-                    platform_purview
-                  }
+            query {
+                platforms: allPlatform(sortBy: "title", order: ASC) {
+                    totalCount
+                    edges {
+                        node {
+                            id
+                            url
+                            path
+                            title
+                            image
+                            scope
+                            summary
+                            comments
+                            user_support
+                            quotas
+                            citations
+                            pub_libraries
+                            sponsors
+                            platforms {
+                                platform_group
+                                platform_url
+                                platform_text
+                                platform_location
+                                platform_purview
+                            }
+                        }
+                    }
                 }
-              }
             }
-          }`);
-    })
+        `);
+    });
 
     api.configureServer(async (app) => {
         // Serve /use/feed.json from develop server.
@@ -279,18 +293,19 @@ module.exports = function (api) {
         let outDir = path.join(__dirname, "dist", "use");
         fs.mkdirSync(outDir, { recursive: true });
         let feedPath = path.join(outDir, "feed.json");
-        fs.writeFile(feedPath, makePlatformsJson(platformsData), error => {if (error) throw error});
+        fs.writeFile(feedPath, makePlatformsJson(platformsData), (error) => {
+            if (error) throw error;
+        });
     });
-
 };
 
 function makePlatformsJson(platformsData) {
-    let platforms = platformsData.data.platforms.edges.map(edge => {
+    let platforms = platformsData.data.platforms.edges.map((edge) => {
         // Massage fields a little for backward compatibility.
         let node = edge.node;
         node.link = rmSuffix(node.path, "/");
         node.path = path.join(rmPrefix(node.path, "/"), "index.md");
         return node;
     });
-    return JSON.stringify(platforms, null, '  ');
+    return JSON.stringify(platforms, null, "  ");
 }

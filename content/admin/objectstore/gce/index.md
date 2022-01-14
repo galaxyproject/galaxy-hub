@@ -2,96 +2,98 @@
 title: Google Cloud Storage
 ---
 
-A Galaxy admin can configure [ObjectStore](/src/admin/objectstore/index.md) to 
+A Galaxy admin can configure [ObjectStore](/admin/objectstore/) to
 persist data on a [Google Cloud Storage](https://cloud.google.com/storage/).
 In the following, first we explain how to setup a [bucket](https://cloud.google.com/storage/docs/key-terms#buckets)
-on the Google Cloud Storage, and then we discuss how to configure Galaxy 
+on the Google Cloud Storage, and then we discuss how to configure Galaxy
 ObjectStore to leverage that bucket.
 
 ## Step 1/2: Configure Google Cloud Storage
 
-In general, to setup Google Cloud Storage, you would first need to create 
+In general, to setup Google Cloud Storage, you would first need to create
 a _[service accounts](https://cloud.google.com/compute/docs/access/service-accounts)_
 from _[Google Cloud Console](https://console.cloud.google.com)_ and authorize it to read/write
-storage objects under your account, then obtain the necessary credentials that 
-authorize Galaxy to assume the service account, and finally create a bucket for Galaxy. 
+storage objects under your account, then obtain the necessary credentials that
+authorize Galaxy to assume the service account, and finally create a bucket for Galaxy.
 In order to do so, you may take the following steps:
 
 ### Create a Service Account
+
 1. Go to [console.cloud.google.com](https://console.cloud.google.com) and login
 with your Google credentials. You will then be redirected to your dashboard
 on Google Cloud Platform:
 
-    ![image](/src/admin/objectstore/gce/01.png)
- 
+    ![image](/admin/objectstore/gce/01.png)
+
 2. Go to _[service accounts](https://cloud.google.com/compute/docs/access/service-accounts)_
 page as shown in the following figure:
- 
-    ![image](/src/admin/objectstore/gce/02.png)
-    
-3. Create a _service account_ by clicking on the `CREATE SERVICE ACCOUNT` button: 
 
-    ![image](/src/admin/objectstore/gce/03.png) 
-    
-    This will create a service account under currently selected project (e.g., 
-    the `first Test` project as shown in our example figures). You can select a 
-    different project by clicking on the drop-down icon next to the currently 
+    ![image](/admin/objectstore/gce/02.png)
+
+3. Create a _service account_ by clicking on the `CREATE SERVICE ACCOUNT` button:
+
+    ![image](/admin/objectstore/gce/03.png)
+
+    This will create a service account under currently selected project (e.g.,
+    the `first Test` project as shown in our example figures). You can select a
+    different project by clicking on the drop-down icon next to the currently
     selected project and choose a different project from the pop-up window.
-    
-4. Fill in the required fields for the service account details, then 
-click on the `CREATE` button. 
 
-    ![image](/src/admin/objectstore/gce/04.png)
-    
-5. Grant the _service account_ with permission to read/write 
+4. Fill in the required fields for the service account details, then
+click on the `CREATE` button.
+
+    ![image](/admin/objectstore/gce/04.png)
+
+5. Grant the _service account_ with permission to read/write
 objects in a bucket under your account (e.g., by assigning the
-[`Storage Admin`](https://cloud.google.com/iam/docs/understanding-roles#storage-roles) 
-role to the _service account_), then click on the `CONTINUE` button. 
+[`Storage Admin`](https://cloud.google.com/iam/docs/understanding-roles#storage-roles)
+role to the _service account_), then click on the `CONTINUE` button.
 See the following figure:
 
-    ![image](/src/admin/objectstore/gce/05.png)
-    
+    ![image](/admin/objectstore/gce/05.png)
+
     You may refer to the [roles documentation page](https://cloud.google.com/iam/docs/understanding-roles)
-    for a complete list of roles and their permissions. 
-    
-6.  On the service account page, click on the `CREATE KEY` button,
-then choose `JSON`, and then click on the `CREATE` button, and then 
+    for a complete list of roles and their permissions.
+
+6. On the service account page, click on the `CREATE KEY` button,
+then choose `JSON`, and then click on the `CREATE` button, and then
 click on the `DONE` button.
 
-    ![image](/src/admin/objectstore/gce/06.png) 
+    ![image](/admin/objectstore/gce/06.png)
 
-    This will create a private key and downloads a json file containing all the 
-    required information to access your Google cloud storage under your account. 
-    
+    This will create a private key and downloads a json file containing all the
+    required information to access your Google cloud storage under your account.
+
 ### Create a Bucket for Galaxy
+
 1. On the [_console page_](https://console.cloud.google.com/), click on the _navigation menu_
 button (`☰`), and go to `Storage > Browse`. See the following figure:
 
-    ![image](/src/admin/objectstore/gce/07.png) 
-    
-2. On the _Storage_ page, click on the `CREATE BUCKET` button, see the following 
+    ![image](/admin/objectstore/gce/07.png)
+
+2. On the _Storage_ page, click on the `CREATE BUCKET` button, see the following
 figure:
 
-    ![image](/src/admin/objectstore/gce/08.png) 
+    ![image](/admin/objectstore/gce/08.png)
 
-    > Note: in order to create a bucket, you would need to have an active subscription 
-    and have set-up payment options. 
-    
+    > Note: in order to create a bucket, you would need to have an active subscription
+    and have set-up payment options.
+
 3. On the _create bucket_ page, enter the required fields, and note the **bucket name**,
 and then click on the `Create` button.
 
-    ![image](/src/admin/objectstore/gce/09.png)
+    ![image](/admin/objectstore/gce/09.png)
 
 ## Step 2/2: Configure Galaxy ObjectStore
- 
-In order to setup Galaxy to persist data on a Google bucket, you may take the 
+
+In order to setup Galaxy to persist data on a Google bucket, you may take the
 following steps:
 
 1. Enable Galaxy ObjectStore configuration by setting the following key
 on the `config/galaxy.yml` file (not `config/galaxy.yml.sample`):
 
     object_store_config_file: config/object_store_conf.xml
-    
+
 2. Create the `object_store_conf.xml` file and set it as the following:
 
     ```xml
@@ -105,13 +107,13 @@ on the `config/galaxy.yml` file (not `config/galaxy.yml.sample`):
     </object_store>
     ```
 
-    > Note; the above configuration is the minimum set-up required for Galaxy 
-    to persist data on a Google bucket; for advanced options (e.g., defining a 
-    hierarchy of multiple backends) see 
-    [Galaxy ObjectStore configuration page](/src/admin/objectstore/index.md).
+    > Note; the above configuration is the minimum set-up required for Galaxy
+    to persist data on a Google bucket; for advanced options (e.g., defining a
+    hierarchy of multiple backends) see
+    [Galaxy ObjectStore configuration page](/admin/objectstore/).
 
 3. Restart Galaxy for configuration to take place. At this point, any new dataset
 uploaded to Galaxy, or generated by Galaxy (as a result of tool/workflow execution)
-will be uploaded to the specified bucket. See the following figure: 
+will be uploaded to the specified bucket. See the following figure:
 
-    ![image](/src/admin/objectstore/gce/10.png)
+    ![image](/admin/objectstore/gce/10.png)

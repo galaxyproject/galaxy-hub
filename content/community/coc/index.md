@@ -2,6 +2,9 @@
 title: "Galaxy Project Code of Conduct"
 ---
 
+
+<img src="/images/undraw-illustrations/coc.svg" alt="coc" style="width:230px; float:right;"/>
+
 ## Note: Change is Coming
 
 From 2015 through 2021 the Galaxy Project Code of Conduct [resided in the main Galaxy repository on GitHub](https://github.com/galaxyproject/galaxy/blob/57d6a3857d397fedf9fbed724241584fd031033b/CODE_OF_CONDUCT.md), and updates to it were coordinated by the Committers Group for that repo.
@@ -10,7 +13,7 @@ That code of conduct has served us reasonably well over the years, but it is tim
 
 **As a result it is past time to update both our code of conduct and our process for maintaining it.**  The first step in that has been to move the Code of Conduct to the Galaxy Community Hub, to make it more visible and to reflect that it is a document for the whole community.
 
-The Galaxy Outreach and Training [Working Group](/src/community/wg/index.md) is has started working on a first draft of a new code and new processes.  The final code and processes we adopt will be implemented only after it has been discussed, revised, and approved by the community.
+The Galaxy Outreach and Training [Working Group](/community/wg/) is has started working on a first draft of a new code and new processes.  The final code and processes we adopt will be implemented only after it has been discussed, revised, and approved by the community.
 
 Watch this space (and Galaxy channels of course).
 
@@ -89,25 +92,25 @@ If you experience or witness unacceptable behavior, or have any other concerns,
 please report it to any combination of the following people that makes you feel
 the most comfortable:
 
-- Dave Clements (clementsgalaxy@gmail.com). Dave is the Galaxy Project community
+* Dave Clements (clementsgalaxy@gmail.com). Dave is the Galaxy Project community
   outreach manager and has experience handling Code of Conduct related issues.
-- Dr. Mike Schatz (mschatz@cs.jhu.edu). Mike is Dave Clements' direct manager
+* Dr. Mike Schatz (mschatz@cs.jhu.edu). Mike is Dave Clements' direct manager
   and issues related to Dave in some way should be reported to Mike.
-- Helena Rasche (helena.rasche@gmail.com). Helena is a well-known, trusted
+* Helena Rasche (helena.rasche@gmail.com). Helena is a well-known, trusted
   community member, is LGBT+, and has completely separate funding and
   institutional affiliation from Dave and Mike.
 
 All reports will be handled with discretion. In your report please include:
 
-- Your contact information.
+* Your contact information.
 
-- Names (real, nicknames, or pseudonyms) of any individuals involved. If there
+* Names (real, nicknames, or pseudonyms) of any individuals involved. If there
   are additional witnesses, please include them as well. Your account of what
   occurred, and if you believe the incident is ongoing. If there is a publicly
   available record (e.g. a mailing list archive or a public IRC logger), please
   include a link.
 
-- Any additional information that may be helpful.
+* Any additional information that may be helpful.
 
 After filing a report, a representative will contact you personally, review the
 incident, follow up with any additional questions, and make a decision as to

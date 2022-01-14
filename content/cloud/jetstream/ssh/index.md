@@ -3,7 +3,7 @@ title: SSH Access
 ---
 <slot name="/cloud/jetstream/linkbox" />
 
-Some tasks on the Galaxy server (e.g., configuration changes) require you to connect to the VM using a command line shell. This can easily be done from within your browser by opening the VM details page and clicking the *Open Web Shell* button. 
+Some tasks on the Galaxy server (e.g., configuration changes) require you to connect to the VM using a command line shell. This can easily be done from within your browser by opening the VM details page and clicking the *Open Web Shell* button.
 
 <img src="http://i.imgur.com/xYtIYoR.png" alt="" width=300 />
 
@@ -19,11 +19,11 @@ From here, you can perform any administrative task. You will be logged in as the
 
 ## Changing Galaxy settings
 
-Galaxy has an extensive set of administrative [configuration options](/src/admin/index.md). The most common changes to Galaxy are performed by editing *galaxy.ini* file. On the Jetstream image, this file is located in */opt/galaxy/galaxy-app/config/galaxy.ini* and it must be edited as *galaxy* system user. You can edit the file using [nano](http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/) or [vim](https://www.linux.com/learn/vim-101-beginners-guide-vim) editors. The most current list of available options is always available in the [galaxy.ini.sample](https://github.com/galaxyproject/galaxy/blob/dev/config/galaxy.ini.sample) file; any missing options can be added of the existing ones can be modified. If adding new options to the file, make sure that you are adding them under the right section of the file, most likely under *[app:main]* header. Note that after changing this file, it is necessary to restart Galaxy.
+Galaxy has an extensive set of administrative [configuration options](/admin/). The most common changes to Galaxy are performed by editing *galaxy.ini* file. On the Jetstream image, this file is located in */opt/galaxy/galaxy-app/config/galaxy.ini* and it must be edited as *galaxy* system user. You can edit the file using [nano](http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/) or [vim](https://www.linux.com/learn/vim-101-beginners-guide-vim) editors. The most current list of available options is always available in the [galaxy.ini.sample](https://github.com/galaxyproject/galaxy/blob/dev/config/galaxy.ini.sample) file; any missing options can be added of the existing ones can be modified. If adding new options to the file, make sure that you are adding them under the right section of the file, most likely under *[app:main]* header. Note that after changing this file, it is necessary to restart Galaxy.
 
 ### Adding Galaxy Admin user
 
-To be able to add new tools or reference data, it is necessary to become Galaxy Admin user and use the [admin panel](/src/admin/index.md). This is done by editing Galaxy settings (see above section) and adding a line like the following under the *[app:main]* section: *admin_users = <registered user's email address>*. Save the file and restart Galaxy process.
+To be able to add new tools or reference data, it is necessary to become Galaxy Admin user and use the [admin panel](/admin/). This is done by editing Galaxy settings (see above section) and adding a line like the following under the *[app:main]* section: *admin_users = <registered user's email address>*. Save the file and restart Galaxy process.
 
 ## Restarting Galaxy
 

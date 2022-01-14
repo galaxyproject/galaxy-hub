@@ -3,13 +3,13 @@ title: "Contribute to the Galaxy Publication Library"
 ---
 
 <div class="float-right">
-[<img src="/src/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" />](https://www.zotero.org/groups/galaxy)
+[<img src="/images/logos/zotero-logo-small-trans.png" alt="Galaxy Publication Library at Zotero" />](https://www.zotero.org/groups/galaxy)
 </div>
 
 It takes a fair amount of work to keep track of publications that reference
 Galaxy in some way: There are now over 1000 papers per year that do so.  The
 bulk of this curation is currently done by [Galaxy
-Team](/src/galaxy-team/index.md) members using (quite possibly hundreds) of
+Team](/galaxy-team/) members using (quite possibly hundreds) of
 email alerts and custom software.
 
 If you want to help curate papers then here's how you can help.
@@ -23,7 +23,7 @@ high-throughput supernova of a curator.*)
 We use the [Zotero](https://zotero.org/) social bookmarking service to organize
 publications that are about, use, or reference Galaxy.  The [Galaxy Group on
 Zotero](https://www.zotero.org/groups/galaxy) is open to any community member
-who [would like to contribute](/src/publication-library/contribute/index.md).
+who [would like to contribute](/publication-library/contribute/).
 
 # Set Up
 
@@ -36,7 +36,7 @@ To help out you'll need to:
 1. Read this page carefully.
 1. Request update access to the Galaxy Zotero Group
 
-## Get a Zotero account 
+## Get a Zotero account
 
 If you don't already have a Zotero account, you'll need to [set one
 up](https://www.zotero.org/user/register/). You'll need to confirm your account
@@ -102,7 +102,7 @@ discuss your ideas.
 
 ## Add Platform Resource tags (">") if relevant
 
-If the publication is about, uses, or references a [public Galaxy platform](/src/use/index.md), then please add a tag for that.  Note that since there are over 100
+If the publication is about, uses, or references a [public Galaxy platform](/use/), then please add a tag for that.  Note that since there are over 100
 public platforms, you might also be creating the tag when add it.
 
 ## Watch for duplicates

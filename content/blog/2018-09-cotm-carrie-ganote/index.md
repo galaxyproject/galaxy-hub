@@ -2,10 +2,10 @@
 date: '2018-09-05'
 title: "Contributor of the Month: Carrie Ganote"
 authors: "Björn Grüning"
-image: "/src/blog/2018-09-cotm-carrie-ganote/carrie-ganote.png"
+image: "/blog/2018-09-cotm-carrie-ganote/carrie-ganote.png"
 ---
 
-The Galaxy ecosystem is a direct result of the Galaxy community and the contributions and involvement of community members.  The community makes it all work in innumerable ways, including support, training and tutorial development, talks, posters, documentation, issue reporting, feature requests, tool publishing, coding, and Galaxy server, cloud, and appliance support. 
+The Galaxy ecosystem is a direct result of the Galaxy community and the contributions and involvement of community members.  The community makes it all work in innumerable ways, including support, training and tutorial development, talks, posters, documentation, issue reporting, feature requests, tool publishing, coding, and Galaxy server, cloud, and appliance support.
 
 To help highlight our community we will interview a member of the community every month and feature him/her in the *Galactic Blog*.
 
@@ -23,7 +23,7 @@ I was born in Indiana, in the Midwest part of the US. I was always an outdoorsy 
 
 ### Why did you start using Galaxy?
 
-I inherited a running Galaxy instance when I started my current job with the [National Center for Genome Analysis Support](https://ncgas.org/) at the end of 2012. It was my job to go through the tools, make sure they all worked, keep it running, pare down things I thought we didn’t need, and add things that were needed. I worked on some collaborations with other teams here at Indiana University, and we managed to hook our Galaxy instance into [inCommon](https://www.incommon.org/) authentication systems and launch jobs onto the [Open Science Grid](http://opensciencegrid.org/), a collection of machines that agreed to make spare cycles available to whoever wants to use them. 
+I inherited a running Galaxy instance when I started my current job with the [National Center for Genome Analysis Support](https://ncgas.org/) at the end of 2012. It was my job to go through the tools, make sure they all worked, keep it running, pare down things I thought we didn’t need, and add things that were needed. I worked on some collaborations with other teams here at Indiana University, and we managed to hook our Galaxy instance into [inCommon](https://www.incommon.org/) authentication systems and launch jobs onto the [Open Science Grid](http://opensciencegrid.org/), a collection of machines that agreed to make spare cycles available to whoever wants to use them.
 
 ### How did you get into the Galaxy community, what (and when) was your first contribution?
 
@@ -31,7 +31,7 @@ Not long after I started this job, we were going to the [Plant and Animal Genome
 
 ### Which are your favorite Galaxy tools?
 
-FastQC might be my favorite tool on Galaxy. The fact that you have to run this tool in order to inaugurate pretty much any NGS project makes it critical for biologists. The html output is hard to get at in a normal HPC environment - you either have to tunnel with X11, or download the FastQC results to a laptop for viewing. Seeing the results on the browser is very convenient! 
+FastQC might be my favorite tool on Galaxy. The fact that you have to run this tool in order to inaugurate pretty much any NGS project makes it critical for biologists. The html output is hard to get at in a normal HPC environment - you either have to tunnel with X11, or download the FastQC results to a laptop for viewing. Seeing the results on the browser is very convenient!
 
 ### What is your favorite Galaxy feature?
 
@@ -51,7 +51,7 @@ Keep up the good work, listening to the needs of admins and users. I was very pl
 
 ### What is your vision for the Galaxy project for the next years?
 
-I’m excited to see Galaxy continue to evolve, adding more features to the user interface and continuing to be a critical piece in the workflow for biologists who would otherwise be unable to approach large-scale data analysis. 
+I’m excited to see Galaxy continue to evolve, adding more features to the user interface and continuing to be a critical piece in the workflow for biologists who would otherwise be unable to approach large-scale data analysis.
 
 ----
 

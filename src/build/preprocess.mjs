@@ -8,7 +8,8 @@ import nodeWatch from "node-watch";
 import { Command } from "commander";
 import { Partitioner, CONTENT_TYPES } from "./partition-content.mjs";
 import * as mdfixer from "./mdfixer.mjs";
-import { repr, PathInfo } from "../utils.js";
+import { repr } from "../utils.js";
+import { PathInfo } from "../paths.js";
 
 // When running `gridsome build` or `develop`, links are sufficient for it to do the right thing
 // (except in the case of `vue-remark`, of course).
@@ -69,7 +70,7 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
 
 function main(command, opts) {
     // Check if command is valid.
-    if (["preprocess", "watch"].indexOf(command) === -1) {
+    if (!(command === "preprocess" || command === "watch")) {
         let preamble;
         if (command) {
             preamble = repr`Invalid command ${command}. `;
@@ -124,7 +125,6 @@ function main(command, opts) {
                 setTimeout(fixMdOnEvent, 250, eventType, path, partitioner, partitioner.verbose, partitioner.simulate);
             }
         });
-        //TODO: Wait for a gridsome develop process to appear, then exit once it dies.
     } else if (command === "preprocess") {
         process.stdout.write("Placing files into build directories.. ");
         start = Date.now();
@@ -136,7 +136,7 @@ function main(command, opts) {
             process.stdout.write("Fixing Markdown files..                ");
             start = Date.now();
             for (let buildDir of Object.values(partitioner.buildDirs)) {
-                mdfixer.main(buildDir, { quiet: !partitioner.verbose, output: true });
+                mdfixer.main(buildDir, { quiet: !partitioner.verbose, overwrite: true });
             }
         }
     }
@@ -205,7 +205,7 @@ function setupBuildDirs(buildDirs, clear, simulate, verbose) {
                 console.log(repr`Clearing out existing files in build directory ${dirPath}`);
             }
             if (!simulate) {
-                fs.rmSync(dirPath, { recursive: true });
+                fs.rmdirSync(dirPath, { recursive: true });
             }
         }
         if (!simulate) {

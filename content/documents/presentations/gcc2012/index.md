@@ -1,4 +1,4 @@
-[Presentations](/src/documents/presentations/index.md) from [GCC2012](/src/events/gcc2012/index.md).
+[Presentations](/documents/presentations/) from [GCC2012](/events/gcc2012/).
 
 ## Presentations
 

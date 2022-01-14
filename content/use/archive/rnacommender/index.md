@@ -8,7 +8,7 @@ platforms:
     platform_text: "Docker"
     platform_location: IT
 summary: "RNAcommender is a tool for genome-wide recommendation of RNA-protein interactions. It is a recommender system capable of suggesting RNA targets to unexplored RNA binding proteins, by propagating the available interaction information, taking into account the protein domain composition and the RNA predicted secondary structure."
-image: "/src/use/archive/rnacommender/rnacommender.png"
+image: "/use/archive/rnacommender/rnacommender.png"
 comments:
   - "Available in Docker and in the Galaxy Toolshed."
 user_support:

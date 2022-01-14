@@ -1,4 +1,4 @@
-**This page contains documentation about starting *Galaxy on the Cloud* instances using the [cloudlaunch interface](https://usegalaxy.org/cloudlaunch) implemented as part of the Galaxy application and available until Oct 2015 Galaxy release. For the latest documentation on this process, see [this page](/src/cloudman/getting-started/index.md).**
+**This page contains documentation about starting *Galaxy on the Cloud* instances using the [cloudlaunch interface](https://usegalaxy.org/cloudlaunch) implemented as part of the Galaxy application and available until Oct 2015 Galaxy release. For the latest documentation on this process, see [this page](/cloudman/getting-started/).**
 
 ### Instantiating a Galaxy instance on the Amazon cloud
 
@@ -11,7 +11,7 @@ For the purposes of executing Galaxy on the Cloud, we have packaged Galaxy, Gala
 
 ### Detailed steps
 
-(For even more detailed steps, see [this page](/src/cloudman/aws/getting-started/index.md))
+(For even more detailed steps, see [this page](/cloudman/aws/getting-started/))
 
 **Step 1 (one time only):**
 
@@ -19,7 +19,7 @@ For the purposes of executing Galaxy on the Cloud, we have packaged Galaxy, Gala
 * Once your account has been approved by Amazon (note that this may take up to one business day), **log into AWS Management Console** ([https://console.aws.amazon.com/console](https://console.aws.amazon.com/console/)).
 * **Create IAM user** by clicking on *IAM service* → *Users* → *Create New Users*. Give the user a name (e.g., *galaxy_cloudman*) and click *Create*. Once created, make a note of and download the API access credentials.
 
-<div class='center'> 
+<div class='center'>
 <a href='http://i.imgur.com/Dpy3gxq.jpg'><img src="http://i.imgur.com/Dpy3gxq.jpg" alt="" width=200 /></a>
 <a href='http://i.imgur.com/hLxBYE2.jpg'><img src="http://i.imgur.com/hLxBYE2.jpg" alt="" width=200 /></a>
 <a href='http://i.imgur.com/bYSfHyQ.jpg'><img src="http://i.imgur.com/bYSfHyQ.jpg" alt="" width=200 /></a>
@@ -42,7 +42,7 @@ For the purposes of executing Galaxy on the Cloud, we have packaged Galaxy, Gala
 
 ** Step 3: **
 
-* Once available, **use the Galaxy CloudMan web interface to manage your cluster** (use the password you provided as part of user data to log in and specifying *ubuntu* as the username). Start by choosing *Galaxy* cluster type and wait a few minutes for all the services to initialize. Once the Galaxy application is ready, 'Access Galaxy' button will become clickable indicating the application is ready and the cluster setup has been completed. Via CloudMan interface, you can setup autoscaling or explicitly add additional worker instances. In general, CloudMan supports four types of clusters (see [this page](/src/cloudman/cluster-types/index.md) for more information about cluster types:
+* Once available, **use the Galaxy CloudMan web interface to manage your cluster** (use the password you provided as part of user data to log in and specifying *ubuntu* as the username). Start by choosing *Galaxy* cluster type and wait a few minutes for all the services to initialize. Once the Galaxy application is ready, 'Access Galaxy' button will become clickable indicating the application is ready and the cluster setup has been completed. Via CloudMan interface, you can setup autoscaling or explicitly add additional worker instances. In general, CloudMan supports four types of clusters (see [this page](/cloudman/cluster-types/) for more information about cluster types:
   1. A *Galaxy cluster*, which sets up Galaxy, available tools, reference data, a job manager (i.e., SGE) and all the required services
   1. A *Share-an-instance cluster*, which allows you to instantiate an an exact copy of someone else's cluster instance
   1. A *Data cluster*, which creates a complete cluster and associates a persistent data volume with the given cluster but does not setup Galaxy (this option allows you to use all of the features of CloudMan without Galaxy)

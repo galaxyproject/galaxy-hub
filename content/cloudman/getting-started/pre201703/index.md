@@ -17,7 +17,7 @@ Before you can start using cloud resources, you need to get your API access cred
 
 1. Next, it's necessary to create the API access credentials. Do this by creating an IAM user: click on *Services* → *IAM* → *Users* → *Create New Users*. Give the user a name (e.g., *galaxy_cloudman*) and click *Create*. Once created, make a note of and download the API access credentials. Keep these credentials safe because they are all that is required to use your cloud account.
 
-<div class='center'> 
+<div class='center'>
 <a href='http://i.imgur.com/PKLI8Gh.png'><img src="http://i.imgur.com/PKLI8Gh.png" alt="" width=200 /></a>
 <a href='http://i.imgur.com/IxMqWkl.png'><img src="http://i.imgur.com/IxMqWkl.png" alt="" width=200 /></a>
 <a href='http://i.imgur.com/yFL6QRA.png'><img src="http://i.imgur.com/yFL6QRA.png" alt="" width=200 /></a>
@@ -35,7 +35,7 @@ Before you can start using cloud resources, you need to get your API access cred
 
 In this step, we will create a new cluster by launching a virtual server in the cloud.
 
-1. Head to the Cloud Launch application at [launch.usegalaxy.org/launch](https://launch.usegalaxy.org/launch) and fill the form with the required information. Here, use the access credentials created in the previous step (i.e., for the *access* and *secret key* fields). Give the cluster a name and protect access to it via a self-chosen password. You can also choose the type of cluster to configure here - see [this page](/src/cloudman/cluster-types/index.md) for a description of the available options.
+1. Head to the Cloud Launch application at [launch.usegalaxy.org/launch](https://launch.usegalaxy.org/launch) and fill the form with the required information. Here, use the access credentials created in the previous step (i.e., for the *access* and *secret key* fields). Give the cluster a name and protect access to it via a self-chosen password. You can also choose the type of cluster to configure here - see [this page](/cloudman/cluster-types/) for a description of the available options.
 
 <div class='center'>
 <a href='http://i.imgur.com/zf9mzXf.png'><img src="http://i.imgur.com/zf9mzXf.png" alt="" width=250 /></a>
@@ -54,7 +54,7 @@ In this step, we will create a new cluster by launching a virtual server in the 
 <div class='center'>
 <a href='http://i.imgur.com/GOFLRuj.png'><img src="http://i.imgur.com/GOFLRuj.png" alt="" width=250 /></a>
 </div>
- 
+
 ## Step 2: Access Galaxy (and other services)
 
 After the cluster has started, it will take a few more minutes for all the applications to start. A popup message window will be shown when the cluster is ready for use. At that point, click *Access Galaxy* and start using Galaxy. You will probably want to [register a new account](https://vimeo.com/75925027) first - after all, this is your own cluster. Keep in mind that the account you create on your cloud cluster is separate from an account you might have created on another Galaxy server.
@@ -65,10 +65,11 @@ After the cluster has started, it will take a few more minutes for all the appli
 ----
 
 Depending on your interest, the documentation contains a wealth of information. Here are some places that might interest you:
-* [Capacity planning](/src/cloudman/capacity-planning/index.md)
-* [Cluster applications and services](/src/cloudman/services/index.md)
-* [Sharing and publishing a cluster](/src/cloudman/sharing/index.md)
-* [Customizing your cluster](/src/cloudman/CustomizeGalaxyCloud/index.md)
-* [Troubleshooting](/src/cloudman/troubleshooting/index.md)
 
-Getting started guide for the old *cloudlaunch interface* can be found [here](/src/cloudman/getting-started/pre201509/index.md).
+* [Capacity planning](/cloudman/capacity-planning/)
+* [Cluster applications and services](/cloudman/services/)
+* [Sharing and publishing a cluster](/cloudman/sharing/)
+* [Customizing your cluster](/cloudman/CustomizeGalaxyCloud/)
+* [Troubleshooting](/cloudman/troubleshooting/)
+
+Getting started guide for the old *cloudlaunch interface* can be found [here](/cloudman/getting-started/pre201509/).

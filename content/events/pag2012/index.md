@@ -1,7 +1,7 @@
 ---
 title: Galaxy @ PAG 2012
 ---
-<div class='center'><a href='http://www.intlpag.org/'><img src="/src/images/logos/PAG2012.png" alt="Galaxy @ Plant and Animal Genome (PAG 2012)" /></a></div>
+<div class='center'><a href='http://www.intlpag.org/'><img src="/images/logos/PAG2012.png" alt="Galaxy @ Plant and Animal Genome (PAG 2012)" /></a></div>
 
 
 
@@ -50,7 +50,7 @@ Galaxy had a strong presence at [Plant and Animal Genome XX (PAG 2012)](http://w
     <td style=" text-align: center;"> 10:30-11:30 </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Paper2350.html'>Galaxy</a> (slides: <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012PAGGalaxy.pdf'>PDF</a>) </td>
     <td> <a href='http://pag.confex.com/pag/xx/webprogram/Session1123.html'>GMOD Workshop</a> </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <td style=" text-align: center;"> 11:35-11:50 </td>
@@ -67,5 +67,5 @@ There is also a full slate of [GMOD related content](http://gmod.org/wiki/PAG 20
 
 ## Flier
 
-<div class='left'><a href='https://depot.galaxyproject.org/hub/attachments/events/pag2012/GalaxyAtPAG2012Flier.pdf'><img src="/src/events/pag2012/GalaxyAtPAG2012Thumb.png" alt="Galaxy Related Events @ PAG 2012" /></a></div>
+<div class='left'><a href='https://depot.galaxyproject.org/hub/attachments/events/pag2012/GalaxyAtPAG2012Flier.pdf'><img src="/events/pag2012/GalaxyAtPAG2012Thumb.png" alt="Galaxy Related Events @ PAG 2012" /></a></div>
 Going to PAG?  Print out a copy of the [Galaxy @ PAG 2012 flier](https://depot.galaxyproject.org/hub/attachments/events/pag2012/GalaxyAtPAG2012Flier.pdf).  Want to help get the word out about Galaxy?  Take several copies with you.

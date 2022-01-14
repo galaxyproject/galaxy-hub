@@ -1,4 +1,4 @@
- 
+
 
 # Displaying Datasets at External Display Applications / Websites using GEDAs
 
@@ -6,14 +6,14 @@
 
 There are many services available that allow users to upload their own data for use as viewing as e.g. 'custom tracks' in a genome browser. Examples of these include the UCSC genome browser, GeneTrack and [GBrowse](http://gmod.org/wiki/GBrowse). Adding a new external display applications requires two steps:
 
-1. define the display application (create a new XML definition file) and 
-2. instruct Galaxy to load the display application (edit datatypes\_conf.xml with the location of the new XML file). 
+1. define the display application (create a new XML definition file) and
+2. instruct Galaxy to load the display application (edit datatypes\_conf.xml with the location of the new XML file).
 
 * * *
 
 ## Citation
 
-If you add a new external display application to Galaxy in your published work, please cite: [Daniel Blankenberg](/src/people/dan/index.md), [John Chilton](/src/people/john-chilton/index.md), and [Nate Coraor](/src/people/nate/index.md). **[Galaxy External Display Applications: Closing a dataflow interoperability loop](https://rdcu.be/b0xnC)**. *Nat Methods* (2020). doi:10.1038/s41592-019-0727-x
+If you add a new external display application to Galaxy in your published work, please cite: [Daniel Blankenberg](/people/dan/), [John Chilton](/people/john-chilton/), and [Nate Coraor](/people/nate/). **[Galaxy External Display Applications: Closing a dataflow interoperability loop](https://rdcu.be/b0xnC)**. *Nat Methods* (2020). doi:10.1038/s41592-019-0727-x
 
 * * *
 
@@ -26,8 +26,8 @@ If you add a new external display application to Galaxy in your published work, 
 
 ## Topics
 
-1. Basic Topics - Simple Display Applications 
-2. Advanced Topics - Dynamic Display Applications 
+1. Basic Topics - Simple Display Applications
+2. Advanced Topics - Dynamic Display Applications
 
 * * *
 
@@ -41,15 +41,15 @@ Display applications are defined using XML.
 
 Lets suppose we want to write a display application which displays a BAM file at the UCSC genome browser. After familiarizing ourselves with the UCSC genome browser, we become aware of several pieces of information which are needed to display user data:
 
-- The data to be displayed is provided by giving a public URL to the UCSC genome browser. 
-- 3 data files are needed to be provided by URL: 1) a custom track definition, 2) the BAM file and 3) the BAM index. With the following requirement: the index must have the same name as the BAM file, but have the additional suffix of '.bai' 
-- The url to send data to UCSC is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;hgt.customText=URL_OF_CUSTOM_TRACK ` 
+* The data to be displayed is provided by giving a public URL to the UCSC genome browser.
+* 3 data files are needed to be provided by URL: 1) a custom track definition, 2) the BAM file and 3) the BAM index. With the following requirement: the index must have the same name as the BAM file, but have the additional suffix of '.bai'
+* The url to send data to UCSC is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;hgt.customText=URL_OF_CUSTOM_TRACK `
 
 This display application will require 3 parameters, corresponding to the 3 data files that are needed.
 
-1. The custom track file is defined by a dynamically generated template-style parameter. It is referred to as 'track', and is available at [http://some/url/path/track](http://some/url/path/track). The contents of this file are created by replacing the '$' placeholders with the values indicated. 
-2. The BAM file, the actual dataset being used for the display, is internally referred to as 'bam\_file', but will be available as [http://some/url/path/galaxy.bam](http://some/url/path/galaxy.bam) 
-3. The index file, which is available as a metadata attribute of the BAM file, is internally referred to as 'bai\_file', but will be available as [http://some/url/path/galaxy.bam.bai](http://some/url/path/galaxy.bam.bai) 
+1. The custom track file is defined by a dynamically generated template-style parameter. It is referred to as 'track', and is available at [http://some/url/path/track](http://some/url/path/track). The contents of this file are created by replacing the '$' placeholders with the values indicated.
+2. The BAM file, the actual dataset being used for the display, is internally referred to as 'bam\_file', but will be available as [http://some/url/path/galaxy.bam](http://some/url/path/galaxy.bam)
+3. The index file, which is available as a metadata attribute of the BAM file, is internally referred to as 'bai\_file', but will be available as [http://some/url/path/galaxy.bam.bai](http://some/url/path/galaxy.bam.bai)
 
 This display application can then be defined like this example (`display_applications/ucsc/bam.xml/`):
 
@@ -80,14 +80,15 @@ Now lets create a display application that can view interval (BED-like) files at
 
 Items needed for this display:
 
-- The data to be displayed is provided by giving a public URL to the UCSC genome browser. 
-- 1 data file is needed to be provided by URL: 1) the result of converting the interval file to bedstrict 
-- The url to send data to UCSC is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;position=CHR:START-END&amp;hgt.customText=URL_OF_STRICTBED_FILE ` 
+* The data to be displayed is provided by giving a public URL to the UCSC genome browser.
+* 1 data file is needed to be provided by URL: 1) the result of converting the interval file to bedstrict
+* The url to send data to UCSC is of the form: ` http://genome.ucsc.edu/cgi-bin/hgTracks?db=UCSC_GENOME_BUILD&amp;position=CHR:START-END&amp;hgt.customText=URL_OF_STRICTBED_FILE `
 
 This display application requires 2 parameters:
 
-1. The interval file converted to bestrict, named 'bed\_file', to be availabe as [http://some/url/path/galaxy.bed](http://some/url/path/galaxy.bed) 
-2. The 'position' (viewport) in the form of CHR:START-END. This is calculated by looking at the first 10 lines of the bed file. This is not available as a URL (viewable is not set to True); but is instead substituted in as part of the URL that users are directed to for display. 
+1. The interval file converted to bestrict, named 'bed\_file', to be availabe as [http://some/url/path/galaxy.bed](http://some/url/path/galaxy.bed)
+2. The 'position' (viewport) in the form of CHR:START-END. This is calculated by looking at the first 10 lines of the bed file. This is not available as a URL (viewable is not set to True); but is instead substituted in as part of the URL that users are directed to for display.
+
 ```
 <display id="ucsc_interval_as_bed" version="1.0.0" name="display at UCSC">
     <link id="main" name="main">
@@ -147,19 +148,20 @@ Create a display application that can view interval (BED-like) files at GeneTrac
 
 Items needed for this display:
 
-- 1 data file is needed to be provided: 1) A GeneTrack index binary datatype 
-- The data to be displayed is provided by giving an encoded filename to the GeneTrack server, which has access to the appropriate filesystem. 
-- A Hashkey, used as an identity check by GeneTrack 
-- GeneTrack is able to launch peakcalling jobs at Galaxy and so also requires the dataset id and the Galaxy URL used to run jobs 
-- The url to send data to GeneTrack is of the form: ` http://genetrack.g2.bx.psu.edu/galaxy?filename=ENCODED_FILENAME&amp;hashkey=HASHKEY&amp;input=DATASET_ID&amp;GALAXY_URL=POST_BACK_URL ` 
+* 1 data file is needed to be provided: 1) A GeneTrack index binary datatype
+* The data to be displayed is provided by giving an encoded filename to the GeneTrack server, which has access to the appropriate filesystem.
+* A Hashkey, used as an identity check by GeneTrack
+* GeneTrack is able to launch peakcalling jobs at Galaxy and so also requires the dataset id and the Galaxy URL used to run jobs
+* The url to send data to GeneTrack is of the form: ` http://genetrack.g2.bx.psu.edu/galaxy?filename=ENCODED_FILENAME&amp;hashkey=HASHKEY&amp;input=DATASET_ID&amp;GALAXY_URL=POST_BACK_URL `
 
 This display application requires 5 parameters:
 
-1. The interval file converted to bed or genetrack format, named 'bed\_file' 
-2. The bed or genetrack file converted to GeneTrack format, named 'genetrack\_file' 
-3. 'galaxy\_url' containing the url that GeneTrack posts back to for calling peaks. 
-4. 'hash\_key' used as a verification check by GeneTrack 
-5. 'encoded\_filename' containing the filesystem location to the 'genetrack\_file', which has been encoded using binascii.hexlify 
+1. The interval file converted to bed or genetrack format, named 'bed\_file'
+2. The bed or genetrack file converted to GeneTrack format, named 'genetrack\_file'
+3. 'galaxy\_url' containing the url that GeneTrack posts back to for calling peaks.
+4. 'hash\_key' used as a verification check by GeneTrack
+5. 'encoded\_filename' containing the filesystem location to the 'genetrack\_file', which has been encoded using binascii.hexlify
+
 ```
 <display id="genetrack_interval" version="1.0.0" name="view in">
     <link id="genetrack" name="GeneTrack">
@@ -204,9 +206,9 @@ Sometimes it can be desired to have links and parameters for a Display Applicati
 
 The file `tool-data/shared/ucsc/ucsc_build_sites.txt` contains tab delimited data, with one line per display site, consisting of columns:
 
-1. Site Name 
-2. Site URL 
-3. Comma-separated Genome Builds Available at this site 
+1. Site Name
+2. Site URL
+3. Comma-separated Genome Builds Available at this site
 
 The display will also be filtered based upon a Galaxy Application configuration variable `ucsc_display_sites` which is used to to restrict available sites to a list specified in universe\_wsgi.ini; alternatively the non-desired sites can be removed by commenting or deleting them out in `tool-data/shared/ucsc/ucsc_build_sites.txt`.
 

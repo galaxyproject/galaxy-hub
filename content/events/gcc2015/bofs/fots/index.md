@@ -4,15 +4,15 @@ title: Friends of the Tool Shed
 <slot name="/events/gcc2015/header" />
 
 
-<div class='left'><a href='/src/events/gcc2015/bofs/index.md'><img src="/src/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
+<div class='left'><a href='/events/gcc2015/bofs/'><img src="/images/logos/GCC2015BoFs300.png" alt="GCC2015 BoFs!" width="160" /></a></div>
 
-This page describes the **Friends of the Tool Shed** [Birds of a Feather](/src/events/gcc2015/bofs/index.md) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
+This page describes the **Friends of the Tool Shed** [Birds of a Feather](/events/gcc2015/bofs/) meetup being held at [GCC2015](http://gcc2015.tsl.ac.uk/).
 
 When: Tuesday, 7 July, 20:30
 
 Where: we meet at the http://thecellarhouse.co.uk/
 
-Contact: [Martin Cech](/src/people/marten/index.md)
+Contact: [Martin Cech](/people/marten/)
 
 ## Description
 
@@ -20,7 +20,7 @@ Tools, dependencies, workflows, datatypes, visualizations, pages, histories, ana
 
 ## Audience
 
-All are welcome, even [John](/src/people/john-chilton/index.md)
+All are welcome, even [John](/people/john-chilton/)
 
 ## When and Where
 
@@ -29,18 +29,18 @@ All are welcome, even [John](/src/people/john-chilton/index.md)
 
 ## Who is Participating
 
-If you are interested, please add your name below and/or send an email to [Martin Cech](/src/people/marten/index.md).
+If you are interested, please add your name below and/or send an email to [Martin Cech](/people/marten/).
 
-* [Martin Cech](/src/people/marten/index.md)
+* [Martin Cech](/people/marten/)
 * Helena Rasche
 * John Chilton
 * Peter Cock
 * Bjoern Gruening
-* [Nate Coraor](/src/people/nate/index.md)
-* [Daniel Blankenberg](/src/people/dan/index.md)
-* [Nicola Soranzo](/src/people/nicola-soranzo/index.md)
+* [Nate Coraor](/people/nate/)
+* [Daniel Blankenberg](/people/dan/)
+* [Nicola Soranzo](/people/nicola-soranzo/)
 * Next Name
 
 ## Questions?
 
-Send them to [Martin Cech](/src/people/marten/index.md).
+Send them to [Martin Cech](/people/marten/).

@@ -8,7 +8,7 @@ platforms:
     platform_text: "BioMaS Galaxy"
     platform_location: IT
 summary: "Taxonomic studies of environmental microbial communities "
-image: "/src/use/biomas/biomas-logo.jpg"
+image: "/use/biomas/biomas-logo.jpg"
 comments:
   - 'BioMaS (Bioinformatic analysis of Metagenomic AmpliconS) supports taxonomic studies of environmental microbial communities, "comprehensive of all the fundamental steps, from raw sequence data upload and cleaning to final taxonomic identification, that are absolutely required in an appropriately designed Meta-barcoding HTS-based experiment."'
 user_support:

@@ -2,8 +2,8 @@
 title: "Jan 2016 Galaxy Release (v 16.01)"
 date: "2016-02-24"
 ---
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
- 
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+
 **See the [full release notes](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html).**
 
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the [January 2016 (v16.01) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.01_announce.html).
@@ -34,7 +34,7 @@ Workflows may now run other workflows as a single abstract step in the parent wo
     <td style=" vertical-align: top; border: none;"> <span style="font-size: larger;"> BitBucket </span> <br /><br /><strong>Upgrade</strong><br /><code>% hg pull</code><br /><code>% hg update latest_16.01</code> </td>
   </tr>
   <tr>
-    <td colspan=3 style=" border: none;"> See the <a href='/src/admin/get-galaxy/index.md'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
+    <td colspan=3 style=" border: none;"> See the <a href='/admin/get-galaxy/'>Get Galaxy</a> page for additional details regarding the source code locations. </td>
   </tr>
 </table>
 
@@ -57,7 +57,7 @@ Multiple security vulnerabilities were recently discovered in Galaxy that allow 
 
 **Tool Shed Security Vulnerability - Read/write arbitrary filesystem paths**
 
-Multiple security vulnerabilities were recently discovered in the Tool Shed that allow malicious actors to read and write files on the Tool Shed server outside of normal Tool Shed repository directories. 
+Multiple security vulnerabilities were recently discovered in the Tool Shed that allow malicious actors to read and write files on the Tool Shed server outside of normal Tool Shed repository directories.
 
 *This issue affects all known releases of Galaxy in at least the last 3 years.*  See the [full announcment](https://lists.galaxyproject.org/archives/list/galaxy-dev@lists.galaxyproject.org/thread/TQG5K6DHSJX6HDFMV6MJ43SRNEO3X3JZ/#TQG5K6DHSJX6HDFMV6MJ43SRNEO3X3JZ) for details.
 <br /><br />

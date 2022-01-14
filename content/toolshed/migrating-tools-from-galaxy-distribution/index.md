@@ -1,7 +1,7 @@
 ---
 title: Migrating tools from the Galaxy distribution to the Galaxy Main Tool Shed
 ---
-<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
+<div class='center'> <a href='http://toolshed.g2.bx.psu.edu'><img src="/images/logos/ToolShed.jpg" alt="Galaxy Main Tool Shed" height="174" /></a> </div>
 
 
 
@@ -47,11 +47,12 @@ To show how this works, let's assume we have a local Galaxy instance with a tool
 
 Starting our Galaxy instance using the tool_conf.xml file above produces the following arrangement in our tool panel.
 
-<img src="/src/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_emboss.png" alt="" height="346" />
+<img src="/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_emboss.png" alt="" height="346" />
 
 Upgrading our Galaxy instance to the release in which the Emboss tools have been eliminated and then starting our Galaxy server produces the following message. Notice that even though over 130 Emboss tools were originally included in the Galaxy distribution, only those Emboss tools that we've defined in our tool_conf.xml file are listed as missing. If we had not defined any of the Emboss tools in our tool_conf.xml file, this message would not have been displayed, and our Galaxy server would have started normally.
 
 ```
+
 The list of files at the end of this message refers to tools that are configured to load into the tool panel for this Galaxy instance, but have been removed from the Galaxy distribution. These tools can be automatically installed from the Galaxy Tool Shed at http://toolshed.g2.bx.psu.edu.
 
 To skip this process, attempt to start your Galaxy server again (e.g., sh run.sh or whatever you use). If you do this, be aware that these tools will no longer be available in your Galaxy tool panel, and entries for each of them should be removed from your file named ./tool_conf.xml.
@@ -77,16 +78,18 @@ emboss_etandem.xml
 emboss_extractfeat.xml
 emboss_extractseq.xml
 emboss_extractfeat.xml
+
 ```
 
 
 Notice that the second paragraph tells us we can choose to not install the tools. If we restart our Galaxy server without installing the tools, the tools are not loaded into our tool panel since they are no longer available on disk.
 
-<img src="/src/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_sans_emboss.png" alt="" height="202" />
+<img src="/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_sans_emboss.png" alt="" height="202" />
 
 If, however, we perform the installation, this is what we'll see.
 
 ```
+
 $ sh ./scripts/migrate_tools/0002_tools.sh
 Repositories will be installed into configured tool_path location ../shed_tools
 destination directory: emboss_datatypes
@@ -111,6 +114,7 @@ updating to branch default
 Adding new row (or updating an existing row) for repository 'emboss_5' in the tool_shed_repository table.
 
 The installation process is finished.  All tools associated with this migration that were defined in your file named ./tool_conf.xml have been removed.  You may now start your Galaxy server.
+
 ```
 
 
@@ -215,7 +219,7 @@ Our integrated_tool_panel.xml file has been automatically altered to look like t
 
 And starting our Galaxy server produces the same arrangement in our tool panel that we had before our defined Emboss tools were eliminated from the distribution and installed from the Tool Shed.
 
-![](/src/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_installed_emboss.png)
+![](/toolshed/migrating-tools-from-galaxy-distribution/simple_tool_panel_installed_emboss.png)
 
 # Delaying execution of a tool migration stage
 
@@ -223,4 +227,4 @@ A Galaxy tool migration stage is defined as the stage level (e.g., 0002, 0003, 0
 
 Executing the process for a specific tool migration stage can be done at any time, not just at the time you are starting your Galaxy server as discussed in the previous sections of this document.  The Galaxy Admin menu includes a link labeled **Review tool migration stages**, which, when clicked, displays a page like the following.  The list of tool migrations consists of those that are currently available for the Galaxy instance, any of which can be run at any time (or multiple times if desired).
 
-![](/src/toolshed/migrating-tools-from-galaxy-distribution/tool_migration_stages.png)
+![](/toolshed/migrating-tools-from-galaxy-distribution/tool_migration_stages.png)

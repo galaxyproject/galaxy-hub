@@ -13,9 +13,9 @@ contact: Community
 tags: [ cofest, papercuts ]
 ---
 
-*Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/src/events/cofests/papercuts/index.md) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
+*Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/events/cofests/papercuts/) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
 
-**The February 2021 Papercuts CoFest will be held concurrently with the [Galaxy Training Network day](/src/events/2021-02-gtn/index.md)**, which like Papercuts is a CoFest featuring community calls throughout participating time zones.  You are encouraged to participate in both.
+**The February 2021 Papercuts CoFest will be held concurrently with the [Galaxy Training Network day](/events/2021-02-gtn/)**, which like Papercuts is a CoFest featuring community calls throughout participating time zones.  You are encouraged to participate in both.
 
 Want to improve Galaxy, and get involved with Galaxy? Please join us on February 25.
 
@@ -60,11 +60,11 @@ We have calls spread throughout the day.  Calls last for 30 minutes.  The rest o
 ## Hey Learners!
 
 <div class="center">
-[<img src="/src/images/logos/james-cook.png" alt="James Cook University" style="max-height: 8rem;" />](https://www.jcu.edu.au/) &nbsp;&nbsp; [<img src="/src/images/logos/heriot-watt.png" alt="Heriot-Watt University" style="max-height: 8rem;" />](https://www.hw.ac.uk/) &nbsp;&nbsp;&nbsp; [<img src="/src/images/logos/lock-haven.png" alt="Lock Haven University" style="max-height: 6rem;" />](https://lockhaven.edu/)
+[<img src="/images/logos/james-cook.png" alt="James Cook University" style="max-height: 8rem;" />](https://www.jcu.edu.au/) &nbsp;&nbsp; [<img src="/images/logos/heriot-watt.png" alt="Heriot-Watt University" style="max-height: 8rem;" />](https://www.hw.ac.uk/) &nbsp;&nbsp;&nbsp; [<img src="/images/logos/lock-haven.png" alt="Lock Haven University" style="max-height: 6rem;" />](https://lockhaven.edu/)
 </div>
 <br />
 
-The February Papercuts has a new emphasis on [helping students get involved with Galaxy](/src/events/cofests/papercuts/index.md#papercuts-for-students), a global open source / open science project. This month we are particularly reaching out to people at these universities:
+The February Papercuts has a new emphasis on [helping students get involved with Galaxy](/events/cofests/papercuts/#papercuts-for-students), a global open source / open science project. This month we are particularly reaching out to people at these universities:
 
 * [James Cooke University](https://www.jcu.edu.au/), Townsville, Cairns & Brisbane, Australia
 * [Heriot-Watt University](https://www.hw.ac.uk/), Edinburgh, United Kingdom
@@ -80,15 +80,15 @@ Here are links to the issues identified as potential targets for papercuts day:
 
 | Repo / Project | What is it? | Tags |
 | --- | --- | --- |
-| **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Galaxy server and front end. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut" role="button">paper-cut</a> | 
-| **[Galaxy Admin Training](https://github.com/galaxyproject/admin-training/)** | Training materials for Galaxy Admin Training. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/admin-training/labels/paper-cuts" role="button">paper-cut</a> | 
-| **[Galaxy Training Network](https://github.com/galaxyproject/training-material)** | Training materials. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/issues/2070" role="button">Collaboration Fest ideas</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/newcomer-friendly" role="button">newcomer-friendly</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/paper-cut" role="button">paper-cut</a> | 
-| **[CloudMan](https://github.com/galaxyproject/cloudman)** | Managing instances on cloud infrastructures. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a> | 
-| **[IUC Tools](https://github.com/galaxyproject/tools-iuc)** | Wrappers for popular tools in Galaxy. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a>  | 
-| **[BioBlend](https://github.com/galaxyproject/bioblend)** | The Galaxy Python API. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> | 
-| **[Galaxy Hub](https://github.com/galaxyproject/galaxy-hub/)** | The Galaxy Community web site. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-hub/labels/paper-cut">paper-cut</a> | 
-| **[Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy/)** | Galaxy deployment recipes.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/ansible-galaxy/labels/paper-cut">paper-cut</a> | 
-| **[LSP server](https://github.com/galaxyproject/galaxy-language-server/)** | Galaxy Tool Language Server.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-language-server/labels/paper-cut">paper-cut</a> | 
+| **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Galaxy server and front end. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut" role="button">paper-cut</a> |
+| **[Galaxy Admin Training](https://github.com/galaxyproject/admin-training/)** | Training materials for Galaxy Admin Training. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/admin-training/labels/paper-cuts" role="button">paper-cut</a> |
+| **[Galaxy Training Network](https://github.com/galaxyproject/training-material)** | Training materials. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/issues/2070" role="button">Collaboration Fest ideas</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/newcomer-friendly" role="button">newcomer-friendly</a> <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/training-material/labels/paper-cut" role="button">paper-cut</a> |
+| **[CloudMan](https://github.com/galaxyproject/cloudman)** | Managing instances on cloud infrastructures. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/cloudman/labels/good%20first%20issue" role="button">good first issue</a> |
+| **[IUC Tools](https://github.com/galaxyproject/tools-iuc)** | Wrappers for popular tools in Galaxy. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a>  |
+| **[BioBlend](https://github.com/galaxyproject/bioblend)** | The Galaxy Python API. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut" role="button">paper-cut</a> |
+| **[Galaxy Hub](https://github.com/galaxyproject/galaxy-hub/)** | The Galaxy Community web site. | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-hub/labels/paper-cut">paper-cut</a> |
+| **[Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy/)** | Galaxy deployment recipes.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/ansible-galaxy/labels/paper-cut">paper-cut</a> |
+| **[LSP server](https://github.com/galaxyproject/galaxy-language-server/)** | Galaxy Tool Language Server.  | <a class="btn btn-info btn-sm" href="https://github.com/galaxyproject/galaxy-language-server/labels/paper-cut">paper-cut</a> |
 
 
 ## Developer Quick Dive Videos

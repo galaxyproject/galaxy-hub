@@ -28,29 +28,30 @@ date: 2012-12-03
 
 The alignment tools **'Bowtie**' and **'Lastz**' from the tool group **NGS: Mapping** have moved from the **[Galaxy distribution](https://bitbucket.org/galaxy/galaxy-dist)** to the **[Galaxy Main Tool Shed](http://toolshed.g2.bx.psu.edu/)**.
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 
-Migration scripts for both **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing replacement tool wrappers from the Tool Shed. Primary executables for **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz)** plus target reference genomes should still be installed as described in the Galaxy wiki - start in the **[Tool Dependencies](/src/admin/tools/ToolDependencies/index.md)** section.
+Migration scripts for both **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz/)** will run upon Galaxy's first launch (after updating to this release) that will automatically handle installing replacement tool wrappers from the Tool Shed. Primary executables for **[Bowtie](http://bowtie-bio.sourceforge.net/index.shtml)** and **[Lastz](http://www.bx.psu.edu/~rsharris/lastz)** plus target reference genomes should still be installed as described in the Galaxy wiki - start in the **[Tool Dependencies](/admin/config/tool-dependencies/)** section.
 
 **Bowtie** is an ultrafast, memory-efficient short read aligner. It aligns short DNA sequences (reads) to the human genome at a rate of over 25 million 35-bp reads per hour. Bowtie indexes the genome with a Burrows-Wheeler index to keep its memory footprint small: typically about 2.2 GB for the human genome (2.9 GB for paired-end).
 
-Langmead B, Trapnell C, Pop M, Salzberg SL. *[Ultrafast and memory-efficient alignment of short DNA sequences to the human genome](http://genomebiology.com/2009/10/3/R25)*. Genome Biol 10:R25. 
+Langmead B, Trapnell C, Pop M, Salzberg SL. *[Ultrafast and memory-efficient alignment of short DNA sequences to the human genome](http://genomebiology.com/2009/10/3/R25)*. Genome Biol 10:R25.
 
 **LASTZ** is a program for aligning DNA sequences, a pairwise aligner. Originally designed to handle sequences the size of human chromosomes and from different species, it is also useful for sequences produced by NGS sequencing technologies such as Roche 454.
 
-Harris, R.S. (2007) *[Improved pairwise alignment of genomic DNA](http://www.bx.psu.edu/~rsharris/rsharris_phd_thesis_2007.pdf )*. Ph.D. Thesis, The Pennsylvania State University. 
+Harris, R.S. (2007) *[Improved pairwise alignment of genomic DNA](http://www.bx.psu.edu/~rsharris/rsharris_phd_thesis_2007.pdf )*. Ph.D. Thesis, The Pennsylvania State University.
 
 <br />
 ## New Galaxy CloudMan Release
 
 **[CloudMan](http://usegalaxy.org/cloud)**
 
-[CloudMan](/src/cloudman/index.md) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
+[CloudMan](/cloudman/) offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.
 
 This update brings a large number of updates and new features, the most prominent ones being:
+
 * Support for Eucalyptus cloud middleware; thanks to Alex Richter. Also, CloudMan can now run on the HPcloud in basic mode (note that there is no public image available on the HPcloud at the moment and one would thus need to be built by you).
 * Added a new file system management interface on the CloudMan Admin page, allowing control and providing insight into each available file system
-* Added quite a few new user data options. See the [UserData page](/src/cloudman/userdata/index.md) for details; thanks to [John Chilton](http://bitbucket.org/jmchilton).
+* Added quite a few new user data options. See the [UserData page](/cloudman/userdata/) for details; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Galaxy can now be run in multi-process mode; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Added Galaxy Reports app as a CloudMan service; thanks to [John Chilton](http://bitbucket.org/jmchilton).
 * Introduced a new format for cluster configuration persistence, allowing more flexibility in how services are maintained
@@ -58,28 +59,28 @@ This update brings a large number of updates and new features, the most prominen
 * Support for [Ubuntu 12.10](http://releases.ubuntu.com/quantal/)
 * Worker instances are now also SGE submit hosts
 
-This update comes as a result of 175 code changesets; for a complete list of changes, see the [commit messages](https://bitbucket.org/galaxy/cloudman/changesets/tip/3a63b9a40331%3A35baec1). 
+This update comes as a result of 175 code changesets; for a complete list of changes, see the [commit messages](https://bitbucket.org/galaxy/cloudman/changesets/tip/3a63b9a40331%3A35baec1).
 
 **Any new cluster will automatically start using this version of CloudMan. Existing clusters will be given an option to do an automatic update once the main interface page is refreshed.**
 
 <br />
 # Tool Shed
 
-**[Tool Shed](/src/toolshed/index.md)**
+**[Tool Shed](/toolshed/)**
 
 ### Improvements in the display of repository dependencies and contents in the tool shed
 
-<div class='indent'> 
+<div class='indent'>
 
 The various types of contents of a tool shed repository ( valid tools, invalid tools, datatypes, workflows ) as well as the dependencies that are defined for the repository are now displayed in clickable containers that can be opened or closed.  For example here is the view of the emboss_5 repository that I'm hosting on my local Galaxy tool shed.  
 
 Notice the "Repository dependencies" container?  This is currently in development, and will be available in the tool shed shortly.  This container displays the list of all repositories int he tool shed upon which this repository depends.
 
-![](/src/images/news-graphics/2012_12_03_emboss-sample.png)
+![](/images/news-graphics/2012_12_03_emboss-sample.png)
 
 Opening each of the above containers (by clicking on the links) displays the contents of each.
 
-![](/src/images/news-graphics/2012_12_03_emboss-sample-open.png)
+![](/images/news-graphics/2012_12_03_emboss-sample-open.png)
 
 </div>
 
@@ -129,13 +130,14 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
 3. Added back in "display" and "edit" attribute buttons to datasets in the error state.
 4. Scatterplot visualization tool: updated layout of features.
 5. Updated History Pull-down menu. Options affect all datasets in the current history:
-  * Resume Paused Jobs - a single-click resume of all paused datasets
-  * Collapse Expanded Datasets - a single-click to collapse all expanded datasets
-  * Show/Hide Deleted Datasets - a single-click toggle to show or hide all deleted datasets
-  * Show/Hide Hidden Datasets - a single-click toggle to show or hide all hidden datasets
-  * Unhide Hidden Datasets - a single-click to change state of hidden datasets to that of regular datasets
 
-![](/src/images/news-graphics/2012_12_03_new-history-menu.png)
+    * Resume Paused Jobs - a single-click resume of all paused datasets
+    * Collapse Expanded Datasets - a single-click to collapse all expanded datasets
+    * Show/Hide Deleted Datasets - a single-click toggle to show or hide all deleted datasets
+    * Show/Hide Hidden Datasets - a single-click toggle to show or hide all hidden datasets
+    * Unhide Hidden Datasets - a single-click to change state of hidden datasets to that of regular datasets
+
+![](/images/news-graphics/2012_12_03_new-history-menu.png)
 
 <br />
 # Job Runner
@@ -156,7 +158,7 @@ Backups will be made of the `hgweb.config file` (in the same directory in which 
 4. Fix for `ToolDataTable` new entries that should have been persisted to the `shed_tool_data_table_conf.xml` file were not being handled correctly.
 5. Attempt to make sure `.sample` files included in an installed tool shed repository are copied to the `~/tool-data` directory only if they are sample data index files.
 6. Add error messages for a `DataToolParameter` when the provided value is no longer valid due to be deleted or being in an error state.
-7. Rework "Re-run" ![](/src/images/icons/arrow-circle.png) functionality to validate and display errors between the original job and currently set states (e.g. the previously used dataset has been deleted).
+7. Rework "Re-run" ![](/images/icons/arrow-circle.png) functionality to validate and display errors between the original job and currently set states (e.g. the previously used dataset has been deleted).
 8. To help with reproducibility, when extracting a workflow from a history, provide a warning message if the tool version for a job does not match the tool version of the currently loaded tool.
 
 <br />
@@ -177,13 +179,13 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 <br />
 # Announcements
 
-[News](/src/news/index.md), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-12)***
+[News](/news/), ***[December 2012 Galaxy Update](http://wiki.galaxyproject.org/GalaxyUpdates/2012-12)***
 
-<div class='right'><a href='/src/events/gcc2013/training-day/index.md'><img src="/src/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
+<div class='right'><a href='/events/gcc2013/training-day/'><img src="/images/logos/GCC2013Logo200.png" alt="2013 Galaxy Community Conference (GCC2013)" width="175px" /></a></div>
 
-* [Training Day Topic Nominations](/src/events/gcc2013/training-day/index.md) for [GCC2013](/src/events/gcc2013/index.md) will open in December.  Start thinking of ideas now!
-* Slides and Screencast from [November GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/2012-11-14/index.md) are online.  The next [GalaxyAdmins Meetup](/src/community/galaxy-admins/meetups/index.md) will be on [January 16](/src/community/galaxy-admins/meetups/2013-01-16/index.md) and feature [John Chilton](/src/people/john-chilton/index.md) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
-* [A short "Getting started with JGalaxy" document (with screenshots)](http://bit.ly/SkW2yU), by [John Chilton](/src/people/john-chilton/index.md)
+* [Training Day Topic Nominations](/events/gcc2013/training-day/) for [GCC2013](/events/gcc2013/) will open in December.  Start thinking of ideas now!
+* Slides and Screencast from [November GalaxyAdmins Meetup](/community/galaxy-admins/meetups/2012-11-14/) are online.  The next [GalaxyAdmins Meetup](/community/galaxy-admins/meetups/) will be on [January 16](/community/galaxy-admins/meetups/2013-01-16/) and feature [John Chilton](/people/john-chilton/) discussing "Deploying Galaxy on OpenStack with CloudBioLinux & CloudMan"
+* [A short "Getting started with JGalaxy" document (with screenshots)](http://bit.ly/SkW2yU), by [John Chilton](/people/john-chilton/)
 * [Batch Workflow starting using the Galaxy API : Practical Example by Geert Vandeweyer](http://bit.ly/TjTj6X)
 
 <br />
@@ -193,7 +195,7 @@ All Galaxy instance maintainers are *strongly encouraged* to run the latest rele
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[Galaxy Team](http://wiki.galaxyproject.org/GalaxyTeam)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 

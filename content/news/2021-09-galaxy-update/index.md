@@ -4,7 +4,7 @@ tease: ""
 date: "2021-09-15"
 ---
 
-<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -38,10 +38,12 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <!-- Use cases -->
 <div class="card lead border-info" style="min-width: 40%; max-width: 65%;">
+<div class="trim-p">
 
 ![Use cases](use-case-example.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
 [Galaxy Use Cases](https://galaxyproject.eu/news?tag=UseCase)
 
@@ -61,16 +63,19 @@ Scientists from all over the world are using [UseGalaxy.eu](https://usegalaxy.eu
 * [Food safety research](https://galaxyproject.eu/posts/2021/08/20/use-case-carol-verheecke-vaessen/)
 * [Antibody responses following vaccination](https://galaxyproject.eu/posts/2021/08/27/use-case-carolyn-nielsen/)
 * [Marine turtle tumour disease](https://galaxyproject.eu/posts/2021/09/03/use-case-liam-whitmore/)
+
 </div>
 
 
 
 <!-- GGSC Misconceptions -->
 <div class="card lead border-info" style="min-width: 30%; max-width: 18rem;">
+<div class="trim-p">
 
 ![Participate](misconceptions.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
 [Participate in the *Galaxy Misconceptions* sub-committee](https://forms.gle/RCN87JEXxAR2srbv7)
 
@@ -88,25 +93,28 @@ of Galaxy have made their rounds in the scientific communities. The
 
 <!-- HUB2 -->
 <div class="card lead border-info" style="min-width: 35%; max-width: 18rem;">
+<div class="trim-p">
 
 ![Powered by Gridsome](/images/logos/gridsome-green-wide.png)
 
+</div>
 <div class="card-header">
 New Galaxy Community Hub Implementation
 </div>
 
-You may not have noticed, but things have changed a lot in the Galaxy Community Hub. We are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the back-end for the site you're reading right now, with Gridsome replacing Metalsmith.  A complete site restructure, and federation of Galaxy community sites is coming. [Read more](/blog/2021-09-hub2/index.md).
+You may not have noticed, but things have changed a lot in the Galaxy Community Hub. We are happy to unveil the new Galaxy Community Hub. This is a ground-up rewrite of the back-end for the site you're reading right now, with Gridsome replacing Metalsmith.  A complete site restructure, and federation of Galaxy community sites is coming. [Read more](/blog/2021-09-hub2/).
 
 </div>
 
 
 <!-- ELIXIR-Galaxy Community -->
-<div class="card lead border-info" style="min-width: 35%; max-width: 20
-rem;">
+<div class="card lead border-info" style="min-width: 35%; max-width: 20rem;">
+<div class="trim-p">
 
 ![elixir](/images/logos/ElixirNoTextLogo.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
 [Updates from the ELIXIR Galaxy Community](https://galaxyproject.eu/posts/2021/08/24/new-elixir-galaxy-community-website/)
 
@@ -119,10 +127,12 @@ The ELIXIR Galaxy Community has updated the ELIXIR website including the goals w
 
 <!-- JXTX Foundation -->
 <div class="card lead border-info" style="min-width: 35%; max-width: 18rem;">
+<div class="trim-p">
 
 ![2021 JXTX Awardees](jxtx-awardees-2021.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
 [JXTX Foundation Awards Scholarships for Genome Informatics 2021](https://jxtxfoundation.org/news/2021-08-jxtx-awardees/)
 
@@ -135,16 +145,18 @@ The ELIXIR Galaxy Community has updated the ELIXIR website including the goals w
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 30%; max-width: 18rem;">
+<div class="trim-p">
 
 ![Galaxy is Expanding](/images/GalaxyIsExpandingCloud.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
-[Galaxy Career Center](/careers/index.md)
+[Galaxy Career Center](/careers/)
 
 </div>
 
-The [Galaxy Career Center](/careers/index.md) lists any open Galaxy related positions that we know about.  Currently there are openings at
+The [Galaxy Career Center](/careers/) lists any open Galaxy related positions that we know about.  Currently there are openings at
 
 * Sciensano in Belgium
 * GSK in Italy
@@ -160,10 +172,10 @@ The [Galaxy Career Center](/careers/index.md) lists any open Galaxy related posi
 <div class="card lead border-info" style="min-width: 25%; max-width: 16rem;">
 
 <div class="video-variable">
-<iframe src="https://www.youtube.com/embed/jOlTfKUUZS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe src="https://www.youtube.com/embed/jOlTfKUUZS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<div class="card-header">
+<div class="card-header trim-p">
 
 [New video for the Galaxy Arabic community](https://www.youtube.com/embed/jOlTfKUUZS4)
 
@@ -176,7 +188,7 @@ Engy Nasr and Abdulrahman Yahia Azab have recorded a video introducing Galaxy to
 
 <!-- 500 subscribers YT -->
 <div class="card lead border-info" style="min-width: 30%; max-width: 18rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [We reached 500 subscribers on Youtube!](https://www.youtube.com/c/GalaxyProject)
 
@@ -192,25 +204,27 @@ The Youtube channel of the Galaxy project has reached 500 subscribers, thank you
 
 # Event News
 
-There is not a lot going on in August, but what is happening is compelling.  See all [upcoming events here](/events/index.md):
+There is not a lot going on in August, but what is happening is compelling.  See all [upcoming events here](/events/):
 
 <div class="card-deck">
 
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 30%; max-width: 18rem;">
+<div class="trim-p">
 
-![September Papercuts](/events/cofests/papercuts/papercuts.png)
+![September Papercuts](/images/galaxy-logos/papercuts.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
-[September Papercuts](/events/2021-09-papercuts/index.md)
+[September Papercuts](/events/2021-09-papercuts/)
 
 </div>
 
 **16 September, Online, Global**
 
-Please join us for the [CoFest day](/events/2021-09-papercuts/index.md) on September 16 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+Please join us for the [CoFest day](/events/2021-09-papercuts/) on September 16 to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
 This month the [Spanish GTN community](https://training.galaxyproject.org/archive/2021-06-01/news/2021/05/20/spanish_project_begins.html) will meet to work on the curated tutorials, at 6 pm CEST. Get in touch with [Wendi Bacon](https://training.galaxyproject.org/archive/2021-06-01/hall-of-fame/nomadscientist/) to participate.
 
@@ -221,28 +235,32 @@ We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day l
 
 <!-- BioHackathon -->
 <div class="card border-info" style="min-width: 20%; max-width:  18rem;">
+<div class="trim-p expand-img">
 
 ![BioHackathon 2021](/images/logos/bhlogo.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
-[Galaxy @ BioHackathon 2021](/events/2021-11-biohackathon-europe/index.md)
+[Galaxy @ BioHackathon 2021](/events/2021-11-biohackathon-europe/)
 
 </div>
 
 **Registration closes 17 September**
 
-Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register by September 17](https://www.biohackathon-europe.org/registration.html).
+Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register by September 17](https://www.biohackathon-europe.org/registration.html).
 
 </div>
 
 
 <!-- Hybrid Assembly -->
 <div class="card border-info" style="min-width: 30%; max-width: 18rem;">
+<div class="trim-p">
 
 ![Offered by Australian BioCommons](/images/logos/australian-biocommons-logo-horizontal-transparent.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
 [Hybrid de novo genome assembly](https://www.biocommons.org.au/events/hybrid-assembly)
 
@@ -260,12 +278,14 @@ Learn to create and assess genome assemblies from Illumina and Nanopore reads us
 
 <!-- microGalaxy -->
 <div class="card border-info" style="min-width: 20%; max-width:  18rem;">
+<div class="trim-p">
 
 ![microGalaxy](microbes.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
-[microGalaxy Community call]([/community/devroundtable/index.md](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#heading=h.bbaf3ie81wri))
+[microGalaxy Community call](https://docs.google.com/document/d/13VjcUjStuIp7bK29e74k8Nqb7N4lmVcg1ioArEWr254/edit#heading=h.bbaf3ie81wri)
 
 </div>
 
@@ -277,29 +297,33 @@ microGalaxy is a [new community focusing on microbial analysis with Galaxy](http
 
 
 <!-- Galaxy Dev Round Table -->
-<div class="card border-info" style="min-width: 20%; max-width:  18rem;">
+<div class="card border-info" style="min-width: 20%; max-width: 18rem;">
+<div class="trim-p">
 
 ![roundtable](/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
 Galaxy Developer Round Table meetups in September are:
 
-**[September 30: TBD](/events/2021-09-30-dev-roundtable/)**
+**No Round Table Meetings in September**
 
 As you can see, we still [need volunteers (like you!) to lead the discussion on your favorite topic](https://bit.ly/gxdevroundtablepresent).
 </div>
 
 <!-- covid workshop -->
 <div class="card border-info" style="min-width: 20%; max-width: 18rem;">
+<div class="trim-p">
 
-![microGalaxy](covid.png)
+![SARS-CoV-2](covid.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
 [SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-09-15-sars-cov-2-training/)
 
@@ -307,7 +331,7 @@ As you can see, we still [need volunteers (like you!) to lead the discussion on 
 
 **20 October, Online**
 
-Yet another workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions. 
+Yet another workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions.
  Registration will open soon, stay tuned!
 
 </div>
@@ -319,7 +343,7 @@ Yet another workshop to build capacity in SARS-CoV-2 data analysis! It will be a
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -329,9 +353,9 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 ![Galaxy @ St Louis University](/images/logos/slu-left-blue.png)
 
-<div class="card-header">
+<div class="card-header trim-p">
 
-[Galaxy@SLU](/use/galaxy-slu/index.md)
+[Galaxy@SLU](/use/galaxy-slu/)
 
 </div>
 
@@ -342,12 +366,14 @@ The [Galaxy@SLU server](http://pharmacology.slu.edu/) aims to provide standard a
 
 <!-- COVID19 France -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
+<div class="trim-p">
 
 ![COVID-19 focused instance on UseGalaxy.fr](/use/covid-19-fr/ifb-banner-covid.jpg)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
-[COVID19.UseGalaxy.fr](/use/covid-19-fr/index.md)
+[COVID19.UseGalaxy.fr](/use/covid-19-fr/)
 
 </div>
 
@@ -359,9 +385,9 @@ A COVID-19 focused version of the UseGalaxy.fr server.  This server provides num
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
-[UseGalaxy.*](/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 
@@ -380,9 +406,9 @@ A COVID-19 focused version of the UseGalaxy.fr server.  This server provides num
 
 <!-- Cancer Informatics -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
-[Cancer informatics working group T2 update](/blog/2021-09-cancer-informatics-wg-updates/)
+[Cancer informatics working group T2 update](/blog/2021-09-cancer-informatics-wg-update/)
 
 </div>
 
@@ -397,7 +423,7 @@ An update on some of our work in our NCII TCR project and our  NCI HTAN center: 
 
 <!-- Galaxy 21.05 upgrade and cluster_venv -->
 <div class="card border-info" style="min-width: 12rem; max-width: 22rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Galaxy 21.05 upgrade and cluster_venv](http://pvh.wp.sanbi.ac.za/2021/08/28/galaxy-21-05-upgrade-and-cluster_venv/)
 
@@ -419,10 +445,12 @@ Using a specific venv for running on the cluster that is *configured* on the clu
 
 <!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
 <div class="card border-info" style="min-width: 45%; max-width: 24rem;">
+<div class="trim-p">
 
 ![sars-cov-2-data-analysis-monitoring-training](training-sars-cov-2-worldstats.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
 [Outcomes of the workshop 'SARS-CoV-2 Data Analysis and Monitoring with Galaxy'](https://galaxyproject.eu/posts/2021/08/26/covid-workshop-summary/)
 
@@ -437,10 +465,12 @@ Researchers in all career stages (PhD students, senior researchers…) and diffe
 
 <!-- TIaaS flyer -->
 <div class="card border-info" style="min-width: 45%; max-width: 24rem;">
+<div class="trim-p">
 
-<a href="https://galaxyproject.eu/posts/2021/08/24/tiaas-flyer/"><img class="card-img-top" src="TIaaS-flyer.png" alt="TIaaS - flyer" style="width: 100%; display: block; margin: 0 auto;" /></a>
+[![TIaaS - flyer](./TIaaS-flyer.png)](https://galaxyproject.eu/posts/2021/08/24/tiaas-flyer/)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
 [Sponsored by EOSC-Life](https://galaxyproject.eu/posts/2021/08/24/tiaas-flyer/)
 
@@ -450,10 +480,12 @@ Researchers in all career stages (PhD students, senior researchers…) and diffe
 
 <!-- How to reproduce -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
 
 ![Reproduce](gtn-reproduce-slice.png)
 
-<div class="card-header">
+</div>
+<div class="card-header trim-p">
 
 [How to reproduce published Galaxy analyses](https://training.galaxyproject.org/training-material/topics/introduction/tutorials/galaxy-reproduce/tutorial.html)
 
@@ -472,18 +504,18 @@ How to reproduce analyses performed in the Galaxy framework:
 
 <!-- How to reproduce -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
 
 ![Reproduce](gtn-ena.png)
 
+</div>
 <div class="card-header">
-
 Submitting raw sequencing reads to ENA
-
 </div>
 
 By [Miguel Roncoroni](https://training.galaxyproject.org/training-material/hall-of-fame/roncoronimiguel/)
 
-How to submit raw viral sequence reads to the European Nucleotide Archive using Galaxy's **ENA upload tool**.  See the 
+How to submit raw viral sequence reads to the European Nucleotide Archive using Galaxy's **ENA upload tool**.  See the
 
 * [Slides](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/slides.html#1)
 * [Tutorial](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/upload-data-to-ena/tutorial.html)
@@ -491,18 +523,18 @@ How to submit raw viral sequence reads to the European Nucleotide Archive using 
 </div>
 
 </div>
- 
+
 
 
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 14rem; max-width: 28rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [GALAXY Workflow for Bacterial Next-Generation Sequencing De Novo Assembly and Annotation](https://doi.org/10.1002/cpz1.242)
 
@@ -514,7 +546,7 @@ Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. https://doi
 
 
 <div class="card border-info" style="min-width: 18rem; max-width: 28rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Moving translational mass spectrometry imaging towards transparent and reproducible data analyses: A case study of an urothelial cancer cohort analyzed in the Galaxy framework](https://doi.org/10.1101/2021.08.09.455649)
 
@@ -526,7 +558,7 @@ Föll, M. C., Volkmann, V., Enderle-Ammour, K., Wilhelm, K., Guo, D., Vitek, O.,
 
 
 <div class="card border-info" style="min-width: 14rem; max-width: 28rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [CryptoGenotyper: A new bioinformatics tool for rapid Cryptosporidium identification](https://doi.org/10.1016/j.fawpar.2021.e00115)
 
@@ -538,7 +570,7 @@ Yanta, C. A., Bessonov, K., Robinson, G., Troell, K., & Guy, R. A. (2021). *Food
 
 
 <div class="card border-info" style="min-width: 14rem; max-width: 28rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [A SARS-CoV-2 sequence submission tool for the European Nucleotide Archive](https://doi.org/10.1093/bioinformatics/btab421)
 
@@ -553,7 +585,7 @@ Roncoroni, M., Droesbeke, B., Eguinoa, I., De Ruyck, K., D’Anna, F., Yusuf, D.
 
 # Releases
 
-<div class="card-deck"> 
+<div class="card-deck">
 
 <!-- GLS -->
 <div class="card border-info" style="min-width: 30%; max-width: 22rem;">
@@ -569,12 +601,11 @@ The standalone version of the language server is available as a [PyPI package](h
 
 The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
 
-<a href="https://github.com/galaxyproject/galaxy-language-server/blob/assets/feature.extract.macro.gif">
+<div class="trim-p">
 
-![GLS](gls-feature-extract-macro.gif)
+[![GLS](./gls-feature-extract-macro.gif)](https://github.com/galaxyproject/galaxy-language-server/blob/assets/feature.extract.macro.gif)
 
-</a>
-
+</div>
 </div>
 </div>
 
@@ -583,12 +614,12 @@ The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.
 
 # Other News
 
-<div class="card-deck"> 
+<div class="card-deck">
 
 <!-- ELIXIR And IFB reports -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 35%;">
 
-<div class="card-header">
+<div class="card-header trim-p">
 
 [Annual reports 2020: ELIXIR and IFB](https://galaxyproject.eu/posts/2021/09/10/reports-ifb-elixir/)
 
@@ -600,7 +631,7 @@ The [ELIXIR](https://elixir-europe.org/sites/default/files/documents/annual-repo
 
 <!-- SANBI GCC Leadership -->
 <div class="card border-info" style="min-width: 12rem; max-width: 22rem;">
-<div class="card-header">
+<div class="card-header trim-p">
 
 [SANBI provides leadership at Galaxy Community Conference](https://www.sanbi.ac.za/sanbi-provides-leadership-at-galaxy-community-conference/)
 

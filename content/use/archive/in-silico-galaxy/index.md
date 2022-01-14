@@ -8,7 +8,7 @@ platforms:
     platform_text: "In Silico Galaxy"
     platform_location: US
 summary: "Construction, analysis, and visualization of gene-gene interaction networks for sequencing data.  "
-image: "/src/images/logos/UTulsaLogo.png"
+image: "/images/logos/UTulsaLogo.png"
 comments:
   - 'Implements [Encore](http://onlinelibrary.wiley.com/doi/10.1002/gepi.21739/abstract), "an open source network analysis pipeline for genome-wide association studies and rare variant data. Encore constructs Genetic Association Interaction Networks or epistasis networks using two optional approaches: our previous information-theory method or a generalized linear model approach. Additionally, Encore includes multiple data filtering options, including Random Forest/Random Jungle for main effect enrichment and Evaporative Cooling and Relief-F filters for enrichment of interaction effects. Encore implements SNPrank network centrality for identifying susceptibility hubs (nodes containing a large amount of disease susceptibility information through the combination of multivariate main effects and multiple gene-gene interactions in the network)"'
 user_support:

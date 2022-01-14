@@ -16,7 +16,7 @@
 |  | <div class="float-right"> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Joshi.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=414d642ce0a44ad) (starts @ xx:yy)*</div> *Differential Expression with Diagnostic Plots using sam2counts and DESeq* <div class='indent'> Nikhil Joshi, UC Davis </div> |
 |  |<div class='float-right'> *[PDF](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.pdf), [PPT](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Jagtap.ppt), Video*</div> *Galaxy-P* <div class='indent'> Pratik Jagtap, University of Minnesota  </div> |
 |  |<div class='float-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Sandve.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421)*</div> *The Genomic Hyperbrowser: Prove Your Point* <div class='indent'> Geir Kjetil Sandve, University of Oslo </div> |
-|  |<div class='float-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Gruning.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421) (starts @ 6:10)*</div> *[ChemicalToolBox](/src/chemical-tool-box/index.md)* <div class='indent'> Björn Grüning, Albert-Ludwigs-University Freiburg </div> |
+|  |<div class='float-right'> *[Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/Lightning_Gruning.pdf), [Video](https://uic.sharestream.net/ssdcms/i.do?u=ea7962cd5bbf421) (starts @ 6:10)*</div> *[ChemicalToolBox](/use/chemicaltoolbox/)* <div class='indent'> Björn Grüning, Albert-Ludwigs-University Freiburg </div> |
 
 
 ## Goals
@@ -25,9 +25,9 @@ The session is designed to give as many participants as possible a very brief op
 
 ## Timing
 
-* Will be strict so everyone gets a fair shot. 
-* It's your responsibility to make sure you have rehearsed a few times. 
-* Your heart will race so be prepared - rehearsal with a stopwatch is your friend. 
+* Will be strict so everyone gets a fair shot.
+* It's your responsibility to make sure you have rehearsed a few times.
+* Your heart will race so be prepared - rehearsal with a stopwatch is your friend.
 * To keep people interested, you'll need to tell a story, clearly and paradoxically, slowly within the allotted 5 minutes - if you go over, you will be cut off because it's unfair to everyone else for anyone to exceed their allotment of time.
 
 ## Slides
@@ -37,7 +37,7 @@ The session is designed to give as many participants as possible a very brief op
 
 ## Gratuitous Advice
 
-* Good lightning talks are well rehearsed and very, very focussed. 
+* Good lightning talks are well rehearsed and very, very focussed.
 * Don't try to cram a 30 minute talk into 5 minutes. It won't fit.
 * Plan on using no more than 5 or 6 slides and please make sure the slides are not too "busy" for a slightly hung-over reader to get through them in the time you have to show them. Big fonts. Few words.
 * Five minutes is not long enough to explain anything in detail - the big picture might fit.

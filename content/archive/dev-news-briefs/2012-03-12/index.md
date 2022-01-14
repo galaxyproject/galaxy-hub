@@ -7,7 +7,7 @@ date: 2012-03-12
 
 <div class='left'><a href='http://getgalaxy.org/'><img src="http://galaxy.psu.edu/static/getgalaxy.png" alt="getgalaxy" width="50px" /></a></div>
 
- **[getgalaxy.org](http://getgalaxy.org)** 
+ **[getgalaxy.org](http://getgalaxy.org)**
 
 **new**: `% hg clone http://www.bx.psu.edu/hg/galaxy galaxy-dist`
 
@@ -20,22 +20,22 @@ date: 2012-03-12
 
 ## The Emboss tools and Emboss datatypes will be eliminated from the Galaxy distribution in the NEXT release (not this one).  Other tools currently in the Galaxy distribution will be eliminated in following releases.  Those hosting local Galaxy instances should read this revised "Migrating tools" section of the Galaxy tool shed wiki to understand how this process will work:
 
-<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/src/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
+<div class='right'><a href='http://toolshed.g2.bx.psu.edu'><img src="/images/logos/ToolShed.jpg" alt="tool shed" width="150px" /></a></div>
 ## Migrating tools from the Galaxy distribution to the Galaxy Main tool shed
 
-In 2012, the Galaxy development team will begin the process of **migrating the tools that are currently available in the Galaxy distribution to the [Galaxy Main tool shed](http://toolshed.g2.bx.psu.edu/)**.  This will enable those that host local Galaxy instances much more flexibility in choosing to provide only those specific tools in which their users are interested. [Read more...](/src/toolshed/migrating-tools-from-galaxy-distribution/index.md)
+In 2012, the Galaxy development team will begin the process of **migrating the tools that are currently available in the Galaxy distribution to the [Galaxy Main tool shed](http://toolshed.g2.bx.psu.edu/)**.  This will enable those that host local Galaxy instances much more flexibility in choosing to provide only those specific tools in which their users are interested. [Read more...](/toolshed/migrating-tools-from-galaxy-distribution/)
 
 ## XML configuration files used to populate your Galaxy tool panel
 
-In the past, the file named by your "tool_config_file" configuration setting in your "universe_wsgi.ini" file was the only file used to populate your Galaxy tool panel.  The default name for this file is **tool_conf.xml**.  Since this was the only file involved in populating your Galaxy tool panel, it defined the items (tools, workflows, sections and labels) that would be displayed and the way in which they would be arranged. [Read more...](/src/galaxy-tool-panel/index.md#xml-configuration-files-used-to-populate-your-galaxy-tool-panel)
+In the past, the file named by your "tool_config_file" configuration setting in your "universe_wsgi.ini" file was the only file used to populate your Galaxy tool panel.  The default name for this file is **tool_conf.xml**.  Since this was the only file involved in populating your Galaxy tool panel, it defined the items (tools, workflows, sections and labels) that would be displayed and the way in which they would be arranged. [Read more...](/galaxy-tool-panel/#xml-configuration-files-used-to-populate-your-galaxy-tool-panel)
 
 ## Managing the layout of your Galaxy tool panel
 
-The 3 or more files described in the previous section ("tool_conf.xml", one or more "shed_tool_conf.xml files", and "migrated_tools_conf.xml") are all used to load tool panel items (tools, sections, labels and workflows).  A new file named **integrated_tool_panel.xml** has been introduced to define the arrangement for displaying these loaded items in your Galaxy tool panel. [Read more...](/src/galaxy-tool-panel/index.md#managing-the-layout-of-your-galaxy-tool-panel)
+The 3 or more files described in the previous section ("tool_conf.xml", one or more "shed_tool_conf.xml files", and "migrated_tools_conf.xml") are all used to load tool panel items (tools, sections, labels and workflows).  A new file named **integrated_tool_panel.xml** has been introduced to define the arrangement for displaying these loaded items in your Galaxy tool panel. [Read more...](/galaxy-tool-panel/#managing-the-layout-of-your-galaxy-tool-panel)
 
 ## Galaxy Tool Versions
 
-When included in the Galaxy distribution, tools are defined by "id" and "version", among other attributes.  For example, the filter tool has id="Filter1" and version="1.1.0".  When installed from a tool shed, the tool's id becomes its "guid" attribute from the tool shed.  If it is migrated from the Galaxy distribution to the tool shed, the filter tool will have the guid: "toolshed.g2.bx.psu.edu/repos/devteam/filter/Filter1/1.1.0".  To provide backward compatibility for Galaxy workflows and the rerun button in a Galaxy history item, a mapping between the tool's old id and version and its new id (guid) is provided by building a chain of relationships between tool versions.  This happens automatically for every tool that is loaded into your Galaxy instance. [Read more...](/src/galaxy-tool-version-lineage/index.md)
+When included in the Galaxy distribution, tools are defined by "id" and "version", among other attributes.  For example, the filter tool has id="Filter1" and version="1.1.0".  When installed from a tool shed, the tool's id becomes its "guid" attribute from the tool shed.  If it is migrated from the Galaxy distribution to the tool shed, the filter tool will have the guid: "toolshed.g2.bx.psu.edu/repos/devteam/filter/Filter1/1.1.0".  To provide backward compatibility for Galaxy workflows and the rerun button in a Galaxy history item, a mapping between the tool's old id and version and its new id (guid) is provided by building a chain of relationships between tool versions.  This happens automatically for every tool that is loaded into your Galaxy instance. [Read more...](/galaxy-tool-version-lineage/)
 
 ## New tool shed related features in Galaxy
 
@@ -52,37 +52,39 @@ When included in the Galaxy distribution, tools are defined by "id" and "version
 <br />
 # New & Updated Tools
 
-*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/src/admin/config/tool-dependencies/index.md) *for these and other recently updated Tool Dependencies. Please see * [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) * for additional new tools.*
+*Many tools have been recently upgraded. Please review* [Admin/Config/Tool Dependencies](/admin/config/tool-dependencies/) *for these and other recently updated Tool Dependencies. Please see * [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/) * for additional new tools.*
+
 * **RNA-Seq Tools**
-  * Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0
-    * Requires helper script: **gtf_to_sam** version 1.3.0
-  * Updates for **[Cufflinks/compare/merge/diff tools](http://cufflinks.cbcb.umd.edu/)**
-    * Modified default parameter values on tool form
-    * Improved error message when bias correction/sequence data cannot be used
+    * Added **[CuffMerge](http://cufflinks.cbcb.umd.edu/)** version 1.0.0
+        * Requires helper script: **gtf_to_sam** version 1.3.0
+    * Updates for **[Cufflinks/compare/merge/diff tools](http://cufflinks.cbcb.umd.edu/)**
+        * Modified default parameter values on tool form
+        * Improved error message when bias correction/sequence data cannot be used
 * Updates for **[TopHat](http://tophat.cbcb.umd.edu/)**
-  * Remove maximum value for [TopHat](http://tophat.cbcb.umd.edu/) parameter `initial_read_mismatches`
+    * Remove maximum value for [TopHat](http://tophat.cbcb.umd.edu/) parameter `initial_read_mismatches`
 * Added **[RViewer](http://rviewer.lbl.gov/rviewer/)** external display application
 * Updated **[IGV](http://www.broadinstitute.org/igv/)** external display application, so that displays using vcf_bgzip will now maintain vcf headers
 
 # Galaxy Track Browser (GTB)
 
-**[Trackster](/src/learn/visualization/index.md)**
+**[Trackster](/learn/visualization/)**
+
 * *New:*
-  * Enable visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) peak tracks (see graphic below)
-  * Dynamic filtering of read tracks using quality scores
-  * Enable toggling between groups of individual tracks and composite tracks
-  * Enable Composite Tracks to be saved and restored
-  * Make track min and max values editable inline
-  * Save and restore track/group filters and tool state
+    * Enable visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) peak tracks (see graphic below)
+    * Dynamic filtering of read tracks using quality scores
+    * Enable toggling between groups of individual tracks and composite tracks
+    * Enable Composite Tracks to be saved and restored
+    * Make track min and max values editable inline
+    * Save and restore track/group filters and tool state
 * *Bug fixes:*
-  * Clear reference track when changing chromosomes
-  * To only show differences if reference data is available
-  * Use sum rather than mean for data aggregation in BBIDataProvider
-  * Indicate changes when config values are changed or items are reordered or grouped
-  * Move 'more rows' icon from tile level to track level 
+    * Clear reference track when changing chromosomes
+    * To only show differences if reference data is available
+    * Use sum rather than mean for data aggregation in BBIDataProvider
+    * Indicate changes when config values are changed or items are reordered or grouped
+    * Move 'more rows' icon from tile level to track level
 
 Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composite Track data using dynamic filters
-</div><a href='/src/learn/visualization/index.md'><img src="/src/images/news-graphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="800px" /></a></div>
+</div><a href='/learn/visualization/'><img src="/images/news-graphics/2012_03_12_trackster-encode.png" alt="trackster-encode" width="800px" /></a></div>
 
 <br />
 # Workflows
@@ -91,10 +93,10 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 * Update and clarify label selector
 * Multiple run workflows now copy input datasets to newly created histories when used.
 * Add a more useful error message when input keys don't map upon executing a workflow instead of tossing to Server Error:
-  * *example,* This happens in situations where outputs are conditionally filtered yet still used in the workflows. (See SICER's significant_islands_summary_output_file)
+    * *example,* This happens in situations where outputs are conditionally filtered yet still used in the workflows. (See SICER's significant_islands_summary_output_file)
 * Add the ability to remove workflows that have been shared with you
 * When workflow output is placed into separate new histories, naming is now based on the varied input dataset instead of the execution number:
-  * *example,* "<workflowname> on <varied_input>".
+    * *example,* "<workflowname> on <varied_input>".
 * Add the ability to view your own workflows in plain display mode as if you had shared it
 * Additional rename options available to Rename Datasets action (thanks to Dave Walton)
 
@@ -123,72 +125,74 @@ Trackster visualization of [ENCODE](http://genome.ucsc.edu/ENCODE/) and Composit
 # Data and Libraries
 
 * In library uploads:
-  * Allow inheriting the existing datasets metadata when replacing
-  * Allow setting library metadata when adding datasets from a history
+    * Allow inheriting the existing datasets metadata when replacing
+    * Allow setting library metadata when adding datasets from a history
 
 # CloudMan
 
-**[CloudMan](/src/cloudman/index.md)**
-* A larger tools volume (10GB vs old 2GB) is now the default for any new [CloudMan](/src/cloudman/index.md) cluster making it easier to customize your Galaxy Cloud instances
-* A [preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py) exists within [CloudMan](/src/cloudman/index.md) (thanks to Mattias de Hollander)
-* Please continue to use AMI **ami-da58aab3** for Galaxy Cloud clusters, as listed on [usegalaxy.org/cloud](/src/cloudman/index.md). There is another AMI dated from Feb 26, 2012 that was not created by the Galaxy Team and is not supported by us. 
+**[CloudMan](/cloudman/)**
+
+* A larger tools volume (10GB vs old 2GB) is now the default for any new [CloudMan](/cloudman/) cluster making it easier to customize your Galaxy Cloud instances
+* A [preliminary support for OpenNebula cloud type](http://bitbucket.org/galaxy/cloudman/src/tip/cm/clouds/opennebula.py) exists within [CloudMan](/cloudman/) (thanks to Mattias de Hollander)
+* Please continue to use AMI **ami-da58aab3** for Galaxy Cloud clusters, as listed on [usegalaxy.org/cloud](/cloudman/). There is another AMI dated from Feb 26, 2012 that was not created by the Galaxy Team and is not supported by us.
 
 # Source
 
 **[galaxy-cental](http://bitbucket.org/galaxy/galaxy-central/src/)**,
 **[galaxy-dist](http://bitbucket.org/galaxy/galaxy-dist/src/)**
+
 * Parameterize per-tool job runners so that parameter name/value pairs can be used to define multiple runners per tool
-  * Documentation is in [universe_wsgi.ini.sample](http://bitbucket.org/galaxy/galaxy-central/src/3c32b4a448c6/universe_wsgi.ini.sample)
-  * Add 'params' column to jobs table to store job parameters
-  * Add source parameter for all jobs initiated in Trackster
+    * Documentation is in [universe_wsgi.ini.sample](http://bitbucket.org/galaxy/galaxy-central/src/3c32b4a448c6/universe_wsgi.ini.sample)
+    * Add 'params' column to jobs table to store job parameters
+    * Add source parameter for all jobs initiated in Trackster
 * Enable *Pages* and *Trackster* by default in [universe_wsgi.ini.sample](http://bitbucket.org/galaxy/galaxy-central/src/3c32b4a448c6/universe_wsgi.ini.sample)
 * History export now possible for a guest user
 * Egg Update: [boto](https://github.com/boto/boto) 2.2.2
 * Preliminary autopacking for javascript:
-  * Disabled by default (`pack_scripts` in [universe_wsgi.ini.sample](http://bitbucket.org/galaxy/galaxy-central/src/3c32b4a448c6/universe_wsgi.ini.sample)) and the packed scripts are still in the distribution, to be removed at some point.
+    * Disabled by default (`pack_scripts` in [universe_wsgi.ini.sample](http://bitbucket.org/galaxy/galaxy-central/src/3c32b4a448c6/universe_wsgi.ini.sample)) and the packed scripts are still in the distribution, to be removed at some point.
 * Job Splitting:
-  * Merged in `peterjc/galaxy-central/split_blast` (pull request #37).  Provides support for running parallelized blast, merging xml, and some refactoring.
+    * Merged in `peterjc/galaxy-central/split_blast` (pull request #37).  Provides support for running parallelized blast, merging xml, and some refactoring.
 * New [universe_wsgi.ini.sample](http://bitbucket.org/galaxy/galaxy-central/src/3c32b4a448c6/universe_wsgi.ini.sample) configuration option (`sanitize_all_html`):
-  * Enabled by default; to prevent html dataset display sanitization, set to false
+    * Enabled by default; to prevent html dataset display sanitization, set to false
 * DRMAA Job Runner changes:
-  * Set a descriptive job name in the DRM
-  * Use the value of `cluster_files_directory` instead of the hardcoded `database/pbs/` directory
+    * Set a descriptive job name in the DRM
+    * Use the value of `cluster_files_directory` instead of the hardcoded `database/pbs/` directory
 
 # Bug Fixes
 
-<div class='right'><a href='/src/support/index.md'><img src="/src/images/icons/bug.png" alt="bugs" width="20" /></a></div> 
+<div class='right'><a href='/support/'><img src="/images/icons/bug.png" alt="bugs" width="20" /></a></div>
 * Fix for 'Error 349 (net::ERR_RESPONSE_HEADERS_MULTIPLE_CONTENT_DISPOSITION): Multiple Content-Disposition headers received.' error occuring when downloading certain datasets using Chrome browser
 * Correction to *History Size* calculation to accurately filter out 'purged' datasets in the summary size
 * Various bug fixes for Object Store, with a particular focus on the Distributed Object Store
 
 # Announcements
 
-**[News](/src/news/index.md)**
+**[News](/news/)**
 
-**March 2012** ***[Galaxy Update](/src/galaxy-updates/2012-03/index.md)***
+**March 2012** ***[Galaxy Update](/galaxy-updates/2012-03/)***
 
 ## GCC2012 Update
 
-<div class='right'><a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/src/events/gcc2012/training-day/index.md'><img src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
-* The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) will be held July 25-27, in Chicago. 
-* The conference will feature two full days of presentations and discussions. 
-* [Abstract submission](/src/events/gcc2012/abstracts/index.md) will [close April 16](/src/events/gcc2012/Key Dates/index.md). 
-* A [whole day of training](/src/events/gcc2012/training-day/index.md) has been added, and topics set:
-  * [Introduction to Galaxy](/src/events/gcc2012/training-day/index.md#ws2)
-  * [Installing Your Own Galaxy](/src/events/gcc2012/training-day/index.md#ws5)
-  * [Galaxy CloudMan](/src/events/gcc2012/training-day/index.md#ws3)
-  * [Integrating Tools & Data Sources](/src/events/gcc2012/training-day/index.md#ws1)
-  * [Galaxy API](/src/events/gcc2012/training-day/index.md#ws6)
-  * [Galaxy Tool Shed](/src/events/gcc2012/training-day/index.md#ws7)
-  * [Ion Torrent - Open Source Sequencing](/src/events/gcc2012/training-day/index.md#ws10)
-* Early [registration](/src/events/gcc2012/register/index.md) will open **any day now** and close June 11. 
+<div class='right'><a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="2012 Galaxy Community Conference" height="100" /></a><br /><br /><a href='/events/gcc2012/training-day/'><img src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="Training Day" width="130" /></a></div>
+* The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) will be held July 25-27, in Chicago.
+* The conference will feature two full days of presentations and discussions.
+* [Abstract submission](/events/gcc2012/abstracts/) will [close April 16](/events/gcc2012/Key Dates/).
+* A [whole day of training](/events/gcc2012/training-day/) has been added, and topics set:
+  * [Introduction to Galaxy](/events/gcc2012/training-day/#ws2)
+  * [Installing Your Own Galaxy](/events/gcc2012/training-day/#ws5)
+  * [Galaxy CloudMan](/events/gcc2012/training-day/#ws3)
+  * [Integrating Tools & Data Sources](/events/gcc2012/training-day/#ws1)
+  * [Galaxy API](/events/gcc2012/training-day/#ws6)
+  * [Galaxy Tool Shed](/events/gcc2012/training-day/#ws7)
+  * [Ion Torrent - Open Source Sequencing](/events/gcc2012/training-day/#ws10)
+* Early [registration](/events/gcc2012/register/) will open **any day now** and close June 11.
 
 ## Galaxy is Hiring!
 
-<div class='left'><img src="/src/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
-**The [Galaxy Team](/src/galaxy-team/index.md) Wants You!**
+<div class='left'><img src="/images/icons/PointingFinger.png" alt="Galaxy wants YOU" width="30" /><div class='center'></div></div>
+**The [Galaxy Team](/galaxy-team/) Wants You!**
 <br />
-Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/src/galaxy-is-hiring/index.md)
+Want to work on one of the fastest growing open source bioinformatics projects around?  The [Galaxy Project](http://galaxyproject.org/), a highly successful high throughput data analysis platform for Life Sciences with over 15,000 users worldwide, is hiring. [Read more...](/galaxy-is-hiring/)
 
 ----
 
@@ -196,10 +200,10 @@ Want to work on one of the fastest growing open source bioinformatics projects a
 
 **[GalaxyProject.org](http://galaxyproject.org)**
 
-The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/). 
+The **[GalaxyTeam](http://bitbucket.org/galaxy/galaxy-central/wiki/GalaxyTeam/)** is a part of **[BX](http://www.bx.psu.edu/)** at [Penn State](http://www.psu.edu/), and the **[Biology](http://www.biology.emory.edu/)** and **[Mathematics and Computer Science](http://www.mathcs.emory.edu/)** departments at [Emory University](http://www.emory.edu/home/index.html/).
 
 **[Galaxy](http://usegalaxy.org )** is supported in part by [NSF](http://www.nsf.gov/), [NHGRI](http://www.genome.gov/), the [Huck Institutes of the Life Sciences](http://www.huck.psu.edu/), and [The Institute for CyberScience at Penn State](http://www.ics.psu.edu/), and [Emory University](http://www.emory.edu/home/index.html).
 
-Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/src/galaxy-on-twitter/index.md)**
+Join us at **Twitter [@galaxyproject](http://twitter.com/#galaxyproject)** or just read our tweets **[Galaxy on Twitter](/galaxy-on-twitter/)**
 ----
-</div> Jennifer Jackson, [Galaxy Team](/src/galaxy-team/index.md). Posted to [DevNewsBriefs](/src/docs/index.md) on 2012-03-12</div>
+</div> Jennifer Jackson, [Galaxy Team](/galaxy-team/). Posted to [DevNewsBriefs](/docs/) on 2012-03-12</div>

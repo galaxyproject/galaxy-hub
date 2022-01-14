@@ -4,7 +4,7 @@ tease: "GCC2021 is under way."
 date: "2021-07-02"
 ---
 
-<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -32,7 +32,7 @@ This month our featured news is all about GCC2021, including several new sponsor
 <div class="card lead border-info" style="min-width: 100%; max-width: 100%;">
 <div class="trim-p">
 
-![GCC2021 is coming](/src/events/gcc2021/gcc2021-banner-global.png)
+![GCC2021 is coming](/images/events/gcc2021/gcc2021-banner-global.png)
 
 </div>
 <div class="card-header trim-p">
@@ -56,7 +56,7 @@ If you didn't get registered then here is some hopefully consoling news:
 
 <!-- PeerJ -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
-<img class="card-img-top" src="/src/images/logos/peerj-logo-short-400.png" alt="PeerJ" />
+<img class="card-img-top" src="/images/logos/peerj-logo-short-400.png" alt="PeerJ" />
 <div class="card-header trim-p">
 
 [PeerJ](https://peerj.com/)
@@ -77,13 +77,13 @@ If you didn't get registered then here is some hopefully consoling news:
 
 Need more Galaxy? **[Galaxy Pro](https://galaxyworks.io/product/)** is a managed Galaxy instance with no quotas or queue wait times. Ready to use without management overhead.
 
-<img class="card-img-bottom" src="/src/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" />
+<img class="card-img-bottom" src="/images/logos/galaxyworks-logo.png" alt="GalaxyWorks" />
 </div>
 
 
 <!-- Limagrain -->
 <div class="card border-info"  style="min-width: 20%; max-width: 18rem;">
-<img class="card-img-top" src="/src/images/logos/limagrain-logo-text.png" alt="Limagrain" />
+<img class="card-img-top" src="/images/logos/limagrain-logo-text.png" alt="Limagrain" />
 <div class="card-header trim-p">
 
 [Limagrain](https://www.limagrain.com/en/limagrain-home)
@@ -101,20 +101,20 @@ An agricultural cooperative held by French farmers, and an international seed gr
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 30%;">
-<img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
+<img class="card-img-top" src="/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
-[Galaxy Career Center](/src/careers/index.md)
+[Galaxy Career Center](/careers/)
 
 </div>
 
-There are new positions in the [Galaxy Career Center](/src/careers/index.md), in the Netherlands, the United Kingdom, and in the United States.  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
+There are new positions in the [Galaxy Career Center](/careers/), in the Netherlands, the United Kingdom, and in the United States.  There are also several previously posted positions that are still open, including several with the Galaxy Project in the US.
 </div>
 
 
 <!-- OLS -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 30%;">
-<img class="card-img-top" src="/src/../images/logos/open-life-science-logo.png" alt="Open Life Sciences" />
+<img class="card-img-top" src="/../images/logos/open-life-science-logo.png" alt="Open Life Sciences" />
 <div class="card-header trim-p">
 
 [Open Life Science program & the Galaxy community](https://galaxyproject.eu/posts/2021/06/28/ols/)
@@ -134,7 +134,7 @@ Open Life Science (OLS) is an online mentoring & training program to help indivi
 
 Did we mention that the [2021 Galaxy Community Conference](https://www.vibconferences.be/events/gcc2021) is under way?  Just checking...
 
-But even something as universe-spanning as GCC doesn't suck up all the oxygen in the Galaxy Community. Here are some other [upcoming events highlights](/src/events/index.md):
+But even something as universe-spanning as GCC doesn't suck up all the oxygen in the Galaxy Community. Here are some other [upcoming events highlights](/events/):
 
 <div class="card-deck">
 
@@ -143,18 +143,18 @@ But even something as universe-spanning as GCC doesn't suck up all the oxygen in
 <div class="card border-info" style="min-width: 32%; max-width:  18rem;">
 <div class="trim-p">
 
-![Galaxy-E at SORTEE](/src/events/2021-07-sortee/sortee-logo.png)
+![Galaxy-E at SORTEE](/events/2021-07-sortee/sortee-logo.png)
 
 </div>
 <div class="card-header trim-p">
 
-[Galaxy-E @ SORTEE 2021](/src/events/2021-07-sortee/index.md)
+[Galaxy-E @ SORTEE 2021](/events/2021-07-sortee/)
 
 </div>
 
 **12-14 July, Online, Global**
 
-SORTEE 2021 brings together researchers working to improve reliability and transparency through cultural and institutional changes in ecology, evolutionary biology, and related fields. [Galaxy-E](/src/use/ecology/index,nd) will have a workshop, a talk, and a hackathon at this event.
+SORTEE 2021 brings together researchers working to improve reliability and transparency through cultural and institutional changes in ecology, evolutionary biology, and related fields. [Galaxy-E](/use/ecology/) will have a workshop, a talk, and a hackathon at this event.
 
 </div>
 
@@ -163,27 +163,27 @@ SORTEE 2021 brings together researchers working to improve reliability and trans
 <div class="card border-info" style="min-width: 32%; max-width:  18rem;">
 <div class="trim-p">
 
-![Galaxy at ISMB](/src/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png)
+![Galaxy at ISMB](/events/2021-ismb-eccb-bosc/ismb-eccb-bosc-2021.png)
 
 </div>
 <div class="card-header trim-p">
 
-[Galaxy @ ISMB/ECCB/BOSC 2021](/src/events/2021-ismb-eccb-bosc/index.md)
+[Galaxy @ ISMB/ECCB/BOSC 2021](/events/2021-ismb-eccb-bosc/)
 
 </div>
 
 **25-31 July, Online, Global**
 
-Galaxy has always had a presence at ISMB/ECCB and BOSC, and we will [be there again in 2021](/src/events/2021-ismb-eccb-bosc/index.md).
+Galaxy has always had a presence at ISMB/ECCB and BOSC, and we will [be there again in 2021](/events/2021-ismb-eccb-bosc/).
 </div>
 
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 32%; max-width:  18rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
@@ -197,7 +197,7 @@ We still [need volunteers to lead the discussion on your favorite topic](https:/
 
 <!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
 <div class="card border-info" style="min-width: 20%; max-width: 37%;">
-<img class="card-img-bottom" src="/src/images/news-graphics/2021-08-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
+<img class="card-img-bottom" src="/images/news-graphics/2021-08-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
 <div class="card-header trim-p">
 
 [SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/)
@@ -208,7 +208,7 @@ We still [need volunteers to lead the discussion on your favorite topic](https:/
 
 The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop, all participants will be able to upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments.
 
-It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions. 
+It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions.
 
 
 </div>
@@ -219,7 +219,7 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
@@ -228,15 +228,15 @@ The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily ru
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 * And two new use cases were described for UseGalaxy.eu:
-  * [Zika virus effects on brain and brain tumours](https://galaxyproject.eu/posts/2021/06/18/use-case-harry-bulstrode/)
-  * [Genetics research on dairy cattle](https://galaxyproject.eu/posts/2021/06/25/use-case-tomas-klingstrom/)
+    * [Zika virus effects on brain and brain tumours](https://galaxyproject.eu/posts/2021/06/18/use-case-harry-bulstrode/)
+    * [Genetics research on dairy cattle](https://galaxyproject.eu/posts/2021/06/25/use-case-tomas-klingstrom/)
 
 </div>
 
@@ -345,11 +345,11 @@ How to obtain, run and combine these workflows appropriately for different types
 </div>
 
 </div>
- 
+
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -374,19 +374,18 @@ Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning
 
 <!-- Galaxy -->
 <div class="card border-info" style="min-width: 20%; max-width: 40%;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" />
 <div class="card-header trim-p">
 
-[Galaxy 21.05](/src/news/2021-06-galaxy-release-21-05/index.md)
+[Galaxy 21.05](/news/2021-06-galaxy-release-21-05/)
 
 </div>
 
-We are pleased to [announce the 21.05 Galaxy release](/src/news/2021-06-galaxy-release-21-05/index.md).
+We are pleased to [announce the 21.05 Galaxy release](/news/2021-06-galaxy-release-21-05/).
 
 A new development stack (featuring FastAPI, Celery and Circus) is coming, a job handler update is here, ¡Galaxy, ahora en español!,  Remote Files gets FTP Support, and SimText visualization is added.
 
-**And there is a *lot* more in the full [user](https://docs.galaxyproject.org/en/master/releases/21.05_announce_user.html) and [developer and admin](https:
-//docs.galaxyproject.org/en/master/releases/21.05_announce.html) release announcements.**
+**And there is a *lot* more in the full [user](https://docs.galaxyproject.org/en/master/releases/21.05_announce_user.html) and [developer and admin](https://docs.galaxyproject.org/en/master/releases/21.05_announce.html) release announcements.**
 
 </div>
 

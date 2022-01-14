@@ -5,7 +5,7 @@ date: "2014-04-14"
 <div class='right'>
 <table>
   <tr>
-    <td> <a href='http://usegalaxy.org'><img src="/src/images/news-graphics/2014_04_14_trackster-deep.png" alt="Trackster Vis" width="300" /></a> </td>
+    <td> <a href='http://usegalaxy.org'><img src="/images/news-graphics/2014_04_14_trackster-deep.png" alt="Trackster Vis" width="300" /></a> </td>
   </tr>
 </table>
 
@@ -50,4 +50,4 @@ date: "2014-04-14"
 <br />
 ***Thanks for using Galaxy!***
 
-[The Galaxy Team](/src/galaxy-team/index.md)
+[The Galaxy Team](/galaxy-team/)

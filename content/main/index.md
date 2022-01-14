@@ -3,7 +3,7 @@ title: Galaxy Main public site
 ---
 The main Galaxy site at https://usegalaxy.org is an installation of the Galaxy software combined with many common tools and data; this site has been available since 2007 for anyone to analyze their data free of charge. The site provides substantial CPU and disk space, making it possible to analyze large datasets. The site supports thousands of users and hundreds of thousands of jobs per month (see [Project Statistics](/galaxy-project/statistics/)). It is sustained by [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu/) hardware using allocation generously provided by the [CyVerse](https://www.cyverse.org/) project.  
 
-Anyone can use the public servers, with or without an account, but Galaxy user accounts are simple to create (email, password, user name and go!). With an account, data quotas are increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages). 
+Anyone can use the public servers, with or without an account, but Galaxy user accounts are simple to create (email, password, user name and go!). With an account, data quotas are increased and full functionality across sessions opens up, such as naming, saving, sharing, and publishing Galaxy objects (Histories, Workflows, Datasets, Pages).
 
 <div class="alert alert-warning trim-p" role="alert">
 

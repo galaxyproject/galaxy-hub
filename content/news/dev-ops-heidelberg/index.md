@@ -7,11 +7,11 @@ We would like to invite you to our **[Galaxy DevOps Workshop](https://goo.gl/8dN
 The workshop is intended for Bioinformaticians who want to
 
 <div class='right'>
-<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/src/images/logos/deNBILogo.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="50" /></a> <br /><br />
-<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/src/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="80" /></a>
+<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/images/logos/deNBILogo.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="50" /></a> <br /><br />
+<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/images/logos/FreiburgGalaxyTeam.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="80" /></a>
 </div>
 <div class='right'><br />
-<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/src/images/logos/ElixirNoTextLogo.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="120" /></a>
+<a href='https://docs.google.com/document/d/12lVx9yNfexYJADSDtBL30Y5gY1vb1BVb_EVuEosy1ag'><img src="/images/logos/ElixirNoTextLogo.png" alt="Galaxy DevOps Workshop - Galaxy and Galaxy tools deployment strategies" height="120" /></a>
 </div>
 
 * learn the internals of the multi-omics Galaxy workbench
@@ -22,4 +22,4 @@ The workshop is intended for Bioinformaticians who want to
 
 For more information please see the [workshop page](https://goo.gl/8dNSdy).
 
-[Björn Grüning](/src/people/bjoern-gruening/index.md)
+[Björn Grüning](/people/bjoern-gruening/)

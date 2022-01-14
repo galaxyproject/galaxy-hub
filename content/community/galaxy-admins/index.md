@@ -1,7 +1,8 @@
 ---
 title: "Galaxy-Admins"
+autotoc: false
 ---
-<div class='center'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="" width="240" /></div>
+<div class='center'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="" width="240" /></div>
 
 <slot name="/community/galaxy-admins/linkbox" />
 
@@ -13,4 +14,4 @@ This community currently continues on [Galaxy Project Gitter "Admins"](https://g
 
 ## Meetups
 
-The group used to [meet up](/src/community/galaxy-admins/meetups/index.md) the third Thursday of every two month (starting February) unless otherwise notified, and irregularly at [Galaxy-related events](/src/events/index.md), such as [GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/). The final in person gathering under this name was during [GCCBOSC 2018](https://gccbosc2018.sched.com/event/FMQW/bof-galaxyadmins).
+The group used to [meet up](/community/galaxy-admins/meetups/) the third Thursday of every two month (starting February) unless otherwise notified, and irregularly at [Galaxy-related events](/events/), such as [GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/). The final in person gathering under this name was during [GCCBOSC 2018](https://gccbosc2018.sched.com/event/FMQW/bof-galaxyadmins).

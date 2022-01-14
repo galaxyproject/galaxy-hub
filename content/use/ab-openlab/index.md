@@ -8,7 +8,7 @@ platforms:
     platform_text: "FROG Server"
     platform_location: IN
 summary: "FROG stands for **F**inge**R**printing **O**ntology of **G**enomic variations. FROG fingerprints have been devised to capture genomic variations at various levels."
-image: "/src/use/ab-openlab/frog.png"
+image: "/use/ab-openlab/frog.png"
 comments:
   - "The assigned fingerprints enables FROG to make the large number of genomic variations computationally efficient in terms of memory requirements and faster retrieval. This interface has been designed to explore the structure of FROG fingerprints and search mitochondrial variations using fingerprints with a combination of various FROG properties."
 user_support:
@@ -20,5 +20,5 @@ citations:
 pub_libraries:
   - "AB-OpenLab"
 sponsors:
-  - "[CSIR- GENESIS: Genomics and Informatics Solutions for Integrating Biology](http://crdd.osdd.net/genesis/genome.html)"
+  - "[CSIR- GENESIS: Genomics and Informatics Solutions for Integrating Biology](https://webs.iiitd.edu.in/genesis/index.php)"
 ---

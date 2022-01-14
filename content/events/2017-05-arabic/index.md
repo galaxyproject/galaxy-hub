@@ -11,7 +11,7 @@ external_url: https://www.facebook.com/events/1836526683279672/
 gtn: true
 contact: Abdelazeem Abdelhameed
 ---
-<div class='left'><img src="/src/community/arabic/GalaxyArabic400.png" alt="Galaxy Arabic Speaking Community" width="200" /></div>
+<div class='left'><img src="/community/arabic/GalaxyArabic400.png" alt="Galaxy Arabic Speaking Community" width="200" /></div>
 
 ## INTRODUCTION
 
@@ -35,9 +35,9 @@ More effective with high reproducibility : The problem with Bioinformatics Resea
 
 Galaxy gives you large space on the web, however you can download it locally on your computer or use it on the Cloud.  Galaxy makes it easy to share your results with your colleague or with the world and they will have access to all steps you have done and they can repeat the analysis.
 
-## WHY SHOULD I ATTEND ? 
+## WHY SHOULD I ATTEND ?
 
-You will join our [Arabic Galaxy Community](/src/community/arabic/index.md) which is the first one in the middle East and Africa.
+You will join our [Arabic Galaxy Community](/community/arabic/) which is the first one in the middle East and Africa.
 
 * As a medical student it is important to have an introducation about the future of medicine, Genomics is entering all fields of medicine both Basic and clinical medicine involving all specialities not only clinical Genetics.
 * As a physician you will need to deal with genomic testing in the coming years as the technology becomes cheaper and more widely available.
@@ -47,13 +47,13 @@ You will join our [Arabic Galaxy Community](/src/community/arabic/index.md) whic
 Training on the Galaxy is the easiest way to learn Bioinformatics with an Easy user Friendly interface and many tutorials on the web.
 You will receive a Certificate of Attendance for this Training.
 
-## WHO SHOULD ATTEND ? 
+## WHO SHOULD ATTEND ?
 
 Medical students, Medical doctors, Researchers in the field of Bioinformatics, Biochemists, Microbiologists, Phramcologists, Clinical Geneticists and anyone who has something to do with genomics or Genetics.
 
 ## When
 
-* 4th may 2017 
+* 4th may 2017
 * 10.00 AM : 1.00 PM
 
 ## PROGRAM
@@ -67,10 +67,10 @@ Medical students, Medical doctors, Researchers in the field of Bioinformatics, B
 
 ## SPEAKER
 
-Abdelazeem Abdelhameed 
+Abdelazeem Abdelhameed
 Regional trainer for the Galaxy project in Arabic speaking countries and Africa
-Founder of the Arabic community 
-Under Supervision of Professor Dr. Wafaa Ibrahim 
+Founder of the Arabic community
+Under Supervision of Professor Dr. Wafaa Ibrahim
 Biochemistry department , Faculty of medicine ,Tanta University
 
 ## LINKS

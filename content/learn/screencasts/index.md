@@ -1,7 +1,7 @@
 ---
 title: Galaxy Screencasts and Demos
 ---
-Screencasts are one of several ways to [learn](/src/learn/index.md) how to use Galaxy. These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
+Screencasts are one of several ways to [learn](/learn/) how to use Galaxy. These video tutorials cover many aspects of Galaxy, from simple tasks like uploading data, to complex analysis.
 
 Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/galaxyproject).
 
@@ -11,7 +11,6 @@ Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/gala
 
 ## Using Galaxy
 
-<div class='left'> 
 <table>
   <tr>
     <td> <strong><a href='http://vimeo.com/galaxyproject/accounts'>Accounts on Main</a></strong><br /> registration, openIDs</td>
@@ -21,31 +20,17 @@ Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/gala
   <tr>
     <td> <strong><a href='http://vimeo.com/galaxyproject/upload'>Get Data: Upload File</a></strong> <br /> browse, url, paste, <a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>ftp</a> </td>
     <td> <strong><a href='http://vimeo.com/galaxyproject/learning'>Learning Resources</a></strong> <br /> self-serve help </td>
-    <td> <strong><a href='http://vimeo.com/galaxyproject/managehistories'>Managing Histories</a></strong> <br /> saved histories, <a href='/src/main/index.md'>disk quotas</a> </td>
+    <td> <strong><a href='http://vimeo.com/galaxyproject/managehistories'>Managing Histories</a></strong> <br /> saved histories, <a href='/main/'>disk quotas</a> </td>
   </tr>
   <tr>
-    <td> <strong><a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>Using FTP</a></strong> <br /> step-by-step, <a href='/src/ftp-upload/index.md'> wiki</a> </td>
+    <td> <strong><a href='http://screencast.g2.bx.psu.edu/quickie_17_ftp_upload/flow.html'>Using FTP</a></strong> <br /> step-by-step, <a href='/ftp-upload/'> wiki</a> </td>
     <td> <strong><a href='http://vimeo.com/galaxyproject/fastqprep'>FASTQ Prep Illumina</a></strong> <br /> jobs, FASTQ Groomer, <br /> edit attributes, FastQC </td>
-    <td> <strong><a href='http://vimeo.com/galaxyproject/customgenome'>Custom Genomes</a></strong> <br /> format, how to load, <br /> <a href='/src/learn/custom-genomes/index.md'>read more on wiki...</a></td>
+    <td> <strong><a href='http://vimeo.com/galaxyproject/customgenome'>Custom Genomes</a></strong> <br /> format, how to load, <br /> <a href='/learn/custom-genomes/'>read more on wiki...</a></td>
   </tr>
 </table>
 
-</div>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 ## Analysis
 
-<div class='left'>
 <table>
   <tr>
     <td> <strong><a href='http://screencast.g2.bx.psu.edu/flash/TAF1.html'>TAF1: Which genes' promoter regions contain these sites?</a></strong> </td>
@@ -79,53 +64,32 @@ Browse the screencasts at [http://vimeo.com/galaxyproject](http://vimeo.com/gala
   </tr>
 </table>
 
-</div>
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 ## Tutorials
 
 * **[Using UCSC from Galaxy](http://screencast.g2.bx.psu.edu/UCSC2Galaxy/)**
-* **[Sequences as Tab Delimited Data](http://screencast.g2.bx.psu.edu/quickie1_TabSeq/flow.html)** 
+* **[Sequences as Tab Delimited Data](http://screencast.g2.bx.psu.edu/quickie1_TabSeq/flow.html)**
 * **[Filtering Data](http://screencast.g2.bx.psu.edu/microFilterTabData/)**
-* **[Grouping](http://screencast.g2.bx.psu.edu/quickie2_Grouping/flow.html)** 
+* **[Grouping](http://screencast.g2.bx.psu.edu/quickie2_Grouping/flow.html)**
 * **[Intervals](http://screencast.g2.bx.psu.edu/quickie3_Intervals/flow.html)**
 * **[Joining Features](http://screencast.g2.bx.psu.edu/quickie5_join/flow.html)**
-* **[http://screencast.g2.bx.psu.edu/MAF_alignExtractStitch/Stitching Multiple Alignments](http://screencast.g2.bx.psu.edu/MAF_alignExtractStitch/Stitching Multiple Alignments)**
+* **[http://screencast.g2.bx.psu.edu/MAF_alignExtractStitch/Stitching Multiple Alignments](http://screencast.g2.bx.psu.edu/MAF_alignExtractStitch/Stitching%20Multiple%20Alignments)**
 * **[Filtering Multiple Alignments and Converting Formats](http://screencast.g2.bx.psu.edu/MAF_alignFilterConvert/)**
 * **[Manipulation of Multiple Alignments](http://screencast.g2.bx.psu.edu/MAF_manipulation)**
 * **[Sharing your work](http://screencast.g2.bx.psu.edu/flash/Sharing.html)**
-* **[Create workflow from history](http://screencast.g2.bx.psu.edu/flash/WorkflowFromHistory.html)** 
+* **[Create workflow from history](http://screencast.g2.bx.psu.edu/flash/WorkflowFromHistory.html)**
 * **[Create workflow from Scratch](http://screencast.g2.bx.psu.edu/flash/WorkflowFromScratch.html)**
 * **[Import Workflow](http://screencast.g2.bx.psu.edu/mt-workflowImport/)**
 * **[Edit Workflow](http://screencast.g2.bx.psu.edu/GR_WF_4B/)**
 * **[Convert Workflow in a Tool](http://screencast.g2.bx.psu.edu/GR_WF_6/)**
 * **[Extracting Sequences and Alignments](http://screencast.g2.bx.psu.edu/flash/SeqAlign.html)**
-* **[Basic FASTQ Manipulation](http://screencast.g2.bx.psu.edu/quickie_13_fastq_basic/flow.html)** 
-* **[Advanced FASTQ Manipulation](http://screencast.g2.bx.psu.edu/quickie_14_fastq_adv/flow.html)** 
+* **[Basic FASTQ Manipulation](http://screencast.g2.bx.psu.edu/quickie_13_fastq_basic/flow.html)**
+* **[Advanced FASTQ Manipulation](http://screencast.g2.bx.psu.edu/quickie_14_fastq_adv/flow.html)**
 * **[Copy History Items](http://screencast.g2.bx.psu.edu/quickie_16_copyingHistoryItems/index.html)**
 * **[BioMart](http://screencast.g2.bx.psu.edu/BioMart2Galaxy/)**
 
 ## Interval Operations tutorial
 
-Also see [Learn/Interval Operations](/src/learn/interval-operations/index.md).
+Also see [Learn/Interval Operations](/learn/interval-operations/).
 
 * **[Preparing Data](http://screencast.g2.bx.psu.edu/GOPS_PrepareData/)**
 * **[Intersect and Subtract](http://screencast.g2.bx.psu.edu/GOPS_IntersectSubtract/)**
@@ -133,7 +97,7 @@ Also see [Learn/Interval Operations](/src/learn/interval-operations/index.md).
 * **[Base Coverage and Compliment](http://screencast.g2.bx.psu.edu/GOPS_BaseCoverageComplement/)**
 * **[Feature Coverage](http://screencast.g2.bx.psu.edu/GOPS_Coverage/)**
 * **[Finding Clusters](http://screencast.g2.bx.psu.edu/GOPS_Cluster/)**
-* **[Joining Features](http://screencast.g2.bx.psu.edu/quickie5_join/flow.htm)** 
+* **[Joining Features](http://screencast.g2.bx.psu.edu/quickie5_join/flow.htm)**
 
 ## Developers How To
 
@@ -144,5 +108,5 @@ Also see [Learn/Interval Operations](/src/learn/interval-operations/index.md).
 
 ## Archives
 
-* [Current Protocols in BioInformatics](/src/learn/screencasts/current-protocols/index.md) - Galaxy: Interactive Analyses of Genomic Data by Example
-* [Screencasts detailing analysis of data generated by Affymetrix tiling arrays](/src/learn/screencasts/affy-screencasts/index.md)
+* [Current Protocols in BioInformatics](/learn/screencasts/current-protocols/) - Galaxy: Interactive Analyses of Genomic Data by Example
+* [Screencasts detailing analysis of data generated by Affymetrix tiling arrays](/learn/screencasts/affy-screencasts/)

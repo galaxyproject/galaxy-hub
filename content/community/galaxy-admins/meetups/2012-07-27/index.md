@@ -2,8 +2,8 @@
 title: GalaxyCzars GCC2012 Breakout Session
 ---
 <div class='center'>
-<a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" /></a> &nbsp;&nbsp;&nbsp;
-<a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012Logo200.png" alt="GCC2012" height="120" /></a>
+<a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" /></a> &nbsp;&nbsp;&nbsp;
+<a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012Logo200.png" alt="GCC2012" height="120" /></a>
 </div>
 
 <slot name="/community/galaxy-admins/linkbox" />
@@ -11,6 +11,7 @@ title: GalaxyCzars GCC2012 Breakout Session
 
 
 Participants:
+
 * Alex Moskalenko
 * Nate Coraor
 * Mary Dolan
@@ -21,9 +22,9 @@ Participants:
 
 Breakout Presentation: [https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2012-07-27/GalaxyCzars_Breakout.pdf](https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2012-07-27/GalaxyCzars_Breakout.pdf)]]
 
-A [GalaxyCzars](/src/community/galaxy-admins/index.md) breakout session was held at [GCC2012](/src/events/gcc2012/index.md). This was an opportunity for this group to meet face-to-face for the first time. GalaxyCzars is about installing, configuring, and maintaining large Galaxy installations. It was open to anyone.
+A [GalaxyCzars](/community/galaxy-admins/) breakout session was held at [GCC2012](/events/gcc2012/). This was an opportunity for this group to meet face-to-face for the first time. GalaxyCzars is about installing, configuring, and maintaining large Galaxy installations. It was open to anyone.
 
-* We need a new name! 
+* We need a new name!
   :: We tried to brainstorm a new name for the group... being that it was Friday afternoon this was a difficult task!  We will keep looking for a new name.  Some suggestions:  GalaxyLocals, GalaxyCommons, etc.
 
 * Talked about goals for the group

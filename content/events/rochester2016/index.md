@@ -1,7 +1,7 @@
 <div class='center'>
 <table>
   <tr>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='https://www.rochester.edu/'><img src="/src/images/logos/URochester.png" alt="University of Rochester"  /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='https://www.rochester.edu/'><img src="/images/logos/URochester.png" alt="University of Rochester"  /></a> </td>
   </tr>
 </table>
 
@@ -11,14 +11,14 @@
 **[Kathryn W. Nesbit Classroom #2](https://www.urmc.rochester.edu/libraries/miner/teaching_and_learning/classrooms.cfm), [Edward G. Miner Library](https://www.urmc.rochester.edu/libraries/miner/index.cfm)<br />
 [University of Rochester Medical Center](https://www.urmc.rochester.edu/)
 
-Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+Instructor: [Dave Clements](/people/dave-clements/)
 **
 
 </div>
 
 ## Registration
 
-[Registration](https://www.urmc.rochester.edu/libraries/miner/teaching_and_learning/classes/) is free and open to any member of the University of Rochester community. Space is available on a first-come, first served basis. 
+[Registration](https://www.urmc.rochester.edu/libraries/miner/teaching_and_learning/classes/) is free and open to any member of the University of Rochester community. Space is available on a first-come, first served basis.
 <br />
 
 <div class='center'>
@@ -135,18 +135,19 @@ No programming or Linux command line experience is required.
 ## Support
 
 <div class='center'><br />
-<a href='http://www.circ.rochester.edu/'><img src="/src/images/logos/Rochester_CIRC.png" alt="Center for Integrated Research Computing (CIRC)" width="220" /></a> &nbsp;&nbsp;
-<a href='https://www.urmc.rochester.edu/libraries/miner/index.cfm'><img src="/src/images/logos/Rochester_MinerLibrary.png" alt="Edward G. Miner Library" width="300" /></a> &nbsp;&nbsp;
-<a href='https://www.urmc.rochester.edu/research/for-researchers/shared-resource-laboratories-facilities/laboratories/Rochester-Genomics-Center/'><img src="/src/images/logos/URochesterMC.png" alt="The UR Genomics Research Center (GRC)" width="220" /></a> &nbsp;&nbsp;
-<a href='https://www.urmc.rochester.edu/smd/it/research/research-data-integration-and-analytics-rdia.aspx'><img src="/src/images/logos/URochesterSOMAD.jpg" alt="UR Research Data Integration and Analytics (RDIA)" width="200" /></a> &nbsp;
-<a href='https://www.rochester.edu/'><img src="/src/images/logos/URochester.png" alt="University of Rochester" width="220" /></a> &nbsp;&nbsp;
-<a href='http://www.nih.gov/'><img src="/src/images/logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a>
+<a href='http://www.circ.rochester.edu/'><img src="/images/logos/Rochester_CIRC.png" alt="Center for Integrated Research Computing (CIRC)" width="220" /></a> &nbsp;&nbsp;
+<a href='https://www.urmc.rochester.edu/libraries/miner/index.cfm'><img src="/images/logos/Rochester_MinerLibrary.png" alt="Edward G. Miner Library" width="300" /></a> &nbsp;&nbsp;
+<a href='https://www.urmc.rochester.edu/research/for-researchers/shared-resource-laboratories-facilities/laboratories/Rochester-Genomics-Center/'><img src="/images/logos/URochesterMC.png" alt="The UR Genomics Research Center (GRC)" width="220" /></a> &nbsp;&nbsp;
+<a href='https://www.urmc.rochester.edu/smd/it/research/research-data-integration-and-analytics-rdia.aspx'><img src="/images/logos/URochesterSOMAD.jpg" alt="UR Research Data Integration and Analytics (RDIA)" width="200" /></a> &nbsp;
+<a href='https://www.rochester.edu/'><img src="/images/logos/URochester.png" alt="University of Rochester" width="220" /></a> &nbsp;&nbsp;
+<a href='http://www.nih.gov/'><img src="/images/logos/NIHwithTagline.png" alt="National Institutes of Health (NIH)" width="220" /></a>
 </div><br />
 
 This workshop is generously supported by **
-* [Center for Integrated Research Computing (CIRC)](http://www.circ.rochester.edu/) 
-* [UR Genomics Research Center (GRC)](https://www.urmc.rochester.edu/research/for-researchers/shared-resource-laboratories-facilities/laboratories/Rochester-Genomics-Center/) 
-* [Edward G. Miner Library](https://www.urmc.rochester.edu/libraries/miner/index.cfm) 
+
+* [Center for Integrated Research Computing (CIRC)](http://www.circ.rochester.edu/)
+* [UR Genomics Research Center (GRC)](https://www.urmc.rochester.edu/research/for-researchers/shared-resource-laboratories-facilities/laboratories/Rochester-Genomics-Center/)
+* [Edward G. Miner Library](https://www.urmc.rochester.edu/libraries/miner/index.cfm)
 * [UR Research Data Integration and Analytics (RDIA)](https://www.urmc.rochester.edu/smd/it/research/research-data-integration-and-analytics-rdia.aspx)
 * [University of Rochester](https://www.rochester.edu/)
 * [National Institutes of Health (NIH)](http://www.nih.gov/)
@@ -167,4 +168,4 @@ We will ask for it!
 
 ## Questions?
 
-Contact [John Ashton](https://www.urmc.rochester.edu/people/26567020-john-m-ashton) or [Dave Clements](/src/people/dave-clements/index.md).
+Contact [John Ashton](https://www.urmc.rochester.edu/people/26567020-john-m-ashton) or [Dave Clements](/people/dave-clements/).

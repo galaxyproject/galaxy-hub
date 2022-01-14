@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/logos/GalaxyAdmins.png" alt="GalaxyAdmins" /></a>
 <div class='title'>2013-11-20 Web Meetup<br /><br />GCC2013 Followup
 </div></div>
 
@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <th> Presentations </th>
-    <td> <em><a href="/src/community/galaxy-admins/index.md">GalaxyAdmins</a>: <a href='/src/events/gcc2013/bof/galaxy-admins/index.md'>GCC2013 Followup</a></em><div class='indent'><a href='/src/people/dave-clements/index.md'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/src/people/nate/index.md'>Nate Coraor</a></div> </td>
+    <td> <em><a href="/community/galaxy-admins/">GalaxyAdmins</a>: <a href='/events/gcc2013/bof/galaxy-admins/'>GCC2013 Followup</a></em><div class='indent'><a href='/people/dave-clements/'>Dave Clements</a>, Srinivas Maddhi</div><em>Galaxy Project Update: <a href='http://usegalaxy.org'>UseGalaxy.org</a> moves to TACC</em><div class='indent'><a href='/people/nate/'>Nate Coraor</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -29,13 +29,13 @@
 
 
 <br />
-Dave and Srinivas will lead a discussion following up on the issues that were raised at the [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/events/gcc2013/bof/galaxy-admins/index.md).
+Dave and Srinivas will lead a discussion following up on the issues that were raised at the [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/events/gcc2013/bof/galaxy-admins/).
 
-[Nate Coraor](/src/people/nate/index.md) will also discuss the recent move of [usegalaxy.org](http://usegalaxy.org) from Penn State to TACC.
+[Nate Coraor](/people/nate/) will also discuss the recent move of [usegalaxy.org](http://usegalaxy.org) from Penn State to TACC.
 
 ## GCC2013 Followup
 
-The [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/src/events/gcc2013/bof/galaxy-admins/index.md) was well-attended and resulted in a number of suggestions for the group moving forward.  One of those suggestions was to spend the next call on followup, so that's what we are doing.
+The [GCC2013 GalaxyAdmins Birds-of-a-Feather session](/events/gcc2013/bof/galaxy-admins/) was well-attended and resulted in a number of suggestions for the group moving forward.  One of those suggestions was to spend the next call on followup, so that's what we are doing.
 
 ### Reference / Wiki
 
@@ -43,18 +43,18 @@ Action items from BoF:
 
 * Want a knowledge base with different descriptions of Galaxy Deployments
 * Possibly have an Admin/Logs section where people can describe what they did
-* Add a list of Admin Tutorials to Admin and Cloud Hub pages, similar to what is on the Learn hub page. 
+* Add a list of Admin Tutorials to Admin and Cloud Hub pages, similar to what is on the Learn hub page.
 
 Draft implementations of the first two are in place:
 
 * Community/Deployments hub page
-* Community/Logs hub page (since moved to the [Galaxy Blog](/src/blog/index.md)
+* Community/Logs hub page (since moved to the [Galaxy Blog](/blog/)
 
 What do people think of this approach?  The use of *boxes* on the right side is used to create much more informative lists of deployments and logs on their hub pages, using the [http://moinmo.in/MacroMarket/DictColumns](http://moinmo.in/MacroMarket/DictColumns) macro.
 
 ### Mailing Lists / Forums
 
-Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/src/events/gcc2013/bof/galaxy-admins/index.md#mailing-lists--forums) for details.
+Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/events/gcc2013/bof/galaxy-admins/#mailing-lists--forums) for details.
 
 ### Meetups
 
@@ -63,6 +63,7 @@ Decided against creating a separate GalaxyAdmins mailing list.  See [BoF page](/
 ### Leadership / Governance
 
 Notes from the BoF:
+
 * Nothing was established here.
 * Srinivas and Dave C will continue as is, but the right thing to do is transfer Srinnivas's responsibilities to someone else.
 * Participants will think about what to do

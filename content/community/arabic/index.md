@@ -2,7 +2,7 @@
 autotoc: false
 ---
 
-<div class='left'><img src="/src/community/arabic/GalaxyArabic400.png" alt="Galaxy Arabic Speaking Community" width="200" /></div>
+<div class='left'><img src="/community/arabic/GalaxyArabic400.png" alt="Galaxy Arabic Speaking Community" width="200" /></div>
 
 ## Galaxy Arabic Speaking Community (العربية Galaxy)
 

@@ -6,13 +6,13 @@ title: GCC2012 Training Day
 
 <slot name="/events/gcc2012/linkbox" />
 
-<img class="float-left" src="/src/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="GCC2012 Training Day" width="140" />
+<img class="float-left" src="/images/galaxy-logos/GCC2012TrainingDayLogo.png" alt="GCC2012 Training Day" width="140" />
 
-The [2012 Galaxy Community Conference](/src/events/gcc2012/training-day//index.md) was preceded by a *Training Day*, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.
+The [2012 Galaxy Community Conference](/events/gcc2012/training-day//) was preceded by a *Training Day*, featuring 3 parallel tracks, each featuring four, 90 minutes workshops and covering 10 different topics.
 
 # Registration
 
-Register for the Training Day at the same time you [Register](/src/events/gcc2012/register/index.md) for the meeting.  
+Register for the Training Day at the same time you [Register](/events/gcc2012/register/) for the meeting.  
 
 # Schedule
 
@@ -29,9 +29,9 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 9:00 </th>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/index.md'>Ross Lazarus</a></em></div></td>
-    <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a>, <a href='/src/people/james-taylor/index.md'>James Taylor</a> & <a href='/src/people/jennifer-jackson/index.md'>Jennifer Jackson</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/src/people/enis-afgan/index.md'>Enis Afgan</a> & <a href='/src/people/dannon-baker/index.md'>Dannon Baker</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/people/fubar/'>Ross Lazarus</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #F2F2C3;"> <strong><a href='#ws2'>WS2: Introduction to Galaxy</a></strong><div class='indent'><em><a href='/people/jeremy-goecks/'>Jeremy Goecks</a>, <a href='/people/james-taylor/'>James Taylor</a> & <a href='/people/jennifer-jackson/'>Jennifer Jackson</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #D8FFFF;"> <strong><a href='#ws3'>WS3: Galaxy CloudMan</a></strong><div class='indent'><em><a href='/people/enis-afgan/'>Enis Afgan</a> & <a href='/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 10:30 </th>
@@ -39,9 +39,9 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 11:00 </th>
-    <td style=" vertical-align: top; background-color: #FFDB97;"> <strong><a href='#ws4'>WS4: Galaxy Code Architecture</a></strong><div class='indent'><em><a href='/src/people/james-taylor/index.md'>James Taylor</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFD8FF;"> <strong><a href='#ws5'>WS5: Installing Your Own Galaxy</a></strong><div class='indent'><em><a href='/src/people/nate/index.md'>Nate Coraor</a> & <a href='/src/people/dave-bouvier/index.md'>Dave Bouvier</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/src/people/dannon-baker/index.md'>Dannon Baker</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFDB97;"> <strong><a href='#ws4'>WS4: Galaxy Code Architecture</a></strong><div class='indent'><em><a href='/people/james-taylor/'>James Taylor</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFD8FF;"> <strong><a href='#ws5'>WS5: Installing Your Own Galaxy</a></strong><div class='indent'><em><a href='/people/nate/'>Nate Coraor</a> & <a href='/people/dave-bouvier/'>Dave Bouvier</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 12:30 </th>
@@ -49,9 +49,9 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
-    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/src/people/greg_vonkuster/index.md'>Greg von Kuster</a> & <a href='/src/people/nate/index.md'>Nate Coraor</a></em></div></td>
+    <td style=" vertical-align: top; background-color: #CFFFCF;"> <strong><a href='#ws7'>WS7: Galaxy Tool Shed</a></strong><div class='indent'><em><a href='/people/greg-vonkuster/'>Greg von Kuster</a> & <a href='/people/nate/'>Nate Coraor</a></em></div></td>
     <td style=" vertical-align: top; background-color: #E1CC9B;"> <strong><a href='#ws8'>WS8: Variant and SNP Analysis with Galaxy</a></strong><div class='indent'><em><a href='http://bioinformatics.bc.edu/marthlab/Erik_Garrison'>Erik Garrison</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/src/people/dan/index.md'>Dan Blankenberg</a> & <a href='/src/people/fubar/index.md'>Ross Lazarus</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #FFCFCF;"> <strong><a href='#ws1'>WS1: Integrating Tools & Data Sources</a></strong><div class='indent'><em><a href='/people/dan/'>Dan Blankenberg</a> & <a href='/people/fubar/'>Ross Lazarus</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 3:30 </th>
@@ -59,9 +59,9 @@ Register for the Training Day at the same time you [Register](/src/events/gcc201
   </tr>
   <tr>
     <th style=" text-align: right;"> 4:00 </th>
-    <td style=" vertical-align: top; background-color: #CCFF66;"> <strong><a href='#ws9'>WS9: RNA-Seq Analysis with Galaxy</a></strong><div class='indent'><em>Curtis Hendrickson, David Crossman & <a href='/src/people/jeremy-goecks/index.md'>Jeremy Goecks</a></em></div> </td>
-    <td style=" vertical-align: top; background-color: #88EDED;"> <strong><a href='#ws10'>WS10: Ion Torrent – Open Source Sequencing</a></strong><div class='indent'><em><a href='/src/people/matt-dyer/index.md'>Matt Dyer</a>, Associate Director, <a href='http://lifetech.com/'>Ion Torrent</a>, Bioinformatics & <a href='http://ioncommunity.iontorrent.com/'>Community</a></em></div>  </td>
-    <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/src/people/dannon-baker/index.md'>Dannon Baker</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #CCFF66;"> <strong><a href='#ws9'>WS9: RNA-Seq Analysis with Galaxy</a></strong><div class='indent'><em>Curtis Hendrickson, David Crossman & <a href='/people/jeremy-goecks/'>Jeremy Goecks</a></em></div> </td>
+    <td style=" vertical-align: top; background-color: #88EDED;"> <strong><a href='#ws10'>WS10: Ion Torrent – Open Source Sequencing</a></strong><div class='indent'><em><a href='/people/matt-dyer/'>Matt Dyer</a>, Associate Director, <a href='http://lifetech.com/'>Ion Torrent</a>, Bioinformatics & <a href='http://ioncommunity.iontorrent.com/'>Community</a></em></div>  </td>
+    <td style=" vertical-align: top; background-color: #CFCFFF;"> <strong><a href='#ws6'>WS6: Galaxy API</a></strong><div class='indent'><em><a href='/people/dannon-baker/'>Dannon Baker</a></em></div> </td>
   </tr>
   <tr>
     <th style=" text-align: right;"> 5:30 </th>
@@ -87,9 +87,9 @@ These workshops require a running Galaxy instance that you have root/admin acces
 * [WS6: Galaxy API](#ws6)
 * [WS7: Galaxy Tool Shed](#ws7)
 
-While you can use any running Galaxy instance, **we strongly recommend that you use the [conference provided virtual machine image](/src/events/gcc2012/training-day/vms/index.md), and that you have it installed and running before arriving at the conference.**
+While you can use any running Galaxy instance, **we strongly recommend that you use the [conference provided virtual machine image](/events/gcc2012/training-day/vms/), and that you have it installed and running before arriving at the conference.**
 
-See the [Virtual Machine page](/src/events/gcc2012/training-day/vms/index.md) for instructions on how to do this.
+See the [Virtual Machine page](/events/gcc2012/training-day/vms/) for instructions on how to do this.
 
 
 ## WS1
@@ -110,7 +110,7 @@ See the [Virtual Machine page](/src/events/gcc2012/training-day/vms/index.md) fo
 | **Content** | New to Galaxy? This will introduce you to the Galaxy Project, the Galaxy Community, and walk you through a simple use case demonstrating what Galaxy can do. |
 | **Prerequisites** | Little or no knowledge of Galaxy. |
 | **Results** | You'll know what Galaxy can do, the basics of how to use it, and have an understanding of the project. |
-| **Links** | • [Video Part 1](https://uic.sharestream.net/ssdcms/i.do?u=97f1f9de55e744c), [Video Part 2](https://uic.sharestream.net/ssdcms/i.do?u=615bbe126ab443a) | 
+| **Links** | • [Video Part 1](https://uic.sharestream.net/ssdcms/i.do?u=97f1f9de55e744c), [Video Part 2](https://uic.sharestream.net/ssdcms/i.do?u=615bbe126ab443a) |
 
 This workshop is supported by an AWS in Education teaching grant award.
 
@@ -121,7 +121,7 @@ This workshop is supported by an AWS in Education teaching grant award.
 | :----: | ---- |
 | **Instructors** | Enis Afgan, Ruđer Bošković Institute (RBI) and Dannon Baker, Emory University |
 | **Content** | Want the power of Galaxy without the compute infrastructure overhead? Need to run compute-intensive analysis, but only from time to time? Learn how to set up your own elastic, and fully populated (tools and reference data) Galaxy instance using Amazon Web Services. |
-| **Prerequisites** | Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop. | 
+| **Prerequisites** | Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop. |
 | **Results** |You will have created a Galaxy server on Amazon Web Services using CloudMan. You will access to this server if you wish to use it during subsequent workshops. |
 | **Links** | • [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/WS3_CloudMan.pdf) <br /> • [Video part 1](https://uic.sharestream.net/ssdcms/i.do?u=1e6ae700ffcf412), [part 2](https://uic.sharestream.net/ssdcms/i.do?u=62bf7e915df84f4) |
 
@@ -145,7 +145,7 @@ This workshop is supported by an AWS in Education teaching grant award.
 | **Content** | Learn how to install your own local version of Galaxy, and get it set up, populated, and production ready. |
 | **Prerequisites** | Knowledge and comfort with the Unix/Linux command line interface and a text editor. If you don't know what cd, mv, rm, mkdir, chmod, grep and so on can do then you will struggle in this workshop.<br />You have the conference provided virtual machine image for Workshop 5 installed and running on your laptop, before arriving at the conference. |
 | **Results** | You will have access to personal Galaxy server that you can use in subsequent workshops during the day. This may be Galaxy installed directly on your Linux laptop, Galaxy installed on a virtual machine on your PC or Mac, or access to an Amazon Web Services EC2 instance with Galaxy installed on it.
-| **Links** | • Virtual Machine Image <br /> • [Full script of workshop steps](/src/events/gcc2012/training-day/ws5/index.md) <br /> • [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/WS5_InstallingYourOwn.pdf) <br /> • [Video part 1](https://uic.sharestream.net/ssdcms/i.do?u=baa964873e294a4), [part 2](https://uic.sharestream.net/ssdcms/i.do?u=005f1dddb176458) |
+| **Links** | • Virtual Machine Image <br /> • [Full script of workshop steps](/events/gcc2012/training-day/ws5/) <br /> • [Slides](https://depot.galaxyproject.org/hub/attachments/documents/presentations/gcc2012/WS5_InstallingYourOwn.pdf) <br /> • [Video part 1](https://uic.sharestream.net/ssdcms/i.do?u=baa964873e294a4), [part 2](https://uic.sharestream.net/ssdcms/i.do?u=005f1dddb176458) |
 
 ## WS6
 

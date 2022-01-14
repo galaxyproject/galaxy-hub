@@ -3,12 +3,12 @@
 
 <table>
   <tr>
-    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iastate.edu/'><img src="/src/images/logos/IowaState.png" alt="Iowa State University"  /></a> </td>
+    <td colspan=3 style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iastate.edu/'><img src="/images/logos/IowaState.png" alt="Iowa State University"  /></a> </td>
   </tr>
 </table>
 
 
-**Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+**Instructor: [Dave Clements](/people/dave-clements/)
 
 9am-5pm<br />
 [MBB](http://www.fpm.iastate.edu/maps/default.asp?zoom=2&xcenter=1471&ycenter=1605&xshow=1471&yshow=1605) [1340 (Computer Lab)](http://www.bb.iastate.edu/computing/1340Home.html)
@@ -93,7 +93,7 @@ The draft agenda is:
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [ISU Bioinformatics and Computational Biology program](http://www.bcb.iastate.edu/) / NSF-IGERT.
 

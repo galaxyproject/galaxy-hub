@@ -16,7 +16,7 @@ date: 2011-02-18
 
 ### galaxyproject at Twitter
 
-Join us at Twitter for the latest updates on development projects, conferences and training, and all things Galaxy! 
+Join us at Twitter for the latest updates on development projects, conferences and training, and all things Galaxy!
 
   #usegalaxy
 
@@ -65,7 +65,7 @@ Running this script will build *whoosh* indexes in the directory named by the `c
 
 We recommend adding something like the following setting to your Galaxy server's `cron` settings to keep the indexes current:
 
-``` 
+```
 0,30 * * * * cd /var/opt/galaxy/g2test/galaxy_test ; bash ./scripts/data_libraries/build_whoosh_index.sh 
 ```
 
@@ -74,11 +74,11 @@ The above setting rebuilds the indexes every 30 minutes.  You may want to build 
 
 Using *whoosh*, you can search on the `"name", "info", "message" and "dbkey"` attributes of library datasets using the following new search box displayed at the top of the `"Data Libraries"` page:
 
-![](/src/archive/dev-news-briefs/2011-02-18/2011_02_18_library_dataset_search.png)
+![](/archive/dev-news-briefs/2011-02-18/2011_02_18_library_dataset_search.png)
 
 Clicking the "Advanced search" link below the search box allows you to search data library names and descriptions as you did in the past:
 
-![](/src/archive/dev-news-briefs/2011-02-18/2011_02_18_data_library_search.png)
+![](/archive/dev-news-briefs/2011-02-18/2011_02_18_data_library_search.png)
 
 
 #### Details for searching with Lucene
@@ -114,17 +114,17 @@ Adjusted the `cleanup_datasets.py` script to more correctly handle the lifecycle
 
 Managing library datasets is a bit complex, so here is a scenario that hopefully provides clarification.  The complexities of handling library datasets is mostly contained in the `delete_datasets()` method in the `cleanup_datasets.py` script.
 
-    
+
 #### Example of usage:
 
 1. Assume we have 1 library dataset with
 
-``` 
+```
 LibraryDatasetDatasetAssociation -> LibraryDataset and Dataset
 ```
 
 
-This dataset would have the following database column values: 
+This dataset would have the following database column values:
 
 ```
     LibraryDatasetDatasetAssociation deleted: False
@@ -152,7 +152,7 @@ This action results in the following database column values:
     Dataset deleted: True*, purged: False
 ```
 
-    
+
 3. After the number of days configured for the `purge_datasets()` method (option -3 in the `cleanup_datasets.py` script) have passed, execution of the `purge_datasets()` method results in the following database column values:
 
 ```
@@ -165,7 +165,7 @@ This action results in the following database column values:
 
 This scenario is about as simple as it gets.  Keep in mind that a Dataset object can have many `HistoryDatasetAssociations` and many `LibraryDatasetDatasetAssociations`, and a `LibraryDataset` can have many `LibraryDatasetDatasetAssociations`.
 
-Another way of stating it is: `LibraryDatasetDatasetAssociation` objects map `LibraryDataset` objects to `Dataset` objects, and `Dataset` objects may be mapped to `History` objects via `HistoryDatasetAssociation` 
+Another way of stating it is: `LibraryDatasetDatasetAssociation` objects map `LibraryDataset` objects to `Dataset` objects, and `Dataset` objects may be mapped to `History` objects via `HistoryDatasetAssociation`
 
 ----
 
@@ -183,8 +183,8 @@ Another way of stating it is: `LibraryDatasetDatasetAssociation` objects map `Li
 
 * Added a Line/Word/Character counter to `Text Manipulation` tool group.
 * Extended `Extract Genomic DNA` tool to support GFF/GTF features and custom genomes:
-  * This is especially useful for extracting genomic data that correspond to transcripts in GTF format, as is produced by `Cufflinks`.
-  * Tool also now accepts sequence data from a history item, enabling the extraction of data from custom genomes.
+    * This is especially useful for extracting genomic data that correspond to transcripts in GTF format, as is produced by `Cufflinks`.
+    * Tool also now accepts sequence data from a history item, enabling the extraction of data from custom genomes.
 
 ### New Community Tools Added (Tool Shed)
 
@@ -208,6 +208,7 @@ Another way of stating it is: `LibraryDatasetDatasetAssociation` objects map `Li
 * *Jquery1.5* workflow fixes with quotations and flagging of outputs.
 
 Workflows containing tools that are not loaded will now open in the editor instead of failing on the dictionary lookup.  The offending nodes are marked as having an error state, and the workflow cannot be saved.  This will enable users to at least look at and try to recover a workflow by removing (and potentially replacing) the offending steps, as well as providing a better view of what's actually wrong with the workflow.
+
 * Workflows will no longer try to run when required tools are not found.  An error message is displayed with a link to the editor view (to fix the workflow).
 * Interval datatype now uses line estimates for large files.  This fixes potential "'?' lines" seen by some users.
 * Removed "Annotation:" labels for a cleaner look on the run workflow page.
@@ -218,24 +219,24 @@ Workflows containing tools that are not loaded will now open in the editor inste
 ### Trackster
 
 * Enhancements:
-  * Support large (10,000+) sets of chromosomes/contigs, as is often the case for low/non-model coverage genomes.
-  * Improve speed by streamlining data fetching and caching in Trackster.
-  * Add support for child tracks.
-  * UI hints for zooming out/in.
-  * Extend *CIGAR* string parsing to handle all operations (however, insertions still not fully supported).
-  * History dataset selection: show history name, show and order by hid in display.
-  * Modified interval index squish mode to display blocks and treat intervals as half-open.
-* Bug fixes: 
-  * Fix *CIGAR* string parsing bug that prevented sequence data from being displayed correctly.
-  * BED files without score column or with scores that are floats can now be displayed.
-  * Better handling of error messages so that messages and data do not overlap.
+    * Support large (10,000+) sets of chromosomes/contigs, as is often the case for low/non-model coverage genomes.
+    * Improve speed by streamlining data fetching and caching in Trackster.
+    * Add support for child tracks.
+    * UI hints for zooming out/in.
+    * Extend *CIGAR* string parsing to handle all operations (however, insertions still not fully supported).
+    * History dataset selection: show history name, show and order by hid in display.
+    * Modified interval index squish mode to display blocks and treat intervals as half-open.
+* Bug fixes:
+    * Fix *CIGAR* string parsing bug that prevented sequence data from being displayed correctly.
+    * BED files without score column or with scores that are floats can now be displayed.
+    * Better handling of error messages so that messages and data do not overlap.
 
 ### User Interface (UI)
 
 * Search improvements:
-  * Size of search box increases to show help text (column label). 
-  * Help text is highlighted rather than hidden when user clicks on search box. 
-  * Standard and advanced search divs are toggled correctly when moving between searches.
+    * Size of search box increases to show help text (column label).
+    * Help text is highlighted rather than hidden when user clicks on search box.
+    * Standard and advanced search divs are toggled correctly when moving between searches.
 
 ### Galaxy Reports
 

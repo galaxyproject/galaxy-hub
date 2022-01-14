@@ -7,9 +7,9 @@ platforms:
     platform_url: "https://hub.docker.com/r/mcfoell/galaxy-msi"
     platform_text: "Mass Spectrometry Imaging Docker Image"
 summary: "Galaxy Docker image for mass spec imaging"
-image: "/src/images/logos/DockerInGalaxy.png"
+image: "/images/logos/DockerInGalaxy.png"
 comments:
-  - "The tools on this image are available on [UseGalaxy.eu](/src/use/usegalaxy-eu/index.md)"
+  - "The tools on this image are available on [UseGalaxy.eu](/use/usegalaxy-eu/)"
 user_support:
 quotas:
   - "None."

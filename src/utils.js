@@ -4,6 +4,7 @@ const util = require("util");
 const remark = require("remark");
 const remarkHtml = require("remark-html");
 const slugify = require("@sindresorhus/slugify");
+const CONFIG = require("../config.json");
 
 /* Using a kludge here to allow:
  * 1) importing this as a module with the `import` statement
@@ -11,11 +12,6 @@ const slugify = require("@sindresorhus/slugify");
  * 3) easily referencing these functions from other functions in the same file
  * That's the `module.exports.repr = repr` pattern.
  */
-
-let CONFIG;
-if (fs && fs.existsSync && fs.existsSync("config.json")) {
-    CONFIG = JSON.parse(fs.readFileSync("config.json", "utf8"));
-}
 
 /** Template literal tag that converts all embedded values to their literal representations.
  *  Uses `util.inspect()` for the conversions.
@@ -39,11 +35,6 @@ function repr(strParts, ...values) {
     return outParts.join("");
 }
 module.exports.repr = repr;
-
-function contains(iterable, element) {
-    return !!(iterable.indexOf(element) > -1);
-}
-module.exports.contains = contains;
 
 // Set operations from https://exploringjs.com/impatient-js/ch_sets.html#missing-set-operations
 
@@ -71,59 +62,6 @@ function splitlines(text) {
     return text.split(/\r\n|\r|\n/);
 }
 module.exports.splitlines = splitlines;
-
-/** Turn a string containing only a date in ISO 8601 format into a `Date` in the local system's
- *  timezone.
- *  @param {string} dateStr A date in ISO 8601 (YYYY-MM-DD) format.
- */
-function strToDate(dateStr) {
-    return new Date(dateStr + "T00:00:00");
-}
-module.exports.strToDate = strToDate;
-
-/** Turn a `Date` object into a string showing only the date portion.
- *  @param {Date} date       A Javascript `Date`. This should be produced using `strToDate()`.
- *  @param {string} [format='iso'] The style of string representation for the `date`:
- *    `'iso'`: `"2021-03-12"`
- *    `'long'`: `"March 3, 2021"`
- *    `'D MMMM YYYY'`: `"3 March 2021"`
- */
-function dateToStr(date, format = "iso") {
-    let locale = getLocale();
-    let fields = {};
-    switch (format) {
-        case "iso":
-            return date.toISOString().slice(0, 10);
-        case "long":
-            fields = { year: "numeric", month: "long", day: "numeric" };
-            break;
-        case "D MMMM YYYY":
-            locale = "en-GB";
-            fields = { year: "numeric", month: "long", day: "numeric" };
-            break;
-        case "D MMMM":
-            fields = { month: "long", day: "numeric" };
-            break;
-        case "MMMM":
-            fields = { month: "long" };
-            break;
-        case "MMMM YYYY":
-            fields = { year: "numeric", month: "long" };
-            break;
-    }
-    return date.toLocaleDateString(locale, fields);
-}
-module.exports.dateToStr = dateToStr;
-
-/** Get the difference, in whole days, between two date strings.
- *  E.g. `dateStrDiff('2021-04-16', '2021-04-14') === 2`
- */
-function dateStrDiff(date1, date2) {
-    let date1date = strToDate(date1);
-    let date2date = strToDate(date2);
-    return Math.round((date1date - date2date) / 1000 / 60 / 60 / 24);
-}
-module.exports.dateStrDiff = dateStrDiff;
 
 function getLocale() {
     // Explicitly set locale always wins.
@@ -162,9 +100,9 @@ function getImage(imagePath, images) {
     if (!imagePath) {
         return imagePath;
     }
-    if (startswith(imagePath, "/src/images/")) {
+    if (imagePath.startsWith("/src/images/")) {
         return imagePath.substring(4);
-    } else if (startswith(imagePath, "/images/")) {
+    } else if (imagePath.startsWith("/images/")) {
         return imagePath;
     }
     let fields = imagePath.split("/");
@@ -195,20 +133,27 @@ function mdToHtml(md) {
 module.exports.mdToHtml = mdToHtml;
 
 function gridifyPath(rawPath) {
-    let rawParts = rawPath.split(path.sep);
+    let decodedPath = decodeURI(rawPath);
+    let rawParts = decodedPath.split("/");
     let lastPart = rawParts[rawParts.length - 1];
-    if (endswith(lastPart, ".html")) {
+    if (lastPart.endsWith(".html")) {
         rawParts[rawParts.length - 1] = rmSuffix(lastPart, ".html");
         rawParts.push("");
     }
     let sluggedParts = rawParts.map(slugify);
-    return sluggedParts.join(path.sep);
+    let fixedPath = sluggedParts.join("/");
+    return ensureSuffix(fixedPath, "/");
 }
 module.exports.gridifyPath = gridifyPath;
 
+/** Does the given string start with any of the given prefixes?
+ * @param {String} string  String that may or may not contain the prefixes.
+ * @param {Array} prefixes An array of strings - the prefixes.
+ * @returns {Boolean} `true` if `string` starts with any of the given `prefixes`, `false` otherwise.
+ */
 function matchesPrefixes(string, prefixes) {
     for (let prefix of prefixes) {
-        if (string.indexOf(prefix) === 0) {
+        if (string.startsWith(prefix)) {
             return true;
         }
     }
@@ -216,17 +161,26 @@ function matchesPrefixes(string, prefixes) {
 }
 module.exports.matchesPrefixes = matchesPrefixes;
 
-function ensurePrefix(string, char) {
-    if (string.startsWith(char)) {
+function ensurePrefix(string, prefix) {
+    if (string.startsWith(prefix)) {
         return string;
     } else {
-        return char + string;
+        return prefix + string;
     }
 }
 module.exports.ensurePrefix = ensurePrefix;
 
+function ensureSuffix(string, suffix) {
+    if (string.endsWith(suffix)) {
+        return string;
+    } else {
+        return string + suffix;
+    }
+}
+module.exports.ensureSuffix = ensureSuffix;
+
 function rmPrefix(rawString, prefix) {
-    if (rawString.indexOf(prefix) === 0) {
+    if (rawString.startsWith(prefix)) {
         return rawString.slice(prefix.length);
     } else {
         return rawString;
@@ -243,21 +197,6 @@ function rmSuffix(rawString, suffix) {
     }
 }
 module.exports.rmSuffix = rmSuffix;
-
-function startswith(string, query) {
-    return string.indexOf(query) === 0;
-}
-module.exports.startswith = startswith;
-
-function endswith(string, query) {
-    return string.indexOf(query) === string.length - query.length;
-}
-module.exports.endswith = endswith;
-
-function titlecase(rawString) {
-    return rawString.charAt(0).toUpperCase() + rawString.substring(1, rawString.length);
-}
-module.exports.titlecase = titlecase;
 
 /** Create the same effect as adding a tab to the string, except use spaces. */
 function spaceTab(rawStr, tabWidth = 8) {
@@ -324,67 +263,37 @@ function getFilesShallow(dirPath, excludeExt = null) {
 }
 module.exports.getFilesShallow = getFilesShallow;
 
-function doRedirect(url) {
-    window.location.href = url;
+function doRedirect(destUrl, currentPath) {
+    if (currentPath === undefined || window.location.pathname === currentPath) {
+        window.location.href = destUrl;
+    } else {
+        // Cancel redirect if the user has navigated away already.
+        console.log(`Skipping redirect: user navigated away from ${currentPath}`);
+    }
 }
 module.exports.doRedirect = doRedirect;
 
-function describeObject(obj, indent = "", maxWidth = 100) {
-    for (let [name, value] of Object.entries(obj)) {
-        let type = typeof value;
-        let valueStr;
-        if (type === "string") {
-            valueStr = util.inspect(value);
-        } else if (type === "number" || type === "boolean" || value === null) {
-            valueStr = value;
-        } else {
-            valueStr = `(${type})`;
-        }
-        let nameStr = spaceTab(name + ":");
-        let rawLine = `${indent}${nameStr}${valueStr}`;
-        let line;
-        if (rawLine.length > maxWidth) {
-            line = rawLine.substring(0, maxWidth - 1) + "…";
-        } else {
-            line = rawLine;
-        }
-        console.log(line);
-    }
-}
-module.exports.describeObject = describeObject;
-
-const TO_STRING = {}.toString;
-/** A better alternative to `typeof`.
- * Adapted from https://stackoverflow.com/questions/7390426/better-way-to-get-type-of-a-javascript-variable/7390612#7390612
- * @param {*} value Any value, including `null` and `undefined`.
- * @returns A string indicating the type of value passed:
- *   undefined  "Undefined"
- *   null       "Null"
- *   1          "Number"
- *   NaN        "Number" (sorry)
- *   Infinity   "Number"
- *   false      "Boolean"
- *   'string'   "String"
- *   []         "Array"
- *   {}         "Object"
- *   isNaN      "Function"
- *   _ => {}    "Function"
- *   new Date() "Date"
+/** Human readable format of a date span
+ * @param {Object} dayjs startDate
+ * @param {Object} dayjs endDate
  */
-function getType(value) {
-    let rawToString = TO_STRING.call(value);
-    let fields = rawToString.split(" ");
-    if (fields.length !== 2) {
-        console.error(repr`Wrong number of fields in toString: ${fields}`);
-        return null;
+function humanDateSpan(startDate, endDate) {
+    if (startDate.year() === endDate.year()) {
+        if (startDate.month() === endDate.month()) {
+            // Same month
+            // January 5 - 8, 2021
+            return `${startDate.format("MMMM DD")} - ${endDate.format("DD")}, ${endDate.format("YYYY")}`;
+        } else {
+            // Same year.
+            // January 5 - February 8, 2021
+            return `${startDate.format("MMMM D")} - ${endDate.format("MMMM D")}, ${endDate.format("YYYY")}`;
+        }
+    } else {
+        // January 5 2021 - February 8, 2022
+        return `${startDate.format("MMMM D YYYY")} - ${endDate.format("MMMM D YYYY")}`;
     }
-    if (!endswith(fields[1], "]")) {
-        console.error(repr`Unexpected toString value - no ending ']': ${rawToString}`);
-        return null;
-    }
-    return fields[1].slice(0, fields[1].length - 1);
 }
-module.exports.getType = getType;
+module.exports.humanDateSpan = humanDateSpan;
 
 /** Search for an object key in an object, recursively.
  * Descend into every value whose `getType()` is "Object" or "Array".
@@ -437,113 +346,35 @@ function logTree(root, depth, indent) {
 }
 module.exports.logTree = logTree;
 
-class PathInfo {
-    constructor(path) {
-        //TODO: `cache` option to tell it to cache results of system calls.
-        //      This will prevent it from updating as the filesystem state changes, though.
-        this.path = path;
+const TO_STRING = {}.toString;
+/** A better alternative to `typeof`.
+ * Adapted from https://stackoverflow.com/questions/7390426/better-way-to-get-type-of-a-javascript-variable/7390612#7390612
+ * @param {*} value  Any value, including `null` and `undefined`.
+ * @returns {String} The type of value passed:
+ *   undefined  "Undefined"
+ *   null       "Null"
+ *   1          "Number"
+ *   NaN        "Number" (sorry)
+ *   Infinity   "Number"
+ *   false      "Boolean"
+ *   'string'   "String"
+ *   []         "Array"
+ *   {}         "Object"
+ *   isNaN      "Function"
+ *   _ => {}    "Function"
+ *   new Date() "Date"
+ */
+function getType(value) {
+    let rawToString = TO_STRING.call(value);
+    let fields = rawToString.split(" ");
+    if (fields.length !== 2) {
+        console.error(repr`Wrong number of fields in toString: ${fields}`);
+        return null;
     }
-    /** Does the path exist?
-     *  Note: This returns `true` for broken symlinks (the link exists, but its targets does not).
-     */
-    exists() {
-        if (fs.existsSync(this.path)) {
-            return true;
-        } else {
-            try {
-                fs.lstatSync(this.path);
-                return true;
-            } catch (error) {
-                return false;
-            }
-        }
+    if (!fields[1].endsWith("]")) {
+        console.error(repr`Unexpected toString value - no ending ']': ${rawToString}`);
+        return null;
     }
-    static exists(path) {
-        let pathInfo = new this(path);
-        return pathInfo.exists();
-    }
-    /** Get the type of filesystem object this path points to.
-     *  If the path does not exist, return `'nonexistent'`.
-     *  If the path is a symbolic link, return the type of its target. If the target is missing,
-     *  return `'brokenlink'`.
-     */
-    type() {
-        if (!this.exists()) {
-            return "nonexistent";
-        }
-        let stats;
-        try {
-            stats = fs.statSync(this.path);
-        } catch (error) {
-            if (error.code === "ENOENT") {
-                // fs.statSync() will throw an error on a broken link.
-                // We defined those as "existing" in this.exists(), but fs.statSync() does not agree.
-                if (this.isLink()) {
-                    return "brokenlink";
-                } else {
-                    console.error(`Unexpected filesystem entry ${this.path}`);
-                    throw error;
-                }
-            } else {
-                throw error;
-            }
-        }
-        if (stats.isFile()) {
-            return "file";
-        } else if (stats.isDirectory()) {
-            return "dir";
-        } else if (stats.isSocket()) {
-            return "socket";
-        } else if (stats.isBlockDevice()) {
-            return "block";
-        } else if (stats.isCharacterDevice()) {
-            return "char";
-        } else if (stats.isFIFO()) {
-            return "fifo";
-        } else {
-            throw `Unexpected path type: ${this.path}`;
-        }
-    }
-    static type(path) {
-        let pathInfo = new this(path);
-        return pathInfo.type();
-    }
-    isLink() {
-        if (this.exists()) {
-            let stats = fs.lstatSync(this.path);
-            if (stats.isSymbolicLink()) {
-                return true;
-            }
-        }
-        return false;
-    }
-    static isLink(path) {
-        let pathInfo = new this(path);
-        return pathInfo.isLink();
-    }
-    mtime() {
-        if (this.exists()) {
-            let stats = fs.lstatSync(this.path);
-            return stats.mtimeMs;
-        } else {
-            return null;
-        }
-    }
-    static mtime(path) {
-        let pathInfo = new this(path);
-        return pathInfo.mtime();
-    }
-    size() {
-        if (this.exists()) {
-            let stats = fs.lstatSync(this.path);
-            return stats.size;
-        } else {
-            return null;
-        }
-    }
-    static size(path) {
-        let pathInfo = new this(path);
-        return pathInfo.size();
-    }
+    return fields[1].slice(0, fields[1].length - 1);
 }
-module.exports.PathInfo = PathInfo;
+module.exports.getType = getType;

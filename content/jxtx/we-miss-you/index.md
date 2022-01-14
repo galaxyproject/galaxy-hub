@@ -12,7 +12,7 @@ title: 'James Peter Taylor | 1979 - 2020'
 
 ---
 
-<img src="/src/jxtx/i-love-you-so-much.jpg" class="float-right figure-img img-fluid rounded" style="max-width: 30rem;" alt="We miss you James.">
+<img src="/jxtx/i-love-you-so-much.jpg" class="float-right figure-img img-fluid rounded" style="max-width: 30rem;" alt="We miss you James.">
 
 ## Community
 
@@ -33,7 +33,7 @@ James was a truly wonderful mentor, scientist, and human being. He was so brilli
 </blockquote>
 
 <blockquote class="blockquote">
-I am in shock and saddened over the horrible news that James Taylor has passed away.<br /> 
+I am in shock and saddened over the horrible news that James Taylor has passed away.<br />
 He was a cornerstone of the bioinformatics community, and with his leadership Galaxy grew to tremendous heights. <br />
 So heartbreaking, a true loss. My sincerest condolences to his family and all his friends. He will be sorely missed.<br />
 <footer class="blockquote-footer">Stian Soiland-Reyes, University of Manchester</footer>
@@ -87,7 +87,7 @@ I am utterly shocked and terribly saddened to hear this. James has been a wonder
 <footer class="blockquote-footer">Steven Salzberg, Johns Hopkins</footer>
 </blockquote>
 
-[<img src="/src/jxtx/james-and-alvey.png" alt="James and Alvey" class="float-right" style="max-width: 10rem;" />](/src/jxtx/james-and-alvey.png)
+[<img src="/jxtx/james-and-alvey.png" alt="James and Alvey" class="float-right" style="max-width: 10rem;" />](/jxtx/james-and-alvey.png)
 
 <blockquote class="blockquote">
 Our hearts are heavy.  James Taylor has passed away.
@@ -109,14 +109,14 @@ I am so shocked and saddened by the news of James's death. This is such a huge l
 </blockquote>
 
 <blockquote class="blockquote">
-James was, simply put, an amazing person. He was certainly an amazing scientist, but so much more than that. He was what we all hope to be as scientists, mentors, colleagues, and friends. 
+James was, simply put, an amazing person. He was certainly an amazing scientist, but so much more than that. He was what we all hope to be as scientists, mentors, colleagues, and friends.
 
 We will miss you James.
 <footer class="blockquote-footer">Karen Reddy, Johns Hopkins</footer>
 </blockquote>
 
 <blockquote class="blockquote">
-Heartbroken to hear this. Kind person, great scientist and open science advocate. He will be dearly missed, especially by the Galaxy community 
+Heartbroken to hear this. Kind person, great scientist and open science advocate. He will be dearly missed, especially by the Galaxy community
 <footer class="blockquote-footer">Nicola Soranzo, Earlham Institute</footer>
 </blockquote>
 
@@ -217,7 +217,7 @@ A great visionary and a lovely person too. We are all shocked and saddened. Such
 </blockquote>
 
 <blockquote class="blockquote">
-James was so approachable. Though we never got the chance to collaborate directly, when I first met *the* James Taylor I remember feeling that approachability in that someone so famous in our field would always take the time out to talk to me about science or about whatever the topic of the moment was. We had many conversations - some just a glance across a busy crowd at a conference where that would be our only acknowledgement, some,  hours long chats. The first memory that came to mind thinking back now was the many weeks he spent at CSHL instructing at courses in the fall. There were months when he was on campus more than I was. The particular memory that flashed when I heard this news was finishing a beer with him around 2 am in the cold outside the bar at Blackford. The bar had long closed, but we were having a crazy conversation along with one other course instructor about awful American TV shows. The conversation was of course punctuated with thoughts on comparative genomics. James was brilliant, but it wasn’t this that made him a star, helped him build a global community, or an enduring vision. He was a lovable and decent human being who will be fondly remembered. His work and the community he helped to create will live on. For every researcher who continues his legacy and works to live up to his achievements, don’t forget to bring along also his charm, curiosity, compassion, and love. 
+James was so approachable. Though we never got the chance to collaborate directly, when I first met *the* James Taylor I remember feeling that approachability in that someone so famous in our field would always take the time out to talk to me about science or about whatever the topic of the moment was. We had many conversations - some just a glance across a busy crowd at a conference where that would be our only acknowledgement, some,  hours long chats. The first memory that came to mind thinking back now was the many weeks he spent at CSHL instructing at courses in the fall. There were months when he was on campus more than I was. The particular memory that flashed when I heard this news was finishing a beer with him around 2 am in the cold outside the bar at Blackford. The bar had long closed, but we were having a crazy conversation along with one other course instructor about awful American TV shows. The conversation was of course punctuated with thoughts on comparative genomics. James was brilliant, but it wasn’t this that made him a star, helped him build a global community, or an enduring vision. He was a lovable and decent human being who will be fondly remembered. His work and the community he helped to create will live on. For every researcher who continues his legacy and works to live up to his achievements, don’t forget to bring along also his charm, curiosity, compassion, and love.
 <footer class="blockquote-footer">Jason Williams, CSHL</footer>
 </blockquote>
 
@@ -242,7 +242,7 @@ I feel very lucky to have been taught computational biology by James Taylor thro
 </blockquote>
 
 <blockquote class="blockquote">
-Deeply saddened by this. Such a tremendous loss for science! 
+Deeply saddened by this. Such a tremendous loss for science!
 <footer class="blockquote-footer">Mihaela Pertea, Johns Hopkins</footer>
 </blockquote>
 
@@ -340,9 +340,9 @@ This makes no sense. So incredibly sad to hear this. My heart goes out to all wh
 
 <div class="float-right img-sizer" style="max-width: 10rem;">
 
-[![Sarah's James-inspired shoes](/src/jxtx/cool-shoes-1.jpg)](/src/jxtx/cool-shoes-1.jpg)
+[![Sarah's James-inspired shoes](/jxtx/cool-shoes-1.jpg)](/jxtx/cool-shoes-1.jpg)
 
-[![James' shoes, an example](/src/jxtx/cool-shoes-2.png)](/src/jxtx/cool-shoes-2.png)
+[![James' shoes, an example](/jxtx/cool-shoes-2.png)](/jxtx/cool-shoes-2.png)
 
 </div>
 
@@ -385,7 +385,7 @@ James was visionary. And he had this rare quality of making you want to follow h
 
 
 <blockquote class="blockquote">
-I remember James from when we met at GCC in Portland 2018. He was thoughtful with an edge. He had a mystique to him. We shared a conversation about the craziness of skate bombing mountains in Vermont. His Coursera Galaxy courses made a big impact on my early training as the whole Galaxy project is for us; impacting. It's just so crazy to lose him so soon. 
+I remember James from when we met at GCC in Portland 2018. He was thoughtful with an edge. He had a mystique to him. We shared a conversation about the craziness of skate bombing mountains in Vermont. His Coursera Galaxy courses made a big impact on my early training as the whole Galaxy project is for us; impacting. It's just so crazy to lose him so soon.
 <footer class="blockquote-footer">Jean-Paul Courneya, University of Maryland</footer>
 </blockquote>
 
@@ -460,7 +460,7 @@ My world feels vastly diminished. James we will miss you.
 <footer class="blockquote-footer">Dave Clements, Johns Hopkins</footer>
 <br />
 <blockquote class="blockquote">
-The truth is, the world *is* diminished without him in it. 
+The truth is, the world *is* diminished without him in it.
 <footer class="blockquote-footer">Karen Reddy, Johns Hopkins</footer>
 </blockquote>
 </blockquote>
@@ -512,7 +512,7 @@ I had the chance to hang out with Jamesx for the first time at a dinner after a 
 </blockquote>
 
 <blockquote class="blockquote">
-We are so sorry to hear of James Taylor's death. As co-lead Galaxy, a professor of biology and computer science at Johns Hopkins and a treasured member of the international Galaxy community, his legacy will continue have profound impacts around the world 
+We are so sorry to hear of James Taylor's death. As co-lead Galaxy, a professor of biology and computer science at Johns Hopkins and a treasured member of the international Galaxy community, his legacy will continue have profound impacts around the world
 <footer class="blockquote-footer">Galaxy Australia Team</footer>
 </blockquote>
 
@@ -581,7 +581,7 @@ James Taylor was an NHGRI-funded investigator who made significant contributions
 <footer class="blockquote-footer">National Human Genome Research Institute</footer>
 </blockquote>
 
-[<img src="/src/jxtx/james-okinawa.jpg" alt="James and Greg at Biohackathon 2009" class="float-right" style="max-width: 10rem;" />](/src/jxtx/james-okinawa.jpg)
+[<img src="/jxtx/james-okinawa.jpg" alt="James and Greg at Biohackathon 2009" class="float-right" style="max-width: 10rem;" />](/jxtx/james-okinawa.jpg)
 
 <blockquote class="blockquote">
 So sad to learn of the passing of James Taylor. Met James long ago via the OBF/Galaxy/WormBase. A truly  positive an inspiring force. Quick snap of James (with Greg von Kuster) at the 2009 Biohackathon on Okinawa.
@@ -610,7 +610,7 @@ I met James over five years ago though the Galaxy Community, and I believe that 
 </blockquote>
 
 <blockquote class="blockquote">
-I'm just a citizen scientist active in human genome analysis especially regarding Y-DNA J2 and ancestral and relatives haplotype clusters. I cheer and am thankful of public science services like Galaxy Project and hereby would like to send my thanks to James Taylor et al for what they provided to every interested person. 
+I'm just a citizen scientist active in human genome analysis especially regarding Y-DNA J2 and ancestral and relatives haplotype clusters. I cheer and am thankful of public science services like Galaxy Project and hereby would like to send my thanks to James Taylor et al for what they provided to every interested person.
 <footer class="blockquote-footer">Chris R., Tyrol, Alps</footer>
 </blockquote>
 
@@ -620,7 +620,7 @@ When I think of James I remember him relaxing in the sun during one of the GCC h
 <footer class="blockquote-footer">Peter van Heusden, SANBI</footer>
 </blockquote>
 
-[<img src="/src/jxtx/leek-laptop-stickers.jpg" alt="Jeff Leek's laptop stickers: 60% James and Company" class="float-right" style="max-width: 10rem;" />](/src/jxtx/leek-laptop-stickers.jpg)
+[<img src="/jxtx/leek-laptop-stickers.jpg" alt="Jeff Leek's laptop stickers: 60% James and Company" class="float-right" style="max-width: 10rem;" />](/jxtx/leek-laptop-stickers.jpg)
 
 <blockquote class="blockquote">
 60 percent of my laptop stickers are due to @jxtx and team. Glad to be with them during this.
@@ -661,15 +661,15 @@ I am so saddened to hear this.  I felt a bond with James over his commitment to 
 <footer class="blockquote-footer">Cricket Sloan, UCSC</footer>
 </blockquote>
 
-[<img src="/src/jxtx/james-at-apachecon.jpg" alt="James at ApacheCon, with Kurt Schrader" class="float-right" style="max-width: 10rem;" />](/src/jxtx/james-at-apachecon.jpg)
+[<img src="/jxtx/james-at-apachecon.jpg" alt="James at ApacheCon, with Kurt Schrader" class="float-right" style="max-width: 10rem;" />](/jxtx/james-at-apachecon.jpg)
 
 <blockquote class="blockquote">
-I met James in November 2002 at an open-source software conference. He was working professionally as a software developer and was speaking of his desire to go back to school to study bioinformatics. I’ve watched his career from afar as he’s done amazing work. I know he will be missed. 
+I met James in November 2002 at an open-source software conference. He was working professionally as a software developer and was speaking of his desire to go back to school to study bioinformatics. I’ve watched his career from afar as he’s done amazing work. I know he will be missed.
 <footer class="blockquote-footer">Peter Royal</footer>
 </blockquote>
 
 <blockquote class="blockquote">
-I am feeling a deep sadness knowing that a true scientist has passed away. I have not met Dr Taylor, but I felt him like my friend I learnt a lot from his participation in Galaxy and online courses and I am sure his legacy will never ever be forgotten. My condolences to his family and colleagues. 
+I am feeling a deep sadness knowing that a true scientist has passed away. I have not met Dr Taylor, but I felt him like my friend I learnt a lot from his participation in Galaxy and online courses and I am sure his legacy will never ever be forgotten. My condolences to his family and colleagues.
 <footer class="blockquote-footer">Adnan A. Lahuf, University of Kerbala, Iraq</footer>
 </blockquote>
 
@@ -690,7 +690,7 @@ People who interacted with James in any capacity thought the world of him.
 
 <div class="float-right img-sizer" style="width: 5.53rem">
 
-[![From Björn Grüning](/src/jxtx/growing.jpg)](/src/jxtx/growing.jpg)
+[![From Björn Grüning](/jxtx/growing.jpg)](/jxtx/growing.jpg)
 
 </div>
 
@@ -709,7 +709,7 @@ This is truly very sad, my deepest condolences to his family, friends and to the
 <footer class="blockquote-footer">Pablo Moreno, EMBL-EBI</footer>
 </blockquote>
 
-[<img src="/src/jxtx/office.jpg" alt="At Hopkins" class="float-right" style="max-width: 10rem;" />](/src/jxtx/office.jpg)
+[<img src="/jxtx/office.jpg" alt="At Hopkins" class="float-right" style="max-width: 10rem;" />](/jxtx/office.jpg)
 
 <blockquote class="blockquote">
 I came in today and found this in front of James’ office.
@@ -717,7 +717,7 @@ I came in today and found this in front of James’ office.
 </blockquote>
 
 <blockquote class="blockquote">
-I met James at a Galaxy Community developers conference in the first year of my PhD and was taken aback by how friendly he and his team were and welcoming to all as equals.  A great admirer and user of his work and saddened by this loss. 
+I met James at a Galaxy Community developers conference in the first year of my PhD and was taken aback by how friendly he and his team were and welcoming to all as equals.  A great admirer and user of his work and saddened by this loss.
 <footer class="blockquote-footer">Craig Monger, Trinity College Dublin</footer>
 </blockquote>
 

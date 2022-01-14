@@ -1,4 +1,4 @@
-<div class='right'>![](/src/galaxy-team/matthias.jpg)</div>
+<div class='right'>![](/galaxy-team/matthias.jpg)</div>
 
 # Matthias Bernt
 

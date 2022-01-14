@@ -1,4 +1,4 @@
-<div class='center'><a href='/src/community/galaxy-admins/index.md'><img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a> 
+<div class='center'><a href='/community/galaxy-admins/'><img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" width="220" /></a>
 <div class='title'>2016-06-16 Web Meetup<br /><br />
 
 </div></div>
@@ -18,7 +18,7 @@
   </tr>
   <tr>
     <th> Topics </th>
-    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/hexylena/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/src/people/helena-rasche/index.md'>Helena Rasche</a></div> </td>
+    <td> <em>Galaxy in Production at the University of Minnesota</em> (<a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/201606_Admins_umn.pdf'>Slides</a>)<div class='indent'> <a href='https://www.msi.umn.edu/staff/evan'>Evan Bollig</a> and <a href='https://www.msi.umn.edu/staff/jj'>JJ Johnson</a> of the <a href='https://www.msi.umn.edu/'>Minnesota Supercomputing Institute</a> </div> <em><a href='https://github.com/galaxyproject/galaxy/pull/2455'>Galaxy Radio Telescope</a></em> (<a href='https://github.com/hexylena/presentations/blob/master/2016_06_galaxyadmins/talk.pdf'>Slides</a>)<div class='indent'><a href='/people/helena-rasche/'>Helena Rasche</a></div> </td>
   </tr>
   <tr>
     <th> Links </th>
@@ -29,13 +29,13 @@
 
 <br />
 
-*[GalaxyAdmins](/src/community/galaxy-admins/index.md)* is a discussion group for Galaxy community members who are responsible for Galaxy installations. 
+*[GalaxyAdmins](/community/galaxy-admins/)* is a discussion group for Galaxy community members who are responsible for Galaxy installations.
 
 ## Galaxy in Production at the University of Minnesota
 
 <div class='right'>
-<a href='https://www.msi.umn.edu/'><img src="/src/images/news-graphics/UMN_MSI_Square.png" alt="Minnesota Supercomputing Institute" width="140" /></a><br /><br />
-<a href='https://github.com/galaxyproject/galaxy/pull/2455'><img src="/src/images/logos/GRT.png" alt="Galaxy Radio Telescope"  width="140" /></a>
+<a href='https://www.msi.umn.edu/'><img src="/images/news-graphics/UMN_MSI_Square.png" alt="Minnesota Supercomputing Institute" width="140" /></a><br /><br />
+<a href='https://github.com/galaxyproject/galaxy/pull/2455'><img src="/images/logos/GRT.png" alt="Galaxy Radio Telescope"  width="140" /></a>
 </div>
 
 Galaxy has been deployed in several contexts by the [Minnesota Supercomputing Institute (MSI)](https://www.msi.umn.edu/) at the [University of Minnesota - Twin Citites](https://www.umn.edu/).  This month [Evan Bollig](https://www.msi.umn.edu/staff/evan) and [JJ Johnson](https://www.msi.umn.edu/staff/jj) of MSI will discuss several aspects of this work relevant to the GalaxyAdmins group:
@@ -57,20 +57,20 @@ Galaxy Admins can sign in to the GRT, register their Galaxy servers, and get bac
 And there was a question about MSI login screens during the presentation by Evan and JJ.  Here are two screenshots:
 
 <div class='center'>
-<a href='/src/community/galaxy-admins/meetups/2016-06-16/MSILogin1.png'><img src="/src/community/galaxy-admins/meetups/2016-06-16/MSILogin1.png" alt="Login Screen 1; click to expand" width="500" /></a>
-<a href='/src/community/galaxy-admins/meetups/2016-06-16/MSILogin2.png'><img src="/src/community/galaxy-admins/meetups/2016-06-16/MSILogin2.png" alt="Login Screen 1; click to expand" width="500" /></a>
+<a href='/community/galaxy-admins/meetups/2016-06-16/MSILogin1.png'><img src="/community/galaxy-admins/meetups/2016-06-16/MSILogin1.png" alt="Login Screen 1; click to expand" width="500" /></a>
+<a href='/community/galaxy-admins/meetups/2016-06-16/MSILogin2.png'><img src="/community/galaxy-admins/meetups/2016-06-16/MSILogin2.png" alt="Login Screen 1; click to expand" width="500" /></a>
 </div>
 
 ## Call Technology
 
-<div class='right'><img src="/src/images/logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
+<div class='right'><img src="/images/logos/AdobeConnectSquarish.jpg" alt="April 2015 GalaxyAdmina Meetup, Online Conference Room" width="150" /></div>
 
 The  meetup's online conference room will open 15 minutes before the meetup.  The call will use [Johns Hopkins' Adobe Connect server](http://connect.johnshopkins.edu/welcome/), which in turn uses Adobe Flash.  You are encouraged to connect a few minutes early to work out any unexpected bumps.
 
 ### Instructions for Participants
 
 * You can ask questions either by *raising your hand* or by typing the question in the chat box.  
-  * If you raise your hand, the host will need to recognize you.
-  * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
+    * If you raise your hand, the host will need to recognize you.
+    * If you ask a question verbally, please wear headphones.  Not wearing headphones lead to unpleasant feedback.
 
-<div class='center'><img src="/src/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>
+<div class='center'><img src="/images/communities/AdobeConnectQuestion.png" alt="" width="100%" /></div>

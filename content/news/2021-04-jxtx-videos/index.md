@@ -5,16 +5,16 @@ external_url: ""
 date: "2021-04-02"
 ---
 
-<a href="/src/jxtx/index.md"><img src="/src/jxtx/i-love-you-so-much.jpg" alt="A good James story" class="float-right" style="max-width: 24rem" /></a>
+<a href="/jxtx/"><img src="/jxtx/i-love-you-so-much.jpg" alt="A good James story" class="float-right" style="max-width: 24rem" /></a>
 
 <p class="lead">
 
-**Note: The deadline for submitted vides has been extended to May 7.  See [the announcement](/src/news/2021-05-galaxy-update/index.md#featured-news) for more.**
+**Note: The deadline for submitted vides has been extended to May 7.  See [the announcement](/news/2021-05-galaxy-update/#featured-news) for more.**
 
 </p>
 
 
-It's been a year since [James Taylor](/src/jxtx/index.md) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a community video that will be prominently featured on all Galaxy-related sites.
+It's been a year since [James Taylor](/jxtx/) passed away.  To remember him, and mark his upcoming birthday (May 18) we would like to create a community video. We are asking you to tell us your favorite story about James in ~ 30 seconds. We will combine your clips into a community video that will be prominently featured on all Galaxy-related sites.
 
 Here is what we will need you to do before April 30:
 

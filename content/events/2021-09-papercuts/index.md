@@ -5,7 +5,7 @@ days: 1
 tease: 'A community contribution day'
 continent: GL
 location: 'Online, Global'
-image: "/events/cofests/papercuts/papercuts.png"
+image: "/images/galaxy-logos/papercuts.png"
 location_url: "/events/cofests/papercuts/"
 external_url:
 gtn: false
@@ -13,7 +13,7 @@ contact: Community
 tags: [ cofest, papercuts ]
 ---
 
-*Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/src/events/cofests/papercuts/index.md) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
+*Paper cuts are annoying but easy to fix bugs. [Paper cuts CoFests](/events/cofests/papercuts/) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues, and by onboarding new contributors in the Galaxy community.*
 
 Want to improve Galaxy, and get involved with Galaxy? Please join us on September 16.
 
@@ -39,17 +39,17 @@ On Papercuts Day, please join us on [Gitter](https://gitter.im/galaxyproject/Lob
 
 Here are links to the issues identified as potential targets for papercuts day:
 
-| Repo / Project | [Working Group](/src/community/wg/index.md) | What is it? | Tags |
+| Repo / Project | [Working Group](/community/wg/) | What is it? | Tags |
 | --- | --- | --- | --- |
-| **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Backend, User Interface / User Experience | Galaxy server and front end. | **[paper-cut](https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut)** | 
-| **[Galaxy Admin Training](https://github.com/galaxyproject/admin-training/)** | Admin | Training materials for Galaxy Admin Training. | **[paper-cut](https://github.com/galaxyproject/admin-training/labels/paper-cuts)** | 
-| **[Galaxy Training Network](https://github.com/galaxyproject/training-material)** | Outreach & Training | Training materials. | **[Collaboration Fest ideas](https://github.com/galaxyproject/training-material/issues/2070), [newcomer-friendly](https://github.com/galaxyproject/training-material/labels/newcomer-friendly), [paper-cut](https://github.com/galaxyproject/training-material/labels/paper-cut)** | 
-| **[CloudMan](https://github.com/galaxyproject/cloudman)** | Deployment | Managing instances on cloud infrastructures. | **[good first issue](https://github.com/galaxyproject/cloudman/labels/good%20first%20issue)** | 
-| **[IUC Tools](https://github.com/galaxyproject/tools-iuc)** | Tools | Wrappers for popular tools in Galaxy. | **[paper-cut](https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut)** | 
-| **[BioBlend](https://github.com/galaxyproject/bioblend)** | Backend | The Galaxy Python API. | **[paper-cut](https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut)** | 
-| **[Galaxy Hub](https://github.com/galaxyproject/galaxy-hub/)** | Outreach & Training | The Galaxy Community web site. | **[paper-cut](https://github.com/galaxyproject/galaxy-hub/labels/paper-cut)** | 
-| **[Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy/)** | Deployment | Galaxy deployment recipes.  | **[paper-cut](https://github.com/galaxyproject/ansible-galaxy/labels/paper-cut)** | 
-| **[LSP server](https://github.com/galaxyproject/galaxy-language-server/)** | Backend | Galaxy Tool Language Server.  | **[paper-cut](https://github.com/galaxyproject/galaxy-language-server/labels/paper-cut)** | 
+| **[Galaxy Server](https://github.com/galaxyproject/galaxy)** | Backend, User Interface / User Experience | Galaxy server and front end. | **[paper-cut](https://github.com/galaxyproject/galaxy/issues?q=is%3Aopen+label%3Apaper-cut)** |
+| **[Galaxy Admin Training](https://github.com/galaxyproject/admin-training/)** | Admin | Training materials for Galaxy Admin Training. | **[paper-cut](https://github.com/galaxyproject/admin-training/labels/paper-cuts)** |
+| **[Galaxy Training Network](https://github.com/galaxyproject/training-material)** | Outreach & Training | Training materials. | **[Collaboration Fest ideas](https://github.com/galaxyproject/training-material/issues/2070), [newcomer-friendly](https://github.com/galaxyproject/training-material/labels/newcomer-friendly), [paper-cut](https://github.com/galaxyproject/training-material/labels/paper-cut)** |
+| **[CloudMan](https://github.com/galaxyproject/cloudman)** | Deployment | Managing instances on cloud infrastructures. | **[good first issue](https://github.com/galaxyproject/cloudman/labels/good%20first%20issue)** |
+| **[IUC Tools](https://github.com/galaxyproject/tools-iuc)** | Tools | Wrappers for popular tools in Galaxy. | **[paper-cut](https://github.com/galaxyproject/tools-iuc/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut)** |
+| **[BioBlend](https://github.com/galaxyproject/bioblend)** | Backend | The Galaxy Python API. | **[paper-cut](https://github.com/galaxyproject/bioblend/issues?q=is%3Aopen+is%3Aissue+label%3Apaper-cut)** |
+| **[Galaxy Hub](https://github.com/galaxyproject/galaxy-hub/)** | Outreach & Training | The Galaxy Community web site. | **[paper-cut](https://github.com/galaxyproject/galaxy-hub/labels/paper-cut)** |
+| **[Ansible Galaxy](https://github.com/galaxyproject/ansible-galaxy/)** | Deployment | Galaxy deployment recipes.  | **[paper-cut](https://github.com/galaxyproject/ansible-galaxy/labels/paper-cut)** |
+| **[LSP server](https://github.com/galaxyproject/galaxy-language-server/)** | Backend | Galaxy Tool Language Server.  | **[paper-cut](https://github.com/galaxyproject/galaxy-language-server/labels/paper-cut)** |
 
 
 ## Developer Quick Dive Videos
@@ -75,14 +75,14 @@ If you have time, and want to learn more about contributing you are encouraged t
 We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 * **Call 1: Oceania, Australia, Asia**
-  * 14:00 Australia Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=14%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210916T14&p1=152&am=30).
-  * [Zoom Link](https://zoom.us/j/98189403566?pwd=SWhueXkzNHlKSG1QMU0xUG1ESFFsUT09)
+    * 14:00 Australia Eastern time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=14%3A00+Melbourne+Galaxy+Papercuts+CoFest+Call&iso=20210916T14&p1=152&am=30">See your time</a>.
+    * [Zoom Link](https://zoom.us/j/98189403566?pwd=SWhueXkzNHlKSG1QMU0xUG1ESFFsUT09)
 * **Call 2: Middle East, Europe, Africa**
-  * 10:00 Central European Summer time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=10%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210916T10&p1=980&am=30).
-  * [Zoom Link](https://us02web.zoom.us/j/89108992104?pwd=eHhWdFFUQThnVVFwZ3RRall4WjBXQT09)
+    * 10:00 Central European Summer time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=10%3A00+Freiburg+Galaxy+Papercuts+CoFest+Call&iso=20210916T10&p1=980&am=30">See your time</a>.
+    * [Zoom Link](https://us02web.zoom.us/j/89108992104?pwd=eHhWdFFUQThnVVFwZ3RRall4WjBXQT09)
 * **Call 3: Americas**
-  * 12:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210916T12&p1=3705&am=30).
-  * [Zoom Link](https://zoom.us/j/98189403566?pwd=SWhueXkzNHlKSG1QMU0xUG1ESFFsUT09)
+    * 12:00 US Eastern time.  <a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=12%3A00+Penn+State+Galaxy+Papercuts+CoFest+Call&iso=20210916T12&p1=3705&am=30">See your time</a>.
+    * [Zoom Link](https://zoom.us/j/98189403566?pwd=SWhueXkzNHlKSG1QMU0xUG1ESFFsUT09)
 
 ## After the event
 

@@ -3,7 +3,16 @@
         <div class="col-md-12">
             <section class="section-content">
                 <h1 class="page-title">{{ $page.main.title }}</h1>
-                <div class="blurb markdown" v-html="$page.main.content" />
+                <b-row>
+                    <div class="blurb markdown" v-html="$page.main.content" />
+                    <b-img
+                        class="m-3"
+                        style="width: 11rem"
+                        src="/images/undraw-illustrations/galactic-search.svg"
+                        fluid
+                        alt="Galactic search"
+                    ></b-img>
+                </b-row>
                 <b-tabs>
                     <b-tab title="Pan-Galactic Google Search">
                         <gcse:searchresults-only></gcse:searchresults-only>
@@ -94,6 +103,9 @@ query {
     id
     title
     content
+    fileInfo {
+      path
+    }
   }
   footer: insert(path: "/insert:/search/footer/") {
     id

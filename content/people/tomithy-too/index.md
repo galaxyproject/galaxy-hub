@@ -34,7 +34,7 @@ Galaxy uses the Model-View-Controller software architecture.
 ### 2.1 Design Notes
 
 * Galaxy tries not to replicate data.
-* All data are marshelled through the python object called "[HistoryDatasetAssociation](/src/HistoryDatasetAssociation/index.md)" found @Dir: lib/galaxy/model/__init__.py (unexpected name, yes) and you can basically think of it as a dataset object.
+* All data are marshelled through the python object called "[HistoryDatasetAssociation](/HistoryDatasetAssociation/)" found @Dir: lib/galaxy/model/__init__.py (unexpected name, yes) and you can basically think of it as a dataset object.
 * Dataset ID can be found by right clicking the save icon on the history panel and copying the url or 2) by observing the http calls made to galaxy via terminal.
 * The data is stored in the database/job_working_directory/{user_id}/file_index and is mapped to its respective dataset_id by a sql hashtable ?somewhere. So each data stored in galaxy correspond to an indexed row somewhere.
 * Users usually interact with their list of data via the history panel (right of main page)
@@ -42,11 +42,11 @@ Galaxy uses the Model-View-Controller software architecture.
 
 ### 2.2 Classes Of Note
 
-- Dataset @Dir lib/galaxy/web/base/controller : Main method for accessing datasets stored in Galaxy by the hashed ID. To retrieve data, one can make a http call to the dataset controller with the dataset ID (http://127.0.0.1:8080/datasets/ba751ee0539fff04).
+* Dataset @Dir lib/galaxy/web/base/controller : Main method for accessing datasets stored in Galaxy by the hashed ID. To retrieve data, one can make a http call to the dataset controller with the dataset ID (http://127.0.0.1:8080/datasets/ba751ee0539fff04).
 
-- model/__init__.py - HistoryDatasetAssociation class: Main python object which you access your data. You might want to look see how the class UsesHistoryDatasetAssociationMixin interacts with it to retrieve data, or even better, let your web controller inherit from the said class to get all the data interaction methods for free!
+* model/__init__.py - HistoryDatasetAssociation class: Main python object which you access your data. You might want to look see how the class UsesHistoryDatasetAssociationMixin interacts with it to retrieve data, or even better, let your web controller inherit from the said class to get all the data interaction methods for free!
 
-- UsesHistoryDatasetAssociationMixin class: Web Controllers will have to extend this calls to gain many convenience methods like get_Data, get_dataset(dataset_id) to retrieve the dataset, a further call to get_data(dataset) is required to get the raw data out of the dataset object (hint: the return is a tuple (truncated_data_for_large_queries , data) or file_ext to get file extension.
+* UsesHistoryDatasetAssociationMixin class: Web Controllers will have to extend this calls to gain many convenience methods like get_Data, get_dataset(dataset_id) to retrieve the dataset, a further call to get_data(dataset) is required to get the raw data out of the dataset object (hint: the return is a tuple (truncated_data_for_large_queries , data) or file_ext to get file extension.
 
 
 

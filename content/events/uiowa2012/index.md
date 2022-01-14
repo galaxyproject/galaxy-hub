@@ -8,14 +8,14 @@ title: Introduction to Galaxy
   <tr>
     <td style=" border: none; text-align: center; vertical-align: middle; font-family: 'Times New Roman',Georgia,Serif; font-size: 200%; line-height: 120%;"> <a href='http://www.medicine.uiowa.edu/humangenetics'>Iowa Initiative</a><br /><a href='http://www.medicine.uiowa.edu/humangenetics'>in Human Genetics</a> </td>
     <td style=" border: none; text-align: center; vertical-align: middle; width: 10%;"> </td>
-    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iowa.edu/'><img src="/src/images/logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></a> </td>
+    <td style=" border: none; text-align: center; vertical-align: middle;"> <a href='http://iowa.edu/'><img src="/images/logos/UIowaLogo.jpg" alt="University of Iowa" width="200" /></a> </td>
   </tr>
 </table>
 
 
 **A workshop for the University of Iowa community
 
-Instructor: [Dave Clements](/src/people/dave-clements/index.md)
+Instructor: [Dave Clements](/people/dave-clements/)
 
 April 19: Two workshops:**
 <table>
@@ -101,12 +101,12 @@ No programming or Linux command line experience is required.
 
 ## Slides
 
-* [Introduction to Galaxy](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_UIowaIntroToGalaxy.pdf), [Dave Clements](/src/people/dave-clements/index.md)
+* [Introduction to Galaxy](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_UIowaIntroToGalaxy.pdf), [Dave Clements](/people/dave-clements/)
 * [University of Iowa Custom Galaxy Deployment](https://depot.galaxyproject.org/hub/attachments/documents/presentations/2012_UIowaCustomGalaxyDeployment.pdf), Ann Black-Ziegelbein
 
 ## Support
 
-<div class='right'><a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
+<div class='right'><a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a></div>
 
 This workshop is generously supported by an [AWS in Education](http://aws.amazon.com/education/) grant award, and the [Iowa Initiative in Human Genetics](http://www.medicine.uiowa.edu/humangenetics)
 

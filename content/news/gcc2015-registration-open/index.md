@@ -2,7 +2,7 @@
 title: "GCC2015 Registration is Open!"
 date: "2015-04-27"
 ---
-<div class='right'><a href='http://gcc2015.tsl.ac.uk/registration/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Registration is open" width="220" /></a></div>
+<div class='right'><a href='http://gcc2015.tsl.ac.uk/registration/'><img src="/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Registration is open" width="220" /></a></div>
 
 We are tremendously pleased (and more than a little relieved) to announce that **[registration for GCC2015 is now open](http://gcc2015.tsl.ac.uk/registration/)**.  The [2015 Galaxy Community Conference](http://gcc2015.tsl.ac.uk/) includes [2 days of hackathons, 2 days of training, and a two day meeting](http://gcc2015.tsl.ac.uk/programme/) featuring accepted presentations, keynotes, poster sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking.  GCC2015 is hosted by [The Sainsbury Laboratory](http://www.tsl.ac.uk/), in Norwich, UK, and events run 4-8 July.
 
@@ -10,8 +10,8 @@ We are tremendously pleased (and more than a little relieved) to announce that *
 
 You can also sign up for [conference housing](http://gcc2015.tsl.ac.uk/logistics/#Lodging) during (and only during) registration.
 
-We apologize profusely for the delay in opening registration, and we thank you for your patience and faith.  We promise the conference will again [be spectacular](/src/galaxy-project/statistics/index.md#events).
+We apologize profusely for the delay in opening registration, and we thank you for your patience and faith.  We promise the conference will again [be spectacular](/galaxy-project/statistics/#events).
 
-[Dave Clements](/src/people/dave-clements/index.md) and [Martin Page](http://www.tsl.ac.uk/staff/martin-page/), on behalf of the [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/).
+[Dave Clements](/people/dave-clements/) and [Martin Page](http://www.tsl.ac.uk/staff/martin-page/), on behalf of the [GCC2015 Organising Committee](http://gcc2015.tsl.ac.uk/organisers/).
 
 PS: *And don't forget the [poster abstract](http://gcc2015.tsl.ac.uk/Abstracts) submission deadline is 1 May.*

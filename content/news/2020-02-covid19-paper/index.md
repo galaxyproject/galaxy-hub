@@ -20,7 +20,7 @@ and closes with
 In an age of digital connectedness, open, highly accessible, globally shared data and analysis platforms have the potential to transform the way biomedical research is done, opening the way to ‘global research markets’, *where competition arises from deriving understanding rather than access to samples and data.* [emphasis added] ...
 </blockquote>
 
-For more information, see 
+For more information, see
 
 * **[Initial analysis of COVID-19 data using Galaxy, BioConda and public research infrastructure (XSEDE, de.NBI-cloud, ARDC cloud)](https://github.com/galaxyproject/SARS-CoV-2)**, a GitHub repository describing the analyses used in this paper, with links to Galaxy workflows and histories, and to the Bioconda repos that were used.
 * **[Open collaborative infrastructure to tackle public health emergencies](https://elixir-europe.org/news/COVID-19-data-open-analysis)**, news item from ELIXIR Europe on this research

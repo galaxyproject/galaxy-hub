@@ -2,12 +2,12 @@
 title: Introduction to Galaxy for Next Generation Sequencing Analysis
 ---
 <div class='center'>
-<a href='http://www.pennstatehershey.org/web/college'><img src="/src/images/logos/PSUMedicine.png" alt="Penn State University College of Medicine" width="400" /></a>
+<a href='http://www.pennstatehershey.org/web/college'><img src="/images/logos/PSUMedicine.png" alt="Penn State University College of Medicine" width="400" /></a>
 
 
 
 **May 27, 2015, 10:00-4:00**<br />
-Instructor: [Anton Nekrutenko](/src/people/anton/index.md), Penn State University<br /><br />
+Instructor: [Anton Nekrutenko](/people/anton/), Penn State University<br /><br />
 Room 302C, [Conference Center](http://www.pennstatehershey.org/c/document_library/get_file?folderId=11516&name=DLFE-17612.pdf)<br />[Penn State Hershey](http://www.pennstatehershey.org/)<br />
 Hershey, Pennsylvania, United States
 </div>
@@ -72,7 +72,7 @@ This is a very much a hands-on workshop.  To fully participate, attendees need t
 
 <div class='right center'>
 <br /><br />
-<a href='http://aws.amazon.com/'><img src="/src/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a>
+<a href='http://aws.amazon.com/'><img src="/images/logos/AWSLogo.png" alt="Amazon Web Services" /></a>
 </div>
 
 ## Support

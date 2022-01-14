@@ -82,7 +82,7 @@ Registration is through [EventBrite](https://galaxyadmin2016.eventbrite.com).
 
 * Cancellations received after October 16 will not receive a refund.
 
-*Note that hotel reservations are a separate booking and are governed by the policies of the [University Guest House](/src/events/admin-training2016/registration/Logistics/index.md).*
+*Note that hotel reservations are a separate booking and are governed by the policies of the [University Guest House](/events/admin-training2016/logistics/).*
 
 
 

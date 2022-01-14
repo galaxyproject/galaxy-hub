@@ -5,17 +5,17 @@ date: '2019-03-21'
 ---
 
 <div class="float-right">
-[<img src="/src/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" alt="GalaxyAdmins" style="max-width: 200px" />](/src/community/galaxy-admins/index.md) <br /><br />
-[<img src="/src/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" style="max-width: 200px" />](https://kubernetes.io/) <br/><br />
-[<img class="float-right" src="/src/blog/2018-08-cotm-pablo-moreno/pablo-moreno.jpg" alt="Pablo Moreno" style="max-width: 150px" />](/src/blog/2018-08-cotm-pablo-moreno/index.md)
+[<img src="/images/galaxy-logos/GalaxyAdmins.png" alt="GalaxyAdmins" alt="GalaxyAdmins" style="max-width: 200px" />](/community/galaxy-admins/) <br /><br />
+[<img src="/images/logos/kubernetes-logo-text-wide.png" alt="Kubernetes" style="max-width: 200px" />](https://kubernetes.io/) <br/><br />
+[<img class="float-right" src="/blog/2018-08-cotm-pablo-moreno/pablo-moreno.jpg" alt="Pablo Moreno" style="max-width: 150px" />](/blog/2018-08-cotm-pablo-moreno/)
 </div>
 
 * **Date:** 21 March 2019, 15:00 GMT (see your [local time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=March+2019+GalaxyAdmins+Meetup&iso=20190321T15&p1=1234&ah=1))
 * **Topic:**  Discussion and *Running Galaxy on Kubernetes*
-* **Presenter:** [Pablo Moreno](/src/blog/2018-08-cotm-pablo-moreno/index.md) 
+* **Presenter:** [Pablo Moreno](/blog/2018-08-cotm-pablo-moreno/)
 * **Links:** [Video](https://psu.zoom.us/recording/share/fxYPYnl0qXKh_mxy4nPb-k2JunrdJWC0P9QfTS66uT2wIumekTziMw), [Slides](https://depot.galaxyproject.org/hub/attachments/community/galaxy-admins/meetups/2019-03-21/galaxy-admins-kubernetes-2019-03-21.pdf)
 
-*[GalaxyAdmins](/src/community/galaxy-admins/index.md)* meetups are back!  We are a discussion group for Galaxy community members who are responsible for Galaxy installations. We are going to try some changes to the format this year to hopefully make the admin meetups more interactive and engaging for all participants.
+*[GalaxyAdmins](/community/galaxy-admins/)* meetups are back!  We are a discussion group for Galaxy community members who are responsible for Galaxy installations. We are going to try some changes to the format this year to hopefully make the admin meetups more interactive and engaging for all participants.
 
 ## Meetup Technology
 

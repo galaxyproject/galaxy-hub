@@ -7,7 +7,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/bgruening/galaxy-exome-seq/"
     platform_text: "Galaxy Exome-Seq Docker"
 summary: "Galaxy Docker repository for Exome sequencing data analysis"
-image: "/src/images/logos/DockerInGalaxy.png"
+image: "/images/logos/DockerInGalaxy.png"
 comments:
   - "Galaxy in Docker for Exome-Seq."
 user_support:
@@ -17,5 +17,5 @@ quotas:
 citations:
 pub_libraries:
 sponsors:
-  - "[Björn Grüning](/src/people/bjoern-gruening/index.md) and Bérénice Batut"
+  - "[Björn Grüning](/people/bjoern-gruening/) and Bérénice Batut"
 ---

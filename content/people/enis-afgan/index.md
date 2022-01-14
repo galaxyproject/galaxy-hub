@@ -1,4 +1,4 @@
-<div class='right'>![](/src/images/people/EnisAfgan.jpg)</div>
+<div class='right'>![](/images/people/EnisAfgan.jpg)</div>
 
 # Enis Afgan
 

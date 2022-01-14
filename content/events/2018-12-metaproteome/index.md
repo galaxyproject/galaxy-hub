@@ -5,7 +5,7 @@ days: 3
 tease: "4 talks using Galaxy for Metaproteomics" 
 continent: EU
 location: "Helmholtz-UFZ, Leipzig Germany"
-image: "/src/events/2018-12-metaproteome/2018-metaproteomics-symposium.png"
+image: "/events/2018-12-metaproteome/2018-metaproteomics-symposium.png"
 location_url: "https://fems-microbiology.org/opportunities/3rd-international-metaproteome-symposium-2018-3-5-december-2018-germany/"
 external_url: 
 contact: "Pratik Jagtap, Tim Griffin, Magnus Arntzen, Praveen Kumar"
@@ -13,7 +13,7 @@ contact: "Pratik Jagtap, Tim Griffin, Magnus Arntzen, Praveen Kumar"
 
 The [Galaxy-P Project](http://galaxyp.org/) will be giving [4 presentations](https://www.ufz.de/export/data/2/216895_Program_3rd%20IMS.pdf) at [3rd International Metaproteome Symposium](https://fems-microbiology.org/opportunities/3rd-international-metaproteome-symposium-2018-3-5-december-2018-germany/) in Leipzig.
 
-| Date | Time | Topic | Presenter | 
+| Date | Time | Topic | Presenter |
 | ---- | ---- | ---- | ---- |
 | Mon Dec 3 | 11:45 | metaQuantome: An integrated, quantitative metaproteomics approach reveal connections between taxa, function & protein expression in microbiomes | Pratik Jagtap |
 | Wed&nbsp;Dec&nbsp;5 | 10:00 | Multi‐omic informatics for  characterizing microbiomes and their role in health disease and environment | Timothy Griffin, Magnus Arntzen |

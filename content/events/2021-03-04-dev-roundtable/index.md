@@ -15,6 +15,7 @@ links:
     url: "https://docs.google.com/presentation/d/1RzRukgRw_8v4_W9X2HNUTL7sBK6Y3wBS0f73BTFfVUc/edit#slide=id.gc2a6ff74d4_0_0"
   - text: "Video"
     url: "https://youtu.be/H4oPneXH5hI"
+tags: [ "devroundtable" ]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/H4oPneXH5hI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -27,4 +28,4 @@ Please [join us at Noon, US Eastern time](https://psu.zoom.us/j/92752763386) ([s
 
 ---
 
-The [Galaxy Developer Roundatble](/src/community/devroundtable/index.md) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 
+The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community.

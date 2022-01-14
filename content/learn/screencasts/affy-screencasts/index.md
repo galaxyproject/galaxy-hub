@@ -10,19 +10,19 @@ In these examples we use a set of potential Sp1 binding sites that were identifi
 This analysis involves the following steps:
 
 * Get data &rarr; upload interval bed file from computer
-  * View in main panel
-  * Display in UCSC browser
+    * View in main panel
+    * Display in UCSC browser
 * Get data &rarr; UCSC table browser
 * Get data for CpG islands for entire genome
-* Operate on genomic intervals &rarr; intersect 
+* Operate on genomic intervals &rarr; intersect
 * Intersect CpG island with interval bed file
-  * Edit title
-  * View list in main panel
-  * Save the list
+    * Edit title
+    * View list in main panel
+    * Save the list
 * Create a custom track displaying all three datasets:
-  * Sp1 versus CpG
-  * CpG islands
-  * Sp1 sites
+    * Sp1 versus CpG
+    * CpG islands
+    * Sp1 sites
 
 ## Example 2
 

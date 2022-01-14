@@ -7,7 +7,6 @@
                 <ArticleTable v-for="edge in $page.articles.edges" :key="edge.node.id" :article="edge.node" />
             </tbody>
         </table>
-        <footer class="page-footer markdown" v-if="$page.footer" v-html="$page.footer.content" />
     </Layout>
 </template>
 
@@ -31,6 +30,9 @@ query {
     id
     title
     content
+    fileInfo {
+      path
+    }
   }
   footer: insert(path: "/insert:/news/footer/") {
     id

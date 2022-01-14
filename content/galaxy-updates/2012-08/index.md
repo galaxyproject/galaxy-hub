@@ -1,9 +1,9 @@
 ---
 title: August 2012 Galaxy Update
 ---
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/logos/GalaxyUpdate200.png" alt="Galaxy Updates" width=150 /></a></div>
 
-Welcome to the August 2012 edition of *[Galaxy Update](/src/galaxy-updates/index.md)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/src/docs/index.md)* which accompany new Galaxy releases and focus on Galaxy code updates.
+Welcome to the August 2012 edition of *[Galaxy Update](/galaxy-updates/)*, a monthly summary of what is going on in the Galaxy community.  Galaxy Updates complement the *[Galaxy Development News Briefs](/docs/)* which accompany new Galaxy releases and focus on Galaxy code updates.
 
 <br />
 
@@ -51,59 +51,60 @@ These papers may be of interest to the Galaxy community:
 
 * "[Nebula - a web-server for advanced ChIP-seq data analysis", by Boeva](http://bioinformatics.oxfordjournals.org/content/early/2012/07/24/bioinformatics.bts463), *et al.*, *Bioinformatics*
 
-These papers were among [29 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/src/galaxy-updates/index.md) (for a total of 375 papers in the last ~18 months).  The new papers are spread [across 6 categories](http://www.citeulike.org/group/16008/tags).
+These papers were among [29 papers added to the Galaxy CiteULike group](http://www.citeulike.org/group/16008/library) since the last [Galaxy Update](/galaxy-updates/) (for a total of 375 papers in the last ~18 months).  The new papers are spread [across 6 categories](http://www.citeulike.org/group/16008/tags).
 
 <br />
 <div class='center'>
 
 ## GCC2012 & GCC2013
 
-<a href='/src/events/gcc2012/index.md'><img src="/src/images/galaxy-logos/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference"  /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/src/events/gcc2013/index.md'><img src="/src/events/gcc2013/GCC2013Logo600.png" alt="2013 Galaxy Community Conference" height="175" /></a>
+<a href='/events/gcc2012/'><img src="/images/galaxy-logos/GCC2012LogoWide400.png" alt="2012 Galaxy Community Conference"  /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/events/gcc2013/'><img src="/events/gcc2013/GCC2013Logo600.png" alt="2013 Galaxy Community Conference" height="175" /></a>
 </div>
 
 <br />
-The [2012 Galaxy Community Conference (GCC2012)](/src/events/gcc2012/index.md) was held July 25-27, in Chicago.  Highlights included:
+The [2012 Galaxy Community Conference (GCC2012)](/events/gcc2012/) was held July 25-27, in Chicago.  Highlights included:
 
-* the inaugural and very well attended [GCC Training Day](/src/events/gcc2012/training-day/index.md) (featuring 12 hands-on sessions on 10 different topics)
-* a [main program](/src/events/gcc2012/program/index.md) with 8 sessions, [27 talks](/src/events/gcc2012/abstracts/index.md), 
-* [10 lightning talks](/src/events/gcc2012/lightning-talks/index.md) (and many more proposals)
-* [6 breakout sessions](/src/events/gcc2012/program/breakouts/index.md),
-* Ion Torrent as the [Platinum Sponsor](/src/events/gcc2012/index.md#sponsors), EMC Isilon as the [Gold Sponsor](/src/events/gcc2012/index.md#sponsors), and an amazing [eight Host and Silver Sponsors](/src/events/gcc2012/index.md#sponsors).
+* the inaugural and very well attended [GCC Training Day](/events/gcc2012/training-day/) (featuring 12 hands-on sessions on 10 different topics)
+* a [main program](/events/gcc2012/program/) with 8 sessions, [27 talks](/events/gcc2012/abstracts/),
+* [10 lightning talks](/events/gcc2012/lightning-talks/) (and many more proposals)
+* [6 breakout sessions](/events/gcc2012/program/breakouts/),
+* Ion Torrent as the [Platinum Sponsor](/events/gcc2012/#sponsors), EMC Isilon as the [Gold Sponsor](/events/gcc2012/#sponsors), and an amazing [eight Host and Silver Sponsors](/events/gcc2012/#sponsors).
 * The conference dinner and reception, sponsored by Ion Torrent, from which many of us departed hoarse and/or hard of hearing.
 
-Slides for most talks are [already on the wiki](/src/events/gcc2012/program/index.md), and the rest will trickle in over the next week.  Videos of talks and workshops will be posted in about two weeks.  Finally, with over 200 registrations, this was for the third year running, the largest Galaxy conference yet.
+Slides for most talks are [already on the wiki](/events/gcc2012/program/), and the rest will trickle in over the next week.  Videos of talks and workshops will be posted in about two weeks.  Finally, with over 200 registrations, this was for the third year running, the largest Galaxy conference yet.
 
-[GCC2013](/src/events/gcc2013/index.md) was also announced at the meeting.  It will be held 30 June through 2 July in Oslo, Norway.  Watch the [GCC2013 page](/src/events/gcc2013/index.md) for information as it become available.
+[GCC2013](/events/gcc2013/) was also announced at the meeting.  It will be held 30 June through 2 July in Oslo, Norway.  Watch the [GCC2013 page](/events/gcc2013/) for information as it become available.
 
 
 
 ## Who's Hiring
 
-<div class='right'><img src="/src/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
+<div class='right'><img src="/images/icons/PointingFinger.png" alt="Please Help!  Yes you!" width="100" /></div>
 The Galaxy is expanding!  Please help it grow.
 
-* The [Galaxy Project is hiring](/src/galaxy-is-hiring/index.md) post-docs @ Emory and Penn State.
+* The [Galaxy Project is hiring](/galaxy-is-hiring/) post-docs @ Emory and Penn State.
 * [Bioinformatics & Integrative Genomics Specialist - Manager Bioinformatics Consulting Core](http://www.nature.com/naturejobs/science/jobs/275747-Bioinformatics-Integrative-Genomics-Specialist-Manager-Bioinformatics-Consulting-Core) @ Leuven, Belgium
 * [Bioinformatics Analyst @ U Virginia](http://jobs.virginia.edu/applicants/Central?quickFind=66485)
 * [Bioinformaticians @ FDA](http://gmod.org/wiki/News/Bioinformaticians @ FDA)
 * [Internship @ EMBL Heidelberg building an emBASE-Galaxy Bridge](http://www.sfbi.fr/content/development-embase-galaxy-bridge)
 
-Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening?  Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 ## Upcoming Events and Deadlines
 
 <div class='center'>
-<a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'><img src="/src/images/logos/UIowaLogo.jpg" alt="Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation" height="75" /></a>  
-<a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/src/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>   
-<a href='http://genetics.cmc-uct.co.za/'><img src="/src/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
-<a href='/src/events/switzerland2012/index.md'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="75" /></a>
+<a href='http://www.medicine.uiowa.edu/humangenetics/bioinformaticscourse/'><img src="/images/logos/UIowaLogo.jpg" alt="Bioinformatics Short Course: Mutation Detection Using Massively Parallel Sequencing: From Data Generation to Variant Annotation" height="75" /></a>  
+<a href='http://gmod.org/wiki/2012_GMOD_Summer_School'><img src="/images/logos/2012GMODSummerSchool200.png" alt="2012 GMOD Summer School" height="98" /></a>
+<a href='http://genetics.cmc-uct.co.za/'><img src="/images/logos/SASBCB_SAGS.png" alt="South African Genetics and Bioinformatics Society Conference" height="100" /></a>
+<a href='/events/switzerland2012/'><img src="/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="75" /></a>
 </div>
 
 ### Deadlines
 
-<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/src/images/icons/CalendarIcon.gif" /></a></div> 
+<div class='right'><a href='https://www.google.com/calendar/embed?src=mq93blfvdoosh5unpmivu4kh1c%40group.calendar.google.com'><img src="/images/icons/CalendarIcon.gif" /></a></div>
 
-There are August application, poster, and paper deadlines for 
+There are August application, poster, and paper deadlines for
+
 * [Extending High-Performance Computing Beyond its Traditional User Communities](http://www.psc.edu/events/escience-2012-workshop/) (deadline August 6)
 * International Digital Curation Conference (deadline August 20)
 * Analysis of High-Throughput Sequencing Data, EMBO Practical Course (deadline August 24)
@@ -133,13 +134,13 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> August 25-29 </th>
     <td> <em><a href='http://gmod.org/wiki/2012 GMOD Summer School'>http://gmod.org/wiki/2012 GMOD Summer School</a></em></td>
     <td> <a href='http://nescent.org'>US National Evolutionary Synthesis Center (NESCent)</a>, Durham, North Carolina, United States </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 3-4 </th>
     <td rowspan=2 style=" text-align:left;"> <em><a href='http://genetics.cmc-uct.co.za/?page_id=79'>Galaxy Workshop</a></em> </td>
     <td> <a href='http://web.up.ac.za/default.asp?ipkCategoryID=17741'>University of Pretoria</a>, Pretoria, South Africa </td>
-    <td rowspan=2 style=" text-align:center;"> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td rowspan=2 style=" text-align:center;"> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 6-7 </th>
@@ -149,71 +150,72 @@ See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on the
     <th> September 10-11 </th>
     <td> <em><a href='http://gaggle.systemsbiology.net/workshop2012/'>Systems Bioinformatics Workshop</a></em> </td>
     <td> <a href='https://www.systemsbiology.org/'>Institute for Systems Biology</a><br /> Seattle, Washington, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> September 10-12 </th>
     <td> <em><a href='http://genetics.cmc-uct.co.za/'>Transparent, accessible, reproducible analysis with Galaxy</a></em> </td>
     <td> <strong><a href='http://genetics.cmc-uct.co.za/'>South African Genetics & Bioinformatics Society Conference</a></strong><br /> University of Stellenbosch, Stellenbosch, South Africa </td>
-    <td> <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> September 27-29 </th>
     <td> <em><a href='http://www.beyond-the-genome.com/'>Beyond the Genome 2012</a></em> </td>
     <td> <a href='http://www.amiando.com/2012-beyond-the-genome.html?page=661875'>Harvard Medical School</a>, Boston, Massachusetts </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
   <tr>
     <th> October 3 </th>
-    <td> <em><a href='/src/events/switzerland2012/index.md'>(first Swiss) Galaxy Workshop</a></em> </td>
+    <td> <em><a href='/events/switzerland2012/'>(first Swiss) Galaxy Workshop</a></em> </td>
     <td> <strong><a href='https://wiki.systemsx.ch/display/SYBIT/SyBIT+Tech+Day+2012+Oct+3'>SyBIT Tech Day</a></strong>, Bern, Switzerland </td>
-    <td> <a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a> </td>
+    <td> <a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a> </td>
   </tr>
   <tr>
     <th> October 8-12 </th>
     <td> <em><a href='http://www.psc.edu/index.php/escience-2012-workshop'>Extending High-Performance Computing Beyond its Traditional User Communities Workshop</a></em> </td>
     <td> <strong><a href='http://www.ci.uchicago.edu/escience2012/'>8th IEEE International Conference on eScience (eScience 2012)</a></strong>, Chicago Illinois, United States </td>
-    <td> <a href='/src/people/james-taylor/index.md'>James Taylor</a> </td>
+    <td> <a href='/people/james-taylor/'>James Taylor</a> </td>
   </tr>
 </table>
 
 
 ### Swiss Galaxy Day
 
-<div class='right'><a href='/src/events/switzerland2012/index.md'><img src="/src/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
+<div class='right'><a href='/events/switzerland2012/'><img src="/images/logos/2012SwissGalaxyWorkshop-400.png" alt="Swiss Galaxy Day" height="100" /></a></div>
 
-The 1<sup>st</sup> [Swiss Galaxy Workshop](/src/events/switzerland2012/index.md) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience. 
- 
-We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research. 
- 
-The workshop is part of the SyBIT Tech Day series. 
+The 1<sup>st</sup> [Swiss Galaxy Workshop](/events/switzerland2012/) will be held October 3-4 in Bern, and is aimed at Galaxy administrators and users alike. We also welcome participants who are using other workflow management systems, and tool developers who are looking for such systems to offer their tools to a wider audience.
+
+We would like to discuss the status of the Galaxy project, new developments, interface to other systems, extensions and best practice in reproducible research.
+
+The workshop is part of the SyBIT Tech Day series.
 
 
 ## Tool Shed Contributions
 
 Several new repositories were added to the [Galaxy Tool Shed](http://toolshed.g2.bx.psu.edu/) in July.
 
-* `nosql_interface` query and download data from MongoDB and CouchDB NoSQL databases 
+* `nosql_interface` query and download data from MongoDB and CouchDB NoSQL databases
 * `synapse_interface` interface with Sage Bionetworks Synapse platform
 * `mtls_analysis`: Analyze and compare multiple ChIP-seq experiments
 * `trinityrnaseq`: De novo assembly of rna-seq data coupled with downstream analyses
-* `Toolfactory`: Turn scripts into Galaxy Tools; presented at [GCC2012](/src/events/gcc2012/index.md)
-* `protk`: Identify Peptides and Proteins from tandem Mass Spec data; also presented at [GCC2012](/src/events/gcc2012/index.md)
-* `deseq_and_sam2counts`: RNA-Seq differential expression analysis on aligned reads to a transcriptome using sam2counts and DESeq; also presented at [GCC2012](/src/events/gcc2012/index.md)
+* `Toolfactory`: Turn scripts into Galaxy Tools; presented at [GCC2012](/events/gcc2012/)
+* `protk`: Identify Peptides and Proteins from tandem Mass Spec data; also presented at [GCC2012](/events/gcc2012/)
+* `deseq_and_sam2counts`: RNA-Seq differential expression analysis on aligned reads to a transcriptome using sam2counts and DESeq; also presented at [GCC2012](/events/gcc2012/)
 * `freebayes`: Bayesian genetic variant detection tool
 * `GFAP`: annotate & prioritize human genetic variants identified by NGS
 
 ## New Distributions
 
-A new Galaxy distribution was [released on July 20, 2012](/src/archive/dev-news-briefs/2012-07-20/index.md).  Highlights include:
+A new Galaxy distribution was [released on July 20, 2012](/archive/dev-news-briefs/2012-07-20/).  Highlights include:
+
 * **[Freebayes](http://bioinformatics.bc.edu/marthlab/FreeBayes)** has moved from the *Galaxy distribution to the [Galaxy's Main Tool Shed](http://toolshed.g2.bx.psu.edu/)*
-* **[EMBOSS](http://emboss.sourceforge.net/)** version 5.0.0 tool dependencies in the `emboss_5` repository of the Galaxy Main Tool Shed updated to include information for automatically installing. 
+* **[EMBOSS](http://emboss.sourceforge.net/)** version 5.0.0 tool dependencies in the `emboss_5` repository of the Galaxy Main Tool Shed updated to include information for automatically installing.
 * **Tool Shed** now also supports specifying the third party tool dependencies to be automatically installed in new repositories
 * **Admin Genome Indexing** is now in *BETA*. Download, index, and track progress right from the admin UI! That's a screen shot on the right ->
 * **Improved Error Handling** that captures `EXIT` codes, `STDOUT`, and `STDERR` from tools in XML. Be sure to read full details.
 * **TopHat2/Bowtie2** latest support includes option to 'report discordant pairs', updated tests, and more preset options.
-* **Trackster** new parameter space visualization. *BRAND NEW!!* More details coming soon, but give a test drive now. 
+* **Trackster** new parameter space visualization. *BRAND NEW!!* More details coming soon, but give a test drive now.
 
 ## Other News
 
-* The [first GalaxyCzars conference call](/src/community/galaxy-admins/meetups/2012-07-09/index.md) was held in July, and slides and video are now available online.
+* The [first GalaxyCzars conference call](/community/galaxy-admins/meetups/2012-07-09/) was held in July, and slides and video are now available online.

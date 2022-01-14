@@ -4,7 +4,7 @@ tease: "GCC2021 is over and we're heading to GCC2022 in Minneapolis!"
 date: "2021-08-06"
 ---
 
-<a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
+<a href="/galaxy-updates/"><img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
 Hello all,
 
@@ -26,7 +26,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 <div class="card lead border-info" style="min-width: 100%; max-width: 100%;">
 <div class="trim-p">
 
-![GCC2021 is coming](/src/events/gcc2021/gcc2021-banner-global.png)
+![GCC2021 is coming](/images/events/gcc2021/gcc2021-banner-global.png)
 
 </div>
 </div>
@@ -62,11 +62,11 @@ GCC2021 was our second virtual Galaxy Community Conference. This year we had 399
 The complete set of training materials, including many new videos, and a whole new Galaxy Development track, are now available for free and online:
 
 * **GCC2021 Science Track**: How to use Galaxy to get science done.
-  * [Training Materials](https://galaxyproject.org/events/gcc2021/training/science-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_3M7i8fQ3rH_sax6rmAsyz) (134 videos!)
+    * [Training Materials](https://galaxyproject.org/events/gcc2021/training/science-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_3M7i8fQ3rH_sax6rmAsyz) (134 videos!)
 * **GCC2021 Developer Track**: *A brand new set of tutorials on how to contribute to Galaxy development.*
-  * [Training Materials](https://galaxyproject.org/events/gcc2021/training/dev-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_gBvf4mzjIrI8IRhTIFAmc) (35 videos)
+    * [Training Materials](https://galaxyproject.org/events/gcc2021/training/dev-track) & [Video Playlist](https://youtube.com/playlist?list=PLNFLKDpdM3B_gBvf4mzjIrI8IRhTIFAmc) (35 videos)
 * **GCC2021 Administrator Track**: How to deploy, configure and maintain your own Galaxy instance.
-  * [Training Materials](https://galaxyproject.org/events/gcc2021/training//admin-track) & [Video Playlist](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9aiB2rLaAIVdjIos4rc9-y) (28 videos)
+    * [Training Materials](https://galaxyproject.org/events/gcc2021/training//admin-track) & [Video Playlist](https://www.youtube.com/playlist?list=PLNFLKDpdM3B9aiB2rLaAIVdjIos4rc9-y) (28 videos)
 
 Many, many thanks to the instructors and helpers who contributed their time and effort to make GCC2021 Training a success.  And a huge thanks to Helena Rasche and Saskia Hiltemann for managing GCC2021 Training Week.
 
@@ -103,16 +103,16 @@ The [PeerJ Best Poster/Demonstration Award](https://gcc2021.sched.com/sponsor/pe
 * [Th-6.8: Peptide mass spectrometry imaging of pancreatic cancers – A data analysis workflow in Galaxy](https://sched.co/k5N0)
 * Presented by Maren Stillger of the University of Freiburg
 
-Maren's presentation took full advantage of the Remo conference platform, which means that the presentation was not a single PDF, but was rather interactive.  Maren's work will be highlighted in the PeerJ Blog, and this work is eligible for free publication in any PeerJ journal. 
+Maren's presentation took full advantage of the Remo conference platform, which means that the presentation was not a single PDF, but was rather interactive.  Maren's work will be highlighted in the PeerJ Blog, and this work is eligible for free publication in any PeerJ journal.
 
-<img class="card-img-bottom" src="/src/images/logos/peerj-logo-short-400.png" alt="PeerJ" />
+<img class="card-img-bottom" src="/images/logos/peerj-logo-short-400.png" alt="PeerJ" />
 
 </div>
 
 
 <!-- GCC2022 -->
 <div class="card border-info"  style="min-width: 30%; max-width: 26rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/events/gcc2022-logo-600.png" alt="GCC2022" />
+<img class="card-img-top" src="/images/galaxy-logos/events/gcc2022-logo-600.png" alt="GCC2022" />
 <div class="card-header trim-p">
 
 GCC2022: July 16-23, Minneapolis
@@ -130,7 +130,7 @@ We are pleased to announce that the 2022 Galaxy Community Conference (GCC2022) w
 
 <!-- Indian Community -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India" />
 <div class="card-header trim-p">
 
 [Galaxy India Community](https://www.galaxyproject.in/)
@@ -144,8 +144,8 @@ The Galaxy India community is about enabling data intensive research and instruc
 * Training and workshops, both standalone and at larger meetings
 * Webinars and community calls
 * In person gatherings, once these become prudent
-* [Communications channels](/src/community/#regional-communities), including chat and a mailing list
-* An [India-focused server](/src/use/galaxy-india/index.md) hosted by the European Galaxy Team
+* [Communications channels](/community/#regional-communities), including chat and a mailing list
+* An [India-focused server](/use/galaxy-india/) hosted by the European Galaxy Team
 
 If you are working in data intensive science in India then please consider getting involved with Galaxy India:
 
@@ -165,14 +165,14 @@ If you are working in data intensive science in India then please consider getti
 
 <!-- hiring -->
 <div class="card lead border-info" style="min-width: 15%; max-width: 35%;">
-<img class="card-img-top" src="/src/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
+<img class="card-img-top" src="/images/GalaxyIsExpandingCloud.png" alt="Galaxy is Expanding" />
 <div class="card-header trim-p">
 
-[Galaxy Career Center](/src/careers/index.md)
+[Galaxy Career Center](/careers/)
 
 </div>
 
-**Ten new positions were added to the [Galaxy Career Center](/src/careers/index.md) in the last month.**  Many of them close soon:
+**Ten new positions were added to the [Galaxy Career Center](/careers/) in the last month.**  Many of them close soon:
 
 * Australia, closes 11 August
 * Norway, closes 15 August
@@ -211,13 +211,13 @@ In addition to the GCC2021 talks (54 of them, see above) and the GCC2021 Trainin
 
 # Event News
 
-There is not a lot going on in August, but what is happening is compelling.  See all [upcoming events here](/src/events/index.md):
+There is not a lot going on in August, but what is happening is compelling.  See all [upcoming events here](/events/):
 
 <div class="card-deck">
 
 <!-- SARS-CoV-2 Data Analysis and Monitoring with Galaxy -->
 <div class="card border-info" style="min-width: 45%;">
-<img class="card-img-bottom" src="/src/images/news-graphics/2021-08-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
+<img class="card-img-bottom" src="/images/news-graphics/2021-08-sars-cov-2-data-analysis-monitoring-training.png" alt="sars-cov-2-data-analysis-monitoring-training" />
 <div class="card-header trim-p">
 
 [SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-06-21-sars-cov-2-data-analysis-monitoring-training/)
@@ -228,7 +228,7 @@ There is not a lot going on in August, but what is happening is compelling.  See
 
 The goal of this workshop is to build capacity in SARS-CoV-2 data analysis and data management, including data submission to ENA. After the workshop, all participants will be able to upload viral sequencing data, call all variants, create a variety of reports and create consensus alignments.
 
-It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions. 
+It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data analysis with Galaxy. The sessions will be pre-recorded and provided in advance. During the workshop, there will be live support in chat and live Q&A sessions, in which experts will answer questions.
 
 </div>
 
@@ -242,21 +242,21 @@ It will be a 4-day event introducing scalable and reproducible SARS-CoV-2 data a
 </div>
 <div class="card-header trim-p">
 
-[Galaxy @ BioHackathon 2021](/src/events/2021-11-biohackathon-europe/index.md)
+[Galaxy @ BioHackathon 2021](/events/2021-11-biohackathon-europe/)
 
 </div>
 
-Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/src/events/2021-11-biohackathon-europe/index.md), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
+Galaxy [is featured in at least 7 projects at BioHackathon Europe 2021](/events/2021-11-biohackathon-europe/), being held in Barcelona and online, 8-12 November.  Registration is available on a first come, first serve basis. Registration is free, but space is limited. [Register now](https://www.biohackathon-europe.org/registration.html).
 
 </div>
 
 
 <!-- Galaxy Dev Round Table -->
 <div class="card border-info" style="min-width: 20%; max-width:  18rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png" alt="Galaxy Developer Roundtable" />
 <div class="card-header trim-p">
 
-[Galaxy Developer Roundtable](/src/community/devroundtable/index.md)
+[Galaxy Developer Roundtable](/community/devroundtable/)
 
 </div>
 
@@ -273,17 +273,17 @@ As you can see, we still [need volunteers (like you!) to lead the discussion on 
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy.  Here's the recent platform news we know about:
 
 
 <div class="card-deck">
 
 <!-- Galaxy India -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India*" />
+<img class="card-img-top" src="/images/galaxy-logos/galaxy-india-logo.png" alt="Galaxy India*" />
 <div class="card-header trim-p">
 
-[Galaxy India](/src/use/galaxy-india/index.md)
+[Galaxy India](/use/galaxy-india/)
 
 </div>
 
@@ -296,12 +296,12 @@ Welcome to the India Galaxy workbench; a comprehensive set of tools and workflow
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="trim-p">
 
-![CropGalaxy.*](/src/use/cropgalaxy/eib-logo.png)
+![CropGalaxy.*](/use/cropgalaxy/eib-logo.png)
 
 </div>
 <div class="card-header trim-p">
 
-[CropGalaxy](/src/use/cropgalaxy/index.md)
+[CropGalaxy](/use/cropgalaxy/)
 
 </div>
 
@@ -313,18 +313,18 @@ The EIB Demo server is now the CropGalaxy server, hosting tools from [RiceGalaxy
 <div class="card border-info"  style="min-width: 12rem; max-width: 24rem;">
 <div class="card-header trim-p">
 
-[UseGalaxy.*](/src/usegalaxy/index.md) News
+[UseGalaxy.*](/usegalaxy/) News
 
 </div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
 * And several new use cases were described for UseGalaxy.eu:
-  * [Epigenomics and transcriptomics in cancer](https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo/)
-  * [Plant genomics](https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong/)
-  * [Colorectal cancer research](https://galaxyproject.eu/posts/2021/07/05/use-case-amir/)
-  * [Genomics, evolution, and ecology of organohalide-respiring bacteria](https://galaxyproject.eu/posts/2021/07/02/use-case-yi-yang/)
+    * [Epigenomics and transcriptomics in cancer](https://galaxyproject.eu/posts/2021/07/16/use-case-mzwanele-ngubo/)
+    * [Plant genomics](https://galaxyproject.eu/posts/2021/07/09/use-case-shaobin-zhong/)
+    * [Colorectal cancer research](https://galaxyproject.eu/posts/2021/07/05/use-case-amir/)
+    * [Genomics, evolution, and ecology of organohalide-respiring bacteria](https://galaxyproject.eu/posts/2021/07/02/use-case-yi-yang/)
 
 </div>
 
@@ -353,7 +353,7 @@ We are now supporting alternative formats for accessing our JavaScript based sli
 <div class="card border-info"  style="min-width: 20%; max-width: 24rem;">
 <div class="trim-p">
 
-![COVID](./gtn-covid-stripe.jpeg)
+![COVID](/images/news-graphics/gtn-covid-stripe.jpeg)
 
 </div>
 <div class="card-header trim-p">
@@ -385,7 +385,7 @@ Three new tutorials from the Fahrner & Föll team teach you how to do Data Indep
 * [Library Generation for DIA Analysis](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/DIA_lib_OSW/tutorial.html):
 * [Statistical analysis of DIA data](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/DIA_Analysis_MSstats/tutorial.html)
 * [DIA Analysis using OpenSwathWorkflow](https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/DIA_Analysis_OSW/tutorial.html)
- 
+
 </div>
 
 <!-- Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data -->
@@ -421,7 +421,7 @@ This tutorial got a major update, including many improvements based on feedback 
 
 </div>
 
-The venerable *Galaxy 101* tutorial is still venerable, but it is now also state of the art, thanks to an update from [Anton Nekrutenko](https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/). 
+The venerable *Galaxy 101* tutorial is still venerable, but it is now also state of the art, thanks to an update from [Anton Nekrutenko](https://training.galaxyproject.org/training-material/hall-of-fame/nekrut/).
 </div>
 
 
@@ -440,11 +440,11 @@ We have [created a page](https://training.galaxyproject.org/training-material/ne
 </div>
 
 </div>
- 
+
 
 # Publications
 
-Pub curation activities [are on a semi-hiatus right now](/src/blog/2020-08-10k-pubs/index.md#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
+Pub curation activities [are on a semi-hiatus right now](/blog/2020-08-10k-pubs/#the-future) but a few publications referencing, using, extending, and implementing Galaxy were added to the [Galaxy Publication Library](https://www.zotero.org/groups/galaxy) anyway.  Here are the new open access *Galactic* and *Stellar* pubs:
 
 <div class="card-deck">
 
@@ -487,7 +487,7 @@ Bosch, J. (2020).  [Vrije Universiteit Amsterdam]. https://atlarge-research.com/
 
 # Other News
 
-<div class="card-deck"> 
+<div class="card-deck">
 
 <div class="card border-info" style="min-width: 12rem; max-width: 28rem;">
 <div class="card-header trim-p">
@@ -496,7 +496,7 @@ Bosch, J. (2020).  [Vrije Universiteit Amsterdam]. https://atlarge-research.com/
 
 </div>
 
-[ELIXIR funded seven new life science data projects](https://elixir-europe.org/news/elixir-funds-seven-new-life-science-data-projects), including [Strengthen Data Management in Galaxy](https://elixir-europe.org/about-us/commissioned-services/strengthen-data-management-galaxy).  This project will enhance Galaxy's data management features to provide additional provenance information and improve the integration of Galaxy in the existing data management ecosystem. 
+[ELIXIR funded seven new life science data projects](https://elixir-europe.org/news/elixir-funds-seven-new-life-science-data-projects), including [Strengthen Data Management in Galaxy](https://elixir-europe.org/about-us/commissioned-services/strengthen-data-management-galaxy).  This project will enhance Galaxy's data management features to provide additional provenance information and improve the integration of Galaxy in the existing data management ecosystem.
 </div>
 
 
@@ -507,7 +507,7 @@ Bosch, J. (2020).  [Vrije Universiteit Amsterdam]. https://atlarge-research.com/
 
 </div>
 
-The European Galaxy Project turns out to be the glue between many scientific projects. 
+The European Galaxy Project turns out to be the glue between many scientific projects.
 
 </div>
 

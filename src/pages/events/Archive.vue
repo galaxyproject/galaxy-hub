@@ -41,6 +41,9 @@ query {
     id
     title
     content
+    fileInfo {
+      path
+    }
   }
   footer: insert(path: "/insert:/events/archive/footer/") {
     id
@@ -49,7 +52,7 @@ query {
   }
   events: allArticle(
       sortBy: "date", order: DESC, filter: {
-        category: {eq: "events"}, has_date: {eq: true}, days_ago: {gt: 0}, draft: {ne: true}
+        category: {eq: "events"}, has_date: {eq: true}, days_ago: {gt: 364}, draft: {ne: true}
       }
     ) {
     totalCount
@@ -64,6 +67,10 @@ query {
         contact
         external_url
         gtn
+        links {
+          text
+          url
+        }
         date (format: "D MMMM YYYY")
         path
       }

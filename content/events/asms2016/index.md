@@ -1,7 +1,7 @@
 <div class='title'>
 <table>
   <tr>
-    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/src/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
+    <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'><img src="/images/logos/ASMSLogo.png" alt="64th ASMS Conference on Mass Spectrometry and Allied Topics" /></a> </td>
     <td style=" border: none;"> <a href='http://www.asms.org/conferences/annual-conference/annual-conference-homepage'>64th ASMS Conference on Mass Spectrometry and Allied Topics</a><br /><br /> San Antonio, Texas, United States<br /><br />June 5-9, 2016 </td>
   </tr>
 </table>
@@ -88,7 +88,7 @@ Galaxy had a strong presence at the [2016 ASMS meeting](http://www.asms.org/conf
   <tr>
     <td style=" text-align: right;"> 5:45 </td>
     <td> Room 305 </td>
-    <td> <strong><a href='/src/events/asms2016/index.md#workshop-14-galaxy-for-proteomics-data-analysis-an-interactive-demonstration'>Workshop 14: Galaxy for Proteomics Data Analysis: An Interactive Demonstration</a></strong> </td>
+    <td> <strong><a href='/events/asms2016/#workshop-14-galaxy-for-proteomics-data-analysis-an-interactive-demonstration'>Workshop 14: Galaxy for Proteomics Data Analysis: An Interactive Demonstration</a></strong> </td>
     <td> <a href='http://cbs.umn.edu/contacts/timothy-j-griffin'>Timothy Griffin</a> </td>
     <td> <a href='http://cbs.umn.edu/sites/cbs.umn.edu/files/public/downloads/Documentation%20for%20ASMS%202016%20Gakaxy-P%20Workshop.pdf'>Tutorial</a> </td>
   </tr>
@@ -96,7 +96,7 @@ Galaxy had a strong presence at the [2016 ASMS meeting](http://www.asms.org/conf
 
 
 <div class='center'> * Video requires ASMS credentials </div>
- 
+
 # Workshop 14: Galaxy for Proteomics Data Analysis: An Interactive Demonstration
 
 **Wednesday, 5:45-7:00 PM, Room 305<br />
@@ -114,8 +114,8 @@ Attendees are encouraged to bring a laptop computer to participate.
 
 ## Accessible Galaxy-P Docker container
 
-We have built a Docker container containing a Galaxy instance with the tools used in our ASMS workshop.  This container can be downloaded to your local computer, installed, and used for gaining more experience with Galaxy and its use in proteomics data analysis. 
- 
+We have built a Docker container containing a Galaxy instance with the tools used in our ASMS workshop.  This container can be downloaded to your local computer, installed, and used for gaining more experience with Galaxy and its use in proteomics data analysis.
+
 See [the instructions on accessing and installing the Docker container](http://z.umn.edu/asms2016docs).  When prompted, select “View the file” and hit “OK”. This documentation also provides instructions on how to use the Galaxy interface, build Histories and Workflows with some of the available tools, as well as other Galaxy functions.  This mirrors the content presented in the ASMS workshop, with additional details on the use of Galaxy.
- 
-See the [Galaxy-P](/src/use/galaxy-p/index.md) entry in the [public Galaxy servers directory](/src/use/index.md) for additional Galaxy-P resources.
+
+See the [Galaxy-P](/use/galaxy-p/) entry in the [public Galaxy servers directory](/use/) for additional Galaxy-P resources.

@@ -8,7 +8,7 @@ platforms:
     platform_text: "PreSTIGE"
     platform_location: US
 summary: "Predicting Specific Tissue Interactions of Genes and Enhancers "
-image: "/src/use/prestige/prestige.png"
+image: "/use/prestige/prestige.png"
 comments:
   - '"PreSTIGE (Predicting Specific Tissue Interactions of Genes and Enhancers) predicts cell-line specific gene-enhancer interactions for a user-provided cell line as well as 12 PreSTIGE cell lines."'
   - "Users can generate predictions for any cell type of interest for which H3K4me1 ChIP-seq and RNA-seq data are available."

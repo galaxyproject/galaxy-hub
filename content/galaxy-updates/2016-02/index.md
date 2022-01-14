@@ -10,11 +10,11 @@ title: February 2016 Galaxy News
 
 </div>
 
-<div class='left'><a href='/src/galaxy-updates/index.md'><img src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
+<div class='left'><a href='/galaxy-updates/'><img src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News" width=150 /></a></div>
 
-Welcome to the February 2016 *[Galactic News](/src/galaxy-updates/index.md)*, a summary of what is going on in the Galaxy community. 
+Welcome to the February 2016 *[Galactic News](/galaxy-updates/)*, a summary of what is going on in the Galaxy community.
 
-If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org). 
+If you have anything to include in the next News, please send it to [Galaxy Outreach](mailto:outreach AT galaxyproject DOT org).
 
 
 # GCC2016
@@ -23,7 +23,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 <a href='https://web.archive.org/web/http://gcc2016.iu.edu/'><img src="https://web.archive.org/web/http://gcc2016.iu.edu/img/gcc2016-logo.png" alt="2016 Galaxy Community Conference" width="250" /></a>
 </div>
 
-[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes 2 days of hackathons, [2 days of training](https://gcc16.sched.org/grid-full#2016-06-26), and a two day meeting featuring accepted presentations, keynotes, poster sessions, the new Visualization Showcase and Software Demo sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking. 
+[GCC2016](http://gcc2016.iu.edu/) will be held June 25-29 at [Indiana University](http://indiana.edu/) in Bloomington, Indiana, United States. This will be the 7th annual gathering of the Galaxy community, and we are expecting over 200 participants again this year.  The 2016 Galaxy Community Conference includes 2 days of hackathons, [2 days of training](https://gcc16.sched.org/grid-full#2016-06-26), and a two day meeting featuring accepted presentations, keynotes, poster sessions, the new Visualization Showcase and Software Demo sessions, lightning talks, birds-of-a-feather meetups, and plenty of networking.
 
 ## GCC2016 Early Registration is Open
 
@@ -36,7 +36,7 @@ If you have anything to include in the next News, please send it to [Galaxy Outr
 
 </div>
 
-We are pleased to announce that **[early registration for GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/registration/) is now open**. 
+We are pleased to announce that **[early registration for GCC2016](https://web.archive.org/web/http://gcc2016.iu.edu/registration/) is now open**.
 Registration costs depend on which events you register for, your career stage & affiliation, and when you register.  Early bird registration ends May 20 and is up to 40% less than regular registration rates.  Early bird registration starts at less than $45 / day for students and postdocs, and at $65 / day for other attendees from non-profits.
 
 You can also sign up for [conference housing](https://web.archive.org/web/http://gcc2016.iu.edu/location) during registration.  
@@ -55,7 +55,7 @@ You are strongly encouraged to review the [training](https://gcc16.sched.org/gri
 
 </div>
 
-**[Abstract submission](http://bit.ly/gcc2016abssub) for [GCC2016](http://gcc2016.iu.edu/) is now open.**  We are accepting oral and poster presentation abstracts, as well as proposals for the brand new Visualization Showcase and Software Demo track. You may submit similar content for oral presentations, posters, and demos. Topics should be of interest to those working in high-throughput data analysis and research. Presentations that are Galaxy-centric are encouraged, but not required. If you are submitting a demo you are encouraged to consider submitting a corresponding poster. 
+**[Abstract submission](http://bit.ly/gcc2016abssub) for [GCC2016](http://gcc2016.iu.edu/) is now open.**  We are accepting oral and poster presentation abstracts, as well as proposals for the brand new Visualization Showcase and Software Demo track. You may submit similar content for oral presentations, posters, and demos. Topics should be of interest to those working in high-throughput data analysis and research. Presentations that are Galaxy-centric are encouraged, but not required. If you are submitting a demo you are encouraged to consider submitting a corresponding poster.
 
 **The deadline for oral presentation abstracts is March 25, 2016**.  Abstracts will be reviewed and submitters will be notified of acceptance status no later than April 11, 2016.
 
@@ -66,14 +66,14 @@ This is an ideal time to share your work with the community.
 ## Sponsors
 
 <div class='right'>
-<a href='http://www.lenovo.com/systems'><img src="/src/images/logos/LenovoRedBig.png" alt="Lenovo" width="180" /></a>
+<a href='http://www.lenovo.com/systems'><img src="/images/logos/LenovoRedBig.png" alt="Lenovo" width="180" /></a>
 </div>
 
-And we are pleased to welcome **[Lenovo](http://www.lenovo.com/systems)**, as a first time **[Gold Sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php)** of GCC.  Lenovo offers a [comprehensive portfolio of high-performance computing infrastructure](https://depot.galaxyproject.org/hub/attachments/documents/LenovoLifeSciences.pdf) designed to accelerate research, reduce IT complexity and maximize asset utilization in the life sciences.  Lenovo and its network of partners offer a broad portfolio of open, industry-standard infrastructure solutions that can help accelerate product innovation without becoming locked into expensive, inflexible proprietary environments. Lenovo Solution for Life Sciences is comprised of pre-integrated, high-performance servers, storage systems and networking equipment, advanced file systems and integrated workflow management software. Designed to accommodate large data volumes and compute-intensive applications, this solution can help organizations accelerate time to results at a lower total cost of ownership while making it easier to scale your HPC cluster as business grows. 
+And we are pleased to welcome **[Lenovo](http://www.lenovo.com/systems)**, as a first time **[Gold Sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php)** of GCC.  Lenovo offers a [comprehensive portfolio of high-performance computing infrastructure](https://depot.galaxyproject.org/hub/attachments/documents/LenovoLifeSciences.pdf) designed to accelerate research, reduce IT complexity and maximize asset utilization in the life sciences.  Lenovo and its network of partners offer a broad portfolio of open, industry-standard infrastructure solutions that can help accelerate product innovation without becoming locked into expensive, inflexible proprietary environments. Lenovo Solution for Life Sciences is comprised of pre-integrated, high-performance servers, storage systems and networking equipment, advanced file systems and integrated workflow management software. Designed to accommodate large data volumes and compute-intensive applications, this solution can help organizations accelerate time to results at a lower total cost of ownership while making it easier to scale your HPC cluster as business grows.
 
 <br />
 
-<div class='left'><a href='http://www.globus.org/genomics'><img src="/src/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="140" /></a></div>
+<div class='left'><a href='http://www.globus.org/genomics'><img src="/images/logos/GlobusGenomics.png" alt="Globus Genomics" width="140" /></a></div>
 
 Also, please welcome **[Globus Genomics](https://www.globus.org/genomics)** as a [GCC sponsor](https://web.archive.org/web/http://gcc2016.iu.edu/sponsors/index.php) **for the 4th year in a row.**  Globus Genomics is an integrated solution for Next Gen Sequencing analysis utilizing technologies in big data management and big data analysis. Globus Genomics combines big data management capabilities of [Globus Online](http://www.globusonline.org/) with flexible, intuitive workflow/pipeline creation capabilities of the Galaxy framework and high throughput computing capabilities on Amazon Web Services. Using Globus Genomics, researchers can easily transfer large amounts of sequence data from various sequencing centers and analyze the data either interactively or using one of the pre-defined best practice analytical pipelines with the familiar Galaxy interface.
 
@@ -97,7 +97,7 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
     Rachel Legendre, Agnès Baudin-Baillieu, Isabelle Hatin, Olivier Namy, *Bioinformatics*, Vol. 31, No. 15. (01 August 2015), pp. 2586-2588, doi:10.1093/bioinformatics/btv174
 
 * [Integrating UIMA with Alveo, a human communication science virtual laboratory](https://doi.org/10.3115/v1/W14-5202)
-    Dominique Estival, Steve Cassidy, Karin Verspoor, Andrew MacKinlay, Denis Burnham, In Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT (August 2014), pp. 12-22, doi:10.3115/v1/W14-5202 
+    Dominique Estival, Steve Cassidy, Karin Verspoor, Andrew MacKinlay, Denis Burnham, In Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT (August 2014), pp. 12-22, doi:10.3115/v1/W14-5202
 
 * [Alveo, a Human Communication Science Virtual Laboratory](http://www.aclweb.org/anthology/U/U14/U14-1013.pdf)
     Dominique Estival, Steve Cassidy, In Proceedings of the Australasian Language Technology Association Workshop 2014 (November 2014), pp. 104-107
@@ -105,11 +105,11 @@ We continue to seek other sponsors as well and [offer a wide range of sponsorshi
 * [Integrating Data-Intensive Computing Systems with Biological Data Analysis Frameworks](https://doi.org/10.1109/pdp.2015.106)
     Edvard Pedersen, Inge A. Raknes, Martin Ernstsen, Lars Ailo Bongo, In Parallel, Distributed and Network-Based Processing (PDP), 2015 23rd Euromicro International Conference on (March 2015), pp. 733-740, doi:10.1109/pdp.2015.106
 
-* [Deciphering regulation in eukaryotic cell: from sequence to function](http://arxiv.org/abs/1409.6661) 
+* [Deciphering regulation in eukaryotic cell: from sequence to function](http://arxiv.org/abs/1409.6661)
     Valentina Boeva, (23 Sep 2014)
 
 * [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract)
-    Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/src/people/marten/index.md), and Geir Kjetil Sandve, *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
+    Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/people/marten/), and Geir Kjetil Sandve, *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
 
 The new papers were tagged with:
 
@@ -176,14 +176,14 @@ The new papers were tagged with:
 
 ## Upcoming Events
 
-There are [many upcoming events](/src/events/index.md) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
+There are [many upcoming events](/events/) in the next few months.  See the [Galaxy Events Google Calendar](http://bit.ly/gxycal) for details on other events of interest to the community.
 
-<div class='center'> 
-<a href='https://mod2016.com/'><img src="/src/images/logos/MontpellierOmicsDays.png" alt="Initiation à l’environnement UNIX et à la plateforme GALAXY" height="70" /></a> &nbsp;
-<a href='http://www.agbt.org/meetings/agbt-general-meeting/'><img src="/src/images/logos/AGBTLogo.jpg" alt="BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)" height="65" /></a> &nbsp;
-<a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'><img src="/src/images/logos/SupAgroMontpelierLogoGreen.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" /></a> &nbsp;
-<a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'><img src="/src/images/logos/GalaxyAdmins.png" alt="18 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
-<a href='https://conf.abrf.org/the-galaxy-platform'><img src="/src/images/logos/ABRFLogoSquareSmall.png" alt="(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics" height="70" /></a>
+<div class='center'>
+<a href='https://mod2016.com/'><img src="/images/logos/MontpellierOmicsDays.png" alt="Initiation à l’environnement UNIX et à la plateforme GALAXY" height="70" /></a> &nbsp;
+<a href='http://www.agbt.org/meetings/agbt-general-meeting/'><img src="/images/logos/AGBTLogo.jpg" alt="BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)" height="65" /></a> &nbsp;
+<a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'><img src="/images/logos/SupAgroMontpelierLogoGreen.jpg" alt="Analyse bioinformatique de séquences sous Galaxy" /></a> &nbsp;
+<a href='/community/galaxy-admins/meetups/2016-02-18/'><img src="/images/logos/GalaxyAdmins.png" alt="18 February GalaxyAdmins Web Meetup" height="56" /></a> &nbsp;
+<a href='https://conf.abrf.org/the-galaxy-platform'><img src="/images/logos/ABRFLogoSquareSmall.png" alt="(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics" height="70" /></a>
 </div>
 
 <table>
@@ -196,32 +196,32 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
   <tr>
     <th> February 8-9 </th>
     <td> <em><a href='https://mod2016.com/'>Initiation à l’environnement UNIX et à la plateforme GALAXY</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='https://mod2016.com/'>Montpellier OMICS Days 2016</a>, Montpellier, France </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='https://mod2016.com/'>Montpellier OMICS Days 2016</a>, Montpellier, France </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.e-biogenouest.org/members/1003'>Yvan Le Bras</a> </td>
   </tr>
   <tr>
     <th> February 11 </th>
     <td> <em><a href='http://bioteam.net/bioteam-appliance/galaxy-edition/'>BioTeam Galaxy Appliance: Simplify Hosting Your Own Galaxy (Software Demo)</a></em> </td>
-    <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
+    <td> <img src='/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.agbt.org/meetings/agbt-general-meeting/'>AGBT</a>, Orlando, Florida, United States </td>
     <td> <a href='http://bioteam.net/company-leadership/'>Anushka Brownley</a></td>
   </tr>
   <tr>
     <th> February 15-19 </th>
     <td> <em><a href='https://www.supagro.fr/web/pages/?idl=19&page=1964&id_page=2666'>Analyse bioinformatique de séquences sous Galaxy</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> <a href='https://www.supagro.fr/web/index.php'>Montpellier SupAgro</a>, Montpellier, France </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://www.supagro.fr/web/pages/contact.php?id=139'>Yolande Olivier</a>, <a href='https://www.supagro.fr/web/pages/contact.php?id=102'>Dominique Alhinc</a> </td>
   </tr>
   <tr>
     <th> February 18 </th>
-    <td> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>GalaxyAdmins Web Meetup</a></em> </td>
-    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/src/community/galaxy-admins/meetups/2016-02-18/index.md'>Online</a></em> </td>
-    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/src/people/nate/index.md'>Nate Coraor</a>,<a href='/src/people/hansrudolf-hotz/index.md'>Hans-Rudolf Hotz</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a> </td>
+    <td> <em><a href='/community/galaxy-admins/meetups/2016-02-18/'>GalaxyAdmins Web Meetup</a></em> </td>
+    <td> <img src='/images/icons/GL.png' alt='Around the World' align='right' /> <em><a href='/community/galaxy-admins/meetups/2016-02-18/'>Online</a></em> </td>
+    <td> <a href='http://www.ibps.upmc.fr/fr/IBPS/annuaire/1921-Marius-Van+Den+Beek'>Marius van den Beek</a>, <a href='/people/nate/'>Nate Coraor</a>,<a href='/people/hansrudolf-hotz/'>Hans-Rudolf Hotz</a>, <a href='/people/dave-clements/'>Dave Clements</a> </td>
   </tr>
   <tr>
     <th> February 20-23 </th>
     <td> <em><a href='https://conf.abrf.org/the-galaxy-platform'>(SW4) The Galaxy Platform for Multi-Omic Data Analysis and Informatics</a></em> </td>
-    <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' />  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/src/people/dave-clements/index.md'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
+    <td> <img src='/images/icons/NA.png' alt='North America' align='right' />  <a href='https://conf.abrf.org/abrf-2016'>ABRF 2016</a>, Fort Lauderdale, Florida, United States </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a> <a href='https://cbs.umn.edu/contacts/pratik-d-jagtap'>Pratik Jagtap</a>, <a href='https://cbs.umn.edu/contacts/timothy-j-griffinhttps://cbs.umn.edu/contacts/timothy-j-griffin'>Tim Griffin</a>, <a href='/people/dave-clements/'>Dave Clements</a>, <a href='http://experts.umn.edu/en/persons/candace-r-guerrero(c3134cd2-fe98-4d90-b5de-77fce1921d29).html'>Candace Guerrero</a>, <a href='http://www-users.cs.umn.edu/~onsongo/'>Getiria Onsongo</a> </td>
   </tr>
   <tr>
     <th> </th>
@@ -230,25 +230,25 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
   <tr>
     <th> March 7-8 </th>
     <td> <strong><a href='https://github.com/galaxyproject/tools-iuc/issues/422'>IUC Contribution Fest - RADSeq Tools and Workflows</a></strong> </td>
-    <td> <img src='/src/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
-    <td> <a href='/src/iuc/index.md'>IUC</a> </td>
+    <td> <img src='/images/icons/GL.png' alt='Around the World' align='right' /> <em>Online</em> </td>
+    <td> <a href='/iuc/'>IUC</a> </td>
   </tr>
   <tr>
     <th> March 15 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module17-15mars.pdf'>Initiation à l’utilisation de Galaxy</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
     <th> March 16 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module8bis.pdf'>Analyse primaire de données issues de séquenceurs nouvelle génération sous Galaxy</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
     <th> March 17 </th>
     <td> <em><a href='http://migale.jouy.inra.fr/sites/all/downloads/Migale/Formations/2016/module18bis.pdf'>Traitement bioinformatique des données RNA-Seq sous Galaxy</a></em> </td>
-    <td> <img src='/src/images/icons/EU.png' alt='Europe' align='right' /> Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
+    <td> <img src='/images/icons/EU.png' alt='Europe' align='right' /> Part of <a href='http://migale.jouy.inra.fr/?q=formations'>Le cycle "Bioinformatique par la pratique" 2016</a>, Jouy-en-Josas, France </td>
     <td> <a href="mailto:formation.migale AT jouy.inra.fr">Formation Migale</a> </td>
   </tr>
   <tr>
@@ -258,7 +258,7 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
   <tr>
     <th> April 6 </th>
     <td> <em><a href='http://www.bio-itworldexpo.com/data-visualization/'>Approaches for the Integration of Visual and Computational Analysis of Biomedical Data</a></em> </td>
-    <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.bio-itworldexpo.com/'>BioIT World 2016</a>, Boston, Massachusetts, United States </td>
+    <td> <img src='/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.bio-itworldexpo.com/'>BioIT World 2016</a>, Boston, Massachusetts, United States </td>
     <td> Nils Gehlenborg </td>
   </tr>
   <tr>
@@ -268,15 +268,15 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
   <tr>
     <th> June 25-29 </th>
     <td> <strong><em><a href='https://web.archive.org/web/http://gcc2016.iu.edu/'>2016 Galaxy Community Conference (GCC2016)</a></strong></em> </td>
-    <td> <img src='/src/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
-    <td> <a href='https://training.galaxyproject.org/'><img src='/src/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://web.archive.org/web/http://gcc2016.iu.edu/organizers/'>Organizers</a> </td>
+    <td> <img src='/images/icons/NA.png' alt='North America' align='right' /> <a href='http://www.iu.edu/'>Indiana University</a>, Bloomington, Indiana, United States </td>
+    <td> <a href='https://training.galaxyproject.org/'><img src='/images/galaxy-logos/GTN16.png' alt='Training offered by GTN Member' align='right' /></a>  <a href='https://web.archive.org/web/http://gcc2016.iu.edu/organizers/'>Organizers</a> </td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
+    <td style=" border: none;"> <a href='https://training.galaxyproject.org/'><img src="/images/icons/GTN32.png" alt="Designates a training event offered by GTN Member" width="24" /></a> </td>
     <td style=" border: none;"> <span style="font-size: smaller;"> <a href='https://training.galaxyproject.org/'>Designates a training event offered by GTN member(s)</a> </span> </td>
   </tr>
 </table>
@@ -286,60 +286,60 @@ There are [many upcoming events](/src/events/index.md) in the next few months.  
 ----
 # Who's Hiring
 
-<div class='right'><a href='/src/galaxy-is-hiring/index.md'><img src="/src/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
+<div class='right'><a href='/galaxy-is-hiring/'><img src="/images/news-graphics/GalaxyIsHiringWordCloud2.png" alt="Please Help! Yes you!" width="200" /></a></div>
 
 The Galaxy is expanding! Please help it grow.
 
 * [Postdoc position on methods for transcriptome analysis of disease-specific cells](http://bit.ly/1PrQfVQ), University of Oslo
 * [Computational Biology post-doc](http://bit.ly/1J1WLla), IMI-eTRIKS consortium, CNRS-EISBM, Lyon France. Contribute "to the development of eTRIKS Galaxy tools and workflows for disease stratification and biomarker discovery from single and multiple omics datasets."
-* [Post-doc in Functional Genomics Of Obesity-Related Diseases](http://bit.ly/1QFyDHK), Inserm, Lille, France 
-* [Software Engineer](/src/news/software-engineer-ohsu/index.md), Oregon Health Sciences University, Portland, Oregon, United States
-* **The [Galaxy Project is hiring software engineers and post-docs](/src/galaxy-is-hiring/index.md)**
+* [Post-doc in Functional Genomics Of Obesity-Related Diseases](http://bit.ly/1QFyDHK), Inserm, Lille, France
+* [Software Engineer](/news/software-engineer-ohsu/), Oregon Health Sciences University, Portland, Oregon, United States
+* **The [Galaxy Project is hiring software engineers and post-docs](/galaxy-is-hiring/)**
 
-Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <br />
 
----- 
+----
 
 
 # New Tutorials ... and Tours!
 
 <div class='right'>
-<a href='https://github.com/nekrut/galaxy/wiki'><img src="/src/images/news-graphics/Galaxy101-2016.png" alt="New Tutorials" height="200" /></a>
+<a href='https://github.com/nekrut/galaxy/wiki'><img src="/images/news-graphics/Galaxy101-2016.png" alt="New Tutorials" height="200" /></a>
 </div>
 
 A few [new tutorials are now available on GitHub](https://github.com/nekrut/galaxy/wiki).  
 
 ## An updated and expanded Galaxy 101
 
-First there is an updated and expanded version of the [Galaxy 101 Tutorial](https://github.com/nekrut/galaxy/wiki/Galaxy101-1).  Galaxy 101 introduces the Galaxy platform, how to get data from UCSC, and performing data analysis using genomic coordinates in multiple datasets.  The tutorial also covers the basics of Galaxy Histories, creating and using re-runnable workflows. 
+First there is an updated and expanded version of the [Galaxy 101 Tutorial](https://github.com/nekrut/galaxy/wiki/Galaxy101-1).  Galaxy 101 introduces the Galaxy platform, how to get data from UCSC, and performing data analysis using genomic coordinates in multiple datasets.  The tutorial also covers the basics of Galaxy Histories, creating and using re-runnable workflows.
 
 ## Processing many samples at once
 
 There is a new tutorial on using dataset collections titled [Processing many samples at once](https://github.com/nekrut/galaxy/wiki/Processing-many-samples-at-once).  From the tutorial
 
- Here we will show Galaxy features designed to help with the analysis of large numbers of samples. When you have just a few samples - clicking through them is easy. But once you've got hundreds - it becomes very annoying. In Galaxy we have introduced Dataset collections that allow you to combine numerous datasets in a single entity that can be easily manipulated. 
+ Here we will show Galaxy features designed to help with the analysis of large numbers of samples. When you have just a few samples - clicking through them is easy. But once you've got hundreds - it becomes very annoying. In Galaxy we have introduced Dataset collections that allow you to combine numerous datasets in a single entity that can be easily manipulated.
 
 ## Running Du Novo interactively from Galaxy: An ABL1 example
 
-And there is also a new tutorial, [Running Du Novo interactively from Galaxy: An ABL1 example](https://github.com/galaxyproject/dunovo/wiki), that "explains how to perform discovery of low frequency variants from duplex sequencing data" using an example *ABL1* dataset from [Schmitt and colleagues](http://www.nature.com/nmeth/journal/v12/n5/full/nmeth.3351.html) (SRA accession [SRR1799908](http://www.ncbi.nlm.nih.gov/sra/?term=SRR1799908)). 
+And there is also a new tutorial, [Running Du Novo interactively from Galaxy: An ABL1 example](https://github.com/galaxyproject/dunovo/wiki), that "explains how to perform discovery of low frequency variants from duplex sequencing data" using an example *ABL1* dataset from [Schmitt and colleagues](http://www.nature.com/nmeth/journal/v12/n5/full/nmeth.3351.html) (SRA accession [SRR1799908](http://www.ncbi.nlm.nih.gov/sra/?term=SRR1799908)).
 
 
 <div class='left'><br />
-<a href='https://usegalaxy.org/?tour_id=core.history'><img src="/src/images/news-graphics/ToursInHelpPulldown.png" alt="Find available tours in the Help menu" width="170" /></a>
+<a href='https://usegalaxy.org/?tour_id=core.history'><img src="/images/news-graphics/ToursInHelpPulldown.png" alt="Find available tours in the Help menu" width="170" /></a>
 </div>
 
 ## Galaxy Interactive Tours
 
 <div class='right'>
-<a href='https://usegalaxy.org/?tour_id=core.galaxy_ui'><img src="/src/images/news-graphics/TourWelcome.png" alt="Interactive tours come to Galaxy" width="200" /></a>
+<a href='https://usegalaxy.org/?tour_id=core.galaxy_ui'><img src="/images/news-graphics/TourWelcome.png" alt="Interactive tours come to Galaxy" width="200" /></a>
 </div>
 
 [UseGalaxy.org](https://usegalaxy.org) now supports *interactive guided tours* and two introductory tours are available:
 
 1. [User Interface Introduction](https://usegalaxy.org/?tour_id=core.galaxy_ui)<br />
-2.  [Galaxy Histories Introduction](https://usegalaxy.org/?tour_id=core.history)
+2. [Galaxy Histories Introduction](https://usegalaxy.org/?tour_id=core.history)
 
 Interactive tours are a way to walk through Galaxy, following a set of steps to accomplish a task or learn a feature.  The list of supported interactive tours on any server can be found in the *Help* menu.  Support for interactive tours will be included in the 16.01 Galaxy release.  Look for more tours in future releases.
 
@@ -350,7 +350,7 @@ Interactive tours are a way to walk through Galaxy, following a set of steps to 
 # Galaxy on Windows and OS X using Kitematic
 
 <div class='right'>
-<a href='/src/images/news-graphics/KitematicSearchBgruening.png'><img src="/src/images/news-graphics/KitematicSearchBgruening.png" alt="" width="300" /></a>
+<a href='/images/news-graphics/KitematicSearchBgruening.png'><img src="/images/news-graphics/KitematicSearchBgruening.png" alt="" width="300" /></a>
 </div>
 
 Galaxy has been available in Docker containers for a while now.  Docker containers are an easy way to package software for installation on other systems.  The [Docker Toolbox](https://www.docker.com/products/docker-toolbox) now includes [Kitematic](https://kitematic.com/), a GUI for running Docker containers on Windows and Mac OS X systems.  Kitematic makes it easy to run any published Docker container on these systems.
@@ -359,40 +359,40 @@ Want to try a pre-configured Galaxy instance on your Mac OS X or Windows machine
 
 1. [Install the Docker Toolbox](https://www.docker.com/products/docker-toolbox) on your computer.  
 1. Launch Kitematic.
-1. Search for "galaxy" and select one of the relevant Galaxy options. This searches Docker Hub, a repository for Docker containers.  "bgruening/galaxy-stable" will launch the latest generic Galaxy instance. 
+1. Search for "galaxy" and select one of the relevant Galaxy options. This searches Docker Hub, a repository for Docker containers.  "bgruening/galaxy-stable" will launch the latest generic Galaxy instance.
 1. Once the instance has started, click on the web preview pane, and voilà, you have a running Galaxy instance.
 
 ----
 
 # New Public Galaxy Servers
 
-[One new publicly accessible Galaxy servers](/src/use/index.md) was added in January: LAPPS Grid, a Galaxy server for *natural language processing*.
+[One new publicly accessible Galaxy servers](/use/) was added in January: LAPPS Grid, a Galaxy server for *natural language processing*.
 
 ## LAPPS Grid
 
-<div class='right solid'><a href='http://galaxy.lappsgrid.org/'><img src="/src/use/lapps-grid/lapps-grid.png" alt="LAPPS Grid Galaxy Workflow Engine"  /></a></div>
+<div class='right solid'><a href='http://galaxy.lappsgrid.org/'><img src="/use/lapps-grid/lapps-grid.png" alt="LAPPS Grid Galaxy Workflow Engine"  /></a></div>
 * *Links:*
   * [LAPPS Grid Galaxy Workflow Engine](http://galaxy.lappsgrid.org/), part of the [Languarge Application Grid](http://www.lappsgrid.org/)
 
 * *Domain/Purpose:*
-  * "An open, interoperable web service platform for natural language processing (NLP) research and development. The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."
+    * "An open, interoperable web service platform for natural language processing (NLP) research and development. The LAPPS Grid provides facilities to select from hundreds of NLP tools to create workflows, composite services, and applications, and to evaluate, reproduce, and share them with others."
 * *Comments:*
-  * "This is a **Work In Progress**. Many of the services here are undergoing active development and their behaviour is likely to change without notice."
+    * "This is a **Work In Progress**. Many of the services here are undergoing active development and their behaviour is likely to change without notice."
 * *User Support:*
-  * [Landing page](http://galaxy.lappsgrid.org/) includes a simple tutorial.
-* *Quotas:* 
-  * Anyone can create a login, or it can be used anonymously
+    * [Landing page](http://galaxy.lappsgrid.org/) includes a simple tutorial.
+* *Quotas:*
+    * Anyone can create a login, or it can be used anonymously
 * *Sponsor(s):*
-  * See the [LAPPS Grid Participants page](http://www.lappsgrid.org/participants/). Includes 
-    * [Vassar College](http://www.cs.vassar.edu/)
-    * [Brandeis University](http://www.cs.brandeis.edu/)
-    * [Carnegie-Mellon University](http://www.lti.cs.cmu.edu/)
-    * [University of Pennsylvania](http://www.ldc.upenn.edu/)
-    * [NICT Language Grid Project](http://langrid.org/en/index.html) and [Matsubara Lab at Kyoto University](http://www.ai.soc.i.kyoto-u.ac.jp/index.html) 
-    * [PANACEA project](http://www.panacea-lr.eu/)
-    * [CELI / LinguaGrid](http://www.linguagrid.org/)
-    * [EXCITEMENT project](http://www.excitement-project.eu/)
-    * [Centre for Language Technology](http://www.clt.mq.edu.au/) at [Macquarie University](http://www.mq.edu.au/)
+    * See the [LAPPS Grid Participants page](http://www.lappsgrid.org/participants/). Includes
+        * [Vassar College](http://www.cs.vassar.edu/)
+        * [Brandeis University](http://www.cs.brandeis.edu/)
+        * [Carnegie-Mellon University](http://www.lti.cs.cmu.edu/)
+        * [University of Pennsylvania](http://www.ldc.upenn.edu/)
+        * [NICT Language Grid Project](http://langrid.org/en/index.html) and [Matsubara Lab at Kyoto University](http://www.ai.soc.i.kyoto-u.ac.jp/index.html)
+        * [PANACEA project](http://www.panacea-lr.eu/)
+        * [CELI / LinguaGrid](http://www.linguagrid.org/)
+        * [EXCITEMENT project](http://www.excitement-project.eu/)
+        * [Centre for Language Technology](http://www.clt.mq.edu.au/) at [Macquarie University](http://www.mq.edu.au/)
 
 # Releases
 
@@ -403,7 +403,7 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 ## Starforge 0.1
 
 <div class='right'>
-<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/src/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
+<a href='https://github.com/galaxyproject/starforge/blob/master/README.rst'><img src="/images/galaxy-logos/starforge_logo_big.png" alt="Starforge" width="180" /></a>
 </div>
 
 [Starforge](https://github.com/galaxyproject/starforge/blob/master/README.rst) is a collection of scripts that supports the building of components for Galaxy.  Specifically, with Starforge you can:
@@ -414,13 +414,13 @@ galaxy-lib is a subset of the Galaxy core code base designed to be used as a lib
 
 These things will be built in Docker. Additionally, wheels can be built in QEMU/KVM virtualized systems.
 
-Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/). 
+Documentation can be found at [starforge.readthedocs.org](http://starforge.readthedocs.org/).
 
 ## Other Releases
 
 **Galaxy 15.10**
 
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
 The **[October 2015 Galaxy Release (v 15.10)](https://docs.galaxyproject.org/en/master/releases/15.10_announce.html)**
 was released on November 30. The Reports Application, data upload widget, and data libraries all saw significant work.
@@ -433,11 +433,11 @@ And, thanks to [Björn Grüning](https://github.com/bgruening), there is also no
 
 
 
-<div class='right'><a href='/src/cloudman/index.md'><img src="/src/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
+<div class='right'><a href='/cloudman/'><img src="/images/logos/CloudManWideBlackLogo.png" alt="CloudMan" width="150" /></a></div>
 
-**[CloudMan](/src/cloudman/index.md) 15.12**
+**[CloudMan](/cloudman/) 15.12**
 
-[CloudMan](/src/cloudman/index.md) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser. 
+[CloudMan](/cloudman/) is a cloud manager that orchestrates all of the steps required to provision a complete compute cluster environment on a cloud infrastructure; subsequently, it allows one to manage the cluster, all through a web browser.
 
 This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/releases) includes:
 
@@ -448,12 +448,12 @@ This minor [CloudMan 15.12 release](https://github.com/galaxyproject/cloudman/re
 * For those that are building custom images, a more direct method for locating the Nginx configuration directory has been added to help with different versions of the operating system (thanks to [Matthew Ralston](https://github.com/MatthewRalston))
 * A number of dependent library versions have been updated to their latest versions.
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/src/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/pulsar-app/'><img src="/images/galaxy-logos/pulsar_transparent.png" alt="Pulsar" width="150" /></a></div>
 
 **Pulsar 0.6.1**
 
 [Pulsar 0.6](https://pypi.python.org/pypi/pulsar-app/) was released in December.  Pulsar is a Python server application that allows a Galaxy server to run jobs on remote systems (including Windows) without requiring a shared mounted file systems. Unlike traditional Galaxy job runners - input files, scripts, and config files may be transferred to the remote system, the job is executed, and the results are transferred back to the Galaxy server - eliminating the need for a shared file system.
- 
+
 The 0.6.x release includes these changes:
 
 * Pulsar now depends on the new galaxy-lib Python package instead of manually synchronizing Python files across Pulsar and Galaxy.
@@ -468,7 +468,7 @@ The 0.6.x release includes these changes:
 * Add a job manager for XSEDE jobs (thanks to @natefoo). [1017bc5](https://github.com/galaxyproject/pulsar/commit/1017bc5)
 * Fix pip dependency installation (thanks to @afgane) [Pull Request 73](https://github.com/galaxyproject/pulsar/pull/73)
 
-<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/src/images/logos/PlanemoLogo.png" alt="" width="150" /></a></div>
+<div class='right'><br /><a href='https://pypi.python.org/pypi/planemo/'><img src="/images/logos/PlanemoLogo.png" alt="" width="150" /></a></div>
 
 **Planemo 0.21.1**
 
@@ -477,7 +477,7 @@ The 0.6.x release includes these changes:
 
 **BioBlend 0.7.0**
 
-   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/src/develop/api/index.md).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
+   [BioBlend version 0.7.0](https://github.com/galaxyproject/bioblend/) was released at the beginning of November. BioBlend is a python library for interacting with CloudMan and the [Galaxy API](/develop/api/).  CloudMan offers an easy way to get a personal and completely functional instance of Galaxy in the cloud in just a few minutes, without any manual configuration.)  From the [release CHANGELOG](http://bit.ly/bbCHANGELOG).
 
 
 **blend4j v0.1.2**
@@ -491,13 +491,13 @@ The 0.6.x release includes these changes:
 
 <table>
   <tr>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/src/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <a href='/src/blog/index.md'><img src="/src/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
-    <td style=" text-align: center; border: none; width: 20%;"> <img src="/src/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='https://training.galaxyproject.org/'><img src="/images/galaxy-logos/GTNLogo300.png" alt="Galaxy Training Network" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <a href='/blog/'><img src="/images/logos/LogBoardWText200.png" alt="Galaxy Community Log Board" height="100" /></a> </td>
+    <td style=" text-align: center; border: none; width: 20%;"> <img src="/images/logos/GalaxyDeploymentCatalog200.png" alt="Galaxy Deployment Catalog" height="100" /> </td>
   </tr>
   <tr>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong>Share your training resources and experience <em>now</em> </strong> </td>
-    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/src/blog/index.md'>Share your experience</a> <em><a href='/src/blog/index.md'>now</a></em> </strong> </td>
+    <td style=" text-align: center; vertical-align: top; border: none;"> <strong><a href='/blog/'>Share your experience</a> <em><a href='/blog/'>now</a></em> </strong> </td>
     <td style=" text-align: center; vertical-align: top; border: none;"> <strong> </strong> </td>
   </tr>
 </table>
@@ -505,31 +505,31 @@ The 0.6.x release includes these changes:
 <br />
 
 ----
-<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/src/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
+<div class='right'><br /><a href='http://toolshed.g2.bx.psu.edu/'><img src="/images/logos/ToolShed.jpg" alt="Galaxy ToolShed" width=150 /></a></div>
 
 # ToolShed Contributions
 
-See [list of tools contributed in January](/src/toolshed/contributions/2016-01/index.md).
+See [list of tools contributed in January](/toolshed/contributions/2016-01/).
 
 
 ----
 
 # Other News
 
- 
-* The [Project Statistics page](/src/galaxy-project/statistics/index.md) has had its semi-annual update.
+
+* The [Project Statistics page](/galaxy-project/statistics/) has had its semi-annual update.
 
 ## Galaxy Goes Mobile!
 
 <div class='right'>
-<img src="/src/images/news-graphics/GalaxyPortalHistory.png" alt="A history in Galaxy Portal" width="200" />
+<img src="/images/news-graphics/GalaxyPortalHistory.png" alt="A history in Galaxy Portal" width="200" />
 </div>
 
 **Galaxy is now accessible from your [IOS](https://itunes.apple.com/us/app/galaxy-portal/id937158087?mt=8) and [Android](https://play.google.com/store/apps/details?id=no.uio.bmi.claus) devices.** The Galaxy Portal app is a quick and easy way to monitor the status of biomedical research on any Galaxy server. With this app you can set up a list of Galaxy connections and browse your analyses histories in a user-friendly format and take a peek at your data on the go.
 
-The app has been in development for over a year at the University of Oslo as part of [Claus Børnich's masters thesis](https://www.duo.uio.no/handle/10852/44701) and is described in 
+The app has been in development for over a year at the University of Oslo as part of [Claus Børnich's masters thesis](https://www.duo.uio.no/handle/10852/44701) and is described in
 
-  Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/src/people/marten/index.md), and Geir Kjetil Sandve. [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract). *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
+  Claus Børnich, Ivar Grytten, Eivind Hovig, Jonas Paulsen, [Martin Čech](/people/marten/), and Geir Kjetil Sandve. [Galaxy Portal: Interacting with the Galaxy platform through mobile devices](http://bioinformatics.oxfordjournals.org/content/early/2016/01/27/bioinformatics.btw042.abstract). *Bioinformatics* first published online January 27, 2016 doi:10.1093/bioinformatics/btw042
 
 A [user manual](https://github.com/Tarostar/QMLGalaxyPortal/raw/master/GalaxyPortalUserGuide.pdf), additional information, and the full source are [available on GitHub](https://github.com/Tarostar/QMLGalaxyPortal).
 

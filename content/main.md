@@ -1,15 +1,14 @@
 ---
-title: Galaxy Community Hub
-layout: homepage.pug
+title: Welcome to the Galaxy Community Hub
+subtitle: The meeting point where you can find curated documentation for all things Galaxy
 ---
-Galaxy is an open, web-based platform for accessible, reproducible, and
-transparent computational research.
 
-- **Accessible:** programming experience is not required to easily upload data, run complex tools and workflows, and visualize results.
-- **Reproducible:** Galaxy captures information so that you don't have to; any user can repeat and
-  understand a complete computational analysis, from tool parameters to the dependency tree.
-- **Transparent:** Users share and publish their histories, workflows, and visualisations via the web.
-- **Community centered:** Our inclusive and diverse users (developers, educators, researchers, clinicians, etc.) are empowered to share their findings.
+**Galaxy** is an **open-source** platform for **[FAIR](https://www.go-fair.org/fair-principles/) data analysis** that enables users to: 
 
+- use **tools** from various domains (that can be plugged into **workflows**) through its graphical web interface.
+- run code in **interactive environments** (RStudio, Jupyter...) along with other tools or workflows.
+- **manage data** by sharing and publishing results, workflows, and visualizations.
+- **ensure the reproducibility** by capturing the necessary information to repeat and understand data analyses.
 
-Welcome to the Galaxy Community Hub, where you'll find community curated documentation of all things Galaxy.
+The **Galaxy Community** is actively involved in helping the ecosystem improve and sharing scientific discoveries.
+

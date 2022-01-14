@@ -1,6 +1,6 @@
 <div class='center'>
-<a href='http://www.open-bio.org/wiki/BOSC_2014'><img src="/src/images/logos/BOSC_logo.png" alt="BOSC 2013" width="120" /></a>&nbsp;&nbsp;&nbsp;
-<a href='http://www.iscb.org/ismb2014'><img src="/src/images/logos/ISMB2014LogoRound.png" alt="ISMB 2014" width="100" /></a>
+<a href='http://www.open-bio.org/wiki/BOSC_2014'><img src="/images/logos/BOSC_logo.png" alt="BOSC 2013" width="120" /></a>&nbsp;&nbsp;&nbsp;
+<a href='http://www.iscb.org/ismb2014'><img src="/images/logos/ISMB2014LogoRound.png" alt="ISMB 2014" width="100" /></a>
 
 # Galaxy at ISMB and BOSC 2014
 
@@ -28,13 +28,13 @@ Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) a
   <tr>
     <th> July 11 </th>
     <th style=" text-align: right;"> 11:57 </th>
-    <td> <em>Galaxy as an Extensible Job Execution Platform</em><div class='indent'><a href='/src/people/john-chilton/index.md'>John Chilton</a></div> </td>
+    <td> <em>Galaxy as an Extensible Job Execution Platform</em><div class='indent'><a href='/people/john-chilton/'>John Chilton</a></div> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/BOSC2014_Chilton.pdf'>Slides</a>, <a href='http://video.open-bio.org/video/6/galaxy-as-an-extensible-job-execution-platform'>Video</a> </td>
   </tr>
   <tr>
     <th> July 12 </th>
     <th style=" text-align: right;"> 2:36 </th>
-    <td> <em>Enhancing the Galaxy Experience through Community Involvement</em> <div class='indent'><a href='/src/people/dan/index.md'>Daniel Blankenberg</a></div> </td>
+    <td> <em>Enhancing the Galaxy Experience through Community Involvement</em> <div class='indent'><a href='/people/dan/'>Daniel Blankenberg</a></div> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/BOSC2014_Blankenberg.pdf'>Slides</a> , <a href='http://video.open-bio.org/video/31/enhancing-the-galaxy-experience-through-community'>Video</a> </td>
   </tr>
 </table>
@@ -42,7 +42,7 @@ Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) a
 
 ## ISMB 2014
 
-[ISMB](http://www.iscb.org/ismb2014) runs from July 13 through July 15. 
+[ISMB](http://www.iscb.org/ismb2014) runs from July 13 through July 15.
 
 <table>
   <tr class="th" >
@@ -56,7 +56,7 @@ Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) a
     <th rowspan=4> July 13 </th>
     <th style=" text-align: right;"> 3:05 </th>
     <td> Room 309 </td>
-    <td> <em><a href='http://www.iscb.org/uploaded/css/166/29988.pdf'>TT03: Interactive Visual Analysis with Galaxy Charts</a></em><div class='indent'><a href='/src/people/guerler/index.md'>Aysam Guerler</a> </td>
+    <td> <em><a href='http://www.iscb.org/uploaded/css/166/29988.pdf'>TT03: Interactive Visual Analysis with Galaxy Charts</a></em><div class='indent'><a href='/people/guerler/'>Aysam Guerler</a> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2014_Guerler_Charts.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -96,7 +96,7 @@ Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) a
     <th rowspan=4> July 15 </th>
     <th style=" text-align: right;"> 11:00 </th>
     <td> Room 313 </td>
-    <td> <em><a href='http://www.iscb.org/uploaded/css/166/30137.pdf'>TT24: From the Ground to the Cloud in 25 minutes: Building a Customized Galaxy Analysis Server Using Only a Web Browser</a></em> <div class='indent'><a href='/src/people/dan/index.md'>Daniel Blankenberg</a> </div> </td>
+    <td> <em><a href='http://www.iscb.org/uploaded/css/166/30137.pdf'>TT24: From the Ground to the Cloud in 25 minutes: Building a Customized Galaxy Analysis Server Using Only a Web Browser</a></em> <div class='indent'><a href='/people/dan/'>Daniel Blankenberg</a> </div> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2014_Blankenberg_Ground2Cloud.pdf'>Slides</a> </td>
   </tr>
   <tr>
@@ -108,7 +108,7 @@ Galaxy has a significant presence at [ISMB 2014](http://www.iscb.org/ismb2014) a
   <tr>
     <th style=" text-align: right;"> 2:00 </th>
     <td> Room 310 </td>
-    <td> <em><a href='http://www.iscb.org/uploaded/css/166/30134.pdf'>TT29: Scaling Galaxy: Preparing for Those Next Few Orders of Magnitude</a></em> <div class='indent'><a href='/src/people/john-chilton/index.md'>John Chilton</a></div> </td>
+    <td> <em><a href='http://www.iscb.org/uploaded/css/166/30134.pdf'>TT29: Scaling Galaxy: Preparing for Those Next Few Orders of Magnitude</a></em> <div class='indent'><a href='/people/john-chilton/'>John Chilton</a></div> </td>
     <td> <a href='https://depot.galaxyproject.org/hub/attachments/documents/presentations/ISMB2014_Chilton_ScalingGalaxy.pdf'>Slides</a> </td>
   </tr>
   <tr>

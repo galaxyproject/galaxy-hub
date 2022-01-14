@@ -10,4 +10,5 @@ external_url: http://biogenomics2017.org/
 contact: James Taylor
 ---
 Additional Resources:
+
 - [A link to the slides](https://speakerdeck.com/jxtx/bio-genomics-2017)

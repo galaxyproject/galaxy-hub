@@ -9,11 +9,11 @@ date: "2015-01-19"
 </table>
 
 
-<div class='right'><a href='http://gcc2015.tsl.ac.uk/training-day/'><img src="/src/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Training Day" width="170" /></a></div>
+<div class='right'><a href='http://gcc2015.tsl.ac.uk/training-day/'><img src="/images/logos/GCC2015LogoWide600.png" alt="GCC2015 Training Day" width="170" /></a></div>
 
 What topics should be offered at the [GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/)?
 
-[Topics](http://gcc2015.tsl.ac.uk/training-day/) for the [GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) are selected by you, the Galaxy Community.  There are [nominated topics](http://gcc2015.tsl.ac.uk/training-day/) spanning from basic usage to advanced deployment.  No matter what you do with Galaxy, there are topics for you to choose from.  Your vote will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters. 
+[Topics](http://gcc2015.tsl.ac.uk/training-day/) for the [GCC2015 Training Day](http://gcc2015.tsl.ac.uk/training-day/) are selected by you, the Galaxy Community.  There are [nominated topics](http://gcc2015.tsl.ac.uk/training-day/) spanning from basic usage to advanced deployment.  No matter what you do with Galaxy, there are topics for you to choose from.  Your vote will determine the topics that are offered, which topics should be offered more than once,  and which ones should not be scheduled at the same time.  Your vote matters.
 
 **Topic voting closes 30 January.** The Training Day schedule, including instructors, will be published before early registration opens in February.
 

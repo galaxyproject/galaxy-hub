@@ -14,7 +14,7 @@ contact: Camille Avestruz, Tracy Teal, Blake Joyce, Dave Clements, Joslynn Lee
 
 ## Do you have data and don’t know where to start with analysis?
 
-[<img class="float-right" src="/src/events/2018-sacnas/sacnas-2018-flier-thumb.png" />](https://depot.galaxyproject.org/hub/attachments/events/2018-sacnas/2018-sacnas-flier.pdf)
+[<img class="float-right" src="/events/2018-sacnas/sacnas-2018-flier-thumb.png" />](https://depot.galaxyproject.org/hub/attachments/events/2018-sacnas/2018-sacnas-flier.pdf)
 
 There will be two parallel full day pre-conference workshops at [2018 SACNAS](http://www.2018sacnas.org/) that will introduce participants to best practices, tools, and platforms for doing data-intensive research.
 
@@ -39,8 +39,8 @@ The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http
 # Workshop 1: Software and Data Carpentry
 
 <div class="float-right">
-[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="170" />](https://software-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" />](https://data-carpentry.org/)<br />
+[<img src="/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="170" />](https://software-carpentry.org/)<br /><br />
+[<img src="/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="170" />](https://data-carpentry.org/)<br />
 </div>
 
 **Wednesday, October 10, 9am- 6pm**
@@ -50,7 +50,7 @@ The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http
 Ever find yourself manually repeating coding tasks?  Do you feel like there should be an easier way to go about doing data analysis and visualization?  Join us for a [Software](https://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/) session to learn how to
 
 1. efficiently work in the unix shell for file manipulation and
-1.  use Python in a sample workflow of data analysis from loading to visualization.
+1. use Python in a sample workflow of data analysis from loading to visualization.
 
 Bring your laptop for a series of hands-on exercises.
 
@@ -63,11 +63,11 @@ Bring your laptop for a series of hands-on exercises.
 
 You will need bash and anaconda set up.  Please follow the installation instructions outlined [here](https://tracykteal.github.io/2018-10-10-SACNAS/) for your operating system (either Windows, Mac OS X, or Linux) to make sure you have the “Bash Shell” and “Python” installed.
 
-## Session 1 : Unix Shell 
+## Session 1 : Unix Shell
 
 | Time | Topic |
 |:----:| ----- |
-| 9:00a -   9:30a	| Software check |
+| 9:00a -   9:30a | Software check |
 | 9:30a - 10:15a | Navigating the shell; file creation & manipulation; basic loops. |
 | 10:15a - 10:30a | Break |
 | 10:30a - 11:15a | Editing text files and simple bash scripts |
@@ -90,8 +90,8 @@ You will need bash and anaconda set up.  Please follow the installation instruct
 # Workshop 2: Data Platforms for Life Science Researchers
 
 <div class="right">
-[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="170" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/src/index.md)<br />
+[<img src="/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="170" />](https://www.cyverse.org/)<br /><br />
+[<img src="/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="170" />](/)<br />
 </div>
 
 **Wednesday, October 10, 9am- 6pm**
@@ -103,7 +103,7 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 **Instructors**
 
 - [Blake Joyce](http://www.cyverse.org/blake-joyce), CyVerse and the University of Arizona
-- [Dave Clements](/src/people/dave-clements/index.md), Galaxy Project and Johns Hopkins University, clements@galaxyproject.org
+- [Dave Clements](/people/dave-clements/), Galaxy Project and Johns Hopkins University, clements@galaxyproject.org
 - [Joslynn Lee](https://www.hhmi.org/developing-scientists/meet-our-team), Howard Hughes Medical Institute and University of Maryland Baltimore County, joslynnlee@gmail.com
 
 ## Session 1 : CyVerse
@@ -112,7 +112,7 @@ Want to do data analysis and don’t know where to start?  [CyVerse](http://www.
 
 | Time | Topic |
 |:----:| ----- |
-| 9:00a - 9:30a	| Workshop & Participant Introductions |
+| 9:00a - 9:30a | Workshop & Participant Introductions |
 | 9:30a - 10:15a | Navigating CyVerse, finding data, and exploring tools |
 | 10:15a - 10:30a | Break |
 | 10:30a - 11:00a| Navigating CyVerse, continued |

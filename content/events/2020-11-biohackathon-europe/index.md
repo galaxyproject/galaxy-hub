@@ -13,26 +13,28 @@ contact: "Project organizers"
 tags: [ cofest ]
 ---
 
-<div class="float-right">
-[<img style="max-width: 160px" src="/src/images/logos/bioconda.png" alt="Bioconda" />](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/31)<br /><br />
-[<img style="max-width: 160px" src="/src/images/logos/bhlogo.png" alt="BioHackathon-Europe 2019" />](https://www.biohackathon-europe.org/index.html)<br />
-[<img style="max-width: 160px" src="/src/images/logos/cwl-logo-small-trans.png" alt="CWL" />](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/3)<br />
+<div class="float-right" style="max-width: 160px">
+
+[![Bioconda](/images/logos/bioconda.png)](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/31)  
+[![BioHackathon-Europe 2019](/images/logos/bhlogo.png)](https://www.biohackathon-europe.org/index.html)  
+[![CWL](/images/logos/cwl-logo-small-trans.png)](https://github.com/elixir-europe/BioHackathon-projects-2019/tree/master/projects/3)
+
 </div>
 
 Galaxy will be featured at [BioHackathon-Europe 2020](https://www.biohackathon-europe.org/index.html) as a prominent part of many of [this year's selected projects](https://www.biohackathon-europe.org/projects):
 
 * **[Exporting rich metadata and provenance from Galaxy using RO-Crate packaging](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/14)**
-  * Organizers: Frederik Coppens, [Ignacio Eguinoa], Frederik Coppens
+    * Organizers: Frederik Coppens, [Ignacio Eguinoa], Frederik Coppens
 * **[Improve the support of Common Workflow Language in Galaxy](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/17)**
-  * Organizers: Nicola Soranzo, Hervé Ménager, John Chilton, Michael Crusoe
+    * Organizers: Nicola Soranzo, Hervé Ménager, John Chilton, Michael Crusoe
 * **[Hardening and Testing Galaxy cluster support with BioContainer](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/18)**
-  * Organizers: Marco Antonio Tangaro, Pablo Moreno
+    * Organizers: Marco Antonio Tangaro, Pablo Moreno
 * **[An interface between Galaxy and disease maps](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/27)**
-  * Organizers: Marek Ostaszewski, Andrew P. Stubbs, Chris T. Evelo
+    * Organizers: Marek Ostaszewski, Andrew P. Stubbs, Chris T. Evelo
 * **[Unlock the value of your data computing at the edge](https://github.com/elixir-europe/BioHackathon-projects-2020/blob/6033058e50abee7374ceead14d5ad0b43121da46/projects/39/README.md)**
-  * Organizers: Nicholas Allsopp, Albert Trill
+    * Organizers: Nicholas Allsopp, Albert Trill
 * **[Deploying biocontainers in orchestration environments for life science research](https://github.com/elixir-europe/BioHackathon-projects-2020/blob/6033058e50abee7374ceead14d5ad0b43121da46/projects/31/README.md)**
-  * Organizers: Kiran K Telukunta
+    * Organizers: Kiran K Telukunta
 
 Join us to learn from and work with experts of the Open Source Life Science community, and discuss the future of the [ELIXIR Galaxy community](https://elixir-europe.org/communities/galaxy) and enjoy the great food and venue.
 

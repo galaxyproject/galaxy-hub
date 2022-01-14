@@ -15,6 +15,7 @@ links:
   url: "https://youtu.be/DkGrrbaTPN8"
 - text: "Slides"
   url: "https://docs.google.com/presentation/d/1-KzEgD8xJK4fv9VyYD8PTEOtcgUYRC7YY6BnwNXLY00/edit#slide=id.ge915f2a5c6_0_15"
+tags: [ "devroundtable" ]
 ---
 
 <div class="video-variable">
@@ -30,4 +31,4 @@ Please [join us](https://psu.zoom.us/j/92752763386) at Noon, US Eastern time ([s
 
 ---
 
-The [Galaxy Developer Roundtable](/src/community/devroundtable/index.md) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community.
+The [Galaxy Developer Roundtable](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community.

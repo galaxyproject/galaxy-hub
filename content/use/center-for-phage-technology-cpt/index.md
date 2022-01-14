@@ -8,7 +8,7 @@ platforms:
     platform_text: "Center for Phage Technology (CPT) Galaxy Server"
     platform_location: US
 summary: "Phage biology and automated annotation. "
-image: "/src/use/center-for-phage-technology-cpt/cpt-logo.png"
+image: "/use/center-for-phage-technology-cpt/cpt-logo.png"
 comments:
   - "[CPT home page](https://cpt.tamu.edu/)"
   - "Server includes many genbank and gff3 processing tools, largely focused on annotation of phages."

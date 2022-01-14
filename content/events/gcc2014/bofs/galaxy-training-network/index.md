@@ -5,9 +5,9 @@ title: Galaxy Training Network
 
 <slot name="/events/gcc2014/linkbox" />
 
-<div class='left'><a href='/src/events/gcc2014/bofs/index.md'><img src="/src/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
+<div class='left'><a href='/events/gcc2014/bofs/'><img src="/images/logos/GCC2014_BoF_LogoSquare.png" alt="GCC2014 BoFs!" width="100" /></a></div>
 
-This page describes the **[Galaxy Training Network](https://training.galaxyproject.org/)** [Birds of a Feather](/src/events/gcc2014/bofs/index.md) meetup being held at [GCC2014](/src/events/gcc2014/index.md).
+This page describes the **[Galaxy Training Network](https://training.galaxyproject.org/)** [Birds of a Feather](/events/gcc2014/bofs/) meetup being held at [GCC2014](/events/gcc2014/).
 
 When: Tuesday, July 1, 5:45pm
 
@@ -19,6 +19,7 @@ Contact: [Simon Gladman](mailto:simon DOT gladman AT monash DOT edu), [Andrew Lo
 # Description
 
 The plan is to have a discussion surrounding:
+
 * Types of training
 * Available materials and their format
 * Infrastructure requirements
@@ -36,7 +37,7 @@ Anyone interested in using Galaxy for bioinformatics and related learning and te
 # Attendees
 
 * Simon Gladman
-* Maria Doyle 
+* Maria Doyle
 * Ron Horst
 * Hans-Rudolf Hotz
 * Richard Everson
@@ -59,13 +60,13 @@ Anyone interested in using Galaxy for bioinformatics and related learning and te
 # Content
 
 * Is the goal to teach how to use tools, or to teach understanding of concepts?  What's the balance?
-  * Focusing on basics.  They aren't going to remember specific parameter settings a week later.
+    * Focusing on basics.  They aren't going to remember specific parameter settings a week later.
 
 # Materials
 
 * Published histories
 * Galaxy Pages
-  * Fabulous resource, *but not portable*
+    * Fabulous resource, *but not portable*
 
 ## Video
 
@@ -75,13 +76,13 @@ Anyone interested in using Galaxy for bioinformatics and related learning and te
 
 ## GTN Resources Directory
 
-<div class='right'><a href='https://training.galaxyproject.org/'><img src="/src/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="300" /></a></div>
+<div class='right'><a href='https://training.galaxyproject.org/'><img src="/images/logos/GTNLogo600.png" alt="Galaxy Training Network" width="300" /></a></div>
 
 This has been created.
 
 Some aspirations for the resource directory:
 
-* List the tools and packages 
+* List the tools and packages
 * Estimates of needed memory
 * Datasets
 * Target Audience: Beginner, intermediate, advanced
@@ -115,6 +116,7 @@ The list below was created during this BoF.  A published list of best practices 
 ## Training Servers?
 
 Is it possible to have a persistent training server?  Some ideas:
+
 * Disable data importing.
 * Prominently state that all user data and accounts will be deleted at specific time intervals.
 
@@ -126,9 +128,9 @@ Is it possible to have a persistent training server?  Some ideas:
 # Action Items
 
 * Create a galaxy-teach or galaxy-train mailing list / forum
-  * [Done](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/)
+    * [Done](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/)
 * Work with that list to establish what the Resource Directory (and the Trainer Directory) should look like
-  * Resource Directory and Trainer Directory are up.
+    * Resource Directory and Trainer Directory are up.
 * Push these best practices to the GTN Best Practices area.
-  * Done
+    * Done
 * Include a video training directory

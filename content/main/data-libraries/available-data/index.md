@@ -1,6 +1,6 @@
 Galaxy provides tools for extracting subsets of genomic sequences and alignments. Currently the public instance of Galaxy supports the following sequences and alignments
 
-28 sequences are available in Galaxy (not including [Main/DataLibraries/Microbes](/src/main/data-libraries/microbes/index.md)):
+28 sequences are available in Galaxy (not including [Main/DataLibraries/Microbes](/main/data-libraries/microbes/)):
 
 <table>
   <tr>
@@ -788,6 +788,6 @@ Galaxy provides tools for extracting subsets of genomic sequences and alignments
 4 multiZ alignments are available in Galaxy:
 
 * hg17-panTro1-musMus5-ratNor3-canFam1-galGal2-fugRub1-danRer1
-* hg18-panTro1-bosTau2-rheMac2-musMus8-ratNor4-canFam2-echTel1-loxAfr1-oryCun1-danRer3-monDom4-dasNov1-galGal2-fr1-tetNig1-xenTro1 
+* hg18-panTro1-bosTau2-rheMac2-musMus8-ratNor4-canFam2-echTel1-loxAfr1-oryCun1-danRer3-monDom4-dasNov1-galGal2-fr1-tetNig1-xenTro1
 * hg18-panTro2-rheMac2-musMus8-canFam2
 * hg18-panTro2-rheMac2

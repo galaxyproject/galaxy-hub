@@ -1,9 +1,10 @@
 ---
 title: Sorting your inputs
 ---
-[Back to Support Hub](/src/support/index.md)
 
-~~Many tools require inputs to be sorted in a specific way prior to use.~~
+[Back to Support Hub](/support/)
+
+<del>Many tools require inputs to be sorted in a specific way prior to use.</del>
 
 Good news! Galaxy includes tools to do this sorting.
 
@@ -16,7 +17,7 @@ Good news! Galaxy includes tools to do this sorting.
 * **VCFsort** Best choice for VFC
 * **Tool Form Options for Sorting** Some tools have a tool form option to sort inputs during job execution. This uses more resources but is a choice. Whenever possible, _sort inputs before using tools_, especially if jobs are failing for not enough memory resources.
 
-## Updates 
+## Updates
 
 ### Current usage as of the 18.09 release
 
@@ -33,7 +34,7 @@ Avoid assigning the `bam` datatype to datasets that are not actually coordinate 
 
 ----
 
-## Deprecated: Example tools and Tool groups that require input sorting 
+## Deprecated: Example tools and Tool groups that require input sorting
 
 `Deprecated help below`
 
@@ -45,7 +46,7 @@ The tool now queryname sorts at runtime with default seetings.
 
 `Deprecated help below`
 
-Example error on bug report. 
+Example error on bug report.
 
 ```
 job info:
@@ -97,5 +98,6 @@ Please click the bug icon to report this problem if you need help.
 Different errors can be reported and some may seem unrelated to sort order. Try sorting as a first pass troubleshooting solution.
 
 If sorting does not work, it could be that your FASTQ data is not actually in *.fastqsanger* format. This occurs quite often in reported issues. For the quickest resolution, instead of reporting the bug and being sent back this link, first double check your data format directly.
-* [How to format fastq data for tools that require .fastqsanger format?](/src/learn/fastqsanger/index.md)
-* [Understanding compressed fastq data (fastq.gz)](/src/learn/compressed-fastq/index.md)
+
+* [How to format fastq data for tools that require .fastqsanger format?](/support/fastqsanger/)
+* [Understanding compressed fastq data (fastq.gz)](/support/compressed-fastq/)

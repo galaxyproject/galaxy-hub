@@ -30,8 +30,8 @@ If you have a community specific query you can contact:
 * *[Melissa Haendel](http://www.ohsu.edu/xd/education/library/about/staff-directory/melissa-haendel.cfm)*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Christopher Fields](http://hpcbio.illinois.edu/people)*, [University of Illinois](http://illinois.edu/)
 * *Maria Doyle*, [Peter MacCallum Cancer Centre](https://www.petermac.org/)
-* *[Peter Cock](http://www.hutton.ac.uk/staff/peter-cock),* [The James Hutton Institute](http://www.hutton.ac.uk/) 
-* *[Dave Clements](/src/people/dave-clements/index.md)*, [Johns Hopkins University](https://jhu.edu/), GCC2018 Co-Chair
+* *[Peter Cock](http://www.hutton.ac.uk/staff/peter-cock),* [The James Hutton Institute](http://www.hutton.ac.uk/)
+* *[Dave Clements](/people/dave-clements/)*, [Johns Hopkins University](https://jhu.edu/), GCC2018 Co-Chair
 * *Andrew Chitty*, [Oregon Health and Science University (OHSU)](http://www.ohsu.edu/)
 * *[Brad Chapman](http://bcb.io/)*, [Harvard T.H. Chan School of Public Health](https://www.hsph.harvard.edu/), BOSC 2018 Co-Chair
 

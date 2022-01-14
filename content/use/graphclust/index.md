@@ -11,7 +11,7 @@ platforms:
     platform_url: "https://hub.docker.com/r/backofenlab/docker-galaxy-graphclust"
     platform_text: "Docker"
 summary: "[GraphClust2](https://github.com/BackofenLab/GraphClust-2) is a workflow for scalable clustering of RNAs based on sequence and secondary structures feature. GraphClust2 is implemented within the Galaxy framework and consists a set of integrated Galaxy tools and flavors of the linear-time clustering workflow."
-image: "/src/use/graphclust/graphclust-pipeline.png"
+image: "/use/graphclust/graphclust-pipeline.png"
 comments:
   - "The public server is hosted by the UesGalaxy.eu team."
 user_support:
@@ -24,7 +24,7 @@ quotas:
   - "Docker Container: None"
   - "Public Server: Storage and computational quotas."
 citations:
-  - "[GraphClust2: annotation and discovery of structured RNAs with scalable and accessible integrative clustering](https://doi.org/10.1101/550335), Milad Miladi, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, [Björn Grüning](/src/people/bjoern-gruening/index.md), Rolf Backofen
+  - "[GraphClust2: annotation and discovery of structured RNAs with scalable and accessible integrative clustering](https://doi.org/10.1101/550335), Milad Miladi, Eteri Sokhoyan, Torsten Houwaart, Steffen Heyne, Fabrizio Costa, [Björn Grüning](/people/bjoern-gruening/), Rolf Backofen
 *bioRxiv* 550335; doi: 10.1101/550335"
 pub_libraries:
   - "GraphClust"

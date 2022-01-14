@@ -9,7 +9,7 @@ location_url: ""
 external_url:
 gtn: true
 contact: Instructors
-image: "/src/images/galaxy-logos/admin-training-logo.jpg"
+image: "/images/galaxy-logos/admin-training-logo.jpg"
 ---
 
 **The next [Galaxy Admin Training](https://github.com/galaxyproject/admin-training) will be offered online and asynchronously January 25-29.**
@@ -20,7 +20,7 @@ Galaxy is an open web based platform for biomedical data integration and analysi
 
 # Format
 
-This admin training will be presented as a series of instructional lectures and hands-on materials you can follow *at your own pace*. 
+This admin training will be presented as a series of instructional lectures and hands-on materials you can follow *at your own pace*.
 
 Given that we are targetting a global audience, participants will be able to complete materials at their convenience during the week, and instructors will be continuously available for students to check in with and discuss progress and questions. Instructors will also be available for one-on-one debugging when needed.
 
@@ -31,6 +31,7 @@ Given that we are targetting a global audience, participants will be able to com
 ## Comfortable with the Unix/Linux command line
 
 Most of the workshop will happen at the Linux command line.  *If you aren’t comfortable with this before you arrive, then you will be lost the entire time.*  How comfortable do you need to be?  Here’s a sampling of commands and concepts that you should be comfortable with:
+
   ```
 cd, mkdir, rmdir, ls
 tar, gzip
@@ -53,15 +54,15 @@ Linux has several text editors available in it.  You’ll need to be competent i
 ## Compute Requirements
 
 * **Reliable internet connection**.  Your connection needs to be good enough that you can
-  * watch pre-recorded videos over the internet
-  * participate in at least chat, and preferably audio discussions with instructors
+    * watch pre-recorded videos over the internet
+    * participate in at least chat, and preferably audio discussions with instructors
 
 * Your computer should have
-  * at least 4GB of memory (more is better)
-  * Software to access the command line of a Linux server.
-    * If you are running Linux or Mac OS, then you already have this.
-    * If you are running Windows than you’ll need to get something like putty installed before the workshop.
-  * A recent version of either the Chrome or Firefox web browser installed.
+    * at least 4GB of memory (more is better)
+    * Software to access the command line of a Linux server.
+        * If you are running Linux or Mac OS, then you already have this.
+        * If you are running Windows than you’ll need to get something like putty installed before the workshop.
+    * A recent version of either the Chrome or Firefox web browser installed.
 
 # Applications are closed
 

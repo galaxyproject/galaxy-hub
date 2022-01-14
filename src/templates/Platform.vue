@@ -12,7 +12,7 @@
         </div>
         <table class="table table-striped summary">
             <tbody>
-                <tr v-for="platform of $page.platform.platforms">
+                <tr :key="pKey" v-for="(platform, pKey) of $page.platform.platforms">
                     <th>{{ groupNames.get(platform.platform_group) }}:</th>
                     <td>
                         <a :href="platform.platform_url">{{ platform.platform_text }}</a>
@@ -31,7 +31,7 @@
             </tbody>
         </table>
         <template v-for="series of serieses">
-            <h2 :key="series.name + ':h2'">{{ series.name }}</h2>
+            <h2 :key="series.name + ':h2'" class="text-capitalize">{{ series.name }}</h2>
             <ul :key="series.name + ':ul'">
                 <li class="markdown" v-for="item in series.values" :key="item" v-html="item" />
                 <template v-if="series.key === 'citations'">
@@ -69,12 +69,15 @@ query Platform($path: String!) {
     quotas
     citations
     sponsors
+    fileInfo {
+        path
+    }
   }
 }
 </page-query>
 
 <script>
-import { mdToHtml, titlecase, getImage } from "~/utils.js";
+import { mdToHtml, getImage } from "~/utils.js";
 export default {
     metaInfo() {
         return {
@@ -111,7 +114,7 @@ export default {
                 let series = {
                     key: key,
                     values: this.$page.platform[key].map(mdToHtml),
-                    name: key.split("_").map(titlecase).join(" "),
+                    name: key.replace(/_/g, " "),
                 };
                 serieses.push(series);
             }

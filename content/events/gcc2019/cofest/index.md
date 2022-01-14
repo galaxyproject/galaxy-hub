@@ -4,7 +4,7 @@ title: "GCC2019 CollaborationFest: Core and Encore"
 
 <slot name="/events/gcc2019/header" />
 
-<img class="float-right" src="/src/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
+<img class="float-right" src="/events/gcc2014/hackathon/HackLaptops.jpg" alt="CollaborationFest" />
 
 GCC2019 will finish with *CollaborationFest*, a 2 (or 4) day collaborative work event where our community gathers to contribute code, documentation, training materials, and challenging analysis problems and use cases.  If you are interested in learning and contributing in an intensely collaborative environment, then CollaborationFest is for you.
 
@@ -21,7 +21,7 @@ GCC2019 will finish with *CollaborationFest*, a 2 (or 4) day collaborative work 
 
 CoFest is split in half again this year:
 
-**CollaborationFest: Core: Friday & Saturday** 
+**CollaborationFest: Core: Friday & Saturday**
 
 There will be lots of collaborative work, but also lots of learning about projects and software.  This will be the larger of the two stages.  All you need to attend this is an interest and willingness to contribute.
 
@@ -56,11 +56,11 @@ Please note that many clusters will form *during* CollaborationFest.  We encoura
 
 # Registration
 
-CollaborationFest is free, for all 4 days.  You still need to [register](/src/events/gcc2019/registration/index.md) (and select either 2 or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
+CollaborationFest is free, for all 4 days.  You still need to [register](/events/gcc2019/registration/) (and select either 2 or 4 days).  You will need to cover some, and possibly all, of your meal expenses. Organizers will provide coffee / beverages throughout. We will attempt to get funding for as many lunches as possible.
 
 ## Lodging
 
-See the [Venue page](/src/events/gcc2019/venue/index.md)
+See the [Venue page](/events/gcc2019/venue/)
 
 ## Childcare
 
@@ -73,6 +73,7 @@ Childcare won't be available during CoFest:Encore.
 * [The team](https://galaxyproject.org/events/gcc2019/organizers/#collaborationfest-organizers)
 
 Contact us at
+
 * CoFest 2019 Organizers <cofest2019-org@lists.galaxyproject.org>
 
 # CollaborationFest Sponsors
@@ -81,10 +82,10 @@ Contact us at
 
 <div class="center img-sizer" style="height: 9.5em">
 
-[![ELIXIR: uniting Europe’s leading life science organisations](/src/images/logos/elixir-logo-big.png)](https://elixir-europe.org/)
+[![ELIXIR: uniting Europe’s leading life science organisations](/images/logos/elixir-logo-big.png)](https://elixir-europe.org/)
 
 </div>
 
 ## CollaborationFest Sponsorship Opportunities
 
-Interested in helping make this event happen?  See the [sponsorship page](/src/events/gcc2019/sponsors/index.md#collaborationfest-sponsorships) for options.
+Interested in helping make this event happen?  See the [sponsorship page](/events/gcc2019/sponsors/#collaborationfest-sponsorships) for options.

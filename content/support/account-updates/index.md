@@ -1,7 +1,7 @@
 ---
  title: Account Updates
 ---
-[Back to Support Hub](/src/support/index.md)
+[Back to Support Hub](/support/)
 
 # Making Changes to Your Account
 
@@ -24,7 +24,7 @@
   1. Note: The change confirmation link in that email expires after 6 hours. If you miss that time window, repeat the steps to generate another account change email with a new link.
   
 ## Forgotten password reset
- 
+
   1. Go to the Galaxy server you are using
   1. Go to **User > Login**
   1. Click on the link under the password entry box titled **Forgot password? Reset here**

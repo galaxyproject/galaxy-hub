@@ -1,14 +1,22 @@
 ---
 title: Recent Pubs
+link: https://www.zotero.org/groups/galaxy
+icon: fas fa-book-open
+items:
+
+- title: "Galaxy workflows for fragment-based virtual screening: A case study on the SARS-CoV-2 main protease"
+  link: https://doi.org/10.26434/chemrxiv-2021-zr4xn
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.26434/chemrxiv-2021-zr4xn'></span> Bray, S., Dudgeon, T., Skyner, R., Backofen, R., Grüning, B., & Delft, F. von. (2021). *ChemRxiv*."
+- title: "Galaxy Is a Suitable Bioinformatics Platform for the Molecular Diagnosis of Human Genetic Disorders Using High-Throughput Sequencing Data Analysis. Five Years of Experience in a Clinical Laboratory"
+  link: https://doi.org/10.1093/clinchem/hvab220
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1093/clinchem/hvab220'></span> Chappell, K., Francou, B., Habib, C., Huby, T., Leoni, M., … Bouligand, J. (2021). *Clinical Chemistry*, hvab220."
+- title: "MCMICRO: A scalable, modular image-processing pipeline for multiplexed tissue imaging"
+  link: https://doi.org/10.1038/s41592-021-01308-y
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1038/s41592-021-01308-y'></span> Schapiro, D., Sokolov, A., Yapp, C., Chen, Y.-A., Muhlich, J. L., … Sorger, P. K. (2021). *Nature Methods*, 1–5."
+- title: "miRGalaxy: Galaxy-Based Framework for Interactive Analysis of microRNA and isomiR Sequencing Data"
+  link: https://doi.org/10.3390/cancers13225663
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.3390/cancers13225663'></span> Glogovitis, I., Yahubyan, G., Würdinger, T., Koppers-Lalic, D., & Baev, V. (2021). <em>Cancers</em>, 13(22), 5663."
+- title: "Laniakea@ReCaS: Exploring the potential of customisable Galaxy on-demand instances as a cloud-based service"
+  link: https://doi.org/10.1186/s12859-021-04401-3
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.1186/s12859-021-04401-3'></span> Tangaro, M. A., Mandreoli, P., Chiara, M., Donvito, G., Antonacci, M., … Zambelli, F. (2021). <em>BMC Bioinformatics</em>, 22(15), 544."
 ---
-
-**[GALAXY Workflow for Bacterial Next-Generation Sequencing De Novo Assembly and Annotation](https://doi.org/10.1002/cpz1.242)** -
-Wee, S. K., & Yap, E. P. H. (2021). *Current Protocols*, 1(9), e242. 
-
-**[A SARS-CoV-2 sequence submission tool for the European Nucleotide Archive](https://doi.org/10.1093/bioinformatics/btab421)** - Roncoroni, M., Droesbeke, B., Eguinoa, I., De Ruyck, K., D’Anna, F., Yusuf, D., Grüning, B., Backofen, R., &amp; Coppens, F. (2021). *Bioinformatics*, btab421.
-
-**[Galaxy-ML: An accessible, reproducible, and scalable machine learning toolkit for biomedicine](https://doi.org/10.1371/journal.pcbi.1009014)** - Gu, Q., Kumar, A., Bray, S., Creason, A., Khanteymoori, A., Jalili, V., Grüning, B., &amp; Goecks, J. (2021). *PLOS Computational Biology*, 17(6), e1009014.
-
-**[Fostering accessible online education using Galaxy as an e-learning platform](https://doi.org/10.1371/journal.pcbi.1008923)** - Serrano-Solano, B., Föll, M. C., Gallardo-Alba, C., Erxleben, A., Rasche, H., Hiltemann, S., Fahrner, M., Dunning, M. J., Schulz, M. H., Scholtz, B., Clements, D., Nekrutenko, A., Batut, B., &amp; Grüning, B. A. (2021). *PLOS Computational Biology*, 17(5), e1008923.
-
-**[A constructivist-based proposal for bioinformatics teaching practices during lockdown](https://doi.org/10.1371/journal.pcbi.1008922)** - Gallardo-Alba, C., Grüning, B., &amp; Serrano-Solano, B. (2021). *PLOS Computational Biology*, 17(5), e1008922.

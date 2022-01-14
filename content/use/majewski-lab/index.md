@@ -8,7 +8,7 @@ platforms:
     platform_text: "Majewski Lab ExomeAI Server"
     platform_location: CA
 summary: "Detection of recurrent Allelic Imbalance in tumors using whole Exome sequencing data. "
-image: "/src/use/majewski-lab/mcgill-qgic.png"
+image: "/images/use/majewski-lab/mcgill-qgic.png"
 comments:
   - "ExomeAI is a free web-based application for detection of recurrent AI/LOH segments in Tumor samples."
 user_support:

@@ -6,7 +6,7 @@ date: "2020-06-11"
 
 # In the June 2020 issue
 
-[<img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/src/galaxy-updates/index.md)
+[<img class="float-right" src="/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" />](/galaxy-updates/)
 
 * **[James Taylor Foundation](#jtech-the-james-taylor-foundation)**
 * **[BCC2020](#bcc2020-will-be-online-global-affordable-and-accessible) will be online, global, affordable, and accessible**
@@ -26,11 +26,11 @@ If you have anything to include to next month's newsletter, then please send it 
 # JTech, the James Taylor Foundation
 
 <div class="float-right">
-<img  src="/src/jxtx/jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 10rem" /><br />
+<img  src="/jxtx/jtech-shoes-400.png" alt="James Taylor Foundation: Big Shoes to Fill" style="max-width: 10rem" /><br />
 <div class="small float-right">Design by [Rebekka Paisner](https://twitter.com/rebekkapaisner)</div>
 </div>
 
-The recent passing of [Dr. James Taylor](/src/jxtx/index.md), the Ralph S. O’Connor Professor of Biology and Professor of Computer Science at Johns Hopkins University, has left an enormous void in the field of computational biology. To help fill this void and continue James’ efforts, the Galaxy community has established a memorial foundation in James’ name.
+The recent passing of [Dr. James Taylor](/jxtx/), the Ralph S. O’Connor Professor of Biology and Professor of Computer Science at Johns Hopkins University, has left an enormous void in the field of computational biology. To help fill this void and continue James’ efforts, the Galaxy community has established a memorial foundation in James’ name.
 
 James believed that scientific progress can best be sustained through mentoring of students and junior faculty. The Junior Training and Educational Connections Hotspot (JTech) foundation will ensure implementation of this vision. To begin, JTech will  (1) support  graduate students to participate in computational biology and data science conferences, and (2) organize and host mentoring sessions between senior and junior faculty members at high-profile meetings. JTech will later expand its reach as a platform for academic mentorship including high school through college age students.
 
@@ -43,21 +43,21 @@ To make this happen we are [accepting contributions here](https://galaxyproject.
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
+<img class="card-img-top" src="/events/bcc2020/bcc2020-logo-white-no-venue.png" alt="BCC2020" />
 <div class="card-header">[BOSC + GCC = BCC2020](https://bcc2020.github.io/)</div>
 
-The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/src/gcc/index.md).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
+The [2020 Bioinformatics Community Conference (BCC2020)](https://bcc2020.github.io/) brings together the [Bioinformatics Open Source Conference (BOSC)](https://www.open-bio.org/events/bosc/) and [Galaxy Community Conference](/gcc/).  If you are working in data intensive life science research then there is no better event for sharing your work, and learning from other researchers addressing the challenges of modern data driven biology.  [BCC2020 will be held July 17-26](https://bcc2020.sched.com/), and offer 2 days of training, a 3 day meeting, and a 4 day CollaborationFest.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/events/bcc2020/maps-math.png" alt="BCC2020 is Accessible" />
+<img class="card-img-top" src="/events/bcc2020/maps-math.png" alt="BCC2020 is Accessible" />
 <div class="card-header">BCC2020 is Accessible</div>
 
 Going [online](https://bcc2020.github.io/blog/going-virtual) and [global](https://bcc2020.github.io/blog/going-global)), combined with [low registration rates](https://bcc2020.github.io/Registration/), **makes this the most accessible Galaxy or BOSC conference ever.**  If you work in open source bioinformatics, *anywhere in the world*, then this is 2020’s best opportunity to share your work and learn from others.
 </div>
 
 <div class="card border-info" style="min-width: 15rem;">
-<img class="card-img-top" src="/src/events/bcc2020/prash-keynote-banner.png" alt="Prash Suravajhala" />
+<img class="card-img-top" src="/events/bcc2020/prash-keynote-banner.png" alt="Prash Suravajhala" />
 <div class="card-header">Keynote Speaker: Prash Suravajhala</div>
 
 We are pleased to announce that **Prash Suravajhala** of [BioClues](https://bioclues.org) and the [Birla Institute of Scientific Research](https://bisr.res.in/) will give a keynote address at BCC2020.  Prash is a founder of BioClues, India’s largest bioinformatics society.
@@ -82,7 +82,7 @@ We are pleased to announce several sponsors for BCC2020!  These organizations ha
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 30rem; max-width: 48rem;">
-<img class="card-img-top" src="/src/images/logos/aws-logo-smile-wide.jpg" alt="Amazon Web Services" />
+<img class="card-img-top" src="/images/logos/aws-logo-smile-wide.jpg" alt="Amazon Web Services" />
 <div class="card-header"></div>
 
 **[Amazon Web Services (AWS)](https://aws.amazon.com/)** is the world’s most comprehensive and broadly adopted cloud platform, offering over 175 fully featured services from data centers globally.  AWS has long [enabled life science researchers](https://aws.amazon.com/health/genomics/) to access dynamically scalable and cost-effective compute resources without requiring an investment in dedicated and expensive local computational infrastructure that can become rapidly out dated. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster. You can too.
@@ -91,7 +91,7 @@ Please welcome AWS as a **Gold Level sponsor of BCC2020**.
 </div>
 
 <div class="card border-info" style="min-width: 15rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/images/logos/broad.png" alt="Broad Institute Data Sciences Platform" />
+<img class="card-img-top" src="/images/logos/broad.png" alt="Broad Institute Data Sciences Platform" />
 <div class="card-header"></div>
 
 The **[Broad Institute's Data Sciences Platform](https://www.broadinstitute.org/data-sciences-platform)** accelerates science, transforms medicine, and improves lives through data technologies. It is a diverse organization of more than 160 people working together and with external collaborators to deliver high-quality open source software and services, such as the[ Genome Analysis Toolkit (GATK)](https://gatk.broadinstitute.org/), the[ Cromwell workflow management system](https://cromwell.readthedocs.io/) and[ Terra](https://terra.bio/), the Broad Institute's cloud-based data access and analysis platform. Learn more about [Terra](https://app.terra.bio/) with these 3-10 minute [video guides](https://www.youtube.com/playlist?list=PLh_zJaZ9uQ7P0w6bMLWgL8oDul2EiNlv6) and at this [BCC training session on Saturday, July 18](https://sched.co/c4pR).
@@ -101,16 +101,16 @@ Please welcome Broad Institute's Data Sciences Platform as a **Silver Level spon
 
 
 <div class="card border-info" style="min-width: 25rem; max-width: 48rem;">
-<img class="card-img-top" src="/src/images/logos/ssi-logo.png" alt="Software Sustainability Institute (SSI)" />
+<img class="card-img-top" src="/images/logos/ssi-logo.png" alt="Software Sustainability Institute (SSI)" />
 <div class="card-header"></div>
 
-The **[Software Sustainability Institute](https://software.ac.uk/)** is a world-leading hub for the cultivation and improvement of research software practice. The Institute provides guidance, training, policy, and tools to thousands of researchers and research software engineers working across all disciplines to help achieve a vision of “better software, better research”. 
+The **[Software Sustainability Institute](https://software.ac.uk/)** is a world-leading hub for the cultivation and improvement of research software practice. The Institute provides guidance, training, policy, and tools to thousands of researchers and research software engineers working across all disciplines to help achieve a vision of “better software, better research”.
 
 Please welcome the Software Sustainability Institute as a **Gold Level sponsor of BCC2020**.
 </div>
 
 <div class="card border-info" style="min-width: 15rem; max-width: 24rem;">
-<img class="card-img-top" src="/src/images/logos/gigascience-logo-hires.png" alt="GigaScience" />
+<img class="card-img-top" src="/images/logos/gigascience-logo-hires.png" alt="GigaScience" />
 <div class="card-header"></div>
 
 [ ***GigaScience*** ](https://academic.oup.com/gigascience) is an open access, open data, open peer-review journal published by [**Oxford University Press**](https://academic.oup.com/) and [**BGI**](https://www.bgi.com/us/). We offer ‘big data’ research from the life sciences, including work that uses difficult-to-access large-scale data, such as imaging, neuroscience, ecology, systems biology, and other types of shareable data. *GigaScience* is uniquely publishes *all* research objects (data, software tools, source code, [workflows](http://gigagalaxy.net/), containers and other elements related to the findings in the article). Novel work presented at the meeting is eligible for 15% off APC.
@@ -127,14 +127,14 @@ Interested in helping BCC2020 happen?  See the [sponsorship opportunities page](
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 10rem; max-width: 30rem">
-<img class="card-img-top" src="/src/events/2020-06-sra/galaxy-sra-slice.png" alt="Galaxy ⇄ SRA" />
+<img class="card-img-top" src="/events/2020-06-sra/galaxy-sra-slice.png" alt="Galaxy ⇄ SRA" />
 <div class="card-header">Webinar: Using the new Galaxy-SRA Connector</div>
 
 Galaxy and the NIH Sequence Read Archive are now directly connected, enabling researchers to work with SRA data available from NCBI (https://www.ncbi.nlm.nih.gov/sra/) more easily within the Galaxy framework. This webinar will talk about the connection and demonstrate how to use it to get SRA data into Galaxy.
 
 [NIH's Sequence Read Archive (SRA)](https://www.ncbi.nlm.nih.gov/sra) will become an integrated data source on [UseGalaxy.org](https://usegalaxy.org) this month. This functionality is also built in to the upcoming 20.05 release of Galaxy. With this connection, you will be able to work with SRA data available from NCBI more easily within the Galaxy framework.
 
-A [webinar on June 24](/src/events/2020-06-sra/index.md) will demonstrate this integration and how to use SRA data in the Galaxy platform.  The webinar will be held on June 24, at Noon, Eastern US time (GMT -4).  Interested?  **[Register now](https://docs.google.com/forms/d/e/1FAIpQLSfeAjnJSEfG11ngNn_sS3imPiXuHhdUcDSaBO6u__88xRnMbA/viewform).**
+A [webinar on June 24](/events/2020-06-sra/) will demonstrate this integration and how to use SRA data in the Galaxy platform.  The webinar will be held on June 24, at Noon, Eastern US time (GMT -4).  Interested?  **[Register now](https://docs.google.com/forms/d/e/1FAIpQLSfeAjnJSEfG11ngNn_sS3imPiXuHhdUcDSaBO6u__88xRnMbA/viewform).**
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
@@ -151,37 +151,38 @@ NIH has released a request for information (RFI) to solicit community feedback o
 
 # More Upcoming Events
 
-The coronavirus outbreak has impacted BCC2020, and just about every other event for the rest of the year too.  Most events through the end of August have been postponed or moved online.  We have updated our [list of events](/src/events/index.md) to reflect what we know.  Some highlights:
+The coronavirus outbreak has impacted BCC2020, and just about every other event for the rest of the year too.  Most events through the end of August have been postponed or moved online.  We have updated our [list of events](/events/) to reflect what we know.  Some highlights:
 
 <div class="card-deck">
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
-<img class="card-img-top" src="/src/images/logos/sgci-logo-trans-big.png" alt="SGCI Events" />
+<img class="card-img-top" src="/images/logos/sgci-logo-trans-big.png" alt="SGCI Events" />
 <div class="card-header">SGCI Online Events</div>
 
 June is an active month for the Scientific Gateways Community Institute:
 
 * **[Jumpstart Your Sustainability Plan mini-course](https://sciencegateways.org/engage/focus-week/jumpstart)**
-  * June 16-18, with main presentations 12-1:30 pm ET each day, and optional office hours and special topics presentations from 2-5 pm ET
-  * **Register by June 12, 2020**
+    * June 16-18, with main presentations 12-1:30 pm ET each day, and optional office hours and special topics presentations from 2-5 pm ET
+    * **Register by June 12, 2020**
 * **[Galaxy: Powering Science from the Desktop to Global Cyberinfrastructure](https://sciencegateways.org/engage/webinars)**, June 24, Nate Coraor.
+
 </div>
 
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2020-06-ml/ml-workshop-flyer.png" alt="Workshop Flier for Machine Learning Using Galaxy Workshop this month. Register by June 16." />
+<img class="card-img-top" src="/events/2020-06-ml/ml-workshop-flyer.png" alt="Workshop Flier for Machine Learning Using Galaxy Workshop this month. Register by June 16." />
 <div class="card-header"></div>
 
 [This workshop](https://galaxyproject.eu/event/2020-05-27-Machine-Learning-Elixir/) will be held online 22-26 June.  **Registration deadline is 16 June!**
 
-*The organizers are seeking French-speaking Teaching Assistants for this workshop. If you can help (Tues + Thurs only) please contact [Björn Grüning](/src/people/bjoern-gruening/index.md).*
+*The organizers are seeking French-speaking Teaching Assistants for this workshop. If you can help (Tues + Thurs only) please contact [Björn Grüning](/people/bjoern-gruening/).*
 </div>
 
 <div class="card border-info" style="min-width: 10rem; max-width: 20rem">
-<img class="card-img-top" src="/src/events/2020-ismb/ismb-2020-logo-wide.jpg" alt="Galaxy @ ISMB 2020" />
+<img class="card-img-top" src="/events/2020-ismb/ismb-2020-logo-wide.jpg" alt="Galaxy @ ISMB 2020" />
 <div class="card-header"></div>
 
-[ISMB 2020](https://www.iscb.org/ismb2020) has gone virtual and [Galaxy is going with it](/src/events/2020-ismb/index.md): Check out
+[ISMB 2020](https://www.iscb.org/ismb2020) has gone virtual and [Galaxy is going with it](/events/2020-ismb/): Check out
 
 * a tutorial,
 * a COSI keynote, and
@@ -197,38 +198,41 @@ so far.  Look for more as the schedule comes online.
 
 There are
 
-* [20 upcoming events](/src/events/index.md) (most of them virtual)
+* [20 upcoming events](/events/) (most of them virtual)
 * covering COVID-19, variant detection, assembly, machine learning, accessing SRA, metabarcoding, bioinformatics education, RNA-Seq and more.
 
 And material from some recent past events is now available:
 
 * **Videos of all 5 sessions in the [Galaxy-ELIXIR webinar series: FAIR data and Open Infrastructures to tackle the COVID-19 pandemic](https://elixir-europe.org/events/webinar-galaxy-elixir-covid19) are now available**.
 * Slides and video for the webinar [Galaxy Project—Enabling an active global research community](https://sciencegateways.org/-/galaxy-project-enabling-an-active-global-research-community?inheritRedirect=true&redirect=%2Fengage%2Fwebinar-archive) are online.
+
 </div>
 </div>
 
 # Galaxy Platforms News
 
-The [Galaxy Platform Directory](/src/use/index.md) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
+The [Galaxy Platform Directory](/use/) lists resources for easily running your analysis on Galaxy, including publicly available servers, cloud services, and containers and VMs that run Galaxy. Here's the recent platform news we know about:
 
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem;">
-<div class="card-header">[MaREA4Galaxy](/src/use/marea4galaxy/index.md)</div>
+<div class="card-header">[MaREA4Galaxy](/use/marea4galaxy/)</div>
 
-<img class="card-img-top" src="/src/use/marea4galaxy/marea4galaxy-logo.png" alt="MaREA4Galaxy" />
+<img class="card-img-top" src="/use/marea4galaxy/marea4galaxy-logo.png" alt="MaREA4Galaxy" />
 
 The **[MaREA4Galaxy server](http://bimib.disco.unimib.it:5555/)** supports the *Metabolic Reaction Enrichment Analysis and visualization of RNA-seq data* toolset.  This includes tools to
-  - Compute Reaction Activity Scores from gene expression (RNA-seq) dataset(s).
-  - Cluster analysis of any dataset, according to most used algorithms: K-means, agglomerative clustering and DBSCAN. 
-  - Analyze and visualize differences in the Reaction Activity Scores (RASs) of groups of samples, as computed by the Expression2RAS tool, of groups of samples.
+
+* Compute Reaction Activity Scores from gene expression (RNA-seq) dataset(s).
+* Cluster analysis of any dataset, according to most used algorithms: K-means, agglomerative clustering and DBSCAN.
+* Analyze and visualize differences in the Reaction Activity Scores (RASs) of groups of samples, as computed by the Expression2RAS tool, of groups of samples.
+
 </div>
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[wQAP](/src/use/wqap/index.md)</div>
+<div class="card-header">[wQAP](/use/wqap/)</div>
 
-<img class="card-img-top" src="/src/use/wqap/wqap-logo.png" alt="wQAP" />
+<img class="card-img-top" src="/use/wqap/wqap-logo.png" alt="wQAP" />
 
 The **[wQAP Galaxy server](http://life2cloud.com:6005/qap)** is an online version of [QAP](http://life2cloud.com:6005/qap), the *Quasispecies Analysis Package*, and contains all the programs in QAP, and there are nearly no differences between them.  It comes with a tutorial and email support. wAQP is supported by the [Research Laboratory of Clinical Virology, Ruijin Hospital, Shanghai Jiaotong University, School of Medicine, Shanghai, China](https://www.shsmu.edu.cn/english/).
 </div>
@@ -236,19 +240,20 @@ The **[wQAP Galaxy server](http://life2cloud.com:6005/qap)** is an online versio
 <div class="card border-info"  style="min-width: 14rem;">
 <div class="card-header">[ChemicalToolBox](https://cheminformatics.usegalaxy.eu/)</div>
 
-<img class="card-img-top" src="/src/use/chemicaltoolbox/cheminformatics-slice.png" alt="ChemicalToolBox" />
+<img class="card-img-top" src="/use/chemicaltoolbox/cheminformatics-slice.png" alt="ChemicalToolBox" />
 
 **[ChemicalToolBox](https://cheminformatics.usegalaxy.eu/)** is a webserver for processing, analysing and visualising chemical data, and performing molecular simulations, with almost 100 tools.  [Training materials are available](https://galaxyproject.github.io/training-material/topics/computational-chemistry), and this toolbox was used in the recent [Virtual screening of the SARS-CoV-2 main protease](https://covid19.galaxyproject.org/cheminformatics) work.
 </div>
 
 
 <div class="card border-info"  style="min-width: 14rem;">
-<div class="card-header">[UseGalaxy.*](/src/usegalaxy/index.md) News</div>
+<div class="card-header">[UseGalaxy.*](/usegalaxy/) News</div>
 
-<img class="card-img-top" src="/src/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
+<img class="card-img-top" src="/images/galaxy-logos/usegalaxy-dot-star-white.png" alt="UseGalaxy.*" />
 
 * UseGalaxy.eu has surpassed 100,000 *workflow* invocations.
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html)
+
 </div>
 
 
@@ -278,9 +283,9 @@ Platforms that were referenced/used *at least twice* in recent publications:
 <div class="card-deck">
 
 <div class="card border-info"  style="min-width: 16rem; max-width: 24rem">
-<div class="card-header">[Galaxy Machine Learning Community Hub Page](/src/community/machine-learning/index.md)</div>
+<div class="card-header">[Galaxy Machine Learning Community Hub Page](/community/machine-learning/)</div>
 
-Machine Learning has had an active Galaxy community for a while now, and now that community has it's [own web page on the Galaxy Hub](/src/community/machine-learning/index.md) describing the [Machine learning Workbench](https://ml.usegalaxy.eu/), relevant training, and supported tools.  Coming soon: community communication channels. 
+Machine Learning has had an active Galaxy community for a while now, and now that community has it's [own web page on the Galaxy Hub](/community/machine-learning/) describing the [Machine learning Workbench](https://ml.usegalaxy.eu/), relevant training, and supported tools.  Coming soon: community communication channels.
 
 <img class="card-img-bottom" src="/images/communities/machine_learning_logo.png" alt="Galaxy Machine Learning Community Hub" />
 </div>
@@ -291,7 +296,7 @@ Machine Learning has had an active Galaxy community for a while now, and now tha
 
 By [Alireza Khanteymoori](https://training.galaxyproject.org/training-material/hall-of-fame#khanteymoori) and [Anup Kumar](https://training.galaxyproject.org/training-material/hall-of-fame#anuprulez).
 
-Discover hidden structure or patterns in unlabeled training data using unsupervised learning with clustering. 
+Discover hidden structure or patterns in unlabeled training data using unsupervised learning with clustering.
 
 <img class="card-img-bottom" src="gtn-cluster-slice.png" alt="DBSCAN versus the world" />
 </div>
@@ -301,7 +306,7 @@ Discover hidden structure or patterns in unlabeled training data using unsupervi
 
 By [Melanie Föll](https://training.galaxyproject.org/training-material/hall-of-fame#foellmelanie) and [Matthias Fahrner](https://training.galaxyproject.org/training-material/hall-of-fame#matthias313)
 
-Introduces the data analysis from raw data files to protein identification and quantification of two label-free human serum samples with the MaxQuant software. 
+Introduces the data analysis from raw data files to protein identification and quantification of two label-free human serum samples with the MaxQuant software.
 
 <img class="card-img-bottom" src="gtn-maxquant.jpg" alt="Quantitative serum composition" />
 </div>
@@ -319,7 +324,7 @@ This extensive overview slide deck on how Galaxy Code is architected received a 
 
 [Simon Bray](https://training.galaxyproject.org/training-material/hall-of-fame#simonbray) posted a major update to this COVID-19 related tutorial. (He added *Frankenstein*.)
 
-<img class="card-img-bottom" src="/src/news/2020-05-galaxy-update/gtn-mpro-slice.png" alt="MPro" />
+<img class="card-img-bottom" src="/news/2020-05-galaxy-update/gtn-mpro-slice.png" alt="MPro" />
 
 </div>
 
@@ -334,9 +339,9 @@ This extensive overview slide deck on how Galaxy Code is architected received a 
 
 [VIB-UGent Center for Plant Systems Biology](http://www.vib.be/en/), Ghent, Belgium
 
-... We are building on the internationally used platform [FAIRDOMhub](https://fairdomhub.org) for data management, and Galaxy (https://www.usegalaxy.be and https://usegalaxy.eu) for data analysis. 
+... We are building on the internationally used platform [FAIRDOMhub](https://fairdomhub.org) for data management, and Galaxy (https://www.usegalaxy.be and https://usegalaxy.eu) for data analysis.
 
-<img class="card-img-bottom" src="/src/images/logos/vib-logo-large.jpg" alt="VIB" />
+<img class="card-img-bottom" src="/images/logos/vib-logo-large.jpg" alt="VIB" />
 </div>
 
 <div class="card border-info" style="min-width: 18rem; max-width: 33%;">
@@ -352,7 +357,7 @@ This extensive overview slide deck on how Galaxy Code is architected received a 
 
 [New England Biolabs](https://www.neb.com/), Ipswich, Massachusetts, United States
 
-<img class="card-img-bottom" src="/src/images/logos/neb-wide.jpg" alt="NEB" />
+<img class="card-img-bottom" src="/images/logos/neb-wide.jpg" alt="NEB" />
 </div>
 
 </div>
@@ -366,7 +371,7 @@ This extensive overview slide deck on how Galaxy Code is architected received a 
 
 The first full stable release of the [blend4php package](https://github.com/galaxyproject/blend4php) is out. blend4*php* is a PHP wrapper for interacting with Galaxy and CloudMan. blend4php currently offers a partial implementation of the Galaxy API and includes support for datasets, data types, folder contents, folders, genomes, group roles, groups, group users, histories, history contents, jobs, libraries, library contents, requests, roles, search, tools, toolshed repositories, users, visualizations and workflows.
 
-<img class="card-img-bottom" src="/src/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" />
+<img class="card-img-bottom" src="/images/galaxy-logos/blend4phpLogo.png" alt="blend4php" />
 </div>
 
 </div>
@@ -507,9 +512,9 @@ Publications are tagged with how they use, extend or reference Galaxy.  This bat
 <div class="card border-info"  style="min-width: 12rem; max-width: 18rem;">
 <div class="card-header">[Apply for Open Life Science cohort 2 by 30 June](https://openlifesci.org/posts/2020/05/27/ols1-wrapup/#announcing-ols-2---please-share-with-your-networks)</div>
 
-[Open Life Science](https://openlifesci.org/) is launching its 2nd cohort.  If you are an early-stage researcher who wants to become an ambassador for Life Science in your communities then please considering applying for the [next 16-week mentoring & training program](https://openlifesci.org/ols-2). 
+[Open Life Science](https://openlifesci.org/) is launching its 2nd cohort.  If you are an early-stage researcher who wants to become an ambassador for Life Science in your communities then please considering applying for the [next 16-week mentoring & training program](https://openlifesci.org/ols-2).
 
-<img class="card-img-bottom" src="/src/images/logos/open-life-science-logo.png" alt="Open Life Science" />
+<img class="card-img-bottom" src="/images/logos/open-life-science-logo.png" alt="Open Life Science" />
 
 </div>
 

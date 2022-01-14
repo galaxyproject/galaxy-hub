@@ -1,20 +1,20 @@
 ---
 title: Galaxy Project Stats
 ---
-This page contains statistics about the [Galaxy Project](/src/galaxy-project/index.md).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
+This page contains statistics about the [Galaxy Project](/galaxy-project/).  This page is updated every January and July, or whenever the project has a grant due, or whenever an advisory board meeting is set to occur.
 
 
 
 # Galaxy Support: Help Forum & Gitter Chat
 
-The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/), replaced the Galaxy BioStar site on November 29, 2018.  It's a brand new site.  None of the posts or user data from our old BioStar site were copied over.
+The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/), replaced the Galaxy BioStar site on November 29, 2018.  It was created as a brand new site, with none of the posts or user data from our old BioStar site copied over.
 
-[![](/src/galaxy-project/statistics/discourse-page-views.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=2126198183&format=interactive)
+[![](/galaxy-project/statistics/discourse-page-views.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=2126198183&format=interactive)
 
 **Average monthly page views** has doubled in the most recent 12 months. During this same time period, the number of new questions and new answers averaged about 75 and 150, respectively, throughout the year.  The fact that page views doubled, but questions and answers held steady over 2020 may indicate that the site hit a critical mass of responses: When people visit, they are now much more likely to find that someone has already asked and answered their question.
 
 
-[![](/src/galaxy-project/statistics/discourse-accounts-total.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=623403796&format=interactive)
+[![](/galaxy-project/statistics/discourse-accounts-total.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vT_ydoBELTsh_TZqS_DVn5a4qGTxu5LQLWsHDll-jSvQQzMl79t3XKWsbYEEuyynsCWoTVj0KDBOjj6/pubchart?oid=623403796&format=interactive)
 
 <br />
 
@@ -22,32 +22,32 @@ The Galaxy Help Forum, [help.galaxyproject.org](https://help.galaxyproject.org/)
 
 <br />
 
-[![](/src/galaxy-project/statistics/support-channel-members.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=310048651&format=interactive)
+[![](/galaxy-project/statistics/support-channel-members.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=310048651&format=interactive)
 
 **Membership** in the two main support channels over time: [help.galaxyproject.org](https://help.galaxyproject.org/) and the [project's main Gitter/Matrix room](https://gitter.im/galaxyproject/Lobby).
 
-[![](/src/galaxy-project/statistics/other-chat-channels.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=953953023&format=interactive)
+[![](/galaxy-project/statistics/other-chat-channels.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PQwUN89H46S-l4J_LJTGGB22xHU-cCD9Gy3oViaNNWZPTnRJJuQkvCS-Z8v8llwNRTIyQ_ZMcunZ/pubchart?oid=953953023&format=interactive)
 
 The Galaxy community uses Gitter.im / Matrix for chat, and there are many different channels, depending upon topic.  Here are the channels with 35 or more members.
 
 
 ## Mailing Lists
 
-Most of Galaxy's mailing list traffic has migrated to the help forum and to Gitter.  The Galaxy-Announce (see below) and Galaxy-Dev [mailing lists](/src/mailing-lists/index.md) remain the only frequently active mailing lists. Here's the history:
+Most of Galaxy's mailing list traffic has migrated to the help forum and to Gitter.  The Galaxy-Announce (see below) and Galaxy-Dev [mailing lists](/mailing-lists/) remain the only frequently active mailing lists. Here's the history:
 
 * 2011/12: Galaxy-Announce list launched.
-* 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/src/main/index.md) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
+* 2012/02: Default mailing list for newly registered users on [usegalaxy.org](/main/) was switched from Galaxy-User to Galaxy-Announce in mid 2012/02. At the same time a link to the other lists was also added to the registration form.
 * 2014/04: Most of Galaxy-User traffic moved to the [Galaxy BioStar online forum](https://biostar.usegalaxy.org).
 * 2014/06: Galaxy-User mailing list disabled.  All new user support traffic now goes to Galaxy BioStar
 * 2018/11: [Galaxy Help Forum launched](https://help.galaxyproject.org/), superseding Galaxy BioStar site
 
 # Communication Channels
 
-The project uses the Galaxy-Announce mailing list and Twitter to keep the community up to date on what's happening in the larger Galaxy community. Galaxy-Announce was launched in December 2011 and became the default mailing list for newly registered users on [usegalaxy.org](/src/main/index.md) in February 2012.  The Galaxy project started [using Twitter](/src/galaxy-on-twitter/index.md) on a regular basis in February 2011.
+The project uses the Galaxy-Announce mailing list and Twitter to keep the community up to date on what's happening in the larger Galaxy community. Galaxy-Announce was launched in December 2011 and became the default mailing list for newly registered users on [usegalaxy.org](/main/) in February 2012.  The Galaxy project started [using Twitter](/galaxy-on-twitter/) on a regular basis in February 2011.
 
 Here's membership in both channels since they were launched.
 
-[![](/src/galaxy-project/statistics/communication-channels-membership.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRpKZ9GPUuC06iQxr7aQ5luFseKWomr5OGnfVzOI3WUrBoZXmpQm7UXwIhK9kzZSi0RO0dMgv3M8zc4/pubchart?oid=942191217&format=interactive)
+[![](/galaxy-project/statistics/communication-channels-membership.svg)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRpKZ9GPUuC06iQxr7aQ5luFseKWomr5OGnfVzOI3WUrBoZXmpQm7UXwIhK9kzZSi0RO0dMgv3M8zc4/pubchart?oid=942191217&format=interactive)
 
 # Communities
 
@@ -55,24 +55,24 @@ Several domain-specific and regional/language-based Galaxy Communities also exis
 
 | Geography/Language-based Community / Channel | Membership / Followers |
 |---|---:|
-| [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 665 |
-| [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 408 |
-| [UseGalaxy.EU Gitter](https://gitter.im/usegalaxy-eu/Lobby) | 299 |
-| [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 75 |
-| [Galaxy Africa Mailing List](https://lists.galaxyproject.org/lists/galaxy-africa.lists.galaxyproject.org/) | 52 |
+| [Galaxy-Australia Twitter](https://twitter.com/GalaxyAustralia) | 807 |
+| [Galaxy-UK Twitter](https://twitter.com/GalaxyUKFriends) | 451 |
+| [UseGalaxy.EU Gitter](https://gitter.im/usegalaxy-eu/Lobby) | 388 |
+| [Galaxy Arabic Twitter](https://twitter.com/Galaxy_Arabic) | 93 |
+| [Galaxy Africa Mailing List](https://lists.galaxyproject.org/lists/galaxy-africa.lists.galaxyproject.org/) | 56 |
 | | |
 | **Topic-Based Community / Channel** |  |
-| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) | 261 |
-| [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) | 152 |
-| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) | 150 |
-| [Galaxy Admins Gitter](https://gitter.im/galaxyproject/admins) | 132 |
-| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) | 91 |
-| [Galaxy Dev Gitter](https://gitter.im/galaxyproject/dev) | 72 |
+| [Galaxy Training Gitter](https://gitter.im/Galaxy-Training-Network/Lobby) | 412 |
+| [Galaxy Admins Gitter](https://gitter.im/galaxyproject/admins) | 185 |
+| [Galaxy IUC Gitter](https://gitter.im/galaxy-iuc/iuc) | 165 |
+| [Galaxy Training Mailing List](https://lists.galaxyproject.org/lists/galaxy-training.lists.galaxyproject.org/) | 160 |
+| [Galaxy Proteomics Mailing List](https://lists.galaxyproject.org/lists/galaxy-proteomics.lists.galaxyproject.org/) | 93 |
+| [Galaxy Dev Gitter](https://gitter.im/galaxyproject/dev) | 77 |
 
 
 # Publications / Citations
 
-The [Galaxy Publications Library](/src/publication-library/index.md) lists every publication we know of that is about, references, or mentions Galaxy.  We started tracking publications partway through 2011, so this may be an undercount for that year and previous years.  
+The [Galaxy Publications Library](/publication-library/) lists every publication we know of that is about, references, or mentions Galaxy.  We started tracking publications partway through 2011, so this may be an undercount for that year and previous years.  
 
 Here are the tags on papers in the Galaxy Publications Library as of August 2021:
 
@@ -541,11 +541,11 @@ Here are the tags on papers in the Galaxy Publications Library as of August 2021
 
 <br />
 
-[![](/src/galaxy-project/statistics/PublicationPerYearGraphCumulative.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=2103350890&format=interactive)
+[![](/galaxy-project/statistics/PublicationPerYearGraphCumulative.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=2103350890&format=interactive)
 
-[![](/src/galaxy-project/statistics/PublicationPerYearGraph.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=1984173771&format=interactive)
+[![](/galaxy-project/statistics/PublicationPerYearGraph.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=1984173771&format=interactive)
 
-[![](/src/galaxy-project/statistics/PublicationTagsPerYearGraph.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=1403468135&format=interactive)
+[![](/galaxy-project/statistics/PublicationTagsPerYearGraph.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vSFexX8z5OLYzv9r3lgV106y5VhBViKjn3zSpL7TO_n7zDskpOHyFUiQOZSG971AR3nQO_YMAZmf8N8/pubchart?oid=1403468135&format=interactive)
 
 The **Tags** graph highlights several trends.
 
@@ -554,14 +554,14 @@ The **Tags** graph highlights several trends.
 
 # Galaxy Platforms
 
-Galaxy is available in a number of ways.  While most [installations of Galaxy](/src/admin/get-galaxy/index.md) are private, many groups support [Galaxy instances in many different forms](/src/use/index.md), including publicly accessible servers, Galaxy instance that can be easily launched on research and commercial clouds, containers, and virtual machines.  Prior to 2019 we counted only publicly accessible servers.  Moving forward we are tracking many ways to use galaxy.
+Galaxy is available in a number of ways.  While most [installations of Galaxy](/admin/get-galaxy/) are private, many groups support [Galaxy instances in many different forms](/use/), including publicly accessible servers, Galaxy instance that can be easily launched on research and commercial clouds, containers, and virtual machines.  Prior to 2019 we counted only publicly accessible servers.  Moving forward we are tracking many ways to use galaxy.
 
-[![](/src/galaxy-project/statistics/galaxy-platforms.svg)](https://docs.google.com/spreadsheets/d/1czXV7tWPPjQQiB-uk0NYsqmC967deQ9OLue0ByXntbs/pubchart?oid=289204282&format=interactive)
+[![](/galaxy-project/statistics/galaxy-platforms.svg)](https://docs.google.com/spreadsheets/d/1czXV7tWPPjQQiB-uk0NYsqmC967deQ9OLue0ByXntbs/pubchart?oid=289204282&format=interactive)
 
 
 ## Platforms in Publications
 
-In late 2017 the project started tracking which specific [platforms](/src/use/index.md) (besides usegalaxy.org) that were used or referenced in publications.  Here are the platforms that have been mentioned in more than 30 publications since we started tracking this, as of August 2020.
+In late 2017 the project started tracking which specific [platforms](/use/) (besides usegalaxy.org) that were used or referenced in publications.  Here are the platforms that have been mentioned in more than 30 publications since we started tracking this, as of August 2021.
 
 
 <table class="table">
@@ -726,13 +726,13 @@ This is one of the largest open-source teams in the world, and is in the top 2% 
 
 ## Galaxy Project Tool Shed
 
-The Galaxy Project [Tool Shed](/src/toolshed/index.md) contains contributed software and workflows that can be installed at any Galaxy site.
+The Galaxy Project [Tool Shed](/toolshed/) contains contributed software and workflows that can be installed at any Galaxy site.
 
-[![](/src/galaxy-project/statistics/toolshed.svg)](https://docs.google.com/spreadsheets/d/1mS2jw3SbOYYf4ENZbXheKJkoZhaF3EawCZRQ2LmRX70/pubchart?oid=1627508974&format=interactive)
+[![](/galaxy-project/statistics/toolshed.svg)](https://docs.google.com/spreadsheets/d/1mS2jw3SbOYYf4ENZbXheKJkoZhaF3EawCZRQ2LmRX70/pubchart?oid=1627508974&format=interactive)
 
 # Events
 
-As the [Galaxy events calendar and archive](/src/events/index.md) show, the Galaxy community is globally active, with around 100 events per year for the past several years.  [Galaxy Community Conferences](/src/gcc/index.md) are the flagship event of the Galaxy community. GCC has met annually since 2010 and has had [over 200 participants](/src/gcc/index.md#conferences) every year since 2012.
+As the [Galaxy events calendar and archive](/events/) show, the Galaxy community is globally active, with around 100 events per year for the past several years.  [Galaxy Community Conferences](/gcc/) are the flagship event of the Galaxy community. GCC has met annually since 2010 and has had [over 200 participants](/gcc/#conferences) every year since 2012.
 
 
 ## Want the underlying numbers?

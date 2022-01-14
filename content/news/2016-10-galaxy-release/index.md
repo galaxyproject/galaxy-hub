@@ -2,7 +2,7 @@
 title: 'October 2016 Galaxy Release (v 16.10)'
 date: '2016-12-15'
 ---
-<div class='right'><a href='http://getgalaxy.org'><img src="/src/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
+<div class='right'><a href='http://getgalaxy.org'><img src="/images/logos/GalaxyNewLogo_GalaxyProject_Trans.png" alt="GalaxyProject" width="200" /></a></div>
 
 The [Galaxy Committers team](https://github.com/galaxyproject/galaxy/blob/dev/doc/source/project/organization.rst) is pleased to announce the **[October 2016 (v16.10) release of Galaxy](https://docs.galaxyproject.org/en/master/releases/16.10_announce.html)**.
 
@@ -41,11 +41,13 @@ vulnerabilities. Details follow:
 The code lives at [Github](https://github.com/galaxyproject/galaxy) and you should have [Git](https://git-scm.com/) to obtain it.
 
 **To get a new Galaxy repository run:**
+
 ```console
 $ git clone -b release_16.10 https://github.com/galaxyproject/galaxy.git
 ```
 
 **To update an existing Galaxy repository run:**
+
 ```console
 $ git checkout release_16.10 && git pull --ff-only origin release_16.10
 ```

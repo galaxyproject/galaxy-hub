@@ -4,22 +4,22 @@ tease: 'New events, pubs, blog posts, servers, tools and releases (and a Galaxy 
 date: "2018-10-01"
 ---
 
-[<img class="float-right" src="/src/news/2018-10-galaxy-update/2018-10-news-summary.png" alt="Galaxy News" width="280" />](/src/galaxy-updates/index.md>)
+[<img class="float-right" src="/news/2018-10-galaxy-update/2018-10-news-summary.png" alt="Galaxy News" width="280" />](/galaxy-updates/)
 
 The *October  2018 Galactic News* is here!  This is a summary of what is going on in the Galaxy community.  Here's what's happening:
 
 * Events
-  * [2018 SACNAS Workshops](#2018-sacnas-pre-conference-workshops) *Still space, still free!*
-  * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
-  * [2019 Galaxy Admin Training](/src/news/2018-10-galaxy-update/index.md#2019-galaxy-admin-training)
-  * [All upcoming events](#upcoming-events)
+    * [2018 SACNAS Workshops](#2018-sacnas-pre-conference-workshops) *Still space, still free!*
+    * [European Galaxy Days](#european-galaxy-days-19-20-november-freiburg-germany), 19-20 November, Freiburg, Germany
+    * [2019 Galaxy Admin Training](/news/2018-10-galaxy-update/#2019-galaxy-admin-training)
+    * [All upcoming events](#upcoming-events)
 * New:
-  * [200 publications](#publications), including 10 highlighted ones
-  * Three new [Galactic Blog entries](/src/news/2018-10-galaxy-update/#new-galactic-blog-posts) (one of them contains a *Galaxy Song*)
-  * [Open positions with 5 organizations](/src/news/2018-10-galaxy-update/#whos-hiring)
-  * [Public Galaxy Server News](#public-galaxy-server-news)
-  * [ToolShed contributions](#toolshed-contributions)
-  * [Releases](#releases)
+    * [200 publications](#publications), including 10 highlighted ones
+    * Three new [Galactic Blog entries](/news/2018-10-galaxy-update/#new-galactic-blog-posts) (one of them contains a *Galaxy Song*)
+    * [Open positions with 5 organizations](/news/2018-10-galaxy-update/#whos-hiring)
+    * [Public Galaxy Server News](#public-galaxy-server-news)
+    * [ToolShed contributions](#toolshed-contributions)
+    * [Releases](#releases)
 * And [other news](#other-news) too
 
 If you have anything to add to next month's newsletter, then please send it to outreach@galaxyproject.org.
@@ -33,18 +33,18 @@ Tired of sitting in the same old office/lab/cafe table?  Here are some upcoming 
 ## 2018 SACNAS Pre-conference Workshops
 
 <div class="float-left"><br />
-[<img src="/src/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/src/events/2017-sacnas/index.md) <br /><br />
-[<img src="/src/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
-[<img src="/src/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
-[<img src="/src/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/src/index.md)
+[<img src="/images/logos/sacnas-no-text.jpg" alt="Preconference data workshops at 2017 SACNAS Meeting" width="140" />](/events/2017-sacnas/) <br /><br />
+[<img src="/images/logos/SoftwareCarpentryLogo.png" alt="Software Carpentry" width="140" />](https://software-carpentry.org/)<br /><br />
+[<img src="/images/logos/DataCarpentryLogo.png" alt="Data Carpentry" width="140" />](https://data-carpentry.org/)<br /><br />
+[<img src="/images/logos/cyverse_logo_trans.png" alt="CyVerse" width="140" />](https://www.cyverse.org/)<br /><br />
+[<img src="/images/galaxy-logos/galaxy_project_logo_blue.png" alt="Galaxy" width="140" />](/)
 </div>
 
-If you will be anywhere near San Antonio, Texas on October 10 then please consider participating in one of [these SACNAS preconference workshops](/src/events/2018-sacnas/index.md).  You don't need to be registered for the [2018 SACNAS meeting](http://www.2018sacnas.org/) to attend.  **Everyone is eligible and the workshops are free.**
+If you will be anywhere near San Antonio, Texas on October 10 then please consider participating in one of [these SACNAS preconference workshops](/events/2018-sacnas/).  You don't need to be registered for the [2018 SACNAS meeting](http://www.2018sacnas.org/) to attend.  **Everyone is eligible and the workshops are free.**
 
-**[Software and Data Carpentry](/src/events/2018-sacnas/index.md#workshop-1-software-and-data-carpentry)**
+**[Software and Data Carpentry](/events/2018-sacnas/#workshop-1-software-and-data-carpentry)**
 
-**[Data Platforms for Life Science Researchers](/src/events/2018-sacnas/index.md#workshop-2-data-platforms-for-life-science-researchers)**
+**[Data Platforms for Life Science Researchers](/events/2018-sacnas/#workshop-2-data-platforms-for-life-science-researchers)**
 
 [Registration](https://sacnas-data.eventbrite.com/) is *free* but space is limited.  You are strongly encouraged to register soon.  Both workshops are held October 10, the day before SACNAS starts.
 
@@ -52,28 +52,28 @@ If you will be anywhere near San Antonio, Texas on October 10 then please consid
 
 *Plese note:* The Galaxy Community Fund is augmenting [SACNAS Travel Scholarships awards](http://www.2018sacnas.org/events/2018-sacnas-the-national-diversity-in-stem-conference/custom-167-56b6a0f11ab04eec9c1b886e6cd0c33d.aspx) for the first ~ 28 scholarship recipients that register for these workshops. The additional funds will cover an extra night's lodging for scholarship recipients, enabling you to arrive the day before the workshops. Funds are limited, and once the funds are allocated, they are gone. (You must have received a SACNAS Travel Scholarship to be eligible.)
 
-[<img class="float-right" src="/src/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/src/events/2018-europe-dev/index.md)
+[<img class="float-right" src="/events/2018-europe-dev/2018-europe-logo-clipped.png" alt="European Galaxy Days" />](/events/2018-europe-dev/)
 
 ## European Galaxy Days, 19-20 November, Freiburg, Germany
 
-**[European Galaxy Days](/src/events/2018-europe-dev/index.md)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
+**[European Galaxy Days](/events/2018-europe-dev/)** will be held  19 and 20 November 2018 in Freiburg, Germany. The first day will give an overview of the current state of the Galaxy framework with several talks and demonstrations. The second day will focus on developing and extending the Galaxy ecosystem.
 
-**The event is free and [registration is open](https://tinyurl.com/EGD2018).**  See the [event home page](/src/events/2018-europe-dev/index.md) for more.
+**The event is free and [registration is open](https://tinyurl.com/EGD2018).**  See the [event home page](/events/2018-europe-dev/) for more.
 
 
 ## 2019 Galaxy Admin Training
 
-[<img class="float-right" src="/src/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/src/events/2019-admin-training/index.md)
+[<img class="float-right" src="/events/2019-admin-training/2019-admin-training-logo.png" alt="Galaxy Admin Training" width="200px" />](/events/2019-admin-training/)
 
-**[Galaxy Admin Training](/src/events/2018-europe-dev/index.md)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
+**[Galaxy Admin Training](/events/2018-europe-dev/)** will be offered January 28 through February 1 at Penn State University, where the Galaxy Project got started over ten years ago. The workshop is split into a [2 day introductory session](https://github.com/galaxyproject/dagobah-training#basic-sessions) and a [3 day advanced topics session](https://github.com/galaxyproject/dagobah-training#advanced-sessions). Participants can register for one or both sessions.
 
-[Registration](https://github.com/galaxyproject/galaxy-hub/blob/master/src/events/2019-admin-training/index.md#registration) is open. Early registration rates end October 31st. 
+[Registration](https://github.com/galaxyproject/galaxy-hub/blob/master/events/2019-admin-training/#registration) is open. Early registration rates end October 31st.
 
-See the [Galaxy 2019 Admin Training page](/src/events/2019-admin-training/index.md) for more details.
+See the [Galaxy 2019 Admin Training page](/events/2019-admin-training/) for more details.
 
 ## Upcoming events
 
-These and [other Galaxy related events](/src/events/index.md) are coming up in the next few months:
+These and [other Galaxy related events](/events/) are coming up in the next few months:
 
 <table class="table table-responsive table-striped"><thead><tr><th>Date</th><th>Topic/Event</th><th>Venue/Location</th><th>Contact</th></tr></thead><tbody>
 <tr>
@@ -248,32 +248,32 @@ These and [other Galaxy related events](/src/events/index.md) are coming up in t
 
 ## Publication Topics
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 138 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 47 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 28 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 24 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) | 
-| 15 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 7 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) | 
-| 7 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 5 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) | 
-| 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 2 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) | 
+| 138 | [+Methods](https://www.zotero.org/groups/1732893/galaxy/tags/+Methods) | | 47 | [+UsePublic](https://www.zotero.org/groups/1732893/galaxy/tags/+UsePublic) | | 28 | [+Workbench](https://www.zotero.org/groups/1732893/galaxy/tags/+Workbench) | | 24 | [+UseMain](https://www.zotero.org/groups/1732893/galaxy/tags/+UseMain) |
+| 15 | [+RefPublic](https://www.zotero.org/groups/1732893/galaxy/tags/+RefPublic) | | 13 | [+UseLocal](https://www.zotero.org/groups/1732893/galaxy/tags/+UseLocal) | | 7 | [+Reproducibility](https://www.zotero.org/groups/1732893/galaxy/tags/+Reproducibility) | | 7 | [+Shared](https://www.zotero.org/groups/1732893/galaxy/tags/+Shared) |
+| 7 | [+IsGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/+IsGalaxy) | | 5 | [+Tools](https://www.zotero.org/groups/1732893/galaxy/tags/+Tools) | | 5 | [+Cloud](https://www.zotero.org/groups/1732893/galaxy/tags/+Cloud) | | 3 | [+Other](https://www.zotero.org/groups/1732893/galaxy/tags/+Other) |
+| 3 | [+Unknown](https://www.zotero.org/groups/1732893/galaxy/tags/+Unknown) | | 2 | [+UseCloud](https://www.zotero.org/groups/1732893/galaxy/tags/+UseCloud) | | 1 | [+HowTo](https://www.zotero.org/groups/1732893/galaxy/tags/+HowTo) | | 1 | [+Project](https://www.zotero.org/groups/1732893/galaxy/tags/+Project) |
 | 2 | [+Visualization](https://www.zotero.org/groups/1732893/galaxy/tags/+Visualization) | | | | | | | | | | |
 
 ----
 # New Galactic Blog Posts
 
 <div class="float-right" >
-[<img src="/src/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/src/blog/index.md)
+[<img src="/images/galaxy-logos/galactic-blog-400.png" alt="Galactic Blog" width="150" />](/blog/)
 </div>
 
-There are three new *[Galactic Blog](/src/blog/index.md)* entries:
+There are three new *[Galactic Blog](/blog/)* entries:
 
 * [Hybrid training delivers online participatory training to far-reaching venues](https://www.embl-abr.org.au/hybrid-training-delivers-online-participatory-training-to-far-reaching-venues/), by Christina Hall
-* [Tutorial of the Month: Maria Doyle selected "From peaks to genes"](/src/blog/2018-09-totm/index.md), by Bérénice Batut
-  * *This is the first of a new monthly series about [GTN Tutorials](https://training.galaxyproject.org/).*
-* [Contributor of the Month: Yvan Le Bras](/src/blog/2018-10-cotm-yvan-le-bras/index.md), By Björn Grüning
+* [Tutorial of the Month: Maria Doyle selected "From peaks to genes"](/blog/2018-09-totm/), by Bérénice Batut
+    * *This is the first of a new monthly series about [GTN Tutorials](https://training.galaxyproject.org/).*
+* [Contributor of the Month: Yvan Le Bras](/blog/2018-10-cotm-yvan-le-bras/), By Björn Grüning
 
----- 
+----
 # Who's Hiring
 
-<div class='float-right'><img src="/src/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
+<div class='float-right'><img src="/images/GalaxyIsExpandingCloud.png" alt="Please Help! Yes you!" width="220" /></div>
 
 The dark energy<sup>*</sup> of irreproducible research is threatening the science universe! Please help the Galaxy expand!
 
@@ -281,10 +281,10 @@ The dark energy<sup>*</sup> of irreproducible research is threatening the scienc
 * [Scientist (f/m), NGS bioinformatics core facility](https://bms.candibase.de/atool/helmholtz/frontend.php?view=a32a9d6396d8ca063e28db02ea15e3e3&lang=en), Helmholtz Zentrum München, Germany
 * [Galaxy Developers](https://twitter.com/GalaxyEnt_Soc/status/1041877925505716225), Intero Life Sciences, United States.
 * [Freiburg Galaxy Team has open positions](https://usegalaxy-eu.github.io/posts/2018/01/18/openpositions/), Freiburg, Germany
-* The [Blankenberg](/src/people/dan/index.md) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/src/news/2017-09-hiring-at-cc/index.md).
-* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/src/news/2017-08-hiring-at-hopkins/index.md), Baltimore, Maryland, United States
+* The [Blankenberg](/people/dan/) Lab in the [Genomic Medicine Institute](http://www.lerner.ccf.org/gmi/) at the [Cleveland Clinic Lerner Research Institute](https://www.lerner.ccf.org/) is [hiring postdocs](/news/2017-09-hiring-at-cc/).
+* [Galaxy Project is hiring software engineers and postdocs at Johns Hopkins](/news/2017-08-hiring-at-hopkins/), Baltimore, Maryland, United States
 
-Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/src/news/index.md) and include it in next month's [update](/src/galaxy-updates/index.md).
+Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
 <div class="small"><sup>&#42;</sup> Seems more sinister than *dark matter* don't you think? </div>
 
@@ -294,7 +294,7 @@ Have a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll p
 
 ## Public Galaxy Servers is becoming something ... more
 
-In October the venerable [Public Galaxy Server list](/src/use/index.md) and the relative upstart [Galaxy Services list](/src/use/index.md) will be replaced with a unified directory that includes public servers, cloud services, and VMs and containers that support Galaxy.
+In October the venerable [Public Galaxy Server list](/use/) and the relative upstart [Galaxy Services list](/use/) will be replaced with a unified directory that includes public servers, cloud services, and VMs and containers that support Galaxy.
 
 Here's what's new:
 <div class="twocol">
@@ -318,15 +318,15 @@ Here's what's new:
 
 We tag papers that use, mention, implement or extend public Galaxy servers, services and other resources.  Here are the counts for the past month's publications:
 
-| # | Tag | | # | Tag | | # | Tag | | # | Tag | 
+| # | Tag | | # | Tag | | # | Tag | | # | Tag |
 | ---: | --- | --- | ---: | --- | --- | ---: | --- | --- | ---: | --- |
-| 20 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | | 3 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) | 
-| 2 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 2 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 2 | [>MGEScan](https://www.zotero.org/groups/1732893/galaxy/tags/>MGEScan) | | 2 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) | 
-| 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>ANASTASIA](https://www.zotero.org/groups/1732893/galaxy/tags/>ANASTASIA) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/tags/>ARIES) | 
-| 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>CLIMB](https://www.zotero.org/groups/1732893/galaxy/tags/>CLIMB) | | 1 | [>CRAVAT-P](https://www.zotero.org/groups/1732893/galaxy/tags/>CRAVAT-P) | | 1 | [>DBCLS](https://www.zotero.org/groups/1732893/galaxy/tags/>DBCLS) | 
-| 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 1 | [>GenOuest](https://www.zotero.org/groups/1732893/galaxy/tags/>GenOuest) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-MEL) | 
-| 1 | [>Hunter](https://www.zotero.org/groups/1732893/galaxy/tags/>Hunter) | | 1 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid) | | 1 | [>MPDSDM](https://www.zotero.org/groups/1732893/galaxy/tags/>MPDSDM) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) | 
-| 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/tags/>Palfinder) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>Sciensano](https://www.zotero.org/groups/1732893/galaxy/tags/>Sciensano) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/tags/>VirAmp) | 
+| 20 | [>Huttenhower](https://www.zotero.org/groups/1732893/galaxy/tags/>Huttenhower) | | 9 | [>RepeatExplorer](https://www.zotero.org/groups/1732893/galaxy/tags/>RepeatExplorer) | | 4 | [>Langille](https://www.zotero.org/groups/1732893/galaxy/tags/>Langille) | | 3 | [>PhenoMeNal](https://www.zotero.org/groups/1732893/galaxy/tags/>PhenoMeNal) |
+| 2 | [>CPT](https://www.zotero.org/groups/1732893/galaxy/tags/>CPT) | | 2 | [>Galaxy-P](https://www.zotero.org/groups/1732893/galaxy/tags/>Galaxy-P) | | 2 | [>MGEScan](https://www.zotero.org/groups/1732893/galaxy/tags/>MGEScan) | | 2 | [>Mississippi](https://www.zotero.org/groups/1732893/galaxy/tags/>Mississippi) |
+| 2 | [>RiboGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>RiboGalaxy) | | 1 | [>ANASTASIA](https://www.zotero.org/groups/1732893/galaxy/tags/>ANASTASIA) | | 1 | [>ARGalaxy](https://www.zotero.org/groups/1732893/galaxy/tags/>ARGalaxy) | | 1 | [>ARIES](https://www.zotero.org/groups/1732893/galaxy/tags/>ARIES) |
+| 1 | [>Cistrome](https://www.zotero.org/groups/1732893/galaxy/tags/>Cistrome) | | 1 | [>CLIMB](https://www.zotero.org/groups/1732893/galaxy/tags/>CLIMB) | | 1 | [>CRAVAT-P](https://www.zotero.org/groups/1732893/galaxy/tags/>CRAVAT-P) | | 1 | [>DBCLS](https://www.zotero.org/groups/1732893/galaxy/tags/>DBCLS) |
+| 1 | [>Genomic Hyperbrowser](https://www.zotero.org/groups/1732893/galaxy/tags/>Genomic Hyperbrowser) | | 1 | [>GenOuest](https://www.zotero.org/groups/1732893/galaxy/tags/>GenOuest) | | 1 | [>Globus Genomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Globus Genomics) | | 1 | [>GVL-MEL](https://www.zotero.org/groups/1732893/galaxy/tags/>GVL-MEL) |
+| 1 | [>Hunter](https://www.zotero.org/groups/1732893/galaxy/tags/>Hunter) | | 1 | [>LAPPS Grid](https://www.zotero.org/groups/1732893/galaxy/tags/>LAPPS Grid) | | 1 | [>MPDSDM](https://www.zotero.org/groups/1732893/galaxy/tags/>MPDSDM) | | 1 | [>Orione](https://www.zotero.org/groups/1732893/galaxy/tags/>Orione) |
+| 1 | [>Palfinder](https://www.zotero.org/groups/1732893/galaxy/tags/>Palfinder) | | 1 | [>PreSTIGE](https://www.zotero.org/groups/1732893/galaxy/tags/>PreSTIGE) | | 1 | [>Sciensano](https://www.zotero.org/groups/1732893/galaxy/tags/>Sciensano) | | 1 | [>VirAmp](https://www.zotero.org/groups/1732893/galaxy/tags/>VirAmp) |
 | 1 | [>Workflow4Metabolomics](https://www.zotero.org/groups/1732893/galaxy/tags/>Workflow4Metabolomics) | | 1 | [>Jetstream](https://www.zotero.org/groups/1732893/galaxy/tags/>Jetstream) | | | | | | | |
 
 ----
@@ -335,9 +335,9 @@ We tag papers that use, mention, implement or extend public Galaxy servers, serv
 
 ## ToolShed Contributions
 
-<div class='right'>[<img src="/src/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
+<div class='right'>[<img src="/images/galaxy-logos/galaxy-toolshed-300.png" alt="Galaxy ToolShed" width="150"  />](http://toolshed.g2.bx.psu.edu/)</div>
 
-[Tool Shed contributions in September 2018](/src/toolshed/contributions/2018-09/index.md).
+[Tool Shed contributions in September 2018](/toolshed/contributions/2018-09/).
 
 
 # Releases
@@ -348,7 +348,7 @@ New additions to the Galaxy Community.
                 <a class="heading-anchor" href="#gvl-44"><span></span></a>
                 GVL 4.4
                 </h3>
-    <p>The <a href="https://www.gvl.org.au/">Genomics Virtual Lab (GVL) 4.4.0</a> has been released. The GVL is a comprehensive data analysis workbench that comes as a complete package with a variety of pre-installed and configured software (Galaxy, RStudio, Jupyter) coupled with cloud compute infrastructure. 
+    <p>The <a href="https://www.gvl.org.au/">Genomics Virtual Lab (GVL) 4.4.0</a> has been released. The GVL is a comprehensive data analysis workbench that comes as a complete package with a variety of pre-installed and configured software (Galaxy, RStudio, Jupyter) coupled with cloud compute infrastructure.
     This latest release includes an upgrade of Galaxy to version 18.05, allows overridable Galaxy Configuration, and has many tools updraged to their latest revision. </p>
     <p>See the <a href="https://galaxyproject.org/news/2018-09-28-gvl-440/">GVL 4.4.0 release</a> note for more. </p>
     <h3 id="planemo-0550">

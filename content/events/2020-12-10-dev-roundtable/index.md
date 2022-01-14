@@ -13,6 +13,7 @@ contact: "Björn Grüning, Anton Nekrutenko"
 links:
   - text: "Video"
     url: "https://youtu.be/V87OdtdRLJM"
+tags: [ "devroundtable" ]
 ---
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/V87OdtdRLJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -25,7 +26,7 @@ Oh yeah, and bring your ideas.
 
 Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **It is past time to push this global model to other areas of Galaxy as well.**
 
-**This roundtable will introduce *[Galaxy Working Groups](/src/community/wg/index.md)* as a means for the community to help manage *and contribute to* key parts of the Galaxy ecosystem.**
+**This roundtable will introduce *[Galaxy Working Groups](/community/wg/)* as a means for the community to help manage *and contribute to* key parts of the Galaxy ecosystem.**
 
 If you are interested and are potentially willing to contribute some of your time and effort to helping the global Galaxy effort, then please attend this roundtable on December 10.  If you can't make it, the gathering will be recorded and published shortly after the event.
 
@@ -55,4 +56,4 @@ Have something you want to talk about at a future round table? [Submit your topi
 
 ---
 
-The [Galaxy Developer Roundatble](/src/community/devroundtable/index.md) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community. 
+The [Galaxy Developer Roundatble](/community/devroundtable/) meets every other Thursday as long as there are [one or more presenters signed up for the week](https://bit.ly/gxdevroundtablepresent).  These gatherings are an opportunity for presenters (Galaxy users, developers, admins) to interactively engage with the Galaxy developer community.

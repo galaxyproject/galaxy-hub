@@ -1,9 +1,9 @@
-<div class='right'>![](/src/galaxy-team/sergey.jpg)</div>
+<div class='right'>![](/galaxy-team/sergey.jpg)</div>
 
 # Sergey Golitsynskiy
 
 I am a software engineer in the [Taylor Lab](http://taylorlab.org) at [Johns Hopkins
-University](http://www.jhu.edu/) and part of the [Galaxy Team](/src/galaxy-team/index.md).
+University](http://www.jhu.edu/) and part of the [Galaxy Team](/galaxy-team/).
 
 ## Contact
 
