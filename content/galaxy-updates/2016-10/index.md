@@ -80,7 +80,7 @@ November 7-11, 2016<br />University of Utah<br />Salt Lake City, Utah<br />Unite
 
 **Register for [Galaxy Admin Training 2016](/events/admin-training2016/) by October 16.**
 
-[Galaxy Admin Training 2016](/events/admin-training2016/) is a weeklong event offering basic and advanced sessions.  It is being held in Salt Lake City, Utah, November 7-11, 2016, the week before [Supercomputing 16 (SC16)](http://sc16.supercomputing.org/) meets in Salt Lake.  
+[Galaxy Admin Training 2016](/events/admin-training2016/) is a weeklong event offering basic and advanced sessions.  It is being held in Salt Lake City, Utah, November 7-11, 2016, the week before [Supercomputing 16 (SC16)](http://sc16.supercomputing.org/) meets in Salt Lake.
 
 **[Basics Session: November 7-8](/events/admin-training2016/basics-session/)**
 
@@ -343,7 +343,7 @@ The establishment of Galaxy Australia is supported by the [EMBL Australia Bioinf
 <a href='https://twitter.com/galaxyaustralia'><img src="/images/logos/TwitterBird300.png" alt="@GalaxyAustralia" height="50" /></a>
 </div>
 
-Galaxy Australia has a has a Twitter feed ([@GalaxyAustralia](https://twitter.com/galaxyaustralia)) for announcements and discussion relevant to the community.  
+Galaxy Australia has a has a Twitter feed ([@GalaxyAustralia](https://twitter.com/galaxyaustralia)) for announcements and discussion relevant to the community.
 
 **[Galaxy Australasia Meeting 2017 (GAMe 2017)](https://www.embl-abr.org.au/game2017)**
 
@@ -447,7 +447,7 @@ The Galaxy is expanding! Please help it grow.
 * [6 month position](https://twitter.com/bioinformAnt/status/773465361127710720) at [Public Health England](https://www.gov.uk/government/organisations/public-health-england) working [National Microbiology Laboratory](https://www.nml-lnm.gc.ca/index-eng.htm) in Canada to compare antimicrobial resistance isolates and software using [IRIDA](http://www.irida.ca/)/Galaxy
 * [Intégration d'outils pour la métagénomique phytovirale dans Galaxy](http://www.sfbi.fr/content/int%C3%A9gration-doutils-pour-la-m%C3%A9tag%C3%A9nomique-phytovirale-dans-galaxy-0), INRA, Bordeaux, France
 * [Post­doctoral Research Position](https://drive.google.com/file/d/0B5_H88SQ1C_7Z3dJY3FzU0hQMUU/view?pref=2&pli=1), Multi­omic Bioinformatics, University of Minnesota
-* [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules." <div class='red'>Act fast.</span>  
+* [Postdoctoral Researcher: Forest Genomics Database and Software Developer](http://compgenomics.lab.uconn.edu/join/), University of Connecticut.  "... data sharing among partner databases through Galaxy modules." <div class='red'>Act fast.</span>
 
 Got a Galaxy-related opening? Send it to outreach@galaxyproject.org and we'll put it in the [Galaxy News feed](/news/) and include it in next month's [update](/galaxy-updates/).
 
@@ -487,15 +487,17 @@ Jetstream was officially launched in September and was added to the [Semi-Public
 
 <div class='right solid'><a href='https://galaxy.plgrid.pl'><img src="/images/logos/JetstreamRectClipped.jpg" alt="Jetstream" width="280" /></a></div>
 
+**THIS CONTENT HAS BEEN MODIFIED SINCE ITS ORIGINAL PUBLICATION**
+
 * *Links:*
     * **[Galaxy on Jetstream](/cloud/jetstream/)**
 * *Eligibility:*
     * [Jetstream](http://jetstream-cloud.org/) is part of [XSEDE](https://www.xsede.org/), a "collection of integrated advanced digital resources and services" and is funded by NSF. You need to be eligible for an [XSEDE allocation](https://portal.xsede.org/allocation-policies) to use Jetstream, which means must be based at a U.S. institution. And although XSEDE is NSF-funded, "projects need not be supported by NSF grants" to receive an allocation.
 * *Comments:*
-    * Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can [become an administrator](/cloud/jetstream/ssh/#adding-galaxy-admin-user) and even [access the server from the shell](/cloud/jetstream/ssh/).
+    * Jetstream enables researchers to launch, use, and shutdown their own Galaxy servers that have been pre-configured similar to the [Main Galaxy server](https://usegalaxy.org/). If you want to further customize your launched server you can ~~[become an administrator](#)~~ and even ~~[access the server from the shell](#)~~.
 * *User Support:*
     * See the [Galaxy on Jetstream documentation](/cloud/jetstream/)
-    * [FAQ](/cloud/jetstream/faq/)
+    * See ~~[FAQ](#)~~
 * *Quotas:*
     * Limits are determined by the size of your allocation and the size of the instances you launch.
 * *Sponsor(s):*
@@ -597,7 +599,7 @@ See the [full release notes](https://docs.galaxyproject.org/en/master/releases/1
 
 #### Galaxy Docker Image 16.07
 
-And, thanks to [Björn Grüning](https://github.com/bgruening), there is also now [a Docker image for Galaxy 16.07](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.07) as well.  
+And, thanks to [Björn Grüning](https://github.com/bgruening), there is also now [a Docker image for Galaxy 16.07](https://github.com/bgruening/docker-galaxy-stable/releases/tag/16.07) as well.
 
 ### CloudBridge 0.1.1
 
