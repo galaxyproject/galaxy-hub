@@ -16,7 +16,7 @@ The [Galaxy Executive Board](/community/exec/) has formed the Global Galaxy Stee
 The GGSC provides opportunities for community members willing to initiate and lead new community focussed initiatives.
 
 Community members who have ideas and strong feelings about one or more new projects that they would be willing to lead, or who would like to join existing
-working groups, please contact the Chair (ross.lazarus@gmail.com) to discuss how the GGSC can help them achieve their goals.
+working groups, please [contact the Chair](mailto:ross.lazarus@gmail.com) to discuss how the GGSC can help them achieve their goals.
 
 **September 14, 2021**
 ### New member
