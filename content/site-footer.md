@@ -1,2 +1,2 @@
 
-The Galaxy Project is supported in part by NSF, NHGRI, The Huck Institutes of the Life Sciences, The Institute for CyberScience at Penn State, and Johns Hopkins University.
+**usegalaxy.org** is supported by NIH and NSF Grants HG006620, 1661497, and 1929694. **usegalaxy.eu** is supported by the German Federal Ministry of Education and Research grant 031L0101C and de.NBI-epi. **usegalaxy.org.au** is supported by Bioplatforms Australia and the Australian Research Data Commons.

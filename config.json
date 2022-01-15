@@ -8,7 +8,8 @@
         "/blog": "blog",
         "/events": "events",
         "/news": "news",
-        "/careers": "careers"
+        "/careers": "careers",
+        "/covid19": "covid19"
     },
     "build": {
         "dirs": {
