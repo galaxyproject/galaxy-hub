@@ -35,11 +35,11 @@ If you would like to learn more about how you can contribute technical expertise
 
 ### Community Development
 
-Like the source code, the community itself provides opportunities for contributions, such as collaborations to improve the sustainability, usefulness and growth of the community itself. In many cases, these projects will also involve technical aspects, but they rely primarily on other specialised scientific and organisational skills and experience.
+Like the source code, the community provides opportunities for contributions, such as collaborations to improve the sustainability, usefulness and growth of the community itself. In many cases, these projects will also involve technical aspects, but they rely primarily on other specialised scientific and organisational skills and experience.
 
 The [Outreach and Training WG](https://galaxyproject.org/community/wg/) addresses many issues that are community centered. This WG may be of interest to potential contributors to educational and training activities because it includes [Galaxy Training Network](https://training.galaxyproject.org/) collaborations
 
 The Global Galaxy Steering Committee
 [(GGSC)](https://galaxyproject.org/community/steering/) is a formal Galaxy governance structure concerned with community activities. It consists of investigators and other Galaxy community contributors, who plan and manage projects and initiatives focussed on supporting and extending the community. The GGSC has now been in existence for a little more than a year, and offers a platform for new community initiatives. Community working groups are active in a broad range of topics such as mentoring, onboarding new investigators, and sustaining specific sub-communities such as small server administrators. New ideas are always welcome.
 
-The GGSC Working Groups are open to community contributors, who should contact the relevant Community [Working Group](https://galaxyproject.org/community/steering/) convenor. In addition, the GGSC seeks community leaders as new members. The main requirements are vision, and willingness to invest time and effort to see that vision realised. If you would like to learn more, please email the [GGSC chair](mailto:ross.lazarus@gmail.com)
+The GGSC Working Groups are open to community contributors. If you would like to learn more about any of them, contact the relevant Community [Working Group](https://galaxyproject.org/community/steering/) convenor. In addition, the GGSC seeks community leaders as new members. The main requirements are vision, and willingness to invest time and effort to see that vision realised. If you would like to learn more, please email the [GGSC chair](mailto:ross.lazarus@gmail.com)
