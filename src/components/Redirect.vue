@@ -1,14 +1,13 @@
 <template>
     <div :class="['redirect', 'alert', 'alert-warning', cancelled ? 'cancelled' : 'active']">
         <p>
-            {{ preText }}<a :href="parsedUrl">{{ url }}</a>{{ postText }}
+            {{ preText }}<a :href="parsedUrl">{{ url }}</a
+            >{{ postText }}
         </p>
         <p class="button-line">
             You will be redirected in {{ delay }} seconds.
             <button @click="cancel" class="btn btn-light">Cancel</button>
-            <span v-if="cancelled">
-                Redirect cancelled!
-            </span>
+            <span v-if="cancelled">Redirect cancelled!</span>
         </p>
     </div>
 </template>
@@ -37,7 +36,7 @@ export default {
     },
     methods: {
         cancel() {
-            console.log('Cancelling redirect..');
+            console.log("Cancelling redirect..");
             this.cancelled = true;
         },
     },

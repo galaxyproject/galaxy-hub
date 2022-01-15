@@ -3,8 +3,7 @@
         <g-link v-if="article.category" :to="`/${article.category}/`" class="link">
             &larr; Back to <span class="text-capitalize">{{ article.category }}</span>
         </g-link>
-        <Redirect v-if="article.redirect" :url="article.redirect" :location="this.location">
-        </Redirect>
+        <Redirect v-if="article.redirect" :url="article.redirect" :location="this.location" />
         <div class="clearfix"></div>
         <g-image v-if="article.image" class="img-fluid main-image" :src="image" />
         <h1 class="title float-left" v-if="!article.skip_title_render">{{ article.title }}</h1>
@@ -87,7 +86,7 @@ export default {
         // This has to be set in mounted() because window does not exist when building.
         // This will execute in the browser on page load.
         this.location = window.location;
-    }
+    },
 };
 </script>
 

@@ -42,7 +42,7 @@ export default {
 function doRedirectIfNeeded(currentUrl) {
     let url = new URL(currentUrl);
     if (isFilenamePath(url.pathname)) {
-        console.log('Current url path looks like a filename.');
+        console.log("Current url path looks like a filename.");
         return;
     }
     url.pathname = gridifyPath(url.pathname);

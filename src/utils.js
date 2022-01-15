@@ -265,7 +265,7 @@ module.exports.getFilesShallow = getFilesShallow;
 
 function doRedirect(destUrl, currentPath, cancelled) {
     if (cancelled) {
-        console.log('Redirect cancelled.');
+        console.log("Redirect cancelled.");
     } else if (currentPath === undefined || window.location.pathname === currentPath) {
         window.location.href = destUrl;
     } else {
