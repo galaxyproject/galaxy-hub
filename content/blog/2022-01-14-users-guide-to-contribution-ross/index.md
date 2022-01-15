@@ -1,5 +1,5 @@
 ---
-title: "A user's guide to contributing to Galaxy"
+title: "A contributor's guide to the Galaxy"
 tease: "Contribution opportunities"
 authors: "Ross Lazarus"
 external_url: ""
