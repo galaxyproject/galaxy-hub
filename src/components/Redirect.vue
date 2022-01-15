@@ -16,7 +16,7 @@
 import { repr, doRedirect } from "~/utils.js";
 export default {
     props: {
-        location: { required: true },
+        location: { type: Object, required: true },
         preText: { type: String, required: false, default: "This content has a new home at " },
         url: { type: String, required: true },
         postText: { type: String, required: false, default: "." },

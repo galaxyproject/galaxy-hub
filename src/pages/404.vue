@@ -2,9 +2,9 @@
     <Layout>
         <Redirect
             v-if="redirectUrl"
-            preText="This url is no longer valid. Perhaps you meant "
+            pre-text="This url is no longer valid. Perhaps you meant "
             :url="redirectUrl"
-            postText="?"
+            post-text="?"
             :location="location"
         >
         </Redirect>
