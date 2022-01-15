@@ -104,6 +104,7 @@ export default {
     font-weight: 300;
     line-height: 1.4em;
     padding: 0.5em 0;
+    margin-bottom: 5px;
 }
 .subtitle {
     font-weight: 400;
