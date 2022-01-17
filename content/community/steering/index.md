@@ -93,4 +93,4 @@ Please contact the committee member leading the project if you would like to lea
 
 ## Contact
 
-You can reach the Galaxy Steering Committee [via the email list](mailto:steering@lists.galaxyproject.org).
+You can reach the Galaxy Steering Committee [via the mailing list](mailto:steering@lists.galaxyproject.org).
