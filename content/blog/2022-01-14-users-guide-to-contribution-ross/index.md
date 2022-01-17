@@ -29,7 +29,7 @@ The distinction is only useful for organising things, because active two way int
 
 ### Technical Development
 
-A large scale, complicated, open source software engineering project and [source code](https://github.com/galaxyproject) forms the core of the project deliverables.  Like the project itself, the code repository is complicated and made up of many interacting components and dependencies. The large community that has become engaged with that code now helps sustain the project, in part by providing a pool of talented external contributors, large enough to place Galaxy among the top 2% of OpenHub projects for [developer activity](https://www.openhub.net/p/galaxybx/factoids#FactoidAgeVeryOld)
+A large scale, complicated, open source software engineering project and [source code](https://github.com/galaxyproject) forms the core of the project deliverables.  Like the project itself, the code repository is complicated and made up of many interacting components and dependencies. The large community that has become engaged with that code now helps sustain the project, in part by providing a pool of talented external contributors, large enough to place Galaxy among the top 2% of OpenHub projects for [developer activity](https://www.openhub.net/p/galaxybx/factoids#FactoidAgeVeryOld).
 
 If you would like to learn more about how you can contribute technical expertise, the [Working Groups](https://galaxyproject.org/community/wg/) page is the best place to start as there are a wide variety of specialised areas to choose from. Contact the specific Working Group convenor to learn more.
 
