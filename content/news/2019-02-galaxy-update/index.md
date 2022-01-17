@@ -13,7 +13,7 @@ The *February  2019 Galactic News* is here!  This is a summary of what is going 
     * **[ELIXIR Galaxy Community Workshop](/news/2019-02-galaxy-update/#elixir-galaxy-community-workshop)** pre-registration is open!
 * [GalaxyAdmins needs your topic suggestions](/news/2019-02-galaxy-update/#galaxyadmins-needs-your-topic-suggestions).
 * [160 new publications](/news/2019-02-galaxy-update/#publications), great resources lead to great insight.
-* Some most excellent [Galaxy Platform News](/news/2019-02-galaxy-update/#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!  
+* Some most excellent [Galaxy Platform News](/news/2019-02-galaxy-update/#galaxy-platforms-news), including proteo-transcriptomics, RNA analyis tools, Genome Browsers, and more!
 * The Tutorial of the Month is ... [Genome annotation with Prokka](/news/2019-02-galaxy-update/#new-galactic-blog-posts)!
 * At least [23 Open positions](/news/2019-02-galaxy-update/#whos-hiring) in 6 countries on 2 continents.
 * [Doc, Hub, and Training Updates](/news/2019-02-galaxy-update/#doc-hub-and-training-updates), including *GO enrichment analysis*  and *Age prediction using machine learning*.
@@ -243,13 +243,15 @@ Every user with their own project in Lifeportal can manage it through the menus 
 
 ## LAPPS Grid
 
+**THIS CONTENT HAS BEEN UPDATED SINCE ORIGINAL PUBLICATION.**
+
 And from this cool writeup (that has nothing to do with life science): [Learning from data: Using technology to gain deeper meaning from archives](https://works.bepress.com/emily-mercer/1/), by Emily Mercer of San Jose State University, describing work by [James Pustejovsky](http://www.pusto.com/) of Brandeis University:
 
 <blockquote class="blockquote">
 One example is the collaboration between the American Archive of Public Broadcasting and James Pustejovsky, professor at Brandeis University. In this collaboration James and his research team have created a software package using the Galaxy Workflow Engine and Language Application Grid ([LAPPS Grid](/use/lapps-grid/)) for automatic extraction of metadata from video assets using machine learning methodologies (Oomen et al., 2018; [Pustejovsky et al., 2017](https://doi.org/10.1145/3093338.3104171)). What was once a time exhaustive process of real-time viewing and transcribing of film and video is now as simple as uploading a video file and applying a workflow. Processing takes seconds and afterwards the user has access to the metadata, for example, the text captions on the screen. This metadata can be exported as PBCore, a metadata standard specific to public broadcasting (Oomen et al., 2018; Pustejovsky et al., 2017).
 </blockquote>
 
-There's also some [Jetstream](/use/jetstream/) in the mix too.
+There's also some ~~[Jetstream](#)~~ in the mix too.
 
 ## Galaxy Platforms in Publications
 
