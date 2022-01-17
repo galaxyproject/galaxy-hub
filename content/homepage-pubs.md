@@ -1,5 +1,5 @@
 ---
-title: Recent Pubs
+title: Recent Publications
 link: https://www.zotero.org/groups/galaxy
 icon: fas fa-book-open
 items:
