@@ -15,7 +15,7 @@ tags: [ cofest, papercuts ]
 
 *Paper cuts are annoying but easy to fix friction points. [Papercuts CoFests](/events/cofests/papercuts/) are virtual, global, day-long events that improve the Galaxy ecosystem by addressing these issues.  They are also an opportunity for new contributors to become better connected with the Galaxy community.*
 
-**Goals**
+### Goals
 
 * Make the Galaxy experience be a pleasure and be productive by removing and reducing irritants.
 * Grow the Galaxy *contributor* community by holding regular events.
@@ -24,15 +24,16 @@ tags: [ cofest, papercuts ]
 * Dedicate time together for bug-fixing.
 * Make reducing paper cuts fun.
 
-This will be a __24h event__, spanning __all time zones__ with our worldwide community. We'll start at 09:00 Melbourne time, and end at 16:00 Portland time.
+This will be a __24h event__, spanning __all time zones__ with our worldwide community.
 
-## Interested?
+### Interested?
 
 On Papercuts Day, please __join us on [Gitter](https://gitter.im/galaxyproject/Lobby)__ (all day), and on __3 calls__ held throughout the day (arranged to cover the globe).
 
 If you don't have a GitHub or Gitter (or Elements/Matrix) account yet, then set them up (in that order).
 
-## Before the event
+
+# Before the event
 
 If you are a Galaxy user or admin, you can create, or tag existing GitHub issues for any irritating, but likely easily fixed bugs (make a guess). These can be in any part of Galaxy, not just the core engine, and includes training, documentation, and other software.
 
@@ -45,19 +46,19 @@ If you have time, and want to learn more about contributing you are encouraged t
 * [Contributing to the Galaxy Training Material tutorials](https://training.galaxyproject.org/training-material/topics/contributing/).
 * [Galaxy on GitHub](https://github.com/galaxyproject) - see what projects are supported and find the one that speaks to you. Pay particular attention to each project's CONTRIBUTING.md files.
 
-## During the event
+# During the event
 
 We will be on [Gitter](https://gitter.im/galaxyproject/Lobby) for chat all day long, and on 3 calls spread across the day. Please take advantage of both to communicate with your collaborators around the world.
 
 * **Papercuts Call 1: Oceania, Australia, Asia**
-    * 14:00 Australia Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=APAC+Galaxy+Papercuts+CoFest+Call&iso=20220120T14&p1=152&am=30).
-    * [Zoom Link]()
+    * 14:00 Australia Eastern time. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=APAC+Galaxy+Papercuts+CoFest+Call&iso=20220120T14&p1=152&am=30).
+    * [Zoom Link](https://psu.zoom.us/j/93239916266?pwd=NzhSWmhrZVE2QjRYeVVBSjNGVk5TUT09)
 * **Papercuts Call 2: Middle East, Europe, Africa**
-    * 10:00 Central European time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+Galaxy+Papercuts+CoFest+Call&iso=20220120T10&p1=980&am=30).
+    * 10:00 Central European time. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=EMEA+Galaxy+Papercuts+CoFest+Call&iso=20220120T10&p1=980&am=30).
     * [Zoom Link](https://us02web.zoom.us/j/83870155833?pwd=anVWdGFLQU9WbU1XZXZHSlRxaG9vQT09)
 * **Papercuts Call 3: Americas**
-    * 11:00 US Eastern time.  [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+Galaxy+Papercuts+CoFest+Call&iso=20220120T11&p1=3705&am=30).
-    * [Zoom Link]()
+    * 11:00 US Eastern time. [See your time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Americas+Galaxy+Papercuts+CoFest+Call&iso=20220120T11&p1=3705&am=30).
+    * [Zoom Link](https://psu.zoom.us/j/94800574075?pwd=WE14ekVTQ3Q5bkFhTElTZ2dOWU9BQT09)
 
 ### Issues to work on
 
@@ -75,8 +76,13 @@ Here are links to the issues identified as potential targets for Papercuts Day:
 | **[Galaxy Training Network](https://github.com/galaxyproject/training-material)** | Outreach, Training & Support | Training materials. | **[Collaboration Fest ideas](https://github.com/galaxyproject/training-material/issues/2070), [newcomer-friendly](https://github.com/galaxyproject/training-material/labels/newcomer-friendly), [paper-cut](https://github.com/galaxyproject/training-material/labels/paper-cut)** |
 | **[Galaxy Hub](https://github.com/galaxyproject/galaxy-hub/)** | Outreach, Training & Support | The Galaxy Community web site. | **[paper-cut](https://github.com/galaxyproject/galaxy-hub/labels/paper-cut)** |
 
-
-
-## After the event
+### Featured issues
+- [Feature Request: allow sorting on last login in admin users page](https://github.com/galaxyproject/galaxy/issues/13027)
+- [Tooltips / glossary / help button for advanced concepts](https://github.com/galaxyproject/galaxy/issues/12934)
+- [Update favorite icon style in tool panel header](https://github.com/galaxyproject/galaxy/issues/12622)
+- [Dataset/history search bar quirks](https://github.com/galaxyproject/galaxy/issues/12597)
+- [Make finding shared workflows easier](https://github.com/galaxyproject/galaxy/issues/12400)
+- [Google Login Button](https://github.com/galaxyproject/galaxy/issues/9983)
+# After the event
 
 *Get those pull requests in! And address anything from the review! And become more involved in the Galaxy code, training, and documentation base!*
