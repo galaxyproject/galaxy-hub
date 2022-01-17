@@ -12,7 +12,7 @@ contact: Instructors
 image: "/images/galaxy-logos/admin-training-logo.jpg"
 ---
 
-**The next [Galaxy Admin Training](https://github.com/galaxyproject/admin-training) will be offered online and asynchronously March 14-18.** It will be co-located with the [GTN Tapas event](https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/?utm_source=hub-gat&utm_medium=banner&utm_campaign=smorgasbord2)
+**The next [Galaxy Admin Training](https://gallantries.github.io/video-library/events/smorgasbord2/gat.html) will be offered online and asynchronously March 14-18.** It will be co-located with the [GTN Tapas event](https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/?utm_source=hub-gat&utm_medium=banner&utm_campaign=smorgasbord2)
 
 This [workshop](https://github.com/galaxyproject/admin-training) will cover introductory and advanced topics you need to know to set up your own production, high-performance and multi-user Galaxy instance.  Sessions will be *intensive and hands-on*, and taught by experienced instructors from the Galaxy Community. Participants will learn how to install, configure, customize, and extend their own Galaxy servers. Topics include tool configuration, authentication and user management, using heterogeneous storage and compute services, and many other topics that will enable you to get your own Galaxy server up and running, performing well, and used by your community.
 
