@@ -17,7 +17,7 @@ Contributor motivations vary. Some work on Galaxy for a living. Others want to p
 
 Whatever motivates individuals, in addition to the satisfaction of contributing to an important open science resource, they gain valuable professional experience and skills, collaborating with talented and friendly people, working on problems they care about.
 
-**If this sounds interesting, please read on to learn more about contributing to Galaxy**
+**If this sounds interesting, please read on to learn more about contributing to Galaxy.**
 
 ---
 
