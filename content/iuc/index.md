@@ -50,6 +50,8 @@ IUC membership evolves over time and helpful community contributors are asked to
 | Member | Joined | GitHub |
 | ------ | ------ | ------ |
 | **Brad Chapman**, Harvard School of Public Health | founding member | [@chapmanb](https://github.com/chapmanb) |
-| **Edward Kirton**, U.S. Department of Energy | founding member |
+| **Ira Cooke**, James Cooke University | founding member | [@iracooke](https://github.com/iracooke) |
+| **Edward Kirton**, U.S. Department of Energy | founding member |  |
+| **Ross Lazarus**, Harvard Medical School and University of Sydney | founding member | [@fubar2](https://github.com/fubar2) |
 | **Youri Hoogstrate**, Erasmus Universiteit Rotterdam | 2015-10-07 | [@yhoogstrate](https://github.com/yhoogstrate) |
 

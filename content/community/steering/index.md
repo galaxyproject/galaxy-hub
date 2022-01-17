@@ -1,32 +1,32 @@
 # Global Galaxy Steering Committee
 
-**Keywords:** Strategic emphasis, medium and long term planning, international opportunities
+**Keywords:** Strategic emphasis, medium and long term planning, international opportunities, community
 
 [Galaxy](/) is a mature, successful research software infrastructure project, with a large and diverse global audience. Changes in [project governance structures](/community/governance/) are needed to help adapt to increasing complexity.
 
-<div class="lead">
-
 The [Galaxy Executive Board](/community/exec/) has formed the Global Galaxy Steering Committee (GGSC) to represent the interests of communities engaged with the project, and to implement efficient consultative project governance structures for that purpose.
 
-</div>
+---
 
-<br />
+## News and Announcements
 
+**January 14, 2022**
+### Call for (self) nomination - Want to learn more about how *you* can contribute to the GGSC?
 
+The GGSC provides opportunities for community members willing to initiate and lead new community focussed initiatives.
 
-## Community consultation - help wanted!
+Community members who have ideas and strong feelings about one or more new projects that they would be willing to lead, or who would like to join existing
+working groups, please [contact the Chair](mailto:ross.lazarus@gmail.com) to discuss how the GGSC can help them achieve their goals.
 
-**June 26 2021**
+**September 14, 2021**
+### New member
 
-Come and let us know your ideas for the committee to consider in a 2 year roadmap of projects to help make the community more valuable and useful to participants.
+The GGSC is pleased to announce our latest member - welcome Sveinung Gundersen from ELIXIR Norway.
 
-* [GCC2021 BoF](https://gcc2021.sched.com/event/kFK5)
-* [GCC2021 CoFest](https://gcc2021.sched.com/event/iLKp/gcc2021-collaborationfest)
-    * [Community roadmap topic](https://docs.google.com/document/d/1c0L4mc7s2JOx0uq6HGP3QE3V5Za20GfCh1e-KKbOoV4/edit#bookmark=id.sz6o7usg6ipk)
+---
 
 ## The Manifesto: Global Galaxy Steering Committee Charter
 
-**March 4, 2021**
 
 The GGSC will comprise collaborators from active Galaxy communities and will undertake consultation and projects to advance and sustain the interests of the community of communities now engaged with the project. Two major areas of activity are planned for the first year.
 
@@ -41,9 +41,11 @@ See the [Galaxy Governance Model](/community/governance/) for how the Steering C
 </div>
 <br />
 
+---
+
 ## Subcommittees
 
-These are working groups, similar to the technical groups. They are open to interested community members willing to add their contribution.
+These are working groups, similar to the [technical working groups](https://galaxyproject.org/community/wg/). They are open to interested community members willing to add their contribution.
 Please contact the committee member leading the project if you would like to learn more about participating in their work.
 
 * Membership - Dan Blankenberg
@@ -52,14 +54,12 @@ Please contact the committee member leading the project if you would like to lea
 * Global Science - Andrew Lonie
 * Small scale servers - Hans-Rudolf Hotz
 
-## Committee Members
+## GGSC Committee Membership
 
 * **[Ross Lazarus](https://github.com/fubar2)**
     * Galaxy emeritus, Australia, Chair
 * **[Anne Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou/)**
     * [University of Oslo](https://www.uio.no/), Norway
-* **[Alan Christoffels](https://www.sanbi.ac.za/alan-christoffels/)**
-    * [SANBI](https://www.sanbi.ac.za/), South Africa
 * **[Andrew Lonie](https://www.melbournebioinformatics.org.au/people/andrew-lonie/)**
     * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
 * **[Bérénice Batut](https://research.bebatut.fr/)**
@@ -74,8 +74,6 @@ Please contact the committee member leading the project if you would like to lea
     * [Compute Canada](https://bioinformatics.computecanada.ca/), [Université de Sherbrooke](https://www.usherbrooke.ca/), Canada
 * **[Enis Afgan](https://www.linkedin.com/in/afgane)**
     * [Johns Hopkins University](https://jhu.edu), United States
-* **[Frederik Coppens](https://www.elixir-belgium.org/organisation/steeringgroup/frederik-coppens)**
-    * [VIB-UGent Center for Plant Systems Biology](https://vib.be/vib-ugent-center-plant-systems-biology), [ELIXIR Belgium](https://www.elixir-belgium.org/), Belgium
 * **[Hans-Rudolf Hotz](https://training.galaxyproject.org/training-material/hall-of-fame/hrhotz/)**
     * [Friedrich Miescher Institute for Biomedical Research](http://www.fmi.ch/), Switzerland
 * **[Hervé Menager](https://research.pasteur.fr/en/member/herve-menager/)**
@@ -84,8 +82,6 @@ Please contact the committee member leading the project if you would like to lea
     * [Vassar College](https://www.vassar.edu/), United States
 * **[Jeremy Goecks](https://goeckslab.org/people/jeremy.html)**
     * [Oregon Health and Science University](https://www.ohsu.edu/), United States
-* **[Maria Doyle](https://au.linkedin.com/in/maria-doyle-11220739)**
-    * [Peter MacCallum Cancer Centre](https://www.petermac.org/), Australia
 * **[Simon Gladman](https://www.melbournebioinformatics.org.au/people/simon-gladman/)**
     * [Australian BioCommons](https://www.biocommons.org.au/), [University of Melbourne](https://unimelb.edu.au/), Australia
 * **[Sveinung Gundersen](https://www.mn.uio.no/ifi/english/people/adm/sveinugu/index.html)**
@@ -93,6 +89,8 @@ Please contact the committee member leading the project if you would like to lea
 * **[Tim Griffin](https://cbs.umn.edu/contacts/timothy-j-griffin)**
     * [University of Minnesota](https://umn.edu/), United States
 
+---
+
 ## Contact
 
-You can reach the Galaxy Steering Committee [via email](mailto:steering@lists.galaxyproject.org).
+You can reach the Galaxy Steering Committee [via the mailing list](mailto:steering@lists.galaxyproject.org).
