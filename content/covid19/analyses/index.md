@@ -6,7 +6,7 @@ autotoc: false
 
 -----
 
-We provide two resources interpreting our results. The first is this page. It content is upodated weekly and we continuoulsy adding new analysis snippets. The second resource is our continuoudsly updated [Observable Dashboard](http://covid19.galaxyproject.org/dashboard).
+We provide two resources interpreting our results. The first is this page. It content is upodated weekly and we continuoulsy adding new analysis snippets. The second resource is our continuously updated [Observable Dashboard](http://covid19.galaxyproject.org/dashboard).
 
 
 
