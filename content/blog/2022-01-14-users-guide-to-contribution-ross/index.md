@@ -11,7 +11,7 @@ autotoc: false
 
 Galaxy is an open science computing project, with a large and active global community, that invites users and developers to join in and help make the project even better.
 
-You can use Galaxy without paying the project. It is open source, so instead of charging a fee, the project offers opportunities to contribute your expertise and skills instead. A large part of Galaxy's success comes from the hundreds of individuals who have chosen to contribute in an [inclusive and safe](https://galaxyproject.org/community/coc/) collaboration, making transparent, shareable, open science computing readily available to the world's scientists, .
+You can use Galaxy without paying the project. It is open source, so instead of charging a fee, the project offers opportunities to contribute your expertise and skills instead. A large part of Galaxy's success comes from the hundreds of individuals who have chosen to join the [inclusive and safe](https://galaxyproject.org/community/coc/) global collaboration, making transparent, shareable, open science computing readily available to any researcher.
 
 Contributor motivations vary. Some work on Galaxy for a living. Others want to pay it forward or perhaps scratch an open source itch.
 
