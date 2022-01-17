@@ -64,13 +64,8 @@ Linux has several text editors available in it.  You’ll need to be competent i
         * If you are running Windows than you’ll need to get something like putty installed before the workshop.
     * A recent version of either the Chrome or Firefox web browser installed.
 
-# Applications are closed
-
-This workshop is *free*.  However, space is limited and applications are expected to be competitive. The deadline for applications was the end of February 18.
-
 ## Applications
 
-We are now accepting applications for this workshop.
+This workshop is *free*.  However, space is limited and applications are expected to be competitive. The deadline for applications is the end of February 18.
 
-<button type="button" class="btn btn-light" style="font-size: x-large;"> **[Apply Now](https://forms.gle/s7UbQeEwToM8VBqE8)**
-</button>
+<a href="https://forms.gle/s7UbQeEwToM8VBqE8" class="btn btn-primary" style="font-size: x-large;">Apply Now</a>
