@@ -1,5 +1,5 @@
 ---
-title: A user's guide to their virtual, automated, computing Lab Notebook in Galaxy.
+title: A user's guide to the virtual, automated, computing Lab Notebook in Galaxy.
 tease: How a "Redo" button enables transparent and open scientific computing.
 authors: "Ross Lazarus"
 external_url: ""
@@ -7,6 +7,7 @@ date: "2022-01-16"
 source_blog: ""
 source_blog_url: ""
 autotoc: false
+site: InterGalactic Ministry of Truth
 ---
 
 Data rich science depends on complicated computing for analyses. The computing for a non-trivial analysis, from raw data to results, might need hundreds of different open source command line packages to complete. Correct assumptions, models and methods are essential to getting any analysis right. However, once that design is completed, and all the required software packages are downloaded and installed, running the complete analysis will typically rely on a specially written shell script or other code. Automation is essential, because manual processes involving hundreds of steps, of which many are long running, cannot be reliably replicated.

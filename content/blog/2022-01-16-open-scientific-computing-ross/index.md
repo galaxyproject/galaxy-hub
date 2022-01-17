@@ -7,6 +7,7 @@ date: "2022-01-16"
 source_blog: ""
 source_blog_url: ""
 autotoc: false
+site: InterGalactic Ministry of Truth
 ---
 
 Galaxy is a mature open source project, supported by a variety of separate research grants, and sustained by a large, active community of contributors. Since starting in 2005, the project has become increasingly useful and more widely used. It has also become much more complex, with many more moving parts and functionality. As a result, it is not always easy to see the *big picture* view of the important things that the project is doing, and what the impacts might be.

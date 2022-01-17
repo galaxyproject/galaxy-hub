@@ -1,12 +1,13 @@
 ---
 title: "A contributor's guide to the Galaxy"
-tease: "Contribution opportunities"
+tease: "Contribution opportunities for community members"
 authors: "Ross Lazarus"
 external_url: ""
 date: "2022-01-14"
 source_blog: ""
 source_blog_url: ""
 autotoc: false
+site: InterGalactic Ministry of Truth
 ---
 
 Galaxy is an open science computing project, with a large and active global community, that invites users and developers to join in and help make the project even better.
