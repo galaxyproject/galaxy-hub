@@ -1,6 +1,6 @@
 <template>
     <b-button class="home-profile m-1 border" :href="link" variant="outline-primary">
-        <h2>
+        <h2 class="text">
             Galaxy for <span class="user-type">{{ title }}</span>
         </h2>
         <b-img class="profile-button-img my-3" :src="img" fluid :alt="alt"></b-img>
@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
 .home-profile {
-    max-width: 19%;
+    max-width: 191px;
 }
 .user-type {
     font-weight: bolder;
