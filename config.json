@@ -9,7 +9,7 @@
         "/events": "events",
         "/news": "news",
         "/careers": "careers",
-        "/covid19": "covid19"
+        "/projects/covid19": "covid19"
     },
     "build": {
         "dirs": {
