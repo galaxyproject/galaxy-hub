@@ -1,5 +1,6 @@
 ---
 title: Get Involved!
+redirect: "/community/contributing/"
 ---
 *Galaxy* is an open source project.  What makes an open source project work is the community that supports it.  There are numerous ways for people to *get involved* with Galaxy.
 
