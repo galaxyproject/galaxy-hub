@@ -1,3 +1,3 @@
 ---
-redirect: /events/2022-01-admin-training/
+redirect: /events/2022-03-admin-training/
 ---
