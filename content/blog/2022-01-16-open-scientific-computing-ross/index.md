@@ -12,13 +12,13 @@ site: InterGalactic Ministry of Truth
 
 Galaxy is a mature open source project, supported by a variety of separate research grants, and sustained by a large, active community of contributors. Since starting in 2005, the project has become increasingly useful and more widely used. It has also become much more complex, with many more moving parts and functionality. As a result, it is not always easy to see the *big picture* view of the important things that the project is doing, and what the impacts might be.
 
-#### My personal take on that big picture follows, so pelase read on, if that is of interest.
+#### My personal take on that big picture follows, so please read on, if that is of interest.
 
 ---
 
 At a very high level, Galaxy can be described as software designed to make it easy for scientists to practice open scientific computing.
 
-That description contains a twist. Galaxy is an open source project for science, but it is not a discipline focussed open science application. Instead, Galaxy is a sort of meta-application, a framework designed to have discipline specific applications overlaid to make it useful for to any data intensive science. 
+That description contains a twist. Galaxy is an open source project for science, but it is not a discipline focussed open science application. Instead, Galaxy is a sort of meta-application, a framework designed to have discipline specific applications overlaid to make it useful for computing in any data intensive science. 
 
 At the core, it provides a more or less generic, discipline agnostic analysis platform, that allows scientists to manage their own data and to perform replicable complex computing. It is the platform that provides all of the open science functionality, including authentication, user interface, tool repository, data management, sharing, workflows, histories, visualisations, training, API and computational replication. Those features are all provided by the server source code.
 
