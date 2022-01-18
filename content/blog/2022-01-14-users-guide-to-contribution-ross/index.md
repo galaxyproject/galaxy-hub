@@ -1,6 +1,6 @@
 ---
 title: "A contributor's guide to the Galaxy"
-tease: "Contribution opportunities for community members"
+tease: "How to make Galaxy even better"
 authors: "Ross Lazarus"
 external_url: ""
 date: "2022-01-14"
