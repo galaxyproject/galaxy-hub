@@ -68,4 +68,10 @@ Linux has several text editors available in it.  You’ll need to be competent i
 
 This workshop is *free*.  However, space is limited and applications are expected to be competitive. The deadline for applications is the end of February 18.
 
+- **Dates**: March 14-18
+- **Location**: Online
+- **Language**: English
+- **Accessibility**: The event is asynchronous video tutorials with captioned english speech,  all materials are also available in plain-text versions, and discussion / Q & A occurs over slack.
+- **CoC**: [Galaxy Project CoC](https://galaxyproject.org/community/coc/#galaxy-project-code-of-conduct)
+
 <a href="https://forms.gle/s7UbQeEwToM8VBqE8" class="btn btn-primary" style="font-size: x-large;">Apply Now</a>
