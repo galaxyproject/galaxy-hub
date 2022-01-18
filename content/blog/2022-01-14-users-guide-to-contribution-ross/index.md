@@ -10,7 +10,7 @@ autotoc: false
 site: InterGalactic Ministry of Truth
 ---
 
-Galaxy is an open science computing project, with a large and active global community, that invites users and developers to join in and help make the project even better.
+Galaxy is an open science computing project, with a large and active global community, that invites users and developers to [join in](../../community/contributing) and help make the project even better.
 
 You can use Galaxy without paying the project. It is open source, so instead of charging a fee, the project offers opportunities to contribute your expertise and skills instead. A large part of Galaxy's success comes from the hundreds of individuals who have chosen to join the [inclusive and safe](https://galaxyproject.org/community/coc/) global collaboration, making transparent, shareable, open science computing readily available to any researcher.
 
