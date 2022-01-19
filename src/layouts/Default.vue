@@ -102,10 +102,8 @@ query {
     padding-right: 0 !important;
 }
 .static-footer {
-    position: absolute;
     width: 100%;
     bottom: 0;
-    padding-top: 1rem;
     padding-bottom: 0.5rem;
 }
 /***** Markdown image sizing *****/
