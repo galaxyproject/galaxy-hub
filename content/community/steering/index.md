@@ -13,7 +13,7 @@ The [Galaxy Executive Board](/community/exec/) has formed the Global Galaxy Stee
 **January 14, 2022**
 ### Call for (self) nomination - Want to learn more about how *you* can contribute to the GGSC?
 
-The GGSC provides opportunities for community members willing to initiate and lead new community focussed initiatives.
+The GGSC provides opportunities for community members willing to initiate and lead new community focussed initiatives. See [this blog post](../../blog/2022-01-14-users-guide-to-contribution-ross) for more details.
 
 Community members who have ideas and strong feelings about one or more new projects that they would be willing to lead, or who would like to join existing
 working groups, please [contact the Chair](mailto:ross.lazarus@gmail.com) to discuss how the GGSC can help them achieve their goals.
@@ -43,16 +43,16 @@ See the [Galaxy Governance Model](/community/governance/) for how the Steering C
 
 ---
 
-## Subcommittees
+## Working Groups
 
-These are working groups, similar to the [technical working groups](https://galaxyproject.org/community/wg/). They are open to interested community members willing to add their contribution.
+These are the current GGSC working groups, similar to the [technical working groups](https://galaxyproject.org/community/wg/). They are open to interested community members willing to add their contribution.
 Please contact the committee member leading the project if you would like to learn more about participating in their work.
 
 * Membership - Dan Blankenberg
 * Misconceptions - Hans-Rudolf Hotz
 * Propeller onboarding cookbook - Anne Fouilloux
 * Global Science - Andrew Lonie
-* Small scale servers - Hans-Rudolf Hotz
+* Small scale server administrators - Hans-Rudolf Hotz
 
 ## GGSC Committee Membership
 

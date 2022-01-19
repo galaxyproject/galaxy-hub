@@ -1,15 +1,16 @@
 ---
 title: "A contributor's guide to the Galaxy"
-tease: "Contribution opportunities"
+tease: "How to make Galaxy even better"
 authors: "Ross Lazarus"
 external_url: ""
 date: "2022-01-14"
 source_blog: ""
 source_blog_url: ""
 autotoc: false
+site: InterGalactic Ministry of Truth
 ---
 
-Galaxy is an open science computing project, with a large and active global community, that invites users and developers to join in and help make the project even better.
+Galaxy is an open science computing project, with a large and active global community, that invites users and developers to [join in](../../community/contributing) and help make the project even better.
 
 You can use Galaxy without paying the project. It is open source, so instead of charging a fee, the project offers opportunities to contribute your expertise and skills instead. A large part of Galaxy's success comes from the hundreds of individuals who have chosen to join the [inclusive and safe](https://galaxyproject.org/community/coc/) global collaboration, making transparent, shareable, open science computing readily available to any researcher.
 
@@ -23,9 +24,9 @@ Whatever motivates individuals, in addition to the satisfaction of contributing 
 
 ### Where to start?
 
-Galaxy is a complicated project, with many moving parts. At first, it can be hard to figure out how it all works, or where your specific skill set and interests might fit. Essentially, there are two main activity areas - ***technical*** and ***community***.
+Galaxy is a complicated project, with many moving parts. At first, it can be hard to figure out how it all works, or where your specific skill set and interests might fit. One person's view of the *big picture* in terms of Galaxy's impact on open scientific computing can be found [here](../2022-01-16-open-scientific-computing-ross).
 
-The distinction is only useful for organising things, because active two way interchange and overlap are always needed to keep the project on track. In practice, there are a number of contributors who work in both areas to ensure good communication and integration.
+Two main activity areas can be distinguished, ***technical*** and ***community***. The distinction is only useful for organising things, because active two way interchange and overlap are always needed to keep all the different activities coordinated. There are a number of contributors who work in both areas, to ensure good communication and integration.
 
 ### Technical Development
 

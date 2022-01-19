@@ -8,7 +8,7 @@ subtitle: The meeting point where you can find curated documentation for all thi
 - use **tools** from various domains (that can be plugged into **workflows**) through its graphical web interface.
 - run code in **interactive environments** (RStudio, Jupyter...) along with other tools or workflows.
 - **manage data** by sharing and publishing results, workflows, and visualizations.
-- **ensure the reproducibility** by capturing the necessary information to repeat and understand data analyses.
+- **ensure reproducibility** by capturing the necessary information to repeat and understand data analyses.
 
 The **Galaxy Community** is actively involved in helping the ecosystem improve and sharing scientific discoveries.
 
