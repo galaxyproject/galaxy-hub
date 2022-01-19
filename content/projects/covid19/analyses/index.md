@@ -74,10 +74,10 @@ The density of synonymous and non-synonymous changes across genes
 
 ## Allele frequency distribution for individual sites
 
-To view synonymous sites for a particular gene click "SS" label adjacent to that gene. To view non-synonymous sites, click "NS"
+To view allele frequency distribution for individual sites click on a circle in the graph below:
 
 <div class="shadow-sm p-3 mb-5 bg-light rounded" align="center">
-  <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/genome_map.json"/>
+  <vega-embed spec="https://raw.githubusercontent.com/galaxyproject/SARS-CoV-2/master/data/ipynb/graphs/genome_map_density.json"/>
 </div>
 
 ## Co-occurring sites
