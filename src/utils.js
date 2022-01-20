@@ -4,6 +4,7 @@ const util = require("util");
 const remark = require("remark");
 const remarkHtml = require("remark-html");
 const slugify = require("@sindresorhus/slugify");
+const urlParse = require("url-parse");
 const CONFIG = require("../config.json");
 
 /* Using a kludge here to allow:
@@ -262,6 +263,27 @@ function getFilesShallow(dirPath, excludeExt = null) {
     return files;
 }
 module.exports.getFilesShallow = getFilesShallow;
+
+/**
+ * Make sure a url includes a domain name.
+ * @param {String} rawUrl The input url. Currently this only handles two types of urls: (1) fully qualified ones
+ *                        including a scheme and domain and (2) absolute urls (without a domain, starting with a slash).
+ * @param {String} defaultDomain
+ * @param {String} defaultScheme
+ */
+function ensureDomain(rawUrl, defaultDomain = CONFIG.host, defaultScheme = "https") {
+    // Note: url-parse doesn't handle urls missing only the scheme, like google.com/path.
+    // Handling these is tricky anyway, since that could also be a valid relative url.
+    let url = urlParse(rawUrl, {});
+    if (!url.protocol) {
+        url.set("protocol", defaultScheme);
+    }
+    if (!url.hostname) {
+        url.set("hostname", defaultDomain);
+    }
+    return url.href;
+}
+module.exports.ensureDomain = ensureDomain;
 
 function doRedirect(destUrl, currentPath, cancelled) {
     if (cancelled) {
