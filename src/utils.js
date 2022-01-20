@@ -275,10 +275,10 @@ function ensureDomain(rawUrl, defaultDomain = CONFIG.host, defaultScheme = "http
     // Note: url-parse doesn't handle urls missing only the scheme, like google.com/path.
     // Handling these is tricky anyway, since that could also be a valid relative url.
     let url = urlParse(rawUrl, {});
-    if (! url.protocol) {
+    if (!url.protocol) {
         url.set("protocol", defaultScheme);
     }
-    if (! url.hostname) {
+    if (!url.hostname) {
         url.set("hostname", defaultDomain);
     }
     return url.href;

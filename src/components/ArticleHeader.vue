@@ -49,24 +49,27 @@ import Redirect from "@/components/Redirect";
 import { ensureDomain, getImage, humanDateSpan } from "~/utils.js";
 import CONFIG from "~/../config.json";
 import * as dayjs from "dayjs";
-
+const SOCIAL_TAGS_METADATA = [
+    ["title", "title", 70],
+    ["tease", "description", 200],
+    ["image", "image", null],
+];
 export default {
     components: {
         Redirect,
     },
     metaInfo() {
-        let info = {}
+        let info = {};
         if (this.article.title) {
             info.title = this.article.title;
         }
         // Set <meta> values for social previews.
         // https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup
-        const KEYS_METADATA = [["title","title",70],["tease","description",200],["image","image",null]];
-        for (let [articleKey, metaKey, maxLen] of KEYS_METADATA) {
+        for (let [articleKey, metaKey, maxLen] of SOCIAL_TAGS_METADATA) {
             let value = this.article[articleKey];
             if (value) {
                 if (maxLen) {
-                    value = value.slice(0,maxLen);
+                    value = value.slice(0, maxLen);
                 }
                 if (articleKey === "image") {
                     value = ensureDomain(value);
