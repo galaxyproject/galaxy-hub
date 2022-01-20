@@ -7,7 +7,7 @@ autotoc: false
 
 All data produced by our effort can be found at a public FTP server at <kbd>ftp://xfer13.crg.eu/</kbd>. This site was generously provided by [the Viral Beacon project](https://covid19beacon.crg.eu/).
 
-The root directory of the FTP site contains aggregate files (`gx-all_variants.tsv.gz`, `gs-poisson_stats.tsv.gz`, `all_consensus.fasta.gz`, `all_pangolin.tsv.gz`, and `gx-suveillance.json`) as well as directories corresponding to all data processed so far (directories beginning with `SRR`, `ERR`, or `Estonia`). Aggregate files contain variant information from all processed samples. 
+The root directory of the FTP site contains aggregate files (`gx-all_variants.tsv.gz`, `gx-poisson_stats.tsv.gz`, `all_consensus.fasta.gz`, `all_pangolin.tsv.gz`, and `gx-surveillance.json`) as well as directories corresponding to all data processed so far (directories beginning with `SRR`, `ERR`, or `Estonia`). Aggregate files contain variant information from all processed samples. 
 
 ## Global variant list `gx-all_variants.tsv.gz`
 
@@ -25,25 +25,25 @@ This file contains all variants produced by our effort. It contains the followin
 |5| AF                    | `0.924106`          | Alternative allele frequency |
 |6| SB                    | `2147483647`        | Strand bias P-value from Fisher's exact test calculated by [`lofreq`](https://csb5.github.io/lofreq/) |
 |7| DP4                   | `1,0,13700,0`       | Depth for Forward Ref Counts, Reverse Ref Counts, Forward Alt Counts, Reverse Alt Counts |
-|8| EFFECT                | `SYNONYMOUS_CODING` | Effect of change (from SNPEff) |
+|8| EFFECT                | `SYNONYMOUS_CODING` | Effect of change (from SnpEff 4.5covid19 version) |
 |9| GENE                  | `S`                 | Gene name |
 |10| CODON                 | `Cta/Tta`           | Codon |
-|11| AA                    | `L276`              | Amino acid |
-|12| TRID                  | `S`                 | Short name for the gene |
-|13| Batch                 | `0ce66d803a055fef` | Batch ID cross referenced in `gx-suveillance.json` file   |
+|11| AA                    | `L276`              | Amino acid (change) in final gene product |
+|12| TRID                  | `S`                 | Gene product name; different from GENE in ORF1ab |
+|13| Batch                 | `0ce66d803a055fef` | Batch ID cross-referenced in `gx-surveillance.json` file   |
 
 </div>
 
 
 ## Poisson statistics file `gs-poisson_stats.tsv.gz`
 
- For each analysis batch we compute allelic variant (AV) exclusion threshold and per-base error rate. The AV exclusion threshold is the number of samples in a given batch a variant must be observed in. This logic comes from the assumption that a fraction of allelic variants with low frequencies are random errors, modeled by a simple Poisson distribution with per-site error rate λ. We tabulate, for each position in the genome, the number of samples that contained an AV with 0.05 ≤ AF ≤ 0.5, inferred λ using a closed form ML estimator (the mean of per-base counts), and plotted the observed number of genome positions with *N* = 0,1,2… and so on AVs.  We that compute the point where the predicted Poisson distribution diverges from the observed distribution, which gives us the AV exclusion threshold. We also provide an estimate of per-base error rate. For details see [this script](https://github.com/usegalaxy-eu/ena-cog-uk-wfs/blob/aggregate-observable-data/aggregator.py). The file has the following fields:
+ For each analysis batch we compute allelic variant (AV) exclusion threshold and per-base error rate. The AV exclusion threshold is the number of samples in a given batch a variant must be observed in. This logic comes from the assumption that a fraction of allelic variants with low frequencies are random errors, modeled by a simple Poisson distribution with per-site error rate λ. We tabulate, for each position in the genome, the number of samples that contained an AV with 0.05 ≤ AF ≤ 0.5, inferred λ using a closed form ML estimator (the mean of per-base counts), and plotted the observed number of genome positions with *N* = 0,1,2… and so on AVs.  We then compute the point where the predicted Poisson distribution diverges from the observed distribution, which gives us the AV exclusion threshold. We also provide an estimate of per-base error rate. For details see [this script](https://github.com/usegalaxy-eu/ena-cog-uk-wfs/blob/aggregate-observable-data/aggregator.py). The file has the following fields:
 
 <div class="compact">
 
 | # | Column | Example value | Meaning |
 |-----|:-----|:-----|------|
-| 0 | Batch ID | `2cc93c20b35de7f2` | Batch ID cross referenced in `gx-suveillance.json` file   |
+| 0 | Batch ID | `2cc93c20b35de7f2` | Batch ID cross-referenced in `gx-surveillance.json` file   |
 | 1 | N | `362` | Number of samples in the batch |
 | 2 | Error rate |  `6.038988994556521e-07` | Per base error rate in this sample |
 | 3 | AV exclusion threshold | `3` | The number of samples in this batch a variant must be observed in to be kept |
@@ -56,11 +56,11 @@ Consensus sequences for each sample constructed from the called variants, in whi
 
 ## Global pango lineage file (`all_pangolin.tsv.gz`)
 
-A mapping between every analyze sample and PANGO lineage designation.  
+A mapping between every analyzed sample and its PANGO lineage designation.  
 
 ## Information about every analysis run
 
-JSON file, `gx-surveillance.json`, with an up-to-date list of all datasets analyzed so far including URLs to the corresponding Galaxy histories and the TSV datasets. The batch key (`0ce66d803a055fef` in the example below) is cross referenced in `gx-all_variants.tsv.gz` and `gs-poisson_stats.tsv.gz` files. Each batch entry contains information on samples analyzed (`"samples"`) and their collection dates (`"collection_dates"`) and provides URL for Galaxy histories, consensus sequence (also found in `all_consensus.fasta.gz`) and graphical representation of variation found in this batch `"batch_plot"`.
+JSON file, `gx-surveillance.json`, with an up-to-date list of all datasets analyzed so far including URLs to the corresponding Galaxy histories and the TSV datasets. The batch key (`0ce66d803a055fef` in the example below) is cross referenced in `gx-all_variants.tsv.gz` and `gs-poisson_stats.tsv.gz` files. Each batch entry contains information on samples analyzed (`"samples"`) and their collection dates (`"collection_dates"`) and provides URLs to Galaxy histories, consensus sequences (also found in `all_consensus.fasta.gz`) and graphical representations of variation found in this batch (`"batch_plot"`).
 
 ```json
 {
