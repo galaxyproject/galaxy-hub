@@ -46,13 +46,43 @@
 
 <script>
 import Redirect from "@/components/Redirect";
-import { getImage, humanDateSpan } from "~/utils.js";
+import { ensureDomain, getImage, humanDateSpan } from "~/utils.js";
 import CONFIG from "~/../config.json";
 import * as dayjs from "dayjs";
 
 export default {
     components: {
         Redirect,
+    },
+    metaInfo() {
+        let info = {}
+        if (this.article.title) {
+            info.title = this.article.title;
+        }
+        // Set <meta> values for social previews.
+        // https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup
+        const KEYS_METADATA = [["title","title",70],["tease","description",200],["image","image",null]];
+        for (let [articleKey, metaKey, maxLen] of KEYS_METADATA) {
+            let value = this.article[articleKey];
+            if (value) {
+                if (maxLen) {
+                    value = value.slice(0,maxLen);
+                }
+                if (articleKey === "image") {
+                    value = ensureDomain(value);
+                }
+                if (info.meta === undefined) {
+                    info.meta = [];
+                }
+                for (let prefix of ["og", "twitter"]) {
+                    info.meta.push({ property: `${prefix}:${metaKey}`, content: value });
+                }
+            }
+        }
+        if (info.meta !== undefined) {
+            info.meta.push({ property: "twitter:card", content: "summary_large_image" });
+            return info;
+        }
     },
     props: {
         article: { type: Object, required: true },
