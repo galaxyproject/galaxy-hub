@@ -83,6 +83,7 @@ export default {
             }
         }
         if (info.meta !== undefined) {
+            info.meta.push({ property: "og:type", content: "article" });
             info.meta.push({ property: "twitter:card", content: "summary_large_image" });
             return info;
         }
