@@ -69,7 +69,7 @@ available today so find the best match and go for it.
 * If you are a user looking to get access to an unrestricted, customizable
   Galaxy instance that multiple users can share, a suitable option and most
   comparable alternative to CloudLaunch is
-  [Lanikea](https://laniakea.readthedocs.io/en/latest/user_documentation/galaxy/galaxy.html).
+  [Laniakea](https://laniakea.readthedocs.io/en/latest/user_documentation/galaxy/galaxy.html).
   With Lanikea users can launch their own instance of Galaxy with a scalable
   cluster handling the workfloads.
 * Another similar alternative is [Galaxy on AnVIL](https://anvilproject.org/).
