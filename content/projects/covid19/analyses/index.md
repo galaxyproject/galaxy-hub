@@ -13,7 +13,7 @@ We provide two resources interpreting our results. The first is this page. Its c
 
 ### High level descriptive statistics
 
-After filtering (see [Methods](#thresholding-of-raw-data)) the dataset contains 11,384,133 variants distributed across 27,638 sites in 299,778 samples from 1,482 batches with the following substitution effect breakdown (10 top effects shown):
+After filtering (see [Methods](#methods)) the dataset contains 11,384,133 variants distributed across 27,638 sites in 299,778 samples from 1,482 batches with the following substitution effect breakdown (10 top effects shown):
 
 <div class="compact">
 
