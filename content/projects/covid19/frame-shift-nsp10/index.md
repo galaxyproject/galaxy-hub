@@ -4,7 +4,7 @@ autotoc: false
 title: "Distribution of allele frequencies for [frame-shift] sites in gene [nsp10]"
 ---
 
-Period: from 2021-01-02 00:00:00 to 2021-12-06 00:00:00
+Period: from 2021-01-02 00:00:00 to 2021-12-10 00:00:00
 
 Shows distribution of mean alternative allele frequencies in weekly intervals. To be included in this graph a variant must satisfy two conditions:
 
