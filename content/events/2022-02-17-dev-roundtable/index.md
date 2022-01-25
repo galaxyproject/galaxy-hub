@@ -1,21 +1,20 @@
 ---
-title: "Galaxy Developer Roundtable"
+title: "Outreachy internships: outcomes"
 date: '2022-02-17'
 days: 1
-tease: "Volunteer to lead the discussion"
+tease: "Outreachy interns will present the outcomes of their projects"
 continent: GL
 location: "Online, Global"
 image: "/images/galaxy-logos/galaxy-developer-roundtable-wide-600.png"
 location_url: "/community/devroundtable/"
 external_url:
 gtn: false
-contact: "TBD"
+contact: "Rahmot Afolabi, Chinonye Mildred Egenti, Maria Pia"
 tags: [ "devroundtable" ]
 ---
 
-*Have something you want to talk about at a roundtable? [Submit your topic here](https://bit.ly/gxdevroundtablepresent).*
 
-Please <a href="https://psu.zoom.us/j/92752763386">join us</a> at Noon, US Eastern time (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20220217T12&p1=179&ah=1">see in your timezone</a>) for an open discussion about ...
+Please <a href="https://psu.zoom.us/j/92752763386">join us</a> at Noon, US Eastern time (<a href="https://www.timeanddate.com/worldclock/fixedtime.html?msg=Galaxy+Developer+Roundtable&iso=20220217T12&p1=179&ah=1">see in your timezone</a>) for an open discussion about the outcomes of the two Outreachy projects: the _"Establish the Galaxy Community Mentor Network"_, and _"Improve the Onboarding of New communities"_.
 
 ---
 
