@@ -64,15 +64,6 @@ The [Galaxy Training Network (GTN)](https://training.galaxyproject.org/) is a [n
 [Conda](https://conda.io/docs/index.html) is an open source package management system that is heavily used by Galaxy to manage tool dependencies and installations. [Bioconda](https://bioconda.github.io/) is a specific channel for Conda that distributes popular bioinformatics software, many of which have been wrapped by the Galaxy community.
 
 
-# Galaxy Developer Roundtable
-
-<img class="float-right" style="max-width: 8rem;" src="/images/galaxy-logos/galaxy-developer-roundtable-300.png" alt="Galaxy Developer Round Table" />
-
-[This group](/community/devroundtable/) meets every other Thursday.  It's an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively.  These are lightweight and informal gatherings, and are cancelled if no one volunteers to present.
-
-Anyone is welcome to attend. If you would like to present, please [fill out this form](https://bit.ly/gxdevroundtablepresent) by midday Wednesday of that week.
-
-
 # Regional Communities
 
 | Region | Info | Links |

@@ -2,12 +2,17 @@
 title: Galaxy Developer Roundtable
 ---
 
+# **Goodbye Developer Roundtables**
+
+Working Groups have changed the way Galaxy operates, for the better. One of those changes is that the need for roundtable talks has largely disappeared, as working group meetings are covering the topics that used to be reserved for round tables. Because of that, we are saying goodbye to developer roundtable talks. For more information on how working groups serve this need, please see [this blog post](https://galaxyproject.org/blog/2022-01-27-disbanding-roundtables/).
+
 <div class="img-sizer right" style="max-width: 12rem; margin: 1rem">
 
 ![Galaxy Developer Round Table](/images/galaxy-logos/galaxy-developer-roundtable-300.png)
 
 </div>
 
+---
 ## What
 
 This is an opportunity for presenters (Galaxy users, developers, admins) to engage with the Galaxy developer community interactively. Some example presentation slots might include:
