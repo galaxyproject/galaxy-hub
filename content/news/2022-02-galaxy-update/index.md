@@ -16,22 +16,20 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <div class="card-deck">
 
-<!-- Usegalaxy.eu surpassed 40K users -->
+<!-- EOSC-Life industry grant -->
 <div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
 <div class="trim-p">
 
-![](/images/galaxy-logos/galaxy-europe-white.png)
+![](/images/logos/eosc_life.png)
 
 </div>
 <div class="card-header trim-p">
 
-[Usegalaxy.eu surpassed 40,000 registered users](https://galaxyproject.eu/posts/2022/01/20/reached-4000-users/)
+[Accessible and scalable detection and identification of foodborne pathogens, a project with Biolytix and funded by EOSC-Life](https://galaxyproject.eu/posts/2021/12/08/pathogen-detection-eosc-life-grant/)
 
 </div>
 
-This 2 day pre-[Inbix2021](https://neist.res.in/inbix2021/) workshop will feature talks and hands-on exercises, **and the formal launch of the [Galaxy India Community](https://galaxyproject.in/).**  
-
-Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioclues members can register for free.
+Thanks to funding from EOSC-Life, the Freiburg Galaxy team will work in 2022 with Biolytix, a Swiss Small and Medium-sized Enterprise specialized in molecular biology and microbiological analyses, toward Accessible and scalable detection and identification of foodborne pathogens.
 
 </div>
 
@@ -135,9 +133,9 @@ By end of 2021, the European Galaxy server has over 40,000 registered users. Tha
 
 ![usegalaxy-dot-star](/images/galaxy-logos/usegalaxy-dot-star-white.png)
 
-* [The FTP server on UseGalaxy.eu has been upgraded](https://galaxyproject.eu/posts/2021/10/05/ftp-server-update/), providing more space and accepting only encrypted connections (TLS).
-* [UseGalaxy.eu as a cross-disciplinary platform for European researchers](https://galaxyproject.eu/posts/2021/09/15/EU-server-cross-disciplinary/)
-* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.hgtml).
+* [Usegalaxy.eu project infrastructure and CVE-2021-44228 vulnerability](https://galaxyproject.eu/posts/2021/12/16/log4j/).
+
+* Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
 
 </div>
 </div>
