@@ -6,7 +6,7 @@ date: ""
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
-[Text from Assunta]
+[Text from Assunta -- Dave has left us, Assunta stepping up]
 
 PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.org/?count=100&all-lists=) and receive an email whenever this newsletter is published.
 
