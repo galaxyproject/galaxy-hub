@@ -192,18 +192,18 @@ By end of 2021, the European Galaxy server has over 40,000 registered users. Tha
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="trim-p">
 
-[![Blood, Mucus, Tears, and My Little Pony](/images/blog/2021-10-blood-mucus-tears/my-little-pony-tears.png)](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
+[![FORCES](/news/2021-11-galaxy-update/logo-forces.png)](https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/)
 
 </div>
 <div class="card-header trim-p">
 
-[Teaching bioinformatics through blood, mucus and tears](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)
+[Training Infrastructure feedback: FORCeS eScience course](https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/)
 
 </div>
 
-By Tomas Klingström.
+By Anne Fouilloux.
 
-Tomas has shared with us his hilarious experience when running a workshop from home. Find out the [whole story](https://galaxyproject.eu/posts/2021/10/01/tiaas-Tomas/)!
+Anne gave a training on Climate Sicence in Sweden last November. Find out the [whole story](https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/)!
 
 </div>
 
