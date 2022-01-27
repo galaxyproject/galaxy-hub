@@ -42,7 +42,7 @@ Thanks to funding from EOSC-Life, the Freiburg Galaxy team will work in 2022 wit
 ![](2021-11-29-omicron-variant-plot.png)
 
 </div>
-<div class="card-header trim-p">
+<div class="card-header">
 
 [Omicron and SARS-CoV-2 genome surveillance](https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy/)
 
@@ -69,6 +69,27 @@ Find all the details about the evolution of the Omicron variant and reproduce it
 The Galaxy Help Forum (GHelp) is one of the primary meeting places where Galaxy users turn to searching for answers. Get insights into the usage in the forum in this post by Cristóbal Gallardo.
 
 ![](ghelp_visits_two_months.png)
+
+</div>
+
+
+<!-- Australian BioCommons -->
+<div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
+<div>
+
+![](/images/logos/australian-biocommons-logo-horizontal-transparent.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Leveraging Galaxy Australia to teach proteomics](https://www.biocommons.org.au/news/galaxy-proteomics-training)
+
+</div>
+
+Matt Padula, a Senior Lecturer at their School of Life Sciences, and Director of the UTS Proteomics Core Facility,  shared his experience using Galaxy Australia:
+
+_‘When it comes to actually training students in proteomics you have to develop a whole lot of materials that are specific for certain pipelines and then along comes Galaxy… Galaxy has made life a little bit simpler’_
+
 
 </div>
 
