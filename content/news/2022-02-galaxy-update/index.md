@@ -53,6 +53,26 @@ Find all the details about the evolution of the Omicron variant and reproduce it
 </div>
 
 
+<!-- Stats help Forum -->
+<div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
+<div>
+
+![](/images/galaxy-logos/help-galaxyproject-org-big.png)
+
+</div>
+<div class="card-header trim-p">
+
+[An overview and statistics on the Galaxy Help Forum](https://galaxyproject.eu/posts/2021/11/25/ghelp-stats/)
+
+</div>
+
+The Galaxy Help Forum (GHelp) is one of the primary meeting places where Galaxy users turn to searching for answers. Get insights into the usage in the forum in this post by Cristóbal Gallardo.
+
+![](ghelp_visits_two_months.png)
+
+</div>
+
+
 </div>
 
 
