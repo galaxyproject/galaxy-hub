@@ -16,32 +16,20 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <div class="card-deck">
 
-<!-- Inbix 2021 & Galaxy India Launch -->
+<!-- Usegalaxy.eu surpassed 40K users -->
 <div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
 <div class="trim-p">
 
-![](/images/galaxy-logos/galaxy-india-logo.png)
+![](/images/galaxy-logos/galaxy-europe-white.png)
 
 </div>
 <div class="card-header trim-p">
 
-[Galaxy India Launch & Inbix2021 Pre-Conference Galaxy Workshop](https://neist.res.in/inbix2021/workshop.html)
+[Usegalaxy.eu surpassed 40,000 registered users](https://galaxyproject.eu/posts/2022/01/20/reached-4000-users/)
 
 </div>
 
-**9-10 November**
-
 This 2 day pre-[Inbix2021](https://neist.res.in/inbix2021/) workshop will feature talks and hands-on exercises, **and the formal launch of the [Galaxy India Community](https://galaxyproject.in/).**  
-
-Presenters include include
-[Christopher B Barnett](http://www.chemistry.uct.ac.za/cem/staff/academic/barnett),
-[Anshu Bhardwaj](https://www.imtech.res.in/contact/staff/dr-anshu-bhardwaj/107),
-[Simon Bray](https://github.com/simonbray),
-[Sona Charles](http://www.spices.res.in/ms-sona-charles),
-[Dave Clements](/people/dave-clements/),
-[Stephan Flemming](https://github.com/stephanflemming),
-[Selvaraman Nagamani](https://scholar.google.com/citations?user=aIQz3DkAAAAJ&hl=en),
-and [Gareth Price](https://qfab.org/team-member/dr-gareth-price).
 
 Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioclues members can register for free.
 
@@ -118,21 +106,23 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <div class="card-deck">
 
-
-<!-- MitoLink -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
+<!-- Usegalaxy.eu surpassed 40K users -->
+<div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
 <div class="trim-p">
 
-[![MitoLink](/images/use/mitolink/mitolink-logo.jpg)](/use/mitolink/)
+![](/images/galaxy-logos/usegalaxy.eu.256.png)
 
 </div>
 <div class="card-header trim-p">
 
-[MitoLink Server](/use/mitolink/)
+[Usegalaxy.eu surpassed 40,000 registered users](https://galaxyproject.eu/posts/2022/01/20/reached-4000-users/)
 
 </div>
 
-[MitoLink](https://datascience.imtech.res.in/anshu/mitolink) is an integrated workflow system to facilitate understanding of genotype-phenotype correlations in cases of mitochondrial dysfunction. MitoLink provides a complete pipeline based system to analyse and visualize the role of SNPs in Mitochondrial Diseases. It also provides a [MitoLink User Manual](https://ab-openlab.csir.res.in/mitolink_v1/static/mitolink/User_Manual.pdf), shared [data](https://ab-openlab.csir.res.in/mitolink_v1/library/list), and [workflows](https://ab-openlab.csir.res.in/mitolink_v1/workflows/list_published).
+By end of 2021, the European Galaxy server has over 40,000 registered users. Thanks to all for using Galaxy!
+
+![](total_users_galaxyeu.png)
+
 </div>
 
 <!-- UseGalaxy.* -->
