@@ -65,9 +65,15 @@ Early [registration](https://easychair.org/cfp/InBix2021) ends November 5.  Bioc
 
 </div>
 
-Two new positions were listed in the [Galaxy Career Center](/careers/index.md) recently. The Career Center lists any open Galaxy related positions that we know about.  Currently there are openings at
+There are several new positions listed in the [Galaxy Career Center](/careers/index.md) recently. The Career Center lists any open Galaxy related positions that we know about. Currently there are openings at
 
-* 
+* The Open University, UK
+* Johns Hopkins University, US: 4 open positions!
+* RECETOX, Czechia
+* University of Freiburg, Germany
+* Pfizer, US
+* VIB, Belgium
+* Cleveland Clinic, US
 
 </div>
 
