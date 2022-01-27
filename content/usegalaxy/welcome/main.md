@@ -57,6 +57,8 @@ This instance of Galaxy is utilizing infrastructure generously provided by [CyVe
 
 This is a free, public, internet accessible resource. Data transfer and data storage are not encrypted. If there are restrictions on the way your research data can be stored and used, please consult your local institutional review board or the project PI before uploading it to any public site, including this Galaxy server.  If you have protected data, large data storage requirements, or short deadlines you are encouraged to setup your own [local Galaxy instance][get-galaxy] or run [Galaxy on the cloud][cloud-galaxy].
 
+See the [Terms of Service and Privacy Policy][terms] for more information, including our cookie policy.
+
 [hub]: http://galaxyproject.org/
 [galaxy-101]: https://usegalaxy.org/galaxy101
 [get-galaxy]: http://getgalaxy.org
@@ -76,3 +78,4 @@ This is a free, public, internet accessible resource. Data transfer and data sto
 [cyverse]: http://www.cyverse.org/
 [nsf]: http://www.nsf.gov
 [nhgri]: http://www.genome.gov
+[terms]: https://usegalaxy.org/static/terms.html

@@ -90,7 +90,7 @@ Thank you all in advance and please feel free to send this email to other friend
 <button type="button" class="btn btn-secondary trim-p" style="font-size: x-large; font-weight: 600;">
 
 [Donate now](https://give.communityfunded.com/o/eberly/i/eberly-college-of-science/s/jtech#CommunityI39hubL9i)</button> &nbsp;&nbsp;&nbsp;&nbsp; <button type="button" class="btn btn-secondary" style="font-size: x-large; font-weight: 600;">
-[Learn more](/jxtx/foundation/)</button>
+[Learn more](https://jxtxfoundation.org/)</button>
 
 </div>
 
