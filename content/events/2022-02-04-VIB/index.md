@@ -6,7 +6,7 @@ tease: "Explore your transcriptomics experiments"
 continent: GL
 location: "Online, VIB, Belgium"
 image: ""
-location_url: "https://training.vib.be/all-trainings?search_api_fulltext=&category[]=19"
+location_url: ""
 external_url: "https://training.vib.be/all-trainings/bulk-rnaseq-counts-differential-expression-online-1"
 gtn: false
 contact: "Janick Mathys"
