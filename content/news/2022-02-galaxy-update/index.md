@@ -35,6 +35,24 @@ Thanks to funding from EOSC-Life, the Freiburg Galaxy team will work in 2022 wit
 
 
 
+<!-- Omicron and SARS-CoV-2 genome surveillance -->
+<div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
+<div class="trim-p">
+
+![](2021-11-29-omicron-variant-plot.png)
+
+</div>
+<div class="card-header trim-p">
+
+[Omicron and SARS-CoV-2 genome surveillance](https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy/)
+
+</div>
+
+Find all the details about the evolution of the Omicron variant and reproduce it yourself using Galaxy!
+
+</div>
+
+
 </div>
 
 
