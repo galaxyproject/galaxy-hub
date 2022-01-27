@@ -1,7 +1,7 @@
 ---
 title: "Meet the Community: Assunta DeSanto"
 authors: "Assunta DeSanto"
-date: "2022-01-28"
+date: "2022-01-27"
 ---
 
 ![Assunta DeSanto](adesanto_book_resize.png)
