@@ -173,7 +173,11 @@ By end of 2021, the European Galaxy server has over 40,000 registered users. Tha
 
 * [Usegalaxy.eu project infrastructure and CVE-2021-44228 vulnerability](https://galaxyproject.eu/posts/2021/12/16/log4j/).
 
+* [4th de.NBI Cloud User meeting](https://galaxyproject.eu/posts/2021/11/17/4th-denbi-cloud-meeting/).
+
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
+
+
 
 </div>
 </div>
