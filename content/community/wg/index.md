@@ -38,7 +38,7 @@ Focus on the Galaxy server code and architecture.
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/11)
 * [Google Drive](https://drive.google.com/drive/folders/1wPjD6j0ERp_XRCvrtFQ7cF8XwojJkm6k)
 * [Gitter Channel](https://gitter.im/galaxyproject/wg-backend)
-* Leadership: Marius van den Beek
+* Leadership: Marius van den Beek, John Chilton
 
 </div>
 
@@ -66,7 +66,7 @@ Testing and hardening the Galaxy ecosystem, developing and maintaining test infr
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/12)
 * [Google Drive](https://drive.google.com/drive/folders/1jglyg2B-iyE7JdPIVxbJtyizJmEyZ-8A)
 * [Gitter Channel](https://gitter.im/galaxyproject/testing-hardening)
-* Leadership: John Chilton
+* Leadership: John Chilton, Sergey Golitsynskiy
 
 </div>
 
