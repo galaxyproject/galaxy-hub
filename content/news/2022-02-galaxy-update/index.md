@@ -1,12 +1,25 @@
 ---
 title: 'February 2022 Galactic News'
-tease: "."
-date: ""
+tease: "change is in the air"
+date: "2022-02-01"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
 
-[Text from Assunta -- Dave has left us, Assunta stepping up]
+Greetings! 
+
+Happy February! This month's newsletter brings with it a few changes that we want you to be aware of:
+1. As many of you already know, Dave Clements has left Galaxy for an exciting opportunity with Anaconda.  You can find his goodbye blog post, and Anton's parting words to him in the Galactic Blog. He has done so much for the Galaxy Communty, and because he gave so much, it's going to be hard for us to do it without him, without missing him a whole awful lot. 
+2. Assunta DeSanto has stepped in to help fill in Dave's shoes, as best she can, while we search for a replacement.  Haven't met Assunta yet? That's okay. Check out this introductory blog post!
+3. Going forward, the Galaxy newsletter will be delivered quarterly rather than monthly. This means you'll hear from us less often (boo!), but that the newletter will be filled with richer content that captures more of the big picture happenings of our Galaxy Community. 
+4. We have a couple of new segments for you: "Meet the Community" blog posts where we introduce core team members and other folk from the wider community, and a section called "Watch this Next!" where we highlight a video from the GTN. 
+
+
+We are excited to continue delivering the Galactic Newletter to you, albeit less frequently and with one less star in our cluster, but with no less love for our wonderful Galaxy Community. 
+
+Beatriz Serrano-Solano and Assunta DeSanto, Editors
+
+
 
 PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.org/?count=100&all-lists=) and receive an email whenever this newsletter is published.
 
