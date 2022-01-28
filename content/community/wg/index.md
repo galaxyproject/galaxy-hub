@@ -168,7 +168,7 @@ This project emphasizes applying Galaxy in human research.
 This project emphasizes analysis of SARS-CoV-2.
 
 * [Project Page](https://galaxyproject.org/projects/covid19/)
-* Leadership: Anton Nekrutenko, Wolfgange Maier
+* Leadership: Anton Nekrutenko, Wolfgang Maier
 </div>
 
 </div>
