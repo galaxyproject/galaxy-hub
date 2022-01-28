@@ -11,7 +11,7 @@ The Galactic Blog complements the [Galaxy News feed](/news/).
 
  ### Add your voice!
 
-See the hub [CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/tree/master/CONTRIBUTING.md) in general, and the [blog section](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) in particular for directions on how to add a blog entry.
+Choose a title, a featured image, and write the blog content. Don't forget to look at the Hub [CONTRIBUTING page](https://github.com/galaxyproject/galaxy-hub/tree/master/CONTRIBUTING.md) in general, and the [blog section](https://github.com/galaxyproject/galaxy-hub/blob/master/CONTRIBUTING.md#blog-metadata) in particular for directions on how to add a blog entry.
 
 <img class="img-fluid float-right" src="/images/undraw-illustrations/blog.svg" style="width:200px;" alt="Galactic Blog" />
 

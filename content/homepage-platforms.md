@@ -3,6 +3,9 @@ title: New Platforms
 link: /use/
 icon: fas fa-server
 items:
+  - title: Galaxy@AuBi
+    link: /use/galaxy-aubi/
+    tease: "Standard tools for DNA/RNA analysis and additionals ones on project demands."
   - title: miRGalaxy
     link: /use/mirgalaxy/
     tease: "NGS data analysis focusing on microRNAs and their sequence variants—isomiRs."

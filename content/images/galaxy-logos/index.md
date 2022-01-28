@@ -1,5 +1,5 @@
 ---
-title: Galaxy Project Logos
+title: Branding
 ---
 
 <img src="/images/undraw-illustrations/branding.svg" alt="branding" style="width:230px; float:right;"/>
@@ -7,10 +7,11 @@ title: Galaxy Project Logos
 
 These are current official Galaxy Project logos, using the current version of the Galaxy Logo created by [Petr Kadlec](http://puradesign.cz/en).
 
-Galaxy Project Logos have been provided to the Galaxy community for community building activities. You may use this logo for referential purposes only to accurately identify the Galaxy project and code base (Permitted Use) without conveying any express or implied endorsement of your company's products and services by or in connection with the Galaxy Project and without using the Galaxy Logo or Word Mark as trademarks or service marks of the Company.
+Galaxy Project Logos have been provided to the Galaxy community for community building activities. You may use this logo for referential purposes only to accurately identify the Galaxy Project and code base (Permitted Use) without conveying any express or implied endorsement of your company's products and services by or in connection with the Galaxy Project and without using the Galaxy Logo or Word Mark as trademarks or service marks of the Company.
 
-The fonts used in the logos are Verdana Bold and Exo-ExtraLight
+The __fonts__ used in the logos are Verdana Bold and Exo-ExtraLight.
 
+Many of the __illustrations__ used in this Community Hub are from [unDraw](https://undraw.co/). 
 # Galaxy Project Logo
 
 * White background, symbol + "Galaxy": [292x75 pixels](/images/galaxy-logos/galaxy_logo_25percent.png)

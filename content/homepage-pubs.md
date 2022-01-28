@@ -4,6 +4,9 @@ link: https://www.zotero.org/groups/galaxy
 icon: fas fa-book-open
 items:
 
+- title: "VectorBase.org updates: bioinformatic resources for invertebrate vectors of human pathogens and related organisms"
+  link: https://doi.org/10.1016/j.cois.2021.11.008
+  tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.26434/chemrxiv-2021-zr4xn'></span> Giraldo-Calderón, G. I., Harb, O.S., Kelly S.A., and Rund S. SC, Roos D.S., McDowell M.A. (2022). *Current Opinion in Insect Science*."
 - title: "Galaxy workflows for fragment-based virtual screening: A case study on the SARS-CoV-2 main protease"
   link: https://doi.org/10.26434/chemrxiv-2021-zr4xn
   tease: "<span class='altmetric-embed float-right' data-badge-type='4' data-doi='10.26434/chemrxiv-2021-zr4xn'></span> Bray, S., Dudgeon, T., Skyner, R., Backofen, R., Grüning, B., & Delft, F. von. (2021). *ChemRxiv*."

@@ -1,6 +1,6 @@
 <template>
     <header :class="article.category">
-        <g-link v-if="article.category" :to="`/${article.category}/`" class="link">
+        <g-link v-if="article.category" :to="categoryIndex" class="link">
             &larr; Back to <span class="text-capitalize">{{ article.category }}</span>
         </g-link>
         <Redirect v-if="article.redirect" :url="article.redirect" :location="this.location" />
@@ -47,6 +47,7 @@
 <script>
 import Redirect from "@/components/Redirect";
 import { getImage, humanDateSpan } from "~/utils.js";
+import CONFIG from "~/../config.json";
 import * as dayjs from "dayjs";
 
 export default {
@@ -62,6 +63,17 @@ export default {
         };
     },
     computed: {
+        categoryIndex() {
+            for (let [path, category] of Object.entries(CONFIG.categories)) {
+                if (category === this.article.category) {
+                    return path + "/";
+                }
+            }
+            if (this.article.category) {
+                return `/${this.article.category}/`;
+            }
+            return null;
+        },
         dateSpan() {
             if (this.article?.date !== this.article?.end) {
                 return humanDateSpan(this.startDate, this.endDate);
