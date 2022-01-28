@@ -122,7 +122,7 @@ Coordinate and guide Galaxy's Outreach & Training efforts, as well as user, admi
 Communications across working groups.
 
 * [Gitter Chat](https://gitter.im/galaxyproject/wg-all)
-    * Please condsider joining if you are involved in any working group.
+    * Please consider joining if you are involved in any working group.
 
 </div>
 
