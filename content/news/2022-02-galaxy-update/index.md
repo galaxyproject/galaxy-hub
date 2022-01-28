@@ -144,28 +144,82 @@ See all [upcoming events here](/events/index.md):
 
 <div class="card-deck">
 
-<!-- covid workshop -->
+<!-- smorgasbord -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
 
-![SARS-CoV-2 Data Analysis and Monitoring with Galaxy](/images/news-graphics/gtn-covid-stripe.jpeg)
+![Smorgasbord](https://gallantries.github.io/assets/images/smorgasbord2/banner.png)
 
 </div>
 <div class="card-header trim-p">
 
-[SARS-CoV-2 Data Analysis and Monitoring with Galaxy](https://galaxyproject.eu/event/2021-09-15-sars-cov-2-training/)
-
-</div>
-
-**20 October, Online**
-
-A workshop to build capacity in SARS-CoV-2 data analysis! It will be a 1-day event with pre-recorded lectures, hands-on and demos. During the workshop, there will be live support in chat and live Questions & Answers sessions.
-
-Registration will open soon, stay tuned!
+[GTN Smörgåsbord 2: 14-18 March](https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/)
 
 </div>
 
 
+**14-18 March, Online**
+
+This event allows you to get a taste of all the GTN has to offer. Be sure to register for the course to get access to the virtual, asynchronous, 5-day training event!
+
+</div>
+
+<!-- GAT -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
+
+![GAT](http://localhost:8080/images/galaxy-logos/admin-training-logo.jpg)
+
+</div>
+<div class="card-header trim-p">
+
+[Galaxy Admin Training](http://localhost:8080/events/2022-03-admin-training/)
+
+</div>
+
+
+**14-18 March, Online**
+
+The ins and outs of setting up your own production quality Galaxy server. Online and asynchronous. Be sure to apply for the event before February 18th.
+
+</div>
+
+<!-- Paper Cuts -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+
+<div class="trim-p">
+
+![February Papercuts](/images/galaxy-logos/papercuts.png)
+
+</div>
+
+**17 February, 17 March, 21 April**
+
+Please join us for the CoFest day on the third Thursday of each month (February 17, March 17, and April 21) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+
+We will be on Gitter for chat all day long, please take advantage of both to communicate with your collaborators around the world.
+
+</div>
+
+<!-- GalaxyIntro -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
+
+![GalaxyIntro](https://www.sib.swiss//templates/sib/images/SIB_LogoQ_GBv.svg)
+
+</div>
+<div class="card-header trim-p">
+
+[Galaxy Introduction for Life Scientists](https://www.sib.swiss/training/course/20220427_GALXY)
+
+</div>
+
+
+**27 April**
+
+This course will give a general introduction on the galaxy web-page structure, how to import data, run tools, and share analyses. Participants will run a whole NGS analysis using an RNA-seq dataset as an example.
+
+</div>
 
 </div>
 
