@@ -24,7 +24,7 @@ title: usegalaxy.org
 
 <div class="alert alert-info trim-p">
 
-Want to learn the best practices for the analysis of SARS-CoV-2 data using Galaxy? Visit the Galaxy SARS-CoV-2 portal at [covid19.galaxyproject.org][covid19]
+Want to learn the best practices for the analysis of SARS-CoV-2 data using Galaxy? Visit the Galaxy SARS-CoV-2 portal at [https://galaxyproject.org/projects/covid19/][covid19]
 
 </div>
 
@@ -64,7 +64,7 @@ See the [Terms of Service and Privacy Policy][terms] for more information, inclu
 [get-galaxy]: http://getgalaxy.org
 [cloud-galaxy]: http://usegalaxy.org/cloud
 [jxtx-foundation]: https://jxtxfoundation.org/
-[covid19]: https://covid19.galaxyproject.org/
+[covid19]: https://galaxyproject.org/projects/covid19/
 
 [psu]: http://www.psu.edu/
 [psu-bx]: http://www.bx.psu.edu/
