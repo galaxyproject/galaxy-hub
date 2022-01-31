@@ -29,25 +29,6 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 <div class="card-deck">
 
-<!-- EOSC-Life industry grant -->
-<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
-<div class="trim-p">
-
-![](/images/logos/eosc_life.png)
-
-</div>
-
-<div class="card-header trim-p">
-
-[Accessible and scalable detection and identification of foodborne pathogens, a project with Biolytix and funded by EOSC-Life](https://galaxyproject.eu/posts/2021/12/08/pathogen-detection-eosc-life-grant/)
-
-</div>
-
-Thanks to funding from EOSC-Life, the Freiburg Galaxy team will work in 2022 with Biolytix, a Swiss Small and Medium-sized Enterprise specialized in molecular biology and microbiological analyses, toward Accessible and scalable detection and identification of foodborne pathogens.
-
-</div>
-
-
 <!-- Omicron and SARS-CoV-2 genome surveillance -->
 <div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
 
@@ -86,6 +67,24 @@ Find all the details about the evolution of the Omicron variant and reproduce it
 The Galaxy Help Forum (GHelp) is one of the primary meeting places where Galaxy users turn to searching for answers. Get insights into the usage in the forum in this post by Cristóbal Gallardo.
 
 ![](ghelp_visits_two_months.png)
+
+</div>
+
+<!-- EOSC-Life industry grant -->
+<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
+<div class="trim-p">
+
+![](/images/logos/eosc_life.png)
+
+</div>
+
+<div class="card-header trim-p">
+
+[Accessible and scalable detection and identification of foodborne pathogens, a project with Biolytix and funded by EOSC-Life](https://galaxyproject.eu/posts/2021/12/08/pathogen-detection-eosc-life-grant/)
+
+</div>
+
+Thanks to funding from EOSC-Life, the Freiburg Galaxy team will work in 2022 with Biolytix, a Swiss Small and Medium-sized Enterprise specialized in molecular biology and microbiological analyses, toward Accessible and scalable detection and identification of foodborne pathogens.
 
 </div>
 
@@ -144,6 +143,7 @@ See all [upcoming events here](/events/index.md):
 
 <div class="card-deck">
 
+
 <!-- smorgasbord -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
@@ -164,6 +164,7 @@ This event allows you to get a taste of all the GTN has to offer. Be sure to reg
 
 </div>
 
+
 <!-- GAT -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
@@ -177,12 +178,12 @@ This event allows you to get a taste of all the GTN has to offer. Be sure to reg
 
 </div>
 
-
 **14-18 March, Online**
 
 The ins and outs of setting up your own production quality Galaxy server. Online and asynchronous. Be sure to apply for the event before February 18th.
 
 </div>
+
 
 <!-- Paper Cuts -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
@@ -201,6 +202,7 @@ We will be on Gitter for chat all day long, please take advantage of both to com
 
 </div>
 
+
 <!-- GalaxyIntro -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div>
@@ -213,7 +215,6 @@ We will be on Gitter for chat all day long, please take advantage of both to com
 [Galaxy Introduction for Life Scientists](https://www.sib.swiss/training/course/20220427_GALXY)
 
 </div>
-
 
 **27 April**
 
@@ -230,9 +231,10 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <div class="card-deck">
 
+
 <!-- Usegalaxy.eu surpassed 40K users -->
-<div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
-<div class="trim-p">
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div>
 
 ![](/images/galaxy-logos/usegalaxy.eu.256.png)
 
@@ -245,9 +247,27 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 By end of 2021, the European Galaxy server has over 40,000 registered users. Thanks to all for using Galaxy!
 
-![](total_users_galaxyeu.png)
+![total users EU](total_users_galaxyeu.png)
 
 </div>
+
+
+<!-- Galaxy@AuBi -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div>
+
+![logo mesocentre](/images/logos/UCA_mesocentre.png)
+
+</div>
+<div class="card-header trim-p">
+
+[New Platform: Galaxy@AuBi](https://galaxyproject.org/use/galaxy-aubi/)
+
+</div>
+
+Galaxy@AuBi includes most standard tools for DNA/RNA analysis and additional ones on project demands.
+</div>
+
 
 <!-- UseGalaxy.* -->
 <div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
@@ -259,13 +279,11 @@ By end of 2021, the European Galaxy server has over 40,000 registered users. Tha
 
 ![usegalaxy-dot-star](/images/galaxy-logos/usegalaxy-dot-star-white.png)
 
-* [Usegalaxy.eu project infrastructure and CVE-2021-44228 vulnerability](https://galaxyproject.eu/posts/2021/12/16/log4j/).
+* Usegalaxy.eu project infrastructure and [CVE-2021-44228 vulnerability](https://galaxyproject.eu/posts/2021/12/16/log4j/).
 
-* [4th de.NBI Cloud User meeting](https://galaxyproject.eu/posts/2021/11/17/4th-denbi-cloud-meeting/).
+* Report about the [4th de.NBI Cloud User meeting](https://galaxyproject.eu/posts/2021/11/17/4th-denbi-cloud-meeting/).
 
 * Lots of tool updates on [UseGalaxy.eu](https://galaxyproject.eu/news?tag=tools) and [UseGalaxy.org.au](https://usegalaxy-au.github.io/galaxy/news.html).
-
-
 
 </div>
 </div>
