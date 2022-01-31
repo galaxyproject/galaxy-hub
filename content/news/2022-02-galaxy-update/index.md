@@ -395,19 +395,29 @@ Galaxy can be deployed on Amazon Lightsail, a compute service available from Ama
 <!-- Outreachy -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 
+![logo Outreachy](/images/logos/outreachy-logo.svg)
+
 <div class="card-header trim-p">
 
 [Outreachy](Outreachy)
 
 </div>
 
+By [Maria Pia](https://firstoutreachy.wordpress.com/2021/12/11/week-1-introduce-yourself/), [Rahmot Afolabi](https://afolabi-rahmot.dreamwidth.org/2021/12/10/) and [Chinonye Mildred Egenti](https://chinonyemildred.com/meet-me/).
 
+The Galaxy project's interns have written a series of blog posts introducing themselves and their experience with the Galaxy ecosystem.
+
+* [Chinonye's experience](https://chinonyemildred.com/my-outreachy-experience/)
+* [Rahmot's experience](https://www.linkedin.com/pulse/my-galaxys-outreachy-contribution-experience-rahmot-afolabi)
+* [Pia's experience](https://firstoutreachy.wordpress.com/2021/11/02/my-experience-with-galaxy-training-network/) 
+* [Galaxy Communities, how many are there?](https://firstoutreachy.wordpress.com/2021/11/02/galaxy-communities-how-many-are-there/) - by Maria Pia
+* [Week 5 :Think About Your Audience](https://firstoutreachy.wordpress.com/2022/01/07/week-5-think-about-your-audience/) - by Maria Pia
 
 </div>
 
 
 <!-- Ross 1 -->
-<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 15rem;">
 
 <div class="card-header trim-p">
 
@@ -423,7 +433,7 @@ Ross guides us through the different ways to contribute to Galaxy. And guess wha
 
 
 <!-- Ross 2 -->
-<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 15rem;">
 
 <div class="card-header trim-p">
 
@@ -439,7 +449,7 @@ Galaxy strives at reproducibility, [read](https://galaxyproject.org/blog/2022-01
 
 
 <!-- Ross 3 -->
-<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 15rem;">
 
 <div class="card-header trim-p">
 
@@ -455,7 +465,7 @@ Ross sees transparent, reproducible open computing as a public good. Find his th
 
 
 <!-- Ross 4 -->
-<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 15rem;">
 
 <div class="card-header trim-p">
 
