@@ -9,10 +9,10 @@ date: "2022-02-01"
 Greetings! 
 
 Happy February! This month's newsletter brings with it a few changes that we want you to be aware of:
-1. As many of you already know, __Dave Clements__ has left Galaxy for an exciting opportunity with Anaconda.  You can find his goodbye blog post, and Anton's parting words to him in the Galactic Blog. He has done so much for the Galaxy Communty, and because he gave so much, it's going to be hard for us to do it without him, without missing him a whole awful lot. 
+1. As many of you already know, __Dave Clements__ has left the Galaxy project for an exciting opportunity with Anaconda.  You can find his goodbye blog post, and Anton's parting words to him in the Galactic Blog. He has done so much for the Galaxy Communty, and because he gave so much, it's going to be hard for us to do it without him, without missing him a whole awful lot. 
 2. __Assunta DeSanto__ has stepped in to help fill in Dave's shoes, as best she can, while we search for a replacement.  Haven't met Assunta yet? That's okay. Check out this introductory blog post!
 3. Going forward, __the Galaxy newsletter will be delivered quarterly__ rather than monthly. This means you'll hear from us less often (boo!), but that the newsletter will be filled with richer content that captures more of the big picture happenings of our Galaxy Community. 
-4. We have a couple of new segments for you: _"Meet the Community"_ blog posts where we introduce core team members and other folk from the wider community, and a section called _"Watch this Next!"_ where we highlight a video from the community. 
+4. We have a couple of new segments for you: _**"Meet the Community"**_ blog posts where we introduce core team members and other folk from the wider community, and a section called _**"Watch this Next!"**_ where we highlight a video from the community. 
 
 
 We are excited to continue delivering the Galactic News to you, albeit less frequently and with one less star in our cluster, but with no less love for our wonderful Galaxy Community. 
@@ -30,12 +30,13 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 <div class="card-deck">
 
 <!-- EOSC-Life industry grant -->
-<div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
+<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
 <div class="trim-p">
 
 ![](/images/logos/eosc_life.png)
 
 </div>
+
 <div class="card-header trim-p">
 
 [Accessible and scalable detection and identification of foodborne pathogens, a project with Biolytix and funded by EOSC-Life](https://galaxyproject.eu/posts/2021/12/08/pathogen-detection-eosc-life-grant/)
@@ -47,19 +48,22 @@ Thanks to funding from EOSC-Life, the Freiburg Galaxy team will work in 2022 wit
 </div>
 
 
-
 <!-- Omicron and SARS-CoV-2 genome surveillance -->
-<div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
+<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
+
 <div class="trim-p">
 
-![](2021-11-29-omicron-variant-plot.png)
+![omicron plot](2021-11-29-omicron-variant-plot.png)
 
 </div>
+
 <div class="card-header">
 
 [Omicron and SARS-CoV-2 genome surveillance](https://galaxyproject.eu/posts/2021/11/29/omicron-and-galaxy/)
 
 </div>
+
+Since November, the new SARS-CoV-2 lineage B.1.1.529 is making the headlines.
 
 Find all the details about the evolution of the Omicron variant and reproduce it yourself using Galaxy!
 
@@ -67,7 +71,7 @@ Find all the details about the evolution of the Omicron variant and reproduce it
 
 
 <!-- Stats help Forum -->
-<div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
+<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
 <div>
 
 ![](/images/galaxy-logos/help-galaxyproject-org-big.png)
@@ -87,7 +91,7 @@ The Galaxy Help Forum (GHelp) is one of the primary meeting places where Galaxy 
 
 
 <!-- Australian BioCommons -->
-<div class="card lead border-info" style="min-width: 35%; max-width: 26rem;">
+<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
 <div>
 
 ![](/images/logos/australian-biocommons-logo-horizontal-transparent.png)
@@ -103,15 +107,11 @@ Matt Padula, a Senior Lecturer at their School of Life Sciences, and Director of
 
 _‘When it comes to actually training students in proteomics you have to develop a whole lot of materials that are specific for certain pipelines and then along comes Galaxy… Galaxy has made life a little bit simpler’_
 
-
-</div>
-
-
 </div>
 
 
 <!-- hiring -->
-<div class="card lead border-info" style="min-width: 22%; max-width: 24rem;">
+<div class="card lead border-info" style="min-width: 40%;">
 <div class="trim-p">
 
 ![Galaxy is Expanding](/images/GalaxyIsExpandingCloud.png)
