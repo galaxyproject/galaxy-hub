@@ -30,7 +30,7 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 <div class="card-deck">
 
 <!-- Omicron and SARS-CoV-2 genome surveillance -->
-<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 24%; max-width: 20rem;">
 
 <div class="trim-p">
 
@@ -52,7 +52,7 @@ Find all the details about the evolution of the Omicron variant and reproduce it
 
 
 <!-- Stats help Forum -->
-<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 24%; max-width: 20rem;">
 <div>
 
 ![](/images/galaxy-logos/help-galaxyproject-org-big.png)
@@ -71,7 +71,7 @@ The Galaxy Help Forum (GHelp) is one of the primary meeting places where Galaxy 
 </div>
 
 <!-- EOSC-Life industry grant -->
-<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 24%; max-width: 20rem;">
 <div class="trim-p">
 
 ![](/images/logos/eosc_life.png)
@@ -90,7 +90,7 @@ Thanks to funding from EOSC-Life, the Freiburg Galaxy team will work in 2022 wit
 
 
 <!-- Australian BioCommons -->
-<div class="card lead border-info" style="min-width: 24%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 24%; max-width: 20rem;">
 <div>
 
 ![](/images/logos/australian-biocommons-logo-horizontal-transparent.png)
@@ -110,7 +110,7 @@ _‘When it comes to actually training students in proteomics you have to develo
 
 
 <!-- hiring -->
-<div class="card lead border-info" style="min-width: 40%;">
+<div class="card border-info" style="min-width: 40%;">
 <div class="trim-p">
 
 ![Galaxy is Expanding](/images/GalaxyIsExpandingCloud.png)
