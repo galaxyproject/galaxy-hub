@@ -311,7 +311,7 @@ Galaxy@AuBi includes most standard tools for DNA/RNA analysis and additional one
 
 By Assunta DeSanto.
 
-Assunta is a developer for Galaxy's UI, want to know more? Check [her introduction](https://galaxyproject.org/blog/2022-01-27-introduce-assunta-desanto/).
+Assunta is a developer for Galaxy's UI, want to know more? Check [her introduction](https://galaxyproject.org/blog/2022-01-27-introduce-assunta-desanto/) on the Galactic Blog.
 
 </div>
 
@@ -374,11 +374,8 @@ Check out the [first GTN tutorial](https://training.galaxyproject.org/training-m
 
 </div>
 
-This release contains the [Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.7.1) and the [Galaxy Tools Visual Studio Code Extension](https://github.com/galaxyproject/galaxy-language-server/tree/master/client).
+Various bug fixes and improved integrated planemo testing experience in the release 0.7.1 of the [Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.7.1) and the [Galaxy Tools Visual Studio Code Extension](https://github.com/galaxyproject/galaxy-language-server/tree/master/client).
 
-The standalone version of the language server is available as a [PyPI package](https://pypi.org/project/galaxy-language-server/).
-
-The Galaxy Tools Extension is available at [Open VSX Registry](https://open-vsx.org/extension/davelopez/galaxy-tools) and [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=davelopez.galaxy-tools).
 </div>
 
 </div>
