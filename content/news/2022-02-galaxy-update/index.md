@@ -1,7 +1,7 @@
 ---
 title: 'February 2022 Galactic News'
 tease: "Change is in the air"
-date: "2022-02-01"
+date: "2022-02-03"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
@@ -330,7 +330,6 @@ By Anton Nekrutenko.
 
 Anton wrote a farewell post to Dave on his last day with the Galaxy project...
 
-
 </div>
 
 
@@ -372,6 +371,106 @@ By Anne Fouilloux.
 Anne gave a training on Climate Sicence in Sweden last November. Find out the [whole story](https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/)!
 
 </div>
+
+<!-- AWS -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="trim-p">
+
+![lightsail](lightsail-galaxy.png)
+
+</div>
+<div class="card-header trim-p">
+
+[How to set up Galaxy for research on AWS using Amazon Lightsail](https://aws.amazon.com/blogs/publicsector/how-to-set-up-galaxy-for-research-on-aws-using-amazon-lightsail/)
+
+</div>
+
+By AWS Public Sector Blog.
+
+Galaxy can be deployed on Amazon Lightsail, a compute service available from Amazon Web Services that allows customers to deploy applications at a predictable monthly cost.
+
+</div>
+
+
+<!-- Outreachy -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+
+<div class="card-header trim-p">
+
+[Outreachy](Outreachy)
+
+</div>
+
+
+
+</div>
+
+
+<!-- Ross 1 -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+
+<div class="card-header trim-p">
+
+[A contributor's guide to the Galaxy](https://galaxyproject.org/blog/2022-01-14-users-guide-to-contribution-ross/)
+
+</div>
+
+By Ross Lazarus.
+
+Ross guides us through the different ways to contribute to Galaxy. And guess what... code is just one way! [Read more](https://galaxyproject.org/blog/2022-01-14-users-guide-to-contribution-ross/).
+
+</div>
+
+
+<!-- Ross 2 -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+
+<div class="card-header trim-p">
+
+[A user's guide to the virtual, automated, computing Lab Notebook in Galaxy](https://galaxyproject.org/blog/2022-01-17-replicating-computation-ross/)
+
+</div>
+
+By Ross Lazarus.
+
+Galaxy strives at reproducibility, [read](https://galaxyproject.org/blog/2022-01-17-replicating-computation-ross/) how to replicate your analysis in a transparent way.
+
+</div>
+
+
+<!-- Ross 3 -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+
+<div class="card-header trim-p">
+
+[Commoditising open computing in Galaxy](https://galaxyproject.org/blog/2022-01-16-open-scientific-computing-ross/)
+
+</div>
+
+By Ross Lazarus.
+
+Ross sees transparent, reproducible open computing as a public good. Find his thoughts in [this blog post](https://galaxyproject.org/blog/2022-01-16-open-scientific-computing-ross/).
+
+</div>
+
+
+<!-- Ross 4 -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+
+<div class="card-header trim-p">
+
+[Galaxy as a sharing infrastructure and how this enables efficient user support](https://galaxyproject.org/blog/2022-01-18-reproducibility-and-support-bjoern/)
+
+</div>
+
+By Bjoern Gruening, Cristóbal Gallardo, Jennifer Hillman-Jackson, Ross Lazarus.
+
+Do you know how to share artifacts in Galaxy and how that helps the support team? Check out [this post](https://galaxyproject.org/blog/2022-01-18-reproducibility-and-support-bjoern/).
+
+</div>
+
+
+
 
 </div>
 
