@@ -300,7 +300,7 @@ Galaxy@AuBi includes most standard tools for DNA/RNA analysis and additional one
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="trim-p">
 
-[![FORCES](/news/2021-11-galaxy-update/logo-forces.png)](https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/)
+[![FORCES](/blog/2022-01-27-introduce-assunta-desanto/adesanto_book_resize.png)](https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/)
 
 </div>
 <div class="card-header trim-p">
@@ -334,8 +334,6 @@ By Anne Fouilloux.
 Anne gave a training on Climate Sicence in Sweden last November. Find out the [whole story](https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/)!
 
 </div>
-
-
 
 </div>
 
