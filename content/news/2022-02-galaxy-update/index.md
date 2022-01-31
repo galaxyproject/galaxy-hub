@@ -293,14 +293,52 @@ Galaxy@AuBi includes most standard tools for DNA/RNA analysis and additional one
 
 <div class="card-deck">
 
+<!-- Post Dave -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="trim-p">
 
+![Dave profile pic](/images/people/dave-clements/dave-clements-150.jpg)
+
+</div>
+<div class="card-header trim-p">
+
+[Thanks, for absolutely everything.](https://galaxyproject.org/blog/2021-12-clements/)
+
+</div>
+
+By Dave Clements.
+
+Dave's last day with the Galaxy project was last December 17 to join Anaconda as Open Source Community Manager.
+
+</div>
+
+
+<!-- Post Anton -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="trim-p">
+
+![Dave at GCC 2011](/blog/2021-12-davec-founder-galaxy-community/dave_gcc2011.png)
+
+</div>
+<div class="card-header trim-p">
+
+[DaveC: The founder of Galaxy Community](https://galaxyproject.org/blog/2021-12-davec-founder-galaxy-community/)
+
+</div>
+
+By Anton Nekrutenko.
+
+Anton wrote a farewell post to Dave on his last day with the Galaxy project...
+
+
+</div>
 
 
 <!-- Meet the community -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="trim-p">
 
-[![FORCES](/blog/2022-01-27-introduce-assunta-desanto/adesanto_book_resize.png)](https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/)
+[![Assunta](/blog/2022-01-27-introduce-assunta-desanto/adesanto_book_resize.png)](https://galaxyproject.org/blog/2022-01-27-introduce-assunta-desanto/)
 
 </div>
 <div class="card-header trim-p">
