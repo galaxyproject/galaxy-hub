@@ -203,7 +203,7 @@ We will be on Gitter for chat all day long, please take advantage of both to com
 
 <!-- GalaxyIntro -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
-<div class="trim-p">
+<div>
 
 ![GalaxyIntro](https://www.sib.swiss//templates/sib/images/SIB_LogoQ_GBv.svg)
 
