@@ -153,7 +153,7 @@ See all [upcoming events here](/events/index.md):
 </div>
 <div class="card-header trim-p">
 
-[GTN Smörgåsbord 2: 14-18 March](https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/)
+[GTN Smörgåsbord 2](https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/)
 
 </div>
 
@@ -236,7 +236,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div>
 
-![](/images/galaxy-logos/usegalaxy.eu.256.png)
+![logo usegalaxy.eu](/images/galaxy-logos/usegalaxy.eu.256.png)
 
 </div>
 <div class="card-header trim-p">
@@ -294,6 +294,28 @@ Galaxy@AuBi includes most standard tools for DNA/RNA analysis and additional one
 <div class="card-deck">
 
 
+
+
+<!-- Meet the community -->
+<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="trim-p">
+
+[![FORCES](/news/2021-11-galaxy-update/logo-forces.png)](https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/)
+
+</div>
+<div class="card-header trim-p">
+
+[Meet the Community: Assunta DeSanto](https://galaxyproject.org/blog/2022-01-27-introduce-assunta-desanto/)
+
+</div>
+
+By Assunta DeSanto.
+
+Assunta is a developer for Galaxy's UI, want to know more? Check [her introduction](https://galaxyproject.org/blog/2022-01-27-introduce-assunta-desanto/).
+
+</div>
+
+
 <!-- TIaaS feedback -->
 <div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
 <div class="trim-p">
@@ -312,6 +334,7 @@ By Anne Fouilloux.
 Anne gave a training on Climate Sicence in Sweden last November. Find out the [whole story](https://galaxyproject.eu/posts/2021/11/13/tiaas-anne/)!
 
 </div>
+
 
 
 </div>
@@ -347,11 +370,11 @@ Check out the [first GTN tutorial](https://training.galaxyproject.org/training-m
 <div class="card border-info" style="min-width: 30%; max-width: 22rem;">
 <div class="card-header trim-p">
 
-[Galaxy Language Server 0.6.1](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.6.1)
+[Galaxy Language Server 0.7.1](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.7.1)
 
 </div>
 
-This release contains the [Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server) and the [Galaxy Tools Visual Studio Code Extension](https://github.com/galaxyproject/galaxy-language-server/tree/master/client).
+This release contains the [Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.7.1) and the [Galaxy Tools Visual Studio Code Extension](https://github.com/galaxyproject/galaxy-language-server/tree/master/client).
 
 The standalone version of the language server is available as a [PyPI package](https://pypi.org/project/galaxy-language-server/).
 
