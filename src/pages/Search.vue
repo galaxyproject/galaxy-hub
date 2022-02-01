@@ -13,7 +13,8 @@
                             style="width: 11rem"
                             src="/images/undraw-illustrations/galactic-search.svg"
                             fluid
-                            alt="Galactic search"></b-img>
+                            alt="Galactic search"
+                        ></b-img>
                     </b-col>
                 </b-row>
                 <b-tabs v-if="query != ''">
