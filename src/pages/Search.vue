@@ -51,8 +51,14 @@
                 </b-tabs>
                 <b-row v-else>
                     <b-col cols="12">
-                        <b-form action="/search/">
-                            <b-form-input id="input-1" name="q" placeholder="Search" required></b-form-input>
+                        <b-form @submit.prevent="initSearch">
+                            <b-form-input
+                                v-model="query"
+                                id="input-1"
+                                name="q"
+                                placeholder="Search"
+                                required
+                            ></b-form-input>
                         </b-form>
                     </b-col>
                 </b-row>
@@ -72,40 +78,42 @@ export default {
         };
     },
     mounted() {
-        createGoogleSearch();
-        zoteroSearchOnLoad(this);
+        let match = RegExp("[?&]q=([^&]*)").exec(window.location.search);
+        let query = match && decodeURIComponent(match[1].replace(/\+/g, " "));
+        if (query) {
+            this.query = query;
+            let searchInput = document.getElementById("search-input");
+            searchInput.value = this.query;
+            this.initSearch();
+        }
+    },
+    methods: {
+        createGoogleSearch() {
+            var cx = "007594916903876912968:w0nrox8rzzy";
+            var gcse = document.createElement("script");
+            gcse.type = "text/javascript";
+            gcse.async = true;
+            gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(gcse, s);
+        },
+        zoteroSearch() {
+            axios
+                .get(`https://api.zotero.org/groups/1732893/items/top?start=0&limit=25&q=${query}`)
+                .then((response) => {
+                    this.zoteroResults = response.data;
+                })
+                .catch((error) => {
+                    console.error("Zotero search failed:", error);
+                    this.error = error;
+                });
+        },
+        initSearch() {
+            this.createGoogleSearch();
+            this.zoteroSearch();
+        },
     },
 };
-function createGoogleSearch() {
-    var cx = "007594916903876912968:w0nrox8rzzy";
-    var gcse = document.createElement("script");
-    gcse.type = "text/javascript";
-    gcse.async = true;
-    gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(gcse, s);
-}
-function zoteroSearchOnLoad(instance) {
-    let match = RegExp("[?&]q=([^&]*)").exec(window.location.search);
-    let query = match && decodeURIComponent(match[1].replace(/\+/g, " "));
-    if (query) {
-        instance.query = query;
-    } else {
-        console.error("Could not find a search query in the page url.");
-        return;
-    }
-    let searchInput = document.getElementById("search-input");
-    searchInput.value = query;
-    axios
-        .get(`https://api.zotero.org/groups/1732893/items/top?start=0&limit=25&q=${query}`)
-        .then((response) => {
-            instance.zoteroResults = response.data;
-        })
-        .catch((error) => {
-            console.error("Zotero search failed:", error);
-            instance.error = error;
-        });
-}
 </script>
 
 <page-query>
