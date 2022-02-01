@@ -9,8 +9,8 @@ date: "2022-02-03"
 Greetings! 
 
 Happy February! This month's newsletter brings with it a few changes that we want you to be aware of:
-1. As many of you already know, __Dave Clements__ has left the Galaxy project for an exciting opportunity with Anaconda.  You can find his goodbye blog post, and Anton's parting words to him in the Galactic Blog. He has done so much for the Galaxy Communty, and because he gave so much, it's going to be hard for us to do it without him, without missing him a whole awful lot. 
-2. __Assunta DeSanto__ has stepped in to help fill in Dave's shoes, as best she can, while we search for a replacement.  Haven't met Assunta yet? That's okay. Check out this introductory blog post!
+1. As many of you already know, __Dave Clements__ has left the Galaxy project for an exciting opportunity with Anaconda.  You can find his [goodbye blog post](https://galaxyproject.org/blog/2021-12-clements/), and [Anton's parting words](https://galaxyproject.org/blog/2021-12-davec-founder-galaxy-community/) to him in the Galactic Blog. He has done so much for the Galaxy Communty, and because he gave so much, it's going to be hard for us to do it without him, without missing him a whole awful lot. 
+2. __Assunta DeSanto__ has stepped in to help fill in Dave's shoes, as best she can, while we search for a replacement.  Haven't met Assunta yet? That's okay. Check out this [introductory blog post](https://galaxyproject.org/blog/2022-01-27-introduce-assunta-desanto/)!
 3. Going forward, __the Galaxy newsletter will be delivered quarterly__ rather than monthly. This means you'll hear from us less often (boo!), but that the newsletter will be filled with richer content that captures more of the big picture happenings of our Galaxy Community. 
 4. We have a couple of new segments for you: _**"Meet the Community"**_ blog posts where we introduce core team members and other folk from the wider community, and a section called _**"Watch this Next!"**_ where we highlight a video from the community. 
 
@@ -24,9 +24,55 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 ---
 
+# Watch this Next!
+
+This quarter's highlighted video is ____: 
+
+**TODO: embed video from youtube**
+
+For more Galaxy video content, visit our [Youtube Channel](https://www.youtube.com/c/GalaxyProject)!
+
+<div class="card-deck">
+
+<!-- Sunsetting Round Tables -->
+<div class="card border-info" style="min-width: 24%; max-width: 20rem;">
+
+<div class="trim-p">
+
+![2021Stats](https://matrix-client.matrix.org/_matrix/media/r0/download/matrix.org/JvklouOAQRqXdVeCxbAPmddN)
+
+</div>
+
+Also, we're delighted to share how far reaching and helpful our videos have been for so many.
+
+
+</div>
+</div>
+
+
 # Community News
 
 <div class="card-deck">
+
+<!-- Sunsetting Round Tables -->
+<div class="card border-info" style="min-width: 24%; max-width: 20rem;">
+
+<div class="trim-p">
+
+![RoundTables](https://galaxyproject.org/images/galaxy-logos/galaxy-developer-roundtable-300.png)
+
+</div>
+
+<div class="card-header">
+
+[Goodbye Dev Roundtables](https://galaxyproject.org/blog/2022-01-27-disbanding-roundtables/)
+
+</div>
+
+Working Groups have changed the way Galaxy operates, for the better. One of those changes is that the need for roundtable talks has largely disappeared, as working group meetings are covering the topics that used to be reserved for round tables. Because of that, we are saying goodbye to developer roundtable talks.
+
+
+</div>
 
 <!-- Omicron and SARS-CoV-2 genome surveillance -->
 <div class="card border-info" style="min-width: 24%; max-width: 20rem;">
@@ -142,6 +188,65 @@ See all [upcoming events here](/events/index.md):
 
 <div class="card-deck">
 
+<!-- Bulk RNASeq -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
+
+![BulkRNASeq](https://training.vib.be/themes/vibcourses/logo.svg)
+
+</div>
+<div class="card-header trim-p">
+
+[Bulk RNASeq: from counts to differential expression](https://training.vib.be/all-trainings/bulk-rnaseq-counts-differential-expression-online-1)
+
+</div>
+
+
+**4 February, Online**
+
+Explore your transcriptomics experiments 
+
+</div>
+
+<!-- HTS data analysis  -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
+
+![HTSDataAnalysis](https://galaxyproject.eu/assets/media/freiburg-galaxy.svg)
+
+</div>
+<div class="card-header trim-p">
+
+[Galaxy HTS Data Analysis Workshop](https://galaxyproject.eu/event/2021-12-23-GalaxyWS_SFB/)
+
+</div>
+
+
+**21-25 February, Online**
+
+We are offering a Galaxy workshop on high-throughput data analysis. This is an online course and is limited to the members CRC 1425, CRC 992 and MeInBio.
+
+</div>
+
+<!-- Single-cellRNASeq  -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="trim-p">
+
+![singlecellRNASeq](https://acxngcvroo.cloudimg.io/v7/https://trainingcontent.embl.org/themes/custom/ebi_academy/images/mastheads/Off_Site_1.jpg)
+
+</div>
+<div class="card-header trim-p">
+
+[Single-cell RNA-seq analysis using Galaxy](https://www.ebi.ac.uk/training/events/single-cell-rna-seq-analysis-using-galaxy-2022/)
+
+</div>
+
+
+**7-11 March, Online**
+
+Participants will be guided through the droplet-based scRNA-seq analysis pipelines from raw reads to trajectories, for mammalian and plant genomes.
+
+</div>
 
 <!-- smorgasbord -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
@@ -198,6 +303,25 @@ The ins and outs of setting up your own production quality Galaxy server. Online
 Please join us for the CoFest day on the third Thursday of each month (February 17, March 17, and April 21) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
 We will be on Gitter for chat all day long, please take advantage of both to communicate with your collaborators around the world.
+
+</div>
+
+<!-- SmallScaleAdmins -->
+<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div>
+
+![SmallScaleAdmins](https://galaxyproject.org/images/galaxy_logo.svg)
+
+</div>
+<div class="card-header trim-p">
+
+[Small Scale Galaxy Admins Meeting](https://galaxyproject.org/events/2022-03-small-scale/)
+
+</div>
+
+**15 March**
+
+Please join us at 4 PM CET [(see in your timezone)](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Small+Scale+Galaxy+Admins+Meeting&iso=20220315T16&p1=1229&ah=1) for a discussion about 'Facilitating Galaxy login and accounts with Azure AD'. There will also be time to discuss any current problems you encounter as a maintainer of a Galaxy server.
 
 </div>
 
@@ -344,13 +468,13 @@ Anton wrote a farewell post to Dave on his last day with the Galaxy project...
 </div>
 <div class="card-header trim-p">
 
-[Meet the Community: Assunta DeSanto](https://galaxyproject.org/blog/2022-01-27-introduce-assunta-desanto/)
+[**Meet the Community**: Assunta DeSanto](https://galaxyproject.org/blog/2022-01-27-introduce-assunta-desanto/)
 
 </div>
 
 By Assunta DeSanto.
 
-Assunta is a developer for Galaxy's UI, want to know more? Check [her introduction](https://galaxyproject.org/blog/2022-01-27-introduce-assunta-desanto/) on the Galactic Blog.
+Assunta is a developer for Galaxy's UI, want to know more? Check out [her introduction](https://galaxyproject.org/blog/2022-01-27-introduce-assunta-desanto/) on the Galactic Blog.
 
 </div>
 
