@@ -638,23 +638,3 @@ Various bug fixes and improved integrated planemo testing experience in the rele
 </div>
 
 </div>
-
-
-
-# Other News
-
-<div class="card-deck">
-
-<!-- New brochure from ELIXIR Germany -->
-<div class="card lead border-info" style="min-width: 15%; max-width: 100%;">
-<div class="card-header trim-p">
-
-[New brochure from ELIXIR Germany](https://galaxyproject.eu/posts/2021/10/06/elixir-de-brochure/)
-
-</div>
-
-ELIXIR Germany has published the handout “ELIXIR GERMANY - Shaping the Bioinformatics Infrastructure for Life Sciences in Europe”.
-
-</div>
-
-</div>
