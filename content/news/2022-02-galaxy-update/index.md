@@ -20,7 +20,6 @@ We are excited to continue delivering the Galactic News to you, albeit less freq
 Beatriz Serrano-Solano and Assunta DeSanto, Editors
 
 
-
 PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.org/?count=100&all-lists=) and receive an email whenever this newsletter is published.
 
 ---
@@ -481,7 +480,6 @@ By Bjoern Gruening, Cristóbal Gallardo, Jennifer Hillman-Jackson, Ross Lazarus.
 Do you know how to share artifacts in Galaxy and how that helps the support team? Check out [this post](https://galaxyproject.org/blog/2022-01-18-reproducibility-and-support-bjoern/).
 
 </div>
-
 </div>
 
 
@@ -598,7 +596,7 @@ The GTN does a lot of work to adhere to the best practices for FAIR training mat
 
 </div>
 
-There are new tutorials and updated/new slides in the GTN, including a new collection of training material for genome assembly and annotation focused on the complete analysis of the genome of a fungus species (Mucor mucedo).
+There are new tutorials and updated/new slides in the GTN, including a new collection of training material for genome assembly and annotation focused on the complete analysis of the genome of a fungus species (_Mucor mucedo_).
 
 </div>
 
@@ -626,7 +624,7 @@ Funding Agencies and Grants can be recognised include a funding statement descri
 <div class="card-deck">
 
 <!-- Gravity -->
-<div class="card border-info" style="min-width: 30%; max-width: 22rem;">
+<div class="card border-info" style="min-width: 30%; max-width: 70%;">
 <div class="card-header trim-p">
 
 [Gravity 0.9.0](https://github.com/galaxyproject/gravity)
@@ -642,7 +640,7 @@ Galaxy 22.01 has added Gravity as a dependency, and changes have been made to Gr
 
 
 <!-- GLS -->
-<div class="card border-info" style="min-width: 30%; max-width: 22rem;">
+<div class="card border-info" style="min-width: 30%; max-width: 30%;">
 <div class="card-header trim-p">
 
 [Galaxy Language Server 0.7.1](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.7.1)
@@ -652,6 +650,4 @@ Galaxy 22.01 has added Gravity as a dependency, and changes have been made to Gr
 Various bug fixes and improved integrated planemo testing experience in the release 0.7.1 of the [Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.7.1) and the [Galaxy Tools Visual Studio Code Extension](https://github.com/galaxyproject/galaxy-language-server/tree/master/client).
 
 </div>
-
-
 </div>
