@@ -2,18 +2,21 @@
     <Layout>
         <div class="col-md-12">
             <section class="section-content">
-                <h1 class="page-title">{{ $page.main.title }}</h1>
-                <b-row>
-                    <div class="blurb markdown" v-html="$page.main.content" />
-                    <b-img
-                        class="m-3"
-                        style="width: 11rem"
-                        src="/images/undraw-illustrations/galactic-search.svg"
-                        fluid
-                        alt="Galactic search"
-                    ></b-img>
+                <b-row class="mb-4">
+                    <b-col cols="8">
+                        <h1 class="page-title">{{ $page.main.title }}</h1>
+                        <div class="blurb markdown" v-html="$page.main.content" />
+                    </b-col>
+                    <b-col cols="4">
+                        <b-img
+                            class="m-3"
+                            style="width: 11rem"
+                            src="/images/undraw-illustrations/galactic-search.svg"
+                            fluid
+                            alt="Galactic search"></b-img>
+                    </b-col>
                 </b-row>
-                <b-tabs>
+                <b-tabs v-if="query != ''">
                     <b-tab title="Pan-Galactic Google Search">
                         <gcse:searchresults-only></gcse:searchresults-only>
                     </b-tab>
@@ -45,6 +48,13 @@
                         </p>
                     </b-tab>
                 </b-tabs>
+                <b-row v-else>
+                    <b-col cols="12">
+                        <b-form action="/search/">
+                            <b-form-input id="input-1" name="q" placeholder="Search" required></b-form-input>
+                        </b-form>
+                    </b-col>
+                </b-row>
             </section>
         </div>
     </Layout>
