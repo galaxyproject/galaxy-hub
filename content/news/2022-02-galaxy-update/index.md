@@ -399,7 +399,7 @@ Galaxy can be deployed on Amazon Lightsail, a compute service available from Ama
 
 <div class="card-header trim-p">
 
-[Outreachy](Outreachy)
+[Updates from our Outreachy interns](https://www.outreachy.org/outreachy-december-2021-internship-round)
 
 </div>
 
