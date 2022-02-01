@@ -233,7 +233,7 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 
 <!-- Usegalaxy.eu surpassed 40K users -->
-<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 35%; max-width: 20rem;">
 <div>
 
 ![logo usegalaxy.eu](/images/galaxy-logos/usegalaxy.eu.256.png)
@@ -253,7 +253,7 @@ By end of 2021, the European Galaxy server has over 40,000 registered users. Tha
 
 
 <!-- Galaxy@AuBi -->
-<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 25%; max-width: 20rem;">
 <div>
 
 ![logo mesocentre](/images/logos/UCA_mesocentre.png)
@@ -270,7 +270,7 @@ Galaxy@AuBi includes most standard tools for DNA/RNA analysis and additional one
 
 
 <!-- UseGalaxy.* -->
-<div class="card border-info"  style="min-width: 12rem; max-width: 22rem;">
+<div class="card border-info"  style="min-width: 25%; max-width: 22rem;">
 <div class="card-header trim-p">
 
 [UseGalaxy.*](/usegalaxy/index.md) News
@@ -294,7 +294,7 @@ Galaxy@AuBi includes most standard tools for DNA/RNA analysis and additional one
 <div class="card-deck">
 
 <!-- Post Dave -->
-<div class="card border-info" style="min-width: 14rem; max-width: 22rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 22rem;">
 <div class="trim-p">
 
 ![Dave profile pic](/images/people/dave-clements/dave-clements-150.jpg)
@@ -465,7 +465,7 @@ Ross sees transparent, reproducible open computing as a public good. Find his th
 
 
 <!-- Ross 4 -->
-<div class="card border-info" style="min-width: 12rem; max-width: 15rem;">
+<div class="card border-info" style="min-width: 12rem; max-width: 100%;">
 
 <div class="card-header trim-p">
 
@@ -479,9 +479,6 @@ Do you know how to share artifacts in Galaxy and how that helps the support team
 
 </div>
 
-
-
-
 </div>
 
 
@@ -489,18 +486,132 @@ Do you know how to share artifacts in Galaxy and how that helps the support team
 
 <div class="card-deck">
 
-<!-- Automatic Jupyter Notebooks -->
+<!-- Hub restructuring -->
 <div class="card border-info" style="min-width: 30%; max-width: 24rem;">
-
-[![New Feature: Automatic Jupyter Notebooks](/images/news/2021-10-galaxy-update/jupyter-notebook.png)](/images/news/2021-10-galaxy-update/jupyter-notebook.png)
 
 <div class="card-header trim-p">
 
-[Automatic Jupyter Notebooks](https://training.galaxyproject.org/training-material/news/2021/09/24/jupyter.html)
+[Content restructuring of the Community Hub](https://galaxyproject.org/)
 
 </div>
 
-Check out the [first GTN tutorial](https://training.galaxyproject.org/training-material/topics/data-science/tutorials/cli-basics/tutorial.html) to use Jupyter notebooks for coding and the command line, and that themselves run inside Galaxy.  (It's OK, you can read that sentence again.)  Using Jupyter notebooks greatly reduces the cutting and pasting in these.  See the [full announcement](https://training.galaxyproject.org/training-material/news/2021/09/24/jupyter.html) for details and link to documentation on how to use this approach.
+We are working on restructuring the content of the Galaxy Community Hub, tailoring the content to the different users profiles:
+
+* Scientists
+* Trainers
+* Tools Authors
+* Developers
+* Admins
+
+<div class="trim-p">
+
+![Hub profiles](hub-profiles.png)
+
+</div>
+
+</div>
+
+
+<!-- OpenAPI 3 specifications -->
+<div class="card border-info" style="min-width: 30%; max-width: 24rem;">
+
+<div class="card-header trim-p">
+
+[New Feature: GTN API with OpenAPI 3 specification](https://training.galaxyproject.org/training-material/news/2021/11/10/api.html)
+
+</div>
+
+The GTN has exposed an API with a lot of the metadata from the GTN allowing you to list tutorials, find topics and tutorials that are interesting, and render these in external sites or use in a programatic way. [Check out the API now!](https://training.galaxyproject.org/training-material/api/)
+
+[![New Feature: GTN API with OpenAPI 3 specification](swagger.png)](https://training.galaxyproject.org/training-material/news/2021/11/10/api.html)
+
+
+</div>
+
+<!-- GTN Video library -->
+<div class="card border-info" style="min-width: 30%; max-width: 24rem;">
+
+<div class="card-header trim-p">
+
+[New Feature: GTN Video Library](https://training.galaxyproject.org/training-material/news/2021/11/23/video-library.html)
+
+</div>
+
+The online events in the past year have developed into a large collection of training videos around the GTN materials, created by the Galaxy community.
+
+To make these videos easier to find, the GTN now list the available videos in the overview box at the top of each tutorial.
+
+<div class="trim-p">
+
+[![New Feature: GTN Video Library](gtn-videolib2.gif)](https://training.galaxyproject.org/training-material/news/2021/11/23/video-library.html)
+
+</div>
+
+</div>
+
+
+<!-- GTN Course Builder -->
+<div class="card border-info" style="min-width: 30%; max-width: 24rem;">
+
+<div class="card-header trim-p">
+
+[GTN Course Builder Beta](https://gallantries.github.io/video-library/course-builder)
+
+</div>
+
+You can now create your own course with the videos in the GTN Video Library thanks to the [Course Builder](https://gallantries.github.io/video-library/course-builder). Select videos, arrange them in your preferred order, set up times and and voilà! You have your training ready to go! 
+
+[![GTN Course Builder Beta](gtn-course-builder.png)](https://gallantries.github.io/video-library/course-builder)
+
+</div>
+
+
+<!-- New FAQs -->
+<div class="card border-info" style="min-width: 30%; max-width: 24rem;">
+
+[![New FAQs: How does the GTN stay FAIR and Collaborative](/images/galaxy-logos/GTNLogo300.png)](https://training.galaxyproject.org/training-material/news/2021/12/01/FAIR.html)
+
+<div class="card-header trim-p">
+
+[New FAQs: How does the GTN stay FAIR and Collaborative](https://training.galaxyproject.org/training-material/news/2021/12/01/FAIR.html)
+
+</div>
+
+The GTN does a lot of work to adhere to the best practices for FAIR training materials in an automatic way derived from its infrastructure. [Find out](https://training.galaxyproject.org/training-material/faqs/gtn/collaborative_development.html) how contributing simple markdown tutorials can result in fantastically FAIR training.
+
+</div>
+
+
+<!-- Updates & new tutorials -->
+<div class="card border-info" style="min-width: 30%; max-width: 24rem;">
+
+
+[![New FAQs: How does the GTN stay FAIR and Collaborative](funannotate_jbrowse.png)](https://training.galaxyproject.org/training-material/news/2021/12/01/assembly-annotation.html)
+
+
+<div class="card-header trim-p">
+
+[New Tutorials: PacBio data QC and Genome Assembly, and Genome Annotation with Funannotate](https://training.galaxyproject.org/training-material/news/2021/12/01/assembly-annotation.html)
+
+</div>
+
+There are new tutorials and updated/new slides in the GTN, including a new collection of training material for genome assembly and annotation focused on the complete analysis of the genome of a fungus species (Mucor mucedo).
+
+</div>
+
+
+<!-- Support for annotating Funding Agencies -->
+<div class="card border-info" style="min-width: 30%; max-width: 100%;">
+
+<div class="card-header trim-p">
+
+[GTN support for annotating funding agencies](https://training.galaxyproject.org/training-material/news/2021/12/14/funding.html)
+
+</div>
+
+The GTN supports annotating Funding Agencies on training materials to better recognise all of the sources of contribution.
+
+Funding Agencies and Grants can be recognised include a funding statement describing their contributions or the specific award number. 
 
 </div>
 
