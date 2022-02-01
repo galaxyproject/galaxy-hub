@@ -79,6 +79,10 @@ export default {
         };
     },
     mounted() {
+        /*
+         *  On mount, check to see if we ended up here with a 'q' query string,
+         *  set values as appropriate and render search results.
+         */
         let match = RegExp("[?&]q=([^&]*)").exec(window.location.search);
         let query = match && decodeURIComponent(match[1].replace(/\+/g, " "));
         if (query) {
@@ -108,6 +112,11 @@ export default {
                 });
         },
         initSearch() {
+            /*
+             *  Check to see if there's searchInput (from the big search box); if
+             *  so, set query string and internal vars prior to reflecting search
+             *  to masthead box and then kicking off the search.
+             */
             if (this.searchInput) {
                 this.query = this.searchInput;
                 this.$router.push({
