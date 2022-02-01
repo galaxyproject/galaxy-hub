@@ -625,6 +625,22 @@ Funding Agencies and Grants can be recognised include a funding statement descri
 
 <div class="card-deck">
 
+<!-- Gravity -->
+<div class="card border-info" style="min-width: 30%; max-width: 22rem;">
+<div class="card-header trim-p">
+
+[Gravity 0.9.0](https://github.com/galaxyproject/gravity)
+
+</div>
+
+Galaxy 22.01 has added Gravity as a dependency, and changes have been made to Gravity to support this mode of operation, dropping support for running Galaxy with uWSGI in favor of gunicorn and FastAPI.
+- Gravity 0.9.0 cannot be used with Galaxy versions older than 22.01.
+- As of Galaxy 22.01, Gravity is automatically installed into Galaxy's virtualenv by Galaxy's setup scripts.
+-Galaxy's setup scripts keep each Galaxy instance's Gravity configuration separate.
+
+</div>
+
+
 <!-- GLS -->
 <div class="card border-info" style="min-width: 30%; max-width: 22rem;">
 <div class="card-header trim-p">
@@ -636,5 +652,6 @@ Funding Agencies and Grants can be recognised include a funding statement descri
 Various bug fixes and improved integrated planemo testing experience in the release 0.7.1 of the [Galaxy Language Server](https://github.com/galaxyproject/galaxy-language-server/releases/tag/v0.7.1) and the [Galaxy Tools Visual Studio Code Extension](https://github.com/galaxyproject/galaxy-language-server/tree/master/client).
 
 </div>
+
 
 </div>
