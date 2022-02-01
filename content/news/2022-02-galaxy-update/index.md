@@ -266,11 +266,12 @@ By end of 2021, the European Galaxy server has over 40,000 registered users. Tha
 </div>
 
 Galaxy@AuBi includes most standard tools for DNA/RNA analysis and additional ones on project demands.
+
 </div>
 
 
 <!-- UseGalaxy.* -->
-<div class="card border-info"  style="min-width: 25%; max-width: 22rem;">
+<div class="card border-info"  style="min-width: 25%; max-width: 20rem;">
 <div class="card-header trim-p">
 
 [UseGalaxy.*](/usegalaxy/index.md) News
@@ -278,6 +279,8 @@ Galaxy@AuBi includes most standard tools for DNA/RNA analysis and additional one
 </div>
 
 ![usegalaxy-dot-star](/images/galaxy-logos/usegalaxy-dot-star-white.png)
+
+* The infrastructure where Galaxy is hosted at the University of Freiburg [has been awarded with the international certification for information security management systems (ISMS) ISO/IEC 27001](https://www.pr.uni-freiburg.de/pm-en/press-releases-2022/university-of-freiburg2019s-it-security-management-certified-by-tuv-sud?set_language=en), and by doing so affirms that the IT environment meets key security objectives: confidentiality, integrity and availability of research data.
 
 * Usegalaxy.eu project infrastructure and [CVE-2021-44228 vulnerability](https://galaxyproject.eu/posts/2021/12/16/log4j/).
 
