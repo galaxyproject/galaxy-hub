@@ -53,7 +53,7 @@
                     <b-col cols="12">
                         <b-form @submit.prevent="initSearch">
                             <b-form-input
-                                v-model="query"
+                                v-model="searchInput"
                                 id="input-1"
                                 name="q"
                                 placeholder="Search"
@@ -73,6 +73,7 @@ export default {
     data() {
         return {
             query: "",
+            searchInput: "",
             zoteroResults: null,
             error: null,
         };
@@ -82,8 +83,6 @@ export default {
         let query = match && decodeURIComponent(match[1].replace(/\+/g, " "));
         if (query) {
             this.query = query;
-            let searchInput = document.getElementById("search-input");
-            searchInput.value = this.query;
             this.initSearch();
         }
     },
@@ -99,7 +98,7 @@ export default {
         },
         zoteroSearch() {
             axios
-                .get(`https://api.zotero.org/groups/1732893/items/top?start=0&limit=25&q=${query}`)
+                .get(`https://api.zotero.org/groups/1732893/items/top?start=0&limit=25&q=${this.query}`)
                 .then((response) => {
                     this.zoteroResults = response.data;
                 })
@@ -109,6 +108,14 @@ export default {
                 });
         },
         initSearch() {
+            if (this.searchInput) {
+                this.query = this.searchInput;
+                this.$router.push({
+                    query: { q: this.query },
+                });
+            }
+            let searchInputField = document.getElementById("search-input");
+            searchInputField.value = this.query;
             this.createGoogleSearch();
             this.zoteroSearch();
         },
