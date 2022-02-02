@@ -1,7 +1,7 @@
 ---
 title: 'February 2022 Galactic News'
 tease: "Change is in the air"
-date: "2022-02-03"
+date: "2022-02-02"
 ---
 
 <a href="/src/galaxy-updates/index.md"><img class="float-right" src="/src/images/galaxy-logos/GalaxyNews.png" alt="Galaxy News"  style="max-width: 15rem;" /></a>
