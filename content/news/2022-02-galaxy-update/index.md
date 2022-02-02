@@ -26,9 +26,9 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 # Watch this Next!
 
-This quarter's highlighted video is ____: 
+This quarter's highlighted video is **Your First Galaxy Analysis* by Dave Clements: 
 
-**TODO: embed video from youtube**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1UPCrQxGwcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For more Galaxy video content, visit our [Youtube Channel](https://www.youtube.com/c/GalaxyProject)!
 
