@@ -164,11 +164,13 @@ See all [upcoming events here](/events/index.md):
 
 <!-- Bulk RNASeq -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
-<div class="trim-p">
 
-![BulkRNASeq](https://training.vib.be/themes/vibcourses/logo.svg)
+<div class="trim-p expand-img">
+
+![VIB logo](/images/logos/vib-logo-large.jpg)
 
 </div>
+
 <div class="card-header trim-p">
 
 [Bulk RNASeq: from counts to differential expression](https://training.vib.be/all-trainings/bulk-rnaseq-counts-differential-expression-online-1)
@@ -330,11 +332,9 @@ The [Galaxy Platform Directory](/use/index.md) lists resources for easily runnin
 
 <!-- Usegalaxy.eu surpassed 40K users -->
 <div class="card border-info" style="min-width: 35%; max-width: 20rem;">
-<div>
 
 ![logo usegalaxy.eu](/images/galaxy-logos/usegalaxy.eu.256.png)
 
-</div>
 <div class="card-header trim-p">
 
 [Usegalaxy.eu surpassed 40,000 registered users](https://galaxyproject.eu/posts/2022/01/20/reached-4000-users/)
@@ -349,12 +349,14 @@ By end of 2021, the European Galaxy server has over 40,000 registered users. Tha
 
 
 <!-- Galaxy@AuBi -->
-<div class="card border-info" style="min-width: 25%; max-width: 20rem;">
-<div>
+<div class="card border-info" style="min-width: 20%; max-width: 30%;">
+
+<div class="expand-img">
 
 ![logo mesocentre](/images/logos/UCA_mesocentre.png)
 
 </div>
+
 <div class="card-header trim-p">
 
 [New Platform: Galaxy@AuBi](https://galaxyproject.org/use/galaxy-aubi/)
@@ -394,7 +396,7 @@ Galaxy@AuBi includes most standard tools for DNA/RNA analysis and additional one
 
 <!-- Post Dave -->
 <div class="card border-info" style="min-width: 12rem; max-width: 22rem;">
-<div class="trim-p">
+<div class="trim-p expand-img">
 
 ![Dave profile pic](/images/people/dave-clements/dave-clements-150.jpg)
 
