@@ -2,18 +2,22 @@
     <Layout>
         <div class="col-md-12">
             <section class="section-content">
-                <h1 class="page-title">{{ $page.main.title }}</h1>
-                <b-row>
-                    <div class="blurb markdown" v-html="$page.main.content" />
-                    <b-img
-                        class="m-3"
-                        style="width: 11rem"
-                        src="/images/undraw-illustrations/galactic-search.svg"
-                        fluid
-                        alt="Galactic search"
-                    ></b-img>
+                <b-row class="mb-4">
+                    <b-col cols="8">
+                        <h1 class="page-title">{{ $page.main.title }}</h1>
+                        <div class="blurb markdown" v-html="$page.main.content" />
+                    </b-col>
+                    <b-col cols="4">
+                        <b-img
+                            class="m-3"
+                            style="width: 11rem"
+                            src="/images/undraw-illustrations/galactic-search.svg"
+                            fluid
+                            alt="Galactic search"
+                        ></b-img>
+                    </b-col>
                 </b-row>
-                <b-tabs>
+                <b-tabs v-if="query != ''">
                     <b-tab title="Pan-Galactic Google Search">
                         <gcse:searchresults-only></gcse:searchresults-only>
                     </b-tab>
@@ -45,6 +49,19 @@
                         </p>
                     </b-tab>
                 </b-tabs>
+                <b-row v-else>
+                    <b-col cols="12">
+                        <b-form @submit.prevent="initSearch">
+                            <b-form-input
+                                v-model="searchInput"
+                                id="input-1"
+                                name="q"
+                                placeholder="Search"
+                                required
+                            ></b-form-input>
+                        </b-form>
+                    </b-col>
+                </b-row>
             </section>
         </div>
     </Layout>
@@ -56,45 +73,63 @@ export default {
     data() {
         return {
             query: "",
+            searchInput: "",
             zoteroResults: null,
             error: null,
         };
     },
     mounted() {
-        createGoogleSearch();
-        zoteroSearchOnLoad(this);
+        /*
+         *  On mount, check to see if we ended up here with a 'q' query string,
+         *  set values as appropriate and render search results.
+         */
+        let match = RegExp("[?&]q=([^&]*)").exec(window.location.search);
+        let query = match && decodeURIComponent(match[1].replace(/\+/g, " "));
+        if (query) {
+            this.query = query;
+            this.initSearch();
+        }
+    },
+    methods: {
+        createGoogleSearch() {
+            var cx = "007594916903876912968:w0nrox8rzzy";
+            var gcse = document.createElement("script");
+            gcse.type = "text/javascript";
+            gcse.async = true;
+            gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(gcse, s);
+        },
+        zoteroSearch() {
+            axios
+                .get(`https://api.zotero.org/groups/1732893/items/top?start=0&limit=25&q=${this.query}`)
+                .then((response) => {
+                    this.zoteroResults = response.data;
+                })
+                .catch((error) => {
+                    console.error("Zotero search failed:", error);
+                    this.error = error;
+                });
+        },
+        initSearch() {
+            /*
+             *  Check to see if there's searchInput (from the big search box); if
+             *  so, set query string and internal vars prior to reflecting search
+             *  to masthead box and then kicking off the search.
+             */
+            if (this.searchInput) {
+                this.query = this.searchInput;
+                this.$router.push({
+                    query: { q: this.query },
+                });
+            }
+            let searchInputField = document.getElementById("search-input");
+            searchInputField.value = this.query;
+            this.createGoogleSearch();
+            this.zoteroSearch();
+        },
     },
 };
-function createGoogleSearch() {
-    var cx = "007594916903876912968:w0nrox8rzzy";
-    var gcse = document.createElement("script");
-    gcse.type = "text/javascript";
-    gcse.async = true;
-    gcse.src = "https://cse.google.com/cse.js?cx=" + cx;
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(gcse, s);
-}
-function zoteroSearchOnLoad(instance) {
-    let match = RegExp("[?&]q=([^&]*)").exec(window.location.search);
-    let query = match && decodeURIComponent(match[1].replace(/\+/g, " "));
-    if (query) {
-        instance.query = query;
-    } else {
-        console.error("Could not find a search query in the page url.");
-        return;
-    }
-    let searchInput = document.getElementById("search-input");
-    searchInput.value = query;
-    axios
-        .get(`https://api.zotero.org/groups/1732893/items/top?start=0&limit=25&q=${query}`)
-        .then((response) => {
-            instance.zoteroResults = response.data;
-        })
-        .catch((error) => {
-            console.error("Zotero search failed:", error);
-            instance.error = error;
-        });
-}
 </script>
 
 <page-query>
