@@ -72,11 +72,9 @@ Find all the details about the evolution of the Omicron variant and reproduce it
 
 <!-- Stats help Forum -->
 <div class="card border-info" style="min-width: 24%; max-width: 20rem;">
-<div>
 
-![](/images/galaxy-logos/help-galaxyproject-org-big.png)
+![galaxy project](/images/galaxy-logos/help-galaxyproject-org-big.png)
 
-</div>
 <div class="card-header trim-p">
 
 [An overview and statistics on the Galaxy Help Forum](https://galaxyproject.eu/posts/2021/11/25/ghelp-stats/)
@@ -110,11 +108,9 @@ Thanks to funding from EOSC-Life, the Freiburg Galaxy team will work in 2022 wit
 
 <!-- Australian BioCommons -->
 <div class="card border-info" style="min-width: 24%; max-width: 20rem;">
-<div>
 
-![](/images/logos/australian-biocommons-logo-horizontal-transparent.png)
+![logo Australian Biocommons](/images/logos/australian-biocommons-logo-horizontal-transparent.png)
 
-</div>
 <div class="card-header trim-p">
 
 [Leveraging Galaxy Australia to teach proteomics](https://www.biocommons.org.au/news/galaxy-proteomics-training)
@@ -283,11 +279,9 @@ We will be on Gitter for chat all day long, please take advantage of both to com
 
 <!-- SmallScaleAdmins -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
-<div>
 
 ![SmallScaleAdmins](https://galaxyproject.org/images/galaxy_logo.svg)
 
-</div>
 <div class="card-header trim-p">
 
 [Small Scale Galaxy Admins Meeting](https://galaxyproject.org/events/2022-03-small-scale/)
@@ -303,11 +297,9 @@ Please join us at 4 PM CET [(see in your timezone)](https://www.timeanddate.com/
 
 <!-- GalaxyIntro -->
 <div class="card border-info" style="min-width: 30%; max-width: 50%;;">
-<div>
 
 ![GalaxyIntro](https://www.sib.swiss//templates/sib/images/SIB_LogoQ_GBv.svg)
 
-</div>
 <div class="card-header trim-p">
 
 [Galaxy Introduction for Life Scientists](https://www.sib.swiss/training/course/20220427_GALXY)
