@@ -717,27 +717,41 @@ Funding Agencies and Grants can be recognised include a funding statement descri
 
 # Watch this Next!
 
-This quarter's highlighted video is **Your First Galaxy Analysis* by Dave Clements: 
+<div class="card-deck">
+
+<!-- Video -->
+<div class="card border-info" style="min-width: 30%; max-width: 70%;">
+<div class="card-header trim-p">
+
+[Your First Galaxy Analysis](https://www.youtube.com/embed/1UPCrQxGwcU)
+
+</div>
+
+By Dave Clements
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1UPCrQxGwcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 For more Galaxy video content, visit our [Youtube Channel](https://www.youtube.com/c/GalaxyProject)!
 
-<div class="card-deck">
+</div>
 
-<!-- Sunsetting Round Tables -->
-<div class="card border-info" style="min-width: 24%; max-width: 20rem;">
 
-<div class="trim-p">
+<!-- YT -->
+<div class="card border-info" style="min-width: 30%; max-width: 30%;">
 
-![2021Stats](https://matrix-client.matrix.org/_matrix/media/r0/download/matrix.org/JvklouOAQRqXdVeCxbAPmddN)
+<div class="card-header trim-p">
+
+[YouTube channel stats from 2021](https://www.youtube.com/channel/UCwoMMZPbz1L9AZzvIvrvqYA)
 
 </div>
 
 Also, we're delighted to share how far reaching and helpful our videos have been for so many.
 
+![2021Stats](youtube-snapshot-2021.png)
+
 </div>
 </div>
+
 
 # Releases
 
