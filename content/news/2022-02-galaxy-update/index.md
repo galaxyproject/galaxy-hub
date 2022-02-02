@@ -24,32 +24,6 @@ PS: Subscribe to the [Galaxy Announce mailing list](https://lists.galaxyproject.
 
 ---
 
-# Watch this Next!
-
-This quarter's highlighted video is **Your First Galaxy Analysis* by Dave Clements: 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1UPCrQxGwcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-For more Galaxy video content, visit our [Youtube Channel](https://www.youtube.com/c/GalaxyProject)!
-
-<div class="card-deck">
-
-<!-- Sunsetting Round Tables -->
-<div class="card border-info" style="min-width: 24%; max-width: 20rem;">
-
-<div class="trim-p">
-
-![2021Stats](https://matrix-client.matrix.org/_matrix/media/r0/download/matrix.org/JvklouOAQRqXdVeCxbAPmddN)
-
-</div>
-
-Also, we're delighted to share how far reaching and helpful our videos have been for so many.
-
-
-</div>
-</div>
-
-
 # Community News
 
 <div class="card-deck">
@@ -155,7 +129,7 @@ _‘When it comes to actually training students in proteomics you have to develo
 
 
 <!-- hiring -->
-<div class="card border-info" style="min-width: 40%;">
+<div class="card border-info" style="min-width: 24%; max-width: 20rem;">
 <div class="trim-p">
 
 ![Galaxy is Expanding](/images/GalaxyIsExpandingCloud.png)
@@ -742,6 +716,29 @@ Funding Agencies and Grants can be recognised include a funding statement descri
 
 </div>
 
+# Watch this Next!
+
+This quarter's highlighted video is **Your First Galaxy Analysis* by Dave Clements: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1UPCrQxGwcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+For more Galaxy video content, visit our [Youtube Channel](https://www.youtube.com/c/GalaxyProject)!
+
+<div class="card-deck">
+
+<!-- Sunsetting Round Tables -->
+<div class="card border-info" style="min-width: 24%; max-width: 20rem;">
+
+<div class="trim-p">
+
+![2021Stats](https://matrix-client.matrix.org/_matrix/media/r0/download/matrix.org/JvklouOAQRqXdVeCxbAPmddN)
+
+</div>
+
+Also, we're delighted to share how far reaching and helpful our videos have been for so many.
+
+</div>
+</div>
 
 # Releases
 
