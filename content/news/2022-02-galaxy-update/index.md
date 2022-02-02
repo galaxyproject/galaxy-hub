@@ -178,7 +178,7 @@ See all [upcoming events here](/events/index.md):
 
 **4 February, Online**
 
-Explore your transcriptomics experiments 
+The course consists of a youtube session on counting and differential expression analysis in R and an online Q&A session to solve the exercises and answer all the questions that arise when trying the analysis on your own data.
 
 </div>
 
@@ -202,7 +202,7 @@ We are offering a Galaxy workshop on high-throughput data analysis. This is an o
 
 </div>
 
-<!-- Single-cellRNASeq  -->
+<!-- Single-cellRNASeq -->
 <div class="card border-info" style="min-width: 30%; max-width: 20rem;">
 <div class="trim-p">
 
@@ -223,7 +223,7 @@ Participants will be guided through the droplet-based scRNA-seq analysis pipelin
 </div>
 
 <!-- smorgasbord -->
-<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 60%; max-width: 70%;">
 <div class="trim-p">
 
 ![Smorgasbord](https://gallantries.github.io/assets/images/smorgasbord2/banner.png)
@@ -231,10 +231,9 @@ Participants will be guided through the droplet-based scRNA-seq analysis pipelin
 </div>
 <div class="card-header trim-p">
 
-[GTN Smörgåsbord 2](https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/)
+[GTN Smörgåsbord 2: Tapas](https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/)
 
 </div>
-
 
 **14-18 March, Online**
 
@@ -244,7 +243,7 @@ This event allows you to get a taste of all the GTN has to offer. Be sure to reg
 
 
 <!-- GAT -->
-<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 30%; max-width: 40%;">
 <div class="trim-p">
 
 ![GAT](http://localhost:8080/images/galaxy-logos/admin-training-logo.jpg)
@@ -258,13 +257,13 @@ This event allows you to get a taste of all the GTN has to offer. Be sure to reg
 
 **14-18 March, Online**
 
-The ins and outs of setting up your own production quality Galaxy server. Online and asynchronous. Be sure to apply for the event before February 18th.
+The ins and outs of setting up your own production quality Galaxy server. Online and asynchronous. Be sure to **apply** for the event before **February 18th**.
 
 </div>
 
 
 <!-- Paper Cuts -->
-<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 30%; max-width: 50%;">
 
 <div class="trim-p">
 
@@ -274,7 +273,7 @@ The ins and outs of setting up your own production quality Galaxy server. Online
 
 **17 February, 17 March, 21 April**
 
-Please join us for the CoFest day on the third Thursday of each month (February 17, March 17, and April 21) to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
+Please join us for the CoFest day on the third Thursday of each month to help the Galaxy Ecosystem become a better place, and to help new contributors come on board.
 
 We will be on Gitter for chat all day long, please take advantage of both to communicate with your collaborators around the world.
 
@@ -301,7 +300,7 @@ Please join us at 4 PM CET [(see in your timezone)](https://www.timeanddate.com/
 
 
 <!-- GalaxyIntro -->
-<div class="card border-info" style="min-width: 30%; max-width: 20rem;">
+<div class="card border-info" style="min-width: 30%; max-width: 50%;;">
 <div>
 
 ![GalaxyIntro](https://www.sib.swiss//templates/sib/images/SIB_LogoQ_GBv.svg)
