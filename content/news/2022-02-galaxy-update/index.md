@@ -235,7 +235,7 @@ Participants will be guided through the droplet-based scRNA-seq analysis pipelin
 
 **14-18 March, Online**
 
-This event allows you to get a taste of all the GTN has to offer. Be sure to register for the course to get access to the virtual, asynchronous, 5-day training event!
+This event allows you to get a taste of all the GTN has to offer. Be sure to **register** for the course to get access to the virtual, asynchronous, 5-day training event!
 
 </div>
 
