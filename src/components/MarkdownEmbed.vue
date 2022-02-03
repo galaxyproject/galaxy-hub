@@ -34,7 +34,6 @@ export default {
     },
     mounted() {
         /* Load remote markdown, parse it, and inject in $el. */
-        console.debug("Mounted!");
         fetch(this.href)
             .then((response) => response.text())
             .then((markdownText) => {
