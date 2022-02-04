@@ -339,7 +339,7 @@ function fileRequiresVue(filePath) {
     if (Object.prototype.hasOwnProperty.call(metadata, "components")) {
         return !!metadata.components;
     }
-    if (fileContainsTags(content, ["slot", "g-image", "link-box", "vega-embed"])) {
+    if (fileContainsTags(content, ["slot", "g-image", "link-box", "vega-embed", "markdown-embed"])) {
         return true;
     }
     return false;
