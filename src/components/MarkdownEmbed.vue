@@ -25,11 +25,7 @@ export default {
     },
     computed: {
         processedContents() {
-            return unified()
-                .use(remarkParse)
-                .use(remarkHtml)
-                .processSync(this.markdownContents)
-                .toString();
+            return unified().use(remarkParse).use(remarkHtml).processSync(this.markdownContents).toString();
         },
     },
     mounted() {
