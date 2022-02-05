@@ -6,7 +6,7 @@ title: "Galaxy Working Groups"
 
 **Keywords:** Tactical emphasis, short and medium term planning, area/domain/component focused, applied
 
-Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**  Working groups are an integral part of the [Galaxy Governance Model](/community/governance/).  
+Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**  Working groups are an integral part of the [Galaxy Governance Model](/community/governance/).
 
 ## Initial set of Working Groups
 
@@ -138,15 +138,6 @@ User, admin, and developer support and documentation.
 * Leadership: Jennifer Hillman-Jackson
 
 </div>
-
-
-<!-- Scientific Applications -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-applied text-white">Scientific Applications</div>
-
-This group emphasizes Galaxy support for scientific domains that are not already covered by other *domain-focused* working groups.
-</div>
-
 
 <!-- Cancer -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
