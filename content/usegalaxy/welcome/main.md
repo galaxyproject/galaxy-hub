@@ -42,10 +42,9 @@ Want to learn the best practices for the analysis of SARS-CoV-2 data using Galax
 <div class="col-md-6 order-2">
 <div class="row align-items-center" style="min-height: 100px">
         <div class="col-sm-6 text-center"><a href="https://www.tacc.utexas.edu/" target="_blank"><img src="/images/usegalaxy-welcome/tacc_logo.png" alt="Texas Advanced Computing Center logo"></a></div>
-        <div class="col-sm-6 text-center"><a href="http://www.cyverse.org/" target="_blank"><img src="/images/usegalaxy-welcome/cyverse_logo.png" alt="CyVerse logo"></a></div>
 </div>
 
-This instance of Galaxy is utilizing infrastructure generously provided by [CyVerse][cyverse] at the [Texas Advanced Computing Center][tacc], with support from the [National Science Foundation][nsf].
+This instance of Galaxy is utilizing infrastructure generously provided by the [Texas Advanced Computing Center][tacc], with support from the [National Science Foundation][nsf].
 
 </div>
 </div>
@@ -75,7 +74,6 @@ See the [Terms of Service and Privacy Policy][terms] for more information, inclu
 [ohsu]: http://www.ohsu.edu/
 [ohsu-compbio]: https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/computational-biology/
 [tacc]: http://www.tacc.utexas.edu/
-[cyverse]: http://www.cyverse.org/
 [nsf]: http://www.nsf.gov
 [nhgri]: http://www.genome.gov
 [terms]: https://usegalaxy.org/static/terms.html
