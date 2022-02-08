@@ -109,7 +109,7 @@ Coordinate and guide Galaxy's Outreach & Training efforts, as well as user, admi
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/15)
 * [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
 * [Gitter Channel](https://gitter.im/galaxyproject/wg-goat)
-* [Charter and Priorities](https://docs.google.com/document/d/1YsTnGUAbh1g3z2WSmR7TKGhSPUTWCsQrz5hcCgbsTKY/edit#heading=h.9cp679lig0rf)
+* [Support Charter and Priorities](https://docs.google.com/document/d/1YsTnGUAbh1g3z2WSmR7TKGhSPUTWCsQrz5hcCgbsTKY/edit#heading=h.9cp679lig0rf)
 * Leadership: Delphine Lariviere
 
 </div>
@@ -173,11 +173,12 @@ This project emphasizes analysis of SARS-CoV-2.
 
 <!-- VGP -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-applied text-white">COVID-19</div>
+<div class="card-header bg-wg-applied text-white">VGP</div>
 
-This project emphasizes analysis of SARS-CoV-2.
+Collaboration Between VGP and Galaxy Project for free and easy access to large genome assembly workflows.
 
-* [Project Page](https://galaxyproject.org/projects/covid19/)
+* [Slack Channel](https://genomeark.slack.com/archives/C01QJJ175JQ)
+* [Github Project](https://github.com/Delphine-L/iwc/tree/VGP/workflows/VGP-assembly-v2)
 * Leadership: Delphine Lariviere
 </div>
 
