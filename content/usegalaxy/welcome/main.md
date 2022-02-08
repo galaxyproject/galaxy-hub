@@ -52,7 +52,7 @@ This instance of Galaxy is utilizing infrastructure generously provided by the [
 
 ---
 
-[The Galaxy Project][hub] is supported in part by [NSF][nsf], [NHGRI][nhgri], [The Huck Institutes of the Life Sciences][psu-huck], [The Institute for CyberScience at Penn State][psu-ics], and [Johns Hopkins University][jhu].
+The development and maintenance of this site are supported by [NIH][nih] [NHGRI][nhgri] award U24 HG006620 and [NSF][nsf] award 1929694. Additional support is provided by [NIH][nih] awards AI134384 and HG010263, as well as [NSF][nsf] award 1931531.
 
 This is a free, public, internet accessible resource. Data transfer and data storage are not encrypted. If there are restrictions on the way your research data can be stored and used, please consult your local institutional review board or the project PI before uploading it to any public site, including this Galaxy server.  If you have protected data, large data storage requirements, or short deadlines you are encouraged to setup your own [local Galaxy instance][get-galaxy] or run [Galaxy on the cloud][cloud-galaxy].
 
@@ -67,8 +67,6 @@ See the [Terms of Service and Privacy Policy][terms] for more information, inclu
 
 [psu]: http://www.psu.edu/
 [psu-bx]: http://www.bx.psu.edu/
-[psu-huck]: http://www.huck.psu.edu
-[psu-ics]: http://www.ics.psu.edu
 [jhu]: http://www.jhu.edu/
 [jhu-bio]: http://www.bio.jhu.edu/
 [ohsu]: http://www.ohsu.edu/
