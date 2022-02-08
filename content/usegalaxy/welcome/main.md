@@ -42,10 +42,9 @@ Want to learn the best practices for the analysis of SARS-CoV-2 data using Galax
 <div class="col-md-6 order-2">
 <div class="row align-items-center" style="min-height: 100px">
         <div class="col-sm-6 text-center"><a href="https://www.tacc.utexas.edu/" target="_blank"><img src="/images/usegalaxy-welcome/tacc_logo.png" alt="Texas Advanced Computing Center logo"></a></div>
-        <div class="col-sm-6 text-center"><a href="http://www.cyverse.org/" target="_blank"><img src="/images/usegalaxy-welcome/cyverse_logo.png" alt="CyVerse logo"></a></div>
 </div>
 
-This instance of Galaxy is utilizing infrastructure generously provided by [CyVerse][cyverse] at the [Texas Advanced Computing Center][tacc], with support from the [National Science Foundation][nsf].
+This instance of Galaxy is utilizing infrastructure generously provided by the [Texas Advanced Computing Center][tacc], with support from the [National Science Foundation][nsf].
 
 </div>
 </div>
@@ -53,7 +52,7 @@ This instance of Galaxy is utilizing infrastructure generously provided by [CyVe
 
 ---
 
-[The Galaxy Project][hub] is supported in part by [NSF][nsf], [NHGRI][nhgri], [The Huck Institutes of the Life Sciences][psu-huck], [The Institute for CyberScience at Penn State][psu-ics], and [Johns Hopkins University][jhu].
+The development and maintenance of this site are supported by [NIH][nih] [NHGRI][nhgri] award U24 HG006620 and [NSF][nsf] award 1929694. Additional support is provided by [NIH][nih] awards AI134384 and HG010263, as well as [NSF][nsf] award 1931531.
 
 This is a free, public, internet accessible resource. Data transfer and data storage are not encrypted. If there are restrictions on the way your research data can be stored and used, please consult your local institutional review board or the project PI before uploading it to any public site, including this Galaxy server.  If you have protected data, large data storage requirements, or short deadlines you are encouraged to setup your own [local Galaxy instance][get-galaxy] or run [Galaxy on the cloud][cloud-galaxy].
 
@@ -68,14 +67,11 @@ See the [Terms of Service and Privacy Policy][terms] for more information, inclu
 
 [psu]: http://www.psu.edu/
 [psu-bx]: http://www.bx.psu.edu/
-[psu-huck]: http://www.huck.psu.edu
-[psu-ics]: http://www.ics.psu.edu
 [jhu]: http://www.jhu.edu/
 [jhu-bio]: http://www.bio.jhu.edu/
 [ohsu]: http://www.ohsu.edu/
 [ohsu-compbio]: https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/computational-biology/
 [tacc]: http://www.tacc.utexas.edu/
-[cyverse]: http://www.cyverse.org/
 [nsf]: http://www.nsf.gov
 [nhgri]: http://www.genome.gov
 [terms]: https://usegalaxy.org/static/terms.html
