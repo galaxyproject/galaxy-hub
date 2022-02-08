@@ -29,7 +29,7 @@ Want to learn the best practices for the analysis of SARS-CoV-2 data using Galax
 </div>
 
 <div class="row">
-<div class="col-md-6 order-1">
+<div class="col-md-8 order-1">
 <div class="row align-items-center" style="min-height: 100px">
     <div class="col-sm-4 text-center"><a href="http://www.psu.edu/" target="_blank"><img src="/images/usegalaxy-welcome/psu_logo.png" alt="Penn State University"></a></div>
     <div class="col-sm-4 text-center"><a href="http://www.bio.jhu.edu/" target="_blank"><img src="/images/usegalaxy-welcome/jhu_logo.png" alt="Johns Hopkins University"></a></div>
@@ -39,9 +39,9 @@ Want to learn the best practices for the analysis of SARS-CoV-2 data using Galax
 [The Galaxy Team](https://galaxyproject.org/galaxy-team/) is a part of [the Center for Comparative Genomics and Bioinformatics][psu-bx] at [Penn State][psu], the [Department of Biology][jhu-bio] at [Johns Hopkins University][jhu] and the [Computational Biology Program][ohsu-compbio] at [Oregon Health &amp; Science University][ohsu].
 
 </div>
-<div class="col-md-6 order-2">
+<div class="col-md-4 order-2">
 <div class="row align-items-center" style="min-height: 100px">
-        <div class="col-sm-6 text-center"><a href="https://www.tacc.utexas.edu/" target="_blank"><img src="/images/usegalaxy-welcome/tacc_logo.png" alt="Texas Advanced Computing Center logo"></a></div>
+        <div class="col-sm-8 text-center"><a href="https://www.tacc.utexas.edu/" target="_blank"><img src="/images/usegalaxy-welcome/tacc_logo.png" alt="Texas Advanced Computing Center logo"></a></div>
 </div>
 
 This instance of Galaxy is utilizing infrastructure generously provided by the [Texas Advanced Computing Center][tacc], with support from the [National Science Foundation][nsf].
@@ -73,5 +73,6 @@ See the [Terms of Service and Privacy Policy][terms] for more information, inclu
 [ohsu-compbio]: https://www.ohsu.edu/xd/education/schools/school-of-medicine/departments/computational-biology/
 [tacc]: http://www.tacc.utexas.edu/
 [nsf]: http://www.nsf.gov
+[nih]: https://www.nih.gov/
 [nhgri]: http://www.genome.gov
 [terms]: https://usegalaxy.org/static/terms.html
