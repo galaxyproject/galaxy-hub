@@ -4,7 +4,6 @@ title: usegalaxy.org
 
 #### **Galaxy** is an open source, web-based platform for data intensive biomedical research. If you are new to Galaxy [start here][galaxy-101] or consult our <a id="toggleHelp">help resources</a>. You can install your own Galaxy by following the [tutorial][get-galaxy] and choose from thousands of tools from the [Tool Shed](https://galaxyproject.org/admin/tools/add-tool-from-toolshed-tutorial).
 
-
 <div class="text-center my-5">
 
 [![GTN Smörgåsbord 2: 14-18 March, join a free, global, week-long Galaxy Training event covering everything from RNA-Seq, Single Cell, Proteomics, SARS-CoV-2 and more!  This year will include Galaxy Admin Training.](/images/events/2022-03-smorgasbord2/smorgasbord2-blurb.png)](https://gallantries.github.io/posts/2021/12/14/smorgasbord2-tapas/)
@@ -20,7 +19,6 @@ title: usegalaxy.org
 </button>
 
 </div>
-
 
 <div class="alert alert-info trim-p">
 
@@ -41,7 +39,10 @@ Want to learn the best practices for the analysis of SARS-CoV-2 data using Galax
 </div>
 <div class="col-md-4 order-2">
 <div class="row align-items-center" style="min-height: 100px">
-        <div class="col-sm-8 text-center"><a href="https://www.tacc.utexas.edu/" target="_blank"><img src="/images/usegalaxy-welcome/tacc_logo.png" alt="Texas Advanced Computing Center logo"></a></div>
+        <a class="mx-auto d-block" href="https://www.tacc.utexas.edu/" target="_blank">
+            <img src="/images/usegalaxy-welcome/tacc_logo.png" alt="Texas Advanced Computing Center logo">
+        </a>
+
 </div>
 
 This instance of Galaxy is utilizing infrastructure generously provided by the [Texas Advanced Computing Center][tacc], with support from the [National Science Foundation][nsf].
@@ -49,12 +50,11 @@ This instance of Galaxy is utilizing infrastructure generously provided by the [
 </div>
 </div>
 
-
 ---
 
 The development and maintenance of this site are supported by [NIH][nih] [NHGRI][nhgri] award U24 HG006620 and [NSF][nsf] award 1929694. Additional support is provided by [NIH][nih] awards AI134384 and HG010263, as well as [NSF][nsf] award 1931531.
 
-This is a free, public, internet accessible resource. Data transfer and data storage are not encrypted. If there are restrictions on the way your research data can be stored and used, please consult your local institutional review board or the project PI before uploading it to any public site, including this Galaxy server.  If you have protected data, large data storage requirements, or short deadlines you are encouraged to setup your own [local Galaxy instance][get-galaxy] or run [Galaxy on the cloud][cloud-galaxy].
+This is a free, public, internet accessible resource. Data transfer and data storage are not encrypted. If there are restrictions on the way your research data can be stored and used, please consult your local institutional review board or the project PI before uploading it to any public site, including this Galaxy server. If you have protected data, large data storage requirements, or short deadlines you are encouraged to setup your own [local Galaxy instance][get-galaxy] or run [Galaxy on the cloud][cloud-galaxy].
 
 See the [Terms of Service and Privacy Policy][terms] for more information, including our cookie policy.
 
@@ -64,7 +64,6 @@ See the [Terms of Service and Privacy Policy][terms] for more information, inclu
 [cloud-galaxy]: http://usegalaxy.org/cloud
 [jxtx-foundation]: https://jxtxfoundation.org/
 [covid19]: https://galaxyproject.org/projects/covid19/
-
 [psu]: http://www.psu.edu/
 [psu-bx]: http://www.bx.psu.edu/
 [jhu]: http://www.jhu.edu/
