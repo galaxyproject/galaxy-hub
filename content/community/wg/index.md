@@ -171,6 +171,16 @@ This project emphasizes analysis of SARS-CoV-2.
 * Leadership: Anton Nekrutenko, Wolfgang Maier
 </div>
 
+<!-- VGP -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-applied text-white">COVID-19</div>
+
+This project emphasizes analysis of SARS-CoV-2.
+
+* [Project Page](https://galaxyproject.org/projects/covid19/)
+* Leadership: Delphine Lariviere
+</div>
+
 </div>
 
 NOTE: This is not an exhaustive or final list of working groups or projects.  New groups will be added as needs are identified.
@@ -179,7 +189,7 @@ NOTE: This is not an exhaustive or final list of working groups or projects.  Ne
 
 In reverse chronological order:
 
-### 2021-??-??: Reorganization of working groups and projects
+### 2021-09-01: Reorganization of working groups and projects
 
 This call merged Admin and Deployment into Systems, and Outreach & Training and Support into GOATS. It also differentiated between working groups and projects.  
 
