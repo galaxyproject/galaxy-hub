@@ -10,7 +10,7 @@ The GCC2022 Training Day will be held on Friday, July 8, a full week before the 
 
 Introductory topics will be covered on Training Day. Training on more advanced topics, will be offered live, during the conference...
 
-# Training at the Conference: July 16-19, In-Person
+# Training at the Conference: July 17-20, In-Person
 
 There will be one live and in-person training session each day of the conference.  Each day's session will be 2.5 hours long.  The topics covered will build on the introductory topics offered during Training Day.  Having 4 days of training of will enable us to offer up to 20 different topics during the GCC2022 meeting.
 
