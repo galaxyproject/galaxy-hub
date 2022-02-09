@@ -48,11 +48,6 @@ export default {
         ArticleHeader,
         ArticleFooter,
     },
-    metaInfo() {
-        return {
-            title: this.$page.article.title,
-        };
-    },
     computed: {
         mdClasses() {
             let classes = [];

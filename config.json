@@ -1,4 +1,5 @@
 {
+    "host": "galaxyproject.org",
     "contentDir": "content",
     "collections": {
         "Platform": "/use/"

@@ -1,9 +1,14 @@
 <template>
     <b-button class="home-profile m-1 border" :href="link" variant="outline-primary">
-        <h2>
-            Galaxy for <span class="user-type">{{ title }}</span>
-        </h2>
-        <b-img class="profile-button-img my-3" :src="img" fluid :alt="alt"></b-img>
+        <div class="d-flex flex-column justify-content-between wrapper">
+            <div class="top">
+                <h2 class="text mb-0">
+                    Galaxy for <br />
+                    <span class="user-type">{{ title }}</span>
+                </h2>
+            </div>
+            <b-img class="profile-button-img my-3" :src="img" fluid :alt="alt"></b-img>
+        </div>
     </b-button>
 </template>
 
@@ -19,8 +24,11 @@ export default {
 </script>
 
 <style scoped>
+.wrapper {
+    height: 100%;
+}
 .home-profile {
-    max-width: 19%;
+    width: 13rem;
 }
 .user-type {
     font-weight: bolder;

@@ -26,10 +26,10 @@
                 alt="Galaxy for trainers"
             />
             <HomeProfile
-                title="TOOL DEVELOPERS"
+                title="TOOL AUTHORS"
                 link="/tools/"
                 img="/images/undraw-illustrations/galaxy-for-tool-developers.svg"
-                alt="Galaxy for tool developers"
+                alt="Galaxy for tool authors"
             />
             <HomeProfile
                 title="DEVELOPERS"
