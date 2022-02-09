@@ -21,7 +21,7 @@ Registration rates for virtual participation will be very, very affordable.  How
 * **Access to live broadcasts of all talk presentation sessions.**  There will be three talk sessions on each of the conference days, totalling almost 11 hours of presentation sessions.  If the conference offers any parallel talk presentation sessions, then both will be broadcast live.
 * **Access to the conference chat rooms**, which will be either Slack or Element/Matrix based.  This includes access to the virtual conference help desk, as well as any topic-specific and general rooms on the chat platform.
 
-Note that remote participants will *not* have access to poster/demo sessions, confernece training sessions, birds-of-a-feather meetups (although you can always ask indiividual BoF organizers to include remote participants), and conference social events.
+Note that remote participants will *not* have access to poster/demo sessions, conference training sessions, birds-of-a-feather meetups (although you can always ask indiividual BoF organizers to include remote participants), and conference social events.
 
 ### In-Person
 
