@@ -115,11 +115,11 @@ Maren's presentation took full advantage of the Remo conference platform, which 
 <img class="card-img-top" src="/images/galaxy-logos/events/gcc2022-logo-600.png" alt="GCC2022" />
 <div class="card-header trim-p">
 
-GCC2022: July 16-23, Minneapolis
+GCC2022: July 17-23, Minneapolis, MN
 
 </div>
 
-We are pleased to announce that the 2022 Galaxy Community Conference (GCC2022) will take place in Minneapolis, Minnesota, United States, from July 16 through July 23.  GCC2022 is hosted by the [Minnesota Supercomputer Institute](https://www.msi.umn.edu/) and the [Galaxy-P Project](http://galaxyp.org/) at the [University of Minnesota](https://twin-cities.umn.edu/).  It will be live and in person with talks broadcast around the world.  GCC2022 starts two days after [ISMB 2022](https://www.iscb.org/ismb2022) ends in Madison, Wisconsin, a 5 hour drive away.  See the [meeting announcement](https://static.sched.com/hosted_files/gcc2021/5a/GCC2021%20-%20Closing2.pdf#page=19) for full details.
+We are pleased to announce that the 2022 Galaxy Community Conference (GCC2022) will take place in Minneapolis, Minnesota, United States, from July 17 through July 23.  GCC2022 is hosted by the [Minnesota Supercomputer Institute](https://www.msi.umn.edu/) and the [Galaxy-P Project](http://galaxyp.org/) at the [University of Minnesota](https://twin-cities.umn.edu/).  It will be live and in person with talks broadcast around the world.  GCC2022 starts two days after [ISMB 2022](https://www.iscb.org/ismb2022) ends in Madison, Wisconsin, a 5 hour drive away.  See the [meeting announcement](https://static.sched.com/hosted_files/gcc2021/5a/GCC2021%20-%20Closing2.pdf#page=19) for full details.
 
 </div>
 </div>
@@ -523,4 +523,3 @@ From Nate Coraor: a [Docker Compose](https://docs.docker.com/compose/)-based sol
 </div>
 
 </div>
-
