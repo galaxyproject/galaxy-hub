@@ -5,8 +5,7 @@ title: Galaxy Glossary
 
 Below are Galaxy's Glossary for keywords used throughout our ecosystem for easier understanding.
 
-
-**[Administrator or Admin](https://galaxyproject.org/admin/)** Person in charge of managing a Galaxy server.
+ **[Administrator or Admin](https://galaxyproject.org/admin/)** Person in charge of managing a Galaxy server.
 
 **[API](https://galaxyproject.org/develop/api/)** Acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other.
 
@@ -61,7 +60,8 @@ Exec Board.
 **[Intergalactic Data Commission (IDC)](https://github.com/galaxyproject/idc)** Group of members of the Galaxy community that collect best practices, 
 tips and tricks to maintain reference data.
 
-**[Galaxy Instance](https://galaxyproject.org/admin/get-galaxy/)** Customizable deployment of the Galaxy software that can be either private or public. 
+##### [Galaxy Instance](https://galaxyproject.org/admin/get-galaxy/)
+Customizable deployment of the Galaxy software that can be either private or public. 
 
 **[Job](https://galaxyproject.org/support/how-jobs-execute/)** Execution of a Galaxy tool to schedule or be processed by the system with no interaction by the user.
 
@@ -75,16 +75,18 @@ tips and tricks to maintain reference data.
 
 **[Quota or Account Quota](https://galaxyproject.org/support/account-quotas/)** Predefined maximum amount of storage per account defined by each server. Users are in control of it and may purge stored data by themselves. 
 
-**Galaxy Server** See <a name="Galaxy Instance">Galaxy Instance.</a>
+**Galaxy Server** See [Galaxy Instance](#galaxy-instance) 
 
 **[Galaxy Community Hub](https://galaxyproject.org/)** The home base collecting all the resources relevant to the Galaxy community.
 
-**Training Infrastructure as a Service (TIaaS)** Service provided by some public Galaxy instances, which allows a private queue in the server for training. The jobs run preferentially in the private queue instead of the regular one. TIaaS also provides a dashboard for trainers to follow and monitor the progress of their students.
+**[Training Infrastructure as a Service (TIaaS)](https://galaxyproject.eu/tiaas.html)** Service provided by some public Galaxy instances, which allows a private queue in the server for training. The jobs run preferentially in the private queue instead of the regular one. TIaaS also provides a dashboard for trainers to follow and monitor the progress of their students.
 
 **Tool** The fundamental building blocks for analyses in a Galaxy Instance, consisting of a command-line runnable code and its Tool Wrapper 
 
-**Tool Wrapper** XML file that needs to be defined for each tool to be run on Galaxy. Provides the glue that links your tool to Galaxy by telling Galaxy how to invoke it, what options to pass, and what files it will produce as output.
+**[Tool Wrapper](https://docs.galaxyproject.org/en/latest/dev/schema.html)** XML file that needs to be defined for each tool to be run on Galaxy. Provides the glue that links your tool to Galaxy by telling Galaxy how to invoke it, what options to pass, and what files it will produce as output.
 
-**Galaxy Tool Shed** App store version for Galaxy, mainly used by tool developers and admins.
+**[Galaxy Tool Shed](https://toolshed.g2.bx.psu.edu/)** App store version for Galaxy, mainly used by tool developers and admins.
 
-**Workflow** Sequence of tasks (or step by step instructions).
+**[Workflow](https://training.galaxyproject.org/training-material/topics/galaxy-interface/tutorials/workflow-editor/tutorial.html)** Sequence of tasks (or step by step instructions).
+
+[Back to top](#)
