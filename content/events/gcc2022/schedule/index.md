@@ -31,7 +31,7 @@ Introductory topics will be covered on Training Day.  More advanced topics will 
 <!-- GCC2022 Conference -->
 <div class="card" style="min-width: 35%; max-width: 40rem;">
 <div class="card-header">
-Meeting: July 16-19
+Meeting: July 17-20
 </div>
 
 **This is it!  Our first in-person GCC since 2019!**  The four day meeting will feature accepted and invited talks, poster, demo, and sponsor sessions, training sessions, Birds-of-a-Feather (BoF) sessions, a conference dinner, and lots of time for networking
@@ -43,7 +43,7 @@ This year we are expanding the number of days from three to four, but shortening
 <!-- CoFest -->
 <div class="card" style="min-width: 25%; max-width: 40rem;">
 <div class="card-header">
-CoFest: July 20-22
+CoFest: 21-23
 </div>
 
 This three day event gathers community members who are interested in contributing to Galaxy's code base, available tool set, documentation, training materials, and anywhere else that expands or improves the Galaxy ecosystem.  You can register for 1, 2 or 3 days of the CoFest.
