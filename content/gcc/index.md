@@ -34,7 +34,7 @@ GCC has met annually since 2010 and the program has grown and transformed each y
 
 | Dates | Event | Where | Hosts | # |
 | ---- | ---- | ---- | ---- | ----: |
-| **July 16-23, 2022** | **[GCC2022](/events/gcc2022/)** | **Minneapolis, Minnesota, United States** | **[Minnesota Supercomputing Institute](https://www.msi.umn.edu/) and [GalaxyP Project](http://galaxyp.org/), University of Minnesota** |  |
+| **July 17-23, 2022** | **[GCC2022](/events/gcc2022/)** | **Minneapolis, Minnesota, United States** | **[Minnesota Supercomputing Institute](https://www.msi.umn.edu/) and [GalaxyP Project](http://galaxyp.org/), University of Minnesota** |  |
 | June 28-July 10, 2021 | [GCC2021](https://www.vibconferences.be/events/gcc2021-virtual-edition#main-content) | Online, Global | [VIB](https://vib.be/) | 398 |
 | July 17-26, 2020 | [BCC2020](https://bcc2020.github.io/) | Online, Global | [Ontario Institute for Cancer Research](https://oicr.on.ca/), [Galaxy Australia](https://usegalaxy.org.au/) / [Australian BioCommons](https://www.biocommons.org.au/) | 804 |
 | July 1-6, 2019 | [GCC2019](https://galaxyproject.org/gcc2019) | Freiburg, Germany | [Freiburg Galaxy Project](http://www.bioinf.uni-freiburg.de/Galaxy/), the [University of Freiburg](http://www.uni-freiburg.de/), and [de.NBI (the German Network for Bioinformatics Infrastructure)](https://www.denbi.de/) | 231 |

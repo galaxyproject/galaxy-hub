@@ -1,5 +1,5 @@
 ---
-title: "Galaxy Working Groups"
+title: "Galaxy Working Groups and Projects"
 ---
 
 ## Distributing project guidance to the community
@@ -8,22 +8,23 @@ title: "Galaxy Working Groups"
 
 Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**  Working groups are an integral part of the [Galaxy Governance Model](/community/governance/).
 
-## Initial set of Working Groups
+## Current set of Working Groups
 
-The initial proposal includes these areas:
+The current set of working groups includes these areas:
 
 <div class="card-deck">
 
-<!-- Admin -->
+<!-- Systems -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-primary text-white">Admin</div>
+<div class="card-header bg-wg-primary text-white">Systems</div>
 
-Focus on Galaxy administration and maintenance.
+Focus on Galaxy administration, maintenance, and installation.
 
-* [Google Drive](https://drive.google.com/drive/folders/1wUWo3n3dS40Gqu_G60scEGyI37KEhvrp)
-* [Gitter Chat](https://gitter.im/galaxyproject/wg-admin)
-* [GitHub Project](https://github.com/orgs/galaxyproject/projects/16)
-* Leadership: (rotating) Helena Rasche, Gianmauro Cuccuru
+* [Google Drive](https://drive.google.com/drive/u/0/folders/1jj9M2wpH-j5fRtEXOXUPF2R55W4AAHDT)
+* [Gitter Chat](https://gitter.im/galaxyproject/wg-systems)
+* [GitHub Project Admin](https://github.com/orgs/galaxyproject/projects/16)
+* [GitHub Project Deployment](https://github.com/orgs/galaxyproject/projects/17)
+* Leadership: Nate Coraor
 
 </div>
 
@@ -37,7 +38,7 @@ Focus on the Galaxy server code and architecture.
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/11)
 * [Google Drive](https://drive.google.com/drive/folders/1wPjD6j0ERp_XRCvrtFQ7cF8XwojJkm6k)
 * [Gitter Channel](https://gitter.im/galaxyproject/wg-backend)
-* Leadership: Marius van den Beek
+* Leadership: Marius van den Beek, John Chilton
 
 </div>
 
@@ -65,23 +66,10 @@ Testing and hardening the Galaxy ecosystem, developing and maintaining test infr
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/12)
 * [Google Drive](https://drive.google.com/drive/folders/1jglyg2B-iyE7JdPIVxbJtyizJmEyZ-8A)
 * [Gitter Channel](https://gitter.im/galaxyproject/testing-hardening)
-* Leadership: John Chilton
+* Leadership: John Chilton, Sergey Golitsynskiy
 
 </div>
 
-
-<!-- Deployment -->
-<div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-primary text-white">Deployment</div>
-
-Focuses on installing Galaxy and where Galaxy meets the bare or virtual metal.
-
-* [GitHub Project](https://github.com/orgs/galaxyproject/projects/17)
-* [Google Drive](https://drive.google.com/drive/folders/1bKMucBzlXex5uJKVmJhMIIpWRlXKOygG)
-* [Gitter Channel](https://gitter.im/galaxyproject/wg-deployment)
-* Leadership: Nate Coraor
-
-</div>
 
 <!-- Tools -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
@@ -112,38 +100,46 @@ This group builds the standards and ecosystem for execution, testing, publishing
 </div>
 
 
-
-<!-- Outreach & Training -->
+<!-- GOATS -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-goats text-white">Outreach & Training</div>
+<div class="card-header bg-wg-goats text-white">GOATS</div>
 
-Coordinate and guide Galaxy's Outreach & Training efforts.
+Coordinate and guide Galaxy's Outreach & Training efforts, as well as user, admin, and developer support and documentation. Galaxy Outreach And Training (And) Support = GOATS!
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/15)
 * [Google Drive](https://drive.google.com/drive/folders/1KIircdXhvS7-00XZy1uIs6Dmja29yjAW)
 * [Gitter Channel](https://gitter.im/galaxyproject/wg-goat)
+* [Support Charter and Priorities](https://docs.google.com/document/d/1YsTnGUAbh1g3z2WSmR7TKGhSPUTWCsQrz5hcCgbsTKY/edit#heading=h.9cp679lig0rf)
 * Leadership: Delphine Lariviere
 
 </div>
 
 
-<!-- Support -->
+<!-- All -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-goats text-white">Support</div>
+<div class="card-header bg-wg-all text-white">All Working Groups</div>
 
-User, admin, and developer support and documentation.
+Communications across working groups.
 
-* [Charter and Priorities](https://docs.google.com/document/d/1YsTnGUAbh1g3z2WSmR7TKGhSPUTWCsQrz5hcCgbsTKY/edit#heading=h.9cp679lig0rf)
-* [Gitter Channel](https://gitter.im/galaxyproject/support-organizing)
-* Leadership: Jennifer Hillman-Jackson
+* [Gitter Chat](https://gitter.im/galaxyproject/wg-all)
+    * Please consider joining if you are involved in any working group.
 
 </div>
+=======
+</div>
 
+## Current set of Projects
+
+The current set of projects includes these areas:
+
+<div class="card-deck">
+
+>>>>>>> 4fc26e9d6044102f2550a1ded9003f1f09b4fd22
 <!-- Cancer -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-wg-applied text-white">Cancer Informatics</div>
 
-This *domain-focused* working group emphasizes applying Galaxy in cancer research.
+This project emphasizes applying Galaxy in cancer research.
 
 * [GitHub Project](https://github.com/orgs/galaxyproject/projects/14)
 * [Google Drive](https://drive.google.com/drive/folders/1diqrY6lQ_RbxcJUA-phaYutZqij_X3ku)
@@ -157,7 +153,7 @@ This *domain-focused* working group emphasizes applying Galaxy in cancer researc
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-wg-applied text-white">Human Genetics</div>
 
-This *domain-focused* working group emphasizes applying Galaxy in human research.
+This project emphasizes applying Galaxy in human research.
 
 * [Google Drive](https://drive.google.com/drive/folders/1YMCwHicRNLtT0t8AIZaQNoT2uaDaQm3H)
 * [Goals Slide](https://docs.google.com/presentation/d/1h4vZe0zOUQVOeFxc49levRpmgWmJlMkedQjp2QRrQZw/edit?usp=sharing)
@@ -166,31 +162,38 @@ This *domain-focused* working group emphasizes applying Galaxy in human research
 </div>
 
 
-<!-- More to Come -->
-<div class="card" style="min-width: 12rem; max-width: 20rem; opacity: 0.95">
-<div class="card-header">More to Come</div>
-
-This is an initial, but by no means exhaustive or final list of working groups.  New working groups will be added as needs are identified.
-
-</div>
-
-<!-- All -->
+<!-- COVID-19 -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
-<div class="card-header bg-wg-all text-white">All Working Groups</div>
+<div class="card-header bg-wg-applied text-white">COVID-19</div>
 
-Communications across working groups.
+This project emphasizes analysis of SARS-CoV-2.
 
-* [Gitter Chat](https://gitter.im/galaxyproject/wg-all)
-    * Please condsider joining if you are involved in any working group.
+* [Project Page](https://galaxyproject.org/projects/covid19/)
+* Leadership: Anton Nekrutenko, Wolfgang Maier
+</div>
 
+<!-- VGP -->
+<div class="card" style="min-width: 12rem; max-width: 20rem">
+<div class="card-header bg-wg-applied text-white">VGP</div>
+
+Collaboration Between VGP and Galaxy Project for free and easy access to large genome assembly workflows.
+
+* [Slack Channel](https://genomeark.slack.com/archives/C01QJJ175JQ)
+* [Github Project](https://github.com/Delphine-L/iwc/tree/VGP/workflows/VGP-assembly-v2)
+* Leadership: Delphine Lariviere
 </div>
 
 </div>
 
+NOTE: This is not an exhaustive or final list of working groups or projects.  New groups will be added as needs are identified.
 
 ## Timeline
 
 In reverse chronological order:
+
+### 2021-09-01: Reorganization of working groups and projects
+
+This call merged Admin and Deployment into Systems, and Outreach & Training and Support into GOATS. It also differentiated between working groups and projects.  
 
 ### 2021-01-07: Launch follow up
 
