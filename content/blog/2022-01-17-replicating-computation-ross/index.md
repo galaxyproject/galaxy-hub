@@ -1,7 +1,7 @@
 ---
 title: A user's guide to the virtual, automated, computing Lab Notebook in Galaxy.
 tease: How a "Redo" button enables transparent and open scientific computing.
-authors: "Ross Lazarus. Ideas from many other contributors"
+authors: "Ross Lazarus"
 external_url: ""
 date: "2022-01-16"
 source_blog: ""

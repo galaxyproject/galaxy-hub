@@ -6,7 +6,7 @@ title: "Galaxy Working Groups and Projects"
 
 **Keywords:** Tactical emphasis, short and medium term planning, area/domain/component focused, applied
 
-Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**  Working groups are an integral part of the [Galaxy Governance Model](/community/governance/).
+Galaxy has grown a lot over the years, going from a project at one university in 2005 to the global community it is today. Several parts of the Galaxy ecosystem have become avowedly and obviously community driven during that time, including tools, code, training, and several other international efforts.  **Galaxy Working Groups push this global model to other areas of Galaxy as well.**  Working groups are an integral part of the [Galaxy Governance Model](/community/governance/).  
 
 ## Current set of Working Groups
 
@@ -125,7 +125,7 @@ Communications across working groups.
     * Please consider joining if you are involved in any working group.
 
 </div>
-=======
+
 </div>
 
 ## Current set of Projects
@@ -134,7 +134,6 @@ The current set of projects includes these areas:
 
 <div class="card-deck">
 
->>>>>>> 4fc26e9d6044102f2550a1ded9003f1f09b4fd22
 <!-- Cancer -->
 <div class="card" style="min-width: 12rem; max-width: 20rem">
 <div class="card-header bg-wg-applied text-white">Cancer Informatics</div>
