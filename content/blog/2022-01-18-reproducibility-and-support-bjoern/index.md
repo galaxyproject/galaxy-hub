@@ -2,7 +2,7 @@
 site: freiburg
 tags: [comment]
 title: Galaxy as a sharing infrastructure and how this enables efficient user support
-authors: "Bjoern Gruening, Cristóbal Gallardo, Jennifer Hillman-Jackson, Ross Lazarus"
+authors: "Björn Grüning, Cristóbal Gallardo, Jennifer Hillman-Jackson, Ross Lazarus"
 date: "2022-01-18"
 ---
 
