@@ -10,7 +10,7 @@ platforms:
 summary: "General purpose genomics analysis server."
 image: "/images/logos/UCA_mesocentre.png"
 comments:
-- "It includes most standard tools for DNA/RNA analysis and additionals ones on project demands."
+- "It includes most standard tools for DNA/RNA analysis and additional ones on project demands."
 user_support:
 - "Email: mesocentre AT uca DOT fr"
 - "Tutorials (see home page)"

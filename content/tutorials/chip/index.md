@@ -241,7 +241,7 @@ In the matrix above a large portion of ChIP reads (column 4) is concentrated in 
 |![](/tutorials/chip/ses.png)|
 |<small>**SES** plot for our toy example. Most "reads" in the ChIP experiment are concentrated in the last three bins.</small>|
 
-[DeepTools](https://deeptools.github.io/) provide a nice explanation of how the success of a ChIP experiment can be judged based on SES (also called *fingerprint*) plots:
+[DeepTools](https://deeptools.readthedocs.io/en/develop/) provide a nice explanation of how the success of a ChIP experiment can be judged based on SES (also called *fingerprint*) plots:
 
 |      |
 |------|
